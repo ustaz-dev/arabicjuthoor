@@ -1,0 +1,13 @@
+# Juthoor — The Arabic Tongue
+# https://arabicjuthoor.com/
+
+User-agent: *
+Allow: /
+
+# Disallow internal scaffolding and raw scholar sources
+Disallow: /Data%20raw/
+Disallow: /Data raw/
+Disallow: /.claude/
+Disallow: /.git/
+
+Sitemap: https://arabicjuthoor.com/sitemap.xml

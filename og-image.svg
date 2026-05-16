@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdfaf5"/>
+      <stop offset="100%" stop-color="#faf3df"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b8862f"/>
+      <stop offset="100%" stop-color="#d4a73f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative top stripe -->
+  <rect x="0" y="0" width="1200" height="8" fill="url(#accent)"/>
+
+  <!-- Brand mark (right side, Arabic) -->
+  <text x="1100" y="180"
+        font-family="'Amiri', 'Noto Naskh Arabic', serif"
+        font-size="200"
+        font-weight="700"
+        text-anchor="end"
+        fill="#b8862f"
+        opacity="0.85">جُذُور</text>
+
+  <!-- Project title (left, English) -->
+  <text x="100" y="220"
+        font-family="'Inter', system-ui, sans-serif"
+        font-size="78"
+        font-weight="800"
+        fill="#1a2236"
+        letter-spacing="-2">Juthoor</text>
+
+  <!-- Subtitle -->
+  <text x="100" y="280"
+        font-family="'Inter', system-ui, sans-serif"
+        font-size="32"
+        font-weight="500"
+        fill="#4a5266">The Arabic Tongue · meaning from letter to root</text>
+
+  <!-- Divider -->
+  <rect x="100" y="320" width="80" height="3" fill="#b8862f"/>
+
+  <!-- Stats row -->
+  <g font-family="'Inter', system-ui, sans-serif" fill="#1a2236">
+    <text x="100" y="400" font-size="56" font-weight="800" fill="#b8862f">28</text>
+    <text x="100" y="430" font-size="16" font-weight="500" fill="#4a5266" letter-spacing="1">LETTERS · DUAL-FACE</text>
+
+    <text x="280" y="400" font-size="56" font-weight="800" fill="#b8862f">453</text>
+    <text x="280" y="430" font-size="16" font-weight="500" fill="#4a5266" letter-spacing="1">BINARY NUCLEI</text>
+
+    <text x="460" y="400" font-size="56" font-weight="800" fill="#b8862f">2,285</text>
+    <text x="460" y="430" font-size="16" font-weight="500" fill="#4a5266" letter-spacing="1">TRILATERALS GRADED</text>
+
+    <text x="720" y="400" font-size="56" font-weight="800" fill="#b8862f">12</text>
+    <text x="720" y="430" font-size="16" font-weight="500" fill="#4a5266" letter-spacing="1">OPERATIVE MODES</text>
+
+    <text x="850" y="400" font-size="56" font-weight="800" fill="#b8862f">100%</text>
+    <text x="850" y="430" font-size="16" font-weight="500" fill="#4a5266" letter-spacing="1">NATIVE FIT</text>
+  </g>
+
+  <!-- Footer line -->
+  <rect x="0" y="555" width="1200" height="1" fill="#e4ddd0"/>
+
+  <text x="100" y="600"
+        font-family="'Inter', system-ui, sans-serif"
+        font-size="22"
+        font-weight="600"
+        fill="#4a5266">arabicjuthoor.com</text>
+
+  <text x="1100" y="600"
+        font-family="'Inter', system-ui, sans-serif"
+        font-size="18"
+        font-weight="500"
+        text-anchor="end"
+        fill="#8a8e9c">Conducted under Temessek for Research, Publishing &amp; Training</text>
+</svg>
