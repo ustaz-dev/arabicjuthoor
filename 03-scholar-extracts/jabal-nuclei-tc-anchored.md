@@ -1,6 +1,6 @@
-# Nuclei TC-anchored (full detail)
+# Quran-anchored nuclei (full detail)
 
-Each entry shows the user's own published Arabic reading (primary + variants), the LLM-translated English gloss, the two letter charges, all reading variants found in the published Tafsir Coran corpus, and sample ayah references.
+Each entry shows the published Arabic reading (primary + variants), the English gloss, the two letter charges, all reading variants found in the published Tafsir Coran corpus, and sample ayah references.
 
 **Count:** 258
 
