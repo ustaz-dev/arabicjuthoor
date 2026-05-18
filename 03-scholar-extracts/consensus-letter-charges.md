@@ -1,10 +1,11 @@
-# Consensus Letter Charges & Common Nuclei
+# Unified Letter Charges & Common Nuclei
 
-> **Status:** the canonical reference table for the study. The harmonized 28-letter charge table, the universal dual-face structure, the 18-nucleus working shortlist, and worked examples.
+> **Status:** the canonical reference table for the study. The unified 28-letter charge table, the general dual-face rule, the 18-nucleus working shortlist, and worked examples.
 > **Relationship to other vault files:**
-> - The per-scholar source tables (جبل, عاصم, عباس, النيلي, عنبر, خشيم, ذوق) live unprocessed in `Data raw/Languistic theories/`.
-> - عباس's per-letter dual-axis classification is in [`abbas-letter-classification.md`](abbas-letter-classification.md).
+> - The modern lexicographic foundation (Jabal) and parallel sensory-profile work (Abbas) live unprocessed in `Data raw/Languistic theories/`. Cross-linguistic substitution laws (Khshim) are handled in `04-cross-linguistic/`.
+> - Abbas's per-letter dual-axis classification is in [`abbas-letter-classification.md`](abbas-letter-classification.md).
 > - The full 453-nucleus catalog with source-anchored evidence is in [`jabal-nuclei-extended.md`](jabal-nuclei-extended.md) and [`jabal-nuclei-tc-anchored.md`](jabal-nuclei-tc-anchored.md).
+> - The classical Arabic tradition this work builds on (Khalil, Ibn Jinni, …) is surveyed in [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md).
 
 ---
 
@@ -12,13 +13,13 @@
 
 Every Arabic letter carries a **phonetic charge**, a description of what the mouth, tongue, throat, or breath is doing when the sound is produced. Those physical gestures carry a recognizable semantic flavour (affirmation, extension, closure, cutting, flow, gathering). When letters combine, their charges compose. A **root-nucleus** (usually two letters) acts as the seed; the third letter of the trilateral root adds the final motion, and the full word lands on a specific instance of that composed motion.
 
-The charges below are not invented. They are a shared reading anchored in Arabic phonetics and in the classical lexicons, distilled from a worked corpus across the published ayat. **Variants**, alternative phrasings of the same physical charge that emphasize a different semantic axis, are noted where the corpus has used them.
+The charges below are not invented. They are a shared reading anchored in Arabic phonetics and in the classical lexicons (al-Khalil's *Kitab al-Ayn*, Ibn Jinni's *الخصائص*, the dictionary tradition), and distilled from a worked corpus across the published ayat. **Variants**, alternative phrasings of the same physical charge that emphasize a different semantic axis, are noted where the corpus has used them.
 
-## The 28-letter consensus table
+## The unified 28-letter charge table
 
-Form: **حرف (شحنة جسديّة + شحنة معنويّة), phonetic note, English gloss**.
+Form: **حرف (شحنة جسديّة + شحنة معنويّة) · phonetic note · English gloss**.
 
-| حرف | الشحنة (consensus) | Phonetic note | English gloss |
+| حرف | الشحنة (المُوَحَّدة) | Phonetic note | English gloss |
 | --- | --- | --- | --- |
 | **ء / أ (الهمزة)** | تَأكيد + قَطع | a sharp glottal onset, the breath stopped at the throat | sharp affirmation, beginning |
 | **ا (ألف)** | امتداد صائت | the breath standing open, prolonged | extension, sustained presence |
@@ -50,15 +51,15 @@ Form: **حرف (شحنة جسديّة + شحنة معنويّة), phonetic note,
 | **و** | وَصل + ربط | rounded lips, a sustained connector | binding, joining, sustained link |
 | **ي** | امتداد + لِين + سَريان | front of palate, voiced glide | gentle directed extension |
 
-## Variants, same physical charge, multiple semantic faces
+## Variants, same physical charge, two semantic faces
 
-Every Arabic letter carries two semantic faces of the same physical articulation. The third letter of a trilateral root selects which face is active in any given nucleus. This section is the comprehensive 28-letter dual-face table, derived from a uniform empirical test across all 453 binary nuclei in Jabal's lexicon (see `jabal-letters.html` for the test results and per-letter evidence).
+Every Arabic letter carries two semantic faces of the same physical articulation. The third letter of a trilateral root selects which face is active in any given nucleus. This section is the comprehensive 28-letter dual-face table, derived from a uniform inductive test across all 453 binary nuclei in Jabal's lexicon (see `jabal-letters.html` for the test results and per-letter evidence).
 
 For each letter, the trilateral families in the nucleus catalog consistently activate one face or the other, establishing the dual-face structure as the rule of the system.
 
 - **ء**, primary "sharp affirmation, beginning" reads as «تَأكيد + قَطع»; the boundary face reads as «قَطع + فَصْل» (cut that separates, decisive boundary, e.g. أَبَى, أَجَل, إِلَّا, مِائَة). Same glottal stop, two semantic faces, the cut opens (onset) or closes (demarcation).
 - **ا**, primary "extension, sustained presence" reads as «امتداد صائت»; the projecting face reads as «امتداد منبسط» (open extending outward). Same prolonged breath, two semantic faces.
-- **ب**, primary "attachment/holding" reads as «اتّصال + تَمَسُّك»; surface-of-presence reads as «بَوّابة تُظهر / ظهور + خروج»; sealed enclosure reads as «انطِباق + إغلاق». Same lip closure, three semantic faces.
+- **ب**, primary "attachment that holds and reveals" reads as «اتّصال + تَمَسُّك» (the held attachment which, like a doorway, also brings what is behind it into view); the closure face reads as «انطِباق + إغلاق» (sealed shutting). Same lip closure, two semantic faces, opening-onto or sealed-against.
 - **ت**, calm completion reads as «امتداد لطيف + تَمام»; sharp dental pressure reads as «ضَغط + دِقّة + قَطع». Same tongue-to-teeth, two intensities.
 - **ث**, primary "scattering, small-grained spread" reads as «تَناثُر + تَفَتُّت»; the densifying face reads as «تَجَمُّع دَقيق» (fine accumulation inward, e.g. ثَبَّتَ, ثَقُلَتْ, الثَّمَر). Same interdental breath, two semantic faces, scatters or densifies.
 - **ج**, primary "gathering in a space" reads as «تَجَمُّع في حَيِّز»; the surfacing face reads as «بُروز من حَيِّز» (surfacing out of a space, e.g. جَهْرًا, الْجِنّ). Same mid-palate burst, two semantic faces, gathered-in or breaking-forth.
@@ -66,7 +67,7 @@ For each letter, the trilateral families in the nucleus catalog consistently act
 - **خ**, primary "rarefying, piercing through" reads as «تَخَلخُل + اختِراق»; the concealing face reads as «سَتر مُكَثَّف» (thick concealing inward, e.g. خَتَمَ, الْخَفِيّ). Same back-of-throat scratch, two semantic faces, rarefies or densifies into concealment.
 - **د**, settled grounding reads as «ضَبط + ثَبات»; active inward push reads as «دَفع داخليّ ثابت». Same closure, two motions.
 - **ذ**, primary "piercing from inside, fine bringing-out" reads as «نَفاذ + حِدَّة»; the inward-storing face reads as «ادّخار في الباطن» (held-inside concealing, e.g. ذُخْر, الذِّكْر). Same voiced interdental, two semantic faces, issues from interior or holds within.
-- **ر**, primary "repetition, running, flow" reads as «تَكرار + جَريان»; the binding face reads as «جَريانٌ مُلتَئِم» (flow that binds inward, e.g. الرَّبّ, مَرْصُوص, التَّرْتِيل). Same tongue trill, two semantic faces, running out or fastening down.
+- **ر**, primary "repetition, running, flow" reads as «تَكرار + جَريان»; the binding face reads as «جَريانٌ مُلتَئِم» (flow that binds inward, e.g. رَبَّى, مَرْصُوص, التَّرْتِيل). Same tongue trill, two semantic faces, running out or fastening down.
 - **ز**, sharp thrust reads as «اندفاع + اهتزاز قاطع»; fine penetration reads as «نَفاذ + حِدّة». Same voiced sibilant thrust, two intensities.
 - **س**, primary "extending flow, fine streaming" reads as «امتداد + سَيَلان»; the held-flow face reads as «احتِواء سَيّال» (fluid held inside, e.g. السِّرّ, السَّكِينَة, السِّجْن). Same breathy sibilant, two semantic faces, flow released or flow contained.
 - **ش**, primary "branching, scattering outward" reads as «انتشار + تَفَرُّق»; the embracing face reads as «اشتمال مُمتَدّ» (embracing inward spread, e.g. اشْتَمَلَ, شَغَفَ, شَدِيد). Same wide front-of-mouth breath, two semantic faces, scatters or envelops.
@@ -86,7 +87,7 @@ For each letter, the trilateral families in the nucleus catalog consistently act
 - **و**, primary "binding, joining, sustained link" reads as «وَصل + ربط»; the linked-release face reads as «اِنفصال مع اِتِّصال» (linked release, e.g. تَوَلَّى, وَدَّعَ). Same rounded-lip sustain, two semantic faces, binds-in or releases-while-bound.
 - **ي**, primary "gentle directed extension" reads as «امتداد + لِين + سَريان»; the soft-adherence face reads as «التِصاق ناعِم» (soft adherence, e.g. الْأَيْدِي, تَيَمَّمُوا, الْيَمّ). Same front-of-palate voiced glide, two semantic faces, extends gently or adheres softly.
 
-**The methodological claim:** the dual-face structure isn't a special property of 6 letters, it's the universal structure of the Arabic phonetic-semantic system. Every letter's physical articulation carries two possible semantic directions. The trilateral family selects which is active.
+**The methodological claim:** the dual-face structure isn't a special property of 6 letters, it's the general rule of the Arabic phonetic-semantic system. Every letter's physical articulation carries two possible semantic directions. The trilateral family selects which is active.
 
 When a new use-case appears, **prefer the primary charge** unless the context genuinely activates the variant axis. If a variant is used, it should be one already attested in the corpus, not a fresh invention.
 
@@ -96,13 +97,13 @@ Many roots share a **nucleus**, the first two letters of the trilateral root car
 
 | Nucleus | Meaning | Examples |
 | --- | --- | --- |
-| **ال** | extending affirmation, a bridge | الم, الله, الرحمن |
+| **ال** | extending attachment, intimate bond | أَلِفَ, إِلْف, آلاء |
 | **بر** | manifest extension, surfacing-and-running | بَرَّ, بَرَزَ, بَرَأَ |
 | **بد** | manifest fixing, surface-stays | بَدَأ, بَدَا, بَدَّلَ |
-| **حم** | living containment, warm enclosure | حَمَى, حَمَلَ, حَمِدَ, الرَّحم |
-| **حق** | living precision, contained truth | حَقّ, حَقَّقَ, الحَقّ |
-| **رب** | repeating attachment, multiplying-while-holding | رَبّ, رَبَّى, الرَّبّ, the master who holds-and-multiplies |
-| **رح** | repeating warmth, recurring containment | رَحِم, رَحْمَة, الرَّحمن, الرَّحيم |
+| **حم** | living containment, warm enclosure | حَمَى, حَمَلَ, حَمِدَ, رَحِم |
+| **حق** | living precision, contained truth | حَقّ, حَقَّقَ, حَقيقة |
+| **رب** | repeating attachment, multiplying-while-holding | رَبّى, رَبا, تَربية, the holder who tends-and-multiplies |
+| **رح** | repeating warmth, recurring containment | رَحِم, رَحْمَة, راحة |
 | **سل** | flowing attachment, fine sliding | سَلَّمَ, سَلَكَ, سَلِمَ |
 | **سم** | extending-toward-completion, lifting | سَمَا, اسم, سَموّ, a name lifts a thing above its context |
 | **عل** | depth-grip extending | عَلِمَ, عَلَا, عِلم, عالَم, the world as a sign that points |
@@ -110,7 +111,7 @@ Many roots share a **nucleus**, the first two letters of the trilateral root car
 | **فط** | parting-then-spreading | فَطَرَ, split open and draw out, hence فِطرة |
 | **قر** | precision repeating, firm settling | قَرَأ, قَرَّ, قَرارَ |
 | **كل** | sealed extension, pressed-attachment | كَلَّ, كُلّ, كَلِمة |
-| **ملك** | gathering-and-sealing-at-a-cut | المَلك, the one who holds dominion at a defined boundary |
+| **ملك** | gathering-and-sealing-at-a-cut | مَلَك, مُلْك, مَليك, the one who holds dominion at a defined boundary |
 | **نج** | inner resonance gathering | نَجا, نَجم, emergence from confinement |
 | **هد** | breath-fixing | هَدى, هَدَأ |
 | **وص** | binding-with-emphatic-strength | وَصَلَ, وَصَى, وَصْف |
@@ -142,8 +143,8 @@ Always build upward, never downward:
 ### الحمد, root ح-م-د
 **ح** (حياةٌ حارّة+احتواء) + **م** (تجمّع+تلاصق) → nucleus **حم** = a warm containment. + **د** (ضَبط+ثبات). Literally: a warm containment that settles. Hence **الحمد** = praise that holds, that does not scatter, that recognizes value before any benefit was received (vs. **شُكر** = thanks for a benefit received).
 
-### رَبّ, root ر-ب-ب
-**ر** (تكرار+جريان) + **ب** (اتّصال+تَمَسُّك) → nucleus **رب** = a flowing attached to its substrate, continuous holding-and-running. + tashdīd of ب (intensification). Literally: repeating attachment, holding-and-multiplying. The Rabb tends his charge by walking with it, not by ranking above it. (Cognate with Hebrew rav / rabbi, see [`../04-cross-linguistic/tafsir-coran-tier-a-cognates.md`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md).)
+### رَبَّى, root ر-ب-ب
+**ر** (تكرار+جريان) + **ب** (اتّصال+تَمَسُّك) → nucleus **رب** = a flowing attached to its substrate, continuous holding-and-running. + tashdīd of ب (intensification). Literally: repeating attachment, holding-and-multiplying. A رَبّ tends his charge by walking with it and bringing it up over time, not by ranking above it — hence تَربية (raising-by-tending). Cognate with Hebrew rav / rabbi (see [`../04-cross-linguistic/tafsir-coran-tier-a-cognates.md`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md)).
 
 ### العالَمين, root ع-ل-م
 **ع** (قبضٌ حَلقيٌّ+شِدّة) + **ل** (تعلّق+امتداد) → nucleus **عل** = a depth-grip that extends. + **م** (تجمّع+تلاصق). Literally: a held-extension that gathers. Hence **عَلامة** (a mark held-and-attached so it gathers attention), **عِلم** (a held grasp that gathers what is grasped), **عالَم** (a domain held-together that bears a sign of its maker).
@@ -156,4 +157,4 @@ Always build upward, never downward:
 
 ## Stability discipline
 
-This table is meant to **stabilize** as the corpus grows, not oscillate. Variants noted above are the expected drift-window; beyond that drift, a reading is in tension with itself and needs review against the source scholars (see `Data raw/Languistic theories/`).
+This table is meant to **stabilize** as the corpus grows, not oscillate. Variants noted above are the expected drift-window; beyond that drift, a reading is in tension with itself and needs review against the underlying sources (see `Data raw/Languistic theories/` and the classical survey in [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md)).
