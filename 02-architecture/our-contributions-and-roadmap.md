@@ -327,6 +327,6 @@ This study builds on six decades of independent Arabic letter-semantics work (Ja
 
 ---
 
-**نهاية الوثيقة. للتعقيب أو التعاون: yassine.temessek@gmail.com**
+**نهاية الوثيقة. للتعقيب أو التعاون عَبر نموذج التواصل في [arabicjuthoor.com](https://arabicjuthoor.com/).**
 
-**End of document. For feedback or collaboration: yassine.temessek@gmail.com**
+**End of document. For feedback or collaboration, use the contact form at [arabicjuthoor.com](https://arabicjuthoor.com/).**

@@ -59,7 +59,7 @@
       "founder": {
         "@type": "Person",
         "name": "Yassine Temessek",
-        "email": "yassine.temessek@gmail.com"
+        "url": "https://arabicjuthoor.com/"
       }
     },
     {
@@ -78,7 +78,7 @@
       "name": "Juthoor: The Arabic Tongue",
       "alternateName": "جُذُور: العربيّة من الحرف إلى الجذر",
       "url": "https://arabicjuthoor.com/",
-      "description": "Juthoor synthesizes seven Arabic letter-semantics traditions and extends them with new structural findings: the universal dual-face structure of letter charges (453 binary nuclei tested), a 12-mode operative grammar of trilateral composition (2,285 roots at 100% native fit), and a 4-bar verification rubric for cross-linguistic Quranic cognates.",
+      "description": "Juthoor builds on twelve centuries of Arabic linguistic scholarship (from al-Khalil ibn Ahmad and Ibn Jinni through Jabal's modern lexicon) and extends it with new structural findings: the universal dual-face structure of letter charges (453 binary nuclei tested), a 12-mode operative grammar of trilateral composition (2,285 roots at 100% native fit), and a 4-bar verification rubric for cross-linguistic Quranic cognates.",
       "keywords": "Arabic linguistics, phonosemantics, letter semantics, root meanings, Quranic linguistics, binary nuclei, trilateral composition, operative grammar, Jabal lexicon",
       "inLanguage": ["en", "ar"],
       "author": {
@@ -143,9 +143,10 @@
   --radius: 10px;
   --radius-sm: 6px;
   --font-en: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-ar: 'Amiri', 'Noto Naskh Arabic', 'Scheherazade New', serif;
+  --font-ar: 'Tajawal', 'Cairo', system-ui, sans-serif;
   --font-ar-ui: 'Tajawal', 'Cairo', system-ui, sans-serif;
   --font-ar-display: 'Cairo', 'Tajawal', system-ui, sans-serif;
+  --font-ar-classical: 'Amiri', 'Noto Naskh Arabic', serif;
   --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Monaco, monospace;
 }
 [data-theme="dark"] {
@@ -185,7 +186,8 @@ body {
   text-rendering: optimizeLegibility;
   transition: background .25s ease, color .25s ease;
 }
-.ar { font-family: var(--font-ar); font-size: 1.08em; line-height: 1.8; }
+.ar { font-family: var(--font-ar); font-size: 1.04em; line-height: 1.75; }
+.ar-classical { font-family: var(--font-ar-classical); }
 .ar-ui { font-family: var(--font-ar-ui); }
 .ar-display { font-family: var(--font-ar-display); }
 
@@ -201,7 +203,14 @@ html[data-lang="ar"] h4.sub-title { font-family: var(--font-ar-display); }
 html[data-lang="ar"] .hero-tagline,
 html[data-lang="ar"] .section-intro,
 html[data-lang="ar"] .card-body,
-html[data-lang="ar"] .scholar-desc { font-family: var(--font-ar); line-height: 1.85; }
+html[data-lang="ar"] .scholar-desc,
+html[data-lang="ar"] .step-body,
+html[data-lang="ar"] .about-meta,
+html[data-lang="ar"] .brand-tagline,
+html[data-lang="ar"] .read-path li,
+html[data-lang="ar"] li,
+html[data-lang="ar"] p { font-family: var(--font-ar); line-height: 1.75; }
+html[data-lang="ar"] table.data { font-family: var(--font-ar); }
 html[data-lang="ar"] .nav-inner { flex-direction: row-reverse; }
 html[data-lang="ar"] .nav-links { flex-direction: row-reverse; }
 html[data-lang="ar"] .steps,
@@ -736,6 +745,116 @@ footer.foot a:hover { color: var(--accent); }
 }
 .read-path li a:hover { color: var(--accent); }
 
+/* ===== Floating contact button + modal ===== */
+.contact-fab {
+  position: fixed; bottom: 24px; right: 24px;
+  z-index: 100;
+  width: 56px; height: 56px; border-radius: 50%;
+  background: var(--accent); color: white;
+  border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px; font-weight: 600;
+  box-shadow: 0 4px 14px rgba(184,134,47,.4), 0 2px 6px rgba(0,0,0,.1);
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  font-family: inherit;
+}
+.contact-fab:hover {
+  transform: translateY(-2px) scale(1.05);
+  background: var(--accent-2);
+  box-shadow: 0 6px 20px rgba(184,134,47,.5), 0 3px 8px rgba(0,0,0,.15);
+}
+html[dir="rtl"] .contact-fab { right: auto; left: 24px; }
+
+.contact-overlay {
+  position: fixed; inset: 0; z-index: 200;
+  background: rgba(20, 22, 28, 0.55);
+  display: none; align-items: center; justify-content: center;
+  padding: 20px;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+.contact-overlay.open { display: flex; }
+.contact-modal {
+  background: var(--bg-card); color: var(--text);
+  border: 1px solid var(--border); border-radius: 14px;
+  width: 100%; max-width: 480px;
+  padding: 28px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.3);
+  position: relative;
+  animation: contact-pop .2s ease-out;
+}
+@keyframes contact-pop {
+  from { opacity: 0; transform: translateY(8px) scale(.98); }
+  to { opacity: 1; transform: none; }
+}
+.contact-modal h3 {
+  margin: 0 0 6px; font-size: 20px; font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.contact-modal p.contact-sub {
+  margin: 0 0 18px; color: var(--text-2); font-size: 14px;
+}
+.contact-close {
+  position: absolute; top: 12px; right: 14px;
+  background: transparent; border: none; cursor: pointer;
+  font-size: 22px; color: var(--text-3);
+  width: 32px; height: 32px; border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+}
+html[dir="rtl"] .contact-close { right: auto; left: 14px; }
+.contact-close:hover { background: var(--bg-2); color: var(--text); }
+
+.contact-modal label {
+  display: block; font-size: 13px; font-weight: 600;
+  color: var(--text-2); margin: 12px 0 6px;
+}
+.contact-modal input,
+.contact-modal textarea {
+  width: 100%; padding: 10px 12px;
+  border: 1px solid var(--border); border-radius: 8px;
+  background: var(--bg); color: var(--text);
+  font-family: inherit; font-size: 14px;
+  transition: border-color .12s ease, box-shadow .12s ease;
+  box-sizing: border-box;
+}
+.contact-modal input:focus,
+.contact-modal textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-bg);
+}
+.contact-modal textarea { min-height: 110px; resize: vertical; }
+
+.contact-actions {
+  display: flex; justify-content: flex-end; gap: 8px;
+  margin-top: 20px;
+}
+.contact-actions button {
+  padding: 10px 18px; border-radius: 8px;
+  font-weight: 600; font-size: 14px; cursor: pointer;
+  font-family: inherit;
+  transition: all .12s ease;
+}
+.contact-actions .contact-submit {
+  background: var(--accent); color: white; border: 1px solid var(--accent);
+}
+.contact-actions .contact-submit:hover { background: var(--accent-2); }
+.contact-actions .contact-submit:disabled { opacity: 0.6; cursor: wait; }
+.contact-actions .contact-cancel {
+  background: transparent; color: var(--text-2); border: 1px solid var(--border);
+}
+.contact-actions .contact-cancel:hover { color: var(--text); border-color: var(--text-3); }
+
+.contact-status {
+  margin-top: 12px; padding: 10px 14px; border-radius: 8px;
+  font-size: 13.5px; display: none;
+}
+.contact-status.show { display: block; }
+.contact-status.ok { background: #e8f3ea; color: #2d7a3b; }
+.contact-status.err { background: #fae7e7; color: #a83232; }
+[data-theme="dark"] .contact-status.ok { background: #1d2a20; color: #6fa977; }
+[data-theme="dark"] .contact-status.err { background: #2c1c1c; color: #d57676; }
+
 /* Small responsive */
 @media (max-width: 700px) {
   .nav-links { display: none; }
@@ -756,8 +875,7 @@ footer.foot a:hover { color: var(--accent); }
     <div class="nav-links">
       <a href="#methodology"><span class="lang-en">Methodology</span><span class="lang-ar">المنهج</span></a>
       <a href="#findings"><span class="lang-en">Findings</span><span class="lang-ar">النتائج</span></a>
-      <a href="#scholars"><span class="lang-en">Scholars</span><span class="lang-ar">العلماء</span></a>
-      <a href="#files"><span class="lang-en">Files</span><span class="lang-ar">الملفّات</span></a>
+      <a href="#scholars"><span class="lang-en">Background</span><span class="lang-ar">الخلفيّة</span></a>
       <a href="#roadmap"><span class="lang-en">Roadmap</span><span class="lang-ar">الخارطة</span></a>
       <a href="#about"><span class="lang-en">About</span><span class="lang-ar">عن الدراسة</span></a>
       <a href="https://coranisyours.com" target="_blank" rel="noopener" style="color: var(--accent); font-weight: 600;">coranisyours.com ↗</a>
@@ -781,10 +899,10 @@ footer.foot a:hover { color: var(--accent); }
   <h2 class="hero-title-ar lang-ar">العربيّةُ: بِنيةُ المعنى من الحرفِ إلى الجذر</h2>
 
   <p class="hero-tagline lang-en">
-    An empirical study of meaning-composition in Arabic. Built on six decades of letter-semantics scholarship, extended with new structural findings: a <strong>harmonized 28-letter table</strong> with an empirically-confirmed <strong>universal dual-face structure</strong>; a full catalog of <strong>453 binary nuclei</strong>; and a <strong>12-mode operative grammar</strong> that grades <strong>2,285 trilateral roots at 100% native fit</strong>.
+    An empirical study of meaning-composition in Arabic. Rooted in <strong>twelve centuries of Arabic linguistic scholarship</strong>, from <span class="ar-display">الخليل بن أحمد</span> and <span class="ar-display">ابن جنّي</span> to the modern lexicographic tradition, and extended with new structural findings: a <strong>harmonized 28-letter table</strong> with an empirically-confirmed <strong>universal dual-face structure</strong>; a full catalog of <strong>453 binary nuclei</strong>; and a <strong>12-mode operative grammar</strong> that grades <strong>2,285 trilateral roots at 100% native fit</strong>.
   </p>
   <p class="hero-tagline lang-ar">
-    دراسةٌ تَجريبيّةٌ في تركيب المعنى داخل العربيّة. تنطلق من ستّة عقودٍ من العمل في دلالات الحروف، وتُضيف إليها نتائج بنيويّة جديدة: **جدولٌ مُوَحَّدٌ لِـ ٢٨ حرفًا** ببنيةٍ ازدواجيّةٍ كونيّةٍ مُؤكَّدةٍ إمبيريًّا، و**كتالوجٌ كاملٌ لِـ ٤٥٣ نواةً ثنائيّة**، و**نحوٌ تشغيليٌّ من ١٢ نمطًا** يُصنِّف **٢,٢٨٥ جذرًا ثلاثيًّا بمطابقةٍ أصليّةٍ كاملة**.
+    دراسةٌ تَجريبيّةٌ في تركيب المعنى داخل العربيّة. تَستَنِد إلى <strong>اثني عشر قَرنًا من البحث اللغويّ العربيّ</strong>، من الخليل بن أحمد وابن جنّي إلى التقليد المعجميّ المعاصر، وتُضيف إليها نتائج بنيويّة جديدة: <strong>جدولٌ مُوَحَّدٌ لِـ ٢٨ حرفًا</strong> ببنيةٍ ازدواجيّةٍ كونيّةٍ مُؤكَّدةٍ إمبيريًّا، و<strong>كتالوجٌ كاملٌ لِـ ٤٥٣ نواةً ثنائيّة</strong>، و<strong>نحوٌ تشغيليٌّ من ١٢ نمطًا</strong> يُصنِّف <strong>٢,٢٨٥ جذرًا ثلاثيًّا بمطابقةٍ أصليّةٍ كاملة</strong>.
   </p>
 
   <p style="font-size: 14px; color: var(--text-3); margin-top: 14px;">
@@ -805,7 +923,7 @@ footer.foot a:hover { color: var(--accent); }
   <a class="stat-link" href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><div class="stat"><div class="stat-num">2,285</div><div class="stat-label"><span class="lang-en">Trilaterals graded</span><span class="lang-ar">جذرًا مُصنَّفًا</span></div></div></a>
   <a class="stat-link" href="#methodology"><div class="stat"><div class="stat-num">12</div><div class="stat-label"><span class="lang-en">Operative modes</span><span class="lang-ar">نمطًا تشغيليًّا</span></div></div></a>
   <a class="stat-link" href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><div class="stat"><div class="stat-num">100%</div><div class="stat-label"><span class="lang-en">Native fit</span><span class="lang-ar">مطابقة أصليّة</span></div></div></a>
-  <a class="stat-link" href="#scholars"><div class="stat"><div class="stat-num">7</div><div class="stat-label"><span class="lang-en">Scholars integrated</span><span class="lang-ar">علماء مُدمَجين</span></div></div></a>
+  <a class="stat-link" href="#scholars"><div class="stat"><div class="stat-num">12c.</div><div class="stat-label"><span class="lang-en">Of Arabic linguistics</span><span class="lang-ar">قرنًا من اللغويّات</span></div></div></a>
   <a class="stat-link" href="viewer.html?file=04-cross-linguistic/tafsir-coran-tier-a-cognates.md"><div class="stat"><div class="stat-num">8</div><div class="stat-label"><span class="lang-en">Tier-A cognates</span><span class="lang-ar">أزواج Tier-A</span></div></div></a>
 </div>
 
@@ -815,18 +933,18 @@ footer.foot a:hover { color: var(--accent); }
   <h2 class="section-title lang-en">An empirical theory of meaning-composition in Arabic</h2>
   <h2 class="section-title lang-ar ar-display">نظريّةٌ تجريبيّةٌ لِتركيب المعنى في العربيّة</h2>
   <p class="section-intro lang-en">
-    Arabic letter semantics, the claim that each of the 28 Arabic letters carries a physical-articulatory charge and that meaning composes upward from letter to nucleus to root to word, was advanced independently by seven Arabic-speaking scholars over six decades. This study builds on that scholarly foundation (Jabal's lexicon is the empirical anchor) and adds <strong>new structural findings of its own</strong>: the universal dual-face structure of letter charges, the 12-mode operative grammar of trilateral composition, the 4-bar verification rubric for cross-linguistic cognates, and a principled scope statement that names what the framework does and does not yet do.
+    Arabic letter semantics, the claim that each of the 28 Arabic letters carries a physical-articulatory charge and that meaning composes upward from letter to nucleus to root to word, has roots reaching back to the classical Arabic linguistic tradition, from <span class="ar-display">الخليل بن أحمد الفراهيدي</span> (8th century) and <span class="ar-display">ابن جنّي</span> in <span class="ar-display">الخصائص</span> (11th century, the well-known <span class="ar-display">«إمساس الألفاظ أشباه المعاني»</span> doctrine) through the classical lexicographers. The modern lexicographic foundation rests on Dr. Muhammad Hassan Jabal's <span class="ar-display">المعجم الاشتقاقي المؤصَّل</span> and the parallel work of Hassan Abbas on the sensory profiles of letters. This study takes that combined foundation and adds <strong>new structural findings of its own</strong>: the universal dual-face structure of letter charges, the 12-mode operative grammar of trilateral composition, the 4-bar verification rubric for cross-linguistic cognates, and a principled scope statement that names what the framework does and does not yet do.
   </p>
   <p class="section-intro lang-ar">
-    تَنبَني دلالاتُ الحروف العربيّة على فرضيّةٍ مُتقادِمَة: لِكلّ حرفٍ من حروف العربيّة الـ ٢٨ شحنةٌ نطقيّة-فيزيائيّة، والمعنى يَتركّبُ صُعودًا من الحرف إلى النواة إلى الجذر إلى الكلمة. عَمِل على هذه الفرضيّة سبعةُ علماءٍ مستقلّين عربيّ-اللسان على مدى ستّة عقود. تَنطلِق هذه الدراسة من هذا الإرث (ومعجم جبل هو أرضيّتها الإمبيريّة) وتُضيف إليه <strong>نتائج بنيويّة أصليّة</strong>: بنية الازدواجيّة الكونيّة لشحنات الحروف، النحو التشغيليّ من ١٢ نمطًا لتركيب الجذور الثلاثيّة، المعيار الرباعيّ للتحقّق من المقاربات بين اللغات، وبَيانٌ صادقٌ للنطاق يُحدِّد ما يَفعَلُه الإطار وما لا يَفعَلُه بعد.
+    تَنبَني دلالاتُ الحروف العربيّة على فرضيّةٍ عَريقة: لِكلّ حرفٍ من حروف العربيّة الـ ٢٨ شحنةٌ نطقيّة-فيزيائيّة، والمعنى يَتركّبُ صُعودًا من الحرف إلى النواة إلى الجذر إلى الكلمة. جذورُ هذه الفرضيّة في التقليد اللغويّ العربيّ الكلاسيكيّ، من الخليل بن أحمد الفراهيديّ (القرن الثاني الهجريّ) وابن جنّي في «الخصائص» (القرن الرابع، باب «إمساس الألفاظ أشباه المعاني»)، إلى عُلَماء المعجم الكلاسيكيّين. وفي العصر الحديث تَقومُ الأرضيّةُ المعجميّة على «المعجم الاشتقاقي المؤصَّل» لِلدكتور محمد حسن جبل، إلى جانب عمل حسن عبّاس على البَصمات الحِسّيّة لِلحروف. تَأخذ هذه الدراسةُ هذه الأرضيّة المُجتمعة وتُضيف إليها <strong>نتائج بنيويّة أصليّة</strong>: بنية الازدواجيّة الكونيّة لِشحنات الحروف، النحو التشغيليّ من ١٢ نمطًا لِتركيب الجذور الثلاثيّة، المعيار الرباعيّ لِلتحقّق من المقاربات بين اللغات، وبَيانٌ صادقٌ لِلنطاق يُحدِّد ما يَفعَلُه الإطار وما لا يَفعَلُه بَعد.
   </p>
 
   <div class="cards-grid">
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="card">
       <div class="card-icon">⌬</div>
       <h3 class="card-title"><span class="lang-en">A unified ruling table</span><span class="lang-ar">جدولٌ حاكمٌ موحَّد</span></h3>
-      <p class="card-body lang-en">One consensus charge per letter, picked from seven competing traditions, with bilingual phonetic notes and English glosses for every entry.</p>
-      <p class="card-body lang-ar">شحنةٌ إجماعيّةٌ واحدة لِكلّ حرف، مُختارةٌ بترجيحٍ بين سبع نظريّات، مع ملاحظةٍ نطقيّةٍ وترجمةٍ إنجليزيّةٍ لِكلّ صفّ.</p>
+      <p class="card-body lang-en">One consensus charge per letter, grounded in the classical Arabic tradition and the modern lexicographic foundation, with bilingual phonetic notes and English glosses for every entry.</p>
+      <p class="card-body lang-ar">شحنةٌ إجماعيّةٌ واحدة لِكلّ حرف، مُؤَصَّلةٌ في التقليد العربيّ الكلاسيكيّ والأرضيّة المعجميّة الحديثة، مع ملاحظةٍ نطقيّةٍ وترجمةٍ إنجليزيّةٍ لِكلّ صفّ.</p>
     </div></a>
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="card">
       <div class="card-icon">⇌</div>
@@ -849,8 +967,8 @@ footer.foot a:hover { color: var(--accent); }
     <a class="card-link" href="05-audits/"><div class="card">
       <div class="card-icon">⚙</div>
       <h3 class="card-title"><span class="lang-en">Empirical falsifiability</span><span class="lang-ar">قابليّةُ الدحضِ الإمبيريّ</span></h3>
-      <p class="card-body lang-en">Every nucleus, every cognate, every claim is line-cited and tested. The study maintains a public empirical record.</p>
-      <p class="card-body lang-ar">كلّ نواةٍ وكلّ مقاربةٍ وكلّ ادّعاءٍ مَشفوعٌ بِسطرٍ مَرجِعيّ ومُختبَر. الدراسة تَحتفظ بسجلٍّ تجريبيٍّ عَلَنيّ.</p>
+      <p class="card-body lang-en">Every nucleus, every cognate, every claim is line-cited against its source and tested against the combined evidence.</p>
+      <p class="card-body lang-ar">كلّ نواةٍ وكلّ مقاربةٍ وكلّ قراءةٍ مَنسوبةٌ إلى مرجعها ومُختبَرةٌ على الشواهد المتقاطعة.</p>
     </div></a>
   </div>
 
@@ -858,7 +976,7 @@ footer.foot a:hover { color: var(--accent); }
     <div class="callout-title"><span class="lang-en">The study's five original findings</span><span class="lang-ar">النتائج الخمس الأصليّة للدراسة</span></div>
 
     <div class="lang-en">
-      <p style="margin: 0 0 14px;">The seven prior scholars built the foundation. Over a year of sustained testing, this study put their combined record through a uniform empirical examination, running each claim across Jabal's lexicon together with the corroborating readings of the other six. The <strong>five results that follow are new to the field</strong> and emerged from that combination, not from any of the source frameworks taken alone:</p>
+      <p style="margin: 0 0 14px;">The classical Arabic linguistic tradition supplied the foundational intuition (the letter-meaning correspondence is older than this study by more than a millennium). The modern lexicographic anchor is Jabal's <span class="ar-display">المعجم الاشتقاقي المؤصَّل</span>, with Hassan Abbas's sensory-profile work as a parallel modern reference. Over a sustained year of systematic testing, this study put the combined readings through a uniform examination, checking each claim against Jabal's lexicon alongside the corroborating evidence in the classical and modern sources. The <strong>five results that follow are new to the field</strong> and emerged from that examination, not from any single source taken alone:</p>
       <ol style="margin: 0; padding-left: 22px; line-height: 1.65;">
         <li style="margin-bottom: 12px;"><strong>A universal rule for letter charges.</strong> Each of the 28 Arabic letters carries two related semantic faces of one physical articulation; which face is active is decided by the third letter in the root. The rule was tested across all 453 binary nuclei in the corpus and held in every case. Earlier scholarship had suspected this pattern only for a handful of letters; this study establishes it as universal.</li>
         <li style="margin-bottom: 12px;"><strong>A grammar of trilateral composition.</strong> Every Arabic three-letter root is readable as one operative relation: <em>the two-letter nucleus acts on the third letter, treating it as material</em>. Twelve modes (CARRY, HOLD, RELEASE, PROJECT, INTENSIFY, BLOCK, DRAIN, CHANNEL, OPERATE, MIX, REVERT, plus LOANWORD for non-native roots) cover 2,285 graded roots at 100% fit, without forcing any reading.</li>
@@ -869,7 +987,7 @@ footer.foot a:hover { color: var(--accent); }
     </div>
 
     <div class="lang-ar">
-      <p style="margin: 0 0 14px;">العلماء السبعة قبلنا بَنَوا الأرضيّة. لم تَأخذها هذه الدراسة تَسليمًا، بل أَجرَت عليها فحصًا إمبيريًّا موحَّدًا امتدّ سنةً كاملة، اختَبَرَت فيه كلّ ادّعاءٍ على معجم جبل مَع القراءات المُعَضِّدة عند الستّة الآخَرين معًا. <strong>النتائج الخمس التالية جديدةٌ على الحقل</strong>، وتَولَّدَت من هذا التَّركيب لا من أيّ إطارٍ من الأُطُر السبعة منفردًا:</p>
+      <p style="margin: 0 0 14px;">التقليد اللغويّ العربيّ الكلاسيكيّ هو الذي قَدَّم الحَدسَ التأسيسيّ (تَلازُمُ الحرف بالمعنى أَقدمُ من هذه الدراسة بأكثر من ألفِ عام). والأرضيّةُ المعجميّةُ الحديثة هي «المعجم الاشتقاقي المؤصَّل» لِجبل، مع عمل حسن عبّاس على البَصمات الحِسّيّة لِلحروف مَرجعًا حديثًا مُوازيًا. أَخضَعَت هذه الدراسةُ القراءاتِ المُجتَمِعة إلى فحصٍ منهجيٍّ امتدّ سنةً كاملة، فحَصَت فيه كلَّ قراءةٍ على معجم جبل بالتقاطع مع الشواهد المُعَضِّدة في المصادر الكلاسيكيّة والحديثة. <strong>النتائج الخمس التالية جديدةٌ في الحقل</strong>، وتَولَّدَت من ذلك الفحص، لا من أيّ بَحثٍ منفردًا:</p>
       <ol style="margin: 0; padding-right: 22px; padding-left: 0; line-height: 1.85;">
         <li style="margin-bottom: 12px;"><strong>قاعدة كونيّة لِشحنات الحروف.</strong> كلّ حرفٍ من حروف العربيّة الـ ٢٨ يَحمِل وجهَين دلاليَّين مُترابطَين لِنُطقٍ فيزيائيّ واحد، والوجه الفعّال يَختاره الحرف الثالث في الجذر. اختُبِرت القاعدة على جميع الـ ٤٥٣ نواة ثنائيّة في المتن وثَبتَت في كلّ حالة.</li>
         <li style="margin-bottom: 12px;"><strong>نحوٌ لِتركيب الجذور الثلاثيّة.</strong> كلّ جذرٍ عربيّ ثلاثيّ مقروءٌ كعلاقةٍ تشغيليّةٍ واحدة: <em>النواة الثنائيّة تَفعَل في الحرف الثالث، مُعامِلَةً إيّاه كمادّة</em>. اثنا عشر نمطًا (CARRY · HOLD · RELEASE · PROJECT · INTENSIFY · BLOCK · DRAIN · CHANNEL · OPERATE · MIX · REVERT · LOANWORD) تُغطّي ٢,٢٨٥ جذرًا بمطابقةٍ كاملةٍ دون قَسر.</li>
@@ -896,47 +1014,48 @@ footer.foot a:hover { color: var(--accent); }
   <h3 class="block-title"><span class="lang-en">The architecture stack</span><span class="lang-ar">طبقات الإطار</span> <span style="color: var(--text-3); font-size: 13px; font-weight: 400;"><span class="lang-en">(every layer is clickable)</span><span class="lang-ar">(كلّ طبقة قابلة للنقر)</span></span></h3>
   <div class="arch-stack">
     <a class="arch-link" href="#roadmap"><div class="arch-layer lv-cross">
-      <span class="arch-label">LV3 · Quranic application</span>
-      <span class="arch-meta">The letter→nucleus→root machinery applied to Quranic verses (forthcoming).</span>
+      <span class="arch-label"><span class="lang-en">LV3 · Quranic application</span><span class="lang-ar">LV3 · التطبيق القرآنيّ</span></span>
+      <span class="arch-meta"><span class="lang-en">The letter→nucleus→root machinery applied to Quranic verses (forthcoming).</span><span class="lang-ar">تطبيقُ آليّة الحرف ← النواة ← الجذر على الآيات القرآنيّة (قادم).</span></span>
     </div></a>
     <a class="arch-link" href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><div class="arch-layer lv-root">
-      <span class="arch-label">LV2 · Trilateral composition</span>
-      <span class="arch-meta">A 12-mode operative grammar grading 2,285 trilateral roots at 100% native fit.</span>
+      <span class="arch-label"><span class="lang-en">LV2 · Trilateral composition</span><span class="lang-ar">LV2 · تركيب الجذر الثلاثيّ</span></span>
+      <span class="arch-meta"><span class="lang-en">A 12-mode operative grammar grading 2,285 trilateral roots at 100% native fit.</span><span class="lang-ar">نحوٌ تشغيليٌّ من ١٢ نمطًا يُصنِّف ٢,٢٨٥ جذرًا ثلاثيًّا بتوافقٍ أصيلٍ ١٠٠٪.</span></span>
     </div></a>
     <a class="arch-link" href="viewer.html?file=03-scholar-extracts/jabal-nuclei-extended.md"><div class="arch-layer lv-nucleus">
-      <span class="arch-label">LV1 · Binary nucleus layer</span>
-      <span class="arch-meta">The full 453-nucleus catalog with per-nucleus reading and source-anchored evidence.</span>
+      <span class="arch-label"><span class="lang-en">LV1 · Binary nucleus layer</span><span class="lang-ar">LV1 · طبقة النواة الثنائيّة</span></span>
+      <span class="arch-meta"><span class="lang-en">The full 453-nucleus catalog with per-nucleus reading and source-anchored evidence.</span><span class="lang-ar">الكتالوج الكامل لِلـ٤٥٣ نواةً، مع قراءةٍ لِكلّ نواة وشواهدَ مُرَسَّخةً بالمصدر.</span></span>
     </div></a>
     <a class="arch-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="arch-layer lv-letter">
-      <span class="arch-label">LV0 · 28-letter consensus and universal dual-face</span>
-      <span class="arch-meta">The harmonized letter table tested empirically across all 453 nuclei.</span>
+      <span class="arch-label"><span class="lang-en">LV0 · 28-letter consensus and universal dual-face</span><span class="lang-ar">LV0 · إجماع الحروف الثمانية والعشرين والازدواجيّة الكونيّة</span></span>
+      <span class="arch-meta"><span class="lang-en">The harmonized letter table tested empirically across all 453 nuclei.</span><span class="lang-ar">جدولُ الحروف المُوَحَّد، مُختَبَرًا إمبيريًّا على جميع الـ٤٥٣ نواة.</span></span>
     </div></a>
   </div>
   <p style="font-size: 13.5px; color: var(--text-3); margin-top: 8px;">
-    Empirical corpus underneath: Jabal's 2,300 unique roots · 1,666 Quranic verses · 7 scholarly sources frozen in <code>Data raw/</code>.
+    <span class="lang-en">Empirical corpus underneath: Jabal's 2,300 unique roots · 1,666 Quranic verses · the classical and modern scholarly sources frozen in <code>Data raw/</code>.</span>
+    <span class="lang-ar">المُدَوَّنة الإمبيريّة تَحتها: ٢,٣٠٠ جذرٍ فريد لجبل · ١,٦٦٦ آيةً قرآنيّة · المصادر الكلاسيكيّة والحديثة المُجَمَّدة في <code>Data raw/</code>.</span>
   </p>
 
   <h3 class="block-title"><span class="lang-en">The five-step reading protocol</span><span class="lang-ar">بروتوكول القراءة من خمس خطوات</span></h3>
   <div class="steps">
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="step">
-      <h4 class="step-title">Name the letters</h4>
-      <div class="step-body">Identify each letter's charge from the consensus table. Example: <span class="cell-ar">ق (قطع+إحكام) + ر (تكرار+جريان)</span></div>
+      <h4 class="step-title"><span class="lang-en">Name the letters</span><span class="lang-ar">سَمِّ الحروف</span></h4>
+      <div class="step-body"><span class="lang-en">Identify each letter's charge from the consensus table. Example:</span><span class="lang-ar">حَدِّد شحنة كلّ حرفٍ من جدول الإجماع. مثال:</span> <span class="cell-ar">ق (قطع+إحكام) + ر (تكرار+جريان)</span></div>
     </div></a>
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/jabal-nuclei-extended.md"><div class="step">
-      <h4 class="step-title">Form the nucleus</h4>
-      <div class="step-body">The first two letters give the seed-meaning. <span class="cell-ar">قر = إحكامٌ يَتكرّر</span>, precision that repeats.</div>
+      <h4 class="step-title"><span class="lang-en">Form the nucleus</span><span class="lang-ar">كَوِّن النواة</span></h4>
+      <div class="step-body"><span class="lang-en">The first two letters give the seed-meaning.</span><span class="lang-ar">الحرفان الأوّلان يَمنحان بَذرة المعنى.</span> <span class="cell-ar">قر = إحكامٌ يَتكرّر</span><span class="lang-en">, precision that repeats.</span></div>
     </div></a>
     <a class="card-link" href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><div class="step">
-      <h4 class="step-title">Add remaining letters</h4>
-      <div class="step-body">Each new letter adds its charge as a modifier. <span class="cell-ar">+ أ (تأكيد+قوّة)</span>, affirming finality.</div>
+      <h4 class="step-title"><span class="lang-en">Add remaining letters</span><span class="lang-ar">أَضِف الحروف الباقية</span></h4>
+      <div class="step-body"><span class="lang-en">Each new letter adds its charge as a modifier.</span><span class="lang-ar">كلّ حرفٍ جديدٍ يُضيف شحنتَهُ مُعدِّلًا.</span> <span class="cell-ar">+ أ (تأكيد+قوّة)</span><span class="lang-en">, affirming finality.</span><span class="lang-ar">، تأكيدُ النهاية.</span></div>
     </div></a>
     <a class="card-link" href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><div class="step">
-      <h4 class="step-title">State the literal meaning</h4>
-      <div class="step-body"><span class="cell-ar">القرآن = استقرارٌ مُحكَمٌ يَتكرّر ويُؤكَّد</span>, a firm settling that repeats and is affirmed.</div>
+      <h4 class="step-title"><span class="lang-en">State the literal meaning</span><span class="lang-ar">صُغ المعنى الحَرفيّ</span></h4>
+      <div class="step-body"><span class="cell-ar">القرآن = استقرارٌ مُحكَمٌ يَتكرّر ويُؤكَّد</span><span class="lang-en">, a firm settling that repeats and is affirmed.</span></div>
     </div></a>
     <a class="card-link" href="https://coranisyours.com" target="_blank" rel="noopener"><div class="step">
-      <h4 class="step-title">Connect to usage</h4>
-      <div class="step-body">One sentence linking the literal meaning to the word's Quranic application. See the readings in practice at <strong>coranisyours.com</strong>.</div>
+      <h4 class="step-title"><span class="lang-en">Connect to usage</span><span class="lang-ar">صِلْها بالاستعمال</span></h4>
+      <div class="step-body"><span class="lang-en">One sentence linking the literal meaning to the word's Quranic application. See the readings in practice at <strong>coranisyours.com</strong>.</span><span class="lang-ar">جملةٌ واحدة تَربط المعنى الحَرفيّ بالتطبيق القرآنيّ لِلكلمة. شاهد القراءات في تطبيقها على <strong>coranisyours.com</strong>.</span></div>
     </div></a>
   </div>
 
@@ -946,19 +1065,23 @@ footer.foot a:hover { color: var(--accent); }
   <div class="cards-grid">
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="card">
       <h4 class="card-title cell-ar" style="font-size:24px;font-weight:700;color:var(--accent)">ن</h4>
-      <p class="card-body"><strong>Primary</strong> «انبِعاث رَنينيّ», outward resonant emission (نج, نف, نو).<br/><strong>Variant</strong> «رَنين مَحبوس», held cavity resonance (ثن, تن, طن). Same nasal articulation, two phases.</p>
+      <p class="card-body lang-en"><strong>Primary</strong> «انبِعاث رَنينيّ», outward resonant emission (نج, نف, نو).<br/><strong>Variant</strong> «رَنين مَحبوس», held cavity resonance (ثن, تن, طن). Same nasal articulation, two phases.</p>
+      <p class="card-body lang-ar"><strong>الوجه الأوّل</strong> «انبِعاث رَنينيّ»، رَنينٌ يَخرج إلى الخارج (نج، نف، نو).<br/><strong>الوجه الآخر</strong> «رَنين مَحبوس»، رَنينٌ مَحبوسٌ في تجويف (ثن، تن، طن). نُطقٌ أنفيٌّ واحد، وَجهانِ في مَرحَلتَين.</p>
     </div></a>
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="card">
       <h4 class="card-title cell-ar" style="font-size:24px;font-weight:700;color:var(--accent)">ج</h4>
-      <p class="card-body"><strong>Primary</strong> «تَجَمُّع في حَيِّز», gathering in a space.<br/><strong>Variant</strong> «بُروز من حَيِّز», surfacing out of a space (جَهْرًا, الْجِنّ). Same mid-palate burst, two semantic directions.</p>
+      <p class="card-body lang-en"><strong>Primary</strong> «تَجَمُّع في حَيِّز», gathering in a space.<br/><strong>Variant</strong> «بُروز من حَيِّز», surfacing out of a space (جَهْرًا, الْجِنّ). Same mid-palate burst, two semantic directions.</p>
+      <p class="card-body lang-ar"><strong>الوجه الأوّل</strong> «تَجَمُّع في حَيِّز»، اجتماعٌ داخل فَضاء.<br/><strong>الوجه الآخر</strong> «بُروز من حَيِّز»، خُروجٌ من فَضاء (جَهْرًا، الْجِنّ). انفجارٌ وَسَطيّ واحد، اتّجاهانِ دلاليّان.</p>
     </div></a>
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="card">
       <h4 class="card-title cell-ar" style="font-size:24px;font-weight:700;color:var(--accent)">ه</h4>
-      <p class="card-body"><strong>Primary</strong> «همس + تَنَفُّس», soft passing presence.<br/><strong>Variant</strong> «نَفَسٌ يَحمِل ويَتَلاشى», breath that carries off, dissipating. Same pure exhale, two roles.</p>
+      <p class="card-body lang-en"><strong>Primary</strong> «همس + تَنَفُّس», soft passing presence.<br/><strong>Variant</strong> «نَفَسٌ يَحمِل ويَتَلاشى», breath that carries off, dissipating. Same pure exhale, two roles.</p>
+      <p class="card-body lang-ar"><strong>الوجه الأوّل</strong> «همس + تَنَفُّس»، حُضورٌ ناعمٌ عابر.<br/><strong>الوجه الآخر</strong> «نَفَسٌ يَحمِل ويَتَلاشى»، نَفَسٌ يَحمل ثُمَّ يَنطَفئ. زَفيرٌ خالصٌ واحد، دَورانِ.</p>
     </div></a>
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="card">
       <h4 class="card-title cell-ar" style="font-size:24px;font-weight:700;color:var(--accent)">ب</h4>
-      <p class="card-body"><strong>Primary</strong> «اتّصال + تَمَسُّك», attachment, holding.<br/><strong>Variants</strong> «بَوّابة تُظهر» (gateway showing) · «انطِباق + إغلاق» (sealed enclosure). Same lip closure, three faces.</p>
+      <p class="card-body lang-en"><strong>Primary</strong> «اتّصال + تَمَسُّك», attachment, holding.<br/><strong>Variants</strong> «بَوّابة تُظهر» (gateway showing) · «انطِباق + إغلاق» (sealed enclosure). Same lip closure, three faces.</p>
+      <p class="card-body lang-ar"><strong>الوجه الأوّل</strong> «اتّصال + تَمَسُّك»، التِصاقٌ وإمساك.<br/><strong>الوجوه الأخرى</strong> «بَوّابة تُظهر» (بابٌ يُبدي) · «انطِباق + إغلاق» (إحكامُ الإغلاق). انطباقُ الشفتَين نفسُهُ، ثلاثة وُجوه.</p>
     </div></a>
   </div>
 
@@ -966,17 +1089,26 @@ footer.foot a:hover { color: var(--accent); }
   <p class="lang-en">The bottom-up path from letter to binary to trilateral is grounded by the study's second principal finding. Every Arabic trilateral root in Jabal's lexicon is interpretable as a single operative relation:</p>
   <p class="lang-ar">المسار الصاعد من الحرف إلى النواة إلى الجذر يَستقرّ بِفَضل الإسهام الأصليّ الثاني لِلدراسة. كلّ جذرٍ عربيّ ثلاثيّ في معجم جبل قابلٌ لِلقراءة كَعلاقةٍ تشغيليّةٍ واحدة:</p>
   <div class="callout" style="font-size: 17px; text-align: center; padding: 24px;">
-    <strong>(binary nucleus) does X to (third letter's charge as material)</strong>
+    <strong class="lang-en">(binary nucleus) does X to (third letter's charge as material)</strong>
+    <strong class="lang-ar">(النواة الثنائيّة) تَفعل X بِشحنة (الحرف الثالث) كمادّة</strong>
   </div>
-  <p>…where X is one of <strong>12 relationship modes</strong> in a finite operative grammar. <strong>2,285 of 2,288 trilaterals graded (99.87%), 100% find a coherent mode without forcing.</strong> See <a href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><code>lv2-operative-grammar.md</code></a> for the full methodology and <a href="../Juthoor-Linguistic-Genealogy/outputs/audits/layer_2_dashboard_v2.html">the interactive dashboard</a> in the computational sister project.</p>
+  <p class="lang-en">…where X is one of <strong>12 relationship modes</strong> in a finite operative grammar. <strong>2,285 of 2,288 trilaterals graded (99.87%), 100% find a coherent mode without forcing.</strong> See <a href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><code>lv2-operative-grammar.md</code></a> for the full methodology and <a href="../Juthoor-Linguistic-Genealogy/outputs/audits/layer_2_dashboard_v2.html">the interactive dashboard</a> in the computational sister project.</p>
+  <p class="lang-ar">…حيث X هو أحد <strong>اثني عشر نمطًا علائقيًّا</strong> في نحوٍ تشغيليٍّ مُغلَق. <strong>صُنِّفَ ٢,٢٨٥ من ٢,٢٨٨ جذرًا ثلاثيًّا (٩٩٫٨٧٪)، وكلُّها (١٠٠٪) يَجد نمطًا مُتَّسقًا بلا تكلُّف.</strong> انظر <a href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><code>lv2-operative-grammar.md</code></a> لِلمنهج الكامل، و<a href="../Juthoor-Linguistic-Genealogy/outputs/audits/layer_2_dashboard_v2.html">اللوحة التفاعليّة</a> في المشروع الحاسوبيّ الشقيق.</p>
 
-  <h4 class="sub-title">The structural insight</h4>
-  <p>The binary nucleus is the <strong>agent</strong>; the third letter is the <strong>material</strong> the nucleus acts upon. Under this reading, <em>قصر</em> reads cleanly as "<strong>قص</strong>-cutting-precision <strong>BLOCKS</strong> the flow (<strong>ر</strong>)" — a single coherent operation, like every other native trilateral in the corpus.</p>
+  <h4 class="sub-title"><span class="lang-en">The structural insight</span><span class="lang-ar">المُلاحَظة البنيويّة</span></h4>
+  <p class="lang-en">The binary nucleus is the <strong>agent</strong>; the third letter is the <strong>material</strong> the nucleus acts upon. Under this reading, <em>قصر</em> reads cleanly as "<strong>قص</strong>-cutting-precision <strong>BLOCKS</strong> the flow (<strong>ر</strong>)" — a single coherent operation, like every other native trilateral in the corpus.</p>
+  <p class="lang-ar">النواة الثنائيّة هي <strong>الفاعل</strong>؛ والحرف الثالث هو <strong>المادّة</strong> التي تَعمل عليها النواة. تَحت هذه القراءة، يَقرَأ <em>قصر</em> سَلِسًا كَـ"<strong>قص</strong>ـالقَطع الحاسم <strong>يَحجز</strong> الجريان (<strong>ر</strong>)" — عمليّةٌ واحدةٌ مُتَّسقة، كَكلّ جذرٍ ثلاثيٍّ أصيلٍ في المُدَوَّنة.</p>
 
-  <h4 class="sub-title">The 12 modes, grouped by stance</h4>
+  <h4 class="sub-title"><span class="lang-en">The 12 modes, grouped by stance</span><span class="lang-ar">الأنماط الاثنا عشر، مُجَمَّعةً بالوضع</span></h4>
   <div class="table-wrap">
     <table class="data" data-row-link="02-architecture/lv2-operative-grammar.md">
-      <thead><tr><th>Stance</th><th>Mode</th><th>Meaning</th><th>Example</th><th>% of corpus</th></tr></thead>
+      <thead><tr>
+        <th><span class="lang-en">Stance</span><span class="lang-ar">الوضع</span></th>
+        <th><span class="lang-en">Mode</span><span class="lang-ar">النمط</span></th>
+        <th><span class="lang-en">Meaning</span><span class="lang-ar">المعنى</span></th>
+        <th><span class="lang-en">Example</span><span class="lang-ar">مثال</span></th>
+        <th><span class="lang-en">% of corpus</span><span class="lang-ar">٪ من المُدَوَّنة</span></th>
+      </tr></thead>
       <tbody>
         <tr><td rowspan="5"><span class="badge badge-success">POSITIVE 55.2%</span></td><td><strong>CARRY</strong></td><td>binary carries L3-material forward</td><td class="cell-ar">ورد, و-bind carries د-fixity → arriving</td><td>6.4%</td></tr>
         <tr><td><strong>HOLD</strong></td><td>binary contains/encloses L3</td><td class="cell-ar">بلد, بل-wet holds د-fixity → ground</td><td>16.3%</td></tr>
@@ -994,10 +1126,14 @@ footer.foot a:hover { color: var(--accent); }
     </table>
   </div>
 
-  <h4 class="sub-title">Structural-signature tests, predictions confirmed</h4>
+  <h4 class="sub-title"><span class="lang-en">Structural-signature tests, predictions confirmed</span><span class="lang-ar">اختبارات البصمة البنيويّة، تَنبّؤاتٌ مُؤكَّدة</span></h4>
   <div class="table-wrap">
     <table class="data">
-      <thead><tr><th>Test</th><th>Predicted pattern</th><th>Observed</th></tr></thead>
+      <thead><tr>
+        <th><span class="lang-en">Test</span><span class="lang-ar">الاختبار</span></th>
+        <th><span class="lang-en">Predicted pattern</span><span class="lang-ar">النمط المُتنبَّأ</span></th>
+        <th><span class="lang-en">Observed</span><span class="lang-ar">المُلاحَظ</span></th>
+      </tr></thead>
       <tbody>
         <tr><td>Doubled-final roots (XYY: بدد · ردد · جدد)</td><td>INTENSIFY + OPERATE dominate</td><td><strong>66.9%</strong> of 405 roots ✓</td></tr>
         <tr><td>Redoubled XY-XY roots (دردر · جمجم)</td><td>OPERATE + INTENSIFY dominate</td><td><strong>66.9%</strong> of 251 roots ✓</td></tr>
@@ -1007,16 +1143,17 @@ footer.foot a:hover { color: var(--accent); }
     </table>
   </div>
 
-  <h3 class="block-title">Scope of the result: why 453, not 784? <span class="badge badge-info" style="vertical-align: middle;">honest framing</span></h3>
-  <p>A reader seeing "100% native fit" and "453 binary nuclei" will reasonably ask: what about the other pairs? With 28 letters, there are <strong>28² = 784 mathematical possibilities</strong> for an L1·L2 binary. Our catalog has 453. Where did the other 331 go? They are <strong>filtered, not missing</strong>:</p>
+  <h3 class="block-title"><span class="lang-en">Scope of the result: why 453, not 784?</span><span class="lang-ar">نطاق النتيجة: لماذا ٤٥٣ لا ٧٨٤؟</span> <span class="badge badge-info" style="vertical-align: middle;"><span class="lang-en">honest framing</span><span class="lang-ar">عرضٌ صريح</span></span></h3>
+  <p class="lang-en">A reader seeing "100% native fit" and "453 binary nuclei" will reasonably ask: what about the other pairs? With 28 letters, there are <strong>28² = 784 mathematical possibilities</strong> for an L1·L2 binary. Our catalog has 453. Where did the other 331 go? They are <strong>filtered, not missing</strong>:</p>
+  <p class="lang-ar">القارئ الذي يَرى "١٠٠٪ توافق أصيل" و"٤٥٣ نواةً ثنائيّة" سيَسأل بِحَقّ: ماذا عن الأزواج الباقية؟ بـ٢٨ حرفًا، هناك <strong>٢٨² = ٧٨٤ إمكانيّةً رياضيّة</strong> لِزوج L1·L2. كتالوجنا يَضمّ ٤٥٣. أين ذَهَب الـ٣٣١ الآخرون؟ إنّهم <strong>مُصَفّون، لا مفقودون</strong>:</p>
 
   <div class="table-wrap">
     <table class="data">
       <thead>
         <tr>
-          <th>Filter</th>
-          <th>Pairs removed</th>
-          <th>Linguistic reason</th>
+          <th><span class="lang-en">Filter</span><span class="lang-ar">المُصَفّاة</span></th>
+          <th><span class="lang-en">Pairs removed</span><span class="lang-ar">أزواجٌ مَحذوفة</span></th>
+          <th><span class="lang-en">Linguistic reason</span><span class="lang-ar">السبب اللغويّ</span></th>
         </tr>
       </thead>
       <tbody>
@@ -1047,24 +1184,28 @@ footer.foot a:hover { color: var(--accent); }
   <div class="cards-grid" style="margin-top: 20px;">
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/jabal-nuclei-undocumented.md"><div class="card">
       <div class="card-icon">∅</div>
-      <h3 class="card-title">Phonotactically blocked</h3>
-      <p class="card-body"><strong>160 pairs (58%)</strong> of the unattested set are blocked by known Arabic phonological constraints, alif as a vowel, OCP, articulator-class. These are not gaps; Arabic <em>structurally cannot</em> have them.</p>
+      <h3 class="card-title"><span class="lang-en">Phonotactically blocked</span><span class="lang-ar">مَحجوبٌ صوتيًّا-تركيبيًّا</span></h3>
+      <p class="card-body lang-en"><strong>160 pairs (58%)</strong> of the unattested set are blocked by known Arabic phonological constraints, alif as a vowel, OCP, articulator-class. These are not gaps; Arabic <em>structurally cannot</em> have them.</p>
+      <p class="card-body lang-ar"><strong>١٦٠ زوجًا (٥٨٪)</strong> من الأزواج غير المُستعمَلة محجوبةٌ بِقيودٍ صوتيّةٍ معروفةٍ في العربيّة: الألف كَصائت، مبدأ OCP، صنف المُخرَج. هذه ليست فجوات؛ فالعربيّةُ <em>بِنيويًّا لا تَستطيع</em> امتلاكها.</p>
     </div></a>
     <a class="card-link" href="viewer.html?file=03-scholar-extracts/jabal-nuclei-undocumented.md"><div class="card">
       <div class="card-icon">◌</div>
-      <h3 class="card-title">True lexical gaps</h3>
-      <p class="card-body"><strong>Only 155 pairs (20% of all 784)</strong> are pairs the language could have used but doesn't, the natural held-out test set for whether the operative model can become generative.</p>
+      <h3 class="card-title"><span class="lang-en">True lexical gaps</span><span class="lang-ar">فجواتٌ مُعجميّةٌ حَقيقيّة</span></h3>
+      <p class="card-body lang-en"><strong>Only 155 pairs (20% of all 784)</strong> are pairs the language could have used but doesn't, the natural held-out test set for whether the operative model can become generative.</p>
+      <p class="card-body lang-ar"><strong>١٥٥ زوجًا فقط (٢٠٪ من ٧٨٤)</strong> هي ما كان بِوُسع اللغة استعمالُها فلم تَستعمله؛ وهي مجموعةُ الاختبار الطبيعيّة المُؤجَّلة لِقياس ما إذا كان النموذج التشغيليّ يُمكن أن يَصير تَوليديًّا.</p>
     </div></a>
     <a class="card-link" href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><div class="card">
       <div class="card-icon">✓</div>
-      <h3 class="card-title">The honest claim</h3>
-      <p class="card-body">Every trilateral that <em>exists</em> in Arabic gets a coherent operative reading. We did <strong>not</strong> claim every theoretical XYZ would, and we name where the model's predictive reach is currently untested.</p>
+      <h3 class="card-title"><span class="lang-en">The honest claim</span><span class="lang-ar">الدَّعوى الصريحة</span></h3>
+      <p class="card-body lang-en">Every trilateral that <em>exists</em> in Arabic gets a coherent operative reading. We did <strong>not</strong> claim every theoretical XYZ would, and we name where the model's predictive reach is currently untested.</p>
+      <p class="card-body lang-ar">كلّ جذرٍ ثلاثيٍّ <em>موجودٍ</em> في العربيّة يَحصل على قراءةٍ تشغيليّةٍ مُتَّسقة. لم نَدَّعِ أنّ كلّ XYZ نظريٍّ سيَفعل، ونُسَمّي بِصراحةٍ الموضعَ الذي لم يُختَبَر فيه مَدى التنبّؤ بَعدُ.</p>
     </div></a>
   </div>
 
   <div class="callout">
-    <div class="callout-title">Why this matters</div>
-    The 100% native-fit claim is bounded by what Arabic actually uses, not by what's mathematically combinable. The bound is principled (phonotactic constraints attested independently in the linguistics literature) and explicit (we name and count the filter classes). The 155 lexical gaps are the project's natural <strong>next experiment</strong>: predict the mode a hypothetical Arab speaker would pick if she did coin one of those pairs.
+    <div class="callout-title"><span class="lang-en">Why this matters</span><span class="lang-ar">لماذا يَهُمّ هذا</span></div>
+    <span class="lang-en">The 100% native-fit claim is bounded by what Arabic actually uses, not by what's mathematically combinable. The bound is principled (phonotactic constraints attested independently in the linguistics literature) and explicit (we name and count the filter classes). The 155 lexical gaps are the project's natural <strong>next experiment</strong>: predict the mode a hypothetical Arab speaker would pick if she did coin one of those pairs.</span>
+    <span class="lang-ar">دَعوى التوافق الأصيل بنسبة ١٠٠٪ مَحدودةٌ بما تَستعمله العربيّةُ فِعلًا، لا بما يَجمعه الرياضيّ. الحدّ مَبدئيّ (قيودٌ صوتيّة-تركيبيّة موثَّقة في الأدب اللغويّ مستقلًّا) وصريح (نُسَمّي ونَعُدّ أصناف المُصَفّاة). والـ١٥٥ فجوةً مُعجميّةً هي <strong>التجربة القادمة</strong> الطبيعيّة لِلمشروع: أن نَتنبّأ بالنمط الذي سيَختاره مُتكلِّمٌ عربيٌّ افتراضيّ لو سَكّ أحد تلك الأزواج.</span>
   </div>
 </section>
 
@@ -1080,16 +1221,17 @@ footer.foot a:hover { color: var(--accent); }
     الجداول أدناه هي المُخرَجات الحاكمة لِلدراسة. كلّ صفٍّ مَشفوعٌ بإحالةٍ سطريّةٍ إلى المصادر الأوّليّة، مُستخرَجٌ من الشواهد الإمبيريّة في معجم جبل وفي متن تفسير قرآن المنشور، ومَفتوحٌ لِلمراجعة تحت انضباط الاستقرار في الدراسة.
   </p>
 
-  <h3 class="block-title">The 28-letter consensus charge table</h3>
-  <p>One harmonized charge per letter, with phonetic note and English gloss. See <a href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><code>consensus-letter-charges.md</code></a> for the full file with variants section.</p>
+  <h3 class="block-title"><span class="lang-en">The 28-letter consensus charge table</span><span class="lang-ar">جدول الشحنات الإجماعيّة لِلحروف الثمانية والعشرين</span></h3>
+  <p class="lang-en">One harmonized charge per letter, with phonetic note and English gloss. See <a href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><code>consensus-letter-charges.md</code></a> for the full file with variants section.</p>
+  <p class="lang-ar">شحنةٌ مُوَحَّدةٌ لِكلّ حرف، مع إشارةٍ صوتيّةٍ ومُقابلٍ إنجليزيّ. انظر <a href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><code>consensus-letter-charges.md</code></a> لِلملفّ الكامل مع قسم الفروق.</p>
   <div class="table-wrap">
     <table class="data" data-row-link="03-scholar-extracts/consensus-letter-charges.md">
       <thead>
         <tr>
           <th>حرف</th>
-          <th>Consensus charge</th>
-          <th>Phonetic note</th>
-          <th>English gloss</th>
+          <th><span class="lang-en">Consensus charge</span><span class="lang-ar">الشحنة الإجماعيّة</span></th>
+          <th><span class="lang-en">Phonetic note</span><span class="lang-ar">إشارة صوتيّة</span></th>
+          <th><span class="lang-en">English gloss</span><span class="lang-ar">المُقابل الإنجليزيّ</span></th>
         </tr>
       </thead>
       <tbody>
@@ -1126,25 +1268,26 @@ footer.foot a:hover { color: var(--accent); }
     </table>
   </div>
 
-  <h3 class="block-title">The 18-nucleus working set</h3>
-  <p>A curated subset of Jabal's 453 binary nuclei, the highest-frequency, Quran-anchored seeds. The full 453 catalog with charge-only and TC-anchored dossiers is in <code>03-scholar-extracts/jabal-nuclei-*.md</code>.</p>
+  <h3 class="block-title"><span class="lang-en">The 18-nucleus working set</span><span class="lang-ar">المجموعة العاملة، ثماني عشرة نواة</span></h3>
+  <p class="lang-en">A curated subset of Jabal's 453 binary nuclei, the highest-frequency, Quran-anchored seeds. The full 453 catalog with charge-only and TC-anchored dossiers is in <code>03-scholar-extracts/jabal-nuclei-*.md</code>.</p>
+  <p class="lang-ar">مُختارَةٌ من النوى الثنائيّة لِجبل (٤٥٣ نواة)، أعلاها تَردُّدًا وأقواها رُسوخًا في القرآن. الكتالوج الكامل لِلنوى مع الملفّات المَشحونة فقط والملفّات المُرَسَّخة في تفسير قرآن مَوجودٌ في <code>03-scholar-extracts/jabal-nuclei-*.md</code>.</p>
   <div class="table-wrap">
     <table class="data" data-row-link="03-scholar-extracts/jabal-nuclei-extended.md">
       <thead>
         <tr>
-          <th>Nucleus</th>
-          <th>Meaning</th>
-          <th>Examples</th>
+          <th><span class="lang-en">Nucleus</span><span class="lang-ar">النواة</span></th>
+          <th><span class="lang-en">Meaning</span><span class="lang-ar">المعنى</span></th>
+          <th><span class="lang-en">Examples</span><span class="lang-ar">أمثلة</span></th>
         </tr>
       </thead>
       <tbody>
-<tr><td class="cell-letter">ال</td><td>extending affirmation, a bridge</td><td class="cell-ar">الم، الله، الرحمن</td></tr>
+<tr><td class="cell-letter">ال</td><td>extending attachment, intimate bond</td><td class="cell-ar">أَلِفَ، إِلْف، آلاء</td></tr>
 <tr><td class="cell-letter">بر</td><td>manifest extension, surfacing-and-running</td><td class="cell-ar">بَرَّ، بَرَزَ، بَرَأَ</td></tr>
 <tr><td class="cell-letter">بد</td><td>manifest fixing, surface-stays</td><td class="cell-ar">بَدَأ، بَدَا، بَدَّلَ</td></tr>
-<tr><td class="cell-letter">حم</td><td>living containment, warm enclosure</td><td class="cell-ar">حَمَى، حَمَلَ، حَمِدَ، الرَّحم</td></tr>
-<tr><td class="cell-letter">حق</td><td>living precision, contained truth</td><td class="cell-ar">حَقّ، حَقَّقَ، الحَقّ</td></tr>
-<tr><td class="cell-letter">رب</td><td>repeating attachment, holding-and-multiplying</td><td class="cell-ar">رَبّ، رَبَّى، الرَّبّ</td></tr>
-<tr><td class="cell-letter">رح</td><td>repeating warmth, recurring containment</td><td class="cell-ar">رَحِم، رَحْمَة، الرَّحمن</td></tr>
+<tr><td class="cell-letter">حم</td><td>living containment, warm enclosure</td><td class="cell-ar">حَمَى، حَمَلَ، حَمِدَ، رَحِم</td></tr>
+<tr><td class="cell-letter">حق</td><td>living precision, contained truth</td><td class="cell-ar">حَقّ، حَقَّقَ، حَقيقة</td></tr>
+<tr><td class="cell-letter">رب</td><td>repeating attachment, holding-and-multiplying</td><td class="cell-ar">رَبّى، رَبا، تَربية</td></tr>
+<tr><td class="cell-letter">رح</td><td>repeating warmth, recurring containment</td><td class="cell-ar">رَحِم، رَحْمَة، راحة</td></tr>
 <tr><td class="cell-letter">سل</td><td>flowing attachment, fine sliding</td><td class="cell-ar">سَلَّمَ، سَلَكَ، سَلِمَ</td></tr>
 <tr><td class="cell-letter">سم</td><td>extending-toward-completion, lifting</td><td class="cell-ar">سَمَا، اسم، سَموّ</td></tr>
 <tr><td class="cell-letter">عل</td><td>depth-grip extending</td><td class="cell-ar">عَلِمَ، عَلَا، عِلم، عالَم</td></tr>
@@ -1152,7 +1295,7 @@ footer.foot a:hover { color: var(--accent); }
 <tr><td class="cell-letter">فط</td><td>parting-then-spreading</td><td class="cell-ar">فَطَرَ، فِطرة</td></tr>
 <tr><td class="cell-letter">قر</td><td>precision repeating, firm settling</td><td class="cell-ar">قَرَأ، قَرَّ، قَرارَ</td></tr>
 <tr><td class="cell-letter">كل</td><td>sealed extension, pressed-attachment</td><td class="cell-ar">كَلَّ، كُلّ، كَلِمة</td></tr>
-<tr><td class="cell-letter">ملك</td><td>gathering-and-sealing-at-a-cut</td><td class="cell-ar">المَلك</td></tr>
+<tr><td class="cell-letter">ملك</td><td>gathering-and-sealing-at-a-cut</td><td class="cell-ar">مَلَك، مُلْك، مَليك</td></tr>
 <tr><td class="cell-letter">نج</td><td>inner resonance gathering</td><td class="cell-ar">نَجا، نَجم</td></tr>
 <tr><td class="cell-letter">هد</td><td>breath-fixing</td><td class="cell-ar">هَدى، هَدَأ</td></tr>
 <tr><td class="cell-letter">وص</td><td>binding-with-emphatic-strength</td><td class="cell-ar">وَصَلَ، وَصَى، وَصْف</td></tr>
@@ -1160,17 +1303,32 @@ footer.foot a:hover { color: var(--accent); }
     </table>
   </div>
 
-  <h3 class="block-title">The 8 Tier-A cross-linguistic cognates</h3>
-  <p>Quranic-anchored pairs that clear the 4-bar rubric: skeleton match · nucleus identity · modern reader-recognition · dual-family confirmation (Semitic + Indo-European). See <a href="viewer.html?file=04-cross-linguistic/tafsir-coran-tier-a-cognates.md"><code>tafsir-coran-tier-a-cognates.md</code></a> for the full Tier-B ledger and anti-patterns.</p>
+  <h3 class="block-title"><span class="lang-en">Cross-linguistic cognates: the disciplined rubric</span><span class="lang-ar">الأنظائر بين اللغات: المعيار المُنضَبط</span></h3>
+  <p class="lang-en">A separate layer of the framework concerns convergences between Arabic and other language families. This work has its own scholarly anchor and its own verification discipline.</p>
+  <p class="lang-ar">طبقةٌ مُستقلّةٌ من الإطار تُعنى بالتَّقاطُعات بين العربيّة وغيرها من العائلات اللغويّة. ولِهذا العمل أرضيّتُهُ العلميّة الخاصّة ومنهجُهُ في التحقّق.</p>
+
+  <div class="scholar-card" style="border-color: var(--accent); background: var(--accent-bg); margin: 22px 0 28px;">
+    <div class="scholar-name-ar">د. علي فهمي خشيم</div>
+    <div class="scholar-name-en">Dr. Ali Fahmi Khshim (1936–2011)</div>
+    <span class="scholar-stat" style="background: var(--accent); color: white;"><span class="lang-en">cross-linguistic anchor</span><span class="lang-ar">الأرضيّة اللغويّة المُقارِنة</span></span>
+    <p class="scholar-desc lang-en">President of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, PhD in philosophy (Durham, 1971). Author of <span class="ar-display">رِحلة الكلمات</span> (Journey of Words, 1986 / 1998), the modern Arabic-language reference for comparative work between Arabic and other language families. Khshim's nine sound-substitution laws govern the consonantal correspondences that the rubric below depends on.</p>
+    <p class="scholar-desc lang-ar">رئيس مَجمع اللغة العربيّة اللّيبيّ، وعضو مَجمع اللغة العربيّة بالقاهرة، دكتوراه في الفلسفة (دَرَم، ١٩٧١). صاحب «رِحلة الكلمات» (١٩٨٦ / ١٩٩٨)، المرجع العربيّ الحديث في العمل المُقارِن بين العربيّة وسائر العائلات اللغويّة. قوانينُ الإبدال الصوتيّ التِّسعة عند خشيم تَحكُم التَّقابُلات الصامتيّة التي يَعتمد عليها المعيار التالي.</p>
+  </div>
+
+  <h4 class="sub-title"><span class="lang-en">The four-bar verification rubric</span><span class="lang-ar">المعيار الرباعيّ لِلتحقّق</span></h4>
+  <p class="lang-en">A pair earns Tier-A status only if it clears all four bars: <strong>consonant skeleton match</strong> (via Khshim's sound-substitution laws) · <strong>nucleus identity</strong> (the binary semantic seed survives the crossing) · <strong>modern reader-recognition</strong> · <strong>dual-family confirmation</strong> (Semitic and Indo-European traces). See <a href="viewer.html?file=04-cross-linguistic/tafsir-coran-tier-a-cognates.md"><code>tafsir-coran-tier-a-cognates.md</code></a> for the full Tier-B ledger and the anti-patterns.</p>
+  <p class="lang-ar">لا يَدخل زوجٌ المستوى A إلّا إذا اجتاز المعايير الأربعة: <strong>تَطابُق الهيكل الصامتيّ</strong> (عبر قوانين الإبدال عند خشيم) · <strong>وِحدة النواة</strong> (البَذرة الدلاليّة الثنائيّة تَنجو في العُبور) · <strong>تَعَرُّف القارئ المعاصر</strong> · <strong>تَأكيدٌ من عائلتين</strong> (آثارٌ ساميّةٌ وهندوأوروبيّة). انظر <a href="viewer.html?file=04-cross-linguistic/tafsir-coran-tier-a-cognates.md"><code>tafsir-coran-tier-a-cognates.md</code></a> لِسجلّ الصنف الثاني الكامل والأنماط المُضادّة.</p>
+
+  <h4 class="sub-title"><span class="lang-en">The 8 Tier-A cross-linguistic cognates</span><span class="lang-ar">الأنظائر الثمانية بين اللغات، الصنف الأوّل</span></h4>
   <div class="table-wrap">
     <table class="data" data-row-link="04-cross-linguistic/tafsir-coran-tier-a-cognates.md">
       <thead>
         <tr>
-          <th>Arabic root</th>
-          <th>Cognate</th>
-          <th>Skeleton</th>
-          <th>Shared nucleus</th>
-          <th>Home verse</th>
+          <th><span class="lang-en">Arabic root</span><span class="lang-ar">الجذر العربيّ</span></th>
+          <th><span class="lang-en">Cognate</span><span class="lang-ar">النَّظير</span></th>
+          <th><span class="lang-en">Skeleton</span><span class="lang-ar">الهيكل</span></th>
+          <th><span class="lang-en">Shared nucleus</span><span class="lang-ar">النواة المُشتَركة</span></th>
+          <th><span class="lang-en">Home verse</span><span class="lang-ar">آية المرجع</span></th>
         </tr>
       </thead>
       <tbody>
@@ -1187,115 +1345,46 @@ footer.foot a:hover { color: var(--accent); }
   </div>
 
   <div class="callout">
-    <div class="callout-title">Phenomenological, not etymological</div>
-    These are <strong>not</strong> historical-loanword claims. They are convergence claims: the same human mouth made the same shape for the same human reality, in different language families. If a careful Indo-Europeanist insists <em>copy</em> traces to PIE *op- rather than to Semitic ك-ف-أ, that does not undo the reading. Two converging arrivals at the same sonic-semantic nucleus.
+    <div class="callout-title"><span class="lang-en">Phenomenological, not etymological</span><span class="lang-ar">قراءةٌ ظاهراتيّة، لا اشتقاقيّة</span></div>
+    <span class="lang-en">These are <strong>not</strong> historical-loanword claims. They are convergence claims: the same human mouth made the same shape for the same human reality, in different language families. If a careful Indo-Europeanist insists <em>copy</em> traces to PIE *op- rather than to Semitic ك-ف-أ, that does not undo the reading. Two converging arrivals at the same sonic-semantic nucleus.</span>
+    <span class="lang-ar">هذه ليست دعاوى استعارةٍ تاريخيّة، بل دعاوى تَقاطُع: الفم البشريّ نفسه أَنتج الشكل نفسه لِلحقيقة الإنسانيّة نفسها، في عائلاتٍ لغويّةٍ مُختلفة. لو أصرّ باحثٌ هندوأوروبيٌّ مُتأنٍّ على أنّ <em>copy</em> تَعود إلى PIE *op- لا إلى الجذر السامي ك-ف-أ، فذلك لا يَنقُض القراءة. هما وُصولانِ مُتقاربان إلى النواة الصوتيّة الدلاليّة نفسها.</span>
   </div>
 </section>
 
 <!-- ====================== SCHOLARS ====================== -->
 <section id="scholars">
-  <div class="section-eyebrow"><span class="lang-en">04 · Scholarly foundation</span><span class="lang-ar">٤ · الأرضيّة العلميّة</span></div>
-  <h2 class="section-title lang-en">The seven scholars</h2>
-  <h2 class="section-title lang-ar ar-display">العلماء السبعة</h2>
+  <div class="section-eyebrow"><span class="lang-en">04 · Academic foundation</span><span class="lang-ar">٤ · الأرضيّة الأكاديميّة</span></div>
+  <h2 class="section-title lang-en">The scholarly foundation</h2>
+  <h2 class="section-title lang-ar ar-display">الأرضيّة العلميّة</h2>
   <p class="section-intro lang-en">
-    Seven Arabic letter-semantics scholars whose work forms the empirical and theoretical foundation of this study. Jabal's lexicon supplies the canonical dataset (2,300 unique roots, 453 binary nuclei, 1,666 Quranic applications); the other six contribute complementary frameworks. The study takes this foundation as given and extends it with new structural findings (LV0 dual-face, LV1 nucleus catalog, LV2 operative grammar) tested against the same empirical record.
+    Two layers underwrite the study. The deeper layer is the classical Arabic linguistic tradition, more than a millennium of work on the form-meaning correspondence in Arabic. The modern layer is the lexicographic foundation laid by Dr. Muhammad Hassan Jabal and the parallel sensory-profile work of Hassan Abbas.
   </p>
   <p class="section-intro lang-ar">
-    سبعةُ علماءَ في دلالات الحروف العربيّة، يَتشكّل من أعمالهم الأرضيّةُ الإمبيريّة والنظريّةُ لِهذه الدراسة. معجم جبل يُوفِّر القاعدة المُعتمَدة (٢,٣٠٠ جذرٍ فريد، ٤٥٣ نواةً ثنائيّة، ١,٦٦٦ تطبيقًا قرآنيًّا)؛ والستّة الآخرون يُكمِّلون بأُطرٍ نَظَريّة. تَأخذ الدراسة هذه الأرضيّة مُسَلَّمَةً وتُضيف إليها نتائجَ بنيويّةً جديدة (الازدواجيّة الكونيّة لِطبقة LV0، كتالوج النوى لِطبقة LV1، النحو التشغيليّ لِطبقة LV2) مَفحوصةً على السجلّ الإمبيريّ نفسه.
+    تَستَنِد الدراسةُ إلى طبقتَين. الطبقةُ الأعمق هي التقليد اللغويّ العربيّ الكلاسيكيّ، أكثر من ألف عامٍ من العمل على تَلازُم الشكل بالمعنى في العربيّة. والطبقةُ الحديثة هي الأرضيّة المعجميّة التي وَضَعها الدكتور محمد حسن جبل، وعملُ حسن عبّاس المُوازي على البَصمات الحِسّيّة لِلحروف.
   </p>
 
   <div class="cards-grid">
+    <div class="scholar-card" style="border-color: var(--accent-2); background: var(--accent-bg);">
+      <div class="scholar-name-ar" style="font-size: 18px;">التقليد العربيّ الكلاسيكيّ</div>
+      <div class="scholar-name-en">The classical Arabic tradition</div>
+      <span class="scholar-stat" style="background: var(--accent-2); color: white;"><span class="lang-en">12+ centuries · the foundation</span><span class="lang-ar">١٢ قَرنًا فأكثر · الأرضيّة</span></span>
+      <p class="scholar-desc lang-en">From <span class="ar-display">الخليل بن أحمد الفراهيدي</span> (founder of Arabic linguistics, 8th c., <em>Kitab al-Ayn</em>) through <span class="ar-display">ابن جنّي</span> in <em>al-Khasais</em> (11th c., the <span class="ar-display">إمساس الألفاظ أشباه المعاني</span> doctrine on form-meaning correspondence), the classical lexicographers and grammarians worked out the architecture of root, derivation, and articulation that this study extends. See <a href="viewer.html?file=01-theory/classical-survey-ar.md"><code>classical-survey-ar.md</code></a> for the full survey.</p>
+      <p class="scholar-desc lang-ar">من <span class="ar-display">الخليل بن أحمد الفراهيديّ</span> (مُؤسِّس اللغويّات العربيّة، القرن الثاني الهجريّ، «كتاب العين») إلى <span class="ar-display">ابن جنّي</span> في «الخصائص» (القرن الرابع، باب «إمساس الألفاظ أشباه المعاني» في تَلازُم الشكل بالمعنى)، وعُلَماء المعجم والنحو الكلاسيكيّين، وَضَعوا مِعمار الجذر والاشتقاق والنُّطق الذي تَمتدّ منه هذه الدراسة. انظر <a href="viewer.html?file=01-theory/classical-survey-ar.md"><code>classical-survey-ar.md</code></a> لِلمسح الكامل.</p>
+    </div>
     <div class="scholar-card" style="border-color: var(--accent);">
       <div class="scholar-name-ar">د. محمد حسن جبل</div>
       <div class="scholar-name-en">Dr. Muhammad Hassan Jabal</div>
-      <span class="scholar-stat" style="background: var(--accent); color: white;">primary empirical foundation</span>
-      <p class="scholar-desc">المعجم الاشتقاقي المؤصَّل, the canonical dataset every layer of this study tests against: 2,300 unique roots, 453 binary nuclei, 1,666 Quranic applications. Jabal's compositional model (letter → binary → trilateral) is the structural skeleton; the study's new findings (universal dual-face, 12-mode operative grammar) refine it against his own data.</p>
-    </div>
-    <div class="scholar-card">
-      <div class="scholar-name-ar">عاصم المصري</div>
-      <div class="scholar-name-en">Asim al-Masri</div>
-      <span class="scholar-stat">28 letters · القصدية framework</span>
-      <p class="scholar-desc">Explicit continuator of Neili's project. Complete 28-letter table under Qasdiyya. The framework adopts his methodological frame; differs on 8+ letter charges.</p>
-    </div>
-    <div class="scholar-card">
-      <div class="scholar-name-ar">عالم سبيط النيلي</div>
-      <div class="scholar-name-en">Alim Sabit al-Neili</div>
-      <span class="scholar-stat">10 letters · 6 rules · framework</span>
-      <p class="scholar-desc">Founder of Qasdiyya, the conceptual/referential distinction, the 6 no-metaphor rules, the rejection of Saussurean arbitrariness. The framework's methodological core.</p>
+      <span class="scholar-stat" style="background: var(--accent); color: white;"><span class="lang-en">primary modern foundation</span><span class="lang-ar">القاعدة الحديثة الرئيسة</span></span>
+      <p class="scholar-desc lang-en"><span class="ar-display">المعجم الاشتقاقي المؤصَّل</span>, the canonical dataset every layer of this study tests against: 2,300 unique roots, 453 binary nuclei, 1,666 Quranic applications. Jabal's compositional model (letter → binary → trilateral) is the structural skeleton; the study's new findings (universal dual-face, 12-mode operative grammar) refine it against his own data.</p>
+      <p class="scholar-desc lang-ar">«المعجم الاشتقاقي المؤصَّل»، المُدَوَّنة المَرجعيّة التي تَختبر كلُّ طبقةٍ في هذه الدراسة عليها: ٢,٣٠٠ جذرٍ فريد، ٤٥٣ نواةً ثنائيّة، ١,٦٦٦ تطبيقًا قرآنيًّا. نموذجُ جبل التركيبيّ (حرف ← نواة ← ثلاثيّ) هو الهيكل البنيويّ؛ والنتائج الجديدة لِلدراسة (الازدواجيّة الكونيّة، النحو التشغيليّ من ١٢ نمطًا) تُحَسِّنه على بياناته نفسها.</p>
     </div>
     <div class="scholar-card">
       <div class="scholar-name-ar">حسن عبّاس</div>
       <div class="scholar-name-en">Hassan Abbas</div>
-      <span class="scholar-stat">23+3 letters · sensory profiles</span>
-      <p class="scholar-desc">Six sensory categories × three evolutionary mechanisms (هيجانية / إيمائية / إيحائية). The framework absorbs his sensory axis but reads ا/و/ي as active letters, not jawfī blanks.</p>
+      <span class="scholar-stat"><span class="lang-en">28 letters · sensory profiles</span><span class="lang-ar">٢٨ حرفًا · بَصمات حِسّيّة</span></span>
+      <p class="scholar-desc lang-en"><span class="ar-display">خصائص الحروف العربيّة ومعانيها</span> (Arab Writers Union, 1998). Six sensory categories crossed with three evolutionary mechanisms (<span class="ar-display">هيجانيّة / إيمائيّة / إيحائيّة</span>). The framework absorbs his sensory axis and tests it across the full nucleus catalog.</p>
+      <p class="scholar-desc lang-ar">«خصائص الحروف العربيّة ومعانيها» (اتّحاد الكتّاب العرب، ١٩٩٨). ستّ فئاتٍ حِسّيّة مَضروبةٌ في ثلاث آليّاتٍ تَطَوُّريّة (هيجانيّة / إيمائيّة / إيحائيّة). يَستوعِب الإطارُ محورَهُ الحِسّيّ ويَختبره على الكتالوج الكامل لِلنوى.</p>
     </div>
-    <div class="scholar-card">
-      <div class="scholar-name-ar">محمد عنبر</div>
-      <div class="scholar-name-en">Muhammad Anbar</div>
-      <span class="scholar-stat">25 letters · Golden Rule</span>
-      <p class="scholar-desc">The reversal/metathesis hypothesis: reversing letter order reverses meaning. Tested empirically across 155 strict reverse pairs in Jabal's corpus, with a 22% inverse hit-rate confirming Anbar's canonical examples while bounding the rule's wider reach.</p>
-    </div>
-    <div class="scholar-card">
-      <div class="scholar-name-ar">علي فهمي خشيم</div>
-      <div class="scholar-name-en">Ali Fahmi Khshim</div>
-      <span class="scholar-stat">9 sound-substitution laws</span>
-      <p class="scholar-desc">Not letter semantics, phonetic shift laws for intra-Semitic comparison. Architecturally separated into the cross-linguistic layer to avoid contamination of letter charges.</p>
-    </div>
-    <div class="scholar-card">
-      <div class="scholar-name-ar">محمد رشيد ناصر ذوق</div>
-      <div class="scholar-name-en">Mohammad Rashid Naser Dhouq</div>
-      <span class="scholar-stat">3 letters · pictographic</span>
-      <p class="scholar-desc">Pictographic origin theory (e.g., تاء as a cross-shape for تابوت). Explicitly excluded from the consensus table, incompatible with the physical-articulation framework.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ====================== FILES ====================== -->
-<section id="files">
-  <div class="section-eyebrow"><span class="lang-en">05 · Study artifacts</span><span class="lang-ar">٥ · ملفّات الدراسة</span></div>
-  <h2 class="section-title lang-en">Files: the navigator</h2>
-  <h2 class="section-title lang-ar ar-display">الملفّات: خريطة التنقّل</h2>
-  <p class="section-intro lang-en">
-    Every artifact of the study in one place. The canonical reference tables are in <code>03-scholar-extracts/</code>; the architecture and position paper are in <code>02-architecture/</code>; the empirical audits are in <code>05-audits/</code>; raw scholar sources are frozen in <code>Data raw/</code>.
-  </p>
-  <p class="section-intro lang-ar">
-    كلّ ما أنتجته الدراسةُ في موضعٍ واحد. الجداول المرجعيّة في <code>03-scholar-extracts/</code>؛ المعمار والورقة الموقفيّة في <code>02-architecture/</code>؛ السجلّ الإمبيريّ في <code>05-audits/</code>؛ المصادر الأوّليّة لِلعلماء مُجَمَّدةٌ في <code>Data raw/</code>.
-  </p>
-
-  <div class="folder-block">
-    <div class="folder-header"><span class="folder-name">01-theory/</span><span class="folder-meta">Motivation &amp; classical → modern survey</span></div>
-    <ul class="file-list">
-      <li><span class="file-name"><a href="viewer.html?file=01-theory/classical-survey-ar.md">classical-survey-ar.md</a></span><span class="file-desc">20-chapter Arabic survey from Khalil &amp; Ibn Jinni through Jabal · Abbas · Neili · Asim · Anbar · Khshim · Dhouq · Al-Shanawi</span></li>
-      <li><span class="file-name"><a href="viewer.html?file=01-theory/quranic-foundation-ar.md">quranic-foundation-ar.md</a></span><span class="file-desc">Six linguistic principles distilled from Kamal al-Ghazi's interview, motivates LV1</span></li>
-    </ul>
-  </div>
-
-  <div class="folder-block">
-    <div class="folder-header"><span class="folder-name">02-architecture/</span><span class="folder-meta">Methodology and findings papers</span></div>
-    <ul class="file-list">
-      <li><span class="file-name"><a href="viewer.html?file=02-architecture/our-contributions-and-roadmap.md">our-contributions-and-roadmap.md</a></span><span class="file-desc"><strong>Position paper.</strong> What the study contributes, where it stands in relation to prior work, and the open work agenda. Read this first.</span></li>
-      <li><span class="file-name"><a href="viewer.html?file=02-architecture/lv2-operative-grammar.md">lv2-operative-grammar.md</a></span><span class="file-desc"><strong>Operative grammar of trilateral composition.</strong> The 12-mode taxonomy applied to 2,285 graded roots at 100% native fit.</span></li>
-      <li><span class="file-name"><a href="viewer.html?file=02-architecture/lv1-architecture.md">lv1-architecture.md</a></span><span class="file-desc">Architectural specification: the four-layer scope (genome → Semitic → cross-linguistic → Quranic) and the scoring framework.</span></li>
-    </ul>
-  </div>
-
-  <div class="folder-block">
-    <div class="folder-header"><span class="folder-name">03-scholar-extracts/</span><span class="folder-meta">Reference tables and catalogs</span></div>
-    <ul class="file-list">
-      <li><span class="file-name"><a href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md">consensus-letter-charges.md</a></span><span class="file-desc"><strong>The harmonized 28-letter table</strong> with the universal dual-face structure and the 18-nucleus working shortlist.</span></li>
-      <li><span class="file-name"><a href="viewer.html?file=03-scholar-extracts/jabal-nuclei-extended.md">jabal-nuclei-extended.md</a></span><span class="file-desc"><strong>The full 453-nucleus catalog</strong> with per-nucleus reading and source evidence.</span></li>
-      <li><span class="file-name"><a href="viewer.html?file=03-scholar-extracts/jabal-nuclei-tc-anchored.md">jabal-nuclei-tc-anchored.md</a></span><span class="file-desc">The 258 nuclei whose readings are anchored to published Quranic verse-readings.</span></li>
-      <li><span class="file-name"><a href="viewer.html?file=03-scholar-extracts/abbas-letter-classification.md">abbas-letter-classification.md</a></span><span class="file-desc">Hassan Abbas's dual-axis classification (sensory category × articulatory mechanism).</span></li>
-      <li><span class="file-name"><a href="03-scholar-extracts/jabal-letters.html">jabal-letters.html</a></span><span class="file-desc">Per-letter empirical evidence for the dual-face structure.</span></li>
-    </ul>
-  </div>
-
-  <div class="folder-block">
-    <div class="folder-header"><span class="folder-name">04-cross-linguistic/</span><span class="folder-meta">Cognate corpus</span></div>
-    <ul class="file-list">
-      <li><span class="file-name"><a href="viewer.html?file=04-cross-linguistic/tafsir-coran-tier-a-cognates.md">tafsir-coran-tier-a-cognates.md</a></span><span class="file-desc"><strong>The 4-bar verification rubric</strong> with the 8 Tier-A cognate pairs and the discipline that gates them.</span></li>
-      <li><span class="file-name"><a href="viewer.html?file=04-cross-linguistic/beyond-the-word-examples.md">beyond-the-word-examples.md</a></span><span class="file-desc">17 popular Arabic↔English cognate cases, retained for reference (not gated by the 4-bar rubric).</span></li>
-    </ul>
   </div>
 </section>
 
@@ -1313,33 +1402,34 @@ footer.foot a:hover { color: var(--accent); }
 
   <div class="roadmap-status">
     <div class="roadmap-col closed">
-      <h4>✓ Completed</h4>
+      <h4><span class="lang-en">✓ Completed</span><span class="lang-ar">✓ المُنجَز</span></h4>
       <ul class="roadmap-list">
-        <li><a href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">LV0</span><div><strong>28-letter consensus table with universal dual-face structure</strong>, empirically confirmed across all 453 binary nuclei.</div></a></li>
-        <li><a href="viewer.html?file=03-scholar-extracts/jabal-nuclei-extended.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">LV1</span><div><strong>Full 453-nucleus catalog</strong> with per-nucleus reading, source-anchored where available and compositionally graded otherwise.</div></a></li>
-        <li><a href="viewer.html?file=02-architecture/lv2-operative-grammar.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">LV2</span><div><strong>12-mode operative grammar of trilateral composition</strong>, grading 2,285 roots at 100% native fit.</div></a></li>
-        <li><a href="viewer.html?file=04-cross-linguistic/tafsir-coran-tier-a-cognates.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">X-LING</span><div><strong>Cross-linguistic verification rubric</strong> (four bars) with 8 Quranic-anchored Tier-A pairs.</div></a></li>
-        <li><a href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">SCOPE</span><div><strong>Honest statement of scope</strong>: the 784 mathematical pairs partitioned into 160 phonotactically blocked, 155 lexical gaps, and 453 attested.</div></a></li>
+        <li><a href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">LV0</span><div><span class="lang-en"><strong>28-letter consensus table with universal dual-face structure</strong>, empirically confirmed across all 453 binary nuclei.</span><span class="lang-ar"><strong>جدول إجماع الـ٢٨ حرفًا مع بنية الازدواجيّة الكونيّة</strong>، مُؤكَّدًا إمبيريًّا على جميع الـ٤٥٣ نواةً ثنائيّة.</span></div></a></li>
+        <li><a href="viewer.html?file=03-scholar-extracts/jabal-nuclei-extended.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">LV1</span><div><span class="lang-en"><strong>Full 453-nucleus catalog</strong> with per-nucleus reading, source-anchored where available and compositionally graded otherwise.</span><span class="lang-ar"><strong>كتالوج كامل لِلـ٤٥٣ نواةً</strong>، مع قراءةٍ لِكلّ نواة، مُرَسَّخةً بالمصدر حيث أمكن، ومُصَنَّفةً تركيبيًّا فيما عدا ذلك.</span></div></a></li>
+        <li><a href="viewer.html?file=02-architecture/lv2-operative-grammar.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">LV2</span><div><span class="lang-en"><strong>12-mode operative grammar of trilateral composition</strong>, grading 2,285 roots at 100% native fit.</span><span class="lang-ar"><strong>نحوٌ تشغيليٌّ من ١٢ نمطًا لِتركيب الجذر الثلاثيّ</strong>، يُصَنِّف ٢,٢٨٥ جذرًا بتوافقٍ أصيلٍ ١٠٠٪.</span></div></a></li>
+        <li><a href="viewer.html?file=04-cross-linguistic/tafsir-coran-tier-a-cognates.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">X-LING</span><div><span class="lang-en"><strong>Cross-linguistic verification rubric</strong> (four bars) with 8 Quranic-anchored Tier-A pairs.</span><span class="lang-ar"><strong>معايير التحقُّق بين اللغات</strong> (أربعة) مع ثمانية أزواجٍ من الصنف الأوّل مُرَسَّخةٍ قرآنيًّا.</span></div></a></li>
+        <li><a href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md" style="color:inherit;text-decoration:none;display:flex;gap:10px;width:100%;"><span class="roadmap-id">SCOPE</span><div><span class="lang-en"><strong>Honest statement of scope</strong>: the 784 mathematical pairs partitioned into 160 phonotactically blocked, 155 lexical gaps, and 453 attested.</span><span class="lang-ar"><strong>بيانٌ صريحٌ لِلنطاق</strong>: الـ٧٨٤ زوجًا الرياضيّ مُقَسَّمة إلى ١٦٠ مَحجوبًا صوتيًّا، و١٥٥ فجوةً مُعجميّة، و٤٥٣ مُستعمَلًا.</span></div></a></li>
       </ul>
     </div>
 
     <div class="roadmap-col open">
-      <h4>○ Agenda ahead</h4>
+      <h4><span class="lang-en">○ Agenda ahead</span><span class="lang-ar">○ الخارطة الأماميّة</span></h4>
       <ul class="roadmap-list">
-        <li><div><strong>Statistical predictive test</strong> of letter charges against competing charge sets, using the catalogued 453 nuclei as the evaluation corpus.</div></li>
-        <li><div><strong>Resolve the jawfī treatment</strong> of ا, و, ي across scholars who differ on whether they carry an active semantic charge.</div></li>
-        <li><div><strong>Formalize the dialectical-contradiction check</strong> as a second-pass verification mechanism for letter charges.</div></li>
-        <li><div><strong>Re-evaluate Tier-B cross-linguistic candidates</strong> (ك-ت-ب · خ-ل-ق · ض-ح-و) under refined cognate evidence.</div></li>
-        <li><div><strong>Publish an English-language academic paper</strong> introducing the framework, the dual-face structure, and the 12-mode operative grammar.</div></li>
-        <li><div><strong>Build a lookup tool</strong> (CLI or web) that takes an Arabic word and returns its letter→nucleus→root reading.</div></li>
-        <li><div><strong>Test against non-Quranic corpora</strong> (Jahili poetry, modern MSA) to bound the framework's reach beyond Quranic vocabulary.</div></li>
+        <li><div><span class="lang-en"><strong>Statistical predictive test</strong> of letter charges against competing charge sets, using the catalogued 453 nuclei as the evaluation corpus.</span><span class="lang-ar"><strong>اختبارٌ إحصائيٌّ تَنبّؤيّ</strong> لِشحنات الحروف ضدّ مَجموعاتِ شحناتٍ مُنافِسة، باستخدام الـ٤٥٣ نواةً المُكَتلَجة مُدَوَّنةَ تقييم.</span></div></li>
+        <li><div><span class="lang-en"><strong>Resolve the jawfī treatment</strong> of ا, و, ي across scholars who differ on whether they carry an active semantic charge.</span><span class="lang-ar"><strong>حَسم معالجة الجَوفيّات</strong> ا، و، ي بين الباحثين الذين يَختلفون في حَملها لِشحنةٍ دلاليّةٍ فاعلة.</span></div></li>
+        <li><div><span class="lang-en"><strong>Formalize the dialectical-contradiction check</strong> as a second-pass verification mechanism for letter charges.</span><span class="lang-ar"><strong>صياغة فَحص التضادّ الجدليّ</strong> آليّةَ تحقُّقٍ ثانيةً لِشحنات الحروف.</span></div></li>
+        <li><div><span class="lang-en"><strong>Re-evaluate Tier-B cross-linguistic candidates</strong> (ك-ت-ب · خ-ل-ق · ض-ح-و) under refined cognate evidence.</span><span class="lang-ar"><strong>إعادة تقييم مُرَشَّحات الصنف الثاني</strong> (ك-ت-ب · خ-ل-ق · ض-ح-و) في ضوء شواهد نَظائر مُنقَّحة.</span></div></li>
+        <li><div><span class="lang-en"><strong>Publish an English-language academic paper</strong> introducing the framework, the dual-face structure, and the 12-mode operative grammar.</span><span class="lang-ar"><strong>نَشرُ ورقةٍ أكاديميّةٍ بالإنجليزيّة</strong> تُقَدِّم الإطار، وبنية الازدواجيّة، والنحو التشغيليّ من ١٢ نمطًا.</span></div></li>
+        <li><div><span class="lang-en"><strong>Build a lookup tool</strong> (CLI or web) that takes an Arabic word and returns its letter→nucleus→root reading.</span><span class="lang-ar"><strong>بناء أداة بَحث</strong> (سَطرَ أوامرَ أو شبكيّة) تَأخذ كلمةً عربيّةً وتُعيد قراءَتها حرف ← نواة ← جذر.</span></div></li>
+        <li><div><span class="lang-en"><strong>Test against non-Quranic corpora</strong> (Jahili poetry, modern MSA) to bound the framework's reach beyond Quranic vocabulary.</span><span class="lang-ar"><strong>الاختبار على مُدَوَّناتٍ غير قرآنيّة</strong> (الشعر الجاهليّ، العربيّة المعاصرة الفُصحى) لِتَحديد مَدى الإطار خارج مُعجم القرآن.</span></div></li>
       </ul>
     </div>
   </div>
 
   <div class="callout">
-    <div class="callout-title">For collaborators</div>
-    Every item in the agenda is self-contained and ready for independent work. The position paper at <a href="viewer.html?file=02-architecture/our-contributions-and-roadmap.md"><code>our-contributions-and-roadmap.md</code></a> contains the full methodological detail for each line.
+    <div class="callout-title"><span class="lang-en">For collaborators</span><span class="lang-ar">لِلمُتعاوِنين</span></div>
+    <span class="lang-en">Every item in the agenda is self-contained and ready for independent work. The position paper at <a href="viewer.html?file=02-architecture/our-contributions-and-roadmap.md"><code>our-contributions-and-roadmap.md</code></a> contains the full methodological detail for each line.</span>
+    <span class="lang-ar">كلّ بَندٍ في الخارطة قائمٌ بِذاته وجاهزٌ لِلعمل المستقلّ. الورقة الموقفيّة في <a href="viewer.html?file=02-architecture/our-contributions-and-roadmap.md"><code>our-contributions-and-roadmap.md</code></a> تَحوي التفصيل المنهجيّ الكامل لِكلّ سطر.</span>
   </div>
 </section>
 
@@ -1363,9 +1453,9 @@ footer.foot a:hover { color: var(--accent); }
       <a class="brand-link primary" href="https://coranisyours.com" target="_blank" rel="noopener">
         🌐 coranisyours.com
       </a>
-      <a class="brand-link" href="mailto:yassine.temessek@gmail.com">
-        ✉ yassine.temessek@gmail.com
-      </a>
+      <button class="brand-link" type="button" onclick="openContactModal()">
+        💬 <span class="lang-en">Leave a message</span><span class="lang-ar">اترك رسالة</span>
+      </button>
       <a class="brand-link" href="viewer.html?file=02-architecture/our-contributions-and-roadmap.md">
         📄 <span class="lang-en">Position paper</span><span class="lang-ar">الورقة الموقفيّة</span>
       </a>
@@ -1424,7 +1514,7 @@ footer.foot a:hover { color: var(--accent); }
     <span class="lang-ar">© <span class="ar-display">تَمَسُّك للبحوث والنشر والتدريب</span> · جُذُور: العربيّة.</span>
   </div>
   <div>
-    <a href="viewer.html?file=README.md">README</a> · <a href="viewer.html?file=02-architecture/our-contributions-and-roadmap.md"><span class="lang-en">Position paper</span><span class="lang-ar">الورقة الموقفيّة</span></a> · <a href="https://coranisyours.com" target="_blank" rel="noopener">coranisyours.com</a> · <a href="mailto:yassine.temessek@gmail.com"><span class="lang-en">Contact</span><span class="lang-ar">تواصل</span></a>
+    <a href="viewer.html?file=README.md">README</a> · <a href="viewer.html?file=02-architecture/our-contributions-and-roadmap.md"><span class="lang-en">Position paper</span><span class="lang-ar">الورقة الموقفيّة</span></a> · <a href="https://coranisyours.com" target="_blank" rel="noopener">coranisyours.com</a> · <a href="#" onclick="openContactModal(); return false;"><span class="lang-en">Leave a message</span><span class="lang-ar">اترك رسالة</span></a>
   </div>
 </footer>
 
@@ -1481,6 +1571,154 @@ document.querySelectorAll('table.data[data-row-link]').forEach(table => {
   if (stored === 'ar' || stored === 'en') setLang(stored);
   enBtn.addEventListener('click', () => setLang('en'));
   arBtn.addEventListener('click', () => setLang('ar'));
+})();
+</script>
+
+<!-- ====================== CONTACT MODAL ====================== -->
+<button class="contact-fab" id="contact-fab" aria-label="Leave a message" title="Leave a message">💬</button>
+
+<div class="contact-overlay" id="contact-overlay" role="dialog" aria-modal="true" aria-labelledby="contact-title">
+  <div class="contact-modal">
+    <button class="contact-close" id="contact-close" aria-label="Close">×</button>
+    <h3 id="contact-title">
+      <span class="lang-en">Leave a message</span>
+      <span class="lang-ar">اترك رسالة</span>
+    </h3>
+    <p class="contact-sub">
+      <span class="lang-en">For feedback, citation requests, or collaboration. Messages reach the author directly.</span>
+      <span class="lang-ar">للتعقيب، أو طلبات الاستشهاد، أو التعاون. تَصِل الرسائل إلى المؤلِّف مباشرةً.</span>
+    </p>
+
+    <form id="contact-form" novalidate>
+      <label for="contact-name">
+        <span class="lang-en">Your name</span><span class="lang-ar">اسمك</span>
+      </label>
+      <input id="contact-name" name="name" type="text" required maxlength="120" />
+
+      <label for="contact-email">
+        <span class="lang-en">Your email (optional)</span><span class="lang-ar">بريدك (اختياري)</span>
+      </label>
+      <input id="contact-email" name="email" type="email" maxlength="200" />
+
+      <label for="contact-message">
+        <span class="lang-en">Message</span><span class="lang-ar">الرسالة</span>
+      </label>
+      <textarea id="contact-message" name="message" required minlength="3" maxlength="4000"></textarea>
+
+      <div class="contact-status" id="contact-status" role="status" aria-live="polite"></div>
+
+      <div class="contact-actions">
+        <button type="button" class="contact-cancel" id="contact-cancel">
+          <span class="lang-en">Cancel</span><span class="lang-ar">إلغاء</span>
+        </button>
+        <button type="submit" class="contact-submit" id="contact-submit">
+          <span class="lang-en">Send</span><span class="lang-ar">إرسال</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+// ---------- Supabase-backed contact form ----------
+// Configure once in the project: fill these from your Supabase project,
+//   Settings → API → Project URL + anon public key.
+//   Then create a table:  create table messages (
+//                          id bigint primary key generated always as identity,
+//                          created_at timestamptz default now(),
+//                          name text not null, email text, message text not null,
+//                          user_agent text, lang text );
+//   And one RLS policy:    create policy allow_anon_insert on messages
+//                          for insert to anon with check (true);
+const SUPABASE_URL = '';      // e.g. 'https://xxxxxxxx.supabase.co'
+const SUPABASE_ANON = '';     // public anon key
+const SUPABASE_TABLE = 'messages';
+
+(function() {
+  const fab = document.getElementById('contact-fab');
+  const overlay = document.getElementById('contact-overlay');
+  const closeBtn = document.getElementById('contact-close');
+  const cancelBtn = document.getElementById('contact-cancel');
+  const form = document.getElementById('contact-form');
+  const status = document.getElementById('contact-status');
+  const submitBtn = document.getElementById('contact-submit');
+
+  function setStatus(msg, kind) {
+    status.textContent = msg;
+    status.className = 'contact-status show ' + (kind || '');
+  }
+  function clearStatus() { status.className = 'contact-status'; status.textContent = ''; }
+  function open() { overlay.classList.add('open'); setTimeout(() => document.getElementById('contact-name').focus(), 100); }
+  function close() { overlay.classList.remove('open'); clearStatus(); }
+
+  window.openContactModal = open;
+
+  fab.addEventListener('click', open);
+  closeBtn.addEventListener('click', close);
+  cancelBtn.addEventListener('click', close);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && overlay.classList.contains('open')) close(); });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    clearStatus();
+    const lang = document.documentElement.getAttribute('data-lang') || 'en';
+    const fd = new FormData(form);
+    const name = (fd.get('name') || '').trim();
+    const email = (fd.get('email') || '').trim();
+    const message = (fd.get('message') || '').trim();
+
+    if (!name || message.length < 3) {
+      setStatus(lang === 'ar' ? 'يرجى إكمال الاسم والرسالة.' : 'Please fill in your name and message.', 'err');
+      return;
+    }
+
+    if (!SUPABASE_URL || !SUPABASE_ANON) {
+      setStatus(
+        lang === 'ar'
+          ? 'نموذج التواصل غير مُهيّأ بعدُ. سيتمّ تفعيله قريبًا.'
+          : 'The contact form is not yet wired to its backend. It will be active shortly.',
+        'err'
+      );
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = lang === 'ar' ? 'جارٍ الإرسال…' : 'Sending…';
+
+    try {
+      const resp = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': SUPABASE_ANON,
+          'Authorization': `Bearer ${SUPABASE_ANON}`,
+          'Prefer': 'return=minimal'
+        },
+        body: JSON.stringify({
+          name, email: email || null, message,
+          user_agent: navigator.userAgent.substring(0, 500),
+          lang
+        })
+      });
+      if (!resp.ok) {
+        let err = `HTTP ${resp.status}`;
+        try { const j = await resp.json(); err = j.message || j.error || err; } catch (_) {}
+        throw new Error(err);
+      }
+      setStatus(lang === 'ar' ? 'شكرًا، وَصَلَت رسالتك.' : 'Thank you, your message has been sent.', 'ok');
+      form.reset();
+      setTimeout(close, 2200);
+    } catch (e) {
+      setStatus(
+        (lang === 'ar' ? 'تَعذَّر الإرسال: ' : 'Could not send: ') + e.message,
+        'err'
+      );
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = '<span class="lang-en">Send</span><span class="lang-ar">إرسال</span>';
+    }
+  });
 })();
 </script>
 

@@ -34,7 +34,6 @@ An empirical study of meaning-composition in the Arabic tongue, built on the fou
 | File | Description |
 |------|-------------|
 | [classical-survey-ar.md](01-theory/classical-survey-ar.md) | A 20-chapter Arabic survey from الخليل and ابن جني through Jabal, Abbas, Neili, Asim, Anbar, Khshim, and Dhouq. The reference compendium. |
-| [quranic-foundation-ar.md](01-theory/quranic-foundation-ar.md) | Six linguistic principles for Quranic interpretation that motivate the framework. |
 
 ### `02-architecture/` — methodology and findings papers
 
