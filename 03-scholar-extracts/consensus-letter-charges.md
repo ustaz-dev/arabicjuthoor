@@ -1,5 +1,7 @@
 # Unified Letter Charges & Common Nuclei
 
+> **Arabic version:** [`consensus-letter-charges-ar.md`](consensus-letter-charges-ar.md).
+>
 > **Status:** the canonical reference table for the study. The unified 28-letter charge table, the general dual-face rule, the 18-nucleus working shortlist, and worked examples.
 > **Relationship to other vault files:**
 > - The modern lexicographic foundation (Jabal) and parallel sensory-profile work (Abbas) live unprocessed in `Data raw/Languistic theories/`. Cross-linguistic substitution laws (Khshim) are handled in `04-cross-linguistic/`.

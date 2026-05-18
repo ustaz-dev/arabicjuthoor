@@ -1,8 +1,8 @@
 # Juthoor — Architecture, Vision & Methods
-## المخطط المعماري لمشروع جُذور
 
 **Author:** Yassine Temessek
 **Conducted under:** Temessek for Research, Publishing & Training
+**Arabic version:** [`lv1-architecture-ar.md`](lv1-architecture-ar.md)
 
 ---
 

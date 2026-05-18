@@ -3,6 +3,7 @@
 > 🌐 **Live site:** [**arabicjuthoor.com**](https://arabicjuthoor.com/)
 > 🖥️ **Local dashboard:** [`index.html`](index.html). A single-page overview of the methodology, the 28-letter table, the 18 nuclei, the twelve composition modes, the 8 Tier-A cognates, and the scholarly foundation.
 > 🚀 **Deploying:** see [`DEPLOYMENT.md`](DEPLOYMENT.md) for the GitHub Pages + Cloudflare DNS setup.
+> 🇸🇦 **Arabic version:** [`README-ar.md`](README-ar.md)
 
 **Author:** Yassine Temessek
 **Conducted under:** **Temessek for Research, Publishing & Training** · [coranisyours.com](https://coranisyours.com) · [arabicjuthoor.com](https://arabicjuthoor.com/)

@@ -181,6 +181,10 @@ main.doc {
     <a class="brand" href="index.html">Juthoor<span class="accent">.</span></a>
     <span class="crumb" id="crumb">—</span>
     <div class="actions">
+      <div class="lang-toggle" role="group" aria-label="Language" style="display:inline-flex; border:1px solid var(--border); border-radius:6px; overflow:hidden;">
+        <button id="lang-en" class="btn-lang" style="padding:6px 12px; background:var(--bg-2); border:0; cursor:pointer; font-family:inherit; font-size:13px; color:var(--text-3);">EN</button>
+        <button id="lang-ar" class="btn-lang" style="padding:6px 12px; background:var(--bg-2); border:0; cursor:pointer; font-family:'Cairo',sans-serif; font-size:13px; color:var(--text-3); border-left:1px solid var(--border);">عربي</button>
+      </div>
       <a id="raw-link" class="btn-sm" target="_blank" rel="noopener">View raw</a>
       <button class="btn-sm" id="theme-toggle" aria-label="Toggle theme">☾</button>
     </div>
@@ -253,9 +257,58 @@ function detectArabic(text) {
   return totalLetters > 0 && (arabicChars / totalLetters) > 0.25;
 }
 
+// ---------- Language switch ----------
+function getCurrentLang() {
+  return localStorage.getItem('juthoor-lang') === 'ar' ? 'ar' : 'en';
+}
+
+function arVariantOf(file) {
+  // If file already ends with -ar.md, return it as-is. Otherwise insert -ar before .md.
+  if (file.endsWith('-ar.md')) return file;
+  if (file.endsWith('.md')) return file.slice(0, -3) + '-ar.md';
+  return file;
+}
+
+function enVariantOf(file) {
+  // Strip -ar suffix if present.
+  if (file.endsWith('-ar.md')) return file.slice(0, -6) + '.md';
+  return file;
+}
+
+(function() {
+  const enBtn = document.getElementById('lang-en');
+  const arBtn = document.getElementById('lang-ar');
+  function applyActive() {
+    const lang = getCurrentLang();
+    enBtn.style.background = (lang === 'en') ? 'var(--accent)' : 'var(--bg-2)';
+    enBtn.style.color = (lang === 'en') ? '#fff' : 'var(--text-3)';
+    arBtn.style.background = (lang === 'ar') ? 'var(--accent)' : 'var(--bg-2)';
+    arBtn.style.color = (lang === 'ar') ? '#fff' : 'var(--text-3)';
+  }
+  function switchTo(lang) {
+    localStorage.setItem('juthoor-lang', lang);
+    applyActive();
+    // Reload with the variant file in the URL
+    const params = new URLSearchParams(window.location.search);
+    const current = params.get('file');
+    if (!current) return;
+    const target = (lang === 'ar') ? arVariantOf(current) : enVariantOf(current);
+    if (target === current) {
+      // Same file, just rerender direction
+      loadDocument();
+    } else {
+      params.set('file', target);
+      window.location.search = '?' + params.toString();
+    }
+  }
+  enBtn.addEventListener('click', () => switchTo('en'));
+  arBtn.addEventListener('click', () => switchTo('ar'));
+  applyActive();
+})();
+
 async function loadDocument() {
   const params = new URLSearchParams(window.location.search);
-  const file = params.get('file');
+  let file = params.get('file');
   if (!file) {
     setState('No document specified. <br><br><a href="index.html">← Back to Juthoor dashboard</a>');
     return;
@@ -264,6 +317,21 @@ async function loadDocument() {
   if (file.includes('..') || !file.endsWith('.md')) {
     setState('Invalid document path.');
     return;
+  }
+  // If user preference is Arabic, prefer the -ar variant when available.
+  const lang = getCurrentLang();
+  if (lang === 'ar' && !file.endsWith('-ar.md')) {
+    const arFile = arVariantOf(file);
+    try {
+      const head = await fetch(arFile, { method: 'HEAD' });
+      if (head.ok) {
+        // Update URL silently and continue with the AR file
+        const newParams = new URLSearchParams(window.location.search);
+        newParams.set('file', arFile);
+        window.history.replaceState({}, '', window.location.pathname + '?' + newParams.toString());
+        file = arFile;
+      }
+    } catch (_) { /* fall through to original */ }
   }
   crumbEl.textContent = file;
   rawLink.href = file;
@@ -278,6 +346,10 @@ async function loadDocument() {
       document.documentElement.setAttribute('dir', 'rtl');
       document.documentElement.setAttribute('lang', 'ar');
       docEl.classList.add('has-arabic');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+      document.documentElement.setAttribute('lang', 'en');
+      docEl.classList.remove('has-arabic');
     }
     marked.setOptions({ gfm: true, breaks: false, headerIds: true, mangle: false });
     const rawHtml = marked.parse(md);

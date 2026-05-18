@@ -1,5 +1,7 @@
 # Cross-Linguistic Tier-A Cognates & The Verification Rubric
 
+> **Arabic version:** [`tafsir-coran-tier-a-cognates-ar.md`](tafsir-coran-tier-a-cognates-ar.md)
+>
 > **Status:** 8 verified cross-linguistic cognate pairs anchored in Quranic vocabulary, plus the 4-bar verification rubric and a Tier-B ledger of evaluated candidates.
 > **Scholarly anchor:** the sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim (former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*). His nine substitution laws govern the consonantal correspondences that allow Arabic and Indo-European/Semitic words to be brought into the same skeleton frame.
 > **Relationship to other vault files:**

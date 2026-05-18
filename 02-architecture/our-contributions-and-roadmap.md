@@ -1,4 +1,3 @@
-# مساهمات مشروع جُذور والخارطة المفتوحة
 # Juthoor: Contributions to Arabic Letter Semantics & the Open Roadmap
 
 **Project:** The Arabic Tongue: Nature, Genome, Application
@@ -6,310 +5,286 @@
 **Conducted under:** Temessek for Research, Publishing & Training · [coranisyours.com](https://coranisyours.com) · [arabicjuthoor.com](https://arabicjuthoor.com/)
 **Status:** Public reference document, share freely.
 
+> Arabic version: [`our-contributions-and-roadmap-ar.md`](our-contributions-and-roadmap-ar.md)
+
 ---
 
-## ABSTRACT (English)
+## Abstract
 
 This study builds on twelve centuries of Arabic linguistic scholarship — from al-Khalil ibn Ahmad al-Farahidi (8th c., *Kitab al-Ayn*) and Ibn Jinni's *إمساس الألفاظ أشباه المعاني* doctrine in *al-Khasais* (11th c.) through the classical lexicographers and grammarians — and on the modern lexicographic foundation laid by Dr. Muhammad Hassan Jabal (*المعجم الاشتقاقيّ المُؤَصَّل*) and the parallel sensory-profile work of Hassan Abbas (*خصائص الحروف العربيّة ومعانيها*, Arab Writers Union, 1998). It extends that foundation with new structural findings:
+
 (a) the **general dual-face rule** for letter charges, tested by induction across all 453 binary nuclei in Jabal's corpus — a structural property earlier scholarship had only suspected for a handful of letters;
+
 (b) the **twelve composition modes for trilateral roots** (the binary nucleus operates on the third letter, taking its charge as material), reading 2,285 roots at 100% native fit and closing the bottom-up genealogy from letter to root;
+
 (c) a **unified 28-letter charge table** with bilingual phonetic notes and English glosses;
+
 (d) the **full 453-nucleus catalog** with Quran-anchored evidence;
+
 (e) the **four-bar verification rubric** for cross-linguistic Quranic cognates, anchored by Dr. Ali Fahmi Khshim's sound-substitution laws, with eight confirmed Tier-A pairs;
+
 (f) an explicit **letter → nucleus → root → word reading protocol** with a stability discipline.
+
 The document also identifies the chapters of the work that are currently in progress on the computational side of the project, and those that are next to be opened publicly. Conducted under **Temessek for Research, Publishing & Training**.
 
 ---
 
-## موجز (Arabic)
-
-تَستَنِد هذه الدراسةُ إلى اثني عشر قَرنًا من البحث اللغويّ العربيّ — من الخليل بن أحمد الفراهيديّ في «كتاب العين» (القرن الثاني الهجريّ) وابن جنّي في «الخصائص» (القرن الرابع، باب «إمساس الألفاظ أشباه المعاني») إلى المعجميّين والنُّحاة الكبار — وفي العصر الحديث على «المعجم الاشتقاقيّ المُؤَصَّل» لِلدكتور محمد حسن جَبَل، وإلى جانبه عَمَل حسن عبّاس على البَصَمات الحِسّيّة لِلحروف («خصائص الحروف العربيّة ومعانيها»، اتّحاد الكتّاب العرب، ١٩٩٨). وتُضيف إلى تلك الأرضيّة نتائجَ جديدة:
-(أ) **قاعدةُ الوَجهَين العامّة** في شَحَنات الحروف، اسْتُقرِئَت على الأربعمائة والثلاث والخمسين نواةً ثنائيّة في مُعجم جَبَل — خاصّيّةٌ بنيويّةٌ لم يَستَكشِفها مَن سَبَق إلّا في حروفٍ مَعدودة؛
-(ب) **اثنا عشر بابًا في تركيب الجذر الثلاثيّ** (النواةُ الثنائيّةُ تَعمل في الحرف الثالث وتَتَّخِذُ شَحنتَهُ مادّةً لها)، تَستوعب ٢,٢٨٥ جذرًا انطباقًا تامًّا وتُغلق المسارَ الصاعد من الحرف إلى الجذر؛
-(ج) **جدولٌ مُوَحَّدٌ لِلحروف الثمانية والعشرين** بِوَصفٍ نُطقيٍّ ومُقابِلٍ إنجليزيٍّ موجَزٍ لِكلّ سَطر؛
-(د) **ديوانٌ كاملٌ لِلأربعمائة والثلاث والخمسين نواةً ثنائيّة** بِشَواهد من النصّ المنشور؛
-(هـ) **ضوابطُ التحقّق الأربعة** في المُقارَبات بين اللغات بِمَدارٍ قرآنيّ، مُسْتَنِدةً إلى قوانين الإبدال الصوتيّ عند د. علي فهمي خشيم، مع ثمانية أزواجٍ راسخةٍ في الصِّنف الأوّل؛
-(و) **بروتوكولُ قراءة** صريحٌ يَسير من الحرف إلى الكلمة، مع ضابطٍ لاستقرار القراءات.
-وتُحدِّد الوثيقةُ كذلك ما هو قَيد العَمَل في الجانب الحاسوبيّ من المشروع، وما هي الفصول القادمة التي تَنتظر الالتقاط. أُجريت تحت **تَمَسُّك للبحوث والنشر والتدريب**.
-
----
-
-## ١. السياق, أين تَقع هذه الدراسة
 ## §1. Context, where this study sits
 
-### ١.١ التراث العربيّ في دلالات الحروف
+### 1.1 The Arabic tradition on letter semantics
 
-طبقةُ دلالات الحروف العربيّة — ما تَحت طبقة النحو، وما قَبل التفسير — ليست تخصُّصًا حديثًا، بل ميدانٌ امتدّ عبر قرون. الحَدسُ التأسيسيّ — تَلازُمُ شَكلِ الحرف بمعناه عبر مَخرَجِه النُّطقيّ — موجودٌ في «كتاب العين» لِلخليل بن أحمد الفراهيديّ (القرن الثاني الهجريّ، مُؤَسِّس اللغويّات العربيّة)، ومُصاغٌ صراحةً في «الخصائص» لابن جنّي (القرن الرابع، باب «إمساس الألفاظ أشباه المعاني»). وامتدّ هذا النَّظر عَبر المعجميّين والنُّحاة الكبار، يَتَجَلّى في الاهتمام بِالمَخارج والصفات النُّطقيّة بوصفها مَنبَعَ الدِّلالة. المسحُ التَّفصيليّ في [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md).
+The layer of Arabic letter semantics — below the layer of grammar, before the layer of exegesis — is not a modern specialty; it is a field that has stretched across centuries. The foundational intuition — the link between a letter's form and its meaning through its place of articulation — is present in al-Khalil ibn Ahmad al-Farahidi's *Kitab al-Ayn* (8th c., the founder of Arabic linguistics) and explicit in Ibn Jinni's *al-Khasais* (11th c., the chapter on *إمساس الألفاظ أشباه المعاني*, the correspondence of form to meaning). It continued through the classical lexicographers and grammarians, manifest in their close attention to places of articulation (مَخارج) and consonant qualities (صفات) as the wellspring of meaning. The full survey is in [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md).
 
-وفي العصر الحديث، تَقومُ الأرضيّةُ المعجميّة لِهذا الميدان على عَمَلَين مُؤَسِّسَين:
+In the modern era, the lexicographic foundation for this field rests on two principal works:
 
-| المرجع | الإسهام | الحَجم |
+| Source | Contribution | Scale |
 |---|---|---|
-| **د. محمد حسن جَبَل** · «المعجم الاشتقاقيّ المُؤَصَّل» | استقراءٌ مُعجميٌّ كَمّيّ مع نموذجٍ تَركيبيٍّ (حرف ← نواة ← جذر) | ٢٨ حرفًا، ٤٥٣ نواةً ثنائيّة، ٢,٣٠٠ جذرٍ فريد، ١,٦٦٦ تطبيقًا قرآنيًّا |
-| **حسن عبّاس** · «خصائص الحروف العربيّة ومعانيها» (اتّحاد الكتّاب العرب، ١٩٩٨) | تَوصيفٌ حِسّيٌّ-نُطقيٌّ لِلحروف، فئاتٌ حِسّيّة وآليّاتٌ تَطَوُّريّة (هيجانيّة / إيمائيّة / إيحائيّة) | ٢٨ حرفًا |
+| **Dr. Muhammad Hassan Jabal** · *المعجم الاشتقاقيّ المُؤَصَّل* | A quantitative lexicographic induction with a compositional model (letter → nucleus → root) | 28 letters, 453 binary nuclei, 2,300 unique roots, 1,666 Quranic applications |
+| **Hassan Abbas** · *خصائص الحروف العربيّة ومعانيها* (Arab Writers Union, 1998) | A sensory-phonetic characterization of the letters, six sensory categories crossed with three evolutionary mechanisms (هيجانيّة / إيمائيّة / إيحائيّة) | 28 letters |
 
-وفي الطبقة المقارنة بين اللغات، تَستَنِد الدراسةُ إلى عَمَل **د. علي فهمي خشيم** (رئيس مَجمع اللغة العربيّة الليبيّ سابقًا، عضو مَجمع اللغة العربيّة بِالقاهرة، دكتوراه فلسفة من جامعة دَرَم ١٩٧١، صاحب «رِحلة الكلمات»)، الذي قَدَّم تسعة قوانين إبدالٍ صوتيٍّ بين العربيّة وسائر العائلات اللغويّة. هذا العَمَل لا يُقَدِّم شَحَناتِ حروف، بل آليّاتِ المُقارَنة الصوتيّة بين اللغات، ومَوضِعُه هو الطبقةُ المقارنة (`04-cross-linguistic/`).
+For the cross-linguistic layer, the study rests on the work of **Dr. Ali Fahmi Khshim** (former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, PhD in philosophy from Durham University 1971, author of *رِحلة الكلمات*), who established nine sound-substitution laws between Arabic and other language families. This work does not provide per-letter charges but rather the comparative-phonetic mechanisms between languages, and it lives in the cross-linguistic layer (`04-cross-linguistic/`).
 
-### ١.٢ مَوقع هذه الدراسة
+### 1.2 Where this study sits
 
-هذه الدراسةُ ليست بَديلًا تَنافسيًّا لِهذا التراث، بل **تَنقيحٌ وامتدادٌ بنيويّ**. تَأخذ:
+This study is not a competing alternative to that tradition; it is a **structural refinement and extension**. It takes:
 
-- من **التراث الكلاسيكيّ** (الخليل، ابن جنّي، المعجميّون): الحدسَ التأسيسيَّ في تَلازُم الحرف بالمعنى عَبر مَخرَجِه النُّطقيّ.
-- من **جَبَل**: المُدَوَّنةَ المعجميّة الكاملة ونموذجَه التركيبيّ (حرف ← نواة ثنائيّة ← جذر).
-- من **عبّاس**: الفئاتِ الحِسّيّة والمحورَ النُّطقيّ-التَّطَوُّريّ لِلحروف.
-- من **خشيم**: قوانينَ الإبدال لِلطبقة المقارنة بين اللغات.
+- From the **classical tradition** (al-Khalil, Ibn Jinni, the lexicographers): the foundational intuition of form-meaning correspondence through articulation.
+- From **Jabal**: the complete lexicographic dataset and his compositional model (letter → binary nucleus → root).
+- From **Abbas**: the sensory categories and the phonetic-evolutionary axis for letters.
+- From **Khshim**: the substitution laws for the cross-linguistic layer.
 
-ثُمَّ تُضيف على هذه الأرضيّة المُجتَمِعة نتائج جديدة تُفَصِّلها §٢ أدناه.
+To that combined foundation, the study adds new structural findings, detailed in §2 below.
 
-**الالتزامُ المنهجيّ:** الدراسةُ لم تَأخذ نتائجَ الأرضيّة كَمُسَلَّمات. أَخضَعَت كلَّ قراءةٍ لِفَحصٍ منهجيٍّ امتدّ سَنةً كاملة، بِالتقاطع مع الشواهد في المصادر القديمة والحديثة. السِّجلُّ التفصيليّ لِهذه الاختبارات وقراراتها التحريريّة في مُجَلَّد [`../05-audits/`](../05-audits/).
+**Methodological commitment:** the study did not take the foundation's results as given. Every reading was subjected to a year-long systematic examination, cross-checked against the evidence in the classical and modern sources. The detailed record of these tests and editorial decisions lives in the [`../05-audits/`](../05-audits/) folder.
 
 ---
 
-## ٢. مساهماتنا في طبقة الحرف
 ## §2. Our contributions in the letter layer
 
-### ٢.١ جدولٌ مُوَحَّدٌ لِلحروف الثمانية والعشرين
-**A single unified 28-letter charge table.**
+### 2.1 A single unified 28-letter charge table
 
-التراثُ السابق قَدَّم قراءاتٍ مُتَعَدِّدة لِكلّ حرف. هذه الدراسة **اخْتارَت شَحنةً واحدةً حاكمةً لِكلّ حرف**، بعد تَرجيحٍ بين القراءات الواردة في الأدبيّات. الجدولُ كاملًا في [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
+The prior tradition presented multiple readings per letter. This study **chose a single ruling charge per letter** after weighing the readings present in the literature. The full table is in [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
 
-الجدولُ المُوَحَّد ليس تَرجمةً ولا اقتباسًا، بل **حُكمٌ تَحريريّ** قابلٌ لِلنَّقد والمُراجَعة، لكنّه واحدٌ لا مُتَعَدِّد.
+The unified table is neither a translation nor a citation; it is an **editorial judgment** open to critique and revision, but one and not many.
 
-### ٢.٢ مُقابِلٌ إنجليزيٌّ موجَزٌ لِكلّ حرف
-**Concise English gloss per letter.**
+### 2.2 A concise English gloss per letter
 
-كلّ سَطرٍ في الجدول المُوَحَّد يَحوي:
+Each row in the unified table carries:
 
-- الشَّحنة العربيّة
-- وَصفٌ نُطقيّ (phonetic note)
-- مُقابِلٌ إنجليزيٌّ موجَز (English gloss)
+- The Arabic charge
+- A phonetic note
+- A concise English gloss
 
-أمثلة:
+Examples:
 
 - **ء/أ** → *sharp affirmation, beginning*
 - **ر** → *repetition, running, flow*
 - **ع** → *depth-grip, intense from the throat*
 - **ج** → *gathering in a space, surfacing*
 
-هذا يَبني الجِسرَ بين الميدان العربيّ الداخليّ والقارئ غير العربيّ، شَرطٌ لازمٌ لِأيّ تَوَسُّعٍ أكاديميٍّ بين اللغات.
+This builds the bridge between the internal Arabic field and the non-Arabic reader — a necessary condition for any cross-linguistic academic expansion.
 
-### ٢.٣ قاعدةُ الوَجهَين العامّة لِكلّ الـ ٢٨ حرفًا
-**The general dual-face rule across all 28 letters.**
+### 2.3 The general dual-face rule across all 28 letters
 
-الازدواجيّةُ الدلاليّة ليست خاصّيّةً لِبضعة حروف، بل **خاصّيّةٌ عامّة** لِنظام شَحَنات الحروف العربيّ. اسْتُقرِئَت على الأربعمائة والثلاث والخمسين نواةً ثنائيّة في مُعجم جَبَل (التقريرُ الكامل في [`../03-scholar-extracts/jabal-letters.html`](../03-scholar-extracts/jabal-letters.html)).
+The dual-face semantic property is not a special characteristic of a few letters; it is a **general property** of the Arabic phonetic-semantic system. It was tested by induction across all 453 binary nuclei in Jabal's lexicon (full report in [`../03-scholar-extracts/jabal-letters.html`](../03-scholar-extracts/jabal-letters.html)).
 
-**كلّ حرفٍ من الثمانية والعشرين يَحمل وَجهَين دلاليَّين** لِمَخرَجٍ نُطقيٍّ واحد، والحرف الثالث في الجذر الثلاثيّ هو الذي يُحدِّد أيّ الوَجهَين يَعمل.
+**Every one of the 28 letters carries two semantic faces** of one place of articulation, and the third letter in the trilateral root determines which face is active.
 
-أمثلة (التفصيل في `consensus-letter-charges.md` § Variants):
+Examples:
 
-> **ب** · الوجه الأوّل: «اتّصال + تَمَسُّك» (التِصاقٌ يُمسِك ويُبدي، كَالباب يَجمع ويُظهر ما خَلفه)؛ الوجه الآخر: «انطِباق + إغلاق» (إحكامُ الإغلاق).
-> **ن** · الوجه الأوّل: «انبِعاث رَنينيّ» (خروجٌ لِلأمام)؛ الوجه الآخر: «رَنينٌ مَحبوس» (حَجزٌ في تَجويف، يَتفعَّل في ثن، تن، طن).
-> **ه** · الوجه الأوّل: «هَمس + تَنَفُّس» (حُضورٌ هادئ)؛ الوجه الآخر: «نَفَسٌ يَحمل ويَتَلاشى» (مَحوٌ وتَخفيف).
-> **ج** · الوجه الأوّل: «تَجَمُّع في حَيِّز»؛ الوجه الآخر: «بُروزٌ من حَيِّز» (بَزْغٌ وخروج).
+> **ب** · Primary face: «اتّصال + تَمَسُّك» (attachment that holds and reveals, like a doorway that gathers and shows what is behind it). Other face: «انطِباق + إغلاق» (sealed closure).
+> **ن** · Primary face: «انبِعاث رَنينيّ» (outward resonant emission). Other face: «رَنينٌ مَحبوس» (cavity-held resonance, activated in ثن, تن, طن).
+> **ه** · Primary face: «همس + تَنَفُّس» (soft passing presence). Other face: «نَفَسٌ يَحمل ويَتَلاشى» (breath that carries off and dissipates).
+> **ج** · Primary face: «تَجَمُّع في حَيِّز» (gathering in a space). Other face: «بُروز من حَيِّز» (surfacing out of a space).
 
-**الانضباط المنهجيّ:** شَحنةُ الحرف ليست نقطةً، بل **مِنطقةٌ بِوَجهَين معلومَين**. القاعدةُ النهائيّة: استخدِم الوَجه الأوّل افتراضًا، ولا تَستخدِم الوَجه الآخر إلّا حين يُفَعِّله الحرف الثالث في النَّواة.
+**Methodological discipline:** a letter's charge is not a point but a **region with two known faces**. The final rule: use the primary face by default; do not use the other face except when the third letter in the nucleus activates it.
 
-### ٢.٤ قائمةُ ١٨ نواةً ثنائيّة لِلاستعمال العَمَليّ
-**18-nucleus curated working set.**
+### 2.4 An 18-nucleus working set for practical use
 
-في مُعجم جَبَل **٤٥٣ نواةً ثنائيّة** (من أصل ٢٨² = ٧٨٤ احتمالًا حسابيًّا — انظر البند التالي لِبَيان النِّطاق). الحجمُ يَمنع التَّعامل العَمَليّ مع ٤٥٣ نواةً في تَحليل آيةٍ بِعَينها. اختَرنا **١٨ نواةً عاليةَ التَّردُّد، راسخةً قرآنيًّا**:
+Jabal's lexicon has **453 binary nuclei** (out of 28² = 784 mathematical possibilities — see the next subsection for the scope statement). The volume prevents practical handling of 453 nuclei in the analysis of any one verse. We selected **18 high-frequency, Quran-anchored nuclei**:
 
 ال، بر، بد، حم، حق، رب، رح، سل، سم، عل، فر، فط، قر، كل، ملك، نج، هد، وص.
 
-كلٌّ منها لها مَعناها الأساسيّ مع ثلاثة إلى أربعة أمثلة. مثال:
+Each has its primary meaning with three to four examples. Example:
 
 > **حم** = *living containment, warm enclosure*
-> أمثلة: حَمَى، حَمَلَ، حَمِدَ، رَحِم
-> النَّواة: حياةٌ حارّة (ح) + تَجَمُّعٌ وتَلاصُق (م) ← احتواءٌ دافئ.
+> Examples: حَمَى, حَمَلَ, حَمِدَ, رَحِم
+> Nucleus: warm life (ح) + gathering and adhesion (م) → a warm containment.
 
-هذه **مَجموعةُ عَمَلٍ** بِحَجمٍ بَشَريّ يُمكن استعمالُها في القراءة اليوميّة دون الغَرَق.
+This is a **human-scale working set** that can be used in daily reading without drowning.
 
-#### نِطاقٌ صريح, لماذا ٤٥٣ لا ٧٨٤؟
-**Honest scope: why 453, not 784?**
+#### Honest scope: why 453, not 784?
 
-القارئ الذي يَرى «١٠٠٪ انطباقٌ تامّ» و«٤٥٣ نواةً ثنائيّة» سَيَسأل بِحَقّ: ماذا عن البَقيّة؟ بالحروف الثمانية والعشرين، يُوجَد **٢٨² = ٧٨٤ احتمالًا حسابيًّا** لِزَوج L1·L2. وديوانُنا فيه ٤٥٣. أين ذَهَب الـ ٣٣١ الباقون؟ هُم **مُصَفّون، لا مَفقودون**:
+A reader who sees "100% native fit" and "453 binary nuclei" will rightly ask: what about the rest? With 28 letters, there are **28² = 784 mathematical possibilities** for an L1·L2 pair. Our catalog has 453. Where did the other 331 go? They are **filtered, not missing**:
 
-| المُصَفّاة | عدد الأزواج | السبب اللسانيّ |
+| Filter | Pairs removed | Linguistic reason |
 |---|:---:|---|
-| **مَبدوءٌ بالألف** (ا في L1) | ٢٨ | الألف صائتٌ لا حرفٌ صامت، فلا يُبدَأ بها الجذر في العربيّة |
-| **حرفان مُتطابقان** (بب، دد، …) | ٢٥ | قاعدةُ منع التَّماثُل في بداية الجذر |
-| **حرفان من مَخرَجٍ واحد** | ١٠٧ | قاعدةُ منع التَّماثُل المُخَفَّفة (طرف اللسان مَرَّتَين كَـتد، الشَّفَتانِ مَرَّتَين كَـبم) |
-| **فَجواتٌ مُعجميّةٌ حَقيقيّة** | **١٥٥** | يَسمح بها نظامُ أصوات العربيّة، لكنّها غيرُ مُستَعمَلة |
+| **alif-initial** (ا as L1) | 28 | ا is a vowel marker, not a consonant; a root cannot begin with it in Arabic |
+| **identical XX** (e.g., بب, دد, …) | 25 | The Obligatory Contour Principle bans identical consonants at the root start |
+| **same-articulator class** | 107 | Soft OCP — tongue-tip-twice (e.g., تد), lips-twice (e.g., بم), and similar adjacencies are dispreferred |
+| **Genuine lexical gaps** | **155** | Phonologically allowed by Arabic but unused — pairs the language could form but doesn't |
 
-أي: **١٦٠ زوجًا (٥٨٪)** من غير المُستَعمَل مَحجوبةٌ بِقُيودٍ صوتيّةٍ مَعلومة. فقط **١٥٥ زوجًا (٢٠٪ من ٧٨٤)** فَجَواتٌ مُعجميّةٌ حَقيقيّة، أي: أزواجٌ كانت العربيّة قادرةً على تأليفها فلم تَفعَل.
+That is: **160 pairs (58%)** of the unattested set are blocked by known phonological constraints. Only **155 pairs (20% of all 784)** are true lexical gaps — pairs Arabic was capable of forming but did not.
 
-**الادّعاءُ الصريح:** كلّ جذرٍ ثلاثيٍّ مَوجودٍ فِعلًا في العربيّة يَنال قراءةَ عَمَلٍ مُتَّسقة. لم نَدّعِ أنّ كلّ XYZ نَظَريٍّ سيَفعَل، وأَقفَلنا الادّعاء عند العَدَد الفِعليّ، لا الحسابيّ. الـ ١٥٥ فَجوةً هي **مَجموعةُ الاختبار المُحتجَزة الطبيعيّة** لِلسؤال التالي: هل يُمكن لِلنموذج أن يَصير تَوليديًّا، يَتَنَبّأ بالنمط الذي سيَختاره النَّاطق لو سَكّ زوجًا منها؟
+**The honest claim:** every trilateral root that *exists* in Arabic gets a coherent operative reading. We did not claim every theoretical XYZ would, and we closed the claim at the actual count, not the mathematical one. The 155 gaps are the natural **held-out test set** for the next question: can the model become generative — predicting the mode a hypothetical speaker would choose if she coined one of those pairs?
 
-### ٢.٥ بروتوكولُ قراءةٍ من خمس خطوات
-**Explicit five-step reading protocol.**
+### 2.5 An explicit five-step reading protocol
 
-نموذج التركيب موجودٌ ضمنيًّا عند جَبَل، لكنّه لم يَصِغه قطّ كَوصفةٍ مُحكَمة. أنتَجنا الوَصفة:
+The composition model is implicit in Jabal but he never set it down as a precise recipe. We produced the recipe:
 
-١. **سَمِّ الحروف بِشَحَناتها** · مثال: ق (قَطع + إحكام) + ر (تَكرار + جَريان)
-٢. **كَوِّن النَّواة** من أوّل حرفَين · قر = إحكامٌ يَتكرَّر
-٣. **أَضِف الحرف(الحروف) الباقية** · + أ (تأكيد + قوّة)
-٤. **اذكُر المعنى الجذريّ حَرفيًّا** · القرآن = استقرارٌ مُحكَمٌ يَتكرَّر ويُؤكَّد
-٥. **صِل بالاستعمال السياقيّ** بجملةٍ واحدة.
+1. **Name the letters with their charges** · e.g., ق (قطع + إحكام) + ر (تكرار + جريان).
+2. **Form the nucleus** from the first two letters · قر = a precision that repeats.
+3. **Add the remaining letter(s) of the root** · + أ (تأكيد + قوّة).
+4. **State the literal root meaning** · القرآن = a firm settling that repeats and is affirmed.
+5. **Connect to contextual usage** in one sentence.
 
-هذا **نموذجٌ قابلٌ لِلتعليم**، يُمكن تَدريب باحثٍ جديدٍ عليه في ساعتَين.
+This is a **teachable model** — a new researcher can be trained on it in two hours.
 
-### ٢.٦ ضابطُ استقرار القراءات
-**Stability discipline, falsifiability built in.**
+### 2.6 Stability discipline
 
-صرّحنا بأنّ الجدولَ المُوَحَّد مُصَمَّمٌ **لِيَثبُت لا لِيَتذبذب**. الوُجوه المُسَجَّلة هي «نافذةُ الانحراف المُتوقَّعة»؛ ما تَجاوزها يَدلّ على قراءةٍ في **تَوَتُّرٍ مع نفسها**، تَحتاج مُراجَعةً ضدّ المراجع الأصليّة في `Data raw/Languistic theories/`.
+We declared that the unified table is designed **to stabilize, not oscillate**. The faces recorded above are the expected drift-window; beyond that drift, a reading is in **tension with itself** and needs review against the original sources in `Data raw/Languistic theories/`.
 
-هذا **بَنْدُ جَودَةٍ قابلٌ لِلاختبار**، يُحَوِّل الجدولَ من اقتراحٍ إلى مَنظومةٍ يُمكن اختبارها وتَفنيدها. أيّ قراءةٍ تَخرج من نافذة الوُجوه المُعلَنة هي **افتراضٌ جديد** يَحتاج إلى تَبريرٍ في أرض المراجع، لا تَعديلًا حُرًّا.
+This is **a quality clause that is testable**, turning the table from a proposal into a framework that can be tested and refuted. Any reading outside the declared face-window is a **new hypothesis** that needs grounding in the source material, not a free amendment.
 
-### ٢.٧ سبعةُ نماذج تطبيقيّة كاملة
-**Seven worked examples, end-to-end.**
+### 2.7 Seven worked end-to-end examples
 
-طَبَّقنا المنظومة على سبعة جذورٍ قرآنيّةٍ مِحوريّة، خَطوةً بِخَطوة:
+We applied the framework to seven central Quranic roots, step by step:
 
-| الجذر | النَّواة | المعنى الحَرفيّ | المعنى الاستعماليّ |
+| Root | Nucleus | Literal meaning | Usage meaning |
 |---|---|---|---|
-| ق-ر-أ | قر | استقرارٌ مُحكَمٌ يَتكرَّر ويُؤكَّد | جَمعُ المعاني، الكتاب |
-| ف-ط-ر | فط | فَتحٌ يُحدِث انتشارًا | الفطرة، الخَلقُ الأوّليّ |
-| ح-م-د | حم | احتواءٌ دافئٌ يَستقرّ | حَمدٌ ثابتٌ يَسبق العَطاء |
-| ر-ب-ب | رب | جَريانٌ مُتَمَسِّكٌ مُتَضاعِف | الإمساكُ بِالمُتعاهَد عليه |
-| ع-ل-م | عل | قَبضٌ من عُمقٍ يَمتدّ | إدراكٌ ثابت، عَلامة |
-| ن-ج-و | نج | رَنينٌ من باطنٍ يَتجمَّع في حَيِّز | نَجاة، نَجم |
-| س-و-م | سو | سَيلٌ يَربط ويُجمِّع | الوَسم، الإيقاعُ بِسعر |
+| ق-ر-أ | قر | a firm settling that repeats and is affirmed | gathering of meanings, the Book |
+| ف-ط-ر | فط | an opening that spreads | الفطرة, primordial creation |
+| ح-م-د | حم | warm containment that settles | praise that holds and precedes any benefit |
+| ر-ب-ب | رب | flowing attachment, holding-and-multiplying | the holder of what was entrusted |
+| ع-ل-م | عل | a depth-grip that extends | a fixed grasp, a sign |
+| ن-ج-و | نج | inner resonance gathering in a place | escape, a star |
+| س-و-م | سو | a flowing-binding-gathering | branding, imposing a price |
 
-هذه **اختباراتُ تَحَقُّق** لِلمنظومة. كلّ قراءةٍ قابلةٌ لِلنَّقد.
+These are **validation tests** for the framework. Each reading is open to critique.
 
 ---
 
-## ٣. الخيارات المعماريّة الكبرى
 ## §3. Architectural choices
 
-### ٣.١ المَدخل النُّطقيّ-الحَركيّ بوصفه أساسًا
+### 3.1 The phonetic-kinetic entry point as the foundation
 
-تَستَنِد الدراسةُ إلى **مَخرَج الحرف وحَركة النُّطق** بوصفهما المَنبَع الفيزيائيّ لِلدِّلالة. هذا المَدخل قابلٌ لِلاختبار التَّجريبيّ ومُسانَدٌ بِالتقليد الكلاسيكيّ في علم الأصوات (المَخارج، الصفات). البدائل المَيتافيزيقيّة أو المَيتالُغويّة لِلشَّحَنات تُرَجَّح ضدّها كلَّما تَوَفَّر بَديلٌ نُطقيٌّ بَسيط.
+The study rests on the **place of articulation and the movement of the mouth** as the physical wellspring of meaning. This entry point is empirically testable and supported by the classical tradition in phonetics (مَخارج, صفات). Metaphysical or cosmological alternatives for the charges are weighed against simpler phonetic alternatives whenever the latter are available.
 
-### ٣.٢ فَصلُ الطبقة المقارنة بين اللغات
+### 3.2 Separating the cross-linguistic layer
 
-قوانينُ الإبدال الصوتيّ عند د. علي فهمي خشيم تُمَثِّل **آليّاتِ المُقارَنة بين اللغات**، لا شَحَناتِ حروف. وَضَعنا هذا العَمَل في الطبقة المقارنة المُخَصَّصة [`../04-cross-linguistic/`](../04-cross-linguistic/)، حِفاظًا على نَقاء طبقة الحرف من التَّداخل المُقارَن.
+Dr. Ali Fahmi Khshim's sound-substitution laws represent **cross-linguistic comparison mechanisms**, not letter charges. We placed this work in the dedicated cross-linguistic layer [`../04-cross-linguistic/`](../04-cross-linguistic/), preserving the purity of the letter layer from cross-comparative contamination.
 
-### ٣.٣ مَوقفٌ هادئٌ ضدّ ادّعاءات «الإعجاز العلميّ»
+### 3.3 A quiet stance against "scientific miraculousness" claims
 
-لا يُوجَد في المنظومة أيّ ادّعاءٍ بأنّ شَحنة الحرف «تَتطابق مع العلم الحديث» أو ما يُشبه. المنظومة تَدّعي قابليّةَ اختبار العربيّة بِمَنهجٍ لُغويٍّ داخليٍّ بَحت، ولا تَتورَّط في الشِّعارات.
+There is no claim in the framework that a letter's charge "matches modern science" or anything of the sort. The framework claims the testability of Arabic through a strictly internal linguistic method, and does not get involved in such slogans.
 
-### ٣.٤ القرارات التَّحريريّة لِلسَّطر الواحد
+### 3.4 Single-row editorial decisions
 
-في كلّ سَطرٍ من سُطور جدول الـ ٢٨، كان لازمًا تَرجيحُ قراءةٍ على أُخرى. الخطُّ السائدُ في هذه القرارات: **نُرَجِّح الشَّحَنات النُّطقيّة الفيزيائيّة على الشَّحَنات المَيتافيزيقيّة-الكَونيّة**. حين يَتَرَدَّد القرار بين قراءةٍ كَلاميّةٍ مُجَرَّدة وقراءةٍ بَسيطةٍ مُسانَدةٍ بِالمَخرَج، نَختار الثانية. السِّجلّ الكامل لِلقرارات التَّحريريّة سَطرًا بِسَطر، مع الشَّواهد وراء كلّ تَرجيح، في [`../05-audits/`](../05-audits/).
+In each row of the 28-letter table, a reading had to be weighed against another. The prevailing line in those decisions: **we weight physical-articulatory charges over metaphysical-cosmological ones**. When the choice is between an abstract verbal reading and a simpler reading supported by the place of articulation, we choose the latter. The full record of row-by-row editorial decisions, with the evidence behind each weighting, is in [`../05-audits/`](../05-audits/).
 
 ---
 
-## ٤. مُساهَماتنا في طبقاتٍ أُخرى
 ## §4. Contributions in other layers
 
-### ٤.١ ضوابطُ التحقّق الأربعة في المُقارَبات بين اللغات
-**The four-bar verification rubric for cross-linguistic cognates.**
+### 4.1 The four-bar verification rubric for cross-linguistic cognates
 
-مَلفّ: [`../04-cross-linguistic/tafsir-coran-tier-a-cognates.md`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md).
+File: [`../04-cross-linguistic/tafsir-coran-tier-a-cognates.md`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md).
 
-أربعةُ شُروطٍ يَجب أن يَستوفيها أيّ زَوج (عربيٌّ ↔ لُغةٌ أُخرى) لِيَرقى إلى الصِّنف الأوّل:
+Four conditions must be met for a pair (Arabic ↔ other language) to be promoted to Tier A:
 
-1. **تَطابُقُ الأصول الحَرفيّة** (وفق قوانين الإبدال الصوتيّ عند خشيم: K↔Q، F↔P، ج↔K، ض↔D…).
-2. **اتّحادُ النَّواة الدلاليّة** — ليس مُجَرَّد تَشابُهٍ صوتيّ.
-3. **إدراكُ القارئ المُعاصِر** بِالكلمة المُقابِلة (ليست لاتينيّةً نادرة).
-4. **شاهدٌ من فَصيلتَين** — تأييدٌ من الساميّة (عبريّة، آراميّة) وتأييدٌ من الهندوأوروبيّة (لاتينيّة، يونانيّة، جرمانيّة).
+1. **Consonant skeleton match** (using Khshim's sound-substitution laws: K↔Q, F↔P, ج↔K, ض↔D, …).
+2. **Nucleus identity** — not merely sound similarity.
+3. **Modern reader-recognition** of the corresponding word (no rare technical Latin).
+4. **Dual-family confirmation** — support from Semitic (Hebrew, Aramaic, …) AND support from Indo-European (Latin, Greek, Germanic, …).
 
-**ثَمانيةُ أزواجٍ راسخةٍ في الصِّنف الأوّل:**
+**Eight pairs confirmed at Tier A:**
 
-| الجذر | المُقارَبة | الهيكل | النَّواة المُشتَركة |
+| Root | Cognate | Skeleton | Shared nucleus |
 |---|---|---|---|
-| ك-ف-ء | copy / copie / كפל (عبريّة) | K-F | المِثلُ الذي يُحاذي الأصل |
-| س-ل-م | shalom / shalmā (آراميّة) | S-L-M | التَّمامُ المَربوط، السَّلامُ بِمَعنى الكَمال |
-| ر-ب-ب | rabbi / rav (عبريّة) | R-B | المُمسِكُ المُوَسِّع، السَّيِّدُ بِالتَّربية |
-| ج-ن-ن | genie / genus | G-N | المَولودُ من أصلٍ خَفيّ، اِستِتارٌ يَحمل نَسبًا |
-| ك-ل-م | claim / clamor (لات. *clamare*) | K-L-M | القَولُ بِقَصد، الدَّعوى المَلفوظة تَبلُغ |
-| ق-و-ل | call (PIE *kel-) | K/Q-L | النِّداء المَلفوظ، البُلوغُ المَسموع |
-| ش-ر-ب | sorb / absorb / syrup | S-R-B | تَلَقِّي السَّائل، امتصاصُ الجَريان |
-| ج-م-ع | Gemini / gemellus | G-M / J-M | مَجموعانِ في قِران، الاثنَين كَواحد |
+| ك-ف-ء | copy / copie / כפל (Heb) | K-F | the second-instance that lines up against the first |
+| س-ل-م | shalom / shalmā (Aram) | S-L-M | bound completeness, peace-as-wholeness |
+| ر-ب-ب | rabbi / rav (Heb) | R-B | the expansive holder, master-by-nurture |
+| ج-ن-ن | genie / genus | G-N | born-from-a-hidden-source, kin-bearing concealment |
+| ك-ل-م | claim / clamor (Lat. *clamare*) | K-L-M | utter-with-intent, the spoken claim that lands |
+| ق-و-ل | call (PIE *kel-) | K/Q-L | the summon-uttered, the audible-reach |
+| ش-ر-ب | sorb / absorb / syrup | S-R-B | the take-in of fluid, absorbing-flow |
+| ج-م-ع | Gemini / gemellus | G-M / J-M | gathered-into-pair, together-as-one |
 
-### ٤.٢ إعادةُ التأطير الظاهراتيّ
-**Phenomenological reframe.**
+### 4.2 Phenomenological reframe
 
-**لا تَدّعي الدراسةُ اشتقاقًا تاريخيًّا** بين العربيّة وغيرها. تَدّعي **التقاءً ظاهراتيًّا**: اللسان البَشَريّ صَنَع الشَّكلَ نفسَهُ لِلحَقيقة نفسِها في غير عائلةٍ لُغَويّة، فبَقي قابلًا لِلسَّماع. هذا **يَتجاوز اعتراض اللسانيّ التاريخيّ** الذي يَقول إنّ *copia* تَعود إلى PIE \*op- لا إلى ك-ف-ء. مَوقفُنا: هما وُصولانِ مُتَقارِبان إلى النَّواة الصوتيّة-الدلاليّة نفسها، لا نَسبٌ تاريخيّ بين اللغتَين.
+**The study does not claim historical borrowing** between Arabic and the other languages. It claims **phenomenological convergence**: the human mouth shaped the same form for the same reality across language families. Note the asymmetry of evidence: the Arabic root ك-ف-أ is an **attested word** in Quranic and classical Arabic (Q 112:4); the proposed Indo-European ancestor for *copy* (PIE \*op-) is a **linguistic reconstruction**, a hypothetical proto-form. Even granting the reconstruction, the reading stands: an attested Semitic word and a reconstructed Indo-European etymon both converge on the same sonic-semantic nucleus. The reading is not a competing etymology; it is a convergence claim about how the human mouth shapes meaning.
 
-### ٤.٣ بناءُ المَخزن
+### 4.3 Strict repo structure
 
-المشروع مُنَظَّمٌ في طبقاتٍ مُرَقَّمة (`01-theory/` … `05-audits/` + `Data raw/`)، باتّفاقيّات تَسميةٍ مُحَدَّدة، ودَلالاتٍ صريحة لِما يَعني «مُكتمل» / «مُؤرشَف» / «مَفتوح». هذا الانضباط نَفسُه إسهامٌ منهجيّ — يَجعل المشروع **قابلًا لِلتعاون والتَّمدُّد** دون فَوضى.
+The project is organized in numbered layers (`01-theory/` … `05-audits/` + `Data raw/`), with specific naming conventions and explicit semantics for what "complete" / "archived" / "open" mean. This discipline is itself a methodological contribution — it makes the project **collaborable and extensible** without chaos.
 
-### ٤.٤ التَّدقيقات والمُصالَحات
+### 4.4 Audits and reconciliations
 
-سِجلّ التدقيق الكامل لِلدراسة محفوظٌ في مُجَلَّد [`../05-audits/`](../05-audits/). الانضباط في التدقيق إسهامٌ منهجيٌّ مُتكرِّر.
+The full audit record of the study is in the [`../05-audits/`](../05-audits/) folder. Disciplined auditing is a recurring methodological contribution.
 
-### ٤.٥ الجانب الحاسوبيّ من المشروع
+### 4.5 The computational side of the project
 
-جُذور مَشروعٌ ذو جانبَين: هذا المَخزن (الجانب البَحثيّ-التَّحريريّ)، والجانب الحاسوبيّ في `Juthoor-Linguistic-Genealogy/`. الجانب الحاسوبيّ مَسارٌ بَرمجيٌّ بِلُغة Python يُنَفِّذ مِعماريّةَ LV0–LV3، ويُجري قراءةَ الجذر الثلاثيّ على الأبواب الاثني عشر، ويُنتج التَّدقيقات التي تَستند إليها مَزاعِم هذه الوَثيقة. التَّوَسُّع الإحصائيّ وبين اللغات يَجري باستمرارٍ في ذلك الجانب من المشروع.
+Juthoor is a project with two sides: this vault (the research-editorial side) and the computational side in `Juthoor-Linguistic-Genealogy/`. The computational side is a Python pipeline that implements the LV0–LV3 architecture, runs the twelve-mode trilateral reading, and produces the audits behind the claims in this document. Statistical and cross-linguistic expansion is continuously running on that side of the project.
 
 ---
 
-## ٥. الفُروق مع المَراجع الأُخرى
 ## §5. Differences from external references
 
-| المرجع | كيف تَتعامل الدراسة معه |
+| Reference | How the study treats it |
 |---|---|
-| **التراث الكلاسيكيّ** (الخليل، ابن جنّي، الزمخشريّ، …) | الحَدسُ التأسيسيّ. تَستَنِد إليه الدراسة وتَبني عليه. |
-| **جَبَل** | المُدَوَّنة الإمبيريّة الكاملة. تَتبنّى الدراسةُ آلتَه التركيبيّة، وتُحَرِّر شَحَناتِه الفرديّة بِاختبارٍ تَجريبيٍّ مُمتدّ. |
-| **عبّاس** | المحور الحِسّيّ. تَستوعِبه الدراسة وتَختَبِره على الديوان الكامل. |
-| **خشيم** | قوانين الإبدال لِلطبقة المقارنة. مَفصولٌ معماريًّا في `04-cross-linguistic/`، ولا يَدخل طبقة الحرف. |
-| **المُفَسِّرون الكلاسيكيّون** (الطبريّ، الرازيّ، الزمخشريّ، …) | تَفسيرٌ مُفَصَّل في طبقةٍ أَعلى. لا تَعارُض — مَجال الدراسة سابقٌ على مَجالهم التَّفسيريّ. |
-| **النحاة الكلاسيكيّون** (سيبويه، ابن مالك، …) | النحوُ الجُمَليّ في طبقةٍ أَعلى. مَجالُ الدراسة (sub-trilateral) أَدنى من النَّحو — تَكامُلٌ في طبقات، لا تَنازُع. |
+| **The classical tradition** (al-Khalil, Ibn Jinni, al-Zamakhshari, …) | The foundational intuition. The study rests on it and builds upon it. |
+| **Jabal** | The complete empirical dataset. The study adopts his compositional model and refines his individual charges through extended empirical testing. |
+| **Abbas** | The sensory axis. The study absorbs it and tests it against the full catalog. |
+| **Khshim** | The substitution laws for the cross-linguistic layer. Architecturally separated in `04-cross-linguistic/`; does not enter the letter layer. |
+| **The classical exegetes** (al-Tabari, al-Razi, al-Zamakhshari, …) | Detailed exegesis at a higher layer. No conflict — the study's scope is prior to their interpretive scope. |
+| **The classical grammarians** (Sibawayh, Ibn Malik, …) | Sentence-level grammar at a higher layer. The study's scope (sub-trilateral) is below grammar — a layering complement, not a contention. |
 
-**التَّفصيل الكامل لِلقرارات التَّحريريّة** — أيّ شَحنةٍ اخْتيرَت ولماذا، أيّ قراءاتٍ رُجِّحَت ضدّ بَديلٍ مُقتَرَح — في مُجَلَّد [`../05-audits/`](../05-audits/).
+**The full detail of the editorial decisions** — which charge was chosen and why, which readings were weighted against which alternative — is in the [`../05-audits/`](../05-audits/) folder.
 
 ---
 
-## ٦. أين تَقِف الدراسة، وما هو القادم
 ## §6. Where the study stands, and what is next
 
-### ٦.١ المُستَقِرّ
+### 6.1 Settled
 
-- **جدولُ الحروف الثمانية والعشرين المُوَحَّد** مع قاعدة الوَجهَين العامّة، اسْتُقرِئَ على جميع الأربعمائة والثلاث والخمسين نواةً ثنائيّة في مُعجم جَبَل.
-- **ديوانُ النوى الكامل** (٤٥٣ نواة)، مع قراءةٍ لِكلّ نواة، راسخةً بِالمصدر حيث أَمكَن، ومُقَدَّرةً تركيبيًّا فيما عَدا ذلك.
-- **اثنا عشر بابًا في تركيب الجذر الثلاثيّ** تَستوعب ٢,٢٨٥ جذرًا انطباقًا تامًّا.
-- **ضوابطُ التحقّق الأربعة بين اللغات** مع ثَمانية أزواجٍ راسخةٍ في الصِّنف الأوّل.
-- **بَيانٌ صريحٌ لِنِطاق الدراسة**: ٧٨٤ زوجًا حسابيًّا، مُقَسَّمةً إلى ١٦٠ مَحجوبًا صوتيًّا، و١٥٥ فَجوةً مُعجميّة، و٤٥٣ مُستَعمَلًا.
-- **مُعالَجةُ الجَوفيّات** (ا، و، ي): حُسِمَت بِإثبات شَحَناتٍ فاعلةٍ لها، وأُدرِجَت في الجدول المُوَحَّد.
-- **فَحصُ التضادّ الجدليّ** صِيغَ آليّةَ تَحَقُّقٍ ثانية لِشَحَنات الحروف.
+- **Unified 28-letter table** with the dual-face rule, tested by induction across all 453 binary nuclei in Jabal's lexicon.
+- **The full nucleus catalog** (453 nuclei), with a per-nucleus reading, source-anchored where available and compositionally graded otherwise.
+- **Twelve composition modes for trilateral roots** reading 2,285 roots at 100% native fit.
+- **The four-bar cross-linguistic verification rubric** with 8 Tier-A Quran-anchored pairs.
+- **Honest statement of scope**: 784 mathematical pairs partitioned into 160 phonotactically blocked, 155 lexical gaps, and 453 attested.
+- **Jawfī treatment** of ا, و, ي: resolved by establishing active charges for all three and including them in the unified table.
+- **Dialectical-contradiction check** formalized as a second-pass verification on letter charges.
 
-### ٦.٢ قَيد العَمَل
+### 6.2 In progress
 
-- **اختبارٌ إحصائيٌّ تَنبُّؤيّ** لِشَحَنات الحروف ضدّ مَجموعاتِ شَحَناتٍ مُنافِسة — يَجري في الجانب الحاسوبيّ من المشروع، مع تَوَسُّعٍ مُستَمِرٍّ على عائلاتٍ لُغَويّةٍ جديدة.
-- **التَّوَسُّع في الصِّنف الثاني بين اللغات** — أكثر من ٩٠٠ مُرَشَّحٍ من النَّظائر العربيّة-اليونانيّة-اللاتينيّة اكْتُشِفَت وهي قَيد التَّنقيح.
+- **Statistical predictive testing** of letter charges against competing charge sets — running on the computational side of the project, with continuous expansion across new language families.
+- **Tier-B cross-linguistic expansion** — 900+ Arabic↔Greek/Latin candidate cognates discovered and under refinement.
 
-### ٦.٣ الفصول القادمة
+### 6.3 Next chapters
 
-- **نَشرُ ورقةٍ أكاديميّةٍ بالإنجليزيّة** بِحجم ٨ إلى ١٢ صفحة، تُقَدِّم الجدولَ المُوَحَّد، وقاعدةَ الوَجهَين العامّة، وأبوابَ التركيب الاثني عشر، وعَدَدًا من النَّماذج التطبيقيّة.
-- **بناءُ أداةٍ عامّة لِلبَحث** (سَطرَ أوامرَ أو شَبَكيّة) تَأخذ كلمةً عربيّةً وتُعيد قراءتَها: حرف ← نواة ← جذر.
-- **اختبارُ المنظومة على مُدَوَّناتٍ غير قرآنيّة** (الشِّعر الجاهليّ، العربيّة المُعاصِرة الفُصحى) لِتأكيد قُوَّتها التَّنبُّؤيّة خارج النصّ القرآنيّ.
+- **Publish an English-language academic paper** (8–12 pages) presenting the unified table, the dual-face rule, the twelve composition modes, and several worked examples.
+- **Build a public lookup tool** (CLI or web) that takes an Arabic word and returns its letter → nucleus → root reading.
+- **Testing against non-Quranic corpora** (Jahili poetry, modern MSA) to bound the reach beyond Quranic vocabulary.
 
 ---
 
-## ٧. كيف تُسهم
 ## §7. How to contribute
 
-لِلمُتَعاوِنين الراغبين بِالعَمَل على أيّ بَندٍ من بُنود §٦:
+For collaborators wanting to work on any item in §6:
 
-1. **اقرأ مَلفَّ الإطار العامّ:** [`lv1-architecture.md`](lv1-architecture.md) (في هذا المُجَلَّد).
-2. **ادرس الجدول المُوَحَّد:** [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
-3. **اطَّلِع على المصادر الأوّليّة** في `../Data raw/` بِالقَدر اللازم لِبَندك المُختار.
-4. **اعمل في طبقتك** وَفق اتّفاقيّات التَّسمية في README الجذر.
+1. **Read the architecture document:** [`lv1-architecture.md`](lv1-architecture.md) (in this folder).
+2. **Study the unified table:** [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
+3. **Consult the primary sources** in `../Data raw/` to the extent needed for your chosen item.
+4. **Work in your layer** following the naming conventions in the root README.
 
-لِلتَّعقيب أو طَلَب الاستشهاد أو التَّعاون، استَخدِم نَموذجَ التَّواصُل في [arabicjuthoor.com](https://arabicjuthoor.com/).
+For feedback, citation requests, or collaboration, use the contact form at [arabicjuthoor.com](https://arabicjuthoor.com/).
 
 ---
 
-## ٨. خلاصةٌ في فقرة
 ## §8. Summary
 
-تَستَنِد هذه الدراسةُ إلى اثني عشر قَرنًا من البحث اللغويّ العربيّ — من الخليل بن أحمد وابن جنّي إلى المعجميّين القدامى، ومن ثَمَّ إلى الأرضيّة المعجميّة الحديثة عند جَبَل وعبّاس، مع قوانين الإبدال الصوتيّ عند خشيم لِلطبقة المقارنة — وتُضيف إلى ذلك التراث نتائج جديدة: **قاعدةُ الوَجهَين العامّة** في شَحَنات الحروف الـ ٢٨ اسْتُقرِئَت على ٤٥٣ نواةً ثنائيّة، و**اثنا عشر بابًا** في تركيب الجذر الثلاثيّ يَستوعِب ٢,٢٨٥ جذرًا انطباقًا تامًّا، و**ضوابطُ التحقّق الأربعة** بين اللغات بِمَدارٍ قرآنيٍّ مع ثَمانية أزواجٍ راسخة، و**ديوانٌ كاملٌ** لِلنوى الثنائيّة مع شَواهد من النصّ المنشور. المنظومة قائمةٌ على مُدَوَّنة جَبَل المعجميّة وعلى تَفضيلٍ مُتَّسقٍ لِلقراءات النُّطقيّة الفيزيائيّة. النَّظيرُ الحاسوبيّ في `Juthoor-Linguistic-Genealogy/` يُجري التَّوَسُّع الإحصائيّ وبين اللغات بِاستمرار.
+This study rests on twelve centuries of Arabic linguistic scholarship — from al-Khalil ibn Ahmad and Ibn Jinni through the classical lexicographers, and from the modern lexicographic foundation laid by Jabal and Abbas, with Khshim's sound-substitution laws for the cross-linguistic layer — and adds new structural findings: **the general dual-face rule** for the 28 letters, tested by induction across 453 binary nuclei; **twelve composition modes** for trilateral roots, reading 2,285 roots at 100% native fit; **the four-bar verification rubric** for Quran-anchored cross-linguistic cognates with 8 confirmed pairs; and **a complete catalog** of the binary nuclei with evidence from the published text. The framework rests on Jabal's lexicographic corpus and on a consistent preference for phonetic-physical readings. The computational counterpart in `Juthoor-Linguistic-Genealogy/` carries out the statistical and cross-linguistic expansion continuously.
 
 ---
-
-**نهايةُ الوَثيقة. لِلتَّعقيب أو التَّعاون عَبر نَموذج التَّواصُل في [arabicjuthoor.com](https://arabicjuthoor.com/).**
 
 **End of document. For feedback or collaboration, use the contact form at [arabicjuthoor.com](https://arabicjuthoor.com/).**
