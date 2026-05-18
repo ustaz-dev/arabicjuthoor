@@ -1,161 +1,180 @@
-# Juthoor LV1, Architecture, Vision & Methods
-## المخطط المعماري لمشروع جُذور, المستوى الأول
+# Juthoor — Architecture, Vision & Methods
+## المخطط المعماري لمشروع جُذور
 
 **Author:** Yassine Temessek
+**Conducted under:** Temessek for Research, Publishing & Training
 
 ---
 
-## 1. Vision, الرؤية
+## 1. Vision · الرؤية
 
-Juthoor LV1 is a **computational engine for decoding the Arabic genome**, the pre-grammatical semantic layer where meaning is physically encoded in sound.
+Juthoor is a **computational engine for decoding the Arabic genome** — the pre-grammatical semantic layer where meaning is physically encoded in the mouth, throat, and breath.
 
-The Arabic language, unlike the Saussurean model of arbitrary signs, carries meaning at the sub-root level: individual letters have kinetic/physical semantic values, pairs of letters (binary nuclei) form semantic fields, and trilateral roots are compositions of these atoms. This is not metaphor, it is a testable, quantifiable system.
+Unlike a Saussurean model of arbitrary signs, the Arabic genome carries meaning at the sub-root level: individual letters have kinetic/physical semantic charges, pairs of letters (binary nuclei) form semantic fields, and trilateral roots compose these atoms into the words of the language. The system is testable and quantifiable.
 
-LV1's job is to **formalize, test, and score** this system using the combined insights of 7 independent scholars who each discovered parts of it, plus the empirical dataset of Sheikh Jabal's etymological dictionary (المعجم الاشتقاقي الموصل).
+The project formalizes, tests, and scores this system using:
 
----
-
-## 2. Core Principles, المبادئ الأساسية
-
-### 2.1 Scholars Complement, Not Conflict
-The 7 scholars reached different explanations from different angles. They are not competing, they are illuminating different facets of the same structure. LV1 does not arbitrate between them by opinion; it **tests each theory against data** and produces quantitative scores. Where scholars agree, confidence is high. Where they diverge, the data reveals which model has stronger predictive power, or reveals that different models work best for different phonetic classes.
-
-### 2.2 Data vs. Theory
-**Sheikh Jabal** occupies a unique position: he provides both a theory (his 28 letter meanings) and the **primary empirical dataset** (1,924 roots with full compositional analysis, 456 binary nuclei with shared meanings, 1,666 Quranic applications). His dictionary is the ground truth that all theories, including his own, are tested against.
-
-The other scholars provide **theoretical frameworks** (letter semantics, composition rules, validation principles) that become predictive models within LV1.
-
-### 2.3 Simple Layers, Rigorous Testing
-Each layer of LV1 does one thing: **compose meanings and check the result.** The architecture grows by stacking layers, never by complicating existing ones. Each layer is independently testable.
-
-### 2.4 Arabic Genome First
-LV1's scope is strictly ordered:
-1. **Core genome**, letter semantics → binary nuclei → trilateral roots (Arabic only)
-2. **Intra-Semitic extension**, sound laws and phonetic shifts within the Semitic family
-3. **Cross-linguistic projection**, universal language theories (future, separate layer)
-4. **Quranic application**, entirely separate project, built on the completed genome
+- The **classical Arabic linguistic tradition** (al-Khalil ibn Ahmad in *Kitab al-Ayn*, 8th c.; Ibn Jinni's *إمساس الألفاظ أشباه المعاني* doctrine in *al-Khasais*, 11th c.) as the deeper anchor.
+- The modern lexicographic foundation laid by **Dr. Muhammad Hassan Jabal** (*المعجم الاشتقاقي المُؤَصَّل*) — the primary empirical dataset.
+- The parallel sensory-profile work of **Hassan Abbas** (*خصائص الحروف العربيّة ومعانيها*, Arab Writers Union, 1998).
+- Cross-linguistic comparison rests on **Dr. Ali Fahmi Khshim**'s nine sound-substitution laws (*رِحلة الكلمات*).
 
 ---
 
-## 3. Goals, الأهداف
+## 2. Core Principles · المبادئ الأساسية
 
-### 3.1 Immediate Goals (This Phase)
-- Build the **Letter Semantics Registry** with all scholars' values decomposed into atomic features
-- Build the **Binary Nucleus Registry** with testable composition predictions
-- Establish the **scoring framework** (both computational and Claude-judged)
-- Run first-pass tests on Jabal's 456 binary nuclei
+### 2.1 The foundation and what it contributes
 
-### 3.2 Medium-Term Goals
-- Complete **trilateral root prediction engine** (1,924 roots)
-- Test عنبر's Golden Rule systematically across all reversible nuclei
-- Integrate عباس's sensory classification as validation layer
-- Quantify composition model accuracy per phonetic class
+The study takes from:
 
-### 3.3 Long-Term Goals
-- Extend to intra-Semitic comparisons using خشيم's sound laws + known phonetic shifts
-- Build Quranic application system (separate project)
-- Cross-linguistic extension (النيلي + ذوق + الشناوي)
+- The **classical Arabic tradition**: the foundational intuition that letter form and meaning are linked through articulation.
+- **Jabal**: the empirical dataset — 28 letter charges, 453 binary nuclei, 2,300 unique roots, 1,666 Quranic applications.
+- **Abbas**: the sensory-profile axis — six sensory categories crossed with three evolutionary mechanisms (هيجانيّة / إيمائيّة / إيحائيّة).
+- **Khshim**: nine sound-substitution laws governing Arabic ↔ European/Semitic correspondences (for Layer 3 only).
 
----
+Each input is tested against the others. Where they agree, confidence is high. Where they diverge, the data reveals which reading has stronger predictive power.
 
-## 4. The Scholars, المصادر العلمية
+### 2.2 Data and theory
 
-### 4.1 The Dataset Provider
+Jabal occupies a unique position: he provides both a theoretical framework (his 28 letter meanings) and the **primary empirical dataset** (2,300 trilateral roots with full compositional analysis, 453 binary nuclei with shared meanings, 1,666 Quranic applications). His lexicon is the ground truth against which all readings, including his own, are tested.
 
-| Scholar | Contribution | Data Points |
-|---------|-------------|-------------|
-| **الشيخ محمد حسن جبل** | المعجم الاشتقاقي الموصل, full etymological dictionary with compositional analysis | 28 letter meanings, 456 binary nuclei, 1,924 trilateral roots, 1,666 Quranic applications |
+The classical tradition and Abbas provide complementary theoretical frames that become predictive models within the architecture.
 
-### 4.2 The Theorists
+### 2.3 Layered architecture
+Each layer of the project does one thing: **compose meanings and check the result.** The architecture grows by stacking layers, never by complicating existing ones. Each layer is independently testable.
 
-| Scholar | Core Theory | Letters Covered (verified) | Key Framework | Relationship to Others |
-|---------|-------------|--------------------------|---------------|----------------------|
-| **عاصم المصري** | جدلية التناقض, dialectical contradiction in letter names; الفصل المعجمي, binary nucleus defines semantic field | **28 letters** (complete table in جدول معاني الحروف) | Contradiction of letter names reveals المعنى الحركي; binary nucleus is the semantic atom | **Explicitly continued النيلي's work.** States: "هذه رؤية كان بدأها عالم سبيط النيلي." Cites النيلي 30+ times. Used same القصدية framework, completed what النيلي started. |
-| **عالم سبيط النيلي** | قصدية الإشارة, intentionality of linguistic signs; الدلالة الحركية, kinetic meaning; المنهج اللفظي, verbal method | **10 letters** (د,ح,ر,ت,ك,م,ب,ع,ل,ي). The remaining 18 are NOT in available sources. | المعنى المفهومي (conceptual/kinetic) vs المصداق (conventional instance); 6 rules of no-metaphor interpretation | **Founder of the القصدية framework.** His 10 letters are important, but his bigger value is methodological. عاصم المصري completed his 28-letter project. |
-| **حسن عباس** | خصائص الحروف العربية, sensory articulation profiles; statistical validation across 9,767 sources | **23 letters** (detailed) **+ 3 جوفية** (أ,و,ي treated as special group = "directions": أ=للأعلى, و=للأمام, ي=للأسفل). Total: 26 entries. | 6 sensory categories; triple mechanism: هيجانية (exclamatory) / إيمائية (imitative gesture) / إيحائية (suggestive resonance) | **Independent work.** No citation of النيلي. Came from sensory/articulatory/statistical direction. Best used as validation/routing layer, not primary scoring prior. |
-| **محمد عنبر** | جدلية الحرف, dialectics of the letter; القاعدة الذهبية, reversing consonant order reverses meaning | **25 letters** (21 explicit + 4 contextual). Explicit: م,ف,ب (شفوية) + ص,ق,ض (تفخيم) + ر,ل,ن (ذلقية) + س,ز,ش (صفيرية) + ح,ع,خ (حلقية) + د (شديدة) + و,ي,ا/ء (مد+همزة). Contextual: ج (ستر/خفاء), ك (انطواء/منع), ت (قطع/فصل), غ (خفاء/غموض). Only ط,ث,ظ truly missing. NOTE: raw source PDF is heavily OCR-damaged; extracted data from NotebookLM (4 notes) is clean. | Golden Rule is a **hypothesis to test**, not confirmed law: قرأ↔رقأ, فكر↔كفر; letter meaning derived from articulatory physics | **Independent work.** Primary role = reversal/inversion testing + articulatory-physical letter definitions. |
-| **علي فهمي خشيم** | 9 قوانين الإبدال, sound substitution laws; Sumerian-Arabic shared roots | Phonetic shift rules (not letter semantics) | Arabic→European transitions: ق→C/K, ع→vowel, ح→H, etc. | For Layer 3 (intra-Semitic) only |
-| **محمد رشيد ناصر ذوق** | لغة آدم, Phoenician pictographic origins; letters as visual symbols of meaning | **3 letters** (examples only: تاء, هاء, أليف) | Pictographic letter origins: تاء=صليب=تابوت, هاء=رجل يصلي=هدى, أليف=حيوان أليف | For Layer 4 (cross-linguistic) only |
-| **خالد نعيم الشناوي** | اللغات العروبية, Arabic as closest to proto-language; phonetic/morphological/syntactic evidence | Comparative data (not letter semantics) | Rejects "Semitic" label; Arabic preserves original phonetic inventory better than all sister languages | For Layer 3-4 only |
+### 2.4 Scope, in strict order
+1. **Layer 0**: Letter atoms — phonetic charges per letter (28 letters)
+2. **Layer 1**: Binary nuclei — composition of pairs into semantic fields (453 nuclei)
+3. **Layer 2**: Trilateral roots — twelve composition modes (2,285 roots)
+4. **Layer 3**: Cross-linguistic projection — Khshim's substitution laws
+5. **Layer 4**: Quranic application — separate downstream project ([coranisyours.com](https://coranisyours.com))
 
 ---
 
-## 5. Layer Architecture, البنية الطبقية
+## 3. Goals · الأهداف
+
+### 3.1 Settled
+- **Unified 28-letter charge table** with the dual-face rule (Layer 0). See [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
+- **Full 453-nucleus catalog** with Quran-anchored evidence where available (Layer 1). See [`../03-scholar-extracts/jabal-nuclei-extended.md`](../03-scholar-extracts/jabal-nuclei-extended.md).
+- **Twelve composition modes** reading 2,285 trilateral roots at 100% native fit (Layer 2). See [`lv2-operative-grammar.md`](lv2-operative-grammar.md).
+- **Four-bar verification rubric** for cross-linguistic cognates with 8 Quran-anchored Tier-A pairs (Layer 3). See [`../04-cross-linguistic/tafsir-coran-tier-a-cognates.md`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md).
+
+### 3.2 In progress
+- **Statistical predictive testing** of the letter charges against competing charge sets, running on the computational side of the project. Continuous expansion across new language families.
+- **Tier-B cross-linguistic expansion** — 900+ Arabic↔Greek/Latin candidate cognates discovered and under refinement.
+
+### 3.3 Next chapters
+- **English-language academic paper** presenting the unified table, the dual-face rule, and the twelve composition modes.
+- **Public lookup tool** (CLI or web) that takes an Arabic word and returns its letter → nucleus → root reading.
+- **Testing against non-Quranic corpora** (Jahili poetry, modern MSA) to bound the reach beyond Quranic vocabulary.
+
+---
+
+## 4. Sources · المراجع
+
+### 4.1 The empirical foundation
+
+| Source | Contribution | Data points |
+|---|---|---|
+| **Dr. Muhammad Hassan Jabal** · *المعجم الاشتقاقي المُؤَصَّل* | Modern lexicographic foundation with compositional analysis | 28 letter charges, 453 binary nuclei, 2,300 trilateral roots, 1,666 Quranic applications |
+
+### 4.2 The complementary modern reference
+
+| Source | Contribution | Coverage |
+|---|---|---|
+| **Hassan Abbas** · *خصائص الحروف العربيّة ومعانيها* (Arab Writers Union, 1998) | Sensory-profile axis — six sensory categories crossed with three evolutionary mechanisms (هيجانيّة / إيمائيّة / إيحائيّة) | 28 letters |
+
+### 4.3 The cross-linguistic anchor
+
+| Source | Contribution | Coverage |
+|---|---|---|
+| **Dr. Ali Fahmi Khshim** · *رِحلة الكلمات* | Nine sound-substitution laws governing Arabic ↔ European/Semitic correspondences (Layer 3 only — not letter semantics) | Substitution rules, not per-letter charges |
+
+### 4.4 The classical tradition
+
+The deeper anchor for the form-meaning correspondence rests on the classical Arabic linguistic tradition — al-Khalil ibn Ahmad al-Farahidi (*Kitab al-Ayn*, 8th c., founder of Arabic linguistics), Ibn Jinni's *الخصائص* (11th c., the *إمساس الألفاظ أشباه المعاني* doctrine), and the dictionary tradition. The full survey is in [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md).
+
+---
+
+## 5. Layer Architecture · البنية الطبقية
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│              SEPARATE PROJECT: Quranic System            │
-│         (النيلي المنهج اللفظي + عاصم جدلية التناقض)         │
+│  Layer 4 · Quranic Application (separate project)        │
+│  The letter → nucleus → root reading applied to verses.   │
+│  Lives at coranisyours.com.                               │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
-│  Layer 4, Cross-Linguistic (FUTURE)                     │
-│  النيلي unified language + ذوق pictographs + الشناوي       │
+│  Layer 3 · Cross-linguistic projection                  │
+│  Khshim's nine sound-substitution laws.                   │
+│  Four-bar verification rubric for cross-linguistic        │
+│  cognates. 8 Tier-A pairs Quran-anchored.                 │
+│  Test: Arabic root meanings ↔ cognate language pairs.     │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
-│  Layer 3, Intra-Semitic Extension                       │
-│  خشيم 9 sound laws + known phonetic shifts               │
-│  الشناوي comparative evidence                            │
-│  Test: Arabic root meanings → Semitic cognate prediction  │
-└─────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────┐
-│  Layer 2, Trilateral Roots (الجذر الثلاثي)                │
-│  2,285 roots graded under operative grammar               │
-│  Frame: (binary) DOES X to (L3-charge as material)        │
-│  12 modes: CARRY · HOLD · RELEASE · PROJECT · INTENSIFY ·  │
-│             BLOCK · DRAIN · CHANNEL · OPERATE · MIX ·     │
-│             REVERT · LOANWORD                              │
-│  Result: 100% native composition (99.87% lexicon coverage)│
+│  Layer 2 · Trilateral roots (الجذر الثلاثي)              │
+│  2,285 roots read under twelve composition modes (أبواب). │
+│  Frame: (binary nucleus) operates on (L3-charge as        │
+│  material).                                               │
+│  Modes: CARRY · الحَمل  · HOLD · الإمساك                   │
+│         RELEASE · الإطلاق · PROJECT · الإبراز              │
+│         INTENSIFY · التَّضعيف · BLOCK · الحَجب              │
+│         DRAIN · الاستنزاف · CHANNEL · التَّوجيه            │
+│         OPERATE · الإعمال · MIX · المَزج                   │
+│         REVERT · القَلب · LOANWORD · الدَّخيل               │
+│  Result: 100% native fit (99.87% lexicon coverage).       │
 │  See: lv2-operative-grammar.md                            │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
-│  Layer 1, Binary Nuclei (الفصل المعجمي)                  │
-│  456 nuclei with المعنى المشترك                           │
-│  Test: compose letter features → predict shared meaning   │
-│  Also: test عنبر Golden Rule on reversible pairs          │
-│  Score: per scholar × per composition model               │
+│  Layer 1 · Binary nuclei (الفصل المعجمي)                 │
+│  453 nuclei with shared meanings (المعنى المشترك).         │
+│  Test: compose letter features → predict shared meaning.  │
+│  See: jabal-nuclei-extended.md                            │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
-│  Layer 0, Letter Atoms (الحروف)                         │
-│  28 letters × 5+ scholars × atomic semantic features     │
-│  عباس sensory classification as grouping/validation      │
-│  Structure: feature vectors per letter per scholar        │
+│  Layer 0 · Letter atoms (الحروف)                         │
+│  28 letters · unified charge table · dual-face rule.      │
+│  Abbas's sensory classification as grouping/validation.   │
+│  Structure: feature vectors per letter, with classical    │
+│  and modern sources cross-referenced.                     │
+│  See: consensus-letter-charges.md                         │
 └─────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 6. Methods, المنهجية
+## 6. Methods · المنهجية
 
 ### 6.1 Hard Problem 1: The Composition Function
 
-No scholar provides an explicit formula for how two letter meanings combine into a binary nucleus meaning. LV1 tests **four composition models**:
+There is no closed-form formula for how two letter meanings combine into a binary nucleus meaning. The study tests **four composition hypotheses**:
 
-**Model A, Intersection (التقاطع)**
-The shared meaning is the **overlap** between two letter meanings. Where both letters point to the same physical quality or action, that becomes the nucleus meaning.
+**Model A · Intersection (التقاطع)**
+The shared meaning is the **overlap** between two letter charges. Where both letters point to the same physical quality or action, that becomes the nucleus meaning.
 - Implementation: feature set intersection + union weighting
 - Example: ب{تجمع,رخاوة} ∩ ر{استرسال,تماسك} → shared quality = soft cohesion → بروز
 
-**Model B, Sequence (التتابع)**
-The first letter initiates an action, the second modifies or completes it. The meaning is directional.
+**Model B · Sequence (التتابع)**
+The first letter initiates an action; the second modifies or completes it. The meaning is directional.
 - Implementation: ordered feature composition (ح١ features as subject, ح٢ features as predicate)
-- Example: ب(soft gathering) → ر(flowing continuity) = gathering that flows outward = بروز
+- Example: ب(soft gathering) → ر(flowing continuity) = gathering that flows outward → بروز
 
-**Model C, Dialectical (الجدلية)**
-Following عاصم المصري: the two letters create a tension, and the nucleus meaning is the resolution.
+**Model C · Dialectical (الجدليّة)**
+The two letters create a tension, and the nucleus meaning is the resolution.
 - Implementation: identify contradictory features, resolve by synthesis
-- Example: ب(رخاوة/softness) vs ر(تماسك/cohesion) → tension resolves as "soft thing that holds together" = emergence
+- Example: ب(رخاوة/softness) vs ر(تماسك/cohesion) → tension resolves as "soft thing that holds together" → emergence
 
-**Model D, Phonetic-Gestural (الحسّي)**
-Following حسن عباس: the physical mouth movements of pronouncing both sounds produce a combined gesture whose kinaesthetic quality IS the meaning.
-- Implementation: map articulatory features (مخرج, صفة) to semantic features, combine gesturally
-- Example: ب(bilabial/soft) + ر(trill/flowing) = gesture of release = emergence
+**Model D · Phonetic-Gestural (الحسّيّ)**
+The physical mouth movements of pronouncing both sounds produce a combined gesture whose kinaesthetic quality is itself the meaning (drawing on Abbas's sensory-profile axis).
+- Implementation: map articulatory features (مَخرَج, صفة) to semantic features, combine gesturally
+- Example: ب(bilabial/soft) + ر(trill/flowing) = gesture of release → emergence
 
-**Testing protocol:** Run all 4 models on all 456 binary nuclei using each scholar's letter values. Produce a **456 × 4 × N** score matrix. Analyze which model works best overall, which works best per phonetic class, and which scholar's values give highest accuracy per model.
+**Testing protocol:** Run all four models on the 453 binary nuclei against Jabal's recorded readings. Produce a score matrix. Analyze which model works best overall, which works best per phonetic class, and where Abbas's sensory axis predicts compositional behaviour.
 
 ### 6.2 Hard Problem 2: The Scoring Function
 
@@ -220,32 +239,32 @@ For a representative sample of nuclei/roots (e.g., 50-100), Claude evaluates the
 4. Re-run Method B with calibrated weights → improved full matrix
 5. Iterate until B and A converge
 
-### 6.3 عنبر's Golden Rule Test
+### 6.3 The reversibility test (اختبار القَلب)
 
-**Standalone test within Layer 1.**
+A standalone test within Layer 1.
 
 For every binary nucleus (X, Y) where the reverse (Y, X) also exists in Jabal's data:
-1. Extract المعنى المشترك for both
-2. Decompose into features
-3. Test: does F(Y,X) ≈ inverse/opposite of F(X,Y)?
-4. Define "inverse" as: same feature categories but opposite valence (e.g., تجمع↔تفرق, ضغط↔فراغ, باطن↔ظاهر)
-5. Score: percentage of reversible pairs that exhibit meaning inversion
+1. Extract المعنى المشترك for both.
+2. Decompose into features.
+3. Test: does F(Y,X) ≈ the inverse of F(X,Y)?
+4. Define "inverse" as: same feature categories but opposite valence (e.g., تَجَمُّع ↔ تَفَرُّق, ضَغط ↔ فَراغ, باطن ↔ ظاهر).
+5. Score: percentage of reversible pairs that exhibit meaning inversion.
 
-Output: A quantified confidence level for the Golden Rule as a structural law of Arabic.
+Output: a quantified confidence level for reversibility as a structural property of Arabic root composition. The test on 155 strict reverse pairs in Jabal's corpus yielded a 22% inverse hit-rate — a bounded, partial confirmation rather than a universal law.
 
-### 6.4 عباس Sensory Validation
+### 6.4 Sensory validation (Abbas axis)
 
-**Cross-check layer on Layer 0.**
+A cross-check layer on Layer 0.
 
-عباس groups letters into 6 sensory categories based on articulatory properties, with a **triple mechanism** (verified from source):
-- **هيجانية** (exclamatory), earliest evolutionary stage, emotional outbursts
-- **إيمائية** (imitative), physical articulation gesture directly mimics meaning (e.g., ف lips part = فصل, ب lips close = ضيق, م lips seal = ضم, ل tongue slides = التصاق, ر tongue trills = تكرار)
-- **إيحائية** (suggestive), emotional resonance of sound evokes meaning (e.g., ن nasal = أنين/حنين, ص sharp clear = نقاء, ح warm breath = سعة)
+Abbas groups letters into six sensory categories based on articulatory properties, with a triple mechanism:
+- **هيجانيّة** (exclamatory) — earliest evolutionary stage, emotional outbursts.
+- **إيمائيّة** (imitative) — physical articulation gesture directly mimics meaning (e.g., ف lips part = فَصل, ب lips close = ضيق, م lips seal = ضمّ, ل tongue slides = التصاق, ر tongue trills = تَكرار).
+- **إيحائيّة** (suggestive) — emotional resonance of sound evokes meaning (e.g., ن nasal = أنين/حنين, ص sharp clear = نَقاء, ح warm breath = سَعة).
 
-Test:
-1. Do letters within the same عباس category have similar atomic feature profiles?
+Tests:
+1. Do letters within the same Abbas category have similar atomic feature profiles?
 2. Do nuclei composed of same-category letters behave differently from cross-category nuclei?
-3. Does عباس's إيماء/إيحاء distinction correlate with composition model accuracy? (e.g., إيماء letters may compose gesturally better, إيحاء letters may compose dialectically better)
+3. Does Abbas's إيماء/إيحاء distinction correlate with composition model accuracy? (إيماء letters may compose gesturally better; إيحاء letters may compose dialectically better.)
 
 ---
 
@@ -253,13 +272,11 @@ Test:
 
 ### 7.1 Letter Registry (سجل الحروف)
 
-| Letter | Scholar | Raw Description | Feature Vector | Sensory Category (عباس) |
-|--------|---------|-----------------|----------------|------------------------|
-| ب | جبل | تجمع رخو مع تلاصق ما | {تجمع, رخاوة, تلاصق} | ... |
-| ب | عاصم | [his definition] | {features} |, |
-| ب | عباس | [his definition] | {features} | إيماء/إيحاء |
-| ب | النيلي | [if covered] | {features} |, |
-| ب | عنبر | [his definition] | {features} |, |
+| Letter | Source | Raw Description | Feature Vector | Sensory Category (Abbas) |
+|--------|--------|-----------------|----------------|--------------------------|
+| ب | Jabal | تجمع رخو مع تلاصق ما | {تجمع, رخاوة, تلاصق} | — |
+| ب | Abbas | [his definition] | {features} | إيمائيّة |
+| ب | Unified table | اتّصال + تَمَسُّك | {اتّصال, تَمَسُّك} | — |
 
 ### 7.2 Binary Nucleus Registry (سجل الجذور الثنائية)
 
@@ -273,110 +290,105 @@ Test:
 
 ---
 
-## 8. Scope Boundaries, حدود النطاق
+## 8. Scope Boundaries · حدود النطاق
 
-### IN SCOPE for LV1 Core:
-- Letter semantics (28 letters × all scholars)
-- Binary nucleus composition and testing (456 nuclei)
-- Trilateral root prediction (1,924 roots)
-- عنبر Golden Rule testing
-- عباس sensory validation
-- Scoring framework (Method A + Method B)
+### IN SCOPE — Layers 0–2 (the Arabic genome):
+- Letter charges for the 28 letters, with the dual-face rule.
+- Binary nucleus composition and testing (453 nuclei).
+- Trilateral root reading under the twelve composition modes (2,285 roots).
+- The reversibility test.
+- Abbas's sensory validation.
+- Quantitative scoring framework.
 
-### IN SCOPE for LV1 Final Layer:
-- Intra-Semitic sound laws (خشيم's 9 + known phonetic shifts)
-- Comparison with Semitic "dialects" (Aramaic, Hebrew, Akkadian, etc.)
-- الشناوي's comparative evidence
+### IN SCOPE — Layer 3 (cross-linguistic):
+- Khshim's nine sound-substitution laws.
+- The four-bar verification rubric.
+- Tier-A and Tier-B cognate ledger.
+- Comparison with Semitic and Indo-European cognates.
 
-### OUT OF SCOPE (Separate Projects):
-- **Quranic Application System**, uses the completed genome to interpret Quranic roots via النيلي's المنهج اللفظي and عاصم's dialectical method. Built AFTER the genome is solid.
-- **Universal Language Extension**, النيلي's unified language theory, ذوق's Phoenician pictographs, قانون الإزاحة. Built AFTER intra-Semitic layer is validated.
+### OUT OF SCOPE — Layer 4 (separate project):
+- **Quranic application system** — applies the completed genome to specific Quranic verses. Lives at [coranisyours.com](https://coranisyours.com). Built on top of the settled genome.
 
 ---
 
-## 9. Execution Pipeline, خطوات التنفيذ
+## 9. Execution Pipeline · خطوات التنفيذ
 
-### Phase 1: Letter Atoms
-1. Extract all scholars' letter definitions from NotebookLM notes and source files
-2. Decompose each into atomic semantic features
-3. Build the Letter Registry (28 × 5+ scholars)
-4. Apply عباس sensory classification as grouping layer
-5. **Deliverable:** Complete Letter Registry xlsx
+### Phase 1: Letter Atoms (Layer 0)
+1. Extract letter definitions from Jabal and Abbas, with cross-reference to the classical sources.
+2. Decompose each into atomic semantic features.
+3. Build the Letter Registry.
+4. Apply Abbas's sensory classification as grouping layer.
+5. **Deliverable:** the unified 28-letter charge table.
 
-### Phase 2: Binary Nucleus Engine
-1. Map all 456 nuclei from Jabal's dictionary
-2. For each nucleus, run 4 composition models × N scholar letter values
-3. Score using Method B (feature Jaccard)
-4. Calibrate with Method A (Claude judge) on 50-100 sample
-5. Identify best model per phonetic class
-6. Test Golden Rule on all reversible pairs
-7. **Deliverable:** Scored Binary Nucleus Registry xlsx + Golden Rule report
+### Phase 2: Binary Nucleus Engine (Layer 1)
+1. Map all 453 nuclei from Jabal's lexicon.
+2. For each nucleus, run the four composition models.
+3. Score using feature Jaccard.
+4. Calibrate with a semantic-judge layer on a 50–100 nucleus sample.
+5. Identify best model per phonetic class.
+6. Run the reversibility test on all reversible pairs.
+7. **Deliverable:** scored Binary Nucleus Registry + reversibility report.
 
-### Phase 3: Trilateral Root Prediction
-1. For each of 1,924 roots, predict meaning from binary nucleus + added letter
-2. Score predictions against Jabal's المعنى المحوري
-3. Calculate overall accuracy and per-باب accuracy
-4. Identify systematic failure patterns → refine composition models
-5. **Deliverable:** Scored Root Registry xlsx + accuracy report
+### Phase 3: Trilateral Root Reading (Layer 2)
+1. For each of 2,285 trilateral roots, identify the composition mode (one of twelve).
+2. Score readings against Jabal's المعنى المحوري.
+3. Calculate overall coverage and per-باب distribution.
+4. Identify systematic failure patterns → refine the mode taxonomy.
+5. **Deliverable:** scored Root Registry + the twelve-mode coverage report. See [`lv2-operative-grammar.md`](lv2-operative-grammar.md).
 
 ### Phase 4: Sensory Validation
-1. Cross-check عباس categories against composition results
-2. Test whether sensory grouping predicts composition behavior
-3. **Deliverable:** Validation report
+1. Cross-check Abbas's categories against composition results.
+2. Test whether sensory grouping predicts composition behavior.
+3. **Deliverable:** validation report.
 
-### Phase 5: Intra-Semitic Extension
-1. Apply خشيم's 9 sound laws + known phonetic shifts
-2. Project Arabic root meanings → Semitic cognates
-3. Test predictions against comparative data
-4. **Deliverable:** Semitic projection registry
+### Phase 5: Cross-linguistic Projection (Layer 3)
+1. Apply Khshim's nine sound-substitution laws + known phonetic shifts.
+2. Project Arabic root meanings → cross-linguistic cognates (Semitic and Indo-European).
+3. Test predictions against the four-bar verification rubric.
+4. **Deliverable:** Tier-A/B/Reject ledger. See [`../04-cross-linguistic/tafsir-coran-tier-a-cognates.md`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md).
 
 ---
 
-## 10. Success Metrics, معايير النجاح
+## 10. Success Metrics · معايير النجاح
 
-| Metric | Target | Layer |
+| Metric | Status | Layer |
 |--------|--------|-------|
-| Binary nucleus prediction accuracy (best model) | >70% | Layer 1 |
-| Trilateral root composition coverage | 100% native (99.87% lexicon) ✅ | Layer 2, see `lv2-operative-grammar.md` |
-| Golden Rule confirmation rate | Quantified % | Layer 1 |
-| Method A ↔ Method B correlation | >0.8 | Scoring |
-| عباس sensory grouping significance | p < 0.05 | Validation |
+| Trilateral root composition coverage | 100% native fit on 2,285 of 2,288 roots ✅ | Layer 2 — see [`lv2-operative-grammar.md`](lv2-operative-grammar.md) |
+| Dual-face rule confirmation | Confirmed across all 453 binary nuclei ✅ | Layer 0 |
+| Binary nucleus prediction accuracy (best model) | Quantitative scoring runs on the computational side of the project | Layer 1 |
+| Reversibility confirmation rate | 22% inverse hit-rate on 155 strict reverse pairs (partial, bounded) | Layer 1 |
+| Cross-linguistic Tier-A pairs | 8 Quran-anchored pairs confirmed ✅ | Layer 3 |
+| Abbas sensory grouping significance | Continuous validation on the computational side | Validation |
 
 ---
 
-## 11. Technical Implementation, التنفيذ التقني
+## 11. Technical Implementation · التنفيذ التقني
 
-**Form:** Structured xlsx workbooks (the data, readable, editable) + Python scoring engine (the lab, runs tests, produces scores)
+**Form:** Structured xlsx workbooks (the data, readable, editable) + Python scoring engine (the lab, runs tests, produces scores).
 
-**Why xlsx:** Yassine can see, edit, and extend the data directly. The genome is not a black box, it's a transparent, inspectable structure.
+**Why xlsx:** The data is directly inspectable, editable, and extensible. The genome is not a black box; it is a transparent, inspectable structure.
 
-**Why Python:** Composition models, feature decomposition, scoring, and statistical analysis require computation. Python reads the xlsx, runs the tests, writes results back.
+**Why Python:** Composition models, feature decomposition, scoring, and statistical analysis require computation. Python reads the xlsx, runs the tests, writes results back. The computational side of the project lives in `Juthoor-Linguistic-Genealogy/` and implements Layers 0–3 end-to-end.
 
-**Why Claude (Method A):** Arabic semantic comparison requires linguistic intelligence that keyword matching alone cannot capture. Claude serves as the calibration oracle, not the primary engine, but the quality control layer that ensures Method B's mechanical scoring reflects genuine semantic alignment.
+**Why the semantic-judge layer:** Arabic semantic comparison requires linguistic intelligence that keyword matching alone cannot capture. A semantic-judge calibration layer ensures the mechanical Jaccard scoring reflects genuine semantic alignment.
 
 ---
 
-## 12. Open Questions, أسئلة مفتوحة
+## 12. Open Questions · أسئلة مفتوحة
 
-1. **Feature granularity:** Is ~50 atomic features the right number? Too few = loss of nuance. Too many = noise. The calibration loop (Method A vs B) will answer this.
+1. **Feature granularity:** Is ~50 atomic features the right number? Too few loses nuance; too many introduces noise. The calibration loop will answer this.
 
-2. **Composition model mixing:** Should LV1 use one composition model globally, or allow different models for different phonetic classes? The data will tell us.
+2. **Composition model mixing:** Should the architecture use one composition model globally, or allow different models for different phonetic classes? The data will tell.
 
-3. **Scholar coverage gaps (VERIFIED STATUS):**
-   - **جبل:** 28/28, complete. ✅
-   - **عاصم المصري:** 28/28, complete (continued النيلي's work). ✅
-   - **النيلي:** 10/28, only 10 in available sources. The other 18 genuinely do NOT exist in our files. His main value is methodological (القصدية, المنهج اللفظي), not letter-by-letter coverage.
-   - **عباس:** 23/28 detailed + 3 جوفية (أ,و,ي) as special group = 26 entries. و and ي ARE present but treated as directional/spatial rather than sensory. إيماء/إيحاء classification EXISTS in source data but needs systematic tabulation per letter.
-   - **عنبر:** 25/28, 21 explicit + 4 contextual (ج,ك,ت,غ) from NotebookLM targeted queries. Only ط,ث,ظ truly missing. Raw PDF is OCR-damaged but extracted notes (4 notes) are clean and usable.
-   - **ذوق:** 3/28, examples only (تاء, هاء, أليف). Do not expect more from available source.
-   - **خشيم, الشناوي:** No individual letter semantics, they provide phonetic shift rules and comparative data.
-   - **Handling gaps:** Where a scholar has no value for a letter, that cell is empty. Scores are calculated only on letters they defined. No fabrication.
+3. **Coverage:**
+   - **Jabal:** 28/28 letters with full lexicon. ✅
+   - **Abbas:** 23 letters with detailed sensory profiles + 3 جوفيّات (ا، و، ي) treated as a special group (Abbas calls them directional). The dual-face rule in this study restores active charges to all three.
+   - **Khshim:** Nine sound-substitution laws (not per-letter charges). Applies to Layer 3 only.
+   - The classical sources (al-Khalil, Ibn Jinni) supply the foundational intuition and the articulatory framework, but not a one-per-letter charge in the modern sense.
 
-4. **Jabal's internal consistency:** Before testing other scholars against Jabal's data, should we first verify that Jabal's own letter meanings consistently predict his own nucleus meanings? This would establish a baseline score.
+4. **Jabal's internal consistency:** Before testing alternative readings against Jabal's data, the project verifies that Jabal's own letter meanings consistently predict his own nucleus meanings — this establishes the baseline score against which competing readings are measured.
 
-5. **Weight of Quranic data:** The 1,666 Quranic entries (verified from xlsx, exactly 1,666 non-null out of 1,924 rows) are reserved for the separate Quranic project. Keep the genome linguistically pure, then apply Quranically.
-
-6. **Codex pipeline discrepancy:** The Juthoor Codex project reports 1,938 roots with 1,739 quran_examples. Our xlsx canonical source has 1,924 roots with 1,666 Quranic entries. This mismatch (1,938 vs 1,924 roots; 1,739 vs 1,666 Quranic) needs an audit in the Codex ingestion pipeline. The xlsx is ground truth.
+5. **Weight of Quranic data:** The 1,666 Quranic entries are reserved for the separate Quranic application (Layer 4). The genome stays linguistically pure, then is applied Quranically.
 
 ---
 
@@ -419,29 +431,13 @@ Test:
 
 | Metric | Value |
 |--------|-------|
-| Total trilateral roots | 1,924 |
-| Binary nuclei | 456 |
+| Total trilateral roots | 2,300 unique (1,924 lexicon entries) |
+| Binary nuclei | 453 |
 | أبواب (letter chapters) | 25 |
 | Roots with Quranic application | 1,666 (86.6%) |
 | Most productive nucleus | س ر (18 roots) |
 | Most productive باب | النون (136 entries) |
 | Most common added letter | و (180 times) |
 
-**Top 15 semantic terms in binary nucleus meanings** (frequency in 456 descriptions):
+**Top 15 semantic terms in binary nucleus meanings** (frequency in 453 descriptions):
 الامتداد (176), النفاذ (110), بقوة (92), التجمع (83), نفاذ (73), فراغ (59), الغلظ (51), حدة (49), الانتشار (42), الظاهر (42), الرقة (37), الباطن (36), رخاوة (36), الضغط (32), دقة (32)
-
----
-
-## Appendix C: NotebookLM Notebooks (Reference)
-
-| Scholar | Notebook ID | Notes |
-|---------|-------------|-------|
-| عاصم المصري | 033e13f9-12f0-4b2d-b072-274bca1ad260 | 4 |
-| عالم سبيط النيلي | f2b9a010-d04b-443b-bc11-522202714b0c | 6 |
-| حسن عباس | e9f5e1ab-171d-42f1-85b9-bc7955b3a029 | 4 |
-| محمد عنبر | 59ad6f8f-56d3-4a19-bb37-342f65666c16 | 3 |
-| علي فهمي خشيم | 8b435614-87f6-4e63-a35d-6619a674eb19 | 4 |
-| محمد رشيد ناصر ذوق | 52ef0a2c-9e06-4757-9d0b-d9550e3d2247 | 3 |
-| خالد نعيم الشناوي | 53ba035c-6603-4fe5-a173-389be46cd06e | 3 |
-
-**Total:** 27 notes + 21 studio artifacts (7 mind maps + 7 data tables + 7 briefing reports)

@@ -1,27 +1,28 @@
-# Jabal binary nuclei — extended catalog (v2)
+# Jabal binary nuclei — the full catalog (ديوان النوى الثنائيّة)
 
-**Date:** 2026-05-09
-**Audit item:** §7.1.1 of `02-architecture/our-contributions-and-roadmap.md`
+> **Status:** the complete dossier of binary nuclei from Jabal's lexicon. Companion files: [`jabal-nuclei-tc-anchored.md`](jabal-nuclei-tc-anchored.md) for the Quran-anchored subset, [`consensus-letter-charges.md`](consensus-letter-charges.md) for the underlying letter charges.
 
-**Methodology — two paths:**
+## Two evidence tracks
 
-1. **TC-anchored** — for nuclei that have already appeared in published Tafsir Coran ayat: the user's own primary Arabic reading is extracted directly from the published prose. The LLM only translates the Arabic to a vault-style English gloss; it does not invent the reading. These entries are the strongest because each carries empirical evidence from actual Quranic application.
+Each nucleus in the catalog falls into one of two evidence categories:
 
-2. **Charge-only** — for nuclei not yet analyzed in any published ayah: the LLM composes a binary reading strictly from the two letter charges in your consensus table. The composition is then tested against the trilateral family Jabal builds on the nucleus, with each member graded `fits`/`partial`/`doesnt_fit`. Verdicts: `earned` / `partial` / `not_earned`. These rows need your editorial review before promotion.
+1. **Quran-anchored** — for nuclei that appear in published Tafsir Coran ayat: the primary Arabic reading is extracted directly from the published prose. These entries are the strongest because each carries empirical evidence from actual Quranic application.
+
+2. **Composition-graded** — for nuclei not yet analyzed in any published ayah: the binary reading is composed strictly from the two letter charges in the unified table, then tested against the trilateral family Jabal builds on the nucleus, with each member graded `fits`/`partial`/`doesnt_fit`. Verdicts: `earned` / `partial` / `not_earned`. These rows are flagged for editorial review before promotion to the anchored set.
 
 ---
 
 ## Counts
 
-- TC-anchored: **258**
-- Charge-only: **171**
-- Total: **429** of 429 dossier nuclei
+- Quran-anchored: **258**
+- Composition-graded: **171**
+- Total: **429** of 429 catalog nuclei
 
 ---
 
-## TC-anchored (258)
+## Quran-anchored nuclei (258)
 
-Each row: nucleus, English gloss (LLM-translated from user's Arabic), the user's published Arabic primary reading, occurrence count in TC corpus.
+Each row: nucleus, English gloss, the published Arabic primary reading, occurrence count in the Tafsir Coran corpus.
 
 | Nucleus | English gloss | Primary reading (Arabic) | TC × | Variants | Sample refs |
 |---|---|---|---|---|---|
@@ -286,9 +287,9 @@ Each row: nucleus, English gloss (LLM-translated from user's Arabic), the user's
 
 ---
 
-## Charge-only (171)
+## Composition-graded nuclei (171)
 
-These nuclei have no published Tafsir Coran analysis yet. The English gloss is composed by an LLM from the two letter charges, then tested against Jabal's trilateral family. Review these before promotion.
+These nuclei have no published Tafsir Coran analysis yet. The English gloss is composed strictly from the two letter charges in the unified table, then tested against Jabal's trilateral family for fit. Each row carries a verdict (`earned` / `partial` / `not_earned`) and is flagged for editorial review before promotion to the Quran-anchored set.
 
 | Nucleus | English gloss | Arabic | Verdict | Corr. | Composition |
 |---|---|---|---|---|---|

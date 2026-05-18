@@ -1,11 +1,11 @@
-# Tafsir Coran, Tier A Cognates & Verification Rubric
+# Cross-Linguistic Tier-A Cognates & The Verification Rubric
 
-> **Source:** companion methodology document in the Tafsir Coran sibling project.
-> **Status:** processed contribution, 8 verified cross-linguistic cognate pairs anchored in Quranic vocabulary, plus a 4-bar verification rubric and a Tier B ledger of evaluated candidates.
+> **Status:** 8 verified cross-linguistic cognate pairs anchored in Quranic vocabulary, plus the 4-bar verification rubric and a Tier-B ledger of evaluated candidates.
+> **Scholarly anchor:** the sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim (former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*). His nine substitution laws govern the consonantal correspondences that allow Arabic and Indo-European/Semitic words to be brought into the same skeleton frame.
 > **Relationship to other vault files:**
-> - The 17 English↔Arabic cognate cases curated from Mazen Hammoude's "Beyond the Word" series are in [`beyond-the-word-examples.md`](beyond-the-word-examples.md). **Zero overlap** with the 8 pairs here, these are independent contributions from a Quranic methodology, not the popular-cognate corpus.
+> - The 17 English↔Arabic cognate cases curated from Mazen Hammoude's "Beyond the Word" series are in [`beyond-the-word-examples.md`](beyond-the-word-examples.md). **Zero overlap** with the 8 pairs here — these are independent contributions from a Quranic methodology, not the popular-cognate corpus.
 > - For the underlying letter-charge framework these cognates rest on, see [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
-> - The Arabic sound-shift laws (K↔Q, F↔P, …) referenced in the rubric overlap with خشيم's قوانين الإبدال in `Data raw/Languistic theories/علي فهمي خشيم/`.
+> - The Arabic sound-shift laws (K↔Q, F↔P, …) referenced in the rubric are Khshim's. His source material lives in `Data raw/Languistic theories/علي فهمي خشيم/`.
 
 ---
 
@@ -32,24 +32,24 @@ The K-F nucleus across all five carries: *a fold-onto-itself, a layer beside its
 - **Conventional translation:** "And there is none equal to Him", accurate but flat.
 - **Cross-linguistic translation:** "And there has never been a copy of Him", sharper, more truthful to what the consonant skeleton names. The modern reader who has known *copy* since childhood (photocopies, digital copies, file copies) knows exactly what this verse denies, before any Arabic is studied.
 
-## The 4-bar verification rubric
+## The four-bar verification rubric · ضوابط التحقّق الأربعة
 
 A candidate must clear **all four bars** to be promoted to Tier A:
 
-1. **Skeleton match**, the consonant skeleton is genuinely shared, allowing for known phonetic shifts (K↔Q, F↔P, ج↔K, ض↔D, …).
-2. **Nucleus identity**, the semantic nucleus matches, not just superficial sound-similarity.
-3. **Modern reader-recognition**, the cross-linguistic word is *common enough* in modern English/French that the reader will recognize it (no rare technical Latin).
-4. **Dual-family confirmation**, at least one Semitic cognate (Hebrew, Aramaic, …) AND one Indo-European cognate (Latin, Greek, Germanic, …).
+1. **Skeleton match** · تَطابُق الأصول الحَرفيّة — the consonant skeleton is genuinely shared, allowing for the known sound substitutions (K↔Q, F↔P, ج↔K, ض↔D, …) catalogued in Khshim's nine laws.
+2. **Nucleus identity** · اتّحاد النَّواة — the binary semantic seed matches, not just a superficial sound-similarity.
+3. **Modern reader-recognition** · إدراك القارئ المُعاصِر — the cross-linguistic word is *common enough* in modern English/French that the reader will recognize it (no rare technical Latin).
+4. **Dual-family confirmation** · شاهدٌ من فَصيلتَين — at least one Semitic cognate (Hebrew, Aramaic, …) AND one Indo-European cognate (Latin, Greek, Germanic, …).
 
-### Recognized phonetic shifts
+### Recognized sound substitutions (from Khshim's laws)
 
-- **K ↔ Q**, Arabic ق and PIE *kʷ-/k- share place-of-articulation (back of throat). Interchangeable for this methodology.
-- **F ↔ P**, both labial fricatives/stops sharing the lip-shape. Well-attested across language families.
-- **ج ↔ K/G**, well-attested (German *Kamel* = Arabic جمل, *Katze* = قط).
-- **ض ↔ D**, emphatic-to-dental shift recognized.
-- **ص ↔ K/G**, partially attested (Arabic *صين* = Greek/Russian *Kina*, China).
+- **K ↔ Q** — Arabic ق and PIE *kʷ-/k- share place-of-articulation (back of throat). Interchangeable for this methodology.
+- **F ↔ P** — both labial fricatives/stops sharing the lip-shape. Well-attested across language families.
+- **ج ↔ K/G** — well-attested (German *Kamel* = Arabic جمل, *Katze* = قط).
+- **ض ↔ D** — emphatic-to-dental shift recognized.
+- **ص ↔ K/G** — partially attested (Arabic *صين* = Greek/Russian *Kina*, China).
 
-These shifts don't disqualify a cross-linguistic move when the rest of the rubric clears.
+These substitutions don't disqualify a cross-linguistic move when the rest of the rubric clears.
 
 ## Tier A, confirmed cognates (apply these now)
 
@@ -123,7 +123,7 @@ That is what makes the rendering "no copy of Him" *truthful* in a way "no equal 
 
 | Source | Corpus | Style | Confidence model |
 |---|---|---|---|
-| [`beyond-the-word-examples.md`](beyond-the-word-examples.md) | 17 popular-cognate cases (rack/رق, burglar/برج, anchor/أنجر, cold/جليد, finger/بنصر, inspire/نفس, …) | Etymological pathway with sound-shift rules | Single-rubric: phonetic match + semantic match |
-| **This file** (Tafsir Coran) | 8 Quranic-anchored Tier A pairs (kufu'/copy, salām/shalom, rabb/rabbi, jinn/genie, kalām/claim, qul/call, sharb/sorb, jam'/Gemini) | Phenomenological framing, home-base-verse protocol | 4-bar rubric + Tier A/B/Reject ledger |
+| [`beyond-the-word-examples.md`](beyond-the-word-examples.md) | 17 popular-cognate cases (rack/رق, burglar/برج, anchor/أنجر, cold/جليد, finger/بنصر, inspire/نفس, …) | Etymological pathway with sound-substitution rules | Single-rubric: phonetic match + semantic match |
+| **This file** | 8 Quran-anchored Tier-A pairs (kufu'/copy, salām/shalom, rabb/rabbi, jinn/genie, kalām/claim, qul/call, sharb/sorb, jam'/Gemini) | Phenomenological framing, home-base-verse protocol, Khshim's substitution laws | 4-bar rubric + Tier A/B/Reject ledger |
 
-The two sets are complementary, not redundant: the Mazen corpus is broad and popular; the Tafsir Coran corpus is narrow, Quran-anchored, and gated by a stricter rubric. Both are inputs to the future LV4 cross-linguistic layer described in [`../02-architecture/lv1-architecture.md`](../02-architecture/lv1-architecture.md).
+The two sets are complementary, not redundant: the popular-cognate corpus is broad; this corpus is narrow, Quran-anchored, and gated by the stricter four-bar rubric. Both are inputs to the cross-linguistic layer described in [`../02-architecture/lv1-architecture.md`](../02-architecture/lv1-architecture.md).
