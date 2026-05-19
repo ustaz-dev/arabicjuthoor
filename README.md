@@ -13,7 +13,9 @@
 
 ## What this study is
 
-An empirical study of meaning-composition in the Arabic tongue. Rooted in twelve centuries of Arabic linguistic scholarship — from al-Khalil ibn Ahmad and Ibn Jinni through the classical lexicographers — and on the modern lexicographic foundation laid by Dr. Muhammad Hassan Jabal and the parallel sensory-profile work of Hassan Abbas. The study extends that foundation with new structural findings: the general dual-face rule for letter charges, twelve composition modes for trilateral roots, a four-bar verification rubric for cross-linguistic Quranic cognates (anchored by Dr. Ali Fahmi Khshim's sound-substitution laws), and a complete 453-nucleus catalog.
+In most languages, letters are arbitrary sound-tokens; meaning emerges only when they are assembled into words. Arabic does not work that way. Each of its 28 letters carries a physical-semantic charge, drawn from the gesture of pronunciation itself, and the meaning of every word is built compositionally from the letters' meanings.
+
+This is an empirical study of that meaning-composition system. It rests on twelve centuries of Arabic linguistic scholarship — from al-Khalil ibn Ahmad and Ibn Jinni through the classical lexicographers — and on the modern lexicographic foundation laid by Dr. Muhammad Hassan Jabal and the parallel sensory-profile work of Hassan Abbas. It extends that foundation with three structural findings on the internal architecture of Arabic: a unified 28-letter charge table, the general dual-face rule for letter charges (tested across all 453 binary nuclei), and eleven native composition modes for trilateral roots (with a twelfth label, LOANWORD, reserved for non-native borrowings — 1 case in 2,285). These three results then led to a fourth, related but standing on its own: a four-bar verification rubric for cross-linguistic Quranic cognates, anchored by Dr. Ali Fahmi Khshim's nine sound-substitution laws.
 
 ## Layout
 
