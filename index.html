@@ -9,9 +9,19 @@
 <meta name="description" content="Juthoor: an empirical study of meaning-composition in Arabic. A unified 28-letter table with the dual-face rule, a full catalog of 453 binary nuclei, and twelve trilateral composition modes that read 2,285 roots at 100% native fit." />
 <meta name="keywords" content="Arabic linguistics, Arabic letter semantics, Arabic root meanings, phonosemantics, Quranic linguistics, Arabic phonology, semantic genome, Jabal lexicon, binary nuclei, trilateral roots, operative grammar, Temessek, Juthoor, جذور, العربية, دلالات الحروف" />
 <meta name="author" content="Yassine Temessek" />
-<meta name="robots" content="index, follow, max-image-preview:large" />
-<meta name="googlebot" content="index, follow" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+<meta name="bingbot" content="index, follow" />
 <link rel="canonical" href="https://arabicjuthoor.com/" />
+
+<!-- Search-engine ownership verification.
+     Replace TODO_* tokens with the real values from each console.
+     Google Search Console → search.google.com/search-console
+     Bing Webmaster Tools  → www.bing.com/webmasters
+     Yandex.Webmaster      → webmaster.yandex.com -->
+<meta name="google-site-verification" content="TODO_GOOGLE_VERIFICATION_TOKEN" />
+<meta name="msvalidate.01" content="TODO_BING_VERIFICATION_TOKEN" />
+<meta name="yandex-verification" content="TODO_YANDEX_VERIFICATION_TOKEN" />
 
 <!-- Language alternates -->
 <link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/" />
@@ -70,7 +80,15 @@
       "alternateName": "جُذُور · العربيّة",
       "description": "An empirical study of meaning-composition in Arabic.",
       "publisher": { "@id": "https://arabicjuthoor.com/#organization" },
-      "inLanguage": ["en", "ar"]
+      "inLanguage": ["en", "ar"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://arabicjuthoor.com/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     },
     {
       "@type": "ResearchProject",

@@ -2,91 +2,274 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- ============================================================ -->
+  <!-- HOMEPAGE (bilingual landing — viewer toggles EN/AR in place)  -->
+  <!-- ============================================================ -->
   <url>
     <loc>https://arabicjuthoor.com/</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://arabicjuthoor.com/"/>
   </url>
 
+  <!-- ============================================================ -->
+  <!-- POSITION PAPER (the canonical contributions document)          -->
+  <!-- ============================================================ -->
   <url>
     <loc>https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap.md</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap-ar.md"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap.md"/>
   </url>
-
   <url>
-    <loc>https://arabicjuthoor.com/02-architecture/lv2-operative-grammar.md</loc>
+    <loc>https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap-ar.md"/>
   </url>
 
+  <!-- ============================================================ -->
+  <!-- LV1 / LV2 ARCHITECTURE                                         -->
+  <!-- ============================================================ -->
   <url>
     <loc>https://arabicjuthoor.com/02-architecture/lv1-architecture.md</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/02-architecture/lv1-architecture.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/02-architecture/lv1-architecture-ar.md"/>
   </url>
-
   <url>
-    <loc>https://arabicjuthoor.com/03-scholar-extracts/consensus-letter-charges.md</loc>
+    <loc>https://arabicjuthoor.com/02-architecture/lv1-architecture-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/02-architecture/lv2-operative-grammar.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/02-architecture/lv2-operative-grammar.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/02-architecture/lv2-operative-grammar-ar.md"/>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/02-architecture/lv2-operative-grammar-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <url>
-    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-extended.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-tc-anchored.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arabicjuthoor.com/03-scholar-extracts/abbas-letter-classification.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-letters.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://arabicjuthoor.com/04-cross-linguistic/tafsir-coran-tier-a-cognates.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://arabicjuthoor.com/04-cross-linguistic/beyond-the-word-examples.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
+  <!-- ============================================================ -->
+  <!-- THEORY / CLASSICAL FOUNDATION                                  -->
+  <!-- ============================================================ -->
   <url>
     <loc>https://arabicjuthoor.com/01-theory/classical-survey-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- SCHOLAR EXTRACTS                                               -->
+  <!-- ============================================================ -->
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/consensus-letter-charges.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/03-scholar-extracts/consensus-letter-charges.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/03-scholar-extracts/consensus-letter-charges-ar.md"/>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/consensus-letter-charges-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-extended.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-extended.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-extended-ar.md"/>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-extended-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-tc-anchored.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-tc-anchored.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-tc-anchored-ar.md"/>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-tc-anchored-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
-    <loc>https://arabicjuthoor.com/01-theory/quranic-foundation-ar.md</loc>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-undocumented.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-undocumented.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-undocumented-ar.md"/>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-undocumented-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
-    <loc>https://arabicjuthoor.com/README.md</loc>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/abbas-letter-classification.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/03-scholar-extracts/abbas-letter-classification.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/03-scholar-extracts/abbas-letter-classification-ar.md"/>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/abbas-letter-classification-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-catalog.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-charge-only.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-nuclei-extended-table.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/03-scholar-extracts/jabal-letters.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- CROSS-LINGUISTIC                                              -->
+  <!-- ============================================================ -->
+  <url>
+    <loc>https://arabicjuthoor.com/04-cross-linguistic/tafsir-coran-tier-a-cognates.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/04-cross-linguistic/tafsir-coran-tier-a-cognates.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/04-cross-linguistic/tafsir-coran-tier-a-cognates-ar.md"/>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/04-cross-linguistic/tafsir-coran-tier-a-cognates-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/04-cross-linguistic/beyond-the-word-examples.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/04-cross-linguistic/beyond-the-word-examples.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/04-cross-linguistic/beyond-the-word-examples-ar.md"/>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/04-cross-linguistic/beyond-the-word-examples-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- AUDITS                                                        -->
+  <!-- ============================================================ -->
+  <url>
+    <loc>https://arabicjuthoor.com/05-audits/README.md</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/05-audits/2026-03-24-lv1-data-audit.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/05-audits/2026-05-09-7.1.4-anbar-golden-rule-graded.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/05-audits/2026-05-09-7.1.4-anbar-golden-rule-structural.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/05-audits/2026-05-09-7.2.5-fourteen-root-delta-resolved.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/05-audits/2026-05-10-not-earned-nuclei-deep-investigation.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/05-audits/2026-05-11-jabal-data-anomalies.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- ============================================================ -->
+  <!-- READMEs                                                       -->
+  <!-- ============================================================ -->
+  <url>
+    <loc>https://arabicjuthoor.com/README.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arabicjuthoor.com/README.md"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://arabicjuthoor.com/README-ar.md"/>
+  </url>
+  <url>
+    <loc>https://arabicjuthoor.com/README-ar.md</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
   </url>
 
 </urlset>

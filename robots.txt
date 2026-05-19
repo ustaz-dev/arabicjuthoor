@@ -1,7 +1,45 @@
 # Juthoor — The Arabic Tongue
 # https://arabicjuthoor.com/
+#
+# Public research dashboard. All content is open for indexing
+# except internal scaffolding and raw scholar source bundles.
 
 User-agent: *
+Allow: /
+
+# Major search-engine bots — explicitly welcomed
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# AI / research crawlers (we want academic discovery)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
 Allow: /
 
 # Disallow internal scaffolding and raw scholar sources
@@ -9,5 +47,9 @@ Disallow: /Data%20raw/
 Disallow: /Data raw/
 Disallow: /.claude/
 Disallow: /.git/
+Disallow: /.github/
+
+# Crawl politely
+Crawl-delay: 1
 
 Sitemap: https://arabicjuthoor.com/sitemap.xml
