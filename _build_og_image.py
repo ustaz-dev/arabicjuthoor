@@ -6,6 +6,19 @@ Run: python _build_og_image.py
 
 from PIL import Image, ImageDraw, ImageFont
 import os
+import arabic_reshaper
+from bidi.algorithm import get_display
+
+
+def ar(text: str) -> str:
+    """Shape Arabic text for Pillow rendering: contextual forms + RTL bidi.
+
+    Pillow's text() does not apply Arabic shaping — it draws code-point glyphs
+    left-to-right with isolated forms only. We must (1) reshape the string so
+    letters take their correct initial/medial/final/isolated contextual form,
+    then (2) apply the bidi algorithm to lay the result out right-to-left.
+    """
+    return get_display(arabic_reshaper.reshape(text))
 
 W, H = 1200, 630
 
@@ -48,7 +61,7 @@ for y in range(H):
 draw.rectangle([0, 0, W, 8], fill=ACCENT)
 
 # Arabic brand mark (right side, behind, large)
-ar_text = "جُذُور"
+ar_text = ar("جُذُور")
 bbox = draw.textbbox((0, 0), ar_text, font=ar_huge)
 ar_w = bbox[2] - bbox[0]
 # Place top-right with breathing room
