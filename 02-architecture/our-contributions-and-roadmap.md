@@ -28,7 +28,27 @@ The document also identifies the chapters of the work that are currently in prog
 
 ## §1. Context, where this study sits
 
-### 1.1 The Arabic tradition on letter semantics
+### 1.1 The question this study asks
+
+When a word means what it means, is the bond between its sounds and its meaning entirely conventional, or is there some structure? The dominant modern answer — descended from **Ferdinand de Saussure** — says the bond is **arbitrary**: the phoneme /m/ in *mother* carries no inherent connection to motherhood, and the same concept could just as well be encoded as /p/ or /b/. The signifier and the signified are linked only by convention. This is a foundational thesis of Saussurean structuralism, and modern linguistics is largely built on it.
+
+The classical Arabic linguistic tradition — twelve centuries before Saussure — gave the opposite answer. **Ibn Jinni** in *al-Khasais* (11th c. CE) framed it under the doctrine **«إمساس الألفاظ أشباه المعاني»**: letters touch upon resemblances of meanings; the letter carries something of its meaning through its physical form. **Al-Khalil ibn Ahmad** al-Farahidi (8th c.) ordered the entire dictionary by place of articulation (مَخرَج), starting from the deep throat and moving forward to the lips, on the assumption that the physical gesture of pronunciation is itself the wellspring of the meaning. **Ibn Faris** in *Maqayis al-Lugha* (10th c.) assigned a single core semantic value to each Arabic root.
+
+This study takes the classical Arabic position seriously, tests it empirically against the modern lexicographic foundation (Jabal's lexicon), and reports what the data shows.
+
+### 1.2 Three traditions converging in this work
+
+Three traditions converge here. None is rejected; each contributes a layer:
+
+| Tradition | Contribution |
+|---|---|
+| **The classical Arabic phonosemantic tradition** (al-Khalil, Ibn Jinni, Ibn Faris, the lexicographers) | Supplies the framework — letter-meaning correspondence through place of articulation. The most developed theory of sound-meaning correspondence ever produced in any language. |
+| **Saussurean structuralism** (Saussure and after) | Supplies the toolkit and the units: signifier/signified, phonemes (الصواتم) / morphemes (اللفاظم), and the arbitrariness thesis as a hypothesis to test. |
+| **Modern phonosemantics** (Jespersen, Sapir, Jakobson, Tsur, Magnus, Hinton) | Supplies the cross-linguistic horizon: documented sound-symbolic patterns across languages (*bouba/kiki*, *mil/mal* size correspondence, voicing/magnitude). Suggestive but scattered, never reaching the systematic scale Arabic permits. |
+
+This study sits at the intersection of the three: the classical Arabic tradition supplies the framework, modern phonosemantics supplies the cross-linguistic horizon, and the Saussurean toolkit supplies the units at which the test runs — **phoneme → binary nucleus → root → word**.
+
+### 1.3 The Arabic tradition on letter semantics
 
 The layer of Arabic letter semantics — below the layer of grammar, before the layer of exegesis — is not a modern specialty; it is a field that has stretched across centuries. The foundational intuition — the link between a letter's form and its meaning through its place of articulation — is present in al-Khalil ibn Ahmad al-Farahidi's *Kitab al-Ayn* (8th c., the founder of Arabic linguistics) and explicit in Ibn Jinni's *al-Khasais* (11th c., the chapter on *إمساس الألفاظ أشباه المعاني*, the correspondence of form to meaning). It continued through the classical lexicographers and grammarians, manifest in their close attention to places of articulation (مَخارج) and consonant qualities (صفات) as the wellspring of meaning. The full survey is in [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md).
 
@@ -41,7 +61,7 @@ In the modern era, the lexicographic foundation for this field rests on two prin
 
 For the cross-linguistic layer, the study rests on the work of **Dr. Ali Fahmi Khshim** (former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, PhD in philosophy from Durham University 1971, author of *رِحلة الكلمات*), who established nine sound-substitution laws between Arabic and other language families. This work does not provide per-letter charges but rather the comparative-phonetic mechanisms between languages, and it lives in the cross-linguistic layer (`04-cross-linguistic/`).
 
-### 1.2 Where this study sits
+### 1.4 Where this study sits
 
 This study is not a competing alternative to that tradition; it is a **structural refinement and extension**. It takes:
 
@@ -240,9 +260,35 @@ Juthoor is a project with two sides: this vault (the research-editorial side) an
 
 ---
 
-## §6. Where the study stands, and what is next
+## §6. Why this matters
 
-### 6.1 Settled
+What the study delivers serves five domains at once:
+
+### 6.1 For Arabic and Quranic studies
+
+It gives the field a quantitative, falsifiable framework where there was only intuition. The 28-letter charges are tested against the 453 binary nuclei in Jabal's lexicon; the twelve composition modes are tested against 2,285 trilateral roots. Verse-level Quranic readings become grounded in the science of articulation (مَخارج، صفات), not in the interpretive tradition alone. A reader who knows the charges can read a verse the way a chemist reads a formula — by composition.
+
+### 6.2 For general linguistics
+
+It provides the first systematic, large-scale empirical test of Saussure's arbitrariness thesis on a language whose morphology preserves a transparent root structure. If the dual-face rule holds for every Arabic letter across all 453 nuclei, the arbitrariness thesis is in question — at least for Arabic, and perhaps for any language with a comparable architecture. This does not refute Saussure; it opens a new field under his name: the portion of language where the sign is articulatorily supported, not arbitrary.
+
+### 6.3 For comparative linguistics
+
+A disciplined four-bar verification rubric for cross-linguistic cognates, anchored by Khshim's nine sound-substitution laws, with eight Quran-anchored Tier-A pairs (kufu' ↔ copy, salām ↔ shalom, rabb ↔ rabbi, jinn ↔ genie, kalām ↔ claim, qul ↔ call, sharb ↔ sorb, jam' ↔ Gemini) demonstrating the method in practice. The rubric distinguishes genuine cross-linguistic resonance from surface accident — the central methodological problem of historical-comparative work.
+
+### 6.4 For computational linguistics and AI
+
+It opens the door to **root-level meaning composition** that pure embedding models cannot reach. Where a neural language model learns an opaque mapping from token to vector, this framework offers a **transparent compositional algebra**: the binary nucleus operates on the third letter, taking its charge as material, in one of twelve modes. Language, in this view, is **acoustic mathematics and semantic algorithms** — and the algebra is now explicit, executable, testable. This is the side of the project that lives in the computational sister workspace, with continuous expansion to new language families.
+
+### 6.5 For the classical Arabic tradition itself
+
+The study restores standing to what al-Khalil, Ibn Jinni, and Ibn Faris began. What was a venerable intuition at the hands of the classical scholars is now subject to modern quantitative test. This is not a break with the tradition; it is a twelve-century continuity with new tools.
+
+---
+
+## §7. Where the study stands, and what is next
+
+### 7.1 Settled
 
 - **Unified 28-letter table** with the dual-face rule, tested by induction across all 453 binary nuclei in Jabal's lexicon.
 - **The full nucleus catalog** (453 nuclei), with a per-nucleus reading, source-anchored where available and compositionally graded otherwise.
@@ -252,12 +298,12 @@ Juthoor is a project with two sides: this vault (the research-editorial side) an
 - **Jawfī treatment** of ا, و, ي: resolved by establishing active charges for all three and including them in the unified table.
 - **Dialectical-contradiction check** formalized as a second-pass verification on letter charges.
 
-### 6.2 In progress
+### 7.2 In progress
 
 - **Statistical predictive testing** of letter charges against competing charge sets — running on the computational side of the project, with continuous expansion across new language families.
 - **Tier-B cross-linguistic expansion** — 900+ Arabic↔Greek/Latin candidate cognates discovered and under refinement.
 
-### 6.3 Next chapters
+### 7.3 Next chapters
 
 - **Publish an English-language academic paper** (8–12 pages) presenting the unified table, the dual-face rule, the twelve composition modes, and several worked examples.
 - **Build a public lookup tool** (CLI or web) that takes an Arabic word and returns its letter → nucleus → root reading.
@@ -265,9 +311,9 @@ Juthoor is a project with two sides: this vault (the research-editorial side) an
 
 ---
 
-## §7. How to contribute
+## §8. How to contribute
 
-For collaborators wanting to work on any item in §6:
+For collaborators wanting to work on any item in §7:
 
 1. **Read the architecture document:** [`lv1-architecture.md`](lv1-architecture.md) (in this folder).
 2. **Study the unified table:** [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
@@ -278,7 +324,7 @@ For feedback, citation requests, or collaboration, use the contact form at [arab
 
 ---
 
-## §8. Summary
+## §9. Summary
 
 This study rests on twelve centuries of Arabic linguistic scholarship — from al-Khalil ibn Ahmad and Ibn Jinni through the classical lexicographers, and from the modern lexicographic foundation laid by Jabal and Abbas, with Khshim's sound-substitution laws for the cross-linguistic layer — and adds new structural findings: **the general dual-face rule** for the 28 letters, tested by induction across 453 binary nuclei; **twelve composition modes** for trilateral roots, reading 2,285 roots at 100% native fit; **the four-bar verification rubric** for Quran-anchored cross-linguistic cognates with 8 confirmed pairs; and **a complete catalog** of the binary nuclei with evidence from the published text. The framework rests on Jabal's lexicographic corpus and on a consistent preference for phonetic-physical readings. The computational counterpart in `Juthoor-Linguistic-Genealogy/` carries out the statistical and cross-linguistic expansion continuously.
 
