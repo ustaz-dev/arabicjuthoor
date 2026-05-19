@@ -1,6 +1,6 @@
 # Quran-anchored nuclei (full detail)
 
-> **Arabic version:** [`jabal-nuclei-tc-anchored-ar.md`](jabal-nuclei-tc-anchored-ar.md)
+*Arabic version: [`jabal-nuclei-tc-anchored-ar.md`](jabal-nuclei-tc-anchored-ar.md)*
 
 Each entry shows the published Arabic reading (primary + variants), the English gloss, the two letter charges, all reading variants found in the published Tafsir Coran corpus, and sample ayah references.
 

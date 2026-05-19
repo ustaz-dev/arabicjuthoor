@@ -1,11 +1,6 @@
 # Layer 2 · The Twelve Composition Modes for Trilateral Roots
 
-> **Arabic version:** [`lv2-operative-grammar-ar.md`](lv2-operative-grammar-ar.md)
->
-> **Status:** 2,285 / 2,288 trilaterals graded (99.87%) · 100% find a coherent composition mode without forcing.
-> **Computational side of the project:** `Juthoor-Linguistic-Genealogy/`
-> **Methodology spec:** [`Juthoor-Linguistic-Genealogy/docs/LAYER_2_V2_METHODOLOGY.md`](../../Juthoor-Linguistic-Genealogy/docs/LAYER_2_V2_METHODOLOGY.md)
-> **Interactive dashboard:** [`Juthoor-Linguistic-Genealogy/outputs/audits/layer_2_dashboard_v2.html`](../../Juthoor-Linguistic-Genealogy/outputs/audits/layer_2_dashboard_v2.html)
+*Arabic version: [`lv2-operative-grammar-ar.md`](lv2-operative-grammar-ar.md)*
 
 ## The finding
 

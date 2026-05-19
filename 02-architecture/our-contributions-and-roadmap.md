@@ -3,9 +3,8 @@
 **Project:** The Arabic Tongue: Nature, Genome, Application
 **Author:** Yassine Temessek
 **Conducted under:** Temessek for Research, Publishing & Training · [coranisyours.com](https://coranisyours.com) · [arabicjuthoor.com](https://arabicjuthoor.com/)
-**Status:** Public reference document, share freely.
 
-> Arabic version: [`our-contributions-and-roadmap-ar.md`](our-contributions-and-roadmap-ar.md)
+*Arabic version: [`our-contributions-and-roadmap-ar.md`](our-contributions-and-roadmap-ar.md)*
 
 ---
 

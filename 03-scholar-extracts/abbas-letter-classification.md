@@ -1,8 +1,10 @@
-# Hassan Abbas, Full Classification of the Arabic Letters
-## Sensory Category + Evolutionary Mechanism per Letter
+# Hassan Abbas — Full Classification of the Arabic Letters
 
-**Source:** *خصائص الحروف العربية ومعانيها* · Hassan Abbas (Arab Writers Union, 1998)
-**Arabic version:** [`abbas-letter-classification-ar.md`](abbas-letter-classification-ar.md)
+*Arabic version: [`abbas-letter-classification-ar.md`](abbas-letter-classification-ar.md)*
+
+**Sensory Category + Evolutionary Mechanism per Letter**
+
+Source: *خصائص الحروف العربية ومعانيها* · Hassan Abbas (Arab Writers Union, 1998).
 
 ---
 

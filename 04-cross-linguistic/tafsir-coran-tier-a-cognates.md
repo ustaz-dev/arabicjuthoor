@@ -1,13 +1,8 @@
 # Cross-Linguistic Tier-A Cognates & The Verification Rubric
 
-> **Arabic version:** [`tafsir-coran-tier-a-cognates-ar.md`](tafsir-coran-tier-a-cognates-ar.md)
->
-> **Status:** 8 verified cross-linguistic cognate pairs anchored in Quranic vocabulary, plus the 4-bar verification rubric and a Tier-B ledger of evaluated candidates.
-> **Scholarly anchor:** the sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim (former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*). His nine substitution laws govern the consonantal correspondences that allow Arabic and Indo-European/Semitic words to be brought into the same skeleton frame.
-> **Relationship to other vault files:**
-> - The 17 English↔Arabic cognate cases curated from Mazen Hammoude's "Beyond the Word" series are in [`beyond-the-word-examples.md`](beyond-the-word-examples.md). **Zero overlap** with the 8 pairs here — these are independent contributions from a Quranic methodology, not the popular-cognate corpus.
-> - For the underlying letter-charge framework these cognates rest on, see [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
-> - The Arabic sound-shift laws (K↔Q, F↔P, …) referenced in the rubric are Khshim's. His source material lives in `Data raw/Languistic theories/علي فهمي خشيم/`.
+*Arabic version: [`tafsir-coran-tier-a-cognates-ar.md`](tafsir-coran-tier-a-cognates-ar.md)*
+
+Eight verified cross-linguistic cognate pairs anchored in Quranic vocabulary, plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*. The 17 popular Arabic↔English cognates from Mazen Hammoude's series are kept separately in [`beyond-the-word-examples.md`](beyond-the-word-examples.md). For the underlying letter-charge framework, see [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
 
 ---
 

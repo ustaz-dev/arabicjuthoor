@@ -1,8 +1,8 @@
-# Undocumented nuclei — vault-stub list
+# Phonotactically blocked and lexical-gap nuclei
 
-**Audit item:** §7.1.1 of `our-contributions-and-roadmap.md`
-**Count:** 442 nuclei not yet in `methodology/03-letters-and-roots.md`'s working table.
-**Format below:** each row gives the nucleus, its component letter charges, Jabal's recorded `binary_root_meaning`, and a sample of the roots Jabal classifies under it. The «proposed reading» column is empty — that is the next-pass LLM grading.
+*Arabic version: [`jabal-nuclei-undocumented-ar.md`](jabal-nuclei-undocumented-ar.md)*
+
+The 442 binary nuclei that are **not** in the curated 18-nucleus working shortlist — including the 160 phonotactically blocked pairs (alif-initial, OCP, same-articulator-class) and the 155 true lexical gaps that Arabic could form but does not use. Each row gives the nucleus, the two letter charges, Jabal's recorded `binary_root_meaning` if any, and a sample of the trilateral roots Jabal classifies under it.
 
 | Nucleus | L1 charge | L2 charge | Jabal binary meaning | Roots | Sample roots | Proposed reading |
 |---|---|---|---|---|---|---|

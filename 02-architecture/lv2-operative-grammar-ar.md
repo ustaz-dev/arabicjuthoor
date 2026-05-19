@@ -1,10 +1,6 @@
 # الطبقة الثانية · أبواب التركيب الاثنا عشر لِلجذر الثلاثيّ
 
-> **الحالة:** ٢,٢٨٥ من ٢,٢٨٨ جذرًا ثلاثيًّا مُصَنَّفًا (٩٩٫٨٧٪) · ١٠٠٪ تَجد بابًا مُتَّسقًا دون تَكَلُّف.
-> **الجانب الحاسوبيّ من المشروع:** `Juthoor-Linguistic-Genealogy/`
-> **التَّفصيل المنهجيّ:** [`Juthoor-Linguistic-Genealogy/docs/LAYER_2_V2_METHODOLOGY.md`](../../Juthoor-Linguistic-Genealogy/docs/LAYER_2_V2_METHODOLOGY.md)
-> **اللوحة التفاعليّة:** [`Juthoor-Linguistic-Genealogy/outputs/audits/layer_2_dashboard_v2.html`](../../Juthoor-Linguistic-Genealogy/outputs/audits/layer_2_dashboard_v2.html)
-> **النسخة الإنجليزيّة:** [`lv2-operative-grammar.md`](lv2-operative-grammar.md)
+*النسخة الإنجليزيّة: [`lv2-operative-grammar.md`](lv2-operative-grammar.md)*
 
 ## النتيجة
 

@@ -1,12 +1,8 @@
 # جدولُ شَحَنات الحروف المُوَحَّد والنوى المُشتَركة
 
-> **الحالة:** الجدولُ المرجعيّ الكامل لِلدراسة. الجدولُ المُوَحَّد لِلحروف الثمانية والعشرين، قاعدةُ الوَجهَين العامّة، قائمةُ النوى الثمانية عشر العَمَليّة، ونماذج تطبيقيّة.
-> **العلاقة بمَلَفّات المَخزن الأُخرى:**
-> - الأرضيّةُ المعجميّة الحديثة (جَبَل) وعَملُ البَصَمات الحِسّيّة المُوازي (عبّاس) في `Data raw/Languistic theories/`. قوانينُ الإبدال الصوتيّ بين اللغات (خشيم) في `04-cross-linguistic/`.
-> - تَصنيفُ عبّاس الثنائيّ المحوريّ لِلحروف في [`abbas-letter-classification.md`](abbas-letter-classification.md).
-> - ديوانُ النوى الكامل (٤٥٣ نواة) بِشَواهد المَصدر في [`jabal-nuclei-extended.md`](jabal-nuclei-extended.md) و[`jabal-nuclei-tc-anchored.md`](jabal-nuclei-tc-anchored.md).
-> - التَّقليدُ العربيّ الكلاسيكيّ الذي يَستَنِد إليه العَمَل (الخليل، ابن جنّي…) مَسحُهُ في [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md).
-> - النسخة الإنجليزيّة: [`consensus-letter-charges.md`](consensus-letter-charges.md).
+*النسخة الإنجليزيّة: [`consensus-letter-charges.md`](consensus-letter-charges.md)*
+
+المَرجعُ الكامل لِلدراسة: الجدولُ المُوَحَّد لِلحروف الثمانية والعشرين، قاعدةُ الوَجهَين العامّة، قائمةُ النوى الثمانية عشر العَمَليّة، وسبعةُ نماذج تطبيقيّة. مَلَفّاتٌ مُلازِمة: [`abbas-letter-classification-ar.md`](abbas-letter-classification-ar.md) لِلتَّصنيف الحِسّيّ، و[`jabal-nuclei-extended-ar.md`](jabal-nuclei-extended-ar.md) لِلديوان الكامل لِـ ٤٥٣ نواةً، ومَسحُ التَّقليد الكلاسيكيّ في [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md).
 
 ---
 

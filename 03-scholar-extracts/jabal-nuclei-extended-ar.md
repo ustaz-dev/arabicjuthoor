@@ -1,7 +1,8 @@
 # ديوانُ النَّوى الثنائيّة عند جَبَل — الكتالوج الكامل
 
-> **الحالة:** الكَشفُ الكامل لِلنَّوى الثنائيّة من مُعجَم جَبَل. مَلَفّاتٌ مُلازِمة: [`jabal-nuclei-tc-anchored-ar.md`](jabal-nuclei-tc-anchored-ar.md) لِلمَجموعة الفَرعيّة المُسنَدة قُرآنيًّا، [`consensus-letter-charges-ar.md`](consensus-letter-charges-ar.md) لِشَحَنات الحُروف الأَساسيّة.
-> **النسخة الإنجليزيّة:** [`jabal-nuclei-extended.md`](jabal-nuclei-extended.md)
+*النسخة الإنجليزيّة: [`jabal-nuclei-extended.md`](jabal-nuclei-extended.md)*
+
+الكَشفُ الكامل لِلنَّوى الثنائيّة من مُعجَم جَبَل. مَلَفّاتٌ مُلازِمة: [`jabal-nuclei-tc-anchored-ar.md`](jabal-nuclei-tc-anchored-ar.md) لِلمَجموعة الفَرعيّة المُسنَدة قُرآنيًّا، [`consensus-letter-charges-ar.md`](consensus-letter-charges-ar.md) لِشَحَنات الحُروف الأَساسيّة.
 
 ## مَسارا الشَّواهد
 

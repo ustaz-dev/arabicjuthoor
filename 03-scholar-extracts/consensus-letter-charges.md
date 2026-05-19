@@ -1,13 +1,8 @@
 # Unified Letter Charges & Common Nuclei
 
-> **Arabic version:** [`consensus-letter-charges-ar.md`](consensus-letter-charges-ar.md).
->
-> **Status:** the canonical reference table for the study. The unified 28-letter charge table, the general dual-face rule, the 18-nucleus working shortlist, and worked examples.
-> **Relationship to other vault files:**
-> - The modern lexicographic foundation (Jabal) and parallel sensory-profile work (Abbas) live unprocessed in `Data raw/Languistic theories/`. Cross-linguistic substitution laws (Khshim) are handled in `04-cross-linguistic/`.
-> - Abbas's per-letter dual-axis classification is in [`abbas-letter-classification.md`](abbas-letter-classification.md).
-> - The full 453-nucleus catalog with source-anchored evidence is in [`jabal-nuclei-extended.md`](jabal-nuclei-extended.md) and [`jabal-nuclei-tc-anchored.md`](jabal-nuclei-tc-anchored.md).
-> - The classical Arabic tradition this work builds on (Khalil, Ibn Jinni, …) is surveyed in [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md).
+*Arabic version: [`consensus-letter-charges-ar.md`](consensus-letter-charges-ar.md)*
+
+The canonical reference for the study: the unified 28-letter charge table, the general dual-face rule, the 18-nucleus working shortlist, and seven worked examples. Companion files: [`abbas-letter-classification.md`](abbas-letter-classification.md) for the sensory/articulatory classification, [`jabal-nuclei-extended.md`](jabal-nuclei-extended.md) and [`jabal-nuclei-tc-anchored.md`](jabal-nuclei-tc-anchored.md) for the full 453-nucleus catalog, and [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md) for the classical Arabic linguistic tradition.
 
 ---
 

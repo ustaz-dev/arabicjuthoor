@@ -2,7 +2,8 @@
 
 **Author:** Yassine Temessek
 **Conducted under:** Temessek for Research, Publishing & Training
-**Arabic version:** [`lv1-architecture-ar.md`](lv1-architecture-ar.md)
+
+*Arabic version: [`lv1-architecture-ar.md`](lv1-architecture-ar.md)*
 
 ---
 

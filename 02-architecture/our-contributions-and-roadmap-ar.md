@@ -3,7 +3,8 @@
 **المشروع:** اللسانُ العربيّ: الطبيعة، الجينوم، التطبيق
 **المؤلِّف:** ياسين تَمَسُّك
 **أُجريت تحت:** تَمَسُّك للبحوث والنشر والتدريب · [coranisyours.com](https://coranisyours.com) · [arabicjuthoor.com](https://arabicjuthoor.com/)
-**الحالة:** وثيقةٌ مرجعيّةٌ عَلَنيّة، تُتاح لِلمُشارَكة بِحُرّيّة.
+
+*English version: [`our-contributions-and-roadmap.md`](our-contributions-and-roadmap.md)*
 
 ---
 
