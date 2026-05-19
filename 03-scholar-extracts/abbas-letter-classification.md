@@ -151,15 +151,10 @@ How did the letter-meaning connection form?
 
 ---
 
-## Relevance to LV1
+## How this is used in the framework
 
-This classification provides **two independent dimensions** for the Letter Registry:
+This classification provides two independent dimensions for the letter registry:
 
-1. **Sensory Category** → determines what TYPE of semantic features a letter can contribute (tactile letters contribute texture features, visual letters contribute spatial features, emotional letters contribute intensity/depth features)
+1. **Sensory Category** determines what type of semantic features a letter can contribute — tactile letters contribute texture features, visual letters contribute spatial features, emotional letters contribute intensity/depth features.
 
-2. **Evolutionary Mechanism** → may predict which **composition model** works best:
-   - هيجانية letters → may compose poorly (too primitive/spatial for semantic composition)
-   - إيمائية letters → may compose best with **Model D (Phonetic-Gestural)** since their meaning IS the physical gesture
-   - إيحائية letters → may compose best with **Model A (Intersection)** or **Model C (Dialectical)** since their meaning is evocative, not physical
-
-This is a testable hypothesis for Layer 1.
+2. **Evolutionary Mechanism** is a predictor of how the letter combines into a binary nucleus — the إيمائيّة letters compose best where the meaning is the physical gesture itself, while the إيحائيّة letters compose best where the meaning is evoked rather than enacted.

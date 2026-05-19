@@ -175,68 +175,13 @@ The physical mouth movements of pronouncing both sounds produce a combined gestu
 
 **Testing protocol:** Run all four models on the 453 binary nuclei against Jabal's recorded readings. Produce a score matrix. Analyze which model works best overall, which works best per phonetic class, and where Abbas's sensory axis predicts compositional behaviour.
 
-### 6.2 Hard Problem 2: The Scoring Function
+### 6.2 Hard Problem 2: Scoring the readings
 
-LV1 uses **two complementary scoring methods**:
+Every reading (letter charge, nucleus meaning, root meaning) is decomposed into a set of **atomic semantic features** — the irreducible building blocks of Arabic phonosemantic description — drawn from a vocabulary extracted from Jabal's 28 letter definitions and 453 nucleus meanings. Predicted and recorded readings are then compared by feature-set overlap (Jaccard similarity, with frequency-inverse weighting so rare features count more).
 
-#### Method B, Atomic Semantic Feature Decomposition (الأساسي)
+A nine-category feature vocabulary covers the surface area: PRESSURE/FORCE (ضغط، احتباس، إمساك، قوة، ثقل…), EXTENSION/MOVEMENT (امتداد، استرسال، خروج، بروز، ظهور…), PENETRATION/PASSAGE (نفاذ، اختراق…), GATHERING/COHESION (تجمع، التحام، تلاصق، احتواء…), SPREADING/DISPERSAL (انتشار، طرد، تفرق، تخلخل…), TEXTURE/QUALITY (رخاوة، غلظ، كثافة، دقة…), SHARPNESS/CUTTING (حدة، قطع، صدم…), SPATIAL ORIENTATION (باطن، ظاهر، عمق، جوف…), and INDEPENDENCE/DISTINCTION (استقلال، تعلق، استواء…).
 
-**The primary, reproducible scoring engine.**
-
-Every semantic description (letter meaning, nucleus meaning, root meaning) is decomposed into a set of **atomic semantic features**, the irreducible building blocks of Arabic phonosemantic description.
-
-**The Atomic Feature Vocabulary** (extracted from Jabal's 28 letter definitions + 456 binary nucleus meanings):
-
-**Category 1, PRESSURE/FORCE (الضغط والقوة)**
-ضغط (pressure), احتباس (confinement), تعقد (knotting), اشتداد (intensification), إمساك (gripping), امتساك (holding), قوة (force), تقوية (strengthening), تأكيد (affirmation), ثقل (heaviness)
-
-**Category 2, EXTENSION/MOVEMENT (الامتداد والحركة)**
-امتداد (extension), استرسال (flowing), طول (length), اتساع (widening), خروج (emergence), انتقال (transition), وصول (reaching), بروز (protrusion), ظهور (appearance), صعود (ascent)
-
-**Category 3, PENETRATION/PASSAGE (النفاذ والعبور)**
-نفاذ (penetration), خلوص (passing through), اختراق (piercing), نقص (diminishment)
-
-**Category 4, GATHERING/COHESION (التجمع والتماسك)**
-تجمع (gathering), اكتناز (compactness), ازدحام (crowding), التحام (fusion), تلاصق (adhesion), تماسك (cohesion), اشتمال (encompassing), احتواء (containment), اتصال (connection)
-
-**Category 5, SPREADING/DISPERSAL (الانتشار والتفرق)**
-تفشٍّ (spreading), انتشار (dispersal), طرد (expulsion), إبعاد (distancing), فراغ (emptiness), إفراغ (emptying), تفرق (scattering), تخلخل (loosening)
-
-**Category 6, TEXTURE/QUALITY (الملمس والصفة)**
-رخاوة (softness), غلظ (coarseness), كثافة (density), ثخانة (thickness), دقة (fineness), رقة (thinness), لطف (gentleness), هشاشة (fragility), جفاف (dryness)
-
-**Category 7, SHARPNESS/CUTTING (الحدة والقطع)**
-حدة (sharpness), قطع (cutting), صدم (striking), احتكاك (friction)
-
-**Category 8, SPATIAL ORIENTATION (الاتجاه المكاني)**
-باطن (interior), ظاهر (exterior), عمق (depth), جوف (cavity), حيز (space/domain), سطح (surface)
-
-**Category 9, INDEPENDENCE/DISTINCTION (الاستقلال والتميز)**
-استقلال (independence), تميز (distinction), تعلق (attachment), استواء (evenness), وحدة (unity)
-
-**Scoring procedure:**
-1. Decompose prediction into feature set F_predicted
-2. Decompose Jabal's actual meaning into feature set F_actual
-3. Score = |F_predicted ∩ F_actual| / |F_predicted ∪ F_actual| (Jaccard similarity)
-4. Weighted variant: features weighted by frequency-inverse importance (rare features count more)
-
-#### Method A, Claude Semantic Judge (المُحَكِّم الدلالي)
-
-**The calibration and validation layer.**
-
-For a representative sample of nuclei/roots (e.g., 50-100), Claude evaluates the semantic match between predicted and actual meanings on a 0-100 scale, providing:
-- **Score** (0-100): semantic alignment
-- **Reasoning**: what aligns, what diverges, what's partially captured
-- **Feature gap analysis**: which atomic features are present in one but not the other
-
-**Purpose:** Calibrate Method B. If Method B gives nucleus X a score of 0.7 but Claude gives it 45/100, the feature weights need adjustment. If both agree, the system is reliable. Run periodically as the feature vocabulary and weights are refined.
-
-**The hybrid workflow:**
-1. Run Method B on all 456 nuclei → full score matrix (fast, reproducible)
-2. Run Method A on 50-100 sample → calibration scores (nuanced, Arabic-aware)
-3. Compare B vs A → adjust feature weights and composition model parameters
-4. Re-run Method B with calibrated weights → improved full matrix
-5. Iterate until B and A converge
+The scoring is reproducible from these features; the full vocabulary and category lists are kept in the computational side of the project together with the running test results.
 
 ### 6.3 The reversibility test (اختبار القَلب)
 
@@ -430,7 +375,7 @@ Tests:
 
 | Metric | Value |
 |--------|-------|
-| Total trilateral roots | 2,300 unique (1,924 lexicon entries) |
+| Total trilateral roots | 2,300 unique |
 | Binary nuclei | 453 |
 | أبواب (letter chapters) | 25 |
 | Roots with Quranic application | 1,666 (86.6%) |

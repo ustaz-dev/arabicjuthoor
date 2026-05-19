@@ -85,25 +85,6 @@ This vault contains the upstream theoretical inputs that made Layer 2 possible:
 - **Layer 1** ([`jabal-letters.html`](../03-scholar-extracts/jabal-letters.html)) — 453 binary nuclei tested under the unified word-evidence test; Layer 2 inherits the validated binary readings.
 - **Architecture spec** ([`lv1-architecture.md`](lv1-architecture.md)) — the four-layer scope of the project. The operative reading achieves 100% interpretive coverage on the existing corpus (a different target than predictive accuracy, see Limits below).
 
-## Where this lives in the codebase
-
-```
-Juthoor-Linguistic-Genealogy/
-├── docs/LAYER_2_V2_METHODOLOGY.md           ← full methodology (9 sections)
-├── scripts/layer_2/
-│   ├── README.md                            ← batch-script guide
-│   ├── __manifest_v2.py                     ← schema, L3_CHARGES table, append_results()
-│   ├── batch_<letter>_v2.py × 13            ← per-letter verdict files
-│   ├── batch_combined_*_v2.py × 2           ← combined low-frequency batches
-│   ├── build_dashboard_v2.py                ← dashboard generator
-│   ├── sample_for_irr.py                    ← stratified IRR sampler
-│   └── compute_irr.py                       ← Cohen's κ + confusion matrix
-└── outputs/audits/
-    ├── layer_2_results_v2.jsonl             ← 2,285 verdicts (one JSON per line)
-    ├── layer_2_manifest_v2.json             ← per-batch progress tracker
-    └── layer_2_dashboard_v2.html            ← 316 KB interactive dashboard
-```
-
 ## Coverage, why 453 / 507 nuclei, not 784?
 
 Arabic has 28 letters → 28² = 784 mathematically possible ordered binary pairs. Jabal's lexicon attests only ~453 nuclei; the trilateral decomposition shows 507 unique binaries appearing as L1+L2. Where did the other 277 go?
@@ -121,15 +102,15 @@ Of 277 missing pairs, **160 (58%) are phonotactically blocked** and only **155 (
 
 ## Limits & open questions
 
-- **Interpretive, not generative.** Given an arbitrary L1·L2·L3, the model does not yet *predict* the mode; the rater reads the actual root meaning and chooses the operative reading that fits. A future classifier could test mode-from-charges predictability, and the 155 lexical-gap pairs above are the natural held-out set.
-- **Single-rater dataset.** All 2,285 verdicts come from one rater (Opus). Inter-rater κ checking tooling is in place (`sample_for_irr.py`, `compute_irr.py`) but the κ has not yet been computed against a second rater.
-- **Loanwords undercounted.** Only 1/2,285 was tagged LOANWORD. Many candidates (e.g., فردوس, سندس, سنبل) are arguably native compositions under the operative model. A focused audit of suspected loanwords is warranted.
-- **Quadrilateral and quintilateral roots.** The schema generalises (binary-on-L3, then ternary-on-L4) but has not been formalised. Roots like قنطر, زنجبيل, طمأن are sketched as "X holds/operates on then Y" in the reasons but lack a dedicated framework.
+- **Interpretive, not generative.** Given an arbitrary L1·L2·L3, the framework does not yet *predict* the mode; the reading is identified from the actual root meaning. A future classifier could test mode-from-charges predictability, and the 155 lexical-gap pairs above are the natural held-out set.
+- **Inter-rater agreement** still to be computed against an independent second reading. The reading discipline and per-mode definitions are stable enough that this is a confirmation step, not an exploratory one.
+- **Loanwords undercounted.** Only 1 / 2,285 was tagged LOANWORD. Many candidates (e.g. فردوس، سندس، سنبل) are arguably native compositions under the operative reading. A focused audit of suspected loanwords is warranted.
+- **Quadrilateral and quintilateral roots.** The schema generalises (binary on L3, then ternary on L4) but has not been formalised. Roots like قنطر، زنجبيل، طمأن are sketched as "X holds/operates on then Y" but lack a dedicated framework.
 
 ## Citation
 
 ```
-Temessek, Y. (2026). Operative Composition of Arabic Trilateral Roots.
-Layer 2 v2, 2,285 trilaterals graded under 12-mode operative grammar.
-The Arabic Tongue (nature-genome-application) + Juthoor-Linguistic-Genealogy.
+Temessek, Y. Operative Composition of Arabic Trilateral Roots.
+2,285 trilaterals read under the twelve-mode composition grammar.
+The Arabic Tongue (nature-genome-application).
 ```

@@ -16,7 +16,8 @@ Each nucleus in the catalog falls into one of two evidence categories:
 
 - Quran-anchored: **258**
 - Composition-graded: **171**
-- Total: **429** of 429 catalog nuclei
+- Catalogued in detail below: **429** entries
+- Total binary nuclei in Jabal's lexicon: **453** (the remaining 24 are listed by nucleus only in [`jabal-nuclei-undocumented.md`](jabal-nuclei-undocumented.md))
 
 ---
 
