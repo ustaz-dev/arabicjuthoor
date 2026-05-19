@@ -107,7 +107,7 @@ Of 277 missing pairs, **160 (58%) are phonotactically blocked** and **117 (42% o
 - **Interpretive, not generative.** Given an arbitrary L1·L2·L3, the framework does not yet *predict* the mode; the reading is identified from the actual root meaning. A future classifier could test mode-from-charges predictability, and the 117 lexical-gap pairs above are the natural held-out set.
 - **Inter-rater agreement** still to be computed against an independent second reading. The reading discipline and per-mode definitions are stable enough that this is a confirmation step, not an exploratory one.
 - **Loanwords undercounted.** Only 1 / 2,285 was tagged LOANWORD. Many candidates (e.g. فردوس، سندس، سنبل) are arguably native compositions under the operative reading. A focused audit of suspected loanwords is warranted.
-- **Quadrilateral and quintilateral roots.** The schema generalises (binary on L3, then ternary on L4) but has not been formalised. Roots like قنطر، زنجبيل، طمأن are sketched as "X holds/operates on then Y" but lack a dedicated framework.
+- **Quadrilateral and quintilateral roots.** The schema generalises (binary on L3, then ternary on L4) but has not been formalised. Roots like قنطر، زنجبيل، طمأن are sketched as "X holds/operates on then Y". The research design for closing this gap is now drafted in [`quad-quint-grammar-roadmap.md`](quad-quint-grammar-roadmap.md): two proposed extensions (binary-on-binary for quadriliterals; stacked-binary composition for quintiliterals), ten worked examples (قنطر، دحرج، نمرق، جهنّم، سلسبيل، زنجبيل، سفرجل, …), and a four-step empirical plan.
 
 ## Citation
 
