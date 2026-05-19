@@ -2,7 +2,7 @@
 
 🌐 **Live site:** [**arabicjuthoor.com**](https://arabicjuthoor.com/)
 
-🖥️ **Local dashboard:** [`index.html`](index.html) — a single-page overview of the methodology, the 28-letter table, the 18 nuclei, the eleven native composition modes (plus the LOANWORD label), the 8 Tier-A cognates, and the scholarly foundation.
+🖥️ **Local dashboard:** [`index.html`](index.html) — a single-page overview of the methodology, the 28-letter table, the 18 nuclei, the eleven native composition modes (plus the LOANWORD label), the 11 Tier-A cognates, and the scholarly foundation.
 
 🚀 **Deploying:** see [`DEPLOYMENT.md`](DEPLOYMENT.md) for the GitHub Pages + Cloudflare DNS setup.
 
@@ -61,7 +61,7 @@ This is an empirical study of that meaning-composition system. It rests on twelv
 
 | File | Description |
 |------|-------------|
-| [tafsir-coran-tier-a-cognates.md](04-cross-linguistic/tafsir-coran-tier-a-cognates.md) | **The four-bar verification rubric** anchored by Dr. Ali Fahmi Khshim's nine sound-substitution laws, with the 8 Tier-A Quran-anchored cognate pairs (kufu' ↔ copy, salām ↔ shalom, rabb ↔ rabbi, jinn ↔ genie, kalām ↔ claim, qul ↔ call, sharb ↔ sorb, jam' ↔ Gemini). |
+| [tafsir-coran-tier-a-cognates.md](04-cross-linguistic/tafsir-coran-tier-a-cognates.md) | **The four-bar verification rubric** anchored by Dr. Ali Fahmi Khshim's nine sound-substitution laws, with the 11 Tier-A Quran-anchored cognate pairs (8 original + 3 promoted via the loanword audit) (kufu' ↔ copy, salām ↔ shalom, rabb ↔ rabbi, jinn ↔ genie, kalām ↔ claim, qul ↔ call, sharb ↔ sorb, jam' ↔ Gemini). |
 | [beyond-the-word-examples.md](04-cross-linguistic/beyond-the-word-examples.md) | 17 popular Arabic↔English cognate cases retained for reference. |
 
 ### `05-audits/` — empirical record

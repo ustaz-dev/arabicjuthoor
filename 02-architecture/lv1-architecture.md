@@ -109,7 +109,7 @@ The deeper anchor for the form-meaning correspondence rests on the classical Ara
 │  Layer 3 · Cross-linguistic projection                  │
 │  Khshim's nine sound-substitution laws.                   │
 │  Four-bar verification rubric for cross-linguistic        │
-│  cognates. 8 Tier-A pairs Quran-anchored.                 │
+│  cognates. 11 Tier-A pairs Quran-anchored.                │
 │  Test: Arabic root meanings ↔ cognate language pairs.     │
 └─────────────────────────────────────────────────────────┘
 

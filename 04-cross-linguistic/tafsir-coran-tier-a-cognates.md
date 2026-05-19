@@ -1,6 +1,6 @@
 # Cross-Linguistic Tier-A Cognates & The Verification Rubric
 
-Eight verified cross-linguistic cognate pairs anchored in Quranic vocabulary, plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*.
+Eleven verified cross-linguistic cognate pairs anchored in Quranic vocabulary (eight original plus three promoted via the [Quranic loanword audit](quranic-loanword-audit.md)), plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*.
 
 ---
 
@@ -84,6 +84,46 @@ Candidates evaluated against the 4 bars, with verdicts:
 - **Kept in Tier B:** ك-ت-ب, خ-ل-ق, ض-ح-و (3)
 - **Rejected (skeleton or nucleus fails):** ع-ل-م, ق-ر-أ, ن-و-ر, ك-ت-م, ر-أ-ي (5)
 - **Not applicable (loanword):** ي-ت-م (1)
+
+## Tier A expansion via the loanword audit (2026-05-19)
+
+The same four-bar rubric, applied in the [Quranic loanword audit](quranic-loanword-audit.md), identified three further candidates that pass all four bars and merit Tier-A status. These are words classical lexicographers and Orientalists labelled as borrowed *into* Arabic; the operative-grammar reading and Khshim's sound-substitution laws together show the direction is reversed: Arabic to other, not other to Arabic.
+
+| Arabic root | Cognate | Skeleton | Nucleus | Home-base verse | Notes |
+|---|---|---|---|---|---|
+| ق-ر-ط | chartēs (Gr.) / charta (Lat.) → English *chart*, *card*, *carve* | K/Q-R-T (Khshim: ق↔K, ط↔T softening to t) | the *cut-inscribed surface*, the marked sheet | 6:7 «كِتَابًا فِي قِرْطَاسٍ» (qirṭās) · also 6:91 | Derivative *qīrāṭ* / English *carat* share the same root and travel route. The Greek χαράσσω "to scratch, incise" preserves the Arabic verbal sense exactly. |
+| ق-م-ص | camisia (Lat.) → English *chemise*, French *chemise*, Spanish *camisa*; pre-Latin Akkadian *qamīstu* (cognate, not source) | Q-M-S (Khshim: ص softens to s in IE) | the *form-shaped-with-firm-edge*, garment-fitted-around | 12:18 «قَمِيصِهِ» (Joseph's shirt) · also 12:25–28, 12:93, 12:96 | The Akkadian *qamīstu* predates Latin by millennia and preserves the Semitic skeleton intact. Latin *camisia* is downstream. |
+| ن-ج-ل | euangelion (Gr.) → English *evangel*, *gospel*; Syriac *ewangelion* | N-J-L (Greek dropped initial N and re-prefixed *eu-*; the -nj- consonant cluster is preserved as -ng-) | the *disclosed-revelation*, what brings-forth what was concealed | 3:3, 3:48, 5:46-47, 9:111, 48:29, 57:27 (12 occurrences) | The Quranic *Injīl* on the *af'īl* nominal pattern of ن-ج-ل reads as "the disclosing-revelation" — Arabic morphology not derivable from Greek. The Greek/Syriac forms shifted the morphology while preserving the *revealed good news* semantic. |
+
+### Reading the three promotions
+
+Each promotion clears all four bars:
+
+1. **Skeleton match.** ق-ر-ط → K-R-T in Greek/Latin (with ط softening to t per Khshim's law 4). ق-م-ص → Q-M-S → C-M-S in Indo-European (with ص softening to s per Khshim's law 6, and Q→C/K standard). ن-ج-ل → N-G-L visible inside *e-ng-el-ion* (Greek inserted the eu- prefix and dropped the initial nasal).
+2. **Nucleus identity.** Each Arabic root carries a clean binary nucleus that survives the crossing: *cut-inscribe* in ق-ر-ط, *form-fit* in ق-م-ص, *bring-forth* in ن-ج-ل. The Indo-European descendants retain the same nucleus, just decorated with different morphology.
+3. **Modern reader-recognition.** *Chart, card, carve, carat, chemise, evangel, gospel* — these are all in everyday English/French vocabulary. A modern reader hearing the Quranic *qirṭās* doesn't need scholarly explanation; *chart* is already in their hand.
+4. **Dual-family confirmation.** Semitic anchor: Akkadian, Aramaic and Hebrew all preserve the Q-R-T, Q-M-S, and N-G-L skeletons. Indo-European anchor: Greek and Latin attestation is unbroken. The dual-family bracket holds.
+
+### Tier-A roster after the loanword-audit promotions
+
+The Tier-A roster now totals **eleven verified Quran-anchored cross-linguistic cognates**:
+
+| # | Root | Cognate | Verse |
+|--:|---|---|---|
+| 1 | ك-ف-ء | copy / copie | 112:4 |
+| 2 | س-ل-م | shalom | 97:5 |
+| 3 | ر-ب-ب | rabbi | 1:2 |
+| 4 | ج-ن-ن | genie | 114:6 |
+| 5 | ك-ل-م | claim / clamor | 2:75 |
+| 6 | ق-و-ل | call | 112:1 |
+| 7 | ش-ر-ب | sorb / syrup | 2:60 |
+| 8 | ج-م-ع | Gemini | 2:148 |
+| 9 | ق-ر-ط | chart / card / carat | 6:7 |
+| 10 | ق-م-ص | chemise / camisia | 12:18 |
+| 11 | ن-ج-ل | evangel / gospel | 3:3 |
+
+The pipeline has 900+ further Arabic↔Greek/Latin candidates in the Tier-B refinement queue (see the computational side of the project for the auto-discovery process).
+
 
 ### Use of Tier B candidates
 
