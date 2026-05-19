@@ -252,7 +252,7 @@ Juthoor is a project with two sides: this vault (the research-editorial side) an
 | Reference | How the study treats it |
 |---|---|
 | **The classical tradition** (al-Khalil, Ibn Jinni, al-Zamakhshari, …) | The foundational intuition. The study rests on it and builds upon it. |
-| **Jabal** | The complete empirical dataset. The study adopts his compositional model and refines his individual charges through extended empirical testing. |
+| **Jabal** | The complete empirical dataset and the field's backbone. The study adopts his compositional model (letter → nucleus → root), then conducts its own readings independently; the results converge with Jabal across much of what he established and extend beyond his framework where the data allows. |
 | **Abbas** | The sensory axis. The study absorbs it and tests it against the full catalog. |
 | **Khshim** | The substitution laws for the cross-linguistic layer. Architecturally separated in `04-cross-linguistic/`; does not enter the letter layer. |
 | **The classical exegetes** (al-Tabari, al-Razi, al-Zamakhshari, …) | Detailed exegesis at a higher layer. No conflict, the study's scope is prior to their interpretive scope. |
@@ -280,7 +280,7 @@ A disciplined four-bar verification rubric for cross-linguistic cognates, anchor
 
 ### 6.4 For computational linguistics and AI
 
-It opens the door to **root-level meaning composition** that pure embedding models cannot reach. Where a neural language model learns an opaque mapping from token to vector, this framework offers a **transparent compositional algebra**: the binary nucleus operates on the third letter, taking its charge as material, in one of twelve modes. Language, in this view, is **acoustic mathematics and semantic algorithms**, and the algebra is now explicit, executable, testable. This is the side of the project that lives in the computational sister workspace, with continuous expansion to new language families.
+It opens the door to **root-level meaning composition** that pure embedding models cannot reach. Where a neural language model learns an opaque mapping from token to vector, this framework offers a **transparent compositional algebra**: the binary nucleus operates on the third letter, taking its charge as material, in one of eleven native composition modes (with a LOANWORD label catching the rare non-native root). Language, in this view, is **acoustic mathematics and semantic algorithms**, and the algebra is now explicit, executable, testable. This is the side of the project that lives in the computational counterpart, with continuous expansion to new language families.
 
 ### 6.5 For the classical Arabic tradition itself
 
