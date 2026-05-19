@@ -56,8 +56,8 @@ Each layer of the project does one thing: **compose meanings and check the resul
 ### 3.1 Settled
 - **Unified 28-letter charge table** with the dual-face rule (Layer 0). See [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
 - **Full 453-nucleus catalog** with Quran-anchored evidence where available (Layer 1). See [`../03-scholar-extracts/jabal-nuclei-extended.md`](../03-scholar-extracts/jabal-nuclei-extended.md).
-- **Twelve composition modes** reading 2,285 trilateral roots at 100% native fit (Layer 2). See [`lv2-operative-grammar.md`](lv2-operative-grammar.md).
-- **Four-bar verification rubric** for cross-linguistic cognates with 8 Quran-anchored Tier-A pairs (Layer 3). See [`../04-cross-linguistic/tafsir-coran-tier-a-cognates.md`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md).
+- **Eleven native composition modes + LOANWORD label** reading 2,285 trilateral roots at 100% native fit (Layer 2). See [`lv2-operative-grammar.md`](lv2-operative-grammar.md).
+- **Four-bar verification rubric** for cross-linguistic cognates with 15 Quran-anchored Tier-A pairs (Layer 3). See [`../04-cross-linguistic/tafsir-coran-tier-a-cognates.md`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md).
 
 ### 3.2 In progress
 - **Statistical predictive testing** of the letter charges against competing charge sets, running on the computational side of the project. Continuous expansion across new language families.
@@ -109,7 +109,7 @@ The deeper anchor for the form-meaning correspondence rests on the classical Ara
 │  Layer 3 · Cross-linguistic projection                  │
 │  Khshim's nine sound-substitution laws.                   │
 │  Four-bar verification rubric for cross-linguistic        │
-│  cognates. 11 Tier-A pairs Quran-anchored.                │
+│  cognates. 15 Tier-A pairs Quran-anchored.                │
 │  Test: Arabic root meanings ↔ cognate language pairs.     │
 └─────────────────────────────────────────────────────────┘
 

@@ -1,6 +1,6 @@
 # Cross-Linguistic Tier-A Cognates & The Verification Rubric
 
-Eleven verified cross-linguistic cognate pairs anchored in Quranic vocabulary (eight original plus three promoted via the [Quranic loanword audit](quranic-loanword-audit.md)), plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*.
+Fifteen verified cross-linguistic cognate pairs anchored in Quranic vocabulary (eight original, three promoted via the [Quranic loanword audit](quranic-loanword-audit.md), and four from the Indo-Semitic core vocabulary round), plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*.
 
 ---
 
@@ -124,6 +124,59 @@ The Tier-A roster now totals **eleven verified Quran-anchored cross-linguistic c
 
 The pipeline has 900+ further Arabic↔Greek/Latin candidates in the Tier-B refinement queue (see the computational side of the project for the auto-discovery process).
 
+
+## Tier-A expansion · second round (Indo-Semitic core vocabulary)
+
+Four further candidates from the Tier-B queue clear all four bars. These are not new etymologies — they are some of the oldest, most-discussed cognate pairs in comparative Semitic-Indo-European studies (Bomhard, Bengtson, Kaiser & Shevoroshkin), now read under the Juthoor framework with skeleton verification via Khshim's laws and a clean nucleus identification under the eleven-mode grammar.
+
+| Arabic root | Cognate | Skeleton | Nucleus | Home-base verse |
+|---|---|---|---|---|
+| ث-و-ر | Lat. *taurus*, Gr. *tauros*, Eng. *taurus* (and *steer* via PIE *steu-r-*) | TH-W-R (Khshim law 5: ث↔T standard substitution) | the *aroused-charging strength*, the dispersing-and-running mass | 2:71 «ذَلُولٌ تُثِيرُ الْأَرْضَ» (verb form *tuthīr* — to stir, to plough) |
+| ز-و-ج | Lat. *jugum*, Gr. *zygos*, Eng. *yoke*, Skt. *yuga* | Z-W-J → Z-Y-G / Y-G (Khshim: ج↔G direct, W↔Y standard) | the *bound-pair*, two things yoked into one operation | 2:35 «اسْكُنْ أَنتَ وَزَوْجُكَ الْجَنَّةَ» · also 4:1, 7:189, 35:11 |
+| ق-ر-ن | Lat. *cornu*, Gr. *keras*, Eng. *horn*, Ger. *Horn* | Q-R-N → C-R-N (Khshim: ق↔K/C standard; the Greek *keras* drops the N) | the *firm-projecting bind*, the hard protrusion that joins/marks (horn, century, generation) | 18:83 «ذِي الْقَرْنَيْنِ» · also 6:6, 19:74, 19:98 |
+| س-ب-ع | Lat. *septem*, Gr. *hepta*, Eng. *seven*, Ger. *sieben* | S-B-ʿ → S-P-T (Khshim: ب↔P standard; ʿ↔T/dropping with surface continuation) | the *cycle-completion*, the seventh as completion-of-a-week | 2:29 «فَسَوَّاهُنَّ سَبْعَ سَمَاوَاتٍ» · also 12:43, 15:44, 23:17, 65:12, 67:3 (Quranic count: 24 occurrences) |
+
+### Reading the four promotions
+
+1. **ث-و-ر · taurus.** The Arabic ث-و-ر carries both the *bull* sense (the charging-strength) and the *plough* sense (تُثِير الأرض — to stir the earth, the verb in 2:71) and the *revolt* sense (ثَوْرة — eruption). All three are the same nucleus: *dispersing-strength*. Greek *tauros* and Latin *taurus* retain the bull-meaning unchanged; Indo-European *steu-r-* (with metathesis) yields *steer*. The Akkadian *šūru*, Hebrew *šôr*, Aramaic *tawrā* form the Semitic anchor unbroken.
+
+2. **ز-و-ج · yoke.** The Arabic root for *pair*, *spouse*, and *yoke-pair-of-oxen*. The compositional reading: ز (sharp-thrust) + و (binding) → the thrust-into-binding, exactly the action of yoking two animals together. Hebrew *zug* (pair) and Aramaic *zōg* anchor the Semitic side; Greek *zygos*, Latin *jugum* (whence English *junction*, *conjugate*), Sanskrit *yuga* (an age, originally a yoke-period) anchor the Indo-European. The Quranic *zawj* is one of the highest-frequency cosmological terms (pairs in creation: 35:11, 36:36, 51:49).
+
+3. **ق-ر-ن · horn.** The compositional reading: ق (cut-precision, firm settling) + ر (running-extension) + ن (resonance-emitted) → the *firm-projecting bind*. A horn projects, marks, joins. The same nucleus produces *qarn* = century / generation (the bounded marked period). The Hebrew *qeren* (horn, also "ray of light, projection of power") and Aramaic *qarna* anchor the Semitic side; Latin *cornu* (cornea, unicorn, cornucopia), Greek *keras*, English *horn* anchor the Indo-European. Dhū al-Qarnayn (18:83) is the *two-horned* — both horn-bearer and bridger-of-two-eras.
+
+4. **س-ب-ع · seven.** The compositional reading: س (flowing-extension) + ب (attachment-bind) + ع (deep-grip, concentrated firmness) → the *flowing-bound-completion*. Numbers are the hardest cognates to verify because they are short and culturally adapted, but seven has the cleanest Indo-Semitic correspondence of any numeral. Hebrew *sheva*, Aramaic *shabʿa*, Akkadian *sebe* anchor the Semitic side. Latin *septem*, Greek *hepta*, English *seven*, German *sieben* anchor the Indo-European. The Quranic use of *sabʿ* (seven heavens, seven earths, seven repeated verses) is structurally foundational.
+
+### Tier-A roster after the second-round expansion
+
+The Tier-A roster now totals **fifteen verified Quran-anchored cross-linguistic cognates**:
+
+| # | Root | Cognate | Verse | Source round |
+|--:|---|---|---|---|
+| 1 | ك-ف-ء | copy / copie | 112:4 | original 8 |
+| 2 | س-ل-م | shalom | 97:5 | original 8 |
+| 3 | ر-ب-ب | rabbi | 1:2 | original 8 |
+| 4 | ج-ن-ن | genie | 114:6 | original 8 |
+| 5 | ك-ل-م | claim / clamor | 2:75 | original 8 |
+| 6 | ق-و-ل | call | 112:1 | original 8 |
+| 7 | ش-ر-ب | sorb / syrup | 2:60 | original 8 |
+| 8 | ج-م-ع | Gemini | 2:148 | original 8 |
+| 9 | ق-ر-ط | chart / card / carat | 6:7 | loanword-audit promotion |
+| 10 | ق-م-ص | chemise / camisia | 12:18 | loanword-audit promotion |
+| 11 | ن-ج-ل | evangel / gospel | 3:3 | loanword-audit promotion |
+| 12 | ث-و-ر | taurus / steer | 2:71 | second-round expansion |
+| 13 | ز-و-ج | yoke / jugum | 2:35 | second-round expansion |
+| 14 | ق-ر-ن | horn / cornu | 18:83 | second-round expansion |
+| 15 | س-ب-ع | seven / septem / hepta | 2:29 | second-round expansion |
+
+The pipeline retains ~900 further Arabic↔Greek/Latin candidates in the Tier-B refinement queue.
+
+### Kept-in-Tier-B from this round
+
+Three further candidates pass three of four bars but not all; held for future verification:
+
+- **ع-ل-و / Lat. *altus*, *altitude*.** Nucleus identity strong (*rising-anchored*). Skeleton mostly clean if we accept the ʿ↔ø drop (well-attested per Khshim). Held because the W→T transition in *altus* (the Latin t-stem) is debated and a stronger Indo-European cognate may yet appear.
+- **م-و-ت / Lat. *mortis*.** Nucleus clean (*the fold-into-stillness*). Skeleton M-W-T vs M-R-T partial (W↔R is not in Khshim's nine laws). Held; a third anchor (e.g. Persian, Sanskrit) could promote it.
+- **ج-ر-ي / Lat. *currere* (run, course).** Nucleus clean (*the flowing-running*). Skeleton J/G-R vs C-R-R needs the doubling/duplicating semantic to match. Held; possible promotion if intermediate forms appear.
 
 ### Use of Tier B candidates
 
