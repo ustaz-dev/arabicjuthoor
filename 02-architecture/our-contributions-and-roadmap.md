@@ -10,17 +10,19 @@
 
 This study builds on twelve centuries of Arabic linguistic scholarship, from al-Khalil ibn Ahmad al-Farahidi (8th c., *Kitab al-Ayn*) and Ibn Jinni's *إمساس الألفاظ أشباه المعاني* doctrine in *al-Khasais* (11th c.) through the classical lexicographers and grammarians, and on the modern lexicographic foundation laid by Dr. Muhammad Hassan Jabal (*المعجم الاشتقاقيّ المُؤَصَّل*) and the parallel sensory-profile work of Hassan Abbas (*خصائص الحروف العربيّة ومعانيها*, Arab Writers Union, 1998). It extends that foundation with new structural findings:
 
+**Three structural findings on the internal architecture of Arabic:**
+
 (a) the **general dual-face rule** for letter charges, tested by induction across all 453 binary nuclei in Jabal's corpus, a structural property earlier scholarship had only suspected for a handful of letters;
 
-(b) the **twelve composition modes for trilateral roots** (the binary nucleus operates on the third letter, taking its charge as material), reading 2,285 roots at 100% native fit and closing the bottom-up genealogy from letter to root;
+(b) **eleven native composition modes for trilateral roots** (with a twelfth label, LOANWORD, reserved for non-native borrowings): the binary nucleus operates on the third letter, taking its charge as material, in one of these closed modes. The 2,285 trilaterals fit at 100% native composition, closing the bottom-up genealogy from letter to root. The eleven modes remain open to refinement;
 
-(c) a **unified 28-letter charge table** with bilingual phonetic notes and English glosses;
+(c) a **unified 28-letter charge table** with bilingual phonetic notes and English glosses, and a **complete 453-nucleus catalog** with Quran-anchored evidence.
 
-(d) the **full 453-nucleus catalog** with Quran-anchored evidence;
+**A fourth result, related but standing on its own**, emerged from those three when we asked whether the articulation-meaning structure inside Arabic leaves traces in other language families:
 
-(e) the **four-bar verification rubric** for cross-linguistic Quranic cognates, anchored by Dr. Ali Fahmi Khshim's sound-substitution laws, with eight confirmed Tier-A pairs;
+(d) the **four-bar verification rubric** for cross-linguistic Quranic cognates, anchored by Dr. Ali Fahmi Khshim's nine sound-substitution laws, with eight confirmed Tier-A pairs.
 
-(f) an explicit **letter → nucleus → root → word reading protocol** with a stability discipline.
+Alongside these, an explicit **letter → nucleus → root → word reading protocol** with a stability discipline.
 
 The document also identifies the chapters of the work that are currently in progress on the computational side of the project, and those that are next to be opened publicly. Conducted under **Temessek for Research, Publishing & Training**.
 
