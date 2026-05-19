@@ -72,7 +72,7 @@ This study is not a competing alternative to that tradition; it is a **structura
 
 To that combined foundation, the study adds new structural findings, detailed in §2 below.
 
-**Methodological commitment:** the study did not take the foundation's results as given. Every reading was subjected to a year-long systematic examination, cross-checked against the evidence in the classical and modern sources. The detailed record of these tests and editorial decisions lives in the [`../05-audits/`](../05-audits/) folder.
+**Methodological commitment:** the study did not take the foundation's results as given. We conducted our own readings independently, reading by reading, letter by letter, nucleus by nucleus, over a full year of systematic examination, cross-checked against the evidence in the classical and modern sources. Jabal's lexicon was the empirical backbone, but we did not transcribe his readings; we compared our independent readings against his, converging on much that he had already established and extending where his framework did not yet reach. The detailed record of these tests and editorial decisions lives in the [`../05-audits/`](../05-audits/) folder.
 
 ---
 
