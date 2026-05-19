@@ -13,6 +13,7 @@
 <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
 <meta name="bingbot" content="index, follow" />
 <link rel="canonical" href="https://arabicjuthoor.com/" />
+<link rel="alternate" type="application/atom+xml" title="Juthoor · Audits &amp; Research Notes" href="https://arabicjuthoor.com/feed.xml" />
 
 <!-- Search-engine ownership verification (all three verified 2026-05-19)
      Google Search Console → via /google46933f641e297f1e.html (file method)
@@ -39,6 +40,11 @@
 <meta property="og:image:alt" content="Juthoor — The Arabic Tongue: meaning from letter to root" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:locale:alternate" content="ar_AR" />
+<!-- Arabic-locale social card; the EN one stays primary for og:image. -->
+<meta property="og:image" content="https://arabicjuthoor.com/og-image-ar.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="جُذُور — العربيّة: من الحرف إلى الجذر" />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
@@ -148,9 +154,14 @@
 })();
 </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700;800&family=Cairo:wght@500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Self-hosted fonts (no Google CDN; see _build_fonts.py).
+     Preload the two most-visible weights so first paint already has them
+     and we don't trigger any post-paint font swap (CLS reduction). -->
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="fonts/inter-UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="fonts/amiri-J7aRnpd8CGxBHpUrtLMA7w.woff2">
+<link rel="stylesheet" href="fonts.css">
 <style>
 :root {
   --bg: #fdfaf5;

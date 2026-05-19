@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Juthoor · Audits &amp; Research Notes</title>
+  <subtitle>Lab notebook for The Arabic Tongue: data audits, anomaly investigations, structural deltas.</subtitle>
+  <link href="https://arabicjuthoor.com/" />
+  <link rel="self" type="application/atom+xml" href="https://arabicjuthoor.com/feed.xml" />
+  <id>https://arabicjuthoor.com/feed.xml</id>
+  <updated>2026-05-15T22:26:17Z</updated>
+  <author><name>Yassine Temessek</name></author>
+  <rights>© Temessek for Research, Publishing &amp; Training</rights>
+
+  <entry>
+    <title>LV1, The Arabic Linguistic Genome: Complete Overview</title>
+    <link href="https://arabicjuthoor.com/05-audits/lv1-overview-archived.md" />
+    <id>https://arabicjuthoor.com/05-audits/lv1-overview-archived.md</id>
+    <updated>2026-05-15T22:26:17Z</updated>
+    <published>2026-05-15T22:26:17Z</published>
+    <summary>**Project:** Juthoor Linguistic Genealogy **Module:** Juthoor-ArabicGenome-LV1 **Author:** Yassine Temessek</summary>
+  </entry>
+  <entry>
+    <title>Jabal data anomalies — 4 non-nucleus entries</title>
+    <link href="https://arabicjuthoor.com/05-audits/2026-05-11-jabal-data-anomalies.md" />
+    <id>https://arabicjuthoor.com/05-audits/2026-05-11-jabal-data-anomalies.md</id>
+    <updated>2026-05-11T00:00:00Z</updated>
+    <published>2026-05-11T00:00:00Z</published>
+    <summary>The Jabal lexicon contains 4 entries in the `binary_root` column that are not true binary nuclei. They are data-quality artefacts and should be filtered when computing nucleus statistics.</summary>
+  </entry>
+  <entry>
+    <title>Deep investigation — the 4 notearned nuclei (manual analysis)</title>
+    <link href="https://arabicjuthoor.com/05-audits/2026-05-10-not-earned-nuclei-deep-investigation.md" />
+    <id>https://arabicjuthoor.com/05-audits/2026-05-10-not-earned-nuclei-deep-investigation.md</id>
+    <updated>2026-05-10T00:00:00Z</updated>
+    <published>2026-05-10T00:00:00Z</published>
+    <summary>**Date:** 2026-05-10 **Audit item:** §7.1.1 follow-up — the 4 nuclei (`ثن`, `ضه`, `ظف`, `ون`) whose composed reading from consensus charges did not earn corroboration from Jabal's trilateral family. **Method:** manual reasoning (Claude Opus), grounded in the vault's consensus letter charges and Jabal's recorded family for each nucleus. The earlier codex pass diagnosed three of these as "low data, </summary>
+  </entry>
+  <entry>
+    <title>Audit closure — §7.2.5: the «14-root delta» between Jabal xlsx and Juthoor's roots.jsonl</title>
+    <link href="https://arabicjuthoor.com/05-audits/2026-05-09-7.2.5-fourteen-root-delta-resolved.md" />
+    <id>https://arabicjuthoor.com/05-audits/2026-05-09-7.2.5-fourteen-root-delta-resolved.md</id>
+    <updated>2026-05-09T00:00:00Z</updated>
+    <published>2026-05-09T00:00:00Z</published>
+    <summary>**Date:** 2026-05-09 **Item closed:** [`our-contributions-and-roadmap.md`](../02-architecture/our-contributions-and-roadmap.md) §7.2.5 **Original framing:** «xlsx جبل (1,924 جذرًا) ومُخرَجات Codex (1,938 جذرًا = +14)» **Verdict:** original framing was **misleading**; both numbers were row counts, not unique-root counts. The real discrepancy is much larger and traces to two distinct bugs in Juthoor</summary>
+  </entry>
+  <entry>
+    <title>The reversibility test — structural pass</title>
+    <link href="https://arabicjuthoor.com/05-audits/2026-05-09-7.1.4-anbar-golden-rule-structural.md" />
+    <id>https://arabicjuthoor.com/05-audits/2026-05-09-7.1.4-anbar-golden-rule-structural.md</id>
+    <updated>2026-05-09T00:00:00Z</updated>
+    <published>2026-05-09T00:00:00Z</published>
+    <summary>**Date:** 2026-05-09 **Hypothesis tested:** if R = (a, b, c) is a trilateral root, the reverse R' = (c, b, a) carries an inverted or related meaning to R.</summary>
+  </entry>
+  <entry>
+    <title>The reversibility test — full graded report</title>
+    <link href="https://arabicjuthoor.com/05-audits/2026-05-09-7.1.4-anbar-golden-rule-graded.md" />
+    <id>https://arabicjuthoor.com/05-audits/2026-05-09-7.1.4-anbar-golden-rule-graded.md</id>
+    <updated>2026-05-09T00:00:00Z</updated>
+    <published>2026-05-09T00:00:00Z</published>
+    <summary>**Date:** 2026-05-09 **Hypothesis tested:** if R = (a, b, c) is a trilateral root, the reverse R' = (c, b, a) carries an inverted or related meaning to R. **Method:** structural pass over 1,955 trilateral roots in Jabal's lexicon → 155 distinct reverse-permutation pairs. Each pair graded against a 4-level scale: inverse / related / adjacent / unrelated.</summary>
+  </entry>
+  <entry>
+    <title>LV1 — Verified Data Audit &amp; Cross-Platform Reconciliation</title>
+    <link href="https://arabicjuthoor.com/05-audits/2026-03-24-lv1-data-audit.md" />
+    <id>https://arabicjuthoor.com/05-audits/2026-03-24-lv1-data-audit.md</id>
+    <updated>2026-03-24T00:00:00Z</updated>
+    <published>2026-03-24T00:00:00Z</published>
+    <summary>**Date:** 2026-03-24 **Purpose:** Fact-check all claims about scholar data, letter coverage, and dataset counts against actual source files, NotebookLM extractions, and Jabal's xlsx. Reconcile discrepancies between this platform (Cowork/Claude) and the Codex platform.</summary>
+  </entry>
+</feed>

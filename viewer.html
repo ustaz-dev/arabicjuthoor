@@ -6,10 +6,19 @@
 <title>Juthoor · Document viewer</title>
 <meta name="robots" content="noindex, follow" />
 <link rel="canonical" href="https://arabicjuthoor.com/" />
+
+<!-- Default OG card (updated dynamically per-document by viewer JS) -->
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Juthoor" />
+<meta property="og:title" id="og-title" content="Juthoor · The Arabic Tongue" />
+<meta property="og:description" id="og-desc" content="A document from the Juthoor research dashboard." />
+<meta property="og:image" content="https://arabicjuthoor.com/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" id="tw-title" content="Juthoor · The Arabic Tongue" />
+<meta name="twitter:image" content="https://arabicjuthoor.com/og-image.png" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Amiri:wght@400;700&family=Cairo:wght@500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Self-hosted fonts (no Google CDN). -->
+<link rel="stylesheet" href="fonts.css">
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js"></script>
 <style>
@@ -335,12 +344,36 @@ async function loadDocument() {
   }
   crumbEl.textContent = file;
   rawLink.href = file;
-  document.title = file.split('/').pop().replace('.md', '') + ' · Juthoor';
+  // Provisional title from filename — overwritten below once the H1 is parsed.
+  document.title = file.split('/').pop().replace(/-ar\.md$|\.md$/, '') + ' · Juthoor';
 
   try {
     const resp = await fetch(file);
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const md = await resp.text();
+    // Pull the first H1 + first non-heading paragraph so the page has a real
+    // title and the social-card preview shows something meaningful.
+    const h1 = (md.match(/^# +(.+)$/m) || [])[1];
+    if (h1) {
+      const clean = h1.replace(/[`*_]/g, '').trim();
+      document.title = clean + ' · Juthoor';
+      const ogT = document.getElementById('og-title');
+      const twT = document.getElementById('tw-title');
+      if (ogT) ogT.setAttribute('content', clean + ' · Juthoor');
+      if (twT) twT.setAttribute('content', clean + ' · Juthoor');
+    }
+    const firstPara = (md
+      .replace(/^#.*$/gm, '')           // drop heading lines
+      .replace(/^>.*$/gm, '')           // drop blockquotes
+      .replace(/^---$/gm, '')           // drop separators
+      .split(/\n\n+/)
+      .map(s => s.trim())
+      .find(s => s.length > 40)) || '';
+    if (firstPara) {
+      const desc = firstPara.replace(/\s+/g, ' ').slice(0, 200).replace(/[`*_]/g, '');
+      const ogD = document.getElementById('og-desc');
+      if (ogD) ogD.setAttribute('content', desc);
+    }
     const isArabic = detectArabic(md);
     if (isArabic) {
       document.documentElement.setAttribute('dir', 'rtl');
