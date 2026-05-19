@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <title>Juthoor · Letter → Nucleus → Root reader</title>
-<meta name="description" content="Interactive letter-by-letter reader: type any Arabic word and see each letter's dual-face charge, the binary nucleus, and the eleven operative modes. Built on the unified 28-letter table." />
+<meta name="description" content="Interactive Arabic root reader: type any word and get letter charges, binary nucleus, mode suggestion (from the statistical predictive test), Tier-A cognate check, and quadriliteral decomposition. Built on the unified 28-letter table, the 18-nucleus working set, the 19 Tier-A cognates, and the eleven-mode operative grammar." />
 <meta name="robots" content="index, follow, max-snippet:-1" />
 <link rel="canonical" href="https://arabicjuthoor.com/lookup.html" />
 
@@ -264,6 +264,86 @@ html[data-lang="ar"] .panel-title { font-family: var(--font-ar-display); letter-
 .mode-desc { color: var(--text-2); font-size: 12.5px; flex: 1; }
 
 /* Empty state */
+/* Insight cards (nucleus recognition, mode suggestion, cognate, quadriliteral) */
+.insight-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 18px; margin: 0 0 14px;
+}
+.insight-card.has-match { border-color: var(--accent-strong); }
+.insight-tag {
+  display: inline-block; font-size: 11px; padding: 3px 9px; border-radius: 11px;
+  background: var(--accent-bg); color: var(--accent-strong);
+  font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+.insight-tag.stat { background: rgba(34,85,164,.1); color: var(--transform); }
+.insight-tag.cog  { background: rgba(45,122,59,.1); color: var(--positive); }
+.insight-tag.lv2  { background: rgba(168,50,50,.08); color: var(--negative); }
+.insight-card h3 {
+  margin: 0 0 6px; font-size: 16px; font-weight: 700; color: var(--text);
+}
+.insight-card p { margin: 4px 0; font-size: 14px; color: var(--text-2); line-height: 1.55; }
+.insight-card .ar-q {
+  font-family: var(--font-ar); font-size: 17px; color: var(--text);
+  background: var(--bg-2); padding: 8px 12px; border-radius: 6px;
+  display: inline-block; margin-top: 6px; direction: rtl;
+}
+.mode-pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.mode-pill {
+  font-size: 12px; padding: 4px 10px; border-radius: 14px;
+  background: var(--bg-2); color: var(--text-2); font-weight: 600;
+  border: 1px solid var(--border);
+}
+.mode-pill.likely {
+  background: var(--accent-bg); color: var(--accent-strong); border-color: var(--accent-strong);
+}
+.mode-pill.unlikely {
+  opacity: 0.45; text-decoration: line-through;
+}
+.share-row {
+  display: flex; align-items: center; gap: 10px; justify-content: flex-end;
+  margin: -4px 0 14px; font-size: 13px;
+}
+html[dir="rtl"] .share-row { justify-content: flex-start; }
+.share-btn {
+  background: var(--bg-2); border: 1px solid var(--border); color: var(--text-2);
+  padding: 5px 12px; border-radius: 6px; cursor: pointer; font-family: inherit;
+  font-size: 12.5px; transition: all .15s;
+}
+.share-btn:hover { background: var(--accent-bg); color: var(--accent-strong); border-color: var(--accent-strong); }
+.share-btn.copied {
+  background: var(--positive-bg); color: var(--positive); border-color: var(--positive);
+}
+
+/* Recent searches */
+.recent-row {
+  margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px;
+  font-size: 12px; color: var(--text-3); align-items: center;
+}
+.recent-row .label { margin-right: 4px; }
+.recent-chip {
+  font-family: var(--font-ar); font-size: 14px;
+  padding: 3px 10px; background: var(--bg);
+  border: 1px dashed var(--border); border-radius: 12px;
+  cursor: pointer; color: var(--text-2);
+}
+.recent-chip:hover { border-color: var(--accent-strong); color: var(--accent-strong); background: var(--accent-bg); }
+.recent-row .clear {
+  margin-left: auto; font-size: 11px; color: var(--text-3); cursor: pointer;
+  background: none; border: none; padding: 2px 6px;
+}
+.recent-row .clear:hover { color: var(--negative); }
+
+/* Quadriliteral decomposition */
+.quad-card .pair {
+  display: inline-block; padding: 4px 10px; margin: 0 4px;
+  background: var(--accent-bg); border-radius: 6px;
+  font-family: var(--font-ar-display); font-weight: 700; color: var(--accent-strong);
+}
+.quad-card .arrow {
+  display: inline-block; color: var(--text-3); margin: 0 6px;
+}
+
 .empty {
   text-align: center; padding: 60px 20px; color: var(--text-3);
 }
@@ -336,17 +416,36 @@ html[data-lang="ar"] .panel-title { font-family: var(--font-ar-display); letter-
       <span class="example-chip" data-w="سلم">سلم</span>
       <span class="example-chip" data-w="جنن">جنن</span>
       <span class="example-chip" data-w="ربب">ربب</span>
-      <span class="example-chip" data-w="نجو">نجو</span>
-      <span class="example-chip" data-w="فتح">فتح</span>
+      <span class="example-chip" data-w="قنطر">قنطر</span>
+      <span class="example-chip" data-w="فرعون">فرعون</span>
+      <span class="example-chip" data-w="ثور">ثور</span>
+      <span class="example-chip" data-w="قلم">قلم</span>
+    </div>
+    <div class="recent-row" id="recent-row" style="display:none;">
+      <span class="label"><span class="lang-en">Recent:</span><span class="lang-ar">الأَخيرة:</span></span>
+      <span id="recent-chips"></span>
+      <button class="clear" id="recent-clear" type="button">
+        <span class="lang-en">clear</span><span class="lang-ar">مَسح</span>
+      </button>
     </div>
   </div>
 
   <div class="result" id="result">
+    <div class="share-row" id="share-row">
+      <button class="share-btn" id="share-btn" type="button">
+        <span class="lang-en">📋 Copy share link</span>
+        <span class="lang-ar">📋 انسَخ رابط المُشارَكة</span>
+      </button>
+    </div>
+
     <div class="panel-title">
       <span class="lang-en">Letters and their charges</span>
       <span class="lang-ar">الحُروف وشَحَناتُها</span>
     </div>
     <div class="letters-row" id="letters-row"></div>
+
+    <!-- New insight panels populated by JS when matches exist -->
+    <div id="insights-block"></div>
 
     <div id="nucleus-block"></div>
 
@@ -457,6 +556,101 @@ const MODES = {
 };
 
 // ============================================================
+// Cross-reference data tables
+// ============================================================
+
+// 19 Tier-A Quranic-anchored cross-linguistic cognates.
+// Keyed by canonical root (with doubled finals expanded as ربب/جنن).
+const TIER_A = {
+  'كفء': { cog:'copy / copie / kāphal', en:'the second-instance that lines up against the first', ar:'النَّظيرُ الذي يَنطَبِق على ما قَبلَه', verse:'112:4' },
+  'كفو': { cog:'copy / copie / kāphal', en:'the second-instance that lines up against the first', ar:'النَّظيرُ الذي يَنطَبِق على ما قَبلَه', verse:'112:4' },
+  'سلم': { cog:'shalom / shalmā', en:'bound completeness, peace-as-wholeness', ar:'الاكتِمالُ المَربوط، السَّلامُ كَلِحام', verse:'97:5' },
+  'ربب': { cog:'rabbi / rav / rabbānā', en:'the expansive holder, master-by-nurture', ar:'الحاوي الواسع، الرَّبُّ المُربّي', verse:'1:2' },
+  'جنن': { cog:'genie / genus', en:'born-from-a-hidden-source, kin-bearing concealment', ar:'المولودُ من خَفاء، السِّترُ المُولِّد', verse:'114:6' },
+  'كلم': { cog:'claim / clamor', en:'utter-with-intent, the spoken claim that lands', ar:'القَولُ الواقِع، الكَلِمةُ المُلزِمة', verse:'2:75' },
+  'قول': { cog:'call (PIE *kel-)', en:'the summon-uttered, the audible-reach', ar:'النِّداءُ المَسموع', verse:'112:1' },
+  'شرب': { cog:'sorb / syrup / absorb', en:'the take-in of fluid, absorbing-flow', ar:'استِيعابُ السائل', verse:'2:60' },
+  'جمع': { cog:'Gemini / gemellus', en:'gathered-into-pair, together-as-one', ar:'الجَمعُ المُزدَوَج', verse:'2:148' },
+  'قرط': { cog:'chart / card / carat', en:'the cut-inscribed surface, the marked sheet', ar:'السَّطحُ المَنقوش بِالقَطع', verse:'6:7' },
+  'قمص': { cog:'chemise / camisia', en:'the form-shaped-with-firm-edge, garment-fitted', ar:'الشَّكلُ المُلتَفُّ بِحافّةٍ مُحكَمة', verse:'12:18' },
+  'نجل': { cog:'evangel / gospel', en:'the disclosed-revelation, what brings-forth what was concealed', ar:'الكاشِفُ المُنَزَّل', verse:'3:3' },
+  'ثور': { cog:'taurus / steer', en:'the aroused-charging strength, dispersing-and-running mass', ar:'القُوّةُ المُنطَلِقةُ المُتَفَجِّرة', verse:'2:71' },
+  'زوج': { cog:'yoke / jugum', en:'the bound-pair, two things yoked into one operation', ar:'الزَّوجُ المَربوط، شَيئانِ مَقرونانِ في عَمَل', verse:'2:35' },
+  'قرن': { cog:'horn / cornu / keras', en:'the firm-projecting bind, the hard protrusion that joins/marks', ar:'البُروزُ المُحكَمُ المُلتَئِم', verse:'18:83' },
+  'سبع': { cog:'seven / septem / hepta', en:'the cycle-completion, the seventh as completion-of-a-week', ar:'إِكمالُ الدَّورة', verse:'2:29' },
+  'قلم': { cog:'calamus / kalamos', en:'the cut-extending instrument that traces a mass-of-marks', ar:'الأَداةُ المَقطوعةُ التي تَرسُمُ الأَثَر', verse:'68:1' },
+  'جمل': { cog:'camel / kamēlos', en:'the gathered-mass that bears load forward', ar:'الكَتلةُ المُجَمَّعةُ الحامِلة', verse:'7:40' },
+  'ثلث': { cog:'three / tres / treis', en:'the triple-extending pattern, the threefold spread', ar:'النَّمَطُ الثُّلاثيّ', verse:'2:196' },
+  'ستة': { cog:'six / sex / hex', en:'the cycle-closure, the senary count', ar:'إِغلاقُ الدَّورة السُّداسيّة', verse:'7:54' },
+};
+
+// 18-nucleus working set from the dual-face evidence — known binary nuclei
+// with established semantic readings. Key: L1+L2 string.
+const NUCLEI_KNOWN = {
+  'رب': { en:'expansive nurture, the lord-of-extending-bond', ar:'حُضنُ التَّربية، الرَّبُّ الحاوي' },
+  'حم': { en:'warm gathering, protective enclosure', ar:'الجَمعُ الدافِئ، الحِمى' },
+  'سل': { en:'smooth drawing-out, peaceful flow', ar:'السَّحبُ السَّلِس، السَّلام' },
+  'كف': { en:'palm-match, the layered counterpart', ar:'الكَفُّ المُطبَقة، النَّظير' },
+  'جن': { en:'gathered concealment, the hidden enclosure', ar:'الجَمعُ المَستور، الجَنّة' },
+  'قر': { en:'firm settling, gather-and-recite', ar:'الاستِقرار، الجَمعُ القارّ' },
+  'عل': { en:'rising-from-depth, knowledge-as-surfacing', ar:'العُلوُّ من العُمق، العِلم' },
+  'عم': { en:'depth-emerging-into-action', ar:'الانبِثاقُ من العُمق إلى الفِعل' },
+  'رح': { en:'flowing warmth, mercy-as-radiation', ar:'الجَرَيانُ الدافِئ، الرَّحمة' },
+  'مل': { en:'gathered-mass filled-and-extending', ar:'الامتِلاءُ المُمتَدّ، المَلَأ' },
+  'در': { en:'firm-flowing dwelling', ar:'الثَّباتُ المُتَّصِل، الدار' },
+  'جم': { en:'doubled gathering, the assembled multitude', ar:'الجَمعُ المُكَثَّف، الجَميع' },
+  'شر': { en:'scattered-flow, branching-current', ar:'الجَرَيانُ المُتَفَرِّع' },
+  'فر': { en:'split-extending, parted-flow', ar:'الفَرع، الانشِقاقُ المُمتَدّ' },
+  'كل': { en:'sealed-extending whole, totality', ar:'الكَتمُ المُمتَدّ، الكُلّ' },
+  'نج': { en:'resonance-emerging, deliverance', ar:'الانبِعاثُ المُنقِذ، النَّجاة' },
+  'بر': { en:'attached-extending good, the bound-land', ar:'الاتِّصالُ المُمتَدّ، البِرّ' },
+  'كن': { en:'sealed-resonance, being-held', ar:'الكَتمُ الرَّنّان، الكَون' },
+  // Bonus (not in canonical 18 but commonly attested)
+  'حب': { en:'living-warmth attached, love-as-held-warmth', ar:'الحَرارةُ-المُتَّصِلة، الحُبّ' },
+  'قص': { en:'cutting-precision flow, recounting-by-cutting', ar:'القَصُّ، النَّقلُ الدَّقيق' },
+};
+
+// Letter classes from the statistical predictive test (p < 0.001 confirmations)
+const FLOW_LETTERS = new Set(['ر','ل','ن','ع']);
+const MASS_LETTERS = new Set(['د','م','ق','ك','ص']);
+
+// L3 → mode-suggestion based on statistical findings
+function suggestModes(L3char) {
+  if (FLOW_LETTERS.has(L3char)) {
+    return {
+      likely: ['CHANNEL', 'CARRY'],
+      unlikely: ['OPERATE', 'INTENSIFY'],
+      en: 'Flow-charge L3 → strong concentration in CHANNEL+CARRY (Δ +12.6%, χ²=130.66 in the corpus).',
+      ar: 'شَحنةُ جَرَيانٍ في L3 → تَركيزٌ في CHANNEL+CARRY (الفَرق +١٢٫٦٪، χ²=١٣٠٫٦٦).'
+    };
+  }
+  if (MASS_LETTERS.has(L3char)) {
+    return {
+      likely: ['OPERATE', 'HOLD'],
+      unlikely: ['RELEASE', 'CARRY'],
+      en: 'Mass-charge L3 → concentration in OPERATE+HOLD (Δ +5.8%, χ²=36.48 in the corpus).',
+      ar: 'شَحنةُ كَتلةٍ في L3 → تَركيزٌ في OPERATE+HOLD (الفَرق +٥٫٨٪، χ²=٣٦٫٤٨).'
+    };
+  }
+  return null;
+}
+
+// Build canonical-root lookup keys: accept doubled finals (سلم == سلمم), etc.
+function rootKeys(letters) {
+  if (letters.length < 3) return [];
+  const root = letters.slice(0, 3).map(l => l.key).join('');
+  const keys = [root];
+  // Hollow roots: if L2 is و/ي/ا, also try without it (سار → سور reduced to س-ر)
+  // Defective roots: if L3 is و/ي/ا, that's the weak letter — keep as-is
+  // Doubled root: if the word has a doubled root pattern (XYY or XYX...), also try doubled key
+  if (letters.length >= 3 && letters[1].key === letters[2].key) {
+    keys.push(letters[0].key + letters[1].key + letters[2].key);
+  }
+  // Common pattern: if input was 3-letter and ends in ة, ta-marbuta already mapped to ت
+  return keys;
+}
+
+// ============================================================
 // Utilities
 // ============================================================
 function stripDiacritics(s) {
@@ -562,6 +756,162 @@ function renderNucleus(letters) {
   block.appendChild(card);
 }
 
+function renderInsights(letters) {
+  const block = document.getElementById('insights-block');
+  block.innerHTML = '';
+  if (letters.length < 2) return;
+  const L1 = letters[0], L2 = letters[1], L3 = letters[2];
+  const binary = L1.glyph + L2.glyph;
+  const binaryKey = L1.key + L2.key;
+  const cards = [];
+
+  // ===== Insight 1: 18-nucleus recognition =====
+  const nuc = NUCLEI_KNOWN[binaryKey];
+  if (nuc) {
+    cards.push(`
+      <div class="insight-card has-match">
+        <span class="insight-tag">NUCLEUS · LV1</span>
+        <h3>
+          <span class="lang-en">Binary nucleus <code>${binary}</code> recognised</span>
+          <span class="lang-ar">النَّواةُ الثُّنائيّةُ <code>${binary}</code> مَعروفة</span>
+        </h3>
+        <p class="lang-en">${nuc.en}</p>
+        <p class="lang-ar" style="font-family:var(--font-ar);direction:rtl;">${nuc.ar}</p>
+        <p style="margin-top:10px;font-size:12.5px;color:var(--text-3);">
+          <span class="lang-en">From the 18-nucleus working set in the unified 28-letter table.</span>
+          <span class="lang-ar">من مَجموعة الـ١٨ نَواةً العَمَليّة في الجدول المُوَحَّد.</span>
+        </p>
+      </div>
+    `);
+  }
+
+  // ===== Insight 2: Mode suggestion from L3 charge =====
+  if (L3) {
+    const sugg = suggestModes(L3.key);
+    if (sugg) {
+      const pills = (klass, modes) =>
+        modes.map(m => `<span class="mode-pill ${klass}">${m}</span>`).join('');
+      cards.push(`
+        <div class="insight-card has-match">
+          <span class="insight-tag stat">STAT · LV0→LV2</span>
+          <h3>
+            <span class="lang-en">Mode suggestion from L3 (${L3.glyph}) charge</span>
+            <span class="lang-ar">اقتِراحُ الباب من شَحنةِ L3 (${L3.glyph})</span>
+          </h3>
+          <p class="lang-en">${sugg.en}</p>
+          <p class="lang-ar" style="font-family:var(--font-ar);direction:rtl;">${sugg.ar}</p>
+          <div class="mode-pills">
+            <span class="lang-en" style="font-size:12px;color:var(--text-3);align-self:center;margin-right:6px;">Likely:</span>
+            <span class="lang-ar" style="font-size:12px;color:var(--text-3);align-self:center;margin-left:6px;">المُرَجَّحة:</span>
+            ${pills('likely', sugg.likely)}
+          </div>
+          <div class="mode-pills">
+            <span class="lang-en" style="font-size:12px;color:var(--text-3);align-self:center;margin-right:6px;">Less likely:</span>
+            <span class="lang-ar" style="font-size:12px;color:var(--text-3);align-self:center;margin-left:6px;">الأَقَلُّ تَرجيحًا:</span>
+            ${pills('unlikely', sugg.unlikely)}
+          </div>
+          <p style="margin-top:10px;font-size:12px;color:var(--text-3);">
+            <span class="lang-en">Heuristic only — confirm with the actual word meaning. See <a href="viewer.html?file=05-audits/2026-05-19-statistical-predictive-test.md">the statistical test</a>.</span>
+            <span class="lang-ar">اقتِراحٌ توجيهيّ فَقَط — أَكِّد بِالمَعنى الفِعليّ لِلكَلِمة. انظر <a href="viewer.html?file=05-audits/2026-05-19-statistical-predictive-test-ar.md">الاختبار الإحصائيّ</a>.</span>
+          </p>
+        </div>
+      `);
+    }
+  }
+
+  // ===== Insight 3: Tier-A cognate cross-check =====
+  const keys = rootKeys(letters);
+  let cog = null, matchedKey = null;
+  for (const k of keys) {
+    if (TIER_A[k]) { cog = TIER_A[k]; matchedKey = k; break; }
+  }
+  if (cog) {
+    cards.push(`
+      <div class="insight-card has-match">
+        <span class="insight-tag cog">TIER-A · CROSS-LINGUISTIC</span>
+        <h3>
+          <span class="lang-en">Cross-linguistic cognate: <code>${matchedKey}</code> ↔ ${cog.cog}</span>
+          <span class="lang-ar">نَظيرٌ بَين اللغات: <code>${matchedKey}</code> ↔ ${cog.cog}</span>
+        </h3>
+        <p class="lang-en"><strong>Nucleus:</strong> ${cog.en}</p>
+        <p class="lang-ar" style="font-family:var(--font-ar);direction:rtl;"><strong>النَّواة:</strong> ${cog.ar}</p>
+        <div class="ar-q">${cog.verse} · انظر <a href="viewer.html?file=04-cross-linguistic/tafsir-coran-tier-a-cognates.md" style="color:var(--accent-strong);">tafsir-coran-tier-a-cognates.md</a></div>
+        <p style="margin-top:8px;font-size:12px;color:var(--text-3);">
+          <span class="lang-en">This root is one of the 19 verified Quranic-anchored Tier-A cognates (passes all four bars of the verification rubric).</span>
+          <span class="lang-ar">هذا الجَذرُ أَحَدُ التِّسعة عَشَرَ نَظيرًا مُؤَكَّدًا قُرآنيًّا في الصِّنف الأَوّل (يَجتاز الضوابطَ الأَربعة).</span>
+        </p>
+      </div>
+    `);
+  }
+
+  // ===== Insight 4: Quadriliteral / quintiliteral decomposition =====
+  if (letters.length === 4) {
+    const B1 = letters[0].glyph + letters[1].glyph;
+    const B2 = letters[2].glyph + letters[3].glyph;
+    const isRedupB1 = letters[0].key === letters[2].key && letters[1].key === letters[3].key;
+    const isRedupB2 = letters[1].key === letters[2].key; // XYYX pattern
+    let mode, modeAr;
+    if (isRedupB1 || isRedupB2) {
+      mode = `<strong>Reduplication</strong> → INTENSIFY at the binary level.`;
+      modeAr = `<strong>تَكرار</strong> → التَّضعيف على المُستَوى الثُّنائيّ.`;
+    } else {
+      mode = `<strong>Binary-on-binary path:</strong> (B1) operates on (B2 as composite material). The interface charge ${letters[1].glyph}·${letters[2].glyph} selects the mode.`;
+      modeAr = `<strong>مَسارُ ثُنائيّة-في-ثُنائيّة:</strong> (B1) تَعمَلُ في (B2 كَمادّةٍ مُرَكَّبة). شَحنةُ الوَصل ${letters[1].glyph}·${letters[2].glyph} تَنتَخِبُ الباب.`;
+    }
+    cards.push(`
+      <div class="insight-card quad-card has-match">
+        <span class="insight-tag lv2">LV2+ · QUADRILITERAL</span>
+        <h3>
+          <span class="lang-en">Four-letter root — binary-on-binary decomposition</span>
+          <span class="lang-ar">جَذرٌ رُباعيّ — تَفكيكُ ثُنائيّة-في-ثُنائيّة</span>
+        </h3>
+        <p style="font-size:18px;margin:8px 0;">
+          <span class="pair">${B1}</span><span class="arrow">→</span><span class="pair">${B2}</span>
+        </p>
+        <p class="lang-en">${mode}</p>
+        <p class="lang-ar" style="font-family:var(--font-ar);direction:rtl;">${modeAr}</p>
+        <p style="margin-top:8px;font-size:12px;color:var(--text-3);">
+          <span class="lang-en">See <a href="viewer.html?file=02-architecture/quad-quint-grammar-roadmap.md">quad-quint-grammar-roadmap.md</a> and the <a href="viewer.html?file=02-architecture/quadriliteral-pilot-catalogue.md">50-entry catalogue</a>.</span>
+          <span class="lang-ar">انظر <a href="viewer.html?file=02-architecture/quad-quint-grammar-roadmap-ar.md">quad-quint-grammar-roadmap-ar.md</a> و<a href="viewer.html?file=02-architecture/quadriliteral-pilot-catalogue-ar.md">كاتالوج الخَمسين مَدخَلًا</a>.</span>
+        </p>
+      </div>
+    `);
+  } else if (letters.length >= 5) {
+    cards.push(`
+      <div class="insight-card quad-card has-match">
+        <span class="insight-tag lv2">LV2+ · QUINTILITERAL</span>
+        <h3>
+          <span class="lang-en">Five-letter root — stacked binary composition</span>
+          <span class="lang-ar">جَذرٌ خُماسيّ — رَزمةُ ثُنائيّاتٍ مُتَتابعة</span>
+        </h3>
+        <p style="font-size:18px;margin:8px 0;">
+          ${(() => {
+            let html = '';
+            for (let i = 0; i < letters.length - 1; i++) {
+              const pair = letters[i].glyph + letters[i+1].glyph;
+              html += `<span class="pair">${pair}</span>`;
+              if (i < letters.length - 2) html += '<span class="arrow">·</span>';
+            }
+            return html;
+          })()}
+        </p>
+        <p class="lang-en">
+          Read as a sequential stack of overlapping binary nuclei. Each binary's product becomes the material for the next.
+        </p>
+        <p class="lang-ar" style="font-family:var(--font-ar);direction:rtl;">
+          تُقرَأ كَرَزمةٍ مُتَتابعةٍ من النَّوى الثُّنائيّة المُتَداخِلة. نَتاجُ كلّ ثُنائيّةٍ مادّةٌ لِلتَّاليَة.
+        </p>
+        <p style="margin-top:8px;font-size:12px;color:var(--text-3);">
+          <span class="lang-en">See <a href="viewer.html?file=02-architecture/quad-quint-grammar-roadmap.md">quad-quint-grammar-roadmap.md</a>.</span>
+          <span class="lang-ar">انظر <a href="viewer.html?file=02-architecture/quad-quint-grammar-roadmap-ar.md">quad-quint-grammar-roadmap-ar.md</a>.</span>
+        </p>
+      </div>
+    `);
+  }
+
+  block.innerHTML = cards.join('');
+}
+
 function renderModes() {
   const list = document.getElementById('modes-list');
   list.innerHTML = '';
@@ -591,7 +941,8 @@ function renderModes() {
   }
 }
 
-function read() {
+function read(opts) {
+  opts = opts || {};
   const input = document.getElementById('ar-input').value;
   const letters = extractLetters(input);
   const result = document.getElementById('result');
@@ -604,14 +955,64 @@ function read() {
   empty.style.display = 'none';
   result.classList.add('visible');
   renderLetters(letters);
+  renderInsights(letters);
   renderNucleus(letters);
   renderModes();
+  // URL state: push the word into the URL so the result is shareable.
+  if (!opts.fromUrl) {
+    const word = letters.map(l => l.glyph).join('');
+    const url = new URL(window.location.href);
+    url.searchParams.set('w', word);
+    window.history.replaceState({}, '', url);
+    saveRecent(word);
+  }
+  // Reset copy-link button state
+  const shareBtn = document.getElementById('share-btn');
+  if (shareBtn) shareBtn.classList.remove('copied');
+}
+
+// ============================================================
+// Recent searches (localStorage, last 8)
+// ============================================================
+const RECENT_KEY = 'juthoor-lookup-recent';
+function loadRecent() {
+  try {
+    const raw = localStorage.getItem(RECENT_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) { return []; }
+}
+function saveRecent(word) {
+  if (!word) return;
+  let recent = loadRecent().filter(w => w !== word);
+  recent.unshift(word);
+  if (recent.length > 8) recent = recent.slice(0, 8);
+  try { localStorage.setItem(RECENT_KEY, JSON.stringify(recent)); } catch (e) {}
+  renderRecent();
+}
+function renderRecent() {
+  const row = document.getElementById('recent-row');
+  const chips = document.getElementById('recent-chips');
+  const recent = loadRecent();
+  if (!recent.length) {
+    row.style.display = 'none';
+    return;
+  }
+  row.style.display = 'flex';
+  chips.innerHTML = recent.map(w =>
+    `<span class="recent-chip" data-w="${w}">${w}</span>`
+  ).join('');
+  chips.querySelectorAll('.recent-chip').forEach(c => {
+    c.addEventListener('click', () => {
+      document.getElementById('ar-input').value = c.dataset.w;
+      read();
+    });
+  });
 }
 
 // ============================================================
 // Event wiring
 // ============================================================
-document.getElementById('read-btn').addEventListener('click', read);
+document.getElementById('read-btn').addEventListener('click', () => read());
 document.getElementById('ar-input').addEventListener('keydown', (e) => {
   if (e.key === 'Enter') { e.preventDefault(); read(); }
 });
@@ -621,6 +1022,46 @@ document.querySelectorAll('.example-chip').forEach(chip => {
     read();
   });
 });
+
+// Share-link button
+document.getElementById('share-btn').addEventListener('click', async () => {
+  const btn = document.getElementById('share-btn');
+  const url = window.location.href;
+  try {
+    await navigator.clipboard.writeText(url);
+    btn.classList.add('copied');
+    const enSpan = btn.querySelector('.lang-en');
+    const arSpan = btn.querySelector('.lang-ar');
+    const origEn = enSpan.textContent, origAr = arSpan.textContent;
+    enSpan.textContent = '✓ Copied';
+    arSpan.textContent = '✓ تَمَّ النَّسخ';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      enSpan.textContent = origEn;
+      arSpan.textContent = origAr;
+    }, 1800);
+  } catch (e) {
+    // Fallback: select + prompt
+    window.prompt('Copy this link:', url);
+  }
+});
+
+// Clear recent searches
+document.getElementById('recent-clear').addEventListener('click', () => {
+  try { localStorage.removeItem(RECENT_KEY); } catch (e) {}
+  renderRecent();
+});
+
+// URL state: auto-read on load if ?w= present
+(function () {
+  renderRecent();
+  const params = new URLSearchParams(window.location.search);
+  const w = params.get('w');
+  if (w) {
+    document.getElementById('ar-input').value = w;
+    read({ fromUrl: true });
+  }
+})();
 
 // Theme + language toggles (matching site convention)
 (function () {
