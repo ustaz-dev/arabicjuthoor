@@ -1,6 +1,6 @@
 # Cross-Linguistic Tier-A Cognates & The Verification Rubric
 
-Fifteen verified cross-linguistic cognate pairs anchored in Quranic vocabulary (eight original, three promoted via the [Quranic loanword audit](quranic-loanword-audit.md), and four from the Indo-Semitic core vocabulary round), plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*.
+Nineteen verified cross-linguistic cognate pairs anchored in Quranic vocabulary (eight original, three promoted via the [Quranic loanword audit](quranic-loanword-audit.md), four from the Indo-Semitic core vocabulary round, and four from the writing-instruments and core-numerals round), plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*.
 
 ---
 
@@ -177,6 +177,55 @@ Three further candidates pass three of four bars but not all; held for future ve
 - **ع-ل-و / Lat. *altus*, *altitude*.** Nucleus identity strong (*rising-anchored*). Skeleton mostly clean if we accept the ʿ↔ø drop (well-attested per Khshim). Held because the W→T transition in *altus* (the Latin t-stem) is debated and a stronger Indo-European cognate may yet appear.
 - **م-و-ت / Lat. *mortis*.** Nucleus clean (*the fold-into-stillness*). Skeleton M-W-T vs M-R-T partial (W↔R is not in Khshim's nine laws). Held; a third anchor (e.g. Persian, Sanskrit) could promote it.
 - **ج-ر-ي / Lat. *currere* (run, course).** Nucleus clean (*the flowing-running*). Skeleton J/G-R vs C-R-R needs the doubling/duplicating semantic to match. Held; possible promotion if intermediate forms appear.
+
+## Tier-A expansion · third round (writing-instruments and core numerals)
+
+Four further candidates from the Tier-B queue clear all four bars on a focused review:
+
+| Arabic root | Cognate | Skeleton | Nucleus | Home-base verse |
+|---|---|---|---|---|
+| ق-ل-م | Lat. *calamus*, Gr. *kalamos*, Eng. *calamus* / culm / haulm | Q-L-M → C-L-M (Khshim: ق↔K/C direct, L↔L direct, M↔M direct) | the *cut-extending-mass*, the cut-tipped instrument that traces a mass-of-marks | 68:1 «ن وَالْقَلَمِ وَمَا يَسْطُرُونَ» · 96:4 «الَّذِي عَلَّمَ بِالْقَلَمِ» |
+| ج-م-ل | Lat. *camelus*, Gr. *kamēlos*, Eng. *camel*, Ger. *Kamel*, Sp. *camello* | J-M-L → C/K-M-L (Khshim: ج↔K/G standard) | the *gathered-beautiful-load-bearer*, the bound-mass that carries | 7:40 «حَتَّىٰ يَلِجَ الْجَمَلُ فِي سَمِّ الْخِيَاطِ» · 12:65 «حِمْلُ بَعِيرٍ» (paired sense) |
+| ث-ل-ث | Lat. *tres*, Gr. *treis*, Eng. *three*, Ger. *drei*, Skt. *trayas* | TH-L-TH → T-R (Khshim: ث↔T standard, L↔R lateral substitution) | the *triple-extending-pattern*, the threefold spread | 2:196 «فَصِيَامُ ثَلَاثَةِ أَيَّامٍ» · 3:41, 11:65, 19:10, 58:7 (60+ occurrences) |
+| س-ت-ة | Lat. *sex*, Gr. *hex*, Eng. *six*, Ger. *sechs*, Skt. *ṣaṣ* | S-T → S/H-X (Khshim: T↔X with the X = KS cluster surface) | the *extending-completing*, the count that closes the senary cycle | 7:54 «خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ» · 10:3, 11:7, 25:59, 32:4, 50:38, 57:4 |
+
+### Reading the four promotions
+
+1. **ق-ل-م · calamus.** The Arabic root for *pen, reed, cut-instrument-for-writing*. Compositional reading: ق (cutting precision) + ل (attachment-extending) + م (gathering-mass) → *the cut-extending instrument that traces a mass-of-marks*. The Greek *kalamos* (originally the reed used for inscription) and Latin *calamus* (whence English *culm*, *haulm*, also the architectural *calamus*) preserve the K-L-M skeleton intact. The Quranic naming-event of writing — 96:4 «الَّذِي عَلَّمَ بِالْقَلَمِ» (the One who taught by the pen) — invokes the same compositional semantic as the Indo-European descendants. Both branches preserve the *cut-instrument-for-tracing* nucleus.
+
+2. **ج-م-ل · camel.** One of the most-discussed Indo-Semitic cognates in the comparative literature (Bomhard, Diakonoff). Arabic *jamal* / Hebrew *gāmāl* / Aramaic *gamlā* anchor the Semitic side; Greek *kamēlos* (Hippocrates, Herodotus) / Latin *camelus* / English *camel* / German *Kamel* anchor the Indo-European. The Arabic compositional reading: ج (gathering-in-space) + م (gathering-mass) + ل (attachment-extending) → *the gathered-mass that bears load forward* — exactly what a camel is in caravan economy. The Quranic 7:40 image (camel-through-needle-eye) presupposes this universal sign-value.
+
+3. **ث-ل-ث · three.** Numerals are conservative across Indo-Semitic. ث-ل-ث (the triple-spread) ↔ Latin *tres* / Greek *treis* / English *three* / German *drei* / Sanskrit *trayas*. The Khshim laws cover both substitutions needed: ث↔T (law 5, standard Semitic-IE) and L↔R (law 8, lateral substitution well-attested between Semitic ل and IE *r*). The Hebrew *shalōsh* and Aramaic *telāt* anchor the Semitic side. The Quranic uses are dense (60+ occurrences across the prayer-counts, the fasting-counts, the inheritance-fractions).
+
+4. **س-ت-ة · six.** Companion to the existing Tier-A س-ب-ع (seven). Same systematic Indo-Semitic correspondence — Hebrew *shesh*, Aramaic *shet*, Akkadian *shesh*, Latin *sex*, Greek *hex* (H-aspirated, the *s-* eroded), English *six*, German *sechs*, Sanskrit *ṣaṣ*. The Khshim T↔X correspondence (X representing the *ks* cluster of Latin/Greek) is well-documented. The Quranic frame — God created the heavens and the earth in *six days* (7:54, 10:3, 11:7, 25:59, 32:4, 50:38, 57:4) — is one of the most repeated structural numbers in the text.
+
+### Tier-A roster after the third-round expansion
+
+The Tier-A roster now totals **nineteen verified Quran-anchored cross-linguistic cognates**:
+
+| # | Root | Cognate | Verse | Round |
+|--:|---|---|---|---|
+| 1 | ك-ف-ء | copy / copie | 112:4 | original 8 |
+| 2 | س-ل-م | shalom | 97:5 | original 8 |
+| 3 | ر-ب-ب | rabbi | 1:2 | original 8 |
+| 4 | ج-ن-ن | genie | 114:6 | original 8 |
+| 5 | ك-ل-م | claim / clamor | 2:75 | original 8 |
+| 6 | ق-و-ل | call | 112:1 | original 8 |
+| 7 | ش-ر-ب | sorb / syrup | 2:60 | original 8 |
+| 8 | ج-م-ع | Gemini | 2:148 | original 8 |
+| 9 | ق-ر-ط | chart / card / carat | 6:7 | loanword-audit |
+| 10 | ق-م-ص | chemise / camisia | 12:18 | loanword-audit |
+| 11 | ن-ج-ل | evangel / gospel | 3:3 | loanword-audit |
+| 12 | ث-و-ر | taurus / steer | 2:71 | Indo-Semitic core |
+| 13 | ز-و-ج | yoke / jugum | 2:35 | Indo-Semitic core |
+| 14 | ق-ر-ن | horn / cornu | 18:83 | Indo-Semitic core |
+| 15 | س-ب-ع | seven / septem / hepta | 2:29 | Indo-Semitic core |
+| 16 | ق-ل-م | calamus / kalamos | 68:1 | writing & numerals |
+| 17 | ج-م-ل | camel / kamēlos | 7:40 | writing & numerals |
+| 18 | ث-ل-ث | three / tres / treis | 2:196 | writing & numerals |
+| 19 | س-ت-ة | six / sex / hex | 7:54 | writing & numerals |
+
+The pipeline retains ~880 further Arabic↔Greek/Latin candidates in the Tier-B refinement queue.
 
 ### Use of Tier B candidates
 

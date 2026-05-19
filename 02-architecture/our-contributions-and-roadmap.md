@@ -295,7 +295,7 @@ The study restores standing to what al-Khalil, Ibn Jinni, and Ibn Faris began. W
 - **Unified 28-letter table** with the dual-face rule, tested by induction across all 453 binary nuclei in Jabal's lexicon.
 - **The full nucleus catalog** (453 nuclei), with a per-nucleus reading, source-anchored where available and compositionally graded otherwise.
 - **Eleven native composition modes for trilateral roots** (plus a LOANWORD label for non-native borrowings) reading 2,285 roots at 100% native fit.
-- **The four-bar cross-linguistic verification rubric** with 15 Tier-A Quran-anchored pairs (8 original + 3 from loanword audit + 4 from Indo-Semitic core: ث-و-ر/taurus, ز-و-ج/yoke, ق-ر-ن/horn, س-ب-ع/seven).
+- **The four-bar cross-linguistic verification rubric** with 19 Tier-A Quran-anchored pairs (8 original + 3 from loanword audit + 4 Indo-Semitic core + 4 writing-and-numerals: ق-ل-م/calamus, ج-م-ل/camel, ث-ل-ث/three, س-ت-ة/six).
 - **Honest statement of scope**: of 784 mathematical pairs, 507 are attested as L1+L2 in some trilateral root (453 are catalogued as standalone nuclei). Of the 277 unattested: 160 phonotactically blocked + 117 lexical gaps. Math: 507+160+117=784 ✓.
 - **Jawfī treatment** of ا, و, ي: resolved by establishing active charges for all three and including them in the unified table.
 - **Dialectical-contradiction check** formalized as a second-pass verification on letter charges.

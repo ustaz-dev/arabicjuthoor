@@ -60,13 +60,13 @@ Each layer of the project does one thing: **compose meanings and check the resul
 - **Four-bar verification rubric** for cross-linguistic cognates with 15 Quran-anchored Tier-A pairs (Layer 3). See [`../04-cross-linguistic/tafsir-coran-tier-a-cognates.md`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md).
 
 ### 3.2 In progress
-- **Statistical predictive testing** of the letter charges against competing charge sets, running on the computational side of the project. Continuous expansion across new language families.
-- **Tier-B cross-linguistic expansion** — 900+ Arabic↔Greek/Latin candidate cognates discovered and under refinement.
+- **Full LV2+ formalization** — 50-quadriliteral catalogue published; scale to all 150–200 next.
+- **Tier-B cross-linguistic expansion** — 880+ Arabic↔Greek/Latin candidate cognates still in queue (11 promoted to Tier-A across three rounds this session).
+- **Independent second-rater pass** on the operative-grammar verdicts and the generative-test SELF-CANCELING set.
+- **Fill the 302 partial binary readings** in the corpus (13.2% with verdict but no letter-by-letter reading).
 
 ### 3.3 Next chapters
-- **English-language academic paper** presenting the unified table, the dual-face rule, and the eleven native composition modes (plus the LOANWORD label).
-- **Public lookup tool** (CLI or web) that takes an Arabic word and returns its letter → nucleus → root reading.
-- **Testing against non-Quranic corpora** (Jahili poetry, modern MSA) to bound the reach beyond Quranic vocabulary.
+- **English-language academic paper** presenting the unified table, the dual-face rule, the eleven native composition modes (plus the LOANWORD label), the statistical predictive test, and the Tier-A cognate roster.
 
 ---
 
@@ -109,7 +109,7 @@ The deeper anchor for the form-meaning correspondence rests on the classical Ara
 │  Layer 3 · Cross-linguistic projection                  │
 │  Khshim's nine sound-substitution laws.                   │
 │  Four-bar verification rubric for cross-linguistic        │
-│  cognates. 15 Tier-A pairs Quran-anchored.                │
+│  cognates. 19 Tier-A pairs Quran-anchored.                │
 │  Test: Arabic root meanings ↔ cognate language pairs.     │
 └─────────────────────────────────────────────────────────┘
 
