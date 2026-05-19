@@ -12,7 +12,7 @@ This study builds on twelve centuries of Arabic linguistic scholarship, from al-
 
 **Three structural findings on the internal architecture of Arabic:**
 
-(a) the **general dual-face rule** for letter charges, tested by induction across all 453 binary nuclei in Jabal's corpus, a structural property earlier scholarship had only suspected for a handful of letters;
+(a) the **general dual-face rule** for letter charges, tested by induction across all 453 binary nuclei in the corpus, a structural property earlier scholarship had only suspected for a handful of letters;
 
 (b) **eleven native composition modes for trilateral roots** (with a twelfth label, LOANWORD, reserved for non-native borrowings): the binary nucleus operates on the third letter, taking its charge as material, in one of these closed modes. The 2,285 trilaterals fit at 100% native composition, closing the bottom-up genealogy from letter to root. The eleven modes remain open to refinement;
 
