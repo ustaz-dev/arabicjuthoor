@@ -133,6 +133,32 @@
       "isAccessibleForFree": true,
       "url": "https://arabicjuthoor.com/",
       "mainEntityOfPage": "https://arabicjuthoor.com/"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap.md#book",
+      "name": "Juthoor: Contributions to Arabic Letter Semantics & the Open Roadmap",
+      "alternateName": "جُذور · مَساهماتُ المشروع والخارطةُ المفتوحة",
+      "author": { "@type": "Person", "name": "Yassine Temessek" },
+      "publisher": { "@id": "https://arabicjuthoor.com/#organization" },
+      "inLanguage": ["en", "ar"],
+      "bookFormat": "https://schema.org/EBook",
+      "isAccessibleForFree": true,
+      "url": "https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap.md",
+      "workTranslation": {
+        "@type": "Book",
+        "name": "جُذور · مَساهماتُ المشروع والخارطةُ المفتوحة",
+        "inLanguage": "ar",
+        "url": "https://arabicjuthoor.com/02-architecture/our-contributions-and-roadmap-ar.md"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Arabic letter semantics" },
+        { "@type": "Thing", "name": "Phonosemantics" },
+        { "@type": "Thing", "name": "Quranic linguistics" },
+        { "@type": "Thing", "name": "Operative grammar" }
+      ],
+      "license": "All rights reserved · published online only",
+      "copyrightHolder": { "@id": "https://arabicjuthoor.com/#organization" }
     }
   ]
 }
@@ -241,6 +267,42 @@ body {
 /* ===== Language toggle: show one language at a time ===== */
 html[data-lang="en"] .lang-ar { display: none !important; }
 html[data-lang="ar"] .lang-en { display: none !important; }
+
+/* Visible focus ring for keyboard users (no ring on mouse click) */
+*:focus { outline: none; }
+*:focus-visible {
+  outline: 3px solid var(--accent-strong);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+a:focus-visible, button:focus-visible {
+  outline-offset: 2px;
+}
+
+/* Disable printing — content is published online only; protects copyright.
+   Cmd/Ctrl+P will print a blank page instead of the dashboard. */
+@media print {
+  body::before {
+    content: "Juthoor — The Arabic Tongue. Online publication only. arabicjuthoor.com";
+    display: block; padding: 80px 40px; font-family: serif; font-size: 14pt;
+  }
+  body > *:not(:first-child) { display: none !important; }
+}
+
+/* Discourage image saving on the OG card and decorative graphics */
+img, picture { -webkit-user-drag: none; user-drag: none; }
+
+/* Skip-link — hidden until keyboard focus reveals it */
+.skip-link {
+  position: absolute; top: -100px; left: 12px; z-index: 9999;
+  background: var(--accent-strong); color: white;
+  padding: 10px 16px; border-radius: 6px;
+  text-decoration: none; font-weight: 600; font-size: 14px;
+  transition: top .15s;
+}
+.skip-link:focus-visible {
+  top: 12px; outline: 3px solid var(--text); outline-offset: 2px;
+}
 html[data-lang="ar"] { direction: rtl; }
 html[data-lang="ar"] body { font-family: var(--font-ar-ui); }
 html[data-lang="ar"] .hero-title-en,
@@ -961,9 +1023,12 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
 </head>
 <body>
 
-<nav class="topbar">
+<!-- Skip link for keyboard users — reveals on focus. -->
+<a class="skip-link" href="#main-content"><span class="lang-en">Skip to content</span><span class="lang-ar">تَخَطّ إلى المُحتوى</span></a>
+
+<nav class="topbar" aria-label="Primary">
   <div class="nav-inner">
-    <a class="nav-brand" href="#top">
+    <a class="nav-brand" href="#top" aria-label="Juthoor home">
       <span class="lang-en">Juthoor<span class="accent">.</span></span>
       <span class="lang-ar ar-display">جُذُور<span class="accent">.</span></span>
     </a>
@@ -1023,7 +1088,7 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
   <a class="stat-link" href="viewer.html?file=04-cross-linguistic/tafsir-coran-tier-a-cognates.md"><div class="stat"><div class="stat-num">8</div><div class="stat-label"><span class="lang-en">Tier-A cognates</span><span class="lang-ar">أزواج Tier-A</span></div></div></a>
 </div>
 
-<main>
+<main id="main-content">
 
 <!-- ====================== OVERVIEW ====================== -->
 <section id="overview">

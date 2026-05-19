@@ -181,6 +181,63 @@ main.doc {
 }
 .doc-foot a { color: var(--accent); text-decoration: none; }
 .doc-foot a:hover { text-decoration: underline; }
+
+/* Reading progress bar — sits on top edge, fills as you scroll */
+.read-progress {
+  position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 100;
+  background: transparent; pointer-events: none;
+}
+.read-progress > div {
+  height: 100%; width: 0%; background: var(--accent);
+  transition: width .08s linear;
+}
+
+/* Meta bar (reading time + word count) above the document body */
+.doc-meta {
+  display: flex; gap: 16px; flex-wrap: wrap;
+  font-size: 13px; color: var(--text-3);
+  margin: 0 0 28px; padding: 10px 14px;
+  background: var(--bg-2); border-radius: 6px;
+  border-left: 3px solid var(--accent);
+}
+html[lang="ar"] .doc-meta { border-left: 0; border-right: 3px solid var(--accent); }
+.doc-meta span { display: inline-flex; align-items: center; gap: 6px; }
+
+/* Heading permalink — a small "#" that appears on hover of an h2/h3 */
+.doc h2, .doc h3 { position: relative; }
+.heading-anchor {
+  position: absolute; left: -28px; top: 50%; transform: translateY(-50%);
+  width: 24px; text-align: center; opacity: 0;
+  color: var(--accent); text-decoration: none; font-weight: 700;
+  font-size: 18px; transition: opacity .12s;
+}
+html[lang="ar"] .heading-anchor { left: auto; right: -28px; }
+.doc h2:hover .heading-anchor,
+.doc h3:hover .heading-anchor,
+.heading-anchor:focus-visible { opacity: 1; }
+.heading-anchor.copied::after {
+  content: "✓ copied"; position: absolute; left: 100%; top: 50%;
+  transform: translateY(-50%); margin-left: 8px;
+  background: var(--accent); color: white; padding: 2px 8px; border-radius: 4px;
+  font-size: 11px; white-space: nowrap;
+}
+
+/* Focus ring for keyboard users */
+*:focus { outline: none; }
+*:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px; border-radius: 4px;
+}
+
+/* Block printing — research is published online only */
+@media print {
+  body::before {
+    content: "Juthoor — The Arabic Tongue. Online publication only. arabicjuthoor.com";
+    display: block; padding: 80px 40px; font-family: serif; font-size: 14pt;
+  }
+  body > *:not(:first-child) { display: none !important; }
+}
+img, picture { -webkit-user-drag: none; user-drag: none; }
 </style>
 </head>
 <body>
@@ -199,6 +256,8 @@ main.doc {
     </div>
   </div>
 </nav>
+
+<div class="read-progress" aria-hidden="true"><div id="read-bar"></div></div>
 
 <main class="doc" id="doc">
   <div class="state" id="state">Loading…</div>
@@ -388,11 +447,41 @@ async function loadDocument() {
     const rawHtml = marked.parse(md);
     const cleaned = DOMPurify.sanitize(rawHtml, { ADD_ATTR: ['target', 'rel'] });
     const rewritten = rewriteLinks(cleaned, file);
-    docEl.innerHTML = rewritten + '<div class="doc-foot"><a href="index.html">← Back to dashboard</a><span>' + file + '</span></div>';
+
+    // Reading time: ~200 wpm for English, ~150 wpm for Arabic (denser script).
+    const words = md.replace(/[#>*_`~\-]/g, ' ').split(/\s+/).filter(w => w.length > 1).length;
+    const wpm = isArabic ? 150 : 200;
+    const mins = Math.max(1, Math.round(words / wpm));
+    const metaLabel = isArabic
+      ? `<span>⏱ زَمنُ القِراءة المُتَوَقَّع: نَحوُ ${mins} دَقيقة</span><span>· ${words.toLocaleString('ar-EG')} كَلِمة</span>`
+      : `<span>⏱ Estimated read: ~${mins} min</span><span>· ${words.toLocaleString('en-US')} words</span>`;
+    const metaBar = `<div class="doc-meta" role="note">${metaLabel}</div>`;
+
+    const backLabel = isArabic ? 'العودة إلى اللوحة' : 'Back to dashboard';
+    docEl.innerHTML = metaBar + rewritten + '<div class="doc-foot"><a href="index.html">← ' + backLabel + '</a><span>' + file + '</span></div>';
     // Open external links in new tab
     docEl.querySelectorAll('a[href^="http"]').forEach(a => {
       a.setAttribute('target', '_blank');
       a.setAttribute('rel', 'noopener noreferrer');
+    });
+
+    // Heading permalinks — click "#" to copy a deep link to that section.
+    docEl.querySelectorAll('h2[id], h3[id]').forEach(h => {
+      const a = document.createElement('a');
+      a.className = 'heading-anchor';
+      a.href = '#' + h.id;
+      a.textContent = '#';
+      a.setAttribute('aria-label', isArabic ? 'انسَخ رابطَ هذا القِسم' : 'Copy link to this section');
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const url = location.origin + location.pathname + location.search + '#' + h.id;
+        navigator.clipboard.writeText(url).then(() => {
+          a.classList.add('copied');
+          setTimeout(() => a.classList.remove('copied'), 1400);
+          history.replaceState(null, '', '#' + h.id);
+        });
+      });
+      h.appendChild(a);
     });
   } catch (err) {
     setState('Could not load <code>' + file + '</code><br><small>' + err.message + '</small><br><br><a href="index.html">← Back to Juthoor dashboard</a>');
@@ -400,6 +489,24 @@ async function loadDocument() {
 }
 
 loadDocument();
+
+// Reading-progress bar: fills as the user scrolls through the doc.
+(function () {
+  const bar = document.getElementById('read-bar');
+  if (!bar) return;
+  let ticking = false;
+  function update() {
+    const h = document.documentElement;
+    const scrolled = h.scrollTop || document.body.scrollTop;
+    const height = (h.scrollHeight - h.clientHeight) || 1;
+    bar.style.width = Math.min(100, (scrolled / height) * 100).toFixed(2) + '%';
+    ticking = false;
+  }
+  window.addEventListener('scroll', () => {
+    if (!ticking) { requestAnimationFrame(update); ticking = true; }
+  }, { passive: true });
+  window.addEventListener('resize', update, { passive: true });
+})();
 </script>
 </body>
 </html>
