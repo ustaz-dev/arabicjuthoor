@@ -131,6 +131,23 @@
   ]
 }
 </script>
+<!-- Pre-paint: apply stored lang + theme BEFORE first render to kill CLS.
+     If we wait until end-of-body JS, the page paints in EN/light, then flips. -->
+<script>
+(function () {
+  try {
+    var l = localStorage.getItem('juthoor-lang');
+    if (l === 'ar' || l === 'en') {
+      document.documentElement.setAttribute('data-lang', l);
+      document.documentElement.setAttribute('lang', l);
+      document.documentElement.setAttribute('dir', l === 'ar' ? 'rtl' : 'ltr');
+    }
+    var t = localStorage.getItem('aratongue-theme');
+    if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+  } catch (e) { /* localStorage blocked — fall through to defaults */ }
+})();
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700;800&family=Cairo:wght@500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -412,7 +429,7 @@ section {
 section + section { border-top: 1px solid var(--border); }
 .section-eyebrow {
   font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--accent); font-weight: 600; margin-bottom: 12px;
+  color: var(--accent-strong); font-weight: 600; margin-bottom: 12px;
 }
 h2.section-title {
   font-size: clamp(28px, 3.5vw, 38px); font-weight: 700;
@@ -634,7 +651,7 @@ html[data-lang="ar"] .intro-paper { border-left: 1px solid var(--border); border
 .intro-paper p.lead { font-size: 1.06em; color: var(--text); font-weight: 500; }
 .intro-paper strong { color: var(--text); font-weight: 700; }
 .intro-paper h3 {
-  font-size: 18px; font-weight: 700; color: var(--accent);
+  font-size: 19px; font-weight: 700; color: var(--accent-strong);
   margin: 1.4em 0 0.5em; letter-spacing: -0.01em;
 }
 .intro-paper h3:first-of-type { margin-top: 0.5em; }
@@ -645,7 +662,7 @@ html[data-lang="ar"] .intro-paper ul, html[data-lang="ar"] .intro-paper ol { pad
   margin-top: 1.4em; padding-top: 1.2em; border-top: 1px dashed var(--border);
   font-size: 14.5px; color: var(--text-2);
 }
-.intro-paper .paper-cta a { color: var(--accent); font-weight: 600; }
+.intro-paper .paper-cta a { color: var(--accent-strong); font-weight: 600; }
 @media (max-width: 700px) {
   .intro-paper { padding: 28px 22px; font-size: 15.5px; }
 }
