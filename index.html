@@ -912,8 +912,14 @@ footer.foot a:hover { color: var(--accent); }
   display: flex; align-items: center; justify-content: center;
   font-size: 24px; font-weight: 600;
   box-shadow: 0 4px 14px rgba(184,134,47,.4), 0 2px 6px rgba(0,0,0,.1);
-  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  transition: transform .25s ease, opacity .25s ease, box-shadow .15s ease, background .15s ease;
   font-family: inherit;
+  /* Hidden initially; revealed once user scrolls past the hero to avoid
+     overlapping the hero CTAs on narrow viewports. JS toggles .is-visible. */
+  opacity: 0; transform: translateY(20px) scale(0.9); pointer-events: none;
+}
+.contact-fab.is-visible {
+  opacity: 1; transform: translateY(0) scale(1); pointer-events: auto;
 }
 .contact-fab:hover {
   transform: translateY(-2px) scale(1.05);
@@ -921,6 +927,10 @@ footer.foot a:hover { color: var(--accent); }
   box-shadow: 0 6px 20px rgba(184,134,47,.5), 0 3px 8px rgba(0,0,0,.15);
 }
 html[dir="rtl"] .contact-fab { right: auto; left: 24px; }
+@media (max-width: 700px) {
+  .contact-fab { width: 48px; height: 48px; font-size: 20px; bottom: 16px; right: 16px; }
+  html[dir="rtl"] .contact-fab { left: 16px; }
+}
 
 .contact-overlay {
   position: fixed; inset: 0; z-index: 200;
@@ -1894,6 +1904,19 @@ const SUPABASE_TABLE = 'messages';
   const form = document.getElementById('contact-form');
   const status = document.getElementById('contact-status');
   const submitBtn = document.getElementById('contact-submit');
+
+  // Reveal the FAB only after the user scrolls past the hero, so it never
+  // overlaps the hero CTAs on narrow viewports. Threshold: 400px of scroll.
+  let fabTicking = false;
+  function updateFabVisibility() {
+    const visible = (window.scrollY || document.documentElement.scrollTop) > 400;
+    fab.classList.toggle('is-visible', visible);
+    fabTicking = false;
+  }
+  window.addEventListener('scroll', () => {
+    if (!fabTicking) { requestAnimationFrame(updateFabVisibility); fabTicking = true; }
+  }, { passive: true });
+  updateFabVisibility();
 
   function setStatus(msg, kind) {
     status.textContent = msg;
