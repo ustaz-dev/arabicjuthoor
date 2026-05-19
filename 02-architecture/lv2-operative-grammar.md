@@ -89,7 +89,7 @@ This vault contains the upstream theoretical inputs that made Layer 2 possible:
 
 Arabic has 28 letters → 28² = 784 mathematically possible ordered binary pairs. Jabal's lexicon attests only ~453 nuclei; the trilateral decomposition shows 507 unique binaries appearing as L1+L2. Where did the other 277 go?
 
-**Answer:** they're filtered, not missing. Full decomposition in [`Juthoor-Linguistic-Genealogy/outputs/audits/layer_2_coverage_gap.md`](../../Juthoor-Linguistic-Genealogy/outputs/audits/layer_2_coverage_gap.md) (auto-generated):
+**Answer:** they're filtered, not missing. Full decomposition in [`computational/layer-2-coverage-gap.md`](../computational/layer-2-coverage-gap.md) (auto-generated from the companion pipeline):
 
 | Filter | Pairs removed | Reason |
 |--------|--------------:|--------|
