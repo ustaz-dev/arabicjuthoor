@@ -1,4 +1,4 @@
-# Layer 2 · The Twelve Composition Modes for Trilateral Roots
+# Layer 2 · The Eleven Native Composition Modes (+ LOANWORD Label)
 
 ## The finding
 
@@ -7,13 +7,13 @@ Every Arabic trilateral root in Jabal's lexicon is interpretable as a single ope
 > **The binary nucleus operates on the third letter, taking its charge as material.**
 > النَّواةُ الثنائيّةُ تَعمل في الحرف الثالث، وتَتَّخِذُ شَحنتَهُ مادّةً لها.
 
-The "operation" takes one of **twelve composition modes** in a finite, closed grammar. **100% of native trilaterals find a coherent mode without forcing.** The bottom-up genealogy from **letters → binaries → trilaterals** is grounded.
+The "operation" takes one of **eleven native composition modes** in a finite, closed grammar (plus a twelfth label, LOANWORD, reserved for the 1-in-2,285 non-native root). **100% of native trilaterals find a coherent mode without forcing.** The bottom-up genealogy from **letters → binaries → trilaterals** is grounded.
 
 ## Framing: agent and material
 
 The binary nucleus is the **agent** (الفاعل); the third letter is the **material** (المادّة) it operates on. Under this reading, *قصر* reads cleanly as "قص-cutting-precision **blocks** the flow (ر)" — a single coherent operation. The same applies to every native trilateral in the corpus.
 
-## The twelve composition modes (أبواب التركيب الاثنا عشر)
+## The eleven native composition modes + LOANWORD label (أبواب التركيب الأَحَدَ عَشَر، مع مَدخَل الدَّخيل)
 
 The grammar of binary-on-L3 operations, grouped by stance:
 
@@ -68,7 +68,7 @@ The grammar of binary-on-L3 operations, grouped by stance:
 
 ## Predictive tests, all confirmed
 
-A descriptive grammar can always be made to fit after the fact. What separates a real rule from after-the-fact fitting is whether it makes **prediction in advance** that the data then confirms. If the twelve composition modes are real, then specific root shapes and specific letter-charge classes should cluster in specific modes — and they do.
+A descriptive grammar can always be made to fit after the fact. What separates a real rule from after-the-fact fitting is whether it makes **prediction in advance** that the data then confirms. If the eleven native composition modes are real, then specific root shapes and specific letter-charge classes should cluster in specific modes — and they do.
 
 | Test | Prediction | Observed |
 |------|-----------|---------:|
@@ -96,13 +96,15 @@ Arabic has 28 letters → 28² = 784 mathematically possible ordered binary pair
 | alif-initial (ا as L1) | 28 | ا is a vowel marker, cannot begin a root |
 | identical XX | 25 | Obligatory Contour Principle, repeated consonant blocked |
 | same-articulator-class | 107 | Soft OCP, articulator hygiene |
-| **Genuine lexical gaps** | **155** | **Phonologically allowed but unused by Arabic** |
+| **Genuine lexical gaps** | **117** | **Phonologically allowed but unused by Arabic** (disjoint count, see math note) |
 
-Of 277 missing pairs, **160 (58%) are phonotactically blocked** and only **155 (20% of all 784 possibilities)** are true lexical gaps. The 100% native-composition result is honestly bounded: every trilateral that *exists* in Arabic gets a coherent operative reading. Whether the model can predict charges for the 155 lexical-gap binaries is the natural next test.
+Of 277 missing pairs, **160 (58%) are phonotactically blocked** and **117 (42% of unattested, 15% of all 784 possibilities)** are true lexical gaps. The 100% native-composition result is honestly bounded: every trilateral that *exists* in Arabic gets a coherent operative reading. Whether the model can predict charges for the 117 lexical-gap binaries is the natural next test.
+
+> **Math note (added 2026-05-19):** Earlier drafts of this table published 155 lexical gaps from an L1-by-L1 enumeration that double-counted pairs falling into two categories (e.g., a pair that is both same-articulator-blocked and unattested). The disjoint count is 117. The full per-L1 listing remains in [`computational/layer-2-coverage-gap.md`](../computational/layer-2-coverage-gap.md); the partition arithmetic 507 + 160 + 117 = 784 now adds up exactly.
 
 ## Limits & open questions
 
-- **Interpretive, not generative.** Given an arbitrary L1·L2·L3, the framework does not yet *predict* the mode; the reading is identified from the actual root meaning. A future classifier could test mode-from-charges predictability, and the 155 lexical-gap pairs above are the natural held-out set.
+- **Interpretive, not generative.** Given an arbitrary L1·L2·L3, the framework does not yet *predict* the mode; the reading is identified from the actual root meaning. A future classifier could test mode-from-charges predictability, and the 117 lexical-gap pairs above are the natural held-out set.
 - **Inter-rater agreement** still to be computed against an independent second reading. The reading discipline and per-mode definitions are stable enough that this is a confirmation step, not an exploratory one.
 - **Loanwords undercounted.** Only 1 / 2,285 was tagged LOANWORD. Many candidates (e.g. فردوس، سندس، سنبل) are arguably native compositions under the operative reading. A focused audit of suspected loanwords is warranted.
 - **Quadrilateral and quintilateral roots.** The schema generalises (binary on L3, then ternary on L4) but has not been formalised. Roots like قنطر، زنجبيل، طمأن are sketched as "X holds/operates on then Y" but lack a dedicated framework.
@@ -111,6 +113,6 @@ Of 277 missing pairs, **160 (58%) are phonotactically blocked** and only **155 (
 
 ```
 Temessek, Y. Operative Composition of Arabic Trilateral Roots.
-2,285 trilaterals read under the twelve-mode composition grammar.
+2,285 trilaterals read under the eleven-native-mode composition grammar (with a LOANWORD exception label, 1 of 2,285).
 The Arabic Tongue (nature-genome-application).
 ```

@@ -2,7 +2,7 @@
 
 🌐 **المَوقع المباشر:** [**arabicjuthoor.com**](https://arabicjuthoor.com/)
 
-🖥️ **اللوحة المحلّيّة:** [`index.html`](index.html) — صَفحةٌ واحدةٌ تَستَعرض المنهج، جدولَ الـ ٢٨ حرفًا، الـ ١٨ نواةً، الأبواب الاثني عشر، الـ ٨ نَظائر صنف-أ، والأرضيّةَ العلميّة.
+🖥️ **اللوحة المحلّيّة:** [`index.html`](index.html) — صَفحةٌ واحدةٌ تَستَعرض المنهج، جدولَ الـ ٢٨ حرفًا، الـ ١٨ نواةً، الأَبواب الـ ١١ الأَصيلة + مَدخَل الدَّخيل، الـ ٨ نَظائر صنف-أ، والأرضيّةَ العلميّة.
 
 🚀 **النَّشر:** انظر [`DEPLOYMENT.md`](DEPLOYMENT.md) لِإعداد GitHub Pages + Cloudflare DNS.
 
@@ -44,7 +44,7 @@
 | المَلَفّ | الوَصف |
 |------|-------------|
 | [our-contributions-and-roadmap-ar.md](02-architecture/our-contributions-and-roadmap-ar.md) | **الوَرَقةُ المَوقفيّةُ القابلةُ لِلمُشارَكة.** ما تُساهم به الدراسة، الأَرضيّاتُ التي تَستَنِد إليها، الحالةُ الراهنة، والفُصولُ القادمة. |
-| [lv2-operative-grammar-ar.md](02-architecture/lv2-operative-grammar-ar.md) | **الأبواب الاثنا عشر في تركيب الجذر الثلاثيّ.** التَّصنيفُ مُطَبَّقًا على ٢,٢٨٥ جذرًا بِتوافقٍ أَصيلٍ ١٠٠٪. |
+| [lv2-operative-grammar-ar.md](02-architecture/lv2-operative-grammar-ar.md) | **أَحَدَ عَشَر بابًا أَصيلًا في تركيب الجذر الثلاثيّ (مع مَدخَل الدَّخيل).** التَّصنيفُ مُطَبَّقًا على ٢,٢٨٥ جذرًا بِتوافقٍ أَصيلٍ ١٠٠٪. |
 | [lv1-architecture-ar.md](02-architecture/lv1-architecture-ar.md) | المُواصَفةُ المعماريّة: المسارُ ذو الأربع طبقات (ذرّات الحُروف ← نَوى ثنائيّة ← جُذور ثلاثيّة ← مُقارَنة بين اللغات) ومَنظومةُ التَّسجيل. |
 
 ### `03-scholar-extracts/` — جَداولُ ومَراجِع
@@ -84,7 +84,7 @@
 
 إن كان لديك وَقتٌ لِـ**مَلَفٍّ واحد**، اقرأ [`02-architecture/our-contributions-and-roadmap-ar.md`](02-architecture/our-contributions-and-roadmap-ar.md). هي الوَرَقةُ المَوقفيّةُ القابلةُ لِلمُشارَكة.
 
-إن كان لديك وَقتٌ لِـ**اثنَين**، أَضِف [`02-architecture/lv2-operative-grammar-ar.md`](02-architecture/lv2-operative-grammar-ar.md) لِأبواب التركيب الاثني عشر.
+إن كان لديك وَقتٌ لِـ**اثنَين**، أَضِف [`02-architecture/lv2-operative-grammar-ar.md`](02-architecture/lv2-operative-grammar-ar.md) لِلأَبواب الأَحَدَ عَشَر الأَصيلة (مع مَدخَل الدَّخيل).
 
 لِلصُّورة الكامِلة، اقرأ بِترتيب المُجَلَّدات: ٠١ ← ٠٢ ← ٠٣ ← ٠٤.
 

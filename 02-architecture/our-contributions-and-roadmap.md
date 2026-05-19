@@ -143,7 +143,7 @@ A reader who sees "100% native fit" and "453 binary nuclei" will rightly ask: wh
 | **same-articulator class** | 107 | Soft OCP, tongue-tip-twice (e.g., تد), lips-twice (e.g., بم), and similar adjacencies are dispreferred |
 | **Genuine lexical gaps** | **155** | Phonologically allowed by Arabic but unused, pairs the language could form but doesn't |
 
-That is: **160 pairs (58%)** of the unattested set are blocked by known phonological constraints. Only **155 pairs (20% of all 784)** are true lexical gaps, pairs Arabic was capable of forming but did not.
+That is: **160 pairs (58%)** of the 277 unattested pairs are blocked by known phonological constraints (28 alif-initial · 25 identical-XX · 107 same-articulator-class). Only **117 pairs (15% of all 784, 42% of the unattested)** are true lexical gaps — pairs Arabic was capable of forming but did not. (An earlier draft published 155 from an L1-by-L1 enumeration that double-counted pairs falling into two categories.)
 
 **The honest claim:** every trilateral root that *exists* in Arabic gets a coherent operative reading. We did not claim every theoretical XYZ would, and we closed the claim at the actual count, not the mathematical one. The 155 gaps are the natural **held-out test set** for the next question: can the model become generative, predicting the mode a hypothetical speaker would choose if she coined one of those pairs?
 
@@ -268,7 +268,7 @@ What the study delivers serves five domains at once:
 
 ### 6.1 For Arabic and Quranic studies
 
-It gives the field a quantitative, falsifiable framework where there was only intuition. The 28-letter charges are tested against the 453 binary nuclei in Jabal's lexicon; the twelve composition modes are tested against 2,285 trilateral roots. Verse-level Quranic readings become grounded in the science of articulation (مَخارج، صفات), not in the interpretive tradition alone. A reader who knows the charges can read a verse the way a chemist reads a formula, by composition.
+It gives the field a quantitative, falsifiable framework where there was only intuition. The 28-letter charges are tested against the 453 binary nuclei in Jabal's lexicon; the eleven native composition modes (with a LOANWORD label catching the rare non-native root) are tested against 2,285 trilateral roots. Verse-level Quranic readings become grounded in the science of articulation (مَخارج، صفات), not in the interpretive tradition alone. A reader who knows the charges can read a verse the way a chemist reads a formula, by composition.
 
 ### 6.2 For general linguistics
 
@@ -294,9 +294,9 @@ The study restores standing to what al-Khalil, Ibn Jinni, and Ibn Faris began. W
 
 - **Unified 28-letter table** with the dual-face rule, tested by induction across all 453 binary nuclei in Jabal's lexicon.
 - **The full nucleus catalog** (453 nuclei), with a per-nucleus reading, source-anchored where available and compositionally graded otherwise.
-- **Twelve composition modes for trilateral roots** reading 2,285 roots at 100% native fit.
+- **Eleven native composition modes for trilateral roots** (plus a LOANWORD label for non-native borrowings) reading 2,285 roots at 100% native fit.
 - **The four-bar cross-linguistic verification rubric** with 8 Tier-A Quran-anchored pairs.
-- **Honest statement of scope**: 784 mathematical pairs partitioned into 160 phonotactically blocked, 155 lexical gaps, and 453 attested.
+- **Honest statement of scope**: of 784 mathematical pairs, 507 are attested as L1+L2 in some trilateral root (453 are catalogued as standalone nuclei). Of the 277 unattested: 160 phonotactically blocked + 117 lexical gaps. Math: 507+160+117=784 ✓.
 - **Jawfī treatment** of ا, و, ي: resolved by establishing active charges for all three and including them in the unified table.
 - **Dialectical-contradiction check** formalized as a second-pass verification on letter charges.
 
@@ -307,7 +307,7 @@ The study restores standing to what al-Khalil, Ibn Jinni, and Ibn Faris began. W
 
 ### 7.3 Next chapters
 
-- **Publish an English-language academic paper** (8–12 pages) presenting the unified table, the dual-face rule, the twelve composition modes, and several worked examples.
+- **Publish an English-language academic paper** (8–12 pages) presenting the unified table, the dual-face rule, the eleven native composition modes (plus the LOANWORD label), and several worked examples.
 - **Build a public lookup tool** (CLI or web) that takes an Arabic word and returns its letter → nucleus → root reading.
 - **Testing against non-Quranic corpora** (Jahili poetry, modern MSA) to bound the reach beyond Quranic vocabulary.
 
@@ -328,7 +328,7 @@ For feedback, citation requests, or collaboration, use the contact form at [arab
 
 ## §9. Summary
 
-This study rests on twelve centuries of Arabic linguistic scholarship, from al-Khalil ibn Ahmad and Ibn Jinni through the classical lexicographers, and from the modern lexicographic foundation laid by Jabal and Abbas, with Khshim's sound-substitution laws for the cross-linguistic layer, and adds new structural findings: **the general dual-face rule** for the 28 letters, tested by induction across 453 binary nuclei; **twelve composition modes** for trilateral roots, reading 2,285 roots at 100% native fit; **the four-bar verification rubric** for Quran-anchored cross-linguistic cognates with 8 confirmed pairs; and **a complete catalog** of the binary nuclei with evidence from the published text. The framework rests on Jabal's lexicographic corpus and on a consistent preference for phonetic-physical readings. The computational counterpart in `Juthoor-Linguistic-Genealogy/` carries out the statistical and cross-linguistic expansion continuously.
+This study rests on twelve centuries of Arabic linguistic scholarship, from al-Khalil ibn Ahmad and Ibn Jinni through the classical lexicographers, and from the modern lexicographic foundation laid by Jabal and Abbas, with Khshim's sound-substitution laws for the cross-linguistic layer, and adds new structural findings: **the general dual-face rule** for the 28 letters, tested by induction across 453 binary nuclei; **eleven native composition modes** for trilateral roots (with a LOANWORD label for non-native roots), reading 2,285 roots at 100% native fit; **the four-bar verification rubric** for Quran-anchored cross-linguistic cognates with 8 confirmed pairs; and **a complete catalog** of the binary nuclei with evidence from the published text. The framework rests on Jabal's lexicographic corpus and on a consistent preference for phonetic-physical readings. The computational counterpart in `Juthoor-Linguistic-Genealogy/` carries out the statistical and cross-linguistic expansion continuously.
 
 ---
 

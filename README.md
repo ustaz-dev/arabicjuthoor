@@ -2,7 +2,7 @@
 
 🌐 **Live site:** [**arabicjuthoor.com**](https://arabicjuthoor.com/)
 
-🖥️ **Local dashboard:** [`index.html`](index.html) — a single-page overview of the methodology, the 28-letter table, the 18 nuclei, the twelve composition modes, the 8 Tier-A cognates, and the scholarly foundation.
+🖥️ **Local dashboard:** [`index.html`](index.html) — a single-page overview of the methodology, the 28-letter table, the 18 nuclei, the eleven native composition modes (plus the LOANWORD label), the 8 Tier-A cognates, and the scholarly foundation.
 
 🚀 **Deploying:** see [`DEPLOYMENT.md`](DEPLOYMENT.md) for the GitHub Pages + Cloudflare DNS setup.
 
@@ -44,7 +44,7 @@ This is an empirical study of that meaning-composition system. It rests on twelv
 | File | Description |
 |------|-------------|
 | [our-contributions-and-roadmap.md](02-architecture/our-contributions-and-roadmap.md) | **The shareable position paper.** What the study contributes, the foundations it rests on, the current state, and the next chapters. |
-| [lv2-operative-grammar.md](02-architecture/lv2-operative-grammar.md) | **The twelve composition modes for trilateral roots.** The taxonomy applied to 2,285 roots at 100% native fit. |
+| [lv2-operative-grammar.md](02-architecture/lv2-operative-grammar.md) | **The eleven native composition modes for trilateral roots (+ LOANWORD label).** The taxonomy applied to 2,285 roots at 100% native fit. |
 | [lv1-architecture.md](02-architecture/lv1-architecture.md) | The architectural specification: the four-layer scope (Letter atoms → binary nuclei → trilateral roots → cross-linguistic projection) and the scoring framework. |
 
 ### `03-scholar-extracts/` — reference tables and catalogs
@@ -78,13 +78,13 @@ The empirical evidence for every structural claim in the framework: the full nuc
 
 ### Computational side of the project
 
-The companion `Juthoor-Linguistic-Genealogy/` workspace is the computational side of the same project: a Python pipeline that implements the LV0–LV3 architecture, runs the twelve-mode trilateral reading, and produces the audits behind the claims on this page. Statistical and cross-linguistic expansion is continuously running there.
+The companion `Juthoor-Linguistic-Genealogy/` workspace is the computational side of the same project: a Python pipeline that implements the LV0–LV3 architecture, runs the eleven-native-mode trilateral reading, and produces the audits behind the claims on this page. Statistical and cross-linguistic expansion is continuously running there.
 
 ## Reading order
 
 If you have time for **one file**, read [`02-architecture/our-contributions-and-roadmap.md`](02-architecture/our-contributions-and-roadmap.md). It is the shareable position paper.
 
-If you have time for **two**, add [`02-architecture/lv2-operative-grammar.md`](02-architecture/lv2-operative-grammar.md) for the twelve composition modes.
+If you have time for **two**, add [`02-architecture/lv2-operative-grammar.md`](02-architecture/lv2-operative-grammar.md) for the eleven native composition modes (plus the LOANWORD label).
 
 For the **full picture**, read in folder order: 01 → 02 → 03 → 04.
 

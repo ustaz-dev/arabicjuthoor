@@ -45,7 +45,7 @@ Each layer of the project does one thing: **compose meanings and check the resul
 ### 2.4 Scope, in strict order
 1. **Layer 0**: Letter atoms — phonetic charges per letter (28 letters)
 2. **Layer 1**: Binary nuclei — composition of pairs into semantic fields (453 nuclei)
-3. **Layer 2**: Trilateral roots — twelve composition modes (2,285 roots)
+3. **Layer 2**: Trilateral roots — eleven native composition modes + LOANWORD label (2,285 roots)
 4. **Layer 3**: Cross-linguistic projection — Khshim's substitution laws
 5. **Layer 4**: Quranic application — separate downstream project ([coranisyours.com](https://coranisyours.com))
 
@@ -64,7 +64,7 @@ Each layer of the project does one thing: **compose meanings and check the resul
 - **Tier-B cross-linguistic expansion** — 900+ Arabic↔Greek/Latin candidate cognates discovered and under refinement.
 
 ### 3.3 Next chapters
-- **English-language academic paper** presenting the unified table, the dual-face rule, and the twelve composition modes.
+- **English-language academic paper** presenting the unified table, the dual-face rule, and the eleven native composition modes (plus the LOANWORD label).
 - **Public lookup tool** (CLI or web) that takes an Arabic word and returns its letter → nucleus → root reading.
 - **Testing against non-Quranic corpora** (Jahili poetry, modern MSA) to bound the reach beyond Quranic vocabulary.
 
@@ -115,7 +115,7 @@ The deeper anchor for the form-meaning correspondence rests on the classical Ara
 
 ┌─────────────────────────────────────────────────────────┐
 │  Layer 2 · Trilateral roots (الجذر الثلاثي)              │
-│  2,285 roots read under twelve composition modes (أبواب). │
+│  2,285 roots read under eleven native composition modes (أبواب) + LOANWORD label. │
 │  Frame: (binary nucleus) operates on (L3-charge as        │
 │  material).                                               │
 │  Modes: CARRY · الحَمل  · HOLD · الإمساك                   │
@@ -239,7 +239,7 @@ Tests:
 ### IN SCOPE — Layers 0–2 (the Arabic genome):
 - Letter charges for the 28 letters, with the dual-face rule.
 - Binary nucleus composition and testing (453 nuclei).
-- Trilateral root reading under the twelve composition modes (2,285 roots).
+- Trilateral root reading under the eleven native composition modes + LOANWORD label (2,285 roots).
 - The reversibility test.
 - Abbas's sensory validation.
 - Quantitative scoring framework.
