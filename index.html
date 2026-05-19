@@ -167,7 +167,7 @@
   --border-2: #cdc4b0;
   --success: #2d7a3b;
   --success-bg: #e8f3ea;
-  --warn: #c2820a;
+  --warn: #8a5e08;          /* darkened from #c2820a — WCAG AA on --warn-bg */
   --warn-bg: #fdf3d6;
   --info: #2255a4;
   --info-bg: #e3edf9;
@@ -465,7 +465,7 @@ h3.sub-title {
 }
 .card-icon {
   width: 38px; height: 38px; border-radius: 8px;
-  background: var(--accent-bg); color: var(--accent);
+  background: var(--accent-bg); color: var(--accent-strong);
   display: flex; align-items: center; justify-content: center;
   font-size: 20px; font-weight: 700; margin-bottom: 12px;
 }
@@ -491,7 +491,7 @@ table.data tr:last-child td { border-bottom: none; }
 table.data tr:hover { background: var(--bg-2); }
 .cell-letter {
   font-family: var(--font-ar); font-size: 22px; font-weight: 700;
-  color: var(--accent); width: 50px; text-align: center;
+  color: var(--accent-strong); width: 50px; text-align: center;
 }
 .cell-ar { font-family: var(--font-ar); font-size: 16px; direction: rtl; text-align: right; }
 .cell-mono { font-family: var(--font-mono); font-size: 12px; color: var(--text-3); }
@@ -522,7 +522,7 @@ table.data tr:hover { background: var(--bg-2); }
   content: counter(step);
   position: absolute; top: -14px; left: 22px;
   width: 28px; height: 28px; border-radius: 50%;
-  background: var(--accent); color: white;
+  background: var(--accent-strong); color: white;
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; font-size: 13px;
   box-shadow: var(--shadow);
@@ -545,7 +545,7 @@ table.data tr:hover { background: var(--bg-2); }
 }
 .scholar-stat {
   display: inline-block; margin: 12px 0;
-  background: var(--accent-bg); color: var(--accent);
+  background: var(--accent-bg); color: var(--accent-strong);
   padding: 4px 10px; border-radius: 12px;
   font-size: 12px; font-weight: 600;
 }
@@ -618,7 +618,7 @@ table.data tr:hover { background: var(--bg-2); }
 }
 .callout-title {
   font-weight: 700; font-size: 13px; text-transform: uppercase;
-  letter-spacing: 0.06em; color: var(--accent); margin-bottom: 6px;
+  letter-spacing: 0.06em; color: var(--accent-strong); margin-bottom: 6px;
 }
 
 /* §1 eyebrow + title — larger and centered above the intro paper */
@@ -763,10 +763,10 @@ footer.foot a:hover { color: var(--accent); }
   transform: translateY(-1px);
 }
 .brand-link.primary {
-  background: var(--accent); color: white; border-color: var(--accent);
+  background: var(--accent-strong); color: white; border-color: var(--accent-strong);
 }
 .brand-link.primary:hover {
-  background: var(--accent-2); color: white;
+  background: var(--accent); color: white;
 }
 .about-grid {
   display: grid; gap: 18px;
@@ -790,7 +790,7 @@ footer.foot a:hover { color: var(--accent); }
 .about-card .about-meta {
   font-size: 13.5px; color: var(--text-2); line-height: 1.55;
 }
-.about-card a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.about-card a { color: var(--accent-strong); text-decoration: none; font-weight: 600; }
 .about-card a:hover { text-decoration: underline; }
 
 .read-path {
@@ -818,7 +818,7 @@ footer.foot a:hover { color: var(--accent); }
   content: counter(rp);
   position: absolute; left: 0; top: 12px;
   width: 28px; height: 28px;
-  background: var(--accent-bg); color: var(--accent);
+  background: var(--accent-bg); color: var(--accent-strong);
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; font-size: 13px;
@@ -834,7 +834,7 @@ footer.foot a:hover { color: var(--accent); }
   position: fixed; bottom: 24px; right: 24px;
   z-index: 100;
   width: 56px; height: 56px; border-radius: 50%;
-  background: var(--accent); color: white;
+  background: var(--accent-strong); color: white;
   border: none; cursor: pointer;
   display: flex; align-items: center; justify-content: center;
   font-size: 24px; font-weight: 600;
@@ -920,7 +920,7 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
   transition: all .12s ease;
 }
 .contact-actions .contact-submit {
-  background: var(--accent); color: white; border: 1px solid var(--accent);
+  background: var(--accent-strong); color: white; border: 1px solid var(--accent-strong);
 }
 .contact-actions .contact-submit:hover { background: var(--accent-2); }
 .contact-actions .contact-submit:disabled { opacity: 0.6; cursor: wait; }
@@ -1276,7 +1276,7 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
         </tr>
         <tr style="background: var(--accent-bg);">
           <td><strong><span class="lang-en">Genuine lexical gaps</span><span class="lang-ar">فَجواتٌ مُعجميّةٌ حَقيقيّة</span></strong></td>
-          <td style="text-align:center;font-weight:700;color:var(--accent);">155</td>
+          <td style="text-align:center;font-weight:700;color:var(--accent-strong);">155</td>
           <td><span class="lang-en">Phonologically allowed by Arabic but unused, the language could form them, but doesn't</span><span class="lang-ar">يَسمح بها نظامُ أصوات العربيّة، لكنّها غيرُ مُستَعمَلة، كانت اللغة قادرةً على تكوينها فلم تَفعَل</span></td>
         </tr>
       </tbody>
@@ -1421,7 +1421,7 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
   <div class="scholar-card" style="border-color: var(--accent); background: var(--accent-bg); margin: 22px 0 28px;">
     <div class="scholar-name-ar">د. علي فهمي خشيم</div>
     <div class="scholar-name-en">Dr. Ali Fahmi Khshim (1936–2011)</div>
-    <span class="scholar-stat" style="background: var(--accent); color: white;"><span class="lang-en">cross-linguistic anchor</span><span class="lang-ar">الأرضيّة اللغويّة المُقارِنة</span></span>
+    <span class="scholar-stat" style="background: var(--accent-strong); color: white;"><span class="lang-en">cross-linguistic anchor</span><span class="lang-ar">الأرضيّة اللغويّة المُقارِنة</span></span>
     <p class="scholar-desc lang-en">President of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, PhD in philosophy (Durham, 1971). Author of <span class="ar-display">رِحلة الكلمات</span> (Journey of Words, 1986 / 1998), the modern Arabic-language reference for comparative work between Arabic and other language families. Khshim's nine sound-substitution laws govern the consonantal correspondences that the rubric below depends on.</p>
     <p class="scholar-desc lang-ar">رئيس مَجمع اللغة العربيّة اللّيبيّ، وعضو مَجمع اللغة العربيّة بالقاهرة، دكتوراه في الفلسفة (دَرَم، ١٩٧١). صاحب «رِحلة الكلمات» (١٩٨٦ / ١٩٩٨)، المرجع العربيّ الحديث في العمل المُقارِن بين العربيّة وسائر العائلات اللغويّة. قوانينُ الإبدال الصوتيّ التِّسعة عند خشيم تَحكُم التَّقابُلات الصامتيّة التي يَعتمد عليها المعيار التالي.</p>
   </div>
@@ -1521,14 +1521,14 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
     <div class="scholar-card" style="border-color: var(--accent-2); background: var(--accent-bg);">
       <div class="scholar-name-ar" style="font-size: 18px;">التقليد العربيّ الكلاسيكيّ</div>
       <div class="scholar-name-en">The classical Arabic tradition</div>
-      <span class="scholar-stat" style="background: var(--accent-2); color: white;"><span class="lang-en">12+ centuries · the foundation</span><span class="lang-ar">١٢ قَرنًا فأكثر · الأرضيّة</span></span>
+      <span class="scholar-stat" style="background: var(--accent-strong); color: white;"><span class="lang-en">12+ centuries · the foundation</span><span class="lang-ar">١٢ قَرنًا فأكثر · الأرضيّة</span></span>
       <p class="scholar-desc lang-en">From <span class="ar-display">الخليل بن أحمد الفراهيدي</span> (founder of Arabic linguistics, 8th c., <em>Kitab al-Ayn</em>) through <span class="ar-display">ابن جنّي</span> in <em>al-Khasais</em> (11th c., the <span class="ar-display">إمساس الألفاظ أشباه المعاني</span> doctrine on form-meaning correspondence), the classical lexicographers and grammarians worked out the architecture of root, derivation, and articulation that this study extends. See <a href="viewer.html?file=01-theory/classical-survey-ar.md"><code>classical-survey-ar.md</code></a> for the full survey.</p>
       <p class="scholar-desc lang-ar">من <span class="ar-display">الخليل بن أحمد الفراهيديّ</span> (مُؤسِّس اللغويّات العربيّة، القرن الثاني الهجريّ، «كتاب العين») إلى <span class="ar-display">ابن جنّي</span> في «الخصائص» (القرن الرابع، باب «إمساس الألفاظ أشباه المعاني» في تَلازُم الشكل بالمعنى)، وعُلَماء المعجم والنحو الكلاسيكيّين، وَضَعوا مِعمار الجذر والاشتقاق والنُّطق الذي تَمتدّ منه هذه الدراسة. انظر <a href="viewer.html?file=01-theory/classical-survey-ar.md"><code>classical-survey-ar.md</code></a> لِلمسح الكامل.</p>
     </div>
     <div class="scholar-card" style="border-color: var(--accent);">
       <div class="scholar-name-ar">د. محمد حسن جبل</div>
       <div class="scholar-name-en">Dr. Muhammad Hassan Jabal</div>
-      <span class="scholar-stat" style="background: var(--accent); color: white;"><span class="lang-en">primary modern foundation</span><span class="lang-ar">القاعدة الحديثة الرئيسة</span></span>
+      <span class="scholar-stat" style="background: var(--accent-strong); color: white;"><span class="lang-en">primary modern foundation</span><span class="lang-ar">القاعدة الحديثة الرئيسة</span></span>
       <p class="scholar-desc lang-en"><span class="ar-display">المعجم الاشتقاقي المؤصَّل</span>, the canonical dataset every layer of this study tests against: 2,300 unique roots, 453 binary nuclei, 1,666 Quranic applications. Jabal's compositional model (letter → binary → trilateral) is the structural skeleton; the study's new findings (universal dual-face, 12-mode operative grammar) refine it against his own data.</p>
       <p class="scholar-desc lang-ar">«المعجم الاشتقاقيّ المُؤَصَّل»، المُدَوَّنة المَرجعيّة التي تَختبر كلُّ طبقةٍ في هذه الدراسة عليها: ٢,٣٠٠ جذرٍ فريد، ٤٥٣ نواةً ثنائيّة، ١,٦٦٦ تطبيقًا قرآنيًّا. نموذجُ جَبَل التركيبيّ (حرف ← نواة ← ثلاثيّ) هو الهيكل البنيويّ، والنتائج الجديدة لِلدراسة (قاعدةُ الوَجهَين العامّة، وأبوابُ التركيب الاثنا عشر) تُنَقِّحه على بياناته نفسها.</p>
     </div>
