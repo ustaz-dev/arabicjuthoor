@@ -50,6 +50,13 @@
   ],
   "shortcuts": [
     {
+      "name": "Interactive reader",
+      "short_name": "Reader",
+      "description": "Type any Arabic word — get letter → nucleus → root reading",
+      "url": "/lookup.html",
+      "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
       "name": "Position paper",
       "short_name": "Paper",
       "description": "Open the full contributions & roadmap document",

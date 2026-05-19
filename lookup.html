@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Juthoor · Letter → Nucleus → Root reader</title>
+<meta name="description" content="Interactive letter-by-letter reader: type any Arabic word and see each letter's dual-face charge, the binary nucleus, and the eleven operative modes. Built on the unified 28-letter table." />
+<meta name="robots" content="index, follow, max-snippet:-1" />
+<link rel="canonical" href="https://arabicjuthoor.com/lookup.html" />
+
+<!-- Pre-paint: apply stored lang + theme BEFORE first render to kill CLS. -->
+<script>
+(function () {
+  try {
+    var l = localStorage.getItem('juthoor-lang');
+    if (l === 'ar' || l === 'en') {
+      document.documentElement.setAttribute('data-lang', l);
+      document.documentElement.setAttribute('lang', l);
+      document.documentElement.setAttribute('dir', l === 'ar' ? 'rtl' : 'ltr');
+    }
+    var t = localStorage.getItem('aratongue-theme');
+    if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+  } catch (e) {}
+})();
+</script>
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="fonts.css">
+
+<style>
+:root {
+  --bg: #fdfaf5; --bg-2: #f6f0e6; --bg-card: #ffffff;
+  --text: #1a2236; --text-2: #4a5266; --text-3: #5f6275;
+  --accent: #b8862f; --accent-strong: #8a5e1f;
+  --accent-2: #d4a73f; --accent-bg: #faf3df;
+  --border: #e4ddd0;
+  --warn: #8a5e08; --warn-bg: #fdf3d6;
+  --positive: #2d7a3b; --positive-bg: #e8f3ea;
+  --negative: #a83232; --negative-bg: #fae7e7;
+  --transform: #2255a4; --transform-bg: #e3edf9;
+  --font-en: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-ar: 'Amiri', 'Noto Naskh Arabic', serif;
+  --font-ar-display: 'Cairo', 'Tajawal', system-ui, sans-serif;
+}
+[data-theme="dark"] {
+  --bg: #161821; --bg-2: #1f222e; --bg-card: #1f222e;
+  --text: #ebe7dd; --text-2: #b3afa3; --text-3: #9a9790;
+  --accent: #d4a73f; --accent-strong: #e8c466;
+  --accent-bg: #2a2517; --border: #2e3140;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; font-family: var(--font-en);
+  background: var(--bg); color: var(--text);
+  line-height: 1.65; font-size: 16px;
+}
+html[data-lang="ar"] body { font-family: var(--font-ar); direction: rtl; }
+html[data-lang="en"] .lang-ar { display: none !important; }
+html[data-lang="ar"] .lang-en { display: none !important; }
+.ar-display { font-family: var(--font-ar-display); }
+
+*:focus { outline: none; }
+*:focus-visible { outline: 3px solid var(--accent-strong); outline-offset: 3px; border-radius: 4px; }
+
+@media print {
+  body::before {
+    content: "Juthoor — Online publication only. arabicjuthoor.com";
+    display: block; padding: 80px 40px;
+  }
+  body > *:not(:first-child) { display: none !important; }
+}
+
+/* Top nav matches site convention */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(253, 250, 245, 0.92);
+  backdrop-filter: saturate(180%) blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+[data-theme="dark"] .topbar { background: rgba(22, 24, 33, 0.92); }
+.topbar-inner {
+  max-width: 1100px; margin: 0 auto; padding: 14px 28px;
+  display: flex; align-items: center; gap: 14px;
+}
+.brand {
+  font-weight: 700; color: var(--text); text-decoration: none;
+  font-size: 16px;
+}
+.brand .accent { color: var(--accent-strong); }
+.crumb { color: var(--text-3); font-size: 14px; flex: 1; }
+html[data-lang="ar"] .topbar-inner { flex-direction: row-reverse; }
+.actions { display: flex; align-items: center; gap: 8px; }
+.lang-toggle {
+  display: inline-flex; border: 1px solid var(--border);
+  border-radius: 6px; overflow: hidden;
+}
+.lang-toggle button {
+  background: var(--bg-2); border: 0; cursor: pointer;
+  padding: 6px 12px; font-size: 13px; color: var(--text-3);
+}
+.lang-toggle button.active { background: var(--accent-strong); color: white; }
+.theme-toggle {
+  background: var(--bg-2); border: 1px solid var(--border);
+  border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 13px;
+  color: var(--text);
+}
+
+/* Main */
+.page {
+  max-width: 1100px; margin: 0 auto; padding: 40px 28px;
+}
+h1 {
+  font-size: clamp(28px, 4vw, 40px); font-weight: 800;
+  margin: 0 0 8px; letter-spacing: -0.02em;
+}
+html[data-lang="ar"] h1 { font-family: var(--font-ar-display); line-height: 1.25; }
+.subtitle {
+  color: var(--text-2); font-size: 16px; margin: 0 0 28px;
+  max-width: 720px;
+}
+
+/* Input */
+.input-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 22px; margin-bottom: 28px;
+  box-shadow: 0 1px 3px rgba(26,34,54,.06);
+}
+.input-row { display: flex; gap: 12px; align-items: stretch; }
+html[data-lang="ar"] .input-row { flex-direction: row-reverse; }
+.ar-input {
+  flex: 1; padding: 14px 18px;
+  font-family: var(--font-ar); font-size: 28px;
+  text-align: center; direction: rtl;
+  background: var(--bg); color: var(--text);
+  border: 2px solid var(--border); border-radius: 8px;
+  transition: border-color .15s;
+}
+.ar-input:focus { border-color: var(--accent-strong); }
+.read-btn {
+  padding: 14px 26px; background: var(--accent-strong); color: white;
+  border: 0; border-radius: 8px; cursor: pointer; font-weight: 700;
+  font-size: 15px;
+}
+.read-btn:hover { background: var(--accent); }
+.examples {
+  margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap;
+  font-size: 13px; color: var(--text-3); align-items: center;
+}
+.example-chip {
+  font-family: var(--font-ar); font-size: 16px;
+  padding: 4px 12px; background: var(--bg-2);
+  border: 1px solid var(--border); border-radius: 14px;
+  cursor: pointer; color: var(--text);
+}
+.example-chip:hover { background: var(--accent-bg); border-color: var(--accent-strong); }
+
+/* Result panels */
+.result {
+  display: none; margin-bottom: 28px;
+}
+.result.visible { display: block; }
+.panel-title {
+  font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--accent-strong); font-weight: 700; margin: 0 0 12px;
+}
+html[data-lang="ar"] .panel-title { font-family: var(--font-ar-display); letter-spacing: 0; }
+
+/* Letter cards row */
+.letters-row {
+  display: grid; gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 28px;
+}
+.letter-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 16px;
+}
+.letter-card.is-l1 { border-color: var(--accent-strong); border-width: 2px; }
+.letter-card.is-l2 { border-color: var(--accent-strong); border-width: 2px; }
+.letter-glyph {
+  font-family: var(--font-ar-display); font-size: 56px; font-weight: 700;
+  color: var(--accent-strong); text-align: center; line-height: 1;
+  margin-bottom: 8px;
+}
+.letter-role {
+  font-size: 11px; text-align: center; color: var(--text-3);
+  text-transform: uppercase; letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+.letter-face {
+  padding: 10px 0; border-top: 1px solid var(--border);
+}
+.letter-face:first-of-type { border-top: 0; }
+.face-tag {
+  display: inline-block; font-size: 10px; padding: 2px 6px;
+  border-radius: 3px; background: var(--bg-2); color: var(--text-3);
+  text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700;
+  margin-bottom: 4px;
+}
+.face-tag.primary { background: var(--accent-bg); color: var(--accent-strong); }
+.face-ar {
+  font-family: var(--font-ar); font-size: 16px; color: var(--text);
+  direction: rtl; line-height: 1.5;
+}
+.face-en {
+  font-size: 13px; color: var(--text-2); line-height: 1.45; margin-top: 2px;
+}
+
+/* Nucleus framing */
+.nucleus-card {
+  background: linear-gradient(135deg, var(--accent-bg) 0%, var(--bg-card) 100%);
+  border: 1px solid var(--accent-strong); border-radius: 12px;
+  padding: 22px; margin-bottom: 28px;
+}
+.formula {
+  font-size: clamp(18px, 2.4vw, 22px); margin: 12px 0; line-height: 1.5;
+}
+.formula .binary {
+  background: var(--accent-bg); padding: 4px 10px; border-radius: 6px;
+  font-family: var(--font-ar-display); font-weight: 700; color: var(--accent-strong);
+}
+.formula .verb {
+  background: var(--bg-card); padding: 4px 10px; border-radius: 6px;
+  border: 1px dashed var(--accent-strong); font-weight: 700;
+}
+.formula .material {
+  background: var(--bg-2); padding: 4px 10px; border-radius: 6px;
+  font-family: var(--font-ar-display); font-weight: 700;
+}
+
+/* Modes table */
+.modes-section {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 22px; margin-bottom: 28px;
+}
+.modes-group { margin: 0 0 18px; }
+.modes-group h4 {
+  margin: 0 0 8px; font-size: 13px; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--text-3); font-weight: 700;
+}
+.modes-group.positive h4 { color: var(--positive); }
+.modes-group.negative h4 { color: var(--negative); }
+.modes-group.transform h4 { color: var(--transform); }
+.modes-group.exception h4 { color: var(--warn); }
+.modes-grid {
+  display: grid; gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.mode-row {
+  display: flex; align-items: baseline; gap: 10px;
+  padding: 8px 12px; background: var(--bg-2); border-radius: 6px;
+  font-size: 13px;
+}
+.mode-name {
+  font-weight: 700; color: var(--accent-strong);
+  min-width: 86px;
+}
+.mode-ar {
+  font-family: var(--font-ar-display); font-weight: 700;
+  color: var(--text);
+}
+.mode-desc { color: var(--text-2); font-size: 12.5px; flex: 1; }
+
+/* Empty state */
+.empty {
+  text-align: center; padding: 60px 20px; color: var(--text-3);
+}
+.empty .big {
+  font-size: 72px; font-family: var(--font-ar-display);
+  color: var(--accent-strong); opacity: 0.6;
+}
+
+/* Footer */
+.foot {
+  margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border);
+  font-size: 13px; color: var(--text-3);
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+.foot a { color: var(--accent-strong); text-decoration: none; }
+.foot a:hover { text-decoration: underline; }
+
+@media (max-width: 700px) {
+  .page { padding: 24px 16px; }
+  .input-row { flex-direction: column; }
+  html[data-lang="ar"] .input-row { flex-direction: column; }
+  .ar-input { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="topbar" aria-label="Primary">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">Juthoor<span class="accent">.</span></a>
+    <span class="crumb">
+      <span class="lang-en">Letter → Nucleus → Root reader</span>
+      <span class="lang-ar">قارئُ الحرف ← النواة ← الجذر</span>
+    </span>
+    <div class="actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button id="lang-en" type="button">EN</button>
+        <button id="lang-ar" type="button" style="font-family:'Cairo',sans-serif">عربي</button>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">☾</button>
+    </div>
+  </div>
+</nav>
+
+<main class="page">
+  <h1>
+    <span class="lang-en">Letter → Nucleus → Root reader</span>
+    <span class="lang-ar">قارئُ الحرف ← النواة ← الجذر</span>
+  </h1>
+  <p class="subtitle">
+    <span class="lang-en">Type any Arabic word or root. The reader strips diacritics, identifies the consonants, and shows each letter&apos;s dual-face charge from the unified 28-letter table — together with the binary nucleus and the eleven operative modes the trilateral could resolve under.</span>
+    <span class="lang-ar">اكتُب أَيَّ كَلِمةٍ أَو جَذرٍ عَرَبيّ. يَستَخرِجُ القارئُ الصَّوامتَ ويَعرِضُ لِكلّ حَرفٍ شَحنَتَهُ ذاتَ الوَجهَين من جدول الحُروف الثَّمانية والعشرين المُوَحَّد، مع النَّواةِ الثُّنائيّة والأَبواب الأَحَدَ عَشَر التي يُمكِن أن يَنحَلَّ فيها الجَذرُ الثُّلاثيّ.</span>
+  </p>
+
+  <div class="input-card">
+    <div class="input-row">
+      <input class="ar-input" id="ar-input" type="text" autocomplete="off" spellcheck="false"
+             placeholder="حمد · قصر · كتب · سلم · ربب · جنن"
+             aria-label="Arabic root or word" />
+      <button class="read-btn" id="read-btn" type="button">
+        <span class="lang-en">Read</span>
+        <span class="lang-ar">اقرأ</span>
+      </button>
+    </div>
+    <div class="examples">
+      <span class="lang-en">Try:</span><span class="lang-ar">جَرِّب:</span>
+      <span class="example-chip" data-w="حمد">حمد</span>
+      <span class="example-chip" data-w="قصر">قصر</span>
+      <span class="example-chip" data-w="كتب">كتب</span>
+      <span class="example-chip" data-w="سلم">سلم</span>
+      <span class="example-chip" data-w="جنن">جنن</span>
+      <span class="example-chip" data-w="ربب">ربب</span>
+      <span class="example-chip" data-w="نجو">نجو</span>
+      <span class="example-chip" data-w="فتح">فتح</span>
+    </div>
+  </div>
+
+  <div class="result" id="result">
+    <div class="panel-title">
+      <span class="lang-en">Letters and their charges</span>
+      <span class="lang-ar">الحُروف وشَحَناتُها</span>
+    </div>
+    <div class="letters-row" id="letters-row"></div>
+
+    <div id="nucleus-block"></div>
+
+    <div class="modes-section" id="modes-section">
+      <div class="panel-title">
+        <span class="lang-en">The eleven native composition modes (+ LOANWORD label)</span>
+        <span class="lang-ar">الأَبواب الأَحَدَ عَشَر الأَصيلة (+ مَدخَل الدَّخيل)</span>
+      </div>
+      <p class="lang-en" style="font-size:13.5px;color:var(--text-2);margin:0 0 16px;">
+        For a trilateral root, the binary nucleus (L1·L2) operates on the third letter&apos;s charge as material, via one of these modes. Mode selection from the full meaning is the LV2 task; this reader presents the modes for reference.
+      </p>
+      <p class="lang-ar" style="font-size:13.5px;color:var(--text-2);margin:0 0 16px;">
+        لِلجَذر الثُّلاثيّ، تَعمَلُ النَّواةُ الثُّنائيّةُ (L1·L2) في شَحنة الحَرف الثالث كَمادّة، بِأَحَد هذه الأَبواب. انتِخابُ البابِ من المَعنى الكامل هو مَهَمَّةُ الطبقة الثانية؛ يُقَدِّمُ هذا القارئُ الأَبوابَ مَرجِعًا.
+      </p>
+      <div id="modes-list"></div>
+    </div>
+  </div>
+
+  <div class="empty" id="empty">
+    <div class="big">جذور</div>
+    <p>
+      <span class="lang-en">Type a root above or pick a chip to begin.</span>
+      <span class="lang-ar">اكتُب جَذرًا أَعلاه أَو اختَر مِثالًا لِلبَدء.</span>
+    </p>
+  </div>
+
+  <div class="foot">
+    <div>
+      <a href="index.html">← <span class="lang-en">Back to dashboard</span><span class="lang-ar">العودة إلى اللَّوحة</span></a>
+    </div>
+    <div>
+      <a href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><span class="lang-en">The 28-letter table</span><span class="lang-ar">جدول الحُروف</span></a>
+      · <a href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><span class="lang-en">The eleven modes</span><span class="lang-ar">الأَبواب الأَحَدَ عَشَر</span></a>
+    </div>
+  </div>
+</main>
+
+<script>
+// ============================================================
+// Data: 28-letter charge table (extracted from consensus-letter-charges.md)
+// ============================================================
+const CHARGES = {
+  'ء':{p:{ar:'تَأكيد + قَطع',en:'sharp affirmation, decisive onset'},v:{ar:'قَطع + فَصْل',en:'cut that separates, decisive boundary'}},
+  'ا':{p:{ar:'امتِداد صائت',en:'extension, sustained presence'},v:{ar:'امتِداد منبسِط',en:'open extending outward'}},
+  'ب':{p:{ar:'اتِّصال + تَمَسُّك',en:'attachment that holds and reveals'},v:{ar:'انطِباق + إغلاق',en:'sealed shutting'}},
+  'ت':{p:{ar:'امتداد لَطيف + تَمام',en:'calm completion'},v:{ar:'ضَغط + دِقّة + قَطع',en:'sharp dental pressure'}},
+  'ث':{p:{ar:'تَناثُر + تَفَتُّت',en:'scattering, small-grained spread'},v:{ar:'تَجَمُّع دَقيق',en:'fine accumulation inward'}},
+  'ج':{p:{ar:'تَجَمُّع في حَيِّز',en:'gathering in a space'},v:{ar:'بُروز من حَيِّز',en:'surfacing out of a space'}},
+  'ح':{p:{ar:'حياةٌ حارّة + احتِواء',en:'living warmth contained'},v:{ar:'نَفاذ حَيّ',en:'living radiation outward'}},
+  'خ':{p:{ar:'تَخَلخُل + اختِراق',en:'rarefying, piercing through'},v:{ar:'سَتر مُكَثَّف',en:'thick concealing inward'}},
+  'د':{p:{ar:'ضَبط + ثَبات',en:'settled grounding'},v:{ar:'دَفع داخليّ ثابت',en:'active inward push'}},
+  'ذ':{p:{ar:'نَفاذ + حِدّة',en:'piercing from inside, fine bringing-out'},v:{ar:'ادّخار في الباطن',en:'held-inside concealing'}},
+  'ر':{p:{ar:'تَكرار + جَرَيان',en:'repetition, running, flow'},v:{ar:'جَرَيانٌ مُلتَئِم',en:'flow that binds inward'}},
+  'ز':{p:{ar:'اندِفاع + اهتِزاز قاطِع',en:'sharp thrust'},v:{ar:'نَفاذ + حِدّة',en:'fine penetration'}},
+  'س':{p:{ar:'امتِداد + سَيَلان',en:'extending flow, fine streaming'},v:{ar:'احتِواء سَيّال',en:'fluid held inside'}},
+  'ش':{p:{ar:'انتِشار + تَفَرُّق',en:'branching, scattering outward'},v:{ar:'اشتِمال مُمتَدّ',en:'embracing inward spread'}},
+  'ص':{p:{ar:'صَلابة + إطْباق',en:'hardness, sealed strength'},v:{ar:'نَفاذ صُلب',en:'hard-piercing outward'}},
+  'ض':{p:{ar:'ضَمّ + ثِقَل',en:'drawing-together with weight'},v:{ar:'انبِساط بِثِقَل',en:'heavy spreading outward'}},
+  'ط':{p:{ar:'انبِساط + انتِشار ثَقيل',en:'broad heavy spreading'},v:{ar:'انْقِباض ثَقيل',en:'heavy contraction inward'}},
+  'ظ':{p:{ar:'بُروز + حِدّة',en:'pronounced surfacing, edged prominence'},v:{ar:'سَتر مُكَثَّف من باطن',en:'held shadow concealing'}},
+  'ع':{p:{ar:'قَبضٌ حَلقيّ + شِدّة',en:'deep-throat grip, concentrated firmness'},v:{ar:'ظُهور من عُمق',en:'emergence from depth'}},
+  'غ':{p:{ar:'غَور يَستر',en:'concealing depth, covering'},v:{ar:'بُروز من غَور',en:'emerging from concealment'}},
+  'ف':{p:{ar:'تَفريق + نَفاذ',en:'parting-through'},v:{ar:'انفِتاح + شَقّ',en:'opening, cleaving'}},
+  'ق':{p:{ar:'قَطع + إحكام',en:'cutting precision, firm settling'},v:{ar:'اتِّصال مُحكَم',en:'firm holding inward'}},
+  'ك':{p:{ar:'كَتم + قَطع',en:'pressed closure, sealed cut'},v:{ar:'بُروز مَكتوم',en:'constrained surfacing'}},
+  'ل':{p:{ar:'تَعَلُّق + امتِداد',en:'attachment that extends, a bridge'},v:{ar:'اِنطِواء مُتَّصِل',en:'bound folding inward'}},
+  'م':{p:{ar:'تَجمُّع + تَلاصُق',en:'gathering, sealing into a mass'},v:{ar:'بُروز ناتِئ',en:'emerging projection'}},
+  'ن':{p:{ar:'رَنين + انبِعاث',en:'inner resonance emitted outward'},v:{ar:'رَنين مَحبوس',en:'cavity-held resonance'}},
+  'ه':{p:{ar:'هَمس + تَنَفُّس',en:'soft passing presence'},v:{ar:'نَفَسٌ يَحمِل ويَتَلاشى',en:'breath carrying off'}},
+  'و':{p:{ar:'وَصل + رَبط',en:'binding, joining, sustained link'},v:{ar:'اِنفِصال مع اِتِّصال',en:'linked release'}},
+  'ي':{p:{ar:'امتِداد + لِين + سَرَيان',en:'gentle directed extension'},v:{ar:'التِصاق ناعِم',en:'soft adherence'}},
+};
+
+const MODES = {
+  positive: {
+    label: { en: 'POSITIVE · binary co-acts with L3', ar: 'إيجاب · النَّواةُ تُشاركُ L3' },
+    modes: [
+      ['CARRY',     'الحَمْل',     'binary carries L3-material forward/out',     'حَمل النَّواة لِشَحنة L3'],
+      ['HOLD',      'الإمْساك',    'binary contains/encloses L3-material',       'إمساك النَّواة لِـ L3'],
+      ['RELEASE',   'الإطْلاق',    'binary lets L3-material burst out',          'إطلاقُ النَّواة لِـ L3'],
+      ['PROJECT',   'الإبْراز',    'binary extends L3 outward as feature',       'إبرازُ النَّواة لِـ L3'],
+      ['INTENSIFY', 'التَّضْعيف',  'doubled or amplified L3',                    'تَضعيفُ النَّواة لِـ L3'],
+    ]
+  },
+  negative: {
+    label: { en: 'NEGATIVE · binary opposes L3', ar: 'سَلْب · النَّواةُ تُضادُّ L3' },
+    modes: [
+      ['BLOCK',     'الحَجْب',         'binary stops/seals/walls off L3',         'حَجبُ النَّواة لِـ L3'],
+      ['DRAIN',     'الاسْتِنزاف',     'binary gradually depletes L3',             'استِنزافُ النَّواة لِـ L3'],
+    ]
+  },
+  transform: {
+    label: { en: 'TRANSFORM · binary reshapes L3', ar: 'تَحَوُّل · النَّواةُ تُحَوِّل L3' },
+    modes: [
+      ['CHANNEL',   'التَّوجيه',       'binary directs/shapes L3&apos;s path',     'تَوجيهُ النَّواة لِـ L3'],
+      ['OPERATE',   'الإعْمال',        'binary modifies L3 via squeeze/fold/cut',  'إِعمالُ النَّواة في L3'],
+      ['MIX',       'المَزْج',         'blends the binary with L3',                'مَزجُ النَّواة بِـ L3'],
+      ['REVERT',    'القَلْب',         'circles back / oscillates L3',             'قَلبُ النَّواة لِـ L3'],
+    ]
+  },
+  exception: {
+    label: { en: 'EXCEPTION', ar: 'استِثناء' },
+    modes: [
+      ['LOANWORD',  'الدَّخيل',        'non-native composition (1 of 2,285 in the current corpus; loanword count likely under-reported)',
+                                       'تَركيبٌ غيرُ أَصيل (واحدٌ من ٢,٢٨٥ في المُدَوَّنة الحاليّة؛ والعَدَدُ أَقَلُّ من الحَقيقة)'],
+    ]
+  }
+};
+
+// ============================================================
+// Utilities
+// ============================================================
+function stripDiacritics(s) {
+  // Remove tashkeel (U+064B..U+065F, shadda U+0651, sukun U+0652, etc.) and tatweel.
+  return s.replace(/[ً-ْٰـ]/g, '');
+}
+
+function isArabicConsonant(ch) {
+  // Range U+0621..U+064A (the basic Arabic consonants + alif variants)
+  return /[ء-ي]/.test(ch);
+}
+
+function normalizeForCharge(ch) {
+  // Map alif variants to charge keys.
+  if (ch === 'أ' || ch === 'إ' || ch === 'آ' || ch === 'ٱ') return 'ا'; // alif variants → alif
+  if (ch === 'ؤ') return 'و'; // waw-with-hamza → waw root carrier
+  if (ch === 'ئ') return 'ي'; // yaa-with-hamza → ya root carrier
+  if (ch === 'ة') return 'ت'; // ta-marbuta → ta
+  if (ch === 'ى') return 'ي'; // alif-maqsoura → ya in root contexts
+  // Hamza itself stays ء; if input is bare hamza on alif-seat etc., it was mapped above.
+  return ch;
+}
+
+function extractLetters(input) {
+  const stripped = stripDiacritics(input.trim());
+  const out = [];
+  for (const ch of stripped) {
+    if (!isArabicConsonant(ch)) continue;
+    const key = normalizeForCharge(ch);
+    if (CHARGES[key]) out.push({ glyph: ch, key });
+  }
+  return out;
+}
+
+// ============================================================
+// Render
+// ============================================================
+function renderLetters(letters) {
+  const row = document.getElementById('letters-row');
+  row.innerHTML = '';
+  letters.forEach((lt, idx) => {
+    const ch = CHARGES[lt.key];
+    if (!ch) return;
+    let role = '';
+    if (letters.length >= 3) {
+      if (idx === 0) role = 'L1';
+      else if (idx === 1) role = 'L2';
+      else if (idx === 2) role = 'L3 · material';
+      else role = 'L' + (idx + 1);
+    } else {
+      role = 'Letter ' + (idx + 1);
+    }
+    const card = document.createElement('div');
+    card.className = 'letter-card' + (idx === 0 ? ' is-l1' : idx === 1 ? ' is-l2' : '');
+    card.innerHTML = `
+      <div class="letter-glyph">${lt.glyph}</div>
+      <div class="letter-role">${role}</div>
+      <div class="letter-face">
+        <span class="face-tag primary"><span class="lang-en">Primary face</span><span class="lang-ar">الوَجه الأَوَّل</span></span>
+        <div class="face-ar">${ch.p.ar}</div>
+        <div class="face-en">${ch.p.en}</div>
+      </div>
+      <div class="letter-face">
+        <span class="face-tag"><span class="lang-en">Variant face</span><span class="lang-ar">الوَجه الثاني</span></span>
+        <div class="face-ar">${ch.v.ar}</div>
+        <div class="face-en">${ch.v.en}</div>
+      </div>
+    `;
+    row.appendChild(card);
+  });
+}
+
+function renderNucleus(letters) {
+  const block = document.getElementById('nucleus-block');
+  block.innerHTML = '';
+  if (letters.length < 2) return;
+  const L1 = letters[0], L2 = letters[1], L3 = letters[2];
+  const binary = L1.glyph + L2.glyph;
+  const card = document.createElement('div');
+  card.className = 'nucleus-card';
+  card.innerHTML = `
+    <div class="panel-title">
+      <span class="lang-en">The operative reading template</span>
+      <span class="lang-ar">قالَبُ القراءة العَمَليّة</span>
+    </div>
+    <div class="formula">
+      <span class="lang-en">
+        <span class="binary">${binary}</span> binary <span class="verb">DOES X</span> to
+        ${L3 ? `<span class="material">${L3.glyph}</span>'s charge as material` : '(third letter not yet present)'}
+      </span>
+      <span class="lang-ar">
+        النَّواةُ <span class="binary">${binary}</span> <span class="verb">تَفعَل ×</span> في
+        ${L3 ? `شَحنة <span class="material">${L3.glyph}</span> كَمادّة` : '(الحَرفُ الثالثُ غيرُ مَوجود بَعد)'}
+      </span>
+    </div>
+    <p class="lang-en" style="font-size:13.5px;color:var(--text-2);margin:8px 0 0;">
+      The reader does not auto-pick the mode — that requires the full meaning of the word. Browse the eleven modes below and identify which "DOES X" matches the actual sense of <strong>${binary}${L3?L3.glyph:''}</strong>.
+    </p>
+    <p class="lang-ar" style="font-size:13.5px;color:var(--text-2);margin:8px 0 0;">
+      لا يَنتَخِبُ القارئُ البابَ تِلقائيًّا — يَستَلزِمُ ذلك المَعنى الكامل لِلكَلِمة. تَصَفَّح الأَبوابَ الأَحَدَ عَشَر أَدناه واختَر «تَفعَل ×» التي تُطابِقُ المَعنى الفِعليَّ لِـ <strong>${binary}${L3?L3.glyph:''}</strong>.
+    </p>
+  `;
+  block.appendChild(card);
+}
+
+function renderModes() {
+  const list = document.getElementById('modes-list');
+  list.innerHTML = '';
+  for (const groupKey of ['positive', 'negative', 'transform', 'exception']) {
+    const g = MODES[groupKey];
+    const grp = document.createElement('div');
+    grp.className = 'modes-group ' + groupKey;
+    grp.innerHTML = `
+      <h4>
+        <span class="lang-en">${g.label.en}</span>
+        <span class="lang-ar">${g.label.ar}</span>
+      </h4>
+      <div class="modes-grid">
+        ${g.modes.map(m => `
+          <div class="mode-row">
+            <span class="mode-name">${m[0]}</span>
+            <span class="mode-ar">${m[1]}</span>
+            <span class="mode-desc">
+              <span class="lang-en">${m[2]}</span>
+              <span class="lang-ar">${m[3]}</span>
+            </span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+    list.appendChild(grp);
+  }
+}
+
+function read() {
+  const input = document.getElementById('ar-input').value;
+  const letters = extractLetters(input);
+  const result = document.getElementById('result');
+  const empty = document.getElementById('empty');
+  if (letters.length === 0) {
+    result.classList.remove('visible');
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+  result.classList.add('visible');
+  renderLetters(letters);
+  renderNucleus(letters);
+  renderModes();
+}
+
+// ============================================================
+// Event wiring
+// ============================================================
+document.getElementById('read-btn').addEventListener('click', read);
+document.getElementById('ar-input').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') { e.preventDefault(); read(); }
+});
+document.querySelectorAll('.example-chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    document.getElementById('ar-input').value = chip.dataset.w;
+    read();
+  });
+});
+
+// Theme + language toggles (matching site convention)
+(function () {
+  const htmlEl = document.documentElement;
+  const enBtn = document.getElementById('lang-en');
+  const arBtn = document.getElementById('lang-ar');
+  function setLang(lang) {
+    htmlEl.setAttribute('data-lang', lang);
+    htmlEl.setAttribute('lang', lang);
+    htmlEl.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+    enBtn.classList.toggle('active', lang === 'en');
+    arBtn.classList.toggle('active', lang === 'ar');
+    try { localStorage.setItem('juthoor-lang', lang); } catch (e) {}
+  }
+  const stored = (function(){ try { return localStorage.getItem('juthoor-lang'); } catch(e){ return null; }})();
+  setLang(stored === 'ar' ? 'ar' : 'en');
+  enBtn.addEventListener('click', () => setLang('en'));
+  arBtn.addEventListener('click', () => setLang('ar'));
+})();
+
+(function () {
+  const btn = document.getElementById('theme-toggle');
+  function refresh() {
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const label = dark ? '☀ Light' : '☾ Dark';
+    btn.textContent = label;
+    btn.setAttribute('aria-label', label);
+  }
+  refresh();
+  btn.addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme');
+    if (cur === 'dark') {
+      document.documentElement.removeAttribute('data-theme');
+      try { localStorage.setItem('aratongue-theme', 'light'); } catch(e){}
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      try { localStorage.setItem('aratongue-theme', 'dark'); } catch(e){}
+    }
+    refresh();
+  });
+})();
+</script>
+</body>
+</html>
