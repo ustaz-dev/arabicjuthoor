@@ -1,7 +1,5 @@
 # Layer 2 · The Twelve Composition Modes for Trilateral Roots
 
-*Arabic version: [`lv2-operative-grammar-ar.md`](lv2-operative-grammar-ar.md)*
-
 ## The finding
 
 Every Arabic trilateral root in Jabal's lexicon is interpretable as a single operative relation:

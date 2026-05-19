@@ -4,8 +4,6 @@
 **المؤلِّف:** ياسين تَمَسُّك
 **أُجريت تحت:** تَمَسُّك للبحوث والنشر والتدريب · [coranisyours.com](https://coranisyours.com) · [arabicjuthoor.com](https://arabicjuthoor.com/)
 
-*English version: [`our-contributions-and-roadmap.md`](our-contributions-and-roadmap.md)*
-
 ---
 
 ## الموجز

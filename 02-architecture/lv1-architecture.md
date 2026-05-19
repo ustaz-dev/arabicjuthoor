@@ -3,8 +3,6 @@
 **Author:** Yassine Temessek
 **Conducted under:** Temessek for Research, Publishing & Training
 
-*Arabic version: [`lv1-architecture-ar.md`](lv1-architecture-ar.md)*
-
 ---
 
 ## 1. Vision · الرؤية

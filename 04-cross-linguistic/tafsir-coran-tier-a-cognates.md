@@ -1,8 +1,6 @@
 # Cross-Linguistic Tier-A Cognates & The Verification Rubric
 
-*Arabic version: [`tafsir-coran-tier-a-cognates-ar.md`](tafsir-coran-tier-a-cognates-ar.md)*
-
-Eight verified cross-linguistic cognate pairs anchored in Quranic vocabulary, plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*. The 17 popular Arabic↔English cognates from Mazen Hammoude's series are kept separately in [`beyond-the-word-examples.md`](beyond-the-word-examples.md). For the underlying letter-charge framework, see [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
+Eight verified cross-linguistic cognate pairs anchored in Quranic vocabulary, plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*.
 
 ---
 

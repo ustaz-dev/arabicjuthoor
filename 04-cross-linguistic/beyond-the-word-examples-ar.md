@@ -1,7 +1,5 @@
 # Beyond the Word · كَلِماتٌ إنجليزيّةٌ بِجُذورٍ عربيّة
 
-*النسخة الإنجليزيّة: [`beyond-the-word-examples.md`](beyond-the-word-examples.md)*
-
 مُجَمَّعةٌ من صَفحة [Beyond the Word](https://www.facebook.com/beyondthename) على فَيسبوك. وَسمُ السِّلسلة: #مصادفة_لغوية. المُؤَلِّفُ الأَساسيّ: مازِن حَمّودة.
 
 ---

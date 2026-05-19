@@ -1,7 +1,5 @@
 # Phonotactically blocked and lexical-gap nuclei
 
-*Arabic version: [`jabal-nuclei-undocumented-ar.md`](jabal-nuclei-undocumented-ar.md)*
-
 The 442 binary nuclei that are **not** in the curated 18-nucleus working shortlist — including the 160 phonotactically blocked pairs (alif-initial, OCP, same-articulator-class) and the 155 true lexical gaps that Arabic could form but does not use. Each row gives the nucleus, the two letter charges, Jabal's recorded `binary_root_meaning` if any, and a sample of the trilateral roots Jabal classifies under it.
 
 | Nucleus | L1 charge | L2 charge | Jabal binary meaning | Roots | Sample roots | Proposed reading |

@@ -1,8 +1,6 @@
 # Unified Letter Charges & Common Nuclei
 
-*Arabic version: [`consensus-letter-charges-ar.md`](consensus-letter-charges-ar.md)*
-
-The canonical reference for the study: the unified 28-letter charge table, the general dual-face rule, the 18-nucleus working shortlist, and seven worked examples. Companion files: [`abbas-letter-classification.md`](abbas-letter-classification.md) for the sensory/articulatory classification, [`jabal-nuclei-extended.md`](jabal-nuclei-extended.md) and [`jabal-nuclei-tc-anchored.md`](jabal-nuclei-tc-anchored.md) for the full 453-nucleus catalog, and [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md) for the classical Arabic linguistic tradition.
+The canonical reference for the study: the unified 28-letter charge table, the general dual-face rule, the 18-nucleus working shortlist, and seven worked examples.
 
 ---
 

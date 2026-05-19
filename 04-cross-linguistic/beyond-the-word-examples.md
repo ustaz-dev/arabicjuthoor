@@ -1,7 +1,5 @@
 # Beyond the Word — English Words with Arabic Roots
 
-*Arabic version: [`beyond-the-word-examples-ar.md`](beyond-the-word-examples-ar.md)*
-
 Compiled from the Facebook page [Beyond the Word](https://www.facebook.com/beyondthename). Series hashtag: #مصادفة_لغوية (*Linguistic Coincidence*). Primary author: Mazen Hammoude.
 
 ---

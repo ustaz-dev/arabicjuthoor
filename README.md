@@ -6,8 +6,6 @@
 
 🚀 **Deploying:** see [`DEPLOYMENT.md`](DEPLOYMENT.md) for the GitHub Pages + Cloudflare DNS setup.
 
-*Arabic version: [`README-ar.md`](README-ar.md)*
-
 **Author:** Yassine Temessek
 **Conducted under:** **Temessek for Research, Publishing & Training** · [coranisyours.com](https://coranisyours.com) · [arabicjuthoor.com](https://arabicjuthoor.com/)
 

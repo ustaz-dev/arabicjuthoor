@@ -1,8 +1,6 @@
 # Jabal binary nuclei — the full catalog
 
-*Arabic version: [`jabal-nuclei-extended-ar.md`](jabal-nuclei-extended-ar.md)*
-
-The complete dossier of binary nuclei from Jabal's lexicon. Companion files: [`jabal-nuclei-tc-anchored.md`](jabal-nuclei-tc-anchored.md) for the Quran-anchored subset, [`consensus-letter-charges.md`](consensus-letter-charges.md) for the underlying letter charges.
+The complete dossier of binary nuclei from Jabal's lexicon.
 
 ## Two evidence tracks
 

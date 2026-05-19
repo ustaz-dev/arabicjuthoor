@@ -4,8 +4,6 @@
 **Author:** Yassine Temessek
 **Conducted under:** Temessek for Research, Publishing & Training · [coranisyours.com](https://coranisyours.com) · [arabicjuthoor.com](https://arabicjuthoor.com/)
 
-*Arabic version: [`our-contributions-and-roadmap-ar.md`](our-contributions-and-roadmap-ar.md)*
-
 ---
 
 ## Abstract

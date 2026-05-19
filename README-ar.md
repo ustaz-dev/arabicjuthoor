@@ -6,8 +6,6 @@
 
 🚀 **النَّشر:** انظر [`DEPLOYMENT.md`](DEPLOYMENT.md) لِإعداد GitHub Pages + Cloudflare DNS.
 
-*النسخة الإنجليزيّة: [`README.md`](README.md)*
-
 **المؤلِّف:** ياسين تَمَسُّك
 **أُجريت تحت:** **تَمَسُّك للبحوث والنشر والتدريب** · [coranisyours.com](https://coranisyours.com) · [arabicjuthoor.com](https://arabicjuthoor.com/)
 
