@@ -74,7 +74,7 @@ This study is not a competing alternative to that tradition; it is a **structura
 
 To that combined foundation, the study adds new structural findings, detailed in §2 below.
 
-**Methodological commitment:** the study did not take the foundation's results as given. We conducted our own readings independently, reading by reading, letter by letter, nucleus by nucleus, over a full year of systematic examination, cross-checked against the evidence in the classical and modern sources. Jabal's lexicon was the empirical backbone, but we did not transcribe his readings; we compared our independent readings against his, converging on much that he had already established and extending where his framework did not yet reach. The detailed record of these tests and editorial decisions lives in the [`../05-audits/`](../05-audits/) folder.
+**Methodological commitment:** the study did not take the foundation's results as given. We conducted our own readings independently, reading by reading, letter by letter, nucleus by nucleus, over a full year of systematic examination, cross-checked against the evidence in the classical and modern sources. Jabal's lexicon was the empirical backbone, but we did not transcribe his readings; we compared our independent readings against his, converging on much that he had already established and extending where his framework did not yet reach. The detailed record of these tests and editorial decisions lives in the [`../05-audits/`](../05-audits/README.md) folder.
 
 ---
 
@@ -191,7 +191,7 @@ The study rests on the **place of articulation and the movement of the mouth** a
 
 ### 3.2 Separating the cross-linguistic layer
 
-Dr. Ali Fahmi Khshim's sound-substitution laws represent **cross-linguistic comparison mechanisms**, not letter charges. We placed this work in the dedicated cross-linguistic layer [`../04-cross-linguistic/`](../04-cross-linguistic/), preserving the purity of the letter layer from cross-comparative contamination.
+Dr. Ali Fahmi Khshim's sound-substitution laws represent **cross-linguistic comparison mechanisms**, not letter charges. We placed this work in the dedicated cross-linguistic layer [`../04-cross-linguistic/`](../04-cross-linguistic/tafsir-coran-tier-a-cognates.md), preserving the purity of the letter layer from cross-comparative contamination.
 
 ### 3.3 A quiet stance against "scientific miraculousness" claims
 
@@ -199,7 +199,7 @@ There is no claim in the framework that a letter's charge "matches modern scienc
 
 ### 3.4 Single-row editorial decisions
 
-In each row of the 28-letter table, a reading had to be weighed against another. The prevailing line in those decisions: **we weight physical-articulatory charges over metaphysical-cosmological ones**. When the choice is between an abstract verbal reading and a simpler reading supported by the place of articulation, we choose the latter. The full record of row-by-row editorial decisions, with the evidence behind each weighting, is in [`../05-audits/`](../05-audits/).
+In each row of the 28-letter table, a reading had to be weighed against another. The prevailing line in those decisions: **we weight physical-articulatory charges over metaphysical-cosmological ones**. When the choice is between an abstract verbal reading and a simpler reading supported by the place of articulation, we choose the latter. The full record of row-by-row editorial decisions, with the evidence behind each weighting, is in [`../05-audits/`](../05-audits/README.md).
 
 ---
 
@@ -239,7 +239,7 @@ The project is organized in numbered layers (`01-theory/` … `05-audits/` + `Da
 
 ### 4.4 Audits and reconciliations
 
-The full audit record of the study is in the [`../05-audits/`](../05-audits/) folder. Disciplined auditing is a recurring methodological contribution.
+The full audit record of the study is in the [`../05-audits/`](../05-audits/README.md) folder. Disciplined auditing is a recurring methodological contribution.
 
 ### 4.5 The computational side of the project
 
@@ -258,7 +258,7 @@ Juthoor is a project with two sides: this vault (the research-editorial side) an
 | **The classical exegetes** (al-Tabari, al-Razi, al-Zamakhshari, …) | Detailed exegesis at a higher layer. No conflict, the study's scope is prior to their interpretive scope. |
 | **The classical grammarians** (Sibawayh, Ibn Malik, …) | Sentence-level grammar at a higher layer. The study's scope (sub-trilateral) is below grammar, a layering complement, not a contention. |
 
-**The full detail of the editorial decisions**, which charge was chosen and why, which readings were weighted against which alternative, is in the [`../05-audits/`](../05-audits/) folder.
+**The full detail of the editorial decisions**, which charge was chosen and why, which readings were weighted against which alternative, is in the [`../05-audits/`](../05-audits/README.md) folder.
 
 ---
 

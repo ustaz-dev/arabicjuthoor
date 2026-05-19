@@ -4,9 +4,9 @@
 **Module:** Juthoor-ArabicGenome-LV1
 **Author:** Yassine Temessek
 
-> **Role:** plain-English public companion to [`lv1-architecture.md`](lv1-architecture.md). When the two disagree, the architecture doc wins.
+> **Role:** plain-English public companion to [`lv1-architecture.md`](../02-architecture/lv1-architecture.md). When the two disagree, the architecture doc wins.
 >
-> **Architecture & methods:** see [`lv1-architecture.md`](lv1-architecture.md) for the full layer architecture, composition models, scoring methods, execution pipeline, and scope boundaries.
+> **Architecture & methods:** see [`lv1-architecture.md`](../02-architecture/lv1-architecture.md) for the full layer architecture, composition models, scoring methods, execution pipeline, and scope boundaries.
 
 ---
 

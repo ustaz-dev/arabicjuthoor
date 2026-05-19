@@ -206,7 +206,7 @@ The following points were raised by the Codex platform AI and are corrected here
 
 ### Summary/overview files:
 - [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md) — main phonosemantics summary (805 lines, 20 sections)
-- [`../01-theory/quranic-foundation-ar.md`](../01-theory/quranic-foundation-ar.md) — theory file with scholar profiles
+- [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md) — theory file with scholar profiles
 - [`lv1-overview-archived.md`](lv1-overview-archived.md) — older English overview (archived in audits)
 - [`../02-architecture/lv1-architecture.md`](../02-architecture/lv1-architecture.md) — master architecture document (canonical, updated 2026-03-24)
 
