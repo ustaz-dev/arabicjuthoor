@@ -1,7 +1,7 @@
 """Notify Bing + Yandex (via IndexNow) that arabicjuthoor.com content changed.
 
 IndexNow is a free, open protocol supported by Bing, Yandex, Seznam, Naver,
-and Yep. One POST → all of them re-crawl immediately. Google does NOT
+and Yep. One POST -> all of them re-crawl immediately. Google does NOT
 support IndexNow yet (use the sitemap + GSC URL-Inspection there).
 
 Usage:
@@ -14,7 +14,14 @@ discoverable at the site root so the search engines can verify ownership.
 """
 from __future__ import annotations
 
+import io
 import json
+import sys as _sys
+
+# Force UTF-8 stdout on Windows (cp1252 can't print non-ASCII)
+if hasattr(_sys.stdout, "reconfigure"):
+    _sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 import re
 import sys
 import urllib.request
@@ -51,11 +58,11 @@ def ping(urls: list[str]) -> None:
     )
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
-            print(f"IndexNow → {resp.status} {resp.reason} ({len(urls)} URLs)")
+            print(f"IndexNow -> {resp.status} {resp.reason} ({len(urls)} URLs)")
     except urllib.error.HTTPError as exc:
         # 200/202 = ok, 422 = URLs already received recently (still ok)
         body = exc.read().decode("utf-8", errors="replace")[:300]
-        print(f"IndexNow → {exc.code} {exc.reason}\n{body}")
+        print(f"IndexNow -> {exc.code} {exc.reason}\n{body}")
 
 
 def main() -> None:
