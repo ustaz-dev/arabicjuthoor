@@ -583,6 +583,38 @@ table.data tr:hover { background: var(--bg-2); }
   letter-spacing: 0.06em; color: var(--accent); margin-bottom: 6px;
 }
 
+/* Introductory paper, one prominent box that explains the project end-to-end */
+.intro-paper {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-left: 5px solid var(--accent);
+  padding: 44px 52px; border-radius: 12px;
+  margin: 28px 0 36px;
+  box-shadow: 0 2px 16px rgba(26,34,54,0.05);
+  font-size: 16.5px; line-height: 1.85;
+}
+[data-theme="dark"] .intro-paper { box-shadow: 0 2px 18px rgba(0,0,0,0.25); }
+html[data-lang="ar"] .intro-paper { border-left: 1px solid var(--border); border-right: 5px solid var(--accent); }
+.intro-paper p { margin: 0 0 1.15em; color: var(--text); }
+.intro-paper p:last-child { margin-bottom: 0; }
+.intro-paper p.lead { font-size: 1.06em; color: var(--text); font-weight: 500; }
+.intro-paper strong { color: var(--text); font-weight: 700; }
+.intro-paper h3 {
+  font-size: 18px; font-weight: 700; color: var(--accent);
+  margin: 1.4em 0 0.5em; letter-spacing: -0.01em;
+}
+.intro-paper h3:first-of-type { margin-top: 0.5em; }
+.intro-paper ul, .intro-paper ol { margin: 0.4em 0 1.2em; padding-left: 22px; }
+html[data-lang="ar"] .intro-paper ul, html[data-lang="ar"] .intro-paper ol { padding-left: 0; padding-right: 22px; }
+.intro-paper li { margin-bottom: 0.55em; }
+.intro-paper .paper-cta {
+  margin-top: 1.4em; padding-top: 1.2em; border-top: 1px dashed var(--border);
+  font-size: 14.5px; color: var(--text-2);
+}
+.intro-paper .paper-cta a { color: var(--accent); font-weight: 600; }
+@media (max-width: 700px) {
+  .intro-paper { padding: 28px 22px; font-size: 15.5px; }
+}
+
 /* Footer */
 footer.foot {
   max-width: 1200px; margin: 40px auto 0; padding: 36px 28px;
@@ -930,128 +962,78 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
 
 <!-- ====================== OVERVIEW ====================== -->
 <section id="overview">
-  <div class="section-eyebrow"><span class="lang-en">01 · What this study is</span><span class="lang-ar">١ · ما هذه الدراسة</span></div>
-  <h2 class="section-title lang-en">An empirical theory of meaning-composition in Arabic</h2>
-  <h2 class="section-title lang-ar ar-display">نظريّةٌ تجريبيّةٌ لِتركيب المعنى في العربيّة</h2>
-  <p class="section-intro lang-en">
-    Arabic letter semantics, the claim that each of the 28 Arabic letters carries a physical-articulatory charge and that meaning composes upward from letter to nucleus to root to word, has roots reaching back to the classical Arabic linguistic tradition, from <span class="ar-display">الخليل بن أحمد الفراهيدي</span> (8th century) and <span class="ar-display">ابن جنّي</span> in <span class="ar-display">الخصائص</span> (11th century, the well-known <span class="ar-display">«إمساس الألفاظ أشباه المعاني»</span> doctrine) through the classical lexicographers. The modern lexicographic foundation rests on Dr. Muhammad Hassan Jabal's <span class="ar-display">المعجم الاشتقاقي المؤصَّل</span> and the parallel work of Hassan Abbas on the sensory profiles of letters. This study takes that combined foundation and adds <strong>new structural findings of its own</strong>: the universal dual-face structure of letter charges, the 12-mode operative grammar of trilateral composition, the 4-bar verification rubric for cross-linguistic cognates, and a principled scope statement that names what the framework does and does not yet do.
-  </p>
-  <p class="section-intro lang-ar">
-    تَقومُ دلالاتُ الحروف العربيّة على أصلٍ عَريق: لِكلّ حرفٍ من حروف العربيّة الثمانية والعشرين شَحنةٌ مَخرَجيّةٌ نُطقيّة، والمعنى يَتركّبُ صُعودًا: من الحرف إلى النَّواة الثنائيّة، إلى الجذر، إلى الكلمة. أُصولُ هذا النظر في التقليد اللغويّ العربيّ القديم، من الخليل بن أحمد الفراهيديّ في «العين» (القرن الثاني الهجريّ) وابن جنّي في «الخصائص» (القرن الرابع، باب «إمساس الألفاظ أشباه المعاني»)، إلى المعجميّين والنُّحاة الكبار. وفي العصر الحديث تَقومُ الأرضيّةُ المعجميّة على «المعجم الاشتقاقيّ المُؤَصَّل» لِلدكتور محمد حسن جَبَل، وإلى جانبه عَمَل حسن عبّاس على البَصَمات الحِسّيّة لِلحروف. تَأخذ هذه الدراسةُ هذه الأرضيّة وتُضيف إليها <strong>نتائج جديدة</strong>: قاعدةُ الوجهَين العامّة في شَحَنات الحروف، واثنا عشر بابًا في تركيب الجذر الثلاثيّ، وضوابطُ التحقّق الأربعة في المُقارَبات بين اللغات، وبَيانٌ صريحٌ لِنِطاق الدراسة يُحدّد ما بَلَغَتْه وما لم تَبلُغْه بَعد.
-  </p>
+  <div class="section-eyebrow"><span class="lang-en">01 · Introductory note</span><span class="lang-ar">١ · ورقةٌ تَعريفيّة</span></div>
+  <h2 class="section-title lang-en">What this project is, and why it matters</h2>
+  <h2 class="section-title lang-ar ar-display">ما هذا المشروع، ولِماذا يَهُمّ</h2>
 
-  <h3 class="block-title"><span class="lang-en">The question this study asks</span><span class="lang-ar">السؤال الذي تَطرحه الدراسة</span></h3>
-  <p class="lang-en">When a word means what it means, is the bond between its sounds and its meaning entirely conventional, or is there some structure? The dominant modern answer — descended from Ferdinand de Saussure — says the bond is <strong>arbitrary</strong>: the phoneme /m/ in <em>mother</em> carries no inherent connection to motherhood, and the same concept could just as well have been encoded by /p/ or /b/. The signifier and the signified are linked only by convention.</p>
-  <p class="lang-ar">حين تَدلّ الكلمةُ على ما تَدلّ عليه، هل العَلاقة بين أصواتها ومعناها اصطلاحٌ مَحض، أم في الأمر بناءٌ مَخصوص؟ الإجابةُ الحديثة السائدة — المُنحَدِرة من فيرديناند دي سوسير — تَقول: العَلاقةُ <strong>اعتباطيّة</strong>؛ فالصوتُ /م/ في «مادر» لا يَحمل صِلةً مَخصوصةً بالأمومة، وكان يُمكن أن يَكون /ب/ أو /ف/ بِالقَدر نفسِه. الدالُّ والمَدلولُ مَوصولانِ بِالعُرف لا غَير.</p>
-  <p class="lang-en">The classical Arabic linguistic tradition, twelve centuries before Saussure, gave the opposite answer. Ibn Jinni framed it in <span class="ar-display">الخصائص</span> as <strong>«إمساس الألفاظ أشباه المعاني»</strong> — letters touch upon resemblances of meanings. Al-Khalil ibn Ahmad ordered the entire dictionary by <span class="ar-display">مَخرَج</span> (place of articulation), starting from deep in the throat and moving forward to the lips, on the assumption that the physical gesture of pronunciation is itself the wellspring of the meaning. This study takes the classical Arabic position seriously, tests it empirically against the modern lexicographic foundation, and reports what the data shows.</p>
-  <p class="lang-ar">التَّقليدُ العربيّ القديم — قَبلَ سوسير باثني عشر قَرنًا — أَجاب الجوابَ المُعاكِس. صاغَ ابن جنّي ذلك في «الخصائص» تَحت بابِ <strong>«إمساس الألفاظ أشباه المعاني»</strong>؛ ورَتَّب الخليلُ بن أحمد المعجمَ كلَّه بِالمَخرَج، فابتدأ من أقصى الحَلق ومَضى إلى الشَّفَتَين، على أنّ الحَركةَ الفيزيائيّةَ لِلنُّطق هي مَنبَعُ الدِّلالة. تَأخذُ هذه الدراسةُ ذلك المَوقفَ القديم مَأخَذَ الجِدّ، وتَختبره بِالاستقراء على الأرضيّة المعجميّة الحديثة، وتُسَجِّل ما تَكشِفه البَيانات.</p>
+  <div class="intro-paper">
 
-  <h3 class="block-title"><span class="lang-en">Where this sits in the linguistic landscape</span><span class="lang-ar">مَوقعُ هذا العَمَل في المَشهد اللسانيّ</span></h3>
-  <p class="lang-en">Three traditions converge in this work. None is rejected; each contributes a layer.</p>
-  <p class="lang-ar">تَلتَقي في هذا العَمَل ثَلاثةُ تَقاليدَ مُختلِفة. لا يُرَدّ منها واحد؛ كلٌّ منها يُسهم بطبقة.</p>
-
-  <div class="cards-grid">
-    <div class="card">
-      <div class="card-icon">◌</div>
-      <h3 class="card-title"><span class="lang-en">The classical Arabic phonosemantic tradition</span><span class="lang-ar">التَّقليد العربيّ في دلالات الحُروف</span></h3>
-      <p class="card-body lang-en">Al-Khalil ibn Ahmad al-Farahidi (<em>Kitab al-Ayn</em>, 8th c.), Ibn Jinni (<em>al-Khasais</em>, 11th c., the <span class="ar-display">إمساس</span> doctrine), Ibn Faris (<em>Maqayis al-Lugha</em>, 10th c., one core meaning per root), and the lexicographers who refined the place-of-articulation taxonomy over a millennium. This is the most developed theory of sound-meaning correspondence ever produced in any language.</p>
-      <p class="card-body lang-ar">الخليلُ بن أحمد الفراهيديّ في «العين» (القرن الثاني الهجريّ)، وابنُ جنّي في «الخصائص» (القرن الرابع، باب الإمساس)، وابنُ فارس في «مَقاييس اللغة» (القرن الرابع، أصلٌ مَركزيٌّ واحدٌ لِكلّ جذر)، ومَن جاء بَعدهم من المعجميّين الذين هَذَّبوا تَصنيف المَخارج عبر قرون. هذا التَّقليدُ أَنضَجُ نَظَريّةٍ في تَلازُم الصوت بِالمعنى وُضِعَت في أيّ لُغة.</p>
-    </div>
-    <div class="card">
-      <div class="card-icon">⇄</div>
-      <h3 class="card-title"><span class="lang-en">Saussurean structuralism</span><span class="lang-ar">البِنَويّة السوسيريّة</span></h3>
-      <p class="card-body lang-en">Ferdinand de Saussure's distinction between signifier and signified, his analysis of language into phonemes (<span class="ar-display">صَواتم</span>) and morphemes (<span class="ar-display">لَفاظِم</span>), and his thesis of the arbitrariness of the linguistic sign. This study does not reject Saussure; it tests his arbitrariness thesis against a language for which it has never been systematically tested.</p>
-      <p class="card-body lang-ar">فيرديناند دي سوسير وتَفريقُه بين الدالّ والمَدلول، وتَحليلُه اللغة إلى صَواتمَ ولَفاظِم، ودَعواه باعتباطيّة الإشارة اللغويّة. لا تَرفض هذه الدراسةُ سوسير؛ تَختبر دَعوى الاعتباطيّة على لُغةٍ لم تُختَبَر فيها بِشَكلٍ مُنهَجيٍّ من قَبل.</p>
-    </div>
-    <div class="card">
-      <div class="card-icon">⌭</div>
-      <h3 class="card-title"><span class="lang-en">Modern phonosemantics</span><span class="lang-ar">دِراساتُ الدِّلالة الصوتيّة الحديثة</span></h3>
-      <p class="card-body lang-en">Otto Jespersen, Edward Sapir, Roman Jakobson, Reuven Tsur, Margaret Magnus, Leanne Hinton, and the cross-linguistic experimental literature on sound symbolism (the <em>bouba/kiki</em> effect, the <em>mil/mal</em> size correspondence, voicing and magnitude). Suggestive but small in scale and scattered across languages, never reaching Arabic's systematic coverage.</p>
-      <p class="card-body lang-ar">أوتو يسبرسن، إدوارد سابير، رومان ياكوبسون، رؤوفن تسور، مارجريت ماجنوس، ليان هينتون، والأَدبيّاتُ التَّجريبيّةُ المُقارَنة في الرَّمزيّة الصوتيّة (أَثرُ <em>بوبا/كيكي</em>، تَقابُلُ <em>مِل/مَل</em> في الحَجم، الجَهرُ وضَخامةُ المَدلول). شَواهدُ مُستَفِزّة لكنّها صَغيرةُ الحَجم مُتَناثِرةُ اللغات، لم تَبلُغ يومًا الشُّمولَ المنهجيَّ الذي تُتيحه العربيّة.</p>
-    </div>
-  </div>
-
-  <p class="lang-en" style="margin-top: 24px;">This study sits at the intersection of these three: the classical Arabic intuition supplies the framework, the modern phonosemantic literature supplies the cross-linguistic horizon, and the Saussurean toolkit supplies the units at which the test runs — phoneme → binary nucleus → root → word.</p>
-  <p class="lang-ar" style="margin-top: 24px;">تَقَع هذه الدراسةُ على تَقاطُع هذه الثلاثة: التَّقليدُ العربيّ القديم يُقَدِّم الإطار، والأَدبُ المُقارَنُ الحَديث يُقَدِّم الأُفقَ بين اللغات، والعُدّةُ السوسيريّةُ تُقَدِّم الوَحَدات التي يَجري عليها الاختبار — صاتم ← نواة ثنائيّة ← جذر ← كلمة.</p>
-
-  <h3 class="block-title"><span class="lang-en">What this study adds</span><span class="lang-ar">ما تُضيفه هذه الدراسة</span></h3>
-  <div class="cards-grid">
-    <a class="card-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="card">
-      <div class="card-icon">⌬</div>
-      <h3 class="card-title"><span class="lang-en">A unified ruling table</span><span class="lang-ar">جدولُ الحروف المُوَحَّد</span></h3>
-      <p class="card-body lang-en">One consensus charge per letter, grounded in the classical Arabic tradition and the modern lexicographic foundation, with bilingual phonetic notes and English glosses for every entry.</p>
-      <p class="card-body lang-ar">شَحنةٌ مَخرَجيّةٌ مُتّفَقٌ عليها لِكلّ حرف، مُسْنَدةٌ إلى التقليد العربيّ القديم والأرضيّة المعجميّة الحديثة، مع وَصفٍ نُطقيٍّ ومُقابلٍ إنجليزيٍّ لِكلّ سَطر.</p>
-    </div></a>
-    <a class="card-link" href="viewer.html?file=03-scholar-extracts/consensus-letter-charges.md"><div class="card">
-      <div class="card-icon">⇌</div>
-      <h3 class="card-title"><span class="lang-en">Universal dual-face structure</span><span class="lang-ar">قاعدةُ الوَجهَين العامّة</span></h3>
-      <p class="card-body lang-en">Empirically confirmed across all 453 binary nuclei: every letter carries two semantic faces of the same physical articulation, and the trilateral family selects which face is active.</p>
-      <p class="card-body lang-ar">ثَبَتَت بِالاستِقراء على الأربعمائة والثلاث والخمسين نواةً ثنائيّة: كلّ حرفٍ يَحمل وَجهَين دلاليَّين لِمَخرَجٍ نُطقيٍّ واحد، والحرف الثالث في الجذر هو الذي يُحدِّد أيّ الوَجهَين يَعمل.</p>
-    </div></a>
-    <a class="card-link" href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><div class="card">
-      <div class="card-icon">▦</div>
-      <h3 class="card-title"><span class="lang-en">12-mode operative grammar</span><span class="lang-ar">اثنا عشر بابًا في تركيب الجذر</span></h3>
-      <p class="card-body lang-en">Every Arabic trilateral root is readable as <code>(binary nucleus) does X to (third letter as material)</code>. 2,285 roots graded at 100% native fit across 12 modes.</p>
-      <p class="card-body lang-ar">كلّ جذرٍ ثلاثيٍّ عربيّ يَنحَلّ إلى عَلاقة عَمَلٍ واحدة: <code>النواةُ الثنائيّةُ تَعمل في الحرف الثالث وتَتَّخِذُه مادّةً لها</code>. ٢,٢٨٥ جذرًا تَنطبِق على اثني عشر بابًا انطباقًا تامًّا.</p>
-    </div></a>
-    <a class="card-link" href="03-scholar-extracts/jabal-letters.html"><div class="card">
-      <div class="card-icon">⚙</div>
-      <h3 class="card-title"><span class="lang-en">Empirical falsifiability</span><span class="lang-ar">قابليّةُ الدَّحضِ بالشواهد</span></h3>
-      <p class="card-body lang-en">Every nucleus, every cognate, every claim is line-cited against its source and tested against the combined evidence.</p>
-      <p class="card-body lang-ar">كلّ نواةٍ ومُقارَبةٍ وقراءةٍ مَنسوبةٌ إلى مَرجعها، مُختَبَرةٌ على الشواهد المُتقاطِعة.</p>
-    </div></a>
-  </div>
-
-  <h3 class="block-title"><span class="lang-en">Why it matters</span><span class="lang-ar">لماذا يَهُمّ هذا</span></h3>
-  <div class="cards-grid">
-    <div class="card">
-      <div class="card-icon">𝛼</div>
-      <h3 class="card-title"><span class="lang-en">For Arabic and Quranic studies</span><span class="lang-ar">لِلدراسات العربيّة والقرآنيّة</span></h3>
-      <p class="card-body lang-en">Gives a quantitative, falsifiable framework where there was only intuition. The 28-letter charges are tested against the 453 binary nuclei of Jabal's lexicon; the twelve composition modes are tested against 2,285 trilateral roots; verse-level Quranic readings become grounded in articulatory phonology, not in interpretive tradition alone.</p>
-      <p class="card-body lang-ar">يَمنح الحقلَ إطارًا كَمّيًّا قابلًا لِلدَّحض حيث كان الحَدسُ وَحدَهُ. شَحَناتُ الحُروف الثمانية والعشرين مُختَبَرةٌ على الأربعمائة والثلاث والخمسين نواةً الثنائيّة في مُعجم جَبَل، وأَبوابُ التركيب الاثنا عشر مُختَبَرةٌ على ٢,٢٨٥ جذرًا ثلاثيًّا. والقراءاتُ على مَستوى الآيات تَستَنِد إلى عِلم المَخارج والصِّفات، لا إلى التَّقليد التَّفسيريّ وَحده.</p>
-    </div>
-    <div class="card">
-      <div class="card-icon">⇄</div>
-      <h3 class="card-title"><span class="lang-en">For general linguistics</span><span class="lang-ar">لِعِلم اللُّغة العامّ</span></h3>
-      <p class="card-body lang-en">Provides the first systematic large-scale empirical test of Saussure's arbitrariness thesis on a language whose morphology preserves a transparent root structure. If the dual-face rule holds for every Arabic letter across all 453 nuclei, the arbitrariness thesis is in question — at least for Arabic, and perhaps for any language with a comparable architecture.</p>
-      <p class="card-body lang-ar">يُقَدِّم أوّلَ اختبارٍ تَجريبيٍّ مُنَهَّج وواسع لِدَعوى الاعتباطيّة عند سوسير على لُغةٍ يُحافِظ صَرفُها على بِنية الجذر الشَّفّافة. إن صَحَّت قاعدةُ الوَجهَين على كلّ حرفٍ عبر النَّوى الـ ٤٥٣، فدَعوى الاعتباطيّة في مَوضِع سُؤال — في العربيّة على الأقلّ، ولَعَلَّ في كلّ لُغةٍ تَحمل بِنيةً مَعماريّةً مُماثلة.</p>
-    </div>
-    <div class="card">
-      <div class="card-icon">∇</div>
-      <h3 class="card-title"><span class="lang-en">For comparative linguistics</span><span class="lang-ar">لِلسانيّات المُقارَنة</span></h3>
-      <p class="card-body lang-en">A disciplined four-bar rubric for cross-linguistic cognates, anchored by Khshim's nine sound-substitution laws, with eight Quran-anchored Tier-A pairs (kufu'/copy, salām/shalom, rabb/rabbi, jinn/genie, kalām/claim, qul/call, sharb/sorb, jam'/Gemini) demonstrating the method.</p>
-      <p class="card-body lang-ar">ضوابطُ تَحقُّقٍ مُنضَبِطةٌ من أربعة شُروط لِلنَّظائر بين اللغات، مُسنَدةٌ إلى قوانين الإبدال الصَّوتيّ التِّسعة عند د. علي فهمي خشيم، مع ثَمانية أزواجٍ راسخةٍ قُرآنيًّا في الصِّنف الأوّل (كفء/copy، سلام/shalom، ربّ/rabbi، جنّ/genie، كلام/claim، قُل/call، شُرب/sorb، جَمع/Gemini) تُبَيِّن المنهج عَمَليًّا.</p>
-    </div>
-    <div class="card">
-      <div class="card-icon">⟨ ⟩</div>
-      <h3 class="card-title"><span class="lang-en">For computational linguistics and AI</span><span class="lang-ar">لِلسانيّات الحاسوبيّة والذَّكاء الاصطناعيّ</span></h3>
-      <p class="card-body lang-en">Opens the door to <strong>root-level meaning composition</strong> that pure embedding models cannot reach. Where a neural language model learns an opaque mapping from token to vector, this framework offers a <em>transparent compositional algebra</em>: the binary nucleus operates on the third letter, taking its charge as material, in one of twelve modes. Language, in this view, is <em>acoustic mathematics and semantic algorithms</em> — and the algebra is now explicit.</p>
-      <p class="card-body lang-ar">يَفتح الباب أمام <strong>تركيب المعنى على مستوى الجذر</strong>، وهو ما لا تَبلُغه نَماذجُ التَّضمين (embeddings) العَصَبيّة وحدَها. حَيث تَتَعَلَّم النَّماذجُ العَصَبيّةُ مَسحًا غيرَ شَفّافٍ من الرَّمز إلى الشُّعاع، يُقَدِّم هذا الإطار <em>جَبرًا تَركيبيًّا شَفّافًا</em>: النَّواةُ الثنائيّةُ تَعمل في الحرف الثالث، وتَتَّخِذ شَحنتَهُ مادّةً لها، في أحد اثني عشر بابًا. اللغةُ على هذه القراءة <em>رياضيّاتٌ صَوتيّةٌ وخوارزميّاتٌ مَعنويّة</em> — والجَبرُ الآن صَريح.</p>
-    </div>
-  </div>
-
-  <div class="callout">
-    <div class="callout-title"><span class="lang-en">The study's four original findings on the Arabic genome</span><span class="lang-ar">النتائج الأربع الأصليّة في جينوم العربيّة</span></div>
-
-    <div class="lang-en">
-      <p style="margin: 0 0 14px;">The classical Arabic linguistic tradition supplied the foundational intuition (the letter-meaning correspondence is older than this study by more than a millennium). The modern lexicographic anchor is Jabal's <span class="ar-display">المعجم الاشتقاقي المؤصَّل</span>, with Hassan Abbas's sensory-profile work as a parallel modern reference. Over a sustained year of systematic testing, this study put the combined readings through a uniform examination, checking each claim against Jabal's lexicon alongside the corroborating evidence in the classical and modern sources. The <strong>four results that follow are new to the field</strong> and emerged from that examination, not from any single source taken alone. A fifth original finding, on cross-linguistic verification, is presented later on this page in the dedicated cross-linguistic section.</p>
-      <ol style="margin: 0; padding-left: 22px; line-height: 1.65;">
-        <li style="margin-bottom: 12px;"><strong>A universal rule for letter charges.</strong> Each of the 28 Arabic letters carries two related semantic faces of one physical articulation; which face is active is decided by the third letter in the root. The rule was tested across all 453 binary nuclei in the corpus and held in every case. Earlier scholarship had suspected this pattern only for a handful of letters; this study establishes it as universal.</li>
-        <li style="margin-bottom: 12px;"><strong>Twelve composition modes for trilateral roots.</strong> Every Arabic three-letter root is readable as one operative relation: <em>the two-letter nucleus acts on the third letter, treating it as material</em>. Twelve modes — CARRY, HOLD, RELEASE, PROJECT, INTENSIFY, BLOCK, DRAIN, CHANNEL, OPERATE, MIX, REVERT, plus LOANWORD for non-native roots — cover 2,285 graded roots at 100% fit, without forcing any reading.</li>
-        <li style="margin-bottom: 12px;"><strong>A complete catalog of 453 binary nuclei.</strong> Every nucleus in the lexicon has been catalogued: 258 grounded in published Quranic readings, 171 graded compositionally from the letter charges, and an 18-nucleus working shortlist for daily use.</li>
-        <li><strong>An honest statement of scope.</strong> Of the 784 mathematically possible two-letter combinations, 160 are blocked by Arabic phonology, 155 are lexical gaps the language could fill but doesn't, and 453 are attested. The 100% fit claim is bounded by what Arabic actually uses, not by the mathematics.</li>
-      </ol>
-    </div>
-
+    <!-- ====== ARABIC ====== -->
     <div class="lang-ar">
-      <p style="margin: 0 0 14px;">التقليدُ اللغويّ العربيّ القديم هو الذي قَدَّم الحَدسَ التأسيسيّ (تَلازُمُ الحرف بالمعنى أَقدمُ من هذه الدراسة بأكثر من ألفِ عام). والأرضيّةُ المعجميّةُ الحديثة هي «المعجم الاشتقاقيّ المُؤَصَّل» لِجَبَل، وإلى جانبه عَمَل حسن عبّاس على البَصَمات الحِسّيّة لِلحُروف مَرجعًا حديثًا مُوازيًا. أَخضَعَت هذه الدراسةُ القراءاتِ المُجتَمِعة إلى فَحصٍ منهجيٍّ امتدَّ سَنةً كاملة، فحَصَت فيه كلَّ قراءةٍ على مُعجم جَبَل بالتقاطع مع الشواهد المُعَضِّدة في المصادر القديمة والحديثة. <strong>النتائج الأربع التالية جديدةٌ في حقل دلالات الحروف</strong>، وتَوَلَّدَت من ذلك الفَحص، لا من أيّ بَحثٍ منفردٍ من قَبل. وثَمَّ نتيجةٌ خامسةٌ أصليّة في التحقّق بين اللغات، تَجدُها مَعروضةً في القِسم المُخَصَّص لِما بين اللغات أَسفل هذه الصفحة:</p>
-      <ol style="margin: 0; padding-right: 22px; padding-left: 0; line-height: 1.85;">
-        <li style="margin-bottom: 12px;"><strong>قاعدةٌ عامّةٌ في شَحَنات الحروف.</strong> كلّ حرفٍ من حروف العربيّة الثمانية والعشرين يَحمل وَجهَين دلاليَّين مُتَلازِمَين لِمَخرَجٍ نُطقيٍّ واحد، والحرف الثالث في الجذر هو الذي يُحدِّد أيّ الوَجهَين يَعمل. اسْتُقرِئَت القاعدةُ على الأربعمائة والثلاث والخمسين نواةً ثنائيّة، فاطَّرَدَت من غير شُذوذ.</li>
-        <li style="margin-bottom: 12px;"><strong>اثنا عشر بابًا في تركيب الجذر الثلاثيّ.</strong> كلّ جذرٍ ثلاثيٍّ عربيٍّ يَنحَلّ إلى عَلاقة عَمَلٍ واحدة: <em>النواةُ الثنائيّةُ تَعمل في الحرف الثالث، وتَتَّخِذُه مادّةً لها</em>. اثنا عشر بابًا — <em>الحَمل، الإمساك، الإطلاق، الإبراز، التَّضعيف، الحَجب، الاسْتنزاف، التَّوجيه، الإعمال، المَزج، القَلب، الدَّخيل</em> — تَستوعب ٢,٢٨٥ جذرًا انطباقًا تامًّا من غير تَكَلُّف.</li>
-        <li style="margin-bottom: 12px;"><strong>ديوانٌ كاملٌ لِأربعمائةٍ وثلاثٍ وخمسين نواةً ثنائيّة.</strong> كلّ نواةٍ في المعجم مَفهرَسة: ٢٥٨ راسخةٌ بقراءاتٍ قرآنيّةٍ منشورة، ١٧١ مُقَدَّرةٌ تركيبيًّا من شَحَنات الحروف، وقائمةٌ مختصرةٌ من ١٨ نواةً لِلاستعمال اليوميّ.</li>
-        <li><strong>بَيانٌ صريحٌ لِنِطاق الدراسة.</strong> من بين ٧٨٤ تَوليفةً ثنائيّةً مُمكنةً حسابيًّا، ١٦٠ مَحجوبةٌ بِنظام أصوات العربيّة، و١٥٥ فَجوةٌ مُعجميّةٌ كانت اللغةُ قادرةً على ملئها فلم تَفعَل، و٤٥٣ ثابتةٌ في المعجم. دَعوى المُطابَقة الكاملة مَحدودةٌ بما تَستعمله العربيّةُ فِعلًا، لا بِالإمكان الحسابيّ.</li>
-      </ol>
+      <p class="lead"><strong>العربيّةُ لُغةٌ تُبنى كَلِماتُها من حُروف،</strong> وكلّ حرفٍ منها يَحمل مَعنىً مَخصوصًا، مُسْتَمَدًّا من شَكل نُطقِه في الفم: حَركة اللسان، ومَوضع الصوت، وخُروج النَّفَس. هذه فِكرةٌ بَسيطةٌ في أصلها، عَريقةٌ في التَّقليد العربيّ، لكنّها تَفتح بابًا واسعًا حين تُؤخَذ مَأخَذَ الجِدّ وتُختَبَر تَجريبيًّا.</p>
+
+      <h3>الفِكرةُ ليست جَديدة</h3>
+      <p>صاغَها <strong>الخليلُ بن أحمد الفراهيديّ</strong> في «كتاب العين» قَبل اثني عشر قَرنًا، ورَتَّب المعجمَ كلَّه بِالمَخرَج، من أَقصى الحَلق إلى الشَّفَتَين، على أنّ الحَركةَ الفيزيائيّةَ لِلنُّطق هي مَنبَعُ الدِّلالة. وصاغَها <strong>ابنُ جنّي</strong> في «الخصائص» تَحت بابٍ سَمّاه «<strong>إمساس الألفاظ أشباه المعاني</strong>». ووَضَع <strong>ابنُ فارس</strong> في «مَقاييس اللغة» أصلًا مَعنويًّا مَركَزيًّا واحدًا لِكلّ جذر. هذا هو التَّقليد. وفي العَصر الحَديث، تَقومُ الأرضيّةُ المُعجَميّة على «المعجم الاشتقاقيّ المُؤَصَّل» لِلدكتور <strong>محمد حسن جَبَل</strong>، وعَمَل <strong>حسن عبّاس</strong> على البَصَمات الحِسّيّة لِلحُروف.</p>
+
+      <h3>ما تَفعله هذه الدراسة</h3>
+      <p>تَأخذُ الدراسةُ هذا الحَدسَ القَديم، لا كَمُسَلَّمةٍ بل كَفَرَضيّةٍ تُختَبَر، وتُخضِعه لاختبارٍ منهجيٍّ امتدّ سَنةً كاملةً على مُدَوَّنة جَبَل بأَكمَلِها: <strong>٢٨ حرفًا</strong>، و<strong>٤٥٣ نواةً ثنائيّة</strong> (الحرفان الأوّلان من الجذر)، و<strong>٢,٢٨٥ جذرًا ثلاثيًّا</strong>. النَّتيجةُ ليست فقط أنّ الفِكرة صَحيحة، بل أنّها قابلةٌ لِلتَّفصيل في أربع نَتائج بنيويّة جَديدة:</p>
+      <ul>
+        <li><strong>جدولٌ مُوَحَّدٌ لِشَحَنات الحُروف الـ ٢٨</strong> — شَحنةٌ مَخرَجيّةٌ واحدةٌ حاكمةٌ لِكلّ حرف، مع وَصفٍ نُطقيٍّ ومُقابِلٍ إنجليزيّ.</li>
+        <li><strong>قاعدةُ الوَجهَين العامّة</strong> — كلّ حرفٍ يَحمل وَجهَين دلاليَّين لِنُطقٍ واحد، والحرف الثالث في الجذر هو الذي يُحَدِّد أيُّ الوَجهَين يَعمل. ثَبَتَت بِالاستقراء على الأربعمائة والثلاث والخمسين نواةً كلِّها.</li>
+        <li><strong>اثنا عشر بابًا في تركيب الجذر الثلاثيّ</strong> — النَّواةُ الثنائيّةُ تَعمل في الحرف الثالث وتَتَّخِذ شَحنتَهُ مادّةً لها، في أحد اثني عشر بابًا مَحدودة. تَنطبق على ٢,٢٨٥ جذرًا انطباقًا تامًّا من غير تَكَلُّف.</li>
+        <li><strong>ضوابطُ التَّحَقُّق الأربعة في النَّظائر بين اللغات</strong> — مُسنَدةٌ إلى قوانين الإبدال الصَّوتيّ التِّسعة عند د. <strong>علي فهمي خشيم</strong>، مع ثَمانية أزواجٍ راسخةٍ قُرآنيًّا (كفء ↔ <em>copy</em>، سلام ↔ <em>shalom</em>، ربّ ↔ <em>rabbi</em>، جنّ ↔ <em>genie</em>، …).</li>
+      </ul>
+
+      <h3>السؤالُ الأَعمَق</h3>
+      <p>هل العَلاقةُ بين أصوات الكَلِمة ومَعناها اعتباطٌ مَحض، كَما قَرَّر <strong>فيرديناند دي سوسير</strong> ومَن جاء بَعدَه في اللسانيّات الحَديثة؟ أم في الأَمر بناءٌ مَخصوص؟ التَّقليدُ العربيّ القَديم — قَبل سوسير باثني عشر قَرنًا — أَجاب الجَوابَ المُعاكِس: <em>بِنيةُ المَعنى مَوصولةٌ بِبِنية النُّطق</em>. هذه الدراسةُ تُقَدِّم أوّل اختبارٍ تَجريبيٍّ مُنَهَّجٍ وواسعٍ لِدَعوى الاعتباطيّة، على لُغةٍ تَحمل بِنيةَ الجذر الشَّفّافة.</p>
+
+      <h3>ولِذلك يَهُمّ هذا في خَمسة مَيادين</h3>
+      <ul>
+        <li><strong>لِلدراسات العربيّة والقُرآنيّة:</strong> قراءاتٌ مُسنَدةٌ إلى عِلم المَخارج والصِّفات، لا إلى التَّقليد التَّفسيريّ وَحدَه.</li>
+        <li><strong>لِعِلم اللُّغة العامّ:</strong> أوّل اختبارٍ تَجريبيٍّ واسعٍ لِدَعوى الاعتباطيّة عند سوسير، على لُغةٍ بِبِنية جَذرٍ شَفّافة.</li>
+        <li><strong>لِلسانيّات المُقارَنة:</strong> ضوابطُ تَحَقُّقٍ مُنضَبِطةٌ تُمَيِّز النَّظائر الحَقيقيّة من التَّشابُهات السَّطحيّة.</li>
+        <li><strong>لِلسانيّات الحاسوبيّة والذَّكاء الاصطناعيّ:</strong> جَبرٌ تَركيبيٌّ شَفّافٌ لِمعنى الجذر، لا تَبلُغُه نَماذجُ التَّضمين العَصَبيّة وَحدَها. اللغةُ في هذه القراءة <strong>رياضيّاتٌ صَوتيّةٌ وخوارزميّاتٌ مَعنويّة</strong>.</li>
+        <li><strong>لِلتَّقليد العربيّ القَديم نَفسِه:</strong> ثِقةٌ مُجَدَّدة في ما بَدأه الخليل، بِأَدوات القَرن الحادي والعِشرين.</li>
+      </ul>
+
+      <div class="paper-cta">
+        التَّفصيلُ الكامِل في <a href="viewer.html?file=02-architecture/our-contributions-and-roadmap-ar.md">الورقة الموقفيّة</a> والأقسام التالية في هذه الصَّفحة.
+      </div>
     </div>
+
+    <!-- ====== ENGLISH ====== -->
+    <div class="lang-en">
+      <p class="lead"><strong>Arabic is a language whose words are built from letters,</strong> and each letter carries a specific meaning — drawn from the physical gesture of pronunciation itself: where the tongue sits, where the breath stops, where the sound is produced in the mouth. The idea is simple at its root, deeply embedded in the Arabic linguistic tradition, but it opens a wide door when taken seriously and tested empirically.</p>
+
+      <h3>The idea is not new</h3>
+      <p><strong>Al-Khalil ibn Ahmad al-Farahidi</strong> shaped it in <em>Kitab al-Ayn</em> twelve centuries ago, ordering the entire dictionary by place of articulation — from deep in the throat forward to the lips — on the principle that the physical gesture of pronunciation is itself the wellspring of meaning. <strong>Ibn Jinni</strong> framed it in <em>al-Khasais</em> under a doctrine he called <strong>«إمساس الألفاظ أشباه المعاني»</strong> — letters touch upon resemblances of meanings. <strong>Ibn Faris</strong> in <em>Maqayis al-Lugha</em> assigned each Arabic root a single core semantic value. That is the tradition. In the modern era, the lexicographic foundation rests on Dr. <strong>Muhammad Hassan Jabal</strong>'s <em>al-Mu'jam al-Ishtiqaqi al-Mu'assal</em> and <strong>Hassan Abbas</strong>'s parallel work on the sensory profiles of letters.</p>
+
+      <h3>What this study does</h3>
+      <p>It takes this venerable intuition — not as a given, but as a hypothesis — and subjects it to a year of systematic empirical examination over Jabal's entire lexicon: <strong>28 letters</strong>, <strong>453 binary nuclei</strong> (the first two letters of every root), <strong>2,285 trilateral roots</strong>. The result is not just that the intuition is sound, but that it unpacks into four new structural findings:</p>
+      <ul>
+        <li><strong>A unified 28-letter charge table</strong> — one ruling charge per letter, with phonetic note and English gloss.</li>
+        <li><strong>The general dual-face rule</strong> — every letter carries two semantic faces of the same physical articulation, and the third letter of a trilateral root selects which face is active. Established by induction across all 453 binary nuclei.</li>
+        <li><strong>Twelve composition modes for trilateral roots</strong> — the binary nucleus operates on the third letter, taking its charge as material, in one of twelve closed modes. All 2,285 trilateral roots graded at 100% native fit, without forcing.</li>
+        <li><strong>A four-bar verification rubric for cross-linguistic cognates</strong>, anchored by Dr. <strong>Ali Fahmi Khshim</strong>'s nine sound-substitution laws, with eight Quran-anchored Tier-A pairs (kufu' ↔ <em>copy</em>, salām ↔ <em>shalom</em>, rabb ↔ <em>rabbi</em>, jinn ↔ <em>genie</em>, …).</li>
+      </ul>
+
+      <h3>The deeper question</h3>
+      <p>Is the link between the sounds of a word and its meaning entirely arbitrary, as <strong>Ferdinand de Saussure</strong> and modern linguistics after him have argued? Or is there a structure? The classical Arabic tradition — twelve centuries before Saussure — gave the opposite answer: <em>meaning-structure is bound to articulation-structure</em>. This study brings forward the first systematic, large-scale empirical test of Saussure's arbitrariness thesis, on a language whose root morphology remains transparent.</p>
+
+      <h3>Why it matters, in five domains</h3>
+      <ul>
+        <li><strong>Arabic and Quranic studies:</strong> verse-level readings grounded in the science of articulation, not in interpretive tradition alone.</li>
+        <li><strong>General linguistics:</strong> the first systematic empirical test of Saussure's arbitrariness thesis at scale, on a language with transparent root morphology.</li>
+        <li><strong>Comparative linguistics:</strong> a disciplined verification rubric that distinguishes genuine cross-linguistic resonance from surface accident.</li>
+        <li><strong>Computational linguistics and AI:</strong> a transparent compositional algebra for root-level meaning that neural embedding models cannot reach. Language, in this view, is <strong>acoustic mathematics and semantic algorithms</strong>.</li>
+        <li><strong>The classical Arabic tradition itself:</strong> a renewed standing for what al-Khalil began, now tested with the tools of the twenty-first century.</li>
+      </ul>
+
+      <div class="paper-cta">
+        Full development in the <a href="viewer.html?file=02-architecture/our-contributions-and-roadmap.md">position paper</a> and the sections that follow on this page.
+      </div>
+    </div>
+
   </div>
 </section>
 
