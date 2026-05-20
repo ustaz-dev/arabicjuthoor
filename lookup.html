@@ -138,6 +138,56 @@ html[data-lang="ar"] .input-row { flex-direction: row-reverse; }
   transition: border-color .15s;
 }
 .ar-input:focus { border-color: var(--accent-strong); }
+.ar-input.is-reverse {
+  font-family: var(--font-en); font-size: 22px;
+  direction: ltr; text-align: left;
+}
+.mode-toggle {
+  display: flex; gap: 0; margin-bottom: 12px;
+  background: var(--bg-2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 3px; width: fit-content;
+}
+.mode-btn {
+  background: transparent; border: 0; padding: 6px 14px;
+  font-size: 13px; color: var(--text-2); cursor: pointer;
+  border-radius: 6px; font-weight: 600; transition: all .15s;
+}
+.mode-btn.is-active {
+  background: var(--accent-strong); color: white;
+}
+.reverse-results {
+  display: flex; flex-direction: column; gap: 14px; margin-top: 18px;
+}
+.reverse-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 16px 18px;
+}
+.reverse-card.is-tier-a {
+  border-left: 3px solid var(--accent-strong);
+  background: var(--accent-bg);
+}
+html[dir="rtl"] .reverse-card.is-tier-a { border-left: 0; border-right: 3px solid var(--accent-strong); }
+.reverse-skeleton {
+  font-family: var(--font-ar); font-size: 26px;
+  color: var(--accent-strong); font-weight: 700;
+  margin-bottom: 6px;
+}
+.reverse-tag {
+  display: inline-block; font-size: 11px; padding: 2px 8px;
+  background: var(--accent-strong); color: white; border-radius: 10px;
+  font-weight: 700; letter-spacing: 0.05em; margin-bottom: 6px;
+}
+.reverse-tag.not-tier { background: var(--text-3); }
+.reverse-cog {
+  font-family: var(--font-en); font-size: 14px; color: var(--text-2);
+  margin-bottom: 4px;
+}
+.reverse-gloss {
+  font-size: 13.5px; color: var(--text-2); line-height: 1.5;
+}
+.reverse-verse {
+  font-size: 12px; color: var(--text-3); margin-top: 6px;
+}
 .read-btn {
   padding: 14px 26px; background: var(--accent-strong); color: white;
   border: 0; border-radius: 8px; cursor: pointer; font-weight: 700;
@@ -394,11 +444,21 @@ html[dir="rtl"] .share-row { justify-content: flex-start; }
     <span class="lang-ar">قارئُ الحرف ← النواة ← الجذر</span>
   </h1>
   <p class="subtitle">
-    <span class="lang-en">Type any Arabic word or root. The reader strips diacritics, identifies the consonants, and shows each letter&apos;s dual-face charge from the unified 28-letter table — together with the binary nucleus and the eleven operative modes the trilateral could resolve under.</span>
-    <span class="lang-ar">اكتُب أَيَّ كَلِمةٍ أَو جَذرٍ عَرَبيّ. يَستَخرِجُ القارئُ الصَّوامتَ ويَعرِضُ لِكلّ حَرفٍ شَحنَتَهُ ذاتَ الوَجهَين من جدول الحُروف الثَّمانية والعشرين المُوَحَّد، مع النَّواةِ الثُّنائيّة والأَبواب الأَحَدَ عَشَر التي يُمكِن أن يَنحَلَّ فيها الجَذرُ الثُّلاثيّ.</span>
+    <span class="lang-en">Type any Arabic word or root — the reader strips diacritics, identifies the consonants, and shows each letter&apos;s dual-face charge with the binary nucleus and the eleven operative modes. <strong>Or switch to reverse mode</strong> to enter an English / Latin / Greek word and find its plausible Arabic skeleton via Khshim&apos;s sound laws, cross-checked against the 19 Tier-A cognates.</span>
+    <span class="lang-ar">اكتُب أَيَّ كَلِمةٍ أَو جَذرٍ عَرَبيّ — يَستَخرِجُ القارئُ الصَّوامتَ ويَعرِضُ لِكلّ حَرفٍ شَحنَتَهُ ذاتَ الوَجهَين مع النَّواةِ الثُّنائيّة والأَبواب الأَحَدَ عَشَر. <strong>أَو بَدِّل إلى الوَضع العَكسيّ</strong> لإدخال كَلِمةٍ إنجليزيّة/لاتينيّة/إغريقيّة وإيجاد هَيكلِها العَرَبيّ المُحتَمَل وَفقَ قَوانين كَشِم الصَّوتيّة، مُقارَنةً بِسِجِلِّ الصِّنف الأَوّل (١٩ مُشتَركًا).</span>
   </p>
 
   <div class="input-card">
+    <div class="mode-toggle" role="tablist" aria-label="Lookup direction">
+      <button class="mode-btn is-active" id="mode-ar" type="button" role="tab" aria-selected="true">
+        <span class="lang-en">Arabic → reading</span>
+        <span class="lang-ar">عَرَبيّ ← قِراءة</span>
+      </button>
+      <button class="mode-btn" id="mode-reverse" type="button" role="tab" aria-selected="false">
+        <span class="lang-en">EN/LA → Arabic root</span>
+        <span class="lang-ar">إنجليزيّ/لاتينيّ ← جَذرٌ عَرَبيّ</span>
+      </button>
+    </div>
     <div class="input-row">
       <input class="ar-input" id="ar-input" type="text" autocomplete="off" spellcheck="false"
              placeholder="حمد · قصر · كتب · سلم · ربب · جنن"
@@ -408,7 +468,7 @@ html[dir="rtl"] .share-row { justify-content: flex-start; }
         <span class="lang-ar">اقرأ</span>
       </button>
     </div>
-    <div class="examples">
+    <div class="examples" id="examples-ar">
       <span class="lang-en">Try:</span><span class="lang-ar">جَرِّب:</span>
       <span class="example-chip" data-w="حمد">حمد</span>
       <span class="example-chip" data-w="قصر">قصر</span>
@@ -421,6 +481,20 @@ html[dir="rtl"] .share-row { justify-content: flex-start; }
       <span class="example-chip" data-w="ثور">ثور</span>
       <span class="example-chip" data-w="قلم">قلم</span>
     </div>
+    <div class="examples" id="examples-reverse" style="display:none;">
+      <span class="lang-en">Try:</span><span class="lang-ar">جَرِّب:</span>
+      <span class="example-chip" data-w="claim" style="font-family:var(--font-en);font-size:14px;">claim</span>
+      <span class="example-chip" data-w="camel" style="font-family:var(--font-en);font-size:14px;">camel</span>
+      <span class="example-chip" data-w="taurus" style="font-family:var(--font-en);font-size:14px;">taurus</span>
+      <span class="example-chip" data-w="horn" style="font-family:var(--font-en);font-size:14px;">horn</span>
+      <span class="example-chip" data-w="calamus" style="font-family:var(--font-en);font-size:14px;">calamus</span>
+      <span class="example-chip" data-w="chart" style="font-family:var(--font-en);font-size:14px;">chart</span>
+      <span class="example-chip" data-w="chemise" style="font-family:var(--font-en);font-size:14px;">chemise</span>
+      <span class="example-chip" data-w="shalom" style="font-family:var(--font-en);font-size:14px;">shalom</span>
+      <span class="example-chip" data-w="rabbi" style="font-family:var(--font-en);font-size:14px;">rabbi</span>
+      <span class="example-chip" data-w="jugum" style="font-family:var(--font-en);font-size:14px;">jugum</span>
+      <span class="example-chip" data-w="angel" style="font-family:var(--font-en);font-size:14px;">angel</span>
+    </div>
     <div class="recent-row" id="recent-row" style="display:none;">
       <span class="label"><span class="lang-en">Recent:</span><span class="lang-ar">الأَخيرة:</span></span>
       <span id="recent-chips"></span>
@@ -428,6 +502,19 @@ html[dir="rtl"] .share-row { justify-content: flex-start; }
         <span class="lang-en">clear</span><span class="lang-ar">مَسح</span>
       </button>
     </div>
+  </div>
+
+  <!-- Reverse-mode result panel -->
+  <div id="reverse-result" style="display:none;">
+    <div class="panel-title">
+      <span class="lang-en">Possible Arabic skeletons (via Khshim's sound laws)</span>
+      <span class="lang-ar">الهَياكِلُ العَرَبيّةُ المُحتَمَلة (وَفقَ قَوانين كَشِم الصَّوتيّة)</span>
+    </div>
+    <p style="font-size:13.5px;color:var(--text-2);margin:8px 0 14px;">
+      <span class="lang-en">The consonant skeleton of the English / Latin / Greek word is mapped onto its plausible Arabic counterparts. Matches against the <strong>Tier-A cross-linguistic roster</strong> (19 Quranic-anchored cognates) are highlighted.</span>
+      <span class="lang-ar">يُرسَم الهَيكلُ الصامتُ لِلكَلِمة الإنجليزيّة/اللاتينيّة/الإغريقيّة على نَظائرِها العَرَبيّة المُحتَمَلة. تُمَيَّز المُطابَقات في <strong>سِجِلِّ الصِّنف الأَوّل بَين اللُّغات</strong> (١٩ جَذرًا قُرآنيّ المِرساة).</span>
+    </p>
+    <div class="reverse-results" id="reverse-results-list"></div>
   </div>
 
   <div class="result" id="result">
@@ -613,6 +700,308 @@ const NUCLEI_KNOWN = {
 // Letter classes from the statistical predictive test (p < 0.001 confirmations)
 const FLOW_LETTERS = new Set(['ر','ل','ن','ع']);
 const MASS_LETTERS = new Set(['د','م','ق','ك','ص']);
+
+// ============================================================
+// Reverse lookup: EN/LA/Greek consonant → plausible Arabic letter
+// ============================================================
+// Khshim's nine sound-substitution laws (synthesised). Each Latin-script
+// consonant (or digraph) maps to one or more Arabic letters that play the
+// same articulator role across Semitic-to-Indo-European borrowing pairs.
+// Digraphs are checked BEFORE single letters in REVERSE_DIGRAPHS.
+
+const REVERSE_DIGRAPHS = [
+  // [digraph, possible Arabic letters]
+  ['ch', ['ك','ج','ش','ق']],   // chemise→قميص, chart→قرط, claim→كلم, church→ك
+  ['kh', ['خ','ك']],
+  ['gh', ['غ','ج']],
+  ['sh', ['ش','س']],
+  ['th', ['ث','ذ','ت']],
+  ['ph', ['ف','ب']],
+  ['ck', ['ك','ق']],
+];
+
+const REVERSE_MAP = {
+  'b': ['ب'],
+  'c': ['ك','ق','ج'],     // c before e/i often /s/-like but in roots usually k-class
+  'd': ['د','ض','ذ'],
+  'f': ['ف'],
+  'g': ['ج','ق','غ'],     // hard-g
+  'h': ['ه','ح','خ','ق','ك'],  // Indo-Semitic h ↔ k shift: horn/cornu/قرن
+  'j': ['ج','ي','ز'],     // English j ≈ ج; in Latin/German often y-class; jugum→زوج
+  'k': ['ك','ق','ح'],     // ku/قُو ↔ Latin cu; k↔ح in some chains
+  'l': ['ل'],
+  'm': ['م'],
+  'n': ['ن'],
+  'p': ['ب','ف'],          // Arabic has no p; Latin p ↔ Arabic b (peace/سلام not used here; calamus→قلم)
+  'q': ['ق','ك'],
+  'r': ['ر'],
+  's': ['س','ص','ث','ز'], // sibilants
+  't': ['ت','ط','ث'],
+  'v': ['و','ب','ف'],
+  'w': ['و'],
+  'x': ['ك','ق'],          // x = ks
+  'y': ['ي','ج','ز'],     // yoke ↔ zugon ↔ jugum ↔ زوج (j/y/z alternation)
+  'z': ['ز','ذ','ظ','ج'], // zoom/jugum
+};
+
+// Weak letters that can be the middle radical in a "hollow" Arabic root.
+// Latin/English often loses these in surface form: ثور appears as taurus
+// (t-r-s with vowel diphthong au), قول as call (k-l), زوج as jugum (j-g-m).
+const WEAK_MEDIALS = ['و','ي','ا'];
+
+const ENGLISH_VOWELS = new Set(['a','e','i','o','u']);
+
+// Extract consonant skeleton from EN/Latin/Greek input.
+// Returns array of original-script consonants, lowercased.
+function extractEnConsonants(input) {
+  const s = input.toLowerCase().trim();
+  const cons = [];
+  let i = 0;
+  while (i < s.length) {
+    const c2 = s.substring(i, i + 2);
+    const dg = REVERSE_DIGRAPHS.find(d => d[0] === c2);
+    if (dg) {
+      cons.push(c2);
+      i += 2;
+      continue;
+    }
+    const ch = s[i];
+    if (/[a-z]/.test(ch) && !ENGLISH_VOWELS.has(ch)) {
+      cons.push(ch);
+    }
+    i += 1;
+  }
+  return cons;
+}
+
+// Given a consonant array, return the Cartesian product of all Arabic
+// possibilities, capped to keep output manageable. Also tries hollow-root
+// insertions for 2-consonant inputs (Latin/English drops the weak medial:
+// taurus / steer → ث-و-ر, call / kalein → ق-و-ل, jugum → ز-و-ج).
+function generateArabicSkeletons(consonants) {
+  if (consonants.length < 2) return [];
+
+  function possibilities(c) {
+    const dg = REVERSE_DIGRAPHS.find(d => d[0] === c);
+    if (dg) return dg[1];
+    return REVERSE_MAP[c] || [];
+  }
+
+  // Take up to first 3 consonants for the canonical 3-radical skeleton.
+  const slice = consonants.slice(0, 3);
+  const opts = slice.map(possibilities);
+  const out = new Set();
+
+  function recurse(i, current) {
+    if (out.size >= 100) return;
+    if (i === slice.length) {
+      out.add(current);
+      return;
+    }
+    for (const a of opts[i]) {
+      if (out.size >= 100) return;
+      recurse(i + 1, current + a);
+    }
+  }
+  recurse(0, '');
+
+  // Hollow-root insertion: for 2-consonant inputs, insert a weak medial
+  // between L1 and L2 to form a 3-letter skeleton.
+  if (consonants.length === 2) {
+    const opts2 = consonants.map(possibilities);
+    for (const a of opts2[0]) {
+      for (const c of opts2[1]) {
+        for (const w of WEAK_MEDIALS) {
+          out.add(a + w + c);
+        }
+      }
+    }
+  }
+
+  // For 3-consonant input where the standard skeleton fails to match Tier-A,
+  // also try replacing one position with a weak letter (some borrowings drop
+  // a radical: taurus = t-r-s where 's' is the Latin nominative ending, the
+  // true root is t-w-r = ث-و-ر).
+  if (consonants.length >= 3) {
+    const opts3 = consonants.slice(0, 3).map(possibilities);
+    // Try dropping L3 and inserting a weak medial (handles -us/-os endings)
+    for (const a of opts3[0]) {
+      for (const c of opts3[1]) {
+        for (const w of WEAK_MEDIALS) {
+          out.add(a + w + c);
+        }
+      }
+    }
+  }
+
+  return Array.from(out);
+}
+
+// Reverse lookup: given a generated Arabic skeleton (3-4 letters), find any
+// Tier-A match by first 3 letters; also note if it matches a known nucleus.
+function matchAgainstTierA(skeletons) {
+  const matches = [];
+  const seen = new Set();
+  for (const skel of skeletons) {
+    if (skel.length < 3) continue;
+    const root3 = skel.substring(0, 3);
+    if (seen.has(root3)) continue;
+    seen.add(root3);
+    if (TIER_A[root3]) {
+      matches.push({ skeleton: root3, tier: TIER_A[root3], type: 'tier-a' });
+    }
+  }
+  return matches;
+}
+
+// Build the "best-effort" non-Tier-A suggestions: skeletons whose first two
+// letters form a known nucleus. Limited to top 6 for clarity.
+function nonTierSuggestions(skeletons, tierMatched) {
+  const tierKeys = new Set(tierMatched.map(m => m.skeleton));
+  const out = [];
+  const seen = new Set();
+  for (const skel of skeletons) {
+    if (skel.length < 3) continue;
+    const root3 = skel.substring(0, 3);
+    if (tierKeys.has(root3) || seen.has(root3)) continue;
+    const binary = root3.substring(0, 2);
+    if (NUCLEI_KNOWN[binary]) {
+      seen.add(root3);
+      out.push({ skeleton: root3, nucleus: NUCLEI_KNOWN[binary], type: 'nucleus' });
+      if (out.length >= 6) break;
+    }
+  }
+  return out;
+}
+
+function renderReverseResults(input) {
+  const list = document.getElementById('reverse-results-list');
+  list.innerHTML = '';
+  const consonants = extractEnConsonants(input);
+  if (consonants.length < 2) {
+    list.innerHTML = `<p style="color:var(--text-3);font-size:13.5px;">
+      <span class="lang-en">Type at least two consonants (vowels are ignored).</span>
+      <span class="lang-ar">اكتُب صامتَين على الأقَلّ (الحَرَكاتُ تُهمَل).</span></p>`;
+    return;
+  }
+
+  const skel = generateArabicSkeletons(consonants);
+  const tierMatched = matchAgainstTierA(skel);
+  const fallback = nonTierSuggestions(skel, tierMatched);
+
+  // Header summary: what consonants were extracted
+  const header = document.createElement('div');
+  header.style.cssText = 'font-size:13px;color:var(--text-3);margin-bottom:4px;';
+  header.innerHTML = `
+    <span class="lang-en">Input "<strong>${input}</strong>" → consonant skeleton: <code>${consonants.join('-')}</code> · ${skel.length} candidate Arabic skeleton${skel.length === 1 ? '' : 's'}.</span>
+    <span class="lang-ar">المُدخَل "<strong>${input}</strong>" ← الهَيكلُ الصامِت: <code>${consonants.join('-')}</code> · ${skel.length} هَيكلٌ عَرَبيٌّ مُرَشَّح.</span>
+  `;
+  list.appendChild(header);
+
+  if (tierMatched.length === 0 && fallback.length === 0) {
+    const p = document.createElement('p');
+    p.style.cssText = 'color:var(--text-3);font-size:13.5px;margin-top:14px;';
+    p.innerHTML = `
+      <span class="lang-en">No Tier-A or known-nucleus match for this consonant skeleton in our roster of 19 verified cognates and 20 working nuclei. This doesn't rule out an Arabic root — it means our current shortlist doesn't contain one. Try a related word or a different spelling.</span>
+      <span class="lang-ar">لا مُطابَقة مَع الصِّنف الأَوّل ولا مَع النَّوى المَعروفة لِهذا الهَيكل الصامت ضِمن سِجِلِّنا (١٩ مُشتَركًا مُوَثَّقًا و٢٠ نَواةً قَيد العَمَل). هذا لا يَنفي وُجودَ جَذرٍ عَرَبيّ — بل يَعني أَنّ قائمتَنا الحاليّة لا تَحتَويه. جَرِّب كَلِمةً قَريبة أَو هِجاءً مُختَلِفًا.</span>
+    `;
+    list.appendChild(p);
+    return;
+  }
+
+  // Tier-A matches first
+  tierMatched.forEach(m => {
+    const card = document.createElement('div');
+    card.className = 'reverse-card is-tier-a';
+    card.innerHTML = `
+      <span class="reverse-tag"><span class="lang-en">TIER-A</span><span class="lang-ar">الصِّنف الأَوّل</span></span>
+      <div class="reverse-skeleton" dir="rtl">${m.skeleton.split('').join('·')}</div>
+      <div class="reverse-cog"><strong>${m.tier.cog}</strong></div>
+      <div class="reverse-gloss">
+        <span class="lang-en">${m.tier.en}</span>
+        <span class="lang-ar">${m.tier.ar}</span>
+      </div>
+      <div class="reverse-verse">
+        <span class="lang-en">Quranic anchor: ${m.tier.verse}</span>
+        <span class="lang-ar">المِرساةُ القُرآنيّة: ${m.tier.verse}</span>
+      </div>
+      <div style="margin-top:10px;">
+        <a href="lookup.html?w=${m.skeleton}" style="font-size:13px;color:var(--accent-strong);text-decoration:none;font-weight:600;">
+          <span class="lang-en">▸ Open the full reading for ${m.skeleton}</span>
+          <span class="lang-ar">▸ افتَح القِراءة الكامِلة لِـ ${m.skeleton}</span>
+        </a>
+      </div>
+    `;
+    list.appendChild(card);
+  });
+
+  // Non-Tier suggestions
+  if (fallback.length > 0) {
+    const subHead = document.createElement('div');
+    subHead.style.cssText = 'font-size:13px;color:var(--text-3);margin-top:6px;margin-bottom:-4px;';
+    subHead.innerHTML = `
+      <span class="lang-en">Other plausible Arabic skeletons (not in Tier-A; first two letters form a known nucleus):</span>
+      <span class="lang-ar">هَياكِلُ عَرَبيّةٌ أُخرى مُرَشَّحة (ليسَت في الصِّنف الأَوّل؛ أَوَّل حَرفَين يُكَوِّنان نَواةً مَعروفة):</span>
+    `;
+    list.appendChild(subHead);
+
+    fallback.forEach(s => {
+      const card = document.createElement('div');
+      card.className = 'reverse-card';
+      card.innerHTML = `
+        <span class="reverse-tag not-tier"><span class="lang-en">NUCLEUS</span><span class="lang-ar">نَواة</span></span>
+        <div class="reverse-skeleton" dir="rtl">${s.skeleton.split('').join('·')}</div>
+        <div class="reverse-gloss">
+          <span class="lang-en">Binary nucleus reading: ${s.nucleus.en}</span>
+          <span class="lang-ar">قِراءةُ النَّواة الثُّنائيّة: ${s.nucleus.ar}</span>
+        </div>
+        <div style="margin-top:10px;">
+          <a href="lookup.html?w=${s.skeleton}" style="font-size:13px;color:var(--accent-strong);text-decoration:none;font-weight:600;">
+            <span class="lang-en">▸ Open the reading for ${s.skeleton}</span>
+            <span class="lang-ar">▸ افتَح القِراءة لِـ ${s.skeleton}</span>
+          </a>
+        </div>
+      `;
+      list.appendChild(card);
+    });
+  }
+}
+
+let isReverseMode = false;
+function setMode(reverse) {
+  isReverseMode = reverse;
+  const arInput = document.getElementById('ar-input');
+  const modeAr = document.getElementById('mode-ar');
+  const modeRev = document.getElementById('mode-reverse');
+  const examplesAr = document.getElementById('examples-ar');
+  const examplesRev = document.getElementById('examples-reverse');
+  const result = document.getElementById('result');
+  const reverseResult = document.getElementById('reverse-result');
+
+  if (reverse) {
+    arInput.classList.add('is-reverse');
+    arInput.setAttribute('placeholder', 'claim · camel · taurus · horn · calamus');
+    modeAr.classList.remove('is-active');
+    modeRev.classList.add('is-active');
+    modeAr.setAttribute('aria-selected', 'false');
+    modeRev.setAttribute('aria-selected', 'true');
+    examplesAr.style.display = 'none';
+    examplesRev.style.display = 'flex';
+    result.style.display = 'none';
+    arInput.value = '';
+  } else {
+    arInput.classList.remove('is-reverse');
+    arInput.setAttribute('placeholder', 'حمد · قصر · كتب · سلم · ربب · جنن');
+    modeAr.classList.add('is-active');
+    modeRev.classList.remove('is-active');
+    modeAr.setAttribute('aria-selected', 'true');
+    modeRev.setAttribute('aria-selected', 'false');
+    examplesAr.style.display = 'flex';
+    examplesRev.style.display = 'none';
+    reverseResult.style.display = 'none';
+    arInput.value = '';
+  }
+}
 
 // L3 → mode-suggestion based on statistical findings
 function suggestModes(L3char) {
@@ -943,7 +1332,24 @@ function renderModes() {
 
 function read(opts) {
   opts = opts || {};
-  const input = document.getElementById('ar-input').value;
+  const inputEl = document.getElementById('ar-input');
+  const input = inputEl.value;
+
+  // Reverse-mode path: EN/Latin → Arabic skeleton
+  if (isReverseMode) {
+    const reverseResult = document.getElementById('reverse-result');
+    const empty = document.getElementById('empty');
+    if (!input.trim()) {
+      reverseResult.style.display = 'none';
+      empty.style.display = 'block';
+      return;
+    }
+    empty.style.display = 'none';
+    reverseResult.style.display = 'block';
+    renderReverseResults(input.trim());
+    return;
+  }
+
   const letters = extractLetters(input);
   const result = document.getElementById('result');
   const empty = document.getElementById('empty');
@@ -1022,6 +1428,10 @@ document.querySelectorAll('.example-chip').forEach(chip => {
     read();
   });
 });
+
+// Mode toggle (AR → reading  ⇄  EN/LA → Arabic root)
+document.getElementById('mode-ar').addEventListener('click', () => setMode(false));
+document.getElementById('mode-reverse').addEventListener('click', () => setMode(true));
 
 // Share-link button
 document.getElementById('share-btn').addEventListener('click', async () => {
