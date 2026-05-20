@@ -8,7 +8,7 @@ The Quranic loanword audit and the operative grammar both establish that the fra
 
 > *Given a binary pair L1·L2 that Arabic never used, can the framework predict what that pair would mean if Arabic did coin it?*
 
-The 117 lexical gaps catalogued in [`computational/layer-2-coverage-gap.md`](../computational/layer-2-coverage-gap.md) are the natural held-out test set. Phonotactic constraints already screened them in (alif-initial pairs, identical XX, same-articulator pairs are filtered separately as physically dispreferred). What remains is pairs Arabic *could* have formed without violating its phonology — but for some reason didn't.
+The 140 lexical gaps catalogued in [`computational/layer-2-coverage-gap.md`](../computational/layer-2-coverage-gap.md) are the natural held-out test set. Phonotactic constraints already screened them in (alif-initial pairs, identical XX, same-articulator pairs are filtered separately as physically dispreferred). What remains is pairs Arabic *could* have formed without violating its phonology — but for some reason didn't.
 
 If the framework is genuinely generative, applying the L1-charge and L2-charge compositionally should give us a **coherent semantic prediction** for each gap. If the framework is only interpretive, the predictions should look forced, contradictory, or self-canceling.
 
@@ -128,13 +128,13 @@ This places the framework alongside other generative linguistic theories — pro
 
 ## What this experiment does not show
 
-It does not show that the framework will pass a larger-scale generative test. Eight pairs is a small sample. The honest next experiment is to run all 117 lexical gaps through the same protocol, with the verdicts pre-registered before reading the data, and compute the verdict distribution. If the OVERLAPPING + COHERENT proportion stays around 85-90% with SELF-CANCELING under 15%, the generative claim is well-supported. If SELF-CANCELING dominates, the framework is interpretive only.
+It does not show that the framework will pass a larger-scale generative test. Eight pairs is a small sample. The honest next experiment is to run all 140 lexical gaps through the same protocol, with the verdicts pre-registered before reading the data, and compute the verdict distribution. If the OVERLAPPING + COHERENT proportion stays around 85-90% with SELF-CANCELING under 15%, the generative claim is well-supported. If SELF-CANCELING dominates, the framework is interpretive only.
 
 ## Cross-link to the methodology
 
 This experiment closes a gap (pun intended) that `lv2-operative-grammar.md` §Limits explicitly named:
 
-> "*Interpretive, not generative. Given an arbitrary L1·L2·L3, the framework does not yet predict the mode; the reading is identified from the actual root meaning. A future classifier could test mode-from-charges predictability, and the 117 lexical-gap pairs above are the natural held-out set.*"
+> "*Interpretive, not generative. Given an arbitrary L1·L2·L3, the framework does not yet predict the mode; the reading is identified from the actual root meaning. A future classifier could test mode-from-charges predictability, and the 140 lexical-gap pairs above are the natural held-out set.*"
 
 The sample test above suggests the framework will indeed be generative on the **L1·L2 level** (predicting binary nucleus meaning), with a lexical-economy filter explaining why most coherent binaries were nonetheless unused. The **L3-mode prediction** remains the harder follow-on: given a coherent binary and a third letter, predict which of the eleven native modes the resulting trilateral will use. That experiment requires a held-out set of trilaterals graded against the model trained on the rest — methodology described in the computational side of the project.
 

@@ -2,7 +2,7 @@
 
 > The Arabic version is at [`lexical-gaps-generative-test-full-ar.md`](lexical-gaps-generative-test-full-ar.md).
 >
-> This document scales the [pilot generative test](lexical-gaps-generative-test.md) (8 pairs) to the full L1-by-L1 enumeration of 155 lexical-gap pairs. The disjoint count is 117 (38 pairs in the L1 enumeration are also same-articulator-blocked and double-counted across the partition); the full L1 list is what's published in [`computational/layer-2-coverage-gap.md`](../computational/layer-2-coverage-gap.md), so that's what's processed here.
+> This document scales the [pilot generative test](lexical-gaps-generative-test.md) (8 pairs) to the L1-by-L1 enumeration of 155 lexical-gap candidates that was published in an earlier draft of [`computational/layer-2-coverage-gap.md`](../computational/layer-2-coverage-gap.md). The current canonical partition (hamza-folded, see that file) reports **140 disjoint lexical gaps**; the 15-pair difference is exactly the *-ا pairs that the fold treats as attested-via-hamza-on-alif and which this document already separates under the **STRUCTURAL** verdict (alif-as-L2). Sampling 155 is therefore an upper-bound test: every pair the current partition labels a "lexical gap" was tested, plus 15 *-ا pairs that the fold no longer counts as gaps but the structural verdict handles cleanly.
 
 ## Method (recap)
 

@@ -132,20 +132,20 @@ Each has its primary meaning with three to four examples. Example:
 
 This is a **human-scale working set** that can be used in daily reading without drowning.
 
-#### Honest scope: why 453, not 784?
+#### Honest scope: why 453 / 505, not 784?
 
-A reader who sees "100% native fit" and "453 binary nuclei" will rightly ask: what about the rest? With 28 letters, there are **28² = 784 mathematical possibilities** for an L1·L2 pair. Our catalog has 453. Where did the other 331 go? They are **filtered, not missing**:
+A reader who sees "100% native fit" and "453 binary nuclei" will rightly ask: what about the rest? With 28 letters, there are **28² = 784 mathematical possibilities** for an L1·L2 pair. Jabal's catalog enumerates 453 nuclei; the full trilateral decomposition (after folding أ/إ/آ/ء → ا and ى → ي onto the canonical alphabet) exposes **505 unique binaries** in L1+L2 position. Where did the other 279 go? They are **filtered, not missing**:
 
 | Filter | Pairs removed | Linguistic reason |
 |---|:---:|---|
-| **alif-initial** (ا as L1) | 28 | ا is a vowel marker, not a consonant; a root cannot begin with it in Arabic |
-| **identical XX** (e.g., بب, دد, …) | 25 | The Obligatory Contour Principle bans identical consonants at the root start |
+| **alif-initial** (ا as L1, after hamza-fold) | 7 | the 7 ا-initial slots even hamza-variants didn't fill: اا · اض · اط · اظ · اع · اغ · اق |
+| **identical XX** (e.g., بب, دد, …) | 25 | The Obligatory Contour Principle bans identical consonants at the root start (only هه و وو survive) |
 | **same-articulator class** | 107 | Soft OCP, tongue-tip-twice (e.g., تد), lips-twice (e.g., بم), and similar adjacencies are dispreferred |
-| **Genuine lexical gaps** | **155** | Phonologically allowed by Arabic but unused, pairs the language could form but doesn't |
+| **Genuine lexical gaps** | **140** | Phonologically allowed by Arabic but unused, pairs the language could form but doesn't |
 
-That is: **160 pairs (58%)** of the 277 unattested pairs are blocked by known phonological constraints (28 alif-initial · 25 identical-XX · 107 same-articulator-class). Only **117 pairs (15% of all 784, 42% of the unattested)** are true lexical gaps — pairs Arabic was capable of forming but did not. (An earlier draft published 155 from an L1-by-L1 enumeration that double-counted pairs falling into two categories.)
+That is: **139 pairs (50%)** of the 279 unattested are blocked by known phonological constraints (7 alif-initial · 25 identical-XX · 107 same-articulator-class). The remaining **140 pairs (18% of all 784, 50% of the unattested)** are true lexical gaps — pairs Arabic was capable of forming but did not. Partition: **505 attested + 139 blocked + 140 gaps = 784 ✓**.
 
-**The honest claim:** every trilateral root that *exists* in Arabic gets a coherent operative reading. We did not claim every theoretical XYZ would, and we closed the claim at the actual count, not the mathematical one. The 155 gaps are the natural **held-out test set** for the next question: can the model become generative, predicting the mode a hypothetical speaker would choose if she coined one of those pairs?
+**The honest claim:** every trilateral root that *exists* in Arabic gets a coherent operative reading. We did not claim every theoretical XYZ would, and we closed the claim at the actual count, not the mathematical one. The 140 gaps are the natural **held-out test set** for the next question: can the model become generative, predicting the mode a hypothetical speaker would choose if she coined one of those pairs?
 
 ### 2.5 An explicit five-step reading protocol
 
@@ -296,7 +296,7 @@ The study restores standing to what al-Khalil, Ibn Jinni, and Ibn Faris began. W
 - **The full nucleus catalog** (453 nuclei), with a per-nucleus reading, source-anchored where available and compositionally graded otherwise.
 - **Eleven native composition modes for trilateral roots** (plus a LOANWORD label for non-native borrowings) reading 2,285 roots at 100% native fit.
 - **The four-bar cross-linguistic verification rubric** with 19 Tier-A Quran-anchored pairs (8 original + 3 from loanword audit + 4 Indo-Semitic core + 4 writing-and-numerals: ق-ل-م/calamus, ج-م-ل/camel, ث-ل-ث/three, س-ت-ة/six).
-- **Honest statement of scope**: of 784 mathematical pairs, 507 are attested as L1+L2 in some trilateral root (453 are catalogued as standalone nuclei). Of the 277 unattested: 160 phonotactically blocked + 117 lexical gaps. Math: 507+160+117=784 ✓.
+- **Honest statement of scope**: of 784 mathematical pairs, 505 unique binaries (507 raw forms before hamza-fold) are attested as L1+L2 in some trilateral root; 453 are catalogued by Jabal as standalone nuclei. Of the 279 unattested: 139 phonotactically blocked + 140 lexical gaps. Math: 505 + 139 + 140 = 784 ✓.
 - **Jawfī treatment** of ا, و, ي: resolved by establishing active charges for all three and including them in the unified table.
 - **Dialectical-contradiction check** formalized as a second-pass verification on letter charges.
 

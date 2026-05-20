@@ -85,26 +85,40 @@ This vault contains the upstream theoretical inputs that made Layer 2 possible:
 - **Layer 1** ([`jabal-letters.html`](../03-scholar-extracts/jabal-letters.html)) — 453 binary nuclei tested under the unified word-evidence test; Layer 2 inherits the validated binary readings.
 - **Architecture spec** ([`lv1-architecture.md`](lv1-architecture.md)) — the four-layer scope of the project. The operative reading achieves 100% interpretive coverage on the existing corpus (a different target than predictive accuracy, see Limits below).
 
-## Coverage, why 453 / 507 nuclei, not 784?
+## Coverage, why 453 / 505 nuclei, not 784?
 
-Arabic has 28 letters → 28² = 784 mathematically possible ordered binary pairs. Jabal's lexicon attests only ~453 nuclei; the trilateral decomposition shows 507 unique binaries appearing as L1+L2. Where did the other 277 go?
+Arabic has 28 letters → 28² = 784 mathematically possible ordered binary pairs. Jabal's lexicon attests only **453 nuclei** in its primary tabulation, and the trilateral decomposition exposes **505 unique binaries** (after hamza-fold) as L1+L2 of some attested root. Where did the other 279 go?
 
-**Answer:** they're filtered, not missing. Full decomposition in [`computational/layer-2-coverage-gap.md`](../computational/layer-2-coverage-gap.md) (auto-generated from the companion pipeline):
+**Answer:** they're filtered, not missing. Full decomposition in [`computational/layer-2-coverage-gap.md`](../computational/layer-2-coverage-gap.md) (auto-generated from the companion pipeline).
+
+### Two attested counts, same underlying set
+
+| Count | Value | What it counts |
+|-------|------:|----------------|
+| **Raw attested forms** | 507 | binaries as written in Jabal, with hamza variants (أب، إذ، آن) and alif-maqsura (مى) kept as distinct strings |
+| **Unique binaries in 28² space** | 505 | after folding أ/إ/آ/ء → ا and ى → ي to canonical alphabet letters |
+| **Jabal's nuclei tabulation** | 453 | the subset Jabal listed as binary nuclei with shared meanings (smaller because Jabal excluded weak-letter onsets and a few derivational variants) |
+
+The partition below is built on **505** because only it lives inside the same 28² space the math operates on; the 38-form variation between 507 and 505 is typographic, not phonemic.
+
+### Disjoint partition
 
 | Filter | Pairs removed | Reason |
 |--------|--------------:|--------|
-| alif-initial (ا as L1) | 28 | ا is a vowel marker, cannot begin a root |
-| identical XX | 25 | Obligatory Contour Principle, repeated consonant blocked |
+| alif-initial (ا as L1, after fold) | 7 | the 7 ا-initial slots even hamza-variants didn't fill: اا · اض · اط · اظ · اع · اغ · اق |
+| identical XX | 25 | Obligatory Contour Principle, repeated consonant blocked (only هه و وو survive) |
 | same-articulator-class | 107 | Soft OCP, articulator hygiene |
-| **Genuine lexical gaps** | **117** | **Phonologically allowed but unused by Arabic** (disjoint count, see math note) |
+| **Genuine lexical gaps** | **140** | **Phonologically allowed but unused by Arabic** |
 
-Of 277 missing pairs, **160 (58%) are phonotactically blocked** and **117 (42% of unattested, 15% of all 784 possibilities)** are true lexical gaps. The 100% native-composition result is honestly bounded: every trilateral that *exists* in Arabic gets a coherent operative reading. Whether the model can predict charges for the 117 lexical-gap binaries is the natural next test.
+**Partition check:** 505 attested + 139 blocked + 140 gaps = **784** ✓
 
-> **Math note (added 2026-05-19):** Earlier drafts of this table published 155 lexical gaps from an L1-by-L1 enumeration that double-counted pairs falling into two categories (e.g., a pair that is both same-articulator-blocked and unattested). The disjoint count is 117. The full per-L1 listing remains in [`computational/layer-2-coverage-gap.md`](../computational/layer-2-coverage-gap.md); the partition arithmetic 507 + 160 + 117 = 784 now adds up exactly.
+Of 279 missing pairs, **139 (50%) are phonotactically blocked** and **140 (50% of missing, ~18% of all 784 possibilities)** are true lexical gaps. The 100% native-composition result is honestly bounded: every trilateral that *exists* in Arabic gets a coherent operative reading. Whether the model can predict charges for the 140 lexical-gap binaries is the natural next test.
+
+> **Math note (revised 2026-05-17):** Earlier drafts published 155 gaps (under a no-fold scheme that treated أ and ا as different letters, leaving all 28 ا-initial slots blocked) and 117 gaps (under a hybrid that mixed folded attestation with no-fold filters and gave an arithmetically inconsistent total). The present count uses a single consistent scheme: hamza-fold the corpus, then partition the 28² space. The resulting 505 + 139 + 140 = 784 adds up exactly.
 
 ## Limits & open questions
 
-- **Interpretive, not generative.** Given an arbitrary L1·L2·L3, the framework does not yet *predict* the mode; the reading is identified from the actual root meaning. A future classifier could test mode-from-charges predictability, and the 117 lexical-gap pairs above are the natural held-out set.
+- **Interpretive, not generative.** Given an arbitrary L1·L2·L3, the framework does not yet *predict* the mode; the reading is identified from the actual root meaning. A future classifier could test mode-from-charges predictability, and the 140 lexical-gap pairs above are the natural held-out set.
 - **Inter-rater agreement** still to be computed against an independent second reading. The reading discipline and per-mode definitions are stable enough that this is a confirmation step, not an exploratory one.
 - **Loanwords undercounted.** Only 1 / 2,285 was tagged LOANWORD. Many candidates (e.g. فردوس، سندس، سنبل) are arguably native compositions under the operative reading. A focused audit of suspected loanwords is warranted.
 - **Quadrilateral and quintilateral roots.** The schema generalises (binary on L3, then ternary on L4) but has not been formalised. Roots like قنطر، زنجبيل، طمأن are sketched as "X holds/operates on then Y". The research design for closing this gap is now drafted in [`quad-quint-grammar-roadmap.md`](quad-quint-grammar-roadmap.md): two proposed extensions (binary-on-binary for quadriliterals; stacked-binary composition for quintiliterals), ten worked examples (قنطر، دحرج، نمرق، جهنّم، سلسبيل، زنجبيل، سفرجل, …), and a four-step empirical plan.
