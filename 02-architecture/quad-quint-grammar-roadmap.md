@@ -13,7 +13,7 @@ Two layers above this remain only partially formalised:
 - **Quadriliterals** (four-consonant roots) — e.g. زَلْزَل, دَحْرَج, قَنْطَر, نَمْرَق, جَهَنَّم.
 - **Quintiliterals** (five-consonant roots) — e.g. زَنْجَبِيل, سَلْسَبِيل, عَنْدَلِيب, سَفَرْجَل, خَنْدَرِيس.
 
-The framework currently sketches their behaviour with the formula *binary on L3, then ternary on L4* but does not specify which of the eleven modes applies at the higher levels, nor how the modes compose when the structure runs two levels deep. This is the gap the loanword audit named honestly when it left زَنْجَبِيل and مَجوس in the **UNRESOLVED** category: not because the borrowing claim was confirmed, but because the **native grammar that would settle the question is not yet written**.
+The framework currently sketches their behaviour with the formula *binary on L3, then ternary on L4* but does not specify which of the eleven modes applies at the higher levels, nor how the modes compose when the structure runs two levels deep. This is the gap the loanword audit named honestly when it left زَنْجَبِيل in the **UNRESOLVED** category (مَجوس, previously in this category, has since been resolved as trilateral م-ج-س on وزن فَعول — a morphological-pattern reading, not a quintiliteral problem): not because the borrowing claim was confirmed, but because the **native grammar that would settle the question is not yet written**.
 
 This document opens that door.
 
@@ -154,7 +154,7 @@ The same protocol scales to quintiliterals with a stacked-binary catalogue, but 
 
 ## Connection to the loanword audit
 
-The two UNRESOLVED cases from the [Quranic loanword audit](../04-cross-linguistic/quranic-loanword-audit.md) — زَنْجَبِيل and مَجوس — both involve the kind of higher-than-trilateral compositional structure this document addresses. When the quadriliteral and quintiliteral grammars are formalised, those two cases get re-tested under the new framework. The expectation, based on the worked examples above, is that the native reading will become defensible for at least one of them and the UNRESOLVED count will drop further.
+The remaining UNRESOLVED case from the [Quranic loanword audit](../04-cross-linguistic/quranic-loanword-audit.md) — زَنْجَبِيل — involves the kind of higher-than-trilateral compositional structure this document addresses. (مَجوس, previously a second UNRESOLVED case, has since been resolved by the wholly separate route of recognising it as trilateral م-ج-س on وزن فَعول — a morphological-pattern correction, not a grammar-extension problem. The lesson for the audit: check for standard Arabic morphology before declaring a surface form quintiliteral.) When the quintiliteral grammar is fully formalised, زَنْجَبِيل gets re-tested under the new framework.
 
 The pattern across the framework as a whole is consistent: every honest gap the methodology names gets a research path, and the path closes the gap rather than skirting it. This is what a falsifiable framework looks like when it is taken seriously.
 

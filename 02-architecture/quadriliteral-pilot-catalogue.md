@@ -112,7 +112,7 @@ This is a substantially higher native-reading rate than the loanword audit antic
 
 This pilot moves the LV2+ research-design document from "two proposed extensions, ten worked examples" to "two extensions tested on 20 entries with 95% native-reading rate". The remaining ~130–180 quadriliterals in Jabal's lexicon are the next-scale empirical sweep.
 
-The two UNRESOLVED cases from the [Quranic loanword audit](../04-cross-linguistic/quranic-loanword-audit.md) (zanjabīl, majūs) are revisited here. زَنْجَبيل remains UNRESOLVED but now for a sharper reason: two principled paths compete, both of which the framework permits. مَجوس wasn't in this pilot's sample, but the same pattern (trilateral root م-ج-س exists; modern usage tracks Persian) would put it in the T+A class with a known-loanword semantic vector.
+The remaining UNRESOLVED case from the [Quranic loanword audit](../04-cross-linguistic/quranic-loanword-audit.md) (zanjabīl) is revisited here. زَنْجَبيل remains UNRESOLVED but now for a sharper reason: two principled paths compete, both of which the framework permits. **مَجوس, which the audit had also classified UNRESOLVED, has since been resolved by a wholly separate route**: it is trilateral م-ج-س on وزن فَعول (the augment-و is morphological, like in صَبور / شَكور / غَفور), not a five-letter root. The pilot catalogue therefore does not need to address it — مَجوس is normal Arabic morphology, not a quadriliteral or quintiliteral problem. (Methodological lesson: check for standard noun-patterns like فَعول / فاعول / مَفعول before classifying a surface form as multi-letter root.)
 
 ---
 

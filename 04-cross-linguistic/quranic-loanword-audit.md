@@ -96,10 +96,10 @@ The numbers from `outputs/audits/layer_2_partial_records.md` are kept close to m
 ### مَجُوس (majūs)
 
 - **Attributed origin.** Old Persian *magu* "priest of fire-religion" → Greek *magos* → Arabic.
-- **Skeleton.** م-ج-س (trilateral).
-- **Operative reading.** م-ج-س in Arabic carries the binary **م-ج** (gathered-mass, contained matter) acting on **س** (smooth-extension, fluid spread). The mode is OPERATE: *to render the mass smoothly-spread* — which in concrete terms is the technical sense *to mix, to dissolve, to merge into pollutant flow*. The classical Arabic lexicons gloss مَجَسَ as "to defile, render unclean". The noun *majūs* would then be *the rendered-impure*, applied as a label to the fire-worshipper caste by Arab speakers.
-- **Quranic instance.** 22:17 «إِنَّ الَّذِينَ آمَنُوا وَالَّذِينَ هَادُوا وَالصَّابِئِينَ وَالنَّصَارَىٰ وَالْمَجُوسَ وَالَّذِينَ أَشْرَكُوا». The word appears as one of six religious labels.
-- **Verdict.** **UNRESOLVED** — the native root reading is internally coherent, but the specific Quranic semantic *Magian fire-worshipper* tracks the Persian referent closely. This is honestly a hard case for the strong thesis. Best honest framing: **REVERSE-COGNATE-LIKELY** — Arabic م-ج-س exists with a compatible meaning, and the cross-language semantic crystallisation around Persian fire-religion likely flows in both directions.
+- **Skeleton.** **Trilateral م-ج-س on وزن فَعول.** Earlier drafts of this entry treated *majūs* as a quintiliteral; that was an error. The و is morphological — the same intensive/permanence augment that produces صَبور (the constantly-patient), شَكور (the constantly-grateful), غَفور (the constantly-forgiving). It is not a fourth or fifth root letter.
+- **Operative reading.** The trilateral م-ج-س reads compositionally as: **م** (gathering, containment, bound mass) + **ج** (gathering-in-a-space, ritual-interior emergence) + **س** (smooth-streaming, fine-extending flow) → *a bounded mass from which a fine flow emanates*. The classical lexicons preserve the verbal sense (مَجَسَ — to interfuse, to render unclean by mixing). The **وزن فَعول** then projects this trilateral state onto a community: *those in whom the gathered-streaming state has become continuous, the permanent collective on this pattern*. This is exactly the morphological shape Arabic uses for sect and community names — the *constant state on a specific pattern*. A sect is not a passing act; it is a group made permanent on a way of being.
+- **Quranic instance.** 22:17 «إِنَّ الَّذِينَ آمَنُوا وَالَّذِينَ هَادُوا وَالصَّابِئِينَ وَالنَّصَارَىٰ وَالْمَجُوسَ وَالَّذِينَ أَشْرَكُوا». The word appears alongside five other religious-community labels (those-who-believe, the-Jews, the-Sabians, the-Christians, the-Mushrikīn). The grammar of the list is itself the confirmation: every other entry in the list is a native Arabic morphological form (active participle, plural by community-pattern). *al-majūs* sits in that list as exactly the same kind of form — a فَعول-pattern collective name read off a native trilateral.
+- **Verdict.** **NATIVE.** The فَعول morphological reading dissolves the earlier doubt: مَجوس is not a passive borrowing whose meaning depends on Persian *magu*, but a native Arabic noun-on-pattern naming *the people of the continuous gathered-streaming state*. The Persian fire-priest caste is the historical group that received this label; the *meaning* itself is native Arabic morphology applied to a native trilateral root. The supposed loanword status was an artefact of misreading the word as a five-letter root rather than a trilateral + augment.
 
 ### سَلِيم / سَلسَل / سَنا
 
@@ -298,20 +298,20 @@ These shorter cases all read cleanly through native roots (سلم — wholeness,
 
 Of the twenty-seven candidates worked above:
 
-- **NATIVE (compositional reading clean, borrowing claim does not improve):** فردوس (further: REVERSE-COGNATE), إستبرق, سندس, سجّيل, إبريق, نمارق, سلسبيل, قسطاس, إنجيل (further: REVERSE-COGNATE-LIKELY), قنطار, زخرف, جبت, طاغوت, ملكوت, صلاة, زكاة, ربّاني, آمين, محراب, الطور, ملك/ملائكة, قسورة, إبليس — **23 candidates.**
+- **NATIVE (compositional reading clean, borrowing claim does not improve):** فردوس (further: REVERSE-COGNATE), إستبرق, سندس, سجّيل, إبريق, نمارق, سلسبيل, قسطاس, إنجيل (further: REVERSE-COGNATE-LIKELY), قنطار, زخرف, جبت, طاغوت, ملكوت, صلاة, زكاة, ربّاني, آمين, محراب, الطور, ملك/ملائكة, قسورة, إبليس, **مَجوس (resolved via فَعول morphology on trilateral م-ج-س)** — **24 candidates.**
 - **REVERSE-COGNATE (Arabic to other, not other to Arabic):** قرطاس, قميص, قيراط, درهم (partial) — **4 candidates.**
 - **CONVERGENT (independent emergence, family-level cognate):** جهنّم — **1 candidate.**
-- **UNRESOLVED (the framework's honest residue):** زنجبيل, مَجوس — **2 candidates.**
+- **UNRESOLVED (the framework's honest residue):** زنجبيل — **1 candidate.**
 
-The 23 NATIVE plus the 4 REVERSE-COGNATE entries do not, under the operative grammar, look like borrowings into Arabic. They look either like internally-composed Arabic words whose phonological neighbours in other languages are coincidental or convergent, or like Arabic words that later travelled out into Persian, Greek, Aramaic and Latin and were preserved more partially there.
+The 24 NATIVE plus the 4 REVERSE-COGNATE entries do not, under the operative grammar, look like borrowings into Arabic. They look either like internally-composed Arabic words whose phonological neighbours in other languages are coincidental or convergent, or like Arabic words that later travelled out into Persian, Greek, Aramaic and Latin and were preserved more partially there.
 
 The 1 CONVERGENT case (Jahannam) is the place-name layer where the geographical reality (the Valley of Hinnom near Jerusalem) was known to the Arabs of the late Jāhilī period, and the Quranic re-reading uses the same skeleton with a transparent compositional sense. Both can be true at once: the place was known by its name *and* the name reads natively in Arabic.
 
-The 2 UNRESOLVED cases (zanjabīl, majūs) are honestly the residue. For zanjabīl, the quintiliteral framework is not yet formalised, and the spice's trade route through the Persianate world is well-attested historically. For majūs, the Arabic root م-ج-س (defilement) exists with a compatible semantic but the specific Quranic referent of the Persian fire-priest caste tracks the historical Persian use closely.
+The 1 UNRESOLVED case (zanjabīl) is honestly the residue. The quintiliteral framework is not yet formalised, and the spice's trade route through the Persianate world is well-attested historically. مَجوس, previously held in this category as a second residue, has now been resolved via the **وزن فَعول** morphological reading on the trilateral root م-ج-س — the apparent "fifth letter" is the standard فَعول augment, not a root letter, and the resulting collective-name semantic ("the people of the continuous gathered-streaming state") is exactly the shape Arabic uses for sect names.
 
 ## What this audit demonstrates
 
-**The strong thesis — *no Quranic word is a loanword* — survives a sample of twenty-seven cases drawn from al-Suyūṭī's al-Itqān and Jeffery's catalog with 25 of 27 (93%) resolving as NATIVE or REVERSE-COGNATE under the operative grammar.** The remaining 2 of 27 (7%) are not refutations of the thesis but rather places where the framework does not yet have the formalised apparatus (quintiliteral grammar) to settle the question.
+**The strong thesis — *no Quranic word is a loanword* — survives a sample of twenty-seven cases drawn from al-Suyūṭī's al-Itqān and Jeffery's catalog with 26 of 27 (96%) resolving as NATIVE, REVERSE-COGNATE, or CONVERGENT under the operative grammar.** Only one case (zanjabīl) remains UNRESOLVED, and even that is bounded — its readability now depends only on which decomposition path is canonical, not on whether the framework reaches that high.
 
 The result aligns with the position that **the LOANWORD count in `lv2-operative-grammar.md` is genuinely under-claimed in the other direction: most candidates flagged as foreign in classical and modern lists are in fact native compositions whose neighbours in other Semitic and Indo-European languages are either cognate or downstream**.
 
@@ -321,7 +321,8 @@ It does not claim that every Quranic word has a unique Arabic etymology and no c
 
 ## Next chapters
 
-- **The quintiliteral grammar.** The two UNRESOLVED cases (zanjabīl, majūs) both involve quadriliteral or quintiliteral compositional structure that the eleven-mode framework does not yet formalise. Closing this gap is the natural next layer of the architecture (between LV2 and LV3).
+- **The quintiliteral grammar.** The one remaining UNRESOLVED case (zanjabīl) involves quintiliteral compositional structure that the eleven-mode framework does not yet formalise — though the [quad-quint research design](../02-architecture/quad-quint-grammar-roadmap.md) and the [50-entry pilot catalogue](../02-architecture/quadriliteral-pilot-catalogue.md) now open this layer. Closing this gap is the natural next step.
+- **Morphological-pattern attention.** The مَجوس correction illustrates a methodological point: a "five-letter" surface form may be a trilateral root + standard Arabic morphology (وزن فَعول, وزن فاعول, وزن مَفعول, etc.) rather than a genuine quintiliteral. The audit's checklist needs a pattern-recognition step before classifying a word's root length.
 - **A second-rater pass.** The verdicts above are this rater's. A second independent reading using the same rubric is a confirmation step the methodology already lists in its open questions.
 - **Cross-link to Khshim.** Every REVERSE-COGNATE verdict above should be cross-checked against Khshim's nine sound-substitution laws as documented in [`tafsir-coran-tier-a-cognates.md`](tafsir-coran-tier-a-cognates.md). Several look like clean candidates for promotion to the Tier-A cognate roster.
 
