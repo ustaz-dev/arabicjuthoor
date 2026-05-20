@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Juthoor · Cross-linguistic discoveries · Arabic ↔ Indo-European cognates</title>
+<meta name="description" content="Browse the 1,578 high-confidence Arabic ↔ Indo-European cognate findings from the Juthoor Eye-2 semantic-scoring pipeline. Seven IE branches: Greek, Latin, Old Irish, Welsh, Gothic, Old English, Old Norse. Filter by language, score threshold, or search by Arabic root or target lemma." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://arabicjuthoor.com/discoveries.html" />
+
+<script>
+(function () {
+  try {
+    var l = localStorage.getItem('juthoor-lang');
+    if (l === 'ar' || l === 'en') {
+      document.documentElement.setAttribute('data-lang', l);
+      document.documentElement.setAttribute('lang', l);
+      document.documentElement.setAttribute('dir', l === 'ar' ? 'rtl' : 'ltr');
+    }
+    var t = localStorage.getItem('aratongue-theme');
+    if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+  } catch (e) {}
+})();
+</script>
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="fonts.css" />
+
+<style>
+:root {
+  --bg: #fdfaf5; --bg-2: #f6f0e6; --bg-card: #ffffff;
+  --text: #1a2236; --text-2: #4a5266; --text-3: #5f6275;
+  --accent: #b8862f; --accent-strong: #8a5e1f;
+  --accent-2: #d4a73f; --accent-bg: #faf3df;
+  --border: #e4ddd0;
+  --positive: #2d7a3b; --positive-bg: #e8f3ea;
+  --warn: #8a5e08; --warn-bg: #fdf3d6;
+  --transform: #2255a4; --transform-bg: #e3edf9;
+  --font-en: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-ar: 'Amiri', 'Noto Naskh Arabic', serif;
+  --font-ar-display: 'Cairo', 'Tajawal', system-ui, sans-serif;
+}
+[data-theme="dark"] {
+  --bg: #161821; --bg-2: #1f222e; --bg-card: #1f222e;
+  --text: #ebe7dd; --text-2: #b3afa3; --text-3: #9a9790;
+  --accent: #d4a73f; --accent-strong: #e8c466;
+  --accent-bg: #2a2517; --border: #2e3140;
+  --positive: #6cc77d; --positive-bg: #18301c;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: var(--font-en); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 16px; }
+html[data-lang="ar"] body { font-family: var(--font-ar); direction: rtl; }
+html[data-lang="en"] .lang-ar { display: none !important; }
+html[data-lang="ar"] .lang-en { display: none !important; }
+.ar-display { font-family: var(--font-ar-display); }
+*:focus { outline: none; }
+*:focus-visible { outline: 3px solid var(--accent-strong); outline-offset: 3px; border-radius: 4px; }
+
+.topbar { position: sticky; top: 0; z-index: 50; background: rgba(253, 250, 245, 0.92); backdrop-filter: saturate(180%) blur(10px); border-bottom: 1px solid var(--border); }
+[data-theme="dark"] .topbar { background: rgba(22, 24, 33, 0.92); }
+.topbar-inner { max-width: 1280px; margin: 0 auto; padding: 14px 28px; display: flex; align-items: center; gap: 14px; }
+.brand { font-weight: 700; color: var(--text); text-decoration: none; font-size: 16px; }
+.brand .accent { color: var(--accent-strong); }
+.crumb { color: var(--text-3); font-size: 14px; flex: 1; }
+html[data-lang="ar"] .topbar-inner { flex-direction: row-reverse; }
+.actions { display: flex; align-items: center; gap: 8px; }
+.lang-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.lang-toggle button { background: var(--bg-2); border: 0; cursor: pointer; padding: 6px 12px; font-size: 13px; color: var(--text-3); }
+.lang-toggle button.active { background: var(--accent-strong); color: white; }
+.theme-toggle { background: var(--bg-2); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 13px; color: var(--text); }
+
+main { max-width: 1280px; margin: 0 auto; padding: 36px 28px 80px; }
+.page-title { font-size: clamp(28px, 5vw, 40px); font-weight: 800; margin: 0 0 8px; letter-spacing: -0.02em; }
+.page-sub { color: var(--text-2); margin: 0 0 24px; font-size: 17px; }
+.page-sub a { color: var(--accent-strong); }
+
+/* Stat strip */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 16px 0 28px; }
+.stat { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+.stat-num { font-size: 24px; font-weight: 800; color: var(--accent-strong); line-height: 1.1; }
+.stat-label { font-size: 13px; color: var(--text-3); margin-top: 2px; }
+
+/* Filters */
+.filters { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin: 0 0 20px; }
+.filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px; }
+.filter-row:last-child { margin-bottom: 0; }
+.filter-label { font-size: 13px; font-weight: 600; color: var(--text-3); min-width: 100px; }
+.chip { background: var(--bg-2); border: 1px solid var(--border); border-radius: 999px; padding: 5px 12px; font-size: 13px; cursor: pointer; color: var(--text-2); transition: all 0.12s; }
+.chip:hover { border-color: var(--accent-strong); color: var(--text); }
+.chip.active { background: var(--accent-strong); color: white; border-color: var(--accent-strong); }
+.search { flex: 1; min-width: 200px; padding: 8px 14px; border: 1px solid var(--border); border-radius: 8px; font-size: 15px; font-family: inherit; background: var(--bg); color: var(--text); }
+.search:focus { border-color: var(--accent-strong); }
+.btn-secondary { background: var(--bg-2); border: 1px solid var(--border); border-radius: 6px; padding: 6px 12px; cursor: pointer; font-size: 13px; color: var(--text); }
+.btn-secondary:hover { background: var(--accent-bg); }
+
+/* Results */
+.result-count { color: var(--text-3); font-size: 14px; margin: 0 0 12px; }
+.result-count strong { color: var(--text); }
+
+table.discoveries { width: 100%; border-collapse: collapse; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+table.discoveries thead { background: var(--bg-2); }
+table.discoveries th { text-align: start; padding: 11px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-3); border-bottom: 1px solid var(--border); }
+table.discoveries td { padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: top; font-size: 14px; }
+table.discoveries tr.row:hover { background: var(--accent-bg); cursor: pointer; }
+table.discoveries tr.row.expanded { background: var(--accent-bg); }
+table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18px; }
+.ar-cell { font-family: var(--font-ar); font-size: 18px; font-weight: 600; color: var(--text); }
+.tgt-cell { font-style: italic; font-size: 15px; }
+.score-cell { font-weight: 700; font-family: var(--font-en); }
+.score-cell.s-95 { color: var(--positive); }
+.score-cell.s-80 { color: var(--accent-strong); }
+.score-cell.s-65 { color: var(--accent); }
+.score-cell.s-50 { color: var(--text-2); }
+.lang-cell { font-size: 12px; color: var(--text-3); }
+.lang-badge { display: inline-block; padding: 2px 8px; background: var(--accent-bg); color: var(--accent-strong); border-radius: 4px; font-size: 11px; font-weight: 600; letter-spacing: 0.02em; }
+
+.detail-block { font-size: 14px; color: var(--text-2); line-height: 1.65; }
+.detail-block strong { color: var(--text); }
+.detail-meta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; font-size: 12px; color: var(--text-3); }
+.detail-meta span { padding: 2px 8px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 4px; }
+
+.empty { text-align: center; padding: 48px 20px; color: var(--text-3); }
+
+/* Responsive */
+@media (max-width: 760px) {
+  .topbar-inner { padding: 12px 16px; }
+  main { padding: 24px 16px 60px; }
+  .filter-label { min-width: 0; flex-basis: 100%; }
+  table.discoveries th, table.discoveries td { padding: 10px 8px; font-size: 13px; }
+  table.discoveries .col-branch { display: none; }
+  .ar-cell { font-size: 16px; }
+}
+
+.loading { text-align: center; padding: 48px 20px; color: var(--text-3); }
+.spinner { display: inline-block; width: 24px; height: 24px; border: 3px solid var(--border); border-top-color: var(--accent-strong); border-radius: 50%; animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">
+      <span class="lang-en">Juthoor<span class="accent">.</span></span>
+      <span class="lang-ar ar-display">جُذُور<span class="accent">.</span></span>
+    </a>
+    <span class="crumb">
+      <span class="lang-en">› Discoveries</span>
+      <span class="lang-ar">› الاكتِشافات</span>
+    </span>
+    <div class="actions">
+      <div class="lang-toggle" role="group">
+        <button id="lang-en" class="active">EN</button>
+        <button id="lang-ar" class="lang-btn-ar">عربي</button>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle theme">◑</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1 class="page-title">
+    <span class="lang-en">Cross-linguistic discoveries</span>
+    <span class="lang-ar">الاكتِشافاتُ بَين اللُّغات</span>
+  </h1>
+  <p class="page-sub">
+    <span class="lang-en">The full Eye-2 semantic-scored Arabic ↔ Indo-European cognate roster across seven IE branches. Filter by language, threshold, or search by Arabic root or target lemma. <a href="viewer.html?file=05-audits/2026-05-20-cross-branch-eye2-audit.md">Audit methodology →</a></span>
+    <span class="lang-ar">سِجِلُّ الجِنَاسات العَرَبيّة-الهندوأوربيّة المُسَجَّلة دَلاليًّا بِأَنبوب Eye-2 عَبر سَبعةِ فُروعٍ هندوأوربيّة. صَفِّ حَسَب اللُّغة، أَو العَتَبة، أَو ابحَث بِجَذر العَرَبيّة أَو الكَلِمة الهَدَف. <a href="viewer.html?file=05-audits/2026-05-20-cross-branch-eye2-audit-ar.md">مَنهَجيّة التَّدقيق →</a></span>
+  </p>
+
+  <div class="stats" id="stats">
+    <div class="stat"><div class="stat-num" id="stat-total">…</div><div class="stat-label"><span class="lang-en">Total discoveries</span><span class="lang-ar">الجَملة</span></div></div>
+    <div class="stat"><div class="stat-num" id="stat-95">…</div><div class="stat-label"><span class="lang-en">Near-identical (≥0.95)</span><span class="lang-ar">شِبه-مُطابِق (≥٠٫٩٥)</span></div></div>
+    <div class="stat"><div class="stat-num" id="stat-80">…</div><div class="stat-label"><span class="lang-en">Strong (≥0.80)</span><span class="lang-ar">قَويّ (≥٠٫٨)</span></div></div>
+    <div class="stat"><div class="stat-num" id="stat-65">…</div><div class="stat-label"><span class="lang-en">Likely (≥0.65)</span><span class="lang-ar">مُرَجَّح (≥٠٫٦٥)</span></div></div>
+    <div class="stat"><div class="stat-num">7</div><div class="stat-label"><span class="lang-en">IE branches</span><span class="lang-ar">فُروع هندوأوربيّة</span></div></div>
+  </div>
+
+  <div class="filters">
+    <div class="filter-row">
+      <span class="filter-label">
+        <span class="lang-en">Language</span><span class="lang-ar">اللُّغة</span>
+      </span>
+      <div id="lang-chips"></div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">
+        <span class="lang-en">Min score</span><span class="lang-ar">الحَدّ الأَدنى</span>
+      </span>
+      <button class="chip" data-score="0.5">≥0.5</button>
+      <button class="chip active" data-score="0.65">≥0.65</button>
+      <button class="chip" data-score="0.8">≥0.8</button>
+      <button class="chip" data-score="0.95">≥0.95</button>
+    </div>
+    <div class="filter-row">
+      <input type="search" id="search" class="search" placeholder="" />
+      <button id="reset" class="btn-secondary">
+        <span class="lang-en">Reset</span><span class="lang-ar">تَصفير</span>
+      </button>
+    </div>
+  </div>
+
+  <p class="result-count" id="result-count">
+    <span class="lang-en">Loading…</span><span class="lang-ar">جارٍ التَّحميل…</span>
+  </p>
+
+  <div id="results-container">
+    <div class="loading"><div class="spinner"></div></div>
+  </div>
+</main>
+
+<script>
+// ─── State ───────────────────────────────────────────────────────────────
+let DATA = null;
+const state = {
+  lang: 'all',
+  minScore: 0.65,
+  search: '',
+  expandedRow: null,
+};
+
+// ─── Language + theme toggles ────────────────────────────────────────────
+function setLang(l) {
+  document.documentElement.setAttribute('data-lang', l);
+  document.documentElement.setAttribute('lang', l);
+  document.documentElement.setAttribute('dir', l === 'ar' ? 'rtl' : 'ltr');
+  document.getElementById('lang-en').classList.toggle('active', l === 'en');
+  document.getElementById('lang-ar').classList.toggle('active', l === 'ar');
+  try { localStorage.setItem('juthoor-lang', l); } catch (e) {}
+  setSearchPlaceholder();
+}
+document.getElementById('lang-en').addEventListener('click', () => setLang('en'));
+document.getElementById('lang-ar').addEventListener('click', () => setLang('ar'));
+
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.documentElement.setAttribute('data-theme', dark ? 'light' : 'dark');
+  try { localStorage.setItem('aratongue-theme', dark ? 'light' : 'dark'); } catch (e) {}
+});
+
+function setSearchPlaceholder() {
+  const l = document.documentElement.getAttribute('data-lang');
+  document.getElementById('search').placeholder = l === 'ar'
+    ? 'ابحَث بِجَذر عَرَبيّ أَو كَلِمة هَدَف (مَثَلًا: قرن، horn)'
+    : 'Search by Arabic root or target lemma (e.g. قرن, horn)';
+}
+
+// ─── Data loading ────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch('data/discoveries.json');
+    DATA = await res.json();
+    initUI();
+  } catch (e) {
+    document.getElementById('results-container').innerHTML =
+      '<div class="empty"><p>Failed to load discoveries. ' + e.message + '</p></div>';
+  }
+}
+
+function initUI() {
+  // stats
+  document.getElementById('stat-total').textContent = DATA.records.length.toLocaleString();
+  document.getElementById('stat-95').textContent = DATA.buckets['≥0.95'];
+  document.getElementById('stat-80').textContent = DATA.buckets['≥0.80'];
+  document.getElementById('stat-65').textContent = DATA.buckets['≥0.65'];
+
+  // Language chips
+  const langWrap = document.getElementById('lang-chips');
+  const counts = {};
+  DATA.records.forEach(r => { counts[r.code] = (counts[r.code] || 0) + 1; });
+  const chips = [['all', '', '', DATA.records.length]];
+  Object.keys(DATA.langs).forEach(code => {
+    const info = DATA.langs[code];
+    chips.push([code, info.name_en, info.name_ar, counts[code] || 0]);
+  });
+  langWrap.innerHTML = '';
+  chips.forEach(([code, en, ar, n]) => {
+    const b = document.createElement('button');
+    b.className = 'chip' + (code === 'all' ? ' active' : '');
+    b.dataset.lang = code;
+    b.innerHTML = `<span class="lang-en">${en || 'All'} (${n})</span><span class="lang-ar">${ar || 'الكُلّ'} (${n})</span>`;
+    b.addEventListener('click', () => {
+      state.lang = code;
+      document.querySelectorAll('#lang-chips .chip').forEach(c => c.classList.remove('active'));
+      b.classList.add('active');
+      render();
+    });
+    langWrap.appendChild(b);
+  });
+
+  // Score chips
+  document.querySelectorAll('.chip[data-score]').forEach(b => {
+    b.addEventListener('click', () => {
+      state.minScore = parseFloat(b.dataset.score);
+      document.querySelectorAll('.chip[data-score]').forEach(c => c.classList.remove('active'));
+      b.classList.add('active');
+      render();
+    });
+  });
+
+  // Search
+  let timer;
+  document.getElementById('search').addEventListener('input', (e) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      state.search = e.target.value.trim().toLowerCase();
+      render();
+    }, 200);
+  });
+  setSearchPlaceholder();
+
+  // Reset
+  document.getElementById('reset').addEventListener('click', () => {
+    state.lang = 'all'; state.minScore = 0.65; state.search = '';
+    document.getElementById('search').value = '';
+    document.querySelectorAll('#lang-chips .chip').forEach(c => c.classList.remove('active'));
+    document.querySelector('#lang-chips .chip[data-lang="all"]').classList.add('active');
+    document.querySelectorAll('.chip[data-score]').forEach(c => c.classList.remove('active'));
+    document.querySelector('.chip[data-score="0.65"]').classList.add('active');
+    render();
+  });
+
+  render();
+}
+
+// ─── Filtering + rendering ───────────────────────────────────────────────
+function filtered() {
+  let out = DATA.records;
+  if (state.lang !== 'all') out = out.filter(r => r.code === state.lang);
+  out = out.filter(r => r.score >= state.minScore);
+  if (state.search) {
+    const q = state.search;
+    out = out.filter(r =>
+      (r.ar || '').toLowerCase().includes(q) ||
+      (r.tgt || '').toLowerCase().includes(q) ||
+      (r.lang_en || '').toLowerCase().includes(q));
+  }
+  return out;
+}
+
+function scoreClass(s) {
+  if (s >= 0.95) return 's-95';
+  if (s >= 0.80) return 's-80';
+  if (s >= 0.65) return 's-65';
+  return 's-50';
+}
+
+function render() {
+  const rows = filtered();
+  const langLabel = document.documentElement.getAttribute('data-lang') === 'ar' ? 'نَتيجة' : 'finding';
+  const langLabelP = document.documentElement.getAttribute('data-lang') === 'ar' ? 'نَتائج' : 'findings';
+  const isAr = document.documentElement.getAttribute('data-lang') === 'ar';
+
+  document.getElementById('result-count').innerHTML =
+    `<strong>${rows.length.toLocaleString()}</strong> ${rows.length === 1 ? langLabel : langLabelP} ` +
+    (isAr ? `· عَتَبة ≥${state.minScore}` : `· min score ≥${state.minScore}`);
+
+  if (rows.length === 0) {
+    document.getElementById('results-container').innerHTML =
+      `<div class="empty"><p>${isAr ? 'لا نَتائج بِالمَعايير الحاليّة. جَرِّب تَخفيض العَتَبة أَو إزالة الفِلتر.' : 'No discoveries match the current filters. Try lowering the threshold or clearing search.'}</p></div>`;
+    return;
+  }
+
+  const cap = 500; // performance cap; UI shows count and an explainer if more
+  const display = rows.slice(0, cap);
+
+  const headers = isAr
+    ? ['عَرَبيّ', 'كَلِمة هَدَف', 'نُقطة', 'لُغة', 'فَرع']
+    : ['Arabic', 'Target lemma', 'Score', 'Language', 'Branch'];
+
+  let html = '<table class="discoveries"><thead><tr>';
+  headers.forEach((h, i) => html += `<th class="${i === 4 ? 'col-branch' : ''}">${h}</th>`);
+  html += '</tr></thead><tbody>';
+
+  display.forEach((r, idx) => {
+    const sc = scoreClass(r.score);
+    html += `<tr class="row" data-idx="${idx}">
+      <td class="ar-cell" lang="ar" dir="rtl">${escapeHtml(r.ar)}</td>
+      <td class="tgt-cell">${escapeHtml(r.tgt)}</td>
+      <td class="score-cell ${sc}">${r.score.toFixed(2)}</td>
+      <td class="lang-cell"><span class="lang-badge">${r.code}</span> ${escapeHtml(isAr ? r.lang_ar : r.lang_en)}</td>
+      <td class="lang-cell col-branch">${escapeHtml(r.branch)}</td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+
+  if (rows.length > cap) {
+    html += `<p class="result-count" style="margin-top:14px;text-align:center;">${
+      isAr
+        ? `عَرضُ أَوَّل ${cap} مِن ${rows.length}. ضَيِّق الفِلتر لِرُؤية المَزيد.`
+        : `Showing top ${cap} of ${rows.length}. Narrow the filter to see more.`
+    }</p>`;
+  }
+
+  document.getElementById('results-container').innerHTML = html;
+
+  // Click handlers for row expansion
+  document.querySelectorAll('table.discoveries tr.row').forEach(tr => {
+    tr.addEventListener('click', () => toggleRow(tr, display[parseInt(tr.dataset.idx)]));
+  });
+}
+
+function toggleRow(tr, record) {
+  // collapse any open detail row
+  const open = document.querySelector('tr.detail');
+  if (open) open.remove();
+  document.querySelectorAll('tr.row.expanded').forEach(r => r.classList.remove('expanded'));
+
+  // if clicking same row, collapse
+  if (tr === state.expandedRow) {
+    state.expandedRow = null;
+    return;
+  }
+
+  tr.classList.add('expanded');
+  state.expandedRow = tr;
+
+  const detail = document.createElement('tr');
+  detail.className = 'detail';
+  const td = document.createElement('td');
+  td.colSpan = 5;
+  const isAr = document.documentElement.getAttribute('data-lang') === 'ar';
+
+  let metaTags = [];
+  if (record.method) metaTags.push(`<span>${escapeHtml(record.method)}</span>`);
+  if (record.verdict) metaTags.push(`<span>${escapeHtml(record.verdict)}</span>`);
+  if (record.confidence) metaTags.push(`<span>${isAr ? 'الثِّقة' : 'confidence'}: ${escapeHtml(record.confidence)}</span>`);
+
+  td.innerHTML = `<div class="detail-block">
+    <strong>${isAr ? 'التَّفسير الدَّلاليّ:' : 'Eye-2 reasoning:'}</strong><br />
+    ${escapeHtml(record.reasoning || (isAr ? '(لا تَفسيرٌ مُتاح)' : '(no reasoning available)'))}
+    ${metaTags.length ? `<div class="detail-meta">${metaTags.join('')}</div>` : ''}
+  </div>`;
+  detail.appendChild(td);
+  tr.parentNode.insertBefore(detail, tr.nextSibling);
+}
+
+function escapeHtml(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+// Boot
+loadData();
+</script>
+
+</body>
+</html>
