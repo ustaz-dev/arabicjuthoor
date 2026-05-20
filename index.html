@@ -461,6 +461,36 @@ header.hero {
   font-size: clamp(16px, 1.6vw, 19px); color: var(--text-2);
   max-width: 720px; margin: 0 auto 36px; line-height: 1.55;
 }
+
+/* Quranic epigraph — the project's structural slogan, 35:1.
+   Pairs/threes/fours of wings parallel the binary/trilateral/quadriliteral
+   architecture this study reads. */
+.hero-epigraph {
+  max-width: 760px; margin: 22px auto 30px; padding: 22px 28px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, transparent 0%, var(--accent-bg) 50%, transparent 100%);
+  text-align: center; position: relative;
+}
+.hero-epigraph .verse {
+  font-family: 'Amiri', 'Noto Naskh Arabic', serif;
+  font-size: clamp(18px, 2.2vw, 26px); line-height: 1.9;
+  color: var(--text); direction: rtl;
+  font-weight: 400;
+}
+.hero-epigraph .verse strong {
+  color: var(--accent-strong); font-weight: 700;
+}
+.hero-epigraph .anchor {
+  font-size: 12px; color: var(--text-3); margin-top: 6px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+.hero-epigraph .gloss {
+  font-size: 13.5px; color: var(--text-2); margin-top: 10px;
+  max-width: 620px; margin-left: auto; margin-right: auto; line-height: 1.55;
+  font-style: italic;
+}
+html[data-lang="ar"] .hero-epigraph .gloss { font-style: normal; font-family: var(--font-ar); }
 .hero-cta {
   display: inline-flex; gap: 12px; flex-wrap: wrap; justify-content: center;
 }
@@ -1068,6 +1098,18 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
 
   <h2 class="hero-title-ar lang-en" style="direction: ltr;">The Arabic Tongue: meaning, from letter to root</h2>
   <h2 class="hero-title-ar lang-ar">العربيّةُ: بِنيةُ المعنى من الحرفِ إلى الجذر</h2>
+
+  <!-- Quranic epigraph · 35:1 — the project's structural slogan -->
+  <figure class="hero-epigraph">
+    <blockquote class="verse">
+      جَاعِلِ <strong>الْمَلَائِكَةِ</strong> رُسُلًا أُولِي أَجْنِحَةٍ <strong>مَثْنَىٰ وَثُلَاثَ وَرُبَاعَ</strong>
+    </blockquote>
+    <div class="anchor">QURʾĀN · سورة فاطر · 35:1</div>
+    <p class="gloss">
+      <span class="lang-en">Messengers — paired, threed, foured. The same binary · trilateral · quadriliteral architecture this study reads in every Arabic root. <em>Malāʾika</em> shares the K-L-M / L-ʾ-K skeleton of <em>kalām</em> (Tier-A cognate <em>claim / clamor</em>): the constrained-extending message, what is sent forth under structure.</span>
+      <span class="lang-ar">الرَّسائلُ تَنزِلُ مَثنى وثُلاثَ ورُباع — وهي بِنيةُ النَّوى الثُّنائيّة، والجُذور الثُّلاثيّة، والرُّباعيّات التي تَقرأُها هذه الدراسةُ في الجَذر العَرَبيّ. ومَلائكة تُشاركُ هَيكلَ الكَلام (الصِّنف الأَوّل #٥: <em>claim / clamor</em>) في L-K — الرِّسالةُ المُمتَدّةُ تَحت تَركيب.</span>
+    </p>
+  </figure>
 
   <p class="hero-tagline lang-en">
     An empirical study of meaning-composition in Arabic. Rooted in <strong>twelve centuries of Arabic linguistic scholarship</strong>, from <span class="ar-display">الخليل بن أحمد</span> and <span class="ar-display">ابن جنّي</span> to the modern lexicographic tradition, and extended with new structural findings: a <strong>harmonized 28-letter table</strong> with an empirically-confirmed <strong>universal dual-face structure</strong>; a full catalog of <strong>453 binary nuclei</strong>; and an <strong>11-mode native operative grammar</strong> (plus a LOANWORD label) that grades <strong>2,285 trilateral roots at 100% native fit</strong>.
