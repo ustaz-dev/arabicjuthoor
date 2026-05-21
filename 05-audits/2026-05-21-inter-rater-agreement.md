@@ -1,9 +1,6 @@
 # Inter-Rater Agreement (IRR) · Sonnet pipeline vs Opus 4.5 (calibrated)
 
-> Arabic version: [`2026-05-21-inter-rater-agreement-ar.md`](2026-05-21-inter-rater-agreement-ar.md).
-> Earlier wrong-test (Gemini, un-calibrated): [`2026-05-21-irr-gemini-uncalibrated.md`](2026-05-21-irr-gemini-uncalibrated.md).
->
-> **Date:** 2026-05-21  ·  **Sample size:** 150 pairs (stratified random from the 770-cognate pool at score ≥ 0.65)
+**Date:** 2026-05-21  ·  **Sample size:** 150 pairs (stratified random from the 770-cognate pool at score ≥ 0.65)
 
 ## Why this IRR is the right measurement
 

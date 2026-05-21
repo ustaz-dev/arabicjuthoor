@@ -1,11 +1,5 @@
 # Tier-B Cross-Linguistic Cognate Roster · 50 Curated Findings
 
-> Arabic version: [`tier-b-cognates-ar.md`](tier-b-cognates-ar.md).
-> Tier-A roster (the gold standard, 19 entries): [`tafsir-coran-tier-a-cognates.md`](tafsir-coran-tier-a-cognates.md).
-> Full discoveries dashboard (with both Sonnet and calibrated Opus scores): [`/discoveries.html`](../discoveries.html).
->
-> **Calibration note:** This roster was curated from the Sonnet ≥0.8 bucket (134 pairs). The [calibrated Opus re-scoring](../05-audits/2026-05-21-opus-calibrated-770.md) found 90% strong-bucket survival (120 of 134 remain at ≥0.8 under calibrated re-read). The Tier-B 50 sits within that surviving subset.
-
 ## What Tier-B is — and what it is not
 
 **Tier-A** is the gold-standard roster: 19 cognates that clear all four bars of the [verification rubric](tafsir-coran-tier-a-cognates.md#the-four-bar-verification-rubric--ضوابط-التحقّق-الأربعة) (skeleton match, nucleus identity, modern reader-recognition, dual-family confirmation), with a Quranic anchor for each. Tier-A is the row a working translator can stand on.
