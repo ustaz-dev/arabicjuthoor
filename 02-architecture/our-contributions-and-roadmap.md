@@ -276,7 +276,7 @@ It provides the first systematic, large-scale empirical test of Saussure's arbit
 
 ### 6.3 For comparative linguistics
 
-A disciplined four-bar verification rubric for cross-linguistic cognates, anchored by Khshim's nine sound-substitution laws, with eight Quran-anchored Tier-A pairs (kufu' ↔ copy, salām ↔ shalom, rabb ↔ rabbi, jinn ↔ genie, kalām ↔ claim, qul ↔ call, sharb ↔ sorb, jam' ↔ Gemini) demonstrating the method in practice. The rubric distinguishes genuine cross-linguistic resonance from surface accident, the central methodological problem of historical-comparative work.
+A disciplined four-bar verification rubric for cross-linguistic cognates, anchored by Khshim's nine sound-substitution laws, with eight Quran-anchored Tier-A pairs (kufu' ↔ copy, salām ↔ shalom, rabb ↔ rabbi, jinn ↔ genie, kalām ↔ claim, qul ↔ call, sharb ↔ sorb, jam' ↔ the alternate model) demonstrating the method in practice. The rubric distinguishes genuine cross-linguistic resonance from surface accident, the central methodological problem of historical-comparative work.
 
 ### 6.4 For computational linguistics and AI
 

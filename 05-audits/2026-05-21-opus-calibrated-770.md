@@ -1,12 +1,12 @@
-# Calibrated Opus Re-Scoring of the Full 770 ≥0.65 Pool
+# Calibrated التَّمريرة الثانية Re-Scoring of the Full 770 ≥0.65 Pool
 
-**Date:** 2026-05-21  ·  **Pool:** 770 pairs (Sonnet ≥0.65 output)  ·  **Rater B:** Opus 4.5 (calibrated)
+**Date:** 2026-05-21  ·  **Pool:** 770 pairs (التَّمريرة الأُولى ≥0.65 output)  ·  **Rater B:** Pass 2 calibrated
 
-Every pair in the ≥0.65 pool was re-scored by Opus under the same calibrated Eye-2 prompt that Sonnet had: Juthoor thesis, polysemy rule, multi-step chains, method tags, calibration anchors from confirmed Tier-A cognates. The original Sonnet bulk pipeline produced 770 pairs at ≥0.65; the IRR-150 audit on this same pool found Sonnet was lenient at the 0.65 boundary. This document replaces the IRR-150 estimate with the actual re-scoring of all 770. These are the calibrated numbers the dashboard headlines.
+Every pair in the ≥0.65 pool was re-scored by Pass 2 under the same calibrated Eye-2 prompt that التَّمريرة الأُولى had: Juthoor thesis, polysemy rule, multi-step chains, method tags, calibration anchors from confirmed Tier-A cognates. The original التَّمريرة الأُولى bulk pipeline produced 770 pairs at ≥0.65; the IRR-150 audit on this same pool found التَّمريرة الأُولى was lenient at the 0.65 boundary. This document replaces the IRR-150 estimate with the actual re-scoring of all 770. These are the calibrated numbers the dashboard headlines.
 
-## Aggregate counts (calibrated Opus on the 770 pool)
+## Aggregate counts (Pass 2 calibrated on the 770 pool)
 
-| Threshold | Sonnet pipeline (original) | Opus calibrated (corrected) | Change |
+| Threshold | التَّمريرة الأُولى pipeline (original) | Pass 2 calibrated (corrected) | Change |
 |---|--:|--:|---|
 | ≥ 0.95 (near-identical) | 57 | **18** | -39 |
 | ≥ 0.80 (strong) | 134 | **120** | -14 |
@@ -27,19 +27,19 @@ Every pair in the ≥0.65 pool was re-scored by Opus under the same calibrated E
 | got | 10 | 8 | 7 | 0 |
 | sga | 6 | 5 | 4 | 0 |
 
-## Migration matrix (Sonnet bucket → Opus bucket)
+## Migration matrix (التَّمريرة الأُولى bucket → التَّمريرة الثانية bucket)
 
-Read row-wise: of the pairs Sonnet placed in this bucket, how many did calibrated Opus place in each Opus bucket?
+Read row-wise: of the pairs التَّمريرة الأُولى placed in this bucket, how many did Pass 2 calibrated place in each التَّمريرة الثانية bucket?
 
-| Sonnet ↓  /  Opus → | weak | plausible | likely | strong | row total |
+| التَّمريرة الأُولى ↓  /  التَّمريرة الثانية → | weak | plausible | likely | strong | row total |
 |---|---:|---:|---:|---:|---:|
 | **likely** | 522 | 46 | 40 | 28 | 636 |
 | **strong** | 6 | 7 | 29 | 92 | 134 |
 
 ## Key findings
 
-1. **Strong-bucket survival: 92/134 = 69%.** Pairs Sonnet rated ≥0.8 that calibrated Opus also rates ≥0.8.
-2. **Likely-bucket drop-rate: 20/636 = 82% drop below 0.5.** Most of the Sonnet 0.65-0.79 zone re-buckets to weak under calibrated re-read.
+1. **Strong-bucket survival: 92/134 = 69%.** Pairs التَّمريرة الأُولى rated ≥0.8 that Pass 2 calibrated also rates ≥0.8.
+2. **Likely-bucket drop-rate: 20/636 = 82% drop below 0.5.** Most of Pass 1 0.65-0.79 zone re-buckets to weak under calibrated re-read.
 3. **New headline number at ≥0.65: 189** (was 770). The ~3.5× reduction confirms the IRR-150 extrapolation.
 4. **New headline at ≥0.8: 120** (was 134, ≈ 90% retained).
 5. **New headline at ≥0.95: 18** (was 57, ≈ 32% retained).

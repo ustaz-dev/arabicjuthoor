@@ -536,19 +536,24 @@ html[dir="rtl"] .share-row { justify-content: flex-start; }
 
     <div id="nucleus-block"></div>
 
-    <div class="modes-section" id="modes-section">
-      <div class="panel-title">
-        <span class="lang-en">The eleven native composition modes (+ LOANWORD label)</span>
-        <span class="lang-ar">الأَبواب الأَحَدَ عَشَر الأَصيلة (+ مَدخَل الدَّخيل)</span>
-      </div>
-      <p class="lang-en" style="font-size:13.5px;color:var(--text-2);margin:0 0 16px;">
+    <details class="modes-section" id="modes-section">
+      <summary class="panel-title" style="cursor:pointer; user-select:none; list-style:none; display:flex; align-items:center; gap:10px;">
+        <span style="display:inline-block; transition:transform 0.15s;" class="modes-chevron">▸</span>
+        <span class="lang-en">Reference · the eleven native composition modes (+ LOANWORD label)</span>
+        <span class="lang-ar">مَرجِع · الأَبواب الأَحَدَ عَشَر الأَصيلة (+ مَدخَل الدَّخيل)</span>
+      </summary>
+      <p class="lang-en" style="font-size:13.5px;color:var(--text-2);margin:14px 0 16px;">
         For a trilateral root, the binary nucleus (L1·L2) operates on the third letter&apos;s charge as material, via one of these modes. Mode selection from the full meaning is the LV2 task; this reader presents the modes for reference.
       </p>
-      <p class="lang-ar" style="font-size:13.5px;color:var(--text-2);margin:0 0 16px;">
+      <p class="lang-ar" style="font-size:13.5px;color:var(--text-2);margin:14px 0 16px;">
         لِلجَذر الثُّلاثيّ، تَعمَلُ النَّواةُ الثُّنائيّةُ (L1·L2) في شَحنة الحَرف الثالث كَمادّة، بِأَحَد هذه الأَبواب. انتِخابُ البابِ من المَعنى الكامل هو مَهَمَّةُ الطبقة الثانية؛ يُقَدِّمُ هذا القارئُ الأَبوابَ مَرجِعًا.
       </p>
       <div id="modes-list"></div>
-    </div>
+    </details>
+    <style>
+      details.modes-section > summary::-webkit-details-marker { display:none; }
+      details.modes-section[open] .modes-chevron { transform: rotate(90deg); }
+    </style>
   </div>
 
   <div class="empty" id="empty">

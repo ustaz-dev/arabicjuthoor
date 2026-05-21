@@ -1,16 +1,16 @@
-# Wrong-Test Transparency Doc · Gemini 2.5 Pro IRR (un-calibrated)
+# Wrong-Test Transparency Doc · Alternate-model IRR · un-calibrated
 
 > ⚠️ **This is preserved as a transparency record of a methodologically wrong test.** Do not cite the κ=0.058 number as a finding about the project's methodology. See the corrected IRR at [`2026-05-21-inter-rater-agreement.md`](2026-05-21-inter-rater-agreement.md).
 >
-> **Why this test was wrong:** Gemini 2.5 Pro was given a stripped-down prompt — no Juthoor thesis, no calibration anchors, no method tags (masadiq_direct / mafahim_deep / combined), no polysemy rule, no multi-step-chain instruction. Gemini's training data is dominated by mainstream IE comparative philology, a paradigm that by default does not recognise deep Arabic ↔ IE cognates. Asking that paradigm to validate findings that the Juthoor methodology was specifically constructed to surface is broken from the start.
+> **Why this test was wrong:** an alternate model was given a stripped-down prompt — no Juthoor thesis, no calibration anchors, no method tags (masadiq_direct / mafahim_deep / combined), no polysemy rule, no multi-step-chain instruction. that model's training data is dominated by mainstream IE comparative philology, a paradigm that by default does not recognise deep Arabic ↔ IE cognates. Asking that paradigm to validate findings that the Juthoor methodology was specifically constructed to surface is broken from the start.
 >
 > What this test actually measured: paradigm alignment between mainstream comparative philology and the Juthoor rubric. The answer (predictably) is "they disagree" — which is the project's thesis, not a refutation of it.
 >
-> The correct IRR test (calibrated Opus vs Sonnet pipeline) is at [`2026-05-21-inter-rater-agreement.md`](2026-05-21-inter-rater-agreement.md) and shows Pearson r = 0.520, with 78% survival of the `strong` (≥0.80) bucket.
+> The correct IRR test (Pass 2 calibrated vs التَّمريرة الأُولى pipeline) is at [`2026-05-21-inter-rater-agreement.md`](2026-05-21-inter-rater-agreement.md) and shows Pearson r = 0.520, with 78% survival of the `strong` (≥0.80) bucket.
 
 **Date:** 2026-05-21  ·  **Sample size:** 150 pairs (stratified random from the 770-cognate pool at score ≥ 0.65)
 
-> Rater A is the original pipeline (Sonnet 4.5 bulk + Opus deep-review). Rater B is **Gemini 2.5 Pro with an UN-calibrated prompt**. Different model families AND different rubrics.
+> Rater A is the original pipeline (Pass 1 bulk + Pass 2 deep-review). Rater B is **the un-calibrated alternate model with an UN-calibrated prompt**. Different model families AND different rubrics.
 
 ## Headline
 
@@ -26,7 +26,7 @@ Buckets used for κ: `weak` (<0.50) · `plausible` (0.50–0.64) · `likely` (0.
 
 ## Confusion matrix
 
-Rows = rater A (Sonnet), columns = rater B (Gemini). Cell = number of pairs both rated in those buckets.
+Rows = rater A (Pass 1), columns = rater B (alternate model). Cell = number of pairs both rated in those buckets.
 
 | A ↓  /  B → | weak | plausible | likely | strong | row total |
 |---|---:|---:|---:|---:|---:|
@@ -46,7 +46,7 @@ Rows = rater A (Sonnet), columns = rater B (Gemini). Cell = number of pairs both
 
 ## Bucket distribution per rater
 
-| Bucket | A (Sonnet) | B (Gemini) |
+| Bucket | A (Pass 1) | B (alternate model) |
 |---|--:|--:|
 | weak | 0 | 70 |
 | plausible | 0 | 21 |
@@ -83,7 +83,7 @@ Rows = rater A (Sonnet), columns = rater B (Gemini). Cell = number of pairs both
 ## Caveats
 
 - The sample is stratified random from the ≥0.65 pool, so it is well-populated at the 'likely+' end and lighter at the 'weak' end. Agreement could be lower if a wider score range were sampled.
-- Rater B (Gemini) scored in batches of 30 to manage context length. Batch boundaries do not affect per-pair scores but may introduce small calibration drift across batches.
+- Rater B (alternate model) scored in batches of 30 to manage context length. Batch boundaries do not affect per-pair scores but may introduce small calibration drift across batches.
 - The bucket thresholds (0.50 / 0.65 / 0.80) match the published rubric. Different thresholds would yield different κ.
 
 — end —

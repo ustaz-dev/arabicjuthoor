@@ -108,7 +108,9 @@ table.discoveries tr.row:hover { background: var(--accent-bg); cursor: pointer; 
 table.discoveries tr.row.expanded { background: var(--accent-bg); }
 table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18px; }
 .ar-cell { font-family: var(--font-ar); font-size: 18px; font-weight: 600; color: var(--text); }
+.ar-pron { display: block; font-family: var(--font-en); font-style: italic; font-size: 12px; font-weight: 400; color: var(--text-3); margin-top: 2px; letter-spacing: 0.02em; }
 .tgt-cell { font-style: italic; font-size: 15px; }
+.tgt-pron { display: block; font-family: var(--font-en); font-style: normal; font-size: 12px; color: var(--text-3); margin-top: 2px; }
 .score-cell { font-weight: 700; font-family: var(--font-en); }
 .score-cell.s-95 { color: var(--positive); }
 .score-cell.s-80 { color: var(--accent-strong); }
@@ -179,8 +181,8 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
     <div class="stat"><div class="stat-num">7</div><div class="stat-label"><span class="lang-en">IE branches</span><span class="lang-ar">فُروع هندوأوربيّة</span></div></div>
   </div>
   <p style="font-size:13px;color:var(--text-3);margin:-10px 0 20px;">
-    <span class="lang-en">Headline numbers are <strong>calibrated Opus</strong> re-scores of the full ≥0.65 pool (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770.md">audit</a>). The original Sonnet pipeline produced 770 ≥0.65 / 134 ≥0.8 / 57 ≥0.95; a calibrated second pass tightened those to 189 / 120 / 18. Both scores are visible on every row (click to expand).</span>
-    <span class="lang-ar">الأَرقامُ الرَّئيسيّة هي إعادةُ تَسجيلٍ بِـ <strong>Opus المُعايَر</strong> لِكامِل حَوض الـ ≥٠٫٦٥ (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770-ar.md">التَّدقيق</a>). أَنبوبُ Sonnet الأَصليّ أَنتَج ٧٧٠/١٣٤/٥٧؛ التَّمريرُ المُعايَر الثاني أَحكَمَها إلى ١٨٩/١٢٠/١٨. كِلتا النُّقطَتَين تَظهَران عَلى كُلِّ صَفّ (انقُر لِلتَّوسيع).</span>
+    <span class="lang-en">Headline numbers are <strong>Pass 2 calibrated</strong> re-scores of the full ≥0.65 pool (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770.md">audit</a>). Pass 1 (bulk discovery) produced 770 ≥0.65 / 134 ≥0.8 / 57 ≥0.95; Pass 2 (blind calibrated re-read) tightened these to 189 / 120 / 18. Both scores are visible on every row (click to expand).</span>
+    <span class="lang-ar">الأَرقامُ الرَّئيسيّة هي إعادةُ تَسجيلٍ بِـ <strong>التَّمريرة الثانية المُعايَرة</strong> لِكامِل حَوض ≥٠٫٦٥ (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770-ar.md">التَّدقيق</a>). التَّمريرةُ الأولى (الاكتِشافُ الجُمليّ) أَنتَجَت ٧٧٠/١٣٤/٥٧؛ التَّمريرةُ الثانية (إعادةُ قِراءةٍ مُعايَرةٍ أَعمى) أَحكَمَتها إلى ١٨٩/١٢٠/١٨. كِلتا النُّقطَتَين تَظهَران عَلى كُلِّ صَفّ.</span>
   </p>
 
   <div class="filters">
@@ -207,7 +209,7 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
         <span class="lang-en">🟢 IRR-verified only</span><span class="lang-ar">🟢 IRR-مُؤَكَّد فَقَط</span>
       </button>
       <span style="font-size:12px;color:var(--text-3);">
-        <span class="lang-en">(both Sonnet and calibrated Opus rate ≥0.65)</span><span class="lang-ar">(كِلا Sonnet و Opus المُعايَر ≥٠٫٦٥)</span>
+        <span class="lang-en">(both Pass 1 and Pass 2 calibrated rate ≥0.65)</span><span class="lang-ar">(كِلتا التَّمريرَتَين تُسَجِّلانه ≥٠٫٦٥)</span>
       </span>
     </div>
     <div class="filter-row">
@@ -519,8 +521,8 @@ function render() {
 
   // Sortable headers: each header is a button-like th that toggles sort
   const headerSpec = isAr
-    ? [['ar', 'عَرَبيّ'], ['tgt', 'كَلِمة هَدَف'], ['score', 'Sonnet'], ['opus', 'Opus مُعايَر'], ['lang', 'لُغة'], [null, 'فَرع']]
-    : [['ar', 'Arabic'], ['tgt', 'Target lemma'], ['score', 'Sonnet'], ['opus', 'Opus calibrated'], ['lang', 'Language'], [null, 'Branch']];
+    ? [['ar', 'عَرَبيّ'], ['tgt', 'كَلِمة هَدَف'], ['score', 'تَمريرة ١'], ['opus', 'تَمريرة ٢ · مُعايَرة'], ['lang', 'لُغة'], [null, 'فَرع']]
+    : [['ar', 'Arabic'], ['tgt', 'Target lemma'], ['score', 'Pass 1'], ['opus', 'Pass 2 · calibrated'], ['lang', 'Language'], [null, 'Branch']];
 
   let html = '<table class="discoveries"><thead><tr>';
   headerSpec.forEach(([key, label], i) => {
@@ -541,9 +543,11 @@ function render() {
     } else {
       opusCell = '<span style="color:var(--text-3);font-size:12px;">—</span>';
     }
+    const arPron = r.ar_pron ? `<span class="ar-pron">${escapeHtml(r.ar_pron)}</span>` : '';
+    const tgtPron = (r.tgt_pron && r.tgt_pron !== r.tgt) ? `<span class="tgt-pron">${escapeHtml(r.tgt_pron)}</span>` : '';
     html += `<tr class="row" data-idx="${idx}">
-      <td class="ar-cell" lang="ar" dir="rtl">${escapeHtml(r.ar)}</td>
-      <td class="tgt-cell">${escapeHtml(r.tgt)}</td>
+      <td class="ar-cell" lang="ar" dir="rtl">${escapeHtml(r.ar)}${arPron}</td>
+      <td class="tgt-cell">${escapeHtml(r.tgt)}${tgtPron}</td>
       <td class="score-cell ${sc}">${r.score.toFixed(2)}</td>
       <td>${opusCell}</td>
       <td class="lang-cell"><span class="lang-badge">${r.code}</span> ${escapeHtml(isAr ? r.lang_ar : r.lang_en)}</td>

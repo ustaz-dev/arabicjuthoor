@@ -25,7 +25,7 @@ This is the quadriliteral-level analogue of the [16 COHERENT binary held-out tes
 
 ## Honest preamble on rater identity
 
-Opus is the rater here. As a model trained on classical Arabic lexicography, Opus likely has implicit lexical knowledge of which of these skeletons exist. The audit discipline is therefore not "score blind to attestation" but rather: **register a specific predicted semantic before checking; grade strictly on whether the attestation matches the specific prediction, not on whether *something* is attested**. The harder discipline is the prediction's specificity, not the rater's amnesia.
+The Pass 2 model is the rater here. As a Pass 2 model trained on classical Arabic lexicography, it likely has implicit lexical knowledge of which of these skeletons exist. The audit discipline is therefore not "score blind to attestation" but rather: **register a specific predicted semantic before checking; grade strictly on whether the attestation matches the specific prediction, not on whether *something* is attested**. The harder discipline is the prediction's specificity, not the rater's amnesia.
 
 ## Pre-registered scoring threshold
 

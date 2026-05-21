@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-10
 **Audit item:** §7.1.1 follow-up — the 4 nuclei (`ثن`, `ضه`, `ظف`, `ون`) whose composed reading from consensus charges did not earn corroboration from Jabal's trilateral family.
-**Method:** manual reasoning (Claude Opus), grounded in the vault's consensus letter charges and Jabal's recorded family for each nucleus. The earlier codex pass diagnosed three of these as "low data, defer" — that diagnosis was too quick. Re-examined here.
+**Method:** manual reasoning (Claude Pass 2), grounded in the vault's consensus letter charges and Jabal's recorded family for each nucleus. The earlier codex pass diagnosed three of these as "low data, defer" — that diagnosis was too quick. Re-examined here.
 
 ---
 

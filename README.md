@@ -61,7 +61,7 @@ This is an empirical study of that meaning-composition system. It rests on twelv
 
 | File | Description |
 |------|-------------|
-| [tafsir-coran-tier-a-cognates.md](04-cross-linguistic/tafsir-coran-tier-a-cognates.md) | **The four-bar verification rubric** anchored by Dr. Ali Fahmi Khshim's nine sound-substitution laws, with the 19 Tier-A Quran-anchored cognate pairs (8 original + 3 from loanword audit + 4 Indo-Semitic core + 4 writing-and-numerals) (kufu' ↔ copy, salām ↔ shalom, rabb ↔ rabbi, jinn ↔ genie, kalām ↔ claim, qul ↔ call, sharb ↔ sorb, jam' ↔ Gemini). |
+| [tafsir-coran-tier-a-cognates.md](04-cross-linguistic/tafsir-coran-tier-a-cognates.md) | **The four-bar verification rubric** anchored by Dr. Ali Fahmi Khshim's nine sound-substitution laws, with the 19 Tier-A Quran-anchored cognate pairs (8 original + 3 from loanword audit + 4 Indo-Semitic core + 4 writing-and-numerals) (kufu' ↔ copy, salām ↔ shalom, rabb ↔ rabbi, jinn ↔ genie, kalām ↔ claim, qul ↔ call, sharb ↔ sorb, jam' ↔ the alternate model). |
 | [beyond-the-word-examples.md](04-cross-linguistic/beyond-the-word-examples.md) | 17 popular Arabic↔English cognate cases retained for reference. |
 
 ### `05-audits/` — empirical record

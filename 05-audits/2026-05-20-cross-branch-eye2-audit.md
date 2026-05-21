@@ -29,7 +29,7 @@ Three IE sub-families covered (Hellenic, Italic, Celtic), two of which appear in
 
 Two scoring schemas live in the data — different vintages of the pipeline:
 
-- **Score-schema** (grc, lat, got, ang, sga): each pair has a `semantic_score` ∈ [0, 1] produced by Sonnet bulk scoring with Opus deep review of the ambiguous zone. Thresholds: ≥0.5 plausible · ≥0.65 likely · ≥0.8 strong · ≥0.95 near-identical.
+- **Score-schema** (grc, lat, got, ang, sga): each pair has a `semantic_score` ∈ [0, 1] produced by التَّمريرة الأُولى bulk scoring with Pass 2 deep review of the ambiguous zone. Thresholds: ≥0.5 plausible · ≥0.65 likely · ≥0.8 strong · ≥0.95 near-identical.
 - **Verdict-schema** (cy, non): each pair has a categorical `verdict` ∈ {confirmed_cognate, plausible_link, shared_loanword, proper_name, false_positive}, plus a `confidence` ∈ {high, medium, low}. This is the "detective-mode" Wave-2 pipeline.
 
 For comparability, we map verdicts to approximate scores: `confirmed_cognate ≈ 0.95`, `plausible_link ≈ 0.70`, `shared_loanword ≈ 0.55`. All counts below use the mapped score for cy/non.
@@ -102,7 +102,7 @@ The Old Norse Wave-2 review surfaced four findings the Greek + Latin axis had no
 - **ج-م-ل ↔ Norse *kamel*** (0.70) — confirms the camel-name's Wanderwort status into Northern Europe
 - **ق-ر-ط-س ↔ Norse *kort*** (0.70) — chart/papyrus into Northern Europe likely via Latin-Christian transmission
 - **إ-ن-ج-ل ↔ Norse *gudspjall*** (0.70) — evangel/gospel into Old Norse via Christian transmission
-- **ج-ر-ي ↔ Norse *renna*** (0.70) — running/flowing semantic; this one is *not* an obvious loan and may indicate deeper Norse-Arabic cognate territory worth Opus deep-review
+- **ج-ر-ي ↔ Norse *renna*** (0.70) — running/flowing semantic; this one is *not* an obvious loan and may indicate deeper Norse-Arabic cognate territory worth Pass 2 deep-review
 
 ### Germanic shows up
 
@@ -115,8 +115,8 @@ The Germanic-East / West / North coverage is comparable in proportional rate to 
 
 ## What this audit does NOT establish
 
-- **Tier-A replication is only ~32%.** Most Tier-A roots are still primarily Greek-anchored. The roster was originally selected on Greek-grounded evidence, so this is partly an expected sampling pattern — but it sets an honest ceiling on the cross-IE claim until a fuller Opus deep-review pass is run on the other branches.
-- **Eye-2 deep-review depth varies.** Greek and Latin have had the most thorough Opus review of the ambiguous 0.15-0.50 zone; the Germanic and Celtic branches have only Sonnet-bulk + initial reviewer pass. Some of the 0.40-0.55 "near-misses" in Old Irish and Gothic may promote to ≥0.65 after deep review.
+- **Tier-A replication is only ~32%.** Most Tier-A roots are still primarily Greek-anchored. The roster was originally selected on Greek-grounded evidence, so this is partly an expected sampling pattern — but it sets an honest ceiling on the cross-IE claim until a fuller Pass 2 deep-review pass is run on the other branches.
+- **Eye-2 deep-review depth varies.** Greek and Latin have had the most thorough Pass 2 review of the ambiguous 0.15-0.50 zone; the Germanic and Celtic branches have only Pass 1 bulk + initial reviewer pass. Some of the 0.40-0.55 "near-misses" in Old Irish and Gothic may promote to ≥0.65 after deep review.
 - **Welsh is the leanest branch by a wide margin.** 1,920 pairs is sufficient only for a directional signal, not for confident inferential statistics. A Welsh expansion would strengthen Celtic coverage.
 - **No null-model recomputation per branch yet.** The original z-score of 3.23 used Greek + Latin only. Branch-specific null models would tell us how surprising each language's findings are given chance pairing. This is on the next-steps list.
 
@@ -130,7 +130,7 @@ The Germanic-East / West / North coverage is comparable in proportional rate to 
 ## What remains to be done
 
 - **Branch-by-branch null-model recomputation.** The cross-branch data lets us recompute z-scores per language with the gloss-quality fix in. Likely to strengthen the cross-IE statistical claim.
-- **Opus deep-review on Germanic + Celtic ambiguous zones.** Many 0.40-0.55 candidates may promote to ≥0.65 after a focused Opus pass — particularly in Gothic and Old Irish where bulk-Sonnet coverage was lighter.
+- **Pass 2 deep-review on Germanic + Celtic ambiguous zones.** Many 0.40-0.55 candidates may promote to ≥0.65 after a focused Pass 2 — particularly in Gothic and Old Irish where bulk-التَّمريرة الأُولى coverage was lighter.
 - **Branch-specific sound laws.** Khshim's nine sound-substitution laws were calibrated on Greek and Latin; Germanic (Grimm's Law) and Celtic (initial mutations, lenition) have their own phonological histories that the framework can incorporate to refine skeleton-matching at Eye-1.
 - **Tier-A promotion candidates from outside Greek.** Each branch's top-scoring un-promoted pairs (like Norse *renna* ↔ جري) are candidates for future Tier-A roster expansion.
 

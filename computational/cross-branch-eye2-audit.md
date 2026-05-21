@@ -80,7 +80,7 @@ For each of the 19 Tier-A Arabic roots, the table below shows the highest-scorin
 ## What remains to be done
 
 - **Null-model recomputation per language.** The original z-score (3.23) was computed against Greek + Latin only. The cross-branch data lets us compute language-by-language z-scores, which are likely to be stronger now that the gloss-quality fix is in.
-- **Promotion candidates from Germanic + Celtic.** The top-scoring pairs in each branch (sga, got, ang, non, cy) include many that have not yet been through Opus deep review. These are candidates for future Tier-A promotion.
+- **Promotion candidates from Germanic + Celtic.** The top-scoring pairs in each branch (sga, got, ang, non, cy) include many that have not yet been through Pass 2 deep review. These are candidates for future Tier-A promotion.
 - **Branch-specific sound laws.** Khshim's nine sound substitution laws were calibrated mostly on Greek + Latin. Germanic (Grimm's Law) and Celtic (initial mutations, lenition) have their own phonological histories that the framework can incorporate.
 
 — end —
