@@ -101,7 +101,8 @@ main { max-width: 1280px; margin: 0 auto; padding: 36px 28px 80px; }
 
 table.discoveries { width: 100%; border-collapse: collapse; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
 table.discoveries thead { background: var(--bg-2); }
-table.discoveries th { text-align: start; padding: 11px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-3); border-bottom: 1px solid var(--border); }
+table.discoveries th { text-align: start; padding: 11px 14px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-3); border-bottom: 1px solid var(--border); user-select: none; }
+table.discoveries th.sortable:hover { color: var(--text); background: var(--bg); }
 table.discoveries td { padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: top; font-size: 14px; }
 table.discoveries tr.row:hover { background: var(--accent-bg); cursor: pointer; }
 table.discoveries tr.row.expanded { background: var(--accent-bg); }
@@ -199,9 +200,26 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
       <button class="chip" data-score="0.95">≥0.95</button>
     </div>
     <div class="filter-row">
+      <span class="filter-label">
+        <span class="lang-en">Confidence</span><span class="lang-ar">الثِّقة</span>
+      </span>
+      <button id="verified-chip" class="chip">
+        <span class="lang-en">🟢 IRR-verified only</span><span class="lang-ar">🟢 IRR-مُؤَكَّد فَقَط</span>
+      </button>
+      <span style="font-size:12px;color:var(--text-3);">
+        <span class="lang-en">(both Sonnet and calibrated Opus rate ≥0.65)</span><span class="lang-ar">(كِلا Sonnet و Opus المُعايَر ≥٠٫٦٥)</span>
+      </span>
+    </div>
+    <div class="filter-row">
       <input type="search" id="search" class="search" placeholder="" />
       <button id="reset" class="btn-secondary">
         <span class="lang-en">Reset</span><span class="lang-ar">تَصفير</span>
+      </button>
+      <button id="copy-link" class="btn-secondary" title="Copy shareable URL">
+        <span class="lang-en">🔗 Share</span><span class="lang-ar">🔗 شارِك</span>
+      </button>
+      <button id="csv-export" class="btn-secondary" title="Download filtered results as CSV">
+        <span class="lang-en">⬇ CSV</span><span class="lang-ar">⬇ CSV</span>
       </button>
     </div>
   </div>
@@ -222,8 +240,35 @@ const state = {
   lang: 'all',
   minScore: 0.65,
   search: '',
+  verifiedOnly: false,
+  sortKey: 'score',     // 'score' (default), 'opus', 'ar', 'tgt', 'lang'
+  sortDir: 'desc',      // 'asc' or 'desc'
   expandedRow: null,
 };
+
+// ─── URL state helpers ─────────────────────────────────────────────────────
+function readUrlState() {
+  const p = new URLSearchParams(window.location.search);
+  if (p.has('lang')) state.lang = p.get('lang');
+  if (p.has('min')) state.minScore = parseFloat(p.get('min')) || 0.65;
+  if (p.has('q')) state.search = p.get('q');
+  if (p.get('verified') === '1') state.verifiedOnly = true;
+  if (p.has('sort')) state.sortKey = p.get('sort');
+  if (p.has('dir')) state.sortDir = p.get('dir');
+}
+
+function writeUrlState() {
+  const p = new URLSearchParams();
+  if (state.lang !== 'all') p.set('lang', state.lang);
+  if (state.minScore !== 0.65) p.set('min', state.minScore);
+  if (state.search) p.set('q', state.search);
+  if (state.verifiedOnly) p.set('verified', '1');
+  if (state.sortKey !== 'score') p.set('sort', state.sortKey);
+  if (state.sortDir !== 'desc') p.set('dir', state.sortDir);
+  const qs = p.toString();
+  const url = qs ? `?${qs}` : window.location.pathname;
+  history.replaceState(null, '', url);
+}
 
 // ─── Language + theme toggles ────────────────────────────────────────────
 function setLang(l) {
@@ -322,29 +367,75 @@ function initUI() {
   });
   setSearchPlaceholder();
 
+  // Verified-only chip
+  const verifiedChip = document.getElementById('verified-chip');
+  if (state.verifiedOnly) verifiedChip.classList.add('active');
+  verifiedChip.addEventListener('click', () => {
+    state.verifiedOnly = !state.verifiedOnly;
+    verifiedChip.classList.toggle('active', state.verifiedOnly);
+    render();
+  });
+
   // Reset
   document.getElementById('reset').addEventListener('click', () => {
     state.lang = 'all'; state.minScore = 0.65; state.search = '';
+    state.verifiedOnly = false; state.sortKey = 'score'; state.sortDir = 'desc';
     document.getElementById('search').value = '';
     document.querySelectorAll('#lang-chips .chip').forEach(c => c.classList.remove('active'));
     document.querySelector('#lang-chips .chip[data-lang="all"]').classList.add('active');
     document.querySelectorAll('.chip[data-score]').forEach(c => c.classList.remove('active'));
     document.querySelector('.chip[data-score="0.65"]').classList.add('active');
+    document.getElementById('verified-chip').classList.remove('active');
     render();
   });
+
+  // Copy share link
+  document.getElementById('copy-link').addEventListener('click', () => {
+    writeUrlState();
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      const btn = document.getElementById('copy-link');
+      const orig = btn.innerHTML;
+      btn.innerHTML = document.documentElement.getAttribute('data-lang') === 'ar' ? '✓ نُسِخ!' : '✓ Copied!';
+      setTimeout(() => btn.innerHTML = orig, 1500);
+    }).catch(() => alert(window.location.href));
+  });
+
+  // CSV export
+  document.getElementById('csv-export').addEventListener('click', () => {
+    exportCSV(filtered());
+  });
+
+  // Restore selected chips from URL state
+  if (state.lang !== 'all') {
+    document.querySelectorAll('#lang-chips .chip').forEach(c => c.classList.remove('active'));
+    const langBtn = document.querySelector(`#lang-chips .chip[data-lang="${state.lang}"]`);
+    if (langBtn) langBtn.classList.add('active');
+  }
+  if (state.minScore !== 0.65) {
+    document.querySelectorAll('.chip[data-score]').forEach(c => c.classList.remove('active'));
+    const scoreBtn = document.querySelector(`.chip[data-score="${state.minScore}"]`);
+    if (scoreBtn) scoreBtn.classList.add('active');
+  }
+  if (state.search) document.getElementById('search').value = state.search;
 
   render();
 }
 
 // ─── Filtering + rendering ───────────────────────────────────────────────
+function effectiveScore(r) {
+  return (r.opus_score !== null && r.opus_score !== undefined) ? r.opus_score : r.score;
+}
+
 function filtered() {
   let out = DATA.records;
   if (state.lang !== 'all') out = out.filter(r => r.code === state.lang);
-  // Use opus_score (calibrated) when available, else fall back to sonnet score
-  out = out.filter(r => {
-    const effective = (r.opus_score !== null && r.opus_score !== undefined) ? r.opus_score : r.score;
-    return effective >= state.minScore;
-  });
+  out = out.filter(r => effectiveScore(r) >= state.minScore);
+  if (state.verifiedOnly) {
+    // Verified = both Sonnet and Opus rate it ≥0.65
+    out = out.filter(r =>
+      r.opus_score !== null && r.opus_score !== undefined &&
+      r.opus_score >= 0.65 && r.score >= 0.65);
+  }
   if (state.search) {
     const q = state.search;
     out = out.filter(r =>
@@ -352,7 +443,51 @@ function filtered() {
       (r.tgt || '').toLowerCase().includes(q) ||
       (r.lang_en || '').toLowerCase().includes(q));
   }
+  // Sort
+  const sortFns = {
+    score: r => r.score,
+    opus:  r => r.opus_score === null || r.opus_score === undefined ? -1 : r.opus_score,
+    ar:    r => r.ar || '',
+    tgt:   r => (r.tgt || '').toLowerCase(),
+    lang:  r => r.code || '',
+  };
+  const fn = sortFns[state.sortKey] || sortFns.score;
+  out = out.slice().sort((a, b) => {
+    const va = fn(a), vb = fn(b);
+    if (va < vb) return state.sortDir === 'asc' ? -1 : 1;
+    if (va > vb) return state.sortDir === 'asc' ? 1 : -1;
+    return 0;
+  });
   return out;
+}
+
+function exportCSV(rows) {
+  const isAr = document.documentElement.getAttribute('data-lang') === 'ar';
+  const header = ['idx', 'arabic', 'target', 'sonnet_score', 'opus_score', 'lang_code', 'lang_en', 'branch', 'method', 'reasoning'];
+  const lines = [header.join(',')];
+  rows.forEach((r, i) => {
+    const cells = [
+      i + 1,
+      `"${(r.ar || '').replace(/"/g, '""')}"`,
+      `"${(r.tgt || '').replace(/"/g, '""')}"`,
+      r.score,
+      r.opus_score === null || r.opus_score === undefined ? '' : r.opus_score,
+      r.code || '',
+      `"${(r.lang_en || '').replace(/"/g, '""')}"`,
+      `"${(r.branch || '').replace(/"/g, '""')}"`,
+      `"${(r.method || '').replace(/"/g, '""')}"`,
+      `"${(r.reasoning || '').replace(/"/g, '""').replace(/\n/g, ' ')}"`
+    ];
+    lines.push(cells.join(','));
+  });
+  const blob = new Blob(['﻿' + lines.join('\n')], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `juthoor-discoveries-${new Date().toISOString().slice(0, 10)}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 100);
 }
 
 function scoreClass(s) {
@@ -363,6 +498,7 @@ function scoreClass(s) {
 }
 
 function render() {
+  writeUrlState();  // Sync URL whenever we render
   const rows = filtered();
   const langLabel = document.documentElement.getAttribute('data-lang') === 'ar' ? 'نَتيجة' : 'finding';
   const langLabelP = document.documentElement.getAttribute('data-lang') === 'ar' ? 'نَتائج' : 'findings';
@@ -381,12 +517,19 @@ function render() {
   const cap = 500; // performance cap; UI shows count and an explainer if more
   const display = rows.slice(0, cap);
 
-  const headers = isAr
-    ? ['عَرَبيّ', 'كَلِمة هَدَف', 'Sonnet', 'Opus مُعايَر', 'لُغة', 'فَرع']
-    : ['Arabic', 'Target lemma', 'Sonnet', 'Opus calibrated', 'Language', 'Branch'];
+  // Sortable headers: each header is a button-like th that toggles sort
+  const headerSpec = isAr
+    ? [['ar', 'عَرَبيّ'], ['tgt', 'كَلِمة هَدَف'], ['score', 'Sonnet'], ['opus', 'Opus مُعايَر'], ['lang', 'لُغة'], [null, 'فَرع']]
+    : [['ar', 'Arabic'], ['tgt', 'Target lemma'], ['score', 'Sonnet'], ['opus', 'Opus calibrated'], ['lang', 'Language'], [null, 'Branch']];
 
   let html = '<table class="discoveries"><thead><tr>';
-  headers.forEach((h, i) => html += `<th class="${i === 5 ? 'col-branch' : ''}">${h}</th>`);
+  headerSpec.forEach(([key, label], i) => {
+    const isActive = key === state.sortKey;
+    const arrow = isActive ? (state.sortDir === 'asc' ? ' ↑' : ' ↓') : '';
+    const classes = (i === 5 ? 'col-branch' : '') + (key ? ' sortable' : '');
+    const cursor = key ? 'cursor:pointer;' : '';
+    html += `<th class="${classes}" data-sort="${key || ''}" style="${cursor}">${label}${arrow}</th>`;
+  });
   html += '</tr></thead><tbody>';
 
   display.forEach((r, idx) => {
@@ -422,6 +565,21 @@ function render() {
   // Click handlers for row expansion
   document.querySelectorAll('table.discoveries tr.row').forEach(tr => {
     tr.addEventListener('click', () => toggleRow(tr, display[parseInt(tr.dataset.idx)]));
+  });
+
+  // Wire sortable column headers
+  document.querySelectorAll('table.discoveries th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.sort;
+      if (!key) return;
+      if (state.sortKey === key) {
+        state.sortDir = state.sortDir === 'desc' ? 'asc' : 'desc';
+      } else {
+        state.sortKey = key;
+        state.sortDir = 'desc';
+      }
+      render();
+    });
   });
 }
 
@@ -468,6 +626,7 @@ function escapeHtml(s) {
 }
 
 // Boot
+readUrlState();
 loadData();
 </script>
 
