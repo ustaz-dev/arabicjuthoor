@@ -171,12 +171,16 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
   </p>
 
   <div class="stats" id="stats">
-    <div class="stat"><div class="stat-num" id="stat-total">…</div><div class="stat-label"><span class="lang-en">Total discoveries</span><span class="lang-ar">الجَملة</span></div></div>
+    <div class="stat"><div class="stat-num" id="stat-65">…</div><div class="stat-label"><span class="lang-en">Likely (≥0.65, calibrated)</span><span class="lang-ar">مُرَجَّح (≥٠٫٦٥، مُعايَر)</span></div></div>
+    <div class="stat"><div class="stat-num" id="stat-80">…</div><div class="stat-label"><span class="lang-en">Strong (≥0.80, calibrated)</span><span class="lang-ar">قَويّ (≥٠٫٨، مُعايَر)</span></div></div>
     <div class="stat"><div class="stat-num" id="stat-95">…</div><div class="stat-label"><span class="lang-en">Near-identical (≥0.95)</span><span class="lang-ar">شِبه-مُطابِق (≥٠٫٩٥)</span></div></div>
-    <div class="stat"><div class="stat-num" id="stat-80">…</div><div class="stat-label"><span class="lang-en">Strong (≥0.80)</span><span class="lang-ar">قَويّ (≥٠٫٨)</span></div></div>
-    <div class="stat"><div class="stat-num" id="stat-65">…</div><div class="stat-label"><span class="lang-en">Likely (≥0.65)</span><span class="lang-ar">مُرَجَّح (≥٠٫٦٥)</span></div></div>
+    <div class="stat"><div class="stat-num" id="stat-total">…</div><div class="stat-label"><span class="lang-en">Total raw discoveries</span><span class="lang-ar">الجَملة الخامّ</span></div></div>
     <div class="stat"><div class="stat-num">7</div><div class="stat-label"><span class="lang-en">IE branches</span><span class="lang-ar">فُروع هندوأوربيّة</span></div></div>
   </div>
+  <p style="font-size:13px;color:var(--text-3);margin:-10px 0 20px;">
+    <span class="lang-en">Headline numbers are <strong>calibrated Opus</strong> re-scores of the full ≥0.65 pool (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770.md">audit</a>). The original Sonnet pipeline produced 770 ≥0.65 / 134 ≥0.8 / 57 ≥0.95; a calibrated second pass tightened those to 189 / 120 / 18. Both scores are visible on every row (click to expand).</span>
+    <span class="lang-ar">الأَرقامُ الرَّئيسيّة هي إعادةُ تَسجيلٍ بِـ <strong>Opus المُعايَر</strong> لِكامِل حَوض الـ ≥٠٫٦٥ (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770-ar.md">التَّدقيق</a>). أَنبوبُ Sonnet الأَصليّ أَنتَج ٧٧٠/١٣٤/٥٧؛ التَّمريرُ المُعايَر الثاني أَحكَمَها إلى ١٨٩/١٢٠/١٨. كِلتا النُّقطَتَين تَظهَران عَلى كُلِّ صَفّ (انقُر لِلتَّوسيع).</span>
+  </p>
 
   <div class="filters">
     <div class="filter-row">
@@ -260,11 +264,18 @@ async function loadData() {
 }
 
 function initUI() {
-  // stats
+  // stats — use CALIBRATED numbers as headline
   document.getElementById('stat-total').textContent = DATA.records.length.toLocaleString();
-  document.getElementById('stat-95').textContent = DATA.buckets['≥0.95'];
-  document.getElementById('stat-80').textContent = DATA.buckets['≥0.80'];
-  document.getElementById('stat-65').textContent = DATA.buckets['≥0.65'];
+  if (DATA.calibrated && DATA.calibrated.buckets_opus_calibrated) {
+    const cb = DATA.calibrated.buckets_opus_calibrated;
+    document.getElementById('stat-95').textContent = cb['≥0.95'];
+    document.getElementById('stat-80').textContent = cb['≥0.80'];
+    document.getElementById('stat-65').textContent = cb['≥0.65'];
+  } else {
+    document.getElementById('stat-95').textContent = DATA.buckets['≥0.95'];
+    document.getElementById('stat-80').textContent = DATA.buckets['≥0.80'];
+    document.getElementById('stat-65').textContent = DATA.buckets['≥0.65'];
+  }
 
   // Language chips
   const langWrap = document.getElementById('lang-chips');
@@ -329,7 +340,11 @@ function initUI() {
 function filtered() {
   let out = DATA.records;
   if (state.lang !== 'all') out = out.filter(r => r.code === state.lang);
-  out = out.filter(r => r.score >= state.minScore);
+  // Use opus_score (calibrated) when available, else fall back to sonnet score
+  out = out.filter(r => {
+    const effective = (r.opus_score !== null && r.opus_score !== undefined) ? r.opus_score : r.score;
+    return effective >= state.minScore;
+  });
   if (state.search) {
     const q = state.search;
     out = out.filter(r =>
@@ -367,19 +382,27 @@ function render() {
   const display = rows.slice(0, cap);
 
   const headers = isAr
-    ? ['عَرَبيّ', 'كَلِمة هَدَف', 'نُقطة', 'لُغة', 'فَرع']
-    : ['Arabic', 'Target lemma', 'Score', 'Language', 'Branch'];
+    ? ['عَرَبيّ', 'كَلِمة هَدَف', 'Sonnet', 'Opus مُعايَر', 'لُغة', 'فَرع']
+    : ['Arabic', 'Target lemma', 'Sonnet', 'Opus calibrated', 'Language', 'Branch'];
 
   let html = '<table class="discoveries"><thead><tr>';
-  headers.forEach((h, i) => html += `<th class="${i === 4 ? 'col-branch' : ''}">${h}</th>`);
+  headers.forEach((h, i) => html += `<th class="${i === 5 ? 'col-branch' : ''}">${h}</th>`);
   html += '</tr></thead><tbody>';
 
   display.forEach((r, idx) => {
     const sc = scoreClass(r.score);
+    let opusCell = '';
+    if (r.opus_score !== null && r.opus_score !== undefined) {
+      const oc = scoreClass(r.opus_score);
+      opusCell = `<span class="score-cell ${oc}" style="font-size:13px;">${r.opus_score.toFixed(2)}</span>`;
+    } else {
+      opusCell = '<span style="color:var(--text-3);font-size:12px;">—</span>';
+    }
     html += `<tr class="row" data-idx="${idx}">
       <td class="ar-cell" lang="ar" dir="rtl">${escapeHtml(r.ar)}</td>
       <td class="tgt-cell">${escapeHtml(r.tgt)}</td>
       <td class="score-cell ${sc}">${r.score.toFixed(2)}</td>
+      <td>${opusCell}</td>
       <td class="lang-cell"><span class="lang-badge">${r.code}</span> ${escapeHtml(isAr ? r.lang_ar : r.lang_en)}</td>
       <td class="lang-cell col-branch">${escapeHtml(r.branch)}</td>
     </tr>`;
@@ -420,7 +443,7 @@ function toggleRow(tr, record) {
   const detail = document.createElement('tr');
   detail.className = 'detail';
   const td = document.createElement('td');
-  td.colSpan = 5;
+  td.colSpan = 6;
   const isAr = document.documentElement.getAttribute('data-lang') === 'ar';
 
   let metaTags = [];
