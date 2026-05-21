@@ -2,7 +2,9 @@
 
 > Arabic version: [`tier-b-cognates-ar.md`](tier-b-cognates-ar.md).
 > Tier-A roster (the gold standard, 19 entries): [`tafsir-coran-tier-a-cognates.md`](tafsir-coran-tier-a-cognates.md).
-> Full discoveries dashboard (1,578 findings): [`/discoveries.html`](../discoveries.html).
+> Full discoveries dashboard (with both Sonnet and calibrated Opus scores): [`/discoveries.html`](../discoveries.html).
+>
+> **Calibration note:** This roster was curated from the Sonnet ≥0.8 bucket (134 pairs). The [calibrated Opus re-scoring](../05-audits/2026-05-21-opus-calibrated-770.md) found 90% strong-bucket survival (120 of 134 remain at ≥0.8 under calibrated re-read). The Tier-B 50 sits within that surviving subset.
 
 ## What Tier-B is — and what it is not
 

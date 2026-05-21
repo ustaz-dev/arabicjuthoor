@@ -64,6 +64,8 @@ Top-3 are all members of the predicted set ✓. Pre-reg passes.
 
 **Refinement discovered (not a failure):** Pass 2 surfaces three new augment categories that extend (rather than contradict) the pilot's table — the م-prefix (locative-instrument: مَنطِق, مِفتاح, مِنشار), the ت-prefix (action-derivational: تَنوِيم, تَكفير, تَوحيد, تَدبير), and the خ-final-pierce (in بَرزَخ). The augment-function table grows from 7 entries to 10 entries.
 
+**Clarification on P3's "novel letter = FAIL" clause:** The pre-registration defined failure as "a novel **letter** outside the set {م, ن, ر, ل, و, ت, ـوت} appearing in the top-3 by frequency." This is distinct from "a novel **position** for an existing letter." The three additions above use م and ت — both members of the pre-registered set — in a NEW position (prefix rather than suffix). The خ-final discovery is in a single tail entry (بَرزَخ, position 135), nowhere near the top-3 frequency band. Therefore P3 passes on its strict letter-set test, while the position discoveries are recorded as a separate finding of the audit. No post-hoc relaxation of the criterion: the pre-reg condition is a letter-set test, and the letter set was respected.
+
 ### P4 · Quranic-anchored readable rate — 🟢 PASS
 
 Pre-registered: ≥ 95% of Quranic-anchored entries readable.

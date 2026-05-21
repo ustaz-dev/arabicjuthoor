@@ -31,18 +31,28 @@ The K-F nucleus across all five carries: *a fold-onto-itself, a layer beside its
 
 A candidate must clear **all four bars** to be promoted to Tier A:
 
-1. **Skeleton match** · تَطابُق الأصول الحَرفيّة — the consonant skeleton is genuinely shared, allowing for the known sound substitutions (K↔Q, F↔P, ج↔K, ض↔D, …) catalogued in Khshim's nine laws.
+1. **Skeleton match** · تَطابُق الأصول الحَرفيّة — the consonant skeleton is genuinely shared, allowing for the known sound substitutions (K↔Q, F↔P, ج↔K, ض↔D, ط↔T, …) catalogued in Khshim's nine laws plus the tenth surfaced empirically (ط↔T) by the [770-pair audit](../05-audits/2026-05-21-khshim-laws-audit.md).
 2. **Nucleus identity** · اتّحاد النَّواة — the binary semantic seed matches, not just a superficial sound-similarity.
 3. **Modern reader-recognition** · إدراك القارئ المُعاصِر — the cross-linguistic word is *common enough* in modern English/French that the reader will recognize it (no rare technical Latin).
 4. **Dual-family confirmation** · شاهدٌ من فَصيلتَين — at least one Semitic cognate (Hebrew, Aramaic, …) AND one Indo-European cognate (Latin, Greek, Germanic, …).
 
-### Recognized sound substitutions (from Khshim's laws)
+### Recognized sound substitutions (Khshim's nine laws + a tenth surfaced empirically)
 
-- **K ↔ Q** — Arabic ق and PIE *kʷ-/k- share place-of-articulation (back of throat). Interchangeable for this methodology.
-- **F ↔ P** — both labial fricatives/stops sharing the lip-shape. Well-attested across language families.
-- **ج ↔ K/G** — well-attested (German *Kamel* = Arabic جمل, *Katze* = قط).
-- **ض ↔ D** — emphatic-to-dental shift recognized.
-- **ص ↔ K/G** — partially attested (Arabic *صين* = Greek/Russian *Kina*, China).
+The nine canonical laws from Khshim's *رحلة الكلمات*:
+
+- **L1: K ↔ Q** — Arabic ق and PIE *kʷ-/k- share place-of-articulation (back of throat). Interchangeable for this methodology.
+- **L2: F ↔ P** — both labial fricatives/stops sharing the lip-shape. Well-attested across language families.
+- **L3: ج ↔ K/G** — well-attested (German *Kamel* = Arabic جمل, *Katze* = قط).
+- **L4: ض ↔ D** — emphatic-to-dental shift recognized.
+- **L5: ص ↔ K/S** — Arabic *صين* = Greek/Russian *Kina* (China); also ص softening to s in IE (e.g. قميص → camisia).
+- **L6: ع/ح/غ ↔ H/Ø/G** — pharyngeals and laryngeals map to Indo-European H or zero, or occasionally to G.
+- **L7: sibilants** (س/ز/ش/ص/ث) interchange within the sibilant clade.
+- **L8: liquids/nasals** (ل/ر/ن/م) preserved across families.
+- **L9: labials** (ب/م/ف/و ↔ b/m/p/v/w) interchange.
+
+A **tenth law** was surfaced empirically by the [Khshim-laws audit](../05-audits/2026-05-21-khshim-laws-audit.md) on 770 Eye-2-confirmed cognates:
+
+- **L10: ط ↔ T (emphatic-to-plain dental)** — fired in 68 cognate pairs at the highest mean Eye-2 score (0.777) of any pattern tested, above all nine canonical laws. Examples in the calibrated 770: ق-ر-ط ↔ *chartēs* (ط softens to t per L10), the Tier-A cognates including ص-ر-ا-ط ↔ Latin *strata* / OE *stræt* (road), and many of the trade-route Wanderwörter in the discoveries dashboard. Formally promoted to the law canon as a result of the audit.
 
 These substitutions don't disqualify a cross-linguistic move when the rest of the rubric clears.
 
