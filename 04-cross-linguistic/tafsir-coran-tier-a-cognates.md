@@ -8,9 +8,18 @@ This page collects nineteen confirmed pairs, each anchored to a Qur'anic verse a
 
 ## The principle
 
-Some Arabic Quranic concept-words share a **consonant skeleton** with words in other language families that carry the **same nucleus of meaning**. When this happens, the methodology demands that we name the cross-linguistic resonance, both because it is true (the same human mouth made these shapes for the same human realities) and because it gives the modern English/French reader a pre-installed handle on what the Arabic is actually doing.
+## How an "echo" works
 
-A faithful translation, on this methodology, is **the rendering that lets the consonant skeleton sound through**, even across languages.
+Strip a word down to its consonants. Arabic كَلام becomes K-L-M. Latin *clāmāre* becomes K-L-M. English *claim* becomes K-L-M. Same letters, same order, same meaning — *a voice extended outward under constraint*. That's an echo.
+
+This page collects pairs like that, where:
+
+- the consonants line up (allowing a few well-known shifts like K↔Q or F↔P),
+- the meanings line up (not just a surface sound-alike),
+- the foreign word is still familiar to a modern reader,
+- and at least one Semitic AND one Indo-European cousin shows up.
+
+When all four hold, we call the pair confirmed. When they don't, we leave it on a watch-list.
 
 ## The canonical example: ك-ف-ء ↔ *copy* / *copie*
 
@@ -29,14 +38,14 @@ The K-F nucleus across all five carries: *a fold-onto-itself, a layer beside its
 - **Conventional translation:** "And there is none equal to Him", accurate but flat.
 - **Cross-linguistic translation:** "And there has never been a copy of Him", sharper, more truthful to what the consonant skeleton names. The modern reader who has known *copy* since childhood (photocopies, digital copies, file copies) knows exactly what this verse denies, before any Arabic is studied.
 
-## The four-bar verification rubric · ضوابط التحقّق الأربعة
+## The four checks every confirmed pair must pass
 
-A candidate must clear **all four bars** to be promoted to Tier A:
+For a pair to make it onto the confirmed list, all four checks have to hold:
 
-1. **Skeleton match** · تَطابُق الأصول الحَرفيّة — the consonant skeleton is genuinely shared, allowing for the known sound substitutions (K↔Q, F↔P, ج↔K, ض↔D, ط↔T, …) catalogued in Khshim's nine laws plus the tenth surfaced empirically (ط↔T) by the [770-pair audit](../05-audits/2026-05-21-khshim-laws-audit.md).
-2. **Nucleus identity** · اتّحاد النَّواة — the binary semantic seed matches, not just a superficial sound-similarity.
-3. **Modern reader-recognition** · إدراك القارئ المُعاصِر — the cross-linguistic word is *common enough* in modern English/French that the reader will recognize it (no rare technical Latin).
-4. **Dual-family confirmation** · شاهدٌ من فَصيلتَين — at least one Semitic cognate (Hebrew, Aramaic, …) AND one Indo-European cognate (Latin, Greek, Germanic, …).
+1. **The consonants match.** Not exactly — sound shifts are allowed if they're documented (Arabic ق can become K, Arabic ف can become P, Arabic ج can become G or K, Arabic ط can soften to T). These shifts come from Dr Khshim's nine sound-substitution laws, plus a tenth law (ط↔T) we surfaced ourselves while testing on real cognate data — see the [audit](../05-audits/2026-05-21-khshim-laws-audit.md).
+2. **The meaning matches at the seed.** Not at the dictionary surface — at the conceptual core. كَلام isn't just "speech"; it's "voice extended under a binding form." *Claim* carries the same core. *Stamp* doesn't.
+3. **A modern reader can recognise the partner word.** Latin *invidia* won't help most people; English *envy* will. We prefer words still alive today.
+4. **Witnesses from both language families.** At least one Semitic cousin (Hebrew, Aramaic) AND one Indo-European cousin (Latin, Greek, Germanic, Celtic) before a pair counts.
 
 ### Recognized sound substitutions (Khshim's nine laws + a tenth surfaced empirically)
 

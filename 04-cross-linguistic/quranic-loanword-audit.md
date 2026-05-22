@@ -6,17 +6,28 @@ This audit re-reads each one under the operative grammar. **Twenty-six of the tw
 
 > The Arabic version of this document is at [`quranic-loanword-audit-ar.md`](quranic-loanword-audit-ar.md).
 
-**No word in the Quran is a loanword.** Every Quranic word resolves to a native Arabic operative reading under the eleven-mode composition grammar, even those that classical lexicographers and modern Orientalists have labelled "muʿarrab" (Arabicised), "dakhīl" (intrusive), or "foreign vocabulary".
+## The claim, in one line
 
-This is a strong, falsifiable position. It does not deny that Arabic and other languages share roots, share trade vocabulary, or share Semitic kin; it denies the specific direction implied by "loanword" — namely, that the Quranic instance is a passive borrowing whose meaning depends on the source language. The position is that the Quranic instance carries its own native compositional reading derived from the letters, and where another language has a related form, the relationship is either (a) cognate — a shared older ancestor or family-level parallel, (b) reverse-borrowing — Arabic to other, not other to Arabic, or (c) convergent — independent emergence of similar form for similar physical-semantic reasons.
+**No word in the Qur'an is borrowed.** Every Qur'anic word reads cleanly as native Arabic when you decompose it letter-by-letter under our grammar — even the ones long flagged as "imported from Persian / Greek / Aramaic / Ethiopic."
 
-The framework allows us to test this case by case rather than argue it in the abstract.
+This is not a claim that Arabic and other languages never share words. They share many. What this position denies is the *direction* implied by "loanword": that the Qur'anic instance is a passive import whose meaning lives in the donor language. Our claim is that the Qur'anic instance carries its own meaning built from its own letters, and where another language has a similar word, the relationship is one of three things:
 
-## The classical and modern debate, in four sentences
+- **cognate** — both languages inherit the word from a deeper shared ancestor;
+- **reverse-borrowing** — the word moved from Arabic *into* the other language, not the other way;
+- **convergent emergence** — both languages independently arrived at a similar form for similar physical-semantic reasons.
 
-The position itself is not new. **Al-Shāfiʿī** and **Abū ʿUbaydah** held that the Quran contains no foreign words; **al-Suyūṭī** in *al-Itqān fi ʿUlūm al-Qurʾān* catalogued roughly one hundred and eighteen alleged Arabicisations but conceded most were old Arabic forms shared with other Semitic and surrounding languages, not borrowings into Arabic; **al-Jawālīqī** in *al-Muʿarrab* listed candidates with their attributed origins but noted that several have plausible native readings; the Western Orientalist position, consolidated in **Arthur Jeffery's** *The Foreign Vocabulary of the Qurʾān* (1938), lists three hundred and twenty-two alleged borrowings, mostly from Aramaic, Syriac, Persian, Greek and Ethiopic.
+The framework lets us test these one word at a time, instead of arguing the question in the abstract.
 
-The Juthoor framework offers a third path through this debate: **read every candidate compositionally under the eleven-mode operative grammar and see whether the native reading is coherent**. If it is, the burden of proof shifts back to the borrowing claim. The rubric is identical to the one used for the cross-linguistic Tier-A cognates — skeleton, nucleus, semantic fit, and dual-family attestation — but applied in the opposite direction: not to confirm cognacy, but to weigh whether a "loanword" claim is the cleanest explanation.
+## A short version of the centuries-long debate
+
+The "no loanwords in the Qur'an" position is ancient.
+
+- **Imam al-Shāfiʿī** and **Abū ʿUbaydah** held the strong version: nothing foreign in the Book.
+- **Al-Suyūṭī** (in *al-Itqān*) listed ~118 alleged Arabicisations but conceded most were ancient Arabic forms *shared* with neighbour languages, not imports.
+- **Al-Jawālīqī** (in *al-Muʿarrab*) catalogued candidates with their supposed donors but noted that several had plausible native readings.
+- Modern Western scholarship, consolidated in **Arthur Jeffery's** *The Foreign Vocabulary of the Qurʾān* (1938), pushes the count up to 322 alleged borrowings — mostly from Aramaic, Syriac, Persian, Greek, and Ethiopic.
+
+Our framework offers a third path: **read each candidate under the eleven-mode grammar and ask whether the native reading is internally clean**. If yes, the burden shifts back to whoever calls it borrowed.
 
 ## Method
 

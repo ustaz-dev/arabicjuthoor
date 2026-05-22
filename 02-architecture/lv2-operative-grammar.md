@@ -4,16 +4,25 @@ Every Arabic trilateral root works the same way: two letters form a meaning-seed
 
 This document defines each of the eleven modes, gives examples, and records that all 2,285 attested trilaterals in the reference lexicon fit one of them, with no forcing.
 
-Every Arabic trilateral root in Jabal's lexicon is interpretable as a single operative relation:
+## The core idea, in one sentence
 
-> **The binary nucleus operates on the third letter, taking its charge as material.**
+> **The first two letters form a meaning-seed. The third letter is the material that seed acts on. The way it acts on it is one of eleven specific operations.**
 > النَّواةُ الثنائيّةُ تَعمل في الحرف الثالث، وتَتَّخِذُ شَحنتَهُ مادّةً لها.
 
-The "operation" takes one of **eleven native composition modes** in a finite, closed grammar (plus a twelfth label, LOANWORD, reserved for the 1-in-2,285 non-native root). **100% of native trilaterals find a coherent mode without forcing.** The bottom-up genealogy from **letters → binaries → trilaterals** is grounded.
+Two letters generate a seed-meaning (like *extending bond* for K-L, or *gathered mass* for J-M). The third letter brings its own charge — and the seed *does something* to that charge: it carries it, holds it, releases it, blocks it, cuts it, channels it… in one of exactly **eleven** ways.
 
-## Framing: agent and material
+Plus a twelfth label, **LOANWORD**, reserved for the rare non-native root — used just once in the 2,285-root reference lexicon.
 
-The binary nucleus is the **agent** (الفاعل); the third letter is the **material** (المادّة) it operates on. Under this reading, *قصر* reads cleanly as "قص-cutting-precision **blocks** the flow (ر)" — a single coherent operation. The same applies to every native trilateral in the corpus.
+## A worked example
+
+Take **قَصر** (q-ṣ-r).
+
+- **قص** is the seed: *precise cutting*.
+- **ر** is the material: *flow, running*.
+- The seed operates on the material in a specific mode: **BLOCK**.
+- The reading: *precise-cutting blocks the flow* → "shortening, restriction, palace (the bounded space)."
+
+The same reading works for every native Arabic trilateral, without forcing. That's what the rest of this document shows: each of the eleven modes, named and exemplified, and the record that all 2,285 attested trilaterals fit.
 
 ## The eleven native composition modes + LOANWORD label (أبواب التركيب الأَحَدَ عَشَر، مع مَدخَل الدَّخيل)
 
