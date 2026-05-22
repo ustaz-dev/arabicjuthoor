@@ -1,10 +1,12 @@
-# Held-out validation · 16 COHERENT lexical gaps
+# Sixteen unused letter-pairs · what the framework predicts they would mean
+
+A scaled-up generative test on Arabic identified sixteen two-letter combinations the framework calls **COHERENT but unattested** — pairs where the operative grammar produces a clean predicted meaning, but the reference lexicon does not catalogue any trilateral root using them.
+
+If the framework is genuinely generative, those predicted meanings should match something Arabic actually has — even if it lives in rarer, geminate, or dialectal form. This document tests that, by searching Lisān al-ʿArab, Tāj al-ʿArūs, and the wider classical record for each of the sixteen, then grading the match against the pre-registered prediction.
 
 > The Arabic version is at [`2026-05-20-coherent-gaps-held-out-ar.md`](2026-05-20-coherent-gaps-held-out-ar.md).
 >
 > **Status:** Predictions registered (pre-registered section below). Dictionary search executed 2026-05-20 — results in the [Results section](#results--classical-lexicon-search-2026-05-20).
-
-## The setup
 
 The [scaled-up generative test](../03-scholar-extracts/lexical-gaps-generative-test-full.md) on the 155 alleged lexical-gap binaries identified **16 cases tagged COHERENT** — pairs where the framework produces a clean, internally-consistent compositional reading but no attested trilateral root uses the pair as L1·L2.
 

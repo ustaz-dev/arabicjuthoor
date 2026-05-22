@@ -1,8 +1,10 @@
-# Pass 3 Evaluation · Generative Test on 20 Unused Quadriliterals
+# Pass 3 · can the framework predict unused four-letter words too?
+
+The earlier sixteen-pair test confirmed the operative grammar is genuinely **generative at the binary level**: when given an unused two-letter combination, it can predict what Arabic *would* have meant there, and is right about half the time.
+
+Pass 3 asks the harder question one level up: **can it predict at the quadriliteral level?** For twenty unused four-letter skeletons the framework's grammar produces a specific semantic prediction. This document tests those predictions against classical Arabic lexicography — and reports the result honestly.
 
 **Date:** 2026-05-21  ·  **Pre-registration:** [`02-architecture/pass3-open-quadriliterals.md`](../02-architecture/pass3-open-quadriliterals.md) (committed as `5dcb451` before this search began).
-
-For each of the 20 pre-registered skeletons, a search was conducted in Lisān al-ʿArab, Tāj al-ʿArūs, Maqāyīs al-Lughah, and the broader classical-dialect record. Each row records the attested word found (if any) and a grade against the pre-registered semantic prediction.
 
 ## Per-pair results
 

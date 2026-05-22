@@ -1,6 +1,8 @@
-# Tier-B Cross-Linguistic Cognate Roster · 50 Curated Findings
+# The wider cognate roster · 50 curated findings
 
-## What Tier-B is — and what it is not
+Beyond the nineteen Quran-anchored pairs sits a wider band of fifty curated Arabic ↔ Indo-European matches. Each was confirmed by the project's semantic-scoring pipeline at score ≥ 0.8, then hand-picked across the seven IE branches we cover (Greek, Latin, Old Irish, Welsh, Gothic, Old English, Old Norse).
+
+Treat these as a researcher's reading list, not a verified Tier-A roster: single-rater curation, no four-bar warranty, but every entry has been re-checked under a calibrated second pass.
 
 **Tier-A** is the gold-standard roster: 19 cognates that clear all four bars of the [verification rubric](tafsir-coran-tier-a-cognates.md#the-four-bar-verification-rubric--ضوابط-التحقّق-الأربعة) (skeleton match, nucleus identity, modern reader-recognition, dual-family confirmation), with a Quranic anchor for each. Tier-A is the row a working translator can stand on.
 

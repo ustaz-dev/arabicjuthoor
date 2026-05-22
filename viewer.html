@@ -101,15 +101,97 @@ main.doc {
 .doc h1, .doc h2, .doc h3, .doc h4, .doc h5, .doc h6 {
   font-family: var(--font-en);
   font-weight: 700; letter-spacing: -0.015em;
-  line-height: 1.25; margin: 2.2em 0 0.6em;
+  line-height: 1.2; margin: 2.4em 0 0.5em;
 }
-.doc h1 { font-size: 36px; margin-top: 0; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
-.doc h2 { font-size: 26px; padding-top: 8px; }
-.doc h3 { font-size: 20px; }
-.doc h4 { font-size: 17px; }
+/* Hero treatment for H1 — bigger, gradient accent, no border */
+.doc h1 {
+  font-size: clamp(34px, 4.5vw, 48px);
+  margin-top: 0; margin-bottom: 0.4em;
+  padding-bottom: 0; border-bottom: 0;
+  letter-spacing: -0.025em; line-height: 1.1;
+  background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--text);
+}
+.doc h2 {
+  font-size: 26px; padding-top: 8px;
+  position: relative;
+}
+/* Section number-dot accent on H2 */
+.doc h2::before {
+  content: ""; display: inline-block;
+  width: 6px; height: 6px; background: var(--accent);
+  border-radius: 50%; margin-inline-end: 12px;
+  vertical-align: middle; opacity: 0.7;
+}
+.doc h3 { font-size: 20px; color: var(--text); }
+.doc h3::before {
+  content: "▸"; color: var(--accent); margin-inline-end: 8px; font-size: 14px; opacity: 0.6;
+}
+.doc h4 { font-size: 17px; color: var(--text-2); }
 .doc p { margin: 0 0 1.1em; color: var(--text); }
 .doc strong { font-weight: 700; color: var(--text); }
 .doc em { font-style: italic; }
+
+/* Lead paragraph — first paragraph after H1 gets a slightly larger, softer treatment */
+.doc h1 + p,
+.doc p.lead {
+  font-size: 19px; line-height: 1.65;
+  color: var(--text-2);
+  margin-bottom: 1.6em;
+  padding-bottom: 1.4em;
+  border-bottom: 1px solid var(--border);
+}
+html[lang="ar"] .doc h1 + p,
+html[lang="ar"] .doc p.lead {
+  font-size: 20px; line-height: 1.85;
+}
+
+/* Status callouts — paragraphs starting with status emojis get styled boxes */
+.doc .callout-status {
+  margin: 1.2em 0;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border-inline-start: 4px solid var(--accent);
+  background: var(--accent-bg);
+  display: flex; gap: 12px; align-items: flex-start;
+}
+.doc .callout-status .callout-emoji {
+  font-size: 22px; line-height: 1; flex-shrink: 0; margin-top: 2px;
+}
+.doc .callout-status .callout-body { flex: 1; }
+.doc .callout-status p { margin: 0; }
+.doc .callout-status.green  { border-color: #2d7a3b; background: #e8f3ea; }
+.doc .callout-status.red    { border-color: #a83232; background: #fae7e7; }
+.doc .callout-status.yellow { border-color: #b8862f; background: #faf3df; }
+.doc .callout-status.info   { border-color: #2255a4; background: #e3edf9; }
+[data-theme="dark"] .doc .callout-status.green  { background: #18301c; }
+[data-theme="dark"] .doc .callout-status.red    { background: #3a1a1a; }
+[data-theme="dark"] .doc .callout-status.yellow { background: #2a2517; }
+[data-theme="dark"] .doc .callout-status.info   { background: #1a2538; }
+
+/* Auto-TOC — sticky on wide screens, inline on narrow */
+.doc-toc {
+  margin: 0 0 32px;
+  padding: 14px 18px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+}
+.doc-toc .toc-title {
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--text-3); margin-bottom: 10px;
+}
+html[lang="ar"] .doc-toc .toc-title { font-family: var(--font-ar-display); }
+.doc-toc ol { margin: 0; padding-inline-start: 22px; }
+.doc-toc li { margin-bottom: 4px; line-height: 1.55; }
+.doc-toc a { color: var(--text-2); text-decoration: none; border-bottom: 0; }
+.doc-toc a:hover { color: var(--accent); }
+.doc-toc .toc-h3 { padding-inline-start: 16px; font-size: 13px; color: var(--text-3); }
 
 .doc a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color .12s ease; }
 .doc a:hover { border-bottom-color: var(--accent); }
@@ -465,6 +547,9 @@ async function loadDocument() {
       a.setAttribute('rel', 'noopener noreferrer');
     });
 
+    // ── Modernization pass: lead paragraph, status callouts, auto-TOC ──
+    enhanceDocument(docEl, isArabic);
+
     // Heading permalinks — click "#" to copy a deep link to that section.
     docEl.querySelectorAll('h2[id], h3[id]').forEach(h => {
       const a = document.createElement('a');
@@ -485,6 +570,68 @@ async function loadDocument() {
     });
   } catch (err) {
     setState('Could not load <code>' + file + '</code><br><small>' + err.message + '</small><br><br><a href="index.html">← Back to Juthoor dashboard</a>');
+  }
+}
+
+// ---------- Modernization helpers ----------
+function enhanceDocument(root, isArabic) {
+  // 1) Lead paragraph: the first real <p> after H1 gets the .lead class
+  const h1 = root.querySelector('h1');
+  if (h1) {
+    let n = h1.nextElementSibling;
+    while (n && (n.tagName === 'BLOCKQUOTE' || n.tagName === 'HR' ||
+                 (n.tagName === 'P' && n.textContent.trim().startsWith('**Date:**')))) {
+      n = n.nextElementSibling;
+    }
+    if (n && n.tagName === 'P' && n.textContent.trim().length > 60) {
+      n.classList.add('lead');
+    }
+  }
+
+  // 2) Status callouts: paragraphs that LEAD with a status emoji become styled boxes
+  const STATUS_MAP = {
+    '🟢': 'green', '✅': 'green',
+    '🔴': 'red',   '❌': 'red',
+    '🟡': 'yellow', '⚠️': 'yellow', '⚠': 'yellow',
+    '🎯': 'info',  '🔬': 'info', '📜': 'info', '🟦': 'info', '🟪': 'info', '📊': 'info',
+  };
+  root.querySelectorAll('p').forEach(p => {
+    const txt = p.textContent.trim();
+    if (!txt) return;
+    let emoji = null, color = null;
+    for (const k of Object.keys(STATUS_MAP)) {
+      if (txt.startsWith(k)) { emoji = k; color = STATUS_MAP[k]; break; }
+    }
+    if (!emoji) return;
+    const html = p.innerHTML.replace(emoji, '').trimStart();
+    const wrap = document.createElement('div');
+    wrap.className = 'callout-status ' + color;
+    wrap.innerHTML = `<span class="callout-emoji">${emoji}</span><div class="callout-body"><p>${html}</p></div>`;
+    p.replaceWith(wrap);
+  });
+
+  // 3) Auto-TOC: only when document has 4+ H2 sections
+  const h2s = root.querySelectorAll('h2[id]');
+  if (h2s.length >= 4) {
+    const toc = document.createElement('nav');
+    toc.className = 'doc-toc';
+    const tocTitle = isArabic ? 'مَحاوِر هذه الصَّفحة' : 'On this page';
+    let html = `<div class="toc-title">${tocTitle}</div><ol>`;
+    h2s.forEach(h2 => {
+      const text = h2.textContent.replace(/^#/, '').trim();
+      html += `<li><a href="#${h2.id}">${text}</a></li>`;
+    });
+    html += '</ol>';
+    toc.innerHTML = html;
+    const insertAfter = root.querySelector('.doc-meta') || root.querySelector('h1');
+    if (insertAfter) {
+      let target = insertAfter;
+      if (target.nextElementSibling && target.nextElementSibling.classList &&
+          target.nextElementSibling.classList.contains('lead')) {
+        target = target.nextElementSibling;
+      }
+      target.parentNode.insertBefore(toc, target.nextElementSibling);
+    }
   }
 }
 

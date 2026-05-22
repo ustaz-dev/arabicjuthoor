@@ -1,6 +1,8 @@
-# Cross-Linguistic Tier-A Cognates & The Verification Rubric
+# Arabic words with an echo in other languages
 
-Nineteen verified cross-linguistic cognate pairs anchored in Quranic vocabulary (eight original, three promoted via the [Quranic loanword audit](quranic-loanword-audit.md), four from the Indo-Semitic core vocabulary round, and four from the writing-instruments and core-numerals round), plus the four-bar verification rubric and a Tier-B ledger of evaluated candidates. The sound-substitution laws this rubric rests on are those of Dr. Ali Fahmi Khshim — former president of the Libyan Arabic Language Academy, member of the Cairo Arabic Language Academy, author of *رِحلة الكلمات*.
+The Qur'an does not stop at Arabic. Some of its core words carry the same consonant skeleton and the same meaning in languages far away — Greek, Latin, English, Welsh, Old Norse. Not borrowings. **Preserved echoes.**
+
+This page collects nineteen confirmed pairs, each anchored to a Qur'anic verse and tested against four strict bars of verification. The bars rest on the sound-substitution laws of Dr. **Ali Fahmi Khshim** — past president of the Libyan Arabic Language Academy, author of *رحلة الكلمات*.
 
 ---
 

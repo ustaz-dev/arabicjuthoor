@@ -1,6 +1,8 @@
-# Layer 2 · The Eleven Native Composition Modes (+ LOANWORD Label)
+# The eleven ways a root puts a meaning together
 
-## The finding
+Every Arabic trilateral root works the same way: two letters form a meaning-seed, the third letter joins and shapes how the seed acts. The shape can be one of **eleven** specific operations — not three, not twenty, **eleven** — plus a twelfth label (LOANWORD) reserved for the rare non-native root.
+
+This document defines each of the eleven modes, gives examples, and records that all 2,285 attested trilaterals in the reference lexicon fit one of them, with no forcing.
 
 Every Arabic trilateral root in Jabal's lexicon is interpretable as a single operative relation:
 

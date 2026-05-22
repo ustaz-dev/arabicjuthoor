@@ -1,8 +1,8 @@
-# Calibrated التَّمريرة الثانية Re-Scoring of the Full 770 ≥0.65 Pool
+# Re-scoring all 770 cognates · the calibrated second pass
 
-**Date:** 2026-05-21  ·  **Pool:** 770 pairs (التَّمريرة الأُولى ≥0.65 output)  ·  **Rater B:** Pass 2 calibrated
+The original bulk-discovery pipeline produced 770 Arabic ↔ Indo-European cognate pairs at score ≥ 0.65. A separate 150-pair sample test then suggested the bulk pass was a bit lenient at the 0.65 boundary. Instead of footnoting the inflated number, we re-scored **every one of the 770 pairs** under the same calibrated rubric, blind to the original score.
 
-Every pair in the ≥0.65 pool was re-scored by Pass 2 under the same calibrated Eye-2 prompt that التَّمريرة الأُولى had: Juthoor thesis, polysemy rule, multi-step chains, method tags, calibration anchors from confirmed Tier-A cognates. The original التَّمريرة الأُولى bulk pipeline produced 770 pairs at ≥0.65; the IRR-150 audit on this same pool found التَّمريرة الأُولى was lenient at the 0.65 boundary. This document replaces the IRR-150 estimate with the actual re-scoring of all 770. These are the calibrated numbers the dashboard headlines.
+**Date:** 2026-05-21  ·  **Pool:** 770 pairs (Pass 1 ≥0.65 output)  ·  **Rater B:** Pass 2 calibrated
 
 ## Aggregate counts (Pass 2 calibrated on the 770 pool)
 

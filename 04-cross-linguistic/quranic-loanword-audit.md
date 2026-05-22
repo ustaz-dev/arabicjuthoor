@@ -1,8 +1,10 @@
-# Quranic loanword audit · the operative reading
+# Are these Qur'anic words really 'borrowed'? · a re-reading
+
+For centuries Orientalists and some classical lexicographers flagged certain Qur'anic words as foreign — borrowed from Persian, Greek, Aramaic, Ethiopic. *Firdaws*, *qamīṣ*, *injīl*, *qalam*, *qirṭās*, *ṭāghūt*, twenty-seven cases in all.
+
+This audit re-reads each one under the operative grammar. **Twenty-six of the twenty-seven resolve as native Arabic compositions**, as reverse-borrowings *from* Arabic into the neighbour language, or as words preserved jointly with neighbour languages of the same era. Only one (*zanjabīl*) remains an honest residue.
 
 > The Arabic version of this document is at [`quranic-loanword-audit-ar.md`](quranic-loanword-audit-ar.md).
-
-## The claim being tested
 
 **No word in the Quran is a loanword.** Every Quranic word resolves to a native Arabic operative reading under the eleven-mode composition grammar, even those that classical lexicographers and modern Orientalists have labelled "muʿarrab" (Arabicised), "dakhīl" (intrusive), or "foreign vocabulary".
 
