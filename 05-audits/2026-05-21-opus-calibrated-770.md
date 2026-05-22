@@ -1,6 +1,8 @@
 # Re-scoring all 770 cognates · the calibrated second pass
 
-The original bulk-discovery pipeline produced 770 Arabic ↔ Indo-European cognate pairs at score ≥ 0.65. A separate 150-pair sample test then suggested the bulk pass was a bit lenient at the 0.65 boundary. Instead of footnoting the inflated number, we re-scored **every one of the 770 pairs** under the same calibrated rubric, blind to the original score.
+## What happened, in plain words
+
+Our first sweep produced 770 Arabic ↔ European cognates at score ≥ 0.65. A second look at a 150-pair sample showed the first pass was a little too generous near the borderline. Rather than adding a footnote, we **re-scored every one of the 770 pairs** under a stricter rubric — without showing the second rater the first score. The result: **189** still come out as likely (was 770), **120** as strong (was 134), **18** as near-identical (was 57). The strong-bucket survival rate is 69%, which says the high-confidence matches are real; the borderline ones often weren't.
 
 **Date:** 2026-05-21  ·  **Pool:** 770 pairs (Pass 1 ≥0.65 output)  ·  **Rater B:** Pass 2 calibrated
 

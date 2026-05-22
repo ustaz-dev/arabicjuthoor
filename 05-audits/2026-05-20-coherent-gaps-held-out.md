@@ -1,8 +1,12 @@
 # Sixteen unused letter-pairs · what the framework predicts they would mean
 
-A scaled-up generative test on Arabic identified sixteen two-letter combinations the framework calls **COHERENT but unattested** — pairs where the operative grammar produces a clean predicted meaning, but the reference lexicon does not catalogue any trilateral root using them.
+## In one sentence
 
-If the framework is genuinely generative, those predicted meanings should match something Arabic actually has — even if it lives in rarer, geminate, or dialectal form. This document tests that, by searching Lisān al-ʿArab, Tāj al-ʿArūs, and the wider classical record for each of the sixteen, then grading the match against the pre-registered prediction.
+Arabic could in principle make a root from any two letters out of 28. But ~140 two-letter pairs sit unused — no root in the standard lexicon starts with them. We picked **the 16 pairs the framework reads cleanly** and wrote down, in advance, what each one *should* mean if a root were ever built on it. Then we searched the classical dictionaries (Lisān al-ʿArab, Tāj al-ʿArūs) to see whether some forgotten word lives there. **7 of 16 turned up exactly where the framework said they would.**
+
+## What this test is, and why it matters
+
+A theory that only explains what already exists can always be re-fit after the fact. A theory worth its salt makes predictions *before* looking — and is willing to be wrong. This audit pre-registered 16 predictions in git, then went hunting. The hits are real predictions, not fits.
 
 > The Arabic version is at [`2026-05-20-coherent-gaps-held-out-ar.md`](2026-05-20-coherent-gaps-held-out-ar.md).
 >

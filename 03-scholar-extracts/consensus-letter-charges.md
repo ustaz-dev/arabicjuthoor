@@ -1,12 +1,16 @@
-# Unified Letter Charges & Common Nuclei
+# What each Arabic letter "means" — the 28-letter charge table
 
-The canonical reference for the study: the unified 28-letter charge table, the general dual-face rule, the 18-nucleus working shortlist, and seven worked examples.
+The reference table for the whole study: what each of the 28 Arabic letters is doing in the mouth, what that gesture *feels* like as a meaning, and how letters combine into the seed-meanings (binary nuclei) that build every root.
 
 ---
 
-## The core idea
+## The core idea, in one paragraph
 
-Every Arabic letter carries a **phonetic charge**, a description of what the mouth, tongue, throat, or breath is doing when the sound is produced. Those physical gestures carry a recognizable semantic flavour (affirmation, extension, closure, cutting, flow, gathering). When letters combine, their charges compose. A **root-nucleus** (usually two letters) acts as the seed; the third letter of the trilateral root adds the final motion, and the full word lands on a specific instance of that composed motion.
+Pronounce ك. Your tongue cuts cleanly against the back of your palate — a closed snap. Pronounce ل. Your tongue rests on the ridge behind your teeth and the breath glides — an attachment that extends, a bridge. The framework's claim is simple: that physical *gesture* is also the letter's *meaning*. ك carries cutting/sealing. ل carries linking/extension. Put them together and you get a "cutting-attachment" seed — the spine of words like كَلَّمَ (to bind in speech), كُلّ (the bound whole), كَلَل (an attached weariness). Every Arabic letter has a charge of this kind. Two letters make a seed-meaning. The third letter shapes how the seed acts. That's the system this table documents.
+
+## How to read the table
+
+Every Arabic letter carries a **phonetic charge** — a description of what the mouth, tongue, throat, or breath is doing when the sound is produced. Those physical gestures carry a recognizable semantic flavour (affirmation, extension, closure, cutting, flow, gathering). When letters combine, their charges compose. A **root-nucleus** (usually two letters) acts as the seed; the third letter of the trilateral root adds the final motion, and the full word lands on a specific instance of that composed motion.
 
 The charges below are not invented. They are a shared reading anchored in Arabic phonetics and in the classical lexicons (al-Khalil's *Kitab al-Ayn*, Ibn Jinni's *الخصائص*, the dictionary tradition), and distilled from a worked corpus across the published ayat. **Variants**, alternative phrasings of the same physical charge that emphasize a different semantic axis, are noted where the corpus has used them.
 
