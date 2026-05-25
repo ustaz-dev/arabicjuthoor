@@ -445,7 +445,7 @@ html[dir="rtl"] .share-row { justify-content: flex-start; }
   </h1>
   <p class="subtitle">
     <span class="lang-en">Type any Arabic word or root — the reader strips diacritics, identifies the consonants, and shows each letter&apos;s dual-face charge with the binary nucleus and the eleven operative modes. <strong>Or switch to reverse mode</strong> to enter an English / Latin / Greek word and find its plausible Arabic skeleton via Khshim&apos;s sound laws, cross-checked against the 19 Tier-A cognates.</span>
-    <span class="lang-ar">اكتُب أَيَّ كَلِمةٍ أَو جَذرٍ عَرَبيّ — يَستَخرِجُ القارئُ الصَّوامتَ ويَعرِضُ لِكلّ حَرفٍ شَحنَتَهُ ذاتَ الوَجهَين مع النَّواةِ الثُّنائيّة والأَبواب الأَحَدَ عَشَر. <strong>أَو بَدِّل إلى الوَضع العَكسيّ</strong> لإدخال كَلِمةٍ إنجليزيّة/لاتينيّة/إغريقيّة وإيجاد هَيكلِها العَرَبيّ المُحتَمَل وَفقَ قَوانين كَشِم الصَّوتيّة، مُقارَنةً بِسِجِلِّ الصِّنف الأَوّل (١٩ مُشتَركًا).</span>
+    <span class="lang-ar">اكتُب أَيَّ كَلِمةٍ أَو جَذرٍ عَرَبيّ — يَستَخرِجُ القارئُ الصَّوامتَ ويَعرِضُ لِكلّ حَرفٍ شَحنَتَهُ ذاتَ الوَجهَين مع النَّواةِ الثُّنائيّة والأَبواب الأَحَدَ عَشَر. <strong>أَو بَدِّل إلى الوَضع العَكسيّ</strong> لإدخال كَلِمةٍ إنجليزيّة/لاتينيّة/إغريقيّة وإيجاد هَيكلِها العَرَبيّ المُحتَمَل وَفقَ قَوانين كَشِم الصَّوتيّة، مُقارَنةً بِسِجِلِّ الصِّنف الأَوّل (19 مُشتَركًا).</span>
   </p>
 
   <div class="input-card">
@@ -512,7 +512,7 @@ html[dir="rtl"] .share-row { justify-content: flex-start; }
     </div>
     <p style="font-size:13.5px;color:var(--text-2);margin:8px 0 14px;">
       <span class="lang-en">The consonant skeleton of the English / Latin / Greek word is mapped onto its plausible Arabic counterparts. Matches against the <strong>Tier-A cross-linguistic roster</strong> (19 Quranic-anchored cognates) are highlighted.</span>
-      <span class="lang-ar">يُرسَم الهَيكلُ الصامتُ لِلكَلِمة الإنجليزيّة/اللاتينيّة/الإغريقيّة على نَظائرِها العَرَبيّة المُحتَمَلة. تُمَيَّز المُطابَقات في <strong>سِجِلِّ الصِّنف الأَوّل بَين اللُّغات</strong> (١٩ جَذرًا قُرآنيّ المِرساة).</span>
+      <span class="lang-ar">يُرسَم الهَيكلُ الصامتُ لِلكَلِمة الإنجليزيّة/اللاتينيّة/الإغريقيّة على نَظائرِها العَرَبيّة المُحتَمَلة. تُمَيَّز المُطابَقات في <strong>سِجِلِّ الصِّنف الأَوّل بَين اللُّغات</strong> (19 جَذرًا قُرآنيّ المِرساة).</span>
     </p>
     <div class="reverse-results" id="reverse-results-list"></div>
   </div>
@@ -642,7 +642,7 @@ const MODES = {
     label: { en: 'EXCEPTION', ar: 'استِثناء' },
     modes: [
       ['LOANWORD',  'الدَّخيل',        'non-native composition (1 of 2,285 in the current corpus; loanword count likely under-reported)',
-                                       'تَركيبٌ غيرُ أَصيل (واحدٌ من ٢,٢٨٥ في المُدَوَّنة الحاليّة؛ والعَدَدُ أَقَلُّ من الحَقيقة)'],
+                                       'تَركيبٌ غيرُ أَصيل (واحدٌ من 2,285 في المُدَوَّنة الحاليّة؛ والعَدَدُ أَقَلُّ من الحَقيقة)'],
     ]
   }
 };
@@ -908,7 +908,7 @@ function renderReverseResults(input) {
     p.style.cssText = 'color:var(--text-3);font-size:13.5px;margin-top:14px;';
     p.innerHTML = `
       <span class="lang-en">No Tier-A or known-nucleus match for this consonant skeleton in our roster of 19 verified cognates and 20 working nuclei. This doesn't rule out an Arabic root — it means our current shortlist doesn't contain one. Try a related word or a different spelling.</span>
-      <span class="lang-ar">لا مُطابَقة مَع الصِّنف الأَوّل ولا مَع النَّوى المَعروفة لِهذا الهَيكل الصامت ضِمن سِجِلِّنا (١٩ مُشتَركًا مُوَثَّقًا و٢٠ نَواةً قَيد العَمَل). هذا لا يَنفي وُجودَ جَذرٍ عَرَبيّ — بل يَعني أَنّ قائمتَنا الحاليّة لا تَحتَويه. جَرِّب كَلِمةً قَريبة أَو هِجاءً مُختَلِفًا.</span>
+      <span class="lang-ar">لا مُطابَقة مَع الصِّنف الأَوّل ولا مَع النَّوى المَعروفة لِهذا الهَيكل الصامت ضِمن سِجِلِّنا (19 مُشتَركًا مُوَثَّقًا و20 نَواةً قَيد العَمَل). هذا لا يَنفي وُجودَ جَذرٍ عَرَبيّ — بل يَعني أَنّ قائمتَنا الحاليّة لا تَحتَويه. جَرِّب كَلِمةً قَريبة أَو هِجاءً مُختَلِفًا.</span>
     `;
     list.appendChild(p);
     return;
@@ -1015,7 +1015,7 @@ function suggestModes(L3char) {
       likely: ['CHANNEL', 'CARRY'],
       unlikely: ['OPERATE', 'INTENSIFY'],
       en: 'Flow-charge L3 → strong concentration in CHANNEL+CARRY (Δ +12.6%, χ²=130.66 in the corpus).',
-      ar: 'شَحنةُ جَرَيانٍ في L3 → تَركيزٌ في CHANNEL+CARRY (الفَرق +١٢٫٦٪، χ²=١٣٠٫٦٦).'
+      ar: 'شَحنةُ جَرَيانٍ في L3 → تَركيزٌ في CHANNEL+CARRY (الفَرق +12.6%، χ²=130.66).'
     };
   }
   if (MASS_LETTERS.has(L3char)) {
@@ -1023,7 +1023,7 @@ function suggestModes(L3char) {
       likely: ['OPERATE', 'HOLD'],
       unlikely: ['RELEASE', 'CARRY'],
       en: 'Mass-charge L3 → concentration in OPERATE+HOLD (Δ +5.8%, χ²=36.48 in the corpus).',
-      ar: 'شَحنةُ كَتلةٍ في L3 → تَركيزٌ في OPERATE+HOLD (الفَرق +٥٫٨٪، χ²=٣٦٫٤٨).'
+      ar: 'شَحنةُ كَتلةٍ في L3 → تَركيزٌ في OPERATE+HOLD (الفَرق +5.8%، χ²=36.48).'
     };
   }
   return null;
@@ -1173,7 +1173,7 @@ function renderInsights(letters) {
         <p class="lang-ar" style="font-family:var(--font-ar);direction:rtl;">${nuc.ar}</p>
         <p style="margin-top:10px;font-size:12.5px;color:var(--text-3);">
           <span class="lang-en">From the 18-nucleus working set in the unified 28-letter table.</span>
-          <span class="lang-ar">من مَجموعة الـ١٨ نَواةً العَمَليّة في الجدول المُوَحَّد.</span>
+          <span class="lang-ar">من مَجموعة الـ18 نَواةً العَمَليّة في الجدول المُوَحَّد.</span>
         </p>
       </div>
     `);

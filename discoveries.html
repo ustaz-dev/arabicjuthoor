@@ -174,15 +174,15 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
   </p>
 
   <div class="stats" id="stats">
-    <div class="stat"><div class="stat-num" id="stat-65">…</div><div class="stat-label"><span class="lang-en">Likely (≥0.65, calibrated)</span><span class="lang-ar">مُرَجَّح (≥٠٫٦٥، مُعايَر)</span></div></div>
-    <div class="stat"><div class="stat-num" id="stat-80">…</div><div class="stat-label"><span class="lang-en">Strong (≥0.80, calibrated)</span><span class="lang-ar">قَويّ (≥٠٫٨، مُعايَر)</span></div></div>
-    <div class="stat"><div class="stat-num" id="stat-95">…</div><div class="stat-label"><span class="lang-en">Near-identical (≥0.95)</span><span class="lang-ar">شِبه-مُطابِق (≥٠٫٩٥)</span></div></div>
+    <div class="stat"><div class="stat-num" id="stat-65">…</div><div class="stat-label"><span class="lang-en">Likely (≥0.65, calibrated)</span><span class="lang-ar">مُرَجَّح (≥0.65، مُعايَر)</span></div></div>
+    <div class="stat"><div class="stat-num" id="stat-80">…</div><div class="stat-label"><span class="lang-en">Strong (≥0.80, calibrated)</span><span class="lang-ar">قَويّ (≥0.8، مُعايَر)</span></div></div>
+    <div class="stat"><div class="stat-num" id="stat-95">…</div><div class="stat-label"><span class="lang-en">Near-identical (≥0.95)</span><span class="lang-ar">شِبه-مُطابِق (≥0.95)</span></div></div>
     <div class="stat"><div class="stat-num" id="stat-total">…</div><div class="stat-label"><span class="lang-en">Total raw discoveries</span><span class="lang-ar">الجَملة الخامّ</span></div></div>
     <div class="stat"><div class="stat-num">7</div><div class="stat-label"><span class="lang-en">IE branches</span><span class="lang-ar">فُروع هندوأوربيّة</span></div></div>
   </div>
   <p style="font-size:13px;color:var(--text-3);margin:-10px 0 20px;">
     <span class="lang-en">Headline numbers are <strong>Pass 2 calibrated</strong> re-scores of the full ≥0.65 pool (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770.md">audit</a>). Pass 1 (bulk discovery) produced 770 ≥0.65 / 134 ≥0.8 / 57 ≥0.95; Pass 2 (blind calibrated re-read) tightened these to 189 / 120 / 18. Both scores are visible on every row (click to expand).</span>
-    <span class="lang-ar">الأَرقامُ الرَّئيسيّة هي إعادةُ تَسجيلٍ بِـ <strong>التَّمريرة الثانية المُعايَرة</strong> لِكامِل حَوض ≥٠٫٦٥ (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770-ar.md">التَّدقيق</a>). التَّمريرةُ الأولى (الاكتِشافُ الجُمليّ) أَنتَجَت ٧٧٠/١٣٤/٥٧؛ التَّمريرةُ الثانية (إعادةُ قِراءةٍ مُعايَرةٍ أَعمى) أَحكَمَتها إلى ١٨٩/١٢٠/١٨. كِلتا النُّقطَتَين تَظهَران عَلى كُلِّ صَفّ.</span>
+    <span class="lang-ar">الأَرقامُ الرَّئيسيّة هي إعادةُ تَسجيلٍ بِـ <strong>التَّمريرة الثانية المُعايَرة</strong> لِكامِل حَوض ≥0.65 (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770-ar.md">التَّدقيق</a>). التَّمريرةُ الأولى (الاكتِشافُ الجُمليّ) أَنتَجَت 770/134/57؛ التَّمريرةُ الثانية (إعادةُ قِراءةٍ مُعايَرةٍ أَعمى) أَحكَمَتها إلى 189/120/18. كِلتا النُّقطَتَين تَظهَران عَلى كُلِّ صَفّ.</span>
   </p>
 
   <div class="filters">
@@ -209,7 +209,7 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
         <span class="lang-en">🟢 IRR-verified only</span><span class="lang-ar">🟢 IRR-مُؤَكَّد فَقَط</span>
       </button>
       <span style="font-size:12px;color:var(--text-3);">
-        <span class="lang-en">(both Pass 1 and Pass 2 calibrated rate ≥0.65)</span><span class="lang-ar">(كِلتا التَّمريرَتَين تُسَجِّلانه ≥٠٫٦٥)</span>
+        <span class="lang-en">(both Pass 1 and Pass 2 calibrated rate ≥0.65)</span><span class="lang-ar">(كِلتا التَّمريرَتَين تُسَجِّلانه ≥0.65)</span>
       </span>
     </div>
     <div class="filter-row">
@@ -521,7 +521,7 @@ function render() {
 
   // Sortable headers: each header is a button-like th that toggles sort
   const headerSpec = isAr
-    ? [['ar', 'عَرَبيّ'], ['tgt', 'كَلِمة هَدَف'], ['score', 'تَمريرة ١'], ['opus', 'تَمريرة ٢ · مُعايَرة'], ['lang', 'لُغة'], [null, 'فَرع']]
+    ? [['ar', 'عَرَبيّ'], ['tgt', 'كَلِمة هَدَف'], ['score', 'تَمريرة 1'], ['opus', 'تَمريرة 2 · مُعايَرة'], ['lang', 'لُغة'], [null, 'فَرع']]
     : [['ar', 'Arabic'], ['tgt', 'Target lemma'], ['score', 'Pass 1'], ['opus', 'Pass 2 · calibrated'], ['lang', 'Language'], [null, 'Branch']];
 
   let html = '<table class="discoveries"><thead><tr>';
