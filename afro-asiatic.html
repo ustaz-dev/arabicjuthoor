@@ -147,8 +147,8 @@ table.data tbody tr:hover { background: var(--accent-bg); }
 <main>
   <h1 class="page-title"><span class="lang-en">Afro-Asiatic cognates · Arabic ↔ Ancient Egyptian</span><span class="lang-ar">الجِنَاسات الأَفروأَسيويّة · العَرَبيّة ↔ المِصريّة القَديمة</span></h1>
   <p class="page-sub">
-    <span class="lang-en">200 worked pairs · framework readings for each · structural-revelation flags · sort, search, filter. Detailed entries in <a href="viewer.html?file=04-cross-linguistic/tier-a-afro-asiatic-cognates.md">tier-a-afro-asiatic-cognates.md</a>.</span>
-    <span class="lang-ar">200 زَوجٍ مَدروسٍ · قِراءاتُ الإطار لِكُلٍّ · إشارة الكَشف البِنيَويّ · تَرتيب وبَحث وتَصفِية. المَداخِلُ الكامِلةُ في <a href="viewer.html?file=04-cross-linguistic/tier-a-afro-asiatic-cognates-ar.md">tier-a-afro-asiatic-cognates-ar.md</a>.</span>
+    <span class="lang-en">200 worked pairs · framework readings for each · structural-revelation flags · sort, search, filter. <strong>Verdicts now reflect the Pass-2 calibrated re-review</strong> (5 PROVISIONAL → PARTIAL/STRONG upgrades, 15 → PARALLEL-STEMS-NOTE transparency tag). Methodology: <a href="viewer.html?file=05-audits/2026-05-24-aa-pass2-audit.md">Pass-2 audit doc</a>. Detailed entries: <a href="viewer.html?file=04-cross-linguistic/tier-a-afro-asiatic-cognates.md">tier-a-afro-asiatic-cognates.md</a>.</span>
+    <span class="lang-ar">200 زَوجٍ مَدروسٍ · قِراءاتُ الإطار لِكُلٍّ · إشارة الكَشف البِنيَويّ · تَرتيب وبَحث وتَصفِية. <strong>الأَحكامُ الآنَ تَعكِسُ مُراجَعةَ التَّمريرةِ الثانية المُعايَرة</strong> (5 PROVISIONAL ← PARTIAL/STRONG تَرقيات، 15 ← PARALLEL-STEMS-NOTE وَسمُ شَفافيّة). المَنهَجيّة: <a href="viewer.html?file=05-audits/2026-05-24-aa-pass2-audit-ar.md">وَثيقةُ تَدقيقِ التَّمريرةِ الثانية</a>. المَداخِلُ: <a href="viewer.html?file=04-cross-linguistic/tier-a-afro-asiatic-cognates-ar.md">tier-a-afro-asiatic-cognates-ar.md</a>.</span>
   </p>
 
   <div class="reveal-banner">
@@ -160,12 +160,12 @@ table.data tbody tr:hover { background: var(--accent-bg); }
   </div>
 
   <div class="stats">
-    <div class="stat" data-verdict-stat="PERFECT"><div class="stat-num">11</div><div class="stat-label"><span class="lang-en">Perfect</span><span class="lang-ar">تامّ</span></div></div>
-    <div class="stat" data-verdict-stat="PROTO-FAMILY"><div class="stat-num">7</div><div class="stat-label"><span class="lang-en">Proto-Family</span><span class="lang-ar">بِدائيٌّ أُسَريّ</span></div></div>
+    <div class="stat" data-verdict-stat="PERFECT"><div class="stat-num">13</div><div class="stat-label"><span class="lang-en">Perfect</span><span class="lang-ar">تامّ</span></div></div>
+    <div class="stat" data-verdict-stat="PROTO-FAMILY"><div class="stat-num">8</div><div class="stat-label"><span class="lang-en">Proto-Family</span><span class="lang-ar">بِدائيٌّ أُسَريّ</span></div></div>
     <div class="stat" data-verdict-stat="DUAL-FACE"><div class="stat-num">1</div><div class="stat-label"><span class="lang-en">Dual-Face</span><span class="lang-ar">وَجهَين</span></div></div>
-    <div class="stat" data-verdict-stat="STRONG"><div class="stat-num">78</div><div class="stat-label"><span class="lang-en">Strong</span><span class="lang-ar">قَويّ</span></div></div>
-    <div class="stat" data-verdict-stat="PARTIAL"><div class="stat-num">18</div><div class="stat-label"><span class="lang-en">Partial</span><span class="lang-ar">جُزئيّ</span></div></div>
-    <div class="stat" data-verdict-stat="PROVISIONAL"><div class="stat-num">84</div><div class="stat-label"><span class="lang-en">Provisional</span><span class="lang-ar">مُؤَقَّت</span></div></div>
+    <div class="stat" data-verdict-stat="STRONG"><div class="stat-num">82</div><div class="stat-label"><span class="lang-en">Strong</span><span class="lang-ar">قَويّ</span></div></div>
+    <div class="stat" data-verdict-stat="PARTIAL"><div class="stat-num">17</div><div class="stat-label"><span class="lang-en">Partial</span><span class="lang-ar">جُزئيّ</span></div></div>
+    <div class="stat" data-verdict-stat="PROVISIONAL"><div class="stat-num">64</div><div class="stat-label"><span class="lang-en">Provisional</span><span class="lang-ar">مُؤَقَّت</span></div></div>
     <div class="stat"><div class="stat-num">25</div><div class="stat-label">🔑 <span class="lang-en">Revelations</span><span class="lang-ar">كَشوفات</span></div></div>
   </div>
 
@@ -184,6 +184,7 @@ table.data tbody tr:hover { background: var(--accent-bg); }
         <option value="STRONG">STRONG</option>
         <option value="PARTIAL">PARTIAL</option>
         <option value="PROVISIONAL">PROVISIONAL</option>
+        <option value="PARALLEL-STEMS">PARALLEL-STEMS (Pass-2)</option>
       </select>
     </div>
     <div class="filter-group">
@@ -318,18 +319,18 @@ const DATA = [
   [60, "ظَهر", "psḏ", "back, spine", "parallel back-stems", "PROVISIONAL", 0, "body"],
   [61, "صَدر", "šnbt", "chest", "parallel chest-stems", "PROVISIONAL", 0, "body"],
   [62, "بَطن", "ẖt", "belly, womb, interior", "warm interior shared", "STRONG", 0, "body"],
-  [63, "قَلب", "jb", "heart (parallel stems)", "parallel heart-stems", "PROVISIONAL", 0, "body"],
+  [63, "قَلب", "jb", "heart (parallel stems)", "parallel heart-stems", "PARTIAL", 0, "body"],
   [64, "دَم", "snf", "blood (parallel stems)", "parallel blood-stems", "PROVISIONAL", 0, "body"],
   [65, "كَفّ", "ḏrt", "palm, hand (parallel stems)", "parallel hand-stems", "PROVISIONAL", 0, "body"],
   [66, "عَظم", "qs", "bone (parallel stems)", "parallel bone-stems", "PROVISIONAL", 0, "body"],
-  [67, "لَحم", "jwf", "flesh, meat (parallel stems)", "parallel flesh-stems", "PROVISIONAL", 0, "body"],
+  [67, "لَحم", "jwf", "flesh, meat (parallel stems)", "parallel flesh-stems", "PARTIAL", 0, "body"],
   // Kinship extended (68-73)
   [68, "ابن", "sꜣ", "son (parallel stems)", "parallel son-stems", "PROVISIONAL", 0, "kin"],
   [69, "بِنت", "sꜣt", "daughter", "feminine of #68", "PROVISIONAL", 0, "kin"],
   [70, "أُخت", "snt", "sister (polysemy with tooth/second)", "snt three-meaning polysemy", "STRONG", 1, "kin"],
   [71, "زَوج / امرأة", "ḥmt", "wife", "parallel wife-stems", "PROVISIONAL", 0, "kin"],
   [72, "عَمّ / خال", "jt", "uncle (Egyptian uses jt broadly)", "parallel uncle-stems", "PROVISIONAL", 0, "kin"],
-  [73, "جَدّ", "jt-jt", "grandfather (Egyptian doubles father)", "doubled father stem", "PROVISIONAL", 0, "kin"],
+  [73, "جَدّ", "jt-jt", "grandfather (Egyptian doubles father)", "doubled father stem", "PARALLEL-STEMS", 0, "kin"],
   // Pronouns extended (74-78)
   [74, "أَنا", "jnk", "I (1sg)", "nasal pronoun stem · universal", "PROTO-FAMILY", 0, "pronoun"],
   [75, "أَنتُم", "ṯn", "you (2pl)", "n+t pronoun stem (plural)", "PROTO-FAMILY", 0, "pronoun"],
@@ -337,7 +338,7 @@ const DATA = [
   [77, "هي", "sj", "she (parallel stems)", "parallel 3sg-fem stems", "PROVISIONAL", 0, "pronoun"],
   [78, "هَذا", "pꜣ", "this (proximal demonstrative)", "parallel demonstrative function", "STRONG", 0, "pronoun"],
   // Prepositions extended (79-86)
-  [79, "إلى", "r", "to, towards", "parallel directional preposition", "PROVISIONAL", 0, "prep"],
+  [79, "إلى", "r", "to, towards", "parallel directional preposition", "PARALLEL-STEMS", 0, "prep"],
   [80, "عَلى", "ḥr", "on, upon (Hebrew עַל matches)", "parallel upper-surface stems", "STRONG", 1, "prep"],
   [81, "تَحت", "ẖr", "under, beneath", "r-element anchor shared", "STRONG", 0, "prep"],
   [82, "مَع", "ḥnʿ", "with (ع shared)", "ʿ-shared 'with'-preposition", "STRONG", 1, "prep"],
@@ -347,7 +348,7 @@ const DATA = [
   [86, "بَعد", "m-ḫt", "after", "parallel 'following-behind' constructions", "PROVISIONAL", 0, "prep"],
   // Motion verbs (87-96)
   [87, "مَشى", "šm", "walk, go", "bare binary/trilateral · ش↔š", "STRONG", 1, "motion"],
-  [88, "ذَهَب", "šm / ḫd", "go (parallel stems)", "parallel go-stems", "PROVISIONAL", 0, "motion"],
+  [88, "ذَهَب", "šm / ḫd", "go (parallel stems)", "parallel go-stems", "PARALLEL-STEMS", 0, "motion"],
   [89, "وَقَفَ", "ʿḥʿ", "stand", "firm-warm-anchored standing", "PARTIAL", 0, "motion"],
   [90, "جَلَس", "ḥmsj", "sit, dwell", "exact ḥ-m-s 3-consonant match", "STRONG", 1, "motion"],
   [91, "نام", "sḏr", "sleep, lie down for night", "cross-link to #38 سَتَر", "STRONG", 0, "motion"],
@@ -363,20 +364,20 @@ const DATA = [
   [100, "خَتَم", "ḫtm", "seal, shut, conclude", "trilateral · exact ḫ-t-m match", "PERFECT", 1, "action"],
   [101, "هَدَم", "sḫd", "demolish, overturn", "parallel destruction-stem", "PARTIAL", 0, "action"],
   [102, "ضَرَب", "ḥwj", "strike, hit", "parallel impact-stems", "PROVISIONAL", 0, "action"],
-  [103, "قَتَل", "smꜣ", "kill", "parallel kill-stems", "PROVISIONAL", 0, "action"],
+  [103, "قَتَل", "smꜣ", "kill", "parallel kill-stems", "PARALLEL-STEMS", 0, "action"],
   [104, "أَخَذ", "nḥm", "take, save, deliver", "parallel taking-stems", "PROVISIONAL", 0, "action"],
-  [105, "أَعطى", "rdj", "give (parallel stems)", "parallel giving-stems", "PROVISIONAL", 0, "action"],
+  [105, "أَعطى", "rdj", "give (parallel stems)", "parallel giving-stems", "PARALLEL-STEMS", 0, "action"],
   [106, "زَرَع", "sty", "sow, plant", "parallel sowing-stems", "PROVISIONAL", 0, "action"],
-  [107, "حَصَد", "šwj", "reap, harvest (parallel)", "parallel harvest-stems", "PROVISIONAL", 0, "action"],
+  [107, "حَصَد", "šwj", "reap, harvest (parallel)", "parallel harvest-stems", "PARALLEL-STEMS", 0, "action"],
   [108, "طَحَن", "nḏ", "grind, crush, consult", "parallel grinding-stems", "PROVISIONAL", 0, "action"],
-  [109, "عَجَن", "pgs", "knead dough", "parallel kneading-stems", "PROVISIONAL", 0, "action"],
+  [109, "عَجَن", "pgs", "knead dough", "parallel kneading-stems", "PARALLEL-STEMS", 0, "action"],
   [110, "سَكَنَ", "ḥmsj", "dwell, reside (cross-link #90)", "same ḥ-m-s dwelling stem", "STRONG", 0, "motion"],
   [111, "شَفى", "snb", "heal, make whole, be healthy", "trilateral · health s-n base", "STRONG", 1, "action"],
   [112, "مَرِض", "mr", "be sick, suffer, pain", "trilateral · exact m-r · same seed as love", "STRONG", 1, "abstract"],
   [113, "غَسَل", "jʿj", "wash (parallel stems)", "parallel washing-stems", "PROVISIONAL", 0, "action"],
   [114, "لَبِس", "ḥbs", "wear, clothe, cover", "trilateral · b-s clothing-stem with ل/ḥ variant", "STRONG", 1, "action"],
   [115, "باع", "swn", "sell, exchange (parallel)", "parallel exchange-stems", "PROVISIONAL", 0, "action"],
-  [116, "اشتَرى", "šꜣm", "buy, acquire (parallel)", "parallel acquisition-stems", "PROVISIONAL", 0, "action"],
+  [116, "اشتَرى", "šꜣm", "buy, acquire (parallel)", "parallel acquisition-stems", "PARALLEL-STEMS", 0, "action"],
   // Cognition (117-126)
   [117, "عَلِم", "rḫ", "know (parallel stems)", "parallel knowledge-stems", "PROVISIONAL", 0, "mind"],
   [118, "ذَكَر / تَذَكَّر", "sḫꜣ", "remember", "trilateral · s+ḫ memory base", "STRONG", 1, "mind"],
@@ -389,13 +390,13 @@ const DATA = [
   [125, "خاف", "snḏ", "fear", "parallel s-n fear-stems · Arabic سَكَن also", "STRONG", 1, "mind"],
   [126, "رَجا", "ḫꜣ", "hope (parallel stems)", "parallel hope-stems", "PROVISIONAL", 0, "mind"],
   // Adjectives (127-136)
-  [127, "كَبير", "ʿꜣ", "great, big (parallel)", "parallel intensity-stems", "PROVISIONAL", 0, "adj"],
+  [127, "كَبير", "ʿꜣ", "great, big (parallel)", "parallel intensity-stems", "PARTIAL", 0, "adj"],
   [128, "صَغير", "šri / nḏs", "small (parallel)", "parallel smallness-stems", "PROVISIONAL", 0, "adj"],
   [129, "طَويل", "qꜣ", "tall, long (parallel)", "parallel height-stems", "PROVISIONAL", 0, "adj"],
   [130, "قَصير", "šri", "short (parallel)", "parallel shortness-stems", "PROVISIONAL", 0, "adj"],
   [131, "ثَقيل", "dns", "heavy (parallel)", "parallel weight-stems", "PROVISIONAL", 0, "adj"],
   [132, "خَفيف", "ḫf", "light-weight, quick, swift", "geminate · exact x-f match", "STRONG", 1, "adj"],
-  [133, "حارّ", "šmm", "hot (parallel)", "parallel heat-pulse stems", "PROVISIONAL", 0, "adj"],
+  [133, "حارّ", "šmm", "hot (parallel)", "parallel heat-pulse stems", "STRONG", 0, "adj"],
   [134, "بارِد", "qbh", "cold, cool", "Arabic قَبَّ matches", "STRONG", 0, "adj"],
   [135, "صُلب", "rwḏ", "firm, hard (parallel)", "parallel firmness-stems", "PROVISIONAL", 0, "adj"],
   [136, "جَديد", "mꜣwy", "new (parallel)", "parallel newness-stems", "PROVISIONAL", 0, "adj"],
@@ -406,7 +407,7 @@ const DATA = [
   [140, "جَبَل", "ḏw", "mountain (parallel)", "parallel mountain-stems", "PROVISIONAL", 0, "nature"],
   [141, "بَحر / يَمّ", "yam (Coptic ⲓⲟⲙ)", "sea, ocean (Hebrew יָם)", "cross-family universal sea-stem", "STRONG", 1, "nature"],
   [142, "نَهر", "jtrw", "river (parallel)", "parallel river-stems", "PROVISIONAL", 0, "nature"],
-  [143, "ريح", "ṯꜣw", "wind (parallel)", "parallel wind-stems", "PROVISIONAL", 0, "nature"],
+  [143, "ريح", "ṯꜣw", "wind (parallel)", "parallel wind-stems", "PARALLEL-STEMS", 0, "nature"],
   [144, "نار", "sḏt", "fire (parallel)", "parallel fire-stems", "PROVISIONAL", 0, "nature"],
   [145, "شَجَر", "ḫt", "tree, wood (cross-link #34 خَطّ)", "shared ḫt 'wood/thing' stem", "STRONG", 0, "nature"],
   [146, "زَهر", "sšn", "flower, lotus (partial)", "partial sibilant alignment", "PROVISIONAL", 0, "nature"],
@@ -419,7 +420,7 @@ const DATA = [
   // Abstract & sacred (152-161)
   [152, "حَقّ", "mꜣʿt", "truth, justice (Maat)", "parallel truth-stems", "PROVISIONAL", 0, "abstract"],
   [153, "خَير", "nfr", "good, beautiful (cross-link #39)", "shared n-f-r stem", "STRONG", 0, "adj"],
-  [154, "شَرّ", "bjn", "bad, evil (parallel)", "parallel evil-stems", "PROVISIONAL", 0, "abstract"],
+  [154, "شَرّ", "bjn", "bad, evil (parallel)", "parallel evil-stems", "PARALLEL-STEMS", 0, "abstract"],
   [155, "قُوّة", "wsr", "strength, mighty", "partial w-initial power-stems", "PARTIAL", 0, "abstract"],
   [156, "سَلام", "ḥtp", "peace, satisfaction (cross-link #30)", "shared حَطّ/ḥtp rest-as-peace", "STRONG", 0, "abstract"],
   [157, "حِكمة", "ḥkꜣ", "wisdom, magic (cross-link #29)", "shared ḥ-k wisdom-stem", "STRONG", 0, "abstract"],
@@ -437,18 +438,18 @@ const DATA = [
   [168, "عَدَّ", "jp", "count, reckon (parallel)", "parallel counting-stems", "PROVISIONAL", 0, "action"],
   [169, "قَرَأ", "šd", "read, recite (cross-link #27)", "shared šd recitation-drawing-forth", "STRONG", 0, "mind"],
   [170, "كَتَب", "sšw", "write, scribe (parallel)", "parallel writing-stems", "PROVISIONAL", 0, "action"],
-  [171, "رَسَم", "ssp", "draw, depict (partial)", "partial light-receiving share", "PROVISIONAL", 0, "action"],
+  [171, "رَسَم", "ssp", "draw, depict (partial)", "partial light-receiving share", "PARTIAL", 0, "action"],
   [172, "غَنّى", "ḥsj", "sing, praise (parallel)", "parallel singing-stems", "PROVISIONAL", 0, "action"],
   [173, "رَقَص", "ḫbj", "dance (parallel)", "parallel dance-stems", "PROVISIONAL", 0, "action"],
   [174, "لَعِب", "swt", "play (parallel)", "parallel play-stems", "PROVISIONAL", 0, "action"],
-  [175, "مَلَك", "nswt", "king (parallel)", "parallel king-stems", "PROVISIONAL", 0, "abstract"],
+  [175, "مَلَك", "nswt", "king (parallel)", "parallel king-stems", "PARALLEL-STEMS", 0, "abstract"],
   [176, "وَزير", "ṯꜣty", "vizier (Persian loanword in Arabic)", "skip — loanword", "PROVISIONAL", 0, "abstract"],
   [177, "عَبد", "bꜣk", "servant (cross-link #36)", "parallel servant-stems", "PARTIAL", 0, "kin"],
   [178, "حُرّ", "nmḥ", "free (parallel)", "parallel freedom-stems", "PROVISIONAL", 0, "abstract"],
-  [179, "ذَهَب", "nbw", "gold (parallel)", "parallel gold-stems", "PROVISIONAL", 0, "nature"],
+  [179, "ذَهَب", "nbw", "gold (parallel)", "parallel gold-stems", "PARALLEL-STEMS", 0, "nature"],
   [180, "فِضّة", "ḥḏ", "silver (parallel)", "parallel silver-stems", "PROVISIONAL", 0, "nature"],
   [181, "نُحاس", "ḥmt", "copper (parallel)", "parallel copper-stems", "PROVISIONAL", 0, "nature"],
-  [182, "حَديد", "bjꜣ", "iron (parallel)", "parallel iron-stems", "PROVISIONAL", 0, "nature"],
+  [182, "حَديد", "bjꜣ", "iron (parallel)", "parallel iron-stems", "PARALLEL-STEMS", 0, "nature"],
   [183, "خُبز", "t", "bread (Egyptian t-loaf)", "parallel bread-stems", "PROVISIONAL", 0, "nature"],
   [184, "زَيت / مَرَّخ", "mrḥt (Coptic ⲙⲣⲉϩⲏⲧ)", "oil, fat", "partial m-r-based oil-stems", "PARTIAL", 0, "nature"],
   [185, "عَيش / خُبز", "ʿqw (Coptic ⲱⲓⲕ)", "bread, life-sustenance", "ع-shared family bread-stem · 'bread=life'", "STRONG", 1, "nature"],
@@ -462,9 +463,9 @@ const DATA = [
   [192, "سَوْط", "ⲥⲱⲧ", "whip, lash (parallel)", "parallel whip-stems", "PROVISIONAL", 0, "coptic"],
   [193, "أَمير", "ⲁⲙⲓⲣⲉ", "prince/commander (parallel)", "parallel rule-stems", "PROVISIONAL", 0, "coptic"],
   [194, "سَوّى", "ⲥⲱ", "equal, level (partial)", "partial equalisation-stems", "PROVISIONAL", 0, "coptic"],
-  [195, "سَلام", "ⲉⲓⲣⲏⲛⲏ", "Greek loanword in Coptic — skip", "Greek loanword", "PROVISIONAL", 0, "coptic"],
+  [195, "سَلام", "ⲉⲓⲣⲏⲛⲏ", "Greek loanword in Coptic — skip", "Greek loanword", "PARALLEL-STEMS", 0, "coptic"],
   [196, "زَوج / مَرة", "ⲥϩⲓⲙⲉ", "wife (parallel)", "parallel wife-stems", "PROVISIONAL", 0, "coptic"],
-  [197, "طَير", "ϩⲁⲗⲏⲧ", "bird (parallel)", "parallel bird-stems", "PROVISIONAL", 0, "coptic"],
+  [197, "طَير", "ϩⲁⲗⲏⲧ", "bird (parallel)", "parallel bird-stems", "PARALLEL-STEMS", 0, "coptic"],
   [198, "شَرِب", "ⲥⲱ (drink)", "drink (cross-link #32)", "same Coptic drink-stem as Arabic شَرِب", "STRONG", 0, "coptic"],
   [199, "أَخَذ / جا", "ϫⲓ", "take (Coptic ji)", "bare-binary partial", "PARTIAL", 0, "coptic"],
   [200, "سَكَنَ", "ⲟⲩⲱϩ", "dwell (cross-link #90, #110)", "shared dwelling-stem", "STRONG", 0, "motion"],
@@ -550,6 +551,7 @@ function badgeFor(v) {
     'DUAL-FACE': 'badge-dual',
     'PARTIAL': 'badge-partial',
     'PROVISIONAL': 'badge-provisional',
+    'PARALLEL-STEMS': 'badge-provisional',
   }[v] || 'badge-provisional';
   return `<span class="badge ${cls}">${v}</span>`;
 }
