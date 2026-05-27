@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Juthoor · Afro-Asiatic cognates · Arabic ↔ Ancient Egyptian (200 entries)</title>
+<meta name="description" content="Browse the 200 Arabic ↔ Ancient-Egyptian cognate findings from the Juthoor framework. 11 PERFECT, 7 PROTO-AFRO-ASIATIC, 78 STRONG, 18 PARTIAL, 84 PROVISIONAL. Filter by verdict, structural class, or search by Arabic root or Egyptian form. Includes 25+ structural revelations the framework uncovered." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://arabicjuthoor.com/afro-asiatic.html" />
+
+<script>
+(function () {
+  try {
+    var l = localStorage.getItem('juthoor-lang');
+    if (l === 'ar' || l === 'en') {
+      document.documentElement.setAttribute('data-lang', l);
+      document.documentElement.setAttribute('lang', l);
+      document.documentElement.setAttribute('dir', l === 'ar' ? 'rtl' : 'ltr');
+    }
+    var t = localStorage.getItem('aratongue-theme');
+    if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+  } catch (e) {}
+})();
+</script>
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="fonts.css" />
+
+<style>
+:root {
+  --bg: #fdfaf5; --bg-2: #f6f0e6; --bg-card: #ffffff;
+  --text: #1a2236; --text-2: #4a5266; --text-3: #5f6275;
+  --accent: #b8862f; --accent-strong: #8a5e1f;
+  --accent-2: #d4a73f; --accent-bg: #faf3df;
+  --border: #e4ddd0;
+  --positive: #2d7a3b; --positive-bg: #e8f3ea;
+  --warn: #8a5e08; --warn-bg: #fdf3d6;
+  --transform: #2255a4; --transform-bg: #e3edf9;
+  --purple: #6b3da3; --purple-bg: #ede4f7;
+  --font-en: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-ar: 'Amiri', 'Noto Naskh Arabic', serif;
+  --font-ar-display: 'Cairo', 'Tajawal', system-ui, sans-serif;
+}
+[data-theme="dark"] {
+  --bg: #161821; --bg-2: #1f222e; --bg-card: #1f222e;
+  --text: #ebe7dd; --text-2: #b3afa3; --text-3: #9a9790;
+  --accent: #d4a73f; --accent-strong: #e8c466;
+  --accent-bg: #2a2517; --border: #2e3140;
+  --positive: #6cc77d; --positive-bg: #18301c;
+  --warn: #f0c97a; --warn-bg: #2a2417;
+  --transform: #6c9ddc; --transform-bg: #18253a;
+  --purple: #b89ad6; --purple-bg: #25192f;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: var(--font-en); background: var(--bg); color: var(--text); line-height: 1.65; font-size: 16px; }
+html[data-lang="ar"] body { font-family: var(--font-ar); direction: rtl; }
+html[data-lang="en"] .lang-ar { display: none !important; }
+html[data-lang="ar"] .lang-en { display: none !important; }
+.ar-display { font-family: var(--font-ar-display); }
+*:focus { outline: none; }
+*:focus-visible { outline: 3px solid var(--accent-strong); outline-offset: 3px; border-radius: 4px; }
+
+.topbar { position: sticky; top: 0; z-index: 50; background: rgba(253, 250, 245, 0.92); backdrop-filter: saturate(180%) blur(10px); border-bottom: 1px solid var(--border); }
+[data-theme="dark"] .topbar { background: rgba(22, 24, 33, 0.92); }
+.topbar-inner { max-width: 1280px; margin: 0 auto; padding: 14px 28px; display: flex; align-items: center; gap: 14px; }
+.brand { font-weight: 700; color: var(--text); text-decoration: none; font-size: 16px; }
+.brand .accent { color: var(--accent-strong); }
+.crumb { color: var(--text-3); font-size: 14px; flex: 1; }
+html[data-lang="ar"] .topbar-inner { flex-direction: row-reverse; }
+.actions { display: flex; align-items: center; gap: 8px; }
+.lang-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.lang-toggle button { background: var(--bg-2); border: 0; cursor: pointer; padding: 6px 12px; font-size: 13px; color: var(--text-3); }
+.lang-toggle button.active { background: var(--accent-strong); color: white; }
+.theme-toggle { background: var(--bg-2); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 13px; color: var(--text); }
+
+main { max-width: 1280px; margin: 0 auto; padding: 36px 28px 80px; }
+.page-title { font-size: clamp(28px, 5vw, 40px); font-weight: 800; margin: 0 0 8px; letter-spacing: -0.02em; }
+.page-sub { color: var(--text-2); margin: 0 0 24px; font-size: 17px; }
+.page-sub a { color: var(--accent-strong); }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 16px 0 28px; }
+.stat { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 18px 14px; text-align: center; }
+.stat-num { font-size: 26px; font-weight: 800; color: var(--accent-strong); line-height: 1; }
+.stat-label { font-size: 12px; color: var(--text-3); margin-top: 6px; text-transform: uppercase; letter-spacing: 0.04em; }
+
+.filter-bar { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 18px; display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 768px) { .filter-bar { grid-template-columns: 2fr 1fr 1fr auto; align-items: end; } }
+.filter-group label { display: block; font-size: 12px; font-weight: 600; color: var(--text-2); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.04em; }
+.filter-group input, .filter-group select { width: 100%; padding: 9px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 14px; background: var(--bg); color: var(--text); font-family: inherit; }
+.filter-group input:focus, .filter-group select:focus { border-color: var(--accent-strong); outline: none; }
+.check-row { display: flex; align-items: center; gap: 8px; padding: 9px 0; }
+.check-row input { width: auto; }
+.check-row label { font-size: 13px; cursor: pointer; color: var(--text); margin: 0; text-transform: none; letter-spacing: 0; font-weight: 500; }
+.btn-clear { background: var(--bg-2); border: 1px solid var(--border); border-radius: 6px; padding: 9px 16px; font-size: 13px; cursor: pointer; color: var(--text); font-weight: 600; }
+
+.results-info { color: var(--text-3); font-size: 14px; margin: 12px 0 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+.results-info .csv-btn { color: var(--accent-strong); text-decoration: none; font-weight: 600; }
+.results-info .csv-btn:hover { text-decoration: underline; }
+
+.table-wrap { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+table.data { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.data th { background: var(--bg-2); padding: 12px 14px; text-align: left; font-weight: 700; font-size: 12px; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.04em; cursor: pointer; user-select: none; white-space: nowrap; position: sticky; top: 0; }
+html[data-lang="ar"] table.data th { text-align: right; }
+table.data th:hover { color: var(--accent-strong); }
+table.data th .sort-ind { color: var(--accent-strong); font-size: 10px; margin-left: 4px; }
+table.data td { padding: 13px 14px; border-top: 1px solid var(--border); vertical-align: top; }
+table.data tbody tr:hover { background: var(--accent-bg); }
+.cell-letter { font-family: var(--font-ar); font-size: 17px; color: var(--accent-strong); font-weight: 600; white-space: nowrap; }
+.cell-id { color: var(--text-3); font-size: 12px; font-weight: 600; }
+
+.badge { display: inline-block; padding: 3px 9px; border-radius: 11px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; }
+.badge-perfect { background: var(--positive-bg); color: var(--positive); }
+.badge-proto { background: var(--purple-bg); color: var(--purple); }
+.badge-strong { background: var(--positive-bg); color: var(--positive); }
+.badge-dual { background: var(--transform-bg); color: var(--transform); }
+.badge-partial { background: var(--warn-bg); color: var(--warn); }
+.badge-provisional { background: var(--bg-2); color: var(--text-3); border: 1px solid var(--border); }
+.rev-flag { display: inline-block; margin-left: 6px; cursor: help; }
+
+.empty { text-align: center; padding: 40px 20px; color: var(--text-3); }
+.footer { text-align: center; margin-top: 36px; color: var(--text-3); font-size: 13px; }
+.footer a { color: var(--accent-strong); }
+
+.reveal-banner { background: linear-gradient(135deg, var(--purple-bg), var(--accent-bg)); border: 1px solid var(--accent); border-radius: 12px; padding: 18px 22px; margin: 0 0 24px; }
+.reveal-banner-title { font-weight: 700; color: var(--accent-strong); margin-bottom: 6px; font-size: 15px; }
+.reveal-banner-body { color: var(--text-2); font-size: 14px; line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="lang-en"><span class="accent">Juthoor</span> · The Arabic Tongue</span><span class="lang-ar"><span class="accent">جُذُور</span> · العَرَبيّة</span></a>
+    <div class="crumb"><span class="lang-en"><a href="index.html#cross-linguistic" style="color:inherit;text-decoration:none;">← Cross-linguistic</a> · Afro-Asiatic browser</span><span class="lang-ar">عَبر اللغات · مُتَصَفِّحُ الأَفروأَسيويّة <a href="index.html#cross-linguistic" style="color:inherit;text-decoration:none;">→</a></span></div>
+    <div class="actions">
+      <div class="lang-toggle">
+        <button id="lang-en" onclick="setLang('en')">EN</button>
+        <button id="lang-ar" onclick="setLang('ar')">ع</button>
+      </div>
+      <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">🌙</button>
+    </div>
+  </div>
+</div>
+
+<main>
+  <h1 class="page-title"><span class="lang-en">Afro-Asiatic cognates · Arabic ↔ Ancient Egyptian</span><span class="lang-ar">الجِنَاسات الأَفروأَسيويّة · العَرَبيّة ↔ المِصريّة القَديمة</span></h1>
+  <p class="page-sub">
+    <span class="lang-en">200 worked pairs · framework readings for each · structural-revelation flags · sort, search, filter. Detailed entries in <a href="viewer.html?file=04-cross-linguistic/tier-a-afro-asiatic-cognates.md">tier-a-afro-asiatic-cognates.md</a>.</span>
+    <span class="lang-ar">200 زَوجٍ مَدروسٍ · قِراءاتُ الإطار لِكُلٍّ · إشارة الكَشف البِنيَويّ · تَرتيب وبَحث وتَصفِية. المَداخِلُ الكامِلةُ في <a href="viewer.html?file=04-cross-linguistic/tier-a-afro-asiatic-cognates-ar.md">tier-a-afro-asiatic-cognates-ar.md</a>.</span>
+  </p>
+
+  <div class="reveal-banner">
+    <div class="reveal-banner-title">🔑 <span class="lang-en">Structural revelations</span><span class="lang-ar">كَشوفاتٌ بِنيَويّة</span></div>
+    <div class="reveal-banner-body">
+      <span class="lang-en">25 entries are flagged 🔑 — cases where the framework didn't just confirm a known cognate but <em>revealed</em> a hidden connection: metathesis cognates (لِسان ↔ <em>ns</em> with Coptic ⲗⲁⲥ restoring the ل), dual-face L3 swaps (رود/روض), polysemy as evidence of shared seed (Egyptian <em>snt</em> = tooth + sister + second on one nucleus), and articulator-class shifts that align hidden semantics. Use the "🔑 revelations only" filter to see them all at once.</span>
+      <span class="lang-ar">25 مَدخَلًا مَوسومًا 🔑 — حالاتٌ لم يَكتَفِ فيها الإطارُ بِتَأكيد جِنَاسٍ مَعروف بَل *كَشَفَ* صِلةً مَخفيّة: جِنَاسات بِقَلب المَواضِع (لِسان ↔ <em>ns</em> مَع القِبطيّةُ ⲗⲁⲥ تَستَعيدُ اللام)، إبدالات وَجهَين عَلى L3 (رود/روض)، وَتَعَدُّد دَلالاتٍ كَدَليلٍ عَلى البَذرة المُشتَرَكة (المِصريّ <em>snt</em> = سِنّ + أُخت + ثانٍ عَلى نَواةٍ واحِدة)، وَإبدالاتٌ صَوتيّة تُحاذي دَلالاتٍ مَخفيّة. استَعمِل تَصفِية «🔑 الكَشوفات فَقَط» لِرُؤيتها كُلِّها.</span>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat" data-verdict-stat="PERFECT"><div class="stat-num">11</div><div class="stat-label"><span class="lang-en">Perfect</span><span class="lang-ar">تامّ</span></div></div>
+    <div class="stat" data-verdict-stat="PROTO-FAMILY"><div class="stat-num">7</div><div class="stat-label"><span class="lang-en">Proto-Family</span><span class="lang-ar">بِدائيٌّ أُسَريّ</span></div></div>
+    <div class="stat" data-verdict-stat="DUAL-FACE"><div class="stat-num">1</div><div class="stat-label"><span class="lang-en">Dual-Face</span><span class="lang-ar">وَجهَين</span></div></div>
+    <div class="stat" data-verdict-stat="STRONG"><div class="stat-num">78</div><div class="stat-label"><span class="lang-en">Strong</span><span class="lang-ar">قَويّ</span></div></div>
+    <div class="stat" data-verdict-stat="PARTIAL"><div class="stat-num">18</div><div class="stat-label"><span class="lang-en">Partial</span><span class="lang-ar">جُزئيّ</span></div></div>
+    <div class="stat" data-verdict-stat="PROVISIONAL"><div class="stat-num">84</div><div class="stat-label"><span class="lang-en">Provisional</span><span class="lang-ar">مُؤَقَّت</span></div></div>
+    <div class="stat"><div class="stat-num">25</div><div class="stat-label">🔑 <span class="lang-en">Revelations</span><span class="lang-ar">كَشوفات</span></div></div>
+  </div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <label for="search"><span class="lang-en">Search (Arabic / Egyptian / gloss)</span><span class="lang-ar">بَحث (عَرَبيّ / مِصريّ / مَعنى)</span></label>
+      <input type="text" id="search" placeholder="عَين · ʿn · eye · mwt · mother..." />
+    </div>
+    <div class="filter-group">
+      <label for="verdict"><span class="lang-en">Verdict</span><span class="lang-ar">الحُكم</span></label>
+      <select id="verdict">
+        <option value="">All verdicts</option>
+        <option value="PERFECT">PERFECT</option>
+        <option value="PROTO-FAMILY">PROTO-FAMILY</option>
+        <option value="DUAL-FACE">DUAL-FACE PAIR</option>
+        <option value="STRONG">STRONG</option>
+        <option value="PARTIAL">PARTIAL</option>
+        <option value="PROVISIONAL">PROVISIONAL</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="cat"><span class="lang-en">Category</span><span class="lang-ar">الفِئة</span></label>
+      <select id="cat">
+        <option value="">All categories</option>
+        <option value="saidi">Saidi seed (1-11)</option>
+        <option value="body">Body & senses</option>
+        <option value="kin">Kinship</option>
+        <option value="pronoun">Pronouns & particles</option>
+        <option value="prep">Prepositions</option>
+        <option value="motion">Motion verbs</option>
+        <option value="action">Action verbs</option>
+        <option value="mind">Cognition</option>
+        <option value="adj">Adjectives</option>
+        <option value="nature">Nature</option>
+        <option value="time">Time</option>
+        <option value="abstract">Abstract / sacred</option>
+        <option value="coptic">Coptic parallels</option>
+      </select>
+    </div>
+    <div>
+      <div class="check-row">
+        <input type="checkbox" id="reveal-only" />
+        <label for="reveal-only">🔑 <span class="lang-en">Revelations only</span><span class="lang-ar">الكَشوفات فَقَط</span></label>
+      </div>
+      <button class="btn-clear" onclick="clearFilters()"><span class="lang-en">Clear filters</span><span class="lang-ar">مَسح التَّصفِية</span></button>
+    </div>
+  </div>
+
+  <div class="results-info">
+    <span><span id="result-count">200</span> <span class="lang-en">of 200 entries</span><span class="lang-ar">مِن 200 مَدخَل</span></span>
+    <a href="#" class="csv-btn" onclick="downloadCSV(); return false;">⬇ <span class="lang-en">Download filtered as CSV</span><span class="lang-ar">تَنزيلُ المُصَفّى CSV</span></a>
+  </div>
+
+  <div class="table-wrap">
+    <table class="data" id="aa-table">
+      <thead>
+        <tr>
+          <th data-sort="id" style="width:50px;">#</th>
+          <th data-sort="ar"><span class="lang-en">Arabic</span><span class="lang-ar">العَرَبيّ</span></th>
+          <th data-sort="eg"><span class="lang-en">Egyptian</span><span class="lang-ar">المِصريّ</span></th>
+          <th data-sort="gloss"><span class="lang-en">Gloss</span><span class="lang-ar">المَعنى</span></th>
+          <th data-sort="cls"><span class="lang-en">Class · Shift</span><span class="lang-ar">التَّصنيف · الإبدال</span></th>
+          <th data-sort="verdict"><span class="lang-en">Verdict</span><span class="lang-ar">الحُكم</span></th>
+        </tr>
+      </thead>
+      <tbody id="aa-tbody"></tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    <span class="lang-en">→ Full per-entry framework reading + structural-revelations section: <a href="viewer.html?file=04-cross-linguistic/tier-a-afro-asiatic-cognates.md">tier-a-afro-asiatic-cognates.md</a> · Browse the IE roster at <a href="discoveries.html">discoveries.html</a></span>
+    <span class="lang-ar">← القِراءةُ الكامِلةُ لِكُلِّ مَدخَل + قِسمُ الكَشوفات البِنيَويّة: <a href="viewer.html?file=04-cross-linguistic/tier-a-afro-asiatic-cognates-ar.md">tier-a-afro-asiatic-cognates-ar.md</a> · تَصَفَّح روزنامة الهندوأوربيّ في <a href="discoveries.html">discoveries.html</a></span>
+  </div>
+</main>
+
+<script>
+// Data: all 200 Arabic ↔ Ancient-Egyptian entries.
+// Format: [id, ar, eg, gloss, cls, verdict, revelation_flag, category]
+const DATA = [
+  // Saidi seed (1-11)
+  [1, "سَخَّ / سَخْسَخَ", "sḫsḫ", "running, flow continuously", "reduplicated XYXY", "PERFECT", 0, "saidi"],
+  [2, "ذا / ذي / دي", "dy", "here, this", "bare binary", "PROTO-FAMILY", 0, "saidi"],
+  [3, "واسِع", "wsḫ (واسخ)", "wide, spread", "prefixed trilateral", "DUAL-FACE", 1, "saidi"],
+  [4, "جَعْجَعَ", "jʿjʿ", "dazzled, amazed", "reduplicated XYXY", "STRONG", 0, "saidi"],
+  [5, "بَطَّ / بَطَحَ", "bṭṭ", "flatten, press flat", "geminate XYY", "STRONG", 0, "saidi"],
+  [6, "مَقهور", "mqyr", "miserable, oppressed", "trilateral مَفعيل", "STRONG", 0, "saidi"],
+  [7, "رَوْد / رَوْض", "rwd / rwḏ", "stairway road, cleared path", "trilateral · dual-face on L3", "PERFECT", 1, "saidi"],
+  [8, "بان / أَبان", "wbn", "appear, shine forth", "prefixed bare-binary", "PERFECT", 0, "saidi"],
+  [9, "خَمَّ / خامَ", "ḫm", "callout, cheat", "bare binary", "STRONG", 1, "saidi"],
+  [10, "بس / بَسَّ", "bs", "if only, only, enough", "bare binary (particle)", "STRONG", 0, "saidi"],
+  [11, "جِسر", "jsr", "clear road, bridge, crossing", "trilateral", "PERFECT", 0, "saidi"],
+  // Body & senses (12-18)
+  [12, "عَين", "ʿn", "eye, source, spring", "bare binary · universal", "PERFECT", 0, "body"],
+  [13, "شَفة", "spt", "lip, edge, rim", "trilateral · ش↔s shift", "STRONG", 0, "body"],
+  [14, "لِسان", "ns", "tongue, language", "metathesis (l-s-n ↔ n-s)", "STRONG", 1, "body"],
+  [15, "سِنّ", "snt", "tooth, second, sister", "geminate/suffixed · polysemy proof", "STRONG", 1, "body"],
+  [16, "جانِب", "gs", "side, half, flank", "trilateral · ج↔g (Khshim L3)", "STRONG", 1, "body"],
+  [17, "حَيّ", "ʿnḫ", "alive, life", "trilateral · ح↔ʿ (Khshim L6)", "STRONG", 1, "body"],
+  [18, "سَمِع", "sḏm", "hear, listen, obey", "trilateral · ع↔ḏ cross-family", "STRONG", 1, "body"],
+  // Kinship (19-24)
+  [19, "مات", "mwt", "die, death", "trilateral · universal Afro-Asiatic", "PERFECT", 0, "kin"],
+  [20, "أُمّ", "mwt", "mother, source", "geminate/trilateral · same nucleus as 'die'", "PERFECT", 1, "kin"],
+  [21, "أَب", "jt / jtf", "father (parallel stems)", "bare binary · parallel stems", "PROVISIONAL", 0, "kin"],
+  [22, "أَخ", "sn", "brother (parallel stems)", "bare binary · parallel stems", "PROVISIONAL", 0, "kin"],
+  [23, "ذَكَر", "ḏd", "say, declare, mention, male", "trilateral/geminate · ذ↔ḏ exact", "STRONG", 0, "mind"],
+  [24, "ماء", "mw", "water", "bare binary · universal", "PERFECT", 0, "nature"],
+  // Motion (25-28)
+  [25, "جاء", "jy / jw / ii", "come, arrive", "bare binary", "PERFECT", 0, "motion"],
+  [26, "أَتى", "iti", "come, take, bring", "bare binary", "STRONG", 0, "motion"],
+  [27, "شَدّ", "šdj", "pull, draw, raise, recite", "geminate/trilateral", "STRONG", 0, "action"],
+  [28, "هَوى", "hꜣy", "fall, descend, alight, love", "trilateral", "STRONG", 0, "motion"],
+  // Speech & mind (29-32)
+  [29, "حَكَم / حِكمة", "ḥkꜣ", "wisdom, judge, magic", "trilateral", "STRONG", 0, "mind"],
+  [30, "حَطّ", "ḥtp", "settle, rest, contented, offerings", "geminate/trilateral · ح-ط preserved", "STRONG", 1, "abstract"],
+  [31, "شَمّ", "sn", "smell, kiss", "geminate · ش↔s + م↔n double shift", "STRONG", 0, "body"],
+  [32, "شَرِب", "swr", "drink", "trilateral · ش↔s", "STRONG", 0, "action"],
+  // Building/work (33-36)
+  [33, "قَدِم / قَديم", "qd", "ancient, build, form, advance", "trilateral · q-d exact", "STRONG", 0, "action"],
+  [34, "خَطّ", "ḫt", "line, wood, thing, marked-stick", "geminate/bare-binary", "STRONG", 0, "abstract"],
+  [35, "سَمير", "smr", "companion, courtier", "trilateral · exact 3-consonant match", "PERFECT", 0, "kin"],
+  [36, "عَبد", "bꜣk", "servant (parallel stems)", "parallel servant-stems", "PARTIAL", 0, "kin"],
+  // Light/see/know (37-40)
+  [37, "شَفّ", "ssp", "see through, receive light", "geminate · ش↔s", "STRONG", 0, "mind"],
+  [38, "سَتَر", "sḏr", "cover, conceal, lie down for night", "trilateral · ت↔ḏ", "STRONG", 0, "action"],
+  [39, "نَفيس / نَفَر", "nfr", "good, beautiful, perfect, fine", "trilateral · exact match · Nefertiti root", "STRONG", 0, "adj"],
+  [40, "شَهَر", "sḫr", "make known, manifest, plan, the month", "trilateral · ش↔s · ه↔ḫ", "STRONG", 0, "abstract"],
+  // Pronouns & function (41-46)
+  [41, "نَحنُ", "jn-n", "we (1pl)", "nasal pronoun stem · universal", "PROTO-FAMILY", 0, "pronoun"],
+  [42, "أَنتَ", "ntk", "you (2sg masc)", "n+t pronoun stem · universal", "PROTO-FAMILY", 0, "pronoun"],
+  [43, "مِن", "m", "from, in, with, by", "single-letter preposition · universal", "PROTO-FAMILY", 0, "prep"],
+  [44, "لا / ما / لن", "n (neg)", "not (negation)", "negation particle · parallel stems", "PROTO-FAMILY", 0, "prep"],
+  [45, "كَذا / كذلك", "kꜣ", "thus, like this", "k-stem demonstrative", "STRONG", 0, "pronoun"],
+  [46, "بس", "bw", "only, just, place (cross-link #10)", "b-stem restrictive", "STRONG", 0, "prep"],
+  // Saidi extras (47-50)
+  [47, "شَفَع", "sp", "double, intercede, occasion", "trilateral/bare-binary · ش↔s", "STRONG", 0, "action"],
+  [48, "شَنّ", "šn", "surround, encircle (shen-ring)", "geminate · exact match", "STRONG", 0, "action"],
+  [49, "وَجَد", "wḏ", "find, decree, set forth", "trilateral/bare-binary", "STRONG", 0, "action"],
+  [50, "حَمَل", "wḥm", "carry-again, bear, repeat", "trilateral · partial alignment", "STRONG", 0, "action"],
+  // Numbers (51-53)
+  [51, "اثنان / ثاني", "snw", "two, second", "trilateral · ث↔s · snt polysemy", "STRONG", 1, "abstract"],
+  [52, "ستّ", "sjsw", "six", "geminate · sibilant exact match", "STRONG", 0, "abstract"],
+  [53, "سَبع", "sfḫw", "seven", "trilateral · ب↔f (Khshim L9)", "STRONG", 0, "abstract"],
+  // Body extended (54-67)
+  [54, "أَنف", "fnḏ", "nose", "trilateral · metathesis (ʾ-n-f ↔ f-n-ḏ)", "STRONG", 1, "body"],
+  [55, "أُذُن", "msḏr", "ear (parallel stems)", "parallel ear-stems", "PROVISIONAL", 0, "body"],
+  [56, "رَأس", "tp", "head, top (parallel stems)", "parallel head-stems", "PROVISIONAL", 0, "body"],
+  [57, "شَعر", "šnj", "hair", "trilateral · sibilant alignment", "STRONG", 0, "body"],
+  [58, "إِصبَع", "ḏbʿ", "finger", "trilateral · ع shared exactly across family", "STRONG", 1, "body"],
+  [59, "قَدَم / رِجل", "rd", "foot, leg", "bare binary · r-d shared", "STRONG", 0, "body"],
+  [60, "ظَهر", "psḏ", "back, spine", "parallel back-stems", "PROVISIONAL", 0, "body"],
+  [61, "صَدر", "šnbt", "chest", "parallel chest-stems", "PROVISIONAL", 0, "body"],
+  [62, "بَطن", "ẖt", "belly, womb, interior", "warm interior shared", "STRONG", 0, "body"],
+  [63, "قَلب", "jb", "heart (parallel stems)", "parallel heart-stems", "PROVISIONAL", 0, "body"],
+  [64, "دَم", "snf", "blood (parallel stems)", "parallel blood-stems", "PROVISIONAL", 0, "body"],
+  [65, "كَفّ", "ḏrt", "palm, hand (parallel stems)", "parallel hand-stems", "PROVISIONAL", 0, "body"],
+  [66, "عَظم", "qs", "bone (parallel stems)", "parallel bone-stems", "PROVISIONAL", 0, "body"],
+  [67, "لَحم", "jwf", "flesh, meat (parallel stems)", "parallel flesh-stems", "PROVISIONAL", 0, "body"],
+  // Kinship extended (68-73)
+  [68, "ابن", "sꜣ", "son (parallel stems)", "parallel son-stems", "PROVISIONAL", 0, "kin"],
+  [69, "بِنت", "sꜣt", "daughter", "feminine of #68", "PROVISIONAL", 0, "kin"],
+  [70, "أُخت", "snt", "sister (polysemy with tooth/second)", "snt three-meaning polysemy", "STRONG", 1, "kin"],
+  [71, "زَوج / امرأة", "ḥmt", "wife", "parallel wife-stems", "PROVISIONAL", 0, "kin"],
+  [72, "عَمّ / خال", "jt", "uncle (Egyptian uses jt broadly)", "parallel uncle-stems", "PROVISIONAL", 0, "kin"],
+  [73, "جَدّ", "jt-jt", "grandfather (Egyptian doubles father)", "doubled father stem", "PROVISIONAL", 0, "kin"],
+  // Pronouns extended (74-78)
+  [74, "أَنا", "jnk", "I (1sg)", "nasal pronoun stem · universal", "PROTO-FAMILY", 0, "pronoun"],
+  [75, "أَنتُم", "ṯn", "you (2pl)", "n+t pronoun stem (plural)", "PROTO-FAMILY", 0, "pronoun"],
+  [76, "هُو", "sw", "he (parallel stems)", "parallel 3sg-masc stems", "PROVISIONAL", 0, "pronoun"],
+  [77, "هي", "sj", "she (parallel stems)", "parallel 3sg-fem stems", "PROVISIONAL", 0, "pronoun"],
+  [78, "هَذا", "pꜣ", "this (proximal demonstrative)", "parallel demonstrative function", "STRONG", 0, "pronoun"],
+  // Prepositions extended (79-86)
+  [79, "إلى", "r", "to, towards", "parallel directional preposition", "PROVISIONAL", 0, "prep"],
+  [80, "عَلى", "ḥr", "on, upon (Hebrew עַל matches)", "parallel upper-surface stems", "STRONG", 1, "prep"],
+  [81, "تَحت", "ẖr", "under, beneath", "r-element anchor shared", "STRONG", 0, "prep"],
+  [82, "مَع", "ḥnʿ", "with (ع shared)", "ʿ-shared 'with'-preposition", "STRONG", 1, "prep"],
+  [83, "لِـ", "n", "for, to (dative)", "dative marker · l/n alternation", "PROTO-FAMILY", 0, "prep"],
+  [84, "عِندَ", "m-ʿ", "at, by, with", "locative-with from depth-grip + gathering", "STRONG", 0, "prep"],
+  [85, "قَبل", "r-ḥꜣt", "before", "parallel 'at-the-front' constructions", "PROVISIONAL", 0, "prep"],
+  [86, "بَعد", "m-ḫt", "after", "parallel 'following-behind' constructions", "PROVISIONAL", 0, "prep"],
+  // Motion verbs (87-96)
+  [87, "مَشى", "šm", "walk, go", "bare binary/trilateral · ش↔š", "STRONG", 1, "motion"],
+  [88, "ذَهَب", "šm / ḫd", "go (parallel stems)", "parallel go-stems", "PROVISIONAL", 0, "motion"],
+  [89, "وَقَفَ", "ʿḥʿ", "stand", "firm-warm-anchored standing", "PARTIAL", 0, "motion"],
+  [90, "جَلَس", "ḥmsj", "sit, dwell", "exact ḥ-m-s 3-consonant match", "STRONG", 1, "motion"],
+  [91, "نام", "sḏr", "sleep, lie down for night", "cross-link to #38 سَتَر", "STRONG", 0, "motion"],
+  [92, "هَرَب", "rwj", "flee", "r-running anchor shared", "PARTIAL", 0, "motion"],
+  [93, "صَعِد", "prj", "go up, ascend", "same root family as #25 جاء", "STRONG", 0, "motion"],
+  [94, "نَزَل", "hꜣy", "descend (cross-link #28)", "same root as هَوى", "PERFECT", 0, "motion"],
+  [95, "سَبَح", "nbi", "swim, float", "n+b body-through-water seed", "STRONG", 1, "motion"],
+  [96, "طار", "pꜣ / ꜣpd", "fly (parallel stems)", "parallel fly-stems", "PARTIAL", 0, "motion"],
+  // Action verbs (97-116)
+  [97, "أَكَل", "wnm", "eat (parallel stems)", "parallel eat-stems", "PROVISIONAL", 0, "action"],
+  [98, "خَلَق", "qmꜣ", "create, fashion (parallel)", "parallel creation-stems · firm-formed", "PARTIAL", 1, "action"],
+  [99, "فَتَح", "wn", "open", "parallel opening-up semantic", "PROVISIONAL", 0, "action"],
+  [100, "خَتَم", "ḫtm", "seal, shut, conclude", "trilateral · exact ḫ-t-m match", "PERFECT", 1, "action"],
+  [101, "هَدَم", "sḫd", "demolish, overturn", "parallel destruction-stem", "PARTIAL", 0, "action"],
+  [102, "ضَرَب", "ḥwj", "strike, hit", "parallel impact-stems", "PROVISIONAL", 0, "action"],
+  [103, "قَتَل", "smꜣ", "kill", "parallel kill-stems", "PROVISIONAL", 0, "action"],
+  [104, "أَخَذ", "nḥm", "take, save, deliver", "parallel taking-stems", "PROVISIONAL", 0, "action"],
+  [105, "أَعطى", "rdj", "give (parallel stems)", "parallel giving-stems", "PROVISIONAL", 0, "action"],
+  [106, "زَرَع", "sty", "sow, plant", "parallel sowing-stems", "PROVISIONAL", 0, "action"],
+  [107, "حَصَد", "šwj", "reap, harvest (parallel)", "parallel harvest-stems", "PROVISIONAL", 0, "action"],
+  [108, "طَحَن", "nḏ", "grind, crush, consult", "parallel grinding-stems", "PROVISIONAL", 0, "action"],
+  [109, "عَجَن", "pgs", "knead dough", "parallel kneading-stems", "PROVISIONAL", 0, "action"],
+  [110, "سَكَنَ", "ḥmsj", "dwell, reside (cross-link #90)", "same ḥ-m-s dwelling stem", "STRONG", 0, "motion"],
+  [111, "شَفى", "snb", "heal, make whole, be healthy", "trilateral · health s-n base", "STRONG", 1, "action"],
+  [112, "مَرِض", "mr", "be sick, suffer, pain", "trilateral · exact m-r · same seed as love", "STRONG", 1, "abstract"],
+  [113, "غَسَل", "jʿj", "wash (parallel stems)", "parallel washing-stems", "PROVISIONAL", 0, "action"],
+  [114, "لَبِس", "ḥbs", "wear, clothe, cover", "trilateral · b-s clothing-stem with ل/ḥ variant", "STRONG", 1, "action"],
+  [115, "باع", "swn", "sell, exchange (parallel)", "parallel exchange-stems", "PROVISIONAL", 0, "action"],
+  [116, "اشتَرى", "šꜣm", "buy, acquire (parallel)", "parallel acquisition-stems", "PROVISIONAL", 0, "action"],
+  // Cognition (117-126)
+  [117, "عَلِم", "rḫ", "know (parallel stems)", "parallel knowledge-stems", "PROVISIONAL", 0, "mind"],
+  [118, "ذَكَر / تَذَكَّر", "sḫꜣ", "remember", "trilateral · s+ḫ memory base", "STRONG", 1, "mind"],
+  [119, "نَسي", "smḫ", "forget", "parallel s-m forgetting-stems", "STRONG", 1, "mind"],
+  [120, "فَكَّر", "kꜣy", "think, plan (parallel)", "parallel thinking-stems", "PROVISIONAL", 0, "mind"],
+  [121, "آمَن", "mn", "believe, be steadfast (the 'amen' root)", "bare-binary · exact m-n match · Hebrew אמן", "STRONG", 1, "mind"],
+  [122, "شَكَّ", "sḫꜣy", "doubt", "parallel s-ḫ doubt-stems", "PROVISIONAL", 0, "mind"],
+  [123, "أَحَبَّ", "mrj", "love (same seed as #112 مَرِض)", "trilateral · m-r love-pain shared nucleus", "STRONG", 1, "mind"],
+  [124, "كَرِه", "msḏj", "hate", "parallel m-s hatred-stems", "STRONG", 0, "mind"],
+  [125, "خاف", "snḏ", "fear", "parallel s-n fear-stems · Arabic سَكَن also", "STRONG", 1, "mind"],
+  [126, "رَجا", "ḫꜣ", "hope (parallel stems)", "parallel hope-stems", "PROVISIONAL", 0, "mind"],
+  // Adjectives (127-136)
+  [127, "كَبير", "ʿꜣ", "great, big (parallel)", "parallel intensity-stems", "PROVISIONAL", 0, "adj"],
+  [128, "صَغير", "šri / nḏs", "small (parallel)", "parallel smallness-stems", "PROVISIONAL", 0, "adj"],
+  [129, "طَويل", "qꜣ", "tall, long (parallel)", "parallel height-stems", "PROVISIONAL", 0, "adj"],
+  [130, "قَصير", "šri", "short (parallel)", "parallel shortness-stems", "PROVISIONAL", 0, "adj"],
+  [131, "ثَقيل", "dns", "heavy (parallel)", "parallel weight-stems", "PROVISIONAL", 0, "adj"],
+  [132, "خَفيف", "ḫf", "light-weight, quick, swift", "geminate · exact x-f match", "STRONG", 1, "adj"],
+  [133, "حارّ", "šmm", "hot (parallel)", "parallel heat-pulse stems", "PROVISIONAL", 0, "adj"],
+  [134, "بارِد", "qbh", "cold, cool", "Arabic قَبَّ matches", "STRONG", 0, "adj"],
+  [135, "صُلب", "rwḏ", "firm, hard (parallel)", "parallel firmness-stems", "PROVISIONAL", 0, "adj"],
+  [136, "جَديد", "mꜣwy", "new (parallel)", "parallel newness-stems", "PROVISIONAL", 0, "adj"],
+  // Nature (137-146)
+  [137, "قَمَر", "jʿḥ", "moon", "ʿ-shared in family moon-word", "PARTIAL", 1, "nature"],
+  [138, "أَرض", "jꜣt / tꜣ", "earth, land (parallel)", "parallel earth-stems", "PROVISIONAL", 0, "nature"],
+  [139, "حَجَر", "jnr", "stone (parallel)", "parallel stone-stems", "PROVISIONAL", 0, "nature"],
+  [140, "جَبَل", "ḏw", "mountain (parallel)", "parallel mountain-stems", "PROVISIONAL", 0, "nature"],
+  [141, "بَحر / يَمّ", "yam (Coptic ⲓⲟⲙ)", "sea, ocean (Hebrew יָם)", "cross-family universal sea-stem", "STRONG", 1, "nature"],
+  [142, "نَهر", "jtrw", "river (parallel)", "parallel river-stems", "PROVISIONAL", 0, "nature"],
+  [143, "ريح", "ṯꜣw", "wind (parallel)", "parallel wind-stems", "PROVISIONAL", 0, "nature"],
+  [144, "نار", "sḏt", "fire (parallel)", "parallel fire-stems", "PROVISIONAL", 0, "nature"],
+  [145, "شَجَر", "ḫt", "tree, wood (cross-link #34 خَطّ)", "shared ḫt 'wood/thing' stem", "STRONG", 0, "nature"],
+  [146, "زَهر", "sšn", "flower, lotus (partial)", "partial sibilant alignment", "PROVISIONAL", 0, "nature"],
+  // Time (147-151)
+  [147, "صَباح", "dwꜣ", "morning, dawn", "d-w morning-stem partial", "PARTIAL", 1, "time"],
+  [148, "مَساء", "mšrw", "evening, dusk", "m+r evening stem", "STRONG", 0, "time"],
+  [149, "سَنة", "rnp.t", "year (partial)", "partial r-n year-stem", "PROVISIONAL", 0, "time"],
+  [150, "وَقت", "tr", "time, season", "t-r time-stem family-wide", "STRONG", 0, "time"],
+  [151, "أَوَّل", "tpj", "first (top-stem)", "parallel 'top→first' semantic path", "STRONG", 0, "time"],
+  // Abstract & sacred (152-161)
+  [152, "حَقّ", "mꜣʿt", "truth, justice (Maat)", "parallel truth-stems", "PROVISIONAL", 0, "abstract"],
+  [153, "خَير", "nfr", "good, beautiful (cross-link #39)", "shared n-f-r stem", "STRONG", 0, "adj"],
+  [154, "شَرّ", "bjn", "bad, evil (parallel)", "parallel evil-stems", "PROVISIONAL", 0, "abstract"],
+  [155, "قُوّة", "wsr", "strength, mighty", "partial w-initial power-stems", "PARTIAL", 0, "abstract"],
+  [156, "سَلام", "ḥtp", "peace, satisfaction (cross-link #30)", "shared حَطّ/ḥtp rest-as-peace", "STRONG", 0, "abstract"],
+  [157, "حِكمة", "ḥkꜣ", "wisdom, magic (cross-link #29)", "shared ḥ-k wisdom-stem", "STRONG", 0, "abstract"],
+  [158, "جَهل", "ḫm", "ignorance (same nucleus as #9 خم cheat)", "ḫm dual-face: ignorance + cheat on one seed", "STRONG", 1, "mind"],
+  [159, "إله", "nṯr", "god (parallel stems)", "parallel divinity-stems", "PROVISIONAL", 0, "abstract"],
+  [160, "روح", "šwt", "spirit, breath-of-life (parallel)", "parallel spirit-stems", "PROVISIONAL", 0, "abstract"],
+  [161, "نَفس", "nfsw (Coptic ⲛⲓϥⲉ)", "soul, breath, self", "trilateral · n-f-s exact match across family", "PERFECT", 1, "abstract"],
+  // Saidi/colloquial (162-185)
+  [162, "سَكّ", "sk", "rub, sweep, dust, mint", "geminate · س-ك exact", "STRONG", 0, "action"],
+  [163, "شَنَف / شَنَّف", "šnf", "be angry, frown, dislike", "trilateral · exact š-n-f match", "STRONG", 0, "mind"],
+  [164, "سَفَر", "sfr", "depart, travel", "trilateral · exact s-f-r match", "STRONG", 0, "motion"],
+  [165, "قَطَع", "qd", "cut, sever (cross-link #33)", "shared q-cutting face of قَدِم", "STRONG", 0, "action"],
+  [166, "شَلّ", "šlj", "weaken, paralyse", "partial weakening-stems", "PARTIAL", 0, "action"],
+  [167, "هَجَر", "hꜣr", "abandon, leave", "h-r exact match", "STRONG", 0, "action"],
+  [168, "عَدَّ", "jp", "count, reckon (parallel)", "parallel counting-stems", "PROVISIONAL", 0, "action"],
+  [169, "قَرَأ", "šd", "read, recite (cross-link #27)", "shared šd recitation-drawing-forth", "STRONG", 0, "mind"],
+  [170, "كَتَب", "sšw", "write, scribe (parallel)", "parallel writing-stems", "PROVISIONAL", 0, "action"],
+  [171, "رَسَم", "ssp", "draw, depict (partial)", "partial light-receiving share", "PROVISIONAL", 0, "action"],
+  [172, "غَنّى", "ḥsj", "sing, praise (parallel)", "parallel singing-stems", "PROVISIONAL", 0, "action"],
+  [173, "رَقَص", "ḫbj", "dance (parallel)", "parallel dance-stems", "PROVISIONAL", 0, "action"],
+  [174, "لَعِب", "swt", "play (parallel)", "parallel play-stems", "PROVISIONAL", 0, "action"],
+  [175, "مَلَك", "nswt", "king (parallel)", "parallel king-stems", "PROVISIONAL", 0, "abstract"],
+  [176, "وَزير", "ṯꜣty", "vizier (Persian loanword in Arabic)", "skip — loanword", "PROVISIONAL", 0, "abstract"],
+  [177, "عَبد", "bꜣk", "servant (cross-link #36)", "parallel servant-stems", "PARTIAL", 0, "kin"],
+  [178, "حُرّ", "nmḥ", "free (parallel)", "parallel freedom-stems", "PROVISIONAL", 0, "abstract"],
+  [179, "ذَهَب", "nbw", "gold (parallel)", "parallel gold-stems", "PROVISIONAL", 0, "nature"],
+  [180, "فِضّة", "ḥḏ", "silver (parallel)", "parallel silver-stems", "PROVISIONAL", 0, "nature"],
+  [181, "نُحاس", "ḥmt", "copper (parallel)", "parallel copper-stems", "PROVISIONAL", 0, "nature"],
+  [182, "حَديد", "bjꜣ", "iron (parallel)", "parallel iron-stems", "PROVISIONAL", 0, "nature"],
+  [183, "خُبز", "t", "bread (Egyptian t-loaf)", "parallel bread-stems", "PROVISIONAL", 0, "nature"],
+  [184, "زَيت / مَرَّخ", "mrḥt (Coptic ⲙⲣⲉϩⲏⲧ)", "oil, fat", "partial m-r-based oil-stems", "PARTIAL", 0, "nature"],
+  [185, "عَيش / خُبز", "ʿqw (Coptic ⲱⲓⲕ)", "bread, life-sustenance", "ع-shared family bread-stem · 'bread=life'", "STRONG", 1, "nature"],
+  // Coptic parallels (186-200)
+  [186, "مَوضِع", "ⲙⲁ (ma)", "place, where (cross-link #43)", "shared m-binary place-marker", "STRONG", 0, "coptic"],
+  [187, "جَنَّة", "ⲕⲛⲏ / ḥsp", "garden (parallel)", "parallel garden-stems", "PROVISIONAL", 0, "coptic"],
+  [188, "زَيت", "ⲛⲉϩ", "oil (different from #184)", "parallel oil-stems", "PROVISIONAL", 0, "coptic"],
+  [189, "شَمس", "ⲣⲏ (Re/Ra)", "sun (parallel)", "parallel sun-stems", "PROVISIONAL", 0, "coptic"],
+  [190, "سُنبُل", "ⲥⲙⲏ", "voice/grain (parallel)", "parallel grain-stems", "PROVISIONAL", 0, "coptic"],
+  [191, "شَيخ", "ⲓⲙⲁⲩ", "elder (parallel)", "parallel elder-stems", "PROVISIONAL", 0, "coptic"],
+  [192, "سَوْط", "ⲥⲱⲧ", "whip, lash (parallel)", "parallel whip-stems", "PROVISIONAL", 0, "coptic"],
+  [193, "أَمير", "ⲁⲙⲓⲣⲉ", "prince/commander (parallel)", "parallel rule-stems", "PROVISIONAL", 0, "coptic"],
+  [194, "سَوّى", "ⲥⲱ", "equal, level (partial)", "partial equalisation-stems", "PROVISIONAL", 0, "coptic"],
+  [195, "سَلام", "ⲉⲓⲣⲏⲛⲏ", "Greek loanword in Coptic — skip", "Greek loanword", "PROVISIONAL", 0, "coptic"],
+  [196, "زَوج / مَرة", "ⲥϩⲓⲙⲉ", "wife (parallel)", "parallel wife-stems", "PROVISIONAL", 0, "coptic"],
+  [197, "طَير", "ϩⲁⲗⲏⲧ", "bird (parallel)", "parallel bird-stems", "PROVISIONAL", 0, "coptic"],
+  [198, "شَرِب", "ⲥⲱ (drink)", "drink (cross-link #32)", "same Coptic drink-stem as Arabic شَرِب", "STRONG", 0, "coptic"],
+  [199, "أَخَذ / جا", "ϫⲓ", "take (Coptic ji)", "bare-binary partial", "PARTIAL", 0, "coptic"],
+  [200, "سَكَنَ", "ⲟⲩⲱϩ", "dwell (cross-link #90, #110)", "shared dwelling-stem", "STRONG", 0, "motion"],
+];
+
+// State
+let state = {
+  search: '',
+  verdict: '',
+  cat: '',
+  revealOnly: false,
+  sortBy: 'id',
+  sortDir: 'asc',
+};
+
+// Read URL params on load
+function readURL() {
+  const p = new URLSearchParams(window.location.search);
+  state.search = p.get('q') || '';
+  state.verdict = p.get('v') || '';
+  state.cat = p.get('c') || '';
+  state.revealOnly = p.get('rev') === '1';
+  state.sortBy = p.get('sort') || 'id';
+  state.sortDir = p.get('dir') === 'desc' ? 'desc' : 'asc';
+
+  document.getElementById('search').value = state.search;
+  document.getElementById('verdict').value = state.verdict;
+  document.getElementById('cat').value = state.cat;
+  document.getElementById('reveal-only').checked = state.revealOnly;
+}
+
+// Write URL params (debounced)
+let urlTimer = null;
+function writeURL() {
+  clearTimeout(urlTimer);
+  urlTimer = setTimeout(() => {
+    const p = new URLSearchParams();
+    if (state.search) p.set('q', state.search);
+    if (state.verdict) p.set('v', state.verdict);
+    if (state.cat) p.set('c', state.cat);
+    if (state.revealOnly) p.set('rev', '1');
+    if (state.sortBy !== 'id' || state.sortDir !== 'asc') {
+      p.set('sort', state.sortBy);
+      p.set('dir', state.sortDir);
+    }
+    const qs = p.toString();
+    const newURL = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+    history.replaceState(null, '', newURL);
+  }, 250);
+}
+
+function getFilteredData() {
+  let rows = DATA.slice();
+  const q = state.search.trim().toLowerCase();
+  if (q) {
+    rows = rows.filter(r => {
+      const hay = (r[1] + ' ' + r[2] + ' ' + r[3] + ' ' + r[4]).toLowerCase();
+      return hay.includes(q);
+    });
+  }
+  if (state.verdict) rows = rows.filter(r => r[5] === state.verdict);
+  if (state.cat) rows = rows.filter(r => r[7] === state.cat);
+  if (state.revealOnly) rows = rows.filter(r => r[6] === 1);
+
+  // Sort
+  const sortIdx = { id: 0, ar: 1, eg: 2, gloss: 3, cls: 4, verdict: 5 }[state.sortBy];
+  rows.sort((a, b) => {
+    let va = a[sortIdx], vb = b[sortIdx];
+    if (typeof va === 'string') va = va.toLowerCase();
+    if (typeof vb === 'string') vb = vb.toLowerCase();
+    if (va < vb) return state.sortDir === 'asc' ? -1 : 1;
+    if (va > vb) return state.sortDir === 'asc' ? 1 : -1;
+    return 0;
+  });
+  return rows;
+}
+
+function badgeFor(v) {
+  const cls = {
+    'PERFECT': 'badge-perfect',
+    'PROTO-FAMILY': 'badge-proto',
+    'STRONG': 'badge-strong',
+    'DUAL-FACE': 'badge-dual',
+    'PARTIAL': 'badge-partial',
+    'PROVISIONAL': 'badge-provisional',
+  }[v] || 'badge-provisional';
+  return `<span class="badge ${cls}">${v}</span>`;
+}
+
+function render() {
+  const rows = getFilteredData();
+  const tbody = document.getElementById('aa-tbody');
+  if (rows.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="6" class="empty"><span class="lang-en">No entries match your filters.</span><span class="lang-ar">لا مَداخِل تُطابِق التَّصفِية.</span></td></tr>`;
+  } else {
+    tbody.innerHTML = rows.map(r => {
+      const rev = r[6] === 1 ? ' <span class="rev-flag" title="Structural revelation">🔑</span>' : '';
+      return `<tr>
+        <td class="cell-id">${r[0]}</td>
+        <td class="cell-letter">${r[1]}${rev}</td>
+        <td><em>${r[2]}</em></td>
+        <td>${r[3]}</td>
+        <td style="color:var(--text-3);font-size:13px;">${r[4]}</td>
+        <td>${badgeFor(r[5])}</td>
+      </tr>`;
+    }).join('');
+  }
+  document.getElementById('result-count').textContent = rows.length;
+
+  // Update sort indicators
+  document.querySelectorAll('th[data-sort]').forEach(th => {
+    th.querySelector('.sort-ind')?.remove();
+    if (th.dataset.sort === state.sortBy) {
+      const ind = document.createElement('span');
+      ind.className = 'sort-ind';
+      ind.textContent = state.sortDir === 'asc' ? '▲' : '▼';
+      th.appendChild(ind);
+    }
+  });
+
+  writeURL();
+}
+
+function clearFilters() {
+  state = { search: '', verdict: '', cat: '', revealOnly: false, sortBy: 'id', sortDir: 'asc' };
+  document.getElementById('search').value = '';
+  document.getElementById('verdict').value = '';
+  document.getElementById('cat').value = '';
+  document.getElementById('reveal-only').checked = false;
+  render();
+}
+
+function downloadCSV() {
+  const rows = getFilteredData();
+  const header = ['id', 'arabic', 'egyptian', 'gloss', 'class', 'verdict', 'revelation', 'category'];
+  const lines = [header.join(',')];
+  for (const r of rows) {
+    const escaped = r.map(c => {
+      const s = String(c);
+      return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+    });
+    lines.push(escaped.join(','));
+  }
+  const csv = '﻿' + lines.join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'juthoor-afro-asiatic-cognates.csv';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// Wire events
+document.getElementById('search').addEventListener('input', (e) => { state.search = e.target.value; render(); });
+document.getElementById('verdict').addEventListener('change', (e) => { state.verdict = e.target.value; render(); });
+document.getElementById('cat').addEventListener('change', (e) => { state.cat = e.target.value; render(); });
+document.getElementById('reveal-only').addEventListener('change', (e) => { state.revealOnly = e.target.checked; render(); });
+document.querySelectorAll('th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const newSort = th.dataset.sort;
+    if (state.sortBy === newSort) {
+      state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+    } else {
+      state.sortBy = newSort;
+      state.sortDir = 'asc';
+    }
+    render();
+  });
+});
+
+// Stat-click shortcuts
+document.querySelectorAll('.stat[data-verdict-stat]').forEach(el => {
+  el.style.cursor = 'pointer';
+  el.addEventListener('click', () => {
+    state.verdict = el.dataset.verdictStat;
+    document.getElementById('verdict').value = state.verdict;
+    render();
+  });
+});
+
+// Lang + theme
+function setLang(l) {
+  document.documentElement.setAttribute('data-lang', l);
+  document.documentElement.setAttribute('lang', l);
+  document.documentElement.setAttribute('dir', l === 'ar' ? 'rtl' : 'ltr');
+  try { localStorage.setItem('juthoor-lang', l); } catch (e) {}
+  updateLangButtons();
+}
+function updateLangButtons() {
+  const l = document.documentElement.getAttribute('data-lang') || 'en';
+  document.getElementById('lang-en').classList.toggle('active', l === 'en');
+  document.getElementById('lang-ar').classList.toggle('active', l === 'ar');
+}
+function toggleTheme() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const next = cur === 'dark' ? null : 'dark';
+  if (next) document.documentElement.setAttribute('data-theme', 'dark');
+  else document.documentElement.removeAttribute('data-theme');
+  try { localStorage.setItem('aratongue-theme', next || 'light'); } catch (e) {}
+  document.getElementById('theme-btn').textContent = next === 'dark' ? '☀' : '🌙';
+}
+
+// Init
+readURL();
+updateLangButtons();
+if (document.documentElement.getAttribute('data-theme') === 'dark') {
+  document.getElementById('theme-btn').textContent = '☀';
+}
+render();
+</script>
+
+</body>
+</html>
