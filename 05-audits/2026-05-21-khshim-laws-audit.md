@@ -67,6 +67,22 @@ These are substitution patterns observed in classical Arabic ↔ IE comparative 
 - **0 of 9 canonical laws** score above the pool baseline (0.734) on their firing subsets — meaning law-supported matches tend to be stronger.
 - **Highest-firing extra pattern (potential tenth law):** `X6` ش ↔ S/SH/X, firing in 72 pairs (9.4%) with mean score 0.732.
 
+## The same shifts also operate inside Afro-Asiatic
+
+The nine laws Khshim catalogued were derived from comparing Arabic to *distant* Indo-European descendants (Greek, Latin, etc.). The natural question: do these same articulator-class shifts also operate *inside* the Afro-Asiatic family, between Arabic and its closest relatives?
+
+The 2026-05-24 [Tier-A Afro-Asiatic audit](../04-cross-linguistic/tier-a-afro-asiatic-cognates.md) of 200 Arabic ↔ Ancient-Egyptian pairs answers: **yes, the same articulator-class logic applies**. Specifically:
+
+| Khshim's law (IE direction) | Same shift inside Afro-Asiatic (Arabic ↔ Egyptian) |
+|---|---|
+| L3 ج ↔ K/G (palatal-velar) | جانِب ↔ *gs* "side" — Egyptian Arabic still pronounces ج as /g/ |
+| L6 ع/ح/غ ↔ H/Ø/G (pharyngeals) | حَيّ ↔ *ʿnḫ* "life" (ح ↔ ʿ); سَمِع ↔ *sḏm* "hear" (ع ↔ ḏ throat-shift) |
+| L7 sibilants (س/ز/ش/ص/ث) | شَفة ↔ *spt* "lip" (ش ↔ s); شَرِب ↔ *swr* "drink"; شَمّ ↔ *sn* "smell" |
+| L9 labials (ب/م/ف/و) | سَبع ↔ *sfḫ* "seven" (ب ↔ f); سَخسَخ ↔ *sḫsḫ* "run" (م ↔ Ø) |
+| X1 ط ↔ T (dental-emphatic) | رود ↔ روض as a dual-face L3 shift (د ↔ ض, same dental-emphatic family) |
+
+**This is the deeper finding the proposed tenth law makes explicit:** what Khshim documented as a *cross-family* sound-correspondence between Arabic and IE is also an *intra-family* dual-face rule that operates between Arabic and its closer Afro-Asiatic relatives. The framework's universal-dual-face logic — built originally to read trilateral roots inside Arabic — generalises across the entire family without modification. See the [structural-revelations section of the Tier-A AA audit](../04-cross-linguistic/tier-a-afro-asiatic-cognates.md#structural-revelations-the-scale-up-uncovered) for the full collection of cases.
+
 ## What this audit settles
 
 1. **The canonical nine fire frequently in real cognate data**, not just in textbook examples. The four-bar rubric's first bar (skeleton match under Khshim's laws) is empirically well-grounded.
