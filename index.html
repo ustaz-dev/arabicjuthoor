@@ -566,6 +566,17 @@ h3.sub-title {
   display: grid; gap: 18px;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
+/* For the discoveries panel: force a balanced 3×3 layout on desktop
+   so the 9 cards never leave an orphan in the last row */
+#discoveries-panel .cards-grid {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  #discoveries-panel .cards-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1040px) {
+  #discoveries-panel .cards-grid { grid-template-columns: repeat(3, 1fr); }
+}
 .card-icon {
   width: 38px; height: 38px; border-radius: 8px;
   background: var(--accent-bg); color: var(--accent-strong);
@@ -1114,10 +1125,10 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
   </figure>
 
   <p class="hero-tagline lang-en">
-    <strong>The human mouth shapes meaning in ways that radiate outward from family distance</strong> — clear and clean inside Arabic's Afro-Asiatic family (Egyptian, Hebrew, Aramaic, Ge'ez), faint but real even into Indo-European (Greek, Latin, Old English, Norse). This study tests that idea on 2,285 Arabic roots, 200 Ancient-Egyptian cognates, and 770 candidate IE pairs — with predictions registered in advance and the framework reading each one from first principles.
+    Arabic letters are not empty sounds. Each one carries a meaning-charge drawn from how the mouth makes it — and roots are built by combining those charges in eleven specific ways. This study tests that idea across the whole language, and follows its echoes into Hebrew, Egyptian, Greek, Latin and beyond.
   </p>
   <p class="hero-tagline lang-ar">
-    <strong>الفَمُ البَشَريّ يُشَكِّل المَعنى بِطُرُقٍ تَنبَعِث مِن قَلب الأُسرة إلى أَطرافِها</strong> — صافِيةً نَظيفةً داخِلَ أُسرة العَرَبيّة الأَفروأَسيويّة (المِصريّة، العِبريّة، الآراميّة، الجِعزيّة)، خافِتةً حَقيقيّةً حَتّى في الهندوأوربيّة (اليونانيّة، اللاتينيّة، الإنجليزيّة القَديمة، النَّوردِيّة). تَختَبِر هذه الدِّراسةُ تِلكَ الفِكرةَ عَلى 2,285 جَذرًا عَرَبيًّا، و200 نَظيرٍ مِصريٍّ قَديم، و770 مُرَشَّحًا هندوأوربيًّا — بِتَنبُّؤاتٍ تُسَجَّل مُسبَقًا وَإطارٍ يَقرَأ كُلَّ واحِدٍ مِنَ المَبادئ الأُولى.
+    حُروفُ العَرَبيّة ليسَت أَصواتًا فارِغة. كُلُّ حَرفٍ يَحمِل شَحنةَ مَعنىً مُستَمَدّةً مِن مَوضِع نُطقِه في الفَم — والجُذورُ تُبنى بِجَمعِ هذه الشَّحَنات في أَحَدَ عَشَرَ بابًا مُحَدَّدًا. تَختَبِر هذه الدِّراسةُ تلكَ الفِكرةَ عَبر اللُّغة كُلِّها، وتَتَتَبَّع أَصداءَها في العِبريّة والمِصريّة القَديمة واليونانيّة واللاتينيّة وغَيرها.
   </p>
 
   <p style="font-size: 14px; color: var(--text-3); margin-top: 14px;">
@@ -1149,11 +1160,11 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
       <span class="lang-en">▸ The framework's sharpened thesis (as of 2026-05-24)</span>
       <span class="lang-ar">▸ أَطروحةُ الإطار المُحَدَّدةُ (بِتاريخ 2026-05-24)</span>
     </div>
-    <p class="lang-en" style="font-size: 18px; line-height: 1.65; margin: 0 0 12px; color: var(--text);">
-      <strong>The human mouth shapes meaning in ways that radiate outward from family distance.</strong> The framework reads Arabic at <strong>100% native fit</strong> (2,285 / 2,285 trilateral roots, no forcing). It reads the close Afro-Asiatic family — Ancient Egyptian — at <strong>99.5% framework-readable, 48% top-three-tier, 90% on the deep-family-core</strong>. It reads the distant Indo-European family — Greek, Latin, Norse, Old English — at <strong>25% calibrated-confirmed</strong>, twice what random would predict. The gradient — Arabic-deep, Afro-Asiatic-close, IE-distant — is the framework's strongest claim, registered in advance and now confirmed on real data.
+    <p class="lang-en" style="font-size: 17px; line-height: 1.65; margin: 0 0 12px; color: var(--text);">
+      The framework reads <strong>Arabic at 100%</strong> (2,285 of 2,285 trilateral roots, no forcing), <strong>the close Afro-Asiatic family (Egyptian, Hebrew) at 80% / 52%</strong> top-tier on Hebrew and Egyptian respectively, and <strong>distant Indo-European at 25% calibrated-confirmed</strong> — twice what random would predict. The family-distance gradient — clearest close, faint but real at distance — was registered as a prediction before the cross-linguistic work began, and the data now confirms it.
     </p>
-    <p class="lang-ar" style="font-size: 18px; line-height: 1.85; margin: 0; color: var(--text);">
-      <strong>الفَمُ البَشَريّ يُشَكِّل المَعنى بِطُرُقٍ تَنبَعِث مِن قَلب الأُسرة إلى أَطرافِها.</strong> الإطارُ يَقرَأ العَرَبيّةَ بِـ<strong>مُطابَقةٍ أَصيلةٍ 100٪</strong> (2,285 / 2,285 جَذرًا ثُلاثيًّا، بِلا افتِعال). يَقرَأ الأُسرةَ الأَفروأَسيويّةَ القَريبة — المِصريّة القَديمة — بِـ<strong>99.5٪ يَقرَؤها الإطار، 48٪ في أَعلى ثَلاثة أَصناف، 90٪ في القَلب العَميق المُشتَرَك</strong>. يَقرَأ الهندوأوربيّةَ البَعيدة — اليونانيّة، اللاتينيّة، النَّوردِيّة، الإنجليزيّة القَديمة — بِـ<strong>25٪ مُؤَكَّدًا بِالمُعايَرة</strong>، ضِعفُ ما تَتَنَبَّأ بِه الصُّدفة. التَّدَرُّجُ — العَرَبيّةُ العَميقة، الأَفروأَسيويّةُ القَريبة، الهندوأوربيّةُ البَعيدة — هو أَقوى دَعوى لِلإطار، سُجِّلَت مُسبَقًا وَأُكِّدَت عَلى بَيانات حَقيقيّة.
+    <p class="lang-ar" style="font-size: 17px; line-height: 1.85; margin: 0; color: var(--text);">
+      الإطارُ يَقرَأ <strong>العَرَبيّةَ بِـ100٪</strong> (2,285 مِن 2,285 جَذرًا ثُلاثيًّا، بِلا افتِعال)، <strong>وَالأُسرةَ الأَفروأَسيويّةَ القَريبة (المِصريّة، العِبريّة) بِـ80٪ / 52٪</strong> في الطَّبَقاتِ العُليا لِلعِبريّة وَالمِصريّة عَلى التَّوالي، <strong>وَالهندوأوربيّةَ البَعيدةَ بِـ25٪ مُؤَكَّدًا بِالمُعايَرة</strong> — ضِعفُ ما تَتَنَبَّأ بِه الصُّدفة. تَدَرُّجُ المَسافةِ الأُسَريّةِ — أَنظَفُ قُربًا، خافِتٌ حَقيقيٌّ بُعدًا — سُجِّلَ كَتَنبُّؤٍ قَبلَ بَدء العَمَل بَين اللُّغات، وَالبَياناتُ تُؤَكِّدُه الآن.
     </p>
   </div>
 </div>
