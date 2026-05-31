@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round18",
-  "count": 297,
+  "version": "2026-05-24-round19",
+  "count": 304,
   "verdict_distribution": {
-    "STRONG": 146,
-    "PARTIAL": 77,
+    "STRONG": 148,
+    "PARTIAL": 82,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -2983,6 +2983,76 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "time"
+    },
+    {
+      "id": 298,
+      "arabic": "فَتَق (fataqa)",
+      "egyptian": "fdḳ",
+      "gloss": "to cut, rip open, divide — f + d/t + q",
+      "class": "trilateral · cutting",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 299,
+      "arabic": "هَدّ (hadda)",
+      "egyptian": "hdj",
+      "gloss": "to demolish, pull down, attack — h-d",
+      "class": "bare binary · demolishing",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 300,
+      "arabic": "خَلَع (ḫalaʿa)",
+      "egyptian": "ḫꜣꜥ",
+      "gloss": "to throw off, cast, leave — ḫ-ʿ",
+      "class": "bare binary · casting-off",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 301,
+      "arabic": "فَخِذ (faḫidh)",
+      "egyptian": "pḏ",
+      "gloss": "knee/thigh; to stretch (the leg) — p/f + ḏ",
+      "class": "bare binary · leg-joint",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "body"
+    },
+    {
+      "id": 302,
+      "arabic": "كَنّ (kanna)",
+      "egyptian": "kꜣp",
+      "gloss": "to cover, shelter, hide — k-n/p",
+      "class": "bare binary · sheltering",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 303,
+      "arabic": "بَسَم (basama)",
+      "egyptian": "sbt",
+      "gloss": "to smile, laugh — b-s metathesis",
+      "class": "bare binary · smiling",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 304,
+      "arabic": "وَدَع (wadaʿa)",
+      "egyptian": "wdj",
+      "gloss": "to place, set down, deposit — w-d",
+      "class": "bare binary · placing",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
