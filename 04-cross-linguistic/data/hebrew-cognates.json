@@ -1,11 +1,11 @@
 {
   "project": "The Arabic Tongue · Tier-A Semitic-sister cognates · Arabic ↔ Hebrew",
-  "version": "2026-05-24-hebrew-r2",
-  "count": 181,
+  "version": "2026-05-24-hebrew-r3",
+  "count": 219,
   "verdict_distribution": {
-    "PERFECT": 100,
-    "STRONG": 54,
-    "PROVISIONAL": 23,
+    "PERFECT": 117,
+    "STRONG": 64,
+    "PROVISIONAL": 34,
     "PROTO-FAMILY": 4
   },
   "license": "CC-BY 4.0",
@@ -1459,6 +1459,310 @@
       "gloss": "far (parallel)",
       "verdict": "PROVISIONAL",
       "category": "adj"
+    },
+    {
+      "id": 182,
+      "arabic": "كُلية",
+      "hebrew": "כִּלְיָה kilyah",
+      "gloss": "kidney",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 183,
+      "arabic": "دَمع",
+      "hebrew": "דֶּמַע demaʿ",
+      "gloss": "tear",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 184,
+      "arabic": "رِئة",
+      "hebrew": "רֵאָה reʾah",
+      "gloss": "lung",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 185,
+      "arabic": "ظُفر",
+      "hebrew": "צִפֹּרֶן tsipporen",
+      "gloss": "nail — ظ↔ts",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 186,
+      "arabic": "لَحي",
+      "hebrew": "לֶחִי leḥi",
+      "gloss": "jaw, cheek",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 187,
+      "arabic": "اسم",
+      "hebrew": "שֵׁם shem",
+      "gloss": "name — س↔š",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 188,
+      "arabic": "سَنة",
+      "hebrew": "שָׁנָה shanah",
+      "gloss": "year — س↔š",
+      "verdict": "STRONG",
+      "category": "time"
+    },
+    {
+      "id": 189,
+      "arabic": "أَمس",
+      "hebrew": "אֶמֶשׁ ʾemesh",
+      "gloss": "last night, yesterday",
+      "verdict": "STRONG",
+      "category": "time"
+    },
+    {
+      "id": 190,
+      "arabic": "عِيد? مَوعِد",
+      "hebrew": "מוֹעֵד moʿed",
+      "gloss": "appointed time, feast",
+      "verdict": "PERFECT",
+      "category": "time"
+    },
+    {
+      "id": 191,
+      "arabic": "بَيت",
+      "hebrew": "בַּיִת bayit",
+      "gloss": "house",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 192,
+      "arabic": "مِفتاح",
+      "hebrew": "מַפְתֵּחַ mafteaḥ",
+      "gloss": "key",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 193,
+      "arabic": "كُرسي",
+      "hebrew": "כִּסֵּא kisseʾ",
+      "gloss": "seat, throne",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 194,
+      "arabic": "طَريق? دَرب",
+      "hebrew": "דֶּרֶךְ derekh",
+      "gloss": "road, way (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "abstract"
+    },
+    {
+      "id": 195,
+      "arabic": "باب",
+      "hebrew": "? דלת/שער",
+      "gloss": "door (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "abstract"
+    },
+    {
+      "id": 196,
+      "arabic": "سور",
+      "hebrew": "? חומה",
+      "gloss": "wall (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "abstract"
+    },
+    {
+      "id": 197,
+      "arabic": "قامَ",
+      "hebrew": "קָם qam",
+      "gloss": "to rise, stand",
+      "verdict": "PERFECT",
+      "category": "motion"
+    },
+    {
+      "id": 198,
+      "arabic": "عَبَر",
+      "hebrew": "עָבַר ʿavar",
+      "gloss": "to cross, pass over",
+      "verdict": "PERFECT",
+      "category": "motion"
+    },
+    {
+      "id": 199,
+      "arabic": "خَرَج? يَصَأ",
+      "hebrew": "יָצָא yatsaʾ",
+      "gloss": "to go out (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "motion"
+    },
+    {
+      "id": 200,
+      "arabic": "صَعِد? عَلا",
+      "hebrew": "עָלָה ʿalah",
+      "gloss": "to ascend",
+      "verdict": "PERFECT",
+      "category": "motion"
+    },
+    {
+      "id": 201,
+      "arabic": "وَرَد? يَرَد",
+      "hebrew": "יָרַד yarad",
+      "gloss": "to descend — و↔י",
+      "verdict": "STRONG",
+      "category": "motion"
+    },
+    {
+      "id": 202,
+      "arabic": "شابَ? شَيب",
+      "hebrew": "שֵׂיבָה seyvah",
+      "gloss": "grey hair, old age — ش↔ś",
+      "verdict": "STRONG",
+      "category": "adj"
+    },
+    {
+      "id": 203,
+      "arabic": "عَظيم",
+      "hebrew": "עָצוּם ʿatsum",
+      "gloss": "mighty, vast — ظ↔ts",
+      "verdict": "STRONG",
+      "category": "adj"
+    },
+    {
+      "id": 204,
+      "arabic": "أَسوَد",
+      "hebrew": "שָׁחֹר shaḥor",
+      "gloss": "black (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
+    },
+    {
+      "id": 205,
+      "arabic": "أَحمَر",
+      "hebrew": "אָדֹם ʾadom",
+      "gloss": "red (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
+    },
+    {
+      "id": 206,
+      "arabic": "أَبيَض",
+      "hebrew": "לָבָן lavan",
+      "gloss": "white — same l-b-n as milk",
+      "verdict": "STRONG",
+      "category": "adj"
+    },
+    {
+      "id": 207,
+      "arabic": "أَخضَر",
+      "hebrew": "? ירוק",
+      "gloss": "green (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
+    },
+    {
+      "id": 208,
+      "arabic": "حَبل",
+      "hebrew": "חֶבֶל ḥevel",
+      "gloss": "rope, cord",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 209,
+      "arabic": "بِئر",
+      "hebrew": "בְּאֵר beʾer",
+      "gloss": "well, pit",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 210,
+      "arabic": "غُرفة",
+      "hebrew": "? חדר",
+      "gloss": "room (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "abstract"
+    },
+    {
+      "id": 211,
+      "arabic": "قَبر",
+      "hebrew": "קֶבֶר qever",
+      "gloss": "grave, tomb",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 212,
+      "arabic": "حَيّ",
+      "hebrew": "חַי ḥay",
+      "gloss": "alive, living",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 213,
+      "arabic": "عَظم/قُوّة",
+      "hebrew": "עֹז ʿoz",
+      "gloss": "strength, might",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 214,
+      "arabic": "سَيف",
+      "hebrew": "? חרב",
+      "gloss": "sword (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "abstract"
+    },
+    {
+      "id": 215,
+      "arabic": "قَوس",
+      "hebrew": "קֶשֶׁת qeshet",
+      "gloss": "bow — س↔š",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 216,
+      "arabic": "سَهم",
+      "hebrew": "חֵץ ḥets",
+      "gloss": "arrow (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "abstract"
+    },
+    {
+      "id": 217,
+      "arabic": "عَرش",
+      "hebrew": "? כסא",
+      "gloss": "throne (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "abstract"
+    },
+    {
+      "id": 218,
+      "arabic": "سَفينة",
+      "hebrew": "סְפִינָה sefinah",
+      "gloss": "ship",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 219,
+      "arabic": "ريح/روح",
+      "hebrew": "רוּחַ ruaḥ",
+      "gloss": "wind, spirit",
+      "verdict": "PERFECT",
+      "category": "nature"
     }
   ]
 }
