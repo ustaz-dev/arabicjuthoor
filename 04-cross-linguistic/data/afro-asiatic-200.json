@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round20",
-  "count": 310,
+  "version": "2026-05-24-round21",
+  "count": 314,
   "verdict_distribution": {
-    "STRONG": 152,
-    "PARTIAL": 84,
+    "STRONG": 154,
+    "PARTIAL": 86,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -3113,6 +3113,46 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "body"
+    },
+    {
+      "id": 311,
+      "arabic": "ذات (dhāt)",
+      "egyptian": "ḏt",
+      "gloss": "self, essence, one’s own body, eternity — ḏ-t",
+      "class": "bare binary · selfhood",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 312,
+      "arabic": "سَطَع (saṭaʿa)",
+      "egyptian": "stwt",
+      "gloss": "to shine forth; rays, sunbeams — s-ṭ",
+      "class": "trilateral · shining",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "nature"
+    },
+    {
+      "id": 313,
+      "arabic": "مَنِيّ (maniy)",
+      "egyptian": "mtwt",
+      "gloss": "semen, seed, generative fluid — m + t/n",
+      "class": "trilateral · seed",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "body"
+    },
+    {
+      "id": 314,
+      "arabic": "بَأس (baʾs)",
+      "egyptian": "bꜣw",
+      "gloss": "might, power, impressive force — b + ꜣ",
+      "class": "bare binary · might",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
