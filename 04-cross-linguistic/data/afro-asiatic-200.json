@@ -1,12 +1,12 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-pass2",
+  "version": "2026-05-24-second-attack",
   "count": 200,
   "verdict_distribution": {
-    "STRONG": 82,
-    "PROVISIONAL": 64,
+    "STRONG": 90,
+    "PROVISIONAL": 57,
     "PARTIAL": 17,
-    "PARALLEL-STEMS": 15,
+    "PARALLEL-STEMS": 14,
     "PERFECT": 13,
     "PROTO-FAMILY": 8,
     "DUAL-FACE": 1
@@ -656,22 +656,22 @@
     },
     {
       "id": 65,
-      "arabic": "كَفّ",
+      "arabic": "ذِراع (dhirāʿ)",
       "egyptian": "ḏrt",
-      "gloss": "palm, hand (parallel stems)",
+      "gloss": "arm/hand — ḏ-r shared [cracked: ذراع not كفّ]",
       "class": "parallel hand-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "body"
     },
     {
       "id": 66,
-      "arabic": "عَظم",
+      "arabic": "قَصَب (qaṣab)",
       "egyptian": "qs",
-      "gloss": "bone (parallel stems)",
+      "gloss": "bone-reed/sternum — q-ṣ shared [cracked: قصب not عظم]",
       "class": "parallel bone-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "body"
     },
     {
@@ -1056,12 +1056,12 @@
     },
     {
       "id": 105,
-      "arabic": "أَعطى",
+      "arabic": "رَدّ (radda)",
       "egyptian": "rdj",
-      "gloss": "give (parallel stems)",
+      "gloss": "hand over/give — r-d shared [cracked: ردّ not أعطى]",
       "class": "parallel giving-stems",
-      "verdict": "PARALLEL-STEMS",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "action"
     },
     {
@@ -1206,12 +1206,12 @@
     },
     {
       "id": 120,
-      "arabic": "فَكَّر",
+      "arabic": "كَيْد (kayd)",
       "egyptian": "kꜣy",
-      "gloss": "think, plan (parallel)",
+      "gloss": "scheming/plan — k-y shared [cracked: كيد not فكّر]",
       "class": "parallel thinking-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "mind"
     },
     {
@@ -1406,12 +1406,12 @@
     },
     {
       "id": 140,
-      "arabic": "جَبَل",
+      "arabic": "طَود (ṭawd)",
       "egyptian": "ḏw",
-      "gloss": "mountain (parallel)",
+      "gloss": "lofty mountain — ḏ↔ط + w [cracked: طود not جبل]",
       "class": "parallel mountain-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "nature"
     },
     {
@@ -1466,12 +1466,12 @@
     },
     {
       "id": 146,
-      "arabic": "زَهر",
+      "arabic": "سَوسَن (sawsan)",
       "egyptian": "sšn",
-      "gloss": "flower, lotus (partial)",
+      "gloss": "lily/lotus — s-s-n [cracked: سوسن not زهر]",
       "class": "partial sibilant alignment",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "nature"
     },
     {
@@ -1706,12 +1706,12 @@
     },
     {
       "id": 170,
-      "arabic": "كَتَب",
+      "arabic": "سَطَّر (saṭṭara)",
       "egyptian": "sšw",
-      "gloss": "write, scribe (parallel)",
+      "gloss": "write in lines — s+emphatic [cracked: سطّر not كتب]",
       "class": "parallel writing-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "action"
     },
     {
@@ -1936,12 +1936,12 @@
     },
     {
       "id": 193,
-      "arabic": "أَمير",
+      "arabic": "أَمير (amīr)",
       "egyptian": "ⲁⲙⲓⲣⲉ",
-      "gloss": "prince/commander (parallel)",
+      "gloss": "Arabic→Coptic loan [cracked: reverse-loan]",
       "class": "parallel rule-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "coptic"
     },
     {
@@ -2015,5 +2015,6 @@
       "category": "motion"
     }
   ],
-  "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md"
+  "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
+  "second_attack_audit": "05-audits/2026-05-24-aa-second-attack.md"
 }
