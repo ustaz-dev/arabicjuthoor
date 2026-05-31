@@ -1,12 +1,12 @@
 {
   "project": "The Arabic Tongue · Tier-A Semitic-sister cognates · Arabic ↔ Hebrew",
-  "version": "2026-05-24",
-  "count": 124,
+  "version": "2026-05-24-hebrew-r2",
+  "count": 181,
   "verdict_distribution": {
-    "PERFECT": 77,
-    "STRONG": 41,
-    "PROTO-FAMILY": 4,
-    "PROVISIONAL": 2
+    "PERFECT": 100,
+    "STRONG": 54,
+    "PROVISIONAL": 23,
+    "PROTO-FAMILY": 4
   },
   "license": "CC-BY 4.0",
   "source_doc": "04-cross-linguistic/tier-a-hebrew-cognates.md",
@@ -1003,6 +1003,462 @@
       "gloss": "lord, master, great",
       "verdict": "PERFECT",
       "category": "abstract"
+    },
+    {
+      "id": 125,
+      "arabic": "كَلب",
+      "hebrew": "כֶּלֶב kelev",
+      "gloss": "dog",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 126,
+      "arabic": "حِمار",
+      "hebrew": "חֲמוֹר ḥamor",
+      "gloss": "donkey",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 127,
+      "arabic": "ثَور",
+      "hebrew": "שׁוֹר shor",
+      "gloss": "ox, bull — ث↔š",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 128,
+      "arabic": "جَمَل",
+      "hebrew": "גָּמָל gamal",
+      "gloss": "camel",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 129,
+      "arabic": "حَيّة",
+      "hebrew": "חִוְיָא ḥivya (Aram.) / חַוָּה",
+      "gloss": "snake",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 130,
+      "arabic": "سَمَك? نون",
+      "hebrew": "דָּג dag",
+      "gloss": "fish (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "nature"
+    },
+    {
+      "id": 131,
+      "arabic": "عُصفور",
+      "hebrew": "צִפּוֹר tsippor",
+      "gloss": "bird (parallel, shift unverified)",
+      "verdict": "PROVISIONAL",
+      "category": "nature"
+    },
+    {
+      "id": 132,
+      "arabic": "ذِئب",
+      "hebrew": "זְאֵב zeʾev",
+      "gloss": "wolf — ذ↔z",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 133,
+      "arabic": "أَسَد? لَيث",
+      "hebrew": "אֲרִי ʾari",
+      "gloss": "lion (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "nature"
+    },
+    {
+      "id": 134,
+      "arabic": "دُبّ",
+      "hebrew": "דֹּב dov",
+      "gloss": "bear",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 135,
+      "arabic": "نَسر",
+      "hebrew": "נֶשֶׁר nesher",
+      "gloss": "eagle, vulture — س↔š",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 136,
+      "arabic": "ضَأن",
+      "hebrew": "צֹאן tsoʾn",
+      "gloss": "sheep/flock — ض↔ts",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 137,
+      "arabic": "عِجل",
+      "hebrew": "עֵגֶל ʿegel",
+      "gloss": "calf",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 138,
+      "arabic": "جَدي",
+      "hebrew": "גְּדִי gedi",
+      "gloss": "young goat, kid",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 139,
+      "arabic": "فَتَح",
+      "hebrew": "פָּתַח pataḥ",
+      "gloss": "to open",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 140,
+      "arabic": "سَجَر/أَغلَق",
+      "hebrew": "סָגַר sagar",
+      "gloss": "to close, shut",
+      "verdict": "STRONG",
+      "category": "action"
+    },
+    {
+      "id": 141,
+      "arabic": "شَبَر/كَسَر",
+      "hebrew": "שָׁבַר shavar",
+      "gloss": "to break — ث/س↔š",
+      "verdict": "STRONG",
+      "category": "action"
+    },
+    {
+      "id": 142,
+      "arabic": "جَمَع",
+      "hebrew": "קָבַץ? אסף",
+      "gloss": "to gather (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "action"
+    },
+    {
+      "id": 143,
+      "arabic": "حَفَر",
+      "hebrew": "חָפַר ḥafar",
+      "gloss": "to dig",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 144,
+      "arabic": "زَرَع",
+      "hebrew": "זָרַע zaraʿ",
+      "gloss": "to sow, plant — ز↔z",
+      "verdict": "STRONG",
+      "category": "action"
+    },
+    {
+      "id": 145,
+      "arabic": "حَصَد",
+      "hebrew": "קָצַר qatsar",
+      "gloss": "to reap (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "action"
+    },
+    {
+      "id": 146,
+      "arabic": "طَحَن",
+      "hebrew": "טָחַן ṭaḥan",
+      "gloss": "to grind",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 147,
+      "arabic": "خَبَز? لَحَم",
+      "hebrew": "אָפָה ʾafah",
+      "gloss": "to bake (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "action"
+    },
+    {
+      "id": 148,
+      "arabic": "غَسَل",
+      "hebrew": "רָחַץ raḥats",
+      "gloss": "to wash (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "action"
+    },
+    {
+      "id": 149,
+      "arabic": "لَبِس",
+      "hebrew": "לָבַשׁ lavash",
+      "gloss": "to wear, clothe — س↔š",
+      "verdict": "STRONG",
+      "category": "action"
+    },
+    {
+      "id": 150,
+      "arabic": "خَلَع",
+      "hebrew": "חָלַץ ḥalats",
+      "gloss": "to take off, draw out — خ↔ḥ",
+      "verdict": "STRONG",
+      "category": "action"
+    },
+    {
+      "id": 151,
+      "arabic": "حَمَل",
+      "hebrew": "חָמַל? נשא",
+      "gloss": "to carry/bear (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "action"
+    },
+    {
+      "id": 152,
+      "arabic": "دَفَع",
+      "hebrew": "דָּחַף daḥaf",
+      "gloss": "to push (parallel, shift unverified)",
+      "verdict": "PROVISIONAL",
+      "category": "action"
+    },
+    {
+      "id": 153,
+      "arabic": "مَلَأ",
+      "hebrew": "מָלֵא maleʾ",
+      "gloss": "to fill, be full",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 154,
+      "arabic": "عَدّ",
+      "hebrew": "? מנה",
+      "gloss": "to count (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "action"
+    },
+    {
+      "id": 155,
+      "arabic": "جَرى",
+      "hebrew": "? רוץ",
+      "gloss": "to run (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "motion"
+    },
+    {
+      "id": 156,
+      "arabic": "قَفَز",
+      "hebrew": "קָפַץ qafats",
+      "gloss": "to jump, leap",
+      "verdict": "PERFECT",
+      "category": "motion"
+    },
+    {
+      "id": 157,
+      "arabic": "سَقَط",
+      "hebrew": "? נפל",
+      "gloss": "to fall (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "motion"
+    },
+    {
+      "id": 158,
+      "arabic": "عَبَر",
+      "hebrew": "עָבַר ʿavar",
+      "gloss": "to cross, pass",
+      "verdict": "PERFECT",
+      "category": "motion"
+    },
+    {
+      "id": 159,
+      "arabic": "هَرَب",
+      "hebrew": "בָּרַח baraḥ",
+      "gloss": "to flee (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "motion"
+    },
+    {
+      "id": 160,
+      "arabic": "رَكِب",
+      "hebrew": "רָכַב rakhav",
+      "gloss": "to ride, mount",
+      "verdict": "PERFECT",
+      "category": "motion"
+    },
+    {
+      "id": 161,
+      "arabic": "شالَ/رَفَع",
+      "hebrew": "? נשא רום",
+      "gloss": "to lift (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "motion"
+    },
+    {
+      "id": 162,
+      "arabic": "كَبير",
+      "hebrew": "כַּבִּיר kabbir",
+      "gloss": "great, mighty",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 163,
+      "arabic": "صَغير",
+      "hebrew": "צָעִיר tsaʿir",
+      "gloss": "small, young — ص↔ts",
+      "verdict": "STRONG",
+      "category": "adj"
+    },
+    {
+      "id": 164,
+      "arabic": "طَويل? رام",
+      "hebrew": "רָם ram",
+      "gloss": "high, tall (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
+    },
+    {
+      "id": 165,
+      "arabic": "قَصير",
+      "hebrew": "קָצָר qatsar",
+      "gloss": "short",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 166,
+      "arabic": "ثَقيل",
+      "hebrew": "? כבד",
+      "gloss": "heavy (parallel: כָּבֵד)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
+    },
+    {
+      "id": 167,
+      "arabic": "قَليل",
+      "hebrew": "קָלִיל qalil",
+      "gloss": "light, few",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 168,
+      "arabic": "جَديد",
+      "hebrew": "חָדָשׁ ḥadash",
+      "gloss": "new (parallel, shift unverified)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
+    },
+    {
+      "id": 169,
+      "arabic": "قَديم",
+      "hebrew": "קֶדֶם qedem",
+      "gloss": "ancient, east, of old",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 170,
+      "arabic": "حارّ",
+      "hebrew": "חַם ḥam",
+      "gloss": "hot",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 171,
+      "arabic": "بارِد",
+      "hebrew": "קַר qar",
+      "gloss": "cold (parallel: קר)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
+    },
+    {
+      "id": 172,
+      "arabic": "طَيِّب",
+      "hebrew": "טוֹב ṭov",
+      "gloss": "good — ط↔ṭ",
+      "verdict": "STRONG",
+      "category": "adj"
+    },
+    {
+      "id": 173,
+      "arabic": "رَعّ/شَرّ",
+      "hebrew": "רַע raʿ",
+      "gloss": "bad, evil",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 174,
+      "arabic": "مُرّ",
+      "hebrew": "מַר mar",
+      "gloss": "bitter",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 175,
+      "arabic": "حُلو",
+      "hebrew": "? מתוק",
+      "gloss": "sweet (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
+    },
+    {
+      "id": 176,
+      "arabic": "مَليح",
+      "hebrew": "מֶלַח? מליח",
+      "gloss": "salty, fair (parallel, shift unverified)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
+    },
+    {
+      "id": 177,
+      "arabic": "يابِس",
+      "hebrew": "יָבֵשׁ yavesh",
+      "gloss": "dry — س↔š",
+      "verdict": "STRONG",
+      "category": "adj"
+    },
+    {
+      "id": 178,
+      "arabic": "رَطب",
+      "hebrew": "רָטֹב raṭov",
+      "gloss": "moist, fresh",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 179,
+      "arabic": "عَميق",
+      "hebrew": "עָמֹק ʿamoq",
+      "gloss": "deep",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 180,
+      "arabic": "قَريب",
+      "hebrew": "קָרוֹב qarov",
+      "gloss": "near",
+      "verdict": "PERFECT",
+      "category": "adj"
+    },
+    {
+      "id": 181,
+      "arabic": "بَعيد",
+      "hebrew": "? רחוק",
+      "gloss": "far (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "adj"
     }
   ]
 }
