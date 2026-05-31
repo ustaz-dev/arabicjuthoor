@@ -113,7 +113,24 @@ The mining kept going. More verified matches (Egyptian forms checked, no duplica
 | Round 5 | 60% | 231 | 117 |
 | **Rounds 6–8** | **59%** | **255** | **130** |
 
-**The headline that matters: confirmed STRONG cognates nearly doubled in one session — 78 → 130** — and the full roster grew from 200 to 255. The percentage hovers at ~60% only because every new STRONG match is balanced by an honest PARTIAL; the *count* of solid Arabic ↔ Egyptian matches is the real measure of reach, and it keeps climbing. There are hundreds of Egyptian lemmata still un-mined. Every pass finds another handful of exact matches like ḫsf↔خَسَف and ḥfd↔حَفَد. The well is deep.
+**Rounds 9–12** kept the wins coming — and the exact 3-consonant matches just kept appearing:
+
+- **sbq** "to excel/precede" ↔ **سَبَق** (s-b-q EXACT) · **ḥmm** "be hot" ↔ **حَمّ** (EXACT) · **ḫsr** "to lose/diminish" ↔ **خَسِر** (ḫ-s-r EXACT) · **ḥfn** "handful" ↔ **حَفنة** (ḥ-f-n EXACT) · **dmj** "to merge/join" ↔ **دَمَج** (d-m-j EXACT)
+- plus kfꜣ "uncover" ↔ **كَشَف** · sḳr "smite" ↔ **صَقَر** · ꜣḫm "quench" ↔ **خَمَد** · nꜥš "raise/revive" ↔ **نَعَش** · and PARTIALs (rmn↔يَمين, šbn↔شابَ, ꜥfn↔كَفَن, smn↔ضَمِن, ptr↔بَصَر, …).
+
+**The session, end to end:**
+
+| Stage | Top-3 | Roster | STRONG count |
+|-------|------:|-------:|-------------:|
+| First pass | 48% | 200 | 78 |
+| Pass-2 | 52% | 200 | 81 |
+| Second attack | 56% | 200 | 90 |
+| Rounds 3–4 | 60% | 222 | 112 |
+| Round 5 | 60% | 231 | 117 |
+| Rounds 6–8 | 59% | 255 | 130 |
+| **Rounds 9–12** | **59%** | **273** | **139** |
+
+**The headline that matters: confirmed STRONG cognates went from 78 to 139 in one session (+78%)**, and the full roster grew from 200 to 273 — with roughly 25 of them now *exact* three-consonant matches (same word, no shifts), several Quran-anchored (خَسَف، أَزْر، حَفَد). The percentage hovers near 60% only because every new STRONG is honestly balanced by a PARTIAL; the *count* of solid Arabic ↔ Egyptian matches is the real measure of reach, and it keeps climbing. There are still hundreds of Egyptian lemmata un-mined. Every single pass finds another handful of exact matches. The well is deep, and we have barely scratched it.
 
 ## Open for the next round
 

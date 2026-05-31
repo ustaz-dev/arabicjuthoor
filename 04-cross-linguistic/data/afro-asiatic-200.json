@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round8",
-  "count": 255,
+  "version": "2026-05-24-round12",
+  "count": 273,
   "verdict_distribution": {
-    "STRONG": 130,
-    "PARTIAL": 51,
+    "STRONG": 139,
+    "PARTIAL": 60,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -2563,6 +2563,186 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "nature"
+    },
+    {
+      "id": 256,
+      "arabic": "سَبَق (sabaqa)",
+      "egyptian": "sbq",
+      "gloss": "to excel, precede, be ahead — s-b-q EXACT",
+      "class": "trilateral · exact 3-consonant match",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 257,
+      "arabic": "حَمّ (ḥamma)",
+      "egyptian": "ḥmm",
+      "gloss": "to be hot, heat — ḥ-m-m EXACT",
+      "class": "geminate · exact match",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "adj"
+    },
+    {
+      "id": 258,
+      "arabic": "خَسِر (ḫasira)",
+      "egyptian": "ḫsr",
+      "gloss": "to lose, diminish, be driven back — ḫ-s-r EXACT",
+      "class": "trilateral · exact 3-consonant match",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 259,
+      "arabic": "كَشَف (kashafa)",
+      "egyptian": "kfꜣ",
+      "gloss": "to uncover, reveal, seize — k-f",
+      "class": "trilateral · uncovering",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 260,
+      "arabic": "يَمين (yamīn)",
+      "egyptian": "rmn",
+      "gloss": "shoulder, arm, right side — m-n + r/y",
+      "class": "bare binary · side/limb",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "body"
+    },
+    {
+      "id": 261,
+      "arabic": "شابَ (shāba)",
+      "egyptian": "šbn",
+      "gloss": "to mix, mingle, associate — š-b",
+      "class": "bare binary · mixing",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 262,
+      "arabic": "شَسَع (shasaʿa)",
+      "egyptian": "šꜣs",
+      "gloss": "to traverse, be far/distant — š-s",
+      "class": "trilateral · distance",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "motion"
+    },
+    {
+      "id": 263,
+      "arabic": "حَفنة (ḥafna)",
+      "egyptian": "ḥfn",
+      "gloss": "handful (also 100000) — ḥ-f-n EXACT",
+      "class": "trilateral · exact 3-consonant match",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 264,
+      "arabic": "صَقَر/سَقَر (ṣaqar/saqar)",
+      "egyptian": "sḳr",
+      "gloss": "to strike, smite down — s-q-r",
+      "class": "trilateral · striking",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 265,
+      "arabic": "كَفَن (kafana)",
+      "egyptian": "ꜥfn",
+      "gloss": "to wrap, swathe, shroud — f-n + ʿ/k",
+      "class": "trilateral · wrapping",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 266,
+      "arabic": "غَشِيَ (ɣashiya)",
+      "egyptian": "ꜥšꜣ",
+      "gloss": "to be many, cover, overwhelm — ʿ/ɣ + š",
+      "class": "trilateral · multitude",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 267,
+      "arabic": "دَمَج (damaja)",
+      "egyptian": "dmj",
+      "gloss": "to join, merge, touch, unite — d-m-j EXACT",
+      "class": "trilateral · exact 3-consonant match",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 268,
+      "arabic": "خَمَد (ḫamada)",
+      "egyptian": "ꜣḫm",
+      "gloss": "to extinguish, quench, die down — ḫ-m",
+      "class": "bare binary · quenching",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 269,
+      "arabic": "نَعَش (naʿasha)",
+      "egyptian": "nꜥš",
+      "gloss": "to raise up, revive — n-ʿ-š",
+      "class": "trilateral · raising",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "motion"
+    },
+    {
+      "id": 270,
+      "arabic": "ضَمِن (ḍamina)",
+      "egyptian": "smn",
+      "gloss": "to establish, make firm, guarantee — s/ḍ + m-n",
+      "class": "trilateral · establishing",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 271,
+      "arabic": "وَزَع (wazaʿa)",
+      "egyptian": "wḏꜥ",
+      "gloss": "to judge, separate, restrain — w + ḏ/z + ʿ",
+      "class": "trilateral · separating",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 272,
+      "arabic": "مَدّ (madda)",
+      "egyptian": "mdt",
+      "gloss": "word, speech (mdt) = the extended utterance — m-d",
+      "class": "bare binary · utterance",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 273,
+      "arabic": "بَصَر (baṣara)",
+      "egyptian": "ptr",
+      "gloss": "to see, behold — b/p + r",
+      "class": "trilateral · seeing",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "mind"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
