@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round17",
-  "count": 294,
+  "version": "2026-05-24-round18",
+  "count": 297,
   "verdict_distribution": {
-    "STRONG": 145,
-    "PARTIAL": 75,
+    "STRONG": 146,
+    "PARTIAL": 77,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -2953,6 +2953,36 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "nature"
+    },
+    {
+      "id": 295,
+      "arabic": "طَهُر (ṭahura)",
+      "egyptian": "twr",
+      "gloss": "to be clean, pure, respect — t/ṭ + r (Eg. twr = be clean)",
+      "class": "bare binary · purity",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 296,
+      "arabic": "مَهَر (mahara)",
+      "egyptian": "mtr",
+      "gloss": "to be skilled, witness, instruct — m + r",
+      "class": "bare binary · skill",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "mind"
+    },
+    {
+      "id": 297,
+      "arabic": "سَموم (samūm)",
+      "egyptian": "šmw",
+      "gloss": "scorching summer-heat/wind — s/š + m",
+      "class": "bare binary · heat",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "time"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
