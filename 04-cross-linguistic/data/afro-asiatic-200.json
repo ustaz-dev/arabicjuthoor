@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round12",
-  "count": 273,
+  "version": "2026-05-24-round14-final",
+  "count": 283,
   "verdict_distribution": {
-    "STRONG": 139,
-    "PARTIAL": 60,
+    "STRONG": 142,
+    "PARTIAL": 67,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -2743,6 +2743,106 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "mind"
+    },
+    {
+      "id": 274,
+      "arabic": "جَناح (janāḥ)",
+      "egyptian": "ḏnḥ",
+      "gloss": "wing — ḏ/j + n + ḥ",
+      "class": "trilateral · near-exact",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "body"
+    },
+    {
+      "id": 275,
+      "arabic": "تِمساح (timsāḥ)",
+      "egyptian": "mzḥ",
+      "gloss": "crocodile — m + s/z + ḥ (Arabic word is from Egyptian via Coptic)",
+      "class": "trilateral · attested borrowing",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "nature"
+    },
+    {
+      "id": 276,
+      "arabic": "خَطَف (ḫaṭafa)",
+      "egyptian": "ḫnp",
+      "gloss": "to snatch, seize, smell — ḫ + p/f",
+      "class": "bare binary · snatching",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 277,
+      "arabic": "سَريّ (sarīy)",
+      "egyptian": "sr",
+      "gloss": "noble, official, chief — s-r",
+      "class": "bare binary · nobility",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 278,
+      "arabic": "قَرّ (qarra)",
+      "egyptian": "ḳrr",
+      "gloss": "to croak, roar, rumble — q-r",
+      "class": "bare binary · sound",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 279,
+      "arabic": "ضَوء (ḍawʾ)",
+      "egyptian": "šw",
+      "gloss": "light, sun (Shu = air/light) — š/ḍ + w",
+      "class": "bare binary · light",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "nature"
+    },
+    {
+      "id": 280,
+      "arabic": "نون (nūn)",
+      "egyptian": "nwn",
+      "gloss": "primeval waters / the watery deep — n-w-n",
+      "class": "bare binary · primal-water",
+      "verdict": "PARTIAL",
+      "revelation": true,
+      "category": "nature"
+    },
+    {
+      "id": 281,
+      "arabic": "سِكّة (sikka)",
+      "egyptian": "skꜣ",
+      "gloss": "to plough; the ploughshare — s-k",
+      "class": "bare binary · ploughing",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 282,
+      "arabic": "صَفَح (ṣafaḥa)",
+      "egyptian": "sfḫ",
+      "gloss": "to release, loosen → pardon — s/ṣ + f + ḫ/ḥ",
+      "class": "trilateral · release/pardon",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 283,
+      "arabic": "حَرف (ḥarf)",
+      "egyptian": "drf",
+      "gloss": "writing, script, letter — r-f + d/ḥ",
+      "class": "bare binary · script",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
