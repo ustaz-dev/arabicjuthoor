@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round19",
-  "count": 304,
+  "version": "2026-05-24-round20",
+  "count": 310,
   "verdict_distribution": {
-    "STRONG": 148,
-    "PARTIAL": 82,
+    "STRONG": 152,
+    "PARTIAL": 84,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -3053,6 +3053,66 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "action"
+    },
+    {
+      "id": 305,
+      "arabic": "تَمّ (tamma)",
+      "egyptian": "tm",
+      "gloss": "to be complete, finish, come to an end — t-m (Eg. tm, the god Atum = the Complete One)",
+      "class": "bare binary · completion",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 306,
+      "arabic": "كَمَل (kamala)",
+      "egyptian": "km",
+      "gloss": "to complete, bring to an end — k-m (the completing sense of km)",
+      "class": "bare binary · completion",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 307,
+      "arabic": "خَمَّن (ḫammana)",
+      "egyptian": "ḫmt",
+      "gloss": "to think, devise, estimate, plan (also the number 3) — ḫ-m",
+      "class": "bare binary · estimating",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "mind"
+    },
+    {
+      "id": 308,
+      "arabic": "صَعِد (ṣaʿida)",
+      "egyptian": "sꜥr",
+      "gloss": "to ascend, make go up — s/ṣ + ʿ (causative s- + ascent)",
+      "class": "trilateral · ascending",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "motion"
+    },
+    {
+      "id": 309,
+      "arabic": "كَرم (karm)",
+      "egyptian": "kꜣmw",
+      "gloss": "vineyard, garden — k-m (Eg. kꜣmw → Coptic ϭⲱⲙ)",
+      "class": "trilateral · vineyard",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "nature"
+    },
+    {
+      "id": 310,
+      "arabic": "عُضو (ʿuḍw)",
+      "egyptian": "ꜥt",
+      "gloss": "limb, member, part — ʿ + t/ḍ",
+      "class": "bare binary · limb",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "body"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
