@@ -1,0 +1,783 @@
+{
+  "project": "The Arabic Tongue · Tier-A Semitic-sister cognates · Arabic ↔ Aramaic",
+  "version": "2026-05-24",
+  "count": 96,
+  "verdict_distribution": {
+    "PERFECT": 62,
+    "STRONG": 27,
+    "PROTO-FAMILY": 4,
+    "PROVISIONAL": 3
+  },
+  "license": "CC-BY 4.0",
+  "note": "The unity baseline, not a test. Aramaic and Arabic are one Semitic tongue split by regular rule. Famous shifts: ḍ→ʿ (أرض→ארעא), ṯ→t (ثلاث→תלת), ḏ→d (ذهب→דהב), س↔š.",
+  "entries": [
+    {
+      "id": 1,
+      "arabic": "عَين",
+      "aramaic": "עֵינָא ʿaynā",
+      "gloss": "eye",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 2,
+      "arabic": "أُذُن",
+      "aramaic": "אֵדְנָא ʾednā",
+      "gloss": "ear",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 3,
+      "arabic": "يَد",
+      "aramaic": "יְדָא yedā",
+      "gloss": "hand",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 4,
+      "arabic": "رِجل",
+      "aramaic": "רֵגְלָא reglā",
+      "gloss": "foot, leg",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 5,
+      "arabic": "قَلب",
+      "aramaic": "לִבָּא libbā",
+      "gloss": "heart — l-b core",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 6,
+      "arabic": "رَأس",
+      "aramaic": "רֵישָׁא rēšā",
+      "gloss": "head",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 7,
+      "arabic": "كَرِش/بَطن",
+      "aramaic": "כַּרְסָא karsā",
+      "gloss": "belly",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 8,
+      "arabic": "لِسان",
+      "aramaic": "לִשָּׁנָא liššānā",
+      "gloss": "tongue",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 9,
+      "arabic": "سِنّ",
+      "aramaic": "שִׁנָּא šinnā",
+      "gloss": "tooth — س↔š",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 10,
+      "arabic": "شَعر",
+      "aramaic": "סַעְרָא saʿrā",
+      "gloss": "hair — ش↔s",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 11,
+      "arabic": "دَم",
+      "aramaic": "דְּמָא demā",
+      "gloss": "blood",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 12,
+      "arabic": "قَرن",
+      "aramaic": "קַרְנָא qarnā",
+      "gloss": "horn",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 13,
+      "arabic": "عَظم",
+      "aramaic": "גַּרְמָא garmā",
+      "gloss": "bone (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "body"
+    },
+    {
+      "id": 14,
+      "arabic": "نَفس",
+      "aramaic": "נַפְשָׁא nafšā",
+      "gloss": "soul, self — س↔š",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 15,
+      "arabic": "روح",
+      "aramaic": "רוּחָא rūḥā",
+      "gloss": "spirit, wind",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 16,
+      "arabic": "إِصبَع",
+      "aramaic": "אֶצְבְּעָא ʾeṣbeʿā",
+      "gloss": "finger",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 17,
+      "arabic": "كَبِد",
+      "aramaic": "כַּבְדָּא kavdā",
+      "gloss": "liver",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 18,
+      "arabic": "أَب",
+      "aramaic": "אַבָּא ʾabbā",
+      "gloss": "father",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 19,
+      "arabic": "أُمّ",
+      "aramaic": "אִמָּא ʾemmā",
+      "gloss": "mother",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 20,
+      "arabic": "ابن/بَر",
+      "aramaic": "בְּרָא berā / בַּר bar",
+      "gloss": "son (Aram. uses bar)",
+      "verdict": "STRONG",
+      "category": "kin"
+    },
+    {
+      "id": 21,
+      "arabic": "بِنت/بَرت",
+      "aramaic": "בְּרַתָּא berattā",
+      "gloss": "daughter",
+      "verdict": "STRONG",
+      "category": "kin"
+    },
+    {
+      "id": 22,
+      "arabic": "أَخ",
+      "aramaic": "אַחָא ʾaḥā",
+      "gloss": "brother",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 23,
+      "arabic": "أُخت",
+      "aramaic": "חָתָא ḥātā",
+      "gloss": "sister",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 24,
+      "arabic": "حَمّ",
+      "aramaic": "חְמָא ḥemā",
+      "gloss": "father-in-law",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 25,
+      "arabic": "أَنا",
+      "aramaic": "אֲנָא ʾanā",
+      "gloss": "I",
+      "verdict": "PROTO-FAMILY",
+      "category": "pronoun"
+    },
+    {
+      "id": 26,
+      "arabic": "أَنتَ",
+      "aramaic": "אַנְתְּ ʾant",
+      "gloss": "you (m.)",
+      "verdict": "PROTO-FAMILY",
+      "category": "pronoun"
+    },
+    {
+      "id": 27,
+      "arabic": "نَحنُ",
+      "aramaic": "אֲנַחְנָא ʾanaḥnā",
+      "gloss": "we",
+      "verdict": "PROTO-FAMILY",
+      "category": "pronoun"
+    },
+    {
+      "id": 28,
+      "arabic": "مَن",
+      "aramaic": "מַן man",
+      "gloss": "who",
+      "verdict": "PERFECT",
+      "category": "pronoun"
+    },
+    {
+      "id": 29,
+      "arabic": "ما/مَه",
+      "aramaic": "מָה mā",
+      "gloss": "what",
+      "verdict": "PERFECT",
+      "category": "pronoun"
+    },
+    {
+      "id": 30,
+      "arabic": "مِن",
+      "aramaic": "מִן min",
+      "gloss": "from",
+      "verdict": "PROTO-FAMILY",
+      "category": "prep"
+    },
+    {
+      "id": 31,
+      "arabic": "عَلى",
+      "aramaic": "עַל ʿal",
+      "gloss": "on, upon",
+      "verdict": "PERFECT",
+      "category": "prep"
+    },
+    {
+      "id": 32,
+      "arabic": "تَحت",
+      "aramaic": "תְּחוֹת teḥōt",
+      "gloss": "under",
+      "verdict": "PERFECT",
+      "category": "prep"
+    },
+    {
+      "id": 33,
+      "arabic": "بَين",
+      "aramaic": "בֵּינַי bēnay",
+      "gloss": "between",
+      "verdict": "PERFECT",
+      "category": "prep"
+    },
+    {
+      "id": 34,
+      "arabic": "كُلّ",
+      "aramaic": "כֹּל kol",
+      "gloss": "all, every",
+      "verdict": "PERFECT",
+      "category": "prep"
+    },
+    {
+      "id": 35,
+      "arabic": "ماء",
+      "aramaic": "מַיָּא mayyā",
+      "gloss": "water",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 36,
+      "arabic": "نَهر",
+      "aramaic": "נַהְרָא nahrā",
+      "gloss": "river",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 37,
+      "arabic": "يَمّ",
+      "aramaic": "יַמָּא yammā",
+      "gloss": "sea",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 38,
+      "arabic": "سَماء",
+      "aramaic": "שְׁמַיָּא šemayyā",
+      "gloss": "sky, heaven — س↔š",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 39,
+      "arabic": "أَرض",
+      "aramaic": "אַרְעָא ʾarʿā",
+      "gloss": "earth — ض→ʿ (the classic Aramaic shift)",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 40,
+      "arabic": "شَمس",
+      "aramaic": "שִׁמְשָׁא šimšā",
+      "gloss": "sun — ش↔š",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 41,
+      "arabic": "نار",
+      "aramaic": "נוּרָא nūrā",
+      "gloss": "fire",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 42,
+      "arabic": "لَيل",
+      "aramaic": "לֵילְיָא lēlyā",
+      "gloss": "night",
+      "verdict": "PERFECT",
+      "category": "time"
+    },
+    {
+      "id": 43,
+      "arabic": "يَوم",
+      "aramaic": "יוֹמָא yōmā",
+      "gloss": "day",
+      "verdict": "PERFECT",
+      "category": "time"
+    },
+    {
+      "id": 44,
+      "arabic": "كَوكَب",
+      "aramaic": "כּוֹכְבָא kōkhvā",
+      "gloss": "star",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 45,
+      "arabic": "حَجَر",
+      "aramaic": "כֵּאפָא kēʾfā",
+      "gloss": "stone (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "nature"
+    },
+    {
+      "id": 46,
+      "arabic": "جَبَل/طور",
+      "aramaic": "טוּרָא ṭūrā",
+      "gloss": "mountain — ط↔ṭ",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 47,
+      "arabic": "زَيت",
+      "aramaic": "זַיְתָא zaytā",
+      "gloss": "olive, oil",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 48,
+      "arabic": "عِنَب",
+      "aramaic": "עִנְבָא ʿinbā",
+      "gloss": "grape",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 49,
+      "arabic": "خَمر",
+      "aramaic": "חַמְרָא ḥamrā",
+      "gloss": "wine — خ↔ḥ",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 50,
+      "arabic": "لَحم",
+      "aramaic": "לַחְמָא laḥmā",
+      "gloss": "bread/meat",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 51,
+      "arabic": "مِلح",
+      "aramaic": "מִלְחָא milḥā",
+      "gloss": "salt",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 52,
+      "arabic": "ذَهَب",
+      "aramaic": "דַּהְבָא dahbā",
+      "gloss": "gold — ذ→d (the classic shift)",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 53,
+      "arabic": "قَمح",
+      "aramaic": "חִטְּתָא? קַמְחָא qamḥā",
+      "gloss": "flour, grain",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 54,
+      "arabic": "واحِد/حَد",
+      "aramaic": "חַד ḥad",
+      "gloss": "one",
+      "verdict": "PERFECT",
+      "category": "num"
+    },
+    {
+      "id": 55,
+      "arabic": "اثنان/تَرَين",
+      "aramaic": "תְּרֵין terēn",
+      "gloss": "two",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 56,
+      "arabic": "ثَلاث",
+      "aramaic": "תְּלָת telāt",
+      "gloss": "three — ث→t (the classic shift)",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 57,
+      "arabic": "أَربَع",
+      "aramaic": "אַרְבְּעָא ʾarbeʿā",
+      "gloss": "four",
+      "verdict": "PERFECT",
+      "category": "num"
+    },
+    {
+      "id": 58,
+      "arabic": "خَمس",
+      "aramaic": "חַמְשָׁא ḥamšā",
+      "gloss": "five — خ↔ḥ",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 59,
+      "arabic": "سِتّ",
+      "aramaic": "שִׁתָּא šittā",
+      "gloss": "six — س↔š",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 60,
+      "arabic": "سَبع",
+      "aramaic": "שַׁבְעָא šabʿā",
+      "gloss": "seven — س↔š",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 61,
+      "arabic": "ثَمان",
+      "aramaic": "תְּמָנְיָא temānyā",
+      "gloss": "eight — ث→t",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 62,
+      "arabic": "تِسع",
+      "aramaic": "תִּשְׁעָא tišʿā",
+      "gloss": "nine",
+      "verdict": "PERFECT",
+      "category": "num"
+    },
+    {
+      "id": 63,
+      "arabic": "عَشر",
+      "aramaic": "עַשְׂרָא ʿaśrā",
+      "gloss": "ten",
+      "verdict": "PERFECT",
+      "category": "num"
+    },
+    {
+      "id": 64,
+      "arabic": "مِئة",
+      "aramaic": "מְאָה meʾā",
+      "gloss": "hundred",
+      "verdict": "PERFECT",
+      "category": "num"
+    },
+    {
+      "id": 65,
+      "arabic": "أَلف",
+      "aramaic": "אַלְפָא ʾalpā",
+      "gloss": "thousand",
+      "verdict": "PERFECT",
+      "category": "num"
+    },
+    {
+      "id": 66,
+      "arabic": "كَتَب",
+      "aramaic": "כְּתַב ketav",
+      "gloss": "to write",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 67,
+      "arabic": "قَرَأ",
+      "aramaic": "קְרָא qerā",
+      "gloss": "to read, call",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 68,
+      "arabic": "سَمِع",
+      "aramaic": "שְׁמַע šemaʿ",
+      "gloss": "to hear — س↔š",
+      "verdict": "STRONG",
+      "category": "mind"
+    },
+    {
+      "id": 69,
+      "arabic": "عَلِم/يَدَع",
+      "aramaic": "יְדַע yedaʿ",
+      "gloss": "to know (parallel)",
+      "verdict": "PROVISIONAL",
+      "category": "mind"
+    },
+    {
+      "id": 70,
+      "arabic": "ذَكَر",
+      "aramaic": "דְּכַר dekhar",
+      "gloss": "to remember — ذ→d",
+      "verdict": "STRONG",
+      "category": "mind"
+    },
+    {
+      "id": 71,
+      "arabic": "أَكَل",
+      "aramaic": "אֲכַל ʾakhal",
+      "gloss": "to eat",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 72,
+      "arabic": "ماتَ",
+      "aramaic": "מִית mīt",
+      "gloss": "to die",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 73,
+      "arabic": "قَتَل",
+      "aramaic": "קְטַל qeṭal",
+      "gloss": "to kill",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 74,
+      "arabic": "وَلَد/يَلَد",
+      "aramaic": "יְלַד yelad",
+      "gloss": "to give birth — و↔י",
+      "verdict": "STRONG",
+      "category": "kin"
+    },
+    {
+      "id": 75,
+      "arabic": "بَنى",
+      "aramaic": "בְּנָא benā",
+      "gloss": "to build",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 76,
+      "arabic": "عَبَد",
+      "aramaic": "עֲבַד ʿavad",
+      "gloss": "to do, make, serve",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 77,
+      "arabic": "سَكَن/شَكَن",
+      "aramaic": "שְׁכֵן šekhēn",
+      "gloss": "to dwell — س↔š",
+      "verdict": "STRONG",
+      "category": "motion"
+    },
+    {
+      "id": 78,
+      "arabic": "قامَ",
+      "aramaic": "קָם qām",
+      "gloss": "to rise, stand",
+      "verdict": "PERFECT",
+      "category": "motion"
+    },
+    {
+      "id": 79,
+      "arabic": "نَزَل/نَحَت",
+      "aramaic": "נְחֵת neḥēt",
+      "gloss": "to descend",
+      "verdict": "PERFECT",
+      "category": "motion"
+    },
+    {
+      "id": 80,
+      "arabic": "سَجَد",
+      "aramaic": "סְגֵד seged",
+      "gloss": "to prostrate, worship",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 81,
+      "arabic": "صَلّى",
+      "aramaic": "צְלִי ṣelī",
+      "gloss": "to pray — ص↔ṣ",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 82,
+      "arabic": "قُربان",
+      "aramaic": "קוּרְבָּנָא qurbānā",
+      "gloss": "offering, sacrifice",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 83,
+      "arabic": "قُدُس",
+      "aramaic": "קַדִּישָׁא qaddišā",
+      "gloss": "holy — س↔š",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 84,
+      "arabic": "سَلام",
+      "aramaic": "שְׁלָמָא šelāmā",
+      "gloss": "peace — س↔š",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 85,
+      "arabic": "مَلِك",
+      "aramaic": "מַלְכָּא malkā",
+      "gloss": "king",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 86,
+      "arabic": "رَبّ",
+      "aramaic": "רַבָּא rabbā",
+      "gloss": "lord, master, great",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 87,
+      "arabic": "كاهِن",
+      "aramaic": "כָּהֲנָא kāhanā",
+      "gloss": "priest",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 88,
+      "arabic": "نَبيّ",
+      "aramaic": "נְבִיָּא neviyyā",
+      "gloss": "prophet",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 89,
+      "arabic": "سِفر/سَفَر",
+      "aramaic": "סִפְרָא siprā",
+      "gloss": "book, scribe",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 90,
+      "arabic": "بَيت",
+      "aramaic": "בַּיְתָא baytā",
+      "gloss": "house",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 91,
+      "arabic": "باب",
+      "aramaic": "בָּבָא bābā",
+      "gloss": "gate, door",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 92,
+      "arabic": "بِئر",
+      "aramaic": "בֵּירָא bērā",
+      "gloss": "well, pit",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 93,
+      "arabic": "اسم",
+      "aramaic": "שְׁמָא šemā",
+      "gloss": "name — س↔š",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 94,
+      "arabic": "سَنة",
+      "aramaic": "שַׁתָּא šattā",
+      "gloss": "year (š-t)",
+      "verdict": "STRONG",
+      "category": "time"
+    },
+    {
+      "id": 95,
+      "arabic": "دَبَّر/دَبَر",
+      "aramaic": "דַּבַּר dabbar",
+      "gloss": "to lead, speak, word",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 96,
+      "arabic": "حَيّ",
+      "aramaic": "חַי ḥay",
+      "gloss": "alive",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    }
+  ]
+}
