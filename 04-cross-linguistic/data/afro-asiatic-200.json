@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round22",
-  "count": 318,
+  "version": "2026-05-24-round23",
+  "count": 322,
   "verdict_distribution": {
-    "STRONG": 155,
-    "PARTIAL": 89,
+    "STRONG": 157,
+    "PARTIAL": 91,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -3193,6 +3193,46 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "abstract"
+    },
+    {
+      "id": 319,
+      "arabic": "خَرّ (ḫarra)",
+      "egyptian": "ḫr",
+      "gloss": "to fall down — ḫ-r (Eg. ḫr = fall; Quranic خَرّوا سُجَّدًا)",
+      "class": "bare binary · falling",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "motion"
+    },
+    {
+      "id": 320,
+      "arabic": "صَدَع (ṣadaʿa)",
+      "egyptian": "sḏ",
+      "gloss": "to break, split, smash — s/ṣ + ḏ/d",
+      "class": "bare binary · breaking",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 321,
+      "arabic": "دارَ (dāra)",
+      "egyptian": "dbn",
+      "gloss": "to go round, turn, circuit — d + r/n",
+      "class": "trilateral · turning",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "motion"
+    },
+    {
+      "id": 322,
+      "arabic": "شَبِع (shabiʿa)",
+      "egyptian": "sꜣ",
+      "gloss": "to be sated, satisfied, wise — s/š",
+      "class": "bare binary · satiety",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "body"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
