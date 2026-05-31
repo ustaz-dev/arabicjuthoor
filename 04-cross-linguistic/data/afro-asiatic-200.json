@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round23",
-  "count": 322,
+  "version": "2026-05-24-round24",
+  "count": 324,
   "verdict_distribution": {
-    "STRONG": 157,
-    "PARTIAL": 91,
+    "STRONG": 158,
+    "PARTIAL": 92,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -3233,6 +3233,26 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "body"
+    },
+    {
+      "id": 323,
+      "arabic": "وَخى/تَوَخَّى (wakhā)",
+      "egyptian": "wḫꜣ",
+      "gloss": "to seek, search for, pursue — w-ḫ",
+      "class": "bare binary · seeking",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "mind"
+    },
+    {
+      "id": 324,
+      "arabic": "لَون (lawn)",
+      "egyptian": "iwn",
+      "gloss": "color, hue, nature, character — w-n",
+      "class": "bare binary · color",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "nature"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
