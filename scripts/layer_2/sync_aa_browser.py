@@ -29,9 +29,9 @@ for v, n in [('PERFECT', dist['PERFECT']), ('PROTO-FAMILY', dist['PROTO-FAMILY']
              ('PARTIAL', dist['PARTIAL']), ('PROVISIONAL', dist['PROVISIONAL'])]:
     h = re.sub(r'(data-verdict-stat="%s"><div class="stat-num">)\d+' % re.escape(v), r'\g<1>%d' % n, h)
 h = h.replace('>25</div><div class="stat-label">\U0001f511', '>%d</div><div class="stat-label">\U0001f511' % rev)
-h = h.replace('200 entries', '283 entries').replace('200 worked pairs', '283 worked pairs')
-h = h.replace('of 200 entries', 'of 283 entries').replace('مِن 200 مَدخَل', 'مِن 283 مَدخَل')
-h = h.replace('result-count">200<', 'result-count">283<')
+h = h.replace('200 entries', '291 entries').replace('200 worked pairs', '291 worked pairs')
+h = h.replace('of 200 entries', 'of 291 entries').replace('مِن 200 مَدخَل', 'مِن 291 مَدخَل')
+h = h.replace('result-count">200<', 'result-count">291<')
 open(p, 'w', encoding='utf-8').write(h)
 print('Browser regenerated: %d rows, %d revelations' % (len(ents), rev))
 print('STRONG %d PARTIAL %d PROV %d' % (dist['STRONG'], dist['PARTIAL'], dist['PROVISIONAL']))

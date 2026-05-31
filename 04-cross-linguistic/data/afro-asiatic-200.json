@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round14-final",
-  "count": 283,
+  "version": "2026-05-24-round16",
+  "count": 291,
   "verdict_distribution": {
-    "STRONG": 142,
-    "PARTIAL": 67,
+    "STRONG": 144,
+    "PARTIAL": 73,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -2840,6 +2840,86 @@
       "egyptian": "drf",
       "gloss": "writing, script, letter — r-f + d/ḥ",
       "class": "bare binary · script",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 284,
+      "arabic": "مِلح/مالِح (milḥ)",
+      "egyptian": "ḥmꜣt",
+      "gloss": "salt — ḥ-m + l (Eg. ḥmꜣt, metathesis ml↔ḥm)",
+      "class": "trilateral · salt",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "nature"
+    },
+    {
+      "id": 285,
+      "arabic": "سَنّ (sanna)",
+      "egyptian": "sn",
+      "gloss": "to sharpen, whet (the tooth-edge) — s-n (Eg. sn)",
+      "class": "bare binary · sharpening",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 286,
+      "arabic": "حَلَب (ḥalaba)",
+      "egyptian": "ḥḏꜣ",
+      "gloss": "to milk; Eg. milk-stem ḥ + the drawing-out",
+      "class": "trilateral · milking",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 287,
+      "arabic": "نَفَر (nafara)",
+      "egyptian": "nfr",
+      "gloss": "to flee, startle (the good/swift one bolts) — n-f-r",
+      "class": "trilateral · bolting",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "motion"
+    },
+    {
+      "id": 288,
+      "arabic": "حَرَث (ḥaratha)",
+      "egyptian": "ḥrj",
+      "gloss": "to plough, till — ḥ-r (Eg. ḥrj = work the land)",
+      "class": "trilateral · ploughing",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 289,
+      "arabic": "رَقَد (raqada)",
+      "egyptian": "ḳdd",
+      "gloss": "to sleep, lie down — q-d (Eg. ḳdd = sleep)",
+      "class": "bare binary · sleeping",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "motion"
+    },
+    {
+      "id": 290,
+      "arabic": "وَقَد (waqada)",
+      "egyptian": "wbd",
+      "gloss": "to burn, kindle, scorch — w + d (Eg. wbd = burn)",
+      "class": "bare binary · burning",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "nature"
+    },
+    {
+      "id": 291,
+      "arabic": "سَرَد (sarada)",
+      "egyptian": "sḏd",
+      "gloss": "to narrate, recount in sequence — s-d (Eg. sḏd = relate)",
+      "class": "bare binary · narrating",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "abstract"
