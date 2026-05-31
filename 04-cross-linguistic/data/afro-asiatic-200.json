@@ -1,11 +1,11 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round4",
-  "count": 222,
+  "version": "2026-05-24-round5",
+  "count": 231,
   "verdict_distribution": {
-    "STRONG": 112,
+    "STRONG": 117,
+    "PARTIAL": 40,
     "PROVISIONAL": 39,
-    "PARTIAL": 36,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
     "PROTO-FAMILY": 8,
@@ -1688,7 +1688,7 @@
       "id": 168,
       "arabic": "عَدَّ",
       "egyptian": "jp",
-      "gloss": "count, reckon (parallel)",
+      "gloss": "count → use Eg. ḥsb↔حَسَب (#223); jp was the weaker pair",
       "class": "parallel counting-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
@@ -2233,6 +2233,96 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "motion"
+    },
+    {
+      "id": 223,
+      "arabic": "حَسَب (ḥasaba)",
+      "egyptian": "ḥsb",
+      "gloss": "to count, reckon — ḥ-s-b EXACT",
+      "class": "trilateral · exact 3-consonant match",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "mind"
+    },
+    {
+      "id": 224,
+      "arabic": "حَطَم (ḥaṭama)",
+      "egyptian": "ḥtm",
+      "gloss": "to destroy, smash, perish — ḥ-t/ṭ-m",
+      "class": "trilateral · destruction",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 225,
+      "arabic": "جازَ (jāza)",
+      "egyptian": "ḏꜣj",
+      "gloss": "to cross, ferry over — ḏ↔j",
+      "class": "trilateral · crossing",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "motion"
+    },
+    {
+      "id": 226,
+      "arabic": "وُضوء (wuḍūʾ)",
+      "egyptian": "wḏꜣ",
+      "gloss": "to be sound, clean, whole — w-ḍ",
+      "class": "trilateral · soundness",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 227,
+      "arabic": "شَوى (shawā)",
+      "egyptian": "šwj",
+      "gloss": "to dry, roast — š-w",
+      "class": "bare binary · drying",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 228,
+      "arabic": "مَنِيّة (manīya)",
+      "egyptian": "mnj",
+      "gloss": "to moor/die = fate-death — m-n",
+      "class": "bare binary · death",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "kin"
+    },
+    {
+      "id": 229,
+      "arabic": "عَقَد (ʿaqada)",
+      "egyptian": "ꜥrḳ",
+      "gloss": "to bind, swear an oath — ʿ + q/r",
+      "class": "trilateral · binding",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 230,
+      "arabic": "جَبَر (jabara)",
+      "egyptian": "ḏbꜣ",
+      "gloss": "to repay, restore, replace — ḏ/j, b",
+      "class": "trilateral · restoring",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 231,
+      "arabic": "عَذاب (ʿadhāb)",
+      "egyptian": "sḏb",
+      "gloss": "harm, evil, torment — s/ʿ, ḏ, b",
+      "class": "trilateral · harm",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",

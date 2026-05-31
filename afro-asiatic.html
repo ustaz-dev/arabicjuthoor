@@ -163,8 +163,8 @@ table.data tbody tr:hover { background: var(--accent-bg); }
     <div class="stat" data-verdict-stat="PERFECT"><div class="stat-num">13</div><div class="stat-label"><span class="lang-en">Perfect</span><span class="lang-ar">تامّ</span></div></div>
     <div class="stat" data-verdict-stat="PROTO-FAMILY"><div class="stat-num">8</div><div class="stat-label"><span class="lang-en">Proto-Family</span><span class="lang-ar">بِدائيٌّ أُسَريّ</span></div></div>
     <div class="stat" data-verdict-stat="DUAL-FACE"><div class="stat-num">1</div><div class="stat-label"><span class="lang-en">Dual-Face</span><span class="lang-ar">وَجهَين</span></div></div>
-    <div class="stat" data-verdict-stat="STRONG"><div class="stat-num">112</div><div class="stat-label"><span class="lang-en">Strong</span><span class="lang-ar">قَويّ</span></div></div>
-    <div class="stat" data-verdict-stat="PARTIAL"><div class="stat-num">36</div><div class="stat-label"><span class="lang-en">Partial</span><span class="lang-ar">جُزئيّ</span></div></div>
+    <div class="stat" data-verdict-stat="STRONG"><div class="stat-num">117</div><div class="stat-label"><span class="lang-en">Strong</span><span class="lang-ar">قَويّ</span></div></div>
+    <div class="stat" data-verdict-stat="PARTIAL"><div class="stat-num">40</div><div class="stat-label"><span class="lang-en">Partial</span><span class="lang-ar">جُزئيّ</span></div></div>
     <div class="stat" data-verdict-stat="PROVISIONAL"><div class="stat-num">39</div><div class="stat-label"><span class="lang-en">Provisional</span><span class="lang-ar">مُؤَقَّت</span></div></div>
     <div class="stat"><div class="stat-num">75</div><div class="stat-label">🔑 <span class="lang-en">Revelations</span><span class="lang-ar">كَشوفات</span></div></div>
   </div>
@@ -413,7 +413,7 @@ const DATA = [
   [165, "قَطَع", "qd", "cut, sever (cross-link #33)", "shared q-cutting face of قَدِم", "STRONG", 0, "action"],
   [166, "شَلّ", "šlj", "weaken, paralyse", "partial weakening-stems", "PARTIAL", 0, "action"],
   [167, "هَجَر", "hꜣr", "abandon, leave", "h-r exact match", "STRONG", 0, "action"],
-  [168, "عَدَّ", "jp", "count, reckon (parallel)", "parallel counting-stems", "PROVISIONAL", 0, "action"],
+  [168, "عَدَّ", "jp", "count → use Eg. ḥsb↔حَسَب (#223); jp was the weaker pair", "parallel counting-stems", "PROVISIONAL", 0, "action"],
   [169, "قَرَأ", "šd", "read, recite (cross-link #27)", "shared šd recitation-drawing-forth", "STRONG", 0, "mind"],
   [170, "سَطَّر (saṭṭara)", "sšw", "write in lines — s+emphatic [cracked: سطّر not كتب]", "parallel writing-stems", "STRONG", 1, "action"],
   [171, "رَسَم", "ssp", "draw, depict (partial)", "partial light-receiving share", "PARTIAL", 0, "action"],
@@ -468,6 +468,15 @@ const DATA = [
   [220, "خَفى/حَجَب (ḫafā/ḥajaba)", "ḥꜣp", "hide, cover, conceal — ḥ/ḫ + f/p", "trilateral · concealment", "STRONG", 1, "action"],
   [221, "دَجا (dajā)", "dgꜣ", "hide = to become dark — d, g/j", "bare binary · darkening", "PARTIAL", 0, "nature"],
   [222, "عَنّ (ʿanna)", "ꜥnn", "turn back, return, appear — ʿ-n", "bare binary · turning", "PARTIAL", 0, "motion"],
+  [223, "حَسَب (ḥasaba)", "ḥsb", "to count, reckon — ḥ-s-b EXACT", "trilateral · exact 3-consonant match", "STRONG", 1, "mind"],
+  [224, "حَطَم (ḥaṭama)", "ḥtm", "to destroy, smash, perish — ḥ-t/ṭ-m", "trilateral · destruction", "STRONG", 1, "action"],
+  [225, "جازَ (jāza)", "ḏꜣj", "to cross, ferry over — ḏ↔j", "trilateral · crossing", "STRONG", 1, "motion"],
+  [226, "وُضوء (wuḍūʾ)", "wḏꜣ", "to be sound, clean, whole — w-ḍ", "trilateral · soundness", "STRONG", 1, "abstract"],
+  [227, "شَوى (shawā)", "šwj", "to dry, roast — š-w", "bare binary · drying", "STRONG", 1, "action"],
+  [228, "مَنِيّة (manīya)", "mnj", "to moor/die = fate-death — m-n", "bare binary · death", "PARTIAL", 0, "kin"],
+  [229, "عَقَد (ʿaqada)", "ꜥrḳ", "to bind, swear an oath — ʿ + q/r", "trilateral · binding", "PARTIAL", 0, "action"],
+  [230, "جَبَر (jabara)", "ḏbꜣ", "to repay, restore, replace — ḏ/j, b", "trilateral · restoring", "PARTIAL", 0, "action"],
+  [231, "عَذاب (ʿadhāb)", "sḏb", "harm, evil, torment — s/ʿ, ḏ, b", "trilateral · harm", "PARTIAL", 0, "abstract"],
 ];
 
 // State
