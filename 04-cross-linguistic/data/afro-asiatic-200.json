@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round16",
-  "count": 291,
+  "version": "2026-05-24-round17",
+  "count": 294,
   "verdict_distribution": {
-    "STRONG": 144,
-    "PARTIAL": 73,
+    "STRONG": 145,
+    "PARTIAL": 75,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -2923,6 +2923,36 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "abstract"
+    },
+    {
+      "id": 292,
+      "arabic": "طُوب (ṭūb)",
+      "egyptian": "dbt",
+      "gloss": "brick — d/ṭ + b (Eg. dbt → Coptic ⲧⲱⲱⲃⲉ → Ar. طوبة, attested)",
+      "class": "bare binary · attested borrowing",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 293,
+      "arabic": "خِلاف (ḫilāf)",
+      "egyptian": "ḫft",
+      "gloss": "opposite, enemy, against — ḫ-f",
+      "class": "bare binary · opposition",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 294,
+      "arabic": "صَعيد (ṣaʿīd)",
+      "egyptian": "sꜣtw",
+      "gloss": "ground, soil, high-land — s/ṣ + the earth",
+      "class": "trilateral · ground",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "nature"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
