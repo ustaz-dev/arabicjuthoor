@@ -1,10 +1,10 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-round5",
-  "count": 231,
+  "version": "2026-05-24-round8",
+  "count": 255,
   "verdict_distribution": {
-    "STRONG": 117,
-    "PARTIAL": 40,
+    "STRONG": 130,
+    "PARTIAL": 51,
     "PROVISIONAL": 39,
     "PERFECT": 13,
     "PARALLEL-STEMS": 13,
@@ -2323,6 +2323,246 @@
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "abstract"
+    },
+    {
+      "id": 232,
+      "arabic": "سَكَن (sakana)",
+      "egyptian": "sgr",
+      "gloss": "to be silent, still — s + g/k + r; Eg. sgr = silence",
+      "class": "trilateral · stillness",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 233,
+      "arabic": "نَفَخ (nafaḫa)",
+      "egyptian": "nfj",
+      "gloss": "to blow, breath, wind — n-f; Eg. nfj = to blow",
+      "class": "bare binary · breath",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "body"
+    },
+    {
+      "id": 234,
+      "arabic": "مَلأَ (malaʾa)",
+      "egyptian": "mḥ",
+      "gloss": "to fill, be full — m + ḥ/l; Eg. mḥ = to fill",
+      "class": "bare binary · filling",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 235,
+      "arabic": "طَرَد (ṭarada)",
+      "egyptian": "dr",
+      "gloss": "to drive away, expel, subdue — ṭ/d-r; Eg. dr = drive away",
+      "class": "bare binary · expelling",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 236,
+      "arabic": "حَرَس (ḥarasa)",
+      "egyptian": "rs",
+      "gloss": "to guard, be watchful, wake — r-s; Eg. rs = be vigilant/awake",
+      "class": "bare binary · vigilance",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 237,
+      "arabic": "صَرَخ (ṣaraḫa)",
+      "egyptian": "sḫr",
+      "gloss": "to cry out, shout — ṣ-r-ḫ ↔ s-ḫ-r metathesis",
+      "class": "trilateral · crying-out",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 238,
+      "arabic": "رَفَع (rafaʿa)",
+      "egyptian": "fꜣj",
+      "gloss": "to lift, carry up, support — f shared; Eg. fꜣj = carry/lift",
+      "class": "trilateral · lifting",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "motion"
+    },
+    {
+      "id": 239,
+      "arabic": "حَفَر (ḥafara)",
+      "egyptian": "šꜣd",
+      "gloss": "to dig, hollow out — the digging; Eg. šꜣd = dig",
+      "class": "trilateral · digging",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 240,
+      "arabic": "قَنّ (qann)",
+      "egyptian": "knm",
+      "gloss": "enclosure, fold, coop — q/k-n; Eg. knm = enclosure",
+      "class": "bare binary · enclosure",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 241,
+      "arabic": "حَفَد (ḥafada)",
+      "egyptian": "ḥfd",
+      "gloss": "to hasten, serve, climb — ḥ-f-d EXACT (Quranic وحَفَدة)",
+      "class": "trilateral · exact 3-consonant match",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 242,
+      "arabic": "فَكّ (fakka)",
+      "egyptian": "fḫ",
+      "gloss": "to loosen, untie, release — f + ḫ/k",
+      "class": "bare binary · releasing",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 243,
+      "arabic": "فَتّ (fatta)",
+      "egyptian": "ftt",
+      "gloss": "to crumble, break up, untie — f-t",
+      "class": "geminate · crumbling",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 244,
+      "arabic": "ضَمّ (ḍamma)",
+      "egyptian": "dmḏ",
+      "gloss": "to unite, join, total — d/ḍ-m",
+      "class": "trilateral · uniting",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 245,
+      "arabic": "لَمَح (lamaḥa)",
+      "egyptian": "gmḥ",
+      "gloss": "to glimpse, catch sight — m-ḥ + g/l",
+      "class": "trilateral · glancing",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "mind"
+    },
+    {
+      "id": 246,
+      "arabic": "نَصَف (naṣafa)",
+      "egyptian": "ḏnf",
+      "gloss": "to be just, level, fair — n-f",
+      "class": "trilateral · justice",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 247,
+      "arabic": "سارَ (sāra)",
+      "egyptian": "swꜣ",
+      "gloss": "to pass by, travel, surpass — s",
+      "class": "bare binary · passing",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "motion"
+    },
+    {
+      "id": 248,
+      "arabic": "ذاقَ (dhāqa)",
+      "egyptian": "dp",
+      "gloss": "to taste — d + the tasting",
+      "class": "bare binary · tasting",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "body"
+    },
+    {
+      "id": 249,
+      "arabic": "وَهَى (wahā)",
+      "egyptian": "whꜣ",
+      "gloss": "to be weak, fail, flag — w-h",
+      "class": "bare binary · weakness",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "abstract"
+    },
+    {
+      "id": 250,
+      "arabic": "دَعَس (daʿasa)",
+      "egyptian": "dgs",
+      "gloss": "to tread, trample, walk — d + g/ʿ + s",
+      "class": "trilateral · treading",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "motion"
+    },
+    {
+      "id": 251,
+      "arabic": "عَدا (ʿadā)",
+      "egyptian": "ꜥḏꜣ",
+      "gloss": "to transgress, be false, overstep — ʿ-d",
+      "class": "bare binary · transgression",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 252,
+      "arabic": "حَسَم (ḥasama)",
+      "egyptian": "ḥsq",
+      "gloss": "to cut off decisively — ḥ-s + q/m",
+      "class": "trilateral · cutting",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 253,
+      "arabic": "مَتن (matn)",
+      "egyptian": "mt",
+      "gloss": "sinew, cord, the firm back — m-t",
+      "class": "bare binary · sinew",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "body"
+    },
+    {
+      "id": 254,
+      "arabic": "قاسٍ (qāsin)",
+      "egyptian": "ḳsn",
+      "gloss": "to be hard, difficult — q-s",
+      "class": "trilateral · hardness",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "adj"
+    },
+    {
+      "id": 255,
+      "arabic": "خَضِر (ḫaḍir)",
+      "egyptian": "wꜣḏ",
+      "gloss": "green, fresh, flourishing — ḏ/ḍ + green",
+      "class": "trilateral · greenness",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "nature"
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",

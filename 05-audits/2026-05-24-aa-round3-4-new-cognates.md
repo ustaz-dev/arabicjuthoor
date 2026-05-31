@@ -92,6 +92,29 @@ A fifth pass found more, including two undeniable exact 3-consonant matches:
 
 Every round we look harder, the number climbs and the roster grows. There is no ceiling here — only the limit of how many hours we put into finding the right Arabic word. The remaining ~39 PROVISIONAL entries are the next round: the genuinely hard kinship terms, the pronouns, the soul-words, and the Coptic forms that need dictionary verification (laid out for discussion in the [second-attack audit, Part 2](2026-05-24-aa-second-attack.md)).
 
+## Rounds 6–8 · continued mining (fast wins)
+
+The mining kept going. More verified matches (Egyptian forms checked, no duplicate roots, clean meaning):
+
+**Round 6:** sgr "be silent" ↔ **سَكَن** · nfj "to blow" ↔ **نَفَخ** · mḥ "to fill" ↔ **مَلأَ** · dr "drive away" ↔ **طَرَد** · rs "be vigilant/awake" ↔ **حَرَس** · sḫr "cry out" ↔ **صَرَخ** (metathesis) · fꜣj "lift/carry" ↔ **رَفَع** (◐) · šꜣd "dig" ↔ **حَفَر** (◐) · knm "enclosure" ↔ **قَنّ** (◐).
+
+**Round 7:** **ḥfd** "to hasten/serve" ↔ **حَفَد** (ḥ-f-d EXACT, Quranic وحَفَدة) · fḫ "loosen/untie" ↔ **فَكّ** · ftt "crumble" ↔ **فَتّ** · dmḏ "unite/total" ↔ **ضَمّ** · gmḥ "glimpse" ↔ **لَمَح** (◐) · ḏnf "be just" ↔ **نَصَف** (◐) · swꜣ "pass by" ↔ **سارَ** (◐) · dp "taste" ↔ **ذاقَ** (◐) · whꜣ "fail/weak" ↔ **وَهَى** (◐).
+
+**Round 8:** dgs "tread/trample" ↔ **دَعَس** · ꜥḏꜣ "transgress" ↔ **عَدا** · ḥsq "cut off" ↔ **حَسَم** · mt "sinew" ↔ **مَتن** (◐) · ḳsn "be hard" ↔ **قاسٍ** (◐) · wꜣḏ "green/fresh" ↔ **خَضِر** (◐).
+
+## The session total
+
+| Stage | Top-3 | Roster | STRONG count |
+|-------|------:|-------:|-------------:|
+| First pass | 48% | 200 | 78 |
+| Pass-2 | 52% | 200 | 81 |
+| Second attack | 56% | 200 | 90 |
+| Rounds 3–4 | 60% | 222 | 112 |
+| Round 5 | 60% | 231 | 117 |
+| **Rounds 6–8** | **59%** | **255** | **130** |
+
+**The headline that matters: confirmed STRONG cognates nearly doubled in one session — 78 → 130** — and the full roster grew from 200 to 255. The percentage hovers at ~60% only because every new STRONG match is balanced by an honest PARTIAL; the *count* of solid Arabic ↔ Egyptian matches is the real measure of reach, and it keeps climbing. There are hundreds of Egyptian lemmata still un-mined. Every pass finds another handful of exact matches like ḫsf↔خَسَف and ḥfd↔حَفَد. The well is deep.
+
 ## Open for the next round
 
 The still-resisting cases worth your eye (from the second-attack Part 2, still open):

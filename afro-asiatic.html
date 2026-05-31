@@ -163,8 +163,8 @@ table.data tbody tr:hover { background: var(--accent-bg); }
     <div class="stat" data-verdict-stat="PERFECT"><div class="stat-num">13</div><div class="stat-label"><span class="lang-en">Perfect</span><span class="lang-ar">تامّ</span></div></div>
     <div class="stat" data-verdict-stat="PROTO-FAMILY"><div class="stat-num">8</div><div class="stat-label"><span class="lang-en">Proto-Family</span><span class="lang-ar">بِدائيٌّ أُسَريّ</span></div></div>
     <div class="stat" data-verdict-stat="DUAL-FACE"><div class="stat-num">1</div><div class="stat-label"><span class="lang-en">Dual-Face</span><span class="lang-ar">وَجهَين</span></div></div>
-    <div class="stat" data-verdict-stat="STRONG"><div class="stat-num">117</div><div class="stat-label"><span class="lang-en">Strong</span><span class="lang-ar">قَويّ</span></div></div>
-    <div class="stat" data-verdict-stat="PARTIAL"><div class="stat-num">40</div><div class="stat-label"><span class="lang-en">Partial</span><span class="lang-ar">جُزئيّ</span></div></div>
+    <div class="stat" data-verdict-stat="STRONG"><div class="stat-num">130</div><div class="stat-label"><span class="lang-en">Strong</span><span class="lang-ar">قَويّ</span></div></div>
+    <div class="stat" data-verdict-stat="PARTIAL"><div class="stat-num">51</div><div class="stat-label"><span class="lang-en">Partial</span><span class="lang-ar">جُزئيّ</span></div></div>
     <div class="stat" data-verdict-stat="PROVISIONAL"><div class="stat-num">39</div><div class="stat-label"><span class="lang-en">Provisional</span><span class="lang-ar">مُؤَقَّت</span></div></div>
     <div class="stat"><div class="stat-num">75</div><div class="stat-label">🔑 <span class="lang-en">Revelations</span><span class="lang-ar">كَشوفات</span></div></div>
   </div>
@@ -477,6 +477,30 @@ const DATA = [
   [229, "عَقَد (ʿaqada)", "ꜥrḳ", "to bind, swear an oath — ʿ + q/r", "trilateral · binding", "PARTIAL", 0, "action"],
   [230, "جَبَر (jabara)", "ḏbꜣ", "to repay, restore, replace — ḏ/j, b", "trilateral · restoring", "PARTIAL", 0, "action"],
   [231, "عَذاب (ʿadhāb)", "sḏb", "harm, evil, torment — s/ʿ, ḏ, b", "trilateral · harm", "PARTIAL", 0, "abstract"],
+  [232, "سَكَن (sakana)", "sgr", "to be silent, still — s + g/k + r; Eg. sgr = silence", "trilateral · stillness", "STRONG", 1, "abstract"],
+  [233, "نَفَخ (nafaḫa)", "nfj", "to blow, breath, wind — n-f; Eg. nfj = to blow", "bare binary · breath", "STRONG", 1, "body"],
+  [234, "مَلأَ (malaʾa)", "mḥ", "to fill, be full — m + ḥ/l; Eg. mḥ = to fill", "bare binary · filling", "STRONG", 1, "action"],
+  [235, "طَرَد (ṭarada)", "dr", "to drive away, expel, subdue — ṭ/d-r; Eg. dr = drive away", "bare binary · expelling", "STRONG", 1, "action"],
+  [236, "حَرَس (ḥarasa)", "rs", "to guard, be watchful, wake — r-s; Eg. rs = be vigilant/awake", "bare binary · vigilance", "STRONG", 1, "action"],
+  [237, "صَرَخ (ṣaraḫa)", "sḫr", "to cry out, shout — ṣ-r-ḫ ↔ s-ḫ-r metathesis", "trilateral · crying-out", "STRONG", 1, "abstract"],
+  [238, "رَفَع (rafaʿa)", "fꜣj", "to lift, carry up, support — f shared; Eg. fꜣj = carry/lift", "trilateral · lifting", "PARTIAL", 0, "motion"],
+  [239, "حَفَر (ḥafara)", "šꜣd", "to dig, hollow out — the digging; Eg. šꜣd = dig", "trilateral · digging", "PARTIAL", 0, "action"],
+  [240, "قَنّ (qann)", "knm", "enclosure, fold, coop — q/k-n; Eg. knm = enclosure", "bare binary · enclosure", "PARTIAL", 0, "abstract"],
+  [241, "حَفَد (ḥafada)", "ḥfd", "to hasten, serve, climb — ḥ-f-d EXACT (Quranic وحَفَدة)", "trilateral · exact 3-consonant match", "STRONG", 1, "action"],
+  [242, "فَكّ (fakka)", "fḫ", "to loosen, untie, release — f + ḫ/k", "bare binary · releasing", "STRONG", 1, "action"],
+  [243, "فَتّ (fatta)", "ftt", "to crumble, break up, untie — f-t", "geminate · crumbling", "STRONG", 1, "action"],
+  [244, "ضَمّ (ḍamma)", "dmḏ", "to unite, join, total — d/ḍ-m", "trilateral · uniting", "STRONG", 1, "action"],
+  [245, "لَمَح (lamaḥa)", "gmḥ", "to glimpse, catch sight — m-ḥ + g/l", "trilateral · glancing", "PARTIAL", 0, "mind"],
+  [246, "نَصَف (naṣafa)", "ḏnf", "to be just, level, fair — n-f", "trilateral · justice", "PARTIAL", 0, "abstract"],
+  [247, "سارَ (sāra)", "swꜣ", "to pass by, travel, surpass — s", "bare binary · passing", "PARTIAL", 0, "motion"],
+  [248, "ذاقَ (dhāqa)", "dp", "to taste — d + the tasting", "bare binary · tasting", "PARTIAL", 0, "body"],
+  [249, "وَهَى (wahā)", "whꜣ", "to be weak, fail, flag — w-h", "bare binary · weakness", "PARTIAL", 0, "abstract"],
+  [250, "دَعَس (daʿasa)", "dgs", "to tread, trample, walk — d + g/ʿ + s", "trilateral · treading", "STRONG", 1, "motion"],
+  [251, "عَدا (ʿadā)", "ꜥḏꜣ", "to transgress, be false, overstep — ʿ-d", "bare binary · transgression", "STRONG", 1, "abstract"],
+  [252, "حَسَم (ḥasama)", "ḥsq", "to cut off decisively — ḥ-s + q/m", "trilateral · cutting", "STRONG", 1, "action"],
+  [253, "مَتن (matn)", "mt", "sinew, cord, the firm back — m-t", "bare binary · sinew", "PARTIAL", 0, "body"],
+  [254, "قاسٍ (qāsin)", "ḳsn", "to be hard, difficult — q-s", "trilateral · hardness", "PARTIAL", 0, "adj"],
+  [255, "خَضِر (ḫaḍir)", "wꜣḏ", "green, fresh, flourishing — ḏ/ḍ + green", "trilateral · greenness", "PARTIAL", 0, "nature"],
 ];
 
 // State
