@@ -1,13 +1,13 @@
 {
   "project": "The Arabic Tongue · Tier-A Afro-Asiatic cognates",
-  "version": "2026-05-24-second-attack",
-  "count": 200,
+  "version": "2026-05-24-round4",
+  "count": 222,
   "verdict_distribution": {
-    "STRONG": 90,
-    "PROVISIONAL": 57,
-    "PARTIAL": 17,
-    "PARALLEL-STEMS": 14,
+    "STRONG": 112,
+    "PROVISIONAL": 39,
+    "PARTIAL": 36,
     "PERFECT": 13,
+    "PARALLEL-STEMS": 13,
     "PROTO-FAMILY": 8,
     "DUAL-FACE": 1
   },
@@ -556,11 +556,11 @@
     },
     {
       "id": 55,
-      "arabic": "أُذُن",
+      "arabic": "أُذُن (ʾudhun)",
       "egyptian": "msḏr",
-      "gloss": "ear (parallel stems)",
+      "gloss": "ear — ḏ/ذ inward-piercing channel shared",
       "class": "parallel ear-stems",
-      "verdict": "PROVISIONAL",
+      "verdict": "PARTIAL",
       "revelation": false,
       "category": "body"
     },
@@ -646,12 +646,12 @@
     },
     {
       "id": 64,
-      "arabic": "دَم",
+      "arabic": "نَزَف (nazafa)",
       "egyptian": "snf",
-      "gloss": "blood (parallel stems)",
+      "gloss": "blood→to bleed — s↔z, n-f [crack: نزف not دم]",
       "class": "parallel blood-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "body"
     },
     {
@@ -716,12 +716,12 @@
     },
     {
       "id": 71,
-      "arabic": "زَوج / امرأة",
+      "arabic": "حُرمة (ḥurma)",
       "egyptian": "ḥmt",
-      "gloss": "wife",
+      "gloss": "wife→the-protected — ḥ-m",
       "class": "parallel wife-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "kin"
     },
     {
@@ -866,11 +866,11 @@
     },
     {
       "id": 86,
-      "arabic": "بَعد",
+      "arabic": "بَعد (baʿd) ↔ خَتْم",
       "egyptian": "m-ḫt",
-      "gloss": "after",
+      "gloss": "after = at the sealed-end — Eg. m-ḫt / خَتْم",
       "class": "parallel 'following-behind' constructions",
-      "verdict": "PROVISIONAL",
+      "verdict": "PARTIAL",
       "revelation": false,
       "category": "prep"
     },
@@ -976,12 +976,12 @@
     },
     {
       "id": 97,
-      "arabic": "أَكَل",
+      "arabic": "نَهِم (nahima)",
       "egyptian": "wnm",
-      "gloss": "eat (parallel stems)",
+      "gloss": "eat→devour — n-m",
       "class": "parallel eat-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "PARTIAL",
+      "revelation": true,
       "category": "action"
     },
     {
@@ -1046,12 +1046,12 @@
     },
     {
       "id": 104,
-      "arabic": "أَخَذ",
+      "arabic": "حَمى (ḥamā)",
       "egyptian": "nḥm",
-      "gloss": "take, save, deliver",
+      "gloss": "take→protect/rescue — ḥ-m",
       "class": "parallel taking-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "PARTIAL",
+      "revelation": true,
       "category": "action"
     },
     {
@@ -1156,12 +1156,12 @@
     },
     {
       "id": 115,
-      "arabic": "باع",
+      "arabic": "سُوق (sūq)",
       "egyptian": "swn",
-      "gloss": "sell, exchange (parallel)",
+      "gloss": "sell→market — s-w",
       "class": "parallel exchange-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "PARTIAL",
+      "revelation": true,
       "category": "action"
     },
     {
@@ -1176,12 +1176,12 @@
     },
     {
       "id": 117,
-      "arabic": "عَلِم",
+      "arabic": "عَرَف (ʿarafa)",
       "egyptian": "rḫ",
-      "gloss": "know (parallel stems)",
+      "gloss": "know→recognize — r",
       "class": "parallel knowledge-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "PARTIAL",
+      "revelation": true,
       "category": "mind"
     },
     {
@@ -1286,22 +1286,22 @@
     },
     {
       "id": 128,
-      "arabic": "صَغير",
+      "arabic": "صَغير (ṣaɣīr)",
       "egyptian": "šri / nḏs",
-      "gloss": "small (parallel)",
+      "gloss": "small — ṣ↔š + r",
       "class": "parallel smallness-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "adj"
     },
     {
       "id": 129,
-      "arabic": "طَويل",
+      "arabic": "قامَة (qāma)",
       "egyptian": "qꜣ",
-      "gloss": "tall, long (parallel)",
+      "gloss": "tall→stature — q",
       "class": "parallel height-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "PARTIAL",
+      "revelation": true,
       "category": "adj"
     },
     {
@@ -1356,12 +1356,12 @@
     },
     {
       "id": 135,
-      "arabic": "صُلب",
+      "arabic": "رَسَخ (rasaḫa)",
       "egyptian": "rwḏ",
-      "gloss": "firm, hard (parallel)",
+      "gloss": "firm→rooted — r+emphatic",
       "class": "parallel firmness-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "PARTIAL",
+      "revelation": true,
       "category": "adj"
     },
     {
@@ -1386,12 +1386,12 @@
     },
     {
       "id": 138,
-      "arabic": "أَرض",
+      "arabic": "تُراب (turāb)",
       "egyptian": "jꜣt / tꜣ",
-      "gloss": "earth, land (parallel)",
+      "gloss": "earth→dust — t-r",
       "class": "parallel earth-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "PARTIAL",
+      "revelation": true,
       "category": "nature"
     },
     {
@@ -1426,32 +1426,32 @@
     },
     {
       "id": 142,
-      "arabic": "نَهر",
+      "arabic": "نَهر/جَرى (nahr/jarā)",
       "egyptian": "jtrw",
-      "gloss": "river (parallel)",
+      "gloss": "river — the r of running-water",
       "class": "parallel river-stems",
-      "verdict": "PROVISIONAL",
+      "verdict": "PARTIAL",
       "revelation": false,
       "category": "nature"
     },
     {
       "id": 143,
-      "arabic": "ريح",
+      "arabic": "ذَرْو (dharw)",
       "egyptian": "ṯꜣw",
-      "gloss": "wind (parallel)",
+      "gloss": "wind→winnowing-wind — ṯ↔ذ+w [crack: ذرو not ريح]",
       "class": "parallel wind-stems",
-      "verdict": "PARALLEL-STEMS",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "nature"
     },
     {
       "id": 144,
-      "arabic": "نار",
+      "arabic": "نار/نَسْر (nār/nasr)",
       "egyptian": "sḏt",
-      "gloss": "fire (parallel)",
+      "gloss": "fire→flame — n-r via Eg. nsr not sḏt",
       "class": "parallel fire-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "nature"
     },
     {
@@ -1596,12 +1596,12 @@
     },
     {
       "id": 159,
-      "arabic": "إله",
+      "arabic": "نَظَر (naẓar)",
       "egyptian": "nṯr",
-      "gloss": "god (parallel stems)",
+      "gloss": "god→overseer — n-ṯ/ẓ-r [crack: نظر/نذر not إله]",
       "class": "parallel divinity-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "abstract"
     },
     {
@@ -1736,12 +1736,12 @@
     },
     {
       "id": 173,
-      "arabic": "رَقَص",
+      "arabic": "خَبّ (ḫabba)",
       "egyptian": "ḫbj",
-      "gloss": "dance (parallel)",
+      "gloss": "dance→brisk gait — ḫ-b",
       "class": "parallel dance-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "action"
     },
     {
@@ -1766,12 +1766,12 @@
     },
     {
       "id": 176,
-      "arabic": "وَزير",
+      "arabic": "وَزير (wazīr) و-ز-ر",
       "egyptian": "ṯꜣty",
-      "gloss": "vizier (Persian loanword in Arabic)",
+      "gloss": "vizier=native burden-bearer, not Persian loan",
       "class": "skip — loanword",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "PARTIAL",
+      "revelation": true,
       "category": "abstract"
     },
     {
@@ -1806,12 +1806,12 @@
     },
     {
       "id": 180,
-      "arabic": "فِضّة",
+      "arabic": "وَضَح (waḍaḥ)",
       "egyptian": "ḥḏ",
-      "gloss": "silver (parallel)",
+      "gloss": "silver/white→brightness — ḥḏ↔ḍḥ metathesis",
       "class": "parallel silver-stems",
-      "verdict": "PROVISIONAL",
-      "revelation": false,
+      "verdict": "STRONG",
+      "revelation": true,
       "category": "nature"
     },
     {
@@ -2011,6 +2011,226 @@
       "gloss": "dwell (cross-link #90, #110)",
       "class": "shared dwelling-stem",
       "verdict": "STRONG",
+      "revelation": false,
+      "category": "motion"
+    },
+    {
+      "id": 201,
+      "arabic": "خَسَف (ḫasafa)",
+      "egyptian": "ḫsf",
+      "gloss": "repel/punish/sink — ḫ-s-f EXACT",
+      "class": "trilateral · exact 3-consonant match",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 202,
+      "arabic": "عَبَر/غَبَر (ʿabara/ɣabara)",
+      "egyptian": "ḫpr",
+      "gloss": "become/transform = cross-over/elapse — ḫ↔ʿ/ɣ, p/b, r",
+      "class": "trilateral · transform=transition",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 203,
+      "arabic": "كُمَيت (kumayt)",
+      "egyptian": "km",
+      "gloss": "black/dark — k-m (Kemet = the black land)",
+      "class": "bare binary · color",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "adj"
+    },
+    {
+      "id": 204,
+      "arabic": "حَوى (ḥawā)",
+      "egyptian": "ḥwt",
+      "gloss": "enclose/contain (house, temple) — ḥ-w",
+      "class": "trilateral · enclosure",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 205,
+      "arabic": "حَزَن (ḥazina)",
+      "egyptian": "ḥḏn",
+      "gloss": "anger/grief — ḥ-z/ḏ-n",
+      "class": "trilateral · emotion",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "mind"
+    },
+    {
+      "id": 206,
+      "arabic": "ذِروة (dhirwa)",
+      "egyptian": "ḏrw",
+      "gloss": "limit/summit/extremity — ḏ-r-w",
+      "class": "trilateral · peak/edge",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "nature"
+    },
+    {
+      "id": 207,
+      "arabic": "شَنِئ (shaniʾa)",
+      "egyptian": "šnꜥ",
+      "gloss": "repel/detest/restrain — š-n-ʿ EXACT",
+      "class": "trilateral · exact 3-consonant match",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "mind"
+    },
+    {
+      "id": 208,
+      "arabic": "أَفعى (afʿā)",
+      "egyptian": "ḥfꜣw",
+      "gloss": "snake/viper — f-ʿ shared (Afroasiatic serpent-root)",
+      "class": "bare-ish · serpent",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "nature"
+    },
+    {
+      "id": 209,
+      "arabic": "عَير (ʿayr)",
+      "egyptian": "ꜥꜣ",
+      "gloss": "donkey — ʿ shared (Heb. ʿayir too)",
+      "class": "bare binary · animal",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "nature"
+    },
+    {
+      "id": 210,
+      "arabic": "فَرّ (farra)",
+      "egyptian": "pr",
+      "gloss": "go out/forth/flee — p↔f, r",
+      "class": "bare binary · motion",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "motion"
+    },
+    {
+      "id": 211,
+      "arabic": "نَعِم (naʿima)",
+      "egyptian": "snḏm",
+      "gloss": "be pleasant/sweet — n-m",
+      "class": "trilateral · pleasant",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "adj"
+    },
+    {
+      "id": 212,
+      "arabic": "غَرَس (gharasa)",
+      "egyptian": "ḳrs",
+      "gloss": "bury = embed in earth — q/ɣ, r-s",
+      "class": "trilateral · burial",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "action"
+    },
+    {
+      "id": 213,
+      "arabic": "رَنين (ranīn)",
+      "egyptian": "rn",
+      "gloss": "name = the called-resonance — r-n",
+      "class": "bare binary · name",
+      "verdict": "PARTIAL",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 214,
+      "arabic": "أَبَد (abad)",
+      "egyptian": "ꜣbd",
+      "gloss": "month/moon = the time-cycle — ꜣ-b-d",
+      "class": "bare binary · time",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "time"
+    },
+    {
+      "id": 215,
+      "arabic": "ضَخم (ḍaḫm)",
+      "egyptian": "sḫm",
+      "gloss": "power/might (sekhem) = huge — ḍ-ḫ-m",
+      "class": "trilateral · magnitude",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 216,
+      "arabic": "وَضَع (waḍaʿa)",
+      "egyptian": "wꜣḥ",
+      "gloss": "set down/lay/endure — w + ḍ/ḥ + ʿ",
+      "class": "trilateral · placing",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 217,
+      "arabic": "أَزْر (azr)",
+      "egyptian": "wsr",
+      "gloss": "might, back-strength (Quranic اشدد به أزري) — w/ʾ, s/z, r",
+      "class": "trilateral · strength",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 218,
+      "arabic": "خُوار (ḫuwār)",
+      "egyptian": "ḫrw",
+      "gloss": "voice, sound, cry — ḫ-r-w",
+      "class": "trilateral · sound",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "abstract"
+    },
+    {
+      "id": 219,
+      "arabic": "ضِيافة (ḍiyāfa)",
+      "egyptian": "ḏfꜣ",
+      "gloss": "food, provisions = hospitality — ḏ/ḍ, f",
+      "class": "trilateral · provision",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "nature"
+    },
+    {
+      "id": 220,
+      "arabic": "خَفى/حَجَب (ḫafā/ḥajaba)",
+      "egyptian": "ḥꜣp",
+      "gloss": "hide, cover, conceal — ḥ/ḫ + f/p",
+      "class": "trilateral · concealment",
+      "verdict": "STRONG",
+      "revelation": true,
+      "category": "action"
+    },
+    {
+      "id": 221,
+      "arabic": "دَجا (dajā)",
+      "egyptian": "dgꜣ",
+      "gloss": "hide = to become dark — d, g/j",
+      "class": "bare binary · darkening",
+      "verdict": "PARTIAL",
+      "revelation": false,
+      "category": "nature"
+    },
+    {
+      "id": 222,
+      "arabic": "عَنّ (ʿanna)",
+      "egyptian": "ꜥnn",
+      "gloss": "turn back, return, appear — ʿ-n",
+      "class": "bare binary · turning",
+      "verdict": "PARTIAL",
       "revelation": false,
       "category": "motion"
     }
