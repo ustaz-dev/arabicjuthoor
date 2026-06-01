@@ -5,7 +5,7 @@
 **Method:** the same blind-rescore methodology that took the Indo-European Pass-1 ≥0.65 pool of 770 candidates down to a calibrated 189 (see [`2026-05-21-opus-calibrated-770.md`](2026-05-21-opus-calibrated-770.md)), now applied to the AA Tier-A roster
 **Goal:** decide which PROVISIONAL verdicts survive a stricter second pass, which should be promoted, and which should be downgraded or removed
 
-> The Arabic version is at [`2026-05-24-aa-pass2-audit-ar.md`](2026-05-24-aa-pass2-audit-ar.md).
+> The Arabic version is forthcoming.
 
 ## In one paragraph
 

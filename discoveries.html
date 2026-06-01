@@ -25,6 +25,10 @@
 </script>
 
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="fonts/inter-UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="fonts/amiri-J7aRnpd8CGxBHpUrtLMA7w.woff2">
 <link rel="stylesheet" href="fonts.css" />
 
 <style>
@@ -57,6 +61,18 @@ html[data-lang="ar"] .lang-en { display: none !important; }
 .ar-display { font-family: var(--font-ar-display); }
 *:focus { outline: none; }
 *:focus-visible { outline: 3px solid var(--accent-strong); outline-offset: 3px; border-radius: 4px; }
+
+/* Skip-link — hidden until keyboard focus reveals it */
+.skip-link {
+  position: absolute; top: -100px; left: 12px; z-index: 9999;
+  background: var(--accent-strong); color: white;
+  padding: 10px 16px; border-radius: 6px;
+  text-decoration: none; font-weight: 600; font-size: 14px;
+  transition: top .15s;
+}
+.skip-link:focus-visible {
+  top: 12px; outline: 3px solid var(--text); outline-offset: 2px;
+}
 
 .topbar { position: sticky; top: 0; z-index: 50; background: rgba(253, 250, 245, 0.92); backdrop-filter: saturate(180%) blur(10px); border-bottom: 1px solid var(--border); }
 [data-theme="dark"] .topbar { background: rgba(22, 24, 33, 0.92); }
@@ -143,6 +159,8 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
 </head>
 <body>
 
+<a class="skip-link" href="#main-content"><span class="lang-en">Skip to content</span><span class="lang-ar">تَخَطّ إلى المُحتوى</span></a>
+
 <nav class="topbar">
   <div class="topbar-inner">
     <a class="brand" href="index.html">
@@ -163,7 +181,7 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
   </div>
 </nav>
 
-<main>
+<main id="main-content">
   <h1 class="page-title">
     <span class="lang-en">Cross-linguistic discoveries</span>
     <span class="lang-ar">الاكتِشافاتُ بَين اللُّغات</span>

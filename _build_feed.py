@@ -58,26 +58,37 @@ def entry_for(path: Path) -> dict:
     return {"title": title, "summary": summary, "date": d, "url": url, "id": url}
 
 
-def main() -> None:
+def build_feed_for_lang(lang: str, filename: str, feed_title: str, feed_sub: str, rights_text: str) -> None:
+    # Filter files based on language suffix in filename
+    if lang == "ar":
+        filter_fn = lambda p: p.name.endswith("-ar.md")
+    else:
+        filter_fn = lambda p: not p.name.endswith("-ar.md")
+
     files = sorted(
-        [p for p in AUDITS.glob("*.md") if p.name != "README.md" and not p.name.startswith("_")],
+        [p for p in AUDITS.glob("*.md") if p.name != "README.md" and not p.name.startswith("_") and filter_fn(p)],
         key=lambda p: p.name,
         reverse=True,
     )
+    if not files:
+        print(f"No files found for {lang} feed")
+        return
+
     entries = [entry_for(p) for p in files]
     updated = max((e["date"] for e in entries), default=datetime.now(timezone.utc))
+    feed_url = f"{SITE}/{filename}"
 
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">',
-        f"  <title>{escape(FEED_TITLE)}</title>",
-        f"  <subtitle>{escape(FEED_SUB)}</subtitle>",
+        f'<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{lang}">',
+        f"  <title>{escape(feed_title)}</title>",
+        f"  <subtitle>{escape(feed_sub)}</subtitle>",
         f'  <link href="{SITE}/" />',
-        f'  <link rel="self" type="application/atom+xml" href="{FEED_URL}" />',
-        f"  <id>{FEED_URL}</id>",
+        f'  <link rel="self" type="application/atom+xml" href="{feed_url}" />',
+        f"  <id>{feed_url}</id>",
         f"  <updated>{iso(updated)}</updated>",
         f"  <author><name>{escape(AUTHOR_NAME)}</name></author>",
-        f"  <rights>© Temessek for Research, Publishing &amp; Training</rights>",
+        f"  <rights>{escape(rights_text)}</rights>",
         "",
     ]
     for e in entries:
@@ -92,8 +103,27 @@ def main() -> None:
             "  </entry>",
         ]
     out.append("</feed>")
-    (ROOT / "feed.xml").write_text("\n".join(out), encoding="utf-8")
-    print(f"feed.xml -> {len(entries)} entries, latest {iso(updated)}")
+    (ROOT / filename).write_text("\n".join(out), encoding="utf-8")
+    print(f"{filename} -> {len(entries)} entries, latest {iso(updated)}")
+
+
+def main() -> None:
+    # Build English feed
+    build_feed_for_lang(
+        lang="en",
+        filename="feed.xml",
+        feed_title=FEED_TITLE,
+        feed_sub=FEED_SUB,
+        rights_text="© Temessek for Research, Publishing & Training",
+    )
+    # Build Arabic feed
+    build_feed_for_lang(
+        lang="ar",
+        filename="feed-ar.xml",
+        feed_title="جُذُور · التَّدقيقات والمُلاحظات البَحْثيّة",
+        feed_sub="دفتر المختبر لِلِسان العربيّ: تَدقيقات البَيانات، وتَحقيقات الشُّذوذ، والفُروق البِنيَويّة.",
+        rights_text="© تَمَسُّك للبحوث والنشر والتدريب",
+    )
 
 
 if __name__ == "__main__":

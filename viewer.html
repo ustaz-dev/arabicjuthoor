@@ -17,6 +17,10 @@
 <meta name="twitter:title" id="tw-title" content="Juthoor · The Arabic Tongue" />
 <meta name="twitter:image" content="https://arabicjuthoor.com/og-image.png" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="fonts/inter-UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="fonts/amiri-J7aRnpd8CGxBHpUrtLMA7w.woff2">
 <!-- Self-hosted fonts (no Google CDN). -->
 <link rel="stylesheet" href="fonts.css">
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
@@ -311,6 +315,18 @@ html[lang="ar"] .heading-anchor { left: auto; right: -28px; }
   outline-offset: 3px; border-radius: 4px;
 }
 
+/* Skip-link — hidden until keyboard focus reveals it */
+.skip-link {
+  position: absolute; top: -100px; left: 12px; z-index: 9999;
+  background: var(--accent); color: white;
+  padding: 10px 16px; border-radius: 6px;
+  text-decoration: none; font-weight: 600; font-size: 14px;
+  transition: top .15s;
+}
+.skip-link:focus-visible {
+  top: 12px; outline: 3px solid var(--text); outline-offset: 2px;
+}
+
 /* Block printing — research is published online only */
 @media print {
   body::before {
@@ -321,8 +337,25 @@ html[lang="ar"] .heading-anchor { left: auto; right: -28px; }
 }
 img, picture { -webkit-user-drag: none; user-drag: none; }
 </style>
+<!-- Pre-paint: apply stored lang + theme BEFORE first render to prevent flashing. -->
+<script>
+(function () {
+  try {
+    var l = localStorage.getItem('juthoor-lang');
+    if (l === 'ar' || l === 'en') {
+      document.documentElement.setAttribute('data-lang', l);
+      document.documentElement.setAttribute('lang', l);
+      document.documentElement.setAttribute('dir', l === 'ar' ? 'rtl' : 'ltr');
+    }
+    var t = localStorage.getItem('aratongue-theme');
+    if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+  } catch (e) {}
+})();
+</script>
 </head>
 <body>
+
+<a class="skip-link" href="#doc"><span class="lang-en">Skip to content</span><span class="lang-ar">تَخَطّ إلى المُحتوى</span></a>
 
 <nav class="topbar">
   <div class="topbar-inner">
@@ -349,7 +382,7 @@ img, picture { -webkit-user-drag: none; user-drag: none; }
 // ---------- Theme ----------
 (function() {
   const btn = document.getElementById('theme-toggle');
-  const stored = localStorage.getItem('juthoor-theme');
+  const stored = localStorage.getItem('aratongue-theme');
   if (stored === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
   function refresh() {
     const dark = document.documentElement.getAttribute('data-theme') === 'dark';
@@ -360,10 +393,10 @@ img, picture { -webkit-user-drag: none; user-drag: none; }
     const cur = document.documentElement.getAttribute('data-theme');
     if (cur === 'dark') {
       document.documentElement.removeAttribute('data-theme');
-      localStorage.setItem('juthoor-theme', 'light');
+      localStorage.setItem('aratongue-theme', 'light');
     } else {
       document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('juthoor-theme', 'dark');
+      localStorage.setItem('aratongue-theme', 'dark');
     }
     refresh();
   });
