@@ -1,0 +1,312 @@
+{
+  "project": "The Arabic Tongue · Coptic restoration layer · Arabic ↔ Hieroglyphic Egyptian ↔ Coptic",
+  "version": "2026-05-24",
+  "count": 33,
+  "verdict_distribution": {
+    "STRONG": 23,
+    "PARTIAL": 7,
+    "PERFECT": 2,
+    "PROVISIONAL": 1
+  },
+  "license": "CC-BY 4.0",
+  "note": "Coptic is the SPOKEN third witness — it restores consonants the consonantal hieroglyphic script dropped (flagship لسان↔ns↔ⲗⲁⲥ). Most entries confirm already-attested Egyptian cognates; the Coptic adds evidence, not new claims. * marks a reconstructed Egyptian ancestor (standard historical-linguistics convention). Coptic lemmas from Crum / KELLIA.",
+  "entries": [
+    {
+      "id": 1,
+      "arabic": "لِسان",
+      "egyptian_hieroglyphic": "ns",
+      "coptic_lemma": "ⲗⲁⲥ (las)",
+      "gloss": "tongue",
+      "reading": "س-ن fine-stream + inner-resonance = the tongue; Coptic restores the ل dropped in hieroglyphic ns — metathesis closed",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 2,
+      "arabic": "نَفَس / نَفْس",
+      "egyptian_hieroglyphic": "nfsw",
+      "coptic_lemma": "ⲛⲓϥⲉ (nife)",
+      "gloss": "soul, breath, self",
+      "reading": "ن-ف-س inner-resonance + parting + flow = breath-as-soul; Coptic nife \"to breathe\" is near-identical",
+      "verdict": "PERFECT"
+    },
+    {
+      "id": 3,
+      "arabic": "ماء",
+      "egyptian_hieroglyphic": "mw",
+      "coptic_lemma": "ⲙⲱⲟⲩ (mōou)",
+      "gloss": "water",
+      "reading": "م-gathered mass + و-binding flow = the held-yet-flowing substance",
+      "verdict": "PERFECT"
+    },
+    {
+      "id": 4,
+      "arabic": "مات",
+      "egyptian_hieroglyphic": "mwt",
+      "coptic_lemma": "ⲙⲟⲩ (mou)",
+      "gloss": "to die",
+      "reading": "م-gather + و-bind + ت-completion = the final gathering-and-sealing",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 5,
+      "arabic": "يَمّ",
+      "egyptian_hieroglyphic": "ym",
+      "coptic_lemma": "ⲓⲟⲙ (iom)",
+      "gloss": "sea, current",
+      "reading": "ي-extension binding the م-gathered mass = the sea",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 6,
+      "arabic": "طِين / طُوب",
+      "egyptian_hieroglyphic": "*ḏbt",
+      "coptic_lemma": "ⲧⲱⲱⲃⲉ (tōōbe)",
+      "gloss": "brick, mud, clay",
+      "reading": "ط-heavy spreading + b = the pressed clay/brick; طوب↔ⲧⲱⲱⲃⲉ is an attested loan into Arabic",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 7,
+      "arabic": "واسِع",
+      "egyptian_hieroglyphic": "wsḫ",
+      "coptic_lemma": "ⲟⲩⲱϣ (ouōš)",
+      "gloss": "wide, spread",
+      "reading": "و+س-خ bound extension piercing outward to width; same root as واسخ (dual-face)",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 8,
+      "arabic": "نَفيس",
+      "egyptian_hieroglyphic": "nfr",
+      "coptic_lemma": "ⲛⲟⲩϥⲉ (noufe)",
+      "gloss": "good, fine, precious",
+      "reading": "ن-ف-ر inner-resonance parting-through and flowing = the radiant-fine",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 9,
+      "arabic": "قاع",
+      "egyptian_hieroglyphic": "*qꜣḥ",
+      "coptic_lemma": "ⲕⲁϩ (kah)",
+      "gloss": "earth, soil, ground",
+      "reading": "ق-firm + ʿ-depth = the firm settled ground/bottom",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 10,
+      "arabic": "حَيّة",
+      "egyptian_hieroglyphic": "ḥfꜣw",
+      "coptic_lemma": "ϩⲱϥ (hōf)",
+      "gloss": "serpent, snake",
+      "reading": "f-ʿ Afroasiatic serpent-root; the gliding-cover gesture",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 11,
+      "arabic": "بانَ",
+      "egyptian_hieroglyphic": "wbn",
+      "coptic_lemma": "ⲟⲩⲱⲃⲛ (ouōbn)",
+      "gloss": "to shine, appear, rise",
+      "reading": "ب-n what was sealed-inside released into outward resonance = emerging-into-light",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 12,
+      "arabic": "جِسر",
+      "egyptian_hieroglyphic": "jsr",
+      "coptic_lemma": "ϫⲟⲥⲣ (čosr)",
+      "gloss": "bridge, crossing, clear path",
+      "reading": "ج-gather + س-flow + ر-run = the gathered crossing that runs across",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 13,
+      "arabic": "جاءَ",
+      "egyptian_hieroglyphic": "jw / ii",
+      "coptic_lemma": "ⲉⲓ (ei)",
+      "gloss": "to come, arrive",
+      "reading": "ج-gathered-surfacing + ي-gentle extension forward = arrival",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 14,
+      "arabic": "هَوى",
+      "egyptian_hieroglyphic": "*hꜣy",
+      "coptic_lemma": "ϩⲉ (he)",
+      "gloss": "to fall, descend",
+      "reading": "ه-soft breath + descent = the gentle falling-down",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 15,
+      "arabic": "حَكَمَ / حِكمة",
+      "egyptian_hieroglyphic": "ḥkꜣ",
+      "coptic_lemma": "ϩⲓⲕ (hik)",
+      "gloss": "rule, wisdom, magic",
+      "reading": "ح-warm-containment + ك-sealed-precision = wisdom held secret",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 16,
+      "arabic": "حَطّ",
+      "egyptian_hieroglyphic": "ḥtp",
+      "coptic_lemma": "ϩⲱⲧⲡ (hōtp)",
+      "gloss": "rest, settle, offering",
+      "reading": "ح-containment + ط-heavy spreading = settling-down-into-rest",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 17,
+      "arabic": "شَمّ",
+      "egyptian_hieroglyphic": "sn",
+      "coptic_lemma": "ⲥⲱⲛ (sōn)",
+      "gloss": "to smell, scent, kiss",
+      "reading": "ش-front-spread + ن-nasal gathering = the smelling gesture",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 18,
+      "arabic": "سَمير",
+      "egyptian_hieroglyphic": "smr",
+      "coptic_lemma": "ⲥⲙⲟⲩⲣ (smour)",
+      "gloss": "companion, friend",
+      "reading": "س-م-ر streaming-gathering that runs together = the late-talking companion",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 19,
+      "arabic": "شَنّ",
+      "egyptian_hieroglyphic": "šn",
+      "coptic_lemma": "ϣⲱⲛⲉ (šōne)",
+      "gloss": "to encircle, loop, net",
+      "reading": "ش-wide spread + ن-inner resonance = the encircling enclosure",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 20,
+      "arabic": "ثاني / اثنان",
+      "egyptian_hieroglyphic": "snw",
+      "coptic_lemma": "ⲥⲛⲁⲩ (snau)",
+      "gloss": "two, second",
+      "reading": "س-ن the matched-pair-by-shared-fine-source nucleus",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 21,
+      "arabic": "أَنف",
+      "egyptian_hieroglyphic": "fnḏ",
+      "coptic_lemma": "ϥⲁⲛϣ (fanš)",
+      "gloss": "nose, snout",
+      "reading": "ن-ف inner-resonance + parting-the-breath = the organ where breath parts (metathesis ʾnf↔fnḏ)",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 22,
+      "arabic": "شَبَّ",
+      "egyptian_hieroglyphic": "ḫpr",
+      "coptic_lemma": "ϣⲱⲡⲉ (šōpe)",
+      "gloss": "to become, grow, come into being",
+      "reading": "ḫ/š + p the coming-into-being; same root as ḫpr \"become\"",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 23,
+      "arabic": "مَرَّخَ",
+      "egyptian_hieroglyphic": "mrḥt",
+      "coptic_lemma": "ⲙⲣⲉϩⲏⲧ (mrehēt)",
+      "gloss": "ointment, grease, oil",
+      "reading": "م-ر-ح the passing-running grease; smeared/anointing",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 24,
+      "arabic": "مَوضِع / ما",
+      "egyptian_hieroglyphic": "ma",
+      "coptic_lemma": "ⲙⲁ (ma)",
+      "gloss": "place, location",
+      "reading": "م-binding relational place-marker",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 25,
+      "arabic": "جَمَّ",
+      "egyptian_hieroglyphic": "gmj",
+      "coptic_lemma": "ϭⲓⲛⲉ (čine)",
+      "gloss": "to find, gather",
+      "reading": "ج/g-gathering-surfacing = coming-upon/gathering (Coptic g→č palatalization)",
+      "verdict": "PARTIAL"
+    },
+    {
+      "id": 26,
+      "arabic": "شَرِبَ",
+      "egyptian_hieroglyphic": "swr",
+      "coptic_lemma": "ⲥⲱ (sō)",
+      "gloss": "to drink",
+      "reading": "ش/s-extending-flow running inward = the drinking-in of liquid",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 27,
+      "arabic": "سَمن",
+      "egyptian_hieroglyphic": "*smj",
+      "coptic_lemma": "ⲥⲙⲟⲩ (smou)",
+      "gloss": "butter, fat, cream",
+      "reading": "س-م streaming-gather = the fatty gathered cream",
+      "verdict": "PARTIAL"
+    },
+    {
+      "id": 28,
+      "arabic": "حَلْق",
+      "egyptian_hieroglyphic": "*ḥlq",
+      "coptic_lemma": "ϩⲗⲁⲕ (hlak)",
+      "gloss": "ring, circle, throat",
+      "reading": "ح-containment + ل-bridge + q = the encircling throat-ring",
+      "verdict": "PARTIAL"
+    },
+    {
+      "id": 29,
+      "arabic": "عُروة",
+      "egyptian_hieroglyphic": "r",
+      "coptic_lemma": "ⲣⲱ (rō)",
+      "gloss": "mouth, opening, loop",
+      "reading": "ر/rō the opening/loop — the opened ring",
+      "verdict": "PARTIAL"
+    },
+    {
+      "id": 30,
+      "arabic": "فَلَقَ",
+      "egyptian_hieroglyphic": "*wp",
+      "coptic_lemma": "ⲡⲱⲣϫ (pōrč)",
+      "gloss": "to split, cleave, open",
+      "reading": "ف-parting + ل-q = the splitting-open (Coptic pōrč \"divide\")",
+      "verdict": "PARTIAL"
+    },
+    {
+      "id": 31,
+      "arabic": "خَلَقَ",
+      "egyptian_hieroglyphic": "ḫpr",
+      "coptic_lemma": "ϣⲱⲡⲉ (šōpe)",
+      "gloss": "to become, create, shape",
+      "reading": "the creating/forming sense of ḫpr; overlaps شبّ (same Coptic šōpe)",
+      "verdict": "PARTIAL"
+    },
+    {
+      "id": 32,
+      "arabic": "حَلَبَ",
+      "egyptian_hieroglyphic": "*ḥrb",
+      "coptic_lemma": "ⲉⲣⲱⲧⲉ (erōte)",
+      "gloss": "to milk, yield liquid",
+      "reading": "ح-l-b the milking; drawing the liquid out",
+      "verdict": "PARTIAL"
+    },
+    {
+      "id": 33,
+      "arabic": "بَيت",
+      "egyptian_hieroglyphic": "pr",
+      "coptic_lemma": "ⲡⲏⲓ (pēi)",
+      "gloss": "house",
+      "reading": "pr \"house\" → Coptic pēi; Arabic بيت is a parallel dwelling-stem",
+      "verdict": "PROVISIONAL"
+    }
+  ]
+}
