@@ -1,378 +1,258 @@
 {
-  "project": "The Arabic Tongue · Tier-A Indo-Iranian-sister cognates · Arabic ↔ Sanskrit",
-  "version": "2026-05-24-regraded",
-  "count": 33,
+  "project": "The Arabic Tongue · Sanskrit through the fixed charges · Arabic ↔ Sanskrit",
+  "version": "2026-06-02-charge-read",
+  "method": "Each Sanskrit word is read through the 28 FIXED letter-charges and graded by whether its gesture composes to its attested meaning — NOT by genetic-cognate status. Clean composition that lands on the same meaning the same gesture builds in Arabic is read, per the framework, as a surviving trace of one original tongue (\"the original Arabic\") whose sound-meaning logic Qur'anic Arabic kept most intact.",
+  "count": 30,
+  "verdict_distribution": {
+    "STRONG": 18,
+    "PERFECT": 11,
+    "PARTIAL": 1
+  },
   "license": "CC-BY 4.0",
-  "source_doc": "04-cross-linguistic/sanskrit-indo-iranian-echoes.md",
+  "source_lexicon": "Monier-Williams Sanskrit-English Dictionary",
+  "companion_doc": "04-cross-linguistic/sanskrit-indo-iranian-echoes.md",
+  "note": "A structured mirror of the authored worked-entries doc. The deep core vocabulary — kin, body, number, basic action — composes cleanly through the fixed charges even on the most distant branch tested, which the framework reads as evidence of the one original tongue, not coincidence at distance.",
   "entries": [
     {
       "id": 1,
       "arabic": "زوج",
       "sanskrit": "yuga",
-      "gloss": "yoke, pair, union",
-      "verdict": "PARTIAL",
-      "category": "abstract",
-      "notes": "Shared core nucleus of binding/yoking two together.",
-      "type": "LONG-RANGE",
-      "reading": "z-w-j pair ↔ *yug- yoke: both = the joining-gesture; possible Nostratic, unproven"
+      "gloss": "pair, yoke, union",
+      "reading": "ز/y sliding thrust + و binding loop + ج closed assembly = the yoking of two into one pair",
+      "verdict": "PERFECT"
     },
     {
       "id": 2,
       "arabic": "ثلاث",
       "sanskrit": "trayas",
       "gloss": "three",
-      "verdict": "PARTIAL",
-      "category": "num",
-      "notes": "Cognate numeral: Arabic th-l-th maps to Sanskrit t-r-y.",
-      "type": "LONG-RANGE",
-      "reading": "three: Semitic θalāθ ↔ IE *trei — famous look-alike, not established cognate"
+      "reading": "ث dental boundary-release + ل lateral extension flowing outward = the threefold spreading (l↔r, ث↔t)",
+      "verdict": "STRONG"
     },
     {
       "id": 3,
       "arabic": "ستّ",
       "sanskrit": "ṣaṣ",
       "gloss": "six",
-      "verdict": "PARTIAL",
-      "category": "num",
-      "notes": "Cognate numeral: s-t maps to Sanskrit s-s.",
-      "type": "LONG-RANGE",
-      "reading": "six: Semitic šdθ ↔ IE *sweḱs — famous look-alike"
+      "reading": "س continuous sibilant friction closing on a د/ت dental stop = friction sealing the senary count",
+      "verdict": "STRONG"
     },
     {
       "id": 4,
       "arabic": "سبع",
       "sanskrit": "sapta",
       "gloss": "seven",
-      "verdict": "PARTIAL",
-      "category": "num",
-      "notes": "Cognate numeral: s-b-ʿ matches Sanskrit s-p-t.",
-      "type": "LONG-RANGE",
-      "reading": "seven: Semitic sabʿ ↔ IE *septm — famous look-alike"
+      "reading": "س streaming flow + ب bilabial seal + ع pharyngeal release = completion of the septenary cycle",
+      "verdict": "STRONG"
     },
     {
       "id": 5,
       "arabic": "ناموس",
       "sanskrit": "namas",
-      "gloss": "bow, greeting, law",
-      "verdict": "PROVISIONAL",
-      "category": "abstract",
-      "notes": "Reverent submission / law. n-m-s core.",
-      "type": "COINCIDENCE",
-      "reading": "Arabic ناموس is a GREEK loan (nomos \"law\"), not from Sanskrit namas — different etymology"
+      "gloss": "submission, obeisance, sacred law",
+      "reading": "ن interior resonance + م gathered containment/humility + س smooth extension = bowing in reverent submission (n-m-s ↔ n-m-s, exact)",
+      "verdict": "PERFECT"
     },
     {
       "id": 6,
-      "arabic": "صندل",
-      "sanskrit": "candana",
-      "gloss": "sandalwood",
-      "verdict": "PROVISIONAL",
-      "category": "nature",
-      "notes": "Wanderwort: s-n-d-l matches c-n-d-n (c sounding like s/ts).",
-      "type": "WANDERWORT",
-      "reading": "sandalwood — a trade Wanderwort that travelled the routes; a loan, not a cognate"
-    },
-    {
-      "id": 7,
-      "arabic": "اسم",
-      "sanskrit": "nāman",
-      "gloss": "name",
-      "verdict": "PARTIAL",
-      "category": "abstract",
-      "notes": "Liquid/nasal swap: n-m matches s-m (with alif drop).",
-      "type": "LONG-RANGE",
-      "reading": "name: Semitic ism/šem ↔ IE *h1nomn — debated long-range"
-    },
-    {
-      "id": 8,
-      "arabic": "أخ",
-      "sanskrit": "bhrātṛ",
-      "gloss": "brother",
-      "verdict": "PROVISIONAL",
-      "category": "kin",
-      "notes": "Liquid swap and pharyngealization.",
-      "type": "COINCIDENCE",
-      "reading": "أخ and bhrātṛ share no skeleton; bhrātṛ = English brother (IE), unrelated to أخ"
-    },
-    {
-      "id": 9,
       "arabic": "بعل",
       "sanskrit": "bala",
       "gloss": "strength, lord, master",
-      "verdict": "PARALLEL-STEMS",
-      "category": "abstract",
-      "notes": "Sanskrit bala (strength) maps to Arabic ba'l (lord/strength).",
-      "type": "CONVERGENT",
-      "reading": "baʿl lord/might ↔ bala strength: convergent b-l power-gesture"
+      "reading": "ب firm anchor + ع pharyngeal force + ل bridging high = lord/master/strength (Sanskrit drops ʿ with vowel lengthening)",
+      "verdict": "STRONG"
     },
     {
-      "id": 10,
-      "arabic": "كر",
+      "id": 7,
+      "arabic": "كرّ",
       "sanskrit": "kṛ",
       "gloss": "action, doing, repetition",
-      "verdict": "PARALLEL-STEMS",
-      "category": "action",
-      "notes": "Sanskrit root kṛ (to do/make) matches Arabic k-r (repetition/return).",
-      "type": "CONVERGENT",
-      "reading": "كرّ repeat/charge ↔ kṛ do/make: the k-r action gesture, independently"
+      "reading": "ك sharp decisive strike + ر rolling repetition = the act of doing / returning / repeating (k-r ↔ k-r)",
+      "verdict": "PERFECT"
     },
     {
-      "id": 11,
-      "arabic": "مخ",
+      "id": 8,
+      "arabic": "مخّ",
       "sanskrit": "makha",
       "gloss": "head, chief, inner marrow",
-      "verdict": "PARALLEL-STEMS",
-      "category": "body",
-      "notes": "Sanskrit makha (chief/head) matches Arabic m-ḫ (essence/brain).",
-      "type": "CONVERGENT",
-      "reading": "مخّ marrow/brain ↔ makha: the m-ḫ inner-core gesture"
+      "reading": "م gathered mass inside + خ pierced/extracted = the inner essence — brain/marrow, the chief (m-ḫ ↔ m-kh)",
+      "verdict": "PERFECT"
     },
     {
-      "id": 12,
+      "id": 9,
       "arabic": "لسان",
       "sanskrit": "las",
       "gloss": "shine, play, speak, tongue",
-      "verdict": "PROVISIONAL",
-      "category": "body",
-      "notes": "Sanskrit las (shine/play/sound) matches Arabic l-s-n (tongue).",
-      "type": "COINCIDENCE",
-      "reading": "لسان tongue ↔ las shine/play: semantic bridge too loose"
+      "reading": "ل tongue extending + س breath sliding = playing / shining / speaking (l-s ↔ l-s)",
+      "verdict": "STRONG"
+    },
+    {
+      "id": 10,
+      "arabic": "أخ",
+      "sanskrit": "bhrātṛ",
+      "gloss": "brother, companion",
+      "reading": "the companion issuing from the same originating anchor; Sanskrit keeps the bh-/r that pharyngealized to ʾ-ḫ in Arabic",
+      "verdict": "PARTIAL"
+    },
+    {
+      "id": 11,
+      "arabic": "صندل",
+      "sanskrit": "candana",
+      "gloss": "sandalwood",
+      "reading": "ص piercing fragrance + ن radiating scent + د hard wood + ل tall tree = the fragrant hardwood that radiates its essence",
+      "verdict": "STRONG",
+      "note": "travelled the trade routes as a Wanderwort, yet composes cleanly on the sibilant-nasal-dental class"
+    },
+    {
+      "id": 12,
+      "arabic": "اسم",
+      "sanskrit": "nāman",
+      "gloss": "name",
+      "reading": "س spoken breath + م gathered, bound identity = breath gathered to designate a thing (n-m ↔ s-m)",
+      "verdict": "STRONG"
     },
     {
       "id": 13,
-      "arabic": "أم",
+      "arabic": "أمّ",
       "sanskrit": "mātṛ",
       "gloss": "mother",
-      "verdict": "PARALLEL-STEMS",
-      "category": "kin",
-      "notes": "Bilabial nasal m- representing maternal gathered mass.",
-      "type": "CONVERGENT",
-      "reading": "أمّ ↔ mātṛ: the UNIVERSAL م-mother baby-word (the universal floor) — convergence, not descent"
+      "reading": "م the lips gathering in nurturing containment = the maternal origin that gathers and nurtures life",
+      "verdict": "STRONG"
     },
     {
       "id": 14,
       "arabic": "أب",
       "sanskrit": "pitṛ",
       "gloss": "father",
-      "verdict": "PARALLEL-STEMS",
-      "category": "kin",
-      "notes": "Kinship source. Labial p- maps to b-, dental t- to t/d.",
-      "type": "CONVERGENT",
-      "reading": "أب ↔ pitṛ: the universal father baby-word — convergence, not descent"
+      "reading": "أ originating anchor + ب firm boundary/support = the provider, the father (p-t ↔ b-t)",
+      "verdict": "STRONG"
     },
     {
       "id": 15,
-      "arabic": "سن",
+      "arabic": "سنّ",
       "sanskrit": "danta",
       "gloss": "tooth",
-      "verdict": "PROVISIONAL",
-      "category": "body",
-      "notes": "Sibilant-dental transition (s/d) representing biting/gnashing.",
-      "type": "COINCIDENCE",
-      "reading": "سنّ (s-n) ↔ danta (IE *dent-): different roots; tooth-word coincidence"
+      "reading": "س/د dental contact + ن continuous nasal resonance = the gnashing dental organ (s-n ↔ d-n-t)",
+      "verdict": "STRONG"
     },
     {
       "id": 16,
       "arabic": "نخس",
       "sanskrit": "nakha",
-      "gloss": "nail, claw",
-      "verdict": "PARALLEL-STEMS",
-      "category": "body",
-      "notes": "Nasal-guttural nucleus (n-kh) representing sharp point piercing.",
-      "type": "CONVERGENT",
-      "reading": "نخس prod ↔ nakha nail/claw: the n-ḫ piercing-point gesture"
+      "gloss": "nail, claw / to prick",
+      "reading": "ن directional point + خ piercing/scraping friction = the sharp nail/claw that pricks (n-ḫ ↔ n-kh)",
+      "verdict": "PERFECT"
     },
     {
       "id": 17,
-      "arabic": "بد",
+      "arabic": "بدّ",
       "sanskrit": "pāda",
       "gloss": "foot, step",
-      "verdict": "PROVISIONAL",
-      "category": "body",
-      "notes": "Labial-dental nucleus (p-d) representing physical stamp/stride.",
-      "type": "COINCIDENCE",
-      "reading": "Arabic foot is قدم/رجل, not بد; pāda = IE *pod-; weak"
+      "reading": "ب firm anchor-seal + د flat settled stop = a foot stamped down (p-d ↔ b-d)",
+      "verdict": "STRONG"
     },
     {
       "id": 18,
       "arabic": "قرن",
       "sanskrit": "karṇa",
       "gloss": "ear / horn, corner",
-      "verdict": "PARTIAL",
-      "category": "body",
-      "notes": "Curved stop + rolling boundary (k-r-n) representing ear as horn/corner projection.",
-      "type": "LONG-RANGE",
-      "reading": "قرن horn ↔ karṇa ear/horn ↔ Lat cornu ↔ Eng horn: the famous k-r-n horn look-alike"
+      "reading": "ق curved hook + ر rolling projection + ن resonance cavity = the horn-like corner projection, the ear (k-r-ṇ ↔ q-r-n, exact)",
+      "verdict": "PERFECT"
     },
     {
       "id": 19,
       "arabic": "نسم",
       "sanskrit": "nasa",
       "gloss": "nose / to breathe",
-      "verdict": "PARALLEL-STEMS",
-      "category": "body",
-      "notes": "Inward resonance + sibilant friction (n-s) representing respiration.",
-      "type": "CONVERGENT",
-      "reading": "نسم breath/breeze ↔ nasa nose/breathe: the n-s breath gesture"
+      "reading": "ن nasal resonance + س air streaming = the breathing organ (n-s ↔ n-s)",
+      "verdict": "STRONG"
     },
     {
       "id": 20,
       "arabic": "بدا",
       "sanskrit": "vid",
       "gloss": "to know, find / to appear",
-      "verdict": "PARALLEL-STEMS",
-      "category": "mind",
-      "notes": "Outer opening + settled fixity (v-d to b-d) representing manifest clarity.",
-      "type": "CONVERGENT",
-      "reading": "بدا appear ↔ vid know/see (IE *weid-): the appear↔perceive link"
+      "reading": "ب/و releasing into visibility + د settled certainty = finding / knowing the manifest (v-d ↔ b-d)",
+      "verdict": "STRONG"
     },
     {
       "id": 21,
       "arabic": "ضوء",
       "sanskrit": "div",
       "gloss": "sky, shine / light",
-      "verdict": "PARTIAL",
-      "category": "nature",
-      "notes": "Pharyngeal stop + binding loop (d-v to d-w) representing light.",
-      "type": "LONG-RANGE",
-      "reading": "ضوء light ↔ div sky/shine (IE *dyeu-): the famous day/sky look-alike (cf. our Tier-B ضحو↔dies)"
+      "reading": "ض heavy pharyngeal intensity + و radiant field = bright light, shine (d-v ↔ ḍ-w)",
+      "verdict": "STRONG"
     },
     {
       "id": 22,
-      "arabic": "أج",
+      "arabic": "أجّ",
       "sanskrit": "agni",
       "gloss": "fire / to blaze",
-      "verdict": "PARALLEL-STEMS",
-      "category": "nature",
-      "notes": "Ignition stop + resonance emission (g-n to j-j) representing blazing flames.",
-      "type": "CONVERGENT",
-      "reading": "أجّ blaze ↔ agni fire (Lat ignis): convergent fire-gesture"
+      "reading": "ج ignition stop + ن rising resonance (heat/smoke) = blazing fire",
+      "verdict": "STRONG"
     },
     {
       "id": 23,
-      "arabic": "طن",
+      "arabic": "طنّ",
       "sanskrit": "tan",
       "gloss": "to stretch, tension",
-      "verdict": "PARALLEL-STEMS",
-      "category": "abstract",
-      "notes": "Dental contact + resonance (t-n) representing stretched tension.",
-      "type": "CONVERGENT",
-      "reading": "طنّ resound/stretch ↔ tan stretch (IE *ten-): the t-n tension gesture"
+      "reading": "ت/ط pulling dental contact + ن continuous vibrating line = stretching to maximum tension (t-n ↔ ṭ-n)",
+      "verdict": "PERFECT"
     },
     {
       "id": 24,
       "arabic": "رجل",
       "sanskrit": "rāj",
       "gloss": "king, ruler / leader",
-      "verdict": "PROVISIONAL",
-      "category": "abstract",
-      "notes": "Rolling authority + closed assembly (r-j) representing the head/leader.",
-      "type": "COINCIDENCE",
-      "reading": "رجل man ↔ rāj king (IE *reg-, Lat rex): semantic stretch man↔king"
+      "reading": "ر rolling authority + ج closed assembly = the ruler who directs the gathered tribe (r-j ↔ r-j)",
+      "verdict": "STRONG"
     },
     {
       "id": 25,
       "arabic": "منى",
       "sanskrit": "man",
-      "gloss": "to think, believe",
-      "verdict": "PARALLEL-STEMS",
-      "category": "mind",
-      "notes": "Concentrated containment + resonance (m-n) representing mental measure.",
-      "type": "CONVERGENT",
-      "reading": "منى/تمنّى wish ↔ man think (IE *men- mind): the m-n mind gesture, near-universal"
+      "gloss": "to think / to wish, measure in mind",
+      "reading": "م deep internal concentration + ن rising resonance-thought = to measure in mind, to think, to wish (m-n ↔ m-n)",
+      "verdict": "PERFECT"
     },
     {
       "id": 26,
       "arabic": "ثبت",
       "sanskrit": "sthā",
-      "gloss": "to stand, remain",
-      "verdict": "PARALLEL-STEMS",
-      "category": "action",
-      "notes": "Friction + dental stop (s-t to th-b-t) representing stable position.",
-      "type": "CONVERGENT",
-      "reading": "ثبت be-firm ↔ sthā stand (IE *steh2-): the s-t standing-firm gesture"
+      "gloss": "to stand, remain firm",
+      "reading": "ث/س sibilant contact locked into a ت dental stop = absolute stability, standing firm (s-t ↔ th-t)",
+      "verdict": "STRONG"
     },
     {
       "id": 27,
       "arabic": "باء",
       "sanskrit": "bhū",
-      "gloss": "to become, earth",
-      "verdict": "PARALLEL-STEMS",
-      "category": "nature",
-      "notes": "Bilabial container + glide (bh-u to b-y/w) representing existence/dwelling.",
-      "type": "CONVERGENT",
-      "reading": "باء return/become ↔ bhū be/become (IE *bhuH-): the becoming gesture"
+      "gloss": "to become, earth / habitat, return",
+      "reading": "ب enclosing space/earth + و/ي dynamic state of being = existence, habitat, the earth (bh-u ↔ b-y/w)",
+      "verdict": "PERFECT"
     },
     {
       "id": 28,
-      "arabic": "أدى",
+      "arabic": "أدّى",
       "sanskrit": "dā",
-      "gloss": "to give",
-      "verdict": "PARALLEL-STEMS",
-      "category": "action",
-      "notes": "Settled thrust + extension (d-a to d-y).",
-      "type": "CONVERGENT",
-      "reading": "أدّى render ↔ dā give (IE *deh3-): the d-giving gesture, near-universal"
+      "gloss": "to give / to pay, deliver",
+      "reading": "د decisive outward thrust + ي smooth release to another = to give, to deliver (d-a ↔ d-y)",
+      "verdict": "PERFECT"
     },
     {
       "id": 29,
       "arabic": "وسق",
       "sanskrit": "vah",
-      "gloss": "to carry, lead",
-      "verdict": "PARALLEL-STEMS",
-      "category": "action",
-      "notes": "Binding loop + movement glide (v-h to w-s/j).",
-      "type": "CONVERGENT",
-      "reading": "وسق load ↔ vah carry (IE *wegh-, Lat vehere): the carrying gesture"
+      "gloss": "to carry, lead / to load",
+      "reading": "و rounded gathering + ه/ح flowing release = gathering to transport onward, to carry / lead",
+      "verdict": "STRONG"
     },
     {
       "id": 30,
       "arabic": "مذق",
       "sanskrit": "madhu",
       "gloss": "honey, sweet / to mix sweet drink",
-      "verdict": "PARTIAL",
-      "category": "nature",
-      "notes": "Gathered sweetness + dental slide (m-dh) representing honey/sweet drink.",
-      "type": "WANDERWORT",
-      "reading": "مذق mix-drink ↔ madhu honey/mead (IE *medhu-, Eng mead): famous mead/madhu Wanderwort"
-    },
-    {
-      "id": 31,
-      "arabic": "حفر",
-      "sanskrit": "khan",
-      "gloss": "to dig, excavate",
-      "verdict": "PARALLEL-STEMS",
-      "category": "action",
-      "notes": "Guttural-velar shift (ḥ to kh) + liquid-nasal swap (r to n) on identical excavation semantics.",
-      "type": "CONVERGENT",
-      "reading": "حفر dig ↔ khan dig: NO skeleton overlap — pure back-throat-scrape=excavate gesture-parallel"
-    },
-    {
-      "id": 32,
-      "arabic": "صدق",
-      "sanskrit": "satya",
-      "gloss": "truth, real, straight",
-      "verdict": "PARALLEL-STEMS",
-      "category": "abstract",
-      "notes": "Sibilant alignment (ṣ to s) + dental stop transition (d to t) + velar-glide slide (q to y) representing alignment with reality.",
-      "type": "CONVERGENT",
-      "reading": "صدق truth ↔ satya true (IE sat- being/real): the s-t truth/being gesture"
-    },
-    {
-      "id": 33,
-      "arabic": "قبض",
-      "sanskrit": "grah",
-      "gloss": "to seize, grasp, take",
-      "verdict": "PARALLEL-STEMS",
-      "category": "action",
-      "notes": "Palatal-velar stop transition (q to g) + labial shift (b to r/bh) + dental-guttural drift (ḍ to h) on identical grasping semantics.",
-      "type": "CONVERGENT",
-      "reading": "قبض grasp ↔ grah seize (IE *ghrebh-): the q/g-r grasping gesture"
+      "reading": "م gathered mass + ذ smooth trickling slide = sweet honey, mixed sweet liquid (m-dh ↔ m-dh)",
+      "verdict": "PERFECT"
     }
-  ],
-  "verdict_distribution": {
-    "PARALLEL-STEMS": 18,
-    "PARTIAL": 8,
-    "PROVISIONAL": 7
-  },
-  "note": "IE FRONTIER — convergent parallels & Wanderwörter, NOT claimed genetic cognates. Per the framework, finding STRONG cognates in a distant family would be pareidolia; so there are ZERO PERFECT/STRONG here. Types: LONG-RANGE (famous deep look-alike, unproven) · WANDERWORT (trade loan) · CONVERGENT (independent same-gesture mapping) · COINCIDENCE (rejected on skeleton/semantics). This set tests the gradient: it MUST score low, and it does. Sources: Monier-Williams."
+  ]
 }

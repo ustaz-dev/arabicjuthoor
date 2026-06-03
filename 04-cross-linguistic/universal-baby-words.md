@@ -19,9 +19,9 @@ The cross-linguistic work in this project found a **family-distance gradient**:
 | Ancient Egyptian (close Afro-Asiatic family) | 52% |
 | Indo-European (distant family) | 25% |
 
-The obvious next question: does the signal fall to **zero** at maximum distance? If you go far enough — to a language with no shared history and a completely different structure, like Chinese — does the sound-meaning bond vanish entirely?
+The obvious next question: is there a layer so deep it survives in **every** branch — even the ones that drifted furthest? Go as far as Chinese — a completely different writing system and structure — and the root-level matches thin out. But does the deepest sound-meaning bond still hold even there?
 
-**No. It bottoms out at a universal floor.** The most basic words — the ones a human infant forms first, before any culture has shaped them — preserve the gesture-meaning bond *everywhere*, because they are closest to the raw human mouth and furthest from arbitrary convention. This is the floor of the gradient: not zero, but the universal baby-word layer.
+**Yes — the deepest stratum holds.** The most basic words — the ones a human infant forms first, before any culture has shaped them — preserve the gesture-meaning bond *everywhere*, because they are closest to the raw human mouth and furthest from arbitrary convention. This is the floor of the gradient: the original tongue's logic at its most indestructible — not zero, but the universal baby-word layer.
 
 ## The evidence, by gesture
 

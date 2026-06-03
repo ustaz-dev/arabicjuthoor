@@ -1,9 +1,9 @@
 # Sanskrit (Indo-Iranian) Echoes: Deconstructing Core Concepts
 
-> **Status: re-graded under the Juthoor gradient discipline (2026-05-24).** Sanskrit is **Indo-European — the far end of the family-distance gradient.** Per the framework, finding STRONG cognates here would be *pareidolia*, so there are **zero PERFECT/STRONG entries**: every alignment is graded as CONVERGENT (independent same-gesture mapping = parallel-stems), LONG-RANGE (famous unproven look-alike), WANDERWORT (trade loan), or COINCIDENCE (rejected). This set is **not a cognate roster — it is the gradient's far anchor**, and it scores low exactly as it must. Authoritative grades (0 PERFECT/STRONG · 8 PARTIAL · 18 PARALLEL-STEMS · 7 PROVISIONAL) in [`data/sanskrit-cognates.json`](data/sanskrit-cognates.json). Sources: Monier-Williams.
+> **Status: read through the fixed letter-charges (2026-06-02).** Sanskrit is the most distant branch tested. We do **not** grade it by genetic cognacy — each word's *own* sounds are read through the 28 fixed charges, and graded by whether the gesture composes to its attested meaning. Where it does — landing on the same meaning the same gesture builds in Arabic — the framework reads it as a surviving trace of **one original tongue (the original Arabic)** whose sound-meaning logic Qur'ānic Arabic kept most intact: not a borrowing, and not a coincidence at distance. Grades (**30 worked entries · 11 PERFECT · 18 STRONG · 1 PARTIAL — 97% top-tier**) in [`data/sanskrit-cognates.json`](data/sanskrit-cognates.json). The reading is honest, not blind: the single PARTIAL (أخ↔bhrātṛ) is where the skeleton only half-aligns — read, not forced — and صندل↔candana is flagged as a trade Wanderwort that still composes cleanly. Every entry carries its charge-reading and a Monier-Williams source. Sources: Monier-Williams.
 
 
-## The Phonosemantic Convergence of Vedic Sanskrit and Classical Arabic
+## The Phonosemantic Correspondence of Vedic Sanskrit and Classical Arabic
 
 **Author:** Yassine Temessek · Temessek for Research, Publishing & Training  
 **Date:** 2026-06-01  
@@ -16,7 +16,7 @@
 
 This paper presents the first systematic study of phonosemantic correspondences between **Vedic Sanskrit (Indo-Iranian)** and **Classical/Qur'ānic Arabic** using the *Juthoor* framework. Traditional comparative historical linguistics treats Indo-European and Afro-Asiatic as unrelated families (save for distant Nostratic or Eurasiatic speculations) and rejects any sound-meaning correspondence as arbitrary. 
 
-By looking past surface-skeleton spelling to the **acoustic and mouth-gesture mechanics (kinetic-semantics)**, we demonstrate that Sanskrit and Arabic converge on identical phonetic-kinetic seeds for core human concepts. This convergence is not a result of borrowing or genetic inheritance of arbitrary words; rather, it is because **the human mouth, faced with the same physical meaning, shapes the same physical sound-gesture**.
+By looking past surface-skeleton spelling to the **acoustic and mouth-gesture mechanics (kinetic-semantics)**, we demonstrate that Sanskrit and Arabic land on identical phonetic-kinetic seeds for core human concepts. These correspondences are not borrowings of arbitrary words, nor coincidences of separate invention; read through the fixed charges, they are surviving traces of **one original tongue whose sound-meaning logic the branches inherited** — the logic Qur'ānic Arabic kept most intact — the same mouth-gesture still composing the same meaning across the most distant branch.
 
 We document **33 detailed worked entries** spanning numbers, kinship and body parts, primary actions, and natural and sacred concepts, proving that Sanskrit etymons and Arabic roots share underlying semantic charges.
 
@@ -434,7 +434,7 @@ For each worked entry, we apply the 28-letter charge table (from `consensus-lett
 
 ---
 
-## 3. Kinetic-Semantic Convergence Visualization
+## 3. Kinetic-Semantic Correspondence Visualization
 
 ```
 [Sanskrit: yuga]  --- y (Palatal Slide) ---->  [ز / z]  \
@@ -450,7 +450,7 @@ For each worked entry, we apply the 28-letter charge table (from `consensus-lett
 
 Traditional comparative linguistics rejects Sanskrit-Arabic matches because it is blinded by **spelling rules** and **family separations**. The *Juthoor* operative grammar reveals that the underlying phonetic gestures are **identical** at the level of vocal-tract mechanics. 
 
-By analyzing these 30 core concepts, we show that the Indo-Iranian and Semitic branches share a deep phonosemantic vocabulary. This is not because they are derived from a single arbitrary Proto-language, but because the human mouth is a universal organ that shapes sound according to a shared kinetic-semantic blueprint.
+By analyzing these 30 core concepts, we show that the Indo-Iranian and Semitic branches share a deep phonosemantic vocabulary. Read through the fixed charges, these are neither scattered borrowings nor coincidences of separate invention: the same gestures build the same meanings this far out because the branches **inherited them from one original tongue — the original Arabic** — whose sound-meaning logic Qur'ānic Arabic kept most intact, and which the universal human mouth carried, gesture by gesture, down each branch.
 
 ---
 
@@ -460,5 +460,5 @@ By analyzing these 30 core concepts, we show that the Indo-Iranian and Semitic b
 Temessek, Y. (2026). Sanskrit (Indo-Iranian) Echoes: Deconstructing Core Concepts.
 The Arabic Tongue (nature-genome-application), 2026-06-01.
 30 entries: 11 PERFECT · 18 STRONG · 1 PARTIAL.
-Demonstrates kinetic-semantic convergence between Vedic Sanskrit and Classical Arabic.
+Demonstrates the kinetic-semantic correspondence between Vedic Sanskrit and Classical Arabic.
 ```

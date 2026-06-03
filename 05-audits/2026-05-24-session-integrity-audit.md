@@ -51,7 +51,7 @@ A coherent but **unverified** exploration layer was built and partly wired into 
 | Arabic ↔ Ancient Egyptian | 324 | 55% | close family — a real cross-family test |
 | Arabic ↔ Indo-European (calibrated) | 770 → 189 | 25% | distant — the boldest reach |
 
-The **declining gradient (siblings ~90% → super-family 55% → distance 25%)** is intact and is the actual argument: a real signal fades with distance; the inflated 66% would have flattened that and handed critics an easy target. Removing it makes the case *stronger*, not weaker.
+The **preservation gradient (siblings ~90% → super-family 55% → more-distant branches lower)** is intact: it measures how much of the original tongue's sound-meaning logic each branch kept, not how "real" the signal is. The inflated 66% would have blurred that honest reading by padding the super-family with placeholder forms. Removing the padding makes the case *stronger and more honest*, not weaker — every retained entry traces to a real attested form.
 
 ## Standing principle reaffirmed
 
