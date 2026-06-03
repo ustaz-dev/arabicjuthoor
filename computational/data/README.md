@@ -8,8 +8,9 @@ states about the Arabic core now lives **inside this repo** — no external fold
 - **`layer_2_results_v2.jsonl`** — the master: **2,285 graded trilateral roots**.
   Each record carries the binary nucleus, the third letter (L3), the composition `mode`,
   Jabal's axial meaning (`jabal_axial`), and the letter-by-letter `binary_reading_en` /
-  `binary_reading_ar`. Status: **2,034 fully populated · 251 pending** (the remaining
-  weak-letter nuclei — أ/و/ي/ء roots — are being filled batch by batch from the fixed charges).
+  `binary_reading_ar`. Status: **2,285 fully populated (100%)** — the weak-letter nuclei
+  (أ/و/ي/ء hollow, hamzated, and defective roots) were completed from the fixed charges,
+  anchored to Jabal's axial meanings (`scripts/layer_2/fill_partial_readings.py`).
 
 ## Where the rest of the core lives (already in this repo)
 

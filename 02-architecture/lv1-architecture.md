@@ -63,7 +63,7 @@ Each layer of the project does one thing: **compose meanings and check the resul
 - **Full LV2+ formalization** — 50-quadriliteral catalogue published; scale to all 150–200 next.
 - **Tier-B cross-linguistic expansion** — 880+ Arabic↔Greek/Latin candidate cognates still in queue (11 promoted to Tier-A across three rounds this session).
 - **Independent second-rater pass** on the operative-grammar verdicts and the generative-test SELF-CANCELING set.
-- **Fill the 302 partial binary readings** in the corpus (13.2% with verdict but no letter-by-letter reading).
+- ~~**Fill the 302 partial binary readings**~~ — **done:** all 2,285 records now carry a complete letter-by-letter reading (the final 302 weak-letter / hollow / hamzated nuclei derived from the fixed charges, anchored to Jabal's axial meanings; `scripts/layer_2/fill_partial_readings.py`).
 
 ### 3.3 Next chapters
 - **English-language academic paper** presenting the unified table, the dual-face rule, the eleven native composition modes (plus the LOANWORD label), the statistical predictive test, and the Tier-A cognate roster.

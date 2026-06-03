@@ -34,7 +34,7 @@ The foundation is not a hypothesis under test here; it is the established result
 
 That is the law: meaning-structure bound to articulation-structure, shown at scale on a language whose root morphology stays transparent. Everything below is what happens when that same law is turned outward.
 
-> **Honest status of the core.** 302 of the 2,285 roots (~13%) currently carry a verdict but not yet a complete letter-by-letter reading; the readings are single-rater. Closing that gap is active work. It does not bear on the cross-branch argument, which rests on the charges and nuclei, both complete.
+> **Honest status of the core.** All 2,285 roots now carry a complete letter-by-letter reading — the final 302 (weak-letter, hollow, hamzated and defective roots) were derived from the fixed charges and anchored to Jabal's recorded axial meanings. The readings remain single-rater; that is the standing caveat. Independent re-rating is the natural next strengthening.
 
 ---
 
@@ -87,7 +87,7 @@ Put together — the law proven inside Arabic, the preservation gradient, the st
 
 The capstone is a reading, and a reading earns its weight by what it survives. The work that deepens it:
 
-1. **Complete the core** — fill the 302 remaining letter-by-letter readings so the internal law is shown whole, not at 87%.
+1. **Re-rate the core** — the 2,285 readings are now complete (100%) but single-rater; an independent second rating would harden the foundation against the "one reader sees what he wants" objection.
 2. **Widen the branches** — carry the fixed-charge reading into Greek, Latin, Old Persian, Akkadian, Berber, each entry anchored to an attested form and graded by composition.
 3. **Deepen the witnesses** — build the Coptic and Egyptian materials into full worked-entry sets, as the Sanskrit study already is.
 4. **Open it to challenge** — present the rosters and the readings for peer review, declined candidates included, so the gradient can be tested rather than admired.
