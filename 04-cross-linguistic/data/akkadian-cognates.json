@@ -1,0 +1,616 @@
+{
+  "project": "The Arabic Tongue · Semitic-sister cognates · Arabic ↔ Akkadian (oldest attested Semitic)",
+  "version": "2026-06-03",
+  "count": 75,
+  "verdict_distribution": {
+    "STRONG": 43,
+    "PERFECT": 24,
+    "PROVISIONAL": 5,
+    "PROTO-FAMILY": 3
+  },
+  "license": "CC-BY 4.0",
+  "source_lexicon": "Chicago Assyrian Dictionary (CAD); von Soden, Akkadisches Handwörterbuch (AHw)",
+  "note": "The oldest attested Semitic (East Semitic, ~2500 BCE) — the earliest written sister of Arabic, the unity baseline pushed back two millennia. Signature: loss of the gutturals (ʾ ʿ ḥ h ġ → ø, a→e) + interdental/emphatic shifts (ṯ→š, ḏ→z, ẓ/ḍ→ṣ) + s→š. The regularity of these shifts is the signature of one tongue diverging; the closeness at this time-depth deepens the trace of the one original source.",
+  "entries": [
+    {
+      "id": 1,
+      "arabic": "عَين",
+      "akkadian": "īnu",
+      "gloss": "eye — ʿ lost, ay→ī",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 2,
+      "arabic": "أُذُن",
+      "akkadian": "uznu",
+      "gloss": "ear — ḏ→z",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 3,
+      "arabic": "رَأس",
+      "akkadian": "rēšu",
+      "gloss": "head — ʾ lost",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 4,
+      "arabic": "لِسان",
+      "akkadian": "lišānu",
+      "gloss": "tongue",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 5,
+      "arabic": "سِنّ",
+      "akkadian": "šinnu",
+      "gloss": "tooth — s→š",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 6,
+      "arabic": "دَم",
+      "akkadian": "damu",
+      "gloss": "blood",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 7,
+      "arabic": "قَرن",
+      "akkadian": "qarnu",
+      "gloss": "horn",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 8,
+      "arabic": "نَفس",
+      "akkadian": "napištu",
+      "gloss": "life, soul, throat — s→š",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 9,
+      "arabic": "كَبِد",
+      "akkadian": "kabattu",
+      "gloss": "liver, inner self",
+      "verdict": "PERFECT",
+      "category": "body"
+    },
+    {
+      "id": 10,
+      "arabic": "شَعر",
+      "akkadian": "šārtu",
+      "gloss": "hair — ʿ lost, s→š",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 11,
+      "arabic": "قَلب",
+      "akkadian": "libbu",
+      "gloss": "heart — l-b core",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 12,
+      "arabic": "عَظم",
+      "akkadian": "eṣemtu",
+      "gloss": "bone — ʿ→e, ẓ→ṣ",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 13,
+      "arabic": "يَد",
+      "akkadian": "idu",
+      "gloss": "arm, hand, side — w/y weakened",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 14,
+      "arabic": "دَمع",
+      "akkadian": "dimtu",
+      "gloss": "tear — ʿ lost",
+      "verdict": "STRONG",
+      "category": "body"
+    },
+    {
+      "id": 15,
+      "arabic": "أَب",
+      "akkadian": "abu",
+      "gloss": "father",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 16,
+      "arabic": "أُمّ",
+      "akkadian": "ummu",
+      "gloss": "mother",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 17,
+      "arabic": "أَخ",
+      "akkadian": "aḫu",
+      "gloss": "brother",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 18,
+      "arabic": "أُخت",
+      "akkadian": "aḫātu",
+      "gloss": "sister",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 19,
+      "arabic": "حَمّ",
+      "akkadian": "emu",
+      "gloss": "father-in-law — ḥ lost, e-color",
+      "verdict": "STRONG",
+      "category": "kin"
+    },
+    {
+      "id": 20,
+      "arabic": "أَرمَلة",
+      "akkadian": "almattu",
+      "gloss": "widow",
+      "verdict": "PERFECT",
+      "category": "kin"
+    },
+    {
+      "id": 21,
+      "arabic": "كَنّة",
+      "akkadian": "kallatu",
+      "gloss": "bride, daughter-in-law",
+      "verdict": "STRONG",
+      "category": "kin"
+    },
+    {
+      "id": 22,
+      "arabic": "أَنا",
+      "akkadian": "anāku",
+      "gloss": "I",
+      "verdict": "PROTO-FAMILY",
+      "category": "pronoun"
+    },
+    {
+      "id": 23,
+      "arabic": "أَنتَ",
+      "akkadian": "atta",
+      "gloss": "you (m.)",
+      "verdict": "PROTO-FAMILY",
+      "category": "pronoun"
+    },
+    {
+      "id": 24,
+      "arabic": "أَنتِ",
+      "akkadian": "atti",
+      "gloss": "you (f.)",
+      "verdict": "PROTO-FAMILY",
+      "category": "pronoun"
+    },
+    {
+      "id": 25,
+      "arabic": "مَن",
+      "akkadian": "mannu",
+      "gloss": "who",
+      "verdict": "PERFECT",
+      "category": "pronoun"
+    },
+    {
+      "id": 26,
+      "arabic": "ما",
+      "akkadian": "mīnu",
+      "gloss": "what",
+      "verdict": "STRONG",
+      "category": "pronoun"
+    },
+    {
+      "id": 27,
+      "arabic": "ماء",
+      "akkadian": "mû",
+      "gloss": "water",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 28,
+      "arabic": "سَماء",
+      "akkadian": "šamû",
+      "gloss": "sky, heaven — s→š",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 29,
+      "arabic": "أَرض",
+      "akkadian": "erṣetu",
+      "gloss": "earth — ʾ→e, ḍ→ṣ (the classic shift)",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 30,
+      "arabic": "شَمس",
+      "akkadian": "šamšu",
+      "gloss": "sun",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 31,
+      "arabic": "نور",
+      "akkadian": "nūru",
+      "gloss": "light",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 32,
+      "arabic": "يَوم",
+      "akkadian": "ūmu",
+      "gloss": "day — w lost",
+      "verdict": "STRONG",
+      "category": "time"
+    },
+    {
+      "id": 33,
+      "arabic": "لَيل",
+      "akkadian": "līliātu",
+      "gloss": "evening, night",
+      "verdict": "STRONG",
+      "category": "time"
+    },
+    {
+      "id": 34,
+      "arabic": "كَوكَب",
+      "akkadian": "kakkabu",
+      "gloss": "star",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 35,
+      "arabic": "نَهر",
+      "akkadian": "nāru",
+      "gloss": "river",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 36,
+      "arabic": "ثَور",
+      "akkadian": "šūru",
+      "gloss": "bull, ox — ṯ→š",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 37,
+      "arabic": "كَلب",
+      "akkadian": "kalbu",
+      "gloss": "dog",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 38,
+      "arabic": "حِمار",
+      "akkadian": "imēru",
+      "gloss": "donkey — ḥ lost",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 39,
+      "arabic": "حَقل",
+      "akkadian": "eqlu",
+      "gloss": "field — ḥ→e",
+      "verdict": "STRONG",
+      "category": "nature"
+    },
+    {
+      "id": 40,
+      "arabic": "بَيت",
+      "akkadian": "bītu",
+      "gloss": "house",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 41,
+      "arabic": "باب",
+      "akkadian": "bābu",
+      "gloss": "gate, door",
+      "verdict": "PERFECT",
+      "category": "nature"
+    },
+    {
+      "id": 42,
+      "arabic": "أَحَد",
+      "akkadian": "ēdu",
+      "gloss": "one, single — ḥ lost",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 43,
+      "arabic": "اثنان",
+      "akkadian": "šina",
+      "gloss": "two — ṯ→š",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 44,
+      "arabic": "ثَلاث",
+      "akkadian": "šalāš",
+      "gloss": "three — ṯ→š (the classic shift)",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 45,
+      "arabic": "أَربَع",
+      "akkadian": "erbe",
+      "gloss": "four",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 46,
+      "arabic": "خَمس",
+      "akkadian": "ḫamšu",
+      "gloss": "five — s→š",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 47,
+      "arabic": "سِتّ",
+      "akkadian": "šeššu",
+      "gloss": "six — s→š",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 48,
+      "arabic": "سَبع",
+      "akkadian": "sebe",
+      "gloss": "seven — ʿ lost",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 49,
+      "arabic": "ثَمان",
+      "akkadian": "samānû",
+      "gloss": "eight — ṯ→s",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 50,
+      "arabic": "تِسع",
+      "akkadian": "tiše",
+      "gloss": "nine — ʿ lost",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 51,
+      "arabic": "عَشر",
+      "akkadian": "ešer",
+      "gloss": "ten — ʿ→e",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 52,
+      "arabic": "مِئة",
+      "akkadian": "meʾtu",
+      "gloss": "hundred",
+      "verdict": "STRONG",
+      "category": "num"
+    },
+    {
+      "id": 53,
+      "arabic": "سَمِع",
+      "akkadian": "šemû",
+      "gloss": "to hear — s→š, ʿ lost",
+      "verdict": "STRONG",
+      "category": "mind"
+    },
+    {
+      "id": 54,
+      "arabic": "أَكَل",
+      "akkadian": "akālu",
+      "gloss": "to eat",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 55,
+      "arabic": "ماتَ",
+      "akkadian": "mâtu",
+      "gloss": "to die",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 56,
+      "arabic": "بَنى",
+      "akkadian": "banû",
+      "gloss": "to build, create",
+      "verdict": "PERFECT",
+      "category": "action"
+    },
+    {
+      "id": 57,
+      "arabic": "وَلَد",
+      "akkadian": "(w)alādu",
+      "gloss": "to give birth",
+      "verdict": "STRONG",
+      "category": "kin"
+    },
+    {
+      "id": 58,
+      "arabic": "دانَ",
+      "akkadian": "dânu",
+      "gloss": "to judge — dīnu = judgment",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 59,
+      "arabic": "قَرُب",
+      "akkadian": "qarābu",
+      "gloss": "to approach, draw near",
+      "verdict": "PERFECT",
+      "category": "motion"
+    },
+    {
+      "id": 60,
+      "arabic": "سَكَن",
+      "akkadian": "šakānu",
+      "gloss": "to set, place, dwell — s→š",
+      "verdict": "STRONG",
+      "category": "motion"
+    },
+    {
+      "id": 61,
+      "arabic": "نَظَر/نَصَر",
+      "akkadian": "naṣāru",
+      "gloss": "to guard, protect — ẓ→ṣ",
+      "verdict": "STRONG",
+      "category": "action"
+    },
+    {
+      "id": 62,
+      "arabic": "لَبِس",
+      "akkadian": "labāšu",
+      "gloss": "to clothe — s→š",
+      "verdict": "STRONG",
+      "category": "action"
+    },
+    {
+      "id": 63,
+      "arabic": "سَطَر",
+      "akkadian": "šaṭāru",
+      "gloss": "to write, inscribe — s→š",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 64,
+      "arabic": "مَلَك",
+      "akkadian": "malāku",
+      "gloss": "to rule, counsel — malku = prince",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 65,
+      "arabic": "رَبّ",
+      "akkadian": "rabû",
+      "gloss": "great; to be great",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 66,
+      "arabic": "بَعل",
+      "akkadian": "bēlu",
+      "gloss": "lord, owner — ʿ lost, a→ē",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 67,
+      "arabic": "إِله",
+      "akkadian": "ilu",
+      "gloss": "god",
+      "verdict": "PERFECT",
+      "category": "abstract"
+    },
+    {
+      "id": 68,
+      "arabic": "اسم",
+      "akkadian": "šumu",
+      "gloss": "name — s→š",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 69,
+      "arabic": "سَلام",
+      "akkadian": "šulmu",
+      "gloss": "peace, well-being — s→š",
+      "verdict": "STRONG",
+      "category": "abstract"
+    },
+    {
+      "id": 70,
+      "arabic": "سَنة",
+      "akkadian": "šattu",
+      "gloss": "year — s→š",
+      "verdict": "STRONG",
+      "category": "time"
+    },
+    {
+      "id": 71,
+      "arabic": "ابن",
+      "akkadian": "māru",
+      "gloss": "son (parallel stem — Akk uses māru, not b-n)",
+      "verdict": "PROVISIONAL",
+      "category": "kin"
+    },
+    {
+      "id": 72,
+      "arabic": "مَلِك",
+      "akkadian": "šarru",
+      "gloss": "king (parallel — the usual Akk title; cf. malku ↔ مَلَك above)",
+      "verdict": "PROVISIONAL",
+      "category": "abstract"
+    },
+    {
+      "id": 73,
+      "arabic": "بَحر/يَمّ",
+      "akkadian": "tâmtu",
+      "gloss": "sea (parallel stem)",
+      "verdict": "PROVISIONAL",
+      "category": "nature"
+    },
+    {
+      "id": 74,
+      "arabic": "جَبَل",
+      "akkadian": "šadû",
+      "gloss": "mountain (parallel stem)",
+      "verdict": "PROVISIONAL",
+      "category": "nature"
+    },
+    {
+      "id": 75,
+      "arabic": "نار",
+      "akkadian": "išātu",
+      "gloss": "fire (parallel — Arabic نار ↔ Akk nūru means \"light\")",
+      "verdict": "PROVISIONAL",
+      "category": "nature"
+    }
+  ]
+}
