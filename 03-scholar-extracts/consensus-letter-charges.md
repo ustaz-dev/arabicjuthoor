@@ -154,6 +154,17 @@ Always build upward, never downward:
 ### يَسومون, root س-و-م
 **س** (امتداد+سَيَلان) + **و** (وَصل+ربط) → nucleus **سو** = a flowing extension that binds. + **م** (تجمّع+تلاصق). Literally: an extending-binding-gathering, the act of imposing a marker on a body and pushing it under that marker. Same root as **وَسم** (livestock branding): the signature imposed on a creature that transfers it from its own keeping to the keeping of the marker.
 
+## Radical or augment? The hamza rule
+
+The charge-reading reads the meaning of the **root's radicals**. Letters added by the pattern (wazn) — the augment set **سألتمونيها** (س ء ل ت م و ن ي ه ا) — are not part of the lexical seed; they carry the *function* of the pattern, not a root-charge. **Hamza** is the case that most often trips this up, because it appears as an augment in several patterns.
+
+- **Hamza as a radical → read its charge.** When the hamza is one of the three radicals, it contributes تَأكيد + قَطع (or its boundary face قَطع + فَصْل): سَأَل (س-ء-ل), قَرَأ (ق-ر-ء), أَمَر (ء-م-ر), بَدَأ, نَبَأ, and the kin words أب / أخ / أم (ء-ب-و / ء-خ-و / ء-م-م).
+- **Hamza from the wazn → it does only what the wazn does**, and is *not* charged into the root: أَكرَم (form IV أَفعَل — root ك-ر-م; the hamza transitivises), أقلام (broken plural أفعال — root ق-ل-م), حَمراء (feminine فَعلاء — root ح-م-ر), and the hamzat al-waṣl of اسم / ابن / استفعل (connective, often unpronounced).
+
+**Procedure:** strip the wazn, isolate the radicals, then read the radicals' charges. The wazn's contribution — including any augment-hamza — lives on a separate morphological layer (causative, plural, feminine, …). This is the same root-discipline used elsewhere in the study (e.g. مَجوس read as م-ج-س on وزن فَعول, the و an augment). The interactive reader at [`/lookup.html`](../lookup.html) applies this automatically: a radical hamza is charged as hamza; a likely augment-hamza is flagged and left out of the root.
+
+> **A deeper note.** Even an augment-hamza was not chosen arbitrarily by the pattern — the causative أَفعَل uses *hamza* (initiation, affirmation) rather than some other augment, and under the framework's own logic that choice is itself gesture-motivated. But that is a second, morphological-layer reading. For the root seed the rule stands: do not let an augment-hamza enter the lexical composition.
+
 ## Stability discipline
 
 This table is meant to **stabilize** as the corpus grows, not oscillate. Variants noted above are the expected drift-window; beyond that drift, a reading is in tension with itself and needs review against the underlying sources (see `Data raw/Languistic theories/` and the classical survey in [`../01-theory/classical-survey-ar.md`](../01-theory/classical-survey-ar.md)).

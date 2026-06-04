@@ -1075,14 +1075,14 @@ function isArabicConsonant(ch) {
 }
 
 function normalizeForCharge(ch) {
-  // Map alif variants to charge keys.
-  if (ch === 'أ' || ch === 'إ' || ch === 'آ' || ch === 'ٱ') return 'ا'; // alif variants → alif
+  // A seated hamza is still a hamza: a RADICAL hamza carries تَأكيد+قَطع, not alif's
+  // extension. (If it turns out to be a wazn augment, markAugments() strips it.)
+  if (ch === 'أ' || ch === 'إ' || ch === 'آ' || ch === 'ٱ') return 'ء'; // hamza on alif-seat → hamza
   if (ch === 'ؤ') return 'و'; // waw-with-hamza → waw root carrier
   if (ch === 'ئ') return 'ي'; // yaa-with-hamza → ya root carrier
   if (ch === 'ة') return 'ت'; // ta-marbuta → ta
   if (ch === 'ى') return 'ي'; // alif-maqsoura → ya in root contexts
-  // Hamza itself stays ء; if input is bare hamza on alif-seat etc., it was mapped above.
-  return ch;
+  return ch; // bare ا (long vowel / hamzat al-waṣl) stays alif
 }
 
 function extractLetters(input) {
@@ -1091,9 +1091,58 @@ function extractLetters(input) {
   for (const ch of stripped) {
     if (!isArabicConsonant(ch)) continue;
     const key = normalizeForCharge(ch);
-    if (CHARGES[key]) out.push({ glyph: ch, key });
+    if (CHARGES[key]) out.push({ glyph: ch, key, isHamza: /[أإآٱء]/.test(ch) });
   }
   return out;
+}
+
+// Flag wazn-augment letters (hamza-focused) so they are NOT charged into the root.
+// The charge-reading reads the root's radicals; an augment carries the pattern's
+// function (causative / plural / feminine / connective), not a root-charge.
+// High-precision heuristics — ambiguous cases default to radical.
+const WASL_WORDS = new Set(['اسم','ابن','ابنة','اثنان','اثنين','امرؤ','امرأة','است']);
+function markAugments(letters) {
+  const n = letters.length;
+  // Initial hamza in a 4+ letter word: form IV (أَفعَل, causative/elative) or broken plural (أفعال).
+  if (n >= 4 && letters[0].isHamza) {
+    letters[0].augment = {
+      en: 'the hamza of form IV (أَفعَل) or of the broken plural (أفعال) — it carries the pattern’s function, not a root-charge',
+      ar: 'هَمزةُ «أَفعَلَ» أو هَمزةُ جَمعِ «أَفعال» — تَحمِلُ وَظيفةَ الوَزن لا شَحنةَ جَذر'
+    };
+  }
+  // Final ـاء of the feminine فَعلاء (e.g. حَمراء): the closing hamza (and its alif) are augments.
+  if (n >= 5 && letters[n-1].isHamza && letters[n-2].key === 'ا') {
+    letters[n-1].augment = { en: 'the feminine ـاء of فَعلاء (a wazn augment, not a root-charge)', ar: 'همزةُ التَّأنيثِ في «فَعلاء» — زائدةُ وَزن لا شَحنةَ جَذر' };
+    letters[n-2].augment = { en: 'augment alif of the feminine ـاء pattern', ar: 'ألِفُ التَّأنيثِ الزائدة' };
+  }
+  // Hamzat al-waṣl (bare initial alif in a known set): connective, often unpronounced.
+  const word = letters.map(l => l.glyph).join('');
+  if (n >= 3 && letters[0].key === 'ا' && WASL_WORDS.has(word)) {
+    letters[0].augment = { en: 'hamzat al-waṣl — a connective augment, not a root letter', ar: 'هَمزةُ وَصلٍ — زائدةُ صِلَةٍ لا حَرفٌ أَصليّ' };
+  }
+}
+
+function renderAugmentNotice(letters, radicals) {
+  if (!letters.some(l => l.isHamza)) return;
+  const block = document.getElementById('insights-block');
+  if (!block) return;
+  const aug = letters.filter(l => l.augment);
+  const rootGlyphs = radicals.map(l => l.glyph).join('');
+  let en, ar;
+  if (aug.length) {
+    en = `One or more letters read as <strong>wazn augments</strong>, so they are <strong>not charged into the root</strong>: ${aug.map(a=>`<code>${a.glyph}</code> &mdash; ${a.augment.en}`).join('; ')}. The root read above is <strong>${rootGlyphs}</strong>. If in your word any of these is actually a radical, include it.`;
+    ar = `حَرفٌ أو أكثرُ يُقرَأُ <strong>زائدةَ وَزن</strong>، فلا يُحمَّلُ شَحنةَ جَذر: ${aug.map(a=>`<code>${a.glyph}</code> &mdash; ${a.augment.ar}`).join('؛ ')}. والجَذرُ المَقروءُ أَعلاه هو <strong>${rootGlyphs}</strong>. فإن كانَ أيٌّ منها أصليًّا في كَلِمتِك فأَدخِلْه.`;
+  } else {
+    en = `The hamza here reads as a <strong>root radical</strong>, so it carries its charge (تَأكيد + قَطع). If in your word the hamza is a <strong>wazn augment</strong> (form IV أَفعَل, plural أفعال, feminine فَعلاء, or hamzat al-waṣl), it would not be charged into the root.`;
+    ar = `الهَمزةُ هنا تُقرَأُ <strong>حَرفًا أصليًّا</strong>، فتَحمِلُ شَحنَتَها (تَأكيد + قَطع). فإن كانَت في كَلِمتِك <strong>زائدةَ وَزن</strong> (أَفعَل، أفعال، فَعلاء، أو همزةَ وَصل) فلا تُحمَّلُ شَحنةَ جَذر.`;
+  }
+  block.insertAdjacentHTML('afterbegin', `
+    <div class="insight-card${aug.length?' has-match':''}" style="border-left:3px solid var(--accent-2);">
+      <span class="insight-tag">HAMZA · جذر / زيادة</span>
+      <h3><span class="lang-en">Hamza: root radical or wazn augment?</span><span class="lang-ar">الهَمزة: حَرفٌ أصليّ أم زائدةُ وَزن؟</span></h3>
+      <p class="lang-en">${en}</p>
+      <p class="lang-ar" style="font-family:var(--font-ar);direction:rtl;">${ar}</p>
+    </div>`);
 }
 
 // ============================================================
@@ -1102,20 +1151,37 @@ function extractLetters(input) {
 function renderLetters(letters) {
   const row = document.getElementById('letters-row');
   row.innerHTML = '';
-  letters.forEach((lt, idx) => {
+  const radicalCount = letters.filter(l => !l.augment).length;
+  let radIdx = 0;
+  letters.forEach((lt) => {
+    // Wazn augment: show it greyed, flagged, with no root-charge.
+    if (lt.augment) {
+      const acard = document.createElement('div');
+      acard.className = 'letter-card is-augment';
+      acard.style.opacity = '0.65';
+      acard.innerHTML = `
+        <div class="letter-glyph">${lt.glyph}</div>
+        <div class="letter-role"><span class="lang-en">augment · wazn</span><span class="lang-ar">زائدةُ وَزن</span></div>
+        <div class="letter-face">
+          <div class="face-en"><span class="lang-en">Not charged into the root.</span><span class="lang-ar">لا تُحمَّلُ شَحنةَ جَذر.</span></div>
+        </div>`;
+      row.appendChild(acard);
+      return;
+    }
     const ch = CHARGES[lt.key];
     if (!ch) return;
     let role = '';
-    if (letters.length >= 3) {
-      if (idx === 0) role = 'L1';
-      else if (idx === 1) role = 'L2';
-      else if (idx === 2) role = 'L3 · material';
-      else role = 'L' + (idx + 1);
+    if (radicalCount >= 3) {
+      if (radIdx === 0) role = 'L1';
+      else if (radIdx === 1) role = 'L2';
+      else if (radIdx === 2) role = 'L3 · material';
+      else role = 'L' + (radIdx + 1);
     } else {
-      role = 'Letter ' + (idx + 1);
+      role = 'Letter ' + (radIdx + 1);
     }
     const card = document.createElement('div');
-    card.className = 'letter-card' + (idx === 0 ? ' is-l1' : idx === 1 ? ' is-l2' : '');
+    card.className = 'letter-card' + (radIdx === 0 ? ' is-l1' : radIdx === 1 ? ' is-l2' : '');
+    radIdx++;
     card.innerHTML = `
       <div class="letter-glyph">${lt.glyph}</div>
       <div class="letter-role">${role}</div>
@@ -1382,9 +1448,12 @@ function read(opts) {
   }
   empty.style.display = 'none';
   result.classList.add('visible');
+  markAugments(letters);
+  const radicals = letters.filter(l => !l.augment);
   renderLetters(letters);
-  renderInsights(letters);
-  renderNucleus(letters);
+  renderInsights(radicals);
+  renderAugmentNotice(letters, radicals);
+  renderNucleus(radicals);
   renderModes();
   // URL state: push the word into the URL so the result is shareable.
   if (!opts.fromUrl) {
