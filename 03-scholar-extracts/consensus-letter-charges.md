@@ -127,14 +127,14 @@ Always build upward, never downward:
 
 1. **Name the letters with their charges**, e.g. `ق (قطع+إحكام) + ر (تكرار+جريان)`.
 2. **Form the nucleus** from the first two letters, e.g. `قر = إحكامٌ يَتكرّر`.
-3. **Add the remaining letter(s) of the root**, stating the new motion, e.g. `+ أ (تأكيد+قوّة)`.
+3. **Add the remaining letter(s) of the root**, stating the new motion, e.g. `+ أ (تأكيد+قَطع)`.
 4. **State the full root meaning, literally**, e.g. «القرآن حرفيّاً = استقرارٌ مُحكَمٌ يَتكرّر ويُؤكَّد».
 5. **Connect to how the word is used in context.** One sentence is enough.
 
 ## Worked examples
 
 ### القرآن, root ق-ر-أ
-**ق** (قطع+إحكام) + **ر** (تكرار+جريان) → nucleus **قر** = a precision that repeats. + **أ** (تأكيد+قوّة). Literally: a firm settling that repeats and is affirmed, a gathering that does not scatter.
+**ق** (قطع+إحكام) + **ر** (تكرار+جريان) → nucleus **قر** = a precision that repeats. + **أ** (تأكيد+قَطع). Literally: a firm settling that repeats and is affirmed, a gathering that does not scatter.
 
 ### فَطَرَ, root ف-ط-ر
 **ف** (تفرّق+نفاذ) + **ط** (انبساط+انتشار) → nucleus **فط** = an opening that spreads. + **ر** (تكرار+جريان). Literally: to split open and draw out what was hidden. Hence **فطرة** = the original latent disposition before habit covers it.

@@ -153,7 +153,7 @@ The composition model is implicit in Jabal but he never set it down as a precise
 
 1. **Name the letters with their charges** · e.g., ق (قطع + إحكام) + ر (تكرار + جريان).
 2. **Form the nucleus** from the first two letters · قر = a precision that repeats.
-3. **Add the remaining letter(s) of the root** · + أ (تأكيد + قوّة).
+3. **Add the remaining letter(s) of the root** · + أ (تأكيد + قَطع).
 4. **State the literal root meaning** · القرآن = a firm settling that repeats and is affirmed.
 5. **Connect to contextual usage** in one sentence.
 
