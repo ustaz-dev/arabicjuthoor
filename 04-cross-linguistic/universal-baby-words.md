@@ -15,8 +15,8 @@ The cross-linguistic work in this project found a **family-distance gradient**:
 | Test | Top-tier hit-rate |
 |------|------------------:|
 | Arabic (the language itself) | 100% |
-| Hebrew (immediate Semitic sister) | 80% |
-| Ancient Egyptian (close Afro-Asiatic family) | 52% |
+| Hebrew (immediate Semitic sister) | 84% |
+| Ancient Egyptian (close Afro-Asiatic family) | 55% |
 | Indo-European (distant family) | 25% |
 
 The obvious next question: is there a layer so deep it survives in **every** branch — even the ones that drifted furthest? Go as far as Chinese — a completely different writing system and structure — and the root-level matches thin out. But does the deepest sound-meaning bond still hold even there?
@@ -121,7 +121,7 @@ Two roads, one destination: **meaning living in the form of the sign, not arbitr
 
 ## Cross-links
 
-- The family-distance gradient: [`tier-a-hebrew-cognates.md`](tier-a-hebrew-cognates.md) (Hebrew 80%), [`tier-a-afro-asiatic-cognates.md`](tier-a-afro-asiatic-cognates.md) (Egyptian 52%), [`tafsir-coran-tier-a-cognates.md`](tafsir-coran-tier-a-cognates.md) (IE).
+- The family-distance gradient: [`tier-a-hebrew-cognates.md`](tier-a-hebrew-cognates.md) (Hebrew 84%), [`tier-a-afro-asiatic-cognates.md`](tier-a-afro-asiatic-cognates.md) (Egyptian 52%), [`tafsir-coran-tier-a-cognates.md`](tafsir-coran-tier-a-cognates.md) (IE).
 - The framework's letter-readings: [`../03-scholar-extracts/consensus-letter-charges.md`](../03-scholar-extracts/consensus-letter-charges.md).
 - The methodology argument: [`structural-revelations-article.md`](structural-revelations-article.md).
 
