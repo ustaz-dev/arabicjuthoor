@@ -2,7 +2,7 @@
 ## تدقيق البيانات الموثقة ومطابقة المنصات
 
 **Date:** 2026-03-24
-**Purpose:** Fact-check all claims about scholar data, letter coverage, and dataset counts against actual source files, NotebookLM extractions, and Jabal's xlsx. Reconcile discrepancies between this platform (Cowork/Claude) and the Codex platform.
+**Purpose:** Fact-check all claims about scholar data, letter coverage, and dataset counts against actual source files, NotebookLM extractions, and Jabal's xlsx. Reconcile discrepancies between this platform (Platform A) and the second platform (Platform B).
 
 ---
 
@@ -74,7 +74,7 @@
 ### محمد عنبر — 25/28 ✅ (21 explicit + 4 contextual, verified from NotebookLM)
 - **Source:** `Languistic theories/محمد عنبر/جدلية الحرف العربي.md` (raw, OCR-damaged) + NotebookLM notes (4 notes total)
 - **Verification:** The raw PDF file IS severely OCR-damaged (Chinese characters, garbled text). BUT the NotebookLM extraction produced a clean, structured table of 21 letters organized by phonetic groups, plus 4 additional letters derived from contextual analysis.
-- **Codex's claim of "only 3" is WRONG.** The OCR damage makes the raw file misleading. The actual extracted content covers:
+- **Platform B's claim of "only 3" is WRONG.** The OCR damage makes the raw file misleading. The actual extracted content covers:
   - شفوية: م، ف، ب (3)
   - تفخيم: ص، ق، ض (3)
   - ذلقية: ر، ل، ن (3)
@@ -149,19 +149,19 @@
 | Roots with Quranic application (التطبيق القرآني ≠ null) | **1,666** (86.6%) |
 | Roots without Quranic application | **258** |
 
-### Discrepancy with Codex platform:
-| Field | Our xlsx (ground truth) | Codex roots.jsonl | Difference |
+### Discrepancy with Platform B platform:
+| Field | Our xlsx (ground truth) | Platform B roots.jsonl | Difference |
 |-------|------------------------|-------------------|------------|
-| Total roots | 1,924 | 1,938 | +14 in Codex |
-| Quranic entries | 1,666 | 1,739 | +73 in Codex |
+| Total roots | 1,924 | 1,938 | +14 in Platform B |
+| Quranic entries | 1,666 | 1,739 | +73 in Platform B |
 
-**Explanation:** The Codex pipeline appears to have ingested additional data beyond the xlsx, or used different parsing logic. The xlsx is the canonical source. **An audit of the Codex ingestion pipeline is needed** to explain the 14 extra roots and 73 extra Quranic entries.
+**Explanation:** The Platform B pipeline appears to have ingested additional data beyond the xlsx, or used different parsing logic. The xlsx is the canonical source. **An audit of the Platform B ingestion pipeline is needed** to explain the 14 extra roots and 73 extra Quranic entries.
 
 ---
 
-## 3. Corrections to Codex AI Assessment
+## 3. Corrections to Platform B AI Assessment
 
-The following points were raised by the Codex platform AI and are corrected here:
+The following points were raised by the Platform B platform AI and are corrected here:
 
 ### ❌ "Only 3 عنبر letter meanings are cleanly extractable"
 **Correction:** 25 letters are now available — 21 explicitly extracted and clean in NotebookLM, plus 4 contextually derived (ج، ك، ت، غ) from targeted queries on عنبر's binary nuclei analysis. Only 3 letters (ط، ث، ظ) are truly missing. The OCR damage in the raw PDF misled the analysis. The NotebookLM extraction work across 4 notes produced structured, usable data.
@@ -254,10 +254,10 @@ The 2026‑03‑24 pass left three loose threads. All three are now resolved or 
 - **Coverage:** هيجانية = 4 letters (ء, ا, و, ي). إيمائية = 5 letters (ف, ل, م, ث, ذ). إيحائية = 19 letters. Total 28.
 - **Effect on §5 readiness table:** عباس is now ✅ YES (not ⚠️ MOSTLY). Updated above.
 
-### 6.2 ✅ CLOSED (out of scope for this folder) — Codex 14‑root delta
+### 6.2 ✅ CLOSED (out of scope for this folder) — Platform B 14‑root delta
 
-- **Original state (§2):** Codex `roots.jsonl` contains 1,938 roots / 1,739 Quranic vs xlsx ground truth 1,924 / 1,666 — "an audit of the Codex ingestion pipeline is needed."
-- **Resolution:** decision recorded — **the xlsx (`المعجم_الاشتقاقي_Juthoor_v2.xlsx`) is the canonical source.** Any divergence in the Codex pipeline is treated as a downstream ingestion bug, to be tracked and fixed in the LV0/LV1 Python pipeline (sibling folder `Juthoor-DataCore-LV0/` / `Juthoor-ArabicGenome-LV1/`), not in this raw‑data vault.
+- **Original state (§2):** Platform B `roots.jsonl` contains 1,938 roots / 1,739 Quranic vs xlsx ground truth 1,924 / 1,666 — "an audit of the Platform B ingestion pipeline is needed."
+- **Resolution:** decision recorded — **the xlsx (`المعجم_الاشتقاقي_Juthoor_v2.xlsx`) is the canonical source.** Any divergence in the Platform B pipeline is treated as a downstream ingestion bug, to be tracked and fixed in the LV0/LV1 Python pipeline (sibling folder `Juthoor-DataCore-LV0/` / `Juthoor-ArabicGenome-LV1/`), not in this raw‑data vault.
 - **Action item handed off:** open as a ticket in the LV0/LV1 ingestion code, not here. This vault stays frozen.
 
 ### 6.3 ✅ CLOSED — "Phase 1 tasks"
@@ -273,7 +273,7 @@ The 2026‑03‑24 pass left three loose threads. All three are now resolved or 
 | Open item | Status | Where it lives now |
 |---|---|---|
 | عباس إيماء/إيحاء extraction | ✅ Done | [`../03-scholar-extracts/abbas-letter-classification.md`](../03-scholar-extracts/abbas-letter-classification.md) |
-| Codex 14‑root / 73‑Quranic delta | ✅ Closed (out of scope here) | Hand‑off to `Juthoor-DataCore-LV0/` ingestion |
+| Platform B 14‑root / 73‑Quranic delta | ✅ Closed (out of scope here) | Hand‑off to `Juthoor-DataCore-LV0/` ingestion |
 | "Phase 1 tasks" | ✅ Closed | None remaining in this vault |
 
 This vault is now closed for input. Future changes belong in the downstream LV0–LV3 pipeline.

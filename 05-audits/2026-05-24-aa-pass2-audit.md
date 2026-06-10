@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-24
 **Pool:** the 84 PROVISIONAL entries in [`tier-a-afro-asiatic-cognates.md`](../04-cross-linguistic/tier-a-afro-asiatic-cognates.md)
-**Method:** the same blind-rescore methodology that took the Indo-European Pass-1 ≥0.65 pool of 770 candidates down to a calibrated 189 (see [`2026-05-21-opus-calibrated-770.md`](2026-05-21-opus-calibrated-770.md)), now applied to the AA Tier-A roster
+**Method:** the same blind-rescore methodology that took the Indo-European Pass-1 ≥0.65 pool of 770 candidates down to a calibrated 189 (see [`2026-05-21-pass2-calibrated-770.md`](2026-05-21-pass2-calibrated-770.md)), now applied to the AA Tier-A roster
 **Goal:** decide which PROVISIONAL verdicts survive a stricter second pass, which should be promoted, and which should be downgraded or removed
 
 > The Arabic version is forthcoming.
@@ -216,4 +216,4 @@ The action-verb category was the most heavily PROVISIONAL because verbs of physi
 
 ---
 
-_See the parent audit and roster at [`tier-a-afro-asiatic-cognates.md`](../04-cross-linguistic/tier-a-afro-asiatic-cognates.md). The methodology mirror is [`2026-05-21-opus-calibrated-770.md`](2026-05-21-opus-calibrated-770.md) (the IE Pass-2 audit that took 770 → 189 calibrated)._
+_See the parent audit and roster at [`tier-a-afro-asiatic-cognates.md`](../04-cross-linguistic/tier-a-afro-asiatic-cognates.md). The methodology mirror is [`2026-05-21-pass2-calibrated-770.md`](2026-05-21-pass2-calibrated-770.md) (the IE Pass-2 audit that took 770 → 189 calibrated)._

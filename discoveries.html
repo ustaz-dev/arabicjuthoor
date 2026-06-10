@@ -199,8 +199,8 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
     <div class="stat"><div class="stat-num">7</div><div class="stat-label"><span class="lang-en">IE branches</span><span class="lang-ar">فُروع هندوأوربيّة</span></div></div>
   </div>
   <p style="font-size:13px;color:var(--text-3);margin:-10px 0 20px;">
-    <span class="lang-en">Headline numbers are <strong>Pass 2 calibrated</strong> re-scores of the full ≥0.65 pool (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770.md">audit</a>). Pass 1 (bulk discovery) produced 770 ≥0.65 / 134 ≥0.8 / 57 ≥0.95; Pass 2 (blind calibrated re-read) tightened these to 189 / 120 / 18. Both scores are visible on every row (click to expand).</span>
-    <span class="lang-ar">الأَرقامُ الرَّئيسيّة هي إعادةُ تَسجيلٍ بِـ <strong>التَّمريرة الثانية المُعايَرة</strong> لِكامِل حَوض ≥0.65 (<a href="viewer.html?file=05-audits/2026-05-21-opus-calibrated-770-ar.md">التَّدقيق</a>). التَّمريرةُ الأولى (الاكتِشافُ الجُمليّ) أَنتَجَت 770/134/57؛ التَّمريرةُ الثانية (إعادةُ قِراءةٍ مُعايَرةٍ أَعمى) أَحكَمَتها إلى 189/120/18. كِلتا النُّقطَتَين تَظهَران عَلى كُلِّ صَفّ.</span>
+    <span class="lang-en">Headline numbers are <strong>Pass 2 calibrated</strong> re-scores of the full ≥0.65 pool (<a href="viewer.html?file=05-audits/2026-05-21-pass2-calibrated-770.md">audit</a>). Pass 1 (bulk discovery) produced 770 ≥0.65 / 134 ≥0.8 / 57 ≥0.95; Pass 2 (blind calibrated re-read) tightened these to 189 / 120 / 18. Both scores are visible on every row (click to expand).</span>
+    <span class="lang-ar">الأَرقامُ الرَّئيسيّة هي إعادةُ تَسجيلٍ بِـ <strong>التَّمريرة الثانية المُعايَرة</strong> لِكامِل حَوض ≥0.65 (<a href="viewer.html?file=05-audits/2026-05-21-pass2-calibrated-770-ar.md">التَّدقيق</a>). التَّمريرةُ الأولى (الاكتِشافُ الجُمليّ) أَنتَجَت 770/134/57؛ التَّمريرةُ الثانية (إعادةُ قِراءةٍ مُعايَرةٍ أَعمى) أَحكَمَتها إلى 189/120/18. كِلتا النُّقطَتَين تَظهَران عَلى كُلِّ صَفّ.</span>
   </p>
 
   <div class="filters">
@@ -261,7 +261,7 @@ const state = {
   minScore: 0.65,
   search: '',
   verifiedOnly: false,
-  sortKey: 'score',     // 'score' (default), 'opus', 'ar', 'tgt', 'lang'
+  sortKey: 'score',     // 'score' (default), 'pass2', 'ar', 'tgt', 'lang'
   sortDir: 'desc',      // 'asc' or 'desc'
   expandedRow: null,
 };
@@ -331,8 +331,8 @@ async function loadData() {
 function initUI() {
   // stats — use CALIBRATED numbers as headline
   document.getElementById('stat-total').textContent = DATA.records.length.toLocaleString();
-  if (DATA.calibrated && DATA.calibrated.buckets_opus_calibrated) {
-    const cb = DATA.calibrated.buckets_opus_calibrated;
+  if (DATA.calibrated && DATA.calibrated.buckets_pass2_calibrated) {
+    const cb = DATA.calibrated.buckets_pass2_calibrated;
     document.getElementById('stat-95').textContent = cb['≥0.95'];
     document.getElementById('stat-80').textContent = cb['≥0.80'];
     document.getElementById('stat-65').textContent = cb['≥0.65'];
@@ -443,7 +443,7 @@ function initUI() {
 
 // ─── Filtering + rendering ───────────────────────────────────────────────
 function effectiveScore(r) {
-  return (r.opus_score !== null && r.opus_score !== undefined) ? r.opus_score : r.score;
+  return (r.pass2_score !== null && r.pass2_score !== undefined) ? r.pass2_score : r.score;
 }
 
 function filtered() {
@@ -451,10 +451,10 @@ function filtered() {
   if (state.lang !== 'all') out = out.filter(r => r.code === state.lang);
   out = out.filter(r => effectiveScore(r) >= state.minScore);
   if (state.verifiedOnly) {
-    // Verified = both Sonnet and Opus rate it ≥0.65
+    // Verified = both passes rate it ≥0.65
     out = out.filter(r =>
-      r.opus_score !== null && r.opus_score !== undefined &&
-      r.opus_score >= 0.65 && r.score >= 0.65);
+      r.pass2_score !== null && r.pass2_score !== undefined &&
+      r.pass2_score >= 0.65 && r.score >= 0.65);
   }
   if (state.search) {
     const q = state.search;
@@ -466,7 +466,7 @@ function filtered() {
   // Sort
   const sortFns = {
     score: r => r.score,
-    opus:  r => r.opus_score === null || r.opus_score === undefined ? -1 : r.opus_score,
+    pass2: r => r.pass2_score === null || r.pass2_score === undefined ? -1 : r.pass2_score,
     ar:    r => r.ar || '',
     tgt:   r => (r.tgt || '').toLowerCase(),
     lang:  r => r.code || '',
@@ -483,7 +483,7 @@ function filtered() {
 
 function exportCSV(rows) {
   const isAr = document.documentElement.getAttribute('data-lang') === 'ar';
-  const header = ['idx', 'arabic', 'target', 'sonnet_score', 'opus_score', 'lang_code', 'lang_en', 'branch', 'method', 'reasoning'];
+  const header = ['idx', 'arabic', 'target', 'pass1_score', 'pass2_score', 'lang_code', 'lang_en', 'branch', 'method', 'reasoning'];
   const lines = [header.join(',')];
   rows.forEach((r, i) => {
     const cells = [
@@ -491,7 +491,7 @@ function exportCSV(rows) {
       `"${(r.ar || '').replace(/"/g, '""')}"`,
       `"${(r.tgt || '').replace(/"/g, '""')}"`,
       r.score,
-      r.opus_score === null || r.opus_score === undefined ? '' : r.opus_score,
+      r.pass2_score === null || r.pass2_score === undefined ? '' : r.pass2_score,
       r.code || '',
       `"${(r.lang_en || '').replace(/"/g, '""')}"`,
       `"${(r.branch || '').replace(/"/g, '""')}"`,
@@ -539,8 +539,8 @@ function render() {
 
   // Sortable headers: each header is a button-like th that toggles sort
   const headerSpec = isAr
-    ? [['ar', 'عَرَبيّ'], ['tgt', 'كَلِمة هَدَف'], ['score', 'تَمريرة 1'], ['opus', 'تَمريرة 2 · مُعايَرة'], ['lang', 'لُغة'], [null, 'فَرع']]
-    : [['ar', 'Arabic'], ['tgt', 'Target lemma'], ['score', 'Pass 1'], ['opus', 'Pass 2 · calibrated'], ['lang', 'Language'], [null, 'Branch']];
+    ? [['ar', 'عَرَبيّ'], ['tgt', 'كَلِمة هَدَف'], ['score', 'تَمريرة 1'], ['pass2', 'تَمريرة 2 · مُعايَرة'], ['lang', 'لُغة'], [null, 'فَرع']]
+    : [['ar', 'Arabic'], ['tgt', 'Target lemma'], ['score', 'Pass 1'], ['pass2', 'Pass 2 · calibrated'], ['lang', 'Language'], [null, 'Branch']];
 
   let html = '<table class="discoveries"><thead><tr>';
   headerSpec.forEach(([key, label], i) => {
@@ -554,12 +554,12 @@ function render() {
 
   display.forEach((r, idx) => {
     const sc = scoreClass(r.score);
-    let opusCell = '';
-    if (r.opus_score !== null && r.opus_score !== undefined) {
-      const oc = scoreClass(r.opus_score);
-      opusCell = `<span class="score-cell ${oc}" style="font-size:13px;">${r.opus_score.toFixed(2)}</span>`;
+    let pass2Cell = '';
+    if (r.pass2_score !== null && r.pass2_score !== undefined) {
+      const oc = scoreClass(r.pass2_score);
+      pass2Cell = `<span class="score-cell ${oc}" style="font-size:13px;">${r.pass2_score.toFixed(2)}</span>`;
     } else {
-      opusCell = '<span style="color:var(--text-3);font-size:12px;">—</span>';
+      pass2Cell = '<span style="color:var(--text-3);font-size:12px;">—</span>';
     }
     const arPron = r.ar_pron ? `<span class="ar-pron">${escapeHtml(r.ar_pron)}</span>` : '';
     const tgtPron = (r.tgt_pron && r.tgt_pron !== r.tgt) ? `<span class="tgt-pron">${escapeHtml(r.tgt_pron)}</span>` : '';
@@ -567,7 +567,7 @@ function render() {
       <td class="ar-cell" lang="ar" dir="rtl">${escapeHtml(r.ar)}${arPron}</td>
       <td class="tgt-cell">${escapeHtml(r.tgt)}${tgtPron}</td>
       <td class="score-cell ${sc}">${r.score.toFixed(2)}</td>
-      <td>${opusCell}</td>
+      <td>${pass2Cell}</td>
       <td class="lang-cell"><span class="lang-badge">${r.code}</span> ${escapeHtml(isAr ? r.lang_ar : r.lang_en)}</td>
       <td class="lang-cell col-branch">${escapeHtml(r.branch)}</td>
     </tr>`;

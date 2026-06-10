@@ -97,7 +97,7 @@ All ten are borderline التَّمريرة الأُولى `likely` ratings (0.7
 
 2. **The original headline counts at the `likely` threshold are inflated by ~50%.** The 770-at-≥0.65 figure is closer to ~350 under calibrated re-read. The dashboard's headline numbers at ≥0.8 (134) and ≥0.95 (57) remain reliable; the ≥0.65 count should be revisited.
 
-3. **The the alternate model pass was the wrong test.** It is preserved as `2026-05-21-irr-gemini-uncalibrated.md` for transparency, with explicit framing: it tested paradigm alignment, not rubric reproducibility, and produced the expected "no" from a paradigm-incompatible rater.
+3. **The the alternate model pass was the wrong test.** It is preserved as `2026-05-21-irr-altmodel-uncalibrated.md` for transparency, with explicit framing: it tested paradigm alignment, not rubric reproducibility, and produced the expected "no" from a paradigm-incompatible rater.
 
 4. **The calibration drift is a known phenomenon, not a flaw.** Bulk scoring under time pressure across thousands of pairs will be more lenient than a careful second pass. The methodology now formally requires: aggregate ≥0.8 counts are headline-quotable; aggregate ≥0.65 counts include a footnote pointing to this IRR audit.
 
@@ -110,7 +110,7 @@ All ten are borderline التَّمريرة الأُولى `likely` ratings (0.7
 ## Caveats
 
 - The sample is stratified random from the ≥0.65 pool, so it is well-populated at the 'likely+' end and empty at the 'weak'/'plausible' end on the A side. Agreement at the lower end of the score range is not measured.
-- Both raters are in the Claude family. A truly independent IRR requires a calibrated rater from a different family (GPT/Codex calibrated, or a human philologist trained in the Juthoor rubric).
+- Both raters are from the same model family. A truly independent IRR requires a calibrated rater from a different family (a calibrated rater from a different model family, or a human philologist trained in the Juthoor rubric).
 - The bucket thresholds (0.50 / 0.65 / 0.80) match the published rubric. Different thresholds would yield different κ.
 
 — end —
