@@ -1085,7 +1085,7 @@ This also means a future corpus-scale Egyptian↔Arabic test should be **cheaper
 ## Where this opens
 
 - **✅ DONE · roster scaled to 200 entries.** Two passes completed: the first (entries 12–50) covered the high-confidence body-and-life vocabulary, the kinship-and-existence core, motion verbs, and the function-word inventory. The second (entries 51–200) extended into numbers, the extended body/kinship/preposition inventory, action and cognition verbs, adjectives, nature, time, abstract and sacred lexicons, and additional Saidi/Coptic-Arabic parallels — drawing on Cohen, Orel-Stolbova, Vycichl's *Dictionnaire étymologique de la langue copte*, and Leslau's *Comparative Dictionary of Geʿez*.
-- **Aggregate verdict at 200 entries:** 11 PERFECT + 7 PROTO-AFRO-ASIATIC + 1 DUAL-FACE PAIR + 78 STRONG + 18 PARTIAL + 84 PROVISIONAL = 96 / 200 top-three-tier (48%), 199 / 200 framework-readable (99.5%). The top-tier hit rate is **twice the calibrated distant-IE pool rate**, and the deep-family-core hit rate is 90%.
+- **Aggregate verdict at 200 entries:** 11 PERFECT + 7 PROTO-AFRO-ASIATIC + 1 DUAL-FACE PAIR + 78 STRONG + 18 PARTIAL + 84 PROVISIONAL = 96 / 200 top-three-tier (48%), 199 / 200 framework-readable (99.5%). The top-tier hit rate is **twice the calibrated distant-IE pool rate**, and the deep-family-core rate, recomputed on the criterion-fixed 20-word set now tagged `deep_core` in the data, is 14/20 (70%) PERFECT+PROTO-FAMILY and 16/20 (80%) top-three-tier (the earlier 18/20 figure rested on an unpublished list and is superseded).
 - **Extend to other Afro-Asiatic descendants.** Hebrew, Aramaic, Ge'ez (classical Ethiopic), Amharic, the Berber and Cushitic languages. The prediction is that every closer-family member should yield cleaner readings than the Indo-European pool, with hit-rates landing in the 70–95% range rather than the 25% we see for the calibrated IE pool.
 - **Run Eye-1 + Eye-2 at corpus scale on Egyptian.** The Berlin *Thesaurus Linguae Aegyptiae* publishes its lexicon in TEI XML. A direct port of our Eye-1 skeleton matcher should produce thousands of candidate Arabic↔Egyptian pairs for Eye-2 scoring under the calibrated rubric. This is the natural next-quarter compute task.
 - **Reach out to *@tareq.ismail*** (the Egyptian-Saidi linguistic series host). The video work he is doing is exactly the empirical comparison the framework predicts. A collaboration would be a natural fit: he has the corpus and the audience; we have the operative grammar that explains *why* each match works structurally.
@@ -1098,7 +1098,7 @@ Temessek, Y. Tier-A · Afro-Asiatic cognates · Arabic ↔ Ancient Egyptian.
 Verdict distribution: 11 PERFECT · 7 PROTO-AFRO-ASIATIC · 1 DUAL-FACE PAIR ·
 78 STRONG · 18 PARTIAL · 84 PROVISIONAL · 1 SKIP · 0 forced.
 Top-three-tier hit rate: 96/200 (48%) — twice the distant-IE pool rate.
-Deep-family-core hit rate (PERFECT + PROTO-FAMILY): 18/20 (90%).
+Deep-family-core hit rate (PERFECT + PROTO-FAMILY, criterion-fixed 20-word set tagged in the data): 14/20 (70%); top-three-tier 16/20 (80%).
 30+ entries flagged 🔑 for structural revelations (metathesis cognates,
 dual-face L3 swaps, polysemy as evidence of shared seed).
 The Arabic Tongue (nature-genome-application), 2026-05-24.

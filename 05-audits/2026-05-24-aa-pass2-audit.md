@@ -199,13 +199,13 @@ The action-verb category was the most heavily PROVISIONAL because verbs of physi
 
 **Top-three-tier hit rate (PERFECT + PROTO-FAMILY + STRONG):** 103 / 200 (51.5%) → **104 / 200 (52%)** after the #133 upgrade.
 **Framework-readable rate (everything except PARALLEL-STEMS-NOTE):** 185 / 200 (92.5%) under stricter labelling — the 15 PARALLEL-STEMS-NOTE entries are honestly tagged as not claimable as cognates.
-**Deep-family-core hit rate:** unchanged at 90% — the most-shared family-wide vocabulary was never PROVISIONAL.
+**Deep-family-core hit rate:** unchanged at 90% under the original (unpublished) 20-word list. *Superseded 2026-06-10:* the core set is now criterion-fixed and tagged `deep_core` in the data, giving 14/20 (70%) PERFECT+PROTO and 16/20 (80%) top-three-tier.
 
 ## What this Pass-2 establishes
 
 1. **The framework is mostly conservative.** Of the 84 PROVISIONAL entries, only 6 were upgrade-candidates. Most of the PROVISIONAL labels were honest first-pass assessments.
 2. **The PARALLEL-STEMS-NOTE category is a useful new transparency tag.** 15 entries were borderline-honest in the original roster — they are real parallel stems but the framework can't claim cognate status. Calling this out explicitly is better than leaving them in the PROVISIONAL pool with the ambiguity.
-3. **The headline numbers held up.** Top-three-tier rate moved 48% → 49%. Deep-family-core rate unchanged at 90%. The framework reads 185/200 entries with a coherent operative-grammar verdict — and is honest about the remaining 15 being not-readable.
+3. **The headline numbers held up.** Top-three-tier rate moved 48% → 49%. Deep-family-core rate unchanged at 90% under the original list (superseded, see the note above: the criterion-fixed tagged set gives 70%/80%). The framework reads 185/200 entries with a coherent operative-grammar verdict — and is honest about the remaining 15 being not-readable.
 4. **The 25 🔑 structural revelations were preserved through Pass-2.** None of the revelation-flagged entries were in the PROVISIONAL bucket, so the structural-revelation case is untouched.
 
 ## What this audit does not do

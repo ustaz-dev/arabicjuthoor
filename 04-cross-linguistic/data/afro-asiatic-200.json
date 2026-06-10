@@ -32,7 +32,8 @@
       "class": "bare binary",
       "verdict": "PROTO-FAMILY",
       "revelation": false,
-      "category": "saidi"
+      "category": "saidi",
+      "deep_core": true
     },
     {
       "id": 3,
@@ -132,7 +133,8 @@
       "class": "bare binary · universal",
       "verdict": "PERFECT",
       "revelation": false,
-      "category": "body"
+      "category": "body",
+      "deep_core": true
     },
     {
       "id": 13,
@@ -152,7 +154,8 @@
       "class": "metathesis (l-s-n ↔ n-s)",
       "verdict": "STRONG",
       "revelation": true,
-      "category": "body"
+      "category": "body",
+      "deep_core": true
     },
     {
       "id": 15,
@@ -162,7 +165,8 @@
       "class": "geminate/suffixed · polysemy proof",
       "verdict": "STRONG",
       "revelation": true,
-      "category": "body"
+      "category": "body",
+      "deep_core": true
     },
     {
       "id": 16,
@@ -202,7 +206,8 @@
       "class": "trilateral · universal Afro-Asiatic",
       "verdict": "PERFECT",
       "revelation": false,
-      "category": "kin"
+      "category": "kin",
+      "deep_core": true
     },
     {
       "id": 20,
@@ -212,7 +217,8 @@
       "class": "geminate/trilateral · same nucleus as 'die'",
       "verdict": "PERFECT",
       "revelation": true,
-      "category": "kin"
+      "category": "kin",
+      "deep_core": true
     },
     {
       "id": 21,
@@ -222,7 +228,8 @@
       "class": "bare binary · parallel stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
-      "category": "kin"
+      "category": "kin",
+      "deep_core": true
     },
     {
       "id": 22,
@@ -232,7 +239,8 @@
       "class": "bare binary · parallel stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
-      "category": "kin"
+      "category": "kin",
+      "deep_core": true
     },
     {
       "id": 23,
@@ -252,7 +260,8 @@
       "class": "bare binary · universal",
       "verdict": "PERFECT",
       "revelation": false,
-      "category": "nature"
+      "category": "nature",
+      "deep_core": true
     },
     {
       "id": 25,
@@ -262,7 +271,8 @@
       "class": "bare binary",
       "verdict": "PERFECT",
       "revelation": false,
-      "category": "motion"
+      "category": "motion",
+      "deep_core": true
     },
     {
       "id": 26,
@@ -422,7 +432,8 @@
       "class": "nasal pronoun stem · universal",
       "verdict": "PROTO-FAMILY",
       "revelation": false,
-      "category": "pronoun"
+      "category": "pronoun",
+      "deep_core": true
     },
     {
       "id": 42,
@@ -432,7 +443,8 @@
       "class": "n+t pronoun stem · universal",
       "verdict": "PROTO-FAMILY",
       "revelation": false,
-      "category": "pronoun"
+      "category": "pronoun",
+      "deep_core": true
     },
     {
       "id": 43,
@@ -442,7 +454,8 @@
       "class": "single-letter preposition · universal",
       "verdict": "PROTO-FAMILY",
       "revelation": false,
-      "category": "prep"
+      "category": "prep",
+      "deep_core": true
     },
     {
       "id": 44,
@@ -452,7 +465,8 @@
       "class": "negation particle · parallel stems",
       "verdict": "PROTO-FAMILY",
       "revelation": false,
-      "category": "prep"
+      "category": "prep",
+      "deep_core": true
     },
     {
       "id": 45,
@@ -642,7 +656,8 @@
       "class": "parallel heart-stems",
       "verdict": "PARTIAL",
       "revelation": false,
-      "category": "body"
+      "category": "body",
+      "deep_core": true
     },
     {
       "id": 64,
@@ -752,7 +767,8 @@
       "class": "nasal pronoun stem · universal",
       "verdict": "PROTO-FAMILY",
       "revelation": false,
-      "category": "pronoun"
+      "category": "pronoun",
+      "deep_core": true
     },
     {
       "id": 75,
@@ -762,7 +778,8 @@
       "class": "n+t pronoun stem (plural)",
       "verdict": "PROTO-FAMILY",
       "revelation": false,
-      "category": "pronoun"
+      "category": "pronoun",
+      "deep_core": true
     },
     {
       "id": 76,
@@ -772,7 +789,8 @@
       "class": "parallel 3sg-masc stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
-      "category": "pronoun"
+      "category": "pronoun",
+      "deep_core": true
     },
     {
       "id": 77,
@@ -842,7 +860,8 @@
       "class": "dative marker · l/n alternation",
       "verdict": "PROTO-FAMILY",
       "revelation": false,
-      "category": "prep"
+      "category": "prep",
+      "deep_core": true
     },
     {
       "id": 84,
@@ -1622,7 +1641,8 @@
       "class": "trilateral · n-f-s exact match across family",
       "verdict": "PERFECT",
       "revelation": true,
-      "category": "abstract"
+      "category": "abstract",
+      "deep_core": true
     },
     {
       "id": 162,
@@ -3256,5 +3276,14 @@
     }
   ],
   "pass2_audit": "05-audits/2026-05-24-aa-pass2-audit.md",
-  "second_attack_audit": "05-audits/2026-05-24-aa-second-attack.md"
+  "second_attack_audit": "05-audits/2026-05-24-aa-second-attack.md",
+  "deep_core": {
+    "criterion": "The 20 most-universal family-wide words, fixed by category before scoring: the pronoun/deixis/negation/particle inventory (انا، انت، انتم، نحن، هو، ذا، لا/ما، مِن، لِـ), core body (عين، لسان، سنّ، قلب), core kinship (أمّ، أب، أخ), and core life/nature (ماء، مات، نفس، جاء). Tagged deep_core: true on each entry.",
+    "n": 20,
+    "perfect_plus_proto": 14,
+    "top_three_tier": 16,
+    "rate_perfect_proto": "14/20 = 70%",
+    "rate_top_three": "16/20 = 80%",
+    "note": "Replaces the earlier unreproducible \"18/20 (90%)\" figure: the original 20-word list was never published, so the subset is now fixed by explicit criterion and tagged in the data for anyone to recompute."
+  }
 }

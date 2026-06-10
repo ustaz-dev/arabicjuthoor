@@ -18,6 +18,8 @@ The charges below are not invented. They are a shared reading anchored in Arabic
 
 Form: **حرف (شحنة جسديّة + شحنة معنويّة) · phonetic note · English gloss**.
 
+> **Counting note:** the table has 29 rows for the 28-letter alphabet. Hamza (ء) and alif (ا) are listed separately because each carries its own distinct charge (the jawfī treatment); in the traditional alphabet count they share one slot.
+
 | حرف | الشحنة (المُوَحَّدة) | Phonetic note | English gloss |
 | --- | --- | --- | --- |
 | **ء / أ (الهمزة)** | تَأكيد + قَطع | a sharp glottal onset, the breath stopped at the throat | sharp affirmation, beginning |
