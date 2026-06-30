@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# !! STALE: this script produces only 124 entries; the LIVE hebrew-cognates.json has 219
+# (extended after this script). DO NOT re-run it — edit the JSON directly. See check_rosters.py.
 """Build the Arabic <-> Hebrew cognate dataset (the close-sister seam).
 These are well-established Semitic cognates — verifiable, not from-memory reaching.
 PERFECT = same root, no shift; STRONG = one regular Semitic shift (ث↔š, ض↔ts/ṣ, ذ↔z, خ↔ḥ, ظ↔ts)."""

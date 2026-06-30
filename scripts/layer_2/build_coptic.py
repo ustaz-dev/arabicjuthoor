@@ -43,7 +43,7 @@ E=[
 ('عُروة','r','ⲣⲱ (rō)','mouth, opening, loop','ر/rō the opening/loop — the opened ring','PARTIAL'),
 ('فَلَقَ','*wp','ⲡⲱⲣϫ (pōrč)','to split, cleave, open','ف-parting + ل-q = the splitting-open (Coptic pōrč "divide")','PARTIAL'),
 ('خَلَقَ','ḫpr','ϣⲱⲡⲉ (šōpe)','to become, create, shape','the creating/forming sense of ḫpr; overlaps شبّ (same Coptic šōpe)','PARTIAL'),
-('حَلَبَ','*ḥrb','ⲉⲣⲱⲧⲉ (erōte)','to milk, yield liquid','ح-l-b the milking; drawing the liquid out','PARTIAL'),
+('حَلَبَ','*ḥrb','ⲉⲣⲱⲧⲉ (erōte)','to milk, yield liquid','ح-l-b the milking; Coptic erōte shares no consonant with حلب — reconstructed bridge only','PROVISIONAL'),
 ('بَيت','pr','ⲡⲏⲓ (pēi)','house','pr "house" → Coptic pēi; Arabic بيت is a parallel dwelling-stem','PROVISIONAL'),
 ]
 entries=[]

@@ -1,6 +1,6 @@
 # Unexplored Coptic & Ancient Egyptian Lexicon
 
-> **Status: graded under the Juthoor methodology (2026-05-24).** This is the **Coptic spoken-restoration layer** — Coptic is the third witness that restores consonants the consonantal hieroglyphic script dropped (flagship: لِسان l-s-n ↔ hieroglyphic *ns* ↔ Coptic ⲗⲁⲥ *las*). Most entries here confirm already-attested Egyptian cognates, so the Coptic **adds evidence, not new claims.** Coptic lemmas from Crum / KELLIA; `*` marks a reconstructed Egyptian ancestor. Authoritative per-entry grades (2 PERFECT · 23 STRONG · 7 PARTIAL · 1 PROVISIONAL) are in [`data/coptic-cognates.json`](data/coptic-cognates.json).
+> **Status: graded under the Juthoor methodology (2026-05-24).** This is the **Coptic spoken-restoration layer** — Coptic is the third witness that restores consonants the consonantal hieroglyphic script dropped (flagship: لِسان l-s-n ↔ hieroglyphic *ns* ↔ Coptic ⲗⲁⲥ *las*). Most entries here confirm already-attested Egyptian cognates, so the Coptic **adds evidence, not new claims.** Coptic lemmas from Crum / KELLIA; `*` marks a reconstructed Egyptian ancestor. Authoritative per-entry grades (2 PERFECT · 23 STRONG · 6 PARTIAL · 2 PROVISIONAL) are in [`data/coptic-cognates.json`](data/coptic-cognates.json).
 
 
 This document serves as a running etymological journal for exploring core, non-repetitive **Ancient Egyptian and Coptic vocabulary roots** through the lens of the **Juthoor operative grammar** (letter charges, mouth gestures, and sound shifts). 

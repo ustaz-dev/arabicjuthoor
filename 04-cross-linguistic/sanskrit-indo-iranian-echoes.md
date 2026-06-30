@@ -1,6 +1,6 @@
 # Sanskrit (Indo-Iranian) Echoes: Deconstructing Core Concepts
 
-> **Status: read through the fixed letter-charges (2026-06-02).** Sanskrit is the most distant branch tested. We do **not** grade it by genetic cognacy — each word's *own* sounds are read through the 28 fixed charges, and graded by whether the gesture composes to its attested meaning. Where it does — landing on the same meaning the same gesture builds in Arabic — the framework reads it as a surviving trace of **one original tongue (the original Arabic)** whose sound-meaning logic Qur'ānic Arabic kept most intact: not a borrowing, and not a coincidence at distance. Grades (**30 worked entries · 11 PERFECT · 18 STRONG · 1 PARTIAL — 97% top-tier**) in [`data/sanskrit-cognates.json`](data/sanskrit-cognates.json). The reading is honest, not blind: the single PARTIAL (أخ↔bhrātṛ) is where the skeleton only half-aligns — read, not forced — and صندل↔candana is flagged as a trade Wanderwort that still composes cleanly. Every entry carries its charge-reading and a Monier-Williams source. Sources: Monier-Williams.
+> **Status: read through the fixed letter-charges (2026-06-02).** Sanskrit is the most distant branch tested. We do **not** grade it by genetic cognacy — each word's *own* sounds are read through the 28 fixed charges, and graded by whether the gesture composes to its attested meaning. Where it does — landing on the same meaning the same gesture builds in Arabic — the framework reads it as a surviving trace of **one original tongue (the original Arabic)** whose sound-meaning logic Qur'ānic Arabic kept most intact: not a borrowing, and not a coincidence at distance. Grades (**30 worked entries · 10 PERFECT · 18 STRONG · 2 PARTIAL — 93% top-tier**) in [`data/sanskrit-cognates.json`](data/sanskrit-cognates.json). The reading is honest, not blind: the two PARTIALs (أخ↔bhrātṛ, اسم↔nāman) are where the skeleton only half-aligns — read, not forced — and صندل↔candana is flagged as a trade Wanderwort that still composes cleanly. Every entry carries its charge-reading and a Monier-Williams source. Sources: Monier-Williams.
 
 
 ## The Phonosemantic Correspondence of Vedic Sanskrit and Classical Arabic
@@ -214,7 +214,7 @@ For each worked entry, we apply the 28-letter charge table (from `consensus-lett
     *   **س / s (Streaming Flow):** Spoken breath.
     *   **م / m (Gathered Mass):** Bound identity.
 *   **Synthesis:** *Spoken breath gathered to designate a specific object*.
-*   **Verdict:** **STRONG** · Sibilant-nasal swap ($n-m \leftrightarrow s-m$).
+*   **Verdict:** **PARTIAL** · Sibilant-nasal swap ($n-m \leftrightarrow s-m$); only the م is shared, the onset differs.
 
 ---
 
@@ -261,7 +261,7 @@ For each worked entry, we apply the 28-letter charge table (from `consensus-lett
     *   **ن / n (Penetrating resonance):** Directional force.
     *   **خ / kh (Rarefying/Piercing):** Scraping or piercing friction.
 *   **Synthesis:** *The directional point (ن) that pierces or scrapes (خ)* $\rightarrow$ a sharp nail/claw used to prick or scratch.
-*   **Verdict:** **PERFECT** · Exact binary nucleus match ($n-ḫ \leftrightarrow n-kh$).
+*   **Verdict:** **STRONG** · the n-ḫ piercing-point gesture (Arabic نَخَسَ = to prod/prick; nail = ظفر; Skt nakha = nail).
 
 ---
 
@@ -459,6 +459,6 @@ By analyzing these 30 core concepts, we show that the Indo-Iranian and Semitic b
 ```
 Temessek, Y. (2026). Sanskrit (Indo-Iranian) Echoes: Deconstructing Core Concepts.
 The Arabic Tongue (nature-genome-application), 2026-06-01.
-30 entries: 11 PERFECT · 18 STRONG · 1 PARTIAL.
+30 entries: 10 PERFECT · 18 STRONG · 2 PARTIAL.
 Demonstrates the kinetic-semantic correspondence between Vedic Sanskrit and Classical Arabic.
 ```

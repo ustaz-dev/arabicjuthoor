@@ -5,7 +5,7 @@
 **Author:** Yassine Temessek · Temessek for Research, Publishing & Training
 **Date:** 2026-05-24
 **Status:** Draft v1 · open to peer review
-**Bilingual:** [Arabic version (forthcoming)](structural-revelations-article-ar.md)
+**Bilingual:** [Arabic version](structural-revelations-article-ar.md)
 
 ---
 
