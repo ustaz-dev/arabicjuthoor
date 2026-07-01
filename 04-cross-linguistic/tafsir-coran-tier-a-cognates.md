@@ -1,8 +1,8 @@
 # Arabic words with an echo in other languages
 
-The Qur'an does not stop at Arabic. Some of its core words carry the same consonant skeleton and the same meaning in languages far away — Greek, Latin, English, Welsh, Old Norse. Not borrowings. **Preserved echoes.**
+The Qur'an does not stop at Arabic. Some of its core words carry the same consonant skeleton and the same meaning in languages far away: Greek, Latin, English, Welsh, Old Norse. Not borrowings. **Preserved echoes.**
 
-This page collects nineteen confirmed pairs, each anchored to a Qur'anic verse and tested against four strict bars of verification. The bars rest on the sound-substitution laws of Dr. **Ali Fahmi Khshim** — past president of the Libyan Arabic Language Academy, author of *رحلة الكلمات*.
+This page collects nineteen confirmed pairs, each anchored to a Qur'anic verse and tested against four strict bars. The core bar is the framework's own engine: the binary nucleus must survive the crossing with its charge intact. A second bar checks the consonant skeleton using the sound-substitution laws of Dr. **Ali Fahmi Khshim** (past president of the Libyan Arabic Language Academy, author of *رحلة الكلمات*), plus a tenth law the corpus surfaced. The last two bars require a modern reader to recognise the partner word, and a witness from both language families.
 
 ---
 
@@ -263,13 +263,13 @@ The five rejected candidates failed the skeleton or nucleus bar. Don't reintrodu
 - **Don't dress up a coincidence as a discovery.** If the skeleton matches but the nucleus is forced, the cross-linguistic claim is *weaker* than no claim at all, it discredits the methodology.
 - **Don't translate-down to fit the cognate.** The Arabic always governs. The cross-linguistic word is a *handle* for the modern reader, not a replacement for the Arabic semantic field.
 
-## Phenomenological vs etymological, the framing
+## Descent, and the honest exception
 
-This is **not** an etymological claim about historical loan-words. It is a **phenomenological** claim: that the human mouth, across cultures, made certain shapes for certain realities, and that those shapes are still legible to anyone who listens.
+The strong core of this list, the kinship, body and number pairs with clean witnesses in both families (qarn ↔ *horn*, thawr ↔ *taurus*, sabʿ ↔ *seven*, salām ↔ *shalom*), is read here as what it is: a surviving trace of the one original tongue, kept in both branches because both inherited it. That is the claim, stated plainly.
 
-If a careful Indo-European linguist insists the historical etymology of *copy* (Latin *copia* < PIE \*op-) does not connect to Semitic ك-ف-أ, that does not undo the move. The move is **not** "these words descend from one ancestor." The move is **"these words, in their use *now*, name the same human reality through the same mouth-shape."** Two converging arrivals to the same nucleus, regardless of route.
+A few pairs on the list have a tangled route on the Indo-European side, where a word may have travelled as a later borrowing rather than an inherited trace (*copy* via Latin *copia*, *genie* via Latin *genius*, *syrup* which is itself an Arabic-origin word). For those the honest reading is narrower: the Semitic anchor and the nucleus match hold, but the Indo-European witness is not clean descent, and we mark the pair rather than lean on it. The regular-correspondence upgrade is what will sort inherited trace from borrowing, pair by pair.
 
-That is what makes the rendering "no copy of Him" *truthful* in a way "no equal to Him" is not. The English reader hears *copy* and immediately understands the impossibility of reproducing God. They never quite hear *equal* with that force.
+What the framework adds in every case is *why* the shape carries the meaning: the human mouth made a certain gesture for a certain reality, and that gesture stays legible through the fixed charges wherever the trace survives. That is what makes "no *copy* of Him" land with a force that "no *equal* to Him" does not, the reader hears the mouth-shape and knows what the verse denies.
 
 ## Methodology aphorism
 
@@ -282,6 +282,6 @@ That is what makes the rendering "no copy of Him" *truthful* in a way "no equal 
 | Source | Corpus | Style | Confidence model |
 |---|---|---|---|
 | [`beyond-the-word-examples.md`](beyond-the-word-examples.md) | 17 popular-cognate cases (rack/رق, burglar/برج, anchor/أنجر, cold/جليد, finger/بنصر, inspire/نفس, …) | Etymological pathway with sound-substitution rules | Single-rubric: phonetic match + semantic match |
-| **This file** | 8 Quran-anchored Tier-A pairs (kufu'/copy, salām/shalom, rabb/rabbi, jinn/genie, kalām/claim, qul/call, sharb/sorb, jam'/Gemini) | Phenomenological framing, home-base-verse protocol, Khshim's substitution laws | 4-bar rubric + Tier A/B/Reject ledger |
+| **This file** | 19 Quran-anchored Tier-A pairs (kufu'/copy, salām/shalom, rabb/rabbi, jinn/genie, kalām/claim, qul/call, sharb/sorb, jam'/Gemini) | Nucleus-first reading, home-base-verse protocol, Khshim's substitution laws | 4-bar rubric + Tier A/B/Reject ledger |
 
 The two sets are complementary, not redundant: the popular-cognate corpus is broad; this corpus is narrow, Quran-anchored, and gated by the stricter four-bar rubric. Both are inputs to the cross-linguistic layer described in [`../02-architecture/lv1-architecture.md`](../02-architecture/lv1-architecture.md).
