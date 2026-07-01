@@ -35,7 +35,7 @@ Each entry below is read at the **gesture-floor only**, never as an Arabic root.
 - 水 *shuǐ* "water" opens on the **ش**-spread sibilant, a streaming, flowing gesture, and the character itself began as **a drawing of a flowing stream**. Both roads, mouth and eye, land on flow.
 
 ### THIS / pointing · the dental tap
-- 这 *zhè* "this" is built on the **dental/affricate** onset, the tongue tapping a single fixed spot to point. The framework reads the Arabic dental د as *a settled, fixed point* (ضَبط + ثَبات), the exact gesture of pointing at a fixed thing, the demonstrative built on the dental across families that never met.
+- 这 *zhè* "this" is built on the **dental/affricate** onset, the tongue tapping a single fixed spot to point. The framework reads the Arabic dental د as *a settled, fixed point* (ضَبط + ثَبات), the exact gesture of pointing at a fixed thing, the demonstrative built on the dental across the branches that drifted furthest apart.
 
 ## The second road: Chinese encodes meaning in the *eye*, not only the mouth
 

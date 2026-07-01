@@ -14,7 +14,7 @@
 
 ## Abstract
 
-This paper explores the deep phonetic-kinetic and semantic convergence between **Ancient Egyptian/Coptic** and **Classical Arabic** using the *Juthoor* framework. Traditional comparative Afro-Asiatic studies (e.g., Cohen, Orel-Stolbova) rely on consonantal hieroglyphic spelling to map cognates, systematically failing to capture cases where the conservative hieroglyphic script dropped spoken consonants.
+This paper explores the deep phonetic-kinetic and semantic correspondence that **Ancient Egyptian/Coptic** and **Classical Arabic** both preserve from the one original tongue using the *Juthoor* framework. Traditional comparative Afro-Asiatic studies (e.g., Cohen, Orel-Stolbova) rely on consonantal hieroglyphic spelling to map cognates, systematically failing to capture cases where the conservative hieroglyphic script dropped spoken consonants.
 
 By analyzing **Coptic**—the final, spoken phase of the Egyptian language written in an alphabetic script from the 3rd century CE—we demonstrate how **spoken vernaculars preserved vocal tract gestures that were invisible in hieroglyphs**. 
 

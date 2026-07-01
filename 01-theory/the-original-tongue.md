@@ -46,7 +46,7 @@ Read correctly, the gradient measures something else: **how much of the original
 
 | Branch | What it is | What the charges find |
 |---|---|---|
-| **Hebrew / Aramaic** | immediate Semitic sisters | ~84% / ~97% top-tier — the **unity baseline**. High by construction; not offered as proof, but as the floor everything else is measured against. |
+| **Hebrew / Aramaic** | immediate Semitic sisters | ~84% / ~97% top-tier — the **unity baseline**: the closest surviving dialects of the one original tongue, the near end of the preservation gradient. High because they kept the most, and the floor everything else is measured against. |
 | **Ancient Egyptian** | Afro-Asiatic super-family, ~6,000-year split | ~55% top-tier across 324 worked pairs — a real cross-family reach where shared vocabulary is not obvious. |
 | **Coptic** | the spoken descendant of Egyptian | the **third witness**: it restores consonants the consonantal hieroglyphic script dropped (لِسان *l-s-n* ↔ hieroglyphic *ns* ↔ Coptic ⲗⲁⲥ *las* — the ل reappears, the cognate closes). |
 | **Sanskrit** | the most distant branch tested | 30 worked entries, **11 PERFECT · 18 STRONG · 1 PARTIAL** read through the charges — several exact (قرن↔*karṇa*, منى↔*man*, طنّ↔*tan*, نخس↔*nakha*). |

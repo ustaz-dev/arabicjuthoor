@@ -1044,7 +1044,7 @@ The 50-entry roster was almost entirely STRONG-or-better because we drew the eas
 
 | Test | Hit-rate at calibrated threshold | What this measures |
 |------|---------------------------------:|---|
-| Distant Indo-European (770 candidate pool, Pass 2 calibrated) | 189 / 770 ≈ 25% | distant resonance through human-mouth convergence |
+| Distant Indo-European (770 candidate pool, Pass 2 calibrated) | 189 / 770 ≈ 25% | faint surviving trace of the one original tongue |
 | Tier-A IE (curated 19 entries) | 19 / 19 = 100% | curated Quranic-anchored roster |
 | **Tier-A Afro-Asiatic top-tier (PERFECT + PROTO-FAMILY + STRONG, 200 entries)** | **96 / 200 = 48%** | **close-family resonance — high even on randomly-extended vocabulary** |
 | **Tier-A Afro-Asiatic deep-core (PERFECT + PROTO-FAMILY on family-deep words)** | **18 / 20 = 90%** | **the strongest evidence: family-deep vocabulary reads identical** |

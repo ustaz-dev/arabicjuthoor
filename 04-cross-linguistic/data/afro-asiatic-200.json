@@ -7,7 +7,7 @@
     "PARTIAL": 92,
     "PROVISIONAL": 39,
     "PERFECT": 13,
-    "PARALLEL-STEMS": 13,
+    "DIVERGED-STEMS": 13,
     "PROTO-FAMILY": 8,
     "DUAL-FACE": 1
   },
@@ -224,8 +224,8 @@
       "id": 21,
       "arabic": "أَب",
       "egyptian": "jt / jtf",
-      "gloss": "father (parallel stems)",
-      "class": "bare binary · parallel stems",
+      "gloss": "father (diverged stems)",
+      "class": "bare binary · diverged stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "kin",
@@ -235,8 +235,8 @@
       "id": 22,
       "arabic": "أَخ",
       "egyptian": "sn",
-      "gloss": "brother (parallel stems)",
-      "class": "bare binary · parallel stems",
+      "gloss": "brother (diverged stems)",
+      "class": "bare binary · diverged stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "kin",
@@ -378,8 +378,8 @@
       "id": 36,
       "arabic": "عَبد",
       "egyptian": "bꜣk",
-      "gloss": "servant (parallel stems)",
-      "class": "parallel servant-stems",
+      "gloss": "servant (diverged stems)",
+      "class": "diverged servant-stems",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "kin"
@@ -462,7 +462,7 @@
       "arabic": "لا / ما / لن",
       "egyptian": "n (neg)",
       "gloss": "not (negation)",
-      "class": "negation particle · parallel stems",
+      "class": "negation particle · diverged stems",
       "verdict": "PROTO-FAMILY",
       "revelation": false,
       "category": "prep",
@@ -573,7 +573,7 @@
       "arabic": "أُذُن (ʾudhun)",
       "egyptian": "msḏr",
       "gloss": "ear — ḏ/ذ inward-piercing channel shared",
-      "class": "parallel ear-stems",
+      "class": "diverged ear-stems",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "body"
@@ -582,8 +582,8 @@
       "id": 56,
       "arabic": "رَأس",
       "egyptian": "tp",
-      "gloss": "head, top (parallel stems)",
-      "class": "parallel head-stems",
+      "gloss": "head, top (diverged stems)",
+      "class": "diverged head-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "body"
@@ -623,7 +623,7 @@
       "arabic": "ظَهر",
       "egyptian": "psḏ",
       "gloss": "back, spine",
-      "class": "parallel back-stems",
+      "class": "diverged back-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "body"
@@ -633,7 +633,7 @@
       "arabic": "صَدر",
       "egyptian": "šnbt",
       "gloss": "chest",
-      "class": "parallel chest-stems",
+      "class": "diverged chest-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "body"
@@ -652,8 +652,8 @@
       "id": 63,
       "arabic": "قَلب",
       "egyptian": "jb",
-      "gloss": "heart (parallel stems)",
-      "class": "parallel heart-stems",
+      "gloss": "heart (diverged stems)",
+      "class": "diverged heart-stems",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "body",
@@ -664,7 +664,7 @@
       "arabic": "نَزَف (nazafa)",
       "egyptian": "snf",
       "gloss": "blood→to bleed — s↔z, n-f [crack: نزف not دم]",
-      "class": "parallel blood-stems",
+      "class": "diverged blood-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "body"
@@ -674,7 +674,7 @@
       "arabic": "ذِراع (dhirāʿ)",
       "egyptian": "ḏrt",
       "gloss": "arm/hand — ḏ-r shared [cracked: ذراع not كفّ]",
-      "class": "parallel hand-stems",
+      "class": "diverged hand-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "body"
@@ -684,7 +684,7 @@
       "arabic": "قَصَب (qaṣab)",
       "egyptian": "qs",
       "gloss": "bone-reed/sternum — q-ṣ shared [cracked: قصب not عظم]",
-      "class": "parallel bone-stems",
+      "class": "diverged bone-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "body"
@@ -693,8 +693,8 @@
       "id": 67,
       "arabic": "لَحم",
       "egyptian": "jwf",
-      "gloss": "flesh, meat (parallel stems)",
-      "class": "parallel flesh-stems",
+      "gloss": "flesh, meat (diverged stems)",
+      "class": "diverged flesh-stems",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "body"
@@ -703,8 +703,8 @@
       "id": 68,
       "arabic": "ابن",
       "egyptian": "sꜣ",
-      "gloss": "son (parallel stems)",
-      "class": "parallel son-stems",
+      "gloss": "son (diverged stems)",
+      "class": "diverged son-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "kin"
@@ -734,7 +734,7 @@
       "arabic": "حُرمة (ḥurma)",
       "egyptian": "ḥmt",
       "gloss": "wife→the-protected — ḥ-m",
-      "class": "parallel wife-stems",
+      "class": "diverged wife-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "kin"
@@ -744,7 +744,7 @@
       "arabic": "عَمّ / خال",
       "egyptian": "jt",
       "gloss": "uncle (Egyptian uses jt broadly)",
-      "class": "parallel uncle-stems",
+      "class": "diverged uncle-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "kin"
@@ -755,7 +755,7 @@
       "egyptian": "jt-jt",
       "gloss": "grandfather (Egyptian doubles father)",
       "class": "doubled father stem",
-      "verdict": "PARALLEL-STEMS",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "kin"
     },
@@ -785,8 +785,8 @@
       "id": 76,
       "arabic": "هُو",
       "egyptian": "sw",
-      "gloss": "he (parallel stems)",
-      "class": "parallel 3sg-masc stems",
+      "gloss": "he (diverged stems)",
+      "class": "diverged 3sg-masc stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "pronoun",
@@ -796,8 +796,8 @@
       "id": 77,
       "arabic": "هي",
       "egyptian": "sj",
-      "gloss": "she (parallel stems)",
-      "class": "parallel 3sg-fem stems",
+      "gloss": "she (diverged stems)",
+      "class": "diverged 3sg-fem stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "pronoun"
@@ -807,7 +807,7 @@
       "arabic": "هَذا",
       "egyptian": "pꜣ",
       "gloss": "this (proximal demonstrative)",
-      "class": "parallel demonstrative function",
+      "class": "diverged demonstrative function",
       "verdict": "STRONG",
       "revelation": false,
       "category": "pronoun"
@@ -817,8 +817,8 @@
       "arabic": "إلى",
       "egyptian": "r",
       "gloss": "to, towards",
-      "class": "parallel directional preposition",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged directional preposition",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "prep"
     },
@@ -827,7 +827,7 @@
       "arabic": "عَلى",
       "egyptian": "ḥr",
       "gloss": "on, upon (Hebrew עַל matches)",
-      "class": "parallel upper-surface stems",
+      "class": "diverged upper-surface stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "prep"
@@ -878,7 +878,7 @@
       "arabic": "قَبل",
       "egyptian": "r-ḥꜣt",
       "gloss": "before",
-      "class": "parallel 'at-the-front' constructions",
+      "class": "diverged 'at-the-front' constructions",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "prep"
@@ -888,7 +888,7 @@
       "arabic": "بَعد (baʿd) ↔ خَتْم",
       "egyptian": "m-ḫt",
       "gloss": "after = at the sealed-end — Eg. m-ḫt / خَتْم",
-      "class": "parallel 'following-behind' constructions",
+      "class": "diverged 'following-behind' constructions",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "prep"
@@ -907,9 +907,9 @@
       "id": 88,
       "arabic": "ذَهَب",
       "egyptian": "šm / ḫd",
-      "gloss": "go (parallel stems)",
-      "class": "parallel go-stems",
-      "verdict": "PARALLEL-STEMS",
+      "gloss": "go (diverged stems)",
+      "class": "diverged go-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "motion"
     },
@@ -987,8 +987,8 @@
       "id": 96,
       "arabic": "طار",
       "egyptian": "pꜣ / ꜣpd",
-      "gloss": "fly (parallel stems)",
-      "class": "parallel fly-stems",
+      "gloss": "fly (diverged stems)",
+      "class": "diverged fly-stems",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "motion"
@@ -998,7 +998,7 @@
       "arabic": "نَهِم (nahima)",
       "egyptian": "wnm",
       "gloss": "eat→devour — n-m",
-      "class": "parallel eat-stems",
+      "class": "diverged eat-stems",
       "verdict": "PARTIAL",
       "revelation": true,
       "category": "action"
@@ -1008,7 +1008,7 @@
       "arabic": "خَلَق",
       "egyptian": "qmꜣ",
       "gloss": "create, fashion (parallel)",
-      "class": "parallel creation-stems · firm-formed",
+      "class": "diverged creation-stems · firm-formed",
       "verdict": "PARTIAL",
       "revelation": true,
       "category": "action"
@@ -1018,7 +1018,7 @@
       "arabic": "فَتَح",
       "egyptian": "wn",
       "gloss": "open",
-      "class": "parallel opening-up semantic",
+      "class": "diverged opening-up semantic",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "action"
@@ -1038,7 +1038,7 @@
       "arabic": "هَدَم",
       "egyptian": "sḫd",
       "gloss": "demolish, overturn",
-      "class": "parallel destruction-stem",
+      "class": "diverged destruction-stem",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "action"
@@ -1048,7 +1048,7 @@
       "arabic": "ضَرَب",
       "egyptian": "ḥwj",
       "gloss": "strike, hit",
-      "class": "parallel impact-stems",
+      "class": "diverged impact-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "action"
@@ -1058,8 +1058,8 @@
       "arabic": "قَتَل",
       "egyptian": "smꜣ",
       "gloss": "kill",
-      "class": "parallel kill-stems",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged kill-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "action"
     },
@@ -1068,7 +1068,7 @@
       "arabic": "حَمى (ḥamā)",
       "egyptian": "nḥm",
       "gloss": "take→protect/rescue — ḥ-m",
-      "class": "parallel taking-stems",
+      "class": "diverged taking-stems",
       "verdict": "PARTIAL",
       "revelation": true,
       "category": "action"
@@ -1078,7 +1078,7 @@
       "arabic": "رَدّ (radda)",
       "egyptian": "rdj",
       "gloss": "hand over/give — r-d shared [cracked: ردّ not أعطى]",
-      "class": "parallel giving-stems",
+      "class": "diverged giving-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "action"
@@ -1088,7 +1088,7 @@
       "arabic": "زَرَع",
       "egyptian": "sty",
       "gloss": "sow, plant",
-      "class": "parallel sowing-stems",
+      "class": "diverged sowing-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "action"
@@ -1098,8 +1098,8 @@
       "arabic": "حَصَد",
       "egyptian": "šwj",
       "gloss": "reap, harvest (parallel)",
-      "class": "parallel harvest-stems",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged harvest-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "action"
     },
@@ -1108,7 +1108,7 @@
       "arabic": "طَحَن",
       "egyptian": "nḏ",
       "gloss": "grind, crush, consult",
-      "class": "parallel grinding-stems",
+      "class": "diverged grinding-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "action"
@@ -1118,8 +1118,8 @@
       "arabic": "عَجَن",
       "egyptian": "pgs",
       "gloss": "knead dough",
-      "class": "parallel kneading-stems",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged kneading-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "action"
     },
@@ -1157,8 +1157,8 @@
       "id": 113,
       "arabic": "غَسَل",
       "egyptian": "jʿj",
-      "gloss": "wash (parallel stems)",
-      "class": "parallel washing-stems",
+      "gloss": "wash (diverged stems)",
+      "class": "diverged washing-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "action"
@@ -1178,7 +1178,7 @@
       "arabic": "سُوق (sūq)",
       "egyptian": "swn",
       "gloss": "sell→market — s-w",
-      "class": "parallel exchange-stems",
+      "class": "diverged exchange-stems",
       "verdict": "PARTIAL",
       "revelation": true,
       "category": "action"
@@ -1188,8 +1188,8 @@
       "arabic": "اشتَرى",
       "egyptian": "šꜣm",
       "gloss": "buy, acquire (parallel)",
-      "class": "parallel acquisition-stems",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged acquisition-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "action"
     },
@@ -1198,7 +1198,7 @@
       "arabic": "عَرَف (ʿarafa)",
       "egyptian": "rḫ",
       "gloss": "know→recognize — r",
-      "class": "parallel knowledge-stems",
+      "class": "diverged knowledge-stems",
       "verdict": "PARTIAL",
       "revelation": true,
       "category": "mind"
@@ -1218,7 +1218,7 @@
       "arabic": "نَسي",
       "egyptian": "smḫ",
       "gloss": "forget",
-      "class": "parallel s-m forgetting-stems",
+      "class": "diverged s-m forgetting-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "mind"
@@ -1228,7 +1228,7 @@
       "arabic": "كَيْد (kayd)",
       "egyptian": "kꜣy",
       "gloss": "scheming/plan — k-y shared [cracked: كيد not فكّر]",
-      "class": "parallel thinking-stems",
+      "class": "diverged thinking-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "mind"
@@ -1248,7 +1248,7 @@
       "arabic": "شَكَّ",
       "egyptian": "sḫꜣy",
       "gloss": "doubt",
-      "class": "parallel s-ḫ doubt-stems",
+      "class": "diverged s-ḫ doubt-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "mind"
@@ -1268,7 +1268,7 @@
       "arabic": "كَرِه",
       "egyptian": "msḏj",
       "gloss": "hate",
-      "class": "parallel m-s hatred-stems",
+      "class": "diverged m-s hatred-stems",
       "verdict": "STRONG",
       "revelation": false,
       "category": "mind"
@@ -1278,7 +1278,7 @@
       "arabic": "خاف",
       "egyptian": "snḏ",
       "gloss": "fear",
-      "class": "parallel s-n fear-stems · Arabic سَكَن also",
+      "class": "diverged s-n fear-stems · Arabic سَكَن also",
       "verdict": "STRONG",
       "revelation": true,
       "category": "mind"
@@ -1287,8 +1287,8 @@
       "id": 126,
       "arabic": "رَجا",
       "egyptian": "ḫꜣ",
-      "gloss": "hope (parallel stems)",
-      "class": "parallel hope-stems",
+      "gloss": "hope (diverged stems)",
+      "class": "diverged hope-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "mind"
@@ -1298,7 +1298,7 @@
       "arabic": "كَبير",
       "egyptian": "ʿꜣ",
       "gloss": "great, big (parallel)",
-      "class": "parallel intensity-stems",
+      "class": "diverged intensity-stems",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "adj"
@@ -1308,7 +1308,7 @@
       "arabic": "صَغير (ṣaɣīr)",
       "egyptian": "šri / nḏs",
       "gloss": "small — ṣ↔š + r",
-      "class": "parallel smallness-stems",
+      "class": "diverged smallness-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "adj"
@@ -1318,7 +1318,7 @@
       "arabic": "قامَة (qāma)",
       "egyptian": "qꜣ",
       "gloss": "tall→stature — q",
-      "class": "parallel height-stems",
+      "class": "diverged height-stems",
       "verdict": "PARTIAL",
       "revelation": true,
       "category": "adj"
@@ -1328,7 +1328,7 @@
       "arabic": "قَصير",
       "egyptian": "šri",
       "gloss": "short (parallel)",
-      "class": "parallel shortness-stems",
+      "class": "diverged shortness-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "adj"
@@ -1338,7 +1338,7 @@
       "arabic": "ثَقيل",
       "egyptian": "dns",
       "gloss": "heavy (parallel)",
-      "class": "parallel weight-stems",
+      "class": "diverged weight-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "adj"
@@ -1358,7 +1358,7 @@
       "arabic": "حارّ",
       "egyptian": "šmm",
       "gloss": "hot (parallel)",
-      "class": "parallel heat-pulse stems",
+      "class": "diverged heat-pulse stems",
       "verdict": "STRONG",
       "revelation": false,
       "category": "adj"
@@ -1378,7 +1378,7 @@
       "arabic": "رَسَخ (rasaḫa)",
       "egyptian": "rwḏ",
       "gloss": "firm→rooted — r+emphatic",
-      "class": "parallel firmness-stems",
+      "class": "diverged firmness-stems",
       "verdict": "PARTIAL",
       "revelation": true,
       "category": "adj"
@@ -1388,7 +1388,7 @@
       "arabic": "جَديد",
       "egyptian": "mꜣwy",
       "gloss": "new (parallel)",
-      "class": "parallel newness-stems",
+      "class": "diverged newness-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "adj"
@@ -1408,7 +1408,7 @@
       "arabic": "تُراب (turāb)",
       "egyptian": "jꜣt / tꜣ",
       "gloss": "earth→dust — t-r",
-      "class": "parallel earth-stems",
+      "class": "diverged earth-stems",
       "verdict": "PARTIAL",
       "revelation": true,
       "category": "nature"
@@ -1418,7 +1418,7 @@
       "arabic": "حَجَر",
       "egyptian": "jnr",
       "gloss": "stone (parallel)",
-      "class": "parallel stone-stems",
+      "class": "diverged stone-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "nature"
@@ -1428,7 +1428,7 @@
       "arabic": "طَود (ṭawd)",
       "egyptian": "ḏw",
       "gloss": "lofty mountain — ḏ↔ط + w [cracked: طود not جبل]",
-      "class": "parallel mountain-stems",
+      "class": "diverged mountain-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "nature"
@@ -1448,7 +1448,7 @@
       "arabic": "نَهر/جَرى (nahr/jarā)",
       "egyptian": "jtrw",
       "gloss": "river — the r of running-water",
-      "class": "parallel river-stems",
+      "class": "diverged river-stems",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "nature"
@@ -1458,7 +1458,7 @@
       "arabic": "ذَرْو (dharw)",
       "egyptian": "ṯꜣw",
       "gloss": "wind→winnowing-wind — ṯ↔ذ+w [crack: ذرو not ريح]",
-      "class": "parallel wind-stems",
+      "class": "diverged wind-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "nature"
@@ -1468,7 +1468,7 @@
       "arabic": "نار/نَسْر (nār/nasr)",
       "egyptian": "sḏt",
       "gloss": "fire→flame — n-r via Eg. nsr not sḏt",
-      "class": "parallel fire-stems",
+      "class": "diverged fire-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "nature"
@@ -1538,7 +1538,7 @@
       "arabic": "أَوَّل",
       "egyptian": "tpj",
       "gloss": "first (top-stem)",
-      "class": "parallel 'top→first' semantic path",
+      "class": "diverged 'top→first' semantic path",
       "verdict": "STRONG",
       "revelation": false,
       "category": "time"
@@ -1548,7 +1548,7 @@
       "arabic": "حَقّ",
       "egyptian": "mꜣʿt",
       "gloss": "truth, justice (Maat)",
-      "class": "parallel truth-stems",
+      "class": "diverged truth-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "abstract"
@@ -1568,8 +1568,8 @@
       "arabic": "شَرّ",
       "egyptian": "bjn",
       "gloss": "bad, evil (parallel)",
-      "class": "parallel evil-stems",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged evil-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "abstract"
     },
@@ -1618,7 +1618,7 @@
       "arabic": "نَظَر (naẓar)",
       "egyptian": "nṯr",
       "gloss": "god→overseer — n-ṯ/ẓ-r [crack: نظر/نذر not إله]",
-      "class": "parallel divinity-stems",
+      "class": "diverged divinity-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "abstract"
@@ -1628,7 +1628,7 @@
       "arabic": "روح",
       "egyptian": "šwt",
       "gloss": "spirit, breath-of-life (parallel)",
-      "class": "parallel spirit-stems",
+      "class": "diverged spirit-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "abstract"
@@ -1709,7 +1709,7 @@
       "arabic": "عَدَّ",
       "egyptian": "jp",
       "gloss": "count → use Eg. ḥsb↔حَسَب (#223); jp was the weaker pair",
-      "class": "parallel counting-stems",
+      "class": "diverged counting-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "action"
@@ -1729,7 +1729,7 @@
       "arabic": "سَطَّر (saṭṭara)",
       "egyptian": "sšw",
       "gloss": "write in lines — s+emphatic [cracked: سطّر not كتب]",
-      "class": "parallel writing-stems",
+      "class": "diverged writing-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "action"
@@ -1749,7 +1749,7 @@
       "arabic": "غَنّى",
       "egyptian": "ḥsj",
       "gloss": "sing, praise (parallel)",
-      "class": "parallel singing-stems",
+      "class": "diverged singing-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "action"
@@ -1759,7 +1759,7 @@
       "arabic": "خَبّ (ḫabba)",
       "egyptian": "ḫbj",
       "gloss": "dance→brisk gait — ḫ-b",
-      "class": "parallel dance-stems",
+      "class": "diverged dance-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "action"
@@ -1769,7 +1769,7 @@
       "arabic": "لَعِب",
       "egyptian": "swt",
       "gloss": "play (parallel)",
-      "class": "parallel play-stems",
+      "class": "diverged play-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "action"
@@ -1779,8 +1779,8 @@
       "arabic": "مَلَك",
       "egyptian": "nswt",
       "gloss": "king (parallel)",
-      "class": "parallel king-stems",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged king-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "abstract"
     },
@@ -1799,7 +1799,7 @@
       "arabic": "عَبد",
       "egyptian": "bꜣk",
       "gloss": "servant (cross-link #36)",
-      "class": "parallel servant-stems",
+      "class": "diverged servant-stems",
       "verdict": "PARTIAL",
       "revelation": false,
       "category": "kin"
@@ -1809,7 +1809,7 @@
       "arabic": "حُرّ",
       "egyptian": "nmḥ",
       "gloss": "free (parallel)",
-      "class": "parallel freedom-stems",
+      "class": "diverged freedom-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "abstract"
@@ -1819,8 +1819,8 @@
       "arabic": "ذَهَب",
       "egyptian": "nbw",
       "gloss": "gold (parallel)",
-      "class": "parallel gold-stems",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged gold-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "nature"
     },
@@ -1829,7 +1829,7 @@
       "arabic": "وَضَح (waḍaḥ)",
       "egyptian": "ḥḏ",
       "gloss": "silver/white→brightness — ḥḏ↔ḍḥ metathesis",
-      "class": "parallel silver-stems",
+      "class": "diverged silver-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "nature"
@@ -1839,7 +1839,7 @@
       "arabic": "نُحاس",
       "egyptian": "ḥmt",
       "gloss": "copper (parallel)",
-      "class": "parallel copper-stems",
+      "class": "diverged copper-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "nature"
@@ -1849,8 +1849,8 @@
       "arabic": "حَديد",
       "egyptian": "bjꜣ",
       "gloss": "iron (parallel)",
-      "class": "parallel iron-stems",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged iron-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "nature"
     },
@@ -1859,7 +1859,7 @@
       "arabic": "خُبز",
       "egyptian": "t",
       "gloss": "bread (Egyptian t-loaf)",
-      "class": "parallel bread-stems",
+      "class": "diverged bread-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "nature"
@@ -1899,7 +1899,7 @@
       "arabic": "جَنَّة",
       "egyptian": "ⲕⲛⲏ / ḥsp",
       "gloss": "garden (parallel)",
-      "class": "parallel garden-stems",
+      "class": "diverged garden-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "coptic"
@@ -1909,7 +1909,7 @@
       "arabic": "زَيت",
       "egyptian": "ⲛⲉϩ",
       "gloss": "oil (different from #184)",
-      "class": "parallel oil-stems",
+      "class": "diverged oil-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "coptic"
@@ -1919,7 +1919,7 @@
       "arabic": "شَمس",
       "egyptian": "ⲣⲏ (Re/Ra)",
       "gloss": "sun (parallel)",
-      "class": "parallel sun-stems",
+      "class": "diverged sun-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "coptic"
@@ -1929,7 +1929,7 @@
       "arabic": "سُنبُل",
       "egyptian": "ⲥⲙⲏ",
       "gloss": "voice/grain (parallel)",
-      "class": "parallel grain-stems",
+      "class": "diverged grain-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "coptic"
@@ -1939,7 +1939,7 @@
       "arabic": "شَيخ",
       "egyptian": "ⲓⲙⲁⲩ",
       "gloss": "elder (parallel)",
-      "class": "parallel elder-stems",
+      "class": "diverged elder-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "coptic"
@@ -1949,7 +1949,7 @@
       "arabic": "سَوْط",
       "egyptian": "ⲥⲱⲧ",
       "gloss": "whip, lash (parallel)",
-      "class": "parallel whip-stems",
+      "class": "diverged whip-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "coptic"
@@ -1959,7 +1959,7 @@
       "arabic": "أَمير (amīr)",
       "egyptian": "ⲁⲙⲓⲣⲉ",
       "gloss": "Arabic→Coptic loan [cracked: reverse-loan]",
-      "class": "parallel rule-stems",
+      "class": "diverged rule-stems",
       "verdict": "STRONG",
       "revelation": true,
       "category": "coptic"
@@ -1980,7 +1980,7 @@
       "egyptian": "ⲉⲓⲣⲏⲛⲏ",
       "gloss": "Greek loanword in Coptic — skip",
       "class": "Greek loanword",
-      "verdict": "PARALLEL-STEMS",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "coptic"
     },
@@ -1989,7 +1989,7 @@
       "arabic": "زَوج / مَرة",
       "egyptian": "ⲥϩⲓⲙⲉ",
       "gloss": "wife (parallel)",
-      "class": "parallel wife-stems",
+      "class": "diverged wife-stems",
       "verdict": "PROVISIONAL",
       "revelation": false,
       "category": "coptic"
@@ -1999,8 +1999,8 @@
       "arabic": "طَير",
       "egyptian": "ϩⲁⲗⲏⲧ",
       "gloss": "bird (parallel)",
-      "class": "parallel bird-stems",
-      "verdict": "PARALLEL-STEMS",
+      "class": "diverged bird-stems",
+      "verdict": "DIVERGED-STEMS",
       "revelation": false,
       "category": "coptic"
     },

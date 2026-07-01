@@ -12,7 +12,7 @@ Every FORM and every GLOSS below is attested in **Lisān al-ʿArab** (Ibn Manẓ
 
 ## A note on the cross-language echoes
 
-Beside each Arabic word sits a real English or other-language word that imitates the **same** sound: *buzz* beside أزيز, *meow* beside مواء, *ha-ha* beside قهقهة. These are marked **CONVERGENT**, not genetic. Two tongues reaching for the same noise land on similar mouths because the noise is the same, this is parallel imitation of nature, the shared floor, not a claim of descent.
+Beside each Arabic word sits a real English or other-language word that imitates the **same** sound: *buzz* beside أزيز, *meow* beside مواء, *ha-ha* beside قهقهة. These are marked **FLOOR-TRACE**. Two tongues land on the same mouth for the same noise because both kept the imitation-floor of the one original tongue, the layer where the sound-meaning bond began and where it survives most stubbornly.
 
 ## The roster
 
@@ -39,11 +39,11 @@ Beside each Arabic word sits a real English or other-language word that imitates
 
 ## Three worked readings
 
-**أَزيز, a buzz.** ز (اندفاع + اهتزاز، a voiced vibrating thrust) appears twice, framing a long ي. The whole word is a sustained voiced vibration bracketed by a sharp hamza-onset. That is what a buzz is: a voiced vibration held. The English *buzz* reaches for the same voiced sibilant. CONVERGENT.
+**أَزيز, a buzz.** ز (اندفاع + اهتزاز، a voiced vibrating thrust) appears twice, framing a long ي. The whole word is a sustained voiced vibration bracketed by a sharp hamza-onset. That is what a buzz is: a voiced vibration held. The English *buzz* reaches for the same voiced sibilant. FLOOR-TRACE.
 
-**مُواء, a meow.** م (تجمّع + تلاصق، the lips sealing) then و (وَصل + ربط، the rounded binding sustain) is the exact closed-then-rounded mouth a cat's call demands. Say the m-w slowly and you have already meowed. English *meow*, Chinese *miao*, French *miaou* all land on the same m-w shape. CONVERGENT, the cat sounds the same everywhere.
+**مُواء, a meow.** م (تجمّع + تلاصق، the lips sealing) then و (وَصل + ربط، the rounded binding sustain) is the exact closed-then-rounded mouth a cat's call demands. Say the m-w slowly and you have already meowed. English *meow*, Chinese *miao*, French *miaou* all land on the same m-w shape. FLOOR-TRACE, the cat sounds the same everywhere.
 
-**قَهقَهة, a guffaw.** ق (قطع + إحكام، a firm back-stop) released into ه (همس + تنفس، a throat exhale), reduplicated: qah-qah. That is the chest cutting off and heaving out breath, which is what laughter is. English *ha-ha*, Spanish *jajaja* are the same back-of-throat breath-burst. CONVERGENT.
+**قَهقَهة, a guffaw.** ق (قطع + إحكام، a firm back-stop) released into ه (همس + تنفس، a throat exhale), reduplicated: qah-qah. That is the chest cutting off and heaving out breath, which is what laughter is. English *ha-ha*, Spanish *jajaja* are the same back-of-throat breath-burst. FLOOR-TRACE.
 
 ## What this floor proves
 

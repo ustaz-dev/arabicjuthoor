@@ -1,10 +1,10 @@
 # The universal layer: the words a baby learns first
 
-There is a layer of human language deeper than any family tree. It is the layer of the **first words a child forms** — *mother, I, this, no, water* — and across languages that share **no common ancestor whatsoever**, these words reach for the **same mouth-gestures**.
+There is a layer of human language deeper than any family tree. It is the layer of the **first words a child forms** — *mother, I, this, no, water* — and across branches that drifted so far apart that the standard trees no longer connect them, these words still reach for the **same mouth-gestures**.
 
-Arabic أُمّ *umm*. English *mama*. Mandarin Chinese 妈 *mā*. Hebrew אִמָּא *ima*. Tamil அம்மா *amma*. Swahili *mama*. Quechua *mama*. These languages never met. Most of them split from any shared root tens of thousands of years ago — if they share a root at all. Yet the word for *mother* is, almost everywhere on Earth, built on the **m** sound.
+Arabic أُمّ *umm*. English *mama*. Mandarin Chinese 妈 *mā*. Hebrew אִמָּא *ima*. Tamil அம்மா *amma*. Swahili *mama*. Quechua *mama*. In this project's reading these are all far-flung branches of the one original tongue. Whatever the standard trees say about their kinship, the word for *mother* is, almost everywhere on Earth, built on the **m** sound, the trace of the source that even the furthest branch kept.
 
-This is not borrowing. It is the human mouth, shaped by the same body, making the same gesture for the same reality. And it is the deepest possible vindication of the Juthoor framework's central claim: **the sound carries the meaning, because the gesture that makes the sound is itself the meaning.**
+This is not borrowing, and it is not coincidence. It is the one original tongue's deepest layer surviving in every branch, kept because it sits closest to the raw human mouth. And it is the deepest possible vindication of the Juthoor framework's central claim: **the sound carries the meaning, because the gesture that makes the sound is itself the meaning.**
 
 > The Arabic version is at [`universal-baby-words-ar.md`](universal-baby-words-ar.md).
 
@@ -42,7 +42,7 @@ For each of the most basic meanings, here is the mouth-gesture the Juthoor frame
 | Quechua | Andean | *mama* |
 | English | Indo-European | *mama, mother* |
 
-**Murdock (1959)** surveyed the kinship terms of **1,072 languages** and found that the word for *mother* uses a nasal consonant (m or n) in the overwhelming majority — far above what chance allows. **Jakobson (1960)**, in his classic paper *"Why 'Mama' and 'Papa'?"*, explained it: the **m** is the sound a nursing infant makes with lips closed, and the mother is the one who answers it. The gesture *is* the meaning. The framework's reading of م — *gathering, the gathered source* — is exactly this, derived from first principles, and it is confirmed across every unrelated family on Earth.
+**Murdock (1959)** surveyed the kinship terms of **1,072 languages** and found that the word for *mother* uses a nasal consonant (m or n) in the overwhelming majority — far above what chance allows. **Jakobson (1960)**, in his classic paper *"Why 'Mama' and 'Papa'?"*, explained it: the **m** is the sound a nursing infant makes with lips closed, and the mother is the one who answers it. The gesture *is* the meaning. The framework's reading of م — *gathering, the gathered source* — is exactly this, derived from first principles, and it is confirmed across every branch on Earth, even the furthest.
 
 ### I / ME · the **ن / n** gesture (inner resonance)
 
@@ -71,7 +71,7 @@ The first-person pronoun across the entire Afro-Asiatic family is built on **n**
 | Mandarin Chinese | Sino-Tibetan | 这 *zhè* "this" |
 | English | Indo-European | *this, that, the* — all on the **d/th** dental |
 
-The demonstrative — the pointing-word — is built on the dental tap (d / dh / z / th / zh) across families that never met. The framework reads the dental as *a settled, fixed point*: the exact gesture of pointing at a fixed thing.
+The demonstrative — the pointing-word — is built on the dental tap (d / dh / z / th / zh) across branches that drifted furthest apart. The framework reads the dental as *a settled, fixed point*: the exact gesture of pointing at a fixed thing.
 
 ### Other universal gestures
 
@@ -98,7 +98,7 @@ Two roads, one destination: **meaning living in the form of the sign, not arbitr
 
 ## What this layer establishes
 
-1. **The family-distance gradient has a floor, and the floor is universal.** The sound-meaning bond does not vanish at maximum distance. It persists in the baby-word layer across every unrelated family, because those words are closest to the raw human mouth.
+1. **The family-distance gradient has a floor, and the floor is universal.** The sound-meaning bond does not vanish at maximum distance. It persists in the baby-word layer across every branch, even the furthest, because those words are closest to the raw human mouth.
 
 2. **The framework's letter-readings are confirmed by the most universal data on Earth.** The framework reads م as *gathering/the gathered source* — and the word for *mother* is built on م across 1,072 languages (Murdock). It reads ن as *inner resonance from within* — and the first-person pronoun is built on ن across the family and beyond. These are not Arabic-specific intuitions; they are readings of the universal human mouth that Arabic happens to preserve with unusual transparency.
 
@@ -108,8 +108,8 @@ Two roads, one destination: **meaning living in the form of the sign, not arbitr
 
 ## Honest scope
 
-- This is **not** a claim that Chinese and Arabic are genealogically related. They are not. The baby-word universals are *convergent* — the same gesture independently reached for the same meaning, many times over, because the human mouth and the human infant are everywhere the same.
-- The universal layer is **thin**: it covers the most basic two-dozen meanings (mother, father, I, you, this, no, big, water…), not the full lexicon. Beyond this layer, unrelated languages diverge completely — which is exactly why the family-distance gradient *declines* before it hits this floor. The floor is real but shallow, and saying so is what keeps the claim honest.
+- In this project's reading, the baby-word floor is where the one original tongue survives most stubbornly, even in the branches that drifted furthest. The gesture an infant forms first is the least eroded layer of that one shared source, so it still shows through here where every deeper trace has worn away.
+- The universal layer is **thin**: it covers the most basic two-dozen meanings (mother, father, I, you, this, no, big, water…), not the full lexicon. Beyond this layer, the branches diverge completely — which is exactly why the family-distance gradient *declines* before it hits this floor. The floor is real but shallow, and saying so is what keeps the claim honest.
 - The pictographic-origin point about Chinese characters is well-established sinology (the 象形 *xiàngxíng* "form-imitating" category of characters), not a novel claim. What is novel is reading it as a *parallel* to the Juthoor articulatory principle.
 
 ## References

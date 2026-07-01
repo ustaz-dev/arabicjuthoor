@@ -115,9 +115,9 @@ The 28-letter charge readings used below are from [`consensus-letter-charges.md`
 
 ## What this section establishes — and what it does not
 
-**It does not** prove the languages are related. They obviously are; the shared roots are common inheritance. A skeptic is entirely right that "Arabic and Hebrew share مَوت/מות" proves only descent.
+**The shared roots prove descent**, and descent from the one original tongue is exactly the thesis. Arabic and Hebrew share مَوت/מות because both inherited it, intact, from the one source. The sisters kept the most; they are the near end of the preservation gradient.
 
-**It does** something the skeptic's comparative method cannot: it answers *why مَوت means death* — and the answer (the gathering-sealing-completion gesture) is the same in every descendant, because what was inherited was not an arbitrary sound-label but a **gesture that is itself the meaning**. Comparative method reconstructs the proto-sound and shrugs at the meaning. The framework reads the meaning *out of* the sound, and the reading is portable across the whole family precisely because the gesture is.
+**And the framework adds what the skeptic's comparative method cannot:** it answers *why مَوت means death* — and the answer (the gathering-sealing-completion gesture) is the same in every descendant, because what was inherited was not an arbitrary sound-label but a **gesture that is itself the meaning**. Comparative method reconstructs the proto-sound and shrugs at the meaning. The framework reads the meaning *out of* the sound, and the reading is portable across the whole family precisely because the gesture is.
 
 This is the framework's actual contribution at the family level. The shared vocabulary is the siblings' inheritance; the *reading of why each sound carries its sense* is the framework's. The two should never be confused — and this document keeps them separate on purpose.
 

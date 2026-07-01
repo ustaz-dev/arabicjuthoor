@@ -64,7 +64,7 @@ This is one example of a broader pattern. Surface-skeleton matching misses three
 
 ### Worked example 1.3 · Egyptian *snt* polysemy (cross-link to §4 below)
 
-Egyptian *snt* simultaneously means "tooth, sister, second-of-a-pair." Arabic preserves the three meanings on distinct surface roots: سِنّ (s-n-n, tooth), أُخت (ʾ-ḫ-t, sister), ثاني (th-n-y, second). Two of the three Arabic roots (سِنّ and ثاني) preserve the s/th + n nucleus directly; the third (أُخت) is a parallel kinship stem. Egyptian's polysemy reveals that the underlying seed is *one* — *matched-pair-by-shared-fine-source* — and Arabic's three surface roots are different morphological developments of the same nucleus. This is a metathesis-adjacent case where surface divergence hides nucleus-identity.
+Egyptian *snt* simultaneously means "tooth, sister, second-of-a-pair." Arabic preserves the three meanings on distinct surface roots: سِنّ (s-n-n, tooth), أُخت (ʾ-ḫ-t, sister), ثاني (th-n-y, second). Two of the three Arabic roots (سِنّ and ثاني) preserve the s/th + n nucleus directly; the third (أُخت) is a diverged kinship stem of the same nucleus. Egyptian's polysemy reveals that the underlying seed is *one* — *matched-pair-by-shared-fine-source* — and Arabic's three surface roots are different morphological developments of the same nucleus. This is a metathesis-adjacent case where surface divergence hides nucleus-identity.
 
 ### What the methodological literature missed
 
