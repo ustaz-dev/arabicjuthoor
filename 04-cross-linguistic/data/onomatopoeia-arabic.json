@@ -1,0 +1,197 @@
+{
+  "project": "The Arabic Tongue · Layer 1 · The imitation / onomatopoeia floor",
+  "version": "2026-07-01",
+  "method": "Each form and gloss is attested in Lisan al-Arab and/or Taj al-Arus. The charge-by-charge reading is interpretive: it identifies which letters of the word audibly reproduce the sound or gesture of the referent, using only the fixed 28-letter charges in 03-scholar-extracts/consensus-letter-charges.md. Grade PERFECT/STRONG/PARTIAL by how audibly the charges reproduce the referent. Cross-language echoes are labelled CONVERGENT (parallel imitation of the same sound), not genetic.",
+  "count": 18,
+  "verdict_distribution": {
+    "PERFECT": 10,
+    "STRONG": 6,
+    "PARTIAL": 2
+  },
+  "license": "CC-BY 4.0",
+  "source_lexicon": "Lisan al-Arab (Ibn Manzur); Taj al-Arus (al-Zabidi)",
+  "category": "onomatopoeia",
+  "note": "The audible proof of the charge thesis: in these words the mouth is doing what the referent does. The letter-charges are not decorative, they trace the actual sound. A convergent English/other echo is noted where a real foreign word imitates the same sound; that convergence is parallel imitation, not descent.",
+  "entries": [
+    {
+      "id": 1,
+      "arabic": "خَرير",
+      "gloss": "the gurgling, trickling sound of running water (also of wind and of a sleeper)",
+      "charge_reading": "خ (تخلخل + اختراق) + ر (تكرار + جريان) + ي (امتداد + سريان) + ر (تكرار + جريان): a rarefied back-of-throat friction opening onto a repeated running flow, the throat rarefies and the two ر's roll the water forward. The double ر is the trickle itself.",
+      "key_letters": "خ، ر، ر",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'gurgle', French 'gargouiller', CONVERGENT: a rolled/guttural liquid imitated independently.",
+      "category": "water"
+    },
+    {
+      "id": 2,
+      "arabic": "حَفيف",
+      "gloss": "the rustling, soft whirring sound of leaves, wings, or a garment brushing",
+      "charge_reading": "ح (حياة حارّة + احتواء) + ف (تفريق + نفاذ) + ي (امتداد + لين) + ف (تفريق + نفاذ): warm breath enclosed, then breath escaping between lip and teeth twice, the two ف's are the two brushing passes of the rustle, pure breath parting.",
+      "key_letters": "ح، ف، ف",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'rustle', 'whiff', CONVERGENT: breathy fricatives imitating the same soft brush.",
+      "category": "wind_leaves"
+    },
+    {
+      "id": 3,
+      "arabic": "صَرير",
+      "gloss": "a creak, a shrill grating (of a door, a pen, teeth, a cricket)",
+      "charge_reading": "ص (صلابة + إطباق) + ر (تكرار + جريان) + ي (امتداد + سريان) + ر (تكرار + جريان): a hard sealed sibilant then a repeated running, the ص is the tight grating edge, the two ر's the repeated scrape drawn out.",
+      "key_letters": "ص، ر، ر",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'screech', 'scrape', CONVERGENT: a hard sibilant plus rhotic on the same grating sound.",
+      "category": "friction_creak"
+    },
+    {
+      "id": 4,
+      "arabic": "أَزيز",
+      "gloss": "a buzzing, hissing, sizzling sound (of boiling, of a fire, of a swarm, of the chest in weeping)",
+      "charge_reading": "ء (تأكيد + قطع) + ز (اندفاع + اهتزاز) + ي (امتداد + سريان) + ز (اندفاع + اهتزاز): a sharp onset then two voiced vibrating thrusts drawn along an extension, the two ز's ARE the buzz, sharp voiced vibration sustained.",
+      "key_letters": "ز، ز",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'buzz', 'sizzle', German 'sausen', CONVERGENT: voiced sibilant vibration imitated in parallel.",
+      "category": "buzz_hiss"
+    },
+    {
+      "id": 5,
+      "arabic": "طَنين",
+      "gloss": "a ringing, humming, droning (of the ear, a bell, an insect, a taut string)",
+      "charge_reading": "ط (انبساط + انتشار ثقيل) + ن (رنين + انبعاث) + ي (امتداد + لين) + ن (رنين + انبعاث): a heavy spreading strike then nasal resonance emitted, twice, ن is literally 'رنين' (ringing), and the two ن's sustain the hum.",
+      "key_letters": "ن، ن",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'ring', 'ting', 'ding', CONVERGENT: nasal/velar resonance for the same sustained tone.",
+      "category": "ringing"
+    },
+    {
+      "id": 6,
+      "arabic": "وَسوَسة",
+      "gloss": "a whisper, a faint continuous murmur (a tempting inner voice, a rustle of ornaments)",
+      "charge_reading": "و (وصل + ربط) + س (امتداد + سيلان) + و (وصل + ربط) + س (امتداد + سيلان) + ة: bound rounded sustain alternating with a fine streaming sibilant, reduplicated, the repeated و-س is the low continuous s-s-s of a whisper barely voiced.",
+      "key_letters": "س، س، و",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'whisper', 'whoosh', French 'susurrer', Latin 'susurrus', CONVERGENT: sustained sibilants for the same hush.",
+      "category": "whisper"
+    },
+    {
+      "id": 7,
+      "arabic": "هَمْس",
+      "gloss": "a whisper, the lowest audible speech, a soft footfall or hidden sound",
+      "charge_reading": "ه (همس + تنفس) + م (تجمّع + تلاصق) + س (امتداد + سيلان): a soft throat exhale, lips gathered, then fine streaming breath, ه is defined as 'همس' itself; the word names the breath it is made of.",
+      "key_letters": "ه، م، س",
+      "verdict": "STRONG",
+      "convergent_echo": "English 'hush', 'hum', CONVERGENT: h-plus-nasal for muffled low sound.",
+      "category": "whisper"
+    },
+    {
+      "id": 8,
+      "arabic": "هَدير",
+      "gloss": "a rumbling roar, a deep continuous booming (of a camel, thunder, a torrent, a crowd)",
+      "charge_reading": "ه (همس + تنفس) + د (ضبط + ثبات) + ي (امتداد + سريان) + ر (تكرار + جريان): a breath-body then a grounded fixed push drawn out into a running roll, د gives the low settled weight, ر the rolling continuation of the rumble.",
+      "key_letters": "د، ر",
+      "verdict": "STRONG",
+      "convergent_echo": "English 'roar', 'thunder', 'rumble', CONVERGENT: low vowel plus rhotic for deep continuous sound.",
+      "category": "rumble_roar"
+    },
+    {
+      "id": 9,
+      "arabic": "زَئير",
+      "gloss": "the roar of a lion",
+      "charge_reading": "ز (اندفاع + اهتزاز) + ء (تأكيد + قطع) + ي (امتداد + سريان) + ر (تكرار + جريان): a voiced vibrating thrust, a glottal catch, then a running roll, the ز-ر frame carries the vibrating chest-drawn roar, the hamza the guttural break inside it.",
+      "key_letters": "ز، ر",
+      "verdict": "STRONG",
+      "convergent_echo": "English 'roar', Greek 'bruchaomai', CONVERGENT: vibrating rhotic for the big-cat roar.",
+      "category": "rumble_roar"
+    },
+    {
+      "id": 10,
+      "arabic": "صَهيل",
+      "gloss": "the neighing / whinnying of a horse",
+      "charge_reading": "ص (صلابة + إطباق) + ه (همس + تنفس) + ي (امتداد + لين) + ل (تعلّق + امتداد): a hard sealed onset, a breath exhale, then a gentle extended glide, the ص-ه pair is the sharp breathy blast of the whinny, the ي-ل its drawn tail.",
+      "key_letters": "ص، ه",
+      "verdict": "STRONG",
+      "convergent_echo": "English 'neigh', 'whinny', CONVERGENT: nasal/breathy glide for the horse-call.",
+      "category": "animal_call"
+    },
+    {
+      "id": 11,
+      "arabic": "نُباح",
+      "gloss": "the barking of a dog",
+      "charge_reading": "ن (رنين + انبعاث) + ب (اتّصال + تمسّك) + ا (امتداد) + ح (حياة حارّة + احتواء): nasal resonance, a lip burst, an open extension, then warm throat friction, ب is the plosive bark-burst, ح the throat-rasp at its end.",
+      "key_letters": "ب، ح",
+      "verdict": "STRONG",
+      "convergent_echo": "English 'bark', 'bow-wow', 'woof', CONVERGENT: a plosive burst for the dog-call.",
+      "category": "animal_call"
+    },
+    {
+      "id": 12,
+      "arabic": "نَعيق",
+      "gloss": "the cawing / croaking cry of a crow or raven (also a shepherd's shout)",
+      "charge_reading": "ن (رنين + انبعاث) + ع (قبض حلقي + شدّة) + ي (امتداد + سريان) + ق (قطع + إحكام): nasal resonance, a deep pharyngeal grip, an extension, then a firm back cut, ع gives the harsh throat-grip of the caw, ق the sharp clipped end of the cry.",
+      "key_letters": "ع، ق",
+      "verdict": "STRONG",
+      "convergent_echo": "English 'caw', 'croak', 'cackle', CONVERGENT: velar plosives for the corvid cry.",
+      "category": "animal_call"
+    },
+    {
+      "id": 13,
+      "arabic": "مُواء",
+      "gloss": "the meowing of a cat",
+      "charge_reading": "م (تجمّع + تلاصق) + و (وصل + ربط) + ا (امتداد) + ء (تأكيد + قطع): lips gathered and sealed, a rounded binding sustain, an open extension, then a glottal close, م-و ARE the closed-lip rounded 'mew', the exact mouth-shape of the cat-call.",
+      "key_letters": "م، و",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'meow', 'mew', Chinese 'miao', French 'miaou', CONVERGENT: the m-w shape recurs worldwide for the cat.",
+      "category": "animal_call"
+    },
+    {
+      "id": 14,
+      "arabic": "زَقزَقة",
+      "gloss": "the chirping / twittering of small birds (sparrows, swallows)",
+      "charge_reading": "ز (اندفاع + اهتزاز) + ق (قطع + إحكام) + ز (اندفاع + اهتزاز) + ق (قطع + إحكام) + ة: a voiced vibrating thrust cut short by a firm back-stop, reduplicated, each ز-ق is one clipped chirp, the reduplication the rapid twitter.",
+      "key_letters": "ز، ق",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'tweet', 'chirp', German 'zwitschern', CONVERGENT: high sibilant plus stop for birdsong.",
+      "category": "animal_call"
+    },
+    {
+      "id": 15,
+      "arabic": "قَهقَهة",
+      "gloss": "loud, unrestrained laughter, a guffaw",
+      "charge_reading": "ق (قطع + إحكام) + ه (همس + تنفس) + ق (قطع + إحكام) + ه (همس + تنفس) + ة: a firm back-stop released into a throat exhale, reduplicated, the ق-ه ق-ه is literally the 'qah-qah' burst of the chest heaving out laughter.",
+      "key_letters": "ق، ه",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'ha-ha', 'guffaw', 'cackle', Spanish 'jajaja', CONVERGENT: back-stop plus breath for laughter everywhere.",
+      "category": "human_voice"
+    },
+    {
+      "id": 16,
+      "arabic": "دَوِيّ",
+      "gloss": "a booming, resounding hum or roar (of distant thunder, a crowd, bees, a whirring)",
+      "charge_reading": "د (ضبط + ثبات) + و (وصل + ربط) + ي (امتداد + سريان): a grounded fixed push then a rounded binding sustain drawn along an extension, د is the low struck body, و-ي the long resounding tail of the boom.",
+      "key_letters": "د، و",
+      "verdict": "PARTIAL",
+      "convergent_echo": "English 'boom', 'drone', 'din', CONVERGENT: a voiced stop plus resonant for the reverberating hum.",
+      "category": "rumble_roar"
+    },
+    {
+      "id": 17,
+      "arabic": "خَشْخَشة",
+      "gloss": "a rattling, crackling, rustling sound (of weapons, dry leaves, straw, coins)",
+      "charge_reading": "خ (تخلخل + اختراق) + ش (انتشار + تفرّق) + خ (تخلخل + اختراق) + ش (انتشار + تفرّق) + ة: a rarefied throat-scratch spreading and scattering, reduplicated, ش scatters the dry hiss outward, the doubled خ-ش is the repeated rattle.",
+      "key_letters": "خ، ش",
+      "verdict": "PERFECT",
+      "convergent_echo": "English 'rustle', 'crackle', 'swish', CONVERGENT: hushing fricatives for the dry rattle.",
+      "category": "friction_creak"
+    },
+    {
+      "id": 18,
+      "arabic": "قَعقَعة",
+      "gloss": "a clattering, clashing, rattling (of arms and armour, dry bones, thunder)",
+      "charge_reading": "ق (قطع + إحكام) + ع (قبض حلقي + شدّة) + ق (قطع + إحكام) + ع (قبض حلقي + شدّة) + ة: a firm back-cut gripping deep in the throat, reduplicated, each ق-ع is one hard clash, the reduplication the ongoing clatter of hard bodies striking.",
+      "key_letters": "ق، ع",
+      "verdict": "PARTIAL",
+      "convergent_echo": "English 'clack', 'clatter', 'clank', CONVERGENT: velar stops for hard bodies striking.",
+      "category": "friction_creak"
+    }
+  ]
+}
