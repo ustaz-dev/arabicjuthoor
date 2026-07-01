@@ -2,7 +2,7 @@
 
 The Qur'an does not stop at Arabic. Some of its core words carry the same consonant skeleton and the same meaning in languages far away: Greek, Latin, English, Welsh, Old Norse. Not borrowings. **Preserved echoes.**
 
-This page collects nineteen confirmed pairs, each anchored to a Qur'anic verse and tested against four strict bars. The core bar is the framework's own engine: the binary nucleus must survive the crossing with its charge intact. A second bar checks the consonant skeleton using the sound-substitution laws of Dr. **Ali Fahmi Khshim** (past president of the Libyan Arabic Language Academy, author of *رحلة الكلمات*), plus a tenth law the corpus surfaced. The last two bars require a modern reader to recognise the partner word, and a witness from both language families.
+This page collects the cross-linguistic pairs worked so far, each anchored to a Qur'anic verse and tested against four strict bars. The core bar is the framework's own engine: the binary nucleus must survive the crossing with its charge intact. A second bar checks the consonant skeleton using the sound-substitution laws of Dr. **Ali Fahmi Khshim** (past president of the Libyan Arabic Language Academy, author of *رحلة الكلمات*), plus a tenth law the corpus surfaced. The last two bars require a modern reader to recognise the partner word, and a witness from both language families.
 
 ---
 
@@ -127,7 +127,7 @@ Each promotion clears all four bars:
 
 ### Tier-A roster after the loanword-audit promotions
 
-The Tier-A roster now totals **eleven verified Quran-anchored cross-linguistic cognates**:
+The worked set after the loanword-audit round, each pair pinned to a verse:
 
 | # | Root | Cognate | Verse |
 |--:|---|---|---|
@@ -169,7 +169,7 @@ Four further candidates from the Tier-B queue clear all four bars. These are not
 
 ### Tier-A roster after the second-round expansion
 
-The Tier-A roster now totals **fifteen verified Quran-anchored cross-linguistic cognates**:
+The worked set after the second round, each pair pinned to a verse:
 
 | # | Root | Cognate | Verse | Source round |
 |--:|---|---|---|---|
@@ -222,7 +222,7 @@ Four further candidates from the Tier-B queue clear all four bars on a focused r
 
 ### Tier-A roster after the third-round expansion
 
-The Tier-A roster now totals **nineteen verified Quran-anchored cross-linguistic cognates**:
+The worked set after the third round, each pair pinned to a verse:
 
 | # | Root | Cognate | Verse | Round |
 |--:|---|---|---|---|
@@ -282,6 +282,6 @@ What the framework adds in every case is *why* the shape carries the meaning: th
 | Source | Corpus | Style | Confidence model |
 |---|---|---|---|
 | [`beyond-the-word-examples.md`](beyond-the-word-examples.md) | 17 popular-cognate cases (rack/رق, burglar/برج, anchor/أنجر, cold/جليد, finger/بنصر, inspire/نفس, …) | Etymological pathway with sound-substitution rules | Single-rubric: phonetic match + semantic match |
-| **This file** | 19 Quran-anchored Tier-A pairs (kufu'/copy, salām/shalom, rabb/rabbi, jinn/genie, kalām/claim, qul/call, sharb/sorb, jam'/Gemini) | Nucleus-first reading, home-base-verse protocol, Khshim's substitution laws | 4-bar rubric + Tier A/B/Reject ledger |
+| **This file** | Quran-anchored pairs worked through the four-bar rubric (kufu'/copy, salām/shalom, rabb/rabbi, jinn/genie, kalām/claim, qul/call, sharb/sorb, jam'/Gemini) | Nucleus-first reading, home-base-verse protocol, Khshim's substitution laws | 4-bar rubric + Tier A/B/Reject ledger |
 
 The two sets are complementary, not redundant: the popular-cognate corpus is broad; this corpus is narrow, Quran-anchored, and gated by the stricter four-bar rubric. Both are inputs to the cross-linguistic layer described in [`../02-architecture/lv1-architecture.md`](../02-architecture/lv1-architecture.md).
