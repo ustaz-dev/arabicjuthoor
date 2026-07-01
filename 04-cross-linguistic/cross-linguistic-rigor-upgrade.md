@@ -1,7 +1,7 @@
 # Cross-linguistic rigor upgrade: from permissive substitution to regular correspondence
 
 **Author:** Yassine Temessek · Temessek for Research, Publishing & Training
-**Status:** Proposal · not yet implemented · written before any change to the rosters
+**Status:** In progress. Chance baseline computed ([audit](../05-audits/2026-07-02-skeleton-chance-baseline.md)); Semitic regular-correspondence tables and the borrowing screen drafted ([regular-correspondences.md](regular-correspondences.md)). Still to do: Egyptian and Indo-European correspondence tables, and per-entry `rule`/`route` fields in the roster JSONs.
 **Scope:** the cross-linguistic layer only (the internal-Arabic engine is untouched)
 
 ## خلاصة
