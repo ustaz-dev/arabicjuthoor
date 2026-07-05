@@ -18,6 +18,8 @@ ALLOWED = {
     'CONVERGENT', 'FLOOR-TRACE', 'LOANWORD',
 }
 TOP_TIER = {'PERFECT', 'STRONG', 'PROTO-FAMILY', 'PROTO-AFRO-ASIATIC', 'DUAL-FACE'}
+# rule/route fields (pre-registration-branch-rosters.md): enforced on any roster that carries them
+ROUTES = {'inherited-trace', 'reverse-borrowing', 'wanderwort'}
 
 def main():
     problems = []
@@ -44,6 +46,17 @@ def main():
         ids = [e.get('id') for e in entries if 'id' in e]
         if len(ids) != len(set(ids)):
             problems.append(f"{name}: duplicate ids")
+        # 5. rule/route integrity: if ANY entry carries the fields, EVERY entry must
+        has_rr = any(('rule' in e or 'route' in e) for e in entries)
+        if has_rr:
+            for e in entries:
+                eid = e.get('id', '?')
+                rule = e.get('rule')
+                if not isinstance(rule, str) or not rule.strip():
+                    problems.append(f"{name}: entry {eid} missing/empty rule")
+                route = e.get('route')
+                if route not in ROUTES:
+                    problems.append(f"{name}: entry {eid} bad route {route!r}")
         top = sum(v for k, v in actual.items() if k in TOP_TIER)
         print(f"  OK  {name:28s} {len(entries):4d} entries · top-tier {top}/{len(entries)} = {round(top/len(entries)*100)}% · {dict(actual.most_common())}")
 
