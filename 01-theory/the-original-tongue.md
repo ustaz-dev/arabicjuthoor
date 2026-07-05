@@ -34,7 +34,7 @@ The foundation is not a hypothesis under test here; it is the established result
 
 That is the law: meaning-structure bound to articulation-structure, shown at scale on a language whose root morphology stays transparent. Everything below is what happens when that same law is turned outward.
 
-> **Honest status of the core.** All 2,285 roots now carry a complete letter-by-letter reading — the final 302 (weak-letter, hollow, hamzated and defective roots) were derived from the fixed charges and anchored to Jabal's recorded axial meanings. The readings remain single-rater; that is the standing caveat. Independent re-rating is the natural next strengthening.
+> **Honest status of the core.** All 2,285 roots now carry a complete letter-by-letter reading; the final 302 (weak-letter, hollow, hamzated and defective roots) were derived from the fixed charges and anchored to Jabal's recorded axial meanings. An independent blind re-rating (2026-07-06) then tested the one layer that is a judgment call: which of the eleven operative modes each root takes. The charges, the nucleus readings, and the Jabal anchors were given to the second reader, not tested. The result, reported as measured: two readers agree on the exact mode 37.9% of the time (Cohen's kappa 0.305, "fair") and on the broad stance 61.8%. So the fine-grained mode is single-rater-interpretive, not yet reproducible; the disagreement concentrates on an over-broad OPERATE mode (24.4% of Pass 1, kept by only 28.5% of the blind re-read). The eleven-mode taxonomy needs an example-anchored coding manual and a tighter OPERATE before it reproduces, the refinement the operative-grammar file already flagged as open. Full numbers in [the audit](../05-audits/2026-07-06-pass2-inter-rater-rerating.md).
 
 ---
 
@@ -87,7 +87,7 @@ Put together — the law proven inside Arabic, the preservation gradient, the st
 
 The capstone is a reading, and a reading earns its weight by what it survives. The work that deepens it:
 
-1. **Re-rate the core** — the 2,285 readings are now complete (100%) but single-rater; an independent second rating would harden the foundation against the "one reader sees what he wants" objection.
+1. **Re-rate the core, with a sharper manual.** The first independent re-rating is done (2026-07-06): mode agreement is only fair (Cohen's kappa 0.305), driven by an over-broad OPERATE mode. The next strengthening is an example-anchored coding manual and a tightened OPERATE, then a fresh blind re-rate to raise reproducibility, on the mode layer only; the charges and nucleus readings are not what the re-rating tested.
 2. **Widen the branches** — carry the fixed-charge reading into Greek, Latin, Old Persian, Akkadian, Berber, each entry anchored to an attested form and graded by composition.
 3. **Deepen the witnesses** — build the Coptic and Egyptian materials into full worked-entry sets, as the Sanskrit study already is.
 4. **Open it to challenge** — present the rosters and the readings for peer review, declined candidates included, so the gradient can be tested rather than admired.
