@@ -1,8 +1,8 @@
 # شبكةُ الإبدالاتِ المغلقة، مسودّةُ الجدولِ المرجعيّ / The Closed Shift Network, draft reference table
 
-> **مسودّة للمراجعة، لا تُجمَّد ولا تُستعمَل في أيِّ قراءةٍ قبلَ مصادقةِ المؤلّف / DRAFT for author review; frozen only on author sign-off.**
+> **مُجمَّدةٌ v1.0 بمصادقةِ المؤلّف، 2026-07-06، بوسومِ قراراتِه النافذة (سند استعاريّ، رفيع). أيُّ تعديلٍ بعدَ اليومِ تعديلٌ دستوريٌّ مؤرَّخٌ معلَّل / FROZEN v1.0 by author sign-off, 2026-07-06, with the ruling tags in force; any later change is a dated constitutional amendment.**
 
-**الحالة / Status:** مسودّة أولى، بانتظارِ مراجعةِ المؤلّف. First draft, awaiting author review.
+**الحالة / Status:** مُجمَّدة v1.0 بمصادقة المؤلّف، 2026-07-06 (41 قيدًا). Frozen v1.0 by author sign-off, 2026-07-06 (41 entries).
 **السند الدستوريّ / Constitutional basis:** الرِّجلُ الأولى من دستورِ التفكيكِ العميق ([`../02-architecture/deep-decomposition-method.md`](../02-architecture/deep-decomposition-method.md), القسم 4): تُبنى الشبكةُ مرّةً واحدةً، كلُّ قيدٍ فيها بمثالٍ موثَّقٍ حقيقيٍّ ومصدرٍ مُسمًّى، ثمّ تُجمَّد. ممنوعٌ اختراعُ إبدالٍ لزوجٍ واحد.
 **المصادر الداخليّة / Repo sources:** [`regular-correspondences.md`](regular-correspondences.md) (الجداول الساميّة), [`tafsir-coran-tier-a-cognates.md`](tafsir-coran-tier-a-cognates.md) (قوانين خشيم التسعة والقانون العاشر).
 **قاعدة صارمة / Hard rule:** لا صفَّ بلا زوجِ مثالٍ حقيقيٍّ موثَّق. كلُّ ما لم نجد له مثالًا حقيقيًّا أُسقِط وذُكِر في قسمِ النواقص آخرَ الملفّ. No row without a real attested example pair; anything undocumented was omitted and is listed honestly in the gaps section.
