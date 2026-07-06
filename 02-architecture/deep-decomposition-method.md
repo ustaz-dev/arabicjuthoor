@@ -70,6 +70,15 @@
 
 الشبكةُ وبطاقاتُ الحقولِ والمداراتُ الثمانيةُ تُجمَّدُ بمصادقةِ المؤلّف. أيُّ تعديلٍ لاحقٍ تعديلٌ دستوريٌّ مؤرَّخٌ معلَّل، لا رخصةَ قراءةٍ لزوجٍ بعينِه.
 
+
+## التعديلاتُ الدستوريّةُ المؤرَّخة
+
+### التعديل 1 (2026-07-06): قاعدةُ الجذرِ الأجوف
+بقرارِ المؤلّف: الجذرُ الأجوفُ (وسطُه واوٌ أو ياءٌ أو ألف) **أصلُه ثنائيّ**؛ حرفُ العلّةِ الأوسطُ ليس شريكَ نواةٍ بل **امتدادٌ صائتيٌّ يمُطُّ حدثَ النواة** (شحنتُه، الامتداد/الوصل/اللين، تعملُ مَطًّا لا حدثًا ثانيًا). فنواةُ الأجوفِ هي صامتاه القويّان: موت ← م-ت، موج ← م-ج، مال ← م-ل، ماء (أصلُها مَوَه) ← م-ه.
+- **الشاهدُ المزدوج:** فهرسُ جبل المستخرَجُ لا يحوي نواةَ «مو» البتّة (صفرُ وجود)، ويحوي «مت» و«مج» و«مل» و«مه» بقراءاتٍ مركّبة؛ وقراءتُه لنواةِ «مج» («تجمُّعٌ يَبرزُ من العمق») تصفُ المَوْجَ حرفيًّا من غيرِ أن يقصِدَه.
+- **التوحيدُ النظريّ:** الأجوفُ العربيُّ (صامتٌ + صائتٌ طويلٌ + صامت) هو قالبُ CVC الثنائيُّ نفسُه الذي جمّدَته الصينيّةُ القديمةُ والسومريّةُ (المُلحق، القسم 1). فالجوفُ **أحافيرُ الطورِ الثنائيِّ داخلَ العربيّةِ نفسِها**، وبه يُفهَمُ لماذا كانت المعتلّاتُ والجوفُ عينَ الجذورِ الـ302 الأصعبِ في المسحِ الداخليّ.
+- **النطاق:** تُبنى بطاقاتُ الحقولِ وتُجمَعُ العائلاتُ الشاهدةُ وتُقرأُ الفروعُ البعيدةُ على هذه القاعدة. أمّا إعادةُ توسيمِ نوى الجوفِ في محرِّكِ الـ2,285 الداخليِّ فقرارٌ مستقلٌّ يُعرَضُ على المؤلّفِ بمراجعةٍ مخصوصةٍ لاحقًا، ولا تُعدَّلُ بياناتُه الآن.
+
 ---
 
 *English abstract.* This constitution governs the deep-decomposition reading of distant branches. Close branches are compared at full-root level with regular shifts; distant branches, per the thesis, split at the binary-nucleus stage and are compared at nucleus level. Three legs, all required: (1) a phonetic path named step-by-step from a closed, frozen network of documented human sound-shifts, with branch-wide consistency and a published path ledger; (2) the nucleus gesture taken as-is from the fixed 453 catalog; (3) the target's real dictionary meaning falling inside the nucleus's pre-registered field, where a match may stand in exactly one named orbit of the gesture-event (act, agent, patient, instrument, result, locus, quality, part-whole: the derivational orbits of Arabic itself), one step only, orbit logged, direct vs orbital verdicts distinguished. Supporting orphan-shard indicator; loanword/wanderwort screen first; prune freely. A control arm with identical freedoms is declared now and run only after the author freezes the instruments.
