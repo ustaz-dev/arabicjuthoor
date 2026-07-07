@@ -1,538 +1,518 @@
 {
-  "project": "The Arabic Tongue · Layer 2 · The binary nucleus across branches (one seed, many tongues)",
-  "version": "2026-07-01-layer2-r1",
-  "method": "RE-PROJECTION of already-vetted roster entries onto shared two-letter nuclei. NO new pairs, NO new witnesses. Every witness form, gloss, and verdict is lifted verbatim from an existing graded roster entry (see each witness 'source' field). The charge_reading is interpretive per the project's fixed 28-letter charge table (03-scholar-extracts/consensus-letter-charges.md); the forms and glosses are attested.",
-  "charge_table_ref": "03-scholar-extracts/consensus-letter-charges.md",
-  "source_rosters": [
-    "04-cross-linguistic/data/hebrew-cognates.json",
-    "04-cross-linguistic/data/aramaic-cognates.json",
-    "04-cross-linguistic/data/akkadian-cognates.json",
-    "04-cross-linguistic/data/coptic-cognates.json",
-    "04-cross-linguistic/data/sanskrit-cognates.json",
-    "04-cross-linguistic/data/afro-asiatic-200.json"
-  ],
-  "count": 12,
-  "selection_rule": "Each nucleus appears as a graded entry in >=3 independent branches. Branches drawn: Arabic (the umbrella, always present as the roster 'arabic' field), Hebrew, Aramaic, Akkadian, Coptic, Egyptian (Afro-Asiatic), Sanskrit.",
-  "license": "CC-BY 4.0",
-  "nuclei": [
+ "project": "The Arabic Tongue · Layer 2 · The binary nucleus across branches (one seed, many tongues)",
+ "version": "2026-07-01-layer2-r1",
+ "method": "RE-PROJECTION of already-vetted roster entries onto shared two-letter nuclei. NO new pairs, NO new witnesses. Every witness form, gloss, and verdict is lifted verbatim from an existing graded roster entry (see each witness 'source' field). The charge_reading is interpretive per the project's fixed 28-letter charge table (03-scholar-extracts/consensus-letter-charges.md); the forms and glosses are attested.",
+ "charge_table_ref": "03-scholar-extracts/consensus-letter-charges.md",
+ "source_rosters": [
+  "04-cross-linguistic/data/hebrew-cognates.json",
+  "04-cross-linguistic/data/aramaic-cognates.json",
+  "04-cross-linguistic/data/akkadian-cognates.json",
+  "04-cross-linguistic/data/coptic-cognates.json",
+  "04-cross-linguistic/data/sanskrit-cognates.json",
+  "04-cross-linguistic/data/afro-asiatic-200.json"
+ ],
+ "count": 12,
+ "selection_rule": "Each nucleus appears as a graded entry in >=3 independent branches. Branches drawn: Arabic (the umbrella, always present as the roster 'arabic' field), Hebrew, Aramaic, Akkadian, Coptic, Egyptian (Afro-Asiatic), Sanskrit.",
+ "license": "CC-BY 4.0",
+ "nuclei": [
+  {
+   "nucleus": "ع-ن",
+   "charge_reading": "ع (قَبضٌ حَلقيٌّ + شِدّة) + ن (رَنين + انبِعاث) = a depth-grip from the throat that resonates outward, the well of sight that gathers the world and gives it back",
+   "core_meaning": "eye, source, spring",
+   "witnesses": [
     {
-      "nucleus": "ع-ن",
-      "charge_reading": "ع (قَبضٌ حَلقيٌّ + شِدّة) + ن (رَنين + انبِعاث) = a depth-grip from the throat that resonates outward, the well of sight that gathers the world and gives it back",
-      "core_meaning": "eye, source, spring",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "عَين",
-          "gloss": "eye, spring",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#1 (arabic field)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "עַיִן ʿayin",
-          "gloss": "eye, spring",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#1"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "עֵינָא ʿaynā",
-          "gloss": "eye",
-          "verdict": "PERFECT",
-          "source": "aramaic-cognates.json#1"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "īnu",
-          "gloss": "eye, ʿ lost, ay→ī",
-          "verdict": "STRONG",
-          "source": "akkadian-cognates.json#1"
-        },
-        {
-          "lang": "Egyptian",
-          "form": "ʿn",
-          "gloss": "eye, source, spring",
-          "verdict": "PERFECT",
-          "source": "afro-asiatic-200.json#12"
-        }
-      ]
+     "lang": "Arabic",
+     "form": "عَين",
+     "gloss": "eye, spring",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#1 (arabic field)"
     },
     {
-      "nucleus": "ق-ر",
-      "charge_reading": "ق (قَطع + إحكام) + ر (تَكرار + جَريان) = a firm settling that repeats and runs, the projecting, curved hard-point that juts and holds",
-      "core_meaning": "horn, projecting point",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "قَرن",
-          "gloss": "horn",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#18 (arabic field)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "קֶרֶן qeren",
-          "gloss": "horn",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#18"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "קַרְנָא qarnā",
-          "gloss": "horn",
-          "verdict": "PERFECT",
-          "source": "aramaic-cognates.json#12"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "qarnu",
-          "gloss": "horn",
-          "verdict": "PERFECT",
-          "source": "akkadian-cognates.json#7"
-        },
-        {
-          "lang": "Sanskrit",
-          "form": "karṇa",
-          "gloss": "ear / horn, corner",
-          "verdict": "PERFECT",
-          "source": "sanskrit-cognates.json#18"
-        }
-      ]
+     "lang": "Hebrew",
+     "form": "עַיִן ʿayin",
+     "gloss": "eye, spring",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#1"
     },
     {
-      "nucleus": "ل-س",
-      "charge_reading": "ل (تَعَلُّق + امتِداد) + س (امتداد + سَيَلان) = an attaching bridge that streams forward, the tongue that extends and lets speech flow",
-      "core_meaning": "tongue, language",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "لِسان",
-          "gloss": "tongue, language",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#11 (arabic field)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "לָשׁוֹן lashon",
-          "gloss": "tongue, language",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#11"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "לִשָּׁנָא liššānā",
-          "gloss": "tongue",
-          "verdict": "PERFECT",
-          "source": "aramaic-cognates.json#8"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "lišānu",
-          "gloss": "tongue",
-          "verdict": "PERFECT",
-          "source": "akkadian-cognates.json#4"
-        },
-        {
-          "lang": "Coptic",
-          "form": "ⲗⲁⲥ (las)",
-          "gloss": "tongue",
-          "verdict": "STRONG",
-          "source": "coptic-cognates.json#1"
-        },
-        {
-          "lang": "Sanskrit",
-          "form": "las",
-          "gloss": "shine, play, speak, tongue",
-          "verdict": "STRONG",
-          "source": "sanskrit-cognates.json#9"
-        }
-      ]
+     "lang": "Aramaic",
+     "form": "עֵינָא ʿaynā",
+     "gloss": "eye",
+     "verdict": "PERFECT",
+     "source": "aramaic-cognates.json#1"
     },
     {
-      "nucleus": "ن-ف",
-      "charge_reading": "ن (رَنين + انبِعاث) + ف (تَفريق + نَفاذ) = an inner resonance that parts the breath and passes out, the self carried on the outgoing breath",
-      "core_meaning": "soul, breath, self",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "نَفس",
-          "gloss": "soul, self, breath",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#22 (arabic field)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "נֶפֶשׁ nefesh",
-          "gloss": "soul, self, breath",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#22"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "נַפְשָׁא nafšā",
-          "gloss": "soul, self, س↔š",
-          "verdict": "STRONG",
-          "source": "aramaic-cognates.json#14"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "napištu",
-          "gloss": "life, soul, throat, s→š",
-          "verdict": "STRONG",
-          "source": "akkadian-cognates.json#8"
-        },
-        {
-          "lang": "Coptic",
-          "form": "ⲛⲓϥⲉ (nife)",
-          "gloss": "soul, breath, self",
-          "verdict": "PERFECT",
-          "source": "coptic-cognates.json#2"
-        },
-        {
-          "lang": "Egyptian",
-          "form": "nfsw",
-          "gloss": "soul, breath, self",
-          "verdict": "PERFECT",
-          "source": "afro-asiatic-200.json#161"
-        }
-      ]
+     "lang": "Akkadian",
+     "form": "īnu",
+     "gloss": "eye, ʿ lost, ay→ī",
+     "verdict": "STRONG",
+     "source": "akkadian-cognates.json#1"
     },
     {
-      "nucleus": "م-ت",
-      "charge_reading": "م (تَجمُّع + تَلاصُق) + ت (امتداد لطيف + تَمام) = a gathering that reaches completion, the final gathering-and-sealing of the self",
-      "core_meaning": "to die, death",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "ماتَ",
-          "gloss": "to die",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#98 (arabic field)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "מֵת met",
-          "gloss": "to die",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#98"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "מִית mīt",
-          "gloss": "to die",
-          "verdict": "PERFECT",
-          "source": "aramaic-cognates.json#72"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "mâtu",
-          "gloss": "to die",
-          "verdict": "PERFECT",
-          "source": "akkadian-cognates.json#55"
-        },
-        {
-          "lang": "Coptic",
-          "form": "ⲙⲟⲩ (mou)",
-          "gloss": "to die",
-          "verdict": "STRONG",
-          "source": "coptic-cognates.json#4"
-        },
-        {
-          "lang": "Egyptian",
-          "form": "mwt",
-          "gloss": "die, death",
-          "verdict": "PERFECT",
-          "source": "afro-asiatic-200.json#19"
-        }
-      ]
-    },
-    {
-      "nucleus": "م (أ-م)",
-      "charge_reading": "م (تَجمُّع + تَلاصُق) = the lips closing on the gathered breath, the maternal origin that gathers and holds life; أ (تَأكيد) fronts it as the first-named source",
-      "core_meaning": "mother, source",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "أُمّ",
-          "gloss": "mother",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#25 (arabic field)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "אֵם ʾem",
-          "gloss": "mother",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#25"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "אִמָּא ʾemmā",
-          "gloss": "mother",
-          "verdict": "PERFECT",
-          "source": "aramaic-cognates.json#19"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "ummu",
-          "gloss": "mother",
-          "verdict": "PERFECT",
-          "source": "akkadian-cognates.json#16"
-        },
-        {
-          "lang": "Sanskrit",
-          "form": "mātṛ",
-          "gloss": "mother",
-          "verdict": "STRONG",
-          "source": "sanskrit-cognates.json#13"
-        },
-        {
-          "lang": "Egyptian",
-          "form": "mwt",
-          "gloss": "mother, source",
-          "verdict": "PERFECT",
-          "source": "afro-asiatic-200.json#20"
-        },
-        {
-          "lang": "Chinese",
-          "form": "妈 / 母 (mā / mǔ)",
-          "gloss": "mother",
-          "verdict": "FLOOR-TRACE",
-          "source": "chinese-cognates.json (floor witness)"
-        }
-      ]
-    },
-    {
-      "nucleus": "س-م",
-      "charge_reading": "س (امتداد + سَيَلان) + م (تَجمُّع + تَلاصُق) = a streaming that gathers to a mass, the breath extended and bound to designate a thing, the name that lifts it above its context",
-      "core_meaning": "name",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "اسم",
-          "gloss": "name, س↔š",
-          "verdict": "STRONG",
-          "source": "hebrew-cognates.json#187 (arabic field)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "שֵׁם shem",
-          "gloss": "name, س↔š",
-          "verdict": "STRONG",
-          "source": "hebrew-cognates.json#187"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "שְׁמָא šemā",
-          "gloss": "name, س↔š",
-          "verdict": "STRONG",
-          "source": "aramaic-cognates.json#93"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "šumu",
-          "gloss": "name, s→š",
-          "verdict": "STRONG",
-          "source": "akkadian-cognates.json#68"
-        },
-        {
-          "lang": "Sanskrit",
-          "form": "nāman",
-          "gloss": "name (n-m ↔ s-m)",
-          "verdict": "PARTIAL",
-          "source": "sanskrit-cognates.json#12"
-        }
-      ]
-    },
-    {
-      "nucleus": "ل-ب",
-      "charge_reading": "ل (تَعَلُّق + امتِداد) + ب (اتّصال + تَمَسُّك) = an attaching bridge that holds, the inner clasped core, the heart at the center that binds the self",
-      "core_meaning": "heart, inner core",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "قَلب",
-          "gloss": "heart, the l-b core",
-          "verdict": "STRONG",
-          "source": "hebrew-cognates.json#8 (arabic field)",
-          "note": "the pure ل-ب form is لُبّ (core, pith, kernel), the clasped inner heart"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "לֵב lev",
-          "gloss": "heart, the l-b core",
-          "verdict": "STRONG",
-          "source": "hebrew-cognates.json#8"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "לִבָּא libbā",
-          "gloss": "heart, l-b core",
-          "verdict": "STRONG",
-          "source": "aramaic-cognates.json#5"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "libbu",
-          "gloss": "heart, l-b core",
-          "verdict": "STRONG",
-          "source": "akkadian-cognates.json#11"
-        }
-      ]
-    },
-    {
-      "nucleus": "س-ن",
-      "charge_reading": "س (امتداد + سَيَلان) + ن (رَنين + انبِعاث) = a fine sibilant streaming with inner resonance, the dental point that gnashes and repeats (tooth, and by shared source the matched pair/second)",
-      "core_meaning": "tooth",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "سِنّ",
-          "gloss": "tooth, ش↔ש",
-          "verdict": "STRONG",
-          "source": "hebrew-cognates.json#12 (arabic field)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "שֵׁן shen",
-          "gloss": "tooth, ש↔س",
-          "verdict": "STRONG",
-          "source": "hebrew-cognates.json#12"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "שִׁנָּא šinnā",
-          "gloss": "tooth, س↔š",
-          "verdict": "STRONG",
-          "source": "aramaic-cognates.json#9"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "šinnu",
-          "gloss": "tooth, s→š",
-          "verdict": "STRONG",
-          "source": "akkadian-cognates.json#5"
-        },
-        {
-          "lang": "Sanskrit",
-          "form": "danta",
-          "gloss": "tooth (s-n ↔ d-n-t)",
-          "verdict": "STRONG",
-          "source": "sanskrit-cognates.json#15"
-        },
-        {
-          "lang": "Egyptian",
-          "form": "snt",
-          "gloss": "tooth, second, sister",
-          "verdict": "STRONG",
-          "source": "afro-asiatic-200.json#15"
-        }
-      ]
-    },
-    {
-      "nucleus": "ر-ب",
-      "charge_reading": "ر (تَكرار + جَريان) + ب (اتّصال + تَمَسُّك) = a running that stays attached to its substrate, continuous holding-and-multiplying, the one who tends and grows his charge",
-      "core_meaning": "lord, master, great (one who tends-and-multiplies)",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "رَبّ",
-          "gloss": "lord, master, great",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#124 (arabic field)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "רַב rav",
-          "gloss": "lord, master, great",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#124"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "רַבָּא rabbā",
-          "gloss": "lord, master, great",
-          "verdict": "PERFECT",
-          "source": "aramaic-cognates.json#86"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "rabû",
-          "gloss": "great; to be great",
-          "verdict": "PERFECT",
-          "source": "akkadian-cognates.json#65"
-        }
-      ]
-    },
-    {
-      "nucleus": "ب-ن",
-      "charge_reading": "ب (اتّصال + تَمَسُّك) + ن (رَنين + انبِعاث) = a holding attachment that issues outward, what is built up out of a bond, the son / the raising of a structure",
-      "core_meaning": "to build / son (the built-up one)",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "بَنى / ابن",
-          "gloss": "to build / son",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#101, #26 (arabic fields)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "בָּנָה banah / בֵּן ben",
-          "gloss": "to build / son",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#101, #26"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "בְּנָא benā",
-          "gloss": "to build",
-          "verdict": "PERFECT",
-          "source": "aramaic-cognates.json#75"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "banû",
-          "gloss": "to build, create",
-          "verdict": "PERFECT",
-          "source": "akkadian-cognates.json#56"
-        }
-      ]
-    },
-    {
-      "nucleus": "م-ل-ك",
-      "charge_reading": "م (تَجمُّع) + ل (تَعَلُّق + امتِداد) + ك (كَتم + قَطع) = a gathering-and-extending sealed at a defined cut, the one who holds dominion at a boundary",
-      "core_meaning": "king / to rule",
-      "witnesses": [
-        {
-          "lang": "Arabic",
-          "form": "مَلِك / مَلَك",
-          "gloss": "king / to reign",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#107, #106 (arabic fields)"
-        },
-        {
-          "lang": "Hebrew",
-          "form": "מֶלֶךְ melekh",
-          "gloss": "king",
-          "verdict": "PERFECT",
-          "source": "hebrew-cognates.json#107"
-        },
-        {
-          "lang": "Aramaic",
-          "form": "מַלְכָּא malkā",
-          "gloss": "king",
-          "verdict": "PERFECT",
-          "source": "aramaic-cognates.json#85"
-        },
-        {
-          "lang": "Akkadian",
-          "form": "malāku",
-          "gloss": "to rule, counsel, malku = prince",
-          "verdict": "STRONG",
-          "source": "akkadian-cognates.json#64"
-        }
-      ]
+     "lang": "Egyptian",
+     "form": "ʿn",
+     "gloss": "eye, source, spring",
+     "verdict": "PERFECT",
+     "source": "afro-asiatic-200.json#12"
     }
-  ]
+   ]
+  },
+  {
+   "nucleus": "ق-ر",
+   "charge_reading": "ق (قَطع + إحكام) + ر (تَكرار + جَريان) = a firm settling that repeats and runs, the projecting, curved hard-point that juts and holds",
+   "core_meaning": "horn, projecting point",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "قَرن",
+     "gloss": "horn",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#18 (arabic field)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "קֶרֶן qeren",
+     "gloss": "horn",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#18"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "קַרְנָא qarnā",
+     "gloss": "horn",
+     "verdict": "PERFECT",
+     "source": "aramaic-cognates.json#12"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "qarnu",
+     "gloss": "horn",
+     "verdict": "PERFECT",
+     "source": "akkadian-cognates.json#7"
+    },
+    {
+     "lang": "Sanskrit",
+     "form": "karṇa",
+     "gloss": "ear / horn, corner",
+     "verdict": "PERFECT",
+     "source": "sanskrit-cognates.json#18"
+    }
+   ]
+  },
+  {
+   "nucleus": "ل-س",
+   "charge_reading": "ل (تَعَلُّق + امتِداد) + س (امتداد + سَيَلان) = an attaching bridge that streams forward, the tongue that extends and lets speech flow",
+   "core_meaning": "tongue, language",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "لِسان",
+     "gloss": "tongue, language",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#11 (arabic field)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "לָשׁוֹן lashon",
+     "gloss": "tongue, language",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#11"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "לִשָּׁנָא liššānā",
+     "gloss": "tongue",
+     "verdict": "PERFECT",
+     "source": "aramaic-cognates.json#8"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "lišānu",
+     "gloss": "tongue",
+     "verdict": "PERFECT",
+     "source": "akkadian-cognates.json#4"
+    },
+    {
+     "lang": "Coptic",
+     "form": "ⲗⲁⲥ (las)",
+     "gloss": "tongue",
+     "verdict": "STRONG",
+     "source": "coptic-cognates.json#1"
+    }
+   ]
+  },
+  {
+   "nucleus": "ن-ف",
+   "charge_reading": "ن (رَنين + انبِعاث) + ف (تَفريق + نَفاذ) = an inner resonance that parts the breath and passes out, the self carried on the outgoing breath",
+   "core_meaning": "soul, breath, self",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "نَفس",
+     "gloss": "soul, self, breath",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#22 (arabic field)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "נֶפֶשׁ nefesh",
+     "gloss": "soul, self, breath",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#22"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "נַפְשָׁא nafšā",
+     "gloss": "soul, self, س↔š",
+     "verdict": "STRONG",
+     "source": "aramaic-cognates.json#14"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "napištu",
+     "gloss": "life, soul, throat, s→š",
+     "verdict": "STRONG",
+     "source": "akkadian-cognates.json#8"
+    },
+    {
+     "lang": "Coptic",
+     "form": "ⲛⲓϥⲉ (nife)",
+     "gloss": "soul, breath, self",
+     "verdict": "PERFECT",
+     "source": "coptic-cognates.json#2"
+    },
+    {
+     "lang": "Egyptian",
+     "form": "nfsw",
+     "gloss": "soul, breath, self",
+     "verdict": "PERFECT",
+     "source": "afro-asiatic-200.json#161"
+    }
+   ]
+  },
+  {
+   "nucleus": "م-ت",
+   "charge_reading": "م (تَجمُّع + تَلاصُق) + ت (امتداد لطيف + تَمام) = a gathering that reaches completion, the final gathering-and-sealing of the self",
+   "core_meaning": "to die, death",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "ماتَ",
+     "gloss": "to die",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#98 (arabic field)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "מֵת met",
+     "gloss": "to die",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#98"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "מִית mīt",
+     "gloss": "to die",
+     "verdict": "PERFECT",
+     "source": "aramaic-cognates.json#72"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "mâtu",
+     "gloss": "to die",
+     "verdict": "PERFECT",
+     "source": "akkadian-cognates.json#55"
+    },
+    {
+     "lang": "Coptic",
+     "form": "ⲙⲟⲩ (mou)",
+     "gloss": "to die",
+     "verdict": "STRONG",
+     "source": "coptic-cognates.json#4"
+    },
+    {
+     "lang": "Egyptian",
+     "form": "mwt",
+     "gloss": "die, death",
+     "verdict": "PERFECT",
+     "source": "afro-asiatic-200.json#19"
+    }
+   ]
+  },
+  {
+   "nucleus": "م (أ-م)",
+   "charge_reading": "م (تَجمُّع + تَلاصُق) = the lips closing on the gathered breath, the maternal origin that gathers and holds life; أ (تَأكيد) fronts it as the first-named source",
+   "core_meaning": "mother, source",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "أُمّ",
+     "gloss": "mother",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#25 (arabic field)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "אֵם ʾem",
+     "gloss": "mother",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#25"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "אִמָּא ʾemmā",
+     "gloss": "mother",
+     "verdict": "PERFECT",
+     "source": "aramaic-cognates.json#19"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "ummu",
+     "gloss": "mother",
+     "verdict": "PERFECT",
+     "source": "akkadian-cognates.json#16"
+    },
+    {
+     "lang": "Sanskrit",
+     "form": "mātṛ",
+     "gloss": "mother",
+     "verdict": "STRONG",
+     "source": "sanskrit-cognates.json#13"
+    },
+    {
+     "lang": "Egyptian",
+     "form": "mwt",
+     "gloss": "mother, source",
+     "verdict": "PERFECT",
+     "source": "afro-asiatic-200.json#20"
+    },
+    {
+     "lang": "Chinese",
+     "form": "妈 / 母 (mā / mǔ)",
+     "gloss": "mother",
+     "verdict": "FLOOR-TRACE",
+     "source": "chinese-cognates.json (floor witness)"
+    }
+   ]
+  },
+  {
+   "nucleus": "س-م",
+   "charge_reading": "س (امتداد + سَيَلان) + م (تَجمُّع + تَلاصُق) = a streaming that gathers to a mass, the breath extended and bound to designate a thing, the name that lifts it above its context",
+   "core_meaning": "name",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "اسم",
+     "gloss": "name, س↔š",
+     "verdict": "STRONG",
+     "source": "hebrew-cognates.json#187 (arabic field)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "שֵׁם shem",
+     "gloss": "name, س↔š",
+     "verdict": "STRONG",
+     "source": "hebrew-cognates.json#187"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "שְׁמָא šemā",
+     "gloss": "name, س↔š",
+     "verdict": "STRONG",
+     "source": "aramaic-cognates.json#93"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "šumu",
+     "gloss": "name, s→š",
+     "verdict": "STRONG",
+     "source": "akkadian-cognates.json#68"
+    }
+   ]
+  },
+  {
+   "nucleus": "ل-ب",
+   "charge_reading": "ل (تَعَلُّق + امتِداد) + ب (اتّصال + تَمَسُّك) = an attaching bridge that holds, the inner clasped core, the heart at the center that binds the self",
+   "core_meaning": "heart, inner core",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "قَلب",
+     "gloss": "heart, the l-b core",
+     "verdict": "STRONG",
+     "source": "hebrew-cognates.json#8 (arabic field)",
+     "note": "the pure ل-ب form is لُبّ (core, pith, kernel), the clasped inner heart"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "לֵב lev",
+     "gloss": "heart, the l-b core",
+     "verdict": "STRONG",
+     "source": "hebrew-cognates.json#8"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "לִבָּא libbā",
+     "gloss": "heart, l-b core",
+     "verdict": "STRONG",
+     "source": "aramaic-cognates.json#5"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "libbu",
+     "gloss": "heart, l-b core",
+     "verdict": "STRONG",
+     "source": "akkadian-cognates.json#11"
+    }
+   ]
+  },
+  {
+   "nucleus": "س-ن",
+   "charge_reading": "س (امتداد + سَيَلان) + ن (رَنين + انبِعاث) = a fine sibilant streaming with inner resonance, the dental point that gnashes and repeats (tooth, and by shared source the matched pair/second)",
+   "core_meaning": "tooth",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "سِنّ",
+     "gloss": "tooth, ش↔ש",
+     "verdict": "STRONG",
+     "source": "hebrew-cognates.json#12 (arabic field)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "שֵׁן shen",
+     "gloss": "tooth, ש↔س",
+     "verdict": "STRONG",
+     "source": "hebrew-cognates.json#12"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "שִׁנָּא šinnā",
+     "gloss": "tooth, س↔š",
+     "verdict": "STRONG",
+     "source": "aramaic-cognates.json#9"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "šinnu",
+     "gloss": "tooth, s→š",
+     "verdict": "STRONG",
+     "source": "akkadian-cognates.json#5"
+    },
+    {
+     "lang": "Egyptian",
+     "form": "snt",
+     "gloss": "tooth, second, sister",
+     "verdict": "STRONG",
+     "source": "afro-asiatic-200.json#15"
+    }
+   ]
+  },
+  {
+   "nucleus": "ر-ب",
+   "charge_reading": "ر (تَكرار + جَريان) + ب (اتّصال + تَمَسُّك) = a running that stays attached to its substrate, continuous holding-and-multiplying, the one who tends and grows his charge",
+   "core_meaning": "lord, master, great (one who tends-and-multiplies)",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "رَبّ",
+     "gloss": "lord, master, great",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#124 (arabic field)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "רַב rav",
+     "gloss": "lord, master, great",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#124"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "רַבָּא rabbā",
+     "gloss": "lord, master, great",
+     "verdict": "PERFECT",
+     "source": "aramaic-cognates.json#86"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "rabû",
+     "gloss": "great; to be great",
+     "verdict": "PERFECT",
+     "source": "akkadian-cognates.json#65"
+    }
+   ]
+  },
+  {
+   "nucleus": "ب-ن",
+   "charge_reading": "ب (اتّصال + تَمَسُّك) + ن (رَنين + انبِعاث) = a holding attachment that issues outward, what is built up out of a bond, the son / the raising of a structure",
+   "core_meaning": "to build / son (the built-up one)",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "بَنى / ابن",
+     "gloss": "to build / son",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#101, #26 (arabic fields)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "בָּנָה banah / בֵּן ben",
+     "gloss": "to build / son",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#101, #26"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "בְּנָא benā",
+     "gloss": "to build",
+     "verdict": "PERFECT",
+     "source": "aramaic-cognates.json#75"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "banû",
+     "gloss": "to build, create",
+     "verdict": "PERFECT",
+     "source": "akkadian-cognates.json#56"
+    }
+   ]
+  },
+  {
+   "nucleus": "م-ل-ك",
+   "charge_reading": "م (تَجمُّع) + ل (تَعَلُّق + امتِداد) + ك (كَتم + قَطع) = a gathering-and-extending sealed at a defined cut, the one who holds dominion at a boundary",
+   "core_meaning": "king / to rule",
+   "witnesses": [
+    {
+     "lang": "Arabic",
+     "form": "مَلِك / مَلَك",
+     "gloss": "king / to reign",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#107, #106 (arabic fields)"
+    },
+    {
+     "lang": "Hebrew",
+     "form": "מֶלֶךְ melekh",
+     "gloss": "king",
+     "verdict": "PERFECT",
+     "source": "hebrew-cognates.json#107"
+    },
+    {
+     "lang": "Aramaic",
+     "form": "מַלְכָּא malkā",
+     "gloss": "king",
+     "verdict": "PERFECT",
+     "source": "aramaic-cognates.json#85"
+    },
+    {
+     "lang": "Akkadian",
+     "form": "malāku",
+     "gloss": "to rule, counsel, malku = prince",
+     "verdict": "STRONG",
+     "source": "akkadian-cognates.json#64"
+    }
+   ]
+  }
+ ],
+ "note_pruning": "Sanskrit witnesses las (MW: shine/play, tongue-sense not honest), nāman (s/n initial breaks) and danta (s/d not regular) were pruned 2026-07-07 after the constitution batch-1 readings; the dashboard table mirrors this."
 }
