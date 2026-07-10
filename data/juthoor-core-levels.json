@@ -1,0 +1,4851 @@
+{
+ "project": "Juthoor (The Arabic Tongue) · core three levels export",
+ "author": "Yassine Temessek · Temessek for Research, Publishing & Training",
+ "source_repo": "github.com/ustaz-dev/arabicjuthoor",
+ "exported_at_commit": "1dcdf05",
+ "license": "CC BY-NC-SA 4.0 · attribution required · research use",
+ "levels": {
+  "level_1_letter_charges": {
+   "description": "The 28 Arabic letters (plus hamza) with one ruling charge each, drawn from the physical articulation gesture. Frozen reference: 03-scholar-extracts/consensus-letter-charges.md. General dual-face rule: every letter carries two semantic faces of one articulation; the third radical selects the active face.",
+   "count": 29,
+   "letters": [
+    {
+     "letter": "ء",
+     "label": "ء / أ (الهمزة)",
+     "charge_ar": "تَأكيد + قَطع",
+     "phonetic_note_en": "a sharp glottal onset, the breath stopped at the throat",
+     "gloss_en": "sharp affirmation, beginning"
+    },
+    {
+     "letter": "ا",
+     "label": "ا (ألف)",
+     "charge_ar": "امتداد صائت",
+     "phonetic_note_en": "the breath standing open, prolonged",
+     "gloss_en": "extension, sustained presence"
+    },
+    {
+     "letter": "ب",
+     "label": "ب",
+     "charge_ar": "اتّصال + تَمَسُّك",
+     "phonetic_note_en": "the lips press and release, a closing-then-opening seal",
+     "gloss_en": "attachment, holding, gateway"
+    },
+    {
+     "letter": "ت",
+     "label": "ت",
+     "charge_ar": "امتداد لطيف + تَمام",
+     "phonetic_note_en": "tongue tip touches the upper teeth, light percussion",
+     "gloss_en": "gentle extension to completion"
+    },
+    {
+     "letter": "ث",
+     "label": "ث",
+     "charge_ar": "تَناثُر + تَفَتُّت",
+     "phonetic_note_en": "tongue between the teeth, a fine breathy spread",
+     "gloss_en": "scattering, small-grained spread"
+    },
+    {
+     "letter": "ج",
+     "label": "ج",
+     "charge_ar": "تَجَمُّع في حَيِّز / تَجمُّع + بُروز",
+     "phonetic_note_en": "mid-palate stop with an emerging burst",
+     "gloss_en": "gathering in a space, surfacing"
+    },
+    {
+     "letter": "ح",
+     "label": "ح",
+     "charge_ar": "حياةٌ حارّة + احتواء",
+     "phonetic_note_en": "deep throat friction, warm breath enclosed",
+     "gloss_en": "living warmth that contains"
+    },
+    {
+     "letter": "خ",
+     "label": "خ",
+     "charge_ar": "تَخَلخُل + اختِراق",
+     "phonetic_note_en": "scratchy back-of-throat friction",
+     "gloss_en": "rarefying, piercing through"
+    },
+    {
+     "letter": "د",
+     "label": "د",
+     "charge_ar": "ضَبط + ثَبات / دَفع داخليّ ثابت",
+     "phonetic_note_en": "tongue behind teeth, a firm closed nudge",
+     "gloss_en": "fixity, grounding, settled push"
+    },
+    {
+     "letter": "ذ",
+     "label": "ذ",
+     "charge_ar": "نَفاذ + حِدَّة / إبراز من باطن",
+     "phonetic_note_en": "tongue between teeth with voice",
+     "gloss_en": "piercing from inside, fine bringing-out"
+    },
+    {
+     "letter": "ر",
+     "label": "ر",
+     "charge_ar": "تَكرار + جَريان",
+     "phonetic_note_en": "tongue tip rolls against the alveolar ridge",
+     "gloss_en": "repetition, running, flow"
+    },
+    {
+     "letter": "ز",
+     "label": "ز",
+     "charge_ar": "اندفاع + اهتزاز / نَفاذ + حِدّة",
+     "phonetic_note_en": "sharp voiced sibilant from the front",
+     "gloss_en": "thrust with vibration, sharp penetration"
+    },
+    {
+     "letter": "س",
+     "label": "س",
+     "charge_ar": "امتداد + سَيَلان",
+     "phonetic_note_en": "breathy sibilant gliding forward",
+     "gloss_en": "extending flow, fine streaming"
+    },
+    {
+     "letter": "ش",
+     "label": "ش",
+     "charge_ar": "انتشار + تَفَرُّق",
+     "phonetic_note_en": "wide breathy spread from the front of the mouth",
+     "gloss_en": "branching, scattering outward"
+    },
+    {
+     "letter": "ص",
+     "label": "ص",
+     "charge_ar": "صَلابة + إطباق",
+     "phonetic_note_en": "emphatic sibilant from a tight palate",
+     "gloss_en": "hardness, sealed strength"
+    },
+    {
+     "letter": "ض",
+     "label": "ض",
+     "charge_ar": "ضَمّ + ثِقَل / ضَغط + كَثافة",
+     "phonetic_note_en": "emphatic voiced lateral, tongue presses heavy",
+     "gloss_en": "drawing-together with weight, dense pressure"
+    },
+    {
+     "letter": "ط",
+     "label": "ط",
+     "charge_ar": "انبساط + انتشار ثَقيل",
+     "phonetic_note_en": "emphatic dental, a heavy spreading touch",
+     "gloss_en": "broad heavy spreading"
+    },
+    {
+     "letter": "ظ",
+     "label": "ظ",
+     "charge_ar": "بُروز + حِدّة / إظهار قويّ",
+     "phonetic_note_en": "emphatic interdental",
+     "gloss_en": "pronounced surfacing, edged prominence"
+    },
+    {
+     "letter": "ع",
+     "label": "ع",
+     "charge_ar": "قَبضٌ حَلقيٌّ + شِدّة",
+     "phonetic_note_en": "deep guttural pharyngeal grip",
+     "gloss_en": "depth-grip, intense from the throat"
+    },
+    {
+     "letter": "غ",
+     "label": "غ",
+     "charge_ar": "غَور يَستر / غِطاء + خَفاء",
+     "phonetic_note_en": "back-of-throat fricative",
+     "gloss_en": "concealing depth, covering"
+    },
+    {
+     "letter": "ف",
+     "label": "ف",
+     "charge_ar": "تَفريق + نَفاذ / انفِتاح + شَقّ",
+     "phonetic_note_en": "breath escapes between lip and upper teeth",
+     "gloss_en": "parting through, splitting open"
+    },
+    {
+     "letter": "ق",
+     "label": "ق",
+     "charge_ar": "قَطع + إحكام",
+     "phonetic_note_en": "back-of-palate stop, firm release",
+     "gloss_en": "cutting precision, firm settling"
+    },
+    {
+     "letter": "ك",
+     "label": "ك",
+     "charge_ar": "كَتم + قَطع",
+     "phonetic_note_en": "unvoiced back-of-palate stop",
+     "gloss_en": "pressed closure, sealed cut"
+    },
+    {
+     "letter": "ل",
+     "label": "ل",
+     "charge_ar": "تَعَلُّق + امتِداد",
+     "phonetic_note_en": "tongue against alveolar ridge, voiced glide",
+     "gloss_en": "attachment that extends, a bridge"
+    },
+    {
+     "letter": "م",
+     "label": "م",
+     "charge_ar": "تَجمُّع + تَلاصُق",
+     "phonetic_note_en": "lips closing, the breath gathered",
+     "gloss_en": "gathering, sealing into a mass"
+    },
+    {
+     "letter": "ن",
+     "label": "ن",
+     "charge_ar": "رَنين + انبِعاث",
+     "phonetic_note_en": "nasal resonance from inside",
+     "gloss_en": "inner resonance emitted outward"
+    },
+    {
+     "letter": "ه",
+     "label": "ه",
+     "charge_ar": "همس + تَنَفُّس",
+     "phonetic_note_en": "a soft exhale from the throat",
+     "gloss_en": "breath, soft passing"
+    },
+    {
+     "letter": "و",
+     "label": "و",
+     "charge_ar": "وَصل + ربط",
+     "phonetic_note_en": "rounded lips, a sustained connector",
+     "gloss_en": "binding, joining, sustained link"
+    },
+    {
+     "letter": "ي",
+     "label": "ي",
+     "charge_ar": "امتداد + لِين + سَريان",
+     "phonetic_note_en": "front of palate, voiced glide",
+     "gloss_en": "gentle directed extension"
+    }
+   ]
+  },
+  "level_2_binary_nuclei": {
+   "description": "The binary (two-letter) nuclei: the meaning-seeds. jabal_lexicon_reading_ar = Dr. M. H. Jabal's lexicon-derived axial reading; composed_reading_ar/en = the project's charge-composed reading (Quran-anchored where quran_anchors is present). Hollow-root rule (constitutional amendment 1, 2026-07-06): hollow roots are binary in origin, the weak middle glide is a vowel-stretcher, so mawt -> m-t, mawj -> m-j, mal -> m-l, ma' -> m-h; there is no m-w nucleus. field_card marks nuclei with a frozen pre-registered semantic-field card.",
+   "count": 457,
+   "nuclei": [
+    {
+     "nucleus": "ءب",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تؤكد معنى ما تصحبه / ضغط وتقوية"
+    },
+    {
+     "nucleus": "ءل",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": ""
+    },
+    {
+     "nucleus": "ءلو",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": ""
+    },
+    {
+     "nucleus": "ءلي",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": ""
+    },
+    {
+     "nucleus": "ءم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تؤكد معنى ما تصحبه / ضغط وتقوية"
+    },
+    {
+     "nucleus": "ءو",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تؤكد معنى ما تصحبه / ضغط وتقوية"
+    },
+    {
+     "nucleus": "ءول",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": ""
+    },
+    {
+     "nucleus": "أث",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "accumulating affirmation",
+     "composed_reading_ar": "تأكيدٌ يَتراكم",
+     "root_count": 11,
+     "quran_anchors": "002:085, 002:188, 002:203"
+    },
+    {
+     "nucleus": "أج",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "incipient gathering within bounded hollow",
+     "composed_reading_ar": "ابتِداءٌ يَجتَمِعُ في جَوفِ مَحَلٍّ مَحدود",
+     "root_count": 11,
+     "quran_anchors": "002:231, 002:062, 002:274"
+    },
+    {
+     "nucleus": "أس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "confirmation coursing, stability spreading",
+     "composed_reading_ar": "تأكيدٌ يسري ثباتٌ ينتشر",
+     "root_count": 1,
+     "quran_anchors": "002:085"
+    },
+    {
+     "nucleus": "أف",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "أن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "emerging onset, placed timing",
+     "composed_reading_ar": "ابتِداءٌ يَبرُزُ في مَوضِعٍ أو وَقت",
+     "root_count": 18,
+     "quran_anchors": "002:030, 095:004, 096:002"
+    },
+    {
+     "nucleus": "أو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "origin-bound beginning",
+     "composed_reading_ar": "ابتِداءٌ مَوصولٌ بِأصلٍ يَؤولُ إليه",
+     "root_count": 276,
+     "quran_anchors": "001:001, 002:255, 093:006"
+    },
+    {
+     "nucleus": "أي",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "connected extended affirmation",
+     "composed_reading_ar": "تأكيدٌ متّصل ممتدّ",
+     "root_count": 36,
+     "quran_anchors": "002:021, 002:087, 002:248"
+    },
+    {
+     "nucleus": "التراكيبالخائية",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "بء",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بب",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بت",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "attachment resolved by precise cutting",
+     "composed_reading_ar": "اتّصالٌ يَنحَسِمُ بقَطعٍ دَقيق",
+     "root_count": 1,
+     "quran_anchors": "108:003",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بث",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "attachment scattering",
+     "composed_reading_ar": "اتِّصالٌ يَتَناثَر",
+     "root_count": 1,
+     "quran_anchors": "101:004",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بج",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بح",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بخ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "hidden-pierced inner adhesion",
+     "composed_reading_ar": "التِصاقٌ بباطِنٍ مَخروقٍ خَفيًّا",
+     "root_count": 2,
+     "quran_anchors": "002:282, 092:008",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بد",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "احتباس بضغط وامتداد طولي",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "بذ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بر",
+     "sources": [
+      "jabal-nuclei-catalog.md"
+     ],
+     "letters": "ب+ر",
+     "jabal_lexicon_reading_ar": "التجرد والخلوص",
+     "root_count": 18
+    },
+    {
+     "nucleus": "بز",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flowing adhesion, surface spreading",
+     "composed_reading_ar": "التِصاقٌ يَنسابُ فَيَمتَدُّ عَلى سَطحٍ واسِع",
+     "root_count": 2,
+     "quran_anchors": "002:245",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بش",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "spreading emergence, coursing outflow",
+     "composed_reading_ar": "ظُهورٌ يَنتَشِر خُروجٌ يَسري",
+     "root_count": 5,
+     "quran_anchors": "002:025, 002:119, 002:187",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بص",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner adhesion, hard form-sealing",
+     "composed_reading_ar": "التِصاقٌ مِن باطِنٍ يَضبُطُ الصُّورةَ بِصَلابة",
+     "root_count": 5,
+     "quran_anchors": "002:096, 002:237, 002:265",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بض",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بط",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "spreading fall, no lifting",
+     "composed_reading_ar": "سُقوطٌ مُنبَسِط بلا رَفع",
+     "root_count": 3,
+     "quran_anchors": "002:188, 002:264, 085:012",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "root-attached emergence, part-whole",
+     "composed_reading_ar": "ظُهورٌ مُتَّصِلٌ بأصل جُزءٌ مِن كُلّ",
+     "root_count": 16,
+     "quran_anchors": "002:026, 002:251, 002:056",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بغ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "attachment behind covering",
+     "composed_reading_ar": "التِصاقٌ بِما خَلفَ غِطاء",
+     "root_count": 8,
+     "quran_anchors": "002:207, 002:090, 002:187",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بق",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "deep-force emergence, violent protrusion",
+     "composed_reading_ar": "ظهورٌ بقوّة عميقة بروزٌ عنيف من العمق",
+     "root_count": 6,
+     "quran_anchors": "002:067, 002:248, 002:278",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "suppressed emergence, held beginning",
+     "composed_reading_ar": "ظُهورٌ مَكبوت بِدءٌ حُبِسَ قَبلَ أن يَخرُج",
+     "root_count": 6,
+     "quran_anchors": "002:018, 002:171",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner adhesion, locus-linking",
+     "composed_reading_ar": "التِصاقٌ مِن باطِنٍ يَصِلُ بِمَحَلّ",
+     "root_count": 11,
+     "quran_anchors": "002:196, 002:124, 002:126",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "penetrating emergence, rooted establishing",
+     "composed_reading_ar": "ظُهورٌ يَنفُذ إقامةٌ تُرسَّخ",
+     "root_count": 3,
+     "quran_anchors": "002:022",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "به",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner adhesion surfacing",
+     "composed_reading_ar": "التِصاقٌ يَظهَرُ مِن الباطِن (دَهشةٌ لاصِقةٌ تَطفو)",
+     "root_count": 1,
+     "quran_anchors": "002:258",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "بو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "prepared passage opening",
+     "composed_reading_ar": "فَتحةٌ مُعَدَّة للمُرور",
+     "root_count": 1,
+     "quran_anchors": "002:189",
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما"
+    },
+    {
+     "nucleus": "تأ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "precedent-attached extension",
+     "composed_reading_ar": "امتِدادٌ مُلتَصقٌ بِمَن سَبَق",
+     "root_count": 4,
+     "quran_anchors": "002:208, 002:262, 002:263",
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تج",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "extension gathering within exchange",
+     "composed_reading_ar": "امتِدادٌ يَنجَمِعُ في جَوفِ مُبادَلة",
+     "root_count": 1,
+     "quran_anchors": "002:282",
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تح",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تد",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تر",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "completion extending",
+     "composed_reading_ar": "إتمامٌ يَمتدّ",
+     "root_count": 6,
+     "quran_anchors": "002:017, 002:248, 002:264",
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تس",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تع",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تف",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تق",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "attaching segmentation, piecewise tracing",
+     "composed_reading_ar": "قطعٌ يتعلّق تتبّعُ شيء قطعةً قطعة",
+     "root_count": 3,
+     "quran_anchors": "002:113, 002:252, 098:002",
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "gathering pressure, condensing focus",
+     "composed_reading_ar": "ضغطٌ يتجمّع نقطةُ تركيزٍ تتكاثف",
+     "root_count": 6,
+     "quran_anchors": "002:095, 002:187, 002:233",
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "تن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "ته",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بدقة ووحدة، قد يؤدي إلى إمساك ضعيف أو قطع"
+    },
+    {
+     "nucleus": "ثب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "post-scattering gathering, fixed attachment",
+     "composed_reading_ar": "تَجمُّعٌ بَعدَ تَناثُرٍ يَلتَصِقُ بِمَوضِعِه",
+     "root_count": 2,
+     "quran_anchors": "002:250, 002:265",
+     "jabal_lexicon_reading_ar": "كثافة أو غلظ مع تفشٍّ وانتشار"
+    },
+    {
+     "nucleus": "ثج",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "كثافة أو غلظ مع تفشٍّ وانتشار"
+    },
+    {
+     "nucleus": "ثخ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "كثافة أو غلظ مع تفشٍّ وانتشار"
+    },
+    {
+     "nucleus": "ثر",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "كثافة أو غلظ مع تفشٍّ وانتشار"
+    },
+    {
+     "nucleus": "ثع",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "كثافة أو غلظ مع تفشٍّ وانتشار"
+    },
+    {
+     "nucleus": "ثق",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "force-cut scattering",
+     "composed_reading_ar": "تَناثُرٌ مَقطوعٌ بقُوّة",
+     "root_count": 6,
+     "quran_anchors": "099:002, 002:191, 086:003",
+     "jabal_lexicon_reading_ar": "كثافة أو غلظ مع تفشٍّ وانتشار"
+    },
+    {
+     "nucleus": "ثل",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "كثافة أو غلظ مع تفشٍّ وانتشار",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "ثم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "dense gathering, fruitful accumulation",
+     "composed_reading_ar": "تجمّعٌ كثيف يلتصق تراكمٌ يُثمر",
+     "root_count": 7,
+     "quran_anchors": "002:041, 002:022, 002:126",
+     "jabal_lexicon_reading_ar": "كثافة أو غلظ مع تفشٍّ وانتشار"
+    },
+    {
+     "nucleus": "ثن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "كثافة أو غلظ مع تفشٍّ وانتشار"
+    },
+    {
+     "nucleus": "جn",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "solid inner-clinging gathering",
+     "composed_reading_ar": "اجتِماعٌ مُلتَصِقٌ بِالباطِن (تَكَوُّمٌ صَلبٌ مِن داخِل)",
+     "root_count": 2,
+     "quran_anchors": "002:260",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جث",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "heated gathering, contained emergence",
+     "composed_reading_ar": "تَجَمُّعٌ حارٌّ يَنبَجِسُ من جَوفٍ مُحتَوٍ",
+     "root_count": 1,
+     "quran_anchors": "102:006",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "driven cohesive gathering",
+     "composed_reading_ar": "تَجَمُّعٌ مَدفوعٌ مُتماسك",
+     "root_count": 1,
+     "quran_anchors": "002:197",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جذ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جر",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "gathering-flow repeating",
+     "composed_reading_ar": "اجتِماعٌ يَجري مُتَكَرِّرًا (سَيَلانُ الماءِ في مَجرى مُحَدَّد)",
+     "root_count": 4,
+     "quran_anchors": "002:025, 098:008",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جز",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "compacted gathering, condensed harvest",
+     "composed_reading_ar": "تجمّع مكتنز حصادٌ متكثّف",
+     "root_count": 6,
+     "quran_anchors": "002:085, 002:191, 002:260",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flowing gathering in volume",
+     "composed_reading_ar": "اجتِماعٌ يَنسابُ في حَيِّزٍ ثَلاثيِّ الأبعاد",
+     "root_count": 1,
+     "quran_anchors": "002:247",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner-clinging gathering",
+     "composed_reading_ar": "اجتِماعٌ يَلتَصِقُ بالباطِن",
+     "root_count": 13,
+     "quran_anchors": "002:019, 002:259, 002:224",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جف",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "surfacing attachment extending",
+     "composed_reading_ar": "ظُهورٌ يَتَعَلَّقُ ويَمتَدّ",
+     "root_count": 1,
+     "quran_anchors": "092:002",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "جم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "adhering gathering",
+     "composed_reading_ar": "اجتِماعٌ مُلتَصِق",
+     "root_count": 2,
+     "quran_anchors": "100:005, 104:002",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "جن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "surfacing from within",
+     "composed_reading_ar": "بُروزٌ من جَوف",
+     "root_count": 24,
+     "quran_anchors": "002:158, 002:035, 002:230",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "جه",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "hollow gathering, inner revealing",
+     "composed_reading_ar": "اجتِماعُ الجَوفِ المُظهِرِ لباطِنِه",
+     "root_count": 3,
+     "quran_anchors": "002:067, 002:055",
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "حب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner purity emerging",
+     "composed_reading_ar": "صفاءٌ يظهر ويخرج ما يخلص في الباطن ثمّ يبرز",
+     "root_count": 13,
+     "quran_anchors": "002:165, 002:190, 002:177",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حت",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حث",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حج",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "purity gathering, surfacing substance",
+     "composed_reading_ar": "خلوصٌ يتجمّع ويبرز مادّة نقيّة تتكتّل",
+     "root_count": 7,
+     "quran_anchors": "002:024, 002:149, 002:189",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "living point-settling",
+     "composed_reading_ar": "حَياةٌ تَنضَبِطُ في نُقطَة",
+     "root_count": 6,
+     "quran_anchors": "093:011, 002:187, 002:229",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حذ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "friction drawing self from harm",
+     "composed_reading_ar": "احتِكاكٌ يَجذِبُ النَّفسَ بَعيدًا عَمّا يَضُرّ",
+     "root_count": 3,
+     "quran_anchors": "002:019, 002:243",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حر",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ح+ر",
+     "jabal_lexicon_reading_ar": "الخلوص من الغلظ",
+     "root_count": 17,
+     "composed_reading_en": "rigorous flow, sharp extension",
+     "composed_reading_ar": "صرامةٌ تسترسل ما يخلص ويمتدّ بحِدّة",
+     "quran_anchors": "002:144, 002:071, 002:191"
+    },
+    {
+     "nucleus": "حز",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "penetrating distillation, sharp condensing",
+     "composed_reading_ar": "خلوصٌ نافذ مكتنز تجريدٌ حادّ يتكثّف",
+     "root_count": 6,
+     "quran_anchors": "002:038, 002:274, 002:262",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "precise purity flowing, fine clarity spreading",
+     "composed_reading_ar": "خلوصٌ يسري بدقّة صفاءٌ رقيق ينتشر",
+     "root_count": 21,
+     "quran_anchors": "002:058, 002:109, 002:212",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حش",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "friction gathering scatterings",
+     "composed_reading_ar": "احتِكاكٌ بين مُتفرِّقاتٍ يَجمَعُها",
+     "root_count": 1,
+     "quran_anchors": "002:203",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حص",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "thick encompassing",
+     "composed_reading_ar": "إحاطةٌ غَليظة",
+     "root_count": 3,
+     "quran_anchors": "002:196, 002:273, 100:010",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حض",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "dense purity, pure centering",
+     "composed_reading_ar": "خلوص كثيف تمركزٌ نقيّ",
+     "root_count": 4,
+     "quran_anchors": "002:133, 002:180, 002:282",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حط",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "hot breath spreading-then-cutting",
+     "composed_reading_ar": "نَفَسٌ حارٌّ يَنبَسِطُ ثمّ يَقطَع",
+     "root_count": 4,
+     "quran_anchors": "104:004, 002:058, 111:004",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حظ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "opening friction, surrounding enclosure",
+     "composed_reading_ar": "احتِكاكٌ يَنفَتِحُ حَولَ الشَّيءِ فَيُحيطُ بِه",
+     "root_count": 4,
+     "quran_anchors": "002:238, 002:255, 085:022",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حق",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "حك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "condensed friction",
+     "composed_reading_ar": "احتِكاكٌ مُكَثَّف",
+     "root_count": 13,
+     "quran_anchors": "002:209, 002:228, 002:032",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "clear attachment, freeing extension",
+     "composed_reading_ar": "صفاءٌ يتعلّق ويمتدّ ما يُفتح ويُحرَّر من القيد",
+     "root_count": 12,
+     "quran_anchors": "002:168, 002:187, 002:196",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حم",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "حن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inward-penetrating deep purity",
+     "composed_reading_ar": "خلوصٌ ينفذ إلى الباطن نقاء عميق",
+     "root_count": 2,
+     "quran_anchors": "002:135, 098:005",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "enclosing boundary, closed circle",
+     "composed_reading_ar": "حَدٌّ يَشتَمِل دائرةٌ مُغلَقة",
+     "root_count": 5,
+     "quran_anchors": "002:019, 002:233, 002:240",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "حي",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "living motion extending",
+     "composed_reading_ar": "حَرَكةٌ حَيّةٌ تَمتَدّ",
+     "root_count": 22,
+     "quran_anchors": "002:035, 002:026, 002:259",
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "خب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inward-piercing attachment, hidden knowing",
+     "composed_reading_ar": "اختِراقٌ يَلتَصِقُ بِباطِنِ الشَّيءِ فَيَعلَمُ خَفاياه",
+     "root_count": 6,
+     "quran_anchors": "002:234, 002:271, 002:267",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خت",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "void-closing precise sealing",
+     "composed_reading_ar": "إغلاق الفراغ بضغط دقيق سدّ الفتحة بإحكام",
+     "root_count": 1,
+     "quran_anchors": "002:007",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خد",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خذ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خر",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "خ+ر",
+     "jabal_lexicon_reading_ar": "تخلخل الأثناء وتسيبها وهو مستوٍ من النقص",
+     "root_count": 13,
+     "composed_reading_en": "piercing flow repeating",
+     "composed_reading_ar": "اختِراقٌ يَجري مُتَكَرِّراً",
+     "quran_anchors": "002:022, 002:240, 002:036"
+    },
+    {
+     "nucleus": "خز",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "compacted rarefaction, exposed condensing void",
+     "composed_reading_ar": "تخلخلٌ مكتنز فراغٌ يتكثّف في عار",
+     "root_count": 2,
+     "quran_anchors": "002:085",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flowing penetration, creeping diminishment",
+     "composed_reading_ar": "اختِراقٌ مُنساب نُقصانٌ يَسري",
+     "root_count": 5,
+     "quran_anchors": "002:027, 002:064, 002:065",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خش",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "branching penetration, inward spreading",
+     "composed_reading_ar": "اختراقٌ يتفرّع نُفوذٌ ينتشر في الداخل كالشجرة المقلوبة",
+     "root_count": 4,
+     "quran_anchors": "002:074, 002:045, 098:008",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خص",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "piercing force fills void",
+     "composed_reading_ar": "فراغٌ يُملأ بقوّة نافذة تخصيصٌ يُعيّن",
+     "root_count": 2,
+     "quran_anchors": "002:105, 002:204",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خض",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خط",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "space-piercing, steady treading",
+     "composed_reading_ar": "اختِراقُ المَكانِ بِوَطءٍ ثابت",
+     "root_count": 7,
+     "quran_anchors": "002:168, 002:020, 002:081",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "rarefying breakup, spreading apart",
+     "composed_reading_ar": "تفكّكٌ يتفرّق نقصُ الكثافة وانتشارُه",
+     "root_count": 4,
+     "quran_anchors": "002:162, 002:271, 002:284",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "piercing attachment, trace-holding influence",
+     "composed_reading_ar": "اختراقٌ يتعلّق نفوذٌ يَحفَظ الأَثَر",
+     "root_count": 38,
+     "quran_anchors": "002:014, 002:021, 002:025",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "piercing-into sealed enclosure",
+     "composed_reading_ar": "اختِراقٌ يَنتَهي إلى إحاطةٍ مُغلَقة",
+     "root_count": 1,
+     "quran_anchors": "002:219",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "stifled breath nearing emergence",
+     "composed_reading_ar": "نَفَسٌ مَكتومٌ يَتَّجِهُ نحو الظُّهورِ ثُمّ يَكُفّ",
+     "root_count": 1,
+     "quran_anchors": "114:004",
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "خوب/خيب",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع جفاف أو غلظ"
+    },
+    {
+     "nucleus": "دب",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "دث",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "دح",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "دخ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "void retention, hollow ingress",
+     "composed_reading_ar": "احتباسٌ في فراغ ولوجٌ إلى تجويف",
+     "root_count": 5,
+     "quran_anchors": "002:058, 002:208, 002:214"
+    },
+    {
+     "nucleus": "در",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "controlled flow repeating",
+     "composed_reading_ar": "ضَبطٌ يَجري ويَتَكَرَّر",
+     "root_count": 7,
+     "quran_anchors": "101:003, 002:228, 002:253"
+    },
+    {
+     "nucleus": "دس",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "دع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "bounded intensity, directed adhesion",
+     "composed_reading_ar": "شِدّةٌ مَحدودَةٌ تَلتَصِقُ بِما تُوَجَّهُ إلَيه",
+     "root_count": 7,
+     "quran_anchors": "096:017, 002:171, 002:186"
+    },
+    {
+     "nucleus": "دف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "push cleaving-then-displacing",
+     "composed_reading_ar": "دَفعٌ يَشُقُّ طَريقَ الشَّيءِ فَيُزيحُه",
+     "root_count": 2,
+     "quran_anchors": "002:251, 086:006"
+    },
+    {
+     "nucleus": "دق",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "دل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "downward release",
+     "composed_reading_ar": "إرخاءٌ هابِط",
+     "root_count": 1,
+     "quran_anchors": "002:188"
+    },
+    {
+     "nucleus": "دم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "دن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "confined emergence, approaching friction",
+     "composed_reading_ar": "احتِباسٌ يَخرُجُ مُتَقارِباً احتِكاكٌ يَقرُب",
+     "root_count": 12,
+     "quran_anchors": "002:061, 002:200, 002:212"
+    },
+    {
+     "nucleus": "ده",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "ذأ/ء",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "sharp piercing, inner revealing",
+     "composed_reading_ar": "نفاذٌ حادّ يُخرج اختراقٌ يُبرز ما في الباطن",
+     "root_count": 1,
+     "quran_anchors": "002:067",
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذخ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذر",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "repeating pull, flowing detachment",
+     "composed_reading_ar": "جَذبٌ جارٍ مُتَكَرِّر (انفِصالُ الصَّغيرِ عَن الأصلِ بِجَذبٍ مُتَكَرِّر)",
+     "root_count": 3,
+     "quran_anchors": "002:266, 099:008",
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذع",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذق",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "sharp piercing grasp",
+     "composed_reading_ar": "نفاذٌ حادّ يُمسك اختراقٌ يقبض على الشيء",
+     "root_count": 16,
+     "quran_anchors": "002:040, 002:198, 002:152",
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "piercing that attaches",
+     "composed_reading_ar": "نفاذٌ يَتعلّق",
+     "root_count": 1,
+     "quran_anchors": "002:061",
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذه",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "ذو",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ ثخين ذي رخاوة وغلظ"
+    },
+    {
+     "nucleus": "رأ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "returning flow, originating judgment",
+     "composed_reading_ar": "جَريانٌ يَرجِعُ إلى أصلِ المَنظورِ ويَبتَدِئُ مِنه الحُكم",
+     "root_count": 19,
+     "quran_anchors": "002:243, 099:006, 002:260",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رب",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع رخو مع تلاصق ما",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "رت",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رث",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رج",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "gathering extension, self-returning motion",
+     "composed_reading_ar": "امتِدادٌ يَتَجَمَّعُ حَرَكةٌ تَعودُ على نَفسِها",
+     "root_count": 12,
+     "quran_anchors": "002:018, 002:046, 002:059",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رح",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "احتكاك بعرض وجفاف في الباطن"
+    },
+    {
+     "nucleus": "رخ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "origin-returning flow push",
+     "composed_reading_ar": "جَريانٌ يَدفَعُ الشَّيءَ إلى مَكانِه الأوّل",
+     "root_count": 4,
+     "quran_anchors": "002:217, 002:228, 092:011",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رذ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رز",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "compacted flow, energy-pressured",
+     "composed_reading_ar": "جريانٌ مكتنز ما يتدفّق وهو مضغوط بالطاقة",
+     "root_count": 5,
+     "quran_anchors": "002:057, 002:212, 002:233",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "precise penetrating, continuous streaming",
+     "composed_reading_ar": "استرسال ينفذ بدقّة سريان متواصل",
+     "root_count": 7,
+     "quran_anchors": "002:108, 002:151, 002:252",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رش",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "ripened rising",
+     "composed_reading_ar": "تَصاعُدٌ ناضِج",
+     "root_count": 2,
+     "quran_anchors": "002:186, 002:256",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رص",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رض",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "heart-drawing flow, settled place",
+     "composed_reading_ar": "جَريانٌ يَضُمُّ القَلبَ إلى مَوضِعٍ يَسكُنُ إليه",
+     "root_count": 12,
+     "quran_anchors": "002:207, 002:120, 002:207",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رط",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "depth-extending inner vibration",
+     "composed_reading_ar": "امتِدادٌ من عُمق اهتِزازٌ يَصدُرُ من الباطن",
+     "root_count": 2,
+     "quran_anchors": "002:019, 002:104",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رغ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inward release, internal coursing",
+     "composed_reading_ar": "استرسال في الباطن سريان داخليّ",
+     "root_count": 2,
+     "quran_anchors": "002:130",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flowing extension, separating displacement",
+     "composed_reading_ar": "استرسال يفصل حركةٌ ممتدّة تفصل الشيء عن موضعه",
+     "root_count": 7,
+     "quran_anchors": "002:063, 002:187, 002:197",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رق",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flowing with concentrated pressure",
+     "composed_reading_ar": "جَريانٌ مَع ضَغطٍ مُتَكاثِف",
+     "root_count": 1,
+     "quran_anchors": "002:239",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "hot motion within body",
+     "composed_reading_ar": "حَركةٌ حارّةٌ داخلَ جِسم",
+     "root_count": 2,
+     "quran_anchors": "002:185, 105:004",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "ره",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flow revealing retention",
+     "composed_reading_ar": "جَريانٌ يُظهِرُ احتِباسًا",
+     "root_count": 1,
+     "quran_anchors": "002:283",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "رو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "light connected ungraspable flow",
+     "composed_reading_ar": "جَريانٌ مَوصولٌ خَفيفٌ لا يُمسَكُ بِاليَد",
+     "root_count": 7,
+     "quran_anchors": "002:087, 002:185, 085:016",
+     "jabal_lexicon_reading_ar": "استرسال مع تماسك ما"
+    },
+    {
+     "nucleus": "زب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "vibrating connection, holding attachment",
+     "composed_reading_ar": "اهتِزازٌ يَتَّصِلُ ويَتَمَسَّك",
+     "root_count": 1,
+     "quran_anchors": "096:018",
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زت",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زج",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "زح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "frictional sliding",
+     "composed_reading_ar": "انزِلاقٌ يَحتَكّ",
+     "root_count": 1,
+     "quran_anchors": "002:096",
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زخ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زد",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زر",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زع",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زغ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زف",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زق",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "compacted penetration, inner pressure-growth",
+     "composed_reading_ar": "نفاذٌ مكتنز يتجمّع بضغط ما ينمو من الداخل بقوّةٍ مكثّفة",
+     "root_count": 5,
+     "quran_anchors": "002:151, 002:174, 002:232",
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "sharp penetration, clinging hold",
+     "composed_reading_ar": "نفاذٌ يتعلّق اختراقٌ حادّ يمسك بصاحبه",
+     "root_count": 3,
+     "quran_anchors": "002:036, 002:209, 099:001",
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "زه",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اكتناز وازدحام"
+    },
+    {
+     "nucleus": "سب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "emerging flow, penetrating outflow",
+     "composed_reading_ar": "سريانٌ يظهر ويخرج تدفّقٌ ينفذ ويبرز",
+     "root_count": 18,
+     "quran_anchors": "002:108, 002:190, 002:032",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "ست",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سج",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "extending flow gathering, condensed surfacing",
+     "composed_reading_ar": "امتدادٌ يتجمّع ويبرز سريانٌ يتكثّف في نقطة بارزة",
+     "root_count": 11,
+     "quran_anchors": "002:034, 002:191, 002:217",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "pure extending flow",
+     "composed_reading_ar": "سريانٌ خالص ما يمتدّ بصفاءٍ ويجري",
+     "root_count": 1,
+     "quran_anchors": "002:164",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سخ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "piercing flow, subduing through",
+     "composed_reading_ar": "انسيابٌ يَختَرقُ فَيُذَلِّل",
+     "root_count": 1,
+     "quran_anchors": "002:212",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سد",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سر",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "س+ر",
+     "jabal_lexicon_reading_ar": "الامتداد أو النفاذ مع الدقة",
+     "root_count": 20,
+     "composed_reading_en": "easy-flowing successive stream",
+     "composed_reading_ar": "انسيابٌ جارٍ بِيُسرٍ مُتَتابِع",
+     "quran_anchors": "002:229, 002:077, 002:202"
+    },
+    {
+     "nucleus": "سس",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سط",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "purpose-clinging flow",
+     "composed_reading_ar": "انسِيابٌ مُلتَصِقٌ بمَقصَدِه",
+     "root_count": 3,
+     "quran_anchors": "002:205, 002:260",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سغ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "dispersing flow",
+     "composed_reading_ar": "سريانٌ يَتفرّق",
+     "root_count": 8,
+     "quran_anchors": "002:184, 002:084, 002:142",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سق",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "precise extension, depth-piercing flow",
+     "composed_reading_ar": "امتدادٌ دقيق بقوّة عميقة سريانٌ نافذ يبلغ الأعماق",
+     "root_count": 1,
+     "quran_anchors": "002:060",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "holding extension, restrained flow",
+     "composed_reading_ar": "امتدادٌ يُمسك سريانٌ يُضبط ويُحبس",
+     "root_count": 6,
+     "quran_anchors": "002:035, 002:061, 002:215",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سل",
+     "sources": [
+      "jabal-nuclei-catalog.md"
+     ],
+     "letters": "س+ل",
+     "jabal_lexicon_reading_ar": "انسحاب الشيء ممتدًا من أثناء أو فيها بطول ورفق",
+     "root_count": 15,
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "سم",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "سن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flow revealing traces",
+     "composed_reading_ar": "انسِيابٌ يُظهِرُ آثارَه",
+     "root_count": 2,
+     "quran_anchors": "002:259, 095:002",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "سه",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flowing through emptiness",
+     "composed_reading_ar": "جَريانٌ في فَراغ",
+     "root_count": 1,
+     "quran_anchors": "107:005",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "سو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "encompassing flow, containing order",
+     "composed_reading_ar": "سَريانٌ مُشتَمِل انتِظامٌ يَحتَوي",
+     "root_count": 4,
+     "quran_anchors": "002:029, 002:169, 002:271",
+     "jabal_lexicon_reading_ar": "امتداد بدقة ووحدة"
+    },
+    {
+     "nucleus": "شب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "appearing spread, manifest balance",
+     "composed_reading_ar": "انتِشارٌ يَظهَر تَوازُنٌ يَتَبَدَّى",
+     "root_count": 2,
+     "quran_anchors": "002:025, 002:118",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شت",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "discontinuous spreading",
+     "composed_reading_ar": "انتِشارٌ مُنقَطِع",
+     "root_count": 3,
+     "quran_anchors": "092:004, 106:002",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شج",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شح",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شخ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "scattered gathering into grip",
+     "composed_reading_ar": "جَمعُ المُنتَشِر في قَبضة",
+     "root_count": 9,
+     "quran_anchors": "002:074, 002:200, 002:211",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شر",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ش+ر",
+     "jabal_lexicon_reading_ar": "الانتشار أو صورة منه",
+     "root_count": 14,
+     "composed_reading_en": "flowing spread",
+     "composed_reading_ar": "انتشارٌ جارٍ",
+     "quran_anchors": "002:016, 002:115, 002:060",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "شط",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "extending spread, surrounding containment",
+     "composed_reading_ar": "انتشارٌ يمتدّ ويشتمل ما يتوزّع في مساحةٍ واسعة محيطة",
+     "root_count": 9,
+     "quran_anchors": "002:144, 002:014, 002:268",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شظ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "depth-radiance branching outward",
+     "composed_reading_ar": "انتشارٌ يَظهرُ من العمق: شعاعٌ يَتفرَّعُ من مَركز",
+     "root_count": 4,
+     "quran_anchors": "002:009, 002:158, 002:198",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شغ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "spreading opening, additive attachment",
+     "composed_reading_ar": "انتِشارٌ يَفتَحُ مَوضِعًا لِزائِدٍ يُضَمُّ إلى الأصل",
+     "root_count": 3,
+     "quran_anchors": "002:254, 002:123",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شق",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "deep-force spreading, violent splitting",
+     "composed_reading_ar": "انتشار بقوّة عميقة انشقاقٌ عنيف",
+     "root_count": 2,
+     "quran_anchors": "002:137, 092:015",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "held scattering, regathered dispersal",
+     "composed_reading_ar": "انتشارٌ يُمسك تفرّقٌ يُعاد جمعه",
+     "root_count": 4,
+     "quran_anchors": "002:056, 002:152, 002:185",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "emanating spread",
+     "composed_reading_ar": "انتِشارٌ يَنبَعِثُ",
+     "root_count": 1,
+     "quran_anchors": "108:003",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شه",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "manifest spreading",
+     "composed_reading_ar": "انتِشارٌ ظاهرٌ",
+     "root_count": 14,
+     "quran_anchors": "002:185, 002:023, 002:282",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "شو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "outward scattering, joining ends",
+     "composed_reading_ar": "انتِشارٌ يَصِلُ أطرافًا مُتَفَرِّقة",
+     "root_count": 1,
+     "quran_anchors": "002:233",
+     "jabal_lexicon_reading_ar": "تفشٍّ أو انتشار مع دقة"
+    },
+    {
+     "nucleus": "صب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "strength appearing, hardness emerging",
+     "composed_reading_ar": "قوّةٌ تظهر صلابةٌ تبرز",
+     "root_count": 10,
+     "quran_anchors": "002:045, 002:249, 002:062",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صت",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "purifying strength, pure hardness",
+     "composed_reading_ar": "قوّةٌ تخلص صلابةٌ نقيّة",
+     "root_count": 10,
+     "quran_anchors": "002:039, 002:217, 002:257",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صخ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "solid push, repelling advance",
+     "composed_reading_ar": "صَلابةٌ تَدفَعُ فَتَرُدُّ المُتَوَجِّه",
+     "root_count": 25,
+     "quran_anchors": "002:177, 002:023, 094:001",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صر",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flowing grip",
+     "composed_reading_ar": "قَبضٌ يَجري",
+     "root_count": 4,
+     "quran_anchors": "001:006, 002:142, 002:213",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "solid force emerging from depth",
+     "composed_reading_ar": "قوّةٌ تظهر من العمق ضربة صلبة تبرز من الباطن",
+     "root_count": 1,
+     "quran_anchors": "002:055",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صغ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "strength dispersing",
+     "composed_reading_ar": "قوّةٌ تَتفرّق",
+     "root_count": 5,
+     "quran_anchors": "002:109, 002:130, 002:158",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صك",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "نفاذ بغلظ وقوة وخلوص",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "صل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "connected hardness",
+     "composed_reading_ar": "صَلابةٌ مُتَّصِلَة",
+     "root_count": 26,
+     "quran_anchors": "002:011, 002:220, 092:015",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "sealed compression, solid mass",
+     "composed_reading_ar": "انضغاطٌ مُتَلاصق جِسمٌ صُلبٌ لا مَنفذَ فيه",
+     "root_count": 3,
+     "quran_anchors": "002:018, 002:171, 112:002",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "صه",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "نفاذ بغلظ وقوة وخلوص",
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "صي",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "pressure extending into transformation",
+     "composed_reading_ar": "ضَغطٌ يَمتَدُّ إلى تَحَوُّل",
+     "root_count": 3,
+     "quran_anchors": "002:126, 106:002",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ وقوة وخلوص"
+    },
+    {
+     "nucleus": "ضب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "contained pressure releasing",
+     "composed_reading_ar": "ضَغطٌ يَنطَلِقُ بَعدَ احتِباس",
+     "root_count": 1,
+     "quran_anchors": "100:001",
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضج",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "emphatic pressure opening into held warmth",
+     "composed_reading_ar": "ضَغطٌ مُفَخَّمٌ يَنفَتِحُ في حَرارَةٍ مَحفوظَة",
+     "root_count": 1,
+     "quran_anchors": "093:001",
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضد",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ضغط بكثافة وغلظ",
+     "jabal_lexicon_reading_ar": "احتباس بضغط وامتداد طولي"
+    },
+    {
+     "nucleus": "ضر",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "weighted repeating flow",
+     "composed_reading_ar": "ثِقَلٌ يَجري مُتَكَرِّرًا",
+     "root_count": 9,
+     "quran_anchors": "002:026, 002:214, 002:231",
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضز",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner-clinging compression",
+     "composed_reading_ar": "ضَمٌّ مُلتَصِقٌ بِالداخِل",
+     "root_count": 5,
+     "quran_anchors": "002:265, 002:245, 002:261",
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضغ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضف",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضق",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ضغط بكثافة وغلظ",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "ضل",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ضغط بكثافة وغلظ",
+     "jabal_lexicon_reading_ar": "تعلق أو امتداد مع استقلال أو تميز",
+     "composed_reading_en": "pressure extending",
+     "composed_reading_ar": "ضَغطٌ يَمتدّ",
+     "root_count": 7,
+     "quran_anchors": "001:007, 002:016, 002:026"
+    },
+    {
+     "nucleus": "ضم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط بكثافة وغلظ"
+    },
+    {
+     "nucleus": "ضه",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ضغط بكثافة وغلظ",
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "ضو",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ضغط بكثافة وغلظ",
+     "jabal_lexicon_reading_ar": "اشتمال واحتواء"
+    },
+    {
+     "nucleus": "طب",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طح",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طد",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طر",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "repeating broad striking",
+     "composed_reading_ar": "ضَربٌ مُنبَسِطٌ يَتَكَرَّر",
+     "root_count": 1,
+     "quran_anchors": "086:001",
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "pressing encompassment, depth-filled enclosure",
+     "composed_reading_ar": "اشتمالٌ ضاغط يظهر من العمق ما يُحيط بالباطن ويمتلئ به",
+     "root_count": 6,
+     "quran_anchors": "002:061, 002:249, 106:004",
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طغ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "covering closure",
+     "composed_reading_ar": "إطباقٌ يُغَطّي",
+     "root_count": 2,
+     "quran_anchors": "002:015, 096:006",
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طف",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طق",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "gentle descent, grounding adhesion",
+     "composed_reading_ar": "إطباقٌ مُتَّصِلٌ خَفيف (نُزولٌ هادِئٌ يَلتَصِقُ بِالأرض)",
+     "root_count": 19,
+     "quran_anchors": "002:227, 002:227, 002:236",
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "gathering envelopment, clinging enclosure",
+     "composed_reading_ar": "اشتمالٌ يتجمّع إحاطة تلتصق بالمطلوب",
+     "root_count": 2,
+     "quran_anchors": "002:075, 002:260",
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "طه",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "clear-breath penetrating expansion",
+     "composed_reading_ar": "انبِساطٌ يَنفُذُ بِنَفَسٍ صافٍ",
+     "root_count": 1,
+     "quran_anchors": "098:002",
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "طو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "doubled containment, enclosure upon enclosure",
+     "composed_reading_ar": "اشتمالٌ مضاعف إحاطة فوق إحاطة",
+     "root_count": 11,
+     "quran_anchors": "002:063, 002:184, 002:285",
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "ظع",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "نفاذ بغلظ أو حدّة مع كثافة",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "ظف",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ أو حدّة مع كثافة"
+    },
+    {
+     "nucleus": "ظل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "clinging thickness, dense adhesion",
+     "composed_reading_ar": "ثخانةٌ تتعلّق طبقةٌ كثيفة تلتصق",
+     "root_count": 24,
+     "quran_anchors": "002:017, 002:270, 002:057",
+     "jabal_lexicon_reading_ar": "نفاذ بغلظ أو حدّة مع كثافة"
+    },
+    {
+     "nucleus": "ظم",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "نفاذ بغلظ أو حدّة مع كثافة",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "ظن",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "نفاذ بغلظ أو حدّة مع كثافة",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه",
+     "composed_reading_en": "dense surfacing, deep settling",
+     "composed_reading_ar": "ظهورٌ كثيف ينفذ إلى الباطن فكرة ثقيلة تستقرّ في العمق",
+     "root_count": 3,
+     "quran_anchors": "002:046, 002:230, 002:249"
+    },
+    {
+     "nucleus": "ظه",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "نفاذ بغلظ أو حدّة مع كثافة",
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف",
+     "composed_reading_en": "heavy surfacing penetration",
+     "composed_reading_ar": "بُروزٌ ثَقيلٌ يَنفُذُ من الباطنِ إلى السَّطح",
+     "root_count": 1,
+     "quran_anchors": "094:003"
+    },
+    {
+     "nucleus": "عs",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "adhering intensity",
+     "composed_reading_ar": "شِدّةٌ تَلتصِق",
+     "root_count": 17,
+     "quran_anchors": "001:005, 002:021, 002:133",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عت",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عث",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عج",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "coalescing emergence, compact protrusion",
+     "composed_reading_ar": "ظهورٌ يتكتّل بروزٌ مكتنز",
+     "root_count": 5,
+     "quran_anchors": "002:092, 002:093, 002:203",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "contained emergence from depth",
+     "composed_reading_ar": "ظهورٌ محتبس ما يُخفيه العمق ويحتبسه",
+     "root_count": 20,
+     "quran_anchors": "002:036, 002:048, 002:190",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عذ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "depth-emergence, painful piercing",
+     "composed_reading_ar": "ظهورٌ من العمق ينفذ بحدّة ما يخرج من الجوهر ويخترق بألم",
+     "root_count": 20,
+     "quran_anchors": "002:007, 002:201, 002:284",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عر",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عز",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "driving adhesion preventing bending",
+     "composed_reading_ar": "التصاقٌ دافعٌ يَمنعُ الانحِناء",
+     "root_count": 11,
+     "quran_anchors": "002:129, 002:209, 002:220",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "solidity resisting flow",
+     "composed_reading_ar": "صَلابةٌ تَقِفُ في وَجه السَّيَلان",
+     "root_count": 7,
+     "quran_anchors": "002:185, 002:216, 002:246",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عش",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner attachment branching outward",
+     "composed_reading_ar": "التِصاقٌ داخِليٌّ يَنتَشِرُ إلى أطرافٍ مُتَعَدِّدة",
+     "root_count": 1,
+     "quran_anchors": "002:234",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عص",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "solid pressing adhesion",
+     "composed_reading_ar": "التِصاقٌ صَلبٌ ضاغِط",
+     "root_count": 3,
+     "quran_anchors": "002:266, 105:005",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عض",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner adhesion, pressing weight",
+     "composed_reading_ar": "التِصاقٌ داخِليٌّ بِثِقَلٍ ضاغِط",
+     "root_count": 1,
+     "quran_anchors": "002:232",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عط",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "grip expanding outward",
+     "composed_reading_ar": "قَبضٌ يَنبَسِط",
+     "root_count": 3,
+     "quran_anchors": "092:005",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عظ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner adhesion, root-mass surfacing",
+     "composed_reading_ar": "التِصاقٌ داخِليٌّ ظاهِرٌ في ضِخامةِ الأصل",
+     "root_count": 3,
+     "quran_anchors": "002:105, 002:259",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "depth-emergence dispersing",
+     "composed_reading_ar": "ظهورٌ من عمقٍ يَتفرّق",
+     "root_count": 7,
+     "quran_anchors": "002:109, 002:178, 002:187",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عق",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "deep emergence, forceful surfacing",
+     "composed_reading_ar": "ظهورٌ عميق بقوّة ما يبرز من أعمق نقطة",
+     "root_count": 11,
+     "quran_anchors": "002:044, 002:196, 002:235",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "place-bound confinement",
+     "composed_reading_ar": "انحِباسٌ في مَحَلّ",
+     "root_count": 1,
+     "quran_anchors": "002:187",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عل",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "تعلق أو امتداد مع استقلال أو تميز",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "عم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "appearing gathering, protrusion attaching",
+     "composed_reading_ar": "ظهورٌ يَتَجَمَّع بروزٌ يَلتَصِقُ بِشيءٍ مَجموع",
+     "root_count": 29,
+     "quran_anchors": "002:025, 095:006, 002:015",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner adhesion emerging hardship",
+     "composed_reading_ar": "التِصاقٌ داخليٌّ يَبرُزُ مَشَقَّةً",
+     "root_count": 2,
+     "quran_anchors": "002:220, 002:266",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "عه",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "void emergence, empty-space protrusion",
+     "composed_reading_ar": "ظهورٌ في فراغ بروزٌ في فضاء خالٍ",
+     "root_count": 2,
+     "quran_anchors": "002:040, 101:005",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "عي",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner attachment flowing",
+     "composed_reading_ar": "التِصاقٌ داخِليٌّ يَسري",
+     "root_count": 3,
+     "quran_anchors": "002:060, 101:007",
+     "jabal_lexicon_reading_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
+    },
+    {
+     "nucleus": "غب",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غث",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غد",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غر",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner concealment flowing extended",
+     "composed_reading_ar": "باطنٌ يسترسل اختفاء ممتدّ",
+     "root_count": 3,
+     "quran_anchors": "002:115, 002:249, 002:258",
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غز",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "precise-flowing concealment",
+     "composed_reading_ar": "تَستُّرٌ يَسيلُ بدِقّة",
+     "root_count": 1,
+     "quran_anchors": "113:003",
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غش",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner covering spreading wide",
+     "composed_reading_ar": "تغطيةٌ تنتشر غطاءٌ باطنيّ يمتدّ ليشمل كلّ شيء",
+     "root_count": 2,
+     "quran_anchors": "002:007, 092:001",
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غص",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غض",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "weight compressing under pressure",
+     "composed_reading_ar": "ثِقَلٌ يَنضَغِطُ تحتَ ضَغط",
+     "root_count": 1,
+     "quran_anchors": "001:007",
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غط",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غظ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "covering opening onto the concealed",
+     "composed_reading_ar": "غِطاءٌ يَنفَتِحُ على المَستور",
+     "root_count": 17,
+     "quran_anchors": "002:284, 002:173, 002:221",
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "dense inward penetration",
+     "composed_reading_ar": "باطنٌ يتعلّق من أكبر نوى الغين (9 جذور): نفاذ باطنيّ كثيف",
+     "root_count": 2,
+     "quran_anchors": "002:088, 002:249",
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner gathering, attached covering",
+     "composed_reading_ar": "باطنٌ يتجمّع تغطيةٌ ملتصقة (وهي من النوى المذكورة في تحليل الغين)",
+     "root_count": 3,
+     "quran_anchors": "002:057, 002:210, 002:267",
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "covering sufficiency, rising beyond need",
+     "composed_reading_ar": "غِطاءٌ يَظهَرُ بِنُهوضِه عَن الحاجة (الاكتِفاءُ الذي يُغَطّي عَن سُؤالِ غَيرِه)",
+     "root_count": 7,
+     "quran_anchors": "002:263, 002:267, 092:008",
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "غو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "path-linked covering, landmark concealment",
+     "composed_reading_ar": "غِطاءٌ مَوصولٌ بِالطَّريقِ يَحجُبُ المَعالِم",
+     "root_count": 2,
+     "quran_anchors": "002:256, 100:003",
+     "jabal_lexicon_reading_ar": "تخلخل مع شيء من رخاوة وكثافة"
+    },
+    {
+     "nucleus": "فأ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "opening through selective parting",
+     "composed_reading_ar": "انفتاحٌ يَبدَأُ بِفَرزِ طائِفةٍ عَن غَيرِها",
+     "root_count": 2,
+     "quran_anchors": "002:249, 104:007",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فت",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "pressure-driven dismantling",
+     "composed_reading_ar": "تَفكيكٌ بضَغط",
+     "root_count": 8,
+     "quran_anchors": "002:102, 002:076, 002:089",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فج",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "surfacing split, inner disclosure",
+     "composed_reading_ar": "تفرّقٌ يبرز انشقاقٌ يكشف ما بداخله",
+     "root_count": 3,
+     "quran_anchors": "002:060, 002:187",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "pure release, sharp dispersal",
+     "composed_reading_ar": "انفلاتٌ خالص ما يتفرّق بحِدّة لا يُمسكه شيء",
+     "root_count": 2,
+     "quran_anchors": "002:169, 002:268",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فخ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "parted price held in exchange",
+     "composed_reading_ar": "فصلٌ يحتبس ثمنٌ يُفصل ويُحبس مقابل شيء",
+     "root_count": 4,
+     "quran_anchors": "002:085, 002:184, 002:229",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فر",
+     "sources": [
+      "jabal-nuclei-catalog.md"
+     ],
+     "letters": "ف+ر",
+     "jabal_lexicon_reading_ar": "الفصل أو التفريق بين ما هو ملتق أو ملتحم",
+     "root_count": 18
+    },
+    {
+     "nucleus": "فز",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flowing cleft",
+     "composed_reading_ar": "شَقٌّ يَنسابُ",
+     "root_count": 9,
+     "quran_anchors": "002:011, 002:026, 002:030",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فش",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فص",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "cleaving boundary-control",
+     "composed_reading_ar": "شَقٌّ يَضبُطُ الحَدَّ بَينَ طَرَفَين",
+     "root_count": 4,
+     "quran_anchors": "002:233, 002:249, 002:256",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فض",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "pressure-parting, forceful sorting",
+     "composed_reading_ar": "فصلٌ بضغط فرزٌ بقوّة يُميّز الخاصّ من العامّ",
+     "root_count": 8,
+     "quran_anchors": "002:047, 002:237, 002:251",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فط",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط باتّساع واستغلاظ"
+    },
+    {
+     "nucleus": "فع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "self-adhering opening",
+     "composed_reading_ar": "انفِتاحٌ مُلتَصقٌ بِالذَّات",
+     "root_count": 13,
+     "quran_anchors": "002:024, 002:234, 002:240",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فق",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "cutting split in structure",
+     "composed_reading_ar": "شَقٌّ قاطِعٌ في البِنية",
+     "root_count": 3,
+     "quran_anchors": "002:268, 002:271, 002:273",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "opening pressing inward",
+     "composed_reading_ar": "انفِتاحٌ يَضغَطُ على ما فيه",
+     "root_count": 3,
+     "quran_anchors": "002:219, 002:266, 098:001",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "extended parting, connected splitting",
+     "composed_reading_ar": "فصلٌ ممتدّ شقّ الشيء بامتداد متّصل",
+     "root_count": 3,
+     "quran_anchors": "002:005, 002:189, 113:001",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "فه",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "في",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "fluid opening extending",
+     "composed_reading_ar": "انفِتاحٌ سائلٌ مُمتَدّ",
+     "root_count": 3,
+     "quran_anchors": "002:198, 105:001",
+     "jabal_lexicon_reading_ar": "طرد وإبعاد ونفاذ بقوة"
+    },
+    {
+     "nucleus": "قب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "depth revealing central emergence",
+     "composed_reading_ar": "عمقٌ يظهر ما يطلع من المركز",
+     "root_count": 21,
+     "quran_anchors": "002:004, 002:142, 002:144",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قت",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "deep force, essence-cutting blow",
+     "composed_reading_ar": "قوّة عميقة تقطع ضربة من الجوهر",
+     "root_count": 15,
+     "quran_anchors": "002:072, 002:216, 002:190",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قث",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قح",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "contained force, measured energy",
+     "composed_reading_ar": "قُوّةٌ مَحبوسة طاقةٌ مَوزونة",
+     "root_count": 18,
+     "quran_anchors": "002:020, 002:087, 002:095",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قذ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قر",
+     "sources": [
+      "jabal-nuclei-catalog.md"
+     ],
+     "letters": "ق+ر",
+     "jabal_lexicon_reading_ar": "استقرار ما شأنه التسيب في قاع عميق أو حيز",
+     "root_count": 15,
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "قس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "deep force streaming, firm penetration",
+     "composed_reading_ar": "قوّة عميقة تسري بدقّة صلابة تتغلغل",
+     "root_count": 2,
+     "quran_anchors": "002:074, 002:282",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قش",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قص",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "deep precision through cutting",
+     "composed_reading_ar": "إحكامٌ عميق بقطع",
+     "root_count": 3,
+     "quran_anchors": "002:178, 002:194",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قض",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "cutting closure, sealed completion",
+     "composed_reading_ar": "قَطعٌ يُضَمُّ عليه الأمرُ إلى خاتِمَتِه",
+     "root_count": 2,
+     "quran_anchors": "002:200, 002:210",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قط",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قظ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "deep force emerging",
+     "composed_reading_ar": "قوّة عميقة تظهر",
+     "root_count": 2,
+     "quran_anchors": "002:127, 085:006",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قف",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "depth-attachment extending trace",
+     "composed_reading_ar": "عمقٌ يتعلّق نقطة عميقة ممتدّة الأثر",
+     "root_count": 13,
+     "quran_anchors": "002:007, 002:144, 002:204",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "قم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "precision cutting, appointed emergence",
+     "composed_reading_ar": "قَطعٌ يُبرِزُ الشَّيءَ في مَوضِعِه المَنصوب",
+     "root_count": 1,
+     "quran_anchors": "002:238",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قه",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "bursting force, lowering breath",
+     "composed_reading_ar": "شِدَّةٌ تَنفَجِرُ ثمّ تَنزِلُ في نَفَسٍ خافِض",
+     "root_count": 1,
+     "quran_anchors": "093:009",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "قو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "upright-linked cutting",
+     "composed_reading_ar": "قَطعٌ مَوصولٌ بِانتِصاب",
+     "root_count": 44,
+     "quran_anchors": "002:003, 002:008, 001:006",
+     "jabal_lexicon_reading_ar": "تعقد واشتداد في العمق"
+    },
+    {
+     "nucleus": "كأ",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع",
+     "jabal_lexicon_reading_ar": "—"
+    },
+    {
+     "nucleus": "كب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "held pressure bursting forth",
+     "composed_reading_ar": "إمساكٌ يُخرج ضغطٌ ينفجر ظهوراً",
+     "root_count": 7,
+     "quran_anchors": "002:034, 002:185, 002:217",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كت",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "densification extending gently",
+     "composed_reading_ar": "تَكثيفٌ يَمتَدُّ بلُطف",
+     "root_count": 41,
+     "quran_anchors": "002:044, 002:282, 002:033",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كث",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "many-part scattered densification",
+     "composed_reading_ar": "تَكثيفٌ مُتَناثِرٌ في أجزاءٍ كَثيرة",
+     "root_count": 4,
+     "quran_anchors": "002:026",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كد",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كذ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "sharp holding, harsh distortion",
+     "composed_reading_ar": "إمساكٌ حادّ ضبطٌ بقسوة يُشوّه ما يُمسكه",
+     "root_count": 7,
+     "quran_anchors": "002:010, 096:013, 085:019",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كر",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "holding-flow, repeating return",
+     "composed_reading_ar": "إمساكٌ يسترسل ما يُقبض عليه ثمّ يُعاد",
+     "root_count": 7,
+     "quran_anchors": "002:167, 002:167, 002:255",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كز",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "precise flowing hold, penetrating acquisition",
+     "composed_reading_ar": "إمساكٌ يسري بدقّة اكتسابٌ يتغلغل",
+     "root_count": 12,
+     "quran_anchors": "002:079, 002:281, 002:081",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كش",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كظ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كع",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "densifying closure, split concealment",
+     "composed_reading_ar": "تَكثيفٌ يُغلِقُ الشَّقَّ ويَستُرُه",
+     "root_count": 21,
+     "quran_anchors": "002:250, 002:258, 002:271",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "كك",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كل",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "تعلق أو امتداد مع استقلال أو تميز",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "كم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "compacted gathering, inward closure",
+     "composed_reading_ar": "اكتِنازٌ يَنغَلِق على ما فيه",
+     "root_count": 2,
+     "quran_anchors": "002:185, 002:233",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كن",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "pressing containment, inward emergence",
+     "composed_reading_ar": "ضَغطٌ يَحبِسُ البُروزَ في الداخِل",
+     "root_count": 2,
+     "quran_anchors": "002:235, 100:006",
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "كه",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "ضغط غُؤوري دقيق يؤدي إلى امتساك أو قطع"
+    },
+    {
+     "nucleus": "لء",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": ""
+    },
+    {
+     "nucleus": "لب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "surface-clinging projection",
+     "composed_reading_ar": "تعلّقٌ يظهر ما يلتصق بالسطح ويبرز",
+     "root_count": 6,
+     "quran_anchors": "002:042, 002:179, 002:187"
+    },
+    {
+     "nucleus": "لت",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "لج",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "لح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "warm frictional adhesion",
+     "composed_reading_ar": "اتّصالٌ بِحَرارةِ احتِكاك (تَلاصُقُ الأنسِجةِ المُحَرَّكة)",
+     "root_count": 2,
+     "quran_anchors": "002:259, 002:273"
+    },
+    {
+     "nucleus": "لد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "fixed attachment, unbreaking hold",
+     "composed_reading_ar": "تَمَسُّكٌ مُثَبَّتٌ لا يَنفَكّ",
+     "root_count": 17,
+     "quran_anchors": "001:004"
+    },
+    {
+     "nucleus": "لذ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "لز",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "لس",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "لط",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "لظ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "emphatic attachment, intensified clinging",
+     "composed_reading_ar": "تَعَلُّقٌ بِشِدَّةٍ مُفَخَّمَة",
+     "root_count": 1,
+     "quran_anchors": "092:014"
+    },
+    {
+     "nucleus": "لع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "depth-attachment revealing emergence-source link",
+     "composed_reading_ar": "تعلّقٌ بالعمق الذي يظهر ارتباط بمصدر البروز",
+     "root_count": 3,
+     "quran_anchors": "002:088, 002:159, 002:161"
+    },
+    {
+     "nucleus": "لغ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "sound connection veiling meaning",
+     "composed_reading_ar": "اتِّصالُ صَوتٍ بِغِطاءٍ يَحجُبُ المَعنى",
+     "root_count": 1,
+     "quran_anchors": "002:225"
+    },
+    {
+     "nucleus": "لف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "attachment turning into intertwining wrap",
+     "composed_reading_ar": "تعلّقٌ ينقلب إلى لفّ ما يلتفّ ويتشابك",
+     "root_count": 1,
+     "quran_anchors": "002:170"
+    },
+    {
+     "nucleus": "لق",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "depth-attachment, essence-binding",
+     "composed_reading_ar": "تعلّقٌ بالعمق ارتباطٌ قويّ بالجوهر",
+     "root_count": 4,
+     "quran_anchors": "002:037, 002:195, 002:223"
+    },
+    {
+     "nucleus": "لك",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ]
+    },
+    {
+     "nucleus": "لم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "attachment cohering together",
+     "composed_reading_ar": "تَعَلُّقٌ يَلتَمّ",
+     "root_count": 1,
+     "quran_anchors": "104:001"
+    },
+    {
+     "nucleus": "لن",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": ""
+    },
+    {
+     "nucleus": "له",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "flowing extension, warm inner breath",
+     "composed_reading_ar": "امتِدادٌ يَنسابُ مع نَفَسٍ حارّ يَخرُجُ من الجَوف",
+     "root_count": 3,
+     "quran_anchors": "111:001, 102:001"
+    },
+    {
+     "nucleus": "لو",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": "",
+     "composed_reading_en": "extension joining, spreading outward",
+     "composed_reading_ar": "امتدادٌ يتّصلُ ويَنبسط",
+     "root_count": 1,
+     "quran_anchors": "085:022"
+    },
+    {
+     "nucleus": "لي",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": "",
+     "composed_reading_en": "extended veiling connection",
+     "composed_reading_ar": "اتّصالٌ مُمتَدٌّ ساتِر",
+     "root_count": 8,
+     "quran_anchors": "002:164, 092:001"
+    },
+    {
+     "nucleus": "مء",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مت",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "duration-cut enjoyment",
+     "composed_reading_ar": "استِمتاعٌ مَقطوع المُدّة",
+     "root_count": 5,
+     "quran_anchors": "002:036, 002:236, 002:240",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "مث",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "accumulating resemblance",
+     "composed_reading_ar": "تَشابُهٌ مُتراكِم",
+     "root_count": 16,
+     "quran_anchors": "002:017, 002:264, 002:214",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مج",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "depth-surfacing gathering",
+     "composed_reading_ar": "تجمّعٌ يَبرزُ من العمق",
+     "root_count": 1,
+     "quran_anchors": "085:015",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "مح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "gradual rubbing enclosure",
+     "composed_reading_ar": "إحاطةٌ تَحتَكُّ بالمُحاطِ شَيئًا شَيئًا",
+     "root_count": 1,
+     "quran_anchors": "002:276",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مخ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "driving enclosure",
+     "composed_reading_ar": "إحاطةٌ دافِعة",
+     "root_count": 2,
+     "quran_anchors": "002:015, 104:009",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مر",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "repeating flowing containment",
+     "composed_reading_ar": "إحاطةٌ جارِيةٌ مُتَكَرِّرة",
+     "root_count": 23,
+     "quran_anchors": "002:010, 002:147, 002:184",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مز",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "fine-contact permeating flow",
+     "composed_reading_ar": "تلاصقٌ يسري بدقّة لمسٌ رقيق يتغلغل",
+     "root_count": 17,
+     "quran_anchors": "001:006, 002:236, 002:214",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مش",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "gathering-then-spreading, positioning-then-motion",
+     "composed_reading_ar": "تَجَمُّعٌ ثم انتِشار تَمَوقُعٌ ثُمَّ حَركة",
+     "root_count": 1,
+     "quran_anchors": "002:020",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مص",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مض",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مط",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مع",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مق",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "مك",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "مل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "gathering extending",
+     "composed_reading_ar": "تَجمُّعٌ يَمتدّ",
+     "root_count": 21,
+     "quran_anchors": "001:004, 002:031, 002:120",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "مم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري"
+    },
+    {
+     "nucleus": "من",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inward-penetrating gathering, depth-reaching giving",
+     "composed_reading_ar": "تجمّعٌ ينفذ إلى الباطن عطاءٌ يصل إلى العمق",
+     "root_count": 19,
+     "quran_anchors": "002:008, 002:078, 002:262",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "مه",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "revealing enclosure, embracing containment",
+     "composed_reading_ar": "إحاطةٌ تُظهِرُ ما تَحتَضن",
+     "root_count": 2,
+     "quran_anchors": "002:206, 086:017",
+     "jabal_lexicon_reading_ar": "امتساك واستواء ظاهري",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "نأ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "piercing emergence, inner rising",
+     "composed_reading_ar": "نفاذٌ يظهر ما يبرز من الباطن ويرتفع",
+     "root_count": 7,
+     "quran_anchors": "002:033, 002:100, 002:213",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نت",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نث",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نج",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "تجمع هش مع حدة ما"
+    },
+    {
+     "nucleus": "نح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "warm-core outward emission",
+     "composed_reading_ar": "انبعاثٌ يَخرجُ من جَوفٍ حارٍّ",
+     "root_count": 1,
+     "quran_anchors": "108:002",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نخ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "rising emergence piercing through",
+     "composed_reading_ar": "ظُهورٌ يَختَرِقُ صاعِدًا",
+     "root_count": 1,
+     "quran_anchors": "002:266",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه",
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+    },
+    {
+     "nucleus": "ند",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "contained penetration, resisted emergence",
+     "composed_reading_ar": "نَفاذٌ مَحبوس ظُهورٌ يُقاوَم",
+     "root_count": 4,
+     "quran_anchors": "002:022, 002:165, 002:171",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نذ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "sharp depth-reaching penetration",
+     "composed_reading_ar": "نفاذٌ حادّ اختراقٌ قويّ يصل إلى العمق",
+     "root_count": 4,
+     "quran_anchors": "002:006, 002:213, 002:270",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نر",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نز",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "launched penetration, driven outflow",
+     "composed_reading_ar": "نَفاذٌ مُنطَلِق خُروجٌ مَدفوع",
+     "root_count": 3,
+     "quran_anchors": "002:023, 002:176, 002:285",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نس",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "subtle flowing emergence",
+     "composed_reading_ar": "بُروزٌ يَنسابُ لَطيفاً",
+     "root_count": 15,
+     "quran_anchors": "002:222, 002:106, 002:106",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نش",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "spreading emergence",
+     "composed_reading_ar": "ظُهورٌ مُنتَشِر",
+     "root_count": 1,
+     "quran_anchors": "002:259",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نص",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "solid penetration, hardened piercing",
+     "composed_reading_ar": "نفاذٌ قويّ صلب اختراق بصلابة",
+     "root_count": 15,
+     "quran_anchors": "002:062, 002:202, 002:214",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نض",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نط",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نظ",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "penetrating disclosure through density",
+     "composed_reading_ar": "نفاذٌ يُظهر الكثيف اختراقٌ يكشف ما وراء الطبقات الغليظة",
+     "root_count": 6,
+     "quran_anchors": "002:055, 002:162, 002:210",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "emission compressing inward",
+     "composed_reading_ar": "انبعاثٌ يَنضغِطُ",
+     "root_count": 12,
+     "quran_anchors": "001:007, 002:040, 002:149",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نغ",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نف",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "ن+ف",
+     "jabal_lexicon_reading_ar": "نفاذ أو إبعاد بانتشار",
+     "root_count": 15
+    },
+    {
+     "nucleus": "نق",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "forceful penetration, decisive separation",
+     "composed_reading_ar": "نَفاذٌ بقُوّة انفِصالٌ مَحسوم",
+     "root_count": 4,
+     "quran_anchors": "002:027, 085:008, 100:004",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نك",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "compressed protrusion, dense adhesion",
+     "composed_reading_ar": "بُروزٌ مَضغوطٌ يَلتَحِمُ بِمَحَلِّه التِحامًا كَثيفًا",
+     "root_count": 5,
+     "quran_anchors": "002:230, 002:221, 002:235",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نل",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نه",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "emission penetrating by hidden breath",
+     "composed_reading_ar": "انبِعاثٌ يَنفُذُ بِنَفَسٍ خَفيّ",
+     "root_count": 7,
+     "quran_anchors": "096:009, 002:266, 002:274",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "نو",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "emergence linked to another",
+     "composed_reading_ar": "ظُهورٌ مَوصولٌ بغَيره",
+     "root_count": 52,
+     "quran_anchors": "002:013, 002:017, 002:221",
+     "jabal_lexicon_reading_ar": "امتداد لطيف في الباطن أو منه"
+    },
+    {
+     "nucleus": "ه",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هب",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "emerging void, revealed emptiness",
+     "composed_reading_ar": "فراغٌ يظهر خلاءٌ ينكشف",
+     "root_count": 1,
+     "quran_anchors": "002:038",
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هت",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هج",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner surfacing, counter-intent gathering",
+     "composed_reading_ar": "إظهارٌ مِن داخِلٍ يَجمَعُ نِيَّةً مُقابِلة",
+     "root_count": 1,
+     "quran_anchors": "002:218",
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هد",
+     "sources": [
+      "jabal-nuclei-catalog.md (loose parse)"
+     ],
+     "jabal_lexicon_reading_ar": "احتباس بضغط وامتداد طولي"
+    },
+    {
+     "nucleus": "هر",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هز",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "penetrating void, piercing disruption",
+     "composed_reading_ar": "فراغٌ ينفذ خلخلةٌ تخترق",
+     "root_count": 5,
+     "quran_anchors": "002:013, 002:014, 002:231",
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هش",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هض",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هط",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هل",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "sudden emergence peering out",
+     "composed_reading_ar": "ظُهورٌ مُفاجئٌ يَطِلّ",
+     "root_count": 3,
+     "quran_anchors": "002:189, 002:195, 002:205",
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هم",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "hidden breath, sealed containment",
+     "composed_reading_ar": "نَفَسٌ خَفيٌّ يَنحَبِسُ في إطباق",
+     "root_count": 1,
+     "quran_anchors": "104:001",
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "هن",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "فراغ أو إفراغ ما في الجوف"
+    },
+    {
+     "nucleus": "وءل",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": ""
+    },
+    {
+     "nucleus": "وح",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "pure encompassing, unshared totality",
+     "composed_reading_ar": "إحاطةٌ خالصة شمولٌ صافٍ لا شريك فيه",
+     "root_count": 5,
+     "quran_anchors": "002:061, 002:213, 099:005",
+     "jabal_lexicon_reading_ar": "اشتمال واحتواء"
+    },
+    {
+     "nucleus": "ود",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "love containment, surrounding settling",
+     "composed_reading_ar": "احتواء يحتبس حبّ يُحيط ويستقرّ",
+     "root_count": 6,
+     "quran_anchors": "002:096, 002:266, 085:014"
+    },
+    {
+     "nucleus": "وع",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "inner-clinging connection",
+     "composed_reading_ar": "وَصلٌ يَلتَصِقُ بِالباطِن",
+     "root_count": 6,
+     "quran_anchors": "002:235, 002:268, 002:231",
+     "jabal_lexicon_reading_ar": "اشتمال واحتواء"
+    },
+    {
+     "nucleus": "وف",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "joining ending in parting",
+     "composed_reading_ar": "وصلٌ يَنتهي بفصل",
+     "root_count": 5,
+     "quran_anchors": "002:177, 002:234, 002:240",
+     "jabal_lexicon_reading_ar": "اشتمال واحتواء"
+    },
+    {
+     "nucleus": "ول",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": "",
+     "composed_reading_en": "attaching containment, clinging enclosure",
+     "composed_reading_ar": "احتواءٌ يتعلّق إحاطة ملتصقة",
+     "root_count": 21,
+     "quran_anchors": "002:064, 002:083, 002:282"
+    },
+    {
+     "nucleus": "ون",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اشتمال واحتواء"
+    },
+    {
+     "nucleus": "وول",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": ""
+    },
+    {
+     "nucleus": "ويل",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "letters": "—",
+     "jabal_lexicon_reading_ar": ""
+    },
+    {
+     "nucleus": "يد",
+     "sources": [
+      "jabal-nuclei-extended.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "composed_reading_en": "contained flow, holding extension",
+     "composed_reading_ar": "جَرَيانٌ يَحتَبِس مَدٌّ يُمسِك",
+     "root_count": 7,
+     "quran_anchors": "002:079, 002:237, 002:255"
+    },
+    {
+     "nucleus": "يوم",
+     "sources": [
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "اتصال الممتد شيئاً واحداً وعدم تفرقه"
+    }
+   ]
+  },
+  "level_3_composition_modes": {
+   "description": "The eleven native composition modes (plus the LOANWORD exception label): how the binary nucleus acts on the third radical's charge. Canon: 02-architecture/lv2-operative-grammar.md. Honest status (measured 2026-07): a pre-registered blind second reading reproduces the stance at 62% and the exact mode at 38% (kappa 0.305); an example-anchored coding manual (draft: 02-architecture/mode-coding-manual-draft.md) tightens OPERATE and adds tie-break rules, with a pre-registered re-rate protocol pending the author's freeze. The count remains 11: the measured drift was an over-broad OPERATE default, not evidence for merging or splitting.",
+   "count": 12,
+   "modes": [
+    {
+     "mode": "CARRY",
+     "name_ar": "الحَمْل",
+     "stance": "POSITIVE",
+     "definition_en": "binary carries L3-material forward/out",
+     "canonical_example": "ورد: و-bind carries د-fixity → arriving",
+     "corpus_count": 146
+    },
+    {
+     "mode": "HOLD",
+     "name_ar": "الإمْساك",
+     "stance": "POSITIVE",
+     "definition_en": "binary contains/encloses L3-material",
+     "canonical_example": "بلد: بل-wet holds د-fixity → ground, settled-place",
+     "corpus_count": 373
+    },
+    {
+     "mode": "RELEASE",
+     "name_ar": "الإطْلاق",
+     "stance": "POSITIVE",
+     "definition_en": "binary lets L3-material burst out",
+     "canonical_example": "فتح: فت-loose releases ح-warmth → opening",
+     "corpus_count": 208
+    },
+    {
+     "mode": "PROJECT",
+     "name_ar": "الإبْراز",
+     "stance": "POSITIVE",
+     "definition_en": "binary extends L3 outward as feature",
+     "canonical_example": "حدد: ح-edge projects د-fixity → boundary",
+     "corpus_count": 268
+    },
+    {
+     "mode": "INTENSIFY",
+     "name_ar": "التَّضْعيف",
+     "stance": "POSITIVE",
+     "definition_en": "doubled or amplified L3",
+     "canonical_example": "جمد: ج-gather amplifies د-fixity → freezing solid",
+     "corpus_count": 267
+    },
+    {
+     "mode": "BLOCK",
+     "name_ar": "الحَجْب",
+     "stance": "NEGATIVE",
+     "definition_en": "binary stops/seals/walls off L3-material",
+     "canonical_example": "سدد: س-flow blocked → sealing, stopping",
+     "corpus_count": 132
+    },
+    {
+     "mode": "DRAIN",
+     "name_ar": "الاسْتِنزاف",
+     "stance": "NEGATIVE",
+     "definition_en": "binary gradually depletes L3-material",
+     "canonical_example": "فقد: فق-void drains د-fixity → losing",
+     "corpus_count": 130
+    },
+    {
+     "mode": "CHANNEL",
+     "name_ar": "التَّوجيه",
+     "stance": "TRANSFORM",
+     "definition_en": "binary directs/shapes the L3's path",
+     "canonical_example": "جرى: جر-pull channels ى-flow → running",
+     "corpus_count": 122
+    },
+    {
+     "mode": "OPERATE",
+     "name_ar": "الإعْمال",
+     "stance": "TRANSFORM",
+     "definition_en": "binary modifies L3 via squeeze/fold/cut",
+     "canonical_example": "حسم: حس-feel operates on م-mass → cutting decisively",
+     "corpus_count": 558
+    },
+    {
+     "mode": "MIX",
+     "name_ar": "المَزْج",
+     "stance": "TRANSFORM",
+     "definition_en": "blends the binary with L3",
+     "canonical_example": "روب: رو-going mixes ب-attach → curdled milk",
+     "corpus_count": 14
+    },
+    {
+     "mode": "REVERT",
+     "name_ar": "القَلْب",
+     "stance": "TRANSFORM",
+     "definition_en": "circles back / oscillates L3",
+     "canonical_example": "ردد: ر-flow reverts د-fixity → returning",
+     "corpus_count": 66
+    },
+    {
+     "mode": "LOANWORD",
+     "name_ar": "الدَّخيل",
+     "stance": "EXCEPTION",
+     "definition_en": "label for the rare non-native root",
+     "canonical_example": "",
+     "corpus_count": 1
+    }
+   ]
+  }
+ }
+}
