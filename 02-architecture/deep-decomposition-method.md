@@ -87,6 +87,14 @@
 - **ازدواجُ القراءةِ عندَ تعارضِ صرفِ الفرع:** إذا قطعَتِ الخطوةُ صفر (صرفُ الفرعِ) ما تُبقيه قراءةُ الإطار، دُوِّنَتِ القراءتانِ معًا؛ ويُذكَرُ أنّ صرفَ الفرعِ لاحقٌ على الانفصالِ بحسبِ الأطروحة، فقد يكونُ أعادَ تقطيعَ مادّةٍ موروثةٍ أقدمَ منه. قراءةُ المشروعِ هي قراءةُ الإطارِ حيثُ حكمَ المؤلّف، والقراءةُ الأخرى تبقى مدوَّنةً للأمانة.
 - **تنبّؤٌ جديدٌ يُسجَّل:** نسبةُ أحكامِ الجذرِ الكاملِ إلى أحكامِ النواةِ في فرعٍ ما مقياسٌ لعمقِ انفصالِه: عاليةٌ في الأخواتِ، منخفضةٌ في البعيدةِ، صفرٌ عندَ الأرضيّة.
 
+
+### التعديل 3 (2026-07-11): قاعدةُ التأليفِ الشحنيِّ النقيّ (مسودّةٌ بانتظارِ توقيعِ المؤلّف)
+بتسليمٍ من جلسةِ مشروعِ التفسير (coranisyours) وتحقُّقٍ مستقلٍّ في هذا المستودع: كثيرٌ من القراءاتِ المركّبةِ للنوى (composed_reading_ar) مُؤلَّفٌ من معنى جبل المعجميِّ أو من معنًى قاموسيٍّ حرٍّ، لا من شحناتِ المستوى الأوّلِ نفسِه (مثالٌ مُتحقَّقٌ منه: بق «ظهورٌ بقوّةٍ عميقة» بينما ب = اتصال + تمسّك، ق = قطع + إحكام). فيُقنَّن:
+- **القاعدة:** قراءةُ النواةِ الثنائيّةِ تُؤلَّفُ **حصريًّا** من الوجوهِ المسجَّلةِ لحرفَيها في المستوى الأوّل. قراءةُ جبل المعجميّةُ طبقةُ إسنادٍ تُحفَظُ في حقلِها ولا تُستعمَلُ في التأليف. المعنى القاموسيُّ للكلمةِ مرساةُ تحقُّقٍ لا مادّةُ تأليف.
+- **التنفيذ:** مسحُ كلِّ القراءاتِ المركّبةِ وتصنيفُها (نقيّة / وجهٌ ثانٍ مشروع / مُلوَّثة)، وإعادةُ تأليفِ المُلوَّثةِ من الوجوهِ مع حفظِ الصياغةِ القديمةِ في حقلِ إسنادٍ (legacy_reading_ar)، ولا يُطبَّقُ شيءٌ على البطاقاتِ المجمَّدةِ إلّا بمصادقةِ المؤلّفِ حالةً حالة.
+- **قرارٌ مرافقٌ معلَّق:** وجهُ العينِ الثاني «ظهورٌ من عمق» (مسجَّلٌ موثَّقًا في جدولِ التفسيرِ المُطابِقِ لإجماعِنا): إمّا تسجيلُه رسميًّا وجهًا ثانيًا في مستوانا الأوّل، وإمّا إعادةُ تأليفِ كلِّ نوى العينِ بالقبضِ الحلقيّ. يحسِمُه المؤلّف.
+- **مدقّقٌ دائم:** يُضافُ فحصُ نقاءٍ آليٌّ إلى دورةِ العملِ حتى لا يعودَ الانحراف.
+
 ---
 
 *English abstract.* This constitution governs the deep-decomposition reading of distant branches. Close branches are compared at full-root level with regular shifts; distant branches, per the thesis, split at the binary-nucleus stage and are compared at nucleus level. Three legs, all required: (1) a phonetic path named step-by-step from a closed, frozen network of documented human sound-shifts, with branch-wide consistency and a published path ledger; (2) the nucleus gesture taken as-is from the fixed 453 catalog; (3) the target's real dictionary meaning falling inside the nucleus's pre-registered field, where a match may stand in exactly one named orbit of the gesture-event (act, agent, patient, instrument, result, locus, quality, part-whole: the derivational orbits of Arabic itself), one step only, orbit logged, direct vs orbital verdicts distinguished. Supporting orphan-shard indicator; loanword/wanderwort screen first; prune freely. A control arm with identical freedoms is declared now and run only after the author freezes the instruments.
