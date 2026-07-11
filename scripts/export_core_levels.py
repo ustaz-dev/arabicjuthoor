@@ -62,14 +62,19 @@ for m in re.finditer(r'^\|\s*\*\*([^*|]+)\*\*[^|]*\|\s*([^|]+)\|\s*«([^»]*)»\
     if m.group(6).strip(): rec['quran_anchors'] = m.group(6).strip()
     rec['sources'].append('jabal-nuclei-extended.md')
 
-# undocumented: rows vary; take nucleus + first non-empty reading cell
+# undocumented format: | **nucleus** | letter1-desc | letter2-desc | NUCLEUS family reading | ...
 und = open('03-scholar-extracts/jabal-nuclei-undocumented.md', encoding='utf-8').read()
-for m in re.finditer(r'^\|\s*\*\*([^*|]+)\*\*[^|]*\|\s*([^|]*)\|', und, re.M):
+for m in re.finditer(r'^\|\s*\*\*([^*|]+)\*\*[^|]*\|\s*([^|]*)\|\s*([^|]*)\|\s*([^|]*)\|', und, re.M):
     k = norm(m.group(1))
     rec = nuclei.setdefault(k, {'nucleus': m.group(1).strip(), 'sources': []})
-    val = m.group(2).strip()
-    if val and val not in ('—', '-') and 'jabal_lexicon_reading_ar' not in rec:
+    c2, c3, c4 = m.group(2).strip(), m.group(3).strip(), m.group(4).strip()
+    def ok(v): return v and v not in ('—', '-') and any(ch in AR_LETTERS for ch in v)
+    # the nucleus reading is column 4; columns 2-3 are Jabal's LETTER descriptions
+    val = c4 if ok(c4) else ''
+    if val and 'jabal_lexicon_reading_ar' not in rec:
         rec['jabal_lexicon_reading_ar'] = val
+    if ok(c2): rec.setdefault('jabal_letter1_desc_ar', c2)
+    if ok(c3): rec.setdefault('jabal_letter2_desc_ar', c3)
     if 'jabal-nuclei-undocumented.md' not in rec['sources']:
         rec['sources'].append('jabal-nuclei-undocumented.md')
 
@@ -80,7 +85,10 @@ for src, body in (('jabal-nuclei-catalog.md', cat), ('jabal-nuclei-undocumented.
         k = norm(m.group(1))
         if k in nuclei: continue
         c2, c3 = m.group(2).strip(), m.group(3).strip()
-        reading = c3 if (has_ar(c3) and len(c3) > 3) else (c2 if (has_ar(c2) and len(c2) > 3) else '')
+        # for undocumented-format rows the nucleus reading sits in col 4; try it first
+        m4 = re.match(r'^\|\s*\*\*[^*|]+\*\*[^|]*\|[^|]*\|[^|]*\|\s*([^|]*)\|', m.group(0)) if src.startswith('jabal-nuclei-undocumented') else None
+        c4 = m4.group(1).strip() if m4 else ''
+        reading = c4 if (has_ar(c4) and len(c4) > 3) else (c3 if (has_ar(c3) and len(c3) > 3) else (c2 if (has_ar(c2) and len(c2) > 3) else ''))
         rec = {'nucleus': m.group(1).strip(), 'sources': [src + ' (loose parse)']}
         if reading: rec['jabal_lexicon_reading_ar'] = reading
         nuclei[k] = rec
