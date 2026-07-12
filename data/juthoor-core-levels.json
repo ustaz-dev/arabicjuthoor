@@ -2,7 +2,7 @@
  "project": "Juthoor (The Arabic Tongue) · core three levels export",
  "author": "Yassine Temessek · Temessek for Research, Publishing & Training",
  "source_repo": "github.com/ustaz-dev/arabicjuthoor",
- "exported_at_commit": "d84d085",
+ "exported_at_commit": "6f4492b",
  "license": "CC BY-NC-SA 4.0 · attribution required · research use",
  "levels": {
   "level_1_letter_charges": {
@@ -153,9 +153,10 @@
         "بر",
         "به",
         "بت",
-        "بد"
+        "بد",
+        "بط"
        ],
-       "n": 15,
+       "n": 16,
        "weak": false
       }
      ],
@@ -977,7 +978,7 @@
        "note": "في الإيماءة نصا (بروز طرف اللسان) ولا شاهد معجمي أول له بعد التنقية؛ طور موصوف لا وجه مؤلِّف"
       }
      ],
-     "manner_ar": "الغِلَظُ والشدةُ والتفخيم؛ مؤيَّدة بأربع عائلات موضع ثان (حظ، عظ، غظ، كظ) وبوصف جبل للحرف («نفاذ بغلظ أو حدة مع كثافة»)",
+     "manner_ar": "الغِلَظُ والشدةُ والتفخيم؛ مؤيَّدة بثلاث عائلات موضع ثان (عظ، غظ، كظ) وبوصف جبل للحرف («نفاذ بغلظ أو حدة مع كثافة»)؛ وسقط مؤيد حظ بعد مقابلة المطبوعة (فصله «تميز قسم كبير لشخص»)",
      "registry_status": "مجمد v1.0 (2026-07-12): صادق المؤلف على البنية وعلى وجه العين الثالث وعلى إعادتي مت ومن نصا، وفوض تفاصيل الترجيح فنفذت بقرارات معللة مدونة في 05-audits/2026-07-12-author-delegated-rulings.md؛ كل تعديل لاحق تعديل مؤرخ معلل."
     },
     {
@@ -1854,7 +1855,7 @@
      "sources": [
       "jabal-nuclei-catalog.md"
      ],
-     "jabal_lexicon_reading_ar": "الظهور والتكوين الأول",
+     "jabal_lexicon_reading_ar": "الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة",
      "jabal_letter1_desc_ar": "تجمع رخو مع تلاصق ما",
      "jabal_letter2_desc_ar": "احتباس بضغط وامتداد طولي",
      "root_count": 11,
@@ -1955,7 +1956,7 @@
       "jabal-nuclei-extended.md",
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "الثقل والضغط الداخلي",
+     "jabal_lexicon_reading_ar": "التجمع الرخو المكتنز مع الشق عنه أو قطعه",
      "jabal_letter1_desc_ar": "تجمع رخو مع تلاصق ما",
      "jabal_letter2_desc_ar": "ضغط باتّساع واستغلاظ",
      "root_count": 6,
@@ -2770,7 +2771,7 @@
       "jabal-nuclei-catalog.md",
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "النفاذ بغلظ وكثافة مع تميز",
+     "jabal_lexicon_reading_ar": "تميز قسم أو قطعة كبيرة من الشيء لشخص",
      "jabal_letter1_desc_ar": "احتكاك بعرض وجفاف في الباطن",
      "jabal_letter2_desc_ar": "نفاذ بغلظ أو حدّة مع كثافة",
      "root_count": 2
@@ -3382,7 +3383,7 @@
       "jabal-nuclei-catalog.md",
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "ضعف قدر المذءوم",
+     "jabal_lexicon_reading_ar": "دقة ما في الباطن: قلة أو ضعف أو لطف",
      "jabal_letter1_desc_ar": "نفاذ ثخين ذي رخاوة وغلظ",
      "jabal_letter2_desc_ar": "امتساك واستواء ظاهري",
      "root_count": 3
@@ -3393,7 +3394,7 @@
       "jabal-nuclei-catalog.md",
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "الامتداد الخلفي والتبعية",
+     "jabal_lexicon_reading_ar": "الامتداد من الأثناء أو فيها",
      "jabal_letter1_desc_ar": "نفاذ ثخين ذي رخاوة وغلظ",
      "jabal_letter2_desc_ar": "امتداد لطيف في الباطن أو منه",
      "root_count": 3
@@ -4914,7 +4915,7 @@
       "jabal-nuclei-catalog.md",
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "الوصول إلى نهاية الشيء بزيادة محدودة أو غشيان",
+     "jabal_lexicon_reading_ar": "زيادة ضعيفة تعرو الشيء أو تمتد منه",
      "jabal_letter1_desc_ar": "ضغط باتّساع واستغلاظ",
      "jabal_letter2_desc_ar": "طرد وإبعاد ونفاذ بقوة",
      "root_count": 7
@@ -5254,7 +5255,7 @@
       "jabal-nuclei-extended.md",
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "امتداد الشيء وما يتعلق به",
+     "jabal_lexicon_reading_ar": "الامتداد مع غلظ ما",
      "jabal_letter1_desc_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم",
      "jabal_letter2_desc_ar": "ضغط باتّساع واستغلاظ",
      "root_count": 4,
@@ -6028,7 +6029,7 @@
       "jabal-nuclei-extended.md",
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "انفصال أو فراغ من شيء بعد تمامه أو قطعه",
+     "jabal_lexicon_reading_ar": "الكسر والفصل بعنف أو قوة",
      "jabal_letter1_desc_ar": "تعقد واشتداد في العمق",
      "jabal_letter2_desc_ar": "ضغط بكثافة وغلظ",
      "root_count": 5,
@@ -6814,7 +6815,7 @@
       "jabal-nuclei-extended.md",
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "الانتشار والامتداد",
+     "jabal_lexicon_reading_ar": "النفاذ بانتشار من أثناء الشيء",
      "jabal_letter1_desc_ar": "امتساك واستواء ظاهري",
      "jabal_letter2_desc_ar": "تفشٍّ أو انتشار مع دقة",
      "root_count": 4,
