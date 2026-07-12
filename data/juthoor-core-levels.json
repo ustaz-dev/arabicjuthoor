@@ -2,7 +2,7 @@
  "project": "Juthoor (The Arabic Tongue) · core three levels export",
  "author": "Yassine Temessek · Temessek for Research, Publishing & Training",
  "source_repo": "github.com/ustaz-dev/arabicjuthoor",
- "exported_at_commit": "5c96f42",
+ "exported_at_commit": "b2118f1",
  "license": "CC BY-NC-SA 4.0 · attribution required · research use",
  "levels": {
   "level_1_letter_charges": {
@@ -1464,9 +1464,10 @@
        "witnesses": [
         "هل",
         "هج",
-        "هش"
+        "هش",
+        "هه"
        ],
-       "n": 3,
+       "n": 4,
        "weak": false
       },
       {
@@ -1579,7 +1580,7 @@
   },
   "level_2_binary_nuclei": {
    "description": "The binary (two-letter) nuclei: the meaning-seeds. jabal_lexicon_reading_ar = Dr. M. H. Jabal's lexicon-derived axial reading; composed_reading_ar/en = the project's charge-composed reading (Quran-anchored where quran_anchors is present). Hollow-root rule (constitutional amendment 1, 2026-07-06): hollow roots are binary in origin, the weak middle glide is a vowel-stretcher, so mawt -> m-t, mawj -> m-j, mal -> m-l, ma' -> m-h; there is no m-w nucleus. field_card marks nuclei with a frozen pre-registered semantic-field card.",
-   "count": 453,
+   "count": 454,
    "nuclei": [
     {
      "nucleus": "ءب",
@@ -7465,6 +7466,17 @@
      "root_count": 7
     },
     {
+     "nucleus": "هه",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-undocumented.md"
+     ],
+     "jabal_lexicon_reading_ar": "الفراغ وما يتولد عنه من امتداد أو ضعف أو استعداد",
+     "jabal_letter1_desc_ar": "فراغ أو إفراغ ما في الجوف",
+     "jabal_letter2_desc_ar": "",
+     "root_count": 11
+    },
+    {
      "nucleus": "وءل",
      "sources": [
       "jabal-nuclei-catalog.md",
@@ -7606,12 +7618,7 @@
      "root_count": 1
     }
    ],
-   "excluded_rows": [
-    {
-     "row": "ه",
-     "reason": "not a 2-3 letter nucleus (mangled label or swallowed section header)"
-    }
-   ]
+   "excluded_rows": []
   },
   "level_3_composition_modes": {
    "description": "The eleven native composition modes (plus the LOANWORD exception label): how the binary nucleus acts on the third radical's charge. Canon: 02-architecture/lv2-operative-grammar.md. Honest status (measured 2026-07): a pre-registered blind second reading reproduces the stance at 62% and the exact mode at 38% (kappa 0.305); an example-anchored coding manual (draft: 02-architecture/mode-coding-manual-draft.md) tightens OPERATE and adds tie-break rules, with a pre-registered re-rate protocol pending the author's freeze. The count remains 11: the measured drift was an over-broad OPERATE default, not evidence for merging or splitting.",
