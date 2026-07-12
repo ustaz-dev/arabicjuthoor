@@ -41,14 +41,33 @@ for r in letters:
 nuclei = {}
 def norm(n): return n.replace(' ', '').replace('-', '').strip()
 
-# catalog: | **نواة** | letters | jabal lexicon reading | count |
+# catalog rows come in TWO formats, discriminated by cell 4:
+#   classic:    | **nucleus** | letters | family reading | count |          (cell4 numeric)
+#   six-column: | **nucleus** | letter1-desc | letter2-desc | family reading | count |
+# taking cell3 blindly used to leak LETTER descriptions into nucleus readings
 cat = open('03-scholar-extracts/jabal-nuclei-catalog.md', encoding='utf-8').read()
-for m in re.finditer(r'^\|\s*\*\*([^*|]+)\*\*[^|]*\|\s*([^|]*)\|\s*([^|]*)\|\s*(\d*)\s*\|', cat, re.M):
+def _ar(s): return any(ch in AR_LETTERS for ch in s)
+for m in re.finditer(r'^\|\s*\*\*([^*|]+)\*\*[^|]*\|\s*([^|]*)\|\s*([^|]*)\|\s*([^|]*)\|(?:\s*([^|]*)\|)?', cat, re.M):
     k = norm(m.group(1))
     rec = nuclei.setdefault(k, {'nucleus': m.group(1).strip(), 'sources': []})
-    rec['letters'] = m.group(2).strip()
-    rec['jabal_lexicon_reading_ar'] = m.group(3).strip()
-    if m.group(4): rec['root_count'] = int(m.group(4))
+    c2, c3, c4 = m.group(2).strip(), m.group(3).strip(), (m.group(4) or '').strip()
+    c5 = (m.group(5) or '').strip()
+    if re.fullmatch(r'\d+', c4):
+        # classic format
+        rec['letters'] = c2
+        if _ar(c3): rec['jabal_lexicon_reading_ar'] = c3.rstrip('\\ ').strip()
+        rec['root_count'] = int(c4)
+    elif _ar(c4):
+        # six-column format: the nucleus reading is cell 4
+        rec['jabal_lexicon_reading_ar'] = c4.rstrip('\\ ').strip()
+        rec.setdefault('jabal_letter1_desc_ar', c2)
+        rec.setdefault('jabal_letter2_desc_ar', c3)
+        if re.fullmatch(r'\d+', c5): rec['root_count'] = int(c5)
+    else:
+        # six-column with NO family reading recorded (letter descs + roots only)
+        rec.setdefault('jabal_letter1_desc_ar', c2)
+        rec.setdefault('jabal_letter2_desc_ar', c3)
+        if re.fullmatch(r'\d+', c5): rec['root_count'] = int(c5)
     rec['sources'].append('jabal-nuclei-catalog.md')
 
 # extended: | **نواة** | EN reading | «AR reading» | roots | anchors_n | anchor verses |
@@ -71,8 +90,8 @@ for m in re.finditer(r'^\|\s*\*\*([^*|]+)\*\*[^|]*\|\s*([^|]*)\|\s*([^|]*)\|\s*(
     def ok(v): return v and v not in ('—', '-') and any(ch in AR_LETTERS for ch in v)
     # the nucleus reading is column 4; columns 2-3 are Jabal's LETTER descriptions
     val = c4 if ok(c4) else ''
-    if val and 'jabal_lexicon_reading_ar' not in rec:
-        rec['jabal_lexicon_reading_ar'] = val
+    if val and not rec.get('jabal_lexicon_reading_ar'):
+        rec['jabal_lexicon_reading_ar'] = val.rstrip('\\ ').strip()
     if ok(c2): rec.setdefault('jabal_letter1_desc_ar', c2)
     if ok(c3): rec.setdefault('jabal_letter2_desc_ar', c3)
     if 'jabal-nuclei-undocumented.md' not in rec['sources']:
@@ -135,6 +154,15 @@ for line in open('computational/data/layer_2_results_v2.jsonl', encoding='utf-8'
 for r in modes: r['corpus_count'] = cnt.get(r['mode'], 0)
 modes.append({'mode': 'LOANWORD', 'name_ar': 'الدَّخيل', 'stance': 'EXCEPTION',
               'definition_en': 'label for the rare non-native root', 'canonical_example': '', 'corpus_count': cnt.get('LOANWORD', 0)})
+
+# legacy readings: recomposed nuclei keep their old wording as provenance
+try:
+    LEGACY = json.load(open('data/legacy-readings-2026-07-12.json', encoding='utf-8'))
+except FileNotFoundError:
+    LEGACY = {}
+for k, rec in nuclei.items():
+    if k in LEGACY:
+        rec['legacy_reading_ar'] = LEGACY[k]
 
 # ---------------- level 1 enrichment: the canonical face registry ----------------
 # amendment 3 (2026-07-12): a letter's charge is a full-phased articulation event;

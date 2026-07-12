@@ -42,19 +42,19 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **ظل** | clinging thickness, dense adhesion | «ثخانةٌ تتعلّق طبقةٌ كثيفة تلتصق» | 24 | 14 | 002:017, 002:270, 002:057 |
 | **عر** | depth emergence after stripping | «ظهورٌ من العمق يسترسل أكبر نواة في حرف العين (12 جذراً): معناها «الظهور بعد التجرّد» ما ينكشف بعد نزع الأغلفة» | 23 | 18 | 002:089, 002:229, 002:031 |
 | **مر** | repeating flowing containment | «إحاطةٌ جارِيةٌ مُتَكَرِّرة» | 23 | 4 | 002:010, 002:147, 002:184 |
-| **حي** | living motion extending | «حَرَكةٌ حَيّةٌ تَمتَدّ» | 22 | 11 | 002:035, 002:026, 002:259 |
+| **حي** | living motion extending | «نفاذٌ خالصٌ يمتدُّ ويسري» | 22 | 11 | 002:035, 002:026, 002:259 |
 | **حس** | precise purity flowing, fine clarity spreading | «خلوصٌ يسري بدقّة صفاءٌ رقيق ينتشر» | 21 | 18 | 002:058, 002:109, 002:212 |
 | **قب** | depth revealing central emergence | «عمقٌ يظهر ما يطلع من المركز» | 21 | 7 | 002:004, 002:142, 002:144 |
 | **كف** | densifying closure, split concealment | «تَكثيفٌ يُغلِقُ الشَّقَّ ويَستُرُه» | 21 | 16 | 002:250, 002:258, 002:271 |
 | **مل** | gathering extending | «تَجمُّعٌ يَمتدّ» | 21 | 11 | 001:004, 002:031, 002:120 |
 | **ول** | attaching containment, clinging enclosure | «احتواءٌ يتعلّق إحاطة ملتصقة» | 21 | 10 | 002:064, 002:083, 002:282 |
 | **عد** | contained emergence from depth | «ظهورٌ محتبس ما يُخفيه العمق ويحتبسه» | 20 | 13 | 002:036, 002:048, 002:190 |
-| **عذ** | depth-emergence, painful piercing | «ظهورٌ من العمق ينفذ بحدّة ما يخرج من الجوهر ويخترق بألم» | 20 | 4 | 002:007, 002:201, 002:284 |
+| **عذ** | depth-emergence, painful piercing | «ظهورٌ من العمقِ ينفذُ بحدّة» | 20 | 4 | 002:007, 002:201, 002:284 |
 | **حر** | rigorous flow, sharp extension | «صرامةٌ تسترسل ما يخلص ويمتدّ بحِدّة» | 19 | 12 | 002:144, 002:071, 002:191 |
 | **خر** | piercing flow repeating | «اختِراقٌ يَجري مُتَكَرِّراً» | 19 | 8 | 002:022, 002:240, 002:036 |
-| **رأ** | returning flow, originating judgment | «جَريانٌ يَرجِعُ إلى أصلِ المَنظورِ ويَبتَدِئُ مِنه الحُكم» | 19 | 6 | 002:243, 099:006, 002:260 |
-| **طل** | gentle descent, grounding adhesion | «إطباقٌ مُتَّصِلٌ خَفيف (نُزولٌ هادِئٌ يَلتَصِقُ بِالأرض)» | 19 | 5 | 002:227, 002:227, 002:236 |
-| **من** | inward-penetrating gathering, depth-reaching giving | «تجمّعٌ ينفذ إلى الباطن عطاءٌ يصل إلى العمق» | 19 | 6 | 002:008, 002:078, 002:262 |
+| **رأ** | returning flow, originating judgment | «جريانٌ ينبثقُ حادًّا من تهيُّؤٍ محتبِس» | 19 | 6 | 002:243, 099:006, 002:260 |
+| **طل** | gentle descent, grounding adhesion | «إطباقٌ يتغشّى مُلتصقًا بمحلِّه» | 19 | 5 | 002:227, 002:227, 002:236 |
+| **من** | inward-penetrating gathering, depth-reaching giving | «تجمُّعٌ مُمسَكٌ في الباطنِ يَنبعِثُ نافذًا» | 19 | 6 | 002:008, 002:078, 002:262 |
 | **أن** | emerging onset, placed timing | «ابتِداءٌ يَبرُزُ في مَوضِعٍ أو وَقت» | 18 | 6 | 002:030, 095:004, 096:002 |
 | **سب** | emerging flow, penetrating outflow | «سريانٌ يظهر ويخرج تدفّقٌ ينفذ ويبرز» | 18 | 13 | 002:108, 002:190, 002:032 |
 | **قد** | contained force, measured energy | «قُوّةٌ مَحبوسة طاقةٌ مَوزونة» | 18 | 12 | 002:020, 002:087, 002:095 |
@@ -64,18 +64,18 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **مس** | fine-contact permeating flow | «تلاصقٌ يسري بدقّة لمسٌ رقيق يتغلغل» | 17 | 8 | 001:006, 002:236, 002:214 |
 | **بع** | root-attached emergence, part-whole | «ظُهورٌ مُتَّصِلٌ بأصل جُزءٌ مِن كُلّ» | 16 | 9 | 002:026, 002:251, 002:056 |
 | **ذك** | sharp piercing grasp | «نفاذٌ حادّ يُمسك اختراقٌ يقبض على الشيء» | 16 | 9 | 002:040, 002:198, 002:152 |
-| **مث** | accumulating resemblance | «تَشابُهٌ مُتراكِم» | 16 | 6 | 002:017, 002:264, 002:214 |
+| **مث** | accumulating resemblance | «تلاصُقٌ يتجمَّعُ بكثافةٍ دقيقة» | 16 | 6 | 002:017, 002:264, 002:214 |
 | **قت** | deep force, essence-cutting blow | «قوّة عميقة تقطع ضربة من الجوهر» | 15 | 8 | 002:072, 002:216, 002:190 |
 | **نس** | subtle flowing emergence | «بُروزٌ يَنسابُ لَطيفاً» | 15 | 10 | 002:222, 002:106, 002:106 |
 | **نص** | solid penetration, hardened piercing | «نفاذٌ قويّ صلب اختراق بصلابة» | 15 | 11 | 002:062, 002:202, 002:214 |
-| **شه** | manifest spreading | «انتِشارٌ ظاهرٌ» | 14 | 7 | 002:185, 002:023, 002:282 |
+| **شه** | manifest spreading | «انتِشارٌ يَخفُتُ في فَراغ» | 14 | 7 | 002:185, 002:023, 002:282 |
 | **جع** | inner-clinging gathering | «اجتِماعٌ يَلتَصِقُ بالباطِن» | 13 | 3 | 002:019, 002:259, 002:224 |
 | **حب** | inner purity emerging | «صفاءٌ يظهر ويخرج ما يخلص في الباطن ثمّ يبرز» | 13 | 11 | 002:165, 002:190, 002:177 |
 | **حك** | condensed friction | «احتِكاكٌ مُكَثَّف» | 13 | 11 | 002:209, 002:228, 002:032 |
 | **فع** | self-adhering opening | «انفِتاحٌ مُلتَصقٌ بِالذَّات» | 13 | 6 | 002:024, 002:234, 002:240 |
 | **قل** | depth-attachment extending trace | «عمقٌ يتعلّق نقطة عميقة ممتدّة الأثر» | 13 | 8 | 002:007, 002:144, 002:204 |
 | **حل** | clear attachment, freeing extension | «صفاءٌ يتعلّق ويمتدّ ما يُفتح ويُحرَّر من القيد» | 12 | 9 | 002:168, 002:187, 002:196 |
-| **دن** | confined emergence, approaching friction | «احتِباسٌ يَخرُجُ مُتَقارِباً احتِكاكٌ يَقرُب» | 12 | 5 | 002:061, 002:200, 002:212 |
+| **دن** | confined emergence, approaching friction | «احتباسٌ ثابتٌ ينبعثُ لطيفًا من الباطن» | 12 | 5 | 002:061, 002:200, 002:212 |
 | **رج** | gathering extension, self-returning motion | «امتِدادٌ يَتَجَمَّعُ حَرَكةٌ تَعودُ على نَفسِها» | 12 | 12 | 002:018, 002:046, 002:059 |
 | **رض** | heart-drawing flow, settled place | «جَريانٌ يَضُمُّ القَلبَ إلى مَوضِعٍ يَسكُنُ إليه» | 12 | 9 | 002:207, 002:120, 002:207 |
 | **كس** | precise flowing hold, penetrating acquisition | «إمساكٌ يسري بدقّة اكتسابٌ يتغلغل» | 12 | 10 | 002:079, 002:281, 002:081 |
@@ -110,11 +110,11 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **ضل** | pressure extending | «ضَغطٌ يَمتدّ» | 7 | 6 | 001:007, 002:016, 002:026 |
 | **عس** | solidity resisting flow | «صَلابةٌ تَقِفُ في وَجه السَّيَلان» | 7 | 4 | 002:185, 002:216, 002:246 |
 | **عف** | depth-emergence dispersing | «ظهورٌ من عمقٍ يَتفرّق» | 7 | 7 | 002:109, 002:178, 002:187 |
-| **غن** | covering sufficiency, rising beyond need | «غِطاءٌ يَظهَرُ بِنُهوضِه عَن الحاجة (الاكتِفاءُ الذي يُغَطّي عَن سُؤالِ غَيرِه)» | 7 | 4 | 002:263, 002:267, 092:008 |
+| **غن** | covering sufficiency, rising beyond need | «سترٌ يحتوي في الجوفِ ويَنبعثُ منه لطيفًا» | 7 | 4 | 002:263, 002:267, 092:008 |
 | **كب** | held pressure bursting forth | «إمساكٌ يُخرج ضغطٌ ينفجر ظهوراً» | 7 | 5 | 002:034, 002:185, 002:217 |
 | **كذ** | sharp holding, harsh distortion | «إمساكٌ حادّ ضبطٌ بقسوة يُشوّه ما يُمسكه» | 7 | 5 | 002:010, 096:013, 085:019 |
 | **كر** | holding-flow, repeating return | «إمساكٌ يسترسل ما يُقبض عليه ثمّ يُعاد» | 7 | 5 | 002:167, 002:167, 002:255 |
-| **نب** | piercing emergence, inner rising | «نفاذٌ يظهر ما يبرز من الباطن ويرتفع» | 7 | 6 | 002:033, 002:100, 002:213 |
+| **نب** | piercing emergence, inner rising | «نفاذٌ يظهر ما يبرز من الباطن» | 7 | 6 | 002:033, 002:100, 002:213 |
 | **نه** | emission penetrating by hidden breath | «انبِعاثٌ يَنفُذُ بِنَفَسٍ خَفيّ» | 7 | 6 | 096:009, 002:266, 002:274 |
 | **يد** | contained flow, holding extension | «جَرَيانٌ يَحتَبِس مَدٌّ يُمسِك» | 7 | 3 | 002:079, 002:237, 002:255 |
 | **بق** | deep-force emergence, violent protrusion | «ظهورٌ بقوّة عميقة بروزٌ عنيف من العمق» | 6 | 3 | 002:067, 002:248, 002:278 |
@@ -123,14 +123,14 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **تم** | gathering pressure, condensing focus | «ضغطٌ يتجمّع نقطةُ تركيزٍ تتكاثف» | 6 | 3 | 002:095, 002:187, 002:233 |
 | **ثق** | force-cut scattering | «تَناثُرٌ مَقطوعٌ بقُوّة» | 6 | 4 | 099:002, 002:191, 086:003 |
 | **جز** | compacted gathering, condensed harvest | «تجمّع مكتنز حصادٌ متكثّف» | 6 | 5 | 002:085, 002:191, 002:260 |
-| **حد** | living point-settling | «حَياةٌ تَنضَبِطُ في نُقطَة» | 6 | 5 | 093:011, 002:187, 002:229 |
+| **حد** | living point-settling | «تَضييقٌ يَثبُتُ بضَغط» | 6 | 5 | 093:011, 002:187, 002:229 |
 | **حز** | penetrating distillation, sharp condensing | «خلوصٌ نافذ مكتنز تجريدٌ حادّ يتكثّف» | 6 | 3 | 002:038, 002:274, 002:262 |
 | **خب** | inward-piercing attachment, hidden knowing | «اختِراقٌ يَلتَصِقُ بِباطِنِ الشَّيءِ فَيَعلَمُ خَفاياه» | 6 | 4 | 002:234, 002:271, 002:267 |
 | **سك** | holding extension, restrained flow | «امتدادٌ يُمسك سريانٌ يُضبط ويُحبس» | 6 | 4 | 002:035, 002:061, 002:215 |
 | **طع** | pressing encompassment, depth-filled enclosure | «اشتمالٌ ضاغط يظهر من العمق ما يُحيط بالباطن ويمتلئ به» | 6 | 3 | 002:061, 002:249, 106:004 |
 | **لب** | surface-clinging projection | «تعلّقٌ يظهر ما يلتصق بالسطح ويبرز» | 6 | 6 | 002:042, 002:179, 002:187 |
 | **نظ** | penetrating disclosure through density | «نفاذٌ يُظهر الكثيف اختراقٌ يكشف ما وراء الطبقات الغليظة» | 6 | 6 | 002:055, 002:162, 002:210 |
-| **ود** | love containment, surrounding settling | «احتواء يحتبس حبّ يُحيط ويستقرّ» | 6 | 4 | 002:096, 002:266, 085:014 |
+| **ود** | love containment, surrounding settling | «احتواءٌ مُحيطٌ يحتبسُ ويستقرّ» | 6 | 4 | 002:096, 002:266, 085:014 |
 | **وع** | inner-clinging connection | «وَصلٌ يَلتَصِقُ بِالباطِن» | 6 | 4 | 002:235, 002:268, 002:231 |
 | **بش** | spreading emergence, coursing outflow | «ظُهورٌ يَنتَشِر خُروجٌ يَسري» | 5 | 5 | 002:025, 002:119, 002:187 |
 | **بص** | inner adhesion, hard form-sealing | «التِصاقٌ مِن باطِنٍ يَضبُطُ الصُّورةَ بِصَلابة» | 5 | 3 | 002:096, 002:237, 002:265 |
@@ -138,19 +138,19 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **خس** | flowing penetration, creeping diminishment | «اختِراقٌ مُنساب نُقصانٌ يَسري» | 5 | 3 | 002:027, 002:064, 002:065 |
 | **دخ** | void retention, hollow ingress | «احتباسٌ في فراغ ولوجٌ إلى تجويف» | 5 | 4 | 002:058, 002:208, 002:214 |
 | **رز** | compacted flow, energy-pressured | «جريانٌ مكتنز ما يتدفّق وهو مضغوط بالطاقة» | 5 | 4 | 002:057, 002:212, 002:233 |
-| **زك** | compacted penetration, inner pressure-growth | «نفاذٌ مكتنز يتجمّع بضغط ما ينمو من الداخل بقوّةٍ مكثّفة» | 5 | 5 | 002:151, 002:174, 002:232 |
+| **زك** | compacted penetration, inner pressure-growth | «اكتِنازٌ مُتَضاغِطٌ في كَتمٍ مُمسِك» | 5 | 5 | 002:151, 002:174, 002:232 |
 | **صف** | strength dispersing | «قوّةٌ تَتفرّق» | 5 | 5 | 002:109, 002:130, 002:158 |
 | **ضع** | inner-clinging compression | «ضَمٌّ مُلتَصِقٌ بِالداخِل» | 5 | 4 | 002:265, 002:245, 002:261 |
 | **عج** | coalescing emergence, compact protrusion | «ظهورٌ يتكتّل بروزٌ مكتنز» | 5 | 5 | 002:092, 002:093, 002:203 |
-| **مت** | duration-cut enjoyment | «استِمتاعٌ مَقطوع المُدّة» | 5 | 4 | 002:036, 002:236, 002:240 |
-| **نك** | compressed protrusion, dense adhesion | «بُروزٌ مَضغوطٌ يَلتَحِمُ بِمَحَلِّه التِحامًا كَثيفًا» | 5 | 4 | 002:230, 002:221, 002:235 |
+| **مت** | duration-cut enjoyment | «امتدادٌ يُقطَعُ عندَ تمامِه» | 5 | 4 | 002:036, 002:236, 002:240 |
+| **نك** | compressed protrusion, dense adhesion | «بُروزٌ مَضغوطٌ يَلتَحِمُ بِمَحَلِّه» | 5 | 4 | 002:230, 002:221, 002:235 |
 | **هز** | penetrating void, piercing disruption | «فراغٌ ينفذ خلخلةٌ تخترق» | 5 | 5 | 002:013, 002:014, 002:231 |
-| **وح** | pure encompassing, unshared totality | «إحاطةٌ خالصة شمولٌ صافٍ لا شريك فيه» | 5 | 3 | 002:061, 002:213, 099:005 |
+| **وح** | pure encompassing, unshared totality | «إحاطةٌ خالصةٌ شمولٌ صافٍ» | 5 | 3 | 002:061, 002:213, 099:005 |
 | **وف** | joining ending in parting | «وصلٌ يَنتهي بفصل» | 5 | 5 | 002:177, 002:234, 002:240 |
 | **تب** | precedent-attached extension | «امتِدادٌ مُلتَصقٌ بِمَن سَبَق» | 4 | 4 | 002:208, 002:262, 002:263 |
 | **جر** | gathering-flow repeating | «اجتِماعٌ يَجري مُتَكَرِّرًا (سَيَلانُ الماءِ في مَجرى مُحَدَّد)» | 4 | 2 | 002:025, 098:008 |
 | **حض** | dense purity, pure centering | «خلوص كثيف تمركزٌ نقيّ» | 4 | 4 | 002:133, 002:180, 002:282 |
-| **حط** | hot breath spreading-then-cutting | «نَفَسٌ حارٌّ يَنبَسِطُ ثمّ يَقطَع» | 4 | 3 | 104:004, 002:058, 111:004 |
+| **حط** | hot breath spreading-then-cutting | «احتواءٌ حارٌّ يَنبسِطُ انبساطًا ثقيلًا» | 4 | 3 | 104:004, 002:058, 111:004 |
 | **حف** | opening friction, surrounding enclosure | «احتِكاكٌ يَنفَتِحُ حَولَ الشَّيءِ فَيُحيطُ بِه» | 4 | 4 | 002:238, 002:255, 085:022 |
 | **خش** | branching penetration, inward spreading | «اختراقٌ يتفرّع نُفوذٌ ينتشر في الداخل كالشجرة المقلوبة» | 4 | 3 | 002:074, 002:045, 098:008 |
 | **خف** | rarefying breakup, spreading apart | «تفكّكٌ يتفرّق نقصُ الكثافة وانتشارُه» | 4 | 3 | 002:162, 002:271, 002:284 |
@@ -159,33 +159,33 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **شع** | depth-radiance branching outward | «انتشارٌ يَظهرُ من العمق: شعاعٌ يَتفرَّعُ من مَركز» | 4 | 3 | 002:009, 002:158, 002:198 |
 | **شك** | held scattering, regathered dispersal | «انتشارٌ يُمسك تفرّقٌ يُعاد جمعه» | 4 | 4 | 002:056, 002:152, 002:185 |
 | **صر** | flowing grip | «قَبضٌ يَجري» | 4 | 3 | 001:006, 002:142, 002:213 |
-| **فد** | parted price held in exchange | «فصلٌ يحتبس ثمنٌ يُفصل ويُحبس مقابل شيء» | 4 | 3 | 002:085, 002:184, 002:229 |
+| **فد** | parted price held in exchange | «فصلٌ يَحتبِسُ بثبات» | 4 | 3 | 002:085, 002:184, 002:229 |
 | **فص** | cleaving boundary-control | «شَقٌّ يَضبُطُ الحَدَّ بَينَ طَرَفَين» | 4 | 4 | 002:233, 002:249, 002:256 |
 | **كث** | many-part scattered densification | «تَكثيفٌ مُتَناثِرٌ في أجزاءٍ كَثيرة» | 4 | 1 | 002:026 |
 | **لق** | depth-attachment, essence-binding | «تعلّقٌ بالعمق ارتباطٌ قويّ بالجوهر» | 4 | 4 | 002:037, 002:195, 002:223 |
 | **ند** | contained penetration, resisted emergence | «نَفاذٌ مَحبوس ظُهورٌ يُقاوَم» | 4 | 4 | 002:022, 002:165, 002:171 |
-| **نذ** | sharp depth-reaching penetration | «نفاذٌ حادّ اختراقٌ قويّ يصل إلى العمق» | 4 | 4 | 002:006, 002:213, 002:270 |
+| **نذ** | sharp depth-reaching penetration | «نفاذٌ حادّ اختراقٌ قويّ» | 4 | 4 | 002:006, 002:213, 002:270 |
 | **نق** | forceful penetration, decisive separation | «نَفاذٌ بقُوّة انفِصالٌ مَحسوم» | 4 | 3 | 002:027, 085:008, 100:004 |
-| **بط** | spreading fall, no lifting | «سُقوطٌ مُنبَسِط بلا رَفع» | 3 | 3 | 002:188, 002:264, 085:012 |
+| **بط** | spreading fall, no lifting | «ضَغطٌ يَنبَسِطُ بثِقَلٍ بلا رَفع» | 3 | 3 | 002:188, 002:264, 085:012 |
 | **بن** | penetrating emergence, rooted establishing | «ظُهورٌ يَنفُذ إقامةٌ تُرسَّخ» | 3 | 1 | 002:022 |
 | **تل** | attaching segmentation, piecewise tracing | «قطعٌ يتعلّق تتبّعُ شيء قطعةً قطعة» | 3 | 3 | 002:113, 002:252, 098:002 |
 | **جه** | hollow gathering, inner revealing | «اجتِماعُ الجَوفِ المُظهِرِ لباطِنِه» | 3 | 2 | 002:067, 002:055 |
-| **حذ** | friction drawing self from harm | «احتِكاكٌ يَجذِبُ النَّفسَ بَعيدًا عَمّا يَضُرّ» | 3 | 2 | 002:019, 002:243 |
+| **حذ** | friction drawing self from harm | «احتِكاكٌ يَنفُذُ بحِدّة» | 3 | 2 | 002:019, 002:243 |
 | **حص** | thick encompassing | «إحاطةٌ غَليظة» | 3 | 3 | 002:196, 002:273, 100:010 |
 | **ذر** | repeating pull, flowing detachment | «جَذبٌ جارٍ مُتَكَرِّر (انفِصالُ الصَّغيرِ عَن الأصلِ بِجَذبٍ مُتَكَرِّر)» | 3 | 2 | 002:266, 099:008 |
 | **زل** | sharp penetration, clinging hold | «نفاذٌ يتعلّق اختراقٌ حادّ يمسك بصاحبه» | 3 | 3 | 002:036, 002:209, 099:001 |
 | **سع** | purpose-clinging flow | «انسِيابٌ مُلتَصِقٌ بمَقصَدِه» | 3 | 2 | 002:205, 002:260 |
 | **شت** | discontinuous spreading | «انتِشارٌ مُنقَطِع» | 3 | 2 | 092:004, 106:002 |
-| **شف** | spreading opening, additive attachment | «انتِشارٌ يَفتَحُ مَوضِعًا لِزائِدٍ يُضَمُّ إلى الأصل» | 3 | 2 | 002:254, 002:123 |
+| **شف** | spreading opening, additive attachment | «انتِشارٌ يَنفَتِحُ عن شَقٍّ ضَيِّق» | 3 | 2 | 002:254, 002:123 |
 | **صم** | sealed compression, solid mass | «انضغاطٌ مُتَلاصق جِسمٌ صُلبٌ لا مَنفذَ فيه» | 3 | 3 | 002:018, 002:171, 112:002 |
-| **صي** | pressure extending into transformation | «ضَغطٌ يَمتَدُّ إلى تَحَوُّل» | 3 | 2 | 002:126, 106:002 |
-| **ظن** | dense surfacing, deep settling | «ظهورٌ كثيف ينفذ إلى الباطن فكرة ثقيلة تستقرّ في العمق» | 3 | 3 | 002:046, 002:230, 002:249 |
+| **صي** | pressure extending into transformation | «ضَغطٌ يَمتَدُّ سارِيًا» | 3 | 2 | 002:126, 106:002 |
+| **ظن** | dense surfacing, deep settling | «إطباقٌ غليظٌ يستقرُّ في الباطن» | 3 | 3 | 002:046, 002:230, 002:249 |
 | **عص** | solid pressing adhesion | «التِصاقٌ صَلبٌ ضاغِط» | 3 | 2 | 002:266, 105:005 |
 | **عط** | grip expanding outward | «قَبضٌ يَنبَسِط» | 3 | 1 | 092:005 |
 | **عظ** | inner adhesion, root-mass surfacing | «التِصاقٌ داخِليٌّ ظاهِرٌ في ضِخامةِ الأصل» | 3 | 2 | 002:105, 002:259 |
 | **عي** | inner attachment flowing | «التِصاقٌ داخِليٌّ يَسري» | 3 | 2 | 002:060, 101:007 |
 | **غر** | inner concealment flowing extended | «باطنٌ يسترسل اختفاء ممتدّ» | 3 | 3 | 002:115, 002:249, 002:258 |
-| **غم** | inner gathering, attached covering | «باطنٌ يتجمّع تغطيةٌ ملتصقة (وهي من النوى المذكورة في تحليل الغين)» | 3 | 3 | 002:057, 002:210, 002:267 |
+| **غم** | inner gathering, attached covering | «باطنٌ يتجمّعُ تغطيةً ملتصقة» | 3 | 3 | 002:057, 002:210, 002:267 |
 | **فج** | surfacing split, inner disclosure | «تفرّقٌ يبرز انشقاقٌ يكشف ما بداخله» | 3 | 2 | 002:060, 002:187 |
 | **فق** | cutting split in structure | «شَقٌّ قاطِعٌ في البِنية» | 3 | 3 | 002:268, 002:271, 002:273 |
 | **فك** | opening pressing inward | «انفِتاحٌ يَضغَطُ على ما فيه» | 3 | 3 | 002:219, 002:266, 098:001 |
@@ -195,8 +195,8 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **لع** | depth-attachment revealing emergence-source link | «تعلّقٌ بالعمق الذي يظهر ارتباط بمصدر البروز» | 3 | 3 | 002:088, 002:159, 002:161 |
 | **له** | flowing extension, warm inner breath | «امتِدادٌ يَنسابُ مع نَفَسٍ حارّ يَخرُجُ من الجَوف» | 3 | 2 | 111:001, 102:001 |
 | **نز** | launched penetration, driven outflow | «نَفاذٌ مُنطَلِق خُروجٌ مَدفوع» | 3 | 3 | 002:023, 002:176, 002:285 |
-| **هل** | sudden emergence peering out | «ظُهورٌ مُفاجئٌ يَطِلّ» | 3 | 3 | 002:189, 002:195, 002:205 |
-| **بخ** | hidden-pierced inner adhesion | «التِصاقٌ بباطِنٍ مَخروقٍ خَفيًّا» | 2 | 2 | 002:282, 092:008 |
+| **هل** | sudden emergence peering out | «فراغٌ يَنفتِحُ عن تميُّز» | 3 | 3 | 002:189, 002:195, 002:205 |
+| **بخ** | hidden-pierced inner adhesion | «التِصاقٌ بمُختَرَقٍ مُتَخَلخِل» | 2 | 2 | 002:282, 092:008 |
 | **بس** | flowing adhesion, surface spreading | «التِصاقٌ يَنسابُ فَيَمتَدُّ عَلى سَطحٍ واسِع» | 2 | 1 | 002:245 |
 | **ثب** | post-scattering gathering, fixed attachment | «تَجمُّعٌ بَعدَ تَناثُرٍ يَلتَصِقُ بِمَوضِعِه» | 2 | 2 | 002:250, 002:265 |
 | **جب** | solid inner-clinging gathering | «اجتِماعٌ مُلتَصِقٌ بِالباطِن (تَكَوُّمٌ صَلبٌ مِن داخِل)» | 2 | 1 | 002:260 |
@@ -206,20 +206,20 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **خز** | compacted rarefaction, exposed condensing void | «تخلخلٌ مكتنز فراغٌ يتكثّف في عار» | 2 | 1 | 002:085 |
 | **خص** | piercing force fills void | «فراغٌ يُملأ بقوّة نافذة تخصيصٌ يُعيّن» | 2 | 2 | 002:105, 002:204 |
 | **دف** | push cleaving-then-displacing | «دَفعٌ يَشُقُّ طَريقَ الشَّيءِ فَيُزيحُه» | 2 | 2 | 002:251, 086:006 |
-| **رش** | ripened rising | «تَصاعُدٌ ناضِج» | 2 | 2 | 002:186, 002:256 |
+| **رش** | ripened rising | «خفقاتٌ خفيفةٌ تتفشّى انتشارًا دقيقًا» | 2 | 2 | 002:186, 002:256 |
 | **رع** | depth-extending inner vibration | «امتِدادٌ من عُمق اهتِزازٌ يَصدُرُ من الباطن» | 2 | 2 | 002:019, 002:104 |
 | **رغ** | inward release, internal coursing | «استرسال في الباطن سريان داخليّ» | 2 | 1 | 002:130 |
-| **رم** | hot motion within body | «حَركةٌ حارّةٌ داخلَ جِسم» | 2 | 2 | 002:185, 105:004 |
+| **رم** | hot motion within body | «جَرَيانٌ مُستَرسِلٌ في احتِواءٍ باطِن» | 2 | 2 | 002:185, 105:004 |
 | **سن** | flow revealing traces | «انسِيابٌ يُظهِرُ آثارَه» | 2 | 2 | 002:259, 095:002 |
-| **شب** | appearing spread, manifest balance | «انتِشارٌ يَظهَر تَوازُنٌ يَتَبَدَّى» | 2 | 2 | 002:025, 002:118 |
+| **شب** | appearing spread, manifest balance | «انتِشارٌ يَنفَتِحُ خارِجًا» | 2 | 2 | 002:025, 002:118 |
 | **شق** | deep-force spreading, violent splitting | «انتشار بقوّة عميقة انشقاقٌ عنيف» | 2 | 2 | 002:137, 092:015 |
 | **طغ** | covering closure | «إطباقٌ يُغَطّي» | 2 | 2 | 002:015, 096:006 |
 | **طم** | gathering envelopment, clinging enclosure | «اشتمالٌ يتجمّع إحاطة تلتصق بالمطلوب» | 2 | 2 | 002:075, 002:260 |
 | **عن** | inner adhesion emerging hardship | «التِصاقٌ داخليٌّ يَبرُزُ مَشَقَّةً» | 2 | 2 | 002:220, 002:266 |
 | **عه** | void emergence, empty-space protrusion | «ظهورٌ في فراغ بروزٌ في فضاء خالٍ» | 2 | 2 | 002:040, 101:005 |
 | **غش** | inner covering spreading wide | «تغطيةٌ تنتشر غطاءٌ باطنيّ يمتدّ ليشمل كلّ شيء» | 2 | 2 | 002:007, 092:001 |
-| **غل** | dense inward penetration | «باطنٌ يتعلّق من أكبر نوى الغين (9 جذور): نفاذ باطنيّ كثيف» | 2 | 2 | 002:088, 002:249 |
-| **غو** | path-linked covering, landmark concealment | «غِطاءٌ مَوصولٌ بِالطَّريقِ يَحجُبُ المَعالِم» | 2 | 2 | 002:256, 100:003 |
+| **غل** | dense inward penetration | «باطنٌ يتعلّقُ بنفاذٍ كثيف» | 2 | 2 | 002:088, 002:249 |
+| **غو** | path-linked covering, landmark concealment | «غِطاءٌ مَوصولٌ يَحجُب» | 2 | 2 | 002:256, 100:003 |
 | **فأ** | opening through selective parting | «انفتاحٌ يَبدَأُ بِفَرزِ طائِفةٍ عَن غَيرِها» | 2 | 2 | 002:249, 104:007 |
 | **فح** | pure release, sharp dispersal | «انفلاتٌ خالص ما يتفرّق بحِدّة لا يُمسكه شيء» | 2 | 2 | 002:169, 002:268 |
 | **قس** | deep force streaming, firm penetration | «قوّة عميقة تسري بدقّة صلابة تتغلغل» | 2 | 2 | 002:074, 002:282 |
@@ -244,11 +244,11 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **خت** | void-closing precise sealing | «إغلاق الفراغ بضغط دقيق سدّ الفتحة بإحكام» | 1 | 1 | 002:007 |
 | **خم** | piercing-into sealed enclosure | «اختِراقٌ يَنتَهي إلى إحاطةٍ مُغلَقة» | 1 | 1 | 002:219 |
 | **خن** | stifled breath nearing emergence | «نَفَسٌ مَكتومٌ يَتَّجِهُ نحو الظُّهورِ ثُمّ يَكُفّ» | 1 | 1 | 114:004 |
-| **دل** | downward release | «إرخاءٌ هابِط» | 1 | 1 | 002:188 |
+| **دل** | downward release | «ضبطٌ يتعلّقُ فينسابُ ممتدًّا» | 1 | 1 | 002:188 |
 | **ذب** | sharp piercing, inner revealing | «نفاذٌ حادّ يُخرج اختراقٌ يُبرز ما في الباطن» | 1 | 1 | 002:067 |
 | **ذل** | piercing that attaches | «نفاذٌ يَتعلّق» | 1 | 1 | 002:061 |
 | **رك** | flowing with concentrated pressure | «جَريانٌ مَع ضَغطٍ مُتَكاثِف» | 1 | 1 | 002:239 |
-| **ره** | flow revealing retention | «جَريانٌ يُظهِرُ احتِباسًا» | 1 | 1 | 002:283 |
+| **ره** | flow revealing retention | «جَرَيانٌ خَفيفٌ يَخفُتُ مُتَلاشِيًا» | 1 | 1 | 002:283 |
 | **زب** | vibrating connection, holding attachment | «اهتِزازٌ يَتَّصِلُ ويَتَمَسَّك» | 1 | 1 | 096:018 |
 | **زح** | frictional sliding | «انزِلاقٌ يَحتَكّ» | 1 | 1 | 002:096 |
 | **سح** | pure extending flow | «سريانٌ خالص ما يمتدّ بصفاءٍ ويجري» | 1 | 1 | 002:164 |
@@ -273,7 +273,7 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **قه** | bursting force, lowering breath | «شِدَّةٌ تَنفَجِرُ ثمّ تَنزِلُ في نَفَسٍ خافِض» | 1 | 1 | 093:009 |
 | **لظ** | emphatic attachment, intensified clinging | «تَعَلُّقٌ بِشِدَّةٍ مُفَخَّمَة» | 1 | 1 | 092:014 |
 | **لغ** | sound connection veiling meaning | «اتِّصالُ صَوتٍ بِغِطاءٍ يَحجُبُ المَعنى» | 1 | 1 | 002:225 |
-| **لف** | attachment turning into intertwining wrap | «تعلّقٌ ينقلب إلى لفّ ما يلتفّ ويتشابك» | 1 | 1 | 002:170 |
+| **لف** | attachment turning into intertwining wrap | «تعلُّقٌ نافذٌ متّصلُ الجريان» | 1 | 1 | 002:170 |
 | **لم** | attachment cohering together | «تَعَلُّقٌ يَلتَمّ» | 1 | 1 | 104:001 |
 | **لو** | extension joining, spreading outward | «امتدادٌ يتّصلُ ويَنبسط» | 1 | 1 | 085:022 |
 | **مج** | depth-surfacing gathering | «تجمّعٌ يَبرزُ من العمق» | 1 | 1 | 085:015 |
@@ -283,7 +283,7 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **نخ** | rising emergence piercing through | «ظُهورٌ يَختَرِقُ صاعِدًا» | 1 | 1 | 002:266 |
 | **نش** | spreading emergence | «ظُهورٌ مُنتَشِر» | 1 | 1 | 002:259 |
 | **هب** | emerging void, revealed emptiness | «فراغٌ يظهر خلاءٌ ينكشف» | 1 | 1 | 002:038 |
-| **هج** | inner surfacing, counter-intent gathering | «إظهارٌ مِن داخِلٍ يَجمَعُ نِيَّةً مُقابِلة» | 1 | 1 | 002:218 |
+| **هج** | inner surfacing, counter-intent gathering | «إفراغٌ من الجوفِ يَنتهي إلى اجتماعٍ وتكتُّل» | 1 | 1 | 002:218 |
 | **هم** | hidden breath, sealed containment | «نَفَسٌ خَفيٌّ يَنحَبِسُ في إطباق» | 1 | 1 | 104:001 |
 
 ---
@@ -296,7 +296,7 @@ These nuclei have no published Tafsir Coran analysis yet. The English gloss is c
 |---|---|---|---|---|---|
 | **بء** | affirmed holding, gateway beginning | «تَمَسُّك + تَأكيد ابتدائي» | earned | 100% | ب gives attachment and holding, while ء sharpens it into an affirmed point of beginning or entry. |
 | **بب** | held gateway, attached passage | «منفذ + اتصال + تماسك» | earned | 100% | ب gives attachment, holding, and gateway; repeating ب makes the seed a held passage or attached opening. |
-| **بذ** | held release, fine dispersal | «تَمَسُّك + نَفاذ مُبْرِز» | earned | 100% | ب gives attachment/holding, while ذ pierces outward from within, yielding held matter finely brought out and dispersed. |
+| **بذ** | held release, fine dispersal | «تَمَسُّك + نَفاذ مُبْرِز» | earned | 100% | ب gives attachment/holding, while ذ pierces outward from within, yielding held matter finely brought out and dispersed. |
 | **بز** | held penetration, constricted thrust | «تَمَسُّك + نَفاذ حادّ» | earned | 100% | ب gives attachment/holding as a held gate, while ز gives sharp thrusting penetration, yielding penetration through const |
 | **تد** | completed extension, settled grounding | «امتداد تام + ثبات راسخ» | earned | 100% | ت gives gentle extension toward completion, and د fixes it into grounded settledness, yielding completed extension held  |
 | **ثج** | scattered gathering, surfacing spread | «تَناثُر + تَجَمُّع وبُروز» | earned | 100% | ث gives fine scattering and spread, while ج gathers that spread into a bounded space and brings it outward. |
@@ -313,7 +313,7 @@ These nuclei have no published Tafsir Coran analysis yet. The English gloss is c
 | **ضد** | dense pressure, fixed settling | «ضغط كثيف + ثبات ضابط» | earned | 100% | ض gives heavy drawing-together and dense pressure; د fixes and grounds that pressure into a settled state. |
 | **ضز** | dense pressure, sharp thrust | «ضغط كثيف + نفاذ حاد» | earned | 100% | ض gives weighted drawing-together and dense pressure; ز drives that pressure into sharp, vibrating penetration. |
 | **ضق** | dense pressure, firm constriction | «ضَغط كثيف + إحكام قاطع» | earned | 100% | ض gives weighted drawing-together and dense pressure; ق fixes it as precise cutting and firm settling. |
-| **ضم** | dense pressure, sealed gathering | «ضَغطٌ كثيف + تَجمُّعٌ مُلتصق» | earned | 100% | ض gives weighted dense pressure, and م closes that pressure into cohesive gathered mass. |
+| **ضم** | dense pressure, sealed gathering | «ضَغطٌ كثيف + تَجمُّعٌ مُلتصق» | earned | 100% | ض gives weighted dense pressure, and م closes that pressure into cohesive gathered mass. |
 | **طق** | heavy spreading, firm enclosure | «انبساط ثقيل + إحكام قاطع» | earned | 100% | ط gives broad heavy spreading, while ق cuts and settles that spread into firm containment. |
 | **كش** | sealed pressure, outward scattering | «كَتْمٌ ضاغط + انتشارٌ خارج» | earned | 100% | ك gives pressed sealed closure, and ش opens that pressure into branching outward dispersion. |
 | **كظ** | sealed pressure, forced prominence | «كَتمٌ ضاغط + بُروزٌ حادّ» | earned | 100% | ك closes and seals with pressure, while ظ drives that pressure into sharp outward prominence, yielding severe internal f |
@@ -348,7 +348,7 @@ These nuclei have no published Tafsir Coran analysis yet. The English gloss is c
 | **قم** | firm gathering, sealed massing | «إحكام + تجمّع متلاصق» | earned | 85% | ق gives precise firm delimitation, then م gathers and seals the material into one compact mass. |
 | **خض** | piercing looseness, dense pressure | «تخلخل نافذ + ضغط كثيف» | earned | 83% | خ gives rarefying penetration, while ض gathers that loosened interior into weighted density and pressure. |
 | **دح** | settled pressure, containing force | «ضبط ثابت + احتواء حارّ» | earned | 83% | د gives fixed, grounded push; ح contains it as living inward warmth, yielding firm pressure held into a thing. |
-| **زه** | piercing outbreath, emptied passing | «نَفاذ حادّ + تَنَفُّس مُفرِغ» | earned | 83% | ز gives sharp penetrating thrust, and ه turns that thrust into soft outward passing, yielding an evacuating outbreath fr |
+| **زه** | piercing outbreath, emptied passing | «نَفاذ حادّ + تَنَفُّس مُفرِغ» | earned | 83% | ز gives sharp penetrating thrust, and ه turns that thrust into soft outward passing, yielding an evacuating outbreath fr |
 | **غص** | hidden depth, sealed force | «غَور مستور + إطباق صلب» | earned | 83% | غ gives covered inward depth, while ص seals it with hard closure, yielding difficult penetration through dense constrict |
 | **فخ** | splitting rarefaction, pierced inflation | «شَقّ نافذ + تخلخل مُخترِق» | earned | 83% | ف opens and splits through, while خ rarefies and pierces, giving an opened-through emptiness tending toward inflation. |
 | **لك** | extended attachment, sealed compacting | «تعلّق ممتد + كتم قاطع» | earned | 83% | ل gives extending attachment, while ك closes and cuts it into a pressed, sealed accumulation. |
@@ -357,12 +357,12 @@ These nuclei have no published Tafsir Coran analysis yet. The English gloss is c
 | **ذخ** | fine emergence, piercing-through | «نَفاذ دقيق + اختراق متخلخل» | earned | 83% | ذ gives fine inner bringing-out; خ carries that motion into rarefied penetration through the substance. |
 | **ذق** | piercing precision, deep incision | «نَفاذ + قَطع مُحكَم» | earned | 83% | ذ gives inner piercing and bringing-out, while ق fixes that motion as precise cutting and firm settled impact. |
 | **قذ** | firm piercing, precise ejection | «إحكام قاطع + نفاذ مُبرِز» | earned | 83% | ق gives firm, precise cutting-settling; ذ carries that settled force into inward-origin piercing and fine outward bringi |
-| **مز** | sealed mass, sharp penetration | «تجمُّع مُلتحم + نفاذ حادّ» | earned | 83% | م gives gathered sealing into a mass, while ز drives that mass with vibrating sharp penetration. |
+| **مز** | sealed mass, sharp penetration | «تجمُّع مُلتحم + نفاذ حادّ» | earned | 83% | م gives gathered sealing into a mass, while ز drives that mass with vibrating sharp penetration. |
 | **نل** | resonant reaching, bridged attachment | «رنين منبعث + تعلّق ممتدّ» | earned | 83% | ن emits inner resonance outward; ل attaches that outward movement into an extending bridge, giving connected reach. |
 | **هض** | soft passage, dense pressure | «مرور ناعم + ضغط كثيف» | earned | 83% | ه gives breath-like soft passing, and ض draws that passage into weighted dense pressure. |
 | **جف** | surfaced gathering, split apart | «تجمّع بارز + شقّ نافذ» | earned | 81% | ج gathers and surfaces within a space; ف opens that gathered presence by parting and penetrating through it. |
 | **جث** | granular gathering, surfaced clumping | «تَجَمُّع + تَفَتُّت حُبَيبيّ» | earned | 80% | ج gives gathering in a bounded space with surfacing, while ث granulates and spreads it into small-grained clustered mass |
-| **ضف** | dense gathering, split opening | «ضَمٌّ كثيف + شَقٌّ نافذ» | earned | 80% | ض gives weighted dense drawing-together; ف opens and parts through, yielding a pressured gathering that opens/splits aro |
+| **ضف** | dense gathering, split opening | «ضَمٌّ كثيف + شَقٌّ نافذ» | earned | 80% | ض gives weighted dense drawing-together; ف opens and parts through, yielding a pressured gathering that opens/splits aro |
 | **غط** | concealing depth, heavy covering | «غَور ساتر + انتشار ثقيل» | earned | 80% | غ gives hidden covering depth, and ط spreads it broadly and heavily, yielding insertion into a covering mass. |
 | **كه** | pressed breath, sealed passing | «كَتْمٌ ضاغط + نَفَسٌ مارّ» | earned | 80% | ك gives pressed sealed closure, while ه lets breath pass softly through that closure, yielding pressured interior breath |
 | **نم** | outward resonance, gathered sealing | «رَنين منبعث + تَجمُّع متلاصق» | earned | 79% | ن يبعث رنينًا من الباطن إلى الخارج، وم يجمعه ويختمه في كتلة متلاصقة، فينتج خروج لطيف من داخل محتوى متماسك. |
@@ -379,7 +379,7 @@ These nuclei have no published Tafsir Coran analysis yet. The English gloss is c
 | **حظ** | warm containment, edged surfacing | «احتواء حارّ + بروز حادّ» | partial | 75% | ح gives living containing warmth, while ظ makes the contained thing surface as a sharp, distinct prominence. |
 | **دق** | settled pressure, precise impact | «دَفع ثابت + قَطع مُحكَم» | partial | 75% | د gives grounded settled push, and ق gives cutting precision with firm settling, yielding force that presses or strikes  |
 | **دم** | settled massing, sealed surfacing | «ثباتٌ دافع + تجمّعٌ متلاصق» | partial | 75% | د gives fixed inward settling, and م gathers that settled push into a sealed visible mass. |
-| **ذم** | piercing diminishment, sealed smallness | «نَفاذ + تَجمُّع مُصغِّر» | partial | 75% | ذ brings a fine inner piercing/out-bringing, and م gathers/seals it into a compact mass, yielding diminished compactness |
+| **ذم** | piercing diminishment, sealed smallness | «نَفاذ + تَجمُّع مُصغِّر» | partial | 75% | ذ brings a fine inner piercing/out-bringing, and م gathers/seals it into a compact mass, yielding diminished compactness |
 | **رذ** | repeated fine outflow | «تكرار وجريان + نفاذ وإبراز دقيق» | partial | 75% | ر gives repeated flowing motion, and ذ gives fine piercing emergence from within, yielding repeated fine outflow. |
 | **رق** | flowing precision, thinned spreading | «جريان متكرر + قطع محكم» | partial | 75% | ر gives repeated running flow, and ق cuts and settles it into a fine, precise spreading. |
 | **رن** | flowing repetition, resonant emission | «تَكرار جارٍ + رَنين منبعث» | partial | 75% | ر gives repeated flowing motion, and ن turns that flow into an inner resonance emitted outward. |
@@ -404,7 +404,7 @@ These nuclei have no published Tafsir Coran analysis yet. The English gloss is c
 | **عث** | gripped scattering, rough dispersal | «قَبضٌ عميق + تناثُرٌ دقيق» | partial | 70% | The throat-depth grip of ع gives held intensity, while ث breaks that heldness into small-grained scattering. |
 | **مع** | massed grip, intense cohesion | «تجمّع متلاصق + قبض شديد» | partial | 70% | م seals/gathers into a mass, and ع adds throat-depth grip and intensity, giving compact cohesion under pressure. |
 | **قط** | precise cutting, heavy leveling | «قَطع مُحكَم + بَسط ثقيل» | partial | 69% | ق gives firm precise cutting, while ط spreads it broadly and heavily, yielding cut extension made even or sequential. |
-| **بج** | held gathering, surfacing swelling | «تَمَسُّك + تَجَمُّع بُروزي» | partial | 67% | ب gives attachment and holding; ج gathers that held matter into a space until it surfaces or protrudes. |
+| **بج** | held gathering, surfacing swelling | «تَمَسُّك + تَجَمُّع بُروزي» | partial | 67% | ب gives attachment and holding; ج gathers that held matter into a space until it surfaces or protrudes. |
 | **تف** | completed extension, splitting-through | «امتداد تام + تفريق نافذ» | partial | 67% | ت gives a gentle movement reaching completion, and ف turns that completion into parting-through or opening. |
 | **ته** | completed extension, breath-passing | «امتداد تام + مرور نَفَسي» | partial | 67% | ت gives a gentle extension reaching completion, and ه lets that extension pass softly as breath, yielding an emptied-thr |
 | **ذن** | piercing emergence, resonant outflow | «نَفاذ من باطن + انبِعاث رنيني» | partial | 67% | ذ gives fine inner piercing and bringing-out, while ن turns that emergence into an outwardly emitted resonance. |
