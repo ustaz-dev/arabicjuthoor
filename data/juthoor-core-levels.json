@@ -2,7 +2,7 @@
  "project": "Juthoor (The Arabic Tongue) · core three levels export",
  "author": "Yassine Temessek · Temessek for Research, Publishing & Training",
  "source_repo": "github.com/ustaz-dev/arabicjuthoor",
- "exported_at_commit": "b2118f1",
+ "exported_at_commit": "d781bb0",
  "license": "CC BY-NC-SA 4.0 · attribution required · research use",
  "levels": {
   "level_1_letter_charges": {
@@ -701,13 +701,12 @@
         "سخ",
         "سق",
         "سغ",
-        "سم"
+        "سم",
+        "سع"
        ],
-       "n": 9,
+       "n": 10,
        "weak": false,
-       "suspect_support": [
-        "سع (نص القراءة مضطرب في المادة، يقابَل على مطبوعة المعجم)"
-       ]
+       "note": "سع رُدَّت إلى النصاب بعد استرداد صدر قراءتها («الانحسار والذهاب من جرم الشيء») نصًّا في الخروج؛ ذيلُ العبارة فيه سهوُ نسخٍ ظاهر (حيز/جرم) يقابَل على المطبوعة"
       }
      ],
      "manner_ar": "الصفير المهموس (وهو الذي قنّنه جبل باسم «الدقّة»)",
@@ -1008,10 +1007,9 @@
         "عش",
         "عض",
         "عك",
-        "عث",
-        "عل"
+        "عث"
        ],
-       "n": 13,
+       "n": 12,
        "weak": false
       },
       {
@@ -1415,10 +1413,9 @@
         "نع",
         "نغ",
         "نخ",
-        "نج",
         "نم"
        ],
-       "n": 5,
+       "n": 4,
        "weak": false
       },
       {
@@ -2116,8 +2113,9 @@
      "jabal_letter2_desc_ar": "تجمع رخو مع تلاصق ما",
      "root_count": 6,
      "composed_reading_en": "precedent-attached extension",
-     "composed_reading_ar": "امتِدادٌ مُلتَصقٌ بِمَن سَبَق",
-     "quran_anchors": "002:208, 002:262, 002:263"
+     "composed_reading_ar": "إمساكٌ ضعيفٌ يُفلِتُ ما تَجمَّع",
+     "quran_anchors": "002:208, 002:262, 002:263",
+     "legacy_reading_ar": "امتِدادٌ مُلتَصقٌ بِمَن سَبَق"
     },
     {
      "nucleus": "تج",
@@ -2131,8 +2129,9 @@
      "jabal_letter2_desc_ar": "تجمع هش مع حدة ما",
      "root_count": 1,
      "composed_reading_en": "extension gathering within exchange",
-     "composed_reading_ar": "امتِدادٌ يَنجَمِعُ في جَوفِ مُبادَلة",
-     "quran_anchors": "002:282"
+     "composed_reading_ar": "تمامُ قطعٍ يقترنُ باجتماع",
+     "quran_anchors": "002:282",
+     "legacy_reading_ar": "امتِدادٌ يَنجَمِعُ في جَوفِ مُبادَلة"
     },
     {
      "nucleus": "تح",

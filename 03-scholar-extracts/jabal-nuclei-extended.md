@@ -147,7 +147,7 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **هز** | penetrating void, piercing disruption | «فراغٌ ينفذ خلخلةٌ تخترق» | 5 | 5 | 002:013, 002:014, 002:231 |
 | **وح** | pure encompassing, unshared totality | «إحاطةٌ خالصةٌ شمولٌ صافٍ» | 5 | 3 | 002:061, 002:213, 099:005 |
 | **وف** | joining ending in parting | «وصلٌ يَنتهي بفصل» | 5 | 5 | 002:177, 002:234, 002:240 |
-| **تب** | precedent-attached extension | «امتِدادٌ مُلتَصقٌ بِمَن سَبَق» | 4 | 4 | 002:208, 002:262, 002:263 |
+| **تب** | precedent-attached extension | «إمساكٌ ضعيفٌ يُفلِتُ ما تَجمَّع» | 4 | 4 | 002:208, 002:262, 002:263 |
 | **جر** | gathering-flow repeating | «اجتِماعٌ يَجري مُتَكَرِّرًا (سَيَلانُ الماءِ في مَجرى مُحَدَّد)» | 4 | 2 | 002:025, 098:008 |
 | **حض** | dense purity, pure centering | «خلوص كثيف تمركزٌ نقيّ» | 4 | 4 | 002:133, 002:180, 002:282 |
 | **حط** | hot breath spreading-then-cutting | «احتواءٌ حارٌّ يَنبسِطُ انبساطًا ثقيلًا» | 4 | 3 | 104:004, 002:058, 111:004 |
@@ -235,7 +235,7 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **بث** | attachment scattering | «اتِّصالٌ يَتَناثَر» | 1 | 1 | 101:004 |
 | **به** | inner adhesion surfacing | «التِصاقٌ يَظهَرُ مِن الباطِن (دَهشةٌ لاصِقةٌ تَطفو)» | 1 | 1 | 002:258 |
 | **بو** | prepared passage opening | «فَتحةٌ مُعَدَّة للمُرور» | 1 | 1 | 002:189 |
-| **تج** | extension gathering within exchange | «امتِدادٌ يَنجَمِعُ في جَوفِ مُبادَلة» | 1 | 1 | 002:282 |
+| **تج** | extension gathering within exchange | «تمامُ قطعٍ يقترنُ باجتماع» | 1 | 1 | 002:282 |
 | **جح** | heated gathering, contained emergence | «تَجَمُّعٌ حارٌّ يَنبَجِسُ من جَوفٍ مُحتَوٍ» | 1 | 1 | 102:006 |
 | **جد** | driven cohesive gathering | «تَجَمُّعٌ مَدفوعٌ مُتماسك» | 1 | 1 | 002:197 |
 | **جس** | flowing gathering in volume | «اجتِماعٌ يَنسابُ في حَيِّزٍ ثَلاثيِّ الأبعاد» | 1 | 1 | 002:247 |
