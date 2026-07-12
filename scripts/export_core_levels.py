@@ -93,6 +93,18 @@ for src, body in (('jabal-nuclei-catalog.md', cat), ('jabal-nuclei-undocumented.
         if reading: rec['jabal_lexicon_reading_ar'] = reading
         nuclei[k] = rec
 
+# hygiene: a nucleus is 2-3 Arabic letters; anything else is a swallowed header or
+# a mangled row -- exclude it and log it so nothing disappears silently
+excluded = []
+for k in list(nuclei):
+    if not (2 <= len(k) <= 3) or any(ch not in AR_LETTERS for ch in k):
+        excluded.append({'row': k, 'reason': 'not a 2-3 letter nucleus (mangled label or swallowed section header)'})
+        del nuclei[k]
+for rec in nuclei.values():
+    for f in ('jabal_lexicon_reading_ar', 'composed_reading_ar'):
+        if f in rec and isinstance(rec[f], str):
+            rec[f] = rec[f].rstrip('\\ ').strip()
+
 # frozen field cards: flag the nuclei that carry a frozen pre-registered field card
 cards = open('03-scholar-extracts/nucleus-field-cards-draft.md', encoding='utf-8').read()
 carded = set()
@@ -124,6 +136,25 @@ for r in modes: r['corpus_count'] = cnt.get(r['mode'], 0)
 modes.append({'mode': 'LOANWORD', 'name_ar': 'الدَّخيل', 'stance': 'EXCEPTION',
               'definition_en': 'label for the rare non-native root', 'canonical_example': '', 'corpus_count': cnt.get('LOANWORD', 0)})
 
+# ---------------- level 1 enrichment: the canonical face registry ----------------
+# amendment 3 (2026-07-12): a letter's charge is a full-phased articulation event;
+# its registered faces are the phases witnessed by Jabal's nucleus families
+try:
+    registry = json.load(open('data/juthoor-canonical-registry.json', encoding='utf-8'))
+    REG = {r['letter']: r for r in registry['letters']}
+    for r in L1:
+        reg = REG.get(r['letter'])
+        if not reg:
+            continue
+        r['gesture_event_ar'] = reg['gesture_event_ar']
+        r['faces_registered'] = reg['faces']
+        if reg.get('manner_ar'):
+            r['manner_ar'] = reg['manner_ar']
+        r['registry_status'] = registry['status']
+    registry_note = registry['law']
+except FileNotFoundError:
+    registry_note = ''
+
 # ---------------- assemble ----------------
 try:
     commit = subprocess.run(['git', 'rev-parse', '--short', 'HEAD'], capture_output=True, text=True).stdout.strip()
@@ -137,12 +168,14 @@ out = {
  'license': 'CC BY-NC-SA 4.0 · attribution required · research use',
  'levels': {
    'level_1_letter_charges': {
-     'description': 'The 28 Arabic letters (plus hamza) with one ruling charge each, drawn from the physical articulation gesture. Frozen reference: 03-scholar-extracts/consensus-letter-charges.md. General dual-face rule: every letter carries two semantic faces of one articulation; the third radical selects the active face.',
+     'description': 'The 28 Arabic letters (plus hamza). charge_ar is the legacy one-line charge (frozen reference: 03-scholar-extracts/consensus-letter-charges.md). Per constitutional amendment 3 (2026-07-12, the full-event law): a letter\'s charge is a full-phased articulation event (gesture_event_ar); its registered faces (faces_registered) are the phases of that event witnessed by 2+ of Jabal\'s first-position nucleus families (weak = single witness); the nucleus partner selects the active phase at the binary level exactly as the third radical selects at the trilateral level. Canonical registry: data/juthoor-canonical-registry.json + per-letter dossiers in 03-scholar-extracts/letter-dossiers/ (status: draft pending the author\'s signature).',
+     'registry_law_ar': registry_note,
      'count': len(L1), 'letters': L1,
    },
    'level_2_binary_nuclei': {
      'description': 'The binary (two-letter) nuclei: the meaning-seeds. jabal_lexicon_reading_ar = Dr. M. H. Jabal\'s lexicon-derived axial reading; composed_reading_ar/en = the project\'s charge-composed reading (Quran-anchored where quran_anchors is present). Hollow-root rule (constitutional amendment 1, 2026-07-06): hollow roots are binary in origin, the weak middle glide is a vowel-stretcher, so mawt -> m-t, mawj -> m-j, mal -> m-l, ma\' -> m-h; there is no m-w nucleus. field_card marks nuclei with a frozen pre-registered semantic-field card.',
      'count': len(L2), 'nuclei': L2,
+     'excluded_rows': excluded,
    },
    'level_3_composition_modes': {
      'description': 'The eleven native composition modes (plus the LOANWORD exception label): how the binary nucleus acts on the third radical\'s charge. Canon: 02-architecture/lv2-operative-grammar.md. Honest status (measured 2026-07): a pre-registered blind second reading reproduces the stance at 62% and the exact mode at 38% (kappa 0.305); an example-anchored coding manual (draft: 02-architecture/mode-coding-manual-draft.md) tightens OPERATE and adds tie-break rules, with a pre-registered re-rate protocol pending the author\'s freeze. The count remains 11: the measured drift was an over-broad OPERATE default, not evidence for merging or splitting.',

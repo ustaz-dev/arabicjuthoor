@@ -2,11 +2,12 @@
  "project": "Juthoor (The Arabic Tongue) · core three levels export",
  "author": "Yassine Temessek · Temessek for Research, Publishing & Training",
  "source_repo": "github.com/ustaz-dev/arabicjuthoor",
- "exported_at_commit": "db91861",
+ "exported_at_commit": "7efb286",
  "license": "CC BY-NC-SA 4.0 · attribution required · research use",
  "levels": {
   "level_1_letter_charges": {
-   "description": "The 28 Arabic letters (plus hamza) with one ruling charge each, drawn from the physical articulation gesture. Frozen reference: 03-scholar-extracts/consensus-letter-charges.md. General dual-face rule: every letter carries two semantic faces of one articulation; the third radical selects the active face.",
+   "description": "The 28 Arabic letters (plus hamza). charge_ar is the legacy one-line charge (frozen reference: 03-scholar-extracts/consensus-letter-charges.md). Per constitutional amendment 3 (2026-07-12, the full-event law): a letter's charge is a full-phased articulation event (gesture_event_ar); its registered faces (faces_registered) are the phases of that event witnessed by 2+ of Jabal's first-position nucleus families (weak = single witness); the nucleus partner selects the active phase at the binary level exactly as the third radical selects at the trilateral level. Canonical registry: data/juthoor-canonical-registry.json + per-letter dossiers in 03-scholar-extracts/letter-dossiers/ (status: draft pending the author's signature).",
+   "registry_law_ar": "التعديل الدستوري 3 (2026-07-12): شحنةُ الحرفِ حدثُ نطقٍ كاملُ المراحل؛ وجوهُه المسجَّلةُ مراحلُه المشهودةُ بعائلاتِ نوى جبل (شاهدانِ فأكثر، وما دونَهما ضعيفُ الإسناد)؛ شريكُ النواةِ ينتخبُ المرحلةَ والحرفُ الثالثُ يُعيدُ الانتخاب.",
    "count": 29,
    "letters": [
     {
@@ -14,209 +15,1504 @@
      "label": "ء / أ (الهمزة)",
      "charge_ar": "تَأكيد + قَطع",
      "phonetic_note_en": "a sharp glottal onset, the breath stopped at the throat",
-     "gloss_en": "sharp affirmation, beginning"
+     "gloss_en": "sharp affirmation, beginning",
+     "gesture_event_ar": "انطباقٌ تامٌّ للوترَينِ الصوتيَّينِ يقطعُ مجرى النفَسِ من أصلِه، فيحتبسُ النفَسُ مضغوطًا خلفَ الحنجرة، ثمّ ينفتحُ عنه انفتاحًا مفاجئًا يُطلِقُ الصوتَ دفعةً واحدة.",
+     "faces_registered": [
+      {
+       "face_ar": "القطعُ والانطباقُ التامّ",
+       "witnesses": [
+        "ءب",
+        "ءم"
+       ],
+       "n": 2,
+       "weak": false
+      },
+      {
+       "face_ar": "الاحتباسُ والضغطُ والتهيّؤ",
+       "witnesses": [
+        "أن",
+        "أث",
+        "ءو",
+        "أو",
+        "أي",
+        "أج",
+        "ءب"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "الإطلاقُ المفاجئُ والانبثاقُ الحادّ",
+       "witnesses": [
+        "أو",
+        "أي",
+        "أج",
+        "أس",
+        "أف"
+       ],
+       "n": 5,
+       "weak": false
+      }
+     ],
+     "manner_ar": "التوكيدُ والتقوية (عن جبل: ضغطٌ يشدُّ ما يصحبُه)، تسري على الوجوهِ الثلاثة",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ا",
      "label": "ا (ألف)",
      "charge_ar": "امتداد صائت",
      "phonetic_note_en": "the breath standing open, prolonged",
-     "gloss_en": "extension, sustained presence"
+     "gloss_en": "extension, sustained presence",
+     "gesture_event_ar": "انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+     "faces_registered": [
+      {
+       "face_ar": "الانفتاحُ الأقصى",
+       "witnesses": [],
+       "n": 0,
+       "weak": true
+      },
+      {
+       "face_ar": "الإطلاقُ الصائتُ الحرّ",
+       "witnesses": [],
+       "n": 0,
+       "weak": true
+      },
+      {
+       "face_ar": "الامتدادُ",
+       "witnesses": [],
+       "n": 0,
+       "weak": true
+      }
+     ],
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ب",
      "label": "ب",
      "charge_ar": "اتّصال + تَمَسُّك",
      "phonetic_note_en": "the lips press and release, a closing-then-opening seal",
-     "gloss_en": "attachment, holding, gateway"
+     "gloss_en": "attachment, holding, gateway",
+     "gesture_event_ar": "التقاءٌ رخوٌ للشفتَينِ يُمسِكُ النفَسَ محتبَسًا ثمّ ينفتحُ عنه خارجًا",
+     "faces_registered": [
+      {
+       "face_ar": "الاتصالُ والتمسُّك",
+       "witnesses": [
+        "بل",
+        "بن",
+        "بو",
+        "بض",
+        "بت"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "الاحتباسُ والضغط",
+       "witnesses": [
+        "بد",
+        "بط",
+        "بك",
+        "بغ",
+        "بء",
+        "بل",
+        "بع",
+        "بز",
+        "بق"
+       ],
+       "n": 9,
+       "weak": false
+      },
+      {
+       "face_ar": "الانفتاحُ والخروج",
+       "witnesses": [
+        "بب",
+        "بع",
+        "بز",
+        "بق",
+        "بج",
+        "بح",
+        "بخ",
+        "بث",
+        "بذ",
+        "بش",
+        "بص",
+        "بر",
+        "به",
+        "بت"
+       ],
+       "n": 14,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الرخاوةُ (عن جبل)، تسري على الوجوهِ الثلاثة",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ت",
      "label": "ت",
      "charge_ar": "امتداد لطيف + تَمام",
      "phonetic_note_en": "tongue tip touches the upper teeth, light percussion",
-     "gloss_en": "gentle extension to completion"
+     "gloss_en": "gentle extension to completion",
+     "gesture_event_ar": "انطباقٌ دقيقٌ لطرفِ اللسانِ يقرعُ أصولَ الثنايا العليا قرعًا خفيفًا، فحبسةٌ وجيزةٌ بضغطٍ دقيقٍ قد تضعُفُ مسكتُها، فانفتاحٌ خاطفٌ يقطعُ الحدثَ ويُتِمُّه",
+     "faces_registered": [
+      {
+       "face_ar": "م1: الانطباقُ واللقاءُ الدقيقُ القارع",
+       "witnesses": [
+        "تأ",
+        "تح",
+        "تل",
+        "تف"
+       ],
+       "n": 4,
+       "weak": false
+      },
+      {
+       "face_ar": "م2: الاحتباسُ والضغطُ الدقيق ومنه الإمساكُ الضعيف",
+       "witnesses": [
+        "تد",
+        "تن",
+        "تب",
+        "تع",
+        "تق"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "م3: القطعُ والتمامُ والانفلات",
+       "witnesses": [
+        "تر",
+        "تم",
+        "ته",
+        "تق",
+        "تج"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "الامتدادُ البالغُ تمامَه (وجهٌ ضعيفُ الإسناد)",
+       "witnesses": [
+        "تج"
+       ],
+       "n": 1,
+       "weak": true
+      }
+     ],
+     "manner_ar": "الدقّةُ والوحدة",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ث",
      "label": "ث",
      "charge_ar": "تَناثُر + تَفَتُّت",
      "phonetic_note_en": "tongue between the teeth, a fine breathy spread",
-     "gloss_en": "scattering, small-grained spread"
+     "gloss_en": "scattering, small-grained spread",
+     "gesture_event_ar": "انبساطُ طرَفِ اللسانِ رخوًا بين الأسنانِ كتلةً كثيفةً، يجري النفَسُ فوقَها جريانًا متّصلًا، ثمّ يتفشّى خارجًا دقائقَ منتثرةً عبرَ فُرَجِ الأسنان.",
+     "faces_registered": [
+      {
+       "face_ar": "الكثافةُ والتجمُّعُ الدقيق",
+       "witnesses": [
+        "ثم",
+        "ثق",
+        "ثب",
+        "ثخ",
+        "ثل",
+        "ثن",
+        "ثج"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "الجريانُ الغزيرُ المتّصل",
+       "witnesses": [
+        "ثج",
+        "ثر",
+        "ثع"
+       ],
+       "n": 3,
+       "weak": false
+      },
+      {
+       "face_ar": "التفشّي والانتثارُ الدقيق",
+       "witnesses": [
+        "ثر"
+       ],
+       "n": 1,
+       "weak": true
+      }
+     ],
+     "manner_ar": "التفشّي والانتشار (عن جبل)، ومن الفم: الهمسُ والرخاوة",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ج",
      "label": "ج",
      "charge_ar": "تَجَمُّع في حَيِّز / تَجمُّع + بُروز",
      "phonetic_note_en": "mid-palate stop with an emerging burst",
-     "gloss_en": "gathering in a space, surfacing"
+     "gloss_en": "gathering in a space, surfacing",
+     "gesture_event_ar": "اجتماعُ وسطِ اللسانِ بوسطِ الحنكِ يحبسُ النفَسَ في جوفِ الفمِ ثمّ ينبثقُ عنه بارزًا مسترسلًا",
+     "faces_registered": [
+      {
+       "face_ar": "الاجتماعُ والتكتُّل",
+       "witnesses": [
+        "جم",
+        "جث",
+        "جد",
+        "جن",
+        "جب",
+        "جز",
+        "جذ"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "الاحتباسُ في الجوفِ والستر",
+       "witnesses": [
+        "جن",
+        "جع",
+        "جح"
+       ],
+       "n": 3,
+       "weak": false
+      },
+      {
+       "face_ar": "الانبثاقُ والبروزُ والانكشاف",
+       "witnesses": [
+        "جل",
+        "جه",
+        "جر",
+        "جب",
+        "جز",
+        "جذ"
+       ],
+       "n": 6,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الحدّة مع هشاشة التجمُّع",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ح",
      "label": "ح",
      "charge_ar": "حياةٌ حارّة + احتواء",
      "phonetic_note_en": "deep throat friction, warm breath enclosed",
-     "gloss_en": "living warmth that contains"
+     "gloss_en": "living warmth that contains",
+     "gesture_event_ar": "تضيُّقٌ عميقٌ في أقصى الحلقِ يحتوي النفَسَ الحارَّ، فيجري فيه جريانًا محتكًّا جافًّا، حتّى ينفُذَ خالصًا خارجًا.",
+     "faces_registered": [
+      {
+       "face_ar": "التضييقُ والاحتواءُ في الباطن",
+       "witnesses": [
+        "حف",
+        "حي",
+        "حو",
+        "حب",
+        "حج",
+        "حد",
+        "حذ",
+        "حط",
+        "حص",
+        "حن",
+        "حق",
+        "حم",
+        "حز"
+       ],
+       "n": 13,
+       "weak": false
+      },
+      {
+       "face_ar": "الجريانُ المحتكُّ في المضيق",
+       "witnesses": [
+        "حك",
+        "حز",
+        "حض",
+        "حش",
+        "حت"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "النفاذُ والخلوصُ خارجًا",
+       "witnesses": [
+        "حس",
+        "حر",
+        "حل",
+        "حث",
+        "حظ",
+        "حش",
+        "حت"
+       ],
+       "n": 7,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الجفافُ في الباطن (الهمسُ الحلقيُّ مصدرُها)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "خ",
      "label": "خ",
      "charge_ar": "تَخَلخُل + اختِراق",
      "phonetic_note_en": "scratchy back-of-throat friction",
-     "gloss_en": "rarefying, piercing through"
+     "gloss_en": "rarefying, piercing through",
+     "gesture_event_ar": "مَضيقٌ يضيقُ بينَ أقصى اللسانِ وأقصى الحنكِ فيخترقُه النفَسُ جريانًا محتكًّا خشنًا متّصلًا يُخلخِلُ ما يمرُّ فيه ويُنقِصُه",
+     "faces_registered": [
+      {
+       "face_ar": "م1: التضييقُ (المَضيق)",
+       "witnesses": [
+        "خص"
+       ],
+       "n": 1,
+       "weak": true
+      },
+      {
+       "face_ar": "م2: الاختراقُ والنفوذُ الجاري",
+       "witnesses": [
+        "خط",
+        "خز",
+        "خذ",
+        "خر"
+       ],
+       "n": 4,
+       "weak": false
+      },
+      {
+       "face_ar": "م3: التخلخلُ والنقصُ والفراغ",
+       "witnesses": [
+        "خل",
+        "خر",
+        "خب",
+        "خس",
+        "خش",
+        "خف",
+        "خت",
+        "خن",
+        "خد",
+        "خض",
+        "خب"
+       ],
+       "n": 11,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الجفافُ والغِلَظُ (خشونةُ الاحتكاكِ المهموس)، شاهدةٌ نصًّا في خش وخذ",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "د",
      "label": "د",
      "charge_ar": "ضَبط + ثَبات / دَفع داخليّ ثابت",
      "phonetic_note_en": "tongue behind teeth, a firm closed nudge",
-     "gloss_en": "fixity, grounding, settled push"
+     "gloss_en": "fixity, grounding, settled push",
+     "gesture_event_ar": "إطباقُ طرفِ اللسانِ على أصولِ الثنايا يحبِسُ النفَسَ بضغطٍ ثابتٍ ثمّ ينفتحُ عنه دفعةً نافذةً ممتدّةً إلى الأمام",
+     "faces_registered": [
+      {
+       "face_ar": "م1: الإطباقُ والالتقاء",
+       "witnesses": [],
+       "n": 0,
+       "weak": true
+      },
+      {
+       "face_ar": "م2: الاحتباسُ والضغطُ والثبات",
+       "witnesses": [
+        "دف",
+        "دح",
+        "دث",
+        "دب",
+        "دع",
+        "دق",
+        "دن"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "م3: الدفعُ النافذُ الممتدّ",
+       "witnesses": [
+        "در",
+        "دس",
+        "ده",
+        "دل",
+        "دع",
+        "دق",
+        "دن"
+       ],
+       "n": 7,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الامتداد الطولي (عن جبل)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ذ",
      "label": "ذ",
      "charge_ar": "نَفاذ + حِدَّة / إبراز من باطن",
      "phonetic_note_en": "tongue between teeth with voice",
-     "gloss_en": "piercing from inside, fine bringing-out"
+     "gloss_en": "piercing from inside, fine bringing-out",
+     "gesture_event_ar": "طرفُ اللسانِ يبرزُ من باطنِ الفمِ فيماسُّ الأسنانَ مماسّةً رخوةً، ويجري النفَسُ المجهورُ في مضيقِها جريانًا متّصلًا نافذًا، ثمّ يسترسلُ ناثرًا دقيقًا حتى ينقطعَ، لا انطباقَ تامًّا فيه ولا انفجار.",
+     "faces_registered": [
+      {
+       "face_ar": "الإبرازُ والمماسّةُ الرخوة",
+       "witnesses": [
+        "ذل"
+       ],
+       "n": 1,
+       "weak": true
+      },
+      {
+       "face_ar": "النفاذُ الحادُّ المتّصل",
+       "witnesses": [
+        "ذر",
+        "ذخ",
+        "ذب",
+        "ذك",
+        "ذق",
+        "ذء",
+        "ذو"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "الاسترسالُ والنثرُ بدقّة",
+       "witnesses": [
+        "ذر",
+        "ذخ",
+        "ذب",
+        "ذع",
+        "ذن",
+        "ذه"
+       ],
+       "n": 6,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الرخاوة والغلظ",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ر",
      "label": "ر",
      "charge_ar": "تَكرار + جَريان",
      "phonetic_note_en": "tongue tip rolls against the alveolar ridge",
-     "gloss_en": "repetition, running, flow"
+     "gloss_en": "repetition, running, flow",
+     "gesture_event_ar": "خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.",
+     "faces_registered": [
+      {
+       "face_ar": "الجريانُ المسترسِل (النفاذُ والامتداد)",
+       "witnesses": [
+        "رأ",
+        "رس",
+        "رف",
+        "رو",
+        "رز",
+        "رد",
+        "رع",
+        "رق",
+        "رن"
+       ],
+       "n": 9,
+       "weak": false
+      },
+      {
+       "face_ar": "الخفقاتُ المتواليات (التكرارُ والتردُّد)",
+       "witnesses": [
+        "رج",
+        "رش",
+        "رح"
+       ],
+       "n": 3,
+       "weak": false
+      },
+      {
+       "face_ar": "اللمسةُ الماسكة (التماسُكُ والالتحام)",
+       "witnesses": [
+        "رب",
+        "رت",
+        "رص"
+       ],
+       "n": 3,
+       "weak": false
+      },
+      {
+       "face_ar": "خفّةُ اللمسة (الرقّةُ والرخاوةُ واللطف)",
+       "witnesses": [
+        "رأ",
+        "رض",
+        "رف",
+        "رو",
+        "رش",
+        "رع",
+        "رغ",
+        "رم",
+        "رك",
+        "ره",
+        "رب",
+        "رت",
+        "رخ",
+        "رذ",
+        "رط",
+        "رق"
+       ],
+       "n": 16,
+       "weak": false
+      }
+     ],
+     "manner_ar": "التماسُكُ اليسير («تماسُكٌ ما» عندَ جبل): إمساكٌ بلا قبضٍ ولا ضغط، يسري على الأوجهِ الأربعة",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ز",
      "label": "ز",
      "charge_ar": "اندفاع + اهتزاز / نَفاذ + حِدّة",
      "phonetic_note_en": "sharp voiced sibilant from the front",
-     "gloss_en": "thrust with vibration, sharp penetration"
+     "gloss_en": "thrust with vibration, sharp penetration",
+     "gesture_event_ar": "مضيقٌ يضيقُ بين طرفِ اللسانِ واللثةِ فيكتنزُ فيه النفَسُ متضاغطًا، ويجري فيه جريانًا متّصلًا حادًّا نافذًا، والوترانِ يهتزّانِ معه صفيرًا مجهورًا من أوّلِ الحدثِ إلى آخرِه.",
+     "faces_registered": [
+      {
+       "face_ar": "التضاغطُ والاكتنازُ في المضيق",
+       "witnesses": [
+        "زك",
+        "زد",
+        "زق",
+        "زم",
+        "زن",
+        "زب",
+        "زر"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "الجريانُ النافذُ الحادّ",
+       "witnesses": [
+        "زل",
+        "زح",
+        "زج",
+        "زخ",
+        "زغ",
+        "زه",
+        "زر",
+        "زب",
+        "زف"
+       ],
+       "n": 9,
+       "weak": false
+      },
+      {
+       "face_ar": "الاهتزازُ الخفيفُ المجهور",
+       "witnesses": [
+        "زع",
+        "زف"
+       ],
+       "n": 2,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الصفيرُ والجهرُ (من قراءةِ الفم؛ لا نصَّ لجبل على سمةِ أداءٍ في مادّةِ الملفّ)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "س",
      "label": "س",
      "charge_ar": "امتداد + سَيَلان",
      "phonetic_note_en": "breathy sibilant gliding forward",
-     "gloss_en": "extending flow, fine streaming"
+     "gloss_en": "extending flow, fine streaming",
+     "gesture_event_ar": "حصرٌ دقيقٌ للنفَسِ في مجرًى ضيّقٍ بينَ أسَلةِ اللسانِ والثنايا، يجري فيه جريانًا متّصلًا مهموسًا صافرًا، ثمّ ينفذُ من بينِ الأسنانِ ممتدًّا خارجًا",
+     "faces_registered": [
+      {
+       "face_ar": "م1: الحصرُ والضيقُ والدقّة (إحكامُ المجرى الضيّق)",
+       "witnesses": [
+        "سب",
+        "سج",
+        "سف",
+        "سك",
+        "سه",
+        "سد",
+        "سط"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "م2: الجريانُ الممتدُّ المتّصل (السيلانُ المهموسُ الصافر)",
+       "witnesses": [
+        "سر",
+        "سب",
+        "سل",
+        "سج",
+        "سو",
+        "سن",
+        "سح",
+        "سس",
+        "سط",
+        "سغ",
+        "سم"
+       ],
+       "n": 11,
+       "weak": false
+      },
+      {
+       "face_ar": "م3: النفاذُ والخروجُ من الأثناء",
+       "witnesses": [
+        "سر",
+        "سل",
+        "سف",
+        "سع",
+        "سن",
+        "سح",
+        "سخ",
+        "سق",
+        "سغ"
+       ],
+       "n": 9,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الصفير المهموس (وهو الذي قنّنه جبل باسم «الدقّة»)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ش",
      "label": "ش",
      "charge_ar": "انتشار + تَفَرُّق",
      "phonetic_note_en": "wide breathy spread from the front of the mouth",
-     "gloss_en": "branching, scattering outward"
+     "gloss_en": "branching, scattering outward",
+     "gesture_event_ar": "يرتفعُ اللسانُ نحوَ الحنكِ فيَحصُرُ النفَسَ في مجرًى ضيّقٍ عريض، فيجري فيه جريانًا متّصلًا نافذًا، ثمّ يتفشّى منتشرًا دقيقًا متفرّقًا في مقدَّمِ الفم.",
+     "faces_registered": [
+      {
+       "face_ar": "الحصرُ والضمّ",
+       "witnesses": [
+        "شد",
+        "شك",
+        "شظ",
+        "شغ",
+        "شب",
+        "شم"
+       ],
+       "n": 6,
+       "weak": false
+      },
+      {
+       "face_ar": "الجريانُ النافذُ الممتدّ",
+       "witnesses": [
+        "شع",
+        "شط",
+        "شك",
+        "شق",
+        "شج",
+        "شظ",
+        "شغ"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "التفشّي والانتشارُ الدقيق",
+       "witnesses": [
+        "شر",
+        "شع",
+        "شت",
+        "شن",
+        "شف",
+        "شه",
+        "شط",
+        "شق",
+        "شج",
+        "شب",
+        "شم",
+        "شو"
+       ],
+       "n": 12,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الدقّة (وهي في لسان القدماء التفشّي مع الهمس والرخاوة)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ص",
      "label": "ص",
      "charge_ar": "صَلابة + إطباق",
      "phonetic_note_en": "emphatic sibilant from a tight palate",
-     "gloss_en": "hardness, sealed strength"
+     "gloss_en": "hardness, sealed strength",
+     "gesture_event_ar": "إطباقٌ صلبٌ لأقصى اللسانِ على الحنكِ يحصُرُ النفَسَ في مجرًى ضيّقٍ خلفَ الأسنان، فيجري منه صفيرٌ غليظٌ نافذٌ متّصلٌ لا انفجارَ فيه.",
+     "faces_registered": [
+      {
+       "face_ar": "الإطباقُ الصلبُ والإمساك",
+       "witnesses": [
+        "صم",
+        "صل",
+        "صد",
+        "صح",
+        "صن",
+        "صك",
+        "صي",
+        "صف"
+       ],
+       "n": 8,
+       "weak": false
+      },
+      {
+       "face_ar": "الحصرُ والضغطُ في المضيق",
+       "witnesses": [
+        "صم",
+        "صن",
+        "صك",
+        "صر",
+        "صت"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "النفاذُ الصفيريُّ والجريانُ والخلوص",
+       "witnesses": [
+        "صب",
+        "صخ",
+        "صه",
+        "صع",
+        "صف"
+       ],
+       "n": 5,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الغلظُ والقوّةُ (الصفيرُ المُطبَقُ المفخَّم)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ض",
      "label": "ض",
      "charge_ar": "ضَمّ + ثِقَل / ضَغط + كَثافة",
      "phonetic_note_en": "emphatic voiced lateral, tongue presses heavy",
-     "gloss_en": "drawing-together with weight, dense pressure"
+     "gloss_en": "drawing-together with weight, dense pressure",
+     "gesture_event_ar": "انطباقٌ عريضٌ ثقيلٌ لحافّةِ اللسانِ يُطبِقُ على الحنكِ فيحتبسُ النفَسُ تحتَه مضغوطًا بكثافةٍ، ثمّ يستطيلُ الصوتُ في مجراهُ الجانبيِّ وينفرجُ عنه منبسطًا بثِقَلِه.",
+     "faces_registered": [
+      {
+       "face_ar": "م1: الضمُّ واللقاءُ الثقيل",
+       "witnesses": [
+        "ضم",
+        "ضف",
+        "ضو",
+        "ضغ",
+        "ضب",
+        "ضل"
+       ],
+       "n": 6,
+       "weak": false
+      },
+      {
+       "face_ar": "م2: الاحتباسُ والضغطُ بكثافة",
+       "witnesses": [
+        "ضز",
+        "ضق",
+        "ضر",
+        "ضن",
+        "ضد",
+        "ضم",
+        "ضب",
+        "ضع",
+        "ضج"
+       ],
+       "n": 9,
+       "weak": false
+      },
+      {
+       "face_ar": "م3: الاستطالةُ والامتدادُ الجانبيّ",
+       "witnesses": [
+        "ضل",
+        "ضد"
+       ],
+       "n": 2,
+       "weak": false
+      },
+      {
+       "face_ar": "م4: الانفراجُ والانبساطُ والخروج",
+       "witnesses": [
+        "ضح",
+        "ضه",
+        "ضع",
+        "ضج"
+       ],
+       "n": 4,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الكثافةُ والغِلَظُ (وهما في الفمِ الإطباقُ والتفخيم)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ط",
      "label": "ط",
      "charge_ar": "انبساط + انتشار ثَقيل",
      "phonetic_note_en": "emphatic dental, a heavy spreading touch",
-     "gloss_en": "broad heavy spreading"
+     "gloss_en": "broad heavy spreading",
+     "gesture_event_ar": "إطباقٌ عريضٌ ثقيلٌ للسانِ يحبسُ النفَسَ بضغطٍ ثمّ ينفتحُ عنه منبسِطًا منتشرًا.",
+     "faces_registered": [
+      {
+       "face_ar": "الإطباقُ العريضُ والتغطية",
+       "witnesses": [
+        "طو",
+        "طب",
+        "طم",
+        "طق",
+        "طن",
+        "طغ"
+       ],
+       "n": 6,
+       "weak": false
+      },
+      {
+       "face_ar": "الاحتباسُ والضغط",
+       "witnesses": [
+        "طح",
+        "طع",
+        "طم",
+        "طق",
+        "طن"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "الانبساطُ والانتشارُ الثقيل",
+       "witnesses": [
+        "طح",
+        "طل",
+        "طر",
+        "طف",
+        "طد",
+        "طغ"
+       ],
+       "n": 6,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الاتساع والاستغلاظ (الثقل والتفخيم)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ظ",
      "label": "ظ",
      "charge_ar": "بُروز + حِدّة / إظهار قويّ",
      "phonetic_note_en": "emphatic interdental",
-     "gloss_en": "pronounced surfacing, edged prominence"
+     "gloss_en": "pronounced surfacing, edged prominence",
+     "gesture_event_ar": "يبرزُ طرفُ اللسانِ إلى حدِّ الأسنانِ ملتصقًا بها التصاقًا رخوًا، ويُطبِقُ أقصى اللسانِ سقفًا يُكثِّفُ الصوتَ ويُغلِظُه، فيجري النفَسُ المجهورُ في المجرى الضيّقِ جريانًا متّصلًا نافذًا إلى الخارج.",
+     "faces_registered": [
+      {
+       "face_ar": "البروزُ والالتصاقُ الظاهر",
+       "witnesses": [
+        "ظع",
+        "ظم",
+        "ظف"
+       ],
+       "n": 3,
+       "weak": false
+      },
+      {
+       "face_ar": "الإطباقُ والتكاثُفُ الحاجب",
+       "witnesses": [
+        "ظل",
+        "ظف"
+       ],
+       "n": 2,
+       "weak": false
+      },
+      {
+       "face_ar": "النفاذُ المتّصل",
+       "witnesses": [
+        "ظن",
+        "ظه"
+       ],
+       "n": 2,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الغلظُ والكثافةُ مع الحدّة (أثرُ الإطباقِ والجهر)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ع",
      "label": "ع",
      "charge_ar": "قَبضٌ حَلقيٌّ + شِدّة",
      "phonetic_note_en": "deep guttural pharyngeal grip",
-     "gloss_en": "depth-grip, intense from the throat"
+     "gloss_en": "depth-grip, intense from the throat",
+     "gesture_event_ar": "قبضٌ يلتحمُ في أقصى الحلقِ على رقّةٍ، يجري فيه النفَسُ المجهورُ جريانًا ممتدًّا في أضيقِ المجاري وأعمقِها، فيظهرُ الصوتُ من العمقِ إلى الخارج.",
+     "faces_registered": [
+      {
+       "face_ar": "القبضُ والالتحامُ الحلقيّ",
+       "witnesses": [
+        "عم",
+        "عذ",
+        "عب",
+        "عز",
+        "عق",
+        "عج",
+        "عص",
+        "عظ",
+        "عش",
+        "عض",
+        "عك",
+        "عث",
+        "عل"
+       ],
+       "n": 13,
+       "weak": false
+      },
+      {
+       "face_ar": "الجريانُ والامتدادُ في المضيق",
+       "witnesses": [
+        "عد",
+        "عس",
+        "عط",
+        "عش",
+        "عت",
+        "عل"
+       ],
+       "n": 6,
+       "weak": false
+      },
+      {
+       "face_ar": "الظهورُ من العمق",
+       "witnesses": [
+        "عس",
+        "عن",
+        "عث",
+        "عر"
+       ],
+       "n": 4,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الرقّةُ مع حدّةٍ ما (رخاوةُ الجرمِ الملتحم): بَينيّةُ العينِ بينَ الشدّةِ والرخاوة",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "غ",
      "label": "غ",
      "charge_ar": "غَور يَستر / غِطاء + خَفاء",
      "phonetic_note_en": "back-of-throat fricative",
-     "gloss_en": "concealing depth, covering"
+     "gloss_en": "concealing depth, covering",
+     "gesture_event_ar": "غَؤورٌ في أقصى الحلقِ يعقِدُ غِطاءً رخوًا كثيفًا يستُرُ المجرى ولا يقطعُه، والنفَسُ المجهورُ يجري من خلفِه محتكًّا نافذًا من الغَورِ إلى الخارج.",
+     "faces_registered": [
+      {
+       "face_ar": "الغَؤورُ والباطن",
+       "witnesses": [
+        "غب",
+        "غر",
+        "غط",
+        "غس",
+        "غو",
+        "غن",
+        "غظ"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "السترُ والتغطيةُ بالكثافة",
+       "witnesses": [
+        "غب",
+        "غر",
+        "غط",
+        "غس",
+        "غو",
+        "غن",
+        "غم",
+        "غش",
+        "غل"
+       ],
+       "n": 9,
+       "weak": false
+      },
+      {
+       "face_ar": "النفاذُ الجاري من الغَور (بروزٌ من غَور)",
+       "witnesses": [
+        "غز",
+        "غص",
+        "غل"
+       ],
+       "n": 3,
+       "weak": false
+      }
+     ],
+     "manner_ar": "التخلخُلُ مع الرخاوةِ والكثافة (شهودُها من الصندوق: غض، غد، غث)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ف",
      "label": "ف",
      "charge_ar": "تَفريق + نَفاذ / انفِتاح + شَقّ",
      "phonetic_note_en": "breath escapes between lip and upper teeth",
-     "gloss_en": "parting through, splitting open"
+     "gloss_en": "parting through, splitting open",
+     "gesture_event_ar": "استنادُ الشفةِ السفلى إلى أطرافِ الثنايا العليا يشقُّ مجرًى ضيّقًا ينفُذُ منه النفَسُ جريانًا متّصلًا ثمّ يخرجُ متفرّقًا مُبعَدًا.",
+     "faces_registered": [
+      {
+       "face_ar": "الشقُّ والانفتاحُ الضيّق",
+       "witnesses": [
+        "فق",
+        "فأ",
+        "فج",
+        "فم",
+        "فه",
+        "فت",
+        "فض"
+       ],
+       "n": 7,
+       "weak": false
+      },
+      {
+       "face_ar": "النفاذُ والجريانُ المتّصل",
+       "witnesses": [
+        "فس",
+        "فخ",
+        "فح",
+        "فز",
+        "فش"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "التفريقُ والإبعاد",
+       "witnesses": [
+        "فر",
+        "فص",
+        "فك",
+        "فل",
+        "فت",
+        "فض",
+        "فح",
+        "فز",
+        "فش"
+       ],
+       "n": 9,
+       "weak": false
+      }
+     ],
+     "manner_ar": "القوّة (عن جبل: «بقوّة»)، تسري على الوجوه الثلاثة وتظهر معزولةً في فع وفد وفط",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ق",
      "label": "ق",
      "charge_ar": "قَطع + إحكام",
      "phonetic_note_en": "back-of-palate stop, firm release",
-     "gloss_en": "cutting precision, firm settling"
+     "gloss_en": "cutting precision, firm settling",
+     "gesture_event_ar": "انعقادُ أقصى اللسانِ على أقصى الحنكِ يحتبسُ خلفَه النفَسُ مشتدًّا ثمّ ينقطعُ عنه بإطلاقٍ قاطعٍ شديد.",
+     "faces_registered": [
+      {
+       "face_ar": "م1: العقد والالتئام في العمق",
+       "witnesses": [
+        "قو",
+        "قب",
+        "قم",
+        "قن",
+        "قش"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "م2: الاحتباس والاشتداد",
+       "witnesses": [
+        "قت",
+        "قر",
+        "قس",
+        "قع",
+        "قف",
+        "قح",
+        "قو",
+        "قب",
+        "قم",
+        "قه"
+       ],
+       "n": 10,
+       "weak": false
+      },
+      {
+       "face_ar": "م3: الإطلاق القاطع",
+       "witnesses": [
+        "قد",
+        "قص",
+        "قط",
+        "قض",
+        "قذ",
+        "قظ",
+        "قل",
+        "قه"
+       ],
+       "n": 8,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الشدة (مع العمق)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ك",
      "label": "ك",
      "charge_ar": "كَتم + قَطع",
      "phonetic_note_en": "unvoiced back-of-palate stop",
-     "gloss_en": "pressed closure, sealed cut"
+     "gloss_en": "pressed closure, sealed cut",
+     "gesture_event_ar": "التقاءٌ غائرٌ لأقصى اللسانِ بأقصى الحنكِ يكتمُ النفَسَ مضغوطًا ثمّ ينفتحُ عنه انفتاحًا مهموسًا قاطعًا.",
+     "faces_registered": [
+      {
+       "face_ar": "الالتقاءُ الغائرُ والتداخل",
+       "witnesses": [
+        "كت",
+        "كب",
+        "كث",
+        "كز",
+        "كد",
+        "كل"
+       ],
+       "n": 6,
+       "weak": false
+      },
+      {
+       "face_ar": "الكتمُ والاحتباسُ والامتساك",
+       "witnesses": [
+        "كك",
+        "كت",
+        "كف",
+        "كس",
+        "كب",
+        "كر",
+        "كث",
+        "كم",
+        "كن",
+        "كظ",
+        "كز",
+        "كش",
+        "كه",
+        "كع"
+       ],
+       "n": 14,
+       "weak": false
+      },
+      {
+       "face_ar": "القطعُ والانفلاتُ والخروج",
+       "witnesses": [
+        "كك",
+        "كس",
+        "كد",
+        "كش",
+        "كه",
+        "كع",
+        "كل"
+       ],
+       "n": 7,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الغؤور والدقة (عن جبل)، ويوافقهما في الفم الهمس والشدة",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ل",
      "label": "ل",
      "charge_ar": "تَعَلُّق + امتِداد",
      "phonetic_note_en": "tongue against alveolar ridge, voiced glide",
-     "gloss_en": "attachment that extends, a bridge"
+     "gloss_en": "attachment that extends, a bridge",
+     "gesture_event_ar": "تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.",
+     "faces_registered": [
+      {
+       "face_ar": "الوجه 1: التعلُّق والالتصاق والحَوز",
+       "witnesses": [
+        "لد",
+        "لب",
+        "لق",
+        "لح",
+        "لم",
+        "لت",
+        "لج",
+        "لذ",
+        "لز",
+        "لس",
+        "لط",
+        "لك"
+       ],
+       "n": 12,
+       "weak": false
+      },
+      {
+       "face_ar": "الوجه 2: الامتداد والانسياب والانتشار",
+       "witnesses": [
+        "له",
+        "لح",
+        "لغ",
+        "لف",
+        "لم"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "الوجه 3: الاستقلال والتميُّز والحِدّة الظاهرة",
+       "witnesses": [
+        "لع",
+        "لظ"
+       ],
+       "n": 2,
+       "weak": false
+      }
+     ],
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "م",
      "label": "م",
      "charge_ar": "تَجمُّع + تَلاصُق",
      "phonetic_note_en": "lips closing, the breath gathered",
-     "gloss_en": "gathering, sealing into a mass"
+     "gloss_en": "gathering, sealing into a mass",
+     "gesture_event_ar": "انطباقٌ ضامٌّ للشفتَينِ يُمسِكُ النفَسَ المجهورَ في جوفٍ مغلقٍ ثمّ يُنفِذُه رنينًا ممتدًّا من الأنف",
+     "faces_registered": [
+      {
+       "face_ar": "الضمُّ واللقاءُ والتلاصق",
+       "witnesses": [
+        "مم",
+        "مس",
+        "مز",
+        "مض"
+       ],
+       "n": 4,
+       "weak": false
+      },
+      {
+       "face_ar": "الامتساكُ والاحتواءُ الباطن",
+       "witnesses": [
+        "من",
+        "مق",
+        "مك",
+        "مج",
+        "مخ",
+        "مص",
+        "مل",
+        "مع",
+        "مز"
+       ],
+       "n": 9,
+       "weak": false
+      },
+      {
+       "face_ar": "النفاذُ الممتدُّ والاسترسال",
+       "witnesses": [
+        "مر",
+        "مد",
+        "مت",
+        "مط",
+        "مش",
+        "مء",
+        "مث",
+        "مح",
+        "مج",
+        "مخ",
+        "مص",
+        "مل",
+        "مع",
+        "مض"
+       ],
+       "n": 14,
+       "weak": false
+      }
+     ],
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ن",
      "label": "ن",
      "charge_ar": "رَنين + انبِعاث",
      "phonetic_note_en": "nasal resonance from inside",
-     "gloss_en": "inner resonance emitted outward"
+     "gloss_en": "inner resonance emitted outward",
+     "gesture_event_ar": "انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+     "faces_registered": [
+      {
+       "face_ar": "الاحتواءُ والاحتباسُ الجوفيّ",
+       "witnesses": [
+        "نن",
+        "نو",
+        "نه",
+        "نج",
+        "نق",
+        "نز",
+        "نط",
+        "نظ"
+       ],
+       "n": 8,
+       "weak": false
+      },
+      {
+       "face_ar": "الرنينُ الباطنيُّ اللطيف",
+       "witnesses": [
+        "نع",
+        "نغ",
+        "نخ",
+        "نج",
+        "نم"
+       ],
+       "n": 5,
+       "weak": false
+      },
+      {
+       "face_ar": "النفاذُ والانبعاثُ من الباطنِ إلى الخارج",
+       "witnesses": [
+        "نح",
+        "نض",
+        "نذ",
+        "نس",
+        "نص",
+        "نف",
+        "نز",
+        "نق",
+        "نط",
+        "نب",
+        "نش",
+        "نت",
+        "نث",
+        "ند",
+        "نأ",
+        "نر",
+        "نك",
+        "نظ",
+        "نم"
+       ],
+       "n": 19,
+       "weak": false
+      }
+     ],
+     "manner_ar": "اللطف (عن جبل)، ومعه الغنّة والجهر",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ه",
      "label": "ه",
      "charge_ar": "همس + تَنَفُّس",
      "phonetic_note_en": "a soft exhale from the throat",
-     "gloss_en": "breath, soft passing"
+     "gloss_en": "breath, soft passing",
+     "gesture_event_ar": "مجرًى ينفتحُ كلُّه خاليًا، يجري فيه النفَسُ من الجوفِ جريانًا متّصلًا مهموسًا، ثمّ يخفُتُ متلاشيًا.",
+     "faces_registered": [
+      {
+       "face_ar": "م1: الفراغُ والخلاء (انفتاحُ المجرى خاليًا بلا انطباق)",
+       "witnesses": [
+        "هل",
+        "هج",
+        "هش"
+       ],
+       "n": 3,
+       "weak": false
+      },
+      {
+       "face_ar": "م2: إفراغُ الجوفِ وجريانُ النفَسِ المتّصل",
+       "witnesses": [
+        "هب",
+        "هت",
+        "هج",
+        "هط"
+       ],
+       "n": 4,
+       "weak": false
+      },
+      {
+       "face_ar": "م3: الرقّةُ والخفوتُ والتلاشي",
+       "witnesses": [
+        "هز",
+        "هم",
+        "هر",
+        "هش",
+        "هض",
+        "هط",
+        "هن"
+       ],
+       "n": 7,
+       "weak": false
+      }
+     ],
+     "manner_ar": "الهمس (من شحنتِنا المجمَّدة وملاحظتِنا النطقيّة؛ لم يرِدْ لجبل وصفُ أداءٍ في مادّةِ الملفّ)",
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "و",
      "label": "و",
      "charge_ar": "وَصل + ربط",
      "phonetic_note_en": "rounded lips, a sustained connector",
-     "gloss_en": "binding, joining, sustained link"
+     "gloss_en": "binding, joining, sustained link",
+     "gesture_event_ar": "تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.",
+     "faces_registered": [
+      {
+       "face_ar": "العقد والإحاطة والاحتواء",
+       "witnesses": [
+        "ود",
+        "وع",
+        "وح"
+       ],
+       "n": 3,
+       "weak": false
+      },
+      {
+       "face_ar": "الوصل الممدود والربط",
+       "witnesses": [
+        "ود",
+        "وف"
+       ],
+       "n": 2,
+       "weak": false
+      },
+      {
+       "face_ar": "الانفراج والإفضاء",
+       "witnesses": [
+        "وف",
+        "ون"
+       ],
+       "n": 2,
+       "weak": false
+      }
+     ],
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     },
     {
      "letter": "ي",
      "label": "ي",
      "charge_ar": "امتداد + لِين + سَريان",
      "phonetic_note_en": "front of palate, voiced glide",
-     "gloss_en": "gentle directed extension"
+     "gloss_en": "gentle directed extension",
+     "gesture_event_ar": "يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+     "faces_registered": [
+      {
+       "face_ar": "التقريبُ والالتصاقُ الناعم",
+       "witnesses": [],
+       "n": 0,
+       "weak": true
+      },
+      {
+       "face_ar": "الامتدادُ والسريان",
+       "witnesses": [
+        "يد",
+        "يوم"
+       ],
+       "n": 2,
+       "weak": false
+      },
+      {
+       "face_ar": "الإطلاقُ والانسيابُ الممدود",
+       "witnesses": [],
+       "n": 0,
+       "weak": true
+      }
+     ],
+     "registry_status": "DRAFT v1.0, كلُّ بطاقةٍ مسودّةٌ بانتظارِ توقيعِ المؤلّف"
     }
    ]
   },
   "level_2_binary_nuclei": {
    "description": "The binary (two-letter) nuclei: the meaning-seeds. jabal_lexicon_reading_ar = Dr. M. H. Jabal's lexicon-derived axial reading; composed_reading_ar/en = the project's charge-composed reading (Quran-anchored where quran_anchors is present). Hollow-root rule (constitutional amendment 1, 2026-07-06): hollow roots are binary in origin, the weak middle glide is a vowel-stretcher, so mawt -> m-t, mawj -> m-j, mal -> m-l, ma' -> m-h; there is no m-w nucleus. field_card marks nuclei with a frozen pre-registered semantic-field card.",
-   "count": 457,
+   "count": 452,
    "nuclei": [
     {
      "nucleus": "ءب",
@@ -351,7 +1647,7 @@
      "composed_reading_ar": "ابتِداءٌ مَوصولٌ بِأصلٍ يَؤولُ إليه",
      "root_count": 276,
      "quran_anchors": "001:001, 002:255, 093:006",
-     "jabal_lexicon_reading_ar": "اتساع الحيز والامتلاء \\",
+     "jabal_lexicon_reading_ar": "اتساع الحيز والامتلاء",
      "jabal_letter2_desc_ar": "اشتمال واحتواء"
     },
     {
@@ -364,15 +1660,8 @@
      "composed_reading_ar": "تأكيدٌ متّصل ممتدّ",
      "root_count": 36,
      "quran_anchors": "002:021, 002:087, 002:248",
-     "jabal_lexicon_reading_ar": "الوجود وحالاته بين الضعف والظهور \\",
+     "jabal_lexicon_reading_ar": "الوجود وحالاته بين الضعف والظهور",
      "jabal_letter2_desc_ar": "اتصال الممتد شيئاً واحداً وعدم تفرقه"
-    },
-    {
-     "nucleus": "التراكيبالخائية",
-     "sources": [
-      "jabal-nuclei-undocumented.md"
-     ],
-     "jabal_lexicon_reading_ar": "الفراغ أو الخلو في بنية الشيء"
     },
     {
      "nucleus": "بء",
@@ -911,14 +2200,6 @@
      "jabal_lexicon_reading_ar": "التبطن والكثرة في الداخل",
      "jabal_letter1_desc_ar": "كثافة أو غلظ مع تفشٍّ وانتشار",
      "jabal_letter2_desc_ar": "امتداد لطيف في الباطن أو منه"
-    },
-    {
-     "nucleus": "جn",
-     "sources": [
-      "jabal-nuclei-undocumented.md"
-     ],
-     "jabal_lexicon_reading_ar": "الستر والكثافة",
-     "jabal_letter1_desc_ar": "تجمع هش مع حدة ما"
     },
     {
      "nucleus": "جب",
@@ -1583,15 +2864,6 @@
      "jabal_letter2_desc_ar": "امتداد لطيف في الباطن أو منه"
     },
     {
-     "nucleus": "خوب/خيب",
-     "sources": [
-      "jabal-nuclei-undocumented.md"
-     ],
-     "jabal_lexicon_reading_ar": "تخلخل باطن الشيء المتجمع",
-     "jabal_letter1_desc_ar": "تخلخل مع جفاف أو غلظ",
-     "jabal_letter2_desc_ar": "اشتمال واحتواء"
-    },
-    {
      "nucleus": "دب",
      "sources": [
       "jabal-nuclei-undocumented.md"
@@ -1714,7 +2986,7 @@
      "jabal_lexicon_reading_ar": "الحدر أو الدفع في فراغ أو مهواة"
     },
     {
-     "nucleus": "ذأ/ء",
+     "nucleus": "ذء",
      "sources": [
       "jabal-nuclei-undocumented.md"
      ],
@@ -1740,7 +3012,7 @@
      "sources": [
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "النثر والنفاذ بدقة واسترسال \\",
+     "jabal_lexicon_reading_ar": "النثر والنفاذ بدقة واسترسال",
      "jabal_letter1_desc_ar": "نفاذ ثخين ذي رخاوة وغلظ",
      "jabal_letter2_desc_ar": "تخلخل مع جفاف أو غلظ"
     },
@@ -2081,7 +3353,7 @@
      "composed_reading_ar": "حَركةٌ حارّةٌ داخلَ جِسم",
      "root_count": 2,
      "quran_anchors": "002:185, 105:004",
-     "jabal_lexicon_reading_ar": "التجمع الرخو في الأثناء من تحول ذي حدة \\",
+     "jabal_lexicon_reading_ar": "التجمع الرخو في الأثناء من تحول ذي حدة",
      "jabal_letter1_desc_ar": "استرسال مع تماسك ما",
      "jabal_letter2_desc_ar": "امتساك واستواء ظاهري"
     },
@@ -2335,7 +3607,7 @@
      "composed_reading_ar": "سريانٌ خالص ما يمتدّ بصفاءٍ ويجري",
      "root_count": 1,
      "quran_anchors": "002:164",
-     "jabal_lexicon_reading_ar": "تسيُّب الشيء أو انفصاله بلطف أو دقة عن مقره",
+     "jabal_lexicon_reading_ar": "تسيُّب الشيء أو انفصاله بلطف أو دقة عن مقره",
      "jabal_letter1_desc_ar": "امتداد بدقة ووحدة",
      "jabal_letter2_desc_ar": "احتكاك بعرض وجفاف في الباطن"
     },
@@ -3331,14 +4603,6 @@
      "jabal_letter2_desc_ar": "فراغ أو إفراغ ما في الجوف"
     },
     {
-     "nucleus": "عs",
-     "sources": [
-      "jabal-nuclei-undocumented.md"
-     ],
-     "jabal_lexicon_reading_ar": "نفاذ في كثيف أو منه بامتداد ما",
-     "jabal_letter1_desc_ar": "التحام على رقة مع حدة ما / رخاوة جرم ملتحم"
-    },
-    {
      "nucleus": "عب",
      "sources": [
       "jabal-nuclei-extended.md",
@@ -3732,7 +4996,7 @@
      "sources": [
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "دس الشيء في أثناء شيء فيُغَطَّى",
+     "jabal_lexicon_reading_ar": "دس الشيء في أثناء شيء فيُغَطَّى",
      "jabal_letter1_desc_ar": "تخلخل مع شيء من رخاوة وكثافة",
      "jabal_letter2_desc_ar": "ضغط باتّساع واستغلاظ"
     },
@@ -4996,7 +6260,7 @@
      "composed_reading_ar": "نفاذٌ يظهر ما يبرز من الباطن ويرتفع",
      "root_count": 7,
      "quran_anchors": "002:033, 002:100, 002:213",
-     "jabal_lexicon_reading_ar": "النُّبُوُّ ارتفاعًا أو ابتعادًا",
+     "jabal_lexicon_reading_ar": "النُّبُوُّ ارتفاعًا أو ابتعادًا",
      "jabal_letter1_desc_ar": "امتداد لطيف في الباطن أو منه",
      "jabal_letter2_desc_ar": "تجمع رخو مع تلاصق ما"
     },
@@ -5014,7 +6278,7 @@
      "sources": [
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "الانتثار أو النشر بتفشٍّ واندفاع ما",
+     "jabal_lexicon_reading_ar": "الانتثار أو النشر بتفشٍّ واندفاع ما",
      "jabal_letter1_desc_ar": "امتداد لطيف في الباطن أو منه",
      "jabal_letter2_desc_ar": "كثافة أو غلظ مع تفشٍّ وانتشار"
     },
@@ -5298,14 +6562,6 @@
      "jabal_letter2_desc_ar": "اشتمال واحتواء"
     },
     {
-     "nucleus": "ه",
-     "sources": [
-      "jabal-nuclei-undocumented.md"
-     ],
-     "jabal_lexicon_reading_ar": "الفراغ وما يتولد عنه من امتداد أو ضعف أو استعداد",
-     "jabal_letter1_desc_ar": "فراغ أو إفراغ ما في الجوف"
-    },
-    {
      "nucleus": "هب",
      "sources": [
       "jabal-nuclei-extended.md",
@@ -5560,6 +6816,16 @@
      "jabal_lexicon_reading_ar": "امتداد الزمن",
      "jabal_letter1_desc_ar": "اتصال الممتد شيئاً واحداً وعدم تفرقه",
      "jabal_letter2_desc_ar": "اشتمال واحتواء"
+    }
+   ],
+   "excluded_rows": [
+    {
+     "row": "التراكيبالخائية",
+     "reason": "not a 2-3 letter nucleus (mangled label or swallowed section header)"
+    },
+    {
+     "row": "ه",
+     "reason": "not a 2-3 letter nucleus (mangled label or swallowed section header)"
     }
    ]
   },
