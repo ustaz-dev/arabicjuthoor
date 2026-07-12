@@ -215,7 +215,7 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **شق** | deep-force spreading, violent splitting | «انتشار بقوّة عميقة انشقاقٌ عنيف» | 2 | 2 | 002:137, 092:015 |
 | **طغ** | covering closure | «إطباقٌ يُغَطّي» | 2 | 2 | 002:015, 096:006 |
 | **طم** | gathering envelopment, clinging enclosure | «اشتمالٌ يتجمّع إحاطة تلتصق بالمطلوب» | 2 | 2 | 002:075, 002:260 |
-| **عن** | inner adhesion emerging hardship | «التِصاقٌ داخليٌّ يَبرُزُ مَشَقَّةً» | 2 | 2 | 002:220, 002:266 |
+| **عن** | inner adhesion emerging hardship | «التِصاقٌ داخليٌّ يَبرُز» | 2 | 2 | 002:220, 002:266 |
 | **عه** | void emergence, empty-space protrusion | «ظهورٌ في فراغ بروزٌ في فضاء خالٍ» | 2 | 2 | 002:040, 101:005 |
 | **غش** | inner covering spreading wide | «تغطيةٌ تنتشر غطاءٌ باطنيّ يمتدّ ليشمل كلّ شيء» | 2 | 2 | 002:007, 092:001 |
 | **غل** | dense inward penetration | «باطنٌ يتعلّقُ بنفاذٍ كثيف» | 2 | 2 | 002:088, 002:249 |
@@ -229,7 +229,7 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **كن** | pressing containment, inward emergence | «ضَغطٌ يَحبِسُ البُروزَ في الداخِل» | 2 | 2 | 002:235, 100:006 |
 | **لح** | warm frictional adhesion | «اتّصالٌ بِحَرارةِ احتِكاك (تَلاصُقُ الأنسِجةِ المُحَرَّكة)» | 2 | 2 | 002:259, 002:273 |
 | **مد** | driving enclosure | «إحاطةٌ دافِعة» | 2 | 2 | 002:015, 104:009 |
-| **مه** | revealing enclosure, embracing containment | «إحاطةٌ تُظهِرُ ما تَحتَضن» | 2 | 2 | 002:206, 086:017 |
+| **مه** | revealing enclosure, embracing containment | «ضمٌّ مُمسِكٌ يجري نفَسُه فيَخفُت» | 2 | 2 | 002:206, 086:017 |
 | **أس** | confirmation coursing, stability spreading | «تأكيدٌ يسري ثباتٌ ينتشر» | 1 | 1 | 002:085 |
 | **بت** | attachment resolved by precise cutting | «اتّصالٌ يَنحَسِمُ بقَطعٍ دَقيق» | 1 | 1 | 108:003 |
 | **بث** | attachment scattering | «اتِّصالٌ يَتَناثَر» | 1 | 1 | 101:004 |
@@ -280,7 +280,7 @@ Each row: nucleus, English gloss, the published Arabic primary reading, occurren
 | **مح** | gradual rubbing enclosure | «إحاطةٌ تَحتَكُّ بالمُحاطِ شَيئًا شَيئًا» | 1 | 1 | 002:276 |
 | **مش** | gathering-then-spreading, positioning-then-motion | «تَجَمُّعٌ ثم انتِشار تَمَوقُعٌ ثُمَّ حَركة» | 1 | 1 | 002:020 |
 | **نح** | warm-core outward emission | «انبعاثٌ يَخرجُ من جَوفٍ حارٍّ» | 1 | 1 | 108:002 |
-| **نخ** | rising emergence piercing through | «ظُهورٌ يَختَرِقُ صاعِدًا» | 1 | 1 | 002:266 |
+| **نخ** | rising emergence piercing through | «ظُهورٌ يَختَرِق» | 1 | 1 | 002:266 |
 | **نش** | spreading emergence | «ظُهورٌ مُنتَشِر» | 1 | 1 | 002:259 |
 | **هب** | emerging void, revealed emptiness | «فراغٌ يظهر خلاءٌ ينكشف» | 1 | 1 | 002:038 |
 | **هج** | inner surfacing, counter-intent gathering | «إفراغٌ من الجوفِ يَنتهي إلى اجتماعٍ وتكتُّل» | 1 | 1 | 002:218 |

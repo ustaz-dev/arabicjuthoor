@@ -2,7 +2,7 @@
  "project": "Juthoor (The Arabic Tongue) · core three levels export",
  "author": "Yassine Temessek · Temessek for Research, Publishing & Training",
  "source_repo": "github.com/ustaz-dev/arabicjuthoor",
- "exported_at_commit": "d781bb0",
+ "exported_at_commit": "d84d085",
  "license": "CC BY-NC-SA 4.0 · attribution required · research use",
  "levels": {
   "level_1_letter_charges": {
@@ -496,15 +496,13 @@
         "ذب",
         "ذك",
         "ذق",
-        "ذء"
+        "ذء",
+        "ذخ"
        ],
-       "n": 5,
+       "n": 6,
        "weak": false,
        "stretch_support": [
         "ذو"
-       ],
-       "suspect_support": [
-        "ذخ (قراءة مطابقة لذر حرفيا، يُتثبَّت من أصلها قبل عدّها)"
        ]
       },
       {
@@ -517,10 +515,7 @@
         "ذه"
        ],
        "n": 5,
-       "weak": false,
-       "suspect_support": [
-        "ذخ (قراءة مطابقة لذر حرفيا، يُتثبَّت من أصلها قبل عدّها)"
-       ]
+       "weak": false
       }
      ],
      "manner_ar": "الرخاوة والغلظ",
@@ -3310,7 +3305,7 @@
       "jabal-nuclei-catalog.md",
       "jabal-nuclei-undocumented.md"
      ],
-     "jabal_lexicon_reading_ar": "النثر والنفاذ بدقة واسترسال",
+     "jabal_lexicon_reading_ar": "النفاذ بقوة (غِلَظ) من أثناءَ أو فيها",
      "jabal_letter1_desc_ar": "نفاذ ثخين ذي رخاوة وغلظ",
      "jabal_letter2_desc_ar": "تخلخل مع جفاف أو غلظ"
     },
@@ -5365,9 +5360,10 @@
      "jabal_letter2_desc_ar": "امتداد لطيف في الباطن أو منه",
      "root_count": 12,
      "composed_reading_en": "inner adhesion emerging hardship",
-     "composed_reading_ar": "التِصاقٌ داخليٌّ يَبرُزُ مَشَقَّةً",
+     "composed_reading_ar": "التِصاقٌ داخليٌّ يَبرُز",
      "quran_anchors": "002:220, 002:266",
-     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)",
+     "legacy_reading_ar": "التِصاقٌ داخليٌّ يَبرُزُ مَشَقَّةً"
     },
     {
      "nucleus": "عه",
@@ -6949,9 +6945,10 @@
      "jabal_letter2_desc_ar": "فراغ أو إفراغ ما في الجوف",
      "root_count": 7,
      "composed_reading_en": "revealing enclosure, embracing containment",
-     "composed_reading_ar": "إحاطةٌ تُظهِرُ ما تَحتَضن",
+     "composed_reading_ar": "ضمٌّ مُمسِكٌ يجري نفَسُه فيَخفُت",
      "quran_anchors": "002:206, 086:017",
-     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)",
+     "legacy_reading_ar": "إحاطةٌ تُظهِرُ ما تَحتَضن"
     },
     {
      "nucleus": "نأ",
@@ -7037,9 +7034,10 @@
      "jabal_letter2_desc_ar": "تخلخل مع جفاف أو غلظ",
      "root_count": 4,
      "composed_reading_en": "rising emergence piercing through",
-     "composed_reading_ar": "ظُهورٌ يَختَرِقُ صاعِدًا",
+     "composed_reading_ar": "ظُهورٌ يَختَرِق",
      "quran_anchors": "002:266",
-     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)"
+     "field_card": "frozen v1.0 (03-scholar-extracts/nucleus-field-cards-draft.md)",
+     "legacy_reading_ar": "ظُهورٌ يَختَرِقُ صاعِدًا"
     },
     {
      "nucleus": "ند",
