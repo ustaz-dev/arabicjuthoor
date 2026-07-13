@@ -103,3 +103,7 @@
 6. **ظ ↔ ض خارج العربيّة.** الصفّ DENT-07 داخليٌّ عربيّ؛ انعكاسات ظ الأمّ في الفروع (عبريّة ṣ، آراميّة ṭ) موثَّقةٌ في المراجع المقارنة لكنّها لم تُطلَب في هذه المسودّة ولم تُجدوَل، وتصلح إضافةً في المراجعة.
 
 *English summary of the gaps:* DENT-06 and GUT-02 rest on documented loan routes, not descent pairs, and must carry a route flag per the constitution's loanword screen; no single-branch attestation was found for b ↔ f (LAB-02 rests on the two-branch reflexes of PIE *bʰ); Grimm's b to p leg is thin in all handbooks because PIE *b was rare; Sumerian, Chinese, and lexical Egyptian have no rows yet; the ʿ ↔ T move cited in the sabʿ/septem row lacks independent documentation and stays out for now (Khshim's fifth law was tabled as SIB-06 by author ruling, 2026-07-06, loan-route tag on its examples); the non-Arabic reflexes of ظ were not requested and are left for the review round.
+
+## إضافة دستورية مؤرَّخة (2026-07-13، بتوقيع المؤلف)
+
+**BR-EGYP-02 · قانونُ الجانبيّةِ المصريُّ الداخليّ (n تمثِّلُ /l/):** الخطُّ المصريُّ لا يملكُ حرفًا خاصًّا بالصوتِ /l/، وكان يُرسَمُ بـ n أو r أو nr، وتكشفُه القبطيّةُ لامًا صريحة. الشاهدُ النموذجيّ: المصرية ns «اللسان» [TLA 87800] ← القبطية ⲗⲁⲥ las [Crum, CD 144b]. المصادر: Loprieno, *Ancient Egyptian: A Linguistic Introduction* (1995)، جردُ الأصواتِ ورسمُ الجانبيّة؛ Peust, *Egyptian Phonology* (1999)، بابُ الذلقيّات. **النطاق:** قانونُ فرعٍ داخليٌّ (مصريّة ← قبطيّة/نطق) لا إبدالَ عبرَ عائلاتٍ؛ يُستعمَلُ لاستعادةِ أقدمِ صورةٍ منطوقةٍ قبلَ المقارنة، ويلزمُ سائرَ كلماتِ الفرعِ بقاعدةِ الاتساق.

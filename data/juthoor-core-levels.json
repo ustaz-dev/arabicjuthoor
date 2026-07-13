@@ -2,7 +2,7 @@
  "project": "Juthoor (The Arabic Tongue) · core three levels export",
  "author": "Yassine Temessek · Temessek for Research, Publishing & Training",
  "source_repo": "github.com/ustaz-dev/arabicjuthoor",
- "exported_at_commit": "6f4492b",
+ "exported_at_commit": "0edc69c",
  "license": "CC BY-NC-SA 4.0 · attribution required · research use",
  "levels": {
   "level_1_letter_charges": {
@@ -1573,7 +1573,7 @@
   },
   "level_2_binary_nuclei": {
    "description": "The binary (two-letter) nuclei: the meaning-seeds. jabal_lexicon_reading_ar = Dr. M. H. Jabal's lexicon-derived axial reading; composed_reading_ar/en = the project's charge-composed reading (Quran-anchored where quran_anchors is present). Hollow-root rule (constitutional amendment 1, 2026-07-06): hollow roots are binary in origin, the weak middle glide is a vowel-stretcher, so mawt -> m-t, mawj -> m-j, mal -> m-l, ma' -> m-h; there is no m-w nucleus. field_card marks nuclei with a frozen pre-registered semantic-field card.",
-   "count": 454,
+   "count": 455,
    "nuclei": [
     {
      "nucleus": "ءب",
@@ -7483,6 +7483,17 @@
      "jabal_letter1_desc_ar": "—",
      "jabal_letter2_desc_ar": "",
      "root_count": 1
+    },
+    {
+     "nucleus": "وب",
+     "sources": [
+      "jabal-nuclei-catalog.md",
+      "jabal-nuclei-extended.md"
+     ],
+     "letters": "و+ب",
+     "root_count": 4,
+     "composed_reading_en": "inward-cleaving junction",
+     "composed_reading_ar": "وصلٌ مُلتصقٌ بالباطن"
     },
     {
      "nucleus": "وح",

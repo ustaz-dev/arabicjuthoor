@@ -465,3 +465,11 @@ These nuclei have no published Tafsir Coran analysis yet. The English gloss is c
 | **ثن** | scattered resonance, granular emission | «تَناثُر + انبِعاث رَنيني» | not_earned | 17% | ث gives small-grained scattering, and ن turns that dispersed graininess into an inner resonance emitted outward. |
 | **ضه** | dense pressure, soft passing | «ضغط كثيف + مرور نَفَسي» | not_earned | 0% | ض gives drawing-together with weight and dense pressure, while ه lets it pass as breath, forming pressured softness in p |
 | **ون** | binding resonance, sustained emission | «رَبط + رَنين مُنبَعِث» | not_earned | 0% | و gives sustained linking, and ن turns that link into an inner resonance emitted outward. |
+
+## إضافة مؤرَّخة (2026-07-13، بقرار المؤلف)
+
+| النواة | القراءة EN | القراءة AR | جذور | مراسٍ | شواهد |
+|---|---|---|---|---|---|
+| **وب** | inward-cleaving junction | «وصلٌ مُلتصقٌ بالباطن» | 4 |  |  |
+
+المصدر: مساهمة مشروع التفسير (استعمال مثبت في مصحفهم)، والتأليف نقيٌّ من الوجوه المسجَّلة (و: الوصل الممدود والربط؛ ب: الاتصال والتمسُّك). لا يُنسَب إلى جبل، ولا يُعَدُّ صوتَ اقتراعٍ في محكمة الواو لأن أصوات المحاكم قراءاتُ جبل حصرًا.
