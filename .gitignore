@@ -30,3 +30,9 @@ skills-lock.json
 scratch/
 temp/
 outputs/
+
+# Raw research resources (4.5GB dictionaries/corpora; contains a nested git repo)
+# tracked exceptions: the index files only
+Resources/*
+!Resources/README.md
+!Resources/manifest.json

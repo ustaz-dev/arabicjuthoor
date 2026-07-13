@@ -1,0 +1,177 @@
+{
+ "generated": "2026-07-13 (full inventory)",
+ "sources": [
+  {
+   "name": "kaikki_akkadian",
+   "language": "Akkadian",
+   "path": "akkadian/kaikki.org-dictionary-Akkadian.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Akkadian/",
+   "note": "only ~50 entries; not a working lexicon"
+  },
+  {
+   "name": "kaikki_ancient_greek",
+   "language": "Ancient Greek",
+   "path": "ancient_greek/kaikki.org-dictionary-AncientGreek.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Ancient%20Greek/"
+  },
+  {
+   "name": "kaikki_aramaic",
+   "language": "Aramaic",
+   "path": "aramaic/kaikki.org-dictionary-Aramaic.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Aramaic/"
+  },
+  {
+   "name": "kaikki_middle_english",
+   "language": "Middle English",
+   "path": "english_middle/kaikki.org-dictionary-MiddleEnglish.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Middle%20English/"
+  },
+  {
+   "name": "kaikki_english_modern",
+   "language": "English",
+   "path": "english_modern/kaikki.org-dictionary-English.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/English/"
+  },
+  {
+   "name": "kaikki_old_english",
+   "language": "Old English",
+   "path": "english_old/kaikki.org-dictionary-OldEnglish.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Old%20English/"
+  },
+  {
+   "name": "kaikki_gothic",
+   "language": "Gothic",
+   "path": "gothic/kaikki.org-dictionary-Gothic.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Gothic/"
+  },
+  {
+   "name": "kaikki_hebrew",
+   "language": "Hebrew",
+   "path": "hebrew/kaikki.org-dictionary-Hebrew.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Hebrew/"
+  },
+  {
+   "name": "kaikki_latin",
+   "language": "Latin",
+   "path": "latin/kaikki.org-dictionary-Latin.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Latin/"
+  },
+  {
+   "name": "kaikki_old_irish",
+   "language": "Old Irish",
+   "path": "old_irish/kaikki.org-dictionary-OldIrish.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Old%20Irish/"
+  },
+  {
+   "name": "kaikki_old_norse",
+   "language": "Old Norse",
+   "path": "old_norse/kaikki.org-dictionary-OldNorse.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Old%20Norse/"
+  },
+  {
+   "name": "kaikki_persian",
+   "language": "Persian",
+   "path": "persian/kaikki.org-dictionary-Persian.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Persian/"
+  },
+  {
+   "name": "kaikki_welsh",
+   "language": "Welsh",
+   "path": "welsh/kaikki.org-dictionary-Welsh.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/Welsh/"
+  },
+  {
+   "name": "cmudict",
+   "language": "English",
+   "path": "english_modern/cmudict.dict",
+   "format": "text",
+   "origin": "https://github.com/cmusphinx/cmudict",
+   "note": "ARPAbet pronunciations, 135166 lines"
+  },
+  {
+   "name": "arabic_roots_hf",
+   "language": "Arabic",
+   "path": "arabic_roots_hf/train-00000-of-00001.parquet",
+   "format": "parquet",
+   "origin": "https://huggingface.co/datasets/MohamedRashad/arabic-roots",
+   "note": "56606 roots with definitions from 9 classical lexicons; GPL-3.0"
+  },
+  {
+   "name": "khorsi_corpus",
+   "language": "Arabic",
+   "path": "arabic_roots_taj/KhorsiCorpus.sqlite",
+   "format": "sqlite/csv/parquet",
+   "origin": "SourceForge (KhorsiCorpus)",
+   "note": "142786 root-derivative rows; the .zip sibling is a broken download (HTML page)"
+  },
+  {
+   "name": "ten_dictionaries",
+   "language": "Arabic",
+   "path": "Ten dictionaries for Arabic language/",
+   "format": "csv (48 files)",
+   "origin": "scraped classical lexicons",
+   "note": "~10 lexicons full text keyed by root (Lisan x8, Taj x19, Sihah x9, ...); 112MB"
+  },
+  {
+   "name": "word_root_map",
+   "language": "Arabic/Quran",
+   "path": "word_root_map.csv",
+   "format": "csv",
+   "origin": "Quran word-lemma-root map",
+   "note": "77430 rows: sura, ayah, position, word, lemma, root"
+  },
+  {
+   "name": "qac_morphology",
+   "language": "Arabic/Quran",
+   "path": "qac_morphology/quran-morphology.txt",
+   "format": "tsv",
+   "origin": "https://corpus.quran.com/",
+   "note": "130030 morphology segments + morphology-terms-ar.json glossary"
+  },
+  {
+   "name": "quran_dataset",
+   "language": "Arabic/Quran",
+   "path": "quran_dataset including CSV/",
+   "format": "json+csv",
+   "origin": "https://github.com/bzekeria/quran_dataset",
+   "note": "Uthmani text (alquran.cloud shape) + per-surah CSVs; contains a nested .git"
+  },
+  {
+   "name": "jabal_raw_table",
+   "language": "Arabic",
+   "path": "Mohamed JAbal's Theory/المعجم الاشتقاقي الجامع.xlsx",
+   "format": "xlsx",
+   "origin": "Jabal, al-Mujam al-Ishtiqaqi al-Muassal",
+   "note": "1950 rows: bab, fasl reading, tarkib axial meanings, Quranic examples; the raw table Juthoor_v2 was built from"
+  },
+  {
+   "name": "jabal_methodology_docx",
+   "language": "Arabic",
+   "path": "Mohamed JAbal's Theory/منهجية المعجم الاشتقاقي الدكتور جبل.docx",
+   "format": "docx",
+   "origin": "author notes",
+   "note": "new methodology write-up (not in Data raw/Summaries)"
+  },
+  {
+   "name": "jabal_summaries_dup",
+   "language": "Arabic/English",
+   "path": "Mohamed JAbal's Theory/",
+   "format": "docx x2",
+   "origin": "author notes",
+   "note": "two summaries duplicated from Data raw/Muajam Ishtiqaqi/Summaries (canonical copies live there)"
+  }
+ ]
+}
