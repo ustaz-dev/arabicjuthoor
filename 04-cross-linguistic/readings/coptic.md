@@ -155,3 +155,8 @@
 ## English abstract
 
 This append-only exploratory record reads Coptic both as a language and as the pronunciation witness for Egyptian. Every admitted Coptic form has an individual Crum citation, every Egyptian predecessor has an individual TLA or Wörterbuch citation, Greek and other loans are screened before judgment, and unsupported legacy matches remain visible as pruned data.
+
+## إلحاق 2026-07-13: مراجعةٌ مضادّةٌ للتخذيل
+
+- **ⲉⲣⲱⲧⲉ «milk»:** بطاقةُ الجولةِ الأولى أوقفَتِ الصورةَ المصريّةَ بدعوى غيابِ مدخلٍ فرديّ، والسلفُ المصريُّ منشورٌ معروف: **jrṯ.t «Milch»** [Erman & Grapow, Wb 1, 116-117؛ يُثبَّتُ معرِّفُ TLA عندَ أوّلِ جلبٍ مباشر]. بعدَ نزعِ تاءِ التأنيثِ المصريّةِ الموثَّقةِ يبقى اللبُّ jrṯ، ولا يبلغُ جذرًا عربيًّا بمسارٍ مرخَّصٍ بعدُ، فيبقى الحكمُ NO-TRACE، لكن بأسبابِه الصحيحةِ لا بغيابِ المصدر. ويُدوَّنُ استئناسًا لا احتجاجًا: الرثيئةُ في العربيّةِ «اللبنُ الحامضُ يُخلَطُ بالحلو» [لسان العرب، مادّة رثأ].
+- **قيدُ إنصافٍ عامّ:** كثرةُ أحكامِ LOANWORD وNO-TRACE في هذا الملفِّ ليست حكمًا على القبطيّةِ بل على فقرِ صفوفِ الشبكةِ الداخليّةِ للفرع؛ متى وقّعَ المؤلّفُ صفَّ التطوُّرِ المصريِّ الداخليِّ n ← l (سلسلة ns ↔ ⲗⲁⲥ) وأمثالَه من نحوِ اللغتَينِ المنشورِ، أُعيدَ فتحُ المقلَّمِ آليًّا بموجبِه.
