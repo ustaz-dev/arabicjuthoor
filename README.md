@@ -80,7 +80,7 @@ The empirical evidence for every structural claim in the framework: the full nuc
 
 | Subfolder | Contents | Role |
 |---|---|---|
-| `Muajam Ishtiqaqi/` | `المعجم_الاشتقاقي_Juthoor_v2.xlsx` (2,300 unique roots, 453 binary nuclei, 28 letters) and 26 per-letter باب tables | Jabal's empirical dataset — the canonical ground truth. |
+| `Muajam Ishtiqaqi/` | `المعجم_الاشتقاقي_Juthoor_v2.xlsx` (2,300 unique roots, the full binary-nuclei catalog, 28 letters) and 26 per-letter باب tables | Jabal's empirical dataset — the canonical ground truth. |
 | `Languistic theories/` | The modern Arabic letter-semantics field on which the study draws (primary: Jabal and Abbas; cross-linguistic: Khshim) and the archival material around it | Primary theoretical sources. |
 | `facebook_posts_beyondthename/` and supporting files | The Beyond-the-Word source corpus | Raw material for the cross-linguistic layer. |
 

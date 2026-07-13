@@ -15,7 +15,43 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Charge-purity and data-hygiene checker
+        run: python scripts/check_charge_purity.py
+
+      - name: JSON exports parse
+        run: |
+          python -c "import json,glob; [json.load(open(p,encoding='utf-8')) for p in glob.glob('data/*.json')]; print('all data/*.json parse')"
+
+      - name: HTML tag-balance smoke test
+        run: |
+          python - <<'EOF'
+          import re, sys
+          bad = 0
+          for p in ['index.html', 'lookup.html', 'viewer.html', 'discoveries.html', 'afro-asiatic.html']:
+              t = open(p, encoding='utf-8').read()
+              for tag in ['style', 'script']:
+                  o = len(re.findall(r'<' + tag + r'[\s>]', t))
+                  c = t.count('</' + tag + '>')
+                  if o != c:
+                      print(f'FAIL {p}: <{tag}> {o} openers vs {c} closers')
+                      bad += 1
+          print('tag balance ok' if not bad else f'{bad} imbalance(s)')
+          sys.exit(1 if bad else 0)
+          EOF
+
   deploy:
+    needs: validate
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
