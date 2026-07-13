@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """Build the Coptic restoration layer: Arabic <-> Hieroglyphic Egyptian <-> Coptic.
-Coptic is the SPOKEN third witness: it restores consonants the consonantal hieroglyphic
-script dropped (the flagship: لسان l-s-n ↔ hieroglyphic ns ↔ Coptic ⲗⲁⲥ las — the ل reappears).
+Coptic is the SPOKEN third witness: it can identify consonants underspecified by the
+hieroglyphic spelling where the same word has a documented descendant (the flagship:
+hieroglyphic ns ↔ Demotic ls ↔ Coptic ⲗⲁⲥ las ↔ Arabic لسان).
 Most entries here are restorations of already-confirmed Egyptian cognates, so the Coptic
 ADDS evidence rather than making new claims. Graded honestly with the full rubric.
 Fields: arabic / egyptian_hieroglyphic (with * = reconstructed) / coptic_lemma / gloss / reading / verdict."""
 import json, sys
 from collections import Counter
+from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
-ROOT='C:/Users/yassi/AI Projects/The Arabic Tongue (nature-genome-application)/'
+ROOT = Path(__file__).resolve().parents[2]
 
 # [arabic, egyptian, coptic, gloss, reading(gesture), verdict]
 E=[
-('لِسان','ns','ⲗⲁⲥ (las)','tongue','س-ن fine-stream + inner-resonance = the tongue; Coptic restores the ل dropped in hieroglyphic ns — metathesis closed','STRONG'),
-('نَفَس / نَفْس','nfsw','ⲛⲓϥⲉ (nife)','soul, breath, self','ن-ف-س inner-resonance + parting + flow = breath-as-soul; Coptic nife "to breathe" is near-identical','PERFECT'),
+('لِسان','ns','ⲗⲁⲥ (las)','tongue','Coptic las and the Demotic successor ls license reading Egyptian ns with /l/ in this word; Arabic لسان supplies the third consonant','STRONG'),
+('نَفَس / نَفْس','nfi̯','ⲛⲓϥⲉ (nife)','to blow; breathe','ن-ف inner-resonance + parting matches at nucleus level; published Egyptian nfi̯ replaces the unsourced nfsw form','STRONG'),
 ('ماء','mw','ⲙⲱⲟⲩ (mōou)','water','م-gathered mass + و-binding flow = the held-yet-flowing substance','PERFECT'),
 ('مات','mwt','ⲙⲟⲩ (mou)','to die','م-gather + و-bind + ت-completion = the final gathering-and-sealing','STRONG'),
 ('يَمّ','ym','ⲓⲟⲙ (iom)','sea, current','ي-extension binding the م-gathered mass = the sea','STRONG'),
@@ -29,7 +31,7 @@ E=[
 ('حَكَمَ / حِكمة','ḥkꜣ','ϩⲓⲕ (hik)','rule, wisdom, magic','ح-warm-containment + ك-sealed-precision = wisdom held secret','STRONG'),
 ('حَطّ','ḥtp','ϩⲱⲧⲡ (hōtp)','rest, settle, offering','ح-containment + ط-heavy spreading = settling-down-into-rest','STRONG'),
 ('شَمّ','sn','ⲥⲱⲛ (sōn)','to smell, scent, kiss','ش-front-spread + ن-nasal gathering = the smelling gesture','STRONG'),
-('سَمير','smr','ⲥⲙⲟⲩⲣ (smour)','companion, friend','س-م-ر streaming-gathering that runs together = the late-talking companion','STRONG'),
+('سَمير (مرشّح مرفوض)','smr','ⲥⲙⲟⲩⲣ (smour)','moustache','Retracted false friend: Crum glosses Coptic smour as moustache, not companion; Egyptian smr remains a separate comparison','RETRACTED'),
 ('شَنّ','šn','ϣⲱⲛⲉ (šōne)','to encircle, loop, net','ش-wide spread + ن-inner resonance = the encircling enclosure','STRONG'),
 ('ثاني / اثنان','snw','ⲥⲛⲁⲩ (snau)','two, second','س-ن the matched-pair-by-shared-fine-source nucleus','STRONG'),
 ('أَنف','fnḏ','ϥⲁⲛϣ (fanš)','nose, snout','ن-ف inner-resonance + parting-the-breath = the organ where breath parts (metathesis ʾnf↔fnḏ)','STRONG'),
@@ -48,16 +50,24 @@ E=[
 ]
 entries=[]
 for i,(ar,eg,cop,gl,rd,v) in enumerate(E, start=1):
-    entries.append({'id':i,'arabic':ar,'egyptian_hieroglyphic':eg,'coptic_lemma':cop,
-                    'gloss':gl,'reading':rd,'verdict':v})
+    entry={'id':i,'arabic':ar,'egyptian_hieroglyphic':eg,'coptic_lemma':cop,
+           'gloss':gl,'reading':rd,'verdict':v}
+    if i == 2:
+        entry['source_correction'] = 'nfsw was unsourced; corrected to published nfi̯, TLA 83380, and downgraded from PERFECT to STRONG nucleus-level evidence on 2026-07-13.'
+    if i == 18:
+        entry['retracted_at'] = '2026-07-13'
+        entry['retraction_note'] = 'Crum CD 339b glosses this Coptic form "moustache", not companion; the Egyptian smr companion match stands on TLA 856044 alone. See 04-cross-linguistic/readings/coptic.md.'
+    entries.append(entry)
 dist=Counter(e['verdict'] for e in entries)
 out={'project':'The Arabic Tongue · Coptic restoration layer · Arabic ↔ Hieroglyphic Egyptian ↔ Coptic',
-     'version':'2026-05-24','count':len(entries),
+     'version':'2026-07-13','count':len(entries),
      'verdict_distribution':dict(dist.most_common()),
      'license':'CC-BY 4.0',
-     'note':'Coptic is the SPOKEN third witness — it restores consonants the consonantal hieroglyphic script dropped (flagship لسان↔ns↔ⲗⲁⲥ). Most entries confirm already-attested Egyptian cognates; the Coptic adds evidence, not new claims. * marks a reconstructed Egyptian ancestor (standard historical-linguistics convention). Coptic lemmas from Crum / KELLIA.',
+     'note':'Coptic is the SPOKEN third witness: where a documented descendant of the same Egyptian word exists, it can identify consonants underspecified by hieroglyphic spelling (flagship ns↔Demotic ls↔Coptic ⲗⲁⲥ). This is conditional evidence, not a blanket n→l rule. Most entries confirm already-attested Egyptian comparisons; the Coptic adds evidence, not new claims. * marks a reconstructed Egyptian ancestor. Coptic lemmas from Crum / KELLIA.',
      'entries':entries}
-json.dump(out,open(ROOT+'04-cross-linguistic/data/coptic-cognates.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
+with (ROOT / '04-cross-linguistic/data/coptic-cognates.json').open('w', encoding='utf-8') as handle:
+    json.dump(out, handle, ensure_ascii=False, indent=1)
+    handle.write('\n')
 top=dist['PERFECT']+dist['STRONG']
 print('Coptic restoration layer: %d entries' % len(entries))
 print('Distribution:', dict(dist.most_common()))

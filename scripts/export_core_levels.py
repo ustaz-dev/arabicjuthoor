@@ -185,6 +185,9 @@ except FileNotFoundError:
 
 # ---------------- assemble ----------------
 try:
+    # Provenance contract: this is the source-tree HEAD from which the export
+    # was generated. Commit source changes first, then commit the regenerated
+    # JSON separately so the recorded commit is stable and resolvable.
     commit = subprocess.run(['git', 'rev-parse', '--short', 'HEAD'], capture_output=True, text=True).stdout.strip()
 except Exception:
     commit = ''

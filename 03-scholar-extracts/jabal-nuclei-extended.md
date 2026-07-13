@@ -19,6 +19,8 @@ Each nucleus in the catalog falls into one of two evidence categories:
 - Catalogued in detail below: **429** entries
 - Total binary nuclei in Jabal's lexicon: **453** (the remaining 24 are listed by nucleus only in [`jabal-nuclei-undocumented.md`](jabal-nuclei-undocumented.md))
 
+**Operational data note (2026-07-13):** `453` remains the historical count of Jabal's primary table used by the original analysis. Dated source repairs brought the project catalog to 454; the author then admitted **وب** from the separately documented Tafsir contribution, bringing `data/juthoor-core-levels.json` to **455 operational nuclei**. وب is not attributed to Jabal and does not enter the Jabal-only court tallies.
+
 ---
 
 ## Quran-anchored nuclei (258)

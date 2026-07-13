@@ -15,7 +15,7 @@ DATA = os.path.join(ROOT, '04-cross-linguistic', 'data')
 ALLOWED = {
     'PERFECT', 'STRONG', 'PARTIAL', 'PROVISIONAL',
     'PROTO-FAMILY', 'PROTO-AFRO-ASIATIC', 'DUAL-FACE', 'PARALLEL-STEMS', 'DIVERGED-STEMS',
-    'CONVERGENT', 'FLOOR-TRACE', 'LOANWORD',
+    'CONVERGENT', 'FLOOR-TRACE', 'LOANWORD', 'RETRACTED',
 }
 TOP_TIER = {'PERFECT', 'STRONG', 'PROTO-FAMILY', 'PROTO-AFRO-ASIATIC', 'DUAL-FACE'}
 # rule/route fields (pre-registration-branch-rosters.md): enforced on any roster that carries them

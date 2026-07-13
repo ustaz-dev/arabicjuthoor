@@ -48,7 +48,7 @@ This is an empirical study of that meaning-composition system. It rests on twelv
 | File | Description |
 |------|-------------|
 | [our-contributions-and-roadmap.md](02-architecture/our-contributions-and-roadmap.md) | **The shareable position paper.** What the study contributes, the foundations it rests on, the current state, and the next chapters. |
-| [lv2-operative-grammar.md](02-architecture/lv2-operative-grammar.md) | **The eleven native composition modes for trilateral roots (+ LOANWORD label).** The taxonomy applied to 2,285 roots at 100% native fit. |
+| [lv2-operative-grammar.md](02-architecture/lv2-operative-grammar.md) | **The eleven native composition modes for trilateral roots (+ LOANWORD label).** Full classification coverage across 2,285 roots: 2,284 native-mode calls plus one separately published LOANWORD label. |
 | [lv1-architecture.md](02-architecture/lv1-architecture.md) | The architectural specification: the four-layer scope (Letter atoms → binary nuclei → trilateral roots → cross-linguistic projection) and the scoring framework. |
 
 ### `03-scholar-extracts/` — reference tables and catalogs
@@ -58,7 +58,7 @@ This is an empirical study of that meaning-composition system. It rests on twelv
 | [canonical-letter-registry.md](03-scholar-extracts/canonical-letter-registry.md) | **The canonical letter-face registry v1.0 (frozen, print-collated).** Every letter's full articulation event, its witnessed faces with their family ballots, and the court verdicts. Machine form: `data/juthoor-canonical-registry.json`; per-letter courts in `letter-dossiers/`. |
 | [jabal-phonetic-footnotes.md](03-scholar-extracts/jabal-phonetic-footnotes.md) | Jabal's own phonetic footnotes harvested from the full print (852 statements): an independent convergence witness for the registry. |
 | [consensus-letter-charges.md](03-scholar-extracts/consensus-letter-charges.md) | The historical unified charge table (legacy layer, kept as provenance; superseded as canon by the registry above). |
-| [jabal-nuclei-extended.md](03-scholar-extracts/jabal-nuclei-extended.md) | **The full 453-nucleus catalog** with per-nucleus reading and source evidence. |
+| [jabal-nuclei-extended.md](03-scholar-extracts/jabal-nuclei-extended.md) | **The operational 455-nucleus catalog** with per-nucleus reading and source evidence: Jabal's historical 453-table, the dated source-repair layer, and the author-adopted non-Jabal nucleus وب kept distinct by provenance. |
 | [jabal-nuclei-tc-anchored.md](03-scholar-extracts/jabal-nuclei-tc-anchored.md) | The 258 nuclei whose readings are anchored to published Quranic verse-readings. |
 | [abbas-letter-classification.md](03-scholar-extracts/abbas-letter-classification.md) | Hassan Abbas's dual-axis classification (sensory category × articulatory mechanism). |
 | `jabal-letters.html` | Per-letter empirical evidence from the earlier charge-table era (historical layer). |

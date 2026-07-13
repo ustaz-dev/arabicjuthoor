@@ -1,15 +1,16 @@
 {
  "project": "The Arabic Tongue · Coptic restoration layer · Arabic ↔ Hieroglyphic Egyptian ↔ Coptic",
- "version": "2026-05-24",
+ "version": "2026-07-13",
  "count": 33,
  "verdict_distribution": {
   "STRONG": 23,
   "PARTIAL": 6,
-  "PERFECT": 2,
-  "PROVISIONAL": 2
+  "PROVISIONAL": 2,
+  "PERFECT": 1,
+  "RETRACTED": 1
  },
  "license": "CC-BY 4.0",
- "note": "Coptic is the SPOKEN third witness — it restores consonants the consonantal hieroglyphic script dropped (flagship لسان↔ns↔ⲗⲁⲥ). Most entries confirm already-attested Egyptian cognates; the Coptic adds evidence, not new claims. * marks a reconstructed Egyptian ancestor (standard historical-linguistics convention). Coptic lemmas from Crum / KELLIA.",
+ "note": "Coptic is the SPOKEN third witness: where a documented descendant of the same Egyptian word exists, it can identify consonants underspecified by hieroglyphic spelling (flagship ns↔Demotic ls↔Coptic ⲗⲁⲥ). This is conditional evidence, not a blanket n→l rule. Most entries confirm already-attested Egyptian comparisons; the Coptic adds evidence, not new claims. * marks a reconstructed Egyptian ancestor. Coptic lemmas from Crum / KELLIA.",
  "entries": [
   {
    "id": 1,
@@ -17,18 +18,18 @@
    "egyptian_hieroglyphic": "ns",
    "coptic_lemma": "ⲗⲁⲥ (las)",
    "gloss": "tongue",
-   "reading": "س-ن fine-stream + inner-resonance = the tongue; Coptic restores the ل dropped in hieroglyphic ns — metathesis closed",
+   "reading": "Coptic las and the Demotic successor ls license reading Egyptian ns with /l/ in this word; Arabic لسان supplies the third consonant",
    "verdict": "STRONG"
   },
   {
    "id": 2,
    "arabic": "نَفَس / نَفْس",
-   "egyptian_hieroglyphic": "nfsw",
+   "egyptian_hieroglyphic": "nfi̯",
    "coptic_lemma": "ⲛⲓϥⲉ (nife)",
-   "gloss": "soul, breath, self",
-   "reading": "ن-ف-س inner-resonance + parting + flow = breath-as-soul; Coptic nife \"to breathe\" is near-identical",
-   "verdict": "PERFECT",
-   "retraction_note": "nfsw form unsourced; the published lemma is nfi̥ (TLA 83380). See readings/egyptian.md"
+   "gloss": "to blow; breathe",
+   "reading": "ن-ف inner-resonance + parting matches at nucleus level; published Egyptian nfi̯ replaces the unsourced nfsw form",
+   "verdict": "STRONG",
+   "source_correction": "nfsw was unsourced; corrected to published nfi̯, TLA 83380, and downgraded from PERFECT to STRONG nucleus-level evidence on 2026-07-13."
   },
   {
    "id": 3,
@@ -167,13 +168,14 @@
   },
   {
    "id": 18,
-   "arabic": "سَمير",
+   "arabic": "سَمير (مرشّح مرفوض)",
    "egyptian_hieroglyphic": "smr",
    "coptic_lemma": "ⲥⲙⲟⲩⲣ (smour)",
-   "gloss": "companion, friend",
-   "reading": "س-م-ر streaming-gathering that runs together = the late-talking companion",
-   "verdict": "RETRACTED-2026-07-13",
-   "retraction_note": "Crum CD 339b glosses this Coptic form \"moustache\", not companion; the Egyptian smr companion match stands on TLA 856044 alone. See 04-cross-linguistic/readings/coptic.md"
+   "gloss": "moustache",
+   "reading": "Retracted false friend: Crum glosses Coptic smour as moustache, not companion; Egyptian smr remains a separate comparison",
+   "verdict": "RETRACTED",
+   "retracted_at": "2026-07-13",
+   "retraction_note": "Crum CD 339b glosses this Coptic form \"moustache\", not companion; the Egyptian smr companion match stands on TLA 856044 alone. See 04-cross-linguistic/readings/coptic.md."
   },
   {
    "id": 19,

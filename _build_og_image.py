@@ -96,10 +96,10 @@ def build_en():
     # Stats row
     stats = [
         ("28", "LETTERS"),
-        ("453", "BINARY NUCLEI"),
+        ("455", "OPERATIONAL NUCLEI"),
         ("2,285", "TRILATERALS"),
         ("12", "OPERATIVE MODES"),
-        ("100%", "NATIVE FIT"),
+        ("1", "LOANWORD / 2,285"),
     ]
     x = 100
     for num, lab in stats:
@@ -152,10 +152,10 @@ def build_ar():
     # Stats row (right-to-left layout)
     stats_ar = [
         ("28", ar("حرفًا")),
-        ("453", ar("نواةً ثنائيّة")),
+        ("455", ar("نواةً تشغيليّة")),
         ("2,285", ar("جذرًا ثلاثيًّا")),
         ("12", ar("بابًا تركيبيًّا")),
-        ("100%", ar("مُطابقةٌ أصليّة")),
+        ("1", ar("دخيل من 2,285")),
     ]
     x_right = W - 100
     for num, lab in stats_ar:
