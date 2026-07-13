@@ -112,6 +112,8 @@ def reading_cards(path: str) -> list[tuple[str, str]]:
 reading_paths = (
     "04-cross-linguistic/readings/egyptian.md",
     "04-cross-linguistic/readings/coptic.md",
+    "04-cross-linguistic/readings/ancient-greek.md",
+    "04-cross-linguistic/readings/old-latin.md",
 )
 all_cards: dict[str, list[tuple[str, str]]] = {}
 for path in reading_paths:
