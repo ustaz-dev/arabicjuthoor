@@ -38,10 +38,16 @@ def cards(path):
         if m:
             closure = m.group(1).strip()
         gaps = [g for g in GAPS if g in b]
+        # structured blocker line is authoritative: - عائق: النوع=LAW-GAP؛ يتطلب=...
+        blocker_type, required = '', ''
+        m = re.search(r'^-\s*عائق:\s*النوع\s*=\s*([A-Z\-]+)\s*[؛;]\s*يتطلب\s*=\s*([^\n]+)', b, re.M)
+        if m:
+            blocker_type, required = m.group(1).strip(), m.group(2).strip()
+        # prose mentions are hints only, never unlock triggers
         rows = sorted(set(re.findall(r'\bBR-[A-Z]+-\d+\b', b)))
-        nucs = sorted(set(re.findall(r'نواة[ُِ]?\s+\*{0,2}([ء-ي]{2,3})\*{0,2}', b)))
         yield {'file': path.replace('\\', '/'), 'card': title[:80], 'verdict': verdict,
-               'closure': closure, 'gaps': gaps, 'row_refs': rows, 'nucleus_refs': nucs}
+               'closure': closure, 'gaps': gaps, 'blocker_type': blocker_type,
+               'required': required, 'row_mentions': rows}
 
 # current instruments
 net = open('04-cross-linguistic/shift-network-draft.md', encoding='utf-8').read()
@@ -59,20 +65,33 @@ for path in sorted(glob.glob('04-cross-linguistic/readings/*.md')):
         if not suspended:
             continue
         open_q.append(c)
+        # unlock triggers come ONLY from the structured requirement field
+        req = c.get('required', '')
         hints = []
-        for rid in c['row_refs']:
+        for rid in re.findall(r'\bBR-[A-Z]+-\d+\b', req):
             if rid in signed_rows:
-                hints.append(f'الصف {rid} موجود الآن في الشبكة')
-        for nk in c['nucleus_refs']:
-            if nk in catalog:
-                hints.append(f'النواة {nk} موجودة الآن في الفهرس')
+                hints.append(f'الصف المطلوب {rid} موجود الآن في الشبكة')
+        m = re.search(r'نواة\s+([ء-ي]{2,3})', req)
+        if m and m.group(1) in catalog:
+            hints.append(f'النواة المطلوبة {m.group(1)} موجودة الآن في الفهرس')
         if hints:
             unlocked.append((c, hints))
 
+payload = {'generated_from': 'scan_recovery_ledger.py', 'cards_total': len(ledger),
+           'suspended': [c for c in open_q]}
+if '--check' in sys.argv:
+    try:
+        committed = json.load(open('data/recovery-ledger.json', encoding='utf-8'))
+    except FileNotFoundError:
+        print('FAIL: data/recovery-ledger.json missing; run the scanner and commit it')
+        sys.exit(1)
+    if committed != payload:
+        print('FAIL: recovery ledger is stale; rerun scan_recovery_ledger.py and commit the result')
+        sys.exit(1)
+    print(f'ledger check: fresh ({len(open_q)} suspended of {len(ledger)} cards)')
+    sys.exit(0)
 os.makedirs('data', exist_ok=True)
-json.dump({'generated_from': 'scan_recovery_ledger.py', 'cards_total': len(ledger),
-           'suspended': [c for c in open_q]},
-          open('data/recovery-ledger.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+json.dump(payload, open('data/recovery-ledger.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 print(f'بطاقات ممسوحة: {len(ledger)} | معلقة في الاسترداد: {len(open_q)}')
 for c in open_q:

@@ -21,11 +21,19 @@ os.chdir(ROOT)
 # per-symbol normalization into a comparable consonant alphabet
 FOLD = {'c': 'k', 'q': 'k', 'x': 'ks', 'ph': 'f', 'th': 'th', 'ch': 'kh',
         'ß': 'ss', 'þ': 'th', 'ð': 'dh', 'ƕ': 'hw'}
+GREEK = {'α': 'a', 'β': 'b', 'γ': 'g', 'δ': 'd', 'ε': 'e', 'ζ': 'z', 'η': 'e', 'θ': 'th',
+         'ι': 'i', 'κ': 'k', 'λ': 'l', 'μ': 'm', 'ν': 'n', 'ξ': 'ks', 'ο': 'o', 'π': 'p',
+         'ρ': 'r', 'σ': 's', 'ς': 's', 'τ': 't', 'υ': 'u', 'φ': 'f', 'χ': 'kh', 'ψ': 'ps', 'ω': 'o'}
+COPTIC = {'ⲁ': 'a', 'ⲃ': 'b', 'ⲅ': 'g', 'ⲇ': 'd', 'ⲉ': 'e', 'ⲍ': 'z', 'ⲏ': 'e', 'ⲑ': 'th',
+          'ⲓ': 'i', 'ⲕ': 'k', 'ⲗ': 'l', 'ⲙ': 'm', 'ⲛ': 'n', 'ⲝ': 'ks', 'ⲟ': 'o', 'ⲡ': 'p',
+          'ⲣ': 'r', 'ⲥ': 's', 'ⲧ': 't', 'ⲩ': 'u', 'ⲫ': 'f', 'ⲭ': 'kh', 'ⲯ': 'ps', 'ⲱ': 'o',
+          'ϣ': 'sh', 'ϥ': 'f', 'ϧ': 'kh', 'ϩ': 'h', 'ϫ': 'j', 'ϭ': 'ch', 'ϯ': 'ti'}
 VOWELS = set('aeiouyāēīōūȳăĕĭŏŭàèìòùáéíóúäëïöüâêîôûæœ')
 
 def skeleton(word):
     w = unicodedata.normalize('NFD', word.lower())
     w = ''.join(c for c in w if not unicodedata.combining(c))
+    w = ''.join(GREEK.get(c) or COPTIC.get(c) or c for c in w)
     out, i = [], 0
     while i < len(w):
         two = w[i:i+2]
@@ -60,8 +68,11 @@ def main():
             except json.JSONDecodeError:
                 continue
             w = e.get('word', '')
-            sk = skeleton(w)
-            ok = (want in sk) if a.contains else (sk == want)
+            variants = {skeleton(w)}
+            for f in e.get('forms', []) or []:
+                if 'romanization' in (f.get('tags') or []):
+                    variants.add(skeleton(f.get('form', '')))
+            ok = any((want in sk) if a.contains else (sk == want) for sk in variants if sk)
             if ok:
                 gloss = ''
                 for s in e.get('senses', []):

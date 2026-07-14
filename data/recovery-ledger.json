@@ -10,8 +10,9 @@
    "gaps": [
     "LAW-GAP"
    ],
-   "row_refs": [],
-   "nucleus_refs": []
+   "blocker_type": "LAW-GAP",
+   "required": "قرار توسيع نطاق صف الأسنانيات القائم ليسمي اليونانية",
+   "row_mentions": []
   },
   {
    "file": "04-cross-linguistic/readings/coptic.md",
@@ -22,8 +23,9 @@
     "TOOL-GAP",
     "OPEN-CANDIDATE"
    ],
-   "row_refs": [],
-   "nucleus_refs": []
+   "blocker_type": "TOOL-GAP",
+   "required": "قراءة جذر معتمدة لشنف بتوقيع المؤلف",
+   "row_mentions": []
   },
   {
    "file": "04-cross-linguistic/readings/egyptian.md",
@@ -34,10 +36,9 @@
     "TOOL-GAP",
     "OPEN-CANDIDATE"
    ],
-   "row_refs": [],
-   "nucleus_refs": [
-    "قبل"
-   ]
+   "blocker_type": "TOOL-GAP",
+   "required": "قراءة جذر معتمدة لشنف بتوقيع المؤلف",
+   "row_mentions": []
   },
   {
    "file": "04-cross-linguistic/readings/egyptian.md",
@@ -47,8 +48,9 @@
    "gaps": [
     "LAW-GAP"
    ],
-   "row_refs": [],
-   "nucleus_refs": []
+   "blocker_type": "LAW-GAP",
+   "required": "صف دستوري جديد لقيمة j المصرية الصوتية",
+   "row_mentions": []
   },
   {
    "file": "04-cross-linguistic/readings/egyptian.md",
@@ -58,8 +60,9 @@
    "gaps": [
     "LAW-GAP"
    ],
-   "row_refs": [],
-   "nucleus_refs": []
+   "blocker_type": "LAW-GAP",
+   "required": "صف دستوري جديد s↔ث مصري بمصدره المنشور",
+   "row_mentions": []
   },
   {
    "file": "04-cross-linguistic/readings/egyptian.md",
@@ -69,8 +72,9 @@
    "gaps": [
     "SOURCE-GAP"
    ],
-   "row_refs": [],
-   "nucleus_refs": []
+   "blocker_type": "SOURCE-GAP",
+   "required": "مدخل مصري منشور بمعنى الحفنة",
+   "row_mentions": []
   },
   {
    "file": "04-cross-linguistic/readings/old-latin.md",
@@ -80,8 +84,9 @@
    "gaps": [
     "MORPHOLOGY-GAP"
    ],
-   "row_refs": [],
-   "nucleus_refs": []
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "تفسير صرفي منشور لظهور الراء في الصورة الهندوأوروبية",
+   "row_mentions": []
   }
  ]
 }

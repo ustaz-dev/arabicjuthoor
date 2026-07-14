@@ -282,6 +282,7 @@ This append-only exploratory record reads Coptic both as a language and as the p
 <!-- RECOVERY-PROTOCOL-v2 -->
 
 ### بطاقة: šnfe «scale (of fish)»، إعادةُ فتحٍ بعدَ مسحِ الجذر العربي
+- عائق: النوع=TOOL-GAP؛ يتطلب=قراءة جذر معتمدة لشنف بتوقيع المؤلف
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ϣⲛϥⲉ *šnfe*
 - أقدمُ صورةٍ مستعادة: المصرية šnf.t «scale (of fish)» [TLA Lemma ID 156140؛ Wb 4, 515.2: https://thesaurus-linguae-aegyptiae.de/lemma/156140]

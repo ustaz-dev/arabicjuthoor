@@ -34,6 +34,9 @@ jobs:
       - name: Publication consistency checker
         run: python scripts/check_publication_consistency.py
 
+      - name: Recovery ledger freshness
+        run: python scripts/scan_recovery_ledger.py --check
+
       - name: Cross-linguistic roster integrity
         run: python scripts/layer_2/check_rosters.py
 
