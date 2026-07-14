@@ -1,7 +1,7 @@
 # ميثاقُ الاستكشافِ عبرَ الألسُن: كيف نبحثُ صِلةَ أيِّ لغةٍ باللسانِ العربيِّ القديم
 
 **الحالة:** ميثاقُ عملٍ نافذٌ لطبقةِ الاستكشاف، يُطبِّقُه أيُّ باحثٍ أو أيُّ نموذجِ ذكاءٍ لاحقٍ كما هو. سندُه دستورُ التفكيكِ العميقِ المجمَّدُ وملحقُه ([`deep-decomposition-method.md`](../02-architecture/deep-decomposition-method.md)) وسجلُّ الوجوهِ v1.0؛ وهو لا يُعدِّلُ فيهما شيئًا، بل يصوغُ روحَ الرحلةِ وخطواتِها العمليّةَ لمن يأتي بعدَنا.
-**التاريخ:** 2026-07-13.
+**التاريخ:** 2026-07-13. **تعديلُ بوّابةِ الاسترداد قبل `NO-TRACE`:** 2026-07-14.
 
 ## 1. الروح: لا تخذيلَ مسبقًا، ولا اختلاقَ إطلاقًا
 
@@ -44,6 +44,33 @@
 7. **مؤشِّرُ اليُتم** يُدوَّنُ حيثُ صلَح (يتيمةٌ في فرعِها، مُشعّةٌ عندَنا) ولا يُحسَمُ به وحدَه.
 8. **عُرفُ بطاقةِ المُقلَّم:** إذا لم يوجدْ مقابلٌ من الأداةِ يُكتَبُ في حقلِ المقابل «(لا مقابلَ من الأداةِ المجمَّدة)» ويُشرَحُ السببُ في الملاحظات؛ لا تُوضَعُ جملُ الاعتذارِ داخلَ علامتَي تنصيصِ القراءة.
 9. **قناةُ الفجواتِ الصوتيّة:** إذا كشفَت قراءةٌ حاجةً إلى قانونٍ داخليٍّ موثَّقٍ للفرعِ (كتطوُّرِ n إلى l بينَ المصريّةِ والقبطيّةِ الذي كشفَته سلسلةُ ns ↔ ⲗⲁⲥ)، تُدوَّنُ الفجوةُ في الملفِّ وتُرفَعُ للمؤلّفِ اقتراحَ صفٍّ دستوريٍّ بمصدرِه المنشورِ (على سُنّةِ صفوفِ BR-SINO وBR-EGYP)؛ **لا يُستعمَلُ الصفُّ قبلَ توقيعِه**.
+10. **توليدُ المرشَّحين قبلَ تقويمِهم:** لا يَحتكرُ أوّلُ مقابلٍ عربيٍّ البحثَ. يُولَّدُ المرشَّحُ من الهيكلِ الصوتيِّ أولًا: الجذرُ المطابقُ ذاتيًّا، ثمّ الجذورُ التي تبلغُها صفوفُ الشبكةِ المرخَّصة، ثمّ النواةُ والأجوفُ وحدثُ الحرفِ بحسبِ الدرجة. بعدَ تثبيتِ هذه القائمةِ وحدَها يبدأُ اختبارُ المعنى؛ فلا يُرفَضُ هيكلٌ لأنّ المعنى الأوّلَ الذي خطرَ للباحثِ أخفق.
+11. **مِروحةُ المعاني العربيّة:** قبلَ تقليمِ أيِّ هيكلٍ كاملٍ أو قريبٍ، تُستخرجُ **عائلةُ الجذرِ العربيِّ كلُّها** من قراءاتِ المشروعِ ومن معجمَين عربيَّين قديمَين مستقلَّين على الأقلّ حيثُ يتاحان (وذخيرةُ `Resources/arabic_roots_hf/` و`Resources/Ten dictionaries for Arabic language/` هي المسارُ المحليُّ، وأداةُ الاسترجاع `scripts/search_arabic_root_senses.py`). تُدوَّنُ المعاني القريبةُ والبعيدةُ والرافضةُ معًا، ولا يجوزُ تمثيلُ الجذرِ بمعنًى واحدٍ مختار. غيابُ الجذرِ من الأداةِ المجمَّدة **فجوةُ أداةٍ**، لا دليلُ عدمٍ؛ تُسجَّلُ المادةُ المعجميّةُ خارجَ الحكمِ وتُرفَعُ لقراءةِ جذرٍ معتمدة.
+12. **فصلُ المتجانساتِ والسلاسلِ الاشتقاقيّة:** لكلِّ صورةٍ متشابهةٍ تُكتبُ هويّةٌ صغرى: اللغةُ والمرحلةُ، الرسمُ الأصليُّ، الرومنةُ، الصنفُ والمعنى، السلفُ والخلفُ المنشوران، ومسارُ الاقتراضِ إن وُجد. لا تُنقَلُ إتيمولوجيا معنًى إلى معنًى آخرَ يشتركُ معه في الرسم. المثالُ الحارس: القبطية `ϫⲛⲟϥ jnof` «سلّة» (من الديموطيقية `ḏnf`) غيرُ القبطية `ϣⲛϥⲉ šnfe` «حرشفة» (خلفُ المصرية `šnf.t`)؛ وتشابهُ العربيةِ المكتوبةِ `شنف` لا يدمجُ المسارَين.
+
+### بوّابةُ الاسترداد قبلَ إغلاقِ `NO-TRACE` (نافذةٌ من 2026-07-14)
+
+`NO-TRACE` **حكمُ إغلاقٍ لا اسمٌ لكلِّ بطاقةٍ ناقصة**. لا يصدرُ حتى تُدوَّنَ نتائجُ القنواتِ الآتيةِ في «جسور الاسترداد المفحوصة»:
+
+1. الجذرُ الكاملُ، ثمّ قاعدةُ الأجوفِ والنواةُ وحدثُ الحرفِ حيثُ يجيزُ الميثاق.
+2. كلُّ المقابلاتِ الصوتيّةِ التي تولّدُها الشبكةُ المغلقة، لا المقابلُ الأوّلُ وحدَه.
+3. مِروحةُ معاني الجذرِ العربيِّ ومشتقّاتِه من مصدرَين مستقلَّين حيثُ يتاحان.
+4. الخلفُ المنطوقُ، والأختُ القريبةُ، والجسرُ العابرُ للفروعِ للكلمةِ نفسِها؛ فالشاهدُ اللاتينيُّ مثلًا قد يكشفُ أنّ رفضَ النظيرِ اليونانيِّ فجوةُ صفٍّ لا سقوطُ صلة.
+5. الجسرُ الدلاليُّ: مباشرٌ أو مدارٌ واحدٌ مسمّى. ويُوسَمُ سندُه واحدًا من: `LEXICON-INTERNAL` إذا شهدتْه عائلةٌ معجميّةٌ داخلَ العربية، أو `ATTESTED-SHIFT` إذا شهدَه موردُ تحوّلٍ دلاليٍّ منشور، أو `OBSERVATIONAL-HYPOTHESIS` إذا كان وصفًا شكليًّا معقولًا لم يُثبَت تاريخيًّا بعد؛ وهذا الأخيرُ يفتحُ مرشّحًا ولا يمنحُ TRACE.
+6. فصلُ المتجانساتِ، والتسلسلُ الزمنيُّ، ومصفاةُ الاقتراض.
+
+بعدَ ذلك تُسجَّلُ **حالةُ الإغلاق** منفصلةً عن الحكم:
+
+| الحالة | معناها | ما يجوزُ معها |
+|---|---|---|
+| `READY` | اكتملتِ البوّابةُ والأرجلُ جاهزةٌ للحكم | أحدُ أحكامِ السلّم بحسبِ الدليل |
+| `OPEN-CANDIDATE` | صوتٌ قويٌّ ومعنًى محتملٌّ، لكن الجسرَ لم يُثبَت بعد | لا حكمَ نهائيًّا؛ يُحفَظ في قائمة الاسترداد |
+| `TOOL-GAP` | المادةُ المعجميّةُ موجودةٌ، لكن قراءةَ الجذر/النواة غيرُ معتمدةٍ في الأداة | لا `NO-TRACE` ولا TRACE؛ يُرفَع للمؤلّف |
+| `LAW-GAP` | المعنى والصورةُ واعدان، والمسارُ الصوتيُّ يحتاج صفًّا منشورًا موقّعًا | لا `NO-TRACE`؛ يبقى موقوفًا |
+| `SOURCE-GAP` | المصدرُ التاريخيُّ أو الصورةُ الأقدمُ غيرُ حاسمَين | لا `NO-TRACE`؛ يبقى موقوفًا |
+| `CLOSED-NO-TRACE` | اكتملت القنواتُ وفشلت رِجلٌ بلا فجوةٍ معلّقة | وحدَها تُجيز حكمَ `NO-TRACE` |
+
+الفجوةُ ليست أثرًا موجبًا، لكنها كذلك ليست نفيًا تاريخيًّا. و`NUCLEUS-ECHO` حكمُ رِجلٍ ليّنةٍ **موجودةٍ ومشروحة**؛ أمّا الرِّجلُ التي لم تُبحَث أو الأداةُ التي لا تملكُ مدخلًا فحالتُها فجوةٌ لا ECHO.
 
 ### ممنوعاتُ النزاهة (جهةُ الاختلاق)
 - لا اختراعَ صورةٍ قديمةٍ ولا معنًى؛ كلُّ صورةٍ وكلُّ معنًى بمصدرٍ مُسمًّى.
@@ -57,6 +84,8 @@
 - **لا يُسقَطُ** مرشَّحٌ لأنّ الأكاديميا لا تعترفُ بقرابةِ العائلتَين؛ نحن نختبرُ أطروحةً أعمقَ من تقسيماتِها، وتقسيماتُها ليست حَكَمًا عليها.
 - **لا يُطالَبُ** فرعٌ ثنائيُّ الطورِ بجذرٍ ثلاثيٍّ ولا فرعُ قاعٍ بنواةٍ تامّة؛ الدرجةُ على قدرِ ما حفظَ الفرع.
 - **لا يُعامَلُ** المدارُ تنازلًا؛ ظلُّ المعنى (الآلة، الأثر، المكان...) من جسدِ الحدثِ نفسِه، وهكذا تشتقُّ العربيّةُ ذاتُها.
+- **لا يُختزَلُ** الجذرُ العربيُّ في أوّلِ معنًى عُرِضَ في رصيدٍ قديم؛ تعدُّدُ المعنى بياناتٌ واجبةُ المسح، لا رخصةُ انتقاءٍ ولا عذرُ تقليم.
+- **لا تتحوّلُ** عبارةُ «لا مقابلَ من الأداةِ» إلى `NO-TRACE`؛ اسمُها `TOOL-GAP` حتى تُبنى قراءةٌ أو تُغلَق البوّابةُ بسببٍ مستقلٍّ.
 
 ### عتبةُ الترقيةِ إلى التحقُّق
 متى اجتمعَ لملفِّ لغةٍ رصيدٌ من بطاقاتٍ موثّقةٍ متوازنةِ الأحكامِ (فيها المقلَّمُ كما فيها الأثر)، يُرفَعُ للمؤلّفِ طلبُ جولةِ تحقُّقٍ مُسجَّلةٍ مُسبَقًا بعيّنةٍ ضابطةٍ عشوائيّةٍ بنفسِ حرّيّةِ المدارات (دستور §8). **لا يُشغِّلُ التحقُّقَ إلّا المؤلّف.**
@@ -65,16 +94,21 @@
 
 ```
 ### بطاقة: <الكلمة بالرومنة> «<معناها الموجز>»
+- إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: <الرسم الأصلي والرومنة>
 - أقدمُ صورةٍ مستعادة: <الصورة> [المصدر المنشور المسمى]
 - الخطوةُ صفر (التعرية بصرف الفرع): <اللواحق المنزوعة وقاعدتها> ← اللب: <...>
 - درجةُ المقارنة: جذر كامل / نواة / حدث حرف
+- مسحُ المعاني العربيّة: <الجذر المطابق ومعاني عائلته من مصدرين مستقلين حيث يتاحان؛ مع تسجيل القريب والرافض>
 - المقابلُ من اللسان: <الجذر أو النواة أو الحرف> «<قراءته من الأداة المجمدة نصا>»
 - مسارُ الصوت: <خطوات مسماة من الشبكة المغلقة أو مرساة العائلة> [أمثلتها الموثقة]
 - المعنى من قاموس الفرع: «<نصا بلا رتوش>» [القاموس]
 - المدار: مباشر / مدار <n: اسمه> (خطوة واحدة)
 - المصفاة: لا مسار اقتراض معروف / يعزل مسارا: <...>
+- فصلُ المتجانسات والاقتراض: <هوية كل سلسلة متشابهة ومن أين جاءت؛ أو لا تجانس مؤثر>
 - مؤشر اليتم: <يتيمة في فرعها؟ مشعة عندنا؟>
+- جسورُ الاسترداد المفحوصة: <الجذر؛ الأجوف؛ النواة؛ الخلف/الأخت؛ الشاهد العابر للفروع؛ الجسر الدلالي>
+- حالةُ الإغلاق: READY / OPEN-CANDIDATE / TOOL-GAP / LAW-GAP / SOURCE-GAP / CLOSED-NO-TRACE
 - الحكم (استكشاف): ROOT-TRACE / NUCLEUS-TRACE / NUCLEUS-ECHO / FLOOR-TRACE / LOANWORD / NO-TRACE
 - ملاحظات: <...>
 ```
@@ -90,4 +124,4 @@
 
 ---
 
-*English abstract.* The cross-tongue exploration charter: how any researcher or future AI instance explores a language's connection to the old Arabic tongue at whichever stage the branch preserved: the full trilateral root (siblings and near kin), the binary nucleus (far branches that split in the binary era), or the letter's articulation event itself (the deepest floor and the universal baby-word layer). Spirit clauses: never demand of a branch a stage it did not preserve, and never refuse the gift of a fuller match; exploration presumes possibility, and chance is measured wholesale at the pre-registered verification layer (random control arm), never wielded candidate-by-candidate. The journey's distilled lessons per language (Akkadian 93% baseline; Egyptian read unmodified; Coptic as the living pronunciation witness; Sanskrit's strip-first and named-orbit discipline; Old Persian's pending fair re-run; Sumerian triangulation through bilingual lists; Old Chinese unwound by its own laws then family-anchored, with the Silk-Road screen) become a numbered operating protocol with a uniform reading-card template, integrity prohibitions (no invented forms, no invented shifts, no orbit chains, no published counts from exploration) and equally binding anti-self-sabotage prohibitions (no demanding pre-established pairwise correspondence tables, no killing candidates one-by-one with "chance", no deference to family-tree orthodoxy as judge). Promotion to verification happens only by the author's order under the constitution's control-arm protocol.
+*English abstract.* The cross-tongue exploration charter: how any researcher or future AI instance explores a language's connection to the old Arabic tongue at whichever stage the branch preserved: the full trilateral root, the binary nucleus, or the letter's articulation event itself. Spirit clauses: never demand of a branch a stage it did not preserve, and never refuse the gift of a fuller match; exploration presumes possibility, and chance is measured wholesale at the pre-registered verification layer. The 2026-07-14 recovery gate requires sound-first candidate generation, a full Arabic-root sense fan from independent lexica, explicit homonym and etymology separation, descendant and cross-branch witnesses, and a closure state distinct from the verdict. Tool, law, and source gaps may not be mislabeled `NO-TRACE`; only a completed `CLOSED-NO-TRACE` search can receive that verdict. Promotion to verification happens only by the author's order under the constitution's control-arm protocol.

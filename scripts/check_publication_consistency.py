@@ -82,6 +82,12 @@ for path, needles in public_requirements.items():
 if "NATIVE FIT" in read("og-image.svg") or "NATIVE FIT" in read("_build_og_image.py"):
     fails.append("public framing: OG assets still advertise NATIVE FIT")
 
+afro_browser = read("afro-asiatic.html")
+if '[163, "شَنَف / شَنَّف", "šnf", "be angry, frown, dislike"' in afro_browser:
+    fails.append("Afro-Asiatic browser: entry 163 still publishes the retracted šnf angry/frown claim")
+if '[163, "شَنَف", "šnf.t", "Egyptian: fish scale; Arabic: upper lip turned upward"' not in afro_browser:
+    fails.append("Afro-Asiatic browser: entry 163 lacks the corrected šnf.t recovery row")
+
 
 required_card_fields = (
     "- الكلمةُ في الفرع:",
@@ -98,9 +104,17 @@ required_card_fields = (
     "- ملاحظات:",
 )
 
+recovery_marker = "<!-- RECOVERY-PROTOCOL-v2 -->"
+recovery_card_fields = (
+    "- إصدارُ البروتوكول:",
+    "- مسحُ المعاني العربيّة:",
+    "- فصلُ المتجانسات والاقتراض:",
+    "- جسورُ الاسترداد المفحوصة:",
+    "- حالةُ الإغلاق:",
+)
 
-def reading_cards(path: str) -> list[tuple[str, str]]:
-    body = read(path)
+
+def reading_cards_from_body(body: str) -> list[tuple[str, str]]:
     starts = list(re.finditer(r"^### بطاقة.*$", body, re.MULTILINE))
     cards: list[tuple[str, str]] = []
     for index, match in enumerate(starts):
@@ -109,11 +123,14 @@ def reading_cards(path: str) -> list[tuple[str, str]]:
     return cards
 
 
-reading_paths = (
-    "04-cross-linguistic/readings/egyptian.md",
-    "04-cross-linguistic/readings/coptic.md",
-    "04-cross-linguistic/readings/ancient-greek.md",
-    "04-cross-linguistic/readings/old-latin.md",
+def reading_cards(path: str) -> list[tuple[str, str]]:
+    return reading_cards_from_body(read(path))
+
+
+reading_paths = tuple(
+    path.relative_to(ROOT).as_posix()
+    for path in sorted((ROOT / "04-cross-linguistic/readings").glob("*.md"))
+    if path.name != "README.md"
 )
 all_cards: dict[str, list[tuple[str, str]]] = {}
 for path in reading_paths:
@@ -131,6 +148,42 @@ for path in reading_paths:
         for field in required_card_fields:
             if field not in section:
                 fails.append(f"card field: {path}: {heading} lacks {field}")
+
+    if recovery_marker not in body:
+        fails.append(f"recovery protocol: {path} lacks {recovery_marker}")
+        continue
+
+    before_marker, after_marker = body.split(recovery_marker, 1)
+    for field in recovery_card_fields:
+        if field not in before_marker:
+            fails.append(f"recovery template: {path} lacks {field}")
+
+    for heading, section in reading_cards_from_body(after_marker):
+        for field in required_card_fields + recovery_card_fields:
+            if field not in section:
+                fails.append(f"recovery card field: {path}: {heading} lacks {field}")
+
+        version = re.search(r"^- إصدارُ البروتوكول:\s*(.+)$", section, re.MULTILINE)
+        state = re.search(r"^- حالةُ الإغلاق:\s*(.+)$", section, re.MULTILINE)
+        verdict = re.search(r"^- الحكم \(استكشاف\):\s*(.+)$", section, re.MULTILINE)
+        if version and not version.group(1).startswith("RECOVERY-v2"):
+            fails.append(f"recovery version: {path}: {heading} is not RECOVERY-v2")
+        if not state or not verdict:
+            continue
+
+        state_value = state.group(1)
+        verdict_value = verdict.group(1).lstrip("*")
+        closes_no_trace = verdict_value.startswith("NO-TRACE")
+        if closes_no_trace and "CLOSED-NO-TRACE" not in state_value:
+            fails.append(
+                f"recovery closure: {path}: {heading} issues NO-TRACE without CLOSED-NO-TRACE"
+            )
+        if closes_no_trace and any(
+            gap in state_value for gap in ("TOOL-GAP", "LAW-GAP", "SOURCE-GAP", "OPEN-CANDIDATE")
+        ):
+            fails.append(
+                f"recovery gap: {path}: {heading} turns an unresolved gap into NO-TRACE"
+            )
 
 
 egypt_cards = all_cards["04-cross-linguistic/readings/egyptian.md"]

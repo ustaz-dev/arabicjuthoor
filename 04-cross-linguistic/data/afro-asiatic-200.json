@@ -3,9 +3,9 @@
   "version": "2026-05-24-round24",
   "count": 324,
   "verdict_distribution": {
-    "STRONG": 158,
+    "STRONG": 157,
     "PARTIAL": 92,
-    "PROVISIONAL": 39,
+    "PROVISIONAL": 40,
     "PERFECT": 13,
     "DIVERGED-STEMS": 13,
     "PROTO-FAMILY": 8,
@@ -1656,13 +1656,15 @@
     },
     {
       "id": 163,
-      "arabic": "شَنَف / شَنَّف",
-      "egyptian": "šnf",
-      "gloss": "be angry, frown, dislike",
-      "class": "trilateral · exact š-n-f match",
-      "verdict": "STRONG",
+      "arabic": "شَنَف",
+      "egyptian": "šnf.t",
+      "gloss": "Egyptian: fish scale; Arabic: upper lip turned upward",
+      "class": "trilateral · exact š-n-f match; semantic bridge pending frozen root reading",
+      "verdict": "PROVISIONAL",
+      "closure_state": "OPEN-CANDIDATE (ROOT-READING TOOL-GAP)",
+      "legacy_claim": "RETRACTED 2026-07-14: Egyptian 'be angry, frown' is not the TLA meaning of šnf.t",
       "revelation": false,
-      "category": "mind"
+      "category": "body/object"
     },
     {
       "id": 164,

@@ -814,7 +814,7 @@ These continue extracting from the *@tareq.ismail* video corpus and direct Saidi
 
 **162. سَكَّ · *sk* — "rub, sweep, dust"** — Both share س + ك. Egyptian *sk* "to dust, to sweep." Arabic سَكّ "to strike, to mint coins." Parallel rubbing-action stems. **Verdict: STRONG.**
 
-**163. شَنَّف · *šnf* — "be angry, frown"** — Both share š/ش + n + f. Egyptian *šnf* "to be angry." Arabic شَنَف "to dislike, to hate." **Verdict: STRONG · exact 3-consonant match.**
+**163. شَنَف · *šnf.t* — Egyptian “scale (of fish),” Arabic “upper lip turned upward”** — **Source correction (2026-07-14):** TLA 156140 and Coptic ϣⲛϥⲉ give “fish scale,” not the old roster gloss “be angry, frown.” The consonants š/ش + n + f match exactly. Arabic شنف has a separately attested anatomical sense, “the upper lip turned upward,” alongside looking upward/askance, the upper ear ornament, and dislike. That makes a one-step shape/state bridge plausible, but the project has no frozen root reading for شنف and no published historical semantic shift yet. **Roster verdict: PROVISIONAL · recovery state: OPEN-CANDIDATE (ROOT-READING TOOL-GAP); the former STRONG verdict is retracted, not silently retained.** See the dated recovery audit and the latest cards in `readings/egyptian.md` and `readings/coptic.md`.
 
 **164. سَفَر · *sfr* (Coptic ⲥⲟⲩⲣ) — "depart, travel"** — Both share س + ف + ر. Arabic سَفَر "to travel, to depart"; Egyptian preserves the s-f-r journey-stem in derivative forms. **Verdict: STRONG.**
 
