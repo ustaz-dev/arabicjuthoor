@@ -21,11 +21,12 @@ GAPS = ('TOOL-GAP', 'LAW-GAP', 'SOURCE-GAP', 'OPEN-CANDIDATE', 'MORPHOLOGY-GAP')
 
 def cards(path):
     body = open(path, encoding='utf-8').read()
-    blocks = re.split(r'(?=^### بطاقة)', body, flags=re.M)
+    blocks = re.split(r'(?=^### (?:بطاقة|إعادةُ توسيم))', body, flags=re.M)
     for b in blocks:
-        if not b.startswith('### بطاقة'):
+        if not (b.startswith('### بطاقة') or b.startswith('### إعادةُ توسيم')):
             continue
-        title = b.split('\n', 1)[0].replace('### بطاقة', '').strip(' :')
+        head = b.split('\n', 1)[0]
+        title = head.replace('### بطاقة', '').replace('### إعادةُ توسيم', '(إعادةُ توسيم)').strip(' :')
         if '<' in title:
             continue  # template block, not a real card
         verdict = ''
