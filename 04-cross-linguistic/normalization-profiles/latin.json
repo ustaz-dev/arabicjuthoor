@@ -1,0 +1,33 @@
+{
+  "profile_version": 1,
+  "language": "latin",
+  "label": "Latin",
+  "source": {
+    "id": "kaikki_latin",
+    "format": "kaikki-jsonl",
+    "path": "Resources/latin/kaikki.org-dictionary-Latin.jsonl"
+  },
+  "preferred_input": ["romanization", "original"],
+  "script_map": {
+    "c": "k", "q": "k", "x": "ks", "v": "w", "j": "j", "ß": "ss"
+  },
+  "combining_map": {},
+  "vowels": ["a", "e", "i", "o", "u", "y", "ā", "ē", "ī", "ō", "ū", "ȳ", "ă", "ĕ", "ĭ", "ŏ", "ŭ"],
+  "multi_tokens": {
+    "ch": ["kh"], "ph": ["ph"], "th": ["th"], "rh": ["r"], "qu": ["k", "w"],
+    "ku": ["k", "w"],
+    "ks": ["k", "s"], "ss": ["s", "s"]
+  },
+  "single_tokens": ["b", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "w", "z"],
+  "ignored_characters": [" ", "-", "_", ".", ",", ";", ":", "·", "'", "’", "ʼ", "(", ")", "[", "]", "/", "\\", "?"],
+  "ambiguous_sequences": {
+    "i": "قد تكون صائتًا أو /j/ في الرسم اللاتيني؛ الرومنة أو التحليل الصرفي يحسمان",
+    "u": "قد تكون صائتًا أو /w/ في بعض التقاليد الكتابية"
+  },
+  "zero_step": {
+    "entry_policy": "canonical lemma; form-of entries remain inventoried but are not candidate-bearing lemmas",
+    "automatic_affixes": [],
+    "note": "لا تُحذف النهايات الاسمية أو الفعلية آليًا؛ استخراج الساق يحتاج تحليلًا صرفيًا مسمى."
+  },
+  "relevant_branch_rules": []
+}

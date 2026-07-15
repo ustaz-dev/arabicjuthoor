@@ -1,0 +1,26 @@
+{
+  "profile_version": 1,
+  "language": "egyptian",
+  "label": "Ancient Egyptian transliteration",
+  "source": null,
+  "preferred_input": ["romanization"],
+  "script_map": {
+    "ꜣ": "qstop", "ꜥ": "ayin", "ʿ": "ayin", "ỉ": "j", "ṯ": "th", "ḏ": "dh",
+    "š": "sh", "ḫ": "kh", "ẖ": "kh", "ḥ": "hh"
+  },
+  "combining_map": {},
+  "vowels": ["a", "e", "i", "o", "u", "ā", "ē", "ī", "ō", "ū"],
+  "multi_tokens": {
+    "qstop": ["qstop"], "ayin": ["ayin"], "kh": ["kh"], "hh": ["hh"],
+    "th": ["th"], "dh": ["dh"], "sh": ["sh"]
+  },
+  "single_tokens": ["b", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "w", "y", "z"],
+  "ignored_characters": [" ", "-", "_", ".", "·", "'", "’", "ʼ", "(", ")", "[", "]", "/", "\\", "?"],
+  "ambiguous_sequences": {},
+  "zero_step": {
+    "entry_policy": "the reader supplies the source lemma after stripping only published Egyptian morphology",
+    "automatic_affixes": [],
+    "note": "تاء التأنيث وغيرها لا تُنزَع داخل المطبع؛ تُمرر إليه اللب بعد توثيق الخطوة صفر في البطاقة."
+  },
+  "relevant_branch_rules": ["BR-EGYP-01", "BR-EGYP-02"]
+}

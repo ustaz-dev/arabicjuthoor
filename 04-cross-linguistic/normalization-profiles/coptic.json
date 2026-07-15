@@ -1,0 +1,37 @@
+{
+  "profile_version": 1,
+  "language": "coptic",
+  "label": "Coptic",
+  "source": {
+    "id": "kellia_coptic_lexicon",
+    "format": "coptic-tei",
+    "path": "Resources/coptic/Comprehensive_Coptic_Lexicon.xml"
+  },
+  "preferred_input": ["original"],
+  "script_map": {
+    "ⲁ": "a", "ⲃ": "b", "ⲅ": "g", "ⲇ": "d", "ⲉ": "e", "ⲍ": "z", "ⲏ": "e",
+    "ⲑ": "th", "ⲓ": "i", "ⲕ": "k", "ⲗ": "l", "ⲙ": "m", "ⲛ": "n", "ⲝ": "ks",
+    "ⲟ": "o", "ⲡ": "p", "ⲣ": "r", "ⲥ": "s", "ⲧ": "t", "ⲩ": "u", "ⲫ": "ph",
+    "ⲭ": "kh", "ⲯ": "ps", "ⲱ": "o", "ϣ": "sh", "ϥ": "f", "ϧ": "kh",
+    "ϩ": "h", "ϫ": "j", "ϭ": "ch", "ϯ": "ti", "ⳉ": "kh", "ⳇ": "sh",
+    "⳨": "tr", "ι": "i"
+  },
+  "combining_map": {},
+  "vowels": ["a", "e", "i", "o", "u"],
+  "multi_tokens": {
+    "kh": ["kh"], "ph": ["ph"], "th": ["th"], "sh": ["sh"], "ch": ["ch"],
+    "ps": ["p", "s"], "ks": ["k", "s"], "ti": ["t"], "tr": ["t", "r"]
+  },
+  "single_tokens": ["b", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "w", "z"],
+  "ignored_characters": [" ", "-", "_", ".", ",", ";", "·", "⸗", "*", "'", "’", "ʼ", "(", ")", "[", "]", "/", "\\", "?"],
+  "ambiguous_sequences": {
+    "ⲟⲩ": "قد تكون صائت /u/ أو شبه صامت /w/ بحسب الكلمة؛ لا تُحسم آليًا",
+    "ⲃ": "قد تتراوح بين /b/ و/v/ بحسب المرحلة واللهجة"
+  },
+  "zero_step": {
+    "entry_policy": "TEI form[@type='lemma']; inflected forms are retained as variants, not separate candidate-bearing lemmas",
+    "automatic_affixes": [],
+    "note": "علامتا الربط - و⸗ حدود كتابية فقط؛ لا يُنزَع صامت من اللمّة بلا تحليل قبطي منشور."
+  },
+  "relevant_branch_rules": ["BR-EGYP-01", "BR-EGYP-02"]
+}

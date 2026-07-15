@@ -37,6 +37,9 @@ jobs:
       - name: Recovery ledger freshness
         run: python scripts/scan_recovery_ledger.py --check
 
+      - name: Recovery pipeline regressions
+        run: python scripts/check_recovery_pipeline.py
+
       - name: Cross-linguistic roster integrity
         run: python scripts/layer_2/check_rosters.py
 

@@ -1,0 +1,28 @@
+{
+  "profile_version": 1,
+  "language": "generic",
+  "label": "Generic scholarly romanization",
+  "source": null,
+  "preferred_input": ["romanization"],
+  "script_map": {
+    "ꜣ": "qstop", "ꜥ": "ayin", "ʿ": "ayin", "ʕ": "ayin", "ʔ": "qstop",
+    "ỉ": "j", "ṯ": "th", "ḏ": "dh", "š": "sh", "č": "ch", "ḫ": "kh", "ẖ": "kh",
+    "ḥ": "hh", "ġ": "gh", "ṣ": "s", "ṭ": "t", "ḍ": "d", "ḳ": "q", "c": "k", "x": "kh"
+  },
+  "combining_map": {},
+  "vowels": ["a", "e", "i", "o", "u", "y", "ā", "ē", "ī", "ō", "ū", "ȳ"],
+  "multi_tokens": {
+    "qstop": ["qstop"], "ayin": ["ayin"], "kh": ["kh"], "hh": ["hh"], "gh": ["gh"],
+    "th": ["th"], "dh": ["dh"], "sh": ["sh"], "ph": ["ph"], "ch": ["ch"],
+    "ps": ["p", "s"], "ks": ["k", "s"]
+  },
+  "single_tokens": ["ء", "ا", "ب", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر", "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ع", "غ", "ف", "ق", "ك", "ل", "م", "ن", "ه", "و", "ي", "b", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "z"],
+  "ignored_characters": [" ", "-", "_", ".", ",", ";", ":", "·", "'", "’", "ʼ", "(", ")", "[", "]", "/", "\\", "?"],
+  "ambiguous_sequences": {},
+  "zero_step": {
+    "entry_policy": "caller supplies a source lemma",
+    "automatic_affixes": [],
+    "note": "للاستعلام الفردي فقط؛ المسح الشامل يستعمل ملف اللغة المسمى."
+  },
+  "relevant_branch_rules": []
+}
