@@ -2,15 +2,18 @@
 from __future__ import annotations
 
 import json
+import sqlite3
 import sys
 import tempfile
 from pathlib import Path
 
 from recovery_pipeline.candidates import ArabicInventory, generate_hits
+from recovery_pipeline.families import build_families, load_family_review_states, target_alternatives
 from recovery_pipeline.inventory import load_review_states
 from recovery_pipeline.network import compile_network, rules_by_id
 from recovery_pipeline.normalization import available_profiles, detect_language, load_profile, normalize
 from recovery_pipeline.sources import iter_coptic_tei, iter_kaikki
+from recovery_pipeline.proof import load_preregistration, require_execution_authority
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +22,8 @@ FIXTURES = ROOT / "scripts" / "recovery_pipeline" / "network-fixtures.json"
 
 def main() -> int:
     failures: list[str] = []
+    if target_alternatives("alpha+beta/gamma") != ("alpha", "beta", "gamma"):
+        failures.append("family-target separator regression")
     rules = compile_network()
     indexed = rules_by_id(rules)
     if len(rules) != 42:
@@ -40,6 +45,9 @@ def main() -> int:
         ("egyptian", "ꜣpd"): ("qstop", "p", "d"),
         ("latin", "cornu"): ("k", "r", "n"),
         ("latin", "quattuor"): ("k", "w", "t", "t", "r"),
+        ("hebrew", "𐤁𐤉𐤕"): ("b", "y", "t"),
+        ("aramaic", "𐡀𐡓𐡌𐡉𐡀"): ("qstop", "r", "m", "y", "qstop"),
+        ("aramaic", "ܡܫܝܚܐ"): ("m", "sh", "y", "hh", "qstop"),
     }
     detections = {
         "τρεῖς": "ancient_greek",
@@ -81,6 +89,13 @@ def main() -> int:
         failures.append("multi-row retrieval regression: direct correspondences in two slots were lost")
 
     load_review_states()
+    load_family_review_states()
+    preregistration = load_preregistration()
+    try:
+        require_execution_authority(preregistration)
+        failures.append("locked proof preregistration opened its execution gate")
+    except PermissionError:
+        pass
     required_profile_fields = {
         "profile_version", "language", "preferred_input", "script_map", "vowels", "multi_tokens",
         "single_tokens", "ignored_characters", "zero_step", "relevant_branch_rules",
@@ -94,8 +109,17 @@ def main() -> int:
         temp = Path(directory)
         kaikki = temp / "sample.jsonl"
         row = json.dumps({
-            "word": "τρεῖς", "pos": "num", "forms": [{"form": "treîs", "tags": ["romanization"]}],
-            "etymology_text": "Inherited", "senses": [{"id": "sample-1", "glosses": ["three"]}],
+            "word": "τρεῖς", "lang": "Ancient Greek", "pos": "num",
+            "forms": [{"form": "treîs", "tags": ["romanization"]}],
+            "etymology_text": "Inherited", "derived": [{"word": "τριάς"}],
+            "related": [{"word": "τρία"}],
+            "senses": [{"id": "sample-1", "glosses": ["three"], "tags": ["form-of"],
+                        "form_of": [{"word": "τρεῖς including a source gloss"},
+                                    {"word": "defective spelling"}],
+                        "links": [["τρεῖς", "τρεῖς#Ancient_Greek"]]},
+                       {"tags": ["alt-of"], "alt_of": [{"word": "τρία"}],
+                        "links": [["τρία", "τρία#Ancient_Greek"]]},
+                       {"tags": ["form-of"], "form_of": [{"word": "τριάς. source prose"}]}],
         }, ensure_ascii=False)
         kaikki.write_text(row + "\n" + row + "\n", encoding="utf-8")
         sample = list(iter_kaikki(kaikki, "sample"))
@@ -103,6 +127,75 @@ def main() -> int:
             failures.append("synthetic Kaikki duplicate-ID regression")
         if sample[0].romanization != "treîs" or sample[0].gloss != "three":
             failures.append("synthetic Kaikki parser regression")
+        if sample[0].form_targets != ("τρεῖς", "τριάς"):
+            failures.append(f"Kaikki form-target recovery regression: {sample[0].form_targets!r}")
+        if sample[0].alternative_targets != ("τρία",):
+            failures.append(f"Kaikki alternative-target recovery regression: {sample[0].alternative_targets!r}")
+        if not sample[0].form_of or not sample[0].alternative_of:
+            failures.append("Kaikki form/alternative distinction regression")
+        if sample[0].derived_terms != ("τριάς",) or sample[0].related_terms != ("τρία",):
+            failures.append("Kaikki lexical-relation parser regression")
+        latin = temp / "latin.jsonl"
+        latin_rows = [
+            {
+                "word": "movet", "lang": "Latin", "pos": "verb",
+                "senses": [{"id": "latin-1", "tags": ["form-of"],
+                            "links": [["moveō", "moveo#Latin"], ["moves", "moves"]],
+                            "form_of": [{"word": "moveō# source prose"}, {"word": "he/she/it moves"}]}],
+            },
+            {
+                "word": "pastus", "lang": "Latin", "pos": "verb",
+                "senses": [{"id": "latin-2", "tags": ["form-of"],
+                            "form_of": [{"word": "pāscor and perfect passive participle of pāscō"}]}],
+            },
+            {
+                "word": "obtenturus", "lang": "Latin", "pos": "verb",
+                "senses": [{"id": "latin-3", "tags": ["form-of"],
+                            "form_of": [{"word": "obtendō\nFuture active participle of obtineo"}]}],
+            },
+            {
+                "word": "academicus", "lang": "Latin", "pos": "adj",
+                "senses": [{"id": "latin-4", "tags": ["alt-of"],
+                            "alt_of": [{"word": "or pertaining to an adjective"}]}],
+            },
+            {
+                "word": "nomen", "lang": "Latin", "pos": "noun",
+                "senses": [{"id": "latin-5", "tags": ["form-of"],
+                            "links": [["substantive", "substantive#English"],
+                                      ["adjective", "adjective#English"],
+                                      ["numeral", "numeral#English"]],
+                            "form_of": [{"word": "substantives"}, {"word": "adjectives"},
+                                        {"word": "and numerals"}]}],
+            },
+            {
+                "word": "fluorescens", "lang": "Latin", "pos": "verb",
+                "senses": [{"id": "latin-6", "tags": ["form-of"],
+                            "form_of": [{"word": "frequentative of fluō"}]}],
+            },
+            {
+                "word": "frendendus", "lang": "Latin", "pos": "verb",
+                "senses": [{"id": "latin-7", "tags": ["form-of"],
+                            "form_of": [{"word": "frendeō and frendō"}]}],
+            },
+        ]
+        latin.write_text(
+            "".join(json.dumps(row, ensure_ascii=False) + "\n" for row in latin_rows), encoding="utf-8"
+        )
+        latin_sample = list(iter_kaikki(latin, "sample-latin"))
+        if latin_sample[0].form_targets != ("moveō",):
+            failures.append(f"Latin linked-target recovery regression: {latin_sample[0].form_targets!r}")
+        if latin_sample[1].form_targets != ("pāscor", "pāscō"):
+            failures.append(f"Latin compound-target recovery regression: {latin_sample[1].form_targets!r}")
+        if latin_sample[2].form_targets != ("obtendō", "obtineo"):
+            failures.append(f"Latin multiline-target recovery regression: {latin_sample[2].form_targets!r}")
+        if latin_sample[3].alternative_targets:
+            failures.append(f"Latin prose-target rejection regression: {latin_sample[3].alternative_targets!r}")
+        if latin_sample[4].form_targets:
+            failures.append(f"Latin foreign-link rejection regression: {latin_sample[4].form_targets!r}")
+        if latin_sample[5].form_targets != ("fluō",):
+            failures.append(f"Latin named-lemma recovery regression: {latin_sample[5].form_targets!r}")
+        if latin_sample[6].form_targets != ("frendeō", "frendō"):
+            failures.append(f"Latin paired-lemma recovery regression: {latin_sample[6].form_targets!r}")
         broken = temp / "broken.jsonl"
         broken.write_text("{not-json}\n", encoding="utf-8")
         try:
@@ -122,11 +215,63 @@ def main() -> int:
         if len(sample) != 1 or sample[0].headword != "ϣⲛϥⲉ" or not sample[0].loan_hint:
             failures.append("synthetic Coptic TEI parser regression")
 
+        family_db = sqlite3.connect(":memory:")
+        family_db.execute("PRAGMA foreign_keys=ON")
+        family_db.execute(
+            "CREATE TABLE entries (entry_id TEXT PRIMARY KEY, language TEXT NOT NULL, headword TEXT NOT NULL, "
+            "form_of INTEGER NOT NULL, alternative_of INTEGER NOT NULL, "
+            "form_targets_json TEXT NOT NULL, alternative_targets_json TEXT NOT NULL, "
+            "derived_terms_json TEXT NOT NULL, related_terms_json TEXT NOT NULL, "
+            "skeleton TEXT NOT NULL, processing_status TEXT NOT NULL, candidate_count INTEGER NOT NULL, "
+            "pos TEXT NOT NULL, form_resolution_status TEXT NOT NULL)"
+        )
+        family_db.executemany(
+            "INSERT INTO entries VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            [
+                ("noun", "hebrew", "אב", 0, 0, "[]", "[]", "[]", "[]", "qb", "candidates-generated", 1, "noun", "not-form"),
+                ("verb", "hebrew", "אב", 0, 0, "[]", "[]", "[]", "[]", "qb", "candidates-generated", 1, "verb", "not-form"),
+                ("form", "hebrew", "אבות", 1, 0, '["אָב"]', "[]", "[]", "[]", "qbwt", "form-pending-link", 0, "noun", "pending"),
+                ("alternative", "hebrew", "אָב", 0, 1, "[]", '["אב"]', "[]", "[]", "qb", "candidates-generated", 1, "noun", "pending"),
+                ("mixed", "hebrew", "אב׳", 1, 1, '["אָב"]', '["אב"]', "[]", "[]", "qb", "candidates-generated", 1, "noun", "pending"),
+                ("orphan", "hebrew", "יתום", 1, 0, '["חסר"]', "[]", "[]", "[]", "ytwm", "form-pending-link", 0, "noun", "pending"),
+            ],
+        )
+        report = build_families(family_db, "hebrew")
+        if report["family_members"] != 6:
+            failures.append("family membership regression: an entry disappeared")
+        linked = family_db.execute(
+            "SELECT status, resolved_target_entry_id, match_method FROM form_links WHERE form_entry_id='form'"
+        ).fetchone()
+        if linked != ("linked", "alternative", "exact"):
+            failures.append(f"family POS-resolution regression: {linked!r}")
+        alternative = family_db.execute(
+            "SELECT link_type, status FROM form_links WHERE form_entry_id='alternative'"
+        ).fetchone()
+        alternative_entry = family_db.execute(
+            "SELECT processing_status, form_resolution_status FROM entries WHERE entry_id='alternative'"
+        ).fetchone()
+        if alternative != ("alt-of", "linked") or alternative_entry != ("candidates-generated", "linked"):
+            failures.append(f"alternative-family regression: {alternative!r}, {alternative_entry!r}")
+        mixed = family_db.execute(
+            "SELECT link_type, status FROM form_links WHERE form_entry_id='mixed' ORDER BY link_type"
+        ).fetchall()
+        mixed_entry = family_db.execute(
+            "SELECT processing_status, candidate_count FROM entries WHERE entry_id='mixed'"
+        ).fetchone()
+        if mixed != [("alt-of", "linked"), ("form-of", "linked")] or mixed_entry != ("candidates-generated", 1):
+            failures.append(f"mixed lexical/form regression: {mixed!r}, {mixed_entry!r}")
+        orphan = family_db.execute(
+            "SELECT status FROM form_links WHERE form_entry_id='orphan'"
+        ).fetchone()
+        if orphan != ("orphan-form",):
+            failures.append("explicit orphan-form regression")
+        family_db.close()
+
     if failures:
         for failure in failures:
             print(f"FAIL: {failure}")
         return 1
-    print("recovery pipeline: CLEAN (42 rows, 10 fixtures, 5 normalization cases, source parsers, scoped candidates)")
+    print("recovery pipeline: CLEAN (42 rows, 10 fixtures, normalization, sources, families, proof gate)")
     return 0
 
 

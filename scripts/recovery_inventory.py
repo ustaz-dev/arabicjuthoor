@@ -13,10 +13,13 @@ from recovery_pipeline.inventory import (
     connect,
     install_review_overlay,
     profile_check,
+    refresh_family_metadata,
     review_queue,
     summary,
+    upgrade_family_layer_from_v2,
     verify_inventory,
 )
+from recovery_pipeline.families import family_card, family_review_queue
 from recovery_pipeline.normalization import available_profiles, load_profile
 
 
@@ -33,6 +36,18 @@ def main() -> int:
     build.add_argument("--language", choices=source_languages())
     build.add_argument("--all", action="store_true")
     build.add_argument("--limit", type=int, help="Diagnostic sample only; omitting it means full source coverage.")
+
+    upgrade = sub.add_parser(
+        "upgrade-v2", help="Rebuild lexical families while reusing a proven-equivalent complete schema-v2 scan."
+    )
+    upgrade.add_argument("--language", choices=source_languages(), required=True)
+    upgrade.add_argument("--source-db", type=Path, required=True)
+
+    refresh = sub.add_parser(
+        "refresh-families", help="Refresh typed family links from the pinned source without rerunning the full scan."
+    )
+    refresh.add_argument("--language", choices=source_languages())
+    refresh.add_argument("--all", action="store_true")
 
     report = sub.add_parser("summary", help="Count every processing and human-review state.")
     report.add_argument("--language", choices=source_languages())
@@ -59,6 +74,16 @@ def main() -> int:
     queue.add_argument("--language", choices=source_languages())
     queue.add_argument("--limit", type=int, default=50)
 
+    family_queue = sub.add_parser("family-queue", help="List lexical-family cards for one review lens.")
+    family_queue.add_argument("--lens", choices=("recovery", "skeptical"), required=True)
+    family_queue.add_argument("--language", choices=source_languages())
+    family_queue.add_argument("--processing-status")
+    family_queue.add_argument("--limit", type=int, default=50)
+
+    card = sub.add_parser("family-card", help="Inspect one family, its members, overrides, and unified candidates.")
+    card.add_argument("--family-id", required=True)
+    card.add_argument("--candidate-limit", type=int, default=200)
+
     args = parser.parse_args()
     if args.command == "build":
         languages = source_languages() if args.all else [args.language]
@@ -73,6 +98,26 @@ def main() -> int:
             return 0
         except (FileNotFoundError, sqlite3.Error) as error:
             print(f"inventory summary failed: {error}")
+            return 1
+    if args.command == "upgrade-v2":
+        try:
+            print(json.dumps(upgrade_family_layer_from_v2(
+                args.language, source_db=args.source_db, db_path=args.db
+            ), ensure_ascii=False, indent=2))
+            return 0
+        except (FileNotFoundError, sqlite3.Error, ValueError, RuntimeError) as error:
+            print(f"schema-v2 upgrade failed: {error}")
+            return 1
+    if args.command == "refresh-families":
+        languages = source_languages() if args.all else [args.language]
+        if not all(languages):
+            parser.error("refresh-families requires --language or --all")
+        try:
+            for language in languages:
+                print(json.dumps(refresh_family_metadata(language, db_path=args.db), ensure_ascii=False, indent=2))
+            return 0
+        except (FileNotFoundError, sqlite3.Error, ValueError, RuntimeError) as error:
+            print(f"family metadata refresh failed: {error}")
             return 1
     if args.command == "verify":
         try:
@@ -99,6 +144,31 @@ def main() -> int:
         except (FileNotFoundError, sqlite3.Error) as error:
             print(f"review queue failed: {error}")
             return 1
+    if args.command == "family-queue":
+        connection = connect(args.db, create=False)
+        try:
+            result = family_review_queue(
+                connection, args.lens, args.language, args.processing_status, args.limit
+            )
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+            return 0
+        except (FileNotFoundError, sqlite3.Error, ValueError) as error:
+            print(f"family queue failed: {error}")
+            return 1
+        finally:
+            connection.close()
+    if args.command == "family-card":
+        connection = connect(args.db, create=False)
+        try:
+            print(json.dumps(
+                family_card(connection, args.family_id, args.candidate_limit), ensure_ascii=False, indent=2
+            ))
+            return 0
+        except (FileNotFoundError, sqlite3.Error, ValueError, KeyError) as error:
+            print(f"family card failed: {error}")
+            return 1
+        finally:
+            connection.close()
     if args.command == "query":
         connection = connect(args.db, create=False)
         try:

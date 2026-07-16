@@ -62,4 +62,6 @@
 
 ## 7. جردُ الاسترداد الشامل
 
-ملفات التطبيع المعلنة في `04-cross-linguistic/normalization-profiles/` تربط حاليًا اليونانية القديمة والقبطية واللاتينية بلقطات مصادرها أعلاه. يبني `scripts/recovery_inventory.py build --all` قاعدة محلية مشتقة في `cache/recovery_pipeline/`، ويسجل بصمة كل مصدر وحالة كل مدخل. القاعدة خارج git ويمكن إعادة بنائها؛ أمّا مراجعات البشر فتبقى منفصلة في `data/recovery-review-states.json`. المواصفات وحدود معنى «التغطية الكاملة» في `04-cross-linguistic/recovery-pipeline.md`.
+ملفات التطبيع المعلنة في `04-cross-linguistic/normalization-profiles/` تربط حاليًا اليونانية القديمة والقبطية واللاتينية والعبرية والآرامية بلقطات مصادرها أعلاه. يبني `scripts/recovery_inventory.py build --all` قاعدة محلية مشتقة في `cache/recovery_pipeline/`، ويسجل بصمة كل مصدر وحالة كل مدخل.
+
+وحدة الفحص والعد هي الأسرة المعجمية: صورة `form_of` ترتبط بلمتها المسماة ولا تولد مرشحًا مستقلًا، أما `alt_of` فتربط البديل بالأسرة مع إبقائه عضوًا مرشحًا. وإذا اجتمعا في مدخل واحد تحفظ الوظيفتان في رابطين منفصلين وتبقى الوظيفة المعجمية مولدة للمرشحات. وعدم الحل يبقى ظاهرًا `orphan-form` أو `ambiguous-form`. روابط `derived` و`related` نصية، والرباط بالهيكل المشترك موسوم `structural` ولا يدعى نسبًا. القاعدة خارج git ويمكن إعادة بنائها؛ مراجعات المداخل في `data/recovery-review-states.json`، ومراجعات الأسر ونقض الأعضاء في `data/family-review-states.json`. المواصفات وحدود معنى «التغطية الكاملة» في `04-cross-linguistic/recovery-pipeline.md`.

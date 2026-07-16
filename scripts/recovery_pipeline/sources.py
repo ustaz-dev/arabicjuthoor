@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from pathlib import Path
@@ -13,6 +14,14 @@ XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 ROMANIZATION_METADATA = {
     "archaic", "comparable", "defective", "dialectal", "irregular", "obsolete",
     "productive", "rare", "uncomparable", "unproductive",
+}
+INFLECTION_TAGS = {
+    "ablative", "accusative", "active", "comparative", "dative", "dual", "feminine",
+    "first-person", "future", "future-perfect", "genitive", "gerund", "gerundive",
+    "imperative", "imperfect", "indicative", "infinitive", "locative", "masculine",
+    "letter", "lowercase", "neuter", "nominative", "participle", "passive", "perfect", "person", "pluperfect",
+    "plural", "present", "second-person", "singular", "subjunctive", "superlative",
+    "supine", "third-person", "uppercase", "vocative",
 }
 
 
@@ -28,6 +37,11 @@ class LexiconEntry:
     etymology: str
     loan_hint: bool
     form_of: bool
+    alternative_of: bool
+    form_targets: tuple[str, ...]
+    alternative_targets: tuple[str, ...]
+    derived_terms: tuple[str, ...]
+    related_terms: tuple[str, ...]
 
 
 def source_path(profile: dict[str, Any], root: Path) -> Path:
@@ -74,6 +88,186 @@ def _is_form_of(entry: dict[str, Any]) -> bool:
     return False
 
 
+def _is_alternative_of(entry: dict[str, Any]) -> bool:
+    for sense in entry.get("senses", []) or []:
+        tags = set(sense.get("tags") or [])
+        if "alt-of" in tags or sense.get("alt_of"):
+            return True
+    return False
+
+
+def _language_link_words(sense: dict[str, Any], language: str) -> list[str]:
+    normalized_language = language.casefold().replace("_", " ").strip()
+    words: list[str] = []
+    for link in sense.get("links", []) or []:
+        if not isinstance(link, list) or len(link) < 2 or not str(link[0]).strip():
+            continue
+        destination = str(link[1])
+        if "#" not in destination:
+            continue
+        fragment = destination.rsplit("#", 1)[1].casefold().replace("_", " ").strip()
+        if not normalized_language or fragment == normalized_language:
+            words.extend(part.strip() for part in re.split(r"\s*/\s*", str(link[0])) if part.strip())
+    return list(dict.fromkeys(words))
+
+
+def _foreign_link_words(sense: dict[str, Any], language: str) -> set[str]:
+    normalized_language = language.casefold().replace("_", " ").strip()
+    words: set[str] = set()
+    for link in sense.get("links", []) or []:
+        if not isinstance(link, list) or len(link) < 2 or not str(link[0]).strip():
+            continue
+        destination = str(link[1])
+        if "#" not in destination:
+            continue
+        fragment = destination.rsplit("#", 1)[1].casefold().replace("_", " ").strip()
+        # Kaikki also uses URL fragments for section names, so a fragment that
+        # merely differs from the entry language is not proof of a foreign
+        # target. English is the explicitly labelled prose leak handled here.
+        if fragment == "english" and normalized_language != "english":
+            words.add(str(link[0]).strip().casefold())
+    return words
+
+
+def _foreign_link_equivalent(value: str, foreign_words: set[str]) -> bool:
+    normalized = value.strip(" \t.,;:").casefold()
+    if normalized.startswith("and "):
+        normalized = normalized[4:].strip()
+    choices = {normalized, normalized.removesuffix("s")}
+    return any(choice in foreign_words or choice.removesuffix("s") in foreign_words for choice in choices)
+
+
+def _script_lemma_candidate(value: str, language: str) -> str:
+    ranges = {
+        "hebrew": ((0x0590, 0x05FF), (0x10900, 0x1091F)),
+        "aramaic": ((0x0590, 0x05FF), (0x0700, 0x074F), (0x10840, 0x1085F)),
+        "ancient greek": ((0x0370, 0x03FF), (0x1F00, 0x1FFF)),
+    }.get(language.casefold().replace("_", " ").strip())
+    if not ranges:
+        return value
+    script_positions = [
+        index for index, char in enumerate(value) if any(start <= ord(char) <= end for start, end in ranges)
+    ]
+    if not script_positions:
+        return ""
+    latin_positions = [index for index, char in enumerate(value) if char.isascii() and char.isalpha()]
+    if latin_positions and min(latin_positions) < min(script_positions):
+        return ""
+    if latin_positions:
+        return value[:min(latin_positions)].rstrip(" \t.,:;([{/-")
+    return value
+
+
+def _latin_structured_target_candidates(value: str) -> tuple[str, ...]:
+    """Recover only lemmas explicitly named inside malformed Latin target fields."""
+    candidates: list[str] = []
+    contamination_prefixes = (
+        "a main ", "and ", "as opposed to ", "causing ", "from ", "inherited from ", "or pertaining to ",
+        "probably inherited from ", "ultimately from ", "used to ",
+        "to ",
+    )
+    explicit_of = re.compile(
+        r"^(?:(?:alternative form|medieval spelling|mediaeval spelling)\s+of\s+(.+)"
+        r"|the deponent verb\s+(.+))$",
+        re.IGNORECASE,
+    )
+    participle_of = re.compile(
+        r"^(?:(.+?)\s+(?:and|or)\s+)?(?:perfect|present|future)"
+        r"(?:\s+(?:active|passive))?\s+participle of\s+(.+)$",
+        re.IGNORECASE,
+    )
+    sensed_lemma = re.compile(r"^(.+?)\s+with\s+(?:active|passive)\s+sense$", re.IGNORECASE)
+    named_lemma = re.compile(
+        r"^(?:frequentative of|intransitive|latin|the verb)\s+(.+)$", re.IGNORECASE
+    )
+    paired_lemmas = re.compile(r"^(\S+)\s+and\s+(\S+)$", re.IGNORECASE)
+    pos_suffix = re.compile(r"^(\S+)\s+[mfn]$", re.IGNORECASE)
+
+    for line in (part.strip(" \t.,;:") for part in value.splitlines()):
+        if not line:
+            continue
+        lower = line.casefold()
+        if lower.startswith(contamination_prefixes):
+            continue
+        if match := participle_of.match(line):
+            if match.group(1):
+                candidates.append(match.group(1).strip())
+            candidates.append(match.group(2).strip())
+            continue
+        if match := explicit_of.match(line):
+            candidates.append((match.group(1) or match.group(2)).strip())
+            continue
+        if match := sensed_lemma.match(line):
+            candidates.append(match.group(1).strip())
+            continue
+        if match := named_lemma.match(line):
+            candidates.append(match.group(1).strip())
+            continue
+        if match := paired_lemmas.match(line):
+            candidates.extend((match.group(1), match.group(2)))
+            continue
+        if match := pos_suffix.match(line):
+            candidates.append(match.group(1).strip())
+            continue
+        candidates.append(line)
+    return tuple(dict.fromkeys(item for item in candidates if item))
+
+
+def _typed_targets(entry: dict[str, Any], field: str, tag: str) -> tuple[str, ...]:
+    targets: list[str] = []
+    language = str(entry.get("lang") or "").strip()
+    for sense in entry.get("senses", []) or []:
+        tags = set(sense.get("tags") or [])
+        if not sense.get(field) and tag not in tags:
+            continue
+        linked_words = _language_link_words(sense, language)
+        foreign_words = _foreign_link_words(sense, language)
+        structured_targets = [
+            str(item["word"]).strip()
+            for item in (sense.get(field, []) or [])
+            if isinstance(item, dict) and item.get("word") and str(item["word"]).strip()
+        ]
+        for target in structured_targets:
+            if (
+                field == "form_of" and not tags.intersection(INFLECTION_TAGS)
+                and _foreign_link_equivalent(target, foreign_words)
+            ):
+                continue
+            linked_prefixes = [
+                word for word in linked_words
+                if target == word or (
+                    target.startswith(word) and len(target) > len(word)
+                    and target[len(word)] in " \t#.,:;([{"
+                )
+            ]
+            if linked_prefixes:
+                targets.append(max(linked_prefixes, key=len))
+            elif linked_words:
+                # A same-language source link is stronger than prose accidentally
+                # serialized into form_of/alt_of. Do not turn the unmatched prose
+                # into a phantom lexical target.
+                continue
+            else:
+                candidates = (
+                    _latin_structured_target_candidates(target)
+                    if language.casefold().strip() == "latin" else (target,)
+                )
+                for candidate in candidates:
+                    if script_target := _script_lemma_candidate(candidate, language):
+                        targets.append(script_target)
+        if not structured_targets and tag in tags and linked_words:
+            targets.append(linked_words[0])
+    return tuple(dict.fromkeys(target for target in targets if target))
+
+
+def _relation_terms(entry: dict[str, Any], field: str) -> tuple[str, ...]:
+    return tuple(dict.fromkeys(
+        str(item["word"]).strip()
+        for item in entry.get(field, []) or []
+        if isinstance(item, dict) and item.get("word") and str(item["word"]).strip()
+    ))
+
+
 def iter_kaikki(path: Path, source_id: str) -> Iterator[LexiconEntry]:
     with path.open("r", encoding="utf-8") as handle:
         for line_number, line in enumerate(handle, start=1):
@@ -108,6 +302,11 @@ def iter_kaikki(path: Path, source_id: str) -> Iterator[LexiconEntry]:
                 etymology=etymology,
                 loan_hint="borrowed from" in lower_etymology or "loanword" in lower_etymology,
                 form_of=_is_form_of(raw),
+                alternative_of=_is_alternative_of(raw),
+                form_targets=_typed_targets(raw, "form_of", "form-of"),
+                alternative_targets=_typed_targets(raw, "alt_of", "alt-of"),
+                derived_terms=_relation_terms(raw, "derived"),
+                related_terms=_relation_terms(raw, "related"),
             )
 
 
@@ -152,6 +351,11 @@ def iter_coptic_tei(path: Path, source_id: str) -> Iterator[LexiconEntry]:
             etymology="; ".join(etymology_parts),
             loan_hint=foreign or greek_loan,
             form_of=False,
+            alternative_of=False,
+            form_targets=(),
+            alternative_targets=(),
+            derived_terms=(),
+            related_terms=(),
         )
         entry.clear()
 

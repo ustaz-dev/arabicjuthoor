@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "status": "DRAFT-LOCKED",
+  "execution_authorized": false,
+  "author_signature": "",
+  "signed_date": "",
+  "frozen_git_commit": "",
+  "analysis_unit": "lexical-family",
+  "population": {
+    "languages": [],
+    "source_snapshots": [],
+    "include_family_states": [],
+    "loan_exclusion_rule": "UNSPECIFIED",
+    "proper_name_rule": "UNSPECIFIED",
+    "nonlexical_rule": "exclude"
+  },
+  "human_judgment": {
+    "required_lenses": [
+      "recovery",
+      "skeptical"
+    ],
+    "semantic_match_rule": "UNSPECIFIED",
+    "member_veto_policy": "family result inherits unless an explicit member override rejects or suspends it"
+  },
+  "relation_degrees": [
+    "root",
+    "nucleus",
+    "echo"
+  ],
+  "observed_metric": {
+    "numerator": "original reviewed families with a licensed candidate and a human semantic match",
+    "denominator": "all eligible reviewed original families",
+    "stratify_by": [
+      "language",
+      "relation_degree"
+    ]
+  },
+  "chance_model": {
+    "algorithm": "UNSPECIFIED",
+    "preserved_properties": [],
+    "iterations": null,
+    "seed": null
+  },
+  "comparison": {
+    "primary_effect": "observed family rate minus perturbed-family chance rate",
+    "uncertainty_method": "UNSPECIFIED",
+    "multiple_comparison_rule": "UNSPECIFIED"
+  },
+  "publication_gate": {
+    "publish_inventory_counts": false,
+    "publish_results_before_signature": false,
+    "retain_null_and_negative_results": true
+  }
+}
