@@ -52,18 +52,39 @@ def detect_language(text: str) -> str:
 
 def _fold(text: str, profile: dict[str, Any]) -> tuple[str, tuple[str, ...]]:
     script_map = profile.get("script_map", {})
+    script_sequences = profile.get("script_sequences", {})
     combining_map = profile.get("combining_map", {})
     folded: list[str] = []
     ignored: list[str] = []
-    for ch in unicodedata.normalize("NFD", unicodedata.normalize("NFC", text).lower()):
-        if unicodedata.combining(ch):
-            mapped = combining_map.get(f"{ord(ch):04X}")
-            if mapped is not None:
-                folded.append(mapped)
-            else:
-                ignored.append(f"U+{ord(ch):04X}")
+    normalized = unicodedata.normalize("NFC", text).lower()
+    ordered_sequences = sorted(script_sequences, key=len, reverse=True)
+    index = 0
+    while index < len(normalized):
+        sequence = next(
+            (value for value in ordered_sequences if normalized.startswith(value, index)),
+            None,
+        )
+        if sequence is not None:
+            folded.append(script_sequences[sequence])
+            index += len(sequence)
             continue
-        folded.append(script_map.get(ch, ch))
+        ch = normalized[index]
+        # Apply an explicitly declared precomposed transcription sign before
+        # NFD. Otherwise š/ṯ/ḫ/ḥ collapse to their unmarked base letters.
+        if ch in script_map:
+            folded.append(script_map[ch])
+            index += 1
+            continue
+        for part in unicodedata.normalize("NFD", ch):
+            if unicodedata.combining(part):
+                mapped = combining_map.get(f"{ord(part):04X}")
+                if mapped is not None:
+                    folded.append(mapped)
+                else:
+                    ignored.append(f"U+{ord(part):04X}")
+                continue
+            folded.append(script_map.get(part, part))
+        index += 1
     return unicodedata.normalize("NFC", "".join(folded)), tuple(sorted(set(ignored)))
 
 

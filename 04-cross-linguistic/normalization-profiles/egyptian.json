@@ -1,9 +1,21 @@
 {
-  "profile_version": 1,
+  "profile_version": 2,
   "language": "egyptian",
   "label": "Ancient Egyptian transliteration",
   "family_max_lemma_count": 256,
-  "source": null,
+  "source": {
+    "id": "aed-v1.0",
+    "path": "Resources/egyptian/aed-v1.0.zip",
+    "format": "aed-html-zip",
+    "doi": "10.5281/zenodo.3581069",
+    "license": "CC BY-SA 4.0",
+    "expected_size_bytes": 89180149,
+    "md5": "c1c789114bdc7d915034fc6bb0137083",
+    "sha256": "83cc985d65f8474f2e434bd74ad0a6048e34d966f98e3a8434f67ded0a719596",
+    "expected_members": 35174,
+    "expected_html_members": 35167,
+    "expected_entries": 33417
+  },
   "preferred_input": [
     "romanization"
   ],
@@ -11,13 +23,20 @@
     "ꜣ": "qstop",
     "ꜥ": "ayin",
     "ʿ": "ayin",
+    "ʾ": "qstop",
     "ỉ": "j",
     "ṯ": "th",
+    "ṱ": "th",
     "ḏ": "dh",
     "š": "sh",
     "ḫ": "kh",
     "ẖ": "kh",
     "ḥ": "hh"
+  },
+  "script_sequences": {
+    "i̯": "j",
+    "u̯": "w",
+    "ẖ": "kh"
   },
   "combining_map": {},
   "vowels": [
@@ -67,6 +86,7 @@
     "m",
     "n",
     "p",
+    "q",
     "r",
     "s",
     "t",
@@ -89,9 +109,25 @@
     "]",
     "/",
     "\\",
-    "?"
+    "?",
+    "=",
+    ":",
+    "〈",
+    "〉",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
   ],
-  "ambiguous_sequences": {},
+  "ambiguous_sequences": {
+    "ṱ": "علامة AED نادرة في مدخل wrṱ وحده؛ حُفظت في فئة t المعلَّمة للاسترجاع، ويلزم الرجوع إلى TLA أو Wörterbuch قبل أي حكم."
+  },
   "zero_step": {
     "entry_policy": "the reader supplies the source lemma after stripping only published Egyptian morphology",
     "automatic_affixes": [],

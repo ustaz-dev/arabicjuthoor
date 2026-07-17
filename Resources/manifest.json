@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-13 (full inventory)",
+ "generated": "2026-07-17 (AED v1.0 added and pinned)",
  "sources": [
   {
    "name": "kaikki_akkadian",
@@ -180,6 +180,14 @@
    "format": "TEI xml",
    "origin": "KELLIA / Coptic Dictionary Online",
    "note": "index to Crum column numbers and DDGLC loan tags; Crum remains the binding source"
+  },
+  {
+   "name": "aed_v1_0",
+   "language": "Ancient Egyptian",
+   "path": "egyptian/aed-v1.0.zip",
+   "format": "static HTML zip",
+   "origin": "https://doi.org/10.5281/zenodo.3581069",
+   "note": "33417 dictionary entries; CC BY-SA 4.0; size and MD5/SHA-256 pinned in 04-cross-linguistic/egyptian-aed-v1.0-source-pin.md; TLA or Wörterbuch remains mandatory per judgment card"
   }
  ]
 }

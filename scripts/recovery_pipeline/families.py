@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS form_links (
     PRIMARY KEY(form_entry_id, target_text, link_type)
 );
 CREATE INDEX IF NOT EXISTS form_links_status ON form_links(status, form_entry_id);
+CREATE INDEX IF NOT EXISTS form_links_resolved_target ON form_links(resolved_target_entry_id);
 CREATE TABLE IF NOT EXISTS relation_links (
     source_entry_id TEXT NOT NULL REFERENCES entries(entry_id) ON DELETE CASCADE,
     target_text TEXT NOT NULL,
@@ -43,6 +44,7 @@ CREATE TABLE IF NOT EXISTS relation_links (
     PRIMARY KEY(source_entry_id, target_text, relation_type)
 );
 CREATE INDEX IF NOT EXISTS relation_links_status ON relation_links(status, relation_type);
+CREATE INDEX IF NOT EXISTS relation_links_resolved_target ON relation_links(resolved_target_entry_id);
 CREATE TABLE IF NOT EXISTS family_edges (
     language TEXT NOT NULL,
     left_entry_id TEXT NOT NULL REFERENCES entries(entry_id) ON DELETE CASCADE,
@@ -51,6 +53,7 @@ CREATE TABLE IF NOT EXISTS family_edges (
     evidence TEXT NOT NULL,
     PRIMARY KEY(left_entry_id, right_entry_id, link_type)
 );
+CREATE INDEX IF NOT EXISTS family_edges_right_entry ON family_edges(right_entry_id);
 CREATE TABLE IF NOT EXISTS families (
     family_id TEXT PRIMARY KEY,
     language TEXT NOT NULL,
@@ -64,6 +67,7 @@ CREATE TABLE IF NOT EXISTS families (
     candidate_bearing_member_count INTEGER NOT NULL
 );
 CREATE INDEX IF NOT EXISTS families_language ON families(language, construction, family_id);
+CREATE INDEX IF NOT EXISTS families_anchor_entry ON families(anchor_entry_id);
 CREATE TABLE IF NOT EXISTS family_members (
     entry_id TEXT PRIMARY KEY REFERENCES entries(entry_id) ON DELETE CASCADE,
     family_id TEXT NOT NULL REFERENCES families(family_id) ON DELETE CASCADE,
@@ -110,6 +114,17 @@ def ensure_family_schema(connection: sqlite3.Connection) -> None:
 
 
 def clear_language_families(connection: sqlite3.Connection, language: str) -> None:
+    connection.execute("DELETE FROM family_edges WHERE language=?", (language,))
+    connection.execute(
+        "DELETE FROM form_links WHERE form_entry_id IN "
+        "(SELECT entry_id FROM entries WHERE language=?)",
+        (language,),
+    )
+    connection.execute(
+        "DELETE FROM relation_links WHERE source_entry_id IN "
+        "(SELECT entry_id FROM entries WHERE language=?)",
+        (language,),
+    )
     connection.execute("DELETE FROM families WHERE language=?", (language,))
 
 
@@ -305,14 +320,6 @@ def build_families(
             for target in entry["form_targets"] if target
         }) > 1
     }
-
-    connection.execute(
-        "DELETE FROM form_links WHERE form_entry_id IN (SELECT entry_id FROM entries WHERE language=?)", (language,)
-    )
-    connection.execute(
-        "DELETE FROM relation_links WHERE source_entry_id IN (SELECT entry_id FROM entries WHERE language=?)", (language,)
-    )
-    connection.execute("DELETE FROM family_edges WHERE language=?", (language,))
 
     def edge(
         left: str, right: str, link_type: str, evidence: str, annotation_reason: str = "",

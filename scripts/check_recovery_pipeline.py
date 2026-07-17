@@ -1,18 +1,30 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import hashlib
 import json
 import sqlite3
 import sys
 import tempfile
+import zipfile
 from pathlib import Path
 
 from recovery_pipeline.candidates import ArabicInventory, generate_hits
-from recovery_pipeline.families import build_families, load_family_review_states, target_alternatives
+from recovery_pipeline.families import (
+    build_families,
+    clear_language_families,
+    load_family_review_states,
+    target_alternatives,
+)
 from recovery_pipeline.inventory import load_review_states
 from recovery_pipeline.network import compile_network, rules_by_id
 from recovery_pipeline.normalization import available_profiles, detect_language, load_profile, normalize
-from recovery_pipeline.sources import iter_coptic_tei, iter_kaikki
+from recovery_pipeline.sources import (
+    iter_aed_html_zip,
+    iter_coptic_tei,
+    iter_kaikki,
+    verify_source_pin,
+)
 from recovery_pipeline.proof import load_preregistration, require_execution_authority
 
 
@@ -43,6 +55,11 @@ def main() -> int:
         ("ancient_greek", "τρεῖς"): ("t", "r", "s"),
         ("coptic", "ϣⲛϥⲉ"): ("sh", "n", "f"),
         ("egyptian", "ꜣpd"): ("qstop", "p", "d"),
+        ("egyptian", "šnf.t"): ("sh", "n", "f", "t"),
+        ("egyptian", "ḫf"): ("kh", "f"),
+        ("egyptian", "sṯj"): ("s", "th", "j"),
+        ("egyptian", "H̱nm.w"): ("kh", "n", "m", "w"),
+        ("egyptian", "ḥꜣi̯"): ("hh", "qstop", "j"),
         ("latin", "cornu"): ("k", "r", "n"),
         ("latin", "quattuor"): ("k", "w", "t", "t", "r"),
         ("hebrew", "𐤁𐤉𐤕"): ("b", "y", "t"),
@@ -218,6 +235,68 @@ def main() -> int:
         sample = list(iter_coptic_tei(coptic_xml, "sample-coptic"))
         if len(sample) != 1 or sample[0].headword != "ϣⲛϥⲉ" or not sample[0].loan_hint:
             failures.append("synthetic Coptic TEI parser regression")
+        aed_zip = temp / "aed.zip"
+        aed_page = """<!DOCTYPE html><html><head>
+<title>AED - Dictionary entry: šnf.t</title></head><body>
+<h1 class="main_title">&nbsp;šnf.t</h1>
+<h2 class="second_level">&nbsp;Main information</h2>
+<div class="tooltip">&#x2022; Fischschuppe
+<span class="tooltiptext">german translation</span></div>
+<div class="tooltip">&#x2022; fish scale
+<span class="tooltiptext">english translation</span></div>
+<div class="tooltip">&#x2022; substantive
+<span class="tooltiptext">part of speech</span></div>
+<div class="tooltip">&#x2022; 7
+<span class="tooltiptext">lemma id</span></div>
+<div class="tooltip">&#x2022; Wb 4, 519.9
+<span class="tooltiptext">bibliographical information</span></div>
+<h2 class="second_level">&nbsp;Same root as</h2>
+<a href="8.html">šnf, "abziehen" | "strip off"</a>
+</body></html>"""
+        aed_loan_page = aed_page.replace(
+            "šnf.t", "šrm"
+        ).replace(
+            "fish scale", "peace (Sem. loan word)"
+        ).replace(
+            "Fischschuppe", "Friedensgruß"
+        ).replace(
+            "Wb 4, 519.9", "Wb 4, 529.10"
+        ).replace(
+            "&#x2022; 7", "&#x2022; 8"
+        )
+        with zipfile.ZipFile(aed_zip, "w") as archive:
+            archive.writestr("aed/index.html", "<html><title>AED index</title></html>")
+            archive.writestr("aed/7.html", aed_page)
+            archive.writestr("aed/8.html", aed_loan_page)
+        aed_bytes = aed_zip.read_bytes()
+        verify_source_pin(aed_zip, {
+            "expected_size_bytes": len(aed_bytes),
+            "md5": hashlib.md5(aed_bytes).hexdigest(),
+            "sha256": hashlib.sha256(aed_bytes).hexdigest(),
+        })
+        try:
+            verify_source_pin(aed_zip, {"sha256": "0" * 64})
+            failures.append("AED source-pin regression accepted the wrong SHA-256")
+        except ValueError:
+            pass
+        aed_sample = list(iter_aed_html_zip(
+            aed_zip,
+            "sample-aed",
+            expected_members=3,
+            expected_html_members=3,
+            expected_entries=2,
+        ))
+        if (
+            len(aed_sample) != 2
+            or aed_sample[0].entry_id != "sample-aed:7"
+            or aed_sample[0].headword != "šnf.t"
+            or aed_sample[0].gloss != "EN: fish scale | DE: Fischschuppe"
+            or aed_sample[0].related_terms != ("šnf",)
+            or aed_sample[0].etymology != "[AED bibliography] Wb 4, 519.9"
+            or aed_sample[0].loan_hint
+            or not aed_sample[1].loan_hint
+        ):
+            failures.append(f"synthetic AED parser regression: {aed_sample!r}")
 
         family_db = sqlite3.connect(":memory:")
         family_db.execute("PRAGMA foreign_keys=ON")
@@ -344,6 +423,30 @@ def main() -> int:
                 f"edges={homograph_edges}, status={homograph_status!r}, "
                 f"construction={homograph_construction!r}"
             )
+        required_family_indexes = {
+            "form_links_resolved_target",
+            "relation_links_resolved_target",
+            "family_edges_right_entry",
+            "families_anchor_entry",
+        }
+        present_family_indexes = {
+            row[1]
+            for table in ("form_links", "relation_links", "family_edges", "families")
+            for row in family_db.execute(f"PRAGMA index_list('{table}')")
+        }
+        missing_family_indexes = required_family_indexes - present_family_indexes
+        if missing_family_indexes:
+            failures.append(
+                f"family foreign-key index regression: missing {sorted(missing_family_indexes)!r}"
+            )
+        clear_language_families(family_db, "hebrew")
+        uncleared_family_rows = {
+            table: family_db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+            for table in ("form_links", "relation_links", "family_edges", "families", "family_members")
+        }
+        if any(uncleared_family_rows.values()):
+            failures.append(f"family cleanup regression: {uncleared_family_rows!r}")
+        family_db.execute("DELETE FROM entries WHERE language='hebrew'")
         family_db.close()
 
         bound_db = sqlite3.connect(":memory:")

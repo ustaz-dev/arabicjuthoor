@@ -4,7 +4,9 @@ import hashlib
 import json
 import re
 import xml.etree.ElementTree as ET
+import zipfile
 from dataclasses import dataclass
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterator
 
@@ -49,6 +51,33 @@ def source_path(profile: dict[str, Any], root: Path) -> Path:
     if not source:
         raise ValueError(f"Profile {profile['language']} has no corpus source")
     return root / source["path"]
+
+
+def verify_source_pin(path: Path, source: dict[str, Any]) -> None:
+    expected_size = source.get("expected_size_bytes")
+    if expected_size is not None and path.stat().st_size != int(expected_size):
+        raise ValueError(
+            f"Pinned source size mismatch for {path}: "
+            f"{path.stat().st_size} != {int(expected_size)}"
+        )
+    expected_hashes = {
+        algorithm: str(source.get(algorithm) or "").casefold()
+        for algorithm in ("md5", "sha256")
+        if source.get(algorithm)
+    }
+    if not expected_hashes:
+        return
+    digesters = {algorithm: hashlib.new(algorithm) for algorithm in expected_hashes}
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            for digester in digesters.values():
+                digester.update(chunk)
+    for algorithm, expected in expected_hashes.items():
+        actual = digesters[algorithm].hexdigest()
+        if actual != expected:
+            raise ValueError(
+                f"Pinned source {algorithm.upper()} mismatch for {path}: {actual} != {expected}"
+            )
 
 
 def _stable_id(source_id: str, preferred: str, raw: str) -> tuple[str, str]:
@@ -360,6 +389,215 @@ def iter_coptic_tei(path: Path, source_id: str) -> Iterator[LexiconEntry]:
         entry.clear()
 
 
+def _aed_text(parts: list[str]) -> str:
+    return " ".join("".join(parts).replace("\xa0", " ").split()).removeprefix("•").strip()
+
+
+class _AEDPageParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.title_parts: list[str] = []
+        self.headword_parts: list[str] = []
+        self.tooltips: dict[str, str] = {}
+        self.same_root_links: list[str] = []
+        self._capture_title = False
+        self._capture_headword = False
+        self._heading_parts: list[str] | None = None
+        self._section = ""
+        self._link_parts: list[str] | None = None
+        self._tooltip_depth = 0
+        self._tooltip_value: list[str] = []
+        self._tooltip_label: list[str] = []
+        self._tooltip_in_label = False
+
+    @staticmethod
+    def _classes(attributes: list[tuple[str, str | None]]) -> set[str]:
+        value = dict(attributes).get("class") or ""
+        return set(value.split())
+
+    def handle_starttag(self, tag: str, attributes: list[tuple[str, str | None]]) -> None:
+        classes = self._classes(attributes)
+        if self._tooltip_depth:
+            self._tooltip_depth += 1
+            if tag == "span" and "tooltiptext" in classes:
+                self._tooltip_in_label = True
+            return
+        if tag == "div" and "tooltip" in classes:
+            self._tooltip_depth = 1
+            self._tooltip_value = []
+            self._tooltip_label = []
+            self._tooltip_in_label = False
+            return
+        if tag == "title":
+            self._capture_title = True
+        elif tag == "h1" and "main_title" in classes:
+            self._capture_headword = True
+        elif tag == "h2":
+            self._heading_parts = []
+        elif tag == "a" and self._section.casefold() == "same root as":
+            self._link_parts = []
+        elif tag == "br":
+            if self._link_parts is not None:
+                self._link_parts.append(" ")
+
+    def handle_endtag(self, tag: str) -> None:
+        if self._tooltip_depth:
+            if tag == "span" and self._tooltip_in_label:
+                self._tooltip_in_label = False
+            self._tooltip_depth -= 1
+            if not self._tooltip_depth:
+                label = _aed_text(self._tooltip_label).casefold()
+                value = _aed_text(self._tooltip_value)
+                if self._section.casefold() == "main information":
+                    if not label:
+                        raise ValueError("AED main-information tooltip lacks its field label")
+                    if label in self.tooltips:
+                        raise ValueError(f"AED page repeats main-information field {label!r}")
+                    self.tooltips[label] = value
+            return
+        if tag == "title":
+            self._capture_title = False
+        elif tag == "h1":
+            self._capture_headword = False
+        elif tag == "h2" and self._heading_parts is not None:
+            self._section = _aed_text(self._heading_parts)
+            self._heading_parts = None
+        elif tag == "a" and self._link_parts is not None:
+            value = _aed_text(self._link_parts)
+            if value:
+                self.same_root_links.append(value)
+            self._link_parts = None
+
+    def handle_data(self, data: str) -> None:
+        if self._tooltip_depth:
+            (self._tooltip_label if self._tooltip_in_label else self._tooltip_value).append(data)
+        if self._capture_title:
+            self.title_parts.append(data)
+        if self._capture_headword:
+            self.headword_parts.append(data)
+        if self._heading_parts is not None:
+            self._heading_parts.append(data)
+        if self._link_parts is not None:
+            self._link_parts.append(data)
+
+
+def _aed_field(fields: dict[str, str], label: str) -> str:
+    if f"{label} missing" in fields:
+        return ""
+    return fields.get(label, "")
+
+
+def _aed_loan_hint(english: str, german: str) -> bool:
+    text = f"{english} {german}".casefold()
+    explicit_markers = (
+        "loan word",
+        "loanword",
+        "loan-word",
+        "semitisches wort",
+        "foreign word",
+        "fremdwort",
+        "lehnwort",
+    )
+    return any(marker in text for marker in explicit_markers)
+
+
+def iter_aed_html_zip(
+    path: Path,
+    source_id: str,
+    *,
+    expected_members: int | None = None,
+    expected_html_members: int | None = None,
+    expected_entries: int | None = None,
+) -> Iterator[LexiconEntry]:
+    seen_ids: set[str] = set()
+    entry_pages = 0
+    with zipfile.ZipFile(path) as archive:
+        members = archive.infolist()
+        html_members = [member for member in members if member.filename.endswith(".html")]
+        if expected_members is not None and len(members) != expected_members:
+            raise ValueError(
+                f"AED archive member count mismatch: {len(members)} != {expected_members}"
+            )
+        if expected_html_members is not None and len(html_members) != expected_html_members:
+            raise ValueError(
+                f"AED HTML member count mismatch: {len(html_members)} != {expected_html_members}"
+            )
+        for member in sorted(html_members, key=lambda item: item.filename):
+            try:
+                raw = archive.read(member).decode("utf-8")
+            except UnicodeDecodeError as error:
+                raise ValueError(f"AED page is not valid UTF-8: {member.filename}") from error
+            if "<title>AED - Dictionary entry:" not in raw:
+                continue
+            entry_pages += 1
+            parser = _AEDPageParser()
+            try:
+                parser.feed(raw)
+                parser.close()
+            except ValueError as error:
+                raise ValueError(f"Malformed AED entry page {member.filename}: {error}") from error
+            title = _aed_text(parser.title_parts)
+            if not title.startswith("AED - Dictionary entry:"):
+                raise ValueError(f"AED entry marker/title mismatch in {member.filename}: {title!r}")
+            headword = _aed_text(parser.headword_parts)
+            lemma_id = _aed_field(parser.tooltips, "lemma id")
+            if not headword or not lemma_id:
+                raise ValueError(
+                    f"AED entry page lacks headword or lemma id: {member.filename}"
+                )
+            if not lemma_id.isdecimal():
+                raise ValueError(f"AED lemma id is not numeric in {member.filename}: {lemma_id!r}")
+            if Path(member.filename).stem != lemma_id:
+                raise ValueError(
+                    f"AED filename/lemma mismatch: {member.filename} != lemma {lemma_id}"
+                )
+            if lemma_id in seen_ids:
+                raise ValueError(f"AED duplicate lemma id: {lemma_id}")
+            seen_ids.add(lemma_id)
+            german = _aed_field(parser.tooltips, "german translation")
+            english = _aed_field(parser.tooltips, "english translation")
+            gloss = " | ".join(
+                part for part in (
+                    f"EN: {english}" if english else "",
+                    f"DE: {german}" if german else "",
+                ) if part
+            )
+            bibliography = _aed_field(parser.tooltips, "bibliographical information")
+            related_terms = tuple(dict.fromkeys(
+                value.split(",", 1)[0].strip()
+                for value in parser.same_root_links
+                if value.split(",", 1)[0].strip()
+            ))
+            entry_id, source_entry_id = _stable_id(source_id, lemma_id, raw)
+            yield LexiconEntry(
+                entry_id=entry_id,
+                source_entry_id=source_entry_id,
+                headword=headword,
+                romanization=headword,
+                variants=(),
+                pos=_aed_field(parser.tooltips, "part of speech"),
+                gloss=gloss,
+                # The current inventory schema predates a generic source-note
+                # field. Keep AED's exact bibliography visibly labelled here;
+                # loan_hint is derived separately from explicit gloss markers,
+                # never from a bibliography title.
+                etymology=f"[AED bibliography] {bibliography}" if bibliography else "",
+                loan_hint=_aed_loan_hint(english, german),
+                form_of=False,
+                alternative_of=False,
+                form_targets=(),
+                alternative_targets=(),
+                derived_terms=(),
+                related_terms=related_terms,
+            )
+    if expected_entries is not None and entry_pages != expected_entries:
+        raise ValueError(f"AED entry-page count mismatch: {entry_pages} != {expected_entries}")
+    if entry_pages != len(seen_ids):
+        raise ValueError(
+            f"AED entry/identity count mismatch: pages={entry_pages}, ids={len(seen_ids)}"
+        )
+
+
 def iter_entries(profile: dict[str, Any], root: Path) -> Iterator[LexiconEntry]:
     source = profile.get("source")
     if not source:
@@ -367,9 +605,18 @@ def iter_entries(profile: dict[str, Any], root: Path) -> Iterator[LexiconEntry]:
     path = source_path(profile, root)
     if not path.exists():
         raise FileNotFoundError(path)
+    verify_source_pin(path, source)
     if source["format"] == "kaikki-jsonl":
         yield from iter_kaikki(path, source["id"])
     elif source["format"] == "coptic-tei":
         yield from iter_coptic_tei(path, source["id"])
+    elif source["format"] == "aed-html-zip":
+        yield from iter_aed_html_zip(
+            path,
+            source["id"],
+            expected_members=source.get("expected_members"),
+            expected_html_members=source.get("expected_html_members"),
+            expected_entries=source.get("expected_entries"),
+        )
     else:
         raise ValueError(f"Unsupported source format: {source['format']}")

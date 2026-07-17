@@ -220,16 +220,32 @@ def build_language(
     counters: Counter[str] = Counter()
     family_report: dict[str, Any] = {}
     started = datetime.now(timezone.utc).isoformat()
+    def progress(stage: str) -> None:
+        print(f"[build:{language}] {stage}", file=sys.stderr, flush=True)
+
     try:
         with connection:
+            replacing_existing = bool(connection.execute(
+                "SELECT EXISTS(SELECT 1 FROM entries WHERE language=?)", (language,)
+            ).fetchone()[0])
+            if replacing_existing:
+                # Maintaining the global form lookup index row by row makes a
+                # language rebuild perform vast random I/O. The transaction
+                # restores it automatically on failure; rebuild it once after
+                # the bulk candidate replacement.
+                connection.execute("DROP INDEX IF EXISTS candidates_form")
+                progress("candidate-lookup-index-dropped")
             clear_language_families(connection, language)
+            progress("old-family-metadata-cleared")
             connection.execute(
-                "DELETE FROM candidates AS c WHERE EXISTS ("
-                "SELECT 1 FROM entries e WHERE e.entry_id=c.entry_id AND e.language=?"
+                "DELETE FROM candidates WHERE entry_id IN ("
+                "SELECT entry_id FROM entries WHERE language=?"
                 ")",
                 (language,),
             )
+            progress("old-candidates-cleared")
             connection.execute("DELETE FROM entries WHERE language=?", (language,))
+            progress("old-entries-cleared")
             _install_rules(connection, rules)
             connection.execute("DELETE FROM arabic_forms")
             connection.executemany(
@@ -336,7 +352,12 @@ def build_language(
                 counters["unmapped"] += int(bool(unmapped))
             if not counters["entries"]:
                 raise ValueError(f"Source produced no inventory entries: {path}")
+            progress(f"source-scanned:{counters['entries']}")
+            if replacing_existing:
+                connection.execute("CREATE INDEX candidates_form ON candidates(form, kind, status)")
+                progress("candidate-lookup-index-rebuilt")
             family_report = build_families(connection, language, int(profile["family_max_lemma_count"]))
+            progress("families-built")
             stat = path.stat()
             if (stat.st_size, stat.st_mtime_ns) != (initial_stat.st_size, initial_stat.st_mtime_ns):
                 raise RuntimeError(f"Source changed while it was being inventoried: {path}")
@@ -364,6 +385,7 @@ def build_language(
                 "SELECT processing_status, COUNT(*) FROM entries WHERE language=? GROUP BY processing_status",
                 (language,),
             ).fetchall())
+        progress("committed")
     finally:
         connection.close()
     return {
@@ -572,8 +594,8 @@ def upgrade_family_layer_from_v2(
             connection.execute("DROP INDEX IF EXISTS candidates_form")
             clear_language_families(connection, language)
             connection.execute(
-                "DELETE FROM candidates AS c WHERE EXISTS ("
-                "SELECT 1 FROM entries e WHERE e.entry_id=c.entry_id AND e.language=?"
+                "DELETE FROM candidates WHERE entry_id IN ("
+                "SELECT entry_id FROM entries WHERE language=?"
                 ")",
                 (language,),
             )
@@ -840,8 +862,8 @@ def refresh_family_metadata(
                 FROM {overlay} AS o WHERE e.entry_id=o.entry_id AND e.language=?
             """, (language,))
             connection.execute(
-                "DELETE FROM candidates AS c WHERE EXISTS (SELECT 1 FROM entries e "
-                "WHERE e.entry_id=c.entry_id AND e.language=? AND e.form_of=1)",
+                "DELETE FROM candidates WHERE entry_id IN (SELECT entry_id FROM entries "
+                "WHERE language=? AND form_of=1)",
                 (language,),
             )
             mixed = connection.execute(
@@ -961,8 +983,8 @@ def verify_inventory(db_path: Path = DEFAULT_DB, root: Path = ROOT) -> dict[str,
         if metadata.get("schema_version") != "5":
             problems.append(f"unexpected schema version: {metadata.get('schema_version')!r}")
         rule_count = connection.execute("SELECT COUNT(*) FROM network_rules").fetchone()[0]
-        if rule_count != 42:
-            problems.append(f"network rule count is {rule_count}, expected 42")
+        if rule_count != 44:
+            problems.append(f"network rule count is {rule_count}, expected 44")
         report["network_rules"] = rule_count
 
         source_rows = connection.execute(
