@@ -201,15 +201,15 @@ if "TLA Lemma ID 401218" not in egyptian:
 
 network = read("04-cross-linguistic/shift-network-draft.md")
 network_ids = re.findall(r"^\| ([A-Z]+-[A-Z0-9-]+) \|", network, re.MULTILINE)
-if len(network_ids) != 42:
-    fails.append(f"shift network: expected 42 table rows, found {len(network_ids)}")
+if len(network_ids) != 44:
+    fails.append(f"shift network: expected 44 table rows, found {len(network_ids)}")
 if len(network_ids) != len(set(network_ids)):
     duplicates = sorted({item for item in network_ids if network_ids.count(item) > 1})
     fails.append(f"shift network: duplicate row IDs {duplicates}")
 if network_ids.count("BR-EGYP-02") != 1:
     fails.append("shift network: BR-EGYP-02 must occur exactly once in the table")
-if "الشبكةُ التشغيليّةُ الآن 42 قيدًا" not in network:
-    fails.append("shift network: operative 42-entry status is missing")
+if "الشبكةُ التشغيليّةُ الآن 44 قيدًا" not in network:
+    fails.append("shift network: operative 44-entry status is missing")
 if "ما عندنا للمصريّة قيدٌ كتابيٌّ واحد" in network:
     fails.append("shift network: stale one-Egyptian-row gap claim remains")
 

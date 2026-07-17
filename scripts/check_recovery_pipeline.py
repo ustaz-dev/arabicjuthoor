@@ -26,8 +26,8 @@ def main() -> int:
         failures.append("family-target separator regression")
     rules = compile_network()
     indexed = rules_by_id(rules)
-    if len(rules) != 42:
-        failures.append(f"network row count: expected 42, got {len(rules)}")
+    if len(rules) != 44:
+        failures.append(f"network row count: expected 44, got {len(rules)}")
     expected = json.loads(FIXTURES.read_text(encoding="utf-8"))
     for row_id, fields in expected.items():
         rule = indexed.get(row_id)
@@ -375,7 +375,7 @@ def main() -> int:
         for failure in failures:
             print(f"FAIL: {failure}")
         return 1
-    print("recovery pipeline: CLEAN (42 rows, 10 fixtures, normalization, sources, families, proof gate)")
+    print("recovery pipeline: CLEAN (44 rows, 10 fixtures, normalization, sources, families, proof gate)")
     return 0
 
 

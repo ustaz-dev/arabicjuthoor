@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 69,
+ "cards_total": 74,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -15,6 +15,20 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "(إعادةُ توسيم): treîs «three» بعدَ توقيعِ توسيعِ النطاق (2026-07-17)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "إعادة قراءة بالعدستين على الصف BR-GREC-01 الموقع",
+   "row_mentions": [
+    "BR-GREC-01"
+   ]
+  },
+  {
    "file": "04-cross-linguistic/readings/coptic.md",
    "card": "šnfe «scale (of fish)»، إعادةُ فتحٍ بعدَ مسحِ الجذر العربي",
    "verdict": "",
@@ -25,6 +39,18 @@
    ],
    "blocker_type": "TOOL-GAP",
    "required": "قراءة جذر معتمدة لشنف بتوقيع المؤلف",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "(إعادةُ توسيم): šnfe / ϣⲛϥⲉ «حرشفة السمك» بعدَ اعتمادِ قراءةِ الجذر (2026-07-17)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "إعادة قراءة بالعدستين على قراءة شنف المعتمدة في قرار 2026-07-17",
    "row_mentions": []
   },
   {
@@ -74,6 +100,44 @@
    ],
    "blocker_type": "SOURCE-GAP",
    "required": "مدخل مصري منشور بمعنى الحفنة",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "(إعادةُ توسيم): sn.w «two» بعدَ توقيعِ الصفِّ المطلوب (2026-07-17)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "إعادة قراءة بالعدستين على الصف BR-EGYP-03 الموقع",
+   "row_mentions": [
+    "BR-EGYP-03"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "(إعادةُ توسيم): šnf.t «scale (of fish)» بعدَ اعتمادِ قراءةِ الجذر (2026-07-17)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "إعادة قراءة بالعدستين على قراءة شنف المعتمدة في قرار 2026-07-17",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "(إعادةُ توسيم): dmj «to touch; to be joined to» تأجيلٌ معلَّل (2026-07-17)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "سند منشور مسمى لقيمة j المصرية يفحص في Takács EDE بعد ربط لقطة AED",
    "row_mentions": []
   },
   {
