@@ -1,0 +1,58 @@
+{
+  "profile_version": 1,
+  "language": "phoenician",
+  "label": "Phoenician, bounded Kaikki scout",
+  "family_max_lemma_count": 256,
+  "source": {
+    "id": "kaikki_phoenician_bounded_2026_07_16",
+    "format": "kaikki-jsonl",
+    "path": "Resources/phn/kaikki.org-phn-bounded-scout.jsonl",
+    "origin": "https://kaikki.org/dictionary/All%20languages%20combined/categories-other/Pr/Phoenician%20entries%20with%20incorrect%20language%20header/",
+    "wiktionary_dump_date": "2026-07-06",
+    "kaikki_extraction_date": "2026-07-16",
+    "expected_language_code": "phn",
+    "expected_size_bytes": 293980,
+    "expected_entries": 170,
+    "md5": "b5ef2d9657729306ac46f507ce3cb289",
+    "sha256": "979ce3ed7bb98cb3308fdfd40218e3c9f52878e4bbf445c5df3e7b8d36f48275",
+    "license": "CC BY-SA and GFDL",
+    "bounded_scout": true,
+    "allowed_source_strata": [
+      "inscription-attestation",
+      "other-textual-attestation",
+      "attestation-claimed",
+      "attestation-unspecified",
+      "reconstruction",
+      "proper-name"
+    ],
+    "scope_note": "استطلاع Kaikki محدود؛ لا يمثل معجم اللغة الفينيقية التاريخي كاملًا."
+  },
+  "preferred_input": ["original", "romanization"],
+  "script_map": {
+    "𐤀": "qstop", "𐤁": "b", "𐤂": "g", "𐤃": "d", "𐤄": "h", "𐤅": "w",
+    "𐤆": "z", "𐤇": "hh", "𐤈": "t", "𐤉": "y", "𐤊": "k", "𐤋": "l",
+    "𐤌": "m", "𐤍": "n", "𐤎": "s", "𐤏": "ayin", "𐤐": "p", "𐤑": "s",
+    "𐤒": "q", "𐤓": "r", "𐤔": "sh", "𐤕": "t",
+    "ʾ": "qstop", "ʿ": "ayin", "š": "sh", "ṣ": "s", "ṭ": "t", "ḥ": "hh",
+    "ḫ": "kh", "ṯ": "th", "ḏ": "dh"
+  },
+  "combining_map": {},
+  "vowels": ["a", "e", "i", "o", "u", "ā", "ē", "ī", "ō", "ū"],
+  "multi_tokens": {
+    "qstop": ["qstop"], "ayin": ["ayin"], "kh": ["kh"], "hh": ["hh"],
+    "th": ["th"], "dh": ["dh"], "sh": ["sh"], "ts": ["s"]
+  },
+  "single_tokens": ["b", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "y", "z"],
+  "ignored_characters": [" ", "-", "_", ".", ",", ";", ":", "·", "'", "’", "ʼ", "\"", "(", ")", "[", "]", "/", "\\", "?", "*"],
+  "ambiguous_sequences": {
+    "𐤀": "الرسم الصامتي لا يحسم الحركة ولا كل قيمة همزية متأخرة",
+    "𐤅": "قد يعمل صامتًا أو حرف مد بحسب الكلمة والمرحلة",
+    "𐤉": "قد يعمل صامتًا أو حرف مد بحسب الكلمة والمرحلة"
+  },
+  "zero_step": {
+    "entry_policy": "bounded Kaikki category snapshot; form-of rows link to their named lemma family",
+    "automatic_affixes": [],
+    "note": "لا تنزع لواصق ولا تستعاد حركات آليًا. طبقة المصدر تفصل التعمير والأعلام والشاهد الصريح وغير المحسوم، وكل مخرج يحمل قيد عدم الشمول."
+  },
+  "relevant_branch_rules": []
+}

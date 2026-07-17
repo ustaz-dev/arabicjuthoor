@@ -186,13 +186,14 @@ def main() -> int:
             where = " WHERE " + " AND ".join(clauses) if clauses else ""
             rows = connection.execute(
                 "SELECT e.entry_id, e.language, e.headword, e.romanization, e.gloss, e.processing_status, "
-                "COALESCE(o.status, 'unreviewed'), e.candidate_count, e.loan_hint FROM entries e "
+                "COALESCE(o.status, 'unreviewed'), e.candidate_count, e.loan_hint, "
+                "e.source_stratum, e.source_scope_note FROM entries e "
                 "LEFT JOIN review_overlay o ON o.entry_id=e.entry_id" + where
                 + " ORDER BY e.language, e.entry_id LIMIT ?",
                 (*params, args.limit),
             ).fetchall()
             fields = ("entry_id", "language", "headword", "romanization", "gloss", "processing_status",
-                      "review_status", "candidate_count", "loan_hint")
+                      "review_status", "candidate_count", "loan_hint", "source_stratum", "source_scope_note")
             print(json.dumps([dict(zip(fields, row)) for row in rows], ensure_ascii=False, indent=2))
         except (FileNotFoundError, sqlite3.Error) as error:
             print(f"inventory query failed: {error}")

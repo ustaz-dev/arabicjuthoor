@@ -608,7 +608,14 @@ def family_review_queue(
     where = " WHERE " + " AND ".join(clauses) if clauses else ""
     rows = connection.execute(
         "SELECT f.family_id, f.language, f.anchor_headword, f.construction, f.member_count, f.lemma_count, "
-        "f.form_count, f.nonlexical_count, f.candidate_bearing_member_count FROM families f" + where
+        "f.form_count, f.nonlexical_count, f.candidate_bearing_member_count, "
+        "COALESCE((SELECT GROUP_CONCAT(DISTINCT e3.source_stratum) FROM family_members fm3 "
+        "JOIN entries e3 ON e3.entry_id=fm3.entry_id WHERE fm3.family_id=f.family_id "
+        "AND e3.source_stratum<>''), ''), "
+        "COALESCE((SELECT MIN(e4.source_scope_note) FROM family_members fm4 "
+        "JOIN entries e4 ON e4.entry_id=fm4.entry_id WHERE fm4.family_id=f.family_id "
+        "AND e4.source_scope_note<>''), '') "
+        "FROM families f" + where
         + " ORDER BY f.language, f.family_id LIMIT ?",
         (*params, limit * 20),
     )
@@ -616,6 +623,7 @@ def family_review_queue(
     fields = (
         "family_id", "language", "anchor_headword", "construction", "member_count", "lemma_count",
         "form_count", "nonlexical_count", "candidate_bearing_member_count",
+        "source_strata", "source_scope_note",
     )
     for row in rows:
         state = states.get(row[0], {})
@@ -652,13 +660,15 @@ def family_card(connection: sqlite3.Connection, family_id: str, candidate_limit:
     members = []
     for member in connection.execute(
         "SELECT e.entry_id, e.headword, e.romanization, e.pos, e.gloss, e.processing_status, e.form_resolution_status, "
-        "e.loan_hint, fm.role, fm.link_types_json FROM family_members fm JOIN entries e ON e.entry_id=fm.entry_id "
+        "e.loan_hint, e.source_stratum, e.source_scope_note, fm.role, fm.link_types_json "
+        "FROM family_members fm JOIN entries e ON e.entry_id=fm.entry_id "
         "WHERE fm.family_id=? ORDER BY fm.role DESC, e.entry_id",
         (family_id,),
     ):
         item = dict(zip((
             "entry_id", "headword", "romanization", "pos", "gloss", "processing_status",
-            "form_resolution_status", "loan_hint", "role", "link_types",
+            "form_resolution_status", "loan_hint", "source_stratum", "source_scope_note",
+            "role", "link_types",
         ), member))
         item["link_types"] = json.loads(item["link_types"])
         override = payload["member_overrides"].get(item["entry_id"])

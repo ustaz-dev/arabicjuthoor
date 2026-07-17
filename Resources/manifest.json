@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-17 (AED v1.0 added and pinned)",
+ "generated": "2026-07-18 (bounded Phoenician and Punic scouts added and pinned)",
  "sources": [
   {
    "name": "kaikki_akkadian",
@@ -188,6 +188,22 @@
    "format": "static HTML zip",
    "origin": "https://doi.org/10.5281/zenodo.3581069",
    "note": "33417 dictionary entries; CC BY-SA 4.0; size and MD5/SHA-256 pinned in 04-cross-linguistic/egyptian-aed-v1.0-source-pin.md; TLA or Wörterbuch remains mandatory per judgment card"
+  },
+  {
+   "name": "kaikki_phoenician_bounded_scout",
+   "language": "Phoenician",
+   "path": "phn/kaikki.org-phn-bounded-scout.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/All%20languages%20combined/categories-other/Pr/Phoenician%20entries%20with%20incorrect%20language%20header/",
+   "note": "bounded phn scout only; does not represent the complete historical lexicon; pinned in 04-cross-linguistic/punic-phoenician-kaikki-source-pin.md"
+  },
+  {
+   "name": "kaikki_punic_bounded_scout",
+   "language": "Punic",
+   "path": "xpu/kaikki.org-xpu-bounded-scout.jsonl",
+   "format": "jsonl",
+   "origin": "https://kaikki.org/dictionary/All%20languages%20combined/categories-other/gg/Punic%20entries%20with%20incorrect%20language%20header/",
+   "note": "bounded xpu scout only; does not represent the complete historical lexicon; pinned in 04-cross-linguistic/punic-phoenician-kaikki-source-pin.md"
   }
  ]
 }

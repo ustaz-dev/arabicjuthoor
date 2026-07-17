@@ -156,6 +156,88 @@ def main() -> int:
             failures.append("Kaikki form/alternative distinction regression")
         if sample[0].derived_terms != ("τριάς",) or sample[0].related_terms != ("τρία",):
             failures.append("Kaikki lexical-relation parser regression")
+        scout = temp / "bounded-scout.jsonl"
+        scout_rows = [
+            {
+                "word": "𐤁𐤍", "lang": "Phoenician", "lang_code": "phn", "pos": "noun",
+                "senses": [{"glosses": ["son"], "examples": [{
+                    "text": "𐤁𐤍", "ref": "sarcophagus inscription", "type": "quotation",
+                }]}],
+            },
+            {
+                "word": "𐤏𐤔𐤕𐤓𐤕", "lang": "Phoenician", "lang_code": "phn", "pos": "name",
+                "senses": [{"glosses": ["Astarte"]}],
+            },
+            {
+                "word": "*𐤐𐤏𐤋", "lang": "Phoenician", "lang_code": "phn", "pos": "verb",
+                "senses": [{"glosses": ["reconstructed verb"], "tags": ["reconstruction"]}],
+            },
+        ]
+        scout.write_text(
+            "".join(json.dumps(item, ensure_ascii=False) + "\n" for item in scout_rows),
+            encoding="utf-8",
+        )
+        scoped = list(iter_kaikki(
+            scout,
+            "sample-scout",
+            expected_language_code="phn",
+            source_scope_note="استطلاع محدود",
+            expected_entries=3,
+            bounded_scout=True,
+        ))
+        if [item.source_stratum for item in scoped] != [
+            "inscription-attestation", "proper-name", "reconstruction",
+        ]:
+            failures.append(
+                f"bounded-scout source-stratum regression: {[item.source_stratum for item in scoped]!r}"
+            )
+        if any(item.source_scope_note != "استطلاع محدود" for item in scoped):
+            failures.append("bounded-scout scope-note regression")
+        try:
+            list(iter_kaikki(
+                scout,
+                "sample-scout",
+                expected_language_code="xpu",
+                source_scope_note="استطلاع محدود",
+                expected_entries=3,
+                bounded_scout=True,
+            ))
+            failures.append("bounded-scout language mismatch was not rejected")
+        except ValueError as error:
+            if "line 1" not in str(error):
+                failures.append("bounded-scout language error omitted its line number")
+        try:
+            list(iter_kaikki(
+                scout,
+                "sample-scout",
+                expected_language_code="phn",
+                source_scope_note="استطلاع محدود",
+                expected_entries=4,
+                bounded_scout=True,
+            ))
+            failures.append("bounded-scout entry-count mismatch was not rejected")
+        except ValueError:
+            pass
+        empty_senses = temp / "bounded-scout-empty-senses.jsonl"
+        empty_senses.write_text(
+            json.dumps({
+                "word": "𐤁𐤍", "lang": "Phoenician", "lang_code": "phn",
+                "pos": "noun", "senses": [],
+            }, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        try:
+            list(iter_kaikki(
+                empty_senses,
+                "sample-scout",
+                expected_language_code="phn",
+                source_scope_note="استطلاع محدود",
+                expected_entries=1,
+                bounded_scout=True,
+            ))
+            failures.append("bounded-scout empty senses were not rejected")
+        except ValueError:
+            pass
         latin = temp / "latin.jsonl"
         latin_rows = [
             {

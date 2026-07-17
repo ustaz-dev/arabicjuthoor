@@ -44,6 +44,8 @@ class LexiconEntry:
     alternative_targets: tuple[str, ...]
     derived_terms: tuple[str, ...]
     related_terms: tuple[str, ...]
+    source_stratum: str = ""
+    source_scope_note: str = ""
 
 
 def source_path(profile: dict[str, Any], root: Path) -> Path:
@@ -297,13 +299,106 @@ def _relation_terms(entry: dict[str, Any], field: str) -> tuple[str, ...]:
     ))
 
 
-def iter_kaikki(path: Path, source_id: str) -> Iterator[LexiconEntry]:
+def _kaikki_category_names(entry: dict[str, Any]) -> tuple[str, ...]:
+    categories: list[str] = []
+    for value in entry.get("categories", []) or []:
+        categories.append(str(value.get("name") or "") if isinstance(value, dict) else str(value))
+    for sense in entry.get("senses", []) or []:
+        for value in sense.get("categories", []) or []:
+            categories.append(str(value.get("name") or "") if isinstance(value, dict) else str(value))
+    return tuple(item for item in categories if item)
+
+
+def _kaikki_attestation_text(entry: dict[str, Any]) -> str:
+    parts: list[str] = []
+    for sense in entry.get("senses", []) or []:
+        for field in ("examples", "quotations"):
+            for example in sense.get(field, []) or []:
+                if isinstance(example, dict):
+                    parts.extend(str(example.get(key) or "") for key in ("ref", "type", "text"))
+                else:
+                    parts.append(str(example))
+    return " ".join(parts).casefold()
+
+
+def _kaikki_scout_stratum(entry: dict[str, Any]) -> str:
+    categories = _kaikki_category_names(entry)
+    tags = tuple(
+        str(tag)
+        for sense in entry.get("senses", []) or []
+        for tag in sense.get("tags", []) or []
+    )
+    marker_text = " ".join((
+        str(entry.get("word") or ""),
+        str(entry.get("title") or ""),
+        str(entry.get("original_title") or ""),
+        *categories,
+        *tags,
+    )).casefold()
+    if (
+        str(entry.get("word") or "").startswith("*")
+        or "reconstruction" in marker_text
+        or "reconstructed" in marker_text
+    ):
+        return "reconstruction"
+    if (
+        str(entry.get("pos") or "") in {"name", "proper-noun", "proper_noun"}
+        or any(
+            "given names" in category.casefold() or "proper nouns" in category.casefold()
+            for category in categories
+        )
+    ):
+        return "proper-name"
+    attestation_text = _kaikki_attestation_text(entry)
+    has_explicit_attestation = bool(entry.get("attestations")) or bool(attestation_text)
+    for sense in entry.get("senses", []) or []:
+        has_explicit_attestation |= bool(sense.get("examples") or sense.get("quotations"))
+    if has_explicit_attestation:
+        inscription_markers = (
+            "inscription", "sarcophagus", "cippus", "cippi", "stele", "stela",
+            "cis ", "kanaanäische und aramäische inschriften",
+        )
+        if any(marker in attestation_text for marker in inscription_markers):
+            return "inscription-attestation"
+        return "other-textual-attestation"
+    if any("attested" in category.casefold() for category in categories):
+        return "attestation-claimed"
+    return "attestation-unspecified"
+
+
+def iter_kaikki(
+    path: Path,
+    source_id: str,
+    *,
+    expected_language_code: str = "",
+    source_scope_note: str = "",
+    expected_entries: int | None = None,
+    bounded_scout: bool = False,
+) -> Iterator[LexiconEntry]:
+    entries_seen = 0
     with path.open("r", encoding="utf-8") as handle:
         for line_number, line in enumerate(handle, start=1):
             try:
                 raw = json.loads(line)
             except json.JSONDecodeError as error:
                 raise ValueError(f"Invalid JSON in {path} at line {line_number}: {error}") from error
+            if not isinstance(raw, dict):
+                raise ValueError(f"Kaikki row is not an object in {path} at line {line_number}")
+            if expected_language_code and raw.get("lang_code") != expected_language_code:
+                raise ValueError(
+                    f"Unexpected language code in {path} at line {line_number}: "
+                    f"{raw.get('lang_code')!r} != {expected_language_code!r}"
+                )
+            if bounded_scout:
+                if not isinstance(raw.get("word"), str) or not raw["word"].strip():
+                    raise ValueError(f"Bounded Kaikki row lacks word in {path} at line {line_number}")
+                if not isinstance(raw.get("lang"), str) or not raw["lang"].strip():
+                    raise ValueError(f"Bounded Kaikki row lacks lang in {path} at line {line_number}")
+                if not isinstance(raw.get("pos"), str) or not raw["pos"].strip():
+                    raise ValueError(f"Bounded Kaikki row lacks pos in {path} at line {line_number}")
+                if not isinstance(raw.get("senses"), list) or not raw["senses"]:
+                    raise ValueError(f"Bounded Kaikki row lacks a nonempty senses list in {path} at line {line_number}")
+            entries_seen += 1
             senses = raw.get("senses", []) or []
             preferred = next((str(s.get("id")) for s in senses if s.get("id")), "")
             _, source_entry_id = _stable_id(source_id, preferred, line)
@@ -336,7 +431,13 @@ def iter_kaikki(path: Path, source_id: str) -> Iterator[LexiconEntry]:
                 alternative_targets=_typed_targets(raw, "alt_of", "alt-of"),
                 derived_terms=_relation_terms(raw, "derived"),
                 related_terms=_relation_terms(raw, "related"),
+                source_stratum=_kaikki_scout_stratum(raw) if source_scope_note else "",
+                source_scope_note=source_scope_note,
             )
+    if expected_entries is not None and entries_seen != expected_entries:
+        raise ValueError(
+            f"Kaikki entry count mismatch for {path}: {entries_seen} != {expected_entries}"
+        )
 
 
 def _texts(element: ET.Element, path: str) -> list[str]:
@@ -607,7 +708,14 @@ def iter_entries(profile: dict[str, Any], root: Path) -> Iterator[LexiconEntry]:
         raise FileNotFoundError(path)
     verify_source_pin(path, source)
     if source["format"] == "kaikki-jsonl":
-        yield from iter_kaikki(path, source["id"])
+        yield from iter_kaikki(
+            path,
+            source["id"],
+            expected_language_code=str(source.get("expected_language_code") or ""),
+            source_scope_note=str(source.get("scope_note") or ""),
+            expected_entries=source.get("expected_entries"),
+            bounded_scout=bool(source.get("bounded_scout")),
+        )
     elif source["format"] == "coptic-tei":
         yield from iter_coptic_tei(path, source["id"])
     elif source["format"] == "aed-html-zip":

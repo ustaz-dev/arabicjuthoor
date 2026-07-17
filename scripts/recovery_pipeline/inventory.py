@@ -55,6 +55,8 @@ CREATE TABLE IF NOT EXISTS entries (
     pos TEXT NOT NULL,
     gloss TEXT NOT NULL,
     etymology TEXT NOT NULL,
+    source_stratum TEXT NOT NULL,
+    source_scope_note TEXT NOT NULL,
     loan_hint INTEGER NOT NULL,
     form_of INTEGER NOT NULL,
     alternative_of INTEGER NOT NULL,
@@ -126,6 +128,10 @@ def connect(path: Path = DEFAULT_DB, *, create: bool = True) -> sqlite3.Connecti
         connection.execute("ALTER TABLE entries ADD COLUMN alternative_of INTEGER NOT NULL DEFAULT 0")
     if "alternative_targets_json" not in entry_columns:
         connection.execute("ALTER TABLE entries ADD COLUMN alternative_targets_json TEXT NOT NULL DEFAULT '[]'")
+    if "source_stratum" not in entry_columns:
+        connection.execute("ALTER TABLE entries ADD COLUMN source_stratum TEXT NOT NULL DEFAULT ''")
+    if "source_scope_note" not in entry_columns:
+        connection.execute("ALTER TABLE entries ADD COLUMN source_scope_note TEXT NOT NULL DEFAULT ''")
     ensure_family_schema(connection)
     return connection
 
@@ -294,14 +300,15 @@ def build_language(
                 connection.execute(
                     """INSERT INTO entries (
                     entry_id, language, source_entry_id, headword, romanization, variants_json, pos, gloss,
-                    etymology, loan_hint, form_of, alternative_of, form_targets_json,
+                    etymology, source_stratum, source_scope_note, loan_hint,
+                    form_of, alternative_of, form_targets_json,
                     alternative_targets_json,
                     derived_terms_json, related_terms_json,
                     form_resolution_status, selected_input, original_skeleton, romanization_skeleton, skeleton,
                     tokens_json, unknown_original_json, unknown_romanization_json, ambiguities_json,
                     processing_status, morphology_status, review_status, blocker, candidate_count,
                     licensed_candidate_count, scope_gap_count
-                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                     (
                         entry.entry_id,
                         language,
@@ -312,6 +319,8 @@ def build_language(
                         entry.pos,
                         entry.gloss[:200] if pure_form or nonlexical else entry.gloss[:500],
                         "" if pure_form or nonlexical else entry.etymology[:1500],
+                        entry.source_stratum,
+                        entry.source_scope_note,
                         int(entry.loan_hint),
                         int(entry.form_of),
                         int(entry.alternative_of),
@@ -955,6 +964,12 @@ def summary(db_path: Path = DEFAULT_DB, language: str | None = None) -> dict[str
         )]
         pending = reviews.get("unreviewed", 0)
         families = family_summary(connection, language)
+        source_strata = dict(connection.execute(
+            f"SELECT CASE WHEN e.source_stratum='' THEN 'not-applicable' ELSE e.source_stratum END, "
+            f"COUNT(*) FROM entries e{where} "
+            "GROUP BY CASE WHEN e.source_stratum='' THEN 'not-applicable' ELSE e.source_stratum END",
+            params,
+        ).fetchall())
         return {
             "sources": sources,
             "totals": dict(zip(
@@ -963,6 +978,7 @@ def summary(db_path: Path = DEFAULT_DB, language: str | None = None) -> dict[str
             )),
             "processing": totals,
             "family_layer": families,
+            "source_strata": source_strata,
             "reviews": reviews,
             "remaining_unreviewed": pending,
         }
@@ -1015,6 +1031,30 @@ def verify_inventory(db_path: Path = DEFAULT_DB, root: Path = ROOT) -> dict[str,
                 problems.append(f"{language}: typed family metadata has not been refreshed")
             if actual_entries != entries_seen:
                 problems.append(f"{language}: source count {entries_seen} != database count {actual_entries}")
+            if profile.get("source", {}).get("bounded_scout"):
+                unlabelled = connection.execute(
+                    "SELECT COUNT(*) FROM entries WHERE language=? "
+                    "AND (source_stratum='' OR source_scope_note='')",
+                    (language,),
+                ).fetchone()[0]
+                item["unlabelled_bounded_scout_entries"] = unlabelled
+                if unlabelled:
+                    problems.append(
+                        f"{language}: {unlabelled} bounded-scout entries lack source stratum or scope note"
+                    )
+                allowed_strata = set(profile["source"].get("allowed_source_strata", []))
+                actual_strata = {
+                    row[0] for row in connection.execute(
+                        "SELECT DISTINCT source_stratum FROM entries WHERE language=?",
+                        (language,),
+                    )
+                }
+                unexpected_strata = sorted(actual_strata - allowed_strata)
+                item["unexpected_source_strata"] = unexpected_strata
+                if unexpected_strata:
+                    problems.append(
+                        f"{language}: unexpected bounded-scout source strata: {unexpected_strata}"
+                    )
             if not source.exists():
                 problems.append(f"{language}: source is missing: {source}")
             else:
@@ -1173,7 +1213,8 @@ def review_queue(db_path: Path, lens: str, language: str | None = None, limit: i
             clauses.append("language=?")
             params.append(language)
         rows = connection.execute(
-            "SELECT entry_id, language, headword, gloss, candidate_count, loan_hint "
+            "SELECT entry_id, language, headword, gloss, candidate_count, loan_hint, "
+            "source_stratum, source_scope_note "
             f"FROM entries WHERE {' AND '.join(clauses)} ORDER BY language, entry_id LIMIT ?",
             (*params, limit * 20),
         )
@@ -1184,7 +1225,10 @@ def review_queue(db_path: Path, lens: str, language: str | None = None, limit: i
                 bool(state.get("recovery_review")) and not state.get("skeptical_review")
             )
             if missing:
-                item = dict(zip(("entry_id", "language", "headword", "gloss", "candidate_count", "loan_hint"), row))
+                item = dict(zip((
+                    "entry_id", "language", "headword", "gloss", "candidate_count", "loan_hint",
+                    "source_stratum", "source_scope_note",
+                ), row))
                 item["review_status"] = state.get("status", "unreviewed")
                 result.append(item)
             if len(result) >= limit:
