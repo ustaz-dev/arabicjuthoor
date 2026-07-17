@@ -13,6 +13,11 @@ from typing import Any, Iterable
 ROOT = Path(__file__).resolve().parents[2]
 FAMILY_REVIEW_STATE = ROOT / "data" / "family-review-states.json"
 FAMILY_REVIEW_STATUSES = {"unreviewed", "reviewed", "loan-isolated", "suspended", "closed"}
+FAMILY_METADATA_VERSION = "3"
+DEFAULT_MAX_LEMMAS_PER_FAMILY = 256
+AFFIX_POS_MARKERS = (
+    "affix", "combining_form", "infix", "interfix", "prefix", "suffix", "präfix",
+)
 
 
 FAMILY_SCHEMA = """
@@ -120,6 +125,15 @@ def target_alternatives(value: str) -> tuple[str, ...]:
     return tuple(dict.fromkeys(part.strip() for part in re.split(r"\+|/", value or "") if part.strip()))
 
 
+def is_affix_entry(headword: str, pos: str) -> bool:
+    word = (headword or "").strip()
+    normalized_pos = (pos or "").casefold().replace("-", "_").replace(" ", "_")
+    return bool(
+        word.startswith("-") or word.endswith("-")
+        or any(marker in normalized_pos for marker in AFFIX_POS_MARKERS)
+    )
+
+
 def _review_event_is_complete(state: dict[str, Any], family_id: str) -> None:
     status = state.get("status", "")
     if status not in FAMILY_REVIEW_STATUSES:
@@ -168,16 +182,36 @@ def install_family_review_overlay(connection: sqlite3.Connection, payload: dict[
     )
 
 
+def require_current_family_metadata(connection: sqlite3.Connection, languages: Iterable[str]) -> None:
+    metadata = dict(connection.execute(
+        "SELECT key, value FROM meta WHERE key LIKE 'family_metadata_version:%'"
+    ))
+    stale = sorted(
+        language for language in set(languages)
+        if metadata.get(f"family_metadata_version:{language}") != FAMILY_METADATA_VERSION
+    )
+    if stale:
+        raise RuntimeError(
+            "Family cards are blocked until family metadata is refreshed at version "
+            f"{FAMILY_METADATA_VERSION}: {', '.join(stale)}"
+        )
+
+
 def _resolver(entries: list[dict[str, Any]]):
     exact: dict[str, list[str]] = defaultdict(list)
     orthographic: dict[str, list[str]] = defaultdict(list)
+    form_exact: dict[str, list[str]] = defaultdict(list)
+    form_orthographic: dict[str, list[str]] = defaultdict(list)
     for entry in entries:
-        if (entry["form_of"] and not entry["alternative_of"]) or entry["nonlexical"]:
+        if entry["nonlexical"]:
             continue
-        exact[unicodedata.normalize("NFC", entry["headword"]).casefold()].append(entry["entry_id"])
+        pure_form = entry["form_of"] and not entry["alternative_of"]
+        exact_index = form_exact if pure_form else exact
+        orthographic_index = form_orthographic if pure_form else orthographic
+        exact_index[unicodedata.normalize("NFC", entry["headword"]).casefold()].append(entry["entry_id"])
         key = orthographic_key(entry["headword"])
         if key:
-            orthographic[key].append(entry["entry_id"])
+            orthographic_index[key].append(entry["entry_id"])
 
     by_id = {entry["entry_id"]: entry for entry in entries}
 
@@ -189,16 +223,31 @@ def _resolver(entries: list[dict[str, Any]]):
                 return same_pos, method + "-pos"
         return candidates, method
 
-    def resolve(target: str, source_pos: str = "") -> tuple[list[str], str]:
-        alternatives = target_alternatives(target) or (target.strip(),)
+    def lookup(
+        alternatives: tuple[str, ...], source_pos: str, source_entry_id: str,
+        exact_index: dict[str, list[str]], orthographic_index: dict[str, list[str]], method_prefix: str,
+    ) -> tuple[list[str], str]:
         found: list[str] = []
         for alternative in alternatives:
-            found.extend(exact.get(unicodedata.normalize("NFC", alternative).casefold(), ()))
+            found.extend(exact_index.get(unicodedata.normalize("NFC", alternative).casefold(), ()))
+        found = [entry_id for entry_id in found if entry_id != source_entry_id]
         if found:
-            return narrow_by_pos(found, source_pos, "exact")
+            return narrow_by_pos(found, source_pos, method_prefix + "exact")
         for key in {orthographic_key(item) for item in alternatives} - {""}:
-            found.extend(orthographic.get(key, ()))
-        return narrow_by_pos(found, source_pos, "orthographic") if found else ([], "none")
+            found.extend(orthographic_index.get(key, ()))
+        found = [entry_id for entry_id in found if entry_id != source_entry_id]
+        return narrow_by_pos(found, source_pos, method_prefix + "orthographic") if found else ([], "none")
+
+    def resolve(target: str, source_pos: str = "", source_entry_id: str = "") -> tuple[list[str], str]:
+        alternatives = target_alternatives(target) or (target.strip(),)
+        found, method = lookup(
+            alternatives, source_pos, source_entry_id, exact, orthographic, "",
+        )
+        if found:
+            return found, method
+        return lookup(
+            alternatives, source_pos, source_entry_id, form_exact, form_orthographic, "via-form-",
+        )
 
     return resolve
 
@@ -208,7 +257,13 @@ def _family_id(language: str, members: list[str]) -> str:
     return f"{language}:family:{digest}"
 
 
-def build_families(connection: sqlite3.Connection, language: str) -> dict[str, Any]:
+def build_families(
+    connection: sqlite3.Connection,
+    language: str,
+    max_lemma_count: int = DEFAULT_MAX_LEMMAS_PER_FAMILY,
+) -> dict[str, Any]:
+    if max_lemma_count < 1:
+        raise ValueError("max_lemma_count must be positive")
     ensure_family_schema(connection)
     clear_language_families(connection, language)
     rows = connection.execute(
@@ -233,14 +288,23 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
         entry["form_of"] = bool(entry["form_of"])
         entry["alternative_of"] = bool(entry["alternative_of"])
         entry["nonlexical"] = entry["pos"] in {"character", "symbol", "punct"}
+        entry["affix"] = is_affix_entry(entry["headword"], entry["pos"])
 
     union = UnionFind(by_id)
     resolve = _resolver(entries)
     edges: dict[tuple[str, str, str], str] = {}
     form_link_rows: list[tuple[object, ...]] = []
     relation_rows: list[tuple[object, ...]] = []
+    resolved_relation_edges: list[tuple[str, str, str, str]] = []
     form_statuses: dict[str, list[str]] = defaultdict(list)
     textual_entries: set[str] = set()
+    multi_parent_form_sources = {
+        entry["entry_id"] for entry in entries
+        if entry["form_of"] and len({
+            orthographic_key(target) or unicodedata.normalize("NFC", target).casefold()
+            for target in entry["form_targets"] if target
+        }) > 1
+    }
 
     connection.execute(
         "DELETE FROM form_links WHERE form_entry_id IN (SELECT entry_id FROM entries WHERE language=?)", (language,)
@@ -250,12 +314,19 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
     )
     connection.execute("DELETE FROM family_edges WHERE language=?", (language,))
 
-    def edge(left: str, right: str, link_type: str, evidence: str) -> None:
+    def edge(
+        left: str, right: str, link_type: str, evidence: str, annotation_reason: str = "",
+    ) -> None:
         if left == right:
             return
+        annotation_only = bool(annotation_reason) or by_id[left]["affix"] or by_id[right]["affix"]
+        if annotation_only:
+            reason = "affix" if by_id[left]["affix"] or by_id[right]["affix"] else annotation_reason
+            link_type = f"annotation-{reason}-" + link_type
         a, b = sorted((left, right))
         edges.setdefault((a, b, link_type), evidence)
-        union.union(a, b)
+        if not annotation_only:
+            union.union(a, b)
 
     for entry in entries:
         if not entry["form_of"] and not entry["alternative_of"]:
@@ -267,9 +338,14 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
             typed_targets.append(("alt-of", entry["alternative_targets"] or ("",)))
         for link_type, targets in typed_targets:
             for target in targets:
-                candidates, method = resolve(target, entry["pos"]) if target else ([], "none")
+                candidates, method = resolve(target, entry["pos"], entry["entry_id"]) if target else ([], "none")
                 status = "linked" if len(candidates) == 1 else "ambiguous-form" if candidates else "orphan-form"
                 resolved = candidates[0] if status == "linked" else None
+                if (
+                    resolved and link_type == "form-of"
+                    and entry["entry_id"] in multi_parent_form_sources
+                ):
+                    status = "multi-parent-form"
                 form_link_rows.append((
                     entry["entry_id"], target, link_type, json.dumps(candidates, ensure_ascii=False),
                     resolved, status, method,
@@ -277,14 +353,16 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
                 form_statuses[entry["entry_id"]].append(status)
                 if resolved:
                     textual_entries.update((entry["entry_id"], resolved))
-                    edge(entry["entry_id"], resolved, link_type, target)
+                    edge_type = "via-form" if method.startswith("via-form-") else link_type
+                    annotation_reason = "multiparent-form" if status == "multi-parent-form" else ""
+                    edge(entry["entry_id"], resolved, edge_type, target, annotation_reason)
 
     for entry in entries:
         if (entry["form_of"] and not entry["alternative_of"]) or entry["nonlexical"]:
             continue
         for relation_type, targets in (("derived", entry["derived_terms"]), ("related", entry["related_terms"])):
             for target in targets:
-                candidates, method = resolve(target)
+                candidates, method = resolve(target, source_entry_id=entry["entry_id"])
                 candidates = [candidate for candidate in candidates if candidate != entry["entry_id"]]
                 status = "linked" if len(candidates) == 1 else "ambiguous-relation" if candidates else "outside-snapshot"
                 resolved = candidates[0] if status == "linked" else None
@@ -294,7 +372,17 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
                 ))
                 if resolved:
                     textual_entries.update((entry["entry_id"], resolved))
-                    edge(entry["entry_id"], resolved, f"textual-{relation_type}", target)
+                    resolved_relation_edges.append((
+                        entry["entry_id"], resolved, f"textual-{relation_type}", target,
+                    ))
+
+    incoming_relation_sources: dict[str, set[str]] = defaultdict(set)
+    for source, target, _, _ in resolved_relation_edges:
+        if not by_id[source]["affix"] and not by_id[target]["affix"]:
+            incoming_relation_sources[target].add(source)
+    for source, target, link_type, evidence in resolved_relation_edges:
+        annotation_reason = "multiparent" if len(incoming_relation_sources[target]) > 1 else ""
+        edge(source, target, link_type, evidence, annotation_reason)
 
     if form_link_rows:
         connection.executemany("INSERT INTO form_links VALUES (?, ?, ?, ?, ?, ?, ?)", form_link_rows)
@@ -311,7 +399,7 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
         lemma_members = [
             member for member in members
             if not by_id[member]["form_of"] and not by_id[member]["alternative_of"]
-            and not by_id[member]["nonlexical"]
+            and not by_id[member]["nonlexical"] and not by_id[member]["affix"]
         ]
         for skeleton in sorted({by_id[member]["skeleton"] for member in lemma_members} - {""}):
             anchor = min(member for member in lemma_members if by_id[member]["skeleton"] == skeleton)
@@ -339,6 +427,8 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
             resolution, processing = "linked", "form-linked"
         elif "orphan-form" in unique:
             resolution, processing = "orphan-form", "orphan-form"
+        elif "multi-parent-form" in unique:
+            resolution, processing = "multi-parent-form", "multi-parent-form"
         elif "ambiguous-form" in unique:
             resolution, processing = "ambiguous-form", "ambiguous-form"
         else:
@@ -363,6 +453,8 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
 
     incident: dict[str, set[str]] = defaultdict(set)
     for left, right, link_type in edges:
+        if link_type.startswith("annotation-"):
+            continue
         incident[left].add(link_type)
         incident[right].add(link_type)
     components: dict[str, list[str]] = defaultdict(list)
@@ -385,15 +477,15 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
         )
         types = set().union(*(incident.get(member, set()) for member in members))
         form_states = {status for member in members for status in form_statuses.get(member, ())}
-        if not types and "orphan-form" in form_states:
+        if "orphan-form" in form_states:
             construction = "orphan-form"
-        elif not types and "ambiguous-form" in form_states:
+        elif {"ambiguous-form", "multi-parent-form"} & form_states:
             construction = "ambiguous-form"
         elif not types and all(by_id[member]["nonlexical"] for member in members):
             construction = "nonlexical"
         elif not types:
             construction = "singleton"
-        elif types == {"form-of"}:
+        elif types and types <= {"form-of", "via-form"}:
             construction = "form-of"
         elif types == {"alt-of"}:
             construction = "alternative"
@@ -414,6 +506,11 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
         )
         nonlexical_count = sum(by_id[member]["nonlexical"] for member in members)
         candidate_members = sum(bool(by_id[member]["candidate_count"]) for member in members)
+        if lemma_count > max_lemma_count:
+            raise ValueError(
+                f"{language}: family anchored at {by_id[anchor_id]['headword']!r} has "
+                f"{lemma_count} lemmas; profile limit is {max_lemma_count}"
+            )
         family_rows.append((
             family_id, language, anchor_id, by_id[anchor_id]["headword"], construction,
             len(members), lemma_count, form_count, nonlexical_count, candidate_members,
@@ -431,6 +528,7 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
     connection.executemany("INSERT INTO family_members VALUES (?, ?, ?, ?)", member_rows)
 
     status_counts = Counter(status for statuses in form_statuses.values() for status in set(statuses))
+    max_observed = max((row[6] for row in family_rows), default=0)
     return {
         "families": len(family_rows),
         "family_members": len(member_rows),
@@ -438,6 +536,8 @@ def build_families(connection: sqlite3.Connection, language: str) -> dict[str, A
         "form_link_statuses": dict(status_counts),
         "form_link_rows": len(form_link_rows),
         "relation_link_rows": len(relation_rows),
+        "max_lemma_count_observed": max_observed,
+        "max_lemma_count_allowed": max_lemma_count,
     }
 
 
@@ -484,6 +584,10 @@ def family_review_queue(
     processing_status: str | None = None,
     limit: int = 50,
 ) -> list[dict[str, Any]]:
+    queue_languages = [language] if language else [
+        row[0] for row in connection.execute("SELECT DISTINCT language FROM families")
+    ]
+    require_current_family_metadata(connection, queue_languages)
     states = load_family_review_states()["families"]
     clauses: list[str] = []
     params: list[object] = []
@@ -535,6 +639,7 @@ def family_card(connection: sqlite3.Connection, family_id: str, candidate_limit:
         "lemma_count", "form_count", "nonlexical_count", "candidate_bearing_member_count",
     )
     family = dict(zip(fields, row))
+    require_current_family_metadata(connection, [family["language"]])
     family["review_status"] = state.get("status", "unreviewed")
     family["review_record"] = state or {"status": "unreviewed"}
     members = []

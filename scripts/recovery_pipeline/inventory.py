@@ -10,6 +10,7 @@ from typing import Any
 
 from .candidates import ArabicInventory, CandidateHit, generate_hits
 from .families import (
+    FAMILY_METADATA_VERSION,
     build_families,
     clear_language_families,
     ensure_family_schema,
@@ -335,7 +336,7 @@ def build_language(
                 counters["unmapped"] += int(bool(unmapped))
             if not counters["entries"]:
                 raise ValueError(f"Source produced no inventory entries: {path}")
-            family_report = build_families(connection, language)
+            family_report = build_families(connection, language, int(profile["family_max_lemma_count"]))
             stat = path.stat()
             if (stat.st_size, stat.st_mtime_ns) != (initial_stat.st_size, initial_stat.st_mtime_ns):
                 raise RuntimeError(f"Source changed while it was being inventoried: {path}")
@@ -356,7 +357,8 @@ def build_language(
             )
             connection.execute("INSERT OR REPLACE INTO meta VALUES ('schema_version', '5')")
             connection.execute(
-                "INSERT OR REPLACE INTO meta VALUES (?, '2')", (f"family_metadata_version:{language}",)
+                "INSERT OR REPLACE INTO meta VALUES (?, ?)",
+                (f"family_metadata_version:{language}", FAMILY_METADATA_VERSION),
             )
             processing_counts = dict(connection.execute(
                 "SELECT processing_status, COUNT(*) FROM entries WHERE language=? GROUP BY processing_status",
@@ -672,7 +674,7 @@ def upgrade_family_layer_from_v2(
             progress("mixed-form-alternatives-regenerated")
             connection.execute("CREATE INDEX candidates_form ON candidates(form, kind, status)")
             progress("candidate-lookup-index-built")
-            family_report = build_families(connection, language)
+            family_report = build_families(connection, language, int(profile["family_max_lemma_count"]))
             progress("families-built")
             processing_counts = dict(connection.execute(
                 "SELECT processing_status, COUNT(*) FROM entries WHERE language=? GROUP BY processing_status",
@@ -703,7 +705,8 @@ def upgrade_family_layer_from_v2(
             )
             connection.execute("INSERT OR REPLACE INTO meta VALUES ('schema_version', '5')")
             connection.execute(
-                "INSERT OR REPLACE INTO meta VALUES (?, '2')", (f"family_metadata_version:{language}",)
+                "INSERT OR REPLACE INTO meta VALUES (?, ?)",
+                (f"family_metadata_version:{language}", FAMILY_METADATA_VERSION),
             )
             loan_hints = connection.execute(
                 "SELECT COALESCE(SUM(loan_hint), 0) FROM entries WHERE language=?", (language,)
@@ -879,13 +882,14 @@ def refresh_family_metadata(
                         entry_id,
                     ),
                 )
-            family_report = build_families(connection, language)
+            family_report = build_families(connection, language, int(profile["family_max_lemma_count"]))
             current_stat = path.stat()
             if (current_stat.st_size, current_stat.st_mtime_ns) != (initial_stat.st_size, initial_stat.st_mtime_ns):
                 raise RuntimeError(f"Source changed while family metadata was refreshed: {path}")
             connection.execute("INSERT OR REPLACE INTO meta VALUES ('schema_version', '5')")
             connection.execute(
-                "INSERT OR REPLACE INTO meta VALUES (?, '2')", (f"family_metadata_version:{language}",)
+                "INSERT OR REPLACE INTO meta VALUES (?, ?)",
+                (f"family_metadata_version:{language}", FAMILY_METADATA_VERSION),
             )
             connection.execute(f"DROP TABLE {overlay}")
         return {
@@ -980,7 +984,12 @@ def verify_inventory(db_path: Path = DEFAULT_DB, root: Path = ROOT) -> dict[str,
             source = root / relative_path
             if not complete:
                 problems.append(f"{language}: source coverage is incomplete")
-            if metadata.get(f"family_metadata_version:{language}") != "2":
+            profile = load_profile(language)
+            family_limit = int(profile["family_max_lemma_count"])
+            family_version = metadata.get(f"family_metadata_version:{language}")
+            item["family_metadata_version"] = family_version
+            item["family_max_lemma_count_allowed"] = family_limit
+            if family_version != FAMILY_METADATA_VERSION:
                 problems.append(f"{language}: typed family metadata has not been refreshed")
             if actual_entries != entries_seen:
                 problems.append(f"{language}: source count {entries_seen} != database count {actual_entries}")
@@ -993,6 +1002,24 @@ def verify_inventory(db_path: Path = DEFAULT_DB, root: Path = ROOT) -> dict[str,
                 if not unchanged:
                     problems.append(f"{language}: source size or modification time changed after inventory")
             report["sources"].append(item)
+
+        oversized_families = []
+        for language, anchor, lemma_count in connection.execute(
+            "SELECT f.language, f.anchor_headword, f.lemma_count FROM families f "
+            "JOIN (SELECT language, MAX(lemma_count) AS maximum FROM families GROUP BY language) m "
+            "ON m.language=f.language AND m.maximum=f.lemma_count ORDER BY f.language, f.family_id"
+        ):
+            family_limit = int(load_profile(language)["family_max_lemma_count"])
+            if lemma_count > family_limit:
+                oversized_families.append({
+                    "language": language,
+                    "anchor_headword": anchor,
+                    "lemma_count": lemma_count,
+                    "allowed": family_limit,
+                })
+        report["oversized_families"] = oversized_families
+        if oversized_families:
+            problems.append(f"{len(oversized_families)} languages exceed their lexical-family lemma limit")
 
         blocked = dict(connection.execute(
             "SELECT processing_status, COUNT(*) FROM entries "

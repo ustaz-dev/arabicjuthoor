@@ -99,11 +99,15 @@ def main() -> int:
     required_profile_fields = {
         "profile_version", "language", "preferred_input", "script_map", "vowels", "multi_tokens",
         "single_tokens", "ignored_characters", "zero_step", "relevant_branch_rules",
+        "family_max_lemma_count",
     }
     for language in available_profiles():
-        missing = required_profile_fields - set(load_profile(language))
+        profile = load_profile(language)
+        missing = required_profile_fields - set(profile)
         if missing:
             failures.append(f"profile {language} missing: {sorted(missing)}")
+        if not isinstance(profile.get("family_max_lemma_count"), int) or profile.get("family_max_lemma_count", 0) < 1:
+            failures.append(f"profile {language} has invalid family_max_lemma_count")
 
     with tempfile.TemporaryDirectory() as directory:
         temp = Path(directory)
@@ -234,10 +238,23 @@ def main() -> int:
                 ("alternative", "hebrew", "אָב", 0, 1, "[]", '["אב"]', "[]", "[]", "qb", "candidates-generated", 1, "noun", "pending"),
                 ("mixed", "hebrew", "אב׳", 1, 1, '["אָב"]', '["אב"]', "[]", "[]", "qb", "candidates-generated", 1, "noun", "pending"),
                 ("orphan", "hebrew", "יתום", 1, 0, '["חסר"]', "[]", "[]", "[]", "ytwm", "form-pending-link", 0, "noun", "pending"),
+                ("desolo", "hebrew", "dēsōlō", 0, 0, "[]", "[]", "[]", "[]", "dsl", "candidate-search-complete-zero", 0, "verb", "not-form"),
+                ("desolatus", "hebrew", "dēsōlātus", 1, 0, '["dēsōlō"]', "[]", "[]", "[]", "dslt", "form-pending-link", 0, "verb", "pending"),
+                ("desolatum", "hebrew", "dēsōlātum", 1, 0, '["dēsōlātus"]', "[]", "[]", "[]", "dsltm", "form-pending-link", 0, "verb", "pending"),
+                ("reversans", "hebrew", "reversans", 0, 0, "[]", "[]", "[]", '["-alia"]', "rwrsns", "candidate-search-complete-zero", 0, "verb", "not-form"),
+                ("asso", "hebrew", "assō", 0, 0, "[]", "[]", "[]", '["-alia"]', "ss", "candidate-search-complete-zero", 0, "verb", "not-form"),
+                ("alia", "hebrew", "-alia", 0, 0, "[]", "[]", "[]", "[]", "ql", "candidate-search-complete-zero", 0, "suffix", "not-form"),
+                ("play", "hebrew", "play", 0, 0, "[]", "[]", '["playful", "playhouse"]', "[]", "ply", "candidate-search-complete-zero", 0, "verb", "not-form"),
+                ("playful", "hebrew", "playful", 0, 0, "[]", "[]", "[]", "[]", "plyfl", "candidate-search-complete-zero", 0, "adj", "not-form"),
+                ("house", "hebrew", "house", 0, 0, "[]", "[]", '["playhouse"]', "[]", "hws", "candidate-search-complete-zero", 0, "noun", "not-form"),
+                ("playhouse", "hebrew", "playhouse", 0, 0, "[]", "[]", "[]", "[]", "plyhws", "candidate-search-complete-zero", 0, "noun", "not-form"),
+                ("dego", "hebrew", "dēgō", 0, 0, "[]", "[]", "[]", "[]", "dg", "candidate-search-complete-zero", 0, "verb", "not-form"),
+                ("degero", "hebrew", "dēgerō", 0, 0, "[]", "[]", "[]", "[]", "dgr", "candidate-search-complete-zero", 0, "verb", "not-form"),
+                ("degeret", "hebrew", "dēgeret", 1, 0, '["dēgō", "dēgerō"]', "[]", "[]", "[]", "dgrt", "form-pending-link", 0, "verb", "pending"),
             ],
         )
         report = build_families(family_db, "hebrew")
-        if report["family_members"] != 6:
+        if report["family_members"] != 19:
             failures.append("family membership regression: an entry disappeared")
         linked = family_db.execute(
             "SELECT status, resolved_target_entry_id, match_method FROM form_links WHERE form_entry_id='form'"
@@ -265,7 +282,94 @@ def main() -> int:
         ).fetchone()
         if orphan != ("orphan-form",):
             failures.append("explicit orphan-form regression")
+        via_form = family_db.execute(
+            "SELECT status, resolved_target_entry_id, match_method FROM form_links "
+            "WHERE form_entry_id='desolatum'"
+        ).fetchone()
+        chained_families = family_db.execute(
+            "SELECT COUNT(DISTINCT family_id) FROM family_members "
+            "WHERE entry_id IN ('desolo','desolatus','desolatum')"
+        ).fetchone()[0]
+        if via_form != ("linked", "desolatus", "via-form-exact") or chained_families != 1:
+            failures.append(f"two-hop form-chain regression: {via_form!r}, families={chained_families}")
+        affix_families = dict(family_db.execute(
+            "SELECT entry_id, family_id FROM family_members WHERE entry_id IN ('reversans','asso','alia')"
+        ))
+        affix_edges = family_db.execute(
+            "SELECT COUNT(*) FROM family_edges WHERE link_type='annotation-affix-textual-related'"
+        ).fetchone()[0]
+        if len(set(affix_families.values())) != 3 or affix_edges != 2:
+            failures.append(f"affix-hub isolation regression: {affix_families!r}, edges={affix_edges}")
+        derivation_families = dict(family_db.execute(
+            "SELECT entry_id, family_id FROM family_members "
+            "WHERE entry_id IN ('play','playful','house','playhouse')"
+        ))
+        multiparent_edges = family_db.execute(
+            "SELECT COUNT(*) FROM family_edges WHERE link_type='annotation-multiparent-textual-derived'"
+        ).fetchone()[0]
+        if (
+            derivation_families["play"] != derivation_families["playful"]
+            or derivation_families["play"] == derivation_families["house"]
+            or derivation_families["playhouse"] in {
+                derivation_families["play"], derivation_families["house"]
+            }
+            or multiparent_edges != 2
+        ):
+            failures.append(
+                f"multi-parent compound bridge regression: {derivation_families!r}, edges={multiparent_edges}"
+            )
+        homograph_families = dict(family_db.execute(
+            "SELECT entry_id, family_id FROM family_members "
+            "WHERE entry_id IN ('dego','degero','degeret')"
+        ))
+        homograph_edges = family_db.execute(
+            "SELECT COUNT(*) FROM family_edges "
+            "WHERE link_type='annotation-multiparent-form-form-of'"
+        ).fetchone()[0]
+        homograph_status = family_db.execute(
+            "SELECT processing_status, form_resolution_status FROM entries WHERE entry_id='degeret'"
+        ).fetchone()
+        homograph_construction = family_db.execute(
+            "SELECT f.construction FROM family_members fm JOIN families f ON f.family_id=fm.family_id "
+            "WHERE fm.entry_id='degeret'"
+        ).fetchone()
+        if (
+            len(set(homograph_families.values())) != 3
+            or homograph_edges != 2
+            or homograph_status != ("multi-parent-form", "multi-parent-form")
+            or homograph_construction != ("ambiguous-form",)
+        ):
+            failures.append(
+                f"multi-parent form bridge regression: {homograph_families!r}, "
+                f"edges={homograph_edges}, status={homograph_status!r}, "
+                f"construction={homograph_construction!r}"
+            )
         family_db.close()
+
+        bound_db = sqlite3.connect(":memory:")
+        bound_db.execute("PRAGMA foreign_keys=ON")
+        bound_db.execute(
+            "CREATE TABLE entries (entry_id TEXT PRIMARY KEY, language TEXT NOT NULL, headword TEXT NOT NULL, "
+            "form_of INTEGER NOT NULL, alternative_of INTEGER NOT NULL, "
+            "form_targets_json TEXT NOT NULL, alternative_targets_json TEXT NOT NULL, "
+            "derived_terms_json TEXT NOT NULL, related_terms_json TEXT NOT NULL, "
+            "skeleton TEXT NOT NULL, processing_status TEXT NOT NULL, candidate_count INTEGER NOT NULL, "
+            "pos TEXT NOT NULL, form_resolution_status TEXT NOT NULL)"
+        )
+        bound_db.executemany(
+            "INSERT INTO entries VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            [
+                (str(index), "hebrew", f"lemma{index}", 0, 0, "[]", "[]", "[]", "[]", "hub", "candidate-search-complete-zero", 0, "noun", "not-form")
+                for index in range(3)
+            ],
+        )
+        try:
+            build_families(bound_db, "hebrew", max_lemma_count=2)
+            failures.append("family lemma-count guard failed to stop an oversized family")
+        except ValueError as error:
+            if "profile limit is 2" not in str(error):
+                failures.append(f"family lemma-count guard raised the wrong error: {error}")
+        bound_db.close()
 
     if failures:
         for failure in failures:
