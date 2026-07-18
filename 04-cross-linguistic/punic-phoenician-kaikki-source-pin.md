@@ -100,3 +100,27 @@ python scripts/record_bounded_family_isolations.py --check
 
 الحالة `suspended` هنا حاجز نطاق لا رفض لغوي: يبقى العلم قابلًا لبطاقة
 أسماء مستقلة، ويبقى التعمير قابلًا للفتح إذا ظهر شاهده المنشور.
+
+## 7. بطاقات الفجوات الحتمية
+
+يولد `scripts/export_bounded_scout_gap_cards.py` بطاقات `RECOVERY-v2`
+للأسر المعجمية بترتيب القوة المثبت، ويعرض مرشحات الجذر الكامل والأجوف
+ومروحة المعاني العربية ونص الاشتقاق وشاهد المصدر إن وجد. لا يصدر المولد
+حكم نسب، ولا يحول التطابق الكامل أو احتمال القرض إلى أثر أو صدى أو
+`LOANWORD`. كل بطاقة تحمل `الحكم: غير صادر` وعائقًا منظمًا وطريق إعادة
+فتح مسمى.
+
+يفحص الملف المولد من غير تغيير بالأمر:
+
+```text
+python scripts/export_bounded_scout_gap_cards.py --language punic --output 04-cross-linguistic/readings/punic.md --check
+python scripts/record_bounded_gap_reviews.py --language punic --check
+python scripts/record_bounded_gap_reviews.py --language phoenician --check
+```
+
+هذا اكتمال للمرور على اللقطة المحدودة وحدها، لا اكتمال لمعجم اللغة
+التاريخي. ولا تدخل أي بطاقة من هذه الطبقة خط البرهان.
+
+يحفظ مسح الفينيقية المدخل `𐤁𐤏𐤋` في الطبقة المعجمية لأن حقول المصدر
+تسجله `noun` موروثًا من السامية الأم، ويعزل استعماله لقبًا إلهيًا داخل
+المصفاة. لا يحول الاستعمال اللقبي اللمة كلها إلى علم.
