@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3175,
+ "cards_total": 3187,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -55,6 +55,18 @@
   },
   {
    "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:baab97afbcced27a32b05ae4`، כבר",
+   "verdict": "ROOT-TRACE للمدخلين 848 و849؛ غير صادر للمدخل 847",
+   "closure": "READY للفعلين، وMORPHOLOGY-GAP للظرف",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "فصل الظرف «منذ زمن» عن فعلي الكثرة والزيادة قبل توريث الحكم",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
    "card": "`aramaic:family:d7aef9c102205f7fdaf5df59`، בטל/בתל",
    "verdict": "",
    "closure": "TOOL-GAP للمدخلين 1203 و1204، وCLOSED-NO-TRACE غير مكتمل للمدخل 1562",
@@ -76,6 +88,18 @@
    ],
    "blocker_type": "LAW-GAP",
    "required": "صف آرامي موقع لمسار ס إلى ش في פרס «ينشر»، وأداة تسترجع فرز أو فرس لمعنى التقسيم",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:e162907fda86f64b7a8f97c5`، כפר",
+   "verdict": "ROOT-TRACE للفعل «ينكر» ولمعنى «القرية»؛ غير صادر ل",
+   "closure": "READY للفعل ومعنى القرية، وMORPHOLOGY-GAP لمعنى القبر",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "فصل «القرية» عن «القبر» في اللمة الاسمية بمصدر يحدد كل سلسلة",
    "row_mentions": []
   },
   {
@@ -116,6 +140,56 @@
   },
   {
    "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:b78f36e0d205ff9231ada864`، עוד",
+   "verdict": "ROOT-TRACE للمدخل 1427؛ غير صادر للمدخل 1426",
+   "closure": "READY للفعل، وMORPHOLOGY-GAP للظرف",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "فصل الظرف «يقينًا» عن فعل الاعتياد قبل توريث الحكم",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:d2e12102e35fa832b24857b4`، סום/צום",
+   "verdict": "ROOT-TRACE لـצום «يصوم»؛ غير صادر لـסום «يضع»",
+   "closure": "READY للمدخل 1749، وMORPHOLOGY-GAP للمدخل 1200",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "إبقاء סום «يضع» منفصلًا عن צום «يصوم» وتحديد مقابل الأول",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:71dddf17a0724233ff4f9ff4`، נסב/נצב",
+   "verdict": "ROOT-TRACE لـנצב «يغرس»؛ غير صادر لـנסב «يأخذ»",
+   "closure": "READY للمدخل 1821، وMORPHOLOGY-GAP للمدخل 1194",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "فصل נסב «يأخذ» عن נצב «يغرس» وعدم توريث الجذر المشترك آليًا",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:e1e98c4bb979dad10f3e5f4f`، תור",
+   "verdict": "ROOT-TRACE للاسم في المدخل 1052؛ غير صادر للفعل 105",
+   "closure": "READY للاسم، وMORPHOLOGY-GAP للفعل",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "فصل «الثور» عن «يتعجب» في التجانس الرسومي",
+   "row_mentions": [
+    "BR-ARAM-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
    "card": "`aramaic:family:19283c4be90dd6f5870a5004`، פרת",
    "verdict": "",
    "closure": "OPEN-CANDIDATE للفعل، وMORPHOLOGY-GAP للعلم",
@@ -129,10 +203,23 @@
   },
   {
    "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:fc0d0ce064e2de25a4513edc`، עמר",
+   "verdict": "ROOT-TRACE للمدخل 87 «يسكن»؛ غير صادر للمدخل 86 «صو",
+   "closure": "READY للفعل، وSOURCE-GAP للاسم",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "تصحيح اشتقاق اللمتين وفصل «الصوف» عن «السكن» في المصدر قبل حكم الأولى",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
    "card": "`aramaic:family:05d9b95b4e8d644463f9d682`، הלך",
    "verdict": "",
    "closure": "OPEN-CANDIDATE",
    "gaps": [
+    "TOOL-GAP",
     "OPEN-CANDIDATE"
    ],
    "blocker_type": "OPEN-CANDIDATE",
@@ -21644,7 +21731,7 @@
   {
    "file": "04-cross-linguistic/readings/aramaic.md",
    "card": "الرتبة 1665، `aramaic:family:f88688baac196830b79c3fc5`، 𐡆",
-   "verdict": "",
+   "verdict": "READY",
    "closure": "TOOL-GAP",
    "gaps": [
     "TOOL-GAP",
