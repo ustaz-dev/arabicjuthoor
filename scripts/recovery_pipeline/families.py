@@ -13,9 +13,9 @@ from typing import Any, Iterable
 ROOT = Path(__file__).resolve().parents[2]
 FAMILY_REVIEW_STATE = ROOT / "data" / "family-review-states.json"
 FAMILY_REVIEW_STATUSES = {"unreviewed", "reviewed", "loan-isolated", "suspended", "closed"}
-FAMILY_METADATA_VERSION = "3"
+FAMILY_METADATA_VERSION = "5"
 EXPLICIT_VARIANT_LINK_LANGUAGES = {"aramaic", "hebrew"}
-EXPLICIT_VARIANT_LINK_VERSION = "4"
+EXPLICIT_VARIANT_LINK_VERSION = "6"
 DEFAULT_MAX_LEMMAS_PER_FAMILY = 256
 AFFIX_POS_MARKERS = (
     "affix", "combining_form", "infix", "interfix", "prefix", "suffix", "präfix",
@@ -396,7 +396,19 @@ def build_families(
                 status = "linked" if len(candidates) == 1 else "ambiguous-relation" if candidates else "outside-snapshot"
                 resolved = candidates[0] if status == "linked" else None
                 annotation_reason = ""
-                if resolved and relation_type == "variant":
+                if resolved and relation_type == "related":
+                    # Kaikki's "related terms" field is a see-also relation, not
+                    # evidence that two lemmas belong to one lexical family.
+                    # Keep the edge visible for review without allowing a
+                    # reciprocal pair such as Hebrew מוח / רוח to merge.
+                    annotation_reason = "related"
+                    status = "related-annotation"
+                    # The textual see-also evidence also means this is not a
+                    # "no textual information" case.  Exclude both endpoints
+                    # from the structural-skeleton fallback, otherwise the
+                    # annotation could be undone by a later homographic union.
+                    textual_entries.update((entry["entry_id"], resolved))
+                elif resolved and relation_type == "variant":
                     source_key = orthographic_key(entry["headword"])
                     target_headword_key = orthographic_key(by_id[resolved]["headword"])
                     target_variant_keys = {

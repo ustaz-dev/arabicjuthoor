@@ -149,7 +149,7 @@ def main() -> int:
         );
     """)
     ranking_db.execute(
-        "INSERT INTO meta VALUES ('family_metadata_version:aramaic','4')"
+        "INSERT INTO meta VALUES ('family_metadata_version:aramaic','6')"
     )
     ranking_families = [
         ("exact-rich", "exact-rich", "rich meaning | second sense", "root", "licensed", "[]", 0),
@@ -518,10 +518,20 @@ def main() -> int:
                     "qmq", "candidates-generated", 1, "noun", "not-form",
                     '["אבא"]', "mother",
                 ),
+                (
+                    "brain", "hebrew", "מוח", 0, 0, "[]", "[]", "[]", '["רוח"]',
+                    "see-also", "candidates-generated", 1, "noun", "not-form",
+                    "[]", "brain",
+                ),
+                (
+                    "spirit", "hebrew", "רוח", 0, 0, "[]", "[]", "[]", '["מוח"]',
+                    "see-also", "candidates-generated", 1, "noun", "not-form",
+                    "[]", "spirit",
+                ),
             ],
         )
         report = build_families(family_db, "hebrew")
-        if report["family_members"] != 23:
+        if report["family_members"] != 25:
             failures.append("family membership regression: an entry disappeared")
         variant_families = dict(family_db.execute(
             "SELECT entry_id, family_id FROM family_members "
@@ -559,6 +569,25 @@ def main() -> int:
             failures.append(
                 f"variant gloss guard regression: "
                 f"{gloss_guard_families!r}, edges={gloss_guard_edges}"
+            )
+        related_guard_families = dict(family_db.execute(
+            "SELECT entry_id, family_id FROM family_members "
+            "WHERE entry_id IN ('brain','spirit')"
+        ))
+        related_guard_edges = family_db.execute(
+            "SELECT COUNT(*) FROM family_edges "
+            "WHERE link_type='annotation-related-textual-related' "
+            "AND left_entry_id IN ('brain','spirit') "
+            "AND right_entry_id IN ('brain','spirit')"
+        ).fetchone()[0]
+        if (
+            len(related_guard_families) != 2
+            or len(set(related_guard_families.values())) != 2
+            or related_guard_edges != 1
+        ):
+            failures.append(
+                f"related-term family guard regression: "
+                f"{related_guard_families!r}, edges={related_guard_edges}"
             )
         linked = family_db.execute(
             "SELECT status, resolved_target_entry_id, match_method FROM form_links WHERE form_entry_id='form'"
