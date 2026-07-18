@@ -89,3 +89,14 @@
 ```text
 python scripts/export_bounded_family_scope.py --check
 ```
+
+وتسجل محاضر العزل ذات العدستين للعناصر غير المعجمية والأعلام والتعميرات
+في سجل الأسر من غير حكم نسب بالأمر:
+
+```text
+python scripts/record_bounded_family_isolations.py
+python scripts/record_bounded_family_isolations.py --check
+```
+
+الحالة `suspended` هنا حاجز نطاق لا رفض لغوي: يبقى العلم قابلًا لبطاقة
+أسماء مستقلة، ويبقى التعمير قابلًا للفتح إذا ظهر شاهده المنشور.
