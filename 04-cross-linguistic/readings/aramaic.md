@@ -19821,7 +19821,7 @@
 - عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة المعاجم العربية القديمة للمرشحين الكاملين؛ عائق إضافي=MORPHOLOGY-GAP
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צליבא `غير منشورة`، noun، «crucifix, cross» [Kaikki Aramaic، السطر 278]
-- أقدمُ صورةٍ مستعادة: Etymology tree Akkadian 𒁇 (ṣalāpu)bor. Aramaic צליבא Borrowed from Akkadian 𒁇 (ṣalāpu, “to cross out, to pervert; to give difficulty or be crooked, not be easy 
+- أقدمُ صورةٍ مستعادة: Etymology tree Akkadian 𒁇 (ṣalāpu)bor. Aramaic צליבא Borrowed from Akkadian 𒁇 (ṣalāpu, “to cross out, to pervert; to give difficulty or be crooked, not be easy
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي؛ لا تستخرج صوامت الجذر قبل السند الصرفي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية؛ لا نزول إلى حدث الحرف قبل استنفاد الأعلى.
 - مسار الجذر الكامل أولًا: لا مرشح جذر كامل مولد للصورة المحفوظة؛ لا يعد ذلك نفيًا.
@@ -24995,7 +24995,7 @@
 - عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة المعاجم العربية القديمة للمرشحين الكاملين؛ عائق إضافي=MORPHOLOGY-GAP
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: איתתא `ʾittǝṯā`، noun، «woman» [Kaikki Aramaic، السطر 2083]؛ אנתתא `ʾintəṯā`، noun، «woman» [Kaikki Aramaic، السطر 332]
-- أقدمُ صورةٍ مستعادة: From Proto-Semitic *ʾanθ-at-. Cognate with Ugaritic 𐎀𐎘𐎚 (ảṯt), Hebrew אִשָּׁה (isháh), Arabic أُنْثَى (ʔunṯā). In Old Aramaic the construct state is אשת (ʾšt), 
+- أقدمُ صورةٍ مستعادة: From Proto-Semitic *ʾanθ-at-. Cognate with Ugaritic 𐎀𐎘𐎚 (ảṯt), Hebrew אִשָּׁה (isháh), Arabic أُنْثَى (ʔunṯā). In Old Aramaic the construct state is אשת (ʾšt),
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي؛ لا تستخرج صوامت الجذر قبل السند الصرفي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية؛ لا نزول إلى حدث الحرف قبل استنفاد الأعلى.
 - مسار الجذر الكامل أولًا: لا مرشح جذر كامل مولد للصورة المحفوظة؛ لا يعد ذلك نفيًا.
