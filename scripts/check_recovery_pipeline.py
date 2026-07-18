@@ -13,6 +13,7 @@ from recovery_pipeline.candidates import ArabicInventory, generate_hits
 from recovery_pipeline.families import (
     build_families,
     clear_language_families,
+    family_review_queue,
     load_family_review_states,
     target_alternatives,
 )
@@ -125,6 +126,76 @@ def main() -> int:
             failures.append(f"profile {language} missing: {sorted(missing)}")
         if not isinstance(profile.get("family_max_lemma_count"), int) or profile.get("family_max_lemma_count", 0) < 1:
             failures.append(f"profile {language} has invalid family_max_lemma_count")
+
+    ranking_db = sqlite3.connect(":memory:")
+    ranking_db.executescript("""
+        CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+        CREATE TABLE families (
+            family_id TEXT PRIMARY KEY, language TEXT NOT NULL, anchor_entry_id TEXT NOT NULL,
+            anchor_headword TEXT NOT NULL, construction TEXT NOT NULL, member_count INTEGER NOT NULL,
+            lemma_count INTEGER NOT NULL, form_count INTEGER NOT NULL, nonlexical_count INTEGER NOT NULL,
+            candidate_bearing_member_count INTEGER NOT NULL
+        );
+        CREATE TABLE family_members (
+            entry_id TEXT PRIMARY KEY, family_id TEXT NOT NULL, role TEXT NOT NULL, link_types_json TEXT NOT NULL
+        );
+        CREATE TABLE entries (
+            entry_id TEXT PRIMARY KEY, language TEXT NOT NULL, processing_status TEXT NOT NULL,
+            source_stratum TEXT NOT NULL, source_scope_note TEXT NOT NULL, gloss TEXT NOT NULL
+        );
+        CREATE TABLE candidates (
+            entry_id TEXT NOT NULL, kind TEXT NOT NULL, status TEXT NOT NULL,
+            rule_ids_json TEXT NOT NULL, route_flag INTEGER NOT NULL
+        );
+    """)
+    ranking_db.execute(
+        "INSERT INTO meta VALUES ('family_metadata_version:aramaic','3')"
+    )
+    ranking_families = [
+        ("exact-rich", "exact-rich", "rich meaning | second sense", "root", "licensed", "[]", 0),
+        ("exact-sparse", "exact-sparse", "one", "root", "licensed", "[]", 0),
+        ("shifted-root", "shifted-root", "many detailed meanings", "root", "licensed", '["ROW-1"]', 0),
+        ("exact-nucleus", "exact-nucleus", "many more detailed meanings than any root", "nucleus", "licensed", "[]", 0),
+        ("route-root", "route-root", "route only", "root", "licensed", "[]", 1),
+    ]
+    for family_id, headword, gloss, kind, status, rule_ids, route_flag in ranking_families:
+        entry_id = f"entry-{family_id}"
+        ranking_db.execute(
+            "INSERT INTO families VALUES (?,?,?,?,?,?,?,?,?,?)",
+            (family_id, "aramaic", entry_id, headword, "singleton", 1, 1, 0, 0, 1),
+        )
+        ranking_db.execute(
+            "INSERT INTO family_members VALUES (?,?,?,?)",
+            (entry_id, family_id, "lemma", "[]"),
+        )
+        ranking_db.execute(
+            "INSERT INTO entries VALUES (?,?,?,?,?,?)",
+            (entry_id, "aramaic", "candidates-generated", "", "", gloss),
+        )
+        ranking_db.execute(
+            "INSERT INTO candidates VALUES (?,?,?,?,?)",
+            (entry_id, kind, status, rule_ids, route_flag),
+        )
+    ranked_ids = [
+        item["family_id"]
+        for item in family_review_queue(
+            ranking_db, "recovery", language="aramaic", limit=10, order="strength"
+        )
+    ]
+    if ranked_ids != [
+        "exact-rich", "exact-sparse", "shifted-root", "exact-nucleus", "route-root"
+    ]:
+        failures.append(f"family strength-order regression: {ranked_ids!r}")
+    ranked_basis = family_review_queue(
+        ranking_db, "recovery", language="aramaic", limit=1, order="strength"
+    )[0].get("strength_basis", {})
+    if (
+        ranked_basis.get("licensed_full_root") != 1
+        or ranked_basis.get("licensed_rule_count") != 0
+        or ranked_basis.get("ordering_only") is not True
+    ):
+        failures.append(f"family strength-basis regression: {ranked_basis!r}")
+    ranking_db.close()
 
     with tempfile.TemporaryDirectory() as directory:
         temp = Path(directory)

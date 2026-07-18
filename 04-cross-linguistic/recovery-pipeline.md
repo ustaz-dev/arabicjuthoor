@@ -88,6 +88,7 @@ python scripts/recovery_inventory.py verify
 python scripts/recovery_inventory.py query --language coptic --word "ϣⲛϥⲉ"
 python scripts/recovery_inventory.py candidates --entry-id "kellia_coptic_lexicon:C5966"
 python scripts/recovery_inventory.py family-queue --lens recovery --language coptic --processing-status floor-review-required
+python scripts/recovery_inventory.py family-queue --lens recovery --language aramaic --order strength
 python scripts/recovery_inventory.py family-card --family-id "FAMILY_ID"
 python scripts/generate_candidates.py "τρεῖς"
 python scripts/recovery_review.py queue --lens recovery --language coptic
@@ -103,6 +104,17 @@ python scripts/check_recovery_pipeline.py
 الأمر `upgrade-v2` مسار ترقية محلي لا يقبل إعادة استعمال المرشحين السابقين إلا إذا أثبت آليًا تطابق بصمة المصدر، وهوية كل مدخل وتطبيعه، ومجموعة معرّفات الوجهة، وشبكة الإبدالات المترجمة، ومخزون الجذور والنوى العربية. بعد ذلك يعيد قراءة المصدر كاملًا ويبني روابط الصيغ والأسر الجديدة. يحدّث المداخل المتطابقة في مكانها، ويمسح المرشحين وينسخهم ويعدهم بمرور خطي يقوده جدول المرشحين، ويطبع علامات مراحله الطويلة. أي اختلاف يوقف الترقية ويلزم إعادة البناء الكامل.
 
 الأمر `refresh-families` يعيد قراءة المصدر المثبت لتحديث الروابط النصية المعرّفة النوع فقط، ويثبت الهوية والبصمة قبل التعديل. لا يعيد المسح الصوتي الشامل؛ لكنه يعيد توليد المرشحات للمداخل المختلطة `form_of + alt_of` وحدها لأن النسخ الأقدم كانت تحجبها خطأً.
+
+### ترتيب القوة الاسترجاعي
+
+يقبل طابور الأسر `--order strength` لترتيب العمل البشري من غير إصدار قراءة أو
+حكم. يقدّم الأسرة التي لها مرشح جذر كامل مرخص لا يحتاج مسار قرض، ثم يقدّم
+المسار الذي يحتاج أقل عدد من صفوف الشبكة المرخصة. وعند التعادل يقدّم الأسرة
+ذات المعاني المصدرية الأغنى، مقيسة بعدد نصوص المعنى المختلفة ثم مجموع طولها
+في أعضاء اللمم وحدها. هذه قرائن ترتيب لا قياس صلة: لا تفحص الأداة التطابق
+الدلالي مع العربية، ولا تحول المرشح الصوتي إلى أثر، ولا تخفي المرشحات التي
+تحتاج مسار قرض. يطبع كل صف `strength_basis` بأرقام أساس الترتيب ووسم
+`ordering_only=true` كي لا يعاد استعمالها حكمًا.
 
 ## خط البرهان المقفول
 

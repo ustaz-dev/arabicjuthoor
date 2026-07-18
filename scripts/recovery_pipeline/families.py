@@ -590,7 +590,10 @@ def family_review_queue(
     language: str | None = None,
     processing_status: str | None = None,
     limit: int = 50,
+    order: str = "family-id",
 ) -> list[dict[str, Any]]:
+    if order not in {"family-id", "strength"}:
+        raise ValueError(f"Unsupported family queue order: {order}")
     queue_languages = [language] if language else [
         row[0] for row in connection.execute("SELECT DISTINCT language FROM families")
     ]
@@ -606,8 +609,58 @@ def family_review_queue(
                        "WHERE fm2.family_id=f.family_id AND e2.processing_status=?)")
         params.append(processing_status)
     where = " WHERE " + " AND ".join(clauses) if clauses else ""
+    strength_ctes = ""
+    strength_fields = ""
+    strength_joins = ""
+    strength_order = "f.language, f.family_id"
+    query_where = where
+    if order == "strength":
+        strength_ctes = (
+            "WITH target_families AS (SELECT f.family_id FROM families f" + where + "), "
+            "candidate_strength AS ("
+            "SELECT fm.family_id, "
+            "MAX(CASE WHEN c.kind='root' AND c.status='licensed' AND c.route_flag=0 THEN 1 ELSE 0 END) "
+            "AS licensed_full_root, "
+            "MIN(CASE WHEN c.kind='root' AND c.status='licensed' AND c.route_flag=0 "
+            "THEN json_array_length(c.rule_ids_json) END) AS licensed_root_rule_count, "
+            "MIN(CASE WHEN c.status='licensed' AND c.route_flag=0 "
+            "THEN json_array_length(c.rule_ids_json) END) AS licensed_any_rule_count, "
+            "SUM(CASE WHEN c.status='licensed' AND c.route_flag=1 THEN 1 ELSE 0 END) "
+            "AS route_required_candidate_count "
+            "FROM target_families tf JOIN family_members fm ON fm.family_id=tf.family_id "
+            "JOIN candidates c ON c.entry_id=fm.entry_id GROUP BY fm.family_id"
+            "), meaning_strength AS ("
+            "SELECT fm.family_id, "
+            "COUNT(DISTINCT CASE WHEN fm.role NOT IN ('form','nonlexical') AND TRIM(e.gloss)<>'' "
+            "THEN e.gloss END) AS meaning_gloss_count, "
+            "COALESCE(SUM(CASE WHEN fm.role NOT IN ('form','nonlexical') "
+            "THEN LENGTH(TRIM(e.gloss)) ELSE 0 END),0) AS meaning_text_chars "
+            "FROM target_families tf JOIN family_members fm ON fm.family_id=tf.family_id "
+            "JOIN entries e ON e.entry_id=fm.entry_id GROUP BY fm.family_id"
+            ") "
+        )
+        strength_fields = (
+            ", COALESCE(cs.licensed_full_root,0), "
+            "COALESCE(cs.licensed_root_rule_count,cs.licensed_any_rule_count), "
+            "COALESCE(ms.meaning_gloss_count,0), COALESCE(ms.meaning_text_chars,0), "
+            "COALESCE(cs.route_required_candidate_count,0)"
+        )
+        strength_joins = (
+            " JOIN target_families tf ON tf.family_id=f.family_id"
+            " LEFT JOIN candidate_strength cs ON cs.family_id=f.family_id"
+            " LEFT JOIN meaning_strength ms ON ms.family_id=f.family_id"
+        )
+        query_where = ""
+        strength_order = (
+            "COALESCE(cs.licensed_full_root,0) DESC, "
+            "CASE WHEN COALESCE(cs.licensed_root_rule_count,cs.licensed_any_rule_count) IS NULL "
+            "THEN 999 ELSE COALESCE(cs.licensed_root_rule_count,cs.licensed_any_rule_count) END ASC, "
+            "COALESCE(ms.meaning_gloss_count,0) DESC, COALESCE(ms.meaning_text_chars,0) DESC, "
+            "f.language, f.family_id"
+        )
     rows = connection.execute(
-        "SELECT f.family_id, f.language, f.anchor_headword, f.construction, f.member_count, f.lemma_count, "
+        strength_ctes
+        + "SELECT f.family_id, f.language, f.anchor_headword, f.construction, f.member_count, f.lemma_count, "
         "f.form_count, f.nonlexical_count, f.candidate_bearing_member_count, "
         "COALESCE((SELECT GROUP_CONCAT(DISTINCT e3.source_stratum) FROM family_members fm3 "
         "JOIN entries e3 ON e3.entry_id=fm3.entry_id WHERE fm3.family_id=f.family_id "
@@ -615,8 +668,9 @@ def family_review_queue(
         "COALESCE((SELECT MIN(e4.source_scope_note) FROM family_members fm4 "
         "JOIN entries e4 ON e4.entry_id=fm4.entry_id WHERE fm4.family_id=f.family_id "
         "AND e4.source_scope_note<>''), '') "
-        "FROM families f" + where
-        + " ORDER BY f.language, f.family_id LIMIT ?",
+        + strength_fields
+        + " FROM families f" + strength_joins + query_where
+        + " ORDER BY " + strength_order + " LIMIT ?",
         (*params, limit * 20),
     )
     result: list[dict[str, Any]] = []
@@ -625,13 +679,20 @@ def family_review_queue(
         "form_count", "nonlexical_count", "candidate_bearing_member_count",
         "source_strata", "source_scope_note",
     )
+    strength_metric_fields = (
+        "licensed_full_root", "licensed_rule_count", "meaning_gloss_count",
+        "meaning_text_chars", "route_required_candidate_count",
+    )
     for row in rows:
         state = states.get(row[0], {})
         missing = not state.get("recovery_review") if lens == "recovery" else (
             bool(state.get("recovery_review")) and not state.get("skeptical_review")
         )
         if missing:
-            item = dict(zip(fields, row))
+            item = dict(zip(fields, row[:len(fields)]))
+            if order == "strength":
+                item["strength_basis"] = dict(zip(strength_metric_fields, row[len(fields):]))
+                item["strength_basis"]["ordering_only"] = True
             item["review_status"] = state.get("status", "unreviewed")
             result.append(item)
         if len(result) >= limit:

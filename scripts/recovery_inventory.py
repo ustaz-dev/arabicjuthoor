@@ -79,6 +79,12 @@ def main() -> int:
     family_queue.add_argument("--language", choices=source_languages())
     family_queue.add_argument("--processing-status")
     family_queue.add_argument("--limit", type=int, default=50)
+    family_queue.add_argument(
+        "--order",
+        choices=("family-id", "strength"),
+        default="family-id",
+        help="Deterministic family-id order or retrieval-only strength order.",
+    )
 
     card = sub.add_parser("family-card", help="Inspect one family, its members, overrides, and unified candidates.")
     card.add_argument("--family-id", required=True)
@@ -148,7 +154,7 @@ def main() -> int:
         connection = connect(args.db, create=False)
         try:
             result = family_review_queue(
-                connection, args.lens, args.language, args.processing_status, args.limit
+                connection, args.lens, args.language, args.processing_status, args.limit, args.order
             )
             print(json.dumps(result, ensure_ascii=False, indent=2))
             return 0
