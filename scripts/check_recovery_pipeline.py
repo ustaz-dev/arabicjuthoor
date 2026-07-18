@@ -149,7 +149,7 @@ def main() -> int:
         );
     """)
     ranking_db.execute(
-        "INSERT INTO meta VALUES ('family_metadata_version:aramaic','3')"
+        "INSERT INTO meta VALUES ('family_metadata_version:aramaic','4')"
     )
     ranking_families = [
         ("exact-rich", "exact-rich", "rich meaning | second sense", "root", "licensed", "[]", 0),
@@ -485,9 +485,81 @@ def main() -> int:
                 ("degeret", "hebrew", "dēgeret", 1, 0, '["dēgō", "dēgerō"]', "[]", "[]", "[]", "dgrt", "form-pending-link", 0, "verb", "pending"),
             ],
         )
+        family_db.execute(
+            "ALTER TABLE entries ADD COLUMN variants_json TEXT NOT NULL DEFAULT '[]'"
+        )
+        family_db.execute(
+            "ALTER TABLE entries ADD COLUMN gloss TEXT NOT NULL DEFAULT ''"
+        )
+        family_db.executemany(
+            "INSERT INTO entries "
+            "(entry_id,language,headword,form_of,alternative_of,form_targets_json,"
+            "alternative_targets_json,derived_terms_json,related_terms_json,skeleton,"
+            "processing_status,candidate_count,pos,form_resolution_status,variants_json,gloss) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            [
+                (
+                    "butcher-m", "hebrew", "טבחא", 0, 0, "[]", "[]", "[]", "[]",
+                    "tbhq", "candidates-generated", 1, "noun", "not-form",
+                    '["טבחא", "טבחתא"]', "butcher",
+                ),
+                (
+                    "butcher-f", "hebrew", "טבחתא", 0, 0, "[]", "[]", "[]", "[]",
+                    "tbhtq", "candidates-generated", 1, "noun", "not-form",
+                    '["טבחתא", "טבחא"]', "butcher",
+                ),
+                (
+                    "father", "hebrew", "אבא", 0, 0, "[]", "[]", "[]", "[]",
+                    "qbq", "candidates-generated", 1, "noun", "not-form",
+                    '["אמא"]', "father",
+                ),
+                (
+                    "mother", "hebrew", "אמא", 0, 0, "[]", "[]", "[]", "[]",
+                    "qmq", "candidates-generated", 1, "noun", "not-form",
+                    '["אבא"]', "mother",
+                ),
+            ],
+        )
         report = build_families(family_db, "hebrew")
-        if report["family_members"] != 19:
+        if report["family_members"] != 23:
             failures.append("family membership regression: an entry disappeared")
+        variant_families = dict(family_db.execute(
+            "SELECT entry_id, family_id FROM family_members "
+            "WHERE entry_id IN ('butcher-m','butcher-f')"
+        ))
+        variant_links = family_db.execute(
+            "SELECT COUNT(*) FROM family_edges WHERE link_type='textual-variant' "
+            "AND left_entry_id IN ('butcher-m','butcher-f') "
+            "AND right_entry_id IN ('butcher-m','butcher-f')"
+        ).fetchone()[0]
+        if (
+            len(variant_families) != 2
+            or len(set(variant_families.values())) != 1
+            or variant_links != 1
+        ):
+            failures.append(
+                f"explicit head-variant family regression: "
+                f"{variant_families!r}, edges={variant_links}"
+            )
+        gloss_guard_families = dict(family_db.execute(
+            "SELECT entry_id, family_id FROM family_members "
+            "WHERE entry_id IN ('father','mother')"
+        ))
+        gloss_guard_edges = family_db.execute(
+            "SELECT COUNT(*) FROM family_edges "
+            "WHERE link_type='annotation-variant-gloss-textual-variant' "
+            "AND left_entry_id IN ('father','mother') "
+            "AND right_entry_id IN ('father','mother')"
+        ).fetchone()[0]
+        if (
+            len(gloss_guard_families) != 2
+            or len(set(gloss_guard_families.values())) != 2
+            or gloss_guard_edges != 1
+        ):
+            failures.append(
+                f"variant gloss guard regression: "
+                f"{gloss_guard_families!r}, edges={gloss_guard_edges}"
+            )
         linked = family_db.execute(
             "SELECT status, resolved_target_entry_id, match_method FROM form_links WHERE form_entry_id='form'"
         ).fetchone()
@@ -618,6 +690,12 @@ def main() -> int:
                 (str(index), "hebrew", f"lemma{index}", 0, 0, "[]", "[]", "[]", "[]", "hub", "candidate-search-complete-zero", 0, "noun", "not-form")
                 for index in range(3)
             ],
+        )
+        bound_db.execute(
+            "ALTER TABLE entries ADD COLUMN variants_json TEXT NOT NULL DEFAULT '[]'"
+        )
+        bound_db.execute(
+            "ALTER TABLE entries ADD COLUMN gloss TEXT NOT NULL DEFAULT ''"
         )
         try:
             build_families(bound_db, "hebrew", max_lemma_count=2)

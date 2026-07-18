@@ -10,10 +10,10 @@ from typing import Any
 
 from .candidates import ArabicInventory, CandidateHit, generate_hits
 from .families import (
-    FAMILY_METADATA_VERSION,
     build_families,
     clear_language_families,
     ensure_family_schema,
+    family_metadata_version,
     family_summary,
     install_family_review_overlay,
     load_family_review_states,
@@ -388,7 +388,7 @@ def build_language(
             connection.execute("INSERT OR REPLACE INTO meta VALUES ('schema_version', '5')")
             connection.execute(
                 "INSERT OR REPLACE INTO meta VALUES (?, ?)",
-                (f"family_metadata_version:{language}", FAMILY_METADATA_VERSION),
+                (f"family_metadata_version:{language}", family_metadata_version(language)),
             )
             processing_counts = dict(connection.execute(
                 "SELECT processing_status, COUNT(*) FROM entries WHERE language=? GROUP BY processing_status",
@@ -737,7 +737,7 @@ def upgrade_family_layer_from_v2(
             connection.execute("INSERT OR REPLACE INTO meta VALUES ('schema_version', '5')")
             connection.execute(
                 "INSERT OR REPLACE INTO meta VALUES (?, ?)",
-                (f"family_metadata_version:{language}", FAMILY_METADATA_VERSION),
+                (f"family_metadata_version:{language}", family_metadata_version(language)),
             )
             loan_hints = connection.execute(
                 "SELECT COALESCE(SUM(loan_hint), 0) FROM entries WHERE language=?", (language,)
@@ -920,7 +920,7 @@ def refresh_family_metadata(
             connection.execute("INSERT OR REPLACE INTO meta VALUES ('schema_version', '5')")
             connection.execute(
                 "INSERT OR REPLACE INTO meta VALUES (?, ?)",
-                (f"family_metadata_version:{language}", FAMILY_METADATA_VERSION),
+                (f"family_metadata_version:{language}", family_metadata_version(language)),
             )
             connection.execute(f"DROP TABLE {overlay}")
         return {
@@ -1027,7 +1027,7 @@ def verify_inventory(db_path: Path = DEFAULT_DB, root: Path = ROOT) -> dict[str,
             family_version = metadata.get(f"family_metadata_version:{language}")
             item["family_metadata_version"] = family_version
             item["family_max_lemma_count_allowed"] = family_limit
-            if family_version != FAMILY_METADATA_VERSION:
+            if family_version != family_metadata_version(language):
                 problems.append(f"{language}: typed family metadata has not been refreshed")
             if actual_entries != entries_seen:
                 problems.append(f"{language}: source count {entries_seen} != database count {actual_entries}")

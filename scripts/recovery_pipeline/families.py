@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[2]
 FAMILY_REVIEW_STATE = ROOT / "data" / "family-review-states.json"
 FAMILY_REVIEW_STATUSES = {"unreviewed", "reviewed", "loan-isolated", "suspended", "closed"}
 FAMILY_METADATA_VERSION = "3"
+EXPLICIT_VARIANT_LINK_LANGUAGES = {"aramaic", "hebrew"}
+EXPLICIT_VARIANT_LINK_VERSION = "4"
 DEFAULT_MAX_LEMMAS_PER_FAMILY = 256
 AFFIX_POS_MARKERS = (
     "affix", "combining_form", "infix", "interfix", "prefix", "suffix", "präfix",
@@ -149,6 +151,14 @@ def is_affix_entry(headword: str, pos: str) -> bool:
     )
 
 
+def family_metadata_version(language: str) -> str:
+    return (
+        EXPLICIT_VARIANT_LINK_VERSION
+        if language in EXPLICIT_VARIANT_LINK_LANGUAGES
+        else FAMILY_METADATA_VERSION
+    )
+
+
 def _review_event_is_complete(state: dict[str, Any], family_id: str) -> None:
     status = state.get("status", "")
     if status not in FAMILY_REVIEW_STATUSES:
@@ -203,12 +213,15 @@ def require_current_family_metadata(connection: sqlite3.Connection, languages: I
     ))
     stale = sorted(
         language for language in set(languages)
-        if metadata.get(f"family_metadata_version:{language}") != FAMILY_METADATA_VERSION
+        if metadata.get(f"family_metadata_version:{language}") != family_metadata_version(language)
     )
     if stale:
+        expected = ", ".join(
+            f"{language}={family_metadata_version(language)}" for language in stale
+        )
         raise RuntimeError(
             "Family cards are blocked until family metadata is refreshed at version "
-            f"{FAMILY_METADATA_VERSION}: {', '.join(stale)}"
+            f"{expected}"
         )
 
 
@@ -283,13 +296,15 @@ def build_families(
     clear_language_families(connection, language)
     rows = connection.execute(
         "SELECT entry_id, headword, form_of, alternative_of, form_targets_json, alternative_targets_json, "
-        "derived_terms_json, related_terms_json, "
-        "skeleton, processing_status, candidate_count, pos FROM entries WHERE language=? ORDER BY entry_id",
+        "derived_terms_json, related_terms_json, variants_json, "
+        "skeleton, processing_status, candidate_count, pos, gloss "
+        "FROM entries WHERE language=? ORDER BY entry_id",
         (language,),
     ).fetchall()
     fields = (
         "entry_id", "headword", "form_of", "alternative_of", "form_targets_json", "alternative_targets_json",
-        "derived_terms_json", "related_terms_json", "skeleton", "processing_status", "candidate_count", "pos",
+        "derived_terms_json", "related_terms_json", "variants_json",
+        "skeleton", "processing_status", "candidate_count", "pos", "gloss",
     )
     entries = [dict(zip(fields, row)) for row in rows]
     if not entries:
@@ -300,6 +315,7 @@ def build_families(
         entry["alternative_targets"] = tuple(json.loads(entry.pop("alternative_targets_json")))
         entry["derived_terms"] = tuple(json.loads(entry.pop("derived_terms_json")))
         entry["related_terms"] = tuple(json.loads(entry.pop("related_terms_json")))
+        entry["variants"] = tuple(json.loads(entry.pop("variants_json")))
         entry["form_of"] = bool(entry["form_of"])
         entry["alternative_of"] = bool(entry["alternative_of"])
         entry["nonlexical"] = entry["pos"] in {"character", "symbol", "punct"}
@@ -367,21 +383,53 @@ def build_families(
     for entry in entries:
         if (entry["form_of"] and not entry["alternative_of"]) or entry["nonlexical"]:
             continue
-        for relation_type, targets in (("derived", entry["derived_terms"]), ("related", entry["related_terms"])):
+        relation_groups = [
+            ("derived", entry["derived_terms"]),
+            ("related", entry["related_terms"]),
+        ]
+        if language in EXPLICIT_VARIANT_LINK_LANGUAGES:
+            relation_groups.append(("variant", entry["variants"]))
+        for relation_type, targets in relation_groups:
             for target in targets:
                 candidates, method = resolve(target, source_entry_id=entry["entry_id"])
                 candidates = [candidate for candidate in candidates if candidate != entry["entry_id"]]
                 status = "linked" if len(candidates) == 1 else "ambiguous-relation" if candidates else "outside-snapshot"
                 resolved = candidates[0] if status == "linked" else None
+                annotation_reason = ""
+                if resolved and relation_type == "variant":
+                    source_key = orthographic_key(entry["headword"])
+                    target_headword_key = orthographic_key(by_id[resolved]["headword"])
+                    target_variant_keys = {
+                        orthographic_key(item)
+                        for item in by_id[resolved]["variants"]
+                        if orthographic_key(item)
+                        and orthographic_key(item) != target_headword_key
+                    }
+                    source_gloss = " ".join(str(entry["gloss"] or "").casefold().split())
+                    target_gloss = " ".join(str(by_id[resolved]["gloss"] or "").casefold().split())
+                    if source_key not in target_variant_keys:
+                        annotation_reason = "variant-nonreciprocal"
+                    elif entry["pos"] != by_id[resolved]["pos"]:
+                        annotation_reason = "variant-pos"
+                    elif not source_gloss or source_gloss != target_gloss:
+                        annotation_reason = "variant-gloss"
+                    if annotation_reason:
+                        status = annotation_reason
                 relation_rows.append((
                     entry["entry_id"], target, relation_type, json.dumps(candidates, ensure_ascii=False),
                     resolved, status, method,
                 ))
                 if resolved:
-                    textual_entries.update((entry["entry_id"], resolved))
-                    resolved_relation_edges.append((
-                        entry["entry_id"], resolved, f"textual-{relation_type}", target,
-                    ))
+                    if annotation_reason:
+                        edge(
+                            entry["entry_id"], resolved, f"textual-{relation_type}", target,
+                            annotation_reason,
+                        )
+                    else:
+                        textual_entries.update((entry["entry_id"], resolved))
+                        resolved_relation_edges.append((
+                            entry["entry_id"], resolved, f"textual-{relation_type}", target,
+                        ))
 
     incoming_relation_sources: dict[str, set[str]] = defaultdict(set)
     for source, target, _, _ in resolved_relation_edges:
