@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 216,
+ "cards_total": 219,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -1787,6 +1787,42 @@
    ],
    "blocker_type": "LAW-GAP",
    "required": "سند منشور مسمى يقارن dmj بسامية ذات صامت مقابل للجيم العربية أو يثبت قيمة j المطلوبة",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "ḫfꜥ «to seize; to grasp؛ fist; grasp؛ fist-full»",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "قراءة مؤلفية معتمدة لجذر خفع الكامل أو قرار صريح باستبعاده بعد فحص مروحته المعجمية",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "ḏr.t «hand; handful as a measure» ↔ ذراع",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "تحليل مقارن منشور مسمى يبين هل ḏr.t المصرية وذرع العربية أسرة واحدة، وكيف يعامل تاء التأنيث المصرية والعين العربية",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "qḏm «handful؛ to grasp» ومسار Hoch السامي",
+   "verdict": "",
+   "closure": "SOURCE-GAP، مسار قرض معزول",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "صورة منشورة من Hoch رقم 446 تحدد اللفظ السامي المقارن واتجاه النقل، مع فحص رقم 452 للأسرة الفعلية قبل أي حكم",
    "row_mentions": []
   },
   {
