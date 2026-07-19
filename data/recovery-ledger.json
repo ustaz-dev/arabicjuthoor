@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3287,
+ "cards_total": 3294,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -36409,6 +36409,91 @@
    ],
    "blocker_type": "SOURCE-GAP",
    "required": "وسم طبقة أو نطاق زمني منشور في حقول المصدر المثبتة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح فعلي لمروحة معجمين عربيين قديمين للمرشحات الكاملة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:f3c48574859a97388fcc93f1`، בית، إعادة فحص الرتبة 1",
+   "verdict": "",
+   "closure": "SOURCE-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:ac01e2f82552b99de3c9469a`، גבר، إعادة فحص الرتبة 14",
+   "verdict": "",
+   "closure": "SOURCE-GAP",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إحالة توراتية أو مشناوية منشورة للعضو المقصود في حقول المصدر",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:cca23d51859c85c04ce00ee9`، פרש، الرتبة 12",
+   "verdict": "",
+   "closure": "LAW-GAP",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع عربي ف ↔ عبري פ في المقارنة السامية؛ DENT-02 وحده لا يكفي",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:a82503cfe12f4d29c4ca40c8`، נפש، الرتبة 46",
+   "verdict": "",
+   "closure": "LAW-GAP",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع عربي ف ↔ عبري פ؛ SIB-01 وحده لا يكفي",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:63705d0f8c6b4415b32f647e`، שטן، الرتبة 126",
+   "verdict": "",
+   "closure": "LAW-GAP",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع يفسر عبري שׂ في שטן مقابل عربي ش في شطن",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:1200ac1667de25d5f8e5063e`، נפח، الرتبة 143",
+   "verdict": "",
+   "closure": "LAW-GAP",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع عربي ف ↔ عبري פ؛ GUT-05 وحده لا يكفي",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:0e7e4b92ba78e6af64c86ce8`، בשר، الرتبة 199",
+   "verdict": "",
+   "closure": "LAW-GAP",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع لعبري שׂ مقابل عربي ش، أو تحليل سامي منشور يحسم الانعكاس",
    "row_mentions": []
   },
   {
