@@ -27,6 +27,7 @@ from recovery_pipeline.sources import (
     verify_source_pin,
 )
 from recovery_pipeline.proof import load_preregistration, require_execution_authority
+from export_egyptian_gap_cards import candidate_text, rank_window, sound_path_text
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,6 +36,35 @@ FIXTURES = ROOT / "scripts" / "recovery_pipeline" / "network-fixtures.json"
 
 def main() -> int:
     failures: list[str] = []
+    ranked_fixture = [
+        {"family_id": "egyptian:family:000000000000000000000001"},
+        {"family_id": "egyptian:family:000000000000000000000002"},
+        {"family_id": "egyptian:family:000000000000000000000003"},
+    ]
+    if [
+        item["family_id"] for item in rank_window(ranked_fixture, 2, 3)
+    ] != [
+        "egyptian:family:000000000000000000000002",
+        "egyptian:family:000000000000000000000003",
+    ]:
+        failures.append("Egyptian rank-window regression")
+    try:
+        rank_window(ranked_fixture, 3, 4)
+        failures.append("Egyptian rank-window accepted an incomplete range")
+    except ValueError:
+        pass
+    candidate_fixture = [{
+        "kind": "root",
+        "form": "كتب",
+        "reading": "test",
+        "status": "licensed",
+        "rule_ids": ["DENT-05"],
+        "route_required": False,
+    }]
+    if "DENT-05" not in candidate_text(candidate_fixture, {"root"}, 3):
+        failures.append("Egyptian candidate display lost retrieval provenance")
+    if "DENT-05" in sound_path_text() or "لا يذكر صف حكم" not in sound_path_text():
+        failures.append("Egyptian non-verdict sound path cites an unnecessary shift row")
     if target_alternatives("alpha+beta/gamma") != ("alpha", "beta", "gamma"):
         failures.append("family-target separator regression")
     rules = compile_network()
