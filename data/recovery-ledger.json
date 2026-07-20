@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3294,
+ "cards_total": 3310,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -21742,6 +21742,18 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "(إعادةُ توسيم): تصحيحٌ ذاتيٌّ من العدسةِ الثالثة، شرطٌ على أربعةِ أحكامٍ مودعة (",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "توقيع صف ف ↔ פ المعروض في ورقة قرار 2026-07-20",
+   "row_mentions": []
+  },
+  {
    "file": "04-cross-linguistic/readings/coptic.md",
    "card": "šnfe «scale (of fish)»، إعادةُ فتحٍ بعدَ مسحِ الجذر العربي",
    "verdict": "",
@@ -38431,6 +38443,18 @@
    ],
    "blocker_type": "SOURCE-GAP",
    "required": "وسم طبقة أو نطاق زمني منشور في حقول المصدر المثبتة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح فعلي لمروحة معجمين عربيين قديمين للمرشحات الكاملة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "(إعادةُ توسيم): المراجعةُ المضادّةُ الثالثةُ لجولةِ العبريّةِ الأولى (2026-07-20",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "توقيع صفي ف ↔ פ وش ↔ שׂ المعروضين في ورقة قرار 2026-07-20",
    "row_mentions": []
   },
   {
