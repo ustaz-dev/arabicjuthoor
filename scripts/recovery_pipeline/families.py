@@ -16,6 +16,7 @@ FAMILY_REVIEW_STATUSES = {"unreviewed", "reviewed", "loan-isolated", "suspended"
 FAMILY_METADATA_VERSION = "5"
 EXPLICIT_VARIANT_LINK_LANGUAGES = {"aramaic", "hebrew"}
 EXPLICIT_VARIANT_LINK_VERSION = "6"
+ARAMAIC_ZERO_STEP_FAMILY_VERSION = "7"
 DEFAULT_MAX_LEMMAS_PER_FAMILY = 256
 AFFIX_POS_MARKERS = (
     "affix", "combining_form", "infix", "interfix", "prefix", "suffix", "präfix",
@@ -152,11 +153,11 @@ def is_affix_entry(headword: str, pos: str) -> bool:
 
 
 def family_metadata_version(language: str) -> str:
-    return (
-        EXPLICIT_VARIANT_LINK_VERSION
-        if language in EXPLICIT_VARIANT_LINK_LANGUAGES
-        else FAMILY_METADATA_VERSION
-    )
+    if language == "aramaic":
+        return ARAMAIC_ZERO_STEP_FAMILY_VERSION
+    if language in EXPLICIT_VARIANT_LINK_LANGUAGES:
+        return EXPLICIT_VARIANT_LINK_VERSION
+    return FAMILY_METADATA_VERSION
 
 
 def _review_event_is_complete(state: dict[str, Any], family_id: str) -> None:
@@ -881,17 +882,21 @@ def family_card(connection: sqlite3.Connection, family_id: str, candidate_limit:
     members = []
     for member in connection.execute(
         "SELECT e.entry_id, e.headword, e.romanization, e.pos, e.gloss, e.processing_status, e.form_resolution_status, "
-        "e.loan_hint, e.source_stratum, e.source_scope_note, fm.role, fm.link_types_json "
+        "e.loan_hint, e.source_stratum, e.source_scope_note, fm.role, fm.link_types_json, "
+        "z.rule_id, z.surface_form, z.comparison_form, z.surface_skeleton, z.comparison_skeleton, z.sources_json "
         "FROM family_members fm JOIN entries e ON e.entry_id=fm.entry_id "
+        "LEFT JOIN zero_step_forms z ON z.entry_id=e.entry_id "
         "WHERE fm.family_id=? ORDER BY fm.role DESC, e.entry_id",
         (family_id,),
     ):
         item = dict(zip((
             "entry_id", "headword", "romanization", "pos", "gloss", "processing_status",
             "form_resolution_status", "loan_hint", "source_stratum", "source_scope_note",
-            "role", "link_types",
+            "role", "link_types", "zero_step_rule", "surface_form", "comparison_form",
+            "surface_skeleton", "comparison_skeleton", "zero_step_sources",
         ), member))
         item["link_types"] = json.loads(item["link_types"])
+        item["zero_step_sources"] = json.loads(item["zero_step_sources"] or "[]")
         override = payload["member_overrides"].get(item["entry_id"])
         item["review_inheritance"] = "member-override" if override else "family"
         item["effective_review"] = override or {"status": family["review_status"]}

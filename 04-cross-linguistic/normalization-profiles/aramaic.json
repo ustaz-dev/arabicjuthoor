@@ -1,5 +1,5 @@
 {
-  "profile_version": 1,
+  "profile_version": 2,
   "language": "aramaic",
   "label": "Aramaic",
   "family_max_lemma_count": 256,
@@ -9,6 +9,7 @@
     "path": "Resources/aramaic/kaikki.org-dictionary-Aramaic.jsonl"
   },
   "preferred_input": ["original"],
+  "preserve_script_letter_boundaries": true,
   "script_map": {
     "א": "qstop", "ב": "b", "ג": "g", "ד": "d", "ה": "h", "ו": "w", "ז": "z",
     "ח": "hh", "ט": "t", "י": "y", "כ": "k", "ך": "k", "ל": "l", "מ": "m",
@@ -38,8 +39,21 @@
   },
   "zero_step": {
     "entry_policy": "canonical lemma in Kaikki; state and inflection forms link to their named lemma family",
-    "automatic_affixes": [],
-    "note": "لا تُنزع علامة الحالة الآرامية ولا غيرها آليًا؛ الصورة تربط بلمتها المسماة في المصدر ثم تفحص الأسرة على درجة الجذر الكامل. حروف الآرامية الإمبراطورية والسريانية القليلة في اللقطة تطوى إلى نظائرها الكتابية المباشرة، ولا تعد هذه الخريطة قانون إبدال."
+    "automatic_affixes": [
+      {
+        "id": "ARAM-ZERO-01",
+        "label_ar": "ألف الحالة المؤكدة الآرامية",
+        "parts_of_speech": ["noun"],
+        "surface_suffix_characters": ["א", "𐡀", "ܐ"],
+        "protected_entry_ids": [],
+        "sources": [
+          "Rosenthal, A Grammar of Biblical Aramaic, nominal states",
+          "Muraoka and Porten, A Grammar of Egyptian Aramaic, nominal states",
+          "05-audits/2026-07-21-author-signed-aramaic-emphatic-aleph.md"
+        ]
+      }
+    ],
+    "note": "الاسم المنتهي بألف الحالة المؤكدة يجرب أيضًا بلا الألف قبل توليد المرشحات، وتبقى الصورتان مسجلتين. لا تنزع الألف من الفعل ولا من مدخل محمي يثبت مصدره أصالة الألف. حروف الآرامية الإمبراطورية والسريانية القليلة في اللقطة تطوى إلى نظائرها الكتابية المباشرة، ولا تعد هذه الخريطة قانون إبدال."
   },
   "relevant_branch_rules": ["BR-ARAM-01", "BR-ARAM-02", "BR-ARAM-03"]
 }

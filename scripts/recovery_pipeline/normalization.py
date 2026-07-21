@@ -8,6 +8,7 @@ from typing import Any
 
 
 PROFILE_DIR = Path(__file__).resolve().parents[2] / "04-cross-linguistic" / "normalization-profiles"
+TOKEN_BOUNDARY = "\ue000"
 
 
 @dataclass(frozen=True)
@@ -26,6 +27,18 @@ class NormalizedForm:
     @property
     def ok(self) -> bool:
         return bool(self.tokens) and not self.unknown
+
+
+@dataclass(frozen=True)
+class ZeroStepForm:
+    surface: str
+    comparison: str
+    rule_id: str
+    sources: tuple[str, ...]
+
+    @property
+    def applied(self) -> bool:
+        return bool(self.rule_id)
 
 
 def load_profile(language: str, profile_dir: Path = PROFILE_DIR) -> dict[str, Any]:
@@ -73,6 +86,12 @@ def _fold(text: str, profile: dict[str, Any]) -> tuple[str, tuple[str, ...]]:
         # NFD. Otherwise š/ṯ/ḫ/ḥ collapse to their unmarked base letters.
         if ch in script_map:
             folded.append(script_map[ch])
+            if profile.get("preserve_script_letter_boundaries"):
+                # A mapped script letter may itself expand to a digraph such
+                # as ש -> sh.  The private boundary keeps that digraph intact
+                # while preventing adjacent source letters, such as ד + ה,
+                # from being reparsed as the transcription digraph dh.
+                folded.append(TOKEN_BOUNDARY)
             index += 1
             continue
         for part in unicodedata.normalize("NFD", ch):
@@ -105,6 +124,9 @@ def normalize(text: str, profile: dict[str, Any], *, strict: bool = True) -> Nor
     index = 0
     while index < len(folded):
         ch = folded[index]
+        if ch == TOKEN_BOUNDARY:
+            index += 1
+            continue
         if ch in ignored or ch.isspace():
             index += 1
             continue
@@ -125,7 +147,7 @@ def normalize(text: str, profile: dict[str, Any], *, strict: bool = True) -> Nor
 
     result = NormalizedForm(
         source=text or "",
-        folded=folded,
+        folded=folded.replace(TOKEN_BOUNDARY, ""),
         tokens=tuple(tokens),
         unknown=tuple(unknown),
         ambiguities=ambiguities,
@@ -134,6 +156,44 @@ def normalize(text: str, profile: dict[str, Any], *, strict: bool = True) -> Nor
     if strict and result.unknown:
         raise ValueError(f"Unknown symbols for {profile['language']}: {', '.join(result.unknown)}")
     return result
+
+
+def apply_zero_step(
+    text: str,
+    pos: str,
+    profile: dict[str, Any],
+    *,
+    entry_id: str = "",
+) -> ZeroStepForm:
+    """Return a sourced, profile-declared comparison form without judging it.
+
+    The function only executes explicit automatic-affix policies.  It never
+    guesses a part of speech or removes an affix from an undeclared class.
+    """
+    surface = unicodedata.normalize("NFC", text or "")
+    policy = profile.get("zero_step", {})
+    for rule in policy.get("automatic_affixes", []):
+        allowed_pos = {str(value).casefold() for value in rule.get("parts_of_speech", [])}
+        if (pos or "").casefold() not in allowed_pos:
+            continue
+        if entry_id and entry_id in set(rule.get("protected_entry_ids", [])):
+            continue
+        suffixes = set(rule.get("surface_suffix_characters", []))
+        end = len(surface)
+        while end and unicodedata.combining(surface[end - 1]):
+            end -= 1
+        if not end or surface[end - 1] not in suffixes:
+            continue
+        comparison = surface[: end - 1]
+        if not comparison:
+            continue
+        return ZeroStepForm(
+            surface=surface,
+            comparison=comparison,
+            rule_id=str(rule["id"]),
+            sources=tuple(str(value) for value in rule.get("sources", [])),
+        )
+    return ZeroStepForm(surface=surface, comparison=surface, rule_id="", sources=())
 
 
 def select_form(

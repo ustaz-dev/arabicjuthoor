@@ -19,7 +19,7 @@ from recovery_pipeline.families import (
 )
 from recovery_pipeline.inventory import load_review_states
 from recovery_pipeline.network import compile_network, rules_by_id
-from recovery_pipeline.normalization import available_profiles, detect_language, load_profile, normalize
+from recovery_pipeline.normalization import apply_zero_step, available_profiles, detect_language, load_profile, normalize
 from recovery_pipeline.sources import (
     iter_aed_html_zip,
     iter_coptic_tei,
@@ -153,6 +153,16 @@ def main() -> int:
         result = normalize(value, load_profile(language))
         if result.tokens != tokens:
             failures.append(f"normalization {language} {value}: {result.tokens!r} != {tokens!r}")
+    aramaic_profile = load_profile("aramaic")
+    aramaic_surface = normalize("דהבא", aramaic_profile)
+    if aramaic_surface.tokens != ("d", "h", "b", "qstop"):
+        failures.append(f"Aramaic letter-boundary regression: {aramaic_surface.tokens!r}")
+    emphatic = apply_zero_step("דהבא", "noun", aramaic_profile)
+    if not emphatic.applied or emphatic.comparison != "דהב":
+        failures.append(f"Aramaic emphatic-aleph stripping failed: {emphatic!r}")
+    verb = apply_zero_step("קטלא", "verb", aramaic_profile)
+    if verb.applied or verb.comparison != "קטלא":
+        failures.append(f"Aramaic verb lost final aleph: {verb!r}")
     try:
         normalize("τ@", load_profile("ancient_greek"))
         failures.append("strict normalization accepted an unknown symbol")
@@ -160,6 +170,10 @@ def main() -> int:
         pass
 
     inventory = ArabicInventory.load()
+    dahab = normalize(emphatic.comparison, aramaic_profile)
+    dahab_hits, _ = generate_hits(dahab.tokens, "aramaic", rules, inventory)
+    if not any(hit.kind == "root" and hit.form == "ذهب" and hit.status == "licensed" for hit in dahab_hits):
+        failures.append("Aramaic emphatic-aleph regression: דהבא did not retrieve ذهب")
     greek = normalize("τρεῖς", load_profile("ancient_greek"))
     greek_hits, _ = generate_hits(greek.tokens, "ancient_greek", rules, inventory)
     if not any(hit.form == "ثر" and hit.status == "scope-gap" for hit in greek_hits):
@@ -222,7 +236,7 @@ def main() -> int:
         );
     """)
     ranking_db.execute(
-        "INSERT INTO meta VALUES ('family_metadata_version:aramaic','6')"
+        "INSERT INTO meta VALUES ('family_metadata_version:aramaic','7')"
     )
     ranking_families = [
         ("exact-rich", "exact-rich", "rich meaning | second sense", "root", "licensed", "[]", 0),

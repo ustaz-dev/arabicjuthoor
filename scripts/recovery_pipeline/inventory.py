@@ -19,7 +19,7 @@ from .families import (
     load_family_review_states,
 )
 from .network import ShiftRule, compile_network
-from .normalization import load_profile, select_form
+from .normalization import apply_zero_step, load_profile, normalize, select_form
 from .sources import iter_entries, source_path
 
 
@@ -83,6 +83,15 @@ CREATE TABLE IF NOT EXISTS entries (
 );
 CREATE INDEX IF NOT EXISTS entries_language_status ON entries(language, review_status, processing_status);
 CREATE INDEX IF NOT EXISTS entries_language_skeleton ON entries(language, skeleton);
+CREATE TABLE IF NOT EXISTS zero_step_forms (
+    entry_id TEXT PRIMARY KEY REFERENCES entries(entry_id) ON DELETE CASCADE,
+    rule_id TEXT NOT NULL,
+    surface_form TEXT NOT NULL,
+    comparison_form TEXT NOT NULL,
+    surface_skeleton TEXT NOT NULL,
+    comparison_skeleton TEXT NOT NULL,
+    sources_json TEXT NOT NULL
+);
 CREATE TABLE IF NOT EXISTS candidates (
     entry_id TEXT NOT NULL REFERENCES entries(entry_id) ON DELETE CASCADE,
     kind TEXT NOT NULL,
@@ -266,6 +275,14 @@ def build_language(
                 original, romanized, selected, selected_name = select_form(
                     entry.headword, entry.romanization, profile, strict=False
                 )
+                zero_step = apply_zero_step(
+                    entry.headword, entry.pos, profile, entry_id=entry.entry_id
+                )
+                comparison = (
+                    normalize(zero_step.comparison, profile, strict=False)
+                    if zero_step.applied and selected_name == "original"
+                    else selected
+                )
                 ambiguities = tuple(dict.fromkeys(original.ambiguities + romanized.ambiguities))
                 hits: list[CandidateHit] = []
                 unmapped: tuple[str, ...] = ()
@@ -277,20 +294,25 @@ def build_language(
                 elif pure_form:
                     processing = "form-pending-link"
                     morphology = "not-applicable-form"
-                elif selected.unknown:
+                elif comparison.unknown:
                     processing = "blocked-normalization"
                     morphology = "unknown"
-                elif not selected.tokens:
+                elif not comparison.tokens:
                     processing = "floor-review-required"
                     morphology = "not-applicable-consonant"
                 else:
-                    hits, unmapped = generate_hits(selected.tokens, language, rules, arabic)
+                    hits, unmapped = generate_hits(comparison.tokens, language, rules, arabic)
                     processing = (
                         "blocked-mapping" if unmapped
                         else "candidates-generated" if hits
                         else "candidate-search-complete-zero"
                     )
-                    morphology = "lemma-surface-ready" if len(selected.tokens) <= 3 else "morphology-review-required"
+                    morphology = (
+                        f"zero-step:{zero_step.rule_id}"
+                        if zero_step.applied
+                        else "lemma-surface-ready" if len(comparison.tokens) <= 3
+                        else "morphology-review-required"
+                    )
                 review = reviews.get(entry.entry_id, {})
                 review_status = review.get("status", "unreviewed")
                 blocker = str(review.get("blocker") or "")
@@ -332,8 +354,8 @@ def build_language(
                         selected_name,
                         original.skeleton,
                         romanized.skeleton,
-                        selected.skeleton,
-                        json.dumps(selected.tokens, ensure_ascii=False),
+                        comparison.skeleton,
+                        json.dumps(comparison.tokens, ensure_ascii=False),
                         json.dumps(original.unknown, ensure_ascii=False),
                         json.dumps(romanized.unknown, ensure_ascii=False),
                         json.dumps(ambiguities, ensure_ascii=False),
@@ -346,6 +368,20 @@ def build_language(
                         scope_gap_count,
                     ),
                 )
+                if zero_step.applied:
+                    connection.execute(
+                        "INSERT INTO zero_step_forms VALUES (?,?,?,?,?,?,?)",
+                        (
+                            entry.entry_id,
+                            zero_step.rule_id,
+                            zero_step.surface,
+                            zero_step.comparison,
+                            original.skeleton,
+                            comparison.skeleton,
+                            json.dumps(zero_step.sources, ensure_ascii=False),
+                        ),
+                    )
+                    counters["zero_step_forms"] += 1
                 if candidate_rows:
                     connection.executemany(
                         "INSERT INTO candidates VALUES (?, ?, ?, ?, ?, ?, ?)",
@@ -998,9 +1034,17 @@ def verify_inventory(db_path: Path = DEFAULT_DB, root: Path = ROOT) -> dict[str,
         metadata = dict(connection.execute("SELECT key, value FROM meta"))
         if metadata.get("schema_version") != "5":
             problems.append(f"unexpected schema version: {metadata.get('schema_version')!r}")
-        rule_count = connection.execute("SELECT COUNT(*) FROM network_rules").fetchone()[0]
-        if rule_count != 44:
-            problems.append(f"network rule count is {rule_count}, expected 44")
+        actual_rule_ids = {
+            row[0] for row in connection.execute("SELECT row_id FROM network_rules")
+        }
+        expected_rule_ids = {rule.row_id for rule in compile_network()}
+        rule_count = len(actual_rule_ids)
+        if actual_rule_ids != expected_rule_ids:
+            problems.append(
+                "inventory network differs from the compiled signed network: "
+                f"missing={sorted(expected_rule_ids - actual_rule_ids)}, "
+                f"extra={sorted(actual_rule_ids - expected_rule_ids)}"
+            )
         report["network_rules"] = rule_count
 
         source_rows = connection.execute(
