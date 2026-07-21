@@ -7,11 +7,27 @@
   "frozen_git_commit": "",
   "analysis_unit": "lexical-family",
   "population": {
-    "languages": [],
-    "source_snapshots": [],
-    "include_family_states": [],
-    "loan_exclusion_rule": "UNSPECIFIED",
-    "proper_name_rule": "UNSPECIFIED",
+    "languages": [
+      "aramaic",
+      "hebrew"
+    ],
+    "source_snapshots": [
+      {
+        "source_id": "kaikki_aramaic",
+        "path": "Resources/aramaic/kaikki.org-dictionary-Aramaic.jsonl",
+        "sha256": "fed644821789b2b8d780c3c18deae4f1cbca4c85a2aa3bbc8e2c71a797cccc49"
+      },
+      {
+        "source_id": "kaikki_hebrew",
+        "path": "Resources/hebrew/kaikki.org-dictionary-Hebrew.jsonl",
+        "sha256": "4faaa70b724d33e47830f1eb4fcb6294026790a01d5a81aa51cf2a599088fef7"
+      }
+    ],
+    "include_family_states": [
+      "complete-member-disposition"
+    ],
+    "loan_exclusion_rule": "exclude only the member or sense chain with a named, sourced borrowing route; an automatic hint alone does not exclude, and original members of a mixed family remain eligible",
+    "proper_name_rule": "exclude proper-name members from the primary analysis and retain them in a separate audit inventory; do not exclude lexical members merely because their structural family also contains a name",
     "nonlexical_rule": "exclude"
   },
   "human_judgment": {
@@ -19,8 +35,8 @@
       "recovery",
       "skeptical"
     ],
-    "semantic_match_rule": "UNSPECIFIED",
-    "member_veto_policy": "family result inherits unless an explicit member override rejects or suspends it"
+    "semantic_match_rule": "a positive match requires an old branch meaning and Arabic meanings from at least two independent old dictionaries to meet directly or through one explicitly named orbital step; both recovery and skeptical lenses must pass, with rejected homonyms and meanings recorded",
+    "member_veto_policy": "the member or named sense chain is the verdict unit; no verdict inherits across homonyms, compounds, derived members, or other family members"
   },
   "relation_degrees": [
     "root",
@@ -36,15 +52,24 @@
     ]
   },
   "chance_model": {
-    "algorithm": "UNSPECIFIED",
-    "preserved_properties": [],
-    "iterations": null,
-    "seed": null
+    "algorithm": "within each language and temporal stratum, derange foreign phonological bundles across semantic-family bundles with no fixed points; stratify by consonant length, repeated-consonant pattern, family-size bin, part-of-speech profile, and eligibility flags; regenerate candidates under the frozen network and blind the two human lenses to observed versus perturbed origin",
+    "preserved_properties": [
+      "language",
+      "temporal stratum",
+      "consonant count",
+      "repeated-consonant pattern",
+      "family-size bin",
+      "part-of-speech profile",
+      "loan and proper-name eligibility",
+      "member and sense-chain counts"
+    ],
+    "iterations": 1000,
+    "seed": 20260721
   },
   "comparison": {
     "primary_effect": "observed family rate minus perturbed-family chance rate",
-    "uncertainty_method": "UNSPECIFIED",
-    "multiple_comparison_rule": "UNSPECIFIED"
+    "uncertainty_method": "95% percentile interval from 10000 stratified family-cluster bootstrap resamples, plus the corrected one-sided permutation p-value (1 + null effects at least as large as observed) / (iterations + 1)",
+    "multiple_comparison_rule": "the pooled Semitic effect is the sole primary test; language-by-relation-degree analyses are secondary and use Holm correction"
   },
   "publication_gate": {
     "publish_inventory_counts": false,

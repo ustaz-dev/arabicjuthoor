@@ -40,6 +40,9 @@ jobs:
       - name: Recovery pipeline regressions
         run: python scripts/check_recovery_pipeline.py
 
+      - name: Hebrew temporal-witness inventory freshness
+        run: python scripts/extract_hebrew_temporal_witnesses.py --check
+
       - name: Cross-linguistic roster integrity
         run: python scripts/layer_2/check_rosters.py
 
