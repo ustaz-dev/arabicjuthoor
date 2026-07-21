@@ -43,6 +43,9 @@ jobs:
       - name: Hebrew temporal-witness inventory freshness
         run: python scripts/extract_hebrew_temporal_witnesses.py --check
 
+      - name: Recovery loan-route registry freshness
+        run: python scripts/build_recovery_loan_registry.py --check
+
       - name: Cross-linguistic roster integrity
         run: python scripts/layer_2/check_rosters.py
 

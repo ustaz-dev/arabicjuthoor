@@ -44,8 +44,31 @@
     "echo"
   ],
   "observed_metric": {
-    "numerator": "original reviewed families with a licensed candidate and a human semantic match",
+    "numerator": "original reviewed families with at least one confirmed member or sense-chain match carried by an internal lexical bridge; external typological parallels, cross-language loans, proper names, compounds inheriting only from a head, and structural-family co-membership are excluded from the primary numerator",
     "denominator": "all eligible reviewed original families",
+    "bridge_eligibility": {
+      "primary_include": "internal lexical bridges only: an inherited branch lexeme or sense chain compared directly with an Arabic lexical member under the signed sound network and the signed member-level verdict law",
+      "primary_exclude": [
+        "cross-language borrowing routes",
+        "proper-name bridges",
+        "compound-to-head inheritance",
+        "structural-family co-membership without a lexical relation",
+        "typological or sound-symbolic parallels without a licensed lexical bridge"
+      ],
+      "secondary_audit": "excluded bridge types remain in a separate descriptive audit and never enter the primary numerator"
+    },
+    "family_radiation_asymmetry": {
+      "unit": "each confirmed member or sense-chain pair",
+      "definition": "for each confirmed pair, count eligible same-family lexical continuations supported on the branch side and on the Arabic side after member vetoes; record the signed difference and the log ratio with a one-half continuity correction",
+      "stored_fields": [
+        "branch_supported_continuations",
+        "arabic_supported_continuations",
+        "signed_difference_branch_minus_arabic",
+        "log_ratio_branch_over_arabic"
+      ],
+      "primary_role": "diagnostic safeguard only; it does not add pairs to the primary numerator and is not a second primary test",
+      "purpose": "detect whether a positive rate is being driven by broad Arabic fan radiation or by one-sided family expansion rather than a balanced lexical bridge"
+    },
     "stratify_by": [
       "language",
       "relation_degree"
@@ -62,6 +85,15 @@
       "part-of-speech profile",
       "loan and proper-name eligibility",
       "member and sense-chain counts"
+    ],
+    "blind_semantic_fan_rule": "for every observed or perturbed control item, generate the Arabic two-dictionary fan before revealing whether the item is observed or perturbed; present identical source fields, ordering, truncation, and candidate counts to both human lenses; prohibit reuse of a fan annotated with observed/control identity or with a prior verdict",
+    "blindness_audit_fields": [
+      "fan_generation_commit",
+      "fan_source_ids",
+      "fan_content_sha256",
+      "presentation_template_version",
+      "randomized_item_id",
+      "unblinding_timestamp_after_both_verdicts"
     ],
     "iterations": 1000,
     "seed": 20260721

@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-07-21",
+  "status": "internal-retrieval-only",
+  "scope": "explicit LOANWORD verdict cards in the named reading files",
+  "non_inference_rule": "routes, directions, sources, and verdicts are copied only from the cards; missing fields remain empty",
+  "source_files": [
+    {
+      "path": "04-cross-linguistic/readings/ancient-greek.md",
+      "loan_card_blocks_sha256": "6af06b270812ceb20520395e19ff71bd4aab5a7de8267607ed67d961fd7d2b0e"
+    },
+    {
+      "path": "04-cross-linguistic/readings/aramaic.md",
+      "loan_card_blocks_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "04-cross-linguistic/readings/coptic.md",
+      "loan_card_blocks_sha256": "e8034eca9336abd55fef82008a30df8eb0325df62c72fb990c42779ef4920087"
+    },
+    {
+      "path": "04-cross-linguistic/readings/egyptian.md",
+      "loan_card_blocks_sha256": "5d27dabec003a61578d4b6aa70db3e713ef32c9cb62c660b5f12f95342873ad5"
+    },
+    {
+      "path": "04-cross-linguistic/readings/hebrew.md",
+      "loan_card_blocks_sha256": "953fad8897236c804129de343671035fb82690b3b21058ae23f84e8e598b4b92"
+    },
+    {
+      "path": "04-cross-linguistic/readings/old-latin.md",
+      "loan_card_blocks_sha256": "362f04e17faa5ce1531861f353b5446ad333e44613c57f08f0a1db3e763d647c"
+    }
+  ],
+  "entries_total": 11,
+  "entries": [
+    {
+      "registry_id": "loan-hebrew-001",
+      "language": "العبرية",
+      "card": "`hebrew:family:edb86d4744e08e9d68c24824`، חרס، حسم الموجة 1 للرتبة 84",
+      "lexeme": "חרס `khéres` «pottery, earthenware; clay, ceramics» [Kaikki Hebrew، السطر 6163]",
+      "route_as_recorded": "عزل مسار الاقتراض المنشور قبل المقارنة؛ لا يحول التطابق الصوتي أو الدلالي القرض إلى أثر نسب.",
+      "oldest_form_as_recorded": "From Hittite 𒂁 (ḫarši-, “a kind of rough pottery vessel”); in the Tanakhic passages it does not mean the material itself, but only a kind of vessel, which apparently derives from Asia Minor with the borrowing. Other Semitic languages have instead of this word a phono-semantic matching, under which are Classical Syriac ܚܶܙܦܳܐ (ḥezəp̄ā), Classical Syriac ܚܶܨܦܳܐ (ḥeṣəp̄ā, “piece of pottery”), whence Arabic خَزَف (ḵazaf), and Ge'ez ጻሕብ (ṣaḥb), ጻኅብ (ṣaḫb, “earthen vessel”).؛ الشاهد القديم: Tanach, Job [[s:he:T2709#ט_ז|9:7]], with translation of the New Revised Standard Version Updated Edition:؛ Tanach, Deuteronomy [[s:he:T0528#כח_כז|28:27]], with translation of the New Revised Standard Version Updated Edition:",
+      "named_sources_as_recorded": [
+        "[s:he:T2709#ט_ז|9:7",
+        "[s:he:T0528#כח_כז|28:27"
+      ],
+      "scope_note": "بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 8120
+    },
+    {
+      "registry_id": "loan-hebrew-002",
+      "language": "العبرية",
+      "card": "`hebrew:family:98a210e7f6a37d05b8ba6582`، גנז، حسم الموجة 1 للرتبة 97",
+      "lexeme": "גניזה `g'nizá` «archiving, storage, preservation, hiding» [Kaikki Hebrew، السطر 10656]",
+      "route_as_recorded": "عزل مسار الاقتراض المنشور قبل المقارنة؛ لا يحول التطابق الصوتي أو الدلالي القرض إلى أثر نسب.",
+      "oldest_form_as_recorded": "Borrowed from Old Persian [Term?] (/⁠*ganza-⁠/, “treasure, depository”), from Old Median *ganǰam. Compare Persian گنج (ganj) and Mandaic ࡂࡉࡍࡆࡀ (ginza). See also גְּנָזִים (g'nazím) and גִּזְבָּר (gizbár) (ultimately from Old Median *ganǰabarah).؛ الشاهد القديم: a. 217 C.E., Mishnah. Shabbat, section 16.1:؛ a. 500 C.E., Babylonian Talmud. Bava Metzi'a, 20b:",
+      "named_sources_as_recorded": [
+        "Term?"
+      ],
+      "scope_note": "بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 8142
+    },
+    {
+      "registry_id": "loan-hebrew-003",
+      "language": "العبرية",
+      "card": "`hebrew:family:4a900ea234a9fe3b66df46db`، שטר، حسم الموجة 1 للرتبة 203",
+      "lexeme": "שטר `shtar` «document, contract, banknote, writing, deed, bill» [Kaikki Hebrew، السطر 13321]",
+      "route_as_recorded": "عزل مسار الاقتراض المنشور قبل المقارنة؛ لا يحول التطابق الصوتي أو الدلالي القرض إلى أثر نسب.",
+      "oldest_form_as_recorded": "From Akkadian 𒊬 (šaṭārum, “written document”). Also borrowed into Arabic سَطْر (saṭr).؛ الشاهد القديم: Mishnah/Seder Nashim/Tractate Kiddushin/Chapter 1/1",
+      "named_sources_as_recorded": [],
+      "scope_note": "بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 8164
+    },
+    {
+      "registry_id": "loan-hebrew-004",
+      "language": "العبرية",
+      "card": "`hebrew:family:9455eef60a584bf43a52ea9d`، כור، حسم الموجة 1 للرتبة 208",
+      "lexeme": "כור `kur` «A furnace for melting metals.» [Kaikki Hebrew، السطر 4961]",
+      "route_as_recorded": "عزل مسار الاقتراض المنشور قبل المقارنة؛ لا يحول التطابق الصوتي أو الدلالي القرض إلى أثر نسب.",
+      "oldest_form_as_recorded": "Derived from Akkadian 𒆠𒉈 (/⁠kuru⁠/, “crucible, kiln, brazier; log, thick reed; short reed mat, collection of reeds”), likely coined from Sumerian 𒄥 (gur, “a bundle”), hence a place of burning bundles of firewood or tinder. Cognate with Aramaic כּוּרָא (kūrā), Classical Syriac ܟܘܪܐ (kūrā), Arabic كُور (kūr), and related to כִּירָה (kirá).؛ الشاهد القديم: Tanach, Ezekiel [[s:he:T1222#כב_כב|22:22]], with translation of the King James Version:؛ a. 217 C.E., Mishnah. Shabbat, section 8.4:",
+      "named_sources_as_recorded": [
+        "[s:he:T1222#כב_כב|22:22"
+      ],
+      "scope_note": "بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 8186
+    },
+    {
+      "registry_id": "loan-hebrew-005",
+      "language": "العبرية",
+      "card": "`hebrew:family:49d7f0c08f18557cee421a5e`، כפר، حسم الموجة 1 للرتبة 298",
+      "lexeme": "כפר `kfar` «village» [Kaikki Hebrew، السطر 2028]",
+      "route_as_recorded": "عزل مسار الاقتراض المنشور قبل المقارنة؛ لا يحول التطابق الصوتي أو الدلالي القرض إلى أثر نسب.",
+      "oldest_form_as_recorded": "(village): From Aramaic כַּפְרָא / ܟܰܦܪܳܐ (kap̄rā, “village, open town, unfortified town”), from Akkadian 𒅗𒀊𒊒 (kapru, “farm, village; a settlement outside of a city”), considered to be from the non-Akkadian “Mari language”, that is it is formed either in the unknown East Semitic or the unknown Amorite language spoken there. Compare Arabic كَفْر (kafr, “village”).؛ الشاهد القديم: Tanach, Joshua [[s:he:T0618#יח_כד|18:24]]:؛ Tanach, 1 Chronicles [[s:he:T25a27#כז_כה|27:25]]:؛ Tanach, Nehemiah [[s:he:T35b06#ו_ב|6:2]]:",
+      "named_sources_as_recorded": [
+        "[s:he:T0618#יח_כד|18:24",
+        "[s:he:T25a27#כז_כה|27:25",
+        "[s:he:T35b06#ו_ב|6:2"
+      ],
+      "scope_note": "بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 8208
+    },
+    {
+      "registry_id": "loan-coptic-001",
+      "language": "القبطية",
+      "card": "tōōbe «brick, adobe»",
+      "lexeme": "ⲧⲱⲱⲃⲉ tōōbe",
+      "route_as_recorded": "يعزل مسارا: القبطية إلى العربية المصرية [Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة]",
+      "oldest_form_as_recorded": "المصرية ḏb.t [TLA Lemma ID 183120؛ Erman & Grapow, Wb 5, 553.7-554.18: https://thesaurus-linguae-aegyptiae.de/lemma/183120]",
+      "named_sources_as_recorded": [
+        "Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة",
+        "TLA Lemma ID 183120؛ Erman & Grapow, Wb 5, 553.7-554.18: https://thesaurus-linguae-aegyptiae.de/lemma/183120",
+        "Crum, CD 398a؛ KELLIA C4084/C4085"
+      ],
+      "scope_note": "يحتفظ المسار بقيمته التاريخية، ولا يُخلط بموروث مستقل.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/coptic.md",
+      "source_line": 77
+    },
+    {
+      "registry_id": "loan-coptic-002",
+      "language": "القبطية",
+      "card": "apa «abbot (father); title of reverence»",
+      "lexeme": "ⲁⲡⲁ apa، وله وجه ⲁⲃⲃⲁ",
+      "route_as_recorded": "يعزل مسارا: سريانية إلى يونانية ἀββᾶς ثم إلى القبطية، كما يصرح حقل `<etym>`",
+      "oldest_form_as_recorded": "اليونانية ἀββᾶς، من السريانية بحسب مدخل KELLIA [KELLIA C164؛ Crum, CD 13ab]",
+      "named_sources_as_recorded": [
+        "KELLIA C164؛ Crum, CD 13ab",
+        "Crum, CD 13ab؛ KELLIA C164"
+      ],
+      "scope_note": "تشابه أب لا يتجاوز المسار المنشور.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/coptic.md",
+      "source_line": 91
+    },
+    {
+      "registry_id": "loan-old-latin-001",
+      "language": "اللاتينية القديمة",
+      "card": "calamus «reed; pen»",
+      "lexeme": "*calamus*",
+      "route_as_recorded": "يعزل مسارا: اللاتينية اقترضت من اليونانية κάλαμος [Kaikki Latin، مدخل `calamus`، `etymology_text`]",
+      "oldest_form_as_recorded": "اليونانية κάλαμος *kalamos* [Kaikki Latin، مدخل `calamus`، `etymology_text`]",
+      "named_sources_as_recorded": [
+        "Kaikki Latin، مدخل `calamus`، `etymology_text`",
+        "Kaikki Latin، مدخل `calamus`، `senses["
+      ],
+      "scope_note": "البطاقة تحكم طريق المدخل اللاتيني وحده؛ قرب العربية قلم يُذكر إغراءً معجميًّا ولا يُحسم اتجاهه بهذه البطاقة.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/old-latin.md",
+      "source_line": 175
+    },
+    {
+      "registry_id": "loan-egyptian-001",
+      "language": "المصرية",
+      "card": "ym «sea (Sem. loan word)»",
+      "lexeme": "ym",
+      "route_as_recorded": "يعزل مسارا: قرض سامي إلى المصرية، مصرَّح به نصًّا في TLA ومسنَد إلى Hoch",
+      "oldest_form_as_recorded": "ym [TLA Lemma ID 24730؛ Erman & Grapow, Wb 1, 78.11؛ Hoch, *Semitic Words in Egyptian Texts*, no. 52: https://thesaurus-linguae-aegyptiae.de/lemma/24730]",
+      "named_sources_as_recorded": [
+        "TLA Lemma ID 24730؛ Erman & Grapow, Wb 1, 78.11؛ Hoch, *Semitic Words in Egyptian Texts*, no. 52: https://thesaurus-linguae-aegyptiae.de/lemma/24730",
+        "TLA 24730"
+      ],
+      "scope_note": "جمال التطابق لا يتجاوز المصفاة.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/egyptian.md",
+      "source_line": 149
+    },
+    {
+      "registry_id": "loan-ancient-greek-001",
+      "language": "اليونانية القديمة",
+      "card": "kamēlos «camel»",
+      "lexeme": "κάμηλος *kamēlos*",
+      "route_as_recorded": "يعزل مسارا: المورد يصرح بأن اللفظ في النهاية من Proto-West Semitic *gamal-",
+      "oldest_form_as_recorded": "Proto-West Semitic *gamal- [Kaikki Ancient Greek، مدخل κάμηλος، `etymology_text`]",
+      "named_sources_as_recorded": [
+        "Kaikki Ancient Greek، مدخل κάμηλος، `etymology_text`",
+        "Kaikki Ancient Greek، مدخل κάμηλος، `senses["
+      ],
+      "scope_note": "قرب جمل هنا دليل مسار تاريخي منشور، لا ROOT-TRACE مستقل.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/ancient-greek.md",
+      "source_line": 103
+    },
+    {
+      "registry_id": "loan-ancient-greek-002",
+      "language": "اليونانية القديمة",
+      "card": "nomos «custom; law»",
+      "lexeme": "νόμος *nomos*",
+      "route_as_recorded": "يعزل مسارا: اليونانية → الآرامية נמוסא، وتُدرج العربية ناموس تحت مسار السليل الآرامي نفسه [Kaikki Ancient Greek، مدخل νόμος، `descendants`]",
+      "oldest_form_as_recorded": "νέμω *némō* + اللاحقة الاسمية `-ος` [Kaikki Ancient Greek، مدخل νόμος، `etymology_text`]",
+      "named_sources_as_recorded": [
+        "Kaikki Ancient Greek، مدخل νόμος، `descendants`",
+        "Kaikki Ancient Greek، مدخل νόμος، `etymology_text`",
+        "Kaikki Ancient Greek، مدخل νόμος، `senses["
+      ],
+      "scope_note": "التعرية تكشف الجذع اليوناني nom-/nem-، أمّا مسار الاقتراض فيتتبع صورة lemma الكاملة *nomos*؛ السين في ناموس جزء من صورة الدخيل لا جذر أصيل من الأداة.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/ancient-greek.md",
+      "source_line": 117
+    }
+  ]
+}
