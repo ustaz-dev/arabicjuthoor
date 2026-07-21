@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3571,
+ "cards_total": 3588,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -22998,6 +22998,31 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "(إعادةُ توسيم): زوالُ الشرطِ عن الأحكامِ الأربعةِ بتوقيعِ الصفّ (2026-07-20)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "TOOL-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "(إعادةُ توسيم): إعادةُ فتحِ عضوِ «القرية» في حكمِ כפר المودع (2026-07-21)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "فحص مسار كفر القرية في Fraenkel قبل إعادة الحكم على هذا العضو",
+   "row_mentions": []
+  },
+  {
    "file": "04-cross-linguistic/readings/coptic.md",
    "card": "šnfe «scale (of fish)»، إعادةُ فتحٍ بعدَ مسحِ الجذر العربي",
    "verdict": "",
@@ -39735,6 +39760,20 @@
    ],
    "blocker_type": "TOOL-GAP",
    "required": "مدخل لسان العرب لمادة عين من الأداة المثبتة",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:49d7f0c08f18557cee421a5e`، כפר، حسم الموجة 1 للرتبة 298",
+   "verdict": "LOANWORD للنطاق الآتي: اسم القرية القديم وحده؛ غي",
+   "closure": "READY.",
+   "gaps": [
+    "TOOL-GAP",
+    "SOURCE-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "READY",
+   "required": "المراجعة المضادة الثالثة قبل الإيداع",
    "row_mentions": []
   },
   {
