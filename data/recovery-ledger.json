@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3321,
+ "cards_total": 3571,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -27,6 +27,1250 @@
    "row_mentions": [
     "BR-GREC-01"
    ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "(إعادةُ توسيم): المراجعةُ المضادّةُ الثالثةُ لإعادةِ قراءةِ treîs (2026-07-18)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": [
+    "BR-GREC-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:de1dcc0a363967be78c9a7c2`، κιέλλη (الرتبة 1)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:7c63c3d8952edd0112fc3932`، οἶνοψ (الرتبة 2)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:45f12f92599e094b9f36753d`، πρῶτ' (الرتبة 3)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:7edd71373ddcd23bdf6d704a`، φύσας (الرتبة 4)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:853106d7a7dd29bef37d02c3`، κόππα (الرتبة 5)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:92c27f4ad64a9b8b6f20eab0`، ὑπέρα (الرتبة 6)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:70413a23a4f96fc4b585d44d`، γίνεται (الرتبة 7)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:b1fc662369ccbcb2e49e238b`، ἔλπος (الرتبة 8)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:a2ccc5c013ed9746dfa615be`، βίρρη (الرتبة 9)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:256cfc665bb6a8220e911e40`، φύσας (الرتبة 10)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:38ff5447a9b9cde825a09db1`، πελίκη (الرتبة 11)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:162042ef5051edd00ca6e8b1`، κρίνω (الرتبة 12)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:a13dc06ec0cbf1593cb15edc`، ὄχανον (الرتبة 13)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:1b6b6a9c247d49589f681e6f`، ἔγειρεν (الرتبة 14)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:09ab5970f09efb861f86bedb`، Κάβειροι (الرتبة 15)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:efe0c7d58d6db0491a34e6df`، παυέσκου (الرتبة 16)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:55034e889d9e0d11e4c6fb3e`، ματτύη (الرتبة 17)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:fc6f967702d0bbf7e6fdb639`، κοινωνέω (الرتبة 18)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:1ac044206d50d9d9aae0a279`، καίριος (الرتبة 19)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:5fbd422f97047ff30a8dcb9e`، κάδουσα (الرتبة 20)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:b1c73330bd9fc86b04d46961`، ἰσηγορία (الرتبة 21)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:423fb524905f465bbebbb50c`، ἄξιος (الرتبة 22)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:ec95015f869c2d21674b5b58`، ἔτυμον (الرتبة 23)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:c0ea3bac7eb798960336bb66`، ὀβολός (الرتبة 24)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:5bb4e39c12880bb7e33cdd3f`، ἔτεμεν (الرتبة 25)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:036221e523caa260c084e735`، σωτήρ (الرتبة 26)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:7abbdf4e016b08ec0a90ed1f`، ἔχιδνα (الرتبة 27)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:53b949c1be824a822d4f4e6c`، ζέλκια (الرتبة 28)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:ece896f1099d91ab70c58678`، ἥρως (الرتبة 29)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:5c0b60f146bec1a07addc162`، οἴεσθε (الرتبة 30)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:2f01f1f0dfe72f248afc9de4`، ἀγείρωμαι (الرتبة 31)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:0ede4dfec92512178cac460d`، ἀγείρηται (الرتبة 32)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:bac67378534e5b77653e20a8`، ἐξερέω (الرتبة 33)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:b9189ecd431ffbb8390bbd2d`، λάμος (الرتبة 34)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:cabef27ed6716639648dd8c4`، χῶσις (الرتبة 35)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:5a9766c28899c854fabc2238`، ἀγγείλω (الرتبة 36)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:8550b56cb96ee77af96b0e9d`، γιλός (الرتبة 37)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:d2b486f7ae5b97ec3c394efa`، νηστεία (الرتبة 38)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:c23e2a5ff5fb9b45eeea45c3`، ποσός (الرتبة 39)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:d9261691b373c51d344dbacb`، σῖγμα (الرتبة 40)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:a23f84d7a28a09c9d0dda4d5`، ἀστήρ (الرتبة 41)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:b4637fee1bba64382f1f1f69`، ὡραῖος (الرتبة 42)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:e8209387c4f437ce9a527855`، ἀγαπάετε (الرتبة 43)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:56c1a68016a2aae078bb28a0`، τρέφω (الرتبة 44)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:82fe9fa5562dc4568be05fdb`، Δρυάς (الرتبة 45)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:7371f3366e441d15c0d2b609`، ἀγείρῃς (الرتبة 46)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:09cd83788b241afe63bdb46b`، ἀξιοῦτε (الرتبة 47)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:d874d09e699bc0f1656e5bd6`، βᾶρις (الرتبة 48)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:795cc233e1794392a4690262`، χαίρετε (الرتبة 49)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:8eb0a3d9fe6cb746100b1a31`، ἐσχατιή (الرتبة 50)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:ae82a9483fdccbfbcd58837a`، βαγαῖος (الرتبة 51)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:acc68c91d3fac6bfc666b81d`، πιστεύω (الرتبة 52)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:d928a7223faa3cf6284b0834`، οἴκτρ' (الرتبة 53)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:1dfbd85b21373da7cec172ac`، μουσική (الرتبة 54)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:5c62f195d057a431afcff3e2`، λείπεται (الرتبة 55)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:6de607bc7307463006dd786b`، Πηλιάς (الرتبة 56)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:24951a3da3dca4b346d97439`، κλαίομαι (الرتبة 57)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:98e127c2f66a49d3e5eea2e7`، ἄπειρος (الرتبة 58)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:2a325e083cd2d16fcb28e64a`، λέγετε (الرتبة 59)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:799a47e3ef83f99c6131b6ac`، ἄκρος (الرتبة 60)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:fc8e26e9660832bd58e09908`، σφήν (الرتبة 61)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:910ee4d0e65f8873812b4205`، Σάτραι (الرتبة 62)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:40c793963c45aa08682cbf05`، ἀφύσσω (الرتبة 63)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:6a5fefa22596c3e8c7803d42`، εἴπετον (الرتبة 64)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:534b9ce97e50de735c3b80c2`، γονής (الرتبة 65)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:80dd7339297a30ba829f2fda`، κέρδεα (الرتبة 66)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:6b36dce2195a170cba75edda`، βρῶμα (الرتبة 67)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:5b180073512ed3cb9af39bc1`، γόμος (الرتبة 68)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:5cbed3c6099bfd6961bde9b5`، ἀκρασία (الرتبة 69)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:8006dbb8f43c94960c5402d9`، ἔγχεα (الرتبة 70)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:edab70c884d5a9a64ad0646b`، κοῦρμι (الرتبة 71)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:9534f0db68805568cc238e40`، πάλλω (الرتبة 72)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:159fcd5da212224e725cf1f0`، σκύβα (الرتبة 73)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:285e4772ce640c1be3ed1b67`، Ἀμαζών (الرتبة 74)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:01497de557f1ae107654f526`، ἀρτάβη (الرتبة 75)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:68112977e7764fc983c9fa70`، λῆδον (الرتبة 76)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:47c677b8cb1b39b81bec1ed4`، ζουλάπι (الرتبة 77)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:362be1f947ccc194e2b841ad`، ψιλή (الرتبة 78)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:03f855863c552a993c6d67c3`، συρρέω (الرتبة 79)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:ee0ca316c01e40749d3f8f78`، ἀκιρός (الرتبة 80)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:e3e666cfaf8c02b5a014e543`، ἅρπη (الرتبة 81)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:b45ddb7d2a05d7b5c92ac185`، ἀλάβης (الرتبة 82)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:875d04aab373d6f654e01012`، Σίνδοι (الرتبة 83)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:4b12cda13be3d3a4c543e457`، γνυφαί (الرتبة 84)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:ecc60e80b7a9ba9a556e9544`، πορθέω (الرتبة 85)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:0a05900d2ec062cbadaa20fa`، ὑμεῖς (الرتبة 86)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:d0b736a72fc4cc813f576981`، ἄγγος (الرتبة 87)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:32fb5ddc1ea988b360d42438`، ἀρηβώς (الرتبة 88)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:0cb950a48bca4d2729ff0532`، εὔπορος (الرتبة 89)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:52e3b37b92043360732a5533`، σημύδα (الرتبة 90)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:7aa14f44721e4009ff6cd780`، σάττα (الرتبة 91)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:98c38c53ff6df0c6473a5dba`، ἵγγια (الرتبة 92)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:a1d0f06bc164bdec8f3a38a3`، ἐπιούσιος (الرتبة 93)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:d2abd600424b7a58a3e7eedb`، καδμεία (الرتبة 94)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:8463771445ded538526b2155`، αὐτάρκεια (الرتبة 95)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:bb66307d372ef8aebe3a3ca4`، σκύτη (الرتبة 96)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:a67e236acb1ef9c95fab724e`، ἦνοψ (الرتبة 97)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:011b54106f8619fad4eab955`، Καβάλιοι (الرتبة 98)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:f242506e2e553faab95efb2d`، ὅμοιος (الرتبة 99)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`ancient_greek:family:adc1ec035adef4e10c23de3f`، ὅσος (الرتبة 100)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
   },
   {
    "file": "04-cross-linguistic/readings/aramaic.md",
@@ -38499,10 +39743,1883 @@
    "verdict": "",
    "closure": "MORPHOLOGY-GAP (السطحُ m-r يطابقُ مُرّ والمعنى مطابقٌ تمامًا؛ الموقِفُ الوحيدُ تفسيرُ الراءِ في الصورةِ الهندوأوروبيّةِ المنقولة، فهو تعليقٌ صرفيٌّ لا نفيٌ تاريخيّ)",
    "gaps": [
+    "TOOL-GAP",
     "MORPHOLOGY-GAP"
    ],
    "blocker_type": "MORPHOLOGY-GAP",
    "required": "تفسير صرفي منشور لظهور الراء في الصورة الهندوأوروبية",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:f63a1822e0e999cd34c1043e`، placeo (الرتبة 1)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:c8445dafc56045c262d5e2bc`، aspicio (الرتبة 2)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:6f585e9c91ff1747e92b6112`، infula (الرتبة 3)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:594e3c02b136002997dca420`، cereus (الرتبة 4)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:40b4de961c75f9d1dae46cfc`، parvi (الرتبة 5)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:727533340a4c36ac2d7183c4`، trabea (الرتبة 6)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:c28808be90285abb60556583`، satura (الرتبة 7)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:ece0bb3f077e03706ae5ab7e`، virgo (الرتبة 8)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:bcb8d5bbd1041049bed41199`، gens (الرتبة 9)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:448a80fd6b4ce343826072de`، patera (الرتبة 10)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:8ad189a5413a03b91a0bba34`، iugerum (الرتبة 11)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:b3d5144239811132b2d78233`، expio (الرتبة 12)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e842dc21f744457249a60b8e`، genius (الرتبة 13)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:d9dc004facecbad5ff25a3ce`، turba (الرتبة 14)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:21cd4251687aa32619e2098d`، scauria (الرتبة 15)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:f93159838cf0c3d217f5868b`، biiugus (الرتبة 16)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:5297feba9365487f60fa946a`، tenor (الرتبة 17)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:f6d5581c29695b55e84080f9`، apiarium (الرتبة 18)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:1de5942fa3618bae617a5fac`، levito (الرتبة 19)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:db1b7a8ad1fd565b72efef85`، acetaria (الرتبة 20)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:259e94f6bd0e62017d7ab780`، sacer (الرتبة 21)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:ed580547e63b98f07f708bc9`، exuvia (الرتبة 22)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:1fd549ffeccdf2a61656629c`، ancile (الرتبة 23)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:00c7f984fb4dab51be3e9314`، auguratio (الرتبة 24)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:8e1263e3d7f2d00096b34fae`، mille (الرتبة 25)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:65dd6024672574c96014e26f`، obrogo (الرتبة 26)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:a18849e0d7fea070fd43b398`، quor (الرتبة 27)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:b7b8962dbea80bb38406ee00`، dimoveo (الرتبة 28)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:8fb0148327a54789cf027fab`، triarii (الرتبة 29)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:ab46ae96aa8e8c67be2ea1d6`، usurpo (الرتبة 30)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:d44cffca6ed4200fbcffc156`، acroama (الرتبة 31)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:c4eab4c6d1fe1e8dde31b6ae`، sacro (الرتبة 32)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:4c74678d979b0ad88a3a4650`، eximii (الرتبة 33)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:0a68f7f5afbd1737b149ab62`، infero (الرتبة 34)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:0e73456b70e73a81d8440cc2`، quomo (الرتبة 35)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:50f9cfccfbdb184874492cc9`، spionia (الرتبة 36)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:46a38109b4092d5f4da04f26`، capsa (الرتبة 37)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:56b67d225dd0d844211a524a`، aurigena (الرتبة 38)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:cf0c92de62722b8803fc3fd4`، rotula (الرتبة 39)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:548445c3b7cb7d69c73d686a`، palla (الرتبة 40)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:841eb2e2dc2ba31e428c7005`، argala (الرتبة 41)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e1f00dd31c63b486797dd7e6`، odiosus (الرتبة 42)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:9767aedd51f8c2ba0524dc5d`، piger (الرتبة 43)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:aed2c29a7dd10ccc803b5858`، onycha (الرتبة 44)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e24d059f5db9efb91b1c67f1`، inger (الرتبة 45)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:01a32e13d802cade8a6ba2a2`، Deipara (الرتبة 46)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:25934a40676bfe1cc38bc2a3`، TRP (الرتبة 47)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:0692b5dd238aa6c772f04605`، tuber (الرتبة 48)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:a2902102bf02042950c4f5c5`، candeo (الرتبة 49)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:c071278d541225b704166a95`، proicio (الرتبة 50)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:13c6caee1e5c7f9b2660cfba`، abolla (الرتبة 51)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:847a2e44cb8f897c7687b37a`، devenio (الرتبة 52)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e416338e995008f22e585331`، admoveo (الرتبة 53)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e8256fced752360e3913a23e`، ph. sc. (الرتبة 54)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:bbb7009e0127b5cc3dca6989`، pomum (الرتبة 55)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:0c6fe2f371266597ca4deb26`، desaevio (الرتبة 56)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:d34d99b839d36bfc3bbeeab1`، quam (الرتبة 57)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:89acb9b63e137e5ec507b72a`، pigacia (الرتبة 58)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:ed183a4e32888b6271a213cf`، donec (الرتبة 59)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:a55810be3500095ac3e44ece`، lemma (الرتبة 60)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:560d738a572e1174bafbb465`، traha (الرتبة 61)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:83aa82ab5f0d7b5b72ca8876`، spina (الرتبة 62)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:9b8358b82ecb870546fd47b5`، quin (الرتبة 63)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:01bbfa57687fd5ca8255adf5`، trado (الرتبة 64)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:5092a5ff29dc2ff8e91bdd42`، cadmia (الرتبة 65)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:3439def782180d4c2bbaa5cf`، argus (الرتبة 66)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:8d6c338337c5e580006035d4`، burdo (الرتبة 67)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:437ebfbefc03abd4fe1b15a4`، vagus (الرتبة 68)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:7fd42b823c092c1142fa9b5b`، orcina (الرتبة 69)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:c091af47e552f852d8e761d2`، libido (الرتبة 70)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:052fbc279e8c360a0a78ed25`، barca (الرتبة 71)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:7bc368c09f9ab4676877ee2d`، cuias (الرتبة 72)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:9593973c92aae88a077f15dd`، socera (الرتبة 73)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:efc5fa5dedbb7d18d71e8b72`، baris (الرتبة 74)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:11f90b4b3cfce2d5b8085af9`، incido (الرتبة 75)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:c6b45c289bafd0a885c85109`، repauso (الرتبة 76)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:089563fff45c24ff50dd6722`، pudor (الرتبة 77)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:5bf7ab5f26c427b37c743913`، comma (الرتبة 78)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:1395cb1964e8b9cbdcba1109`، exta (الرتبة 79)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:2e6d9fd96e26a7ae82037d47`، spolio (الرتبة 80)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e7b6c1d244925777ea163800`، redamo (الرتبة 81)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:f0c9644fed1965cafb7fdf40`، oscen (الرتبة 82)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:ffe80734fb7d36a4d737a1d6`، ceraunia (الرتبة 83)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:9cada63280ec231f3af1bc83`، nidor (الرتبة 84)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:64acaf576ffb90ccab4e2c6c`، curo (الرتبة 85)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:0288f9b174dee60dec577d7d`، copta (الرتبة 86)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:ee03dfb93e5ff3347f1d090d`، peritia (الرتبة 87)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:7c0e209f41766a50d1720468`، usucapio (الرتبة 88)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:c05e48f4d3cf26dd27155e73`، astutia (الرتبة 89)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:9b2f915ceda5eeb8c1e7dd9c`، cedes (الرتبة 90)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:390acc2dafd8e351f564d9e6`، sagma (الرتبة 91)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:d05533938263c4c3132e157f`، Herous (الرتبة 92)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:56478948f999bc2302cb7b17`، cenit (الرتبة 93)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:259710fa916dd2a6d9e4f747`، acediare (الرتبة 94)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:1ed533ab025f72d306fb50d2`، aporiare (الرتبة 95)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:4c7531d59ca5252426508d22`، obtuere (الرتبة 96)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:ab0908eeea1b91b68f092c10`، aborire (الرتبة 97)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:740c727fbe5b5ba74349e0ac`، emorere (الرتبة 98)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:62339a9fb14d79a403f36969`، adorire (الرتبة 99)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:fc2d7fa23fc77d93cf2c484d`، coorire (الرتبة 100)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:ddd7d14ee93c17148852be2c`، praees (الرتبة 101)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:24ab7e1d159b8e572a6edb3a`، emetire (الرتبة 102)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:b4d0feb759ac035d1ef6a20d`، reapse (الرتبة 103)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e74d76f9c8f14f97ba70067d`، solutio (الرتبة 104)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e9d1582caffd31dfe9133add`، suaviare (الرتبة 105)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:f85fec9259ab641621255e36`، gabata (الرتبة 106)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:858b4c03fd92845558d5961b`، cardo (الرتبة 107)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:3f786657d9f0d5d5eabbaf6c`، fatere (الرتبة 108)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:d47f965dd2f7258035f6efe7`، pello (الرتبة 109)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:8fa3d4b212d2468143d788e8`، lebes (الرتبة 110)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e3af859cb322d1e21ea74e6d`، bucca (الرتبة 111)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:c27da23fd06a6f130a01ab42`، potire (الرتبة 112)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:476d74419dc9136f1985cdb0`، usitare (الرتبة 113)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e43a4da84b7f3db726e53295`، coutere (الرتبة 114)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:a4b39bb3e021b2621435f57b`، causare (الرتبة 115)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:5e6ac7e5d04e57e2db7e8bd5`، feriare (الرتبة 116)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:427032b4fc7636de9b6d2aff`، iurgium (الرتبة 117)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:480b7ad6c7edf104b7bcf090`، vagare (الرتبة 118)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:182bdda5451b92572160c5d5`، nugare (الرتبة 119)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:c183a6f63e7e3e7ebf31fc1e`، infodio (الرتبة 120)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e8d7acfbd60562f75932a086`، scite (الرتبة 121)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:68c9759aa46b3d0699500eb3`، parce (الرتبة 122)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:a51b5822b4affc1d0a3ad892`، oribata (الرتبة 123)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:1b8f24714e0bfa78447c3ee4`، supero (الرتبة 124)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:322b87a5505c61cbcbf1c5ad`، dirigo (الرتبة 125)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:0e1a31087a753c9f3822672d`، conatio (الرتبة 126)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:ace048ba6e563cb2d0f87f74`، lasso (الرتبة 127)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:07a111be9dc1682d14a391a5`، sub Iove (الرتبة 128)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:1062f5d5e466ec74f8e181e6`، eieramini (الرتبة 129)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:cb3b9e5fb1124ad873393a89`، cotyla (الرتبة 130)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:5b82cb1642bbbefc47b76ce3`، licium (الرتبة 131)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:24af3de746b036a68339ad0b`، temno (الرتبة 132)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:20a073fbc9f19a3bc1602847`، nosco (الرتبة 133)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e0e2cb30f122a22bd919d702`، agnatio (الرتبة 134)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:2b3fc62ca434c8527fb5bf91`، sirpo (الرتبة 135)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:d227ee5d52acb3c895eeed38`، inhaereo (الرتبة 136)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:53be7043f499a00adaf6a1c6`، vulgo (الرتبة 137)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e11a68a7e81f28102ced805a`، plane (الرتبة 138)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:7c0b9b803322b7d913c37df7`، tuemini (الرتبة 139)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:67bf6c428f222095f3e4da8b`، cur (الرتبة 140)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:98b2d387f391699eaf30a8cc`، dingua (الرتبة 141)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:5c485a17df5f83208ede95d6`، secta (الرتبة 142)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:fa36c2697fe44647ada39061`، quota (الرتبة 143)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:4dfed5701472219748da1281`، omnino (الرتبة 144)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:b9e3244e08f501528dedbc09`، hemina (الرتبة 145)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:e5707d193175d7d5e85cc0a3`، melca (الرتبة 146)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:9ed34922c1de8a89d091b1f9`، chymia (الرتبة 147)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:fc649599b44d21044b4b9ea8`، astituo (الرتبة 148)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "حسم موقع العضو في السلسلة الصرفية المنشورة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:2a0d871ed63b6c3182d29d42`، aforet (الرتبة 149)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "`latin:family:9b4ccdba3aa94bb26af9255b`، pilus (الرتبة 150)",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مسح مروحة مصدرين عربيين قديمين للمرشحات المسماة.",
    "row_mentions": []
   },
   {
