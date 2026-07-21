@@ -12,6 +12,7 @@ import argparse
 import hashlib
 import json
 import re
+import subprocess
 import unicodedata
 from datetime import date
 from pathlib import Path
@@ -38,6 +39,18 @@ HEADING_RE = re.compile(r"^### (?:بطاقة(?: RECOVERY-v2)?:\s*)?(.+)$", re.MU
 
 def clean(value: str) -> str:
     return unicodedata.normalize("NFC", re.sub(r"\s+", " ", value).strip())
+
+
+def committed_text(path: Path) -> str:
+    """Read the source at HEAD so local verdicts cannot leak into the registry."""
+    relative = path.relative_to(ROOT).as_posix()
+    completed = subprocess.run(
+        ["git", "show", f"HEAD:{relative}"],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+    )
+    return completed.stdout.decode("utf-8")
 
 
 def extract_cards(text: str) -> list[str]:
@@ -72,7 +85,7 @@ def build() -> dict[str, object]:
         path = READINGS / filename
         if not path.exists():
             continue
-        text = path.read_text(encoding="utf-8")
+        text = committed_text(path)
         cards = extract_cards(text)
         card_bytes = unicodedata.normalize("NFC", "\n\n".join(cards)).encode("utf-8")
         sources.append(
@@ -109,7 +122,7 @@ def build() -> dict[str, object]:
         "schema_version": 1,
         "generated_on": date.today().isoformat(),
         "status": "internal-retrieval-only",
-        "scope": "explicit LOANWORD verdict cards in the named reading files",
+        "scope": "explicit LOANWORD verdict cards committed at HEAD in the named reading files",
         "non_inference_rule": "routes, directions, sources, and verdicts are copied only from the cards; missing fields remain empty",
         "source_files": sources,
         "entries_total": len(entries),
@@ -125,7 +138,7 @@ def render_markdown(payload: dict[str, object]) -> str:
         "",
         f"التاريخ: {payload['generated_on']}",
         "",
-        "الحالة: سجل داخلي استرجاعي. لا يستنبط قرضًا ولا اتجاهًا ولا مصدرًا، بل ينقل بطاقات `LOANWORD` الصريحة كما هي. الحقل الفارغ يبقى فارغًا ولا يستكمل بالتخمين.",
+        "الحالة: سجل داخلي استرجاعي. لا يستنبط قرضًا ولا اتجاهًا ولا مصدرًا، بل ينقل بطاقات `LOANWORD` الصريحة المودعة في `HEAD` كما هي. الأحكام المحلية غير المراجعة لا تدخل السجل، والحقل الفارغ يبقى فارغًا ولا يستكمل بالتخمين.",
         "",
         "| اللغة | البطاقة | اللفظ | المسار المسمى في البطاقة | المصدر المسمى | الموضع |",
         "|---|---|---|---|---|---|",
@@ -148,6 +161,7 @@ def render_markdown(payload: dict[str, object]) -> str:
         "## حدود السجل",
         "",
         "- لا يدخل وسم القرض الآلي أو مجرد ذكر أصل أجنبي ما لم تحمل البطاقة حكم `LOANWORD` صريحًا.",
+        "- يقرأ المولد نسخة `HEAD` لا شجرة العمل، حتى لا يتسرب حكم محلي ينتظر المراجعة إلى السجل البنيوي المودع.",
         "- الحكم للعضو أو سلسلة المعنى المسماة، ولا ينتقل إلى بقية الأسرة أو المركبات أو المتجانسات.",
         "- هذا سجل عزل ومحاسبة، وليس بسطًا لخط البرهان ولا رقمًا للنشر.",
         "- يعاد بناؤه بالأمر `python scripts/build_recovery_loan_registry.py --check` للتحقق، أو بلا `--check` للتحديث.",
