@@ -760,6 +760,106 @@ def family_review_queue(
     return result
 
 
+def member_strength_family_queue(
+    connection: sqlite3.Connection,
+    language: str,
+    limit: int = 50,
+) -> list[dict[str, Any]]:
+    """Rank families by their best eligible member, never by family breadth.
+
+    This is a retrieval-only queue for the signed member-verdict law.  Proper
+    names, nonlexical entries, forms, and source-marked loans cannot become the
+    ranking anchor, but remain visible through the returned family counts.
+    """
+    require_current_family_metadata(connection, [language])
+    states = load_family_review_states()["families"]
+    rows = connection.execute(
+        """
+        WITH candidate_strength AS (
+          SELECT c.entry_id,
+                 MAX(CASE WHEN c.kind='root' AND c.status='licensed'
+                               AND c.route_flag=0 THEN 1 ELSE 0 END) AS licensed_full_root,
+                 MIN(CASE WHEN c.kind='root' AND c.status='licensed'
+                               AND c.route_flag=0
+                          THEN json_array_length(c.rule_ids_json) END) AS root_rule_count,
+                 MIN(CASE WHEN c.status='licensed' AND c.route_flag=0
+                          THEN json_array_length(c.rule_ids_json) END) AS any_rule_count,
+                 SUM(CASE WHEN c.status='licensed' AND c.route_flag=1
+                          THEN 1 ELSE 0 END) AS route_required_candidate_count
+          FROM candidates AS c
+          GROUP BY c.entry_id
+        ), eligible AS (
+          SELECT fm.family_id, e.entry_id, e.headword, e.romanization, e.pos, e.gloss,
+                 COALESCE(cs.licensed_full_root,0) AS licensed_full_root,
+                 COALESCE(cs.root_rule_count,cs.any_rule_count) AS licensed_rule_count,
+                 COALESCE(cs.route_required_candidate_count,0) AS route_required_candidate_count,
+                 ROW_NUMBER() OVER (
+                   PARTITION BY fm.family_id
+                   ORDER BY COALESCE(cs.licensed_full_root,0) DESC,
+                            CASE WHEN COALESCE(cs.root_rule_count,cs.any_rule_count) IS NULL
+                                 THEN 999 ELSE COALESCE(cs.root_rule_count,cs.any_rule_count) END ASC,
+                            LENGTH(TRIM(e.gloss)) DESC,
+                            e.entry_id
+                 ) AS member_rank
+          FROM family_members AS fm
+          JOIN entries AS e ON e.entry_id=fm.entry_id
+          LEFT JOIN candidate_strength AS cs ON cs.entry_id=e.entry_id
+          WHERE e.language=?
+            AND fm.role NOT IN ('form','nonlexical')
+            AND e.form_of=0
+            AND e.loan_hint=0
+            AND e.pos NOT IN (
+              'name','character','symbol','punct','suffix','prefix','affix',
+              'infix','circumfix','interfix','combining_form'
+            )
+        ), family_filters AS (
+          SELECT fm.family_id,
+                 SUM(CASE WHEN e.loan_hint=1 THEN 1 ELSE 0 END) AS loan_member_count,
+                 SUM(CASE WHEN e.pos='name' THEN 1 ELSE 0 END) AS proper_name_member_count
+          FROM family_members AS fm
+          JOIN entries AS e ON e.entry_id=fm.entry_id
+          WHERE e.language=?
+          GROUP BY fm.family_id
+        )
+        SELECT f.family_id, f.language, f.anchor_headword, f.construction,
+               f.member_count, f.lemma_count, f.form_count,
+               e.entry_id, e.headword, e.romanization, e.pos, e.gloss,
+               e.licensed_full_root, e.licensed_rule_count,
+               e.route_required_candidate_count,
+               COALESCE(ff.loan_member_count,0), COALESCE(ff.proper_name_member_count,0)
+        FROM eligible AS e
+        JOIN families AS f ON f.family_id=e.family_id
+        JOIN family_filters AS ff ON ff.family_id=f.family_id
+        WHERE e.member_rank=1
+        ORDER BY e.licensed_full_root DESC,
+                 CASE WHEN e.licensed_rule_count IS NULL THEN 999 ELSE e.licensed_rule_count END ASC,
+                 LENGTH(TRIM(e.gloss)) DESC,
+                 e.entry_id
+        LIMIT ?
+        """,
+        (language, language, limit * 20),
+    ).fetchall()
+    fields = (
+        "family_id", "language", "anchor_headword", "construction", "member_count",
+        "lemma_count", "form_count", "anchor_entry_id", "member_headword",
+        "member_romanization", "member_pos", "member_gloss", "licensed_full_root",
+        "licensed_rule_count", "route_required_candidate_count", "loan_member_count",
+        "proper_name_member_count",
+    )
+    result: list[dict[str, Any]] = []
+    for row in rows:
+        state = states.get(row[0], {})
+        if state.get("recovery_review"):
+            continue
+        item = dict(zip(fields, row))
+        item["ordering_only"] = True
+        item["review_status"] = state.get("status", "unreviewed")
+        result.append(item)
+        if len(result) >= limit:
+            break
+    return result
+
+
 def family_card(connection: sqlite3.Connection, family_id: str, candidate_limit: int = 200) -> dict[str, Any]:
     payload = load_family_review_states()
     state = payload["families"].get(family_id, {})

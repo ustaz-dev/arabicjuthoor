@@ -19,7 +19,11 @@ from recovery_pipeline.inventory import (
     upgrade_family_layer_from_v2,
     verify_inventory,
 )
-from recovery_pipeline.families import family_card, family_review_queue
+from recovery_pipeline.families import (
+    family_card,
+    family_review_queue,
+    member_strength_family_queue,
+)
 from recovery_pipeline.normalization import available_profiles, load_profile
 
 
@@ -85,6 +89,13 @@ def main() -> int:
         default="family-id",
         help="Deterministic family-id order or retrieval-only strength order.",
     )
+
+    member_family_queue = sub.add_parser(
+        "member-family-queue",
+        help="Rank families by their best original lexical member, without family-size inflation.",
+    )
+    member_family_queue.add_argument("--language", choices=source_languages(), required=True)
+    member_family_queue.add_argument("--limit", type=int, default=50)
 
     card = sub.add_parser("family-card", help="Inspect one family, its members, overrides, and unified candidates.")
     card.add_argument("--family-id", required=True)
@@ -172,6 +183,17 @@ def main() -> int:
             return 0
         except (FileNotFoundError, sqlite3.Error, ValueError, KeyError) as error:
             print(f"family card failed: {error}")
+            return 1
+        finally:
+            connection.close()
+    if args.command == "member-family-queue":
+        connection = connect(args.db, create=False)
+        try:
+            result = member_strength_family_queue(connection, args.language, args.limit)
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+            return 0
+        except (FileNotFoundError, sqlite3.Error, ValueError, RuntimeError) as error:
+            print(f"member-family queue failed: {error}")
             return 1
         finally:
             connection.close()
