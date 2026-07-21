@@ -41,3 +41,7 @@
 4. إن لم توقِّعْ بقيَ كلُّ ذلك معلَّقًا مفتوحًا بلا حكمٍ سلبيٍّ واحد، على قاعدةِ «فجوةُ القانونِ ليست رفضًا».
 
 *English abstract:* Two missing Semitic rows are proposed for signature: Arabic f versus Hebrew-Aramaic pe (reflexes of Proto-Semitic *p; fatah/pataḥ, nafs/nefeš, nafakha/nafaḥ, farasha/paraś, kafr/kfar, faqaʿa/pqaʿ) and Arabic shin versus Hebrew sin (reflexes of Proto-Semitic *ś; ʿashr/ʿeśer, bashar/bāśār, shatan/śāṭān), both sourced to Moscati's comparative grammar. Signing unlocks five suspended Hebrew cards and lifts the recorded condition on four committed Aramaic verdicts; declining keeps everything suspended-open, never rejected.
+
+## القرار الصادر (2026-07-20)
+
+أجاب المؤلف نصًا: **«توقيع بلا تردد»**. نُفِّذ الصفان LAB-07 وSIB-07 في الشبكة بإضافة مؤرخة، وسجل التوقيع في `05-audits/2026-07-20-author-signed-fa-pe-and-shin-sin-rows.md`.
