@@ -12,7 +12,7 @@ from collections import Counter
 from pathlib import Path
 
 from recovery_pipeline.inventory import DEFAULT_DB, connect
-from search_arabic_root_senses import DEFAULT_RESOURCES, deduplicate, parquet_matches
+from search_arabic_root_senses import DEFAULT_RESOURCES, root_sense_fan
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -92,23 +92,26 @@ def first_reference(raw: dict) -> str:
     return ""
 
 
-def arabic_fan(forms: list[str], cache: dict[str, list[dict]]) -> str:
+def arabic_fan(forms: list[str], cache: dict[str, dict]) -> str:
     if not forms:
         return "لم يخرج المسح الآلي جذرًا كاملًا أو أجوف مرخصًا بلا صف؛ حفظت النوى في خانة المقابل من غير حكم دلالي."
     parts = []
     for form in forms[:2]:
         if form not in cache:
-            cache[form] = deduplicate(parquet_matches(DEFAULT_RESOURCES, form, 260))
-        matches = cache[form]
-        if not matches:
-            parts.append(f"{form}: لا شاهد مستقل في فهرس المعاجم العربية المحلي.")
+            cache[form] = root_sense_fan(DEFAULT_RESOURCES, form, 260)
+        fan = cache[form]["independent_fan"]
+        selected = fan["selected_sources"]
+        if not selected:
+            parts.append(f"{form}: لا مدخل غير فارغ في المعاجم العربية القديمة المحلية.")
             continue
-        shown = matches[:2]
+        status = "مروحة مستقلة مكتملة" if fan["complete"] else "مروحة مستقلة ناقصة"
         parts.append(
-            f"{form}: "
+            f"{form}: {status}؛ المصدران المستعملان: "
+            + "، ".join(clean(item["source_label"]) for item in selected)
+            + "؛ "
             + "؛ ".join(
-                f"{clean(item['source'])}: «{clean(item['definition'], 220)}»"
-                for item in shown
+                f"{clean(item['source_label'])}: «{clean(item['definition'], 220)}»"
+                for item in selected
             )
         )
     return " | ".join(parts)
@@ -217,7 +220,7 @@ def render(language: str, connection: sqlite3.Connection, source_path: Path) -> 
     families = [family_payload(connection, family_id) for family_id in order]
     isolated = [item for item in families if is_isolated(item[1])]
     lexical = [item for item in families if not is_isolated(item[1])]
-    fan_cache: dict[str, list[dict]] = {}
+    fan_cache: dict[str, dict] = {}
     lines = [
         f"# قراءة الاستطلاع {LANGUAGE_AR[language]}: سجل فجوات بلا حكم",
         "",

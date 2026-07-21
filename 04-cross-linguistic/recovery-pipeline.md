@@ -1,6 +1,6 @@
 # خطُّ الاسترداد الشامل للمعاجم
 
-**الحالة:** طبقةُ استرجاعٍ محليّة، لا تُصدر قراءةً ولا حكمًا. تعمل فوق الأدوات المجمّدة من غير تعديلها. **الإصدار:** 2026-07-17.
+**الحالة:** طبقةُ استرجاعٍ محليّة، لا تُصدر قراءةً ولا حكمًا. تعمل فوق الأدوات المجمّدة من غير تعديلها. **الإصدار:** 2026-07-21.
 
 ## ما الذي يضمنه
 
@@ -33,6 +33,22 @@
 الاستطلاع لا يمثل المعجم التاريخي كاملًا. يفصل المحلل شاهد النقش المسمى
 والشاهد النصي الآخر والتعمير والعلم والحالة غير المحسومة، ولا يحول هذا
 الفصل الوصفي إلى حكم أصالة.
+
+## مروحة المعاجم العربية المستقلة
+
+من 2026-07-21 لا يعني شرط المصدرين القديمين كتابين بعينهما. يفضل مسح
+`search_arabic_root_senses.py` لسان العرب وتاج العروس، فإن غاب مدخل أحدهما
+أو عاد فارغًا سقط آليًا إلى العمل القديم المستقل التالي، مثل الصحاح أو
+المحكم أو العين أو أساس البلاغة. لا تعد نسخة CSV ونسخة parquet من الكتاب
+نفسه مصدرين، ولا يدخل السجل الفارغ في العدد. ويسمي كل مخرج المصدرين اللذين
+استعملا فعلًا، مع إبقاء بقية المروحة ظاهرة للتدقيق.
+
+يجرد `audit_arabic_root_sense_coverage.py` كل جذر كامل أو أجوف خرج من طبقة
+المرشحات، ويسجل لكل واحد حالة كل معجم: `present` أو `empty` أو `missing`،
+والمصدرين المختارين، وهل استعمل السقوط. هذا جرد استرجاع محض، لا يختار معنى
+ولا يصدر حكمًا. ملفه المولد
+`data/arabic-root-lexicon-completeness.json`، وتختبر البوابة حالتي صبر وعين
+حيث يكون السقوط واجبًا لا اختياريًا.
 
 ## الحالات المسجلة
 
@@ -93,6 +109,9 @@ python scripts/recovery_inventory.py family-queue --lens recovery --language cop
 python scripts/recovery_inventory.py family-queue --lens recovery --language aramaic --order strength
 python scripts/recovery_inventory.py family-card --family-id "FAMILY_ID"
 python scripts/generate_candidates.py "τρεῖς"
+python scripts/search_arabic_root_senses.py صبر --json
+python scripts/audit_arabic_root_sense_coverage.py
+python scripts/audit_arabic_root_sense_coverage.py --check
 python scripts/recovery_review.py queue --lens recovery --language coptic
 python scripts/recovery_review.py validate
 python scripts/recovery_family_review.py validate

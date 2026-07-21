@@ -28,6 +28,7 @@ from recovery_pipeline.sources import (
 )
 from recovery_pipeline.proof import load_preregistration, require_execution_authority
 from export_egyptian_gap_cards import candidate_text, rank_window, sound_path_text
+from search_arabic_root_senses import independent_fan
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,6 +37,48 @@ FIXTURES = ROOT / "scripts" / "recovery_pipeline" / "network-fixtures.json"
 
 def main() -> int:
     failures: list[str] = []
+    fan_fixtures = {
+        "صبر": [
+            {
+                "collection": "arabic_roots_hf",
+                "source": "لسان العرب لابن منظور",
+                "definition": "الصبرة الطعام المجتمع",
+            },
+            {
+                "collection": "Ten dictionaries for Arabic language",
+                "source": "Tag Al-‘Arus Min Gawahir Al-Qamus7.csv",
+                "definition": "",
+            },
+            {
+                "collection": "arabic_roots_hf",
+                "source": "تاج اللغة وصِحاح العربية للجوهري",
+                "definition": "الصبر الحبس والجمع",
+            },
+        ],
+        "عين": [
+            {
+                "collection": "arabic_roots_hf",
+                "source": "تاج العروس لمرتضى الزبيدي",
+                "definition": "العين حاسة البصر",
+            },
+            {
+                "collection": "arabic_roots_hf",
+                "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+                "definition": "العين حاسة البصر",
+            },
+        ],
+    }
+    for root, matches in fan_fixtures.items():
+        fan = independent_fan(matches)
+        selected = fan["selected_sources"]
+        if not fan["complete"] or len(selected) != 2:
+            failures.append(f"Arabic independent fan fallback incomplete for {root}")
+        if not fan["fallback_used"]:
+            failures.append(f"Arabic independent fan failed to name fallback for {root}")
+        if len({item["source_id"] for item in selected}) != len(selected):
+            failures.append(f"Arabic fan counted duplicate editions as sources for {root}")
+        if any(not item["definition"].strip() for item in selected):
+            failures.append(f"Arabic fan selected an empty definition for {root}")
     ranked_fixture = [
         {"family_id": "egyptian:family:000000000000000000000001"},
         {"family_id": "egyptian:family:000000000000000000000002"},
