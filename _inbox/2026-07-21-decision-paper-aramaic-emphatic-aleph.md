@@ -19,3 +19,7 @@
 3. إن لم توقِّعْ بقيت الأسرُ الـ968 معلَّقةً مفتوحةً بحالِها، بلا حكمٍ سلبيٍّ واحد.
 
 *English abstract:* A step-zero morphology rule for Aramaic is proposed: nouns ending in aleph are additionally tried with the emphatic-state suffix -a removed, both forms recorded, per Rosenthal's and Muraoka-Porten's standard grammars. The frozen network's own exemplars (dahba versus dhahab, araa versus ard) already read through this suffix, so the rule codifies practice the author has already signed. Signing opens up to 968 suspended Aramaic families; declining leaves them suspended-open.
+
+## القرار الصادر (2026-07-21)
+
+أجاب المؤلف نصًا: **«وقّع الألف»**. القاعدة نافذة، وسجل التوقيع في `05-audits/2026-07-21-author-signed-aramaic-emphatic-aleph.md`، والتنفيذ الصناعي (ملف التطبيع، إعادة توليد المرشحات، حارس الانحدار) في جولة الجلسة الصناعية الجارية.

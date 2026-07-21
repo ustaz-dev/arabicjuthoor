@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3588,
+ "cards_total": 3589,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -23020,6 +23020,18 @@
    ],
    "blocker_type": "SOURCE-GAP",
    "required": "فحص مسار كفر القرية في Fraenkel قبل إعادة الحكم على هذا العضو",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "(إعادةُ توسيم): توقيعُ قاعدةِ الألفِ وانفتاحُ أسرِ النمط (2026-07-21)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "تفعيل القاعدة الموقعة في ملف التطبيع وإعادة توليد مرشحات أسر النمط في الجولة الصناعية",
    "row_mentions": []
   },
   {
