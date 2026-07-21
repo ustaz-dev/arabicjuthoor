@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3312,
+ "cards_total": 3321,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -38467,6 +38467,30 @@
    ],
    "blocker_type": "LAW-GAP",
    "required": "إعادة قراءة بالعدستين على الصفين LAB-07 وSIB-07 الموقعين",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:de8c3313b806ae8cc5bfdf33`، צבר، متابعة الرتبة 66",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "نص تاج العروس لمادة صبر من الأداة المثبتة، لا مجرد سجل مصدر فارغ",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:d68aa11b6dc337a5ce644c02`، עין، متابعة الرتبة 137",
+   "verdict": "",
+   "closure": "TOOL-GAP",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مدخل لسان العرب لمادة عين من الأداة المثبتة",
    "row_mentions": []
   },
   {
