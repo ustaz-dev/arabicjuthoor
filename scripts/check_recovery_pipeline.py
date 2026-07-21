@@ -160,6 +160,9 @@ def main() -> int:
     emphatic = apply_zero_step("דהבא", "noun", aramaic_profile)
     if not emphatic.applied or emphatic.comparison != "דהב":
         failures.append(f"Aramaic emphatic-aleph stripping failed: {emphatic!r}")
+    emphatic_adjective = apply_zero_step("עקרא", "adj", aramaic_profile)
+    if not emphatic_adjective.applied or emphatic_adjective.comparison != "עקר":
+        failures.append(f"Aramaic emphatic-state adjective stripping failed: {emphatic_adjective!r}")
     verb = apply_zero_step("קטלא", "verb", aramaic_profile)
     if verb.applied or verb.comparison != "קטלא":
         failures.append(f"Aramaic verb lost final aleph: {verb!r}")
