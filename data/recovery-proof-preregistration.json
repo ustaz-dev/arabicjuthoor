@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "status": "DRAFT-LOCKED",
-  "execution_authorized": false,
-  "author_signature": "",
-  "signed_date": "",
-  "frozen_git_commit": "",
+  "status": "AUTHOR-SIGNED",
+  "execution_authorized": true,
+  "author_signature": "Yassine Temessek, by recorded words on 2026-07-23: \"ok i accept your idea. do what u need\", accepting the presented decision formula of _inbox/2026-07-22-proof-preregistration-final-author-review.md together with the run-trigger clause (option 1) as presented clause by clause in the same session; signing record: 05-audits/2026-07-23-author-signed-proof-preregistration.md",
+  "signed_date": "2026-07-23",
+  "frozen_git_commit": "41c36dee1080c08da564473c3ac278a13a4f82ea",
   "analysis_unit": "lexical-family",
   "population": {
     "languages": [
@@ -107,5 +107,16 @@
     "publish_inventory_counts": false,
     "publish_results_before_signature": false,
     "retain_null_and_negative_results": true
+  },
+  "execution_trigger": {
+    "rule": "single confirmatory run, executed once and only once, on the day the eligible denominator first meets the thresholds below; no interim, exploratory, or repeated runs are permitted before or after; the result is committed the day it is produced, positive or negative",
+    "thresholds": {
+      "total_eligible_reviewed_families": 600,
+      "min_eligible_reviewed_families_per_language": 150
+    },
+    "counting_source": "families of the two population languages whose members all carry a recorded final disposition in data/family-review-states.json (complete-member-disposition), counted by an auditable script run recorded in the attestation file",
+    "attestation_required": "05-audits/proof-run-trigger-attestation.md",
+    "single_confirmatory_run": true,
+    "no_interim_runs": true
   }
 }

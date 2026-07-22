@@ -62,9 +62,28 @@ def validate_preregistration(payload: dict[str, Any]) -> None:
         "uncertainty_method", "multiple_comparison_rule",
     )):
         raise ValueError("Signed proof preregistration leaves a comparison rule unspecified")
+    trigger = payload.get("execution_trigger")
+    if trigger is not None:
+        thresholds = trigger.get("thresholds", {})
+        if (
+            not isinstance(thresholds.get("total_eligible_reviewed_families"), int)
+            or thresholds["total_eligible_reviewed_families"] <= 0
+            or not isinstance(thresholds.get("min_eligible_reviewed_families_per_language"), int)
+            or thresholds["min_eligible_reviewed_families_per_language"] <= 0
+            or not trigger.get("attestation_required")
+        ):
+            raise ValueError("Signed proof preregistration carries a malformed execution trigger")
 
 
 def require_execution_authority(payload: dict[str, Any]) -> None:
     validate_preregistration(payload)
     if payload["status"] != SIGNED_STATUS or not payload["execution_authorized"]:
         raise PermissionError("Proof execution is locked until the author signs the frozen preregistration")
+    trigger = payload.get("execution_trigger")
+    if trigger is not None:
+        attestation = ROOT / str(trigger.get("attestation_required", ""))
+        if not trigger.get("attestation_required") or not attestation.exists():
+            raise PermissionError(
+                "Proof execution is armed by signature but stays locked until the preregistered "
+                "run trigger is met and attested at " + str(trigger.get("attestation_required"))
+            )

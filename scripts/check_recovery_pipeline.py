@@ -240,7 +240,7 @@ def main() -> int:
     preregistration = load_preregistration()
     try:
         require_execution_authority(preregistration)
-        failures.append("locked proof preregistration opened its execution gate")
+        failures.append("proof execution gate opened without a signed preregistration and an attested run trigger")
     except PermissionError:
         pass
     required_profile_fields = {
