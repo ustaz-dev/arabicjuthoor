@@ -113,6 +113,18 @@ recovery_card_fields = (
     "- حالةُ الإغلاق:",
 )
 
+radiation_marker = "<!-- RADIATION-FIELDS-v1 -->"
+radiation_card_fields = (
+    "- إشعاع الأسرة في الفرع:",
+    "- إشعاع الأسرة في العربية:",
+)
+positive_verdicts = (
+    "ROOT-TRACE",
+    "NUCLEUS-TRACE",
+    "NUCLEUS-ECHO",
+    "FLOOR-TRACE",
+)
+
 
 def reading_cards_from_body(body: str) -> list[tuple[str, str]]:
     starts = list(re.finditer(r"^### بطاقة.*$", body, re.MULTILINE))
@@ -184,6 +196,22 @@ for path in reading_paths:
             fails.append(
                 f"recovery gap: {path}: {heading} turns an unresolved gap into NO-TRACE"
             )
+
+    if radiation_marker in body:
+        _, after_radiation_marker = body.split(radiation_marker, 1)
+        for heading, section in reading_cards_from_body(after_radiation_marker):
+            verdict = re.search(
+                r"^- الحكم \(استكشاف\):\s*(.+)$", section, re.MULTILINE
+            )
+            if not verdict or not any(
+                item in verdict.group(1) for item in positive_verdicts
+            ):
+                continue
+            for field in radiation_card_fields:
+                if field not in section:
+                    fails.append(
+                        f"radiation field: {path}: {heading} lacks {field}"
+                    )
 
 
 egypt_cards = all_cards["04-cross-linguistic/readings/egyptian.md"]

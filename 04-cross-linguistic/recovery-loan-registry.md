@@ -1,6 +1,6 @@
 # سجل القروض المعزولة في قراءات الاسترداد
 
-التاريخ: 2026-07-21
+التاريخ: 2026-07-22
 
 الحالة: سجل داخلي استرجاعي. لا يستنبط قرضًا ولا اتجاهًا ولا مصدرًا، بل ينقل بطاقات `LOANWORD` الصريحة المودعة في `HEAD` كما هي. الأحكام المحلية غير المراجعة لا تدخل السجل، والحقل الفارغ يبقى فارغًا ولا يستكمل بالتخمين.
 
@@ -11,6 +11,7 @@
 | العبرية | `hebrew:family:4a900ea234a9fe3b66df46db`، שטר، حسم الموجة 1 للرتبة 203 | שטר `shtar` «document, contract, banknote, writing, deed, bill» [Kaikki Hebrew، السطر 13321] | عزل مسار الاقتراض المنشور قبل المقارنة؛ لا يحول التطابق الصوتي أو الدلالي القرض إلى أثر نسب. | غير مفصول في حقل مستقل | `04-cross-linguistic/readings/hebrew.md:8164` |
 | العبرية | `hebrew:family:9455eef60a584bf43a52ea9d`، כור، حسم الموجة 1 للرتبة 208 | כור `kur` «A furnace for melting metals.» [Kaikki Hebrew، السطر 4961] | عزل مسار الاقتراض المنشور قبل المقارنة؛ لا يحول التطابق الصوتي أو الدلالي القرض إلى أثر نسب. | [s:he:T1222#כב_כב\|22:22 | `04-cross-linguistic/readings/hebrew.md:8186` |
 | العبرية | `hebrew:family:49d7f0c08f18557cee421a5e`، כפר، حسم الموجة 1 للرتبة 298 | כפר `kfar` «village» [Kaikki Hebrew، السطر 2028] | عزل مسار الاقتراض المنشور قبل المقارنة؛ لا يحول التطابق الصوتي أو الدلالي القرض إلى أثر نسب. | [s:he:T0618#יח_כד\|18:24؛ [s:he:T25a27#כז_כה\|27:25؛ [s:he:T35b06#ו_ב\|6:2 | `04-cross-linguistic/readings/hebrew.md:8208` |
+| العبرية | `hebrew:family:aa6e0bb930d1cadf59df90af`، מלח ↔ ملح، حسم محلي للرتبة 818 | מלח `mallā́ḥ`، noun، «sailor, mariner» [Kaikki Hebrew، kaikki_hebrew:2270:en-מלח-he-noun-hQBa2asE]. | يعزل العضو قبل حكم النسب لأن نص الأصل يسمي انتقاله من الأكدية عن السومرية. نص الأصل المنقول: From Akkadian 𒈣𒁻 (malāḫum, “shipman, sailor”), from Sumerian 𒈣𒁻 (ma₂-laḫ₄ /⁠malaḫ⁠/, “shipman, sailor”). Cognate with Arabic مَلَّاح (mallāḥ). | [s:he:T1227#כז_כט\|27:29؛ [s:he:T1701#א_ה\|1:5؛ Kaikki Hebrew، kaikki_hebrew:2270:en-מלח-he-noun-hQBa2asE | `04-cross-linguistic/readings/hebrew.md:9659` |
 | القبطية | tōōbe «brick, adobe» | ⲧⲱⲱⲃⲉ tōōbe | يعزل مسارا: القبطية إلى العربية المصرية [Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة] | Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة؛ TLA Lemma ID 183120؛ Erman & Grapow, Wb 5, 553.7-554.18: https://thesaurus-linguae-aegyptiae.de/lemma/183120؛ Crum, CD 398a؛ KELLIA C4084/C4085 | `04-cross-linguistic/readings/coptic.md:77` |
 | القبطية | apa «abbot (father); title of reverence» | ⲁⲡⲁ apa، وله وجه ⲁⲃⲃⲁ | يعزل مسارا: سريانية إلى يونانية ἀββᾶς ثم إلى القبطية، كما يصرح حقل `<etym>` | KELLIA C164؛ Crum, CD 13ab؛ Crum, CD 13ab؛ KELLIA C164 | `04-cross-linguistic/readings/coptic.md:91` |
 | اللاتينية القديمة | calamus «reed; pen» | *calamus* | يعزل مسارا: اللاتينية اقترضت من اليونانية κάλαμος [Kaikki Latin، مدخل `calamus`، `etymology_text`] | Kaikki Latin، مدخل `calamus`، `etymology_text`؛ Kaikki Latin، مدخل `calamus`، `senses[ | `04-cross-linguistic/readings/old-latin.md:175` |

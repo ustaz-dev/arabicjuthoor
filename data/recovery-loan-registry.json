@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_on": "2026-07-21",
+  "generated_on": "2026-07-22",
   "status": "internal-retrieval-only",
   "scope": "explicit LOANWORD verdict cards committed at HEAD in the named reading files",
   "non_inference_rule": "routes, directions, sources, and verdicts are copied only from the cards; missing fields remain empty",
@@ -23,14 +23,14 @@
     },
     {
       "path": "04-cross-linguistic/readings/hebrew.md",
-      "loan_card_blocks_sha256": "953fad8897236c804129de343671035fb82690b3b21058ae23f84e8e598b4b92"
+      "loan_card_blocks_sha256": "d0de6074b1452b87731b2014cff564244de5ecfbc0139c6442202f2263022ebe"
     },
     {
       "path": "04-cross-linguistic/readings/old-latin.md",
       "loan_card_blocks_sha256": "362f04e17faa5ce1531861f353b5446ad333e44613c57f08f0a1db3e763d647c"
     }
   ],
-  "entries_total": 11,
+  "entries_total": 12,
   "entries": [
     {
       "registry_id": "loan-hebrew-001",
@@ -107,6 +107,23 @@
       "verdict": "LOANWORD",
       "source_path": "04-cross-linguistic/readings/hebrew.md",
       "source_line": 8208
+    },
+    {
+      "registry_id": "loan-hebrew-006",
+      "language": "العبرية",
+      "card": "`hebrew:family:aa6e0bb930d1cadf59df90af`، מלח ↔ ملح، حسم محلي للرتبة 818",
+      "lexeme": "מלח `mallā́ḥ`، noun، «sailor, mariner» [Kaikki Hebrew، kaikki_hebrew:2270:en-מלח-he-noun-hQBa2asE].",
+      "route_as_recorded": "يعزل العضو قبل حكم النسب لأن نص الأصل يسمي انتقاله من الأكدية عن السومرية. نص الأصل المنقول: From Akkadian 𒈣𒁻 (malāḫum, “shipman, sailor”), from Sumerian 𒈣𒁻 (ma₂-laḫ₄ /⁠malaḫ⁠/, “shipman, sailor”). Cognate with Arabic مَلَّاح (mallāḥ).",
+      "oldest_form_as_recorded": "From Akkadian 𒈣𒁻 (malāḫum, “shipman, sailor”), from Sumerian 𒈣𒁻 (ma₂-laḫ₄ /⁠malaḫ⁠/, “shipman, sailor”). Cognate with Arabic مَلَّاح (mallāḥ).؛ الشاهد القديم: biblical، Tanach, Ezekiel [[s:he:T1227#כז_כט|27:29]], with translation of the Jewish Publication Society:؛ Tanach, Jonah [[s:he:T1701#א_ה|1:5]], with translation of the Jewish Publication Society:.",
+      "named_sources_as_recorded": [
+        "[s:he:T1227#כז_כט|27:29",
+        "[s:he:T1701#א_ה|1:5",
+        "Kaikki Hebrew، kaikki_hebrew:2270:en-מלח-he-noun-hQBa2asE"
+      ],
+      "scope_note": "بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 9659
     },
     {
       "registry_id": "loan-coptic-001",
