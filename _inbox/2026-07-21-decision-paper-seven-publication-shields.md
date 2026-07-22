@@ -49,3 +49,7 @@
 الدروعُ 1 و2 و3 مدرجةٌ نصًّا مقترحًا في مسودةِ التسجيلِ المسبقِ المحصَّنة، فتوقيعُها يثبّتُها هناك. والدرعانِ 4 و6 مبنيّانِ فعلًا فتوقيعُهما اعتمادٌ رسميّ. والدرعانِ 5 و7 قرارا سياسةِ نشرٍ يُدوَّنانِ في خطّةِ النشرِ متى وُقِّعا. وكلُّ درعٍ قابلٌ للنقضِ بكلمتِك.
 
 *English abstract:* Seven publication shields proposed for signature: quantify family-radiation asymmetry per confirmed pair; restrict the headline rate to lexicon-internal semantic bridges; blind-fan decoys in the control sample; publish the isolated-loan ledger alongside any published number; fortress-ordered publication starting with the Semitic calibration layer; a terminology bridge to comparative-school vocabulary; and blind external expert adjudication with kappa before major publication. Shields 1 to 3 are already drafted into the locked proof-line preregistration; 4 and 6 are already built and await ratification; 5 and 7 are publication-policy decisions.
+
+## القرار الصادر (2026-07-21)
+
+أجاب المؤلف نصًا: **«قنن التحصينات»**. الدروع السبعة كلها موقعة نافذة، وسجل التوقيع بمواضع التنفيذ في `05-audits/2026-07-21-author-signed-seven-publication-shields.md`.
