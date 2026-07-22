@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3643,
+ "cards_total": 3695,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -23059,6 +23059,126 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:08ac655accdb41f01e6eedef`، בטן ↔ بطن",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "جسر معجمي منشور يربط فعل الحمل والولادة بالعضو العربي بطن، لا مجرد وقوع الحمل في البطن",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:9a4f4d14547a62d7a1a69c0f`، פרש ↔ فرش",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "جسر معجمي منشور بين «to separate, cut off» الآرامية و«بسط الشيء» العربية، أو مقابل عربي آخر مستوف للشروط",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:c8f1ca47864512d913a1e502`، צרף ↔ صرف",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "جسر دلالي منشور بين تصفية أو صهر المعدن وبين الصرف العربي، أو عضو عربي مباشر آخر",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:cdb7d66413a61c0de99727c9`، טען ↔ ظعن",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إعادة بناء منشورة تعين الصامت الأول الآرامي من السامية الأم `*ṯ̣` في هذا العضو قبل تطبيق `DENT-08`",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:e07c608663e76fedecb01138`، חלף ↔ خلف",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "قرار مفوض يحدد هل يمتد اندماج السامية الأم `*ḫ` و`*ḥ` في الشمالية الغربية إلى الآرامية في هذا المسار، أو صف موقع صريح له",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:fcffd6bef64938e4d6d89b7e`، דמר ↔ دمر",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "جسر معنى منشور بين الدهش أو العجب وبين الدمار، أو عضو عربي مباشر",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:23d9025ee0c2079d9f5fffca`، נהר",
+   "verdict": "",
+   "closure": "TOOL-GAP.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مخرج جذر عربي كامل مرخص لـنهر أو قراءة مجمدة له قبل اختبار المعنى",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:8bb6f2ad42ead0512c200e83`، גרע ↔ قرع",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع لمسار ג/g الآرامية إلى ق العربية أو قرار مفوض له قبل الحكم",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:b8602d39c7cbb881ef22fbf4`، צות ↔ صوت",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "جسر معنى منشور بين السماع أو الطاعة وبين الصوت الصادر",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:ca4ea1ad3ad7a32ea07e963f`، רגג ↔ رجج",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "جسر معنى منشور بين الرغبة أو الشهوة وبين الاضطراب، أو مقابل عربي مباشر",
+   "row_mentions": []
+  },
+  {
    "file": "04-cross-linguistic/readings/coptic.md",
    "card": "šnfe «scale (of fish)»، إعادةُ فتحٍ بعدَ مسحِ الجذر العربي",
    "verdict": "",
@@ -24732,6 +24852,19 @@
    ],
    "blocker_type": "MORPHOLOGY-GAP",
    "required": "فصل الأعضاء بصرف منشور قبل توريث أي قراءة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح مروحة المعاجم العربية القديمة للمرشحين الكاملين.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "ⲕⲙⲧⲟ «حركة الأرض، زلزال»",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "تحليل صرفي منشور لأجزاء المدخل المركب قبل إسناد صوامته إلى جذر؛ عائق إضافي=SOURCE-GAP؛ يتطلب=سلف مصري فردي مسمى أو مسار اقتراض منشور.",
    "row_mentions": []
   },
   {
@@ -27820,6 +27953,32 @@
    ],
    "blocker_type": "TOOL-GAP",
    "required": "مسح مروحة المعاجم العربية القديمة للمرشحين الكاملين.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "ⲣϭⲟⲙ «يمارس القوة، يفعل المعجزات»",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "تحليل منشور للمركب وربط عناصره بلممها قبل استعادة الجذر؛ عائق إضافي=SOURCE-GAP؛ يتطلب=سلف مصري فردي أو مسار اقتراض منشور.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "ⲥⲁⲕⲃⲓ «يرش الماء، يسكب ماءً في طقس»",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE + SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "مسح مروحة معجمين عربيين قديمين للجذر الكامل سكب؛ عائق إضافي=SOURCE-GAP؛ يتطلب=صلة مصرية قبطية فردية منشورة أو تأثيل مسمى.",
    "row_mentions": []
   },
   {
@@ -34484,6 +34643,45 @@
   },
   {
    "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "ꜥnb «حلفاء، عشب يستعمل في الحصر»",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE + SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "مسح مروحة معجمين عربيين قديمين للمقابل الكامل المحتمل؛ عائق إضافي=SOURCE-GAP؛ يتطلب=سلف قبطي فردي أو مقارنة منشورة مسماة تصل المدخل المصري بمقابل سامي.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "ḫww «دناءة، فعل سيئ، خطيئة»",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE + SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "اختيار المقابل بعد مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP؛ يتطلب=مقارنة سامية منشورة أو شاهد قبطي فردي.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "nbḏ «يكون شريرًا، مدمّرًا»",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE + SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "مسح مروحة معجمين عربيين قديمين للمرشح الكامل نبذ؛ عائق إضافي=SOURCE-GAP؛ يتطلب=مقارنة سامية منشورة أو شاهد قبطي فردي.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
    "card": "`egyptian:family:2873cc4488454a75ab8dbaa8`، mn.w (الرتبة 502)",
    "verdict": "",
    "closure": "TOOL-GAP",
@@ -39836,6 +40034,186 @@
    ],
    "blocker_type": "OPEN-CANDIDATE",
    "required": "شاهد معجمي عبري مسمى يصل عيد חג بالقصد الحجي قبل أي حكم على חגג",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:51f200a4d18f98496eea1968`، עצם «عظم» ↔ عظم",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إحالة توراتية أو مشنائية منشورة للعضو `kaikki_hebrew:981:en-עצם-he-noun-yNrPZX~p`",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:d6c636a1d355cf166096ec36`، צבי «ظبي» ↔ ظبي",
+   "verdict": "",
+   "closure": "TOOL-GAP.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "قراءة جذر مجمدة لـ`ظبي` أو إحالة نافذة إليها",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:71e5c8f1dfdb275576a38634`، עורב «غراب» ↔ غراب",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إحالة توراتية أو مشنائية منشورة للعضو `kaikki_hebrew:2788:en-עורב-he-noun-CSzaOQtH`",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:b930643d04915762cdb86332`، עזה «غزة» ↔ غزة",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "فصل منشأ الاسم المشترك أو مسار انتقاله قبل الحكم النسبي",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:f5d326e68dd28aecbf997554`، צעיר «صغير» ↔ صغير",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إحالة توراتية أو مشنائية منشورة للعضو `kaikki_hebrew:2960:en-צעיר-he-adj-6X2vGms9`",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:4e6d0ff7f8e256db90b211b4`، מערה «مغارة» ↔ مغارة",
+   "verdict": "",
+   "closure": "TOOL-GAP.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "قراءة جذر مجمدة لـ`مغر` أو إحالة نافذة إليها",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:d0fada61aa11fbfee70fe83f`، עלם «شاب» ↔ غلام",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "نص أصل مقارن وشاهد عبري قديم للعضو `kaikki_hebrew:3509:en-עלם-he-noun-eyAYQY~L`",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:9bb9582b5980353810e095c2`، פרעוש «برغوث» ↔ برغوث",
+   "verdict": "",
+   "closure": "TOOL-GAP.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "قراءة جذر أو صيغة مجمدة لـ`برغوث`، وشاهد عبري قديم للعضو `kaikki_hebrew:5540:en-פרעוש-he-noun-4bYHLAKf`",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:a7819d39d0cb251de1ce8e79`، כבר «نهر كِبار»",
+   "verdict": "",
+   "closure": "مفصلة أدناه.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "أصل منشور للاسم الجغرافي أو مقابل عربي مسمى في المصدر",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:47b8a938888419807fd76160`، סקר «نظر بطرف العين» ↔ سكر أو سقر",
+   "verdict": "",
+   "closure": "مفصلة أدناه.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "مقارنة منشورة تعيّن المقابل العربي ودلالته",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:6a6beef7fd0b81d6d8e04a9c`، צפה «راقب»",
+   "verdict": "",
+   "closure": "مفصلة أدناه.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف مدرسي موقع يحدد طريق `צ` إلى المقابل العربي المقترح، ثم مصدر مقارن للمعنى",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:94faf49a1b23e70eb065aeba`، סחר «اجتاز أو اتجر» ↔ سحر",
+   "verdict": "",
+   "closure": "مفصلة أدناه.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "مصدر مقارن يربط العضو العبري بالمقابل العربي ويسند المدار",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:a645ef7bd28bf9d9b63948da`، בצר «ذهب أو حصد»",
+   "verdict": "",
+   "closure": "مفصلة أدناه.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع لـ`צ` أو مقارنة منشورة تعيّن مقابلا عربيا بعينه لكل عضو",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:eff76426093d62c496f0c6ae`، נגע «آفة أو ضربة»",
+   "verdict": "",
+   "closure": "مفصلة أدناه.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "مسار صوت موقع ومصدر مقارن يربط العضو العربي المقترح بالفعل أو الاسم العبري",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`hebrew:family:59c1e84f17b75a140a532245`، תוף «دف أو طبل»",
+   "verdict": "",
+   "closure": "مفصلة أدناه.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "مصدر مقارن يثبت صلة عربية أصيلة أو يفصل تحليل الاقتراض المنشور",
    "row_mentions": []
   },
   {
