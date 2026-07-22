@@ -23,7 +23,11 @@ def check_fixtures() -> list[str]:
             failures.append(f"missing row {row_id}")
             continue
         for field, value in fields.items():
-            got = list(getattr(rule, field)) if field == "scopes" else getattr(rule, field)
+            got = (
+                list(getattr(rule, field))
+                if field in {"scopes", "left_tokens", "right_tokens"}
+                else getattr(rule, field)
+            )
             if got != value:
                 failures.append(f"{row_id}.{field}: expected {value!r}, got {got!r}")
     return failures
@@ -32,7 +36,7 @@ def check_fixtures() -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Compile the frozen Markdown shift table without changing it.")
     parser.add_argument("--json", action="store_true", help="Print every compiled row as JSON.")
-    parser.add_argument("--check", action="store_true", help="Require 47 rows and pass the ten manual fixtures.")
+    parser.add_argument("--check", action="store_true", help="Require 47 rows and pass the manual fixtures.")
     args = parser.parse_args()
     rules = compile_network()
     if args.json:
@@ -47,7 +51,8 @@ def main() -> int:
             for failure in failures:
                 print(f"FAIL: {failure}")
             return 1
-        print("network compiler: PASS (47 rows; 10 manual fixtures)")
+        fixture_count = len(json.loads(FIXTURES.read_text(encoding="utf-8")))
+        print(f"network compiler: PASS (47 rows; {fixture_count} manual fixtures)")
     return 0
 
 
@@ -55,4 +60,3 @@ if __name__ == "__main__":
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     raise SystemExit(main())
-

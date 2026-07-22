@@ -121,7 +121,11 @@ def main() -> int:
             failures.append(f"network fixture missing: {row_id}")
             continue
         for field, value in fields.items():
-            got = list(getattr(rule, field)) if field == "scopes" else getattr(rule, field)
+            got = (
+                list(getattr(rule, field))
+                if field in {"scopes", "left_tokens", "right_tokens"}
+                else getattr(rule, field)
+            )
             if got != value:
                 failures.append(f"network fixture {row_id}.{field}: {got!r} != {value!r}")
 
@@ -195,6 +199,41 @@ def main() -> int:
     multi_rule_hits, _ = generate_hits(("p", "z"), "ancient_greek", rules, multi_rule_inventory)
     if not any(hit.form == "بذ" and hit.rule_ids == ("DENT-04", "LAB-01") for hit in multi_rule_hits):
         failures.append("multi-row retrieval regression: direct correspondences in two slots were lost")
+
+    # DENT-08 is documentary and deliberately manual. Its branch side stays in
+    # native script because the current profiles fold Hebrew tsade with samekh
+    # and Aramaic tet with taw. Prove the promised generation delta is exactly
+    # zero on both verified anchors and all three named negative controls.
+    dent08 = indexed.get("DENT-08")
+    if dent08 is None:
+        failures.append("DENT-08 zero-delta guard: row missing")
+    elif dent08.right_tokens or dent08.automation != "manual":
+        failures.append(
+            "DENT-08 zero-delta guard: row became generative "
+            f"(right_tokens={dent08.right_tokens!r}, automation={dent08.automation!r})"
+        )
+    else:
+        rules_without_dent08 = [rule for rule in rules if rule.row_id != "DENT-08"]
+        dent08_delta_cases = {
+            "hebrew": ("עצם", "צבי", "טורא", "טלא", "נטר"),
+            "aramaic": ("עטמא", "טביא", "נטר"),
+        }
+        for language, forms in dent08_delta_cases.items():
+            profile = load_profile(language)
+            for form in forms:
+                tokens = normalize(form, profile).tokens
+                hits_with, unmapped_with = generate_hits(tokens, language, rules, inventory)
+                hits_without, unmapped_without = generate_hits(
+                    tokens, language, rules_without_dent08, inventory
+                )
+                if (hits_with, unmapped_with) != (hits_without, unmapped_without):
+                    failures.append(
+                        f"DENT-08 generation delta is nonzero for {language} {form}"
+                    )
+                if any("DENT-08" in hit.rule_ids for hit in hits_with):
+                    failures.append(
+                        f"DENT-08 leaked into automatic candidates for {language} {form}"
+                    )
 
     load_review_states()
     load_family_review_states()
@@ -828,7 +867,10 @@ def main() -> int:
         for failure in failures:
             print(f"FAIL: {failure}")
         return 1
-    print("recovery pipeline: CLEAN (47 rows, 10 fixtures, normalization, sources, families, proof gate)")
+    print(
+        "recovery pipeline: CLEAN "
+        f"(47 rows, {len(expected)} fixtures, DENT-08 delta zero, normalization, sources, families, proof gate)"
+    )
     return 0
 
 

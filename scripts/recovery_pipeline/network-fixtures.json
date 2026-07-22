@@ -4,6 +4,7 @@
   "LAB-03": {"kind": "branch-correspondence", "direction": "forward", "scopes": ["germanic"], "automation": "manual"},
   "GUT-04": {"kind": "cross-script", "direction": "forward", "scopes": [], "automation": "automatic"},
   "SIB-04": {"kind": "cross-script", "direction": "forward", "scopes": ["iranian"], "automation": "automatic"},
+  "DENT-08": {"kind": "cross-script", "direction": "forward", "scopes": ["arabic", "aramaic", "hebrew"], "automation": "manual", "left_tokens": ["ظ"], "right_tokens": []},
   "GLD-01": {"kind": "arabic-correspondence", "direction": "both", "scopes": [], "automation": "manual-condition"},
   "BR-GRIM-01": {"kind": "branch-internal", "direction": "forward", "scopes": ["germanic"], "automation": "manual"},
   "BR-IRAN-02": {"kind": "branch-internal", "direction": "internal", "scopes": ["iranian"], "automation": "manual-condition"},
