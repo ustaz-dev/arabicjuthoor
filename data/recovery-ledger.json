@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3589,
+ "cards_total": 3632,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -23035,6 +23035,30 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:500ed7d567980213f5abf11f`، פלג ↔ فلق، تعليق LAW-GAP",
+   "verdict": "",
+   "closure": "LAW-GAP",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع يجيز g الآرامية إلى ق العربية في هذا الجذر، أو سند يثبت هوية الصوت الأم",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "(إعادةُ توسيم): المراجعةُ المضادّةُ الثالثةُ لحصادِ الموجةِ ب (2026-07-21)",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "إعادة قراءة פלג على مرشح فلج بالمروحة المكتملة في الجولة القادمة",
+   "row_mentions": []
+  },
+  {
    "file": "04-cross-linguistic/readings/coptic.md",
    "card": "šnfe «scale (of fish)»، إعادةُ فتحٍ بعدَ مسحِ الجذر العربي",
    "verdict": "",
@@ -39786,6 +39810,20 @@
    ],
    "blocker_type": "READY",
    "required": "المراجعة المضادة الثالثة قبل الإيداع",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "(إعادةُ توسيم): المراجعةُ المضادّةُ الثالثةُ لحسمِ الشريحةِ العبريّة 1-300 (2026",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "TOOL-GAP",
+    "SOURCE-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
    "row_mentions": []
   },
   {
