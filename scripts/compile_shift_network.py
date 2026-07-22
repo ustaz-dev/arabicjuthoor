@@ -32,7 +32,7 @@ def check_fixtures() -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Compile the frozen Markdown shift table without changing it.")
     parser.add_argument("--json", action="store_true", help="Print every compiled row as JSON.")
-    parser.add_argument("--check", action="store_true", help="Require 46 rows and pass the ten manual fixtures.")
+    parser.add_argument("--check", action="store_true", help="Require 47 rows and pass the ten manual fixtures.")
     args = parser.parse_args()
     rules = compile_network()
     if args.json:
@@ -41,13 +41,13 @@ def main() -> int:
         print(json.dumps(network_report(rules), ensure_ascii=False, indent=2))
     if args.check:
         failures = check_fixtures()
-        if len(rules) != 46:
-            failures.append(f"expected 46 operative rows, got {len(rules)}")
+        if len(rules) != 47:
+            failures.append(f"expected 47 operative rows, got {len(rules)}")
         if failures:
             for failure in failures:
                 print(f"FAIL: {failure}")
             return 1
-        print("network compiler: PASS (46 rows; 10 manual fixtures)")
+        print("network compiler: PASS (47 rows; 10 manual fixtures)")
     return 0
 
 
