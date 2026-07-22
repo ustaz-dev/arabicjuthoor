@@ -27,3 +27,7 @@
 يزولُ الاختناقُ الأوسط: الصفوفُ المدرسيّةُ الناقصةُ (وستظهرُ عشراتٌ منها معَ توسّعِ العبريّةِ واللغاتِ القادمة) تدخلُ الشبكةَ يومَ اكتشافِها بقرارٍ معلَّلٍ بدلَ أسبوعِ انتظار، ويتفرّغُ المؤلّفُ للقراراتِ التي هي قراراتُه حقًّا: البرهان، والنشر، وجبل، والمصادر.
 
 *English abstract:* A standing classified delegation is proposed: textbook correspondence rows and step-zero morphology rules with named standard sources, plus operational tool-data fixes and exploration-layer card fates, may be enacted by the third lens through fully reasoned delegated rulings filed same-day in the audit trail; the proof-line signature and execution, anything touching Jabal's frozen readings, publication and promotion decisions, purchases and new source adoptions, and observational semantic bridges remain the author's alone. Every delegated ruling is reversible retroactively by a single word.
+
+## القرار الصادر (2026-07-22)
+
+أجاب المؤلف نصًا: **«فوض»**. التفويض نافذ بحدوده، وسجل التوقيع في `05-audits/2026-07-22-author-signed-standing-delegation.md`.
