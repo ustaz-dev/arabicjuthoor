@@ -58,6 +58,11 @@ def clipped(value: str, limit: int | None) -> str:
     return value[: max(0, limit - 1)].rstrip() + "…"
 
 
+def is_clipped(value: str, limit: int | None) -> bool:
+    """Say whether display clipping hid part of a lexicographic witness."""
+    return limit is not None and len(" ".join(value.split())) > limit
+
+
 def canonical_source_id(source: str) -> str | None:
     """Map duplicate resource labels to the independent work they represent."""
     folded = unicodedata.normalize("NFKC", source).strip().casefold()
@@ -99,12 +104,14 @@ def parquet_matches(resources: Path, root: str, limit: int | None) -> list[dict[
     table = ds.dataset(path, format="parquet").to_table(filter=ds.field("root") == root)
     matches: list[dict[str, Any]] = []
     for row in table.to_pylist():
+        definition = row.get("definition") or ""
         matches.append(
             {
                 "collection": "arabic_roots_hf",
                 "source": row.get("book_name") or path.name,
                 "root": row.get("root") or root,
-                "definition": clipped(row.get("definition") or "", limit),
+                "definition": clipped(definition, limit),
+                "definition_truncated": is_clipped(definition, limit),
                 "url": row.get("url") or None,
             }
         )
@@ -138,6 +145,7 @@ def csv_matches(resources: Path, root: str, limit: int | None) -> list[dict[str,
                         "source": path.name,
                         "root": row[0],
                         "definition": clipped(definition, limit),
+                        "definition_truncated": is_clipped(definition, limit),
                         "url": None,
                     }
                 )
@@ -167,12 +175,14 @@ def matches_for_roots(
                 root = normalize_root(row.get("root") or "")
                 if root not in result:
                     continue
+                definition = row.get("definition") or ""
                 result[root].append(
                     {
                         "collection": "arabic_roots_hf",
                         "source": row.get("book_name") or parquet.name,
                         "root": row.get("root") or root,
-                        "definition": clipped(row.get("definition") or "", limit),
+                        "definition": clipped(definition, limit),
+                        "definition_truncated": is_clipped(definition, limit),
                         "url": row.get("url") or None,
                     }
                 )
@@ -202,6 +212,7 @@ def matches_for_roots(
                             "source": path.name,
                             "root": row[0],
                             "definition": clipped(definition, limit),
+                            "definition_truncated": is_clipped(definition, limit),
                             "url": None,
                         }
                     )
@@ -264,11 +275,19 @@ def independent_fan(
                 }
             )
 
-    complete = len(selected) >= minimum_sources
+    source_coverage_complete = len(selected) >= minimum_sources
+    truncated = any(bool(item.get("definition_truncated")) for item in matches)
+    # A displayed fan is not admissible for a linguistic verdict if any
+    # lexicographic witness has been shortened.  It can still be useful as a
+    # navigation aid, but the caller must rerun it without a character cap.
+    complete = source_coverage_complete and not truncated
     preferred = {"lisan", "taj_al_arus"}
     return {
         "minimum_sources": minimum_sources,
         "complete": complete,
+        "source_coverage_complete": source_coverage_complete,
+        "truncated": truncated,
+        "judgment_ready": complete,
         "fallback_used": complete
         and {item["source_id"] for item in selected} != preferred,
         "selected_sources": selected,
@@ -289,6 +308,7 @@ def root_sense_fan(
     return {
         "root": root,
         "match_count": len(matches),
+        "truncated": any(bool(item.get("definition_truncated")) for item in matches),
         "matches": matches,
         "independent_fan": independent_fan(matches, minimum_sources),
     }
@@ -348,6 +368,8 @@ def main() -> int:
             f"المروحة المستقلة: {'مكتملة' if fan['complete'] else 'ناقصة'}"
             f" | المصدران المستعملان: {source_names}"
         )
+        if fan["truncated"]:
+            print("تحذير: المروحة مقتطعة للعرض ولا تصلح لحكم؛ أعد التشغيل بـ --max-chars 0.")
         for index, item in enumerate(matches, start=1):
             print(f"\n[{index}] {item['source']} ({item['collection']})")
             print(item["definition"])

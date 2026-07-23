@@ -1,0 +1,29 @@
+{
+  "profile_version": 1,
+  "language": "welsh",
+  "label": "Welsh",
+  "family_max_lemma_count": 256,
+  "source": {
+    "id": "kaikki_welsh_2026_07_23",
+    "format": "kaikki-jsonl",
+    "path": "Resources/welsh/kaikki.org-dictionary-Welsh.jsonl",
+    "origin": "https://kaikki.org/dictionary/Welsh/",
+    "expected_language_code": "cy",
+    "expected_size_bytes": 59319858,
+    "expected_entries": 27715,
+    "md5": "b9857dba252c80a49a259a6dc190db0e",
+    "sha256": "584fc51b62d17cf32df12e389127135f781eebe4e69a4aed573241b34c5d82b5",
+    "license": "CC BY-SA and GFDL",
+    "scope_note": "لقطة Kaikki الويلزية المثبتة؛ جرد استرجاعي لا يمثل المعجم الويلزي التاريخي كاملًا."
+  },
+  "preferred_input": ["romanization", "original"],
+  "script_map": {"ŵ": "w", "ẅ": "w", "ŷ": "y", "ẏ": "y", "â": "a", "ê": "e", "î": "i", "ô": "o", "û": "u", "á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "à": "a", "è": "e", "ì": "i", "ò": "o", "ù": "u"},
+  "combining_map": {},
+  "vowels": ["a", "e", "i", "o", "u", "w", "y", "â", "ê", "î", "ô", "û", "ŵ", "ŷ", "á", "é", "í", "ó", "ú", "à", "è", "ì", "ò", "ù"],
+  "multi_tokens": {"ch": ["kh"], "dd": ["dh"], "ff": ["f"], "ng": ["n", "g"], "ll": ["ll"], "ph": ["f"], "rh": ["r", "h"], "th": ["th"], "w": ["w"], "y": ["y"]},
+  "single_tokens": ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "x", "z"],
+  "ignored_characters": [" ", "-", "_", ".", ",", ";", ":", "·", "'", "’", "ʼ", "(", ")", "[", "]", "/", "\\", "?", "*"],
+  "ambiguous_sequences": {"ll": "صامت جانبي احتكاكي في الويلزية، محفوظ رمزًا مستقلًا.", "rh": "ر ابتدائية مهموسة في الرسم؛ لا تفك إلى قاعدة تحول كلتية.", "w": "قد تكون صامتًا أو حركة؛ تحفظها طبقة الاسترجاع ولا تسقطها، ويحسم العضو يدويًا.", "y": "قد تكون صامتًا أو حركة؛ تحفظها طبقة الاسترجاع ولا تسقطها، ويحسم العضو يدويًا."},
+  "zero_step": {"entry_policy": "canonical lemma; form-of rows remain inventoried and link only to a named lemma family", "automatic_affixes": [], "note": "لا تطبق التعريـة الاستهلالية الكلتية في التطبيع. أي قاعدة خطوة صفر للـlenition تبقى مرشحًا لقرار مفوض بمصدر النحو الويلزي المسمى قبل الاستعمال."},
+  "relevant_branch_rules": []
+}

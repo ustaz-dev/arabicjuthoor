@@ -1,0 +1,31 @@
+{
+  "profile_version": 1,
+  "language": "persian",
+  "label": "Persian",
+  "family_max_lemma_count": 256,
+  "source": {
+    "id": "kaikki_persian_2026_07_23",
+    "format": "kaikki-jsonl",
+    "path": "Resources/persian/kaikki.org-dictionary-Persian.jsonl",
+    "origin": "https://kaikki.org/dictionary/Persian/",
+    "expected_language_code": "fa",
+    "expected_size_bytes": 78152193,
+    "expected_entries": 19361,
+    "md5": "f7bdd1e5820d028fd3fbe7bfea1f1ddc",
+    "sha256": "434606a6b343480fcfe817c7cff34e3791b1fe5c6829703b65cb13445fc6029c",
+    "license": "CC BY-SA and GFDL",
+    "scope_note": "لقطة Kaikki الفارسية المثبتة؛ جرد استرجاعي لا يمثل المعجم الفارسي التاريخي كاملًا."
+  },
+  "preferred_input": ["romanization", "original"],
+  "script_map": {
+    "ا": "a", "آ": "a", "أ": "a", "إ": "a", "ب": "b", "پ": "p", "ت": "t", "ث": "s", "ج": "j", "چ": "ch", "ح": "h", "خ": "kh", "د": "d", "ذ": "z", "ر": "r", "ز": "z", "ژ": "zh", "س": "s", "ش": "sh", "ص": "s", "ض": "z", "ط": "t", "ظ": "z", "ع": "ayin", "غ": "gh", "ف": "f", "ق": "q", "ک": "k", "ك": "k", "گ": "g", "ل": "l", "م": "m", "ن": "n", "و": "w", "ه": "h", "ة": "h", "ی": "y", "ي": "y", "ى": "a", "ء": "qstop", "ئ": "qstop", "ؤ": "w", "ـ": ""
+  },
+  "combining_map": {"064B": "", "064C": "", "064D": "", "064E": "", "064F": "", "0650": "", "0651": "", "0652": "", "0653": "", "0654": "", "0655": "", "0670": ""},
+  "vowels": ["a", "e", "i", "o", "u", "ā", "ē", "ī", "ō", "ū", "â", "ê", "î", "ô", "û", "ă", "ĕ", "ĭ", "ŏ", "ŭ", "æ"],
+  "multi_tokens": {"qstop": ["qstop"], "ayin": ["ayin"], "kh": ["kh"], "gh": ["gh"], "ch": ["ch"], "sh": ["sh"], "zh": ["zh"], "ph": ["ph"], "th": ["th"], "dh": ["dh"]},
+  "single_tokens": ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"],
+  "ignored_characters": [" ", "-", "_", "‌", "‍", "ـ", ".", ",", ";", ":", "؟", "!", "·", "'", "’", "ʼ", "\"", "(", ")", "[", "]", "/", "\\", "?", "*", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹"],
+  "ambiguous_sequences": {"و": "قد تمثل صامتًا أو حامل حركة في الرسم الفارسي؛ الرومنة المنشورة مقدمة عند وجودها.", "ی": "قد تمثل صامتًا أو حامل حركة في الرسم الفارسي؛ الرومنة المنشورة مقدمة عند وجودها."},
+  "zero_step": {"entry_policy": "canonical lemma; form-of rows remain inventoried and link only to a named lemma family", "automatic_affixes": [], "note": "لا تنزع لواصق فارسية ولا عربية آليًا. عزل القرض العربي الوسيط إجراء قراءة لاحق لا خاصية يولدها هذا الملف."},
+  "relevant_branch_rules": ["BR-IRAN-01", "BR-IRAN-02", "SIB-04"]
+}

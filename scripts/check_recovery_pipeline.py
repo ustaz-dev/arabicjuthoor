@@ -28,7 +28,7 @@ from recovery_pipeline.sources import (
 )
 from recovery_pipeline.proof import load_preregistration, require_execution_authority
 from export_egyptian_gap_cards import candidate_text, rank_window, sound_path_text
-from search_arabic_root_senses import independent_fan
+from search_arabic_root_senses import DEFAULT_RESOURCES, independent_fan, root_sense_fan
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -79,6 +79,13 @@ def main() -> int:
             failures.append(f"Arabic fan counted duplicate editions as sources for {root}")
         if any(not item["definition"].strip() for item in selected):
             failures.append(f"Arabic fan selected an empty definition for {root}")
+    truncated_batn = root_sense_fan(DEFAULT_RESOURCES, "بطن", 1200)
+    if not truncated_batn["truncated"] or truncated_batn["independent_fan"]["judgment_ready"]:
+        failures.append("Arabic fan truncation guard failed for بطن")
+    full_batn = root_sense_fan(DEFAULT_RESOURCES, "بطن", None)
+    full_text = " ".join(item["definition"] for item in full_batn["matches"])
+    if full_batn["truncated"] or "المرأة" not in full_text or "ولد" not in full_text:
+        failures.append("Arabic fan full-text recovery regression for بطن")
     ranked_fixture = [
         {"family_id": "egyptian:family:000000000000000000000001"},
         {"family_id": "egyptian:family:000000000000000000000002"},

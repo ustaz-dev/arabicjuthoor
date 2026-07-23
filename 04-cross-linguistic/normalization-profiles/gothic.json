@@ -1,0 +1,29 @@
+{
+  "profile_version": 1,
+  "language": "gothic",
+  "label": "Gothic",
+  "family_max_lemma_count": 256,
+  "source": {
+    "id": "kaikki_gothic_2026_07_23",
+    "format": "kaikki-jsonl",
+    "path": "Resources/gothic/kaikki.org-dictionary-Gothic.jsonl",
+    "origin": "https://kaikki.org/dictionary/Gothic/",
+    "expected_language_code": "got",
+    "expected_size_bytes": 46274339,
+    "expected_entries": 23005,
+    "md5": "d1102369ba286c1ebdcc4768f42a4ff7",
+    "sha256": "7711b10f2d34c701b55035ae86974be6f1b41aeb3b4fa8a67e4fd3924286126e",
+    "license": "CC BY-SA and GFDL",
+    "scope_note": "لقطة Kaikki القوطية المثبتة؛ جرد استرجاعي لا يمثل كل مدونة القوطية أو معجمها التاريخي كاملًا."
+  },
+  "preferred_input": ["romanization", "original"],
+  "script_map": {"þ": "th", "ð": "dh", "ƕ": "hw", "ƀ": "b", "ǥ": "g", "𐌰": "a", "𐌱": "b", "𐌲": "g", "𐌳": "d", "𐌴": "e", "𐌵": "q", "𐌶": "z", "𐌷": "h", "𐌸": "th", "𐌹": "i", "𐌺": "k", "𐌻": "l", "𐌼": "m", "𐌽": "n", "𐌾": "j", "𐌿": "u", "𐍀": "p", "𐍂": "r", "𐍃": "s", "𐍄": "t", "𐍅": "w", "𐍆": "f", "𐍇": "x", "𐍈": "hw", "𐍉": "o"},
+  "combining_map": {},
+  "vowels": ["a", "e", "i", "o", "u", "ā", "ē", "ī", "ō", "ū", "â", "ê", "î", "ô", "û", "ă", "ĕ", "ĭ", "ŏ", "ŭ", "ä", "ö", "ü"],
+  "multi_tokens": {"th": ["th"], "dh": ["dh"], "hw": ["h", "w"], "kh": ["kh"], "ph": ["ph"], "qu": ["k", "w"], "kw": ["k", "w"]},
+  "single_tokens": ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"],
+  "ignored_characters": [" ", "-", "_", ".", ",", ";", ":", "·", "'", "’", "ʼ", "(", ")", "[", "]", "/", "\\", "?", "*"],
+  "ambiguous_sequences": {"þ": "القيمة الاحتكاكية محفوظة رمزًا مستقلًا ولا تطوى إلى تاء.", "ð": "القيمة الاحتكاكية المجهورة محفوظة ولا تطوى إلى d.", "ƕ": "الرسم القوطي hw مركب منشور لا قانون إبدال."},
+  "zero_step": {"entry_policy": "canonical lemma; form-of rows remain inventoried and link only to a named lemma family", "automatic_affixes": [], "note": "لا تنزع النهايات القوطية آليًا. صفا غريم وفيرنر يطبقان في القراءة البشرية على الشروط المنشورة، لا في تعرية صرفية."},
+  "relevant_branch_rules": ["BR-GRIM-01", "BR-GRIM-02", "BR-VERN-01"]
+}

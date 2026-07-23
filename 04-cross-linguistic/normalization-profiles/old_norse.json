@@ -1,0 +1,29 @@
+{
+  "profile_version": 1,
+  "language": "old_norse",
+  "label": "Old Norse",
+  "family_max_lemma_count": 256,
+  "source": {
+    "id": "kaikki_old_norse_2026_07_23",
+    "format": "kaikki-jsonl",
+    "path": "Resources/old_norse/kaikki.org-dictionary-OldNorse.jsonl",
+    "origin": "https://kaikki.org/dictionary/Old%20Norse/",
+    "expected_language_code": "non",
+    "expected_size_bytes": 36527386,
+    "expected_entries": 11169,
+    "md5": "74d280cbe8b4a38364ef2d67b834f43b",
+    "sha256": "b6684c10c321015633fd5b7e434ed5013710db82b5d4e9d894c8017438189716",
+    "license": "CC BY-SA and GFDL",
+    "scope_note": "لقطة Kaikki النوردية القديمة المثبتة؛ جرد استرجاعي لا يمثل كل مدونة النوردية القديمة أو معجمها التاريخي كاملًا."
+  },
+  "preferred_input": ["romanization", "original"],
+  "script_map": {"ð": "dh", "þ": "th", "æ": "a", "ǫ": "o", "ø": "o", "œ": "o", "ö": "o", "å": "a", "ʀ": "r", "ᴀ": "a"},
+  "combining_map": {},
+  "vowels": ["a", "e", "i", "o", "u", "y", "á", "é", "í", "ó", "ú", "ý", "æ", "ǫ", "ø", "ö", "œ", "ā", "ē", "ī", "ō", "ū", "ă", "ĕ", "ĭ", "ŏ", "ŭ"],
+  "multi_tokens": {"th": ["th"], "dh": ["dh"], "kh": ["kh"], "ph": ["ph"], "hv": ["h", "w"], "qu": ["k", "w"], "kw": ["k", "w"]},
+  "single_tokens": ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"],
+  "ignored_characters": [" ", "-", "_", ".", ",", ";", ":", "·", "'", "’", "ʼ", "(", ")", "[", "]", "/", "\\", "?", "*"],
+  "ambiguous_sequences": {"þ": "القيمة الاحتكاكية المهموسة محفوظة رمزًا مستقلًا ولا تطوى إلى تاء.", "ð": "القيمة الاحتكاكية المجهورة محفوظة رمزًا مستقلًا ولا تطوى إلى d.", "ǫ": "حرف مد أو حركة تاريخية؛ لا تستعاد منه قيمة صامتة."},
+  "zero_step": {"entry_policy": "canonical lemma; form-of rows remain inventoried and link only to a named lemma family", "automatic_affixes": [], "note": "لا تنزع النهايات النوردية آليًا. صفا غريم وفيرنر قرينة قراءة بشرية مشروطة، لا عملية تطبيع."},
+  "relevant_branch_rules": ["BR-GRIM-01", "BR-GRIM-02", "BR-VERN-01"]
+}
