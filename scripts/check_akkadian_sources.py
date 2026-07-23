@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the pinned Akkadian inventory and, optionally, the local CAD copy."""
+"""Verify the pinned Akkadian retrieval overlay and local source stack."""
 
 from __future__ import annotations
 
@@ -12,6 +12,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PROFILE_PATH = ROOT / "04-cross-linguistic/normalization-profiles/akkadian.json"
 CAD_PIN_PATH = ROOT / "04-cross-linguistic/data/akkadian-cad-volume-pin.json"
+AUXILIARY_PIN_PATH = (
+    ROOT / "04-cross-linguistic/data/akkadian-auxiliary-source-pin.json"
+)
+OVERLAY_PIN_PATH = (
+    ROOT / "04-cross-linguistic/data/akkadian-lexical-overlay-pin.json"
+)
 
 
 def digest(path: Path, algorithm: str) -> str:
@@ -22,7 +28,7 @@ def digest(path: Path, algorithm: str) -> str:
     return hasher.hexdigest()
 
 
-def verify_kaikki() -> dict[str, object]:
+def verify_inventory_overlay() -> dict[str, object]:
     profile = json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
     source = profile["source"]
     path = ROOT / source["path"]
@@ -69,6 +75,67 @@ def verify_kaikki() -> dict[str, object]:
         "distinct_words": len(words),
         "problems": problems,
     }
+
+
+def verify_pinned_files(
+    pin_path: Path, collection_key: str
+) -> dict[str, object]:
+    pin = json.loads(pin_path.read_text(encoding="utf-8"))
+    items = pin[collection_key]
+    problems: list[str] = []
+    verified = 0
+    for item in items:
+        path = ROOT / item["path"]
+        if not path.is_file():
+            problems.append(f"missing pinned file: {item['path']}")
+            continue
+        actual_size = path.stat().st_size
+        if actual_size != item["bytes"]:
+            problems.append(
+                f"size mismatch for {item['path']}: "
+                f"{actual_size} != {item['bytes']}"
+            )
+            continue
+        file_ok = True
+        for algorithm in ("md5", "sha256"):
+            actual = digest(path, algorithm)
+            if actual != item[algorithm]:
+                problems.append(
+                    f"{algorithm} mismatch for {item['path']}: "
+                    f"{actual} != {item[algorithm]}"
+                )
+                file_ok = False
+        if file_ok:
+            verified += 1
+    return {
+        "pin": str(pin_path.relative_to(ROOT)),
+        "file_count": len(items),
+        "verified": verified,
+        "problems": problems,
+    }
+
+
+def verify_overlay_outputs() -> dict[str, object]:
+    result = verify_pinned_files(OVERLAY_PIN_PATH, "outputs")
+    pin = json.loads(OVERLAY_PIN_PATH.read_text(encoding="utf-8"))
+    problems = result["problems"]
+    for item in pin["outputs"]:
+        path = ROOT / item["path"]
+        if not path.is_file():
+            continue
+        if path.suffix == ".jsonl":
+            with path.open(encoding="utf-8") as handle:
+                rows = sum(1 for _ in handle)
+        else:
+            json.loads(path.read_text(encoding="utf-8"))
+            rows = 1
+        if rows != item["rows"]:
+            problems.append(
+                f"row mismatch for {item['path']}: {rows} != {item['rows']}"
+            )
+    result["counts"] = pin["counts"]
+    result["claims"] = pin["claims"]
+    return result
 
 
 def verify_cad(require_local: bool) -> dict[str, object]:
@@ -133,10 +200,18 @@ def main() -> int:
     args = parser.parse_args()
 
     result = {
-        "kaikki": verify_kaikki(),
+        "inventory_overlay": verify_inventory_overlay(),
+        "auxiliary_sources": verify_pinned_files(
+            AUXILIARY_PIN_PATH, "sources"
+        ),
+        "overlay_outputs": verify_overlay_outputs(),
         "cad": verify_cad(args.require_local_cad),
     }
-    problems = result["kaikki"]["problems"] + result["cad"]["problems"]
+    problems = [
+        problem
+        for section in result.values()
+        for problem in section["problems"]
+    ]
     result["passed"] = not problems
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result["passed"] else 1

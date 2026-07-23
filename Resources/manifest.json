@@ -1,13 +1,37 @@
 {
- "generated": "2026-07-23 (expanded Akkadian Kaikki snapshot pinned; CAD kept local under its terms)",
+ "generated": "2026-07-23 (Akkadian retrieval overlay corrected after author objection; CAD kept local under its terms)",
  "sources": [
+  {
+   "name": "akkadian_lexical_overlay",
+   "language": "Akkadian",
+   "path": "akkadian/derived/akkadian-lexical-headwords.jsonl",
+   "format": "generated jsonl",
+   "origin": "Kaikki lexical rows + Kaggle Akkadian-English Lexical Index v25 + DAL P 1.1",
+   "note": "6820 exact citation strings, 6321 comparison-hint groups, and 4769 structural families; retrieval only, not a complete historical lexicon"
+  },
   {
    "name": "kaikki_akkadian",
    "language": "Akkadian",
    "path": "akkadian/kaikki.org-dictionary-Akkadian.jsonl",
    "format": "jsonl",
    "origin": "https://kaikki.org/dictionary/Akkadian/",
-   "note": "2026-07-16 snapshot: 1325 rows and 1213 distinct words; first-pass inventory only, with CAD required for individual verification"
+   "note": "2026-07-16 raw snapshot: 1325 rows; 451 character records are excluded from the lexical overlay, leaving 874 lexical records and 827 exact headwords"
+  },
+  {
+   "name": "kaggle_akkadianenglish_lexical_index_v25",
+   "language": "Akkadian",
+   "path": "akkadian/kaggle-akkadianenglish-lexical-index-v25/akkadian_english_dictionary.csv",
+   "format": "csv, local and ignored",
+   "origin": "https://www.kaggle.com/datasets/xjoannax88/akkadianenglish-lexical-index",
+   "note": "5488 rows and 5470 case-folded citation strings; CC BY-SA 4.0; dataset card names SEAL upstream"
+  },
+  {
+   "name": "digital_akkadian_lexicon_p_1_1",
+   "language": "Akkadian",
+   "path": "akkadian/dal-p-v1.1/",
+   "format": "HTML and PDF, local and ignored",
+   "origin": "https://www.dnms.org/dal.html",
+   "note": "published letter P only: 970 stable IDs and 877 exact headword strings; CC BY-NC 4.0"
   },
   {
    "name": "chicago_assyrian_dictionary",

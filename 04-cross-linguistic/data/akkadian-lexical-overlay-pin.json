@@ -1,0 +1,45 @@
+{
+  "schema": "akkadian-lexical-overlay-pin-v1",
+  "generated_on": "2026-07-23",
+  "builder": "scripts/build_akkadian_lexical_overlay.py",
+  "source_pin": "04-cross-linguistic/data/akkadian-auxiliary-source-pin.json",
+  "outputs": [
+    {
+      "role": "provenance-preserving-source-records",
+      "path": "Resources/akkadian/derived/akkadian-lexical-source-records.jsonl",
+      "bytes": 2399105,
+      "rows": 7332,
+      "md5": "f5a1aae269c0e0297d8a281a06e98844",
+      "sha256": "483e9c268ed8ff59ca6e12c30a75d05f1275992cbf4be537a9ccecd736bdcbb7"
+    },
+    {
+      "role": "exact-surface-headword-overlay",
+      "path": "Resources/akkadian/derived/akkadian-lexical-headwords.jsonl",
+      "bytes": 3579603,
+      "rows": 6820,
+      "md5": "8e59391b6abd185099fbc21ecdefe64e",
+      "sha256": "c4980c0c5633e338b1656965669b919cbd456e2e398335fb737458ab372dc419"
+    },
+    {
+      "role": "build-summary",
+      "path": "Resources/akkadian/derived/akkadian-lexical-overlay-summary.json",
+      "bytes": 596,
+      "rows": 1,
+      "md5": "156e22744e1b2b1a301a1691d87c5b43",
+      "sha256": "4f0768c1151f8cf9a256ac3a0d7751f737dbd82b22990efd875dafaa458ab347"
+    }
+  ],
+  "counts": {
+    "source_records": 7332,
+    "exact_surface_headwords": 6820,
+    "comparison_hint_groups": 6321,
+    "families": 4769,
+    "blocked_without_romanization": 3,
+    "proper_name_records": 515
+  },
+  "claims": {
+    "linguistic_verdicts": false,
+    "complete_published_lexicon": false,
+    "comparison_key_merges_source_records": false
+  }
+}

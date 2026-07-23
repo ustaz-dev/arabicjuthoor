@@ -1,0 +1,64 @@
+{
+  "schema": "akkadian-auxiliary-source-pin-v1",
+  "pinned_on": "2026-07-23",
+  "sources": [
+    {
+      "id": "kaikki_akkadian_2026_07_16",
+      "role": "structured-scout",
+      "origin": "https://kaikki.org/dictionary/Akkadian/",
+      "path": "Resources/akkadian/kaikki.org-dictionary-Akkadian.jsonl",
+      "bytes": 2850860,
+      "md5": "d1355c339107aa60fd43ae3a7987be45",
+      "sha256": "a73d3cc5f9a3001e3be064003101dacdf03be9c5a73944fa846ac533aa738b1c",
+      "license": "CC BY-SA and GFDL through the Wiktionary source layer",
+      "scope": "1325 rows; includes nonlexical cuneiform-character records"
+    },
+    {
+      "id": "kaggle_akkadianenglish_lexical_index_v25",
+      "role": "structured-lexical-scout",
+      "origin": "https://www.kaggle.com/datasets/xjoannax88/akkadianenglish-lexical-index",
+      "upstream": "SEAL, Sources of Early Akkadian Literature, as named by the dataset card",
+      "path": "Resources/akkadian/kaggle-akkadianenglish-lexical-index-v25/akkadian_english_dictionary.csv",
+      "bytes": 168533,
+      "md5": "1bd962a884b67e18c46c9fda246df00a",
+      "sha256": "6d348c807d6f40bee98268e4b2a4092b286a8863b064a6c4b3448887cd88a1f1",
+      "license": "CC BY-SA 4.0",
+      "dataset_version": 25,
+      "scope": "5488 rows; 5470 case-folded distinct citation strings; includes onomastic labels"
+    },
+    {
+      "id": "kaggle_akkadianenglish_lexical_index_metadata_v25",
+      "role": "license-and-version-evidence",
+      "origin": "https://www.kaggle.com/api/v1/datasets/view/xjoannax88/akkadianenglish-lexical-index",
+      "path": "Resources/akkadian/kaggle-akkadianenglish-lexical-index-v25/metadata-v25.json",
+      "bytes": 12134,
+      "md5": "be786834fde1757f44b8b80d902a82a2",
+      "sha256": "9cde8984fb67bd98cb50367178ac5af6fe8b9fcf5743eb93f67d52e4f7f7b3ff",
+      "license": "CC BY-SA 4.0",
+      "dataset_version": 25,
+      "scope": "dataset card and version metadata; not lexical input"
+    },
+    {
+      "id": "dal_p_1_1",
+      "role": "published-letter-lexicon",
+      "origin": "https://www.dnms.org/dal/p.html",
+      "path": "Resources/akkadian/dal-p-v1.1/dal-p.html",
+      "bytes": 1073165,
+      "md5": "10d014e3dd5aa7e19627659e295b7be7",
+      "sha256": "ae15c8ea5c1569447465cf6c42da5a3cc05857b6e925aa6c7a46fd6422356683",
+      "license": "CC BY-NC 4.0 as stated in DAL-P 1.1",
+      "scope": "letter P only; 970 stable word IDs, P0001-P0829 and PN001-PN141"
+    },
+    {
+      "id": "dal_p_pdf_1_1",
+      "role": "published-letter-verification-copy",
+      "origin": "https://www.dnms.org/dal/DAL-P-1_1.pdf",
+      "path": "Resources/akkadian/dal-p-v1.1/DAL-P-1_1.pdf",
+      "bytes": 1298614,
+      "md5": "4713c67ab3c63fc8a9ae7efb9e385c85",
+      "sha256": "45af24908c02647fc0bf1c8c2f9d4b62271ed92ace1b5c11cca60d9ff2bf499d",
+      "license": "CC BY-NC 4.0",
+      "scope": "formatted verification copy; no information beyond the corrected JSON/online edition"
+    }
+  ]
+}

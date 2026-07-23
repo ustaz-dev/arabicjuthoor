@@ -4,17 +4,17 @@
   "label": "Akkadian",
   "family_max_lemma_count": 256,
   "source": {
-    "id": "kaikki_akkadian_2026_07_16",
+    "id": "akkadian_lexical_overlay_2026_07_23",
     "format": "kaikki-jsonl",
-    "path": "Resources/akkadian/kaikki.org-dictionary-Akkadian.jsonl",
-    "origin": "https://kaikki.org/dictionary/Akkadian/",
+    "path": "Resources/akkadian/derived/akkadian-lexical-headwords.jsonl",
+    "origin": "04-cross-linguistic/data/akkadian-auxiliary-source-pin.json",
     "expected_language_code": "akk",
-    "expected_size_bytes": 2850860,
-    "expected_entries": 1325,
-    "md5": "d1355c339107aa60fd43ae3a7987be45",
-    "sha256": "a73d3cc5f9a3001e3be064003101dacdf03be9c5a73944fa846ac533aa738b1c",
-    "license": "CC BY-SA and GFDL through the Wiktionary source layer",
-    "scope_note": "لقطة Kaikki الأكادية المؤرخة 2026-07-16؛ جرد استرجاعي أولي لا يمثل معجم الأكادية التاريخي كاملًا، وتبقى بطاقة الحكم ملزمة بإسناد CAD فردي."
+    "expected_size_bytes": 3579603,
+    "expected_entries": 6820,
+    "md5": "8e59391b6abd185099fbc21ecdefe64e",
+    "sha256": "c4980c0c5633e338b1656965669b919cbd456e2e398335fb737458ab372dc419",
+    "license": "mixed open source overlay: Kaikki CC BY-SA/GFDL, Kaggle CC BY-SA 4.0, DAL P CC BY-NC 4.0",
+    "scope_note": "اتحاد استرجاعي من Kaikki وKaggle v25 وDAL P 1.1؛ 6820 صورة رأسية مضبوطة بالرسم، لا يمثل معجم الأكادية التاريخي كاملًا، وتبقى بطاقة الحكم ملزمة بإسناد CAD فردي."
   },
   "preferred_input": ["romanization", "original"],
   "script_map": {
