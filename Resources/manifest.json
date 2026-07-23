@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18 (bounded Phoenician and Punic scouts added and pinned)",
+ "generated": "2026-07-23 (expanded Akkadian Kaikki snapshot pinned; CAD kept local under its terms)",
  "sources": [
   {
    "name": "kaikki_akkadian",
@@ -7,7 +7,15 @@
    "path": "akkadian/kaikki.org-dictionary-Akkadian.jsonl",
    "format": "jsonl",
    "origin": "https://kaikki.org/dictionary/Akkadian/",
-   "note": "only ~50 entries; not a working lexicon"
+   "note": "2026-07-16 snapshot: 1325 rows and 1213 distinct words; first-pass inventory only, with CAD required for individual verification"
+  },
+  {
+   "name": "chicago_assyrian_dictionary",
+   "language": "Akkadian",
+   "path": "akkadian/cad/",
+   "format": "26 PDF files, local and ignored",
+   "origin": "https://isac.uchicago.edu/research/publications/chicago-assyrian-dictionary",
+   "note": "complete official CAD download for individual verification only; 787534769 bytes; personal noncommercial copy; do not redistribute"
   },
   {
    "name": "kaikki_ancient_greek",
