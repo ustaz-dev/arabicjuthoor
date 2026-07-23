@@ -28,6 +28,8 @@ from recovery_pipeline.sources import (
 )
 from recovery_pipeline.proof import load_preregistration, require_execution_authority
 from export_egyptian_gap_cards import candidate_text, rank_window, sound_path_text
+from export_week17_nucleus_reverse_sweep import leading_nuclei
+from export_week17_persian_loan_isolation import check_classifier_contract
 from search_arabic_root_senses import DEFAULT_RESOURCES, independent_fan, root_sense_fan
 
 
@@ -183,6 +185,24 @@ def main() -> int:
     except ValueError:
         pass
 
+    try:
+        check_classifier_contract()
+    except ValueError as error:
+        failures.append(f"Persian Arabic-route classifier regression: {error}")
+    week17_nuclei = leading_nuclei(
+        ROOT / "03-scholar-extracts" / "nucleus-field-cards-draft.md"
+    )
+    redirects = [item for item in week17_nuclei if item["dissolved_redirect"]]
+    if (
+        len(week17_nuclei) != 28
+        or len(redirects) != 1
+        or redirects[0]["nucleus"] != "مو"
+        or redirects[0]["effective_nucleus"] != "مه"
+    ):
+        failures.append(
+            "Week 17 nucleus reverse-sweep regression: the 28 cards or مو→مه redirect changed"
+        )
+
     inventory = ArabicInventory.load()
     dahab = normalize(emphatic.comparison, aramaic_profile)
     dahab_hits, _ = generate_hits(dahab.tokens, "aramaic", rules, inventory)
@@ -194,6 +214,28 @@ def main() -> int:
         failures.append("treis regression: ثر scope-gap was not retained")
     if any(hit.form == "ثر" and hit.status == "licensed" for hit in greek_hits):
         failures.append("treis regression: DENT-01 escaped its Aramaic scope")
+
+    persian_profile = load_profile("persian")
+    persian_sh_script = normalize("فشاری", persian_profile)
+    persian_sh_roman = normalize("fešari", persian_profile)
+    if persian_sh_script.tokens != ("f", "sh", "r", "y"):
+        failures.append(
+            f"Persian script ش regression: {persian_sh_script.tokens!r}"
+        )
+    if persian_sh_roman.tokens != ("f", "sh", "r"):
+        failures.append(
+            f"Persian roman š regression: {persian_sh_roman.tokens!r}"
+        )
+    persian_sh_hits, _ = generate_hits(
+        persian_sh_roman.tokens, "persian", rules, inventory
+    )
+    if any(hit.form == "صر" and hit.status == "licensed" for hit in persian_sh_hits):
+        failures.append("Persian š regression: fešari silently licensed صر as if š were s")
+    persian_ch_gh = normalize("čerâġ", persian_profile)
+    if persian_ch_gh.tokens != ("ch", "r", "gh"):
+        failures.append(
+            f"Persian č/ġ regression: {persian_ch_gh.tokens!r}"
+        )
     coptic = normalize("ϣⲛϥⲉ", load_profile("coptic"))
     coptic_hits, _ = generate_hits(coptic.tokens, "coptic", rules, inventory)
     if not any(hit.form == "شن" and hit.status == "licensed" for hit in coptic_hits):
