@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 3927,
+ "cards_total": 3935,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
@@ -46315,10 +46315,62 @@
    "verdict": "",
    "closure": "TOOL-GAP",
    "gaps": [
-    "TOOL-GAP"
+    "TOOL-GAP",
+    "LAW-GAP",
+    "SOURCE-GAP"
    ],
    "blocker_type": "TOOL-GAP",
    "required": "لا شيء في هذه الحملة، إذ ليس وحدة معجمية.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/phoenician-punic-scout.md",
+   "card": "rgz «to disturb»",
+   "verdict": "ROOT-TRACE\n- القراءة الدلالية العضوية: اكتملت المرو",
+   "closure": "READY",
+   "gaps": [
+    "LAW-GAP",
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "كوكب يحتاج تحليل الواو الداخلية من الصورة السامية المنشورة",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/phoenician-punic-scout.md",
+   "card": "qbr «tomb»",
+   "verdict": "ROOT-TRACE\n- القراءة الدلالية العضوية: اكتملت المرو",
+   "closure": "READY",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إسناد فينيقي أو بونيقي منشور فردي وراء اللمة قبل إصدار الحكم المحلي",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/phoenician-punic-scout.md",
+   "card": "tḥt «underneath, under»",
+   "verdict": "ROOT-TRACE\n- القراءة الدلالية العضوية: اكتملت المرو",
+   "closure": "READY",
+   "gaps": [
+    "LAW-GAP",
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "شاهد نحوي تاريخي فردي ومقارنة وظيفية منشورة؛ لا تُقاس الأداة بوصفها جذر اسم جنس",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/phoenician-punic-scout.md",
+   "card": "(إعادةُ توسيم): رفعُ ظلِّ القرضِ عن 𐤆𐤉𐤕 وتصنيفُ 𐤊𐤌𐤍 بقاعدةِ عمقِ القرض (2026-07-",
+   "verdict": "",
+   "closure": "",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إسناد فينيقي فردي لزيت، وفتح الأكادية لقراءة سلسلة الكمون من جهة مانحها",
    "row_mentions": []
   },
   {
@@ -47371,10 +47423,50 @@
    "verdict": "",
    "closure": "TOOL-GAP",
    "gaps": [
-    "TOOL-GAP"
+    "TOOL-GAP",
+    "LAW-GAP",
+    "SOURCE-GAP"
    ],
    "blocker_type": "TOOL-GAP",
    "required": "مرشح جذر كامل أو أجوف مرخص، أو قرار مؤلفي معلل بعد فحص النوى والمصدر الفردي",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/punic.md",
+   "card": "ʿbd «slave, servant»",
+   "verdict": "ROOT-TRACE\n- القراءة الدلالية العضوية: اكتملت المرو",
+   "closure": "READY",
+   "gaps": [
+    "LAW-GAP",
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إسناد فينيقي أو بونيقي منشور فردي وراء اللمة قبل إصدار الحكم المحلي",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/punic.md",
+   "card": "lbn «white»",
+   "verdict": "ROOT-TRACE\n- القراءة الدلالية العضوية: اكتملت المرو",
+   "closure": "READY",
+   "gaps": [
+    "LAW-GAP",
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إسناد فينيقي أو بونيقي منشور فردي وراء اللمة قبل إصدار الحكم المحلي",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/punic.md",
+   "card": "tyn «fig»",
+   "verdict": "ROOT-TRACE\n- القراءة الدلالية العضوية: اكتملت المرو",
+   "closure": "READY",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إسناد فينيقي أو بونيقي منشور فردي وراء اللمة قبل إصدار الحكم المحلي",
    "row_mentions": []
   },
   {
