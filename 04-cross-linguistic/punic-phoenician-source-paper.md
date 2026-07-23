@@ -38,3 +38,15 @@
 يوقف المحلل عند صف فاسد أو رمز لغة مخالف أو حقل أساسي غائب. ويفصل وصف
 المصدر إلى شاهد نقش مسمى، وشاهد نصي آخر، وتعمير، وعلم، وحالة غير محسومة.
 كل مخرج يحمل قيد عدم الشمول، ولم تُكتب بطاقة حكم من هاتين اللقطتين.
+
+## حجمُ المعجمِ العالميِّ وموقعُ لقطتِنا منه (تحقُّقٌ خارجيٌّ مؤرَّخٌ 2026-07-23)
+
+سألَ المؤلّفُ عن عددِ الكلماتِ البونيقيّةِ في المعاجمِ العالميّة، فبُحِثَ الأمرُ وتُحقِّقَ من المصدرِ نصًّا:
+
+> "The attested Phoenician-Punic vocabulary is not large or very well understood. In a recent study of the Northwest Semitic lexicon, Halayqa (2008: 473) tallies 1038 Phoenician-Punic words in DNWSI and PPD. The meaning of more than one-fourth of the words is unknown or uncertain."
+
+> "The estimate of 1039 lexemes in the extant corpus of Phoenician and Punic inscriptions recently made by Issam Halayqa (2008: 18) is based on the standard lexicon (DNWSI), and could be augmented by little more than a percent to account for newly published inscriptions and a small number of still unpublished inscriptions."
+
+**المصدر:** Philip C. Schmitz, "Greek Words in Phoenician and Punic: Recently Identified Examples", *Aula Orientalis* (نسخةُ IPOA بجامعةِ برشلونة)، وفيه يُحيلُ إلى Halayqa 2008 وإلى المعجمَينِ القياسيَّين DNWSI (Hoftijzer & Jongeling 1995) وPPD (Krahmalkov 2000).
+
+**الخلاصةُ الحاكمةُ لنطاقِنا:** المعجمُ الفينيقيُّ البونيقيُّ المُثبَتُ في العالمِ كلِّه نحو **1,038 إلى 1,039 لمّةً** لا أكثر، **وأكثرُ من ربعِها معناه مجهولٌ أو غيرُ يقينيّ**، والقروضُ اليونانيّةُ فيه أقلُّ من 2%. ولقطتُنا المثبَتةُ 276 مدخلًا في 261 أسرةً، أي **نحوَ ربعِ ما تملكُه البشريّةُ من هاتَينِ اللغتَين**. فقيدُ «اللقطةِ المحدودة» يبقى قائمًا بنصِّه (لقطتُنا ليست المعجمَ التاريخيَّ كاملًا)، لكنّه لا يعني فتاتًا من بحرٍ: هو ربعُ بحرٍ صغيرٍ أصلًا، ومحدوديّتُه محدوديّةُ ما بقيَ من النقوشِ لا محدوديّةُ منهجِنا.
