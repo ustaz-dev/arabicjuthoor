@@ -31,6 +31,7 @@ REPORT = ROOT / "Data raw" / "cooke1903_text" / "mistral_ocr" / "quality-report.
 HEB_RANGE = re.compile(r"[֐-׿]")
 NIQQUD = re.compile(r"[֑-ׇ]")  # cantillation + vowel points
 HEB_WORD = re.compile(r"[א-ת]{1,}")
+LETTER_WORD = re.compile(r"[^\W\d_]+", re.UNICODE)
 
 
 def strip_points(s: str) -> str:
@@ -38,14 +39,51 @@ def strip_points(s: str) -> str:
     return NIQQUD.sub("", unicodedata.normalize("NFD", s))
 
 
-def repetition_score(body: str) -> tuple[float, str]:
-    """Fraction of Hebrew tokens taken by the single most repeated token."""
-    words = HEB_WORD.findall(strip_points(body))
+def repetition_score(body: str) -> tuple[float, str, str]:
+    """Return the strongest token or phrase repetition score in any script.
+
+    OCR loops are not confined to Hebrew. A failed page can repeat Arabic,
+    Latin, or another script while containing very little Hebrew. Measure
+    unigrams and short n-grams over all letter tokens so those pages are
+    quarantined before an inscription parser sees them.
+    """
+    stripped = strip_points(body)
+    words = [word.casefold() for word in LETTER_WORD.findall(stripped)]
     if len(words) < 8:
-        return 0.0, ""
-    counts = Counter(words)
-    top, n = counts.most_common(1)[0]
-    return n / len(words), top
+        return 0.0, "", ""
+
+    best_score = 0.0
+    best_token = ""
+    best_basis = ""
+    for width in range(1, 7):
+        available = len(words) - width + 1
+        if available <= 0:
+            break
+        grams = Counter(tuple(words[i : i + width]) for i in range(available))
+        gram, count = grams.most_common(1)[0]
+        if width == 1:
+            score = count / len(words)
+            minimum_count = 8
+        else:
+            score = (count * width) / len(words)
+            minimum_count = 4
+        if count >= minimum_count and score > best_score:
+            best_score = score
+            best_token = " ".join(gram)
+            best_basis = f"{width}-gram"
+
+    # Preserve the earlier Hebrew-sensitive guard for short inscription blocks.
+    # A fourfold repeated Hebrew token can dominate an eight-token inscription,
+    # yet fall below the general minimum count used for long prose pages.
+    hebrew_words = HEB_WORD.findall(stripped)
+    if len(hebrew_words) >= 8:
+        token, count = Counter(hebrew_words).most_common(1)[0]
+        score = count / len(hebrew_words)
+        if score > best_score:
+            best_score = score
+            best_token = token
+            best_basis = "hebrew-unigram"
+    return min(best_score, 1.0), best_token, best_basis
 
 
 def main() -> int:
@@ -71,7 +109,7 @@ def main() -> int:
         had_points = bool(NIQQUD.search(body))
         stripped = strip_points(body)
         heb_after = len(HEB_RANGE.findall(stripped))
-        score, token = repetition_score(body)
+        score, token, basis = repetition_score(body)
         suspect = score >= 0.30
 
         total_heb_before += heb_before
@@ -87,12 +125,16 @@ def main() -> int:
             "had_vowel_points": had_points,
             "repetition_ratio": round(score, 3),
             "repeated_token": token if suspect else "",
+            "repetition_basis": basis if suspect else "",
             "flagged_repetition": suspect,
         })
 
         header = f"\n\n<!-- PAGE {pno}"
         if suspect:
-            header += f" | FLAGGED repetition ratio={score:.2f} token={token}"
+            header += (
+                f" | FLAGGED repetition ratio={score:.2f}"
+                f" basis={basis} token={token}"
+            )
         header += " -->\n"
         clean_chunks.append(header + stripped)
 

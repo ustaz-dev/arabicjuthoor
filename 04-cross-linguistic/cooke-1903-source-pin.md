@@ -68,3 +68,33 @@
 الملفُّ المعتمَدُ للاستشهادِ هو `cooke1903_clean.md` (المنقَّى) لا الخام. وكلُّ بطاقةٍ تستشهدُ به تسمّي رقمَ النقشِ ورقمَ الصفحة، وتأخذُ الصورةَ الكتابيّةَ من الهيكلِ الصامتيِّ المجرَّد، والمعنى من ترجمةِ Cooke أو شرحِه، وتتحقّقُ من وسمِ `FLAGGED` قبلَ الاعتماد. وتبقى لقطاتُنا المثبَّتةُ شاهدًا موازيًا حيثُ وُجِدَ الزوجُ في الجهتَين.
 
 *English abstract (execution note):* The full book was OCR'd through the Mistral Batch API per the author's standing instruction that all Mistral work go through batches, as one job of 24 twenty-page requests, all 24 succeeding. Recovery: 472 of 472 pages, 5.37 million characters, 99,638 Semitic characters where the legacy OCR yielded none usable, reduced to 77,903 consonantal characters after stripping model-supplied pointing. The decisive proof is the Yehawmilk of Byblos inscription, previously pure noise, now readable and matching its own facing translation. Two measured defects are recorded and handled: the model supplies vocalisation absent from Cooke's consonantal print (115 pages, stripped, never citable), and it enters repetition loops on dense commentary (19 of 472 pages, each marked FLAGGED with its ratio and looped token, never citable without checking the page image). Cards cite the cleaned file only, naming inscription and page.
+
+## تصحيحٌ جوهريٌّ بعدَ اصطيادِ الجلسةِ الصناعيّةِ عيبًا في أداةِ التنقية (2026-07-24)
+
+**السند:** نبّهَ Codex إلى أنّ منقّي العدسةِ الثالثةِ يرصدُ تكرارَ الكلماتِ العبريّةِ وحدَها، فتمرُّ حلقاتُ هلوسةٍ بلغاتٍ أخرى بلا رصد. **والدعوى صحيحةٌ وواقعُها أشدُّ ممّا وُصِف**، ومسؤوليّةُ العيبِ على العدسةِ الثالثةِ لا عليه: كُتِبَ المنقّي أوّلَ مرّةٍ بعدَ التحقُّقِ من صفحةٍ واحدةٍ ممتازةٍ (نقشِ جبيل)، وعُمِّمَ من عيّنةٍ صالحةٍ بلا قياسِ توزيعِ الفشلِ على الكتابِ كلِّه. وهذا عينُ ما يحذّرُ منه الميثاق.
+
+### ما كشفَه القياسُ الكامل
+
+الخامُ يحملُ **2,502,781 حرفًا عربيًّا** في كتابٍ إنجليزيٍّ عن نقوشِ شمالِ الساميّة، أي 47% من مخرجِ التفريغ، ومعها هلوساتٌ بالأردية، وتسرُّبُ تعليقِ النموذجِ على نفسِه («The Ground Truth image displays...»، «According to Rule 2») 119 مرّة، ومخرجاتُ كشفٍ بصريٍّ بصيغةِ JSON (`box_2d`) بدلَ النصّ. ولو بُنيَ فهرسُ نقوشٍ على الخامِ لدخلَه هذا كلُّه.
+
+### السببُ الحقيقيُّ للفشل، وقد قِيسَ لا خُمِّن
+
+فحصُ نمطِ الفشلِ حسمَ الأمر: **الصفحاتُ الفرديّةُ نجحَت 92% والزوجيّةُ فشلَت 99%**. ثمّ قياسُ كثافةِ الحبرِ على الصفحاتِ نفسِها أعطى الجواب: **الصفحاتُ الزوجيّةُ بيضاءُ تمامًا** (نسبةُ الحبرِ 0.00% وصورةٌ واحدةٌ وصفرُ نصّ)، والفرديّةُ مليئةٌ (نحو 11% حبرًا وصورتان وآلافُ الحروف). فالملفُّ 472 صفحةً لكنّ الكتابَ **236 صفحةَ محتوًى** وبينَها فواصلُ بيضاء، والنموذجُ كانَ يهلوسُ على البياضِ كعادةِ النماذجِ البصريّةِ أمامَ صفحةٍ خالية.
+
+### الحصيلةُ الصحيحةُ بعدَ التصحيح
+
+| المقياس | القيمة |
+|---|---|
+| صفحاتُ المحتوى الحقيقيّة | 236 (لا 472) |
+| المقروءةُ قراءةً سليمةً منها | **217، أي 92%** |
+| صفحاتُ المحتوى الفاشلة | 19 فقط |
+| الحروفُ الساميّةُ في الصفحاتِ السليمة | 72,530 |
+| الصفحاتُ البيضاءُ المعزولة | 233 |
+
+فالفزعُ الأوّلُ من «47% خردة» كانَ في محلِّه من جهةِ التلوّث، وليسَ في محلِّه من جهةِ الفقد: **لم يضعْ من الكتابِ شيءٌ يُذكَر**، والخردةُ كلُّها هلوسةٌ على بياض. والصفحاتُ التسعَ عشرةَ الفاشلةُ فعلًا مسمّاةٌ بأرقامِها في تقريرِ التحقُّق، وأكثرُها لوحاتُ جداولِ أبجديّاتٍ أو صفحاتُ شرحٍ كثيف.
+
+### الأداةُ النافذةُ الآن
+
+`scripts/validate_cooke1903_ocr.py` يصنّفُ كلَّ صفحةٍ ويعزلُ الملوّثَ بأسبابِه: طوفانُ خطٍّ أجنبيٍّ لا محلَّ له في الكتاب، وتسرُّبُ تعليقِ النموذج، ودوراتُ التكرارِ بأيِّ لغةٍ وبأيِّ طولِ عبارةٍ حتى ستِّ كلمات، والصفحةُ الخاليةُ من مضمون. ومخرجُه `cooke1903_usable.md` هو **الملفُّ الوحيدُ الذي يجوزُ الاستشهادُ به**، وتقريرُ `validation-report.json` يحملُ سببَ كلِّ استبعاد.
+
+*English abstract:* The industrial session caught a real defect in the third lens's own cleaning tool: its repetition detector measured Hebrew tokens only, so hallucination loops in other scripts passed unseen. The claim was verified and proved understated. The raw batch output carries 2.5 million Arabic-block characters, roughly 47 percent of the output, plus Urdu loops, 119 leaks of the model's own meta-commentary, and JSON vision-annotation objects in place of text. Root cause was then measured rather than guessed: odd pages succeeded at 92 percent while even pages failed at 99 percent, and ink measurement showed the even pages are entirely blank separators at 0.00 percent ink against 11 percent on content pages. The file has 472 pages but the book has 236 pages of content, and the model hallucinated on blank input. Corrected result: 217 of 236 real content pages recovered cleanly, 92 percent, holding 72,530 Semitic characters; only 19 content pages failed, each named in the report. Nothing of the book was lost; the contamination was hallucination over blankness. A new validator quarantines pages by explicit reason and its output is the only citable file.
