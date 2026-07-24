@@ -345,3 +345,26 @@
 ### قاعدة الإيقاع
 
 في كل وقت: مسار إكمال واحد يقود (اليوم العبرية)، ومسارات شرائح تتقدم بالتوازي في المفتوح، وورقة مصادر واحدة على الأقل تنضج في الخلفية للطبقة الخامسة. وكل اكتمال لغة يعلن بمحضر مثل محضر الآرامية.
+## 19. تكليف الجولة الجديدة: عمقا في الأكادية وتفعيل طبقة Cooke (2026-07-25، قرار مفوض بموجب تفويض 2026-07-22)
+
+مساران يتقدمان بالتوازي في نافذة واحدة، وكلاهما بلا سنت واحد: كل المواد محلية.
+
+### المسار الأول: الأكادية من 6,820 رأسا نحو معجم CAD الكامل
+
+1. **استخراج رؤوس CAD من النصوص المحلية** (`Data raw/Assyrian_cad/`، 26 ملف djvu.txt، 41.4 مليون حرف، لا PDF ولا OCR مدفوع). ابن مستخرج رؤوس من نص المجلدات.
+2. **درس Cooke ينفذ هنا حرفيا: قس قبل أن تعمم.** عندنا معيار ذهبي جاهز: DAL المنشور يغطي حرف P كاملا (877 رأسا مثبتة عندنا). استخرج رؤوس `cad_p_djvu.txt` أولا وقس الاسترداد والدقة مقابل DAL-P بالمعرفات. لا يعمم المستخرج على بقية الحروف الخمسة والعشرين إلا بعد نشر رقمي الاسترداد والدقة في محضر، وبعتبة يعلنها المحضر نفسه. وإن ثبت أن نص djvu أفقر من أن يعطي استخراجا نظيفا، يسجل ذلك عائقا مقيسا بالأرقام ولا يلوى عنق النص.
+3. **الجرد المنهجي يواصل بلا توقف** بالترتيب الحتمي القائم: بطاقات كاملة الحقول على قالب RECOVERY-v2، والعد بالمعرفات لا بالعناوين (درس عد 129 نافذ). دفعات الأحكام تبقى محلية حتى مراجعة العدسة الثالثة، والبنية والأدوات تدفع بعد ختم البوابات CLEAN.
+
+### المسار الثاني: طبقة Cooke من مرشحة إلى مستشهد بها
+
+السجلات الـ153 كلها خلف بوابة الفحص البصري التي شرعتها أنت، والمرحلة الثانية هي عبورها:
+
+1. **مقابلة بصرية سجلا سجلا**: افتح صورة صفحة PDF، قابل النص الصامتي المرشح والترجمة المرشحة على المطبوع، صحح ما انحرف (خطر العمودين الموثق عندك)، ثم ارفع وسم السجل إلى `visually-collated` مع حقل يسجل ما تغير في المقابلة. ابدأ بالفينيقية (33 سجلا) ثم البونيقية والبونيقية الحديثة (25)، فهما وقود خط الاسترداد الأفقر ذخيرة.
+2. **الوحدات السبع الفجوات** (31، 36، 37، 51، 65، 122، 123): انسخ نصها وترجمتها من صورة الصفحة نسخا بشريا مباشرا، فOCR مرفوض فيها قطعا، ووثق كل سجل بأنه منقول من الصورة.
+3. **حارس الطبقة يبقى CLEAN بعد كل دفعة**، ولا يصدر أي حكم لغوي من داخل الطبقة: القراءات تجري في ملفات readings وحدها وتستشهد بالسجل المقابل برقم Cooke ورقم الصفحة.
+
+### قاعدة الإيقاع لهذه الجولة
+
+الأكادية مسار الإكمال القائد (بكلمة المؤلف النافذة)، ومقابلة Cooke البصرية مسار شرائح يتقدم كل يوم ولو بعشرة سجلات. وكل دفعة تنتهي بمحضر أرقام معدود بالمعرفات.
+
+*English abstract (section 19):* New round, one window, two parallel tracks, zero spend. Track one: extract CAD headwords from the 26 local djvu.txt volumes, but the Cooke lesson is law: measure first against the published DAL letter P as gold standard (877 heads held locally), publish recovery and precision figures in a dated record before generalizing to the other 25 letters, and if the legacy text proves too poor, record a measured obstacle rather than forcing it; the systematic family inventory continues meanwhile, verdict batches staying local for third-lens review. Track two: the 153 Cooke records cross their own visual gate record by record, candidates collated against the page image, promoted to visually-collated with a change log, Phoenician first, the seven gap units transcribed by eye from the page images, the layer guard staying CLEAN and no linguistic verdict ever issued inside the layer.
