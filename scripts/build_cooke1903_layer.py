@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Build a conservative inscription inventory from Cooke 1903 OCR.
+"""Build a conservative inscription inventory from validated Cooke 1903 OCR.
 
-The source is the quality-filtered Mistral batch OCR. This builder does not
-make linguistic judgments. It records source identity, section, heading,
-location/date apparatus, page boundaries, consonantal text candidates, and
-translation candidates. OCR-suspect pages remain visible and are marked for
-visual review instead of being silently dropped.
+The only textual input is the validator's usable-page output. This builder
+does not make linguistic judgments. It records source identity, section,
+heading, location/date apparatus, page boundaries, consonantal text
+candidates, and translation candidates. Units whose pages were quarantined
+remain as visually verified inventory placeholders with no extracted text.
 """
 from __future__ import annotations
 
@@ -23,14 +23,14 @@ SOURCE = (
     / "Data raw"
     / "cooke1903_text"
     / "mistral_ocr"
-    / "cooke1903_clean.md"
+    / "cooke1903_usable.md"
 )
-QUALITY = (
+VALIDATION = (
     ROOT
     / "Data raw"
     / "cooke1903_text"
     / "mistral_ocr"
-    / "quality-report.json"
+    / "validation-report.json"
 )
 PDF = ROOT / "Data raw" / "Cooke 1903.pdf"
 OUTPUT = (
@@ -89,6 +89,70 @@ COMMENTARY_START_RE = re.compile(
     re.IGNORECASE,
 )
 
+# These seven numbered units begin on one of the 19 quarantined content
+# pages, so they cannot be parsed from cooke1903_usable.md. Their headings
+# were transcribed directly from the rendered PDF pages named here. They
+# remain empty inventory placeholders until their inscription text and
+# translation are manually verified from the page image.
+VISUALLY_VERIFIED_PLACEHOLDERS = [
+    {
+        "number": 31,
+        "label": "",
+        "title": "Abydos. CIS i 102. Circ. iv cent. In situ.",
+        "source_page": 121,
+        "printed_page": 91,
+        "line_number": 1000,
+    },
+    {
+        "number": 36,
+        "label": "",
+        "title": "Malta. CIS i 122. Date ii cent. B.C. Louvre.",
+        "source_page": 133,
+        "printed_page": 103,
+        "line_number": 1000,
+    },
+    {
+        "number": 37,
+        "label": "",
+        "title": "Malta. CIS i 123 a. Date uncertain. Malta.",
+        "source_page": 133,
+        "printed_page": 103,
+        "line_number": 2000,
+    },
+    {
+        "number": 51,
+        "label": "",
+        "title": "Cirta (Constantine). Costa 8.",
+        "source_page": 167,
+        "printed_page": 137,
+        "line_number": 1000,
+    },
+    {
+        "number": 65,
+        "label": "",
+        "title": "Nêrab 2. Prob. same date as 64. Louvre.",
+        "source_page": 219,
+        "printed_page": 189,
+        "line_number": 1000,
+    },
+    {
+        "number": 122,
+        "label": "",
+        "title": "Vog. 16. A.D. 131.",
+        "source_page": 311,
+        "printed_page": 281,
+        "line_number": 1000,
+    },
+    {
+        "number": 123,
+        "label": "",
+        "title": "Vog. 17. A.D. 254.",
+        "source_page": 313,
+        "printed_page": 283,
+        "line_number": 1000,
+    },
+]
+
 
 @dataclass(frozen=True)
 class Page:
@@ -144,6 +208,7 @@ def section_for(number: int, label: str) -> tuple[str, str]:
 
 def normalized_line(line: str) -> str:
     line = unicodedata.normalize("NFC", line).strip()
+    line = line.replace("\u2014", "-")
     line = re.sub(r"^#+\s*", "", line)
     return line.strip()
 
@@ -198,6 +263,7 @@ def find_headings(pages: list[Page]) -> list[dict]:
                         "page_flagged": page.flagged,
                         "ocr_number": raw_number,
                         "number_corrected": number != raw_number,
+                        "manual_visual_heading": False,
                     }
                 )
                 continue
@@ -221,6 +287,7 @@ def find_headings(pages: list[Page]) -> list[dict]:
                                 "page_flagged": page.flagged,
                                 "ocr_number": previous["number"],
                                 "number_corrected": False,
+                                "manual_visual_heading": False,
                             }
                         )
 
@@ -249,29 +316,47 @@ def record_block(
     pages_by_number: dict[int, Page],
     heading: dict,
     next_heading: dict | None,
-) -> tuple[str, list[int], bool]:
+    usable_pages: set[int],
+) -> tuple[str, list[int], list[int], list[int], bool]:
     start_page = heading["source_page"]
     end_page = next_heading["source_page"] if next_heading else start_page
     chunks: list[str] = []
-    used_pages: list[int] = []
+    source_pages: list[int] = []
+    used_ocr_pages: list[int] = []
+    quarantined_pages: list[int] = []
     any_flagged = False
 
     for page_number in range(start_page, end_page + 1):
+        source_pages.append(page_number)
+        if page_number not in usable_pages:
+            quarantined_pages.append(page_number)
+            continue
         page = pages_by_number.get(page_number)
         if page is None:
-            continue
-        if page_number == start_page:
-            body = page_text_from_line(page, heading["line_number"])
-        else:
-            body = page.body
-        if next_heading and page_number == next_heading["source_page"]:
-            body = "\n".join(
-                body.splitlines()[: max(next_heading["line_number"] - 1, 0)]
+            raise RuntimeError(
+                f"validated usable page missing from source: {page_number}"
             )
-        chunks.append(body)
-        used_pages.append(page_number)
         any_flagged = any_flagged or page.flagged
-    return "\n".join(chunks), used_pages, any_flagged
+
+        lines = page.body.splitlines()
+        start_index = (
+            heading["line_number"]
+            if page_number == start_page
+            else 0
+        )
+        end_index = len(lines)
+        if next_heading and page_number == next_heading["source_page"]:
+            end_index = max(next_heading["line_number"] - 1, 0)
+        body = "\n".join(lines[start_index:end_index])
+        chunks.append(body)
+        used_ocr_pages.append(page_number)
+    return (
+        "\n".join(chunks),
+        source_pages,
+        used_ocr_pages,
+        quarantined_pages,
+        any_flagged,
+    )
 
 
 def extract_consonantal_candidate(block: str) -> str:
@@ -322,27 +407,62 @@ def extract_translation_candidate(block: str) -> str:
 
 
 def main() -> int:
-    for path in (SOURCE, QUALITY, PDF):
+    for path in (SOURCE, VALIDATION, PDF):
         if not path.exists():
             sys.exit(f"missing required Cooke source: {path}")
 
     text = SOURCE.read_text(encoding="utf-8")
-    quality = json.loads(QUALITY.read_text(encoding="utf-8"))
+    validation = json.loads(VALIDATION.read_text(encoding="utf-8"))
+    usable_pages = {
+        row["page"]
+        for row in validation["pages"]
+        if row["usable"]
+    }
     pages = [
         Page(int(match.group(1)), match.group(2), match.group(3))
         for match in PAGE_RE.finditer(text)
     ]
     pages_by_number = {page.number: page for page in pages}
     headings = find_headings(pages)
+    headings.extend(
+        {
+            **placeholder,
+            "page_flagged": True,
+            "ocr_number": placeholder["number"],
+            "number_corrected": False,
+            "manual_visual_heading": True,
+        }
+        for placeholder in VISUALLY_VERIFIED_PLACEHOLDERS
+    )
+    headings.sort(
+        key=lambda heading: (
+            heading["source_page"],
+            heading["line_number"],
+        )
+    )
 
     records: list[dict] = []
     for index, heading in enumerate(headings):
         next_heading = headings[index + 1] if index + 1 < len(headings) else None
-        block, source_pages, any_flagged = record_block(
-            pages_by_number,
-            heading,
-            next_heading,
-        )
+        if heading["manual_visual_heading"]:
+            block = ""
+            source_pages = [heading["source_page"]]
+            used_ocr_pages = []
+            quarantined_pages = [heading["source_page"]]
+            any_flagged = True
+        else:
+            (
+                block,
+                source_pages,
+                used_ocr_pages,
+                quarantined_pages,
+                any_flagged,
+            ) = record_block(
+                pages_by_number,
+                heading,
+                next_heading,
+                usable_pages,
+            )
         section_id, section_label = section_for(
             heading["number"],
             heading["label"],
@@ -354,7 +474,11 @@ def main() -> int:
             record_id += ":" + re.sub(r"\s+", "-", heading["label"].lower())
         text_candidate = extract_consonantal_candidate(block)
         translation_candidate = extract_translation_candidate(block)
-        requires_visual = any_flagged or heading["number_corrected"]
+        # Cooke is printed in two columns. OCR reading order can cross the
+        # text/translation boundary even on an otherwise clean page, so every
+        # extracted field remains a retrieval candidate until the PDF image is
+        # checked. Quarantined pages are never used to populate the candidate.
+        requires_visual = True
         records.append(
             {
                 "record_id": record_id,
@@ -366,6 +490,8 @@ def main() -> int:
                 "source_page_pdf": heading["source_page"],
                 "source_page_printed": heading["printed_page"],
                 "source_pages_in_block": source_pages,
+                "ocr_pages_used": used_ocr_pages,
+                "quarantined_pages_skipped": quarantined_pages,
                 "cis": (
                     {
                         "volume": cis.group(1).lower(),
@@ -380,18 +506,23 @@ def main() -> int:
                 "ocr_quality": {
                     "start_page_flagged": heading["page_flagged"],
                     "block_contains_flagged_page": any_flagged,
+                    "start_page_usable": (
+                        heading["source_page"] in usable_pages
+                    ),
+                    "block_contains_quarantined_page": bool(
+                        quarantined_pages
+                    ),
                     "number_corrected_from_ocr": (
                         heading["ocr_number"]
                         if heading["number_corrected"]
                         else None
                     ),
+                    "heading_transcribed_from_pdf": heading[
+                        "manual_visual_heading"
+                    ],
                     "requires_pdf_visual_check_before_citation": requires_visual,
                 },
-                "status": (
-                    "candidate-requires-visual-check"
-                    if requires_visual
-                    else "candidate-from-clean-ocr"
-                ),
+                "status": "candidate-requires-visual-check",
                 "judgment": "not-issued",
             }
         )
@@ -415,21 +546,31 @@ def main() -> int:
             ),
             "pdf_path": "Data raw/Cooke 1903.pdf",
             "pdf_sha256": sha256(PDF),
-            "clean_ocr_path": (
-                "Data raw/cooke1903_text/mistral_ocr/cooke1903_clean.md"
+            "validated_ocr_path": (
+                "Data raw/cooke1903_text/mistral_ocr/cooke1903_usable.md"
             ),
-            "clean_ocr_sha256": sha256(SOURCE),
+            "validated_ocr_sha256": sha256(SOURCE),
             "quality_report_path": (
                 "Data raw/cooke1903_text/mistral_ocr/quality-report.json"
             ),
-            "pages_total": quality["pages_total"],
-            "pages_flagged_for_repetition": quality["summary"][
-                "pages_flagged_for_repetition"
+            "validation_report_path": (
+                "Data raw/cooke1903_text/mistral_ocr/validation-report.json"
+            ),
+            "pages_total": validation["summary"]["pages_total"],
+            "pages_flagged_for_repetition": validation["summary"][
+                "reason_counts"
+            ]["repetition"],
+            "pages_usable_after_validation": validation["summary"][
+                "pages_usable"
+            ],
+            "pages_quarantined_after_validation": validation["summary"][
+                "pages_quarantined"
             ],
             "vowel_points_removed": True,
             "scope_note": (
                 "طبقة مصدر استرجاعية لا معجم كامل لأي لغة. النص السامي "
-                "مرشح OCR صامتي، ولا يستشهد بصفحة موسومة قبل فحص صورة PDF."
+                "والترجمة مرشحا OCR فقط، وكل سجل يراجع على صورة PDF قبل "
+                "الاستشهاد به."
             ),
         },
         "inventory": {
@@ -448,6 +589,14 @@ def main() -> int:
             ),
             "records_with_translation_candidate": sum(
                 bool(record["translation_candidate"]) for record in records
+            ),
+            "records_with_quarantined_page_skipped": sum(
+                bool(record["quarantined_pages_skipped"])
+                for record in records
+            ),
+            "records_starting_on_quarantined_page": sum(
+                not record["ocr_quality"]["start_page_usable"]
+                for record in records
             ),
         },
         "records": records,
