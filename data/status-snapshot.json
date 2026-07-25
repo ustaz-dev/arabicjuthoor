@@ -10,132 +10,195 @@
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1799
+    "cards": 1799,
+    "links": 318
    },
    {
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 645
+    "cards": 645,
+    "links": 23
    },
    {
     "key": "coptic",
     "en": "Coptic",
     "ar": "القبطيّة",
-    "cards": 406
+    "cards": 406,
+    "links": 15
    },
    {
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 399
+    "cards": 399,
+    "links": 66
    },
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 166
+    "cards": 166,
+    "links": 9
    },
    {
     "key": "phoenician-punic-scout",
     "en": "Phoenician scout",
     "ar": "مسحُ الفينيقيّة",
-    "cards": 164
+    "cards": 164,
+    "links": 3
    },
    {
     "key": "akkadian",
     "en": "Akkadian",
     "ar": "الأكّاديّة",
-    "cards": 129
+    "cards": 129,
+    "links": 68
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 114
+    "cards": 114,
+    "links": 7
    },
    {
     "key": "welsh",
     "en": "Welsh",
     "ar": "الويلزيّة",
-    "cards": 100
+    "cards": 100,
+    "links": 2
    },
    {
     "key": "punic",
     "en": "Punic",
     "ar": "البونيقيّة",
-    "cards": 91
+    "cards": 91,
+    "links": 3
    },
    {
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 8
+    "cards": 8,
+    "links": 0
    },
    {
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 8
+    "cards": 8,
+    "links": 2
    },
    {
     "key": "gothic",
     "en": "Gothic",
     "ar": "القوطيّة",
-    "cards": 3
+    "cards": 3,
+    "links": 1
+   }
+  ]
+ },
+ "verdicts": {
+  "links_to_arabic": 517,
+  "closures": 249,
+  "by_verdict": [
+   {
+    "name": "ROOT-TRACE",
+    "count": 453,
+    "link": true
+   },
+   {
+    "name": "LOANWORD",
+    "count": 97,
+    "link": false
+   },
+   {
+    "name": "PROPER-NAME-ISOLATED",
+    "count": 73,
+    "link": false
+   },
+   {
+    "name": "NONLEXICAL-ISOLATED",
+    "count": 50,
+    "link": false
+   },
+   {
+    "name": "NUCLEUS-ECHO",
+    "count": 28,
+    "link": true
+   },
+   {
+    "name": "ROOT-ECHO",
+    "count": 20,
+    "link": true
+   },
+   {
+    "name": "NO-TRACE",
+    "count": 18,
+    "link": false
+   },
+   {
+    "name": "NUCLEUS-TRACE",
+    "count": 13,
+    "link": true
+   },
+   {
+    "name": "READY",
+    "count": 6,
+    "link": false
+   },
+   {
+    "name": "MIXED-ISOLATED",
+    "count": 3,
+    "link": false
+   },
+   {
+    "name": "FLOOR-TRACE",
+    "count": 3,
+    "link": true
+   },
+   {
+    "name": "FORM-OF-ISOLATED",
+    "count": 2,
+    "link": false
    }
   ]
  },
  "pipeline": {
-  "cards_total": 3935,
-  "suspended": 3689,
-  "released": 246,
+  "cards_total": 4063,
+  "suspended": 3292,
+  "released": 771,
   "blockers": [
    {
     "name": "TOOL-GAP",
-    "count": 2400
-   },
-   {
-    "name": "SOURCE-GAP",
-    "count": 703
-   },
-   {
-    "name": "MORPHOLOGY-GAP",
-    "count": 268
-   },
-   {
-    "name": "UNLABELLED",
-    "count": 151
+    "count": 1032
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 109
+    "count": 969
+   },
+   {
+    "name": "SOURCE-GAP",
+    "count": 745
+   },
+   {
+    "name": "MORPHOLOGY-GAP",
+    "count": 352
+   },
+   {
+    "name": "UNLABELLED",
+    "count": 129
    },
    {
     "name": "LAW-GAP",
-    "count": 49
-   },
-   {
-    "name": "LOANWORD",
-    "count": 6
-   },
-   {
-    "name": "READY",
-    "count": 1
-   },
-   {
-    "name": "NONLEXICAL-ISOLATED",
-    "count": 1
-   },
-   {
-    "name": "CONTACT-ISOLATED",
-    "count": 1
+    "count": 65
    }
   ],
   "backlog_by_file": [
    {
     "file": "aramaic.md",
-    "count": 1773
+    "count": 1323
    },
    {
     "file": "egyptian.md",
@@ -143,11 +206,11 @@
    },
    {
     "file": "coptic.md",
-    "count": 386
+    "count": 385
    },
    {
     "file": "hebrew.md",
-    "count": 332
+    "count": 330
    },
    {
     "file": "phoenician-punic-scout.md",
@@ -155,15 +218,19 @@
    },
    {
     "file": "old-latin.md",
-    "count": 153
+    "count": 146
    },
    {
     "file": "ancient-greek.md",
-    "count": 103
+    "count": 101
    },
    {
     "file": "punic.md",
     "count": 91
+   },
+   {
+    "file": "akkadian.md",
+    "count": 68
    },
    {
     "file": "welsh.md",
@@ -175,11 +242,7 @@
    },
    {
     "file": "persian.md",
-    "count": 8
-   },
-   {
-    "file": "gothic.md",
-    "count": 2
+    "count": 7
    }
   ]
  },

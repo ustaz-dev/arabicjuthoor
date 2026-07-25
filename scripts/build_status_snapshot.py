@@ -33,6 +33,19 @@ LOANS = ROOT / "data" / "recovery-loan-registry.json"
 
 CARD_HEADING = re.compile(r"^###\s.*بطاقة", re.M)
 
+# The issued-verdict line of a card. A released card names its verdict here.
+VERDICT_LINE = re.compile(r"الحكم[^\n]*?:\s*\*{0,2}([A-Z][A-Z\-]+)")
+
+# Verdicts that assert a link to the Arabic tongue, as opposed to closures
+# (loanword, proper name, non-lexical) which end a card without asserting one.
+POSITIVE_VERDICTS = {
+    "ROOT-TRACE",
+    "NUCLEUS-TRACE",
+    "ROOT-ECHO",
+    "NUCLEUS-ECHO",
+    "FLOOR-TRACE",
+}
+
 # Display names for the reading files, English and Arabic.
 LANGUAGE_NAMES = {
     "aramaic": ("Aramaic", "الآراميّة"),
@@ -70,10 +83,37 @@ def language_rows() -> list[dict]:
         cards = len(CARD_HEADING.findall(text))
         if not cards:
             continue
+        verdicts = Counter(VERDICT_LINE.findall(text))
+        links = sum(
+            count for name, count in verdicts.items() if name in POSITIVE_VERDICTS
+        )
         en, ar = LANGUAGE_NAMES.get(stem, (stem.replace("-", " ").title(), stem))
-        rows.append({"key": stem, "en": en, "ar": ar, "cards": cards})
+        rows.append({"key": stem, "en": en, "ar": ar, "cards": cards, "links": links})
     rows.sort(key=lambda r: -r["cards"])
     return rows
+
+
+def verdict_totals() -> dict:
+    """Issued verdicts across every reading file, split into links and closures."""
+    counts: Counter = Counter()
+    for path in READINGS.glob("*.md"):
+        if path.stem in SKIP_READINGS:
+            continue
+        counts.update(VERDICT_LINE.findall(path.read_text(encoding="utf-8")))
+    links = sum(c for name, c in counts.items() if name in POSITIVE_VERDICTS)
+    closures = sum(c for name, c in counts.items() if name not in POSITIVE_VERDICTS)
+    return {
+        "links_to_arabic": links,
+        "closures": closures,
+        "by_verdict": [
+            {
+                "name": name,
+                "count": count,
+                "link": name in POSITIVE_VERDICTS,
+            }
+            for name, count in counts.most_common()
+        ],
+    }
 
 
 def ledger_rows() -> dict:
@@ -171,6 +211,7 @@ def build() -> dict:
             "cards_total": sum(row["cards"] for row in languages),
             "by_language": languages,
         },
+        "verdicts": verdict_totals(),
         "pipeline": ledger_rows(),
         "proof": proof_rows(),
         "frozen": frozen_rows(),
@@ -198,8 +239,11 @@ def main() -> int:
     OUT.write_text(rendered, encoding="utf-8", newline="\n")
     exploration = payload["exploration"]
     pipeline = payload["pipeline"]
+    verdicts = payload["verdicts"]
     print(f"languages open:   {exploration['languages_open']}")
     print(f"cards written:    {exploration['cards_total']}")
+    print(f"links to Arabic:  {verdicts['links_to_arabic']}")
+    print(f"closures:         {verdicts['closures']}")
     print(f"ledger cards:     {pipeline['cards_total']}")
     print(f"suspended:        {pipeline['suspended']}")
     print(f"released:         {pipeline['released']}")

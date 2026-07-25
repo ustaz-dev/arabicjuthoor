@@ -246,19 +246,33 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
       t("Computed from repository data · pinned proof commit " + (pr.frozen_commit || "?"),
         "محسوبٌ من بياناتِ المستودع · إيداعُ البرهانِ المثبَّت " + (pr.frozen_commit || "؟"));
 
+    var vd = DATA.verdicts || { links_to_arabic: 0, closures: 0 };
+
     document.getElementById("kpis").innerHTML =
+      kpi(fmt(vd.links_to_arabic), t("Links to the Arabic tongue", "صلةً باللسانِ العربيّ"),
+          t("cards whose issued verdict asserts a link, across every language", "بطاقاتٌ حكمُها الصادرُ يثبتُ صلةً، في كلِّ الألسن"), "good") +
       kpi(fmt(ex.languages_open), t("Languages open", "لسانًا مفتوحًا"),
           t("reading files under the charter", "ملفَّ قراءةٍ تحتَ الميثاق")) +
       kpi(fmt(ex.cards_total), t("Cards written", "بطاقةً مكتوبة"),
           t("one card per member sense-chain", "بطاقةٌ لكلِّ سلسلةِ معنًى")) +
-      kpi(fmt(pl.released), t("Released from hold", "خرجَت من التعليق"),
-          t("carry an issued verdict", "تحملُ حكمًا صادرًا"), "good") +
+      kpi(fmt(vd.closures), t("Closed without a link", "أُغلِقَت بلا صلة"),
+          t("loans, proper names, non-lexical, no-trace", "قروضٌ وأعلامٌ وغيرُ معجميٍّ وبلا أثر")) +
       kpi(fmt(pl.suspended), t("Held for a named reason", "معلَّقةٌ بسببٍ مسمًّى"),
           t("nothing is discarded, every hold is recorded", "لا يُمحى شيء، وكلُّ تعليقٍ مدوَّن"), "warn");
 
+    var byLinks = ex.by_language.slice().sort(function (a, b) { return (b.links || 0) - (a.links || 0); });
     document.getElementById("langs").innerHTML =
-      rows(ex.by_language, function (r) { return isAr() ? r.ar : r.en; },
-           function (r) { return r.cards; }, ex.cards_total, false);
+      '<p class="sub" style="margin:0 0 8px">' +
+      t("Links found, then cards written, per language.", "الصلاتُ الموجودة، ثمّ البطاقاتُ المكتوبة، لكلِّ لسان.") + "</p>" +
+      '<table><thead><tr><th>' + t("Language", "اللسان") + '</th><th class="num">' +
+      t("Links", "صلات") + '</th><th class="num">' + t("Cards", "بطاقات") + "</th></tr></thead><tbody>" +
+      byLinks.map(function (r) {
+        var pct = vd.links_to_arabic ? Math.round(((r.links || 0) / vd.links_to_arabic) * 100) : 0;
+        return "<tr><td>" + (isAr() ? r.ar : r.en) +
+          '<div class="bar"><i style="width:' + pct + '%"></i></div></td>' +
+          '<td class="num">' + fmt(r.links || 0) + "</td>" +
+          '<td class="num" style="color:var(--text-3)">' + fmt(r.cards) + "</td></tr>";
+      }).join("") + "</tbody></table>";
 
     var top = pl.blockers[0];
     document.getElementById("blockers").innerHTML =
