@@ -52,6 +52,12 @@ jobs:
       - name: Cooke 1903 source-layer integrity
         run: python scripts/check_cooke1903_layer.py
 
+      - name: Live status snapshot is current
+        run: python scripts/build_status_snapshot.py --check
+
+      - name: Cooke independent-transcription freshness
+        run: python scripts/compare_cooke_diplomatic_passes.py --check
+
       - name: JSON exports parse
         run: |
           python -c "import json,glob; [json.load(open(p,encoding='utf-8')) for p in glob.glob('data/*.json')]; print('all data/*.json parse')"

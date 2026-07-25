@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Juthoor · Live work status · حالةُ العمل</title>
+<meta name="description" content="Live status of the Juthoor research pipeline: languages open, cards written, what is released, what is blocked and why, and how far the pre-registered proof run still is. Every figure is computed from repository data." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://arabicjuthoor.com/status.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --bg: #fdfaf5; --bg-2: #f6f0e6; --bg-card: #ffffff;
+  --text: #1a2236; --text-2: #4a5266; --text-3: #5f6275;
+  --accent: #b8862f; --accent-strong: #8a5e1f; --accent-bg: #faf3df;
+  --border: #e4ddd0; --border-2: #cdc4b0;
+  --success: #2d7a3b; --success-bg: #e8f3ea;
+  --warn: #8a5e08; --warn-bg: #fdf3d6;
+  --info: #2255a4; --info-bg: #e3edf9;
+  --error: #a83232; --error-bg: #fae7e7;
+  --shadow: 0 1px 3px rgba(26,34,54,.06), 0 1px 2px rgba(26,34,54,.04);
+  --shadow-lg: 0 4px 14px rgba(26,34,54,.08), 0 2px 6px rgba(26,34,54,.05);
+}
+[data-theme="dark"] {
+  --bg: #14161d; --bg-2: #191c25; --bg-card: #1e212b;
+  --text: #eef0f6; --text-2: #c3c8d6; --text-3: #99a0b3;
+  --accent: #d4a73f; --accent-strong: #e0b95c; --accent-bg: #2a2418;
+  --border: #2c3040; --border-2: #3a3f52;
+  --success: #6cc47d; --success-bg: #1d2f21;
+  --warn: #e0b95c; --warn-bg: #2f2814;
+  --info: #7aa9e8; --info-bg: #17263c;
+  --error: #e08585; --error-bg: #331c1c;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.65; -webkit-font-smoothing: antialiased;
+}
+html[data-lang="ar"] body { direction: rtl; font-family: Amiri, "Segoe UI", serif; }
+html[data-lang="ar"] .lang-en { display: none !important; }
+html[data-lang="en"] .lang-ar { display: none !important; }
+.ar-display { font-family: Amiri, serif; }
+
+nav.topbar {
+  position: sticky; top: 0; z-index: 40;
+  background: rgba(253, 250, 245, 0.9); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+[data-theme="dark"] nav.topbar { background: rgba(22, 24, 33, 0.9); }
+.nav-inner {
+  max-width: 1120px; margin: 0 auto; padding: 14px 24px;
+  display: flex; align-items: center; gap: 22px;
+}
+.nav-brand { font-weight: 700; font-size: 1.15rem; text-decoration: none; color: var(--text); }
+.nav-brand .accent { color: var(--accent); }
+.nav-links { display: flex; gap: 20px; flex: 1; }
+.nav-links a { color: var(--text-2); text-decoration: none; font-size: .93rem; font-weight: 500; }
+.nav-links a:hover { color: var(--accent); }
+.toggles { display: flex; gap: 8px; }
+.toggles button {
+  border: 1px solid var(--border-2); background: var(--bg-card); color: var(--text-2);
+  border-radius: 7px; padding: 5px 11px; cursor: pointer; font-size: .84rem; font-weight: 600;
+}
+.toggles button.active { background: var(--accent-strong); color: #fff; border-color: var(--accent-strong); }
+
+main { max-width: 1120px; margin: 0 auto; padding: 40px 24px 80px; }
+h1 { font-size: clamp(1.7rem, 4vw, 2.5rem); margin: 0 0 10px; line-height: 1.25; }
+h2 { font-size: 1.32rem; margin: 46px 0 6px; }
+.sub { color: var(--text-3); font-size: .97rem; margin: 0 0 6px; }
+.stamp { color: var(--text-3); font-size: .84rem; font-variant-numeric: tabular-nums; }
+
+.grid { display: grid; gap: 16px; margin-top: 18px; }
+.g4 { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+.g2 { grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); }
+
+.card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 13px; padding: 20px 22px; box-shadow: var(--shadow);
+}
+.kpi .n {
+  font-size: 2.2rem; font-weight: 700; line-height: 1.1;
+  font-variant-numeric: tabular-nums; letter-spacing: -.02em;
+}
+.kpi .l { color: var(--text-3); font-size: .9rem; margin-top: 4px; }
+.kpi .hint { color: var(--text-3); font-size: .8rem; margin-top: 8px; }
+.n.good { color: var(--success); }
+.n.warn { color: var(--warn); }
+.n.bad  { color: var(--error); }
+
+table { width: 100%; border-collapse: collapse; font-size: .93rem; }
+th, td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: start; }
+th { color: var(--text-3); font-weight: 600; font-size: .84rem; }
+td.num, th.num { text-align: end; font-variant-numeric: tabular-nums; }
+tbody tr:last-child td { border-bottom: none; }
+
+.bar { height: 7px; border-radius: 99px; background: var(--bg-2); overflow: hidden; margin-top: 7px; }
+.bar > i { display: block; height: 100%; background: var(--accent); }
+.bar.blocked > i { background: var(--error); }
+
+.note {
+  border-inline-start: 3px solid var(--accent); background: var(--accent-bg);
+  padding: 14px 18px; border-radius: 0 10px 10px 0; margin-top: 16px; font-size: .95rem;
+}
+html[dir="rtl"] .note { border-radius: 10px 0 0 10px; }
+.note.alert { border-color: var(--error); background: var(--error-bg); }
+.note.ok { border-color: var(--success); background: var(--success-bg); }
+
+.tag {
+  display: inline-block; padding: 2px 9px; border-radius: 99px;
+  font-size: .78rem; font-weight: 600; border: 1px solid var(--border-2);
+}
+.tag.blocked { background: var(--error-bg); color: var(--error); border-color: transparent; }
+.tag.live { background: var(--success-bg); color: var(--success); border-color: transparent; }
+.tag.hold { background: var(--warn-bg); color: var(--warn); border-color: transparent; }
+
+footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0; color: var(--text-3); font-size: .87rem; }
+@media (max-width: 760px) { .nav-links { display: none; } main { padding: 28px 18px 60px; } }
+</style>
+</head>
+<body>
+
+<nav class="topbar" aria-label="Primary">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <span class="lang-en">Juthoor<span class="accent">.</span></span>
+      <span class="lang-ar ar-display">جُذُور<span class="accent">.</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html"><span class="lang-en">Home</span><span class="lang-ar">الرئيسة</span></a>
+      <a href="index.html#cross-linguistic"><span class="lang-en">Cross-lang</span><span class="lang-ar">بين اللغات</span></a>
+      <a href="discoveries.html"><span class="lang-en">Discoveries</span><span class="lang-ar">الاكتِشافات</span></a>
+    </div>
+    <div class="toggles">
+      <button id="lang-en" class="active">EN</button>
+      <button id="lang-ar">عربي</button>
+      <button id="theme">◐</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1>
+    <span class="lang-en">Live work status</span>
+    <span class="lang-ar ar-display">حالةُ العملِ الحيّة</span>
+  </h1>
+  <p class="sub">
+    <span class="lang-en">Every figure on this page is computed from the repository's own data, never typed by hand. It shows what is done, what is blocked, and what blocks it.</span>
+    <span class="lang-ar">كلُّ رقمٍ في هذه الصفحةِ محسوبٌ من بياناتِ المستودعِ نفسِه، لا يُكتَبُ بيدٍ أبدًا. تعرضُ ما أُنجِزَ وما هو محبوسٌ وسببَ حبسِه.</span>
+  </p>
+  <p class="stamp" id="stamp"></p>
+
+  <h2><span class="lang-en">Exploration across languages</span><span class="lang-ar ar-display">الاستكشافُ عبرَ الألسن</span></h2>
+  <div class="grid g4" id="kpis"></div>
+
+  <div class="grid g2">
+    <div class="card">
+      <h3 style="margin:0 0 4px; font-size:1.05rem;">
+        <span class="lang-en">Cards written per language</span><span class="lang-ar ar-display">البطاقاتُ المكتوبةُ لكلِّ لسان</span>
+      </h3>
+      <div id="langs"></div>
+    </div>
+    <div class="card">
+      <h3 style="margin:0 0 4px; font-size:1.05rem;">
+        <span class="lang-en">What is holding the backlog</span><span class="lang-ar ar-display">ما الذي يحبسُ المخزون</span>
+      </h3>
+      <div id="blockers"></div>
+    </div>
+  </div>
+
+  <h2><span class="lang-en">The pre-registered proof run</span><span class="lang-ar ar-display">تشغيلُ خطِّ البرهانِ المسجَّلِ مسبقًا</span></h2>
+  <p class="sub">
+    <span class="lang-en">The confirmatory run is signed and armed, and it fires only once, only when the registered threshold is met. This is where it stands.</span>
+    <span class="lang-ar">التشغيلُ التأكيديُّ موقَّعٌ ومسلَّح، ولا يجري إلّا مرّةً واحدةً ولا يجري إلّا ببلوغِ العتبةِ المسجَّلة. وهذا موضعُه الآن.</span>
+  </p>
+  <div id="proof"></div>
+
+  <h2><span class="lang-en">Frozen instruments</span><span class="lang-ar ar-display">الأدواتُ المجمَّدة</span></h2>
+  <p class="sub">
+    <span class="lang-en">Signed by the author and not altered except by a dated constitutional amendment.</span>
+    <span class="lang-ar">موقَّعةٌ من المؤلّفِ ولا تُعدَّلُ إلّا بتعديلٍ دستوريٍّ مؤرَّخ.</span>
+  </p>
+  <div class="grid g4" id="frozen"></div>
+
+  <footer>
+    <span class="lang-en">Juthoor · The Arabic Tongue · Yassine Temessek. Figures are internal catalog counts, not published evidence claims.</span>
+    <span class="lang-ar ar-display">جُذُور · اللسانُ العربيُّ · ياسين تمسّك. الأرقامُ سكّانُ كتالوجٍ داخليّة، لا دعاوى دليلٍ منشورة.</span>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var html = document.documentElement;
+
+  function setLang(lang) {
+    html.setAttribute("data-lang", lang);
+    html.setAttribute("lang", lang);
+    html.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
+    document.getElementById("lang-en").classList.toggle("active", lang === "en");
+    document.getElementById("lang-ar").classList.toggle("active", lang === "ar");
+    try { localStorage.setItem("juthoor-lang", lang); } catch (e) {}
+    render();
+  }
+  document.getElementById("lang-en").onclick = function () { setLang("en"); };
+  document.getElementById("lang-ar").onclick = function () { setLang("ar"); };
+  document.getElementById("theme").onclick = function () {
+    var next = html.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    html.setAttribute("data-theme", next);
+    try { localStorage.setItem("juthoor-theme", next); } catch (e) {}
+  };
+  try {
+    var savedTheme = localStorage.getItem("juthoor-theme");
+    if (savedTheme) html.setAttribute("data-theme", savedTheme);
+  } catch (e) {}
+
+  var DATA = null;
+  var isAr = function () { return html.getAttribute("data-lang") === "ar"; };
+  var fmt = function (n) { return (n == null ? "0" : Number(n).toLocaleString("en-US")); };
+  var t = function (en, ar) { return isAr() ? ar : en; };
+
+  function kpi(n, label, hint, tone) {
+    return '<div class="card kpi"><div class="n ' + (tone || "") + '">' + n + "</div>" +
+      '<div class="l">' + label + "</div>" +
+      (hint ? '<div class="hint">' + hint + "</div>" : "") + "</div>";
+  }
+
+  function rows(list, nameOf, countOf, total, blocked) {
+    var out = '<table><tbody>';
+    list.forEach(function (item) {
+      var c = countOf(item);
+      var pct = total ? Math.round((c / total) * 100) : 0;
+      out += "<tr><td>" + nameOf(item) +
+        '<div class="bar' + (blocked ? " blocked" : "") + '"><i style="width:' + pct + '%"></i></div></td>' +
+        '<td class="num">' + fmt(c) + "</td></tr>";
+    });
+    return out + "</tbody></table>";
+  }
+
+  function render() {
+    if (!DATA) return;
+    var ex = DATA.exploration, pl = DATA.pipeline, pr = DATA.proof, fr = DATA.frozen;
+
+    document.getElementById("stamp").textContent =
+      t("Computed from repository data · pinned proof commit " + (pr.frozen_commit || "?"),
+        "محسوبٌ من بياناتِ المستودع · إيداعُ البرهانِ المثبَّت " + (pr.frozen_commit || "؟"));
+
+    document.getElementById("kpis").innerHTML =
+      kpi(fmt(ex.languages_open), t("Languages open", "لسانًا مفتوحًا"),
+          t("reading files under the charter", "ملفَّ قراءةٍ تحتَ الميثاق")) +
+      kpi(fmt(ex.cards_total), t("Cards written", "بطاقةً مكتوبة"),
+          t("one card per member sense-chain", "بطاقةٌ لكلِّ سلسلةِ معنًى")) +
+      kpi(fmt(pl.released), t("Released from hold", "خرجَت من التعليق"),
+          t("carry an issued verdict", "تحملُ حكمًا صادرًا"), "good") +
+      kpi(fmt(pl.suspended), t("Held for a named reason", "معلَّقةٌ بسببٍ مسمًّى"),
+          t("nothing is discarded, every hold is recorded", "لا يُمحى شيء، وكلُّ تعليقٍ مدوَّن"), "warn");
+
+    document.getElementById("langs").innerHTML =
+      rows(ex.by_language, function (r) { return isAr() ? r.ar : r.en; },
+           function (r) { return r.cards; }, ex.cards_total, false);
+
+    var top = pl.blockers[0];
+    document.getElementById("blockers").innerHTML =
+      rows(pl.blockers, function (r) { return r.name; },
+           function (r) { return r.count; }, pl.suspended, true) +
+      (top ? '<div class="note alert"><b>' + top.name + "</b> " +
+        t("holds " + fmt(top.count) + " cards, the single largest cause. It is a gap in our own tooling, not a scholarly obstacle, so it is the highest-leverage thing to close.",
+          "يحبسُ " + fmt(top.count) + " بطاقةً، وهو أكبرُ سببٍ منفرد. وهو ثغرةٌ في أدواتِنا نحن لا عائقٌ علميّ، فإغلاقُه أعلى الرافعاتِ أثرًا.") +
+        "</div>" : "");
+
+    var need = pr.required_total || 0;
+    var have = pr.eligible_now || 0;
+    var pct = need ? Math.min(100, Math.round((have / need) * 100)) : 0;
+    document.getElementById("proof").innerHTML =
+      '<div class="card">' +
+      '<p style="margin:0 0 10px">' +
+      '<span class="tag ' + (pr.signed ? "live" : "hold") + '">' +
+      (pr.signed ? t("signed and armed", "موقَّعٌ ومسلَّح") : t("not signed", "غيرُ موقَّع")) + "</span> " +
+      '<span class="tag hold">' + t("not yet run", "لم يجرِ بعد") + "</span></p>" +
+      '<div class="n" style="font-size:1.7rem;font-weight:700">' + fmt(have) + " / " + fmt(need) + "</div>" +
+      '<div class="l" style="color:var(--text-3);font-size:.9rem">' +
+      t("eligible reviewed families, and at least " + fmt(pr.required_per_language) + " per language",
+        "أسرةً مراجَعةً مؤهَّلة، وعلى الأقلِّ " + fmt(pr.required_per_language) + " لكلِّ لسان") + "</div>" +
+      '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
+      '<div class="note alert" style="margin-top:14px">' +
+      t("The counter currently tracks " + fmt(pr.families_tracked) + " families, all of them suspended, and only from the Phoenician and Punic slices. The languages carrying the bulk of the work are not registered in it, so the threshold cannot fill from the work being done. Repairing this counter is a prerequisite to the proof run.",
+        "العدّادُ يتتبَّعُ الآن " + fmt(pr.families_tracked) + " أسرةً كلُّها معلَّقة، ومن شريحتَي الفينيقيّةِ والبونيقيّةِ وحدَهما. واللغاتُ التي تحملُ جمهورَ العملِ غيرُ مسجَّلةٍ فيه، فالعتبةُ لا تمتلئُ ممّا يُنجَز. وإصلاحُ هذا العدّادِ شرطٌ سابقٌ لتشغيلِ البرهان.") +
+      "</div></div>";
+
+    document.getElementById("frozen").innerHTML =
+      kpi(fmt(fr.level_1_letter_charges), t("Letter courts, level 1", "محكمةَ حرفٍ، المستوى 1")) +
+      kpi(fmt(fr.level_2_binary_nuclei), t("Binary nuclei, level 2", "نواةً ثنائيّة، المستوى 2")) +
+      kpi(fmt(fr.level_3_composition_modes), t("Composition modes, level 3", "بابَ تركيبٍ، المستوى 3")) +
+      kpi(fmt(fr.loanwords_registered), t("Loanwords on the open register", "كلمةً دخيلةً في السجلِّ المعلَن"), "", "");
+  }
+
+  fetch("data/status-snapshot.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (d) { DATA = d; render(); })
+    .catch(function () {
+      document.getElementById("kpis").innerHTML =
+        '<div class="note alert">Status snapshot unavailable. Run <code>python scripts/build_status_snapshot.py</code>.</div>';
+    });
+
+  try {
+    var savedLang = localStorage.getItem("juthoor-lang");
+    if (savedLang === "ar") setLang("ar");
+  } catch (e) {}
+})();
+</script>
+</body>
+</html>

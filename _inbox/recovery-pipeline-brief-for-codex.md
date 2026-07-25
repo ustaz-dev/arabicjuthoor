@@ -368,3 +368,38 @@
 الأكادية مسار الإكمال القائد (بكلمة المؤلف النافذة)، ومقابلة Cooke البصرية مسار شرائح يتقدم كل يوم ولو بعشرة سجلات. وكل دفعة تنتهي بمحضر أرقام معدود بالمعرفات.
 
 *English abstract (section 19):* New round, one window, two parallel tracks, zero spend. Track one: extract CAD headwords from the 26 local djvu.txt volumes, but the Cooke lesson is law: measure first against the published DAL letter P as gold standard (877 heads held locally), publish recovery and precision figures in a dated record before generalizing to the other 25 letters, and if the legacy text proves too poor, record a measured obstacle rather than forcing it; the systematic family inventory continues meanwhile, verdict batches staying local for third-lens review. Track two: the 153 Cooke records cross their own visual gate record by record, candidates collated against the page image, promoted to visually-collated with a change log, Phoenician first, the seven gap units transcribed by eye from the page images, the layer guard staying CLEAN and no linguistic verdict ever issued inside the layer.
+## 20. حملة فكّ الحبس: مروحة المعاجم على البطاقات المعلقة (2026-07-25، بأمر المؤلف)
+
+**الأمر:** «أكملوا العمل واجعلوه أذكى، ولا تخذلوا أنفسكم بقواعد شديدة توقف العمل. أولويتنا إيجاد الصلات بين كلمات أسر اللغات واللسان العربي، في صورته الجديدة أو في طوره الثنائي».
+
+### القياس الذي أوجب هذه الحملة
+
+فحص دفتر الاسترداد يوم 2026-07-25 أعطى صورة قاطعة:
+
+| المقياس | القيمة |
+|---|---|
+| البطاقات المسجلة | 3,935 |
+| المعلقة | 3,689 |
+| الجاهزة READY | 1 |
+| المعلقة بسبب TOOL-GAP | 2,400 |
+
+وفحص ما تطلبه بطاقات TOOL-GAP أعطى مطلبا واحدا يتكرر في أعلى عشرة أسباب كلها: **مسح مروحة المعاجم العربية القديمة**. وتوزعها: الآرامية 1,371، والمصرية 603، والعبرية 151، واللاتينية القديمة 78، واليونانية 70، والقبطية 46، والبونيقية والفينيقية 80.
+
+**فالخلاصة: أداة واحدة من عندنا تحبس واحدا وستين بالمئة من عمل المشروع، وهي أداة موجودة تعمل ولم تُمرَّر على المخزون.** `scripts/search_arabic_root_senses.py` قائم ويشتغل، و`audit_arabic_root_sense_coverage.py` يبني تغطية 1,662 جذرا. الناقص تشغيل جماعي لا بناء جديد.
+
+### المطلوب
+
+1. **مرر المروحة على البطاقات المعلقة كلها دفعات**، بادئا بالآرامية فهي أكبر مخزون محبوس (1,371)، ثم المصرية، ثم البقية. لكل بطاقة: استخرج الجذر أو النواة المرشحة، شغّل المروحة، اطوِ الناتج في البطاقة بمصادره المسماة.
+2. **أصدر الحكم فورا حين تكفي المروحة.** إن أعطت المروحة معنى مسمى في مصدرين مستقلين قديمين، فالعائق مرفوع والحكم يصدر بسلّم الأحكام المعتاد. لا تنتظر إذنا لكل بطاقة، ولا تفتح عائقا جديدا لتفصيل يمكن تسجيله في حقل ملاحظات.
+3. **ما لا تكفيه المروحة يبقى معلقا بسببه الحقيقي**، ويسجَّل السبب الجديد بدل TOOL-GAP، فنعرف كم منه سوء تغطية معجمية وكم منه انعدام صلة.
+4. **قِس وأعلن بعد كل دفعة رقمين اثنين:** كم بطاقة خرجت من التعليق، وكيف توزعت أحكامها على السلم. هذا مقياس التقدم الوحيد المطلوب من الحملة.
+
+### قاعدة تخفيف نافذة مع هذه الحملة
+
+المشروع راكم بوابات كثيرة في الأسبوع الماضي، وبعضها صار يوقف العمل بدل أن يحرسه. **فالتالي نافذ:** البوابات تبقى كاملة على ما يُنشر رقما وعلى الصورة الكتابية المستشهد بها وعلى ملفات جبل المجمدة. أما بطاقات الاستكشاف الداخلية فتمضي بسلاسة: مصدران مستقلان قديمان يكفيان لإصدار الحكم، والتفصيل الناقص يُسجَّل ملاحظة لا عائقا، ولا يُفتَح عائق جديد إلا حين يمنع الحكم فعلا. **الحرص لا يكون على حساب الإنتاج، وتكديس البطاقات المعلقة ليس دقة بل تعطيل.**
+
+### مسارات أخرى في الخلفية بلا قيادة
+
+Cooke تكمل بعشرة سجلات في اليوم على الأكثر، فهي طبقة مصدر لا أطروحة. وCAD على قراره: لا تعميم. ولا شيء منهما يقود الليل.
+
+*English abstract (section 19 continued as 20):* A ledger measurement on 2026-07-25 showed 3,935 recorded cards, 3,689 suspended, one READY, and 2,400 suspended under TOOL-GAP. Every one of the top ten stated requirements is the same thing: scan the fan of the old Arabic dictionaries. The distribution is Aramaic 1,371, Egyptian 603, Hebrew 151, with smaller counts elsewhere. The tool already exists and runs; what is missing is a bulk pass over the backlog. The campaign therefore runs the fan across all suspended cards, largest backlog first, issues verdicts immediately wherever two independent old sources supply a named sense, re-labels whatever the fan cannot resolve with its true blocker instead of TOOL-GAP, and reports two numbers per batch: cards released from suspension and their verdict distribution. A standing relaxation accompanies it: full gates remain on published figures, on cited graphic forms, and on the frozen Jabal files, while internal exploration cards proceed smoothly, since accumulating suspended cards is obstruction, not rigour.

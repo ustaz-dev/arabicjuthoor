@@ -1,0 +1,216 @@
+{
+ "schema_version": "1.0",
+ "generated_by": "scripts/build_status_snapshot.py",
+ "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
+ "exploration": {
+  "languages_open": 13,
+  "cards_total": 4032,
+  "by_language": [
+   {
+    "key": "aramaic",
+    "en": "Aramaic",
+    "ar": "الآراميّة",
+    "cards": 1799
+   },
+   {
+    "key": "egyptian",
+    "en": "Egyptian",
+    "ar": "المصريّة القديمة",
+    "cards": 645
+   },
+   {
+    "key": "coptic",
+    "en": "Coptic",
+    "ar": "القبطيّة",
+    "cards": 406
+   },
+   {
+    "key": "hebrew",
+    "en": "Hebrew",
+    "ar": "العبريّة",
+    "cards": 399
+   },
+   {
+    "key": "old-latin",
+    "en": "Old Latin",
+    "ar": "اللاتينيّة القديمة",
+    "cards": 166
+   },
+   {
+    "key": "phoenician-punic-scout",
+    "en": "Phoenician scout",
+    "ar": "مسحُ الفينيقيّة",
+    "cards": 164
+   },
+   {
+    "key": "akkadian",
+    "en": "Akkadian",
+    "ar": "الأكّاديّة",
+    "cards": 129
+   },
+   {
+    "key": "ancient-greek",
+    "en": "Ancient Greek",
+    "ar": "اليونانيّة القديمة",
+    "cards": 114
+   },
+   {
+    "key": "welsh",
+    "en": "Welsh",
+    "ar": "الويلزيّة",
+    "cards": 100
+   },
+   {
+    "key": "punic",
+    "en": "Punic",
+    "ar": "البونيقيّة",
+    "cards": 91
+   },
+   {
+    "key": "old-norse",
+    "en": "Old Norse",
+    "ar": "النورديّة القديمة",
+    "cards": 8
+   },
+   {
+    "key": "persian",
+    "en": "Persian",
+    "ar": "الفارسيّة",
+    "cards": 8
+   },
+   {
+    "key": "gothic",
+    "en": "Gothic",
+    "ar": "القوطيّة",
+    "cards": 3
+   }
+  ]
+ },
+ "pipeline": {
+  "cards_total": 3935,
+  "suspended": 3689,
+  "released": 246,
+  "blockers": [
+   {
+    "name": "TOOL-GAP",
+    "count": 2400
+   },
+   {
+    "name": "SOURCE-GAP",
+    "count": 703
+   },
+   {
+    "name": "MORPHOLOGY-GAP",
+    "count": 268
+   },
+   {
+    "name": "UNLABELLED",
+    "count": 151
+   },
+   {
+    "name": "OPEN-CANDIDATE",
+    "count": 109
+   },
+   {
+    "name": "LAW-GAP",
+    "count": 49
+   },
+   {
+    "name": "LOANWORD",
+    "count": 6
+   },
+   {
+    "name": "READY",
+    "count": 1
+   },
+   {
+    "name": "NONLEXICAL-ISOLATED",
+    "count": 1
+   },
+   {
+    "name": "CONTACT-ISOLATED",
+    "count": 1
+   }
+  ],
+  "backlog_by_file": [
+   {
+    "file": "aramaic.md",
+    "count": 1773
+   },
+   {
+    "file": "egyptian.md",
+    "count": 618
+   },
+   {
+    "file": "coptic.md",
+    "count": 386
+   },
+   {
+    "file": "hebrew.md",
+    "count": 332
+   },
+   {
+    "file": "phoenician-punic-scout.md",
+    "count": 165
+   },
+   {
+    "file": "old-latin.md",
+    "count": 153
+   },
+   {
+    "file": "ancient-greek.md",
+    "count": 103
+   },
+   {
+    "file": "punic.md",
+    "count": 91
+   },
+   {
+    "file": "welsh.md",
+    "count": 48
+   },
+   {
+    "file": "old-norse.md",
+    "count": 8
+   },
+   {
+    "file": "persian.md",
+    "count": 8
+   },
+   {
+    "file": "gothic.md",
+    "count": 2
+   }
+  ]
+ },
+ "proof": {
+  "signed": true,
+  "frozen_commit": "41c36de",
+  "required_total": 600,
+  "required_per_language": 150,
+  "families_tracked": 261,
+  "eligible_now": 0,
+  "status_counts": [
+   {
+    "name": "suspended",
+    "count": 261
+   }
+  ],
+  "languages_tracked": [
+   {
+    "name": "phoenician",
+    "count": 161
+   },
+   {
+    "name": "punic",
+    "count": 100
+   }
+  ]
+ },
+ "frozen": {
+  "level_1_letter_charges": 29,
+  "level_2_binary_nuclei": 455,
+  "level_3_composition_modes": 12,
+  "loanwords_registered": 12
+ }
+}
