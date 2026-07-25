@@ -44,30 +44,32 @@
 |---|---|
 | الصفحاتُ المفرَّغة | 472 من 472 |
 | الحروفُ المستخرَجة | 5,368,067 |
-| الحروفُ الساميّةُ المستردَّة | 99,638 (والتفريغُ القديمُ يعطي صفرًا صالحًا) |
-| بعدَ تجريدِ التشكيلِ المضاف | 77,903 حرفًا صامتيًّا |
+| محارفُ الكتلةِ الساميّةِ الخارجةُ آليًّا | 99,638 (والتفريغُ القديمُ يعطي صفرًا صالحًا) |
+| بعدَ تجريدِ التشكيلِ المضاف | 77,903 محرفًا في خطٍّ مستردٍ وقراءةٍ مطبَّعة، مع بقاءِ تطبيعِ الصوامت |
 | الأداة | `scripts/ocr_cooke1903_mistral.py` ثمّ `scripts/clean_cooke1903_ocr.py` |
 
-### الشاهدُ الحاسم: نقشُ جبيلٍ الذي عجزَ عنه التفريغُ القديم
+### شاهدُ الاستردادِ وحدودُه: نقشُ جبيلٍ الذي عجزَ عنه التفريغُ القديم
 
-كانَ يخرجُ من الأرشيف: «K p p yiTirr p \*ni S:u h n:&&&». وصارَ يخرجُ الآن نصًّا مقروءًا مطابقًا لترجمتِه في الصفحةِ نفسِها، وهو نقشُ يحومَلك ملكِ جبيل:
+كانَ يخرجُ من الأرشيف: «K p p yiTirr p \*ni S:u h n:&&&». واستردَّ التفريغُ الحديثُ خطًّا قابلًا لتعيينِ الموضعِ والقراءةِ الأوّليّة، لكنَّه طبَّعَ بعضَ الصوامتِ نحوَ الرسمِ العبريِّ. وبعدَ المقابلةِ الحرفيّةِ على صورةِ الصفحةِ صارَ أوّلُ الاقتباسِ المحقَّقِ من نقشِ يحومَلك ملكِ جبيل:
 
-> אני יחומלך מלך גבל בן יהרבע בן בן ארמלך מלך גבל אש פעלתו הרבת בעלת גבל ממלכת על גבל וקרא אנך את רבתי בעלת גבל [כי שמע] קל ופעל... המזבח נחשת זן
+> אנך יחומלך מלך גבל בן יהרבעל בן בן ארמלך מלך
+> גבל אש פעלתן הרבת בעלת גבל ממלכת על גבל וקרא אנך
+> את רבתי בעלת גבל [כ שמע] קל ופעל אנך לרבתי בעלת
 
 ويقابلُه في الكتابِ نفسِه: "I am Yehaw-milk, king of Gebal, son of Yehar-ba'al, grand-son of Uri-milk... and I invoke my lady, mistress of Gebal, [for she hears] my voice... this altar of bronze".
 
-فصارَت بينَ أيدينا **الصورةُ الكتابيّةُ والمعنى المنشورُ معًا في مكانٍ واحد**، وهو ما لم تكن تعطيه لقطةُ kaikki ولا التفريغُ القديم.
+فصارَ بينَ أيدينا **خطٌّ مستردٌّ يعيّنُ الموضعَ، وقراءةٌ آليّةٌ مطبَّعة، ومعنًى منشورٌ في الصفحةِ نفسِها**. أمّا الصورةُ الكتابيّةُ الفينيقيّةُ فلا تُؤخَذُ من مخرجِ التفريغِ، بل من المقابلةِ البصريّةِ الحرفيّةِ على PDF وحدَه. والسجلُّ 3 نفسُه باقٍ جزئيًّا إلى أن يكتملَ جردُ نقاطِ التلفِ وسائرِ علاماتِ المصدر.
 
 ### عيبانِ مقيسانِ قُيِّدا قبلَ أيِّ استعمال
 
-1. **تشكيلٌ من عندِ النموذجِ لا من الكتاب.** Cooke يطبعُ النقوشَ بالخطِّ المربَّعِ غيرِ المشكول، لأنّ الكتابةَ الفينيقيّةَ صامتيّةٌ لا تحملُ حركات. وقد أعادَ التفريغُ نصًّا مشكولًا كاملًا في 115 صفحة، فالحركاتُ **مضافةٌ من النموذجِ لا مثبتةٌ في المصدر**. جُرِّدَت كلُّها، ولا يُبنى على حركةٍ منها حكمٌ أبدًا؛ والمعتمدُ الهيكلُ الصامتيُّ وحدَه، وهو أصلًا وحدةُ المقارنةِ عندنا.
+1. **تشكيلٌ مضافٌ وتطبيعٌ للصوامتِ نحوَ العبريّة.** Cooke يطبعُ النقوشَ بالخطِّ المربَّعِ غيرِ المشكول، لأنّ الكتابةَ الفينيقيّةَ صامتيّةٌ لا تحملُ حركات. وقد أعادَ التفريغُ نصًّا مشكولًا كاملًا في 115 صفحة، فالحركاتُ **مضافةٌ من النموذجِ لا مثبتةٌ في المصدر**، وجُرِّدَت كلُّها. لكنَّ التجريدَ لا يصلحُ تطبيعَ الصوامتِ: ففي اقتباسِ جبيل بدَّلَ التفريغُ `אנך` إلى `אני`، وأسقطَ لامَ `יהרבעל`، وبدَّلَ `פעלתן` إلى `פעלתו`، وزادَ ياءً في `[כ שמע]`. لذلك لا يُبنى على الهيكلِ الصامتيِّ المستردِّ حكمٌ قبلَ المقابلةِ الحرفيّةِ على الصورة.
 2. **دوراتُ تكرار.** في صفحاتِ الشرحِ الكثيفةِ ينحبسُ النموذجُ أحيانًا على لفظٍ قصيرٍ فيكرّرُه عشرات المرّات. رُصِدَ ذلك في 19 صفحةً من 472، ووُسِمَت كلُّها `FLAGGED` في النصِّ المنقّى بنسبةِ تكرارِها واللفظِ المتكرّر. **لا يُستشهَدُ بصفحةٍ موسومةٍ إلّا بعدَ مقابلتِها على صورةِ الصفحةِ في الـPDF.**
 
 ### قاعدةُ الاستعمالِ النافذة
 
-الملفُّ المعتمَدُ للاستشهادِ هو `cooke1903_clean.md` (المنقَّى) لا الخام. وكلُّ بطاقةٍ تستشهدُ به تسمّي رقمَ النقشِ ورقمَ الصفحة، وتأخذُ الصورةَ الكتابيّةَ من الهيكلِ الصامتيِّ المجرَّد، والمعنى من ترجمةِ Cooke أو شرحِه، وتتحقّقُ من وسمِ `FLAGGED` قبلَ الاعتماد. وتبقى لقطاتُنا المثبَّتةُ شاهدًا موازيًا حيثُ وُجِدَ الزوجُ في الجهتَين.
+يُستعمَلُ `cooke1903_usable.md` مدخلًا آليًّا لتعيينِ المواضعِ وبناءِ المرشَّحاتِ فقط، لا مصدرًا مستقلًّا للصورةِ الكتابيّة. وكلُّ بطاقةٍ تسمّي رقمَ النقشِ ورقمَ الصفحة، وتأخذُ المعنى من ترجمةِ Cooke أو شرحِه، ولا تأخذُ الحروفَ الفينيقيّةَ إلا من سجلٍ اجتازَ المقابلةَ البصريّةَ على PDF ودورةَ المراجعةِ الثالثة. وتبقى لقطاتُنا المثبَّتةُ شاهدًا موازيًا حيثُ وُجِدَ الزوجُ في الجهتَين.
 
-*English abstract (execution note):* The full book was OCR'd through the Mistral Batch API per the author's standing instruction that all Mistral work go through batches, as one job of 24 twenty-page requests, all 24 succeeding. Recovery: 472 of 472 pages, 5.37 million characters, 99,638 Semitic characters where the legacy OCR yielded none usable, reduced to 77,903 consonantal characters after stripping model-supplied pointing. The decisive proof is the Yehawmilk of Byblos inscription, previously pure noise, now readable and matching its own facing translation. Two measured defects are recorded and handled: the model supplies vocalisation absent from Cooke's consonantal print (115 pages, stripped, never citable), and it enters repetition loops on dense commentary (19 of 472 pages, each marked FLAGGED with its ratio and looped token, never citable without checking the page image). Cards cite the cleaned file only, naming inscription and page.
+*English abstract (execution note):* The full book was OCR'd through the Mistral Batch API as one job of 24 twenty-page requests, all 24 succeeding. The machine output contains 99,638 Semitic-block characters, reduced to 77,903 after stripping model-supplied pointing. These figures measure recovered script and a normalized reading, not diplomatic transcription. Visual collation of the Yehawmilk inscription found consonantal normalization toward Hebrew in addition to supplied vocalization: אני for printed אנך, יהרבע for יהרבעל, פעלתו for פעלתן, and [כי שמע] for [כ שמע]. The OCR is therefore a locator and candidate layer only. Phoenician graphic forms are citable solely after letter-by-letter collation against the PDF and third-lens review.
 
 ## تصحيحٌ جوهريٌّ بعدَ اصطيادِ الجلسةِ الصناعيّةِ عيبًا في أداةِ التنقية (2026-07-24)
 
@@ -86,21 +88,38 @@
 | المقياس | القيمة |
 |---|---|
 | صفحاتُ المحتوى الحقيقيّة | 236 (لا 472) |
-| المقروءةُ قراءةً سليمةً منها | **217، أي 92%** |
+| المجتازةُ لمصفاةِ التلوّثِ الآليِّ | **217، أي 92%** |
 | صفحاتُ المحتوى الفاشلة | 19 فقط |
-| الحروفُ الساميّةُ في الصفحاتِ السليمة | 72,530 |
+| محارفُ الكتلةِ الساميّةِ في المخرجِ المستردِ والمطبَّع | 72,530 |
 | الصفحاتُ البيضاءُ المعزولة | 233 |
 
-فالفزعُ الأوّلُ من «47% خردة» كانَ في محلِّه من جهةِ التلوّث، وليسَ في محلِّه من جهةِ الفقد: **لم يضعْ من الكتابِ شيءٌ يُذكَر**، والخردةُ كلُّها هلوسةٌ على بياض. والصفحاتُ التسعَ عشرةَ الفاشلةُ فعلًا مسمّاةٌ بأرقامِها في تقريرِ التحقُّق، وأكثرُها لوحاتُ جداولِ أبجديّاتٍ أو صفحاتُ شرحٍ كثيف.
+فالفزعُ الأوّلُ من «47% خردة» كانَ في محلِّه من جهةِ التلوّث، واتضحَ أنَّ معظمَ الخردةِ هلوسةٌ على صفحاتٍ بيضاء. أمّا نسبةُ 92% وعددُ 72,530 فهما يثبتانِ اجتيازَ مصفاةِ التلوّثِ واستردادَ خطٍّ ساميٍّ، **ولا يثبتانِ أمانةَ الحرفِ ولا اكتمالَ قراءةِ النقوش**. والصفحاتُ التسعَ عشرةَ الفاشلةُ آليًّا مسمّاةٌ بأرقامِها في تقريرِ التحقُّق، وأكثرُها لوحاتُ جداولِ أبجديّاتٍ أو صفحاتُ شرحٍ كثيف.
 
 ### الأداةُ النافذةُ الآن
 
-`scripts/validate_cooke1903_ocr.py` يصنّفُ كلَّ صفحةٍ ويعزلُ الملوّثَ بأسبابِه: طوفانُ خطٍّ أجنبيٍّ لا محلَّ له في الكتاب، وتسرُّبُ تعليقِ النموذج، ودوراتُ التكرارِ بأيِّ لغةٍ وبأيِّ طولِ عبارةٍ حتى ستِّ كلمات، والصفحةُ الخاليةُ من مضمون. ومخرجُه `cooke1903_usable.md` هو **الملفُّ الوحيدُ الذي يجوزُ الاستشهادُ به**، وتقريرُ `validation-report.json` يحملُ سببَ كلِّ استبعاد.
+`scripts/validate_cooke1903_ocr.py` يصنّفُ كلَّ صفحةٍ ويعزلُ الملوّثَ بأسبابِه: طوفانُ خطٍّ أجنبيٍّ لا محلَّ له في الكتاب، وتسرُّبُ تعليقِ النموذج، ودوراتُ التكرارِ بأيِّ لغةٍ وبأيِّ طولِ عبارةٍ حتى ستِّ كلمات، والصفحةُ الخاليةُ من مضمون. ومخرجُه `cooke1903_usable.md` هو **المدخلُ الآليُّ الوحيدُ المسموحُ به لبناءِ المرشَّحاتِ وتعيينِ المواضع**، لا نصًّا دبلوماسيًّا صالحًا للاستشهادِ بحروفِ النقوش. وتقريرُ `validation-report.json` يحملُ سببَ كلِّ استبعاد.
 
-*English abstract:* The industrial session caught a real defect in the third lens's own cleaning tool: its repetition detector measured Hebrew tokens only, so hallucination loops in other scripts passed unseen. The claim was verified and proved understated. The raw batch output carries 2.5 million Arabic-block characters, roughly 47 percent of the output, plus Urdu loops, 119 leaks of the model's own meta-commentary, and JSON vision-annotation objects in place of text. Root cause was then measured rather than guessed: odd pages succeeded at 92 percent while even pages failed at 99 percent, and ink measurement showed the even pages are entirely blank separators at 0.00 percent ink against 11 percent on content pages. The file has 472 pages but the book has 236 pages of content, and the model hallucinated on blank input. Corrected result: 217 of 236 real content pages recovered cleanly, 92 percent, holding 72,530 Semitic characters; only 19 content pages failed, each named in the report. Nothing of the book was lost; the contamination was hallucination over blankness. A new validator quarantines pages by explicit reason and its output is the only citable file.
+*English abstract:* The industrial session caught a real defect in the third lens's cleaning tool: its repetition detector measured Hebrew tokens only, so hallucination loops in other scripts passed unseen. The raw batch output carries 2.5 million Arabic-block characters, plus Urdu loops, 119 leaks of model meta-commentary, and JSON vision objects in place of text. Measurement showed that blank separator pages generated most of this contamination. Of 236 content pages, 217 passed the contamination filter and contain 72,530 Semitic-block characters. Those figures measure contamination-filter passage and recovered normalized script, not diplomatic accuracy or complete inscription reading. The validator's usable output may locate candidates, but no inscription spelling is citable until it is collated character by character against the PDF and passes third-lens review.
 
 ## إلحاقُ طبقةِ الاسترداد المنظّمة (2026-07-23)
 
 بُنِيَت طبقةُ `cooke-1903-inscription-layer.json` من `cooke1903_usable.md` وحدَه، لا من الخامِ ولا من `cooke1903_clean.md`. وحضرت فيها الوحداتُ المرقّمةُ 1 إلى 150 في 153 سجلًا، مع تفريعِ 148 و149.
 
 وقعت سبعُ وحداتٍ في صفحاتِ المحتوى المعزولة، فحُفظت لها عناوينُها بعدَ مقابلتِها بصريًّا على PDF، وبقيَ نصُّها وترجمتُها فارغين. وجميعُ سجلاتِ الطبقةِ بلا حكمٍ وخلفَ فحصٍ بصريٍّ إلزامي، لأنّ ترتيبَ العمودين قد يخلطُ حدودَ النصِّ والترجمةَ حتى في الصفحةِ التي اجتازت مصفاةَ التلوّث.
+
+## تصحيحُ اقتباسِ المصدرِ الأوّليِّ ووصفِ الاسترداد (2026-07-25)
+
+**السند:** أذنَ المؤلّفُ نصًّا في 2026-07-25: «صحّح ورقةَ التثبيت». والمصحَّحُ خطأٌ في نقلِ مصدرٍ أوّليٍّ منشور، لا حكمٌ لغويٌّ جديد.
+
+حملَ الاقتباسُ المودَعُ في 74889e9 أربعَ تسوياتٍ من مخرجِ التفريغِ نحوَ الرسمِ العبريِّ، ثم كشفتها المقابلةُ على صورةِ الصفحة:
+
+| المودَعُ سابقًا | مطبوعُ Cooke المحقَّق |
+|---|---|
+| `אני יחומלך` | `אנך יחומלך` |
+| `בן יהרבע` | `בן יהרבעל` |
+| `אש פעלתו` | `אש פעלתן` |
+| `[כי שמע]` | `[כ שמע]` |
+
+استُبدلَ الاقتباسُ في موضعِه بالنصِّ المحقَّق، وصُحِّحَ وصفُ العيبِ في الورقةِ كلِّها: التفريغُ لا يضيفُ التشكيلَ فقط، بل قد يطبّعُ الصوامتَ نفسها نحوَ العبريّة. لذلك أُعيدَ وصفُ 72,530 محرفًا بأنَّها محارفُ خطٍّ مستردٍ وقراءةٍ مطبَّعةٍ اجتازت مصفاةَ التلوّث، لا نصًّا مقروءًا قراءةً دبلوماسيّة.
+
+لم يدخلِ الاقتباسُ القديمُ حكمَ نسبٍ ولا بطاقةً لغويّة؛ فطبقةُ Cooke كلُّها كانت وما زالت خلفَ بوابةِ المقابلةِ البصريّة. والصورةُ الكتابيّةُ لا تُستشهَدُ من OCR، بل من سجلٍ قوبلَ حرفًا حرفًا على PDF ثم اجتازَ المراجعةَ الثالثة.
