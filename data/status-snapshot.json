@@ -4,70 +4,70 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 13,
-  "cards_total": 4032,
+  "cards_total": 4061,
   "by_language": [
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1799,
-    "links": 318
+    "cards": 1809,
+    "links": 280
    },
    {
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 645,
-    "links": 23
+    "cards": 651,
+    "links": 37
    },
    {
     "key": "coptic",
     "en": "Coptic",
     "ar": "القبطيّة",
-    "cards": 406,
-    "links": 15
+    "cards": 407,
+    "links": 12
    },
    {
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 399,
-    "links": 66
+    "cards": 406,
+    "links": 90
    },
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 166,
-    "links": 9
+    "cards": 167,
+    "links": 8
    },
    {
     "key": "phoenician-punic-scout",
     "en": "Phoenician scout",
     "ar": "مسحُ الفينيقيّة",
-    "cards": 164,
+    "cards": 166,
     "links": 3
    },
    {
     "key": "akkadian",
     "en": "Akkadian",
     "ar": "الأكّاديّة",
-    "cards": 129,
-    "links": 68
+    "cards": 128,
+    "links": 67
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 114,
-    "links": 7
+    "cards": 116,
+    "links": 6
    },
    {
     "key": "welsh",
     "en": "Welsh",
     "ar": "الويلزيّة",
     "cards": 100,
-    "links": 2
+    "links": 1
    },
    {
     "key": "punic",
@@ -94,28 +94,28 @@
     "key": "gothic",
     "en": "Gothic",
     "ar": "القوطيّة",
-    "cards": 3,
+    "cards": 4,
     "links": 1
    }
   ]
  },
  "verdicts": {
-  "links_to_arabic": 517,
-  "closures": 249,
+  "links_to_arabic": 510,
+  "closures": 243,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 453,
+    "count": 434,
     "link": true
    },
    {
     "name": "LOANWORD",
-    "count": 97,
+    "count": 98,
     "link": false
    },
    {
     "name": "PROPER-NAME-ISOLATED",
-    "count": 73,
+    "count": 72,
     "link": false
    },
    {
@@ -124,13 +124,13 @@
     "link": false
    },
    {
-    "name": "NUCLEUS-ECHO",
-    "count": 28,
+    "name": "ROOT-ECHO",
+    "count": 30,
     "link": true
    },
    {
-    "name": "ROOT-ECHO",
-    "count": 20,
+    "name": "NUCLEUS-ECHO",
+    "count": 28,
     "link": true
    },
    {
@@ -140,13 +140,8 @@
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 13,
+    "count": 15,
     "link": true
-   },
-   {
-    "name": "READY",
-    "count": 6,
-    "link": false
    },
    {
     "name": "MIXED-ISOLATED",
@@ -167,54 +162,50 @@
  },
  "pipeline": {
   "cards_total": 4063,
-  "suspended": 3292,
-  "released": 771,
+  "suspended": 3181,
+  "released": 882,
   "blockers": [
    {
-    "name": "TOOL-GAP",
-    "count": 1032
-   },
-   {
     "name": "OPEN-CANDIDATE",
-    "count": 969
+    "count": 1445
    },
    {
     "name": "SOURCE-GAP",
-    "count": 745
+    "count": 990
    },
    {
     "name": "MORPHOLOGY-GAP",
-    "count": 352
+    "count": 367
    },
    {
-    "name": "UNLABELLED",
-    "count": 129
+    "name": "TOOL-GAP",
+    "count": 284
    },
    {
     "name": "LAW-GAP",
-    "count": 65
+    "count": 95
    }
   ],
   "backlog_by_file": [
    {
     "file": "aramaic.md",
-    "count": 1323
+    "count": 1326
    },
    {
     "file": "egyptian.md",
-    "count": 618
+    "count": 561
    },
    {
     "file": "coptic.md",
-    "count": 385
+    "count": 386
    },
    {
     "file": "hebrew.md",
-    "count": 330
+    "count": 278
    },
    {
     "file": "phoenician-punic-scout.md",
-    "count": 165
+    "count": 162
    },
    {
     "file": "old-latin.md",
@@ -226,7 +217,7 @@
    },
    {
     "file": "punic.md",
-    "count": 91
+    "count": 88
    },
    {
     "file": "akkadian.md",
@@ -234,7 +225,7 @@
    },
    {
     "file": "welsh.md",
-    "count": 48
+    "count": 49
    },
    {
     "file": "old-norse.md",
@@ -242,7 +233,7 @@
    },
    {
     "file": "persian.md",
-    "count": 7
+    "count": 6
    }
   ]
  },

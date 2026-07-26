@@ -21,7 +21,11 @@ GAPS = ('TOOL-GAP', 'LAW-GAP', 'SOURCE-GAP', 'OPEN-CANDIDATE', 'MORPHOLOGY-GAP')
 
 def cards(path):
     body = open(path, encoding='utf-8').read()
-    blocks = re.split(r'(?=^### (?:بطاقة|إعادةُ توسيم))', body, flags=re.M)
+    # A reading card ends at the next level-three section, not merely at the
+    # next card.  Organic-review sections often follow a READY card and carry
+    # their own blockers; letting the preceding card swallow that section
+    # falsely re-suspends the READY verdict.
+    blocks = re.split(r'(?=^### )', body, flags=re.M)
     for b in blocks:
         if not (b.startswith('### بطاقة') or b.startswith('### إعادةُ توسيم')):
             continue
@@ -37,12 +41,23 @@ def cards(path):
         m = re.search(r'حالةُ? الإغلاق[^\n]*?:\s*\*{0,2}([^\n*]+)', b)
         if m:
             closure = m.group(1).strip()
-        gaps = [g for g in GAPS if g in b]
         # structured blocker line is authoritative: - عائق: النوع=LAW-GAP؛ يتطلب=...
         blocker_type, required = '', ''
         m = re.search(r'^-\s*عائق:\s*النوع\s*=\s*([A-Z\-]+)\s*[؛;]\s*يتطلب\s*=\s*([^\n]+)', b, re.M)
         if m:
             blocker_type, required = m.group(1).strip(), m.group(2).strip()
+        # Historical appendices deliberately preserve the obstacle they replaced.
+        # Reading every gap token anywhere in the card therefore re-suspends a
+        # resolved card merely because its audit trail says "كان TOOL-GAP".
+        # The structured blocker is authoritative when present; the current
+        # closure is the fallback for older cards that predate that field.
+        gaps = []
+        if blocker_type:
+            if blocker_type in GAPS:
+                gaps.append(blocker_type)
+            gaps.extend(g for g in GAPS if g in closure and g not in gaps)
+        else:
+            gaps = [g for g in GAPS if g in closure]
         # prose mentions are hints only, never unlock triggers
         rows = sorted(set(re.findall(r'\bBR-[A-Z]+-\d+\b', b)))
         yield {'file': path.replace('\\', '/'), 'card': title[:80], 'verdict': verdict,

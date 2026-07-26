@@ -48,7 +48,7 @@
 - ملاحظات: محلي، ولا خط برهان.
 
 ### بطاقة: `hebrew:family:56d1bd8343f1e74e70ddf50d`، אחרית הימים (الرتبة 2)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ימי `غير منشورة`، noun، «plural construct state form of יוֹם (yom): days of» [Kaikki Hebrew، السطر 10399]؛ ימי הביניים `y'mé habenáyim`، name، «Middle Ages, in European history.» [Kaikki Hebrew، السطر 10592]؛ יום חול `yóm khól`، noun، «weekday» [Kaikki Hebrew، السطر 10939]؛ יומם `yomám`، adv، «by day» [Kaikki Hebrew، السطر 11360]؛ יום עצמאות `yóm 'atsma'út`، noun، «independence day» [Kaikki Hebrew، السطر 11668]؛ יום הולדת `yom-hulédet`، noun، «birthday» [Kaikki Hebrew، السطر 1249]؛ יומי `yomí`، adj، «daily» [Kaikki Hebrew، السطر 13893]؛ בסופו של יום `b'sofó shel yom`، prep_phrase، «at the end of the day» [Kaikki Hebrew، السطر 15238]؛ קשה יום `qshe-yóm`، adj، «poor, impoverished, indigent» [Kaikki Hebrew، السطر 15246]؛ מדי יום ביומו `midéy yom beyomó`، adv، «each and every day, daily» [Kaikki Hebrew، السطر 15384]؛ יום `yom`، noun، «Day: the period between dawn and dusk.» [Kaikki Hebrew، السطر 160]؛ יום כיפור `yom kipúr`، name، «Yom Kippur (a particular Jewish holiday, the day of atonement, falling on the tenth day of the Hebrew month of Tishrei)» [Kaikki Hebrew، السطر 161]؛ יום כן יום לא `yom kén yom ló`، phrase، «every other day» [Kaikki Hebrew، السطر 16464]؛ כל יומיים `kol yomáyim`، phrase، «every other day» [Kaikki Hebrew، السطر 16465]؛ יומן `yomán`، noun، «diary» [Kaikki Hebrew، السطر 3158]؛ היום `hayóm`، adv، «today» [Kaikki Hebrew، السطر 317]؛ אחרית הימים `akharít hayamím`، name، «The end times, the last days» [Kaikki Hebrew، السطر 363]؛ יום כפור `yom kippúr`، name، «Defective spelling of יום כיפור.» [Kaikki Hebrew، السطر 4455]؛ יום הכפורים `yom ha-kipurím`، name، «defective spelling of יום הכיפורים (yom ha-kipurím)» [Kaikki Hebrew، السطر 4456]؛ יום הכיפורים `yom ha-kipurím`، name، «Yom Kippur» [Kaikki Hebrew، السطر 4457]؛ ימים `yamím`، noun، «plural indefinite form of יוֹם (yom)» [Kaikki Hebrew، السطر 4521]؛ ימי הולדת `y'mei-hulédet`، noun، «plural indefinite form of יום הולדת (yom-hulédet)» [Kaikki Hebrew، السطر 5264]؛ יומנעים `yomna'ím`، phrase، «Used to wish someone a pleasant day, usually in the context of a greeting or farewell.» [Kaikki Hebrew، السطر 6723]
 - أقدمُ صورةٍ مستعادة: From יום (yóm, “day”) + ־ָם (-ám, adverb-forming suffix).؛ Literally, “hard of day”.؛ From Proto-Semitic *yawm-, with monophthongization of *aw. Cognate with Arabic يَوْم (yawm).؛ Literally, “one day yes, one day no”.؛ From כֹּל (kol, “every”) + יוֹמַיִם (yomáyim, “two days”).؛ הַ־ (ha, “the”) + יוֹם (yom, “day”)؛ יוֹם (yom, “day”) + נָעִים (naím, “pleasant”)
@@ -56,7 +56,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root يوم «مدة من الزمن ممتدة متصلة» (licensed؛ LAB-06)؛ root يوم «مدة من الزمن ممتدة متصلة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 1/1؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)
 - مسارُ الصوت: root يوم «مدة من الزمن ممتدة متصلة» (licensed؛ LAB-06)؛ root يوم «مدة من الزمن ممتدة متصلة» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)
 - المعنى من قاموس الفرع: ימי `غير منشورة`، noun، «plural construct state form of יוֹם (yom): days of» [Kaikki Hebrew، السطر 10399]؛ ימי הביניים `y'mé habenáyim`، name، «Middle Ages, in European history.» [Kaikki Hebrew، السطر 10592]؛ יום חול `yóm khól`، noun، «weekday» [Kaikki Hebrew، السطر 10939]؛ יומם `yomám`، adv، «by day» [Kaikki Hebrew، السطر 11360]؛ יום עצמאות `yóm 'atsma'út`، noun، «independence day» [Kaikki Hebrew، السطر 11668]؛ יום הולדת `yom-hulédet`، noun، «birthday» [Kaikki Hebrew، السطر 1249]؛ יומי `yomí`، adj، «daily» [Kaikki Hebrew، السطر 13893]؛ בסופו של יום `b'sofó shel yom`، prep_phrase، «at the end of the day» [Kaikki Hebrew، السطر 15238]؛ קשה יום `qshe-yóm`، adj، «poor, impoverished, indigent» [Kaikki Hebrew، السطر 15246]؛ מדי יום ביומו `midéy yom beyomó`، adv، «each and every day, daily» [Kaikki Hebrew، السطر 15384]؛ יום `yom`، noun، «Day: the period between dawn and dusk.» [Kaikki Hebrew، السطر 160]؛ יום כיפור `yom kipúr`، name، «Yom Kippur (a particular Jewish holiday, the day of atonement, falling on the tenth day of the Hebrew month of Tishrei)» [Kaikki Hebrew، السطر 161]؛ יום כן יום לא `yom kén yom ló`، phrase، «every other day» [Kaikki Hebrew، السطر 16464]؛ כל יומיים `kol yomáyim`، phrase، «every other day» [Kaikki Hebrew، السطر 16465]؛ יומן `yomán`، noun، «diary» [Kaikki Hebrew، السطر 3158]؛ היום `hayóm`، adv، «today» [Kaikki Hebrew، السطر 317]؛ אחרית הימים `akharít hayamím`، name، «The end times, the last days» [Kaikki Hebrew، السطر 363]؛ יום כפור `yom kippúr`، name، «Defective spelling of יום כיפור.» [Kaikki Hebrew، السطر 4455]؛ יום הכפורים `yom ha-kipurím`، name، «defective spelling of יום הכיפורים (yom ha-kipurím)» [Kaikki Hebrew، السطر 4456]؛ יום הכיפורים `yom ha-kipurím`، name، «Yom Kippur» [Kaikki Hebrew، السطر 4457]؛ ימים `yamím`، noun، «plural indefinite form of יוֹם (yom)» [Kaikki Hebrew، السطر 4521]؛ ימי הולדת `y'mei-hulédet`، noun، «plural indefinite form of יום הולדת (yom-hulédet)» [Kaikki Hebrew، السطر 5264]؛ יומנעים `yomna'ím`، phrase، «Used to wish someone a pleasant day, usually in the context of a greeting or farewell.» [Kaikki Hebrew، السطر 6723]
@@ -65,14 +65,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10399:en-ימי-he-noun-NtCO8GzH: الرسم=ימי، الرومنة=غير منشورة، الصنف=noun، المعنى=plural construct state form of יוֹם (yom): days of، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10592:en-ימי_הביניים-he-name-fiH8X1km: الرسم=ימי הביניים، الرومنة=y'mé habenáyim، الصنف=name، المعنى=Middle Ages, in European history.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10939:en-יום_חול-he-noun-gtBI0m7i: الرسم=יום חול، الرومنة=yóm khól، الصنف=noun، المعنى=weekday، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:11360:en-יומם-he-adv-AUJgTntd: الرسم=יומם، الرومنة=yomám، الصنف=adv، المعنى=by day، السلف/الخلف=From יום (yóm, “day”) + ־ָם (-ám, adverb-forming suffix).، القرض=لا وسم آلي؛ kaikki_hebrew:11668:en-יום_עצמאות-he-noun-tpiu-DSv: الرسم=יום עצמאות، الرومنة=yóm 'atsma'út، الصنف=noun، المعنى=independence day، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1249:en-יום_הולדת-he-noun-BCLULGib: الرسم=יום הולדת، الرومنة=yom-hulédet، الصنف=noun، المعنى=birthday، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:13893:en-יומי-he-adj-bzEwTN~Q: الرسم=יומי، الرومنة=yomí، الصنف=adj، المعنى=daily، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:15238:en-בסופו_של_יום-he-prep_phrase-Qia6DuGV: الرسم=בסופו של יום، الرومنة=b'sofó shel yom، الصنف=prep_phrase، المعنى=at the end of the day، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:15246:en-קשה_יום-he-adj-aDD~5LrZ: الرسم=קשה יום، الرومنة=qshe-yóm، الصنف=adj، المعنى=poor, impoverished, indigent، السلف/الخلف=Literally, “hard of day”.، القرض=لا وسم آلي؛ kaikki_hebrew:15384:en-מדי_יום_ביומו-he-adv-udhK1AY~: الرسم=מדי יום ביומו، الرومنة=midéy yom beyomó، الصنف=adv، المعنى=each and every day, daily، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:160:en-יום-he-noun-1n7m-QBp: الرسم=יום، الرومنة=yom، الصنف=noun، المعنى=Day: the period between dawn and dusk.، السلف/الخلف=From Proto-Semitic *yawm-, with monophthongization of *aw. Cognate with Arabic يَوْم (yawm).، القرض=لا وسم آلي؛ kaikki_hebrew:161:en-יום_כיפור-he-name-tyWXUR5I: الرسم=יום כיפור، الرومنة=yom kipúr، الصنف=name، المعنى=Yom Kippur (a particular Jewish holiday, the day of atonement, falling on the tenth day of the Hebrew month of Tishrei)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:16464:en-יום_כן_יום_לא-he-phrase-sMWPRs2m: الرسم=יום כן יום לא، الرومنة=yom kén yom ló، الصنف=phrase، المعنى=every other day، السلف/الخلف=Literally, “one day yes, one day no”.، القرض=لا وسم آلي؛ kaikki_hebrew:16465:en-כל_יומיים-he-phrase-sMWPRs2m: الرسم=כל יומיים، الرومنة=kol yomáyim، الصنف=phrase، المعنى=every other day، السلف/الخلف=From כֹּל (kol, “every”) + יוֹמַיִם (yomáyim, “two days”).، القرض=لا وسم آلي؛ kaikki_hebrew:3158:en-יומן-he-noun-HX~hRvrW: الرسم=יומן، الرومنة=yomán، الصنف=noun، المعنى=diary، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:317:en-היום-he-adv-4PT3Z6yI: الرسم=היום، الرومنة=hayóm، الصنف=adv، المعنى=today، السلف/الخلف=הַ־ (ha, “the”) + יוֹם (yom, “day”)، القرض=لا وسم آلي؛ kaikki_hebrew:363:en-אחרית_הימים-he-name-SSoXGXC7: الرسم=אחרית הימים، الرومنة=akharít hayamím، الصنف=name، المعنى=The end times, the last days، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4455:en-יום_כפור-he-name-Fn5volto: الرسم=יום כפור، الرومنة=yom kippúr، الصنف=name، المعنى=Defective spelling of יום כיפור.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4456:en-יום_הכפורים-he-name-exfLIKss: الرسم=יום הכפורים، الرومنة=yom ha-kipurím، الصنف=name، المعنى=defective spelling of יום הכיפורים (yom ha-kipurím)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4457:en-יום_הכיפורים-he-name-SdENV87x: الرسم=יום הכיפורים، الرومنة=yom ha-kipurím، الصنف=name، المعنى=Yom Kippur، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4521:en-ימים-he-noun-SN1NGKsI: الرسم=ימים، الرومنة=yamím، الصنف=noun، المعنى=plural indefinite form of יוֹם (yom)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5264:en-ימי_הולדת-he-noun-hmuZsT8G: الرسم=ימי הולדת، الرومنة=y'mei-hulédet، الصنف=noun، المعنى=plural indefinite form of יום הולדת (yom-hulédet)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6723:en-יומנעים-he-phrase-6kU8Tl~Q: الرسم=יומנעים، الرومنة=yomna'ím، الصنف=phrase، المعنى=Used to wish someone a pleasant day, usually in the context of a greeting or farewell.، السلف/الخلف=יוֹם (yom, “day”) + נָעִים (naím, “pleasant”)، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:56d1bd8343f1e74e70ddf50d -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: יום، الرتبة 2.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:48e9db8928b2cae564c2f28c`، אבעבועות רוח (الرتبة 3)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מצברוח `matsavrúakh`، noun، «alternative spelling of מַצַּב רוּחַ (matsáv rúakh)» [Kaikki Hebrew، السطر 10154]؛ הצטברח `hitstavréakh`، verb، «to become ill-tempered, to get a bad mood» [Kaikki Hebrew، السطر 10155]؛ אורך רוח `órekh rúakh`، noun، «patience» [Kaikki Hebrew، السطر 13005]؛ קוצר רוח `kótser rúakh`، noun، «impatience» [Kaikki Hebrew، السطر 13538]؛ טחנת רוח `takhanát rúakh`، noun، «windmill» [Kaikki Hebrew، السطر 13912]؛ מנהיג רוחני `manhíg rukhaní`، noun، «spiritual leader» [Kaikki Hebrew، السطر 15049]؛ נחת רוח `nákhat rúakh`، noun، «contentment» [Kaikki Hebrew، السطر 15117]؛ מצב רוח `matsáv rúakh`، noun، «mood, mental state, temper.» [Kaikki Hebrew، السطر 2042]؛ רוח הקדש `rúakh hakódesh`، name، «the Holy Spirit (literally: spirit of holiness)» [Kaikki Hebrew، السطر 320]؛ רוח `rúakh`، noun، «Wind, a wind: (a) movement of atmospheric air.» [Kaikki Hebrew، السطر 321]؛ רוחני `rukhaní`، adj، «spiritual» [Kaikki Hebrew، السطر 4617]؛ משגיח רוחני `mashgiákh rukhaní`، noun، «The rabbi in a postsecondary yeshiva responsible for students' spiritual welfare.» [Kaikki Hebrew، السطر 4618]؛ רוח רפאים `rúakh r'fa'ím`، noun، «ghost (spirit appearing after death)» [Kaikki Hebrew، السطر 5036]؛ רוחניות `rukhaniyút`، noun، «spirituality» [Kaikki Hebrew، السطر 8485]؛ רוחניות `rukhaniyót`، adj، «feminine plural indefinite form of רוּחָנִי (rukhaní)» [Kaikki Hebrew، السطر 8486]؛ מדעי הרוח `mad'éi ha-rúach`، noun، «humanities (the branch of learning that includes the arts, classics, philosophy and history etc.)» [Kaikki Hebrew، السطر 9234]؛ אבעבועות רוח `ava'bu'ót rúakh`، noun، «chicken pox» [Kaikki Hebrew، السطر 9672]
 - أقدمُ صورةٍ مستعادة: The root is a back-formation from מַצַּב רוּחַ (matsáv rúakh, “mood, temper; (slang) bad mood”), a compound of מַצַּב (matsáv, “state of”) + רוּחַ (rúakh, “wind; spirit”).؛ Compound of מַצַּב (matsáv, “state [of]”) + רוּחַ (rúakh, “wind; spirit”).؛ From Proto-West Semitic *rūḥ-. Cognate with Arabic رُوح (rūḥ).؛ From רוּחַ (rúakh, “wind, spirit”) + ־ָנִי (-aní). Compare Arabic رَوْحَانِيّ (rawḥāniyy, “alcoholic; spiritual; divine”).؛ From רוּחַ (rúakh, “wind; spirit”) + רְפָאִים (r'fa'ím, “dead people; giants”).؛ From רוּחָנִי (rukhaní) + ־וּת (-út).؛ מַדְּעֵי (“sciences of”) + הַ־ (ha-, “the”) + רוּחַ (rúach, “spirit”), calque of German Geisteswissenschaften.
@@ -80,7 +90,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-05)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ LAB-06)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ مباشر)؛ root ريح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (manual-condition؛ GLD-01)؛ root لوح «عرض ظاهر الشيء واستواؤه مع جفاف أو صلابة» (licensed؛ LAB-06، LIQ-01)؛ root لوح «عرض ظاهر الشيء واستواؤه مع جفاف أو صلابة» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-04)
 - مسارُ الصوت: root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-05)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ LAB-06)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ مباشر)؛ root ريح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (manual-condition؛ GLD-01)؛ root لوح «عرض ظاهر الشيء واستواؤه مع جفاف أو صلابة» (licensed؛ LAB-06، LIQ-01)؛ root لوح «عرض ظاهر الشيء واستواؤه مع جفاف أو صلابة» (licensed؛ LIQ-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: מצברוח `matsavrúakh`، noun، «alternative spelling of מַצַּב רוּחַ (matsáv rúakh)» [Kaikki Hebrew، السطر 10154]؛ הצטברח `hitstavréakh`، verb، «to become ill-tempered, to get a bad mood» [Kaikki Hebrew، السطر 10155]؛ אורך רוח `órekh rúakh`، noun، «patience» [Kaikki Hebrew، السطر 13005]؛ קוצר רוח `kótser rúakh`، noun، «impatience» [Kaikki Hebrew، السطر 13538]؛ טחנת רוח `takhanát rúakh`، noun، «windmill» [Kaikki Hebrew، السطر 13912]؛ מנהיג רוחני `manhíg rukhaní`، noun، «spiritual leader» [Kaikki Hebrew، السطر 15049]؛ נחת רוח `nákhat rúakh`، noun، «contentment» [Kaikki Hebrew، السطر 15117]؛ מצב רוח `matsáv rúakh`، noun، «mood, mental state, temper.» [Kaikki Hebrew، السطر 2042]؛ רוח הקדש `rúakh hakódesh`، name، «the Holy Spirit (literally: spirit of holiness)» [Kaikki Hebrew، السطر 320]؛ רוח `rúakh`، noun، «Wind, a wind: (a) movement of atmospheric air.» [Kaikki Hebrew، السطر 321]؛ רוחני `rukhaní`، adj، «spiritual» [Kaikki Hebrew، السطر 4617]؛ משגיח רוחני `mashgiákh rukhaní`، noun، «The rabbi in a postsecondary yeshiva responsible for students' spiritual welfare.» [Kaikki Hebrew، السطر 4618]؛ רוח רפאים `rúakh r'fa'ím`، noun، «ghost (spirit appearing after death)» [Kaikki Hebrew، السطر 5036]؛ רוחניות `rukhaniyút`، noun، «spirituality» [Kaikki Hebrew، السطر 8485]؛ רוחניות `rukhaniyót`، adj، «feminine plural indefinite form of רוּחָנִי (rukhaní)» [Kaikki Hebrew، السطر 8486]؛ מדעי הרוח `mad'éi ha-rúach`، noun، «humanities (the branch of learning that includes the arts, classics, philosophy and history etc.)» [Kaikki Hebrew، السطر 9234]؛ אבעבועות רוח `ava'bu'ót rúakh`، noun، «chicken pox» [Kaikki Hebrew، السطر 9672]
@@ -89,14 +99,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10154:en-מצברוח-he-noun-MQJj~bTx: الرسم=מצברוח، الرومنة=matsavrúakh، الصنف=noun، المعنى=alternative spelling of מַצַּב רוּחַ (matsáv rúakh)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10155:en-הצטברח-he-verb-qIOS0zzT: الرسم=הצטברח، الرومنة=hitstavréakh، الصنف=verb، المعنى=to become ill-tempered, to get a bad mood، السلف/الخلف=The root is a back-formation from מַצַּב רוּחַ (matsáv rúakh, “mood, temper; (slang) bad mood”), a compound of מַצַּב (matsáv, “state of”) + רוּחַ (rúakh, “wind; spirit”).، القرض=لا وسم آلي؛ kaikki_hebrew:13005:en-אורך_רוח-he-noun-ltYf40Pd: الرسم=אורך רוח، الرومنة=órekh rúakh، الصنف=noun، المعنى=patience، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:13538:en-קוצר_רוח-he-noun--jPCohTs: الرسم=קוצר רוח، الرومنة=kótser rúakh، الصنف=noun، المعنى=impatience، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:13912:en-טחנת_רוח-he-noun-iEozm5b0: الرسم=טחנת רוח، الرومنة=takhanát rúakh، الصنف=noun، المعنى=windmill، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:15049:en-מנהיג_רוחני-he-noun-bDxRKDHB: الرسم=מנהיג רוחני، الرومنة=manhíg rukhaní، الصنف=noun، المعنى=spiritual leader، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:15117:en-נחת_רוח-he-noun-YRqJTbxo: الرسم=נחת רוח، الرومنة=nákhat rúakh، الصنف=noun، المعنى=contentment، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2042:en-מצב_רוח-he-noun-RJrGNh3n: الرسم=מצב רוח، الرومنة=matsáv rúakh، الصنف=noun، المعنى=mood, mental state, temper.، السلف/الخلف=Compound of מַצַּב (matsáv, “state [of]”) + רוּחַ (rúakh, “wind; spirit”).، القرض=لا وسم آلي؛ kaikki_hebrew:320:en-רוח_הקדש-he-name-4nvYanaJ: الرسم=רוח הקדש، الرومنة=rúakh hakódesh، الصنف=name، المعنى=the Holy Spirit (literally: spirit of holiness)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:321:en-רוח-he-noun-M4v59wqf: الرسم=רוח، الرومنة=rúakh، الصنف=noun، المعنى=Wind, a wind: (a) movement of atmospheric air.، السلف/الخلف=From Proto-West Semitic *rūḥ-. Cognate with Arabic رُوح (rūḥ).، القرض=لا وسم آلي؛ kaikki_hebrew:4617:en-רוחני-he-adj-kI1vdUY4: الرسم=רוחני، الرومنة=rukhaní، الصنف=adj، المعنى=spiritual، السلف/الخلف=From רוּחַ (rúakh, “wind, spirit”) + ־ָנִי (-aní). Compare Arabic رَوْحَانِيّ (rawḥāniyy, “alcoholic; spiritual; divine”).، القرض=لا وسم آلي؛ kaikki_hebrew:4618:en-משגיח_רוחני-he-noun-EniQ8hH5: الرسم=משגיח רוחני، الرومنة=mashgiákh rukhaní، الصنف=noun، المعنى=The rabbi in a postsecondary yeshiva responsible for students' spiritual welfare.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5036:en-רוח_רפאים-he-noun-wun27m7g: الرسم=רוח רפאים، الرومنة=rúakh r'fa'ím، الصنف=noun، المعنى=ghost (spirit appearing after death)، السلف/الخلف=From רוּחַ (rúakh, “wind; spirit”) + רְפָאִים (r'fa'ím, “dead people; giants”).، القرض=لا وسم آلي؛ kaikki_hebrew:8485:en-רוחניות-he-noun-GijkY0I9: الرسم=רוחניות، الرومنة=rukhaniyút، الصنف=noun، المعنى=spirituality، السلف/الخلف=From רוּחָנִי (rukhaní) + ־וּת (-út).، القرض=لا وسم آلي؛ kaikki_hebrew:8486:en-רוחניות-he-adj-odgAv5Wg: الرسم=רוחניות، الرومنة=rukhaniyót، الصنف=adj، المعنى=feminine plural indefinite form of רוּחָנִי (rukhaní)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9234:en-מדעי_הרוח-he-noun-OL3BKG6o: الرسم=מדעי הרוח، الرومنة=mad'éi ha-rúach، الصنف=noun، المعنى=humanities (the branch of learning that includes the arts, classics, philosophy and history etc.)، السلف/الخلف=מַדְּעֵי (“sciences of”) + הַ־ (ha-, “the”) + רוּחַ (rúach, “spirit”), calque of German Geisteswissenschaften.، القرض=لا وسم آلي؛ kaikki_hebrew:9672:en-אבעבועות_רוח-he-noun-sf86SGIW: الرسم=אבעבועות רוח، الرومنة=ava'bu'ót rúakh، الصنف=noun، المعنى=chicken pox، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:48e9db8928b2cae564c2f28c -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:dbb23d4f8e8b2ea4e0f49775`، אדושם (الرتبة 4)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: שם פעולה `shem-pe'ulá`، noun، «verbal noun» [Kaikki Hebrew، السطر 10077]؛ שמה `sh'máh`، noun، «singular form of שֵׁם (shém) with third-person feminine singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 11226]؛ שמות `shemót`، noun، «plural indefinite form of שֵׁם: names» [Kaikki Hebrew، السطر 1231]؛ שמות `sh'mót`، noun، «plural construct state form of שֵׁם: names of» [Kaikki Hebrew، السطر 1232]؛ חילול השם `khilúl hashém`، noun، «blasphemy, desecration of the Name» [Kaikki Hebrew، السطر 14549]؛ שם חיבה `shém khibá`، noun، «nickname» [Kaikki Hebrew، السطر 14969]؛ שם מסחרי `shém miskharí`، noun، «trade name, brand name» [Kaikki Hebrew، السطر 14970]؛ שם מתחם `shém mitkhám`، noun، «domain name» [Kaikki Hebrew، السطر 14971]؛ שם ספרותי `shém sifrutí`، noun، «pen name» [Kaikki Hebrew، السطر 14975]؛ שם רשום `shém rashúm`، noun، «trade name» [Kaikki Hebrew، السطر 14976]؛ אדושם `adoshém`، name، «a substitute for the Tetragrammaton, used to avoid taking the name in vain» [Kaikki Hebrew، السطر 16625]؛ שם `shem`، noun، «a name» [Kaikki Hebrew، السطر 1978]؛ שם פרטי `shém p'ratí`، noun، «given name» [Kaikki Hebrew، السطر 2188]؛ שם לוואי `shem levái`، noun، «nickname» [Kaikki Hebrew، السطر 226]؛ שמי `sh'mí`، noun، «singular form of שֵׁם with first-person singular personal pronoun as possessor: my name» [Kaikki Hebrew، السطر 3173]؛ השם `hashém`، noun، «singular definite form of שֵׁם (shém)» [Kaikki Hebrew، السطر 347]؛ השם `hashém`، name، «a substitute for the Tetragrammaton, used to avoid taking the name in vain» [Kaikki Hebrew، السطر 348]؛ שם תואר `shem to'ar`، noun، «adjective» [Kaikki Hebrew، السطر 4533]؛ שם עט `shem et`، noun، «pen name» [Kaikki Hebrew، السطر 5833]؛ שמך `shim'khá`، noun، «singular form of שֵׁם (shem) with second-person masculine singular personal pronoun as possessor: your name.» [Kaikki Hebrew، السطر 6242]؛ שמך `sh'mékh`، noun، «singular form of שֵׁם (shem) with second-person feminine singular personal pronoun as possessor: your name.» [Kaikki Hebrew، السطر 6243]؛ שמו `sh'mó`، noun، «singular form of שֵׁם (shém) with third-person masculine singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 6705]؛ ה׳ `H.`، name، «abbreviation of הַשֵּׁם (hashém), used to redact the full spelling of the Tetragrammaton: YHWH, Hashem» [Kaikki Hebrew، السطر 7660]؛ ברוך הוא וברוך שמו `barúkh hu uvarúkh sh'mó`، intj، «Blessed is he and blessed is his name.» [Kaikki Hebrew، السطر 8670]؛ למען השם `lemá'an hashém`، intj، «for God's sake (exclamation of surprise, impatience, etc)» [Kaikki Hebrew، السطر 9620]
 - أقدمُ صورةٍ مستعادة: שֵׁם (shem-, “name of”) + פעולה / פְּעֻלָּה (pe'ulá, “action”)؛ Blend of אֲדוֹנָי (adonáy) + הַשֵּׁם (hashém).؛ From Proto-Semitic *šim-, from Proto-Afroasiatic *sim- (“name”). Cognate with Arabic اسم (ism, “name”) and Aramaic שְׁמָא (šəmā).؛ הַ־ (ha, “the”) + שֵׁם (shem, “name”)؛ Calque from English.
@@ -104,7 +124,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حتم «تفتت المتماسك ظاهريًا (على ضعف) قِطَعًا منفصلة» (licensed؛ GUT-04، SIB-05)؛ root حتم «تفتت المتماسك ظاهريًا (على ضعف) قِطَعًا منفصلة» (licensed؛ SIB-05)؛ root حسم «إيقاف، أي قطع لما يخرج - أو يمتد - من الشيء عادة» (licensed؛ GUT-04، SIB-01)؛ root حسم «إيقاف، أي قطع لما يخرج - أو يمتد - من الشيء عادة» (licensed؛ SIB-01)؛ root هشم «تفتت جرم الشيء الجاف أو الصلب بالضغط» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 7/7؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: hollow-root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-04)؛ hollow-root سوم «امتداد بقاء أو مرور وذهاب في حيز بلا حد» (licensed؛ SIB-01)؛ hollow-root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-04)؛ hollow-root شيب «تحوُّل سوادِ شعر الرأس إلى بياض تأثرًا بضعف الشيخوخة» (licensed؛ LAB-04)
 - مسارُ الصوت: root حتم «تفتت المتماسك ظاهريًا (على ضعف) قِطَعًا منفصلة» (licensed؛ GUT-04، SIB-05)؛ root حتم «تفتت المتماسك ظاهريًا (على ضعف) قِطَعًا منفصلة» (licensed؛ SIB-05)؛ root حسم «إيقاف، أي قطع لما يخرج - أو يمتد - من الشيء عادة» (licensed؛ GUT-04، SIB-01)؛ root حسم «إيقاف، أي قطع لما يخرج - أو يمتد - من الشيء عادة» (licensed؛ SIB-01)؛ root هشم «تفتت جرم الشيء الجاف أو الصلب بالضغط» (licensed؛ مباشر)؛ hollow-root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-04)؛ hollow-root سوم «امتداد بقاء أو مرور وذهاب في حيز بلا حد» (licensed؛ SIB-01)؛ hollow-root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-04)؛ hollow-root شيب «تحوُّل سوادِ شعر الرأس إلى بياض تأثرًا بضعف الشيخوخة» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: שם פעולה `shem-pe'ulá`، noun، «verbal noun» [Kaikki Hebrew، السطر 10077]؛ שמה `sh'máh`، noun، «singular form of שֵׁם (shém) with third-person feminine singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 11226]؛ שמות `shemót`، noun، «plural indefinite form of שֵׁם: names» [Kaikki Hebrew، السطر 1231]؛ שמות `sh'mót`، noun، «plural construct state form of שֵׁם: names of» [Kaikki Hebrew، السطر 1232]؛ חילול השם `khilúl hashém`، noun، «blasphemy, desecration of the Name» [Kaikki Hebrew، السطر 14549]؛ שם חיבה `shém khibá`، noun، «nickname» [Kaikki Hebrew، السطر 14969]؛ שם מסחרי `shém miskharí`، noun، «trade name, brand name» [Kaikki Hebrew، السطر 14970]؛ שם מתחם `shém mitkhám`، noun، «domain name» [Kaikki Hebrew، السطر 14971]؛ שם ספרותי `shém sifrutí`، noun، «pen name» [Kaikki Hebrew، السطر 14975]؛ שם רשום `shém rashúm`، noun، «trade name» [Kaikki Hebrew، السطر 14976]؛ אדושם `adoshém`، name، «a substitute for the Tetragrammaton, used to avoid taking the name in vain» [Kaikki Hebrew، السطر 16625]؛ שם `shem`، noun، «a name» [Kaikki Hebrew، السطر 1978]؛ שם פרטי `shém p'ratí`، noun، «given name» [Kaikki Hebrew، السطر 2188]؛ שם לוואי `shem levái`، noun، «nickname» [Kaikki Hebrew، السطر 226]؛ שמי `sh'mí`، noun، «singular form of שֵׁם with first-person singular personal pronoun as possessor: my name» [Kaikki Hebrew، السطر 3173]؛ השם `hashém`، noun، «singular definite form of שֵׁם (shém)» [Kaikki Hebrew، السطر 347]؛ השם `hashém`، name، «a substitute for the Tetragrammaton, used to avoid taking the name in vain» [Kaikki Hebrew، السطر 348]؛ שם תואר `shem to'ar`، noun، «adjective» [Kaikki Hebrew، السطر 4533]؛ שם עט `shem et`، noun، «pen name» [Kaikki Hebrew، السطر 5833]؛ שמך `shim'khá`، noun، «singular form of שֵׁם (shem) with second-person masculine singular personal pronoun as possessor: your name.» [Kaikki Hebrew، السطر 6242]؛ שמך `sh'mékh`، noun، «singular form of שֵׁם (shem) with second-person feminine singular personal pronoun as possessor: your name.» [Kaikki Hebrew، السطر 6243]؛ שמו `sh'mó`، noun، «singular form of שֵׁם (shém) with third-person masculine singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 6705]؛ ה׳ `H.`، name، «abbreviation of הַשֵּׁם (hashém), used to redact the full spelling of the Tetragrammaton: YHWH, Hashem» [Kaikki Hebrew، السطر 7660]؛ ברוך הוא וברוך שמו `barúkh hu uvarúkh sh'mó`، intj، «Blessed is he and blessed is his name.» [Kaikki Hebrew، السطر 8670]؛ למען השם `lemá'an hashém`، intj، «for God's sake (exclamation of surprise, impatience, etc)» [Kaikki Hebrew، السطر 9620]
@@ -113,14 +133,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10077:en-שם_פעולה-he-noun-GRSDVF~A: الرسم=שם פעולה، الرومنة=shem-pe'ulá، الصنف=noun، المعنى=verbal noun، السلف/الخلف=שֵׁם (shem-, “name of”) + פעולה / פְּעֻלָּה (pe'ulá, “action”)، القرض=لا وسم آلي؛ kaikki_hebrew:11226:en-שמה-he-noun-TMpF8Atg: الرسم=שמה، الرومنة=sh'máh، الصنف=noun، المعنى=singular form of שֵׁם (shém) with third-person feminine singular personal pronoun as possessor.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1231:en-שמות-he-noun-QV5DCdNM: الرسم=שמות، الرومنة=shemót، الصنف=noun، المعنى=plural indefinite form of שֵׁם: names، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1232:en-שמות-he-noun-VNhBUxiM: الرسم=שמות، الرومنة=sh'mót، الصنف=noun، المعنى=plural construct state form of שֵׁם: names of، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14549:en-חילול_השם-he-noun-mqPjOA7s: الرسم=חילול השם، الرومنة=khilúl hashém، الصنف=noun، المعنى=blasphemy, desecration of the Name، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14969:en-שם_חיבה-he-noun-oPs~EVnJ: الرسم=שם חיבה، الرومنة=shém khibá، الصنف=noun، المعنى=nickname، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14970:en-שם_מסחרי-he-noun-vpmUWc6h: الرسم=שם מסחרי، الرومنة=shém miskharí، الصنف=noun، المعنى=trade name, brand name، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14971:en-שם_מתחם-he-noun-9ZkKVOPH: الرسم=שם מתחם، الرومنة=shém mitkhám، الصنف=noun، المعنى=domain name، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14975:en-שם_ספרותי-he-noun-jH8JvtU-: الرسم=שם ספרותי، الرومنة=shém sifrutí، الصنف=noun، المعنى=pen name، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14976:en-שם_רשום-he-noun-1WEMVUUU: الرسم=שם רשום، الرومنة=shém rashúm، الصنف=noun، المعنى=trade name، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:16625:en-אדושם-he-name-gT485mvX: الرسم=אדושם، الرومنة=adoshém، الصنف=name، المعنى=a substitute for the Tetragrammaton, used to avoid taking the name in vain، السلف/الخلف=Blend of אֲדוֹנָי (adonáy) + הַשֵּׁם (hashém).، القرض=لا وسم آلي؛ kaikki_hebrew:1978:en-שם-he-noun-NulsYmM2: الرسم=שם، الرومنة=shem، الصنف=noun، المعنى=a name، السلف/الخلف=From Proto-Semitic *šim-, from Proto-Afroasiatic *sim- (“name”). Cognate with Arabic اسم (ism, “name”) and Aramaic שְׁמָא (šəmā).، القرض=لا وسم آلي؛ kaikki_hebrew:2188:en-שם_פרטי-he-noun-~AKtDSnJ: الرسم=שם פרטי، الرومنة=shém p'ratí، الصنف=noun، المعنى=given name، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:226:en-שם_לוואי-he-noun-oPs~EVnJ: الرسم=שם לוואי، الرومنة=shem levái، الصنف=noun، المعنى=nickname، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3173:en-שמי-he-noun-BiyYNUUY: الرسم=שמי، الرومنة=sh'mí، الصنف=noun، المعنى=singular form of שֵׁם with first-person singular personal pronoun as possessor: my name، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:347:en-השם-he-noun-pErzaHu7: الرسم=השם، الرومنة=hashém، الصنف=noun، المعنى=singular definite form of שֵׁם (shém)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:348:en-השם-he-name-gT485mvX: الرسم=השם، الرومنة=hashém، الصنف=name، المعنى=a substitute for the Tetragrammaton, used to avoid taking the name in vain، السلف/الخلف=הַ־ (ha, “the”) + שֵׁם (shem, “name”)، القرض=لا وسم آلي؛ kaikki_hebrew:4533:en-שם_תואר-he-noun-LyRz~YN8: الرسم=שם תואר، الرومنة=shem to'ar، الصنف=noun، المعنى=adjective، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5833:en-שם_עט-he-noun-jH8JvtU-: الرسم=שם עט، الرومنة=shem et، الصنف=noun، المعنى=pen name، السلف/الخلف=Calque from English.، القرض=لا وسم آلي؛ kaikki_hebrew:6242:en-שמך-he-noun-eDhUpyGi: الرسم=שמך، الرومنة=shim'khá، الصنف=noun، المعنى=singular form of שֵׁם (shem) with second-person masculine singular personal pronoun as possessor: your name.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6243:en-שמך-he-noun-Sjv66BRb: الرسم=שמך، الرومنة=sh'mékh، الصنف=noun، المعنى=singular form of שֵׁם (shem) with second-person feminine singular personal pronoun as possessor: your name.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6705:en-שמו-he-noun-vmbNYcO9: الرسم=שמו، الرومنة=sh'mó، الصنف=noun، المعنى=singular form of שֵׁם (shém) with third-person masculine singular personal pronoun as possessor.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7660:en-ה׳-he-name-w~D5iUAf: الرسم=ה׳، الرومنة=H.، الصنف=name، المعنى=abbreviation of הַשֵּׁם (hashém), used to redact the full spelling of the Tetragrammaton: YHWH, Hashem، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8670:en-ברוך_הוא_וברוך_שמו-he-intj-Qf0gC0~9: الرسم=ברוך הוא וברוך שמו، الرومنة=barúkh hu uvarúkh sh'mó، الصنف=intj، المعنى=Blessed is he and blessed is his name.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9620:en-למען_השם-he-intj-nwzAgz-Q: الرسم=למען השם، الرومنة=lemá'an hashém، الصنف=intj، المعنى=for God's sake (exclamation of surprise, impatience, etc)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:dbb23d4f8e8b2ea4e0f49775 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 7/7؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:574894729fee6dd1131c1ac8`، פרס (الرتبة 5)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פרס `parás`، verb، «to slice, to cut» [Kaikki Hebrew، السطر 3048]؛ פרס `péres`، noun، «bearded vulture (a long-winged vulture, Gypaetus barbatus, found in southern Europe, Africa and India)» [Kaikki Hebrew، السطر 3049]؛ פרס `péres`، name، «a surname» [Kaikki Hebrew، السطر 3050]؛ פרס `parás`، verb، «to spread, spread (something) out» [Kaikki Hebrew، السطر 3051]؛ פרס `prás`، noun، «a reward, a prize» [Kaikki Hebrew، السطر 3052]؛ פרס `parás`، name، «Persia» [Kaikki Hebrew، السطر 3053]؛ פרץ `paráts`، verb، «to breach: to break open a gap in an enclosure or the like.» [Kaikki Hebrew، السطر 3904]؛ פרץ `pérets`، noun، «A breach: a gap in an enclosure or the like.» [Kaikki Hebrew، السطر 3905]؛ פרץ `pérets`، name، «Perez (the father of Hezron and the son of Judah; the grandson of Jacob)» [Kaikki Hebrew، السطر 3906]
 - أقدمُ صورةٍ مستعادة: Alternative spelling of פָּרַשׂ (parás).؛ Strengthened due to phono-semantic matching of English prize or related internationalism.؛ From Old Persian 𐎱𐎠𐎼𐎿 (p-a-r-s /⁠Pārsa⁠/).؛ Cognate with Arabic فَرَضَ (faraḍa), Aramaic פְּרַץ (pəraṣ) and Akkadian paraṣum. The name was first given to a son of Judah, since by preventing his twin brother from being delive؛ Cognate with Arabic فَرَضَ (faraḍa), Aramaic פְּרַץ (pəraṣ) and Akkadian paraṣum. The name was first given to a son of Judah, since by preventing his twin brother from being delive؛ Cognate with Arabic فَرَضَ (faraḍa), Aramaic פְּרַץ (pəraṣ) and Akkadian paraṣum. The name was first given to a son of Judah, since by preventing his twin brother from being delive
@@ -128,7 +158,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root برز «خلوص الشيء أو ظهوره ظهورًا قويًّا؛ أي نفاذه من بين ما يكتنفه بجهد وقوة» (licensed؛ LAB-01، SIB-03)؛ root برز «خلوص الشيء أو ظهوره ظهورًا قويًّا؛ أي نفاذه من بين ما يكتنفه بجهد وقوة» (licensed؛ SIB-03)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-01، SIB-02)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-01، SIB-06)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-01)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-02، SIB-06)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-02)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ SIB-02)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ SIB-06)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ مباشر)؛ root بلس «اشتمال باطن الشيء على حِدّة لا تظهر» (licensed؛ LAB-01، LIQ-01)؛ root بلس «اشتمال باطن الشيء على حِدّة لا تظهر» (licensed؛ LIQ-01)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (licensed؛ DENT-02، LAB-02)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (licensed؛ DENT-02)؛ root فرش «انبساط وانتشار للشيء مع رقة - أو ليونة - فيه» (licensed؛ SIB-01)؛ root ورث «حَوْزُ الإنسان ما كان يملكه آخر بعد موت هذا الآخَرِ» (licensed؛ DENT-02، LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-02)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-01)
 - مسارُ الصوت: root برز «خلوص الشيء أو ظهوره ظهورًا قويًّا؛ أي نفاذه من بين ما يكتنفه بجهد وقوة» (licensed؛ LAB-01، SIB-03)؛ root برز «خلوص الشيء أو ظهوره ظهورًا قويًّا؛ أي نفاذه من بين ما يكتنفه بجهد وقوة» (licensed؛ SIB-03)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-01، SIB-02)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-01، SIB-06)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-01)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-02، SIB-06)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ LAB-02)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ SIB-02)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ SIB-06)؛ root برص «وَضَحٌ قوي البياض في جزء أو أجزاء من أديم الشيء؛ أي ظاهره العريض» (licensed؛ مباشر)؛ root بلس «اشتمال باطن الشيء على حِدّة لا تظهر» (licensed؛ LAB-01، LIQ-01)؛ root بلس «اشتمال باطن الشيء على حِدّة لا تظهر» (licensed؛ LIQ-01)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (licensed؛ DENT-02، LAB-02)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (licensed؛ DENT-02)؛ root فرش «انبساط وانتشار للشيء مع رقة - أو ليونة - فيه» (licensed؛ SIB-01)؛ root ورث «حَوْزُ الإنسان ما كان يملكه آخر بعد موت هذا الآخَرِ» (licensed؛ DENT-02، LAB-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-02)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-01)
 - المعنى من قاموس الفرع: פרס `parás`، verb، «to slice, to cut» [Kaikki Hebrew، السطر 3048]؛ פרס `péres`، noun، «bearded vulture (a long-winged vulture, Gypaetus barbatus, found in southern Europe, Africa and India)» [Kaikki Hebrew، السطر 3049]؛ פרס `péres`، name، «a surname» [Kaikki Hebrew، السطر 3050]؛ פרס `parás`، verb، «to spread, spread (something) out» [Kaikki Hebrew، السطر 3051]؛ פרס `prás`، noun، «a reward, a prize» [Kaikki Hebrew، السطر 3052]؛ פרס `parás`، name، «Persia» [Kaikki Hebrew، السطر 3053]؛ פרץ `paráts`، verb، «to breach: to break open a gap in an enclosure or the like.» [Kaikki Hebrew، السطر 3904]؛ פרץ `pérets`، noun، «A breach: a gap in an enclosure or the like.» [Kaikki Hebrew، السطر 3905]؛ פרץ `pérets`، name، «Perez (the father of Hezron and the son of Judah; the grandson of Jacob)» [Kaikki Hebrew، السطر 3906]
@@ -137,14 +167,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:3048:en-פרס-he-verb-YLu-qDNT: الرسم=פרס، الرومنة=parás، الصنف=verb، المعنى=to slice, to cut، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3049:en-פרס-he-noun-lfXGCDN4: الرسم=פרס، الرومنة=péres، الصنف=noun، المعنى=bearded vulture (a long-winged vulture, Gypaetus barbatus, found in southern Europe, Africa and India)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3050:en-פרס-he-name-v2O7m9sM: الرسم=פרס، الرومنة=péres، الصنف=name، المعنى=a surname، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3051:en-פרס-he-verb--0uVpBhx: الرسم=פרס، الرومنة=parás، الصنف=verb، المعنى=to spread, spread (something) out، السلف/الخلف=Alternative spelling of פָּרַשׂ (parás).، القرض=لا وسم آلي؛ kaikki_hebrew:3052:en-פרס-he-noun-UNxaRrD3: الرسم=פרס، الرومنة=prás، الصنف=noun، المعنى=a reward, a prize، السلف/الخلف=Strengthened due to phono-semantic matching of English prize or related internationalism.، القرض=لا وسم آلي؛ kaikki_hebrew:3053:en-פרס-he-name-8vasPuH~: الرسم=פרס، الرومنة=parás، الصنف=name، المعنى=Persia، السلف/الخلف=From Old Persian 𐎱𐎠𐎼𐎿 (p-a-r-s /⁠Pārsa⁠/).، القرض=لا وسم آلي؛ kaikki_hebrew:3904:en-פרץ-he-verb--qjJ06Sk: الرسم=פרץ، الرومنة=paráts، الصنف=verb، المعنى=to breach: to break open a gap in an enclosure or the like.، السلف/الخلف=Cognate with Arabic فَرَضَ (faraḍa), Aramaic פְּרַץ (pəraṣ) and Akkadian paraṣum. The name was first given to a son of Judah, since by preventing his twin brother from being delive، القرض=لا وسم آلي؛ kaikki_hebrew:3905:en-פרץ-he-noun-vEm7W0qt: الرسم=פרץ، الرومنة=pérets، الصنف=noun، المعنى=A breach: a gap in an enclosure or the like.، السلف/الخلف=Cognate with Arabic فَرَضَ (faraḍa), Aramaic פְּרַץ (pəraṣ) and Akkadian paraṣum. The name was first given to a son of Judah, since by preventing his twin brother from being delive، القرض=لا وسم آلي؛ kaikki_hebrew:3906:en-פרץ-he-name-KODIrSmf: الرسم=פרץ، الرومنة=pérets، الصنف=name، المعنى=Perez (the father of Hezron and the son of Judah; the grandson of Jacob)، السلف/الخلف=Cognate with Arabic فَرَضَ (faraḍa), Aramaic פְּרַץ (pəraṣ) and Akkadian paraṣum. The name was first given to a son of Judah, since by preventing his twin brother from being delive، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:574894729fee6dd1131c1ac8 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:cdd0c85ad31d302edfcf8536`، אהבת עולם (الرتبة 6)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עולם `'olám`، noun، «world: (the) Earth, (the) globe.» [Kaikki Hebrew، السطر 1046]؛ אהבת עולם `ahavát 'olám`، noun، «deep love» [Kaikki Hebrew، السطر 14831]؛ אסיר עולם `asír 'olám`، noun، «lifer, prisoner for life» [Kaikki Hebrew، السطر 14953]؛ מעולם `me'olám`، adv، «since always» [Kaikki Hebrew، السطر 15202]؛ עלם `olám`، noun، «defective spelling of עוֹלָם.» [Kaikki Hebrew، السطر 3510]؛ עולמים `olamím`، noun، «plural indefinite form of עולם (olám)» [Kaikki Hebrew، السطر 3628]؛ בורא עולם `boré 'olám`، name، «demiurge» [Kaikki Hebrew، السطر 4837]؛ לעולם `leolám`، adv، «eternally, forever» [Kaikki Hebrew، السطر 5179]؛ העולם הבא `ha'olám habá`، name، «Olam Haba, the world to come, the afterlife, paradise» [Kaikki Hebrew، السطر 7661]؛ עולמית `olamít`، adj، «feminine singular indefinite form of עוֹלָמִי (olamí).» [Kaikki Hebrew، السطر 8392]؛ עולמי `olamí`، adj، «world (adjective); global» [Kaikki Hebrew، السطر 8393]
 - أقدمُ صورةٍ مستعادة: Cognate with Aramaic עָלְמָא (ʿāləmā), Arabic عَالَم (ʕālam), Amharic ዓለም (ʿaläm).؛ From מִ־ (mi-, “from”) + עוֹלָם (olám, “world; ever”).؛ בּוֹרֵא (boré, “creator”) + עוֹלָם ('olám, “world”), literally “creator of the world”.؛ From לְ־ (l'-, “to, for”) + עוֹלָם (olám, “world”).؛ From עוֹלָם m (olám) + ־י (-i).
@@ -152,7 +192,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LIQ-01)؛ root علم «الدلالة والهداية - بمرتفع - إلى معنى: اتجاه، أو طريق، أو حدّ» (licensed؛ مباشر)؛ root علن «ظهور ما كان خفيًا في الباطن، أي خروجه منه مع انكشاف وإشهار» (licensed؛ LIQ-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-04)
 - مسارُ الصوت: root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LIQ-01)؛ root علم «الدلالة والهداية - بمرتفع - إلى معنى: اتجاه، أو طريق، أو حدّ» (licensed؛ مباشر)؛ root علن «ظهور ما كان خفيًا في الباطن، أي خروجه منه مع انكشاف وإشهار» (licensed؛ LIQ-02)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: עולם `'olám`، noun، «world: (the) Earth, (the) globe.» [Kaikki Hebrew، السطر 1046]؛ אהבת עולם `ahavát 'olám`، noun، «deep love» [Kaikki Hebrew، السطر 14831]؛ אסיר עולם `asír 'olám`، noun، «lifer, prisoner for life» [Kaikki Hebrew، السطر 14953]؛ מעולם `me'olám`، adv، «since always» [Kaikki Hebrew، السطر 15202]؛ עלם `olám`، noun، «defective spelling of עוֹלָם.» [Kaikki Hebrew، السطر 3510]؛ עולמים `olamím`، noun، «plural indefinite form of עולם (olám)» [Kaikki Hebrew، السطر 3628]؛ בורא עולם `boré 'olám`، name، «demiurge» [Kaikki Hebrew، السطر 4837]؛ לעולם `leolám`، adv، «eternally, forever» [Kaikki Hebrew، السطر 5179]؛ העולם הבא `ha'olám habá`، name، «Olam Haba, the world to come, the afterlife, paradise» [Kaikki Hebrew، السطر 7661]؛ עולמית `olamít`، adj، «feminine singular indefinite form of עוֹלָמִי (olamí).» [Kaikki Hebrew، السطر 8392]؛ עולמי `olamí`، adj، «world (adjective); global» [Kaikki Hebrew، السطر 8393]
@@ -161,14 +201,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1046:en-עולם-he-noun-A9B2dYnQ: الرسم=עולם، الرومنة='olám، الصنف=noun، المعنى=world: (the) Earth, (the) globe.، السلف/الخلف=Cognate with Aramaic עָלְמָא (ʿāləmā), Arabic عَالَم (ʕālam), Amharic ዓለም (ʿaläm).، القرض=لا وسم آلي؛ kaikki_hebrew:14831:en-אהבת_עולם-he-noun-vrN5gceQ: الرسم=אהבת עולם، الرومنة=ahavát 'olám، الصنف=noun، المعنى=deep love، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14953:en-אסיר_עולם-he-noun-gTKp0b9P: الرسم=אסיר עולם، الرومنة=asír 'olám، الصنف=noun، المعنى=lifer, prisoner for life، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:15202:en-מעולם-he-adv-6pDVeqfT: الرسم=מעולם، الرومنة=me'olám، الصنف=adv، المعنى=since always، السلف/الخلف=From מִ־ (mi-, “from”) + עוֹלָם (olám, “world; ever”).، القرض=لا وسم آلي؛ kaikki_hebrew:3510:en-עלם-he-noun-hi3W-ETY: الرسم=עלם، الرومنة=olám، الصنف=noun، المعنى=defective spelling of עוֹלָם.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3628:en-עולמים-he-noun-p2ql~23V: الرسم=עולמים، الرومنة=olamím، الصنف=noun، المعنى=plural indefinite form of עולם (olám)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4837:en-בורא_עולם-he-name-NLh59BRq: الرسم=בורא עולם، الرومنة=boré 'olám، الصنف=name، المعنى=demiurge، السلف/الخلف=בּוֹרֵא (boré, “creator”) + עוֹלָם ('olám, “world”), literally “creator of the world”.، القرض=لا وسم آلي؛ kaikki_hebrew:5179:en-לעולם-he-adv-E-7pF-mS: الرسم=לעולם، الرومنة=leolám، الصنف=adv، المعنى=eternally, forever، السلف/الخلف=From לְ־ (l'-, “to, for”) + עוֹלָם (olám, “world”).، القرض=لا وسم آلي؛ kaikki_hebrew:7661:en-העולם_הבא-he-name-JV1n8lsW: الرسم=העולם הבא، الرومنة=ha'olám habá، الصنف=name، المعنى=Olam Haba, the world to come, the afterlife, paradise، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8392:en-עולמית-he-adj-H0icBJAL: الرسم=עולמית، الرومنة=olamít، الصنف=adj، المعنى=feminine singular indefinite form of עוֹלָמִי (olamí).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8393:en-עולמי-he-adj-B2J9U7uu: الرسم=עולמי، الرومنة=olamí، الصنف=adj، المعنى=world (adjective); global، السلف/الخلف=From עוֹלָם m (olám) + ־י (-i).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:cdd0c85ad31d302edfcf8536 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:d600c4771d7de5695056f681`، בת־קול (الرتبة 7)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: בת־קול `bat-kol`، noun، «The voice of God; the mystical manner in which God communicates to humankind after the decline of prophecy.» [Kaikki Hebrew، السطر 11262]؛ קולי `kolí`، adj، «vocal» [Kaikki Hebrew، السطر 11585]؛ קולי `kolí`، noun، «singular form of קוֹל (kol) with first-person singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 11586]؛ קולנועי `kolno'í`، adj، «cinematic» [Kaikki Hebrew، السطر 12463]؛ קל `qól`، noun، «singular indefinite form of קוֹל (qól), defective spelling.» [Kaikki Hebrew، السطر 2894]؛ קול `kol`، noun، «voice (also in its figurative senses of statement, opinion, or order)» [Kaikki Hebrew، السطر 3513]؛ קולות `kolot`، noun، «plural indefinite form of קוֹל (kol)» [Kaikki Hebrew، السطر 4073]؛ קולנוע `kolnóa'`، noun، «Cinema, film: movies taken collectively.» [Kaikki Hebrew، السطر 5171]؛ קולני `kolaní`، adj، «clamorous, vociferous, noisy» [Kaikki Hebrew، السطر 6301]؛ קול צף `kol tsaf`، noun، «swing vote, floating vote» [Kaikki Hebrew، السطر 6306]؛ קול קורא `kol koré`، noun، «call for participation (in a conference or a project), call for submission (of academic papers, of project proposals)» [Kaikki Hebrew، السطر 6312]؛ קולן `kolán`، noun، «singular form of קוֹל (kol) with third-person feminine plural personal pronoun as possessor.» [Kaikki Hebrew، السطر 8384]
 - أقدمُ صورةٍ مستعادة: Literally "daughter of the voice".؛ קול + ־י؛ From קולנוע + ־י.؛ Cognate with Aramaic קָלָא (qālā), Ge'ez ቃል (ḳal, “word”), and related to Arabic قَوْل (qawl, “saying”).؛ Compound of קוֹל (kol, “sound”) + נוֹעַ (nóa, “motion”).؛ Derived from the noun קול with the addition of the suffix -נ- (-n-) to indicate excessiveness, and the suffix י- (-í) to indicate adjective. Compare גזעני (=racist, lit. "excessive؛ A noun-adjective phrase of קול (=voice, vote) and צף (=floating). Most likely to be a loan translation from English.؛ A noun-adjective phrase of קוֹל (“voice”) + קוֹרֵא (“calling out”), literally “a calling voice”.
@@ -176,7 +226,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-05)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-06)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ مباشر)؛ root قيل «زوال إلى مقر (مؤقت)» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ تاج العروس لمرتضى الزبيدي + تاج اللغة وصحاح العربية للجوهري.
 - المقابلُ من اللسان: nucleus بء «الاستقرار والرجوع» (licensed؛ LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)
 - مسارُ الصوت: root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-05)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-06)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ مباشر)؛ root قيل «زوال إلى مقر (مؤقت)» (manual-condition؛ GLD-01)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)
 - المعنى من قاموس الفرع: בת־קול `bat-kol`، noun، «The voice of God; the mystical manner in which God communicates to humankind after the decline of prophecy.» [Kaikki Hebrew، السطر 11262]؛ קולי `kolí`، adj، «vocal» [Kaikki Hebrew، السطر 11585]؛ קולי `kolí`، noun، «singular form of קוֹל (kol) with first-person singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 11586]؛ קולנועי `kolno'í`، adj، «cinematic» [Kaikki Hebrew، السطر 12463]؛ קל `qól`، noun، «singular indefinite form of קוֹל (qól), defective spelling.» [Kaikki Hebrew، السطر 2894]؛ קול `kol`، noun، «voice (also in its figurative senses of statement, opinion, or order)» [Kaikki Hebrew، السطر 3513]؛ קולות `kolot`، noun، «plural indefinite form of קוֹל (kol)» [Kaikki Hebrew، السطر 4073]؛ קולנוע `kolnóa'`، noun، «Cinema, film: movies taken collectively.» [Kaikki Hebrew، السطر 5171]؛ קולני `kolaní`، adj، «clamorous, vociferous, noisy» [Kaikki Hebrew، السطر 6301]؛ קול צף `kol tsaf`، noun، «swing vote, floating vote» [Kaikki Hebrew، السطر 6306]؛ קול קורא `kol koré`، noun، «call for participation (in a conference or a project), call for submission (of academic papers, of project proposals)» [Kaikki Hebrew، السطر 6312]؛ קולן `kolán`، noun، «singular form of קוֹל (kol) with third-person feminine plural personal pronoun as possessor.» [Kaikki Hebrew، السطر 8384]
@@ -185,14 +235,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11262:en-בת־קול-he-noun-rDJ7bkiL: الرسم=בת־קול، الرومنة=bat-kol، الصنف=noun، المعنى=The voice of God; the mystical manner in which God communicates to humankind after the decline of prophecy.، السلف/الخلف=Literally "daughter of the voice".، القرض=لا وسم آلي؛ kaikki_hebrew:11585:en-קולי-he-adj-lqa4PxR8: الرسم=קולי، الرومنة=kolí، الصنف=adj، المعنى=vocal، السلف/الخلف=קול + ־י، القرض=لا وسم آلي؛ kaikki_hebrew:11586:en-קולי-he-noun-~MpGMsNF: الرسم=קולי، الرومنة=kolí، الصنف=noun، المعنى=singular form of קוֹל (kol) with first-person singular personal pronoun as possessor.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:12463:en-קולנועי-he-adj-GhSidjeZ: الرسم=קולנועי، الرومنة=kolno'í، الصنف=adj، المعنى=cinematic، السلف/الخلف=From קולנוע + ־י.، القرض=لا وسم آلي؛ kaikki_hebrew:2894:en-קל-he-noun-Qy~7QKZ6: الرسم=קל، الرومنة=qól، الصنف=noun، المعنى=singular indefinite form of קוֹל (qól), defective spelling.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3513:en-קול-he-noun-cRBjQzvm: الرسم=קול، الرومنة=kol، الصنف=noun، المعنى=voice (also in its figurative senses of statement, opinion, or order)، السلف/الخلف=Cognate with Aramaic קָלָא (qālā), Ge'ez ቃል (ḳal, “word”), and related to Arabic قَوْل (qawl, “saying”).، القرض=لا وسم آلي؛ kaikki_hebrew:4073:en-קולות-he-noun-03PxAk3m: الرسم=קולות، الرومنة=kolot، الصنف=noun، المعنى=plural indefinite form of קוֹל (kol)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5171:en-קולנוע-he-noun-OPHoPqL1: الرسم=קולנוע، الرومنة=kolnóa'، الصنف=noun، المعنى=Cinema, film: movies taken collectively.، السلف/الخلف=Compound of קוֹל (kol, “sound”) + נוֹעַ (nóa, “motion”).، القرض=لا وسم آلي؛ kaikki_hebrew:6301:en-קולני-he-adj-s94ZXMRg: الرسم=קולני، الرومنة=kolaní، الصنف=adj، المعنى=clamorous, vociferous, noisy، السلف/الخلف=Derived from the noun קול with the addition of the suffix -נ- (-n-) to indicate excessiveness, and the suffix י- (-í) to indicate adjective. Compare גזעני (=racist, lit. "excessive، القرض=لا وسم آلي؛ kaikki_hebrew:6306:en-קול_צף-he-noun-ijITjuWJ: الرسم=קול צף، الرومنة=kol tsaf، الصنف=noun، المعنى=swing vote, floating vote، السلف/الخلف=A noun-adjective phrase of קול (=voice, vote) and צף (=floating). Most likely to be a loan translation from English.، القرض=لا وسم آلي؛ kaikki_hebrew:6312:en-קול_קורא-he-noun-3FmHlJao: الرسم=קול קורא، الرومنة=kol koré، الصنف=noun، المعنى=call for participation (in a conference or a project), call for submission (of academic papers, of project proposals)، السلف/الخلف=A noun-adjective phrase of קוֹל (“voice”) + קוֹרֵא (“calling out”), literally “a calling voice”.، القرض=لا وسم آلي؛ kaikki_hebrew:8384:en-קולן-he-noun-~FU-BhNB: الرسم=קולן، الرومنة=kolán، الصنف=noun، المعنى=singular form of קוֹל (kol) with third-person feminine plural personal pronoun as possessor.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:d600c4771d7de5695056f681 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: קול، الرتبة 7.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:4866319ceeca730ec63e162e`، אין דין ואין דיין (الرتبة 8)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עריכת דין `arikhát-dín`، noun، «law (the legal profession)» [Kaikki Hebrew، السطر 13754]؛ דין `din`، noun، «judgement; law (a written or understood rule)» [Kaikki Hebrew، السطر 1574]؛ עורך דין `orékh dín`، noun، «attorney, lawyer» [Kaikki Hebrew، السطر 3196]؛ עורכי דין `orkhéi din`، noun، «plural indefinite form of עוֹרֵךְ־דִּין (orékh din)» [Kaikki Hebrew، السطر 3727]؛ עו״ד `O"D`، noun، «abbreviation of עוֹרֵךְ דִּין (orékh-dín, “(male) attorney, (male) lawyer”)» [Kaikki Hebrew، السطر 5387]؛ בעל דין `ba'al dín`، noun، «litigant, party (civil court case)» [Kaikki Hebrew، السطر 7888]؛ עורכת דין `orékhet din`، noun، «lawyer, attorney (female)» [Kaikki Hebrew، السطر 8060]؛ אין דין ואין דיין `'éin dín v'éin dayán`، phrase، «No one is enforcing law and order (literally, "there is no law and there is no judge").» [Kaikki Hebrew، السطر 8945]؛ אין דין ואין דין `ein din v'ein dayán`، phrase، «defective spelling of אֵין דִּין וְאֵין דַּיָּין.» [Kaikki Hebrew، السطر 8946]
 - أقدمُ صورةٍ مستعادة: Cognate with Arabic دِين (dīn), Aramaic דִּינָא (dīnā), Amharic ዳኛ (daña) and Ugaritic 𐎄𐎊𐎐 (dyn).؛ בַּעַל (bá'al, “master [of]”) + דִּין (dín, “law”)؛ Calque of Aramaic לֵית דִּין וְלֵית דַּיָּן (“there is no law and there is no judge”) from Leviticus Rabbah 28:1 and Jerusalem Talmud.
@@ -200,7 +260,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root دون «كون الشيء منخفضًا في أسفل شيء» (manual-condition؛ GLD-01)؛ root دير «تحوي الشيء، أو إحاطته حول شيء» (licensed؛ LIQ-03)؛ root ديم «امتداد مكاني أو زماني مع ثبات على حال واحدة» (licensed؛ LIQ-02)؛ root دين «حق للغير يلزم ذمة بقوة أو تمكن شديد» (licensed؛ DENT-06)؛ root دين «حق للغير يلزم ذمة بقوة أو تمكن شديد» (licensed؛ مباشر)؛ root ضير «فراغ جوف الشيء الغَضّ» (licensed؛ LIQ-03)؛ root عبد «حصر شديد للشيء يجعله رقيقًا رخوا ناعما غير صلب» (licensed؛ LAB-05)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ DENT-06، LAB-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ DENT-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ LAB-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ مباشر)؛ root عوذ «التصاق الشيء الغض بصلب يمنع تناوله» (scope-gap؛ DENT-03، LAB-06)؛ root عوذ «التصاق الشيء الغض بصلب يمنع تناوله» (scope-gap؛ DENT-03)؛ root عيد «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءم «النقص والانفراد» (licensed؛ LIQ-02)؛ nucleus ءن «التهيؤ والصلاح للبلوغ والاستعمال» (licensed؛ مباشر)؛ nucleus ءو «اتساع الحيز والامتلاء» (licensed؛ LAB-06)
 - مسارُ الصوت: root دون «كون الشيء منخفضًا في أسفل شيء» (manual-condition؛ GLD-01)؛ root دير «تحوي الشيء، أو إحاطته حول شيء» (licensed؛ LIQ-03)؛ root ديم «امتداد مكاني أو زماني مع ثبات على حال واحدة» (licensed؛ LIQ-02)؛ root دين «حق للغير يلزم ذمة بقوة أو تمكن شديد» (licensed؛ DENT-06)؛ root دين «حق للغير يلزم ذمة بقوة أو تمكن شديد» (licensed؛ مباشر)؛ root ضير «فراغ جوف الشيء الغَضّ» (licensed؛ LIQ-03)؛ root عبد «حصر شديد للشيء يجعله رقيقًا رخوا ناعما غير صلب» (licensed؛ LAB-05)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ DENT-06، LAB-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ DENT-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ LAB-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ مباشر)؛ root عوذ «التصاق الشيء الغض بصلب يمنع تناوله» (scope-gap؛ DENT-03، LAB-06)؛ root عوذ «التصاق الشيء الغض بصلب يمنع تناوله» (scope-gap؛ DENT-03)؛ root عيد «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (manual-condition؛ GLD-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءم «النقص والانفراد» (licensed؛ LIQ-02)؛ nucleus ءن «التهيؤ والصلاح للبلوغ والاستعمال» (licensed؛ مباشر)؛ nucleus ءو «اتساع الحيز والامتلاء» (licensed؛ LAB-06)
 - المعنى من قاموس الفرع: עריכת דין `arikhát-dín`، noun، «law (the legal profession)» [Kaikki Hebrew، السطر 13754]؛ דין `din`، noun، «judgement; law (a written or understood rule)» [Kaikki Hebrew، السطر 1574]؛ עורך דין `orékh dín`، noun، «attorney, lawyer» [Kaikki Hebrew، السطر 3196]؛ עורכי דין `orkhéi din`، noun، «plural indefinite form of עוֹרֵךְ־דִּין (orékh din)» [Kaikki Hebrew، السطر 3727]؛ עו״ד `O"D`، noun، «abbreviation of עוֹרֵךְ דִּין (orékh-dín, “(male) attorney, (male) lawyer”)» [Kaikki Hebrew، السطر 5387]؛ בעל דין `ba'al dín`، noun، «litigant, party (civil court case)» [Kaikki Hebrew، السطر 7888]؛ עורכת דין `orékhet din`، noun، «lawyer, attorney (female)» [Kaikki Hebrew، السطر 8060]؛ אין דין ואין דיין `'éin dín v'éin dayán`، phrase، «No one is enforcing law and order (literally, "there is no law and there is no judge").» [Kaikki Hebrew، السطر 8945]؛ אין דין ואין דין `ein din v'ein dayán`، phrase، «defective spelling of אֵין דִּין וְאֵין דַּיָּין.» [Kaikki Hebrew، السطر 8946]
@@ -209,14 +269,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13754:en-עריכת_דין-he-noun-KjrJN-s8: الرسم=עריכת דין، الرومنة=arikhát-dín، الصنف=noun، المعنى=law (the legal profession)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1574:en-דין-he-noun-Cuqm2RNC: الرسم=דין، الرومنة=din، الصنف=noun، المعنى=judgement; law (a written or understood rule)، السلف/الخلف=Cognate with Arabic دِين (dīn), Aramaic דִּינָא (dīnā), Amharic ዳኛ (daña) and Ugaritic 𐎄𐎊𐎐 (dyn).، القرض=لا وسم آلي؛ kaikki_hebrew:3196:en-עורך_דין-he-noun-B21Tb60P: الرسم=עורך דין، الرومنة=orékh dín، الصنف=noun، المعنى=attorney, lawyer، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3727:en-עורכי_דין-he-noun-1RIQMz1Q: الرسم=עורכי דין، الرومنة=orkhéi din، الصنف=noun، المعنى=plural indefinite form of עוֹרֵךְ־דִּין (orékh din)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5387:en-עו״ד-he-noun-c9tmws83: الرسم=עו״ד، الرومنة=O"D، الصنف=noun، المعنى=abbreviation of עוֹרֵךְ דִּין (orékh-dín, “(male) attorney, (male) lawyer”)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7888:en-בעל_דין-he-noun-DFEOX6PA: الرسم=בעל דין، الرومنة=ba'al dín، الصنف=noun، المعنى=litigant, party (civil court case)، السلف/الخلف=בַּעַל (bá'al, “master [of]”) + דִּין (dín, “law”)، القرض=لا وسم آلي؛ kaikki_hebrew:8060:en-עורכת_דין-he-noun-9s7fn470: الرسم=עורכת דין، الرومنة=orékhet din، الصنف=noun، المعنى=lawyer, attorney (female)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8945:en-אין_דין_ואין_דיין-he-phrase-ffiI69fs: الرسم=אין דין ואין דיין، الرومنة='éin dín v'éin dayán، الصنف=phrase، المعنى=No one is enforcing law and order (literally, "there is no law and there is no judge").، السلف/الخلف=Calque of Aramaic לֵית דִּין וְלֵית דַּיָּן (“there is no law and there is no judge”) from Leviticus Rabbah 28:1 and Jerusalem Talmud.، القرض=لا وسم آلي؛ kaikki_hebrew:8946:en-אין_דין_ואין_דין-he-phrase-NJgdyCIP: الرسم=אין דין ואין דין، الرومنة=ein din v'ein dayán، الصنف=phrase، المعنى=defective spelling of אֵין דִּין וְאֵין דַּיָּין.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:4866319ceeca730ec63e162e -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:b05962d6001fbc731d5b58c5`، בן (الرتبة 9)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: בן אחר בן `ben akhar ben`، adj، «Direct patrilineal descent. The Hebrew equivalent to patrilineality.» [Kaikki Hebrew، السطر 12995]؛ בן אנוש `ben enósh`، noun، «human being» [Kaikki Hebrew، السطر 15605]؛ בן בית `ben báyit`، noun، «verna, a slave born in his master's household» [Kaikki Hebrew، السطر 16137]؛ בן חורין `ben khorín`، noun، «freeman» [Kaikki Hebrew، السطر 16602]؛ בני `غير منشورة`، noun، «plural construct state form of בֵּן (ben)» [Kaikki Hebrew، السطر 3624]؛ בן `bén`، noun، «son» [Kaikki Hebrew، السطر 393]؛ בן זונה `ben-zoná`، noun، «the son of a prostitute» [Kaikki Hebrew، السطر 5121]؛ בנים `baním`، noun، «plural indefinite form of בֵּן (bén)» [Kaikki Hebrew، السطر 5243]؛ בנו `b'no`، noun، «singular form of בֵּן (bén) with third-person masculine singular personal pronoun as possessor: his/its son» [Kaikki Hebrew، السطر 5765]؛ בנ״י `غير منشورة`، noun، «abbreviation of בְּנֵי יִשְׂרָאֵל: Jews, Israelites» [Kaikki Hebrew، السطر 5849]؛ בנה `b'nah`، noun، «singular form of בֵּן (bén) with third-person feminine singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 657]؛ בנימין `binyamín`، name، «a male given name, Binyamin or Binyomin, equivalent to English Benjamin» [Kaikki Hebrew، السطر 688]؛ בניכם `b'nechém`، noun، «plural form of בֵּן (bén) with second-person masculine plural personal pronoun as possessor» [Kaikki Hebrew، السطر 7088]؛ בניו `banáv`، noun، «plural form of בֵּן (bén) with third-person masculine singular personal pronoun as possessor» [Kaikki Hebrew، السطر 7402]؛ בנך `غير منشورة`، noun، «singular form of בֵּן (bén) with second-person masculine singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 7512]
 - أقدمُ صورةٍ مستعادة: The term is comprised of the Hebrew noun בֵּן meaning "son" and the Hebrew preposition אַחַר meaning "after". The literal translation is "son after son".؛ Compound of בֶּן (ben, “son of”) + בַּיִת (báyit, “house”). In Hebrew, the expression "son of" may be used to express a person's origin, e.g. בְּנֵי בָבֶל (literally “sons of Babyl؛ Multiple proposed etymologies. * According to Jastrow, from בֵּן (ben, “son of”) + חוֹר (khor, “pale, white”). The final ־ין alongside the fact that the word is strictly post-Bibli؛ From Proto-Semitic *bin-. The unchanged form can still be found as a construct in certain proper nouns like יְהוֹשֻׁעַ בִּן־נוּן (“Joshua son of Nun”) or בִּנְיָמִין (“Benjamin”).؛ "Son of a whore", from בֶּן־ (ben-, “(the) son of”) + זוֹנָה (zoná, “prostitute, whore, slut”).؛ From בן and ימין; son of (the) right hand; Binjamin, youngest son of Jacob; also the tribe descended from him, and its territory.
@@ -224,7 +294,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بنو «زيادة قوية تنشأ للشيء؛ فتقيمه وتُنصبه، أو تُعظّمه وتمدّ جِرْمَه» (manual-condition؛ GLD-01)؛ root بني «زيادة قوية تنشأ للشيء؛ فتقيمه وتُنصبه، أو تُعظّمه وتمدّ جِرْمَه» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + المحكم والمحيط الأعظم لابن سيده.
 - المقابلُ من اللسان: hollow-root بور «توقّف الشيء عن حصول جدواه بالرغم من توافر هذه الجدوى فيه» (licensed؛ LIQ-03)؛ hollow-root بون «امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع» (licensed؛ مباشر)؛ hollow-root بين «امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)
 - مسارُ الصوت: root بنو «زيادة قوية تنشأ للشيء؛ فتقيمه وتُنصبه، أو تُعظّمه وتمدّ جِرْمَه» (manual-condition؛ GLD-01)؛ root بني «زيادة قوية تنشأ للشيء؛ فتقيمه وتُنصبه، أو تُعظّمه وتمدّ جِرْمَه» (licensed؛ مباشر)؛ hollow-root بور «توقّف الشيء عن حصول جدواه بالرغم من توافر هذه الجدوى فيه» (licensed؛ LIQ-03)؛ hollow-root بون «امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع» (licensed؛ مباشر)؛ hollow-root بين «امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: בן אחר בן `ben akhar ben`، adj، «Direct patrilineal descent. The Hebrew equivalent to patrilineality.» [Kaikki Hebrew، السطر 12995]؛ בן אנוש `ben enósh`، noun، «human being» [Kaikki Hebrew، السطر 15605]؛ בן בית `ben báyit`، noun، «verna, a slave born in his master's household» [Kaikki Hebrew، السطر 16137]؛ בן חורין `ben khorín`، noun، «freeman» [Kaikki Hebrew، السطر 16602]؛ בני `غير منشورة`، noun، «plural construct state form of בֵּן (ben)» [Kaikki Hebrew، السطر 3624]؛ בן `bén`، noun، «son» [Kaikki Hebrew، السطر 393]؛ בן זונה `ben-zoná`، noun، «the son of a prostitute» [Kaikki Hebrew، السطر 5121]؛ בנים `baním`، noun، «plural indefinite form of בֵּן (bén)» [Kaikki Hebrew، السطر 5243]؛ בנו `b'no`، noun، «singular form of בֵּן (bén) with third-person masculine singular personal pronoun as possessor: his/its son» [Kaikki Hebrew، السطر 5765]؛ בנ״י `غير منشورة`، noun، «abbreviation of בְּנֵי יִשְׂרָאֵל: Jews, Israelites» [Kaikki Hebrew، السطر 5849]؛ בנה `b'nah`، noun، «singular form of בֵּן (bén) with third-person feminine singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 657]؛ בנימין `binyamín`، name، «a male given name, Binyamin or Binyomin, equivalent to English Benjamin» [Kaikki Hebrew، السطر 688]؛ בניכם `b'nechém`، noun، «plural form of בֵּן (bén) with second-person masculine plural personal pronoun as possessor» [Kaikki Hebrew، السطر 7088]؛ בניו `banáv`، noun، «plural form of בֵּן (bén) with third-person masculine singular personal pronoun as possessor» [Kaikki Hebrew، السطر 7402]؛ בנך `غير منشورة`، noun، «singular form of בֵּן (bén) with second-person masculine singular personal pronoun as possessor.» [Kaikki Hebrew، السطر 7512]
@@ -233,11 +303,21 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:12995:en-בן_אחר_בן-he-adj-HToH6e2y: الرسم=בן אחר בן، الرومنة=ben akhar ben، الصنف=adj، المعنى=Direct patrilineal descent. The Hebrew equivalent to patrilineality.، السلف/الخلف=The term is comprised of the Hebrew noun בֵּן meaning "son" and the Hebrew preposition אַחַר meaning "after". The literal translation is "son after son".، القرض=لا وسم آلي؛ kaikki_hebrew:15605:en-בן_אנוש-he-noun-K8DsBWjA: الرسم=בן אנוש، الرومنة=ben enósh، الصنف=noun، المعنى=human being، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:16137:en-בן_בית-he-noun-CaUCk~kw: الرسم=בן בית، الرومنة=ben báyit، الصنف=noun، المعنى=verna, a slave born in his master's household، السلف/الخلف=Compound of בֶּן (ben, “son of”) + בַּיִת (báyit, “house”). In Hebrew, the expression "son of" may be used to express a person's origin, e.g. בְּנֵי בָבֶל (literally “sons of Babyl، القرض=لا وسم آلي؛ kaikki_hebrew:16602:en-בן_חורין-he-noun-VRXqK0So: الرسم=בן חורין، الرومنة=ben khorín، الصنف=noun، المعنى=freeman، السلف/الخلف=Multiple proposed etymologies. * According to Jastrow, from בֵּן (ben, “son of”) + חוֹר (khor, “pale, white”). The final ־ין alongside the fact that the word is strictly post-Bibli، القرض=لا وسم آلي؛ kaikki_hebrew:3624:en-בני-he-noun-jsl5rr5z: الرسم=בני، الرومنة=غير منشورة، الصنف=noun، المعنى=plural construct state form of בֵּן (ben)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:393:en-בן-he-noun-mKpmdUgl: الرسم=בן، الرومنة=bén، الصنف=noun، المعنى=son، السلف/الخلف=From Proto-Semitic *bin-. The unchanged form can still be found as a construct in certain proper nouns like יְהוֹשֻׁעַ בִּן־נוּן (“Joshua son of Nun”) or בִּנְיָמִין (“Benjamin”).، القرض=لا وسم آلي؛ kaikki_hebrew:5121:en-בן_זונה-he-noun-Hurul-q9: الرسم=בן זונה، الرومنة=ben-zoná، الصنف=noun، المعنى=the son of a prostitute، السلف/الخلف="Son of a whore", from בֶּן־ (ben-, “(the) son of”) + זוֹנָה (zoná, “prostitute, whore, slut”).، القرض=لا وسم آلي؛ kaikki_hebrew:5243:en-בנים-he-noun-ggYWqvts: الرسم=בנים، الرومنة=baním، الصنف=noun، المعنى=plural indefinite form of בֵּן (bén)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5765:en-בנו-he-noun-Rzxr8B44: الرسم=בנו، الرومنة=b'no، الصنف=noun، المعنى=singular form of בֵּן (bén) with third-person masculine singular personal pronoun as possessor: his/its son، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5849:en-בנ״י-he-noun-RnH~nJxp: الرسم=בנ״י، الرومنة=غير منشورة، الصنف=noun، المعنى=abbreviation of בְּנֵי יִשְׂרָאֵל: Jews, Israelites، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:657:en-בנה-he-noun-6hhH8TI3: الرسم=בנה، الرومنة=b'nah، الصنف=noun، المعنى=singular form of בֵּן (bén) with third-person feminine singular personal pronoun as possessor.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:688:en-בנימין-he-name-iF0jg~HB: الرسم=בנימין، الرومنة=binyamín، الصنف=name، المعنى=a male given name, Binyamin or Binyomin, equivalent to English Benjamin، السلف/الخلف=From בן and ימין; son of (the) right hand; Binjamin, youngest son of Jacob; also the tribe descended from him, and its territory.، القرض=لا وسم آلي؛ kaikki_hebrew:7088:en-בניכם-he-noun-59Dy5b6f: الرسم=בניכם، الرومنة=b'nechém، الصنف=noun، المعنى=plural form of בֵּן (bén) with second-person masculine plural personal pronoun as possessor، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7402:en-בניו-he-noun-0JaeYEuM: الرسم=בניו، الرومنة=banáv، الصنف=noun، المعنى=plural form of בֵּן (bén) with third-person masculine singular personal pronoun as possessor، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7512:en-בנך-he-noun-C23o3pkO: الرسم=בנך، الرومنة=غير منشورة، الصنف=noun، المعنى=singular form of בֵּן (bén) with second-person masculine singular personal pronoun as possessor.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
+
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:b05962d6001fbc731d5b58c5 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + المحكم والمحيط الأعظم لابن سيده.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
 
 ### بطاقة: `hebrew:family:7097b8897fbdf8347fe38be0`، כלב (الرتبة 10)
 - عائق: النوع=SOURCE-GAP؛ يتطلب=تعيين طبقة المصدر المنشورة لكل عضو وفصل الحديث عن القديم، ثم جسر مكتمل؛ عائق إضافي=SOURCE-GAP
@@ -288,7 +368,7 @@
 - ملاحظات: محلي، ولا خط برهان.
 
 ### بطاقة: `hebrew:family:cca23d51859c85c04ce00ee9`، פרסה (الرتبة 12)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פרצה `pirtsá`، noun، «loophole» [Kaikki Hebrew، السطر 13013]؛ פרש `parásh`، noun، «horseman, cavalier, dragoon» [Kaikki Hebrew، السطر 2254]؛ פרש `parásh`، verb، «to retire» [Kaikki Hebrew، السطر 2255]؛ פרש `parás`، verb، «to spread» [Kaikki Hebrew، السطر 2257]؛ פרש `péresh`، noun، «excrements of slaughtered animals found inside their entrails» [Kaikki Hebrew، السطر 2258]؛ פרסה `parsa`، noun، «hoof» [Kaikki Hebrew، السطر 3863]؛ פרסה `parsá`، noun، «parasang, parsa» [Kaikki Hebrew، السطر 3864]
 - أقدمُ صورةٍ مستعادة: Cognate with Arabic فَرَس (faras, “horse”).؛ Cognate with Arabic فَرْث (farṯ, “digestive substances”).؛ Combination of the Hebrew forms ־ה + פָּרַס. Compare Hebrew פָּרַס (“divide”).؛ From Persian فرسنگ (farsang), whence also Aramaic פַּרְסָא, Arabic فَرْسَخ (farsaḵ), Greek παρασάγγης (parasángis).
@@ -296,7 +376,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root فرت «خُلوص الماء من الملح مع صفائه من الكدورة» (licensed؛ SIB-05)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (licensed؛ DENT-02، LAB-02)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (licensed؛ DENT-02)؛ root فرش «انبساط وانتشار للشيء مع رقة - أو ليونة - فيه» (licensed؛ LAB-02)؛ root فرش «انبساط وانتشار للشيء مع رقة - أو ليونة - فيه» (licensed؛ مباشر)؛ root ورث «حَوْزُ الإنسان ما كان يملكه آخر بعد موت هذا الآخَرِ» (licensed؛ DENT-02، LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بت «القطع والانفصال» (licensed؛ LAB-01، SIB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ SIB-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-02)
 - مسارُ الصوت: root فرت «خُلوص الماء من الملح مع صفائه من الكدورة» (licensed؛ SIB-05)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (licensed؛ DENT-02، LAB-02)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (licensed؛ DENT-02)؛ root فرش «انبساط وانتشار للشيء مع رقة - أو ليونة - فيه» (licensed؛ LAB-02)؛ root فرش «انبساط وانتشار للشيء مع رقة - أو ليونة - فيه» (licensed؛ مباشر)؛ root ورث «حَوْزُ الإنسان ما كان يملكه آخر بعد موت هذا الآخَرِ» (licensed؛ DENT-02، LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-01، SIB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ SIB-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-02)
 - المعنى من قاموس الفرع: פרצה `pirtsá`، noun، «loophole» [Kaikki Hebrew، السطر 13013]؛ פרש `parásh`، noun، «horseman, cavalier, dragoon» [Kaikki Hebrew، السطر 2254]؛ פרש `parásh`، verb، «to retire» [Kaikki Hebrew، السطر 2255]؛ פרש `parás`، verb، «to spread» [Kaikki Hebrew، السطر 2257]؛ פרש `péresh`، noun، «excrements of slaughtered animals found inside their entrails» [Kaikki Hebrew، السطر 2258]؛ פרסה `parsa`، noun، «hoof» [Kaikki Hebrew، السطر 3863]؛ פרסה `parsá`، noun، «parasang, parsa» [Kaikki Hebrew، السطر 3864]
@@ -305,14 +385,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13013:en-פרצה-he-noun-P4rpiRP-: الرسم=פרצה، الرومنة=pirtsá، الصنف=noun، المعنى=loophole، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2254:en-פרש-he-noun-qr6X~cy3: الرسم=פרש، الرومنة=parásh، الصنف=noun، المعنى=horseman, cavalier, dragoon، السلف/الخلف=Cognate with Arabic فَرَس (faras, “horse”).، القرض=لا وسم آلي؛ kaikki_hebrew:2255:en-פרש-he-verb-gRHoyy7q: الرسم=פרש، الرومنة=parásh، الصنف=verb، المعنى=to retire، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2257:en-פרש-he-verb-GuJRUmT0: الرسم=פרש، الرومنة=parás، الصنف=verb، المعنى=to spread، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2258:en-פרש-he-noun-Vc99puEb: الرسم=פרש، الرومنة=péresh، الصنف=noun، المعنى=excrements of slaughtered animals found inside their entrails، السلف/الخلف=Cognate with Arabic فَرْث (farṯ, “digestive substances”).، القرض=لا وسم آلي؛ kaikki_hebrew:3863:en-פרסה-he-noun-khLpyET8: الرسم=פרסה، الرومنة=parsa، الصنف=noun، المعنى=hoof، السلف/الخلف=Combination of the Hebrew forms ־ה + פָּרַס. Compare Hebrew פָּרַס (“divide”).، القرض=لا وسم آلي؛ kaikki_hebrew:3864:en-פרסה-he-noun-JuxNG7jO: الرسم=פרסה، الرومنة=parsá، الصنف=noun، المعنى=parasang, parsa، السلف/الخلف=From Persian فرسنگ (farsang), whence also Aramaic פַּרְסָא, Arabic فَرْسَخ (farsaḵ), Greek παρασάγγης (parasángis).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:cca23d51859c85c04ce00ee9 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: פרש، إعادة فحص الرتبة 12.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:2be2126e0a15ab6f7ee5ed8d`، חנות ספרים (الرتبة 13)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ספר `séfer`، noun، «book» [Kaikki Hebrew، السطر 1097]؛ ספרייה `sifriyá`، noun، «library» [Kaikki Hebrew، السطر 1605]؛ ספריה `sifriyá`، noun، «Defective spelling of ספרייה» [Kaikki Hebrew، السطر 3021]؛ חנות ספרים `khanút sfarím`، noun، «bookshop, bookstore» [Kaikki Hebrew، السطر 4013]؛ ספרן `safrán`، noun، «librarian» [Kaikki Hebrew، السطر 5753]؛ ספר בראשית `séfer b'reshít`، name، «Genesis (the first book in the Hebrew Bible)» [Kaikki Hebrew، السطر 8653]؛ ספר בישול `séfer bishúl`، noun، «cookbook» [Kaikki Hebrew، السطر 9414]
 - أقدمُ صورةٍ مستعادة: Possibly borrowed from Akkadian 𒅆𒅁𒀸 (šiprum, “message, report”). Compare Aramaic סִפְרָא (sip̄rā, “book”) and Arabic سِفْر (sifr, “book”).؛ From סֵפֶר (séfer, “book”) + ־ִיָּה (iyá, “a place for”). Coined by Itamar Ben-Avi in the sense of bookstore.؛ From סֵפֶר (séfer, “book”) + ־ן (-án, “-er”).
@@ -320,7 +410,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-01)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-02)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02، LAB-04)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-05)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ LAB-01، SIB-03)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ SIB-03)؛ root زفر «حمل مع حركة» (licensed؛ SIB-03)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LAB-01، LIQ-01)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LIQ-01)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ LAB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ SIB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ مباشر)؛ root سفل «كون الشيء تحت غيره أو دونه متميزًا بذلك» (licensed؛ LIQ-01)؛ root سفن «النحت من ظاهر الشيء باتجاه باطنه للتسوية أو لصنع فجوة في ذلك الظاهر» (licensed؛ LIQ-03)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ LAB-04)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-05)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ مباشر)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ مباشر)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03، SIB-06)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 15/15؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ SIB-01)؛ nucleus ءو «اتساع الحيز والامتلاء» (manual-condition؛ GLD-01)
 - مسارُ الصوت: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-01)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-02)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02، LAB-04)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-05)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ LAB-01، SIB-03)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ SIB-03)؛ root زفر «حمل مع حركة» (licensed؛ SIB-03)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LAB-01، LIQ-01)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LIQ-01)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ LAB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ SIB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ مباشر)؛ root سفل «كون الشيء تحت غيره أو دونه متميزًا بذلك» (licensed؛ LIQ-01)؛ root سفن «النحت من ظاهر الشيء باتجاه باطنه للتسوية أو لصنع فجوة في ذلك الظاهر» (licensed؛ LIQ-03)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ LAB-04)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-05)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ مباشر)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ مباشر)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03، SIB-06)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ SIB-01)؛ nucleus ءو «اتساع الحيز والامتلاء» (manual-condition؛ GLD-01)
 - المعنى من قاموس الفرع: ספר `séfer`، noun، «book» [Kaikki Hebrew، السطر 1097]؛ ספרייה `sifriyá`، noun، «library» [Kaikki Hebrew، السطر 1605]؛ ספריה `sifriyá`، noun، «Defective spelling of ספרייה» [Kaikki Hebrew، السطر 3021]؛ חנות ספרים `khanút sfarím`، noun، «bookshop, bookstore» [Kaikki Hebrew، السطر 4013]؛ ספרן `safrán`، noun، «librarian» [Kaikki Hebrew، السطر 5753]؛ ספר בראשית `séfer b'reshít`، name، «Genesis (the first book in the Hebrew Bible)» [Kaikki Hebrew، السطر 8653]؛ ספר בישול `séfer bishúl`، noun، «cookbook» [Kaikki Hebrew، السطر 9414]
@@ -329,11 +419,21 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1097:en-ספר-he-noun-knGf4M-M: الرسم=ספר، الرومنة=séfer، الصنف=noun، المعنى=book، السلف/الخلف=Possibly borrowed from Akkadian 𒅆𒅁𒀸 (šiprum, “message, report”). Compare Aramaic סִפְרָא (sip̄rā, “book”) and Arabic سِفْر (sifr, “book”).، القرض=وسم آلي؛ kaikki_hebrew:1605:en-ספרייה-he-noun-txjxNU9y: الرسم=ספרייה، الرومنة=sifriyá، الصنف=noun، المعنى=library، السلف/الخلف=From סֵפֶר (séfer, “book”) + ־ִיָּה (iyá, “a place for”). Coined by Itamar Ben-Avi in the sense of bookstore.، القرض=لا وسم آلي؛ kaikki_hebrew:3021:en-ספריה-he-noun-4m~0w-Lg: الرسم=ספריה، الرومنة=sifriyá، الصنف=noun، المعنى=Defective spelling of ספרייה، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4013:en-חנות_ספרים-he-noun-khVUTAJi: الرسم=חנות ספרים، الرومنة=khanút sfarím، الصنف=noun، المعنى=bookshop, bookstore، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5753:en-ספרן-he-noun-LEReHATf: الرسم=ספרן، الرومنة=safrán، الصنف=noun، المعنى=librarian، السلف/الخلف=From סֵפֶר (séfer, “book”) + ־ן (-án, “-er”).، القرض=لا وسم آلي؛ kaikki_hebrew:8653:en-ספר_בראשית-he-name-NRZovEob: الرسم=ספר בראשית، الرومنة=séfer b'reshít، الصنف=name، المعنى=Genesis (the first book in the Hebrew Bible)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9414:en-ספר_בישול-he-noun-7BNL972l: الرسم=ספר בישול، الرومنة=séfer bishúl، الصنف=noun، المعنى=cookbook، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
+
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:2be2126e0a15ab6f7ee5ed8d -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 15/15؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
 
 ### بطاقة: `hebrew:family:ac01e2f82552b99de3c9469a`، גבר (الرتبة 14)
 - عائق: النوع=SOURCE-GAP؛ يتطلب=تعيين طبقة المصدر المنشورة لكل عضو وفصل الحديث عن القديم، ثم جسر مكتمل؛ عائق إضافي=SOURCE-GAP
@@ -360,7 +460,7 @@
 - ملاحظات: محلي، ولا خط برهان.
 
 ### بطاقة: `hebrew:family:154ac833de0df35a19da37a0`، ב־ע־ל (الرتبة 15)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=בעל «السيد والمالك» وسلسلة الملك أو الزوج وحدها؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: בעל `bá'al`، noun، «master, owner» [Kaikki Hebrew، السطر 1080]؛ בעל `bə'al`، noun، «lord, idol» [Kaikki Hebrew، السطر 1081]؛ בעל `bá'al`، name، «Baal (Canaanite deity)» [Kaikki Hebrew، السطر 1082]؛ בעל `bá'al`، adj، «having, possessing, (endowed) with» [Kaikki Hebrew، السطر 1083]؛ בעל `ba'ál`، verb، «to have sexual intercourse» [Kaikki Hebrew، السطر 1084]؛ ב־ע־ל `b-ʿ-l`، root، «Related to ownership, lordship, marriage.» [Kaikki Hebrew، السطر 13962]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *baʕl-.؛ From Proto-Semitic *baʕl-.؛ From Proto-Semitic *baʕl-.؛ From Proto-Semitic *baʕl-.؛ Verbal form related to the above noun.؛ From Proto-Semitic *baʕl-.
@@ -368,7 +468,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بعر «مفارقة للجوف أو الحيز مع تميّز (أو انتظام) وتوالٍ» (licensed؛ LIQ-01)؛ root بعل «استقلال الشيء في تحصيل ما به قوامه مائيًّا» (licensed؛ مباشر)؛ root فعل «نفاذ - أو مخالطة - مادية عنيفة، أو جادة، تُغيّر شيئًا، أو تُحدثه» (licensed؛ LAB-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `بعل` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)؛ nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ مباشر)؛ nucleus عر «نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا» (licensed؛ LIQ-01)
 - مسارُ الصوت: root بعر «مفارقة للجوف أو الحيز مع تميّز (أو انتظام) وتوالٍ» (licensed؛ LIQ-01)؛ root بعل «استقلال الشيء في تحصيل ما به قوامه مائيًّا» (licensed؛ مباشر)؛ root فعل «نفاذ - أو مخالطة - مادية عنيفة، أو جادة، تُغيّر شيئًا، أو تُحدثه» (licensed؛ LAB-02)؛ nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)؛ nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ مباشر)؛ nucleus عر «نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا» (licensed؛ LIQ-01)
 - المعنى من قاموس الفرع: בעל `bá'al`، noun، «master, owner» [Kaikki Hebrew، السطر 1080]؛ בעל `bə'al`، noun، «lord, idol» [Kaikki Hebrew، السطر 1081]؛ בעל `bá'al`، name، «Baal (Canaanite deity)» [Kaikki Hebrew، السطر 1082]؛ בעל `bá'al`، adj، «having, possessing, (endowed) with» [Kaikki Hebrew، السطر 1083]؛ בעל `ba'ál`، verb، «to have sexual intercourse» [Kaikki Hebrew، السطر 1084]؛ ב־ע־ל `b-ʿ-l`، root، «Related to ownership, lordship, marriage.» [Kaikki Hebrew، السطر 13962]
@@ -377,14 +477,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1080:en-בעל-he-noun-qI4ZkSQ9: الرسم=בעל، الرومنة=bá'al، الصنف=noun، المعنى=master, owner، السلف/الخلف=From Proto-Semitic *baʕl-.، القرض=لا وسم آلي؛ kaikki_hebrew:1081:en-בעל-he-noun-SzIDjt~-: الرسم=בעל، الرومنة=bə'al، الصنف=noun، المعنى=lord, idol، السلف/الخلف=From Proto-Semitic *baʕl-.، القرض=لا وسم آلي؛ kaikki_hebrew:1082:en-בעל-he-name-WW6DLZaa: الرسم=בעל، الرومنة=bá'al، الصنف=name، المعنى=Baal (Canaanite deity)، السلف/الخلف=From Proto-Semitic *baʕl-.، القرض=لا وسم آلي؛ kaikki_hebrew:1083:en-בעל-he-adj-OSfrWEC9: الرسم=בעל، الرومنة=bá'al، الصنف=adj، المعنى=having, possessing, (endowed) with، السلف/الخلف=From Proto-Semitic *baʕl-.، القرض=لا وسم آلي؛ kaikki_hebrew:1084:en-בעל-he-verb--2vJwHcw: الرسم=בעל، الرومنة=ba'ál، الصنف=verb، المعنى=to have sexual intercourse، السلف/الخلف=Verbal form related to the above noun.، القرض=لا وسم آلي؛ kaikki_hebrew:13962:en-ב־ע־ל-he-root-cPQnmS6s: الرسم=ב־ע־ל، الرومنة=b-ʿ-l، الصنف=root، المعنى=Related to ownership, lordship, marriage.، السلف/الخلف=From Proto-Semitic *baʕl-.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ בעל «السيد والمالك» وسلسلة الملك أو الزوج وحدها؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:154ac833de0df35a19da37a0 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `بعل`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `بعل`، `زوج`، `رب`.
+  - سند الفرع المنشور: From Proto-Semitic *baʕl-. | From Proto-Semitic *baʕl-. | From Proto-Semitic *baʕl-.
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:9a508a2b68f225dbf426a931`، סמל ראשון (الرتبة 16)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ראשוני `rishoní`، adj، «Initial, primary, first, starting.» [Kaikki Hebrew، السطر 12037]؛ סמ״ר `sámar`، noun، «acronym of סַמָּל רִאשׁוֹן» [Kaikki Hebrew، السطر 14660]؛ סמל ראשון `samál rishón`، noun، «staff sergeant» [Kaikki Hebrew، السطر 14661]؛ עזרה ראשונה `'ezrá rishoná`، noun، «first aid» [Kaikki Hebrew، السطر 15199]؛ ראשון `rishón`، adj، «first» [Kaikki Hebrew، السطر 2130]؛ הראשון `harishón`، adj، «masculine singular definite form of רִאשׁוֹן (rishón)» [Kaikki Hebrew، السطر 3569]؛ ראשונה `rishoná`، adj، «feminine singular indefinite form of רִאשׁוֹן (rishón).» [Kaikki Hebrew، السطر 9389]؛ ראשון לציון `rishón l'tsiyón`، name، «Rishon LeZion (a city in central Israel)» [Kaikki Hebrew، السطر 9456]
 - أقدمُ صورةٍ مستعادة: From ראשון (rishón) + ־י (-í).
@@ -392,7 +506,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-04)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02)؛ root ثمن «ضم الشيء وجمعه في الجوف» (licensed؛ DENT-02، LIQ-03)؛ root زمر «ضم أو تضام قوي يستمر» (licensed؛ SIB-03)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ SIB-02)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ مباشر)؛ root سمن «امتلاء البدن وغلظه من تجمع مادة حادة أو قوية في أثنائه» (licensed؛ LIQ-03)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-04، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 7/7؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)
 - مسارُ الصوت: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-04)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02)؛ root ثمن «ضم الشيء وجمعه في الجوف» (licensed؛ DENT-02، LIQ-03)؛ root زمر «ضم أو تضام قوي يستمر» (licensed؛ SIB-03)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ SIB-02)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ مباشر)؛ root سمن «امتلاء البدن وغلظه من تجمع مادة حادة أو قوية في أثنائه» (licensed؛ LIQ-03)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-04، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)
 - المعنى من قاموس الفرع: ראשוני `rishoní`، adj، «Initial, primary, first, starting.» [Kaikki Hebrew، السطر 12037]؛ סמ״ר `sámar`، noun، «acronym of סַמָּל רִאשׁוֹן» [Kaikki Hebrew، السطر 14660]؛ סמל ראשון `samál rishón`، noun، «staff sergeant» [Kaikki Hebrew، السطر 14661]؛ עזרה ראשונה `'ezrá rishoná`، noun، «first aid» [Kaikki Hebrew، السطر 15199]؛ ראשון `rishón`، adj، «first» [Kaikki Hebrew، السطر 2130]؛ הראשון `harishón`، adj، «masculine singular definite form of רִאשׁוֹן (rishón)» [Kaikki Hebrew، السطر 3569]؛ ראשונה `rishoná`، adj، «feminine singular indefinite form of רִאשׁוֹן (rishón).» [Kaikki Hebrew، السطر 9389]؛ ראשון לציון `rishón l'tsiyón`، name، «Rishon LeZion (a city in central Israel)» [Kaikki Hebrew، السطر 9456]
@@ -401,14 +515,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:12037:en-ראשוני-he-adj-QChIXpO2: الرسم=ראשוני، الرومنة=rishoní، الصنف=adj، المعنى=Initial, primary, first, starting.، السلف/الخلف=From ראשון (rishón) + ־י (-í).، القرض=لا وسم آلي؛ kaikki_hebrew:14660:en-סמ״ר-he-noun-t8U-aUBL: الرسم=סמ״ר، الرومنة=sámar، الصنف=noun، المعنى=acronym of סַמָּל רִאשׁוֹן، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14661:en-סמל_ראשון-he-noun-1wUoauUW: الرسم=סמל ראשון، الرومنة=samál rishón، الصنف=noun، المعنى=staff sergeant، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:15199:en-עזרה_ראשונה-he-noun-ojIWMmPD: الرسم=עזרה ראשונה، الرومنة='ezrá rishoná، الصنف=noun، المعنى=first aid، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2130:en-ראשון-he-adj-p5N7ZLjK: الرسم=ראשון، الرومنة=rishón، الصنف=adj، المعنى=first، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3569:en-הראשון-he-adj-SGxQLmv9: الرسم=הראשון، الرومنة=harishón، الصنف=adj، المعنى=masculine singular definite form of רִאשׁוֹן (rishón)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9389:en-ראשונה-he-adj-J23g7vOq: الرسم=ראשונה، الرومنة=rishoná، الصنف=adj، المعنى=feminine singular indefinite form of רִאשׁוֹן (rishón).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9456:en-ראשון_לציון-he-name-ctB4dhG5: الرسم=ראשון לציון، الرومنة=rishón l'tsiyón، الصنف=name، المعنى=Rishon LeZion (a city in central Israel)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:9a508a2b68f225dbf426a931 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 7/7؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:76e1838bd20e77d609770b05`، סרט (الرتبة 17)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: סרטון `sirtón`، noun، «video, short film» [Kaikki Hebrew، السطر 11300]؛ סרט כחול `séret kakhól`، noun، «blue film (a pornographic film)» [Kaikki Hebrew، السطر 15445]؛ סרט `séret`، noun، «ribbon» [Kaikki Hebrew، السطر 2849]؛ סרט דיו `séret dyo`، noun، «A typewriter ribbon.» [Kaikki Hebrew، السطر 8430]؛ סרט מגנטי `séret magnéti`، noun، «A magnetic tape.» [Kaikki Hebrew، السطر 8431]؛ סרט תיעודי `séret ti'udí`، noun، «documentary film» [Kaikki Hebrew، السطر 9423]
 - أقدمُ صورةٍ مستعادة: From סרט + ־ון.؛ The spelling with ס in place of שׂ is either borrowed or influenced by Aramaic. Compare native Hebrew שָׂרַט (sarát/śāraṭ, “to scratch, gash, cut”) and שָׂרֶטֶת (sarétet/śāréṭeṯ, “؛ From סֶרֶט m (séret) and דְּיוֹ m or f (dyo).؛ From סֶרֶט m (séret) and מַגְנֵטִי m (magnéti).
@@ -416,7 +540,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root سرط «مرور في المسلك الممتد بيسر وسهولة» (licensed؛ DENT-05)؛ root سرط «مرور في المسلك الممتد بيسر وسهولة» (licensed؛ SIB-02)؛ root سرط «مرور في المسلك الممتد بيسر وسهولة» (licensed؛ مباشر)؛ root سلط «التمكن من القهر من بعيد» (licensed؛ LIQ-01)؛ root شرط «ضم الشيء، أو شد بعضه إلى بعض باستطالة ودقة ما» (licensed؛ SIB-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءل «» (licensed؛ GUT-04)؛ nucleus ءو «اتساع الحيز والامتلاء» (licensed؛ GUT-04، LAB-06)؛ nucleus ءو «اتساع الحيز والامتلاء» (licensed؛ GUT-04)
 - مسارُ الصوت: root سرط «مرور في المسلك الممتد بيسر وسهولة» (licensed؛ DENT-05)؛ root سرط «مرور في المسلك الممتد بيسر وسهولة» (licensed؛ SIB-02)؛ root سرط «مرور في المسلك الممتد بيسر وسهولة» (licensed؛ مباشر)؛ root سلط «التمكن من القهر من بعيد» (licensed؛ LIQ-01)؛ root شرط «ضم الشيء، أو شد بعضه إلى بعض باستطالة ودقة ما» (licensed؛ SIB-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءل «» (licensed؛ GUT-04)؛ nucleus ءو «اتساع الحيز والامتلاء» (licensed؛ GUT-04، LAB-06)؛ nucleus ءو «اتساع الحيز والامتلاء» (licensed؛ GUT-04)
 - المعنى من قاموس الفرع: סרטון `sirtón`، noun، «video, short film» [Kaikki Hebrew، السطر 11300]؛ סרט כחול `séret kakhól`، noun، «blue film (a pornographic film)» [Kaikki Hebrew، السطر 15445]؛ סרט `séret`، noun، «ribbon» [Kaikki Hebrew، السطر 2849]؛ סרט דיו `séret dyo`، noun، «A typewriter ribbon.» [Kaikki Hebrew، السطر 8430]؛ סרט מגנטי `séret magnéti`، noun، «A magnetic tape.» [Kaikki Hebrew، السطر 8431]؛ סרט תיעודי `séret ti'udí`، noun، «documentary film» [Kaikki Hebrew، السطر 9423]
@@ -425,14 +549,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11300:en-סרטון-he-noun-JO6RiT~D: الرسم=סרטון، الرومنة=sirtón، الصنف=noun، المعنى=video, short film، السلف/الخلف=From סרט + ־ון.، القرض=لا وسم آلي؛ kaikki_hebrew:15445:en-סרט_כחול-he-noun-vXXA~jdI: الرسم=סרט כחול، الرومنة=séret kakhól، الصنف=noun، المعنى=blue film (a pornographic film)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2849:en-סרט-he-noun-r~w1vWxj: الرسم=סרט، الرومنة=séret، الصنف=noun، المعنى=ribbon، السلف/الخلف=The spelling with ס in place of שׂ is either borrowed or influenced by Aramaic. Compare native Hebrew שָׂרַט (sarát/śāraṭ, “to scratch, gash, cut”) and שָׂרֶטֶת (sarétet/śāréṭeṯ, “، القرض=لا وسم آلي؛ kaikki_hebrew:8430:en-סרט_דיו-he-noun--XREZCBN: الرسم=סרט דיו، الرومنة=séret dyo، الصنف=noun، المعنى=A typewriter ribbon.، السلف/الخلف=From סֶרֶט m (séret) and דְּיוֹ m or f (dyo).، القرض=لا وسم آلي؛ kaikki_hebrew:8431:en-סרט_מגנטי-he-noun-MAYXHBp6: الرسم=סרט מגנטי، الرومنة=séret magnéti، الصنف=noun، المعنى=A magnetic tape.، السلف/الخلف=From סֶרֶט m (séret) and מַגְנֵטִי m (magnéti).، القرض=لا وسم آلي؛ kaikki_hebrew:9423:en-סרט_תיעודי-he-noun-qAO2CyEr: الرسم=סרט תיעודי، الرومنة=séret ti'udí، الصنف=noun، المعنى=documentary film، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:76e1838bd20e77d609770b05 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:544164c80fbe1e8a27ab6b8b`، חדר (الرتبة 18)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=חדר «الغرفة» وحدها، مع عزل المركبات الحديثة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: חדר שינה `khadár sheiná`، noun، «bedroom» [Kaikki Hebrew، السطر 14732]؛ חדר אוכל `khadár 'ókhel`، noun، «dining room» [Kaikki Hebrew، السطر 14733]؛ טמפרטורת החדר `temperatúrat hakhéder`، noun، «room temperature» [Kaikki Hebrew، السطر 15143]؛ חדר כושר `khadár kósher`، noun، «gymnasium, gym» [Kaikki Hebrew، السطر 15519]؛ חדירה `khadirá`، noun، «verbal noun of חָדַר (khadár)» [Kaikki Hebrew، السطر 6477]؛ חדרים `khadarím`، noun، «plural indefinite form of חֶדֶר (khéder)» [Kaikki Hebrew، السطر 7892]؛ חדר `khéder`، noun، «room» [Kaikki Hebrew، السطر 791]؛ חדר `khadár`، verb، «to penetrate, imbue, infuse» [Kaikki Hebrew، السطر 792]؛ חדרה `khad'ra`، verb، «third-person feminine singular past (suffix conjugation) of חָדַר (khadár)» [Kaikki Hebrew، السطر 9468]؛ חדרי `khadré`، noun، «plural construct state form of חֶדֶר» [Kaikki Hebrew، السطر 9639]
 - أقدمُ صورةٍ مستعادة: From חֲדַר־ (khadár-, “room of”) + שֵׁנָה (sheiná, “sleep”).؛ From חֲדַר־ (khadár-, “room of”) + אֹכֶל ('ókhel, “food”).؛ Compare Arabic خِدْر (ḵidr)؛ Compare Arabic خَدَرَ (ḵadara).
@@ -440,7 +574,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حذر «تَوَتُّرُ أثناء الشيء، أي اشتدادها وتداخل بعضها مع غلظة ظاهره» (scope-gap؛ DENT-03)؛ root حضر «انتقال بكثافة - أو قوة - إلى مجمع يدوم» (licensed؛ DENT-06)؛ root حضر «انتقال بكثافة - أو قوة - إلى مجمع يدوم» (licensed؛ مباشر)؛ root حظر «المنع عن الشيء بنحو الجدار يصد عنه» (licensed؛ DENT-07)؛ root خضر «الامتلاء بالغضاضة والري مع ذلك اللون المريح» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `خدر` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03)؛ nucleus ءل «» (licensed؛ مباشر)؛ nucleus ءل «» (licensed؛ GUT-04، LIQ-01)
 - مسارُ الصوت: root حذر «تَوَتُّرُ أثناء الشيء، أي اشتدادها وتداخل بعضها مع غلظة ظاهره» (scope-gap؛ DENT-03)؛ root حضر «انتقال بكثافة - أو قوة - إلى مجمع يدوم» (licensed؛ DENT-06)؛ root حضر «انتقال بكثافة - أو قوة - إلى مجمع يدوم» (licensed؛ مباشر)؛ root حظر «المنع عن الشيء بنحو الجدار يصد عنه» (licensed؛ DENT-07)؛ root خضر «الامتلاء بالغضاضة والري مع ذلك اللون المريح» (licensed؛ GUT-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03)؛ nucleus ءل «» (licensed؛ مباشر)؛ nucleus ءل «» (licensed؛ GUT-04، LIQ-01)
 - المعنى من قاموس الفرع: חדר שינה `khadár sheiná`، noun، «bedroom» [Kaikki Hebrew، السطر 14732]؛ חדר אוכל `khadár 'ókhel`، noun، «dining room» [Kaikki Hebrew، السطر 14733]؛ טמפרטורת החדר `temperatúrat hakhéder`، noun، «room temperature» [Kaikki Hebrew، السطر 15143]؛ חדר כושר `khadár kósher`، noun، «gymnasium, gym» [Kaikki Hebrew، السطر 15519]؛ חדירה `khadirá`، noun، «verbal noun of חָדַר (khadár)» [Kaikki Hebrew، السطر 6477]؛ חדרים `khadarím`، noun، «plural indefinite form of חֶדֶר (khéder)» [Kaikki Hebrew، السطر 7892]؛ חדר `khéder`، noun، «room» [Kaikki Hebrew، السطر 791]؛ חדר `khadár`، verb، «to penetrate, imbue, infuse» [Kaikki Hebrew، السطر 792]؛ חדרה `khad'ra`، verb، «third-person feminine singular past (suffix conjugation) of חָדַר (khadár)» [Kaikki Hebrew، السطر 9468]؛ חדרי `khadré`، noun، «plural construct state form of חֶדֶר» [Kaikki Hebrew، السطر 9639]
@@ -449,14 +583,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14732:en-חדר_שינה-he-noun-oF5v63nI: الرسم=חדר שינה، الرومنة=khadár sheiná، الصنف=noun، المعنى=bedroom، السلف/الخلف=From חֲדַר־ (khadár-, “room of”) + שֵׁנָה (sheiná, “sleep”).، القرض=لا وسم آلي؛ kaikki_hebrew:14733:en-חדר_אוכל-he-noun-E8DI-kxR: الرسم=חדר אוכל، الرومنة=khadár 'ókhel، الصنف=noun، المعنى=dining room، السلف/الخلف=From חֲדַר־ (khadár-, “room of”) + אֹכֶל ('ókhel, “food”).، القرض=لا وسم آلي؛ kaikki_hebrew:15143:en-טמפרטורת_החדר-he-noun-u9FCCS8k: الرسم=טמפרטורת החדר، الرومنة=temperatúrat hakhéder، الصنف=noun، المعنى=room temperature، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:15519:en-חדר_כושר-he-noun-Bba1r4Od: الرسم=חדר כושר، الرومنة=khadár kósher، الصنف=noun، المعنى=gymnasium, gym، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6477:en-חדירה-he-noun-n3XgbEEc: الرسم=חדירה، الرومنة=khadirá، الصنف=noun، المعنى=verbal noun of חָדַר (khadár)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7892:en-חדרים-he-noun-clkKHeoY: الرسم=חדרים، الرومنة=khadarím، الصنف=noun، المعنى=plural indefinite form of חֶדֶר (khéder)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:791:en-חדר-he-noun-HxxbL613: الرسم=חדר، الرومنة=khéder، الصنف=noun، المعنى=room، السلف/الخلف=Compare Arabic خِدْر (ḵidr)، القرض=لا وسم آلي؛ kaikki_hebrew:792:en-חדר-he-verb-bopIugvf: الرسم=חדר، الرومنة=khadár، الصنف=verb، المعنى=to penetrate, imbue, infuse، السلف/الخلف=Compare Arabic خَدَرَ (ḵadara).، القرض=لا وسم آلي؛ kaikki_hebrew:9468:en-חדרה-he-verb-wNUnr0gq: الرسم=חדרה، الرومنة=khad'ra، الصنف=verb، المعنى=third-person feminine singular past (suffix conjugation) of חָדַר (khadár)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9639:en-חדרי-he-noun-AyEVIWBG: الرسم=חדרי، الرومنة=khadré، الصنف=noun، المعنى=plural construct state form of חֶדֶר، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ חדר «الغرفة» وحدها، مع عزل المركبات الحديثة؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:544164c80fbe1e8a27ab6b8b -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `خدر`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `خدر`، `ستر`.
+  - سند الفرع المنشور: From חֲדַר־ (khadár-, “room of”) + שֵׁנָה (sheiná, “sleep”). | From חֲדַר־ (khadár-, “room of”) + אֹכֶל ('ókhel, “food”). | Compare Arabic خِدْر (ḵidr)
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:1e373f97682138f6ee00ae49`، בוקר טוב (الرتبة 19)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: יצר הטוב `yétser hatóv`، noun، «good part of the conscience, inclination to do good» [Kaikki Hebrew، السطر 11005]؛ גמר טוב `g'már tov`، phrase، «May you be signed and sealed in the Book of Life; a common greeting on and before Yom Kippur.» [Kaikki Hebrew، السطر 11277]؛ שבוע טוב `shavúa tov`، phrase، «Used Saturday night through Sunday (and sometimes later) to express good wishes for the coming week following the Jewish sabbath.» [Kaikki Hebrew، السطر 11299]؛ בוקר טוב `bóker tov`، intj، «good morning» [Kaikki Hebrew، السطر 1620]؛ טובה `tová`، adj، «feminine singular indefinite form of טוב (tov)» [Kaikki Hebrew، السطر 2862]؛ טוב `tov`، adj، «good, fair, fine» [Kaikki Hebrew، السطر 342]؛ הטובים `hatovím`، adj، «masculine plural definite form of טוֹב (tóv)» [Kaikki Hebrew، السطر 7183]؛ גמר חתימה טובה `g'már khatimá tová`، phrase، «May you be signed and sealed in the Book of Life; a common greeting on and before Yom Kippur.» [Kaikki Hebrew، السطر 7697]
 - أقدمُ صورةٍ مستعادة: Ellipsis of גְּמַר חֲתִימָה טוֹבָה (g'már khatimá tová).؛ Calque of Yiddish אַ גוטע וואָך (a gute vokh).؛ From בוקר (“morning”) + טוב (“good”).؛ From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib).؛ From גְּמַר־ (g'már-, “end of”) + חֲתִימָה (khatimá, “signing, sealing”) + טוֹבָה (tová, “good”); hence literally “end of good sealing”.
@@ -464,7 +612,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root تبب «ذهاب غلظ الشيء وشدته من ضغط حاد عليه» (licensed؛ LAB-05)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ DENT-05، LAB-06)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ DENT-05)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ LAB-06)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ مباشر)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (scope-gap؛ DENT-01، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (scope-gap؛ DENT-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-06، SIB-05)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ SIB-05)؛ root طبب «التلطف والاحتيال في جبر خلل الشيء أو تسويته» (licensed؛ LAB-05)؛ root طوف «غشيان الشيء بغلظ أو قوة يعم حدوده أو أعلاه» (licensed؛ LAB-02، LAB-06)؛ root طوف «غشيان الشيء بغلظ أو قوة يعم حدوده أو أعلاه» (licensed؛ LAB-02)؛ root طيب «لطف وقع الشيء على الحس وخلوه من الغلظ» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)
 - مسارُ الصوت: root تبب «ذهاب غلظ الشيء وشدته من ضغط حاد عليه» (licensed؛ LAB-05)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ DENT-05، LAB-06)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ DENT-05)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ LAB-06)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ مباشر)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (scope-gap؛ DENT-01، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (scope-gap؛ DENT-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-06، SIB-05)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ SIB-05)؛ root طبب «التلطف والاحتيال في جبر خلل الشيء أو تسويته» (licensed؛ LAB-05)؛ root طوف «غشيان الشيء بغلظ أو قوة يعم حدوده أو أعلاه» (licensed؛ LAB-02، LAB-06)؛ root طوف «غشيان الشيء بغلظ أو قوة يعم حدوده أو أعلاه» (licensed؛ LAB-02)؛ root طيب «لطف وقع الشيء على الحس وخلوه من الغلظ» (manual-condition؛ GLD-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)
 - المعنى من قاموس الفرع: יצר הטוב `yétser hatóv`، noun، «good part of the conscience, inclination to do good» [Kaikki Hebrew، السطر 11005]؛ גמר טוב `g'már tov`، phrase، «May you be signed and sealed in the Book of Life; a common greeting on and before Yom Kippur.» [Kaikki Hebrew، السطر 11277]؛ שבוע טוב `shavúa tov`، phrase، «Used Saturday night through Sunday (and sometimes later) to express good wishes for the coming week following the Jewish sabbath.» [Kaikki Hebrew، السطر 11299]؛ בוקר טוב `bóker tov`، intj، «good morning» [Kaikki Hebrew، السطر 1620]؛ טובה `tová`، adj، «feminine singular indefinite form of טוב (tov)» [Kaikki Hebrew، السطر 2862]؛ טוב `tov`، adj، «good, fair, fine» [Kaikki Hebrew، السطر 342]؛ הטובים `hatovím`، adj، «masculine plural definite form of טוֹב (tóv)» [Kaikki Hebrew، السطر 7183]؛ גמר חתימה טובה `g'már khatimá tová`، phrase، «May you be signed and sealed in the Book of Life; a common greeting on and before Yom Kippur.» [Kaikki Hebrew، السطر 7697]
@@ -473,14 +621,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11005:en-יצר_הטוב-he-noun-ZQkKfKj3: الرسم=יצר הטוב، الرومنة=yétser hatóv، الصنف=noun، المعنى=good part of the conscience, inclination to do good، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:11277:en-גמר_טוב-he-phrase-I9WDsvsD: الرسم=גמר טוב، الرومنة=g'már tov، الصنف=phrase، المعنى=May you be signed and sealed in the Book of Life; a common greeting on and before Yom Kippur.، السلف/الخلف=Ellipsis of גְּמַר חֲתִימָה טוֹבָה (g'már khatimá tová).، القرض=لا وسم آلي؛ kaikki_hebrew:11299:en-שבוע_טוב-he-phrase-j1BDWw15: الرسم=שבוע טוב، الرومنة=shavúa tov، الصنف=phrase، المعنى=Used Saturday night through Sunday (and sometimes later) to express good wishes for the coming week following the Jewish sabbath.، السلف/الخلف=Calque of Yiddish אַ גוטע וואָך (a gute vokh).، القرض=لا وسم آلي؛ kaikki_hebrew:1620:en-בוקר_טוב-he-intj-zfcd6n13: الرسم=בוקר טוב، الرومنة=bóker tov، الصنف=intj، المعنى=good morning، السلف/الخلف=From בוקר (“morning”) + טוב (“good”).، القرض=لا وسم آلي؛ kaikki_hebrew:2862:en-טובה-he-adj-u8wc-hEM: الرسم=טובה، الرومنة=tová، الصنف=adj، المعنى=feminine singular indefinite form of טוב (tov)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:342:en-טוב-he-adj-GwpOY2mq: الرسم=טוב، الرومنة=tov، الصنف=adj، المعنى=good, fair, fine، السلف/الخلف=From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib).، القرض=لا وسم آلي؛ kaikki_hebrew:7183:en-הטובים-he-adj-Nl5he8nS: الرسم=הטובים، الرومنة=hatovím، الصنف=adj، المعنى=masculine plural definite form of טוֹב (tóv)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7697:en-גמר_חתימה_טובה-he-phrase-I9WDsvsD: الرسم=גמר חתימה טובה، الرومنة=g'már khatimá tová، الصنف=phrase، المعنى=May you be signed and sealed in the Book of Life; a common greeting on and before Yom Kippur.، السلف/الخلف=From גְּמַר־ (g'már-, “end of”) + חֲתִימָה (khatimá, “signing, sealing”) + טוֹבָה (tová, “good”); hence literally “end of good sealing”.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:1e373f97682138f6ee00ae49 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:252665ecbd6facd08231e47a`، הליכה (الرتبة 20)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: הלכנו `halákhnu`، verb، «First-person plural past (suffix conjugation) of הָלַךְ (halákh)» [Kaikki Hebrew، السطر 11125]؛ כוכב לכת `kokháv lékhet`، noun، «planet» [Kaikki Hebrew، السطر 1282]؛ הלך `halákh`، verb، «to walk, go, especially on foot» [Kaikki Hebrew، السطر 190]؛ הלכה `hal'khá`، verb، «Third-person feminine singular past (suffix conjugation) of הָלַךְ (halákh)» [Kaikki Hebrew، السطر 4558]؛ לך `غير منشورة`، verb، «Masculine singular imperative of הָלַךְ (halách).» [Kaikki Hebrew، السطر 4639]؛ כוכבי לכת `koch'vé léchet`، noun، «plural indefinite form of כּוֹכַב לֶכֶת (kokháv lékhet)» [Kaikki Hebrew، السطر 5360]؛ הלכת `غير منشورة`، verb، «Second-person masculine singular past (suffix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 5989]؛ אלך `eléch`، verb، «First-person singular future (prefix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 6013]؛ לכי `l'chi`، verb، «feminine singular imperative of הָלַךְ (halách)» [Kaikki Hebrew، السطر 6014]؛ לכי `léchi`، verb، «pausal feminine singular imperative of הָלַךְ (halách)» [Kaikki Hebrew، السطر 6015]؛ נלכה `nel'chá`، verb، «First-person plural cohortative (prefix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 6999]؛ תלכו `tel'chú`، verb، «Second-person masculine plural future (prefix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 7051]؛ תלכון `telechún`، verb، «alternative form of תֵּלְכוּ: second-person masculine plural future (prefix conjugation) of הָלַךְ (halách)» [Kaikki Hebrew، السطر 7052]؛ אלכה `elchá`، verb، «First-person singular future (prefix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 7358]؛ הליכה `halikhá`، noun، «Walking, the act of walking.» [Kaikki Hebrew، السطر 7446]؛ הליכות `halichót`، noun، «plural indefinite form of הֲלִיכָה (halichá)» [Kaikki Hebrew، السطر 7449]؛ הליכת `halichát`، noun، «singular construct state form of הֲלִיכָה (halichá).» [Kaikki Hebrew، السطر 7450]؛ הלכתי `halákhti`، verb، «First-person singular past (suffix conjugation) of הָלַךְ (halákh): (I) went, was going, etc.» [Kaikki Hebrew، السطر 8500]؛ הולך `holékh`، verb، «Masculine singular present participle and present tense of הָלַךְ (halákh).» [Kaikki Hebrew، السطر 9218]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *halak-.؛ Action noun of the verb הָלַךְ (halákh), from the root ה־ל־ך (h-l-k).
@@ -488,7 +646,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حرج «ضيق المكان (من كثافة الشجر العظيم المرتفع فيه)» (licensed؛ GUT-03، GUT-04، LIQ-01)؛ root حرج «ضيق المكان (من كثافة الشجر العظيم المرتفع فيه)» (licensed؛ GUT-03، LIQ-01)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ GUT-04، LIQ-01، SIB-06)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ LIQ-01، SIB-06)؛ root حرق «تحويل حاد - أو بالغ - ينال مادة الشيء وحقيقته» (licensed؛ GUT-04، LIQ-01)؛ root حرق «تحويل حاد - أو بالغ - ينال مادة الشيء وحقيقته» (licensed؛ LIQ-01)؛ root حرك «نُقْلة يسيرة (لطيفة) ومُقَيَّدة متردّدة» (licensed؛ GUT-04، LIQ-01)؛ root حرك «نُقْلة يسيرة (لطيفة) ومُقَيَّدة متردّدة» (licensed؛ LIQ-01)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ GUT-01، GUT-04)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ GUT-01)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ GUT-04)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ مباشر)؛ root خلص «نفاذ الشيء نقيا من أثناء ما كان يخالطه» (licensed؛ GUT-05، SIB-06)؛ root خلق «تهيئة مادة (غُفْل) لتكون شيئًا مُعَيَّنا مرادًا» (licensed؛ GUT-05)؛ root سرج «فتيل أو حبل ممتد يعلق به لطيف يؤنس ويمكّن» (scope-gap؛ GUT-03، LIQ-01، SIB-04)؛ root سرق «أخذ الشيء من عمق حيّزه بحيلة أو طريقة خفية إلى حيّزآخر» (scope-gap؛ LIQ-01، SIB-04)؛ root سلق «تأثر باطن الشيء بحدة تنال ظاهره فتذهب صلادته ويلين» (scope-gap؛ GUT-01، SIB-04)؛ root سلق «تأثر باطن الشيء بحدة تنال ظاهره فتذهب صلادته ويلين» (scope-gap؛ SIB-04)؛ root سلك «نفاذ في أثناء (ضيقة) بدقة وامتداد: كذلك الخيط» (scope-gap؛ GUT-01، SIB-04)؛ root سلك «نفاذ في أثناء (ضيقة) بدقة وامتداد: كذلك الخيط» (scope-gap؛ SIB-04)؛ root عرج «نشوز - أو عوج - عن الاستواء في الاطراد: إلى الأعلى، أو الجانب» (licensed؛ GUT-03، GUT-04، LIQ-01)؛ root علق «نشوب - أو امتساك - مع ارتفاع وغلظ ما» (licensed؛ GUT-01، GUT-04)؛ root علق «نشوب - أو امتساك - مع ارتفاع وغلظ ما» (licensed؛ GUT-04)؛ root غرق «رسوب إلى عُمق مائع أو تغلغل مائع في أثناء العمق» (licensed؛ GUT-04، LIQ-01)؛ root غلق «منع الاقتحام والمخالطة لحدة ظاهرة» (licensed؛ GUT-01، GUT-04)؛ root غلق «منع الاقتحام والمخالطة لحدة ظاهرة» (licensed؛ GUT-04)؛ root هلك «فراغ جوف الشيء مما هو حقيقته وجوهره» (licensed؛ GUT-01)؛ root هلك «فراغ جوف الشيء مما هو حقيقته وجوهره» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 10/10؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04)؛ nucleus ءل «» (licensed؛ GUT-04)
 - مسارُ الصوت: root حرج «ضيق المكان (من كثافة الشجر العظيم المرتفع فيه)» (licensed؛ GUT-03، GUT-04، LIQ-01)؛ root حرج «ضيق المكان (من كثافة الشجر العظيم المرتفع فيه)» (licensed؛ GUT-03، LIQ-01)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ GUT-04، LIQ-01، SIB-06)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ LIQ-01، SIB-06)؛ root حرق «تحويل حاد - أو بالغ - ينال مادة الشيء وحقيقته» (licensed؛ GUT-04، LIQ-01)؛ root حرق «تحويل حاد - أو بالغ - ينال مادة الشيء وحقيقته» (licensed؛ LIQ-01)؛ root حرك «نُقْلة يسيرة (لطيفة) ومُقَيَّدة متردّدة» (licensed؛ GUT-04، LIQ-01)؛ root حرك «نُقْلة يسيرة (لطيفة) ومُقَيَّدة متردّدة» (licensed؛ LIQ-01)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ GUT-01، GUT-04)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ GUT-01)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ GUT-04)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ مباشر)؛ root خلص «نفاذ الشيء نقيا من أثناء ما كان يخالطه» (licensed؛ GUT-05، SIB-06)؛ root خلق «تهيئة مادة (غُفْل) لتكون شيئًا مُعَيَّنا مرادًا» (licensed؛ GUT-05)؛ root سرج «فتيل أو حبل ممتد يعلق به لطيف يؤنس ويمكّن» (scope-gap؛ GUT-03، LIQ-01، SIB-04)؛ root سرق «أخذ الشيء من عمق حيّزه بحيلة أو طريقة خفية إلى حيّزآخر» (scope-gap؛ LIQ-01، SIB-04)؛ root سلق «تأثر باطن الشيء بحدة تنال ظاهره فتذهب صلادته ويلين» (scope-gap؛ GUT-01، SIB-04)؛ root سلق «تأثر باطن الشيء بحدة تنال ظاهره فتذهب صلادته ويلين» (scope-gap؛ SIB-04)؛ root سلك «نفاذ في أثناء (ضيقة) بدقة وامتداد: كذلك الخيط» (scope-gap؛ GUT-01، SIB-04)؛ root سلك «نفاذ في أثناء (ضيقة) بدقة وامتداد: كذلك الخيط» (scope-gap؛ SIB-04)؛ root عرج «نشوز - أو عوج - عن الاستواء في الاطراد: إلى الأعلى، أو الجانب» (licensed؛ GUT-03، GUT-04، LIQ-01)؛ root علق «نشوب - أو امتساك - مع ارتفاع وغلظ ما» (licensed؛ GUT-01، GUT-04)؛ root علق «نشوب - أو امتساك - مع ارتفاع وغلظ ما» (licensed؛ GUT-04)؛ root غرق «رسوب إلى عُمق مائع أو تغلغل مائع في أثناء العمق» (licensed؛ GUT-04، LIQ-01)؛ root غلق «منع الاقتحام والمخالطة لحدة ظاهرة» (licensed؛ GUT-01، GUT-04)؛ root غلق «منع الاقتحام والمخالطة لحدة ظاهرة» (licensed؛ GUT-04)؛ root هلك «فراغ جوف الشيء مما هو حقيقته وجوهره» (licensed؛ GUT-01)؛ root هلك «فراغ جوف الشيء مما هو حقيقته وجوهره» (licensed؛ مباشر)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04)؛ nucleus ءل «» (licensed؛ GUT-04)
 - المعنى من قاموس الفرع: הלכנו `halákhnu`، verb، «First-person plural past (suffix conjugation) of הָלַךְ (halákh)» [Kaikki Hebrew، السطر 11125]؛ כוכב לכת `kokháv lékhet`، noun، «planet» [Kaikki Hebrew، السطر 1282]؛ הלך `halákh`، verb، «to walk, go, especially on foot» [Kaikki Hebrew، السطر 190]؛ הלכה `hal'khá`، verb، «Third-person feminine singular past (suffix conjugation) of הָלַךְ (halákh)» [Kaikki Hebrew، السطر 4558]؛ לך `غير منشورة`، verb، «Masculine singular imperative of הָלַךְ (halách).» [Kaikki Hebrew، السطر 4639]؛ כוכבי לכת `koch'vé léchet`، noun، «plural indefinite form of כּוֹכַב לֶכֶת (kokháv lékhet)» [Kaikki Hebrew، السطر 5360]؛ הלכת `غير منشورة`، verb، «Second-person masculine singular past (suffix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 5989]؛ אלך `eléch`، verb، «First-person singular future (prefix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 6013]؛ לכי `l'chi`، verb، «feminine singular imperative of הָלַךְ (halách)» [Kaikki Hebrew، السطر 6014]؛ לכי `léchi`، verb، «pausal feminine singular imperative of הָלַךְ (halách)» [Kaikki Hebrew، السطر 6015]؛ נלכה `nel'chá`، verb، «First-person plural cohortative (prefix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 6999]؛ תלכו `tel'chú`، verb، «Second-person masculine plural future (prefix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 7051]؛ תלכון `telechún`، verb، «alternative form of תֵּלְכוּ: second-person masculine plural future (prefix conjugation) of הָלַךְ (halách)» [Kaikki Hebrew، السطر 7052]؛ אלכה `elchá`، verb، «First-person singular future (prefix conjugation) of הָלַךְ (halách).» [Kaikki Hebrew، السطر 7358]؛ הליכה `halikhá`، noun، «Walking, the act of walking.» [Kaikki Hebrew، السطر 7446]؛ הליכות `halichót`، noun، «plural indefinite form of הֲלִיכָה (halichá)» [Kaikki Hebrew، السطر 7449]؛ הליכת `halichát`، noun، «singular construct state form of הֲלִיכָה (halichá).» [Kaikki Hebrew، السطر 7450]؛ הלכתי `halákhti`، verb، «First-person singular past (suffix conjugation) of הָלַךְ (halákh): (I) went, was going, etc.» [Kaikki Hebrew، السطر 8500]؛ הולך `holékh`، verb، «Masculine singular present participle and present tense of הָלַךְ (halákh).» [Kaikki Hebrew، السطر 9218]
@@ -497,14 +655,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11125:en-הלכנו-he-verb-pNfO27-0: الرسم=הלכנו، الرومنة=halákhnu، الصنف=verb، المعنى=First-person plural past (suffix conjugation) of הָלַךְ (halákh)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1282:en-כוכב_לכת-he-noun-y1gV~lw8: الرسم=כוכב לכת، الرومنة=kokháv lékhet، الصنف=noun، المعنى=planet، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:190:en-הלך-he-verb-7QCjBabB: الرسم=הלך، الرومنة=halákh، الصنف=verb، المعنى=to walk, go, especially on foot، السلف/الخلف=From Proto-Semitic *halak-.، القرض=لا وسم آلي؛ kaikki_hebrew:4558:en-הלכה-he-verb-ykdcWHZT: الرسم=הלכה، الرومنة=hal'khá، الصنف=verb، المعنى=Third-person feminine singular past (suffix conjugation) of הָלַךְ (halákh)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4639:en-לך-he-verb--BKfbm8R: الرسم=לך، الرومنة=غير منشورة، الصنف=verb، المعنى=Masculine singular imperative of הָלַךְ (halách).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5360:en-כוכבי_לכת-he-noun-85lKRj8U: الرسم=כוכבי לכת، الرومنة=koch'vé léchet، الصنف=noun، المعنى=plural indefinite form of כּוֹכַב לֶכֶת (kokháv lékhet)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5989:en-הלכת-he-verb-agpObuSU: الرسم=הלכת، الرومنة=غير منشورة، الصنف=verb، المعنى=Second-person masculine singular past (suffix conjugation) of הָלַךְ (halách).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6013:en-אלך-he-verb-NoDZvMHg: الرسم=אלך، الرومنة=eléch، الصنف=verb، المعنى=First-person singular future (prefix conjugation) of הָלַךְ (halách).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6014:en-לכי-he-verb-7RkvlQxx: الرسم=לכי، الرومنة=l'chi، الصنف=verb، المعنى=feminine singular imperative of הָלַךְ (halách)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6015:en-לכי-he-verb-AZ9H7UwJ: الرسم=לכי، الرومنة=léchi، الصنف=verb، المعنى=pausal feminine singular imperative of הָלַךְ (halách)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6999:en-נלכה-he-verb-uY6gNT15: الرسم=נלכה، الرومنة=nel'chá، الصنف=verb، المعنى=First-person plural cohortative (prefix conjugation) of הָלַךְ (halách).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7051:en-תלכו-he-verb-~LHlJkIp: الرسم=תלכו، الرومنة=tel'chú، الصنف=verb، المعنى=Second-person masculine plural future (prefix conjugation) of הָלַךְ (halách).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7052:en-תלכון-he-verb-wJYrEAcT: الرسم=תלכון، الرومنة=telechún، الصنف=verb، المعنى=alternative form of תֵּלְכוּ: second-person masculine plural future (prefix conjugation) of הָלַךְ (halách)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7358:en-אלכה-he-verb-NoDZvMHg: الرسم=אלכה، الرومنة=elchá، الصنف=verb، المعنى=First-person singular future (prefix conjugation) of הָלַךְ (halách).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7446:en-הליכה-he-noun-169OEA5o: الرسم=הליכה، الرومنة=halikhá، الصنف=noun، المعنى=Walking, the act of walking.، السلف/الخلف=Action noun of the verb הָלַךְ (halákh), from the root ה־ל־ך (h-l-k).، القرض=لا وسم آلي؛ kaikki_hebrew:7449:en-הליכות-he-noun-Ab5LAl-m: الرسم=הליכות، الرومنة=halichót، الصنف=noun، المعنى=plural indefinite form of הֲלִיכָה (halichá)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7450:en-הליכת-he-noun-hUeH~FUg: الرسم=הליכת، الرومنة=halichát، الصنف=noun، المعنى=singular construct state form of הֲלִיכָה (halichá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8500:en-הלכתי-he-verb-uNXKmRBO: الرسم=הלכתי، الرومنة=halákhti، الصنف=verb، المعنى=First-person singular past (suffix conjugation) of הָלַךְ (halákh): (I) went, was going, etc.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9218:en-הולך-he-verb-OBdtsylo: الرسم=הולך، الرومنة=holékh، الصنف=verb، المعنى=Masculine singular present participle and present tense of הָלַךְ (halákh).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:252665ecbd6facd08231e47a -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 10/10؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:91fa9ff6c7f87841480bfaca`، ג־ו־ר (الرتبة 21)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=جذر ג־ו־ר في الإقامة والجوار وحده، لا الخوف ولا الهجوم؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ג־ו־ר `g-w-r`، root، «Forming words relating to residing or sojourning.» [Kaikki Hebrew، السطر 14353]؛ ג־ו־ר `g-w-r`، root، «Forming words relating to fear.» [Kaikki Hebrew، السطر 14354]؛ ג־ו־ר `g-w-r`، root، «Forming words relating to the young of animals.» [Kaikki Hebrew، السطر 14355]؛ ג־ו־ר `g-w-r`، root، «Forming words relating to attack.» [Kaikki Hebrew، السطر 14356]؛ גור `gur`، noun، «A cub, pup, kit, calf, puppy, kitten, or similar: a juvenile of any mammal species.» [Kaikki Hebrew، السطر 7325]
 - أقدمُ صورةٍ مستعادة: Close cognate to Aramaic ג־ו־ר (g‑w‑r, root relating to living abroad or proselytising) and Classical Syriac ܓܵܪ (gār, “to commit adultery”). Other Semitic cognates include Phoenic؛ Secondary form of root י־ג־ר (y-g-r), with which it forms a suppletive paradigm.؛ From Proto-Semitic *gVr- (“whelp”). Closely related to Aramaic גּוּר (gur) and Classical Syriac ܓܘܼܪܝܵܐ (gūryāʾ, “cub”). Standard Babylonian 𒄀𒅕𒊒 (girru, “lion”) and Arabic جَرْو (j؛ From Proto-West Semitic *gawar-, cognate to Arabic جَارَ (jāra, “to wrong”). Compare ג־ר־ה (g-r-h, base related to provoking).
@@ -512,7 +680,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ GUT-03، LAB-05)؛ root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ LAB-05)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03، LAB-06)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ LAB-06)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ مباشر)؛ root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LAB-05)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-06، LIQ-01)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LIQ-01)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ GUT-02، LAB-05)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ LAB-05)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ GUT-01، LAB-06)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ GUT-01)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ GUT-02، LAB-06)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ GUT-02)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ LAB-06)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ مباشر)؛ root كون «التحول من هيأة هشة إلى هيأة متينة ليًّا وفتلًا» (licensed؛ GUT-02، LAB-06، LIQ-03)؛ root كون «التحول من هيأة هشة إلى هيأة متينة ليًّا وفتلًا» (licensed؛ GUT-02، LIQ-03)؛ root كون «التحول من هيأة هشة إلى هيأة متينة ليًّا وفتلًا» (licensed؛ LAB-06، LIQ-03)؛ root كون «التحول من هيأة هشة إلى هيأة متينة ليًّا وفتلًا» (licensed؛ LIQ-03)؛ root كير «إدارة الشيء على شيء تهيئة لجمعه عليه» (manual-condition؛ GLD-01، GUT-02)؛ root كير «إدارة الشيء على شيء تهيئة لجمعه عليه» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `جور` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ GUT-03، LAB-05)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ LAB-05)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ GUT-03)
 - مسارُ الصوت: root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ GUT-03، LAB-05)؛ root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ LAB-05)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03، LAB-06)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ LAB-06)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ مباشر)؛ root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LAB-05)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-06، LIQ-01)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LIQ-01)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ GUT-02، LAB-05)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ LAB-05)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ GUT-01، LAB-06)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ GUT-01)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ GUT-02، LAB-06)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ GUT-02)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ LAB-06)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ مباشر)؛ root كون «التحول من هيأة هشة إلى هيأة متينة ليًّا وفتلًا» (licensed؛ GUT-02، LAB-06، LIQ-03)؛ root كون «التحول من هيأة هشة إلى هيأة متينة ليًّا وفتلًا» (licensed؛ GUT-02، LIQ-03)؛ root كون «التحول من هيأة هشة إلى هيأة متينة ليًّا وفتلًا» (licensed؛ LAB-06، LIQ-03)؛ root كون «التحول من هيأة هشة إلى هيأة متينة ليًّا وفتلًا» (licensed؛ LIQ-03)؛ root كير «إدارة الشيء على شيء تهيئة لجمعه عليه» (manual-condition؛ GLD-01، GUT-02)؛ root كير «إدارة الشيء على شيء تهيئة لجمعه عليه» (manual-condition؛ GLD-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ GUT-03، LAB-05)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ LAB-05)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ GUT-03)
 - المعنى من قاموس الفرع: ג־ו־ר `g-w-r`، root، «Forming words relating to residing or sojourning.» [Kaikki Hebrew، السطر 14353]؛ ג־ו־ר `g-w-r`، root، «Forming words relating to fear.» [Kaikki Hebrew، السطر 14354]؛ ג־ו־ר `g-w-r`، root، «Forming words relating to the young of animals.» [Kaikki Hebrew، السطر 14355]؛ ג־ו־ר `g-w-r`، root، «Forming words relating to attack.» [Kaikki Hebrew، السطر 14356]؛ גור `gur`، noun، «A cub, pup, kit, calf, puppy, kitten, or similar: a juvenile of any mammal species.» [Kaikki Hebrew، السطر 7325]
@@ -521,14 +689,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14353:en-ג־ו־ר-he-root-jIKUt8A9: الرسم=ג־ו־ר، الرومنة=g-w-r، الصنف=root، المعنى=Forming words relating to residing or sojourning.، السلف/الخلف=Close cognate to Aramaic ג־ו־ר (g‑w‑r, root relating to living abroad or proselytising) and Classical Syriac ܓܵܪ (gār, “to commit adultery”). Other Semitic cognates include Phoenic، القرض=لا وسم آلي؛ kaikki_hebrew:14354:en-ג־ו־ר-he-root-OQsC06hq: الرسم=ג־ו־ר، الرومنة=g-w-r، الصنف=root، المعنى=Forming words relating to fear.، السلف/الخلف=Secondary form of root י־ג־ר (y-g-r), with which it forms a suppletive paradigm.، القرض=لا وسم آلي؛ kaikki_hebrew:14355:en-ג־ו־ר-he-root-wLD1qPu2: الرسم=ג־ו־ר، الرومنة=g-w-r، الصنف=root، المعنى=Forming words relating to the young of animals.، السلف/الخلف=From Proto-Semitic *gVr- (“whelp”). Closely related to Aramaic גּוּר (gur) and Classical Syriac ܓܘܼܪܝܵܐ (gūryāʾ, “cub”). Standard Babylonian 𒄀𒅕𒊒 (girru, “lion”) and Arabic جَرْو (j، القرض=لا وسم آلي؛ kaikki_hebrew:14356:en-ג־ו־ר-he-root-fRMc6Vqg: الرسم=ג־ו־ר، الرومنة=g-w-r، الصنف=root، المعنى=Forming words relating to attack.، السلف/الخلف=From Proto-West Semitic *gawar-, cognate to Arabic جَارَ (jāra, “to wrong”). Compare ג־ר־ה (g-r-h, base related to provoking).، القرض=لا وسم آلي؛ kaikki_hebrew:7325:en-גור-he-noun-qkEtqXZ3: الرسم=גור، الرومنة=gur، الصنف=noun، المعنى=A cub, pup, kit, calf, puppy, kitten, or similar: a juvenile of any mammal species.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ جذر ג־ו־ר في الإقامة والجوار وحده، لا الخوف ولا الهجوم؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:91fa9ff6c7f87841480bfaca -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `جور`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `جار`، `جوار`.
+  - سند الفرع المنشور: Close cognate to Aramaic ג־ו־ר (g‑w‑r, root relating to living abroad or proselytising) and Classical Syriac ܓܵܪ (gār, “to commit adultery”). Other Semitic cognates include Phoenician 𐤂𐤓 (gr), Ugaritic 𐎂𐎗 (gr, “guest, resident alien”), Sabaean 𐩴𐩥𐩧 (gwr, “to sojourn”), Ge'ez ጎር (gor, “newcomer”) and Arabic ج و ر (j w r, root relating to neighbourhood). | Secondary form of root י־ג־ר (y-g-r), with which it forms a suppletive paradigm. | From Proto-Semitic *gVr- (“whelp”). Closely related to Aramaic גּוּר (gur) and Classical Syriac ܓܘܼܪܝܵܐ (gūryāʾ, “cub”). Standard Babylonian 𒄀𒅕𒊒 (girru, “lion”) and Arabic جَرْو (jarw, “cub”) are other Semitic relatives.
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:66110ee4e5c5fef39a9a7ee1`، ז־מ־ר (الرتبة 22)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=זמר في الغناء والإنشاد وحده، لا التقليم ولا الحيوان المتجانس؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ז־מ־ר `z-m-r`، root، «Related to singing.» [Kaikki Hebrew، السطر 13961]؛ זמר `zamár`، noun، «singer» [Kaikki Hebrew، السطر 2400]؛ זמר `zémer`، noun، «song, singing, especially traditional and popular Hebrew songs.» [Kaikki Hebrew، السطر 2401]؛ זמר `zamár`، verb، «to prune, especially a grapevine» [Kaikki Hebrew، السطر 2404]؛ זמר `zémer`، noun، «one of the seven kosher beasts, whose identity is unknown. Probably the mountain sheep. Further details are uncertain.» [Kaikki Hebrew، السطر 2405]
 - أقدمُ صورةٍ مستعادة: The "singing" sense is from Proto-Semitic *zamar-. Compare Arabic ز م ر (z m r).؛ From Proto-Semitic *zamar-.؛ From Proto-Semitic *zamar-.
@@ -536,7 +718,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ LAB-04)؛ root زمر «ضم أو تضام قوي يستمر» (licensed؛ مباشر)؛ root زمل «تقارن شيئين أو أكثر في الاحتمال» (licensed؛ LIQ-01)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ SIB-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `زمر` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LAB-04)؛ nucleus ذب «النفاذ والامتداد باندفاع وحِدّة» (licensed؛ DENT-04، LAB-04)؛ nucleus ذر «النثر والنفاذ بدقة واسترسال» (licensed؛ DENT-04)؛ nucleus ذل «النقص والانخفاض والتيسير» (licensed؛ DENT-04، LIQ-01)
 - مسارُ الصوت: root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ LAB-04)؛ root زمر «ضم أو تضام قوي يستمر» (licensed؛ مباشر)؛ root زمل «تقارن شيئين أو أكثر في الاحتمال» (licensed؛ LIQ-01)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ SIB-03)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-04)؛ nucleus ذب «النفاذ والامتداد باندفاع وحِدّة» (licensed؛ DENT-04، LAB-04)؛ nucleus ذر «النثر والنفاذ بدقة واسترسال» (licensed؛ DENT-04)؛ nucleus ذل «النقص والانخفاض والتيسير» (licensed؛ DENT-04، LIQ-01)
 - المعنى من قاموس الفرع: ז־מ־ר `z-m-r`، root، «Related to singing.» [Kaikki Hebrew، السطر 13961]؛ זמר `zamár`، noun، «singer» [Kaikki Hebrew، السطر 2400]؛ זמר `zémer`، noun، «song, singing, especially traditional and popular Hebrew songs.» [Kaikki Hebrew، السطر 2401]؛ זמר `zamár`، verb، «to prune, especially a grapevine» [Kaikki Hebrew، السطر 2404]؛ זמר `zémer`، noun، «one of the seven kosher beasts, whose identity is unknown. Probably the mountain sheep. Further details are uncertain.» [Kaikki Hebrew، السطر 2405]
@@ -545,14 +727,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13961:en-ז־מ־ר-he-root-RMGEeoGH: الرسم=ז־מ־ר، الرومنة=z-m-r، الصنف=root، المعنى=Related to singing.، السلف/الخلف=The "singing" sense is from Proto-Semitic *zamar-. Compare Arabic ز م ر (z m r).، القرض=لا وسم آلي؛ kaikki_hebrew:2400:en-זמר-he-noun-ktdLuL3b: الرسم=זמר، الرومنة=zamár، الصنف=noun، المعنى=singer، السلف/الخلف=From Proto-Semitic *zamar-.، القرض=لا وسم آلي؛ kaikki_hebrew:2401:en-זמר-he-noun-jfutBT1d: الرسم=זמר، الرومنة=zémer، الصنف=noun، المعنى=song, singing, especially traditional and popular Hebrew songs.، السلف/الخلف=From Proto-Semitic *zamar-.، القرض=لا وسم آلي؛ kaikki_hebrew:2404:en-זמר-he-verb-MBSql8Rs: الرسم=זמר، الرومنة=zamár، الصنف=verb، المعنى=to prune, especially a grapevine، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2405:en-זמר-he-noun-7zDoERV2: الرسم=זמר، الرومنة=zémer، الصنف=noun، المعنى=one of the seven kosher beasts, whose identity is unknown. Probably the mountain sheep. Further details are uncertain.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-ECHO؛ זמר في الغناء والإنشاد وحده، لا التقليم ولا الحيوان المتجانس؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:66110ee4e5c5fef39a9a7ee1 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `زمر`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `زمر`، `مزمار`.
+  - سند الفرع المنشور: The "singing" sense is from Proto-Semitic *zamar-. Compare Arabic ز م ر (z m r). | From Proto-Semitic *zamar-. | From Proto-Semitic *zamar-.
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:f955786ac1ad302029cb9f11`، האותיות הקטנות (الرتبة 23)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: קטנטן `ktantán`، adj، «tiny, very small» [Kaikki Hebrew، السطر 10527]؛ האותיות הקטנות `ha'otiyót hak'tanót`، noun، «Fine print, the fine print: the detailed conditions or restrictions of a contract, advertisement, or similar.» [Kaikki Hebrew، السطر 13746]؛ קטן `katán`، adj، «Little, small, diminutive.» [Kaikki Hebrew، السطر 567]؛ קטנצ׳יק `katánchik`، noun، «small child, little boy.» [Kaikki Hebrew، السطر 7780]؛ קטון `katón`، adj، «alternative form of קָטָן» [Kaikki Hebrew، السطر 7843]
 - أقدمُ صورةٍ مستعادة: From הָאוֹתִיּוֹת (ha'otiyót) + הַקְּטַנּוֹת (hak'tanót); hence literally “the small letters”.؛ Compare Ge'ez ቀጢን (ḳäṭin).؛ From קָטָן (katán, “little, small”) + ־צִ׳יק (-chik, “diminutive suffix”).
@@ -560,7 +756,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root قتر «نفاذ الشيء بقلة أو ضعف لضيق مَنْفَذه» (licensed؛ LIQ-03)؛ root قطر «نزول المائع أو انفصاله مبتعدًا عن مصدره نقطةً بعد نقطة بتوالٍ» (licensed؛ LIQ-03)؛ root قطم «تناول الشيء بحرص شديد عليه وتلهف» (licensed؛ LIQ-02)؛ root قطن «لزوم المكان والموضع وما إلى ذلك من التلازم» (licensed؛ DENT-05)؛ root قطن «لزوم المكان والموضع وما إلى ذلك من التلازم» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)
 - مسارُ الصوت: root قتر «نفاذ الشيء بقلة أو ضعف لضيق مَنْفَذه» (licensed؛ LIQ-03)؛ root قطر «نزول المائع أو انفصاله مبتعدًا عن مصدره نقطةً بعد نقطة بتوالٍ» (licensed؛ LIQ-03)؛ root قطم «تناول الشيء بحرص شديد عليه وتلهف» (licensed؛ LIQ-02)؛ root قطن «لزوم المكان والموضع وما إلى ذلك من التلازم» (licensed؛ DENT-05)؛ root قطن «لزوم المكان والموضع وما إلى ذلك من التلازم» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)
 - المعنى من قاموس الفرع: קטנטן `ktantán`، adj، «tiny, very small» [Kaikki Hebrew، السطر 10527]؛ האותיות הקטנות `ha'otiyót hak'tanót`، noun، «Fine print, the fine print: the detailed conditions or restrictions of a contract, advertisement, or similar.» [Kaikki Hebrew، السطر 13746]؛ קטן `katán`، adj، «Little, small, diminutive.» [Kaikki Hebrew، السطر 567]؛ קטנצ׳יק `katánchik`، noun، «small child, little boy.» [Kaikki Hebrew، السطر 7780]؛ קטון `katón`، adj، «alternative form of קָטָן» [Kaikki Hebrew، السطر 7843]
@@ -569,14 +765,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10527:en-קטנטן-he-adj-vxsdiXyG: الرسم=קטנטן، الرومنة=ktantán، الصنف=adj، المعنى=tiny, very small، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:13746:en-האותיות_הקטנות-he-noun-OI5UipWr: الرسم=האותיות הקטנות، الرومنة=ha'otiyót hak'tanót، الصنف=noun، المعنى=Fine print, the fine print: the detailed conditions or restrictions of a contract, advertisement, or similar.، السلف/الخلف=From הָאוֹתִיּוֹת (ha'otiyót) + הַקְּטַנּוֹת (hak'tanót); hence literally “the small letters”.، القرض=لا وسم آلي؛ kaikki_hebrew:567:en-קטן-he-adj-fCMwBLXU: الرسم=קטן، الرومنة=katán، الصنف=adj، المعنى=Little, small, diminutive.، السلف/الخلف=Compare Ge'ez ቀጢን (ḳäṭin).، القرض=لا وسم آلي؛ kaikki_hebrew:7780:en-קטנצ׳יק-he-noun-mMH4xhkJ: الرسم=קטנצ׳יק، الرومنة=katánchik، الصنف=noun، المعنى=small child, little boy.، السلف/الخلف=From קָטָן (katán, “little, small”) + ־צִ׳יק (-chik, “diminutive suffix”).، القرض=لا وسم آلي؛ kaikki_hebrew:7843:en-קטון-he-adj-1XwWFKSF: الرسم=קטון، الرومنة=katón، الصنف=adj، المعنى=alternative form of קָטָן، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:f955786ac1ad302029cb9f11 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:418c554acefd01ac179cd416`، ג־ב־ל (الرتبة 24)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=جذر ג־ב־ל في العجن والتشكيل وحده، لا العلم ولا حد البلد؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ג־ב־ל `g-b-l`، root، «Related to limits, boundaries, borders.» [Kaikki Hebrew، السطر 14039]؛ ג־ב־ל `g-b-l`، root، «Related to twisting, winding.» [Kaikki Hebrew، السطر 14040]؛ ג־ב־ל `g-b-l`، root، «Related to kneading, molding, mixing.» [Kaikki Hebrew، السطر 14041]؛ גבל `gavál`، verb، «to border» [Kaikki Hebrew، السطر 9764]؛ גבל `g'vál`، name، «Byblos (a port city in Keserwan-Jbeil Governorate, Lebanon)» [Kaikki Hebrew، السطر 9765]
 - أقدمُ صورةٍ مستعادة: Denominated from גְּבוּל. Compare Arabic جَبَل (jabal, “mountain”) in the sense of serving as a boundary between two flatlands.؛ Compare Arabic جَبَلَ (jabala, “to mold, knead, create”), from the root ج ب ل (j b l).
@@ -584,7 +790,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ GUT-03، LIQ-01)؛ root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ LIQ-01)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ مباشر)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ GUT-03، LAB-04)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ LAB-04)؛ root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LIQ-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ GUT-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ مباشر)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ LAB-02)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ LAB-04)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-05)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ GUT-02، LIQ-01)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ LIQ-01)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ GUT-02، LAB-02)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ LAB-02)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ GUT-02، LAB-04)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ LAB-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `جبل` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ مباشر)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ GUT-03)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ مباشر)
 - مسارُ الصوت: root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ GUT-03، LIQ-01)؛ root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ LIQ-01)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ مباشر)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ GUT-03، LAB-04)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ LAB-04)؛ root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LIQ-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ GUT-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ مباشر)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ LAB-02)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ LAB-04)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-05)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ GUT-02، LIQ-01)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ LIQ-01)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ GUT-02، LAB-02)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ LAB-02)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ GUT-02، LAB-04)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ LAB-04)؛ nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ مباشر)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ GUT-03)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: ג־ב־ל `g-b-l`، root، «Related to limits, boundaries, borders.» [Kaikki Hebrew، السطر 14039]؛ ג־ב־ל `g-b-l`، root، «Related to twisting, winding.» [Kaikki Hebrew، السطر 14040]؛ ג־ב־ל `g-b-l`، root، «Related to kneading, molding, mixing.» [Kaikki Hebrew، السطر 14041]؛ גבל `gavál`، verb، «to border» [Kaikki Hebrew، السطر 9764]؛ גבל `g'vál`، name، «Byblos (a port city in Keserwan-Jbeil Governorate, Lebanon)» [Kaikki Hebrew، السطر 9765]
@@ -593,14 +799,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14039:en-ג־ב־ל-he-root-g0yTGdeE: الرسم=ג־ב־ל، الرومنة=g-b-l، الصنف=root، المعنى=Related to limits, boundaries, borders.، السلف/الخلف=Denominated from גְּבוּל. Compare Arabic جَبَل (jabal, “mountain”) in the sense of serving as a boundary between two flatlands.، القرض=لا وسم آلي؛ kaikki_hebrew:14040:en-ג־ב־ל-he-root-05LsN2hF: الرسم=ג־ב־ל، الرومنة=g-b-l، الصنف=root، المعنى=Related to twisting, winding.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14041:en-ג־ב־ל-he-root-Rmb4oJb9: الرسم=ג־ב־ל، الرومنة=g-b-l، الصنف=root، المعنى=Related to kneading, molding, mixing.، السلف/الخلف=Compare Arabic جَبَلَ (jabala, “to mold, knead, create”), from the root ج ب ل (j b l).، القرض=لا وسم آلي؛ kaikki_hebrew:9764:en-גבל-he-verb-Imnd-SGR: الرسم=גבל، الرومنة=gavál، الصنف=verb، المعنى=to border، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9765:en-גבל-he-name-rsSThYZ3: الرسم=גבל، الرومنة=g'vál، الصنف=name، المعنى=Byblos (a port city in Keserwan-Jbeil Governorate, Lebanon)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ جذر ג־ב־ל في العجن والتشكيل وحده، لا العلم ولا حد البلد؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:418c554acefd01ac179cd416 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `جبل`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `جبل`، `خلق`، `طبع`.
+  - سند الفرع المنشور: Denominated from גְּבוּל. Compare Arabic جَبَل (jabal, “mountain”) in the sense of serving as a boundary between two flatlands. | Compare Arabic جَبَلَ (jabala, “to mold, knead, create”), from the root ج ب ل (j b l).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:b1613639a1701ad0432d22e1`، בכלל (الرتبة 25)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כללי `klalí`، adj، «general» [Kaikki Hebrew، السطر 14691]؛ יוצא מן הכלל `yotsé mín hak'lál`، adj، «extraordinary, unusual» [Kaikki Hebrew، السطر 15682]؛ כלל הסנדוויץ׳ `k'lál-haséndvich`، name، «squeeze theorem, sandwich theorem» [Kaikki Hebrew، السطر 5638]؛ כלל `k'lál`، noun، «A rule, a norm: a normative specification of desirable behavior.» [Kaikki Hebrew، السطر 592]؛ בכלל `bikhlál`، adv، «in general, (in negative contexts) at all» [Kaikki Hebrew، السطر 8085]
 - أقدمُ صورةٍ مستعادة: From כְּלַל (k'lál-, “rule of”) + הסנדוויץ׳ (haséndvich, “the sandwich”); hence literally “the sandwich rule”.؛ ב־ (b'-) + כלל (k'lál)
@@ -608,7 +828,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جلل «تغطية عظيمة أي شاملة يقصد بها الصون والحفظ» (licensed؛ GUT-03)؛ root صلل «امتساك في الأثناء بامتداد مع دقة جرم أو رقة وحدة أثر» (licensed؛ SIB-06)؛ root قلل «دقة جسم أو تضامه ولطفه ويلزمه الخفة والارتفاع» (licensed؛ GUT-01)؛ root قلل «دقة جسم أو تضامه ولطفه ويلزمه الخفة والارتفاع» (licensed؛ مباشر)؛ root كلل «تجمع الشيء على ذاته؛ فيغلظ ويثخن بلا حدة» (licensed؛ GUT-01)؛ root كلل «تجمع الشيء على ذاته؛ فيغلظ ويثخن بلا حدة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03، GUT-04)
 - مسارُ الصوت: root جلل «تغطية عظيمة أي شاملة يقصد بها الصون والحفظ» (licensed؛ GUT-03)؛ root صلل «امتساك في الأثناء بامتداد مع دقة جرم أو رقة وحدة أثر» (licensed؛ SIB-06)؛ root قلل «دقة جسم أو تضامه ولطفه ويلزمه الخفة والارتفاع» (licensed؛ GUT-01)؛ root قلل «دقة جسم أو تضامه ولطفه ويلزمه الخفة والارتفاع» (licensed؛ مباشر)؛ root كلل «تجمع الشيء على ذاته؛ فيغلظ ويثخن بلا حدة» (licensed؛ GUT-01)؛ root كلل «تجمع الشيء على ذاته؛ فيغلظ ويثخن بلا حدة» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03، GUT-04)
 - المعنى من قاموس الفرع: כללי `klalí`، adj، «general» [Kaikki Hebrew، السطر 14691]؛ יוצא מן הכלל `yotsé mín hak'lál`، adj، «extraordinary, unusual» [Kaikki Hebrew، السطر 15682]؛ כלל הסנדוויץ׳ `k'lál-haséndvich`، name، «squeeze theorem, sandwich theorem» [Kaikki Hebrew، السطر 5638]؛ כלל `k'lál`، noun، «A rule, a norm: a normative specification of desirable behavior.» [Kaikki Hebrew، السطر 592]؛ בכלל `bikhlál`، adv، «in general, (in negative contexts) at all» [Kaikki Hebrew، السطر 8085]
@@ -617,14 +837,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14691:en-כללי-he-adj-D-rhbVU2: الرسم=כללי، الرومنة=klalí، الصنف=adj، المعنى=general، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:15682:en-יוצא_מן_הכלל-he-adj-fip8UM7R: الرسم=יוצא מן הכלל، الرومنة=yotsé mín hak'lál، الصنف=adj، المعنى=extraordinary, unusual، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5638:en-כלל_הסנדוויץ׳-he-name-lFfPcIYO: الرسم=כלל הסנדוויץ׳، الرومنة=k'lál-haséndvich، الصنف=name، المعنى=squeeze theorem, sandwich theorem، السلف/الخلف=From כְּלַל (k'lál-, “rule of”) + הסנדוויץ׳ (haséndvich, “the sandwich”); hence literally “the sandwich rule”.، القرض=لا وسم آلي؛ kaikki_hebrew:592:en-כלל-he-noun-8yAsFSym: الرسم=כלל، الرومنة=k'lál، الصنف=noun، المعنى=A rule, a norm: a normative specification of desirable behavior.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8085:en-בכלל-he-adv-IJ7s-rCt: الرسم=בכלל، الرومنة=bikhlál، الصنف=adv، المعنى=in general, (in negative contexts) at all، السلف/الخلف=ב־ (b'-) + כלל (k'lál)، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:b1613639a1701ad0432d22e1 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:1890154a41e216ca667d5d0b`، סהרה (الرتبة 26)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: סהרה `sahára`، name، «Sahara (a desert in Africa)» [Kaikki Hebrew، السطر 16715]؛ שרה `sará`، name، «a female given name, equivalent to English Sarah» [Kaikki Hebrew، السطر 6627]؛ שרה `sará`، noun، «lady, princess, queen» [Kaikki Hebrew، السطر 6628]؛ שרה `sará`، verb، «to be or become great, prince-like» [Kaikki Hebrew، السطر 6629]؛ שרה `shará`، verb، «(intransitive) to soak, permeate» [Kaikki Hebrew، السطر 6630]
 - أقدمُ صورةٍ مستعادة: Internationalism. Ultimately from Arabic صَحَارَى (ṣaḥārā, “deserts”). Direct borrowing from Arabic would render ح (ḥ) as ח (kh, ḥ).؛ From Proto-Semitic *śarār (“to rule”). Cognate with Akkadian 𒊩𒈗 (šarratum, “queen”).؛ From Proto-Semitic *śarār (“to rule”). Cognate with Akkadian 𒊩𒈗 (šarratum, “queen”).؛ Compare Arabic شَرَى (šarā, “to persevere”).
@@ -632,7 +862,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root سرح «انطلاق أو انفراج أو انبساط في يسر وسهولة» (licensed؛ GUT-04، SIB-01)؛ root سرح «انطلاق أو انفراج أو انبساط في يسر وسهولة» (licensed؛ SIB-01)؛ root سرع «اختراق أو امتداد بقوة ودقة أو حدة» (licensed؛ GUT-04، SIB-01)؛ root شرح «شق ما هو كتلة متجمعة ثخينة، أو تشقيقه، حتى تصير كلُّ قطعة منه رقيقةً تكاد تشف» (licensed؛ GUT-04)؛ root شرح «شق ما هو كتلة متجمعة ثخينة، أو تشقيقه، حتى تصير كلُّ قطعة منه رقيقةً تكاد تشف» (licensed؛ مباشر)؛ root شرع «شق منفذ إلى الماء (أو المائع الطَّيِّبِ المُرْوِي)، للتناول بتمكن، واتساع، ودوام» (licensed؛ GUT-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تء «الوصول والصدم» (licensed؛ GUT-04، SIB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ GUT-04، SIB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ SIB-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ SIB-05)
 - مسارُ الصوت: root سرح «انطلاق أو انفراج أو انبساط في يسر وسهولة» (licensed؛ GUT-04، SIB-01)؛ root سرح «انطلاق أو انفراج أو انبساط في يسر وسهولة» (licensed؛ SIB-01)؛ root سرع «اختراق أو امتداد بقوة ودقة أو حدة» (licensed؛ GUT-04، SIB-01)؛ root شرح «شق ما هو كتلة متجمعة ثخينة، أو تشقيقه، حتى تصير كلُّ قطعة منه رقيقةً تكاد تشف» (licensed؛ GUT-04)؛ root شرح «شق ما هو كتلة متجمعة ثخينة، أو تشقيقه، حتى تصير كلُّ قطعة منه رقيقةً تكاد تشف» (licensed؛ مباشر)؛ root شرع «شق منفذ إلى الماء (أو المائع الطَّيِّبِ المُرْوِي)، للتناول بتمكن، واتساع، ودوام» (licensed؛ GUT-04)؛ nucleus تء «الوصول والصدم» (licensed؛ GUT-04، SIB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ GUT-04، SIB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ SIB-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ SIB-05)
 - المعنى من قاموس الفرع: סהרה `sahára`، name، «Sahara (a desert in Africa)» [Kaikki Hebrew، السطر 16715]؛ שרה `sará`، name، «a female given name, equivalent to English Sarah» [Kaikki Hebrew، السطر 6627]؛ שרה `sará`، noun، «lady, princess, queen» [Kaikki Hebrew، السطر 6628]؛ שרה `sará`، verb، «to be or become great, prince-like» [Kaikki Hebrew، السطر 6629]؛ שרה `shará`، verb، «(intransitive) to soak, permeate» [Kaikki Hebrew، السطر 6630]
@@ -641,14 +871,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16715:en-סהרה-he-name-he:Sahara: الرسم=סהרה، الرومنة=sahára، الصنف=name، المعنى=Sahara (a desert in Africa)، السلف/الخلف=Internationalism. Ultimately from Arabic صَحَارَى (ṣaḥārā, “deserts”). Direct borrowing from Arabic would render ح (ḥ) as ח (kh, ḥ).، القرض=لا وسم آلي؛ kaikki_hebrew:6627:en-שרה-he-name-Oj6bOw2W: الرسم=שרה، الرومنة=sará، الصنف=name، المعنى=a female given name, equivalent to English Sarah، السلف/الخلف=From Proto-Semitic *śarār (“to rule”). Cognate with Akkadian 𒊩𒈗 (šarratum, “queen”).، القرض=لا وسم آلي؛ kaikki_hebrew:6628:en-שרה-he-noun-o-2lo54X: الرسم=שרה، الرومنة=sará، الصنف=noun، المعنى=lady, princess, queen، السلف/الخلف=From Proto-Semitic *śarār (“to rule”). Cognate with Akkadian 𒊩𒈗 (šarratum, “queen”).، القرض=لا وسم آلي؛ kaikki_hebrew:6629:en-שרה-he-verb-4Pp4Z-po: الرسم=שרה، الرومنة=sará، الصنف=verb، المعنى=to be or become great, prince-like، السلف/الخلف=Compare Arabic شَرَى (šarā, “to persevere”).، القرض=لا وسم آلي؛ kaikki_hebrew:6630:en-שרה-he-verb-qi55G9pf: الرسم=שרה، الرومنة=shará، الصنف=verb، المعنى=(intransitive) to soak, permeate، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:1890154a41e216ca667d5d0b -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:1ab498a3479a03da18161776`، ע־ר־ב (الرتبة 27)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ע־ר־ב `ʿ-r-b`، root، «Forming words pertaining to pleasantness, west, meddling, guarantees.» [Kaikki Hebrew، السطر 13229]؛ ערב `aráv`، verb، «to guarantee, promise vow» [Kaikki Hebrew، السطر 507]؛ ערב `arév`، noun، «cosigner (guarantor on a debt)» [Kaikki Hebrew، السطر 509]؛ ערב `arév`، adj، «pretty, pleasant» [Kaikki Hebrew، السطر 510]؛ ערב `érev`، noun، «mixture» [Kaikki Hebrew، السطر 511]
 - أقدمُ صورةٍ مستعادة: Compare Arabic ع ر ب (ʕ r b), Arabic غ ر ب (ḡ r b).
@@ -656,7 +896,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عرب «نشاط وانطلاق بحدة ذاتية للخلوص مما يحبس» (licensed؛ مباشر)؛ root عرف «تتابع - أو امتداد - في أعلى الشيء لما يميزه، أو يدل عليه» (licensed؛ LAB-02)؛ root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LAB-04)؛ root عرو «إمساك - أو امتساك - للظاهر بتمكن» (licensed؛ LAB-05)؛ root عنب «صفاء الممتلئ المستدير مع امتداد ما» (licensed؛ LIQ-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus رب «الاستغلاظ وما إليه من تماسك وتجمع» (licensed؛ مباشر)؛ nucleus رف «الامتداد أو الطرفية مع رقة أو رخاوة» (licensed؛ LAB-02)؛ nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LAB-04)؛ nucleus رو «نفاذ شيء لطيف أو خفي من حيز إلى آخر» (licensed؛ LAB-05)
 - مسارُ الصوت: root عرب «نشاط وانطلاق بحدة ذاتية للخلوص مما يحبس» (licensed؛ مباشر)؛ root عرف «تتابع - أو امتداد - في أعلى الشيء لما يميزه، أو يدل عليه» (licensed؛ LAB-02)؛ root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LAB-04)؛ root عرو «إمساك - أو امتساك - للظاهر بتمكن» (licensed؛ LAB-05)؛ root عنب «صفاء الممتلئ المستدير مع امتداد ما» (licensed؛ LIQ-03)؛ nucleus رب «الاستغلاظ وما إليه من تماسك وتجمع» (licensed؛ مباشر)؛ nucleus رف «الامتداد أو الطرفية مع رقة أو رخاوة» (licensed؛ LAB-02)؛ nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LAB-04)؛ nucleus رو «نفاذ شيء لطيف أو خفي من حيز إلى آخر» (licensed؛ LAB-05)
 - المعنى من قاموس الفرع: ע־ר־ב `ʿ-r-b`، root، «Forming words pertaining to pleasantness, west, meddling, guarantees.» [Kaikki Hebrew، السطر 13229]؛ ערב `aráv`، verb، «to guarantee, promise vow» [Kaikki Hebrew، السطر 507]؛ ערב `arév`، noun، «cosigner (guarantor on a debt)» [Kaikki Hebrew، السطر 509]؛ ערב `arév`، adj، «pretty, pleasant» [Kaikki Hebrew، السطر 510]؛ ערב `érev`، noun، «mixture» [Kaikki Hebrew، السطر 511]
@@ -665,14 +905,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13229:en-ע־ר־ב-he-root-5umMXLok: الرسم=ע־ר־ב، الرومنة=ʿ-r-b، الصنف=root، المعنى=Forming words pertaining to pleasantness, west, meddling, guarantees.، السلف/الخلف=Compare Arabic ع ر ب (ʕ r b), Arabic غ ر ب (ḡ r b).، القرض=لا وسم آلي؛ kaikki_hebrew:507:en-ערב-he-verb-P8hIhIJW: الرسم=ערב، الرومنة=aráv، الصنف=verb، المعنى=to guarantee, promise vow، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:509:en-ערב-he-noun-5zbq5FzP: الرسم=ערב، الرومنة=arév، الصنف=noun، المعنى=cosigner (guarantor on a debt)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:510:en-ערב-he-adj-TF5NX6KV: الرسم=ערב، الرومنة=arév، الصنف=adj، المعنى=pretty, pleasant، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:511:en-ערב-he-noun-WMku5lO1: الرسم=ערב، الرومنة=érev، الصنف=noun، المعنى=mixture، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:1ab498a3479a03da18161776 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:f85a9a8b59f00742c0b3d327`، גמל (الرتبة 28)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: גמל `gamál`، noun، «camel» [Kaikki Hebrew، السطر 2125]؛ גמל `gamál`، noun، «camel driver» [Kaikki Hebrew، السطر 2126]؛ גמל `gamál`، verb، «to wean (from mother's milk)» [Kaikki Hebrew، السطر 2127]؛ גמל `gémel`، noun، «an accumulated fund for a pension or retirement, or in case of a lay-off» [Kaikki Hebrew، السطر 2128]؛ גמל `gamál`، verb، «to recompense, repay someone» [Kaikki Hebrew، السطر 2129]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *gamal-. Compare Arabic جَمَل (jamal, “camel”), جَمَّال (jammāl, “camel driver”).؛ From Proto-Semitic *gamal-. Compare Arabic جَمَل (jamal, “camel”), جَمَّال (jammāl, “camel driver”).
@@ -680,7 +930,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03، LAB-04)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ LAB-04)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ GUT-03)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ مباشر)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-04)؛ root قمر «تزايد أو استرسال في الضم والتجمع» (licensed؛ LIQ-01)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ GUT-01)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ مباشر)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ GUT-01)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ GUT-02)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-04)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ GUT-03، LAB-04)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ LAB-04)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ GUT-03، LIQ-01)
 - مسارُ الصوت: root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03، LAB-04)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ LAB-04)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ GUT-03)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ مباشر)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-04)؛ root قمر «تزايد أو استرسال في الضم والتجمع» (licensed؛ LIQ-01)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ GUT-01)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ مباشر)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ GUT-01)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ GUT-02)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-04)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ GUT-03، LAB-04)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ LAB-04)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ GUT-03، LIQ-01)
 - المعنى من قاموس الفرع: גמל `gamál`، noun، «camel» [Kaikki Hebrew، السطر 2125]؛ גמל `gamál`، noun، «camel driver» [Kaikki Hebrew، السطر 2126]؛ גמל `gamál`، verb، «to wean (from mother's milk)» [Kaikki Hebrew، السطر 2127]؛ גמל `gémel`، noun، «an accumulated fund for a pension or retirement, or in case of a lay-off» [Kaikki Hebrew، السطر 2128]؛ גמל `gamál`، verb، «to recompense, repay someone» [Kaikki Hebrew، السطر 2129]
@@ -689,14 +939,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2125:en-גמל-he-noun-SBJYXpRJ: الرسم=גמל، الرومنة=gamál، الصنف=noun، المعنى=camel، السلف/الخلف=From Proto-Semitic *gamal-. Compare Arabic جَمَل (jamal, “camel”), جَمَّال (jammāl, “camel driver”).، القرض=لا وسم آلي؛ kaikki_hebrew:2126:en-גמל-he-noun-J6JBChZJ: الرسم=גמל، الرومنة=gamál، الصنف=noun، المعنى=camel driver، السلف/الخلف=From Proto-Semitic *gamal-. Compare Arabic جَمَل (jamal, “camel”), جَمَّال (jammāl, “camel driver”).، القرض=لا وسم آلي؛ kaikki_hebrew:2127:en-גמל-he-verb-jkFia49k: الرسم=גמל، الرومنة=gamál، الصنف=verb، المعنى=to wean (from mother's milk)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2128:en-גמל-he-noun-XZEc7Y0O: الرسم=גמל، الرومنة=gémel، الصنف=noun، المعنى=an accumulated fund for a pension or retirement, or in case of a lay-off، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2129:en-גמל-he-verb-ma1BCHhy: الرسم=גמל، الرومنة=gamál، الصنف=verb، المعنى=to recompense, repay someone، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:f85a9a8b59f00742c0b3d327 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: גמל، الرتبة 28.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:ec953fdb075b335dae5b48a6`، בעיקר (الرتبة 29)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עיקר `ikár`، noun، «essence, main part, gist, crux» [Kaikki Hebrew، السطر 10460]؛ בעיקר `b'ikár`، adv، «Principally, mainly, primarily, especially, particularly.» [Kaikki Hebrew، السطر 6046]؛ כל עיקר `kól ikár`، adv، «at all» [Kaikki Hebrew، السطر 6982]؛ עיקרי `ikarí`، adj، «Main: principal, primary.» [Kaikki Hebrew، السطر 7018]؛ עקר `ikár`، noun، «defective spelling of עיקר» [Kaikki Hebrew، السطر 7379]
 - أقدمُ صورةٍ مستعادة: From ב־ (b'-, “in, with”) + עיקר (ikár, “main thing”).
@@ -704,7 +964,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عقر «جمود الشيء أو ثباته على حاله فلا ينمو ولا ينتقل» (licensed؛ مباشر)؛ root عقل «حوز في جوف حصين حبساً، بحيث لا يذهب أو يضيع» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ مباشر)؛ nucleus بك «الضغط والاحتباس» (licensed؛ GUT-01)
 - مسارُ الصوت: root عقر «جمود الشيء أو ثباته على حاله فلا ينمو ولا ينتقل» (licensed؛ مباشر)؛ root عقل «حوز في جوف حصين حبساً، بحيث لا يذهب أو يضيع» (licensed؛ LIQ-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ مباشر)؛ nucleus بك «الضغط والاحتباس» (licensed؛ GUT-01)
 - المعنى من قاموس الفرع: עיקר `ikár`، noun، «essence, main part, gist, crux» [Kaikki Hebrew، السطر 10460]؛ בעיקר `b'ikár`، adv، «Principally, mainly, primarily, especially, particularly.» [Kaikki Hebrew، السطر 6046]؛ כל עיקר `kól ikár`، adv، «at all» [Kaikki Hebrew، السطر 6982]؛ עיקרי `ikarí`، adj، «Main: principal, primary.» [Kaikki Hebrew، السطر 7018]؛ עקר `ikár`، noun، «defective spelling of עיקר» [Kaikki Hebrew، السطر 7379]
@@ -713,14 +973,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10460:en-עיקר-he-noun-cbcd1fQF: الرسم=עיקר، الرومنة=ikár، الصنف=noun، المعنى=essence, main part, gist, crux، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6046:en-בעיקר-he-adv-ztKx22r4: الرسم=בעיקר، الرومنة=b'ikár، الصنف=adv، المعنى=Principally, mainly, primarily, especially, particularly.، السلف/الخلف=From ב־ (b'-, “in, with”) + עיקר (ikár, “main thing”).، القرض=لا وسم آلي؛ kaikki_hebrew:6982:en-כל_עיקר-he-adv-iUiKVhcO: الرسم=כל עיקר، الرومنة=kól ikár، الصنف=adv، المعنى=at all، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7018:en-עיקרי-he-adj-AlVwKx0-: الرسم=עיקרי، الرومنة=ikarí، الصنف=adj، المعنى=Main: principal, primary.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7379:en-עקר-he-noun-V-zRGoxw: الرسم=עקר، الرومنة=ikár، الصنف=noun، المعنى=defective spelling of עיקר، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:ec953fdb075b335dae5b48a6 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:4a4f9a48481390cf3362cbaa`، פ־ט־ר (الرتبة 30)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=פטר «البكر الذي يفتح الرحم» وحده، لا اسم Peter ولا فعل الحل؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פטר `patár`، verb، «to exempt» [Kaikki Hebrew، السطر 10693]؛ פטר `péter`، noun، «firstborn (of)» [Kaikki Hebrew، السطر 10696]؛ פטר `péter`، name، «a male given name, equivalent to English Peter» [Kaikki Hebrew، السطر 10697]؛ פתר `patár`، verb، «to solve» [Kaikki Hebrew، السطر 12798]؛ פ־ט־ר `p-ṭ-r`، root، «Forming words relating to solution, to resolution, or to ending.» [Kaikki Hebrew، السطر 4766]
 - أقدمُ صورةٍ مستعادة: Compare Classical Syriac ܦ ܛ ܪ, whence ܦܛܝܪܐ (paṭṭīrā).
@@ -728,7 +998,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ DENT-05، LAB-01)؛ root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ DENT-05)؛ root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ LAB-01)؛ root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ LAB-02)؛ root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ مباشر)؛ root بتل «تميُّز الشيء - أو انفصاله - عن أصله جامعًا لما يجعله وافرًا قائمًا بذاته» (licensed؛ LAB-01، LIQ-01)؛ root بتل «تميُّز الشيء - أو انفصاله - عن أصله جامعًا لما يجعله وافرًا قائمًا بذاته» (licensed؛ LIQ-01)؛ root بشر «انتشار واسع على ظاهر الشيء» (licensed؛ LAB-01، SIB-05)؛ root بشر «انتشار واسع على ظاهر الشيء» (licensed؛ SIB-05)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ DENT-05، LAB-01)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ DENT-05)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ LAB-01)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ LAB-02)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ مباشر)؛ root بطل «اختزان قوة عظيمة» (licensed؛ LAB-01، LIQ-01)؛ root بطل «اختزان قوة عظيمة» (licensed؛ LIQ-01)؛ root بطن «التعبير عن الجوف الداخلي للشيء حيث يُخفى فيه ما يدخل إليه» (licensed؛ LAB-01، LIQ-03)؛ root بطن «التعبير عن الجوف الداخلي للشيء حيث يُخفى فيه ما يدخل إليه» (licensed؛ LIQ-03)؛ root فتر «ارتخاء الشيء لذهاب شدّته؛ فينبسط» (licensed؛ DENT-05)؛ root فتر «ارتخاء الشيء لذهاب شدّته؛ فينبسط» (licensed؛ LAB-02)؛ root فتر «ارتخاء الشيء لذهاب شدّته؛ فينبسط» (licensed؛ مباشر)؛ root فتل «التواء الشيء على ذاته، أو على ما فيه؛ ممتدًا متميزًا عن غيره» (licensed؛ LIQ-01)؛ root فتن «إذابة مادة باطن الشيء، وتحويلها، بإدخالها نارًا حامية» (licensed؛ LIQ-03)؛ root فطر «خروج الشيء - أو نفاذه - أوّل أمره شاقًا ما فوقه بضغط» (licensed؛ DENT-05)؛ root فطر «خروج الشيء - أو نفاذه - أوّل أمره شاقًا ما فوقه بضغط» (licensed؛ LAB-02)؛ root فطر «خروج الشيء - أو نفاذه - أوّل أمره شاقًا ما فوقه بضغط» (licensed؛ مباشر)؛ root مطر «انسكاب، أو انحدار بقوة - أو سرعة - مع استرسال» (licensed؛ LAB-04)؛ root وتر «تجرد الشيء مما يحيط به، أو انكشاف هذا؛ عنه فيبقى دقيقًا ممتدًا بين جاذبين» (licensed؛ LAB-05)؛ root وطر «حاجة أو رغبة محدودة في شيء ما» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `فطر` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بت «القطع والانفصال» (licensed؛ DENT-05، LAB-01)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-01)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-02)
 - مسارُ الصوت: root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ DENT-05، LAB-01)؛ root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ DENT-05)؛ root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ LAB-01)؛ root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ LAB-02)؛ root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ مباشر)؛ root بتل «تميُّز الشيء - أو انفصاله - عن أصله جامعًا لما يجعله وافرًا قائمًا بذاته» (licensed؛ LAB-01، LIQ-01)؛ root بتل «تميُّز الشيء - أو انفصاله - عن أصله جامعًا لما يجعله وافرًا قائمًا بذاته» (licensed؛ LIQ-01)؛ root بشر «انتشار واسع على ظاهر الشيء» (licensed؛ LAB-01، SIB-05)؛ root بشر «انتشار واسع على ظاهر الشيء» (licensed؛ SIB-05)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ DENT-05، LAB-01)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ DENT-05)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ LAB-01)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ LAB-02)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ مباشر)؛ root بطل «اختزان قوة عظيمة» (licensed؛ LAB-01، LIQ-01)؛ root بطل «اختزان قوة عظيمة» (licensed؛ LIQ-01)؛ root بطن «التعبير عن الجوف الداخلي للشيء حيث يُخفى فيه ما يدخل إليه» (licensed؛ LAB-01، LIQ-03)؛ root بطن «التعبير عن الجوف الداخلي للشيء حيث يُخفى فيه ما يدخل إليه» (licensed؛ LIQ-03)؛ root فتر «ارتخاء الشيء لذهاب شدّته؛ فينبسط» (licensed؛ DENT-05)؛ root فتر «ارتخاء الشيء لذهاب شدّته؛ فينبسط» (licensed؛ LAB-02)؛ root فتر «ارتخاء الشيء لذهاب شدّته؛ فينبسط» (licensed؛ مباشر)؛ root فتل «التواء الشيء على ذاته، أو على ما فيه؛ ممتدًا متميزًا عن غيره» (licensed؛ LIQ-01)؛ root فتن «إذابة مادة باطن الشيء، وتحويلها، بإدخالها نارًا حامية» (licensed؛ LIQ-03)؛ root فطر «خروج الشيء - أو نفاذه - أوّل أمره شاقًا ما فوقه بضغط» (licensed؛ DENT-05)؛ root فطر «خروج الشيء - أو نفاذه - أوّل أمره شاقًا ما فوقه بضغط» (licensed؛ LAB-02)؛ root فطر «خروج الشيء - أو نفاذه - أوّل أمره شاقًا ما فوقه بضغط» (licensed؛ مباشر)؛ root مطر «انسكاب، أو انحدار بقوة - أو سرعة - مع استرسال» (licensed؛ LAB-04)؛ root وتر «تجرد الشيء مما يحيط به، أو انكشاف هذا؛ عنه فيبقى دقيقًا ممتدًا بين جاذبين» (licensed؛ LAB-05)؛ root وطر «حاجة أو رغبة محدودة في شيء ما» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05، LAB-01)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-01)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-02)
 - المعنى من قاموس الفرع: פטר `patár`، verb، «to exempt» [Kaikki Hebrew، السطر 10693]؛ פטר `péter`، noun، «firstborn (of)» [Kaikki Hebrew، السطر 10696]؛ פטר `péter`، name، «a male given name, equivalent to English Peter» [Kaikki Hebrew، السطر 10697]؛ פתר `patár`، verb، «to solve» [Kaikki Hebrew، السطر 12798]؛ פ־ט־ר `p-ṭ-r`، root، «Forming words relating to solution, to resolution, or to ending.» [Kaikki Hebrew، السطر 4766]
@@ -737,14 +1007,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10693:en-פטר-he-verb-32inMGOf: الرسم=פטר، الرومنة=patár، الصنف=verb، المعنى=to exempt، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10696:en-פטר-he-noun-SMx~QI5m: الرسم=פטר، الرومنة=péter، الصنف=noun، المعنى=firstborn (of)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10697:en-פטר-he-name-QqaSRQYU: الرسم=פטר، الرومنة=péter، الصنف=name، المعنى=a male given name, equivalent to English Peter، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:12798:en-פתר-he-verb-Elwm3xxd: الرسم=פתר، الرومنة=patár، الصنف=verb، المعنى=to solve، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4766:en-פ־ט־ר-he-root-9qb8Tahw: الرسم=פ־ט־ר، الرومنة=p-ṭ-r، الصنف=root، المعنى=Forming words relating to solution, to resolution, or to ending.، السلف/الخلف=Compare Classical Syriac ܦ ܛ ܪ, whence ܦܛܝܪܐ (paṭṭīrā).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-ECHO؛ פטר «البكر الذي يفتح الرحم» وحده، لا اسم Peter ولا فعل الحل؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:4a4f9a48481390cf3362cbaa -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `فطر`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `فطر`، `شق`.
+  - سند الفرع المنشور: Compare Classical Syriac ܦ ܛ ܪ, whence ܦܛܝܪܐ (paṭṭīrā).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:403454f7dc32d5923bb3f9bf`، ח־מ־ר (الرتبة 31)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=חמר «الخمر والنبيذ المختمر» وحده، لا الحمرة ولا قائد الحمير؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ח־מ־ר `kh-m-r`، root، «Forming words pertaining to boiling up or fermenting.» [Kaikki Hebrew، السطر 16084]؛ ח־מ־ר `kh-m-r`، root، «Forming words pertaining to redness.» [Kaikki Hebrew، السطر 16085]؛ חמר `khémer`، noun، «wine» [Kaikki Hebrew، السطر 7452]؛ חמר `khemár`، noun، «bitumen» [Kaikki Hebrew، السطر 7453]؛ חמר `khamár`، noun، «Someone who leads a donkey or donkeys.» [Kaikki Hebrew، السطر 7455]
 - أقدمُ صورةٍ مستعادة: Cognate with Arabic خ م ر (ḵ m r).؛ Cognate with Arabic ح م ر (ḥ m r).؛ Cognate with Arabic خَمْر (ḵamr).؛ Cognate with Arabic خَمْر (ḵamr).
@@ -752,7 +1036,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حبر «أثر ظاهر يُستحسن من تجمع لطيف (في الأثناء)» (licensed؛ LAB-04)؛ root حمر «الاحتواء على حدة تقشر الظاهر قشرًا قويا» (licensed؛ مباشر)؛ root حمل «حَوْزُ - أو ضم - بإقلال رفعًا، أو تعليقًا» (licensed؛ LIQ-01)؛ root خمر «جنس من الستر اللطيف» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `خمر` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LAB-04)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-04)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ مباشر)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ LIQ-01)
 - مسارُ الصوت: root حبر «أثر ظاهر يُستحسن من تجمع لطيف (في الأثناء)» (licensed؛ LAB-04)؛ root حمر «الاحتواء على حدة تقشر الظاهر قشرًا قويا» (licensed؛ مباشر)؛ root حمل «حَوْزُ - أو ضم - بإقلال رفعًا، أو تعليقًا» (licensed؛ LIQ-01)؛ root خمر «جنس من الستر اللطيف» (licensed؛ GUT-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-04)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-04)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ مباشر)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ LIQ-01)
 - المعنى من قاموس الفرع: ח־מ־ר `kh-m-r`، root، «Forming words pertaining to boiling up or fermenting.» [Kaikki Hebrew، السطر 16084]؛ ח־מ־ר `kh-m-r`، root، «Forming words pertaining to redness.» [Kaikki Hebrew، السطر 16085]؛ חמר `khémer`، noun، «wine» [Kaikki Hebrew، السطر 7452]؛ חמר `khemár`، noun، «bitumen» [Kaikki Hebrew، السطر 7453]؛ חמר `khamár`، noun، «Someone who leads a donkey or donkeys.» [Kaikki Hebrew، السطر 7455]
@@ -761,14 +1045,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16084:en-ח־מ־ר-he-root-~~74XQgv: الرسم=ח־מ־ר، الرومنة=kh-m-r، الصنف=root، المعنى=Forming words pertaining to boiling up or fermenting.، السلف/الخلف=Cognate with Arabic خ م ر (ḵ m r).، القرض=لا وسم آلي؛ kaikki_hebrew:16085:en-ח־מ־ר-he-root-U7TrmHT7: الرسم=ח־מ־ר، الرومنة=kh-m-r، الصنف=root، المعنى=Forming words pertaining to redness.، السلف/الخلف=Cognate with Arabic ح م ر (ḥ m r).، القرض=لا وسم آلي؛ kaikki_hebrew:7452:en-חמר-he-noun-MsT-7Zlo: الرسم=חמר، الرومنة=khémer، الصنف=noun، المعنى=wine، السلف/الخلف=Cognate with Arabic خَمْر (ḵamr).، القرض=لا وسم آلي؛ kaikki_hebrew:7453:en-חמר-he-noun-FOQs2Djh: الرسم=חמר، الرومنة=khemár، الصنف=noun، المعنى=bitumen، السلف/الخلف=Cognate with Arabic خَمْر (ḵamr).، القرض=لا وسم آلي؛ kaikki_hebrew:7455:en-חמר-he-noun-WJZPn5Vg: الرسم=חמר، الرومنة=khamár، الصنف=noun، المعنى=Someone who leads a donkey or donkeys.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ חמר «الخمر والنبيذ المختمر» وحده، لا الحمرة ولا قائد الحمير؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:403454f7dc32d5923bb3f9bf -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `خمر`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `خمر`، `سكر`.
+  - سند الفرع المنشور: Cognate with Arabic خ م ر (ḵ m r). | Cognate with Arabic ح م ر (ḥ m r). | Cognate with Arabic خَمْر (ḵamr).
+  - مسار الصوت اللازم وحده: GUT-05.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:12a544b084369e46bab6bfc0`، פ־ר־ד (الرتبة 32)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=جذر פ־ר־ד في الانفصال والتفرد وحده، لا أسماء البغل والرمان؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פ־ר־ד `p-r-d`، root، «Related to separation and division.» [Kaikki Hebrew، السطر 16160]؛ פרד `péred`، noun، «mule, hinny (crossbreed of a horse and a donkey)» [Kaikki Hebrew، السطر 935]؛ פרד `péred`، noun، «dried pomegranate seeds» [Kaikki Hebrew، السطر 936]؛ פרד `péred`، noun، «odd number» [Kaikki Hebrew، السطر 937]؛ פרד `p'rád`، noun، «atom (particle)» [Kaikki Hebrew، السطر 938]
 - أقدمُ صورةٍ مستعادة: Related to Arabic ف ر د (f r d).
@@ -776,7 +1074,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ DENT-06، LAB-01)؛ root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ DENT-06)؛ root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ LAB-01)؛ root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ LAB-02)؛ root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ مباشر)؛ root بلد «إصماتُ ظاهر متسع بحيث يحتبس فيه (أي لا ينفذ منه) ما يُتوقع نفاذه» (licensed؛ LAB-01، LIQ-01)؛ root بلد «إصماتُ ظاهر متسع بحيث يحتبس فيه (أي لا ينفذ منه) ما يُتوقع نفاذه» (licensed؛ LIQ-01)؛ root فرد «توحُّد الشيء بذاته منقطعًا ومنعزلًا عما يشاكله» (licensed؛ DENT-06)؛ root فرد «توحُّد الشيء بذاته منقطعًا ومنعزلًا عما يشاكله» (licensed؛ LAB-02)؛ root فرد «توحُّد الشيء بذاته منقطعًا ومنعزلًا عما يشاكله» (licensed؛ مباشر)؛ root فرض «قَطْعٌ غائر (غير نافذ) في جرم غليظ» (licensed؛ DENT-06)؛ root فرض «قَطْعٌ غائر (غير نافذ) في جرم غليظ» (licensed؛ LAB-02)؛ root فرض «قَطْعٌ غائر (غير نافذ) في جرم غليظ» (licensed؛ مباشر)؛ root فند «نفاذ بعض قوام الجِرم منه، ويلزم ذلك ضعفه» (licensed؛ LIQ-03)؛ root مرد «ملاسة ظاهر الشيء الممتد تجرداً مما ينبت منه عادةً» (licensed؛ LAB-04)؛ root مرض «كثافة ثقيلةٌ تَغْشَى الشيء؛ فتثقله، وتحجُبُ حِدَّته» (licensed؛ LAB-04)؛ root ورد «بلوغ الماء - أو الشيء - تدلّيًا، أو تقدمًا إليه» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `فرد` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06، LAB-01)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-01)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-02)
 - مسارُ الصوت: root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ DENT-06، LAB-01)؛ root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ DENT-06)؛ root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ LAB-01)؛ root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ LAB-02)؛ root برد «تقلُّص الشيء المتسيّب؛ فيتداخل أو يتجمد؛ فلا يمتد» (licensed؛ مباشر)؛ root بلد «إصماتُ ظاهر متسع بحيث يحتبس فيه (أي لا ينفذ منه) ما يُتوقع نفاذه» (licensed؛ LAB-01، LIQ-01)؛ root بلد «إصماتُ ظاهر متسع بحيث يحتبس فيه (أي لا ينفذ منه) ما يُتوقع نفاذه» (licensed؛ LIQ-01)؛ root فرد «توحُّد الشيء بذاته منقطعًا ومنعزلًا عما يشاكله» (licensed؛ DENT-06)؛ root فرد «توحُّد الشيء بذاته منقطعًا ومنعزلًا عما يشاكله» (licensed؛ LAB-02)؛ root فرد «توحُّد الشيء بذاته منقطعًا ومنعزلًا عما يشاكله» (licensed؛ مباشر)؛ root فرض «قَطْعٌ غائر (غير نافذ) في جرم غليظ» (licensed؛ DENT-06)؛ root فرض «قَطْعٌ غائر (غير نافذ) في جرم غليظ» (licensed؛ LAB-02)؛ root فرض «قَطْعٌ غائر (غير نافذ) في جرم غليظ» (licensed؛ مباشر)؛ root فند «نفاذ بعض قوام الجِرم منه، ويلزم ذلك ضعفه» (licensed؛ LIQ-03)؛ root مرد «ملاسة ظاهر الشيء الممتد تجرداً مما ينبت منه عادةً» (licensed؛ LAB-04)؛ root مرض «كثافة ثقيلةٌ تَغْشَى الشيء؛ فتثقله، وتحجُبُ حِدَّته» (licensed؛ LAB-04)؛ root ورد «بلوغ الماء - أو الشيء - تدلّيًا، أو تقدمًا إليه» (licensed؛ LAB-05)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06، LAB-01)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-01)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-02)
 - المعنى من قاموس الفرع: פ־ר־ד `p-r-d`، root، «Related to separation and division.» [Kaikki Hebrew، السطر 16160]؛ פרד `péred`، noun، «mule, hinny (crossbreed of a horse and a donkey)» [Kaikki Hebrew، السطر 935]؛ פרד `péred`، noun، «dried pomegranate seeds» [Kaikki Hebrew، السطر 936]؛ פרד `péred`، noun، «odd number» [Kaikki Hebrew، السطر 937]؛ פרד `p'rád`، noun، «atom (particle)» [Kaikki Hebrew، السطر 938]
@@ -785,14 +1083,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16160:en-פ־ר־ד-he-root-CYiSRdko: الرسم=פ־ר־ד، الرومنة=p-r-d، الصنف=root، المعنى=Related to separation and division.، السلف/الخلف=Related to Arabic ف ر د (f r d).، القرض=لا وسم آلي؛ kaikki_hebrew:935:en-פרד-he-noun-SjFC18ux: الرسم=פרד، الرومنة=péred، الصنف=noun، المعنى=mule, hinny (crossbreed of a horse and a donkey)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:936:en-פרד-he-noun-E73yqj64: الرسم=פרד، الرومنة=péred، الصنف=noun، المعنى=dried pomegranate seeds، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:937:en-פרד-he-noun-ox37xoVH: الرسم=פרד، الرومنة=péred، الصنف=noun، المعنى=odd number، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:938:en-פרד-he-noun-GZkTsnLd: الرسم=פרד، الرومنة=p'rád، الصنف=noun، المعنى=atom (particle)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ جذر פ־ר־ד في الانفصال والتفرد وحده، لا أسماء البغل والرمان؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:12a544b084369e46bab6bfc0 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `فرد`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `فرد`، `واحد`.
+  - سند الفرع المنشور: Related to Arabic ف ر د (f r d).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:dcb6dc9b334fa204ee8a8524`، נ־ה־ר (الرتبة 33)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: נ־ה־ר `n-h-r`، root، «Forming words pertaining to flowing.» [Kaikki Hebrew، السطر 16294]؛ נ־ה־ר `n-h-r`، root، «Forming words pertaining to shining.» [Kaikki Hebrew، السطر 16295]؛ נהר `nahár`، noun، «river (especially the Nile, Euphrates, etc.)» [Kaikki Hebrew، السطر 932]؛ נהר `nahár`، verb، «to flow» [Kaikki Hebrew، السطر 933]؛ נהר `nahár`، verb، «to shine» [Kaikki Hebrew، السطر 934]
 - أقدمُ صورةٍ مستعادة: Borrowed from Aramaic.؛ From Proto-Semitic *nahar- (“river”). Cognate with Akkadian 𒀀𒇉 (nārum) and Arabic نَهْر (nahr). The verb is a denominal and follows from the noun, cf. Arabic نَهَرَ (nahara, “to fl؛ From Proto-Semitic *nahar- (“river”). Cognate with Akkadian 𒀀𒇉 (nārum) and Arabic نَهْر (nahr). The verb is a denominal and follows from the noun, cf. Arabic نَهَرَ (nahara, “to fl؛ Borrowed from Aramaic נְהַר (nəhar, “to shine”), whose root is related to Hebrew נ־ו־ר, whence words such נֵר (ner, “candle”) and מְנוֹרָה (m'norá, “menorah”) are derived.
@@ -800,7 +1112,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root نحر «شق نافذ إلى باطن الحرم المُستعرِضِ يَخرج به مائعُه المذخور بغزارة» (licensed؛ GUT-04)؛ root نحر «شق نافذ إلى باطن الحرم المُستعرِضِ يَخرج به مائعُه المذخور بغزارة» (licensed؛ مباشر)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ GUT-04، LIQ-01)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ LIQ-01)؛ root نخر «فراغ يمتد في أثناء شيء (شديد) مع رخاوة وضعف فيه» (licensed؛ GUT-05)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (scope-gap؛ SIB-04)؛ root نسل «امتداد الشيء خارجًا - أو متسيبًا - من أصله، أو مقره، بلطف ومفارقة» (scope-gap؛ LIQ-01، SIB-04)؛ root نعل «حِفْظُ الشيء بلزوم مناسب له يقيه الخشونة والتآكل ونحوهما» (licensed؛ GUT-04، LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءل «» (licensed؛ GUT-04، LIQ-01)؛ nucleus ءن «التهيؤ والصلاح للبلوغ والاستعمال» (licensed؛ GUT-04، LIQ-03)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ GUT-04)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ مباشر)
 - مسارُ الصوت: root نحر «شق نافذ إلى باطن الحرم المُستعرِضِ يَخرج به مائعُه المذخور بغزارة» (licensed؛ GUT-04)؛ root نحر «شق نافذ إلى باطن الحرم المُستعرِضِ يَخرج به مائعُه المذخور بغزارة» (licensed؛ مباشر)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ GUT-04، LIQ-01)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ LIQ-01)؛ root نخر «فراغ يمتد في أثناء شيء (شديد) مع رخاوة وضعف فيه» (licensed؛ GUT-05)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (scope-gap؛ SIB-04)؛ root نسل «امتداد الشيء خارجًا - أو متسيبًا - من أصله، أو مقره، بلطف ومفارقة» (scope-gap؛ LIQ-01، SIB-04)؛ root نعل «حِفْظُ الشيء بلزوم مناسب له يقيه الخشونة والتآكل ونحوهما» (licensed؛ GUT-04، LIQ-01)؛ nucleus ءل «» (licensed؛ GUT-04، LIQ-01)؛ nucleus ءن «التهيؤ والصلاح للبلوغ والاستعمال» (licensed؛ GUT-04، LIQ-03)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ GUT-04)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: נ־ה־ר `n-h-r`، root، «Forming words pertaining to flowing.» [Kaikki Hebrew، السطر 16294]؛ נ־ה־ר `n-h-r`، root، «Forming words pertaining to shining.» [Kaikki Hebrew، السطر 16295]؛ נהר `nahár`، noun، «river (especially the Nile, Euphrates, etc.)» [Kaikki Hebrew، السطر 932]؛ נהר `nahár`، verb، «to flow» [Kaikki Hebrew، السطر 933]؛ נהר `nahár`، verb، «to shine» [Kaikki Hebrew، السطر 934]
@@ -809,14 +1121,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16294:en-נ־ה־ר-he-root-0TTspaFV: الرسم=נ־ה־ר، الرومنة=n-h-r، الصنف=root، المعنى=Forming words pertaining to flowing.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:16295:en-נ־ה־ר-he-root-zDq0l2hh: الرسم=נ־ה־ר، الرومنة=n-h-r، الصنف=root، المعنى=Forming words pertaining to shining.، السلف/الخلف=Borrowed from Aramaic.، القرض=وسم آلي؛ kaikki_hebrew:932:en-נהר-he-noun-MDZdC-4e: الرسم=נהר، الرومنة=nahár، الصنف=noun، المعنى=river (especially the Nile, Euphrates, etc.)، السلف/الخلف=From Proto-Semitic *nahar- (“river”). Cognate with Akkadian 𒀀𒇉 (nārum) and Arabic نَهْر (nahr). The verb is a denominal and follows from the noun, cf. Arabic نَهَرَ (nahara, “to fl، القرض=لا وسم آلي؛ kaikki_hebrew:933:en-נהר-he-verb-U7EY147G: الرسم=נהר، الرومنة=nahár، الصنف=verb، المعنى=to flow، السلف/الخلف=From Proto-Semitic *nahar- (“river”). Cognate with Akkadian 𒀀𒇉 (nārum) and Arabic نَهْر (nahr). The verb is a denominal and follows from the noun, cf. Arabic نَهَرَ (nahara, “to fl، القرض=لا وسم آلي؛ kaikki_hebrew:934:en-נהר-he-verb-i5-pW8j2: الرسم=נהר، الرومنة=nahár، الصنف=verb، المعنى=to shine، السلف/الخلف=Borrowed from Aramaic נְהַר (nəhar, “to shine”), whose root is related to Hebrew נ־ו־ר, whence words such נֵר (ner, “candle”) and מְנוֹרָה (m'norá, “menorah”) are derived.، القرض=وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:dcb6dc9b334fa204ee8a8524 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: נהר، الرتبة 33.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:ec4fd9350ed7f2cb57a24aec`، ג־ב־ה (الرتبة 34)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: גבה `gabá`، noun، «eyebrow» [Kaikki Hebrew، السطر 4696]؛ גבה `gaváh`، verb، «become high, tall» [Kaikki Hebrew، السطر 4697]؛ גבה `gavá`، verb، «to collect (a debt)» [Kaikki Hebrew، السطر 4700]؛ ג־ב־ה `g-b-h`، root، «Forming words pertaining to height.» [Kaikki Hebrew، السطر 5205]؛ ג־ב־ה `g-b-h`، root، «Forming words pertaining to collecting.» [Kaikki Hebrew، السطر 5206]
 - أقدمُ صورةٍ مستعادة: Compare with Arabic جَبْهة (jabha, “forehead”), and Akkadian 𒃮𒀪𒀀𒉌 (/⁠gabāni⁠/, “heights, promontory”).؛ From the root ג־ב־הּ (g-b-h, “Forming words pertaining to height.”).؛ From the root ג־ב־ה (g-b-, “Forming words pertaining to collecting.”).
@@ -824,7 +1146,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03)؛ root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ مباشر)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، GUT-04، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-04، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ LAB-04)؛ root جمع «تضام أشياء متجانسة كثيرة تلاقيًا أو تلاحمًا أو تراكما» (licensed؛ GUT-03، GUT-04، LAB-04)؛ root جمع «تضام أشياء متجانسة كثيرة تلاقيًا أو تلاحمًا أو تراكما» (licensed؛ GUT-04، LAB-04)؛ root جوس «تخلل واختراق بحدة لشيء» (scope-gap؛ GUT-03، LAB-05، SIB-04)؛ root جوس «تخلل واختراق بحدة لشيء» (scope-gap؛ LAB-05، SIB-04)؛ root جوع «فراغ في جوف الشيء من ذهاب ما كان يملؤه» (licensed؛ GUT-03، GUT-04، LAB-05)؛ root جوع «فراغ في جوف الشيء من ذهاب ما كان يملؤه» (licensed؛ GUT-04، LAB-05)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01، GUT-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ مباشر)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ GUT-01، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ SIB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-04، LAB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ LAB-04)؛ root قمع «ضبط في حيز ومنع عن الانتشار منه» (licensed؛ GUT-04، LAB-04)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (scope-gap؛ LAB-05، SIB-04)؛ root قوع «انبساط المكان منخفضًا بين مرتفعات عنه خاليًا مما يشغله» (licensed؛ GUT-04، LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 8/8؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ مباشر)؛ nucleus بخ «النقص والاستفراغ» (licensed؛ GUT-05)
 - مسارُ الصوت: root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03)؛ root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ مباشر)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، GUT-04، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-04، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ LAB-04)؛ root جمع «تضام أشياء متجانسة كثيرة تلاقيًا أو تلاحمًا أو تراكما» (licensed؛ GUT-03، GUT-04، LAB-04)؛ root جمع «تضام أشياء متجانسة كثيرة تلاقيًا أو تلاحمًا أو تراكما» (licensed؛ GUT-04، LAB-04)؛ root جوس «تخلل واختراق بحدة لشيء» (scope-gap؛ GUT-03، LAB-05، SIB-04)؛ root جوس «تخلل واختراق بحدة لشيء» (scope-gap؛ LAB-05، SIB-04)؛ root جوع «فراغ في جوف الشيء من ذهاب ما كان يملؤه» (licensed؛ GUT-03، GUT-04، LAB-05)؛ root جوع «فراغ في جوف الشيء من ذهاب ما كان يملؤه» (licensed؛ GUT-04، LAB-05)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01، GUT-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ مباشر)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ GUT-01، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ SIB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-04، LAB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ LAB-04)؛ root قمع «ضبط في حيز ومنع عن الانتشار منه» (licensed؛ GUT-04، LAB-04)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (scope-gap؛ LAB-05، SIB-04)؛ root قوع «انبساط المكان منخفضًا بين مرتفعات عنه خاليًا مما يشغله» (licensed؛ GUT-04، LAB-05)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ مباشر)؛ nucleus بخ «النقص والاستفراغ» (licensed؛ GUT-05)
 - المعنى من قاموس الفرع: גבה `gabá`، noun، «eyebrow» [Kaikki Hebrew، السطر 4696]؛ גבה `gaváh`، verb، «become high, tall» [Kaikki Hebrew، السطر 4697]؛ גבה `gavá`، verb، «to collect (a debt)» [Kaikki Hebrew، السطر 4700]؛ ג־ב־ה `g-b-h`، root، «Forming words pertaining to height.» [Kaikki Hebrew، السطر 5205]؛ ג־ב־ה `g-b-h`، root، «Forming words pertaining to collecting.» [Kaikki Hebrew، السطر 5206]
@@ -833,14 +1155,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4696:en-גבה-he-noun-D-d6WQ89: الرسم=גבה، الرومنة=gabá، الصنف=noun، المعنى=eyebrow، السلف/الخلف=Compare with Arabic جَبْهة (jabha, “forehead”), and Akkadian 𒃮𒀪𒀀𒉌 (/⁠gabāni⁠/, “heights, promontory”).، القرض=لا وسم آلي؛ kaikki_hebrew:4697:en-גבה-he-verb-WHKMifpg: الرسم=גבה، الرومنة=gaváh، الصنف=verb، المعنى=become high, tall، السلف/الخلف=From the root ג־ב־הּ (g-b-h, “Forming words pertaining to height.”).، القرض=لا وسم آلي؛ kaikki_hebrew:4700:en-גבה-he-verb-eCzegOxl: الرسم=גבה، الرومنة=gavá، الصنف=verb، المعنى=to collect (a debt)، السلف/الخلف=From the root ג־ב־ה (g-b-, “Forming words pertaining to collecting.”).، القرض=لا وسم آلي؛ kaikki_hebrew:5205:en-ג־ב־ה-he-root-FbxYrQ3y: الرسم=ג־ב־ה، الرومنة=g-b-h، الصنف=root، المعنى=Forming words pertaining to height.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5206:en-ג־ב־ה-he-root-VM9ZnLks: الرسم=ג־ב־ה، الرومنة=g-b-h، الصنف=root، المعنى=Forming words pertaining to collecting.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:ec4fd9350ed7f2cb57a24aec -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 8/8؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:182abadb080c90df461ae180`، שכר (الرتبة 35)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: שכר `sakhár`، verb، «to hire, rent» [Kaikki Hebrew، السطر 10569]؛ שכר `sakhár`، noun، «wage, salary» [Kaikki Hebrew، السطر 10570]؛ שכר `sékher`، noun، «charter plane, boat, bus, etc.» [Kaikki Hebrew، السطر 10571]؛ שכר `shakhár`، verb، «to be or become drunk» [Kaikki Hebrew، السطر 10572]؛ שכר `shekhár`، noun، «liquor, intoxicating drink» [Kaikki Hebrew، السطر 10573]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *šikar- (“alcoholic drink”). Compare Arabic سَكِرَ (sakira, “to get drunk, to become intoxicated”) and سَكَر (sakar, “intoxicant, wine”).؛ From Proto-Semitic *šikar- (“alcoholic drink”). Compare Arabic سَكِرَ (sakira, “to get drunk, to become intoxicated”) and سَكَر (sakar, “intoxicant, wine”).
@@ -848,7 +1180,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root تجر «العمل طلبًا للأجر» (licensed؛ GUT-03، SIB-05)؛ root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02، LIQ-01)؛ root سجر «توالي انحدار المائع ونحوه إلى الحيز حتى يتجمع ويمتلئ الحيز منه» (licensed؛ GUT-03، SIB-01)؛ root سقر «ذوبان الغليظ الذي في جوف الشيء - أو أثنائه بنفاذ الحر أو حدة شديدة إليه» (licensed؛ SIB-01)؛ root سكر «سد الفتحة - او المنفذ - الذي يجري منه المائع - أو اللطيف؛ فيحتبس أي يقف جريانه» (licensed؛ SIB-01)؛ root شجر «تفرُّع الشيء الملتئم - أو المجتمع - أي انفراجه إلى ناحيتين (أو أكثر)، مع دوام على ذلك» (licensed؛ GUT-03)؛ root شكر «امتلاء جوف الشيء برخو طيب، وظهوره عليه، ولو كان رافده قليلًا» (licensed؛ GUT-01)؛ root شكر «امتلاء جوف الشيء برخو طيب، وظهوره عليه، ولو كان رافده قليلًا» (licensed؛ مباشر)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 8/8؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تج «العمل طلبًا للأجر» (licensed؛ GUT-03، SIB-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ SIB-05)؛ nucleus تق «هوّي الشيء إلى العمق: كالهوّي إلى الأسفل» (licensed؛ SIB-05)؛ nucleus ثج «غزارة المائع وتجمعه» (licensed؛ DENT-02، GUT-03)
 - مسارُ الصوت: root تجر «العمل طلبًا للأجر» (licensed؛ GUT-03، SIB-05)؛ root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02، LIQ-01)؛ root سجر «توالي انحدار المائع ونحوه إلى الحيز حتى يتجمع ويمتلئ الحيز منه» (licensed؛ GUT-03، SIB-01)؛ root سقر «ذوبان الغليظ الذي في جوف الشيء - أو أثنائه بنفاذ الحر أو حدة شديدة إليه» (licensed؛ SIB-01)؛ root سكر «سد الفتحة - او المنفذ - الذي يجري منه المائع - أو اللطيف؛ فيحتبس أي يقف جريانه» (licensed؛ SIB-01)؛ root شجر «تفرُّع الشيء الملتئم - أو المجتمع - أي انفراجه إلى ناحيتين (أو أكثر)، مع دوام على ذلك» (licensed؛ GUT-03)؛ root شكر «امتلاء جوف الشيء برخو طيب، وظهوره عليه، ولو كان رافده قليلًا» (licensed؛ GUT-01)؛ root شكر «امتلاء جوف الشيء برخو طيب، وظهوره عليه، ولو كان رافده قليلًا» (licensed؛ مباشر)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ LIQ-01)؛ nucleus تج «العمل طلبًا للأجر» (licensed؛ GUT-03، SIB-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ SIB-05)؛ nucleus تق «هوّي الشيء إلى العمق: كالهوّي إلى الأسفل» (licensed؛ SIB-05)؛ nucleus ثج «غزارة المائع وتجمعه» (licensed؛ DENT-02، GUT-03)
 - المعنى من قاموس الفرع: שכר `sakhár`، verb، «to hire, rent» [Kaikki Hebrew، السطر 10569]؛ שכר `sakhár`، noun، «wage, salary» [Kaikki Hebrew، السطر 10570]؛ שכר `sékher`، noun، «charter plane, boat, bus, etc.» [Kaikki Hebrew، السطر 10571]؛ שכר `shakhár`، verb، «to be or become drunk» [Kaikki Hebrew، السطر 10572]؛ שכר `shekhár`، noun، «liquor, intoxicating drink» [Kaikki Hebrew، السطر 10573]
@@ -857,14 +1189,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10569:en-שכר-he-verb-TxC-KS8N: الرسم=שכר، الرومنة=sakhár، الصنف=verb، المعنى=to hire, rent، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10570:en-שכר-he-noun-PiSqgJH1: الرسم=שכר، الرومنة=sakhár، الصنف=noun، المعنى=wage, salary، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10571:en-שכר-he-noun-8p~ExBi2: الرسم=שכר، الرومنة=sékher، الصنف=noun، المعنى=charter plane, boat, bus, etc.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10572:en-שכר-he-verb-AciKgvhd: الرسم=שכר، الرومنة=shakhár، الصنف=verb، المعنى=to be or become drunk، السلف/الخلف=From Proto-Semitic *šikar- (“alcoholic drink”). Compare Arabic سَكِرَ (sakira, “to get drunk, to become intoxicated”) and سَكَر (sakar, “intoxicant, wine”).، القرض=لا وسم آلي؛ kaikki_hebrew:10573:en-שכר-he-noun-OyfQW2Zq: الرسم=שכר، الرومنة=shekhár، الصنف=noun، المعنى=liquor, intoxicating drink، السلف/الخلف=From Proto-Semitic *šikar- (“alcoholic drink”). Compare Arabic سَكِرَ (sakira, “to get drunk, to become intoxicated”) and سَكَر (sakar, “intoxicant, wine”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:182abadb080c90df461ae180 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: שכר، حسم الموجة 1 للرتبة 35.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:be4ada5b8ee3bb7097c0d21a`، שפה (الرتبة 36)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: שפת מדרכה `sfat midrachá`، noun، «curb, kerb» [Kaikki Hebrew، السطر 14220]؛ שפה `safá`، noun، «lip (fleshy protrusion framing the mouth)» [Kaikki Hebrew، السطر 1958]؛ שפות `safót`، noun، «plural indefinite form of שָׂפָה (safá)» [Kaikki Hebrew، السطر 3700]؛ שפת `s'fát-`، noun، «singular construct state form of שָׂפָה (safá).» [Kaikki Hebrew، السطر 4376]؛ שפת תכנות `s'fat tikh'nut`، noun، «programming language» [Kaikki Hebrew، السطر 5376]؛ שפתיים `s'fatáyim`، noun، «dual indefinite form of שָׂפָה f: lips.» [Kaikki Hebrew، السطر 8625]؛ שפתיים קטנות `s'fatáyim k'tanót`، noun، «labia minora» [Kaikki Hebrew، السطر 8626]؛ שפתיים גדולות `s'fatáyim g'dolót`، noun، «labia majora» [Kaikki Hebrew، السطر 8627]
 - أقدمُ صورةٍ مستعادة: Inherited from Proto-Semitic *śapat- (“lip”).
@@ -872,7 +1214,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root تبع «لحوق الشيء بمتقدم أو سابق بلا فصل مع رقة ولين» (licensed؛ GUT-04، LAB-01، SIB-05)؛ root تبع «لحوق الشيء بمتقدم أو سابق بلا فصل مع رقة ولين» (licensed؛ GUT-04، SIB-05)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (licensed؛ GUT-04، LAB-01، SIB-01)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (licensed؛ GUT-04، SIB-01)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (licensed؛ LAB-01، SIB-01)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (licensed؛ SIB-01)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (licensed؛ GUT-04، LAB-01، SIB-01)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (licensed؛ GUT-04، SIB-01)؛ root سبغ «أن يمتد من الشيء ما يصير كالغشاء الساتر لما وراءه» (licensed؛ GUT-04، LAB-01، SIB-01)؛ root سبغ «أن يمتد من الشيء ما يصير كالغشاء الساتر لما وراءه» (licensed؛ GUT-04، SIB-01)؛ root سفح «انحدار بقوة أو كثافة» (licensed؛ GUT-04، SIB-01)؛ root سفح «انحدار بقوة أو كثافة» (licensed؛ SIB-01)؛ root سفع «لصوق ما له حدة أو كثافة على ظاهر الشيء» (licensed؛ GUT-04، SIB-01)؛ root سفه «خفة جرم الشيء لفراغ أو جفاف يتخلل أثناءه» (licensed؛ SIB-01)؛ root شبه «مقاربة في الشكل والملامح الظاهرية بين شيء وآخر» (licensed؛ LAB-01)؛ root شبه «مقاربة في الشكل والملامح الظاهرية بين شيء وآخر» (licensed؛ LAB-02)؛ root شبه «مقاربة في الشكل والملامح الظاهرية بين شيء وآخر» (licensed؛ مباشر)؛ root شفع «ازدواج برقة (أي انضمام مثل الشيء إليه مع رقة)» (licensed؛ GUT-04، LAB-02)؛ root شفع «ازدواج برقة (أي انضمام مثل الشيء إليه مع رقة)» (licensed؛ GUT-04)؛ root شفه «حافة فتحة الفم المؤدي إلى الجوف» (licensed؛ LAB-02)؛ root شفه «حافة فتحة الفم المؤدي إلى الجوف» (licensed؛ مباشر)؛ root شمس «حدةٌ بالغة تتركز في الشيء تَنْفُذُ منه وتَظْهَر من كثرتها» (scope-gap؛ LAB-04، SIB-04)؛ root شوع «تفرق الشيء المجتمع إلى تجمعات صغيرة بتشعث، أي عدم انتظام» (licensed؛ GUT-04، LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 11/11؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-02)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-04)
 - مسارُ الصوت: root تبع «لحوق الشيء بمتقدم أو سابق بلا فصل مع رقة ولين» (licensed؛ GUT-04، LAB-01، SIB-05)؛ root تبع «لحوق الشيء بمتقدم أو سابق بلا فصل مع رقة ولين» (licensed؛ GUT-04، SIB-05)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (licensed؛ GUT-04، LAB-01، SIB-01)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (licensed؛ GUT-04، SIB-01)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (licensed؛ LAB-01، SIB-01)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (licensed؛ SIB-01)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (licensed؛ GUT-04، LAB-01، SIB-01)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (licensed؛ GUT-04، SIB-01)؛ root سبغ «أن يمتد من الشيء ما يصير كالغشاء الساتر لما وراءه» (licensed؛ GUT-04، LAB-01، SIB-01)؛ root سبغ «أن يمتد من الشيء ما يصير كالغشاء الساتر لما وراءه» (licensed؛ GUT-04، SIB-01)؛ root سفح «انحدار بقوة أو كثافة» (licensed؛ GUT-04، SIB-01)؛ root سفح «انحدار بقوة أو كثافة» (licensed؛ SIB-01)؛ root سفع «لصوق ما له حدة أو كثافة على ظاهر الشيء» (licensed؛ GUT-04، SIB-01)؛ root سفه «خفة جرم الشيء لفراغ أو جفاف يتخلل أثناءه» (licensed؛ SIB-01)؛ root شبه «مقاربة في الشكل والملامح الظاهرية بين شيء وآخر» (licensed؛ LAB-01)؛ root شبه «مقاربة في الشكل والملامح الظاهرية بين شيء وآخر» (licensed؛ LAB-02)؛ root شبه «مقاربة في الشكل والملامح الظاهرية بين شيء وآخر» (licensed؛ مباشر)؛ root شفع «ازدواج برقة (أي انضمام مثل الشيء إليه مع رقة)» (licensed؛ GUT-04، LAB-02)؛ root شفع «ازدواج برقة (أي انضمام مثل الشيء إليه مع رقة)» (licensed؛ GUT-04)؛ root شفه «حافة فتحة الفم المؤدي إلى الجوف» (licensed؛ LAB-02)؛ root شفه «حافة فتحة الفم المؤدي إلى الجوف» (licensed؛ مباشر)؛ root شمس «حدةٌ بالغة تتركز في الشيء تَنْفُذُ منه وتَظْهَر من كثرتها» (scope-gap؛ LAB-04، SIB-04)؛ root شوع «تفرق الشيء المجتمع إلى تجمعات صغيرة بتشعث، أي عدم انتظام» (licensed؛ GUT-04، LAB-05)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-02)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-04)
 - المعنى من قاموس الفرع: שפת מדרכה `sfat midrachá`، noun، «curb, kerb» [Kaikki Hebrew، السطر 14220]؛ שפה `safá`، noun، «lip (fleshy protrusion framing the mouth)» [Kaikki Hebrew، السطر 1958]؛ שפות `safót`، noun، «plural indefinite form of שָׂפָה (safá)» [Kaikki Hebrew، السطر 3700]؛ שפת `s'fát-`، noun، «singular construct state form of שָׂפָה (safá).» [Kaikki Hebrew، السطر 4376]؛ שפת תכנות `s'fat tikh'nut`، noun، «programming language» [Kaikki Hebrew، السطر 5376]؛ שפתיים `s'fatáyim`، noun، «dual indefinite form of שָׂפָה f: lips.» [Kaikki Hebrew، السطر 8625]؛ שפתיים קטנות `s'fatáyim k'tanót`، noun، «labia minora» [Kaikki Hebrew، السطر 8626]؛ שפתיים גדולות `s'fatáyim g'dolót`، noun، «labia majora» [Kaikki Hebrew، السطر 8627]
@@ -881,14 +1223,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14220:en-שפת_מדרכה-he-noun-roGT9594: الرسم=שפת מדרכה، الرومنة=sfat midrachá، الصنف=noun، المعنى=curb, kerb، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1958:en-שפה-he-noun-6jfE0udx: الرسم=שפה، الرومنة=safá، الصنف=noun، المعنى=lip (fleshy protrusion framing the mouth)، السلف/الخلف=Inherited from Proto-Semitic *śapat- (“lip”).، القرض=لا وسم آلي؛ kaikki_hebrew:3700:en-שפות-he-noun-8gtLdNRZ: الرسم=שפות، الرومنة=safót، الصنف=noun، المعنى=plural indefinite form of שָׂפָה (safá)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4376:en-שפת-he-noun-3VBJ7QrF: الرسم=שפת، الرومنة=s'fát-، الصنف=noun، المعنى=singular construct state form of שָׂפָה (safá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5376:en-שפת_תכנות-he-noun-bl9YhPb0: الرسم=שפת תכנות، الرومنة=s'fat tikh'nut، الصنف=noun، المعنى=programming language، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8625:en-שפתיים-he-noun-nm7dJV3O: الرسم=שפתיים، الرومنة=s'fatáyim، الصنف=noun، المعنى=dual indefinite form of שָׂפָה f: lips.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8626:en-שפתיים_קטנות-he-noun-AZR7Ymzd: الرسم=שפתיים קטנות، الرومنة=s'fatáyim k'tanót، الصنف=noun، المعنى=labia minora، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8627:en-שפתיים_גדולות-he-noun-g8lkHvFO: الرسم=שפתיים גדולות، الرومنة=s'fatáyim g'dolót، الصنف=noun، المعنى=labia majora، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:be4ada5b8ee3bb7097c0d21a -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 11/11؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:18c6188e989991e6543c1925`، בסופו של דבר (الرتبة 37)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: בסופו של דבר `b'sofó shel davár`، prep_phrase، «in the end, ultimately» [Kaikki Hebrew، السطر 14854]؛ עלילת דבר `alilát davár`، noun، «wrongdoing, crime» [Kaikki Hebrew، السطر 16469]؛ דבר `davár`، noun، «thing» [Kaikki Hebrew، السطر 2009]؛ שום דבר `shum davár`، pron، «anything» [Kaikki Hebrew، السطر 5033]؛ על לא דבר `al lo davár`، phrase، «you're welcome (reply to gratitude)» [Kaikki Hebrew، السطر 5614]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -896,7 +1248,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root دبر «امتداد غائر إلى آخر الشيء أو خلفه بقوة» (licensed؛ DENT-06)؛ root دبر «امتداد غائر إلى آخر الشيء أو خلفه بقوة» (licensed؛ مباشر)؛ root دمر «غشيان بفساد محيط» (licensed؛ LAB-04)؛ root دور «تحوي الشيء، أو إحاطته حول شيء» (licensed؛ LAB-05)؛ root ضمر «استرسال تضام الجرم بعضه في بعض مشتدًا وذهاب الرخاوة» (licensed؛ LAB-04)؛ root ضور «فراغ جوف الشيء الغَضّ» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)؛ nucleus ءف «إفراز شيء مكروه ونفيه» (licensed؛ LAB-02)؛ nucleus ءل «» (licensed؛ LIQ-01)؛ nucleus ءم «النقص والانفراد» (licensed؛ LAB-04)
 - مسارُ الصوت: root دبر «امتداد غائر إلى آخر الشيء أو خلفه بقوة» (licensed؛ DENT-06)؛ root دبر «امتداد غائر إلى آخر الشيء أو خلفه بقوة» (licensed؛ مباشر)؛ root دمر «غشيان بفساد محيط» (licensed؛ LAB-04)؛ root دور «تحوي الشيء، أو إحاطته حول شيء» (licensed؛ LAB-05)؛ root ضمر «استرسال تضام الجرم بعضه في بعض مشتدًا وذهاب الرخاوة» (licensed؛ LAB-04)؛ root ضور «فراغ جوف الشيء الغَضّ» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)؛ nucleus ءف «إفراز شيء مكروه ونفيه» (licensed؛ LAB-02)؛ nucleus ءل «» (licensed؛ LIQ-01)؛ nucleus ءم «النقص والانفراد» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: בסופו של דבר `b'sofó shel davár`، prep_phrase، «in the end, ultimately» [Kaikki Hebrew، السطر 14854]؛ עלילת דבר `alilát davár`، noun، «wrongdoing, crime» [Kaikki Hebrew، السطر 16469]؛ דבר `davár`، noun، «thing» [Kaikki Hebrew، السطر 2009]؛ שום דבר `shum davár`، pron، «anything» [Kaikki Hebrew، السطر 5033]؛ על לא דבר `al lo davár`، phrase، «you're welcome (reply to gratitude)» [Kaikki Hebrew، السطر 5614]
@@ -905,14 +1257,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14854:en-בסופו_של_דבר-he-prep_phrase-9JvObBo7: الرسم=בסופו של דבר، الرومنة=b'sofó shel davár، الصنف=prep_phrase، المعنى=in the end, ultimately، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:16469:en-עלילת_דבר-he-noun-VjE4nOsh: الرسم=עלילת דבר، الرومنة=alilát davár، الصنف=noun، المعنى=wrongdoing, crime، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2009:en-דבר-he-noun-XelNaRrj: الرسم=דבר، الرومنة=davár، الصنف=noun، المعنى=thing، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5033:en-שום_דבר-he-pron-7gh0Fwt~: الرسم=שום דבר، الرومنة=shum davár، الصنف=pron، المعنى=anything، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5614:en-על_לא_דבר-he-phrase-HylNcHuK: الرسم=על לא דבר، الرومنة=al lo davár، الصنف=phrase، المعنى=you're welcome (reply to gratitude)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:18c6188e989991e6543c1925 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:4f3c9b56871e5f843c402d15`، עצב (الرتبة 38)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=עצב «العصب» العضوي وحده، لا الحزن والغضب والتمثال؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עצב `'étsev`، noun، «pain, sorrow» [Kaikki Hebrew، السطر 17025]؛ עצב `'atsáv`، verb، «to cause pain, to cause sorrow» [Kaikki Hebrew، السطر 17026]؛ עצב `'atsév`، adj، «saddened, gloomy» [Kaikki Hebrew، السطر 17027]؛ עצב `'étsev`، noun، «a vessel, a statue» [Kaikki Hebrew، السطر 17028]؛ עצב `'atsáv`، noun، «a nerve» [Kaikki Hebrew، السطر 17029]
 - أقدمُ صورةٍ مستعادة: Compare Arabic غَضَب (ḡaḍab, “anger”).؛ Compare Arabic غَضِبَ (ḡaḍiba, “to become angry”).؛ Compare Arabic عَصَب (ʕaṣab, “nerve; sinew, tendon; muscle”).
@@ -920,7 +1282,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عثو «تشعث وجفاف - أو هيج» (licensed؛ DENT-02، LAB-05)؛ root عزب «ابتعاد عن المقر الأصلي إلى مستقر بعيد دون انقطاع عنه» (licensed؛ SIB-03)؛ root عسو «قرب الشيء، وتهيؤه لحصول ما يراد به، مع صلابة ما» (licensed؛ LAB-05)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ SIB-02)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ SIB-06)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ مباشر)؛ root عصف «قشر وإذهاب بقوة لما هو نحو الغلاف أو اللحاء للحب والزرع» (licensed؛ LAB-02، SIB-06)؛ root عصف «قشر وإذهاب بقوة لما هو نحو الغلاف أو اللحاء للحب والزرع» (licensed؛ LAB-02)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ LAB-04، SIB-06)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ LAB-04)؛ root عصو «امتداد الشيء في صلابة وغلظ بحيث لا ينثني» (licensed؛ LAB-05، SIB-06)؛ root عصو «امتداد الشيء في صلابة وغلظ بحيث لا ينثني» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `عصب` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02، LAB-04)؛ nucleus زب «الاكتناز أو أثره في الانتصاب أو النضح» (licensed؛ SIB-03)؛ nucleus سب «الامتداد الدقيق مع الاتصال بشيء» (licensed؛ SIB-02)
 - مسارُ الصوت: root عثو «تشعث وجفاف - أو هيج» (licensed؛ DENT-02، LAB-05)؛ root عزب «ابتعاد عن المقر الأصلي إلى مستقر بعيد دون انقطاع عنه» (licensed؛ SIB-03)؛ root عسو «قرب الشيء، وتهيؤه لحصول ما يراد به، مع صلابة ما» (licensed؛ LAB-05)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ SIB-02)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ SIB-06)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ مباشر)؛ root عصف «قشر وإذهاب بقوة لما هو نحو الغلاف أو اللحاء للحب والزرع» (licensed؛ LAB-02، SIB-06)؛ root عصف «قشر وإذهاب بقوة لما هو نحو الغلاف أو اللحاء للحب والزرع» (licensed؛ LAB-02)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ LAB-04، SIB-06)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ LAB-04)؛ root عصو «امتداد الشيء في صلابة وغلظ بحيث لا ينثني» (licensed؛ LAB-05، SIB-06)؛ root عصو «امتداد الشيء في صلابة وغلظ بحيث لا ينثني» (licensed؛ LAB-05)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02، LAB-04)؛ nucleus زب «الاكتناز أو أثره في الانتصاب أو النضح» (licensed؛ SIB-03)؛ nucleus سب «الامتداد الدقيق مع الاتصال بشيء» (licensed؛ SIB-02)
 - المعنى من قاموس الفرع: עצב `'étsev`، noun، «pain, sorrow» [Kaikki Hebrew، السطر 17025]؛ עצב `'atsáv`، verb، «to cause pain, to cause sorrow» [Kaikki Hebrew، السطر 17026]؛ עצב `'atsév`، adj، «saddened, gloomy» [Kaikki Hebrew، السطر 17027]؛ עצב `'étsev`، noun، «a vessel, a statue» [Kaikki Hebrew، السطر 17028]؛ עצב `'atsáv`، noun، «a nerve» [Kaikki Hebrew، السطر 17029]
@@ -929,14 +1291,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:17025:en-עצב-he-noun-3wBYfpkZ: الرسم=עצב، الرومنة='étsev، الصنف=noun، المعنى=pain, sorrow، السلف/الخلف=Compare Arabic غَضَب (ḡaḍab, “anger”).، القرض=لا وسم آلي؛ kaikki_hebrew:17026:en-עצב-he-verb-X~r-6m6k: الرسم=עצב، الرومنة='atsáv، الصنف=verb، المعنى=to cause pain, to cause sorrow، السلف/الخلف=Compare Arabic غَضِبَ (ḡaḍiba, “to become angry”).، القرض=لا وسم آلي؛ kaikki_hebrew:17027:en-עצב-he-adj-eNuvJ~2Q: الرسم=עצב، الرومنة='atsév، الصنف=adj، المعنى=saddened, gloomy، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:17028:en-עצב-he-noun-Idj5Lb2c: الرسم=עצב، الرومنة='étsev، الصنف=noun، المعنى=a vessel, a statue، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:17029:en-עצב-he-noun-DOTMOjxe: الرسم=עצב، الرومنة='atsáv، الصنف=noun، المعنى=a nerve، السلف/الخلف=Compare Arabic عَصَب (ʕaṣab, “nerve; sinew, tendon; muscle”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ עצב «العصب» العضوي وحده، لا الحزن والغضب والتمثال؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:4f3c9b56871e5f843c402d15 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `عصب`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `عصب`، `وتر`.
+  - سند الفرع المنشور: Compare Arabic غَضَب (ḡaḍab, “anger”). | Compare Arabic غَضِبَ (ḡaḍiba, “to become angry”). | Compare Arabic عَصَب (ʕaṣab, “nerve; sinew, tendon; muscle”).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:884b411b07e01273a03a7e33`، קרב (الرتبة 39)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=קרב «القتال والاشتباك القريب» وحده، على مدار الاقتراب؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: קרב רב `krav rav`، noun، «all-around» [Kaikki Hebrew، السطر 10809]؛ קרב מגע `krav magá`، noun، «Krav Maga» [Kaikki Hebrew، السطر 12285]؛ קרב `krav`، noun، «battle, war» [Kaikki Hebrew، السطر 2418]؛ קרב איגרוף `krav igrúf`، noun، «A boxing match.» [Kaikki Hebrew، السطر 8441]؛ קרב אגרוף `krav igrúf`، noun، «defective spelling of קרב איגרוף.» [Kaikki Hebrew، السطر 8442]
 - أقدمُ صورةٍ مستعادة: Literally "contact combat."؛ Compare Ge'ez ቀርበ (ḳärbä) and Arabic قَرُبَ (qaruba).؛ From קְרָב (krav) + איגרוף / אִגְרוּף (igrúf).
@@ -944,7 +1320,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root قرب «وجود الشيء في الحيز متاحًا مهيأً للتناول» (licensed؛ مباشر)؛ root قرف «قشر الشيء أو جلده أو غلافه اللاصق به» (licensed؛ LAB-02)؛ root قلب «باطن الشيء ولبّه» (licensed؛ LIQ-01)؛ root كرب «عُرُوٌّ كثيف يُقرِّب الوصول أو الاتصال» (licensed؛ GUT-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `قرب` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-02)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)
 - مسارُ الصوت: root قرب «وجود الشيء في الحيز متاحًا مهيأً للتناول» (licensed؛ مباشر)؛ root قرف «قشر الشيء أو جلده أو غلافه اللاصق به» (licensed؛ LAB-02)؛ root قلب «باطن الشيء ولبّه» (licensed؛ LIQ-01)؛ root كرب «عُرُوٌّ كثيف يُقرِّب الوصول أو الاتصال» (licensed؛ GUT-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-02)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: קרב רב `krav rav`، noun، «all-around» [Kaikki Hebrew، السطر 10809]؛ קרב מגע `krav magá`، noun، «Krav Maga» [Kaikki Hebrew، السطر 12285]؛ קרב `krav`، noun، «battle, war» [Kaikki Hebrew، السطر 2418]؛ קרב איגרוף `krav igrúf`، noun، «A boxing match.» [Kaikki Hebrew، السطر 8441]؛ קרב אגרוף `krav igrúf`، noun، «defective spelling of קרב איגרוף.» [Kaikki Hebrew، السطر 8442]
@@ -953,14 +1329,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10809:en-קרב_רב-he-noun-w5Xb4LqQ: الرسم=קרב רב، الرومنة=krav rav، الصنف=noun، المعنى=all-around، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:12285:en-קרב_מגע-he-noun-B8pzzqkX: الرسم=קרב מגע، الرومنة=krav magá، الصنف=noun، المعنى=Krav Maga، السلف/الخلف=Literally "contact combat."، القرض=لا وسم آلي؛ kaikki_hebrew:2418:en-קרב-he-noun-obiSwwtq: الرسم=קרב، الرومنة=krav، الصنف=noun، المعنى=battle, war، السلف/الخلف=Compare Ge'ez ቀርበ (ḳärbä) and Arabic قَرُبَ (qaruba).، القرض=لا وسم آلي؛ kaikki_hebrew:8441:en-קרב_איגרוף-he-noun-C44t8lTL: الرسم=קרב איגרוף، الرومنة=krav igrúf، الصنف=noun، المعنى=A boxing match.، السلف/الخلف=From קְרָב (krav) + איגרוף / אִגְרוּף (igrúf).، القرض=لا وسم آلي؛ kaikki_hebrew:8442:en-קרב_אגרוף-he-noun-3jH4aQ3t: الرسم=קרב אגרוף، الرومنة=krav igrúf، الصنف=noun، المعنى=defective spelling of קרב איגרוף.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-ECHO؛ קרב «القتال والاشتباك القريب» وحده، على مدار الاقتراب؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:884b411b07e01273a03a7e33 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `قرب`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `قرب`، `دنا`.
+  - سند الفرع المنشور: Literally "contact combat." | Compare Ge'ez ቀርበ (ḳärbä) and Arabic قَرُبَ (qaruba). | From קְרָב (krav) + איגרוף / אִגְרוּף (igrúf).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:18bc8fc7a107bc23b28cc4a1`، ס־פ־ר (الرتبة 40)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ספר `sapár`، noun، «barber» [Kaikki Hebrew، السطر 1098]؛ ספר `safár`، verb، «to count» [Kaikki Hebrew، السطر 1099]؛ ספר `sfár`، noun، «border, frontier» [Kaikki Hebrew، السطر 1102]؛ ס־פ־ר `s-p-r`، root، «Related to telling, story.» [Kaikki Hebrew، السطر 15729]؛ צפר `tsafár`، verb، «to honk» [Kaikki Hebrew، السطر 16679]
 - أقدمُ صورةٍ مستعادة: Compare Ugaritic 𐎒𐎔𐎗 (spr /⁠sapara⁠/, “to count, number; to recite”), 𐎒𐎔𐎗 (spr, “number, inventory”), 𐎎𐎒𐎔𐎗 (mspr, “recitation, story, talk”), Ge'ez ሰፈረ (säfärä, “to measure”), Amha؛ Cognate with Arabic صَفَرَ (ṣafara, “to whistle”).
@@ -968,7 +1358,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-01)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-02)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02، LAB-04)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-05)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ LAB-01، SIB-03)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ SIB-03)؛ root زفر «حمل مع حركة» (licensed؛ SIB-03)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LAB-01، LIQ-01)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LIQ-01)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ LAB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ SIB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ مباشر)؛ root سفل «كون الشيء تحت غيره أو دونه متميزًا بذلك» (licensed؛ LIQ-01)؛ root سفن «النحت من ظاهر الشيء باتجاه باطنه للتسوية أو لصنع فجوة في ذلك الظاهر» (licensed؛ LIQ-03)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ LAB-04)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-05)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ مباشر)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ مباشر)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03، SIB-06)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 15/15؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LAB-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-02)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-01، LIQ-01)
 - مسارُ الصوت: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-01)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-02)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02، LAB-04)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-05)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ LAB-01، SIB-03)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ SIB-03)؛ root زفر «حمل مع حركة» (licensed؛ SIB-03)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LAB-01، LIQ-01)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LIQ-01)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ LAB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ SIB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ مباشر)؛ root سفل «كون الشيء تحت غيره أو دونه متميزًا بذلك» (licensed؛ LIQ-01)؛ root سفن «النحت من ظاهر الشيء باتجاه باطنه للتسوية أو لصنع فجوة في ذلك الظاهر» (licensed؛ LIQ-03)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ LAB-04)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-05)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ مباشر)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ مباشر)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03، SIB-06)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-02)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-01، LIQ-01)
 - المعنى من قاموس الفرع: ספר `sapár`، noun، «barber» [Kaikki Hebrew، السطر 1098]؛ ספר `safár`، verb، «to count» [Kaikki Hebrew، السطر 1099]؛ ספר `sfár`، noun، «border, frontier» [Kaikki Hebrew، السطر 1102]؛ ס־פ־ר `s-p-r`، root، «Related to telling, story.» [Kaikki Hebrew، السطر 15729]؛ צפר `tsafár`، verb، «to honk» [Kaikki Hebrew، السطر 16679]
@@ -977,14 +1367,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1098:en-ספר-he-noun-tnuOLoRy: الرسم=ספר، الرومنة=sapár، الصنف=noun، المعنى=barber، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1099:en-ספר-he-verb-Ty~A-DMC: الرسم=ספר، الرومنة=safár، الصنف=verb، المعنى=to count، السلف/الخلف=Compare Ugaritic 𐎒𐎔𐎗 (spr /⁠sapara⁠/, “to count, number; to recite”), 𐎒𐎔𐎗 (spr, “number, inventory”), 𐎎𐎒𐎔𐎗 (mspr, “recitation, story, talk”), Ge'ez ሰፈረ (säfärä, “to measure”), Amha، القرض=لا وسم آلي؛ kaikki_hebrew:1102:en-ספר-he-noun-NCrfMfkR: الرسم=ספר، الرومنة=sfár، الصنف=noun، المعنى=border, frontier، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:15729:en-ס־פ־ר-he-root-IoGWqt95: الرسم=ס־פ־ר، الرومنة=s-p-r، الصنف=root، المعنى=Related to telling, story.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:16679:en-צפר-he-verb-XMB~b7En: الرسم=צפר، الرومنة=tsafár، الصنف=verb، المعنى=to honk، السلف/الخلف=Cognate with Arabic صَفَرَ (ṣafara, “to whistle”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:18bc8fc7a107bc23b28cc4a1 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 15/15؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:58a253beacdc578215e9247a`، ים המלח (الرتبة 41)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מלחייה `milkhiyá`، noun، «A salt shaker, a salt cellar: a container that holds ground salt and facilitates sprinkling it on food.» [Kaikki Hebrew، السطر 13425]؛ מלח `mélaḥ`، noun، «salt, the common substance used as a condiment» [Kaikki Hebrew، السطر 2269]؛ מלח לימון `mélakh limón`، noun، «citric acid» [Kaikki Hebrew، السطر 4993]؛ ים המלח `yam hamélakh`، name، «Dead Sea (a lake in the Middle East in Palestine and Jordan, noted for high salinity and for its banks being the lowest land-based elevation on Earth)» [Kaikki Hebrew، السطر 5890]
 - أقدمُ صورةٍ مستعادة: From מלח (mélakh) + ־יה (-iyá).؛ From Proto-West Semitic *milḥ-. Compare Aramaic מִלְחָא (milḥā), Classical Syriac ܡܠܚܐ (milḥā), Arabic مِلْح (milḥ), Maltese melħ.؛ Literally, “lemon salt”.؛ Literally, “sea of salt”, attested Biblically, from the lake's extreme salinity.
@@ -992,7 +1392,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root مرح «تسيب الشيء (اللطيف) بقوة وخفة من أثناء ما يمسكه» (licensed؛ LIQ-01)؛ root ملح «تَعَلُّق الشيء حاداً - أو قوي الأثر - في أثنائه» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءل «» (licensed؛ GUT-04)؛ nucleus ءم «النقص والانفراد» (licensed؛ GUT-04)
 - مسارُ الصوت: root مرح «تسيب الشيء (اللطيف) بقوة وخفة من أثناء ما يمسكه» (licensed؛ LIQ-01)؛ root ملح «تَعَلُّق الشيء حاداً - أو قوي الأثر - في أثنائه» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءل «» (licensed؛ GUT-04)؛ nucleus ءم «النقص والانفراد» (licensed؛ GUT-04)
 - المعنى من قاموس الفرع: מלחייה `milkhiyá`، noun، «A salt shaker, a salt cellar: a container that holds ground salt and facilitates sprinkling it on food.» [Kaikki Hebrew، السطر 13425]؛ מלח `mélaḥ`، noun، «salt, the common substance used as a condiment» [Kaikki Hebrew، السطر 2269]؛ מלח לימון `mélakh limón`، noun، «citric acid» [Kaikki Hebrew، السطر 4993]؛ ים המלח `yam hamélakh`، name، «Dead Sea (a lake in the Middle East in Palestine and Jordan, noted for high salinity and for its banks being the lowest land-based elevation on Earth)» [Kaikki Hebrew، السطر 5890]
@@ -1001,14 +1401,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13425:en-מלחייה-he-noun-BeldCy17: الرسم=מלחייה، الرومنة=milkhiyá، الصنف=noun، المعنى=A salt shaker, a salt cellar: a container that holds ground salt and facilitates sprinkling it on food.، السلف/الخلف=From מלח (mélakh) + ־יה (-iyá).، القرض=لا وسم آلي؛ kaikki_hebrew:2269:en-מלח-he-noun-Gr3gJ0cU: الرسم=מלח، الرومنة=mélaḥ، الصنف=noun، المعنى=salt, the common substance used as a condiment، السلف/الخلف=From Proto-West Semitic *milḥ-. Compare Aramaic מִלְחָא (milḥā), Classical Syriac ܡܠܚܐ (milḥā), Arabic مِلْح (milḥ), Maltese melħ.، القرض=لا وسم آلي؛ kaikki_hebrew:4993:en-מלח_לימון-he-noun-TFkcMK-k: الرسم=מלח לימון، الرومنة=mélakh limón، الصنف=noun، المعنى=citric acid، السلف/الخلف=Literally, “lemon salt”.، القرض=لا وسم آلي؛ kaikki_hebrew:5890:en-ים_המלח-he-name-F7DnLooM: الرسم=ים המלח، الرومنة=yam hamélakh، الصنف=name، المعنى=Dead Sea (a lake in the Middle East in Palestine and Jordan, noted for high salinity and for its banks being the lowest land-based elevation on Earth)، السلف/الخلف=Literally, “sea of salt”, attested Biblically, from the lake's extreme salinity.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:58a253beacdc578215e9247a -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: מלח، الرتبة 41.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:212339216092b500ed7b1ace`، כסף (الرتبة 42)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כספי `kaspí`، adj، «silvery, metallic» [Kaikki Hebrew، السطر 10326]؛ כספית `kaspít`، noun، «mercury (a silvery-coloured, metallic chemical element (symbol Hg) with the atomic number 80; it is liquid at room temperature, and toxic)» [Kaikki Hebrew، السطر 1107]؛ כסף `késef`، noun، «silver (a lustrous, white, metallic element, atomic number 47, atomic weight 107.87, symbol Ag)» [Kaikki Hebrew، السطر 2247]؛ כספומט `kaspomát`، noun، «cashpoint, ATM, automated teller machine» [Kaikki Hebrew، السطر 7993]
 - أقدمُ صورةٍ مستعادة: From כֶּסֶף (késef, “silver; money”) + ־י (-í).؛ כֶּסֶף (kesef) + ־ית (ít)؛ Compare Akkadian 𒆬𒌓 (kaspum).؛ Blend of כֶּסֶף (késef, “money”) + אוֹטוֹמָט (otomát, “automat”).
@@ -1016,7 +1426,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جثم «تلبد الشيء الكثيف بالأرض متجمعًا بارتفاع ما» (licensed؛ DENT-02، GUT-03، LAB-04)؛ root جثو «تحجم تراكمي يغلظ من فقد الارتفاع أو عدمه» (licensed؛ DENT-02، GUT-03، LAB-05)؛ root جسم «تكثل مادي له طول وعرض وعمق» (licensed؛ GUT-03، LAB-04)؛ root قسم «تجزئة من أجل ضم الأجزاء إلى أشخاص» (licensed؛ LAB-04)؛ root قسو «صلابة الأثناء مع حدة أو جفاف» (licensed؛ LAB-05)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ GUT-01، SIB-06)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ GUT-01)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ LAB-02، SIB-06)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ LAB-02)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ SIB-02)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ SIB-06)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ مباشر)؛ root قصم «كَسْرٌ من الأصل أو الصلْبِ بحيث يستوي الظاهر بعده» (licensed؛ LAB-04، SIB-06)؛ root قصم «كَسْرٌ من الأصل أو الصلْبِ بحيث يستوي الظاهر بعده» (licensed؛ LAB-04)؛ root قصو «الطَّرَفُ البعيد من شيء ممتد» (licensed؛ LAB-05، SIB-06)؛ root قصو «الطَّرَفُ البعيد من شيء ممتد» (licensed؛ LAB-05)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02، GUT-01، LAB-01)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02، GUT-01)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02، LAB-01)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02، LAB-02)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ GUT-01، LAB-01)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ GUT-01)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ LAB-01، SIB-02)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ LAB-01)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ LAB-02)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ SIB-02)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ مباشر)؛ root كسف «قطع وإبانة لجزء من شيء عريض أو دقيق متماسك» (licensed؛ GUT-01)؛ root كسف «قطع وإبانة لجزء من شيء عريض أو دقيق متماسك» (licensed؛ LAB-02)؛ root كسف «قطع وإبانة لجزء من شيء عريض أو دقيق متماسك» (licensed؛ SIB-02)؛ root كسف «قطع وإبانة لجزء من شيء عريض أو دقيق متماسك» (licensed؛ مباشر)؛ root كسو «ستر الشيء وتغطيته شمولًا بما هو كالغشاء» (licensed؛ LAB-05)؛ root كشف «تنحي ما شأنه أن يغطي من ظاهر الشيء فيظهر ما تحته» (licensed؛ SIB-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 13/13؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)
 - مسارُ الصوت: root جثم «تلبد الشيء الكثيف بالأرض متجمعًا بارتفاع ما» (licensed؛ DENT-02، GUT-03، LAB-04)؛ root جثو «تحجم تراكمي يغلظ من فقد الارتفاع أو عدمه» (licensed؛ DENT-02، GUT-03، LAB-05)؛ root جسم «تكثل مادي له طول وعرض وعمق» (licensed؛ GUT-03، LAB-04)؛ root قسم «تجزئة من أجل ضم الأجزاء إلى أشخاص» (licensed؛ LAB-04)؛ root قسو «صلابة الأثناء مع حدة أو جفاف» (licensed؛ LAB-05)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ GUT-01، SIB-06)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ GUT-01)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ LAB-02، SIB-06)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ LAB-02)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ SIB-02)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ SIB-06)؛ root قصف «قطع امتداد الشيء قصًا أو كَسْرًا» (licensed؛ مباشر)؛ root قصم «كَسْرٌ من الأصل أو الصلْبِ بحيث يستوي الظاهر بعده» (licensed؛ LAB-04، SIB-06)؛ root قصم «كَسْرٌ من الأصل أو الصلْبِ بحيث يستوي الظاهر بعده» (licensed؛ LAB-04)؛ root قصو «الطَّرَفُ البعيد من شيء ممتد» (licensed؛ LAB-05، SIB-06)؛ root قصو «الطَّرَفُ البعيد من شيء ممتد» (licensed؛ LAB-05)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02، GUT-01، LAB-01)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02، GUT-01)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02، LAB-01)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02، LAB-02)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (licensed؛ DENT-02)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ GUT-01، LAB-01)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ GUT-01)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ LAB-01، SIB-02)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ LAB-01)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ LAB-02)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ SIB-02)؛ root كسب «جمع الشيء وتحصيله شيئًا بعد شيء بجهد» (licensed؛ مباشر)؛ root كسف «قطع وإبانة لجزء من شيء عريض أو دقيق متماسك» (licensed؛ GUT-01)؛ root كسف «قطع وإبانة لجزء من شيء عريض أو دقيق متماسك» (licensed؛ LAB-02)؛ root كسف «قطع وإبانة لجزء من شيء عريض أو دقيق متماسك» (licensed؛ SIB-02)؛ root كسف «قطع وإبانة لجزء من شيء عريض أو دقيق متماسك» (licensed؛ مباشر)؛ root كسو «ستر الشيء وتغطيته شمولًا بما هو كالغشاء» (licensed؛ LAB-05)؛ root كشف «تنحي ما شأنه أن يغطي من ظاهر الشيء فيظهر ما تحته» (licensed؛ SIB-01)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)
 - المعنى من قاموس الفرع: כספי `kaspí`، adj، «silvery, metallic» [Kaikki Hebrew، السطر 10326]؛ כספית `kaspít`، noun، «mercury (a silvery-coloured, metallic chemical element (symbol Hg) with the atomic number 80; it is liquid at room temperature, and toxic)» [Kaikki Hebrew، السطر 1107]؛ כסף `késef`، noun، «silver (a lustrous, white, metallic element, atomic number 47, atomic weight 107.87, symbol Ag)» [Kaikki Hebrew، السطر 2247]؛ כספומט `kaspomát`، noun، «cashpoint, ATM, automated teller machine» [Kaikki Hebrew، السطر 7993]
@@ -1025,14 +1435,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10326:en-כספי-he-adj-DJrDmEvv: الرسم=כספי، الرومنة=kaspí، الصنف=adj، المعنى=silvery, metallic، السلف/الخلف=From כֶּסֶף (késef, “silver; money”) + ־י (-í).، القرض=لا وسم آلي؛ kaikki_hebrew:1107:en-כספית-he-noun-Xj-YQo9K: الرسم=כספית، الرومنة=kaspít، الصنف=noun، المعنى=mercury (a silvery-coloured, metallic chemical element (symbol Hg) with the atomic number 80; it is liquid at room temperature, and toxic)، السلف/الخلف=כֶּסֶף (kesef) + ־ית (ít)، القرض=لا وسم آلي؛ kaikki_hebrew:2247:en-כסף-he-noun-VAkc1BOP: الرسم=כסף، الرومنة=késef، الصنف=noun، المعنى=silver (a lustrous, white, metallic element, atomic number 47, atomic weight 107.87, symbol Ag)، السلف/الخلف=Compare Akkadian 𒆬𒌓 (kaspum).، القرض=لا وسم آلي؛ kaikki_hebrew:7993:en-כספומט-he-noun-bInU89OM: الرسم=כספומט، الرومنة=kaspomát، الصنف=noun، المعنى=cashpoint, ATM, automated teller machine، السلف/الخلف=Blend of כֶּסֶף (késef, “money”) + אוֹטוֹמָט (otomát, “automat”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:212339216092b500ed7b1ace -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 13/13؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:6ddec1a4134cc94383505005`، ה־ר־ס (الرتبة 43)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=הרס «الهدم والتدمير» وحده، على مدار الدق والكسر؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ה־ר־ס `h-r-s`، root، «Forming words relating to destruction.» [Kaikki Hebrew، السطر 5096]؛ הרס `héres`، noun، «destruction (the act of destroying)» [Kaikki Hebrew، السطر 5667]؛ הרס `harás`، verb، «to destroy, to demolish, to tear down» [Kaikki Hebrew، السطر 5668]؛ הרץ `herts`، noun، «hertz (in the International System of Units, the derived unit of frequency; one (period or cycle of any periodic event) per second)» [Kaikki Hebrew، السطر 5822]
 - أقدمُ صورةٍ مستعادة: Compare Arabic هَرْس (hars, “grinding, milling”).؛ Compare Arabic هَرْس (hars, “grinding, milling”).
@@ -1040,7 +1460,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حرث «شق السطح الملتئم، وإثارته، بإخراج بعض ما استوى به ظاهره كُتَلًا» (licensed؛ DENT-02، GUT-04)؛ root حرث «شق السطح الملتئم، وإثارته، بإخراج بعض ما استوى به ظاهره كُتَلًا» (licensed؛ DENT-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ GUT-04، SIB-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ GUT-04)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ SIB-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ مباشر)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ GUT-04، SIB-02)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ GUT-04، SIB-06)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ GUT-04)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ SIB-02)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ SIB-06)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ مباشر)؛ root حنث «ثِقَلُ الشيء ثقلًا بالغا» (licensed؛ DENT-02، GUT-04، LIQ-03)؛ root حنث «ثِقَلُ الشيء ثقلًا بالغا» (licensed؛ DENT-02، LIQ-03)؛ root خرص «خلوص الشيء من آخر مجتمعًا في استواء، أو تحدد» (licensed؛ GUT-05، SIB-06)؛ root خرص «خلوص الشيء من آخر مجتمعًا في استواء، أو تحدد» (licensed؛ GUT-05)؛ root عرش «تفرع وانفراش يمتسك مشتبكاً في أعلى» (licensed؛ GUT-04، SIB-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `هرس` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-02)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04)؛ nucleus ءل «» (licensed؛ GUT-04، LIQ-01)
 - مسارُ الصوت: root حرث «شق السطح الملتئم، وإثارته، بإخراج بعض ما استوى به ظاهره كُتَلًا» (licensed؛ DENT-02، GUT-04)؛ root حرث «شق السطح الملتئم، وإثارته، بإخراج بعض ما استوى به ظاهره كُتَلًا» (licensed؛ DENT-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ GUT-04، SIB-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ GUT-04)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ SIB-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ مباشر)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ GUT-04، SIB-02)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ GUT-04، SIB-06)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ GUT-04)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ SIB-02)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ SIB-06)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ مباشر)؛ root حنث «ثِقَلُ الشيء ثقلًا بالغا» (licensed؛ DENT-02، GUT-04، LIQ-03)؛ root حنث «ثِقَلُ الشيء ثقلًا بالغا» (licensed؛ DENT-02، LIQ-03)؛ root خرص «خلوص الشيء من آخر مجتمعًا في استواء، أو تحدد» (licensed؛ GUT-05، SIB-06)؛ root خرص «خلوص الشيء من آخر مجتمعًا في استواء، أو تحدد» (licensed؛ GUT-05)؛ root عرش «تفرع وانفراش يمتسك مشتبكاً في أعلى» (licensed؛ GUT-04، SIB-01)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-02)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04)؛ nucleus ءل «» (licensed؛ GUT-04، LIQ-01)
 - المعنى من قاموس الفرع: ה־ר־ס `h-r-s`، root، «Forming words relating to destruction.» [Kaikki Hebrew، السطر 5096]؛ הרס `héres`، noun، «destruction (the act of destroying)» [Kaikki Hebrew، السطر 5667]؛ הרס `harás`، verb، «to destroy, to demolish, to tear down» [Kaikki Hebrew، السطر 5668]؛ הרץ `herts`، noun، «hertz (in the International System of Units, the derived unit of frequency; one (period or cycle of any periodic event) per second)» [Kaikki Hebrew، السطر 5822]
@@ -1049,14 +1469,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:5096:en-ה־ר־ס-he-root-1CIPPJQZ: الرسم=ה־ר־ס، الرومنة=h-r-s، الصنف=root، المعنى=Forming words relating to destruction.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5667:en-הרס-he-noun-QnkNO0o5: الرسم=הרס، الرومنة=héres، الصنف=noun، المعنى=destruction (the act of destroying)، السلف/الخلف=Compare Arabic هَرْس (hars, “grinding, milling”).، القرض=لا وسم آلي؛ kaikki_hebrew:5668:en-הרס-he-verb-QP2RsijE: الرسم=הרס، الرومنة=harás، الصنف=verb، المعنى=to destroy, to demolish, to tear down، السلف/الخلف=Compare Arabic هَرْس (hars, “grinding, milling”).، القرض=لا وسم آلي؛ kaikki_hebrew:5822:en-הרץ-he-noun-~RLUqzlV: الرسم=הרץ، الرومنة=herts، الصنف=noun، المعنى=hertz (in the International System of Units, the derived unit of frequency; one (period or cycle of any periodic event) per second)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-ECHO؛ הרס «الهدم والتدمير» وحده، على مدار الدق والكسر؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:6ddec1a4134cc94383505005 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `هرس`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `هرس`، `دق`، `كسر`.
+  - سند الفرع المنشور: Compare Arabic هَرْس (hars, “grinding, milling”). | Compare Arabic هَرْس (hars, “grinding, milling”).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:6dcc0acd465a9720c3eedba6`، אהיה אשר אהיה (الرتبة 44)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: הוה `hĕwē`، verb، «alternative form of הֱיֵה (hĕyē): masculine singular imperative of הָיָה (hāyā)» [Kaikki Hebrew، السطر 11044]؛ היינו `hayínu`، verb، «First-person plural past (suffix conjugation) of היה (hayá).» [Kaikki Hebrew، السطر 11067]؛ אהיה אשר אהיה `ehyé ashér ehyé`، name، «An epithet of God, usually translated as "I Am That I Am" or "I Am Who I Am"» [Kaikki Hebrew، السطر 11233]؛ היה היה `hayó hayá`، phrase، «once upon a time» [Kaikki Hebrew، السطر 14590]؛ היו `hayú`، verb، «Third-person plural past (suffix conjugation) of היה (hayá)» [Kaikki Hebrew، السطر 3529]؛ יהי `y'hí`، verb، «Third-person masculine singular jussive (prefix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 3767]؛ הייתה `hay'tá`، verb، «Third-person feminine singular past (suffix conjugation) of היה (hayá).» [Kaikki Hebrew، السطر 3932]؛ היתה `haitá`، verb، «Third-person feminine singular past (suffix conjugation) of הָיָה (hayá)» [Kaikki Hebrew، السطر 3933]؛ הייתי `hayíti`، verb، «First-person singular past (suffix conjugation) of היה (hayá)» [Kaikki Hebrew، السطر 4421]؛ היית `hayíta`، verb، «Second-person masculine singular past (suffix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 4431]؛ היית `hayít`، verb، «Second-person feminine singular past (suffix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 4432]؛ היה `hayá`، verb، «to be:» [Kaikki Hebrew، السطر 495]؛ אהיה `ehyé`، verb، «first-person singular future of הָיָה (hayá)» [Kaikki Hebrew، السطر 6679]؛ ויהי `vayhí`، verb، «Third-person masculine singular vav-consecutive imperfect (hence past tense) of הָיָה (hayá).» [Kaikki Hebrew، السطر 7139]؛ יהיה `yihyé`، verb، «Third-person masculine singular future (prefix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 7346]؛ תהיה `tihyé`، verb، «Second-person masculine singular future (prefix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 7348]؛ תהיו `tihiyú`، verb، «second-person masculine plural future of היה (hayá)» [Kaikki Hebrew، السطر 8238]
 - أقدمُ صورةٍ مستعادة: Cognate with Aramaic הֲוָא (hăwā, “to be, to exist”). According to Huehnergard (2011), from Proto-Semitic *hwy (“to fall, happen, be, become”) and thus also cognate with Arabic هوى؛ Literally, “I will be what I will be”.؛ From Proto-Semitic *hwy (“to fall, happen, be, become”).
@@ -1064,7 +1498,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حبس «امتساك الشيء في حيز؛ لا يتسيّب أو ينفذ منه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root حبس «امتساك الشيء في حيز؛ لا يتسيّب أو ينفذ منه» (scope-gap؛ LAB-05، SIB-04)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (scope-gap؛ LAB-05، SIB-04)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سبغ «أن يمتد من الشيء ما يصير كالغشاء الساتر لما وراءه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GUT-04، LAB-06، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GUT-04، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، LAB-06، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GLD-01، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ SIB-04)؛ root سيغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سيغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، SIB-04)؛ root عبس «جهامة في الوجه تملأ النفس وحشة» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ LAB-06)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ مباشر)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (manual-condition؛ GLD-01)؛ root هيه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ مباشر)؛ root هيه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)
 - مسارُ الصوت: root حبس «امتساك الشيء في حيز؛ لا يتسيّب أو ينفذ منه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root حبس «امتساك الشيء في حيز؛ لا يتسيّب أو ينفذ منه» (scope-gap؛ LAB-05، SIB-04)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (scope-gap؛ LAB-05، SIB-04)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سبغ «أن يمتد من الشيء ما يصير كالغشاء الساتر لما وراءه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GUT-04، LAB-06، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GUT-04، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، LAB-06، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GLD-01، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ SIB-04)؛ root سيغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سيغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، SIB-04)؛ root عبس «جهامة في الوجه تملأ النفس وحشة» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ LAB-06)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ مباشر)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (manual-condition؛ GLD-01)؛ root هيه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ مباشر)؛ root هيه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (manual-condition؛ GLD-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)
 - المعنى من قاموس الفرع: הוה `hĕwē`، verb، «alternative form of הֱיֵה (hĕyē): masculine singular imperative of הָיָה (hāyā)» [Kaikki Hebrew، السطر 11044]؛ היינו `hayínu`، verb، «First-person plural past (suffix conjugation) of היה (hayá).» [Kaikki Hebrew، السطر 11067]؛ אהיה אשר אהיה `ehyé ashér ehyé`، name، «An epithet of God, usually translated as "I Am That I Am" or "I Am Who I Am"» [Kaikki Hebrew، السطر 11233]؛ היה היה `hayó hayá`، phrase، «once upon a time» [Kaikki Hebrew، السطر 14590]؛ היו `hayú`، verb، «Third-person plural past (suffix conjugation) of היה (hayá)» [Kaikki Hebrew، السطر 3529]؛ יהי `y'hí`، verb، «Third-person masculine singular jussive (prefix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 3767]؛ הייתה `hay'tá`، verb، «Third-person feminine singular past (suffix conjugation) of היה (hayá).» [Kaikki Hebrew، السطر 3932]؛ היתה `haitá`، verb، «Third-person feminine singular past (suffix conjugation) of הָיָה (hayá)» [Kaikki Hebrew، السطر 3933]؛ הייתי `hayíti`، verb، «First-person singular past (suffix conjugation) of היה (hayá)» [Kaikki Hebrew، السطر 4421]؛ היית `hayíta`، verb، «Second-person masculine singular past (suffix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 4431]؛ היית `hayít`، verb، «Second-person feminine singular past (suffix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 4432]؛ היה `hayá`، verb، «to be:» [Kaikki Hebrew، السطر 495]؛ אהיה `ehyé`، verb، «first-person singular future of הָיָה (hayá)» [Kaikki Hebrew، السطر 6679]؛ ויהי `vayhí`، verb، «Third-person masculine singular vav-consecutive imperfect (hence past tense) of הָיָה (hayá).» [Kaikki Hebrew، السطر 7139]؛ יהיה `yihyé`، verb، «Third-person masculine singular future (prefix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 7346]؛ תהיה `tihyé`، verb، «Second-person masculine singular future (prefix conjugation) of הָיָה (hayá).» [Kaikki Hebrew، السطر 7348]؛ תהיו `tihiyú`، verb، «second-person masculine plural future of היה (hayá)» [Kaikki Hebrew، السطر 8238]
@@ -1073,14 +1507,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11044:en-הוה-he-verb-Ih5nvG3a: الرسم=הוה، الرومنة=hĕwē، الصنف=verb، المعنى=alternative form of הֱיֵה (hĕyē): masculine singular imperative of הָיָה (hāyā)، السلف/الخلف=Cognate with Aramaic הֲוָא (hăwā, “to be, to exist”). According to Huehnergard (2011), from Proto-Semitic *hwy (“to fall, happen, be, become”) and thus also cognate with Arabic هوى، القرض=لا وسم آلي؛ kaikki_hebrew:11067:en-היינו-he-verb-F8OLq70j: الرسم=היינו، الرومنة=hayínu، الصنف=verb، المعنى=First-person plural past (suffix conjugation) of היה (hayá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:11233:en-אהיה_אשר_אהיה-he-name-KCCD78Ad: الرسم=אהיה אשר אהיה، الرومنة=ehyé ashér ehyé، الصنف=name، المعنى=An epithet of God, usually translated as "I Am That I Am" or "I Am Who I Am"، السلف/الخلف=Literally, “I will be what I will be”.، القرض=لا وسم آلي؛ kaikki_hebrew:14590:en-היה_היה-he-phrase-cc~m2v9n: الرسم=היה היה، الرومنة=hayó hayá، الصنف=phrase، المعنى=once upon a time، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3529:en-היו-he-verb-dxJdNsfB: الرسم=היו، الرومنة=hayú، الصنف=verb، المعنى=Third-person plural past (suffix conjugation) of היה (hayá)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3767:en-יהי-he-verb-GUrRPo5z: الرسم=יהי، الرومنة=y'hí، الصنف=verb، المعنى=Third-person masculine singular jussive (prefix conjugation) of הָיָה (hayá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3932:en-הייתה-he-verb-sG5sJCvO: الرسم=הייתה، الرومنة=hay'tá، الصنف=verb، المعنى=Third-person feminine singular past (suffix conjugation) of היה (hayá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3933:en-היתה-he-verb-ijGLb7zU: الرسم=היתה، الرومنة=haitá، الصنف=verb، المعنى=Third-person feminine singular past (suffix conjugation) of הָיָה (hayá)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4421:en-הייתי-he-verb-aEx7WNQY: الرسم=הייתי، الرومنة=hayíti، الصنف=verb، المعنى=First-person singular past (suffix conjugation) of היה (hayá)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4431:en-היית-he-verb-tli8oYTe: الرسم=היית، الرومنة=hayíta، الصنف=verb، المعنى=Second-person masculine singular past (suffix conjugation) of הָיָה (hayá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4432:en-היית-he-verb-hxffvFXu: الرسم=היית، الرومنة=hayít، الصنف=verb، المعنى=Second-person feminine singular past (suffix conjugation) of הָיָה (hayá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:495:en-היה-he-verb-Fcj1u8cs: الرسم=היה، الرومنة=hayá، الصنف=verb، المعنى=to be:، السلف/الخلف=From Proto-Semitic *hwy (“to fall, happen, be, become”).، القرض=لا وسم آلي؛ kaikki_hebrew:6679:en-אהיה-he-verb-ffB1zEv~: الرسم=אהיה، الرومنة=ehyé، الصنف=verb، المعنى=first-person singular future of הָיָה (hayá)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7139:en-ויהי-he-verb-wmty9Eo2: الرسم=ויהי، الرومنة=vayhí، الصنف=verb، المعنى=Third-person masculine singular vav-consecutive imperfect (hence past tense) of הָיָה (hayá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7346:en-יהיה-he-verb-dY3RfCn4: الرسم=יהיה، الرومنة=yihyé، الصنف=verb، المعنى=Third-person masculine singular future (prefix conjugation) of הָיָה (hayá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7348:en-תהיה-he-verb-eybBqeVw: الرسم=תהיה، الرومنة=tihyé، الصنف=verb، المعنى=Second-person masculine singular future (prefix conjugation) of הָיָה (hayá).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8238:en-תהיו-he-verb-Zl2ewa-a: الرسم=תהיו، الرومنة=tihiyú، الصنف=verb، المعنى=second-person masculine plural future of היה (hayá)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:6dcc0acd465a9720c3eedba6 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:d99b3f180e8e026a97d55065`، עוד (الرتبة 45)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עוד `od`، adv، «still, longer, more; no longer, no more, any longer (signifies that an action which began in the past is uninterruptedly ongoing in the present situation)» [Kaikki Hebrew، السطر 3230]؛ עוד `od`، det، «more, another» [Kaikki Hebrew، السطر 3231]؛ עוד `od`، pron، «more» [Kaikki Hebrew، السطر 3232]؛ עוד `'ud`، noun، «oud» [Kaikki Hebrew، السطر 3233]
 - أقدمُ صورةٍ مستعادة: Related to Arabic عَادَ (ʕāda, “to return”).؛ Related to Arabic عَادَ (ʕāda, “to return”).؛ Related to Arabic عَادَ (ʕāda, “to return”).؛ Borrowed from Arabic عُود (ʕūd).
@@ -1088,7 +1532,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عبد «حصر شديد للشيء يجعله رقيقًا رخوا ناعما غير صلب» (licensed؛ LAB-05)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ DENT-06، LAB-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ DENT-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ LAB-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ مباشر)؛ root عوذ «التصاق الشيء الغض بصلب يمنع تناوله» (scope-gap؛ DENT-03، LAB-06)؛ root عوذ «التصاق الشيء الغض بصلب يمنع تناوله» (scope-gap؛ DENT-03)؛ root عيد «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-05)؛ nucleus بض «التجمع الرخو مع نصاعة» (licensed؛ LAB-05)؛ nucleus عب «اجتماع الرخو، أو المائع، أو التخلخل في الحيز» (licensed؛ LAB-05)؛ nucleus عد «الامتداد بالتوالي ونحوه» (licensed؛ DENT-06)
 - مسارُ الصوت: root عبد «حصر شديد للشيء يجعله رقيقًا رخوا ناعما غير صلب» (licensed؛ LAB-05)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ DENT-06، LAB-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ DENT-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ LAB-06)؛ root عود «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (licensed؛ مباشر)؛ root عوذ «التصاق الشيء الغض بصلب يمنع تناوله» (scope-gap؛ DENT-03، LAB-06)؛ root عوذ «التصاق الشيء الغض بصلب يمنع تناوله» (scope-gap؛ DENT-03)؛ root عيد «استمرار الشيء امتدادًا، أو تكررًا وتجددًا» (manual-condition؛ GLD-01)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-05)؛ nucleus بض «التجمع الرخو مع نصاعة» (licensed؛ LAB-05)؛ nucleus عب «اجتماع الرخو، أو المائع، أو التخلخل في الحيز» (licensed؛ LAB-05)؛ nucleus عد «الامتداد بالتوالي ونحوه» (licensed؛ DENT-06)
 - المعنى من قاموس الفرع: עוד `od`، adv، «still, longer, more; no longer, no more, any longer (signifies that an action which began in the past is uninterruptedly ongoing in the present situation)» [Kaikki Hebrew، السطر 3230]؛ עוד `od`، det، «more, another» [Kaikki Hebrew، السطر 3231]؛ עוד `od`، pron، «more» [Kaikki Hebrew، السطر 3232]؛ עוד `'ud`، noun، «oud» [Kaikki Hebrew، السطر 3233]
@@ -1097,14 +1541,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:3230:en-עוד-he-adv-2R72TcEh: الرسم=עוד، الرومنة=od، الصنف=adv، المعنى=still, longer, more; no longer, no more, any longer (signifies that an action which began in the past is uninterruptedly ongoing in the present situation)، السلف/الخلف=Related to Arabic عَادَ (ʕāda, “to return”).، القرض=لا وسم آلي؛ kaikki_hebrew:3231:en-עוד-he-det-JfYNa3VN: الرسم=עוד، الرومنة=od، الصنف=det، المعنى=more, another، السلف/الخلف=Related to Arabic عَادَ (ʕāda, “to return”).، القرض=لا وسم آلي؛ kaikki_hebrew:3232:en-עוד-he-pron-GHiXzgr8: الرسم=עוד، الرومنة=od، الصنف=pron، المعنى=more، السلف/الخلف=Related to Arabic عَادَ (ʕāda, “to return”).، القرض=لا وسم آلي؛ kaikki_hebrew:3233:en-עוד-he-noun-HdVzcRSo: الرسم=עוד، الرومنة='ud، الصنف=noun، المعنى=oud، السلف/الخلف=Borrowed from Arabic عُود (ʕūd).، القرض=وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:d99b3f180e8e026a97d55065 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: עוד، حسم الموجة 1 للرتبة 45.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:a82503cfe12f4d29c4ca40c8`، אהבת נפש (الرتبة 46)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מחלת נפש `makhalát néfesh`، noun، «mental illness» [Kaikki Hebrew، السطر 12398]؛ אהבת נפש `ahavát néfesh`، noun، «deep love» [Kaikki Hebrew، السطر 14816]؛ נפש `néfesh`، noun، «a soul, psyche (spirit of a person or animal)» [Kaikki Hebrew، السطر 7152]؛ פיקוח נפש `pikúakh néfesh`، noun، «The requirement to violate most Halacha, including Shabbat laws, to protect and preserve human life.» [Kaikki Hebrew، السطر 9396]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *napš-. Compare Akkadian 𒆒 (napāšum, “to breathe”), 𒍣 (napištum, “life”), Arabic نَفْس (nafs, “a soul, a life”), and Ge'ez ነፍስ (näfs).
@@ -1112,7 +1566,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root رفث «تسيب بكثافة وانتشار» (licensed؛ DENT-02، LIQ-03)؛ root نبت «امتداد الزرع الغض من الأرض ساميًا إلى أعلى» (licensed؛ LAB-01، SIB-05)؛ root نبت «امتداد الزرع الغض من الأرض ساميًا إلى أعلى» (licensed؛ SIB-05)؛ root نفث «تَفْلُ الريق ونحوه من الفم او إخراجه بنحو النفخ» (licensed؛ DENT-02، LAB-02)؛ root نفث «تَفْلُ الريق ونحوه من الفم او إخراجه بنحو النفخ» (licensed؛ DENT-02)؛ root نفس «لطيف يسري في فتوق أثناء الشيء؛ فيصلحه، ويتيح له التصرف» (licensed؛ SIB-01)؛ root نفش «تخفيف كثافة الشيء بتفريق بعضه عن بعض جذبًا، أو نشرًا» (licensed؛ LAB-02)؛ root نفش «تخفيف كثافة الشيء بتفريق بعضه عن بعض جذبًا، أو نشرًا» (licensed؛ مباشر)؛ root نوش «تناول الشيء وأخذه من بعيد ببسط بعض الجسم طويلًا حتى يناله» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-02)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-01)
 - مسارُ الصوت: root رفث «تسيب بكثافة وانتشار» (licensed؛ DENT-02، LIQ-03)؛ root نبت «امتداد الزرع الغض من الأرض ساميًا إلى أعلى» (licensed؛ LAB-01، SIB-05)؛ root نبت «امتداد الزرع الغض من الأرض ساميًا إلى أعلى» (licensed؛ SIB-05)؛ root نفث «تَفْلُ الريق ونحوه من الفم او إخراجه بنحو النفخ» (licensed؛ DENT-02، LAB-02)؛ root نفث «تَفْلُ الريق ونحوه من الفم او إخراجه بنحو النفخ» (licensed؛ DENT-02)؛ root نفس «لطيف يسري في فتوق أثناء الشيء؛ فيصلحه، ويتيح له التصرف» (licensed؛ SIB-01)؛ root نفش «تخفيف كثافة الشيء بتفريق بعضه عن بعض جذبًا، أو نشرًا» (licensed؛ LAB-02)؛ root نفش «تخفيف كثافة الشيء بتفريق بعضه عن بعض جذبًا، أو نشرًا» (licensed؛ مباشر)؛ root نوش «تناول الشيء وأخذه من بعيد ببسط بعض الجسم طويلًا حتى يناله» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-02)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-01)
 - المعنى من قاموس الفرع: מחלת נפש `makhalát néfesh`، noun، «mental illness» [Kaikki Hebrew، السطر 12398]؛ אהבת נפש `ahavát néfesh`، noun، «deep love» [Kaikki Hebrew، السطر 14816]؛ נפש `néfesh`، noun، «a soul, psyche (spirit of a person or animal)» [Kaikki Hebrew، السطر 7152]؛ פיקוח נפש `pikúakh néfesh`، noun، «The requirement to violate most Halacha, including Shabbat laws, to protect and preserve human life.» [Kaikki Hebrew، السطر 9396]
@@ -1121,14 +1575,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:12398:en-מחלת_נפש-he-noun--3jOnEU0: الرسم=מחלת נפש، الرومنة=makhalát néfesh، الصنف=noun، المعنى=mental illness، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14816:en-אהבת_נפש-he-noun-vrN5gceQ: الرسم=אהבת נפש، الرومنة=ahavát néfesh، الصنف=noun، المعنى=deep love، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7152:en-נפש-he-noun-2IKXaD13: الرسم=נפש، الرومنة=néfesh، الصنف=noun، المعنى=a soul, psyche (spirit of a person or animal)، السلف/الخلف=From Proto-Semitic *napš-. Compare Akkadian 𒆒 (napāšum, “to breathe”), 𒍣 (napištum, “life”), Arabic نَفْس (nafs, “a soul, a life”), and Ge'ez ነፍስ (näfs).، القرض=لا وسم آلي؛ kaikki_hebrew:9396:en-פיקוח_נפש-he-noun-T1Tx~zl2: الرسم=פיקוח נפש، الرومنة=pikúakh néfesh، الصنف=noun، المعنى=The requirement to violate most Halacha, including Shabbat laws, to protect and preserve human life.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:a82503cfe12f4d29c4ca40c8 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: נפש، إعادة فحص الرتبة 46.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:a27a8a5353f3af32d2d405cd`، גשר תלוי (الرتبة 47)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: תלה `talá`، verb، «To hang (clothing, curtains, a shelf, etc.), as on a hook or hanger.» [Kaikki Hebrew، السطر 11012]؛ תלייה `t'liyá`، noun، «suspension, hanging» [Kaikki Hebrew، السطر 14670]؛ גשר תלוי `gésher talúi`، noun، «suspension bridge» [Kaikki Hebrew، السطر 14893]؛ תלוי `talúi`، adj، «Hanging, suspended, or hung (on or from something).» [Kaikki Hebrew، السطر 6714]
 - أقدمُ صورةٍ مستعادة: Passive participle of תלה (talá). In the figurative sense, compare English hang.
@@ -1136,7 +1600,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root طرح «ابتعاد الشيء أو إبعاده مسافة عظيمة بدفع أو قوة» (licensed؛ GUT-04، LIQ-01)؛ root طرح «ابتعاد الشيء أو إبعاده مسافة عظيمة بدفع أو قوة» (licensed؛ LIQ-01)؛ root طلح «غلظ مع امتداد» (licensed؛ DENT-05، GUT-04)؛ root طلح «غلظ مع امتداد» (licensed؛ DENT-05)؛ root طلح «غلظ مع امتداد» (licensed؛ GUT-04)؛ root طلح «غلظ مع امتداد» (licensed؛ مباشر)؛ root طلع «نفاذ إلى أعلى من أثناء حاجز رقيق» (licensed؛ DENT-05، GUT-04)؛ root طلع «نفاذ إلى أعلى من أثناء حاجز رقيق» (licensed؛ GUT-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تء «الوصول والصدم» (licensed؛ DENT-05، GUT-04)؛ nucleus تء «الوصول والصدم» (licensed؛ GUT-04)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ DENT-05، GUT-04)
 - مسارُ الصوت: root طرح «ابتعاد الشيء أو إبعاده مسافة عظيمة بدفع أو قوة» (licensed؛ GUT-04، LIQ-01)؛ root طرح «ابتعاد الشيء أو إبعاده مسافة عظيمة بدفع أو قوة» (licensed؛ LIQ-01)؛ root طلح «غلظ مع امتداد» (licensed؛ DENT-05، GUT-04)؛ root طلح «غلظ مع امتداد» (licensed؛ DENT-05)؛ root طلح «غلظ مع امتداد» (licensed؛ GUT-04)؛ root طلح «غلظ مع امتداد» (licensed؛ مباشر)؛ root طلع «نفاذ إلى أعلى من أثناء حاجز رقيق» (licensed؛ DENT-05، GUT-04)؛ root طلع «نفاذ إلى أعلى من أثناء حاجز رقيق» (licensed؛ GUT-04)؛ nucleus تء «الوصول والصدم» (licensed؛ DENT-05، GUT-04)؛ nucleus تء «الوصول والصدم» (licensed؛ GUT-04)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ DENT-05، GUT-04)
 - المعنى من قاموس الفرع: תלה `talá`، verb، «To hang (clothing, curtains, a shelf, etc.), as on a hook or hanger.» [Kaikki Hebrew، السطر 11012]؛ תלייה `t'liyá`، noun، «suspension, hanging» [Kaikki Hebrew، السطر 14670]؛ גשר תלוי `gésher talúi`، noun، «suspension bridge» [Kaikki Hebrew، السطر 14893]؛ תלוי `talúi`، adj، «Hanging, suspended, or hung (on or from something).» [Kaikki Hebrew، السطر 6714]
@@ -1145,14 +1609,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11012:en-תלה-he-verb-Oz~1tcwI: الرسم=תלה، الرومنة=talá، الصنف=verb، المعنى=To hang (clothing, curtains, a shelf, etc.), as on a hook or hanger.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14670:en-תלייה-he-noun-oPt56RXi: الرسم=תלייה، الرومنة=t'liyá، الصنف=noun، المعنى=suspension, hanging، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14893:en-גשר_תלוי-he-noun-I1wyDXPN: الرسم=גשר תלוי، الرومنة=gésher talúi، الصنف=noun، المعنى=suspension bridge، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6714:en-תלוי-he-adj-FFfRu6Er: الرسم=תלוי، الرومنة=talúi، الصنف=adj، المعنى=Hanging, suspended, or hung (on or from something).، السلف/الخلف=Passive participle of תלה (talá). In the figurative sense, compare English hang.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:a27a8a5353f3af32d2d405cd -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:9472ad40e60abb6d4da4798f`، בין המצרים (الرتبة 48)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מצר יבשה `meitsár yabashá`، noun، «isthmus» [Kaikki Hebrew، السطر 15350]؛ בין המצרים `bén ham'tsarím`، name، «the Three Weeks (the period from the seventeenth of Tammuz through roughly the ninth of Av).» [Kaikki Hebrew، السطر 6702]؛ מצר `metsár`، noun، «strait, isthmus» [Kaikki Hebrew، السطر 8190]؛ מיצר `metsár`، noun، «Excessive spelling of מצר» [Kaikki Hebrew، السطر 9310]
 - أقدمُ صورةٍ مستعادة: Ultimately from Lamentations 1:3, where it is used to mean "between the straits", i.e. dire straits.
@@ -1160,7 +1634,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بسر «طَلَبُ الشيء قبل تهيّؤ ظروفه، أو استكراه الشيء على الانفتاح عما في باطنه» (licensed؛ LAB-04)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-04، SIB-06)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-04)؛ root مثل «تشخص الشيء قائماً على هيأة، أو صفات معينة» (licensed؛ DENT-02، LIQ-01)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ SIB-02)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ SIB-06)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ مباشر)؛ root نثر «تفرق الدقاق الكثيفة المتجمعة منتشرة» (licensed؛ DENT-02، LIQ-02)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (licensed؛ LIQ-02)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ LIQ-02، SIB-06)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ LIQ-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 7/7؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-02)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04)
 - مسارُ الصوت: root بسر «طَلَبُ الشيء قبل تهيّؤ ظروفه، أو استكراه الشيء على الانفتاح عما في باطنه» (licensed؛ LAB-04)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-04، SIB-06)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-04)؛ root مثل «تشخص الشيء قائماً على هيأة، أو صفات معينة» (licensed؛ DENT-02، LIQ-01)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ SIB-02)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ SIB-06)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ مباشر)؛ root نثر «تفرق الدقاق الكثيفة المتجمعة منتشرة» (licensed؛ DENT-02، LIQ-02)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (licensed؛ LIQ-02)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ LIQ-02، SIB-06)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ LIQ-02)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-02)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04)
 - المعنى من قاموس الفرع: מצר יבשה `meitsár yabashá`، noun، «isthmus» [Kaikki Hebrew، السطر 15350]؛ בין המצרים `bén ham'tsarím`، name، «the Three Weeks (the period from the seventeenth of Tammuz through roughly the ninth of Av).» [Kaikki Hebrew، السطر 6702]؛ מצר `metsár`، noun، «strait, isthmus» [Kaikki Hebrew، السطر 8190]؛ מיצר `metsár`، noun، «Excessive spelling of מצר» [Kaikki Hebrew، السطر 9310]
@@ -1169,14 +1643,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:15350:en-מצר_יבשה-he-noun-WdeYHWnQ: الرسم=מצר יבשה، الرومنة=meitsár yabashá، الصنف=noun، المعنى=isthmus، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6702:en-בין_המצרים-he-name-4W9WBUkF: الرسم=בין המצרים، الرومنة=bén ham'tsarím، الصنف=name، المعنى=the Three Weeks (the period from the seventeenth of Tammuz through roughly the ninth of Av).، السلف/الخلف=Ultimately from Lamentations 1:3, where it is used to mean "between the straits", i.e. dire straits.، القرض=لا وسم آلي؛ kaikki_hebrew:8190:en-מצר-he-noun-QRKJqpUU: الرسم=מצר، الرومنة=metsár، الصنف=noun، المعنى=strait, isthmus، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9310:en-מיצר-he-noun-pOkRfZxA: الرسم=מיצר، الرومنة=metsár، الصنف=noun، المعنى=Excessive spelling of מצר، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:9472ad40e60abb6d4da4798f -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 7/7؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:ea3728dadb3677049e71ccd7`، על רגל אחת (الرتبة 49)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: רגל `régel`، noun، «foot, leg» [Kaikki Hebrew، السطر 309]؛ על רגל אחת `al régel achát`، adv، «briefly, quickly, by synopsis, without detail» [Kaikki Hebrew، السطر 4453]؛ רגליים `ragláyim`، noun، «excessive spelling of רַגְלַיִם: dual indefinite form of רֶגֶל (régel).» [Kaikki Hebrew، السطر 5240]؛ פשיטת רגל `pshitat-régel`، noun، «bankruptcy» [Kaikki Hebrew، السطر 6253]؛ רגליך `raglécha`، noun، «plural form of רֶגֶל (régel) with second-person masculine singular personal pronoun as possessor» [Kaikki Hebrew، السطر 6549]؛ רגליך `raglayích`، noun، «plural form of רֶגֶל (régel) with second-person feminine singular personal pronoun as possessor» [Kaikki Hebrew، السطر 6550]؛ רגלים `غير منشورة`، noun، «dual indefinite form of רֶגֶל (régel)» [Kaikki Hebrew، السطر 7682]؛ רגליו `ragláv`، noun، «plural form of רֶגֶל (régel) with third-person masculine singular personal pronoun as possessor» [Kaikki Hebrew، السطر 7683]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *rigl-.؛ From the Babylonian Talmud, Shabbat page 31. Literally, “on one leg”, or more loosely translated as “while standing on one leg”.؛ Compound of פְּשִׁיטָה (“extending”) + רֶגֶל (“leg”), literally “extending one's leg”. Based on an expression of unclear origin in Mishnah Ketubot 5:13, where the context clearly i
@@ -1184,7 +1668,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root رجل «اختلاف الحركة رأسيًا مع امتداد ونصب أو حمل رأسي» (licensed؛ GUT-03)؛ root رجل «اختلاف الحركة رأسيًا مع امتداد ونصب أو حمل رأسي» (licensed؛ مباشر)؛ root نكل «ضبط الشيء - بشديد أو صلب - لمنعه من التسيب» (licensed؛ GUT-02، LIQ-03)؛ root نكل «ضبط الشيء - بشديد أو صلب - لمنعه من التسيب» (licensed؛ LIQ-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05، LAB-01)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)
 - مسارُ الصوت: root رجل «اختلاف الحركة رأسيًا مع امتداد ونصب أو حمل رأسي» (licensed؛ GUT-03)؛ root رجل «اختلاف الحركة رأسيًا مع امتداد ونصب أو حمل رأسي» (licensed؛ مباشر)؛ root نكل «ضبط الشيء - بشديد أو صلب - لمنعه من التسيب» (licensed؛ GUT-02، LIQ-03)؛ root نكل «ضبط الشيء - بشديد أو صلب - لمنعه من التسيب» (licensed؛ LIQ-03)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05، LAB-01)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)
 - المعنى من قاموس الفرع: רגל `régel`، noun، «foot, leg» [Kaikki Hebrew، السطر 309]؛ על רגל אחת `al régel achát`، adv، «briefly, quickly, by synopsis, without detail» [Kaikki Hebrew، السطر 4453]؛ רגליים `ragláyim`، noun، «excessive spelling of רַגְלַיִם: dual indefinite form of רֶגֶל (régel).» [Kaikki Hebrew، السطر 5240]؛ פשיטת רגל `pshitat-régel`، noun، «bankruptcy» [Kaikki Hebrew، السطر 6253]؛ רגליך `raglécha`، noun، «plural form of רֶגֶל (régel) with second-person masculine singular personal pronoun as possessor» [Kaikki Hebrew، السطر 6549]؛ רגליך `raglayích`، noun، «plural form of רֶגֶל (régel) with second-person feminine singular personal pronoun as possessor» [Kaikki Hebrew، السطر 6550]؛ רגלים `غير منشورة`، noun، «dual indefinite form of רֶגֶל (régel)» [Kaikki Hebrew، السطر 7682]؛ רגליו `ragláv`، noun، «plural form of רֶגֶל (régel) with third-person masculine singular personal pronoun as possessor» [Kaikki Hebrew، السطر 7683]
@@ -1193,14 +1677,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:309:en-רגל-he-noun-Xac9Gpm4: الرسم=רגל، الرومنة=régel، الصنف=noun، المعنى=foot, leg، السلف/الخلف=From Proto-Semitic *rigl-.، القرض=لا وسم آلي؛ kaikki_hebrew:4453:en-על_רגל_אחת-he-adv-kyW-~kNe: الرسم=על רגל אחת، الرومنة=al régel achát، الصنف=adv، المعنى=briefly, quickly, by synopsis, without detail، السلف/الخلف=From the Babylonian Talmud, Shabbat page 31. Literally, “on one leg”, or more loosely translated as “while standing on one leg”.، القرض=لا وسم آلي؛ kaikki_hebrew:5240:en-רגליים-he-noun-p8rZXFEG: الرسم=רגליים، الرومنة=ragláyim، الصنف=noun، المعنى=excessive spelling of רַגְלַיִם: dual indefinite form of רֶגֶל (régel).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6253:en-פשיטת_רגל-he-noun-~cSRf3C9: الرسم=פשיטת רגל، الرومنة=pshitat-régel، الصنف=noun، المعنى=bankruptcy، السلف/الخلف=Compound of פְּשִׁיטָה (“extending”) + רֶגֶל (“leg”), literally “extending one's leg”. Based on an expression of unclear origin in Mishnah Ketubot 5:13, where the context clearly i، القرض=لا وسم آلي؛ kaikki_hebrew:6549:en-רגליך-he-noun-T223pJgl: الرسم=רגליך، الرومنة=raglécha، الصنف=noun، المعنى=plural form of רֶגֶל (régel) with second-person masculine singular personal pronoun as possessor، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6550:en-רגליך-he-noun-Rys7JSvu: الرسم=רגליך، الرومنة=raglayích، الصنف=noun، المعنى=plural form of רֶגֶל (régel) with second-person feminine singular personal pronoun as possessor، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7682:en-רגלים-he-noun-PRAXqkYV: الرسم=רגלים، الرومنة=غير منشورة، الصنف=noun، المعنى=dual indefinite form of רֶגֶל (régel)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7683:en-רגליו-he-noun-dLEzbQr0: الرسم=רגליו، الرومنة=ragláv، الصنف=noun، المعنى=plural form of רֶגֶל (régel) with third-person masculine singular personal pronoun as possessor، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:ea3728dadb3677049e71ccd7 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: רגל، الرتبة 49.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:356ed2ad36b7845a2fcf6edd`، ס־פ־ק (الرتبة 50)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ספק `safék`، noun، «doubt, uncertainty.» [Kaikki Hebrew، السطر 1730]؛ ספק `sapák`، noun، «supplier, provider» [Kaikki Hebrew، السطر 1731]؛ ספק `safák`، verb، «to strike, to clap, to hit» [Kaikki Hebrew، السطر 1734]؛ ס־פ־ק `s-p-q`، root، «Forming words pertaining to sufficing/enough or to flow and capacity.» [Kaikki Hebrew، السطر 1738]
 - أقدمُ صورةٍ مستعادة: From the root ס־פ־ק (s-p-q, “Forming words pertaining to doubt and skepticism.”).؛ From the root ס־פ־ק (s-p-q, “Forming words pertaining to sufficing or to flow and capacity.”).؛ Possibly imitative. Compare with spank.
@@ -1208,7 +1702,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ LAB-01، SIB-02)؛ root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ LAB-01)؛ root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ LAB-02)؛ root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ SIB-02)؛ root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ مباشر)؛ root سفك «إراقة المائع المحتبس في البدن بحدة أو قوة» (licensed؛ GUT-01)؛ root سوق «الدفع إلى الأمام أو إلى أعلى بقوة» (licensed؛ LAB-05)؛ root شفق «رقة جرمِ الشيء؛ لفقد الشدّة والغِلَظ من جوفه» (licensed؛ SIB-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بق «الثبات والكشف باتساع» (licensed؛ LAB-01)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ LAB-02)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ مباشر)؛ nucleus بك «الضغط والاحتباس» (licensed؛ GUT-01، LAB-01)
 - مسارُ الصوت: root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ LAB-01، SIB-02)؛ root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ LAB-01)؛ root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ LAB-02)؛ root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ SIB-02)؛ root سبق «تقدم الشيء من بين ما حوله في قوة وجد» (licensed؛ مباشر)؛ root سفك «إراقة المائع المحتبس في البدن بحدة أو قوة» (licensed؛ GUT-01)؛ root سوق «الدفع إلى الأمام أو إلى أعلى بقوة» (licensed؛ LAB-05)؛ root شفق «رقة جرمِ الشيء؛ لفقد الشدّة والغِلَظ من جوفه» (licensed؛ SIB-01)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ LAB-01)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ LAB-02)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ مباشر)؛ nucleus بك «الضغط والاحتباس» (licensed؛ GUT-01، LAB-01)
 - المعنى من قاموس الفرع: ספק `safék`، noun، «doubt, uncertainty.» [Kaikki Hebrew، السطر 1730]؛ ספק `sapák`، noun، «supplier, provider» [Kaikki Hebrew، السطر 1731]؛ ספק `safák`، verb، «to strike, to clap, to hit» [Kaikki Hebrew، السطر 1734]؛ ס־פ־ק `s-p-q`، root، «Forming words pertaining to sufficing/enough or to flow and capacity.» [Kaikki Hebrew، السطر 1738]
@@ -1217,14 +1711,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1730:en-ספק-he-noun-ZK5B8lXu: الرسم=ספק، الرومنة=safék، الصنف=noun، المعنى=doubt, uncertainty.، السلف/الخلف=From the root ס־פ־ק (s-p-q, “Forming words pertaining to doubt and skepticism.”).، القرض=لا وسم آلي؛ kaikki_hebrew:1731:en-ספק-he-noun-UVevb5Y4: الرسم=ספק، الرومنة=sapák، الصنف=noun، المعنى=supplier, provider، السلف/الخلف=From the root ס־פ־ק (s-p-q, “Forming words pertaining to sufficing or to flow and capacity.”).، القرض=لا وسم آلي؛ kaikki_hebrew:1734:en-ספק-he-verb-9aJrpiYU: الرسم=ספק، الرومنة=safák، الصنف=verb، المعنى=to strike, to clap, to hit، السلف/الخلف=Possibly imitative. Compare with spank.، القرض=لا وسم آلي؛ kaikki_hebrew:1738:en-ס־פ־ק-he-root-IBOODYek: الرسم=ס־פ־ק، الرومنة=s-p-q، الصنف=root، المعنى=Forming words pertaining to sufficing/enough or to flow and capacity.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:356ed2ad36b7845a2fcf6edd -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:863194c528e81a3bb066d945`، כ־ב־ד (الرتبة 51)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כ־ב־ד `k-b-d`، root، «To be heavy or weighty; to be serious.» [Kaikki Hebrew، السطر 16024]؛ כבד `kavéd`، noun، «liver (organ of the body)» [Kaikki Hebrew، السطر 3425]؛ כבד `kavéd`، adj، «heavy, having much weight» [Kaikki Hebrew، السطر 3426]؛ כבד `kavéd`، verb، «to be heavy, weighty, burdensome, honoured» [Kaikki Hebrew، السطر 3427]
 - أقدمُ صورةٍ مستعادة: From the Proto-Semitic *kabid- (“liver”). Compare with Akkadian 𒂂 (kabtum), Ugaritic 𐎋𐎁𐎄 (kbd), and Arabic كَبِد (kabid)؛ From Proto-Semitic *kabid- (“liver”), which literally means "heavy (one)", since when washing the internal organs of slaughtered animals the liver sinks to the bottom. Compare the ؛ From Proto-Semitic, cognate with Akkadian 𒂂 (kabtum), Ugaritic 𐎋𐎁𐎄 (kbd), Arabic كَبِد (kabid) and Ge'ez ክቡድ (kəbud).؛ From Proto-Semitic, cognate with Akkadian 𒂂 (kabtum), Ugaritic 𐎋𐎁𐎄 (kbd), Arabic كَبِد (kabid) and Ge'ez ክቡድ (kəbud).
@@ -1232,7 +1736,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ GUT-03، LAB-04)؛ root جود «قوة خروج الماء (وما هو سلس) من جوف الشيء» (licensed؛ GUT-03، LAB-05)؛ root صفد «شَدُّ أشياء ممتدة، وضمها بعضها إلى بعض بقوة» (licensed؛ LAB-02، SIB-06)؛ root صمد «ارتفاعٌ مُقارِبٌ مع غِلَظ ومع اكتناز الأثناء (إصماتها)» (licensed؛ LAB-04، SIB-06)؛ root قبض «جمع الكف على الشيء بشدة إمساكًا له» (licensed؛ DENT-06)؛ root قبض «جمع الكف على الشيء بشدة إمساكًا له» (licensed؛ GUT-01)؛ root قبض «جمع الكف على الشيء بشدة إمساكًا له» (licensed؛ مباشر)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ DENT-06)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ GUT-01)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ مباشر)؛ root كود «التدرج في جمع الشيء أو إنجاز الأمر، مما يفيد معنى المقاربة» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ مباشر)؛ nucleus بذ «التفرق والنثر» (scope-gap؛ DENT-03)؛ nucleus بض «التجمع الرخو مع نصاعة» (licensed؛ DENT-06)
 - مسارُ الصوت: root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ GUT-03، LAB-04)؛ root جود «قوة خروج الماء (وما هو سلس) من جوف الشيء» (licensed؛ GUT-03، LAB-05)؛ root صفد «شَدُّ أشياء ممتدة، وضمها بعضها إلى بعض بقوة» (licensed؛ LAB-02، SIB-06)؛ root صمد «ارتفاعٌ مُقارِبٌ مع غِلَظ ومع اكتناز الأثناء (إصماتها)» (licensed؛ LAB-04، SIB-06)؛ root قبض «جمع الكف على الشيء بشدة إمساكًا له» (licensed؛ DENT-06)؛ root قبض «جمع الكف على الشيء بشدة إمساكًا له» (licensed؛ GUT-01)؛ root قبض «جمع الكف على الشيء بشدة إمساكًا له» (licensed؛ مباشر)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ DENT-06)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ GUT-01)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ مباشر)؛ root كود «التدرج في جمع الشيء أو إنجاز الأمر، مما يفيد معنى المقاربة» (licensed؛ LAB-05)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ مباشر)؛ nucleus بذ «التفرق والنثر» (scope-gap؛ DENT-03)؛ nucleus بض «التجمع الرخو مع نصاعة» (licensed؛ DENT-06)
 - المعنى من قاموس الفرع: כ־ב־ד `k-b-d`، root، «To be heavy or weighty; to be serious.» [Kaikki Hebrew، السطر 16024]؛ כבד `kavéd`، noun، «liver (organ of the body)» [Kaikki Hebrew، السطر 3425]؛ כבד `kavéd`، adj، «heavy, having much weight» [Kaikki Hebrew، السطر 3426]؛ כבד `kavéd`، verb، «to be heavy, weighty, burdensome, honoured» [Kaikki Hebrew، السطر 3427]
@@ -1241,14 +1745,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16024:en-כ־ב־ד-he-root-qV2yiSIb: الرسم=כ־ב־ד، الرومنة=k-b-d، الصنف=root، المعنى=To be heavy or weighty; to be serious.، السلف/الخلف=From the Proto-Semitic *kabid- (“liver”). Compare with Akkadian 𒂂 (kabtum), Ugaritic 𐎋𐎁𐎄 (kbd), and Arabic كَبِد (kabid)، القرض=لا وسم آلي؛ kaikki_hebrew:3425:en-כבד-he-noun-PcYg7dyD: الرسم=כבד، الرومنة=kavéd، الصنف=noun، المعنى=liver (organ of the body)، السلف/الخلف=From Proto-Semitic *kabid- (“liver”), which literally means "heavy (one)", since when washing the internal organs of slaughtered animals the liver sinks to the bottom. Compare the ، القرض=لا وسم آلي؛ kaikki_hebrew:3426:en-כבד-he-adj-MLQnlsnH: الرسم=כבד، الرومنة=kavéd، الصنف=adj، المعنى=heavy, having much weight، السلف/الخلف=From Proto-Semitic, cognate with Akkadian 𒂂 (kabtum), Ugaritic 𐎋𐎁𐎄 (kbd), Arabic كَبِد (kabid) and Ge'ez ክቡድ (kəbud).، القرض=لا وسم آلي؛ kaikki_hebrew:3427:en-כבד-he-verb-50Bzh5ig: الرسم=כבד، الرومنة=kavéd، الصنف=verb، المعنى=to be heavy, weighty, burdensome, honoured، السلف/الخلف=From Proto-Semitic, cognate with Akkadian 𒂂 (kabtum), Ugaritic 𐎋𐎁𐎄 (kbd), Arabic كَبِد (kabid) and Ge'ez ክቡድ (kəbud).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:863194c528e81a3bb066d945 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: כבד، الرتبة 51.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:d0fada61aa11fbfee70fe83f`، ע־ל־ם (الرتبة 52)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ע־ל־ם `ʿ-l-m`، root، «Related to disappearance, hiding.» [Kaikki Hebrew، السطر 13929]؛ ע־ל־ם `ʿ-l-m`، root، «Related to the world, eternity.» [Kaikki Hebrew، السطر 13930]؛ ע־ל־ם `ʿ-l-m`، root، «Related to youth.» [Kaikki Hebrew، السطر 13931]؛ עלם `élem`، noun، «a young, unmarried man of marriageable age» [Kaikki Hebrew، السطر 3509]
 - أقدمُ صورةٍ مستعادة: Cognate with Aramaic עַלֵּם (ʿallem) "to conceal, make disappear" and Ugaritic 𐎓𐎍𐎎 (ʿlm) "to be hidden, unknown; to go unnoticed". Potentially related to Akkadian 𒂖𒆷𒈬𒌋𒀀 (/⁠ellamu, ؛ Cognate with Ugaritic 𐎓𐎍𐎎 (ʿlm) "eternity", Phoenician 𐤏𐤋𐤌 (ʿlm) "eternity", Aramaic עָלַם (ʿālam) "eternity; world, universe; nation, people", Arabic عَالَم (ʕālam) "world", and G؛ Cognate with Arabic غُلَام (ḡulām) "boy", Aramaic עוּלֵימ (ʿŭlēm) "(male) youth", & Ugaritic 𐎙𐎍𐎎 (ġlm) "boy, lad".
@@ -1256,7 +1770,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LIQ-01)؛ root علم «الدلالة والهداية - بمرتفع - إلى معنى: اتجاه، أو طريق، أو حدّ» (licensed؛ مباشر)؛ root علن «ظهور ما كان خفيًا في الباطن، أي خروجه منه مع انكشاف وإشهار» (licensed؛ LIQ-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LIQ-01)؛ nucleus عب «اجتماع الرخو، أو المائع، أو التخلخل في الحيز» (licensed؛ LAB-04)؛ nucleus عر «نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا» (licensed؛ LIQ-01)؛ nucleus عل «نوع من التراكم أو الارتفاع الذي يلزمه» (licensed؛ مباشر)
 - مسارُ الصوت: root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LIQ-01)؛ root علم «الدلالة والهداية - بمرتفع - إلى معنى: اتجاه، أو طريق، أو حدّ» (licensed؛ مباشر)؛ root علن «ظهور ما كان خفيًا في الباطن، أي خروجه منه مع انكشاف وإشهار» (licensed؛ LIQ-02)؛ nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LIQ-01)؛ nucleus عب «اجتماع الرخو، أو المائع، أو التخلخل في الحيز» (licensed؛ LAB-04)؛ nucleus عر «نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا» (licensed؛ LIQ-01)؛ nucleus عل «نوع من التراكم أو الارتفاع الذي يلزمه» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: ע־ל־ם `ʿ-l-m`، root، «Related to disappearance, hiding.» [Kaikki Hebrew، السطر 13929]؛ ע־ל־ם `ʿ-l-m`، root، «Related to the world, eternity.» [Kaikki Hebrew، السطر 13930]؛ ע־ל־ם `ʿ-l-m`، root، «Related to youth.» [Kaikki Hebrew، السطر 13931]؛ עלם `élem`، noun، «a young, unmarried man of marriageable age» [Kaikki Hebrew، السطر 3509]
@@ -1265,14 +1779,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13929:en-ע־ל־ם-he-root-2rTwkBDX: الرسم=ע־ל־ם، الرومنة=ʿ-l-m، الصنف=root، المعنى=Related to disappearance, hiding.، السلف/الخلف=Cognate with Aramaic עַלֵּם (ʿallem) "to conceal, make disappear" and Ugaritic 𐎓𐎍𐎎 (ʿlm) "to be hidden, unknown; to go unnoticed". Potentially related to Akkadian 𒂖𒆷𒈬𒌋𒀀 (/⁠ellamu, ، القرض=لا وسم آلي؛ kaikki_hebrew:13930:en-ע־ל־ם-he-root--xUwIk3L: الرسم=ע־ל־ם، الرومنة=ʿ-l-m، الصنف=root، المعنى=Related to the world, eternity.، السلف/الخلف=Cognate with Ugaritic 𐎓𐎍𐎎 (ʿlm) "eternity", Phoenician 𐤏𐤋𐤌 (ʿlm) "eternity", Aramaic עָלַם (ʿālam) "eternity; world, universe; nation, people", Arabic عَالَم (ʕālam) "world", and G، القرض=وسم آلي؛ kaikki_hebrew:13931:en-ע־ל־ם-he-root-fSxtXStn: الرسم=ע־ל־ם، الرومنة=ʿ-l-m، الصنف=root، المعنى=Related to youth.، السلف/الخلف=Cognate with Arabic غُلَام (ḡulām) "boy", Aramaic עוּלֵימ (ʿŭlēm) "(male) youth", & Ugaritic 𐎙𐎍𐎎 (ġlm) "boy, lad".، القرض=لا وسم آلي؛ kaikki_hebrew:3509:en-עלם-he-noun-eyAYQY~L: الرسم=עלם، الرومنة=élem، الصنف=noun، المعنى=a young, unmarried man of marriageable age، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:d0fada61aa11fbfee70fe83f -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:5bbef559250cfca5408fff87`، ג־ד־ל (الرتبة 53)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ג־ד־ל `g-d-l`، root، «Forming words relating to largeness or growth.» [Kaikki Hebrew، السطر 6594]؛ גדל `gadál`، verb، «to be big, large, great» [Kaikki Hebrew، السطر 670]؛ גדל `gadél`، adj، «growing, increasing (e.g. of plants)» [Kaikki Hebrew، السطر 671]؛ גדל `gidél`، name، «a male given name» [Kaikki Hebrew، السطر 675]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -1280,7 +1804,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جدر «نتوء جرم غليظ أو قوي إلى أعلى فوق ظاهر شيء» (licensed؛ GUT-03، LIQ-01)؛ root جدر «نتوء جرم غليظ أو قوي إلى أعلى فوق ظاهر شيء» (licensed؛ LIQ-01)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ DENT-06، GUT-03)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ DENT-06)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ GUT-03)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ مباشر)؛ root قدر «ضَبْطُ الشيء القابل للتسيب وحكمه» (licensed؛ LIQ-01)؛ root كدر «انقلاع الغليظ الراسخ أو انقطاعه، مفارقًا مقره» (licensed؛ GUT-02، LIQ-01)؛ root كدر «انقلاع الغليظ الراسخ أو انقطاعه، مفارقًا مقره» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus جد «العظم والامتداد» (licensed؛ DENT-06، GUT-03)؛ nucleus جد «العظم والامتداد» (licensed؛ DENT-06)؛ nucleus جد «العظم والامتداد» (licensed؛ GUT-03)؛ nucleus جد «العظم والامتداد» (licensed؛ مباشر)
 - مسارُ الصوت: root جدر «نتوء جرم غليظ أو قوي إلى أعلى فوق ظاهر شيء» (licensed؛ GUT-03، LIQ-01)؛ root جدر «نتوء جرم غليظ أو قوي إلى أعلى فوق ظاهر شيء» (licensed؛ LIQ-01)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ DENT-06، GUT-03)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ DENT-06)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ GUT-03)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ مباشر)؛ root قدر «ضَبْطُ الشيء القابل للتسيب وحكمه» (licensed؛ LIQ-01)؛ root كدر «انقلاع الغليظ الراسخ أو انقطاعه، مفارقًا مقره» (licensed؛ GUT-02، LIQ-01)؛ root كدر «انقلاع الغليظ الراسخ أو انقطاعه، مفارقًا مقره» (licensed؛ LIQ-01)؛ nucleus جد «العظم والامتداد» (licensed؛ DENT-06، GUT-03)؛ nucleus جد «العظم والامتداد» (licensed؛ DENT-06)؛ nucleus جد «العظم والامتداد» (licensed؛ GUT-03)؛ nucleus جد «العظم والامتداد» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: ג־ד־ל `g-d-l`، root، «Forming words relating to largeness or growth.» [Kaikki Hebrew، السطر 6594]؛ גדל `gadál`، verb، «to be big, large, great» [Kaikki Hebrew، السطر 670]؛ גדל `gadél`، adj، «growing, increasing (e.g. of plants)» [Kaikki Hebrew، السطر 671]؛ גדל `gidél`، name، «a male given name» [Kaikki Hebrew، السطر 675]
@@ -1289,14 +1813,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:6594:en-ג־ד־ל-he-root-YW0Udvgl: الرسم=ג־ד־ל، الرومنة=g-d-l، الصنف=root، المعنى=Forming words relating to largeness or growth.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:670:en-גדל-he-verb-NrZM-fOY: الرسم=גדל، الرومنة=gadál، الصنف=verb، المعنى=to be big, large, great، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:671:en-גדל-he-adj-L1z3vndZ: الرسم=גדל، الرومنة=gadél، الصنف=adj، المعنى=growing, increasing (e.g. of plants)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:675:en-גדל-he-name-h8YdwBAs: الرسم=גדל، الرومنة=gidél، الصنف=name، المعنى=a male given name، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:5bbef559250cfca5408fff87 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:f78ab343b7373097a3a8ea3b`، איגרת חוב (الرتبة 54)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: אגרת חוב `igéret khov`، noun، «defective spelling of איגרת חוב» [Kaikki Hebrew، السطر 11036]؛ חוב `khov`، noun، «debt» [Kaikki Hebrew، السطر 2362]؛ איגרת חוב `igéret khóv`، noun، «bond, debenture» [Kaikki Hebrew، السطر 6699]؛ אג״ח `agá"kh`، noun، «abbreviation of אִגֶּרֶת חוֹב (igéret khov, “bond, debenture”)» [Kaikki Hebrew، السطر 6700]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -1304,7 +1838,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حبب «تجمع الدقيق - أو اللطيف - مكتنزًا معًا» (licensed؛ LAB-05)؛ root حوب «عَجْزُ - أو ثِقَلٌ - من ضعف» (licensed؛ LAB-06)؛ root حوب «عَجْزُ - أو ثِقَلٌ - من ضعف» (licensed؛ مباشر)؛ root خوب «خُلُو حوزة الشيء من (طيب) يُتَوَقَّع أن يشغلها» (licensed؛ GUT-05، LAB-06)؛ root خوب «خُلُو حوزة الشيء من (طيب) يُتَوَقَّع أن يشغلها» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)؛ nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03)
 - مسارُ الصوت: root حبب «تجمع الدقيق - أو اللطيف - مكتنزًا معًا» (licensed؛ LAB-05)؛ root حوب «عَجْزُ - أو ثِقَلٌ - من ضعف» (licensed؛ LAB-06)؛ root حوب «عَجْزُ - أو ثِقَلٌ - من ضعف» (licensed؛ مباشر)؛ root خوب «خُلُو حوزة الشيء من (طيب) يُتَوَقَّع أن يشغلها» (licensed؛ GUT-05، LAB-06)؛ root خوب «خُلُو حوزة الشيء من (طيب) يُتَوَقَّع أن يشغلها» (licensed؛ GUT-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)؛ nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03)
 - المعنى من قاموس الفرع: אגרת חוב `igéret khov`، noun، «defective spelling of איגרת חוב» [Kaikki Hebrew، السطر 11036]؛ חוב `khov`، noun، «debt» [Kaikki Hebrew، السطر 2362]؛ איגרת חוב `igéret khóv`، noun، «bond, debenture» [Kaikki Hebrew، السطر 6699]؛ אג״ח `agá"kh`، noun، «abbreviation of אִגֶּרֶת חוֹב (igéret khov, “bond, debenture”)» [Kaikki Hebrew، السطر 6700]
@@ -1313,14 +1847,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11036:en-אגרת_חוב-he-noun-6Cas6UdI: الرسم=אגרת חוב، الرومنة=igéret khov، الصنف=noun، المعنى=defective spelling of איגרת חוב، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2362:en-חוב-he-noun-ZS11-br7: الرسم=חוב، الرومنة=khov، الصنف=noun، المعنى=debt، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6699:en-איגרת_חוב-he-noun-QUixCEue: الرسم=איגרת חוב، الرومنة=igéret khóv، الصنف=noun، المعنى=bond, debenture، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6700:en-אג״ח-he-noun-VExAgKsE: الرسم=אג״ח، الرومنة=agá"kh، الصنف=noun، المعنى=abbreviation of אִגֶּרֶת חוֹב (igéret khov, “bond, debenture”)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:f78ab343b7373097a3a8ea3b -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:cacf136016c7bac479318ab8`، נ־ע־ם (الرتبة 55)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=נעם في اللطف والسرور والاستحسان وحده، لا النغم ولا النعام؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: נעם `na'ám`، verb، «to please» [Kaikki Hebrew، السطر 11725]؛ נ־ע־ם `n-ʿ-m`، root، «Related to being pleasant, nice, agreeable.» [Kaikki Hebrew، السطر 14048]؛ נ־ע־ם `n-ʿ-m`، root، «Related to singing, music, melody.» [Kaikki Hebrew، السطر 14049]؛ נ־ע־ם `n-ʿ-m`، root، «Related to ostriches.» [Kaikki Hebrew، السطر 14050]
 - أقدمُ صورةٍ مستعادة: Compare Arabic نَعِمَ (naʕima, “to be blessed”).؛ Compare Arabic نَعَمَ (naʕama) from the root ن ع م (n ʕ m).؛ Compare Arabic نَغْمَة (naḡma).؛ See נַעֲמִית, Arabic نَعَام (naʕām), Classical Syriac ܢܥܡܐ. Possibly derived from the "pleasant" sense above.
@@ -1328,7 +1872,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root نعم «رقة الشيء - أو ليونته - وخلوه من الغلظ والخشونة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `نعم` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus رع «(الامتداد) مع رقة أو رخاوة» (licensed؛ LIQ-03)؛ nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LIQ-03)؛ nucleus عب «اجتماع الرخو، أو المائع، أو التخلخل في الحيز» (licensed؛ LAB-04)؛ nucleus عم «الالتحام العلوي، أي التجمع مع علو، أو في أعلى» (licensed؛ مباشر)
 - مسارُ الصوت: root نعم «رقة الشيء - أو ليونته - وخلوه من الغلظ والخشونة» (licensed؛ مباشر)؛ nucleus رع «(الامتداد) مع رقة أو رخاوة» (licensed؛ LIQ-03)؛ nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LIQ-03)؛ nucleus عب «اجتماع الرخو، أو المائع، أو التخلخل في الحيز» (licensed؛ LAB-04)؛ nucleus عم «الالتحام العلوي، أي التجمع مع علو، أو في أعلى» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: נעם `na'ám`، verb، «to please» [Kaikki Hebrew، السطر 11725]؛ נ־ע־ם `n-ʿ-m`، root، «Related to being pleasant, nice, agreeable.» [Kaikki Hebrew، السطر 14048]؛ נ־ע־ם `n-ʿ-m`، root، «Related to singing, music, melody.» [Kaikki Hebrew، السطر 14049]؛ נ־ע־ם `n-ʿ-m`، root، «Related to ostriches.» [Kaikki Hebrew، السطر 14050]
@@ -1337,14 +1881,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11725:en-נעם-he-verb-VCJemZbR: الرسم=נעם، الرومنة=na'ám، الصنف=verb، المعنى=to please، السلف/الخلف=Compare Arabic نَعِمَ (naʕima, “to be blessed”).، القرض=لا وسم آلي؛ kaikki_hebrew:14048:en-נ־ע־ם-he-root-mdXcRIkD: الرسم=נ־ע־ם، الرومنة=n-ʿ-m، الصنف=root، المعنى=Related to being pleasant, nice, agreeable.، السلف/الخلف=Compare Arabic نَعَمَ (naʕama) from the root ن ع م (n ʕ m).، القرض=لا وسم آلي؛ kaikki_hebrew:14049:en-נ־ע־ם-he-root-v~hhMwhN: الرسم=נ־ע־ם، الرومنة=n-ʿ-m، الصنف=root، المعنى=Related to singing, music, melody.، السلف/الخلف=Compare Arabic نَغْمَة (naḡma).، القرض=لا وسم آلي؛ kaikki_hebrew:14050:en-נ־ע־ם-he-root-930dXFWz: الرسم=נ־ע־ם، الرومنة=n-ʿ-m، الصنف=root، المعنى=Related to ostriches.، السلف/الخلف=See נַעֲמִית, Arabic نَعَام (naʕām), Classical Syriac ܢܥܡܐ. Possibly derived from the "pleasant" sense above.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ נעם في اللطف والسرور والاستحسان وحده، لا النغم ولا النعام؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:cacf136016c7bac479318ab8 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `نعم`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `نعم`، `نعيم`.
+  - سند الفرع المنشور: Compare Arabic نَعِمَ (naʕima, “to be blessed”). | Compare Arabic نَعَمَ (naʕama) from the root ن ع م (n ʕ m). | Compare Arabic نَغْمَة (naḡma).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:0a8d97344c55f2927da4f23e`، זמם (الرتبة 56)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: זמם `zamám`، verb، «to plan, intend» [Kaikki Hebrew، السطر 3515]؛ זמם `zmam`، noun، «a plot, a scheme, a desire (with malicious intent)» [Kaikki Hebrew، السطر 3516]؛ זמם `zmam`، noun، «a muzzle» [Kaikki Hebrew، السطر 3517]؛ זמם `zamám`، verb، «to muzzle (to apply a muzzle)» [Kaikki Hebrew، السطر 3518]
 - أقدمُ صورةٍ مستعادة: Verb follows from Noun. Cognate with Arabic زِمَام (zimām).؛ Verb follows from Noun. Cognate with Arabic زِمَام (zimām).
@@ -1352,7 +1910,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root زمم «انضمام الشيء على كثير لطيف حتى يمتلئ به ويستوي ظاهره» (licensed؛ مباشر)؛ root زنم «تعلق الجرم (النافذ من شيء) بظاهره أدنى تعلق» (licensed؛ LIQ-02)؛ root سمم «خرق مستوي الجوانب معّ للضمّ أو الإنفاذ» (licensed؛ SIB-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ذب «النفاذ والامتداد باندفاع وحِدّة» (licensed؛ DENT-04، LAB-04)؛ nucleus ذم «دقة ما في الباطن: قلة أو ضعف أو لطف» (licensed؛ DENT-04)؛ nucleus ذن «الامتداد من الأثناء أو فيها» (licensed؛ DENT-04، LIQ-02)؛ nucleus زب «الاكتناز أو أثره في الانتصاب أو النضح» (licensed؛ LAB-04)
 - مسارُ الصوت: root زمم «انضمام الشيء على كثير لطيف حتى يمتلئ به ويستوي ظاهره» (licensed؛ مباشر)؛ root زنم «تعلق الجرم (النافذ من شيء) بظاهره أدنى تعلق» (licensed؛ LIQ-02)؛ root سمم «خرق مستوي الجوانب معّ للضمّ أو الإنفاذ» (licensed؛ SIB-03)؛ nucleus ذب «النفاذ والامتداد باندفاع وحِدّة» (licensed؛ DENT-04، LAB-04)؛ nucleus ذم «دقة ما في الباطن: قلة أو ضعف أو لطف» (licensed؛ DENT-04)؛ nucleus ذن «الامتداد من الأثناء أو فيها» (licensed؛ DENT-04، LIQ-02)؛ nucleus زب «الاكتناز أو أثره في الانتصاب أو النضح» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: זמם `zamám`، verb، «to plan, intend» [Kaikki Hebrew، السطر 3515]؛ זמם `zmam`، noun، «a plot, a scheme, a desire (with malicious intent)» [Kaikki Hebrew، السطر 3516]؛ זמם `zmam`، noun، «a muzzle» [Kaikki Hebrew، السطر 3517]؛ זמם `zamám`، verb، «to muzzle (to apply a muzzle)» [Kaikki Hebrew، السطر 3518]
@@ -1361,14 +1919,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:3515:en-זמם-he-verb-SuZFn5pM: الرسم=זמם، الرومنة=zamám، الصنف=verb، المعنى=to plan, intend، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3516:en-זמם-he-noun-Biy0sHUU: الرسم=זמם، الرومنة=zmam، الصنف=noun، المعنى=a plot, a scheme, a desire (with malicious intent)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3517:en-זמם-he-noun-CHrIumWX: الرسم=זמם، الرومنة=zmam، الصنف=noun، المعنى=a muzzle، السلف/الخلف=Verb follows from Noun. Cognate with Arabic زِمَام (zimām).، القرض=لا وسم آلي؛ kaikki_hebrew:3518:en-זמם-he-verb-G-2nSguG: الرسم=זמם، الرومنة=zamám، الصنف=verb، المعنى=to muzzle (to apply a muzzle)، السلف/الخلف=Verb follows from Noun. Cognate with Arabic زِمَام (zimām).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:0a8d97344c55f2927da4f23e -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:ee70d7a584230ba4802179bb`، העיר הלבנה (الرتبة 57)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: העיר הלבנה `ha'ír halevaná`، name، «Tel Aviv's old town, built in the international style of architecture.» [Kaikki Hebrew، السطر 10324]؛ לבן `laván`، adj، «white (color)» [Kaikki Hebrew، السطر 1382]؛ לבנות `l'vanót`، adj، «feminine plural indefinite form of לבן (laván)» [Kaikki Hebrew، السطر 2639]؛ לבנים `l'vaním`، adj، «masculine plural indefinite form of לָבָן (laván)» [Kaikki Hebrew، السطر 5865]؛ ננס לבן `nanás laván`، noun، «white dwarf» [Kaikki Hebrew، السطر 6270]؛ לבנה `l'vaná`، adj، «feminine singular indefinite form of לָבָן (laván)» [Kaikki Hebrew، السطر 757]؛ לבנבן `l'vanban`، adj، «whitish» [Kaikki Hebrew، السطر 9605]
 - أقدمُ صورةٍ مستعادة: From Proto-West Semitic *laban-. Cognate with Arabic لَبَن (laban, “milk”), Ugaritic 𐎍𐎁𐎐 (lbn), and Phoenician 𐤋𐤁𐤍 (lbn).؛ A noun-adjective phrase made of ננס (“dwarf, midget”) + לבן (“white”)؛ Partial reduplication of לָבָן.
@@ -1376,7 +1944,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root لبن «احتواء الباطن على لطيف يخرج ثم يتماسك أو يظهر» (licensed؛ مباشر)؛ root لون «احتشاء الشيء بلطيف رخو يظهر أو يظهر أثره» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (scope-gap؛ GUT-04، SIB-04)؛ nucleus ءف «إفراز شيء مكروه ونفيه» (licensed؛ GUT-04، LAB-02)
 - مسارُ الصوت: root لبن «احتواء الباطن على لطيف يخرج ثم يتماسك أو يظهر» (licensed؛ مباشر)؛ root لون «احتشاء الشيء بلطيف رخو يظهر أو يظهر أثره» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (scope-gap؛ GUT-04، SIB-04)؛ nucleus ءف «إفراز شيء مكروه ونفيه» (licensed؛ GUT-04، LAB-02)
 - المعنى من قاموس الفرع: העיר הלבנה `ha'ír halevaná`، name، «Tel Aviv's old town, built in the international style of architecture.» [Kaikki Hebrew، السطر 10324]؛ לבן `laván`، adj، «white (color)» [Kaikki Hebrew، السطر 1382]؛ לבנות `l'vanót`، adj، «feminine plural indefinite form of לבן (laván)» [Kaikki Hebrew، السطر 2639]؛ לבנים `l'vaním`، adj، «masculine plural indefinite form of לָבָן (laván)» [Kaikki Hebrew، السطر 5865]؛ ננס לבן `nanás laván`، noun، «white dwarf» [Kaikki Hebrew، السطر 6270]؛ לבנה `l'vaná`، adj، «feminine singular indefinite form of לָבָן (laván)» [Kaikki Hebrew، السطر 757]؛ לבנבן `l'vanban`، adj، «whitish» [Kaikki Hebrew، السطر 9605]
@@ -1385,14 +1953,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10324:en-העיר_הלבנה-he-name-BwGDIAHe: الرسم=העיר הלבנה، الرومنة=ha'ír halevaná، الصنف=name، المعنى=Tel Aviv's old town, built in the international style of architecture.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1382:en-לבן-he-adj-8IP5OZFb: الرسم=לבן، الرومنة=laván، الصنف=adj، المعنى=white (color)، السلف/الخلف=From Proto-West Semitic *laban-. Cognate with Arabic لَبَن (laban, “milk”), Ugaritic 𐎍𐎁𐎐 (lbn), and Phoenician 𐤋𐤁𐤍 (lbn).، القرض=لا وسم آلي؛ kaikki_hebrew:2639:en-לבנות-he-adj-GCSaYKCn: الرسم=לבנות، الرومنة=l'vanót، الصنف=adj، المعنى=feminine plural indefinite form of לבן (laván)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5865:en-לבנים-he-adj-f~L8tqaZ: الرسم=לבנים، الرومنة=l'vaním، الصنف=adj، المعنى=masculine plural indefinite form of לָבָן (laván)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6270:en-ננס_לבן-he-noun-G0yUbMt7: الرسم=ננס לבן، الرومنة=nanás laván، الصنف=noun، المعنى=white dwarf، السلف/الخلف=A noun-adjective phrase made of ננס (“dwarf, midget”) + לבן (“white”)، القرض=لا وسم آلي؛ kaikki_hebrew:757:en-לבנה-he-adj-xWzzACU5: الرسم=לבנה، الرومنة=l'vaná، الصنف=adj، المعنى=feminine singular indefinite form of לָבָן (laván)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9605:en-לבנבן-he-adj-XEouCSwh: الرسم=לבנבן، الرومنة=l'vanban، الصنف=adj، المعنى=whitish، السلف/الخلف=Partial reduplication of לָבָן.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:ee70d7a584230ba4802179bb -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:d65ebf75cda72e8a91b24e33`، התקבל (الرتبة 58)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מקובל `m'kubál`، adj، «Accepted, normal, usual.» [Kaikki Hebrew، السطر 11860]؛ קבל `kibél`، verb، «defective spelling of קיבל» [Kaikki Hebrew، السطر 2462]؛ קיבל `kibél`، verb، «To receive, to get.» [Kaikki Hebrew، السطر 7172]؛ התקבל `hitkabél`، verb، «To be received, to be accepted.» [Kaikki Hebrew، السطر 7468]
 - أقدمُ صورةٍ مستعادة: Passive participle of the verb קיבל / קִבֵּל (kibél), from the root ק־ב־ל (k-b-l).؛ Mediopassive of the verb קיבל (kibél), from the root ק־ב־ל (k-b-l).
@@ -1400,7 +1978,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LIQ-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ مباشر)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ LAB-02)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ LAB-04)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءف «إفراز شيء مكروه ونفيه» (licensed؛ GUT-04، LAB-02)؛ nucleus ءل «» (licensed؛ GUT-04)
 - مسارُ الصوت: root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LIQ-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ مباشر)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ LAB-02)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ LAB-04)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءف «إفراز شيء مكروه ونفيه» (licensed؛ GUT-04، LAB-02)؛ nucleus ءل «» (licensed؛ GUT-04)
 - المعنى من قاموس الفرع: מקובל `m'kubál`، adj، «Accepted, normal, usual.» [Kaikki Hebrew، السطر 11860]؛ קבל `kibél`، verb، «defective spelling of קיבל» [Kaikki Hebrew، السطر 2462]؛ קיבל `kibél`، verb، «To receive, to get.» [Kaikki Hebrew، السطر 7172]؛ התקבל `hitkabél`، verb، «To be received, to be accepted.» [Kaikki Hebrew، السطر 7468]
@@ -1409,14 +1987,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11860:en-מקובל-he-adj-DSK6k7Je: الرسم=מקובל، الرومنة=m'kubál، الصنف=adj، المعنى=Accepted, normal, usual.، السلف/الخلف=Passive participle of the verb קיבל / קִבֵּל (kibél), from the root ק־ב־ל (k-b-l).، القرض=لا وسم آلي؛ kaikki_hebrew:2462:en-קבל-he-verb-mGRp9Xb1: الرسم=קבל، الرومنة=kibél، الصنف=verb، المعنى=defective spelling of קיבל، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7172:en-קיבל-he-verb-rBYXzA0E: الرسم=קיבל، الرومنة=kibél، الصنف=verb، المعنى=To receive, to get.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7468:en-התקבל-he-verb-XrE1Vsvi: الرسم=התקבל، الرومنة=hitkabél، الصنف=verb، المعنى=To be received, to be accepted.، السلف/الخلف=Mediopassive of the verb קיבל (kibél), from the root ק־ב־ל (k-b-l).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:d65ebf75cda72e8a91b24e33 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:5c3eb7bad05d22073b0cc704`، גזע (الرتبة 59)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: גזעי `giz'í`، adj، «racial» [Kaikki Hebrew، السطر 15570]؛ גזעני `giz'aní`، adj، «Racist: of or pertaining to racism, or being a racist person.» [Kaikki Hebrew، السطر 6840]؛ גזען `giz'án`، noun، «a racist» [Kaikki Hebrew، السطر 9198]؛ גזע `géza'`، noun، «trunk, stock (of a tree)» [Kaikki Hebrew، السطر 9633]
 - أقدمُ صورةٍ مستعادة: From גזען (giz'án) + ־י (-í), from גזע (géza).؛ From גֶּזַע (géza') + ־ן (-an)؛ From root ג־ז־ע (“to cut”). Compare Classical Syriac ܓܘܙܥܐ (guzʿā, “trunk”), Arabic جِذْع (jiḏʕ, “trunk”).
@@ -1424,7 +2012,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جذع «مقاربة النامي انتصابًا كمال نموه» (licensed؛ DENT-04، GUT-03)؛ root جذع «مقاربة النامي انتصابًا كمال نموه» (licensed؛ DENT-04)؛ root جزع «انقطاع وسط الشيء مع التئام ظاهره أو اتصاله» (licensed؛ GUT-03)؛ root جزع «انقطاع وسط الشيء مع التئام ظاهره أو اتصاله» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus جذ «الاستغلاظ والقطع الجزئي» (licensed؛ DENT-04، GUT-03)؛ nucleus جذ «الاستغلاظ والقطع الجزئي» (licensed؛ DENT-04)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ GUT-03، LIQ-03)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ LIQ-03)
 - مسارُ الصوت: root جذع «مقاربة النامي انتصابًا كمال نموه» (licensed؛ DENT-04، GUT-03)؛ root جذع «مقاربة النامي انتصابًا كمال نموه» (licensed؛ DENT-04)؛ root جزع «انقطاع وسط الشيء مع التئام ظاهره أو اتصاله» (licensed؛ GUT-03)؛ root جزع «انقطاع وسط الشيء مع التئام ظاهره أو اتصاله» (licensed؛ مباشر)؛ nucleus جذ «الاستغلاظ والقطع الجزئي» (licensed؛ DENT-04، GUT-03)؛ nucleus جذ «الاستغلاظ والقطع الجزئي» (licensed؛ DENT-04)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ GUT-03، LIQ-03)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ LIQ-03)
 - المعنى من قاموس الفرع: גזעי `giz'í`، adj، «racial» [Kaikki Hebrew، السطر 15570]؛ גזעני `giz'aní`، adj، «Racist: of or pertaining to racism, or being a racist person.» [Kaikki Hebrew، السطر 6840]؛ גזען `giz'án`، noun، «a racist» [Kaikki Hebrew، السطر 9198]؛ גזע `géza'`، noun، «trunk, stock (of a tree)» [Kaikki Hebrew، السطر 9633]
@@ -1433,14 +2021,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:15570:en-גזעי-he-adj-Zpw2lsS~: الرسم=גזעי، الرومنة=giz'í، الصنف=adj، المعنى=racial، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6840:en-גזעני-he-adj-dSDORxHm: الرسم=גזעני، الرومنة=giz'aní، الصنف=adj، المعنى=Racist: of or pertaining to racism, or being a racist person.، السلف/الخلف=From גזען (giz'án) + ־י (-í), from גזע (géza).، القرض=لا وسم آلي؛ kaikki_hebrew:9198:en-גזען-he-noun-TkT9XiZN: الرسم=גזען، الرومنة=giz'án، الصنف=noun، المعنى=a racist، السلف/الخلف=From גֶּזַע (géza') + ־ן (-an)، القرض=لا وسم آلي؛ kaikki_hebrew:9633:en-גזע-he-noun--ny9PU-7: الرسم=גזע، الرومنة=géza'، الصنف=noun، المعنى=trunk, stock (of a tree)، السلف/الخلف=From root ג־ז־ע (“to cut”). Compare Classical Syriac ܓܘܙܥܐ (guzʿā, “trunk”), Arabic جِذْع (jiḏʕ, “trunk”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:5c3eb7bad05d22073b0cc704 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: גזע، حسم الموجة 1 للرتبة 59.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:9177bbe72c7508137031ca1c`، נקודה (الرتبة 60)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: נקודתיים `nekudatáyim`، noun، «colon (the punctuation mark ⟨:⟩)» [Kaikki Hebrew، السطر 12437]؛ נקודה `n'kudá`، noun، «point» [Kaikki Hebrew، السطر 1996]؛ נקודה ופסיק `n'kudá uf'sík`، noun، «semicolon (the punctuation mark ;)» [Kaikki Hebrew، السطر 3828]؛ נקדה `nekudá`، noun، «defective spelling of נקודה.» [Kaikki Hebrew، السطر 8760]
 - أقدمُ صورةٍ مستعادة: The dual form of נקודה / נְקֻדָּה (n'kudá), thus meaning two points.؛ Compare Arabic نُقْطَة (nuqṭa).؛ From נקודה / נְקֻדָּה f (nekudá) and פְסִיק m (psik).
@@ -1448,7 +2046,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root نقذ «استخلاص الشيء في قوة من بين ما لا يُرْضَى حوزه إياه أو تمكنه منه» (licensed؛ مباشر)؛ root نقض «تفكك ما قوي ارتباط أجزائه الباطنة؛ لضغط شديد، أو نحوه» (licensed؛ DENT-07)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)
 - مسارُ الصوت: root نقذ «استخلاص الشيء في قوة من بين ما لا يُرْضَى حوزه إياه أو تمكنه منه» (licensed؛ مباشر)؛ root نقض «تفكك ما قوي ارتباط أجزائه الباطنة؛ لضغط شديد، أو نحوه» (licensed؛ DENT-07)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)
 - المعنى من قاموس الفرع: נקודתיים `nekudatáyim`، noun، «colon (the punctuation mark ⟨:⟩)» [Kaikki Hebrew، السطر 12437]؛ נקודה `n'kudá`، noun، «point» [Kaikki Hebrew، السطر 1996]؛ נקודה ופסיק `n'kudá uf'sík`، noun، «semicolon (the punctuation mark ;)» [Kaikki Hebrew، السطر 3828]؛ נקדה `nekudá`، noun، «defective spelling of נקודה.» [Kaikki Hebrew، السطر 8760]
@@ -1457,14 +2055,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:12437:en-נקודתיים-he-noun-RJE6J4Xf: الرسم=נקודתיים، الرومنة=nekudatáyim، الصنف=noun، المعنى=colon (the punctuation mark ⟨:⟩)، السلف/الخلف=The dual form of נקודה / נְקֻדָּה (n'kudá), thus meaning two points.، القرض=لا وسم آلي؛ kaikki_hebrew:1996:en-נקודה-he-noun-JR~s1ZLl: الرسم=נקודה، الرومنة=n'kudá، الصنف=noun، المعنى=point، السلف/الخلف=Compare Arabic نُقْطَة (nuqṭa).، القرض=لا وسم آلي؛ kaikki_hebrew:3828:en-נקודה_ופסיק-he-noun-b9TrQdCm: الرسم=נקודה ופסיק، الرومنة=n'kudá uf'sík، الصنف=noun، المعنى=semicolon (the punctuation mark ;)، السلف/الخلف=From נקודה / נְקֻדָּה f (nekudá) and פְסִיק m (psik).، القرض=لا وسم آلي؛ kaikki_hebrew:8760:en-נקדה-he-noun-kbAEWaCe: الرسم=נקדה، الرومنة=nekudá، الصنف=noun، المعنى=defective spelling of נקודה.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:9177bbe72c7508137031ca1c -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:45eb8929b8717aca431eb200`، סדק (الرتبة 61)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: סדק `sédek`، noun، «A crack, a fracture.» [Kaikki Hebrew، السطر 11255]؛ סדק `sadák`، verb، «To crack, to fracture.» [Kaikki Hebrew، السطر 11256]؛ צדק `tzédek`، name، «Jupiter» [Kaikki Hebrew، السطر 3881]؛ צ־ד־ק `ts-d-q`، root، «Forming words relating to justice and rightness.» [Kaikki Hebrew، السطر 3948]
 - أقدمُ صورةٍ مستعادة: From the root צ־ד־ק (TZ-d-q). The verb is in the pa`al conjugation. The planet is named after the Phoenician god Sydyk, whom the Romans equated with the god Jupiter. Thus, it is a ؛ Inherited from a West Semitic root, meaning to be right, righteous, or just; cognate with Arabic ص د ق (ṣ d q).
@@ -1472,7 +2080,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ DENT-06، SIB-06)؛ root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ DENT-06)؛ root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ SIB-02)؛ root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ SIB-06)؛ root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 1/1؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ثق «الغلظ والشدة» (licensed؛ DENT-02)؛ nucleus دق «الصدم أو الضغط الشديد والحدة» (licensed؛ DENT-06)؛ nucleus دق «الصدم أو الضغط الشديد والحدة» (licensed؛ مباشر)؛ nucleus ذق «النفاذ الحاد والأثر العميق» (scope-gap؛ DENT-03)
 - مسارُ الصوت: root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ DENT-06، SIB-06)؛ root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ DENT-06)؛ root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ SIB-02)؛ root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ SIB-06)؛ root صدق «صلابة أو قوة في باطن الشيء مع شدة تماسك جرمه» (licensed؛ مباشر)؛ nucleus ثق «الغلظ والشدة» (licensed؛ DENT-02)؛ nucleus دق «الصدم أو الضغط الشديد والحدة» (licensed؛ DENT-06)؛ nucleus دق «الصدم أو الضغط الشديد والحدة» (licensed؛ مباشر)؛ nucleus ذق «النفاذ الحاد والأثر العميق» (scope-gap؛ DENT-03)
 - المعنى من قاموس الفرع: סדק `sédek`، noun، «A crack, a fracture.» [Kaikki Hebrew، السطر 11255]؛ סדק `sadák`، verb، «To crack, to fracture.» [Kaikki Hebrew، السطر 11256]؛ צדק `tzédek`، name، «Jupiter» [Kaikki Hebrew، السطر 3881]؛ צ־ד־ק `ts-d-q`، root، «Forming words relating to justice and rightness.» [Kaikki Hebrew، السطر 3948]
@@ -1481,14 +2089,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11255:en-סדק-he-noun-rkPmbJYr: الرسم=סדק، الرومنة=sédek، الصنف=noun، المعنى=A crack, a fracture.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:11256:en-סדק-he-verb-q1ufJJJx: الرسم=סדק، الرومنة=sadák، الصنف=verb، المعنى=To crack, to fracture.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3881:en-צדק-he-name-J84t8GhV: الرسم=צדק، الرومنة=tzédek، الصنف=name، المعنى=Jupiter، السلف/الخلف=From the root צ־ד־ק (TZ-d-q). The verb is in the pa`al conjugation. The planet is named after the Phoenician god Sydyk, whom the Romans equated with the god Jupiter. Thus, it is a ، القرض=لا وسم آلي؛ kaikki_hebrew:3948:en-צ־ד־ק-he-root-RTZUNkRr: الرسم=צ־ד־ק، الرومنة=ts-d-q، الصنف=root، المعنى=Forming words relating to justice and rightness.، السلف/الخلف=Inherited from a West Semitic root, meaning to be right, righteous, or just; cognate with Arabic ص د ق (ṣ d q).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:45eb8929b8717aca431eb200 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 1/1؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:8f0b75ba0f3b20f40f5dc69a`، חול (الرتبة 62)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: חול `ḥol`، noun، «sand» [Kaikki Hebrew، السطر 3890]؛ חול `ḥol`، noun، «something secular» [Kaikki Hebrew، السطر 3891]؛ חול `ḥul`، verb، «to writhe, whirl, tremble, dance» [Kaikki Hebrew، السطر 3892]؛ חו״ל `Khu.L.`، name، «Overseas, abroad, countries except Israel.» [Kaikki Hebrew، السطر 4955]
 - أقدمُ صورةٍ مستعادة: Abbreviation of חוּץ לָאָרֶץ (khútz-la'árets, “outside of the country”).
@@ -1496,7 +2114,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حبل «ضم وثيق أو عظيم مع امتداد» (licensed؛ LAB-05)؛ root حور «تجوف مع استدارة» (licensed؛ LAB-06، LIQ-01)؛ root حور «تجوف مع استدارة» (licensed؛ LIQ-01)؛ root حول «عُدول جرمِ الشيء عن مكانه - أو اتجاهه - المعتاد إلى آخر قريب» (licensed؛ LAB-06)؛ root حول «عُدول جرمِ الشيء عن مكانه - أو اتجاهه - المعتاد إلى آخر قريب» (licensed؛ مباشر)؛ root خول «حَوْزُ لطيف مع بعد أو تباعد (حيازة مؤقتة)» (licensed؛ GUT-05، LAB-06)؛ root خول «حَوْزُ لطيف مع بعد أو تباعد (حيازة مؤقتة)» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-05)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-05)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ LIQ-01)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ مباشر)
 - مسارُ الصوت: root حبل «ضم وثيق أو عظيم مع امتداد» (licensed؛ LAB-05)؛ root حور «تجوف مع استدارة» (licensed؛ LAB-06، LIQ-01)؛ root حور «تجوف مع استدارة» (licensed؛ LIQ-01)؛ root حول «عُدول جرمِ الشيء عن مكانه - أو اتجاهه - المعتاد إلى آخر قريب» (licensed؛ LAB-06)؛ root حول «عُدول جرمِ الشيء عن مكانه - أو اتجاهه - المعتاد إلى آخر قريب» (licensed؛ مباشر)؛ root خول «حَوْزُ لطيف مع بعد أو تباعد (حيازة مؤقتة)» (licensed؛ GUT-05، LAB-06)؛ root خول «حَوْزُ لطيف مع بعد أو تباعد (حيازة مؤقتة)» (licensed؛ GUT-05)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-05)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-05)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ LIQ-01)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: חול `ḥol`، noun، «sand» [Kaikki Hebrew، السطر 3890]؛ חול `ḥol`، noun، «something secular» [Kaikki Hebrew، السطر 3891]؛ חול `ḥul`، verb، «to writhe, whirl, tremble, dance» [Kaikki Hebrew، السطر 3892]؛ חו״ל `Khu.L.`، name، «Overseas, abroad, countries except Israel.» [Kaikki Hebrew، السطر 4955]
@@ -1505,14 +2123,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:3890:en-חול-he-noun-9519JFWD: الرسم=חול، الرومنة=ḥol، الصنف=noun، المعنى=sand، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3891:en-חול-he-noun--eEISOlL: الرسم=חול، الرومنة=ḥol، الصنف=noun، المعنى=something secular، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3892:en-חול-he-verb-E1P6Y3wn: الرسم=חול، الرومنة=ḥul، الصنف=verb، المعنى=to writhe, whirl, tremble, dance، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4955:en-חו״ל-he-name-FwCpzxvw: الرسم=חו״ל، الرومنة=Khu.L.، الصنف=name، المعنى=Overseas, abroad, countries except Israel.، السلف/الخلف=Abbreviation of חוּץ לָאָרֶץ (khútz-la'árets, “outside of the country”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:8f0b75ba0f3b20f40f5dc69a -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:4bd1409ca5cca37a9ee17277`، ע־ב־ר (الرتبة 63)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ע־ב־ר `ʿ-b-r`، root، «Forming words pertaining to movement, crossing, passage.» [Kaikki Hebrew، السطر 13233]؛ עבר `avár`، noun، «The past.» [Kaikki Hebrew، السطر 185]؛ עבר `éver`، noun، «side, direction, way» [Kaikki Hebrew، السطر 186]؛ עבר `éver`، name، «Eber» [Kaikki Hebrew، السطر 189]
 - أقدمُ صورةٍ مستعادة: Compare Arabic ع ب ر (ʕ b r).؛ From Proto-Semitic *ʕabar- (“to cross”). Cognate with Arabic عَبَرَ (ʕabara) and Akkadian ebēru.؛ From Proto-Semitic *ʕabar- (“to cross”). Cognate with Arabic عَبَرَ (ʕabara) and Akkadian ebēru.؛ From Proto-Semitic *ʕabar- (“to cross”). Cognate with Arabic عَبَرَ (ʕabara) and Akkadian ebēru.
@@ -1520,7 +2148,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عبر «انتقال - أو انتشار - من حيّز إلى آخر بقوة ولطف» (licensed؛ مباشر)؛ root عفر «انبعاث (عند الاستثارة) بحدة وجفاف، أو تفرق» (licensed؛ LAB-02)؛ root عمر «شغل فراغ الأثناء بمناسب يثبتها، أو يبرز نفعها ويديمه» (licensed؛ LAB-04)؛ root عور «فراغ - أو فرجة - طارئة في سطح ظاهر شيء تكشف عن باطنه» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)؛ nucleus بن «الامتداد والبناء» (licensed؛ LIQ-03)؛ nucleus عب «اجتماع الرخو، أو المائع، أو التخلخل في الحيز» (licensed؛ مباشر)
 - مسارُ الصوت: root عبر «انتقال - أو انتشار - من حيّز إلى آخر بقوة ولطف» (licensed؛ مباشر)؛ root عفر «انبعاث (عند الاستثارة) بحدة وجفاف، أو تفرق» (licensed؛ LAB-02)؛ root عمر «شغل فراغ الأثناء بمناسب يثبتها، أو يبرز نفعها ويديمه» (licensed؛ LAB-04)؛ root عور «فراغ - أو فرجة - طارئة في سطح ظاهر شيء تكشف عن باطنه» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)؛ nucleus بن «الامتداد والبناء» (licensed؛ LIQ-03)؛ nucleus عب «اجتماع الرخو، أو المائع، أو التخلخل في الحيز» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: ע־ב־ר `ʿ-b-r`، root، «Forming words pertaining to movement, crossing, passage.» [Kaikki Hebrew، السطر 13233]؛ עבר `avár`، noun، «The past.» [Kaikki Hebrew، السطر 185]؛ עבר `éver`، noun، «side, direction, way» [Kaikki Hebrew، السطر 186]؛ עבר `éver`، name، «Eber» [Kaikki Hebrew، السطر 189]
@@ -1529,14 +2157,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13233:en-ע־ב־ר-he-root-SWY7XD4b: الرسم=ע־ב־ר، الرومنة=ʿ-b-r، الصنف=root، المعنى=Forming words pertaining to movement, crossing, passage.، السلف/الخلف=Compare Arabic ع ب ر (ʕ b r).، القرض=لا وسم آلي؛ kaikki_hebrew:185:en-עבר-he-noun-7eYmMBm6: الرسم=עבר، الرومنة=avár، الصنف=noun، المعنى=The past.، السلف/الخلف=From Proto-Semitic *ʕabar- (“to cross”). Cognate with Arabic عَبَرَ (ʕabara) and Akkadian ebēru.، القرض=لا وسم آلي؛ kaikki_hebrew:186:en-עבר-he-noun-INRAT-74: الرسم=עבר، الرومنة=éver، الصنف=noun، المعنى=side, direction, way، السلف/الخلف=From Proto-Semitic *ʕabar- (“to cross”). Cognate with Arabic عَبَرَ (ʕabara) and Akkadian ebēru.، القرض=لا وسم آلي؛ kaikki_hebrew:189:en-עבר-he-name-wtoi2b1H: الرسم=עבר، الرومنة=éver، الصنف=name، المعنى=Eber، السلف/الخلف=From Proto-Semitic *ʕabar- (“to cross”). Cognate with Arabic عَبَرَ (ʕabara) and Akkadian ebēru.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:4bd1409ca5cca37a9ee17277 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: עבר، الرتبة 63.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:6af251d3e1e9ccace85faaaa`، כמה (الرتبة 64)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=כמה الاستفهامية «كم، كم عددًا» وحدها، لا فعل الشوق؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כמה `káma`، det، «How much, how many.» [Kaikki Hebrew، السطر 6130]؛ כמה `káma`، adv، «How, how much, to what extent.» [Kaikki Hebrew، السطر 6131]؛ כמה `kamáh`، verb، «to long, yearn» [Kaikki Hebrew، السطر 6132]؛ כמה `kaméah`، adj، «longing, yearning» [Kaikki Hebrew، السطر 6133]
 - أقدمُ صورةٍ مستعادة: Related to Arabic كَمْ (kam).؛ Related to Arabic كَمْ (kam).
@@ -1544,7 +2182,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، GUT-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03)؛ root جمع «تضام أشياء متجانسة كثيرة تلاقيًا أو تلاحمًا أو تراكما» (licensed؛ GUT-03، GUT-04)؛ root جنح «امتداد أو اندفاع من الجوانب قوي أو حاد» (licensed؛ GUT-03، GUT-04، LIQ-02)؛ root جنح «امتداد أو اندفاع من الجوانب قوي أو حاد» (licensed؛ GUT-03، LIQ-02)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ GUT-04، LAB-04، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ LAB-04، SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ GUT-04، LAB-04، SIB-06)؛ root صبغ «تَطَلِّي طرف الشيء بلون أو مادة ينغمس فيها، يخالف ما عليه أصله، أو سائره» (licensed؛ GUT-04، LAB-04، SIB-06)؛ root صمع «أن ينضم في الشيء ما شأنه أن ينتبر أو يتفرع منه» (licensed؛ GUT-04، SIB-06)؛ root صنع «جمع أو تحصيل في هيأة جديدة ( أو تعظيم نفس الهيأة) بتدبير واحتيال أو إحكام» (licensed؛ GUT-04، LIQ-02، SIB-06)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04، LAB-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ LAB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ LAB-04، SIB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-01، GUT-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-01)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ مباشر)؛ root قمع «ضبط في حيز ومنع عن الانتشار منه» (licensed؛ GUT-01، GUT-04)؛ root قمع «ضبط في حيز ومنع عن الانتشار منه» (licensed؛ GUT-04)؛ root قنع «الاشتمال أو الاحتواء من أعلى بلطف أو رقة» (licensed؛ GUT-04، LIQ-02)؛ root كنس «تنحي ما كان ظاهرًا إلى جوف كِنٍّ يستره» (scope-gap؛ LIQ-02، SIB-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `كمم` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ LAB-04)؛ nucleus بس «الجفاف واليبوسة» (scope-gap؛ LAB-04، SIB-04)
 - مسارُ الصوت: root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، GUT-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03)؛ root جمع «تضام أشياء متجانسة كثيرة تلاقيًا أو تلاحمًا أو تراكما» (licensed؛ GUT-03، GUT-04)؛ root جنح «امتداد أو اندفاع من الجوانب قوي أو حاد» (licensed؛ GUT-03، GUT-04، LIQ-02)؛ root جنح «امتداد أو اندفاع من الجوانب قوي أو حاد» (licensed؛ GUT-03، LIQ-02)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ GUT-04، LAB-04، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ LAB-04، SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ GUT-04، LAB-04، SIB-06)؛ root صبغ «تَطَلِّي طرف الشيء بلون أو مادة ينغمس فيها، يخالف ما عليه أصله، أو سائره» (licensed؛ GUT-04، LAB-04، SIB-06)؛ root صمع «أن ينضم في الشيء ما شأنه أن ينتبر أو يتفرع منه» (licensed؛ GUT-04، SIB-06)؛ root صنع «جمع أو تحصيل في هيأة جديدة ( أو تعظيم نفس الهيأة) بتدبير واحتيال أو إحكام» (licensed؛ GUT-04، LIQ-02، SIB-06)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04، LAB-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ LAB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ LAB-04، SIB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-01، GUT-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-01)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ مباشر)؛ root قمع «ضبط في حيز ومنع عن الانتشار منه» (licensed؛ GUT-01، GUT-04)؛ root قمع «ضبط في حيز ومنع عن الانتشار منه» (licensed؛ GUT-04)؛ root قنع «الاشتمال أو الاحتواء من أعلى بلطف أو رقة» (licensed؛ GUT-04، LIQ-02)؛ root كنس «تنحي ما كان ظاهرًا إلى جوف كِنٍّ يستره» (scope-gap؛ LIQ-02، SIB-04)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ LAB-04)؛ nucleus بس «الجفاف واليبوسة» (scope-gap؛ LAB-04، SIB-04)
 - المعنى من قاموس الفرع: כמה `káma`، det، «How much, how many.» [Kaikki Hebrew، السطر 6130]؛ כמה `káma`، adv، «How, how much, to what extent.» [Kaikki Hebrew، السطر 6131]؛ כמה `kamáh`، verb، «to long, yearn» [Kaikki Hebrew، السطر 6132]؛ כמה `kaméah`، adj، «longing, yearning» [Kaikki Hebrew، السطر 6133]
@@ -1553,14 +2191,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:6130:en-כמה-he-det-np-T31Cc: الرسم=כמה، الرومنة=káma، الصنف=det، المعنى=How much, how many.، السلف/الخلف=Related to Arabic كَمْ (kam).، القرض=لا وسم آلي؛ kaikki_hebrew:6131:en-כמה-he-adv-tteaQZQf: الرسم=כמה، الرومنة=káma، الصنف=adv، المعنى=How, how much, to what extent.، السلف/الخلف=Related to Arabic كَمْ (kam).، القرض=لا وسم آلي؛ kaikki_hebrew:6132:en-כמה-he-verb-EEWUNNuv: الرسم=כמה، الرومنة=kamáh، الصنف=verb، المعنى=to long, yearn، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6133:en-כמה-he-adj-ebmqoPG0: الرسم=כמה، الرومنة=kaméah، الصنف=adj، المعنى=longing, yearning، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): NUCLEUS-TRACE؛ כמה الاستفهامية «كم، كم عددًا» وحدها، لا فعل الشوق؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:6af251d3e1e9ccace85faaaa -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `كمم`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `كم`، `عدد`.
+  - سند الفرع المنشور: Related to Arabic كَمْ (kam). | Related to Arabic كَمْ (kam).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:868cb5d2a7c8a73ec903f472`، ס־ע־ד (الرتبة 65)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צעד `tsá'ad`، noun، «step, pace» [Kaikki Hebrew، السطر 11506]؛ צעד `tsa'ád`، verb، «to march» [Kaikki Hebrew، السطر 11507]؛ ס־ע־ד `s-ʿ-d`، root، «Forms words relating to meals.» [Kaikki Hebrew، السطر 5252]؛ ס־ע־ד `s-ʿ-d`، root، «Forms words relating to support.» [Kaikki Hebrew، السطر 5253]
 - أقدمُ صورةٍ مستعادة: Cognate with Arabic س ع د (s ʕ d, “help, assist”).
@@ -1568,7 +2220,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root سعد «جريان مادة القوة والتغذية في أثناء الشيء طيبة محوزة فيه، فتمدّه بقوته وقوامه» (licensed؛ DENT-06)؛ root سعد «جريان مادة القوة والتغذية في أثناء الشيء طيبة محوزة فيه، فتمدّه بقوته وقوامه» (licensed؛ SIB-02)؛ root سعد «جريان مادة القوة والتغذية في أثناء الشيء طيبة محوزة فيه، فتمدّه بقوته وقوامه» (licensed؛ مباشر)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ DENT-06، SIB-06)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ DENT-06)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ SIB-02)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ SIB-06)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ثع «خروج المائع أو شبهه من مصدره» (licensed؛ DENT-02)؛ nucleus زد «إضافة شيء إلى الحيز» (licensed؛ SIB-03)؛ nucleus زع «التحريك القليل دفعًا» (licensed؛ SIB-03)؛ nucleus سد «مادة جامدة أو كثيفة تقوم معترضة أو متراكمة» (licensed؛ DENT-06)
 - مسارُ الصوت: root سعد «جريان مادة القوة والتغذية في أثناء الشيء طيبة محوزة فيه، فتمدّه بقوته وقوامه» (licensed؛ DENT-06)؛ root سعد «جريان مادة القوة والتغذية في أثناء الشيء طيبة محوزة فيه، فتمدّه بقوته وقوامه» (licensed؛ SIB-02)؛ root سعد «جريان مادة القوة والتغذية في أثناء الشيء طيبة محوزة فيه، فتمدّه بقوته وقوامه» (licensed؛ مباشر)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ DENT-06، SIB-06)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ DENT-06)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ SIB-02)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ SIB-06)؛ root صعد «ارتفاع بثقل أو تحبس أي قليلاً قليلاً» (licensed؛ مباشر)؛ nucleus ثع «خروج المائع أو شبهه من مصدره» (licensed؛ DENT-02)؛ nucleus زد «إضافة شيء إلى الحيز» (licensed؛ SIB-03)؛ nucleus زع «التحريك القليل دفعًا» (licensed؛ SIB-03)؛ nucleus سد «مادة جامدة أو كثيفة تقوم معترضة أو متراكمة» (licensed؛ DENT-06)
 - المعنى من قاموس الفرع: צעד `tsá'ad`، noun، «step, pace» [Kaikki Hebrew، السطر 11506]؛ צעד `tsa'ád`، verb، «to march» [Kaikki Hebrew، السطر 11507]؛ ס־ע־ד `s-ʿ-d`، root، «Forms words relating to meals.» [Kaikki Hebrew، السطر 5252]؛ ס־ע־ד `s-ʿ-d`، root، «Forms words relating to support.» [Kaikki Hebrew، السطر 5253]
@@ -1577,14 +2229,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11506:en-צעד-he-noun-bLdiOzuA: الرسم=צעד، الرومنة=tsá'ad، الصنف=noun، المعنى=step, pace، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:11507:en-צעד-he-verb-SW~o88~g: الرسم=צעד، الرومنة=tsa'ád، الصنف=verb، المعنى=to march، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5252:en-ס־ע־ד-he-root-4mQPS2x1: الرسم=ס־ע־ד، الرومنة=s-ʿ-d، الصنف=root، المعنى=Forms words relating to meals.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5253:en-ס־ע־ד-he-root-kJea~2sf: الرسم=ס־ע־ד، الرومنة=s-ʿ-d، الصنف=root، المعنى=Forms words relating to support.، السلف/الخلف=Cognate with Arabic س ع د (s ʕ d, “help, assist”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:868cb5d2a7c8a73ec903f472 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:de8c3313b806ae8cc5bfdf33`، ס־ב־ר (الرتبة 66)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ס־ב־ר `s-b-r`، root، «Related to thinking, opinion.» [Kaikki Hebrew، السطر 15675]؛ סבר `séver`، noun، «countenance, expression» [Kaikki Hebrew، السطر 3030]؛ צבר `tsabár`، noun، «prickly pear cactus» [Kaikki Hebrew، السطر 3333]؛ צבר `tsavár`، verb، «to store» [Kaikki Hebrew، السطر 3334]
 - أقدمُ صورةٍ مستعادة: Compare with Arabic س ب ر (s-b-r, “to examine, to fathom”) and Assyrian Neo-Aramaic ܣ ܒ ܪ (s b r).؛ Borrowed from Arabic صَبَّار (ṣabbār).
@@ -1592,7 +2254,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02، LAB-04)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-05)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ SIB-03)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LIQ-01)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ LAB-02)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ LAB-04)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-05)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ مباشر)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 11/11؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)؛ nucleus بن «الامتداد والبناء» (licensed؛ LIQ-03)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02)
 - مسارُ الصوت: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02، LAB-04)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-05)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ SIB-03)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LIQ-01)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ LAB-02)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ LAB-04)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-05)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ مباشر)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)؛ nucleus بن «الامتداد والبناء» (licensed؛ LIQ-03)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02)
 - المعنى من قاموس الفرع: ס־ב־ר `s-b-r`، root، «Related to thinking, opinion.» [Kaikki Hebrew، السطر 15675]؛ סבר `séver`، noun، «countenance, expression» [Kaikki Hebrew، السطر 3030]؛ צבר `tsabár`، noun، «prickly pear cactus» [Kaikki Hebrew، السطر 3333]؛ צבר `tsavár`، verb، «to store» [Kaikki Hebrew، السطر 3334]
@@ -1601,14 +2263,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:15675:en-ס־ב־ר-he-root-MWJ~1ghj: الرسم=ס־ב־ר، الرومنة=s-b-r، الصنف=root، المعنى=Related to thinking, opinion.، السلف/الخلف=Compare with Arabic س ب ر (s-b-r, “to examine, to fathom”) and Assyrian Neo-Aramaic ܣ ܒ ܪ (s b r).، القرض=لا وسم آلي؛ kaikki_hebrew:3030:en-סבר-he-noun-SvBtG09L: الرسم=סבר، الرومنة=séver، الصنف=noun، المعنى=countenance, expression، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3333:en-צבר-he-noun-A4u1Iju3: الرسم=צבר، الرومنة=tsabár، الصنف=noun، المعنى=prickly pear cactus، السلف/الخلف=Borrowed from Arabic صَبَّار (ṣabbār).، القرض=وسم آلي؛ kaikki_hebrew:3334:en-צבר-he-verb-yKZwtks3: الرسم=צבר، الرومنة=tsavár، الصنف=verb، المعنى=to store، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:de8c3313b806ae8cc5bfdf33 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: ס־ב־ר، حسم الموجة 1 للرتبة 66.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:6fb100eac4166e82695d2cfe`، הבקיע שער (الرتبة 67)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: הבקיע שער `hivkía shá'ar`، verb، «to score a goal» [Kaikki Hebrew، السطر 13691]؛ יירש זרעך את שער אויביו `yirásh zar'akhá et shá'ar 'oyváv`، phrase، «May your descendants be successful!» [Kaikki Hebrew، السطر 16960]؛ שער `shá'ar`، noun، «gateway (entrance)» [Kaikki Hebrew، السطر 2096]؛ שער מתרומם `shá'ar mitromém`، noun، «portcullis» [Kaikki Hebrew، السطر 4806]
 - أقدمُ صورةٍ مستعادة: Literally, “may your seed take possession of the gate of his enemies”, i.e. may your descendants be successful in taking their enemies town.؛ Cognate with Aramaic תַּרְעָא (tarʿā) by metathesis. Cognate with Arabic سِعْر (siʕr) for the "market value" sense. The "goal" sense in sports might be a semantic loan from German 
@@ -1616,7 +2288,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root سعر «انتشار الحدة في الأثناء بسبب ذهاب ما ينبغي أن يشغلها من الرخاوة والبلال» (licensed؛ SIB-01)؛ root شعر «دقاق كثيرة تنفذ من البدن أو الأرض بامتداد» (licensed؛ مباشر)؛ root شعل «أن ينتشر في الشيء - أو منه - ما هو حاد الوقع مع لُطْفِ جِرْمٍ، أو خِفَّة في الانتشار» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)
 - مسارُ الصوت: root سعر «انتشار الحدة في الأثناء بسبب ذهاب ما ينبغي أن يشغلها من الرخاوة والبلال» (licensed؛ SIB-01)؛ root شعر «دقاق كثيرة تنفذ من البدن أو الأرض بامتداد» (licensed؛ مباشر)؛ root شعل «أن ينتشر في الشيء - أو منه - ما هو حاد الوقع مع لُطْفِ جِرْمٍ، أو خِفَّة في الانتشار» (licensed؛ LIQ-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)
 - المعنى من قاموس الفرع: הבקיע שער `hivkía shá'ar`، verb، «to score a goal» [Kaikki Hebrew، السطر 13691]؛ יירש זרעך את שער אויביו `yirásh zar'akhá et shá'ar 'oyváv`، phrase، «May your descendants be successful!» [Kaikki Hebrew، السطر 16960]؛ שער `shá'ar`، noun، «gateway (entrance)» [Kaikki Hebrew، السطر 2096]؛ שער מתרומם `shá'ar mitromém`، noun، «portcullis» [Kaikki Hebrew، السطر 4806]
@@ -1625,14 +2297,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13691:en-הבקיע_שער-he-verb-RondBmxf: الرسم=הבקיע שער، الرومنة=hivkía shá'ar، الصنف=verb، المعنى=to score a goal، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:16960:en-יירש_זרעך_את_שער_אויביו-he-phrase-BMM9skWp: الرسم=יירש זרעך את שער אויביו، الرومنة=yirásh zar'akhá et shá'ar 'oyváv، الصنف=phrase، المعنى=May your descendants be successful!، السلف/الخلف=Literally, “may your seed take possession of the gate of his enemies”, i.e. may your descendants be successful in taking their enemies town.، القرض=لا وسم آلي؛ kaikki_hebrew:2096:en-שער-he-noun-xWI6w8kI: الرسم=שער، الرومنة=shá'ar، الصنف=noun، المعنى=gateway (entrance)، السلف/الخلف=Cognate with Aramaic תַּרְעָא (tarʿā) by metathesis. Cognate with Arabic سِعْر (siʕr) for the "market value" sense. The "goal" sense in sports might be a semantic loan from German ، القرض=لا وسم آلي؛ kaikki_hebrew:4806:en-שער_מתרומם-he-noun-dOGdzVzu: الرسم=שער מתרומם، الرومنة=shá'ar mitromém، الصنف=noun، المعنى=portcullis، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:6fb100eac4166e82695d2cfe -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:22a3ee5d71fa234e9be5d141`، טוב (الرتبة 68)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=טוב في الخير والجودة وحده؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: טוב `tov`، noun، «goodness, fairness» [Kaikki Hebrew، السطر 341]؛ טוב `tov`، adv، «well, good» [Kaikki Hebrew، السطر 343]؛ טוב `tov`، intj، «ok, right» [Kaikki Hebrew، السطر 344]؛ טוב `tuv`، noun، «goodness, virtue» [Kaikki Hebrew، السطر 345]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib).؛ From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib).؛ From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib).
@@ -1640,7 +2322,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root تبب «ذهاب غلظ الشيء وشدته من ضغط حاد عليه» (licensed؛ LAB-05)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ DENT-05، LAB-06)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ DENT-05)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ LAB-06)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ مباشر)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (scope-gap؛ DENT-01، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (scope-gap؛ DENT-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-06، SIB-05)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ SIB-05)؛ root طبب «التلطف والاحتيال في جبر خلل الشيء أو تسويته» (licensed؛ LAB-05)؛ root طوف «غشيان الشيء بغلظ أو قوة يعم حدوده أو أعلاه» (licensed؛ LAB-02، LAB-06)؛ root طوف «غشيان الشيء بغلظ أو قوة يعم حدوده أو أعلاه» (licensed؛ LAB-02)؛ root طيب «لطف وقع الشيء على الحس وخلوه من الغلظ» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `طيب` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ DENT-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ مباشر)
 - مسارُ الصوت: root تبب «ذهاب غلظ الشيء وشدته من ضغط حاد عليه» (licensed؛ LAB-05)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ DENT-05، LAB-06)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ DENT-05)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ LAB-06)؛ root توب «توقف الشخص وانقطاعه عما كان يعمله من الذنوب ونحوها لرقة اعترته» (licensed؛ مباشر)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (scope-gap؛ DENT-01، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (scope-gap؛ DENT-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-06، SIB-05)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ SIB-05)؛ root طبب «التلطف والاحتيال في جبر خلل الشيء أو تسويته» (licensed؛ LAB-05)؛ root طوف «غشيان الشيء بغلظ أو قوة يعم حدوده أو أعلاه» (licensed؛ LAB-02، LAB-06)؛ root طوف «غشيان الشيء بغلظ أو قوة يعم حدوده أو أعلاه» (licensed؛ LAB-02)؛ root طيب «لطف وقع الشيء على الحس وخلوه من الغلظ» (manual-condition؛ GLD-01)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ DENT-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: טוב `tov`، noun، «goodness, fairness» [Kaikki Hebrew، السطر 341]؛ טוב `tov`، adv، «well, good» [Kaikki Hebrew، السطر 343]؛ טוב `tov`، intj، «ok, right» [Kaikki Hebrew، السطر 344]؛ טוב `tuv`، noun، «goodness, virtue» [Kaikki Hebrew، السطر 345]
@@ -1649,14 +2331,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:341:en-טוב-he-noun-tqyBORS9: الرسم=טוב، الرومنة=tov، الصنف=noun، المعنى=goodness, fairness، السلف/الخلف=From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib).، القرض=لا وسم آلي؛ kaikki_hebrew:343:en-טוב-he-adv-WVrIndxm: الرسم=טוב، الرومنة=tov، الصنف=adv، المعنى=well, good، السلف/الخلف=From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib).، القرض=لا وسم آلي؛ kaikki_hebrew:344:en-טוב-he-intj-x9WrdUzF: الرسم=טוב، الرومنة=tov، الصنف=intj، المعنى=ok, right، السلف/الخلف=From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib).، القرض=لا وسم آلي؛ kaikki_hebrew:345:en-טוב-he-noun-1rZjgL3x: الرسم=טוב، الرومنة=tuv، الصنف=noun، المعنى=goodness, virtue، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ טוב في الخير والجودة وحده؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:22a3ee5d71fa234e9be5d141 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `طيب`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `طيب`، `خير`.
+  - سند الفرع المنشور: From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib). | From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib). | From Proto-Semitic *ṭāb- (“good”). Cognate with Akkadian 𒁕𒁍𒌝 (ṭābum) and Arabic طَيِّب (ṭayyib).
+  - مسار الصوت اللازم وحده: GLD-01.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:9ecdb7b2d92474617823d4f9`، בפרט (الرتبة 69)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פרט `p'rat`، noun، «a detail» [Kaikki Hebrew، السطر 10753]؛ בפרט `bifrát`، adv، «in particular» [Kaikki Hebrew، السطر 14821]؛ פרטי פרטים `pratéy pratím`، noun، «minute details» [Kaikki Hebrew، السطر 15848]؛ פרטי `p'ratí`، adj، «private, personal» [Kaikki Hebrew، السطر 4140]؛ פרטי `p'raté-`، noun، «plural construct state form of פרט: details of» [Kaikki Hebrew، السطر 4141]
 - أقدمُ صورةٍ مستعادة: ב־ (b'-) + פְּרָט (p'rat)
@@ -1664,7 +2360,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root فرت «خُلوص الماء من الملح مع صفائه من الكدورة» (licensed؛ DENT-05)؛ root فرت «خُلوص الماء من الملح مع صفائه من الكدورة» (licensed؛ LAB-02)؛ root فرت «خُلوص الماء من الملح مع صفائه من الكدورة» (licensed؛ مباشر)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (scope-gap؛ DENT-01)؛ root فرش «انبساط وانتشار للشيء مع رقة - أو ليونة - فيه» (licensed؛ SIB-05)؛ root فرط «اندفاع بعض الشيء متقدمًا - أو مبتعدًا - من عُظْمِه بقوة» (licensed؛ DENT-05)؛ root فرط «اندفاع بعض الشيء متقدمًا - أو مبتعدًا - من عُظْمِه بقوة» (licensed؛ LAB-02)؛ root فرط «اندفاع بعض الشيء متقدمًا - أو مبتعدًا - من عُظْمِه بقوة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-02)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ مباشر)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-02)
 - مسارُ الصوت: root فرت «خُلوص الماء من الملح مع صفائه من الكدورة» (licensed؛ DENT-05)؛ root فرت «خُلوص الماء من الملح مع صفائه من الكدورة» (licensed؛ LAB-02)؛ root فرت «خُلوص الماء من الملح مع صفائه من الكدورة» (licensed؛ مباشر)؛ root فرث «تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها» (scope-gap؛ DENT-01)؛ root فرش «انبساط وانتشار للشيء مع رقة - أو ليونة - فيه» (licensed؛ SIB-05)؛ root فرط «اندفاع بعض الشيء متقدمًا - أو مبتعدًا - من عُظْمِه بقوة» (licensed؛ DENT-05)؛ root فرط «اندفاع بعض الشيء متقدمًا - أو مبتعدًا - من عُظْمِه بقوة» (licensed؛ LAB-02)؛ root فرط «اندفاع بعض الشيء متقدمًا - أو مبتعدًا - من عُظْمِه بقوة» (licensed؛ مباشر)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-02)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ مباشر)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-02)
 - المعنى من قاموس الفرع: פרט `p'rat`، noun، «a detail» [Kaikki Hebrew، السطر 10753]؛ בפרט `bifrát`، adv، «in particular» [Kaikki Hebrew، السطر 14821]؛ פרטי פרטים `pratéy pratím`، noun، «minute details» [Kaikki Hebrew، السطر 15848]؛ פרטי `p'ratí`، adj، «private, personal» [Kaikki Hebrew، السطر 4140]؛ פרטי `p'raté-`، noun، «plural construct state form of פרט: details of» [Kaikki Hebrew، السطر 4141]
@@ -1673,14 +2369,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10753:en-פרט-he-noun-7GXyQkj0: الرسم=פרט، الرومنة=p'rat، الصنف=noun، المعنى=a detail، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14821:en-בפרט-he-adv-bZ7yk0pd: الرسم=בפרט، الرومنة=bifrát، الصنف=adv، المعنى=in particular، السلف/الخلف=ב־ (b'-) + פְּרָט (p'rat)، القرض=لا وسم آلي؛ kaikki_hebrew:15848:en-פרטי_פרטים-he-noun-VuY-sNWJ: الرسم=פרטי פרטים، الرومنة=pratéy pratím، الصنف=noun، المعنى=minute details، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4140:en-פרטי-he-adj-kbtGxsMg: الرسم=פרטי، الرومنة=p'ratí، الصنف=adj، المعنى=private, personal، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4141:en-פרטי-he-noun-oKb53SR1: الرسم=פרטי، الرومنة=p'raté-، الصنف=noun، المعنى=plural construct state form of פרט: details of، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:9ecdb7b2d92474617823d4f9 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:3c128bb7fbcd3b3130b3c37b`، צור (الرتبة 70)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צור `tsúr`، noun، «cliff, rock» [Kaikki Hebrew، السطر 640]؛ צור `tsúr`، name، «a male given name» [Kaikki Hebrew، السطر 641]؛ צור `tsór`، noun، «flint» [Kaikki Hebrew، السطر 643]؛ צור `tsór`، name، «Tyre» [Kaikki Hebrew، السطر 644]
 - أقدمُ صورةٍ مستعادة: Compare Arabic ظُرَر (ẓurar), ظِرّ (ẓirr), Aramaic טִינָּרָא (ṭinnārā), Classical Syriac ܛܪܢܐ (ṭarrānā).
@@ -1688,7 +2394,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-05)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-06)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02)؛ root زور «امتساك عدد كبير (جمع) في شيء ما بانتظام وامتداد وانعطاف» (licensed؛ LAB-06، SIB-03)؛ root زور «امتساك عدد كبير (جمع) في شيء ما بانتظام وامتداد وانعطاف» (licensed؛ SIB-03)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-06، SIB-02)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-06)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ SIB-02)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ مباشر)؛ root سول «استرخاء بعض الشيء وتدليه للينه مع احتوائه ثقيلًا» (licensed؛ LAB-06، LIQ-01)؛ root سول «استرخاء بعض الشيء وتدليه للينه مع احتوائه ثقيلًا» (licensed؛ LIQ-01)؛ root سير «امتداد طولي مطرّد مع دقة ما» (manual-condition؛ GLD-01)؛ root شور «استخراج ما يحتويه الشيء من طَيِّب، أو مناسب قوي الأثر» (licensed؛ LAB-06، SIB-01)؛ root شور «استخراج ما يحتويه الشيء من طَيِّب، أو مناسب قوي الأثر» (licensed؛ SIB-01)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-05، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-05)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-06، SIB-02)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-06، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ SIB-02)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ مباشر)؛ root صير «الالتواء أو التحوّل إلى غاية أو مجمع» (manual-condition؛ GLD-01، SIB-06)؛ root صير «الالتواء أو التحوّل إلى غاية أو مجمع» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 8/8؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-05)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02، LIQ-01)
 - مسارُ الصوت: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-05)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-06)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02)؛ root زور «امتساك عدد كبير (جمع) في شيء ما بانتظام وامتداد وانعطاف» (licensed؛ LAB-06، SIB-03)؛ root زور «امتساك عدد كبير (جمع) في شيء ما بانتظام وامتداد وانعطاف» (licensed؛ SIB-03)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-06، SIB-02)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-06)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ SIB-02)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ مباشر)؛ root سول «استرخاء بعض الشيء وتدليه للينه مع احتوائه ثقيلًا» (licensed؛ LAB-06، LIQ-01)؛ root سول «استرخاء بعض الشيء وتدليه للينه مع احتوائه ثقيلًا» (licensed؛ LIQ-01)؛ root سير «امتداد طولي مطرّد مع دقة ما» (manual-condition؛ GLD-01)؛ root شور «استخراج ما يحتويه الشيء من طَيِّب، أو مناسب قوي الأثر» (licensed؛ LAB-06، SIB-01)؛ root شور «استخراج ما يحتويه الشيء من طَيِّب، أو مناسب قوي الأثر» (licensed؛ SIB-01)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-05، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-05)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-06، SIB-02)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-06، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ SIB-02)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ مباشر)؛ root صير «الالتواء أو التحوّل إلى غاية أو مجمع» (manual-condition؛ GLD-01، SIB-06)؛ root صير «الالتواء أو التحوّل إلى غاية أو مجمع» (manual-condition؛ GLD-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-05)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02، LIQ-01)
 - المعنى من قاموس الفرع: צור `tsúr`، noun، «cliff, rock» [Kaikki Hebrew، السطر 640]؛ צור `tsúr`، name، «a male given name» [Kaikki Hebrew، السطر 641]؛ צור `tsór`، noun، «flint» [Kaikki Hebrew، السطر 643]؛ צור `tsór`، name، «Tyre» [Kaikki Hebrew، السطر 644]
@@ -1697,14 +2403,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:640:en-צור-he-noun-o-TvdSFO: الرسم=צור، الرومنة=tsúr، الصنف=noun، المعنى=cliff, rock، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:641:en-צור-he-name-h8YdwBAs: الرسم=צור، الرومنة=tsúr، الصنف=name، المعنى=a male given name، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:643:en-צור-he-noun-Bsyj2qan: الرسم=צור، الرومنة=tsór، الصنف=noun، المعنى=flint، السلف/الخلف=Compare Arabic ظُرَر (ẓurar), ظِرّ (ẓirr), Aramaic טִינָּרָא (ṭinnārā), Classical Syriac ܛܪܢܐ (ṭarrānā).، القرض=لا وسم آلي؛ kaikki_hebrew:644:en-צור-he-name-SBAsrory: الرسم=צור، الرومنة=tsór، الصنف=name، المعنى=Tyre، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:3c128bb7fbcd3b3130b3c37b -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 8/8؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:9c012294649ddfbd404eaf24`، דרך (الرتبة 71)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: דרך `dérekh`، noun، «a road, a path, a way» [Kaikki Hebrew، السطر 1055]؛ קפיצת הדרך `qəp̄îṣáṯ haddéreḵ`، noun، «Kefitzat haderech, miraculous travel between two distant places in a brief time» [Kaikki Hebrew، السطر 16524]؛ דרכים `drachím`، noun، «plural indefinite form of דֶּרֶךְ f (dérekh)» [Kaikki Hebrew، السطر 3683]؛ דרכון `darkón`، noun، «passport (an official document normally used for international journeys, which proves the identity and nationality of the person for whom it was issued)» [Kaikki Hebrew، السطر 6365]؛ דרכונים `darkoním`، noun، «plural indefinite form of דַּרְכּוֹן (darkón)» [Kaikki Hebrew، السطر 6367]
 - أقدمُ صورةٍ مستعادة: Compare Aramaic דְּרַךְ (dəraḵ, “to tread”), Arabic أَدْرَكَ (ʔadraka, “to reach, to overtake”). Possibly related to Arabic طريق.؛ From קְפִיצָה (k'fitsá, “jump, leap”) + דֶּרֶךְ (dérech, “way, journey”), thus meaning "(the) shortening of the way."؛ דֶּרֶךְ (dérekh) + ־וֹן (-ón)
@@ -1712,7 +2428,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root درج «ضم أو احتواء في مَضَمّ للنقل برفق» (licensed؛ DENT-06، GUT-03)؛ root درج «ضم أو احتواء في مَضَمّ للنقل برفق» (licensed؛ GUT-03)؛ root درك «لحاق أو تعلق بطرف الشيء، أو أقصاه» (licensed؛ DENT-06)؛ root درك «لحاق أو تعلق بطرف الشيء، أو أقصاه» (licensed؛ GUT-01)؛ root درك «لحاق أو تعلق بطرف الشيء، أو أقصاه» (licensed؛ مباشر)؛ root دلك «زوال غلظ الشيء أو حدته بنحو العرك فيلين» (licensed؛ LIQ-01)؛ root ضنك «اكتناز جَوْفِ الشيء بلين أو رخو يمتسك فيه» (licensed؛ LIQ-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03، GUT-04)؛ nucleus ءل «» (licensed؛ GUT-04، LIQ-01)؛ nucleus ءن «التهيؤ والصلاح للبلوغ والاستعمال» (licensed؛ GUT-04، LIQ-03)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)
 - مسارُ الصوت: root درج «ضم أو احتواء في مَضَمّ للنقل برفق» (licensed؛ DENT-06، GUT-03)؛ root درج «ضم أو احتواء في مَضَمّ للنقل برفق» (licensed؛ GUT-03)؛ root درك «لحاق أو تعلق بطرف الشيء، أو أقصاه» (licensed؛ DENT-06)؛ root درك «لحاق أو تعلق بطرف الشيء، أو أقصاه» (licensed؛ GUT-01)؛ root درك «لحاق أو تعلق بطرف الشيء، أو أقصاه» (licensed؛ مباشر)؛ root دلك «زوال غلظ الشيء أو حدته بنحو العرك فيلين» (licensed؛ LIQ-01)؛ root ضنك «اكتناز جَوْفِ الشيء بلين أو رخو يمتسك فيه» (licensed؛ LIQ-03)؛ nucleus ءج «الحدة والتجوف» (licensed؛ GUT-03، GUT-04)؛ nucleus ءل «» (licensed؛ GUT-04، LIQ-01)؛ nucleus ءن «التهيؤ والصلاح للبلوغ والاستعمال» (licensed؛ GUT-04، LIQ-03)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)
 - المعنى من قاموس الفرع: דרך `dérekh`، noun، «a road, a path, a way» [Kaikki Hebrew، السطر 1055]؛ קפיצת הדרך `qəp̄îṣáṯ haddéreḵ`، noun، «Kefitzat haderech, miraculous travel between two distant places in a brief time» [Kaikki Hebrew، السطر 16524]؛ דרכים `drachím`، noun، «plural indefinite form of דֶּרֶךְ f (dérekh)» [Kaikki Hebrew، السطر 3683]؛ דרכון `darkón`، noun، «passport (an official document normally used for international journeys, which proves the identity and nationality of the person for whom it was issued)» [Kaikki Hebrew، السطر 6365]؛ דרכונים `darkoním`، noun، «plural indefinite form of דַּרְכּוֹן (darkón)» [Kaikki Hebrew، السطر 6367]
@@ -1721,14 +2437,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1055:en-דרך-he-noun-O2Z50EfB: الرسم=דרך، الرومنة=dérekh، الصنف=noun، المعنى=a road, a path, a way، السلف/الخلف=Compare Aramaic דְּרַךְ (dəraḵ, “to tread”), Arabic أَدْرَكَ (ʔadraka, “to reach, to overtake”). Possibly related to Arabic طريق.، القرض=لا وسم آلي؛ kaikki_hebrew:16524:en-קפיצת_הדרך-he-noun-2v-MqHsJ: الرسم=קפיצת הדרך، الرومنة=qəp̄îṣáṯ haddéreḵ، الصنف=noun، المعنى=Kefitzat haderech, miraculous travel between two distant places in a brief time، السلف/الخلف=From קְפִיצָה (k'fitsá, “jump, leap”) + דֶּרֶךְ (dérech, “way, journey”), thus meaning "(the) shortening of the way."، القرض=لا وسم آلي؛ kaikki_hebrew:3683:en-דרכים-he-noun-RWCkvOjr: الرسم=דרכים، الرومنة=drachím، الصنف=noun، المعنى=plural indefinite form of דֶּרֶךְ f (dérekh)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6365:en-דרכון-he-noun-VoGibPbp: الرسم=דרכון، الرومنة=darkón، الصنف=noun، المعنى=passport (an official document normally used for international journeys, which proves the identity and nationality of the person for whom it was issued)، السلف/الخلف=דֶּרֶךְ (dérekh) + ־וֹן (-ón)، القرض=لا وسم آلي؛ kaikki_hebrew:6367:en-דרכונים-he-noun-4Kg6MV-x: الرسم=דרכונים، الرومنة=darkoním، الصنف=noun، المعنى=plural indefinite form of דַּרְכּוֹן (darkón)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:9c012294649ddfbd404eaf24 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:d6da7e7237da88f2d3e8f664`، מול (الرتبة 72)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מול `mul`، prep، «Opposite, against, facing.» [Kaikki Hebrew، السطر 4111]؛ מול `mol`، noun، «mole (in the International System of Units, the base unit of amount of substance; the amount of substance of a system which contains exactly 6.02214076×10²³ elementary entities (atoms, ions, molecules, etc.))» [Kaikki Hebrew، السطر 4112]؛ מול `mul`، noun، «mussel» [Kaikki Hebrew، السطر 4113]
 - أقدمُ صورةٍ مستعادة: Contraction of מאול, from אול (“to be in front”).؛ From English mole.؛ From French moule.
@@ -1736,7 +2462,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بول «احتواء مادة لطيفة في الباطن تخرج - أو يظهر - أثرها» (licensed؛ LAB-04، LAB-06)؛ root بول «احتواء مادة لطيفة في الباطن تخرج - أو يظهر - أثرها» (licensed؛ LAB-04)؛ root مور «تردُّد المادة المجتمعة في مكانها بتسيبها» (licensed؛ LAB-06، LIQ-01)؛ root مور «تردُّد المادة المجتمعة في مكانها بتسيبها» (licensed؛ LIQ-01)؛ root مول «المحوز من النعم (ما يحاز ومنه تكون النفقة وما يشبهها من التصرف)» (licensed؛ LAB-06)؛ root مول «المحوز من النعم (ما يحاز ومنه تكون النفقة وما يشبهها من التصرف)» (licensed؛ مباشر)؛ root ميل «انحراف الشيء في قيامه عن الاعتدال الطبيعي المتوقع» (manual-condition؛ GLD-01)؛ root نول «حَوْز بتميز وقوة ونوع من الاسترسال» (licensed؛ LAB-06، LIQ-02)؛ root نول «حَوْز بتميز وقوة ونوع من الاسترسال» (licensed؛ LIQ-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-04)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-05)؛ nucleus بو «الوصول» (licensed؛ LAB-04، LAB-06)؛ nucleus بو «الوصول» (licensed؛ LAB-04)
 - مسارُ الصوت: root بول «احتواء مادة لطيفة في الباطن تخرج - أو يظهر - أثرها» (licensed؛ LAB-04، LAB-06)؛ root بول «احتواء مادة لطيفة في الباطن تخرج - أو يظهر - أثرها» (licensed؛ LAB-04)؛ root مور «تردُّد المادة المجتمعة في مكانها بتسيبها» (licensed؛ LAB-06، LIQ-01)؛ root مور «تردُّد المادة المجتمعة في مكانها بتسيبها» (licensed؛ LIQ-01)؛ root مول «المحوز من النعم (ما يحاز ومنه تكون النفقة وما يشبهها من التصرف)» (licensed؛ LAB-06)؛ root مول «المحوز من النعم (ما يحاز ومنه تكون النفقة وما يشبهها من التصرف)» (licensed؛ مباشر)؛ root ميل «انحراف الشيء في قيامه عن الاعتدال الطبيعي المتوقع» (manual-condition؛ GLD-01)؛ root نول «حَوْز بتميز وقوة ونوع من الاسترسال» (licensed؛ LAB-06، LIQ-02)؛ root نول «حَوْز بتميز وقوة ونوع من الاسترسال» (licensed؛ LIQ-02)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-04)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-05)؛ nucleus بو «الوصول» (licensed؛ LAB-04، LAB-06)؛ nucleus بو «الوصول» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: מול `mul`، prep، «Opposite, against, facing.» [Kaikki Hebrew، السطر 4111]؛ מול `mol`، noun، «mole (in the International System of Units, the base unit of amount of substance; the amount of substance of a system which contains exactly 6.02214076×10²³ elementary entities (atoms, ions, molecules, etc.))» [Kaikki Hebrew، السطر 4112]؛ מול `mul`، noun، «mussel» [Kaikki Hebrew، السطر 4113]
@@ -1745,14 +2471,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4111:en-מול-he-prep-LQFOTVx6: الرسم=מול، الرومنة=mul، الصنف=prep، المعنى=Opposite, against, facing.، السلف/الخلف=Contraction of מאול, from אול (“to be in front”).، القرض=لا وسم آلي؛ kaikki_hebrew:4112:en-מול-he-noun-6NreX4gP: الرسم=מול، الرومنة=mol، الصنف=noun، المعنى=mole (in the International System of Units, the base unit of amount of substance; the amount of substance of a system which contains exactly 6.02214076×10²³ elementary entities (atoms, ions, molecules, etc.))، السلف/الخلف=From English mole.، القرض=لا وسم آلي؛ kaikki_hebrew:4113:en-מול-he-noun-m4Wud0F4: الرسم=מול، الرومنة=mul، الصنف=noun، المعنى=mussel، السلف/الخلف=From French moule.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:d6da7e7237da88f2d3e8f664 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:3750f21e06becfeec227a7dc`، פגיעה (الرتبة 73)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פגיעה `p'gi'á`، noun، «a blow, a strike, a hit» [Kaikki Hebrew، السطر 10624]؛ פגע וברח `p'gá uv'rákh`، noun، «Hit-and-run: wherein the responsible party leaves immediately, without acknowledging responsibility.» [Kaikki Hebrew، السطر 7054]؛ פגע `pagá`، verb، «to hurt or injure (someone or something): to cause a wound or injury, or other damage» [Kaikki Hebrew، السطر 7388]؛ נפגע `nifgá`، verb، «To be injured or wounded: to become injured or wounded, to receive a wound or injury.» [Kaikki Hebrew، السطر 7389]
 - أقدمُ صورةٍ مستعادة: From פגע (p'gá/pagá, masculine singular imperative/past tense) + ו־ (u-) + ברח (b'rákh/barákh), literally “injure and flee/injured and fled”.
@@ -1760,7 +2496,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ GUT-01، LAB-01)؛ root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ GUT-01)؛ root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ LAB-01)؛ root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ LAB-02)؛ root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ مباشر)؛ root فقع «رِقّة ظاهرِ الشيء المتكوّر - أو لمعانه - مع خلوّ جوفه» (licensed؛ GUT-01)؛ root فقع «رِقّة ظاهرِ الشيء المتكوّر - أو لمعانه - مع خلوّ جوفه» (licensed؛ LAB-02)؛ root فقع «رِقّة ظاهرِ الشيء المتكوّر - أو لمعانه - مع خلوّ جوفه» (licensed؛ مباشر)؛ root وقع «هوي شديد إلى إقرار ( ويلزمه ثبوت ومكان له)» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-02)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)
 - مسارُ الصوت: root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ GUT-01، LAB-01)؛ root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ GUT-01)؛ root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ LAB-01)؛ root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ LAB-02)؛ root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ مباشر)؛ root فقع «رِقّة ظاهرِ الشيء المتكوّر - أو لمعانه - مع خلوّ جوفه» (licensed؛ GUT-01)؛ root فقع «رِقّة ظاهرِ الشيء المتكوّر - أو لمعانه - مع خلوّ جوفه» (licensed؛ LAB-02)؛ root فقع «رِقّة ظاهرِ الشيء المتكوّر - أو لمعانه - مع خلوّ جوفه» (licensed؛ مباشر)؛ root وقع «هوي شديد إلى إقرار ( ويلزمه ثبوت ومكان له)» (licensed؛ LAB-05)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-02)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)
 - المعنى من قاموس الفرع: פגיעה `p'gi'á`، noun، «a blow, a strike, a hit» [Kaikki Hebrew، السطر 10624]؛ פגע וברח `p'gá uv'rákh`، noun، «Hit-and-run: wherein the responsible party leaves immediately, without acknowledging responsibility.» [Kaikki Hebrew، السطر 7054]؛ פגע `pagá`، verb، «to hurt or injure (someone or something): to cause a wound or injury, or other damage» [Kaikki Hebrew، السطر 7388]؛ נפגע `nifgá`، verb، «To be injured or wounded: to become injured or wounded, to receive a wound or injury.» [Kaikki Hebrew، السطر 7389]
@@ -1769,14 +2505,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10624:en-פגיעה-he-noun-LtllHzkL: الرسم=פגיעה، الرومنة=p'gi'á، الصنف=noun، المعنى=a blow, a strike, a hit، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7054:en-פגע_וברח-he-noun-beTPqp-X: الرسم=פגע וברח، الرومنة=p'gá uv'rákh، الصنف=noun، المعنى=Hit-and-run: wherein the responsible party leaves immediately, without acknowledging responsibility.، السلف/الخلف=From פגע (p'gá/pagá, masculine singular imperative/past tense) + ו־ (u-) + ברח (b'rákh/barákh), literally “injure and flee/injured and fled”.، القرض=لا وسم آلي؛ kaikki_hebrew:7388:en-פגע-he-verb-ZBCg3Cst: الرسم=פגע، الرومنة=pagá، الصنف=verb، المعنى=to hurt or injure (someone or something): to cause a wound or injury, or other damage، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7389:en-נפגע-he-verb-d08SJZyU: الرسم=נפגע، الرومنة=nifgá، الصنف=verb، المعنى=To be injured or wounded: to become injured or wounded, to receive a wound or injury.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:3750f21e06becfeec227a7dc -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:145172d241be99db2b36ea9d`، עצם (الرتبة 74)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עצם בלתי מזוהה `étsem biltí mezuhé`، noun، «An unidentified flying object ("U.F.O."); literally, "unidentified object".» [Kaikki Hebrew، السطر 14605]؛ עב״ם `abá"m`، noun، «abbreviation of עֶצֶם בִּלְתִּי מְזוּהֶה (étsem biltí m'zuhé, “unidentified flying object”): UFO» [Kaikki Hebrew، السطر 16359]؛ עצם `étsem`، noun، «a thing, object» [Kaikki Hebrew، السطر 982]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *ʕaṯ̣m-. Cognate with Arabic عَظْم (ʕaẓm) and Aramaic עַטְמָא.
@@ -1784,7 +2530,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عبب «تجمع المائع - أو الرخو - غزيراً متراكماً في حيز، أو جوف» (licensed؛ LAB-04)؛ root عزم «دوام الاشتداد بلا رخاوة برغم ما يثني عن ذلك» (licensed؛ SIB-03)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ LAB-04، SIB-06)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ LAB-04)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ SIB-02)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ SIB-06)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ مباشر)؛ root عمم «كثرة - أو اجتماع - مع ارتفاع والتحام علوي» (licensed؛ LAB-04)؛ root عوم «طفو باتساع مع جريان ونحوه إلى غاية» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-04)
 - مسارُ الصوت: root عبب «تجمع المائع - أو الرخو - غزيراً متراكماً في حيز، أو جوف» (licensed؛ LAB-04)؛ root عزم «دوام الاشتداد بلا رخاوة برغم ما يثني عن ذلك» (licensed؛ SIB-03)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ LAB-04، SIB-06)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ LAB-04)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ SIB-02)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ SIB-06)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ مباشر)؛ root عمم «كثرة - أو اجتماع - مع ارتفاع والتحام علوي» (licensed؛ LAB-04)؛ root عوم «طفو باتساع مع جريان ونحوه إلى غاية» (licensed؛ LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: עצם בלתי מזוהה `étsem biltí mezuhé`، noun، «An unidentified flying object ("U.F.O."); literally, "unidentified object".» [Kaikki Hebrew، السطر 14605]؛ עב״ם `abá"m`، noun، «abbreviation of עֶצֶם בִּלְתִּי מְזוּהֶה (étsem biltí m'zuhé, “unidentified flying object”): UFO» [Kaikki Hebrew، السطر 16359]؛ עצם `étsem`، noun، «a thing, object» [Kaikki Hebrew، السطر 982]
@@ -1793,14 +2539,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14605:en-עצם_בלתי_מזוהה-he-noun-4lPBVfoH: الرسم=עצם בלתי מזוהה، الرومنة=étsem biltí mezuhé، الصنف=noun، المعنى=An unidentified flying object ("U.F.O."); literally, "unidentified object".، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:16359:en-עב״ם-he-noun-4bB7FscE: الرسم=עב״ם، الرومنة=abá"m، الصنف=noun، المعنى=abbreviation of עֶצֶם בִּלְתִּי מְזוּהֶה (étsem biltí m'zuhé, “unidentified flying object”): UFO، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:982:en-עצם-he-noun-AWS85YE4: الرسم=עצם، الرومنة=étsem، الصنف=noun، المعنى=a thing, object، السلف/الخلف=From Proto-Semitic *ʕaṯ̣m-. Cognate with Arabic عَظْم (ʕaẓm) and Aramaic עַטְמָא.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:145172d241be99db2b36ea9d -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:3a032f9849cfe7ac4a1a7742`، ח־מ־ד (الرتبة 75)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=חמד في الاستحسان والسرور بالشيء وحده، لا التملك المجرد؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ח־מ־ד `kh-m-d`، root، «Forming words pertaining to delight, pleasantness, preciousness, loveliness» [Kaikki Hebrew، السطر 6482]؛ חמד `khamád`، verb، «to covet, to treasure; to value; to cherish, to lust after, to delight in» [Kaikki Hebrew، السطر 925]؛ חמד `khémed`، noun، «delight, loveliness, preciousness» [Kaikki Hebrew، السطر 926]
 - أقدمُ صورةٍ مستعادة: Cognate with Arabic ح م د (ḥ m d).
@@ -1808,7 +2564,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حمد «غنى باطن البدن بما يناسبه من غذاء يقوته ويقويه وينميه» (licensed؛ DENT-06)؛ root حمد «غنى باطن البدن بما يناسبه من غذاء يقوته ويقويه وينميه» (licensed؛ مباشر)؛ root خمد «انقطاع للحاد الذي شأنه أن ينفذ من الشيء» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `حمد` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-04)؛ nucleus بض «التجمع الرخو مع نصاعة» (licensed؛ LAB-04)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-04)؛ nucleus حد «إيقاف الامتداد والتخطي للشيء، أي إنهاؤه، أو منعه» (licensed؛ DENT-06)
 - مسارُ الصوت: root حمد «غنى باطن البدن بما يناسبه من غذاء يقوته ويقويه وينميه» (licensed؛ DENT-06)؛ root حمد «غنى باطن البدن بما يناسبه من غذاء يقوته ويقويه وينميه» (licensed؛ مباشر)؛ root خمد «انقطاع للحاد الذي شأنه أن ينفذ من الشيء» (licensed؛ GUT-05)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-04)؛ nucleus بض «التجمع الرخو مع نصاعة» (licensed؛ LAB-04)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-04)؛ nucleus حد «إيقاف الامتداد والتخطي للشيء، أي إنهاؤه، أو منعه» (licensed؛ DENT-06)
 - المعنى من قاموس الفرع: ח־מ־ד `kh-m-d`، root، «Forming words pertaining to delight, pleasantness, preciousness, loveliness» [Kaikki Hebrew، السطر 6482]؛ חמד `khamád`، verb، «to covet, to treasure; to value; to cherish, to lust after, to delight in» [Kaikki Hebrew، السطر 925]؛ חמד `khémed`، noun، «delight, loveliness, preciousness» [Kaikki Hebrew، السطر 926]
@@ -1817,14 +2573,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:6482:en-ח־מ־ד-he-root-04fJcIfC: الرسم=ח־מ־ד، الرومنة=kh-m-d، الصنف=root، المعنى=Forming words pertaining to delight, pleasantness, preciousness, loveliness، السلف/الخلف=Cognate with Arabic ح م د (ḥ m d).، القرض=لا وسم آلي؛ kaikki_hebrew:925:en-חמד-he-verb-T~gCd--7: الرسم=חמד، الرومنة=khamád، الصنف=verb، المعنى=to covet, to treasure; to value; to cherish, to lust after, to delight in، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:926:en-חמד-he-noun-QhHVbLJP: الرسم=חמד، الرومنة=khémed، الصنف=noun، المعنى=delight, loveliness, preciousness، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-ECHO؛ חמד في الاستحسان والسرور بالشيء وحده، لا التملك المجرد؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-002-075:hebrew:family:3a032f9849cfe7ac4a1a7742 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `حمد`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `حمد`، `مدح`، `ثناء`.
+  - سند الفرع المنشور: Cognate with Arabic ح م د (ḥ m d).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:417fa5bc40ec833e32a34ff5`، ב־ד־ל (الرتبة 76)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=בדל في الفصل والتمييز وحده، على مدار تغيير الحال والانفصال؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: בדל `b'dál`، noun، «stub, shred, a small piece.» [Kaikki Hebrew، السطر 527]؛ בדל `badál`، verb، «To divide (in various senses literally or figuratively, separate, distinguish, differ, select, etc.)» [Kaikki Hebrew، السطر 528]؛ ב־ד־ל `b-d-l`، root، «Forming words relating to separation or distinction.» [Kaikki Hebrew، السطر 5787]
 - أقدمُ صورةٍ مستعادة: From the root ב־ד־ל (b-d-l, “forming words relating to separation or distinction.”) Compare Arabic بدل (badala, “change, exchange”).؛ From the root ב־ד־ל (b-d-l, “forming words relating to separation or distinction.”) Compare Arabic بدل (badala, “change, exchange”).
@@ -1832,7 +2602,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بدر «زيادة في جِرْم الشيء، وسَبْقٌ يبلغ به كمال حاله» (licensed؛ LIQ-01)؛ root بدل «حلول شيء محلّ شيء (وجود هذا لاختفاء ذاك)» (licensed؛ DENT-06)؛ root بدل «حلول شيء محلّ شيء (وجود هذا لاختفاء ذاك)» (licensed؛ مباشر)؛ root فضل «زيادة من مادة الشيء متميزة عنه» (licensed؛ LAB-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `بدل` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ مباشر)؛ nucleus بذ «التفرق والنثر» (scope-gap؛ DENT-03)؛ nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)
 - مسارُ الصوت: root بدر «زيادة في جِرْم الشيء، وسَبْقٌ يبلغ به كمال حاله» (licensed؛ LIQ-01)؛ root بدل «حلول شيء محلّ شيء (وجود هذا لاختفاء ذاك)» (licensed؛ DENT-06)؛ root بدل «حلول شيء محلّ شيء (وجود هذا لاختفاء ذاك)» (licensed؛ مباشر)؛ root فضل «زيادة من مادة الشيء متميزة عنه» (licensed؛ LAB-02)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ مباشر)؛ nucleus بذ «التفرق والنثر» (scope-gap؛ DENT-03)؛ nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)
 - المعنى من قاموس الفرع: בדל `b'dál`، noun، «stub, shred, a small piece.» [Kaikki Hebrew، السطر 527]؛ בדל `badál`، verb، «To divide (in various senses literally or figuratively, separate, distinguish, differ, select, etc.)» [Kaikki Hebrew، السطر 528]؛ ב־ד־ל `b-d-l`، root، «Forming words relating to separation or distinction.» [Kaikki Hebrew، السطر 5787]
@@ -1841,14 +2611,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:527:en-בדל-he-noun-SHpG-uQb: الرسم=בדל، الرومنة=b'dál، الصنف=noun، المعنى=stub, shred, a small piece.، السلف/الخلف=From the root ב־ד־ל (b-d-l, “forming words relating to separation or distinction.”) Compare Arabic بدل (badala, “change, exchange”).، القرض=لا وسم آلي؛ kaikki_hebrew:528:en-בדל-he-verb-~eAdWeKi: الرسم=בדל، الرومنة=badál، الصنف=verb، المعنى=To divide (in various senses literally or figuratively, separate, distinguish, differ, select, etc.)، السلف/الخلف=From the root ב־ד־ל (b-d-l, “forming words relating to separation or distinction.”) Compare Arabic بدل (badala, “change, exchange”).، القرض=لا وسم آلي؛ kaikki_hebrew:5787:en-ב־ד־ל-he-root-B8ndbgyg: الرسم=ב־ד־ל، الرومنة=b-d-l، الصنف=root، المعنى=Forming words relating to separation or distinction.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-ECHO؛ בדל في الفصل والتمييز وحده، على مدار تغيير الحال والانفصال؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:417fa5bc40ec833e32a34ff5 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `بدل`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `بدل`، `غير`، `خلف`.
+  - سند الفرع المنشور: From the root ב־ד־ל (b-d-l, “forming words relating to separation or distinction.”) Compare Arabic بدل (badala, “change, exchange”). | From the root ב־ד־ל (b-d-l, “forming words relating to separation or distinction.”) Compare Arabic بدل (badala, “change, exchange”).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:96296542f94a3381e7d81d8e`، בור (الرتبة 77)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: בור `búr`، noun، «fallow, uncultivated land» [Kaikki Hebrew، السطر 4248]؛ בור `búr`، adj، «ignorant» [Kaikki Hebrew، السطر 4249]؛ בור `bór`، noun، «boron (the chemical element (symbol B) with an atomic number of 5, which is a metalloid found in its pure form as a dark amorphous powder)» [Kaikki Hebrew، السطر 4250]
 - أقدمُ صورةٍ مستعادة: From German Bor.
@@ -1856,7 +2640,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بور «توقّف الشيء عن حصول جدواه بالرغم من توافر هذه الجدوى فيه» (licensed؛ LAB-06)؛ root بور «توقّف الشيء عن حصول جدواه بالرغم من توافر هذه الجدوى فيه» (licensed؛ مباشر)؛ root بول «احتواء مادة لطيفة في الباطن تخرج - أو يظهر - أثرها» (licensed؛ LAB-06، LIQ-01)؛ root بول «احتواء مادة لطيفة في الباطن تخرج - أو يظهر - أثرها» (licensed؛ LIQ-01)؛ root بون «امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع» (licensed؛ LAB-06، LIQ-03)؛ root بون «امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع» (licensed؛ LIQ-03)؛ root فور «جَيَشَانُ نحو الماء إلى أعلى بقوّة واندفاع» (licensed؛ LAB-02، LAB-06)؛ root فور «جَيَشَانُ نحو الماء إلى أعلى بقوّة واندفاع» (licensed؛ LAB-02)؛ root مور «تردُّد المادة المجتمعة في مكانها بتسيبها» (licensed؛ LAB-04، LAB-06)؛ root مور «تردُّد المادة المجتمعة في مكانها بتسيبها» (licensed؛ LAB-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)
 - مسارُ الصوت: root بور «توقّف الشيء عن حصول جدواه بالرغم من توافر هذه الجدوى فيه» (licensed؛ LAB-06)؛ root بور «توقّف الشيء عن حصول جدواه بالرغم من توافر هذه الجدوى فيه» (licensed؛ مباشر)؛ root بول «احتواء مادة لطيفة في الباطن تخرج - أو يظهر - أثرها» (licensed؛ LAB-06، LIQ-01)؛ root بول «احتواء مادة لطيفة في الباطن تخرج - أو يظهر - أثرها» (licensed؛ LIQ-01)؛ root بون «امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع» (licensed؛ LAB-06، LIQ-03)؛ root بون «امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع» (licensed؛ LIQ-03)؛ root فور «جَيَشَانُ نحو الماء إلى أعلى بقوّة واندفاع» (licensed؛ LAB-02، LAB-06)؛ root فور «جَيَشَانُ نحو الماء إلى أعلى بقوّة واندفاع» (licensed؛ LAB-02)؛ root مور «تردُّد المادة المجتمعة في مكانها بتسيبها» (licensed؛ LAB-04، LAB-06)؛ root مور «تردُّد المادة المجتمعة في مكانها بتسيبها» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)
 - المعنى من قاموس الفرع: בור `búr`، noun، «fallow, uncultivated land» [Kaikki Hebrew، السطر 4248]؛ בור `búr`، adj، «ignorant» [Kaikki Hebrew، السطر 4249]؛ בור `bór`، noun، «boron (the chemical element (symbol B) with an atomic number of 5, which is a metalloid found in its pure form as a dark amorphous powder)» [Kaikki Hebrew، السطر 4250]
@@ -1865,14 +2649,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4248:en-בור-he-noun-cUVcjnPc: الرسم=בור، الرومنة=búr، الصنف=noun، المعنى=fallow, uncultivated land، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4249:en-בור-he-adj-MZKgtN2~: الرسم=בור، الرومنة=búr، الصنف=adj، المعنى=ignorant، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4250:en-בור-he-noun-wq0i83uZ: الرسم=בור، الرومنة=bór، الصنف=noun، المعنى=boron (the chemical element (symbol B) with an atomic number of 5, which is a metalloid found in its pure form as a dark amorphous powder)، السلف/الخلف=From German Bor.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:96296542f94a3381e7d81d8e -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:03c67665d2b57a619a2649ea`، נחל (الرتبة 78)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: נחל `nákhal`، noun، «a stream (small river)» [Kaikki Hebrew، السطر 2076]؛ נחל `nakhál`، verb، «to receive, take possession of, inherit» [Kaikki Hebrew، السطر 2077]؛ נח״ל `nákha"l`، noun، «a Nahal, a member of one of several historical or current agricultural military groups in Israel» [Kaikki Hebrew، السطر 9533]
 - أقدمُ صورةٍ مستعادة: Acronym of נוער \ נֹעַר חֲלוּצִי לוֹחֵם (nó'ar khalutsí lokhém, “pioneering youth soldier”).
@@ -1880,7 +2674,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root رحل «الانتقال - أو السفر - إلى مكان بعيد ركوبًا» (licensed؛ LIQ-03)؛ root محل «جفاف أثناء الشيء، وخلوها من اللين والبلال مع امتداد جرمه» (licensed؛ LIQ-02)؛ root نحر «شق نافذ إلى باطن الحرم المُستعرِضِ يَخرج به مائعُه المذخور بغزارة» (licensed؛ LIQ-01)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ مباشر)؛ root نخل «ذهاب غليظ الشيء من أثنائه؛ فيرق - مع تماسكه، أو بقاء أصله» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ تاج العروس لمرتضى الزبيدي + تاج اللغة وصحاح العربية للجوهري.
 - المقابلُ من اللسان: nucleus حر «الخلوص من الغلظ» (licensed؛ LIQ-01)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ مباشر)؛ nucleus خل «الخلخلة أي الفراغ في الأثناء» (licensed؛ GUT-05)؛ nucleus رح «الاتساع والانبساط مع نوع من الرقة» (licensed؛ LIQ-03)
 - مسارُ الصوت: root رحل «الانتقال - أو السفر - إلى مكان بعيد ركوبًا» (licensed؛ LIQ-03)؛ root محل «جفاف أثناء الشيء، وخلوها من اللين والبلال مع امتداد جرمه» (licensed؛ LIQ-02)؛ root نحر «شق نافذ إلى باطن الحرم المُستعرِضِ يَخرج به مائعُه المذخور بغزارة» (licensed؛ LIQ-01)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ مباشر)؛ root نخل «ذهاب غليظ الشيء من أثنائه؛ فيرق - مع تماسكه، أو بقاء أصله» (licensed؛ GUT-05)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ LIQ-01)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ مباشر)؛ nucleus خل «الخلخلة أي الفراغ في الأثناء» (licensed؛ GUT-05)؛ nucleus رح «الاتساع والانبساط مع نوع من الرقة» (licensed؛ LIQ-03)
 - المعنى من قاموس الفرع: נחל `nákhal`، noun، «a stream (small river)» [Kaikki Hebrew، السطر 2076]؛ נחל `nakhál`، verb، «to receive, take possession of, inherit» [Kaikki Hebrew، السطر 2077]؛ נח״ל `nákha"l`، noun، «a Nahal, a member of one of several historical or current agricultural military groups in Israel» [Kaikki Hebrew، السطر 9533]
@@ -1889,14 +2683,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2076:en-נחל-he-noun-AkgpvokR: الرسم=נחל، الرومنة=nákhal، الصنف=noun، المعنى=a stream (small river)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2077:en-נחל-he-verb-ck7bW27k: الرسم=נחל، الرومنة=nakhál، الصنف=verb، المعنى=to receive, take possession of, inherit، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9533:en-נח״ל-he-noun-8-yLZ9qz: الرسم=נח״ל، الرومنة=nákha"l، الصنف=noun، المعنى=a Nahal, a member of one of several historical or current agricultural military groups in Israel، السلف/الخلف=Acronym of נוער \ נֹעַר חֲלוּצִי לוֹחֵם (nó'ar khalutsí lokhém, “pioneering youth soldier”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:03c67665d2b57a619a2649ea -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 5/5؛ تاج العروس لمرتضى الزبيدي + تاج اللغة وصحاح العربية للجوهري.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:1a7c819e41d4027eba2b07ce`، ה־ל־ל (الرتبة 79)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ה־ל־ל `h-l-l`، root، «Forming words relating to being clear and shining.» [Kaikki Hebrew، السطر 10890]؛ הלל `halél`، noun، «Hallel, Psalms 113-118 recited on certain Jewish holidays» [Kaikki Hebrew، السطر 3180]؛ הלל `hilél`، name، «a male given name, equivalent to English Hillel» [Kaikki Hebrew، السطر 3181]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -1904,7 +2708,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حلل «فك ما كان مَشْدُودًا، أو تَسْييبه» (licensed؛ GUT-04)؛ root حلل «فك ما كان مَشْدُودًا، أو تَسْييبه» (licensed؛ مباشر)؛ root خلل «فراغ يخترق أثناء متماسكةً من حوله» (licensed؛ GUT-05)؛ root سلل «انسحاب الشيء من أثناء أو فيها بطول ورفق أو لطف» (scope-gap؛ SIB-04)؛ root علل «تكرار أو توال (يلزمه التراكم) مع رقة ما» (licensed؛ GUT-04)؛ root غلل «تخلل بحدة أو قوة مع إحاطة أو تقييد» (licensed؛ GUT-04)؛ root هلل «ذهاب وسط الشيء ومعظمه مع بقاء سائره شاغلًا مكانه» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءل «» (licensed؛ GUT-04)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ GUT-04، LIQ-01)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ LIQ-01)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ GUT-04)
 - مسارُ الصوت: root حلل «فك ما كان مَشْدُودًا، أو تَسْييبه» (licensed؛ GUT-04)؛ root حلل «فك ما كان مَشْدُودًا، أو تَسْييبه» (licensed؛ مباشر)؛ root خلل «فراغ يخترق أثناء متماسكةً من حوله» (licensed؛ GUT-05)؛ root سلل «انسحاب الشيء من أثناء أو فيها بطول ورفق أو لطف» (scope-gap؛ SIB-04)؛ root علل «تكرار أو توال (يلزمه التراكم) مع رقة ما» (licensed؛ GUT-04)؛ root غلل «تخلل بحدة أو قوة مع إحاطة أو تقييد» (licensed؛ GUT-04)؛ root هلل «ذهاب وسط الشيء ومعظمه مع بقاء سائره شاغلًا مكانه» (licensed؛ مباشر)؛ nucleus ءل «» (licensed؛ GUT-04)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ GUT-04، LIQ-01)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ LIQ-01)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ GUT-04)
 - المعنى من قاموس الفرع: ה־ל־ל `h-l-l`، root، «Forming words relating to being clear and shining.» [Kaikki Hebrew، السطر 10890]؛ הלל `halél`، noun، «Hallel, Psalms 113-118 recited on certain Jewish holidays» [Kaikki Hebrew، السطر 3180]؛ הלל `hilél`، name، «a male given name, equivalent to English Hillel» [Kaikki Hebrew، السطر 3181]
@@ -1913,14 +2717,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10890:en-ה־ל־ל-he-root-tJqtVKAg: الرسم=ה־ל־ל، الرومنة=h-l-l، الصنف=root، المعنى=Forming words relating to being clear and shining.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3180:en-הלל-he-noun-b456rlBL: الرسم=הלל، الرومنة=halél، الصنف=noun، المعنى=Hallel, Psalms 113-118 recited on certain Jewish holidays، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3181:en-הלל-he-name-UPctEYMa: الرسم=הלל، الرومنة=hilél، الصنف=name، المعنى=a male given name, equivalent to English Hillel، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:1a7c819e41d4027eba2b07ce -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:ade816d9fa8c546f50bead26`، לחם (الرتبة 80)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: לחם משנה `lékhem mishné`، noun، «The two loaves of bread, collectively, used at a Sabbath or holiday meal.» [Kaikki Hebrew، السطر 4266]؛ לחם `lékhem`، noun، «bread» [Kaikki Hebrew، السطر 705]؛ לחמנייה `lakhmaniyá`، noun، «bread roll (a miniature round loaf of bread, often accompanying a meal); bun» [Kaikki Hebrew، السطر 7699]
 - أقدمُ صورةٍ مستعادة: Cognate with Arabic لَحْم (laḥm, “meat”), with the varying semantic developments being due to the differing agriculture and diets of the Arabian Peninsula and the Fertile Crescent.؛ From לֶחֶם (lékhem, “bread”) + ־ִיָּה (iyá).
@@ -1928,7 +2742,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root رحم «اتساع في باطن الشيء المتضام أو أثنائه - مع رقة وبلال» (licensed؛ LIQ-01)؛ root لحم «التئام جرم كثيف غض بين أثناء الشيء وحوله فيكسوه» (licensed؛ مباشر)؛ root لحن «رقة (لين أو لطف) في الكلام مع مد الصوت به» (licensed؛ LIQ-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-04)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ LAB-04)
 - مسارُ الصوت: root رحم «اتساع في باطن الشيء المتضام أو أثنائه - مع رقة وبلال» (licensed؛ LIQ-01)؛ root لحم «التئام جرم كثيف غض بين أثناء الشيء وحوله فيكسوه» (licensed؛ مباشر)؛ root لحن «رقة (لين أو لطف) في الكلام مع مد الصوت به» (licensed؛ LIQ-02)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-04)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: לחם משנה `lékhem mishné`، noun، «The two loaves of bread, collectively, used at a Sabbath or holiday meal.» [Kaikki Hebrew، السطر 4266]؛ לחם `lékhem`، noun، «bread» [Kaikki Hebrew، السطر 705]؛ לחמנייה `lakhmaniyá`، noun، «bread roll (a miniature round loaf of bread, often accompanying a meal); bun» [Kaikki Hebrew، السطر 7699]
@@ -1937,14 +2751,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4266:en-לחם_משנה-he-noun-un1mjkKK: الرسم=לחם משנה، الرومنة=lékhem mishné، الصنف=noun، المعنى=The two loaves of bread, collectively, used at a Sabbath or holiday meal.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:705:en-לחם-he-noun-mFYEwrYC: الرسم=לחם، الرومنة=lékhem، الصنف=noun، المعنى=bread، السلف/الخلف=Cognate with Arabic لَحْم (laḥm, “meat”), with the varying semantic developments being due to the differing agriculture and diets of the Arabian Peninsula and the Fertile Crescent.، القرض=لا وسم آلي؛ kaikki_hebrew:7699:en-לחמנייה-he-noun-cf4s~nbe: الرسم=לחמנייה، الرومنة=lakhmaniyá، الصنف=noun، المعنى=bread roll (a miniature round loaf of bread, often accompanying a meal); bun، السلف/الخلف=From לֶחֶם (lékhem, “bread”) + ־ִיָּה (iyá).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:ade816d9fa8c546f50bead26 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:8fa7e8817d80c491510f874c`، אפוד מגן (الرتبة 81)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: אפוד מגן `efód magén`، noun، «bulletproof vest» [Kaikki Hebrew، السطر 4138]؛ מגן `magén`، noun، «shield (a broad piece of defensive armor, held in hand, formerly in general use in war, for the protection of the body)» [Kaikki Hebrew، السطر 4139]؛ מגן ביצים `magen beytsim`، noun، «jockstrap» [Kaikki Hebrew، السطر 9706]؛ מגן אשכים `magén ashakhím`، noun، «jockstrap» [Kaikki Hebrew، السطر 9707]؛ מגיני אשכים `maginéi ashakhím`، noun، «plural indefinite form of מָגֵן אֲשָׁכִים» [Kaikki Hebrew، السطر 9708]؛ מגיני ביצים `maginéi beytsím`، noun، «plural indefinite form of מָגֵן בֵּיצִים» [Kaikki Hebrew، السطر 9709]
 - أقدمُ صورةٍ مستعادة: Cognate with Arabic مِجَنّ (mijann) and Phoenician 𐤌𐤂𐤍 (mgn).
@@ -1952,7 +2776,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ GUT-02، LIQ-03)؛ root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ LIQ-03)؛ root مكن «رسوخ الشيء متجمعاً (من دِقاق) في باطن يلتئم عليه» (licensed؛ GUT-01)؛ root مكن «رسوخ الشيء متجمعاً (من دِقاق) في باطن يلتئم عليه» (licensed؛ GUT-02)؛ root مكن «رسوخ الشيء متجمعاً (من دِقاق) في باطن يلتئم عليه» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-02)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)
 - مسارُ الصوت: root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ GUT-02، LIQ-03)؛ root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ LIQ-03)؛ root مكن «رسوخ الشيء متجمعاً (من دِقاق) في باطن يلتئم عليه» (licensed؛ GUT-01)؛ root مكن «رسوخ الشيء متجمعاً (من دِقاق) في باطن يلتئم عليه» (licensed؛ GUT-02)؛ root مكن «رسوخ الشيء متجمعاً (من دِقاق) في باطن يلتئم عليه» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-02)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)
 - المعنى من قاموس الفرع: אפוד מגן `efód magén`، noun، «bulletproof vest» [Kaikki Hebrew، السطر 4138]؛ מגן `magén`، noun، «shield (a broad piece of defensive armor, held in hand, formerly in general use in war, for the protection of the body)» [Kaikki Hebrew، السطر 4139]؛ מגן ביצים `magen beytsim`، noun، «jockstrap» [Kaikki Hebrew، السطر 9706]؛ מגן אשכים `magén ashakhím`، noun، «jockstrap» [Kaikki Hebrew، السطر 9707]؛ מגיני אשכים `maginéi ashakhím`، noun، «plural indefinite form of מָגֵן אֲשָׁכִים» [Kaikki Hebrew، السطر 9708]؛ מגיני ביצים `maginéi beytsím`، noun، «plural indefinite form of מָגֵן בֵּיצִים» [Kaikki Hebrew، السطر 9709]
@@ -1961,14 +2785,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4138:en-אפוד_מגן-he-noun-2Jn4Ed-Z: الرسم=אפוד מגן، الرومنة=efód magén، الصنف=noun، المعنى=bulletproof vest، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4139:en-מגן-he-noun-PVtCaUz~: الرسم=מגן، الرومنة=magén، الصنف=noun، المعنى=shield (a broad piece of defensive armor, held in hand, formerly in general use in war, for the protection of the body)، السلف/الخلف=Cognate with Arabic مِجَنّ (mijann) and Phoenician 𐤌𐤂𐤍 (mgn).، القرض=لا وسم آلي؛ kaikki_hebrew:9706:en-מגן_ביצים-he-noun-CDH-CyWH: الرسم=מגן ביצים، الرومنة=magen beytsim، الصنف=noun، المعنى=jockstrap، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9707:en-מגן_אשכים-he-noun-CDH-CyWH: الرسم=מגן אשכים، الرومنة=magén ashakhím، الصنف=noun، المعنى=jockstrap، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9708:en-מגיני_אשכים-he-noun-Id0t2CFQ: الرسم=מגיני אשכים، الرومنة=maginéi ashakhím، الصنف=noun، المعنى=plural indefinite form of מָגֵן אֲשָׁכִים، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9709:en-מגיני_ביצים-he-noun-O3tF4kol: الرسم=מגיני ביצים، الرومنة=maginéi beytsím، الصنف=noun، المعنى=plural indefinite form of מָגֵן בֵּיצִים، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:8fa7e8817d80c491510f874c -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:a15670cc3750f2e5a625bd99`، סיפור (الرتبة 82)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ספר `sipér`، verb، «defective spelling of סיפר (“to tell”).» [Kaikki Hebrew، السطر 1100]؛ מספר `m'sapér`، verb، «Masculine singular present participle and present tense of סיפר (sipér)» [Kaikki Hebrew، السطر 1988]؛ ספרה `siprá`، verb، «Third-person feminine singular past (suffix conjugation) of סיפר (sipér)» [Kaikki Hebrew، السطر 2680]؛ סיפר `sipér`، verb، «to tell (a story), to narrate, to recount» [Kaikki Hebrew، السطر 3955]؛ סיפור `sipúr`، noun، «A story: a sequence of real or fictional events, or an account thereof.» [Kaikki Hebrew، السطر 7148]
 - أقدمُ صورةٍ مستعادة: Compare Ugaritic 𐎒𐎔𐎗 (spr /⁠sapara⁠/, “to count, number; to recite”), 𐎒𐎔𐎗 (spr, “number, inventory”), 𐎎𐎒𐎔𐎗 (mspr, “recitation, story, talk”), Ge'ez ሰፈረ (säfärä, “to measure”), Amha؛ Action noun of the verb סיפר / סִפֵּר (sipér), from the root ס־פ־ר (s-p-r).
@@ -1976,7 +2810,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-01)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-02)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02، LAB-04)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-05)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ LAB-01، SIB-03)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ SIB-03)؛ root زفر «حمل مع حركة» (licensed؛ SIB-03)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LAB-01، LIQ-01)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LIQ-01)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ LAB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ SIB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ مباشر)؛ root سفل «كون الشيء تحت غيره أو دونه متميزًا بذلك» (licensed؛ LIQ-01)؛ root سفن «النحت من ظاهر الشيء باتجاه باطنه للتسوية أو لصنع فجوة في ذلك الظاهر» (licensed؛ LIQ-03)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ LAB-04)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-05)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ مباشر)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ مباشر)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03، SIB-06)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 15/15؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-02)
 - مسارُ الصوت: root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-01)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02، LAB-02)؛ root ثبر «تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار» (licensed؛ DENT-02)؛ root ثمر «ما ينعقد على أطراف الشجر من حمله إذا بلغ ينعه» (licensed؛ DENT-02، LAB-04)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (licensed؛ DENT-02، LAB-05)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ LAB-01، SIB-03)؛ root زبر «نوع من الرد والضبط الدائم بصلب عظيم ينصب ما شأنه أن يتسيب» (licensed؛ SIB-03)؛ root زفر «حمل مع حركة» (licensed؛ SIB-03)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LAB-01، LIQ-01)؛ root سبل «امتداد إلى أسفل مع اتصال» (licensed؛ LIQ-01)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ LAB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ SIB-02)؛ root سفر «كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه» (licensed؛ مباشر)؛ root سفل «كون الشيء تحت غيره أو دونه متميزًا بذلك» (licensed؛ LIQ-01)؛ root سفن «النحت من ظاهر الشيء باتجاه باطنه للتسوية أو لصنع فجوة في ذلك الظاهر» (licensed؛ LIQ-03)؛ root سمر «التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة» (licensed؛ LAB-04)؛ root سور «الإحاطة أو التناول بارتفاع أو من الأعلى» (licensed؛ LAB-05)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-02)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ مباشر)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LAB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-02)؛ root صفر «خلو باطن الشيء» (licensed؛ SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ مباشر)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03، SIB-06)؛ root صفن «جمع أشياء مع التنسيق والتوازن بينها في نحو الكيس جمعا تاما» (licensed؛ LIQ-03)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-02)
 - المعنى من قاموس الفرع: ספר `sipér`، verb، «defective spelling of סיפר (“to tell”).» [Kaikki Hebrew، السطر 1100]؛ מספר `m'sapér`، verb، «Masculine singular present participle and present tense of סיפר (sipér)» [Kaikki Hebrew، السطر 1988]؛ ספרה `siprá`، verb، «Third-person feminine singular past (suffix conjugation) of סיפר (sipér)» [Kaikki Hebrew، السطر 2680]؛ סיפר `sipér`، verb، «to tell (a story), to narrate, to recount» [Kaikki Hebrew، السطر 3955]؛ סיפור `sipúr`، noun، «A story: a sequence of real or fictional events, or an account thereof.» [Kaikki Hebrew، السطر 7148]
@@ -1985,14 +2819,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1100:en-ספר-he-verb-GAD4iJef: الرسم=ספר، الرومنة=sipér، الصنف=verb، المعنى=defective spelling of סיפר (“to tell”).، السلف/الخلف=Compare Ugaritic 𐎒𐎔𐎗 (spr /⁠sapara⁠/, “to count, number; to recite”), 𐎒𐎔𐎗 (spr, “number, inventory”), 𐎎𐎒𐎔𐎗 (mspr, “recitation, story, talk”), Ge'ez ሰፈረ (säfärä, “to measure”), Amha، القرض=لا وسم آلي؛ kaikki_hebrew:1988:en-מספר-he-verb-NzC9QcGA: الرسم=מספר، الرومنة=m'sapér، الصنف=verb، المعنى=Masculine singular present participle and present tense of סיפר (sipér)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2680:en-ספרה-he-verb-8Vf50zG7: الرسم=ספרה، الرومنة=siprá، الصنف=verb، المعنى=Third-person feminine singular past (suffix conjugation) of סיפר (sipér)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3955:en-סיפר-he-verb-lvXu7tvc: الرسم=סיפר، الرومنة=sipér، الصنف=verb، المعنى=to tell (a story), to narrate, to recount، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7148:en-סיפור-he-noun-7Lr2yk5K: الرسم=סיפור، الرومنة=sipúr، الصنف=noun، المعنى=A story: a sequence of real or fictional events, or an account thereof.، السلف/الخلف=Action noun of the verb סיפר / סִפֵּר (sipér), from the root ס־פ־ר (s-p-r).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:a15670cc3750f2e5a625bd99 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 15/15؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:e4fd8808be313c7870c68f36`، הווה (الرتبة 83)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: הוה `hōwe`، verb، «defective spelling of הוֹוֶה (hōwe): masculine singular present participle and present tense of הָיָה (hāyā)» [Kaikki Hebrew، السطر 11045]؛ הוה `hawwā`، noun، «defective spelling of הווה» [Kaikki Hebrew، السطر 11046]؛ הווה `hové`، noun، «present time, now» [Kaikki Hebrew، السطر 9050]
 - أقدمُ صورةٍ مستعادة: Cognate with Aramaic הֲוָא (hăwā, “to be, to exist”). According to Huehnergard (2011), from Proto-Semitic *hwy (“to fall, happen, be, become”) and thus also cognate with Arabic هوى
@@ -2000,7 +2844,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حبس «امتساك الشيء في حيز؛ لا يتسيّب أو ينفذ منه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root حبس «امتساك الشيء في حيز؛ لا يتسيّب أو ينفذ منه» (scope-gap؛ LAB-05، SIB-04)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (scope-gap؛ LAB-05، SIB-04)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سبغ «أن يمتد من الشيء ما يصير كالغشاء الساتر لما وراءه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GUT-04، LAB-06، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GUT-04، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، LAB-06، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GLD-01، SIB-04)؛ root سيغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root عبس «جهامة في الوجه تملأ النفس وحشة» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ LAB-06)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ مباشر)؛ root هيه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 1/1؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (scope-gap؛ GUT-04، SIB-04)؛ nucleus ءو «اتساع الحيز والامتلاء» (licensed؛ GUT-04، LAB-06)
 - مسارُ الصوت: root حبس «امتساك الشيء في حيز؛ لا يتسيّب أو ينفذ منه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root حبس «امتساك الشيء في حيز؛ لا يتسيّب أو ينفذ منه» (scope-gap؛ LAB-05، SIB-04)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سبح «مخالطة بتمدد لما شأنه أن يغمر مع عدم الانغمار فيه» (scope-gap؛ LAB-05، SIB-04)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سبغ «أن يمتد من الشيء ما يصير كالغشاء الساتر لما وراءه» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GUT-04، LAB-06، SIB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (scope-gap؛ GUT-04، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، LAB-06، SIB-04)؛ root سوغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root سيح «تسيب المائع ( أو خفيف الحركة) المتحيز بتجاوزه سطح حيزه فيضانًا باتساع أو اطّراد» (scope-gap؛ GLD-01، SIB-04)؛ root سيغ «مرور في مجرى جوفي بيسر ورقة لتخلل ورطوبة» (scope-gap؛ GLD-01، GUT-04، SIB-04)؛ root عبس «جهامة في الوجه تملأ النفس وحشة» (scope-gap؛ GUT-04، LAB-05، SIB-04)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ LAB-06)؛ root هوه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (licensed؛ مباشر)؛ root هيه «فراغ (جوف) الحيز الممتد من كل مُستند لسالكه» (manual-condition؛ GLD-01)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (scope-gap؛ GUT-04، SIB-04)؛ nucleus ءو «اتساع الحيز والامتلاء» (licensed؛ GUT-04، LAB-06)
 - المعنى من قاموس الفرع: הוה `hōwe`، verb، «defective spelling of הוֹוֶה (hōwe): masculine singular present participle and present tense of הָיָה (hāyā)» [Kaikki Hebrew، السطر 11045]؛ הוה `hawwā`، noun، «defective spelling of הווה» [Kaikki Hebrew، السطر 11046]؛ הווה `hové`، noun، «present time, now» [Kaikki Hebrew، السطر 9050]
@@ -2009,14 +2853,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11045:en-הוה-he-verb-qjx2yTT-: الرسم=הוה، الرومنة=hōwe، الصنف=verb، المعنى=defective spelling of הוֹוֶה (hōwe): masculine singular present participle and present tense of הָיָה (hāyā)، السلف/الخلف=Cognate with Aramaic הֲוָא (hăwā, “to be, to exist”). According to Huehnergard (2011), from Proto-Semitic *hwy (“to fall, happen, be, become”) and thus also cognate with Arabic هوى، القرض=لا وسم آلي؛ kaikki_hebrew:11046:en-הוה-he-noun-VbABgZJx: الرسم=הוה، الرومنة=hawwā، الصنف=noun، المعنى=defective spelling of הווה، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9050:en-הווה-he-noun-1K24b6pf: الرسم=הווה، الرومنة=hové، الصنف=noun، المعنى=present time, now، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:e4fd8808be313c7870c68f36 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 1/1؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:edb86d4744e08e9d68c24824`، חרס (الرتبة 84)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: חרסינה `kharsína`، noun، «porcelain (hard, white, translucent ceramic)» [Kaikki Hebrew، السطر 4358]؛ חרש `khéres`، noun، «alternative spelling of חֶרֶס (“clay, ceramics, earthenware”)» [Kaikki Hebrew، السطر 5021]؛ חרס `khéres`، noun، «pottery, earthenware; clay, ceramics» [Kaikki Hebrew، السطر 6163]
 - أقدمُ صورةٍ مستعادة: Blend of חֶרֶס (khéres, “ceramics”) + סִין (sin, “China”).؛ (See definition.)؛ From Hittite 𒂁 (ḫarši-, “a kind of rough pottery vessel”); in the Tanakhic passages it does not mean the material itself, but only a kind of vessel, which apparently derives from A
@@ -2024,7 +2878,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حرث «شق السطح الملتئم، وإثارته، بإخراج بعض ما استوى به ظاهره كُتَلًا» (licensed؛ DENT-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ SIB-01)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ SIB-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ مباشر)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ SIB-02)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ SIB-06)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ مباشر)؛ root حنث «ثِقَلُ الشيء ثقلًا بالغا» (licensed؛ DENT-02، LIQ-03)؛ root خرص «خلوص الشيء من آخر مجتمعًا في استواء، أو تحدد» (licensed؛ GUT-05، SIB-06)؛ root خرص «خلوص الشيء من آخر مجتمعًا في استواء، أو تحدد» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ثخ «الكثافة والغلظ» (licensed؛ DENT-02، GUT-05)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02، LIQ-03)؛ nucleus ثع «خروج المائع أو شبهه من مصدره» (licensed؛ DENT-02، GUT-04)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02، LIQ-02)
 - مسارُ الصوت: root حرث «شق السطح الملتئم، وإثارته، بإخراج بعض ما استوى به ظاهره كُتَلًا» (licensed؛ DENT-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ SIB-01)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ SIB-02)؛ root حرس «بقاء الشيء بحفظه مِنْ أن ينفذ (إليه)» (licensed؛ مباشر)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ SIB-02)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ SIB-06)؛ root حرص «قشر الشيء عن مقرّه قَشْرًا مبالغًا فيه» (licensed؛ مباشر)؛ root حنث «ثِقَلُ الشيء ثقلًا بالغا» (licensed؛ DENT-02، LIQ-03)؛ root خرص «خلوص الشيء من آخر مجتمعًا في استواء، أو تحدد» (licensed؛ GUT-05، SIB-06)؛ root خرص «خلوص الشيء من آخر مجتمعًا في استواء، أو تحدد» (licensed؛ GUT-05)؛ nucleus ثخ «الكثافة والغلظ» (licensed؛ DENT-02، GUT-05)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02، LIQ-03)؛ nucleus ثع «خروج المائع أو شبهه من مصدره» (licensed؛ DENT-02، GUT-04)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02، LIQ-02)
 - المعنى من قاموس الفرع: חרסינה `kharsína`، noun، «porcelain (hard, white, translucent ceramic)» [Kaikki Hebrew، السطر 4358]؛ חרש `khéres`، noun، «alternative spelling of חֶרֶס (“clay, ceramics, earthenware”)» [Kaikki Hebrew، السطر 5021]؛ חרס `khéres`، noun، «pottery, earthenware; clay, ceramics» [Kaikki Hebrew، السطر 6163]
@@ -2033,14 +2887,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4358:en-חרסינה-he-noun-5yjRyZLK: الرسم=חרסינה، الرومنة=kharsína، الصنف=noun، المعنى=porcelain (hard, white, translucent ceramic)، السلف/الخلف=Blend of חֶרֶס (khéres, “ceramics”) + סִין (sin, “China”).، القرض=لا وسم آلي؛ kaikki_hebrew:5021:en-חרש-he-noun-4XMbyk6i: الرسم=חרש، الرومنة=khéres، الصنف=noun، المعنى=alternative spelling of חֶרֶס (“clay, ceramics, earthenware”)، السلف/الخلف=(See definition.)، القرض=لا وسم آلي؛ kaikki_hebrew:6163:en-חרס-he-noun-3ZH4NKAO: الرسم=חרס، الرومنة=khéres، الصنف=noun، المعنى=pottery, earthenware; clay, ceramics، السلف/الخلف=From Hittite 𒂁 (ḫarši-, “a kind of rough pottery vessel”); in the Tanakhic passages it does not mean the material itself, but only a kind of vessel, which apparently derives from A، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:edb86d4744e08e9d68c24824 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: חרס، حسم الموجة 1 للرتبة 84.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:9bdc08121526bbffc2a94836`، יצחק (الرتبة 85)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צחקק `tsikhkék`، verb، «to giggle, chuckle» [Kaikki Hebrew، السطر 14860]؛ יצחק `yitskhák`، name، «Isaac (the son of Abraham and Sarah, father of Esau and Jacob, from whom the Hebrew people trace their descent)» [Kaikki Hebrew، السطر 5551]؛ יצחק `yitskhák`، verb، «Third-person masculine singular future (prefix conjugation) of צָחַק (tsakhák), to laugh.» [Kaikki Hebrew، السطر 5552]؛ צחק `tsakhák`، verb، «to laugh» [Kaikki Hebrew، السطر 8259]
 - أقدمُ صورةٍ مستعادة: Derived in Modern Hebrew from צָחַק (tsakhák, “to laugh”) by repeating the last radical of the root, a partial reduplication.؛ Grammatically, the third person singular imperfect of צָחַק (tsakhák, “to laugh”).؛ Compare Arabic ضَحِكَ (ḍaḥika), Akkadian 𒍢𒀀𒄷𒌝 (ṣiāḫum). Related also to שָׂחַק.
@@ -2048,7 +2912,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root سحق «ذهاب الغلظ الذي في عمق الشيء دقًا وسهكا، أو خروجًا بامتداد طولي» (licensed؛ GUT-04، SIB-01)؛ root سحق «ذهاب الغلظ الذي في عمق الشيء دقًا وسهكا، أو خروجًا بامتداد طولي» (licensed؛ SIB-01)؛ root شهق «نفاذ الشيء مجتمعًا بحدة إلى عُمق خال» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تء «الوصول والصدم» (licensed؛ GUT-04، SIB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ GUT-04، SIB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ SIB-05)؛ nucleus تس «ما دل على العدد تسعة» (scope-gap؛ SIB-04، SIB-05)
 - مسارُ الصوت: root سحق «ذهاب الغلظ الذي في عمق الشيء دقًا وسهكا، أو خروجًا بامتداد طولي» (licensed؛ GUT-04، SIB-01)؛ root سحق «ذهاب الغلظ الذي في عمق الشيء دقًا وسهكا، أو خروجًا بامتداد طولي» (licensed؛ SIB-01)؛ root شهق «نفاذ الشيء مجتمعًا بحدة إلى عُمق خال» (licensed؛ مباشر)؛ nucleus تء «الوصول والصدم» (licensed؛ GUT-04، SIB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ GUT-04، SIB-05)؛ nucleus تح «الاحتكاك من أسفل» (licensed؛ SIB-05)؛ nucleus تس «ما دل على العدد تسعة» (scope-gap؛ SIB-04، SIB-05)
 - المعنى من قاموس الفرع: צחקק `tsikhkék`، verb، «to giggle, chuckle» [Kaikki Hebrew، السطر 14860]؛ יצחק `yitskhák`، name، «Isaac (the son of Abraham and Sarah, father of Esau and Jacob, from whom the Hebrew people trace their descent)» [Kaikki Hebrew، السطر 5551]؛ יצחק `yitskhák`، verb، «Third-person masculine singular future (prefix conjugation) of צָחַק (tsakhák), to laugh.» [Kaikki Hebrew، السطر 5552]؛ צחק `tsakhák`، verb، «to laugh» [Kaikki Hebrew، السطر 8259]
@@ -2057,14 +2921,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14860:en-צחקק-he-verb-2jjWPHBX: الرسم=צחקק، الرومنة=tsikhkék، الصنف=verb، المعنى=to giggle, chuckle، السلف/الخلف=Derived in Modern Hebrew from צָחַק (tsakhák, “to laugh”) by repeating the last radical of the root, a partial reduplication.، القرض=لا وسم آلي؛ kaikki_hebrew:5551:en-יצחק-he-name-XaXAt44q: الرسم=יצחק، الرومنة=yitskhák، الصنف=name، المعنى=Isaac (the son of Abraham and Sarah, father of Esau and Jacob, from whom the Hebrew people trace their descent)، السلف/الخلف=Grammatically, the third person singular imperfect of צָחַק (tsakhák, “to laugh”).، القرض=لا وسم آلي؛ kaikki_hebrew:5552:en-יצחק-he-verb-7rX-8Bng: الرسم=יצחק، الرومنة=yitskhák، الصنف=verb، المعنى=Third-person masculine singular future (prefix conjugation) of צָחַק (tsakhák), to laugh.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8259:en-צחק-he-verb-hAh7OITr: الرسم=צחק، الرومنة=tsakhák، الصنف=verb، المعنى=to laugh، السلف/الخلف=Compare Arabic ضَحِكَ (ḍaḥika), Akkadian 𒍢𒀀𒄷𒌝 (ṣiāḫum). Related also to שָׂחַק.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:9bdc08121526bbffc2a94836 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:46945305b9ccb44d1d97c0ba`، טען (الرتبة 86)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: טען `ta'án`، verb، «to load (a vehicle or beast of burden)» [Kaikki Hebrew، السطر 2393]؛ טען `ta'án`، noun، «loader, loader-signaller (role in a tank crew)» [Kaikki Hebrew، السطر 2394]؛ טען `ta'án`، verb، «to claim, assert, maintain, argue» [Kaikki Hebrew، السطر 2395]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -2072,7 +2946,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root طعم «ما يدخل من الفم إلى الجوف غذاء للبدن فيشبعه» (licensed؛ LIQ-02)؛ root طعن «نفاذ حاد دقيق أو بحدة في مادة قريبة لينة» (licensed؛ DENT-05)؛ root طعن «نفاذ حاد دقيق أو بحدة في مادة قريبة لينة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ LIQ-03)؛ nucleus تع «الرخاوة التي يرتطم فيها» (licensed؛ DENT-05)؛ nucleus تع «الرخاوة التي يرتطم فيها» (licensed؛ مباشر)؛ nucleus تم «التميز الشيء مستقلا» (licensed؛ LIQ-02)
 - مسارُ الصوت: root طعم «ما يدخل من الفم إلى الجوف غذاء للبدن فيشبعه» (licensed؛ LIQ-02)؛ root طعن «نفاذ حاد دقيق أو بحدة في مادة قريبة لينة» (licensed؛ DENT-05)؛ root طعن «نفاذ حاد دقيق أو بحدة في مادة قريبة لينة» (licensed؛ مباشر)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ LIQ-03)؛ nucleus تع «الرخاوة التي يرتطم فيها» (licensed؛ DENT-05)؛ nucleus تع «الرخاوة التي يرتطم فيها» (licensed؛ مباشر)؛ nucleus تم «التميز الشيء مستقلا» (licensed؛ LIQ-02)
 - المعنى من قاموس الفرع: טען `ta'án`، verb، «to load (a vehicle or beast of burden)» [Kaikki Hebrew، السطر 2393]؛ טען `ta'án`، noun، «loader, loader-signaller (role in a tank crew)» [Kaikki Hebrew، السطر 2394]؛ טען `ta'án`، verb، «to claim, assert, maintain, argue» [Kaikki Hebrew، السطر 2395]
@@ -2081,14 +2955,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2393:en-טען-he-verb-8ZXQlSx-: الرسم=טען، الرومنة=ta'án، الصنف=verb، المعنى=to load (a vehicle or beast of burden)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2394:en-טען-he-noun-OeYayzzQ: الرسم=טען، الرومنة=ta'án، الصنف=noun، المعنى=loader, loader-signaller (role in a tank crew)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2395:en-טען-he-verb-4fzv94tZ: الرسم=טען، الرومنة=ta'án، الصنف=verb، المعنى=to claim, assert, maintain, argue، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:46945305b9ccb44d1d97c0ba -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:f2f1646a0ffb63bdd4ff2f1c`، ציץ (الرتبة 87)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ציציות `tsitsiyót`، noun، «plural indefinite form of צִיצִית (tsitsít)» [Kaikki Hebrew، السطر 10105]؛ ציץ `tsíts`، noun، «bud (newly formed leaf or flower that has not yet unfolded)» [Kaikki Hebrew، السطر 10582]؛ ציצת `tsitsít`، noun، «defective spelling of צִיצִית (tsitsít).» [Kaikki Hebrew، السطر 9595]؛ ציצית `tsitsít`، noun، «fringes, tassels» [Kaikki Hebrew، السطر 9596]
 - أقدمُ صورةٍ مستعادة: Uncertain; by surface analysis from צִיץ (tsits, “bud”) + ־ִית (-ít)
@@ -2096,7 +2980,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (licensed؛ SIB-02، SIB-06)؛ root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (licensed؛ SIB-02)؛ root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (licensed؛ SIB-06)؛ root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 1/1؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus زت «شيء يعلق زائدًا بشيء» (licensed؛ SIB-03)؛ nucleus ست «التغطية والإخفاء» (licensed؛ DENT-05)؛ nucleus ست «التغطية والإخفاء» (licensed؛ SIB-02)؛ nucleus ست «التغطية والإخفاء» (licensed؛ مباشر)
 - مسارُ الصوت: root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (licensed؛ SIB-02، SIB-06)؛ root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (licensed؛ SIB-02)؛ root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (licensed؛ SIB-06)؛ root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (licensed؛ مباشر)؛ nucleus زت «شيء يعلق زائدًا بشيء» (licensed؛ SIB-03)؛ nucleus ست «التغطية والإخفاء» (licensed؛ DENT-05)؛ nucleus ست «التغطية والإخفاء» (licensed؛ SIB-02)؛ nucleus ست «التغطية والإخفاء» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: ציציות `tsitsiyót`، noun، «plural indefinite form of צִיצִית (tsitsít)» [Kaikki Hebrew، السطر 10105]؛ ציץ `tsíts`، noun، «bud (newly formed leaf or flower that has not yet unfolded)» [Kaikki Hebrew، السطر 10582]؛ ציצת `tsitsít`، noun، «defective spelling of צִיצִית (tsitsít).» [Kaikki Hebrew، السطر 9595]؛ ציצית `tsitsít`، noun، «fringes, tassels» [Kaikki Hebrew، السطر 9596]
@@ -2105,14 +2989,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10105:en-ציציות-he-noun-Iyvupau5: الرسم=ציציות، الرومنة=tsitsiyót، الصنف=noun، المعنى=plural indefinite form of צִיצִית (tsitsít)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10582:en-ציץ-he-noun-ZipR1Gry: الرسم=ציץ، الرومنة=tsíts، الصنف=noun، المعنى=bud (newly formed leaf or flower that has not yet unfolded)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9595:en-ציצת-he-noun-yebZ~omP: الرسم=ציצת، الرومنة=tsitsít، الصنف=noun، المعنى=defective spelling of צִיצִית (tsitsít).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9596:en-ציצית-he-noun-9tkfCfZw: الرسم=ציצית، الرومنة=tsitsít، الصنف=noun، المعنى=fringes, tassels، السلف/الخلف=Uncertain; by surface analysis from צִיץ (tsits, “bud”) + ־ִית (-ít)، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:f2f1646a0ffb63bdd4ff2f1c -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 1/1؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:3c880bdac90500f8e97c9027`، עיגל (الرتبة 88)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עגל `igél`، verb، «defective spelling of עיגל» [Kaikki Hebrew، السطر 10414]؛ עיגל פינות `'igél pinót`، verb، «to tell a partial truth in order to avoid conflict» [Kaikki Hebrew، السطر 10990]؛ עיגל `'igél`، verb، «to round, make circular, make a circle» [Kaikki Hebrew، السطر 11647]
 - أقدمُ صورةٍ مستعادة: Literally, “to round corners”. The second sense is a calque of English cut corners.
@@ -2120,7 +3014,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عجل «سبق بتحصيل الشيء قبل وقته» (licensed؛ GUT-03)؛ root عجل «سبق بتحصيل الشيء قبل وقته» (licensed؛ مباشر)؛ root عقر «جمود الشيء أو ثباته على حاله فلا ينمو ولا ينتقل» (licensed؛ LIQ-01)؛ root عقل «حوز في جوف حصين حبساً، بحيث لا يذهب أو يضيع» (licensed؛ GUT-01)؛ root عقل «حوز في جوف حصين حبساً، بحيث لا يذهب أو يضيع» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05، LAB-01)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)
 - مسارُ الصوت: root عجل «سبق بتحصيل الشيء قبل وقته» (licensed؛ GUT-03)؛ root عجل «سبق بتحصيل الشيء قبل وقته» (licensed؛ مباشر)؛ root عقر «جمود الشيء أو ثباته على حاله فلا ينمو ولا ينتقل» (licensed؛ LIQ-01)؛ root عقل «حوز في جوف حصين حبساً، بحيث لا يذهب أو يضيع» (licensed؛ GUT-01)؛ root عقل «حوز في جوف حصين حبساً، بحيث لا يذهب أو يضيع» (licensed؛ مباشر)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05، LAB-01)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)
 - المعنى من قاموس الفرع: עגל `igél`، verb، «defective spelling of עיגל» [Kaikki Hebrew، السطر 10414]؛ עיגל פינות `'igél pinót`، verb، «to tell a partial truth in order to avoid conflict» [Kaikki Hebrew، السطر 10990]؛ עיגל `'igél`، verb، «to round, make circular, make a circle» [Kaikki Hebrew، السطر 11647]
@@ -2129,14 +3023,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10414:en-עגל-he-verb-4LILYnex: الرسم=עגל، الرومنة=igél، الصنف=verb، المعنى=defective spelling of עיגל، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10990:en-עיגל_פינות-he-verb-TZcyVxuK: الرسم=עיגל פינות، الرومنة='igél pinót، الصنف=verb، المعنى=to tell a partial truth in order to avoid conflict، السلف/الخلف=Literally, “to round corners”. The second sense is a calque of English cut corners.، القرض=لا وسم آلي؛ kaikki_hebrew:11647:en-עיגל-he-verb-V9jdxEFs: الرسم=עיגל، الرومنة='igél، الصنف=verb، المعنى=to round, make circular, make a circle، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:3c880bdac90500f8e97c9027 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:816178b53dbbc95f49643311`، טור (الرتبة 89)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: טור `túr`، noun، «column, line, row» [Kaikki Hebrew، السطر 13414]؛ תור `tór`، noun، «A turn: one's opportunity to do something that not everyone can do at the same time.» [Kaikki Hebrew، السطر 2501]؛ תור `tor`، noun، «turtle-dove» [Kaikki Hebrew، السطر 2502]
 - أقدمُ صورةٍ مستعادة: Compare Arabic طَوْر (ṭawr).
@@ -2144,7 +3048,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root تبر «تفتت الشيء قطعًا دقيقة كثيرة» (licensed؛ LAB-05)؛ root تور «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (licensed؛ DENT-05، LAB-06)؛ root تور «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (licensed؛ DENT-05)؛ root تور «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (licensed؛ LAB-06)؛ root تور «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (licensed؛ مباشر)؛ root تير «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (manual-condition؛ GLD-01)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (scope-gap؛ DENT-01، LAB-06)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (scope-gap؛ DENT-01)؛ root شور «استخراج ما يحتويه الشيء من طَيِّب، أو مناسب قوي الأثر» (licensed؛ LAB-06، SIB-05)؛ root شور «استخراج ما يحتويه الشيء من طَيِّب، أو مناسب قوي الأثر» (licensed؛ SIB-05)؛ root طور «الامتداد حول الشيء أو بإزائه» (licensed؛ DENT-05، LAB-06)؛ root طور «الامتداد حول الشيء أو بإزائه» (licensed؛ DENT-05)؛ root طور «الامتداد حول الشيء أو بإزائه» (licensed؛ LAB-06)؛ root طور «الامتداد حول الشيء أو بإزائه» (licensed؛ مباشر)؛ root طول «تمدد الشيء أو امتداده متماسكًا» (licensed؛ LAB-06، LIQ-01)؛ root طول «تمدد الشيء أو امتداده متماسكًا» (licensed؛ LIQ-01)؛ root طير «انتشار الشيء من مقره مرتفعًا في الهواء بخفة» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ DENT-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ مباشر)
 - مسارُ الصوت: root تبر «تفتت الشيء قطعًا دقيقة كثيرة» (licensed؛ LAB-05)؛ root تور «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (licensed؛ DENT-05، LAB-06)؛ root تور «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (licensed؛ DENT-05)؛ root تور «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (licensed؛ LAB-06)؛ root تور «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (licensed؛ مباشر)؛ root تير «دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة» (manual-condition؛ GLD-01)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (scope-gap؛ DENT-01، LAB-06)؛ root ثور «انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره» (scope-gap؛ DENT-01)؛ root شور «استخراج ما يحتويه الشيء من طَيِّب، أو مناسب قوي الأثر» (licensed؛ LAB-06، SIB-05)؛ root شور «استخراج ما يحتويه الشيء من طَيِّب، أو مناسب قوي الأثر» (licensed؛ SIB-05)؛ root طور «الامتداد حول الشيء أو بإزائه» (licensed؛ DENT-05، LAB-06)؛ root طور «الامتداد حول الشيء أو بإزائه» (licensed؛ DENT-05)؛ root طور «الامتداد حول الشيء أو بإزائه» (licensed؛ LAB-06)؛ root طور «الامتداد حول الشيء أو بإزائه» (licensed؛ مباشر)؛ root طول «تمدد الشيء أو امتداده متماسكًا» (licensed؛ LAB-06، LIQ-01)؛ root طول «تمدد الشيء أو امتداده متماسكًا» (licensed؛ LIQ-01)؛ root طير «انتشار الشيء من مقره مرتفعًا في الهواء بخفة» (manual-condition؛ GLD-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ DENT-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: טור `túr`، noun، «column, line, row» [Kaikki Hebrew، السطر 13414]؛ תור `tór`، noun، «A turn: one's opportunity to do something that not everyone can do at the same time.» [Kaikki Hebrew، السطر 2501]؛ תור `tor`، noun، «turtle-dove» [Kaikki Hebrew، السطر 2502]
@@ -2153,14 +3057,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13414:en-טור-he-noun-xiqgWVD7: الرسم=טור، الرومنة=túr، الصنف=noun، المعنى=column, line, row، السلف/الخلف=Compare Arabic طَوْر (ṭawr).، القرض=لا وسم آلي؛ kaikki_hebrew:2501:en-תור-he-noun-3mFrggZS: الرسم=תור، الرومنة=tór، الصنف=noun، المعنى=A turn: one's opportunity to do something that not everyone can do at the same time.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2502:en-תור-he-noun-7mBdeUfP: الرسم=תור، الرومنة=tor، الصنف=noun، المعنى=turtle-dove، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:816178b53dbbc95f49643311 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:f657fd2965ca153de22df22c`، ב־ק־ע (الرتبة 90)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: בקע `baká`، verb، «to hatch, to crack, to rip, to cleave, to divide» [Kaikki Hebrew، السطر 13043]؛ בקע `béka`، noun، «beka, a half-shekel» [Kaikki Hebrew، السطر 13045]؛ ב־ק־ע `b-q-ʿ`، root، «Related to cleaving, splitting, breaking.» [Kaikki Hebrew، السطر 14019]
 - أقدمُ صورةٍ مستعادة: From the root ב־ק־ע (b-q-ʿ, “break”), in the pa`ál conjugation.؛ From the root ב־ק־ע (b-q-ʿ, “break”), in the segolate form.؛ Likely extended from a biconsonantal root surfacing in Arabic as ب ق ق (b q q), note فَقَعَ (faqaʕa) in variation with فَقَأَ (faqaʔa) from an even more famous biliteral root ف ق ق
@@ -2168,7 +3082,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ مباشر)؛ root فقع «رِقّة ظاهرِ الشيء المتكوّر - أو لمعانه - مع خلوّ جوفه» (licensed؛ LAB-02)؛ root وقع «هوي شديد إلى إقرار ( ويلزمه ثبوت ومكان له)» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ مباشر)؛ nucleus بك «الضغط والاحتباس» (licensed؛ GUT-01)؛ nucleus فع «المهارة والقوة أو الجد في عمل الشيء» (licensed؛ LAB-02)
 - مسارُ الصوت: root بقع «ظهور مساحات محددة الاتساع تتميز بحدة في ظاهر نافذة إليه» (licensed؛ مباشر)؛ root فقع «رِقّة ظاهرِ الشيء المتكوّر - أو لمعانه - مع خلوّ جوفه» (licensed؛ LAB-02)؛ root وقع «هوي شديد إلى إقرار ( ويلزمه ثبوت ومكان له)» (licensed؛ LAB-05)؛ nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ مباشر)؛ nucleus بك «الضغط والاحتباس» (licensed؛ GUT-01)؛ nucleus فع «المهارة والقوة أو الجد في عمل الشيء» (licensed؛ LAB-02)
 - المعنى من قاموس الفرع: בקע `baká`، verb، «to hatch, to crack, to rip, to cleave, to divide» [Kaikki Hebrew، السطر 13043]؛ בקע `béka`، noun، «beka, a half-shekel» [Kaikki Hebrew، السطر 13045]؛ ב־ק־ע `b-q-ʿ`، root، «Related to cleaving, splitting, breaking.» [Kaikki Hebrew، السطر 14019]
@@ -2177,14 +3091,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13043:en-בקע-he-verb-YJW7cVTD: الرسم=בקע، الرومنة=baká، الصنف=verb، المعنى=to hatch, to crack, to rip, to cleave, to divide، السلف/الخلف=From the root ב־ק־ע (b-q-ʿ, “break”), in the pa`ál conjugation.، القرض=لا وسم آلي؛ kaikki_hebrew:13045:en-בקע-he-noun-uUDjl1iW: الرسم=בקע، الرومنة=béka، الصنف=noun، المعنى=beka, a half-shekel، السلف/الخلف=From the root ב־ק־ע (b-q-ʿ, “break”), in the segolate form.، القرض=لا وسم آلي؛ kaikki_hebrew:14019:en-ב־ק־ע-he-root-M366CmtB: الرسم=ב־ק־ע، الرومنة=b-q-ʿ، الصنف=root، المعنى=Related to cleaving, splitting, breaking.، السلف/الخلف=Likely extended from a biconsonantal root surfacing in Arabic as ب ق ق (b q q), note فَقَعَ (faqaʕa) in variation with فَقَأَ (faqaʔa) from an even more famous biliteral root ف ق ق، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:f657fd2965ca153de22df22c -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:fda1d3cf7be192d14d08ac1a`، ב־י־ת (الرتبة 91)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ב־י־ת `b-y-t`، root، «Related to houses.» [Kaikki Hebrew، السطر 13949]؛ ביט `bit`، noun، «bit (the smallest unit of storage in a digital computer, consisting of a binary digit)» [Kaikki Hebrew، السطر 3020]؛ בית `báyit`، noun، «byte» [Kaikki Hebrew، السطر 375]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *bayt-. Compare Arabic ب ي ت (b y t).؛ From English bit, from binary digit.؛ Borrowed from English byte, by similarity to בַּיִת (báyit, “house”).
@@ -2192,7 +3116,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بيت «حَيّز محيط يُسكَنُ فيه، أي يُستَقَرُّ» (licensed؛ DENT-05)؛ root بيت «حَيّز محيط يُسكَنُ فيه، أي يُستَقَرُّ» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 1/1؛ لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
 - المقابلُ من اللسان: nucleus بت «القطع والانفصال» (licensed؛ DENT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ مباشر)؛ nucleus بث «النشر والتفريق» (scope-gap؛ DENT-01)؛ nucleus بش «الانتشار الظاهر» (licensed؛ SIB-05)
 - مسارُ الصوت: root بيت «حَيّز محيط يُسكَنُ فيه، أي يُستَقَرُّ» (licensed؛ DENT-05)؛ root بيت «حَيّز محيط يُسكَنُ فيه، أي يُستَقَرُّ» (licensed؛ مباشر)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ مباشر)؛ nucleus بث «النشر والتفريق» (scope-gap؛ DENT-01)؛ nucleus بش «الانتشار الظاهر» (licensed؛ SIB-05)
 - المعنى من قاموس الفرع: ב־י־ת `b-y-t`، root، «Related to houses.» [Kaikki Hebrew، السطر 13949]؛ ביט `bit`، noun، «bit (the smallest unit of storage in a digital computer, consisting of a binary digit)» [Kaikki Hebrew، السطر 3020]؛ בית `báyit`، noun، «byte» [Kaikki Hebrew، السطر 375]
@@ -2201,14 +3125,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13949:en-ב־י־ת-he-root-HSiCsyix: الرسم=ב־י־ת، الرومنة=b-y-t، الصنف=root، المعنى=Related to houses.، السلف/الخلف=From Proto-Semitic *bayt-. Compare Arabic ب ي ت (b y t).، القرض=لا وسم آلي؛ kaikki_hebrew:3020:en-ביט-he-noun-nEbCPPXL: الرسم=ביט، الرومنة=bit، الصنف=noun، المعنى=bit (the smallest unit of storage in a digital computer, consisting of a binary digit)، السلف/الخلف=From English bit, from binary digit.، القرض=لا وسم آلي؛ kaikki_hebrew:375:en-בית-he-noun-HDFib1aK: الرسم=בית، الرومنة=báyit، الصنف=noun، المعنى=byte، السلف/الخلف=Borrowed from English byte, by similarity to בַּיִת (báyit, “house”).، القرض=وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:fda1d3cf7be192d14d08ac1a -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 1/1؛ لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:e110d4e1158474a2e478f200`، ח־ל־ק (الرتبة 92)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ח־ל־ק `kh-l-q`، root، «Related to division, distribution, sharing.» [Kaikki Hebrew، السطر 14042]؛ ח־ל־ק `kh-l-q`، root، «Related to smoothness, slipperiness.» [Kaikki Hebrew، السطر 14043]؛ ח־ל־ק `kh-l-q`، root، «Related to shirts, gowns.» [Kaikki Hebrew، السطر 14044]
 - أقدمُ صورةٍ مستعادة: Denominated from חָלוּק. Further etymology unclear. Perhaps related to the "smoothness" root above.
@@ -2216,7 +3150,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حرق «تحويل حاد - أو بالغ - ينال مادة الشيء وحقيقته» (licensed؛ LIQ-01)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ مباشر)؛ root خلق «تهيئة مادة (غُفْل) لتكون شيئًا مُعَيَّنا مرادًا» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus حر «الخلوص من الغلظ» (licensed؛ LIQ-01)؛ nucleus حق «تمكن الشيء في عُمق مَقَرَّه، أو وسط مقره» (licensed؛ مباشر)؛ nucleus حك «الدلك بضغط على الصلب» (licensed؛ GUT-01)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ مباشر)
 - مسارُ الصوت: root حرق «تحويل حاد - أو بالغ - ينال مادة الشيء وحقيقته» (licensed؛ LIQ-01)؛ root حلق «زوال وَسَطِ مادّةٍ قويّة - مع بقاء محيطه شديدًا» (licensed؛ مباشر)؛ root خلق «تهيئة مادة (غُفْل) لتكون شيئًا مُعَيَّنا مرادًا» (licensed؛ GUT-05)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ LIQ-01)؛ nucleus حق «تمكن الشيء في عُمق مَقَرَّه، أو وسط مقره» (licensed؛ مباشر)؛ nucleus حك «الدلك بضغط على الصلب» (licensed؛ GUT-01)؛ nucleus حل «التسيب والتفكك وما هو من لوازمه كالزيادة» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: ח־ל־ק `kh-l-q`، root، «Related to division, distribution, sharing.» [Kaikki Hebrew، السطر 14042]؛ ח־ל־ק `kh-l-q`، root، «Related to smoothness, slipperiness.» [Kaikki Hebrew، السطر 14043]؛ ח־ל־ק `kh-l-q`، root، «Related to shirts, gowns.» [Kaikki Hebrew، السطر 14044]
@@ -2225,14 +3159,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14042:en-ח־ל־ק-he-root-~ZoBlPEE: الرسم=ח־ל־ק، الرومنة=kh-l-q، الصنف=root، المعنى=Related to division, distribution, sharing.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14043:en-ח־ל־ק-he-root-5wGtKO27: الرسم=ח־ל־ק، الرومنة=kh-l-q، الصنف=root، المعنى=Related to smoothness, slipperiness.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14044:en-ח־ל־ק-he-root-implYf4~: الرسم=ח־ל־ק، الرومنة=kh-l-q، الصنف=root، المعنى=Related to shirts, gowns.، السلف/الخلف=Denominated from חָלוּק. Further etymology unclear. Perhaps related to the "smoothness" root above.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:e110d4e1158474a2e478f200 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:4e719237392792dac87ca581`، כיפה (الرتبة 93)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כיפת ברזל `kipát barzél`، name، «Iron Dome, Israeli defense system against short-range rockets» [Kaikki Hebrew، السطر 15443]؛ כפה `kipá`، noun، «defective spelling of כיפה» [Kaikki Hebrew، السطر 3590]؛ כיפה `kipá`، noun، «kippah, yarmulke» [Kaikki Hebrew، السطر 8559]
 - أقدمُ صورةٍ مستعادة: From כָּפַף (kāpap, “to bow, bend”).
@@ -2240,7 +3184,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03، LAB-01)؛ root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03، LAB-02)؛ root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، GUT-04، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، LAB-04)؛ root جمع «تضام أشياء متجانسة كثيرة تلاقيًا أو تلاحمًا أو تراكما» (licensed؛ GUT-03، GUT-04، LAB-04)؛ root جوس «تخلل واختراق بحدة لشيء» (scope-gap؛ GUT-03، LAB-05، SIB-04)؛ root جوع «فراغ في جوف الشيء من ذهاب ما كان يملؤه» (licensed؛ GUT-03، GUT-04، LAB-05)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ GUT-04، LAB-01، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ GUT-04، LAB-02، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ GUT-04، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ LAB-01، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ LAB-02، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ GUT-04، LAB-01، SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ GUT-04، LAB-02، SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ GUT-04، SIB-06)؛ root صبغ «تَطَلِّي طرف الشيء بلون أو مادة ينغمس فيها، يخالف ما عليه أصله، أو سائره» (licensed؛ GUT-04، LAB-01، SIB-06)؛ root صبغ «تَطَلِّي طرف الشيء بلون أو مادة ينغمس فيها، يخالف ما عليه أصله، أو سائره» (licensed؛ GUT-04، LAB-02، SIB-06)؛ root صبغ «تَطَلِّي طرف الشيء بلون أو مادة ينغمس فيها، يخالف ما عليه أصله، أو سائره» (licensed؛ GUT-04، SIB-06)؛ root صفح «الجانب العريض المنبسط من جرم الشيء» (licensed؛ GUT-04، LAB-02، SIB-06)؛ root صفح «الجانب العريض المنبسط من جرم الشيء» (licensed؛ GUT-04، SIB-06)؛ root صفح «الجانب العريض المنبسط من جرم الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفح «الجانب العريض المنبسط من جرم الشيء» (licensed؛ SIB-06)؛ root صمع «أن ينضم في الشيء ما شأنه أن ينتبر أو يتفرع منه» (licensed؛ GUT-04، LAB-04، SIB-06)؛ root صوح «بلوغ الشيء أقصى غايته نفاذًا من العمق ارتفاعًا أو نموًا مع قوة او جفاف» (licensed؛ GUT-04، LAB-05، SIB-06)؛ root صوح «بلوغ الشيء أقصى غايته نفاذًا من العمق ارتفاعًا أو نموًا مع قوة او جفاف» (licensed؛ LAB-05، SIB-06)؛ root صوع «إفراغ من الكثيف يتيح الاحتواء والحوز أو يعد له» (licensed؛ GUT-04، LAB-05، SIB-06)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01، GUT-04، LAB-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01، GUT-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01، LAB-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04، LAB-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04، LAB-02)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ LAB-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ LAB-02)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ مباشر)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ GUT-01، LAB-01، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ GUT-01، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ LAB-01، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ LAB-02، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ SIB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-04، LAB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ LAB-04)؛ root قمع «ضبط في حيز ومنع عن الانتشار منه» (licensed؛ GUT-04، LAB-04)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (scope-gap؛ LAB-05، SIB-04)؛ root قوع «انبساط المكان منخفضًا بين مرتفعات عنه خاليًا مما يشغله» (licensed؛ GUT-04، LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 8/8؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-02)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01)
 - مسارُ الصوت: root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03، LAB-01)؛ root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03، LAB-02)؛ root جبه «المواجهة بصلب عريض في مقدم الشيء ليس فيه رخاوة» (licensed؛ GUT-03)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، GUT-04، LAB-04)؛ root جمح «اندفاع مع صلابة في الشيء المجتمع بحيث لا ينثني» (licensed؛ GUT-03، LAB-04)؛ root جمع «تضام أشياء متجانسة كثيرة تلاقيًا أو تلاحمًا أو تراكما» (licensed؛ GUT-03، GUT-04، LAB-04)؛ root جوس «تخلل واختراق بحدة لشيء» (scope-gap؛ GUT-03، LAB-05، SIB-04)؛ root جوع «فراغ في جوف الشيء من ذهاب ما كان يملؤه» (licensed؛ GUT-03، GUT-04، LAB-05)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ GUT-04، LAB-01، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ GUT-04، LAB-02، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ GUT-04، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ LAB-01، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ LAB-02، SIB-06)؛ root صبح «ضوء أو بياض ينتشر بقوة؛ فيغلب ما يصادفه من ظلام أو سواد» (licensed؛ SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ GUT-04، LAB-01، SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ GUT-04، LAB-02، SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ GUT-04، SIB-06)؛ root صبغ «تَطَلِّي طرف الشيء بلون أو مادة ينغمس فيها، يخالف ما عليه أصله، أو سائره» (licensed؛ GUT-04، LAB-01، SIB-06)؛ root صبغ «تَطَلِّي طرف الشيء بلون أو مادة ينغمس فيها، يخالف ما عليه أصله، أو سائره» (licensed؛ GUT-04، LAB-02، SIB-06)؛ root صبغ «تَطَلِّي طرف الشيء بلون أو مادة ينغمس فيها، يخالف ما عليه أصله، أو سائره» (licensed؛ GUT-04، SIB-06)؛ root صفح «الجانب العريض المنبسط من جرم الشيء» (licensed؛ GUT-04، LAB-02، SIB-06)؛ root صفح «الجانب العريض المنبسط من جرم الشيء» (licensed؛ GUT-04، SIB-06)؛ root صفح «الجانب العريض المنبسط من جرم الشيء» (licensed؛ LAB-02، SIB-06)؛ root صفح «الجانب العريض المنبسط من جرم الشيء» (licensed؛ SIB-06)؛ root صمع «أن ينضم في الشيء ما شأنه أن ينتبر أو يتفرع منه» (licensed؛ GUT-04، LAB-04، SIB-06)؛ root صوح «بلوغ الشيء أقصى غايته نفاذًا من العمق ارتفاعًا أو نموًا مع قوة او جفاف» (licensed؛ GUT-04، LAB-05، SIB-06)؛ root صوح «بلوغ الشيء أقصى غايته نفاذًا من العمق ارتفاعًا أو نموًا مع قوة او جفاف» (licensed؛ LAB-05، SIB-06)؛ root صوع «إفراغ من الكثيف يتيح الاحتواء والحوز أو يعد له» (licensed؛ GUT-04، LAB-05، SIB-06)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01، GUT-04، LAB-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01، GUT-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01، LAB-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04، LAB-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04، LAB-02)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ GUT-04)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ LAB-01)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ LAB-02)؛ root قبح «نتوء شيء غليظ يُفْقِدُ ظاهر الشيء استواءه» (licensed؛ مباشر)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ GUT-01، LAB-01، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ GUT-01، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ LAB-01، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ LAB-02، SIB-04)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (scope-gap؛ SIB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ GUT-04، LAB-04)؛ root قمح «اكتناز الشيء بما يَضُمّ في باطنه حتى يرتفع امتلاء» (licensed؛ LAB-04)؛ root قمع «ضبط في حيز ومنع عن الانتشار منه» (licensed؛ GUT-04، LAB-04)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (scope-gap؛ LAB-05، SIB-04)؛ root قوع «انبساط المكان منخفضًا بين مرتفعات عنه خاليًا مما يشغله» (licensed؛ GUT-04، LAB-05)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-02)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01)
 - المعنى من قاموس الفرع: כיפת ברזל `kipát barzél`، name، «Iron Dome, Israeli defense system against short-range rockets» [Kaikki Hebrew، السطر 15443]؛ כפה `kipá`، noun، «defective spelling of כיפה» [Kaikki Hebrew، السطر 3590]؛ כיפה `kipá`، noun، «kippah, yarmulke» [Kaikki Hebrew، السطر 8559]
@@ -2249,14 +3193,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:15443:en-כיפת_ברזל-he-name-oatgUZw0: الرسم=כיפת ברזל، الرومنة=kipát barzél، الصنف=name، المعنى=Iron Dome, Israeli defense system against short-range rockets، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:3590:en-כפה-he-noun-QEjo6ZnK: الرسم=כפה، الرومنة=kipá، الصنف=noun، المعنى=defective spelling of כיפה، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8559:en-כיפה-he-noun-xqD9DviL: الرسم=כיפה، الرومنة=kipá، الصنف=noun، المعنى=kippah, yarmulke، السلف/الخلف=From כָּפַף (kāpap, “to bow, bend”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:4e719237392792dac87ca581 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 8/8؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:2c2a635c366daba382635736`، ר־ג־ע (الرتبة 94)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: רגע `réga'`، noun، «a moment (brief, unspecified amount of time)» [Kaikki Hebrew، السطر 1453]؛ רגע `réga'`، intj، «wait a moment, hold on» [Kaikki Hebrew، السطر 1454]؛ ר־ג־ע `r-g-ʿ`، root، «Forming words relating to calmness.» [Kaikki Hebrew، السطر 8731]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -2264,7 +3218,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root رجع «تحوّل عن الاتجاه - أو الحال - إلى عكسه» (licensed؛ GUT-03)؛ root رجع «تحوّل عن الاتجاه - أو الحال - إلى عكسه» (licensed؛ مباشر)؛ root ركع «انخفاض أعلى جرمِ الشيء (منثنيًا) إلى أسفل» (licensed؛ GUT-01)؛ root ركع «انخفاض أعلى جرمِ الشيء (منثنيًا) إلى أسفل» (licensed؛ GUT-02)؛ root ركع «انخفاض أعلى جرمِ الشيء (منثنيًا) إلى أسفل» (licensed؛ مباشر)؛ root نقع «تشبع الشيء بالمائع حتى يرشح من أثنائه، ويتجمع فوقه» (licensed؛ LIQ-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
 - المقابلُ من اللسان: nucleus جع «التجوف والفراغ» (licensed؛ GUT-03)؛ nucleus جع «التجوف والفراغ» (licensed؛ مباشر)؛ nucleus رج «الاضطراب المادي، أي اضطراب الجِرْم وتردده» (licensed؛ GUT-03)؛ nucleus رج «الاضطراب المادي، أي اضطراب الجِرْم وتردده» (licensed؛ مباشر)
 - مسارُ الصوت: root رجع «تحوّل عن الاتجاه - أو الحال - إلى عكسه» (licensed؛ GUT-03)؛ root رجع «تحوّل عن الاتجاه - أو الحال - إلى عكسه» (licensed؛ مباشر)؛ root ركع «انخفاض أعلى جرمِ الشيء (منثنيًا) إلى أسفل» (licensed؛ GUT-01)؛ root ركع «انخفاض أعلى جرمِ الشيء (منثنيًا) إلى أسفل» (licensed؛ GUT-02)؛ root ركع «انخفاض أعلى جرمِ الشيء (منثنيًا) إلى أسفل» (licensed؛ مباشر)؛ root نقع «تشبع الشيء بالمائع حتى يرشح من أثنائه، ويتجمع فوقه» (licensed؛ LIQ-03)؛ nucleus جع «التجوف والفراغ» (licensed؛ GUT-03)؛ nucleus جع «التجوف والفراغ» (licensed؛ مباشر)؛ nucleus رج «الاضطراب المادي، أي اضطراب الجِرْم وتردده» (licensed؛ GUT-03)؛ nucleus رج «الاضطراب المادي، أي اضطراب الجِرْم وتردده» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: רגע `réga'`، noun، «a moment (brief, unspecified amount of time)» [Kaikki Hebrew، السطر 1453]؛ רגע `réga'`، intj، «wait a moment, hold on» [Kaikki Hebrew، السطر 1454]؛ ר־ג־ע `r-g-ʿ`، root، «Forming words relating to calmness.» [Kaikki Hebrew، السطر 8731]
@@ -2273,14 +3227,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1453:en-רגע-he-noun-ENeBGSAy: الرسم=רגע، الرومنة=réga'، الصنف=noun، المعنى=a moment (brief, unspecified amount of time)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1454:en-רגע-he-intj-u8c-MUBP: الرسم=רגע، الرومنة=réga'، الصنف=intj، المعنى=wait a moment, hold on، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8731:en-ר־ג־ע-he-root-MzfLzIS3: الرسم=ר־ג־ע، الرومنة=r-g-ʿ، الصنف=root، المعنى=Forming words relating to calmness.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:2c2a635c366daba382635736 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:c80df535340de444720deef8`، קרן (الرتبة 95)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: קרן `karán`، verb، «radiate, shine» [Kaikki Hebrew، السطر 4792]؛ קרן `kéren`، noun، «the base price paid as compensation without the added penalty» [Kaikki Hebrew، السطر 4793]؛ קרן `keren`، name، «a female given name, Karen» [Kaikki Hebrew، السطر 4794]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *ḳarn- (“horn”). Cognate with Arabic قَرْن (qarn).
@@ -2288,7 +3252,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root قرر «ثَبَاتُ ما شأنه التسيب وامتساكه في قـاع عـمـيـق مستدير» (licensed؛ LIQ-03)؛ root قرن «نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه» (licensed؛ مباشر)؛ root قنن «الاحتباس في الحوزة (أو باطن) بعمق وامتداد» (licensed؛ LIQ-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LIQ-02)؛ nucleus رن «مادة تغطي على الحس وتمنع النفاذ» (licensed؛ مباشر)؛ nucleus قر «استقرار ما شأنه التسيب في قاع عميق أو حيز» (licensed؛ LIQ-03)؛ nucleus قر «استقرار ما شأنه التسيب في قاع عميق أو حيز» (licensed؛ مباشر)
 - مسارُ الصوت: root قرر «ثَبَاتُ ما شأنه التسيب وامتساكه في قـاع عـمـيـق مستدير» (licensed؛ LIQ-03)؛ root قرن «نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه» (licensed؛ مباشر)؛ root قنن «الاحتباس في الحوزة (أو باطن) بعمق وامتداد» (licensed؛ LIQ-03)؛ nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LIQ-02)؛ nucleus رن «مادة تغطي على الحس وتمنع النفاذ» (licensed؛ مباشر)؛ nucleus قر «استقرار ما شأنه التسيب في قاع عميق أو حيز» (licensed؛ LIQ-03)؛ nucleus قر «استقرار ما شأنه التسيب في قاع عميق أو حيز» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: קרן `karán`، verb، «radiate, shine» [Kaikki Hebrew، السطر 4792]؛ קרן `kéren`، noun، «the base price paid as compensation without the added penalty» [Kaikki Hebrew، السطر 4793]؛ קרן `keren`، name، «a female given name, Karen» [Kaikki Hebrew، السطر 4794]
@@ -2297,14 +3261,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4792:en-קרן-he-verb-xct6IO~N: الرسم=קרן، الرومنة=karán، الصنف=verb، المعنى=radiate, shine، السلف/الخلف=From Proto-Semitic *ḳarn- (“horn”). Cognate with Arabic قَرْن (qarn).، القرض=لا وسم آلي؛ kaikki_hebrew:4793:en-קרן-he-noun-cpaGFHnK: الرسم=קרן، الرومنة=kéren، الصنف=noun، المعنى=the base price paid as compensation without the added penalty، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4794:en-קרן-he-name-wPnMr7i2: الرسم=קרן، الرومنة=keren، الصنف=name، المعنى=a female given name, Karen، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:c80df535340de444720deef8 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:30d04ee23fb61b7378b7f4a2`، תלי (الرتبة 96)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=استنفد المسح الآلي ولم يوفر مصدرين عربيين قديمين مستقلين؛ يتطلب مروحة مستقلة للجذر: تلي؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: תלי `t'lí`، noun، «Lunar node» [Kaikki Hebrew، السطر 2372]؛ תלי `t'lí`، name، «Draco (a circumpolar constellation of the northern sky, said to resemble a dragon)» [Kaikki Hebrew، السطر 2373]؛ תלי `t'lí`، noun، «a quiver» [Kaikki Hebrew، السطر 2374]
 - أقدمُ صورةٍ مستعادة: (Lunar node): Referring to the draconic period.؛ (Lunar node): Referring to the draconic period.؛ From the verb תלה (“to hang”).
@@ -2312,7 +3286,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root تلو «اتباع الشيء ما يسبقه لحوقًا به من خلفه» (manual-condition؛ GLD-01)؛ root تلي «اتباع الشيء ما يسبقه لحوقًا به من خلفه» (licensed؛ DENT-05)؛ root تلي «اتباع الشيء ما يسبقه لحوقًا به من خلفه» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 0/1.
 - المقابلُ من اللسان: nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ LIQ-01)؛ nucleus تل «التكديس والاتباع» (licensed؛ DENT-05)؛ nucleus تل «التكديس والاتباع» (licensed؛ مباشر)؛ nucleus ثل «تجمع الدقائق وتماسكها» (scope-gap؛ DENT-01)
 - مسارُ الصوت: root تلو «اتباع الشيء ما يسبقه لحوقًا به من خلفه» (manual-condition؛ GLD-01)؛ root تلي «اتباع الشيء ما يسبقه لحوقًا به من خلفه» (licensed؛ DENT-05)؛ root تلي «اتباع الشيء ما يسبقه لحوقًا به من خلفه» (licensed؛ مباشر)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ LIQ-01)؛ nucleus تل «التكديس والاتباع» (licensed؛ DENT-05)؛ nucleus تل «التكديس والاتباع» (licensed؛ مباشر)؛ nucleus ثل «تجمع الدقائق وتماسكها» (scope-gap؛ DENT-01)
 - المعنى من قاموس الفرع: תלי `t'lí`، noun، «Lunar node» [Kaikki Hebrew، السطر 2372]؛ תלי `t'lí`، name، «Draco (a circumpolar constellation of the northern sky, said to resemble a dragon)» [Kaikki Hebrew، السطر 2373]؛ תלי `t'lí`، noun، «a quiver» [Kaikki Hebrew، السطر 2374]
@@ -2321,14 +3295,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2372:en-תלי-he-noun-uXzySG1w: الرسم=תלי، الرومنة=t'lí، الصنف=noun، المعنى=Lunar node، السلف/الخلف=(Lunar node): Referring to the draconic period.، القرض=لا وسم آلي؛ kaikki_hebrew:2373:en-תלי-he-name-~VDWs8Yo: الرسم=תלי، الرومنة=t'lí، الصنف=name، المعنى=Draco (a circumpolar constellation of the northern sky, said to resemble a dragon)، السلف/الخلف=(Lunar node): Referring to the draconic period.، القرض=لا وسم آلي؛ kaikki_hebrew:2374:en-תלי-he-noun-gALRsADk: الرسم=תלי، الرومنة=t'lí، الصنف=noun، المعنى=a quiver، السلف/الخلف=From the verb תלה (“to hang”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ استنفد المسح الآلي ولم يوفر مصدرين عربيين قديمين مستقلين.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:30d04ee23fb61b7378b7f4a2 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 0/1.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:98a210e7f6a37d05b8ba6582`، גנז (الرتبة 97)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: גניזה `g'nizá`، noun، «archiving, storage, preservation, hiding» [Kaikki Hebrew، السطر 10656]؛ גנזים `g'nazím`، noun، «treasures, hoards, archives, collections» [Kaikki Hebrew، السطر 10657]؛ גנז `ganáz`، verb، «to shelve, to store» [Kaikki Hebrew، السطر 12726]
 - أقدمُ صورةٍ مستعادة: Borrowed from Old Persian [Term?] (/⁠*ganza-⁠/, “treasure, depository”), from Old Median *ganǰam. Compare Persian گنج (ganj) and Mandaic ࡂࡉࡍࡆࡀ (ginza). See also גְּנָזִים (g'nazím)؛ Likely from Old Median *ganǰam (“treasure”). Compare Persian گنج (ganj), Old Armenian գանձ (ganj), Ancient Greek γάζα (gáza), Classical Syriac ܓܙܐ (gazzā), and Latin gaza.؛ From the root ג־נ־ז (g-n-z), probably from Persian گنج (ganj, “treasure”, noun); compare Classical Syriac ܓܙܐ (gazzā) and Arabic كنز (kanz).
@@ -2336,7 +3320,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جرز «تجرد سطح الأرض ليبس باطنها فلا تنبت شيئًا» (licensed؛ GUT-03، LIQ-03)؛ root جرز «تجرد سطح الأرض ليبس باطنها فلا تنبت شيئًا» (licensed؛ LIQ-03)؛ root كنز «حفظ الشيء في باطن يُمسكه ويستره ويلزمه امتلاء الباطن» (licensed؛ GUT-01)؛ root كنز «حفظ الشيء في باطن يُمسكه ويستره ويلزمه امتلاء الباطن» (licensed؛ GUT-02)؛ root كنز «حفظ الشيء في باطن يُمسكه ويستره ويلزمه امتلاء الباطن» (licensed؛ مباشر)؛ root كنس «تنحي ما كان ظاهرًا إلى جوف كِنٍّ يستره» (licensed؛ GUT-02، SIB-03)؛ root كنس «تنحي ما كان ظاهرًا إلى جوف كِنٍّ يستره» (licensed؛ SIB-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ GUT-03، LAB-04)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ LAB-04)؛ nucleus جح «الغلظ والحدة في الباطن» (licensed؛ GUT-03، GUT-04)؛ nucleus جح «الغلظ والحدة في الباطن» (licensed؛ GUT-03)
 - مسارُ الصوت: root جرز «تجرد سطح الأرض ليبس باطنها فلا تنبت شيئًا» (licensed؛ GUT-03، LIQ-03)؛ root جرز «تجرد سطح الأرض ليبس باطنها فلا تنبت شيئًا» (licensed؛ LIQ-03)؛ root كنز «حفظ الشيء في باطن يُمسكه ويستره ويلزمه امتلاء الباطن» (licensed؛ GUT-01)؛ root كنز «حفظ الشيء في باطن يُمسكه ويستره ويلزمه امتلاء الباطن» (licensed؛ GUT-02)؛ root كنز «حفظ الشيء في باطن يُمسكه ويستره ويلزمه امتلاء الباطن» (licensed؛ مباشر)؛ root كنس «تنحي ما كان ظاهرًا إلى جوف كِنٍّ يستره» (licensed؛ GUT-02، SIB-03)؛ root كنس «تنحي ما كان ظاهرًا إلى جوف كِنٍّ يستره» (licensed؛ SIB-03)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ GUT-03، LAB-04)؛ nucleus جب «التجسم والبروز مع القطع أو الاستواء» (licensed؛ LAB-04)؛ nucleus جح «الغلظ والحدة في الباطن» (licensed؛ GUT-03، GUT-04)؛ nucleus جح «الغلظ والحدة في الباطن» (licensed؛ GUT-03)
 - المعنى من قاموس الفرع: גניזה `g'nizá`، noun، «archiving, storage, preservation, hiding» [Kaikki Hebrew، السطر 10656]؛ גנזים `g'nazím`، noun، «treasures, hoards, archives, collections» [Kaikki Hebrew، السطر 10657]؛ גנז `ganáz`، verb، «to shelve, to store» [Kaikki Hebrew، السطر 12726]
@@ -2345,14 +3329,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10656:en-גניזה-he-noun-APsH6MnA: الرسم=גניזה، الرومنة=g'nizá، الصنف=noun، المعنى=archiving, storage, preservation, hiding، السلف/الخلف=Borrowed from Old Persian [Term?] (/⁠*ganza-⁠/, “treasure, depository”), from Old Median *ganǰam. Compare Persian گنج (ganj) and Mandaic ࡂࡉࡍࡆࡀ (ginza). See also גְּנָזִים (g'nazím)، القرض=وسم آلي؛ kaikki_hebrew:10657:en-גנזים-he-noun-fjJYFEDh: الرسم=גנזים، الرومنة=g'nazím، الصنف=noun، المعنى=treasures, hoards, archives, collections، السلف/الخلف=Likely from Old Median *ganǰam (“treasure”). Compare Persian گنج (ganj), Old Armenian գանձ (ganj), Ancient Greek γάζα (gáza), Classical Syriac ܓܙܐ (gazzā), and Latin gaza.، القرض=لا وسم آلي؛ kaikki_hebrew:12726:en-גנז-he-verb-0rXcYO-B: الرسم=גנז، الرومنة=ganáz، الصنف=verb، المعنى=to shelve, to store، السلف/الخلف=From the root ג־נ־ז (g-n-z), probably from Persian گنج (ganj, “treasure”, noun); compare Classical Syriac ܓܙܐ (gazzā) and Arabic كنز (kanz).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:98a210e7f6a37d05b8ba6582 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: גנז، حسم الموجة 1 للرتبة 97.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:74e10fb8a149b86f80ac428b`، אלחוטי (الرتبة 98)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: חוטיני `khutíni`، noun، «thong (swimwear or undergarment)» [Kaikki Hebrew، السطر 14361]؛ חוט `khut`، noun، «a string, thread, yarn, or wire» [Kaikki Hebrew، السطر 3393]؛ אלחוטי `alkhutí`، adj، «cordless, wireless (without a cord)» [Kaikki Hebrew، السطر 5306]
 - أقدمُ صورةٍ مستعادة: Blend of חוט (khut, “string”) + ביקיני (bikíni, “bikini”).؛ From אַל־ (al, “non-”) + חוּט (khut, “cable”) + ־ִי (-í, “-ic”).
@@ -2360,7 +3354,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حبط «فساد ما تجمع في الجوف بكثافة لعدم تصرفه» (licensed؛ LAB-05)؛ root حوت «استدارةُ الجِرْم عِظَمًا والتفافًا، أو دورانًا» (licensed؛ DENT-05، LAB-06)؛ root حوت «استدارةُ الجِرْم عِظَمًا والتفافًا، أو دورانًا» (licensed؛ DENT-05)؛ root حوت «استدارةُ الجِرْم عِظَمًا والتفافًا، أو دورانًا» (licensed؛ LAB-06)؛ root حوت «استدارةُ الجِرْم عِظَمًا والتفافًا، أو دورانًا» (licensed؛ مباشر)؛ root حوث «وجود شيء تحت متراكم يخفيه فيُنبَثُ عنه» (scope-gap؛ DENT-01، LAB-06)؛ root حوث «وجود شيء تحت متراكم يخفيه فيُنبَثُ عنه» (scope-gap؛ DENT-01)؛ root حوش «اجتماع بتنحٍ، أو جمع بتنحية» (licensed؛ LAB-06، SIB-05)؛ root حوش «اجتماع بتنحٍ، أو جمع بتنحية» (licensed؛ SIB-05)؛ root حوط «الاستدارة حول الشيء بنحو الجدار» (licensed؛ DENT-05، LAB-06)؛ root حوط «الاستدارة حول الشيء بنحو الجدار» (licensed؛ DENT-05)؛ root حوط «الاستدارة حول الشيء بنحو الجدار» (licensed؛ LAB-06)؛ root حوط «الاستدارة حول الشيء بنحو الجدار» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-05)؛ nucleus ءل «» (licensed؛ مباشر)
 - مسارُ الصوت: root حبط «فساد ما تجمع في الجوف بكثافة لعدم تصرفه» (licensed؛ LAB-05)؛ root حوت «استدارةُ الجِرْم عِظَمًا والتفافًا، أو دورانًا» (licensed؛ DENT-05، LAB-06)؛ root حوت «استدارةُ الجِرْم عِظَمًا والتفافًا، أو دورانًا» (licensed؛ DENT-05)؛ root حوت «استدارةُ الجِرْم عِظَمًا والتفافًا، أو دورانًا» (licensed؛ LAB-06)؛ root حوت «استدارةُ الجِرْم عِظَمًا والتفافًا، أو دورانًا» (licensed؛ مباشر)؛ root حوث «وجود شيء تحت متراكم يخفيه فيُنبَثُ عنه» (scope-gap؛ DENT-01، LAB-06)؛ root حوث «وجود شيء تحت متراكم يخفيه فيُنبَثُ عنه» (scope-gap؛ DENT-01)؛ root حوش «اجتماع بتنحٍ، أو جمع بتنحية» (licensed؛ LAB-06، SIB-05)؛ root حوش «اجتماع بتنحٍ، أو جمع بتنحية» (licensed؛ SIB-05)؛ root حوط «الاستدارة حول الشيء بنحو الجدار» (licensed؛ DENT-05، LAB-06)؛ root حوط «الاستدارة حول الشيء بنحو الجدار» (licensed؛ DENT-05)؛ root حوط «الاستدارة حول الشيء بنحو الجدار» (licensed؛ LAB-06)؛ root حوط «الاستدارة حول الشيء بنحو الجدار» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-05)؛ nucleus ءل «» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: חוטיני `khutíni`، noun، «thong (swimwear or undergarment)» [Kaikki Hebrew، السطر 14361]؛ חוט `khut`، noun، «a string, thread, yarn, or wire» [Kaikki Hebrew، السطر 3393]؛ אלחוטי `alkhutí`، adj، «cordless, wireless (without a cord)» [Kaikki Hebrew، السطر 5306]
@@ -2369,14 +3363,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14361:en-חוטיני-he-noun-shZwA5QI: الرسم=חוטיני، الرومنة=khutíni، الصنف=noun، المعنى=thong (swimwear or undergarment)، السلف/الخلف=Blend of חוט (khut, “string”) + ביקיני (bikíni, “bikini”).، القرض=لا وسم آلي؛ kaikki_hebrew:3393:en-חוט-he-noun-T~LiJeeb: الرسم=חוט، الرومنة=khut، الصنف=noun، المعنى=a string, thread, yarn, or wire، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5306:en-אלחוטי-he-adj--6mpMTNX: الرسم=אלחוטי، الرومنة=alkhutí، الصنف=adj، المعنى=cordless, wireless (without a cord)، السلف/الخلف=From אַל־ (al, “non-”) + חוּט (khut, “cable”) + ־ִי (-í, “-ic”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:74e10fb8a149b86f80ac428b -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:5618aca64ab1e85fb22256a2`، טרף (الرتبة 99)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: טרף `téref`، noun، «prey» [Kaikki Hebrew، السطر 5173]؛ טרף `taráf`، verb، «to murder, devour, to tear into.» [Kaikki Hebrew، السطر 5174]؛ טרף `taréf`، adj، «treyf, non-kosher (forbidden according to halakhic practice)» [Kaikki Hebrew، السطر 5175]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -2384,7 +3388,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ DENT-05، LAB-01)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ DENT-05)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ LAB-01)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ LAB-02)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ مباشر)؛ root ترف «امتلاء الشيء بالري والرخاوة حتى ينتبر متميزًا عما حوله» (licensed؛ DENT-05)؛ root ترف «امتلاء الشيء بالري والرخاوة حتى ينتبر متميزًا عما حوله» (licensed؛ LAB-02)؛ root ترف «امتلاء الشيء بالري والرخاوة حتى ينتبر متميزًا عما حوله» (licensed؛ مباشر)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (scope-gap؛ DENT-01، LAB-01)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (scope-gap؛ DENT-01)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ LAB-01، SIB-05)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ SIB-05)؛ root طرف «النهاية الدقيقة للشيء الممتد مع الرقة» (licensed؛ DENT-05)؛ root طرف «النهاية الدقيقة للشيء الممتد مع الرقة» (licensed؛ LAB-02)؛ root طرف «النهاية الدقيقة للشيء الممتد مع الرقة» (licensed؛ مباشر)؛ root طرو «غضاضة ولين مع تخلخل في الشيء المتجمع» (licensed؛ LAB-05)؛ root طلب «استجلاب الشيء من بعيد» (licensed؛ LAB-01، LIQ-01)؛ root طلب «استجلاب الشيء من بعيد» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ DENT-05، LAB-01)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ DENT-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-01)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-02)
 - مسارُ الصوت: root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ DENT-05، LAB-01)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ DENT-05)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ LAB-01)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ LAB-02)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ مباشر)؛ root ترف «امتلاء الشيء بالري والرخاوة حتى ينتبر متميزًا عما حوله» (licensed؛ DENT-05)؛ root ترف «امتلاء الشيء بالري والرخاوة حتى ينتبر متميزًا عما حوله» (licensed؛ LAB-02)؛ root ترف «امتلاء الشيء بالري والرخاوة حتى ينتبر متميزًا عما حوله» (licensed؛ مباشر)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (scope-gap؛ DENT-01، LAB-01)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (scope-gap؛ DENT-01)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ LAB-01، SIB-05)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ SIB-05)؛ root طرف «النهاية الدقيقة للشيء الممتد مع الرقة» (licensed؛ DENT-05)؛ root طرف «النهاية الدقيقة للشيء الممتد مع الرقة» (licensed؛ LAB-02)؛ root طرف «النهاية الدقيقة للشيء الممتد مع الرقة» (licensed؛ مباشر)؛ root طرو «غضاضة ولين مع تخلخل في الشيء المتجمع» (licensed؛ LAB-05)؛ root طلب «استجلاب الشيء من بعيد» (licensed؛ LAB-01، LIQ-01)؛ root طلب «استجلاب الشيء من بعيد» (licensed؛ LIQ-01)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ DENT-05، LAB-01)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ DENT-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-01)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-02)
 - المعنى من قاموس الفرع: טרף `téref`، noun، «prey» [Kaikki Hebrew، السطر 5173]؛ טרף `taráf`، verb، «to murder, devour, to tear into.» [Kaikki Hebrew، السطر 5174]؛ טרף `taréf`، adj، «treyf, non-kosher (forbidden according to halakhic practice)» [Kaikki Hebrew، السطر 5175]
@@ -2393,14 +3397,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:5173:en-טרף-he-noun-6yMpjf-4: الرسم=טרף، الرومنة=téref، الصنف=noun، المعنى=prey، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5174:en-טרף-he-verb-8RkLxjS0: الرسم=טרף، الرومنة=taráf، الصنف=verb، المعنى=to murder, devour, to tear into.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5175:en-טרף-he-adj-5LxM6rxA: الرسم=טרף، الرومنة=taréf، الصنف=adj، المعنى=treyf, non-kosher (forbidden according to halakhic practice)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:5618aca64ab1e85fb22256a2 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:f20c69111ede6cfbeba0199a`، סולם (الرتبة 100)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=INTRA-HOUSE-TRANSFER؛ يتطلب=سلسلة السلم منقولة من الأكدية داخل البيت السامي؛ لا تعد شاهد فرع مستقل؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: סלם `sulám`، noun، «defective spelling of סולם» [Kaikki Hebrew، السطر 12679]؛ סלמות `sulamót`، noun، «plural indefinite form of סֻלָּם: defective spelling of סולמות» [Kaikki Hebrew، السطر 12680]؛ סולמות `sulamót`، noun، «plural indefinite form of סולם (sulám)» [Kaikki Hebrew، السطر 12681]؛ סולמית `sulamít`، noun، «number sign (the character # used to represent the word number)» [Kaikki Hebrew، السطر 13731]؛ סולם `sulám`، noun، «scale» [Kaikki Hebrew، السطر 9973]
 - أقدمُ صورةٍ مستعادة: From סולם (sulam, “ladder”) + ־ית (-it, diminutive suffix).؛ Borrowed from Akkadian 𒄑𒄿𒇻 (simmiltum, “stair; stairs; ladder”) with metathesis. Cognate with Aramaic סוּלַם (sulam), Arabic سُلَّم (sullam), borrowed from the same etymon.
@@ -2408,7 +3422,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root زلم «استواء ظاهر الممتد (الدقيق كالإصبع) من الشيء» (licensed؛ SIB-03)؛ root سرم «منفذ يمتد دقيقا مع ضمّ أو اكتناف» (licensed؛ LIQ-01)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-04)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ SIB-02)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ مباشر)؛ root صرم «انفصال أو انقطاع بحدة: حسم أو جفاف أو جفاء» (licensed؛ LIQ-01، SIB-06)؛ root صرم «انفصال أو انقطاع بحدة: حسم أو جفاف أو جفاء» (licensed؛ LIQ-01)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-04، SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بت «القطع والانفصال» (licensed؛ LAB-04)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-05)؛ nucleus بط «التجمع الرخو المكتنز مع الشق عنه أو قطعه» (licensed؛ LAB-04)؛ nucleus بط «التجمع الرخو المكتنز مع الشق عنه أو قطعه» (licensed؛ LAB-05)
 - مسارُ الصوت: root زلم «استواء ظاهر الممتد (الدقيق كالإصبع) من الشيء» (licensed؛ SIB-03)؛ root سرم «منفذ يمتد دقيقا مع ضمّ أو اكتناف» (licensed؛ LIQ-01)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-04)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ SIB-02)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ مباشر)؛ root صرم «انفصال أو انقطاع بحدة: حسم أو جفاف أو جفاء» (licensed؛ LIQ-01، SIB-06)؛ root صرم «انفصال أو انقطاع بحدة: حسم أو جفاف أو جفاء» (licensed؛ LIQ-01)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-04، SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-04)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-04)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-05)؛ nucleus بط «التجمع الرخو المكتنز مع الشق عنه أو قطعه» (licensed؛ LAB-04)؛ nucleus بط «التجمع الرخو المكتنز مع الشق عنه أو قطعه» (licensed؛ LAB-05)
 - المعنى من قاموس الفرع: סלם `sulám`، noun، «defective spelling of סולם» [Kaikki Hebrew، السطر 12679]؛ סלמות `sulamót`، noun، «plural indefinite form of סֻלָּם: defective spelling of סולמות» [Kaikki Hebrew، السطر 12680]؛ סולמות `sulamót`، noun، «plural indefinite form of סולם (sulám)» [Kaikki Hebrew، السطر 12681]؛ סולמית `sulamít`، noun، «number sign (the character # used to represent the word number)» [Kaikki Hebrew، السطر 13731]؛ סולם `sulám`، noun، «scale» [Kaikki Hebrew، السطر 9973]
@@ -2417,14 +3431,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:12679:en-סלם-he-noun-BL3mEF4u: الرسم=סלם، الرومنة=sulám، الصنف=noun، المعنى=defective spelling of סולם، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:12680:en-סלמות-he-noun-Pnxn~zPq: الرسم=סלמות، الرومنة=sulamót، الصنف=noun، المعنى=plural indefinite form of סֻלָּם: defective spelling of סולמות، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:12681:en-סולמות-he-noun-qv1C~sFg: الرسم=סולמות، الرومنة=sulamót، الصنف=noun، المعنى=plural indefinite form of סולם (sulám)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:13731:en-סולמית-he-noun-xPmwDiXW: الرسم=סולמית، الرومنة=sulamít، الصنف=noun، المعنى=number sign (the character # used to represent the word number)، السلف/الخلف=From סולם (sulam, “ladder”) + ־ית (-it, diminutive suffix).، القرض=لا وسم آلي؛ kaikki_hebrew:9973:en-סולם-he-noun-9GmAKjFE: الرسم=סולם، الرومنة=sulám، الصنف=noun، المعنى=scale، السلف/الخلف=Borrowed from Akkadian 𒄑𒄿𒇻 (simmiltum, “stair; stairs; ladder”) with metathesis. Cognate with Aramaic סוּלַם (sulam), Arabic سُلَّم (sullam), borrowed from the same etymon.، القرض=وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: INTRA-HOUSE-TRANSFER.
+- الحكم (استكشاف): غير صادر؛ سلسلة السلم منقولة من الأكدية داخل البيت السامي؛ لا تعد شاهد فرع مستقل.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:f20c69111ede6cfbeba0199a -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `INTRA-HOUSE-TRANSFER`.
+  - نتيجة المروحة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:936a52604f20ac4d80383a00`، הר הזיתים (الرتبة 101)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: הר הזיתים `har hazeitím`، name، «Mount of Olives (a ridge in East Jerusalem)» [Kaikki Hebrew، السطر 15529]؛ זית `záyit`، noun، «olive (species)» [Kaikki Hebrew، السطر 5377]؛ זיתים `zetím`، noun، «plural indefinite form of זַיִת (záyit)» [Kaikki Hebrew، السطر 5378]؛ כזית `k'záyit`، adv، «little, small amount, small portion» [Kaikki Hebrew، السطر 7722]
 - أقدمُ صورةٍ مستعادة: Akin to Ugaritic 𐎇𐎚𐎎 (ztm), Phoenician 𐤆𐤕 (zt), Galilean Aramaic זֵיתָא (zētā), Syriac Aramaic ܙܝܬܐ (zaytā), whence Amharic ዘይት (zäyt, “olive oil”), Arabic زَيْت (zayt, “oil, olive؛ כְּ־ (k'-, “like”) + זַּיִת (záyit, “an olive”)
@@ -2432,7 +3456,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root زيت «دهن ذو كثافة» (licensed؛ DENT-05)؛ root زيت «دهن ذو كثافة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 1/1؛ لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-03)
 - مسارُ الصوت: root زيت «دهن ذو كثافة» (licensed؛ DENT-05)؛ root زيت «دهن ذو كثافة» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-03)
 - المعنى من قاموس الفرع: הר הזיתים `har hazeitím`، name، «Mount of Olives (a ridge in East Jerusalem)» [Kaikki Hebrew، السطر 15529]؛ זית `záyit`، noun، «olive (species)» [Kaikki Hebrew، السطر 5377]؛ זיתים `zetím`، noun، «plural indefinite form of זַיִת (záyit)» [Kaikki Hebrew، السطر 5378]؛ כזית `k'záyit`، adv، «little, small amount, small portion» [Kaikki Hebrew، السطر 7722]
@@ -2441,14 +3465,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:15529:en-הר_הזיתים-he-name-vpouSdOS: الرسم=הר הזיתים، الرومنة=har hazeitím، الصنف=name، المعنى=Mount of Olives (a ridge in East Jerusalem)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5377:en-זית-he-noun-S-X7nRhq: الرسم=זית، الرومنة=záyit، الصنف=noun، المعنى=olive (species)، السلف/الخلف=Akin to Ugaritic 𐎇𐎚𐎎 (ztm), Phoenician 𐤆𐤕 (zt), Galilean Aramaic זֵיתָא (zētā), Syriac Aramaic ܙܝܬܐ (zaytā), whence Amharic ዘይት (zäyt, “olive oil”), Arabic زَيْت (zayt, “oil, olive، القرض=لا وسم آلي؛ kaikki_hebrew:5378:en-זיתים-he-noun-9CzNBK4E: الرسم=זיתים، الرومنة=zetím، الصنف=noun، المعنى=plural indefinite form of זַיִת (záyit)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7722:en-כזית-he-adv-kufHMhxi: الرسم=כזית، الرومنة=k'záyit، الصنف=adv، المعنى=little, small amount, small portion، السلف/الخلف=כְּ־ (k'-, “like”) + זַּיִת (záyit, “an olive”)، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:936a52604f20ac4d80383a00 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 1/1؛ لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:ffac50ca335ccb6b2e782159`، שכל (الرتبة 102)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: שכל `sékhel`، noun، «intelligence, mind» [Kaikki Hebrew، السطر 6562]؛ שכל `šākal`، verb، «to lose a child, to be bereaved (of children)» [Kaikki Hebrew، السطر 6563]؛ שכל `šikkēl`، verb، «to unchild, to make childless» [Kaikki Hebrew، السطر 6564]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -2456,7 +3490,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02، GUT-01)؛ root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ GUT-03، SIB-01)؛ root شجر «تفرُّع الشيء الملتئم - أو المجتمع - أي انفراجه إلى ناحيتين (أو أكثر)، مع دوام على ذلك» (licensed؛ GUT-03، LIQ-01)؛ root شكر «امتلاء جوف الشيء برخو طيب، وظهوره عليه، ولو كان رافده قليلًا» (licensed؛ LIQ-01)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ GUT-01)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تج «العمل طلبًا للأجر» (licensed؛ GUT-03، SIB-05)؛ nucleus تق «هوّي الشيء إلى العمق: كالهوّي إلى الأسفل» (licensed؛ SIB-05)؛ nucleus تل «التكديس والاتباع» (licensed؛ SIB-05)؛ nucleus ثج «غزارة المائع وتجمعه» (licensed؛ DENT-02، GUT-03)
 - مسارُ الصوت: root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02، GUT-01)؛ root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ GUT-03، SIB-01)؛ root شجر «تفرُّع الشيء الملتئم - أو المجتمع - أي انفراجه إلى ناحيتين (أو أكثر)، مع دوام على ذلك» (licensed؛ GUT-03، LIQ-01)؛ root شكر «امتلاء جوف الشيء برخو طيب، وظهوره عليه، ولو كان رافده قليلًا» (licensed؛ LIQ-01)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ GUT-01)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ مباشر)؛ nucleus تج «العمل طلبًا للأجر» (licensed؛ GUT-03، SIB-05)؛ nucleus تق «هوّي الشيء إلى العمق: كالهوّي إلى الأسفل» (licensed؛ SIB-05)؛ nucleus تل «التكديس والاتباع» (licensed؛ SIB-05)؛ nucleus ثج «غزارة المائع وتجمعه» (licensed؛ DENT-02، GUT-03)
 - المعنى من قاموس الفرع: שכל `sékhel`، noun، «intelligence, mind» [Kaikki Hebrew، السطر 6562]؛ שכל `šākal`، verb، «to lose a child, to be bereaved (of children)» [Kaikki Hebrew، السطر 6563]؛ שכל `šikkēl`، verb، «to unchild, to make childless» [Kaikki Hebrew، السطر 6564]
@@ -2465,14 +3499,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:6562:en-שכל-he-noun-q52J8Ah2: الرسم=שכל، الرومنة=sékhel، الصنف=noun، المعنى=intelligence, mind، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6563:en-שכל-he-verb-itVhxJk3: الرسم=שכל، الرومنة=šākal، الصنف=verb، المعنى=to lose a child, to be bereaved (of children)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6564:en-שכל-he-verb-jXFUSQFF: الرسم=שכל، الرومنة=šikkēl، الصنف=verb، المعنى=to unchild, to make childless، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:ffac50ca335ccb6b2e782159 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:29f688c93e2621e1241ba13d`، גמילות חסדים (الرتبة 103)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: חסדי `khasdéi`، noun، «plural construct state form of חֶסֶד» [Kaikki Hebrew، السطر 11814]؛ חסדים `khasadím`، noun، «plural indefinite form of חֶסֶד» [Kaikki Hebrew، السطر 11815]؛ המתת חסד `hamatát khésed`، noun، «euthanasia» [Kaikki Hebrew، السطر 6293]؛ גמילות חסדים `Gemilut Ḥasadim`، noun، «acts of lovingkindness; wider than charity.» [Kaikki Hebrew، السطر 6490]؛ חסד `khésed`، noun، «loving kindness, benevolence, goodness» [Kaikki Hebrew، السطر 8527]
 - أقدمُ صورةٍ مستعادة: From הֲמָתַת (hamatát, “putting to death of”) + חֶסֶד (khésed, “grace, charity, mercy”).
@@ -2480,7 +3524,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حسد «شعور حاد يحتبس في جوف الحاسد فيكره وجود النعمة» (licensed؛ DENT-06)؛ root حسد «شعور حاد يحتبس في جوف الحاسد فيكره وجود النعمة» (licensed؛ SIB-02)؛ root حسد «شعور حاد يحتبس في جوف الحاسد فيكره وجود النعمة» (licensed؛ مباشر)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ DENT-06، SIB-06)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ DENT-06)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ SIB-02)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ SIB-06)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)
 - مسارُ الصوت: root حسد «شعور حاد يحتبس في جوف الحاسد فيكره وجود النعمة» (licensed؛ DENT-06)؛ root حسد «شعور حاد يحتبس في جوف الحاسد فيكره وجود النعمة» (licensed؛ SIB-02)؛ root حسد «شعور حاد يحتبس في جوف الحاسد فيكره وجود النعمة» (licensed؛ مباشر)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ DENT-06، SIB-06)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ DENT-06)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ SIB-02)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ SIB-06)؛ root حصد «جز النبات (ونحوه من الممتد) بعد جفافه، واكتمال حاله» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)
 - المعنى من قاموس الفرع: חסדי `khasdéi`، noun، «plural construct state form of חֶסֶד» [Kaikki Hebrew، السطر 11814]؛ חסדים `khasadím`، noun، «plural indefinite form of חֶסֶד» [Kaikki Hebrew، السطر 11815]؛ המתת חסד `hamatát khésed`، noun، «euthanasia» [Kaikki Hebrew، السطر 6293]؛ גמילות חסדים `Gemilut Ḥasadim`، noun، «acts of lovingkindness; wider than charity.» [Kaikki Hebrew، السطر 6490]؛ חסד `khésed`، noun، «loving kindness, benevolence, goodness» [Kaikki Hebrew، السطر 8527]
@@ -2489,14 +3533,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11814:en-חסדי-he-noun-~~xpQMSa: الرسم=חסדי، الرومنة=khasdéi، الصنف=noun، المعنى=plural construct state form of חֶסֶד، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:11815:en-חסדים-he-noun-P1~IH--F: الرسم=חסדים، الرومنة=khasadím، الصنف=noun، المعنى=plural indefinite form of חֶסֶד، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:6293:en-המתת_חסד-he-noun-shAcW8gP: الرسم=המתת חסד، الرومنة=hamatát khésed، الصنف=noun، المعنى=euthanasia، السلف/الخلف=From הֲמָתַת (hamatát, “putting to death of”) + חֶסֶד (khésed, “grace, charity, mercy”).، القرض=لا وسم آلي؛ kaikki_hebrew:6490:en-גמילות_חסדים-he-noun-yaT2U01-: الرسم=גמילות חסדים، الرومنة=Gemilut Ḥasadim، الصنف=noun، المعنى=acts of lovingkindness; wider than charity.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8527:en-חסד-he-noun-a9whk7-Q: الرسم=חסד، الرومنة=khésed، الصنف=noun، المعنى=loving kindness, benevolence, goodness، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:29f688c93e2621e1241ba13d -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:b3b64907c56684d7e8c6ff90`، כוס (الرتبة 104)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כוס `kos`، noun، «little owl (a species of small European owl, Athene noctua)» [Kaikki Hebrew، السطر 2240]؛ כוס `kus`، noun، «A pussy (vagina).» [Kaikki Hebrew، السطر 2241]؛ כוץ `غير منشورة`، adj، «annoying person» [Kaikki Hebrew، السطر 3061]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *kôs (“owl”), which has been cited as a possible source for the name of the Greek island Κῶς (Kôs).؛ From Arabic كُس (kus), from Persian کس (kos, “cunt”).
@@ -2504,7 +3558,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جوز «عبور أو نفاذ من طرف إلى طرف» (licensed؛ GUT-03، LAB-06، SIB-03)؛ root جوز «عبور أو نفاذ من طرف إلى طرف» (licensed؛ GUT-03، SIB-03)؛ root جوس «تخلل واختراق بحدة لشيء» (licensed؛ GUT-03، LAB-06، SIB-02)؛ root جوس «تخلل واختراق بحدة لشيء» (licensed؛ GUT-03، LAB-06)؛ root جوس «تخلل واختراق بحدة لشيء» (licensed؛ GUT-03، SIB-02)؛ root جوس «تخلل واختراق بحدة لشيء» (licensed؛ GUT-03)؛ root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (manual-condition؛ GLD-01، SIB-06)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (licensed؛ LAB-05)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ GUT-01، LAB-06)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ GUT-01)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ LAB-06، SIB-02)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ LAB-06)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ SIB-02)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-05)؛ nucleus بس «الجفاف واليبوسة» (licensed؛ LAB-05)؛ nucleus بص «النفاذ والإدراك» (licensed؛ LAB-05، SIB-06)؛ nucleus بص «النفاذ والإدراك» (licensed؛ LAB-05)
 - مسارُ الصوت: root جوز «عبور أو نفاذ من طرف إلى طرف» (licensed؛ GUT-03، LAB-06، SIB-03)؛ root جوز «عبور أو نفاذ من طرف إلى طرف» (licensed؛ GUT-03، SIB-03)؛ root جوس «تخلل واختراق بحدة لشيء» (licensed؛ GUT-03، LAB-06، SIB-02)؛ root جوس «تخلل واختراق بحدة لشيء» (licensed؛ GUT-03، LAB-06)؛ root جوس «تخلل واختراق بحدة لشيء» (licensed؛ GUT-03، SIB-02)؛ root جوس «تخلل واختراق بحدة لشيء» (licensed؛ GUT-03)؛ root صيص «صلابة ظاهر الشيء مع فراغ باطنه» (manual-condition؛ GLD-01، SIB-06)؛ root قبس «تحصيل مباشر لمادة حادة من أصل لها» (licensed؛ LAB-05)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ GUT-01، LAB-06)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ GUT-01)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ LAB-06، SIB-02)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ LAB-06)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ SIB-02)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ مباشر)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-05)؛ nucleus بس «الجفاف واليبوسة» (licensed؛ LAB-05)؛ nucleus بص «النفاذ والإدراك» (licensed؛ LAB-05، SIB-06)؛ nucleus بص «النفاذ والإدراك» (licensed؛ LAB-05)
 - المعنى من قاموس الفرع: כוס `kos`، noun، «little owl (a species of small European owl, Athene noctua)» [Kaikki Hebrew، السطر 2240]؛ כוס `kus`، noun، «A pussy (vagina).» [Kaikki Hebrew، السطر 2241]؛ כוץ `غير منشورة`، adj، «annoying person» [Kaikki Hebrew، السطر 3061]
@@ -2513,14 +3567,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2240:en-כוס-he-noun-6tN1NPHv: الرسم=כוס، الرومنة=kos، الصنف=noun، المعنى=little owl (a species of small European owl, Athene noctua)، السلف/الخلف=From Proto-Semitic *kôs (“owl”), which has been cited as a possible source for the name of the Greek island Κῶς (Kôs).، القرض=لا وسم آلي؛ kaikki_hebrew:2241:en-כוס-he-noun-7TmQa4ZB: الرسم=כוס، الرومنة=kus، الصنف=noun، المعنى=A pussy (vagina).، السلف/الخلف=From Arabic كُس (kus), from Persian کس (kos, “cunt”).، القرض=لا وسم آلي؛ kaikki_hebrew:3061:en-כוץ-he-adj-U3QsRwuF: الرسم=כוץ، الرومنة=غير منشورة، الصنف=adj، المعنى=annoying person، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:b3b64907c56684d7e8c6ff90 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:39579889d2003170a4455346`، ב־ט־ל (الرتبة 105)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=בטל في البطلان والتوقف عن الوجود وحده؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ב־ט־ל `b-ṭ-l`، root، «Related to ceasing, cancelling, being idle.» [Kaikki Hebrew، السطر 14035]؛ בטל `batál`، verb، «to cease to exist» [Kaikki Hebrew، السطر 3023]؛ בטל `batél`، adv، «idly, aimlessly, purposelessly» [Kaikki Hebrew، السطر 3025]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *baṭal-.؛ The verb “to be idle” is inherited from Proto-Semitic *baṭal-.؛ The verb “to be idle” is inherited from Proto-Semitic *baṭal-.
@@ -2528,7 +3592,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ LIQ-01)؛ root بتل «تميُّز الشيء - أو انفصاله - عن أصله جامعًا لما يجعله وافرًا قائمًا بذاته» (licensed؛ DENT-05)؛ root بتل «تميُّز الشيء - أو انفصاله - عن أصله جامعًا لما يجعله وافرًا قائمًا بذاته» (licensed؛ مباشر)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ LIQ-01)؛ root بطل «اختزان قوة عظيمة» (licensed؛ DENT-05)؛ root بطل «اختزان قوة عظيمة» (licensed؛ مباشر)؛ root فتل «التواء الشيء على ذاته، أو على ما فيه؛ ممتدًا متميزًا عن غيره» (licensed؛ LAB-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `بطل` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بت «القطع والانفصال» (licensed؛ DENT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ مباشر)؛ nucleus بث «النشر والتفريق» (scope-gap؛ DENT-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)
 - مسارُ الصوت: root بتر «قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا» (licensed؛ LIQ-01)؛ root بتل «تميُّز الشيء - أو انفصاله - عن أصله جامعًا لما يجعله وافرًا قائمًا بذاته» (licensed؛ DENT-05)؛ root بتل «تميُّز الشيء - أو انفصاله - عن أصله جامعًا لما يجعله وافرًا قائمًا بذاته» (licensed؛ مباشر)؛ root بطر «تجمع مادة فاسدة في الباطن أو الأثناء شأنها أن يُشَقَّ عنها» (licensed؛ LIQ-01)؛ root بطل «اختزان قوة عظيمة» (licensed؛ DENT-05)؛ root بطل «اختزان قوة عظيمة» (licensed؛ مباشر)؛ root فتل «التواء الشيء على ذاته، أو على ما فيه؛ ممتدًا متميزًا عن غيره» (licensed؛ LAB-02)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)؛ nucleus بت «القطع والانفصال» (licensed؛ مباشر)؛ nucleus بث «النشر والتفريق» (scope-gap؛ DENT-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)
 - المعنى من قاموس الفرع: ב־ט־ל `b-ṭ-l`، root، «Related to ceasing, cancelling, being idle.» [Kaikki Hebrew، السطر 14035]؛ בטל `batál`، verb، «to cease to exist» [Kaikki Hebrew، السطر 3023]؛ בטל `batél`، adv، «idly, aimlessly, purposelessly» [Kaikki Hebrew، السطر 3025]
@@ -2537,14 +3601,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:14035:en-ב־ט־ל-he-root-MvuXpCAb: الرسم=ב־ט־ל، الرومنة=b-ṭ-l، الصنف=root، المعنى=Related to ceasing, cancelling, being idle.، السلف/الخلف=From Proto-Semitic *baṭal-.، القرض=لا وسم آلي؛ kaikki_hebrew:3023:en-בטל-he-verb-YSYO65-T: الرسم=בטל، الرومنة=batál، الصنف=verb، المعنى=to cease to exist، السلف/الخلف=The verb “to be idle” is inherited from Proto-Semitic *baṭal-.، القرض=لا وسم آلي؛ kaikki_hebrew:3025:en-בטל-he-adv-CyDQpvB~: الرسم=בטל، الرومنة=batél، الصنف=adv، المعنى=idly, aimlessly, purposelessly، السلف/الخلف=The verb “to be idle” is inherited from Proto-Semitic *baṭal-.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ בטל في البطلان والتوقف عن الوجود وحده؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:39579889d2003170a4455346 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `بطل`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `بطل`، `باطل`.
+  - سند الفرع المنشور: From Proto-Semitic *baṭal-. | The verb “to be idle” is inherited from Proto-Semitic *baṭal-. | The verb “to be idle” is inherited from Proto-Semitic *baṭal-.
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:d7756f7631dd8cda1493dbb2`، כ־ת־ב (الرتبة 106)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=INTRA-HOUSE-TRANSFER؛ يتطلب=معنى الكتابة موصوف في المصدر بأنه انتشار دلالي داخل البيت؛ يحال إلى زوج المانح؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כ־ת־ב `k-t-b`، root، «Forming words pertaining to writing.» [Kaikki Hebrew، السطر 6481]؛ כתב `k'táv`، noun، «writing, script, handwriting» [Kaikki Hebrew، السطر 90]؛ כתב `katáv`، noun، «a newspaper correspondent» [Kaikki Hebrew، السطر 91]
 - أقدمُ صورةٍ مستعادة: From Proto-West Semitic *katab- "to prick, cut, scratch, scrape"; the meaning "write" is secondary and spread through diffusion rather than inheritance. Cognate with Arabic root ك ؛ Cognate with Arabic كِتَاب (kitāb).؛ Occupational noun from the root כ־ת־ב.
@@ -2552,7 +3630,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root قطف «قطع الطرف (الدقيق) للشيء أو ما هو في طرفه» (licensed؛ LAB-02)؛ root قطم «تناول الشيء بحرص شديد عليه وتلهف» (licensed؛ LAB-04)؛ root كتب «إلصاق بدقة وقوة» (licensed؛ DENT-05)؛ root كتب «إلصاق بدقة وقوة» (licensed؛ GUT-01)؛ root كتب «إلصاق بدقة وقوة» (licensed؛ مباشر)؛ root كتم «منع تسرّب ما يمتلئ به باطن الشيء بسد منافذ خروجه» (licensed؛ LAB-04)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (scope-gap؛ DENT-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ DENT-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ مباشر)؛ nucleus تف «الوسخ على الجلد أو نحو ذلك» (licensed؛ LAB-02)؛ nucleus تم «التميز الشيء مستقلا» (licensed؛ LAB-04)
 - مسارُ الصوت: root قطف «قطع الطرف (الدقيق) للشيء أو ما هو في طرفه» (licensed؛ LAB-02)؛ root قطم «تناول الشيء بحرص شديد عليه وتلهف» (licensed؛ LAB-04)؛ root كتب «إلصاق بدقة وقوة» (licensed؛ DENT-05)؛ root كتب «إلصاق بدقة وقوة» (licensed؛ GUT-01)؛ root كتب «إلصاق بدقة وقوة» (licensed؛ مباشر)؛ root كتم «منع تسرّب ما يمتلئ به باطن الشيء بسد منافذ خروجه» (licensed؛ LAB-04)؛ root كثب «تجمُّع ما مادته أجرام دقيقة متسيبة في كومة أو تجمع محدود» (scope-gap؛ DENT-01)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ DENT-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ مباشر)؛ nucleus تف «الوسخ على الجلد أو نحو ذلك» (licensed؛ LAB-02)؛ nucleus تم «التميز الشيء مستقلا» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: כ־ת־ב `k-t-b`، root، «Forming words pertaining to writing.» [Kaikki Hebrew، السطر 6481]؛ כתב `k'táv`، noun، «writing, script, handwriting» [Kaikki Hebrew، السطر 90]؛ כתב `katáv`، noun، «a newspaper correspondent» [Kaikki Hebrew، السطر 91]
@@ -2561,14 +3639,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:6481:en-כ־ת־ב-he-root-dnTcaowm: الرسم=כ־ת־ב، الرومنة=k-t-b، الصنف=root، المعنى=Forming words pertaining to writing.، السلف/الخلف=From Proto-West Semitic *katab- "to prick, cut, scratch, scrape"; the meaning "write" is secondary and spread through diffusion rather than inheritance. Cognate with Arabic root ك ، القرض=لا وسم آلي؛ kaikki_hebrew:90:en-כתב-he-noun-R6OqAZ1p: الرسم=כתב، الرومنة=k'táv، الصنف=noun، المعنى=writing, script, handwriting، السلف/الخلف=Cognate with Arabic كِتَاب (kitāb).، القرض=لا وسم آلي؛ kaikki_hebrew:91:en-כתב-he-noun-t6nhj3Xv: الرسم=כתב، الرومنة=katáv، الصنف=noun، المعنى=a newspaper correspondent، السلف/الخلف=Occupational noun from the root כ־ת־ב.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: INTRA-HOUSE-TRANSFER.
+- الحكم (استكشاف): غير صادر؛ معنى الكتابة موصوف في المصدر بأنه انتشار دلالي داخل البيت؛ يحال إلى زوج المانح.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:d7756f7631dd8cda1493dbb2 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `INTRA-HOUSE-TRANSFER`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:ae481eb251c668760bd496c8`، ב־כ־ר (الرتبة 107)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ב־כ־ר `b-k-r`، root، «Related to first ripening, firstborns, seniority.» [Kaikki Hebrew، السطر 13950]؛ בכר `békher`، noun، «A young camel.» [Kaikki Hebrew، السطر 7504]؛ בכר `békher`، name، «a male given name, Becher» [Kaikki Hebrew، السطر 7505]
 - أقدمُ صورةٍ مستعادة: Compare Arabic ب ك ر (b k r).
@@ -2576,7 +3664,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ SIB-06)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LIQ-01، SIB-06)؛ root بقر «انفتاح جوف الشيء عما فيه باتساع» (licensed؛ GUT-01)؛ root بقر «انفتاح جوف الشيء عما فيه باتساع» (licensed؛ مباشر)؛ root بقل «نبات (أو شيء ينبت) ضعيفًا في ظاهر شيء» (licensed؛ LIQ-01)؛ root بكر «صدور شيء من أصله لأول مرة قبل ما يصدر بعده من نفس الأصل من جنسه» (licensed؛ GUT-01)؛ root بكر «صدور شيء من أصله لأول مرة قبل ما يصدر بعده من نفس الأصل من جنسه» (licensed؛ مباشر)؛ root فجر «انبثاق المائع المحتبس باندفاع وغزارة فاتحًا فُرْجَةً في محبسه» (licensed؛ GUT-03، LAB-02)؛ root فقر «فراغ نافذ في العمق يسترسل امتدادًا، أو دوامًا» (licensed؛ LAB-02)؛ root فكر «ترتيب المعاني الذهنية (الجزئية) وتقليبها للوصول إلى ما تؤدي إليه» (licensed؛ LAB-02)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ LAB-04، SIB-06)؛ root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ LAB-04)؛ root وقر «تجمع بثقل وتمكن في أثناء بَدَن أو حيّز» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 8/8؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بص «النفاذ والإدراك» (licensed؛ SIB-06)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ GUT-01)
 - مسارُ الصوت: root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ SIB-06)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LIQ-01، SIB-06)؛ root بقر «انفتاح جوف الشيء عما فيه باتساع» (licensed؛ GUT-01)؛ root بقر «انفتاح جوف الشيء عما فيه باتساع» (licensed؛ مباشر)؛ root بقل «نبات (أو شيء ينبت) ضعيفًا في ظاهر شيء» (licensed؛ LIQ-01)؛ root بكر «صدور شيء من أصله لأول مرة قبل ما يصدر بعده من نفس الأصل من جنسه» (licensed؛ GUT-01)؛ root بكر «صدور شيء من أصله لأول مرة قبل ما يصدر بعده من نفس الأصل من جنسه» (licensed؛ مباشر)؛ root فجر «انبثاق المائع المحتبس باندفاع وغزارة فاتحًا فُرْجَةً في محبسه» (licensed؛ GUT-03، LAB-02)؛ root فقر «فراغ نافذ في العمق يسترسل امتدادًا، أو دوامًا» (licensed؛ LAB-02)؛ root فكر «ترتيب المعاني الذهنية (الجزئية) وتقليبها للوصول إلى ما تؤدي إليه» (licensed؛ LAB-02)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ LAB-04، SIB-06)؛ root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ LAB-04)؛ root وقر «تجمع بثقل وتمكن في أثناء بَدَن أو حيّز» (licensed؛ LAB-05)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بص «النفاذ والإدراك» (licensed؛ SIB-06)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ GUT-01)
 - المعنى من قاموس الفرع: ב־כ־ר `b-k-r`، root، «Related to first ripening, firstborns, seniority.» [Kaikki Hebrew، السطر 13950]؛ בכר `békher`، noun، «A young camel.» [Kaikki Hebrew، السطر 7504]؛ בכר `békher`، name، «a male given name, Becher» [Kaikki Hebrew، السطر 7505]
@@ -2585,14 +3673,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13950:en-ב־כ־ר-he-root-vQbHgI9Z: الرسم=ב־כ־ר، الرومنة=b-k-r، الصنف=root، المعنى=Related to first ripening, firstborns, seniority.، السلف/الخلف=Compare Arabic ب ك ر (b k r).، القرض=لا وسم آلي؛ kaikki_hebrew:7504:en-בכר-he-noun-bew6T4jS: الرسم=בכר، الرومنة=békher، الصنف=noun، المعنى=A young camel.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7505:en-בכר-he-name-UjXapYYy: الرسم=בכר، الرومنة=békher، الصنف=name، المعنى=a male given name, Becher، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:ae481eb251c668760bd496c8 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: בכר، الرتبة 107.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:5c5eea2ceb6de833908e33f1`، ארוחת ערב (الرتبة 108)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ארוחת ערב `arukhát érev`، noun، «dinner (an evening meal)» [Kaikki Hebrew، السطر 2184]؛ ערב חג המולד `érev khág hamolád`، name، «Christmas Eve (the evening before Christmas Day)» [Kaikki Hebrew، السطر 2700]؛ ערב `érev`، noun، «evening, night» [Kaikki Hebrew، السطر 506]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -2600,7 +3698,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عرب «نشاط وانطلاق بحدة ذاتية للخلوص مما يحبس» (licensed؛ مباشر)؛ root عرف «تتابع - أو امتداد - في أعلى الشيء لما يميزه، أو يدل عليه» (licensed؛ LAB-02)؛ root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LAB-04)؛ root عرو «إمساك - أو امتساك - للظاهر بتمكن» (licensed؛ LAB-05)؛ root عنب «صفاء الممتلئ المستدير مع امتداد ما» (licensed؛ LIQ-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)
 - مسارُ الصوت: root عرب «نشاط وانطلاق بحدة ذاتية للخلوص مما يحبس» (licensed؛ مباشر)؛ root عرف «تتابع - أو امتداد - في أعلى الشيء لما يميزه، أو يدل عليه» (licensed؛ LAB-02)؛ root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LAB-04)؛ root عرو «إمساك - أو امتساك - للظاهر بتمكن» (licensed؛ LAB-05)؛ root عنب «صفاء الممتلئ المستدير مع امتداد ما» (licensed؛ LIQ-03)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ LAB-05)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ مباشر)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-04)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)
 - المعنى من قاموس الفرع: ארוחת ערב `arukhát érev`، noun، «dinner (an evening meal)» [Kaikki Hebrew، السطر 2184]؛ ערב חג המולד `érev khág hamolád`، name، «Christmas Eve (the evening before Christmas Day)» [Kaikki Hebrew، السطر 2700]؛ ערב `érev`، noun، «evening, night» [Kaikki Hebrew، السطر 506]
@@ -2609,14 +3707,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2184:en-ארוחת_ערב-he-noun-Bjmx0rH~: الرسم=ארוחת ערב، الرومنة=arukhát érev، الصنف=noun، المعنى=dinner (an evening meal)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2700:en-ערב_חג_המולד-he-name-N2L5CY2Y: الرسم=ערב חג המולד، الرومنة=érev khág hamolád، الصنف=name، المعنى=Christmas Eve (the evening before Christmas Day)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:506:en-ערב-he-noun-qWLKbI3Q: الرسم=ערב، الرومنة=érev، الصنف=noun، المعنى=evening, night، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:5c5eea2ceb6de833908e33f1 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:d6bd88569120e5c857cd27a0`، כ־פ־ל (الرتبة 109)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כ־פ־ל `k-p-l`، root، «Related to doubling, multiplication.» [Kaikki Hebrew، السطر 16925]؛ כפל `kéfel`، noun، «multiplication» [Kaikki Hebrew، السطر 422]؛ כפל `kafál`، verb، «To double, fold double, double over.» [Kaikki Hebrew، السطر 423]
 - أقدمُ صورةٍ مستعادة: From the root כ־פ־ל (k-p-l).؛ From the root כ־פ־ל (k-p-l).
@@ -2624,7 +3732,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ GUT-03، LAB-01، LIQ-01)؛ root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ GUT-03، LIQ-01)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03، LAB-01)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03، LAB-02)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ GUT-03، LAB-04)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، LIQ-01، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LIQ-01، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LIQ-01، SIB-06)؛ root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LAB-01، LIQ-01)؛ root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LIQ-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ GUT-01، LAB-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ GUT-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-02)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ مباشر)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ GUT-01)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ LAB-02)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ مباشر)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ LAB-04)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-05)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ LAB-01، LIQ-01)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ LIQ-01)؛ root كفر «تغطية تامة كثيفة لا يظهر معها شيء من المغطى» (licensed؛ LIQ-01)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ GUT-01)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ LAB-02)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ مباشر)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ LAB-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 12/12؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LAB-01، LIQ-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-01)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-02)
 - مسارُ الصوت: root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ GUT-03، LAB-01، LIQ-01)؛ root جبر «اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا» (licensed؛ GUT-03، LIQ-01)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03، LAB-01)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03، LAB-02)؛ root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03)؛ root جمل «عظم الجرم مع تمام وتجانس حال بحسبه فيهما» (licensed؛ GUT-03، LAB-04)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LAB-01، LIQ-01، SIB-06)؛ root صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته» (licensed؛ LIQ-01، SIB-06)؛ root صفر «خلو باطن الشيء» (licensed؛ LIQ-01، SIB-06)؛ root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LAB-01، LIQ-01)؛ root قبر «تجوف دائم أو ممتد يخفى فيه ما يدخُله» (licensed؛ LIQ-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ GUT-01، LAB-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ GUT-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-01)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-02)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ مباشر)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ GUT-01)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ LAB-02)؛ root قفل «حَبْسٌ بشدة وجفاف لما هو مجتمع» (licensed؛ مباشر)؛ root قمل «شيء ممتص يَعْلَق» (licensed؛ LAB-04)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-05)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ LAB-01، LIQ-01)؛ root كبر «نمو حجم الشيء أو زيادته» (licensed؛ LIQ-01)؛ root كفر «تغطية تامة كثيفة لا يظهر معها شيء من المغطى» (licensed؛ LIQ-01)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ GUT-01)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ LAB-02)؛ root كفل «الادعام على الشطر الخلفي من الشيء» (licensed؛ مباشر)؛ root كمل «التركيب يعبر عن تمام الشيء تجمعًا (من كم) ودوامًا وطولًا (من اللام)» (licensed؛ LAB-04)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-01، LIQ-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LIQ-01)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-01)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LAB-02)
 - المعنى من قاموس الفرع: כ־פ־ל `k-p-l`، root، «Related to doubling, multiplication.» [Kaikki Hebrew، السطر 16925]؛ כפל `kéfel`، noun، «multiplication» [Kaikki Hebrew، السطر 422]؛ כפל `kafál`، verb، «To double, fold double, double over.» [Kaikki Hebrew، السطر 423]
@@ -2633,14 +3741,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16925:en-כ־פ־ל-he-root-JSocTSBa: الرسم=כ־פ־ל، الرومنة=k-p-l، الصنف=root، المعنى=Related to doubling, multiplication.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:422:en-כפל-he-noun-a4NwVj0n: الرسم=כפל، الرومنة=kéfel، الصنف=noun، المعنى=multiplication، السلف/الخلف=From the root כ־פ־ל (k-p-l).، القرض=لا وسم آلي؛ kaikki_hebrew:423:en-כפל-he-verb-cDFxnrCO: الرسم=כפל، الرومنة=kafál، الصنف=verb، المعنى=To double, fold double, double over.، السلف/الخلف=From the root כ־פ־ל (k-p-l).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:d6bd88569120e5c857cd27a0 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 12/12؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:48387d41ff5f98aaad40fef2`، קצר (الرتبة 110)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=קצר في القصر وقلة الطول وحده، لا الحصاد؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: קצר `katsár`، adj، «short, having a short length or duration» [Kaikki Hebrew، السطر 6909]؛ קצר `katsár`، verb، «to be short, become shorter» [Kaikki Hebrew، السطر 6910]؛ קצר `katsár`، verb، «to reap, harvest» [Kaikki Hebrew، السطر 6911]
 - أقدمُ صورةٍ مستعادة: Compare Arabic قَصِير (qaṣīr, “short”)؛ Compare Arabic قَصِير (qaṣīr, “short”)؛ Compare Arabic قَصِير (qaṣīr, “short”)
@@ -2648,7 +3766,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root قسر «شدّةٌ مع عِظَم يلزمها الغَلَبُ والقهر» (licensed؛ SIB-02)؛ root قسر «شدّةٌ مع عِظَم يلزمها الغَلَبُ والقهر» (licensed؛ مباشر)؛ root قصر «حبس عن الانتشار طولًا أو عرضًا» (licensed؛ SIB-02)؛ root قصر «حبس عن الانتشار طولًا أو عرضًا» (licensed؛ SIB-06)؛ root قصر «حبس عن الانتشار طولًا أو عرضًا» (licensed؛ مباشر)؛ root كثر «زيادة عدد أفراد الشيء (وهي ضد القلة)» (licensed؛ DENT-02، GUT-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `قصر` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثن «التبطن والكثرة في الداخل» (licensed؛ DENT-02، LIQ-03)؛ nucleus زر «النفاذ بدقة مع إمساك ما» (licensed؛ SIB-03)
 - مسارُ الصوت: root قسر «شدّةٌ مع عِظَم يلزمها الغَلَبُ والقهر» (licensed؛ SIB-02)؛ root قسر «شدّةٌ مع عِظَم يلزمها الغَلَبُ والقهر» (licensed؛ مباشر)؛ root قصر «حبس عن الانتشار طولًا أو عرضًا» (licensed؛ SIB-02)؛ root قصر «حبس عن الانتشار طولًا أو عرضًا» (licensed؛ SIB-06)؛ root قصر «حبس عن الانتشار طولًا أو عرضًا» (licensed؛ مباشر)؛ root كثر «زيادة عدد أفراد الشيء (وهي ضد القلة)» (licensed؛ DENT-02، GUT-01)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثن «التبطن والكثرة في الداخل» (licensed؛ DENT-02، LIQ-03)؛ nucleus زر «النفاذ بدقة مع إمساك ما» (licensed؛ SIB-03)
 - المعنى من قاموس الفرع: קצר `katsár`، adj، «short, having a short length or duration» [Kaikki Hebrew، السطر 6909]؛ קצר `katsár`، verb، «to be short, become shorter» [Kaikki Hebrew، السطر 6910]؛ קצר `katsár`، verb، «to reap, harvest» [Kaikki Hebrew، السطر 6911]
@@ -2657,14 +3775,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:6909:en-קצר-he-adj-FaAfNoRT: الرسم=קצר، الرومنة=katsár، الصنف=adj، المعنى=short, having a short length or duration، السلف/الخلف=Compare Arabic قَصِير (qaṣīr, “short”)، القرض=لا وسم آلي؛ kaikki_hebrew:6910:en-קצר-he-verb-M3Ey0l1s: الرسم=קצר، الرومنة=katsár، الصنف=verb، المعنى=to be short, become shorter، السلف/الخلف=Compare Arabic قَصِير (qaṣīr, “short”)، القرض=لا وسم آلي؛ kaikki_hebrew:6911:en-קצר-he-verb-b2dpeEUu: الرسم=קצר، الرومنة=katsár، الصنف=verb، المعنى=to reap, harvest، السلف/الخلف=Compare Arabic قَصِير (qaṣīr, “short”)، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ קצר في القصر وقلة الطول وحده، لا الحصاد؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:48387d41ff5f98aaad40fef2 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `قصر`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `قصر`، `قصير`.
+  - سند الفرع المنشور: Compare Arabic قَصِير (qaṣīr, “short”) | Compare Arabic قَصِير (qaṣīr, “short”) | Compare Arabic قَصِير (qaṣīr, “short”)
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:fd9d3fb3fd155c96526bfee5`، פסק (الرتبة 111)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פסק `pasák`، verb، «to cease, to stop; to desist» [Kaikki Hebrew، السطر 2464]؛ פסק `p'sák`، noun، «a ruling, a decision» [Kaikki Hebrew، السطر 2467]؛ פסק `pasek`، noun، «A biblical cantillation symbol.» [Kaikki Hebrew، السطر 2468]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -2672,7 +3804,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ LAB-01، SIB-02)؛ root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ LAB-01)؛ root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ LAB-02)؛ root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ SIB-02)؛ root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ مباشر)؛ root فسق «خروج الشيء عن غلافه (حَدِّه) أو حيّزه لحدّة أو فساد» (licensed؛ LAB-02)؛ root فسق «خروج الشيء عن غلافه (حَدِّه) أو حيّزه لحدّة أو فساد» (licensed؛ SIB-02)؛ root فسق «خروج الشيء عن غلافه (حَدِّه) أو حيّزه لحدّة أو فساد» (licensed؛ مباشر)؛ root وثق «بقاء الشيء إلى الأمد المرجو لكثافته واشتداد بعضه إلى بعض» (licensed؛ DENT-02، LAB-05)؛ root وسق «حمل الشيء كمًّا عظيمًا بحوز وثيق» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-02)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02)؛ nucleus بز «النفاذ من مضيق» (licensed؛ LAB-01، SIB-03)
 - مسارُ الصوت: root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ LAB-01، SIB-02)؛ root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ LAB-01)؛ root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ LAB-02)؛ root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ SIB-02)؛ root بسق «اندفاع الشيء نافذًا أو ممتدًا من عمقه بأقوى من المعتاد» (licensed؛ مباشر)؛ root فسق «خروج الشيء عن غلافه (حَدِّه) أو حيّزه لحدّة أو فساد» (licensed؛ LAB-02)؛ root فسق «خروج الشيء عن غلافه (حَدِّه) أو حيّزه لحدّة أو فساد» (licensed؛ SIB-02)؛ root فسق «خروج الشيء عن غلافه (حَدِّه) أو حيّزه لحدّة أو فساد» (licensed؛ مباشر)؛ root وثق «بقاء الشيء إلى الأمد المرجو لكثافته واشتداد بعضه إلى بعض» (licensed؛ DENT-02، LAB-05)؛ root وسق «حمل الشيء كمًّا عظيمًا بحوز وثيق» (licensed؛ LAB-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-02)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02)؛ nucleus بز «النفاذ من مضيق» (licensed؛ LAB-01، SIB-03)
 - المعنى من قاموس الفرع: פסק `pasák`، verb، «to cease, to stop; to desist» [Kaikki Hebrew، السطر 2464]؛ פסק `p'sák`، noun، «a ruling, a decision» [Kaikki Hebrew، السطر 2467]؛ פסק `pasek`، noun، «A biblical cantillation symbol.» [Kaikki Hebrew، السطر 2468]
@@ -2681,14 +3813,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2464:en-פסק-he-verb-wZpghQvf: الرسم=פסק، الرومنة=pasák، الصنف=verb، المعنى=to cease, to stop; to desist، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2467:en-פסק-he-noun-~TqD4RaL: الرسم=פסק، الرومنة=p'sák، الصنف=noun، المعنى=a ruling, a decision، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2468:en-פסק-he-noun-EJIlSFbW: الرسم=פסק، الرومنة=pasek، الصنف=noun، المعنى=A biblical cantillation symbol.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:fd9d3fb3fd155c96526bfee5 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:1714fbd861b426804961364e`، ליקק (الرتبة 112)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=לקק «لحس ولعق» وحده، لا المشتق الحديث الدال على محب الحلوى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: לקקן `lak'kán`، noun، «sweet tooth, or someone having a sweet tooth» [Kaikki Hebrew، السطر 16391]؛ לקק `likék`، verb، «defective spelling of ליקק.» [Kaikki Hebrew، السطر 4429]؛ ליקק `likék`، verb، «to lick» [Kaikki Hebrew، السطر 4578]
 - أقدمُ صورةٍ مستعادة: Formed in Modern Hebrew as לִקֵּק (likék, “to lick”) + ־ָן (-án), literally “licker”.؛ Onomatopoeic in origin, compare English lap, German schlabbern or Ancient Greek λάπτω (láptō). Cognate with Arabic لَقَّ (laqqa, “to lap”).؛ Same as לָקַק (lakák, “to lap”) in etymology and meaning. In Modern Hebrew this form is most commonly used for "licking".
@@ -2696,7 +3838,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root رقق «انبساط الشيء متسعًا قليل سَمْكِ الجرم ضعيفًا، أو رِخْوًا» (licensed؛ LIQ-01)؛ root لقق «اندفاع بامتداد مع صدم متوال» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `لقق` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus رق «الانبساط مع الرقة» (licensed؛ LIQ-01)؛ nucleus رن «مادة تغطي على الحس وتمنع النفاذ» (licensed؛ LIQ-01)؛ nucleus قر «استقرار ما شأنه التسيب في قاع عميق أو حيز» (licensed؛ LIQ-03)؛ nucleus قم «تجمع الشيء أو تضامه في كتلة قوية مع تسنم أو ارتفاع» (licensed؛ LIQ-02)
 - مسارُ الصوت: root رقق «انبساط الشيء متسعًا قليل سَمْكِ الجرم ضعيفًا، أو رِخْوًا» (licensed؛ LIQ-01)؛ root لقق «اندفاع بامتداد مع صدم متوال» (licensed؛ مباشر)؛ nucleus رق «الانبساط مع الرقة» (licensed؛ LIQ-01)؛ nucleus رن «مادة تغطي على الحس وتمنع النفاذ» (licensed؛ LIQ-01)؛ nucleus قر «استقرار ما شأنه التسيب في قاع عميق أو حيز» (licensed؛ LIQ-03)؛ nucleus قم «تجمع الشيء أو تضامه في كتلة قوية مع تسنم أو ارتفاع» (licensed؛ LIQ-02)
 - المعنى من قاموس الفرع: לקקן `lak'kán`، noun، «sweet tooth, or someone having a sweet tooth» [Kaikki Hebrew، السطر 16391]؛ לקק `likék`، verb، «defective spelling of ליקק.» [Kaikki Hebrew، السطر 4429]؛ ליקק `likék`، verb، «to lick» [Kaikki Hebrew، السطر 4578]
@@ -2705,14 +3847,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16391:en-לקקן-he-noun-gv4BuJen: الرسم=לקקן، الرومنة=lak'kán، الصنف=noun، المعنى=sweet tooth, or someone having a sweet tooth، السلف/الخلف=Formed in Modern Hebrew as לִקֵּק (likék, “to lick”) + ־ָן (-án), literally “licker”.، القرض=لا وسم آلي؛ kaikki_hebrew:4429:en-לקק-he-verb-OfTkdHf4: الرسم=לקק، الرومنة=likék، الصنف=verb، المعنى=defective spelling of ליקק.، السلف/الخلف=Onomatopoeic in origin, compare English lap, German schlabbern or Ancient Greek λάπτω (láptō). Cognate with Arabic لَقَّ (laqqa, “to lap”).، القرض=لا وسم آلي؛ kaikki_hebrew:4578:en-ליקק-he-verb-Bo0Z0qJu: الرسم=ליקק، الرومنة=likék، الصنف=verb، المعنى=to lick، السلف/الخلف=Same as לָקַק (lakák, “to lap”) in etymology and meaning. In Modern Hebrew this form is most commonly used for "licking".، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ לקק «لحس ولعق» وحده، لا المشتق الحديث الدال على محب الحلوى؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:1714fbd861b426804961364e -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `لقق`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `لق`، `لحس`.
+  - سند الفرع المنشور: Formed in Modern Hebrew as לִקֵּק (likék, “to lick”) + ־ָן (-án), literally “licker”. | Onomatopoeic in origin, compare English lap, German schlabbern or Ancient Greek λάπτω (láptō). Cognate with Arabic لَقَّ (laqqa, “to lap”). | Same as לָקַק (lakák, “to lap”) in etymology and meaning. In Modern Hebrew this form is most commonly used for "licking".
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:6345b3878b5ef2c1b1349458`، ברמות (الرتبة 113)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ברמות `b'ramót`، adv، «very» [Kaikki Hebrew، السطر 16451]؛ רמה `ramá`، noun، «highlands, high regions» [Kaikki Hebrew، السطر 9183]؛ רמת גן `ramat gan`، name، «Ramat Gan (a city in the Tel Aviv District, Israel)» [Kaikki Hebrew، السطر 9461]
 - أقدمُ صورةٍ مستعادة: From בְּ־ (b'-, “in, at”) + רָמָה (ramá, “level, height”).
@@ -2720,7 +3876,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ GUT-04، LAB-04)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-04)؛ root ربع «التئام الشيء متجمعًا متناسب الأبعاد مع عدم انتشاره» (licensed؛ GUT-04، LAB-04)؛ root رمح «الطعن من بعيد» (licensed؛ GUT-04)؛ root رمح «الطعن من بعيد» (licensed؛ مباشر)؛ root لمح «لمع سطحية لطيفة تنتشر على ظاهر الشيء وتميزه» (licensed؛ GUT-04، LIQ-01)؛ root لمح «لمع سطحية لطيفة تنتشر على ظاهر الشيء وتميزه» (licensed؛ LIQ-01)؛ root لمس «أخذ بلطف من ظاهر الشيء تهيئة لحسن استعماله» (scope-gap؛ LIQ-01، SIB-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)
 - مسارُ الصوت: root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ GUT-04، LAB-04)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-04)؛ root ربع «التئام الشيء متجمعًا متناسب الأبعاد مع عدم انتشاره» (licensed؛ GUT-04، LAB-04)؛ root رمح «الطعن من بعيد» (licensed؛ GUT-04)؛ root رمح «الطعن من بعيد» (licensed؛ مباشر)؛ root لمح «لمع سطحية لطيفة تنتشر على ظاهر الشيء وتميزه» (licensed؛ GUT-04، LIQ-01)؛ root لمح «لمع سطحية لطيفة تنتشر على ظاهر الشيء وتميزه» (licensed؛ LIQ-01)؛ root لمس «أخذ بلطف من ظاهر الشيء تهيئة لحسن استعماله» (scope-gap؛ LIQ-01، SIB-04)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ DENT-05)
 - المعنى من قاموس الفرع: ברמות `b'ramót`، adv، «very» [Kaikki Hebrew، السطر 16451]؛ רמה `ramá`، noun، «highlands, high regions» [Kaikki Hebrew، السطر 9183]؛ רמת גן `ramat gan`، name، «Ramat Gan (a city in the Tel Aviv District, Israel)» [Kaikki Hebrew، السطر 9461]
@@ -2729,14 +3885,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16451:en-ברמות-he-adv-TGpIOfg9: الرسم=ברמות، الرومنة=b'ramót، الصنف=adv، المعنى=very، السلف/الخلف=From בְּ־ (b'-, “in, at”) + רָמָה (ramá, “level, height”).، القرض=لا وسم آلي؛ kaikki_hebrew:9183:en-רמה-he-noun-qekW8dWr: الرسم=רמה، الرومنة=ramá، الصنف=noun، المعنى=highlands, high regions، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:9461:en-רמת_גן-he-name-khnkv8wB: الرسم=רמת גן، الرومنة=ramat gan، الصنف=name، المعنى=Ramat Gan (a city in the Tel Aviv District, Israel)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:6345b3878b5ef2c1b1349458 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:251b1da49abf9be13f31e027`، מ־ה־ל (الرتبة 114)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب حسم اتجاه القرض للعضو القديم قبل حكم نسب؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מהל `mahál`، verb، «to circumcise» [Kaikki Hebrew، السطر 16319]؛ מהל `mahál`، verb، «to dilute, attenuate» [Kaikki Hebrew، السطر 16320]؛ מ־ה־ל `m-h-l`، root، «Forming words pertaining to circumcision.» [Kaikki Hebrew، السطر 16321]
 - أقدمُ صورةٍ مستعادة: Possibly borrowed from Aramaic מְהַל (“to circumcise”) and related to מָל (mal).؛ Related to מ־ו־ל (m-w-l), מ־י־ל (m-y-l), מ־ל־ל (m-l-l) and possibly נ־מ־ל (n-m-l), with all of them being modifications of the biliteral root √m-l.
@@ -2744,7 +3910,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (scope-gap؛ LAB-04، SIB-04)؛ root بعل «استقلال الشيء في تحصيل ما به قوامه مائيًّا» (licensed؛ GUT-04، LAB-04)؛ root بغل «اختلاط سلالة الحي بسلالة جنس أغلظ منه؛ فيبقى أثره فيها» (licensed؛ GUT-04، LAB-04)؛ root محل «جفاف أثناء الشيء، وخلوها من اللين والبلال مع امتداد جرمه» (licensed؛ GUT-04)؛ root محل «جفاف أثناء الشيء، وخلوها من اللين والبلال مع امتداد جرمه» (licensed؛ مباشر)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ GUT-04، LIQ-02)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ LIQ-02)؛ root نسل «امتداد الشيء خارجًا - أو متسيبًا - من أصله، أو مقره، بلطف ومفارقة» (scope-gap؛ LIQ-02، SIB-04)؛ root نعل «حِفْظُ الشيء بلزوم مناسب له يقيه الخشونة والتآكل ونحوهما» (licensed؛ GUT-04، LIQ-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءل «» (licensed؛ GUT-04)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ LAB-04)
 - مسارُ الصوت: root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (scope-gap؛ LAB-04، SIB-04)؛ root بعل «استقلال الشيء في تحصيل ما به قوامه مائيًّا» (licensed؛ GUT-04، LAB-04)؛ root بغل «اختلاط سلالة الحي بسلالة جنس أغلظ منه؛ فيبقى أثره فيها» (licensed؛ GUT-04، LAB-04)؛ root محل «جفاف أثناء الشيء، وخلوها من اللين والبلال مع امتداد جرمه» (licensed؛ GUT-04)؛ root محل «جفاف أثناء الشيء، وخلوها من اللين والبلال مع امتداد جرمه» (licensed؛ مباشر)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ GUT-04، LIQ-02)؛ root نحل «قوي - أو طيب - يحوزه الباطن يُفْرَزُ - أو يبذل - إلى حوزة أخرى» (licensed؛ LIQ-02)؛ root نسل «امتداد الشيء خارجًا - أو متسيبًا - من أصله، أو مقره، بلطف ومفارقة» (scope-gap؛ LIQ-02، SIB-04)؛ root نعل «حِفْظُ الشيء بلزوم مناسب له يقيه الخشونة والتآكل ونحوهما» (licensed؛ GUT-04، LIQ-02)؛ nucleus ءل «» (licensed؛ GUT-04)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04، LAB-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: מהל `mahál`، verb، «to circumcise» [Kaikki Hebrew، السطر 16319]؛ מהל `mahál`، verb، «to dilute, attenuate» [Kaikki Hebrew، السطر 16320]؛ מ־ה־ל `m-h-l`، root، «Forming words pertaining to circumcision.» [Kaikki Hebrew، السطر 16321]
@@ -2753,14 +3919,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16319:en-מהל-he-verb-sWilL22N: الرسم=מהל، الرومنة=mahál، الصنف=verb، المعنى=to circumcise، السلف/الخلف=Possibly borrowed from Aramaic מְהַל (“to circumcise”) and related to מָל (mal).، القرض=وسم آلي؛ kaikki_hebrew:16320:en-מהל-he-verb-3L61lw4u: الرسم=מהל، الرومنة=mahál، الصنف=verb، المعنى=to dilute, attenuate، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:16321:en-מ־ה־ל-he-root-0Z~wk3Ww: الرسم=מ־ה־ל، الرومنة=m-h-l، الصنف=root، المعنى=Forming words pertaining to circumcision.، السلف/الخلف=Related to מ־ו־ל (m-w-l), מ־י־ל (m-y-l), מ־ל־ל (m-l-l) and possibly נ־מ־ל (n-m-l), with all of them being modifications of the biliteral root √m-l.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب حسم اتجاه القرض للعضو القديم قبل حكم نسب.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:251b1da49abf9be13f31e027 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:f3ca6f8c1372bae8a0bdc796`، פלג (الرتبة 115)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=פלג «الجدول والمجرى» وحده، على مدار الشق الذي يجري فيه الماء؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פלג `péleg`، noun، «stream, brook, tributary» [Kaikki Hebrew، السطر 2073]؛ פלג `péleḡ`، name، «a male given name, equivalent to English Peleg» [Kaikki Hebrew، السطر 2074]؛ פלג `plag`، noun، «plug» [Kaikki Hebrew، السطر 2075]
 - أقدمُ صورةٍ مستعادة: Cognate with Arabic فَلَقَ (falaqa, “to split, to cleave”).؛ Cognate with Arabic فَلَقَ (falaqa, “to split, to cleave”).؛ From English plug (see further etymology there).
@@ -2768,7 +3944,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root برج «بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء» (licensed؛ GUT-03، LAB-01، LIQ-01)؛ root برج «بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء» (licensed؛ GUT-03، LIQ-01)؛ root برج «بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء» (licensed؛ LAB-01، LIQ-01)؛ root برج «بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء» (licensed؛ LIQ-01)؛ root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ LAB-01، LIQ-01)؛ root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ LIQ-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ GUT-02، LAB-01، LIQ-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ GUT-02، LIQ-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ LAB-01، LIQ-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ LIQ-01)؛ root فرج «انفتاح - أو متسع - في أثناء جرم كثيف، أو بين أجرام» (licensed؛ GUT-03، LIQ-01)؛ root فرج «انفتاح - أو متسع - في أثناء جرم كثيف، أو بين أجرام» (licensed؛ LIQ-01)؛ root فرق «فَصْلُ بعض شيء - أو أشياء - من بعضها الآخر فصلًا واصلًا إلى العمق» (licensed؛ LIQ-01)؛ root فلق «شَقُّ الشيء الشديد الكثافة شقًا نافذًا إلى عمقه» (licensed؛ GUT-01)؛ root فلق «شَقُّ الشيء الشديد الكثافة شقًا نافذًا إلى عمقه» (licensed؛ LAB-02)؛ root فلق «شَقُّ الشيء الشديد الكثافة شقًا نافذًا إلى عمقه» (licensed؛ مباشر)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ GUT-01)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ GUT-02، LAB-02)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ GUT-02)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ LAB-02)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ مباشر)؛ root ملق «ملاسة ظاهر الشيء واستواؤه؛ لتجرده من الغلظ» (licensed؛ LAB-04)؛ root ملك «إمساك - أو امتساك - بشدة أو قوّة مع شمول» (licensed؛ GUT-02، LAB-04)؛ root ملك «إمساك - أو امتساك - بشدة أو قوّة مع شمول» (licensed؛ LAB-04)؛ root ولج «الدخول في فجوة كثيفة الإحاطة تخفي وتستر» (licensed؛ GUT-03، LAB-05)؛ root ولج «الدخول في فجوة كثيفة الإحاطة تخفي وتستر» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `فلق` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03، LAB-01)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03، LAB-02)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ LAB-01)
 - مسارُ الصوت: root برج «بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء» (licensed؛ GUT-03، LAB-01، LIQ-01)؛ root برج «بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء» (licensed؛ GUT-03، LIQ-01)؛ root برج «بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء» (licensed؛ LAB-01، LIQ-01)؛ root برج «بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء» (licensed؛ LIQ-01)؛ root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ LAB-01، LIQ-01)؛ root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ LIQ-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ GUT-02، LAB-01، LIQ-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ GUT-02، LIQ-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ LAB-01، LIQ-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ LIQ-01)؛ root فرج «انفتاح - أو متسع - في أثناء جرم كثيف، أو بين أجرام» (licensed؛ GUT-03، LIQ-01)؛ root فرج «انفتاح - أو متسع - في أثناء جرم كثيف، أو بين أجرام» (licensed؛ LIQ-01)؛ root فرق «فَصْلُ بعض شيء - أو أشياء - من بعضها الآخر فصلًا واصلًا إلى العمق» (licensed؛ LIQ-01)؛ root فلق «شَقُّ الشيء الشديد الكثافة شقًا نافذًا إلى عمقه» (licensed؛ GUT-01)؛ root فلق «شَقُّ الشيء الشديد الكثافة شقًا نافذًا إلى عمقه» (licensed؛ LAB-02)؛ root فلق «شَقُّ الشيء الشديد الكثافة شقًا نافذًا إلى عمقه» (licensed؛ مباشر)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ GUT-01)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ GUT-02، LAB-02)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ GUT-02)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ LAB-02)؛ root فلك «ارتفاع - أو نتوء - مع صلابة واستدارة» (licensed؛ مباشر)؛ root ملق «ملاسة ظاهر الشيء واستواؤه؛ لتجرده من الغلظ» (licensed؛ LAB-04)؛ root ملك «إمساك - أو امتساك - بشدة أو قوّة مع شمول» (licensed؛ GUT-02، LAB-04)؛ root ملك «إمساك - أو امتساك - بشدة أو قوّة مع شمول» (licensed؛ LAB-04)؛ root ولج «الدخول في فجوة كثيفة الإحاطة تخفي وتستر» (licensed؛ GUT-03، LAB-05)؛ root ولج «الدخول في فجوة كثيفة الإحاطة تخفي وتستر» (licensed؛ LAB-05)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03، LAB-01)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03، LAB-02)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ LAB-01)
 - المعنى من قاموس الفرع: פלג `péleg`، noun، «stream, brook, tributary» [Kaikki Hebrew، السطر 2073]؛ פלג `péleḡ`، name، «a male given name, equivalent to English Peleg» [Kaikki Hebrew، السطر 2074]؛ פלג `plag`، noun، «plug» [Kaikki Hebrew، السطر 2075]
@@ -2777,14 +3953,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2073:en-פלג-he-noun-LeCF-gPo: الرسم=פלג، الرومنة=péleg، الصنف=noun، المعنى=stream, brook, tributary، السلف/الخلف=Cognate with Arabic فَلَقَ (falaqa, “to split, to cleave”).، القرض=لا وسم آلي؛ kaikki_hebrew:2074:en-פלג-he-name-u~YxBzAW: الرسم=פלג، الرومنة=péleḡ، الصنف=name، المعنى=a male given name, equivalent to English Peleg، السلف/الخلف=Cognate with Arabic فَلَقَ (falaqa, “to split, to cleave”).، القرض=لا وسم آلي؛ kaikki_hebrew:2075:en-פלג-he-noun-Da8MnKN~: الرسم=פלג، الرومنة=plag، الصنف=noun، المعنى=plug، السلف/الخلف=From English plug (see further etymology there).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-ECHO؛ פלג «الجدول والمجرى» وحده، على مدار الشق الذي يجري فيه الماء؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:f3ca6f8c1372bae8a0bdc796 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `فلق`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `فلق`، `شق`.
+  - سند الفرع المنشور: Cognate with Arabic فَلَقَ (falaqa, “to split, to cleave”). | Cognate with Arabic فَلَقَ (falaqa, “to split, to cleave”). | From English plug (see further etymology there).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:ff43e43ed8e14d0f006bdfe1`، לוח (الرتبة 116)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=לוח «اللوح واللوحة» وحده؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: לוחות `lukhót`، noun، «plural indefinite form of לוּחַ (lúakh)» [Kaikki Hebrew، السطر 10327]؛ לוח `lúakh`، noun، «board, tablet, blackboard» [Kaikki Hebrew، السطر 1840]؛ מחשב לוח `makhshév-lúakh`، noun، «A tablet computer.» [Kaikki Hebrew، السطر 6413]؛ לוחית `lukhít`، noun، «panel, tablet (small board)» [Kaikki Hebrew، السطر 8801]
 - أقدمُ صورةٍ مستعادة: Cognate with Arabic لَوْح (lawḥ).؛ לוּחַ (lúakh, “board”) + ־ית (-ít, “Appended to masc. nouns, forming fem. counterparts denoting corresponding small items.”)
@@ -2792,7 +3982,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ LAB-06، LIQ-01)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ LIQ-01)؛ root لوح «عرض ظاهر الشيء واستواؤه مع جفاف أو صلابة» (licensed؛ LAB-06)؛ root لوح «عرض ظاهر الشيء واستواؤه مع جفاف أو صلابة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `لوح` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-04)
 - مسارُ الصوت: root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ LAB-06، LIQ-01)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ LIQ-01)؛ root لوح «عرض ظاهر الشيء واستواؤه مع جفاف أو صلابة» (licensed؛ LAB-06)؛ root لوح «عرض ظاهر الشيء واستواؤه مع جفاف أو صلابة» (licensed؛ مباشر)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-04)
 - المعنى من قاموس الفرع: לוחות `lukhót`، noun، «plural indefinite form of לוּחַ (lúakh)» [Kaikki Hebrew، السطر 10327]؛ לוח `lúakh`، noun، «board, tablet, blackboard» [Kaikki Hebrew، السطر 1840]؛ מחשב לוח `makhshév-lúakh`، noun، «A tablet computer.» [Kaikki Hebrew، السطر 6413]؛ לוחית `lukhít`، noun، «panel, tablet (small board)» [Kaikki Hebrew، السطر 8801]
@@ -2801,14 +3991,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10327:en-לוחות-he-noun-8Oo5xlZ-: الرسم=לוחות، الرومنة=lukhót، الصنف=noun، المعنى=plural indefinite form of לוּחַ (lúakh)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1840:en-לוח-he-noun-jdxuyzxf: الرسم=לוח، الرومنة=lúakh، الصنف=noun، المعنى=board, tablet, blackboard، السلف/الخلف=Cognate with Arabic لَوْح (lawḥ).، القرض=لا وسم آلي؛ kaikki_hebrew:6413:en-מחשב_לוח-he-noun-iRB8t3Bz: الرسم=מחשב לוח، الرومنة=makhshév-lúakh، الصنف=noun، المعنى=A tablet computer.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8801:en-לוחית-he-noun-GGGDKE1Z: الرسم=לוחית، الرومنة=lukhít، الصنف=noun، المعنى=panel, tablet (small board)، السلف/الخلف=לוּחַ (lúakh, “board”) + ־ית (-ít, “Appended to masc. nouns, forming fem. counterparts denoting corresponding small items.”)، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ לוח «اللوح واللوحة» وحده؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:ff43e43ed8e14d0f006bdfe1 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `لوح`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `لوح`، `لوح`.
+  - سند الفرع المنشور: Cognate with Arabic لَوْح (lawḥ). | לוּחַ (lúakh, “board”) + ־ית (-ít, “Appended to masc. nouns, forming fem. counterparts denoting corresponding small items.”)
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:53f9ec93aaee448c2a55461a`، צ־ל־ם (الرتبة 117)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צ־ל־ם `ts-l-m`، root، «Forming words relating to images and photos.» [Kaikki Hebrew، السطر 4949]؛ צלם `tsélem`، noun، «graven image» [Kaikki Hebrew، السطر 623]؛ צלם `tsalám`، noun، «photographer» [Kaikki Hebrew، السطر 624]
 - أقدمُ صورةٍ مستعادة: Cognate with Akkadian 𒀩 (ṣalmum), Classical Syriac ܨܠܡܐ (ṣalmā) and, by dissimilation of /l/ to /n/, Arabic صَنَم (ṣanam).؛ Coined by Jewish educator, writer and scholar David Yellin, based on צֶלֶם (tsélem, “image, likeness”) (above).
@@ -2816,7 +4020,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root زلم «استواء ظاهر الممتد (الدقيق كالإصبع) من الشيء» (licensed؛ SIB-03)؛ root سرم «منفذ يمتد دقيقا مع ضمّ أو اكتناف» (licensed؛ LIQ-01)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-04)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ SIB-02)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ مباشر)؛ root صرم «انفصال أو انقطاع بحدة: حسم أو جفاف أو جفاء» (licensed؛ LIQ-01، SIB-06)؛ root صرم «انفصال أو انقطاع بحدة: حسم أو جفاف أو جفاء» (licensed؛ LIQ-01)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-04، SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-04)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-04)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02)
 - مسارُ الصوت: root زلم «استواء ظاهر الممتد (الدقيق كالإصبع) من الشيء» (licensed؛ SIB-03)؛ root سرم «منفذ يمتد دقيقا مع ضمّ أو اكتناف» (licensed؛ LIQ-01)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-04)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ SIB-02)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ مباشر)؛ root صرم «انفصال أو انقطاع بحدة: حسم أو جفاف أو جفاء» (licensed؛ LIQ-01، SIB-06)؛ root صرم «انفصال أو انقطاع بحدة: حسم أو جفاف أو جفاء» (licensed؛ LIQ-01)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-04، SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-04)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-04)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02)
 - المعنى من قاموس الفرع: צ־ל־ם `ts-l-m`، root، «Forming words relating to images and photos.» [Kaikki Hebrew، السطر 4949]؛ צלם `tsélem`، noun، «graven image» [Kaikki Hebrew، السطر 623]؛ צלם `tsalám`، noun، «photographer» [Kaikki Hebrew، السطر 624]
@@ -2825,14 +4029,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4949:en-צ־ל־ם-he-root-0uozzf59: الرسم=צ־ל־ם، الرومنة=ts-l-m، الصنف=root، المعنى=Forming words relating to images and photos.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:623:en-צלם-he-noun-67IkmaSP: الرسم=צלם، الرومنة=tsélem، الصنف=noun، المعنى=graven image، السلف/الخلف=Cognate with Akkadian 𒀩 (ṣalmum), Classical Syriac ܨܠܡܐ (ṣalmā) and, by dissimilation of /l/ to /n/, Arabic صَنَم (ṣanam).، القرض=لا وسم آلي؛ kaikki_hebrew:624:en-צלם-he-noun--d1RG9EA: الرسم=צלם، الرومنة=tsalám، الصنف=noun، المعنى=photographer، السلف/الخلف=Coined by Jewish educator, writer and scholar David Yellin, based on צֶלֶם (tsélem, “image, likeness”) (above).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:53f9ec93aaee448c2a55461a -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:723408d88bdb748e2772b07a`، בגדול (الرتبة 118)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: גדול `gadól`، adj، «big, large» [Kaikki Hebrew، السطر 1463]؛ גדל `gadól`، adj، «defective spelling of גדול» [Kaikki Hebrew، السطر 674]؛ בגדול `begadól`، adv، «by and large, for the most part» [Kaikki Hebrew، السطر 7966]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -2840,7 +4054,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جدر «نتوء جرم غليظ أو قوي إلى أعلى فوق ظاهر شيء» (licensed؛ GUT-03، LIQ-01)؛ root جدر «نتوء جرم غليظ أو قوي إلى أعلى فوق ظاهر شيء» (licensed؛ LIQ-01)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ DENT-06، GUT-03)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ DENT-06)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ GUT-03)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ مباشر)؛ root قدر «ضَبْطُ الشيء القابل للتسيب وحكمه» (licensed؛ LIQ-01)؛ root كدر «انقلاع الغليظ الراسخ أو انقطاعه، مفارقًا مقره» (licensed؛ GUT-02، LIQ-01)؛ root كدر «انقلاع الغليظ الراسخ أو انقطاعه، مفارقًا مقره» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ مباشر)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06)
 - مسارُ الصوت: root جدر «نتوء جرم غليظ أو قوي إلى أعلى فوق ظاهر شيء» (licensed؛ GUT-03، LIQ-01)؛ root جدر «نتوء جرم غليظ أو قوي إلى أعلى فوق ظاهر شيء» (licensed؛ LIQ-01)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ DENT-06، GUT-03)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ DENT-06)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ GUT-03)؛ root جدل «امتداد الشيء شديد الأثناء بالتفاف بعضه على بعض أو التفاف مثله عليه» (licensed؛ مباشر)؛ root قدر «ضَبْطُ الشيء القابل للتسيب وحكمه» (licensed؛ LIQ-01)؛ root كدر «انقلاع الغليظ الراسخ أو انقطاعه، مفارقًا مقره» (licensed؛ GUT-02، LIQ-01)؛ root كدر «انقلاع الغليظ الراسخ أو انقطاعه، مفارقًا مقره» (licensed؛ LIQ-01)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ مباشر)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ DENT-06)
 - المعنى من قاموس الفرع: גדול `gadól`، adj، «big, large» [Kaikki Hebrew، السطر 1463]؛ גדל `gadól`، adj، «defective spelling of גדול» [Kaikki Hebrew، السطر 674]؛ בגדול `begadól`، adv، «by and large, for the most part» [Kaikki Hebrew، السطر 7966]
@@ -2849,14 +4063,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1463:en-גדול-he-adj-zS7rhlBR: الرسم=גדול، الرومنة=gadól، الصنف=adj، المعنى=big, large، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:674:en-גדל-he-adj-qL2HPJGT: الرسم=גדל، الرومنة=gadól، الصنف=adj، المعنى=defective spelling of גדול، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7966:en-בגדול-he-adv-8cUa5gL~: الرسم=בגדול، الرومنة=begadól، الصنف=adv، المعنى=by and large, for the most part، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:723408d88bdb748e2772b07a -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:81adebb37703dfa7b899ed59`، קוץ בתחת (الرتبة 119)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: קוצו של יוד `kotsó shel yod`، noun، «A jot, an iota, i.e. something insignificant.» [Kaikki Hebrew، السطر 10350]؛ קוץ בתחת `kots batákhat`، noun، «pain in the ass» [Kaikki Hebrew، السطر 16454]؛ קוץ `kots`، noun، «A thorn» [Kaikki Hebrew، السطر 2044]
 - أقدمُ صورةٍ مستعادة: Referring to one of the serifs when writing the Hebrew letter Yod, the smallest of the Hebrew letters.؛ Attested in popular media since the 1970s, it seems to be a calque of English pain in the ass.؛ Compare קָצַץ (katsáts).
@@ -2864,7 +4088,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root قبس «تحصيل مباشر لمادة حادة من أصل لها» (licensed؛ LAB-05)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ LAB-06، SIB-02)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ LAB-06)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ SIB-02)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-05)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)
 - مسارُ الصوت: root قبس «تحصيل مباشر لمادة حادة من أصل لها» (licensed؛ LAB-05)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ LAB-06، SIB-02)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ LAB-06)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ SIB-02)؛ root قوس «انطلاق واندفاع بالقوة الممكنة إلى هدف» (licensed؛ مباشر)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-05)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)
 - المعنى من قاموس الفرع: קוצו של יוד `kotsó shel yod`، noun، «A jot, an iota, i.e. something insignificant.» [Kaikki Hebrew، السطر 10350]؛ קוץ בתחת `kots batákhat`، noun، «pain in the ass» [Kaikki Hebrew، السطر 16454]؛ קוץ `kots`، noun، «A thorn» [Kaikki Hebrew، السطر 2044]
@@ -2873,14 +4097,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10350:en-קוצו_של_יוד-he-noun-0gP8THnC: الرسم=קוצו של יוד، الرومنة=kotsó shel yod، الصنف=noun، المعنى=A jot, an iota, i.e. something insignificant.، السلف/الخلف=Referring to one of the serifs when writing the Hebrew letter Yod, the smallest of the Hebrew letters.، القرض=لا وسم آلي؛ kaikki_hebrew:16454:en-קוץ_בתחת-he-noun-Waj8ODYr: الرسم=קוץ בתחת، الرومنة=kots batákhat، الصنف=noun، المعنى=pain in the ass، السلف/الخلف=Attested in popular media since the 1970s, it seems to be a calque of English pain in the ass.، القرض=لا وسم آلي؛ kaikki_hebrew:2044:en-קוץ-he-noun-mOeH8ak0: الرسم=קוץ، الرومنة=kots، الصنف=noun، المعنى=A thorn، السلف/الخلف=Compare קָצַץ (katsáts).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:81adebb37703dfa7b899ed59 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:8a96e6b3d7e33af1c73375b3`، פסל (الرتبة 120)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פסל `pésel`، noun، «A statue, a sculpture» [Kaikki Hebrew، السطر 4870]؛ פסל `pasál`، noun، «A sculptor.» [Kaikki Hebrew، السطر 4871]؛ פסל `pasál`، verb، «to disqualify, invalidate, rule out» [Kaikki Hebrew، السطر 4873]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -2888,7 +4122,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بسر «طَلَبُ الشيء قبل تهيّؤ ظروفه، أو استكراه الشيء على الانفتاح عما في باطنه» (licensed؛ LAB-01، LIQ-01)؛ root بسر «طَلَبُ الشيء قبل تهيّؤ ظروفه، أو استكراه الشيء على الانفتاح عما في باطنه» (licensed؛ LIQ-01)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ LAB-01، SIB-02)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ LAB-01)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ LAB-02)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ SIB-02)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ مباشر)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-01، LIQ-01، SIB-06)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-01، LIQ-01)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LIQ-01، SIB-06)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LIQ-01)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-01، SIB-02)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-01، SIB-06)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-01)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-02، SIB-06)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-02)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ SIB-02)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ SIB-06)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ مباشر)؛ root فسر «كَشْفُ ما في أثناء الشيء بصفائه وشفّه عما فيه» (licensed؛ LIQ-01)؛ root فشل «انتفاش ظاهري مع فراغ، أو نحوه وراءه» (licensed؛ SIB-01)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ LAB-02، SIB-06)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ LAB-02)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ SIB-02)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ SIB-06)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ مباشر)؛ root مثل «تشخص الشيء قائماً على هيأة، أو صفات معينة» (licensed؛ DENT-02، LAB-04)؛ root وسل «شيء يتلطف به للوصول إلى مطلوب أو القرب منه» (licensed؛ LAB-05)؛ root وصل «اشتباك شيء بشيء، أي ضم شيء إلى شيء حتى يعلقه» (licensed؛ LAB-05، SIB-06)؛ root وصل «اشتباك شيء بشيء، أي ضم شيء إلى شيء حتى يعلقه» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 10/10؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-02)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-01، LIQ-01)
 - مسارُ الصوت: root بسر «طَلَبُ الشيء قبل تهيّؤ ظروفه، أو استكراه الشيء على الانفتاح عما في باطنه» (licensed؛ LAB-01، LIQ-01)؛ root بسر «طَلَبُ الشيء قبل تهيّؤ ظروفه، أو استكراه الشيء على الانفتاح عما في باطنه» (licensed؛ LIQ-01)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ LAB-01، SIB-02)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ LAB-01)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ LAB-02)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ SIB-02)؛ root بسل «احتباس مع كراهة (احتباس شيء كريه طعمًا أو رائحةً في أثناء الشيء)» (licensed؛ مباشر)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-01، LIQ-01، SIB-06)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-01، LIQ-01)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LIQ-01، SIB-06)؛ root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LIQ-01)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-01، SIB-02)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-01، SIB-06)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-01)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-02، SIB-06)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ LAB-02)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ SIB-02)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ SIB-06)؛ root بصل «تجمُّع النامي في كرة ذات حرافة» (licensed؛ مباشر)؛ root فسر «كَشْفُ ما في أثناء الشيء بصفائه وشفّه عما فيه» (licensed؛ LIQ-01)؛ root فشل «انتفاش ظاهري مع فراغ، أو نحوه وراءه» (licensed؛ SIB-01)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ LAB-02، SIB-06)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ LAB-02)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ SIB-02)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ SIB-06)؛ root فصل «تمييز الشيء عن غيره مع تمام، أو ما هو من بابه» (licensed؛ مباشر)؛ root مثل «تشخص الشيء قائماً على هيأة، أو صفات معينة» (licensed؛ DENT-02، LAB-04)؛ root وسل «شيء يتلطف به للوصول إلى مطلوب أو القرب منه» (licensed؛ LAB-05)؛ root وصل «اشتباك شيء بشيء، أي ضم شيء إلى شيء حتى يعلقه» (licensed؛ LAB-05، SIB-06)؛ root وصل «اشتباك شيء بشيء، أي ضم شيء إلى شيء حتى يعلقه» (licensed؛ LAB-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-01)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02، LAB-02)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-01، LIQ-01)
 - المعنى من قاموس الفرع: פסל `pésel`، noun، «A statue, a sculpture» [Kaikki Hebrew، السطر 4870]؛ פסל `pasál`، noun، «A sculptor.» [Kaikki Hebrew، السطر 4871]؛ פסל `pasál`، verb، «to disqualify, invalidate, rule out» [Kaikki Hebrew، السطر 4873]
@@ -2897,14 +4131,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4870:en-פסל-he-noun--yU6g37M: الرسم=פסל، الرومنة=pésel، الصنف=noun، المعنى=A statue, a sculpture، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4871:en-פסל-he-noun-dUUxP3WG: الرسم=פסל، الرومنة=pasál، الصنف=noun، المعنى=A sculptor.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4873:en-פסל-he-verb-iFVs~FT-: الرسم=פסל، الرومنة=pasál، الصنف=verb، المعنى=to disqualify, invalidate, rule out، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:8a96e6b3d7e33af1c73375b3 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 10/10؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:1623fbdbeac3dbbb29db2d66`، ד־ב־ר (الرتبة 121)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ד־ב־ר `d-b-r`، root، «Related to conducting, guiding, following.» [Kaikki Hebrew، السطر 13935]؛ דבר `dabár`، noun، «leader» [Kaikki Hebrew، السطر 2010]؛ דבר `déver`، noun، «plague, pestilence» [Kaikki Hebrew، السطر 2014]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -2912,7 +4156,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root دبر «امتداد غائر إلى آخر الشيء أو خلفه بقوة» (licensed؛ DENT-06)؛ root دبر «امتداد غائر إلى آخر الشيء أو خلفه بقوة» (licensed؛ مباشر)؛ root دمر «غشيان بفساد محيط» (licensed؛ LAB-04)؛ root دور «تحوي الشيء، أو إحاطته حول شيء» (licensed؛ LAB-05)؛ root ضمر «استرسال تضام الجرم بعضه في بعض مشتدًا وذهاب الرخاوة» (licensed؛ LAB-04)؛ root ضور «فراغ جوف الشيء الغَضّ» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)؛ nucleus بن «الامتداد والبناء» (licensed؛ LIQ-03)؛ nucleus دب «الثقل أو الضغط والحركة البطيئة، ويلزمها التخلف» (licensed؛ DENT-06)
 - مسارُ الصوت: root دبر «امتداد غائر إلى آخر الشيء أو خلفه بقوة» (licensed؛ DENT-06)؛ root دبر «امتداد غائر إلى آخر الشيء أو خلفه بقوة» (licensed؛ مباشر)؛ root دمر «غشيان بفساد محيط» (licensed؛ LAB-04)؛ root دور «تحوي الشيء، أو إحاطته حول شيء» (licensed؛ LAB-05)؛ root ضمر «استرسال تضام الجرم بعضه في بعض مشتدًا وذهاب الرخاوة» (licensed؛ LAB-04)؛ root ضور «فراغ جوف الشيء الغَضّ» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)؛ nucleus بن «الامتداد والبناء» (licensed؛ LIQ-03)؛ nucleus دب «الثقل أو الضغط والحركة البطيئة، ويلزمها التخلف» (licensed؛ DENT-06)
 - المعنى من قاموس الفرع: ד־ב־ר `d-b-r`، root، «Related to conducting, guiding, following.» [Kaikki Hebrew، السطر 13935]؛ דבר `dabár`، noun، «leader» [Kaikki Hebrew، السطر 2010]؛ דבר `déver`، noun، «plague, pestilence» [Kaikki Hebrew، السطر 2014]
@@ -2921,14 +4165,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13935:en-ד־ב־ר-he-root-gxESotT7: الرسم=ד־ב־ר، الرومنة=d-b-r، الصنف=root، المعنى=Related to conducting, guiding, following.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2010:en-דבר-he-noun-TVtmCUNi: الرسم=דבר، الرومنة=dabár، الصنف=noun، المعنى=leader، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2014:en-דבר-he-noun-RiD6Rzxv: الرسم=דבר، الرومنة=déver، الصنف=noun، المعنى=plague, pestilence، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:1623fbdbeac3dbbb29db2d66 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:6e07e83c1db0c5229f5933c5`، חרף (الرتبة 122)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: חרפ `kharáp`، verb، «to sleep deeply» [Kaikki Hebrew، السطر 11100]؛ חרף `kharáf`، verb، «to hibernate, to winter (verb)» [Kaikki Hebrew، السطر 7643]؛ חרף `khéref`، adv، «despite, in spite of» [Kaikki Hebrew، السطر 7645]
 - أقدمُ صورةٍ مستعادة: Borrowed from Yiddish כראָפּען (khropen, “to snore”), from Slavic (compare Russian храпе́ть (xrapétʹ, “to snore”), Polish chrapać).
@@ -2936,7 +4190,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حرب «سَلْبُ الشيء، أي سَحْبه وأخذه بقوة، أو حدّة» (licensed؛ LAB-01)؛ root حرب «سَلْبُ الشيء، أي سَحْبه وأخذه بقوة، أو حدّة» (licensed؛ LAB-02)؛ root حرب «سَلْبُ الشيء، أي سَحْبه وأخذه بقوة، أو حدّة» (licensed؛ مباشر)؛ root حرف «نهاية جانب - أو وجه من الشيء- يبدأ به جانب آخر» (licensed؛ LAB-02)؛ root حرف «نهاية جانب - أو وجه من الشيء- يبدأ به جانب آخر» (licensed؛ مباشر)؛ root حرم «حيز ممنوع تابع لشيء» (licensed؛ LAB-04)؛ root حرو «انتقاص من (ظاهر) جِرْمِ الشيء مع حَوْز لُمهمِِّ فيه» (licensed؛ LAB-05)؛ root حلف «حدة في الشيء تكون من ظاهره (خارجه)» (licensed؛ LIQ-01)؛ root حنف «التفات الشيء أو اعوجاجه - عن معتاد الحال» (licensed؛ LIQ-03)؛ root خرب «خلاء - أو فراغ - في وَسَط الجرم الملتئم» (licensed؛ GUT-05، LAB-01)؛ root خرب «خلاء - أو فراغ - في وَسَط الجرم الملتئم» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 7/7؛ لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
 - المقابلُ من اللسان: nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-01)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-02)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ مباشر)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ مباشر)
 - مسارُ الصوت: root حرب «سَلْبُ الشيء، أي سَحْبه وأخذه بقوة، أو حدّة» (licensed؛ LAB-01)؛ root حرب «سَلْبُ الشيء، أي سَحْبه وأخذه بقوة، أو حدّة» (licensed؛ LAB-02)؛ root حرب «سَلْبُ الشيء، أي سَحْبه وأخذه بقوة، أو حدّة» (licensed؛ مباشر)؛ root حرف «نهاية جانب - أو وجه من الشيء- يبدأ به جانب آخر» (licensed؛ LAB-02)؛ root حرف «نهاية جانب - أو وجه من الشيء- يبدأ به جانب آخر» (licensed؛ مباشر)؛ root حرم «حيز ممنوع تابع لشيء» (licensed؛ LAB-04)؛ root حرو «انتقاص من (ظاهر) جِرْمِ الشيء مع حَوْز لُمهمِِّ فيه» (licensed؛ LAB-05)؛ root حلف «حدة في الشيء تكون من ظاهره (خارجه)» (licensed؛ LIQ-01)؛ root حنف «التفات الشيء أو اعوجاجه - عن معتاد الحال» (licensed؛ LIQ-03)؛ root خرب «خلاء - أو فراغ - في وَسَط الجرم الملتئم» (licensed؛ GUT-05، LAB-01)؛ root خرب «خلاء - أو فراغ - في وَسَط الجرم الملتئم» (licensed؛ GUT-05)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-01)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ LAB-02)؛ nucleus حب «التجمع في حيز باكتناز مع جفاف أو لطف» (licensed؛ مباشر)؛ nucleus حر «الخلوص من الغلظ» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: חרפ `kharáp`، verb، «to sleep deeply» [Kaikki Hebrew، السطر 11100]؛ חרף `kharáf`، verb، «to hibernate, to winter (verb)» [Kaikki Hebrew، السطر 7643]؛ חרף `khéref`، adv، «despite, in spite of» [Kaikki Hebrew، السطر 7645]
@@ -2945,14 +4199,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11100:en-חרפ-he-verb-lOcjCvMW: الرسم=חרפ، الرومنة=kharáp، الصنف=verb، المعنى=to sleep deeply، السلف/الخلف=Borrowed from Yiddish כראָפּען (khropen, “to snore”), from Slavic (compare Russian храпе́ть (xrapétʹ, “to snore”), Polish chrapać).، القرض=وسم آلي؛ kaikki_hebrew:7643:en-חרף-he-verb-dK3uC-6H: الرسم=חרף، الرومنة=kharáf، الصنف=verb، المعنى=to hibernate, to winter (verb)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7645:en-חרף-he-adv-fl8qJDZU: الرسم=חרף، الرومنة=khéref، الصنف=adv، المعنى=despite, in spite of، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:6e07e83c1db0c5229f5933c5 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 7/7؛ لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:afc2a6edec56070c33769e57`، ג־נ־ן (الرتبة 123)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ג־נ־ן `g-n-n`، root، «Related to defense, protection.» [Kaikki Hebrew، السطر 13956]؛ גנן `ganán`، noun، «male gardener» [Kaikki Hebrew، السطر 3184]؛ גנן `ganán`، verb، «to protect, to defend» [Kaikki Hebrew، السطر 3186]
 - أقدمُ صورةٍ مستعادة: Proto-Semitic (compare with Arabic ج ن ن (j n n)); the root is known in all branches. The “etiquette” sense is likely a loan from Ancient Greek γενναῖος (gennaîos).؛ Compare Arabic جَنَّان (jannān, “gardener”).؛ Related to Arabic جَنَّ (janna, “to cover”).
@@ -2960,7 +4224,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جنن «ستر الشيء بكثيف يعلوه أو يكون الشيء في أثنائه» (licensed؛ GUT-03)؛ root جنن «ستر الشيء بكثيف يعلوه أو يكون الشيء في أثنائه» (licensed؛ مباشر)؛ root قرن «نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه» (licensed؛ LIQ-03)؛ root قنن «الاحتباس في الحوزة (أو باطن) بعمق وامتداد» (licensed؛ GUT-01)؛ root قنن «الاحتباس في الحوزة (أو باطن) بعمق وامتداد» (licensed؛ مباشر)؛ root كنن «الستر في تجوُّف متين يستر أو يحمي» (licensed؛ GUT-01)؛ root كنن «الستر في تجوُّف متين يستر أو يحمي» (licensed؛ GUT-02)؛ root كنن «الستر في تجوُّف متين يستر أو يحمي» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 4/4؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus جر «الاسترسال والامتداد» (licensed؛ GUT-03، LIQ-03)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ LIQ-03)؛ nucleus جم «التجمع والكثرة» (licensed؛ GUT-03، LIQ-02)؛ nucleus جم «التجمع والكثرة» (licensed؛ LIQ-02)
 - مسارُ الصوت: root جنن «ستر الشيء بكثيف يعلوه أو يكون الشيء في أثنائه» (licensed؛ GUT-03)؛ root جنن «ستر الشيء بكثيف يعلوه أو يكون الشيء في أثنائه» (licensed؛ مباشر)؛ root قرن «نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه» (licensed؛ LIQ-03)؛ root قنن «الاحتباس في الحوزة (أو باطن) بعمق وامتداد» (licensed؛ GUT-01)؛ root قنن «الاحتباس في الحوزة (أو باطن) بعمق وامتداد» (licensed؛ مباشر)؛ root كنن «الستر في تجوُّف متين يستر أو يحمي» (licensed؛ GUT-01)؛ root كنن «الستر في تجوُّف متين يستر أو يحمي» (licensed؛ GUT-02)؛ root كنن «الستر في تجوُّف متين يستر أو يحمي» (licensed؛ مباشر)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ GUT-03، LIQ-03)؛ nucleus جر «الاسترسال والامتداد» (licensed؛ LIQ-03)؛ nucleus جم «التجمع والكثرة» (licensed؛ GUT-03، LIQ-02)؛ nucleus جم «التجمع والكثرة» (licensed؛ LIQ-02)
 - المعنى من قاموس الفرع: ג־נ־ן `g-n-n`، root، «Related to defense, protection.» [Kaikki Hebrew، السطر 13956]؛ גנן `ganán`، noun، «male gardener» [Kaikki Hebrew، السطر 3184]؛ גנן `ganán`، verb، «to protect, to defend» [Kaikki Hebrew، السطر 3186]
@@ -2969,14 +4233,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13956:en-ג־נ־ן-he-root-AxaWmhZJ: الرسم=ג־נ־ן، الرومنة=g-n-n، الصنف=root، المعنى=Related to defense, protection.، السلف/الخلف=Proto-Semitic (compare with Arabic ج ن ن (j n n)); the root is known in all branches. The “etiquette” sense is likely a loan from Ancient Greek γενναῖος (gennaîos).، القرض=لا وسم آلي؛ kaikki_hebrew:3184:en-גנן-he-noun-DKzFfbRR: الرسم=גנן، الرومنة=ganán، الصنف=noun، المعنى=male gardener، السلف/الخلف=Compare Arabic جَنَّان (jannān, “gardener”).، القرض=لا وسم آلي؛ kaikki_hebrew:3186:en-גנן-he-verb-nPJEdrS-: الرسم=גנן، الرومنة=ganán، الصنف=verb، المعنى=to protect, to defend، السلف/الخلف=Related to Arabic جَنَّ (janna, “to cover”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:afc2a6edec56070c33769e57 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: גנן، الرتبة 123.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:46e4204ab2d4ee409747850a`، ל״ג בעומר (الرتبة 124)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ל״ג בעומר `la"g ba'ómer`، name، «Lag B'Omer» [Kaikki Hebrew، السطر 10790]؛ עמר `'ómer`، noun، «defective spelling of עומר» [Kaikki Hebrew، السطر 718]؛ עומר `'ómer`، noun، «a sheaf or bundle of grain» [Kaikki Hebrew، السطر 8697]
 - أقدمُ صورةٍ مستعادة: An internal Northwest Semitic innovation from the root better known in Arabic غ م ر (ḡ m r) as related to “abundance”, “overflowing”.
@@ -2984,7 +4258,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عبر «انتقال - أو انتشار - من حيّز إلى آخر بقوة ولطف» (licensed؛ LAB-04)؛ root عمر «شغل فراغ الأثناء بمناسب يثبتها، أو يبرز نفعها ويديمه» (licensed؛ مباشر)؛ root عمل «جهد مادي (من حي، أو جماد) يؤدي إلى إحداث شيء، أو هيأة» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-04)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)
 - مسارُ الصوت: root عبر «انتقال - أو انتشار - من حيّز إلى آخر بقوة ولطف» (licensed؛ LAB-04)؛ root عمر «شغل فراغ الأثناء بمناسب يثبتها، أو يبرز نفعها ويديمه» (licensed؛ مباشر)؛ root عمل «جهد مادي (من حي، أو جماد) يؤدي إلى إحداث شيء، أو هيأة» (licensed؛ LIQ-01)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-04)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-04)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-05)
 - المعنى من قاموس الفرع: ל״ג בעומר `la"g ba'ómer`، name، «Lag B'Omer» [Kaikki Hebrew، السطر 10790]؛ עמר `'ómer`، noun، «defective spelling of עומר» [Kaikki Hebrew، السطر 718]؛ עומר `'ómer`، noun، «a sheaf or bundle of grain» [Kaikki Hebrew، السطر 8697]
@@ -2993,14 +4267,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10790:en-ל״ג_בעומר-he-name--KhbHoTE: الرسم=ל״ג בעומר، الرومنة=la"g ba'ómer، الصنف=name، المعنى=Lag B'Omer، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:718:en-עמר-he-noun-tfXyBr4B: الرسم=עמר، الرومنة='ómer، الصنف=noun، المعنى=defective spelling of עומר، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8697:en-עומר-he-noun-yYp~EFoH: الرسم=עומר، الرومنة='ómer، الصنف=noun، المعنى=a sheaf or bundle of grain، السلف/الخلف=An internal Northwest Semitic innovation from the root better known in Arabic غ م ر (ḡ m r) as related to “abundance”, “overflowing”.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:46e4204ab2d4ee409747850a -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:717530f000ef53aea404734f`، צבע (الرتبة 125)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=צבע في الصبغ والتلوين وحده؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צבע `tséva'`، noun، «color, colour» [Kaikki Hebrew، السطر 1195]؛ צבע `tsabá'`، noun، «a (male) painter.» [Kaikki Hebrew، السطر 1196]؛ צבע `tsavá'`، verb، «painted; (he) colored, (he) dyed» [Kaikki Hebrew، السطر 1197]
 - أقدمُ صورةٍ مستعادة: Compare Arabic صَبَغَ (ṣabaḡa, “to dye”), Aramaic צְבַע (ṣəbaʿ, “to dip, to dye”), Akkadian 𒍝𒁍𒌑 (/⁠ṣabû⁠/, “to soak, to bathe”), Ge'ez ጸብኀ (ṣäbḫä, “to dip”).؛ Compare Arabic صَبَغَ (ṣabaḡa, “to dye”), Aramaic צְבַע (ṣəbaʿ, “to dip, to dye”), Akkadian 𒍝𒁍𒌑 (/⁠ṣabû⁠/, “to soak, to bathe”), Ge'ez ጸብኀ (ṣäbḫä, “to dip”).؛ Compare Arabic صَبَغَ (ṣabaḡa, “to dye”), Aramaic צְבַע (ṣəbaʿ, “to dip, to dye”), Akkadian 𒍝𒁍𒌑 (/⁠ṣabû⁠/, “to soak, to bathe”), Ge'ez ጸብኀ (ṣäbḫä, “to dip”).
@@ -3008,7 +4292,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (licensed؛ SIB-02)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (licensed؛ مباشر)؛ root سفع «لصوق ما له حدة أو كثافة على ظاهر الشيء» (licensed؛ LAB-02)؛ root سمع «نفاذ مادة لطيفة أو دقيقة إلى أثناء شيء» (licensed؛ LAB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (licensed؛ LAB-05)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ SIB-02)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ مباشر)؛ root صمع «أن ينضم في الشيء ما شأنه أن ينتبر أو يتفرع منه» (licensed؛ LAB-04، SIB-06)؛ root صمع «أن ينضم في الشيء ما شأنه أن ينتبر أو يتفرع منه» (licensed؛ LAB-04)؛ root صوع «إفراغ من الكثيف يتيح الاحتواء والحوز أو يعد له» (licensed؛ LAB-05، SIB-06)؛ root صوع «إفراغ من الكثيف يتيح الاحتواء والحوز أو يعد له» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `صبغ` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02)؛ nucleus ثع «خروج المائع أو شبهه من مصدره» (licensed؛ DENT-02)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02، LAB-04)
 - مسارُ الصوت: root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (licensed؛ SIB-02)؛ root سبع «تعدي الحيز الخاص إلى غيره للاغتذاء ونحوه، كما يفعل السباع ويفعل السارق» (licensed؛ مباشر)؛ root سفع «لصوق ما له حدة أو كثافة على ظاهر الشيء» (licensed؛ LAB-02)؛ root سمع «نفاذ مادة لطيفة أو دقيقة إلى أثناء شيء» (licensed؛ LAB-04)؛ root سوع «تسيب مرور خلال أثناء ضامة بلطف، أي من غير عنف» (licensed؛ LAB-05)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ SIB-02)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ SIB-06)؛ root صبع «امتداد دقيق لطيف من جرم كبير أو غليظ» (licensed؛ مباشر)؛ root صمع «أن ينضم في الشيء ما شأنه أن ينتبر أو يتفرع منه» (licensed؛ LAB-04، SIB-06)؛ root صمع «أن ينضم في الشيء ما شأنه أن ينتبر أو يتفرع منه» (licensed؛ LAB-04)؛ root صوع «إفراغ من الكثيف يتيح الاحتواء والحوز أو يعد له» (licensed؛ LAB-05، SIB-06)؛ root صوع «إفراغ من الكثيف يتيح الاحتواء والحوز أو يعد له» (licensed؛ LAB-05)؛ nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02)؛ nucleus ثع «خروج المائع أو شبهه من مصدره» (licensed؛ DENT-02)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02، LAB-04)
 - المعنى من قاموس الفرع: צבע `tséva'`، noun، «color, colour» [Kaikki Hebrew، السطر 1195]؛ צבע `tsabá'`، noun، «a (male) painter.» [Kaikki Hebrew، السطر 1196]؛ צבע `tsavá'`، verb، «painted; (he) colored, (he) dyed» [Kaikki Hebrew، السطر 1197]
@@ -3017,14 +4301,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1195:en-צבע-he-noun-EQMqfY0N: الرسم=צבע، الرومنة=tséva'، الصنف=noun، المعنى=color, colour، السلف/الخلف=Compare Arabic صَبَغَ (ṣabaḡa, “to dye”), Aramaic צְבַע (ṣəbaʿ, “to dip, to dye”), Akkadian 𒍝𒁍𒌑 (/⁠ṣabû⁠/, “to soak, to bathe”), Ge'ez ጸብኀ (ṣäbḫä, “to dip”).، القرض=لا وسم آلي؛ kaikki_hebrew:1196:en-צבע-he-noun-A4Tf6ffW: الرسم=צבע، الرومنة=tsabá'، الصنف=noun، المعنى=a (male) painter.، السلف/الخلف=Compare Arabic صَبَغَ (ṣabaḡa, “to dye”), Aramaic צְבַע (ṣəbaʿ, “to dip, to dye”), Akkadian 𒍝𒁍𒌑 (/⁠ṣabû⁠/, “to soak, to bathe”), Ge'ez ጸብኀ (ṣäbḫä, “to dip”).، القرض=لا وسم آلي؛ kaikki_hebrew:1197:en-צבע-he-verb-Ac7DySiL: الرسم=צבע، الرومنة=tsavá'، الصنف=verb، المعنى=painted; (he) colored, (he) dyed، السلف/الخلف=Compare Arabic صَبَغَ (ṣabaḡa, “to dye”), Aramaic צְבַע (ṣəbaʿ, “to dip, to dye”), Akkadian 𒍝𒁍𒌑 (/⁠ṣabû⁠/, “to soak, to bathe”), Ge'ez ጸብኀ (ṣäbḫä, “to dip”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ צבע في الصبغ والتلوين وحده؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:717530f000ef53aea404734f -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `صبغ`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `صبغ`، `لون`.
+  - سند الفرع المنشور: Compare Arabic صَبَغَ (ṣabaḡa, “to dye”), Aramaic צְבַע (ṣəbaʿ, “to dip, to dye”), Akkadian 𒍝𒁍𒌑 (/⁠ṣabû⁠/, “to soak, to bathe”), Ge'ez ጸብኀ (ṣäbḫä, “to dip”). | Compare Arabic صَبَغَ (ṣabaḡa, “to dye”), Aramaic צְבַע (ṣəbaʿ, “to dip, to dye”), Akkadian 𒍝𒁍𒌑 (/⁠ṣabû⁠/, “to soak, to bathe”), Ge'ez ጸብኀ (ṣäbḫä, “to dip”). | Compare Arabic صَبَغَ (ṣabaḡa, “to dye”), Aramaic צְבַע (ṣəbaʿ, “to dip, to dye”), Akkadian 𒍝𒁍𒌑 (/⁠ṣabû⁠/, “to soak, to bathe”), Ge'ez ጸብኀ (ṣäbḫä, “to dip”).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:63705d0f8c6b4415b32f647e`، ש־ת־ן (الرتبة 126)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: שטן `śāṭān`، noun، «Satan, adversary, opponent» [Kaikki Hebrew، السطر 1415]؛ שתן `shéten`، noun، «urine» [Kaikki Hebrew، السطر 8720]؛ ש־ת־ן `sh-t-n`، root، «forming words related to urine» [Kaikki Hebrew، السطر 8721]
 - أقدمُ صورةٍ مستعادة: From a root relating to opposition or accusation. Compare Arabic شَيْطَان (šayṭān), Aramaic סָטָנָא, Ge'ez ሰይጣን (säyṭan), and Classical Syriac ܣܛܢܐ (sāṭānā).
@@ -3032,7 +4330,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root شطر «انقسام الشيء - في حالته - إلى نصفين بحسب الجهة» (licensed؛ LIQ-03)؛ root شطن «امتداد بالغ مع اعوجاج، أو انحراف» (licensed؛ DENT-05)؛ root شطن «امتداد بالغ مع اعوجاج، أو انحراف» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ LIQ-03)؛ nucleus تم «التميز الشيء مستقلا» (licensed؛ LIQ-02)؛ nucleus تن «الضغط على القوة الباطنية للشيء» (licensed؛ DENT-05)؛ nucleus تن «الضغط على القوة الباطنية للشيء» (licensed؛ SIB-05)
 - مسارُ الصوت: root شطر «انقسام الشيء - في حالته - إلى نصفين بحسب الجهة» (licensed؛ LIQ-03)؛ root شطن «امتداد بالغ مع اعوجاج، أو انحراف» (licensed؛ DENT-05)؛ root شطن «امتداد بالغ مع اعوجاج، أو انحراف» (licensed؛ مباشر)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ LIQ-03)؛ nucleus تم «التميز الشيء مستقلا» (licensed؛ LIQ-02)؛ nucleus تن «الضغط على القوة الباطنية للشيء» (licensed؛ DENT-05)؛ nucleus تن «الضغط على القوة الباطنية للشيء» (licensed؛ SIB-05)
 - المعنى من قاموس الفرع: שטן `śāṭān`، noun، «Satan, adversary, opponent» [Kaikki Hebrew، السطر 1415]؛ שתן `shéten`، noun، «urine» [Kaikki Hebrew، السطر 8720]؛ ש־ת־ן `sh-t-n`، root، «forming words related to urine» [Kaikki Hebrew، السطر 8721]
@@ -3041,14 +4339,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1415:en-שטן-he-noun-iRmgSn48: الرسم=שטן، الرومنة=śāṭān، الصنف=noun، المعنى=Satan, adversary, opponent، السلف/الخلف=From a root relating to opposition or accusation. Compare Arabic شَيْطَان (šayṭān), Aramaic סָטָנָא, Ge'ez ሰይጣን (säyṭan), and Classical Syriac ܣܛܢܐ (sāṭānā).، القرض=لا وسم آلي؛ kaikki_hebrew:8720:en-שתן-he-noun-g1O-oXKf: الرسم=שתן، الرومنة=shéten، الصنف=noun، المعنى=urine، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8721:en-ש־ת־ן-he-root-zGxn4YAc: الرسم=ש־ת־ן، الرومنة=sh-t-n، الصنف=root، المعنى=forming words related to urine، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:63705d0f8c6b4415b32f647e -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: שׂטן، إعادة فحص الرتبة 126.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:3d1a812269dcc11383f991f3`، רעב (الرتبة 127)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=רעב في اشتهاء الطعام والجوع وحده، على مدار الرغبة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: רעב `ra'év`، adj، «hungry (desirous of food)» [Kaikki Hebrew، السطر 3189]؛ רעב `ra'áv`، noun، «hunger» [Kaikki Hebrew، السطر 3190]؛ רעב `ra'áv`، verb، «to hunger, to be malnourished» [Kaikki Hebrew، السطر 3191]
 - أقدمُ صورةٍ مستعادة: Related to Arabic رَغِبَ (raḡiba, “to desire”).؛ Related to Arabic رَغِبَ (raḡiba, “to desire”).؛ Related to Arabic رَغِبَ (raḡiba, “to desire”).
@@ -3056,7 +4364,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root رعب «امتلاء جوف الشيء بغضّ طَرِي يرتج فيه» (licensed؛ مباشر)؛ root رعو «الرد (بلطف) عن الاتجاه غير المرغوب» (licensed؛ LAB-05)؛ root لعب «اضطراب وتسيب فيما يصدر عن الشيء بسبب تجمع حيويته» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `رغب` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus رب «الاستغلاظ وما إليه من تماسك وتجمع» (licensed؛ مباشر)؛ nucleus رع «(الامتداد) مع رقة أو رخاوة» (licensed؛ مباشر)؛ nucleus رف «الامتداد أو الطرفية مع رقة أو رخاوة» (licensed؛ LAB-02)؛ nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LAB-04)
 - مسارُ الصوت: root رعب «امتلاء جوف الشيء بغضّ طَرِي يرتج فيه» (licensed؛ مباشر)؛ root رعو «الرد (بلطف) عن الاتجاه غير المرغوب» (licensed؛ LAB-05)؛ root لعب «اضطراب وتسيب فيما يصدر عن الشيء بسبب تجمع حيويته» (licensed؛ LIQ-01)؛ nucleus رب «الاستغلاظ وما إليه من تماسك وتجمع» (licensed؛ مباشر)؛ nucleus رع «(الامتداد) مع رقة أو رخاوة» (licensed؛ مباشر)؛ nucleus رف «الامتداد أو الطرفية مع رقة أو رخاوة» (licensed؛ LAB-02)؛ nucleus رم «التجمع الرخو في الأثناء من تحول ذي حدة» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: רעב `ra'év`، adj، «hungry (desirous of food)» [Kaikki Hebrew، السطر 3189]؛ רעב `ra'áv`، noun، «hunger» [Kaikki Hebrew، السطر 3190]؛ רעב `ra'áv`، verb، «to hunger, to be malnourished» [Kaikki Hebrew، السطر 3191]
@@ -3065,14 +4373,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:3189:en-רעב-he-adj-CO44v7iQ: الرسم=רעב، الرومنة=ra'év، الصنف=adj، المعنى=hungry (desirous of food)، السلف/الخلف=Related to Arabic رَغِبَ (raḡiba, “to desire”).، القرض=لا وسم آلي؛ kaikki_hebrew:3190:en-רעב-he-noun-W6uk-5QV: الرسم=רעב، الرومنة=ra'áv، الصنف=noun، المعنى=hunger، السلف/الخلف=Related to Arabic رَغِبَ (raḡiba, “to desire”).، القرض=لا وسم آلي؛ kaikki_hebrew:3191:en-רעב-he-verb-3EWXX1sf: الرسم=רעב، الرومنة=ra'áv، الصنف=verb، المعنى=to hunger, to be malnourished، السلف/الخلف=Related to Arabic رَغِبَ (raḡiba, “to desire”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-ECHO؛ רעב في اشتهاء الطعام والجوع وحده، على مدار الرغبة؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:3d1a812269dcc11383f991f3 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `رغب`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `رغب`، `طلب`.
+  - سند الفرع المنشور: Related to Arabic رَغِبَ (raḡiba, “to desire”). | Related to Arabic رَغِبَ (raḡiba, “to desire”). | Related to Arabic رَغِبَ (raḡiba, “to desire”).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:7325ecf50f4156f8e485c0cd`، מ־ז־ג (الرتبة 128)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=מזג في المزج وصب الخليط والمزاج وحده؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מ־ז־ג `m-z-g`، root، «forming words relating to merging» [Kaikki Hebrew، السطر 10247]؛ מזג `mazág`، verb، «to pour» [Kaikki Hebrew، السطر 7816]؛ מזג `mézeg`، noun، «temper, temperament» [Kaikki Hebrew، السطر 7817]
 - أقدمُ صورةٍ مستعادة: Compare Arabic مَزَجَ (mazaja, “to mix, to blend”)؛ Compare Arabic مِزَاج (mizāj, “temperament, mood”)
@@ -3080,7 +4402,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root مزج «خَلْطُ (مائعين) مختلفين (أو أكثر) بعضهما ببعض، وجعلهما شيئًا واحدًا» (licensed؛ GUT-03)؛ root مزج «خَلْطُ (مائعين) مختلفين (أو أكثر) بعضهما ببعض، وجعلهما شيئًا واحدًا» (licensed؛ مباشر)؛ root مزق «شقُّ الشيء (الرقيق الجرم) شقاً واصلاً إلى عمقه» (licensed؛ GUT-01)؛ root مزق «شقُّ الشيء (الرقيق الجرم) شقاً واصلاً إلى عمقه» (licensed؛ مباشر)؛ root مسك «ضَبْط الشيء، أو حبْسُه حَبْساً قوياً - في حيّز فلا يتسيب» (licensed؛ GUT-02، SIB-03)؛ root مسك «ضَبْط الشيء، أو حبْسُه حَبْساً قوياً - في حيّز فلا يتسيب» (licensed؛ SIB-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `مزج` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03، LAB-04)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ LAB-04)؛ nucleus بذ «التفرق والنثر» (licensed؛ DENT-04، LAB-04)؛ nucleus بز «النفاذ من مضيق» (licensed؛ LAB-04)
 - مسارُ الصوت: root مزج «خَلْطُ (مائعين) مختلفين (أو أكثر) بعضهما ببعض، وجعلهما شيئًا واحدًا» (licensed؛ GUT-03)؛ root مزج «خَلْطُ (مائعين) مختلفين (أو أكثر) بعضهما ببعض، وجعلهما شيئًا واحدًا» (licensed؛ مباشر)؛ root مزق «شقُّ الشيء (الرقيق الجرم) شقاً واصلاً إلى عمقه» (licensed؛ GUT-01)؛ root مزق «شقُّ الشيء (الرقيق الجرم) شقاً واصلاً إلى عمقه» (licensed؛ مباشر)؛ root مسك «ضَبْط الشيء، أو حبْسُه حَبْساً قوياً - في حيّز فلا يتسيب» (licensed؛ GUT-02، SIB-03)؛ root مسك «ضَبْط الشيء، أو حبْسُه حَبْساً قوياً - في حيّز فلا يتسيب» (licensed؛ SIB-03)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03، LAB-04)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ LAB-04)؛ nucleus بذ «التفرق والنثر» (licensed؛ DENT-04، LAB-04)؛ nucleus بز «النفاذ من مضيق» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: מ־ז־ג `m-z-g`، root، «forming words relating to merging» [Kaikki Hebrew، السطر 10247]؛ מזג `mazág`، verb، «to pour» [Kaikki Hebrew، السطر 7816]؛ מזג `mézeg`، noun، «temper, temperament» [Kaikki Hebrew، السطر 7817]
@@ -3089,14 +4411,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10247:en-מ־ז־ג-he-root-Ss7PLVAZ: الرسم=מ־ז־ג، الرومنة=m-z-g، الصنف=root، المعنى=forming words relating to merging، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:7816:en-מזג-he-verb-aD9RLbad: الرسم=מזג، الرومنة=mazág، الصنف=verb، المعنى=to pour، السلف/الخلف=Compare Arabic مَزَجَ (mazaja, “to mix, to blend”)، القرض=لا وسم آلي؛ kaikki_hebrew:7817:en-מזג-he-noun-XyjWazp2: الرسم=מזג، الرومنة=mézeg، الصنف=noun، المعنى=temper, temperament، السلف/الخلف=Compare Arabic مِزَاج (mizāj, “temperament, mood”)، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ מזג في المزج وصب الخليط والمزاج وحده؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:7325ecf50f4156f8e485c0cd -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `مزج`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `مزج`، `خلط`.
+  - سند الفرع المنشور: Compare Arabic مَزَجَ (mazaja, “to mix, to blend”) | Compare Arabic مِزَاج (mizāj, “temperament, mood”)
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:ff4153bafaab8572e9f5bf4c`، סגל (الرتبة 129)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: סגל `ségel`، noun، «personnel (employees, office staff)» [Kaikki Hebrew، السطر 4346]؛ סגל `ségel`، noun، «violet (flower)» [Kaikki Hebrew، السطر 4347]؛ סגל `Segel`، name، «a surname» [Kaikki Hebrew، السطر 4349]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -3104,7 +4440,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02، GUT-01)؛ root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02)؛ root سجر «توالي انحدار المائع ونحوه إلى الحيز حتى يتجمع ويمتلئ الحيز منه» (licensed؛ GUT-03، LIQ-01)؛ root سجر «توالي انحدار المائع ونحوه إلى الحيز حتى يتجمع ويمتلئ الحيز منه» (licensed؛ LIQ-01)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ GUT-03، SIB-02)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ GUT-03)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ SIB-02)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ مباشر)؛ root سقر «ذوبان الغليظ الذي في جوف الشيء - أو أثنائه بنفاذ الحر أو حدة شديدة إليه» (licensed؛ LIQ-01)؛ root سكر «سد الفتحة - او المنفذ - الذي يجري منه المائع - أو اللطيف؛ فيحتبس أي يقف جريانه» (licensed؛ GUT-02، LIQ-01)؛ root سكر «سد الفتحة - او المنفذ - الذي يجري منه المائع - أو اللطيف؛ فيحتبس أي يقف جريانه» (licensed؛ LIQ-01)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ GUT-02، SIB-01)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ SIB-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ثج «غزارة المائع وتجمعه» (licensed؛ DENT-02، GUT-03)؛ nucleus ثج «غزارة المائع وتجمعه» (licensed؛ DENT-02)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثق «الغلظ والشدة» (licensed؛ DENT-02، GUT-01)
 - مسارُ الصوت: root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02، GUT-01)؛ root ثقل «انجذاب الشيء المحمول إلى الأرض أو إلى أسفل تبعًا لما تجمع فيه من مادة» (licensed؛ DENT-02)؛ root سجر «توالي انحدار المائع ونحوه إلى الحيز حتى يتجمع ويمتلئ الحيز منه» (licensed؛ GUT-03، LIQ-01)؛ root سجر «توالي انحدار المائع ونحوه إلى الحيز حتى يتجمع ويمتلئ الحيز منه» (licensed؛ LIQ-01)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ GUT-03، SIB-02)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ GUT-03)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ SIB-02)؛ root سجل «تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه» (licensed؛ مباشر)؛ root سقر «ذوبان الغليظ الذي في جوف الشيء - أو أثنائه بنفاذ الحر أو حدة شديدة إليه» (licensed؛ LIQ-01)؛ root سكر «سد الفتحة - او المنفذ - الذي يجري منه المائع - أو اللطيف؛ فيحتبس أي يقف جريانه» (licensed؛ GUT-02، LIQ-01)؛ root سكر «سد الفتحة - او المنفذ - الذي يجري منه المائع - أو اللطيف؛ فيحتبس أي يقف جريانه» (licensed؛ LIQ-01)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ GUT-02، SIB-01)؛ root شكل «اجتماع شيئين مختلفين، أو ارتباطهما معًا بتميز» (licensed؛ SIB-01)؛ nucleus ثج «غزارة المائع وتجمعه» (licensed؛ DENT-02، GUT-03)؛ nucleus ثج «غزارة المائع وتجمعه» (licensed؛ DENT-02)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثق «الغلظ والشدة» (licensed؛ DENT-02، GUT-01)
 - المعنى من قاموس الفرع: סגל `ségel`، noun، «personnel (employees, office staff)» [Kaikki Hebrew، السطر 4346]؛ סגל `ségel`، noun، «violet (flower)» [Kaikki Hebrew، السطر 4347]؛ סגל `Segel`، name، «a surname» [Kaikki Hebrew، السطر 4349]
@@ -3113,14 +4449,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:4346:en-סגל-he-noun-esCU9xJe: الرسم=סגל، الرومنة=ségel، الصنف=noun، المعنى=personnel (employees, office staff)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4347:en-סגל-he-noun-LL2Q6bcV: الرسم=סגל، الرومنة=ségel، الصنف=noun، المعنى=violet (flower)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:4349:en-סגל-he-name-v2O7m9sM: الرسم=סגל، الرومنة=Segel، الصنف=name، المعنى=a surname، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:ff4153bafaab8572e9f5bf4c -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:61376fbdf731c0ef9989f9e8`، סוף (الرتبة 130)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צוף `tsúf`، noun، «nectar» [Kaikki Hebrew، السطر 2335]؛ סוף `sóf`، noun، «An end, a finish.» [Kaikki Hebrew، السطر 5894]؛ סוף `súf`، noun، «reed, (biblical) bulrush, papyrus» [Kaikki Hebrew، السطر 5895]
 - أقدمُ صورةٍ مستعادة: From Aramaic סוֹף (sōp̄)؛ From Late Egyptian ṯwfj (“papyrus; papyrus thicket”).
@@ -3128,7 +4474,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثبب «استقرار الشخص على الأرض متجمعًا بعد انتشار ما» (licensed؛ DENT-02، LAB-01، LAB-05)؛ root ثبب «استقرار الشخص على الأرض متجمعًا بعد انتشار ما» (licensed؛ DENT-02، LAB-05)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-01، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-01)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-02، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-02)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02)؛ root سبب «امتداد دقيق قوي موصل» (licensed؛ LAB-01، LAB-05)؛ root سبب «امتداد دقيق قوي موصل» (licensed؛ LAB-05)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ LAB-02، LAB-06)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ LAB-02)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ LAB-06، SIB-02)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ LAB-06)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ SIB-02)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ مباشر)؛ root سوم «امتداد بقاء أو مرور وذهاب في حيز بلا حد» (licensed؛ LAB-04، LAB-06)؛ root سوم «امتداد بقاء أو مرور وذهاب في حيز بلا حد» (licensed؛ LAB-04)؛ root سيب «جريان الشيء أو سريانه عن تعوق ما بلا نهاية (معتادة)» (manual-condition؛ GLD-01، LAB-01)؛ root سيب «جريان الشيء أو سريانه عن تعوق ما بلا نهاية (معتادة)» (manual-condition؛ GLD-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-01، LAB-06، SIB-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-01، SIB-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-06، SIB-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ SIB-01)؛ root صبب «حَدْرُ المائع ونحوه ( من المتسيب) من أعلى إلى أسفل بقوة أو دفع ويلزمه الاختراق والتجمع والثبات ر» (licensed؛ LAB-01، LAB-05، SIB-06)؛ root صبب «حَدْرُ المائع ونحوه ( من المتسيب) من أعلى إلى أسفل بقوة أو دفع ويلزمه الاختراق والتجمع والثبات ر» (licensed؛ LAB-01، LAB-05)؛ root صبب «حَدْرُ المائع ونحوه ( من المتسيب) من أعلى إلى أسفل بقوة أو دفع ويلزمه الاختراق والتجمع والثبات ر» (licensed؛ LAB-05، SIB-06)؛ root صبب «حَدْرُ المائع ونحوه ( من المتسيب) من أعلى إلى أسفل بقوة أو دفع ويلزمه الاختراق والتجمع والثبات ر» (licensed؛ LAB-05)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، LAB-06، SIB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، LAB-06، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، LAB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، SIB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-02، LAB-06، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-02، LAB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-02، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-06، SIB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-06، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ SIB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ مباشر)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-02، LAB-06، SIB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-02، LAB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-02، SIB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-02)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-06، SIB-02)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-06، SIB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ SIB-02)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ SIB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ مباشر)؛ root صوم «توقف أو وقوف وقيام عن الحركة والامتداد المعتاد» (licensed؛ LAB-04، LAB-06، SIB-06)؛ root صوم «توقف أو وقوف وقيام عن الحركة والامتداد المعتاد» (licensed؛ LAB-04، LAB-06)؛ root صوم «توقف أو وقوف وقيام عن الحركة والامتداد المعتاد» (licensed؛ LAB-04، SIB-06)؛ root صوم «توقف أو وقوف وقيام عن الحركة والامتداد المعتاد» (licensed؛ LAB-04)؛ root صيب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (manual-condition؛ GLD-01، LAB-01، SIB-06)؛ root صيب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (manual-condition؛ GLD-01، LAB-01)؛ root صيب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (manual-condition؛ GLD-01، SIB-06)؛ root صيب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (manual-condition؛ GLD-01)؛ root صيف «عدول الشيء عن الوجه المفترض جريانه عليه اطرادًا - اي تحوله عن ذلك الوجه» (manual-condition؛ GLD-01، SIB-06)؛ root صيف «عدول الشيء عن الوجه المفترض جريانه عليه اطرادًا - اي تحوله عن ذلك الوجه» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 10/10؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-01)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-02)
 - مسارُ الصوت: root ثبب «استقرار الشخص على الأرض متجمعًا بعد انتشار ما» (licensed؛ DENT-02، LAB-01، LAB-05)؛ root ثبب «استقرار الشخص على الأرض متجمعًا بعد انتشار ما» (licensed؛ DENT-02، LAB-05)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-01، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-01)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-02، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-02)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02، LAB-06)؛ root ثوب «رجوع الشيء المتفرق الذاهب وتجمعه في نفس مكانه ثانية» (licensed؛ DENT-02)؛ root سبب «امتداد دقيق قوي موصل» (licensed؛ LAB-01، LAB-05)؛ root سبب «امتداد دقيق قوي موصل» (licensed؛ LAB-05)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ LAB-02، LAB-06)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ LAB-02)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ LAB-06، SIB-02)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ LAB-06)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ SIB-02)؛ root سوف «سحب غليظ أو حاد إلى الأثناء أو مدّه فيها بقوة» (licensed؛ مباشر)؛ root سوم «امتداد بقاء أو مرور وذهاب في حيز بلا حد» (licensed؛ LAB-04، LAB-06)؛ root سوم «امتداد بقاء أو مرور وذهاب في حيز بلا حد» (licensed؛ LAB-04)؛ root سيب «جريان الشيء أو سريانه عن تعوق ما بلا نهاية (معتادة)» (manual-condition؛ GLD-01، LAB-01)؛ root سيب «جريان الشيء أو سريانه عن تعوق ما بلا نهاية (معتادة)» (manual-condition؛ GLD-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-01، LAB-06، SIB-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-01، SIB-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ LAB-06، SIB-01)؛ root شوب «خَلْطُ شيء (غريب) عن آخر به، بحيث ينتشر في أثنائه متلازمين» (licensed؛ SIB-01)؛ root صبب «حَدْرُ المائع ونحوه ( من المتسيب) من أعلى إلى أسفل بقوة أو دفع ويلزمه الاختراق والتجمع والثبات ر» (licensed؛ LAB-01، LAB-05، SIB-06)؛ root صبب «حَدْرُ المائع ونحوه ( من المتسيب) من أعلى إلى أسفل بقوة أو دفع ويلزمه الاختراق والتجمع والثبات ر» (licensed؛ LAB-01، LAB-05)؛ root صبب «حَدْرُ المائع ونحوه ( من المتسيب) من أعلى إلى أسفل بقوة أو دفع ويلزمه الاختراق والتجمع والثبات ر» (licensed؛ LAB-05، SIB-06)؛ root صبب «حَدْرُ المائع ونحوه ( من المتسيب) من أعلى إلى أسفل بقوة أو دفع ويلزمه الاختراق والتجمع والثبات ر» (licensed؛ LAB-05)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، LAB-06، SIB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، LAB-06، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، LAB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، SIB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-01)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-02، LAB-06، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-02، LAB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-02، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-06، SIB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-06، SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ LAB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ SIB-02)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ SIB-06)؛ root صوب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (licensed؛ مباشر)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-02، LAB-06، SIB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-02، LAB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-02، SIB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-02)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-06، SIB-02)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-06، SIB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ LAB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ SIB-02)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ SIB-06)؛ root صوف «الصوف المعروف: ما يثبت على جلد الغنم كأدق الشعر بأكثف ما يكون» (licensed؛ مباشر)؛ root صوم «توقف أو وقوف وقيام عن الحركة والامتداد المعتاد» (licensed؛ LAB-04، LAB-06، SIB-06)؛ root صوم «توقف أو وقوف وقيام عن الحركة والامتداد المعتاد» (licensed؛ LAB-04، LAB-06)؛ root صوم «توقف أو وقوف وقيام عن الحركة والامتداد المعتاد» (licensed؛ LAB-04، SIB-06)؛ root صوم «توقف أو وقوف وقيام عن الحركة والامتداد المعتاد» (licensed؛ LAB-04)؛ root صيب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (manual-condition؛ GLD-01، LAB-01، SIB-06)؛ root صيب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (manual-condition؛ GLD-01، LAB-01)؛ root صيب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (manual-condition؛ GLD-01، SIB-06)؛ root صيب «هُوِيٌّ إلى شيء مع موافقته أي الوقوع (الاصطدام) به» (manual-condition؛ GLD-01)؛ root صيف «عدول الشيء عن الوجه المفترض جريانه عليه اطرادًا - اي تحوله عن ذلك الوجه» (manual-condition؛ GLD-01، SIB-06)؛ root صيف «عدول الشيء عن الوجه المفترض جريانه عليه اطرادًا - اي تحوله عن ذلك الوجه» (manual-condition؛ GLD-01)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-01، LAB-05)؛ nucleus بب «الانفتاح والمنفذ» (licensed؛ LAB-05)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-01)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-02)
 - المعنى من قاموس الفرع: צוף `tsúf`، noun، «nectar» [Kaikki Hebrew، السطر 2335]؛ סוף `sóf`، noun، «An end, a finish.» [Kaikki Hebrew، السطر 5894]؛ סוף `súf`، noun، «reed, (biblical) bulrush, papyrus» [Kaikki Hebrew، السطر 5895]
@@ -3137,14 +4483,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2335:en-צוף-he-noun-RFym64TS: الرسم=צוף، الرومنة=tsúf، الصنف=noun، المعنى=nectar، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:5894:en-סוף-he-noun-hH8WAggV: الرسم=סוף، الرومنة=sóf، الصنف=noun، المعنى=An end, a finish.، السلف/الخلف=From Aramaic סוֹף (sōp̄)، القرض=لا وسم آلي؛ kaikki_hebrew:5895:en-סוף-he-noun-gDbRuQU7: الرسم=סוף، الرومنة=súf، الصنف=noun، المعنى=reed, (biblical) bulrush, papyrus، السلف/الخلف=From Late Egyptian ṯwfj (“papyrus; papyrus thicket”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:61376fbdf731c0ef9989f9e8 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 10/10؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:a7bb9ab022e5d41bf4cad731`، נשר (الرتبة 131)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=נשר «النسر» الطائر وحده، لا سقوط الثمر؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: נשר `nésher`، noun، «griffon vulture» [Kaikki Hebrew، السطر 851]؛ נשר `nésher`، noun، «windfall (fruit)» [Kaikki Hebrew، السطر 852]؛ נשר `nashár`، verb، «to fall, to drop, to shed» [Kaikki Hebrew، السطر 853]
 - أقدمُ صورةٍ مستعادة: From Proto-West Semitic *našr-.
@@ -3152,7 +4508,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root نثر «تفرق الدقاق الكثيفة المتجمعة منتشرة» (licensed؛ DENT-02)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (licensed؛ SIB-01)؛ root نشر «تفرق ببسط وامتدادٍ نُشُوءًا، أو إيقاعًا» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `نسر` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ SIB-05)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثن «التبطن والكثرة في الداخل» (licensed؛ DENT-02، LIQ-03)
 - مسارُ الصوت: root نثر «تفرق الدقاق الكثيفة المتجمعة منتشرة» (licensed؛ DENT-02)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (licensed؛ SIB-01)؛ root نشر «تفرق ببسط وامتدادٍ نُشُوءًا، أو إيقاعًا» (licensed؛ مباشر)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ SIB-05)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثن «التبطن والكثرة في الداخل» (licensed؛ DENT-02، LIQ-03)
 - المعنى من قاموس الفرع: נשר `nésher`، noun، «griffon vulture» [Kaikki Hebrew، السطر 851]؛ נשר `nésher`، noun، «windfall (fruit)» [Kaikki Hebrew، السطر 852]؛ נשר `nashár`، verb، «to fall, to drop, to shed» [Kaikki Hebrew، السطر 853]
@@ -3161,14 +4517,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:851:en-נשר-he-noun-6a48wxb5: الرسم=נשר، الرومنة=nésher، الصنف=noun، المعنى=griffon vulture، السلف/الخلف=From Proto-West Semitic *našr-.، القرض=لا وسم آلي؛ kaikki_hebrew:852:en-נשר-he-noun-Zfb5zgZq: الرسم=נשר، الرومنة=nésher، الصنف=noun، المعنى=windfall (fruit)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:853:en-נשר-he-verb-M8cq2BLZ: الرسم=נשר، الرومنة=nashár، الصنف=verb، المعنى=to fall, to drop, to shed، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ נשר «النسر» الطائر وحده، لا سقوط الثمر؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:a7bb9ab022e5d41bf4cad731 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `نسر`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `نسر`، `طائر`.
+  - سند الفرع المنشور: From Proto-West Semitic *našr-.
+  - مسار الصوت اللازم وحده: SIB-01.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:5392e34507897bcee8712911`، נ־ג־ד (الرتبة 132)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: נ־ג־ד `n-g-d`، root، «Related to speaking, narrating.» [Kaikki Hebrew، السطر 13924]؛ נגד `nagád`، verb، «to oppose» [Kaikki Hebrew، السطر 801]؛ נגד `nagád`، noun، «warrant officer» [Kaikki Hebrew، السطر 802]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -3176,7 +4546,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root رقد «امتداد جسم الشيء متسطحًا ثابتًا ساكنًا لا زوائد قائمة منه» (licensed؛ LIQ-03)؛ root ركد «ثبات ما شأنه الحركة في مكانه متجمعًا لا يبرح» (licensed؛ GUT-02، LIQ-03)؛ root ركد «ثبات ما شأنه الحركة في مكانه متجمعًا لا يبرح» (licensed؛ LIQ-03)؛ root ركض «حركة مضطربة قوية في حَيِّز، أو جوف» (licensed؛ GUT-02، LIQ-03)؛ root ركض «حركة مضطربة قوية في حَيِّز، أو جوف» (licensed؛ LIQ-03)؛ root مجد «امتلاء الجسم (بلطيف) له قوة ووحدة أثر» (licensed؛ GUT-03، LIQ-02)؛ root مجد «امتلاء الجسم (بلطيف) له قوة ووحدة أثر» (licensed؛ LIQ-02)؛ root نجد «رفع مع شَدٍّ - أو شِدَّةٍ واحتباس» (licensed؛ DENT-06، GUT-03)؛ root نجد «رفع مع شَدٍّ - أو شِدَّةٍ واحتباس» (licensed؛ DENT-06)؛ root نجد «رفع مع شَدٍّ - أو شِدَّةٍ واحتباس» (licensed؛ GUT-03)؛ root نجد «رفع مع شَدٍّ - أو شِدَّةٍ واحتباس» (licensed؛ مباشر)؛ root نقذ «استخلاص الشيء في قوة من بين ما لا يُرْضَى حوزه إياه أو تمكنه منه» (scope-gap؛ DENT-03)؛ root نقض «تفكك ما قوي ارتباط أجزائه الباطنة؛ لضغط شديد، أو نحوه» (licensed؛ DENT-06)؛ root نقض «تفكك ما قوي ارتباط أجزائه الباطنة؛ لضغط شديد، أو نحوه» (licensed؛ GUT-01)؛ root نقض «تفكك ما قوي ارتباط أجزائه الباطنة؛ لضغط شديد، أو نحوه» (licensed؛ مباشر)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ DENT-06، GUT-02)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ DENT-06)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ GUT-01)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ GUT-02)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 7/7؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus جد «العظم والامتداد» (licensed؛ DENT-06، GUT-03)؛ nucleus جد «العظم والامتداد» (licensed؛ DENT-06)؛ nucleus جد «العظم والامتداد» (licensed؛ GUT-03)؛ nucleus جد «العظم والامتداد» (licensed؛ مباشر)
 - مسارُ الصوت: root رقد «امتداد جسم الشيء متسطحًا ثابتًا ساكنًا لا زوائد قائمة منه» (licensed؛ LIQ-03)؛ root ركد «ثبات ما شأنه الحركة في مكانه متجمعًا لا يبرح» (licensed؛ GUT-02، LIQ-03)؛ root ركد «ثبات ما شأنه الحركة في مكانه متجمعًا لا يبرح» (licensed؛ LIQ-03)؛ root ركض «حركة مضطربة قوية في حَيِّز، أو جوف» (licensed؛ GUT-02، LIQ-03)؛ root ركض «حركة مضطربة قوية في حَيِّز، أو جوف» (licensed؛ LIQ-03)؛ root مجد «امتلاء الجسم (بلطيف) له قوة ووحدة أثر» (licensed؛ GUT-03، LIQ-02)؛ root مجد «امتلاء الجسم (بلطيف) له قوة ووحدة أثر» (licensed؛ LIQ-02)؛ root نجد «رفع مع شَدٍّ - أو شِدَّةٍ واحتباس» (licensed؛ DENT-06، GUT-03)؛ root نجد «رفع مع شَدٍّ - أو شِدَّةٍ واحتباس» (licensed؛ DENT-06)؛ root نجد «رفع مع شَدٍّ - أو شِدَّةٍ واحتباس» (licensed؛ GUT-03)؛ root نجد «رفع مع شَدٍّ - أو شِدَّةٍ واحتباس» (licensed؛ مباشر)؛ root نقذ «استخلاص الشيء في قوة من بين ما لا يُرْضَى حوزه إياه أو تمكنه منه» (scope-gap؛ DENT-03)؛ root نقض «تفكك ما قوي ارتباط أجزائه الباطنة؛ لضغط شديد، أو نحوه» (licensed؛ DENT-06)؛ root نقض «تفكك ما قوي ارتباط أجزائه الباطنة؛ لضغط شديد، أو نحوه» (licensed؛ GUT-01)؛ root نقض «تفكك ما قوي ارتباط أجزائه الباطنة؛ لضغط شديد، أو نحوه» (licensed؛ مباشر)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ DENT-06، GUT-02)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ DENT-06)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ GUT-01)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ GUT-02)؛ root نكد «قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه» (licensed؛ مباشر)؛ nucleus جد «العظم والامتداد» (licensed؛ DENT-06، GUT-03)؛ nucleus جد «العظم والامتداد» (licensed؛ DENT-06)؛ nucleus جد «العظم والامتداد» (licensed؛ GUT-03)؛ nucleus جد «العظم والامتداد» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: נ־ג־ד `n-g-d`، root، «Related to speaking, narrating.» [Kaikki Hebrew، السطر 13924]؛ נגד `nagád`، verb، «to oppose» [Kaikki Hebrew، السطر 801]؛ נגד `nagád`، noun، «warrant officer» [Kaikki Hebrew، السطر 802]
@@ -3185,14 +4555,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:13924:en-נ־ג־ד-he-root-x8qKx2~f: الرسم=נ־ג־ד، الرومنة=n-g-d، الصنف=root، المعنى=Related to speaking, narrating.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:801:en-נגד-he-verb-OIKfSII1: الرسم=נגד، الرومنة=nagád، الصنف=verb، المعنى=to oppose، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:802:en-נגד-he-noun-yEsYrMLs: الرسم=נגד، الرومنة=nagád، الصنف=noun، المعنى=warrant officer، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:5392e34507897bcee8712911 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 7/7؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:b34da48b970a6ce4f64bb7cb`، רפה (الرتبة 133)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: רפה `rafé`، noun، «The Hebrew diacritical mark rafe (ִ◌ֿ).» [Kaikki Hebrew، السطر 8344]؛ רפה `rafé`، adj، «weak» [Kaikki Hebrew، السطر 8345]؛ רפה `rafá`، verb، «to slacken» [Kaikki Hebrew، السطر 8346]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -3200,7 +4580,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ GUT-04، LAB-01)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ GUT-04، LAB-02)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ GUT-04)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-01)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-02)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ مباشر)؛ root ربع «التئام الشيء متجمعًا متناسب الأبعاد مع عدم انتشاره» (licensed؛ GUT-04، LAB-01)؛ root ربع «التئام الشيء متجمعًا متناسب الأبعاد مع عدم انتشاره» (licensed؛ GUT-04، LAB-02)؛ root ربع «التئام الشيء متجمعًا متناسب الأبعاد مع عدم انتشاره» (licensed؛ GUT-04)؛ root رفع «جَذْبُ الشيء - أو دَفْعُه - مسافة إلى أعلى (بقوة)» (licensed؛ GUT-04، LAB-02)؛ root رفع «جَذْبُ الشيء - أو دَفْعُه - مسافة إلى أعلى (بقوة)» (licensed؛ GUT-04)؛ root رمح «الطعن من بعيد» (licensed؛ GUT-04، LAB-04)؛ root رمح «الطعن من بعيد» (licensed؛ LAB-04)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ GUT-04، LAB-05)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ LAB-05)؛ root روع «كمال ظاهر الشيء رواء مع رقة باطنه بما يناسب طبيعته» (licensed؛ GUT-04، LAB-05)؛ root روغ «تقلب وتحول - أو تقليب وتحويل - يُقْصَد به شمول التغطّي برخو متسيّب» (licensed؛ GUT-04، LAB-05)؛ root لبس «تغطية بمداخلة وملازمة» (scope-gap؛ LAB-01، LIQ-01، SIB-04)؛ root لبس «تغطية بمداخلة وملازمة» (scope-gap؛ LIQ-01، SIB-04)؛ root لفح «حدة تندفع من شيء فتصيب ظاهر ما يعرض لها» (licensed؛ GUT-04، LIQ-01)؛ root لفح «حدة تندفع من شيء فتصيب ظاهر ما يعرض لها» (licensed؛ LIQ-01)؛ root نبع «انبثاث رقيق الجرم أو خالصه من باطن متجمعا بلا جهد» (licensed؛ GUT-04، LAB-01، LIQ-03)؛ root نبع «انبثاث رقيق الجرم أو خالصه من باطن متجمعا بلا جهد» (licensed؛ GUT-04، LIQ-03)؛ root نفح «اندفاع الشيء (اللطيف أو الدقيق) في غلظ وقوة من مقره» (licensed؛ GUT-04، LIQ-03)؛ root نفح «اندفاع الشيء (اللطيف أو الدقيق) في غلظ وقوة من مقره» (licensed؛ LIQ-03)؛ root نفس «لطيف يسري في فتوق أثناء الشيء؛ فيصلحه، ويتيح له التصرف» (scope-gap؛ LIQ-03، SIB-04)؛ root نفع «فائدة تنال من الشيء، أو جدوى تعود منه» (licensed؛ GUT-04، LIQ-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 11/11؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-02)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04، LAB-01)
 - مسارُ الصوت: root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ GUT-04، LAB-01)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ GUT-04، LAB-02)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ GUT-04)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-01)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-02)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ مباشر)؛ root ربع «التئام الشيء متجمعًا متناسب الأبعاد مع عدم انتشاره» (licensed؛ GUT-04، LAB-01)؛ root ربع «التئام الشيء متجمعًا متناسب الأبعاد مع عدم انتشاره» (licensed؛ GUT-04، LAB-02)؛ root ربع «التئام الشيء متجمعًا متناسب الأبعاد مع عدم انتشاره» (licensed؛ GUT-04)؛ root رفع «جَذْبُ الشيء - أو دَفْعُه - مسافة إلى أعلى (بقوة)» (licensed؛ GUT-04، LAB-02)؛ root رفع «جَذْبُ الشيء - أو دَفْعُه - مسافة إلى أعلى (بقوة)» (licensed؛ GUT-04)؛ root رمح «الطعن من بعيد» (licensed؛ GUT-04، LAB-04)؛ root رمح «الطعن من بعيد» (licensed؛ LAB-04)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ GUT-04، LAB-05)؛ root روح «انبساط - أو اتساع وانتشار - مع شمول ولطفٍ ما» (licensed؛ LAB-05)؛ root روع «كمال ظاهر الشيء رواء مع رقة باطنه بما يناسب طبيعته» (licensed؛ GUT-04، LAB-05)؛ root روغ «تقلب وتحول - أو تقليب وتحويل - يُقْصَد به شمول التغطّي برخو متسيّب» (licensed؛ GUT-04، LAB-05)؛ root لبس «تغطية بمداخلة وملازمة» (scope-gap؛ LAB-01، LIQ-01، SIB-04)؛ root لبس «تغطية بمداخلة وملازمة» (scope-gap؛ LIQ-01، SIB-04)؛ root لفح «حدة تندفع من شيء فتصيب ظاهر ما يعرض لها» (licensed؛ GUT-04، LIQ-01)؛ root لفح «حدة تندفع من شيء فتصيب ظاهر ما يعرض لها» (licensed؛ LIQ-01)؛ root نبع «انبثاث رقيق الجرم أو خالصه من باطن متجمعا بلا جهد» (licensed؛ GUT-04، LAB-01، LIQ-03)؛ root نبع «انبثاث رقيق الجرم أو خالصه من باطن متجمعا بلا جهد» (licensed؛ GUT-04، LIQ-03)؛ root نفح «اندفاع الشيء (اللطيف أو الدقيق) في غلظ وقوة من مقره» (licensed؛ GUT-04، LIQ-03)؛ root نفح «اندفاع الشيء (اللطيف أو الدقيق) في غلظ وقوة من مقره» (licensed؛ LIQ-03)؛ root نفس «لطيف يسري في فتوق أثناء الشيء؛ فيصلحه، ويتيح له التصرف» (scope-gap؛ LIQ-03، SIB-04)؛ root نفع «فائدة تنال من الشيء، أو جدوى تعود منه» (licensed؛ GUT-04، LIQ-03)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-01)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04، LAB-02)؛ nucleus بء «الاستقرار والرجوع» (licensed؛ GUT-04)؛ nucleus بح «الكشف والفراغ» (licensed؛ GUT-04، LAB-01)
 - المعنى من قاموس الفرع: רפה `rafé`، noun، «The Hebrew diacritical mark rafe (ִ◌ֿ).» [Kaikki Hebrew، السطر 8344]؛ רפה `rafé`، adj، «weak» [Kaikki Hebrew، السطر 8345]؛ רפה `rafá`، verb، «to slacken» [Kaikki Hebrew، السطر 8346]
@@ -3209,14 +4589,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:8344:en-רפה-he-noun-vm7ERnCU: الرسم=רפה، الرومنة=rafé، الصنف=noun، المعنى=The Hebrew diacritical mark rafe (ִ◌ֿ).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8345:en-רפה-he-adj-SBukAZyd: الرسم=רפה، الرومنة=rafé، الصنف=adj، المعنى=weak، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8346:en-רפה-he-verb-gaYq3hAi: الرسم=רפה، الرومنة=rafá، الصنف=verb، المعنى=to slacken، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:b34da48b970a6ce4f64bb7cb -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 11/11؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:9b66a00d23300e96da1a993b`، חלל (الرتبة 134)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=قرار المراجعة الثالثة في الجولة الثانية؛ يلزم إثبات مروحة مصدرين عربيين قديمين مستقلة للبطاقة نفسها قبل إعادة الحكم؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: חלל `khalál`، noun، «space, void (empty volume)» [Kaikki Hebrew، السطر 11350]؛ חללית `khalalít`، noun، «spacecraft» [Kaikki Hebrew، السطر 12857]؛ תחנת חלל `takhanát-khalál`، noun، «A space station.» [Kaikki Hebrew، السطر 5943]
 - أقدمُ صورةٍ مستعادة: Related to Classical Syriac ܚܠܠܐ, Arabic خلال.؛ From חָלָל (khalál, “space”) + ־ית (-ít). Coined in 1952 by Uri Avnery in HaOlam HaZeh.
@@ -3224,7 +4614,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حلل «فك ما كان مَشْدُودًا، أو تَسْييبه» (licensed؛ مباشر)؛ root خلل «فراغ يخترق أثناء متماسكةً من حوله» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: أعادت المراجعة الثالثة البطاقة إلى التعليق؛ الأدلة والمصادر المذكورة أدناه محفوظة، لكنها لا تُعد إجازة نهائية لهذه البطاقة.
 - المقابلُ من اللسان: nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءل «» (licensed؛ GUT-04)؛ nucleus ءم «النقص والانفراد» (licensed؛ GUT-04، LIQ-02)
 - مسارُ الصوت: root حلل «فك ما كان مَشْدُودًا، أو تَسْييبه» (licensed؛ مباشر)؛ root خلل «فراغ يخترق أثناء متماسكةً من حوله» (licensed؛ GUT-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءخ «الفراغ أو الخلو في بنية الشيء» (licensed؛ GUT-04، GUT-05)؛ nucleus ءل «» (licensed؛ GUT-04)؛ nucleus ءم «النقص والانفراد» (licensed؛ GUT-04، LIQ-02)
 - المعنى من قاموس الفرع: חלל `khalál`، noun، «space, void (empty volume)» [Kaikki Hebrew، السطر 11350]؛ חללית `khalalít`، noun، «spacecraft» [Kaikki Hebrew، السطر 12857]؛ תחנת חלל `takhanát-khalál`، noun، «A space station.» [Kaikki Hebrew، السطر 5943]
@@ -3233,14 +4623,37 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11350:en-חלל-he-noun-gyl2DLRr: الرسم=חלל، الرومنة=khalál، الصنف=noun، المعنى=space, void (empty volume)، السلف/الخلف=Related to Classical Syriac ܚܠܠܐ, Arabic خلال.، القرض=لا وسم آلي؛ kaikki_hebrew:12857:en-חללית-he-noun-Gxzi~7dq: الرسم=חללית، الرومنة=khalalít، الصنف=noun، المعنى=spacecraft، السلف/الخلف=From חָלָל (khalál, “space”) + ־ית (-ít). Coined in 1952 by Uri Avnery in HaOlam HaZeh.، القرض=لا وسم آلي؛ kaikki_hebrew:5943:en-תחנת_חלל-he-noun-~JZQYbvP: الرسم=תחנת חלל، الرومنة=takhanát-khalál، الصنف=noun، المعنى=A space station.، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP؛ أعادتها المراجعة الثالثة إلى التعليق.
+- الحكم (استكشاف): غير صادر؛ الحكم الموجب السابق محفوظ تاريخيًا ولا يدخل العد حتى إعادة الإجازة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:9b66a00d23300e96da1a993b -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `خلل`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
+  - ألفاظ التحقق الدلالي: `خلل`، `خلال`، `فرج`.
+  - سند الفرع المنشور: Related to Classical Syriac ܚܠܠܐ, Arabic خلال. | From חָלָל (khalál, “space”) + ־ית (-ít). Coined in 1952 by Uri Avnery in HaOlam HaZeh.
+  - مسار الصوت اللازم وحده: GUT-05.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+<!-- THIRD-LENS-ROUND-TWO:RETURN:hebrew:family:9b66a00d23300e96da1a993b -->
+- ملحق قرار المراجعة الثالثة، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - المصادر القديمة المسماة المحفوظة: لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
+  - الحقول الحاكمة السابقة، محفوظة بلا محو:
+    - `- عائق: النوع=READY؛ يتطلب=חלל «الفضاء والفراغ» وحده، على مدار الخلال والفرجة؛`
+    - `- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `خلل` من لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري؛ تحقق المعنى في المصدرين بلا اقتطاع.`
+    - `- حالةُ الإغلاق: READY.`
+    - `- الحكم (استكشاف): ROOT-ECHO؛ חלל «الفضاء والفراغ» وحده، على مدار الخلال والفرجة؛ لا وراثة عبر عضو مخالف.`
+
 ### بطاقة: `hebrew:family:5bd8b2840850d6a4c1a4af23`، נחס (الرتبة 135)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=LOANWORD؛ يتطلب=أعضاء נחס موسومة صراحة بأنها مقترضة من العربية نحس؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: נחס `nákhs`، noun، «bad luck, misfortune» [Kaikki Hebrew، السطر 16364]؛ נחס `nákhs`، adj، «unlucky, cursed, jinxed» [Kaikki Hebrew، السطر 16365]؛ נחס `nikhés`، verb، «to jinx» [Kaikki Hebrew، السطر 16366]
 - أقدمُ صورةٍ مستعادة: Borrowed from Arabic نَحْس (naḥs, “bad luck, ill omen”). Doublet of נַחַשׁ (nákhash, “sorcery”).؛ Borrowed from Arabic نَحْس (naḥs, “bad luck, ill omen”). Doublet of נַחַשׁ (nákhash, “sorcery”).؛ Borrowed from Arabic نَحْس (naḥs, “bad luck, ill omen”). Doublet of נַחַשׁ (nákhash, “sorcery”).
@@ -3248,7 +4661,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root محص «خلوص الشيء من الغليظ المختلط به؛ فلا يبقى إلا صُلبه وحقيقته» (licensed؛ LIQ-02، SIB-06)؛ root محص «خلوص الشيء من الغليظ المختلط به؛ فلا يبقى إلا صُلبه وحقيقته» (licensed؛ LIQ-02)؛ root نحس «حدة ودقة تنبت مع فراغ أثناء» (licensed؛ SIB-02)؛ root نحس «حدة ودقة تنبت مع فراغ أثناء» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus حث «تسيب الشيء قطعًا جافة صغيرة، كحبيبات الرمل الخشن» (licensed؛ DENT-02)؛ nucleus حز «ما يشبه الشق الدقيق في شيء صلب وما يلزمه من التميز» (licensed؛ SIB-03)؛ nucleus حس «انكشاف الظاهر وبدوه من زوال ما يعروه» (licensed؛ SIB-02)؛ nucleus حس «انكشاف الظاهر وبدوه من زوال ما يعروه» (licensed؛ مباشر)
 - مسارُ الصوت: root محص «خلوص الشيء من الغليظ المختلط به؛ فلا يبقى إلا صُلبه وحقيقته» (licensed؛ LIQ-02، SIB-06)؛ root محص «خلوص الشيء من الغليظ المختلط به؛ فلا يبقى إلا صُلبه وحقيقته» (licensed؛ LIQ-02)؛ root نحس «حدة ودقة تنبت مع فراغ أثناء» (licensed؛ SIB-02)؛ root نحس «حدة ودقة تنبت مع فراغ أثناء» (licensed؛ مباشر)؛ nucleus حث «تسيب الشيء قطعًا جافة صغيرة، كحبيبات الرمل الخشن» (licensed؛ DENT-02)؛ nucleus حز «ما يشبه الشق الدقيق في شيء صلب وما يلزمه من التميز» (licensed؛ SIB-03)؛ nucleus حس «انكشاف الظاهر وبدوه من زوال ما يعروه» (licensed؛ SIB-02)؛ nucleus حس «انكشاف الظاهر وبدوه من زوال ما يعروه» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: נחס `nákhs`، noun، «bad luck, misfortune» [Kaikki Hebrew، السطر 16364]؛ נחס `nákhs`، adj، «unlucky, cursed, jinxed» [Kaikki Hebrew، السطر 16365]؛ נחס `nikhés`، verb، «to jinx» [Kaikki Hebrew، السطر 16366]
@@ -3257,14 +4670,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16364:en-נחס-he-noun-Gbmls51~: الرسم=נחס، الرومنة=nákhs، الصنف=noun، المعنى=bad luck, misfortune، السلف/الخلف=Borrowed from Arabic نَحْس (naḥs, “bad luck, ill omen”). Doublet of נַחַשׁ (nákhash, “sorcery”).، القرض=وسم آلي؛ kaikki_hebrew:16365:en-נחס-he-adj-Vqwl23fL: الرسم=נחס، الرومنة=nákhs، الصنف=adj، المعنى=unlucky, cursed, jinxed، السلف/الخلف=Borrowed from Arabic نَحْس (naḥs, “bad luck, ill omen”). Doublet of נַחַשׁ (nákhash, “sorcery”).، القرض=وسم آلي؛ kaikki_hebrew:16366:en-נחס-he-verb-mKVsCU5F: الرسم=נחס، الرومنة=nikhés، الصنف=verb، المعنى=to jinx، السلف/الخلف=Borrowed from Arabic نَحْس (naḥs, “bad luck, ill omen”). Doublet of נַחַשׁ (nákhash, “sorcery”).، القرض=وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: LOANWORD.
+- الحكم (استكشاف): LOANWORD؛ عزل بلا حكم نسب.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:5bd8b2840850d6a4c1a4af23 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `LOANWORD`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:5ec3df78b52644d5f6e58be0`، בער (الرتبة 136)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: בער `ba'ár`، verb، «to burn» [Kaikki Hebrew، السطر 2987]؛ בער `bá'ar`، noun، «fool, stupid person» [Kaikki Hebrew، السطر 2989]؛ בער `b'or`، name، «a male given name, Beor» [Kaikki Hebrew، السطر 2990]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -3272,7 +4695,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بعر «مفارقة للجوف أو الحيز مع تميّز (أو انتظام) وتوالٍ» (licensed؛ مباشر)؛ root بعل «استقلال الشيء في تحصيل ما به قوامه مائيًّا» (licensed؛ LIQ-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)؛ nucleus بن «الامتداد والبناء» (licensed؛ LIQ-03)
 - مسارُ الصوت: root بعر «مفارقة للجوف أو الحيز مع تميّز (أو انتظام) وتوالٍ» (licensed؛ مباشر)؛ root بعل «استقلال الشيء في تحصيل ما به قوامه مائيًّا» (licensed؛ LIQ-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بع «الخروج والانتقال من حوزة» (licensed؛ مباشر)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)؛ nucleus بن «الامتداد والبناء» (licensed؛ LIQ-03)
 - المعنى من قاموس الفرع: בער `ba'ár`، verb، «to burn» [Kaikki Hebrew، السطر 2987]؛ בער `bá'ar`، noun، «fool, stupid person» [Kaikki Hebrew، السطر 2989]؛ בער `b'or`، name، «a male given name, Beor» [Kaikki Hebrew، السطر 2990]
@@ -3281,14 +4704,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2987:en-בער-he-verb-rR54mkCl: الرسم=בער، الرومنة=ba'ár، الصنف=verb، المعنى=to burn، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2989:en-בער-he-noun-muo16ly7: الرسم=בער، الرومنة=bá'ar، الصنف=noun، المعنى=fool, stupid person، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2990:en-בער-he-name-kUOZaJaE: الرسم=בער، الرومنة=b'or، الصنف=name، المعنى=a male given name, Beor، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: OPEN-CANDIDATE.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة ولعضو مرشح شاهد قديم؛ يتطلب جسر معنى عضويًا مباشرًا أو مدارًا واحدًا مسمى.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:5ec3df78b52644d5f6e58be0 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `OPEN-CANDIDATE`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:d68aa11b6dc337a5ce644c02`، עין (الرتبة 137)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עין `áyin`، noun، «spring, fountain» [Kaikki Hebrew، السطر 1000]؛ ע׳ין `ghayn`، noun، «ghayn (the Arabic letter غ)» [Kaikki Hebrew، السطر 12770]؛ עין `áyin`، noun، «eye» [Kaikki Hebrew، السطر 998]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *ʕayn-.؛ From Proto-Semitic *ʕayn-.
@@ -3296,7 +4729,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عون «مدد زائد - أو امتداد - من قوة في الباطن (أو من الخارج)» (manual-condition؛ GLD-01)؛ root عير «صلب يمتد ناتئًا بين الرقيق أو الضعيف حوله فيدعمه ويشده» (licensed؛ LIQ-03)؛ root عين «دائرة ينفذ منها لطيف لامع دائم الجريان عن مختزن كثير» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus عر «نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا» (licensed؛ LIQ-03)؛ nucleus عم «الالتحام العلوي، أي التجمع مع علو، أو في أعلى» (licensed؛ LIQ-02)؛ nucleus عن «اعتراض شيء أو ظهوره مع لطف قد يتمثل في الغموض» (licensed؛ مباشر)؛ nucleus عي «ضعف أو فراغ في الشيء» (licensed؛ مباشر)
 - مسارُ الصوت: root عون «مدد زائد - أو امتداد - من قوة في الباطن (أو من الخارج)» (manual-condition؛ GLD-01)؛ root عير «صلب يمتد ناتئًا بين الرقيق أو الضعيف حوله فيدعمه ويشده» (licensed؛ LIQ-03)؛ root عين «دائرة ينفذ منها لطيف لامع دائم الجريان عن مختزن كثير» (licensed؛ مباشر)؛ nucleus عر «نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا» (licensed؛ LIQ-03)؛ nucleus عم «الالتحام العلوي، أي التجمع مع علو، أو في أعلى» (licensed؛ LIQ-02)؛ nucleus عن «اعتراض شيء أو ظهوره مع لطف قد يتمثل في الغموض» (licensed؛ مباشر)؛ nucleus عي «ضعف أو فراغ في الشيء» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: עין `áyin`، noun، «spring, fountain» [Kaikki Hebrew، السطر 1000]؛ ע׳ין `ghayn`، noun، «ghayn (the Arabic letter غ)» [Kaikki Hebrew، السطر 12770]؛ עין `áyin`، noun، «eye» [Kaikki Hebrew، السطر 998]
@@ -3305,14 +4738,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:1000:en-עין-he-noun-hJ~EkWC-: الرسم=עין، الرومنة=áyin، الصنف=noun، المعنى=spring, fountain، السلف/الخلف=From Proto-Semitic *ʕayn-.، القرض=لا وسم آلي؛ kaikki_hebrew:12770:en-ע׳ין-he-noun-QlHED3AF: الرسم=ע׳ין، الرومنة=ghayn، الصنف=noun، المعنى=ghayn (the Arabic letter غ)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:998:en-עין-he-noun-R8IVtfcO: الرسم=עין، الرومنة=áyin، الصنف=noun، المعنى=eye، السلف/الخلف=From Proto-Semitic *ʕayn-.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:d68aa11b6dc337a5ce644c02 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: עין، حسم الموجة 1 للرتبة 137.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:98a0391133228ee62d1ed2db`، פרק (الرتبة 138)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: פרק `parak`، verb، «to unload» [Kaikki Hebrew، السطر 2331]؛ פרק `pérek`، noun، «a chapter (of a book), a section» [Kaikki Hebrew، السطر 2333]؛ פרק `park`، noun، «park» [Kaikki Hebrew، السطر 2334]
 - أقدمُ صورةٍ مستعادة: Internationalism. Borrowing from any of a number of European languages, but ultimately from Old French parc (“livestock pen”), from Medieval Latin parcus, parricus, from Proto-Germ
@@ -3320,7 +4763,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ LAB-01)؛ root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ LAB-02)؛ root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ مباشر)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ GUT-01، LAB-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ GUT-01)؛ root فرق «فَصْلُ بعض شيء - أو أشياء - من بعضها الآخر فصلًا واصلًا إلى العمق» (licensed؛ LAB-02)؛ root فرق «فَصْلُ بعض شيء - أو أشياء - من بعضها الآخر فصلًا واصلًا إلى العمق» (licensed؛ مباشر)؛ root فلق «شَقُّ الشيء الشديد الكثافة شقًا نافذًا إلى عمقه» (licensed؛ LIQ-01)؛ root ورق «طبقاتٌ رقاقٌ عِرَاضٌ لطيفة (ناعمة طرية) تتولد وتكسو» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ LAB-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-02)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ LAB-01)
 - مسارُ الصوت: root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ LAB-01)؛ root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ LAB-02)؛ root برق «بروز من العمق إلى الظاهر بحدّة ودقة لمعانٍ أو تميّز» (licensed؛ مباشر)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ GUT-01، LAB-01)؛ root برك «ثبات واستمرار مع لُطف» (licensed؛ GUT-01)؛ root فرق «فَصْلُ بعض شيء - أو أشياء - من بعضها الآخر فصلًا واصلًا إلى العمق» (licensed؛ LAB-02)؛ root فرق «فَصْلُ بعض شيء - أو أشياء - من بعضها الآخر فصلًا واصلًا إلى العمق» (licensed؛ مباشر)؛ root فلق «شَقُّ الشيء الشديد الكثافة شقًا نافذًا إلى عمقه» (licensed؛ LIQ-01)؛ root ورق «طبقاتٌ رقاقٌ عِرَاضٌ لطيفة (ناعمة طرية) تتولد وتكسو» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-01)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-02)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ LAB-01)
 - المعنى من قاموس الفرع: פרק `parak`، verb، «to unload» [Kaikki Hebrew، السطر 2331]؛ פרק `pérek`، noun، «a chapter (of a book), a section» [Kaikki Hebrew، السطر 2333]؛ פרק `park`، noun، «park» [Kaikki Hebrew، السطر 2334]
@@ -3329,14 +4772,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:2331:en-פרק-he-verb-wi2uYD~d: الرسم=פרק، الرومنة=parak، الصنف=verb، المعنى=to unload، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2333:en-פרק-he-noun-1prr0fOh: الرسم=פרק، الرومنة=pérek، الصنف=noun، المعنى=a chapter (of a book), a section، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:2334:en-פרק-he-noun-TTlx3mIk: الرسم=פרק، الرومنة=park، الصنف=noun، المعنى=park، السلف/الخلف=Internationalism. Borrowing from any of a number of European languages, but ultimately from Old French parc (“livestock pen”), from Medieval Latin parcus, parricus, from Proto-Germ، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:98a0391133228ee62d1ed2db -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: פרק، متابعة الرتبة 138.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:d1b9b01d5003962d8e1c8c3c`، הזדיין (الرتبة 139)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מזדיין `mizdayén`، adj، «fucking, retarded» [Kaikki Hebrew، السطر 16363]؛ זין `záyin`، noun، «arms, weapons» [Kaikki Hebrew، السطر 1759]؛ הזדיין `hizdayén`، verb، «to arm oneself» [Kaikki Hebrew، السطر 4530]
 - أقدمُ صورةٍ مستعادة: Present participle of הזדיין / הִזְדַּיֵּן (hizdayén, “to fuck oneself”).؛ An Old Iranian borrowing, cognate to Old Armenian զէն (zēn). The sense that it refers to the human penis perhaps comes from the fact that an erect penis resembles a sword or a spea؛ Related to זַיִן (záyin, “weapon, tool”). The vulgar sense is a later derivation which resulted from giving the mentioned word an additional obscene meaning.
@@ -3344,7 +4797,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root زين «زيادة محببة تعلق بظاهر الشيء ناشئة عما يزخر به باطنه» (licensed؛ مباشر)؛ root سين «الصحراء الحجرية أي التي تعلو وجهها الحجارة الدقيقة» (licensed؛ SIB-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-03)؛ nucleus ءم «النقص والانفراد» (licensed؛ GUT-04، LIQ-02)؛ nucleus ءن «التهيؤ والصلاح للبلوغ والاستعمال» (licensed؛ GUT-04)؛ nucleus ءو «اتساع الحيز والامتلاء» (manual-condition؛ GLD-01، GUT-04)
 - مسارُ الصوت: root زين «زيادة محببة تعلق بظاهر الشيء ناشئة عما يزخر به باطنه» (licensed؛ مباشر)؛ root سين «الصحراء الحجرية أي التي تعلو وجهها الحجارة الدقيقة» (licensed؛ SIB-03)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-03)؛ nucleus ءم «النقص والانفراد» (licensed؛ GUT-04، LIQ-02)؛ nucleus ءن «التهيؤ والصلاح للبلوغ والاستعمال» (licensed؛ GUT-04)؛ nucleus ءو «اتساع الحيز والامتلاء» (manual-condition؛ GLD-01، GUT-04)
 - المعنى من قاموس الفرع: מזדיין `mizdayén`، adj، «fucking, retarded» [Kaikki Hebrew، السطر 16363]؛ זין `záyin`، noun، «arms, weapons» [Kaikki Hebrew، السطر 1759]؛ הזדיין `hizdayén`، verb، «to arm oneself» [Kaikki Hebrew، السطر 4530]
@@ -3353,14 +4806,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:16363:en-מזדיין-he-adj-dbbdsAem: الرسم=מזדיין، الرومنة=mizdayén، الصنف=adj، المعنى=fucking, retarded، السلف/الخلف=Present participle of הזדיין / הִזְדַּיֵּן (hizdayén, “to fuck oneself”).، القرض=لا وسم آلي؛ kaikki_hebrew:1759:en-זין-he-noun-KkElWAT8: الرسم=זין، الرومنة=záyin، الصنف=noun، المعنى=arms, weapons، السلف/الخلف=An Old Iranian borrowing, cognate to Old Armenian զէն (zēn). The sense that it refers to the human penis perhaps comes from the fact that an erect penis resembles a sword or a spea، القرض=لا وسم آلي؛ kaikki_hebrew:4530:en-הזדיין-he-verb-Z~ZT1-~z: الرسم=הזדיין، الرومنة=hizdayén، الصنف=verb، المعنى=to arm oneself، السلف/الخلف=Related to זַיִן (záyin, “weapon, tool”). The vulgar sense is a later derivation which resulted from giving the mentioned word an additional obscene meaning.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:d1b9b01d5003962d8e1c8c3c -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:44c516f5b29b885c154e5452`، נצר (الرتبة 140)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=נצר «حرس وحفظ» وحده، على مدار المراقبة والنظر؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: נצר `nétser`، noun، «stem, shoot» [Kaikki Hebrew، السطر 8716]؛ נצר `nétser`، noun، «cricket (insect)» [Kaikki Hebrew، السطر 8717]؛ נצר `natsár`، verb، «to guard, save» [Kaikki Hebrew، السطر 8718]
 - أقدمُ صورةٍ مستعادة: Compare Classical Syriac ܢܵܨܲܪܬܿܵܐ (nāṣartā).؛ Compare Aramaic נְטַר (nəṭar, “to watch, guard”), Classical Syriac ܢܛܲܪ (nəṭar, “to watch”), Arabic نَظَرَ (naẓara, literally “to watch”), Akkadian 𒈾𒍝𒊒 (/⁠naṣāru[m]⁠/, “to watch ov
@@ -3368,7 +4831,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ LIQ-02، SIB-06)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ LIQ-02)؛ root نثر «تفرق الدقاق الكثيفة المتجمعة منتشرة» (licensed؛ DENT-02)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (licensed؛ SIB-02)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (licensed؛ مباشر)؛ root نسل «امتداد الشيء خارجًا - أو متسيبًا - من أصله، أو مقره، بلطف ومفارقة» (licensed؛ LIQ-01)؛ root نشر «تفرق ببسط وامتدادٍ نُشُوءًا، أو إيقاعًا» (licensed؛ SIB-01)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ SIB-02)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ SIB-06)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `نظر` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثن «التبطن والكثرة في الداخل» (licensed؛ DENT-02، LIQ-03)؛ nucleus رث «مستوى من البلى» (licensed؛ DENT-02، LIQ-03)
 - مسارُ الصوت: root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ LIQ-02، SIB-06)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ LIQ-02)؛ root نثر «تفرق الدقاق الكثيفة المتجمعة منتشرة» (licensed؛ DENT-02)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (licensed؛ SIB-02)؛ root نسر «نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا» (licensed؛ مباشر)؛ root نسل «امتداد الشيء خارجًا - أو متسيبًا - من أصله، أو مقره، بلطف ومفارقة» (licensed؛ LIQ-01)؛ root نشر «تفرق ببسط وامتدادٍ نُشُوءًا، أو إيقاعًا» (licensed؛ SIB-01)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ SIB-02)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ SIB-06)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ مباشر)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02)؛ nucleus ثل «تجمع الدقائق وتماسكها» (licensed؛ DENT-02، LIQ-01)؛ nucleus ثن «التبطن والكثرة في الداخل» (licensed؛ DENT-02، LIQ-03)؛ nucleus رث «مستوى من البلى» (licensed؛ DENT-02، LIQ-03)
 - المعنى من قاموس الفرع: נצר `nétser`، noun، «stem, shoot» [Kaikki Hebrew، السطر 8716]؛ נצר `nétser`، noun، «cricket (insect)» [Kaikki Hebrew، السطر 8717]؛ נצר `natsár`، verb، «to guard, save» [Kaikki Hebrew، السطر 8718]
@@ -3377,14 +4840,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:8716:en-נצר-he-noun-~Ry1eBae: الرسم=נצר، الرومنة=nétser، الصنف=noun، المعنى=stem, shoot، السلف/الخلف=Compare Classical Syriac ܢܵܨܲܪܬܿܵܐ (nāṣartā).، القرض=لا وسم آلي؛ kaikki_hebrew:8717:en-נצר-he-noun-JkePSPd6: الرسم=נצר، الرومنة=nétser، الصنف=noun، المعنى=cricket (insect)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:8718:en-נצר-he-verb-k7SIh2d-: الرسم=נצר، الرومنة=natsár، الصنف=verb، المعنى=to guard, save، السلف/الخلف=Compare Aramaic נְטַר (nəṭar, “to watch, guard”), Classical Syriac ܢܛܲܪ (nəṭar, “to watch”), Arabic نَظَرَ (naẓara, literally “to watch”), Akkadian 𒈾𒍝𒊒 (/⁠naṣāru[m]⁠/, “to watch ov، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ נצר «حرس وحفظ» وحده، على مدار المراقبة والنظر؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:44c516f5b29b885c154e5452 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `نظر`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `نظر`، `بصر`.
+  - سند الفرع المنشور: Compare Classical Syriac ܢܵܨܲܪܬܿܵܐ (nāṣartā). | Compare Aramaic נְטַר (nəṭar, “to watch, guard”), Classical Syriac ܢܛܲܪ (nəṭar, “to watch”), Arabic نَظَرَ (naẓara, literally “to watch”), Akkadian 𒈾𒍝𒊒 (/⁠naṣāru[m]⁠/, “to watch over, protect”).
+  - مسار الصوت اللازم وحده: DENT-08 اليدوي بشروطه واختبار نفيه.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:51f200a4d18f98496eea1968`، ע־צ־ם (الرتبة 141)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ע־צ־ם `ʿ-ts-m`، root، «غير منشور» [Kaikki Hebrew، السطر 15547]؛ עצם `étsem`، noun، «bone» [Kaikki Hebrew، السطر 981]؛ עצם `atsám`، verb، «to close (one's eyes)» [Kaikki Hebrew، السطر 983]؛ עצם `atsám`، verb، «to become mighty» [Kaikki Hebrew، السطر 984]
 - أقدمُ صورةٍ مستعادة: Proto-Semitic *ʕaṯ̣m-, compare with Arabic ع ص م (ʕ ṣ m) and ع ظ م (ʕ ẓ m) plus Assyrian Neo-Aramaic ܥܛܡܐ (ˁṭmā).؛ From Proto-Semitic *ʕaṯ̣m-. Cognate with Arabic عَظْم (ʕaẓm) and Aramaic עַטְמָא.؛ From Proto-Semitic *ʕaṯ̣m-. Cognate with Arabic عَظْم (ʕaẓm) and Aramaic עַטְמָא.؛ From Proto-Semitic *ʕaṯ̣m-. Cognate with Arabic عَظْم (ʕaẓm) and Aramaic עַטְמָא.
@@ -3392,7 +4869,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عزم «دوام الاشتداد بلا رخاوة برغم ما يثني عن ذلك» (licensed؛ SIB-03)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ LAB-04، SIB-06)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ LAB-04)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ SIB-02)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ SIB-06)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-04)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02)؛ nucleus ثن «التبطن والكثرة في الداخل» (licensed؛ DENT-02، LIQ-02)؛ nucleus زم «ضم الكثير باكتناز» (licensed؛ SIB-03)
 - مسارُ الصوت: root عزم «دوام الاشتداد بلا رخاوة برغم ما يثني عن ذلك» (licensed؛ SIB-03)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ LAB-04، SIB-06)؛ root عصب «شد أشياء - أو أثناء - شيء معًا بممتد متين» (licensed؛ LAB-04)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ SIB-02)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ SIB-06)؛ root عصم «امتساك (طبقة كثيفة) بظاهر شيء بشدة» (licensed؛ مباشر)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-04)؛ nucleus ثم «ضم الدقائق أو ما يشبهها في حيز» (licensed؛ DENT-02)؛ nucleus ثن «التبطن والكثرة في الداخل» (licensed؛ DENT-02، LIQ-02)؛ nucleus زم «ضم الكثير باكتناز» (licensed؛ SIB-03)
 - المعنى من قاموس الفرع: ע־צ־ם `ʿ-ts-m`، root، «غير منشور» [Kaikki Hebrew، السطر 15547]؛ עצם `étsem`، noun، «bone» [Kaikki Hebrew، السطر 981]؛ עצם `atsám`، verb، «to close (one's eyes)» [Kaikki Hebrew، السطر 983]؛ עצם `atsám`، verb، «to become mighty» [Kaikki Hebrew، السطر 984]
@@ -3401,14 +4878,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:15547:en-ע־צ־ם-he-root-47DEQpj8: الرسم=ע־צ־ם، الرومنة=ʿ-ts-m، الصنف=root، المعنى=غير منشور، السلف/الخلف=Proto-Semitic *ʕaṯ̣m-, compare with Arabic ع ص م (ʕ ṣ m) and ع ظ م (ʕ ẓ m) plus Assyrian Neo-Aramaic ܥܛܡܐ (ˁṭmā).، القرض=لا وسم آلي؛ kaikki_hebrew:981:en-עצם-he-noun-yNrPZX~p: الرسم=עצם، الرومنة=étsem، الصنف=noun، المعنى=bone، السلف/الخلف=From Proto-Semitic *ʕaṯ̣m-. Cognate with Arabic عَظْم (ʕaẓm) and Aramaic עַטְמָא.، القرض=لا وسم آلي؛ kaikki_hebrew:983:en-עצם-he-verb-xvzQFDwz: الرسم=עצם، الرومنة=atsám، الصنف=verb، المعنى=to close (one's eyes)، السلف/الخلف=From Proto-Semitic *ʕaṯ̣m-. Cognate with Arabic عَظْم (ʕaẓm) and Aramaic עַטְמָא.، القرض=لا وسم آلي؛ kaikki_hebrew:984:en-עצם-he-verb-wE0Z9DFf: الرسم=עצם، الرومنة=atsám، الصنف=verb، المعنى=to become mighty، السلف/الخلف=From Proto-Semitic *ʕaṯ̣m-. Cognate with Arabic عَظْم (ʕaẓm) and Aramaic עַטְמָא.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:51f200a4d18f98496eea1968 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:4be226d21c9437561181da01`، צלף (الرتبة 142)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צלף `tsaláf`، noun، «caper (condiment)» [Kaikki Hebrew، السطر 11496]؛ צלף `tsaláf`، verb، «to whip, to lash» [Kaikki Hebrew، السطر 11497]؛ צלף `tsaláf`، noun، «sniper» [Kaikki Hebrew، السطر 11498]
 - أقدمُ صورةٍ مستعادة: Possibly the same as Etymology 1.؛ Possibly the same as Etymology 1.
@@ -3416,7 +4903,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02، LAB-01، LIQ-01)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02، LIQ-01)؛ root زلف «انحدار ما حول المكان بكثافة منتقلًا إليه حتى يتجمع فيه» (licensed؛ SIB-03)؛ root سرب «نفق أو تجوف دقيق يمتد متين الجوانب» (licensed؛ LAB-01، LIQ-01)؛ root سرب «نفق أو تجوف دقيق يمتد متين الجوانب» (licensed؛ LIQ-01)؛ root سرف «تجاوز الحد أو الحق في الأخذ من الشيء إلى الإهدار أو الإفساد» (licensed؛ LIQ-01)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-01، SIB-02)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-01)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-02)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ SIB-02)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ مباشر)؛ root سلف «شيء يتقدم أو يسبق نوعه بلطف» (licensed؛ LAB-02)؛ root سلف «شيء يتقدم أو يسبق نوعه بلطف» (licensed؛ SIB-02)؛ root سلف «شيء يتقدم أو يسبق نوعه بلطف» (licensed؛ مباشر)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ LAB-04)؛ root سلو «احتواء الشيء في أثنائه على ما له قوة خاصة وفيه غناء وكفاية» (licensed؛ LAB-05)؛ root صرف «تحول مع حدة» (licensed؛ LIQ-01، SIB-06)؛ root صرف «تحول مع حدة» (licensed؛ LIQ-01)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-01، SIB-02)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-01، SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-01)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-02، SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-02)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ SIB-02)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ مباشر)؛ root صلو «لين أثناء الشيء أو رخاوتها من الداخل مع تماسك ما؛ فيمكن التصرف فيه» (licensed؛ LAB-05، SIB-06)؛ root صلو «لين أثناء الشيء أو رخاوتها من الداخل مع تماسك ما؛ فيمكن التصرف فيه» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 11/11؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-01)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-02)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02، LIQ-01)
 - مسارُ الصوت: root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02، LAB-01، LIQ-01)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02، LIQ-01)؛ root زلف «انحدار ما حول المكان بكثافة منتقلًا إليه حتى يتجمع فيه» (licensed؛ SIB-03)؛ root سرب «نفق أو تجوف دقيق يمتد متين الجوانب» (licensed؛ LAB-01، LIQ-01)؛ root سرب «نفق أو تجوف دقيق يمتد متين الجوانب» (licensed؛ LIQ-01)؛ root سرف «تجاوز الحد أو الحق في الأخذ من الشيء إلى الإهدار أو الإفساد» (licensed؛ LIQ-01)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-01، SIB-02)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-01)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ LAB-02)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ SIB-02)؛ root سلب «أخذ بقوة لما يعلق ممتدًا بحيز آخر ويلزمه تجرد الحيز الآخر» (licensed؛ مباشر)؛ root سلف «شيء يتقدم أو يسبق نوعه بلطف» (licensed؛ LAB-02)؛ root سلف «شيء يتقدم أو يسبق نوعه بلطف» (licensed؛ SIB-02)؛ root سلف «شيء يتقدم أو يسبق نوعه بلطف» (licensed؛ مباشر)؛ root سلم «صحة جرم الشيء والتئام ظاهره في ذاته أي عدم تصدعه أو تفرع غيره» (licensed؛ LAB-04)؛ root سلو «احتواء الشيء في أثنائه على ما له قوة خاصة وفيه غناء وكفاية» (licensed؛ LAB-05)؛ root صرف «تحول مع حدة» (licensed؛ LIQ-01، SIB-06)؛ root صرف «تحول مع حدة» (licensed؛ LIQ-01)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-01، SIB-02)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-01، SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-01)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-02، SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ LAB-02)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ SIB-02)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ SIB-06)؛ root صلب «شدة الشيء؛ بمعنى تماسكه الشديد مع امتداده» (licensed؛ مباشر)؛ root صلو «لين أثناء الشيء أو رخاوتها من الداخل مع تماسك ما؛ فيمكن التصرف فيه» (licensed؛ LAB-05، SIB-06)؛ root صلو «لين أثناء الشيء أو رخاوتها من الداخل مع تماسك ما؛ فيمكن التصرف فيه» (licensed؛ LAB-05)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-01)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02، LAB-02)؛ nucleus ثب «التجمع والتماسك» (licensed؛ DENT-02)؛ nucleus ثر «نفاذ المائع وما يشبهه بغزارة وانتشار» (licensed؛ DENT-02، LIQ-01)
 - المعنى من قاموس الفرع: צלף `tsaláf`، noun، «caper (condiment)» [Kaikki Hebrew، السطر 11496]؛ צלף `tsaláf`، verb، «to whip, to lash» [Kaikki Hebrew، السطر 11497]؛ צלף `tsaláf`، noun، «sniper» [Kaikki Hebrew، السطر 11498]
@@ -3425,14 +4912,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11496:en-צלף-he-noun-rp7dCn2L: الرسم=צלף، الرومنة=tsaláf، الصنف=noun، المعنى=caper (condiment)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:11497:en-צלף-he-verb-7Eu1PyLF: الرسم=צלף، الرومنة=tsaláf، الصنف=verb، المعنى=to whip, to lash، السلف/الخلف=Possibly the same as Etymology 1.، القرض=لا وسم آلي؛ kaikki_hebrew:11498:en-צלף-he-noun-0aS-GbPP: الرسم=צלף، الرومنة=tsaláf، الصنف=noun، المعنى=sniper، السلف/الخلف=Possibly the same as Etymology 1.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:4be226d21c9437561181da01 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 11/11؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:1200ac1667de25d5f8e5063e`، נפח (الرتبة 143)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: נפח `nafákh`، verb، «to blow, exhale» [Kaikki Hebrew، السطر 904]؛ נפח `napákh`، noun، «smith, blacksmith» [Kaikki Hebrew، السطر 906]؛ נפח `néfakh`، noun، «volume» [Kaikki Hebrew، السطر 907]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *napaḫ-, which is of onomatopoeic origin and imitates the sound of blowing air out.؛ From Proto-Semitic *napaḫ-, which is of onomatopoeic origin and imitates the sound of blowing air out.؛ From Proto-Semitic *napaḫ-, which is of onomatopoeic origin and imitates the sound of blowing air out.
@@ -3440,7 +4937,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-01، LIQ-03)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LIQ-03)؛ root نفح «اندفاع الشيء (اللطيف أو الدقيق) في غلظ وقوة من مقره» (licensed؛ LAB-02)؛ root نفح «اندفاع الشيء (اللطيف أو الدقيق) في غلظ وقوة من مقره» (licensed؛ مباشر)؛ root نفخ «اندفاع الهواء من الجوف المخلخل (أو فيه)» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 3/3؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بح «الكشف والفراغ» (licensed؛ LAB-01)؛ nucleus بح «الكشف والفراغ» (licensed؛ LAB-02)؛ nucleus بح «الكشف والفراغ» (licensed؛ مباشر)؛ nucleus بخ «النقص والاستفراغ» (licensed؛ GUT-05، LAB-01)
 - مسارُ الصوت: root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LAB-01، LIQ-03)؛ root ربح «زيادة تتولّد عن الشيء من جنسه بجهد ما» (licensed؛ LIQ-03)؛ root نفح «اندفاع الشيء (اللطيف أو الدقيق) في غلظ وقوة من مقره» (licensed؛ LAB-02)؛ root نفح «اندفاع الشيء (اللطيف أو الدقيق) في غلظ وقوة من مقره» (licensed؛ مباشر)؛ root نفخ «اندفاع الهواء من الجوف المخلخل (أو فيه)» (licensed؛ GUT-05)؛ nucleus بح «الكشف والفراغ» (licensed؛ LAB-01)؛ nucleus بح «الكشف والفراغ» (licensed؛ LAB-02)؛ nucleus بح «الكشف والفراغ» (licensed؛ مباشر)؛ nucleus بخ «النقص والاستفراغ» (licensed؛ GUT-05، LAB-01)
 - المعنى من قاموس الفرع: נפח `nafákh`، verb، «to blow, exhale» [Kaikki Hebrew، السطر 904]؛ נפח `napákh`، noun، «smith, blacksmith» [Kaikki Hebrew، السطر 906]؛ נפח `néfakh`، noun، «volume» [Kaikki Hebrew، السطر 907]
@@ -3449,14 +4946,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:904:en-נפח-he-verb-WNYlq1Hs: الرسم=נפח، الرومنة=nafákh، الصنف=verb، المعنى=to blow, exhale، السلف/الخلف=From Proto-Semitic *napaḫ-, which is of onomatopoeic origin and imitates the sound of blowing air out.، القرض=لا وسم آلي؛ kaikki_hebrew:906:en-נפח-he-noun-yz-CI~ds: الرسم=נפח، الرومنة=napákh، الصنف=noun، المعنى=smith, blacksmith، السلف/الخلف=From Proto-Semitic *napaḫ-, which is of onomatopoeic origin and imitates the sound of blowing air out.، القرض=لا وسم آلي؛ kaikki_hebrew:907:en-נפח-he-noun-YtemsSEd: الرسم=נפח، الرومنة=néfakh، الصنف=noun، المعنى=volume، السلف/الخلف=From Proto-Semitic *napaḫ-, which is of onomatopoeic origin and imitates the sound of blowing air out.، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:1200ac1667de25d5f8e5063e -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: נפח، إعادة فحص الرتبة 143.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:96a08b1ff6e351a99cf9639d`، מ־כ־ר (الرتبة 144)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: מכר `mécher`، noun، «sale» [Kaikki Hebrew، السطر 10072]؛ מכר `makár`، noun، «acquaintance» [Kaikki Hebrew، السطر 10073]؛ מ־כ־ר `m-k-r`، root، «Related to selling.» [Kaikki Hebrew، السطر 14060]
 - أقدمُ صورةٍ مستعادة: Compare Akkadian m-k-r (“related to commerce”), Arabic م ك ر (m-k-r, “related to scheming, planning”).
@@ -3464,7 +4971,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-04، SIB-06)؛ root بقر «انفتاح جوف الشيء عما فيه باتساع» (licensed؛ LAB-04)؛ root بكر «صدور شيء من أصله لأول مرة قبل ما يصدر بعده من نفس الأصل من جنسه» (licensed؛ LAB-04)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ SIB-06)؛ root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ GUT-01)؛ root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ مباشر)؛ root مكن «رسوخ الشيء متجمعاً (من دِقاق) في باطن يلتئم عليه» (licensed؛ LIQ-03)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ LIQ-02، SIB-06)؛ root نقر «ندور جزء دقيق من ظاهر جسم صلب بحادّ يقلعه؛ فيدوم أثره» (licensed؛ LIQ-02)؛ root نكر «تغطية لمادة حادة، أو غريبة» (licensed؛ LIQ-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03، LAB-04)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-04)؛ nucleus بص «النفاذ والإدراك» (licensed؛ LAB-04، SIB-06)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ LAB-04)
 - مسارُ الصوت: root بصر «إمساك أو التقاط في أثناء المتجمع أو الممتد» (licensed؛ LAB-04، SIB-06)؛ root بقر «انفتاح جوف الشيء عما فيه باتساع» (licensed؛ LAB-04)؛ root بكر «صدور شيء من أصله لأول مرة قبل ما يصدر بعده من نفس الأصل من جنسه» (licensed؛ LAB-04)؛ root مصر «أخذ الشيء - أو جذبه - بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال» (licensed؛ SIB-06)؛ root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ GUT-01)؛ root مكر «اختزان رقيق - أو لطيف - في الأثناء؛ فتكتنز به ولا يبرز متميزاً» (licensed؛ مباشر)؛ root مكن «رسوخ الشيء متجمعاً (من دِقاق) في باطن يلتئم عليه» (licensed؛ LIQ-03)؛ root نصر «الإمداد بما فيه زيادة مناسبة وقوة» (licensed؛ LIQ-02، SIB-06)؛ root نقر «ندور جزء دقيق من ظاهر جسم صلب بحادّ يقلعه؛ فيدوم أثره» (licensed؛ LIQ-02)؛ root نكر «تغطية لمادة حادة، أو غريبة» (licensed؛ LIQ-02)؛ nucleus بج «التفتق والتفجر الرخو» (licensed؛ GUT-03، LAB-04)؛ nucleus بر «التجرد والخلوص» (licensed؛ LAB-04)؛ nucleus بص «النفاذ والإدراك» (licensed؛ LAB-04، SIB-06)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: מכר `mécher`، noun، «sale» [Kaikki Hebrew، السطر 10072]؛ מכר `makár`، noun، «acquaintance» [Kaikki Hebrew، السطر 10073]؛ מ־כ־ר `m-k-r`، root، «Related to selling.» [Kaikki Hebrew، السطر 14060]
@@ -3473,14 +4980,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:10072:en-מכר-he-noun-H3EB~nEB: الرسم=מכר، الرومنة=mécher، الصنف=noun، المعنى=sale، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:10073:en-מכר-he-noun-GV~CgcvE: الرسم=מכר، الرومنة=makár، الصنف=noun، المعنى=acquaintance، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14060:en-מ־כ־ר-he-root-5FSkE5sI: الرسم=מ־כ־ר، الرومنة=m-k-r، الصنف=root، المعنى=Related to selling.، السلف/الخلف=Compare Akkadian m-k-r (“related to commerce”), Arabic م ك ر (m-k-r, “related to scheming, planning”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:96a08b1ff6e351a99cf9639d -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:e5260bd967ab2fce3402d223`، בקר (الرتبة 145)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=בקר «البقر» الحيوان وحده، لا المفتش ولا المصطلح الموسيقي؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: בקר `baqár`، noun، «bovine, cattle» [Kaikki Hebrew، السطر 514]؛ בקר `baqár`، noun، «inspector» [Kaikki Hebrew، السطر 518]؛ בקר `beqár`، adj، «natural» [Kaikki Hebrew، السطر 519]
 - أقدمُ صورةٍ مستعادة: From Proto-West Semitic *baḳar- (“large cattle”). Cognate with Arabic بَقَر (baqar), Aramaic בקרא, Phoenician 𐤁𐤒𐤓 (bqr).؛ From French bécarre, from Medieval Latin b quadrātum (“B natural”, literally “square B”).
@@ -3488,7 +5005,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root بقر «انفتاح جوف الشيء عما فيه باتساع» (licensed؛ مباشر)؛ root بقل «نبات (أو شيء ينبت) ضعيفًا في ظاهر شيء» (licensed؛ LIQ-01)؛ root بكر «صدور شيء من أصله لأول مرة قبل ما يصدر بعده من نفس الأصل من جنسه» (licensed؛ GUT-01)؛ root فقر «فراغ نافذ في العمق يسترسل امتدادًا، أو دوامًا» (licensed؛ LAB-02)؛ root وقر «تجمع بثقل وتمكن في أثناء بَدَن أو حيّز» (licensed؛ LAB-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `بقر` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ مباشر)؛ nucleus بك «الضغط والاحتباس» (licensed؛ GUT-01)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)
 - مسارُ الصوت: root بقر «انفتاح جوف الشيء عما فيه باتساع» (licensed؛ مباشر)؛ root بقل «نبات (أو شيء ينبت) ضعيفًا في ظاهر شيء» (licensed؛ LIQ-01)؛ root بكر «صدور شيء من أصله لأول مرة قبل ما يصدر بعده من نفس الأصل من جنسه» (licensed؛ GUT-01)؛ root فقر «فراغ نافذ في العمق يسترسل امتدادًا، أو دوامًا» (licensed؛ LAB-02)؛ root وقر «تجمع بثقل وتمكن في أثناء بَدَن أو حيّز» (licensed؛ LAB-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)؛ nucleus بق «الثبات والكشف باتساع» (licensed؛ مباشر)؛ nucleus بك «الضغط والاحتباس» (licensed؛ GUT-01)؛ nucleus بل «التمكن والحَوْز بشدة» (licensed؛ LIQ-01)
 - المعنى من قاموس الفرع: בקר `baqár`، noun، «bovine, cattle» [Kaikki Hebrew، السطر 514]؛ בקר `baqár`، noun، «inspector» [Kaikki Hebrew، السطر 518]؛ בקר `beqár`، adj، «natural» [Kaikki Hebrew، السطر 519]
@@ -3497,14 +5014,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:514:en-בקר-he-noun-1h3KvWXn: الرسم=בקר، الرومنة=baqár، الصنف=noun، المعنى=bovine, cattle، السلف/الخلف=From Proto-West Semitic *baḳar- (“large cattle”). Cognate with Arabic بَقَر (baqar), Aramaic בקרא, Phoenician 𐤁𐤒𐤓 (bqr).، القرض=لا وسم آلي؛ kaikki_hebrew:518:en-בקר-he-noun-mP5EIlUD: الرسم=בקר، الرومنة=baqár، الصنف=noun، المعنى=inspector، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:519:en-בקר-he-adj-EnZSldtP: الرسم=בקר، الرومنة=beqár، الصنف=adj، المعنى=natural، السلف/الخلف=From French bécarre, from Medieval Latin b quadrātum (“B natural”, literally “square B”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ בקר «البقر» الحيوان وحده، لا المفتش ولا المصطلح الموسيقي؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:e5260bd967ab2fce3402d223 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `بقر`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `بقر`، `بقرة`.
+  - سند الفرع المنشور: From Proto-West Semitic *baḳar- (“large cattle”). Cognate with Arabic بَقَر (baqar), Aramaic בקרא, Phoenician 𐤁𐤒𐤓 (bqr). | From French bécarre, from Medieval Latin b quadrātum (“B natural”, literally “square B”).
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:bac3172f754f622c30613405`، גמד (الرتبة 146)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: גמדות `gamadút`، noun، «dwarfism» [Kaikki Hebrew، السطر 11236]؛ גמדים `gamadím`، noun، «plural indefinite form of גַמָּד» [Kaikki Hebrew، السطر 11237]؛ גמדים `gamadím`، adj، «masculine plural indefinite form of גַמָּדִי» [Kaikki Hebrew، السطر 11238]؛ גמד `gamád`، noun، «dwarf» [Kaikki Hebrew، السطر 141]؛ גמדי `gamadí`، adj، «dwarf, tiny» [Kaikki Hebrew، السطر 143]؛ גמדית `gamadít`، adj، «feminine singular indefinite form of גַּמָּדִי (gamadí).» [Kaikki Hebrew، السطر 8478]
 - أقدمُ صورةٍ مستعادة: From גַמָּד (gamád, “dwarf”) + ־וּת (-út, “-ness, -ity”).؛ The meaning attributed in Modern Israeli Hebrew to the Biblical Hebrew word gamád is based upon Rashi's commentary on the Hebrew Bible, specifically Ezekiel 27:11, where he interpr؛ From גַּמָּד (gamád) + ־י (-í).
@@ -3512,7 +5043,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ DENT-06، GUT-03)؛ root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ DENT-06)؛ root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ GUT-03)؛ root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ مباشر)؛ root جند «صلابة الشيء وغلظه كأنما ضغط على ما فيه» (licensed؛ GUT-03، LIQ-02)؛ root جند «صلابة الشيء وغلظه كأنما ضغط على ما فيه» (licensed؛ LIQ-02)؛ root قبض «جمع الكف على الشيء بشدة إمساكًا له» (licensed؛ LAB-04)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ GUT-02، LAB-04)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ LAB-04)؛ root كند «حبس الشيء ما في باطنه؛ فلا يبرز منه» (licensed؛ GUT-02، LIQ-02)؛ root كند «حبس الشيء ما في باطنه؛ فلا يبرز منه» (licensed؛ LIQ-02)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus بت «القطع والانفصال» (licensed؛ LAB-04)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-05)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-04)؛ nucleus بض «التجمع الرخو مع نصاعة» (licensed؛ LAB-04)
 - مسارُ الصوت: root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ DENT-06، GUT-03)؛ root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ DENT-06)؛ root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ GUT-03)؛ root جمد «تصلب المائع وما يشبهه بتماسك بعضه في بعض مع يبس الأثناء» (licensed؛ مباشر)؛ root جند «صلابة الشيء وغلظه كأنما ضغط على ما فيه» (licensed؛ GUT-03، LIQ-02)؛ root جند «صلابة الشيء وغلظه كأنما ضغط على ما فيه» (licensed؛ LIQ-02)؛ root قبض «جمع الكف على الشيء بشدة إمساكًا له» (licensed؛ LAB-04)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ GUT-02، LAB-04)؛ root كبد «اشتداد ما شأنه التسيب، وجموده متماسكًا كقطعة الأرض الصُلبة» (licensed؛ LAB-04)؛ root كند «حبس الشيء ما في باطنه؛ فلا يبرز منه» (licensed؛ GUT-02، LIQ-02)؛ root كند «حبس الشيء ما في باطنه؛ فلا يبرز منه» (licensed؛ LIQ-02)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-04)؛ nucleus بت «القطع والانفصال» (licensed؛ LAB-05)؛ nucleus بد «الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة» (licensed؛ LAB-04)؛ nucleus بض «التجمع الرخو مع نصاعة» (licensed؛ LAB-04)
 - المعنى من قاموس الفرع: גמדות `gamadút`، noun، «dwarfism» [Kaikki Hebrew، السطر 11236]؛ גמדים `gamadím`، noun، «plural indefinite form of גַמָּד» [Kaikki Hebrew، السطر 11237]؛ גמדים `gamadím`، adj، «masculine plural indefinite form of גַמָּדִי» [Kaikki Hebrew، السطر 11238]؛ גמד `gamád`، noun، «dwarf» [Kaikki Hebrew، السطر 141]؛ גמדי `gamadí`، adj، «dwarf, tiny» [Kaikki Hebrew، السطر 143]؛ גמדית `gamadít`، adj، «feminine singular indefinite form of גַּמָּדִי (gamadí).» [Kaikki Hebrew، السطر 8478]
@@ -3521,14 +5052,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11236:en-גמדות-he-noun-IQAtUvxd: الرسم=גמדות، الرومنة=gamadút، الصنف=noun، المعنى=dwarfism، السلف/الخلف=From גַמָּד (gamád, “dwarf”) + ־וּת (-út, “-ness, -ity”).، القرض=لا وسم آلي؛ kaikki_hebrew:11237:en-גמדים-he-noun-n00C0qJq: الرسم=גמדים، الرومنة=gamadím، الصنف=noun، المعنى=plural indefinite form of גַמָּד، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:11238:en-גמדים-he-adj-YeZo3nNe: الرسم=גמדים، الرومنة=gamadím، الصنف=adj، المعنى=masculine plural indefinite form of גַמָּדִי، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:141:en-גמד-he-noun-mig~0BKw: الرسم=גמד، الرومنة=gamád، الصنف=noun، المعنى=dwarf، السلف/الخلف=The meaning attributed in Modern Israeli Hebrew to the Biblical Hebrew word gamád is based upon Rashi's commentary on the Hebrew Bible, specifically Ezekiel 27:11, where he interpr، القرض=لا وسم آلي؛ kaikki_hebrew:143:en-גמדי-he-adj-jGe0h3yN: الرسم=גמדי، الرومنة=gamadí، الصنف=adj، المعنى=dwarf, tiny، السلف/الخلف=From גַּמָּד (gamád) + ־י (-í).، القرض=لا وسم آلي؛ kaikki_hebrew:8478:en-גמדית-he-adj-fefx2piu: الرسم=גמדית، الرومنة=gamadít، الصنف=adj، المعنى=feminine singular indefinite form of גַּמָּדִי (gamadí).، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:bac3172f754f622c30613405 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:9b1f10133a976938f84a7d1b`، שרף (الرتبة 147)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: שרף `saráf`، verb، «to burn» [Kaikki Hebrew، السطر 137]؛ שרף `saráf`، noun، «seraph» [Kaikki Hebrew، السطر 138]؛ שרף `sráf`، noun، «resin» [Kaikki Hebrew، السطر 139]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -3536,7 +5077,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ LAB-01، SIB-05)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ SIB-05)؛ root ترف «امتلاء الشيء بالري والرخاوة حتى ينتبر متميزًا عما حوله» (licensed؛ SIB-05)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02، LAB-01)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02، LAB-02)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02)؛ root سرب «نفق أو تجوف دقيق يمتد متين الجوانب» (licensed؛ LAB-01، SIB-01)؛ root سرب «نفق أو تجوف دقيق يمتد متين الجوانب» (licensed؛ SIB-01)؛ root سرف «تجاوز الحد أو الحق في الأخذ من الشيء إلى الإهدار أو الإفساد» (licensed؛ SIB-01)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ LAB-01)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ LAB-02)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ مباشر)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-01، SIB-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ SIB-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ SIB-05)؛ nucleus تف «الوسخ على الجلد أو نحو ذلك» (licensed؛ SIB-05)
 - مسارُ الصوت: root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ LAB-01، SIB-05)؛ root ترب «تراكم أو توالي أشياء دقيقة أو ناعمة في ظاهر الشيء لاصقة أو عالقة به» (licensed؛ SIB-05)؛ root ترف «امتلاء الشيء بالري والرخاوة حتى ينتبر متميزًا عما حوله» (licensed؛ SIB-05)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02، LAB-01)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02، LAB-02)؛ root ثرب «لصوق طبقة دقيقة على ظاهر الشيء حادة الوقع على الحس» (licensed؛ DENT-02)؛ root سرب «نفق أو تجوف دقيق يمتد متين الجوانب» (licensed؛ LAB-01، SIB-01)؛ root سرب «نفق أو تجوف دقيق يمتد متين الجوانب» (licensed؛ SIB-01)؛ root سرف «تجاوز الحد أو الحق في الأخذ من الشيء إلى الإهدار أو الإفساد» (licensed؛ SIB-01)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ LAB-01)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ LAB-02)؛ root شرب «سَحْبُ الماء - أو اللطيف - إلى الجوف، أي مصُّه وإنفاذه إلى الأثناء بقوة» (licensed؛ مباشر)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ LAB-01، SIB-05)؛ nucleus تب «ضعف الشيء المتجمع أو ذهاب غلظه» (licensed؛ SIB-05)؛ nucleus تر «الابتعاد بقوة مع دقة» (licensed؛ SIB-05)؛ nucleus تف «الوسخ على الجلد أو نحو ذلك» (licensed؛ SIB-05)
 - المعنى من قاموس الفرع: שרף `saráf`، verb، «to burn» [Kaikki Hebrew، السطر 137]؛ שרף `saráf`، noun، «seraph» [Kaikki Hebrew، السطر 138]؛ שרף `sráf`، noun، «resin» [Kaikki Hebrew، السطر 139]
@@ -3545,14 +5086,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:137:en-שרף-he-verb-rR54mkCl: الرسم=שרף، الرومنة=saráf، الصنف=verb، المعنى=to burn، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:138:en-שרף-he-noun-p6Q9iP20: الرسم=שרף، الرومنة=saráf، الصنف=noun، المعنى=seraph، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:139:en-שרף-he-noun--7yE-~kO: الرسم=שרף، الرومنة=sráf، الصنف=noun، المعنى=resin، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:9b1f10133a976938f84a7d1b -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 6/6؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:8d3ceb8a480116026dcb54fa`، חסר (الرتبة 148)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=חסר في الغياب والنقص وحده، على مدار الخسارة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כתיב חסר `k'tív khasér`، noun، «Ktiv haser: a style of Hebrew spelling that uses neither diacritics (except sometimes sparingly) nor extra vowel letters (compared to traditional spelling); contrasted with כְּתִיב מָלֵא (k'tív malé), which also doesn't use the diacritics, but which compensates by using vowel letters more heavily.» [Kaikki Hebrew، السطر 11719]؛ חסר `khasér`، adj، «absent, missing» [Kaikki Hebrew، السطر 8329]
 - أقدمُ صورةٍ مستعادة: From כְּתִיב (k'tív) + חָסֵר (khasér, “defective”); hence literally "spelling that is lacking".؛ Possibly related to Arabic خَسِرَ (ḵasira, “to lose”).
@@ -3560,7 +5111,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root حسر «زوال ما ينبت، أو يلزم الشيء لتغطيته» (licensed؛ SIB-02)؛ root حسر «زوال ما ينبت، أو يلزم الشيء لتغطيته» (licensed؛ مباشر)؛ root حسن «نقاء الشيء ورقته بخروج الخشن - أو الغليظ الذي يخالطه» (licensed؛ LIQ-03)؛ root حشر «قشر ظاهر الشيء، أو المنتشر على ظاهر الشيء» (licensed؛ SIB-01)؛ root حصر «أن يحتبس في الشيء ما شأنه التسيب كالمائع» (licensed؛ SIB-02)؛ root حصر «أن يحتبس في الشيء ما شأنه التسيب كالمائع» (licensed؛ SIB-06)؛ root حصر «أن يحتبس في الشيء ما شأنه التسيب كالمائع» (licensed؛ مباشر)؛ root حصل «خلوص المقصود من الشيء إلى المقر مجموعًا ثابتًا» (licensed؛ LIQ-01، SIB-06)؛ root حصل «خلوص المقصود من الشيء إلى المقر مجموعًا ثابتًا» (licensed؛ LIQ-01)؛ root حصن «قوة تحيط بالشيء على ما في باطنه من لطيف» (licensed؛ LIQ-03، SIB-06)؛ root حصن «قوة تحيط بالشيء على ما في باطنه من لطيف» (licensed؛ LIQ-03)؛ root خسر «نَقْصُ الشيء بذهاب أجزاء منه فقدا» (licensed؛ GUT-05)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `خسر` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: nucleus بث «النشر والتفريق» (licensed؛ DENT-02)؛ nucleus بح «الكشف والفراغ» (licensed؛ مباشر)؛ nucleus بخ «النقص والاستفراغ» (licensed؛ GUT-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)
 - مسارُ الصوت: root حسر «زوال ما ينبت، أو يلزم الشيء لتغطيته» (licensed؛ SIB-02)؛ root حسر «زوال ما ينبت، أو يلزم الشيء لتغطيته» (licensed؛ مباشر)؛ root حسن «نقاء الشيء ورقته بخروج الخشن - أو الغليظ الذي يخالطه» (licensed؛ LIQ-03)؛ root حشر «قشر ظاهر الشيء، أو المنتشر على ظاهر الشيء» (licensed؛ SIB-01)؛ root حصر «أن يحتبس في الشيء ما شأنه التسيب كالمائع» (licensed؛ SIB-02)؛ root حصر «أن يحتبس في الشيء ما شأنه التسيب كالمائع» (licensed؛ SIB-06)؛ root حصر «أن يحتبس في الشيء ما شأنه التسيب كالمائع» (licensed؛ مباشر)؛ root حصل «خلوص المقصود من الشيء إلى المقر مجموعًا ثابتًا» (licensed؛ LIQ-01، SIB-06)؛ root حصل «خلوص المقصود من الشيء إلى المقر مجموعًا ثابتًا» (licensed؛ LIQ-01)؛ root حصن «قوة تحيط بالشيء على ما في باطنه من لطيف» (licensed؛ LIQ-03، SIB-06)؛ root حصن «قوة تحيط بالشيء على ما في باطنه من لطيف» (licensed؛ LIQ-03)؛ root خسر «نَقْصُ الشيء بذهاب أجزاء منه فقدا» (licensed؛ GUT-05)؛ nucleus بث «النشر والتفريق» (licensed؛ DENT-02)؛ nucleus بح «الكشف والفراغ» (licensed؛ مباشر)؛ nucleus بخ «النقص والاستفراغ» (licensed؛ GUT-05)؛ nucleus بر «التجرد والخلوص» (licensed؛ مباشر)
 - المعنى من قاموس الفرع: כתיב חסר `k'tív khasér`، noun، «Ktiv haser: a style of Hebrew spelling that uses neither diacritics (except sometimes sparingly) nor extra vowel letters (compared to traditional spelling); contrasted with כְּתִיב מָלֵא (k'tív malé), which also doesn't use the diacritics, but which compensates by using vowel letters more heavily.» [Kaikki Hebrew، السطر 11719]؛ חסר `khasér`، adj، «absent, missing» [Kaikki Hebrew، السطر 8329]
@@ -3569,14 +5120,28 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11719:en-כתיב_חסר-he-noun-4XGYRorG: الرسم=כתיב חסר، الرومنة=k'tív khasér، الصنف=noun، المعنى=Ktiv haser: a style of Hebrew spelling that uses neither diacritics (except sometimes sparingly) nor extra vowel letters (compared to traditional spelling); contrasted with כְּתִיב מָלֵא (k'tív malé), which also doesn't use the diacritics, but which compensates by using vowel letters more heavily.، السلف/الخلف=From כְּתִיב (k'tív) + חָסֵר (khasér, “defective”); hence literally "spelling that is lacking".، القرض=لا وسم آلي؛ kaikki_hebrew:8329:en-חסר-he-adj-YPQ8ztrY: الرسم=חסר، الرومنة=khasér، الصنف=adj، المعنى=absent, missing، السلف/الخلف=Possibly related to Arabic خَسِرَ (ḵasira, “to lose”).، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-ECHO؛ חסר في الغياب والنقص وحده، على مدار الخسارة؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:8d3ceb8a480116026dcb54fa -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `خسر`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `خسر`، `نقص`.
+  - سند الفرع المنشور: From כְּתִיב (k'tív) + חָסֵר (khasér, “defective”); hence literally "spelling that is lacking". | Possibly related to Arabic خَسِرَ (ḵasira, “to lose”).
+  - مسار الصوت اللازم وحده: GUT-05.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:1cf3413430869f8d45ceef7d`، ערב (الرتبة 149)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=SOURCE-GAP؛ يتطلب=المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ערב הסעודית `aráv hasa'udít`، name، «Saudi Arabia (a country in West Asia in the Middle East)» [Kaikki Hebrew، السطر 11750]؛ ערב `aráv`، name، «Arabia (a peninsula of West Asia between the Red Sea and the Persian Gulf; includes Jordan, Saudi Arabia, Yemen, Oman, Qatar, Bahrain, Kuwait, and the United Arab Emirates)» [Kaikki Hebrew، السطر 512]
 - أقدمُ صورةٍ مستعادة: لا صورة أقدم أو اشتقاق حاسم في Kaikki؛ لا تُخترع صورة أقدم.
@@ -3584,7 +5149,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root عرب «نشاط وانطلاق بحدة ذاتية للخلوص مما يحبس» (licensed؛ مباشر)؛ root عرف «تتابع - أو امتداد - في أعلى الشيء لما يميزه، أو يدل عليه» (licensed؛ LAB-02)؛ root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LAB-04)؛ root عرو «إمساك - أو امتساك - للظاهر بتمكن» (licensed؛ LAB-05)؛ root عنب «صفاء الممتلئ المستدير مع امتداد ما» (licensed؛ LIQ-03)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-02)
 - مسارُ الصوت: root عرب «نشاط وانطلاق بحدة ذاتية للخلوص مما يحبس» (licensed؛ مباشر)؛ root عرف «تتابع - أو امتداد - في أعلى الشيء لما يميزه، أو يدل عليه» (licensed؛ LAB-02)؛ root عرم «تراكم ظاهري من الغثاء، أو ما يلحق به - مع استواء ظاهره» (licensed؛ LAB-04)؛ root عرو «إمساك - أو امتساك - للظاهر بتمكن» (licensed؛ LAB-05)؛ root عنب «صفاء الممتلئ المستدير مع امتداد ما» (licensed؛ LIQ-03)؛ nucleus ءب «الغَذْو والتهيؤ والامتناع» (licensed؛ GUT-04، LAB-05)؛ nucleus ءث «تجمع الدقائق بكثافة» (licensed؛ DENT-02، GUT-04)؛ nucleus ءث «تجمع الدقائق بكثافة» (scope-gap؛ DENT-01، GUT-04)؛ nucleus ءس «نفاذ شعور أو أثر حاد في عمق أو فجوة» (licensed؛ GUT-04، SIB-02)
 - المعنى من قاموس الفرع: ערב הסעודית `aráv hasa'udít`، name، «Saudi Arabia (a country in West Asia in the Middle East)» [Kaikki Hebrew، السطر 11750]؛ ערב `aráv`، name، «Arabia (a peninsula of West Asia between the Red Sea and the Persian Gulf; includes Jordan, Saudi Arabia, Yemen, Oman, Qatar, Bahrain, Kuwait, and the United Arab Emirates)» [Kaikki Hebrew، السطر 512]
@@ -3593,14 +5158,24 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:11750:en-ערב_הסעודית-he-name-fk0ABKLD: الرسم=ערב הסעודית، الرومنة=aráv hasa'udít، الصنف=name، المعنى=Saudi Arabia (a country in West Asia in the Middle East)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:512:en-ערב-he-name-Rw8ooTI8: الرسم=ערב، الرومنة=aráv، الصنف=name، المعنى=Arabia (a peninsula of West Asia between the Red Sea and the Persian Gulf; includes Jordan, Saudi Arabia, Yemen, Oman, Qatar, Bahrain, Kuwait, and the United Arab Emirates)، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ المروحة مستنفدة؛ يتطلب شاهدًا عبريًا قديمًا للعضو نفسه، لا لعضو مجاور.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:1cf3413430869f8d45ceef7d -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: 5/5؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:b825ccaf5025b4c0e48543d2`، כל (الرتبة 150)
-- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP
+- عائق: النوع=READY؛ يتطلب=כל «الكل والجميع» وحده؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: כולנו `kulánu`، pron، «form of כָּל (kol) with first-person plural personal pronoun as possessor: all of us» [Kaikki Hebrew، السطر 12474]؛ כולו `kuló`، pron، «form of כָּל (kol) with third-person masculine singular personal pronoun as possessor: all of him, all of it» [Kaikki Hebrew، السطر 12475]؛ כולה `kuláh`، pron، «form of כָּל (kol) with third-person feminine singular personal pronoun as possessor: all of her, all of it» [Kaikki Hebrew، السطر 12766]؛ כול `kól`، noun، «excessive spelling of כֹּל» [Kaikki Hebrew، السطر 14817]؛ כל `kól`، noun، «All, whole, entirety, everything; found almost exclusively in singular definite and singular construct forms; used to translate English all, each, every, everything, and so on.» [Kaikki Hebrew، السطر 1532]؛ כולם `kulám`، pron، «form of כָּל (kol) with third-person masculine plural personal pronoun as possessor: all of them» [Kaikki Hebrew، السطر 4782]
 - أقدمُ صورةٍ مستعادة: Compare Arabic كُلّ (kull), Ge'ez ኵል (kʷəll), Ugaritic 𐎋𐎍 (kl), Phoenician 𐤊𐤋 (kl), Akkadian 𒆕𒀀𒁉 (kalûm), Classical Syriac ܟܾܠ (kul), Amharic ሁሉ (hulu). From Proto-Semitic *kʷall- 
@@ -3608,7 +5183,7 @@
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ الصورة واللاحقة بلا نزع حدسي.
 - درجةُ المقارنة: الجذر الكامل أولًا، ثم النواة بعد حفظ الصورة الصرفية.
 - مسار الجذر الكامل أولًا: root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03، LAB-05)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03، LAB-06، LIQ-01)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03، LIQ-01)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-06، LIQ-01، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LIQ-01، SIB-06)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-05)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ GUT-01، LAB-06)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ GUT-01)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-06)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ مباشر)؛ root قيل «زوال إلى مقر (مؤقت)» (manual-condition؛ GLD-01)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ LAB-06، LIQ-01)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ LIQ-01)؛ root كيل «ضبط الشيء مافيه، أي إمساكه مافيه، لا يُخرجه» (manual-condition؛ GLD-01)
-- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `كلل` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: hollow-root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03، LIQ-01)؛ hollow-root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LIQ-01، SIB-06)؛ hollow-root صير «الالتواء أو التحوّل إلى غاية أو مجمع» (licensed؛ LIQ-01، SIB-06)؛ hollow-root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ GUT-01)
 - مسارُ الصوت: root جبل «تجمع عظيم شديد الأثناء مع غلظ هيأة» (licensed؛ GUT-03، LAB-05)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03، LAB-06، LIQ-01)؛ root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03، LIQ-01)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LAB-06، LIQ-01، SIB-06)؛ root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LIQ-01، SIB-06)؛ root قبل «مُقدَّم الشيء الذي يُتَّجَه إليه منه لملاقاته» (licensed؛ LAB-05)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ GUT-01، LAB-06)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ GUT-01)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ LAB-06)؛ root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ مباشر)؛ root قيل «زوال إلى مقر (مؤقت)» (manual-condition؛ GLD-01)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ LAB-06، LIQ-01)؛ root كور «إدارة الشيء على شيء تهيئة لجمعه عليه» (licensed؛ LIQ-01)؛ root كيل «ضبط الشيء مافيه، أي إمساكه مافيه، لا يُخرجه» (manual-condition؛ GLD-01)؛ hollow-root جور «دخول في حيز شيء بقوة للإقامة أو افتجاء للاحتواء» (licensed؛ GUT-03، LIQ-01)؛ hollow-root صور «حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره» (licensed؛ LIQ-01، SIB-06)؛ hollow-root صير «الالتواء أو التحوّل إلى غاية أو مجمع» (licensed؛ LIQ-01، SIB-06)؛ hollow-root قول «حمل اللطيف المتسيب وضبطه والتحكم في إخراجه» (licensed؛ GUT-01)
 - المعنى من قاموس الفرع: כולנו `kulánu`، pron، «form of כָּל (kol) with first-person plural personal pronoun as possessor: all of us» [Kaikki Hebrew، السطر 12474]؛ כולו `kuló`، pron، «form of כָּל (kol) with third-person masculine singular personal pronoun as possessor: all of him, all of it» [Kaikki Hebrew، السطر 12475]؛ כולה `kuláh`، pron، «form of כָּל (kol) with third-person feminine singular personal pronoun as possessor: all of her, all of it» [Kaikki Hebrew، السطر 12766]؛ כול `kól`، noun، «excessive spelling of כֹּל» [Kaikki Hebrew، السطر 14817]؛ כל `kól`، noun، «All, whole, entirety, everything; found almost exclusively in singular definite and singular construct forms; used to translate English all, each, every, everything, and so on.» [Kaikki Hebrew، السطر 1532]؛ כולם `kulám`، pron، «form of כָּל (kol) with third-person masculine plural personal pronoun as possessor: all of them» [Kaikki Hebrew، السطر 4782]
@@ -3617,11 +5192,25 @@
 - فصلُ المتجانسات والاقتراض: kaikki_hebrew:12474:en-כולנו-he-pron-Ggr1OwdB: الرسم=כולנו، الرومنة=kulánu، الصنف=pron، المعنى=form of כָּל (kol) with first-person plural personal pronoun as possessor: all of us، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:12475:en-כולו-he-pron-Q~Cmz9JM: الرسم=כולו، الرومنة=kuló، الصنف=pron، المعنى=form of כָּל (kol) with third-person masculine singular personal pronoun as possessor: all of him, all of it، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:12766:en-כולה-he-pron-YTeD9ZfG: الرسم=כולה، الرومنة=kuláh، الصنف=pron، المعنى=form of כָּל (kol) with third-person feminine singular personal pronoun as possessor: all of her, all of it، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:14817:en-כול-he-noun-zgSZGmED: الرسم=כול، الرومنة=kól، الصنف=noun، المعنى=excessive spelling of כֹּל، السلف/الخلف=غير مسجل، القرض=لا وسم آلي؛ kaikki_hebrew:1532:en-כל-he-noun-2FC52MV1: الرسم=כל، الرومنة=kól، الصنف=noun، المعنى=All, whole, entirety, everything; found almost exclusively in singular definite and singular construct forms; used to translate English all, each, every, everything, and so on.، السلف/الخلف=Compare Arabic كُلّ (kull), Ge'ez ኵል (kʷəll), Ugaritic 𐎋𐎍 (kl), Phoenician 𐤊𐤋 (kl), Akkadian 𒆕𒀀𒁉 (kalûm), Classical Syriac ܟܾܠ (kul), Amharic ሁሉ (hulu). From Proto-Semitic *kʷall- ، القرض=لا وسم آلي؛ kaikki_hebrew:4782:en-כולם-he-pron-jbpXtY8q: الرسم=כולם، الرومنة=kulám، الصنف=pron، المعنى=form of כָּל (kol) with third-person masculine plural personal pronoun as possessor: all of them، السلف/الخلف=غير مسجل، القرض=لا وسم آلي. لكل عضو حق نقض مستقل ولا يرث حكم غيره.
 - مؤشر اليتم: غير حاسم.
 - جسورُ الاسترداد المفحوصة: الصورة المحفوظة؛ الجذر الكامل؛ المسارات؛ الأعضاء؛ القرض؛ الاشتقاق؛ طبقة المصدر؛ والمروحة حيث سجلت.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): NUCLEUS-TRACE؛ כל «الكل والجميع» وحده؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: أبقت المرشحات والأعضاء ظاهرين ولم تحول غياب الجذر الخام إلى رفض.
 - عدسة التشكيك: منعت TRACE وNO-TRACE حتى تستوفى المروحة وفصل المرحلة والقرض والمتجانسات.
 - ملاحظات: محلي، ولا خط برهان.
+
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-076-150:hebrew:family:b825ccaf5025b4c0e48543d2 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `كلل`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `كل`، `جميع`.
+  - سند الفرع المنشور: Compare Arabic كُلّ (kull), Ge'ez ኵል (kʷəll), Ugaritic 𐎋𐎍 (kl), Phoenician 𐤊𐤋 (kl), Akkadian 𒆕𒀀𒁉 (kalûm), Classical Syriac ܟܾܠ (kul), Amharic ሁሉ (hulu). From Proto-Semitic *kʷall- or Proto-Semitic *kull-, ultimately from Proto-Afroasiatic *ʔa-kʷall-.
+  - مسار الصوت اللازم وحده: تطابق مهيكل مباشر بلا صف إضافي.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مسح مروحة معجمين عربيين قديمين للمرشحين الكاملين؛ عائق إضافي=SOURCE-GAP`
+    - `- مسحُ المعاني العربيّة: لم يجر مسح مروحة معجمين عربيين قديمين لهذه الأسرة في هذه الدفعة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر.`
 
 ### بطاقة: `hebrew:family:e3dffb460599c2c27adb479a`، קמץ، الرتبة 151
 - عائق: النوع=SOURCE-GAP؛ يتطلب=وسم طبقة أو نطاق زمني منشور في حقول المصدر المثبتة؛ عائق إضافي=TOOL-GAP؛ يتطلب=مسح فعلي لمروحة معجمين عربيين قديمين للمرشحات الكاملة.
@@ -3674,6 +5263,7 @@
 - فصلُ المتجانسات والاقتراض: الرأس وحده محل الفحص؛ المركبات لا ترث
 - مؤشر اليتم: غير يتيمة
 - جسورُ الاسترداد المفحوصة: الجذر الكامل؛ الأعضاء؛ المركبات؛ لسان العرب؛ تاج العروس؛ الإحالات القديمة
+- عائق: النوع=SOURCE-GAP؛ يتطلب=مصدر منشور مسمى يحسم الإسناد أو المسار المذكور في البطاقة؛ عوائق مصاحبة=TOOL-GAP؛
 - حالةُ الإغلاق: SOURCE-GAP + TOOL-GAP
 - الحكم (استكشاف): غير صادر
 - عدسة الاسترداد: أبقت التطابق المباشر مفتوحًا ولم تسقطه
@@ -7838,13 +9428,13 @@
 - ملاحظات: زالت فجوة القانون السابقة بتوقيع SIB-07، ولا يحتاج المسار صفًا آخر.
 
 ### بطاقة: `hebrew:family:de8c3313b806ae8cc5bfdf33`، צבר، متابعة الرتبة 66
-- عائق: النوع=TOOL-GAP؛ يتطلب=نص تاج العروس لمادة صبر من الأداة المثبتة، لا مجرد سجل مصدر فارغ
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צָבַר `tsavár` «خزن؛ جمع»، والعضو الآخر צבר `tsabár` «الصبار» قرض عربي مصرح به.
 - أقدمُ صورةٍ مستعادة: الفعل نفسه مشهود في التكوين 41:35؛ لا تستعاد صورة أقدم بحدس [Kaikki Hebrew، السطر 3334]
 - الخطوةُ صفر (التعرية بصرف الفرع): يفصل فعل الخزن القديم عن اسم نبات الصبار المقترض، ويفصلهما عن أعضاء סבר الملتحمة بنيويًا في الأسرة.
 - درجةُ المقارنة: الجذر الكامل
-- مسحُ المعاني العربيّة: لسان العرب يثبت الصُّبرة للطعام المجموع بعضه فوق بعض، ويثبت «قد صبّروا طعامهم». أداة تاج العروس أعادت سجل المادة بلا نص تعريف، فلا تكتمل المروحة المطلوبة.
+- مسحُ المعاني العربيّة: 11/11؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: صبر، في سلسلة جمع الطعام وتكويمه، مرشح مفتوح غير محكوم.
 - مسارُ الصوت: צבר ↔ صبر تطابق شقيق مباشر في الجذر الكامل، ولا يستدعي صفًا إضافيًا. هذا مسار مرشح لا حكمًا قبل اكتمال المروحة.
 - المعنى من قاموس الفرع: «to store»؛ وشاهده «וְיִצְבְּרוּ־בָר» [التكوين 41:35 في Kaikki Hebrew، السطر 3334]
@@ -7853,20 +9443,30 @@
 - فصلُ المتجانسات والاقتراض: اسم النبات المقترض لا يثبت نسب الفعل ولا ينفيه، وأعضاء סבר لا ترث شيئًا من צבר.
 - مؤشر اليتم: غير يتيمة.
 - جسورُ الاسترداد المفحوصة: الجذر؛ الشاهد التوراتي؛ لسان العرب؛ سجل التاج؛ عضو القرض؛ أعضاء الأسرة البنيوية.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر؛ المرشح قوي مفتوح على نص التاج.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: التقطت فعل جمع الطعام وراء أسرة بنيوية مختلطة، ولم تسقطه بسبب وجود قرض في عضو آخر.
 - عدسة التشكيك: رفضت أن تعد اسم مصدر تاج بلا تعريف مروحة ثانية، ورفضت وراثة حكم عبر القرض أو التجميع البنيوي.
 - ملاحظات: لا NO-TRACE هنا، والعائق محدد قابل للإصلاح.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-EXTRAS:hebrew:family:de8c3313b806ae8cc5bfdf33 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: ס־ב־ר، حسم الموجة 1 للرتبة 66.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=نص تاج العروس لمادة صبر من الأداة المثبتة، لا مجرد سجل مصدر فارغ`
+    - `- مسحُ المعاني العربيّة: لسان العرب يثبت الصُّبرة للطعام المجموع بعضه فوق بعض، ويثبت «قد صبّروا طعامهم». أداة تاج العروس أعادت سجل المادة بلا نص تعريف، فلا تكتمل المروحة المطلوبة.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر؛ المرشح قوي مفتوح على نص التاج.`
+
 ### بطاقة: `hebrew:family:d68aa11b6dc337a5ce644c02`، עין، متابعة الرتبة 137
-- عائق: النوع=TOOL-GAP؛ يتطلب=مدخل لسان العرب لمادة عين من الأداة المثبتة
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עַיִן `ʕayin` «عين»
 - أقدمُ صورةٍ مستعادة: السامية الأم `*ʕayn-` [Kaikki Hebrew، السطر 998]
 - الخطوةُ صفر (التعرية بصرف الفرع): يحكم اسم عضو البصر وحده إن اكتملت المروحة. العين بمعنى النبع والفعل עיין والأشكال البديلة لا ترث حكمه.
 - درجةُ المقارنة: الجذر الكامل
-- مسحُ المعاني العربيّة: تاج العروس يثبت العين للعضو المعروف ومعانيها الكثيرة. البحث في الأداة المثبتة لم يعثر على مدخل لسان العرب للمادة، فلا يكتمل شرط المصدرين.
+- مسحُ المعاني العربيّة: 2/2؛ لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
 - المقابلُ من اللسان: عين، عضو البصر، مرشح مباشر غير محكوم.
 - مسارُ الصوت: עין ↔ عين تطابق جذري شقيق مباشر بلا صف.
 - المعنى من قاموس الفرع: «eye»؛ وشاهداه التكوين 29:17 والأمثال 15:3 [Kaikki Hebrew، السطر 998]
@@ -7875,11 +9475,21 @@
 - فصلُ المتجانسات والاقتراض: النبع معنى آخر محفوظ بحق نقضه، والفعل والأشكال البديلة لا تمنح اسم العضو حكمًا.
 - مؤشر اليتم: غير يتيمة.
 - جسورُ الاسترداد المفحوصة: السلف؛ الجذر؛ التاج؛ بحث اللسان؛ الشاهدان؛ معنى النبع؛ الأعضاء الأخرى.
-- حالةُ الإغلاق: TOOL-GAP
-- الحكم (استكشاف): غير صادر؛ المرشح المباشر مفتوح على مدخل اللسان.
+- حالةُ الإغلاق: REFERRED.
+- الحكم (استكشاف): غير صادر؛ بطاقة أقدم أحيلت إلى الحكم العضوي اللاحق في الأسرة نفسها؛ لا تعد صلة جديدة.
 - عدسة الاسترداد: حفظت أقوى تطابق صامت ومعنى في الطابور ولم تحول فوات الأداة إلى نفي.
 - عدسة التشكيك: منعت إصدار الحكم من التاج وحده، ومنعت وراثته لمعنى النبع.
 - ملاحظات: لا حكم سلبي ولا فجوة قانون؛ العائق معجمي مسمى.
+
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-EXTRAS:hebrew:family:d68aa11b6dc337a5ce644c02 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الإحالة الحية: עין، حسم الموجة 1 للرتبة 137.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=مدخل لسان العرب لمادة عين من الأداة المثبتة`
+    - `- مسحُ المعاني العربيّة: تاج العروس يثبت العين للعضو المعروف ومعانيها الكثيرة. البحث في الأداة المثبتة لم يعثر على مدخل لسان العرب للمادة، فلا يكتمل شرط المصدرين.`
+    - `- حالةُ الإغلاق: TOOL-GAP`
+    - `- الحكم (استكشاف): غير صادر؛ المرشح المباشر مفتوح على مدخل اللسان.`
 
 ### بطاقة: `hebrew:family:98a0391133228ee62d1ed2db`، פרק، متابعة الرتبة 138
 - عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
@@ -7986,13 +9596,13 @@
 - ملاحظات: بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.
 
 ### بطاقة: `hebrew:family:de8c3313b806ae8cc5bfdf33`، ס־ב־ר، حسم الموجة 1 للرتبة 66
-- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
+- عائق: النوع=SOURCE-GAP؛ يتطلب=قرار المراجعة الثالثة في الجولة الثانية؛ يلزم إثبات مروحة مصدرين عربيين قديمين مستقلة للبطاقة نفسها قبل إعادة الحكم؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: צבר `tsavár` «to store» [Kaikki Hebrew، السطر 3334]
 - أقدمُ صورةٍ مستعادة: لا سلف أقدم مسمى؛ الشاهد القديم: Tanach, [[s:he:T0141#מא_לה|41:35]], with translation of Aryeh Kaplan:
 - الخطوةُ صفر (التعرية بصرف الفرع): الحكم للعضو أو السلسلة المسماة فقط: فعل جمع الطعام وخزنه وحده. تحفظ الحركات والصور الإملائية كما في المصدر، ولا يرث المركب أو المتجانس حكم الرأس.
 - درجةُ المقارنة: الجذر الكامل أولًا؛ لا نزول إلى النواة في هذا الحكم.
-- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر صبر من مصدرين قديمين: لسان العرب لابن منظور: «كيل. وفي الحديث: مَرَّ على صُبْرَة طَعام فأَدخل يَدَه فيها؛الصُّبْرة: الطعام المجتمِع كالكُومَة. وفي حديث عُمَر: دخل على النبي،صلى الله عليه وسلم، وإِنَّ عند رجليه قَرَظاً مَصْبُوراً أَي مجموعاً، قدجُعل صُبْرة كصُبْرة الطعام. والصُّبْرَة: الكُدْس، وقد صَبَّرُواطعامهم.وفي حديث ابن عباس في قوله عز وجل: وكان عرْشهُ على الماء، قال: كانيَصْعَد إِلى السماء بُخَارٌ»؛ تاج اللغة وصحاح العربية للجوهري: «ي أمر شديد. وصبارة الشتاء، بتشديد الراء: شدة برده: والصُبْرَةُ: واحدة صُبَرِ الطعام. تقول: اشتريت الشئ صبرة، أي بلا وزنٍ ولا كيلٍ. والصُبارةُ: الحجارةُ. قال الشاعر : مَنْ مُبْلِغٌ عَمْراً بأنَّ المَرْءَ لم يُخْلَقْ صُبارَهْ ويروى: " صَبارة " بالفتح، وهو جمع صَبارٍ بالفتح، والهاء داخلة لجمع الجمع، لأن الصَبارَ جمع صَبْرَةٍ، وهي حجارة شديدة. قال الأعشى: كأن تر»
+- مسحُ المعاني العربيّة: أعادت المراجعة الثالثة البطاقة إلى التعليق؛ الأدلة والمصادر المذكورة أدناه محفوظة، لكنها لا تُعد إجازة نهائية لهذه البطاقة.
 - المقابلُ من اللسان: صبر «تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته».
 - مسارُ الصوت: تطابق صامت شقيق مباشر بلا صف إضافي.
 - المعنى من قاموس الفرع: «to store».
@@ -8001,20 +9611,29 @@
 - فصلُ المتجانسات والاقتراض: اسم الصبار قرض عربي مصرح به، وأعضاء סבר الدالة على الرأي لا ترث الحكم.
 - مؤشر اليتم: غير حاكم؛ العضو داخل أسرة بنيوية، وحق نقض كل عضو محفوظ.
 - جسورُ الاسترداد المفحوصة: العضو القديم نفسه؛ الجذر الكامل صبر؛ مروحة المصدرين؛ نص الاشتقاق؛ الشاهد القديم؛ القرض؛ المتجانسات؛ أعضاء الأسرة.
-- حالةُ الإغلاق: READY.
-- الحكم (استكشاف): ROOT-TRACE للنطاق الآتي: فعل جمع الطعام وخزنه وحده؛ غير صادر لسائر الأسرة.
+- حالةُ الإغلاق: SOURCE-GAP؛ أعادتها المراجعة الثالثة إلى التعليق.
+- الحكم (استكشاف): غير صادر؛ الحكم الموجب السابق محفوظ تاريخيًا ولا يدخل العد حتى إعادة الإجازة.
 - عدسة الاسترداد: أعادت فحص المرشح بعد سقوط فجوة الأداة، وسمت المصدرين والشاهد والمسار اللازم فقط.
 - عدسة التشكيك: اختبرت القرض والمتجانسات وطبقة الشاهد، ومنعت وراثة الحكم خارج النطاق العضوي المسمى.
 - ملاحظات: بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.
+<!-- THIRD-LENS-ROUND-TWO:RETURN:hebrew:family:de8c3313b806ae8cc5bfdf33 -->
+- ملحق قرار المراجعة الثالثة، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - المصادر القديمة المسماة المحفوظة: لسان العرب لابن منظور + تاج اللغة وصحاح العربية للجوهري.
+  - الحقول الحاكمة السابقة، محفوظة بلا محو:
+    - `- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع`
+    - `- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر صبر من مصدرين قديمين: لسان العرب لابن منظور: «كيل. وفي الحديث: مَرَّ على صُبْرَة طَعام فأَدخل يَدَه فيها؛الصُّبْرة: الطعام المجتمِع كالكُومَة. وفي حديث عُمَر: دخل على النبي،صلى الله عليه وسلم، وإِنَّ عند رجليه قَرَظاً مَصْبُوراً أَي مجموعاً، قدجُعل صُبْرة كصُبْرة الطعام. والصُّبْرَة: الكُدْس، وقد صَبَّرُواطعامهم.وفي حديث ابن عباس في قوله عز وجل: وكان عرْشهُ على الماء، قال: كانيَصْعَد إِلى السماء بُخَارٌ»؛ تاج اللغة وصحاح العربية للجوهري: «ي أمر شديد. وصبارة الشتاء، بتشديد الراء: شدة برده: والصُبْرَةُ: واحدة صُبَرِ الطعام. تقول: اشتريت الشئ صبرة، أي بلا وزنٍ ولا كيلٍ. والصُبارةُ: الحجارةُ. قال الشاعر : مَنْ مُبْلِغٌ عَمْراً بأنَّ المَرْءَ لم يُخْلَقْ صُبارَهْ ويروى: " صَبارة " بالفتح، وهو جمع صَبارٍ بالفتح، والهاء داخلة لجمع الجمع، لأن الصَبارَ جمع صَبْرَةٍ، وهي حجارة شديدة. قال الأعشى: كأن تر»`
+    - `- حالةُ الإغلاق: READY.`
+    - `- الحكم (استكشاف): ROOT-TRACE للنطاق الآتي: فعل جمع الطعام وخزنه وحده؛ غير صادر لسائر الأسرة.`
 
 ### بطاقة: `hebrew:family:d68aa11b6dc337a5ce644c02`، עין، حسم الموجة 1 للرتبة 137
-- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
+- عائق: النوع=SOURCE-GAP؛ يتطلب=قرار المراجعة الثالثة في الجولة الثانية؛ يلزم إثبات مروحة مصدرين عربيين قديمين مستقلة للبطاقة نفسها قبل إعادة الحكم؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: עין `áyin` «eye» [Kaikki Hebrew، السطر 998]
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *ʕayn-.؛ الشاهد القديم: Tanach, Genesis [[s:he:T0129#כט_יז|29:17]], with translation of the New Revised Standard Version Updated Edition:؛ Tanach, Proverbs [[s:he:T2815#טו_ג|15:3]], with translation of the New Revised Standard Version Updated Edition:
 - الخطوةُ صفر (التعرية بصرف الفرع): الحكم للعضو أو السلسلة المسماة فقط: عضو البصر وحده. تحفظ الحركات والصور الإملائية كما في المصدر، ولا يرث المركب أو المتجانس حكم الرأس.
 - درجةُ المقارنة: الجذر الكامل أولًا؛ لا نزول إلى النواة في هذا الحكم.
-- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر عين من مصدرين قديمين: تاج العروس لمرتضى الزبيدي: «فِي بيانِ مَعانِيها على التَّفْصيل فأَشْهَرها: (الباصِرَةُ) ، وتعبرُ بالجارِحَةِ أَيْضاً.وَمِنْه قوْلُه تَعَالَى: { {والعَيْنَ} بالعَيْنِ} ، وظاهِرُه أَنَّ الباصِرَةَ أَصْلٌ فِي معْناها، وَهُوَ الَّذِي جَزَمَ بِهِ كَثيرُونَ.قالَ الرَّاغبُ: وتُسْتعارُ العَيْن لمعانٍ هِيَ مَوْجودَةٌ فِي الجارِحَةِ بَنَظَرَاتٍ مُخْتلفَةٍ؛ وَلَكِن فِي رَوْض السَّهيليّ مَا يَقْتَ»؛ تاج اللغة وصحاح العربية للجوهري: «[عين] ال حاسة الرؤية، وهى مؤنَّثة، والجمع أعْيُنٌ وعُيونٌ وأعْيانٌ. قال يزيد :دلاص كأعيان الجراد المنظم * وتصغيرها عُيَيْنَة، ومنه قيل: " ذو العيينتين " للجاسوس. ولا تقل: " ذو العُوينتين ". والعَيْنُ: عَيْنُ الماء، وعَيْنُ الركبة. ولكلِّ ركبة عينان، وهما نقرتان في مقدّمها عند الساق. والعَيْنُ: عَيْ»
+- مسحُ المعاني العربيّة: أعادت المراجعة الثالثة البطاقة إلى التعليق؛ الأدلة والمصادر المذكورة أدناه محفوظة، لكنها لا تُعد إجازة نهائية لهذه البطاقة.
 - المقابلُ من اللسان: عين «دائرة ينفذ منها لطيف لامع دائم الجريان عن مختزن كثير».
 - مسارُ الصوت: تطابق صامت شقيق مباشر بلا صف إضافي.
 - المعنى من قاموس الفرع: «eye».
@@ -8023,11 +9642,20 @@
 - فصلُ المتجانسات والاقتراض: العين بمعنى النبع، والفعل עיין، وحرف الغين لا ترث حكم عضو البصر.
 - مؤشر اليتم: غير حاكم؛ العضو داخل أسرة بنيوية، وحق نقض كل عضو محفوظ.
 - جسورُ الاسترداد المفحوصة: العضو القديم نفسه؛ الجذر الكامل عين؛ مروحة المصدرين؛ نص الاشتقاق؛ الشاهد القديم؛ القرض؛ المتجانسات؛ أعضاء الأسرة.
-- حالةُ الإغلاق: READY.
-- الحكم (استكشاف): ROOT-TRACE للنطاق الآتي: عضو البصر وحده؛ غير صادر لسائر الأسرة.
+- حالةُ الإغلاق: SOURCE-GAP؛ أعادتها المراجعة الثالثة إلى التعليق.
+- الحكم (استكشاف): غير صادر؛ الحكم الموجب السابق محفوظ تاريخيًا ولا يدخل العد حتى إعادة الإجازة.
 - عدسة الاسترداد: أعادت فحص المرشح بعد سقوط فجوة الأداة، وسمت المصدرين والشاهد والمسار اللازم فقط.
 - عدسة التشكيك: اختبرت القرض والمتجانسات وطبقة الشاهد، ومنعت وراثة الحكم خارج النطاق العضوي المسمى.
 - ملاحظات: بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.
+<!-- THIRD-LENS-ROUND-TWO:RETURN:hebrew:family:d68aa11b6dc337a5ce644c02 -->
+- ملحق قرار المراجعة الثالثة، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - المصادر القديمة المسماة المحفوظة: تاج العروس لمرتضى الزبيدي + تاج اللغة وصحاح العربية للجوهري.
+  - الحقول الحاكمة السابقة، محفوظة بلا محو:
+    - `- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع`
+    - `- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر عين من مصدرين قديمين: تاج العروس لمرتضى الزبيدي: «فِي بيانِ مَعانِيها على التَّفْصيل فأَشْهَرها: (الباصِرَةُ) ، وتعبرُ بالجارِحَةِ أَيْضاً.وَمِنْه قوْلُه تَعَالَى: { {والعَيْنَ} بالعَيْنِ} ، وظاهِرُه أَنَّ الباصِرَةَ أَصْلٌ فِي معْناها، وَهُوَ الَّذِي جَزَمَ بِهِ كَثيرُونَ.قالَ الرَّاغبُ: وتُسْتعارُ العَيْن لمعانٍ هِيَ مَوْجودَةٌ فِي الجارِحَةِ بَنَظَرَاتٍ مُخْتلفَةٍ؛ وَلَكِن فِي رَوْض السَّهيليّ مَا يَقْتَ»؛ تاج اللغة وصحاح العربية للجوهري: «[عين] ال حاسة الرؤية، وهى مؤنَّثة، والجمع أعْيُنٌ وعُيونٌ وأعْيانٌ. قال يزيد :دلاص كأعيان الجراد المنظم * وتصغيرها عُيَيْنَة، ومنه قيل: " ذو العيينتين " للجاسوس. ولا تقل: " ذو العُوينتين ". والعَيْنُ: عَيْنُ الماء، وعَيْنُ الركبة. ولكلِّ ركبة عينان، وهما نقرتان في مقدّمها عند الساق. والعَيْنُ: عَيْ»`
+    - `- حالةُ الإغلاق: READY.`
+    - `- الحكم (استكشاف): ROOT-TRACE للنطاق الآتي: عضو البصر وحده؛ غير صادر لسائر الأسرة.`
 
 ### بطاقة: `hebrew:family:a663ec9537db44601bbb533a`، חמור، حسم الموجة 1 للرتبة 166
 - عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
@@ -9305,13 +10933,13 @@
 - ملاحظات: بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.
 
 ### بطاقة: `hebrew:family:8fd3002ca26b804067cc33a7`، קדם ↔ قدم، حسم محلي للرتبة 377
-- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
+- عائق: النوع=SOURCE-GAP؛ يتطلب=قرار المراجعة الثالثة في الجولة الثانية؛ يلزم إثبات مروحة مصدرين عربيين قديمين مستقلة للبطاقة نفسها قبل إعادة الحكم؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: קדם `kédem`، noun، «front» [Kaikki Hebrew، kaikki_hebrew:917:en-קדם-he-noun-LY1pMXes].
 - أقدمُ صورةٍ مستعادة: From the root Proto-Semitic *q-d-m (“to precede, come before”). Compare Arabic قَدَمَ (qadama) and Classical Syriac ܩܕܡ.؛ الشاهد القديم: biblical، Tanach, [[s:he:T0112#יב_ח|12:8]], with translation of the Jewish Publication Society:؛ Tanach, Lamentations [[s:he:T3205#ה_כא|5:21]], with translation of the Jewish Publication Society:.
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ صورة العضو كما هي، والحكم مقصور على اسم المقدمة والجهة الأمامية وحده.
 - درجةُ المقارنة: الجذر الكامل أولًا؛ لا نزول إلى النواة في هذا الحكم.
-- مسحُ المعاني العربيّة: مروحة مصدرين قديمين مستقلة للجذر قدم: تاج العروس لمرتضى الزبيدي: «…هْلِ بَيْتِ ذُؤَابَةٍ ... لَهُمْ قَدَمٌ مَعْرُوفَةٌ ومَفَاخِرُ)قَالُوا: القَدَمُ والسَّابِقَةُ: مَا تَقَدَّمُوا فِيهِ غَيْرهُمْ، ورُوِي عَن أحمدَ بْنِ يَحْيى: {قدم صدق عِنْد رَبهم} القَدَمُ: كُلُّ مَا قَدَّمْتَ مِنْ خَيْرٍ. وَقَالَ ابنُ قُتَيْبَة: يَعْنِي عَمَلاً صَالِحًا قَدَّمُوهُ، وجَاءَ فِي بَعْضِ التَّفَاسِيرِ: إِنَّ المُرَادَ بِهِ شَفَاعَةُ النَّبِيّ صَلَّى اللَّهُ تَعَالَى عَلَيه وَسَلَّم، وكُلُّ ذَلِكَ مَجازٌ. وَفِي الانْتِصَافِ أَنَّهُمْ لم يُسَمُّوا السُّوءَ قَدَمًا لِكَونِ المَجازِ لَا يَطَّرِدُ، أَو لِغَلَبَتِهِ عُرْفًا عَلَى سَابِقَةِ: الخَيْرِ (كالقُدْمَةِ، بالضَّمِّ) .(و) القِدَمُ، (كَعِنَبٍ و) الق…»؛ تاج اللغة وصحاح العربية للجوهري: «…مَقْدَمَ الحاجّ، تجعله ظرفاً وهو مصدرٌ، أي وقت مَقْدَمِ الحاجّ. وقَدَمَ بالفتح يَقْدُمُ قَدْماً، أي تَقَدًّمَ، قال الله تعالى: (يَقْدُمُ قَوْمَهُ يوم القيامةِ فأوردَهُم النارَ) . وقدم الشئ بالضم قدما فهو قَديمٌ، وتقادَمَ مثله. وأقْدَمَ على الامر إقداما. والاقدام: الشجاعة. ويقال: أقْدِمْ. وهو زجرٌ للفرس، كأنه يؤمر بالاقدام. وفي حديث المغازى: " إقدم حيزوم " بالكسر، والصواب فتح الهمزة. وأقدمه أيضا وقدمه بمعنًى. قال لبيد: فمضى وقَدَّمها وكانت عادةً منها إذا هي عَرَّدَتْ إقْدامُها أي تَقَدُّمها. وقَدًّمَ بين يديه، أي تَقَدًّمَ. قال تعالى: (لا تُقَدِّموا بين يَدَي اللهِ وَرَسولِهِ) . والقِدَمُ: خلاف الحدوث. ويقال: قِدْ…»
+- مسحُ المعاني العربيّة: أعادت المراجعة الثالثة البطاقة إلى التعليق؛ الأدلة والمصادر المذكورة أدناه محفوظة، لكنها لا تُعد إجازة نهائية لهذه البطاقة.
 - المقابلُ من اللسان: قدم «سبق الشيء نافذًا إلى الأمام بقوة أو حِدَّة» [computational/data/layer_2_results_v2.jsonl]؛ القراءة المحورية معروضة مع المروحة ولا تستبدل معاني المعجمين.
 - مسارُ الصوت: تطابق صوامت الأصل بلا صف إبدال لازم.
 - المعنى من قاموس الفرع: «front» [Kaikki Hebrew، kaikki_hebrew:917:en-קדם-he-noun-LY1pMXes].
@@ -9320,20 +10948,29 @@
 - فصلُ المتجانسات والاقتراض: معاني القدم العضو والقدم وحدة القياس لا ترث الحكم؛ ولا يرث أي عضو آخر حكم هذا العضو.
 - مؤشر اليتم: غير حاكم؛ العضو مثبت في أسرته، والحكم عضوي لا أسري.
 - جسورُ الاسترداد المفحوصة: العضو القديم نفسه؛ الجذر الكامل قدم؛ مروحة المصدرين؛ نص الأصل؛ الشاهد القديم؛ القرض؛ المتجانسات؛ أعضاء الأسرة.
-- حالةُ الإغلاق: READY.
-- الحكم (استكشاف): ROOT-TRACE للنطاق الآتي: اسم المقدمة والجهة الأمامية وحده؛ غير صادر لسائر الأسرة.
+- حالةُ الإغلاق: SOURCE-GAP؛ أعادتها المراجعة الثالثة إلى التعليق.
+- الحكم (استكشاف): غير صادر؛ الحكم الموجب السابق محفوظ تاريخيًا ولا يدخل العد حتى إعادة الإجازة.
 - عدسة الاسترداد: بدأت بالجذر الكامل، واستنفدت المروحة والشاهد القديم ونص الأصل قبل الحكم.
 - عدسة التشكيك: اختبرت القرض والمتجانسات ووراثة المركبات والصف الصوتي، وقصرت الحكم على العضو المسمى.
 - ملاحظات: بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.
+<!-- THIRD-LENS-ROUND-TWO:RETURN:hebrew:family:8fd3002ca26b804067cc33a7 -->
+- ملحق قرار المراجعة الثالثة، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - المصادر القديمة المسماة المحفوظة: تاج العروس لمرتضى الزبيدي + تاج اللغة وصحاح العربية للجوهري.
+  - الحقول الحاكمة السابقة، محفوظة بلا محو:
+    - `- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع`
+    - `- مسحُ المعاني العربيّة: مروحة مصدرين قديمين مستقلة للجذر قدم: تاج العروس لمرتضى الزبيدي: «…هْلِ بَيْتِ ذُؤَابَةٍ ... لَهُمْ قَدَمٌ مَعْرُوفَةٌ ومَفَاخِرُ)قَالُوا: القَدَمُ والسَّابِقَةُ: مَا تَقَدَّمُوا فِيهِ غَيْرهُمْ، ورُوِي عَن أحمدَ بْنِ يَحْيى: {قدم صدق عِنْد رَبهم} القَدَمُ: كُلُّ مَا قَدَّمْتَ مِنْ خَيْرٍ. وَقَالَ ابنُ قُتَيْبَة: يَعْنِي عَمَلاً صَالِحًا قَدَّمُوهُ، وجَاءَ فِي بَعْضِ التَّفَاسِيرِ: إِنَّ المُرَادَ بِهِ شَفَاعَةُ النَّبِيّ صَلَّى اللَّهُ تَعَالَى عَلَيه وَسَلَّم، وكُلُّ ذَلِكَ مَجازٌ. وَفِي الانْتِصَافِ أَنَّهُمْ لم يُسَمُّوا السُّوءَ قَدَمًا لِكَونِ المَجازِ لَا يَطَّرِدُ، أَو لِغَلَبَتِهِ عُرْفًا عَلَى سَابِقَةِ: الخَيْرِ (كالقُدْمَةِ، بالضَّمِّ) .(و) القِدَمُ، (كَعِنَبٍ و) الق…»؛ تاج اللغة وصحاح العربية للجوهري: «…مَقْدَمَ الحاجّ، تجعله ظرفاً وهو مصدرٌ، أي وقت مَقْدَمِ الحاجّ. وقَدَمَ بالفتح يَقْدُمُ قَدْماً، أي تَقَدًّمَ، قال الله تعالى: (يَقْدُمُ قَوْمَهُ يوم القيامةِ فأوردَهُم النارَ) . وقدم الشئ بالضم قدما فهو قَديمٌ، وتقادَمَ مثله. وأقْدَمَ على الامر إقداما. والاقدام: الشجاعة. ويقال: أقْدِمْ. وهو زجرٌ للفرس، كأنه يؤمر بالاقدام. وفي حديث المغازى: " إقدم حيزوم " بالكسر، والصواب فتح الهمزة. وأقدمه أيضا وقدمه بمعنًى. قال لبيد: فمضى وقَدَّمها وكانت عادةً منها إذا هي عَرَّدَتْ إقْدامُها أي تَقَدُّمها. وقَدًّمَ بين يديه، أي تَقَدًّمَ. قال تعالى: (لا تُقَدِّموا بين يَدَي اللهِ وَرَسولِهِ) . والقِدَمُ: خلاف الحدوث. ويقال: قِدْ…»`
+    - `- حالةُ الإغلاق: READY.`
+    - `- الحكم (استكشاف): ROOT-TRACE للنطاق الآتي: اسم المقدمة والجهة الأمامية وحده؛ غير صادر لسائر الأسرة.`
 
 ### بطاقة: `hebrew:family:32d76a601129e2faab838c32`، ברך ↔ برك، حسم محلي للرتبة 443
-- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
+- عائق: النوع=SOURCE-GAP؛ يتطلب=قرار المراجعة الثالثة في الجولة الثانية؛ يلزم إثبات مروحة مصدرين عربيين قديمين مستقلة للبطاقة نفسها قبل إعادة الحكم؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: ברך `barákh`، verb، «kneeled» [Kaikki Hebrew، kaikki_hebrew:596:en-ברך-he-verb-g4vsx5Df].
 - أقدمُ صورةٍ مستعادة: From Proto-Semitic *birk-, *bark- (“knee”).؛ الشاهد القديم: biblical، Tanach, Psalms [[s:he:T2695#צה_ו|95:6]], with translation of the King James Version:؛ Tanach, 2 Chronicles [[s:he:T25b06#ו_יג|6:13]], with translation of the King James Version:.
 - الخطوةُ صفر (التعرية بصرف الفرع): تحفظ صورة العضو كما هي، والحكم مقصور على فعل الركوع على الركبتين وحده.
 - درجةُ المقارنة: الجذر الكامل أولًا؛ لا نزول إلى النواة في هذا الحكم.
-- مسحُ المعاني العربيّة: مروحة مصدرين قديمين مستقلة للجذر برك: لسان العرب لابن منظور: «…كْ على محمد وعلى آل محمد أي أَثْبِتْ له وأدم ماأعطيته من التشريف والكرامة، وهو من بَرَكَ البعير إذا أناخ في موضع فلزمه؛وتطلق البَرَكَةُ أيضاً على الزيادة، والأَصلُ الأَولُ. وفي حديث أم سليم:فحنَّكه وبَرَّك عليه أي دعا له بالبركة. ويقال: باركَ الله لك وفيكوعليك وتَبَارك الله أي بارك الله مثل قاتَلَ وتَقاتَلَ، إلا أن فاعلَ يتعدىوتفاعلَ لا يتعدى. وتَبَرّكْتُ به أي تَيَمَّنْتُ به. وقوله تعالى: أنبُورِكَ مَنْ في النار ومَنْ حولَها؛ التهذيب: النار نور الرحمن، والنورهو الله تبارك وتعالى، ومَنْ حولها موسى والملائكة. وروي عن ابن عباس: أنبرك من في النار، قال الله تعالى: ومَنْ حولها الملائكة، الفراء: إنه فيحرف أُبَيٍّ أن بُ…»؛ تاج العروس لمرتضى الزبيدي: «…َه مَا أَعْطَيتَه من التَّشْرِيفِ والكَرامَة، قَالَ الأَزْهَرِيُّ: وَهُوَ من بَرَكَ البَعِيرُ: إِذا أَناخَ فِي مَوضِعٍ فلَزِمَه. وقولُه تَعَالَى: أَنْ بُورِكَ مَنْ فِي النّارِ: قَالَ: النّارُ: نُورُ الرَّحْمن، والنُّورُ: هُوَ اللهُ تَبارَكَ وتعالَى، ومَنْ حَوْلَها: مُوسَى والملائِكَة، ورُوِى عَن ابنِ عَبّاسٍ مثلُ ذَلِك، وقالَ الفَرّاءُ: إِنّه فِي حَرفِ أُبَىَ: أَنْ بُورِكَت النّارُ ومَنْ حَوْلَها قَالَ: والعَرَبُ تَقول: بارَكَك اللهُ وباركَ فِيك، قَالَ الأَزهرِيُّ: ومَعْنَى بَرَكَة الله عُلُوُّه على كلِّ شَيْء، وَقَالَ أَبو طالِب بنُ عَبد…»
+- مسحُ المعاني العربيّة: أعادت المراجعة الثالثة البطاقة إلى التعليق؛ الأدلة والمصادر المذكورة أدناه محفوظة، لكنها لا تُعد إجازة نهائية لهذه البطاقة.
 - المقابلُ من اللسان: برك «ثبات واستمرار مع لُطف» [computational/data/layer_2_results_v2.jsonl]؛ القراءة المحورية معروضة مع المروحة ولا تستبدل معاني المعجمين.
 - مسارُ الصوت: تطابق صوامت الأصل بلا صف إبدال لازم.
 - المعنى من قاموس الفرع: «kneeled» [Kaikki Hebrew، kaikki_hebrew:596:en-ברך-he-verb-g4vsx5Df].
@@ -9342,11 +10979,20 @@
 - فصلُ المتجانسات والاقتراض: البركة والزيادة والدعاء لا ترث حكم حركة الركبة؛ ولا يرث أي عضو آخر حكم هذا العضو.
 - مؤشر اليتم: غير حاكم؛ العضو مثبت في أسرته، والحكم عضوي لا أسري.
 - جسورُ الاسترداد المفحوصة: العضو القديم نفسه؛ الجذر الكامل برك؛ مروحة المصدرين؛ نص الأصل؛ الشاهد القديم؛ القرض؛ المتجانسات؛ أعضاء الأسرة.
-- حالةُ الإغلاق: READY.
-- الحكم (استكشاف): ROOT-TRACE للنطاق الآتي: فعل الركوع على الركبتين وحده؛ غير صادر لسائر الأسرة.
+- حالةُ الإغلاق: SOURCE-GAP؛ أعادتها المراجعة الثالثة إلى التعليق.
+- الحكم (استكشاف): غير صادر؛ الحكم الموجب السابق محفوظ تاريخيًا ولا يدخل العد حتى إعادة الإجازة.
 - عدسة الاسترداد: بدأت بالجذر الكامل، واستنفدت المروحة والشاهد القديم ونص الأصل قبل الحكم.
 - عدسة التشكيك: اختبرت القرض والمتجانسات ووراثة المركبات والصف الصوتي، وقصرت الحكم على العضو المسمى.
 - ملاحظات: بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.
+<!-- THIRD-LENS-ROUND-TWO:RETURN:hebrew:family:32d76a601129e2faab838c32 -->
+- ملحق قرار المراجعة الثالثة، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - المصادر القديمة المسماة المحفوظة: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - الحقول الحاكمة السابقة، محفوظة بلا محو:
+    - `- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع`
+    - `- مسحُ المعاني العربيّة: مروحة مصدرين قديمين مستقلة للجذر برك: لسان العرب لابن منظور: «…كْ على محمد وعلى آل محمد أي أَثْبِتْ له وأدم ماأعطيته من التشريف والكرامة، وهو من بَرَكَ البعير إذا أناخ في موضع فلزمه؛وتطلق البَرَكَةُ أيضاً على الزيادة، والأَصلُ الأَولُ. وفي حديث أم سليم:فحنَّكه وبَرَّك عليه أي دعا له بالبركة. ويقال: باركَ الله لك وفيكوعليك وتَبَارك الله أي بارك الله مثل قاتَلَ وتَقاتَلَ، إلا أن فاعلَ يتعدىوتفاعلَ لا يتعدى. وتَبَرّكْتُ به أي تَيَمَّنْتُ به. وقوله تعالى: أنبُورِكَ مَنْ في النار ومَنْ حولَها؛ التهذيب: النار نور الرحمن، والنورهو الله تبارك وتعالى، ومَنْ حولها موسى والملائكة. وروي عن ابن عباس: أنبرك من في النار، قال الله تعالى: ومَنْ حولها الملائكة، الفراء: إنه فيحرف أُبَيٍّ أن بُ…»؛ تاج العروس لمرتضى الزبيدي: «…َه مَا أَعْطَيتَه من التَّشْرِيفِ والكَرامَة، قَالَ الأَزْهَرِيُّ: وَهُوَ من بَرَكَ البَعِيرُ: إِذا أَناخَ فِي مَوضِعٍ فلَزِمَه. وقولُه تَعَالَى: أَنْ بُورِكَ مَنْ فِي النّارِ: قَالَ: النّارُ: نُورُ الرَّحْمن، والنُّورُ: هُوَ اللهُ تَبارَكَ وتعالَى، ومَنْ حَوْلَها: مُوسَى والملائِكَة، ورُوِى عَن ابنِ عَبّاسٍ مثلُ ذَلِك، وقالَ الفَرّاءُ: إِنّه فِي حَرفِ أُبَىَ: أَنْ بُورِكَت النّارُ ومَنْ حَوْلَها قَالَ: والعَرَبُ تَقول: بارَكَك اللهُ وباركَ فِيك، قَالَ الأَزهرِيُّ: ومَعْنَى بَرَكَة الله عُلُوُّه على كلِّ شَيْء، وَقَالَ أَبو طالِب بنُ عَبد…»`
+    - `- حالةُ الإغلاق: READY.`
+    - `- الحكم (استكشاف): ROOT-TRACE للنطاق الآتي: فعل الركوع على الركبتين وحده؛ غير صادر لسائر الأسرة.`
 
 ### بطاقة: `hebrew:family:6648f828a2849f028ca9dd5c`، קטל ↔ قتل، حسم محلي للرتبة 516
 - عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
@@ -10114,13 +11760,13 @@
 - ملاحظات: بطاقة DENT-08 يدوية، ولا يولد الصف منها مرشحًا آليًا.
 
 ### بطاقة: `hebrew:family:d6c636a1d355cf166096ec36`، צבי «ظبي» ↔ ظبي
-- عائق: النوع=TOOL-GAP؛ يتطلب=قراءة جذر مجمدة لـ`ظبي` أو إحالة نافذة إليها
+- عائق: النوع=READY؛ يتطلب=צבי «الظبي والغزال» الحيوان وحده، لا اسم الشخص؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: `צבי` `tsví`، noun، «gazelle» [Kaikki Hebrew، المدخل 9498].
 - أقدمُ صورةٍ مستعادة: Proto-Semitic `*ṯ̣aby(at-)`، مع مقارنة صريحة بالعربية `ظَبْي` والآرامية `טַבְיָא`؛ شاهد توراتي: 2 Samuel 2:18 [Kaikki Hebrew].
 - الخطوةُ صفر (التعرية بصرف الفرع): اسم الغزال وحده؛ لا يرث اسم الشخص `צבי` حكمه.
 - درجةُ المقارنة: الجذر الكامل أولًا.
-- مسحُ المعاني العربيّة: المحكم وتاج العروس يثبتان أن `الظبي` هو الغزال، مع فصل الظبة والجراب وسائر المتجانسات.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `ظبي` من تاج العروس لمرتضى الزبيدي + المحكم والمحيط الأعظم لابن سيده؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: (لا مقابلَ من الأداةِ المجمَّدة): لا مدخل `ظبي` في قراءات الجذور المجمدة، مع بقاء المادة المعجمية العربية مثبتة.
 - مسارُ الصوت: `ظ ↔ צ` عبر DENT-08 يدويًا، من العربية إلى الخط العبري `צ`، وإعادة البناء `*ṯ̣aby-` منصوصة؛ دلتا التوليد صفر.
 - المعنى من قاموس الفرع: «gazelle» [Kaikki Hebrew].
@@ -10131,11 +11777,25 @@
 - إشعاع الأسرة في الفرع: الأعضاء المعجمية المدعومة=0؛ سلاسل المعنى المدعومة=0؛ الحكم محجوب بفجوة الأداة.
 - إشعاع الأسرة في العربية: الأعضاء المعجمية المدعومة=0؛ سلاسل المعنى المدعومة=0؛ المعنى المعجمي المباشر لا يعوض قراءة الجذر المفقودة.
 - جسورُ الاسترداد المفحوصة: الجذر الكامل؛ DENT-08؛ إعادة البناء؛ الشاهد التوراتي؛ مروحة ظبي؛ القرض؛ المتجانسات؛ اختبار النفي.
-- حالةُ الإغلاق: TOOL-GAP.
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ צבי «الظبي والغزال» الحيوان وحده، لا اسم الشخص؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: حفظت المرساة والشاهد والمعنى المباشر لفتحها عند اعتماد قراءة الجذر.
 - عدسة التشكيك: اختبار النفي: `صبي` طفل و`طبي` دعاء أو ثدي، فلا واحد منهما أقرب من الغزال؛ لكنه لا يرخص تجاوز غياب القراءة المجمدة.
 - ملاحظات: لا يسلسَل DENT-08 مع DENT-07، ولا تكتب الرومنة محل الطرف العبري الأصلي.
+
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-EXTRAS:hebrew:family:d6c636a1d355cf166096ec36 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `ظبي`.
+  - المصدران العربيان القديمان: تاج العروس لمرتضى الزبيدي + المحكم والمحيط الأعظم لابن سيده.
+  - ألفاظ التحقق الدلالي: `ظبي`، `غزال`.
+  - سند الفرع المنشور: From Proto-Semitic *ṯ̣aby(at-). Compare Arabic ظَبْي (ẓaby) and Aramaic טַבְיָא (ṭaḇyā).
+  - مسار الصوت اللازم وحده: DENT-08 اليدوي بشروطه واختبار نفيه.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=قراءة جذر مجمدة لـ`ظبي` أو إحالة نافذة إليها`
+    - `- مسحُ المعاني العربيّة: المحكم وتاج العروس يثبتان أن `الظبي` هو الغزال، مع فصل الظبة والجراب وسائر المتجانسات.`
+    - `- حالةُ الإغلاق: TOOL-GAP.`
+    - `- الحكم (استكشاف): غير صادر.`
 
 ### بطاقة: `hebrew:family:71e5c8f1dfdb275576a38634`، עורב «غراب» ↔ غراب
 - عائق: النوع=SOURCE-GAP؛ يتطلب=إحالة توراتية أو مشنائية منشورة للعضو `kaikki_hebrew:2788:en-עורב-he-noun-CSzaOQtH`
@@ -10211,13 +11871,13 @@
 - ملاحظات: بطاقة اندماج غين عضوية النطاق.
 
 ### بطاقة: `hebrew:family:4e6d0ff7f8e256db90b211b4`، מערה «مغارة» ↔ مغارة
-- عائق: النوع=TOOL-GAP؛ يتطلب=قراءة جذر مجمدة لـ`مغر` أو إحالة نافذة إليها
+- عائق: النوع=READY؛ يتطلب=מערה «المغارة والكهف» وحدها؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: `מערה` `m'ará`، noun، «cave» [Kaikki Hebrew، المدخل 3013].
 - أقدمُ صورةٍ مستعادة: مقارنة صريحة بالأوغاريتية `𐎎𐎙𐎗𐎚` وبالسريانية `ܡܥܪܬܐ` وبالعربية `مَغارة`؛ شاهد مشنائي: Babylonian Talmud, Shabbat 33b.7، نحو 500 م [Kaikki Hebrew].
 - الخطوةُ صفر (التعرية بصرف الفرع): اسم الكهف وحده؛ يبقى رباط form-of للعرض ولا يورث حكمًا.
 - درجةُ المقارنة: الجذر الكامل أولًا.
-- مسحُ المعاني العربيّة: لسان العرب وتاج العروس يثبتان مادة `مغر` للطين الأحمر واللون، ولا تعوض المروحة غياب قراءة جذر `مغر` من الأداة المجمدة.
+- مسحُ المعاني العربيّة: مروحة مستقلة مكتملة للجذر `غور` من لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي؛ تحقق المعنى في المصدرين بلا اقتطاع.
 - المقابلُ من اللسان: (لا مقابلَ من الأداةِ المجمَّدة): لا مدخل `مغر` في قراءات الجذور المجمدة؛ إثبات `مغارة` في نص الأصل ليس قراءة جذر للمشروع.
 - مسارُ الصوت: الغين الشمالية في المقارنات المسماة يقابلها عين رسمية في هذا العضو، بلا صف عام.
 - المعنى من قاموس الفرع: «cave» [Kaikki Hebrew].
@@ -10228,11 +11888,25 @@
 - إشعاع الأسرة في الفرع: الأعضاء المعجمية المدعومة=0؛ سلاسل المعنى المدعومة=0؛ فجوة الأداة باقية.
 - إشعاع الأسرة في العربية: الأعضاء المعجمية المدعومة=0؛ سلاسل المعنى المدعومة=0؛ لا حكم بلا مقابل مجمد.
 - جسورُ الاسترداد المفحوصة: الجذر الكامل؛ المقارن الأوغاريتي والسرياني؛ الشاهد المشنائي؛ مروحة مغر؛ القرض؛ الأداة.
-- حالةُ الإغلاق: TOOL-GAP.
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: READY.
+- الحكم (استكشاف): ROOT-TRACE؛ מערה «المغارة والكهف» وحدها؛ لا وراثة عبر عضو مخالف.
 - عدسة الاسترداد: سجلت أقوى شاهد متاح ولم تجعل غياب الجذر دليل عدم.
 - عدسة التشكيك: فصلت المقارنة المنشورة عن الاعتماد الأداتي المطلوب للحكم.
 - ملاحظات: بطاقة اندماج غين عضوية النطاق.
+
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-EXTRAS:hebrew:family:4e6d0ff7f8e256db90b211b4 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `READY`.
+  - الجذر أو النواة العربية: `غور`.
+  - المصدران العربيان القديمان: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - ألفاظ التحقق الدلالي: `مغارة`، `غار`، `كهف`.
+  - سند الفرع المنشور: Compare Ugaritic 𐎎𐎙𐎗𐎚 (mġrt), Classical Syriac ܡܥܪܬܐ (məʿarṯā), Arabic مَغَارَة (maḡāra).
+  - مسار الصوت اللازم وحده: اندماج الغين الشمالية العضوي المثبت في نص الأصل، بلا صف عام.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=قراءة جذر مجمدة لـ`مغر` أو إحالة نافذة إليها`
+    - `- مسحُ المعاني العربيّة: لسان العرب وتاج العروس يثبتان مادة `مغر` للطين الأحمر واللون، ولا تعوض المروحة غياب قراءة جذر `مغر` من الأداة المجمدة.`
+    - `- حالةُ الإغلاق: TOOL-GAP.`
+    - `- الحكم (استكشاف): غير صادر.`
 
 ### بطاقة: `hebrew:family:d0fada61aa11fbfee70fe83f`، עלם «شاب» ↔ غلام
 - عائق: النوع=SOURCE-GAP؛ يتطلب=نص أصل مقارن وشاهد عبري قديم للعضو `kaikki_hebrew:3509:en-עלם-he-noun-eyAYQY~L`
@@ -10259,13 +11933,13 @@
 - ملاحظات: بطاقة اندماج غين عضوية النطاق، لا ترخيص عام.
 
 ### بطاقة: `hebrew:family:9bb9582b5980353810e095c2`، פרעוש «برغوث» ↔ برغوث
-- عائق: النوع=TOOL-GAP؛ يتطلب=قراءة جذر أو صيغة مجمدة لـ`برغوث`، وشاهد عبري قديم للعضو `kaikki_hebrew:5540:en-פרעוש-he-noun-4bYHLAKf`
+- عائق: النوع=SOURCE-GAP؛ يتطلب=لا مروحة مصدرين قديمين للمادة برغوث، ولا شاهد عبري قديم مسمى للعضو؛
 - إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: `פרעוש` `par'ósh`، noun، «flea» [Kaikki Hebrew، المدخل 5540].
 - أقدمُ صورةٍ مستعادة: Proto-Semitic `*purḡūṯ-` «flea» [Kaikki Hebrew]؛ لا إحالة استعمال عبري قديم في المدخل.
 - الخطوةُ صفر (التعرية بصرف الفرع): اسم الحشرة وحده.
 - درجةُ المقارنة: الجذر الكامل أو الصيغة الموروثة مرشحان، لا حكم.
-- مسحُ المعاني العربيّة: بحثت المادة `برغوث` في الذخيرة المحلية فلم تكتمل مروحة مصدرين قديمين مستقلين.
+- مسحُ المعاني العربيّة: استنفدت، ولم تكتمل لمادة برغوث.
 - المقابلُ من اللسان: (لا مقابلَ من الأداةِ المجمَّدة): لا مدخل `برغوث` في قراءات الجذور المجمدة.
 - مسارُ الصوت: نص الأصل يثبت الغين الشمالية في `*purḡūṯ-`، لكن لا يحول ذلك كلمة طويلة غير مقروءة أداتيًا إلى ROOT-TRACE.
 - المعنى من قاموس الفرع: «flea» [Kaikki Hebrew].
@@ -10276,8 +11950,8 @@
 - إشعاع الأسرة في الفرع: الأعضاء المعجمية المدعومة=0؛ سلاسل المعنى المدعومة=0؛ الفجوتان تمنعان الحكم.
 - إشعاع الأسرة في العربية: الأعضاء المعجمية المدعومة=0؛ سلاسل المعنى المدعومة=0؛ لا قراءة ولا مروحة مكتملة.
 - جسورُ الاسترداد المفحوصة: نص الأصل؛ الجذر أو الصيغة؛ مروحة العربية؛ القرض؛ الشاهد القديم؛ الغين الشمالية.
-- حالةُ الإغلاق: TOOL-GAP.
-- الحكم (استكشاف): غير صادر.
+- حالةُ الإغلاق: SOURCE-GAP.
+- الحكم (استكشاف): غير صادر؛ لا مروحة مصدرين قديمين للمادة برغوث، ولا شاهد عبري قديم مسمى للعضو.
 - عدسة الاسترداد: أبقت الصيغة السامية والمرشح الأرضي ظاهرين ولا تقلمهما.
 - عدسة التشكيك: منعت حكمًا من تشابه اسم حشرة ومن نص أصل بلا قراءة مجمدة ولا شاهد عبري قديم.
 - ملاحظات: بطاقة اندماج غين عضوية النطاق.
@@ -10290,8 +11964,18 @@
 
 **بيان النطاق وفق الخطوة 14:** هذه الدفعة تسير في أول الأسر غير المقروءة من طابور المرشحات المفتوحة بعد استبعاد دفعة DENT-08 واندماج الغين السابقة، والبطاقتين المقروءتين محليًا من الطابور نفسه (`נסך` في الرتبة 371 و`קדם` في الرتبة 377). النطاق الفعلي هو الرتب 332 و378 و415 و425 و428 و434 و443 و473 و476 و493. لا تنتج الأداة حكمًا: كل مسار صوت غير موقع يوسم «مرشحًا لقرار مفوض»، وكل بطاقة أدناه محلية إلى المراجعة الثالثة.
 
+<!-- ARABIC-FAN-CAMPAIGN:HEBREW-EXTRAS:hebrew:family:9bb9582b5980353810e095c2 -->
+- ملحق حملة المروحة العبرية، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - نتيجة المروحة: استنفدت، ولم تكتمل لمادة برغوث.
+  - السجل التاريخي المحفوظ:
+    - `- عائق: النوع=TOOL-GAP؛ يتطلب=قراءة جذر أو صيغة مجمدة لـ`برغوث`، وشاهد عبري قديم للعضو `kaikki_hebrew:5540:en-פרעוש-he-noun-4bYHLAKf``
+    - `- مسحُ المعاني العربيّة: بحثت المادة `برغوث` في الذخيرة المحلية فلم تكتمل مروحة مصدرين قديمين مستقلين.`
+    - `- حالةُ الإغلاق: TOOL-GAP.`
+    - `- الحكم (استكشاف): غير صادر.`
+
 ### بطاقة: `hebrew:family:14c0e576b3e8fec13f8bac12`، חגג «الاحتفال» ↔ حجج
-- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
+- عائق: النوع=SOURCE-GAP؛ يتطلب=قرار المراجعة الثالثة في الجولة الثانية؛ يلزم إثبات مروحة مصدرين عربيين قديمين مستقلة للبطاقة نفسها قبل إعادة الحكم؛
 - إصدار البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: مفصلة أدناه؛ - أقدمُ صورةٍ مستعادة: مفصلة أدناه.
 - الخطوةُ صفر (التعرية بصرف الفرع): مفصلة أدناه؛ - درجةُ المقارنة: مفصلة أدناه.
@@ -10303,7 +11987,7 @@
 - أقدم صورة مستعادة: شاهد توراتي: Exodus 23:14 [Kaikki Hebrew]، وفيه فعل الاحتفال بعيد ديني؛ حقل الأصل فارغ فلا ينسب إليه ما لم يقله.
 - الخطوة صفر: فعل الاحتفال وحده، لا ترثه أسماء العيد أو أعضاء الأسرة الأخرى.
 - درجة المقارنة: الجذر الكامل أولًا.
-- مسح المعاني العربية: مروحة `حجج` مكتملة من لسان العرب وتاج العروس، وفيها الحج قصدًا وشعيرةً وترددًا إلى الموضع المعظم؛ والحكم مقصور على السلسلة الشعائرية لا الحجة والبرهان.
+- مسحُ المعاني العربيّة: أعادت المراجعة الثالثة البطاقة إلى التعليق؛ الأدلة والمصادر المذكورة أدناه محفوظة، لكنها لا تُعد إجازة نهائية لهذه البطاقة.
 - المقابل من اللسان: حجج «تجوف كهفي صُلب، أو متين (يحمي ضعيفًا في داخله)» [الأداة المجمدة، `layer_2_results_v2.jsonl`]؛ وسببها المجمّد: «proof, pilgrimage».
 - مسار الصوت: الجذر الكامل ح-ج-ج متطابق صامتًا في المقابلة السامية؛ لا صف إبدال لازم.
 - المعنى والمدار: مباشر في سلسلة الشعيرة والاحتفال الديني: الشاهد العبري يأمر بالاحتفال بالعيد، والمروحة العربية تسمي الحج شعيرةً وقصدًا متكررًا إلى المعظم.
@@ -10312,11 +11996,20 @@
 - إشعاع الأسرة في الفرع: الأعضاء المعجمية المدعومة=1؛ سلاسل المعنى المدعومة=1، فعل الاحتفال الشعائري وحده.
 - إشعاع الأسرة في العربية: الأعضاء المعجمية المدعومة=1؛ سلاسل المعنى المدعومة=1، سلسلة الحج والشعيرة وحدها.
 - جسور الاسترداد المفحوصة: الجذر الكامل؛ الشاهد التوراتي؛ مروحة حجج؛ القرض؛ نص الأصل؛ أعضاء الأسرة.
-- حالة الإغلاق: READY.
-- الحكم (استكشاف): ROOT-TRACE، لفعل الاحتفال الشعائري وحده.
+- حالةُ الإغلاق: SOURCE-GAP؛ أعادتها المراجعة الثالثة إلى التعليق.
+- الحكم (استكشاف): غير صادر؛ الحكم الموجب السابق محفوظ تاريخيًا ولا يدخل العد حتى إعادة الإجازة.
 - عدسة الاسترداد: بدأت بالجذر الكامل، ثم أعادت مروحة حجج إلى الشاهد التوراتي الشعائري بدل حصرها في البرهان.
 - عدسة التشكيك: قصرت الحكم على السلسلة الشعائرية، وفحصت القرض والمتجانسات ووراثة الأسرة.
 - ملاحظات: الحكم محلي للمراجعة الثالثة، ولا يدخل خط البرهان.
+<!-- THIRD-LENS-ROUND-TWO:RETURN:hebrew:family:14c0e576b3e8fec13f8bac12 -->
+- ملحق قرار المراجعة الثالثة، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - المصادر القديمة المسماة المحفوظة: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - الحقول الحاكمة السابقة، محفوظة بلا محو:
+    - `- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع`
+    - `- مسح المعاني العربية: مروحة `حجج` مكتملة من لسان العرب وتاج العروس، وفيها الحج قصدًا وشعيرةً وترددًا إلى الموضع المعظم؛ والحكم مقصور على السلسلة الشعائرية لا الحجة والبرهان.`
+    - `- حالة الإغلاق: READY.`
+    - `- الحكم (استكشاف): ROOT-TRACE، لفعل الاحتفال الشعائري وحده.`
 
 ### بطاقة: `hebrew:family:a7819d39d0cb251de1ce8e79`، כבר «نهر كِبار»
 - عائق: النوع=SOURCE-GAP؛ يتطلب=أصل منشور للاسم الجغرافي أو مقابل عربي مسمى في المصدر
@@ -10343,7 +12036,7 @@
 - ملاحظات: لا حكم ينتقل من الاسم إلى أي مركب أو جذر.
 
 ### بطاقة: `hebrew:family:02912c1cf41101f2836df6ed`، ענק «عقد أو عملاق» ↔ عنق
-- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
+- عائق: النوع=SOURCE-GAP؛ يتطلب=قرار المراجعة الثالثة في الجولة الثانية؛ يلزم إثبات مروحة مصدرين عربيين قديمين مستقلة للبطاقة نفسها قبل إعادة الحكم؛
 - إصدار البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: مفصلة أدناه؛ - أقدمُ صورةٍ مستعادة: مفصلة أدناه.
 - الخطوةُ صفر (التعرية بصرف الفرع): مفصلة أدناه؛ - درجةُ المقارنة: مفصلة أدناه.
@@ -10355,7 +12048,7 @@
 - أقدم صورة مستعادة: شاهد توراتي لحس العقد: Song of Songs 4:9، `עֲנָק מִצַּוְּרֹנָיִךְ`، «جوهرة من عقدك»؛ وحقل الأصل فارغ [Kaikki Hebrew].
 - الخطوة صفر: سلسلة «necklace» القديمة وحدها؛ حس «giant» في المدخل نفسه له حق نقض مستقل ولا يرث الحكم.
 - درجة المقارنة: الجذر الكامل أولًا.
-- مسح المعاني العربية: مروحة `عنق` مكتملة من لسان العرب وتاج العروس، وتفصل العنق والنتوء والامتداد عن سائر المعاني.
+- مسحُ المعاني العربيّة: أعادت المراجعة الثالثة البطاقة إلى التعليق؛ الأدلة والمصادر المذكورة أدناه محفوظة، لكنها لا تُعد إجازة نهائية لهذه البطاقة.
 - المقابل من اللسان: عنق «نتوء قوي دقيق يمتد نافذًا من شيء أجسم أو أغلظ» [الأداة المجمدة، `layer_2_results_v2.jsonl`]؛ السبب المجمّد يذكر «neck, leader».
 - مسار الصوت: الجذر الكامل ع-ن-ق متطابق صامتًا؛ لا صف إبدال لازم.
 - المعنى والمدار: مدار العضو اللازم مقرَّه، خطوة واحدة مسماة: `necklace` حلي يحيط بالعنق، والمروحة العربية تثبت العضو نفسه.
@@ -10364,11 +12057,20 @@
 - إشعاع الأسرة في الفرع: الأعضاء المعجمية المدعومة=1؛ سلاسل المعنى المدعومة=1، حس `necklace` وحده.
 - إشعاع الأسرة في العربية: الأعضاء المعجمية المدعومة=1؛ سلاسل المعنى المدعومة=1، سلسلة العنق وحدها.
 - جسور الاسترداد المفحوصة: الجذر الكامل؛ الشاهد القديم وسياقه؛ مروحة عنق؛ فصل الحواس؛ نص الأصل؛ القرض.
-- حالة الإغلاق: READY.
-- الحكم (استكشاف): ROOT-TRACE، لحس `necklace` وحده على مدار العضو اللازم مقرَّه؛ غير صادر لحس `giant`.
+- حالةُ الإغلاق: SOURCE-GAP؛ أعادتها المراجعة الثالثة إلى التعليق.
+- الحكم (استكشاف): غير صادر؛ الحكم الموجب السابق محفوظ تاريخيًا ولا يدخل العد حتى إعادة الإجازة.
 - عدسة الاسترداد: أعادت قراءة جميع حواس المدخل، فاسترجعت حس العقد القديم الذي أخفاه عنوان «giant».
 - عدسة التشكيك: فصلت «العملاق» فصلًا صريحًا، وفحصت القرض ووراثة الحواس، وقصرت الحكم على الشاهد التوراتي للعقد.
 - ملاحظات: الحكم محلي للمراجعة الثالثة، ولا يدخل خط البرهان.
+<!-- THIRD-LENS-ROUND-TWO:RETURN:hebrew:family:02912c1cf41101f2836df6ed -->
+- ملحق قرار المراجعة الثالثة، 2026-07-25:
+  - المصير الجاري: `SOURCE-GAP`.
+  - المصادر القديمة المسماة المحفوظة: لسان العرب لابن منظور + تاج العروس لمرتضى الزبيدي.
+  - الحقول الحاكمة السابقة، محفوظة بلا محو:
+    - `- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع`
+    - `- مسح المعاني العربية: مروحة `عنق` مكتملة من لسان العرب وتاج العروس، وتفصل العنق والنتوء والامتداد عن سائر المعاني.`
+    - `- حالة الإغلاق: READY.`
+    - `- الحكم (استكشاف): ROOT-TRACE، لحس `necklace` وحده على مدار العضو اللازم مقرَّه؛ غير صادر لحس `giant`.`
 
 ### بطاقة: `hebrew:family:47b8a938888419807fd76160`، סקר «نظر بطرف العين» ↔ سكر أو سقر
 - عائق: النوع=SOURCE-GAP؛ يتطلب=مقارنة منشورة تعيّن المقابل العربي ودلالته
@@ -10448,7 +12150,7 @@
 - ملاحظات: لا تنتقل بطاقة الأسرة إلى أي من عضويها.
 
 ### بطاقة: `hebrew:family:32d76a601129e2faab838c32`، ברך «ركع» ↔ برك
-- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع
+- عائق: النوع=REFERRED؛ يتطلب=بطاقة حكم مكررة في الأسرة نفسها؛ أحيلت إلى البطاقة الأولى المعادة للمراجعة ولا تعد صلة ثانية؛
 - إصدار البروتوكول: RECOVERY-v2 (2026-07-14)
 - الكلمةُ في الفرع: مفصلة أدناه؛ - أقدمُ صورةٍ مستعادة: مفصلة أدناه.
 - الخطوةُ صفر (التعرية بصرف الفرع): مفصلة أدناه؛ - درجةُ المقارنة: مفصلة أدناه.
@@ -10461,7 +12163,7 @@
 - أقدم صورة مستعادة: Proto-Semitic `*birk-, *bark-` «knee»؛ شواهد توراتية: Psalms 95:6 و2 Chronicles 6:13 [Kaikki Hebrew].
 - الخطوة صفر: فعل الركوع على الركبتين وحده؛ لا يرثه فعل البركة ولا الأسماء والمركبات المجاورة.
 - درجة المقارنة: الجذر الكامل أولًا.
-- مسح المعاني العربية: مروحة `برك` مكتملة من لسان العرب وتاج العروس، وفيها بروك البعير ووقوعه على ركبتيه، مع فصل البركة والحوض والمعاني الأخرى.
+- مسحُ المعاني العربيّة: محفوظ في البطاقة، لكن هذه النسخة المكررة لا تصدر حكمًا مستقلًا.
 - المقابل من اللسان: برك «ثبات واستمرار مع لُطف» [الأداة المجمدة، `layer_2_results_v2.jsonl`]؛ وسببها المجمّد: «kneeling-blessing, pond».
 - مسار الصوت: الباء والراء والكاف متطابقة؛ لا صف إبدال لازم.
 - المعنى والمدار: مباشر: ثني الرجل والنزول على الركبة.
@@ -10469,11 +12171,19 @@
 - فصل المتجانسات والاقتراض: البركة الدينية أو الحوض العربي، وفعل البركة العبري، لا يرث أي منها حكم الركوع.
 - مؤشر اليتم وإشعاع الأسرة: غير حاكم؛ الأعضاء المعجمية المدعومة=1 وسلاسل المعنى المدعومة=1 في الفرعين، مقصورة على عضو الركوع.
 - جسور الاسترداد المفحوصة: الجذر الكامل؛ إعادة البناء؛ الشاهدين التوراتيـين؛ مروحة برك؛ القرض؛ المتجانسات؛ أعضاء الأسرة.
-- حالة الإغلاق: READY.
-- الحكم (استكشاف): ROOT-TRACE، لفعل الركوع على الركبتين وحده؛ غير صادر لسائر الأسرة.
+- حالةُ الإغلاق: REFERRED؛ إحالة بنيوية بلا حكم نسب.
+- الحكم (استكشاف): غير صادر؛ لا تضاعف بطاقة الأسرة الواحدة.
 - عدسة الاسترداد: بدأت بالجذر الكامل وبإعادة بناء الركبة، ثم تحققت من المروحة والشواهد.
 - عدسة التشكيك: عزلت البركة عن الركوع، وفحصت القرض ووراثة المركبات، فلم توسع الحكم خارج العضو المسمى.
 - ملاحظات: بطاقة حكم محلية تنتظر المراجعة المضادة الثالثة، ولا تدخل خط البرهان.
+<!-- THIRD-LENS-ROUND-TWO:DUPLICATE-REFERRAL:hebrew:family:32d76a601129e2faab838c32 -->
+- ملحق إزالة التكرار، 2026-07-25:
+  - المصير الجاري: `REFERRED`.
+  - الحقول الحاكمة السابقة، محفوظة بلا محو:
+    - `- عائق: النوع=READY؛ يتطلب=المراجعة المضادة الثالثة قبل الإيداع`
+    - `- مسح المعاني العربية: مروحة `برك` مكتملة من لسان العرب وتاج العروس، وفيها بروك البعير ووقوعه على ركبتيه، مع فصل البركة والحوض والمعاني الأخرى.`
+    - `- حالة الإغلاق: READY.`
+    - `- الحكم (استكشاف): ROOT-TRACE، لفعل الركوع على الركبتين وحده؛ غير صادر لسائر الأسرة.`
 
 ### بطاقة: `hebrew:family:a645ef7bd28bf9d9b63948da`، בצר «ذهب أو حصد»
 - عائق: النوع=LAW-GAP؛ يتطلب=صف موقع لـ`צ` أو مقارنة منشورة تعيّن مقابلا عربيا بعينه لكل عضو
@@ -10651,6 +12361,7 @@
 - جسورُ الاسترداد المفحوصة: الشاهدان التوراتيان؛ نص الأصل؛ الجذران `بصر` و`بسر`؛ المروحتان غير المقتطعتين؛ الأجوف ولا مخرج أوثق؛ النواتان `بص` «النفاذ والإدراك» و`بس` «الجفاف واليبوسة»؛ المدار؛ نطاق `SIB-02`؛ القرض؛ فصل العضوين.
 - عدسة الاسترداد: صححت موضع العائق السابق، فـ`צ` لا يمنع هوية `בצר ↔ بصر`، واستعادت من آخر مروحة `بسر` شاهد أخذ الثمر غضًا بدل الاكتفاء بأول معاني البسر.
 - عدسة التشكيك: لم تجعل القراءة المجمدة وحدها شاهدين قديمين لمعنى الالتقاط في `بصر`، ولم تمدد `SIB-02` العربي الداخلي إلى العبرية، ومنعت وراثة الحكم بين الذهب والحصاد.
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=جسر دلالي موثق أو شاهد أقدم يحسم المرشح؛ عوائق مصاحبة=LAW-GAP؛
 - حالةُ الإغلاق: OPEN-CANDIDATE على مسار `בצר ↔ بصر`، وLAW-GAP على مسار `בצר ↔ بسر`؛ اسم الذهب خارج الحكم.
 - الحكم (استكشاف): غير صادر.
 - ملاحظات: بطاقة `WEEK-DAY2` محلية؛ ليست رفضًا للصلة، بل تعيين دقيق للرجل الناقصة.

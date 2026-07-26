@@ -57,7 +57,7 @@
       }
     ]
   },
-  "root_count": 1660,
+  "root_count": 1662,
   "roots": [
     {
       "root": "بتت",
@@ -4629,6 +4629,45 @@
         }
       ],
       "missing_or_empty": []
+    },
+    {
+      "root": "جدد",
+      "complete_two_source_fan": true,
+      "fallback_used": false,
+      "selected_sources": [
+        {
+          "source_id": "lisan",
+          "source_label": "لسان العرب لابن منظور",
+          "resource_record": "لسان العرب لابن منظور"
+        },
+        {
+          "source_id": "taj_al_arus",
+          "source_label": "تاج العروس لمرتضى الزبيدي",
+          "resource_record": "تاج العروس لمرتضى الزبيدي"
+        }
+      ],
+      "missing_or_empty": [
+        {
+          "source_id": "kitab_al_ayn",
+          "source_label": "كتاب العين للخليل بن أحمد",
+          "status": "missing"
+        },
+        {
+          "source_id": "al_mufradat",
+          "source_label": "المفردات في غريب القرآن للراغب",
+          "status": "missing"
+        },
+        {
+          "source_id": "al_muhit",
+          "source_label": "المحيط",
+          "status": "missing"
+        },
+        {
+          "source_id": "arabic_english",
+          "source_label": "المعجم العربي الإنجليزي",
+          "status": "missing"
+        }
+      ]
     },
     {
       "root": "جدر",
@@ -17137,6 +17176,30 @@
         {
           "source_id": "arabic_english",
           "source_label": "المعجم العربي الإنجليزي",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "root": "زهد",
+      "complete_two_source_fan": true,
+      "fallback_used": false,
+      "selected_sources": [
+        {
+          "source_id": "lisan",
+          "source_label": "لسان العرب لابن منظور",
+          "resource_record": "لسان العرب لابن منظور"
+        },
+        {
+          "source_id": "taj_al_arus",
+          "source_label": "تاج العروس لمرتضى الزبيدي",
+          "resource_record": "تاج العروس لمرتضى الزبيدي"
+        }
+      ],
+      "missing_or_empty": [
+        {
+          "source_id": "al_muhkam",
+          "source_label": "المحكم والمحيط الأعظم لابن سيده",
           "status": "missing"
         }
       ]

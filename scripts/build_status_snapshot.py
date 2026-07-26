@@ -31,10 +31,12 @@ FAMILY_STATES = ROOT / "data" / "family-review-states.json"
 CORE_LEVELS = ROOT / "data" / "juthoor-core-levels.json"
 LOANS = ROOT / "data" / "recovery-loan-registry.json"
 
-CARD_HEADING = re.compile(r"^###\s.*بطاقة", re.M)
-
-# The issued-verdict line of a card. A released card names its verdict here.
-VERDICT_LINE = re.compile(r"الحكم[^\n]*?:\s*\*{0,2}([A-Z][A-Z\-]+)")
+# The issued-verdict line of a card.  It is anchored to the live field so a
+# historical appendix that preserves an earlier verdict cannot revive it in
+# the public counter.
+VERDICT_LINE = re.compile(
+    r"^- الحكم[^\n]*?:\s*\*{0,2}([A-Z][A-Z\-]+)", re.M
+)
 
 # Verdicts that assert a link to the Arabic tongue, as opposed to closures
 # (loanword, proper name, non-lexical) which end a card without asserting one.
@@ -73,6 +75,28 @@ def read_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def reading_cards(text: str) -> list[str]:
+    """Return real card blocks, using the same boundary law as the ledger."""
+    blocks = re.split(r"(?=^### )", text, flags=re.M)
+    cards = []
+    for block in blocks:
+        if not (
+            block.startswith("### بطاقة")
+            or block.startswith("### إعادةُ توسيم")
+        ):
+            continue
+        heading = block.split("\n", 1)[0]
+        if "<" in heading:
+            continue
+        cards.append(block)
+    return cards
+
+
+def live_verdict(card: str) -> str:
+    match = VERDICT_LINE.search(card)
+    return match.group(1) if match else ""
+
+
 def language_rows() -> list[dict]:
     rows = []
     for path in sorted(READINGS.glob("*.md")):
@@ -80,10 +104,13 @@ def language_rows() -> list[dict]:
         if stem in SKIP_READINGS:
             continue
         text = path.read_text(encoding="utf-8")
-        cards = len(CARD_HEADING.findall(text))
+        card_blocks = reading_cards(text)
+        cards = len(card_blocks)
         if not cards:
             continue
-        verdicts = Counter(VERDICT_LINE.findall(text))
+        verdicts = Counter(
+            verdict for card in card_blocks if (verdict := live_verdict(card))
+        )
         links = sum(
             count for name, count in verdicts.items() if name in POSITIVE_VERDICTS
         )
@@ -99,7 +126,10 @@ def verdict_totals() -> dict:
     for path in READINGS.glob("*.md"):
         if path.stem in SKIP_READINGS:
             continue
-        counts.update(VERDICT_LINE.findall(path.read_text(encoding="utf-8")))
+        cards = reading_cards(path.read_text(encoding="utf-8"))
+        counts.update(
+            verdict for card in cards if (verdict := live_verdict(card))
+        )
     links = sum(c for name, c in counts.items() if name in POSITIVE_VERDICTS)
     closures = sum(c for name, c in counts.items() if name not in POSITIVE_VERDICTS)
     return {
