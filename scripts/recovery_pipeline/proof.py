@@ -26,7 +26,9 @@ def validate_preregistration(payload: dict[str, Any]) -> None:
     missing = required - set(payload)
     if missing:
         raise ValueError(f"Proof preregistration is missing fields: {sorted(missing)}")
-    if payload["version"] != 1 or payload["analysis_unit"] != "lexical-family":
+    # Version 2 supersedes version 1 by the author's re-preregistration of 2026-07-27;
+    # version 1 is retained here so the archived document still validates.
+    if payload["version"] not in {1, 2} or payload["analysis_unit"] != "lexical-family":
         raise ValueError("Unsupported proof preregistration version or analysis unit")
     if payload["status"] not in {LOCKED_STATUS, SIGNED_STATUS}:
         raise ValueError(f"Invalid proof preregistration status: {payload['status']}")

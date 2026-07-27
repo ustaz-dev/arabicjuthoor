@@ -55,6 +55,9 @@ jobs:
       - name: Cooke 1903 source-layer integrity
         run: python scripts/check_cooke1903_layer.py
 
+      - name: Proof preregistration integrity
+        run: python scripts/rebuild_proof_preregistration.py --check
+
       - name: Live status snapshot is current
         run: python scripts/build_status_snapshot.py --check
 

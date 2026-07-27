@@ -25,7 +25,7 @@
     "en": "Coptic",
     "ar": "القبطيّة",
     "cards": 407,
-    "links": 12
+    "links": 13
    },
    {
     "key": "hebrew",
@@ -100,8 +100,8 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 510,
-  "closures": 243,
+  "links_to_arabic": 511,
+  "closures": 380,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
@@ -110,22 +110,22 @@
    },
    {
     "name": "LOANWORD",
-    "count": 98,
+    "count": 135,
     "link": false
    },
    {
     "name": "PROPER-NAME-ISOLATED",
-    "count": 72,
+    "count": 108,
     "link": false
    },
    {
     "name": "NONLEXICAL-ISOLATED",
-    "count": 50,
+    "count": 59,
     "link": false
    },
    {
     "name": "ROOT-ECHO",
-    "count": 30,
+    "count": 31,
     "link": true
    },
    {
@@ -134,8 +134,18 @@
     "link": true
    },
    {
+    "name": "INTRA-HOUSE-TRANSFER",
+    "count": 19,
+    "link": false
+   },
+   {
     "name": "NO-TRACE",
     "count": 18,
+    "link": false
+   },
+   {
+    "name": "COMPOUND-BOUNDARY",
+    "count": 16,
     "link": false
    },
    {
@@ -144,8 +154,18 @@
     "link": true
    },
    {
+    "name": "PHRASE-LINK",
+    "count": 9,
+    "link": false
+   },
+   {
     "name": "MIXED-ISOLATED",
-    "count": 3,
+    "count": 5,
+    "link": false
+   },
+   {
+    "name": "FUNCTION-WORD",
+    "count": 5,
     "link": false
    },
    {
@@ -157,29 +177,44 @@
     "name": "FORM-OF-ISOLATED",
     "count": 2,
     "link": false
+   },
+   {
+    "name": "CONTACT-ISOLATED",
+    "count": 2,
+    "link": false
+   },
+   {
+    "name": "OUT-OF-SCOPE",
+    "count": 1,
+    "link": false
+   },
+   {
+    "name": "ABBREVIATION",
+    "count": 1,
+    "link": false
    }
   ]
  },
  "pipeline": {
   "cards_total": 4063,
-  "suspended": 3181,
-  "released": 882,
+  "suspended": 3137,
+  "released": 926,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
-    "count": 1445
+    "count": 1510
    },
    {
     "name": "SOURCE-GAP",
-    "count": 990
+    "count": 973
    },
    {
     "name": "MORPHOLOGY-GAP",
-    "count": 367
+    "count": 399
    },
    {
     "name": "TOOL-GAP",
-    "count": 284
+    "count": 160
    },
    {
     "name": "LAW-GAP",
@@ -197,7 +232,7 @@
    },
    {
     "file": "coptic.md",
-    "count": 386
+    "count": 355
    },
    {
     "file": "hebrew.md",
@@ -209,7 +244,7 @@
    },
    {
     "file": "old-latin.md",
-    "count": 146
+    "count": 133
    },
    {
     "file": "ancient-greek.md",
@@ -238,8 +273,8 @@
   ]
  },
  "proof": {
-  "signed": true,
-  "frozen_commit": "41c36de",
+  "signed": false,
+  "frozen_commit": "",
   "required_total": 600,
   "required_per_language": 150,
   "families_tracked": 261,
@@ -265,6 +300,6 @@
   "level_1_letter_charges": 29,
   "level_2_binary_nuclei": 455,
   "level_3_composition_modes": 12,
-  "loanwords_registered": 12
+  "loanwords_registered": 63
  }
 }

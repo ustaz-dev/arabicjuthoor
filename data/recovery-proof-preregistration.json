@@ -1,122 +1,246 @@
 {
+ "version": 2,
+ "status": "DRAFT-LOCKED",
+ "execution_authorized": false,
+ "author_signature": "",
+ "signed_date": "",
+ "frozen_git_commit": "",
+ "analysis_unit": "lexical-family",
+ "population": {
+  "languages": [
+   "aramaic",
+   "hebrew"
+  ],
+  "source_snapshots": [
+   {
+    "source_id": "kaikki_aramaic",
+    "path": "Resources/aramaic/kaikki.org-dictionary-Aramaic.jsonl",
+    "sha256": "fed644821789b2b8d780c3c18deae4f1cbca4c85a2aa3bbc8e2c71a797cccc49"
+   },
+   {
+    "source_id": "kaikki_hebrew",
+    "path": "Resources/hebrew/kaikki.org-dictionary-Hebrew.jsonl",
+    "sha256": "4faaa70b724d33e47830f1eb4fcb6294026790a01d5a81aa51cf2a599088fef7"
+   }
+  ],
+  "include_family_states": [
+   "complete-member-disposition"
+  ],
+  "loan_exclusion_rule": "exclude only the member or sense chain with a named, sourced borrowing route; an automatic hint alone does not exclude, and original members of a mixed family remain eligible",
+  "proper_name_rule": "exclude proper-name members from the primary analysis and retain them in a separate audit inventory; do not exclude lexical members merely because their structural family also contains a name",
+  "nonlexical_rule": "exclude"
+ },
+ "human_judgment": {
+  "required_lenses": [
+   "recovery",
+   "skeptical"
+  ],
+  "semantic_match_rule": "a positive match requires an old branch meaning and Arabic meanings from at least two independent old dictionaries to meet directly or through one explicitly named orbital step; both recovery and skeptical lenses must pass, with rejected homonyms and meanings recorded",
+  "member_veto_policy": "the member or named sense chain is the verdict unit; no verdict inherits across homonyms, compounds, derived members, or other family members"
+ },
+ "relation_degrees": [
+  "root",
+  "nucleus",
+  "echo"
+ ],
+ "observed_metric": {
+  "numerator": "original reviewed families with at least one confirmed member or sense-chain match carried by an internal lexical bridge; external typological parallels, cross-language loans, proper names, compounds inheriting only from a head, and structural-family co-membership are excluded from the primary numerator",
+  "denominator": "all eligible reviewed original families",
+  "bridge_eligibility": {
+   "primary_include": "internal lexical bridges only: an inherited branch lexeme or sense chain compared directly with an Arabic lexical member under the signed sound network and the signed member-level verdict law",
+   "primary_exclude": [
+    "cross-language borrowing routes",
+    "proper-name bridges",
+    "compound-to-head inheritance",
+    "structural-family co-membership without a lexical relation",
+    "typological or sound-symbolic parallels without a licensed lexical bridge"
+   ],
+   "secondary_audit": "excluded bridge types remain in a separate descriptive audit and never enter the primary numerator"
+  },
+  "family_radiation_asymmetry": {
+   "unit": "each confirmed member or sense-chain pair",
+   "definition": "for each confirmed pair, count eligible same-family lexical continuations supported on the branch side and on the Arabic side after member vetoes; record the signed difference and the log ratio with a one-half continuity correction",
+   "stored_fields": [
+    "branch_supported_continuations",
+    "arabic_supported_continuations",
+    "signed_difference_branch_minus_arabic",
+    "log_ratio_branch_over_arabic"
+   ],
+   "primary_role": "diagnostic safeguard only; it does not add pairs to the primary numerator and is not a second primary test",
+   "purpose": "detect whether a positive rate is being driven by broad Arabic fan radiation or by one-sided family expansion rather than a balanced lexical bridge"
+  },
+  "stratify_by": [
+   "language",
+   "relation_degree"
+  ]
+ },
+ "chance_model": {
+  "algorithm": "within each language and temporal stratum, derange foreign phonological bundles across semantic-family bundles with no fixed points; stratify by consonant length, repeated-consonant pattern, family-size bin, part-of-speech profile, and eligibility flags; regenerate candidates under the frozen network and blind the two human lenses to observed versus perturbed origin",
+  "preserved_properties": [
+   "language",
+   "temporal stratum",
+   "consonant count",
+   "repeated-consonant pattern",
+   "family-size bin",
+   "part-of-speech profile",
+   "loan and proper-name eligibility",
+   "member and sense-chain counts"
+  ],
+  "blind_semantic_fan_rule": "for every observed or perturbed control item, generate the Arabic two-dictionary fan before revealing whether the item is observed or perturbed; present identical source fields, ordering, truncation, and candidate counts to both human lenses; prohibit reuse of a fan annotated with observed/control identity or with a prior verdict",
+  "blindness_audit_fields": [
+   "fan_generation_commit",
+   "fan_source_ids",
+   "fan_content_sha256",
+   "presentation_template_version",
+   "randomized_item_id",
+   "unblinding_timestamp_after_both_verdicts"
+  ],
+  "iterations": 1000,
+  "seed": 20260721
+ },
+ "comparison": {
+  "primary_effect": "observed family rate minus perturbed-family chance rate",
+  "uncertainty_method": "95% percentile interval from 10000 stratified family-cluster bootstrap resamples, plus the corrected one-sided permutation p-value (1 + null effects at least as large as observed) / (iterations + 1)",
+  "multiple_comparison_rule": "the pooled Semitic effect is the sole primary test; language-by-relation-degree analyses are secondary and use Holm correction"
+ },
+ "publication_gate": {
+  "publish_inventory_counts": false,
+  "publish_results_before_signature": false,
+  "retain_null_and_negative_results": true
+ },
+ "execution_trigger": {
+  "rule": "single confirmatory run, executed once and only once, on the day the eligible denominator first meets the thresholds below; no interim, exploratory, or repeated runs are permitted before or after; the result is committed the day it is produced, positive or negative",
+  "thresholds": {
+   "total_eligible_reviewed_families": 600,
+   "min_eligible_reviewed_families_per_language": 150
+  },
+  "counting_source": "families of the two population languages whose members all carry a recorded final disposition, counted by scripts/count_proof_eligible_families.py over the reading files themselves and mirrored into data/family-review-states.json; a family counts only when every member carries an issued verdict or a recorded closure, and both links and closures count, so a language cannot reach the threshold by judging only its positives",
+  "attestation_required": "05-audits/proof-run-trigger-attestation.md",
+  "single_confirmatory_run": true,
+  "no_interim_runs": true,
+  "thresholds_unchanged_from_v1": true,
+  "parked_negative_rule": "a family whose members sit in SOURCE-GAP, TOOL-GAP, MORPHOLOGY-GAP, LAW-GAP or OPEN-CANDIDATE is not eligible; parking a negative is not judging it"
+ },
+ "supersedes": {
   "version": 1,
-  "status": "AUTHOR-SIGNED",
-  "execution_authorized": true,
-  "author_signature": "Yassine Temessek, by recorded words on 2026-07-23: \"ok i accept your idea. do what u need\", accepting the presented decision formula of _inbox/2026-07-22-proof-preregistration-final-author-review.md together with the run-trigger clause (option 1) as presented clause by clause in the same session; signing record: 05-audits/2026-07-23-author-signed-proof-preregistration.md",
   "signed_date": "2026-07-23",
   "frozen_git_commit": "41c36dee1080c08da564473c3ac278a13a4f82ea",
-  "analysis_unit": "lexical-family",
-  "population": {
-    "languages": [
-      "aramaic",
-      "hebrew"
-    ],
-    "source_snapshots": [
-      {
-        "source_id": "kaikki_aramaic",
-        "path": "Resources/aramaic/kaikki.org-dictionary-Aramaic.jsonl",
-        "sha256": "fed644821789b2b8d780c3c18deae4f1cbca4c85a2aa3bbc8e2c71a797cccc49"
-      },
-      {
-        "source_id": "kaikki_hebrew",
-        "path": "Resources/hebrew/kaikki.org-dictionary-Hebrew.jsonl",
-        "sha256": "4faaa70b724d33e47830f1eb4fcb6294026790a01d5a81aa51cf2a599088fef7"
-      }
-    ],
-    "include_family_states": [
-      "complete-member-disposition"
-    ],
-    "loan_exclusion_rule": "exclude only the member or sense chain with a named, sourced borrowing route; an automatic hint alone does not exclude, and original members of a mixed family remain eligible",
-    "proper_name_rule": "exclude proper-name members from the primary analysis and retain them in a separate audit inventory; do not exclude lexical members merely because their structural family also contains a name",
-    "nonlexical_rule": "exclude"
+  "archived_at": "data/recovery-proof-preregistration-v1-superseded.json",
+  "reason": "Version 1 was signed and armed, but its run trigger counted eligible families from data/family-review-states.json, which was only ever populated with Phoenician and Punic entries, all suspended. The eligible count stood at zero and could not rise from the work being done, so the confirmatory run could never fire. Repairing that wiring after the exploratory results were known would have amended a signed preregistration with knowledge of its own outcome. The author chose re-preregistration instead, on 2026-07-27.",
+  "retired_without_deletion": true
+ },
+ "disclosure_at_re_preregistration": {
+  "principle": "Re-preregistration is only honest if it declares everything already known. Every figure below was produced before this document was written and none of it is confirmatory evidence; it is the exploratory state that this test exists to confirm or refute.",
+  "date": "2026-07-27",
+  "exploration_layer_by_language": {
+   "akkadian": {
+    "links": 67,
+    "closures": 0,
+    "resolved": 67,
+    "yield_percent": 100.0
+   },
+   "ancient-greek": {
+    "links": 6,
+    "closures": 8,
+    "resolved": 14,
+    "yield_percent": 42.9
+   },
+   "aramaic": {
+    "links": 280,
+    "closures": 202,
+    "resolved": 482,
+    "yield_percent": 58.1
+   },
+   "coptic": {
+    "links": 12,
+    "closures": 37,
+    "resolved": 49,
+    "yield_percent": 24.5
+   },
+   "egyptian": {
+    "links": 32,
+    "closures": 49,
+    "resolved": 81,
+    "yield_percent": 39.5
+   },
+   "gothic": {
+    "links": 1,
+    "closures": 0,
+    "resolved": 1,
+    "yield_percent": 100.0
+   },
+   "hebrew": {
+    "links": 90,
+    "closures": 9,
+    "resolved": 99,
+    "yield_percent": 90.9
+   },
+   "old-latin": {
+    "links": 8,
+    "closures": 23,
+    "resolved": 31,
+    "yield_percent": 25.8
+   },
+   "persian": {
+    "links": 2,
+    "closures": 0,
+    "resolved": 2,
+    "yield_percent": 100.0
+   },
+   "phoenician-punic-scout": {
+    "links": 3,
+    "closures": 0,
+    "resolved": 3,
+    "yield_percent": 100.0
+   },
+   "punic": {
+    "links": 3,
+    "closures": 0,
+    "resolved": 3,
+    "yield_percent": 100.0
+   },
+   "welsh": {
+    "links": 1,
+    "closures": 50,
+    "resolved": 51,
+    "yield_percent": 2.0
+   }
   },
-  "human_judgment": {
-    "required_lenses": [
-      "recovery",
-      "skeptical"
-    ],
-    "semantic_match_rule": "a positive match requires an old branch meaning and Arabic meanings from at least two independent old dictionaries to meet directly or through one explicitly named orbital step; both recovery and skeptical lenses must pass, with rejected homonyms and meanings recorded",
-    "member_veto_policy": "the member or named sense chain is the verdict unit; no verdict inherits across homonyms, compounds, derived members, or other family members"
+  "third_lens_reviewed_link_verdicts": 301,
+  "third_lens_returned_to_hold": 0,
+  "observed_yield_gradient_exploratory": {
+   "close_semitic_sister": "Aramaic alone, 58.1 percent",
+   "distant_afro_asiatic_cousin": "Egyptian and Coptic, 33.8 percent",
+   "indo_european_branch": "18.2 percent",
+   "excluded_and_why": {
+    "hebrew": "90.9 percent rests on nine closures against ninety links while 248 of its suspended cards sit in SOURCE-GAP, so its negatives are parked rather than judged and its rate is a selection artifact",
+    "akkadian": "sixty eight links and no closures issued at all; an early-stage file with no denominator"
+   }
   },
-  "relation_degrees": [
-    "root",
-    "nucleus",
-    "echo"
+  "known_defects_repaired_before_this_document": [
+   "the recovery scanner re-suspended any card whose audit trail merely mentioned a past blocker",
+   "the Coptic loan detector counted U+03E2 to U+03EF as Greek, though Unicode names them Coptic letters inherited from Egyptian Demotic",
+   "129 cards carried their obstacle in prose with no structured blocker line"
   ],
-  "observed_metric": {
-    "numerator": "original reviewed families with at least one confirmed member or sense-chain match carried by an internal lexical bridge; external typological parallels, cross-language loans, proper names, compounds inheriting only from a head, and structural-family co-membership are excluded from the primary numerator",
-    "denominator": "all eligible reviewed original families",
-    "bridge_eligibility": {
-      "primary_include": "internal lexical bridges only: an inherited branch lexeme or sense chain compared directly with an Arabic lexical member under the signed sound network and the signed member-level verdict law",
-      "primary_exclude": [
-        "cross-language borrowing routes",
-        "proper-name bridges",
-        "compound-to-head inheritance",
-        "structural-family co-membership without a lexical relation",
-        "typological or sound-symbolic parallels without a licensed lexical bridge"
-      ],
-      "secondary_audit": "excluded bridge types remain in a separate descriptive audit and never enter the primary numerator"
-    },
-    "family_radiation_asymmetry": {
-      "unit": "each confirmed member or sense-chain pair",
-      "definition": "for each confirmed pair, count eligible same-family lexical continuations supported on the branch side and on the Arabic side after member vetoes; record the signed difference and the log ratio with a one-half continuity correction",
-      "stored_fields": [
-        "branch_supported_continuations",
-        "arabic_supported_continuations",
-        "signed_difference_branch_minus_arabic",
-        "log_ratio_branch_over_arabic"
-      ],
-      "primary_role": "diagnostic safeguard only; it does not add pairs to the primary numerator and is not a second primary test",
-      "purpose": "detect whether a positive rate is being driven by broad Arabic fan radiation or by one-sided family expansion rather than a balanced lexical bridge"
-    },
-    "stratify_by": [
-      "language",
-      "relation_degree"
-    ]
-  },
-  "chance_model": {
-    "algorithm": "within each language and temporal stratum, derange foreign phonological bundles across semantic-family bundles with no fixed points; stratify by consonant length, repeated-consonant pattern, family-size bin, part-of-speech profile, and eligibility flags; regenerate candidates under the frozen network and blind the two human lenses to observed versus perturbed origin",
-    "preserved_properties": [
-      "language",
-      "temporal stratum",
-      "consonant count",
-      "repeated-consonant pattern",
-      "family-size bin",
-      "part-of-speech profile",
-      "loan and proper-name eligibility",
-      "member and sense-chain counts"
-    ],
-    "blind_semantic_fan_rule": "for every observed or perturbed control item, generate the Arabic two-dictionary fan before revealing whether the item is observed or perturbed; present identical source fields, ordering, truncation, and candidate counts to both human lenses; prohibit reuse of a fan annotated with observed/control identity or with a prior verdict",
-    "blindness_audit_fields": [
-      "fan_generation_commit",
-      "fan_source_ids",
-      "fan_content_sha256",
-      "presentation_template_version",
-      "randomized_item_id",
-      "unblinding_timestamp_after_both_verdicts"
-    ],
-    "iterations": 1000,
-    "seed": 20260721
-  },
-  "comparison": {
-    "primary_effect": "observed family rate minus perturbed-family chance rate",
-    "uncertainty_method": "95% percentile interval from 10000 stratified family-cluster bootstrap resamples, plus the corrected one-sided permutation p-value (1 + null effects at least as large as observed) / (iterations + 1)",
-    "multiple_comparison_rule": "the pooled Semitic effect is the sole primary test; language-by-relation-degree analyses are secondary and use Holm correction"
-  },
-  "publication_gate": {
-    "publish_inventory_counts": false,
-    "publish_results_before_signature": false,
-    "retain_null_and_negative_results": true
-  },
-  "execution_trigger": {
-    "rule": "single confirmatory run, executed once and only once, on the day the eligible denominator first meets the thresholds below; no interim, exploratory, or repeated runs are permitted before or after; the result is committed the day it is produced, positive or negative",
-    "thresholds": {
-      "total_eligible_reviewed_families": 600,
-      "min_eligible_reviewed_families_per_language": 150
-    },
-    "counting_source": "families of the two population languages whose members all carry a recorded final disposition in data/family-review-states.json (complete-member-disposition), counted by an auditable script run recorded in the attestation file",
-    "attestation_required": "05-audits/proof-run-trigger-attestation.md",
-    "single_confirmatory_run": true,
-    "no_interim_runs": true
+  "known_open_risks": [
+   "Hebrew is half the primary population and its negatives are not yet judged; the trigger cannot fire until they are",
+   "the exploratory yield gradient may not replicate on a fresh random control sample, which is precisely what this test decides"
+  ]
+ },
+ "preregistered_predictions": {
+  "primary": "the observed positive rate on the eligible denominator exceeds the chance line produced by the frozen perturbation model, under the comparison rule already fixed in this document; this is unchanged from version 1",
+  "secondary_directional": {
+   "statement": "on the confirmatory sample, the positive rate for close Semitic sisters exceeds the rate for distant Afro-Asiatic cousins, which in turn exceeds the rate for Indo-European branches",
+   "status_before_this_document": "observed exploratorily on 2026-07-27 at 58.1, 33.8 and 18.2 percent; it is recorded here as a prediction to be tested, not as a result",
+   "why_it_is_added": "it makes the test harder rather than easier: a rate above chance with the ordering violated would be reported as a partial failure, and an instrument that scores a different family as highly as a sister branch is indicting itself rather than supporting the thesis",
+   "failure_condition": "if the ordering is violated in the confirmatory sample, the secondary prediction is recorded as failed on the day it is produced, regardless of the primary outcome, and no post-hoc regrouping of languages is permitted",
+   "minimum_per_group": 100
   }
+ },
+ "integrity_clauses": {
+  "no_threshold_may_be_lowered": "the totals, the per-language minimum, the comparison rule, the chance model, the seed, the iteration count and the success criterion are fixed by this signature and may not be altered without a new dated signature and a new version",
+  "single_confirmatory_run": true,
+  "result_committed_the_day_it_is_produced": true,
+  "negative_result_published_identically": "a negative result is written up, committed and published in the same form and with the same prominence as a positive one"
+ }
 }
