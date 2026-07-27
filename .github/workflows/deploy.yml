@@ -40,6 +40,9 @@ jobs:
       - name: Recovery pipeline regressions
         run: python scripts/check_recovery_pipeline.py
 
+      - name: Unicode language-boundary integrity
+        run: python scripts/check_unicode_language_boundaries.py
+
       - name: Hebrew temporal-witness inventory freshness
         run: python scripts/extract_hebrew_temporal_witnesses.py --check
 

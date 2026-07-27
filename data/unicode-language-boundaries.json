@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "status": "AUTHOR-DIRECTED-OPERATIONAL-GUARD",
+  "date": "2026-07-27",
+  "unicode_runtime_source": "Python unicodedata.name",
+  "boundaries": [
+    {
+      "id": "legacy-coptic-inside-greek-and-coptic-block",
+      "first": "U+03E2",
+      "last": "U+03EF",
+      "required_name_prefix": "COPTIC ",
+      "must_not_classify_as": "ancient greek",
+      "letters": [
+        "SHEI",
+        "FEI",
+        "KHEI",
+        "HORI",
+        "GANGIA",
+        "SHIMA",
+        "DEI"
+      ]
+    }
+  ],
+  "positive_controls": [
+    {
+      "language": "ancient greek",
+      "text": "τρεῖς"
+    },
+    {
+      "language": "ancient greek",
+      "text": "ὄνομα"
+    }
+  ],
+  "negative_controls": [
+    {
+      "language": "ancient greek",
+      "text": "ϣⲛϥⲉ",
+      "reason": "legacy and modern Coptic letters do not make a value Greek"
+    }
+  ]
+}

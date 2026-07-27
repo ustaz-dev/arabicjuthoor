@@ -172,7 +172,13 @@ def _script_lemma_candidate(value: str, language: str) -> str:
     ranges = {
         "hebrew": ((0x0590, 0x05FF), (0x10900, 0x1091F)),
         "aramaic": ((0x0590, 0x05FF), (0x0700, 0x074F), (0x10840, 0x1085F)),
-        "ancient greek": ((0x0370, 0x03FF), (0x1F00, 0x1FFF)),
+        # U+03E2..U+03EF are legacy Coptic letters whose Unicode names
+        # explicitly begin with COPTIC.  They must not make a value Greek.
+        "ancient greek": (
+            (0x0370, 0x03E1),
+            (0x03F0, 0x03FF),
+            (0x1F00, 0x1FFF),
+        ),
     }.get(language.casefold().replace("_", " ").strip())
     if not ranges:
         return value
