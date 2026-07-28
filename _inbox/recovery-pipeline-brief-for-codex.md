@@ -403,3 +403,64 @@
 Cooke تكمل بعشرة سجلات في اليوم على الأكثر، فهي طبقة مصدر لا أطروحة. وCAD على قراره: لا تعميم. ولا شيء منهما يقود الليل.
 
 *English abstract (section 19 continued as 20):* A ledger measurement on 2026-07-25 showed 3,935 recorded cards, 3,689 suspended, one READY, and 2,400 suspended under TOOL-GAP. Every one of the top ten stated requirements is the same thing: scan the fan of the old Arabic dictionaries. The distribution is Aramaic 1,371, Egyptian 603, Hebrew 151, with smaller counts elsewhere. The tool already exists and runs; what is missing is a bulk pass over the backlog. The campaign therefore runs the fan across all suspended cards, largest backlog first, issues verdicts immediately wherever two independent old sources supply a named sense, re-labels whatever the fan cannot resolve with its true blocker instead of TOOL-GAP, and reports two numbers per batch: cards released from suspension and their verdict distribution. A standing relaxation accompanies it: full gates remain on published figures, on cited graphic forms, and on the frozen Jabal files, while internal exploration cards proceed smoothly, since accumulating suspended cards is obstruction, not rigour.
+## 21. خطّةُ الأسبوع: بلوغُ عتبةِ البرهانِ بصدق (2026-07-27 وما بعده)
+
+### المهمّةُ الواحدة
+
+**رفعُ مقامِ الأسرِ المؤهَّلةِ إلى 600، بمئةٍ وخمسينَ على الأقلِّ في كلٍّ من الآراميّةِ والعبريّة.** هذا هو العملُ كلُّه هذا الأسبوع. وما عداه يتقدّمُ في الخلفيّةِ ولا يقود.
+
+**والأسرةُ مؤهَّلةٌ حينَ يحملُ كلُّ أعضائِها حكمًا صادرًا أو إغلاقًا مسجَّلًا.** والعضوُ الراقدُ في `SOURCE-GAP` أو `TOOL-GAP` أو `MORPHOLOGY-GAP` أو `LAW-GAP` أو `OPEN-CANDIDATE` **يُسقِطُ أسرتَه كلَّها من المقام**. ترحيلُ السالبِ ليسَ حكمًا عليه.
+
+### خطُّ الأساسِ المقيسُ يومَ كتابةِ هذه الخطّة
+
+| اللسان | أسرٌ مذكورة | **مؤهَّلةٌ الآن** | المطلوب |
+|---|---:|---:|---|
+| الآراميّة | 1,694 | **379** | تجاوزَت 150 بفضلِ اللهِ ثمّ العمل |
+| العبريّة | 360 | **113** | تنقصُها **37** لبلوغِ 150 |
+| **المجموع** | | **492** | تنقصُه **108** لبلوغِ 600 |
+
+هذا تقديرُ العدسةِ الثالثةِ بأداةٍ مؤقّتة. **وأوّلُ عملِ الأسبوعِ بناءُ العدّادِ الرسميّ**، فالرقمُ الرسميُّ هو ما يُبنى عليه.
+
+### القاعدةُ التي تحكمُ الأسبوعَ كلَّه
+
+**الرقمُ الصادقُ هو المنتَجُ، لا الرقم 600.**
+
+بلوغُ العتبةِ صارَ قريبًا، وهنا يبدأُ الخطرُ الحقيقيّ: إغراءُ إغلاقِ بطاقةٍ بلا شاهدٍ لتكتملَ أسرة، أو عدُّ أسرةٍ فيها عضوٌ راقد، أو توسيعُ تعريفِ الإغلاق. **مقامٌ قصيرٌ صادقٌ خيرٌ من مقامٍ كاملٍ مدخول**، لأنّ التشغيلَ التأكيديَّ يجري مرّةً واحدةً ولا يُعاد، وما بُنيَ على مقامٍ مدخولٍ يسقطُ كلُّه يومَ يُفحَص. فإن بلغتَ 540 بصدقٍ فقلْ 540 وقفْ، ولا تُتِمَّها.
+
+### الأيّامُ السبعة
+
+**اليومُ الأوّل: بناءُ العدّادِ الرسميِّ ونشرُ خطِّ الأساس.**
+ابنِ `scripts/count_proof_eligible_families.py` على تعريفِ الأهليّةِ في النسخةِ الثانيةِ من التسجيلِ المسبقِ حرفًا حرفًا: أسرةٌ تُعَدُّ حينَ يحملُ كلُّ أعضائِها حكمًا أو إغلاقًا، والإغلاقاتُ تُعَدُّ كما تُعَدُّ الصلات. يُخرِجُ العددَ لكلِّ لسانٍ ومجموعَه، وقائمةَ الأسرِ الناقصةِ بعضوٍ واحدٍ فقط (فهي أرخصُ ما يُكمَل)، ووضعَ `--check` لبوّابةِ CI. ثمّ أدخِلْه في `build_status_snapshot.py` فيظهرَ التقدُّمُ نحوَ 600 على صفحةِ الحالةِ حيًّا. **وأعلِنِ الرقمَ الرسميَّ مهما خالفَ تقديرَنا.**
+
+**اليومانِ الثاني والثالث: العبريّة، وهي الحاجزُ الوحيد.**
+في `data/hebrew-temporal-witnesses.json` ألفٌ ومئتانِ وتسعٌ وثمانونَ أسرةً لها **شاهدٌ توراتيٌّ صريح**، قُرِئَ منها 197 وبقيَ 1,092. **اقرأها بهذا الترتيبِ حصرًا**، فمرساتُها الزمنيّةُ معها فلا تصطدمُ بجدارِ الطبقةِ الذي أوقفَ دفعتَك الأخيرة. الهدفُ 200 أسرةٍ مؤهَّلةٍ عبريّةٍ لا 150، فالهامشُ يحمي من سقوطِ أسرةٍ في التدقيق. وافكُكْ أوّلًا التسعَ والعشرينَ بطاقةً التي أسرُها مغطّاةٌ في الجردِ فعلًا.
+
+**اليومانِ الرابعُ والخامس: الآراميّة، إتمامُ المقام.**
+869 بطاقةً آراميّةً في `OPEN-CANDIDATE` هي أكبرُ مخزونٍ باقٍ. **ابدأ بالأسرِ الناقصةِ بعضوٍ واحدٍ فقط** من قائمةِ اليومِ الأوّل، فكلُّ عضوٍ يُحسَمُ يضيفُ أسرةً كاملةً إلى المقام، وهذا أعلى عائدٍ لكلِّ ساعة. الهدفُ 450 أسرةً مؤهَّلةً آراميّة.
+
+**اليومُ السادس: كنسُ النزاهة.**
+أعِدْ حسابَ المقامِ من الصفر، وتحقّقْ أنّ **كلَّ** أسرةٍ معدودةٍ مؤهَّلةً لا تحملُ عضوًا راقدًا واحدًا. وأصلِحِ الإحدى والستّينَ بطاقةً التي ما زالَ متنُها يقولُ إنّ المروحةَ لم تُنجَزْ وملحقُها يحملُها. وأخرِجْ تقريرَ فروقٍ يبيّنُ كم أسرةً سقطَت في هذا الكنسِ وكم ثبتَت. **السقوطُ في هذا اليومِ مكسبٌ لا خسارة.**
+
+**اليومُ السابع: التجميعُ والتسليم.**
+لقطةٌ كاملةٌ ومحضرٌ واحدٌ جامعٌ لأسبوعٍ كامل: المقامُ النهائيُّ لكلِّ لسان، وعددُ الصلاتِ والإغلاقاتِ مفصولَين، وما سقطَ في الكنسِ وسببُه، وما بقيَ معلَّقًا وسببُه الحقيقيّ. وإن بلغَ المقامُ العتبةَ فاكتُبْ **مسوّدةَ** شهادةِ التشغيلِ في `05-audits/proof-run-trigger-attestation.md` **ولا توقّعْها ولا تُشغّلْ شيئًا**: التشغيلُ محجوزٌ لكلمةِ المؤلّفِ بعدَ توقيعِه التسجيلَ المسبقَ الذي ينتظرُه الآن.
+
+### مساراتٌ خلفيّةٌ لا تقودُ ولا تأخذُ أكثرَ من ساعةٍ في اليوم
+
+1. **Cooke:** عشرةُ سجلّاتٍ في اليومِ على الأكثرِ بالمقابلةِ البصريّةِ والنسخِ المزدوج.
+2. **ورقةُ قرارٍ لقانونِ صرفِ الأكّاديّة:** جهّزْها ولا تنفّذْها. تُبيّنُ كيفَ تُعامَلُ ميمُ الحالةِ التي تفصلُ `imēru` عن `imērum`، وكيفَ تُثبَّتُ هويّةُ الأسرةِ الأكّاديّةِ وهي معدومةٌ الآن، **وتُرفَعُ إلى المؤلّفِ للتوقيعِ لأنّها قانونُ صرفٍ جديد**.
+3. **ورقةُ قرارٍ لصرفِ القبطيّة:** 226 بطاقةً قبطيّةً معلَّقةً في `MORPHOLOGY-GAP` تنتظرُ قاعدةً واحدة، فجهّزْها كذلك.
+
+### ممنوعاتُ الأسبوع
+
+1. **لا لغةَ جديدةً تُفتَح.** اللاتينيّةُ والفارسيّةُ والقوطيّةُ وغيرُها تنتظر.
+2. **لا مساسَ بالتسجيلِ المسبقِ ولا بعتبتِه ولا بتعريفِ الأهليّة.** الملفُّ مقفلٌ وينتظرُ توقيعَ المؤلّف.
+3. **لا تشغيلَ لخطِّ البرهانِ ولا جزءٍ منه**، ولو بلغَ المقامُ العتبةَ في اليومِ الثالث.
+4. **لا اختلاقَ لسالب.** ما لا شاهدَ له يبقى معلَّقًا بسببِه الحقيقيّ، ولو كلّفَنا العتبة.
+5. **لا اختراعَ لصفٍّ صوتيّ.** الصلةُ الجميلةُ بلا صفٍّ موقَّعٍ تبقى `LAW-GAP` كما فعلتَ في `קיטר` وأحسنت.
+6. **لا إيداعَ لدفعةِ أحكامٍ قبلَ مراجعةِ العدسةِ الثالثة.** البنيةُ والأدواتُ تُدفَعُ بعدَ البوّابات، والأحكامُ تنتظر.
+
+### إيقاعُ التسليمِ اليوميّ
+
+كلُّ يومٍ ينتهي بثلاثةِ أشياءَ لا غير: **رقمُ المقامِ الرسميُّ** بعدَ تشغيلِ العدّاد، و**رقمانِ مفصولانِ** هما الصلاتُ الموجبةُ والإغلاقات، و**محضرٌ مؤرَّخٌ** في `05-audits/`. وشغّلْ `python scripts/build_status_snapshot.py` بعدَ كلِّ دفعةٍ فيتحدّثَ عدّادُ الموقعِ الحيّ. ولا تجمعِ الرقمَين في رقمٍ واحدٍ أبدًا، فالصلةُ المكتشفةُ ليسَت كالقرضِ المستبعَد.
+
+*English abstract (section 21, the week plan):* One mission for the week: raise the eligible-family denominator to 600 with at least 150 in each of Aramaic and Hebrew, where a family counts only when every member carries an issued verdict or a recorded closure and any parked member disqualifies the whole family. The measured baseline is 379 eligible Aramaic families and 113 Hebrew, 492 in total, so Hebrew needs 37 more and the total needs 108. The governing rule is that the honest number is the deliverable and not the number 600, because a single confirmatory run that is never repeated cannot rest on a padded denominator. Day one builds the official counter to the preregistration's own eligibility definition and publishes the true baseline on the live site, including the list of families short by exactly one member since those are the cheapest to complete. Days two and three take Hebrew through the 1,092 unread families that carry an explicit biblical reference in our own temporal inventory, since they arrive with the temporal anchor that blocked the last batch. Days four and five take Aramaic's 869 open candidates, starting with families short by one member because each such member completes a whole family. Day six is an integrity sweep that recomputes the denominator from scratch and reports how many families fell, treating any fall as a gain. Day seven consolidates and, if the threshold is met, drafts but does not sign the run attestation, because execution waits on the author's signature of the preregistration now before him. Background lanes are capped at an hour a day: ten Cooke records, and two decision papers to be prepared and not executed, one for Akkadian mimation and family identity and one for Coptic morphology. Six prohibitions hold: no new languages, no touching the preregistration, no running any part of the proof line, no manufactured negatives, no invented sound rows, and no committing verdict batches before third-lens review.
