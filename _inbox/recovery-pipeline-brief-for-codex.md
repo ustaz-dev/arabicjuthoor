@@ -510,3 +510,41 @@ Cooke تكمل بعشرة سجلات في اليوم على الأكثر، فه�
 كلُّ دفعةٍ تنتهي برقمَينِ مفصولَينِ لا يُجمَعان: **كم صلةً موجبةً، وكم إغلاقًا**. ومحضرٌ مؤرَّخٌ قصيرٌ في `05-audits/`. وتشغيلُ `python scripts/build_status_snapshot.py` فيتحدّثَ عدّادُ الموقعِ الحيّ. والأحكامُ تبقى محليّةً حتى مراجعةِ العدسةِ الثالثة، والبنيةُ والأدواتُ تُدفَعُ بعدَ البوّابات.
 
 *English abstract (section 22, the discovery month):* The author's governing instruction for this month is that the project is in its discovery phase, finding connections across languages, and not in the business of building proof machinery. The proof line is therefore frozen for the whole month: no signature, no eligibility counting, no chasing the six hundred threshold, no random draw, and no execution of any part of the proof runner; the document stays locked and the tools stay intact, waiting until discovery matures, because discovery and confirmation are incompatible clocks and running the second before the first matured made the harvest chase eligible families instead of interesting words. Comparison runs on the five axes the author named himself: the consonantal skeleton, the published meaning on both sides with two independent classical Arabic dictionaries, the triliteral root as the first degree, the binary nucleus as the second, and above all the orbit, the neglected axis revived this month, under which the unit of comparison is the neighbourhood of meaning rather than the single gloss, so that two words whose literal translations diverge but whose sense families meet in one nucleus are a link, while two whose translations agree but whose sense families do not meet are a resemblance and not a link. Four practices are cut: eligibility accounting, new obstacle taxonomies, structural sweeps, and any manufactured negative or invented sound row. The four weeks run depth on the Semitic sisters, then the Afro-Asiatic cousins, then a wide sweep across six Indo-European branches where a lower yield is expected and welcome as evidence that the instrument discriminates, and finally the orbit pass plus a single readable presentation document ordering the strongest links by branch distance. Each batch reports two separated numbers, links and closures, never summed.
+## 23. بروتوكولُ التوازي: أربعُ جلساتٍ في مجلّدٍ واحدٍ بلا تصادم (2026-07-28)
+
+يشغّلُ المؤلّفُ أربعَ جلساتٍ صناعيّةٍ معًا في نسخةِ العملِ نفسِها. والخطرُ الوحيدُ الحقيقيُّ هو أن تكتبَ جلستانِ في ملفٍّ واحد، فيضيعَ عملُ إحداهما. **تُلغي القواعدُ الآتيةُ هذا الخطرَ إلغاءً تامًّا، وهي فوقَ كلِّ تعليمٍ آخرَ في المسارِ الواحد.**
+
+### 1. ملكيّةُ الملفّاتِ حصريّة
+
+لكلِّ مسارٍ ملفّاتُه المسمّاةُ **ولا يمسُّ ملفًّا خارجَها بحالٍ، ولو رأى فيه خطأً**. إذا رأى خطأً في ملفِّ مسارٍ آخرَ فيكتبُه ملاحظةً في محضرِه ويمضي.
+
+| المسار | ملفّاتُ القراءةِ التي يملكُها |
+|---|---|
+| **أ** | `readings/aramaic.md` و`readings/hebrew.md` |
+| **ب** | `readings/egyptian.md` و`readings/coptic.md` |
+| **ج** | `readings/ancient-greek.md` و`old-latin.md` و`persian.md` و`gothic.md` و`old-norse.md` و`welsh.md` |
+| **د** | **لا يملكُ ملفَّ قراءةٍ واحدًا**؛ يقرأُ الكلَّ ويكتبُ في ملفِّه الجديدِ وحدَه |
+
+### 2. ممنوعاتُ التوازي، وهي أشدُّ من كلِّ ممنوعٍ سبق
+
+1. **ممنوعٌ منعًا باتًّا أيُّ أمرِ git.** لا `add` ولا `commit` ولا `push` ولا `checkout` ولا `stash`. أربعُ جلساتٍ تتنازعُ فهرسَ git تُفسِدُه. **يُترَكُ العملُ كلُّه في شجرةِ العملِ بلا إيداع**، ويودعُه المؤلّفُ أو العدسةُ الثالثةُ بعدَ انتهاءِ المسارات.
+2. **ممنوعٌ تشغيلُ الأدواتِ التي تعيدُ بناءَ ملفٍّ مشترك:** `scan_recovery_ledger.py` و`build_status_snapshot.py` و`count_proof_eligible_families.py` و`build_recovery_loan_registry.py` و`export_core_levels.py`. هذه تُبنى من ملفّاتِ القراءةِ كلِّها، فلو بناها مسارٌ ومسارٌ آخرُ يكتبُ لخرجَ ملفٌّ مشوَّه. **تُشغَّلُ مرّةً واحدةً في النهايةِ خارجَ المسارات.**
+3. **ممنوعٌ تعديلُ أيِّ سكربتٍ مشترك** في `scripts/`. من احتاجَ أداةً فليكتبْ ملفًّا جديدًا باسمِ مسارِه: `scripts/lane_a_*.py` وهكذا.
+4. **ممنوعٌ تعديلُ الكتيّبِ هذا** ولا `data/*.json` المشتركةِ ولا ملفّاتِ الدستورِ ولا الميثاق. تُقرَأُ ولا تُكتَب.
+
+### 3. ما يملكُه كلُّ مسارٍ كتابةً
+
+1. ملفّاتُ قراءتِه المسمّاةُ في الجدول.
+2. محاضرُه في `05-audits/` **بأسماءَ تبدأُ بحرفِ مسارِه**: `2026-07-XX-lane-a-<موضوع>.md`.
+3. سكربتاتُه في `scripts/` **ببادئةِ مسارِه** `lane_a_` و`lane_b_` وهكذا.
+4. ملفّاتُ بياناتِه الجديدةُ في `04-cross-linguistic/data/` **ببادئةِ مسارِه** كذلك.
+
+### 4. البوّاباتُ في وضعِ التوازي
+
+**تُشغَّلُ البوّاباتُ القارئةُ فقط** (`check_charge_purity.py` و`check_publication_consistency.py`)، فهي لا تكتبُ شيئًا. أمّا كلُّ بوّابةٍ فيها `--check` تقارنُ ملفًّا مشتركًا مبنيًّا من الكلِّ فتُتجاهَلُ في التوازي، **ولا يُعَدُّ فشلُها فشلًا**، لأنّ الملفَّ المشتركَ متقادمٌ عمدًا حتى تنتهيَ المسارات.
+
+### 5. آخرُ ما يفعلُه كلُّ مسار
+
+سطرانِ في نهايةِ تقريرِه: **الملفّاتُ التي كتبَ فيها بأسمائِها**، و**الرقمانِ المفصولان**: كم صلةً موجبةً وكم إغلاقًا. لا يجمعُهما، ولا يودعُ شيئًا، ولا يشغّلُ لقطةً.
+
+*English abstract (section 23, the parallel protocol):* Four industrial sessions run concurrently in one working copy, so the only real hazard is two of them writing the same file. Exclusive file ownership removes it: lane A owns Aramaic and Hebrew, lane B Egyptian and Coptic, lane C the six Indo-European readings, and lane D owns no reading file at all, reading everything and writing only its own new document. A lane that spots an error in another lane's file records it as a note and moves on. Four prohibitions are absolute and outrank every earlier instruction: no git command of any kind, since four sessions contending for the index corrupt it and the work is instead left uncommitted for the author or the third lens to land afterwards; no running of any tool that rebuilds a shared file from all readings, since a rebuild while another lane writes produces a deformed artifact, so ledger, snapshot, eligibility and registry builds happen once at the end outside the lanes; no editing of any shared script, each lane prefixing any new tool with its own lane name; and no editing of the brief, the shared data exports, the constitution or the charter, which are read-only. Only read-only gates are run, and any check comparing a shared rebuilt file is ignored, its failure not counted, because that file is deliberately stale until the lanes finish. Each lane ends by naming the files it wrote and reporting two separated numbers, links and closures.
