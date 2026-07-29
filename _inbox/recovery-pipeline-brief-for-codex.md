@@ -464,3 +464,49 @@ Cooke تكمل بعشرة سجلات في اليوم على الأكثر، فه�
 كلُّ يومٍ ينتهي بثلاثةِ أشياءَ لا غير: **رقمُ المقامِ الرسميُّ** بعدَ تشغيلِ العدّاد، و**رقمانِ مفصولانِ** هما الصلاتُ الموجبةُ والإغلاقات، و**محضرٌ مؤرَّخٌ** في `05-audits/`. وشغّلْ `python scripts/build_status_snapshot.py` بعدَ كلِّ دفعةٍ فيتحدّثَ عدّادُ الموقعِ الحيّ. ولا تجمعِ الرقمَين في رقمٍ واحدٍ أبدًا، فالصلةُ المكتشفةُ ليسَت كالقرضِ المستبعَد.
 
 *English abstract (section 21, the week plan):* One mission for the week: raise the eligible-family denominator to 600 with at least 150 in each of Aramaic and Hebrew, where a family counts only when every member carries an issued verdict or a recorded closure and any parked member disqualifies the whole family. The measured baseline is 379 eligible Aramaic families and 113 Hebrew, 492 in total, so Hebrew needs 37 more and the total needs 108. The governing rule is that the honest number is the deliverable and not the number 600, because a single confirmatory run that is never repeated cannot rest on a padded denominator. Day one builds the official counter to the preregistration's own eligibility definition and publishes the true baseline on the live site, including the list of families short by exactly one member since those are the cheapest to complete. Days two and three take Hebrew through the 1,092 unread families that carry an explicit biblical reference in our own temporal inventory, since they arrive with the temporal anchor that blocked the last batch. Days four and five take Aramaic's 869 open candidates, starting with families short by one member because each such member completes a whole family. Day six is an integrity sweep that recomputes the denominator from scratch and reports how many families fell, treating any fall as a gain. Day seven consolidates and, if the threshold is met, drafts but does not sign the run attestation, because execution waits on the author's signature of the preregistration now before him. Background lanes are capped at an hour a day: ten Cooke records, and two decision papers to be prepared and not executed, one for Akkadian mimation and family identity and one for Coptic morphology. Six prohibitions hold: no new languages, no touching the preregistration, no running any part of the proof line, no manufactured negatives, no invented sound rows, and no committing verdict batches before third-lens review.
+## 22. شهرُ الاكتشاف: أربعةُ أسابيعَ في البحثِ عن الصلات (2026-07-28، بأمرِ المؤلّف)
+
+**أمرُ المؤلّفِ الحاكمُ لهذا الشهر:** «نحنُ في طورِ إيجادِ الصلاتِ واستكشافِ الألسن، لا في صناعةِ تلكَ الأشياء. كفى تعقيدًا.»
+
+### قرارُ التجميدِ الذي يسبقُ كلَّ شيء
+
+**خطُّ البرهانِ مجمَّدٌ هذا الشهرَ كلَّه.** لا يُوقَّعُ تسجيلٌ مسبق، ولا تُعَدُّ أسرٌ مؤهَّلة، ولا تُطارَدُ عتبةُ 600، ولا يُبنى سحبٌ بالقرعة، ولا يُشغَّلُ شيءٌ من `scripts/recovery_pipeline/proof.py`. الوثيقةُ مقفلةٌ والأدواتُ محفوظةٌ ولا يضيعُ منها حرف، **وتنتظرُ حتى ينضجَ الاكتشاف**.
+
+**والسببُ:** طورُ الاكتشافِ وطورُ البرهانِ ساعتانِ متنافرتان. الأوّلُ يريدُ سعةً وسرعةً ويحتملُ الغموض، والثاني يريدُ سكّانًا مغلقينَ ويمنعُ النظرَ قبلَ الالتزام. وتشغيلُ الثاني قبلَ نضجِ الأوّلِ أفسدَهما معًا: صارَ الحصادُ يطاردُ أسرًا مؤهَّلةً بدلَ أن يطاردَ كلماتٍ مثيرة. **فالمنتَجُ هذا الشهرَ صلاتٌ مسنَدةٌ لا أرقامُ محاسبة.**
+
+### محاورُ المقارنةِ الخمسة، وهي التي سمّاها المؤلّفُ بنفسِه
+
+كلُّ بطاقةٍ تقارنُ على هذه المحاورِ لا على غيرِها:
+
+1. **الرسمُ الصامتيّ:** هيكلُ الكلمةِ في الفرعِ مقابلَ هيكلِ الجذرِ العربيّ، بعدَ تعريةٍ مسمّاةِ المصدرِ لا بحدس.
+2. **المعنى:** معنًى منشورٌ في قاموسِ الفرع، ومعانٍ عربيّةٌ من معجمَينِ قديمَينِ مستقلَّينِ مسمَّيَين.
+3. **الجذرُ الثلاثيّ:** أوّلُ درجاتِ المقارنة.
+4. **النواةُ الثنائيّة:** الدرجةُ الثانيةُ حينَ يقصرُ الجذرُ الكامل، من فهرسِ النوى المجمَّد.
+5. **المدارُ، وهو المحورُ المتروكُ الذي يُحيا هذا الشهر:** **وحدةُ المقارنةِ جوارُ المعنى لا الترجمةُ المفردة.** لا تقارنْ لفظًا بلفظٍ ثمّ تحكم، بل انظرْ عائلةَ المعنى في الفرعِ وعائلةَ المعنى في العربيّة: إن التقَتِ العائلتانِ في نواةٍ واحدةٍ فتلكَ صلةٌ ولو تباعدَتِ الترجمتانِ الحرفيّتان، وإن التقَتِ الترجمتانِ ولم تلتقِ العائلتانِ فذلكَ تشابهٌ لا صلة. **اكتبْ في كلِّ بطاقةٍ سطرَ المدارِ صريحًا: ما جوارُ المعنى في الجهتَين، وأينَ التقيا.**
+
+### ما يُحذَفُ من العملِ هذا الشهر
+
+1. **لا محاسبةَ أهليّةٍ ولا عدَّ أسرٍ مؤهَّلة.** لا تشغّلْ `count_proof_eligible_families.py` ولا تحدّثْه.
+2. **لا بناءَ تصنيفاتٍ جديدةٍ للعوائق.** ما لا ينحسمُ يُكتَبُ سببُه في سطرٍ واحدٍ ويُمضى عنه. **لا تصنعْ نظامَ وسومٍ جديدًا لتصنيفِ فشلِك.**
+3. **لا كنسَ بنيويٍّ ولا إعادةَ تشكيلِ قوالبَ** إلّا إذا منعَ حكمًا فعليًّا.
+4. **لا اختلاقَ لسالبٍ ولا اختراعَ لصفٍّ صوتيّ.** القاعدتانِ الوحيدتانِ الباقيتانِ من الحرصِ القديم، وهما تحميانِ ولا تعطّلان.
+
+### الأسابيعُ الأربعة
+
+**الأسبوعُ الأوّل: الأختانِ الساميّتان، عمقٌ حيثُ العائدُ مثبَت.**
+الآراميّةُ والعبريّة. عائدُهما المقيسُ أعلى ما عندنا، وذخيرتُهما لم تُمَسَّ إلّا قليلًا: العبريّةُ وحدَها 11,852 أسرةً في الجردِ وقد قرأنا منها نحوَ ألف. اقرأْ بالحجمِ لا بالانتقاء، وأحيِ محورَ المدارِ في كلِّ بطاقة. **الهدفُ 300 صلةٍ جديدةٍ مسنَدة.**
+
+**الأسبوعُ الثاني: ابنُ العمِّ الأفروآسيويّ.**
+المصريّةُ القديمةُ والقبطيّة. هما شاهدُ شجرةِ القرابة: من أسرةِ العربيّةِ نفسِها وإن بَعُدَ الفرع. أكملْ ما بقيَ في المصريّةِ وافتحِ القبطيّةَ على سعتِها، وافصلْ فيها القرضَ اليونانيَّ بالقاعدةِ المصحَّحةِ التي تعرفُ الحروفَ القبطيّةَ الأصيلة. **الهدفُ 200 صلةٍ جديدة.**
+
+**الأسبوعُ الثالث: مسحُ الطبقةِ الهندوأوروبيّةِ كلِّها.**
+اليونانيّةُ القديمةُ واللاتينيّةُ والفارسيّةُ والقوطيّةُ والنورديّةُ القديمةُ والويلزيّة. أكثرُها لم يُفتَحْ إلّا بعشراتِ البطاقات. هنا الدعوى أجرأُ والعائدُ أقلُّ، **وهذا متوقَّعٌ ومطلوب**: العائدُ الأقلُّ في الفرعِ الأبعدِ شهادةٌ على أنّ الأداةَ تميّزُ ولا تختم. افتحْها كلَّها بمئتَي بطاقةٍ لكلِّ لسانٍ على الأقلّ. **الهدفُ 150 صلةً جديدةً موزّعةً على ستّةِ ألسن.**
+
+**الأسبوعُ الرابع: المدارُ والتجميع.**
+ارجعْ إلى الصلاتِ كلِّها التي جمعناها وأضفْ إليها سطرَ المدارِ حيثُ ينقص، فهو المحورُ الذي طلبَه المؤلّفُ ولم يُستعمَلْ بعد. ثمّ اكتبْ **وثيقةَ عرضٍ واحدةً** تجمعُ أقوى الصلاتِ مرتَّبةً بحسبِ بعدِ الفرعِ عن العربيّة، بصورةِ الكلمةِ ومعناها ومصادرِها ومدارِها، صالحةً لأن يقرأها غيرُ المتخصّص. **هذه هي حصيلةُ الشهرِ التي تُرى.**
+
+### إيقاعُ التسليم
+
+كلُّ دفعةٍ تنتهي برقمَينِ مفصولَينِ لا يُجمَعان: **كم صلةً موجبةً، وكم إغلاقًا**. ومحضرٌ مؤرَّخٌ قصيرٌ في `05-audits/`. وتشغيلُ `python scripts/build_status_snapshot.py` فيتحدّثَ عدّادُ الموقعِ الحيّ. والأحكامُ تبقى محليّةً حتى مراجعةِ العدسةِ الثالثة، والبنيةُ والأدواتُ تُدفَعُ بعدَ البوّابات.
+
+*English abstract (section 22, the discovery month):* The author's governing instruction for this month is that the project is in its discovery phase, finding connections across languages, and not in the business of building proof machinery. The proof line is therefore frozen for the whole month: no signature, no eligibility counting, no chasing the six hundred threshold, no random draw, and no execution of any part of the proof runner; the document stays locked and the tools stay intact, waiting until discovery matures, because discovery and confirmation are incompatible clocks and running the second before the first matured made the harvest chase eligible families instead of interesting words. Comparison runs on the five axes the author named himself: the consonantal skeleton, the published meaning on both sides with two independent classical Arabic dictionaries, the triliteral root as the first degree, the binary nucleus as the second, and above all the orbit, the neglected axis revived this month, under which the unit of comparison is the neighbourhood of meaning rather than the single gloss, so that two words whose literal translations diverge but whose sense families meet in one nucleus are a link, while two whose translations agree but whose sense families do not meet are a resemblance and not a link. Four practices are cut: eligibility accounting, new obstacle taxonomies, structural sweeps, and any manufactured negative or invented sound row. The four weeks run depth on the Semitic sisters, then the Afro-Asiatic cousins, then a wide sweep across six Indo-European branches where a lower yield is expected and welcome as evidence that the instrument discriminates, and finally the orbit pass plus a single readable presentation document ordering the strongest links by branch distance. Each batch reports two separated numbers, links and closures, never summed.
