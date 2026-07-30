@@ -580,3 +580,34 @@ Cooke تكمل بعشرة سجلات في اليوم على الأكثر، فه�
 محاورُ المقارنةِ الخمسةُ كما هي، والمدارُ سطرٌ صريحٌ في كلِّ بطاقة، والمصدرانِ العربيّانِ القديمانِ المسمَّيانِ شرطُ كلِّ صلة، وقالبُ RECOVERY-v2 بحقولِه كلِّها ومنها إشعاعُ الأسرةِ في الجهتَين. ولا اختلاقَ لسالبٍ ولا اختراعَ لصفٍّ صوتيّ. والرقمانِ المفصولانِ بعدَ كلِّ دفعة.
 
 *English abstract (section 24, the second parallel week):* The parallel protocol of section 23 stays in force with new file ownership. Ground state at commissioning: 1,006 links across 6,235 cards in thirteen languages, with Hebrew holding 11,852 inventory families of which under a tenth is read, and every Indo-European language sitting at exactly two hundred cards. The week's new rule is full coverage: because lane B answered honestly that it wrote a card only for successes, its yield became incomparable, so from now a card is written for every member examined, whether it yields a link, a closure or no verdict at all. Without that the denominator is unknown, no language can be compared with another, and it cannot be known whether Aramaic's high yield reflects its sisterhood or our selection; that honesty of ratio, not the count of links, is the real gain from a full week. Lane A takes Hebrew as its field, lane B re-sweeps Egyptian and Coptic under full coverage, lane C raises each of the six Indo-European languages from two hundred cards to a thousand, and lane D opens two languages never opened, Old English and Old Irish, whose value is triangulation: Old English is West Germanic and triangulates Gothic and Norse, Old Irish is Celtic and doubles Welsh, so a consistent branch yield across three independent languages is far stronger than across one, and a divergent one is equally informative since it would say the yield follows the language rather than the branch.
+## 25. قاعدةُ الطابورِ الدائم: لا يعودُ مسارٌ إلى المؤلّفِ حتى يفرغَ معجمُه (2026-07-29)
+
+**العطبُ المشخَّص:** أُعطيَت المساراتُ في الجولةِ الماضيةِ **أهدافًا عدديّة**، فلمّا بلغَ المسارُ هدفَه وقفَ ورجعَ يستأذن. فصارَ المؤلّفُ ساعيَ بريدٍ بينَ أربعِ جلسات، وهو أثمنُ من ذلك. **والعطبُ في التكليفِ لا في المنفّذ.**
+
+**القاعدةُ النافذةُ من اليوم، وهي فوقَ كلِّ هدفٍ عدديٍّ في أيِّ تكليفٍ سابقٍ أو لاحق:**
+
+### 1. لا أهدافَ بل طوابير
+
+لا يُكلَّفُ مسارٌ بعددٍ يبلغُه فيقف. **يُكلَّفُ بجردِه كلِّه مرتَّبًا**، ويعملُ فيه دفعةً بعدَ دفعةٍ حتى يفرغ. والعددُ الذي يخرجُ به في آخرِ المدّةِ نتيجةٌ تُقاس، لا هدفٌ يُطارَد.
+
+### 2. الاستمرارُ تلقائيٌّ لا يُستأذَنُ فيه
+
+بعدَ كلِّ دفعةٍ يكتبُ محضرَه ورقمَيه المفصولَين، **ثمّ يبدأُ الدفعةَ التاليةَ فورًا من غيرِ أن يسألَ أحدًا**. لا ينتظرُ إقرارًا ولا مراجعةً ولا كلمةَ تشجيع. مراجعةُ العدسةِ الثالثةِ تجري على المحصّلةِ في آخرِ المدّة، لا بينَ دفعةٍ ودفعة.
+
+### 3. متى يقفُ المسارُ حقًّا
+
+يقفُ في ثلاثِ حالاتٍ لا رابعَ لها:
+
+1. **فرغَ جردُه**، فيعلنُ ذلك بعددِ ما فحصَ وعددِ ما بقي، ويقيسُ بنفسِه أنّ الباقيَ صفر.
+2. **نفدَ وقتُ الجلسةِ أو رصيدُها**، فيكتبُ أين وقفَ بالضبطِ ليستأنفَ من موضعِه لا من أوّلِه.
+3. **لقيَ سؤالًا لا يملكُ أحدٌ غيرُ المؤلّفِ جوابَه**، وهو حصرًا: قانونٌ صوتيٌّ جديد، أو مصدرٌ جديدٌ يُشترى أو يُنزَّل، أو مساسٌ بملفٍّ مجمَّد. **وحينَها يسجّلُ السؤالَ ويتخطّى الموضعَ ويواصلُ**، ولا يقفُ العملُ كلُّه لأجلِ موضعٍ واحد.
+
+### 4. ما ليسَ سببًا للوقوف
+
+بلوغُ عددٍ، أو انتهاءُ لغةٍ من لغتَيه (ينتقلُ إلى الأخرى)، أو خلوُّ دفعةٍ من أيِّ صلة (يكتبُها ويمضي)، أو رغبتُه في عرضِ نتيجةٍ (يعرضُها في المحضرِ ويمضي)، أو شكٌّ في أنّ العملَ صارَ مكرَّرًا (يقيسُ الباقيَ ويمضي).
+
+### 5. إعلانُ الموضعِ في كلِّ محضر
+
+كلُّ محضرٍ يحملُ سطرًا واحدًا يقولُ: **من أينَ بدأت هذه الدفعةُ وأينَ انتهت، وكم بقيَ في الجردِ بعدَها**. بهذا يُستأنَفُ العملُ من موضعِه بأيِّ جلسةٍ جديدةٍ بلا إعادةِ عملٍ ولا تخطّي مواضع.
+
+*English abstract (section 25, the standing queue rule):* The diagnosed defect is that the previous round gave lanes numeric targets, so a lane that met its target stopped and came back for permission, turning the author into a courier between four sessions. The fault is in the commissioning, not the executor. From now, and overriding every numeric target in any earlier or later commission: lanes are given their whole ordered inventory rather than a number, and work it batch after batch until it is empty, the final count being a measured result rather than a chased goal. Continuation is automatic and unasked: after each batch the lane writes its record and its two separated numbers and immediately begins the next batch, without waiting for approval, review or encouragement, since third-lens review runs on the accumulated result at the end of the period and not between batches. A lane genuinely stops in only three cases: its inventory is empty and it says so with a measured count of what remains; the session's time or budget runs out, in which case it records exactly where it stopped so work resumes from there; or it meets a question only the author can answer, which is strictly a new sound law, a new source to buy or download, or a change to a frozen file, and even then it records the question, skips that position and continues rather than halting everything for one entry. Reaching a number, finishing one of its two languages, a batch yielding no link at all, wanting to present a result, or suspecting the work has become repetitive are none of them reasons to stop. Every record carries one line stating where the batch began, where it ended, and how much of the inventory remains, so any new session resumes from the exact position without repeating or skipping work.
