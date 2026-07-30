@@ -172,8 +172,8 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
 
   <h2><span class="lang-en">The pre-registered proof run</span><span class="lang-ar ar-display">تشغيلُ خطِّ البرهانِ المسجَّلِ مسبقًا</span></h2>
   <p class="sub">
-    <span class="lang-en">The confirmatory run is signed and armed, and it fires only once, only when the registered threshold is met. This is where it stands.</span>
-    <span class="lang-ar">التشغيلُ التأكيديُّ موقَّعٌ ومسلَّح، ولا يجري إلّا مرّةً واحدةً ولا يجري إلّا ببلوغِ العتبةِ المسجَّلة. وهذا موضعُه الآن.</span>
+    <span class="lang-en">The version 2 registration is draft-locked and awaits the author's signature. Even after signature, the confirmatory run may happen only once and only after the registered member-complete threshold is met.</span>
+    <span class="lang-ar">النسخةُ الثانيةُ من التسجيلِ مقفلةٌ مسودةً وتنتظرُ توقيعَ المؤلّف. وحتى بعدَ التوقيعِ لا يجري التشغيلُ التأكيديُّ إلّا مرّةً واحدةً وبعدَ بلوغِ عتبةِ الأسرِ المكتملةِ عضوًا عضوًا.</span>
   </p>
   <div id="proof"></div>
 
@@ -286,6 +286,12 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
     var need = pr.required_total || 0;
     var have = pr.eligible_now || 0;
     var pct = need ? Math.min(100, Math.round((have / need) * 100)) : 0;
+    var proofLanguages = (pr.by_language || []).map(function (row) {
+      return '<tr><td>' + row.name + '</td><td class="num">' + fmt(row.eligible) +
+        '</td><td class="num">' + fmt(row.positive_families) +
+        '</td><td class="num">' + fmt(row.closure_only_families) +
+        '</td><td class="num">' + fmt(row.one_member_short) + '</td></tr>';
+    }).join("");
     document.getElementById("proof").innerHTML =
       '<div class="card">' +
       '<p style="margin:0 0 10px">' +
@@ -297,9 +303,15 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
       t("eligible reviewed families, and at least " + fmt(pr.required_per_language) + " per language",
         "أسرةً مراجَعةً مؤهَّلة، وعلى الأقلِّ " + fmt(pr.required_per_language) + " لكلِّ لسان") + "</div>" +
       '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
+      '<div class="table-wrap" style="margin-top:14px"><table><thead><tr><th>' +
+      t("Language", "اللسان") + '</th><th>' + t("Eligible", "المؤهَّلة") +
+      '</th><th>' + t("With a link", "بصلة") + '</th><th>' +
+      t("Closure only", "إغلاق فقط") + '</th><th>' +
+      t("One member short", "ينقصها عضو") +
+      '</th></tr></thead><tbody>' + proofLanguages + '</tbody></table></div>' +
       '<div class="note alert" style="margin-top:14px">' +
-      t("The counter currently tracks " + fmt(pr.families_tracked) + " families, all of them suspended, and only from the Phoenician and Punic slices. The languages carrying the bulk of the work are not registered in it, so the threshold cannot fill from the work being done. Repairing this counter is a prerequisite to the proof run.",
-        "العدّادُ يتتبَّعُ الآن " + fmt(pr.families_tracked) + " أسرةً كلُّها معلَّقة، ومن شريحتَي الفينيقيّةِ والبونيقيّةِ وحدَهما. واللغاتُ التي تحملُ جمهورَ العملِ غيرُ مسجَّلةٍ فيه، فالعتبةُ لا تمتلئُ ممّا يُنجَز. وإصلاحُ هذا العدّادِ شرطٌ سابقٌ لتشغيلِ البرهان.") +
+      t("Strict member-level count: one parked or unnamed member disqualifies the whole family. Links and recorded closures are reported separately, and no result line has been run.",
+        "عدٌّ صارمٌ على مستوى العضو: عضوٌ واحدٌ راقدٌ أو غيرُ مسمّى يُسقطُ الأسرةَ كلَّها. وتُعرضُ الصلاتُ والإغلاقاتُ المسجَّلةُ منفصلةً، ولم يُشغَّلْ سطرُ نتيجةٍ واحد.") +
       "</div></div>";
 
     document.getElementById("frozen").innerHTML =

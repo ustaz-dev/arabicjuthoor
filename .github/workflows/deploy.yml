@@ -58,6 +58,9 @@ jobs:
       - name: Proof preregistration integrity
         run: python scripts/rebuild_proof_preregistration.py --check
 
+      - name: Proof eligible-family counter is current
+        run: python scripts/count_proof_eligible_families.py --check
+
       - name: Live status snapshot is current
         run: python scripts/build_status_snapshot.py --check
 

@@ -27,6 +27,7 @@ OUT = ROOT / "data" / "status-snapshot.json"
 READINGS = ROOT / "04-cross-linguistic" / "readings"
 LEDGER = ROOT / "data" / "recovery-ledger.json"
 PROOF = ROOT / "data" / "recovery-proof-preregistration.json"
+PROOF_ELIGIBILITY = ROOT / "data" / "proof-eligible-families.json"
 FAMILY_STATES = ROOT / "data" / "family-review-states.json"
 CORE_LEVELS = ROOT / "data" / "juthoor-core-levels.json"
 LOANS = ROOT / "data" / "recovery-loan-registry.json"
@@ -47,6 +48,29 @@ POSITIVE_VERDICTS = {
     "NUCLEUS-ECHO",
     "FLOOR-TRACE",
 }
+
+# Terminal outcomes that resolve a card without asserting a link.  Newer
+# campaign cards sometimes carry the terminal outcome in the authoritative
+# blocker field while keeping "غير صادر" in the verdict field.  The counter
+# must therefore read both live fields, once per card.
+CLOSURE_VERDICTS = {
+    "NO-TRACE",
+    "LOANWORD",
+    "PROPER-NAME-ISOLATED",
+    "NONLEXICAL-ISOLATED",
+    "MIXED-ISOLATED",
+    "FORM-OF-ISOLATED",
+    "INTRA-HOUSE-TRANSFER",
+    "COMPOUND-BOUNDARY",
+    "LOAN-ROUTE-ISOLATED",
+    "PHRASE-LINK",
+    "FUNCTION-WORD",
+    "CONTACT-ISOLATED",
+    "OUT-OF-SCOPE",
+    "ABBREVIATION",
+}
+
+BLOCKER_LINE = re.compile(r"^- عائق:\s*النوع=([A-Z\-]+)", re.M)
 
 # Display names for the reading files, English and Arabic.
 LANGUAGE_NAMES = {
@@ -97,6 +121,21 @@ def live_verdict(card: str) -> str:
     return match.group(1) if match else ""
 
 
+def live_blocker(card: str) -> str:
+    match = BLOCKER_LINE.search(card)
+    return match.group(1) if match else ""
+
+
+def counted_outcome(card: str) -> str:
+    verdict = live_verdict(card)
+    if verdict in POSITIVE_VERDICTS or verdict in CLOSURE_VERDICTS:
+        return verdict
+    blocker = live_blocker(card)
+    if blocker in CLOSURE_VERDICTS:
+        return blocker
+    return ""
+
+
 def language_rows() -> list[dict]:
     rows = []
     for path in sorted(READINGS.glob("*.md")):
@@ -109,7 +148,7 @@ def language_rows() -> list[dict]:
         if not cards:
             continue
         verdicts = Counter(
-            verdict for card in card_blocks if (verdict := live_verdict(card))
+            outcome for card in card_blocks if (outcome := counted_outcome(card))
         )
         links = sum(
             count for name, count in verdicts.items() if name in POSITIVE_VERDICTS
@@ -128,10 +167,10 @@ def verdict_totals() -> dict:
             continue
         cards = reading_cards(path.read_text(encoding="utf-8"))
         counts.update(
-            verdict for card in cards if (verdict := live_verdict(card))
+            outcome for card in cards if (outcome := counted_outcome(card))
         )
     links = sum(c for name, c in counts.items() if name in POSITIVE_VERDICTS)
-    closures = sum(c for name, c in counts.items() if name not in POSITIVE_VERDICTS)
+    closures = sum(c for name, c in counts.items() if name in CLOSURE_VERDICTS)
     return {
         "links_to_arabic": links,
         "closures": closures,
@@ -174,35 +213,43 @@ def proof_rows() -> dict:
     pre = read_json(PROOF)
     trigger = pre.get("execution_trigger", {}) or {}
     thresholds = trigger.get("thresholds", trigger)
-    states = read_json(FAMILY_STATES)
-    families = states.get("families", {}) or {}
-    status_counts = Counter(
-        (value.get("status") if isinstance(value, dict) else str(value))
-        for value in families.values()
-    )
-    # A family counts toward the trigger only when its review is complete and it is not suspended.
-    eligible = sum(
-        1
-        for value in families.values()
-        if isinstance(value, dict) and value.get("status") in {"reviewed", "eligible"}
-    )
-    per_language = Counter(key.split(":")[0] for key in families)
+    eligibility = read_json(PROOF_ELIGIBILITY)
+    summary = eligibility.get("summary", {}) or {}
+    language_blocks = eligibility.get("languages", {}) or {}
+    by_language = []
+    for language in pre.get("population", {}).get("languages", []):
+        block = language_blocks.get(language, {}) or {}
+        by_language.append(
+            {
+                "name": language,
+                "eligible": block.get("eligible_family_count", 0),
+                "represented": block.get(
+                    "represented_current_family_count", 0
+                ),
+                "positive_families": block.get("positive_family_count", 0),
+                "closure_only_families": block.get(
+                    "closure_only_family_count", 0
+                ),
+                "one_member_short": block.get("one_member_short_count", 0),
+            }
+        )
     return {
         "signed": bool(pre.get("execution_authorized")),
+        "registration_status": pre.get("status", ""),
         "frozen_commit": (pre.get("frozen_git_commit") or "")[:7],
         "required_total": thresholds.get("total_eligible_reviewed_families"),
         "required_per_language": thresholds.get(
             "min_eligible_reviewed_families_per_language"
         ),
-        "families_tracked": len(families),
-        "eligible_now": eligible,
-        "status_counts": [
-            {"name": str(name), "count": count}
-            for name, count in status_counts.most_common()
-        ],
-        "languages_tracked": [
-            {"name": name, "count": count} for name, count in per_language.most_common()
-        ],
+        "families_tracked": sum(row["represented"] for row in by_language),
+        "eligible_now": summary.get("eligible_family_total", 0),
+        "trigger_threshold_met": summary.get("trigger_threshold_met", False),
+        "proof_executed": summary.get("proof_executed", False),
+        "by_language": by_language,
+        "counting_law": (
+            "A family counts only when every inventory member carries an "
+            "issued verdict or recorded terminal closure."
+        ),
     }
 
 

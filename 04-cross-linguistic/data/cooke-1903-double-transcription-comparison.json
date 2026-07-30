@@ -1,0 +1,2090 @@
+{
+  "generated_by": "scripts/compare_cooke_diplomatic_passes.py",
+  "inventory": {
+    "notation_disagreement_rate": 0.875,
+    "notation_loci_differing": 7,
+    "notation_loci_total": 8,
+    "reading_characters_compared": 3528,
+    "reading_disagreement_rate": 0.054988662131519275,
+    "reading_levenshtein_distance_total": 194,
+    "records_exactly_agreeing_after_shared_notation": 1,
+    "records_requiring_visual_arbitration": 9,
+    "records_total": 10
+  },
+  "known_common_mode_failure": {
+    "feature": "printed damage dots above consonants",
+    "finding": "Both independent passes omitted at least some of the same printed damage dots, so exact agreement is not evidence of complete diplomatic fidelity.",
+    "gate_effect": "all first-batch records remain partial",
+    "record_id": 3
+  },
+  "non_judgment_rule": "The comparison reports reading and notation differences only and never selects a reading or opens the citation gate.",
+  "notation_observations": [
+    {
+      "line": 1,
+      "locus": "5:1:14",
+      "notation_differs": true,
+      "observed_rendering_a": "horizontal bar, space, four vertical strokes",
+      "observed_rendering_b": "horizontal bar immediately followed by four vertical strokes",
+      "record_id": 5,
+      "value": "14"
+    },
+    {
+      "line": 2,
+      "locus": "8:2:1070",
+      "notation_differs": true,
+      "observed_rendering_a": "plus sign, three carets, horizontal bar",
+      "observed_rendering_b": "bracketed value",
+      "record_id": 8,
+      "value": "1070"
+    },
+    {
+      "line": "4-5",
+      "locus": "9:4-5:180",
+      "notation_differs": false,
+      "observed_rendering_a": "split bracketed value tokens",
+      "observed_rendering_b": "split bracketed value tokens",
+      "record_id": 9,
+      "value": "180"
+    },
+    {
+      "line": 5,
+      "locus": "9:5:143",
+      "notation_differs": true,
+      "observed_rendering_a": "three Z-shaped signs, space, three vertical strokes",
+      "observed_rendering_b": "bracketed value",
+      "record_id": 9,
+      "value": "143"
+    },
+    {
+      "line": 5,
+      "locus": "10:5:50",
+      "notation_differs": true,
+      "observed_rendering_a": "N-shaped sign, two groups of three vertical strokes",
+      "observed_rendering_b": "bracketed value",
+      "record_id": 10,
+      "value": "50"
+    },
+    {
+      "line": 1,
+      "locus": "12:1:6",
+      "notation_differs": true,
+      "observed_rendering_a": "two groups of three vertical strokes",
+      "observed_rendering_b": "bracketed value",
+      "record_id": 12,
+      "value": "6"
+    },
+    {
+      "line": 1,
+      "locus": "12:1:21",
+      "notation_differs": true,
+      "observed_rendering_a": "two letter-like signs",
+      "observed_rendering_b": "bracketed value",
+      "record_id": 12,
+      "value": "21"
+    },
+    {
+      "line": 3,
+      "locus": "12:3:2",
+      "notation_differs": true,
+      "observed_rendering_a": "two vertical strokes",
+      "observed_rendering_b": "bracketed value",
+      "record_id": 12,
+      "value": "2"
+    }
+  ],
+  "records": [
+    {
+      "line_count_a": 15,
+      "line_count_b": 15,
+      "notation_loci_differing": 0,
+      "notation_loci_total": 0,
+      "notation_observations": [],
+      "reading_character_count_a": 729,
+      "reading_character_count_b": 726,
+      "reading_differences": [
+        {
+          "a_end": 35,
+          "a_start": 32,
+          "a_text": "בן ",
+          "b_end": 32,
+          "b_start": 32,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 36,
+          "a_start": 36,
+          "a_text": "",
+          "b_end": 34,
+          "b_start": 33,
+          "b_text": "ו",
+          "operation": "insert"
+        },
+        {
+          "a_end": 72,
+          "a_start": 72,
+          "a_text": "",
+          "b_end": 71,
+          "b_start": 70,
+          "b_text": "ל",
+          "operation": "insert"
+        },
+        {
+          "a_end": 118,
+          "a_start": 117,
+          "a_text": "ן",
+          "b_end": 116,
+          "b_start": 116,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 165,
+          "a_start": 164,
+          "a_text": "ה",
+          "b_end": 163,
+          "b_start": 162,
+          "b_text": "ח",
+          "operation": "replace"
+        },
+        {
+          "a_end": 168,
+          "a_start": 166,
+          "a_text": "ח]",
+          "b_end": 164,
+          "b_start": 164,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 170,
+          "a_start": 170,
+          "a_text": "",
+          "b_end": 167,
+          "b_start": 166,
+          "b_text": "]",
+          "operation": "insert"
+        },
+        {
+          "a_end": 173,
+          "a_start": 173,
+          "a_text": "",
+          "b_end": 171,
+          "b_start": 170,
+          "b_text": "ו",
+          "operation": "insert"
+        },
+        {
+          "a_end": 246,
+          "a_start": 245,
+          "a_text": "ו",
+          "b_end": 244,
+          "b_start": 243,
+          "b_text": "ז",
+          "operation": "replace"
+        },
+        {
+          "a_end": 256,
+          "a_start": 256,
+          "a_text": "",
+          "b_end": 255,
+          "b_start": 254,
+          "b_text": ".",
+          "operation": "insert"
+        },
+        {
+          "a_end": 378,
+          "a_start": 377,
+          "a_text": "י",
+          "b_end": 376,
+          "b_start": 376,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 380,
+          "a_start": 380,
+          "a_text": "",
+          "b_end": 379,
+          "b_start": 378,
+          "b_text": "[",
+          "operation": "insert"
+        },
+        {
+          "a_end": 386,
+          "a_start": 385,
+          "a_text": "[",
+          "b_end": 384,
+          "b_start": 384,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 402,
+          "a_start": 401,
+          "a_text": "ן",
+          "b_end": 401,
+          "b_start": 399,
+          "b_text": "הו",
+          "operation": "replace"
+        },
+        {
+          "a_end": 448,
+          "a_start": 447,
+          "a_text": "]",
+          "b_end": 446,
+          "b_start": 446,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 474,
+          "a_start": 473,
+          "a_text": "ה",
+          "b_end": 472,
+          "b_start": 471,
+          "b_text": "נ",
+          "operation": "replace"
+        },
+        {
+          "a_end": 498,
+          "a_start": 498,
+          "a_text": "",
+          "b_end": 497,
+          "b_start": 496,
+          "b_text": "ה",
+          "operation": "insert"
+        },
+        {
+          "a_end": 499,
+          "a_start": 499,
+          "a_text": "",
+          "b_end": 500,
+          "b_start": 498,
+          "b_text": "]\n",
+          "operation": "insert"
+        },
+        {
+          "a_end": 501,
+          "a_start": 500,
+          "a_text": "\n",
+          "b_end": 501,
+          "b_start": 501,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 504,
+          "a_start": 503,
+          "a_text": "]",
+          "b_end": 503,
+          "b_start": 503,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 509,
+          "a_start": 509,
+          "a_text": "",
+          "b_end": 509,
+          "b_start": 508,
+          "b_text": "]",
+          "operation": "insert"
+        },
+        {
+          "a_end": 551,
+          "a_start": 550,
+          "a_text": "ו",
+          "b_end": 551,
+          "b_start": 550,
+          "b_text": "ן",
+          "operation": "replace"
+        },
+        {
+          "a_end": 554,
+          "a_start": 553,
+          "a_text": "ב",
+          "b_end": 554,
+          "b_start": 553,
+          "b_text": "נ",
+          "operation": "replace"
+        },
+        {
+          "a_end": 555,
+          "a_start": 555,
+          "a_text": "",
+          "b_end": 558,
+          "b_start": 555,
+          "b_text": "]שת",
+          "operation": "insert"
+        },
+        {
+          "a_end": 564,
+          "a_start": 563,
+          "a_text": "]",
+          "b_end": 566,
+          "b_start": 566,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 571,
+          "a_start": 571,
+          "a_text": "",
+          "b_end": 574,
+          "b_start": 573,
+          "b_text": "ן",
+          "operation": "insert"
+        },
+        {
+          "a_end": 583,
+          "a_start": 582,
+          "a_text": "ו",
+          "b_end": 586,
+          "b_start": 585,
+          "b_text": "ז",
+          "operation": "replace"
+        },
+        {
+          "a_end": 626,
+          "a_start": 625,
+          "a_text": "ב",
+          "b_end": 629,
+          "b_start": 628,
+          "b_text": "כ",
+          "operation": "replace"
+        },
+        {
+          "a_end": 631,
+          "a_start": 630,
+          "a_text": "ח",
+          "b_end": 634,
+          "b_start": 633,
+          "b_text": "ת",
+          "operation": "replace"
+        },
+        {
+          "a_end": 637,
+          "a_start": 637,
+          "a_text": "",
+          "b_end": 641,
+          "b_start": 640,
+          "b_text": " ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 663,
+          "a_start": 661,
+          "a_text": "..",
+          "b_end": 665,
+          "b_start": 665,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 665,
+          "a_start": 664,
+          "a_text": "ז",
+          "b_end": 667,
+          "b_start": 666,
+          "b_text": "ו",
+          "operation": "replace"
+        },
+        {
+          "a_end": 667,
+          "a_start": 666,
+          "a_text": ".",
+          "b_end": 668,
+          "b_start": 668,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 673,
+          "a_start": 670,
+          "a_text": "מ .",
+          "b_end": 672,
+          "b_start": 671,
+          "b_text": "ם",
+          "operation": "replace"
+        },
+        {
+          "a_end": 697,
+          "a_start": 696,
+          "a_text": ".",
+          "b_end": 695,
+          "b_start": 695,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 714,
+          "a_start": 713,
+          "a_text": "י",
+          "b_end": 711,
+          "b_start": 711,
+          "b_text": "",
+          "operation": "delete"
+        }
+      ],
+      "reading_disagreement_rate": 0.06172839506172839,
+      "reading_exact_match": false,
+      "reading_levenshtein_distance": 45,
+      "record_id": 3,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [
+        {
+          "line": 5,
+          "note": "The third consonant after וה is visually ambiguous.",
+          "reading": "והערת"
+        },
+        {
+          "line": 6,
+          "note": "Several consonants are difficult to distinguish in the print; the three printed damage points are retained.",
+          "reading": "והערפת וא ועמדה וה...ם"
+        },
+        {
+          "line": 11,
+          "note": "The final two visible consonants are faint.",
+          "reading": "מו"
+        },
+        {
+          "line": 13,
+          "note": "A damage point is printed between the visible consonants.",
+          "reading": "א.ך"
+        },
+        {
+          "line": 14,
+          "note": "The whole line is fragmentary; point runs and their positions are copied without restoration.",
+          "reading": "...... את ה א ... ז .. ימ . ה עלת מקם ז ו.."
+        }
+      ],
+      "uncertain_b": [
+        {
+          "line": 5,
+          "note": "Reading והערת follows the visible consonants; the second consonant is not fully secure."
+        },
+        {
+          "line": 11,
+          "note": "The visible ר before Cooke's bracketed damaged run is faint."
+        },
+        {
+          "lines": [
+            13,
+            14
+          ],
+          "note": "Isolated visible consonants and every printed damage point are retained without completion."
+        }
+      ]
+    },
+    {
+      "line_count_a": 8,
+      "line_count_b": 8,
+      "notation_loci_differing": 0,
+      "notation_loci_total": 0,
+      "notation_observations": [],
+      "reading_character_count_a": 300,
+      "reading_character_count_b": 300,
+      "reading_differences": [
+        {
+          "a_end": 209,
+          "a_start": 207,
+          "a_text": "י ",
+          "b_end": 207,
+          "b_start": 207,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 234,
+          "a_start": 234,
+          "a_text": "",
+          "b_end": 233,
+          "b_start": 232,
+          "b_text": "\n",
+          "operation": "insert"
+        },
+        {
+          "a_end": 236,
+          "a_start": 235,
+          "a_text": "\n",
+          "b_end": 235,
+          "b_start": 234,
+          "b_text": " ",
+          "operation": "replace"
+        },
+        {
+          "a_end": 284,
+          "a_start": 284,
+          "a_text": "",
+          "b_end": 284,
+          "b_start": 283,
+          "b_text": "ש",
+          "operation": "insert"
+        }
+      ],
+      "reading_disagreement_rate": 0.016666666666666666,
+      "reading_exact_match": false,
+      "reading_levenshtein_distance": 5,
+      "record_id": 4,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [
+        {
+          "line": 5,
+          "note": "The middle consonants of this phrase are close in form in the printed type.",
+          "reading": "מנם משד"
+        }
+      ],
+      "uncertain_b": [
+        {
+          "line": 7,
+          "note": "The bracketed ך is printed by Cooke and retained."
+        }
+      ]
+    },
+    {
+      "line_count_a": 22,
+      "line_count_b": 22,
+      "notation_loci_differing": 1,
+      "notation_loci_total": 1,
+      "notation_observations": [
+        {
+          "line": 1,
+          "locus": "5:1:14",
+          "notation_differs": true,
+          "observed_rendering_a": "horizontal bar, space, four vertical strokes",
+          "observed_rendering_b": "horizontal bar immediately followed by four vertical strokes",
+          "record_id": 5,
+          "value": "14"
+        }
+      ],
+      "reading_character_count_a": 1310,
+      "reading_character_count_b": 1313,
+      "reading_differences": [
+        {
+          "a_end": 29,
+          "a_start": 28,
+          "a_text": "ו",
+          "b_end": 28,
+          "b_start": 28,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 109,
+          "a_start": 109,
+          "a_text": "",
+          "b_end": 109,
+          "b_start": 108,
+          "b_text": "ז",
+          "operation": "insert"
+        },
+        {
+          "a_end": 128,
+          "a_start": 128,
+          "a_text": "",
+          "b_end": 129,
+          "b_start": 128,
+          "b_text": "מ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 132,
+          "a_start": 131,
+          "a_text": "ד",
+          "b_end": 133,
+          "b_start": 132,
+          "b_text": "ו",
+          "operation": "replace"
+        },
+        {
+          "a_end": 138,
+          "a_start": 137,
+          "a_text": "ו",
+          "b_end": 138,
+          "b_start": 138,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 175,
+          "a_start": 175,
+          "a_text": "",
+          "b_end": 176,
+          "b_start": 175,
+          "b_text": "ו",
+          "operation": "insert"
+        },
+        {
+          "a_end": 224,
+          "a_start": 224,
+          "a_text": "",
+          "b_end": 226,
+          "b_start": 225,
+          "b_text": "י",
+          "operation": "insert"
+        },
+        {
+          "a_end": 242,
+          "a_start": 242,
+          "a_text": "",
+          "b_end": 246,
+          "b_start": 244,
+          "b_text": "כ ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 249,
+          "a_start": 249,
+          "a_text": "",
+          "b_end": 256,
+          "b_start": 253,
+          "b_text": "ן מ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 334,
+          "a_start": 333,
+          "a_text": "נ",
+          "b_end": 342,
+          "b_start": 340,
+          "b_text": "בר",
+          "operation": "replace"
+        },
+        {
+          "a_end": 416,
+          "a_start": 416,
+          "a_text": "",
+          "b_end": 425,
+          "b_start": 424,
+          "b_text": "ו",
+          "operation": "insert"
+        },
+        {
+          "a_end": 428,
+          "a_start": 427,
+          "a_text": "מ",
+          "b_end": 437,
+          "b_start": 436,
+          "b_text": "ם",
+          "operation": "replace"
+        },
+        {
+          "a_end": 466,
+          "a_start": 465,
+          "a_text": "מ",
+          "b_end": 476,
+          "b_start": 474,
+          "b_text": "הם",
+          "operation": "replace"
+        },
+        {
+          "a_end": 484,
+          "a_start": 482,
+          "a_text": "תנ",
+          "b_end": 495,
+          "b_start": 492,
+          "b_text": "סגר",
+          "operation": "replace"
+        },
+        {
+          "a_end": 491,
+          "a_start": 490,
+          "a_text": "ה",
+          "b_end": 501,
+          "b_start": 501,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 520,
+          "a_start": 519,
+          "a_text": "נ",
+          "b_end": 529,
+          "b_start": 529,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 565,
+          "a_start": 565,
+          "a_text": "",
+          "b_end": 575,
+          "b_start": 574,
+          "b_text": "י",
+          "operation": "insert"
+        },
+        {
+          "a_end": 603,
+          "a_start": 601,
+          "a_text": "כת",
+          "b_end": 612,
+          "b_start": 611,
+          "b_text": "ך",
+          "operation": "replace"
+        },
+        {
+          "a_end": 627,
+          "a_start": 626,
+          "a_text": "מ",
+          "b_end": 636,
+          "b_start": 635,
+          "b_text": "ם",
+          "operation": "replace"
+        },
+        {
+          "a_end": 636,
+          "a_start": 635,
+          "a_text": "ן",
+          "b_end": 644,
+          "b_start": 644,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 677,
+          "a_start": 677,
+          "a_text": "",
+          "b_end": 686,
+          "b_start": 685,
+          "b_text": "ז",
+          "operation": "insert"
+        },
+        {
+          "a_end": 697,
+          "a_start": 697,
+          "a_text": "",
+          "b_end": 707,
+          "b_start": 706,
+          "b_text": "מ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 701,
+          "a_start": 700,
+          "a_text": "ד",
+          "b_end": 711,
+          "b_start": 710,
+          "b_text": "ו",
+          "operation": "replace"
+        },
+        {
+          "a_end": 707,
+          "a_start": 706,
+          "a_text": "ו",
+          "b_end": 716,
+          "b_start": 716,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 771,
+          "a_start": 768,
+          "a_text": "בן ",
+          "b_end": 777,
+          "b_start": 777,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 800,
+          "a_start": 799,
+          "a_text": "ע",
+          "b_end": 806,
+          "b_start": 805,
+          "b_text": "א",
+          "operation": "replace"
+        },
+        {
+          "a_end": 821,
+          "a_start": 819,
+          "a_text": "נו",
+          "b_end": 826,
+          "b_start": 825,
+          "b_text": "ן",
+          "operation": "replace"
+        },
+        {
+          "a_end": 854,
+          "a_start": 853,
+          "a_text": "ם",
+          "b_end": 859,
+          "b_start": 858,
+          "b_text": "ש",
+          "operation": "replace"
+        },
+        {
+          "a_end": 916,
+          "a_start": 916,
+          "a_text": "",
+          "b_end": 922,
+          "b_start": 921,
+          "b_text": "מ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 946,
+          "a_start": 946,
+          "a_text": "",
+          "b_end": 955,
+          "b_start": 952,
+          "b_text": "שד ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 955,
+          "a_start": 955,
+          "a_text": "",
+          "b_end": 965,
+          "b_start": 964,
+          "b_text": "ל",
+          "operation": "insert"
+        },
+        {
+          "a_end": 969,
+          "a_start": 969,
+          "a_text": "",
+          "b_end": 980,
+          "b_start": 979,
+          "b_text": "מ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 996,
+          "a_start": 995,
+          "a_text": "ן",
+          "b_end": 1007,
+          "b_start": 1006,
+          "b_text": "ם",
+          "operation": "replace"
+        },
+        {
+          "a_end": 1045,
+          "a_start": 1044,
+          "a_text": "ת",
+          "b_end": 1056,
+          "b_start": 1055,
+          "b_text": "ו",
+          "operation": "replace"
+        },
+        {
+          "a_end": 1048,
+          "a_start": 1047,
+          "a_text": "ר",
+          "b_end": 1058,
+          "b_start": 1058,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 1054,
+          "a_start": 1054,
+          "a_text": "",
+          "b_end": 1065,
+          "b_start": 1064,
+          "b_text": "נ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 1066,
+          "a_start": 1065,
+          "a_text": "ו",
+          "b_end": 1076,
+          "b_start": 1076,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 1067,
+          "a_start": 1067,
+          "a_text": "",
+          "b_end": 1078,
+          "b_start": 1077,
+          "b_text": "י",
+          "operation": "insert"
+        },
+        {
+          "a_end": 1099,
+          "a_start": 1098,
+          "a_text": "ד",
+          "b_end": 1110,
+          "b_start": 1109,
+          "b_text": "ר",
+          "operation": "replace"
+        },
+        {
+          "a_end": 1128,
+          "a_start": 1127,
+          "a_text": "נ",
+          "b_end": 1138,
+          "b_start": 1138,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 1149,
+          "a_start": 1143,
+          "a_text": "בננם ל",
+          "b_end": 1153,
+          "b_start": 1153,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 1154,
+          "a_start": 1153,
+          "a_text": "[",
+          "b_end": 1157,
+          "b_start": 1157,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 1156,
+          "a_start": 1156,
+          "a_text": "",
+          "b_end": 1160,
+          "b_start": 1159,
+          "b_text": "[",
+          "operation": "insert"
+        },
+        {
+          "a_end": 1252,
+          "a_start": 1251,
+          "a_text": "מ",
+          "b_end": 1256,
+          "b_start": 1255,
+          "b_text": "ס",
+          "operation": "replace"
+        },
+        {
+          "a_end": 1257,
+          "a_start": 1257,
+          "a_text": "",
+          "b_end": 1262,
+          "b_start": 1261,
+          "b_text": "נ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 1277,
+          "a_start": 1276,
+          "a_text": "ע",
+          "b_end": 1281,
+          "b_start": 1281,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 1301,
+          "a_start": 1300,
+          "a_text": "ה",
+          "b_end": 1304,
+          "b_start": 1304,
+          "b_text": "",
+          "operation": "delete"
+        }
+      ],
+      "reading_disagreement_rate": 0.04950495049504951,
+      "reading_exact_match": false,
+      "reading_levenshtein_distance": 65,
+      "record_id": 5,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [
+        {
+          "line": 1,
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention.",
+          "reading": "[14]"
+        },
+        {
+          "line": 6,
+          "note": "The first consonant and the final one-letter word are visually difficult.",
+          "reading": "סן ... כ"
+        },
+        {
+          "line": 15,
+          "note": "The short word before בנן is visually close to אם in the printed line.",
+          "reading": "אם בנן"
+        },
+        {
+          "line": 17,
+          "note": "The suffix and word boundary are faint.",
+          "reading": "וישבני שמאדרם"
+        },
+        {
+          "line": 19,
+          "note": "Several medial consonants are difficult to distinguish.",
+          "reading": "למדת עצמת"
+        }
+      ],
+      "uncertain_b": [
+        {
+          "line": 1,
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention."
+        },
+        {
+          "line": 6,
+          "note": "Cooke's numbered line is typographically wrapped; its continuation is joined within this line entry."
+        },
+        {
+          "line": 16,
+          "note": "Cooke's bracketed בת עשתרת is retained; שממאדרם is visually crowded."
+        },
+        {
+          "line": 17,
+          "note": "The restored ב in [ב]שד is printed; the following phrase is visually crowded."
+        }
+      ]
+    },
+    {
+      "line_count_a": 5,
+      "line_count_b": 5,
+      "notation_loci_differing": 0,
+      "notation_loci_total": 0,
+      "notation_observations": [],
+      "reading_character_count_a": 100,
+      "reading_character_count_b": 97,
+      "reading_differences": [
+        {
+          "a_end": 19,
+          "a_start": 19,
+          "a_text": "",
+          "b_end": 20,
+          "b_start": 19,
+          "b_text": "[",
+          "operation": "insert"
+        },
+        {
+          "a_end": 22,
+          "a_start": 20,
+          "a_text": "[ו",
+          "b_end": 21,
+          "b_start": 21,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 32,
+          "a_start": 31,
+          "a_text": "ד",
+          "b_end": 30,
+          "b_start": 30,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 54,
+          "a_start": 53,
+          "a_text": "ד",
+          "b_end": 51,
+          "b_start": 51,
+          "b_text": "",
+          "operation": "delete"
+        }
+      ],
+      "reading_disagreement_rate": 0.04,
+      "reading_exact_match": false,
+      "reading_levenshtein_distance": 4,
+      "record_id": 6,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [
+        {
+          "line": 1,
+          "note": "Bracket placement is copied from the print; the adjacent consonants remain uncertain.",
+          "reading": "מפ[ע] ... מלכ[ו]"
+        },
+        {
+          "line": 4,
+          "note": "The final bracketed consonant and the preceding word are visually uncertain.",
+          "reading": "שרן אר[ץ]"
+        },
+        {
+          "line": 5,
+          "note": "Both bracketed consonants are retained exactly as printed.",
+          "reading": "[ז] ל[א]לי"
+        }
+      ],
+      "uncertain_b": [
+        {
+          "line": 1,
+          "note": "The period before מפ[ע] and both printed restorations are retained."
+        },
+        {
+          "line": 4,
+          "note": "Cooke prints the final ץ of אר[ץ] in brackets."
+        },
+        {
+          "line": 5,
+          "note": "Both bracketed restorations are printed by Cooke."
+        }
+      ]
+    },
+    {
+      "line_count_a": 2,
+      "line_count_b": 2,
+      "notation_loci_differing": 0,
+      "notation_loci_total": 0,
+      "notation_observations": [],
+      "reading_character_count_a": 68,
+      "reading_character_count_b": 68,
+      "reading_differences": [],
+      "reading_disagreement_rate": 0.0,
+      "reading_exact_match": true,
+      "reading_levenshtein_distance": 0,
+      "record_id": 7,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [],
+      "uncertain_b": []
+    },
+    {
+      "line_count_a": 9,
+      "line_count_b": 9,
+      "notation_loci_differing": 1,
+      "notation_loci_total": 1,
+      "notation_observations": [
+        {
+          "line": 2,
+          "locus": "8:2:1070",
+          "notation_differs": true,
+          "observed_rendering_a": "plus sign, three carets, horizontal bar",
+          "observed_rendering_b": "bracketed value",
+          "record_id": 8,
+          "value": "1070"
+        }
+      ],
+      "reading_character_count_a": 274,
+      "reading_character_count_b": 278,
+      "reading_differences": [
+        {
+          "a_end": 0,
+          "a_start": 0,
+          "a_text": "",
+          "b_end": 1,
+          "b_start": 0,
+          "b_text": ".",
+          "operation": "insert"
+        },
+        {
+          "a_end": 5,
+          "a_start": 4,
+          "a_text": "ד",
+          "b_end": 6,
+          "b_start": 5,
+          "b_text": "ר",
+          "operation": "replace"
+        },
+        {
+          "a_end": 12,
+          "a_start": 12,
+          "a_text": "",
+          "b_end": 14,
+          "b_start": 13,
+          "b_text": "̇",
+          "operation": "insert"
+        },
+        {
+          "a_end": 13,
+          "a_start": 13,
+          "a_text": "",
+          "b_end": 16,
+          "b_start": 15,
+          "b_text": "̇",
+          "operation": "insert"
+        },
+        {
+          "a_end": 18,
+          "a_start": 18,
+          "a_text": "",
+          "b_end": 22,
+          "b_start": 21,
+          "b_text": "̇",
+          "operation": "insert"
+        },
+        {
+          "a_end": 21,
+          "a_start": 20,
+          "a_text": "י",
+          "b_end": 25,
+          "b_start": 24,
+          "b_text": "ר",
+          "operation": "replace"
+        },
+        {
+          "a_end": 23,
+          "a_start": 22,
+          "a_text": " ",
+          "b_end": 27,
+          "b_start": 26,
+          "b_text": ".",
+          "operation": "replace"
+        },
+        {
+          "a_end": 40,
+          "a_start": 39,
+          "a_text": "̇",
+          "b_end": 43,
+          "b_start": 43,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 43,
+          "a_start": 42,
+          "a_text": "̇",
+          "b_end": 45,
+          "b_start": 45,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 46,
+          "a_start": 45,
+          "a_text": "̇",
+          "b_end": 47,
+          "b_start": 47,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 48,
+          "a_start": 47,
+          "a_text": "̇",
+          "b_end": 48,
+          "b_start": 48,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 54,
+          "a_start": 53,
+          "a_text": "̇",
+          "b_end": 53,
+          "b_start": 53,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 72,
+          "a_start": 71,
+          "a_text": "̇",
+          "b_end": 70,
+          "b_start": 70,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 74,
+          "a_start": 73,
+          "a_text": "̇",
+          "b_end": 71,
+          "b_start": 71,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 79,
+          "a_start": 78,
+          "a_text": "̇",
+          "b_end": 75,
+          "b_start": 75,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 124,
+          "a_start": 123,
+          "a_text": "]",
+          "b_end": 119,
+          "b_start": 119,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 126,
+          "a_start": 126,
+          "a_text": "",
+          "b_end": 122,
+          "b_start": 121,
+          "b_text": "]",
+          "operation": "insert"
+        },
+        {
+          "a_end": 132,
+          "a_start": 131,
+          "a_text": "ר",
+          "b_end": 128,
+          "b_start": 127,
+          "b_text": "ד",
+          "operation": "replace"
+        },
+        {
+          "a_end": 159,
+          "a_start": 159,
+          "a_text": "",
+          "b_end": 156,
+          "b_start": 155,
+          "b_text": "ט",
+          "operation": "insert"
+        },
+        {
+          "a_end": 161,
+          "a_start": 160,
+          "a_text": "ט",
+          "b_end": 157,
+          "b_start": 157,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 191,
+          "a_start": 191,
+          "a_text": "",
+          "b_end": 188,
+          "b_start": 187,
+          "b_text": ".",
+          "operation": "insert"
+        },
+        {
+          "a_end": 193,
+          "a_start": 192,
+          "a_text": "ת",
+          "b_end": 190,
+          "b_start": 189,
+          "b_text": "ח",
+          "operation": "replace"
+        },
+        {
+          "a_end": 235,
+          "a_start": 234,
+          "a_text": "ר",
+          "b_end": 232,
+          "b_start": 231,
+          "b_text": "ד",
+          "operation": "replace"
+        },
+        {
+          "a_end": 246,
+          "a_start": 246,
+          "a_text": "",
+          "b_end": 244,
+          "b_start": 243,
+          "b_text": "̇",
+          "operation": "insert"
+        },
+        {
+          "a_end": 247,
+          "a_start": 247,
+          "a_text": "",
+          "b_end": 246,
+          "b_start": 245,
+          "b_text": "̇",
+          "operation": "insert"
+        },
+        {
+          "a_end": 249,
+          "a_start": 248,
+          "a_text": " ",
+          "b_end": 249,
+          "b_start": 247,
+          "b_text": "̇.",
+          "operation": "replace"
+        },
+        {
+          "a_end": 262,
+          "a_start": 261,
+          "a_text": " ",
+          "b_end": 261,
+          "b_start": 261,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 264,
+          "a_start": 264,
+          "a_text": "",
+          "b_end": 274,
+          "b_start": 263,
+          "b_text": "̇ב̇ד̇ב̇ע̇ל̇",
+          "operation": "insert"
+        },
+        {
+          "a_end": 271,
+          "a_start": 265,
+          "a_text": "ברבעל ",
+          "b_end": 275,
+          "b_start": 275,
+          "b_text": "",
+          "operation": "delete"
+        }
+      ],
+      "reading_disagreement_rate": 0.12949640287769784,
+      "reading_exact_match": false,
+      "reading_levenshtein_distance": 36,
+      "record_id": 8,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [
+        {
+          "line": 1,
+          "note": "The dotted consonants and the four-letter group are highly uncertain; dots above letters are U+0307.",
+          "reading": "דת עלת שמא̇ל̇קצ̇י̇"
+        },
+        {
+          "line": 2,
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention.",
+          "reading": "[1070]"
+        },
+        {
+          "line": 2,
+          "note": "Points printed above consonants are encoded with U+0307; several readings remain doubtful.",
+          "reading": "בא̇בן̇ צ̇ר̇ ... צ̇ר̇ משנ̇"
+        },
+        {
+          "line": 7,
+          "note": "Both three-point damage runs are retained; the visible consonants are uncertain.",
+          "reading": "... דל ... ד"
+        },
+        {
+          "line": 8,
+          "note": "The line contains a three-point run and a five-point run, copied separately.",
+          "reading": "... צאת ..... בן"
+        },
+        {
+          "line": 9,
+          "note": "The line begins and ends with separate three-point damage runs.",
+          "reading": "... [ע]ברבעל ..."
+        }
+      ],
+      "uncertain_b": [
+        {
+          "line": 1,
+          "note": "Cooke's dotted reading is encoded with U+0307; all adjacent damage periods are retained separately."
+        },
+        {
+          "line": 2,
+          "note": "Cooke's four printed numeral signs are encoded by their interpreted total [1070]; the first sign differs graphically from the following three."
+        },
+        {
+          "lines": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "note": "The inscription is fragmentary; bracketed, dotted, and isolated visible consonants are retained without completion."
+        }
+      ]
+    },
+    {
+      "line_count_a": 8,
+      "line_count_b": 8,
+      "notation_loci_differing": 1,
+      "notation_loci_total": 2,
+      "notation_observations": [
+        {
+          "line": "4-5",
+          "locus": "9:4-5:180",
+          "notation_differs": false,
+          "observed_rendering_a": "split bracketed value tokens",
+          "observed_rendering_b": "split bracketed value tokens",
+          "record_id": 9,
+          "value": "180"
+        },
+        {
+          "line": 5,
+          "locus": "9:5:143",
+          "notation_differs": true,
+          "observed_rendering_a": "three Z-shaped signs, space, three vertical strokes",
+          "observed_rendering_b": "bracketed value",
+          "record_id": 9,
+          "value": "143"
+        }
+      ],
+      "reading_character_count_a": 209,
+      "reading_character_count_b": 208,
+      "reading_differences": [
+        {
+          "a_end": 61,
+          "a_start": 60,
+          "a_text": "ג",
+          "b_end": 61,
+          "b_start": 60,
+          "b_text": "ך",
+          "operation": "replace"
+        },
+        {
+          "a_end": 148,
+          "a_start": 147,
+          "a_text": "נ",
+          "b_end": 147,
+          "b_start": 147,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 167,
+          "a_start": 166,
+          "a_text": "ס",
+          "b_end": 166,
+          "b_start": 165,
+          "b_text": "ז",
+          "operation": "replace"
+        }
+      ],
+      "reading_disagreement_rate": 0.014354066985645933,
+      "reading_exact_match": false,
+      "reading_levenshtein_distance": 3,
+      "record_id": 9,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [
+        {
+          "line": 1,
+          "note": "The bracketed opening is copied as printed.",
+          "reading": "[לאדן]"
+        },
+        {
+          "line": 3,
+          "note": "The final consonant is visually uncertain.",
+          "reading": "לאדך"
+        },
+        {
+          "line": 4,
+          "note": "Several word divisions and consonants in the damaged line are uncertain.",
+          "reading": "אשל פעלת בתכלתי בנתי"
+        },
+        {
+          "line": 5,
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention.",
+          "reading": "[143]"
+        }
+      ],
+      "uncertain_b": [
+        {
+          "lines": [
+            4,
+            5
+          ],
+          "note": "The five-sign group for 180 is split exactly across Cooke's printed lines as 2/5 then 3/5."
+        },
+        {
+          "line": 5,
+          "note": "The complete second numeral group is encoded by its value [143]."
+        }
+      ]
+    },
+    {
+      "line_count_a": 11,
+      "line_count_b": 11,
+      "notation_loci_differing": 1,
+      "notation_loci_total": 1,
+      "notation_observations": [
+        {
+          "line": 5,
+          "locus": "10:5:50",
+          "notation_differs": true,
+          "observed_rendering_a": "N-shaped sign, two groups of three vertical strokes",
+          "observed_rendering_b": "bracketed value",
+          "record_id": 10,
+          "value": "50"
+        }
+      ],
+      "reading_character_count_a": 234,
+      "reading_character_count_b": 237,
+      "reading_differences": [
+        {
+          "a_end": 44,
+          "a_start": 43,
+          "a_text": "כ",
+          "b_end": 43,
+          "b_start": 43,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 147,
+          "a_start": 147,
+          "a_text": "",
+          "b_end": 147,
+          "b_start": 146,
+          "b_text": "[",
+          "operation": "insert"
+        },
+        {
+          "a_end": 150,
+          "a_start": 148,
+          "a_text": "[ח",
+          "b_end": 150,
+          "b_start": 148,
+          "b_text": "רץ",
+          "operation": "replace"
+        },
+        {
+          "a_end": 195,
+          "a_start": 195,
+          "a_text": "",
+          "b_end": 196,
+          "b_start": 195,
+          "b_text": " ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 199,
+          "a_start": 199,
+          "a_text": "",
+          "b_end": 201,
+          "b_start": 200,
+          "b_text": ".",
+          "operation": "insert"
+        },
+        {
+          "a_end": 214,
+          "a_start": 213,
+          "a_text": "ב",
+          "b_end": 216,
+          "b_start": 215,
+          "b_text": "כ",
+          "operation": "replace"
+        },
+        {
+          "a_end": 218,
+          "a_start": 217,
+          "a_text": "מ",
+          "b_end": 220,
+          "b_start": 219,
+          "b_text": "ם",
+          "operation": "replace"
+        },
+        {
+          "a_end": 230,
+          "a_start": 229,
+          "a_text": ".",
+          "b_end": 231,
+          "b_start": 231,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 234,
+          "a_start": 234,
+          "a_text": "",
+          "b_end": 237,
+          "b_start": 235,
+          "b_text": " .",
+          "operation": "insert"
+        }
+      ],
+      "reading_disagreement_rate": 0.046413502109704644,
+      "reading_exact_match": false,
+      "reading_levenshtein_distance": 11,
+      "record_id": 10,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [
+        {
+          "line": 1,
+          "note": "The last two consonants are the beginning of a word divided at the line boundary.",
+          "reading": "וצ"
+        },
+        {
+          "line": 2,
+          "note": "The first word continues the divided word from line 1; the initial consonant is visually uncertain.",
+          "reading": "פלי"
+        },
+        {
+          "line": 5,
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention.",
+          "reading": "[50]"
+        },
+        {
+          "line": 7,
+          "note": "The middle consonants are difficult to distinguish.",
+          "reading": "וארסנאם"
+        },
+        {
+          "line": 9,
+          "note": "The three terminal damage points are retained.",
+          "reading": "כמאש בן אית כל אחרי..."
+        },
+        {
+          "line": 10,
+          "note": "The line begins with two points and ends with three points; visible consonants are uncertain.",
+          "reading": ".. ם אש בארץ לבן למ ל..."
+        },
+        {
+          "line": 11,
+          "note": "Six initial damage points are retained.",
+          "reading": "...... עלם"
+        }
+      ],
+      "uncertain_b": [
+        {
+          "line": 5,
+          "note": "Cooke's numeral-sign group is encoded by its value [50]."
+        },
+        {
+          "lines": [
+            9,
+            10,
+            11
+          ],
+          "note": "Every printed damage period is retained; no word is completed across the damaged runs."
+        }
+      ]
+    },
+    {
+      "line_count_a": 4,
+      "line_count_b": 4,
+      "notation_loci_differing": 0,
+      "notation_loci_total": 0,
+      "notation_observations": [],
+      "reading_character_count_a": 115,
+      "reading_character_count_b": 119,
+      "reading_differences": [
+        {
+          "a_end": 5,
+          "a_start": 4,
+          "a_text": "ו",
+          "b_end": 6,
+          "b_start": 4,
+          "b_text": "..",
+          "operation": "replace"
+        },
+        {
+          "a_end": 22,
+          "a_start": 21,
+          "a_text": "י",
+          "b_end": 22,
+          "b_start": 22,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 38,
+          "a_start": 37,
+          "a_text": "י",
+          "b_end": 38,
+          "b_start": 37,
+          "b_text": "ש",
+          "operation": "replace"
+        },
+        {
+          "a_end": 60,
+          "a_start": 59,
+          "a_text": "′",
+          "b_end": 59,
+          "b_start": 59,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 74,
+          "a_start": 74,
+          "a_text": "",
+          "b_end": 74,
+          "b_start": 73,
+          "b_text": " ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 83,
+          "a_start": 83,
+          "a_text": "",
+          "b_end": 85,
+          "b_start": 83,
+          "b_text": ". ",
+          "operation": "insert"
+        },
+        {
+          "a_end": 101,
+          "a_start": 101,
+          "a_text": "",
+          "b_end": 104,
+          "b_start": 103,
+          "b_text": "[",
+          "operation": "insert"
+        },
+        {
+          "a_end": 105,
+          "a_start": 105,
+          "a_text": "",
+          "b_end": 109,
+          "b_start": 108,
+          "b_text": "]",
+          "operation": "insert"
+        }
+      ],
+      "reading_disagreement_rate": 0.08403361344537816,
+      "reading_exact_match": false,
+      "reading_levenshtein_distance": 10,
+      "record_id": 11,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [
+        {
+          "line": "a",
+          "note": "One printed point precedes the visible consonant.",
+          "reading": ".ו"
+        },
+        {
+          "line": "a′",
+          "note": "The fragment ends with three printed damage points.",
+          "reading": "בראשת נחשת ח..."
+        },
+        {
+          "line": "b",
+          "note": "Two printed damage points precede the two visible consonants.",
+          "reading": "..טב"
+        }
+      ],
+      "uncertain_b": [
+        {
+          "lines": [
+            1,
+            2,
+            3
+          ],
+          "note": "Fragment labels and every printed damage period are retained; the missing personal names are not supplied."
+        },
+        {
+          "line": 4,
+          "note": "Cooke's brackets around לבעל are retained."
+        }
+      ]
+    },
+    {
+      "line_count_a": 4,
+      "line_count_b": 4,
+      "notation_loci_differing": 3,
+      "notation_loci_total": 3,
+      "notation_observations": [
+        {
+          "line": 1,
+          "locus": "12:1:6",
+          "notation_differs": true,
+          "observed_rendering_a": "two groups of three vertical strokes",
+          "observed_rendering_b": "bracketed value",
+          "record_id": 12,
+          "value": "6"
+        },
+        {
+          "line": 1,
+          "locus": "12:1:21",
+          "notation_differs": true,
+          "observed_rendering_a": "two letter-like signs",
+          "observed_rendering_b": "bracketed value",
+          "record_id": 12,
+          "value": "21"
+        },
+        {
+          "line": 3,
+          "locus": "12:3:2",
+          "notation_differs": true,
+          "observed_rendering_a": "two vertical strokes",
+          "observed_rendering_b": "bracketed value",
+          "record_id": 12,
+          "value": "2"
+        }
+      ],
+      "reading_character_count_a": 175,
+      "reading_character_count_b": 170,
+      "reading_differences": [
+        {
+          "a_end": 31,
+          "a_start": 30,
+          "a_text": "[",
+          "b_end": 30,
+          "b_start": 30,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 33,
+          "a_start": 32,
+          "a_text": "]",
+          "b_end": 31,
+          "b_start": 31,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 36,
+          "a_start": 36,
+          "a_text": "",
+          "b_end": 35,
+          "b_start": 34,
+          "b_text": "י",
+          "operation": "insert"
+        },
+        {
+          "a_end": 45,
+          "a_start": 44,
+          "a_text": "ב",
+          "b_end": 44,
+          "b_start": 43,
+          "b_text": "כ",
+          "operation": "replace"
+        },
+        {
+          "a_end": 46,
+          "a_start": 46,
+          "a_text": "",
+          "b_end": 46,
+          "b_start": 45,
+          "b_text": "[",
+          "operation": "insert"
+        },
+        {
+          "a_end": 50,
+          "a_start": 47,
+          "a_text": " ו[",
+          "b_end": 48,
+          "b_start": 47,
+          "b_text": "]",
+          "operation": "replace"
+        },
+        {
+          "a_end": 54,
+          "a_start": 53,
+          "a_text": "י",
+          "b_end": 51,
+          "b_start": 51,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 60,
+          "a_start": 59,
+          "a_text": "ש",
+          "b_end": 56,
+          "b_start": 56,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 81,
+          "a_start": 80,
+          "a_text": "ב",
+          "b_end": 77,
+          "b_start": 76,
+          "b_text": "כ",
+          "operation": "replace"
+        },
+        {
+          "a_end": 88,
+          "a_start": 87,
+          "a_text": "י",
+          "b_end": 83,
+          "b_start": 83,
+          "b_text": "",
+          "operation": "delete"
+        },
+        {
+          "a_end": 98,
+          "a_start": 97,
+          "a_text": "ו",
+          "b_end": 93,
+          "b_start": 92,
+          "b_text": "ן",
+          "operation": "replace"
+        },
+        {
+          "a_end": 102,
+          "a_start": 102,
+          "a_text": "",
+          "b_end": 98,
+          "b_start": 97,
+          "b_text": "ו",
+          "operation": "insert"
+        },
+        {
+          "a_end": 104,
+          "a_start": 103,
+          "a_text": "ו",
+          "b_end": 99,
+          "b_start": 99,
+          "b_text": "",
+          "operation": "delete"
+        }
+      ],
+      "reading_disagreement_rate": 0.08571428571428572,
+      "reading_exact_match": false,
+      "reading_levenshtein_distance": 15,
+      "record_id": 12,
+      "source_pages_a": [],
+      "source_pages_b": [],
+      "uncertain_a": [
+        {
+          "line": 1,
+          "note": "The printed day group is encoded by Cooke's stated value under the shared convention.",
+          "reading": "[6]"
+        },
+        {
+          "line": 1,
+          "note": "The regnal-year signs are encoded by Cooke's stated value; the unmatched printed bracket is retained.",
+          "reading": "בשנת [21] ... בתי ו["
+        },
+        {
+          "line": 2,
+          "note": "The bracketed final consonant and preceding word are visually uncertain.",
+          "reading": "מזבח א[ו]"
+        },
+        {
+          "line": 3,
+          "note": "The printed pair is encoded by Cooke's stated value under the shared convention.",
+          "reading": "אשנם [2]"
+        }
+      ],
+      "uncertain_b": [
+        {
+          "line": 1,
+          "note": "Cooke's day and regnal-year numeral groups are encoded by their values [6] and [21]; the printed restoration in כת[י] is retained."
+        },
+        {
+          "line": 2,
+          "note": "Cooke's final bracketed consonant in א[ן] is retained."
+        },
+        {
+          "lines": [
+            3,
+            4
+          ],
+          "note": "The personal name ending יכנש|לם is left split exactly across Cooke's printed line boundary."
+        }
+      ]
+    }
+  ],
+  "retired_legacy_mixed_metric": {
+    "characters_compared": 3534,
+    "disagreement_rate": 0.066214,
+    "levenshtein_distance_total": 234,
+    "reason": "The historical number mixed reading differences with different numeral conventions. It remains an audit fact but is not a current batch metric.",
+    "status": "retired-mixed-reading-and-notation"
+  },
+  "schema_version": "2.0",
+  "scope": "independent diplomatic transcriptions of Cooke records 3 through 12",
+  "shared_notation_rule": "Active reading lines use one canonical bracketed Western-number notation. Original numeral renderings remain separate observations and do not inflate reading disagreement.",
+  "sources": {
+    "pass_a": {
+      "path": "04-cross-linguistic/data/cooke-1903-diplomatic-pass-a.json",
+      "sha256": "7151DAEF5FD72E2629B9DF1315CD90246E57B48CF0D83EB34FC967290077C4CA"
+    },
+    "pass_b": {
+      "path": "04-cross-linguistic/data/cooke-1903-diplomatic-pass-b.json",
+      "sha256": "06287A750BDE28E59A81D5B26BF629069B08D32124FA5AB748CCC39146610AAC"
+    }
+  },
+  "strict_character_gate": {
+    "allowed": "Hebrew block letters, combining dot above after a Hebrew letter, spaces, square brackets, Western digits, colon, slash, full stop, and declared initial fragment labels",
+    "scope": "both independent-pass reading lines before comparison",
+    "status": "enforced"
+  }
+}

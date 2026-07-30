@@ -39,6 +39,37 @@ OUTPUT = (
     / "data"
     / "cooke-1903-inscription-layer.json"
 )
+COLLATION_DIR = ROOT / "04-cross-linguistic" / "data"
+COLLATION_GLOB = "cooke-1903-visual-collation-batch-*.json"
+TRANSCRIPTION_PROTOCOL = (
+    ROOT
+    / "04-cross-linguistic"
+    / "cooke-1903-diplomatic-transcription-protocol.md"
+)
+DOUBLE_PASS_A = (
+    ROOT
+    / "04-cross-linguistic"
+    / "data"
+    / "cooke-1903-diplomatic-pass-a.json"
+)
+DOUBLE_PASS_B = (
+    ROOT
+    / "04-cross-linguistic"
+    / "data"
+    / "cooke-1903-diplomatic-pass-b.json"
+)
+DOUBLE_COMPARISON = (
+    ROOT
+    / "04-cross-linguistic"
+    / "data"
+    / "cooke-1903-double-transcription-comparison.json"
+)
+TRANSLITERATION_CONTROL = (
+    ROOT
+    / "04-cross-linguistic"
+    / "data"
+    / "cooke-1903-transliteration-control-batch-01.json"
+)
 
 PAGE_RE = re.compile(
     r"<!-- PAGE (\d+)([^>]*) -->\n(.*?)(?=<!-- PAGE |\Z)",
@@ -171,6 +202,327 @@ def sha256(path: Path) -> str:
         for block in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest().upper()
+
+
+def apply_visual_collations(
+    records: list[dict],
+    pdf_sha256: str,
+) -> list[dict]:
+    """Apply reviewed PDF-image overlays without mutating OCR candidates."""
+    by_id = {record["record_id"]: record for record in records}
+    seen_records: set[str] = set()
+    seen_batch_ids: set[str] = set()
+    batch_refs: list[dict] = []
+
+    for path in sorted(COLLATION_DIR.glob(COLLATION_GLOB)):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if payload.get("schema_version") != "1.0":
+            raise ValueError(f"unsupported visual-collation schema: {path}")
+        if payload.get("source_pdf_sha256") != pdf_sha256:
+            raise ValueError(f"Cooke PDF fingerprint mismatch: {path}")
+        batch_id = str(payload.get("batch_id") or "").strip()
+        collated_on = str(payload.get("collated_on") or "").strip()
+        transcription_policy = str(
+            payload.get("transcription_policy") or ""
+        ).strip()
+        protocol_path = str(
+            payload.get("transcription_protocol_path") or ""
+        ).strip()
+        expected_protocol_path = str(
+            TRANSCRIPTION_PROTOCOL.relative_to(ROOT)
+        ).replace("\\", "/")
+        items = payload.get("records")
+        if (
+            not batch_id
+            or batch_id in seen_batch_ids
+            or not collated_on
+            or not transcription_policy
+            or protocol_path != expected_protocol_path
+            or not TRANSCRIPTION_PROTOCOL.exists()
+            or not isinstance(items, list)
+            or not items
+        ):
+            raise ValueError(f"incomplete visual-collation header: {path}")
+        seen_batch_ids.add(batch_id)
+
+        double = payload.get("double_transcription")
+        expected_double_paths = {
+            "pass_a_path": str(DOUBLE_PASS_A.relative_to(ROOT)).replace("\\", "/"),
+            "pass_b_path": str(DOUBLE_PASS_B.relative_to(ROOT)).replace("\\", "/"),
+            "comparison_path": str(DOUBLE_COMPARISON.relative_to(ROOT)).replace(
+                "\\", "/"
+            ),
+        }
+        if not isinstance(double, dict) or any(
+            double.get(key) != expected
+            for key, expected in expected_double_paths.items()
+        ):
+            raise ValueError(f"invalid double-transcription linkage: {path}")
+        if not all(
+            source_path.exists()
+            for source_path in (DOUBLE_PASS_A, DOUBLE_PASS_B, DOUBLE_COMPARISON)
+        ):
+            raise ValueError(f"missing double-transcription source: {path}")
+        comparison = json.loads(DOUBLE_COMPARISON.read_text(encoding="utf-8"))
+        comparison_inventory = comparison.get("inventory")
+        if not isinstance(comparison_inventory, dict):
+            raise ValueError(f"invalid double-transcription inventory: {path}")
+        for key in (
+            "records_total",
+            "records_exactly_agreeing_after_shared_notation",
+            "records_requiring_visual_arbitration",
+            "reading_characters_compared",
+            "reading_levenshtein_distance_total",
+            "reading_disagreement_rate",
+            "notation_loci_total",
+            "notation_loci_differing",
+            "notation_disagreement_rate",
+        ):
+            if double.get(key) != comparison_inventory.get(key):
+                raise ValueError(
+                    f"double-transcription inventory drifted for {key}: {path}"
+                )
+        comparison_sources = comparison.get("sources", {})
+        if (
+            comparison_sources.get("pass_a", {}).get("sha256")
+            != sha256(DOUBLE_PASS_A)
+            or comparison_sources.get("pass_b", {}).get("sha256")
+            != sha256(DOUBLE_PASS_B)
+        ):
+            raise ValueError(f"double-transcription source hash drifted: {path}")
+        comparison_by_id = {
+            f"cooke1903:{item['record_id']}": item
+            for item in comparison.get("records", [])
+        }
+        transliteration_link = payload.get("transliteration_control")
+        expected_transliteration_path = str(
+            TRANSLITERATION_CONTROL.relative_to(ROOT)
+        ).replace("\\", "/")
+        if (
+            not isinstance(transliteration_link, dict)
+            or transliteration_link.get("path")
+            != expected_transliteration_path
+            or not TRANSLITERATION_CONTROL.exists()
+        ):
+            raise ValueError(f"invalid transliteration-control linkage: {path}")
+        transliteration = json.loads(
+            TRANSLITERATION_CONTROL.read_text(encoding="utf-8")
+        )
+        if (
+            transliteration.get("schema_version") != "1.0"
+            or transliteration.get("source_pdf_sha256") != pdf_sha256
+            or transliteration.get("control_id")
+            != transliteration_link.get("control_id")
+        ):
+            raise ValueError(f"invalid transliteration control: {path}")
+        transliteration_inventory = transliteration.get("inventory")
+        if not isinstance(transliteration_inventory, dict):
+            raise ValueError(f"invalid transliteration inventory: {path}")
+        for key in (
+            "records_total",
+            "records_with_same_page_checks",
+            "records_without_named_same_page_transliteration",
+            "checks_total",
+            "checks_corrected_then_consistent",
+            "unresolved_conflicts",
+        ):
+            if (
+                transliteration_link.get(key)
+                != transliteration_inventory.get(key)
+            ):
+                raise ValueError(
+                    f"transliteration-control inventory drifted for {key}: "
+                    f"{path}"
+                )
+        transliteration_by_id = {
+            item["record_id"]: item
+            for item in transliteration.get("records", [])
+        }
+
+        batch_ids: list[str] = []
+        for item in items:
+            record_id = str(item.get("record_id") or "")
+            if record_id not in by_id:
+                raise ValueError(f"unknown Cooke record in {path}: {record_id}")
+            if record_id in seen_records:
+                raise ValueError(
+                    f"Cooke record collated in more than one batch: {record_id}"
+                )
+            seen_records.add(record_id)
+            batch_ids.append(record_id)
+
+            record = by_id[record_id]
+            if item.get("source_page_pdf") != record["source_page_pdf"]:
+                raise ValueError(
+                    f"source-page mismatch for {record_id} in {path}"
+                )
+            checked_pages = item.get("source_pages_visually_checked")
+            if (
+                not isinstance(checked_pages, list)
+                or not checked_pages
+                or not all(
+                    isinstance(page, int) and page > 0
+                    for page in checked_pages
+                )
+                or record["source_page_pdf"] not in checked_pages
+            ):
+                raise ValueError(
+                    f"invalid visual page list for {record_id} in {path}"
+                )
+
+            status = item.get("status")
+            if status not in {
+                "visually-collated",
+                "visual-collation-partial",
+            }:
+                raise ValueError(
+                    f"invalid visual status for {record_id}: {status}"
+                )
+            transliteration_record = transliteration_by_id.get(record_id)
+            if not isinstance(transliteration_record, dict):
+                raise ValueError(
+                    f"missing transliteration control for {record_id}"
+                )
+            if (
+                status == "visually-collated"
+                and transliteration_record.get("status")
+                == "named-transliteration-unavailable"
+            ):
+                raise ValueError(
+                    f"record lacks named transliteration control: {record_id}"
+                )
+            text = item.get("consonantal_text_collated")
+            translation = item.get("translation_collated")
+            text_complete = item.get("text_complete")
+            translation_complete = item.get("translation_complete")
+            if not isinstance(text_complete, bool) or not isinstance(
+                translation_complete,
+                bool,
+            ):
+                raise ValueError(
+                    f"missing completion flags for {record_id} in {path}"
+                )
+            if text_complete and not str(text or "").strip():
+                raise ValueError(
+                    f"complete text is empty for {record_id} in {path}"
+                )
+            if translation_complete and not str(translation or "").strip():
+                raise ValueError(
+                    f"complete translation is empty for {record_id} in {path}"
+                )
+            if status == "visually-collated" and not (
+                text_complete and translation_complete
+            ):
+                raise ValueError(
+                    f"fully collated record is incomplete: {record_id}"
+                )
+            changes = item.get("changes")
+            method = item.get("transcription_method")
+            if not isinstance(method, str) or not method.strip():
+                raise ValueError(
+                    f"missing transcription method for {record_id} in {path}"
+                )
+            if not isinstance(changes, list) or not changes or not all(
+                isinstance(change, str) and change.strip()
+                for change in changes
+            ):
+                raise ValueError(
+                    f"invalid change log for {record_id} in {path}"
+                )
+
+            record["consonantal_text_collated"] = (
+                unicodedata.normalize("NFC", str(text))
+                if text is not None
+                else None
+            )
+            record["translation_collated"] = (
+                unicodedata.normalize("NFC", str(translation))
+                if translation is not None
+                else None
+            )
+            record["visual_collation"] = {
+                "batch_id": batch_id,
+                "batch_path": str(path.relative_to(ROOT)).replace("\\", "/"),
+                "collated_on": collated_on,
+                "source_pages_visually_checked": checked_pages,
+                "text_complete": text_complete,
+                "translation_complete": translation_complete,
+                "transcription_method": method,
+                "changes": changes,
+                "notes": item.get("notes"),
+                "double_transcription": {
+                    "reading_exact_match": comparison_by_id[record_id][
+                        "reading_exact_match"
+                    ],
+                    "reading_levenshtein_distance": comparison_by_id[record_id][
+                        "reading_levenshtein_distance"
+                    ],
+                    "reading_disagreement_rate": comparison_by_id[record_id][
+                        "reading_disagreement_rate"
+                    ],
+                    "notation_loci_total": comparison_by_id[record_id][
+                        "notation_loci_total"
+                    ],
+                    "notation_loci_differing": comparison_by_id[record_id][
+                        "notation_loci_differing"
+                    ],
+                    "visual_arbitration_required": not comparison_by_id[
+                        record_id
+                    ]["reading_exact_match"],
+                },
+                "transliteration_control": {
+                    "control_id": transliteration.get("control_id"),
+                    "control_path": expected_transliteration_path,
+                    "status": transliteration_record["status"],
+                    "checks_count": len(
+                        transliteration_record.get("checks", [])
+                    ),
+                    "blocker": transliteration_record.get("blocker"),
+                },
+            }
+            record["status"] = status
+            record["ocr_quality"][
+                "requires_pdf_visual_check_before_citation"
+            ] = status != "visually-collated"
+
+        batch_refs.append(
+            {
+                "batch_id": batch_id,
+                "path": str(path.relative_to(ROOT)).replace("\\", "/"),
+                "sha256": sha256(path),
+                "transcription_policy": transcription_policy,
+                "transcription_protocol_path": protocol_path,
+                "transcription_protocol_sha256": sha256(
+                    TRANSCRIPTION_PROTOCOL
+                ),
+                "double_transcription": {
+                    **expected_double_paths,
+                    "pass_a_sha256": sha256(DOUBLE_PASS_A),
+                    "pass_b_sha256": sha256(DOUBLE_PASS_B),
+                    "comparison_sha256": sha256(DOUBLE_COMPARISON),
+                    **comparison_inventory,
+                    "agreement_is_not_completion": bool(
+                        double.get("agreement_is_not_completion")
+                    ),
+                    "common_mode_omission_found": str(
+                        double.get("common_mode_omission_found") or ""
+                    ),
+                },
+                "transliteration_control": {
+                    "path": expected_transliteration_path,
+                    "sha256": sha256(TRANSLITERATION_CONTROL),
+                    "control_id": transliteration.get("control_id"),
+                    **transliteration_inventory,
+                    "absence_keeps_record_partial": bool(
+                        transliteration_link.get(
+                            "absence_keeps_record_partial"
+                        )
+                    ),
+                },
+                "record_ids": batch_ids,
+            }
+        )
+    return batch_refs
 
 
 def section_for(number: int, label: str) -> tuple[str, str]:
@@ -536,8 +888,10 @@ def main() -> int:
         for record_id in {record["record_id"] for record in records}
         if sum(record["record_id"] == record_id for record in records) > 1
     )
+    pdf_sha256 = sha256(PDF)
+    collation_batches = apply_visual_collations(records, pdf_sha256)
     payload = {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "generated_by": "scripts/build_cooke1903_layer.py",
         "source": {
             "citation": (
@@ -545,7 +899,7 @@ def main() -> int:
                 "Inscriptions, Oxford: Clarendon Press, 1903"
             ),
             "pdf_path": "Data raw/Cooke 1903.pdf",
-            "pdf_sha256": sha256(PDF),
+            "pdf_sha256": pdf_sha256,
             "validated_ocr_path": (
                 "Data raw/cooke1903_text/mistral_ocr/cooke1903_usable.md"
             ),
@@ -572,6 +926,7 @@ def main() -> int:
                 "والترجمة مرشحا OCR فقط، وكل سجل يراجع على صورة PDF قبل "
                 "الاستشهاد به."
             ),
+            "visual_collation_batches": collation_batches,
         },
         "inventory": {
             "record_count": len(records),
@@ -582,6 +937,14 @@ def main() -> int:
                 record["ocr_quality"][
                     "requires_pdf_visual_check_before_citation"
                 ]
+                for record in records
+            ),
+            "records_visually_collated": sum(
+                record["status"] == "visually-collated"
+                for record in records
+            ),
+            "records_with_partial_visual_collation": sum(
+                record["status"] == "visual-collation-partial"
                 for record in records
             ),
             "records_with_consonantal_candidate": sum(

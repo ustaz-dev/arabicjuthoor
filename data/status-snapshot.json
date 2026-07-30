@@ -4,14 +4,21 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 13,
-  "cards_total": 4061,
+  "cards_total": 6035,
   "by_language": [
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1809,
-    "links": 280
+    "cards": 2159,
+    "links": 370
+   },
+   {
+    "key": "hebrew",
+    "en": "Hebrew",
+    "ar": "العبريّة",
+    "cards": 1229,
+    "links": 266
    },
    {
     "key": "egyptian",
@@ -28,18 +35,46 @@
     "links": 13
    },
    {
-    "key": "hebrew",
-    "en": "Hebrew",
-    "ar": "العبريّة",
-    "cards": 406,
-    "links": 90
+    "key": "ancient-greek",
+    "en": "Ancient Greek",
+    "ar": "اليونانيّة القديمة",
+    "cards": 202,
+    "links": 8
+   },
+   {
+    "key": "gothic",
+    "en": "Gothic",
+    "ar": "القوطيّة",
+    "cards": 201,
+    "links": 9
    },
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 167,
-    "links": 8
+    "cards": 201,
+    "links": 12
+   },
+   {
+    "key": "old-norse",
+    "en": "Old Norse",
+    "ar": "النورديّة القديمة",
+    "cards": 200,
+    "links": 7
+   },
+   {
+    "key": "persian",
+    "en": "Persian",
+    "ar": "الفارسيّة",
+    "cards": 200,
+    "links": 6
+   },
+   {
+    "key": "welsh",
+    "en": "Welsh",
+    "ar": "الويلزيّة",
+    "cards": 200,
+    "links": 5
    },
    {
     "key": "phoenician-punic-scout",
@@ -56,102 +91,77 @@
     "links": 67
    },
    {
-    "key": "ancient-greek",
-    "en": "Ancient Greek",
-    "ar": "اليونانيّة القديمة",
-    "cards": 116,
-    "links": 6
-   },
-   {
-    "key": "welsh",
-    "en": "Welsh",
-    "ar": "الويلزيّة",
-    "cards": 100,
-    "links": 1
-   },
-   {
     "key": "punic",
     "en": "Punic",
     "ar": "البونيقيّة",
     "cards": 91,
     "links": 3
-   },
-   {
-    "key": "old-norse",
-    "en": "Old Norse",
-    "ar": "النورديّة القديمة",
-    "cards": 8,
-    "links": 0
-   },
-   {
-    "key": "persian",
-    "en": "Persian",
-    "ar": "الفارسيّة",
-    "cards": 8,
-    "links": 2
-   },
-   {
-    "key": "gothic",
-    "en": "Gothic",
-    "ar": "القوطيّة",
-    "cards": 4,
-    "links": 1
    }
   ]
  },
  "verdicts": {
-  "links_to_arabic": 511,
-  "closures": 380,
+  "links_to_arabic": 806,
+  "closures": 559,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 434,
+    "count": 636,
     "link": true
    },
    {
     "name": "LOANWORD",
-    "count": 135,
+    "count": 191,
     "link": false
    },
    {
     "name": "PROPER-NAME-ISOLATED",
-    "count": 108,
-    "link": false
-   },
-   {
-    "name": "NONLEXICAL-ISOLATED",
-    "count": 59,
+    "count": 114,
     "link": false
    },
    {
     "name": "ROOT-ECHO",
-    "count": 31,
+    "count": 102,
+    "link": true
+   },
+   {
+    "name": "FORM-OF-ISOLATED",
+    "count": 76,
+    "link": false
+   },
+   {
+    "name": "NONLEXICAL-ISOLATED",
+    "count": 60,
+    "link": false
+   },
+   {
+    "name": "NUCLEUS-TRACE",
+    "count": 33,
     "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 28,
+    "count": 32,
     "link": true
    },
    {
     "name": "INTRA-HOUSE-TRANSFER",
-    "count": 19,
+    "count": 27,
+    "link": false
+   },
+   {
+    "name": "FUNCTION-WORD",
+    "count": 27,
+    "link": false
+   },
+   {
+    "name": "COMPOUND-BOUNDARY",
+    "count": 27,
     "link": false
    },
    {
     "name": "NO-TRACE",
     "count": 18,
     "link": false
-   },
-   {
-    "name": "COMPOUND-BOUNDARY",
-    "count": 16,
-    "link": false
-   },
-   {
-    "name": "NUCLEUS-TRACE",
-    "count": 15,
-    "link": true
    },
    {
     "name": "PHRASE-LINK",
@@ -164,28 +174,18 @@
     "link": false
    },
    {
-    "name": "FUNCTION-WORD",
-    "count": 5,
-    "link": false
-   },
-   {
     "name": "FLOOR-TRACE",
     "count": 3,
     "link": true
    },
    {
-    "name": "FORM-OF-ISOLATED",
+    "name": "OUT-OF-SCOPE",
     "count": 2,
     "link": false
    },
    {
     "name": "CONTACT-ISOLATED",
     "count": 2,
-    "link": false
-   },
-   {
-    "name": "OUT-OF-SCOPE",
-    "count": 1,
     "link": false
    },
    {
@@ -196,21 +196,25 @@
   ]
  },
  "pipeline": {
-  "cards_total": 4063,
-  "suspended": 3137,
-  "released": 926,
+  "cards_total": 6037,
+  "suspended": 4359,
+  "released": 1678,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
-    "count": 1510
+    "count": 1958
    },
    {
     "name": "SOURCE-GAP",
-    "count": 973
+    "count": 951
+   },
+   {
+    "name": "UNLABELLED",
+    "count": 725
    },
    {
     "name": "MORPHOLOGY-GAP",
-    "count": 399
+    "count": 428
    },
    {
     "name": "TOOL-GAP",
@@ -218,83 +222,89 @@
    },
    {
     "name": "LAW-GAP",
-    "count": 95
+    "count": 137
    }
   ],
   "backlog_by_file": [
    {
     "file": "aramaic.md",
-    "count": 1326
+    "count": 1567
    },
    {
     "file": "egyptian.md",
     "count": 561
    },
    {
+    "file": "hebrew.md",
+    "count": 534
+   },
+   {
     "file": "coptic.md",
     "count": 355
    },
    {
-    "file": "hebrew.md",
-    "count": 278
+    "file": "old-norse.md",
+    "count": 191
+   },
+   {
+    "file": "gothic.md",
+    "count": 186
+   },
+   {
+    "file": "ancient-greek.md",
+    "count": 182
+   },
+   {
+    "file": "persian.md",
+    "count": 170
+   },
+   {
+    "file": "old-latin.md",
+    "count": 162
    },
    {
     "file": "phoenician-punic-scout.md",
     "count": 162
    },
    {
-    "file": "old-latin.md",
-    "count": 133
-   },
-   {
-    "file": "ancient-greek.md",
-    "count": 101
+    "file": "welsh.md",
+    "count": 131
    },
    {
     "file": "punic.md",
     "count": 88
-   },
-   {
-    "file": "akkadian.md",
-    "count": 68
-   },
-   {
-    "file": "welsh.md",
-    "count": 49
-   },
-   {
-    "file": "old-norse.md",
-    "count": 8
-   },
-   {
-    "file": "persian.md",
-    "count": 6
    }
   ]
  },
  "proof": {
   "signed": false,
+  "registration_status": "DRAFT-LOCKED",
   "frozen_commit": "",
   "required_total": 600,
   "required_per_language": 150,
-  "families_tracked": 261,
-  "eligible_now": 0,
-  "status_counts": [
+  "families_tracked": 2347,
+  "eligible_now": 254,
+  "trigger_threshold_met": false,
+  "proof_executed": false,
+  "by_language": [
    {
-    "name": "suspended",
-    "count": 261
-   }
-  ],
-  "languages_tracked": [
-   {
-    "name": "phoenician",
-    "count": 161
+    "name": "aramaic",
+    "eligible": 153,
+    "represented": 1573,
+    "positive_families": 153,
+    "closure_only_families": 0,
+    "one_member_short": 783
    },
    {
-    "name": "punic",
-    "count": 100
+    "name": "hebrew",
+    "eligible": 101,
+    "represented": 774,
+    "positive_families": 101,
+    "closure_only_families": 0,
+    "one_member_short": 364
    }
-  ]
+  ],
+  "counting_law": "A family counts only when every inventory member carries an issued verdict or recorded terminal closure."
  },
  "frozen": {
   "level_1_letter_charges": 29,

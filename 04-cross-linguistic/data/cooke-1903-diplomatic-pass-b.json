@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0",
+  "pass_id": "B",
+  "source_pages": [
+    49,
+    57,
+    61,
+    63,
+    71,
+    73,
+    75,
+    79,
+    83,
+    85
+  ],
+  "notation": {
+    "damage": "Each printed period is retained literally and in its printed run; no missing consonant is supplied.",
+    "overdot": "A printed dot above a consonant is encoded as that consonant followed by U+0307.",
+    "brackets": "Square brackets reproduce Cooke's printed brackets.",
+    "numerals": "Every complete numeral group whose value Cooke states is encoded as that Western value in square brackets. Cooke's split 180-sign group is encoded [180:2/5] at the end of its first printed line and [180:3/5] at the start of the next."
+  },
+  "notation_observations": [
+    {"locus": "5:1:14", "record_id": 5, "line": 1, "value": "14", "observed_rendering": "horizontal bar immediately followed by four vertical strokes"},
+    {"locus": "8:2:1070", "record_id": 8, "line": 2, "value": "1070", "observed_rendering": "bracketed value"},
+    {"locus": "9:4-5:180", "record_id": 9, "line": "4-5", "value": "180", "observed_rendering": "split bracketed value tokens"},
+    {"locus": "9:5:143", "record_id": 9, "line": 5, "value": "143", "observed_rendering": "bracketed value"},
+    {"locus": "10:5:50", "record_id": 10, "line": 5, "value": "50", "observed_rendering": "bracketed value"},
+    {"locus": "12:1:6", "record_id": 12, "line": 1, "value": "6", "observed_rendering": "bracketed value"},
+    {"locus": "12:1:21", "record_id": 12, "line": 1, "value": "21", "observed_rendering": "bracketed value"},
+    {"locus": "12:3:2", "record_id": 12, "line": 3, "value": "2", "observed_rendering": "bracketed value"}
+  ],
+  "records": [
+    {
+      "record_id": 3,
+      "lines": [
+        "אנך יחומלך מלך גבל בן יחרבעל בן אורמלך מלך",
+        "גבל אש פעלתן הרבת בעלת גבל לממלכת על גבל וקרא אנך",
+        "את רבתי בעלת גבל [כ שמע] קל ופעל אנך לרבתי בעלת",
+        "גבל המזבח נחשת ז אש בח[צר] ז והפתח חרץ ז אש",
+        "על פן פתחי ז והערת חרץ אש בתכת אבן אש על פתח חרץ ז",
+        "והערפת זא ועמדה וה....ם אש עלהם ומספנתה פעל אנך",
+        "יחומלך מלך גבל לרבתי בעלת גבל כמאש קראת את רבתי",
+        "בעלת גבל ושמע קל ופעל לי נעם תברך בעלת גבל את [יחומלך]",
+        "מלך גבל ותחוהו ותארך ימו ושנתו על גבל כ מלך צדק הא ותתן",
+        "[לו הרבת בעלת גבל חן לעין אלנם ולעין עם ארץ ז וחן עם הא]",
+        "ר[ץ.....] כל ממלכת וכל אדם אש יסף לפעל מלאכת עלת מן",
+        "[נח]שת ועלת פתח חרץ זן ועלת ערפת זא שם אנך יחומלך",
+        "....... פעל מלאכת הא ואם אכל תשת שם א. ך ואם ה.",
+        "...... את ה א . ו . ים ה עלת מקם ז ו..",
+        "...... הרבת בעלת גבל את האדם הא וזרעו"
+      ],
+      "uncertain": [
+        {
+          "line": 5,
+          "note": "Reading והערת follows the visible consonants; the second consonant is not fully secure."
+        },
+        {
+          "line": 11,
+          "note": "The visible ר before Cooke's bracketed damaged run is faint."
+        },
+        {
+          "lines": [
+            13,
+            14
+          ],
+          "note": "Isolated visible consonants and every printed damage point are retained without completion."
+        }
+      ]
+    },
+    {
+      "record_id": 4,
+      "lines": [
+        "אנך תבנת כהן עשתרת מלך צדנם בן",
+        "אשמנעזר כהן עשתרת מלך צדנם שכב בארן",
+        "ז מי את כל אדם אש תפק את הארן ז אל אל ת",
+        "פתח עלתי ואל תרגזן כי אלן כסף אי אלן",
+        "חרץ וכל מנם משד בלת אנך שכב בארן ז אל אל תפת",
+        "ח עלתי ואל תרגזן כתעבת עשתרת הדבר הא ואם פת",
+        "ח תפתח עלתי ורגז תרגזן אל יכן ל[ך] זרע בחים תחת שמש",
+        "ש ומשכב את רפאם"
+      ],
+      "uncertain": [
+        {
+          "line": 7,
+          "note": "The bracketed ך is printed by Cooke and retained."
+        }
+      ]
+    },
+    {
+      "record_id": 5,
+      "lines": [
+        "בירח בל בשנת עשר וארבע [14] למלכי מלך אשמנעזר מלך צדנם",
+        "בן מלך תבנת מלך צדנם דבר מלך אשמנעזר מלך צדנם לאמר נגזלת",
+        "בל עתי בן מספר ימם אורם יתם בן אלמת ושכב אנך בחלת ז ובקבר ז",
+        "במקום אש בנת קנמי את כל ממלכת וכל אדם אל יפתח את משכבי ז",
+        "אל יבקש בן מנם כ אי שם בן מנם ואל ישא אית חלת משכבי ואל יעמ",
+        "סן במשכב ז עלת משכב שני אף אם אדם ידברנך אל תשמע בדברם כ כל ממלכתו",
+        "כל אדם אש יפתח עלת משכב ז אם אש ישא אית חלת משכבי אם אש יעמסן בם",
+        "שכבו ז אל יכן לם משכב את רפאם ואל יקבר בקבר ואל יכן להם בן וזרע",
+        "תחתם ויסגרנם האלם הקדשם את ממלך אדר אש משל בם לק",
+        "צתם אית ממלכת אם אדם הא אש יפתח עלת משכבי ז ואם אש ישא אית",
+        "חלת ז ואית זרע ממלך הא אם אדם המת אל יכן לם שרש למט ו",
+        "פר למעל ותאר בחים תחת שמש כ אנך נחן נגזלת בל עתי בן מס",
+        "פר ימם אורם יתם בן אלמת אנך כ אנך אשמנעזר מלך צדנם בן",
+        "מלך תבנת מלך צדנם בן מלך אשמנעזר מלך צדנם ואמי אמאשתרת",
+        "כהנת עשתרת רבתן המלכת בת מלך אשמנעזר מלך צדנם אש בנן אית בת",
+        "אלנם אית [בת עשתרת] בצדן ארץ ים וישבן אית עשתרת שממאדרם ואנחן",
+        "אש בנן בת לאשמן [ב]שד קדש ען ידלל בהר וישבני שממאדרם ואנחן אש בנן בתם",
+        "לאלם צדנם בצדן ארץ ים בת לבעל צדן ובת לעשתרת שם בעל ועד יתן לנו אדן מלכם",
+        "אית דאר ויפי ארצת דגן האדרת אש בשר שרן למדת עצמת אש פעלת ויספנם",
+        "עלת גבל ארץ לצדם לע[לם] קנמי את כל ממלכת וכל אדם אל יפתח עלתי",
+        "ואל יער עלתי ואל יעמסן ממשכבי ואל ישא אית חלת משכבי לס יסגרנם",
+        "אלנם הקדשם אל וקצן הממלכת הא והאדם המת וזרעם לעלם"
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention."
+        },
+        {
+          "line": 6,
+          "note": "Cooke's numbered line is typographically wrapped; its continuation is joined within this line entry."
+        },
+        {
+          "line": 16,
+          "note": "Cooke's bracketed בת עשתרת is retained; שממאדרם is visually crowded."
+        },
+        {
+          "line": 17,
+          "note": "The restored ב in [ב]שד is printed; the following phrase is visually crowded."
+        }
+      ]
+    },
+    {
+      "record_id": 6,
+      "lines": [
+        "בירח . מפ[ע] בשת מל[כ]",
+        "י מלך בעשתרת מלך",
+        "צדנם כ בן בעשתרת",
+        "מלך צדנם אית שרן אר[ץ]",
+        "[ז] ל[א]לי לעשתרת"
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "note": "The period before מפ[ע] and both printed restorations are retained."
+        },
+        {
+          "line": 4,
+          "note": "Cooke prints the final ץ of אר[ץ] in brackets."
+        },
+        {
+          "line": 5,
+          "note": "Both bracketed restorations are printed by Cooke."
+        }
+      ]
+    },
+    {
+      "record_id": 7,
+      "lines": [
+        "המנחת ז אש יתן עבדמסכר רב עבר לספת",
+        "רב שני בן בעלצלח לאדני לשלמן יברך"
+      ],
+      "uncertain": []
+    },
+    {
+      "record_id": 8,
+      "lines": [
+        ".... רת עלת ש̇מ̇א̇ל̇ק̇צ̇ר̇... נפעל הסף ז",
+        "באבן צר ועוד כסף [1070] טבע צר משנ.",
+        "... נדר עבדך אדנבעל השפט בן עמלך בן",
+        ".. [השפט] בן בדמלקרת השפט בן העמלך",
+        ".. [השפט] בן עמלך פעל אית חצי הסף ז",
+        ".... ח יתן אית החצי הסף ז",
+        "... דל ... ד שפט בן בדמלקרת",
+        "... צ̇א̇ת̇...... בן",
+        "...[ע̇ב̇ד̇ב̇ע̇ל̇]..."
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "note": "Cooke's dotted reading is encoded with U+0307; all adjacent damage periods are retained separately."
+        },
+        {
+          "line": 2,
+          "note": "Cooke's four printed numeral signs are encoded by their interpreted total [1070]; the first sign differs graphically from the following three."
+        },
+        {
+          "lines": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "note": "The inscription is fragmentary; bracketed, dotted, and isolated visible consonants are retained without completion."
+        }
+      ]
+    },
+    {
+      "record_id": 9,
+      "lines": [
+        "[לאדן] לבעל שמם אש נדר עבדאלם",
+        "בן מתן בן עבדאלם בן בעלשמר",
+        "בפלך לאדך אית השער ז והדלת",
+        "אשל פעלת בתכלתי בנתי בשנת [180:2/5]",
+        "[180:3/5] לאדן מלכם [143] שת לעם",
+        "צר לבני לי לזכר ושם נעם",
+        "תחת פעם אדני בעל שמם",
+        "לעלם יברכן"
+      ],
+      "uncertain": [
+        {
+          "lines": [
+            4,
+            5
+          ],
+          "note": "The five-sign group for 180 is split exactly across Cooke's printed lines as 2/5 then 3/5."
+        },
+        {
+          "line": 5,
+          "note": "The complete second numeral group is encoded by its value [143]."
+        }
+      ]
+    },
+    {
+      "record_id": 10,
+      "lines": [
+        "ערפת כברת מצא שמש וצ",
+        "פלי אש בן האלם מלאך מל",
+        "עשתרת ועבדי בעל חמן",
+        "לעשתרת באשרת אל חמן",
+        "בשת [50] לפתלמים אדן",
+        "מלכם האדר פעל נעם בן פת",
+        "למים וארסנאם אלן [ארץ]",
+        "ים שלש חמשם שת לעם [צר]",
+        "כמאש בן אית כל אחרי ...",
+        "... ם אש בארץ לכן לם ל...",
+        "..... עלם ."
+      ],
+      "uncertain": [
+        {
+          "line": 5,
+          "note": "Cooke's numeral-sign group is encoded by its value [50]."
+        },
+        {
+          "lines": [
+            9,
+            10,
+            11
+          ],
+          "note": "Every printed damage period is retained; no word is completed across the damaged runs."
+        }
+      ]
+    },
+    {
+      "record_id": 11,
+      "lines": [
+        "a. ... סכן קרתחדשת עבד חרם מלך צדנם אש יתן לבעל לבנן אדני",
+        "a. בראשת נחשת ח ...",
+        "b. ... טב סכן קרתחדשת",
+        "c. [לבעל] לבנן אדני"
+      ],
+      "uncertain": [
+        {
+          "lines": [
+            1,
+            2,
+            3
+          ],
+          "note": "Fragment labels and every printed damage period are retained; the missing personal names are not supplied."
+        },
+        {
+          "line": 4,
+          "note": "Cooke's brackets around לבעל are retained."
+        }
+      ]
+    },
+    {
+      "record_id": 12,
+      "lines": [
+        "בימם [6] לירח בל בשנת [21] למלך פמייתן מלך כת[י]",
+        "אדל ותמש בן מלך מלכיתן מלך כתי ואדל מזבח א[ן]",
+        "ואורם אשנם [2] אש יתן בדא כהן רשפחץ בן יכנש",
+        "לם בן אשמנאדן לאדני לרשפחץ יברך"
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "note": "Cooke's day and regnal-year numeral groups are encoded by their values [6] and [21]; the printed restoration in כת[י] is retained."
+        },
+        {
+          "line": 2,
+          "note": "Cooke's final bracketed consonant in א[ן] is retained."
+        },
+        {
+          "lines": [
+            3,
+            4
+          ],
+          "note": "The personal name ending יכנש|לם is left split exactly across Cooke's printed line boundary."
+        }
+      ]
+    }
+  ]
+}

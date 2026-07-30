@@ -1,0 +1,382 @@
+{
+  "schema_version": "1.0",
+  "pass_id": "A",
+  "source_pages": [
+    49,
+    57,
+    61,
+    63,
+    71,
+    73,
+    75,
+    79,
+    83,
+    85
+  ],
+  "transcription_conventions": {
+    "direction": "Each string is entered in consonantal reading order, right-to-left.",
+    "damage_points": "Each unattached printed damage point is copied as one ASCII full stop (.). A point printed above a consonant is encoded after that consonant as U+0307 COMBINING DOT ABOVE.",
+    "brackets": "Printed square brackets are copied; no bracketed letter has been completed beyond what is printed.",
+    "numeric_signs": "Every complete numeral group whose value Cooke states is encoded as that Western value in square brackets. The split five-sign group for 180 is [180:2/5] then [180:3/5].",
+    "lineation": "One array item corresponds to one numbered inscription line; typographic wraps within the same numbered line are joined. Words and numeral groups divided by numbered lines remain divided."
+  },
+  "notation_observations": [
+    {"locus": "5:1:14", "record_id": 5, "line": 1, "value": "14", "observed_rendering": "horizontal bar, space, four vertical strokes"},
+    {"locus": "8:2:1070", "record_id": 8, "line": 2, "value": "1070", "observed_rendering": "plus sign, three carets, horizontal bar"},
+    {"locus": "9:4-5:180", "record_id": 9, "line": "4-5", "value": "180", "observed_rendering": "split bracketed value tokens"},
+    {"locus": "9:5:143", "record_id": 9, "line": 5, "value": "143", "observed_rendering": "three Z-shaped signs, space, three vertical strokes"},
+    {"locus": "10:5:50", "record_id": 10, "line": 5, "value": "50", "observed_rendering": "N-shaped sign, two groups of three vertical strokes"},
+    {"locus": "12:1:6", "record_id": 12, "line": 1, "value": "6", "observed_rendering": "two groups of three vertical strokes"},
+    {"locus": "12:1:21", "record_id": 12, "line": 1, "value": "21", "observed_rendering": "two letter-like signs"},
+    {"locus": "12:3:2", "record_id": 12, "line": 3, "value": "2", "observed_rendering": "two vertical strokes"}
+  ],
+  "records": [
+    {
+      "record_id": 3,
+      "lines": [
+        "אנך יחומלך מלך גבל בן יחרבעל בן בן ארמלך מלך",
+        "גבל אש פעלתן הרבת בעלת גבל ממלכת על גבל וקרא אנך",
+        "את רבתי בעלת גבל [כ שמען] קל ופעל אנך לרבתי בעלת",
+        "גבל המזבח נחשת ז אש בה[ח]צר ז הפתח חרץ ז אש",
+        "על פן פתחי ז והערת חרץ אש בתכת אבן אש על פתח חרץ ז",
+        "והערפת וא ועמדה וה...ם אש עלהם ומספנתה פעל אנך",
+        "יחומלך מלך גבל לרבתי בעלת גבל כמאש קראת את רבתי",
+        "בעלת גבל ושמע קל ופעל לי נעם תברך בעלת גבל אית יחומל[ך]",
+        "מלך גבל ותחון ותארך ימו ושנתו על גבל כ מלך צדק הא ותתן",
+        "[לו] הרבת בעלת גבל חן לעין אלהם ולעין עם ארץ ז וחן עם אר",
+        "[ץ]..... כל ממלכת וכל אדם אש יסף לפעל מלאכת עלת מו",
+        "[בח ועלת פת]ח חרץ ז ועלת ערפת וא שם אנך יחומלך",
+        "....... פעל מלאכת הא ואם אבל תשח שם א.ך ואם ה.",
+        "...... את ה א ... ז .. ימ . ה עלת מקם ז ו..",
+        "....... הרבת בעלת גבל אית האדם הא וזרעו"
+      ],
+      "uncertain": [
+        {
+          "line": 5,
+          "reading": "והערת",
+          "note": "The third consonant after וה is visually ambiguous."
+        },
+        {
+          "line": 6,
+          "reading": "והערפת וא ועמדה וה...ם",
+          "note": "Several consonants are difficult to distinguish in the print; the three printed damage points are retained."
+        },
+        {
+          "line": 11,
+          "reading": "מו",
+          "note": "The final two visible consonants are faint."
+        },
+        {
+          "line": 13,
+          "reading": "א.ך",
+          "note": "A damage point is printed between the visible consonants."
+        },
+        {
+          "line": 14,
+          "reading": "...... את ה א ... ז .. ימ . ה עלת מקם ז ו..",
+          "note": "The whole line is fragmentary; point runs and their positions are copied without restoration."
+        }
+      ]
+    },
+    {
+      "record_id": 4,
+      "lines": [
+        "אנך תבנת כהן עשתרת מלך צדנם בן",
+        "אשמנעזר כהן עשתרת מלך צדנם שכב בארן",
+        "ז מי את כל אדם אש תפק את הארן ז אל אל ת",
+        "פתח עלתי ואל תרגזן כי אלן כסף אי אלן",
+        "חרץ וכל מנם משד בלת אנך שכב בארן ז אל אל תפת",
+        "ח עלתי ואל תרגזן כי תעבת עשתרת הדבר הא ואם פתח",
+        "תפתח עלתי ורגז תרגזן אל יכן ל[ך] זרע בחים תחת שמ",
+        "ש ומשכב את רפאם"
+      ],
+      "uncertain": [
+        {
+          "line": 5,
+          "reading": "מנם משד",
+          "note": "The middle consonants of this phrase are close in form in the printed type."
+        }
+      ]
+    },
+    {
+      "record_id": 5,
+      "lines": [
+        "בירח בל בשנת עשר וארבע [14] ולמלכי מלך אשמנעזר מלך צדנם",
+        "בן מלך תבנת מלך צדנם דבר מלך אשמנעזר מלך צדנם לאמר נגלת",
+        "בל עתי בן מספר ים אדרם יתום בן אלמת ושכב אנך בחלת ז ובקבר ז",
+        "במקם אש בנת קנמי את כל ממלכת וכל אדם אל יפתח את משכב ז",
+        "אל יבקש בן מנם אי שם בנם ואל ישא אית חלת משכבי ואל יעמ",
+        "סן במשכב ז עלת משכב שני אף אם אדם ידברנך אל תשמע בדנם כ כל ממלכתו",
+        "כל אדם אש יפתח עלת משכב ז אם אש ישא אית חלת משכבי אם אש יעמסן בם",
+        "שכב ז אל יכן למ משכב את רפאם ואל יקבר בקבר ואל יכן למ בן וזרע",
+        "תחתם ויתננם האלהם הקדשם את ממלך אדר אש משל בנם לק",
+        "צתם אית ממלכת אם אדם הא אש יפתח עלת משכב ז ואם אש ישא אית",
+        "חלת ז ואית זרע ממלכת הא אם אדם המת אל יכן למ שרש למטן ו",
+        "פר למעל ותאר בחים תחת שמש כ אנך נחן נגלת בל עתי בן מס",
+        "פר ים אדרם יתום בן אלמת אנך כ אנך אשמנעזר מלך צדנם בן",
+        "מלך תבנת מלך צדנם בן בן מלך אשמנעזר מלך צדנם ואמי אמעשתרת",
+        "כהנת עשתרת רבתנו המלכת בת מלך אשמנעזר מלך צדנם אם בנן אית בת",
+        "אלנם אית [בת עשתרת] בצדן ארץ ים וישבן אית עשתרת שמאדרם ואנחן",
+        "אש בנן בת לאשמן [ב]קדש ען ידל בהר וישבני שמאדרם ואנחן אש בנן בתם",
+        "לאלן צדנם בצדן ארץ ים בת לבעל צדן ובת לעשתרת שם בעל תעדר יתן לו אדן מלכם",
+        "ואת דאר ויפי ארצת דגן האדרת אש בשד שרן למדת עצמת אש פעלת ויספננם",
+        "עלת גבל ארץ לבננם לצדם [לעלם] קנמי את כל ממלכת וכל אדם אל יפתח עלתי",
+        "ואל יער עלתי ואל יעמסן ממשכבי ואל ישא אית חלת משכבי למ יסגרם",
+        "אלנם הקדשם אל וקצען הממלכת הא והאדם המת והזרעם לעלם"
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "reading": "[14]",
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention."
+        },
+        {
+          "line": 6,
+          "reading": "סן ... כ",
+          "note": "The first consonant and the final one-letter word are visually difficult."
+        },
+        {
+          "line": 15,
+          "reading": "אם בנן",
+          "note": "The short word before בנן is visually close to אם in the printed line."
+        },
+        {
+          "line": 17,
+          "reading": "וישבני שמאדרם",
+          "note": "The suffix and word boundary are faint."
+        },
+        {
+          "line": 19,
+          "reading": "למדת עצמת",
+          "note": "Several medial consonants are difficult to distinguish."
+        }
+      ]
+    },
+    {
+      "record_id": 6,
+      "lines": [
+        "בירח . מפ[ע] בשת מלכ[ו]",
+        "י מלך בדעשתרת מלך",
+        "צדנם כ בן בדעשתרת",
+        "מלך צדנם אית שרן אר[ץ]",
+        "[ז] ל[א]לי לעשתרת"
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "reading": "מפ[ע] ... מלכ[ו]",
+          "note": "Bracket placement is copied from the print; the adjacent consonants remain uncertain."
+        },
+        {
+          "line": 4,
+          "reading": "שרן אר[ץ]",
+          "note": "The final bracketed consonant and the preceding word are visually uncertain."
+        },
+        {
+          "line": 5,
+          "reading": "[ז] ל[א]לי",
+          "note": "Both bracketed consonants are retained exactly as printed."
+        }
+      ]
+    },
+    {
+      "record_id": 7,
+      "lines": [
+        "המנחת ז אש יתן עבדמסכר רב עבר לספת",
+        "רב שני בן בעלצלח לאדני לשלמן יברך"
+      ],
+      "uncertain": []
+    },
+    {
+      "record_id": 8,
+      "lines": [
+        "... דת עלת שמא̇ל̇קצ̇י̇ .. נפעל הסף ז",
+        "בא̇בן̇ צ̇ר̇ ועוד̇ כסף [1070] טבע צ̇ר̇ משנ̇.",
+        "... נדר עבדך אדנבעל השפט בן עמלך בן",
+        ".. [הש]פט בן ברמלקרת השפט בן העמלך",
+        ".. [השפ]ט בן עמלך פעל אית חצי הסף ז",
+        "... ת יתן אית החצי הסף ז",
+        "... דל ... ד שפט בן ברמלקרת",
+        "... צאת ..... בן",
+        "... [ע]ברבעל ..."
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "reading": "דת עלת שמא̇ל̇קצ̇י̇",
+          "note": "The dotted consonants and the four-letter group are highly uncertain; dots above letters are U+0307."
+        },
+        {
+          "line": 2,
+          "reading": "[1070]",
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention."
+        },
+        {
+          "line": 2,
+          "reading": "בא̇בן̇ צ̇ר̇ ... צ̇ר̇ משנ̇",
+          "note": "Points printed above consonants are encoded with U+0307; several readings remain doubtful."
+        },
+        {
+          "line": 7,
+          "reading": "... דל ... ד",
+          "note": "Both three-point damage runs are retained; the visible consonants are uncertain."
+        },
+        {
+          "line": 8,
+          "reading": "... צאת ..... בן",
+          "note": "The line contains a three-point run and a five-point run, copied separately."
+        },
+        {
+          "line": 9,
+          "reading": "... [ע]ברבעל ...",
+          "note": "The line begins and ends with separate three-point damage runs."
+        }
+      ]
+    },
+    {
+      "record_id": 9,
+      "lines": [
+        "[לאדן] לבעל שמם אש נדר עבדאלם",
+        "בן מתן בן עבדאלם בן בעלשמר",
+        "בפלג לאדך אית השער ז והדלת",
+        "אשל פעלת בתכלתי בנתי בשנת [180:2/5]",
+        "[180:3/5] לאדן מלכם [143] שנת לעם",
+        "צר לבני לי לסכר ושם נעם",
+        "תחת פעם אדני בעל שמם",
+        "לעלם יברכן"
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "reading": "[לאדן]",
+          "note": "The bracketed opening is copied as printed."
+        },
+        {
+          "line": 3,
+          "reading": "לאדך",
+          "note": "The final consonant is visually uncertain."
+        },
+        {
+          "line": 4,
+          "reading": "אשל פעלת בתכלתי בנתי",
+          "note": "Several word divisions and consonants in the damaged line are uncertain."
+        },
+        {
+          "line": 5,
+          "reading": "[143]",
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention."
+        }
+      ]
+    },
+    {
+      "record_id": 10,
+      "lines": [
+        "ערפת כברת מצא שמש וצ",
+        "פלי אש בן האלם מלאך מלכ",
+        "עשתרת ועבדי בעל חמן",
+        "לעשתרת באשרת אל חמן",
+        "בשת [50] לפתלמים אדן",
+        "מלכם האדר פעל נעם בן פת",
+        "למים וארסנאם אלן א[ח]",
+        "ים שלש חמשם שת לעם [צר]",
+        "כמאש בן אית כל אחרי...",
+        ".. ם אש בארץ לבן למ ל...",
+        "...... עלם"
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "reading": "וצ",
+          "note": "The last two consonants are the beginning of a word divided at the line boundary."
+        },
+        {
+          "line": 2,
+          "reading": "פלי",
+          "note": "The first word continues the divided word from line 1; the initial consonant is visually uncertain."
+        },
+        {
+          "line": 5,
+          "reading": "[50]",
+          "note": "The printed numeral group is encoded by Cooke's stated value under the shared convention."
+        },
+        {
+          "line": 7,
+          "reading": "וארסנאם",
+          "note": "The middle consonants are difficult to distinguish."
+        },
+        {
+          "line": 9,
+          "reading": "כמאש בן אית כל אחרי...",
+          "note": "The three terminal damage points are retained."
+        },
+        {
+          "line": 10,
+          "reading": ".. ם אש בארץ לבן למ ל...",
+          "note": "The line begins with two points and ends with three points; visible consonants are uncertain."
+        },
+        {
+          "line": 11,
+          "reading": "...... עלם",
+          "note": "Six initial damage points are retained."
+        }
+      ]
+    },
+    {
+      "record_id": 11,
+      "lines": [
+        "a. .ו סכן קרתחדשת עבדי חרם מלך צדנם אי יתן לבעל לבנן אדני",
+        "a′. בראשת נחשת ח...",
+        "b. ..טב סכן קרתחדשת",
+        "c. לבעל לבנן אדני"
+      ],
+      "uncertain": [
+        {
+          "line": "a",
+          "reading": ".ו",
+          "note": "One printed point precedes the visible consonant."
+        },
+        {
+          "line": "a′",
+          "reading": "בראשת נחשת ח...",
+          "note": "The fragment ends with three printed damage points."
+        },
+        {
+          "line": "b",
+          "reading": "..טב",
+          "note": "Two printed damage points precede the two visible consonants."
+        }
+      ]
+    },
+    {
+      "record_id": 12,
+      "lines": [
+        "בימם [6] לירח בל בשנת [21] למל[ך] פמיתן מלך בתי ו[",
+        "אדיל ותמשש בן מלך מלכיתן מלך בתי ואדיל מזבח א[ו]",
+        "וארום אשנם [2] אש יתן בדא כהן רשפחץ בן יכנש",
+        "לם בן אשמנאדן לאדני לרשפחץ יברך"
+      ],
+      "uncertain": [
+        {
+          "line": 1,
+          "reading": "[6]",
+          "note": "The printed day group is encoded by Cooke's stated value under the shared convention."
+        },
+        {
+          "line": 1,
+          "reading": "בשנת [21] ... בתי ו[",
+          "note": "The regnal-year signs are encoded by Cooke's stated value; the unmatched printed bracket is retained."
+        },
+        {
+          "line": 2,
+          "reading": "מזבח א[ו]",
+          "note": "The bracketed final consonant and preceding word are visually uncertain."
+        },
+        {
+          "line": 3,
+          "reading": "אשנם [2]",
+          "note": "The printed pair is encoded by Cooke's stated value under the shared convention."
+        }
+      ]
+    }
+  ]
+}

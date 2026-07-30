@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "control_id": "cooke-transliteration-control-batch-01",
+  "checked_on": "2026-07-25",
+  "source_pdf_path": "Data raw/Cooke 1903.pdf",
+  "source_pdf_sha256": "D4F2D8453ED704751AD82367EDD39DC454C60AA7D6A990D8D74A2B78DBBE0EDE",
+  "transcription_protocol_path": "04-cross-linguistic/cooke-1903-diplomatic-transcription-protocol.md",
+  "scope": "أسماء الأعلام والكلمات المفتاحية في سجلات Cooke من 3 إلى 12 مقابل نقحرة Cooke الإنجليزية في الصفحة نفسها.",
+  "method": "شاهد مستقل يعيد موضع التباس الحروف إلى الصورة. لا يستكمل فجوة، ولا يسوي الرسم، ولا يصدر حكم نسب.",
+  "gate_rule": "التعارض غير المحسوم، أو غياب نقحرة مسماة في الصفحة، يبقي السجل جزئيا.",
+  "inventory": {
+    "records_total": 10,
+    "records_with_same_page_checks": 9,
+    "records_without_named_same_page_transliteration": 1,
+    "checks_total": 49,
+    "checks_consistent_without_change": 47,
+    "checks_corrected_then_consistent": 2,
+    "unresolved_conflicts": 0
+  },
+  "records": [
+    {
+      "record_id": "cooke1903:3",
+      "source_pages_pdf": [
+        49
+      ],
+      "status": "checked-clean",
+      "checks": [
+        {
+          "semitic": "יחומלך",
+          "english": "Yehaw-milk",
+          "locus": "النص والترجمة في الصفحة 49",
+          "result": "consistent"
+        },
+        {
+          "semitic": "יהרבעל",
+          "english": "Yehar-ba'al",
+          "locus": "السطر 1 والترجمة في الصفحة 49",
+          "result": "consistent",
+          "note": "يثبت الهاء في יהר لا الحاء."
+        },
+        {
+          "semitic": "ארמלך",
+          "english": "Uri-milk",
+          "locus": "السطر 1 والترجمة في الصفحة 49",
+          "result": "consistent"
+        },
+        {
+          "semitic": "גבל",
+          "english": "Gebal",
+          "locus": "النص والترجمة في الصفحة 49",
+          "result": "consistent"
+        }
+      ]
+    },
+    {
+      "record_id": "cooke1903:4",
+      "source_pages_pdf": [
+        57
+      ],
+      "status": "checked-clean",
+      "checks": [
+        {
+          "semitic": "תבנת",
+          "english": "Tabnith",
+          "locus": "السطر 1 والترجمة في الصفحة 57",
+          "result": "consistent"
+        },
+        {
+          "semitic": "עשתרת",
+          "english": "'Ashtart",
+          "locus": "النص والترجمة في الصفحة 57",
+          "result": "consistent"
+        },
+        {
+          "semitic": "אשמנעזר",
+          "english": "Eshmun-'azar",
+          "locus": "السطر 2 والترجمة في الصفحة 57",
+          "result": "consistent"
+        },
+        {
+          "semitic": "צדנם",
+          "english": "Sidonians",
+          "locus": "النص والترجمة في الصفحة 57",
+          "result": "consistent"
+        }
+      ]
+    },
+    {
+      "record_id": "cooke1903:5",
+      "source_pages_pdf": [
+        61,
+        63
+      ],
+      "status": "checked-clean",
+      "checks": [
+        {
+          "semitic": "אשמנעזר",
+          "english": "Eshmun-'azar",
+          "locus": "النص في الصفحة 61 والترجمة في الصفحتين 61 و63",
+          "result": "consistent"
+        },
+        {
+          "semitic": "תבנת",
+          "english": "Tabnith",
+          "locus": "النص في الصفحة 61 والترجمة في الصفحة 63",
+          "result": "consistent"
+        },
+        {
+          "semitic": "אמעשתרת",
+          "english": "Am-'ashtart",
+          "locus": "السطر 14 والترجمة في الصفحة 63",
+          "result": "consistent"
+        },
+        {
+          "semitic": "עשתרת",
+          "english": "'Ashtart",
+          "locus": "النص والترجمة في الصفحة 63",
+          "result": "consistent"
+        },
+        {
+          "semitic": "אשמן",
+          "english": "Eshmun",
+          "locus": "النص والترجمة في الصفحة 63",
+          "result": "consistent"
+        },
+        {
+          "semitic": "צדן",
+          "english": "Sidon",
+          "locus": "النص والترجمة في الصفحة 63",
+          "result": "consistent"
+        },
+        {
+          "semitic": "שרן",
+          "english": "Sharon",
+          "locus": "النص والترجمة في الصفحة 63",
+          "result": "consistent"
+        },
+        {
+          "semitic": "דאר",
+          "english": "Dor",
+          "locus": "النص والترجمة في الصفحة 63",
+          "result": "consistent"
+        },
+        {
+          "semitic": "יפי",
+          "english": "Yafa",
+          "locus": "النص والترجمة في الصفحة 63",
+          "result": "consistent"
+        }
+      ]
+    },
+    {
+      "record_id": "cooke1903:6",
+      "source_pages_pdf": [
+        71
+      ],
+      "status": "corrected-then-clean",
+      "checks": [
+        {
+          "semitic": "בדעשתרת",
+          "english": "Bod-'ashtart",
+          "locus": "السطران 2 و3 والترجمة والشرح في الصفحة 71",
+          "result": "corrected-then-consistent",
+          "correction": "ברעשתרת -> בדעשתרת",
+          "note": "أعادت النقحرة التباس الدال والراء إلى الصورة، فظهر داليت."
+        },
+        {
+          "semitic": "צדנם",
+          "english": "Sidonians",
+          "locus": "النص والترجمة في الصفحة 71",
+          "result": "consistent"
+        },
+        {
+          "semitic": "עשתרת",
+          "english": "'Ashtart",
+          "locus": "السطر 5 والترجمة في الصفحة 71",
+          "result": "consistent"
+        }
+      ]
+    },
+    {
+      "record_id": "cooke1903:7",
+      "source_pages_pdf": [
+        73
+      ],
+      "status": "checked-clean",
+      "checks": [
+        {
+          "semitic": "עבדמסכר",
+          "english": "'Abd-miṣkar",
+          "locus": "السطر 1 والترجمة في الصفحة 73",
+          "result": "consistent"
+        },
+        {
+          "semitic": "בעלצלח",
+          "english": "Ba'al-ṣillaḥ",
+          "locus": "السطر 2 والترجمة في الصفحة 73",
+          "result": "consistent"
+        },
+        {
+          "semitic": "שלמן",
+          "english": "Shalman",
+          "locus": "السطر 2 والترجمة في الصفحة 73",
+          "result": "consistent"
+        }
+      ]
+    },
+    {
+      "record_id": "cooke1903:8",
+      "source_pages_pdf": [
+        73,
+        75
+      ],
+      "status": "named-transliteration-unavailable",
+      "checks": [],
+      "blocker": "لا يقدم Cooke ترجمة متصلة ولا نقحرة إنجليزية مسماة كافية للأعلام الظاهرة في هذا النقش في الصفحتين نفسيهما.",
+      "gate_effect": "يبقى السجل visual-collation-partial ولا تملأ الأسماء من شرح غير صريح."
+    },
+    {
+      "record_id": "cooke1903:9",
+      "source_pages_pdf": [
+        75
+      ],
+      "status": "checked-clean",
+      "checks": [
+        {
+          "semitic": "בעל שמם",
+          "english": "Ba'al-shamem",
+          "locus": "النص والترجمة في الصفحة 75",
+          "result": "consistent"
+        },
+        {
+          "semitic": "עבדאלם",
+          "english": "'Abd-elim",
+          "locus": "النص والترجمة في الصفحة 75",
+          "result": "consistent"
+        },
+        {
+          "semitic": "מתן",
+          "english": "Mattan",
+          "locus": "السطر 2 والترجمة في الصفحة 75",
+          "result": "consistent"
+        },
+        {
+          "semitic": "בעלשמר",
+          "english": "Ba'al-shamar",
+          "locus": "السطر 2 والترجمة في الصفحة 75",
+          "result": "consistent"
+        },
+        {
+          "semitic": "לאדך",
+          "english": "Laodicaea",
+          "locus": "السطر 3 والترجمة في الصفحة 75",
+          "result": "consistent"
+        },
+        {
+          "semitic": "צר",
+          "english": "Tyre",
+          "locus": "السطر 6 والترجمة في الصفحة 75",
+          "result": "consistent"
+        }
+      ]
+    },
+    {
+      "record_id": "cooke1903:10",
+      "source_pages_pdf": [
+        79
+      ],
+      "status": "checked-clean",
+      "checks": [
+        {
+          "semitic": "עשתרת",
+          "english": "'Ashtart",
+          "locus": "النص والترجمة في الصفحة 79",
+          "result": "consistent"
+        },
+        {
+          "semitic": "חמן",
+          "english": "Hammon",
+          "locus": "السطران 3 و4 والترجمة في الصفحة 79",
+          "result": "consistent"
+        },
+        {
+          "semitic": "פתלמים",
+          "english": "Ptolemy",
+          "locus": "السطر 5 والترجمة في الصفحة 79",
+          "result": "consistent"
+        },
+        {
+          "semitic": "ארסנאם",
+          "english": "Arsinoe",
+          "locus": "السطر 7 والترجمة في الصفحة 79",
+          "result": "consistent"
+        },
+        {
+          "semitic": "צר",
+          "english": "Tyre",
+          "locus": "السطر 8 والترجمة في الصفحة 79",
+          "result": "consistent"
+        },
+        {
+          "semitic": "מלך עשתרת",
+          "english": "Milk-'Ashtart",
+          "locus": "السطران 2 و3 والترجمة في الصفحة 79",
+          "result": "consistent"
+        }
+      ]
+    },
+    {
+      "record_id": "cooke1903:11",
+      "source_pages_pdf": [
+        83
+      ],
+      "status": "checked-clean",
+      "checks": [
+        {
+          "semitic": "קרתחדשת",
+          "english": "Qarth-hadasht",
+          "locus": "الشظيتان a وb والترجمة في الصفحة 83",
+          "result": "consistent"
+        },
+        {
+          "semitic": "חרם",
+          "english": "Hiram",
+          "locus": "الشظية a والترجمة في الصفحة 83",
+          "result": "consistent"
+        },
+        {
+          "semitic": "צדנם",
+          "english": "Sidonians",
+          "locus": "الشظية a والترجمة في الصفحة 83",
+          "result": "consistent"
+        },
+        {
+          "semitic": "לבנן",
+          "english": "Lebanon",
+          "locus": "الشظايا a وc والترجمة في الصفحة 83",
+          "result": "consistent"
+        },
+        {
+          "semitic": "בעל",
+          "english": "Ba'al",
+          "locus": "الشظايا a وc والترجمة في الصفحة 83",
+          "result": "consistent"
+        }
+      ]
+    },
+    {
+      "record_id": "cooke1903:12",
+      "source_pages_pdf": [
+        85
+      ],
+      "status": "corrected-then-clean",
+      "checks": [
+        {
+          "semitic": "פמיתן",
+          "english": "Pumi-yathon",
+          "locus": "السطر 1 والترجمة في الصفحة 85",
+          "result": "consistent"
+        },
+        {
+          "semitic": "כתי",
+          "english": "Kition",
+          "locus": "النص والترجمة في الصفحة 85",
+          "result": "consistent"
+        },
+        {
+          "semitic": "אדיל",
+          "english": "Idalion",
+          "locus": "السطران 2 و3 والترجمة في الصفحة 85",
+          "result": "consistent"
+        },
+        {
+          "semitic": "תמשש",
+          "english": "Tamassos",
+          "locus": "السطر 2 والترجمة في الصفحة 85",
+          "result": "consistent"
+        },
+        {
+          "semitic": "מלכיתן",
+          "english": "Milk-yathon",
+          "locus": "السطر 2 والترجمة في الصفحة 85",
+          "result": "consistent"
+        },
+        {
+          "semitic": "בדא",
+          "english": "Bodo",
+          "locus": "السطر 3 والترجمة في الصفحة 85",
+          "result": "corrected-then-consistent",
+          "correction": "ברא -> בדא",
+          "note": "أعادت النقحرة التباس الدال والراء إلى الصورة، فظهر داليت."
+        },
+        {
+          "semitic": "רשפחץ",
+          "english": "Reshef-ḥeṣ",
+          "locus": "السطران 3 و4 والترجمة في الصفحة 85",
+          "result": "consistent"
+        },
+        {
+          "semitic": "יכנשלם",
+          "english": "Yakun-shalom",
+          "locus": "منقسم بين السطرين 3 و4 والترجمة في الصفحة 85",
+          "result": "consistent"
+        },
+        {
+          "semitic": "אשמנאדן",
+          "english": "Eshmun-adon",
+          "locus": "السطر 4 والترجمة في الصفحة 85",
+          "result": "consistent"
+        }
+      ]
+    }
+  ]
+}

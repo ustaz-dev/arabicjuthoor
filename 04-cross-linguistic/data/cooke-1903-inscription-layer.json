@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "generated_by": "scripts/build_cooke1903_layer.py",
   "source": {
     "citation": "George Albert Cooke, A Text-book of North-Semitic Inscriptions, Oxford: Clarendon Press, 1903",
@@ -14,7 +14,61 @@
     "pages_usable_after_validation": 220,
     "pages_quarantined_after_validation": 252,
     "vowel_points_removed": true,
-    "scope_note": "طبقة مصدر استرجاعية لا معجم كامل لأي لغة. النص السامي والترجمة مرشحا OCR فقط، وكل سجل يراجع على صورة PDF قبل الاستشهاد به."
+    "scope_note": "طبقة مصدر استرجاعية لا معجم كامل لأي لغة. النص السامي والترجمة مرشحا OCR فقط، وكل سجل يراجع على صورة PDF قبل الاستشهاد به.",
+    "visual_collation_batches": [
+      {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "sha256": "D9260AC5C298FF4B541D5BFF6113724AF39F2210186470F41BC872B50E7E7C0F",
+        "transcription_policy": "نسخ دبلوماسي حرفي من مطبوع Cooke: لا تضاف أم قراءة، ولا ترد نون، ولا تسوى الصورة الفينيقية بنظيرتها العبرية، وتحفظ אית وأقواس الترميم ونقاط التلف وانقسام العلامات العددية بين السطور كما طبعت.",
+        "transcription_protocol_path": "04-cross-linguistic/cooke-1903-diplomatic-transcription-protocol.md",
+        "transcription_protocol_sha256": "8EF65AF00DF7B5935BC2E2F50AF7B138B96D149242AB2E658E4796CFD7D0842D",
+        "double_transcription": {
+          "pass_a_path": "04-cross-linguistic/data/cooke-1903-diplomatic-pass-a.json",
+          "pass_b_path": "04-cross-linguistic/data/cooke-1903-diplomatic-pass-b.json",
+          "comparison_path": "04-cross-linguistic/data/cooke-1903-double-transcription-comparison.json",
+          "pass_a_sha256": "7151DAEF5FD72E2629B9DF1315CD90246E57B48CF0D83EB34FC967290077C4CA",
+          "pass_b_sha256": "06287A750BDE28E59A81D5B26BF629069B08D32124FA5AB748CCC39146610AAC",
+          "comparison_sha256": "0F5A48F4F9DDB1CA01740C51C85113DA3EB9D1C25709010FED4359C7CFEE0F27",
+          "notation_disagreement_rate": 0.875,
+          "notation_loci_differing": 7,
+          "notation_loci_total": 8,
+          "reading_characters_compared": 3528,
+          "reading_disagreement_rate": 0.054988662131519275,
+          "reading_levenshtein_distance_total": 194,
+          "records_exactly_agreeing_after_shared_notation": 1,
+          "records_requiring_visual_arbitration": 9,
+          "records_total": 10,
+          "agreement_is_not_completion": true,
+          "common_mode_omission_found": "اتفق الناسخان مع ذلك على إسقاط نقط تلف في السجل 3، ولذلك لا تمنح المطابقة الحرفية وحدها ترقية."
+        },
+        "transliteration_control": {
+          "path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "sha256": "7F4C8956B5DBEE0D1F0C363425ABE9E5A286F991A3267E6818C0D1F43E50AD85",
+          "control_id": "cooke-transliteration-control-batch-01",
+          "records_total": 10,
+          "records_with_same_page_checks": 9,
+          "records_without_named_same_page_transliteration": 1,
+          "checks_total": 49,
+          "checks_consistent_without_change": 47,
+          "checks_corrected_then_consistent": 2,
+          "unresolved_conflicts": 0,
+          "absence_keeps_record_partial": true
+        },
+        "record_ids": [
+          "cooke1903:3",
+          "cooke1903:4",
+          "cooke1903:5",
+          "cooke1903:6",
+          "cooke1903:7",
+          "cooke1903:8",
+          "cooke1903:9",
+          "cooke1903:10",
+          "cooke1903:11",
+          "cooke1903:12"
+        ]
+      }
+    ]
   },
   "inventory": {
     "record_count": 153,
@@ -22,6 +76,8 @@
     "missing_numbered_units": [],
     "duplicate_record_ids": [],
     "records_requiring_visual_check": 153,
+    "records_visually_collated": 0,
+    "records_with_partial_visual_collation": 10,
     "records_with_consonantal_candidate": 146,
     "records_with_translation_candidate": 73,
     "records_with_quarantined_page_skipped": 107,
@@ -176,8 +232,52 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "אנך יחומלך מלך גבל בן יהרבעל בן בן ארמלך מלך\nגבל אש פעלתן הרבת בעלת גבל ממלכת על גבל וקרא אנך\nאת רבתי בעלת גבל [כ שמע] קל ופעל אנך לרבתי בעלת\nגבל המזבח נחשת זן אש בח[צ]ר ז הפתח חרץ זן אש\nעל פן פתחי ז והערת חרץ אש בתכת אבן אש על פתח חרץ זן\nוהערפת זא ועמרה וה....ם אש עלהם ומספנתה פעל אנך\nיחומלך מלך גבל לרבתי בעלת גבל כמאש קראת את רבתי\nבעלת גבל ושמע קל ופעל לי נעם תברך בעלת גבל אית יחומל[ך]\nמלך גבל ותחוהו ותארך ימו ושנתו על גבל כ מלך צדק הא ותתן\n[לו הרבת בעלת גבל חן לע]ן אלם ולען עם ארץ וחן עם אר\n[ץ...] כל ממלכת וכל אדם אש יסף לפעל מלאכת עלת מז\n[בח ועלת פתח חרץ זן ועלת ערפת זא שם אנך יחומלך\n... פעל מלאכת הא ואם אבל תשת שם א... ואם ה...\n... את הא... עלת מקם זן...\n... הרבת בעלת גבל אית האדם הא וזרעו",
+      "translation_collated": "I am Yehaw-milk, king of Gebal, son of Yehar-ba'al, grandson of Uri-milk, king of Gebal, whom the lady, mistress of Gebal, made king over Gebal; and I invoke my lady, mistress of Gebal, [for she hears] my voice. And I make for my lady, mistress of Gebal, this altar of bronze which is in this court, and this engraved work of gold which is over against this engraved work of mine, and the uraeus (?) of gold which is in the midst of the stone, which is above this engraved work of gold, and this portico and its pillars and the ... which are upon them and its roof do I, Yehaw-milk, king of Gebal, make to my lady, mistress of Gebal; inasmuch as I invoked my lady, mistress of Gebal, she has heard my voice and done kindness to me. May the mistress of Gebal bless Yehaw-milk, king of Gebal, and grant him life and prolong his days and his years over Gebal, for he is a righteous king! And may [the lady, mistress of Gebal, give [him] favour in the eyes of the gods and in the eyes of the people of this land and the favour of the people of the land]...! Every prince and every man who shall make any addition to this altar or to this engraved work of gold and to this portico I, Yehaw-milk, ... set ... him who does that work; and if thou do not set there (?) ... and if ... upon this place and ... the lady, the mistress of Gebal, that man and his seed.",
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          49
+        ],
+        "text_complete": false,
+        "translation_complete": true,
+        "transcription_method": "مقابلة بشرية مباشرة لصورة PDF عند 220 dpi؛ استعمل مرشح OCR محددا للموضع فقط، ثم قوبل النص والترجمة على المطبوع.",
+        "changes": [
+          "صحح رقم العنوان الظاهر في OCR من 8 إلى 3.",
+          "استعيدت بداية الترجمة التي أسقطها استخراج العمودين، ووصلت بنهايتها في العمود الأيمن.",
+          "صححت [כי שמע] إلى [כ שמע] بحذف الياء التي لم يطبعها Cooke.",
+          "صححت בתוך إلى בתכת: الواو المطبعنة عبرية، والمطبوع كاف ثم تاء.",
+          "صححت את יחומלך إلى אית יחומלך بإعادة الياء المطبوعة.",
+          "صححت את האדם إلى אית האדם بإعادة الياء المطبوعة.",
+          "صححت אש בחצרי ופתח إلى אש בח[צ]ר ז הפתח: حذفت الياء غير المطبوعة، وأعدت قوسي الصاد، والزاي، وهاء הפתח، وحفظت فصل الكلمات.",
+          "صححت על פן פתחי והערפת إلى על פן פתחי ז והערת: أعدت الزاي وحذفت الفاء غير المطبوعة.",
+          "صححت ועמדה إلى ועמרה بتغيير الدال إلى راء، وصححت עליהם إلى עלהם بحذف الياء غير المطبوعة.",
+          "صححت ו... إلى וה....ם بإعادة الهاء والميم وحفظ أربع نقط تلف مطبوعة بينهما.",
+          "صححت יחומלך إلى יחומל[ך] بإعادة قوسي ترميم الكاف النهائية.",
+          "صححت כי מלך إلى כ מלך بحذف الياء غير المطبوعة.",
+          "أبقيت المواضع المخرومة بنقط أو أقواس ولم أملأها تخمينا."
+        ],
+        "notes": "الترجمة المطبوعة كاملة في الصفحة 49، لكن النص الصامتي يحمل مواضع مخرومة وقراءات لا تسمح هذه المعاينة المنفردة بالجزم بكل حرف فيها؛ لذلك بقي السجل جزئيا.",
+        "double_transcription": {
+          "reading_exact_match": false,
+          "reading_levenshtein_distance": 45,
+          "reading_disagreement_rate": 0.06172839506172839,
+          "notation_loci_total": 0,
+          "notation_loci_differing": 0,
+          "visual_arbitration_required": true
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "checked-clean",
+          "checks_count": 4,
+          "blocker": null
+        }
+      }
     },
     {
       "record_id": "cooke1903:4",
@@ -217,8 +317,47 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "אנך תבנת כהן עשתרת מלך צדנם בן\nאשמנעזר כהן עשתרת מלך צדנם שכב בארן\nז מי את כל אדם אש תפק אית הארן ז אל אל ת\nפתח עלתי ואל תרגזן כאי אדלן כסף אי אדלן\nחרץ וכל מנם משר בלת אנך שכב בארן ז אל אל תפת\nח עלתי ואל תרגזן כתעבת עשתרת הדבר הא ואם פת\nח תפתח עלתי ורגז תרגזן אל י[כ]ן ל[ך] זרע בחים תחת שמ\nש ומשכב את רפאם",
+      "translation_collated": "I, Tabnith, priest of 'Ashtart, king of the Sidonians, son of Eshmun-'azar, priest of 'Ashtart, king of the Sidonians, lie in this coffin: My [curse be] with whatsoever man thou art that bringest forth this coffin! Do not, do not open me, nor disquiet me, for I have not indeed (?) silver, I have not indeed (?) gold, nor any jewels of ... only I am lying in this coffin: do not, do not open me nor disquiet me, for that thing is an abomination to 'Ashtart. And if thou do at all open me, and at all disquiet me, mayest thou have no seed among the living under the sun nor resting-place among the shades!",
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          57
+        ],
+        "text_complete": false,
+        "translation_complete": true,
+        "transcription_method": "مقابلة بشرية مباشرة لصورة PDF عند 220 dpi؛ قوبل العمود الأيسر بالنص والترجمة التي تبدأ أسفله وتستمر في أعلى العمود الأيمن.",
+        "changes": [
+          "استعيدت بداية الترجمة كاملة؛ كان مرشح الطبقة يبدأ من منتصف جملة bringest forth this coffin.",
+          "صححت חפץ את إلى תפק אית: الحاء صارت تاء، والفاء بقيت، والصاد صارت قافا، وأعيدت ياء אית المطبوعة.",
+          "صححت أداتَي אדלון إلى אדלן بحذف الواو غير المطبوعة في الموضعين.",
+          "صححت בארון إلى בארן بحذف الواو غير المطبوعة.",
+          "صححت יכן לך إلى י[כ]ן ל[ך] بإعادة قوسي الترميم حول الكاف والكاف النهائية.",
+          "صححت משד إلى משר بعد تمييز الراء المطبوعة من الدال في הדבר في السطر التالي.",
+          "حفظت انقسام الكلمات الطباعي بين الأسطر كما في الصفحة.",
+          "عزل الشرح المعجمي اللاحق عن ترجمة النقش."
+        ],
+        "notes": "أسقطت الترقية السابقة بعد كشف عبرنة الرسم. النص منسوخ ثانية حرفيا، لكنه يبقى جزئيا حتى الدورة الثانية للمراجعة الثالثة.",
+        "double_transcription": {
+          "reading_exact_match": false,
+          "reading_levenshtein_distance": 5,
+          "reading_disagreement_rate": 0.016666666666666666,
+          "notation_loci_total": 0,
+          "notation_loci_differing": 0,
+          "visual_arbitration_required": true
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "checked-clean",
+          "checks_count": 4,
+          "blocker": null
+        }
+      }
     },
     {
       "record_id": "cooke1903:5",
@@ -273,8 +412,55 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "בירח בל בשנת עשר וארבע [14] למלכי מלך אשמנעזר מלך צדנם\nבן מלך תבנת מלך צדנם דבר מלך אשמנעזר מלך צדנם לאמר נגזלת\nבל עתי בן מספר ימם אזרם יתם בן אלמת ושכב אנך בחלת ז ובקבר ז\nבמקם אש בנת קנמי את כל ממלכת וכל אדם אל יפתח אית משכב ז\nאל יבקש בן מנם כי אי שם בן מנם ואל ישא אית חלת משכבי ואל יעמ\nסן במשכב ז עלת משכב שני אף אם אדמם ידברנך אל תשמע בדנם כ כל ממלכתו\nכל אדם אש יפתח עלת משכב ז אם אש ישא אית חלת משכבי אם אש יעמסן במ\nשכב ז אל יכן לם משכב את רפאם ואל יקבר בקבר ואל יכן לם בן ורע\nתחתנם ויסגרנם האלנם הקדשם את ממלך אז אש משל בנם לק\nצתנם אית ממלכת אם אדם הא אש יפתח עלת משכב ז ואם אש ישא אית\nחלת ז ואית זרע ממלכת הא אם אדמם המת אל יכן לם שרש למט ו\nפר למעל ותאר בחים תחת שמש כ אנך נחן נגזלת בל עתי בן מס\nך ימם אזרם יתם בן אלמת אנך כ אנך אשמנעזר מלך צדנם בן\nמלך תבנת מלך צדנם בן בן מלך אשמנעזר מלך צדנם ואמי אמעשתרת\nכהנת עשתרת רבתן המלכת בת מלך אשמנעזר מלך צדנם אש בנן אית בת\nאלנם אית [בת עשתרת] בצדן ארץ ים וישבן אית עשתרת שממאדרם ואנחן\nאש בנן בת לאשמן [שד] קדש ען ידלל בהר וישבני שממאדרם ואנחן אש בנן בתם\nלאלם צדנם בצדן ארץ ים בת לבעל צדן ובת לעשתרת שם בעל ועד יתן לן אדן מלכם\nאית דאר ויפי ארצת דגן האדרת אש בשר שרן למדת עצמת אש פעלת ויספננם\nעלת גבל ארץ לכננם לצדנם לעלם [קנמי את כל ממלכת וכל אדם אל יפתח עלתי\nואל יער עלתי ואל יעמסן במשכבי ואל ישא אית חלת משכבי לם יסגרנם\nאלנם הקדשם אל ויקצן הממלכת הא והאדמם המת וזרעם לעלם",
+      "translation_collated": "In the month Bul, in the fourteenth year of the reign of king Eshmun-'azar, king of the Sidonians, son of king Tabnith, king of the Sidonians, spake king Eshmun-'azar, king of the Sidonians, saying, I have been seized before my time, the son of a (short) number of days ..., an orphan, the son of a widow; and I lie in this coffin and in this grave, in the place which I built. I adjure every prince and every man that they open not this resting-place, nor seek with me jewels, for there are no jewels with me there, nor take away the coffin of my resting-place, nor carry me from this resting-place (and lay me) on a second resting-place! Yea, if men speak to thee, do not listen to their words. For every prince and every man who shall open this resting-place, or who shall take away the coffin of my resting-place, or who shall carry me from this resting-place, may they have no resting-place with the Shades, nor be buried in a grave, nor have son or seed in their stead; and may the holy gods deliver them up to a mighty prince who shall rule over them, to cut off that prince or man who shall open this resting-place, or who shall take away this coffin, and the seed of that prince or of those men! May they have no root downwards or fruit upwards, nor any comeliness among the living under the sun! For I am to be pitied (?); I have been seized before my time, the son of a (short) number of days ..., an orphan, the son of a widow was I. For I, Eshmun-'azar, king of the Sidonians, son of king Tabnith, king of the Sidonians, grandson of king Eshmun-'azar, king of the Sidonians, and my mother Am-'ashtart, priestess of 'Ashtart, our lady, the queen, daughter of king Eshmun-'azar, king of the Sidonians - (we are they) who built the houses of the gods, the house of 'Ashtart in Sidon, the land of the sea, and we caused 'Ashtart to dwell there, making (her) glorious (?); and we (are they) who built a house for Eshmun, in the holy field (?), the well of Yidlal in the mountain, and we caused him to dwell there, making (him) glorious (?). And we (are they) who built houses for the gods of the Sidonians in Sidon, the land of the sea, a house for the Ba'al of Sidon, and a house for 'Ashtart, the Name of Ba'al. And further, the lord of kings gave to us Dor and Yafe, the glorious corn-lands which are in the field of Sharon, in accordance with the great things which I did; and we added them to the borders of the land, that they might belong to the Sidonians for ever. I adjure every prince and every man that they open me not, nor uncover me, nor carry me from this resting-place, nor take away the coffin of my resting-place, lest these holy gods deliver them up, and cut off that prince and those men, and their seed, for ever!",
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          61,
+          63
+        ],
+        "text_complete": false,
+        "translation_complete": true,
+        "transcription_method": "مقابلة بشرية مباشرة لصورتي PDF عند 220 dpi؛ قوبل النص في الصفحة 61 والترجمة الممتدة من الصفحة 61 إلى الصفحة 63.",
+        "changes": [
+          "استعيدت بداية الترجمة ونهايتها؛ كان مرشح الطبقة يبدأ قرب السطر 14 فقط.",
+          "استعيدت بقية النص الصامتي التي أغفلها مرشح الطبقة بعد אש בנן בתם.",
+          "صححت את משכב إلى אית משכב، وאת חלת إلى אית חלת في ثلاثة مواضع مستقلة، بإعادة الياء المطبوعة.",
+          "صححت את ממלכת إلى אית ממלכת، وואת זרע إلى ואית זרע، بإعادة الياء المطبوعة.",
+          "صححت בן וזרע إلى בן ורע بحذف الزاي غير المطبوعة.",
+          "صححت את בת إلى אית בת، وאת [בת עשרת]ת إلى אית [בת עשתרת]، فاستعيدت ثلاث ياءات والراء داخل الترميم وحذف التاء الزائدة بعد القوس.",
+          "صححت את עשתרת إلى אית עשתרת بإعادة الياء المطبوعة.",
+          "صححت וישבנהו إلى וישבני: حذفت الهاء والواو غير المطبوعتين وأثبت الياء النهائية المطبوعة.",
+          "صححت את דאר إلى אית דאר، وאת חלת משכבי إلى אית חלת משכבי، بإعادة الياء المطبوعة في الموضعين.",
+          "طبعت العلامة العددية بقيمة [14] مع إبقاء التفسير في الملاحظات.",
+          "صححت מסך إلى מספר بإعادة الفاء والراء المطبوعتين.",
+          "أعدت السطور 6 و7 و15 إلى 22 سطرا مرقما كما طبعها Cooke، مع إبقاء بم في آخر السطر 7 وشכב في أول السطر 8.",
+          "صححت בדנם כי إلى בדנם כ، وכי אנך إلى כ אנך في موضعين، بحذف الياءات غير المطبوعة.",
+          "صححت אם בנן إلى אש בנן في السطر 15 بعد المقابلة على الصورة.",
+          "لم تحول المواضع المخرومة أو المختلف في قراءتها إلى نص جازم."
+        ],
+        "notes": "الترجمة المطبوعة مكتملة عبر الصفحتين 61 و63. النص الصامتي طويل وفيه ترميمات ومواضع مخرومة، لذلك بقي text_complete=false إلى مقابلة تخصصية ثانية للحروف نفسها.",
+        "double_transcription": {
+          "reading_exact_match": false,
+          "reading_levenshtein_distance": 65,
+          "reading_disagreement_rate": 0.04950495049504951,
+          "notation_loci_total": 1,
+          "notation_loci_differing": 1,
+          "visual_arbitration_required": true
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "checked-clean",
+          "checks_count": 9,
+          "blocker": null
+        }
+      }
     },
     {
       "record_id": "cooke1903:6",
@@ -313,8 +499,47 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "בירח מ[פע] בשת מלכ[ן]\nי מלך בדעשתרת מלך\nצדנם כ בן בדעשתרת\nמלך צדנם אית שרן אר[ץ]\n[ז] ל[א]לי לעשתרת",
+      "translation_collated": "In the month MP', in the year when king Bod-'ashtart, king of the Sidonians, came to the throne, (it was) that Bod-'ashtart, king of the Sidonians, built the plain of this land to his god 'Ashtart.",
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          71
+        ],
+        "text_complete": false,
+        "translation_complete": true,
+        "transcription_method": "مقابلة بشرية مباشرة لصورة PDF عند 220 dpi.",
+        "changes": [
+          "استعيدت الترجمة الكاملة؛ كان حقلها في مرشح الطبقة null.",
+          "صححت מפ[ע] إلى מ[פע] بنقل حد القوس إلى موضع Cooke، وصححت מלכן إلى מלכ[ן] بإعادة قوسي النون.",
+          "صححت ברעשתת إلى ברעשתרת في الموضعين بإعادة الراء المطبوعة.",
+          "صححت ברעשתרת إلى בדעשתרת في الموضعين: نقحرة Cooke ‏Bod-'ashtart أعادت الدال والراء إلى الصورة، فظهر الحرف داليت لا ريش.",
+          "صححت את שרן إلى אית שרן بإعادة الياء المطبوعة.",
+          "صححت לעשתת إلى לעשתרת بإعادة الراء المطبوعة.",
+          "حفظت أقواس الترميم المطبوعة في السطور 1 و4 و5.",
+          "فصل الشرح المعجمي المحيط عن مادة النقش."
+        ],
+        "notes": "أسقطت الترقية السابقة بعد المقابلة الحرفية الثانية؛ يبقى السجل جزئيا حتى دورة المراجعة الثالثة.",
+        "double_transcription": {
+          "reading_exact_match": false,
+          "reading_levenshtein_distance": 4,
+          "reading_disagreement_rate": 0.04,
+          "notation_loci_total": 0,
+          "notation_loci_differing": 0,
+          "visual_arbitration_required": true
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "corrected-then-clean",
+          "checks_count": 3,
+          "blocker": null
+        }
+      }
     },
     {
       "record_id": "cooke1903:7",
@@ -345,8 +570,42 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "המנחת ז אש יתן עבדמסכר רב עבר לספת\nרב שני בן בעלצלח לאדני לשלמן יברך",
+      "translation_collated": "This offering (is that) which 'Abd-miṣkar, governor of the other side of ṢPT, the second governor, son of Ba'al-ṣillaḥ, gave to his lord Shalman: may he bless!",
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          73
+        ],
+        "text_complete": false,
+        "translation_complete": true,
+        "transcription_method": "مقابلة بشرية مباشرة لصورة PDF عند 220 dpi.",
+        "changes": [
+          "استعيدت الترجمة الكاملة؛ كان حقلها في مرشح الطبقة null.",
+          "لم يتغير حرف في المرور الثاني: עבדמסכר وبقية السطرين يطابقان المطبوع في الصفحة 73.",
+          "عزل الشرح اللاحق عن نص الترجمة."
+        ],
+        "notes": "أبقي السجل جزئيا اتساقا مع إسقاط ترقيات الدفعة كلها حتى الدورة الثانية للمراجعة الثالثة.",
+        "double_transcription": {
+          "reading_exact_match": true,
+          "reading_levenshtein_distance": 0,
+          "reading_disagreement_rate": 0.0,
+          "notation_loci_total": 0,
+          "notation_loci_differing": 0,
+          "visual_arbitration_required": false
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "checked-clean",
+          "checks_count": 3,
+          "blocker": null
+        }
+      }
     },
     {
       "record_id": "cooke1903:8",
@@ -382,8 +641,48 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "... רת עלת ש̇מ̇א̇ל̇ק̇צ̇ר̇י̇... נפעל הסף ז\nבא̇בן̇ צ̇ר̇ ועוד̇ כסף [1070] טבע צ̇ר̇ משנ̇.\n... נדר עבדך אדנבעל השפט בן עמלך בן\n.. [השפט] בן ברמלקרת השפט בן העמלך\n.. [השפט] בן עמלך פעל אית חצי הסף ז\n... ת יתן אית החצי הסף ז\n... דל ... ד שפט בן ברמלקרת\n... צ̇א̇ת̇...... בן\n...[ע̇ב̇ד̇ב̇ע̇ל̇]...",
+      "translation_collated": null,
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          73,
+          75
+        ],
+        "text_complete": false,
+        "translation_complete": false,
+        "transcription_method": "مقابلة بشرية مباشرة لصورة PDF عند 220 dpi؛ قوبل النص في الصفحة 73 وتحقق في الصفحة 75 من أن ما يتلوه شرح مفردات لا ترجمة متصلة.",
+        "changes": [
+          "حفظت الفجوات والأقواس والعلامات العددية كما تظهر، ولم تحول إلى حروف متخيلة.",
+          "صححت את חצי הסף إلى אית חצי הסף بإعادة الياء المطبوعة.",
+          "صححت את החצי הסף إلى אית החצי הסף بإعادة الياء المطبوعة.",
+          "صححت ארנבעל إلى אדנבעל بتغيير الراء إلى داليت كما طبع Cooke.",
+          "أعدت نقط التلف العلوية بحرف U+0307 في שמאלקצרי ובאבן צר ועוד ובطبع צר משנ ובצאת ובעבדבעל.",
+          "أعدت الفجوات المرقطة وحدود القوس في السطور 4 إلى 9، من غير إكمال أي حرف.",
+          "وحّدت اصطلاح علامات السطر 2 إلى [1070] وفق القيمة التي يصرح بها Cooke، وحفظ وصف الشكل الخام في ملاحظات النسختين المستقلتين.",
+          "رفضت مادة الشرح في الصفحة 75 بوصفها ترجمة للنقش."
+        ],
+        "notes": "Cooke لا يطبع ترجمة إنجليزية متصلة لهذا النقش المخروم؛ ويبقى النص نفسه جزئيا إلى أن تقابل العلامات العددية والفجوات في دورة المراجعة الثالثة.",
+        "double_transcription": {
+          "reading_exact_match": false,
+          "reading_levenshtein_distance": 36,
+          "reading_disagreement_rate": 0.12949640287769784,
+          "notation_loci_total": 1,
+          "notation_loci_differing": 1,
+          "visual_arbitration_required": true
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "named-transliteration-unavailable",
+          "checks_count": 0,
+          "blocker": "لا يقدم Cooke ترجمة متصلة ولا نقحرة إنجليزية مسماة كافية للأعلام الظاهرة في هذا النقش في الصفحتين نفسيهما."
+        }
+      }
     },
     {
       "record_id": "cooke1903:9",
@@ -426,8 +725,47 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "[לאדן ל]בעל שמם אש נדר עבדאלם\nבן מתן בן עבדאלם בן בעלשמר\nבפלג לאדך אית השער ז והדלהת\nאשל פעלת בתכלתי בנתי בשת [180:2/5]\n[180:3/5] לאדן מלכם [143] שת לעם\nצר לכני לי לסכר ושם נעם\nתחת פעם אדני בעל שמם\nלעלם יברכן",
+      "translation_collated": "To the lord Ba'al-shamem (this is that) which 'Abd-elim, son of Mattan, son of 'Abd-elim, son of Ba'al-shamar, in the district of Laodicaea, vowed: - even this gate and the doors thereof I made in fulfilment of it (?); I built (this) in the year 180 of the lord of kings, the 143rd year of the people of Tyre, that it may be to me for a memorial and a good name under the foot of my lord Ba'al-shamem for ever: may he bless me!",
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          75
+        ],
+        "text_complete": false,
+        "translation_complete": true,
+        "transcription_method": "مقابلة بشرية مباشرة لصورة PDF عند 220 dpi؛ طبعت العلامات العددية بقيمتيها اللتين يصرح بهما Cooke في الترجمة.",
+        "changes": [
+          "استبدلت الحاشية اليونانية التي التقطها المرشح بالترجمة الفعلية في أعلى العمود الأيمن.",
+          "صححت את השער إلى אית השער بإعادة الياء المطبوعة.",
+          "صححت והדלת إلى והדלהת بإعادة الهاء المطبوعة قبل التاء الأخيرة.",
+          "صححت בשנת إلى בשת بحذف النون غير المطبوعة.",
+          "صححت וזו שנת לעם إلى שת לעם بحذف וזו كاملة وحذف النون غير المطبوعة.",
+          "صححت לזכר إلى לסכר: الزاي صارت سامخا كما في المطبوع.",
+          "صححت לכנ לי إلى לכני לי بإعادة الياء المطبوعة.",
+          "حفظت انقسام علامات 180: [180:2/5] في نهاية السطر 4 و[180:3/5] في بداية السطر 5، وبقيت [143] في موضعها."
+        ],
+        "notes": "أسقطت الترقية السابقة بعد كشف العبرنة الكتابية. تطبيع الرقمين معلن، والحروف المجاورة منسوخة كما طبعت، والسجل جزئي حتى دورة المراجعة الثالثة.",
+        "double_transcription": {
+          "reading_exact_match": false,
+          "reading_levenshtein_distance": 3,
+          "reading_disagreement_rate": 0.014354066985645933,
+          "notation_loci_total": 2,
+          "notation_loci_differing": 1,
+          "visual_arbitration_required": true
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "checked-clean",
+          "checks_count": 6,
+          "blocker": null
+        }
+      }
     },
     {
       "record_id": "cooke1903:10",
@@ -467,8 +805,48 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "ערפת כברת מצא שמש וצ\nפלו אש בן האלם מלאך מלך\nעשתרת ועברי בעל חמן\nלעשתרת באשרת אל חמן\nבשת [50] לפתלמים אדן\nמלכם האדר פעל נעם בן פת\nלמים וארסנאם אלן [אח]\nים שלש חמשם שת לעם [צר]\nכמאש בן אית כל אחרי...\n... ם אש בארץ לכנ לם ל...\n...... עלם",
+      "translation_collated": "The portico on the quarter (?) of the sun-rise and the north (side) of it, which the Elim, the envoys of Milk-'Ashtart and her servants, the citizens of Hammon, built to 'Ashtart in the asherah (?), the god of Hammon, in the 50th year of Ptolemy, lord of kings, the noble, the beneficent, son of Ptolemy and Arsinoe, the divine Adelphoi, in the three (and) fiftieth year of the people of [Tyre]; as also they built all the rest ..... which . in the land, to be to them for ..... ever.",
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          79
+        ],
+        "text_complete": false,
+        "translation_complete": true,
+        "transcription_method": "مقابلة بشرية مباشرة لصورة PDF عند 220 dpi؛ طبعت العلامة العددية بقيمة [50] المصرح بها في الترجمة.",
+        "changes": [
+          "استبدلت الحاشية التي التقطها المرشح بالترجمة الفعلية تحت النص في العمود الأيسر.",
+          "صححت חמץ إلى חמן في الموضعين: الصاد النهائية صارت نونا نهائية كما في المطبوع.",
+          "صححت בשנת إلى בשת بحذف النون غير المطبوعة.",
+          "صححت לפלמים إلى לפתלמים بإعادة التاء المطبوعة.",
+          "صححت שנת לעם إلى שת לעם بحذف النون غير المطبوعة.",
+          "صححت את כל إلى אית כל بإعادة الياء المطبوعة.",
+          "صححت ... אם אש إلى ... ם אש بحذف الألف التي أتمت الكلمة تخمينا عبر فجوة النقش.",
+          "صححت אלן [א] إلى אלן [אח] بإعادة الحاء المرممة المطبوعة قبل انقسام אחים بين السطرين 7 و8.",
+          "حفظت 11 سطرا مطبوعا مع فجواتها وأقواسها."
+        ],
+        "notes": "أسقطت الترقية السابقة؛ يبقى السجل جزئيا حتى تدقيق العدسة الثالثة لكل حرف وفجوة.",
+        "double_transcription": {
+          "reading_exact_match": false,
+          "reading_levenshtein_distance": 11,
+          "reading_disagreement_rate": 0.046413502109704644,
+          "notation_loci_total": 1,
+          "notation_loci_differing": 1,
+          "visual_arbitration_required": true
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "checked-clean",
+          "checks_count": 6,
+          "blocker": null
+        }
+      }
     },
     {
       "record_id": "cooke1903:11",
@@ -507,8 +885,47 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "a ..ו סכן קרתחדשת עבד חרם מלך צדנם או יתן לבעל לבנן אדני\na′ ... בראשת נחשת ח...\nb .. טב סכן קרתחדשת\nc [לב]על לבנן אדני",
+      "translation_collated": "a ... governor of Qarth-hadasht, servant of Hiram, king of the Sidonians, gave this to Ba'al of Lebanon, his lord, of choicest bronze.\n\nb ... ṬB, governor of Qarth-hadasht.\n\nc to Ba'al of Lebanon, his lord.",
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          83
+        ],
+        "text_complete": false,
+        "translation_complete": true,
+        "transcription_method": "مقابلة بشرية مباشرة لصورة PDF عند 220 dpi؛ حفظت أقسام الشظايا a وb وc منفصلة.",
+        "changes": [
+          "حذفت الشرح الأثري المطول الذي كان ملحقا بمرشح الترجمة.",
+          "صححت חרס إلى חרם: السامخ الأخيرة صارت ميما نهائية كما في المطبوع.",
+          "صححت צרנם إلى צדנם: الراء صارت داليت كما في المطبوع.",
+          "أثبت טב في الشظية b بعد مقابلته ثانية.",
+          "أعدت الواو الباقية بعد فجوة مطلع الشظية a، وفصلت الشظية a′ باسمها المطبوع.",
+          "صححت c לבעל إلى c [לב]על بحفظ قوسي الترميم حول לב وحدهما.",
+          "حفظت نقطتي الفجوة قبل טב في الشظية b وثلاث نقط قبل בראשת في الشظية a′.",
+          "حفظت حدود الشظايا الثلاث كما يطبعها Cooke."
+        ],
+        "notes": "أسقطت الترقية السابقة؛ تبقى الشظايا جزئية حتى الدورة الثانية للمراجعة الثالثة.",
+        "double_transcription": {
+          "reading_exact_match": false,
+          "reading_levenshtein_distance": 10,
+          "reading_disagreement_rate": 0.08403361344537816,
+          "notation_loci_total": 0,
+          "notation_loci_differing": 0,
+          "visual_arbitration_required": true
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "checked-clean",
+          "checks_count": 5,
+          "blocker": null
+        }
+      }
     },
     {
       "record_id": "cooke1903:12",
@@ -547,8 +964,45 @@
         "heading_transcribed_from_pdf": false,
         "requires_pdf_visual_check_before_citation": true
       },
-      "status": "candidate-requires-visual-check",
-      "judgment": "not-issued"
+      "status": "visual-collation-partial",
+      "judgment": "not-issued",
+      "consonantal_text_collated": "בימם [6] לירח בל בשנת [21] למלך פמיתן מלך כתי ו\nאדיל ותמשש בן מלך מלכיתן מלך כתי ואדיל מזבח א[ו]\nוארום אשנם [2] אש יתן בדא כהן רשפחץ בן יכנש\nלם בן אשמנאדן לאדני לרשפחץ יברך",
+      "translation_collated": "On the 6th day of the month Bul, in the 21st year of ki[ng Pumi-yathon, king of Kition and] Idalion and Tamassos, son of king Milk-yathon, king of Kition and Idalion. This altar and two hearths (?) (are they) which Bodo, priest of Reshef-hes, son of Yakun-shalom, son of Eshmun-adon, gave to his lord Reshef-hes. May he bless!",
+      "visual_collation": {
+        "batch_id": "cooke-phoenician-visual-collation-batch-01",
+        "batch_path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+        "collated_on": "2026-07-25",
+        "source_pages_visually_checked": [
+          85
+        ],
+        "text_complete": false,
+        "translation_complete": true,
+        "transcription_method": "مقابلة بشرية مباشرة لصورة PDF عند 220 dpi؛ طبعت العلامات العددية بقيم 6 و21 و2 المصرح بها في الترجمة.",
+        "changes": [
+          "استعيدت الترجمة الكاملة؛ كان حقلها في مرشح الطبقة null.",
+          "صححت בימים إلى בימם بحذف الياء غير المطبوعة، وפמייתן إلى פמיתן بحذف ياء العبرنة.",
+          "صححت אריל إلى אדיל في موضعين، وأعدت الشين الثانية في ותמשש.",
+          "صححت וארומם إلى וארום بحذف الميم الزائدة، وלארני إلى לאדני بتغيير الراء إلى داليت.",
+          "استبدلت العلامات العددية بقيم بين أقواس مربعة مع التصريح بالطريقة.",
+          "صححت ברא إلى בדא: نقحرة Cooke ‏Bodo أعادت التباس الدال والراء إلى الصورة، فظهر الحرف داليت."
+        ],
+        "notes": "أبقي السجل جزئيا اتساقا مع إسقاط ترقيات الدفعة كلها حتى الدورة الثانية للمراجعة الثالثة.",
+        "double_transcription": {
+          "reading_exact_match": false,
+          "reading_levenshtein_distance": 15,
+          "reading_disagreement_rate": 0.08571428571428572,
+          "notation_loci_total": 3,
+          "notation_loci_differing": 3,
+          "visual_arbitration_required": true
+        },
+        "transliteration_control": {
+          "control_id": "cooke-transliteration-control-batch-01",
+          "control_path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+          "status": "corrected-then-clean",
+          "checks_count": 9,
+          "blocker": null
+        }
+      }
     },
     {
       "record_id": "cooke1903:13",

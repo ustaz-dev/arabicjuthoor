@@ -1,0 +1,51 @@
+{
+  "schema": "lane-c-ie-discovery-results-v1",
+  "date": "2026-07-29",
+  "proof_line": "frozen",
+  "languages": {
+    "ancient_greek": {
+      "cards": 86,
+      "positive": 1,
+      "closures": 3,
+      "open": 82
+    },
+    "latin": {
+      "cards": 34,
+      "positive": 1,
+      "closures": 1,
+      "open": 32
+    },
+    "persian": {
+      "cards": 192,
+      "positive": 2,
+      "closures": 24,
+      "open": 166
+    },
+    "gothic": {
+      "cards": 197,
+      "positive": 2,
+      "closures": 3,
+      "open": 192
+    },
+    "old_norse": {
+      "cards": 192,
+      "positive": 5,
+      "closures": 2,
+      "open": 185
+    },
+    "welsh": {
+      "cards": 100,
+      "positive": 1,
+      "closures": 14,
+      "open": 85
+    }
+  },
+  "totals": {
+    "cards": 801,
+    "positive": 12,
+    "closures": 47,
+    "open": 742
+  },
+  "post_zero_step_retractions": 18,
+  "post_zero_step_additions": 1
+}
