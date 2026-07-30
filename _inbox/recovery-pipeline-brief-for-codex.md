@@ -548,3 +548,35 @@ Cooke تكمل بعشرة سجلات في اليوم على الأكثر، فه�
 سطرانِ في نهايةِ تقريرِه: **الملفّاتُ التي كتبَ فيها بأسمائِها**، و**الرقمانِ المفصولان**: كم صلةً موجبةً وكم إغلاقًا. لا يجمعُهما، ولا يودعُ شيئًا، ولا يشغّلُ لقطةً.
 
 *English abstract (section 23, the parallel protocol):* Four industrial sessions run concurrently in one working copy, so the only real hazard is two of them writing the same file. Exclusive file ownership removes it: lane A owns Aramaic and Hebrew, lane B Egyptian and Coptic, lane C the six Indo-European readings, and lane D owns no reading file at all, reading everything and writing only its own new document. A lane that spots an error in another lane's file records it as a note and moves on. Four prohibitions are absolute and outrank every earlier instruction: no git command of any kind, since four sessions contending for the index corrupt it and the work is instead left uncommitted for the author or the third lens to land afterwards; no running of any tool that rebuilds a shared file from all readings, since a rebuild while another lane writes produces a deformed artifact, so ledger, snapshot, eligibility and registry builds happen once at the end outside the lanes; no editing of any shared script, each lane prefixing any new tool with its own lane name; and no editing of the brief, the shared data exports, the constitution or the charter, which are read-only. Only read-only gates are run, and any check comparing a shared rebuilt file is ignored, its failure not counted, because that file is deliberately stale until the lanes finish. Each lane ends by naming the files it wrote and reporting two separated numbers, links and closures.
+## 24. أسبوعُ العملِ المتوازي الثاني: أربعُ مساراتٍ لسبعةِ أيّامٍ لكلٍّ منها (2026-07-29)
+
+**بروتوكولُ التوازي في القسم 23 نافذٌ بحرفِه**، وملكيّةُ الملفّاتِ تتغيّرُ كما في الجدولِ أدناه. ولا git، ولا تشغيلَ لأداةٍ تعيدُ بناءَ ملفٍّ مشترك، ولا مساسَ بخطِّ البرهانِ المجمَّد.
+
+### حالةُ الأرضيّةِ يومَ التكليف
+
+1,006 صلةً في 6,235 بطاقةً عبرَ ثلاثةَ عشرَ لسانًا. والآراميّةُ 370 صلةً في 2,159 بطاقة، والعبريّةُ 266 في 1,229 معَ جردٍ يحملُ 11,852 أسرةً لم يُقرأْ عُشرُها، والقبطيّةُ 143 والمصريّةُ 107، وكلُّ لسانٍ هندوأوروبيٍّ عندَ مئتَي بطاقةٍ لا غير.
+
+### قاعدةُ التغطيةِ الكاملة، وهي الجديدُ في هذا الأسبوع
+
+أجابَ المسارُ ب بصدقٍ أنّه كتبَ بطاقةً للناجحِ وحدَه، فصارَ عائدُه غيرَ قابلٍ للمقارنةِ بغيرِه. **فمن اليوم: تُكتَبُ بطاقةٌ لكلِّ عضوٍ يُفحَص، نجحَ أو لم ينجحْ.** العضوُ الذي لا يعطي صلةً تُكتَبُ بطاقتُه بحكمٍ غيرِ صادرٍ وسببِه، والذي يُغلَقُ قرضًا أو علمًا تُكتَبُ بطاقتُه بإغلاقِه.
+
+**وبغيرِ هذا لا يُعرَفُ المقام، ولا يُقارَنُ لسانٌ بلسان، ولا يُعرَفُ أَعاليَ العائدُ في الآراميّةِ لأنّ الآراميّةَ أختٌ أم لأنّنا انتقينا فيها.** وهذه هي الفائدةُ الحقيقيّةُ من أسبوعٍ كامل: لا عددُ الصلاتِ بل صدقُ نسبتِها.
+
+### المساراتُ الأربعةُ وملكيّاتُها
+
+| المسار | يملك | مهمّةُ الأسبوع |
+|---|---|---|
+| **أ** | `aramaic.md` و`hebrew.md` | العبريّةُ هي الميدان: 11,852 أسرةً في الجرد، المقروءُ منها أقلُّ من العُشر |
+| **ب** | `egyptian.md` و`coptic.md` | إعادةُ المسحِ بتغطيةٍ كاملةٍ حتى يصيرَ عائدُهما معلومًا |
+| **ج** | الألسنُ الهندوأوروبيّةُ الستّة | من مئتَي بطاقةٍ لكلِّ لسانٍ إلى ألف |
+| **د** | ملفّانِ جديدانِ يُنشئُهما: `old-english.md` و`old-irish.md` | فتحُ لسانَينِ لم يُفتَحا قطّ |
+
+### لماذا الإنجليزيّةُ القديمةُ والإيرلنديّةُ القديمةُ للمسارِ د
+
+ذخيرتُهما في `Resources/english_old` و`Resources/old_irish` ولم تُمَسّا. **وفائدتُهما تثليثُ فرعَينِ نقيسُهما بلسانٍ واحدٍ اليوم:** الإنجليزيّةُ القديمةُ جرمانيّةٌ غربيّةٌ تثلّثُ القوطيّةَ والنورديّة، والإيرلنديّةُ القديمةُ كلتيّةٌ تثنّي الويلزيّة. فإن خرجَ الفرعُ الجرمانيُّ بعائدٍ متقاربٍ في ثلاثةِ ألسنٍ مستقلّةٍ كانَ ذلك أقوى بكثيرٍ من خروجِه في لسانٍ واحد، **وإن تباعدَت الثلاثةُ فذلكَ خبرٌ نافعٌ أيضًا يقولُ إنّ العائدَ يتبعُ اللسانَ لا الفرع**.
+
+### ما لا يتغيّرُ من الشهرِ الماضي
+
+محاورُ المقارنةِ الخمسةُ كما هي، والمدارُ سطرٌ صريحٌ في كلِّ بطاقة، والمصدرانِ العربيّانِ القديمانِ المسمَّيانِ شرطُ كلِّ صلة، وقالبُ RECOVERY-v2 بحقولِه كلِّها ومنها إشعاعُ الأسرةِ في الجهتَين. ولا اختلاقَ لسالبٍ ولا اختراعَ لصفٍّ صوتيّ. والرقمانِ المفصولانِ بعدَ كلِّ دفعة.
+
+*English abstract (section 24, the second parallel week):* The parallel protocol of section 23 stays in force with new file ownership. Ground state at commissioning: 1,006 links across 6,235 cards in thirteen languages, with Hebrew holding 11,852 inventory families of which under a tenth is read, and every Indo-European language sitting at exactly two hundred cards. The week's new rule is full coverage: because lane B answered honestly that it wrote a card only for successes, its yield became incomparable, so from now a card is written for every member examined, whether it yields a link, a closure or no verdict at all. Without that the denominator is unknown, no language can be compared with another, and it cannot be known whether Aramaic's high yield reflects its sisterhood or our selection; that honesty of ratio, not the count of links, is the real gain from a full week. Lane A takes Hebrew as its field, lane B re-sweeps Egyptian and Coptic under full coverage, lane C raises each of the six Indo-European languages from two hundred cards to a thousand, and lane D opens two languages never opened, Old English and Old Irish, whose value is triangulation: Old English is West Germanic and triangulates Gothic and Norse, Old Irish is Celtic and doubles Welsh, so a consistent branch yield across three independent languages is far stronger than across one, and a divergent one is equally informative since it would say the yield follows the language rather than the branch.

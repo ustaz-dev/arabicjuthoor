@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 13,
-  "cards_total": 6035,
+  "cards_total": 6235,
   "by_language": [
    {
     "key": "aramaic",
@@ -24,15 +24,15 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 651,
-    "links": 37
+    "cards": 721,
+    "links": 107
    },
    {
     "key": "coptic",
     "en": "Coptic",
     "ar": "القبطيّة",
-    "cards": 407,
-    "links": 13
+    "cards": 537,
+    "links": 143
    },
    {
     "key": "ancient-greek",
@@ -100,12 +100,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 806,
+  "links_to_arabic": 1006,
   "closures": 559,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
     "count": 636,
+    "link": true
+   },
+   {
+    "name": "NUCLEUS-TRACE",
+    "count": 233,
     "link": true
    },
    {
@@ -132,11 +137,6 @@
     "name": "NONLEXICAL-ISOLATED",
     "count": 60,
     "link": false
-   },
-   {
-    "name": "NUCLEUS-TRACE",
-    "count": 33,
-    "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
