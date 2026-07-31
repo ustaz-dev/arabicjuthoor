@@ -147,3 +147,29 @@
 ---
 
 *English abstract.* The cross-tongue exploration charter: how any researcher or future AI instance explores a language's connection to the old Arabic tongue at whichever stage the branch preserved: the full trilateral root, the binary nucleus, or the letter's articulation event itself. Spirit clauses: never demand of a branch a stage it did not preserve, and never refuse the gift of a fuller match; exploration presumes possibility, and chance is measured wholesale at the pre-registered verification layer. The 2026-07-14 recovery gate requires sound-first candidate generation, a full Arabic-root sense fan from independent lexica, explicit homonym and etymology separation, descendant and cross-branch witnesses, and a closure state distinct from the verdict. Tool, law, and source gaps may not be mislabeled `NO-TRACE`; only a completed `CLOSED-NO-TRACE` search can receive that verdict. Promotion to verification happens only by the author's order under the constitution's control-arm protocol.
+## 6. القراءةُ بطبقتَينِ دائمًا، لا بطبقةٍ ثمّ أخرى (نافذةٌ من 2026-07-30)
+
+**العطبُ المقيس:** كانَ البروتوكولُ يبدأُ بالجذرِ الكاملِ ولا ينزلُ إلى النواةِ الثنائيّةِ إلّا إذا فشلَ الجذر. **فصارَت النواةُ مخرجَ فشلٍ لا طبقةَ بحث.** وقياسُ 1,316 صلةً في 2026-07-30 كشفَ أثرَ ذلك:
+
+| المستوى | العدد | النسبة |
+|---|---:|---:|
+| الجذرُ الثلاثيّ | 1,005 | 76% |
+| النواةُ الثنائيّة | 306 | 23% |
+
+**وتوزيعُها على الألسنِ هو الكشفُ الحقيقيّ:**
+
+| اللسان | جذر | نواة |
+|---|---:|---:|
+| الآراميّة | 513 | 16 |
+| العبريّة | 325 | 15 |
+| القبطيّة | 16 | **135** |
+| المصريّة | 26 | **88** |
+| الإيرلنديّة القديمة | 6 | **19** |
+
+**في الأخواتِ الساميّةِ نجدُ جذورًا، وفي الفروعِ البعيدةِ نجدُ نُوى.** وهذا عينُ ما تتنبّأُ به نظريّةُ المؤلّف: **الجذرُ الثلاثيُّ طورٌ متأخّرٌ فيبقى حيثُ قربَ الفرع، والنواةُ الثنائيّةُ طورٌ أقدمُ فهي وحدَها ما يبقى حينَ يبعُد.** ولم يُوجَّهْ أحدٌ إلى هذه النتيجة، بل خرجَت من القياسِ وحدَها.
+
+**والقاعدةُ النافذة:** تُقرَأُ الطبقتانِ معًا في كلِّ بطاقةٍ ولكلِّ عضو، **لا الجذرُ ثمّ النواةُ عندَ الفشل**. والعضوُ الواحدُ قد يحملُ صلةَ جذرٍ وصلةَ نواةٍ مختلفتَين، فتُسجَّلانِ كلتاهما ولا تُغني إحداهما عن الأخرى.
+
+**والأثرُ المتوقَّع:** الآراميّةُ والعبريّةُ قُرِئَتا بعينِ الجذرِ وحدَها، فـ841 صلةَ جذرٍ مقابلَ 31 نواةً فقط. **فإعادةُ قراءتِهما بعينِ النواةِ أكبرُ عرقٍ لم يُحفَرْ في المشروعِ كلِّه.**
+
+*English abstract (charter section 6):* The protocol used to begin at the full triliteral root and descend to the binary nucleus only when the root failed, which turned the nucleus into an exit from failure rather than a layer of search. Measurement of 1,316 links on 2026-07-30 showed the cost: 76 percent of links sit at root level and 23 percent at nucleus level, but their distribution across languages is the real discovery, since Aramaic yields 513 root links against 16 nucleus ones while Coptic yields 16 root against 135 nucleus and Egyptian 26 against 88. Close Semitic sisters give roots; distant branches give nuclei. That is exactly what the author's theory predicts, the triliteral root being a later stage that survives where the branch is near, and the binary nucleus an older stage that alone survives when the branch is far; nobody steered the pipeline toward this result, it emerged from measurement. The rule is therefore that both layers are read together for every member in every card, never root first and nucleus on failure, and one member may carry a root link and a nucleus link at once, both recorded, neither substituting for the other. Aramaic and Hebrew were read with a root-only eye, 841 root links against 31 nucleus, so re-reading them at nucleus level is the largest unmined seam in the project.

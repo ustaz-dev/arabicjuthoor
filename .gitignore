@@ -42,3 +42,7 @@ Resources/*
 logs/
 cache/
 .codex-remote-attachments/
+
+# full-coverage sweep: raw lines are too large for git; the denominator lives in data/coverage-summary.json
+04-cross-linguistic/data/lane_*_coverage.jsonl
+Data raw/coverage/

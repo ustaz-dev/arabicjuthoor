@@ -611,3 +611,113 @@ Cooke تكمل بعشرة سجلات في اليوم على الأكثر، فه�
 كلُّ محضرٍ يحملُ سطرًا واحدًا يقولُ: **من أينَ بدأت هذه الدفعةُ وأينَ انتهت، وكم بقيَ في الجردِ بعدَها**. بهذا يُستأنَفُ العملُ من موضعِه بأيِّ جلسةٍ جديدةٍ بلا إعادةِ عملٍ ولا تخطّي مواضع.
 
 *English abstract (section 25, the standing queue rule):* The diagnosed defect is that the previous round gave lanes numeric targets, so a lane that met its target stopped and came back for permission, turning the author into a courier between four sessions. The fault is in the commissioning, not the executor. From now, and overriding every numeric target in any earlier or later commission: lanes are given their whole ordered inventory rather than a number, and work it batch after batch until it is empty, the final count being a measured result rather than a chased goal. Continuation is automatic and unasked: after each batch the lane writes its record and its two separated numbers and immediately begins the next batch, without waiting for approval, review or encouragement, since third-lens review runs on the accumulated result at the end of the period and not between batches. A lane genuinely stops in only three cases: its inventory is empty and it says so with a measured count of what remains; the session's time or budget runs out, in which case it records exactly where it stopped so work resumes from there; or it meets a question only the author can answer, which is strictly a new sound law, a new source to buy or download, or a change to a frozen file, and even then it records the question, skips that position and continues rather than halting everything for one entry. Reaching a number, finishing one of its two languages, a batch yielding no link at all, wanting to present a result, or suspecting the work has become repetitive are none of them reasons to stop. Every record carries one line stating where the batch began, where it ended, and how much of the inventory remains, so any new session resumes from the exact position without repeating or skipping work.
+## 26. علاجُ التخذيل: خمسُ قواعدَ تُرفَعُ أو تُقيَّدُ فورًا (2026-07-30، بأمرِ المؤلّف «نفّذ العلاج»)
+
+**السند:** اعترضَ المؤلّفُ على انخفاضِ العائد، فقِيسَ اعتراضُه فثبت. والمحضرُ الكاملُ في `05-audits/2026-07-30-diagnosis-rules-that-suppress-discovery.md`. **ستُّ آليّاتٍ تمنعُ الخطَّ من إيجادِ الصلات، وكلُّها من صنعِ العدسةِ الثالثةِ لا من تقصيرِ المنفّذ.** وهذه القواعدُ الخمسُ تنسخُ ما يخالفُها في كلِّ قسمٍ سابق.
+
+### القاعدةُ الأولى: لا إغلاقَ في الفراغ
+
+**لا تُغلَقُ صورةٌ صرفيّةٌ بوصفِها صورةً إلّا إذا كانَ أصلُها مكتوبًا بطاقةً ومحكومًا فيه بحكمٍ صادر.** وإن لم يكنْ فأحدُ أمرَين: يُقرَأُ الأصلُ أوّلًا ثمّ تُحالُ إليه الصورة، أو تُحكَمُ الصورةُ بنفسِها.
+
+**المقيسُ في العبريّة: 3,351 صورةً أُغلِقَت بالإحالة، 92 منها فقط أصلُها يحملُ صلة، أي ضياعُ 97.3%.** فالخطُّ يقولُ في `אחי` «انظرْ إلى `אח`» ثمّ لا ينظرُ أحد، فلا تُقابَلُ `أخ` أبدًا. **الإحالةُ جسرٌ لا مقبرة.**
+
+### القاعدةُ الثانية: يُرفَعُ استبعادُ غيرِ المعجميِّ رفعًا تامًّا من الاكتشاف
+
+**الأعدادُ والضمائرُ والأدواتُ تُقارَنُ كسائرِ الكلمات، بل هي أولى.** فهي أقلُّ المفرداتِ قابليّةً للاقتراضِ وأقواها دلالةً على القرابةِ في السامياتِ كلِّها، وبها تُفتَحُ كلُّ نحوٍ مقارن.
+
+المطروحُ 310 مواضعَ منها 188 عددًا وضميرًا، وفيها `אני ↔ أنا` و`אתה ↔ أنتَ` و`הוא ↔ هو` و`היא ↔ هي` و`הן ↔ هنّ` و`מה ↔ ما` و`אחד ↔ أحد` و`עסרין ↔ عشرين` و`ארבעין ↔ أربعين` و`שבעין ↔ سبعين` و`תמנאין ↔ ثمانين` و`מאתן ↔ مئتين` و`חמשמאא ↔ خمسمئة`. **وهذه أقربُ ما في الحصادِ إلى التطابقِ التامّ.**
+
+وقاعدةُ `nonlexical_rule: exclude` تبقى في خطِّ البرهانِ وحدَه، وهو مجمَّدٌ أصلًا.
+
+### القاعدةُ الثالثة: لا إغلاقَ قرضٍ بلا مانحٍ مسمًّى
+
+**هذا ليسَ تخفيفًا بل إنفاذًا لقانونٍ وقّعَه المؤلّفُ في 2026-07-23**، وفيه أنّ الكلمةَ المشتركةَ بينَ الأخواتِ بلا مانحٍ مسمًّى **لا تُوسَمُ قرضًا أبدًا، بل هي إرثٌ مشترك**، وهو القانونُ الذي أثارَه سؤالُ الزيت.
+
+**المقيس: 501 موضعًا أُغلِقَت قرضًا بلا مانحٍ مسمًّى** (440 عبريّة و61 آراميّة)، بعباراتٍ من جنسِ «يعزلُ وسمَ القرضِ الآليّ، لا يثبتُ الاتجاه». **ووسمٌ آليٌّ لا يثبتُ اتجاهًا ليسَ قرضًا، والقانونُ الموقَّعُ يمنعُ إغلاقَه.** تُعادُ هذه كلُّها إلى الحكم، ولا يُغلَقُ قرضٌ إلّا بمانحٍ مسمًّى ومسارٍ منشور.
+
+### القاعدةُ الرابعة: العلَمُ يُستخرَجُ جذرُه ولا يُرمى
+
+قاعدةُ الأعلامِ الموقَّعةُ تقولُ: **تُستبعَدُ من البسطِ الأوّلِ وتُحفَظُ في جردٍ مستقلّ**. وقد استُبعِدَت 1,611 علمًا **ولم يُمَسَّ ذلك الجردُ قطّ**. والأعلامُ الساميّةُ مبنيّةٌ على جذورٍ ظاهرة: `ביתלחם` هي بيتُ لحمٍ حرفًا بحرف، و`אדרמלך` فيها `מלך ↔ ملك`، و`שאול` من `שאל ↔ سأل`.
+
+**فيُقرَأُ جذرُ كلِّ علمٍ ويُسجَّلُ في جردِ الأعلام**، ويبقى خارجَ البسطِ الإحصائيِّ كما وُقِّع، **لكنّه يدخلُ الاكتشافَ شاهدًا على الجذر**. والاستبعادُ من العدِّ غيرُ الاستبعادِ من النظر.
+
+### القاعدةُ الخامسة: يُعادُ فتحُ كلِّ ما ضاع
+
+تُعادُ إلى الحكمِ كلُّ المواضعِ التي أغلقَتها القواعدُ الأربعُ السابقة: نحوَ 3,259 صورةً صرفيّةً و188 موضعًا أساسيًّا و501 قرضًا بلا مانحٍ و1,611 علمًا يُستخرَجُ جذرُه، **أي قرابةَ خمسةِ آلافِ موضعٍ في لسانَينِ فقط**، وما يقابلُها في سائرِ الألسن.
+
+### القاعدةُ الحاكمةُ لكلِّ ما سبق
+
+**في طورِ الاكتشافِ يُوسَّعُ ثمّ يُقلَّم، وفي طورِ البرهانِ يُضيَّقُ ثمّ يُقاس.** وكلُّ قاعدةٍ صُمِّمَت لتمنعَ نفخَ معدَّلٍ إحصائيٍّ لا محلَّ لها في الاكتشاف، فالمطلوبُ هنا نقيضُها: أن نجدَ كلَّ صلةٍ ممكنةٍ ونسمّيَ دليلَها، والتقليمُ بعد. **وما يبقى من الحرصِ قيدانِ لا ثالثَ لهما: لا تُختلَقُ صلةٌ بلا مصدرَينِ مسمَّيَين، ولا يُخترَعُ صفٌّ صوتيٌّ غيرُ موقَّع.**
+
+*English abstract (section 26, the cure):* The author objected that the yield was too low, the objection was measured and confirmed, and six mechanisms were found suppressing discovery, all of them created by the third lens. Five rules now override anything contrary in earlier sections. First, no closure into a void: an inflected form may be closed by referral only if its base is itself carded and judged, since of 3,351 Hebrew forms closed by referral only 92 point at a base carrying a link, a 97.3 percent loss, so that the pipeline says of ahi to look at ah and nobody ever looks, and akh is never matched; referral is a bridge, not a grave. Second, the non-lexical exclusion is lifted entirely from discovery, because numerals and pronouns are the least borrowable and most probative vocabulary in Semitic comparison, and the 188 discarded include ani and ana, hu and huwa, hi and hiya, hen and hunna, ma and ma, ehad and ahad, and the tens and hundreds, which are the closest matches in the whole harvest; the exclusion remains only in the frozen proof line. Third, no loan closure without a named donor, which is not a relaxation but enforcement of the loan-depth law the author signed on 2026-07-23, under which a sister-shared word with no named donor is common inheritance and never tagged a loan; 501 positions were closed on an automatic tag that explicitly failed to establish direction. Fourth, a proper name has its root read and recorded in the names inventory the signed rule already requires and which was never touched, since Semitic names are built on visible roots, Bethlehem being bayt plus lahm letter for letter; exclusion from the count is not exclusion from sight. Fifth, everything the four rules closed is reopened, about five thousand positions in two languages alone. The governing principle: discovery widens then prunes, proof narrows then measures, and any rule designed to stop a statistical rate from inflating has no place in discovery, where only two guards remain, that no link is asserted without two named sources and no sound row is invented.
+## 27. القاعدةُ السادسة: المصفاةُ تعرفُ الاتّجاه (2026-07-30)
+
+**العيبُ المقيس:** تعزلُ المصفاةُ كلَّ كلمةٍ لها مسارُ اقتراضٍ منشور، **بلا أن تنظرَ في أيِّ اتّجاهٍ سارَت الكلمة**. فالكلمةُ التي انتقلَت **من** الساميّةِ **إلى** الفرعِ تُرمى كما تُرمى الكلمةُ الداخلةُ على الفرعِ من طرفٍ ثالث. **وهذا يرمي الدعوى نفسَها ماثلةً للعيان.**
+
+**المقيس: 4,642 موضعًا مرفوضًا تُصرّحُ بطاقتُه بأنّ مصدرَه ساميّ.** ومنها في اليونانيّةِ وحدَها:
+
+| اللفظ | ما تقولُه البطاقة |
+|---|---|
+| `κάμηλος` | «المصدرُ يصرّحُ بأنّ اللفظَ في النهايةِ من Proto-West Semitic \*gamal-» |
+| `κᾰ́ννᾱ` | «أكاديّة qanûm ثمّ يونانيّة ثمّ لاتينيّة canna» |
+| `κάβος` | «`from hebrew` في حقلِ الاشتقاق» |
+| `κόρος` | «مسارٌ منشورٌ `from akkadian`» |
+| `ἄλφα` و`γάμμα` و`δέλτα` | **أسماءُ حروفِ الأبجديّةِ اليونانيّةِ نفسِها** |
+
+**أبجديّةُ اليونانِ مرفوضةٌ من ملفِّنا**، وهي من `ألف` و`جمل` و`دلت` الساميّة.
+
+### القاعدة
+
+**تُصنَّفُ المصفاةُ ثلاثةَ أصنافٍ بحسبِ اتّجاهِ المسار، لا صنفًا واحدًا:**
+
+1. **من الساميّةِ إلى الفرع** (اللفظُ خرجَ من دارِنا فدخلَ دارَهم): **يُحفَظُ ويُعرَضُ بوسمِ `SEMITIC-SOURCE-TRANSMISSION`**. لا يدخلُ بسطَ الإرثِ المشترك، لأنّ الإرثَ غيرُ الانتقال، **لكنّه دليلٌ ظاهرٌ يُرى ويُعَدُّ في بابِه**، ويُذكَرُ فيه المصدرُ الذي صرّحَ بالاتّجاه.
+2. **من طرفٍ ثالثٍ إلى الفرع** (لاتينيّةٌ إلى ويلزيّة، يونانيّةٌ إلى إنجليزيّةٍ قديمة): **يُستبعَدُ بحقّ**، فلا شأنَ لنا به.
+3. **من غيرِ العربيّةِ إلى العربيّة**: **يُستبعَدُ بحقّ** كذلك، وهو قانونُ عمقِ القرضِ الموقَّع.
+
+**والحالةُ الرابعةُ الباقيةُ حكمُها ما وقّعَه المؤلّفُ في 2026-07-23:** كلمةٌ مشتركةٌ بينَ الأخواتِ **بلا مانحٍ مسمًّى ولا اتّجاهٍ مثبَت** ليست قرضًا أصلًا بل إرثٌ مشترك، فتعودُ إلى الحكمِ العاديّ.
+
+### لماذا يُحفَظُ الصنفُ الأوّلُ ولا يُدمَجُ في البسط
+
+لأنّ خلطَ الانتقالِ بالإرثِ يفسدُ الدعوى، وفصلَهما يقوّيها. **فالقولُ «هذه اللفظةُ ورثتْها اللغتانِ عن أصلٍ واحد» غيرُ القولِ «هذه اللفظةُ خرجَت من الساميّةِ فدخلَت اليونانيّة»**، والثاني أقوى إثباتًا وأسهلُ دفاعًا لأنّ المعاجمَ الغربيّةَ نفسَها تقرّرُه. فيُعرَضانِ بابَين متجاورَين، ولا يُخلَطان، ولا يُرمى أحدُهما.
+
+*English abstract (section 27, the sixth rule):* The measured defect is that the loan screen isolates any word with a published borrowing route without ever asking which way the word travelled, so a word that passed from Semitic into the branch is discarded exactly like a word entering the branch from a third party, which throws away the thesis in its most visible form. The count is 4,642 rejected positions whose own cards state a Semitic source, including in Greek alone kamelos, whose card says the source declares it ultimately from Proto-West Semitic gamal, kanna from Akkadian qanum through Greek into Latin canna, kabos marked from hebrew, koros marked from akkadian, and alpha, gamma and delta, the names of the Greek letters themselves, which come from Semitic alef, gimel and dalet; the Greek alphabet is being rejected from our own files. The rule therefore splits the screen three ways by direction instead of one: a route from Semitic into the branch is kept and shown under the tag SEMITIC-SOURCE-TRANSMISSION, outside the shared-inheritance numerator because transmission is not inheritance, but counted and displayed in its own class with the source that established the direction; a route from a third party into the branch is rightly excluded; and a route from elsewhere into Arabic is rightly excluded under the signed loan-depth law. A fourth case keeps the law the author signed on 2026-07-23: a word shared among sisters with no named donor and no established direction is not a loan at all but common inheritance and returns to ordinary judgment. The first class is kept separate rather than merged because confusing transmission with inheritance weakens the claim while separating them strengthens it, since saying that two languages inherited a word from one source differs from saying that a word left Semitic and entered Greek, and the second is the easier to defend because Western dictionaries themselves record it.
+## 28. شهرُ الطبقتَين: خطّةُ أربعةِ مساراتٍ لثلاثينَ يومًا (2026-07-30، بأمرِ المؤلّف)
+
+**أمرُ المؤلّف:** «أعطِ كلَّ مسارٍ عملَ شهرٍ ولا أكونُ أنا عنقَ الزجاجة».
+
+### المهمّةُ الواحدةُ للشهرِ كلِّه
+
+**قراءةُ كلِّ لسانٍ مفتوحٍ بطبقتَيه معًا، الجذرِ والنواة، حتى يفرغَ جردُه.** لا هدفَ عدديّ، ولا وقوفَ عندَ رقم، ولا استئذانَ بينَ دفعةٍ ودفعة. وقاعدةُ الطابورِ في القسم 25 والقاعدةُ السادسةُ في القسم 27 نافذتانِ بحرفِهما.
+
+### لماذا الطبقتانِ معًا هي مهمّةُ الشهر
+
+القياسُ في 2026-07-30: **الأخواتُ الساميّةُ أعطَت 838 صلةَ جذرٍ و31 صلةَ نواة، والقبطيّةُ والمصريّةُ أعطَتا 42 جذرًا و223 نواة.** أي أنّ الأداةَ قرأَت الأخواتِ بعينِ الجذرِ وحدَها. **والنواةُ هي نظريّةُ المؤلّفِ نفسُها، والجذرُ مقارنةٌ ساميّةٌ يعرفُها كلُّ دارس.** فالشهرُ كلُّه لفتحِ هذا العرق.
+
+### المساراتُ الأربعةُ وطوابيرُها الشهريّة
+
+| المسار | يملك | طابورُ الشهر |
+|---|---|---|
+| **أ** | `aramaic.md` و`hebrew.md` | **إعادةُ قراءةِ الجردَينِ كلَّيهما بعينِ النواة**: الآراميّةُ 1,573 أسرةً والعبريّةُ 11,852. هذا أكبرُ عرقٍ في المشروع |
+| **ب** | `egyptian.md` و`coptic.md` | إتمامُ اللقطتَينِ إلى آخرِهما بالطبقتَين. وهما أغنى ما عندنا نواةً، فأتمِمْهما |
+| **ج** | الألسنُ الهندوأوروبيّةُ الستّة | إتمامُ اللقطاتِ الستِّ بالطبقتَين، معَ صنفِ الانتقالِ الساميِّ مفصولًا |
+| **د** | `old-english.md` و`old-irish.md` ثمّ `middle-english.md` | إتمامُ اللسانَين، ثمّ فتحُ الإنجليزيّةِ الوسطى من `Resources/english_middle`، ثمّ تحديثُ وثيقةِ العرضِ كلَّ أسبوع |
+
+### القواعدُ النافذةُ مجتمعةً، وهي ما يُقرَأُ قبلَ كلِّ دفعة
+
+1. **الطبقتانِ معًا** لكلِّ عضو، لا الجذرُ ثمّ النواةُ عندَ الفشل (القسم 28 وميثاقُ الاستكشافِ فصل 6).
+2. **لا إغلاقَ في الفراغ:** لا تُغلَقُ صورةٌ صرفيّةٌ إلّا وأصلُها محكومٌ فيه (القسم 26).
+3. **لا استبعادَ لغيرِ المعجميّ:** الأعدادُ والضمائرُ تُقارَنُ كسائرِ الكلماتِ بل هي أولى (القسم 26).
+4. **المصفاةُ تعرفُ الاتّجاه:** ما خرجَ من الساميّةِ إلى الفرعِ يُحفَظُ بوسمِ `SEMITIC-SOURCE-TRANSMISSION` (القسم 27).
+5. **العلَمُ يُستخرَجُ جذرُه ولا يُرمى** (القسم 26).
+6. **التغطيةُ الكاملة:** مصيرٌ مسجَّلٌ لكلِّ عضو، والذي بلا حكمٍ سطرٌ في `lane_X_coverage.jsonl` لا بطاقةٌ نثريّة، فحجمُ الملفّاتِ قيدٌ حادّ.
+7. **القيدانِ الباقيانِ من الحرصِ ولا ثالثَ لهما:** لا صلةَ بلا مصدرَينِ عربيَّينِ قديمَينِ مسمَّيَين، ولا صفَّ صوتيٍّ مخترَع.
+
+### إيقاعُ الشهر
+
+دفعاتٌ متتابعةٌ بلا استئذان. بعدَ كلِّ دفعةٍ محضرٌ قصير، ورقمانِ مفصولانِ لا يُجمَعان، وسطرٌ يقولُ من أينَ بدأَت وأينَ انتهَت وكم بقيَ في الجرد. **ولا git، ولا تشغيلَ أداةٍ تعيدُ بناءَ ملفٍّ مشترك، وخطُّ البرهانِ مجمَّدٌ لا يُمَسّ.**
+
+### ما ينتظرُ المؤلّفَ وحدَه، ولا يوقفُ العمل
+
+توقيعُ التسجيلِ المسبقِ، وورقةُ عيبِ المقام، وأيُّ قانونٍ صوتيٍّ جديد. **وكلُّها لا تعطّلُ دفعةً واحدة**: من لقيَ منها شيئًا سجّلَه وتخطّى الموضعَ وواصل.
+
+*English abstract (section 28, the two-layer month):* The author's instruction was to give each lane a month of work so he stops being the bottleneck. One mission holds for the whole month: read every open language at both layers together, root and nucleus, until its inventory is empty, with no numeric target, no stopping at a number, and no asking between batches. The reason is measured: on 2026-07-30 the Semitic sisters had yielded 838 root links against 31 nucleus links while Coptic and Egyptian had yielded 42 root against 223 nucleus, meaning the instrument had been reading the sisters with a root-only eye, and the nucleus is the author's own theory whereas the root is ordinary comparative Semitics that any student knows. Lane A therefore re-reads all of Aramaic and Hebrew at nucleus level, the largest unmined seam in the project; lane B completes Egyptian and Coptic, already the richest in nuclei; lane C completes the six Indo-European languages with the Semitic-transmission class kept separate; and lane D completes Old English and Old Irish, then opens Middle English, then refreshes the public showcase weekly. Seven standing rules are restated in one place, of which only two are restrictive: no link without two named classical Arabic dictionaries, and no invented sound row.
