@@ -40,6 +40,9 @@ FIXTURES = ROOT / "scripts" / "recovery_pipeline" / "network-fixtures.json"
 
 def main() -> int:
     failures: list[str] = []
+    # Assertions that need material kept outside git.  Reported by name so a green
+    # run never silently claims to have checked something it could not reach.
+    skipped: list[str] = []
     loan_hint_cases = {
         "Borrowed from Latin.": True,
         "A loanword in the branch.": True,
@@ -100,13 +103,24 @@ def main() -> int:
             failures.append(f"Arabic fan counted duplicate editions as sources for {root}")
         if any(not item["definition"].strip() for item in selected):
             failures.append(f"Arabic fan selected an empty definition for {root}")
-    truncated_batn = root_sense_fan(DEFAULT_RESOURCES, "بطن", 1200)
-    if not truncated_batn["truncated"] or truncated_batn["independent_fan"]["judgment_ready"]:
-        failures.append("Arabic fan truncation guard failed for بطن")
-    full_batn = root_sense_fan(DEFAULT_RESOURCES, "بطن", None)
-    full_text = " ".join(item["definition"] for item in full_batn["matches"])
-    if full_batn["truncated"] or "المرأة" not in full_text or "ولد" not in full_text:
-        failures.append("Arabic fan full-text recovery regression for بطن")
+    # The two بطن assertions read the Arabic lexicon corpora under Resources/, which
+    # the project keeps outside git on purpose, so they can never pass in CI and have
+    # been failing every Pages deploy since 2026-07-21, freezing the public site for
+    # eleven days.  They are real regression guards on a developer machine, so they
+    # still run wherever the corpus exists; where it does not they are reported as
+    # skipped, which is not the same claim as passing.
+    corpus_roots = [DEFAULT_RESOURCES / name for name in ("arabic_roots_hf", "arabic_roots_taj")]
+    corpus_present = any(path.is_dir() for path in corpus_roots)
+    if corpus_present:
+        truncated_batn = root_sense_fan(DEFAULT_RESOURCES, "بطن", 1200)
+        if not truncated_batn["truncated"] or truncated_batn["independent_fan"]["judgment_ready"]:
+            failures.append("Arabic fan truncation guard failed for بطن")
+        full_batn = root_sense_fan(DEFAULT_RESOURCES, "بطن", None)
+        full_text = " ".join(item["definition"] for item in full_batn["matches"])
+        if full_batn["truncated"] or "المرأة" not in full_text or "ولد" not in full_text:
+            failures.append("Arabic fan full-text recovery regression for بطن")
+    else:
+        skipped.append("Arabic fan بطن corpus assertions (Resources/ not present)")
     ranked_fixture = [
         {"family_id": "egyptian:family:000000000000000000000001"},
         {"family_id": "egyptian:family:000000000000000000000002"},
@@ -935,9 +949,12 @@ def main() -> int:
         for failure in failures:
             print(f"FAIL: {failure}")
         return 1
+    for item in skipped:
+        print(f"SKIPPED: {item}")
     print(
         "recovery pipeline: CLEAN "
-        f"(47 rows, {len(expected)} fixtures, DENT-08 delta zero, normalization, sources, families, proof gate)"
+        f"(47 rows, {len(expected)} fixtures, DENT-08 delta zero, normalization, sources, families, proof gate"
+        + (f"; {len(skipped)} skipped)" if skipped else ")")
     )
     return 0
 
