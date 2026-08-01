@@ -1,0 +1,911 @@
+{
+  "schema": "lane-c-nucleus-reread-adjudications-v1",
+  "date": "2026-08-01",
+  "truth_layer": "exploration; operational counts are not verification rates",
+  "discipline_supersession_notice": {
+    "effective_date": "2026-08-01",
+    "positive_rows_below": "historical issuance rows; use the last verdict-supersession row per member in lane_c_two_layer_semantic_promotions.jsonl",
+    "current_positive_cards_from_this_adjudication": {
+      "ancient_greek": 0,
+      "latin": 0,
+      "persian": 0,
+      "welsh": 0,
+      "gothic": 7,
+      "old_norse": 6
+    }
+  },
+  "contract": {
+    "comparison": "binary nucleus from the start",
+    "third_consonant": "SUPERSEDED: list all branch consonants after branch morphology; an original omitted consonant rejects the nucleus verdict",
+    "sound": "literal identity or signed frozen rows only",
+    "meaning": "one named orbit only",
+    "arabic_sources": [
+      "تاج العروس لمرتضى الزبيدي",
+      "لسان العرب لابن منظور"
+    ],
+    "loans": "SEMITIC-SOURCE-TRANSMISSION remains outside inheritance numerator",
+    "shared_tools": "none invoked; shared inventories read-only"
+  },
+  "pins": {
+    "core_sha256": "98d31b01a811ea44706d2ecc82c6f0423014982d1ad65eed3ad39ace3715cfcb",
+    "network_sha256": "8200bb4ecbed3ff2f912230706e5174dade750cb9ecd2365399cdb2fce11e7b7",
+    "arabic_roots_sha256": "27551bc5dfc39de3a81b497f04a07f98c576d76e45b0fe1f9fafa9cda83ee447",
+    "ranking_source_sha256": "e91031049595b85b157c886f422bbaf6bfafedb53aecbe784e4c336c69132fd4"
+  },
+  "frozen_nuclei_with_reading_and_two_graphemes": 434,
+  "frozen_nuclei_with_two_named_arabic_source_support": 373,
+  "languages": {
+    "ancient_greek": {
+      "label": "اليونانية القديمة",
+      "source_member_denominator": 56058,
+      "source_queue_remaining": 0,
+      "candidate_bearing_lexical_members_after_strict_route": 10961,
+      "entry_nucleus_pairs_after_strict_route": 37071,
+      "human_positive_cards": 4,
+      "distinct_positive_nuclei": 4,
+      "verdicts": {
+        "NUCLEUS-TRACE": 4
+      }
+    },
+    "latin": {
+      "label": "اللاتينية",
+      "source_member_denominator": 883915,
+      "source_queue_remaining": 0,
+      "candidate_bearing_lexical_members_after_strict_route": 25179,
+      "entry_nucleus_pairs_after_strict_route": 85748,
+      "human_positive_cards": 4,
+      "distinct_positive_nuclei": 4,
+      "verdicts": {
+        "NUCLEUS-TRACE": 3,
+        "NUCLEUS-ECHO": 1
+      }
+    },
+    "persian": {
+      "label": "الفارسية",
+      "source_member_denominator": 19361,
+      "source_queue_remaining": 0,
+      "candidate_bearing_lexical_members_after_strict_route": 5916,
+      "entry_nucleus_pairs_after_strict_route": 23050,
+      "human_positive_cards": 3,
+      "distinct_positive_nuclei": 3,
+      "verdicts": {
+        "NUCLEUS-TRACE": 3
+      }
+    },
+    "gothic": {
+      "label": "القوطية",
+      "source_member_denominator": 23005,
+      "source_queue_remaining": 0,
+      "candidate_bearing_lexical_members_after_strict_route": 2623,
+      "entry_nucleus_pairs_after_strict_route": 9328,
+      "human_positive_cards": 7,
+      "distinct_positive_nuclei": 5,
+      "verdicts": {
+        "NUCLEUS-TRACE": 7
+      }
+    },
+    "old_norse": {
+      "label": "النوردية القديمة",
+      "source_member_denominator": 11169,
+      "source_queue_remaining": 0,
+      "candidate_bearing_lexical_members_after_strict_route": 2715,
+      "entry_nucleus_pairs_after_strict_route": 9938,
+      "human_positive_cards": 6,
+      "distinct_positive_nuclei": 5,
+      "verdicts": {
+        "NUCLEUS-TRACE": 6
+      }
+    },
+    "welsh": {
+      "label": "الويلزية",
+      "source_member_denominator": 27715,
+      "source_queue_remaining": 0,
+      "candidate_bearing_lexical_members_after_strict_route": 7119,
+      "entry_nucleus_pairs_after_strict_route": 22069,
+      "human_positive_cards": 4,
+      "distinct_positive_nuclei": 4,
+      "verdicts": {
+        "NUCLEUS-TRACE": 3,
+        "NUCLEUS-ECHO": 1
+      }
+    }
+  },
+  "positives": [
+    {
+      "language": "ancient_greek",
+      "member_id": "kaikki_ancient_greek:3947:en-ἀμέλγω-grc-verb-OShN5n1T",
+      "form": "ἀμέλγω",
+      "romanization": "amélgō",
+      "nucleus": "مل",
+      "support_root": "ملح",
+      "comparison_tokens": [
+        "m",
+        "l"
+      ],
+      "licensed_rules": [],
+      "oldest_form": "Proto-Indo-European *h₂melǵ-",
+      "zero_step": "لا سابقة معجمية داخلة في اللب؛ أول صامتين في الساق m-l.",
+      "branch_meaning": "to milk, emulge, to express milk from cows",
+      "orbit": "مباشر: الحلب واللبن/الرضاع",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الامتداد مع الحوز أو الشمول"
+    },
+    {
+      "language": "ancient_greek",
+      "member_id": "kaikki_ancient_greek:13472:en-ζεῦγος-grc-noun-SrFjzctf",
+      "form": "ζεῦγος",
+      "romanization": "zeûgos",
+      "nucleus": "زج",
+      "support_root": "زوج",
+      "comparison_tokens": [
+        "z",
+        "g"
+      ],
+      "licensed_rules": [
+        "GUT-03"
+      ],
+      "oldest_form": "Proto-Indo-European *yéwgos",
+      "zero_step": "لا صامت صرفي قبل z-g؛ الصامت الثالث لا يدخل حكم النواة.",
+      "branch_meaning": "pair (two things, persons or animals considered as pair)",
+      "orbit": "مباشر: الزوج والاثنان المقترنان",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الدفع للأمام وما قد يلزمه من التداخل"
+    },
+    {
+      "language": "ancient_greek",
+      "member_id": "kaikki_ancient_greek:9321:en-πταίω-grc-verb-VOnAPx6n",
+      "form": "πταίω",
+      "romanization": "ptaíō",
+      "nucleus": "بط",
+      "support_root": "بطح",
+      "comparison_tokens": [
+        "p",
+        "t"
+      ],
+      "licensed_rules": [
+        "DENT-05",
+        "LAB-01"
+      ],
+      "oldest_form": "probably Proto-Indo-European *p(y)eh₂w-",
+      "zero_step": "اللب p-t محفوظ؛ لا تُستعمل نهاية الفعل صامتًا ثالثًا عربيًا.",
+      "branch_meaning": "to cause to stumble, fall or fail",
+      "orbit": "مدار 5: السقوط أثر الإلقاء والبسط على الوجه",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "التجمع الرخو المكتنز مع الشق عنه أو قطعه"
+    },
+    {
+      "language": "ancient_greek",
+      "member_id": "kaikki_ancient_greek:932:en-στέγος-grc-noun-0aDW9HB0",
+      "form": "στέγος",
+      "romanization": "stégos",
+      "nucleus": "سط",
+      "support_root": "سطح",
+      "comparison_tokens": [
+        "s",
+        "t"
+      ],
+      "licensed_rules": [
+        "DENT-05"
+      ],
+      "oldest_form": "Proto-Hellenic *(s)tégos < Proto-Indo-European *(s)tégos",
+      "zero_step": "اللب s-t؛ بقية الصوامت لا تُطلب في نواة عربية.",
+      "branch_meaning": "roof",
+      "orbit": "مباشر: سطح البيت وسقفه",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الامتداد الدقيق مع الانتهاء بغلظ"
+    },
+    {
+      "language": "latin",
+      "member_id": "kaikki_latin:72052:en-mulgeo-la-verb-gnMhbPTq",
+      "form": "mulgeo",
+      "romanization": "",
+      "nucleus": "مل",
+      "support_root": "ملح",
+      "comparison_tokens": [
+        "m",
+        "l"
+      ],
+      "licensed_rules": [],
+      "oldest_form": "Proto-Italic *molgeō < Proto-Indo-European *h₂melǵ-",
+      "zero_step": "اللب m-l قبل مادة التصريف اللاتينية.",
+      "branch_meaning": "to milk, extract",
+      "orbit": "مباشر: الحلب واللبن/الرضاع",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الامتداد مع الحوز أو الشمول"
+    },
+    {
+      "language": "latin",
+      "member_id": "kaikki_latin:58951:en-putamen-la-noun-7j0Yiqk-",
+      "form": "putamen",
+      "romanization": "",
+      "nucleus": "بت",
+      "support_root": "بتر",
+      "comparison_tokens": [
+        "p",
+        "t"
+      ],
+      "licensed_rules": [
+        "LAB-01"
+      ],
+      "oldest_form": "putō + Latin nominal suffix -men",
+      "zero_step": "نُزعت -men المصرح بها في الاشتقاق؛ بقي p-t.",
+      "branch_meaning": "cutting, clipping (that which is cut away)",
+      "orbit": "مباشر: القطع والاستئصال",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "القطع والانفصال"
+    },
+    {
+      "language": "latin",
+      "member_id": "kaikki_latin:8322:en-fructus-la-noun-99WiNlHv",
+      "form": "fructus",
+      "romanization": "",
+      "nucleus": "فر",
+      "support_root": "فرح",
+      "comparison_tokens": [
+        "f",
+        "r"
+      ],
+      "licensed_rules": [],
+      "oldest_form": "fruor + Latin action-noun suffix -tus",
+      "zero_step": "نُزعت -tus المصرح بها؛ بقي f-r.",
+      "branch_meaning": "enjoyment, delight, satisfaction",
+      "orbit": "مباشر: الفرح والسرور",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الفصل أو التفريق بين ما هو ملتق أو ملتحم"
+    },
+    {
+      "language": "latin",
+      "member_id": "kaikki_latin:71218:en-nequitia-la-noun-UZpccHyM",
+      "form": "nequitia",
+      "romanization": "",
+      "nucleus": "نك",
+      "support_root": "نكر",
+      "comparison_tokens": [
+        "n",
+        "k"
+      ],
+      "licensed_rules": [],
+      "oldest_form": "Latin nēquam",
+      "zero_step": "مادة الاسم المجردة لا تغير أول صامتين n-k؛ لا يُطلب صامت ثالث.",
+      "branch_meaning": "a bad moral quality; idleness, negligence, inactivity, remissness; worthlessness; vileness, depravity, wickedness",
+      "orbit": "مدار 7: صفة المنكر والحال المذمومة",
+      "verdict": "NUCLEUS-ECHO",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الوصول إلى عمق الشيء بجد وتدقيق"
+    },
+    {
+      "language": "persian",
+      "member_id": "kaikki_persian_2026_07_23:5131:en-بریدن-fa-verb-1M9vpHcE",
+      "form": "بریدن",
+      "romanization": "burīdan",
+      "nucleus": "بر",
+      "support_root": "برد",
+      "comparison_tokens": [
+        "b",
+        "r"
+      ],
+      "licensed_rules": [],
+      "oldest_form": "Middle Persian brydan, brīdan",
+      "zero_step": "نهاية المصدر الفارسي لا تغير أول صامتين b-r.",
+      "branch_meaning": "to cut",
+      "orbit": "مباشر: السحل والنحت والقطع",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "التجرد والخلوص"
+    },
+    {
+      "language": "persian",
+      "member_id": "kaikki_persian_2026_07_23:1448:en-شکستن-fa-verb-uvkE5ojw",
+      "form": "شکستن",
+      "romanization": "šekastan",
+      "nucleus": "شق",
+      "support_root": "شقق",
+      "comparison_tokens": [
+        "sh",
+        "k"
+      ],
+      "licensed_rules": [
+        "GUT-01"
+      ],
+      "oldest_form": "Middle Persian škastan < Proto-Iranian *skand-",
+      "zero_step": "نهاية المصدر لا تدخل؛ اللب الأول sh-k.",
+      "branch_meaning": "to break",
+      "orbit": "مباشر: الشق والصدع والكسر",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "صدع الشيء أو ما هو بمعناه"
+    },
+    {
+      "language": "persian",
+      "member_id": "kaikki_persian_2026_07_23:15135:en-شاریدن-fa-verb-~ZOa8myq",
+      "form": "شاریدن",
+      "romanization": "šâridan",
+      "nucleus": "شر",
+      "support_root": "شرب",
+      "comparison_tokens": [
+        "sh",
+        "r"
+      ],
+      "licensed_rules": [],
+      "oldest_form": "Proto-Iranian *gžárati < Proto-Indo-European *dʰgʷʰéreti",
+      "zero_step": "نهاية المصدر لا تدخل؛ اللب الأول sh-r.",
+      "branch_meaning": "to pour, trickle",
+      "orbit": "مدار 8: جريان السائل جزء من حدث الشرب، والنواة المجمدة انتشار",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الانتشار أو صورة منه"
+    },
+    {
+      "language": "gothic",
+      "member_id": "kaikki_gothic_2026_07_23:588:en-𐌼𐌹𐌻𐌿𐌺𐍃-got-noun-iCXnZTD4",
+      "form": "𐌼𐌹𐌻𐌿𐌺𐍃",
+      "romanization": "miluks",
+      "nucleus": "مل",
+      "support_root": "ملح",
+      "comparison_tokens": [
+        "m",
+        "l"
+      ],
+      "licensed_rules": [],
+      "oldest_form": "Proto-Germanic *meluks < Proto-Indo-European *h₂melǵ-",
+      "zero_step": "الصورة القوطية والسلف المنشور يحفظان m-l.",
+      "branch_meaning": "milk",
+      "orbit": "مباشر: اللبن والرضاع",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الامتداد مع الحوز أو الشمول"
+    },
+    {
+      "language": "gothic",
+      "member_id": "kaikki_gothic_2026_07_23:16631:en-𐌳𐍂𐌹𐌿𐍃𐌰𐌽-got-verb-DuIlsxVc",
+      "form": "𐌳𐍂𐌹𐌿𐍃𐌰𐌽",
+      "romanization": "driusan",
+      "nucleus": "دل",
+      "support_root": "دلك",
+      "comparison_tokens": [
+        "d",
+        "r"
+      ],
+      "licensed_rules": [
+        "LIQ-01"
+      ],
+      "oldest_form": "Proto-Germanic *dreusaną",
+      "zero_step": "مادة المصدر القوطية لا تغير اللب d-r.",
+      "branch_meaning": "to fall",
+      "orbit": "مباشر: الهبوط والميل إلى الغروب",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الامتداد (من أعلى) اتجاهاً إلى شيء أو مقر بقوة"
+    },
+    {
+      "language": "gothic",
+      "member_id": "kaikki_gothic_2026_07_23:21681:en-𐌷𐌰𐌻𐍄𐍃-got-adj-KwRUxQ5s",
+      "form": "𐌷𐌰𐌻𐍄𐍃",
+      "romanization": "halts",
+      "nucleus": "عر",
+      "support_root": "عرج",
+      "comparison_tokens": [
+        "h",
+        "l"
+      ],
+      "licensed_rules": [
+        "GUT-04",
+        "LIQ-01"
+      ],
+      "oldest_form": "Proto-Germanic *haltaz",
+      "zero_step": "نهاية الصفة لا تدخل؛ اللب h-l.",
+      "branch_meaning": "lame, limp",
+      "orbit": "مباشر: العرج والظلع",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا"
+    },
+    {
+      "language": "gothic",
+      "member_id": "kaikki_gothic_2026_07_23:17097:en-𐌷𐍂𐍉𐍄-got-noun-0aDW9HB0",
+      "form": "𐌷𐍂𐍉𐍄",
+      "romanization": "hrōt",
+      "nucleus": "عر",
+      "support_root": "عرش",
+      "comparison_tokens": [
+        "h",
+        "r"
+      ],
+      "licensed_rules": [
+        "GUT-04"
+      ],
+      "oldest_form": "Proto-Germanic *hrōtą",
+      "zero_step": "اللب h-r؛ الصامت الثالث القوطي لا يُطلب في العربية.",
+      "branch_meaning": "roof",
+      "orbit": "مباشر: سقف البيت",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا"
+    },
+    {
+      "language": "gothic",
+      "member_id": "kaikki_gothic_2026_07_23:20195:en-𐌷𐌿𐌻𐌾𐌰𐌽-got-verb-HU5sSdEZ",
+      "form": "𐌷𐌿𐌻𐌾𐌰𐌽",
+      "romanization": "huljan",
+      "nucleus": "غل",
+      "support_root": "غلف",
+      "comparison_tokens": [
+        "h",
+        "l"
+      ],
+      "licensed_rules": [
+        "GUT-04"
+      ],
+      "oldest_form": "Proto-Germanic *huljaną",
+      "zero_step": "مادة المصدر لا تغير اللب h-l.",
+      "branch_meaning": "to cover, wrap, veil",
+      "orbit": "مباشر: الغلاف والاشتمال والتغطية",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "التخلل بحدة مع إحاطة أو تقييد أو ما بمعناهما"
+    },
+    {
+      "language": "gothic",
+      "member_id": "kaikki_gothic_2026_07_23:11311:en-𐌷𐌰𐌽𐍃𐌰-got-noun-EDqxpkHG",
+      "form": "𐌷𐌰𐌽𐍃𐌰",
+      "romanization": "hansa",
+      "nucleus": "غم",
+      "support_root": "غمر",
+      "comparison_tokens": [
+        "h",
+        "n"
+      ],
+      "licensed_rules": [
+        "GUT-04",
+        "LIQ-02"
+      ],
+      "oldest_form": "Proto-Germanic *hansō",
+      "zero_step": "النهاية الاسمية لا تدخل؛ اللب h-n.",
+      "branch_meaning": "a crowd, gathering",
+      "orbit": "مباشر: زحمة الناس وجمعهم المتكاثف",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "نوع من التغطية والحجب"
+    },
+    {
+      "language": "gothic",
+      "member_id": "kaikki_gothic_2026_07_23:12267:en-𐌷𐌰𐌿𐍂𐌳𐍃-got-noun-CrJPGypJ",
+      "form": "𐌷𐌰𐌿𐍂𐌳𐍃",
+      "romanization": "haurds",
+      "nucleus": "غل",
+      "support_root": "غلق",
+      "comparison_tokens": [
+        "h",
+        "r"
+      ],
+      "licensed_rules": [
+        "GUT-04",
+        "LIQ-01"
+      ],
+      "oldest_form": "Proto-Germanic *hurdiz",
+      "zero_step": "اللب h-r؛ بقية الصوامت لا تدخل حكم النواة.",
+      "branch_meaning": "a door, especially of wickerwork",
+      "orbit": "مدار 4: الباب آلة الإغلاق",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "التخلل بحدة مع إحاطة أو تقييد أو ما بمعناهما"
+    },
+    {
+      "language": "old_norse",
+      "member_id": "kaikki_old_norse_2026_07_23:3776:en-mjǫlk-non-noun-iCXnZTD4",
+      "form": "mjǫlk",
+      "romanization": "",
+      "nucleus": "مل",
+      "support_root": "ملح",
+      "comparison_tokens": [
+        "m",
+        "l"
+      ],
+      "licensed_rules": [],
+      "oldest_form": "Proto-Germanic *meluks < Proto-Indo-European *h₂melǵ-",
+      "zero_step": "استُعملت الصورة المستعادة المنشورة *meluks، فلبها m-l؛ لم يُختلق صف لتجاوز j السطحية.",
+      "branch_meaning": "milk",
+      "orbit": "مباشر: اللبن والرضاع",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "published-restored-form",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الامتداد مع الحوز أو الشمول"
+    },
+    {
+      "language": "old_norse",
+      "member_id": "kaikki_old_norse_2026_07_23:845:en-bita-non-verb-suWMuYsI",
+      "form": "bita",
+      "romanization": "",
+      "nucleus": "بت",
+      "support_root": "بتر",
+      "comparison_tokens": [
+        "b",
+        "t"
+      ],
+      "licensed_rules": [],
+      "oldest_form": "Old Norse bit or biti, internal family proposed by the source",
+      "zero_step": "نهاية المصدر لا تغير اللب b-t.",
+      "branch_meaning": "to cut into bits",
+      "orbit": "مباشر: القطع والبتر",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "القطع والانفصال"
+    },
+    {
+      "language": "old_norse",
+      "member_id": "kaikki_old_norse_2026_07_23:2211:en-drjúpa-non-verb-IXANu-gK",
+      "form": "drjúpa",
+      "romanization": "",
+      "nucleus": "دل",
+      "support_root": "دلك",
+      "comparison_tokens": [
+        "d",
+        "r"
+      ],
+      "licensed_rules": [
+        "LIQ-01"
+      ],
+      "oldest_form": "Proto-Germanic *dreupaną",
+      "zero_step": "نهاية المصدر لا تغير اللب d-r.",
+      "branch_meaning": "to drip, fall in drops",
+      "orbit": "مباشر: الانحدار والسقوط إلى أسفل",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الامتداد (من أعلى) اتجاهاً إلى شيء أو مقر بقوة"
+    },
+    {
+      "language": "old_norse",
+      "member_id": "kaikki_old_norse_2026_07_23:7436:en-haltr-non-adj-p4iQmwmq",
+      "form": "haltr",
+      "romanization": "",
+      "nucleus": "عر",
+      "support_root": "عرج",
+      "comparison_tokens": [
+        "h",
+        "l"
+      ],
+      "licensed_rules": [
+        "GUT-04",
+        "LIQ-01"
+      ],
+      "oldest_form": "Proto-Germanic *haltaz",
+      "zero_step": "نهاية الصفة لا تدخل؛ اللب h-l.",
+      "branch_meaning": "limp, lame",
+      "orbit": "مباشر: العرج والظلع",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا"
+    },
+    {
+      "language": "old_norse",
+      "member_id": "kaikki_old_norse_2026_07_23:652:en-hurð-non-noun-JTTi3h3s",
+      "form": "hurð",
+      "romanization": "",
+      "nucleus": "غل",
+      "support_root": "غلق",
+      "comparison_tokens": [
+        "h",
+        "r"
+      ],
+      "licensed_rules": [
+        "GUT-04",
+        "LIQ-01"
+      ],
+      "oldest_form": "Proto-Germanic *hurdiz",
+      "zero_step": "اللب h-r؛ الصامت الأخير لا يدخل حكم النواة.",
+      "branch_meaning": "door",
+      "orbit": "مدار 4: الباب آلة الإغلاق",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "التخلل بحدة مع إحاطة أو تقييد أو ما بمعناهما"
+    },
+    {
+      "language": "old_norse",
+      "member_id": "kaikki_old_norse_2026_07_23:1522:en-hylja-non-verb-ZXf~Ytbv",
+      "form": "hylja",
+      "romanization": "",
+      "nucleus": "غل",
+      "support_root": "غلف",
+      "comparison_tokens": [
+        "h",
+        "l"
+      ],
+      "licensed_rules": [
+        "GUT-04"
+      ],
+      "oldest_form": "Proto-Germanic *huljaną",
+      "zero_step": "مادة المصدر لا تغير اللب h-l.",
+      "branch_meaning": "to hide, cover",
+      "orbit": "مباشر: الغلاف والاشتمال والتغطية",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "التخلل بحدة مع إحاطة أو تقييد أو ما بمعناهما"
+    },
+    {
+      "language": "welsh",
+      "member_id": "kaikki_welsh_2026_07_23:4054:en-blith-cy-noun-kYjiFUss",
+      "form": "blith",
+      "romanization": "",
+      "nucleus": "مل",
+      "support_root": "ملح",
+      "comparison_tokens": [
+        "b",
+        "l"
+      ],
+      "licensed_rules": [
+        "LAB-04"
+      ],
+      "oldest_form": "Proto-Brythonic *bliθ, with Proto-Celtic *mlixtus < Proto-Indo-European *h₂melǵ-",
+      "zero_step": "السطح يعطي b-l بمسار LAB-04؛ والسلف المنشور يعيد m-l شاهدًا مستقلًا.",
+      "branch_meaning": "milk, dairy produce",
+      "orbit": "مباشر: اللبن والرضاع",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الامتداد مع الحوز أو الشمول"
+    },
+    {
+      "language": "welsh",
+      "member_id": "kaikki_welsh_2026_07_23:1623:en-taro-cy-verb-1wo8DkbM",
+      "form": "taro",
+      "romanization": "",
+      "nucleus": "طر",
+      "support_root": "طرف",
+      "comparison_tokens": [
+        "t",
+        "r"
+      ],
+      "licensed_rules": [
+        "DENT-05"
+      ],
+      "oldest_form": "Proto-Indo-European *terh₁-",
+      "zero_step": "نهاية الفعل لا تغير اللب t-r؛ فُصل هذا العضو عن الاسم الدخيل متحد الرسم taro.",
+      "branch_meaning": "to strike, hit",
+      "orbit": "مباشر: الضرب",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الامتداد مع الرقة أو التتابع"
+    },
+    {
+      "language": "welsh",
+      "member_id": "kaikki_welsh_2026_07_23:201:en-ban-cy-noun-OQ~bcYgd",
+      "form": "ban",
+      "romanization": "",
+      "nucleus": "فن",
+      "support_root": "فند",
+      "comparison_tokens": [
+        "b",
+        "n"
+      ],
+      "licensed_rules": [
+        "LAB-02"
+      ],
+      "oldest_form": "Proto-Brythonic *bann < Proto-Celtic *bandā",
+      "zero_step": "اللب b-n؛ الصامت التاريخي اللاحق لا يُطلب في العربية.",
+      "branch_meaning": "peak, summit",
+      "orbit": "مباشر: رأس الجبل العظيم وشمراخه",
+      "verdict": "NUCLEUS-TRACE",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "امتداد مع الرقة أو الضعف"
+    },
+    {
+      "language": "welsh",
+      "member_id": "kaikki_welsh_2026_07_23:2202:en-galar-cy-noun-S4GIRMDG",
+      "form": "galar",
+      "romanization": "",
+      "nucleus": "جل",
+      "support_root": "جلب",
+      "comparison_tokens": [
+        "g",
+        "l"
+      ],
+      "licensed_rules": [
+        "GUT-03"
+      ],
+      "oldest_form": "Proto-Brythonic *galar < Proto-Celtic *galarom",
+      "zero_step": "اللب g-l؛ الراء الثالثة لا تدخل حكم النواة.",
+      "branch_meaning": "mourning, grief, sorrow, lament",
+      "orbit": "مدار 8: الندب والصياح جزء من حدث الحداد",
+      "verdict": "NUCLEUS-ECHO",
+      "comparison_basis": "surface-after-branch-morphology",
+      "classical_sources": [
+        "تاج العروس لمرتضى الزبيدي",
+        "لسان العرب لابن منظور"
+      ],
+      "nucleus_reading_ar": "الاتساع والانكشاف"
+    }
+  ],
+  "recorded_rejections": [
+    {
+      "language": "ancient_greek",
+      "form": "κάμηλος",
+      "status": "SEMITIC-SOURCE-TRANSMISSION",
+      "reason": "مصدره Proto-West Semitic مسمى، وبطاقته الانتقالية السابقة تبقى خارج بسط الوراثة."
+    },
+    {
+      "language": "ancient_greek",
+      "form": "ὅρκιον",
+      "status": "DIRECTION-GAP",
+      "reason": "المعنى قريب من الحلف، لكن حقل الاشتقاق لا يغلق جهة السلسلة."
+    },
+    {
+      "language": "ancient_greek",
+      "form": "ἐπιτομή / ἀπότομος",
+      "status": "MORPHOLOGY-BLOCKED",
+      "reason": "الصامتان المسترجعان يقعان في السابقة، فلا يقاسان بنواة الجذع."
+    },
+    {
+      "language": "latin",
+      "form": "albus",
+      "status": "SOURCE-GAP",
+      "reason": "معنى البياض لم يثبت بالدقة نفسها في المصدرين العربيين للمادة المرشحة."
+    },
+    {
+      "language": "latin",
+      "form": "con- / de- / ad- families",
+      "status": "MORPHOLOGY-BLOCKED",
+      "reason": "استبعدت الأسر التي امتلكت السابقة صامتَي المقارنة."
+    },
+    {
+      "language": "persian",
+      "form": "رنگ",
+      "status": "TOOL-GAP",
+      "reason": "النواة المرشحة بلا قراءة مجمدة، فلا يصدر حكم."
+    },
+    {
+      "language": "persian",
+      "form": "برف",
+      "status": "SEMANTIC-PRUNED",
+      "reason": "الثلج شاهد للبرد، لكنه لا يحقق قراءة بر المجمدة بلا خطوة زائدة."
+    },
+    {
+      "language": "persian",
+      "form": "تیر",
+      "status": "HISTORICAL-STRATUM-GAP",
+      "reason": "السهم قوي على السطح، لكن الصورة التاريخية tigr تجعل تعيين أول صامتين غير مغلق هنا."
+    },
+    {
+      "language": "persian",
+      "form": "فروغ",
+      "status": "MORPHOLOGY-BLOCKED",
+      "reason": "السابقة التاريخية *fra- تملك صامتَي المقارنة."
+    },
+    {
+      "language": "gothic",
+      "form": "swinþei",
+      "status": "SEMANTIC-PRUNED",
+      "reason": "طريق الصوت موقع، لكن حقل النواة وشاهدي العربية لا يحملان القوة بلا تليين."
+    },
+    {
+      "language": "old_norse",
+      "form": "flysja",
+      "status": "DIRECTION-GAP",
+      "reason": "معنى الشق قوي، لكن حقل الاشتقاق فارغ فلا يغلق مسار السلسلة."
+    },
+    {
+      "language": "old_norse",
+      "form": "drepa",
+      "status": "LAW-GAP",
+      "reason": "تبقى نواة دف محجوبة لغياب صف مباشر صالح لـp↔ف في هذا الفرع."
+    },
+    {
+      "language": "welsh",
+      "form": "estyn",
+      "status": "LOANWORD-THIRD-PARTY-TO-BRANCH",
+      "reason": "القرض اللاتيني مسجل سابقًا ولا يدخل بسط الوراثة."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "schema": "lane-c-two-layer-month-v1",
+  "date": "2026-08-01",
+  "contract": {
+    "root_and_nucleus": "parallel_per_member_never_fallback",
+    "core_index": "data/juthoor-core-levels.json read-only",
+    "proof_line": "frozen",
+    "shared_builders": "not invoked",
+    "coverage": "cards union lane_c_coverage plus names inventory"
+  },
+  "pins": {
+    "core_sha256": "98d31b01a811ea44706d2ecc82c6f0423014982d1ad65eed3ad39ace3715cfcb",
+    "network_sha256": "8200bb4ecbed3ff2f912230706e5174dade750cb9ecd2365399cdb2fce11e7b7",
+    "databases": {
+      "ancient_greek": {
+        "path": "cache/recovery_pipeline/inventory-v5.sqlite",
+        "bytes": 4377219072
+      },
+      "latin": {
+        "path": "cache/recovery_pipeline/inventory-v5.sqlite",
+        "bytes": 4377219072
+      },
+      "persian": {
+        "path": "cache/recovery_pipeline/week17-day1-inventory.sqlite",
+        "bytes": 1130237952
+      },
+      "gothic": {
+        "path": "cache/recovery_pipeline/week17-day1-inventory.sqlite",
+        "bytes": 1130237952
+      },
+      "old_norse": {
+        "path": "cache/recovery_pipeline/week17-day1-inventory.sqlite",
+        "bytes": 1130237952
+      },
+      "welsh": {
+        "path": "cache/recovery_pipeline/week17-day1-inventory.sqlite",
+        "bytes": 1130237952
+      }
+    }
+  },
+  "languages": {
+    "ancient_greek": {
+      "total": 56058,
+      "processed": 56058,
+      "last_rowid": 1121003,
+      "last_member_id": "kaikki_ancient_greek:21762:en-ζίζυφον-grc-noun-LREx9fuX",
+      "batches": 63,
+      "positive": 0,
+      "closures": 631,
+      "transmissions": 315,
+      "coverage_added": 2026,
+      "names_seen": 5730,
+      "root_candidate_members": 14432,
+      "nucleus_candidate_members": 53433,
+      "promotions": 40,
+      "promotions_finalized": true,
+      "promotion_rows_removed": 40
+    },
+    "latin": {
+      "total": 883915,
+      "processed": 883915,
+      "last_rowid": 1045735,
+      "last_member_id": "kaikki_latin:845345:en-Zazata-la-name-MCwgncQ7",
+      "batches": 983,
+      "positive": 0,
+      "closures": 3409,
+      "transmissions": 320,
+      "coverage_added": 7076,
+      "names_seen": 15715,
+      "root_candidate_members": 36106,
+      "nucleus_candidate_members": 881214,
+      "promotions": 115,
+      "promotions_finalized": true,
+      "promotion_rows_removed": 115
+    },
+    "persian": {
+      "total": 19361,
+      "processed": 19361,
+      "last_rowid": 181861,
+      "last_member_id": "kaikki_persian_2026_07_23:19361:en-جمادی‌الثانی-fa-name-lsJ563zN",
+      "batches": 22,
+      "positive": 0,
+      "closures": 406,
+      "transmissions": 3695,
+      "coverage_added": 1040,
+      "names_seen": 1891,
+      "root_candidate_members": 5857,
+      "nucleus_candidate_members": 18495,
+      "promotions": 52,
+      "promotions_finalized": true,
+      "promotion_rows_removed": 52
+    },
+    "gothic": {
+      "total": 23005,
+      "processed": 23005,
+      "last_rowid": 204866,
+      "last_member_id": "kaikki_gothic_2026_07_23:23005:en-𐌰𐍂𐌰𐌱𐌹𐌰-got-name-U0-Gr3a8",
+      "batches": 26,
+      "positive": 0,
+      "closures": 50,
+      "transmissions": 36,
+      "coverage_added": 11734,
+      "names_seen": 226,
+      "root_candidate_members": 3743,
+      "nucleus_candidate_members": 22521,
+      "promotions": 3,
+      "promotions_finalized": true,
+      "promotion_rows_removed": 3
+    },
+    "old_norse": {
+      "total": 11169,
+      "processed": 11169,
+      "last_rowid": 216035,
+      "last_member_id": "kaikki_old_norse_2026_07_23:11169:en-þorns-non-noun-zBgaTPcI",
+      "batches": 13,
+      "positive": 1,
+      "closures": 20,
+      "transmissions": 3,
+      "coverage_added": 387,
+      "names_seen": 577,
+      "root_candidate_members": 3996,
+      "nucleus_candidate_members": 10519,
+      "promotions": 6,
+      "promotions_finalized": true,
+      "promotion_rows_removed": 6,
+      "semantic_nucleus_links": 1,
+      "semantic_root_links": 0,
+      "semantic_reviewed_members": 2
+    },
+    "welsh": {
+      "total": 27715,
+      "processed": 27715,
+      "last_rowid": 243750,
+      "last_member_id": "kaikki_welsh_2026_07_23:27715:en-anfwytadwy-cy-adj-3MgSBEHG",
+      "batches": 31,
+      "positive": 0,
+      "closures": 599,
+      "transmissions": 52,
+      "coverage_added": 1784,
+      "names_seen": 1562,
+      "root_candidate_members": 4486,
+      "nucleus_candidate_members": 25995,
+      "promotions": 328,
+      "promotions_finalized": true,
+      "promotion_rows_removed": 328
+    }
+  },
+  "corrections": {
+    "strict_direction_gate_retractions": 2
+  },
+  "final_review": {
+    "new_positive_links": 1,
+    "new_closures": 0,
+    "author_questions": 2,
+    "coverage_rows_removed": 1
+  }
+}

@@ -3,78 +3,85 @@
  "generated_by": "scripts/build_status_snapshot.py",
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
-  "languages_open": 13,
-  "cards_total": 6235,
+  "languages_open": 16,
+  "cards_total": 23736,
   "by_language": [
-   {
-    "key": "aramaic",
-    "en": "Aramaic",
-    "ar": "الآراميّة",
-    "cards": 2159,
-    "links": 370
-   },
-   {
-    "key": "hebrew",
-    "en": "Hebrew",
-    "ar": "العبريّة",
-    "cards": 1229,
-    "links": 266
-   },
-   {
-    "key": "egyptian",
-    "en": "Egyptian",
-    "ar": "المصريّة القديمة",
-    "cards": 721,
-    "links": 107
-   },
-   {
-    "key": "coptic",
-    "en": "Coptic",
-    "ar": "القبطيّة",
-    "cards": 537,
-    "links": 143
-   },
-   {
-    "key": "ancient-greek",
-    "en": "Ancient Greek",
-    "ar": "اليونانيّة القديمة",
-    "cards": 202,
-    "links": 8
-   },
-   {
-    "key": "gothic",
-    "en": "Gothic",
-    "ar": "القوطيّة",
-    "cards": 201,
-    "links": 9
-   },
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 201,
-    "links": 12
-   },
-   {
-    "key": "old-norse",
-    "en": "Old Norse",
-    "ar": "النورديّة القديمة",
-    "cards": 200,
-    "links": 7
+    "cards": 7407,
+    "links": 13
    },
    {
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 200,
-    "links": 6
+    "cards": 5678,
+    "links": 7
+   },
+   {
+    "key": "coptic",
+    "en": "Coptic",
+    "ar": "القبطيّة",
+    "cards": 3519,
+    "links": 205
    },
    {
     "key": "welsh",
     "en": "Welsh",
     "ar": "الويلزيّة",
-    "cards": 200,
-    "links": 5
+    "cards": 2977,
+    "links": 6
+   },
+   {
+    "key": "ancient-greek",
+    "en": "Ancient Greek",
+    "ar": "اليونانيّة القديمة",
+    "cards": 1224,
+    "links": 9
+   },
+   {
+    "key": "old-irish",
+    "en": "Old Irish",
+    "ar": "old-irish",
+    "cards": 600,
+    "links": 32
+   },
+   {
+    "key": "hebrew",
+    "en": "Hebrew",
+    "ar": "العبريّة",
+    "cards": 593,
+    "links": 312
+   },
+   {
+    "key": "aramaic",
+    "en": "Aramaic",
+    "ar": "الآراميّة",
+    "cards": 397,
+    "links": 370
+   },
+   {
+    "key": "old-english",
+    "en": "Old English",
+    "ar": "old-english",
+    "cards": 397,
+    "links": 26
+   },
+   {
+    "key": "gothic",
+    "en": "Gothic",
+    "ar": "القوطيّة",
+    "cards": 248,
+    "links": 10
+   },
+   {
+    "key": "egyptian",
+    "en": "Egyptian",
+    "ar": "المصريّة القديمة",
+    "cards": 175,
+    "links": 158
    },
    {
     "key": "phoenician-punic-scout",
@@ -82,6 +89,13 @@
     "ar": "مسحُ الفينيقيّة",
     "cards": 166,
     "links": 3
+   },
+   {
+    "key": "old-norse",
+    "en": "Old Norse",
+    "ar": "النورديّة القديمة",
+    "cards": 130,
+    "links": 10
    },
    {
     "key": "akkadian",
@@ -96,67 +110,44 @@
     "ar": "البونيقيّة",
     "cards": 91,
     "links": 3
+   },
+   {
+    "key": "middle-english",
+    "en": "Middle English",
+    "ar": "middle-english",
+    "cards": 6,
+    "links": 0
    }
   ]
  },
  "verdicts": {
-  "links_to_arabic": 1006,
-  "closures": 559,
+  "links_to_arabic": 1231,
+  "closures": 3960,
   "by_verdict": [
    {
+    "name": "LOANWORD",
+    "count": 3903,
+    "link": false
+   },
+   {
     "name": "ROOT-TRACE",
-    "count": 636,
+    "count": 727,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 233,
+    "count": 322,
     "link": true
-   },
-   {
-    "name": "LOANWORD",
-    "count": 191,
-    "link": false
-   },
-   {
-    "name": "PROPER-NAME-ISOLATED",
-    "count": 114,
-    "link": false
    },
    {
     "name": "ROOT-ECHO",
-    "count": 102,
+    "count": 125,
     "link": true
-   },
-   {
-    "name": "FORM-OF-ISOLATED",
-    "count": 76,
-    "link": false
-   },
-   {
-    "name": "NONLEXICAL-ISOLATED",
-    "count": 60,
-    "link": false
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 32,
+    "count": 52,
     "link": true
-   },
-   {
-    "name": "INTRA-HOUSE-TRANSFER",
-    "count": 27,
-    "link": false
-   },
-   {
-    "name": "FUNCTION-WORD",
-    "count": 27,
-    "link": false
-   },
-   {
-    "name": "COMPOUND-BOUNDARY",
-    "count": 27,
-    "link": false
    },
    {
     "name": "NO-TRACE",
@@ -164,8 +155,18 @@
     "link": false
    },
    {
-    "name": "PHRASE-LINK",
-    "count": 9,
+    "name": "INTRA-HOUSE-TRANSFER",
+    "count": 14,
+    "link": false
+   },
+   {
+    "name": "COMPOUND-BOUNDARY",
+    "count": 11,
+    "link": false
+   },
+   {
+    "name": "LOAN-ROUTE-ISOLATED",
+    "count": 8,
     "link": false
    },
    {
@@ -175,21 +176,11 @@
    },
    {
     "name": "FLOOR-TRACE",
-    "count": 3,
+    "count": 5,
     "link": true
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 2,
-    "link": false
-   },
-   {
-    "name": "CONTACT-ISOLATED",
-    "count": 2,
-    "link": false
-   },
-   {
-    "name": "ABBREVIATION",
     "count": 1,
     "link": false
    }

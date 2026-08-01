@@ -1,0 +1,553 @@
+{
+ "generated_by": "scripts/build_lane_data_manifest.py",
+ "note": "بصمة مادّة المسارات الوسيطة؛ الأحكام في 04-cross-linguistic/readings/ وليست هنا. البصمة تُثبت أنّ المادّة لم تُبدّل ولا تُغني عنها.",
+ "files": 68,
+ "total_bytes": 1059975662,
+ "in_git": 32,
+ "entries": [
+  {
+   "path": "04-cross-linguistic/data/afro-asiatic-200.json",
+   "bytes": 91620,
+   "lines": 3291,
+   "sha256": "3eac3f1d1099f514f275a8ca634d41a64ca3ae29628698d6e55371e2188ce5ac",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/akkadian-auxiliary-source-pin.json",
+   "bytes": 2947,
+   "lines": 64,
+   "sha256": "6dc1e1c04179bc4adaa2dc3be478a5b15e8d745f0f9214ce34e6575e33088347",
+   "schema": "akkadian-auxiliary-source-pin-v1",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/akkadian-cad-volume-pin.json",
+   "bytes": 4358,
+   "lines": 142,
+   "sha256": "57b466c0313e481b80bed9202ce0676a481267db7ecdde0e77d0bfe0adec7121",
+   "schema": "akkadian-cad-volume-pin-v1",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/akkadian-cognates.json",
+   "bytes": 14689,
+   "lines": 615,
+   "sha256": "5687b90215f72ba3ab14eea5c758ccc67ecfe44f913ed188436bd8420b51c9e4",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/akkadian-lexical-overlay-pin.json",
+   "bytes": 1528,
+   "lines": 45,
+   "sha256": "72c0d5759d8db9ff39381a3c9e644a5a5eca546079bf61f417d2e7dfa0b3e2a2",
+   "schema": "akkadian-lexical-overlay-pin-v1",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/aramaic-cognates.json",
+   "bytes": 19280,
+   "lines": 783,
+   "sha256": "cd4206645c858667db4460fcc997a79f50bbf21ce5b8151bdc090353f5e469e4",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/binary-nuclei-crosslang.json",
+   "bytes": 15706,
+   "lines": 517,
+   "sha256": "45751b1564e766dfb5f10a473f8f183997bc3749163d313337467a0c9ebf2596",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/cad-p-headword-evaluation.json",
+   "bytes": 475707,
+   "lines": 17263,
+   "sha256": "689ecf03a6497fa1e3a8990e20d868bbf2fff61556f759676a52cca205e473ca",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/chinese-cognates.json",
+   "bytes": 7647,
+   "lines": 121,
+   "sha256": "93817ab9099fc90b67d67460863d908833c3e196fb8deeaec51f81e33b89dc31",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/cooke-1903-diplomatic-pass-a.json",
+   "bytes": 16730,
+   "lines": 382,
+   "sha256": "7151daef5fd72e2629b9df1315cd90246e57b48cf0d83eb34fc967290077c4ca",
+   "schema": "1.0",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/cooke-1903-diplomatic-pass-b.json",
+   "bytes": 13317,
+   "lines": 308,
+   "sha256": "06287a750bde28e59a81d5b26bf629069b08d32124fa5ab748ccc39146610aac",
+   "schema": "1.0",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/cooke-1903-double-transcription-comparison.json",
+   "bytes": 53920,
+   "lines": 2090,
+   "sha256": "0f5a48f4f9ddb1ca01740c51c85113da3eb9d1c25709010fed4359c7cfee0f27",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/cooke-1903-inscription-layer.json",
+   "bytes": 309020,
+   "lines": 6390,
+   "sha256": "81d40a051e9a5be5ed50abab3e20b34a04f6533381f352b53b20da4cbcde7da3",
+   "schema": "1.1",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/cooke-1903-transliteration-control-batch-01.json",
+   "bytes": 13227,
+   "lines": 414,
+   "sha256": "7f4c8956b5dbee0d1f0c363425abe9e5a286f991a3267e6818c0d1f43e50ad85",
+   "schema": "1.0",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/cooke-1903-visual-collation-batch-01.json",
+   "bytes": 33557,
+   "lines": 285,
+   "sha256": "d9260ac5c298ff4b541d5bff6113724af39f2210186470f41bc872b50e7e7c0f",
+   "schema": "1.0",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/coptic-cognates.json",
+   "bytes": 10462,
+   "lines": 316,
+   "sha256": "dcf7f863952ca35851f0ab6515315a5222a76c2d9e89e13791d5782e8d1f44c0",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/egyptian_lexical_snapshot_v1.json",
+   "bytes": 49379,
+   "lines": 3624,
+   "sha256": "694259596c5b6728c2fa57cc32fde22a166d9f737bc4d2212c1c95f0e7dfc680",
+   "schema": "egyptian-lexical-snapshot-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/hebrew-cognates.json",
+   "bytes": 42728,
+   "lines": 1768,
+   "sha256": "2f996da86a20d650fef0b050d561fe9260352671955ba283c086d5842dd329dc",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_coverage.jsonl",
+   "bytes": 54023361,
+   "lines": 19210,
+   "sha256": "30fb09deb8dc674d4547c753022093594cbcea5702c24858426c7004fd714432",
+   "schema": "lane-a-two-layer-coverage-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_02.json",
+   "bytes": 9577,
+   "lines": 227,
+   "sha256": "32fa5e776f3648f7f728137b94e4694cd4d02848f94c0718fee537ac158fc891",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_03.json",
+   "bytes": 6277,
+   "lines": 152,
+   "sha256": "9b6f698e66066735543b6d90f8d1729d47da9ba59a90a28492c22a2bbdc7b10b",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_04.json",
+   "bytes": 2530,
+   "lines": 62,
+   "sha256": "713c18baa4674845771fdec7ec79fe6cd7f03e1965861430655a8a4816e173fe",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_05.json",
+   "bytes": 3965,
+   "lines": 77,
+   "sha256": "307e7d60a7ff26c710ee7e23f0608259d18687c46492c188aeb39cf92f367213",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_06.json",
+   "bytes": 3805,
+   "lines": 77,
+   "sha256": "aafec928df4b7b4bfb6e3c2d51397bdf91359f9b5bc4d7910f504a8494c894d0",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_07.json",
+   "bytes": 3446,
+   "lines": 81,
+   "sha256": "c0c111831bd3f1e2f87b459dea00af34e90cce9c9b525988f94d2d82900aa00c",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_08.json",
+   "bytes": 2119,
+   "lines": 47,
+   "sha256": "44ef36045461c312bb9d91eb3eaff75f88e539f3f3e6a342b935167b89428448",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_09.json",
+   "bytes": 6629,
+   "lines": 152,
+   "sha256": "e6650936f97c503b6904f96388fa72530706a65cbc37ea87a177ef4240c78ff5",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_10.json",
+   "bytes": 3400,
+   "lines": 77,
+   "sha256": "0e9814bae93b8744698c665513ca2bc451b44ea5ee92583fc1b91f8a00346d28",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_11.json",
+   "bytes": 3200,
+   "lines": 77,
+   "sha256": "98c2c99f9acda6a404ec1f18ce0c137f88a4f0b62e61727e5caa11b26a265e89",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_manual_specs_12.json",
+   "bytes": 3199,
+   "lines": 77,
+   "sha256": "fba80b79f3bb62d94944099dbeafe1128b3fd45c3aecb7f361a7f466b7bb1d1b",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_nucleus_eye_candidate_scans.jsonl",
+   "bytes": 134094159,
+   "lines": 11700,
+   "sha256": "7c426ec03f7d4d8e0c325dd7a1560d56bd90d6d91cadbe2d2e0d65603d2ed4ac",
+   "schema": "lane-a-hebrew-nucleus-eye-candidate-scan-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_nucleus_eye_family_progress.json",
+   "bytes": 353,
+   "lines": 11,
+   "sha256": "fb6b8e31cb5ec232f5ddbdbd73426840748c334ca523fc53a2fa798117f06dfb",
+   "schema": "lane-a-hebrew-nucleus-family-eye-progress-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_nucleus_eye_family_queue.jsonl",
+   "bytes": 3507564,
+   "lines": 11852,
+   "sha256": "f01e0732b17b96cbb59fa9e549e7c0d4c42c457cb0125329136ea30ef1ceb09a",
+   "schema": "lane-a-hebrew-nucleus-family-queue-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_nucleus_eye_family_reviews.jsonl",
+   "bytes": 34088929,
+   "lines": 11852,
+   "sha256": "ce43e920e366e30d13a38b29b2a1918e4f8709a61395af19fe0e68be2c7c2deb",
+   "schema": "lane-a-hebrew-nucleus-family-eye-review-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_nucleus_eye_reviews.jsonl",
+   "bytes": 35589736,
+   "lines": 17034,
+   "sha256": "5bb00fdddca4bd4709b5d3cb34afd357a9232799b44bfbdf6d1c81aac98079d0",
+   "schema": "lane-a-hebrew-nucleus-eye-review-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_nucleus_semantic_eye_progress.json",
+   "bytes": 396,
+   "lines": 12,
+   "sha256": "9ee61365653f6f230ffe0562fc0a42fa66718f22948be6c74ed80e949ab2956e",
+   "schema": "lane-a-hebrew-nucleus-semantic-eye-progress-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_hebrew_nucleus_semantic_eye_reviews.jsonl",
+   "bytes": 115086,
+   "lines": 50,
+   "sha256": "564fc652028e1a4ee5eeecdca3ebed12960a95f4aeeb7b0712b48ab997cd9a62",
+   "schema": "lane-a-hebrew-nucleus-semantic-eye-review-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_a_name_roots.jsonl",
+   "bytes": 817422,
+   "lines": 1696,
+   "sha256": "f043940a5050cf8a86a6b8d2b3bbf2ee3a0bd738cb901070aee742c74a37f962",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_b_coverage.jsonl",
+   "bytes": 13074263,
+   "lines": 41348,
+   "sha256": "c113fa419adc31fce82dd87ad45ce4788288a4dfae8c4a222d862eea0971267f",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_b_two_layer_coverage.jsonl",
+   "bytes": 44662622,
+   "lines": 44701,
+   "sha256": "1c281fa26c1e79c035665525419a7b68e848d9f81ffdde29c56e573adebac606",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_b_two_layer_progress.json",
+   "bytes": 693,
+   "lines": 31,
+   "sha256": "da79d4cb3957ac753ee20ca07cd99710e21ac81b2612d9e1f084d55c89e98b62",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_b_two_layer_promotions.jsonl",
+   "bytes": 3782,
+   "lines": 4,
+   "sha256": "29a86d80a1ccbfe51318e4ced4f9be8e25f6f79d7854186b80e72924b1be6915",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_basic_first_reviews.jsonl",
+   "bytes": 28100,
+   "lines": 31,
+   "sha256": "d5fada5efe3afe0cb5359a62272e152cc3e372c7424200a2560bbb1fd95e77ba",
+   "schema": "lane-c-basic-first-review-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_coverage.jsonl",
+   "bytes": 348412031,
+   "lines": 983065,
+   "sha256": "f172c52d8c5cce29883a506e194dd333f8d0b7f1ad7225c5381fa0e01a3e8a89",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_ie_discovery_ranked.json",
+   "bytes": 5215695,
+   "lines": 144918,
+   "sha256": "ca9b170f8d17f906698f8596bea84400d7a2e5788479b916d23acad5fc4c174a",
+   "schema": "lane-c-ie-discovery-ranked-v1",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_ie_discovery_results.json",
+   "bytes": 906,
+   "lines": 51,
+   "sha256": "c0f3ab61fe288e39c42d0d4ef93c81732e10b3f6e70dc809818b6babcd09f642",
+   "schema": "lane-c-ie-discovery-results-v1",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_ie_week2_members.json",
+   "bytes": 40317527,
+   "lines": 962944,
+   "sha256": "0ca3bea75f932de6f3360821e45683d900cfbf4f410a99129ed29608949e9738",
+   "schema": "lane-c-ie-week2-full-coverage-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_ie_week2_results.json",
+   "bytes": 1566,
+   "lines": 68,
+   "sha256": "1e080b9210c324955da1e277f73f4b9d4e35315dc5b4a0ba4562ce47e1addf46",
+   "schema": "lane-c-ie-week2-results-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_morphology_queue.jsonl",
+   "bytes": 2561,
+   "lines": 6,
+   "sha256": "d5985ed87c838bd1174f92b85fa4900ff1f775ecf2f5907a1f1d4836e6221a8e",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_names_inventory.jsonl",
+   "bytes": 11234912,
+   "lines": 25701,
+   "sha256": "6c83cc3685f74ea18846ea8f7503139dc539d0fa93d7f56211a0a0d46fe4dd9e",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_nucleus_reread_adjudications.json",
+   "bytes": 34274,
+   "lines": 911,
+   "sha256": "a326c53b7576697f12ac5ea16d13cb60712386593a2d386a06cf89180bfde9c7",
+   "schema": "lane-c-nucleus-reread-adjudications-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_nucleus_reread_ranked.json",
+   "bytes": 70260760,
+   "lines": 1370795,
+   "sha256": "6c131bd29b1bf9192989849d8a870ca4105857ebae7fa2929db1e2a8af92d7fa",
+   "schema": "lane-c-nucleus-reread-ranked-v2",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_section27_direction_inventory.jsonl",
+   "bytes": 7973926,
+   "lines": 11925,
+   "sha256": "2080b71af7a3a8f68c865ebb789037136ee669fb7ac704a95df25b42c4fd8fa7",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_two_layer_author_questions.jsonl",
+   "bytes": 880,
+   "lines": 2,
+   "sha256": "0431d4cf956b1dd669a86a64dec607988f7f5ae7685677cc4cd8f9048e6b03be",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_two_layer_progress.json",
+   "bytes": 4743,
+   "lines": 157,
+   "sha256": "8d078cebe8885bb91bdce129b3c4d2c534958fea81589f15885654219d1e85c2",
+   "schema": "lane-c-two-layer-month-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_two_layer_promotions.jsonl",
+   "bytes": 143919,
+   "lines": 544,
+   "sha256": "7bc86718c771278356bb4ed76afe9b1347c4b896d61bc3fb724337f1f76c3abc",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_two_layer_retractions.jsonl",
+   "bytes": 726,
+   "lines": 2,
+   "sha256": "69e3e5ace63b6a54086dbccb0b42a12da388debabd70ac595ff3bd52031cc43c",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_two_layer_review.tsv",
+   "bytes": 3135865,
+   "lines": 9541,
+   "sha256": "dcd980a81ddcc3e0f070081804561c3619424936ccc1eeef06c8b89110086a32",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_two_layer_route_flags.jsonl",
+   "bytes": 391,
+   "lines": 1,
+   "sha256": "66996e7dafb5942d2ad875ee971c992282e173825dd67c13be278e4b50803393",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_c_two_layer_semantic_promotions.jsonl",
+   "bytes": 30888,
+   "lines": 48,
+   "sha256": "012b935c95aec5c0549106c421f15629c3ddce5f163e79fc4d19a2588e670a69",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_d_coverage.jsonl",
+   "bytes": 241672902,
+   "lines": 82356,
+   "sha256": "c4c491ff7db6bc462db005bc9ec874d895df0976ed1dfc810bcdc9f6b6b776d1",
+   "schema": "lane-d-coverage-v2",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_d_issued_layer_scans.jsonl",
+   "bytes": 2318495,
+   "lines": 816,
+   "sha256": "a21cc779e5645510a76ba623805553934ea5e19b408fd6e5fe9cfc10291e99d5",
+   "schema": "lane-d-issued-layer-scan-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_d_member_inventory.jsonl",
+   "bytes": 7861883,
+   "lines": 20201,
+   "sha256": "cefbf5e080198b0148e013baad494bf4f8ba9547b77fe7b1fae73a2c3fba6432",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_d_middle_english_transmissions.jsonl",
+   "bytes": 86759,
+   "lines": 153,
+   "sha256": "3aff36c812f2c16cfca11bab8e2292887f11860b0242403cf7ffc4af81b8e746",
+   "schema": "lane-d-middle-english-transmission-v1",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_d_month_scan_manifest.json",
+   "bytes": 5509,
+   "lines": 166,
+   "sha256": "44b9db9d9e148aff1d35aab32f62e855e9c8d8090570e35084a30662498daacb",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/lane_d_source_snapshot_manifest.json",
+   "bytes": 5411,
+   "lines": 167,
+   "sha256": "3f8862c12f23c437eb94e91f815617508f1e968c1c5397091f6bc4cc690cb4bc",
+   "schema": "",
+   "in_git": false
+  },
+  {
+   "path": "04-cross-linguistic/data/onomatopoeia-arabic.json",
+   "bytes": 13122,
+   "lines": 196,
+   "sha256": "b74818780df273fdbcf64eb9bd53e5be930bfcda0860fce0334780ab31841c9b",
+   "schema": "",
+   "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/sanskrit-cognates.json",
+   "bytes": 9576,
+   "lines": 257,
+   "sha256": "ac5a4003f92c7bc21a3836567b692eff7449297ddf23b30f8c0d354e07478a6f",
+   "schema": "",
+   "in_git": true
+  }
+ ]
+}

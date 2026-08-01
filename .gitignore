@@ -46,3 +46,14 @@ cache/
 # full-coverage sweep: raw lines are too large for git; the denominator lives in data/coverage-summary.json
 04-cross-linguistic/data/lane_*_coverage.jsonl
 Data raw/coverage/
+
+# lane intermediate scans: candidate enumerations, per-member reviews and ranked reading
+# orders. These are the working material behind the cards, not the verdicts, which live in
+# 04-cross-linguistic/readings/. One of them is 134 MB, over GitHub's 100 MB hard limit.
+# Their SHA-256 fingerprints are committed in data/lane-data-manifest.json, which proves the
+# material was not altered without pretending to replace it.
+04-cross-linguistic/data/lane_*_scans.jsonl
+04-cross-linguistic/data/lane_*_reviews.jsonl
+04-cross-linguistic/data/lane_*_inventory.jsonl
+04-cross-linguistic/data/lane_c_nucleus_reread_ranked.json
+04-cross-linguistic/data/lane_c_ie_week2_members.json

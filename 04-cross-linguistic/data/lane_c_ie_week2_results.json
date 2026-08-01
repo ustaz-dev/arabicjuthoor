@@ -1,0 +1,68 @@
+{
+  "schema": "lane-c-ie-week2-results-v1",
+  "date": "2026-07-30",
+  "selection": "stable source order, full coverage",
+  "proof_line": "frozen",
+  "languages": {
+    "ancient_greek": {
+      "cards": 800,
+      "positive": 1,
+      "closures": 26,
+      "open": 773,
+      "complete_cards_before": 200,
+      "complete_cards_after": 1000,
+      "raw_card_headings_after": 1000
+    },
+    "latin": {
+      "cards": 800,
+      "positive": 1,
+      "closures": 142,
+      "open": 657,
+      "complete_cards_before": 200,
+      "complete_cards_after": 1000,
+      "raw_card_headings_after": 1002
+    },
+    "persian": {
+      "cards": 800,
+      "positive": 0,
+      "closures": 334,
+      "open": 466,
+      "complete_cards_before": 200,
+      "complete_cards_after": 1000,
+      "raw_card_headings_after": 1000
+    },
+    "gothic": {
+      "cards": 800,
+      "positive": 0,
+      "closures": 51,
+      "open": 749,
+      "complete_cards_before": 200,
+      "complete_cards_after": 1000,
+      "raw_card_headings_after": 1000
+    },
+    "old_norse": {
+      "cards": 800,
+      "positive": 1,
+      "closures": 22,
+      "open": 777,
+      "complete_cards_before": 200,
+      "complete_cards_after": 1000,
+      "raw_card_headings_after": 1000
+    },
+    "welsh": {
+      "cards": 800,
+      "positive": 1,
+      "closures": 344,
+      "open": 455,
+      "complete_cards_before": 200,
+      "complete_cards_after": 1000,
+      "raw_card_headings_after": 1000
+    }
+  },
+  "totals": {
+    "cards": 4800,
+    "positive": 4,
+    "closures": 919,
+    "open": 3877
+  }
+}

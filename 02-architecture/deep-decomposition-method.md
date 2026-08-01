@@ -106,6 +106,14 @@
 
 **المزامنة:** سجلُّ الوجوهِ المكتملُ المجمَّدُ يُزامَنُ مع مشروعِ CoranIsYours حتى يتوحّدَ سجلُّ المشروعَينِ ويموتَ الخلافُ من جذرِه.
 
+### التعديل 4 (2026-08-01): استقلالُ طبقتَي الجذرِ والنواةِ وعقدُ النسخ
+
+بأمرِ المؤلّف: الجذرُ الكاملُ والنواةُ الثنائيّةُ **طبقتا حكمٍ مستقلّتانِ تُقرآنِ في عرضٍ واحد**. نجاحُ الجذرِ لا يمنعُ فحصَ النواة، وفشلُه لا يفتحُها؛ فهي مفتوحةٌ أصلًا لكلِّ عضو. علوُّ `ROOT-TRACE` في سلَّمِ قوّةِ الدليلِ لا يجعلُه بديلًا من الحكمِ النوويّ، والعضوُ ذو الصلتينِ يُحفظُ ويُعَدُّ في الطبقتين.
+
+**سطرُ النسخ:** نُسختْ من التعديلِ 2 عبارةُ «مسارُ الجذرِ الكاملِ أوّلًا» وما لحقَها من «عندَ غيابِه يُنزَلُ إلى مسارِ النواة». الحكمُ السابقُ كان ترتيبًا تعاقبيًّا؛ وسببُ نسخه أنّه جعلَ النواةَ مخرجَ فشلٍ وأتاحَ للعدادِ إنزالَها كلّما صعدَ الجذر. النصُّ القديمُ باقٍ أعلاه شاهدًا تاريخيًّا، والحكمُ النافذُ هو الفحصُ المتزامنُ المستقلّ.
+
+وكلُّ تغييرِ حكمٍ لاحقٍ يُلحقُ بسجلِّ العضوِ مع الحكمِ السابقِ والجديدِ وسببِ التغييرِ ودليلِه وتاريخِه. لا استبدالَ صامتًا ولا حذفَ لمرشّحٍ ساقط، ومعرّفُ العضوِ الذي انتقلَ إلى `lane_a_coverage.jsonl` يبقى فيه مع سببِ النقلِ ولو تغيّرَ حكمُه.
+
 ---
 
 *English abstract.* This constitution governs the deep-decomposition reading of distant branches. Close branches are compared at full-root level with regular shifts; distant branches, per the thesis, split at the binary-nucleus stage and are compared at nucleus level. Three legs, all required: (1) a phonetic path named step-by-step from a closed, frozen network of documented human sound-shifts, with branch-wide consistency and a published path ledger; (2) the nucleus gesture taken as-is from the fixed 453 catalog; (3) the target's real dictionary meaning falling inside the nucleus's pre-registered field, where a match may stand in exactly one named orbit of the gesture-event (act, agent, patient, instrument, result, locus, quality, part-whole: the derivational orbits of Arabic itself), one step only, orbit logged, direct vs orbital verdicts distinguished. Supporting orphan-shard indicator; loanword/wanderwort screen first; prune freely. A control arm with identical freedoms is declared now and run only after the author freezes the instruments.

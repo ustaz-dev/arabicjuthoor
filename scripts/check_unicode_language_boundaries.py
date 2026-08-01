@@ -37,6 +37,22 @@ def main() -> int:
                 errors.append(f"U+{value:04X}: {name!r} does not start with {prefix!r}")
             if _script_lemma_candidate(character, "ancient greek"):
                 errors.append(f"U+{value:04X}: legacy Coptic accepted as Ancient Greek")
+        for letter in boundary.get("letters", []):
+            if not isinstance(letter, dict):
+                errors.append(f"{boundary['id']}: legacy letter entry is not explicit")
+                continue
+            expected = str(letter["name"])
+            for case in ("capital", "small"):
+                character = str(letter[case])
+                name = unicodedata.name(character, "")
+                if expected not in name or not name.startswith("COPTIC "):
+                    errors.append(
+                        f"{boundary['id']}: {case} {character!r} is {name!r}, expected COPTIC {expected}"
+                    )
+                if _script_lemma_candidate(character, "ancient greek"):
+                    errors.append(
+                        f"{boundary['id']}: {case} {character!r} accepted as Ancient Greek"
+                    )
 
     for control in policy["positive_controls"]:
         text = str(control["text"])

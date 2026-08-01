@@ -21,6 +21,7 @@ from recovery_pipeline.inventory import load_review_states
 from recovery_pipeline.network import compile_network, rules_by_id
 from recovery_pipeline.normalization import apply_zero_step, available_profiles, detect_language, load_profile, normalize
 from recovery_pipeline.sources import (
+    _kaikki_loan_hint,
     iter_aed_html_zip,
     iter_coptic_tei,
     iter_kaikki,
@@ -39,6 +40,24 @@ FIXTURES = ROOT / "scripts" / "recovery_pipeline" / "network-fixtures.json"
 
 def main() -> int:
     failures: list[str] = []
+    loan_hint_cases = {
+        "Borrowed from Latin.": True,
+        "A loanword in the branch.": True,
+        "From Greek via Latin.": True,
+        "Calque of English table tennis.": True,
+        "Ultimately from Phoenician.": True,
+        "From Akkadian tamkāru.": True,
+        "Probably from Proto-West Semitic *gamal-.": True,
+        "From Proto-Indo-European *h₂melǵ-.": False,
+        "Inherited from Proto-Germanic *ek.": False,
+        "": False,
+    }
+    for etymology, expected in loan_hint_cases.items():
+        actual = _kaikki_loan_hint(etymology)
+        if actual is not expected:
+            failures.append(
+                f"Kaikki directional-loan hint regression: {etymology!r} -> {actual}"
+            )
     fan_fixtures = {
         "صبر": [
             {

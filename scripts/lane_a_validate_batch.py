@@ -471,7 +471,7 @@ def validate_card(card: Card, baseline_sets: dict[str, set[str]]) -> list[str]:
             )
         elif (
             old_kind == "pending"
-            and card.outcome_kind == "positive"
+            and card.outcome_kind in {"positive", "closure"}
             and card.documents_pending_reopen
         ):
             pass

@@ -26,6 +26,19 @@ INFLECTION_TAGS = {
     "supine", "third-person", "uppercase", "vocative",
 }
 
+# A direction hint is deliberately broader than the two literal phrases that
+# Kaikki happens to use most often.  It is only a screen: a true value removes
+# an entry from an inheritance queue until a human reads the named route; it
+# never decides the donor or the final transmission verdict by itself.
+SEMITIC_DONOR = re.compile(
+    r"(?i)\b(?:proto[- ](?:west[- ]|east[- ]|central[- ]|northwest[- ]|south[- ])?)?"
+    r"(?:akkadian|arabic|aramaic|canaanite|eblaite|hebrew|maltese|"
+    r"phoenician|punic|sabaean|semitic|syriac|ugaritic)\b"
+)
+TRANSMISSION_WORDING = re.compile(
+    r"(?i)\b(?:borrowed\s+from|loanword|via|calque(?:d)?|ultimately\s+from)\b"
+)
+
 
 @dataclass(frozen=True)
 class LexiconEntry:
@@ -109,6 +122,27 @@ def _romanization(entry: dict[str, Any]) -> str:
         if value:
             return value
     return ""
+
+
+def _kaikki_loan_hint(etymology: str) -> bool:
+    """Detect explicit transmission direction without inferring inheritance.
+
+    Besides direct borrowing vocabulary, a bare ``from`` is screened only
+    when the following phrase names a Semitic donor.  Thus ordinary
+    ``from Proto-Indo-European`` ancestry is not turned into a loan hint.
+    """
+
+    text = str(etymology or "").strip()
+    if not text:
+        return False
+    if TRANSMISSION_WORDING.search(text):
+        return True
+    for match in re.finditer(r"(?i)\bfrom\b", text):
+        # The donor normally occurs immediately after From, but allow a short
+        # scholarly qualifier such as "probably from Proto-West Semitic".
+        if SEMITIC_DONOR.search(text[match.end():match.end() + 96]):
+            return True
+    return False
 
 
 def _is_form_of(entry: dict[str, Any]) -> bool:
@@ -413,7 +447,6 @@ def iter_kaikki(
             # and prevents either raw row from disappearing on a collision.
             entry_id = f"{source_id}:{line_number}:{source_entry_id}"
             etymology = str(raw.get("etymology_text") or "")
-            lower_etymology = etymology.casefold()
             variants = tuple(
                 dict.fromkeys(
                     str(form.get("form"))
@@ -430,7 +463,7 @@ def iter_kaikki(
                 pos=str(raw.get("pos") or ""),
                 gloss=_first_gloss(raw),
                 etymology=etymology,
-                loan_hint="borrowed from" in lower_etymology or "loanword" in lower_etymology,
+                loan_hint=_kaikki_loan_hint(etymology),
                 form_of=_is_form_of(raw),
                 alternative_of=_is_alternative_of(raw),
                 form_targets=_typed_targets(raw, "form_of", "form-of"),

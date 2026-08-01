@@ -11,13 +11,13 @@
       "required_name_prefix": "COPTIC ",
       "must_not_classify_as": "ancient greek",
       "letters": [
-        "SHEI",
-        "FEI",
-        "KHEI",
-        "HORI",
-        "GANGIA",
-        "SHIMA",
-        "DEI"
+        {"name": "SHEI", "capital": "Ϣ", "small": "ϣ"},
+        {"name": "FEI", "capital": "Ϥ", "small": "ϥ"},
+        {"name": "KHEI", "capital": "Ϧ", "small": "ϧ"},
+        {"name": "HORI", "capital": "Ϩ", "small": "ϩ"},
+        {"name": "GANGIA", "capital": "Ϫ", "small": "ϫ"},
+        {"name": "SHIMA", "capital": "Ϭ", "small": "ϭ"},
+        {"name": "DEI", "capital": "Ϯ", "small": "ϯ"}
       ]
     }
   ],

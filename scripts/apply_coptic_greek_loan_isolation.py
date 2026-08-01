@@ -39,10 +39,20 @@ AUDIT = (
 )
 DATE = "2026-07-27"
 MARKER = "COPTIC-GREEK-LOAN-ISOLATION"
-# U+03E2..U+03EF are legacy Coptic letters inside the Greek-and-Coptic
-# Unicode block.  They are not evidence for a Greek donor.
+# U+03E2..U+03EF are the paired Coptic letters SHEI, FEI, KHEI, HORI,
+# GANGIA, SHIMA, and DEI: Ϣ Ϥ Ϧ Ϩ Ϫ Ϭ Ϯ plus their lowercase forms.
+# They descend from Demotic and are not evidence for a Greek donor.
 GREEK = re.compile(r"[\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]")
 FAMILY_ID = re.compile(r"coptic:family:[0-9a-f]+")
+DEMOTIC_COPTIC_CAPITALS = "ϢϤϦϨϪϬϮ"
+DEMOTIC_COPTIC = DEMOTIC_COPTIC_CAPITALS + DEMOTIC_COPTIC_CAPITALS.lower()
+
+
+def assert_demotic_letters_are_not_greek() -> None:
+    mistaken = [character for character in DEMOTIC_COPTIC if GREEK.search(character)]
+    if mistaken:
+        rendered = " ".join(f"U+{ord(character):04X}" for character in mistaken)
+        raise RuntimeError(f"Demotic-derived Coptic letters classified as Greek: {rendered}")
 
 
 def atomic_write(path: Path, text: str) -> None:
@@ -212,6 +222,7 @@ def annotate_mixed_family(
 
 
 def main() -> int:
+    assert_demotic_letters_are_not_greek()
     families = inventory()
     text = READING.read_text(encoding="utf-8")
     output: list[str] = []

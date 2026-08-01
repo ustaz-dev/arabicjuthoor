@@ -1,0 +1,167 @@
+{
+  "batch_size": 500,
+  "coverage_records": 12961,
+  "coverage_sha256": "21506725d7fa27d72265dedf38063a400b60bcb118c52fd362d1a61d8be34fdc",
+  "created_utc": "2026-07-30T12:46:08.640349+00:00",
+  "independence_guard": "No Gothic, Old Norse, or Welsh reading result was opened before both lane-D inventories were drained.",
+  "languages": [
+    {
+      "bad_lines": [
+        7949
+      ],
+      "bytes": 24493745,
+      "closures": 3947,
+      "coverage_path": "04-cross-linguistic/data/lane_d_coverage.jsonl",
+      "coverage_records": 7743,
+      "full_cards": 3951,
+      "inventory_units": 11695,
+      "judgments": {
+        "(لا حكم صادر)": 7743,
+        "(لا حكم صادر؛ FORM-OF-ISOLATED)": 3529,
+        "(لا حكم صادر؛ PROPER-NAME-ISOLATED)": 146,
+        "(لا حكم صادر؛ إحالة داخل البيت)": 50,
+        "LOANWORD": 222,
+        "NUCLEUS-ECHO": 1,
+        "ROOT-TRACE": 3
+      },
+      "language": "oe",
+      "language_name": "Old English",
+      "members": 11694,
+      "mtime_utc": "2026-01-08T21:58:32.617743+00:00",
+      "output_checks": {
+        "cards": 3951,
+        "coverage_rows": 7743,
+        "em_dash": 0,
+        "en_dash": 0,
+        "no_trace": 0,
+        "registered_members": 11694
+      },
+      "positive": 4,
+      "positive_checks": [
+        {
+          "arabic_sources": [
+            "المحيط في اللغة",
+            "كتاب العين"
+          ],
+          "composite_id": "en-horn-ang-noun-lUMJjxcE@L527S1",
+          "orbit_correction_present": true,
+          "sound_rows": [
+            "BR-GRIM-01",
+            "GUT-01"
+          ]
+        },
+        {
+          "arabic_sources": [
+            "المحيط في اللغة",
+            "كتاب العين"
+          ],
+          "composite_id": "en-horn-ang-noun-eF7ljlKs@L527S2",
+          "orbit_correction_present": true,
+          "sound_rows": [
+            "BR-GRIM-01",
+            "GUT-01"
+          ]
+        },
+        {
+          "arabic_sources": [
+            "الصحاح",
+            "كتاب العين"
+          ],
+          "composite_id": "en-burg-ang-noun-rciIbhZo@L1835S2",
+          "orbit_correction_present": true,
+          "sound_rows": [
+            "GUT-03"
+          ]
+        },
+        {
+          "arabic_sources": [
+            "الصحاح",
+            "كتاب العين"
+          ],
+          "composite_id": "en-þri-ang-num-i1udsME9@L3245S1",
+          "orbit_correction_present": true,
+          "sound_rows": [
+            "LIQ-01"
+          ]
+        }
+      ],
+      "queue_drained": true,
+      "reading_path": "04-cross-linguistic/readings/old-english.md",
+      "reading_sha256": "100bb5513b6507389f0e9fcbe0c3e2f0d3e86c3cc04b0ca9e7f580f19f902bf5",
+      "registered_members": 11694,
+      "remaining_inventory": 0,
+      "sha256": "85b8cbf5ac03035e597ae97d093865bae43c6b42def79b959467f34f07f28b74",
+      "snapshot_name": "lane-d-old-english-kaikki-2026-07-30-85b8cbf5",
+      "source_label": "Kaikki.org Old English dictionary, derived from Wiktionary",
+      "source_parse_complete": false,
+      "source_path": "Resources/english_old/kaikki.org-dictionary-OldEnglish.jsonl",
+      "states": {
+        "MORPHOLOGY-GAP": 1,
+        "READY": 3951,
+        "SOURCE-GAP": 1409,
+        "TOOL-GAP": 6333
+      },
+      "valid_json_records": 7948
+    },
+    {
+      "bad_lines": [],
+      "bytes": 18174722,
+      "closures": 3287,
+      "coverage_path": "04-cross-linguistic/data/lane_d_coverage.jsonl",
+      "coverage_records": 5218,
+      "full_cards": 3288,
+      "inventory_units": 8506,
+      "judgments": {
+        "(لا حكم صادر)": 5218,
+        "(لا حكم صادر؛ FORM-OF-ISOLATED)": 2688,
+        "(لا حكم صادر؛ PROPER-NAME-ISOLATED)": 179,
+        "(لا حكم صادر؛ إحالة داخل البيت)": 43,
+        "LOANWORD": 377,
+        "ROOT-TRACE": 1
+      },
+      "language": "oi",
+      "language_name": "Old Irish",
+      "members": 8506,
+      "mtime_utc": "2026-04-13T10:26:27.911773+00:00",
+      "output_checks": {
+        "cards": 3288,
+        "coverage_rows": 5218,
+        "em_dash": 0,
+        "en_dash": 0,
+        "no_trace": 0,
+        "registered_members": 8506
+      },
+      "positive": 1,
+      "positive_checks": [
+        {
+          "arabic_sources": [
+            "الصحاح",
+            "لسان العرب"
+          ],
+          "composite_id": "en-derc-sga-noun-R8IVtfcO@L1845S1",
+          "orbit_correction_present": true,
+          "sound_rows": []
+        }
+      ],
+      "queue_drained": true,
+      "reading_path": "04-cross-linguistic/readings/old-irish.md",
+      "reading_sha256": "c0d9084eb0ca230e89ba5a19a3d28179ce22e66d37906469f829a27e10a028b5",
+      "registered_members": 8506,
+      "remaining_inventory": 0,
+      "sha256": "3d4fa67a5b9369aba27f167aab549e14a3d79a8f60c266b223a0971492cd763d",
+      "snapshot_name": "lane-d-old-irish-kaikki-2026-07-30-3d4fa67a",
+      "source_label": "Kaikki.org Old Irish dictionary, derived from Wiktionary",
+      "source_parse_complete": true,
+      "source_path": "Resources/old_irish/kaikki.org-dictionary-OldIrish.jsonl",
+      "states": {
+        "LAW-GAP": 7,
+        "OPEN-CANDIDATE": 1,
+        "READY": 3288,
+        "SOURCE-GAP": 2488,
+        "TOOL-GAP": 2722
+      },
+      "valid_json_records": 6429
+    }
+  ],
+  "schema": "lane-d-source-snapshot-v2"
+}

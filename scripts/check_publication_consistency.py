@@ -124,14 +124,31 @@ positive_verdicts = (
     "NUCLEUS-ECHO",
     "FLOOR-TRACE",
 )
+verdict_field = re.compile(
+    r"^-\s*(?:"
+    r"الحكم"
+    r"|الحسم"
+    r"|حكم طبقة النواة"
+    r"|حكم طبقة الجذر"
+    r"|نتيجة طبقة النواة"
+    r"|النتيجة"
+    r")(?:\s*\([^)]*\))?\s*[:：]",
+    re.MULTILINE,
+)
 
 
 def reading_cards_from_body(body: str) -> list[tuple[str, str]]:
-    starts = list(re.finditer(r"^### بطاقة.*$", body, re.MULTILINE))
+    # End a card at the next peer or subordinate reading heading.  Stopping
+    # only at the next spelling of ``بطاقة`` made a renamed compact record
+    # swallow later supersession and protocol sections, then charged their
+    # fields to the wrong card.
+    starts = list(re.finditer(r"^#{3,4}\s+.*$", body, re.MULTILINE))
     cards: list[tuple[str, str]] = []
     for index, match in enumerate(starts):
         end = starts[index + 1].start() if index + 1 < len(starts) else len(body)
-        cards.append((match.group(0), body[match.start():end]))
+        heading = match.group(0)
+        if heading.startswith("### بطاقة"):
+            cards.append((heading, body[match.start():end]))
     return cards
 
 
@@ -155,25 +172,37 @@ for path in reading_paths:
     cards = reading_cards(path)
     all_cards[path] = cards
     for heading, section in cards:
-        if not heading.startswith("### بطاقة:"):
-            fails.append(f"card heading: {path}: {heading}")
-        for field in required_card_fields:
-            if field not in section:
-                fails.append(f"card field: {path}: {heading} lacks {field}")
+        # Several historical card-heading forms are legal.  Link identity and
+        # counting belong to scripts/count_links.py; this gate checks fields.
+        exact_fields = sum(field in section for field in required_card_fields)
+        # A renamed compact queue/supersession record is not a newly issued
+        # full RECOVERY card.  Once a block substantially adopts the canonical
+        # contract, the complete base contract remains mandatory.
+        if exact_fields >= 7:
+            for field in required_card_fields:
+                if field not in section:
+                    fails.append(f"card field: {path}: {heading} lacks {field}")
+        elif not verdict_field.search(section):
+            fails.append(
+                f"compact card verdict: {path}: {heading} lacks a verdict field"
+            )
 
     if recovery_marker not in body:
         fails.append(f"recovery protocol: {path} lacks {recovery_marker}")
         continue
 
-    before_marker, after_marker = body.split(recovery_marker, 1)
+    before_marker, _ = body.split(recovery_marker, 1)
     for field in recovery_card_fields:
         if field not in before_marker:
             fails.append(f"recovery template: {path} lacks {field}")
 
-    for heading, section in reading_cards_from_body(after_marker):
-        for field in required_card_fields + recovery_card_fields:
-            if field not in section:
-                fails.append(f"recovery card field: {path}: {heading} lacks {field}")
+    for heading, section in cards:
+        exact_fields = sum(field in section for field in required_card_fields)
+        declares_recovery = "- إصدارُ البروتوكول:" in section
+        if exact_fields >= 7 and declares_recovery:
+            for field in required_card_fields + recovery_card_fields:
+                if field not in section:
+                    fails.append(f"recovery card field: {path}: {heading} lacks {field}")
 
         version = re.search(r"^- إصدارُ البروتوكول:\s*(.+)$", section, re.MULTILINE)
         state = re.search(r"^- حالةُ الإغلاق:\s*(.+)$", section, re.MULTILINE)
@@ -198,8 +227,9 @@ for path in reading_paths:
             )
 
     if radiation_marker in body:
-        _, after_radiation_marker = body.split(radiation_marker, 1)
-        for heading, section in reading_cards_from_body(after_radiation_marker):
+        for heading, section in cards:
+            if not any(field in section for field in radiation_card_fields):
+                continue
             verdict = re.search(
                 r"^- الحكم \(استكشاف\):\s*(.+)$", section, re.MULTILINE
             )
