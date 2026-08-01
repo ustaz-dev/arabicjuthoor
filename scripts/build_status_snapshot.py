@@ -22,6 +22,13 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+
+# scripts/count_links.py is the single definition of a link.  The dashboard
+# imports it rather than reimplementing the rule, because two implementations
+# that must agree is exactly the defect that made the public counter understate
+# itself by half.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import count_links  # noqa: E402
 OUT = ROOT / "data" / "status-snapshot.json"
 
 READINGS = ROOT / "04-cross-linguistic" / "readings"
@@ -35,8 +42,14 @@ LOANS = ROOT / "data" / "recovery-loan-registry.json"
 # The issued-verdict line of a card.  It is anchored to the live field so a
 # historical appendix that preserves an earlier verdict cannot revive it in
 # the public counter.
+# The verdict is written under six different field names across the campaigns.
+# Counting only "- الحكم" hid 640 Aramaic and 384 Hebrew verdicts from the public
+# dashboard, so the site understated itself.  scripts/count_links.py is the single
+# definition of a link; this pattern mirrors it.
 VERDICT_LINE = re.compile(
-    r"^- الحكم[^\n]*?:\s*\*{0,2}([A-Z][A-Z\-]+)", re.M
+    r"^-\s*(?:الحكم|الحسم|حكمُ? طبقة النواة|حكمُ? طبقة الجذر|نتيجةُ? طبقة النواة)"
+    r"[^\n]*?:\s*\*{0,2}([A-Z][A-Z\-]+)",
+    re.M,
 )
 
 # Verdicts that assert a link to the Arabic tongue, as opposed to closures
@@ -104,10 +117,11 @@ def reading_cards(text: str) -> list[str]:
     blocks = re.split(r"(?=^### )", text, flags=re.M)
     cards = []
     for block in blocks:
-        if not (
-            block.startswith("### بطاقة")
-            or block.startswith("### إعادةُ توسيم")
-        ):
+        # Six heading forms carry verdicts: بطاقة, إعادة قراءة بطبقتين, عين النواة,
+        # مراجعة عضوية, بطاقة حسم, إعادةُ توسيم.  Restricting to two of them was
+        # the second half of the undercount; any heading is now admitted and the
+        # verdict field decides, exactly as scripts/count_links.py does.
+        if not block.startswith("### "):
             continue
         heading = block.split("\n", 1)[0]
         if "<" in heading:
@@ -126,14 +140,27 @@ def live_blocker(card: str) -> str:
     return match.group(1) if match else ""
 
 
-def counted_outcome(card: str) -> str:
+def counted_outcomes(card: str) -> list[str]:
+    """Every outcome this card asserts.
+
+    The positive half is delegated to scripts/count_links.py so there is one
+    implementation of "what counts as a link", not two that have to be kept in
+    agreement.  A card read under the two-layer rule can assert a root-level
+    link and a nucleus-level link at once, in two separate fields, and both are
+    real claims, so positives come back as a set.  A card asserting none of them
+    falls back to a single closure, read from the verdict field or from the
+    authoritative blocker field.
+    """
+    positives = count_links.scan_card(count_links.bare(card))
+    if positives:
+        return sorted(positives)
     verdict = live_verdict(card)
-    if verdict in POSITIVE_VERDICTS or verdict in CLOSURE_VERDICTS:
-        return verdict
+    if verdict in CLOSURE_VERDICTS:
+        return [verdict]
     blocker = live_blocker(card)
     if blocker in CLOSURE_VERDICTS:
-        return blocker
-    return ""
+        return [blocker]
+    return []
 
 
 def language_rows() -> list[dict]:
@@ -148,7 +175,7 @@ def language_rows() -> list[dict]:
         if not cards:
             continue
         verdicts = Counter(
-            outcome for card in card_blocks if (outcome := counted_outcome(card))
+            outcome for card in card_blocks for outcome in counted_outcomes(card)
         )
         links = sum(
             count for name, count in verdicts.items() if name in POSITIVE_VERDICTS
@@ -167,7 +194,7 @@ def verdict_totals() -> dict:
             continue
         cards = reading_cards(path.read_text(encoding="utf-8"))
         counts.update(
-            outcome for card in cards if (outcome := counted_outcome(card))
+            outcome for card in cards for outcome in counted_outcomes(card)
         )
     links = sum(c for name, c in counts.items() if name in POSITIVE_VERDICTS)
     closures = sum(c for name, c in counts.items() if name in CLOSURE_VERDICTS)

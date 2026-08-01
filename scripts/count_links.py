@@ -70,8 +70,17 @@ def layer(degree: str) -> str:
     return "floor"
 
 
+def is_template(head: str) -> bool:
+    """القالبُ الفارغُ منسوخٌ في رأسِ كلِّ ملفِّ قراءةٍ وعنوانُه بأقواسٍ زاويّة،
+    مثل `بطاقة: <الكلمة بالرومنة> «<معناها الموجز>»`، وفيه سطرُ حكمٍ نموذجيٌّ
+    ليس حكمًا صادرًا. وخمسةُ قوالبَ كهذه كانت تُعَدُّ صلاتٍ قبلَ هذا الحارس."""
+    return "<" in head
+
+
 def scan_card(block: str) -> set[str]:
     """كلُّ الدرجاتِ الصادرةِ في بطاقةٍ واحدة، من أيِّ حقلٍ كان، بلا تكرار."""
+    if is_template(block.split("\n", 1)[0]):
+        return set()
     out = set()
     for v in VERDICT_FIELDS.findall(block):
         if any(c in v for c in CANCELLED):
