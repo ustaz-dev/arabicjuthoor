@@ -197,83 +197,83 @@
   ]
  },
  "pipeline": {
-  "cards_total": 6037,
-  "suspended": 4359,
-  "released": 1678,
+  "cards_total": 27644,
+  "suspended": 4077,
+  "released": 23567,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
-    "count": 1958
+    "count": 3548
    },
    {
     "name": "SOURCE-GAP",
-    "count": 951
+    "count": 245
    },
    {
     "name": "UNLABELLED",
-    "count": 725
-   },
-   {
-    "name": "MORPHOLOGY-GAP",
-    "count": 428
+    "count": 132
    },
    {
     "name": "TOOL-GAP",
-    "count": 160
+    "count": 89
+   },
+   {
+    "name": "MORPHOLOGY-GAP",
+    "count": 33
    },
    {
     "name": "LAW-GAP",
-    "count": 137
+    "count": 30
    }
   ],
   "backlog_by_file": [
    {
-    "file": "aramaic.md",
-    "count": 1567
-   },
-   {
     "file": "egyptian.md",
-    "count": 561
-   },
-   {
-    "file": "hebrew.md",
-    "count": 534
-   },
-   {
-    "file": "coptic.md",
-    "count": 355
-   },
-   {
-    "file": "old-norse.md",
-    "count": 191
-   },
-   {
-    "file": "gothic.md",
-    "count": 186
-   },
-   {
-    "file": "ancient-greek.md",
-    "count": 182
-   },
-   {
-    "file": "persian.md",
-    "count": 170
-   },
-   {
-    "file": "old-latin.md",
-    "count": 162
+    "count": 3719
    },
    {
     "file": "phoenician-punic-scout.md",
     "count": 162
    },
    {
-    "file": "welsh.md",
-    "count": 131
-   },
-   {
     "file": "punic.md",
     "count": 88
+   },
+   {
+    "file": "akkadian.md",
+    "count": 68
+   },
+   {
+    "file": "aramaic.md",
+    "count": 14
+   },
+   {
+    "file": "hebrew.md",
+    "count": 8
+   },
+   {
+    "file": "old-irish.md",
+    "count": 6
+   },
+   {
+    "file": "old-english.md",
+    "count": 3
+   },
+   {
+    "file": "ancient-greek.md",
+    "count": 2
+   },
+   {
+    "file": "coptic.md",
+    "count": 2
+   },
+   {
+    "file": "nucleus-echoes-week17.md",
+    "count": 2
+   },
+   {
+    "file": "welsh.md",
+    "count": 2
    }
   ]
  },
@@ -283,26 +283,26 @@
   "frozen_commit": "",
   "required_total": 600,
   "required_per_language": 150,
-  "families_tracked": 2347,
-  "eligible_now": 254,
+  "families_tracked": 1767,
+  "eligible_now": 356,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 153,
-    "represented": 1573,
-    "positive_families": 153,
+    "eligible": 230,
+    "represented": 577,
+    "positive_families": 230,
     "closure_only_families": 0,
-    "one_member_short": 783
+    "one_member_short": 80
    },
    {
     "name": "hebrew",
-    "eligible": 101,
-    "represented": 774,
-    "positive_families": 101,
+    "eligible": 126,
+    "represented": 1190,
+    "positive_families": 126,
     "closure_only_families": 0,
-    "one_member_short": 364
+    "one_member_short": 339
    }
   ],
   "counting_law": "A family counts only when every inventory member carries an issued verdict or recorded terminal closure."
@@ -311,6 +311,6 @@
   "level_1_letter_charges": 29,
   "level_2_binary_nuclei": 455,
   "level_3_composition_modes": 12,
-  "loanwords_registered": 63
+  "loanwords_registered": 2
  }
 }
