@@ -189,7 +189,12 @@ def language_rows() -> list[dict]:
 def verdict_totals() -> dict:
     """Issued verdicts across every reading file, split into links and closures."""
     counts: Counter = Counter()
-    for path in READINGS.glob("*.md"):
+    # sorted() is load-bearing, not tidiness.  Path.glob returns filesystem order,
+    # which is alphabetical on NTFS and arbitrary on ext4, and that order decides how
+    # Counter.most_common breaks ties below.  Unsorted, the same repository produced a
+    # different by_verdict ordering on Windows and on the Linux CI runner, so the
+    # freshness gate reported STALE against a snapshot that was in fact current.
+    for path in sorted(READINGS.glob("*.md")):
         if path.stem in SKIP_READINGS:
             continue
         cards = reading_cards(path.read_text(encoding="utf-8"))
@@ -207,7 +212,8 @@ def verdict_totals() -> dict:
                 "count": count,
                 "link": name in POSITIVE_VERDICTS,
             }
-            for name, count in counts.most_common()
+            # count descending, then name, so equal counts cannot reorder between runs
+            for name, count in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
         ],
     }
 
