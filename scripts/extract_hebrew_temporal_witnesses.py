@@ -54,7 +54,22 @@ def main() -> int:
     args = parser.parse_args()
 
     if not SOURCE.is_file() or not DB.is_file():
-        raise SystemExit("missing pinned Hebrew source or current recovery inventory")
+        # SOURCE lives under Resources/ and DB under cache/, both kept outside git on
+        # purpose, so neither reaches CI.  A freshness check that cannot read its
+        # inputs has nothing to say: it reports that plainly and does not fail the
+        # build.  A rebuild without inputs is still an error, because it would write
+        # an empty inventory over a real one.
+        def shown(path: Path) -> str:
+            try:
+                return path.relative_to(ROOT).as_posix()
+            except ValueError:
+                return str(path)
+
+        missing = [shown(path) for path in (SOURCE, DB) if not path.is_file()]
+        if args.check:
+            print(f"SKIPPED: Hebrew temporal-witness freshness, inputs absent ({', '.join(missing)})")
+            return 0
+        raise SystemExit(f"missing pinned Hebrew source or current recovery inventory ({', '.join(missing)})")
 
     connection = sqlite3.connect(DB)
     line_to_entry: dict[int, tuple[str, str]] = {}
