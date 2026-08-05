@@ -4,14 +4,14 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31193,
+  "cards_total": 31201,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
     "cards": 7442,
-    "links": 22
+    "links": 15
    },
    {
     "key": "persian",
@@ -24,21 +24,21 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 4018,
-    "links": 141
+    "cards": 4019,
+    "links": 120
    },
    {
     "key": "coptic",
     "en": "Coptic",
     "ar": "القبطيّة",
     "cards": 3920,
-    "links": 207
+    "links": 183
    },
    {
     "key": "welsh",
     "en": "Welsh",
     "ar": "الويلزيّة",
-    "cards": 3008,
+    "cards": 3007,
     "links": 11
    },
    {
@@ -46,41 +46,41 @@
     "en": "Hebrew",
     "ar": "العبريّة",
     "cards": 2236,
-    "links": 927
+    "links": 910
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
     "cards": 1428,
-    "links": 1089
+    "links": 1062
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
     "cards": 1262,
-    "links": 15
+    "links": 9
    },
    {
     "key": "old-irish",
     "en": "Old Irish",
     "ar": "old-irish",
     "cards": 653,
-    "links": 33
+    "links": 28
    },
    {
     "key": "old-english",
     "en": "Old English",
     "ar": "old-english",
     "cards": 438,
-    "links": 29
+    "links": 23
    },
    {
     "key": "phoenician-punic-scout",
     "en": "Phoenician scout",
     "ar": "مسحُ الفينيقيّة",
-    "cards": 294,
+    "cards": 295,
     "links": 5
    },
    {
@@ -88,21 +88,21 @@
     "en": "Gothic",
     "ar": "القوطيّة",
     "cards": 284,
-    "links": 24
+    "links": 17
    },
    {
     "key": "punic",
     "en": "Punic",
     "ar": "البونيقيّة",
-    "cards": 182,
+    "cards": 183,
     "links": 3
    },
    {
     "key": "akkadian",
     "en": "Akkadian",
     "ar": "الأكّاديّة",
-    "cards": 163,
-    "links": 88
+    "cards": 169,
+    "links": 89
    },
    {
     "key": "old-norse",
@@ -121,22 +121,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2624,
-  "closures": 5044,
+  "links_to_arabic": 2505,
+  "closures": 779,
   "by_verdict": [
    {
-    "name": "LOANWORD",
-    "count": 4314,
-    "link": false
-   },
-   {
     "name": "ROOT-TRACE",
-    "count": 1197,
+    "count": 1142,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 797,
+    "count": 759,
     "link": true
    },
    {
@@ -146,12 +141,12 @@
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 332,
+    "count": 313,
     "link": true
    },
    {
     "name": "ROOT-ECHO",
-    "count": 293,
+    "count": 286,
     "link": true
    },
    {
@@ -161,12 +156,17 @@
    },
    {
     "name": "LOAN-ROUTE-ISOLATED",
-    "count": 109,
+    "count": 101,
     "link": false
    },
    {
     "name": "ABBREVIATION",
     "count": 89,
+    "link": false
+   },
+   {
+    "name": "LOANWORD",
+    "count": 57,
     "link": false
    },
    {
@@ -197,10 +197,14 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27822,
-  "suspended": 4146,
-  "released": 23676,
+  "cards_total": 27829,
+  "suspended": 20738,
+  "released": 7091,
   "blockers": [
+   {
+    "name": "UNLABELLED",
+    "count": 16743
+   },
    {
     "name": "OPEN-CANDIDATE",
     "count": 3551
@@ -208,10 +212,6 @@
    {
     "name": "SOURCE-GAP",
     "count": 255
-   },
-   {
-    "name": "UNLABELLED",
-    "count": 151
    },
    {
     "name": "TOOL-GAP",
@@ -228,52 +228,52 @@
   ],
   "backlog_by_file": [
    {
+    "file": "old-latin.md",
+    "count": 7017
+   },
+   {
     "file": "egyptian.md",
-    "count": 3732
+    "count": 3733
+   },
+   {
+    "file": "coptic.md",
+    "count": 3319
+   },
+   {
+    "file": "welsh.md",
+    "count": 2915
+   },
+   {
+    "file": "persian.md",
+    "count": 1643
+   },
+   {
+    "file": "ancient-greek.md",
+    "count": 873
+   },
+   {
+    "file": "old-irish.md",
+    "count": 359
+   },
+   {
+    "file": "old-english.md",
+    "count": 207
+   },
+   {
+    "file": "gothic.md",
+    "count": 196
    },
    {
     "file": "phoenician-punic-scout.md",
     "count": 162
    },
    {
+    "file": "old-norse.md",
+    "count": 117
+   },
+   {
     "file": "punic.md",
     "count": 88
-   },
-   {
-    "file": "akkadian.md",
-    "count": 78
-   },
-   {
-    "file": "coptic.md",
-    "count": 18
-   },
-   {
-    "file": "hebrew.md",
-    "count": 15
-   },
-   {
-    "file": "aramaic.md",
-    "count": 14
-   },
-   {
-    "file": "ancient-greek.md",
-    "count": 12
-   },
-   {
-    "file": "old-irish.md",
-    "count": 10
-   },
-   {
-    "file": "old-english.md",
-    "count": 7
-   },
-   {
-    "file": "gothic.md",
-    "count": 3
-   },
-   {
-    "file": "nucleus-echoes-week17.md",
-    "count": 2
    }
   ]
  },

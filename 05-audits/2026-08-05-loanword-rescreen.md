@@ -1,0 +1,47 @@
+# محضر إعادة فرز إغلاقات القرض، 2026-08-05
+
+## النطاق والقانون
+
+أعيد فحص 17,122 بطاقة ذات حكم حي `LOANWORD` أو `LOANWORD-THIRD-PARTY-TO-BRANCH`. لا يعد ذكر الاقتراض وحده إغلاقا. لا يبقى الإغلاق إلا إذا سمى المسار مانحا ساميا بعد `from`، أو أثبت المسار المنظم مانحا ساميا، أو كان انتقالا من الفرع إلى العربية.
+
+النتيجة: أعيد فتح 16,999 بطاقة، وأبقي إغلاق 123 بطاقة. لم تحذف بطاقة واحدة. تحفظ كل بطاقة معادة سطر نسخ يحمل معرّفا مستقرا، والقائمة الآلية الكاملة في `data/loanword-rescreen.json`.
+
+## الحصيلة بحسب اللسان
+
+| اللسان | المفحوص | أعيد فتحه | بقي مغلقا | LOANWORD | THIRD-PARTY |
+|---|---:|---:|---:|---:|---:|
+| `ancient-greek` | 872 | 861 | 11 | 0 | 872 |
+| `aramaic` | 45 | 44 | 1 | 45 | 0 |
+| `coptic` | 3,303 | 3,301 | 2 | 3,303 | 0 |
+| `egyptian` | 2 | 2 | 0 | 2 | 0 |
+| `gothic` | 198 | 193 | 5 | 0 | 198 |
+| `hebrew` | 365 | 361 | 4 | 365 | 0 |
+| `old-english` | 222 | 200 | 22 | 222 | 0 |
+| `old-irish` | 377 | 349 | 28 | 377 | 0 |
+| `old-latin` | 7,045 | 7,017 | 28 | 0 | 7,045 |
+| `old-norse` | 117 | 115 | 2 | 0 | 117 |
+| `persian` | 1,661 | 1,643 | 18 | 0 | 1,661 |
+| `welsh` | 2,915 | 2,913 | 2 | 0 | 2,915 |
+
+## المصالحة
+
+كان مجموع الإغلاقات الداخلة في هذا الفرز 17,122. بعد النسخ يبقى منها 123 ويعود 16,999 إلى `OPEN-CANDIDATE`. الأرقام تخص الحالة الحية عند تنفيذ الهجرة، ولذلك قد تزيد على رقم الفحص السابق إذا أضيفت بطاقات بين الفحصين.
+
+## عينات تحقق
+
+- `ancient-greek`، `LOAN-REOPEN-ANCIENT-GREEK-00001`، `greek:family:8736a65da53bc97c7340866b`: المانح المذكور غير سامي: Phrygian βεκος.
+- `aramaic`، `LOAN-REOPEN-ARAMAIC-00001`، `kaikki_aramaic:1018:en-זוגא-arc-noun-ANHhrxQX`: المانح المذكور غير سامي: Ancient Greek ζεῦγος.
+- `coptic`، `LOAN-REOPEN-COPTIC-00003`، `coptic:family:3ba51f73e9f274fcdb3dfc76`: المانح المذكور غير سامي: غير سامي أو غير مسمى.
+- `egyptian`، `LOAN-REOPEN-EGYPTIAN-00001`، `egyptian:family:cc42338e5660931779ab83f1`: المانح المذكور غير سامي: غير سامي أو غير مسمى.
+- `gothic`، `LOAN-REOPEN-GOTHIC-00001`، `gothic:family:1d2219c85aab685733477f66`: المانح المذكور غير سامي: Latin Caesar.
+- `hebrew`، `LOAN-REOPEN-HEBREW-00001`، `kaikki_hebrew:10055:en-מרציפן-he-noun-VM4ehVa3`: المانح المذكور غير سامي: German Marzipan.
+- `old-english`، `LOAN-REOPEN-OLD-ENGLISH-00001`، `old-english:card:1:بطاقة: September «September»`: المانح المذكور غير سامي: Latin September».
+- `old-irish`، `LOAN-REOPEN-OLD-IRISH-00001`، `old-irish:card:1:بطاقة: port «place»`: المانح المذكور غير سامي: Latin portus.
+- `old-latin`، `LOAN-REOPEN-OLD-LATIN-00001`، `old-latin:card:11:بطاقة: calamus «reed; pen»`: المانح المذكور غير سامي: يونانية.
+- `old-norse`، `LOAN-REOPEN-OLD-NORSE-00001`، `norse:family:7ac7e6df049c3cdce5a415a3`: المانح المذكور غير سامي: Proto-Indo-European *pórḱos.
+- `persian`، `LOAN-REOPEN-PERSIAN-00001`، `persian:family:dfc47b020b0c34017da81331`: المانح المذكور غير سامي: Middle Persian *kilēd.
+- `welsh`، `LOAN-REOPEN-WELSH-00001`، `welsh:card:1:بطاقة: trip «رحلة، عثرة، حالة من الهلوسة»`: المانح المذكور غير سامي: Middle English trip».
+
+## أثر التنفيذ
+
+صححت الدالة `_kaikki_loan_hint` واختباراتها، ونسخت الأحكام داخل ملفات القراءة من غير محو النص التاريخي. يبنى العد واللقطة من الحقول الحية بعد هذا المحضر.

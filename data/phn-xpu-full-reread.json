@@ -1,0 +1,2662 @@
+{
+ "schema_version": "1.0",
+ "date": "2026-08-05",
+ "rule": "Every raw row was read; structural isolation is recorded, and no existing verdict is counted twice.",
+ "sources": {
+  "phn": {
+   "code": "phn",
+   "source": "Resources/phn/kaikki.org-phn-bounded-scout.jsonl",
+   "reading": "04-cross-linguistic/readings/phoenician-punic-scout.md",
+   "sha256": "979ce3ed7bb98cb3308fdfd40218e3c9f52878e4bbf445c5df3e7b8d36f48275",
+   "rows": 170,
+   "etymologies": 146,
+   "without_etymology": 24,
+   "with_attestation": 16,
+   "pos": {
+    "character": 22,
+    "prep": 3,
+    "noun": 84,
+    "name": 18,
+    "pron": 15,
+    "num": 17,
+    "adj": 2,
+    "verb": 7,
+    "particle": 1,
+    "adv": 1
+   },
+   "homographs": [
+    {
+     "word": "𐤀𐤔",
+     "members": [
+      {
+       "line": 22,
+       "pos": "noun",
+       "gloss": "man"
+      },
+      {
+       "line": 23,
+       "pos": "pron",
+       "gloss": "who, which"
+      }
+     ]
+    },
+    {
+     "word": "𐤀𐤕",
+     "members": [
+      {
+       "line": 54,
+       "pos": "pron",
+       "gloss": "you (masculine second person singular personal pronoun)"
+      },
+      {
+       "line": 55,
+       "pos": "pron",
+       "gloss": "you (feminine second person singular personal pronoun)"
+      }
+     ]
+    },
+    {
+     "word": "𐤄𐤀",
+     "members": [
+      {
+       "line": 56,
+       "pos": "pron",
+       "gloss": "he (masculine third-person singular personal pronoun)"
+      },
+      {
+       "line": 57,
+       "pos": "pron",
+       "gloss": "she (feminine third-person singular personal pronoun)"
+      }
+     ]
+    },
+    {
+     "word": "𐤄𐤌𐤕",
+     "members": [
+      {
+       "line": 59,
+       "pos": "pron",
+       "gloss": "they (masculine third-person plural personal pronoun)"
+      },
+      {
+       "line": 60,
+       "pos": "pron",
+       "gloss": "they (feminine third-person plural personal pronoun)"
+      }
+     ]
+    }
+   ],
+   "from_phoenician": 0,
+   "records": [
+    {
+     "line": 1,
+     "word": "𐤀",
+     "pos": "character",
+     "gloss": "The first letter of the Phoenician abjad, called aleph.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓃾 (see kꜣ) representing an ox head, whence the letter name 𐤀𐤋𐤐 (ʾlp, “head of cattle”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 2,
+     "word": "𐤀𐤁",
+     "pos": "prep",
+     "gloss": "in",
+     "etymology": "From Proto-Semitic *bV-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 3,
+     "word": "𐤀𐤓𐤑",
+     "pos": "noun",
+     "gloss": "earth",
+     "etymology": "From Proto-Semitic *ʔarṣ́-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 4,
+     "word": "𐤁𐤕",
+     "pos": "noun",
+     "gloss": "house",
+     "etymology": "From Proto-Semitic *bayt-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 5,
+     "word": "𐤁𐤏𐤋",
+     "pos": "noun",
+     "gloss": "Baal (\"The Lord\"), a title of the storm god Hadad",
+     "etymology": "From Proto-Semitic *baʕl-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 6,
+     "word": "𐤌𐤋𐤊",
+     "pos": "name",
+     "gloss": "Malaga (a port city in Spain), especially (historical) as an ancient Phoenician colony.",
+     "etymology": "Possibly from Proto-West Semitic *milḥ- (“salt”). If so, cognate with Hebrew מֶלַח (melaḥ).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 7,
+     "word": "𐤇𐤋𐤁",
+     "pos": "noun",
+     "gloss": "milk",
+     "etymology": "From Proto-Semitic *ḥalīb-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 8,
+     "word": "𐤔𐤌",
+     "pos": "noun",
+     "gloss": "name",
+     "etymology": "From Proto-Semitic *šim-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 9,
+     "word": "𐤔𐤋𐤌",
+     "pos": "noun",
+     "gloss": "peace",
+     "etymology": "Common Northwest Semitic, Hebrew שָׁלוֹם (šālōm), Aramaic שְׁלָמָא (šlāmā) / ܫܠܡܐ (šlāmā), Ugaritic 𐎌𐎍𐎎 (šlm /⁠šalāmu⁠/).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 10,
+     "word": "𐤔𐤌𐤔",
+     "pos": "noun",
+     "gloss": "sun",
+     "etymology": "From Proto-Semitic *śamš-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 11,
+     "word": "𐤌𐤌",
+     "pos": "noun",
+     "gloss": "water",
+     "etymology": "From Proto-Semitic *may-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 12,
+     "word": "𐤃𐤌",
+     "pos": "noun",
+     "gloss": "blood",
+     "etymology": "From Proto-Semitic *dam-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 13,
+     "word": "𐤏𐤍",
+     "pos": "noun",
+     "gloss": "eye",
+     "etymology": "From Proto-Semitic *ʿayn-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 14,
+     "word": "𐤉𐤃",
+     "pos": "noun",
+     "gloss": "hand",
+     "etymology": "From Proto-Semitic *yad-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 15,
+     "word": "𐤀𐤃𐤌",
+     "pos": "noun",
+     "gloss": "man",
+     "etymology": "From Proto-Semitic *ʔadam-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 16,
+     "word": "𐤋𐤁",
+     "pos": "noun",
+     "gloss": "heart",
+     "etymology": "From Proto-Semitic *libb-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 17,
+     "word": "𐤋𐤔𐤍",
+     "pos": "noun",
+     "gloss": "tongue",
+     "etymology": "From Proto-Semitic *lišān-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 18,
+     "word": "𐤊𐤋𐤁",
+     "pos": "noun",
+     "gloss": "dog",
+     "etymology": "From Proto-Semitic *kalb-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 19,
+     "word": "𐤁𐤍",
+     "pos": "noun",
+     "gloss": "son",
+     "etymology": "From Proto-Semitic *bin-.",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 20,
+     "word": "𐤁𐤓",
+     "pos": "noun",
+     "gloss": "son",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 21,
+     "word": "𐤀𐤇",
+     "pos": "noun",
+     "gloss": "brother",
+     "etymology": "From Proto-Semitic *ʔaḫw-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 22,
+     "word": "𐤀𐤔",
+     "pos": "noun",
+     "gloss": "man",
+     "etymology": "From Proto-Semitic *ʾš, *ʾiš- (“man”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 23,
+     "word": "𐤀𐤔",
+     "pos": "pron",
+     "gloss": "who, which",
+     "etymology": "Compare Hebrew אשר.",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 24,
+     "word": "𐤑𐤓𐤕",
+     "pos": "noun",
+     "gloss": "co-wife",
+     "etymology": "From Proto-Semitic *ṣ́arrat- (“co-wife”). Cognate to Hebrew צָרָה.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 25,
+     "word": "𐤃𐤓",
+     "pos": "noun",
+     "gloss": "family",
+     "etymology": "From Proto-Semitic *dawr-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 26,
+     "word": "𐤊𐤌𐤓",
+     "pos": "noun",
+     "gloss": "priest",
+     "etymology": "From Proto-Semitic *kumir-. Cognate to Hebrew כומר.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 27,
+     "word": "𐤆𐤒𐤍",
+     "pos": "noun",
+     "gloss": "beard, bearded chin",
+     "etymology": "From Proto-Semitic *ḏaḳan- (“beard”). Cognate to Hebrew זָקָן.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 28,
+     "word": "𐤀𐤇𐤕",
+     "pos": "num",
+     "gloss": "one",
+     "etymology": "From Proto-Semitic *ʔaḥad-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 29,
+     "word": "𐤁",
+     "pos": "character",
+     "gloss": "The second letter of the Phoenician abjad, called beth.",
+     "etymology": "From Proto-Canaanite , , from Proto-Sinaitic , from Egyptian 𓉐 (pr) representing the plan of a house, whence the letter name 𐤁𐤕 (bt /⁠bēt⁠/, “house”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 30,
+     "word": "𐤂",
+     "pos": "character",
+     "gloss": "The third letter of the Phoenician abjad, called gimel.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓌙 (see qmꜣ, ꜥmꜥꜣt) representing a throwstick.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 31,
+     "word": "𐤃",
+     "pos": "character",
+     "gloss": "The fourth letter of the Phoenician abjad, called dalet.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓆛 (see jnt) or alternatively Egyptian 𓉿 (see ꜥꜣ) representing a doorleaf, whence the letter name 𐤃𐤋𐤕 (dlt, “door”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 32,
+     "word": "𐤄",
+     "pos": "character",
+     "gloss": "The fifth letter of the Phoenician abjad, called heh (representing the consonant /h/ and word-final vowels)",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓀠.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 33,
+     "word": "𐤅",
+     "pos": "character",
+     "gloss": "The sixth letter of the Phoenician abjad, called waw.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓌉 representing a mace.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 34,
+     "word": "𐤆",
+     "pos": "character",
+     "gloss": "The seventh letter of the Phoenician abjad, representing the consonant /z/ ([ᵈz]).",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓏭.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 35,
+     "word": "𐤇",
+     "pos": "character",
+     "gloss": "The eighth letter of the Phoenician abjad, called heth.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓉗 or 𓈈.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 36,
+     "word": "𐤈",
+     "pos": "character",
+     "gloss": "The ninth letter of the Phoenician abjad, called teth.",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 37,
+     "word": "𐤉",
+     "pos": "character",
+     "gloss": "The tenth letter of the Phoenician abjad, called yodh.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓂝 (see ꜥ) representing a forearm, whence the letter name 𐤉𐤃 (yd, “hand”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 38,
+     "word": "𐤊",
+     "pos": "character",
+     "gloss": "The eleventh letter of the Phoenician alphabet, called kaph and written in the Phoenician script.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓂧 (see ḏrt) representing a hand, whence the letter name 𐤊𐤐 (kp).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 39,
+     "word": "𐤋",
+     "pos": "character",
+     "gloss": "The twelfth letter of the Phoenician abjad, called lamed.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓍈.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 40,
+     "word": "𐤌",
+     "pos": "character",
+     "gloss": "The 13th letter of the Phoenician abjad, called mem.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓈗 representing water, whence the letter name 𐤌𐤌 (mm, “water”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 41,
+     "word": "𐤍",
+     "pos": "character",
+     "gloss": "The 14th letter of the Phoenician abjad, called nun.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓆓.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 42,
+     "word": "𐤎",
+     "pos": "character",
+     "gloss": "The 15th letter of the Phoenician abjad, called samekh.",
+     "etymology": "From Proto-Canaanite , from Egyptian 𓊽.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 43,
+     "word": "𐤏",
+     "pos": "character",
+     "gloss": "The 16th letter of the Phoenician abjad, called ayin.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓁹 representing an eye, whence the letter name 𐤏𐤉𐤍 (ʿyn, “eye”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 44,
+     "word": "𐤐",
+     "pos": "character",
+     "gloss": "The 17th letter of the Phoenician abjad, called pe.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓂋 representing a mouth, whence the letter name 𐤐 (p, “mouth”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 45,
+     "word": "𐤑",
+     "pos": "character",
+     "gloss": "The 18th letter of the Phoenician abjad, called tsade.",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 46,
+     "word": "𐤒",
+     "pos": "character",
+     "gloss": "The 19th letter of the Phoenician abjad, called qoph.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓊃.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 47,
+     "word": "𐤓",
+     "pos": "character",
+     "gloss": "The twentieth letter of the Phoenician abjad, called resh.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓁶 or Egyptian 𓂉 representing a head, whence the letter name 𐤓𐤀𐤔 (rʾš, “head”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 48,
+     "word": "𐤔",
+     "pos": "character",
+     "gloss": "The twenty-first letter of the Phoenician abjad, called shin.",
+     "etymology": "From Proto-Sinaitic . The association of \"tooth\" (see Proto-Semitic *šinn- (“tooth”)) with this letter was the result of folk etymology and its shape resembling a tooth. The letter originally depicted a composite bow, which usually has the tips curving away from the archer when unstrung.\nRelated to Classical Syriac ܫ, Arabic ش (š), Hebrew ש, Russian ш (š), Aramaic ܫ. More at Shin.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 49,
+     "word": "𐤕",
+     "pos": "character",
+     "gloss": "The 22nd letter of the Phoenician abjad, called taw.",
+     "etymology": "From Proto-Canaanite , from Proto-Sinaitic , from Egyptian 𓏴.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 50,
+     "word": "𐤁𐤉𐤕",
+     "pos": "noun",
+     "gloss": "alternative form of 𐤁𐤕 (bt)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 51,
+     "word": "𐤏𐤉𐤍",
+     "pos": "noun",
+     "gloss": "eye",
+     "etymology": "From Proto-Semitic *ʿayn-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 52,
+     "word": "𐤀𐤍𐤊𐤉",
+     "pos": "pron",
+     "gloss": "alternative spelling of 𐤀𐤍𐤊 (ʾnk, “I”)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 53,
+     "word": "𐤀𐤍𐤊",
+     "pos": "pron",
+     "gloss": "I (first-person singular personal pronoun)",
+     "etymology": "From Proto-Semitic *ʔanāku. The second vowel seems to have been replaced by analogy with the form 𐤀𐤍𐤉 (ʾny /⁠ʾanī⁠/).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 54,
+     "word": "𐤀𐤕",
+     "pos": "pron",
+     "gloss": "you (masculine second person singular personal pronoun)",
+     "etymology": "From Proto-Semitic *ʔanta.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 55,
+     "word": "𐤀𐤕",
+     "pos": "pron",
+     "gloss": "you (feminine second person singular personal pronoun)",
+     "etymology": "From Proto-Semitic *ʔanti.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 56,
+     "word": "𐤄𐤀",
+     "pos": "pron",
+     "gloss": "he (masculine third-person singular personal pronoun)",
+     "etymology": "From Proto-Semitic *šuʔa.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 57,
+     "word": "𐤄𐤀",
+     "pos": "pron",
+     "gloss": "she (feminine third-person singular personal pronoun)",
+     "etymology": "From Proto-Semitic *šiʔa.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 58,
+     "word": "𐤀𐤍𐤇𐤍",
+     "pos": "pron",
+     "gloss": "we (first-person plural personal pronoun)",
+     "etymology": "From Proto-Semitic *niḥnu.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 59,
+     "word": "𐤄𐤌𐤕",
+     "pos": "pron",
+     "gloss": "they (masculine third-person plural personal pronoun)",
+     "etymology": "From Proto-Semitic *šumūtī.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 60,
+     "word": "𐤄𐤌𐤕",
+     "pos": "pron",
+     "gloss": "they (feminine third-person plural personal pronoun)",
+     "etymology": "From Proto-Semitic *šumūtī.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 61,
+     "word": "𐤌𐤍𐤌",
+     "pos": "pron",
+     "gloss": "anything",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 62,
+     "word": "𐤐𐤉",
+     "pos": "noun",
+     "gloss": "mouth",
+     "etymology": "From Proto-Semitic *pay-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 63,
+     "word": "𐤁𐤉𐤍",
+     "pos": "noun",
+     "gloss": "son",
+     "etymology": "From Proto-Semitic *bin-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 64,
+     "word": "𐤂𐤋𐤂𐤋",
+     "pos": "noun",
+     "gloss": "wheel",
+     "etymology": "Cognate to Hebrew גַּלְגַּל.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 65,
+     "word": "𐤊𐤊𐤁",
+     "pos": "noun",
+     "gloss": "star (distant, apparently stationary luminous celestial body)",
+     "etymology": "From Proto-Semitic *kabkab-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 66,
+     "word": "𐤌𐤒𐤌",
+     "pos": "noun",
+     "gloss": "place",
+     "etymology": "Compare Biblical Hebrew מָקוֹם (māqōm), Arabic مَقَام (maqām).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 67,
+     "word": "𐤌𐤌𐤋𐤊𐤕",
+     "pos": "noun",
+     "gloss": "kingdom",
+     "etymology": "Compare Hebrew מַמְלָכָה (mamlāḵā, “kingdom”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 68,
+     "word": "𐤀𐤂𐤃𐤃",
+     "pos": "noun",
+     "gloss": "band",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 69,
+     "word": "𐤀𐤓𐤁𐤏",
+     "pos": "num",
+     "gloss": "four",
+     "etymology": "From Proto-Semitic *ʔarbaʕum.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 70,
+     "word": "𐤏𐤊𐤁𐤓",
+     "pos": "noun",
+     "gloss": "mouse",
+     "etymology": "Cognate to Hebrew עַכְבָּר.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 71,
+     "word": "𐤀𐤋𐤌𐤕",
+     "pos": "noun",
+     "gloss": "widow",
+     "etymology": "Cognate to Biblical Hebrew אַלְמָנָה (ʔalmɔnɔ).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 72,
+     "word": "𐤔𐤕",
+     "pos": "noun",
+     "gloss": "year",
+     "etymology": "From Proto-Semitic *šanat-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 73,
+     "word": "𐤊𐤄𐤍𐤕",
+     "pos": "noun",
+     "gloss": "priestess",
+     "etymology": "Compare Ugaritic 𐎋𐎅𐎐𐎚 (khnt), Hebrew כוהנת. Related to 𐤊𐤄𐤍 (khn).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 74,
+     "word": "𐤀𐤁𐤕",
+     "pos": "noun",
+     "gloss": "fatherhood",
+     "etymology": "Related to 𐤀𐤁 (ʾb).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 75,
+     "word": "𐤀𐤋𐤌",
+     "pos": "noun",
+     "gloss": "god",
+     "etymology": "From Proto-Semitic *ʾil-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 76,
+     "word": "𐤒𐤃𐤔𐤍",
+     "pos": "noun",
+     "gloss": "the holy ones",
+     "etymology": "From 𐤒𐤃𐤔 (qdš, “holy”), from Proto-Semitic *ḳudš- (“holy”). Cognate with Arabic قدس (qudus or quds, “holy”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 77,
+     "word": "𐤔𐤌𐤌",
+     "pos": "noun",
+     "gloss": "heaven",
+     "etymology": "From Proto-Semitic *šamāy- (“sky, heaven”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 78,
+     "word": "𐤀𐤁𐤍",
+     "pos": "noun",
+     "gloss": "stone",
+     "etymology": "From Proto-Semitic *ʾabn-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 79,
+     "word": "𐤉𐤌",
+     "pos": "noun",
+     "gloss": "open sea",
+     "etymology": "A Northwest Semitic innovation. Hebrew יָם (yām), Aramaic ימא (yammā), Ugaritic 𐎊𐎎 (ym).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 80,
+     "word": "𐤐𐤏𐤌",
+     "pos": "noun",
+     "gloss": "foot",
+     "etymology": "Cognate to Hebrew פַּעַם.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 81,
+     "word": "𐤋𐤁𐤍",
+     "pos": "adj",
+     "gloss": "white",
+     "etymology": "From Proto-West Semitic *laban-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 82,
+     "word": "𐤓𐤁𐤌",
+     "pos": "adj",
+     "gloss": "numerous",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 83,
+     "word": "𐤔𐤍𐤌",
+     "pos": "num",
+     "gloss": "two",
+     "etymology": "From Proto-Semitic *ṯin-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 84,
+     "word": "𐤔𐤋𐤔𐤕",
+     "pos": "num",
+     "gloss": "three",
+     "etymology": "From Proto-Semitic *ṯalāṯatum.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 85,
+     "word": "𐤔𐤋𐤔",
+     "pos": "num",
+     "gloss": "three",
+     "etymology": "From Proto-Semitic *ṯalāṯum.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 86,
+     "word": "𐤀𐤓𐤁𐤏𐤕",
+     "pos": "num",
+     "gloss": "four",
+     "etymology": "From Proto-Semitic *ʔarbaʕ-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 87,
+     "word": "𐤇𐤌𐤔",
+     "pos": "num",
+     "gloss": "five",
+     "etymology": "From Proto-Semitic *ḫamš-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 88,
+     "word": "𐤇𐤌𐤔𐤕",
+     "pos": "num",
+     "gloss": "five",
+     "etymology": "From Proto-Semitic *ḫamš-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 89,
+     "word": "𐤔𐤔𐤕",
+     "pos": "num",
+     "gloss": "six",
+     "etymology": "From Proto-Semitic *šidṯ-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 90,
+     "word": "𐤔𐤌𐤍",
+     "pos": "num",
+     "gloss": "eight",
+     "etymology": "From Proto-Semitic *ṯamāniy-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 91,
+     "word": "𐤔𐤌𐤍𐤄",
+     "pos": "num",
+     "gloss": "eight",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 92,
+     "word": "𐤏𐤔𐤓",
+     "pos": "num",
+     "gloss": "ten",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 93,
+     "word": "𐤏𐤔𐤓𐤕",
+     "pos": "num",
+     "gloss": "ten",
+     "etymology": "From Proto-Semitic *ʕaśar-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 94,
+     "word": "𐤏𐤎𐤓𐤌",
+     "pos": "num",
+     "gloss": "twenty",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 95,
+     "word": "𐤔𐤋𐤔𐤌",
+     "pos": "num",
+     "gloss": "thirty",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 96,
+     "word": "𐤌𐤀𐤕",
+     "pos": "num",
+     "gloss": "hundred",
+     "etymology": "From Proto-Semitic *miʾat-. Cognate to Hebrew מֵאָה.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 97,
+     "word": "𐤔𐤋𐤔𐤌𐤀𐤕",
+     "pos": "num",
+     "gloss": "three hundred",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 98,
+     "word": "𐤀𐤋𐤐",
+     "pos": "noun",
+     "gloss": "bull, ox, head of cattle",
+     "etymology": "From Proto-Semitic *ʔalp- (“head of cattle”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 99,
+     "word": "𐤀𐤊𐤋",
+     "pos": "verb",
+     "gloss": "to eat",
+     "etymology": "From Proto-Semitic *ʔakal- (“to eat”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 100,
+     "word": "𐤉𐤓𐤇",
+     "pos": "noun",
+     "gloss": "moon",
+     "etymology": "From Proto-Semitic *warḫ-, ultimately from Proto-Afroasiatic. Compare Egyptian jꜥḥ (“moon”), and Tashelhit ayyur (“moon, month”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 101,
+     "word": "𐤇𐤓𐤔",
+     "pos": "verb",
+     "gloss": "to plow",
+     "etymology": "From Proto-Semitic *ḥaraθ-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 102,
+     "word": "𐤓𐤀𐤔",
+     "pos": "noun",
+     "gloss": "head",
+     "etymology": "From Proto-Semitic *raʔš-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 103,
+     "word": "𐤀𐤓𐤅",
+     "pos": "noun",
+     "gloss": "lion",
+     "etymology": "From Proto-Semitic *ʔarway-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 104,
+     "word": "𐤐𐤍",
+     "pos": "noun",
+     "gloss": "face",
+     "etymology": "From Proto-Semitic *pan-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 105,
+     "word": "𐤋𐤋",
+     "pos": "noun",
+     "gloss": "night",
+     "etymology": "From Proto-Semitic *laylay-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 106,
+     "word": "𐤀𐤎",
+     "pos": "noun",
+     "gloss": "Isis",
+     "etymology": "Borrowed from Egyptian st-t:H8-B1 (ꜣst).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 107,
+     "word": "𐤒𐤓𐤕𐤇𐤃𐤔𐤕",
+     "pos": "name",
+     "gloss": "Carthage (a historical city)",
+     "etymology": "From 𐤒𐤓𐤕 (qrt, “city”) + 𐤇𐤃𐤔𐤕 (ḥdšt, “new”), in comparison to its mother city Tyre. Compare Aramaic ܩܲܪܬܵܐ ܚܕܲܬܵܐ (qartā ḥdattā, “new city”), Arabic قَرْيَة حَدِيثَة (qarya ḥadīṯa, “modern town”), or Hebrew קֶרֶת חדש (qeret ḥăḏāšāh, “new town”).",
+     "attestation": true,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 108,
+     "word": "𐤑𐤓",
+     "pos": "name",
+     "gloss": "Tyre (an ancient city-state in Phoenicia)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 109,
+     "word": "𐤑𐤉𐤃𐤍",
+     "pos": "name",
+     "gloss": "Sidon",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 110,
+     "word": "𐤂𐤁𐤋",
+     "pos": "name",
+     "gloss": "Byblos",
+     "etymology": "By surface analysis, 𐤂𐤁 (gb, “well, origin”) + 𐤀𐤋 (ʾl, “God”), diachronically from Proto-Canaanite g-b-l (“Gubla”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 111,
+     "word": "𐤂𐤃𐤓",
+     "pos": "name",
+     "gloss": "Gades, the ancient Punic settlement at Cádiz, Spain",
+     "etymology": "Compare Hebrew גָּדֵר (gadér) and Arabic جِدَار (jidār), Shehri gédɔ́r (“wall, cairn, piled stones”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 112,
+     "word": "𐤎𐤎",
+     "pos": "noun",
+     "gloss": "horse",
+     "etymology": "Compare Hebrew סוּס (sūs), Aramaic סוּסְיָא (sūsəyā), Akkadian 𒀲𒆳𒊏 (sīsûm), Classical Syriac ܣܘܣܝܐ (sūsyā) and Ugaritic 𐎒𐎒𐎆 (ssw).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 113,
+     "word": "𐤔𐤓",
+     "pos": "noun",
+     "gloss": "headman, princeps",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 114,
+     "word": "𐤀𐤓𐤍",
+     "pos": "noun",
+     "gloss": "ark, chest, box",
+     "etymology": "From Proto-Semitic *ʾarān-. Cognate to Hebrew אָרוֹן (ʾārōn).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 115,
+     "word": "𐤉𐤓𐤔𐤋𐤌",
+     "pos": "name",
+     "gloss": "Jerusalem",
+     "etymology": "From Hebrew 𐤉𐤓𐤅𐤔𐤋𐤉𐤌 (yrwšlym).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 116,
+     "word": "𐤊𐤍𐤏𐤍",
+     "pos": "name",
+     "gloss": "Canaan",
+     "etymology": "Compare Hebrew כנען, Arabic كنعان.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 117,
+     "word": "𐤓𐤁",
+     "pos": "noun",
+     "gloss": "head, chief, lord",
+     "etymology": "From Proto-Semitic *rabb-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 118,
+     "word": "𐤊𐤄𐤍",
+     "pos": "noun",
+     "gloss": "priest",
+     "etymology": "Compare Ugaritic 𐎋𐎅𐎐 (khn), Hebrew כֹּהֵן (kōhēn), Aramaic כָּהֲנָא (kāhǎnā), Arabic كَاهِن (kāhin).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 119,
+     "word": "𐤓𐤁 𐤊𐤄𐤍𐤕",
+     "pos": "noun",
+     "gloss": "high priestess",
+     "etymology": "Cognate with Ugaritic 𐎗𐎁 𐎋𐎅𐎐𐎚 (rb khnt).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 120,
+     "word": "𐤏𐤔𐤕𐤓𐤕",
+     "pos": "name",
+     "gloss": "Astarte",
+     "etymology": "From Proto-Semitic *ʕaṯtar-.",
+     "attestation": true,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 121,
+     "word": "𐤑𐤃𐤍𐤌",
+     "pos": "name",
+     "gloss": "Sidon",
+     "etymology": "",
+     "attestation": true,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 122,
+     "word": "𐤏𐤋𐤌",
+     "pos": "noun",
+     "gloss": "eternity",
+     "etymology": "Cognate with Aramaic עָלְמָא / ܥܳܠܡܳܐ (ʿāləmā) and Hebrew עוֹלָם (ʿōlām),",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 123,
+     "word": "𐤒𐤋",
+     "pos": "noun",
+     "gloss": "voice",
+     "etymology": "Probably from Proto-Semitic *qawl.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 124,
+     "word": "𐤃𐤁𐤓𐤕",
+     "pos": "noun",
+     "gloss": "wasp",
+     "etymology": "Related to Hebrew דבורה (dvorá), Classical Syriac ܕܒܘܪܐ (debbōrā), Arabic دَبُّور (dabbūr), Amharic ዲቧራ (dibʷara), Aramaic דְּבוֹרְתָא .",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 125,
+     "word": "𐤉𐤍",
+     "pos": "noun",
+     "gloss": "wine",
+     "etymology": "From Proto-West Semitic *wayn-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 126,
+     "word": "𐤏𐤑",
+     "pos": "noun",
+     "gloss": "tree",
+     "etymology": "From Proto-Semitic *ʕiṣ́-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 127,
+     "word": "𐤀𐤋",
+     "pos": "noun",
+     "gloss": "god, deity",
+     "etymology": "From Proto-Semitic *ʔil-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 128,
+     "word": "𐤁𐤍𐤕",
+     "pos": "noun",
+     "gloss": "daughter",
+     "etymology": "From Proto-Semitic *bint-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 129,
+     "word": "𐤒𐤓𐤀",
+     "pos": "verb",
+     "gloss": "to call",
+     "etymology": "Compare Arabic قَرَأَ (qaraʔa), Hebrew קָרָא (qaráʾ) and Aramaic קרא (q'rā).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 130,
+     "word": "𐤔𐤇𐤕",
+     "pos": "verb",
+     "gloss": "to decay, rust",
+     "etymology": "From Northwest Semitic. Compare Biblical Hebrew שִׁחֵת (šiḥēt, “to spoil, ruin, corrupt, destroy”), Aramaic שְׁחַת (šĕḥat, “to corrupt, mutilate, destroy”) and Classical Syriac ܫܵܚܹܬ (šāḥēt, “to rust, decay”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 131,
+     "word": "𐤀𐤇𐤓𐤌",
+     "pos": "name",
+     "gloss": "a male given name",
+     "etymology": "From 𐤀𐤇 (ʾḥ /⁠ʾaḫī⁠/, “my brother”) + 𐤓𐤌 (rm /⁠ramm⁠/, “exalted”), meaning \"my brother is exalted.\" Akin to Biblical Hebrew אֲחִירָם (ʾaḫīrām).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 132,
+     "word": "𐤁𐤀",
+     "pos": "verb",
+     "gloss": "to come",
+     "etymology": "Compare Hebrew בא.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 133,
+     "word": "𐤓𐤂𐤆",
+     "pos": "verb",
+     "gloss": "to disturb",
+     "etymology": "Possibly related to Arabic أَنْغَصَ (ʔanḡaṣa, “to disturb”), with rhotacism n>r.",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 134,
+     "word": "𐤏𐤋𐤕",
+     "pos": "prep",
+     "gloss": "Used to introduce a semantically definite direct object.",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 135,
+     "word": "𐤀𐤉𐤕",
+     "pos": "particle",
+     "gloss": "Used to introduce a semantically definite direct object.",
+     "etymology": "Related to Hebrew את.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 136,
+     "word": "𐤒𐤓𐤍",
+     "pos": "noun",
+     "gloss": "horn",
+     "etymology": "From Proto-Semitic *ḳarn-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 137,
+     "word": "𐤁𐤔𐤓",
+     "pos": "noun",
+     "gloss": "meat; flesh",
+     "etymology": "From Proto-West Semitic *baśar-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 138,
+     "word": "𐤉𐤕𐤌",
+     "pos": "noun",
+     "gloss": "orphan",
+     "etymology": "From Proto-Semitic *yatam- (“to be fatherless or without a guardian, to be without support of family or tribe, to be disenfranchised or alone”). Cognate with Arabic يَتِيم (yatīm), Aramaic יַתְמָא (yaṯmā), Classical Syriac ܝܲܬ݂ܡܵܐ (yaṯmā), Classical Mandaic ࡉࡀࡕࡉࡌࡀ (yatima), Hebrew יָתוֹם (yatóm), Tigre ያፓም (yattam), Ugaritic 𐎊𐎚𐎎 (ytm).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 139,
+     "word": "𐤌𐤂𐤍",
+     "pos": "noun",
+     "gloss": "shield",
+     "etymology": "Cognate with Arabic مِجَنّ (mijann), Classical Syriac ܡܓܶܢܳܐ (məgennā), and Hebrew מָגֵן.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 140,
+     "word": "𐤏𐤑𐤌",
+     "pos": "noun",
+     "gloss": "bone",
+     "etymology": "From Proto-Semitic *ʕaṯ̣m-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 141,
+     "word": "𐤐𐤏𐤋",
+     "pos": "verb",
+     "gloss": "to do, make",
+     "etymology": "Compare to Hebrew פ־ע־ל (p-'-l, “to act”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 142,
+     "word": "𐤐𐤋𐤔",
+     "pos": "noun",
+     "gloss": "architect",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 143,
+     "word": "𐤐𐤂",
+     "pos": "noun",
+     "gloss": "Ripe fig",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 144,
+     "word": "𐤁𐤓𐤆𐤋",
+     "pos": "noun",
+     "gloss": "iron",
+     "etymology": "Likely a Wanderwort. Cognate with Aramaic פַּרְזְלָא (parzəlā), Classical Syriac ܦܪܙܠܐ (parzlā), Akkadian 𒀭𒁇 (parzillum), Ugaritic 𐎁𐎗𐎏𐎍 (brḏl), Hebrew בַּרְזֶל (barzél) and Sumerian 𒀭𒁇𒋤 (AN.BAR.SUD).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 145,
+     "word": "𐤔𐤃",
+     "pos": "noun",
+     "gloss": "field, farmland",
+     "etymology": "From Proto-Semitic. Cognate with Akkadian 𒆳 (šadûm), Hebrew שָׂדֶה (śāḏê), and Ugaritic 𐎌𐎄 (šd /⁠šadû⁠/).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 146,
+     "word": "𐤊𐤌𐤍",
+     "pos": "noun",
+     "gloss": "cumin",
+     "etymology": "From Akkadian 𒌑𒁷𒊺𒉪 (Ú.GAMUN /⁠kamūnu⁠/, “cumin”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 147,
+     "word": "𐤔𐤒𐤃",
+     "pos": "noun",
+     "gloss": "almond (fruit and tree)",
+     "etymology": "See Hebrew שָׁקֵד (šāqḗḏ, “almond”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 148,
+     "word": "𐤔𐤔𐤌𐤍",
+     "pos": "noun",
+     "gloss": "sesame",
+     "etymology": "Compare Aramaic שושמא / ܫܘܫܡܐ (šuššǝmā), simplified from שומשמא (šumǝššumā). From Akkadian 𒃻𒈦𒌑𒈬 (/⁠šamaššammū⁠/), 𒊭𒈦𒌑𒈨 (/⁠šamaššammi⁠/, literally “oil plant”), compound of 𒉌 (/⁠šaman⁠/, “oil”) and 𒌑 (/⁠šammu⁠/, “plant”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 149,
+     "word": "𐤆𐤉𐤕",
+     "pos": "noun",
+     "gloss": "either olives or their oil",
+     "etymology": "Cognate to Hebrew זַיִת (záyiṯ), a culture word.",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 150,
+     "word": "𐤒𐤁𐤏",
+     "pos": "noun",
+     "gloss": "cup, goblet",
+     "etymology": "Compare Latin gabata.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 151,
+     "word": "𐤍𐤇𐤍",
+     "pos": "pron",
+     "gloss": "alternative form of 𐤀𐤍𐤇𐤍 (ʾnḥn)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 152,
+     "word": "𐤀𐤍𐤉",
+     "pos": "pron",
+     "gloss": "alternative form of 𐤀𐤍𐤊 (ʾnk)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 153,
+     "word": "𐤀𐤕𐤌",
+     "pos": "pron",
+     "gloss": "you (masculine second-person plural personal pronoun)",
+     "etymology": "From Proto-Semitic *ʔantum.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 154,
+     "word": "𐤇𐤓𐤑",
+     "pos": "noun",
+     "gloss": "gold",
+     "etymology": "See Sanskrit हलदी (haladī).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 155,
+     "word": "𐤔𐤏𐤓",
+     "pos": "noun",
+     "gloss": "gatekeeper",
+     "etymology": "Cognate to Arabic ثُغْرَة (ṯuḡra, “gap”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 156,
+     "word": "𐤂𐤌𐤋",
+     "pos": "noun",
+     "gloss": "camel",
+     "etymology": "From Proto-West Semitic *gamal- (“camel”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 157,
+     "word": "𐤀𐤋𐤔𐤉",
+     "pos": "name",
+     "gloss": "Cyprus (an island in the Mediterranean Sea)",
+     "etymology": "Borrowed from a local language. Cognate to Ugaritic 𐎀𐎍𐎘𐎊 (ảlṯy), Akkadian 𒀀𒆷𒅆𒅀 (a-la-ši-ya /⁠Alašiya⁠/), Mycenaean Greek 𐀀𐀨𐀯𐀍 (a-ra-si-jo /⁠Alasios⁠/), of identical meaning.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 158,
+     "word": "𐤔𐤓𐤔",
+     "pos": "noun",
+     "gloss": "root",
+     "etymology": "From Proto-Semitic *šurš-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 159,
+     "word": "𐤀𐤉",
+     "pos": "adv",
+     "gloss": "negates finitive verbs",
+     "etymology": "Cognate to Ge'ez ኢ (ʾi, negates verbs), Biblical Hebrew אִי (ʔī, negates verbs), Akkadian 𒀀 (A /⁠ay⁠/, vetitive before /y/), 𒂊 (E /⁠ē⁠/, vetitive in all other contexts), from Proto-Semitic *ʔay- (“not”), unless independent developments from interrogative *ʔayy-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 160,
+     "word": "𐤒𐤁𐤓",
+     "pos": "noun",
+     "gloss": "tomb",
+     "etymology": "Compare Akkadian 𒀍 (qabrum, “grave”), Classical Syriac ܩܲܒ݂ܪܵܐ (qaḇrāʾ), Hebrew קֶבֶר (qeḇer), and Arabic قَبْر (qabr).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 161,
+     "word": "𐤁𐤓𐤕",
+     "pos": "name",
+     "gloss": "Beirut",
+     "etymology": "From Proto-West Semitic *biʾrāt- (“wells”). Cognate with Biblical Hebrew בְּאֵרוֹת (bəʾērōṯ). Compare Akkadian 𒁁𒊒𒋫 (/⁠bērūta⁠/, “Beirut”) and Egyptian brt (“Beirut”), both borrowed from a Canaanite language ancestral to Phoenician in the 2nd millennium BC.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 162,
+     "word": "𐤇𐤉𐤌",
+     "pos": "name",
+     "gloss": "lifetime",
+     "etymology": "Cognate with Aramaic / Biblical Hebrew חַיִּים (ḥayyím, “life”), Arabic حَيَاة (ḥayāh, “life, lifeblood”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 163,
+     "word": "𐤌𐤋𐤈",
+     "pos": "name",
+     "gloss": "Grand Harbor (a bay on the island of Malta, Malta)",
+     "etymology": "Cognate with Hebrew מָלַט (malat, “escape”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 164,
+     "word": "𐤁𐤍𐤌",
+     "pos": "noun",
+     "gloss": "sonship, sonhood, the state of being a son.",
+     "etymology": "From Proto-Semitic *bin-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 165,
+     "word": "𐤀𐤔𐤌𐤍",
+     "pos": "name",
+     "gloss": "Eshmun, the tutelary god of Sidon. A Phoenician god of medicine and healing.",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 166,
+     "word": "𐤌𐤉",
+     "pos": "pron",
+     "gloss": "who, what person or persons",
+     "etymology": "Compare Hebrew מי (mī), Ugaritic 𐎎𐎊 (my), and Levantine, Egyptian and Hijazi Arabic مين (mīn, “who”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 167,
+     "word": "𐤕𐤇𐤕",
+     "pos": "prep",
+     "gloss": "underneath, under",
+     "etymology": "Cognate with Hebrew תחת (tákhat), Ugaritic 𐎚𐎈𐎚 (tḥt /taḥta), and Arabic تحت (taḥta).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 168,
+     "word": "𐤏𐤁𐤃𐤌𐤋𐤊",
+     "pos": "name",
+     "gloss": "a male given name, Abdimilk",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 169,
+     "word": "𐤊𐤕",
+     "pos": "name",
+     "gloss": "Citium or Kition (an ancient city-kingdom of Cyprus), later superseded by Larnaca.",
+     "etymology": "Related to Egyptian k:A*Z1-TA-Z1:H_SPACE-N17:Z1*N21-xAst (kꜣṯꜣj), k-A-TA-Z1:H_SPACE-N17:Z1*N21-N18 (kꜣṯꜣj);.",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 170,
+     "word": "𐤍𐤇𐤔𐤕",
+     "pos": "noun",
+     "gloss": "bronze",
+     "etymology": "Cognate with Hebrew נְחֹשֶׁת (n'khóshet, “copper”), Ge'ez ናሕስ (naḥs), Aramaic נחשׁ (“copper, bronze”) and Arabic نُحَاس (nuḥās, “copper”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    }
+   ]
+  },
+  "xpu": {
+   "code": "xpu",
+   "source": "Resources/xpu/kaikki.org-xpu-bounded-scout.jsonl",
+   "reading": "04-cross-linguistic/readings/punic.md",
+   "sha256": "aa2bbda0235f1adb9b44feb90a9b131f9097bf411c25e46aa7f6bfc5a11f8b8d",
+   "rows": 106,
+   "etymologies": 89,
+   "without_etymology": 17,
+   "with_attestation": 18,
+   "pos": {
+    "noun": 72,
+    "pron": 8,
+    "article": 1,
+    "prep": 1,
+    "num": 12,
+    "name": 9,
+    "verb": 3
+   },
+   "homographs": [
+    {
+     "word": "𐤔𐤋𐤌",
+     "members": [
+      {
+       "line": 7,
+       "pos": "noun",
+       "gloss": "peace"
+      },
+      {
+       "line": 8,
+       "pos": "pron",
+       "gloss": "their (masculine or mixed group)"
+      }
+     ]
+    },
+    {
+     "word": "𐤀𐤔",
+     "members": [
+      {
+       "line": 17,
+       "pos": "noun",
+       "gloss": "man"
+      },
+      {
+       "line": 18,
+       "pos": "pron",
+       "gloss": "who"
+      }
+     ]
+    },
+    {
+     "word": "𐤀𐤕",
+     "members": [
+      {
+       "line": 24,
+       "pos": "prep",
+       "gloss": "Used to introduce a semantically definite direct object"
+      },
+      {
+       "line": 25,
+       "pos": "pron",
+       "gloss": "you (masculine second person singular personal pronoun)"
+      }
+     ]
+    },
+    {
+     "word": "𐤔𐤓",
+     "members": [
+      {
+       "line": 60,
+       "pos": "noun",
+       "gloss": "bull"
+      },
+      {
+       "line": 61,
+       "pos": "noun",
+       "gloss": "root"
+      }
+     ]
+    }
+   ],
+   "from_phoenician": 57,
+   "records": [
+    {
+     "line": 1,
+     "word": "𐤀𐤁",
+     "pos": "noun",
+     "gloss": "father",
+     "etymology": "From Phoenician 𐤀𐤁 (ʾb /⁠ab⁠/), from Proto-Semitic *ʔabw-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 2,
+     "word": "𐤀𐤓𐤑",
+     "pos": "noun",
+     "gloss": "earth",
+     "etymology": "From Phoenician 𐤀𐤓𐤑 (ʾrṣ), from Proto-Semitic *ʔarṣ́-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 3,
+     "word": "𐤁𐤕",
+     "pos": "noun",
+     "gloss": "house",
+     "etymology": "From Phoenician 𐤁𐤕 (bt), from Proto-Semitic *bayt-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 4,
+     "word": "𐤁𐤏𐤋",
+     "pos": "noun",
+     "gloss": "burgher, citizen",
+     "etymology": "From Phoenician 𐤁𐤏𐤋 (bʿl), from Proto-Semitic *baʕl-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 5,
+     "word": "𐤇𐤋𐤁",
+     "pos": "noun",
+     "gloss": "milk",
+     "etymology": "From Phoenician 𐤇𐤋𐤁 (ḥlb), from Proto-Semitic *ḥalīb-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 6,
+     "word": "𐤔𐤌",
+     "pos": "noun",
+     "gloss": "name",
+     "etymology": "From Phoenician 𐤔𐤌 (šm), from Proto-Semitic *šim-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 7,
+     "word": "𐤔𐤋𐤌",
+     "pos": "noun",
+     "gloss": "peace",
+     "etymology": "From Phoenician 𐤔𐤋𐤌 (šlm).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 8,
+     "word": "𐤔𐤋𐤌",
+     "pos": "pron",
+     "gloss": "their (masculine or mixed group)",
+     "etymology": "Particle 𐤔𐤋 plus third-person masculine plural possessive suffix 𐤌-. Compare Hebrew שֶׁלָּהֶם",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 9,
+     "word": "𐤔𐤌𐤔",
+     "pos": "noun",
+     "gloss": "sun",
+     "etymology": "From Phoenician 𐤔𐤌𐤔 (šmš), from Proto-Semitic *śamš-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 10,
+     "word": "𐤌𐤌",
+     "pos": "noun",
+     "gloss": "water",
+     "etymology": "From Phoenician 𐤌𐤌 (mm /⁠mēm⁠/), from Proto-Semitic *may-.",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 11,
+     "word": "𐤃𐤌",
+     "pos": "noun",
+     "gloss": "blood",
+     "etymology": "From Phoenician 𐤃𐤌 (dm), from Proto-Semitic *dam-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 12,
+     "word": "𐤋𐤁",
+     "pos": "noun",
+     "gloss": "heart",
+     "etymology": "From Phoenician 𐤋𐤁 (lb), from Proto-Semitic *libb-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 13,
+     "word": "𐤋𐤔𐤍",
+     "pos": "noun",
+     "gloss": "tongue",
+     "etymology": "From Phoenician 𐤋𐤔𐤍 (lšn /⁠lišān⁠/), from Proto-Semitic *lišān-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 14,
+     "word": "𐤊𐤋𐤁",
+     "pos": "noun",
+     "gloss": "dog",
+     "etymology": "From Phoenician 𐤊𐤋𐤁 (klb), from Proto-Semitic *kalb-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 15,
+     "word": "𐤁𐤍",
+     "pos": "noun",
+     "gloss": "son",
+     "etymology": "From Phoenician 𐤁𐤍 (bn).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 16,
+     "word": "𐤀𐤇",
+     "pos": "noun",
+     "gloss": "brother",
+     "etymology": "From Phoenician 𐤀𐤇 (ʾḥ), from Proto-Semitic *ʔaḫw-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 17,
+     "word": "𐤀𐤔",
+     "pos": "noun",
+     "gloss": "man",
+     "etymology": "From Western Phoenician, from Phoenician 𐤀𐤔 (ʾš), from Proto-Semitic *ʾiš-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 18,
+     "word": "𐤀𐤔",
+     "pos": "pron",
+     "gloss": "who",
+     "etymology": "Form of 𐤔 (š) with a prothetic vowel.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 19,
+     "word": "𐤀𐤇𐤕",
+     "pos": "noun",
+     "gloss": "sister",
+     "etymology": "From Phoenician 𐤀𐤇𐤕 (ʾḥt), from Proto-Semitic *ʔaḫwat-. Related to 𐤀𐤇 (ʾḥ, “brother”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 20,
+     "word": "𐤄",
+     "pos": "article",
+     "gloss": "the",
+     "etymology": "From Phoenician 𐤄 (h).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 21,
+     "word": "𐤐",
+     "pos": "noun",
+     "gloss": "mouth",
+     "etymology": "From Phoenician 𐤐𐤉 (py), from Proto-Semitic *pay-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 22,
+     "word": "𐤀𐤍𐤊𐤉",
+     "pos": "pron",
+     "gloss": "alternative spelling of 𐤀𐤍𐤊 (ʾnk, “I”)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 23,
+     "word": "𐤀𐤍𐤊",
+     "pos": "pron",
+     "gloss": "I",
+     "etymology": "From Phoenician 𐤀𐤍𐤊 (ʾnk), from Proto-Semitic *ʔanāku.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 24,
+     "word": "𐤀𐤕",
+     "pos": "prep",
+     "gloss": "Used to introduce a semantically definite direct object",
+     "etymology": "From Phoenician 𐤀𐤉𐤕 (ʾyt), from Canaanite. Compare Hebrew את.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 25,
+     "word": "𐤀𐤕",
+     "pos": "pron",
+     "gloss": "you (masculine second person singular personal pronoun)",
+     "etymology": "From Phoenician 𐤀𐤕 (ʾt).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 26,
+     "word": "𐤄𐤉",
+     "pos": "pron",
+     "gloss": "she",
+     "etymology": "From earlier 𐤄𐤀 (hʾ), from Phoenician 𐤄𐤀 (hʾ).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 27,
+     "word": "𐤌𐤍𐤌",
+     "pos": "pron",
+     "gloss": "anything",
+     "etymology": "From Phoenician 𐤌𐤍𐤌 (mnm).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 28,
+     "word": "𐤁𐤉𐤍",
+     "pos": "noun",
+     "gloss": "son",
+     "etymology": "From Phoenician 𐤁𐤉𐤍 (byn), from Proto-Semitic *bin-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 29,
+     "word": "𐤌𐤉𐤒𐤃𐤔",
+     "pos": "noun",
+     "gloss": "sacred place",
+     "etymology": "Cognate with Hebrew מִקְדָּשׁ (“sanctuary”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 30,
+     "word": "𐤌𐤒𐤌",
+     "pos": "noun",
+     "gloss": "city",
+     "etymology": "From Phoenician 𐤌𐤒𐤌 (mqm).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 31,
+     "word": "𐤕𐤊𐤋𐤀𐤕",
+     "pos": "noun",
+     "gloss": "expense",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 32,
+     "word": "𐤀𐤓𐤁𐤏",
+     "pos": "num",
+     "gloss": "four",
+     "etymology": "From Phoenician 𐤀𐤓𐤁𐤏 (ʾrbʿ), from Proto-Semitic *ʔarbaʕum.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 33,
+     "word": "𐤔𐤕",
+     "pos": "noun",
+     "gloss": "year",
+     "etymology": "From Phoenician 𐤔𐤕 (št), from Proto-Semitic *šanat-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 34,
+     "word": "𐤀𐤁𐤍",
+     "pos": "noun",
+     "gloss": "stone, rock",
+     "etymology": "From Phoenician 𐤀𐤁𐤍 (ʾbn), from Proto-Semitic *ʾabn-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 35,
+     "word": "𐤉𐤌",
+     "pos": "noun",
+     "gloss": "day",
+     "etymology": "From Phoenician 𐤉𐤌 (ym), from Proto-Semitic *yawm-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 36,
+     "word": "𐤋𐤁𐤍",
+     "pos": "noun",
+     "gloss": "white",
+     "etymology": "From Phoenician 𐤋𐤁𐤍 (lbn), from Proto-West Semitic *laban-.",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 37,
+     "word": "𐤀𐤇𐤃",
+     "pos": "num",
+     "gloss": "one",
+     "etymology": "Related to 𐤀𐤇𐤕 (ʾḥt, “one”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 38,
+     "word": "𐤇𐤃",
+     "pos": "num",
+     "gloss": "one",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 39,
+     "word": "𐤔𐤍",
+     "pos": "num",
+     "gloss": "two",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 40,
+     "word": "𐤔𐤋𐤔",
+     "pos": "num",
+     "gloss": "three",
+     "etymology": "From Phoenician 𐤔𐤋𐤔 (šlš), Proto-Semitic *ṯalāṯum.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 41,
+     "word": "𐤔𐤏𐤋𐤔",
+     "pos": "num",
+     "gloss": "three",
+     "etymology": "From Phoenician 𐤔𐤋𐤔 (šlš), from Proto-Semitic *ṯalāṯ-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 42,
+     "word": "𐤔𐤁𐤏𐤕",
+     "pos": "num",
+     "gloss": "seven",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 43,
+     "word": "𐤕𐤔𐤏",
+     "pos": "num",
+     "gloss": "nine",
+     "etymology": "From Proto-Semitic *tišʿ-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 44,
+     "word": "𐤏𐤔𐤓",
+     "pos": "num",
+     "gloss": "ten.",
+     "etymology": "From Phoenician 𐤏𐤔𐤓 (ʿšr).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 45,
+     "word": "𐤏𐤔𐤓𐤕",
+     "pos": "num",
+     "gloss": "ten",
+     "etymology": "From Phoenician 𐤏𐤔𐤓𐤕 (ʿšrt).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 46,
+     "word": "𐤌𐤀𐤕𐤌",
+     "pos": "num",
+     "gloss": "two hundred",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 47,
+     "word": "𐤉𐤓𐤇",
+     "pos": "noun",
+     "gloss": "moon",
+     "etymology": "From Western Phoenician, from Phoenician 𐤉𐤓𐤇 (yrḥ), from Proto-Semitic *warḫ-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 48,
+     "word": "𐤓𐤀𐤔",
+     "pos": "noun",
+     "gloss": "head",
+     "etymology": "From Phoenician 𐤓𐤀𐤔 (rʾš), from Proto-Semitic *raʔš-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 49,
+     "word": "𐤀𐤓𐤎",
+     "pos": "noun",
+     "gloss": "alternative form of 𐤀𐤓𐤑 (ʾrṣ)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 50,
+     "word": "𐤐𐤍",
+     "pos": "noun",
+     "gloss": "face",
+     "etymology": "From Phoenician 𐤐𐤍 (pn), from Proto-Semitic *pan-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 51,
+     "word": "𐤒𐤓𐤕𐤇𐤃𐤔𐤕",
+     "pos": "name",
+     "gloss": "Carthage (a historical city)",
+     "etymology": "From Phoenician 𐤒𐤓𐤕𐤇𐤃𐤔𐤕 (qrtḥdšt, literally “new city”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 52,
+     "word": "𐤂𐤃𐤓",
+     "pos": "name",
+     "gloss": "Gades, the ancient Punic settlement at Cádiz, Spain",
+     "etymology": "From Phoenician 𐤂𐤃𐤓 (gdr).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 53,
+     "word": "𐤆𐤓𐤀",
+     "pos": "noun",
+     "gloss": "seed",
+     "etymology": "Cognate with Akkadian 𒆰 (zēru) and Arabic زَرْع (zarʕ).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 54,
+     "word": "𐤏𐤁𐤃",
+     "pos": "noun",
+     "gloss": "slave, servant",
+     "etymology": "From Phoenician 𐤏𐤁𐤃 (ʿbd). A Central Semitic innovation, cognate with Hebrew עֶבֶד (ʿéḇeḏ), Arabic عَبْد (ʕabd), Ugaritic 𐎓𐎁𐎄 (ʿbd), Classical Syriac ܥܒܕܐ (ʿaḇdā), Old South Arabian 𐩲𐩨𐩵 (ʿbd).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 55,
+     "word": "𐤌𐤎𐤐𐤓",
+     "pos": "noun",
+     "gloss": "number",
+     "etymology": "Cognate Hebrew מספר (mispár) ('number').",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 56,
+     "word": "𐤔𐤔𐤌",
+     "pos": "num",
+     "gloss": "sixty",
+     "etymology": "From the plural form of 𐤔𐤔 (šš, “six”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 57,
+     "word": "𐤍𐤃𐤓",
+     "pos": "noun",
+     "gloss": "vow",
+     "etymology": "Cognate with Hebrew נֶדֶר (néder).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 58,
+     "word": "𐤀𐤎𐤕",
+     "pos": "noun",
+     "gloss": "wife",
+     "etymology": "Perhaps from Proto-Afroasiatic *ʒ/ǯa- (“person, man”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 59,
+     "word": "𐤔𐤐𐤈",
+     "pos": "noun",
+     "gloss": "judge; suffete",
+     "etymology": "Cognate with Hebrew שׁוֹפֵט (šōp̄ḗṭ), Ugaritic 𐎘𐎔𐎉 (ṯpṭ).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 60,
+     "word": "𐤔𐤓",
+     "pos": "noun",
+     "gloss": "bull",
+     "etymology": "From Phoenician 𐤔𐤓 (šr), from Proto-Semitic *ṯawr-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 61,
+     "word": "𐤔𐤓",
+     "pos": "noun",
+     "gloss": "root",
+     "etymology": "From Phoenician 𐤔𐤓𐤔 (šrš), from Proto-Semitic *šurš-.",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 62,
+     "word": "𐤀𐤃𐤍",
+     "pos": "noun",
+     "gloss": "sir, lord",
+     "etymology": "Compare Hebrew אדון.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 63,
+     "word": "𐤏𐤋𐤌",
+     "pos": "noun",
+     "gloss": "eternity",
+     "etymology": "From Phoenician 𐤏𐤋𐤌 (ʿlm).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 64,
+     "word": "𐤒𐤋",
+     "pos": "noun",
+     "gloss": "voice",
+     "etymology": "From Phoenician 𐤒𐤋 (ql), perhaps from Proto-Semitic *qawl.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 65,
+     "word": "𐤃𐤁𐤓𐤕",
+     "pos": "noun",
+     "gloss": "wasp",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 66,
+     "word": "𐤉𐤍",
+     "pos": "noun",
+     "gloss": "wine",
+     "etymology": "From Phoenician 𐤉𐤍 (yn), from Proto-West Semitic *wayn-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 67,
+     "word": "𐤏𐤑",
+     "pos": "noun",
+     "gloss": "tree",
+     "etymology": "From Phoenician 𐤏𐤑 (ʿṣ), from Proto-Semitic *ʕiṣ́-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 68,
+     "word": "𐤀𐤋",
+     "pos": "noun",
+     "gloss": "god, deity",
+     "etymology": "From Phoenician 𐤀𐤋 (ʾl), from Proto-Semitic *ʔil-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 69,
+     "word": "𐤁𐤍𐤕",
+     "pos": "noun",
+     "gloss": "daughter",
+     "etymology": "From Phoenician 𐤁𐤍𐤕 (bnt), from Proto-Semitic *bint-.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 70,
+     "word": "𐤒𐤓𐤀",
+     "pos": "verb",
+     "gloss": "to call",
+     "etymology": "From Phoenician 𐤒𐤓𐤀 (qrʾ).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 71,
+     "word": "𐤁𐤀",
+     "pos": "verb",
+     "gloss": "to come",
+     "etymology": "From Phoenician 𐤁𐤀 (bʾ).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 72,
+     "word": "𐤏𐤆𐤓𐤁𐤏𐤋",
+     "pos": "name",
+     "gloss": "a male given name from Carthage, most notably borne by general Hasdrubal Barca and several other Carthaginians",
+     "etymology": "Carthaginian compound name containing the elements 𐤏𐤆𐤓 (ʿzr /⁠ʿazrō⁠/, “help”) + 𐤁𐤏𐤋 (bʿl /⁠baʿl⁠/, “lord”), literally “Help of the Lord (Baal)”. The first element is akin to Biblical Hebrew עֶזְרָא (ʿezrā).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 73,
+     "word": "𐤇𐤍𐤁𐤏𐤋",
+     "pos": "name",
+     "gloss": "a male given name from Carthage, most notably borne by general Hannibal Barca",
+     "etymology": "Carthaginian compound name containing the elements 𐤇𐤍𐤉 (ḥny /⁠ḥannī⁠/, “may he grace me”) + 𐤁𐤏𐤋 (bʿl /⁠baʿl⁠/, “lord”), literally \"May the Lord (Baal) grace me.\" The first element is akin to Biblical Hebrew חַנָּה (ḥannā, “grace”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 74,
+     "word": "𐤔𐤋𐤉",
+     "pos": "pron",
+     "gloss": "my",
+     "etymology": "Compare Hebrew שלי.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 75,
+     "word": "𐤇𐤌𐤋𐤒𐤓𐤕",
+     "pos": "name",
+     "gloss": "a male given name, most notably borne by general Hamilcar Barca.",
+     "etymology": "Compound name of 𐤀𐤇 (ʾḥ, “brother”) + 𐤌𐤋𐤒𐤓𐤕 (mlqrt, “Melqart”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 76,
+     "word": "𐤐𐤋𐤔",
+     "pos": "noun",
+     "gloss": "architect",
+     "etymology": "From Phoenician 𐤐𐤋𐤔 (plš).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 77,
+     "word": "arun",
+     "pos": "noun",
+     "gloss": "Latino-Punic spelling of 𐤀𐤓𐤍 (ʾrn, “coffin”)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 78,
+     "word": "𐤔𐤃",
+     "pos": "noun",
+     "gloss": "field where there is war fought, battlefield",
+     "etymology": "From Phoenician 𐤔𐤃 (šd /⁠śad⁠/).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 79,
+     "word": "𐤉𐤁𐤋",
+     "pos": "noun",
+     "gloss": "dogtooth grass (Cynodon dactylon)",
+     "etymology": "The same meaning is borne by Jewish Palestinian Aramaic, Jewish Babylonian Aramaic יַבְלָא (yaḇlā), Christian Palestinian Aramaic ܝܒܠܐ (yaḇlā), Classical Syriac ܝܒܠܐ (yaḇlā), and Hebrew יַבְּלׅית (yabbəlīṯ), suffixed like עִירִית (ʿīrīṯ, “chive”). It comes from some kind of adhesive paste being made from the plant, a glue which “carries” objects, so the terms are derived from Proto-Semitic *wabal- (“to bear, to carry, to support”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 80,
+     "word": "𐤊𐤋𐤌",
+     "pos": "noun",
+     "gloss": "common knotgrass (Polygonum aviculare)",
+     "etymology": "Attested cognates are but Jewish Babylonian Aramaic כולניתא (*kūlānīṯā, “a kind of papyrus reed”) and Aramaic-loaned Arabic كُولَان (kūlān, “the desert papyrus Cyperus conglomeratus”). Since the synonymy of Dioskurides is not always correct the meaning in Punic may also be closer to that. The second λούμ after the word in the editions (χουλουμ[λούμ]) creates an un-Semitic form and must be just a scribal dittography.",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 81,
+     "word": "𐤋𐤅𐤕",
+     "pos": "noun",
+     "gloss": "Etruscan honeysuckle, Lonicera etrusca",
+     "etymology": "Unknown, perhaps from Proto-Semitic *lawaṯ- (“to wind”) due to the appearance of its corollae, then a parallel formation to the famous word for the lavash bread; though Proto-Semitic ṯ* more likely come out 𐤔 (š) in Canaanite, at least Aramaic has the usual outcome t and frequently does not adhere to it but also bears š. And note λαουωθέν (laouōthén) 4:183 given for βρυωνία μέλαινα (bruōnía mélaina), ἄμπελος μέλαινα (ámpelos mélaina) which is black bryony (Dioscorea communis).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 82,
+     "word": "𐤒𐤍𐤀",
+     "pos": "noun",
+     "gloss": "cane, reed",
+     "etymology": "From Akkadian 𒄀 (qanûm, “reed”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 83,
+     "word": "𐤐𐤔𐤕",
+     "pos": "noun",
+     "gloss": "flax",
+     "etymology": "Compare Hebrew פֵּשֶׁת (pēšeṯ, “flax; linen”), פִּשְׁתָּה (pištā́, “flax”), Ugaritic 𐎔𐎘𐎚 (pṯt, “linen”).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 84,
+     "word": "𐤂𐤃",
+     "pos": "noun",
+     "gloss": "coriander",
+     "etymology": "Cognate to Hebrew גַּד (gaḏ, “coriander”), Ugaritic 𐎂𐎄 (gd, “coriander”), Jewish Babylonian Aramaic גַּד (gaḏ), גּׅידא (giḏā, “coriander”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 85,
+     "word": "𐤊𐤌𐤍",
+     "pos": "noun",
+     "gloss": "cumin",
+     "etymology": "From Phoenician 𐤊𐤌𐤍 (kmn /⁠kammān⁠/), from Akkadian 𒌑𒁷𒊺𒉪 (Ú.GAMUN /⁠kamūnu⁠/, “cumin”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 86,
+     "word": "𐤂𐤆𐤓",
+     "pos": "noun",
+     "gloss": "earthnut, kippernut",
+     "etymology": "An Iranian borrowing equivalent to Persian گزر (gazar).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 87,
+     "word": "𐤒𐤔𐤀",
+     "pos": "noun",
+     "gloss": "cucumber",
+     "etymology": "Akin to Arabic قِثَّاء (qiṯṯāʔ, “cucumber”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 88,
+     "word": "𐤇𐤓𐤑",
+     "pos": "noun",
+     "gloss": "potash, alkali",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 89,
+     "word": "𐤇𐤑𐤓 𐤂𐤆𐤋",
+     "pos": "noun",
+     "gloss": "vervain",
+     "etymology": "Literally “pigeon-grass”, as its Ancient Greek name περιστέριον (peristérion). Hebrew גּוֹזָל (gōzāl), Aramaic גּוֹזָלָא (gōzālā, “pigeon”), Hebrew חָצִיר (ḥāṣīr), Aramaic חָצִירָה (ḥaṣīrā, “grass”) and at many places known in Punic 𐤇𐤑𐤓 (ḥṣr)",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 90,
+     "word": "𐤇𐤑𐤓",
+     "pos": "noun",
+     "gloss": "settlement, fortified locality",
+     "etymology": "Cognate to Hebrew חָצֵר (ḥāṣēr), Jewish Literary Aramaic חַטּרָא (ḥaṭṭərā, “animal fold”), Hatran Aramaic 𐣧𐣨𐣣𐣠 (ḥṭrʾ) and Palmyrene Aramaic 𐡧𐡨𐡴𐡠 (ḥṭrʾ, “walled court”). To the Arabic root ح ص ر (ḥ ṣ r) or more likely ح ض ر (ḥ ḍ r).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 91,
+     "word": "𐤔𐤏𐤓",
+     "pos": "noun",
+     "gloss": "gate (of a city, temple etc.)",
+     "etymology": "From Phoenician 𐤔𐤏𐤓 (šʿr).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 92,
+     "word": "𐤕𐤉𐤍",
+     "pos": "noun",
+     "gloss": "fig",
+     "etymology": "From Phoenician *𐤕𐤉𐤍 (*tyn) or *𐤕𐤀𐤍 (*tʾn), from Proto-Semitic *tiʔin-.",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 93,
+     "word": "𐤓𐤌𐤍",
+     "pos": "noun",
+     "gloss": "pomegranate",
+     "etymology": "Akin to Arabic رُمَّان (rummān, “pomegranate”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 94,
+     "word": "𐤕𐤐𐤇",
+     "pos": "noun",
+     "gloss": "apple",
+     "etymology": "Akin to Arabic تُفَّاح (tuffāḥ, “apple”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 95,
+     "word": "𐤀𐤂𐤆",
+     "pos": "noun",
+     "gloss": "walnut",
+     "etymology": "Akin to Old Armenian ընկոյզ (ənkoyz, “walnut”).",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 96,
+     "word": "𐤀𐤉",
+     "pos": "noun",
+     "gloss": "island",
+     "etymology": "From Phoenician 𐤀𐤉 (ʾy).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 97,
+     "word": "𐤀𐤃𐤓",
+     "pos": "verb",
+     "gloss": "to become powerful",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 98,
+     "word": "𐤋𐤁𐤍𐤕",
+     "pos": "noun",
+     "gloss": "frankincense",
+     "etymology": "Cognate to Hebrew לְבוֹנָה (ləḇōnā), Arabic لُبَان (lubān), Ancient Greek λῐ́βᾰνος (lĭ́bănos), all meaning “frankincense”. From the same root as 𐤋𐤁𐤍 (lbn /⁠laban⁠/, “white”).",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 99,
+     "word": "𐤔𐤕𐤋 𐤔𐤃",
+     "pos": "noun",
+     "gloss": "some plant within the Cichorieae tribe of the Asteraceae",
+     "etymology": "",
+     "attestation": true,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 100,
+     "word": "𐤔𐤕𐤋",
+     "pos": "noun",
+     "gloss": "sapling",
+     "etymology": "A formation akin to Hebrew שְׁתִיל (šəṯīl), Jewish Literary Aramaic שְׁתִילָא (šəṯīlā), the passive participle of the verb loaned from Akkadian [script needed] (satālu).",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 101,
+     "word": "𐤀𐤉𐤓𐤍𐤌",
+     "pos": "name",
+     "gloss": "Pantelleria (An inhabited volcanic island belonging to the province of Trapani, Sicily, between Italy and Tunisia.)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 102,
+     "word": "𐤀𐤉𐤍𐤑𐤌",
+     "pos": "name",
+     "gloss": "San Pietro (An island on which present Carloforte is situated, southwest of the main island of Sardinia)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 103,
+     "word": "𐤀𐤉𐤕𐤍𐤌",
+     "pos": "name",
+     "gloss": "شِبْه جَزِيرَة الْمُنَسْتِير (šibh jazīra(t) al-munastīr) (A peninsula in front of present Monastir, Tunisia, the two halves of which are mapped Île el Oustania and Île Sidi el Ġadamsi)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 104,
+     "word": "𐤀𐤂𐤃𐤓",
+     "pos": "noun",
+     "gloss": "Cadiz",
+     "etymology": "Numismatic inscriptions in the Phoenician language record that the Phoenicians knew the site as a Gadir or Agadir (Phoenician: ‬𐤀𐤂𐤃𐤓, ʾgdr), meaning 'wall', 'compound', or (by metonymy) 'stronghold'. Borrowed by the Berber languages, this became the agadir (Tamazight for 'wall' and Shilha for 'fortified granary') common in North African place names, such as that of the Moroccan city of Agadir. The Carthaginians continued to use this name and all subsequent names have derived from it.",
+     "attestation": false,
+     "represented_by": "member-card"
+    },
+    {
+     "line": 105,
+     "word": "𐤌𐤋𐤊𐤀",
+     "pos": "name",
+     "gloss": "Malaga (a port city in Spain)",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "structural-isolation"
+    },
+    {
+     "line": 106,
+     "word": "𐤑𐤊𐤑",
+     "pos": "noun",
+     "gloss": "Sexi, a Phoenician colony.",
+     "etymology": "",
+     "attestation": false,
+     "represented_by": "member-card"
+    }
+   ]
+  }
+ }
+}

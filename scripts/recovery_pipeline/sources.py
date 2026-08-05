@@ -35,11 +35,6 @@ SEMITIC_DONOR = re.compile(
     r"(?:akkadian|arabic|aramaic|canaanite|eblaite|hebrew|maltese|"
     r"phoenician|punic|sabaean|semitic|syriac|ugaritic)\b"
 )
-TRANSMISSION_WORDING = re.compile(
-    r"(?i)\b(?:borrowed\s+from|loanword|via|calque(?:d)?|ultimately\s+from)\b"
-)
-
-
 @dataclass(frozen=True)
 class LexiconEntry:
     entry_id: str
@@ -127,16 +122,14 @@ def _romanization(entry: dict[str, Any]) -> str:
 def _kaikki_loan_hint(etymology: str) -> bool:
     """Detect explicit transmission direction without inferring inheritance.
 
-    Besides direct borrowing vocabulary, a bare ``from`` is screened only
-    when the following phrase names a Semitic donor.  Thus ordinary
-    ``from Proto-Indo-European`` ancestry is not turned into a loan hint.
+    A ``from`` is screened only when the following phrase names a Semitic
+    donor.  Mentioning that the branch borrowed a word from Greek, Latin, or
+    another non-Semitic language does not close the deeper inheritance queue.
     """
 
     text = str(etymology or "").strip()
     if not text:
         return False
-    if TRANSMISSION_WORDING.search(text):
-        return True
     for match in re.finditer(r"(?i)\bfrom\b", text):
         # The donor normally occurs immediately after From, but allow a short
         # scholarly qualifier such as "probably from Proto-West Semitic".

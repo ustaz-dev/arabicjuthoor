@@ -44,10 +44,10 @@ def main() -> int:
     # run never silently claims to have checked something it could not reach.
     skipped: list[str] = []
     loan_hint_cases = {
-        "Borrowed from Latin.": True,
-        "A loanword in the branch.": True,
-        "From Greek via Latin.": True,
-        "Calque of English table tennis.": True,
+        "Borrowed from Latin.": False,
+        "A loanword in the branch.": False,
+        "From Greek via Latin.": False,
+        "Calque of English table tennis.": False,
         "Ultimately from Phoenician.": True,
         "From Akkadian tamkāru.": True,
         "Probably from Proto-West Semitic *gamal-.": True,

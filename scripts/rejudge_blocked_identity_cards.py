@@ -101,7 +101,7 @@ UNSIGNED_CHANGE_CUES = (
 
 def clean(value: object, limit: int = 180) -> str:
     text = re.sub(r"\s+", " ", str(value or "")).strip()
-    text = text.replace("—", "-").replace("–", "-").replace("|", "¦")
+    text = text.replace("\u2014", "-").replace("\u2013", "-").replace("|", "¦")
     return text[:limit] if len(text) > limit else text
 
 
@@ -262,7 +262,7 @@ def main() -> int:
             "- العضو: `kaikki_aramaic:164:en-סהרא-arc-noun-nni0PqAO`، والصورة `סהרא` sahrā، ومعناها القمر.",
             "- بعد نزع ألف الحالة يبقى `s-h-r`، ولا يسقط صامت من الطرفين.",
             "- المقابل المهيأ: `شهر`. يثبت لسان العرب: «يُسَمَّى القمر شَهْراً لأَنه يُشْهَرُ به».",
-            "- المسار المهيأ: `س الآرامية ↔ ش العربية` بوصفه الرجل الآرامية المقترحة في SIB-07، ثم IDN-20 للهاء وIDN-01 للراء.",
+            "- المسار المهيأ: `ס الآرامية ↔ ش العربية` بوصفه الرجل الآرامية المقترحة في SIB-07، ثم IDN-20 للهاء وIDN-01 للراء.",
             "- الحكم: غير صادر. الحالة AUTHOR-RESERVED-SOUND-GAP حتى توقيع المؤلف للرجل الآرامية.",
             f"- العد من جدول الأسر: {samekh_cards} بطاقة أسرية آرامية من نوع TOOL-GAP تحمل السامخ وتنتظر فحص أثر هذه الرجل. والذخيرة الكاملة تحمل 245 مدخلًا بالسامخ.",
             "- مرجع القرار: `_inbox/2026-08-04-decision-paper-sound-rows.md`، البند الأول.",
@@ -308,7 +308,7 @@ def main() -> int:
     )
 
     text = "\n".join(lines)
-    if "—" in text or "–" in text:
+    if "\u2014" in text or "\u2013" in text:
         raise RuntimeError("تسربت شرطة طويلة إلى المحضر")
     OUTPUT.write_text(text, encoding="utf-8", newline="\n")
     print(json.dumps({"cards": len(records), "changed": changed_count, "samekh_cards": samekh_cards, "states": by_new}, ensure_ascii=False))
