@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 27644,
+ "cards_total": 27822,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -860,6 +860,128 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "martum «المرارة والمِرّة والسمّ» وصدى النواة مر",
+   "verdict": "NUCLEUS-ECHO للنواة `مر` بين `martum` و`مرر` في المرا",
+   "closure": "SOURCE-GAP عند درجة الأثر؛ READY عند الصدى النوويّ.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إعادة بناء ساميّة منشورة أو مقارنة فردية منشورة تسمّي الطرف العربيّ لهذه اللمّة بعينها؛",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "nâḫum «يسكن ويستريح ويهدأ» ↔ ناخ ونوّخ",
+   "verdict": "ROOT-TRACE لسلسلة `nâḫum ↔ نوخ` في السكون والإقامة.",
+   "closure": "SOURCE-GAP عند رفع الدرجة؛ READY محليًا عند درجة الأثر الجذريّ بحدود المعنى المنقول.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إعادة بناء ساميّة منشورة أو مقارنة فردية منشورة تسمّي الطرف العربيّ لهذه اللمّة؛",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "pûm «الفم والقول» ↔ فوه وفم، وقفةُ الرِجل الشفويّة",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفّ صوتيّ منشور وموقَّع يرخّص `ف ↔ p` في نطاق الأكّاديّة، أو قرار نطاق مؤرَّخ بتوقيع المؤلّف يمدّ `LAB-07` إليها؛",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "šaptum «الشفة والقول والحافّة» ↔ شفة، وقفةٌ على الرِجل نفسِها",
+   "verdict": "",
+   "closure": "LAW-GAP مضاعف.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفَّين موقَّعَين في نطاق الأكّاديّة: `ف ↔ p` و`ش ↔ š` عن `*ś` الأمّ؛",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "kappum «الكفّ والجناح» ↔ كفّ، وقفةٌ ثالثة على الرِجل الشفويّة",
+   "verdict": "",
+   "closure": "LAW-GAP لمدخل اليد؛ MEMBER-OVERRIDE لمدخل الجناح.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يرخّص `ف ↔ p` في نطاق الأكّاديّة؛",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "ṣillum «الظلّ والحماية» ↔ ظلّ، ومعها ṣuprum ↔ ظفر: صنفُ الظاء كلُّه موقوف",
+   "verdict": "",
+   "closure": "LAW-GAP للّمّتين معًا.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يرخّص `ظ ↔ ṣ` في نطاق الأكّاديّة، أو قرار نطاق مؤرَّخ بتوقيع المؤلّف يمدّ `DENT-08` إليها بشروطه؛",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "būdum «الكتف وما بين الكتفين» ↔ بدن، وسقوطُ نونٍ أصليّة",
+   "verdict": "",
+   "closure": "CLOSED-NO-TRACE للطرف `بدن`؛ OPEN-CANDIDATE لمن يجد طرفًا عربيًّا بصامتَين مطابقَين ومعنًى في الكتف.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "ubānum «الإصبع» بين بنان وإبهام: مفترقٌ لا يُحسَم",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP + SOURCE-GAP؛ CLOSED-NO-TRACE لطرف `إبهام`.",
+   "gaps": [
+    "MORPHOLOGY-GAP",
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "تحليلًا منشورًا لبنية `ubānum` يحسم هل `u-` سابقة صرفيّة أم من اللمّة؛ عوائق مصاحبة=SOURCE-GAP؛",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "qātum «اليد» بلا طرفٍ عربيّ، وqablum «الوسط» بقلبٍ لا صفَّ له",
+   "verdict": "",
+   "closure": "CLOSED-NO-TRACE لـ`qablum ↔ قلب` على حساب الصوامت والمدار معًا؛ SOURCE-GAP لـ`qātum` مع OPEN-CANDIDATE لمن يجد طرفًا عربيًّا مرخَّصًا.",
+   "gaps": [
+    "SOURCE-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "girru «الأسد» ↔ جرو، ونقضُ صفِّ girru «النار» ↔ آجُرّ",
+   "verdict": "",
+   "closure": "LAW-GAP لسلسلة الأسد والشبل؛ CLOSED-NO-TRACE لصفّ النار والآجُرّ.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "نصًّا على نطاق `GUT-03` في الأكّاديّة أو مرساةً أكّاديّةً مسمّاة لتقابل `ج ↔ g`؛",
+   "row_mentions": []
+  },
+  {
    "file": "04-cross-linguistic/readings/ancient-greek.md",
    "card": "(إعادةُ توسيم): treîs «three»",
    "verdict": "",
@@ -884,6 +1006,132 @@
    "row_mentions": [
     "BR-GREC-01"
    ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:193:en-κεφαλή-grc-noun-ny5tM6Nx`، κεφαλή (ناسخٌ لحكمِ `ROO",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE (عادت من READY).",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:5715:en-φημί-grc-verb-FS2nqd3w`، φημί ومعها φωνή (الطبقةُ ",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE؛ الوسم: `LAW-GAP` في الموضعَينِ معًا.",
+   "gaps": [
+    "LAW-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": [
+    "BR-GREC-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:3923:en-κέρας-grc-noun-4NMri9HY`، κέρας (الطبقةُ الأساسيّة",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE؛ الوسم: `NUCLEUS-ORBIT-GAP`.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:743:en-πούς-grc-noun-IuT2kSpp`، πούς (الطبقةُ الأساسيّة: ا",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE؛ الوسم: `NUCLEUS-ORBIT-GAP`.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:4290:en-ὦμος-grc-noun-YfWet~8c`، ὦμος (الطبقةُ الأساسيّة: ",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE؛ الوسم: `SOURCE/MORPHOLOGY-GAP + ARABIC-MATERIAL-GAP`.",
+   "gaps": [
+    "OPEN-CANDIDATE",
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:4324:en-ὀμφαλός-grc-noun-1iegkLAD`، ὀμφαλός (الطبقةُ الأسا",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE؛ الوسم: `CONSTRUCTED-SEMANTIC-BRIDGE`.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:4090:en-γόνυ-grc-noun-ae9aiLAn`، γόνυ (الطبقةُ الأساسيّة: ",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE؛ الوسم: `CONSTRUCTED-SEMANTIC-BRIDGE + NUCLEUS-ORBIT-GAP`.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:207:en-στόμα-grc-noun-P-gifVEE`، στόμα (الطبقةُ الأساسيّة:",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE؛ الوسم: `NO-NUCLEUS-IN-INDEX + NUCLEUS-ORBIT-GAP`.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:177:en-μήτηρ-grc-noun-zwYi7ypm`، μήτηρ (الطبقةُ الأساسيّة:",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE؛ الوسم: `METATHESIS/LAW-GAP`.",
+   "gaps": [
+    "LAW-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`kaikki_ancient_greek:178:en-πατήρ-grc-noun-MY89M80M`، πατήρ (الطبقةُ الأساسيّة:",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE؛ الوسم: `METATHESIS/LAW-GAP + SOURCE-UNCERTAIN`.",
+   "gaps": [
+    "LAW-GAP",
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
   },
   {
    "file": "04-cross-linguistic/readings/aramaic.md",
@@ -1078,6 +1326,202 @@
    ],
    "blocker_type": "",
    "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ϩⲙⲟⲙ` «be hot, have fever»",
+   "verdict": "NUCLEUS-TRACE",
+   "closure": "READY على طبقةِ النواة.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "سلفًا مصريًّا منشورًا موصولًا صراحةً بالصورةِ القبطيّةِ `ϩⲙⲟⲙ` قبلَ إصدارِ حكمِ طبقةِ الجذر، وإن كان `šmm` لزمَ معه صفٌّ موقَّعٌ يفسّرُ `š` بإزاءِ `ϩ`.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲙⲟⲟⲩ` «water»",
+   "verdict": "",
+   "closure": "TOOL-GAP.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "نواةً معتمدةً `مو` في `data/juthoor-core-levels.json`، أو شاهدًا منشورًا على صامتٍ ثالثٍ في الصورةِ المصريّةِ `mw` يقابلُ هاءَ `موه`.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ϩⲉ` «fall»",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "مصدرًا منشورًا مسمًّى يصلُ القبطيّةَ `ϩⲉ` بالمصريّةِ `ḫr`؛ فإن ثبتَ فُتِحَت البطاقةُ وجوبًا لأنَّ المرشَّحَ `خرر` جاهزٌ بتطابقٍ ذاتيٍّ ونواةٍ مثبتة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲟⲩⲱϣ` «wish, desire, love»",
+   "verdict": "",
+   "closure": "TOOL-GAP.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "نواةً معتمدةً للهيكلِ `وش` أو سلفًا مصريًّا منشورًا يغيّرُ الهيكل.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲟⲩⲱⲙ` «eat, bite»",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "شاهدَ خلفٍ ديموطيقيٍّ أو قبطيٍّ لهذه الكلمةِ بعينِها يُظهِرُ اللامَ حتى يُستوفى شرطُ BR-EGYP-02، أو نواةً معتمدةً للهيكل `وم`.",
+   "row_mentions": [
+    "BR-EGYP-02"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ϫⲱ` «say, speak, tell»",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يوصلُ `ḏ` المصريّةَ أو `ϫ` القبطيّةَ بصامتٍ عربيٍّ مسمًّى، مع سلفٍ مسنَدٍ للصورةِ القبطيّة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲣⲟ` «mouth»",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "صورةً مصريّةً منشورةً بصامتَينِ لهذه المادّةِ حتى تُعرَضَ نواة.",
+   "row_mentions": [
+    "BR-EGYP-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲕⲁⲣⲱ⸗` «be silent»",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲁⲛⲟⲕ` «I»",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ϩⲙⲟⲩ` «salt»",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يوصلُ الألفَ المصريّةَ `ꜣ` بصامتٍ عربيٍّ مسمًّى، أو مصدرًا منشورًا ينفي أصالتَها في هذه المادّة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲥⲱⲕ` «draw, flow, impel»",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲙⲁⲁⲩ` «mother»",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲉⲓⲱⲧ` «father»",
+   "verdict": "",
+   "closure": "TOOL-GAP.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "نواةً معتمدةً للهيكل `أت` أو سلفًا مصريًّا مسنَدًا يغيّرُ الهيكل.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲕⲁⲥ` «bone»",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يوصلُ سينَ الفرعِ بالصادِ العربيّةِ بينَ فرعَين، وليس داخلَ العربيّةِ وحدَها.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ⲥⲓⲟⲩ` «star»",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/coptic.md",
+   "card": "`ϥⲓ` «bear, carry, take»",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يوصلُ الألفَ المصريّةَ `ꜣ` بصامتٍ عربيٍّ مسمًّى.",
    "row_mentions": []
   },
   {
@@ -45752,6 +46196,221 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `mw` «water» - مادة `موه`",
+   "verdict": "",
+   "closure": "TOOL-GAP + LAW-GAP.",
+   "gaps": [
+    "TOOL-GAP",
+    "LAW-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "قراءةً معتمدةً لنواةِ `موه` تجيزُ الواوَ موضعًا ثانيًا، أو صفًّا موقَّعًا `w ↔ ه`.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `jb` «heart; mind; wish; character» - مادة `لبب`",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يصلُ `j` المصريّةَ باللامِ الساميّةِ الأمّ، بمثالٍ منشورٍ خارجَ هذا الزوج.",
+   "row_mentions": [
+    "BR-EGYP-01",
+    "BR-EGYP-02"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `ḏꜣḏꜣ` «head; tip» - مادة `جمجم`",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفَّينِ موقَّعَين: `ḏ` المصريّة إلى الجيمِ العربيّة، وقيمةَ `ꜣ` المصريّةِ حيثُ تقابلُ ميمًا ساميّة؛ والثاني لا نعرفُ له مثالًا منشورًا فيُرجَّحُ أن يبقى مغلقًا.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `jdn` «ear» - مادة `أذن`",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يصلُ `j` المصريّةَ بالهمزةِ الساميّةِ الأمّ، بمثالٍ منشورٍ مسمَّى المصدرِ خارجَ هذا الزوج. وهذه أوسعُ فجوةٍ صفٍّ كشفتْها الدفعة، لأنّها تعطّلُ كلَّ كلمةٍ مصريّةٍ تبدأُ بـ`j` أمامَ همزةٍ عربيّة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `ḏbꜥ` «finger» - مادة `صبع`",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يصلُ `ḏ` المصريّةَ بالصادِ العربيّة.",
+   "row_mentions": [
+    "BR-EGYP-03"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `mnḏ` «chest (of a man or woman); udder» - مادة `ملج`",
+   "verdict": "",
+   "closure": "LAW-GAP + TOOL-GAP.",
+   "gaps": [
+    "TOOL-GAP",
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": [
+    "BR-EGYP-01",
+    "BR-EGYP-02"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `ꜥb` «to dirty; to pollute» - مادة `عيب`",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "شاهدًا مصريًّا يرجّحُ أنّ 36340 أصلٌ مستقلٌّ لا قراءةً سياقيّةً لـ36310، أو قرارَ المؤلّفِ في كيفيّةِ معاملةِ المتضادّاتِ في الرسمِ الواحد.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم عائلية: `gr` «to be silent», `gr` «silence» - مادة `قرر`",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا واحدًا موقَّعًا يصلُ `g` المصريّةَ بالقافِ العربيّة، بمثالٍ منشورٍ مسمَّى المصدرِ خارجَ هذا الزوج. وهذا أخصبُ طلبٍ في الدفعةِ: توقيعُه وحدَه يفتحُ هذه البطاقةَ وطائفةً من صفوفِ الطابورِ المصريِّ الأخرى.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم عائلية: `šmm` «to be hot», `šmm` «heat» - مادة `حمم`",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يصلُ `š` المصريّةَ بالحاءِ العربيّة، بمثالٍ منشورٍ مسمَّى المصدر.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `bk` «قتل بالسيف؛ جرى» عند المقترِحَين - مادة `بكك`",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "إثباتَ الصورةِ المصريّةِ «قتلَ» أو «جرى» برسمِ `bk` من *Wörterbuch* أو من TLA أو من مصدرٍ مصريٍّ مسمًّى، لا من إعادةِ بناءٍ أفروآسيويّة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `pgꜣ` «to unfold; to open up» - مادة `فجو`",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا لقيمةِ `ꜣ` المصريّةِ حيثُ تقابلُ لامَ جذرٍ عربيّةً معتلّة، أو قاعدةً منشورةً تُخرِجُ `ꜣ` من صوامتِ `pgꜣ` بعينِها.",
+   "row_mentions": [
+    "BR-EGYP-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `jꜥr` «to mount up; to touch; to bring up» - مادة `علو`",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا يصلُ `j` المصريّةَ بالعينِ العربيّة، وهو ما لا نعرفُ له مثالًا؛ ولا يُغني عنه إسقاطُ الصامتِ الأوّل.",
+   "row_mentions": [
+    "BR-EGYP-01",
+    "BR-EGYP-02"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/egyptian.md",
+   "card": "حسم: `dwn` «to stretch out; to be stretched out (taut)» - مادة `طول`",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفًّا موقَّعًا `d ↔ ط`، وشاهدَ خلفٍ باللامِ لهذه الكلمةِ بعينِها لتفعيلِ `BR-EGYP-02`.",
+   "row_mentions": [
+    "BR-EGYP-02"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "`kaikki_gothic:9787:en-𐌷𐌰𐌻𐌳𐌰𐌽-got-verb-XSqE4Eh1`، 𐌷𐌰𐌻𐌳𐌰𐌽 (haldan) «to take care ",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "تحليلا صرفيا منشورا مسمى يبين أصل الدال في ‎*haldaną‎ (لاحقة ‎*-t-‎ بشرط نبر فيرنر أم صامت جذر)، وبه وحده تُعاد البطاقة.",
+   "row_mentions": [
+    "BR-GRIM-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "`kaikki_gothic:635:en-𐌷𐌰𐌽𐌳𐌿𐍃-got-noun-GwAXBqQY`، 𐌷𐌰𐌽𐌳𐌿𐍃 (handus) «hand» (مقلَّم)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "صورة هندوأوروبية منشورة لـ‎*handuz‎ تبين هل الدال لاحقة أم صامت جذر.",
+   "row_mentions": [
+    "BR-GRIM-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "`kaikki_gothic:617:en-𐍆𐍉𐌽-got-noun-got:Q3196`، 𐍆𐍉𐌽 (fōn) «fire» (مرشّح مفتوح)",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "موردَ تحول دلالي منشورا يوثق «غليان أو شدة حر ← نار»، أو صفا موقعا يقرأ الحنجري الهندوأوروبي صفرا في العربية.",
+   "row_mentions": [
+    "BR-GRIM-01"
+   ]
+  },
+  {
    "file": "04-cross-linguistic/readings/hebrew.md",
    "card": "(إعادةُ توسيم): المراجعةُ المضادّةُ الثالثةُ لحصادِ 2026-07-22 العبريّ",
    "verdict": "",
@@ -45848,6 +46507,90 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`קר` «cold»، العضو `kaikki_hebrew:3007:en-קר-he-adj-4nLe7N5y`",
+   "verdict": "ROOT-TRACE",
+   "closure": "ROOT-TRACE + OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`נחש` «snake»، العضو `kaikki_hebrew:1915:en-נחש-he-noun-yQTPUsVS`",
+   "verdict": "OPEN-CANDIDATE في الطبقتين. الدفعة 016.",
+   "closure": "",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفّ قلب مكاني موقّعًا في الشبكة المجمدة، أو شاهدًا مستقلًّا على صورة عبرية غير مقلوبة.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`דל` «weak, poor»، العضو `kaikki_hebrew:11992:en-דל-he-adj-RD3MewDr`",
+   "verdict": "OPEN-CANDIDATE في الطبقتين. الدفعة 016.",
+   "closure": "",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "مادّة عربية بالدال تحمل الضعف أو الفقر بنصّ معجم قديم مسمّى، أو صفًّا موقّعًا يجيز `د ↔ ذ` في هذا الاتجاه.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`אבן` «stone»، العضو `kaikki_hebrew:947:en-אבן-he-noun-pg6-KZy7`",
+   "verdict": "OPEN-CANDIDATE في الطبقتين. الدفعة 016.",
+   "closure": "",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "مادّة عربية بالهمزة والباء والنون تحمل الحجر بنصّ معجم قديم مسمّى.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`אש` «fire»، العضو `kaikki_hebrew:220:en-אש-he-noun-3J8osS3R`",
+   "verdict": "OPEN-CANDIDATE في الطبقتين. الدفعة 016.",
+   "closure": "",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "TOOL-GAP",
+   "required": "مدخل نواة `ءش` معتمدًا في الفهرس المجمد، أو مادّة عربية بالهمزة والشين تحمل النار بنصّ معجم قديم مسمّى.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`סוס` «horse»، العضو `kaikki_hebrew:1281:en-סוס-he-noun-~WKGK23C`",
+   "verdict": "OPEN-CANDIDATE في الطبقتين. الدفعة 016.",
+   "closure": "",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "مادّة عربية بالسين والسين تحمل الفرس بنصّ معجم قديم مسمّى.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`שתה` «to drink»، العضو `kaikki_hebrew:4715:en-שתה-he-verb-5i9kA2DY`",
+   "verdict": "OPEN-CANDIDATE في الطبقتين. الدفعة 016.",
+   "closure": "",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "مادّة عربية بالسين أو الثاء مع التاء واللام الضعيفة تحمل الشرب بنصّ معجم قديم مسمّى.",
+   "row_mentions": []
+  },
+  {
    "file": "04-cross-linguistic/readings/nucleus-echoes-week17.md",
    "card": "mikill «عظيم، طويل القامة»",
    "verdict": "",
@@ -45906,6 +46649,60 @@
    "blocker_type": "",
    "required": "",
    "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-english.md",
+   "card": "`kaikki_old_english:1802:en-healdan-ang-verb-edx2rnSA`، healdan «to keep watch o",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "تحليلا صرفيا منشورا مسمى لأصل الدال في ‎*haldaną‎.",
+   "row_mentions": [
+    "BR-GRIM-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-english.md",
+   "card": "`kaikki_old_english:1741:en-mund-ang-noun-2eiDyH3N`، mund «trust, security, prot",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "صورة هندوأوروبية منشورة لـ‎*mundō‎ تبين هل الدال لاحقة ‎*-teh₂-‎ بشرط نبر فيرنر أم صامت جذر.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-english.md",
+   "card": "`kaikki_old_english:108:en-hand-ang-noun-GwAXBqQY`، hand «hand» (مقلَّم)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "صورة هندوأوروبية منشورة لـ‎*handuz‎.",
+   "row_mentions": [
+    "BR-GRIM-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-english.md",
+   "card": "`kaikki_old_english:1868:en-fyr-ang-noun-3J8osS3R`، fyr (fȳr) «fire» (مرشّح مفتو",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "OPEN-CANDIDATE",
+   "required": "موردَ تحول دلالي منشورا يوثق «غليان أو شدة حر ← نار»، أو صفا موقعا يقرأ الحنجري الهندوأوروبي صفرا في العربية.",
+   "row_mentions": [
+    "BR-GRIM-01"
+   ]
   },
   {
    "file": "04-cross-linguistic/readings/old-irish.md",
@@ -45980,6 +46777,56 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/old-irish.md",
+   "card": "daig «flame, blaze, conflagration, fire»",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع لـ ذ بإزاء d في الكلتية، وصف موقع لـ ك بإزاء g.",
+   "row_mentions": [
+    "BR-GREC-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-irish.md",
+   "card": "selb «property; possession»",
+   "verdict": "",
+   "closure": "LAW-GAP + ORBIT-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع يقرأ من ب العربية إلى الواو الفرعية.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-irish.md",
+   "card": "áes «age, years; lifetime»",
+   "verdict": "",
+   "closure": "LAW-GAP مع بنية أحادية.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صف موقع لسقوط ح العربية في الفرع الكلتي، وهو مطلوب لطبقة كاملة من الصفوف لا لهذا الصف وحده.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-irish.md",
+   "card": "ibid «to drink»",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "توسيع موقع لـ LAB-07 إلى الكلتية، وصف لهمزة العربية بإزاء b.",
+   "row_mentions": []
+  },
+  {
    "file": "04-cross-linguistic/readings/old-latin.md",
    "card": "(إعادةُ توسيم): amārus «bitter»",
    "verdict": "",
@@ -45989,6 +46836,32 @@
    ],
    "blocker_type": "MORPHOLOGY-GAP",
    "required": "تفسير صرفي منشور لظهور الراء في الصورة الهندوأوروبية",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-norse.md",
+   "card": "`kaikki_old_norse:3048:en-hǫnd-non-noun-GwAXBqQY`، hǫnd «hand» (مقلَّم)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "صورة هندوأوروبية منشورة لـ‎*handuz‎.",
+   "row_mentions": [
+    "BR-GRIM-01"
+   ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-norse.md",
+   "card": "`kaikki_old_norse:904:en-mund-non-noun-GwAXBqQY`، mund «hand» (مقلَّم)",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "صورة هندوأوروبية منشورة لـ‎*mundō‎ تبين أصل الدال.",
    "row_mentions": []
   },
   {

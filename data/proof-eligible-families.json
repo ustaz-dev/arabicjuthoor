@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "edc86033bb5ce617105a5b59b3c00aa4885b698af1a9fbc35c4521a033f94c79"
+    "sha256": "27063b55e28458dc989b210eb94904fb32aa5eb883b9f8bc7ae33e7b0a737cca"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "5ae968ef32399fc2abfa8fca4ef3eb11047b134610b7d4bd19166008ff774525"
+    "sha256": "056521349d8e710e0080427be6af9ad87f60b61cb7e8840540978faf5a411008"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 356,
+  "eligible_family_total": 358,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -53,22 +53,22 @@
  "languages": {
   "aramaic": {
    "inventory_family_count": 1573,
-   "represented_current_family_count": 577,
-   "eligible_family_count": 230,
-   "positive_family_count": 230,
+   "represented_current_family_count": 597,
+   "eligible_family_count": 231,
+   "positive_family_count": 231,
    "closure_only_family_count": 0,
-   "fully_disposed_but_population_excluded_count": 210,
-   "one_member_short_count": 80,
+   "fully_disposed_but_population_excluded_count": 209,
+   "one_member_short_count": 93,
    "issued_member_dispositions": {
-    "positive": 343,
-    "closures": 265,
+    "positive": 344,
+    "closures": 264,
     "by_outcome": {
      "FORM-OF-ISOLATED": 18,
      "INTRA-HOUSE-TRANSFER": 9,
      "LOANWORD": 68,
-     "NONLEXICAL-ISOLATED": 60,
+     "NONLEXICAL-ISOLATED": 59,
      "NUCLEUS-ECHO": 4,
-     "NUCLEUS-TRACE": 10,
+     "NUCLEUS-TRACE": 11,
      "OUT-OF-SCOPE": 1,
      "PROPER-NAME-ISOLATED": 109,
      "ROOT-ECHO": 46,
@@ -76,17 +76,17 @@
     }
    },
    "incomplete_members_by_state": {
-    "LAW-GAP": 3,
+    "LAW-GAP": 4,
     "MORPHOLOGY-GAP": 1,
-    "OPEN-CANDIDATE": 43,
+    "OPEN-CANDIDATE": 53,
     "SOURCE-GAP": 2,
     "TOOL-GAP": 13,
-    "UNRECORDED": 155
+    "UNRECORDED": 172
    },
    "block_reconciliation": {
     "ambiguous-stale-heading": 3,
     "current-heading": 730,
-    "stable-entry-reconciled": 211,
+    "stable-entry-reconciled": 236,
     "unmapped-stale-heading": 10
    },
    "eligible_family_ids": [
@@ -201,6 +201,7 @@
     "aramaic:family:8b9e7b23ea025d740de240a9",
     "aramaic:family:8bb6f2ad42ead0512c200e83",
     "aramaic:family:8c63d5d56732a12875e05816",
+    "aramaic:family:90158e7b795dafe8e65c2f42",
     "aramaic:family:90b7925f418d9752908c7152",
     "aramaic:family:90fcf738efda6cd3825567cd",
     "aramaic:family:913d5f184855940dcf696eed",
@@ -433,6 +434,7 @@
     "aramaic:family:8b9e7b23ea025d740de240a9",
     "aramaic:family:8bb6f2ad42ead0512c200e83",
     "aramaic:family:8c63d5d56732a12875e05816",
+    "aramaic:family:90158e7b795dafe8e65c2f42",
     "aramaic:family:90b7925f418d9752908c7152",
     "aramaic:family:90fcf738efda6cd3825567cd",
     "aramaic:family:913d5f184855940dcf696eed",
@@ -700,7 +702,6 @@
     "aramaic:family:c4c31cad5c84f956f78925d2",
     "aramaic:family:c51fc8f431ee6f8476290177",
     "aramaic:family:c52b3fadd9484f5b295abdc1",
-    "aramaic:family:c53d105a921da69e9a3b8dc6",
     "aramaic:family:c581608261bdb33fb062b52a",
     "aramaic:family:c62caed858e7e0d24fdb7579",
     "aramaic:family:c774667661650e58ad035616",
@@ -845,6 +846,17 @@
      "reading_line": 29586
     },
     {
+     "family_id": "aramaic:family:25ac1d5f4701652e44d2e834",
+     "anchor_headword": "צלותא",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:242:en-צלותא-arc-noun-Jf42EIOS",
+     "missing_headword": "צלותא",
+     "missing_pos": "noun",
+     "missing_gloss": "prayer",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 30072
+    },
+    {
      "family_id": "aramaic:family:326d1915426f258fadcf32e5",
      "anchor_headword": "סרא",
      "member_count": 2,
@@ -876,6 +888,17 @@
      "missing_gloss": "porcupine, hedgehog",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 10533
+    },
+    {
+     "family_id": "aramaic:family:5b9c64c9f024fbe71fee40e9",
+     "anchor_headword": "חזא",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:873:en-חזא-arc-verb-6g1zNN7-",
+     "missing_headword": "חזא",
+     "missing_pos": "verb",
+     "missing_gloss": "to see",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 29910
     },
     {
      "family_id": "aramaic:family:60216cd8268a1bce4465830b",
@@ -944,6 +967,17 @@
      "reading_line": 29528
     },
     {
+     "family_id": "aramaic:family:710f69e7ba3a7ad107282160",
+     "anchor_headword": "חשב",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:149:en-חשב-arc-verb-ci5lfH8k",
+     "missing_headword": "חשב",
+     "missing_pos": "verb",
+     "missing_gloss": "to think",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 29958
+    },
+    {
      "family_id": "aramaic:family:75d7f175de698608e9ba8c23",
      "anchor_headword": "מלאכא",
      "member_count": 2,
@@ -953,6 +987,17 @@
      "missing_gloss": "angel",
      "current_state": "TOOL-GAP",
      "reading_line": 11970
+    },
+    {
+     "family_id": "aramaic:family:816e4874931b467ab9999450",
+     "anchor_headword": "ידע",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:95:en-ידע-arc-verb-Vk7G5aRj",
+     "missing_headword": "ידע",
+     "missing_pos": "verb",
+     "missing_gloss": "to know",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 30056
     },
     {
      "family_id": "aramaic:family:8fc15ee53ceedb2fd9a4ea97",
@@ -1010,6 +1055,17 @@
      "reading_line": 12282
     },
     {
+     "family_id": "aramaic:family:a4e7d06c1bc9b882063ffcaf",
+     "anchor_headword": "אחר",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:92:en-אחר-arc-verb-QBuU-0Yy",
+     "missing_headword": "אחר",
+     "missing_pos": "verb",
+     "missing_gloss": "to be late, to delay",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 29990
+    },
+    {
      "family_id": "aramaic:family:a6cbcf8972aa67c42f78fa39",
      "anchor_headword": "אתא",
      "member_count": 1,
@@ -1019,6 +1075,28 @@
      "missing_gloss": "to come, to arrive",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 29658
+    },
+    {
+     "family_id": "aramaic:family:a78f9a54d0951c59ef5cdcd7",
+     "anchor_headword": "סהרא",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:164:en-סהרא-arc-noun-nni0PqAO",
+     "missing_headword": "סהרא",
+     "missing_pos": "noun",
+     "missing_gloss": "moon",
+     "current_state": "LAW-GAP",
+     "reading_line": 30008
+    },
+    {
+     "family_id": "aramaic:family:b49aee16989db1400d845ee5",
+     "anchor_headword": "צוד",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:76:en-צוד-arc-verb-jhS8Rsvx",
+     "missing_headword": "צוד",
+     "missing_pos": "verb",
+     "missing_gloss": "to hunt, to fish, to catch",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 29765
     },
     {
      "family_id": "aramaic:family:b82dba34dba0baee82bce5e2",
@@ -1074,6 +1152,17 @@
      "missing_gloss": "flower",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 12639
+    },
+    {
+     "family_id": "aramaic:family:c53d105a921da69e9a3b8dc6",
+     "anchor_headword": "אנא",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:245:en-אנא-arc-pron-qD3QzL~-",
+     "missing_headword": "אנא",
+     "missing_pos": "pron",
+     "missing_gloss": "I",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 30100
     },
     {
      "family_id": "aramaic:family:d38aa6b47b329bf8fcb2844e",
@@ -1175,6 +1264,17 @@
      "reading_line": 13073
     },
     {
+     "family_id": "aramaic:family:e3db9dfcf2d3061b5d7c726b",
+     "anchor_headword": "גרמא",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:279:en-גרמא-arc-noun-yNrPZX~p",
+     "missing_headword": "גרמא",
+     "missing_pos": "noun",
+     "missing_gloss": "bone",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 29942
+    },
+    {
      "family_id": "aramaic:family:e492c9bc01e94431f6f7bbb9",
      "anchor_headword": "פלפלא",
      "member_count": 2,
@@ -1219,6 +1319,17 @@
      "reading_line": 13190
     },
     {
+     "family_id": "aramaic:family:e7a5de3165a8c1abc6db1ab6",
+     "anchor_headword": "גדל",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:78:en-גדל-arc-verb-yLU83-d1",
+     "missing_headword": "גדל",
+     "missing_pos": "verb",
+     "missing_gloss": "to twist",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 29974
+    },
+    {
      "family_id": "aramaic:family:ec3374a76fa7e68563ea867a",
      "anchor_headword": "פומא",
      "member_count": 1,
@@ -1250,6 +1361,17 @@
      "missing_gloss": "custom, usual practice",
      "current_state": "TOOL-GAP",
      "reading_line": 13434
+    },
+    {
+     "family_id": "aramaic:family:fb21ce35989ae126c1cb8965",
+     "anchor_headword": "צבא",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:102:en-צבא-arc-verb-TrbhcrhP",
+     "missing_headword": "צבא",
+     "missing_pos": "verb",
+     "missing_gloss": "to desire, to will, to wish",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 29894
     },
     {
      "family_id": "aramaic:family:04a9002f976e7eb15bfdef3b",
@@ -1340,6 +1462,17 @@
      "reading_line": null
     },
     {
+     "family_id": "aramaic:family:1e830a4a8790d550f05d1021",
+     "anchor_headword": "פרזלא",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:428:en-פרזלא-arc-noun-BOnA24fn",
+     "missing_headword": "פרזלא",
+     "missing_pos": "noun",
+     "missing_gloss": "iron",
+     "current_state": "UNRECORDED",
+     "reading_line": null
+    },
+    {
      "family_id": "aramaic:family:21e77b4f30b26000090d2f1e",
      "anchor_headword": "עומק",
      "member_count": 2,
@@ -1402,6 +1535,17 @@
      "missing_headword": "תמני",
      "missing_pos": "num",
      "missing_gloss": "feminine of תְּמָנְיָא (təmānəyā, “eight”)",
+     "current_state": "UNRECORDED",
+     "reading_line": null
+    },
+    {
+     "family_id": "aramaic:family:46fd58cb36bf254cd2f8db6b",
+     "anchor_headword": "נטר",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:90:en-נטר-arc-verb-y2q5pSR7",
+     "missing_headword": "נטר",
+     "missing_pos": "verb",
+     "missing_gloss": "to guard, to protect, to keep",
      "current_state": "UNRECORDED",
      "reading_line": null
     },
@@ -1858,6 +2002,22 @@
      ]
     },
     {
+     "family_id": "aramaic:family:1e830a4a8790d550f05d1021",
+     "anchor_headword": "פרזלא",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:428:en-פרזלא-arc-noun-BOnA24fn",
+       "headword": "פרזלא",
+       "pos": "noun",
+       "gloss": "iron",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "aramaic:family:21e77b4f30b26000090d2f1e",
      "anchor_headword": "עומק",
      "member_count": 2,
@@ -1902,6 +2062,22 @@
        "gloss": "earth, soil, dust",
        "current_state": "OPEN-CANDIDATE",
        "reading_line": 29586
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:25ac1d5f4701652e44d2e834",
+     "anchor_headword": "צלותא",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:242:en-צלותא-arc-noun-Jf42EIOS",
+       "headword": "צלותא",
+       "pos": "noun",
+       "gloss": "prayer",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 30072
       }
      ]
     },
@@ -2034,6 +2210,22 @@
      ]
     },
     {
+     "family_id": "aramaic:family:46fd58cb36bf254cd2f8db6b",
+     "anchor_headword": "נטר",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:90:en-נטר-arc-verb-y2q5pSR7",
+       "headword": "נטר",
+       "pos": "verb",
+       "gloss": "to guard, to protect, to keep",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "aramaic:family:582e9efcf9de2fb3bcfe2a89",
      "anchor_headword": "𐡕𐡋𐡕",
      "member_count": 2,
@@ -2062,6 +2254,22 @@
        "gloss": "feminine of אַרְבְּעָא (arbəʿā, “four”)",
        "current_state": "UNRECORDED",
        "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:5b9c64c9f024fbe71fee40e9",
+     "anchor_headword": "חזא",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:873:en-חזא-arc-verb-6g1zNN7-",
+       "headword": "חזא",
+       "pos": "verb",
+       "gloss": "to see",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 29910
       }
      ]
     },
@@ -2162,6 +2370,22 @@
      ]
     },
     {
+     "family_id": "aramaic:family:710f69e7ba3a7ad107282160",
+     "anchor_headword": "חשב",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:149:en-חשב-arc-verb-ci5lfH8k",
+       "headword": "חשב",
+       "pos": "verb",
+       "gloss": "to think",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 29958
+      }
+     ]
+    },
+    {
      "family_id": "aramaic:family:71dddf17a0724233ff4f9ff4",
      "anchor_headword": "נסב",
      "member_count": 2,
@@ -2238,6 +2462,22 @@
        "gloss": "earthquake, trembling",
        "current_state": "UNRECORDED",
        "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:816e4874931b467ab9999450",
+     "anchor_headword": "ידע",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:95:en-ידע-arc-verb-Vk7G5aRj",
+       "headword": "ידע",
+       "pos": "verb",
+       "gloss": "to know",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 30056
       }
      ]
     },
@@ -2402,6 +2642,22 @@
      ]
     },
     {
+     "family_id": "aramaic:family:a4e7d06c1bc9b882063ffcaf",
+     "anchor_headword": "אחר",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:92:en-אחר-arc-verb-QBuU-0Yy",
+       "headword": "אחר",
+       "pos": "verb",
+       "gloss": "to be late, to delay",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 29990
+      }
+     ]
+    },
+    {
      "family_id": "aramaic:family:a6cbcf8972aa67c42f78fa39",
      "anchor_headword": "אתא",
      "member_count": 1,
@@ -2414,6 +2670,22 @@
        "gloss": "to come, to arrive",
        "current_state": "OPEN-CANDIDATE",
        "reading_line": 29658
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:a78f9a54d0951c59ef5cdcd7",
+     "anchor_headword": "סהרא",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:164:en-סהרא-arc-noun-nni0PqAO",
+       "headword": "סהרא",
+       "pos": "noun",
+       "gloss": "moon",
+       "current_state": "LAW-GAP",
+       "reading_line": 30008
       }
      ]
     },
@@ -2462,6 +2734,22 @@
        "gloss": "to defecate",
        "current_state": "UNRECORDED",
        "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:b49aee16989db1400d845ee5",
+     "anchor_headword": "צוד",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:76:en-צוד-arc-verb-jhS8Rsvx",
+       "headword": "צוד",
+       "pos": "verb",
+       "gloss": "to hunt, to fish, to catch",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 29765
       }
      ]
     },
@@ -2574,6 +2862,22 @@
        "gloss": "flower",
        "current_state": "OPEN-CANDIDATE",
        "reading_line": 12639
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:c53d105a921da69e9a3b8dc6",
+     "anchor_headword": "אנא",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:245:en-אנא-arc-pron-qD3QzL~-",
+       "headword": "אנא",
+       "pos": "pron",
+       "gloss": "I",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 30100
       }
      ]
     },
@@ -2738,6 +3042,22 @@
      ]
     },
     {
+     "family_id": "aramaic:family:e3db9dfcf2d3061b5d7c726b",
+     "anchor_headword": "גרמא",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:279:en-גרמא-arc-noun-yNrPZX~p",
+       "headword": "גרמא",
+       "pos": "noun",
+       "gloss": "bone",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 29942
+      }
+     ]
+    },
+    {
      "family_id": "aramaic:family:e492c9bc01e94431f6f7bbb9",
      "anchor_headword": "פלפלא",
      "member_count": 2,
@@ -2818,6 +3138,22 @@
      ]
     },
     {
+     "family_id": "aramaic:family:e7a5de3165a8c1abc6db1ab6",
+     "anchor_headword": "גדל",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:78:en-גדל-arc-verb-yLU83-d1",
+       "headword": "גדל",
+       "pos": "verb",
+       "gloss": "to twist",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 29974
+      }
+     ]
+    },
+    {
      "family_id": "aramaic:family:eb14cd29d6c81ba98c6eecb5",
      "anchor_headword": "עמיקא",
      "member_count": 2,
@@ -2894,6 +3230,22 @@
        "gloss": "custom, usual practice",
        "current_state": "TOOL-GAP",
        "reading_line": 13434
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:fb21ce35989ae126c1cb8965",
+     "anchor_headword": "צבא",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:102:en-צבא-arc-verb-TrbhcrhP",
+       "headword": "צבא",
+       "pos": "verb",
+       "gloss": "to desire, to will, to wish",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 29894
       }
      ]
     },
@@ -3050,6 +3402,30 @@
      ]
     },
     {
+     "family_id": "aramaic:family:1ff583c161b2790f3f273d7f",
+     "anchor_headword": "ילד",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:125:en-ילד-arc-verb-0sWTWczW",
+       "headword": "ילד",
+       "pos": "verb",
+       "gloss": "to bear children",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:2132:en-ילדא-arc-noun-vS0a0pCX",
+       "headword": "ילדא",
+       "pos": "noun",
+       "gloss": "birth, childbirth, delivery, nativity",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "aramaic:family:23a6b8e6508d0442bfa8ba28",
      "anchor_headword": "רחם",
      "member_count": 3,
@@ -3092,6 +3468,30 @@
        "headword": "שבתא",
        "pos": "noun",
        "gloss": "Shabbat, Sabbath, Saturday",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:2c1ec78ade1df2f17142977a",
+     "anchor_headword": "ריח",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:420:en-ריחא-arc-noun-LI4pMvEZ",
+       "headword": "ריחא",
+       "pos": "noun",
+       "gloss": "smell, odour/odor",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:91:en-ריח-arc-verb-q9fDw2kt",
+       "headword": "ריח",
+       "pos": "verb",
+       "gloss": "to smell",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -3362,6 +3762,30 @@
      ]
     },
     {
+     "family_id": "aramaic:family:55069bf5bf8836e39bbd628c",
+     "anchor_headword": "שמי",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:1387:en-שמי-arc-verb-UjXHy1cO",
+       "headword": "שמי",
+       "pos": "verb",
+       "gloss": "to name",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:175:en-שמיא-arc-noun-BfUU-ufK",
+       "headword": "שמיא",
+       "pos": "noun",
+       "gloss": "sky",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "aramaic:family:66c5b424deb8bdaca6ee7a38",
      "anchor_headword": "חד",
      "member_count": 2,
@@ -3526,6 +3950,30 @@
        "gloss": "yet, but, however",
        "current_state": "SOURCE-GAP",
        "reading_line": 12144
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:8b4885eef2660ae8fc5cd197",
+     "anchor_headword": "על",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:2062:en-א־-arc-prep-I54dRjpP",
+       "headword": "א־",
+       "pos": "prep",
+       "gloss": "Jewish Babylonian Aramaic form of עַל (ʿal)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:65:en-על-arc-prep-cEUrieum",
+       "headword": "על",
+       "pos": "prep",
+       "gloss": "on, upon",
+       "current_state": "UNRECORDED",
+       "reading_line": null
       }
      ]
     },
@@ -3746,6 +4194,30 @@
      ]
     },
     {
+     "family_id": "aramaic:family:bf93e452cbfaf4301c041579",
+     "anchor_headword": "ערב",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:59:en-ערב-arc-verb-OBR1uYRE",
+       "headword": "ערב",
+       "pos": "verb",
+       "gloss": "to set, to go down",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:824:en-ערובתא-arc-noun-hSYq33RR",
+       "headword": "ערובתא",
+       "pos": "noun",
+       "gloss": "eve",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "aramaic:family:c176afad76ad054a5f5f05d2",
      "anchor_headword": "רטיבא",
      "member_count": 2,
@@ -3908,6 +4380,30 @@
        "headword": "משיחא",
        "pos": "adj",
        "gloss": "anointed",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:e2b8d9886b6d4eb9136a1a24",
+     "anchor_headword": "מי",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:1600:en-מי-arc-adv-setBzBBV",
+       "headword": "מי",
+       "pos": "adv",
+       "gloss": "Marks a yes/no question.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:170:en-מיא-arc-noun-D0FoSQ44",
+       "headword": "מיא",
+       "pos": "noun",
+       "gloss": "water",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -4118,6 +4614,38 @@
        "gloss": "cord, band",
        "current_state": "OPEN-CANDIDATE",
        "reading_line": 9761
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:47ce206719cd3c75b2576822",
+     "anchor_headword": "שנתא",
+     "member_count": 3,
+     "missing_member_count": 3,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:207:en-שנתא-arc-noun-TLTqJVg8",
+       "headword": "שנתא",
+       "pos": "noun",
+       "gloss": "year",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:208:en-שנתא-arc-noun-CvpbtdXx",
+       "headword": "שנתא",
+       "pos": "noun",
+       "gloss": "sleep",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:209:en-שנתא-arc-noun-yTSdq7ag",
+       "headword": "שנתא",
+       "pos": "noun",
+       "gloss": "teeth",
+       "current_state": "UNRECORDED",
+       "reading_line": null
       }
      ]
     },
@@ -4552,14 +5080,14 @@
   },
   "hebrew": {
    "inventory_family_count": 11852,
-   "represented_current_family_count": 1190,
-   "eligible_family_count": 126,
-   "positive_family_count": 126,
+   "represented_current_family_count": 1213,
+   "eligible_family_count": 127,
+   "positive_family_count": 127,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 425,
-   "one_member_short_count": 339,
+   "one_member_short_count": 340,
    "issued_member_dispositions": {
-    "positive": 297,
+    "positive": 298,
     "closures": 1141,
     "by_outcome": {
      "ABBREVIATION": 88,
@@ -4571,20 +5099,20 @@
      "LOANWORD": 266,
      "NONLEXICAL-ISOLATED": 66,
      "NUCLEUS-ECHO": 3,
-     "NUCLEUS-TRACE": 8,
+     "NUCLEUS-TRACE": 9,
      "PROPER-NAME-ISOLATED": 71,
      "ROOT-ECHO": 114,
      "ROOT-TRACE": 172
     }
    },
    "incomplete_members_by_state": {
-    "OPEN-CANDIDATE": 11,
-    "UNRECORDED": 1253
+    "OPEN-CANDIDATE": 12,
+    "UNRECORDED": 1313
    },
    "block_reconciliation": {
     "ambiguous-stale-heading": 151,
     "current-heading": 933,
-    "stable-entry-reconciled": 684,
+    "stable-entry-reconciled": 709,
     "unmapped-stale-heading": 4
    },
    "eligible_family_ids": [
@@ -4706,6 +5234,7 @@
     "hebrew:family:dbb23d4f8e8b2ea4e0f49775",
     "hebrew:family:e3c1b795c502219e542c30cc",
     "hebrew:family:e72ccd9a1612a00a8d381815",
+    "hebrew:family:e99b97be497d7091969bf05f",
     "hebrew:family:ea3728dadb3677049e71ccd7",
     "hebrew:family:ef196a52e14a167bd941ed9c",
     "hebrew:family:efb963a8dc8427814fac3978",
@@ -4834,6 +5363,7 @@
     "hebrew:family:dbb23d4f8e8b2ea4e0f49775",
     "hebrew:family:e3c1b795c502219e542c30cc",
     "hebrew:family:e72ccd9a1612a00a8d381815",
+    "hebrew:family:e99b97be497d7091969bf05f",
     "hebrew:family:ea3728dadb3677049e71ccd7",
     "hebrew:family:ef196a52e14a167bd941ed9c",
     "hebrew:family:efb963a8dc8427814fac3978",
@@ -5282,6 +5812,17 @@
      "missing_gloss": "to be stubborn, disobedient",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 41416
+    },
+    {
+     "family_id": "hebrew:family:0cc97040204da72f867d287f",
+     "anchor_headword": "דל",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_hebrew:11992:en-דל-he-adj-RD3MewDr",
+     "missing_headword": "דל",
+     "missing_pos": "adj",
+     "missing_gloss": "weak, poor",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 41925
     },
     {
      "family_id": "hebrew:family:288d73607531ab82dc0105f1",
@@ -9368,6 +9909,22 @@
        "gloss": "Related to strength, power, grasping.",
        "current_state": "UNRECORDED",
        "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:0cc97040204da72f867d287f",
+     "anchor_headword": "דל",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:11992:en-דל-he-adj-RD3MewDr",
+       "headword": "דל",
+       "pos": "adj",
+       "gloss": "weak, poor",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 41925
       }
      ]
     },
@@ -14548,6 +15105,30 @@
      ]
     },
     {
+     "family_id": "hebrew:family:091989e856bc94ef21dd1f8f",
+     "anchor_headword": "קר",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:3007:en-קר-he-adj-4nLe7N5y",
+       "headword": "קר",
+       "pos": "adj",
+       "gloss": "cold",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:3201:en-קרה-he-adj-2j8IlrCA",
+       "headword": "קרה",
+       "pos": "adj",
+       "gloss": "feminine singular indefinite form of קַר (qár): cold.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:092b5bb8e1f5e6b168f920ce",
      "anchor_headword": "קרון",
      "member_count": 2,
@@ -14638,6 +15219,30 @@
        "headword": "דבר",
        "pos": "noun",
        "gloss": "plague, pestilence",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:1661c38ea6c1db791da92278",
+     "anchor_headword": "ביצה",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:1919:en-ביצה-he-noun-NHB8P0Df",
+       "headword": "ביצה",
+       "pos": "noun",
+       "gloss": "egg",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:1920:en-ביצה-he-noun-XzbT1-T1",
+       "headword": "ביצה",
+       "pos": "noun",
+       "gloss": "swamp, marsh",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -14806,6 +15411,30 @@
        "headword": "שועלי",
        "pos": "noun",
        "gloss": "plural construct state form of שׁוּעָל (shu'ál)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:2279c0a660521a98cb495b64",
+     "anchor_headword": "מר",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:2965:en-מר-he-adj-3qU-iiPv",
+       "headword": "מר",
+       "pos": "adj",
+       "gloss": "bitter (having an acrid taste)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:2966:en-מר-he-noun-uMtAo2CR",
+       "headword": "מר",
+       "pos": "noun",
+       "gloss": "Mister (a title of respect for a man, preceding his surname in Modern Hebrew)",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -15004,6 +15633,54 @@
      ]
     },
     {
+     "family_id": "hebrew:family:32886bc12911c9af74190291",
+     "anchor_headword": "שתה",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:11781:en-שתי-he-verb-kfV8gOnO",
+       "headword": "שתי",
+       "pos": "verb",
+       "gloss": "feminine singular imperative of שָׁתָה (shatá)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:4715:en-שתה-he-verb-5i9kA2DY",
+       "headword": "שתה",
+       "pos": "verb",
+       "gloss": "to drink",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:32b017a3a8e29731fe1781a3",
+     "anchor_headword": "שמן",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:1993:en-שמן-he-adj-VN-hjce~",
+       "headword": "שמן",
+       "pos": "adj",
+       "gloss": "fat, chubby",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:9644:en-שמנמן-he-adj-yiD7aC~r",
+       "headword": "שמנמן",
+       "pos": "adj",
+       "gloss": "chubby",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:33eb4bea394230b9a1871215",
      "anchor_headword": "אתר אינטרנט",
      "member_count": 2,
@@ -15172,6 +15849,30 @@
      ]
     },
     {
+     "family_id": "hebrew:family:3b24bb87378303ff8ed3765a",
+     "anchor_headword": "אצה",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:220:en-אש-he-noun-3J8osS3R",
+       "headword": "אש",
+       "pos": "noun",
+       "gloss": "fire",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:3457:en-אצה-he-noun-YuGb5fKy",
+       "headword": "אצה",
+       "pos": "noun",
+       "gloss": "seaweed (marine plants and algae)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:3b4182a1f32a3ba789f78322",
      "anchor_headword": "אם",
      "member_count": 3,
@@ -15262,6 +15963,30 @@
        "headword": "דוחה",
        "pos": "verb",
        "gloss": "Feminine singular present participle and present tense of דָּחָה (dakhá)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:3d0811c3c91d21f3d1cfb0f1",
+     "anchor_headword": "זנב",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:2008:en-זנב-he-noun-DGL4du8d",
+       "headword": "זנב",
+       "pos": "noun",
+       "gloss": "tail",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:7141:en-זנבו-he-noun-nDx1jVYC",
+       "headword": "זנבו",
+       "pos": "noun",
+       "gloss": "singular form of זָנָב (zanáv) with third-person masculine singular personal pronoun as possessor: its/his tail.",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -15628,6 +16353,30 @@
      ]
     },
     {
+     "family_id": "hebrew:family:536e575ca8f3f91b5f47ec0e",
+     "anchor_headword": "עז",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:693:en-עז-he-adj-r4x3ByeV",
+       "headword": "עז",
+       "pos": "adj",
+       "gloss": "mighty, strong",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:8095:en-עזים-he-adj-QX3GhDWn",
+       "headword": "עזים",
+       "pos": "adj",
+       "gloss": "masculine plural indefinite form of עַז (áz)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:5392e34507897bcee8712911",
      "anchor_headword": "נ־ג־ד",
      "member_count": 3,
@@ -15670,6 +16419,30 @@
        "headword": "בלט",
        "pos": "noun",
        "gloss": "ballet (a classical form of dance)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:55f7db416b5aa755c93f17c2",
+     "anchor_headword": "נר",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:3159:en-נר-he-noun-FRg5mc0U",
+       "headword": "נר",
+       "pos": "noun",
+       "gloss": "candle (a light source consisting of a wick embedded in a solid, flammable substance such as wax, tallow, or paraffin)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:3723:en-נרות-he-noun-qg7Tpt~D",
+       "headword": "נרות",
+       "pos": "noun",
+       "gloss": "plural indefinite form of נֵר (ner): candles",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -15862,6 +16635,30 @@
        "headword": "קנא",
        "pos": "verb",
        "gloss": "defective spelling of קינא",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:61c1d982c15c1f7a40976027",
+     "anchor_headword": "רך",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:15042:en-רכות-he-noun-htPG3soG",
+       "headword": "רכות",
+       "pos": "noun",
+       "gloss": "softness",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:4100:en-רך-he-adj-9fRFUo9K",
+       "headword": "רך",
+       "pos": "adj",
+       "gloss": "soft",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -16102,6 +16899,30 @@
        "headword": "קומיס",
        "pos": "noun",
        "gloss": "koumiss (a fermented drink made from mare's milk, common among peoples of the Central Asian steppes)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:72fb4e9aef8f8cdb334b831b",
+     "anchor_headword": "אחות",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:3220:en-אחות-he-noun-GYDTkn8H",
+       "headword": "אחות",
+       "pos": "noun",
+       "gloss": "sister",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:3728:en-אחיות-he-noun-Pu6dOeCl",
+       "headword": "אחיות",
+       "pos": "noun",
+       "gloss": "plural indefinite form of אָחוֹת (akhót): sisters; nurses",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -16804,6 +17625,30 @@
      ]
     },
     {
+     "family_id": "hebrew:family:97a47739da870052813502fb",
+     "anchor_headword": "א־ב־ן",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:13936:en-א־ב־ן-he-root-bg2jJM1y",
+       "headword": "א־ב־ן",
+       "pos": "root",
+       "gloss": "Related to stones.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:948:en-אבן-he-noun-kCOQ5jE7",
+       "headword": "אבן",
+       "pos": "noun",
+       "gloss": "ibn",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:986740e760222a73e2a0d701",
      "anchor_headword": "א־ח־ז",
      "member_count": 3,
@@ -17134,6 +17979,30 @@
        "headword": "תאר הפעל",
        "pos": "noun",
        "gloss": "defective spelling of תואר הפועל",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:aba1d84384a640a24f9b615a",
+     "anchor_headword": "עז",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:695:en-עז-he-name-JvxWdOMI",
+       "headword": "עז",
+       "pos": "name",
+       "gloss": "a surname: Oz",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:696:en-עז-he-noun-6HkTrNid",
+       "headword": "עז",
+       "pos": "noun",
+       "gloss": "female goat, she-goat",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -17494,6 +18363,30 @@
        "headword": "סודר",
        "pos": "noun",
        "gloss": "defective spelling of סוודר",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:c0a6b78f987a81aec661ba88",
+     "anchor_headword": "חם",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:14911:en-חמים-he-adj-ZEcVV9Pd",
+       "headword": "חמים",
+       "pos": "adj",
+       "gloss": "masculine plural indefinite form of חַם (kham)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:3009:en-חם-he-adj-24Ipp2nw",
+       "headword": "חם",
+       "pos": "adj",
+       "gloss": "Hot: at a high temperature.",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -18580,6 +19473,30 @@
      ]
     },
     {
+     "family_id": "hebrew:family:fd6d847e5f4510c5e1a459eb",
+     "anchor_headword": "נחש",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:1915:en-נחש-he-noun-yQTPUsVS",
+       "headword": "נחש",
+       "pos": "noun",
+       "gloss": "snake (any of the suborder Serpentes of legless reptile with long, thin bodies and fork-shaped tongues)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:1916:en-נחש-he-noun-xCOq0PdW",
+       "headword": "נחש",
+       "pos": "noun",
+       "gloss": "magic, sorcery, spell, enchantment, augury",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:fda1d3cf7be192d14d08ac1a",
      "anchor_headword": "ב־י־ת",
      "member_count": 3,
@@ -19222,6 +20139,38 @@
        "headword": "חמר",
        "pos": "noun",
        "gloss": "Someone who leads a donkey or donkeys.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:427d4a8f089421a4080ab230",
+     "anchor_headword": "נוח",
+     "member_count": 3,
+     "missing_member_count": 3,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:15265:en-נוחות-he-noun-jpSYv57p",
+       "headword": "נוחות",
+       "pos": "noun",
+       "gloss": "comfort",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:7628:en-נח-he-adj--hqAz9Md",
+       "headword": "נח",
+       "pos": "adj",
+       "gloss": "defective spelling of נוח.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:957:en-נוח-he-adj-fBJuWUPR",
+       "headword": "נוח",
+       "pos": "adj",
+       "gloss": "comfortable, easy",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -20246,6 +21195,38 @@
        "headword": "שוק",
        "pos": "noun",
        "gloss": "desire, longing",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:bdb7a4a35ccd4202b3ca0c7e",
+     "anchor_headword": "שמים",
+     "member_count": 3,
+     "missing_member_count": 3,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:1409:en-שמים-he-noun-6m~Mw1x2",
+       "headword": "שמים",
+       "pos": "noun",
+       "gloss": "sky, skies, heavens, heaven",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:1566:en-שמיים-he-noun-uLgZ28rS",
+       "headword": "שמיים",
+       "pos": "noun",
+       "gloss": "excessive spelling of שָׁמַיִם.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:3174:en-שמי-he-noun-Jh-B-GqQ",
+       "headword": "שמי",
+       "pos": "noun",
+       "gloss": "construct state form of שָׁמַיִם",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -21796,6 +22777,54 @@
      ]
     },
     {
+     "family_id": "hebrew:family:3176e320074deb4792d71c09",
+     "anchor_headword": "אבן",
+     "member_count": 5,
+     "missing_member_count": 5,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:10769:en-אבנן-he-noun-0cGlKBkW",
+       "headword": "אבנן",
+       "pos": "noun",
+       "gloss": "lithium (the simplest alkali metal, the lightest solid element, and the third lightest chemical element (symbol Li) with an atomic number of 3 and atomic weight of 6.94)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:16643:en-אבן_תקומה-he-noun-mEuKuqTt",
+       "headword": "אבן תקומה",
+       "pos": "noun",
+       "gloss": "Preserving stone (a stone believed to protect a woman against miscarriage)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:5823:en-אבן_משחזת-he-noun-6EOBSrZ~",
+       "headword": "אבן משחזת",
+       "pos": "noun",
+       "gloss": "grindstone (wheel for grinding)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:6052:en-אבן_הראשה-he-noun-7AfFLFIp",
+       "headword": "אבן הראשה",
+       "pos": "noun",
+       "gloss": "keystone (the top stone of an arch)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:947:en-אבן-he-noun-pg6-KZy7",
+       "headword": "אבן",
+       "pos": "noun",
+       "gloss": "stone (a piece of such material: a rock or a pebble)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:4f3c9b56871e5f843c402d15",
      "anchor_headword": "עצב",
      "member_count": 5,
@@ -21934,6 +22963,54 @@
        "headword": "אביעזר",
        "pos": "name",
        "gloss": "Abiezer, the name of two Israelites.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:d2a24b6e7d85a0f81c763d6f",
+     "anchor_headword": "זנב סוס",
+     "member_count": 5,
+     "missing_member_count": 5,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:1281:en-סוס-he-noun-~WKGK23C",
+       "headword": "סוס",
+       "pos": "noun",
+       "gloss": "horse",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:13217:en-סוסה-he-noun-OttL~usz",
+       "headword": "סוסה",
+       "pos": "noun",
+       "gloss": "singular form of סוּס (sus) with third-person feminine singular personal pronoun as possessor: her horse, her stallion",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:8254:en-סוסים-he-noun-PxvIUwZP",
+       "headword": "סוסים",
+       "pos": "noun",
+       "gloss": "plural indefinite form of סוּס",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:9295:en-זנב_סוס-he-noun-GZoOyU25",
+       "headword": "זנב סוס",
+       "pos": "noun",
+       "gloss": "ponytail (a hairstyle where the hair is pulled back and tied into a single \"tail\" which hangs down behind the head)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:9321:en-סוסיים-he-noun-X5Jg9Aay",
+       "headword": "סוסיים",
+       "pos": "noun",
+       "gloss": "dual indefinite form of סוּס m (sus).",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -22302,6 +23379,62 @@
        "headword": "פרץ",
        "pos": "noun",
        "gloss": "A breach: a gap in an enclosure or the like.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:88f56c2b88edd00335cd49f7",
+     "anchor_headword": "יין",
+     "member_count": 6,
+     "missing_member_count": 6,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:10987:en-סתם_יינם-he-noun-FTc9taIf",
+       "headword": "סתם יינם",
+       "pos": "noun",
+       "gloss": "wine touched by a gentile",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:11570:en-יין_אדום-he-noun-wOXrFbJ9",
+       "headword": "יין אדום",
+       "pos": "noun",
+       "gloss": "red wine",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:11573:en-יינות_אדומים-he-noun-gJWG6H0T",
+       "headword": "יינות אדומים",
+       "pos": "noun",
+       "gloss": "plural indefinite form of יין אדום",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:3684:en-יינות-he-noun-7pS4-b04",
+       "headword": "יינות",
+       "pos": "noun",
+       "gloss": "plural indefinite form of יַיִן (yáyin)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:4454:en-יין_נסך-he-noun-WSB3Ibpn",
+       "headword": "יין נסך",
+       "pos": "noun",
+       "gloss": "wine that has been used as an idolatrous libation",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:774:en-יין-he-noun-tY6viEKP",
+       "headword": "יין",
+       "pos": "noun",
+       "gloss": "wine (an alcoholic beverage made by fermenting grape juice, with an ABV ranging from 5.5–16%)",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -22846,6 +23979,78 @@
        "headword": "אשובה",
        "pos": "verb",
        "gloss": "First-person singular cohortative (prefix conjugation) of שָׁב (sháv).",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:41206396d72150452e368ebb",
+     "anchor_headword": "ארץ",
+     "member_count": 8,
+     "missing_member_count": 8,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:11076:en-עם_הארץ-he-noun-csoPOp0c",
+       "headword": "עם הארץ",
+       "pos": "noun",
+       "gloss": "commoners, laymen",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:12039:en-חוץ_לארץ-he-noun-~X8xob-2",
+       "headword": "חוץ לארץ",
+       "pos": "noun",
+       "gloss": "The world outside Israel; abroad.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:4571:en-הארץ-he-noun-Lazl9pma",
+       "headword": "הארץ",
+       "pos": "noun",
+       "gloss": "singular definite form of אֶרֶץ ('érets)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:4894:en-ארצה-he-noun-k6vASv3F",
+       "headword": "ארצה",
+       "pos": "noun",
+       "gloss": "singular form of אֶרֶץ (érets) with third-person feminine singular personal pronoun as possessor.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:5232:en-ארצות-he-noun-4gZb931w",
+       "headword": "ארצות",
+       "pos": "noun",
+       "gloss": "plural indefinite form of אֶרֶץ (érets)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:5233:en-ארצות-he-noun-IUwxgapx",
+       "headword": "ארצות",
+       "pos": "noun",
+       "gloss": "plural construct state form of אֶרֶץ (érets)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:6798:en-ארצי-he-adj-g8ypmyZ8",
+       "headword": "ארצי",
+       "pos": "adj",
+       "gloss": "National: of or pertaining to a land or country, especially Israel.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:6:en-ארץ-he-noun-eo~xhRN5",
+       "headword": "ארץ",
+       "pos": "noun",
+       "gloss": "country, land",
        "current_state": "UNRECORDED",
        "reading_line": null
       }

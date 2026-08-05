@@ -4966,9 +4966,9 @@
     "schema_version": 1,
     "generated_by": "scripts/count_proof_eligible_families.py",
     "report_path": "data/proof-eligible-families.json",
-    "report_sha256": "36dfb97d6acf696df0d4fcd296493bf497a24cca2392d25e0ac98038bede20db",
+    "report_sha256": "02c180f0846ae02c5a6db296d8adfd6bcb32e36bc354c6bd48d578de1aff5135",
     "summary": {
-      "eligible_family_total": 356,
+      "eligible_family_total": 358,
       "required_total": 600,
       "required_per_language": 150,
       "total_threshold_met": false,
@@ -4978,10 +4978,10 @@
     },
     "languages": {
       "aramaic": {
-        "eligible_family_count": 230,
-        "positive_family_count": 230,
+        "eligible_family_count": 231,
+        "positive_family_count": 231,
         "closure_only_family_count": 0,
-        "one_member_short_count": 80,
+        "one_member_short_count": 93,
         "eligible_family_ids": [
           "aramaic:family:0263fb19382f883fbc93197a",
           "aramaic:family:02fbb909d55d3228d3e2a1d1",
@@ -5094,6 +5094,7 @@
           "aramaic:family:8b9e7b23ea025d740de240a9",
           "aramaic:family:8bb6f2ad42ead0512c200e83",
           "aramaic:family:8c63d5d56732a12875e05816",
+          "aramaic:family:90158e7b795dafe8e65c2f42",
           "aramaic:family:90b7925f418d9752908c7152",
           "aramaic:family:90fcf738efda6cd3825567cd",
           "aramaic:family:913d5f184855940dcf696eed",
@@ -5216,10 +5217,10 @@
         ]
       },
       "hebrew": {
-        "eligible_family_count": 126,
-        "positive_family_count": 126,
+        "eligible_family_count": 127,
+        "positive_family_count": 127,
         "closure_only_family_count": 0,
-        "one_member_short_count": 339,
+        "one_member_short_count": 340,
         "eligible_family_ids": [
           "hebrew:family:002181eb560b984daace695f",
           "hebrew:family:019d6cc88b36c5a8ae9582dc",
@@ -5339,6 +5340,7 @@
           "hebrew:family:dbb23d4f8e8b2ea4e0f49775",
           "hebrew:family:e3c1b795c502219e542c30cc",
           "hebrew:family:e72ccd9a1612a00a8d381815",
+          "hebrew:family:e99b97be497d7091969bf05f",
           "hebrew:family:ea3728dadb3677049e71ccd7",
           "hebrew:family:ef196a52e14a167bd941ed9c",
           "hebrew:family:efb963a8dc8427814fac3978",

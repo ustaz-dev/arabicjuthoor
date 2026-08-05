@@ -1,27 +1,27 @@
 {
  "generated_from": "scripts/count_links.py",
- "cards_scanned": 31006,
+ "cards_scanned": 31227,
  "cards": {
-  "root": 1438,
-  "nucleus": 1090,
+  "root": 1490,
+  "nucleus": 1129,
   "floor": 5
  },
  "claims": {
-  "root": 956,
-  "nucleus": 952
+  "root": 1008,
+  "nucleus": 988
  },
  "by_language": {
   "akkadian": {
    "cards": {
-    "root": 54,
-    "ROOT-TRACE": 54,
-    "nucleus": 11,
-    "NUCLEUS-TRACE": 3,
-    "NUCLEUS-ECHO": 8
+    "root": 69,
+    "ROOT-TRACE": 69,
+    "nucleus": 19,
+    "NUCLEUS-TRACE": 8,
+    "NUCLEUS-ECHO": 11
    },
    "claims": {
-    "root": 53,
-    "nucleus": 11
+    "root": 68,
+    "nucleus": 19
    }
   },
   "ancient-greek": {
@@ -39,32 +39,32 @@
   },
   "aramaic": {
    "cards": {
-    "root": 666,
-    "ROOT-TRACE": 585,
-    "ROOT-ECHO": 81,
-    "nucleus": 402,
-    "NUCLEUS-TRACE": 270,
+    "root": 684,
+    "ROOT-TRACE": 599,
+    "ROOT-ECHO": 85,
+    "nucleus": 405,
+    "NUCLEUS-TRACE": 273,
     "NUCLEUS-ECHO": 132
    },
    "claims": {
-    "root": 398,
-    "nucleus": 310
+    "root": 416,
+    "nucleus": 313
    }
   },
   "coptic": {
    "cards": {
-    "root": 41,
-    "ROOT-TRACE": 36,
-    "nucleus": 160,
-    "NUCLEUS-TRACE": 151,
+    "root": 42,
+    "ROOT-TRACE": 37,
+    "nucleus": 164,
+    "NUCLEUS-TRACE": 155,
     "NUCLEUS-ECHO": 9,
     "floor": 1,
     "FLOOR-TRACE": 1,
     "ROOT-ECHO": 5
    },
    "claims": {
-    "root": 22,
-    "nucleus": 144,
+    "root": 23,
+    "nucleus": 148,
     "floor": 1
    }
   },
@@ -72,8 +72,8 @@
    "cards": {
     "root": 34,
     "ROOT-TRACE": 30,
-    "nucleus": 104,
-    "NUCLEUS-TRACE": 86,
+    "nucleus": 106,
+    "NUCLEUS-TRACE": 88,
     "NUCLEUS-ECHO": 18,
     "floor": 1,
     "FLOOR-TRACE": 1,
@@ -87,43 +87,44 @@
   },
   "gothic": {
    "cards": {
-    "nucleus": 8,
-    "NUCLEUS-TRACE": 8,
-    "root": 11,
-    "ROOT-TRACE": 11
+    "nucleus": 12,
+    "NUCLEUS-TRACE": 11,
+    "root": 12,
+    "ROOT-TRACE": 12,
+    "NUCLEUS-ECHO": 1
    },
    "claims": {
-    "nucleus": 8,
-    "root": 11
+    "nucleus": 12,
+    "root": 12
    }
   },
   "hebrew": {
    "cards": {
-    "root": 570,
-    "ROOT-TRACE": 375,
-    "ROOT-ECHO": 195,
-    "nucleus": 334,
-    "NUCLEUS-TRACE": 193,
-    "NUCLEUS-ECHO": 141
+    "root": 585,
+    "ROOT-TRACE": 387,
+    "ROOT-ECHO": 198,
+    "nucleus": 342,
+    "NUCLEUS-TRACE": 200,
+    "NUCLEUS-ECHO": 142
    },
    "claims": {
-    "root": 383,
-    "nucleus": 322
+    "root": 398,
+    "nucleus": 330
    }
   },
   "old-english": {
    "cards": {
     "root": 10,
     "ROOT-TRACE": 10,
-    "nucleus": 15,
+    "nucleus": 18,
     "NUCLEUS-ECHO": 4,
     "floor": 1,
     "FLOOR-TRACE": 1,
-    "NUCLEUS-TRACE": 11
+    "NUCLEUS-TRACE": 14
    },
    "claims": {
     "root": 8,
-    "nucleus": 13,
+    "nucleus": 16,
     "floor": 1
    }
   },
@@ -131,8 +132,8 @@
    "cards": {
     "root": 9,
     "ROOT-TRACE": 8,
-    "nucleus": 22,
-    "NUCLEUS-ECHO": 1,
+    "nucleus": 23,
+    "NUCLEUS-ECHO": 2,
     "floor": 1,
     "FLOOR-TRACE": 1,
     "NUCLEUS-TRACE": 21,
@@ -140,36 +141,37 @@
    },
    "claims": {
     "root": 6,
-    "nucleus": 14,
+    "nucleus": 15,
     "floor": 1
    }
   },
   "old-latin": {
    "cards": {
-    "nucleus": 10,
+    "nucleus": 12,
     "NUCLEUS-TRACE": 6,
     "root": 9,
     "ROOT-TRACE": 9,
-    "NUCLEUS-ECHO": 4,
+    "NUCLEUS-ECHO": 6,
     "floor": 1,
     "FLOOR-TRACE": 1
    },
    "claims": {
-    "nucleus": 10,
+    "nucleus": 11,
     "root": 9,
     "floor": 1
    }
   },
   "old-norse": {
    "cards": {
-    "root": 9,
-    "ROOT-TRACE": 9,
-    "nucleus": 7,
-    "NUCLEUS-TRACE": 7
+    "root": 10,
+    "ROOT-TRACE": 10,
+    "nucleus": 10,
+    "NUCLEUS-TRACE": 9,
+    "NUCLEUS-ECHO": 1
    },
    "claims": {
-    "root": 9,
-    "nucleus": 7
+    "root": 10,
+    "nucleus": 10
    }
   },
   "persian": {
@@ -186,11 +188,11 @@
   },
   "phoenician-punic-scout": {
    "cards": {
-    "root": 4,
-    "ROOT-TRACE": 4
+    "root": 5,
+    "ROOT-TRACE": 5
    },
    "claims": {
-    "root": 4,
+    "root": 5,
     "nucleus": 0
    }
   },
@@ -206,25 +208,25 @@
   },
   "welsh": {
    "cards": {
-    "nucleus": 5,
+    "nucleus": 6,
     "NUCLEUS-ECHO": 2,
     "root": 5,
     "ROOT-TRACE": 5,
-    "NUCLEUS-TRACE": 3
+    "NUCLEUS-TRACE": 4
    },
    "claims": {
-    "nucleus": 5,
+    "nucleus": 6,
     "root": 5
    }
   }
  },
  "heading_forms": {
-  "بطاقة": 1255,
+  "بطاقة": 1325,
   "إعادة توسيم موجبة": 1,
   "مراجعة عضوية": 237,
   "إعادة قراءة بطبقتين": 446,
   "بطاقتا `ⲥⲏϥⲉ` «sword, knife» — جرد": 1,
-  "بطاقة حسم": 8,
+  "بطاقة حسم": 10,
   "بطاقة حسم عائلية": 2,
   "عين النواة": 254
  }
