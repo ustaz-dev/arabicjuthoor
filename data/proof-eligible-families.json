@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "4219fcdfa16ff2a7c52d854beab3840d2d93d33b29c7d9bcf89bb7ecc944df85"
+    "sha256": "8751d0a90f43abea8dc5345d6bb1b64ec3a9917ee78d6072ae2b9fa7621f52cc"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "78dff3b7fc39fee81a30a67ee3abe3633718e9df957777d8839086a51135a1b3"
+    "sha256": "d38e6ccecb9749fdc71450a1d3140b9a205556d0c41c010c9bf70904f8319070"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 363,
+  "eligible_family_total": 367,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -53,14 +53,14 @@
  "languages": {
   "aramaic": {
    "inventory_family_count": 1573,
-   "represented_current_family_count": 597,
-   "eligible_family_count": 235,
-   "positive_family_count": 235,
+   "represented_current_family_count": 598,
+   "eligible_family_count": 237,
+   "positive_family_count": 237,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 209,
-   "one_member_short_count": 90,
+   "one_member_short_count": 89,
    "issued_member_dispositions": {
-    "positive": 349,
+    "positive": 351,
     "closures": 264,
     "by_outcome": {
      "FORM-OF-ISOLATED": 18,
@@ -68,15 +68,15 @@
      "LOANWORD": 68,
      "NONLEXICAL-ISOLATED": 59,
      "NUCLEUS-ECHO": 4,
-     "NUCLEUS-TRACE": 11,
+     "NUCLEUS-TRACE": 12,
      "OUT-OF-SCOPE": 1,
      "PROPER-NAME-ISOLATED": 109,
      "ROOT-ECHO": 48,
-     "ROOT-TRACE": 286
+     "ROOT-TRACE": 287
     }
    },
    "incomplete_members_by_state": {
-    "LAW-GAP": 4,
+    "LAW-GAP": 3,
     "MORPHOLOGY-GAP": 1,
     "OPEN-CANDIDATE": 48,
     "SOURCE-GAP": 3,
@@ -86,7 +86,7 @@
    "block_reconciliation": {
     "ambiguous-stale-heading": 4,
     "current-heading": 729,
-    "stable-entry-reconciled": 237,
+    "stable-entry-reconciled": 239,
     "unmapped-stale-heading": 10
    },
    "eligible_family_ids": [
@@ -140,6 +140,7 @@
     "aramaic:family:48c7b257cdd32f0ca79ed616",
     "aramaic:family:499f9807141b9f844cd170fb",
     "aramaic:family:4d2f878e7091de73fe5f1b74",
+    "aramaic:family:4e034bf7558d70476cbf2f6e",
     "aramaic:family:51e11ebf1826df18237c9fed",
     "aramaic:family:545932f837ad31640842db22",
     "aramaic:family:550dd35629d993466c33804f",
@@ -153,6 +154,7 @@
     "aramaic:family:6102659935e1fde3210986ba",
     "aramaic:family:6179368a6c3a16802ed1c8a4",
     "aramaic:family:6364819a571800efb892c273",
+    "aramaic:family:6377a3a8d24e8c694a880cb4",
     "aramaic:family:6433686305c2d8f229da140d",
     "aramaic:family:647628b99d2ceadd05c66bfb",
     "aramaic:family:6820594b39882ad581e3376b",
@@ -377,6 +379,7 @@
     "aramaic:family:48c7b257cdd32f0ca79ed616",
     "aramaic:family:499f9807141b9f844cd170fb",
     "aramaic:family:4d2f878e7091de73fe5f1b74",
+    "aramaic:family:4e034bf7558d70476cbf2f6e",
     "aramaic:family:51e11ebf1826df18237c9fed",
     "aramaic:family:545932f837ad31640842db22",
     "aramaic:family:550dd35629d993466c33804f",
@@ -390,6 +393,7 @@
     "aramaic:family:6102659935e1fde3210986ba",
     "aramaic:family:6179368a6c3a16802ed1c8a4",
     "aramaic:family:6364819a571800efb892c273",
+    "aramaic:family:6377a3a8d24e8c694a880cb4",
     "aramaic:family:6433686305c2d8f229da140d",
     "aramaic:family:647628b99d2ceadd05c66bfb",
     "aramaic:family:6820594b39882ad581e3376b",
@@ -951,17 +955,6 @@
      "missing_gloss": "to inspect, to moderate, to observe",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 11830
-    },
-    {
-     "family_id": "aramaic:family:6377a3a8d24e8c694a880cb4",
-     "anchor_headword": "אחא",
-     "member_count": 1,
-     "missing_entry_id": "kaikki_aramaic:328:en-אחא-arc-noun-C0vXfOxw",
-     "missing_headword": "אחא",
-     "missing_pos": "noun",
-     "missing_gloss": "brother",
-     "current_state": "LAW-GAP",
-     "reading_line": 29728
     },
     {
      "family_id": "aramaic:family:6a91e60127b84edf40a86dea",
@@ -2309,22 +2302,6 @@
        "gloss": "to inspect, to moderate, to observe",
        "current_state": "OPEN-CANDIDATE",
        "reading_line": 11830
-      }
-     ]
-    },
-    {
-     "family_id": "aramaic:family:6377a3a8d24e8c694a880cb4",
-     "anchor_headword": "אחא",
-     "member_count": 1,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:328:en-אחא-arc-noun-C0vXfOxw",
-       "headword": "אחא",
-       "pos": "noun",
-       "gloss": "brother",
-       "current_state": "LAW-GAP",
-       "reading_line": 29728
       }
      ]
     },
@@ -4989,39 +4966,40 @@
   "hebrew": {
    "inventory_family_count": 11852,
    "represented_current_family_count": 1213,
-   "eligible_family_count": 128,
-   "positive_family_count": 128,
+   "eligible_family_count": 130,
+   "positive_family_count": 130,
    "closure_only_family_count": 0,
-   "fully_disposed_but_population_excluded_count": 424,
-   "one_member_short_count": 340,
+   "fully_disposed_but_population_excluded_count": 423,
+   "one_member_short_count": 339,
    "issued_member_dispositions": {
-    "positive": 302,
+    "positive": 304,
     "closures": 1140,
     "by_outcome": {
      "ABBREVIATION": 88,
      "COMPOUND-BOUNDARY": 138,
-     "FORM-OF-ISOLATED": 313,
+     "FORM-OF-ISOLATED": 312,
      "FUNCTION-WORD": 1,
      "INTRA-HOUSE-TRANSFER": 96,
      "LOAN-ROUTE-ISOLATED": 101,
      "LOANWORD": 266,
+     "NO-TRACE": 1,
      "NONLEXICAL-ISOLATED": 66,
      "NUCLEUS-ECHO": 3,
      "NUCLEUS-TRACE": 9,
      "PROPER-NAME-ISOLATED": 71,
      "ROOT-ECHO": 114,
-     "ROOT-TRACE": 176
+     "ROOT-TRACE": 178
     }
    },
    "incomplete_members_by_state": {
     "LAW-GAP": 1,
-    "OPEN-CANDIDATE": 11,
-    "UNRECORDED": 1310
+    "OPEN-CANDIDATE": 10,
+    "UNRECORDED": 1309
    },
    "block_reconciliation": {
     "ambiguous-stale-heading": 151,
     "current-heading": 932,
-    "stable-entry-reconciled": 709,
+    "stable-entry-reconciled": 713,
     "unmapped-stale-heading": 4
    },
    "eligible_family_ids": [
@@ -5071,6 +5049,7 @@
     "hebrew:family:49d7f0c08f18557cee421a5e",
     "hebrew:family:4a56a716ab48bd8c93eadc01",
     "hebrew:family:4b8e33c75d3799ba18d4228c",
+    "hebrew:family:4e6d0ff7f8e256db90b211b4",
     "hebrew:family:4ea0e788a2fb97f320a27a01",
     "hebrew:family:51b7ae1398866bdd546b5bf5",
     "hebrew:family:527a5dce9176c926b59bf5fc",
@@ -5126,6 +5105,7 @@
     "hebrew:family:be2700c94fc549ad2e15bd1a",
     "hebrew:family:bf33afc69a98a8cd7f1daaad",
     "hebrew:family:bff6147cd24ec826c5a0ac22",
+    "hebrew:family:c27d3342c239b7251fbdd4df",
     "hebrew:family:c35650ba988905c3cb9aff01",
     "hebrew:family:c4c76dc337d4b84d7ed888f9",
     "hebrew:family:caa94f640607878a623576d0",
@@ -5201,6 +5181,7 @@
     "hebrew:family:49d7f0c08f18557cee421a5e",
     "hebrew:family:4a56a716ab48bd8c93eadc01",
     "hebrew:family:4b8e33c75d3799ba18d4228c",
+    "hebrew:family:4e6d0ff7f8e256db90b211b4",
     "hebrew:family:4ea0e788a2fb97f320a27a01",
     "hebrew:family:51b7ae1398866bdd546b5bf5",
     "hebrew:family:527a5dce9176c926b59bf5fc",
@@ -5256,6 +5237,7 @@
     "hebrew:family:be2700c94fc549ad2e15bd1a",
     "hebrew:family:bf33afc69a98a8cd7f1daaad",
     "hebrew:family:bff6147cd24ec826c5a0ac22",
+    "hebrew:family:c27d3342c239b7251fbdd4df",
     "hebrew:family:c35650ba988905c3cb9aff01",
     "hebrew:family:c4c76dc337d4b84d7ed888f9",
     "hebrew:family:caa94f640607878a623576d0",
@@ -5418,7 +5400,6 @@
     "hebrew:family:4c19d499008492d60860915b",
     "hebrew:family:4dabe09a2ef7c6be845afbf7",
     "hebrew:family:4df96166dce408f0c4381843",
-    "hebrew:family:4e6d0ff7f8e256db90b211b4",
     "hebrew:family:4e719237392792dac87ca581",
     "hebrew:family:4e7f81b410748eb5fd8fb918",
     "hebrew:family:4f4b0fefd43333ae90b0c51d",
@@ -5821,17 +5802,6 @@
      "missing_gloss": "to seed, to sow",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 42028
-    },
-    {
-     "family_id": "hebrew:family:c27d3342c239b7251fbdd4df",
-     "anchor_headword": "עול",
-     "member_count": 1,
-     "missing_entry_id": "kaikki_hebrew:2443:en-עול-he-noun-wUs3q3ob",
-     "missing_headword": "עול",
-     "missing_pos": "noun",
-     "missing_gloss": "yoke",
-     "current_state": "OPEN-CANDIDATE",
-     "reading_line": 15281
     },
     {
      "family_id": "hebrew:family:f6c1ac99e6d1349776a6add9",
@@ -13627,22 +13597,6 @@
        "gloss": "defective spelling of הילכך",
        "current_state": "UNRECORDED",
        "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "hebrew:family:c27d3342c239b7251fbdd4df",
-     "anchor_headword": "עול",
-     "member_count": 1,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_hebrew:2443:en-עול-he-noun-wUs3q3ob",
-       "headword": "עול",
-       "pos": "noun",
-       "gloss": "yoke",
-       "current_state": "OPEN-CANDIDATE",
-       "reading_line": 15281
       }
      ]
     },
@@ -22815,6 +22769,54 @@
      ]
     },
     {
+     "family_id": "hebrew:family:8f777044324ed34ec31741b9",
+     "anchor_headword": "בול עץ",
+     "member_count": 6,
+     "missing_member_count": 5,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:10251:en-עץ_או_פלי-he-noun-r3PqYwh6",
+       "headword": "עץ או פלי",
+       "pos": "noun",
+       "gloss": "heads or tails, a coin toss",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:15266:en-עץ_נוי-he-noun-4Gz1dQrc",
+       "headword": "עץ נוי",
+       "pos": "noun",
+       "gloss": "ornamental tree",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:2154:en-בול_עץ-he-noun-g2~xhOe0",
+       "headword": "בול עץ",
+       "pos": "noun",
+       "gloss": "log",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:4438:en-עצים-he-noun-uG-~2ugo",
+       "headword": "עצים",
+       "pos": "noun",
+       "gloss": "plural indefinite form of עֵץ (éts)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:6512:en-כורת_עצים-he-noun-Klr97uJV",
+       "headword": "כורת עצים",
+       "pos": "noun",
+       "gloss": "a lumberjack",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:c5f66c057bc8c380855fea37",
      "anchor_headword": "אב",
      "member_count": 7,
@@ -23329,62 +23331,6 @@
        "headword": "יין",
        "pos": "noun",
        "gloss": "wine (an alcoholic beverage made by fermenting grape juice, with an ABV ranging from 5.5–16%)",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "hebrew:family:8f777044324ed34ec31741b9",
-     "anchor_headword": "בול עץ",
-     "member_count": 6,
-     "missing_member_count": 6,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_hebrew:10251:en-עץ_או_פלי-he-noun-r3PqYwh6",
-       "headword": "עץ או פלי",
-       "pos": "noun",
-       "gloss": "heads or tails, a coin toss",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_hebrew:15266:en-עץ_נוי-he-noun-4Gz1dQrc",
-       "headword": "עץ נוי",
-       "pos": "noun",
-       "gloss": "ornamental tree",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_hebrew:2154:en-בול_עץ-he-noun-g2~xhOe0",
-       "headword": "בול עץ",
-       "pos": "noun",
-       "gloss": "log",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_hebrew:4438:en-עצים-he-noun-uG-~2ugo",
-       "headword": "עצים",
-       "pos": "noun",
-       "gloss": "plural indefinite form of עֵץ (éts)",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_hebrew:501:en-עץ-he-noun-3Jxe24st",
-       "headword": "עץ",
-       "pos": "noun",
-       "gloss": "tree",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_hebrew:6512:en-כורת_עצים-he-noun-Klr97uJV",
-       "headword": "כורת עצים",
-       "pos": "noun",
-       "gloss": "a lumberjack",
        "current_state": "UNRECORDED",
        "reading_line": null
       }

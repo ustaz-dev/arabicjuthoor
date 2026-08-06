@@ -8,7 +8,10 @@
       "aramaic": 1,
       "hebrew": 4
     },
-    "positive_verdicts_restored": 0
+    "positive_verdicts_restored": 0,
+    "resolved_in_batch_034": 5,
+    "new_positive_verdicts_issued": 4,
+    "closed_no_trace": 1
   },
   "queue": [
     {
@@ -26,7 +29,10 @@
         "SEM-02"
       ],
       "correspondence": "ع ↔ ע، مع ذكر الوجه البديل غ ↔ ע",
-      "state": "OPEN-CANDIDATE",
+      "state": "RESOLVED-NUCLEUS-TRACE",
+      "processed_batch": "LANE-B-034",
+      "resolution_copy_id": "LANE-B-SEM-RESOLVE-001",
+      "resolution": "NUCLEUS-TRACE for عب in the rain-cloud sense; no root verdict.",
       "card_id": "aramaic:family:4e034bf7558d70476cbf2f6e",
       "source_file": "04-cross-linguistic/readings/aramaic.md",
       "heading": "### إعادة قراءة بطبقتين: `aramaic:family:4e034bf7558d70476cbf2f6e`، עיבא، العضو `kaikki_aramaic:1598:en-עיבא-arc-noun-CP1ry2DN`",
@@ -46,7 +52,10 @@
         "SEM-02"
       ],
       "correspondence": "غ ↔ ע",
-      "state": "OPEN-CANDIDATE",
+      "state": "RESOLVED-ROOT-TRACE",
+      "processed_batch": "LANE-B-034",
+      "resolution_copy_id": "LANE-B-SEM-RESOLVE-002",
+      "resolution": "ROOT-TRACE for ר־ע־ב ↔ رغب in the hunger and food-desire series; no nucleus verdict.",
       "card_id": "hebrew:family:3d1a812269dcc11383f991f3",
       "source_file": "04-cross-linguistic/readings/hebrew.md",
       "heading": "### بطاقة: `hebrew:family:3d1a812269dcc11383f991f3`، רעב (الرتبة 127)",
@@ -66,7 +75,10 @@
         "SEM-02"
       ],
       "correspondence": "غ ↔ ע",
-      "state": "OPEN-CANDIDATE",
+      "state": "RESOLVED-ROOT-TRACE",
+      "processed_batch": "LANE-B-034",
+      "resolution_copy_id": "LANE-B-SEM-RESOLVE-003",
+      "resolution": "ROOT-TRACE for ע־ו־ר ↔ غور in the cave sense; مغر was separated as red clay.",
       "card_id": "hebrew:family:4e6d0ff7f8e256db90b211b4",
       "source_file": "04-cross-linguistic/readings/hebrew.md",
       "heading": "### بطاقة: `hebrew:family:4e6d0ff7f8e256db90b211b4`، מערה «مغارة» ↔ مغارة",
@@ -86,7 +98,10 @@
         "SEM-01"
       ],
       "correspondence": "ض ↔ ץ",
-      "state": "OPEN-CANDIDATE",
+      "state": "RESOLVED-NO-TRACE",
+      "processed_batch": "LANE-B-034",
+      "resolution_copy_id": "LANE-B-SEM-RESOLVE-004",
+      "resolution": "NO-TRACE: SEM-01 licenses the second consonant, but Arabic عضه retains an unmatched original third consonant and the frozen عض orbit does not denote trees.",
       "card_id": "kaikki_hebrew:501:en-עץ-he-noun-3Jxe24st",
       "source_file": "04-cross-linguistic/readings/hebrew.md",
       "heading": "### بطاقة: `עץ`، العضو `kaikki_hebrew:501:en-עץ-he-noun-3Jxe24st`",
@@ -106,7 +121,10 @@
         "SEM-02"
       ],
       "correspondence": "غ ↔ ע",
-      "state": "OPEN-CANDIDATE",
+      "state": "RESOLVED-ROOT-TRACE-ORBITAL",
+      "processed_batch": "LANE-B-034",
+      "resolution_copy_id": "LANE-B-SEM-RESOLVE-005",
+      "resolution": "ROOT-TRACE مداري for ע־ל־ל ↔ غلل; unpointed vav is a vowel letter and the lamed is geminate.",
       "card_id": "hebrew:family:c27d3342c239b7251fbdd4df",
       "source_file": "04-cross-linguistic/readings/hebrew.md",
       "heading": "### مراجعة عضوية: `hebrew:family:c27d3342c239b7251fbdd4df`، עול، كتلة الشواهد القديمة ذات المقابل العربي، الرتبة 62",

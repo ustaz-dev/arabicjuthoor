@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31227,
+  "cards_total": 31233,
   "by_language": [
    {
     "key": "old-latin",
@@ -45,15 +45,15 @@
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2236,
-    "links": 905
+    "cards": 2240,
+    "links": 908
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1429,
-    "links": 1061
+    "cards": 1431,
+    "links": 1063
    },
    {
     "key": "ancient-greek",
@@ -121,17 +121,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2496,
-  "closures": 780,
+  "links_to_arabic": 2501,
+  "closures": 781,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1151,
+    "count": 1155,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 744,
+    "count": 745,
     "link": true
    },
    {
@@ -171,7 +171,7 @@
    },
    {
     "name": "NO-TRACE",
-    "count": 53,
+    "count": 54,
     "link": false
    },
    {
@@ -197,9 +197,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27854,
+  "cards_total": 27860,
   "suspended": 20747,
-  "released": 7107,
+  "released": 7113,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -291,26 +291,26 @@
   "frozen_commit": "",
   "required_total": 600,
   "required_per_language": 150,
-  "families_tracked": 1810,
-  "eligible_now": 363,
+  "families_tracked": 1811,
+  "eligible_now": 367,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 235,
-    "represented": 597,
-    "positive_families": 235,
+    "eligible": 237,
+    "represented": 598,
+    "positive_families": 237,
     "closure_only_families": 0,
-    "one_member_short": 90
+    "one_member_short": 89
    },
    {
     "name": "hebrew",
-    "eligible": 128,
+    "eligible": 130,
     "represented": 1213,
-    "positive_families": 128,
+    "positive_families": 130,
     "closure_only_families": 0,
-    "one_member_short": 340
+    "one_member_short": 339
    }
   ],
   "counting_law": "A family counts only when every inventory member carries an issued verdict or recorded terminal closure."
