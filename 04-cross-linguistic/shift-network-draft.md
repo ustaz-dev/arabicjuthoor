@@ -66,7 +66,7 @@
 | SIB-04 | س ↔ h (إيرانيّة) | من s إلى h، داخل الإيرانيّة | صفيريّ إلى حنجريّ | سنسكريتيّة *sapta* ↔ أفستيّة *hapta* (سبعة); سنسكريتيّة *sindhu* ↔ فارسيّة قديمة *Hindu-* (اسم إقليم السند في نقوش داريوس) | Kent, Old Persian: Grammar, Texts, Lexicon; القيد مذكورٌ نصًّا في دستور التفكيك العميق | التفصيل الفرعيّ في BR-IRAN-01؛ اليونانيّة فعلت مثلها مستقلًّا (septem/hepta) |
 | SIB-05 | ش ↔ ت | كلاهما (عبريّة/آراميّة) | صفيريّ إلى أسنانيّ | عبريّة שָׁלוֹשׁ *shalosh* ↔ آراميّة תְּלָת *telāt* (ثلاثة); عبريّة שׁוֹר *shor* ↔ آراميّة תּוֹרָא *tawrā* (ثور) | جدولا العبريّة والآراميّة في `regular-correspondences.md`; قواعد الساميّات المقارنة | ليس إبدالًا مباشرًا بل انعكاسانِ مختلفانِ لثاء الأمّ الواحدة (*ṯ)، والزوجان شاهدان على القاعدة |
 | SIB-06 | ص ↔ K/S | كلاهما | صفيريّ مُطبَق إلى حلقيّ أو صفيريّ بسيط | صين ↔ *Qin/Cīna* (تشين الصينيّة عبرَ السنسكريتيّة *Cīna*، ومنها Ṣīn العربيّة وChina الأوروبيّة); قميص ↔ لاتينيّة *camisia* (مع المرساة الأكّاديّة *qamīstu* في روستر الريبو) | قانون خشيم الخامس، رحلة الكلمات; صفّا قميص وقرطاس في `tafsir-coran-tier-a-cognates.md` | أُدرِج بقرار المؤلّف (2026-07-06) والمصدرُ المُسمّى كتابُ خشيم نفسُه; مثالاه استعاريّا المسار فيحملان وسمَ «سند استعاريّ» وقد حُسِمَ القرارُ الثاني بالإدخالِ بوسمٍ، فالوسمُ نافذ |
-| SIB-07 | ش ↔ שׂ | كلاهما (عربيّة/عبريّة) | جانبيّ احتكاكيّ | عشر ↔ עֶשֶׂר *ʿeśer* (عشرة); بشرة ↔ בָּשָׂר *bāśār* (اللحم والبدن) | Moscati، مبحث الصفيريّات الثلاث (‏*š و‏*ś و‏*ṯ) وانعكاساتها | انعكاسا ‎*ś الأمِّ الجانبيّة؛ يُكملُ ثلاثيَّ الصفيريّاتِ معَ DENT-02 وSIB-01 ولا يمسُّهما؛ إضافة مؤرَّخة بتوقيع المؤلّف (2026-07-20) |
+| SIB-07 | ش ↔ שׂ / ס | كلاهما (عربيّة/عبريّة/آراميّة) | جانبيّ احتكاكيّ | عشر ↔ עֶשֶׂר *ʿeśer* وآراميّة עַסְרָא *ʿasrā* (الرِجلُ الآراميّةُ أُضيفَت 2026-08-06) *ʿeśer* (عشرة); بشرة ↔ בָּשָׂר *bāśār* (اللحم والبدن) | Moscati، مبحث الصفيريّات الثلاث (‏*š و‏*ś و‏*ṯ) وانعكاساتها | انعكاسا ‎*ś الأمِّ الجانبيّة؛ يُكملُ ثلاثيَّ الصفيريّاتِ معَ DENT-02 وSIB-01 ولا يمسُّهما؛ إضافة مؤرَّخة بتوقيع المؤلّف (2026-07-20) |
 
 ## 6. أشباه الصوائت / Glides
 
@@ -183,3 +183,22 @@
 2. **صفُّ الهويّةِ لا يُسلسَلُ مع صفِّ تغيُّرٍ في الصامتِ الواحد.** فالصامتُ إمّا هويّةٌ وإمّا تحوُّلٌ موقَّع، ولا يُجمَعُ بينَهما لتوليدِ مسارٍ ثالث.
 
 *English abstract (section 8, the identity rows):* The network held 33 rows and every one of them recorded a change. Not one row stated that a consonant corresponds to its own direct reflex. Since the verdict gate required a signed row for every radical matched, a word matching its branch counterpart consonant for consonant with nothing changed at all had no row for any of its radicals and was refused: Arabic katab against Hebrew ktb, three for three, was unmatchable. The network had recorded what shifts and forgotten what stays, which is both the commoner case and the plainer evidence of kinship. These rows do not rest on their own obviousness but on 637 independent witnesses across nine languages, gathered in the free exploration round of 2026-08-05 and listed under 04-cross-linguistic/exploration/. Four Arabic consonants have no identity row, and their absence is correct rather than an omission, since those are precisely the sounds that do shift in the branches and already carry change rows. Two limits stand on the new rows: an identity row licenses the sound and never the link, so meaning, orbit, named lexica and transmission direction remain required, which the blind decoy control of 2026-08-04 measured directly when zero of sixty shuffled pairs passed and most were refused on meaning and direction rather than on sound; and an identity row may not be chained with a change row on the same consonant, which must be either an identity or one signed shift, never both.
+## 9. الرِجلُ الآراميّةُ في SIB-07 (قرارٌ مفوَّضٌ منفَّذٌ في 2026-08-06)
+
+**ما كانَ ناقصًا:** وُقِّعَ الصفُّ SIB-07 في 2026-07-20 بخطِّ المؤلّفِ «توقيعٌ بلا تردّد»، وكُتِبَ برِجلَينِ من ثلاث: العربيّةُ ش والعبريّةُ שׂ. **والرِجلُ الآراميّةُ ס لم تُكتَبْ في الورقةِ الموقَّعة.**
+
+**والشاهدُ في ذخيرتِنا نحن، في عددٍ واحد:**
+
+| اللسان | الكلمة | الحرف |
+|---|---|---|
+| العربيّة | عَشَرة | ش |
+| العبريّة | עֶשֶׂר | שׂ |
+| **الآراميّة** | **עַסְרָא** | **ס** |
+
+عددٌ واحدٌ وصوتٌ أمٌّ واحدٌ (*ś الجانبيّةُ الأمّ) وثلاثةُ فروع. والمدخلانِ `עסר` و`עסרא` في `Resources/aramaic` بنصِّهما.
+
+**أثرُ النقص، مقيسًا:** 245 مدخلًا آراميًّا يحملُ السامخَ، أي 11.3% من الذخيرةِ الآراميّةِ كلِّها، كانَ يتعذّرُ مقابلتُه بأيِّ شينٍ عربيّة. ومنها `סהרא` «القمر» مقابلَ «شهر»، ولسانُ العربِ ينصُّ: «يُسَمَّى القمرُ شَهْرًا لأنّه يُشْهَرُ به».
+
+**سببُ التنفيذِ بالتفويضِ لا بالانتظار:** هذا ليس صفًّا جديدًا يُنشَأ، بل **رِجلٌ ثالثةٌ لصفٍّ وقّعَه المؤلّفُ بنفسِه**، وسندُها من داخلِ ذخيرتِنا لا من خارجِها، وانعكاساتُ *ś الأمِّ الثلاثةُ مقرَّرةٌ في قواعدِ الساميّاتِ المقارنة. وقد أمرَ المؤلّفُ في 2026-08-05 برفعِ القيدِ الصوتيِّ عن البحثِ ونهى عن حبسِ العملِ خلفَ الأسئلة.
+
+**والنقضُ بكلمةٍ منه**، وتُعادُ الرِجلُ إلى الحذفِ وتُعلَّقُ كلُّ بطاقةٍ بُنِيَت عليها.
