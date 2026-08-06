@@ -1,27 +1,27 @@
 {
  "generated_from": "scripts/count_links.py",
- "cards_scanned": 31235,
+ "cards_scanned": 31256,
  "cards": {
-  "root": 1428,
-  "nucleus": 1072,
+  "root": 1434,
+  "nucleus": 1053,
   "floor": 5
  },
  "claims": {
-  "root": 968,
-  "nucleus": 946
+  "root": 972,
+  "nucleus": 927
  },
  "by_language": {
   "akkadian": {
    "cards": {
-    "root": 70,
-    "ROOT-TRACE": 70,
-    "nucleus": 19,
-    "NUCLEUS-TRACE": 8,
+    "root": 72,
+    "ROOT-TRACE": 72,
+    "nucleus": 18,
+    "NUCLEUS-TRACE": 7,
     "NUCLEUS-ECHO": 11
    },
    "claims": {
-    "root": 69,
-    "nucleus": 19
+    "root": 71,
+    "nucleus": 18
    }
   },
   "ancient-greek": {
@@ -40,15 +40,15 @@
   "aramaic": {
    "cards": {
     "root": 670,
-    "ROOT-TRACE": 586,
-    "ROOT-ECHO": 84,
-    "nucleus": 392,
-    "NUCLEUS-TRACE": 267,
+    "ROOT-TRACE": 587,
+    "ROOT-ECHO": 83,
+    "nucleus": 389,
+    "NUCLEUS-TRACE": 264,
     "NUCLEUS-ECHO": 125
    },
    "claims": {
-    "root": 412,
-    "nucleus": 308
+    "root": 411,
+    "nucleus": 305
    }
   },
   "coptic": {
@@ -100,16 +100,16 @@
   },
   "hebrew": {
    "cards": {
-    "root": 578,
-    "ROOT-TRACE": 385,
+    "root": 576,
+    "ROOT-TRACE": 383,
     "ROOT-ECHO": 193,
-    "nucleus": 332,
-    "NUCLEUS-TRACE": 193,
+    "nucleus": 329,
+    "NUCLEUS-TRACE": 190,
     "NUCLEUS-ECHO": 139
    },
    "claims": {
-    "root": 393,
-    "nucleus": 320
+    "root": 391,
+    "nucleus": 317
    }
   },
   "old-english": {
@@ -163,71 +163,73 @@
   },
   "old-norse": {
    "cards": {
-    "root": 10,
-    "ROOT-TRACE": 10,
-    "nucleus": 10,
-    "NUCLEUS-TRACE": 9,
+    "root": 6,
+    "ROOT-TRACE": 6,
+    "nucleus": 6,
+    "NUCLEUS-TRACE": 5,
     "NUCLEUS-ECHO": 1
    },
    "claims": {
-    "root": 10,
-    "nucleus": 10
+    "root": 6,
+    "nucleus": 6
    }
   },
   "persian": {
    "cards": {
-    "root": 7,
-    "ROOT-TRACE": 7,
-    "nucleus": 3,
-    "NUCLEUS-TRACE": 3
+    "root": 4,
+    "ROOT-TRACE": 4
    },
    "claims": {
-    "root": 7,
-    "nucleus": 3
+    "root": 4,
+    "nucleus": 0
    }
   },
   "phoenician-punic-scout": {
    "cards": {
-    "root": 5,
-    "ROOT-TRACE": 5
+    "root": 15,
+    "ROOT-TRACE": 15
    },
    "claims": {
-    "root": 5,
+    "root": 14,
     "nucleus": 0
    }
   },
   "punic": {
    "cards": {
-    "root": 3,
-    "ROOT-TRACE": 3
+    "root": 10,
+    "ROOT-TRACE": 10
    },
    "claims": {
-    "root": 3,
+    "root": 10,
     "nucleus": 0
    }
   },
   "welsh": {
    "cards": {
-    "nucleus": 6,
-    "NUCLEUS-ECHO": 2,
-    "root": 5,
-    "ROOT-TRACE": 5,
-    "NUCLEUS-TRACE": 4
+    "root": 1,
+    "ROOT-TRACE": 1,
+    "nucleus": 1,
+    "NUCLEUS-TRACE": 1
    },
    "claims": {
-    "nucleus": 6,
-    "root": 5
+    "root": 1,
+    "nucleus": 1
    }
   }
  },
  "heading_forms": {
-  "بطاقة": 1233,
+  "بطاقة": 1193,
+  "بطاقة طابور": 9,
   "بطاقة إعادة فتح": 3,
   "إعادة توسيم موجبة": 1,
+  "مراجعة ناسخة RECOVERY-v2": 2,
   "مراجعة عضوية": 233,
-  "إعادة قراءة بطبقتين": 436,
+  "إعادة قراءة بطبقتين": 434,
+  "بطاقة RECOVERY-v2": 5,
   "بطاقة حسم": 10,
   "بطاقة حسم عائلية": 2,
-  "عين النواة": 253
+  "عين النواة": 250,
+  "مراجعة ناسخة لعين النواة": 3,
+  "بطاقة حسم مباشر": 17
  }
 }

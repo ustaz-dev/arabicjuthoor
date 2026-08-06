@@ -1,13 +1,13 @@
 # سجل القروض المعزولة في قراءات الاسترداد
 
-التاريخ: 2026-08-05
+التاريخ: 2026-08-06
 
 الحالة: سجل داخلي استرجاعي. لا يستنبط قرضًا ولا اتجاهًا ولا مصدرًا، بل ينقل بطاقات `LOANWORD` الصريحة المودعة في `HEAD` كما هي. الأحكام المحلية غير المراجعة لا تدخل السجل، والحقل الفارغ يبقى فارغًا ولا يستكمل بالتخمين.
 
 | اللغة | البطاقة | اللفظ | المسار المسمى في البطاقة | المصدر المسمى | الموضع |
 |---|---|---|---|---|---|
-| القبطية | tōōbe «brick, adobe» | ⲧⲱⲱⲃⲉ tōōbe | يعزل مسارا: القبطية إلى العربية المصرية [Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة] | Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة؛ TLA Lemma ID 183120؛ Erman & Grapow, Wb 5, 553.7-554.18: https://thesaurus-linguae-aegyptiae.de/lemma/183120؛ Crum, CD 398a؛ KELLIA C4084/C4085 | `04-cross-linguistic/readings/coptic.md:89` |
-| القبطية | apa «abbot (father); title of reverence» | ⲁⲡⲁ apa، وله وجه ⲁⲃⲃⲁ | يعزل مسارا: سريانية إلى يونانية ἀββᾶς ثم إلى القبطية، كما يصرح حقل `<etym>` | KELLIA C164؛ Crum, CD 13ab؛ Crum, CD 13ab؛ KELLIA C164 | `04-cross-linguistic/readings/coptic.md:103` |
+| القبطية | tōōbe «brick, adobe» | ⲧⲱⲱⲃⲉ tōōbe | يعزل مسارا: القبطية إلى العربية المصرية [Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة] | Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة؛ TLA Lemma ID 183120؛ Erman & Grapow, Wb 5, 553.7-554.18: https://thesaurus-linguae-aegyptiae.de/lemma/183120؛ Crum, CD 398a؛ KELLIA C4084/C4085 | `04-cross-linguistic/readings/coptic.md:90` |
+| القبطية | apa «abbot (father); title of reverence» | ⲁⲡⲁ apa، وله وجه ⲁⲃⲃⲁ | يعزل مسارا: سريانية إلى يونانية ἀββᾶς ثم إلى القبطية، كما يصرح حقل `<etym>` | KELLIA C164؛ Crum, CD 13ab؛ Crum, CD 13ab؛ KELLIA C164 | `04-cross-linguistic/readings/coptic.md:104` |
 
 ## حدود السجل
 

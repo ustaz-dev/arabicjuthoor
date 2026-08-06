@@ -508,6 +508,12 @@ def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser()
     parser.add_argument("--apply", action="store_true", help="نفذ النسخ واكتب المحضر")
+    parser.add_argument(
+        "--language",
+        action="append",
+        choices=sorted(path.stem for path in READINGS.glob("*.md")),
+        help="اكتب لسانا بعينه في دفعة مستقلة، ويجوز تكرار الخيار",
+    )
     args = parser.parse_args()
     texts, blocks = load_reading_blocks()
     target_map: dict[tuple[str, str, str], Target] = {}
@@ -544,14 +550,20 @@ def main() -> int:
             raise RuntimeError(f"اختل تعيين البطاقة عند الكتابة: {target.audit_id}")
         index = indexes[0]
         parts[index] = supersede_block(parts[index], target)
+    selected_languages = set(args.language or by_language)
     for language, parts in by_language.items():
+        if language not in selected_languages:
+            continue
         new_text = "".join(parts)
         if new_text != texts[language]:
             (READINGS / f"{language}.md").write_text(new_text, encoding="utf-8")
-    write_audit(targets, nucleus_counts, root_rows)
-    write_data(targets)
-    print(f"كتب المحضر: {AUDIT_PATH.relative_to(ROOT)}")
-    print(f"كتب السجل الآلي: {DATA_PATH.relative_to(ROOT)}")
+    if args.language:
+        print("كتب ألسنة الدفعة: " + "، ".join(sorted(selected_languages)))
+    else:
+        write_audit(targets, nucleus_counts, root_rows)
+        write_data(targets)
+        print(f"كتب المحضر: {AUDIT_PATH.relative_to(ROOT)}")
+        print(f"كتب السجل الآلي: {DATA_PATH.relative_to(ROOT)}")
     return 0
 
 

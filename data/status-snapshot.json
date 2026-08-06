@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31201,
+  "cards_total": 31222,
   "by_language": [
    {
     "key": "old-latin",
@@ -18,7 +18,7 @@
     "en": "Persian",
     "ar": "الفارسيّة",
     "cards": 5696,
-    "links": 10
+    "links": 4
    },
    {
     "key": "egyptian",
@@ -39,21 +39,21 @@
     "en": "Welsh",
     "ar": "الويلزيّة",
     "cards": 3007,
-    "links": 11
+    "links": 2
    },
    {
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
     "cards": 2236,
-    "links": 910
+    "links": 905
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
     "cards": 1428,
-    "links": 1062
+    "links": 1059
    },
    {
     "key": "ancient-greek",
@@ -80,8 +80,8 @@
     "key": "phoenician-punic-scout",
     "en": "Phoenician scout",
     "ar": "مسحُ الفينيقيّة",
-    "cards": 295,
-    "links": 5
+    "cards": 305,
+    "links": 15
    },
    {
     "key": "gothic",
@@ -94,22 +94,22 @@
     "key": "punic",
     "en": "Punic",
     "ar": "البونيقيّة",
-    "cards": 183,
-    "links": 3
+    "cards": 190,
+    "links": 10
    },
    {
     "key": "akkadian",
     "en": "Akkadian",
     "ar": "الأكّاديّة",
-    "cards": 169,
-    "links": 89
+    "cards": 173,
+    "links": 90
    },
    {
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
     "cards": 158,
-    "links": 20
+    "links": 12
    },
    {
     "key": "middle-english",
@@ -121,17 +121,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2505,
+  "links_to_arabic": 2492,
   "closures": 779,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1142,
+    "count": 1149,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 759,
+    "count": 742,
     "link": true
    },
    {
@@ -141,12 +141,12 @@
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 313,
+    "count": 311,
     "link": true
    },
    {
     "name": "ROOT-ECHO",
-    "count": 286,
+    "count": 285,
     "link": true
    },
    {
@@ -197,13 +197,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27829,
-  "suspended": 20738,
-  "released": 7091,
+  "cards_total": 27849,
+  "suspended": 20744,
+  "released": 7105,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 16743
+    "count": 16749
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -219,11 +219,15 @@
    },
    {
     "name": "LAW-GAP",
-    "count": 54
+    "count": 53
    },
    {
     "name": "MORPHOLOGY-GAP",
     "count": 41
+   },
+   {
+    "name": "ORIGINAL-CONSONANT-DROP",
+    "count": 1
    }
   ],
   "backlog_by_file": [
@@ -284,25 +288,25 @@
   "required_total": 600,
   "required_per_language": 150,
   "families_tracked": 1810,
-  "eligible_now": 358,
+  "eligible_now": 362,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 231,
+    "eligible": 233,
     "represented": 597,
-    "positive_families": 231,
+    "positive_families": 233,
     "closure_only_families": 0,
-    "one_member_short": 93
+    "one_member_short": 92
    },
    {
     "name": "hebrew",
-    "eligible": 127,
+    "eligible": 129,
     "represented": 1213,
-    "positive_families": 127,
+    "positive_families": 129,
     "closure_only_families": 0,
-    "one_member_short": 340
+    "one_member_short": 339
    }
   ],
   "counting_law": "A family counts only when every inventory member carries an issued verdict or recorded terminal closure."

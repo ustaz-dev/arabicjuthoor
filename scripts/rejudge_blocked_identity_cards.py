@@ -156,6 +156,27 @@ def classify(text: str, head: str) -> tuple[str, str, bool]:
             old_status != "AUTHOR-RESERVED-SOUND-GAP",
         )
 
+    # هذان حكمان نصت البطاقتان نفسيهما على أن عائقهما صار موقّعًا في
+    # الشبكة النافذة. لا يجوز أن يعيد جامع الكلمات المفتاحية العائق القديم.
+    if "treîs" in head:
+        return (
+            "OPEN-CANDIDATE",
+            "رفع BR-GREC-01 الموقع عائق النطاق اليوناني، وبقيت القراءة الدلالية عضوية",
+            old_status != "OPEN-CANDIDATE",
+        )
+    if "aed-v1.0:164020" in text and "`kp`" in text:
+        return (
+            "OPEN-CANDIDATE",
+            "أثبت IDN-13 هوية k/ك وأثبت IDN-06 مقابلة p/ف، فارتفع عائق المسار عن كف",
+            old_status != "OPEN-CANDIDATE",
+        )
+    if "kaikki_old_norse_2026_07_23:553:en-drepa" in text:
+        return (
+            "ROOT-TRACE + OPEN-CANDIDATE",
+            "حفظ الحكم الموجب في طبقته، ورفع عائق الهوية عن الطبقة الأخرى",
+            old_status != "ROOT-TRACE + OPEN-CANDIDATE",
+        )
+
     positives = [tag for tag in POSITIVE_TAGS if tag in text]
     hard = [tag for tag in HARD_TAGS if tag in text]
     has_gap = any(tag in text for tag in ("LAW-GAP", "TOOL-GAP")) or "غير مدرج في الشبكة" in text

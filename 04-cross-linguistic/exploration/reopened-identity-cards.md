@@ -4,7 +4,7 @@
 - الشبكة النافذة عند المرور: 71 صفًا، وفيها IDN-01 إلى IDN-24 كاملة.
 - النطاق: كل سطر في مستخرجات blocked-*.jsonl، وعددها 851.
 - القاعدة: صفوف الهوية ترفع رد التطابق المباشر فقط. لا توسع صف تحول، ولا تسقط صامتًا، ولا تنشئ حكم نسب آليًا.
-- الأحكام التي تغيرت ولها سطر نسخ أدناه: 455.
+- الأحكام التي تغيرت ولها سطر نسخ أدناه: 458.
 - البطاقات التي لم يتغير حكمها بقيت ظاهرة بسبب عائق مستقل أو حكم موجب سابق.
 
 ## ضبط العدد بحسب المستخرج
@@ -42,10 +42,10 @@
 
 | الحالة بعد المرور | البطاقات |
 |---|---:|
-| `OPEN-CANDIDATE` | 296 |
+| `OPEN-CANDIDATE` | 299 |
 | `READY` | 220 |
 | `LOANWORD` | 127 |
-| `LAW-GAP` | 50 |
+| `LAW-GAP` | 46 |
 | `SOURCE-GAP` | 27 |
 | `NUCLEUS-TRACE + OPEN-CANDIDATE` | 19 |
 | `NUCLEUS-ECHO + OPEN-CANDIDATE` | 16 |
@@ -54,7 +54,7 @@
 | `LOAN-ROUTE-ISOLATED` | 8 |
 | `ROOT-TRACE` | 7 |
 | `MORPHOLOGY-GAP` | 6 |
-| `ROOT-TRACE + OPEN-CANDIDATE` | 5 |
+| `ROOT-TRACE + OPEN-CANDIDATE` | 6 |
 | `INTRA-HOUSE-TRANSFER` | 5 |
 | `MORPHOLOGY-GAP + SOURCE-GAP` | 4 |
 | `SEMITIC-SOURCE-TRANSMISSION + DIRECTIONAL-TRANSMISSION + THIRD-PARTY-TO-BRANCH + MORPHOLOGY-GAP + SOURCE-GAP` | 4 |
@@ -145,8 +145,8 @@
 | 56 | الأكادية، `blocked-akkadian.jsonl:56` | بطاقة: ṣillum «الظلّ والحماية» ↔ ظلّ، ومعها ṣuprum ↔ ظفر: صنفُ الظاء كلُّه موقوف | NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |
 | 57 | الأكادية، `blocked-akkadian.jsonl:57` | بطاقة: girru «الأسد» ↔ جرو، ونقضُ صفِّ girru «النار» ↔ آجُرّ | NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |
 | 58 | اليونانية القديمة، `blocked-ancient-greek.jsonl:1` | بطاقة: <الكلمة بالرومنة> «<معناها الموجز>» | READY / OPEN-CANDIDATE: READY / OPEN-CANDIDATE | READY: الحكم الموجب السابق قائم، وصفوف الهوية لا تنسخه | لا سطر نسخ: الحكم لم يتغير. |
-| 59 | اليونانية القديمة، `blocked-ancient-greek.jsonl:2` | إعادةُ توسيم: treîs «three» | LAW-GAP: قرار توسيع نطاق صف الأسنانيات القائم ليسمي اليونانية | LAW-GAP: العائق صف تحول أو نطاق أو حذف، ولا ترفعه صفوف الهوية | لا سطر نسخ: الحكم لم يتغير. |
-| 60 | اليونانية القديمة، `blocked-ancient-greek.jsonl:3` | إعادةُ توسيم: treîs «three» بعدَ توقيعِ توسيعِ النطاق (2026-07-17) | LAW-GAP: إعادة قراءة بالعدستين على الصف BR-GREC-01 الموقع | LAW-GAP: العائق صف تحول أو نطاق أو حذف، ولا ترفعه صفوف الهوية | لا سطر نسخ: الحكم لم يتغير. |
+| 59 | اليونانية القديمة، `blocked-ancient-greek.jsonl:2` | إعادةُ توسيم: treîs «three» | LAW-GAP: قرار توسيع نطاق صف الأسنانيات القائم ليسمي اليونانية | OPEN-CANDIDATE: رفع BR-GREC-01 الموقع عائق النطاق اليوناني، وبقيت القراءة الدلالية عضوية | سطر النسخ: السابق LAW-GAP: قرار توسيع نطاق صف الأسنانيات القائم ليسمي اليونانية؛ الجديد OPEN-CANDIDATE: رفع BR-GREC-01 الموقع عائق النطاق اليوناني، وبقيت القراءة الدلالية عضوية. |
+| 60 | اليونانية القديمة، `blocked-ancient-greek.jsonl:3` | إعادةُ توسيم: treîs «three» بعدَ توقيعِ توسيعِ النطاق (2026-07-17) | LAW-GAP: إعادة قراءة بالعدستين على الصف BR-GREC-01 الموقع | OPEN-CANDIDATE: رفع BR-GREC-01 الموقع عائق النطاق اليوناني، وبقيت القراءة الدلالية عضوية | سطر النسخ: السابق LAW-GAP: إعادة قراءة بالعدستين على الصف BR-GREC-01 الموقع؛ الجديد OPEN-CANDIDATE: رفع BR-GREC-01 الموقع عائق النطاق اليوناني، وبقيت القراءة الدلالية عضوية. |
 | 61 | اليونانية القديمة، `blocked-ancient-greek.jsonl:4` | بيان النطاق | TOOL-GAP: TOOL-GAP | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق TOOL-GAP: TOOL-GAP؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |
 | 62 | اليونانية القديمة، `blocked-ancient-greek.jsonl:5` | إعادة توسيم: φράζω | LAW-GAP.: LAW-GAP. | ROOT-TRACE + OPEN-CANDIDATE: حفظ الحكم الموجب في طبقته، ورفع عائق الهوية عن الطبقة الأخرى | سطر النسخ: السابق LAW-GAP.: LAW-GAP.؛ الجديد ROOT-TRACE + OPEN-CANDIDATE: حفظ الحكم الموجب في طبقته، ورفع عائق الهوية عن الطبقة الأخرى. |
 | 63 | اليونانية القديمة، `blocked-ancient-greek.jsonl:6` | بطاقة: `kaikki_ancient_greek:1165:en-ὄνυξ-grc-noun-QUXCOZYD`، ὄνυξ (دفعة الأساسي أولا) | NUCLEUS-ECHO: NUCLEUS-ECHO | NUCLEUS-ECHO: الحكم الموجب السابق قائم، وصفوف الهوية لا تنسخه | لا سطر نسخ: الحكم لم يتغير. |
@@ -612,7 +612,7 @@
 | 523 | المصرية القديمة، `blocked-egyptian.jsonl:41` | بطاقة: جذر AED `ḏnḥ` «[Wing]» - جرد اللقطة 3477/33417 | NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |
 | 524 | المصرية القديمة، `blocked-egyptian.jsonl:42` | بطاقة حسم: `mw` «water» - `aed-v1.0:69000` | NUCLEUS-ECHO + LAW-GAP: الهاء أصلية بنصي المعجمين، وقرار النواة المجمّد لا يجيز `مو` | NUCLEUS-ECHO + OPEN-CANDIDATE: حفظ الحكم الموجب في طبقته، ورفع عائق الهوية عن الطبقة الأخرى | سطر النسخ: السابق NUCLEUS-ECHO + LAW-GAP: الهاء أصلية بنصي المعجمين، وقرار النواة المجمّد لا يجيز `مو`؛ الجديد NUCLEUS-ECHO + OPEN-CANDIDATE: حفظ الحكم الموجب في طبقته، ورفع عائق الهوية عن الطبقة الأخرى. |
 | 525 | المصرية القديمة، `blocked-egyptian.jsonl:43` | بطاقة حسم: `jb` «heart; mind; wish; character» - `aed-v1.0:23290` | NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |
-| 526 | المصرية القديمة، `blocked-egyptian.jsonl:44` | بطاقة حسم: `kp` «palm; sole» - `aed-v1.0:164020` | LAW-GAP: اكتمال نصي المعجم | LAW-GAP: العائق صف تحول أو نطاق أو حذف، ولا ترفعه صفوف الهوية | لا سطر نسخ: الحكم لم يتغير. |
+| 526 | المصرية القديمة، `blocked-egyptian.jsonl:44` | بطاقة حسم: `kp` «palm; sole» - `aed-v1.0:164020` | LAW-GAP: اكتمال نصي المعجم | OPEN-CANDIDATE: أثبت IDN-13 هوية k/ك وأثبت IDN-06 مقابلة p/ف، فارتفع عائق المسار عن كف | سطر النسخ: السابق LAW-GAP: اكتمال نصي المعجم؛ الجديد OPEN-CANDIDATE: أثبت IDN-13 هوية k/ك وأثبت IDN-06 مقابلة p/ف، فارتفع عائق المسار عن كف. |
 | 527 | المصرية القديمة، `blocked-egyptian.jsonl:45` | بطاقة حسم: `sm.t` «listener(s) (=ear(s))» - `aed-v1.0:135850` | NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |
 | 528 | المصرية القديمة، `blocked-egyptian.jsonl:46` | بطاقة حسم: `ḏꜣḏꜣ` «head; tip» - `aed-v1.0:182330` | NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |
 | 529 | المصرية القديمة، `blocked-egyptian.jsonl:47` | بطاقة حسم: `wnm` «to eat» - `aed-v1.0:46710` | NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |
@@ -817,7 +817,7 @@
 | 728 | النوردية القديمة، `blocked-old-norse.jsonl:3` | الدفعة 2، الرتب 26 إلى 51 مع عدم تكرار الرتبة 30 | SOURCE-GAP: SOURCE-GAP | SOURCE-GAP: العائق غير الصوتي مستقل عن صفوف الهوية | لا سطر نسخ: الحكم لم يتغير. |
 | 729 | النوردية القديمة، `blocked-old-norse.jsonl:4` | الدفعة 3، الرتب 52 إلى 77 مع عدم تكرار الرتبة 73 | LOANWORD + SOURCE-GAP: LOANWORD + SOURCE-GAP | LOANWORD + SOURCE-GAP: العائق غير الصوتي مستقل عن صفوف الهوية | لا سطر نسخ: الحكم لم يتغير. |
 | 730 | النوردية القديمة، `blocked-old-norse.jsonl:5` | الدفعة 4، الرتب 78 إلى 100 | SOURCE-GAP + PROPER-NAME-ISOLATED: SOURCE-GAP + PROPER-NAME-ISOLATED | SOURCE-GAP + PROPER-NAME-ISOLATED: العائق غير الصوتي مستقل عن صفوف الهوية | لا سطر نسخ: الحكم لم يتغير. |
-| 731 | النوردية القديمة، `blocked-old-norse.jsonl:6` | تصحيح مسار وإتمام طبقتين: `kaikki_old_norse_2026_07_23:553:en-drepa-non-verb-0Xm~Y4pZ`، dr | ROOT-TRACE + LAW-GAP: ROOT-TRACE + LAW-GAP | LAW-GAP: العائق صف تحول أو نطاق أو حذف، ولا ترفعه صفوف الهوية | سطر النسخ: السابق ROOT-TRACE + LAW-GAP: ROOT-TRACE + LAW-GAP؛ الجديد LAW-GAP: العائق صف تحول أو نطاق أو حذف، ولا ترفعه صفوف الهوية. |
+| 731 | النوردية القديمة، `blocked-old-norse.jsonl:6` | تصحيح مسار وإتمام طبقتين: `kaikki_old_norse_2026_07_23:553:en-drepa-non-verb-0Xm~Y4pZ`، dr | ROOT-TRACE + LAW-GAP: ROOT-TRACE + LAW-GAP | ROOT-TRACE + OPEN-CANDIDATE: حفظ الحكم الموجب في طبقته، ورفع عائق الهوية عن الطبقة الأخرى | سطر النسخ: السابق ROOT-TRACE + LAW-GAP: ROOT-TRACE + LAW-GAP؛ الجديد ROOT-TRACE + OPEN-CANDIDATE: حفظ الحكم الموجب في طبقته، ورفع عائق الهوية عن الطبقة الأخرى. |
 | 732 | الفارسية، `blocked-persian.jsonl:1` | سطر عائق: tāvar «occurrence/event» | SOURCE-GAP: <صورة فارسية أقدم أو تأثيل منشور لـ`تاور tâvar`؛ صف Kaikki `en-تاور-fa-noun-sBJLzz1L` يعطي المعنى فقط>. | SOURCE-GAP: العائق غير الصوتي مستقل عن صفوف الهوية | لا سطر نسخ: الحكم لم يتغير. |
 | 733 | الفارسية، `blocked-persian.jsonl:2` | سجل المراوح العربية غير المختصرة | NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |
 | 734 | الفينيقية والبونية، الاستطلاع، `blocked-phoenician-punic-scout.jsonl:1` | بطاقة: `𐤌𐤌`، «ماء» | NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج | OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية | سطر النسخ: السابق NETWORK-BLOCKED بحسب عقد المستخرج: NETWORK-BLOCKED بحسب عقد المستخرج؛ الجديد OPEN-CANDIDATE: ألغت IDN-01 إلى IDN-24 رد التطابق المباشر، وبقي الحكم الدلالي عضويًا بلا ترقية آلية. |

@@ -201,6 +201,33 @@ def audit_text(records: list[dict], before: collections.Counter) -> str:
         by_language[row["language"]]["screened"] += 1
         by_language[row["language"]][row["decision"]] += 1
         by_language[row["language"]][row["old_verdict"]] += 1
+    card_totals: dict[str, int] = {}
+    verified_copy_lines: collections.Counter = collections.Counter()
+    for language in by_language:
+        path = READINGS / f"{language}.md"
+        text = path.read_text(encoding="utf-8")
+        card_totals[language] = sum(
+            1
+            for _, _, card in cards(text)
+            if "<" not in card.splitlines()[0]
+        )
+        source_lines = text.splitlines()
+        for row in (
+            item
+            for item in records
+            if item["language"] == language and item["decision"] == "reopen"
+        ):
+            marker = f"سطر النسخ (2026-08-05، {row['migration_id']})"
+            matches = [line for line in source_lines if marker in line]
+            if len(matches) != 1:
+                raise ValueError(
+                    f"اختل حضور سطر النسخ {row['migration_id']}: {len(matches)}"
+                )
+            line = matches[0]
+            prior = f"الحكم السابق {row['old_verdict']} منسوخ"
+            if prior not in line or row["reason"] not in line:
+                raise ValueError(f"سطر نسخ ناقص الحكم أو السبب: {row['migration_id']}")
+            verified_copy_lines[language] += 1
     reopened = sum(row["decision"] == "reopen" for row in records)
     kept = len(records) - reopened
     lines = [
@@ -229,6 +256,33 @@ def audit_text(records: list[dict], before: collections.Counter) -> str:
             f"{row['LOANWORD']:,} | {row['LOANWORD-THIRD-PARTY-TO-BRANCH']:,} |"
         )
     lines.extend([
+        "",
+        "## التحقق الجسدي ونسب الإغلاق",
+        "",
+        "قوبلت القائمة الآلية بأجساد البطاقات، لا بعناوينها. لكل بطاقة معادة سطر "
+        "نسخ واحد يذكر الحكم السابق وسبب إعادة الفتح، وكل بطاقة أبقي إغلاقها أعادت "
+        "المصفاة تصنيفها مانحا ساميا أو انتقالا إلى العربية.",
+        "",
+        "| اللسان | بطاقات الملف | دخل الفرز | نسبة الإغلاق قبل الفرز | أسطر النسخ المتحققة | بقي مغلقا |",
+        "|---|---:|---:|---:|---:|---:|",
+    ])
+    for language in sorted(by_language):
+        row = by_language[language]
+        total = card_totals[language]
+        rate = 100 * row["screened"] / total if total else 0
+        lines.append(
+            f"| `{language}` | {total:,} | {row['screened']:,} | {rate:.2f}% | "
+            f"{verified_copy_lines[language]:,} | {row['keep']:,} |"
+        )
+    latin = by_language.get("old-latin", collections.Counter())
+    lines.extend([
+        "",
+        "لقطة التنبيه اللاتينية السابقة كانت 7,050 إغلاقا من 7,400 بطاقة، أي "
+        "95.27%. أمّا الحالة الحية التي دخلت هذه الهجرة فكانت "
+        f"{latin['screened']:,} إغلاقا، ثم صار ملف اللاتينية عند هذا التحقق "
+        f"{card_totals.get('old-latin', 0):,} بطاقة بسبب استمرار العمل بين اللقطتين. "
+        "لذلك لا يخلط المحضر بين المقامين: جميع الإغلاقات الداخلة في الهجرة "
+        f"محسوبة، منها {latin['reopen']:,} أعيد فتحها و{latin['keep']:,} بقيت مغلقة.",
         "",
         "## المصالحة",
         "",
@@ -300,7 +354,21 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--repair-and-rerun", action="store_true")
     parser.add_argument("--reset-only", action="store_true")
+    parser.add_argument(
+        "--rewrite-audit",
+        action="store_true",
+        help="أعد كتابة المحضر من السجل الآلي بعد التحقق من أجساد البطاقات",
+    )
     args = parser.parse_args()
+    if args.rewrite_audit:
+        payload = json.loads(DATA.read_text(encoding="utf-8"))
+        existing = payload["records"]
+        before = collections.Counter(
+            (row["language"], row["old_verdict"]) for row in existing
+        )
+        AUDIT.write_text(audit_text(existing, before), encoding="utf-8", newline="\n")
+        print(f"أعيدت كتابة المحضر بعد تحقق {len(existing):,} بطاقة: {AUDIT.relative_to(ROOT)}")
+        return 0
     if args.repair_and_rerun or args.reset_only:
         reset_own_migration()
         if args.reset_only:

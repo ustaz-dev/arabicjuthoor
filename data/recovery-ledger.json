@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 27829,
+ "cards_total": 27849,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -885,18 +885,6 @@
   },
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
-   "card": "pûm «الفم والقول» ↔ فوه وفم، وقفةُ الرِجل الشفويّة",
-   "verdict": "",
-   "closure": "LAW-GAP.",
-   "gaps": [
-    "LAW-GAP"
-   ],
-   "blocker_type": "LAW-GAP",
-   "required": "صفّ صوتيّ منشور وموقَّع يرخّص `ف ↔ p` في نطاق الأكّاديّة، أو قرار نطاق مؤرَّخ بتوقيع المؤلّف يمدّ `LAB-07` إليها؛",
-   "row_mentions": []
-  },
-  {
-   "file": "04-cross-linguistic/readings/akkadian.md",
    "card": "šaptum «الشفة والقول والحافّة» ↔ شفة، وقفةٌ على الرِجل نفسِها",
    "verdict": "",
    "closure": "LAW-GAP مضاعف.",
@@ -979,6 +967,18 @@
    ],
    "blocker_type": "LAW-GAP",
    "required": "نصًّا على نطاق `GUT-03` في الأكّاديّة أو مرساةً أكّاديّةً مسمّاة لتقابل `ج ↔ g`؛",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "طابور مردودة: šēpu / šēpītu «القدم وأسفل الشيء» بإزاء شَبَاة النعل",
+   "verdict": "",
+   "closure": "CLOSED-NO-TRACE؛ السببان المستقلان ORIGINAL-CONSONANT-DROP وORBIT-NOT-IDENTICAL، مع LAW-GAP صوتي لا يغير الإغلاق.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "ORIGINAL-CONSONANT-DROP",
+   "required": "لا شيء، فهو رد بنيوي تحت القانون النافذ. وتوجد ملاحظة مستقلة من النوع LAW-GAP في الرجل `p ↔ ب`، لكنها ليست سبب الرد الوحيد.",
    "row_mentions": []
   },
   {
@@ -11633,6 +11633,42 @@
    ],
    "blocker_type": "SOURCE-GAP",
    "required": "فحص مسار كفر القرية في Fraenkel قبل إعادة الحكم على هذا العضو",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "طابور: `שנא` šennā «سن» بإزاء سنن",
+   "verdict": "LAW-GAP",
+   "closure": "LAW-GAP للجذر؛ ORIGINAL-CONSONANT-DROP للنواة القديمة.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "طابور: `אדמתא` ʔadmǝtā «أرض وتربة» بإزاء أدم",
+   "verdict": "SOURCE-GAP",
+   "closure": "SOURCE-GAP للجذر؛ ORIGINAL-CONSONANT-DROP للنواة القديمة.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "RECOVERY-v2: `שת`، العضو `kaikki_aramaic:264:en-שת-arc-num-pNZtnEPK`",
+   "verdict": "ROOT-ECHO للعضو `kaikki_aramaic:264:en-שת-arc-num-",
+   "closure": "ROOT-ECHO للجذر؛ LAW-GAP لدرجة TRACE؛ ORIGINAL-CONSONANT-DROP وFULL-ROOT-FIRST للنواة.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
    "row_mentions": []
   },
   {
@@ -98692,6 +98728,42 @@
    ],
    "blocker_type": "OPEN-CANDIDATE",
    "required": "شاهد معجمي عبري مسمى يصل عيد חג بالقصد الحجي قبل أي حكم على חגג",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "طابور: `כוכב` kōkāb «كوكب» بإزاء كوكب",
+   "verdict": "LAW-GAP",
+   "closure": "LAW-GAP للاسم الكامل؛ ORIGINAL-CONSONANT-DROP للنواة.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "طابور: `אדמה` ʔădāmā «أرض وتربة» بإزاء أدم",
+   "verdict": "SOURCE-GAP",
+   "closure": "SOURCE-GAP للجذر؛ FORM-OF-ISOLATED لصورة الإضافة؛ ORIGINAL-CONSONANT-DROP للنواة القديمة.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "RECOVERY-v2: أصل `שישה`، العضو `kaikki_hebrew:1326:en-שישה-he-num-RHeNgjZe`",
+   "verdict": "ROOT-ECHO للعضو `kaikki_hebrew:1326:en-שישה-he-num",
+   "closure": "ROOT-ECHO للجذر؛ LAW-GAP لدرجة TRACE؛ ORIGINAL-CONSONANT-DROP وFULL-ROOT-FIRST للنواة.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
    "row_mentions": []
   },
   {
