@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-06",
+  "rule": "كل جذر ورد في القرآن عربي محض، فلا يحكم عليه بالاقتراض من فرع آخر.",
+  "summary": {
+    "retractions_screened": 146,
+    "reopened": 6,
+    "positive_verdicts_restored": 0,
+    "by_layer": {
+      "nucleus": 3,
+      "root": 3
+    },
+    "by_quranic_root": {
+      "تجر": 3,
+      "زوج": 1,
+      "مني": 1,
+      "نحس": 1
+    }
+  },
+  "records": [
+    {
+      "audit_id": "RET-N-003",
+      "copy_id": "RET-REOPEN-QUR-001",
+      "layer": "nucleus",
+      "language": "ancient-greek",
+      "source_file": "04-cross-linguistic/readings/ancient-greek.md",
+      "heading": "### بطاقة: zugón «yoke»",
+      "root_as_recorded": "زوج",
+      "quranic_root": "زوج",
+      "quranic_occurrences": 81,
+      "removed_reason": "ARABIC-SIDE-LOAN",
+      "remaining_review": "يبقى فحص الصامت d في الصورة الأقدم وصحة المسار الصوتي واستقلال الشاهدين العربيين",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-N-012",
+      "copy_id": "RET-REOPEN-QUR-002",
+      "layer": "nucleus",
+      "language": "aramaic",
+      "source_file": "04-cross-linguistic/readings/aramaic.md",
+      "heading": "### إعادة قراءة بطبقتين: `aramaic:family:b824bad304c5a49f4f8f5398`، מניא، العضو `kaikki_aramaic:2045:en-מניא-arc-noun-m7hA339p`",
+      "root_as_recorded": "منى",
+      "quranic_root": "مني",
+      "quranic_occurrences": 22,
+      "removed_reason": "ARABIC-SIDE-LOAN",
+      "remaining_review": "يبقى تعيين المعجم العربي الثاني وضبط مدار النواة وفصل وحدة الوزن عن مواد مني ومنن",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-N-014",
+      "copy_id": "RET-REOPEN-QUR-003",
+      "layer": "nucleus",
+      "language": "aramaic",
+      "source_file": "04-cross-linguistic/readings/aramaic.md",
+      "heading": "### إعادة قراءة بطبقتين: `aramaic:family:eb1de24ff0f31aa958bff92d`، תגרא، العضو `kaikki_aramaic:1262:en-תגרא-arc-noun-estAMW1w`",
+      "root_as_recorded": "تجر",
+      "quranic_root": "تجر",
+      "quranic_occurrences": 9,
+      "removed_reason": "ARABIC-SIDE-LOAN",
+      "remaining_review": "يبقى فحص وزن qattāl واللاحقة وأصالة الجيم وحكم النواة الحسي",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-R-008",
+      "copy_id": "RET-REOPEN-QUR-004",
+      "layer": "root",
+      "language": "aramaic",
+      "source_file": "04-cross-linguistic/readings/aramaic.md",
+      "heading": "### إعادة قراءة بطبقتين: `aramaic:family:eb1de24ff0f31aa958bff92d`، תגרתא، العضو `kaikki_aramaic:1768:en-תגרתא-arc-noun-estAMW1w`",
+      "root_as_recorded": "تجر",
+      "quranic_root": "تجر",
+      "quranic_occurrences": 9,
+      "removed_reason": "ARABIC-SIDE-LOAN",
+      "remaining_review": "يبقى استيفاء الصوامت الثلاثة والنص المنقول من كل معجم قبل إعادة الحكم الجذري",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-R-011",
+      "copy_id": "RET-REOPEN-QUR-005",
+      "layer": "root",
+      "language": "aramaic",
+      "source_file": "04-cross-linguistic/readings/aramaic.md",
+      "heading": "### بطاقة: `aramaic:family:4d2f878e7091de73fe5f1b74`، תגר، دفعة المقام الآرامية 1، الرتبة 44",
+      "root_as_recorded": "تجر",
+      "quranic_root": "تجر",
+      "quranic_occurrences": 9,
+      "removed_reason": "ARABIC-SIDE-LOAN",
+      "remaining_review": "يبقى إعادة فحص العضو والصرف والاتجاه البديل من العربية أو الأصل المشترك قبل استعادة ROOT-TRACE",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-R-060",
+      "copy_id": "RET-REOPEN-QUR-006",
+      "layer": "root",
+      "language": "hebrew",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### مراجعة عضوية: `hebrew:family:6c1b6627d2ae4c1c5d850835`، נחושת، كتلة الشواهد القديمة ذات المقابل العربي، الرتبة 101",
+      "root_as_recorded": "نحس",
+      "quranic_root": "نحس",
+      "quranic_occurrences": 3,
+      "removed_reason": "ARABIC-SIDE-LOAN",
+      "remaining_review": "يبقى توثيق المصدر العربي الثاني وفحص الرجل الصوتية الفردية من غير إنشاء صف عام",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    }
+  ]
+}

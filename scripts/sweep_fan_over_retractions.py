@@ -39,6 +39,15 @@ SOURCES = [
     ROOT / "05-audits" / "2026-08-06-delegated-ruling-retraction-rescreen.md",
 ]
 BLOCKED = sorted((ROOT / "04-cross-linguistic" / "exploration").glob("blocked-*.jsonl"))
+PROGRESS = ROOT / "04-cross-linguistic" / "exploration" / "fan-sweep-progress.json"
+
+
+def completed_skeletons() -> set[str]:
+    """الهياكلُ التي فُتحت مروحتُها وحُفظ حكمُها في بطاقةٍ ومحضر."""
+    if not PROGRESS.is_file():
+        return set()
+    data = json.loads(PROGRESS.read_text(encoding="utf-8"))
+    return {str(row["skeleton"]) for row in data.get("completed", [])}
 
 
 def harvest() -> dict[str, dict]:
@@ -94,9 +103,12 @@ def main() -> int:
 
     found = harvest()
     print(f"كلماتٌ شماليّةٌ مجموعةٌ من النقوضِ والمحبوسات: {len(found):,}\n")
+    completed = completed_skeletons()
 
     rows = []
     for sk, e in found.items():
+        if sk in completed:
+            continue
         cands = [c for c in F.fan(sk) if c in roots]
         if not cands:
             continue
@@ -127,7 +139,8 @@ def main() -> int:
         "**عمودُ «لم يُفحَصْ» هو المقصود:** جذورٌ عربيّةٌ **موجودةٌ فعلًا في المعاجم**",
         "توافقُ هيكلَ الكلمةِ الشماليّةِ ولم تُذكَرْ في البطاقةِ التي رُدَّت.",
         "",
-        f"**الحصيلة:** {len(rows):,} كلمةً شماليّةً لها مرشَّحاتٌ لم تُفحَصْ بعد.",
+        f"**صفوفٌ منجزة:** {len(completed):,}، وقد فُتحت المروحة كاملةً وسُجّل الحكم.",
+        f"**المتبقّي:** {len(rows):,} كلمةً شماليّةً لها مرشَّحاتٌ لم تُفحَصْ بعد.",
         "",
         "| الهيكل | صورُ الكلمة | ما جُرِّبَ في البطاقة | لم يُفحَصْ | الموضع |",
         "|---|---|---|---|---|",

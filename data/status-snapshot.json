@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31236,
+  "cards_total": 31237,
   "by_language": [
    {
     "key": "old-latin",
@@ -45,8 +45,8 @@
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2241,
-    "links": 909
+    "cards": 2242,
+    "links": 910
    },
    {
     "key": "aramaic",
@@ -121,12 +121,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2504,
+  "links_to_arabic": 2505,
   "closures": 781,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1157,
+    "count": 1158,
     "link": true
    },
    {
@@ -197,13 +197,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27863,
-  "suspended": 20747,
+  "cards_total": 27864,
+  "suspended": 20748,
   "released": 7116,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 16753
+    "count": 16754
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -291,26 +291,26 @@
   "frozen_commit": "",
   "required_total": 600,
   "required_per_language": 150,
-  "families_tracked": 1811,
-  "eligible_now": 369,
+  "families_tracked": 1812,
+  "eligible_now": 367,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 238,
+    "eligible": 237,
     "represented": 598,
-    "positive_families": 238,
+    "positive_families": 237,
     "closure_only_families": 0,
-    "one_member_short": 88
+    "one_member_short": 89
    },
    {
     "name": "hebrew",
-    "eligible": 131,
-    "represented": 1213,
-    "positive_families": 131,
+    "eligible": 130,
+    "represented": 1214,
+    "positive_families": 130,
     "closure_only_families": 0,
-    "one_member_short": 338
+    "one_member_short": 340
    }
   ],
   "counting_law": "A family counts only when every inventory member carries an issued verdict or recorded terminal closure."

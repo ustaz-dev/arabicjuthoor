@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 27863,
+ "cards_total": 27864,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -316,6 +316,18 @@
    ],
    "blocker_type": "LAW-GAP",
    "required": "صف صوتي منشور وموقع يحسم المسار المذكور في البطاقة؛",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "šaṭāru «يكتب ويسطر» ↔ سطر",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE بعد تطبيق قاعدة الأصالة القرآنية على الطرف العربي.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
    "row_mentions": []
   },
   {
@@ -786,7 +798,7 @@
    "file": "04-cross-linguistic/readings/akkadian.md",
    "card": "أسرة eperum «الغبار» وبقية أعضاء p-r",
    "verdict": "",
-   "closure": "LAW-GAP قوية لـ`eperum ↔ عفر`؛ OPEN-CANDIDATE + LAW-GAP + SOURCE-GAP لـ`pâru ↔ بور`؛ OPEN-CANDIDATE أضعف لـ`ipru ↔ وفر`؛ LOAN-ROUTE-ISOLATED لـ`pīru ↔ فيل` و`pūru` الإناء.",
+   "closure": "LAW-GAP قوية لـ`eperum ↔ عفر`؛ OPEN-CANDIDATE + LAW-GAP + SOURCE-GAP لـ`pâru ↔ بور`؛ OPEN-CANDIDATE أضعف لـ`ipru ↔ وفر`؛ OPEN-CANDIDATE لـ`pīru ↔ فيل`؛ LOAN-ROUTE-ISOLATED لـ`pūru` الإناء.",
    "gaps": [
     "LAW-GAP",
     "SOURCE-GAP",

@@ -30,6 +30,15 @@ OUT = ROOT / "data" / "quranic-roots.json"
 
 _DIAC = dict.fromkeys(range(0x064B, 0x0653))
 _DIAC[0x0640] = None
+_ROOT_EQUIV = str.maketrans({
+    "أ": "ء",
+    "إ": "ء",
+    "ؤ": "ء",
+    "ئ": "ء",
+    "آ": "ء",
+    "ٱ": "ا",
+    "ى": "ي",
+})
 
 # صرفُ القرآنِ يكتبُ الجذرَ برومنةِ Buckwalter في الحقلِ FEATURES هكذا: ROOT:tjr
 BW = {
@@ -48,7 +57,7 @@ def bw_to_arabic(s: str) -> str:
 
 
 def bare(s: str) -> str:
-    return unicodedata.normalize("NFC", s).translate(_DIAC)
+    return unicodedata.normalize("NFC", s).translate(_DIAC).translate(_ROOT_EQUIV)
 
 
 def build() -> dict:
