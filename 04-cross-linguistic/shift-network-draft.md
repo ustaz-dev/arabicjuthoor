@@ -2,7 +2,7 @@
 
 > **مُجمَّدةٌ v1.0 بمصادقةِ المؤلّف، 2026-07-06، بوسومِ قراراتِه النافذة (سند استعاريّ، رفيع). أيُّ تعديلٍ بعدَ اليومِ تعديلٌ دستوريٌّ مؤرَّخٌ معلَّل / FROZEN v1.0 by author sign-off, 2026-07-06, with the ruling tags in force; any later change is a dated constitutional amendment.**
 
-**الحالة / Status:** مُجمَّدة v1.0 بمصادقة المؤلّف، 2026-07-06 (41 قيدًا)، ومعها إضافةٌ مؤرَّخةٌ موقَّعة في 2026-07-13، وإضافتانِ مؤرَّختانِ بتفويضِ المؤلّفِ في 2026-07-17، وإضافتانِ مؤرَّختانِ بتوقيعِه في 2026-07-20، وإضافةٌ مؤرَّخةٌ بقرارٍ مفوَّضٍ في 2026-07-22؛ وإضافةٌ مؤرَّخةٌ بأمرِ المؤلّفِ في 2026-08-05 أدخلَت 24 صفَّ هويّة؛ الشبكةُ التشغيليّةُ الآن 71 قيدًا. Frozen v1.0 by author sign-off, 2026-07-06 (41 entries), plus one signed dated amendment on 2026-07-13, two author-delegated dated amendments on 2026-07-17, two author-signed dated amendments on 2026-07-20, and one delegated dated amendment on 2026-07-22; and one author-ordered dated amendment on 2026-08-05 adding 24 identity rows; the operative network now has 71 entries.
+**الحالة / Status:** مُجمَّدة v1.0 بمصادقة المؤلّف، 2026-07-06 (41 قيدًا)، ومعها إضافةٌ مؤرَّخةٌ موقَّعة في 2026-07-13، وإضافتانِ مؤرَّختانِ بتفويضِ المؤلّفِ في 2026-07-17، وإضافتانِ مؤرَّختانِ بتوقيعِه في 2026-07-20، وإضافةٌ مؤرَّخةٌ بقرارٍ مفوَّضٍ في 2026-07-22؛ وإضافةٌ مؤرَّخةٌ بأمرِ المؤلّفِ في 2026-08-05 أدخلَت 24 صفَّ هويّة؛ وإضافةٌ مؤرَّخةٌ بقرارٍ مفوَّضٍ في 2026-08-06 أدخلَت 5 صفوفٍ ساميّةٍ للحلقيّاتِ والمطبقات؛ الشبكةُ التشغيليّةُ الآن 76 قيدًا. Frozen v1.0 by author sign-off, 2026-07-06 (41 entries), plus one signed dated amendment on 2026-07-13, two author-delegated dated amendments on 2026-07-17, two author-signed dated amendments on 2026-07-20, and one delegated dated amendment on 2026-07-22; and one author-ordered dated amendment on 2026-08-05 adding 24 identity rows; and one delegated dated amendment on 2026-08-06 adding 5 Semitic rows for the pharyngeals and emphatics; the operative network now has 76 entries.
 **السند الدستوريّ / Constitutional basis:** الرِّجلُ الأولى من دستورِ التفكيكِ العميق ([`../02-architecture/deep-decomposition-method.md`](../02-architecture/deep-decomposition-method.md), القسم 4): تُبنى الشبكةُ مرّةً واحدةً، كلُّ قيدٍ فيها بمثالٍ موثَّقٍ حقيقيٍّ ومصدرٍ مُسمًّى، ثمّ تُجمَّد. ممنوعٌ اختراعُ إبدالٍ لزوجٍ واحد.
 **المصادر الداخليّة / Repo sources:** [`regular-correspondences.md`](regular-correspondences.md) (الجداول الساميّة), [`tafsir-coran-tier-a-cognates.md`](tafsir-coran-tier-a-cognates.md) (قوانين خشيم التسعة والقانون العاشر).
 **قاعدة صارمة / Hard rule:** لا صفَّ بلا زوجِ مثالٍ حقيقيٍّ موثَّق. كلُّ ما لم نجد له مثالًا حقيقيًّا أُسقِط وذُكِر في قسمِ النواقص آخرَ الملفّ. No row without a real attested example pair; anything undocumented was omitted and is listed honestly in the gaps section.
@@ -202,3 +202,36 @@
 **سببُ التنفيذِ بالتفويضِ لا بالانتظار:** هذا ليس صفًّا جديدًا يُنشَأ، بل **رِجلٌ ثالثةٌ لصفٍّ وقّعَه المؤلّفُ بنفسِه**، وسندُها من داخلِ ذخيرتِنا لا من خارجِها، وانعكاساتُ *ś الأمِّ الثلاثةُ مقرَّرةٌ في قواعدِ الساميّاتِ المقارنة. وقد أمرَ المؤلّفُ في 2026-08-05 برفعِ القيدِ الصوتيِّ عن البحثِ ونهى عن حبسِ العملِ خلفَ الأسئلة.
 
 **والنقضُ بكلمةٍ منه**، وتُعادُ الرِجلُ إلى الحذفِ وتُعلَّقُ كلُّ بطاقةٍ بُنِيَت عليها.
+## 10. صفوفُ الحلقيّاتِ والمطبقاتِ في الاتّجاهِ الساميّ (قرارٌ مفوَّضٌ منفَّذٌ في 2026-08-06)
+
+**العطبُ الذي أوجبَها.** فُحِصَت الشبكةُ صفًّا صفًّا بسؤالٍ واحد: أيَّ فرعٍ يُسمّيه كلُّ صفّ؟ فظهرَ أنّها بُنِيَت من **التحوُّلاتِ اللافتةِ بينَ العربيّةِ والعبريّة**، ولم تمشِ يومًا على جردِ الأصواتِ الساميّةِ الأمِّ فرعًا فرعًا. فبقيَت **خمسةُ أصواتٍ عربيّةٍ بلا صفٍّ ساميٍّ إطلاقًا**: ض وغ وع وح وخ.
+
+والصفُّ الوحيدُ الذي يمسُّها هو `GUT-04` وهو لسقوطِها في الفروعِ **غيرِ** الساميّة (‏ع/ح/غ/ء ↔ h/Ø)، **لا لمقابلتِها داخلَ الساميّةِ نفسِها**. فكانَت الآراميّةُ والعبريّةُ تُقابَلانِ بالعربيّةِ في هذه الأصواتِ بلا رخصة.
+
+**والشواهدُ من ذخيرتِنا نحن، كلُّ واحدٍ كلمةٌ واحدةٌ بمعنًى واحدٍ في ثلاثةِ فروع:**
+
+| الصوتُ الأمّ | العربيّة | العبريّة | الآراميّة | الشاهد |
+|---|---|---|---|---|
+| *ḍ | ض | צ | **ע** | أرض · ארץ · **ארעא** |
+| *ġ | غ | ע | ע | غرب · ערב · ערב |
+| *ʕ | ع | ע | ע | عين · עין · **עינא** |
+| *ḥ | ح | ח | ח | حكيم · חכם · **חכימא** |
+| *ḫ | خ | ח | ח | خمس · חמש · **חמשא** |
+
+**وأثقلُها *ḍ:** انعكاسُها الآراميُّ **عين**، وهو من أبعدِ ما يُتوقَّع، ولذلك يُخطِئُ فيه من لا يعرفُه فيرُدُّ صلةً صحيحة. و«أرض ↔ ארעא» شاهدُه المسمّي.
+
+| الصفّ | التقابل | النطاق | الطبيعة | المثال | المصدر | ملاحظة |
+|---|---|---|---|---|---|---|
+| SEM-01 | ض ↔ צ / ע | كلاهما (عربيّة/عبريّة/آراميّة) | انعكاسُ *ḍ الجانبيّةُ المطبقة | أرض ↔ عبريّة ארץ *ʾereṣ* وآراميّة ארעא *ʾarʿā* (الأرضُ في الثلاثة) | جردُ التقابلاتِ المستخرَجُ من الذخيرةِ بـ`scripts/derive_correspondences.py`، ومعه قواعدُ الساميّاتِ المقارنةِ في انعكاساتِ الأصواتِ الأمِّ | الصوتُ الأمُّ واحدٌ وانعكاساتُه الثلاثةُ مقرَّرة؛ لا يُسلسَلُ مع GUT-04 الذي يخصُّ سقوطَ الحلقيّاتِ في الفروعِ غيرِ الساميّة |
+| SEM-02 | غ ↔ ע / ע | كلاهما (عربيّة/عبريّة/آراميّة) | انعكاسُ *ġ الطبقيّةُ المجهورة | غرب ↔ عبريّة ערב *ʿereḇ* «المساء» وآراميّة ערב «غابَ ومال»؛ غراب ↔ עורב | جردُ التقابلاتِ المستخرَجُ من الذخيرةِ بـ`scripts/derive_correspondences.py`، ومعه قواعدُ الساميّاتِ المقارنةِ في انعكاساتِ الأصواتِ الأمِّ | الصوتُ الأمُّ واحدٌ وانعكاساتُه الثلاثةُ مقرَّرة؛ لا يُسلسَلُ مع GUT-04 الذي يخصُّ سقوطَ الحلقيّاتِ في الفروعِ غيرِ الساميّة |
+| SEM-03 | ع ↔ ע / ע | كلاهما (عربيّة/عبريّة/آراميّة) | انعكاسُ *ʕ الحلقيّةُ المجهورة | عين ↔ عبريّة עין *ʿayin* وآراميّة עינא *ʿaynā* (العينُ في الثلاثة) | جردُ التقابلاتِ المستخرَجُ من الذخيرةِ بـ`scripts/derive_correspondences.py`، ومعه قواعدُ الساميّاتِ المقارنةِ في انعكاساتِ الأصواتِ الأمِّ | الصوتُ الأمُّ واحدٌ وانعكاساتُه الثلاثةُ مقرَّرة؛ لا يُسلسَلُ مع GUT-04 الذي يخصُّ سقوطَ الحلقيّاتِ في الفروعِ غيرِ الساميّة |
+| SEM-04 | ح ↔ ח / ח | كلاهما (عربيّة/عبريّة/آراميّة) | انعكاسُ *ḥ الحلقيّةُ المهموسة | حكيم ↔ عبريّة חכם *ḥāḵām* وآراميّة חכימא *ḥakkīmā* (الحكيمُ في الثلاثة) | جردُ التقابلاتِ المستخرَجُ من الذخيرةِ بـ`scripts/derive_correspondences.py`، ومعه قواعدُ الساميّاتِ المقارنةِ في انعكاساتِ الأصواتِ الأمِّ | الصوتُ الأمُّ واحدٌ وانعكاساتُه الثلاثةُ مقرَّرة؛ لا يُسلسَلُ مع GUT-04 الذي يخصُّ سقوطَ الحلقيّاتِ في الفروعِ غيرِ الساميّة |
+| SEM-05 | خ ↔ ח / ח | كلاهما (عربيّة/عبريّة/آراميّة) | انعكاسُ *ḫ الطبقيّةُ المهموسة | خمس ↔ عبريّة חמש *ḥāmēš* وآراميّة חמשא *ḥamšā* (الخمسةُ في الثلاثة) | جردُ التقابلاتِ المستخرَجُ من الذخيرةِ بـ`scripts/derive_correspondences.py`، ومعه قواعدُ الساميّاتِ المقارنةِ في انعكاساتِ الأصواتِ الأمِّ | الصوتُ الأمُّ واحدٌ وانعكاساتُه الثلاثةُ مقرَّرة؛ لا يُسلسَلُ مع GUT-04 الذي يخصُّ سقوطَ الحلقيّاتِ في الفروعِ غيرِ الساميّة |
+
+**وحدُّ هذه الصفوف:** تُرخِّصُ الصوتَ ولا تُرخِّصُ الصلة. والمعنى والمدارُ والمعجمانِ والاتّجاهُ شروطٌ قائمةٌ بحرفِها.
+
+**وتنبيهٌ لازم:** الحلقيّاتُ في العبريّةِ والآراميّةِ مجامعُ أصوات: **ע** مجمعُ *ʕ و*ġ، و**ח** مجمعُ *ḥ و*ḫ. فالقراءةُ من العربيّةِ إلى الشمالِ مأمونةٌ لأنّ العربيّةَ تُفرِّق، **والقراءةُ من الشمالِ إلى العربيّةِ ذاتُ وجهَينِ يُذكَرانِ معًا** ولا يُنتقى أحدُهما لموافقةِ المعنى.
+
+**والنقضُ بكلمةٍ من المؤلّف**، وتُعلَّقُ كلُّ بطاقةٍ بُنِيَت عليها.
+
+*English abstract (section 10):* The network was audited row by row with one question, which branches does each row actually name, and the answer showed it had been built from the striking Arabic-to-Hebrew shifts and had never walked the Proto-Semitic consonant inventory branch by branch. Five Arabic consonants were left with no Semitic row at all, the emphatic lateral and the four pharyngeals and velars, and the only row touching them, GUT-04, governs their loss in non-Semitic branches rather than their correspondence inside Semitic. Each new row rests on a single word carrying one meaning across three branches, drawn from our own corpora: earth as Arabic ard against Hebrew erets against Aramaic arʿa, evening and raven for the voiced velar, eye for the voiced pharyngeal, wise for the voiceless pharyngeal, five for the voiceless velar. The heaviest is the emphatic lateral, whose Aramaic reflex is ayin, which is far enough from expectation that anyone unaware of it will reject a sound link. A standing caution accompanies the rows: Hebrew and Aramaic ayin merges two Proto-Semitic sounds and het merges two more, so reading from Arabic northward is safe because Arabic keeps them apart, while reading northward to Arabic yields two candidates that must both be named rather than one chosen to fit the sense.

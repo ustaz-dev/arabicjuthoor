@@ -53,7 +53,11 @@ VERDICT_FIELDS = re.compile(
 )
 
 FAMILY = re.compile(r"([a-z-]+:family:[0-9a-f]{8,})")
-MEMBER = re.compile(r"(kaikki_[a-z_]+:\d+:[^\s`،؛,]+)")
+MEMBER = re.compile(
+    r"(kaikki_[a-z_]+:\d+:[^\s`،؛,]+"
+    r"|kellia_coptic_lexicon:C\d+"
+    r"|aed-v1\.0:\d+)"
+)
 # بعضُ الملفّاتِ لا تحملُ معرّفَ أسرةٍ ولا عضوٍ، بل الكلمةَ في العنوانِ وحدَها،
 # مثل `### بطاقة: alāku «يذهب»` و`### بطاقة: port «place»`. فتُتَّخذُ الكلمةُ مفتاحًا.
 HEADWORD = re.compile(r"^[^:]{0,30}:\s*`?([^`«»\"'،؛,\n]{1,40}?)`?\s*[«\"']")

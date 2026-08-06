@@ -154,8 +154,8 @@ def main() -> int:
         failures.append("family-target separator regression")
     rules = compile_network()
     indexed = rules_by_id(rules)
-    if len(rules) != 71:
-        failures.append(f"network row count: expected 71, got {len(rules)}")
+    if len(rules) != 76:
+        failures.append(f"network row count: expected 76, got {len(rules)}")
     expected = json.loads(FIXTURES.read_text(encoding="utf-8"))
     for row_id, fields in expected.items():
         rule = indexed.get(row_id)

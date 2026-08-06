@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "2496a0de1865773a724d8183a53719d5aeb40aab334229de8d6bddd9c09d453f"
+    "sha256": "7ba6d63c4bea2b01fa7534792b31cfe8f0bd6ff524fd7b625ca3854e8a01eea6"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "e3c1bdf707662619bfe3ed7b05ff76116c73d845ae7a08330e769d019ebc3de5"
+    "sha256": "4a926a3cc86ba8c4fb230d0aeb4c429edbbaed52cfc553d9e5294ea44fc3b434"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 362,
+  "eligible_family_total": 363,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -54,13 +54,13 @@
   "aramaic": {
    "inventory_family_count": 1573,
    "represented_current_family_count": 597,
-   "eligible_family_count": 233,
-   "positive_family_count": 233,
+   "eligible_family_count": 234,
+   "positive_family_count": 234,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 209,
-   "one_member_short_count": 92,
+   "one_member_short_count": 91,
    "issued_member_dispositions": {
-    "positive": 347,
+    "positive": 348,
     "closures": 264,
     "by_outcome": {
      "FORM-OF-ISOLATED": 18,
@@ -72,11 +72,11 @@
      "OUT-OF-SCOPE": 1,
      "PROPER-NAME-ISOLATED": 109,
      "ROOT-ECHO": 48,
-     "ROOT-TRACE": 284
+     "ROOT-TRACE": 285
     }
    },
    "incomplete_members_by_state": {
-    "LAW-GAP": 5,
+    "LAW-GAP": 4,
     "MORPHOLOGY-GAP": 1,
     "OPEN-CANDIDATE": 49,
     "SOURCE-GAP": 3,
@@ -222,6 +222,7 @@
     "aramaic:family:a3ad028fa19fcd5385d5894c",
     "aramaic:family:a63a0d1cfa15f5b698284d1c",
     "aramaic:family:a6cbcf8972aa67c42f78fa39",
+    "aramaic:family:a78f9a54d0951c59ef5cdcd7",
     "aramaic:family:a79be5c427135ce889ad5c6e",
     "aramaic:family:a8be5df1f5537db38b07a252",
     "aramaic:family:aa80ee229b914a10ad2dc29f",
@@ -457,6 +458,7 @@
     "aramaic:family:a3ad028fa19fcd5385d5894c",
     "aramaic:family:a63a0d1cfa15f5b698284d1c",
     "aramaic:family:a6cbcf8972aa67c42f78fa39",
+    "aramaic:family:a78f9a54d0951c59ef5cdcd7",
     "aramaic:family:a79be5c427135ce889ad5c6e",
     "aramaic:family:a8be5df1f5537db38b07a252",
     "aramaic:family:aa80ee229b914a10ad2dc29f",
@@ -858,7 +860,7 @@
      "missing_pos": "noun",
      "missing_gloss": "prayer",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30222
+     "reading_line": 30227
     },
     {
      "family_id": "aramaic:family:326d1915426f258fadcf32e5",
@@ -1012,7 +1014,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to know",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30206
+     "reading_line": 30211
     },
     {
      "family_id": "aramaic:family:8fc15ee53ceedb2fd9a4ea97",
@@ -1079,17 +1081,6 @@
      "missing_gloss": "to be late, to delay",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 30140
-    },
-    {
-     "family_id": "aramaic:family:a78f9a54d0951c59ef5cdcd7",
-     "anchor_headword": "סהרא",
-     "member_count": 1,
-     "missing_entry_id": "kaikki_aramaic:164:en-סהרא-arc-noun-nni0PqAO",
-     "missing_headword": "סהרא",
-     "missing_pos": "noun",
-     "missing_gloss": "moon",
-     "current_state": "LAW-GAP",
-     "reading_line": 30158
     },
     {
      "family_id": "aramaic:family:b49aee16989db1400d845ee5",
@@ -1166,7 +1157,7 @@
      "missing_pos": "pron",
      "missing_gloss": "I",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30250
+     "reading_line": 30255
     },
     {
      "family_id": "aramaic:family:d38aa6b47b329bf8fcb2844e",
@@ -2070,7 +2061,7 @@
        "pos": "noun",
        "gloss": "prayer",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30222
+       "reading_line": 30227
       }
      ]
     },
@@ -2502,7 +2493,7 @@
        "pos": "verb",
        "gloss": "to know",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30206
+       "reading_line": 30211
       }
      ]
     },
@@ -2679,22 +2670,6 @@
        "gloss": "to be late, to delay",
        "current_state": "OPEN-CANDIDATE",
        "reading_line": 30140
-      }
-     ]
-    },
-    {
-     "family_id": "aramaic:family:a78f9a54d0951c59ef5cdcd7",
-     "anchor_headword": "סהרא",
-     "member_count": 1,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:164:en-סהרא-arc-noun-nni0PqAO",
-       "headword": "סהרא",
-       "pos": "noun",
-       "gloss": "moon",
-       "current_state": "LAW-GAP",
-       "reading_line": 30158
       }
      ]
     },
@@ -2886,7 +2861,7 @@
        "pos": "pron",
        "gloss": "I",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30250
+       "reading_line": 30255
       }
      ]
     },

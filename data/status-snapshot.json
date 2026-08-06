@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31222,
+  "cards_total": 31223,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,7 +32,7 @@
     "en": "Coptic",
     "ar": "القبطيّة",
     "cards": 3920,
-    "links": 183
+    "links": 184
    },
    {
     "key": "welsh",
@@ -53,13 +53,13 @@
     "en": "Aramaic",
     "ar": "الآراميّة",
     "cards": 1428,
-    "links": 1059
+    "links": 1060
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 1262,
+    "cards": 1263,
     "links": 9
    },
    {
@@ -121,17 +121,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2492,
-  "closures": 779,
+  "links_to_arabic": 2494,
+  "closures": 780,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1149,
+    "count": 1150,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 742,
+    "count": 743,
     "link": true
    },
    {
@@ -171,7 +171,7 @@
    },
    {
     "name": "NO-TRACE",
-    "count": 52,
+    "count": 53,
     "link": false
    },
    {
@@ -197,13 +197,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27849,
-  "suspended": 20744,
-  "released": 7105,
+  "cards_total": 27850,
+  "suspended": 20743,
+  "released": 7107,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 16749
+    "count": 16750
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -215,7 +215,7 @@
    },
    {
     "name": "TOOL-GAP",
-    "count": 94
+    "count": 92
    },
    {
     "name": "LAW-GAP",
@@ -241,7 +241,7 @@
    },
    {
     "file": "coptic.md",
-    "count": 3319
+    "count": 3318
    },
    {
     "file": "welsh.md",
@@ -288,17 +288,17 @@
   "required_total": 600,
   "required_per_language": 150,
   "families_tracked": 1810,
-  "eligible_now": 362,
+  "eligible_now": 363,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 233,
+    "eligible": 234,
     "represented": 597,
-    "positive_families": 233,
+    "positive_families": 234,
     "closure_only_families": 0,
-    "one_member_short": 92
+    "one_member_short": 91
    },
    {
     "name": "hebrew",

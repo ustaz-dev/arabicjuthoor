@@ -1,8 +1,8 @@
 {
  "generated_by": "scripts/build_lane_data_manifest.py",
  "note": "بصمة مادّة المسارات الوسيطة؛ الأحكام في 04-cross-linguistic/readings/ وليست هنا. البصمة تُثبت أنّ المادّة لم تُبدّل ولا تُغني عنها.",
- "files": 68,
- "total_bytes": 1059975662,
+ "files": 69,
+ "total_bytes": 1062471209,
  "in_git": 52,
  "entries": [
   {
@@ -132,6 +132,14 @@
    "sha256": "dcf7f863952ca35851f0ab6515315a5222a76c2d9e89e13791d5782e8d1f44c0",
    "schema": "",
    "in_git": true
+  },
+  {
+   "path": "04-cross-linguistic/data/delegated_ruling_card_reviews.jsonl",
+   "bytes": 2495547,
+   "lines": 495,
+   "sha256": "188f7dc095f6f9f969d47a996a01a4f91af8ab46ac5b82032a4783cfb3c38126",
+   "schema": "delegated-ruling-card-review-v1",
+   "in_git": false
   },
   {
    "path": "04-cross-linguistic/data/egyptian_lexical_snapshot_v1.json",

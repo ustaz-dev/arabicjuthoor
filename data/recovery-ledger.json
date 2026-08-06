@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 27849,
+ "cards_total": 27850,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -51322,18 +51322,6 @@
   },
   {
    "file": "04-cross-linguistic/readings/coptic.md",
-   "card": "`ⲙⲟⲟⲩ` «water»",
-   "verdict": "",
-   "closure": "TOOL-GAP.",
-   "gaps": [
-    "TOOL-GAP"
-   ],
-   "blocker_type": "TOOL-GAP",
-   "required": "نواةً معتمدةً `مو` في `data/juthoor-core-levels.json`، أو شاهدًا منشورًا على صامتٍ ثالثٍ في الصورةِ المصريّةِ `mw` يقابلُ هاءَ `موه`.",
-   "row_mentions": []
-  },
-  {
-   "file": "04-cross-linguistic/readings/coptic.md",
    "card": "`ϩⲉ` «fall»",
    "verdict": "",
    "closure": "SOURCE-GAP.",
@@ -98900,14 +98888,15 @@
   },
   {
    "file": "04-cross-linguistic/readings/hebrew.md",
-   "card": "`אש` «fire»، العضو `kaikki_hebrew:220:en-אש-he-noun-3J8osS3R`",
-   "verdict": "OPEN-CANDIDATE في الطبقتين. الدفعة 016.",
-   "closure": "",
+   "card": "RECOVERY-v2 معاد فتحها: `אש` «fire»، العضو `kaikki_hebrew:220:en-אש-he-noun-3J8o",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP في الجذر؛ ORBIT-NOT-IDENTICAL في النواة بعد رفع TOOL-GAP.",
    "gaps": [
-    "TOOL-GAP"
+    "TOOL-GAP",
+    "MORPHOLOGY-GAP"
    ],
-   "blocker_type": "TOOL-GAP",
-   "required": "مدخل نواة `ءش` معتمدًا في الفهرس المجمد، أو مادّة عربية بالهمزة والشين تحمل النار بنصّ معجم قديم مسمّى.",
+   "blocker_type": "",
+   "required": "",
    "row_mentions": []
   },
   {

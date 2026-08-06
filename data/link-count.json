@@ -1,14 +1,14 @@
 {
  "generated_from": "scripts/count_links.py",
- "cards_scanned": 31256,
+ "cards_scanned": 31257,
  "cards": {
-  "root": 1434,
-  "nucleus": 1053,
+  "root": 1435,
+  "nucleus": 1054,
   "floor": 5
  },
  "claims": {
-  "root": 972,
-  "nucleus": 927
+  "root": 979,
+  "nucleus": 936
  },
  "by_language": {
   "akkadian": {
@@ -39,22 +39,22 @@
   },
   "aramaic": {
    "cards": {
-    "root": 670,
-    "ROOT-TRACE": 587,
+    "root": 671,
+    "ROOT-TRACE": 588,
     "ROOT-ECHO": 83,
     "nucleus": 389,
     "NUCLEUS-TRACE": 264,
     "NUCLEUS-ECHO": 125
    },
    "claims": {
-    "root": 411,
+    "root": 412,
     "nucleus": 305
    }
   },
   "coptic": {
    "cards": {
-    "nucleus": 157,
-    "NUCLEUS-TRACE": 148,
+    "nucleus": 158,
+    "NUCLEUS-TRACE": 149,
     "NUCLEUS-ECHO": 9,
     "floor": 1,
     "FLOOR-TRACE": 1,
@@ -63,9 +63,9 @@
     "ROOT-TRACE": 20
    },
    "claims": {
-    "nucleus": 141,
+    "nucleus": 144,
     "floor": 1,
-    "root": 15
+    "root": 19
    }
   },
   "egyptian": {
@@ -80,8 +80,8 @@
     "ROOT-ECHO": 3
    },
    "claims": {
-    "root": 17,
-    "nucleus": 91,
+    "root": 19,
+    "nucleus": 97,
     "floor": 1
    }
   },
@@ -218,7 +218,7 @@
   }
  },
  "heading_forms": {
-  "بطاقة": 1193,
+  "بطاقة": 1194,
   "بطاقة طابور": 9,
   "بطاقة إعادة فتح": 3,
   "إعادة توسيم موجبة": 1,
@@ -226,6 +226,7 @@
   "مراجعة عضوية": 233,
   "إعادة قراءة بطبقتين": 434,
   "بطاقة RECOVERY-v2": 5,
+  "بطاقة RECOVERY-v2 معاد فتحها": 1,
   "بطاقة حسم": 10,
   "بطاقة حسم عائلية": 2,
   "عين النواة": 250,
