@@ -3,12 +3,12 @@
  "cards_scanned": 31257,
  "cards": {
   "root": 1435,
-  "nucleus": 1054,
+  "nucleus": 1055,
   "floor": 5
  },
  "claims": {
-  "root": 979,
-  "nucleus": 936
+  "root": 978,
+  "nucleus": 937
  },
  "by_language": {
   "akkadian": {
@@ -108,7 +108,7 @@
     "NUCLEUS-ECHO": 139
    },
    "claims": {
-    "root": 391,
+    "root": 390,
     "nucleus": 317
    }
   },
@@ -187,11 +187,13 @@
   "phoenician-punic-scout": {
    "cards": {
     "root": 15,
-    "ROOT-TRACE": 15
+    "ROOT-TRACE": 15,
+    "nucleus": 1,
+    "NUCLEUS-TRACE": 1
    },
    "claims": {
     "root": 14,
-    "nucleus": 0
+    "nucleus": 1
    }
   },
   "punic": {
@@ -218,7 +220,7 @@
   }
  },
  "heading_forms": {
-  "بطاقة": 1194,
+  "بطاقة": 1195,
   "بطاقة طابور": 9,
   "بطاقة إعادة فتح": 3,
   "إعادة توسيم موجبة": 1,

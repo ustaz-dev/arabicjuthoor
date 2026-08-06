@@ -81,7 +81,7 @@
     "en": "Phoenician scout",
     "ar": "مسحُ الفينيقيّة",
     "cards": 305,
-    "links": 15
+    "links": 16
    },
    {
     "key": "gothic",
@@ -121,7 +121,7 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2494,
+  "links_to_arabic": 2495,
   "closures": 780,
   "by_verdict": [
    {
@@ -131,7 +131,7 @@
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 743,
+    "count": 744,
     "link": true
    },
    {
@@ -211,7 +211,7 @@
    },
    {
     "name": "SOURCE-GAP",
-    "count": 255
+    "count": 254
    },
    {
     "name": "TOOL-GAP",
@@ -223,7 +223,11 @@
    },
    {
     "name": "MORPHOLOGY-GAP",
-    "count": 41
+    "count": 40
+   },
+   {
+    "name": "NUCLEUS-ORIGINAL-CONSONANT-DROP",
+    "count": 2
    },
    {
     "name": "ORIGINAL-CONSONANT-DROP",
@@ -269,7 +273,7 @@
    },
    {
     "file": "phoenician-punic-scout.md",
-    "count": 162
+    "count": 161
    },
    {
     "file": "old-norse.md",

@@ -382,18 +382,6 @@
   },
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
-   "card": "māru «الابن» واسترداد bīnu B ↔ ابن",
-   "verdict": "NUCLEUS-TRACE لـ`bīnu B ↔ ابن`؛ غير صادر لـ`māru ↔ ابن",
-   "closure": "READY عند النواة في البديل؛ MORPHOLOGY-GAP عند الجذر الكامل.",
-   "gaps": [
-    "MORPHOLOGY-GAP"
-   ],
-   "blocker_type": "MORPHOLOGY-GAP",
-   "required": "تحليل صرفي منشور يحسم الصورة المذكورة في البطاقة؛",
-   "row_mentions": []
-  },
-  {
-   "file": "04-cross-linguistic/readings/akkadian.md",
    "card": "šarru «الملك» مع ملك",
    "verdict": "",
    "closure": "OPEN-CANDIDATE.",
@@ -98740,6 +98728,30 @@
    ],
    "blocker_type": "",
    "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`בת`، العضو `kaikki_hebrew:397:en-בת-he-noun-TtKPgsqW`",
+   "verdict": "ROOT-TRACE للعضو `kaikki_hebrew:397:en-בת-he-noun-T",
+   "closure": "READY للجذر أو الصورة التاريخية الكاملة؛ OPEN-CANDIDATE للنواة.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "NUCLEUS-ORIGINAL-CONSONANT-DROP",
+   "required": "تحليل منشور يجيز إسقاط أحد صوامت `*bint-` الثلاثة من حكم مستقل، ولا يكفي وصف التاء بأنها علامة تأنيث.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "`אב`، العضو `kaikki_hebrew:389:en-אב-he-noun-hYTLhfxL`",
+   "verdict": "ROOT-TRACE للعضو `kaikki_hebrew:389:en-אב-he-noun-h",
+   "closure": "READY للجذر التاريخي الكامل؛ OPEN-CANDIDATE للنواة.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "NUCLEUS-ORIGINAL-CONSONANT-DROP",
+   "required": "تحليل منشور يجيز إسقاط واو `*ʔabw-` من حكم نووي مستقل، ولا يكفي قصر الصورة السطحية.",
    "row_mentions": []
   },
   {
@@ -212479,18 +212491,6 @@
   },
   {
    "file": "04-cross-linguistic/readings/phoenician-punic-scout.md",
-   "card": "𐤁𐤍 (bn)، «son»",
-   "verdict": "",
-   "closure": "SOURCE-GAP",
-   "gaps": [
-    "SOURCE-GAP"
-   ],
-   "blocker_type": "SOURCE-GAP",
-   "required": "مصدر فينيقي منشور مستقل ومسح معنى عربي قبل الحكم.",
-   "row_mentions": []
-  },
-  {
-   "file": "04-cross-linguistic/readings/phoenician-punic-scout.md",
    "card": "𐤏𐤍 (ʿn)، «eye»",
    "verdict": "",
    "closure": "SOURCE-GAP",
@@ -213974,7 +213974,7 @@
     "SOURCE-GAP"
    ],
    "blocker_type": "SOURCE-GAP",
-   "required": "إسناد معجمي أو نقشي منشور فردي فوق لقطة الاستطلاع قبل أي حكم نسب",
+   "required": "شاهد بونيقي منشور فردي يحمل `bn` في سياق يثبت معنى الابن، لا شاهدًا فينيقيًا موروثًا في حقل التأثيل",
    "row_mentions": []
   },
   {
