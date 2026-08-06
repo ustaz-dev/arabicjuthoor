@@ -31,6 +31,7 @@ BUILD = [
     ("build_coverage_summary.py", []),
     ("build_lane_data_manifest.py", []),
     ("build_status_snapshot.py", []),
+    ("build_lane_b_open_review_queue.py", []),
 ]
 
 # بوّاباتُ النشر، بترتيبِ deploy.yml
@@ -47,6 +48,8 @@ GATES = [
     ("rebuild_proof_preregistration.py", ["--check"]),
     ("count_proof_eligible_families.py", ["--check"]),
     ("open_delegated_ruling_cards.py", ["--check"]),
+    ("build_blocked_northern_fan_lane_b_queue.py", ["--aggregate", "--check"]),
+    ("build_lane_b_open_review_queue.py", ["--check"]),
     ("build_status_snapshot.py", ["--check"]),
     ("compare_cooke_diplomatic_passes.py", ["--check"]),
 ]

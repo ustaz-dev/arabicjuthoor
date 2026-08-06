@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-06",
+  "cycle": 1,
+  "scope": "Every still-open card or candidate-reading opened by the named rescreens.",
+  "reader": "lane-b",
+  "summary": {
+    "queue_rows": 21660,
+    "rows_with_reader": 21660,
+    "rows_with_language": 21660,
+    "historical_admissions_without_live_card": 1,
+    "by_source": {
+      "loan-rescreen": 16999,
+      "northern-fan": 258,
+      "proposed-nuclei": 4393,
+      "quranic-live-closure": 2,
+      "quranic-retraction": 8
+    },
+    "by_language": {
+      "akkadian": 33,
+      "ancient-greek": 897,
+      "aramaic": 637,
+      "coptic": 3337,
+      "egyptian": 3648,
+      "gothic": 193,
+      "hebrew": 636,
+      "latin": 34,
+      "old-english": 200,
+      "old-irish": 349,
+      "old-latin": 7018,
+      "old-norse": 115,
+      "persian": 1643,
+      "phoenician": 5,
+      "phoenician-punic": 1,
+      "punic": 1,
+      "welsh": 2913
+    },
+    "by_source_language": {
+      "loan-rescreen": {
+        "ancient-greek": 861,
+        "aramaic": 44,
+        "coptic": 3301,
+        "egyptian": 2,
+        "gothic": 193,
+        "hebrew": 361,
+        "old-english": 200,
+        "old-irish": 349,
+        "old-latin": 7017,
+        "old-norse": 115,
+        "persian": 1643,
+        "welsh": 2913
+      },
+      "northern-fan": {
+        "akkadian": 11,
+        "aramaic": 199,
+        "hebrew": 46,
+        "old-latin": 1,
+        "phoenician-punic": 1
+      },
+      "proposed-nuclei": {
+        "akkadian": 20,
+        "ancient-greek": 35,
+        "aramaic": 390,
+        "coptic": 35,
+        "egyptian": 3646,
+        "hebrew": 227,
+        "latin": 34,
+        "phoenician": 5,
+        "punic": 1
+      },
+      "quranic-live-closure": {
+        "akkadian": 2
+      },
+      "quranic-retraction": {
+        "ancient-greek": 1,
+        "aramaic": 4,
+        "coptic": 1,
+        "hebrew": 2
+      }
+    }
+  },
+  "priority": [
+    "quranic-retraction",
+    "quranic-live-closure",
+    "northern-fan",
+    "proposed-nuclei",
+    "loan-rescreen"
+  ],
+  "queue_file": "data/lane-b-open-review-queue.jsonl"
+}

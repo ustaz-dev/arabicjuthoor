@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31237,
+  "cards_total": 31238,
   "by_language": [
    {
     "key": "old-latin",
@@ -45,8 +45,8 @@
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2242,
-    "links": 910
+    "cards": 2243,
+    "links": 911
    },
    {
     "key": "aramaic",
@@ -121,12 +121,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2505,
+  "links_to_arabic": 2506,
   "closures": 781,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1158,
+    "count": 1159,
     "link": true
    },
    {
@@ -197,9 +197,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27864,
+  "cards_total": 27865,
   "suspended": 20748,
-  "released": 7116,
+  "released": 7117,
   "blockers": [
    {
     "name": "UNLABELLED",

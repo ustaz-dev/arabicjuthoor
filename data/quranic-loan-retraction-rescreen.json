@@ -4,15 +4,17 @@
   "rule": "كل جذر ورد في القرآن عربي محض، فلا يحكم عليه بالاقتراض من فرع آخر.",
   "summary": {
     "retractions_screened": 146,
-    "reopened": 6,
+    "reopened": 8,
     "positive_verdicts_restored": 0,
     "by_layer": {
-      "nucleus": 3,
-      "root": 3
+      "nucleus": 4,
+      "root": 4
     },
     "by_quranic_root": {
       "تجر": 3,
+      "تقن": 1,
       "زوج": 1,
+      "سبط": 1,
       "مني": 1,
       "نحس": 1
     }
@@ -105,6 +107,36 @@
       "quranic_occurrences": 3,
       "removed_reason": "ARABIC-SIDE-LOAN",
       "remaining_review": "يبقى توثيق المصدر العربي الثاني وفحص الرجل الصوتية الفردية من غير إنشاء صف عام",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-N-020",
+      "copy_id": "RET-REOPEN-QUR-007",
+      "layer": "nucleus",
+      "language": "coptic",
+      "source_file": "04-cross-linguistic/readings/coptic.md",
+      "heading": "### بطاقة: `ϯⲕⲱⲧ` «edify»",
+      "root_as_recorded": "تقن",
+      "quranic_root": "تقن",
+      "quranic_occurrences": 1,
+      "removed_reason": "ARABIC-SIDE-LOAN",
+      "remaining_review": "يبقى نزع السابقة القبطية وفحص النون الأصلية ومسار الترجمة الكنسية",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-R-058",
+      "copy_id": "RET-REOPEN-QUR-008",
+      "layer": "root",
+      "language": "hebrew",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### بطاقة: `hebrew:family:c543ecb7f131e9a7f64fbc6c`، שבט، التغطية التوراتية المرتبة، الرتبة 22",
+      "root_as_recorded": "سبط",
+      "quranic_root": "سبط",
+      "quranic_occurrences": 5,
+      "removed_reason": "ARABIC-SIDE-LOAN",
+      "remaining_review": "يبقى فصل معنى القبيلة عن معنى الشعر المسترسل وفحص المدار والمصدرين",
       "decision": "OPEN-CANDIDATE",
       "copy_line_present": true
     }
