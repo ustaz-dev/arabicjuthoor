@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 27850,
+ "cards_total": 27854,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -967,6 +967,18 @@
    ],
    "blocker_type": "ORIGINAL-CONSONANT-DROP",
    "required": "لا شيء، فهو رد بنيوي تحت القانون النافذ. وتوجد ملاحظة مستقلة من النوع LAW-GAP في الرجل `p ↔ ب`، لكنها ليست سبب الرد الوحيد.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "RECOVERY-v2: `dadmū` «المعمورة والمستوطنات»",
+   "verdict": "",
+   "closure": "`LAW-GAP + ORBIT-NOT-IDENTICAL` للجذور الكاملة، و`ORIGINAL-CONSONANT-DROP` للنواة.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
    "row_mentions": []
   },
   {
@@ -189976,6 +189988,18 @@
    "row_mentions": []
   },
   {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "RECOVERY-v2: `gobbo` «أحدب» بإزاء `قبب`",
+   "verdict": "",
+   "closure": "`LAW-GAP + LATE-DERIVATIVE` في طبقتي الجذر والنواة.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
    "file": "04-cross-linguistic/readings/old-norse.md",
    "card": "`old_norse:family:7ac7e6df049c3cdce5a415a3`، purka (الموجة ج، 121)",
    "verdict": "P",
@@ -213351,6 +213375,18 @@
    ],
    "blocker_type": "SOURCE-GAP",
    "required": "مرجع بونيقي منشور فردي يثبت `šr ← *ṯawr-` قبل حكم النسب، مع إبقاء عضو «root» مستقلًا.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/punic.md",
+   "card": "RECOVERY-v2: `ʔdmt` بإزاء `أدم`",
+   "verdict": "",
+   "closure": "`SOURCE-GAP + ORBIT-NOT-IDENTICAL` للجذر، و`ORIGINAL-CONSONANT-DROP` للنواة.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
    "row_mentions": []
   },
   {

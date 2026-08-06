@@ -36,7 +36,6 @@ from recovery_pipeline.candidates import (  # noqa: E402
     HAMZA,
     SlotOption,
     _combine,
-    generate_hits,
     slot_options,
 )
 from recovery_pipeline.network import compile_network  # noqa: E402
@@ -58,9 +57,12 @@ EXPECTED_CORE_SHA256 = "98d31b01a811ea44706d2ecc82c6f0423014982d1ad65eed3ad39ace
 EXPECTED_SAMEKH = 245
 EXPECTED_PROPOSED = 4393
 EXPECTED_DECISION_NUCLEI = 223
-EXPECTED_CARRYING = 3889
-EXPECTED_WITHOUT = 504
+EXPECTED_CARRYING_BEFORE_SEMITIC_ROWS = 3889
 REQUIRED_NOTE = "النواة من الطبقة المقترحة 2026-08-06، لا من الفهرس المجمَّد"
+NORTHWEST_FACE_NOTE = (
+    "عين الشمال مجمع *ʕ و*ġ، وحاؤه مجمع *ḥ و*ḫ؛ يذكر الوجهان معًا "
+    "ولا ينتخب المعنى أحدهما"
+)
 SOURCE_NAMES = ("لسان العرب لابن منظور", "تاج العروس لمرتضى الزبيدي")
 LONG_DASHES = {"\u2013", "\u2014"}
 TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z'-]*")
@@ -216,10 +218,119 @@ def semantic_score(gloss: str, root: str, token_sets: dict[str, set[str]], idf: 
     return numerator / math.sqrt(max(left_weight * right_weight, 1.0))
 
 
+def _dedupe_options(options: list[SlotOption]) -> tuple[SlotOption, ...]:
+    best: dict[tuple[str, str], SlotOption] = {}
+    for option in options:
+        best.setdefault((option.arabic, option.rule_id), option)
+    return tuple(
+        sorted(
+            best.values(),
+            key=lambda item: (item.arabic, item.rule_id, item.path),
+        )
+    )
+
+
+def proposed_slots(card: proposed_report.Card, rules) -> tuple[tuple[SlotOption, ...], ...]:
+    """طبّق صفوف الشمال المفوّضة من غير طمس اندماج الحرف الفرعي."""
+    slots: list[tuple[SlotOption, ...]] = []
+    northern = card.language in {"aramaic", "hebrew"}
+    headword = nfc(card.headword)
+    aramaic_samekh_only = (
+        card.language == "aramaic"
+        and any(char in headword for char in "ס𐡎ܣ")
+        and not any(char in headword for char in "צץ𐡑ܨ")
+    )
+    hebrew_tsade_only = (
+        card.language == "hebrew"
+        and any(char in headword for char in "צץ𐤑")
+        and not any(char in headword for char in "סש𐤎𐤔")
+    )
+    for token in card.tokens:
+        options = list(slot_options(token, card.language, rules))
+        if northern and token == "ayin":
+            options = [
+                option
+                for option in options
+                if option.arabic not in {"ع", "غ", "ض"}
+            ]
+            options.extend(
+                [
+                    SlotOption("ع", "licensed", "SEM-03", "cross-script", "SEM-03: ע ↔ ع", False),
+                    SlotOption("غ", "licensed", "SEM-02", "cross-script", "SEM-02: ע ↔ غ", False),
+                ]
+            )
+            if card.language == "aramaic":
+                options.append(
+                    SlotOption("ض", "licensed", "SEM-01", "cross-script", "SEM-01: ע ↔ ض", False)
+                )
+        elif northern and token == "hh":
+            options = [
+                option
+                for option in options
+                if option.arabic not in {"ح", "خ"}
+            ]
+            options.extend(
+                [
+                    SlotOption("ح", "licensed", "SEM-04", "cross-script", "SEM-04: ח ↔ ح", False),
+                    SlotOption("خ", "licensed", "SEM-05", "cross-script", "SEM-05: ח ↔ خ", False),
+                ]
+            )
+        elif token == "s" and aramaic_samekh_only:
+            options.append(
+                SlotOption("ش", "licensed", "SIB-07", "cross-script", "SIB-07: ס ↔ ش", False)
+            )
+        elif token == "s" and hebrew_tsade_only:
+            options.append(
+                SlotOption("ض", "licensed", "SEM-01", "cross-script", "SEM-01: צ ↔ ض", False)
+            )
+        slots.append(_dedupe_options(options))
+    return tuple(slots)
+
+
+def northwest_ambiguities(card: proposed_report.Card) -> list[dict[str, Any]]:
+    if card.language not in {"aramaic", "hebrew"}:
+        return []
+    output: list[dict[str, Any]] = []
+    ayin_positions = [index for index, token in enumerate(card.tokens, start=1) if token == "ayin"]
+    if ayin_positions:
+        item: dict[str, Any] = {
+            "source_letter": "ע",
+            "positions": ayin_positions,
+            "proto_merger": "*ʕ + *ġ",
+            "faces": [
+                {"row_id": "SEM-03", "arabic": "ع"},
+                {"row_id": "SEM-02", "arabic": "غ"},
+            ],
+            "selection": "BOTH-FACES-REQUIRED; NO-SEMANTIC-SELECTION",
+        }
+        if card.language == "aramaic":
+            item["additional_reflex"] = {
+                "row_id": "SEM-01",
+                "arabic": "ض",
+                "proto": "*ḍ",
+            }
+        output.append(item)
+    heth_positions = [index for index, token in enumerate(card.tokens, start=1) if token == "hh"]
+    if heth_positions:
+        output.append(
+            {
+                "source_letter": "ח",
+                "positions": heth_positions,
+                "proto_merger": "*ḥ + *ḫ",
+                "faces": [
+                    {"row_id": "SEM-04", "arabic": "ح"},
+                    {"row_id": "SEM-05", "arabic": "خ"},
+                ],
+                "selection": "BOTH-FACES-REQUIRED; NO-SEMANTIC-SELECTION",
+            }
+        )
+    return output
+
+
 def proposed_routes(card: proposed_report.Card, rules) -> dict[str, dict[str, Any]]:
     if len(card.tokens) < 2:
         return {}
-    slots = tuple(slot_options(token, card.language, rules) for token in card.tokens)
+    slots = proposed_slots(card, rules)
     routes: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for left, right in combinations(range(len(slots)), 2):
         if not slots[left] or not slots[right]:
@@ -274,19 +385,20 @@ def roots_by_pair(
 
 
 def full_root_candidates(card: proposed_report.Card, rules, inventory: ArabicInventory) -> list[dict[str, Any]]:
-    hits, _ = generate_hits(card.tokens, card.language, rules, inventory)
     rows = []
-    for hit in hits:
-        if hit.kind != "root" or hit.status != "licensed":
-            continue
-        rows.append(
-            {
-                "root": hit.form,
-                "reading": clean(hit.reading),
-                "rule_ids": list(hit.rule_ids),
-                "route_evidence_required": hit.route_flag,
-            }
-        )
+    if len(card.tokens) == 3:
+        for combo, rule_ids, status in _combine(proposed_slots(card, rules)):
+            form = "".join(item.arabic for item in combo)
+            if status != "licensed" or form not in inventory.roots:
+                continue
+            rows.append(
+                {
+                    "root": form,
+                    "reading": clean(inventory.roots[form]),
+                    "rule_ids": list(rule_ids),
+                    "route_evidence_required": any(item.route_flag for item in combo),
+                }
+            )
     unique: dict[str, dict[str, Any]] = {}
     for row in rows:
         unique.setdefault(row["root"], row)
@@ -325,6 +437,7 @@ def prepare_proposed_queue(core_hash: str, network_hash: str, force: bool = Fals
     for rank, card in enumerate(cards, start=1):
         routes = proposed_routes(card, rules)
         card_forms = sorted(set(routes) & approved)
+        ambiguities = northwest_ambiguities(card)
         meta = metadata.get(card.entry_id, {})
         roots = full_root_candidates(card, rules, inventory)
         shortlist: list[dict[str, Any]] = []
@@ -370,17 +483,27 @@ def prepare_proposed_queue(core_hash: str, network_hash: str, force: bool = Fals
                         "orbit_status": "SOURCE-GAP; NO-TWO-LEXICON-ROOT-FAN",
                     }
                 )
-        shortlist.sort(
-            key=lambda item: (
-                -float(item["semantic_retrieval_score"]),
-                item["nucleus"],
-                str(item.get("support_root") or ""),
+        if ambiguities:
+            shortlist.sort(
+                key=lambda item: (
+                    item["nucleus"],
+                    str(item.get("support_root") or ""),
+                )
             )
-        )
+        else:
+            shortlist.sort(
+                key=lambda item: (
+                    -float(item["semantic_retrieval_score"]),
+                    item["nucleus"],
+                    str(item.get("support_root") or ""),
+                )
+            )
         shortlist = shortlist[:5]
 
         if card_forms:
             notes = [REQUIRED_NOTE]
+            if ambiguities:
+                notes.append(NORTHWEST_FACE_NOTE)
             state = "READING-OPEN-NOT-A-VERDICT"
         else:
             notes = [
@@ -417,6 +540,8 @@ def prepare_proposed_queue(core_hash: str, network_hash: str, force: bool = Fals
                 "tokens": list(card.tokens),
                 "approved_proposed_nuclei": card_forms,
                 "candidate_shortlist": shortlist,
+                "northwest_ambiguities": ambiguities,
+                "semantic_face_selection_forbidden": bool(ambiguities),
                 "full_root_candidates": roots,
                 "tri_root_precedence": "FULL-ROOT-FIRST" if roots else "NO-LICENSED-FULL-ROOT-FOUND",
                 "morphology_filter": morphology,
@@ -429,9 +554,10 @@ def prepare_proposed_queue(core_hash: str, network_hash: str, force: bool = Fals
         )
 
     carrying = sum(bool(row["approved_proposed_nuclei"]) for row in records)
-    if carrying != EXPECTED_CARRYING or len(records) - carrying != EXPECTED_WITHOUT:
+    if carrying < EXPECTED_CARRYING_BEFORE_SEMITIC_ROWS:
         raise RuntimeError(
-            f"انجرف حمل القرار: carrying={carrying} without={len(records) - carrying}"
+            f"تراجع حمل القرار بعد الصفوف السامية: carrying={carrying} "
+            f"baseline={EXPECTED_CARRYING_BEFORE_SEMITIC_ROWS}"
         )
     payload = {
         "schema": "delegated-ruling-proposed-opening-queue-v1",
@@ -669,7 +795,31 @@ def card_markdown(row: dict[str, Any]) -> str:
         if row["full_root_candidates"]:
             roots = "، ".join(f"`{item['root']}`" for item in row["full_root_candidates"])
             lines.append(f"- الجذور التامة المتاحة قبل النواة: {roots}.")
-        if row["candidate_shortlist"]:
+        ambiguities = row.get("northwest_ambiguities", [])
+        for ambiguity in ambiguities:
+            positions = "، ".join(str(position) for position in ambiguity["positions"])
+            faces = " و".join(
+                f"`{face['row_id']}`: {face['arabic']}"
+                for face in ambiguity["faces"]
+            )
+            lines.append(
+                f"- حارس حرف الشمال `{ambiguity['source_letter']}` في الموضع {positions}: "
+                f"مجمع `{ambiguity['proto_merger']}`؛ الوجهان معًا {faces}؛ "
+                "لا يُنتخب أحدهما لموافقة المعنى."
+            )
+            additional = ambiguity.get("additional_reflex")
+            if additional:
+                lines.append(
+                    f"- الانعكاس الآرامي الأثقل: `{additional['row_id']}`: "
+                    f"{additional['arabic']} عن `{additional['proto']}`؛ يظل احتمالًا تاريخيًا "
+                    "مستقلًا ولا يطمس وجهي العين."
+                )
+        if row["candidate_shortlist"] and ambiguities:
+            lines.append(
+                "- ترتيب المرشحين الصوتيين: لم يُنتخب مرشح أعلى بالمعنى؛ "
+                "المدارج المعجمية للاسترجاع فقط، والوجهان الصوتيان متلازمان في القراءة."
+            )
+        elif row["candidate_shortlist"]:
             top = row["candidate_shortlist"][0]
             route = top["route"]
             lines.append(
@@ -790,6 +940,22 @@ def validate_complete(rows: list[dict[str, Any]]) -> None:
     for row in proposed:
         if row["approved_proposed_nuclei"] and REQUIRED_NOTE not in row.get("notes", []):
             raise RuntimeError(f"بطاقة بلا وسم القرار: {row['entry_id']}")
+        expected_ambiguities = northwest_ambiguities(
+            proposed_report.Card(
+                entry_id=row["entry_id"],
+                language=row["language"],
+                headword=row.get("headword", ""),
+                romanization=row.get("romanization", ""),
+                gloss=row.get("branch_gloss", ""),
+                source=row.get("source", ""),
+                tokens=tuple(row.get("tokens", [])),
+            )
+        )
+        if expected_ambiguities and row["approved_proposed_nuclei"]:
+            if row.get("northwest_ambiguities") != expected_ambiguities:
+                raise RuntimeError(f"بطاقة شمالية بلا وجهيها: {row['entry_id']}")
+            if NORTHWEST_FACE_NOTE not in row.get("notes", []):
+                raise RuntimeError(f"بطاقة شمالية بلا تنبيه المجمع: {row['entry_id']}")
         if row.get("verdict_issued") or row.get("relation_created"):
             raise RuntimeError(f"تسرب حكم أو صلة من طبقة النوى: {row['entry_id']}")
 

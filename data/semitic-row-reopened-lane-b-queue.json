@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-06",
+  "scope": "Cards reopened only by the 2026-08-06 Semitic-row retraction rescreen.",
+  "summary": {
+    "total": 5,
+    "by_language": {
+      "aramaic": 1,
+      "hebrew": 4
+    },
+    "positive_verdicts_restored": 0
+  },
+  "queue": [
+    {
+      "queue_id": "LANE-B-SEM-REOPEN-001",
+      "copy_id": "RET-REOPEN-SEM-001",
+      "retraction_id": "RET-N-008",
+      "language": "aramaic",
+      "language_ar": "الآرامية",
+      "word": "עיבא",
+      "romanization": "ʕēḇā",
+      "sense": "rain cloud",
+      "layer": "nucleus",
+      "licensed_rows": [
+        "SEM-03",
+        "SEM-02"
+      ],
+      "correspondence": "ع ↔ ע، مع ذكر الوجه البديل غ ↔ ע",
+      "state": "OPEN-CANDIDATE",
+      "card_id": "aramaic:family:4e034bf7558d70476cbf2f6e",
+      "source_file": "04-cross-linguistic/readings/aramaic.md",
+      "heading": "### إعادة قراءة بطبقتين: `aramaic:family:4e034bf7558d70476cbf2f6e`، עיבא، العضو `kaikki_aramaic:1598:en-עיבא-arc-noun-CP1ry2DN`",
+      "remaining_work": "إعادة قراءة النواة دلاليًا، مع فصل وجهي العين والغين، من غير استعادة NUCLEUS-ECHO آليًا"
+    },
+    {
+      "queue_id": "LANE-B-SEM-REOPEN-002",
+      "copy_id": "RET-REOPEN-SEM-002",
+      "retraction_id": "RET-R-056",
+      "language": "hebrew",
+      "language_ar": "العبرية",
+      "word": "רעב",
+      "romanization": "ra'év، ra'áv",
+      "sense": "hungry، hunger، to hunger",
+      "layer": "root",
+      "licensed_rows": [
+        "SEM-02"
+      ],
+      "correspondence": "غ ↔ ע",
+      "state": "OPEN-CANDIDATE",
+      "card_id": "hebrew:family:3d1a812269dcc11383f991f3",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### بطاقة: `hebrew:family:3d1a812269dcc11383f991f3`، רעב (الرتبة 127)",
+      "remaining_work": "بناء مسار رغب داخل المروحة المرخصة نفسها، ثم اختبار مدار الجوع والرغبة من غير خلطه برعب"
+    },
+    {
+      "queue_id": "LANE-B-SEM-REOPEN-003",
+      "copy_id": "RET-REOPEN-SEM-003",
+      "retraction_id": "RET-R-057",
+      "language": "hebrew",
+      "language_ar": "العبرية",
+      "word": "מערה",
+      "romanization": "m'ará",
+      "sense": "cave",
+      "layer": "root",
+      "licensed_rows": [
+        "SEM-02"
+      ],
+      "correspondence": "غ ↔ ע",
+      "state": "OPEN-CANDIDATE",
+      "card_id": "hebrew:family:4e6d0ff7f8e256db90b211b4",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### بطاقة: `hebrew:family:4e6d0ff7f8e256db90b211b4`، מערה «مغارة» ↔ مغارة",
+      "remaining_work": "استيفاء قراءة الجذر المجمدة لمغر أو إحالة نافذة إليها، ثم إعادة الحكم الدلالي"
+    },
+    {
+      "queue_id": "LANE-B-SEM-REOPEN-004",
+      "copy_id": "RET-REOPEN-SEM-004",
+      "retraction_id": "RET-R-059",
+      "language": "hebrew",
+      "language_ar": "العبرية",
+      "word": "עץ",
+      "romanization": "ʿēṣ",
+      "sense": "tree",
+      "layer": "root",
+      "licensed_rows": [
+        "SEM-01"
+      ],
+      "correspondence": "ض ↔ ץ",
+      "state": "OPEN-CANDIDATE",
+      "card_id": "kaikki_hebrew:501:en-עץ-he-noun-3Jxe24st",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### بطاقة: `עץ`، العضو `kaikki_hebrew:501:en-עץ-he-noun-3Jxe24st`",
+      "remaining_work": "استيفاء بنية الثنائي العبري بإزاء عضة العربية وهائها، ثم اختبار تخصيص الشجر الشائك"
+    },
+    {
+      "queue_id": "LANE-B-SEM-REOPEN-005",
+      "copy_id": "RET-REOPEN-SEM-005",
+      "retraction_id": "RET-R-061",
+      "language": "hebrew",
+      "language_ar": "العبرية",
+      "word": "עול",
+      "romanization": "ol",
+      "sense": "yoke",
+      "layer": "root",
+      "licensed_rows": [
+        "SEM-02"
+      ],
+      "correspondence": "غ ↔ ע",
+      "state": "OPEN-CANDIDATE",
+      "card_id": "hebrew:family:c27d3342c239b7251fbdd4df",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### مراجعة عضوية: `hebrew:family:c27d3342c239b7251fbdd4df`، עול، كتلة الشواهد القديمة ذات المقابل العربي، الرتبة 62",
+      "remaining_work": "تفسير الواو ومضاعفة اللام في עול بإزاء غلل، ثم إعادة قراءة مدار القيد"
+    }
+  ]
+}

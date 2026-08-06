@@ -4,13 +4,13 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31223,
+  "cards_total": 31227,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 7442,
+    "cards": 7443,
     "links": 15
    },
    {
@@ -52,8 +52,8 @@
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1428,
-    "links": 1060
+    "cards": 1429,
+    "links": 1061
    },
    {
     "key": "ancient-greek",
@@ -94,14 +94,14 @@
     "key": "punic",
     "en": "Punic",
     "ar": "البونيقيّة",
-    "cards": 190,
+    "cards": 191,
     "links": 10
    },
    {
     "key": "akkadian",
     "en": "Akkadian",
     "ar": "الأكّاديّة",
-    "cards": 173,
+    "cards": 174,
     "links": 90
    },
    {
@@ -121,12 +121,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2495,
+  "links_to_arabic": 2496,
   "closures": 780,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1150,
+    "count": 1151,
     "link": true
    },
    {
@@ -197,13 +197,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27850,
-  "suspended": 20744,
-  "released": 7106,
+  "cards_total": 27854,
+  "suspended": 20747,
+  "released": 7107,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 16750
+    "count": 16753
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -237,7 +237,7 @@
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 7017
+    "count": 7018
    },
    {
     "file": "egyptian.md",
@@ -281,7 +281,7 @@
    },
    {
     "file": "punic.md",
-    "count": 88
+    "count": 89
    }
   ]
  },
@@ -292,17 +292,17 @@
   "required_total": 600,
   "required_per_language": 150,
   "families_tracked": 1810,
-  "eligible_now": 362,
+  "eligible_now": 363,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 234,
+    "eligible": 235,
     "represented": 597,
-    "positive_families": 234,
+    "positive_families": 235,
     "closure_only_families": 0,
-    "one_member_short": 91
+    "one_member_short": 90
    },
    {
     "name": "hebrew",
