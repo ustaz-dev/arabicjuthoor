@@ -36,7 +36,16 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import fan_northern_word as F  # noqa: E402
+import fan_any_script as FA  # noqa: E402
 from readable import say  # noqa: E402
+
+# اسمُ الذخيرة -> الخطُّ الذي تُقرأُ به مروحتُها. لا يُترَكُ للكشفِ التلقائيّ
+# لأنّ كلمةً مصريّةً مثل jb لا تحملُ حرفًا يميّزُ خطَّها.
+SCRIPT_OF = {
+    "aramaic": "north", "hebrew": "north", "coptic": "coptic",
+    "egyptian": "egyptian", "akkadian": "akkadian",
+    "ancient_greek": "greek",
+}
 
 OUT_DIR = ROOT / "04-cross-linguistic" / "exploration"
 
@@ -54,7 +63,35 @@ def words_of(text: str) -> set[str]:
     return {w for w in WORD.findall(str(text).lower()) if len(w) > 2 and w not in STOP}
 
 
+# الذخائرُ التي ليست jsonl، ولها قارئاتٌ في خطِّ الاسترداد أصلًا
+SPECIAL = {
+    "coptic": ("Comprehensive_Coptic_Lexicon.xml", "iter_coptic_tei"),
+    "egyptian": ("aed-v1.0.zip", "iter_aed_html_zip"),
+}
+
+
+def load_special(lang: str) -> list[dict]:
+    """القبطيّةُ XML والمصريّةُ zip، فتُقرآنِ بقارئِ خطِّ الاسترداد لا بقارئي."""
+    name, reader = SPECIAL[lang]
+    from recovery_pipeline import sources as S
+
+    it = getattr(S, reader)
+    rows = []
+    for e in it(ROOT / "Resources" / lang / name, lang):
+        w = str(getattr(e, "headword", "") or getattr(e, "form", "") or "").strip()
+        g = str(getattr(e, "gloss", "") or "").strip()
+        if w and g:
+            rows.append({"word": w, "glosses": [g]})
+    return rows
+
+
 def load_branch(lang: str) -> list[dict]:
+    if lang in SPECIAL:
+        try:
+            return load_special(lang)
+        except Exception as exc:  # noqa: BLE001
+            print(f"   تعذّرت قراءةُ {lang} بقارئِها الخاصّ: {exc}")
+            return []
     rows = []
     for f in glob.glob(str(ROOT / "Resources" / lang / "*.jsonl")):
         with open(f, encoding="utf-8") as fh:
@@ -95,11 +132,12 @@ def main() -> int:
     print(f"مداخلُ {args.lang}: {len(rows):,}\n")
 
     both, sound_only, none = [], [], 0
+    script = SCRIPT_OF.get(args.lang, "north")
     for r in rows:
-        sk = F.skeleton(r["word"])
+        sk = "".join(FA.skeleton(r["word"], script))
         if not (2 <= len(sk) <= 4):
             continue
-        cands = F.fan(sk)
+        cands = FA.fan(r["word"], script)
         if not cands or len(cands) > args.max_cands:
             continue
         hits = [c for c in cands if c in ar]

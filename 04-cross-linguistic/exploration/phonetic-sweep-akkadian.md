@@ -6,7 +6,11 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 0** · مطابقةُ صوتٍ وحدَه: 0
+**مطابقةُ صوتٍ ومعنًى معًا: 4** · مطابقةُ صوتٍ وحدَه: 552
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
+| `šinnum` | šinnum | tooth; teeth ("two rows of teeth") | **سن** | 1: teeth | شن · ثن |
+| `pûm` | pûm | mouth; word(s), utterance, speech, command | **فم** | 1: mouth | بم |
+| `epēšum` | epēšum | to act, behave, proceed, be(come) active; to do, make, build, manufacture | **فش** | 1: come | بس · فس · فث · بش · بث |
+| `kânum` | kânum | to stay in place, remain stationary; to remain steadfast and secure | **كن** | 1: place | - |

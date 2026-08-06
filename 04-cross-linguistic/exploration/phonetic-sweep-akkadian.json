@@ -1,5 +1,7452 @@
 {
  "language": "akkadian",
- "both": [],
- "sound_only": []
+ "both": [
+  {
+   "branch": "šinnum",
+   "say": "šinnum",
+   "skeleton": "šn",
+   "gloss": "tooth; teeth (\"two rows of teeth\")",
+   "candidates_found": [
+    "سن",
+    "شن",
+    "ثن"
+   ],
+   "best": "سن",
+   "overlap": 1,
+   "shared": [
+    "teeth"
+   ]
+  },
+  {
+   "branch": "pûm",
+   "say": "pûm",
+   "skeleton": "pm",
+   "gloss": "mouth; word(s), utterance, speech, command",
+   "candidates_found": [
+    "فم",
+    "بم"
+   ],
+   "best": "فم",
+   "overlap": 1,
+   "shared": [
+    "mouth"
+   ]
+  },
+  {
+   "branch": "epēšum",
+   "say": "epēšum",
+   "skeleton": "pš",
+   "gloss": "to act, behave, proceed, be(come) active; to do, make, build, manufacture",
+   "candidates_found": [
+    "فش",
+    "بس",
+    "فس",
+    "فث",
+    "بش",
+    "بث"
+   ],
+   "best": "فش",
+   "overlap": 1,
+   "shared": [
+    "come"
+   ]
+  },
+  {
+   "branch": "kânum",
+   "say": "kânum",
+   "skeleton": "kn",
+   "gloss": "to stay in place, remain stationary; to remain steadfast and secure",
+   "candidates_found": [
+    "كن"
+   ],
+   "best": "كن",
+   "overlap": 1,
+   "shared": [
+    "place"
+   ]
+  }
+ ],
+ "sound_only": [
+  {
+   "branch": "Marduk",
+   "say": "Marduk",
+   "skeleton": "rdk",
+   "gloss": "Marduk (chief god of Babylon, later king of the gods)",
+   "candidates_found": [
+    "ردك",
+    "رذك",
+    "رضك"
+   ],
+   "best": "ردك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "urdu",
+   "say": "urdu",
+   "skeleton": "rd",
+   "gloss": "alternative form of wardum",
+   "candidates_found": [
+    "رد",
+    "رذ",
+    "رض"
+   ],
+   "best": "رد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gulgul",
+   "say": "gulgul",
+   "skeleton": "glgl",
+   "gloss": "construct state of gulgullum",
+   "candidates_found": [
+    "جلجل"
+   ],
+   "best": "جلجل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "anta",
+   "say": "anta",
+   "skeleton": "nt",
+   "gloss": "Eblaite form of atta",
+   "candidates_found": [
+    "نت",
+    "نث"
+   ],
+   "best": "نت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kalbu",
+   "say": "kalbu",
+   "skeleton": "klb",
+   "gloss": "Non-mimated form of kalbum",
+   "candidates_found": [
+    "كلب"
+   ],
+   "best": "كلب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kāsu",
+   "say": "kāsu",
+   "skeleton": "ks",
+   "gloss": "alternative form of kāsum",
+   "candidates_found": [
+    "كس"
+   ],
+   "best": "كس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "minde",
+   "say": "minde",
+   "skeleton": "mnd",
+   "gloss": "perhaps, maybe, possibly, who knows",
+   "candidates_found": [
+    "مند",
+    "منذ"
+   ],
+   "best": "مند",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "idin",
+   "say": "idin",
+   "skeleton": "dn",
+   "gloss": "second-person singular masculine imperative of nadānum",
+   "candidates_found": [
+    "دن",
+    "ذن",
+    "ضن"
+   ],
+   "best": "دن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ardu",
+   "say": "ardu",
+   "skeleton": "rd",
+   "gloss": "alternative form of wardum",
+   "candidates_found": [
+    "رد",
+    "رذ",
+    "رض"
+   ],
+   "best": "رد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šina",
+   "say": "šina",
+   "skeleton": "šn",
+   "gloss": "they (feminine plural subject pronoun); those, these same (aforementioned feminine plural ",
+   "candidates_found": [
+    "شن",
+    "سن",
+    "ثن"
+   ],
+   "best": "شن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Šamaš",
+   "say": "Šamaš",
+   "skeleton": "mš",
+   "gloss": "Shamash, the sun god.",
+   "candidates_found": [
+    "مش",
+    "مس",
+    "مث"
+   ],
+   "best": "مش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "patrum",
+   "say": "patrum",
+   "skeleton": "ptr",
+   "gloss": "knife, dagger, sword",
+   "candidates_found": [
+    "فتر",
+    "فثر",
+    "بتر",
+    "بثر"
+   ],
+   "best": "فتر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ardum",
+   "say": "ardum",
+   "skeleton": "rd",
+   "gloss": "alternative form of wardum",
+   "candidates_found": [
+    "رد",
+    "رذ",
+    "رض"
+   ],
+   "best": "رد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mutum",
+   "say": "mutum",
+   "skeleton": "mt",
+   "gloss": "husband; man, warrior",
+   "candidates_found": [
+    "مت",
+    "مث"
+   ],
+   "best": "مت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "aptum",
+   "say": "aptum",
+   "skeleton": "pt",
+   "gloss": "window, window opening; opening of the ear",
+   "candidates_found": [
+    "فت",
+    "فث",
+    "بت",
+    "بث"
+   ],
+   "best": "فت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "erbet",
+   "say": "erbet",
+   "skeleton": "rbt",
+   "gloss": "four, 4",
+   "candidates_found": [
+    "ربت",
+    "ربث"
+   ],
+   "best": "ربت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mannum",
+   "say": "mannum",
+   "skeleton": "mn",
+   "gloss": "who?; whoever, anyone, someone, one",
+   "candidates_found": [
+    "من"
+   ],
+   "best": "من",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gardumu",
+   "say": "gardumu",
+   "skeleton": "grdm",
+   "gloss": "The meaning of this term is uncertain. Possibilities include:; carnifex, executioner",
+   "candidates_found": [
+    "جردم",
+    "جرذم",
+    "جرضم"
+   ],
+   "best": "جردم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šar",
+   "say": "šar",
+   "skeleton": "šr",
+   "gloss": "construct state of šarrum",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "warka",
+   "say": "warka",
+   "skeleton": "wrk",
+   "gloss": "afterwards, later; behind, in the rear",
+   "candidates_found": [
+    "ورك"
+   ],
+   "best": "ورك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bardu",
+   "say": "bardu",
+   "skeleton": "brd",
+   "gloss": "alternative form of wardum",
+   "candidates_found": [
+    "برد",
+    "برذ",
+    "برض"
+   ],
+   "best": "برد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Ištar",
+   "say": "Ištar",
+   "skeleton": "štr",
+   "gloss": "Ishtar (goddess of love and war, associated with the planet Venus, corresponding to the Su",
+   "candidates_found": [
+    "شتر",
+    "شثر",
+    "ستر"
+   ],
+   "best": "شتر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bardum",
+   "say": "bardum",
+   "skeleton": "brd",
+   "gloss": "alternative form of wardum",
+   "candidates_found": [
+    "برد",
+    "برذ",
+    "برض"
+   ],
+   "best": "برد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "urdum",
+   "say": "urdum",
+   "skeleton": "rd",
+   "gloss": "alternative form of wardum",
+   "candidates_found": [
+    "رد",
+    "رذ",
+    "رض"
+   ],
+   "best": "رد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gūdu",
+   "say": "gūdu",
+   "skeleton": "gd",
+   "gloss": "leather bag, waterskin",
+   "candidates_found": [
+    "جد",
+    "جذ",
+    "جض",
+    "غد",
+    "غذ",
+    "غض"
+   ],
+   "best": "جد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "warki",
+   "say": "warki",
+   "skeleton": "wrk",
+   "gloss": "after; behind",
+   "candidates_found": [
+    "ورك"
+   ],
+   "best": "ورك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "abdu",
+   "say": "abdu",
+   "skeleton": "bd",
+   "gloss": "servant, slave",
+   "candidates_found": [
+    "بد",
+    "بذ",
+    "بض"
+   ],
+   "best": "بد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Ugarit",
+   "say": "Ugarit",
+   "skeleton": "grt",
+   "gloss": "Ugarit (an ancient port city in northern Syria, discovered by accident in 1928 together wi",
+   "candidates_found": [
+    "جرت",
+    "جرث",
+    "غرث"
+   ],
+   "best": "جرت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "wardu",
+   "say": "wardu",
+   "skeleton": "wrd",
+   "gloss": "alternative form of wardum",
+   "candidates_found": [
+    "ورد",
+    "ورذ",
+    "ورض"
+   ],
+   "best": "ورد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "sebet",
+   "say": "sebet",
+   "skeleton": "sbt",
+   "gloss": "seven, 7",
+   "candidates_found": [
+    "سبت"
+   ],
+   "best": "سبت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kudurru",
+   "say": "kudurru",
+   "skeleton": "kdr",
+   "gloss": "boundary stone, boundary marker; boundary",
+   "candidates_found": [
+    "كدر",
+    "كذر",
+    "كضر"
+   ],
+   "best": "كدر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "iltum",
+   "say": "iltum",
+   "skeleton": "lt",
+   "gloss": "goddess",
+   "candidates_found": [
+    "لت",
+    "لث"
+   ],
+   "best": "لت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šamû",
+   "say": "šamû",
+   "skeleton": "šm",
+   "gloss": "sky, heaven",
+   "candidates_found": [
+    "شم",
+    "سم",
+    "ثم"
+   ],
+   "best": "شم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bītum",
+   "say": "bītum",
+   "skeleton": "bt",
+   "gloss": "house; palace",
+   "candidates_found": [
+    "بت",
+    "بث"
+   ],
+   "best": "بت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ēkallum",
+   "say": "ēkallum",
+   "skeleton": "kl",
+   "gloss": "palace; administrative authority, government",
+   "candidates_found": [
+    "كل"
+   ],
+   "best": "كل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šumma",
+   "say": "šumma",
+   "skeleton": "šm",
+   "gloss": "if, whether",
+   "candidates_found": [
+    "شم",
+    "سم",
+    "ثم"
+   ],
+   "best": "شم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "awīlum",
+   "say": "awīlum",
+   "skeleton": "wl",
+   "gloss": "man; human being",
+   "candidates_found": [
+    "ول"
+   ],
+   "best": "ول",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bēlum",
+   "say": "bēlum",
+   "skeleton": "bl",
+   "gloss": "lord; proprietor, owner",
+   "candidates_found": [
+    "بل"
+   ],
+   "best": "بل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bēltum",
+   "say": "bēltum",
+   "skeleton": "blt",
+   "gloss": "lady, mistress; female owner",
+   "candidates_found": [
+    "بلت",
+    "بلث"
+   ],
+   "best": "بلت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kāsum",
+   "say": "kāsum",
+   "skeleton": "ks",
+   "gloss": "a cup, goblet, bowl; cup",
+   "candidates_found": [
+    "كس"
+   ],
+   "best": "كس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šarāqum",
+   "say": "šarāqum",
+   "skeleton": "šrq",
+   "gloss": "to steal, to act as a thief; to kidnap",
+   "candidates_found": [
+    "شرق",
+    "سرق",
+    "ثرق"
+   ],
+   "best": "شرق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šarqum",
+   "say": "šarqum",
+   "skeleton": "šrq",
+   "gloss": "stolen",
+   "candidates_found": [
+    "شرق",
+    "سرق",
+    "ثرق"
+   ],
+   "best": "شرق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šarrāqum",
+   "say": "šarrāqum",
+   "skeleton": "šrq",
+   "gloss": "thief, robber",
+   "candidates_found": [
+    "شرق",
+    "سرق",
+    "ثرق"
+   ],
+   "best": "شرق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "paššūrum",
+   "say": "paššūrum",
+   "skeleton": "pšr",
+   "gloss": "dining tray, table; offering table",
+   "candidates_found": [
+    "فشر",
+    "فسر",
+    "فثر",
+    "بشر",
+    "بسر",
+    "بثر"
+   ],
+   "best": "فشر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "walādum",
+   "say": "walādum",
+   "skeleton": "wld",
+   "gloss": "to give birth; to produce, to create",
+   "candidates_found": [
+    "ولد",
+    "ولذ"
+   ],
+   "best": "ولد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "muškēnum",
+   "say": "muškēnum",
+   "skeleton": "mškn",
+   "gloss": "commoner, dependent (a class of people dependent or reliant on others, unable to provide s",
+   "candidates_found": [
+    "مشكن",
+    "مسكن"
+   ],
+   "best": "مشكن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ilānū",
+   "say": "ilānū",
+   "skeleton": "ln",
+   "gloss": "plural of ilum",
+   "candidates_found": [
+    "لن"
+   ],
+   "best": "لن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "amtum",
+   "say": "amtum",
+   "skeleton": "mt",
+   "gloss": "female slave, female servant",
+   "candidates_found": [
+    "مت",
+    "مث"
+   ],
+   "best": "مت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kaspum",
+   "say": "kaspum",
+   "skeleton": "ksp",
+   "gloss": "silver; money",
+   "candidates_found": [
+    "كسف",
+    "كسب"
+   ],
+   "best": "كسف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mārum",
+   "say": "mārum",
+   "skeleton": "mr",
+   "gloss": "son",
+   "candidates_found": [
+    "مر"
+   ],
+   "best": "مر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mārtum",
+   "say": "mārtum",
+   "skeleton": "mrt",
+   "gloss": "daughter",
+   "candidates_found": [
+    "مرت",
+    "مرث"
+   ],
+   "best": "مرت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qaqqadum",
+   "say": "qaqqadum",
+   "skeleton": "qd",
+   "gloss": "head; person, self",
+   "candidates_found": [
+    "قد",
+    "قذ",
+    "قض"
+   ],
+   "best": "قد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣābum",
+   "say": "ṣābum",
+   "skeleton": "ṣb",
+   "gloss": "worker, soldier; gang, army, troop, people, population",
+   "candidates_found": [
+    "صب",
+    "ضب",
+    "ظب"
+   ],
+   "best": "صب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šarrum",
+   "say": "šarrum",
+   "skeleton": "šr",
+   "gloss": "king",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šarratum",
+   "say": "šarratum",
+   "skeleton": "šrt",
+   "gloss": "queen",
+   "candidates_found": [
+    "شرت",
+    "شرث",
+    "سرت"
+   ],
+   "best": "شرت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "wardum",
+   "say": "wardum",
+   "skeleton": "wrd",
+   "gloss": "male slave, male servant; official, subordinate, soldier",
+   "candidates_found": [
+    "ورد",
+    "ورذ",
+    "ورض"
+   ],
+   "best": "ورد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rēšum",
+   "say": "rēšum",
+   "skeleton": "rš",
+   "gloss": "head; servant, slave",
+   "candidates_found": [
+    "رش",
+    "رس",
+    "رث"
+   ],
+   "best": "رش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "aššatum",
+   "say": "aššatum",
+   "skeleton": "št",
+   "gloss": "wife",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kakkabum",
+   "say": "kakkabum",
+   "skeleton": "kb",
+   "gloss": "star; meteor, falling star",
+   "candidates_found": [
+    "كب"
+   ],
+   "best": "كب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "emūqum",
+   "say": "emūqum",
+   "skeleton": "mq",
+   "gloss": "strength, power, force, ability; armed forces, army",
+   "candidates_found": [
+    "مق"
+   ],
+   "best": "مق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pānum",
+   "say": "pānum",
+   "skeleton": "pn",
+   "gloss": "front, front part; surface",
+   "candidates_found": [
+    "فن",
+    "بن"
+   ],
+   "best": "فن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pānum",
+   "say": "pānum",
+   "skeleton": "pn",
+   "gloss": "a pānu (a large measuring basket); bushel (a dry capacity measure, equal to 60 qûm in Old ",
+   "candidates_found": [
+    "فن",
+    "بن"
+   ],
+   "best": "فن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "līmum",
+   "say": "līmum",
+   "skeleton": "lm",
+   "gloss": "one thousand, 1000",
+   "candidates_found": [
+    "لم"
+   ],
+   "best": "لم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "išdum",
+   "say": "išdum",
+   "skeleton": "šd",
+   "gloss": "base, foundation, bottom; discipline",
+   "candidates_found": [
+    "شد",
+    "شذ",
+    "سد"
+   ],
+   "best": "شد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "libbum",
+   "say": "libbum",
+   "skeleton": "lb",
+   "gloss": "heart, abdomen, womb; mind, thought, intention, wish, desire, preference",
+   "candidates_found": [
+    "لب"
+   ],
+   "best": "لب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šīpātum",
+   "say": "šīpātum",
+   "skeleton": "špt",
+   "gloss": "wool, fleece",
+   "candidates_found": [
+    "شفت",
+    "شفث",
+    "شبت",
+    "شبث",
+    "سفت",
+    "سبت",
+    "ثفت",
+    "ثبت"
+   ],
+   "best": "شفت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šārtum",
+   "say": "šārtum",
+   "skeleton": "šrt",
+   "gloss": "a single hair; hair",
+   "candidates_found": [
+    "شرت",
+    "شرث",
+    "سرت"
+   ],
+   "best": "شرت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kirûm",
+   "say": "kirûm",
+   "skeleton": "krm",
+   "gloss": "garden, orchard",
+   "candidates_found": [
+    "كرم"
+   ],
+   "best": "كرم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṭuppum",
+   "say": "ṭuppum",
+   "skeleton": "ṭp",
+   "gloss": "tablet, document, letter",
+   "candidates_found": [
+    "طف",
+    "طب",
+    "ظف",
+    "ظب"
+   ],
+   "best": "طف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "aradum",
+   "say": "aradum",
+   "skeleton": "rd",
+   "gloss": "alternative form of wardum",
+   "candidates_found": [
+    "رد",
+    "رذ",
+    "رض"
+   ],
+   "best": "رد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kirû",
+   "say": "kirû",
+   "skeleton": "kr",
+   "gloss": "alternative form of kirûm",
+   "candidates_found": [
+    "كر"
+   ],
+   "best": "كر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kirium",
+   "say": "kirium",
+   "skeleton": "kr",
+   "gloss": "alternative form of kirûm",
+   "candidates_found": [
+    "كر"
+   ],
+   "best": "كر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "uznum",
+   "say": "uznum",
+   "skeleton": "zn",
+   "gloss": "ear; attention",
+   "candidates_found": [
+    "زن",
+    "ذن"
+   ],
+   "best": "زن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "uznu",
+   "say": "uznu",
+   "skeleton": "zn",
+   "gloss": "alternative form of uznum",
+   "candidates_found": [
+    "زن",
+    "ذن"
+   ],
+   "best": "زن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ištu",
+   "say": "ištu",
+   "skeleton": "št",
+   "gloss": "from, out of; down from",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ištu",
+   "say": "ištu",
+   "skeleton": "št",
+   "gloss": "since, after; when, as soon as",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "damāqum",
+   "say": "damāqum",
+   "skeleton": "dmq",
+   "gloss": "to be good, better, improve, prosper, have success, have a good luck",
+   "candidates_found": [
+    "دمق"
+   ],
+   "best": "دمق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "danānum",
+   "say": "danānum",
+   "skeleton": "dn",
+   "gloss": "to become strong; to be hard, severe, tough, threatening",
+   "candidates_found": [
+    "دن",
+    "ذن",
+    "ضن"
+   ],
+   "best": "دن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫalāqum",
+   "say": "ḫalāqum",
+   "skeleton": "ḫlq",
+   "gloss": "to disappear, vanquish, go missing, get lost, perish; to flee, escape",
+   "candidates_found": [
+    "خلق",
+    "حلق",
+    "هلق",
+    "علق",
+    "غلق"
+   ],
+   "best": "خلق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šamšum",
+   "say": "šamšum",
+   "skeleton": "šmš",
+   "gloss": "sun; sunlight",
+   "candidates_found": [
+    "شمس",
+    "سمس"
+   ],
+   "best": "شمس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qanûm",
+   "say": "qanûm",
+   "skeleton": "qnm",
+   "gloss": "reed, cane; arrow",
+   "candidates_found": [
+    "قنم"
+   ],
+   "best": "قنم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qanûm",
+   "say": "qanûm",
+   "skeleton": "qnm",
+   "gloss": "to keep possession of; to acquire, buy",
+   "candidates_found": [
+    "قنم"
+   ],
+   "best": "قنم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "warāqum",
+   "say": "warāqum",
+   "skeleton": "wrq",
+   "gloss": "to be(come) green, yellow, to turn pale",
+   "candidates_found": [
+    "ورق"
+   ],
+   "best": "ورق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "aplum",
+   "say": "aplum",
+   "skeleton": "pl",
+   "gloss": "heir, oldest son",
+   "candidates_found": [
+    "فل",
+    "بل"
+   ],
+   "best": "فل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "agammum",
+   "say": "agammum",
+   "skeleton": "gm",
+   "gloss": "marsh, lagoon",
+   "candidates_found": [
+    "جم",
+    "غم"
+   ],
+   "best": "جم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "imērum",
+   "say": "imērum",
+   "skeleton": "mr",
+   "gloss": "donkey; homer (a unity of capacity equal to 12 or 18 sūtum (“seah”))",
+   "candidates_found": [
+    "مر"
+   ],
+   "best": "مر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kašādum",
+   "say": "kašādum",
+   "skeleton": "kšd",
+   "gloss": "to arrive at (a place), reach; to achieve, accomplish, get, complete",
+   "candidates_found": [
+    "كشد",
+    "كسد"
+   ],
+   "best": "كشد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mātum",
+   "say": "mātum",
+   "skeleton": "mt",
+   "gloss": "home country, native land; land (in contrast to sea), flat country (in contrast to mountai",
+   "candidates_found": [
+    "مت",
+    "مث"
+   ],
+   "best": "مت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "awīltum",
+   "say": "awīltum",
+   "skeleton": "wlt",
+   "gloss": "woman, lady; female, feminine",
+   "candidates_found": [
+    "ولت",
+    "ولث"
+   ],
+   "best": "ولت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "aḫûm",
+   "say": "aḫûm",
+   "skeleton": "ḫm",
+   "gloss": "foreign, outsider, alien; hostile",
+   "candidates_found": [
+    "خم",
+    "حم",
+    "هم",
+    "عم",
+    "غم"
+   ],
+   "best": "خم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "aḫûm",
+   "say": "aḫûm",
+   "skeleton": "ḫm",
+   "gloss": "stranger, foreigner, outsider",
+   "candidates_found": [
+    "خم",
+    "حم",
+    "هم",
+    "عم",
+    "غم"
+   ],
+   "best": "خم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kappum",
+   "say": "kappum",
+   "skeleton": "kp",
+   "gloss": "hand, palm of the hand; paw",
+   "candidates_found": [
+    "كف",
+    "كب"
+   ],
+   "best": "كف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kappum",
+   "say": "kappum",
+   "skeleton": "kp",
+   "gloss": "wing; feather, quill",
+   "candidates_found": [
+    "كف",
+    "كب"
+   ],
+   "best": "كف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "waklum",
+   "say": "waklum",
+   "skeleton": "wkl",
+   "gloss": "overseer, inspector, foreman",
+   "candidates_found": [
+    "وكل"
+   ],
+   "best": "وكل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pûm",
+   "say": "pûm",
+   "skeleton": "pm",
+   "gloss": "chaff, husks, stubble",
+   "candidates_found": [
+    "فم",
+    "بم"
+   ],
+   "best": "فم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šumum",
+   "say": "šumum",
+   "skeleton": "šm",
+   "gloss": "name; fame, reputation",
+   "candidates_found": [
+    "شم",
+    "سم",
+    "ثم"
+   ],
+   "best": "شم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šattum",
+   "say": "šattum",
+   "skeleton": "št",
+   "gloss": "year; time of the year, season",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nīšum",
+   "say": "nīšum",
+   "skeleton": "nš",
+   "gloss": "life",
+   "candidates_found": [
+    "نش",
+    "نس",
+    "نث"
+   ],
+   "best": "نش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zikrum",
+   "say": "zikrum",
+   "skeleton": "zkr",
+   "gloss": "discourse, utterance, pronouncement, words; mention",
+   "candidates_found": [
+    "زكر",
+    "ذكر"
+   ],
+   "best": "زكر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zikrum",
+   "say": "zikrum",
+   "skeleton": "zkr",
+   "gloss": "alternative form of zikarum",
+   "candidates_found": [
+    "زكر",
+    "ذكر"
+   ],
+   "best": "زكر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "marrum",
+   "say": "marrum",
+   "skeleton": "mr",
+   "gloss": "bitter, brackish, biting",
+   "candidates_found": [
+    "مر"
+   ],
+   "best": "مر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṭabtum",
+   "say": "ṭabtum",
+   "skeleton": "ṭbt",
+   "gloss": "salt",
+   "candidates_found": [
+    "طبث"
+   ],
+   "best": "طبث",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṭābum",
+   "say": "ṭābum",
+   "skeleton": "ṭb",
+   "gloss": "pleasant, pleasing; sweet",
+   "candidates_found": [
+    "طب",
+    "ظب"
+   ],
+   "best": "طب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "birkum",
+   "say": "birkum",
+   "skeleton": "brk",
+   "gloss": "knee; lap",
+   "candidates_found": [
+    "برك"
+   ],
+   "best": "برك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qaqqarum",
+   "say": "qaqqarum",
+   "skeleton": "qr",
+   "gloss": "the earth; the underworld",
+   "candidates_found": [
+    "قر"
+   ],
+   "best": "قر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "abnum",
+   "say": "abnum",
+   "skeleton": "bn",
+   "gloss": "stone, rock; semiprecious or precious stone",
+   "candidates_found": [
+    "بن"
+   ],
+   "best": "بن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "alpum",
+   "say": "alpum",
+   "skeleton": "lp",
+   "gloss": "ox, bull; head of cattle",
+   "candidates_found": [
+    "لف",
+    "لب"
+   ],
+   "best": "لف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dayyānum",
+   "say": "dayyānum",
+   "skeleton": "dyn",
+   "gloss": "judge",
+   "candidates_found": [
+    "دين",
+    "ذين",
+    "ضين"
+   ],
+   "best": "دين",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "aḫātum",
+   "say": "aḫātum",
+   "skeleton": "ḫt",
+   "gloss": "sister",
+   "candidates_found": [
+    "خت",
+    "خث",
+    "حت",
+    "حث",
+    "هت",
+    "هث",
+    "عت",
+    "عث",
+    "غت",
+    "غث"
+   ],
+   "best": "خت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šūmū",
+   "say": "šūmū",
+   "skeleton": "šm",
+   "gloss": "garlic",
+   "candidates_found": [
+    "شم",
+    "سم",
+    "ثم"
+   ],
+   "best": "شم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nadānum",
+   "say": "nadānum",
+   "skeleton": "ndn",
+   "gloss": "to give, grant; to hand over, deliver, transfer",
+   "candidates_found": [
+    "ندن"
+   ],
+   "best": "ندن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ištēn",
+   "say": "ištēn",
+   "skeleton": "štn",
+   "gloss": "one, 1; a, an (indefinite article), single, individual, each",
+   "candidates_found": [
+    "شتن",
+    "شثن",
+    "ستن",
+    "ثتن"
+   ],
+   "best": "شتن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zikarum",
+   "say": "zikarum",
+   "skeleton": "zkr",
+   "gloss": "male, virile",
+   "candidates_found": [
+    "زكر",
+    "ذكر"
+   ],
+   "best": "زكر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zikarum",
+   "say": "zikarum",
+   "skeleton": "zkr",
+   "gloss": "man, male; ram",
+   "candidates_found": [
+    "زكر",
+    "ذكر"
+   ],
+   "best": "زكر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "išarum",
+   "say": "išarum",
+   "skeleton": "šr",
+   "gloss": "penis, phallus",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šamnum",
+   "say": "šamnum",
+   "skeleton": "šmn",
+   "gloss": "oil, fat, cream",
+   "candidates_found": [
+    "شمن",
+    "سمن",
+    "ثمن"
+   ],
+   "best": "شمن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šamaššammum",
+   "say": "šamaššammum",
+   "skeleton": "šmšm",
+   "gloss": "an oil-producing plant and its seeds, probably sesame (or flax, linseed).",
+   "candidates_found": [
+    "ثمثم"
+   ],
+   "best": "ثمثم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šammum",
+   "say": "šammum",
+   "skeleton": "šm",
+   "gloss": "plant, grass; hay, fodder",
+   "candidates_found": [
+    "شم",
+    "سم",
+    "ثم"
+   ],
+   "best": "شم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šammi Šamaš",
+   "say": "šammi Šamaš",
+   "skeleton": "šmš",
+   "gloss": "sunflower",
+   "candidates_found": [
+    "شمس",
+    "سمس"
+   ],
+   "best": "شمس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qabûm",
+   "say": "qabûm",
+   "skeleton": "qbm",
+   "gloss": "to say, tell, speak, report, recite, pronounce, utter, declare; to enumerate, list (to say",
+   "candidates_found": [
+    "قبم"
+   ],
+   "best": "قبم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "warḫum",
+   "say": "warḫum",
+   "skeleton": "wrḫ",
+   "gloss": "moon; new moon (first day of the month)",
+   "candidates_found": [
+    "ورخ",
+    "وره",
+    "ورع",
+    "ورغ"
+   ],
+   "best": "ورخ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "alākum",
+   "say": "alākum",
+   "skeleton": "lk",
+   "gloss": "to go, move, proceed; to come",
+   "candidates_found": [
+    "لك"
+   ],
+   "best": "لك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ālikum",
+   "say": "ālikum",
+   "skeleton": "lk",
+   "gloss": "traveller, messenger",
+   "candidates_found": [
+    "لك"
+   ],
+   "best": "لك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ilkum",
+   "say": "ilkum",
+   "skeleton": "lk",
+   "gloss": "ilkum-service, i.e. work or service performed for the state or king, generally on a field ",
+   "candidates_found": [
+    "لك"
+   ],
+   "best": "لك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "alaktum",
+   "say": "alaktum",
+   "skeleton": "lkt",
+   "gloss": "behaviour, customs; activity, movement",
+   "candidates_found": [
+    "لكت",
+    "لكث"
+   ],
+   "best": "لكت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kalbum",
+   "say": "kalbum",
+   "skeleton": "klb",
+   "gloss": "dog also as an invective; dog figurine",
+   "candidates_found": [
+    "كلب"
+   ],
+   "best": "كلب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qarnum",
+   "say": "qarnum",
+   "skeleton": "qrn",
+   "gloss": "horn; horn (a drinking vessel made of horn)",
+   "candidates_found": [
+    "قرن"
+   ],
+   "best": "قرن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nagbum",
+   "say": "nagbum",
+   "skeleton": "ngb",
+   "gloss": "underground water; spring, fountain, source, headwaters (of a river)",
+   "candidates_found": [
+    "نجب",
+    "نغب"
+   ],
+   "best": "نجب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "eleppum",
+   "say": "eleppum",
+   "skeleton": "lp",
+   "gloss": "ship, boat",
+   "candidates_found": [
+    "لف",
+    "لب"
+   ],
+   "best": "لف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "lītum",
+   "say": "lītum",
+   "skeleton": "lt",
+   "gloss": "cow; bovines (of both sexes and all ages)",
+   "candidates_found": [
+    "لت",
+    "لث"
+   ],
+   "best": "لت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "lûm",
+   "say": "lûm",
+   "skeleton": "lm",
+   "gloss": "bull; lion",
+   "candidates_found": [
+    "لم"
+   ],
+   "best": "لم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mēsum",
+   "say": "mēsum",
+   "skeleton": "ms",
+   "gloss": "mēsum tree, mēsum wood (a type of native tree and its wood)",
+   "candidates_found": [
+    "مس"
+   ],
+   "best": "مس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Bābilim",
+   "say": "Bābilim",
+   "skeleton": "bl",
+   "gloss": "Babylon",
+   "candidates_found": [
+    "بل"
+   ],
+   "best": "بل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ugārum",
+   "say": "ugārum",
+   "skeleton": "gr",
+   "gloss": "arable land, meadow",
+   "candidates_found": [
+    "جر",
+    "غر"
+   ],
+   "best": "جر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "eperum",
+   "say": "eperum",
+   "skeleton": "pr",
+   "gloss": "dust; soil, earth (for building work)",
+   "candidates_found": [
+    "فر",
+    "بر"
+   ],
+   "best": "فر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dārum",
+   "say": "dārum",
+   "skeleton": "dr",
+   "gloss": "perpetuity, continuum, permanence; generation, lifetime (60~70 years, the life span of a h",
+   "candidates_found": [
+    "در",
+    "ذر",
+    "ضر"
+   ],
+   "best": "در",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "amurdinnum",
+   "say": "amurdinnum",
+   "skeleton": "mrdn",
+   "gloss": "The meaning of this term is uncertain. Possibilities include:; bramble, blackberry",
+   "candidates_found": [
+    "مردن"
+   ],
+   "best": "مردن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "sīḫum",
+   "say": "sīḫum",
+   "skeleton": "sḫ",
+   "gloss": "an uncertain kind of tree and its resin, possibly wormwood (Artemisia judaica)",
+   "candidates_found": [
+    "سح",
+    "سه",
+    "سع"
+   ],
+   "best": "سح",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "elēpum",
+   "say": "elēpum",
+   "skeleton": "lp",
+   "gloss": "to sprout, grow",
+   "candidates_found": [
+    "لف",
+    "لب"
+   ],
+   "best": "لف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "irgilum",
+   "say": "irgilum",
+   "skeleton": "rgl",
+   "gloss": "alternative spelling of ergilum",
+   "candidates_found": [
+    "رجل",
+    "رغل"
+   ],
+   "best": "رجل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ergilum",
+   "say": "ergilum",
+   "skeleton": "rgl",
+   "gloss": "a type of orthopteran, possibly the bush-cricket",
+   "candidates_found": [
+    "رجل",
+    "رغل"
+   ],
+   "best": "رجل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gišimmarum",
+   "say": "gišimmarum",
+   "skeleton": "gšmr",
+   "gloss": "date palm",
+   "candidates_found": [
+    "جسمر",
+    "غشمر",
+    "غثمر"
+   ],
+   "best": "جسمر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "musukkannum",
+   "say": "musukkannum",
+   "skeleton": "mskn",
+   "gloss": "a musukkannu tree (a type of tree and its wood imported from the East)",
+   "candidates_found": [
+    "مسكن"
+   ],
+   "best": "مسكن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "akālum",
+   "say": "akālum",
+   "skeleton": "kl",
+   "gloss": "to eat, consume; to use, to have usufruct of",
+   "candidates_found": [
+    "كل"
+   ],
+   "best": "كل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "akalum",
+   "say": "akalum",
+   "skeleton": "kl",
+   "gloss": "bread, loaf (of bread); edibles, food",
+   "candidates_found": [
+    "كل"
+   ],
+   "best": "كل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "aklum",
+   "say": "aklum",
+   "skeleton": "kl",
+   "gloss": "alternative form of akalum (“food”)",
+   "candidates_found": [
+    "كل"
+   ],
+   "best": "كل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "erbum",
+   "say": "erbum",
+   "skeleton": "rb",
+   "gloss": "locust",
+   "candidates_found": [
+    "رب"
+   ],
+   "best": "رب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "erebum",
+   "say": "erebum",
+   "skeleton": "rb",
+   "gloss": "alternative form of erbum (“locust”)",
+   "candidates_found": [
+    "رب"
+   ],
+   "best": "رب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣuprum",
+   "say": "ṣuprum",
+   "skeleton": "ṣpr",
+   "gloss": "nail; nail impression (on a clay tablet, as signature)",
+   "candidates_found": [
+    "صفر",
+    "صبر",
+    "ضفر",
+    "ضبر",
+    "ظفر",
+    "ظبر"
+   ],
+   "best": "صفر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "midrum",
+   "say": "midrum",
+   "skeleton": "mdr",
+   "gloss": "midru bread (a type of bread)",
+   "candidates_found": [
+    "مدر",
+    "مذر",
+    "مضر"
+   ],
+   "best": "مدر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "lamassum",
+   "say": "lamassum",
+   "skeleton": "lms",
+   "gloss": "a lamassu protective spirit (representing and protecting the good fortune, spiritual healt",
+   "candidates_found": [
+    "لمس"
+   ],
+   "best": "لمس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šēdum",
+   "say": "šēdum",
+   "skeleton": "šd",
+   "gloss": "a šēdum protective deity (a male spirit or demon representing the individual's vital force",
+   "candidates_found": [
+    "شد",
+    "شذ",
+    "سد"
+   ],
+   "best": "شد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "parāsum",
+   "say": "parāsum",
+   "skeleton": "prs",
+   "gloss": "to divide, separate, select; to decide (a legal case)",
+   "candidates_found": [
+    "فرس",
+    "برس"
+   ],
+   "best": "فرس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kispu",
+   "say": "kispu",
+   "skeleton": "ksp",
+   "gloss": "funerary offering",
+   "candidates_found": [
+    "كسف",
+    "كسب"
+   ],
+   "best": "كسف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šīmtum",
+   "say": "šīmtum",
+   "skeleton": "šmt",
+   "gloss": "determined order, nature of things, divine decree; fate, destiny",
+   "candidates_found": [
+    "شمت",
+    "سمت",
+    "ثمت"
+   ],
+   "best": "شمت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gallûm",
+   "say": "gallûm",
+   "skeleton": "glm",
+   "gloss": "gallu demon",
+   "candidates_found": [
+    "جلم",
+    "غلم"
+   ],
+   "best": "جلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "būrum",
+   "say": "būrum",
+   "skeleton": "br",
+   "gloss": "young calf (of either sex); foal, kid (the young of quadrupeds)",
+   "candidates_found": [
+    "بر"
+   ],
+   "best": "بر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "parzillum",
+   "say": "parzillum",
+   "skeleton": "przl",
+   "gloss": "iron; a kind of stone or bead, \"iron stone\"",
+   "candidates_found": [
+    "فرزل",
+    "برزل"
+   ],
+   "best": "فرزل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṭupšarrum",
+   "say": "ṭupšarrum",
+   "skeleton": "ṭpšr",
+   "gloss": "scribe, tablet writer",
+   "candidates_found": [
+    "طبشر"
+   ],
+   "best": "طبشر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zību",
+   "say": "zību",
+   "skeleton": "zb",
+   "gloss": "jackal; (also with determinative 𒄷 (^(mušen))) vulture",
+   "candidates_found": [
+    "زب",
+    "ذب"
+   ],
+   "best": "زب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "iṣṣūrum",
+   "say": "iṣṣūrum",
+   "skeleton": "ṣr",
+   "gloss": "bird; poultry",
+   "candidates_found": [
+    "صر",
+    "ضر",
+    "ظر"
+   ],
+   "best": "صر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zībum",
+   "say": "zībum",
+   "skeleton": "zb",
+   "gloss": "alternative form of zību (“jackal, vulture”)",
+   "candidates_found": [
+    "زب",
+    "ذب"
+   ],
+   "best": "زب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "erēšum",
+   "say": "erēšum",
+   "skeleton": "rš",
+   "gloss": "to sow, plant, plough and seed; to cultivate (a field)",
+   "candidates_found": [
+    "رش",
+    "رس",
+    "رث"
+   ],
+   "best": "رش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bēl lā ilim",
+   "say": "bēl lā ilim",
+   "skeleton": "bl",
+   "gloss": "unhappy person",
+   "candidates_found": [
+    "بل"
+   ],
+   "best": "بل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šinā",
+   "say": "šinā",
+   "skeleton": "šn",
+   "gloss": "two, 2",
+   "candidates_found": [
+    "شن",
+    "سن",
+    "ثن"
+   ],
+   "best": "شن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kaprum",
+   "say": "kaprum",
+   "skeleton": "kpr",
+   "gloss": "village (in the open country), farm; suburban settlement (around a city)",
+   "candidates_found": [
+    "كفر",
+    "كبر"
+   ],
+   "best": "كفر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "awātum",
+   "say": "awātum",
+   "skeleton": "wt",
+   "gloss": "word, utterance; word, utterance",
+   "candidates_found": [
+    "وت",
+    "وث"
+   ],
+   "best": "وت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zubbum",
+   "say": "zubbum",
+   "skeleton": "zb",
+   "gloss": "fly",
+   "candidates_found": [
+    "زب",
+    "ذب"
+   ],
+   "best": "زب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "daltum",
+   "say": "daltum",
+   "skeleton": "dlt",
+   "gloss": "door",
+   "candidates_found": [
+    "دلث"
+   ],
+   "best": "دلث",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zērum",
+   "say": "zērum",
+   "skeleton": "zr",
+   "gloss": "seed; semen",
+   "candidates_found": [
+    "زر",
+    "ذر"
+   ],
+   "best": "زر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šiqlum",
+   "say": "šiqlum",
+   "skeleton": "šql",
+   "gloss": "shekel (a unit of weight, equal to ca. 8.3 g. or 1/60 mina)",
+   "candidates_found": [
+    "شقل",
+    "سقل",
+    "ثقل"
+   ],
+   "best": "شقل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "immerum",
+   "say": "immerum",
+   "skeleton": "mr",
+   "gloss": "sheep, ram",
+   "candidates_found": [
+    "مر"
+   ],
+   "best": "مر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "lišānum",
+   "say": "lišānum",
+   "skeleton": "lšn",
+   "gloss": "tongue; language",
+   "candidates_found": [
+    "لسن",
+    "لثن"
+   ],
+   "best": "لسن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "maškanum",
+   "say": "maškanum",
+   "skeleton": "mškn",
+   "gloss": "threshing floor; location, site",
+   "candidates_found": [
+    "مشكن",
+    "مسكن"
+   ],
+   "best": "مشكن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šemûm",
+   "say": "šemûm",
+   "skeleton": "šm",
+   "gloss": "to hear; to listen, pay attention",
+   "candidates_found": [
+    "شم",
+    "سم",
+    "ثم"
+   ],
+   "best": "شم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qadûm",
+   "say": "qadûm",
+   "skeleton": "qdm",
+   "gloss": "owl",
+   "candidates_found": [
+    "قدم",
+    "قذم",
+    "قضم"
+   ],
+   "best": "قدم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "warādum",
+   "say": "warādum",
+   "skeleton": "wrd",
+   "gloss": "to descend, go down, come down; to hang down, droop",
+   "candidates_found": [
+    "ورد",
+    "ورذ",
+    "ورض"
+   ],
+   "best": "ورد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kandum",
+   "say": "kandum",
+   "skeleton": "knd",
+   "gloss": "a kandu jar, a container of earthenware or silver, mainly for wine",
+   "candidates_found": [
+    "كند"
+   ],
+   "best": "كند",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šeššet",
+   "say": "šeššet",
+   "skeleton": "št",
+   "gloss": "six, 6",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "wēdum",
+   "say": "wēdum",
+   "skeleton": "wd",
+   "gloss": "single, sole; solitary, alone",
+   "candidates_found": [
+    "ود"
+   ],
+   "best": "ود",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "samānat",
+   "say": "samānat",
+   "skeleton": "smnt",
+   "gloss": "eight, 8",
+   "candidates_found": [
+    "سمنت"
+   ],
+   "best": "سمنت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ešeret",
+   "say": "ešeret",
+   "skeleton": "šrt",
+   "gloss": "ten, 10",
+   "candidates_found": [
+    "شرت",
+    "شرث",
+    "سرت"
+   ],
+   "best": "شرت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šikarum",
+   "say": "šikarum",
+   "skeleton": "škr",
+   "gloss": "beer (made of grain); alcoholic drink, intoxicant liquid",
+   "candidates_found": [
+    "شكر",
+    "سكر"
+   ],
+   "best": "شكر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šulmum",
+   "say": "šulmum",
+   "skeleton": "šlm",
+   "gloss": "completeness, intact state; well-being, health",
+   "candidates_found": [
+    "شلم",
+    "سلم",
+    "ثلم"
+   ],
+   "best": "شلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "biṣṣūrum",
+   "say": "biṣṣūrum",
+   "skeleton": "bṣr",
+   "gloss": "vulva or vagina",
+   "candidates_found": [
+    "بصر",
+    "بضر",
+    "بظر"
+   ],
+   "best": "بصر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dāmum",
+   "say": "dāmum",
+   "skeleton": "dm",
+   "gloss": "blood; lineage",
+   "candidates_found": [
+    "دم",
+    "ذم",
+    "ضم"
+   ],
+   "best": "دم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "elûm",
+   "say": "elûm",
+   "skeleton": "lm",
+   "gloss": "upper",
+   "candidates_found": [
+    "لم"
+   ],
+   "best": "لم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "elûm",
+   "say": "elûm",
+   "skeleton": "lm",
+   "gloss": "tall, high; exalted, proud",
+   "candidates_found": [
+    "لم"
+   ],
+   "best": "لم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "elûm",
+   "say": "elûm",
+   "skeleton": "lm",
+   "gloss": "to be high, raised up; to go up, ascend, move upwards",
+   "candidates_found": [
+    "لم"
+   ],
+   "best": "لم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "muḫḫum",
+   "say": "muḫḫum",
+   "skeleton": "mḫ",
+   "gloss": "skull, pate; brain",
+   "candidates_found": [
+    "مخ",
+    "مح",
+    "مه",
+    "مع"
+   ],
+   "best": "مخ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "eliš",
+   "say": "eliš",
+   "skeleton": "lš",
+   "gloss": "up, on top, on high; upward, upstream",
+   "candidates_found": [
+    "لس",
+    "لث"
+   ],
+   "best": "لس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "inūma",
+   "say": "inūma",
+   "skeleton": "nm",
+   "gloss": "at the time of",
+   "candidates_found": [
+    "نم"
+   ],
+   "best": "نم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "inūma",
+   "say": "inūma",
+   "skeleton": "nm",
+   "gloss": "when, after, while",
+   "candidates_found": [
+    "نم"
+   ],
+   "best": "نم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Lamaštum",
+   "say": "Lamaštum",
+   "skeleton": "mšt",
+   "gloss": "Lamashtu (a female demon in Mesopotamian mythology); a type of disease",
+   "candidates_found": [
+    "مشت",
+    "مثث"
+   ],
+   "best": "مشت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kišādum",
+   "say": "kišādum",
+   "skeleton": "kšd",
+   "gloss": "neck, throat (the back and the front side of the neck, often including head and shoulders)",
+   "candidates_found": [
+    "كشد",
+    "كسد"
+   ],
+   "best": "كشد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ur'udum",
+   "say": "ur'udum",
+   "skeleton": "rd",
+   "gloss": "alternative form of ḫurḫudum",
+   "candidates_found": [
+    "رد",
+    "رذ",
+    "رض"
+   ],
+   "best": "رد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Aššūr",
+   "say": "Aššūr",
+   "skeleton": "šr",
+   "gloss": "Assur (political capital of Assyria from the XIV to the IX centuries BCE)",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kiššatum",
+   "say": "kiššatum",
+   "skeleton": "kšt",
+   "gloss": "totality, all of; world, universe",
+   "candidates_found": [
+    "كشت",
+    "كشث",
+    "كست",
+    "كثث"
+   ],
+   "best": "كشت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "apkallum",
+   "say": "apkallum",
+   "skeleton": "pkl",
+   "gloss": "sage. wise man, expert; mythological sage",
+   "candidates_found": [
+    "فكل",
+    "بكل"
+   ],
+   "best": "فكل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kussûm",
+   "say": "kussûm",
+   "skeleton": "ksm",
+   "gloss": "chair, seat, throne",
+   "candidates_found": [
+    "كسم"
+   ],
+   "best": "كسم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dīnum",
+   "say": "dīnum",
+   "skeleton": "dn",
+   "gloss": "decision, judgment, verdict; case, lawsuit, claim, hearing",
+   "candidates_found": [
+    "دن",
+    "ذن",
+    "ضن"
+   ],
+   "best": "دن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣēnum",
+   "say": "ṣēnum",
+   "skeleton": "ṣn",
+   "gloss": "sheep, flock (of sheep and goats)",
+   "candidates_found": [
+    "صن",
+    "ضن",
+    "ظن"
+   ],
+   "best": "صن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "malkum",
+   "say": "malkum",
+   "skeleton": "mlk",
+   "gloss": "king, prince, (foreign) ruler",
+   "candidates_found": [
+    "ملك"
+   ],
+   "best": "ملك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kabsum",
+   "say": "kabsum",
+   "skeleton": "kbs",
+   "gloss": "young male sheep",
+   "candidates_found": [
+    "كبس"
+   ],
+   "best": "كبس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gammalu",
+   "say": "gammalu",
+   "skeleton": "gml",
+   "gloss": "camel",
+   "candidates_found": [
+    "جمل",
+    "غمل"
+   ],
+   "best": "جمل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šalāmum",
+   "say": "šalāmum",
+   "skeleton": "šlm",
+   "gloss": "health, physical well-being; welfare (of country, city, etc.)",
+   "candidates_found": [
+    "شلم",
+    "سلم",
+    "ثلم"
+   ],
+   "best": "شلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šalāmum",
+   "say": "šalāmum",
+   "skeleton": "šlm",
+   "gloss": "to be(come) healthy, well, intact, in good condition, safe; to receive full payment, obtai",
+   "candidates_found": [
+    "شلم",
+    "سلم",
+    "ثلم"
+   ],
+   "best": "شلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "eṣemtum",
+   "say": "eṣemtum",
+   "skeleton": "ṣmt",
+   "gloss": "bone; frame of the body, skeleton",
+   "candidates_found": [
+    "صمت"
+   ],
+   "best": "صمت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pīrum",
+   "say": "pīrum",
+   "skeleton": "pr",
+   "gloss": "elephant",
+   "candidates_found": [
+    "فر",
+    "بر"
+   ],
+   "best": "فر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qištum",
+   "say": "qištum",
+   "skeleton": "qšt",
+   "gloss": "forest, grove",
+   "candidates_found": [
+    "قست",
+    "قثث"
+   ],
+   "best": "قست",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "guḫlum",
+   "say": "guḫlum",
+   "skeleton": "gḫl",
+   "gloss": "kohl, antimony paste (used as eye paint)",
+   "candidates_found": [
+    "جخل",
+    "جحل",
+    "جهل",
+    "جعل"
+   ],
+   "best": "جخل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "abīlum",
+   "say": "abīlum",
+   "skeleton": "bl",
+   "gloss": "Old Akkadian form of awīlum",
+   "candidates_found": [
+    "بل"
+   ],
+   "best": "بل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "damqum",
+   "say": "damqum",
+   "skeleton": "dmq",
+   "gloss": "verbal adjective of damāqum:; good, fine (of good quality), pleasant",
+   "candidates_found": [
+    "دمق"
+   ],
+   "best": "دمق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "maqātum",
+   "say": "maqātum",
+   "skeleton": "mqt",
+   "gloss": "to fall, fall down, collapse; to happen, arrive (news, etc.)",
+   "candidates_found": [
+    "مقت"
+   ],
+   "best": "مقت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "marāṣum",
+   "say": "marāṣum",
+   "skeleton": "mrṣ",
+   "gloss": "to be ill, diseased; to be concerned",
+   "candidates_found": [
+    "مرص",
+    "مرض"
+   ],
+   "best": "مرص",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rapāšum",
+   "say": "rapāšum",
+   "skeleton": "rpš",
+   "gloss": "to be or become wide, broad, large, to increase, to expand",
+   "candidates_found": [
+    "رفش",
+    "رفس",
+    "رفث",
+    "ربش",
+    "ربس",
+    "ربث"
+   ],
+   "best": "رفش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣabātum",
+   "say": "ṣabātum",
+   "skeleton": "ṣbt",
+   "gloss": "to seize, take hold of, arrest, capture",
+   "candidates_found": [
+    "صبث",
+    "ضبث"
+   ],
+   "best": "صبث",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šakānum",
+   "say": "šakānum",
+   "skeleton": "škn",
+   "gloss": "to place, put, set; to establish, install, appoint, assign, impose",
+   "candidates_found": [
+    "شكن",
+    "سكن",
+    "ثكن"
+   ],
+   "best": "شكن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qātum",
+   "say": "qātum",
+   "skeleton": "qt",
+   "gloss": "hand; care, charge, responsibility",
+   "candidates_found": [
+    "قت",
+    "قث"
+   ],
+   "best": "قت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "balāṭum",
+   "say": "balāṭum",
+   "skeleton": "blṭ",
+   "gloss": "life, vigor, good health; life, lifetime",
+   "candidates_found": [
+    "بلط"
+   ],
+   "best": "بلط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "balāṭum",
+   "say": "balāṭum",
+   "skeleton": "blṭ",
+   "gloss": "to live, be alive, be healthy; to get well, recover",
+   "candidates_found": [
+    "بلط"
+   ],
+   "best": "بلط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qaštum",
+   "say": "qaštum",
+   "skeleton": "qšt",
+   "gloss": "bow; bow (geometrical figure)",
+   "candidates_found": [
+    "قست",
+    "قثث"
+   ],
+   "best": "قست",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gamārum",
+   "say": "gamārum",
+   "skeleton": "gmr",
+   "gloss": "completeness, finality; end",
+   "candidates_found": [
+    "جمر",
+    "غمر"
+   ],
+   "best": "جمر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gamārum",
+   "say": "gamārum",
+   "skeleton": "gmr",
+   "gloss": "to bring to an end, annihilate; to use up",
+   "candidates_found": [
+    "جمر",
+    "غمر"
+   ],
+   "best": "جمر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "eqlum",
+   "say": "eqlum",
+   "skeleton": "ql",
+   "gloss": "field, cultivated field; terrain, land, region",
+   "candidates_found": [
+    "قل"
+   ],
+   "best": "قل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "maḫārum",
+   "say": "maḫārum",
+   "skeleton": "mḫr",
+   "gloss": "to accept, receive; to face, approach, meet, confront",
+   "candidates_found": [
+    "مخر",
+    "محر",
+    "مهر",
+    "معر",
+    "مغر"
+   ],
+   "best": "مخر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "eṭlum",
+   "say": "eṭlum",
+   "skeleton": "ṭl",
+   "gloss": "young man, youth",
+   "candidates_found": [
+    "طل",
+    "ظل"
+   ],
+   "best": "طل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dannum",
+   "say": "dannum",
+   "skeleton": "dn",
+   "gloss": "verbal adjective of danānum:; strong, solid, fortified",
+   "candidates_found": [
+    "دن",
+    "ذن",
+    "ضن"
+   ],
+   "best": "دن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫalqum",
+   "say": "ḫalqum",
+   "skeleton": "ḫlq",
+   "gloss": "verbal adjective of ḫalāqum:; lost (object), missing (animal or person)",
+   "candidates_found": [
+    "خلق",
+    "حلق",
+    "هلق",
+    "علق",
+    "غلق"
+   ],
+   "best": "خلق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šaptum",
+   "say": "šaptum",
+   "skeleton": "špt",
+   "gloss": "lip; utterance, speech, command",
+   "candidates_found": [
+    "شفت",
+    "شفث",
+    "شبت",
+    "شبث",
+    "سفت",
+    "سبت",
+    "ثفت",
+    "ثبت"
+   ],
+   "best": "شفت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "burāšum",
+   "say": "burāšum",
+   "skeleton": "brš",
+   "gloss": "a tree of the cypress family, most likely a juniper",
+   "candidates_found": [
+    "برش",
+    "برس",
+    "برث"
+   ],
+   "best": "برش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ikkarum",
+   "say": "ikkarum",
+   "skeleton": "kr",
+   "gloss": "farmer, plowman",
+   "candidates_found": [
+    "كر"
+   ],
+   "best": "كر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "andurārum",
+   "say": "andurārum",
+   "skeleton": "ndr",
+   "gloss": "freedom, exemption; remission of commercial debts",
+   "candidates_found": [
+    "ندر",
+    "نذر",
+    "نضر"
+   ],
+   "best": "ندر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "darārum",
+   "say": "darārum",
+   "skeleton": "dr",
+   "gloss": "to be free (of a task), move about freely, run off",
+   "candidates_found": [
+    "در",
+    "ذر",
+    "ضر"
+   ],
+   "best": "در",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pūrum",
+   "say": "pūrum",
+   "skeleton": "pr",
+   "gloss": "shallow bowl, platter",
+   "candidates_found": [
+    "فر",
+    "بر"
+   ],
+   "best": "فر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Šabāṭum",
+   "say": "Šabāṭum",
+   "skeleton": "bṭ",
+   "gloss": "Šabāṭu, the eleventh month of the Babylonian calendar",
+   "candidates_found": [
+    "بط",
+    "بظ"
+   ],
+   "best": "بط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qerûm",
+   "say": "qerûm",
+   "skeleton": "qrm",
+   "gloss": "to invite; to take away, take along, lead away",
+   "candidates_found": [
+    "قرم"
+   ],
+   "best": "قرم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "adānum",
+   "say": "adānum",
+   "skeleton": "dn",
+   "gloss": "fixed date, time limit (a moment in time at the end of a specified period); period of time",
+   "candidates_found": [
+    "دن",
+    "ذن",
+    "ضن"
+   ],
+   "best": "دن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "idīnum",
+   "say": "idīnum",
+   "skeleton": "dn",
+   "gloss": "desert, steppe, plain; meaning unclear",
+   "candidates_found": [
+    "دن",
+    "ذن",
+    "ضن"
+   ],
+   "best": "دن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "amūtum",
+   "say": "amūtum",
+   "skeleton": "mt",
+   "gloss": "liver (of a sacrificial sheep, examined by the haruspex); (liver) omen (findings on a shee",
+   "candidates_found": [
+    "مت",
+    "مث"
+   ],
+   "best": "مت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mūšum",
+   "say": "mūšum",
+   "skeleton": "mš",
+   "gloss": "night, nighttime",
+   "candidates_found": [
+    "مش",
+    "مس",
+    "مث"
+   ],
+   "best": "مش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣalmum",
+   "say": "ṣalmum",
+   "skeleton": "ṣlm",
+   "gloss": "verbal adjective of ṣalāmum:; black, dark",
+   "candidates_found": [
+    "صلم",
+    "ظلم"
+   ],
+   "best": "صلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣalmum",
+   "say": "ṣalmum",
+   "skeleton": "ṣlm",
+   "gloss": "effigy, image, likeness, drawing; statue (in the round), figurine, relief",
+   "candidates_found": [
+    "صلم",
+    "ظلم"
+   ],
+   "best": "صلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "lābum",
+   "say": "lābum",
+   "skeleton": "lb",
+   "gloss": "lion",
+   "candidates_found": [
+    "لب"
+   ],
+   "best": "لب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nēšum",
+   "say": "nēšum",
+   "skeleton": "nš",
+   "gloss": "lion; Leo (constellation)",
+   "candidates_found": [
+    "نش",
+    "نس",
+    "نث"
+   ],
+   "best": "نش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kašdum",
+   "say": "kašdum",
+   "skeleton": "kšd",
+   "gloss": "successful, achieved, accomplished, attained, conquered; sufficient, appropriate",
+   "candidates_found": [
+    "كشد",
+    "كسد"
+   ],
+   "best": "كشد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "sīsûm",
+   "say": "sīsûm",
+   "skeleton": "sm",
+   "gloss": "horse; the name of a constellation.",
+   "candidates_found": [
+    "سم"
+   ],
+   "best": "سم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šallūrum",
+   "say": "šallūrum",
+   "skeleton": "šlr",
+   "gloss": "a fruit tree and its fruit, probably a plum",
+   "candidates_found": [
+    "شلر",
+    "سلر"
+   ],
+   "best": "شلر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "enzum",
+   "say": "enzum",
+   "skeleton": "nz",
+   "gloss": "she-goat; goat (as a generic term)",
+   "candidates_found": [
+    "نز",
+    "نذ"
+   ],
+   "best": "نز",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "amārum",
+   "say": "amārum",
+   "skeleton": "mr",
+   "gloss": "to see, behold, look at, observe, witness, examine, inspect, notice; to experience, come a",
+   "candidates_found": [
+    "مر"
+   ],
+   "best": "مر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "malāḫum",
+   "say": "malāḫum",
+   "skeleton": "mlḫ",
+   "gloss": "sailor, shipwright",
+   "candidates_found": [
+    "ملخ",
+    "ملح",
+    "مله",
+    "ملع",
+    "ملغ"
+   ],
+   "best": "ملخ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kalûm",
+   "say": "kalûm",
+   "skeleton": "klm",
+   "gloss": "all, totality, entirety, whole",
+   "candidates_found": [
+    "كلم"
+   ],
+   "best": "كلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Nisaba",
+   "say": "Nisaba",
+   "skeleton": "sb",
+   "gloss": "Nisaba (grain goddess)",
+   "candidates_found": [
+    "سب"
+   ],
+   "best": "سب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šadûm",
+   "say": "šadûm",
+   "skeleton": "šdm",
+   "gloss": "mountain, mountain region; open country, steppeland, desert",
+   "candidates_found": [
+    "شذم",
+    "سدم",
+    "سذم",
+    "ثدم"
+   ],
+   "best": "شذم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šadûm",
+   "say": "šadûm",
+   "skeleton": "šdm",
+   "gloss": "east; easterner",
+   "candidates_found": [
+    "شذم",
+    "سدم",
+    "سذم",
+    "ثدم"
+   ],
+   "best": "شذم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "išātum",
+   "say": "išātum",
+   "skeleton": "št",
+   "gloss": "fire",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Ḫammurapi",
+   "say": "Ḫammurapi",
+   "skeleton": "mrp",
+   "gloss": "a male given name: Hammurabi, the sixth king of Babylon",
+   "candidates_found": [
+    "مرب"
+   ],
+   "best": "مرب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kimtum",
+   "say": "kimtum",
+   "skeleton": "kmt",
+   "gloss": "family, kin",
+   "candidates_found": [
+    "كمت"
+   ],
+   "best": "كمت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫarrānum",
+   "say": "ḫarrānum",
+   "skeleton": "ḫrn",
+   "gloss": "road, way, path; road, way, path",
+   "candidates_found": [
+    "خرن",
+    "حرن",
+    "هرن",
+    "عرن",
+    "غرن"
+   ],
+   "best": "خرن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šēpum",
+   "say": "šēpum",
+   "skeleton": "šp",
+   "gloss": "foot; leg",
+   "candidates_found": [
+    "شف",
+    "شب",
+    "سف",
+    "سب",
+    "ثب"
+   ],
+   "best": "شف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kīma",
+   "say": "kīma",
+   "skeleton": "km",
+   "gloss": "like, as; according to",
+   "candidates_found": [
+    "كم"
+   ],
+   "best": "كم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kīma",
+   "say": "kīma",
+   "skeleton": "km",
+   "gloss": "when, as soon as; because, in such a way that",
+   "candidates_found": [
+    "كم"
+   ],
+   "best": "كم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "purussûm",
+   "say": "purussûm",
+   "skeleton": "prsm",
+   "gloss": "legal decision, resolution, verdict, case; prediction, prognosis",
+   "candidates_found": [
+    "برسم"
+   ],
+   "best": "برسم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rubûm",
+   "say": "rubûm",
+   "skeleton": "rbm",
+   "gloss": "prince; king, ruler",
+   "candidates_found": [
+    "ربم"
+   ],
+   "best": "ربم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rubātum",
+   "say": "rubātum",
+   "skeleton": "rbt",
+   "gloss": "princess",
+   "candidates_found": [
+    "ربت",
+    "ربث"
+   ],
+   "best": "ربت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Akkade",
+   "say": "Akkade",
+   "skeleton": "kd",
+   "gloss": "Akkad (a land in northern Babylonia and a city founded by Sargon of Akkad)",
+   "candidates_found": [
+    "كد",
+    "كذ",
+    "كض"
+   ],
+   "best": "كد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rēštum",
+   "say": "rēštum",
+   "skeleton": "ršt",
+   "gloss": "beginning; beginning",
+   "candidates_found": [
+    "رشت",
+    "رست",
+    "رثث"
+   ],
+   "best": "رشت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "inūmīšu",
+   "say": "inūmīšu",
+   "skeleton": "nmš",
+   "gloss": "in those days, at that time, then",
+   "candidates_found": [
+    "نمش",
+    "نمس"
+   ],
+   "best": "نمش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rē'ûm",
+   "say": "rē'ûm",
+   "skeleton": "rm",
+   "gloss": "participle of 𒊑𒂍𒌝 (re'ûm, “to pasture”):; shepherd, herdsman",
+   "candidates_found": [
+    "رم"
+   ],
+   "best": "رم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "annûm",
+   "say": "annûm",
+   "skeleton": "nm",
+   "gloss": "this, these",
+   "candidates_found": [
+    "نم"
+   ],
+   "best": "نم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "maḫrum",
+   "say": "maḫrum",
+   "skeleton": "mḫr",
+   "gloss": "front, presence; past, bygone time",
+   "candidates_found": [
+    "مخر",
+    "محر",
+    "مهر",
+    "معر",
+    "مغر"
+   ],
+   "best": "مخر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šaplum",
+   "say": "šaplum",
+   "skeleton": "špl",
+   "gloss": "underside, bottom; arrears",
+   "candidates_found": [
+    "شفل",
+    "شبل",
+    "سفل",
+    "سبل",
+    "ثفل",
+    "ثبل"
+   ],
+   "best": "شفل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šunu",
+   "say": "šunu",
+   "skeleton": "šn",
+   "gloss": "they (masculine plural subject pronoun); those, these same (aforementioned masculine plura",
+   "candidates_found": [
+    "شن",
+    "سن",
+    "ثن"
+   ],
+   "best": "شن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kīrum",
+   "say": "kīrum",
+   "skeleton": "kr",
+   "gloss": "oven, kiln (especially for lime and bitumen)",
+   "candidates_found": [
+    "كر"
+   ],
+   "best": "كر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šīrum",
+   "say": "šīrum",
+   "skeleton": "šr",
+   "gloss": "flesh; kin (one's own flesh and blood)",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "libittum",
+   "say": "libittum",
+   "skeleton": "lbt",
+   "gloss": "mudbrick, brick; brickwork",
+   "candidates_found": [
+    "لبت",
+    "لبث"
+   ],
+   "best": "لبت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "būdum",
+   "say": "būdum",
+   "skeleton": "bd",
+   "gloss": "shoulder (region between shoulders including the neck of both humans and animals)",
+   "candidates_found": [
+    "بد",
+    "بذ",
+    "بض"
+   ],
+   "best": "بد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zamārum",
+   "say": "zamārum",
+   "skeleton": "zmr",
+   "gloss": "to sing (with or without instrumental accompaniment)",
+   "candidates_found": [
+    "زمر",
+    "ذمر"
+   ],
+   "best": "زمر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "edēšum",
+   "say": "edēšum",
+   "skeleton": "dš",
+   "gloss": "to be new, fresh, renewed",
+   "candidates_found": [
+    "دس",
+    "دث",
+    "ذش",
+    "ضس",
+    "ضث"
+   ],
+   "best": "دس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "makārum",
+   "say": "makārum",
+   "skeleton": "mkr",
+   "gloss": "to flood, irrigate, water",
+   "candidates_found": [
+    "مكر"
+   ],
+   "best": "مكر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "makārum",
+   "say": "makārum",
+   "skeleton": "mkr",
+   "gloss": "to do business, use (silver, etc) in business transactions",
+   "candidates_found": [
+    "مكر"
+   ],
+   "best": "مكر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "makkūrum",
+   "say": "makkūrum",
+   "skeleton": "mkr",
+   "gloss": "property, valuables, assets",
+   "candidates_found": [
+    "مكر"
+   ],
+   "best": "مكر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dūrum",
+   "say": "dūrum",
+   "skeleton": "dr",
+   "gloss": "city wall, fortification wall",
+   "candidates_found": [
+    "در",
+    "ذر",
+    "ضر"
+   ],
+   "best": "در",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "igārum",
+   "say": "igārum",
+   "skeleton": "gr",
+   "gloss": "wall (of a building, house, garden); side of a ship",
+   "candidates_found": [
+    "جر",
+    "غر"
+   ],
+   "best": "جر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "inbum",
+   "say": "inbum",
+   "skeleton": "nb",
+   "gloss": "fruit, flower; fruit tree",
+   "candidates_found": [
+    "نب"
+   ],
+   "best": "نب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ezēbum",
+   "say": "ezēbum",
+   "skeleton": "zb",
+   "gloss": "to leave, leave behind; to abandon, neglect",
+   "candidates_found": [
+    "زب",
+    "ذب"
+   ],
+   "best": "زب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kišpum",
+   "say": "kišpum",
+   "skeleton": "kšp",
+   "gloss": "sorcery, evil spell, witchcraft",
+   "candidates_found": [
+    "كشف",
+    "كشب",
+    "كسف",
+    "كسب",
+    "كثف",
+    "كثب"
+   ],
+   "best": "كشف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kabātum",
+   "say": "kabātum",
+   "skeleton": "kbt",
+   "gloss": "to be/become heavy, fat; to be/become important, honoured",
+   "candidates_found": [
+    "كبت",
+    "كبث"
+   ],
+   "best": "كبت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kabtum",
+   "say": "kabtum",
+   "skeleton": "kbt",
+   "gloss": "verbal adjective of kabātum:; heavy, dense, abundant, substantial",
+   "candidates_found": [
+    "كبت",
+    "كبث"
+   ],
+   "best": "كبت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Addarum",
+   "say": "Addarum",
+   "skeleton": "dr",
+   "gloss": "Adar, the twelfth month of the Babylonian calendar (approximately February-March)",
+   "candidates_found": [
+    "در",
+    "ذر",
+    "ضر"
+   ],
+   "best": "در",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šūrum",
+   "say": "šūrum",
+   "skeleton": "šr",
+   "gloss": "bull",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "warkānum",
+   "say": "warkānum",
+   "skeleton": "wrkn",
+   "gloss": "later on, afterwards",
+   "candidates_found": [
+    "وركن"
+   ],
+   "best": "وركن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "līliātum",
+   "say": "līliātum",
+   "skeleton": "lt",
+   "gloss": "evening, night",
+   "candidates_found": [
+    "لت",
+    "لث"
+   ],
+   "best": "لت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "narûm",
+   "say": "narûm",
+   "skeleton": "nrm",
+   "gloss": "stela (for publicising inscriptions, decrees, etc.); boundary stone",
+   "candidates_found": [
+    "نرم"
+   ],
+   "best": "نرم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qabrum",
+   "say": "qabrum",
+   "skeleton": "qbr",
+   "gloss": "grave, tomb",
+   "candidates_found": [
+    "قبر"
+   ],
+   "best": "قبر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qebērum",
+   "say": "qebērum",
+   "skeleton": "qbr",
+   "gloss": "to bury; to roll up in clothes or reed mat (in preparation for burial)",
+   "candidates_found": [
+    "قبر"
+   ],
+   "best": "قبر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Šumerum",
+   "say": "Šumerum",
+   "skeleton": "mr",
+   "gloss": "Sumer",
+   "candidates_found": [
+    "مر"
+   ],
+   "best": "مر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Šumerum",
+   "say": "Šumerum",
+   "skeleton": "mr",
+   "gloss": "Sumerian (language)",
+   "candidates_found": [
+    "مر"
+   ],
+   "best": "مر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "napāšum",
+   "say": "napāšum",
+   "skeleton": "npš",
+   "gloss": "to breathe (freely), to relax; to be wide, expand, be abundant",
+   "candidates_found": [
+    "نفش",
+    "نفس",
+    "نفث",
+    "نبش",
+    "نبس",
+    "نبث"
+   ],
+   "best": "نفش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šapattum",
+   "say": "šapattum",
+   "skeleton": "špt",
+   "gloss": "15ᵗʰ day of the month; period of 15 days, a fortnight",
+   "candidates_found": [
+    "شفت",
+    "شفث",
+    "شبت",
+    "شبث",
+    "سفت",
+    "سبت",
+    "ثفت",
+    "ثبت"
+   ],
+   "best": "شفت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gigurû",
+   "say": "gigurû",
+   "skeleton": "gr",
+   "gloss": "name of the cuneiform sign 𒌋 (Winkelhaken)",
+   "candidates_found": [
+    "جر",
+    "غر"
+   ],
+   "best": "جر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫamṭu",
+   "say": "ḫamṭu",
+   "skeleton": "ḫmṭ",
+   "gloss": "quick, swift, sudden; ḫamṭu (\"quick (pronunciation)\", used in the description of Sumerian ",
+   "candidates_found": [
+    "خمط",
+    "حمط",
+    "حمظ",
+    "همط",
+    "عمط",
+    "غمط"
+   ],
+   "best": "خمط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "danniš",
+   "say": "danniš",
+   "skeleton": "dnš",
+   "gloss": "very, greatly; severely",
+   "candidates_found": [
+    "دنس"
+   ],
+   "best": "دنس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šiqdum",
+   "say": "šiqdum",
+   "skeleton": "šqd",
+   "gloss": "almond tree; almond (fruit)",
+   "candidates_found": [
+    "شقد",
+    "شقذ",
+    "سقد"
+   ],
+   "best": "شقد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "petûm",
+   "say": "petûm",
+   "skeleton": "ptm",
+   "gloss": "to open",
+   "candidates_found": [
+    "بتم"
+   ],
+   "best": "بتم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "petûm",
+   "say": "petûm",
+   "skeleton": "ptm",
+   "gloss": "verbal adjective of 𒉿𒌅𒌑𒌝 (petûm):; open",
+   "candidates_found": [
+    "بتم"
+   ],
+   "best": "بتم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kabattum",
+   "say": "kabattum",
+   "skeleton": "kbt",
+   "gloss": "innards; liver",
+   "candidates_found": [
+    "كبت",
+    "كبث"
+   ],
+   "best": "كبت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "banûm",
+   "say": "banûm",
+   "skeleton": "bnm",
+   "gloss": "to build, construct, form, make, manufacture; to create (said of deity)",
+   "candidates_found": [
+    "بنم"
+   ],
+   "best": "بنم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣalālum",
+   "say": "ṣalālum",
+   "skeleton": "ṣl",
+   "gloss": "to lie down, sleep, be at rest, be still, be peaceful, lie still; to lie with (sexually)",
+   "candidates_found": [
+    "صل",
+    "ضل",
+    "ظل"
+   ],
+   "best": "صل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ašrum",
+   "say": "ašrum",
+   "skeleton": "šr",
+   "gloss": "place, site, location, setting, locale; country, region, city, building",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "eršum",
+   "say": "eršum",
+   "skeleton": "rš",
+   "gloss": "bed",
+   "candidates_found": [
+    "رش",
+    "رس",
+    "رث"
+   ],
+   "best": "رش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "errēšum",
+   "say": "errēšum",
+   "skeleton": "rš",
+   "gloss": "cultivator, tenant farmer",
+   "candidates_found": [
+    "رش",
+    "رس",
+    "رث"
+   ],
+   "best": "رش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mūtum",
+   "say": "mūtum",
+   "skeleton": "mt",
+   "gloss": "death",
+   "candidates_found": [
+    "مت",
+    "مث"
+   ],
+   "best": "مت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mâtum",
+   "say": "mâtum",
+   "skeleton": "mt",
+   "gloss": "to die",
+   "candidates_found": [
+    "مت",
+    "مث"
+   ],
+   "best": "مت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mītum",
+   "say": "mītum",
+   "skeleton": "mt",
+   "gloss": "verbal adjective of 𒁁 (mâtum): dead",
+   "candidates_found": [
+    "مت",
+    "مث"
+   ],
+   "best": "مت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ziqnum",
+   "say": "ziqnum",
+   "skeleton": "zqn",
+   "gloss": "beard",
+   "candidates_found": [
+    "زقن",
+    "ذقن"
+   ],
+   "best": "زقن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pagrum",
+   "say": "pagrum",
+   "skeleton": "pgr",
+   "gloss": "body; trunk, torso",
+   "candidates_found": [
+    "فجر",
+    "فغر",
+    "بجر",
+    "بغر"
+   ],
+   "best": "فجر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫīṭum",
+   "say": "ḫīṭum",
+   "skeleton": "ḫṭ",
+   "gloss": "error, fault, lack, defect; damage, harm",
+   "candidates_found": [
+    "خط",
+    "خظ",
+    "حط",
+    "حظ",
+    "هط",
+    "عط",
+    "عظ",
+    "غط"
+   ],
+   "best": "خط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zarāqum",
+   "say": "zarāqum",
+   "skeleton": "zrq",
+   "gloss": "to sprinkle (liquids), strew",
+   "candidates_found": [
+    "زرق",
+    "ذرق"
+   ],
+   "best": "زرق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "epûm",
+   "say": "epûm",
+   "skeleton": "pm",
+   "gloss": "verbal adjective of epûm: baked",
+   "candidates_found": [
+    "فم",
+    "بم"
+   ],
+   "best": "فم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "epûm",
+   "say": "epûm",
+   "skeleton": "pm",
+   "gloss": "to bake",
+   "candidates_found": [
+    "فم",
+    "بم"
+   ],
+   "best": "فم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ēpûm",
+   "say": "ēpûm",
+   "skeleton": "pm",
+   "gloss": "baker",
+   "candidates_found": [
+    "فم",
+    "بم"
+   ],
+   "best": "فم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ēpītum",
+   "say": "ēpītum",
+   "skeleton": "pt",
+   "gloss": "feminine of ēpûm",
+   "candidates_found": [
+    "فت",
+    "فث",
+    "بت",
+    "بث"
+   ],
+   "best": "فت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "esēpum",
+   "say": "esēpum",
+   "skeleton": "sp",
+   "gloss": "to gather up, collect, scrape together, decant",
+   "candidates_found": [
+    "سف",
+    "سب"
+   ],
+   "best": "سف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šattam",
+   "say": "šattam",
+   "skeleton": "št",
+   "gloss": "this year",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šumēlum",
+   "say": "šumēlum",
+   "skeleton": "šml",
+   "gloss": "the left; left side",
+   "candidates_found": [
+    "شمل",
+    "سمل",
+    "ثمل"
+   ],
+   "best": "شمل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "tinūrum",
+   "say": "tinūrum",
+   "skeleton": "tnr",
+   "gloss": "oven, kiln, tannour; an undetermined star or constellation",
+   "candidates_found": [
+    "تنر"
+   ],
+   "best": "تنر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "egertu",
+   "say": "egertu",
+   "skeleton": "grt",
+   "gloss": "letter; tablet",
+   "candidates_found": [
+    "جرت",
+    "جرث",
+    "غرث"
+   ],
+   "best": "جرت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "attunu",
+   "say": "attunu",
+   "skeleton": "tn",
+   "gloss": "ye, you (second-person plural masculine personal pronoun, nominative case)",
+   "candidates_found": [
+    "تن",
+    "ثن"
+   ],
+   "best": "تن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "attina",
+   "say": "attina",
+   "skeleton": "tn",
+   "gloss": "ye, you (second-person plural feminine personal pronoun, nominative case)",
+   "candidates_found": [
+    "تن",
+    "ثن"
+   ],
+   "best": "تن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ullûm",
+   "say": "ullûm",
+   "skeleton": "lm",
+   "gloss": "that, those; yonder, far away, over there, distant",
+   "candidates_found": [
+    "لم"
+   ],
+   "best": "لم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mušītum",
+   "say": "mušītum",
+   "skeleton": "mšt",
+   "gloss": "nighttime, night",
+   "candidates_found": [
+    "مشت",
+    "مثث"
+   ],
+   "best": "مشت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "imnum",
+   "say": "imnum",
+   "skeleton": "mn",
+   "gloss": "the right; right side",
+   "candidates_found": [
+    "من"
+   ],
+   "best": "من",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Kinaḫnum",
+   "say": "Kinaḫnum",
+   "skeleton": "nḫn",
+   "gloss": "Canaan",
+   "candidates_found": [
+    "نخن",
+    "نحن"
+   ],
+   "best": "نخن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫassū",
+   "say": "ḫassū",
+   "skeleton": "ḫs",
+   "gloss": "lettuce",
+   "candidates_found": [
+    "خس",
+    "حس",
+    "هس",
+    "عس",
+    "غس"
+   ],
+   "best": "خس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nâḫum",
+   "say": "nâḫum",
+   "skeleton": "nḫ",
+   "gloss": "to rest, take a rest; to be at rest, slow, still, peaceful, pacified",
+   "candidates_found": [
+    "نخ",
+    "نح",
+    "نه",
+    "نغ"
+   ],
+   "best": "نخ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šanānum",
+   "say": "šanānum",
+   "skeleton": "šn",
+   "gloss": "to be equal, match, rival",
+   "candidates_found": [
+    "شن",
+    "سن",
+    "ثن"
+   ],
+   "best": "شن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Meluḫḫa",
+   "say": "Meluḫḫa",
+   "skeleton": "lḫ",
+   "gloss": "Meluhha",
+   "candidates_found": [
+    "لخ",
+    "لح",
+    "له"
+   ],
+   "best": "لخ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "našru",
+   "say": "našru",
+   "skeleton": "nšr",
+   "gloss": "eagle",
+   "candidates_found": [
+    "نشر",
+    "نسر",
+    "نثر"
+   ],
+   "best": "نشر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kīnum",
+   "say": "kīnum",
+   "skeleton": "kn",
+   "gloss": "verbal adjective of kânum:; permanent, firm",
+   "candidates_found": [
+    "كن"
+   ],
+   "best": "كن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "waṣûm",
+   "say": "waṣûm",
+   "skeleton": "wṣm",
+   "gloss": "to leave, depart, go out, escape; to come out, rise, protrude, grow, sprout",
+   "candidates_found": [
+    "وصم",
+    "وضم",
+    "وظم"
+   ],
+   "best": "وصم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kibtum",
+   "say": "kibtum",
+   "skeleton": "kbt",
+   "gloss": "wheat",
+   "candidates_found": [
+    "كبت",
+    "كبث"
+   ],
+   "best": "كبت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nasāḫum",
+   "say": "nasāḫum",
+   "skeleton": "nsḫ",
+   "gloss": "to tear out, pull out, uproot, dig up; to remove, take away, exterminate, wipe out, clear ",
+   "candidates_found": [
+    "نسخ",
+    "نسح",
+    "نسع",
+    "نسغ"
+   ],
+   "best": "نسخ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫalbum",
+   "say": "ḫalbum",
+   "skeleton": "ḫlb",
+   "gloss": "forest",
+   "candidates_found": [
+    "خلب",
+    "حلب",
+    "هلب",
+    "علب",
+    "غلب"
+   ],
+   "best": "خلب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gūrum",
+   "say": "gūrum",
+   "skeleton": "gr",
+   "gloss": "foliage/leaves of reed and papyrus plants",
+   "candidates_found": [
+    "جر",
+    "غر"
+   ],
+   "best": "جر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nigûtum",
+   "say": "nigûtum",
+   "skeleton": "ngt",
+   "gloss": "joyful music, merry-making, musical celebration",
+   "candidates_found": [
+    "نجت",
+    "نجث",
+    "نغت",
+    "نغث"
+   ],
+   "best": "نجت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ištānum",
+   "say": "ištānum",
+   "skeleton": "štn",
+   "gloss": "north; north wind",
+   "candidates_found": [
+    "شتن",
+    "شثن",
+    "ستن",
+    "ثتن"
+   ],
+   "best": "شتن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šārum",
+   "say": "šārum",
+   "skeleton": "šr",
+   "gloss": "wind; cardinal point, direction",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Amurrum",
+   "say": "Amurrum",
+   "skeleton": "mr",
+   "gloss": "Amorite; toponym for Syria and the West, the land of the Amorites",
+   "candidates_found": [
+    "مر"
+   ],
+   "best": "مر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "amurrum",
+   "say": "amurrum",
+   "skeleton": "mr",
+   "gloss": "west; west wind",
+   "candidates_found": [
+    "مر"
+   ],
+   "best": "مر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nišum",
+   "say": "nišum",
+   "skeleton": "nš",
+   "gloss": "mankind, people, human beings; population, inhabitants, subjects (of a king)",
+   "candidates_found": [
+    "نش",
+    "نس",
+    "نث"
+   ],
+   "best": "نش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nišū",
+   "say": "nišū",
+   "skeleton": "nš",
+   "gloss": "plural of nišum f or m (“human being”)",
+   "candidates_found": [
+    "نش",
+    "نس",
+    "نث"
+   ],
+   "best": "نش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "birqum",
+   "say": "birqum",
+   "skeleton": "brq",
+   "gloss": "lightning; lightning bolt, thunderbolt (representation of a lightning)",
+   "candidates_found": [
+    "برق"
+   ],
+   "best": "برق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šuršum",
+   "say": "šuršum",
+   "skeleton": "šrš",
+   "gloss": "root; base, foundation",
+   "candidates_found": [
+    "شرش",
+    "شرس",
+    "شرث",
+    "سرس"
+   ],
+   "best": "شرش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "enzu",
+   "say": "enzu",
+   "skeleton": "nz",
+   "gloss": "Non-mimated form of enzum",
+   "candidates_found": [
+    "نز",
+    "نذ"
+   ],
+   "best": "نز",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "urḫum",
+   "say": "urḫum",
+   "skeleton": "rḫ",
+   "gloss": "road, path, way",
+   "candidates_found": [
+    "رخ",
+    "رح",
+    "رع"
+   ],
+   "best": "رخ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bāṣum",
+   "say": "bāṣum",
+   "skeleton": "bṣ",
+   "gloss": "sand",
+   "candidates_found": [
+    "بص",
+    "بض",
+    "بظ"
+   ],
+   "best": "بص",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dayyānam",
+   "say": "dayyānam",
+   "skeleton": "dyn",
+   "gloss": "accusative singular of dayyānum",
+   "candidates_found": [
+    "دين",
+    "ذين",
+    "ضين"
+   ],
+   "best": "دين",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dayyānī",
+   "say": "dayyānī",
+   "skeleton": "dyn",
+   "gloss": "accusative and genitive plural of dayyānum",
+   "candidates_found": [
+    "دين",
+    "ذين",
+    "ضين"
+   ],
+   "best": "دين",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dīnim",
+   "say": "dīnim",
+   "skeleton": "dn",
+   "gloss": "genitive singular of dīnum",
+   "candidates_found": [
+    "دن",
+    "ذن",
+    "ضن"
+   ],
+   "best": "دن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kišpī",
+   "say": "kišpī",
+   "skeleton": "kšp",
+   "gloss": "accusative and genitive plural of kišpum",
+   "candidates_found": [
+    "كشف",
+    "كشب",
+    "كسف",
+    "كسب",
+    "كثف",
+    "كثب"
+   ],
+   "best": "كشف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "awīlim",
+   "say": "awīlim",
+   "skeleton": "wl",
+   "gloss": "genitive singular of awīlum",
+   "candidates_found": [
+    "ول"
+   ],
+   "best": "ول",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "awīlam",
+   "say": "awīlam",
+   "skeleton": "wl",
+   "gloss": "accusative singular of awīlum",
+   "candidates_found": [
+    "ول"
+   ],
+   "best": "ول",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šuāti",
+   "say": "šuāti",
+   "skeleton": "št",
+   "gloss": "him, her, it, to him, to her, to it; that, the aforementioned",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šâti",
+   "say": "šâti",
+   "skeleton": "št",
+   "gloss": "Contracted form of šuāti",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šâtu",
+   "say": "šâtu",
+   "skeleton": "št",
+   "gloss": "Contracted form of šuātu",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šuātu",
+   "say": "šuātu",
+   "skeleton": "št",
+   "gloss": "alternative form of šuāti",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šūru",
+   "say": "šūru",
+   "skeleton": "šr",
+   "gloss": "Non-mimated form of šūrum",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Urušalim",
+   "say": "Urušalim",
+   "skeleton": "ršl",
+   "gloss": "Jerusalem",
+   "candidates_found": [
+    "رشل",
+    "رسل"
+   ],
+   "best": "رشل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "urḫu",
+   "say": "urḫu",
+   "skeleton": "rḫ",
+   "gloss": "Non-mimated form of urḫum",
+   "candidates_found": [
+    "رخ",
+    "رح",
+    "رع"
+   ],
+   "best": "رخ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Urašṭu",
+   "say": "Urašṭu",
+   "skeleton": "ršṭ",
+   "gloss": "alternative form of Urarṭu",
+   "candidates_found": [
+    "رشط",
+    "رسط",
+    "رثط"
+   ],
+   "best": "رشط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṭênum",
+   "say": "ṭênum",
+   "skeleton": "ṭn",
+   "gloss": "to grind",
+   "candidates_found": [
+    "طن",
+    "ظن"
+   ],
+   "best": "طن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṭênim",
+   "say": "ṭênim",
+   "skeleton": "ṭn",
+   "gloss": "infinitive genitive of ṭênum",
+   "candidates_found": [
+    "طن",
+    "ظن"
+   ],
+   "best": "طن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṭābu",
+   "say": "ṭābu",
+   "skeleton": "ṭb",
+   "gloss": "Non-mimated form of ṭābum",
+   "candidates_found": [
+    "طب",
+    "ظب"
+   ],
+   "best": "طب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šebērum",
+   "say": "šebērum",
+   "skeleton": "šbr",
+   "gloss": "to break, fracture; to harrow a field for the second time",
+   "candidates_found": [
+    "شبر",
+    "سبر",
+    "ثبر"
+   ],
+   "best": "شبر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šalgu",
+   "say": "šalgu",
+   "skeleton": "šlg",
+   "gloss": "Non-mimated form of šalgum",
+   "candidates_found": [
+    "شلج",
+    "شلغ",
+    "سلج",
+    "سلغ",
+    "ثلج",
+    "ثلغ"
+   ],
+   "best": "شلج",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šalgum",
+   "say": "šalgum",
+   "skeleton": "šlg",
+   "gloss": "snow, sleet",
+   "candidates_found": [
+    "شلج",
+    "شلغ",
+    "سلج",
+    "سلغ",
+    "ثلج",
+    "ثلغ"
+   ],
+   "best": "شلج",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šēlebum",
+   "say": "šēlebum",
+   "skeleton": "šlb",
+   "gloss": "fox; an unidentified star",
+   "candidates_found": [
+    "شلب",
+    "سلب",
+    "ثلب"
+   ],
+   "best": "شلب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣillum",
+   "say": "ṣillum",
+   "skeleton": "ṣl",
+   "gloss": "shadow, shade, shaded place; protection, canopy (on a boat), awning, covering",
+   "candidates_found": [
+    "صل",
+    "ضل",
+    "ظل"
+   ],
+   "best": "صل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pītum",
+   "say": "pītum",
+   "skeleton": "pt",
+   "gloss": "opening, aperture, breach, break; opening ceremony",
+   "candidates_found": [
+    "فت",
+    "فث",
+    "بت",
+    "بث"
+   ],
+   "best": "فت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pītu",
+   "say": "pītu",
+   "skeleton": "pt",
+   "gloss": "Non-mimated form of pītum",
+   "candidates_found": [
+    "فت",
+    "فث",
+    "بت",
+    "بث"
+   ],
+   "best": "فت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣurrum",
+   "say": "ṣurrum",
+   "skeleton": "ṣr",
+   "gloss": "flint, obsidian; flint blade",
+   "candidates_found": [
+    "صر",
+    "ضر",
+    "ظر"
+   ],
+   "best": "صر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "awīlu",
+   "say": "awīlu",
+   "skeleton": "wl",
+   "gloss": "Non-mimated form of awīlum",
+   "candidates_found": [
+    "ول"
+   ],
+   "best": "ول",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "amēlu",
+   "say": "amēlu",
+   "skeleton": "ml",
+   "gloss": "Middle Babylonian, Standard Babylonian, Neo-Babylonian, and Late Babylonian form of awīlum",
+   "candidates_found": [
+    "مل"
+   ],
+   "best": "مل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "amīlu",
+   "say": "amīlu",
+   "skeleton": "ml",
+   "gloss": "Middle Babylonian, Standard Babylonian, Neo-Babylonian, and Late Babylonian form of awīlum",
+   "candidates_found": [
+    "مل"
+   ],
+   "best": "مل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "awīlû",
+   "say": "awīlû",
+   "skeleton": "wl",
+   "gloss": "nominative plural of awīlum",
+   "candidates_found": [
+    "ول"
+   ],
+   "best": "ول",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gulgullum",
+   "say": "gulgullum",
+   "skeleton": "glgl",
+   "gloss": "skull; container shaped like a human skull",
+   "candidates_found": [
+    "جلجل"
+   ],
+   "best": "جلجل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gulgullu",
+   "say": "gulgullu",
+   "skeleton": "glgl",
+   "gloss": "Non-mimated form of gulgullum",
+   "candidates_found": [
+    "جلجل"
+   ],
+   "best": "جلجل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "abullum",
+   "say": "abullum",
+   "skeleton": "bl",
+   "gloss": "entrance gate (of a city, building or building complex)",
+   "candidates_found": [
+    "بل"
+   ],
+   "best": "بل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zumrum",
+   "say": "zumrum",
+   "skeleton": "zmr",
+   "gloss": "body (of humans, animals, objects, etc.); person",
+   "candidates_found": [
+    "زمر",
+    "ذمر"
+   ],
+   "best": "زمر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nāgirum",
+   "say": "nāgirum",
+   "skeleton": "ngr",
+   "gloss": "town crier, herald; a high official",
+   "candidates_found": [
+    "نجر",
+    "نغر"
+   ],
+   "best": "نجر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "amšālim",
+   "say": "amšālim",
+   "skeleton": "mšl",
+   "gloss": "yesterday",
+   "candidates_found": [
+    "مشل",
+    "مسل",
+    "مثل"
+   ],
+   "best": "مشل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šērum",
+   "say": "šērum",
+   "skeleton": "šr",
+   "gloss": "morning star, dawn; morning",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "našûm",
+   "say": "našûm",
+   "skeleton": "nšm",
+   "gloss": "to lift up, raise; to carry, bear, support",
+   "candidates_found": [
+    "نشم",
+    "نسم",
+    "نثم"
+   ],
+   "best": "نشم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pūtum",
+   "say": "pūtum",
+   "skeleton": "pt",
+   "gloss": "forehead, front, brow; facade",
+   "candidates_found": [
+    "فت",
+    "فث",
+    "بت",
+    "بث"
+   ],
+   "best": "فت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nazāqum",
+   "say": "nazāqum",
+   "skeleton": "nzq",
+   "gloss": "to worry, be upset, have worries; be vexed, be annoyed",
+   "candidates_found": [
+    "نزق"
+   ],
+   "best": "نزق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "arnum",
+   "say": "arnum",
+   "skeleton": "rn",
+   "gloss": "crime, wrongdoing, offence, misdeed, guilt, fault, sin; punishment, penalty",
+   "candidates_found": [
+    "رن"
+   ],
+   "best": "رن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šizbum",
+   "say": "šizbum",
+   "skeleton": "šzb",
+   "gloss": "milk",
+   "candidates_found": [
+    "شزب",
+    "شذب",
+    "سذب"
+   ],
+   "best": "شزب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "tīlum",
+   "say": "tīlum",
+   "skeleton": "tl",
+   "gloss": "mound, heap, tell",
+   "candidates_found": [
+    "تل",
+    "ثل"
+   ],
+   "best": "تل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bibbulum",
+   "say": "bibbulum",
+   "skeleton": "bl",
+   "gloss": "flood; day of the disappearance of the moon (the 28th or 29th of the month)",
+   "candidates_found": [
+    "بل"
+   ],
+   "best": "بل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bubbulum",
+   "say": "bubbulum",
+   "skeleton": "bl",
+   "gloss": "alternative form of bibbulum",
+   "candidates_found": [
+    "بل"
+   ],
+   "best": "بل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bīt ilim",
+   "say": "bīt ilim",
+   "skeleton": "btl",
+   "gloss": "temple",
+   "candidates_found": [
+    "بتل",
+    "بثل"
+   ],
+   "best": "بتل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "wabālum",
+   "say": "wabālum",
+   "skeleton": "wbl",
+   "gloss": "to bring, transport; to carry (things, animals, people; life, prosperity; messages, dreams",
+   "candidates_found": [
+    "وبل"
+   ],
+   "best": "وبل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "babālum",
+   "say": "babālum",
+   "skeleton": "bl",
+   "gloss": "Old Babylonian form of wabālum",
+   "candidates_found": [
+    "بل"
+   ],
+   "best": "بل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "abālu",
+   "say": "abālu",
+   "skeleton": "bl",
+   "gloss": "Standard Babylonian form of wabālum",
+   "candidates_found": [
+    "بل"
+   ],
+   "best": "بل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "edûm",
+   "say": "edûm",
+   "skeleton": "dm",
+   "gloss": "to know; to be experienced, familiar with, versed in",
+   "candidates_found": [
+    "دم",
+    "ذم",
+    "ضم"
+   ],
+   "best": "دم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "labirum",
+   "say": "labirum",
+   "skeleton": "lbr",
+   "gloss": "verbal adjective of labārum:; old",
+   "candidates_found": [
+    "لبر"
+   ],
+   "best": "لبر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šeššig",
+   "say": "šeššig",
+   "skeleton": "šg",
+   "gloss": "word used to describe a sign that is expanded with a set of entangled marks. For example t",
+   "candidates_found": [
+    "شج",
+    "شغ",
+    "سج",
+    "ثج"
+   ],
+   "best": "شج",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gunû",
+   "say": "gunû",
+   "skeleton": "gn",
+   "gloss": "word used to describe a sign that is expanded with a variable number of either vertical, h",
+   "candidates_found": [
+    "جن",
+    "غن"
+   ],
+   "best": "جن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "tenû",
+   "say": "tenû",
+   "skeleton": "tn",
+   "gloss": "word used to describe a sign written with an angle of inclination (45 degrees to the right",
+   "candidates_found": [
+    "تن",
+    "ثن"
+   ],
+   "best": "تن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šūtum",
+   "say": "šūtum",
+   "skeleton": "št",
+   "gloss": "south; south wind",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "eṭemmum",
+   "say": "eṭemmum",
+   "skeleton": "ṭm",
+   "gloss": "ghost, spirit (of a dead person)",
+   "candidates_found": [
+    "طم"
+   ],
+   "best": "طم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "wāšipum",
+   "say": "wāšipum",
+   "skeleton": "wšp",
+   "gloss": "exorcist, incantation priest, magician, sorcerer",
+   "candidates_found": [
+    "وشب",
+    "وسف",
+    "وسب",
+    "وثف",
+    "وثب"
+   ],
+   "best": "وشب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mūšam",
+   "say": "mūšam",
+   "skeleton": "mš",
+   "gloss": "at night, tonight; last night, yesterday",
+   "candidates_found": [
+    "مش",
+    "مس",
+    "مث"
+   ],
+   "best": "مش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣamādum",
+   "say": "ṣamādum",
+   "skeleton": "ṣmd",
+   "gloss": "to yoke, harness, tie, attach; to make ready, prepare",
+   "candidates_found": [
+    "صمد",
+    "ضمد"
+   ],
+   "best": "صمد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "erretum",
+   "say": "erretum",
+   "skeleton": "rt",
+   "gloss": "curse, malediction; accursed person",
+   "candidates_found": [
+    "رت",
+    "رث"
+   ],
+   "best": "رت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kadrum",
+   "say": "kadrum",
+   "skeleton": "kdr",
+   "gloss": "verbal adjective of kadārum:; wild, fierce, aggressive, rearing up, impetuous",
+   "candidates_found": [
+    "كدر",
+    "كذر",
+    "كضر"
+   ],
+   "best": "كدر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "marṣum",
+   "say": "marṣum",
+   "skeleton": "mrṣ",
+   "gloss": "verbal adjective of marāṣum:; sick, diseased",
+   "candidates_found": [
+    "مرص",
+    "مرض"
+   ],
+   "best": "مرص",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šalmum",
+   "say": "šalmum",
+   "skeleton": "šlm",
+   "gloss": "verbal adjective of šalāmum:; healthy, sound, intact, whole, entire, correct, proper, safe",
+   "candidates_found": [
+    "شلم",
+    "سلم",
+    "ثلم"
+   ],
+   "best": "شلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pušqum",
+   "say": "pušqum",
+   "skeleton": "pšq",
+   "gloss": "narrowness, narrow place, strait; distress, hardship, dire straits",
+   "candidates_found": [
+    "فشق",
+    "فسق",
+    "بشق",
+    "بسق",
+    "بثق"
+   ],
+   "best": "فشق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rabûm",
+   "say": "rabûm",
+   "skeleton": "rbm",
+   "gloss": "verbal adjective of rabûm:; big, large",
+   "candidates_found": [
+    "ربم"
+   ],
+   "best": "ربم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zanānum",
+   "say": "zanānum",
+   "skeleton": "zn",
+   "gloss": "to rain",
+   "candidates_found": [
+    "زن",
+    "ذن"
+   ],
+   "best": "زن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šamûm",
+   "say": "šamûm",
+   "skeleton": "šm",
+   "gloss": "rain",
+   "candidates_found": [
+    "شم",
+    "سم",
+    "ثم"
+   ],
+   "best": "شم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rīmum",
+   "say": "rīmum",
+   "skeleton": "rm",
+   "gloss": "wild bull",
+   "candidates_found": [
+    "رم"
+   ],
+   "best": "رم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "pašāqum",
+   "say": "pašāqum",
+   "skeleton": "pšq",
+   "gloss": "to be(come) narrow, constricted; to be(come) difficult",
+   "candidates_found": [
+    "فشق",
+    "فسق",
+    "بشق",
+    "بسق",
+    "بثق"
+   ],
+   "best": "فشق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "sapḫum",
+   "say": "sapḫum",
+   "skeleton": "spḫ",
+   "gloss": "verbal adjective of sapāḫum: scattered, dispersed",
+   "candidates_found": [
+    "سفح",
+    "سفه",
+    "سفع",
+    "سبخ",
+    "سبح",
+    "سبه",
+    "سبع",
+    "سبغ"
+   ],
+   "best": "سفح",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šanûm",
+   "say": "šanûm",
+   "skeleton": "šnm",
+   "gloss": "verbal adjective of šanûm:; second (of two or more), next, other",
+   "candidates_found": [
+    "شنم",
+    "سنم"
+   ],
+   "best": "شنم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "wašṭum",
+   "say": "wašṭum",
+   "skeleton": "wšṭ",
+   "gloss": "verbal adjective of wašāṭum:; strong, fierce",
+   "candidates_found": [
+    "وشظ",
+    "وسط"
+   ],
+   "best": "وشظ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "simtum",
+   "say": "simtum",
+   "skeleton": "smt",
+   "gloss": "fitting, suitable, seemly, appropriate, necessary (said of people or things); symbol, prop",
+   "candidates_found": [
+    "سمت"
+   ],
+   "best": "سمت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "arkum",
+   "say": "arkum",
+   "skeleton": "rk",
+   "gloss": "verbal adjective of arākum:; long (time and size)",
+   "candidates_found": [
+    "رك"
+   ],
+   "best": "رك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "arākum",
+   "say": "arākum",
+   "skeleton": "rk",
+   "gloss": "to be(come) long, last long; to be delayed, too long, drag on",
+   "candidates_found": [
+    "رك"
+   ],
+   "best": "رك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bānûm",
+   "say": "bānûm",
+   "skeleton": "bnm",
+   "gloss": "participle of banûm:; creator, begetter",
+   "candidates_found": [
+    "بنم"
+   ],
+   "best": "بنم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bīšum",
+   "say": "bīšum",
+   "skeleton": "bš",
+   "gloss": "possession, movable property, goods, valuables",
+   "candidates_found": [
+    "بش",
+    "بس",
+    "بث"
+   ],
+   "best": "بش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "sikkatum",
+   "say": "sikkatum",
+   "skeleton": "skt",
+   "gloss": "peg, nail; cone, pyramid",
+   "candidates_found": [
+    "سكت"
+   ],
+   "best": "سكت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "sikkānum",
+   "say": "sikkānum",
+   "skeleton": "skn",
+   "gloss": "rudder, steering paddle",
+   "candidates_found": [
+    "سكن"
+   ],
+   "best": "سكن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dārûm",
+   "say": "dārûm",
+   "skeleton": "drm",
+   "gloss": "everlasting, perpetual, enduring; durable, lasting",
+   "candidates_found": [
+    "درم",
+    "ذرم",
+    "ضرم"
+   ],
+   "best": "درم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫulqum",
+   "say": "ḫulqum",
+   "skeleton": "ḫlq",
+   "gloss": "lost object, lost property; loss",
+   "candidates_found": [
+    "خلق",
+    "حلق",
+    "هلق",
+    "علق",
+    "غلق"
+   ],
+   "best": "خلق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šulmu",
+   "say": "šulmu",
+   "skeleton": "šlm",
+   "gloss": "Non-mimated form of šulmum",
+   "candidates_found": [
+    "شلم",
+    "سلم",
+    "ثلم"
+   ],
+   "best": "شلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "girru",
+   "say": "girru",
+   "skeleton": "gr",
+   "gloss": "lion",
+   "candidates_found": [
+    "جر",
+    "غر"
+   ],
+   "best": "جر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "girrum",
+   "say": "girrum",
+   "skeleton": "gr",
+   "gloss": "Mimated form of girru (“lion”)",
+   "candidates_found": [
+    "جر",
+    "غر"
+   ],
+   "best": "جر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dalālum",
+   "say": "dalālum",
+   "skeleton": "dl",
+   "gloss": "to praise, sing, proclaim, glorify",
+   "candidates_found": [
+    "دل",
+    "ذل",
+    "ضل"
+   ],
+   "best": "دل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nēmequm",
+   "say": "nēmequm",
+   "skeleton": "nmq",
+   "gloss": "experience, knowledge, wisdom, sagacity, skill",
+   "candidates_found": [
+    "نمق"
+   ],
+   "best": "نمق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ibrum",
+   "say": "ibrum",
+   "skeleton": "br",
+   "gloss": "comrade, fellow, friend, colleague, peer, equal (a person of the same status or profession",
+   "candidates_found": [
+    "بر"
+   ],
+   "best": "بر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bīnum",
+   "say": "bīnum",
+   "skeleton": "bn",
+   "gloss": "son",
+   "candidates_found": [
+    "بن"
+   ],
+   "best": "بن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šiṭrum",
+   "say": "šiṭrum",
+   "skeleton": "šṭr",
+   "gloss": "text, inscription (any piece of writing); stars",
+   "candidates_found": [
+    "شطر",
+    "شظر",
+    "سطر"
+   ],
+   "best": "شطر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "tiāmtum",
+   "say": "tiāmtum",
+   "skeleton": "tmt",
+   "gloss": "sea, ocean; lake",
+   "candidates_found": [
+    "تمت",
+    "ثمت"
+   ],
+   "best": "تمت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šaṭārum",
+   "say": "šaṭārum",
+   "skeleton": "šṭr",
+   "gloss": "copy, exemplar, text, inscription, writing, written document",
+   "candidates_found": [
+    "شطر",
+    "شظر",
+    "سطر"
+   ],
+   "best": "شطر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šaṭārum",
+   "say": "šaṭārum",
+   "skeleton": "šṭr",
+   "gloss": "to write down, inscribe, copy; to issue a legal document",
+   "candidates_found": [
+    "شطر",
+    "شظر",
+    "سطر"
+   ],
+   "best": "شطر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bašûm",
+   "say": "bašûm",
+   "skeleton": "bšm",
+   "gloss": "to exist, to be there, present, available; to happen",
+   "candidates_found": [
+    "بشم",
+    "بسم"
+   ],
+   "best": "بشم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qiāšum",
+   "say": "qiāšum",
+   "skeleton": "qš",
+   "gloss": "to bestow, give, grant, make a votive offering",
+   "candidates_found": [
+    "قش",
+    "قس",
+    "قث"
+   ],
+   "best": "قش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qīštum",
+   "say": "qīštum",
+   "skeleton": "qšt",
+   "gloss": "gift (presented to gods), votive offering; gift, gratuity, baksheesh",
+   "candidates_found": [
+    "قست",
+    "قثث"
+   ],
+   "best": "قست",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "siparrum",
+   "say": "siparrum",
+   "skeleton": "spr",
+   "gloss": "bronze; fetters",
+   "candidates_found": [
+    "سفر",
+    "سبر"
+   ],
+   "best": "سفر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "išûm",
+   "say": "išûm",
+   "skeleton": "šm",
+   "gloss": "to have, own; to have a claim (against someone)",
+   "candidates_found": [
+    "شم",
+    "سم",
+    "ثم"
+   ],
+   "best": "شم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kārum",
+   "say": "kārum",
+   "skeleton": "kr",
+   "gloss": "embankment, quay wall, mooring place; harbour, port",
+   "candidates_found": [
+    "كر"
+   ],
+   "best": "كر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "naṣārum",
+   "say": "naṣārum",
+   "skeleton": "nṣr",
+   "gloss": "to watch over, protect",
+   "candidates_found": [
+    "نصر",
+    "نضر",
+    "نظر"
+   ],
+   "best": "نصر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šâlu",
+   "say": "šâlu",
+   "skeleton": "šl",
+   "gloss": "ask, question; hold responsible",
+   "candidates_found": [
+    "شل",
+    "سل",
+    "ثل"
+   ],
+   "best": "شل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "akkadûm",
+   "say": "akkadûm",
+   "skeleton": "kdm",
+   "gloss": "Akkadian",
+   "candidates_found": [
+    "كدم",
+    "كضم"
+   ],
+   "best": "كدم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "parādum",
+   "say": "parādum",
+   "skeleton": "prd",
+   "gloss": "to be scared, terrified, fearful, disturbed, upset, restless",
+   "candidates_found": [
+    "فرد",
+    "فرض",
+    "برد",
+    "برذ",
+    "برض"
+   ],
+   "best": "فرد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "damqiš",
+   "say": "damqiš",
+   "skeleton": "dmqš",
+   "gloss": "well, carefully; kindly, benevolently, piously",
+   "candidates_found": [
+    "دمقس"
+   ],
+   "best": "دمقس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šuttum",
+   "say": "šuttum",
+   "skeleton": "št",
+   "gloss": "dream",
+   "candidates_found": [
+    "شت",
+    "شث",
+    "ست"
+   ],
+   "best": "شت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šīnātum",
+   "say": "šīnātum",
+   "skeleton": "šnt",
+   "gloss": "urine",
+   "candidates_found": [
+    "شنث",
+    "سنت",
+    "ثنت"
+   ],
+   "best": "شنث",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kaṣûm",
+   "say": "kaṣûm",
+   "skeleton": "kṣm",
+   "gloss": "verbal adjective of kaṣûm (“to be(come) cold”); verbal adjective of kaṣûm (“to be(come) co",
+   "candidates_found": [
+    "كصم",
+    "كضم",
+    "كظم"
+   ],
+   "best": "كصم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šuburrum",
+   "say": "šuburrum",
+   "skeleton": "šbr",
+   "gloss": "rump, bottom, rear, buttocks, rectum, anus",
+   "candidates_found": [
+    "شبر",
+    "سبر",
+    "ثبر"
+   ],
+   "best": "شبر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ūmišam",
+   "say": "ūmišam",
+   "skeleton": "mš",
+   "gloss": "every day, daily",
+   "candidates_found": [
+    "مش",
+    "مس",
+    "مث"
+   ],
+   "best": "مش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "serdum",
+   "say": "serdum",
+   "skeleton": "srd",
+   "gloss": "olive; olive tree",
+   "candidates_found": [
+    "سرد"
+   ],
+   "best": "سرد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gardumum",
+   "say": "gardumum",
+   "skeleton": "grdm",
+   "gloss": "Mimated form of gardumu",
+   "candidates_found": [
+    "جردم",
+    "جرذم",
+    "جرضم"
+   ],
+   "best": "جردم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "titūrum",
+   "say": "titūrum",
+   "skeleton": "tr",
+   "gloss": "bridge, causeway; distance between two tones",
+   "candidates_found": [
+    "تر",
+    "ثر"
+   ],
+   "best": "تر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bakûm",
+   "say": "bakûm",
+   "skeleton": "bkm",
+   "gloss": "to weep, shed tears; to wail, mourn",
+   "candidates_found": [
+    "بكم"
+   ],
+   "best": "بكم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Sāmerīna",
+   "say": "Sāmerīna",
+   "skeleton": "mrn",
+   "gloss": "The ancient capital of the northern Kingdom of Israel, modern Sebastia in the West Bank; a",
+   "candidates_found": [
+    "مرن"
+   ],
+   "best": "مرن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ašāgum",
+   "say": "ašāgum",
+   "skeleton": "šg",
+   "gloss": "a common spiny plant, perhaps a camelthorn",
+   "candidates_found": [
+    "شج",
+    "شغ",
+    "سج",
+    "ثج"
+   ],
+   "best": "شج",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kurûm",
+   "say": "kurûm",
+   "skeleton": "krm",
+   "gloss": "verbal adjective of karûm:; short (time and size)",
+   "candidates_found": [
+    "كرم"
+   ],
+   "best": "كرم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mīnum",
+   "say": "mīnum",
+   "skeleton": "mn",
+   "gloss": "what?; what, whatever",
+   "candidates_found": [
+    "من"
+   ],
+   "best": "من",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mīnum",
+   "say": "mīnum",
+   "skeleton": "mn",
+   "gloss": "number; accounting",
+   "candidates_found": [
+    "من"
+   ],
+   "best": "من",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫamuttam",
+   "say": "ḫamuttam",
+   "skeleton": "ḫmt",
+   "gloss": "at once, promptly, soon; previously",
+   "candidates_found": [
+    "خمت",
+    "حمت",
+    "همت",
+    "عمت",
+    "غمت"
+   ],
+   "best": "خمت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šapārum",
+   "say": "šapārum",
+   "skeleton": "špr",
+   "gloss": "to send; to send word (written or spoken), a message, a report, to write to",
+   "candidates_found": [
+    "شفر",
+    "شبر",
+    "سفر",
+    "سبر",
+    "ثفر",
+    "ثبر"
+   ],
+   "best": "شفر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šiprum",
+   "say": "šiprum",
+   "skeleton": "špr",
+   "gloss": "message, report, commission; messenger",
+   "candidates_found": [
+    "شفر",
+    "شبر",
+    "سفر",
+    "سبر",
+    "ثفر",
+    "ثبر"
+   ],
+   "best": "شفر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šaprum",
+   "say": "šaprum",
+   "skeleton": "špr",
+   "gloss": "messenger, envoy; variation of 𒊭𒁀𒅈𒌈 (šapartum, “pledge”)",
+   "candidates_found": [
+    "شفر",
+    "شبر",
+    "سفر",
+    "سبر",
+    "ثفر",
+    "ثبر"
+   ],
+   "best": "شفر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šaprum",
+   "say": "šaprum",
+   "skeleton": "špr",
+   "gloss": "thigh (contextually often applied to female genitals)",
+   "candidates_found": [
+    "شفر",
+    "شبر",
+    "سفر",
+    "سبر",
+    "ثفر",
+    "ثبر"
+   ],
+   "best": "شفر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šapāṭum",
+   "say": "šapāṭum",
+   "skeleton": "špṭ",
+   "gloss": "to give judgement, exercise authority",
+   "candidates_found": [
+    "شبط",
+    "سفط",
+    "سبط",
+    "ثبط"
+   ],
+   "best": "شبط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ramākum",
+   "say": "ramākum",
+   "skeleton": "rmk",
+   "gloss": "to bathe, wash oneself; to soak, steep",
+   "candidates_found": [
+    "رمك"
+   ],
+   "best": "رمك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "salīmum",
+   "say": "salīmum",
+   "skeleton": "slm",
+   "gloss": "peace, concord, amity; reconciliation with the gods, favor",
+   "candidates_found": [
+    "سلم"
+   ],
+   "best": "سلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "salāmum",
+   "say": "salāmum",
+   "skeleton": "slm",
+   "gloss": "to make peace, become reconciled, be at peace",
+   "candidates_found": [
+    "سلم"
+   ],
+   "best": "سلم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "suqtum",
+   "say": "suqtum",
+   "skeleton": "sqt",
+   "gloss": "chin",
+   "candidates_found": [
+    "سقت"
+   ],
+   "best": "سقت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "râmum",
+   "say": "râmum",
+   "skeleton": "rm",
+   "gloss": "nominalization of râmum (“to love”): love, love-making",
+   "candidates_found": [
+    "رم"
+   ],
+   "best": "رم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "râmum",
+   "say": "râmum",
+   "skeleton": "rm",
+   "gloss": "to love",
+   "candidates_found": [
+    "رم"
+   ],
+   "best": "رم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šurānum",
+   "say": "šurānum",
+   "skeleton": "šrn",
+   "gloss": "cat; a male given name",
+   "candidates_found": [
+    "شرن",
+    "ثرن"
+   ],
+   "best": "شرن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kēna",
+   "say": "kēna",
+   "skeleton": "kn",
+   "gloss": "yes",
+   "candidates_found": [
+    "كن"
+   ],
+   "best": "كن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "wālidum",
+   "say": "wālidum",
+   "skeleton": "wld",
+   "gloss": "begetter, birth giving, (mother) who bore, real (father/mother), progenitor/progenitress",
+   "candidates_found": [
+    "ولد",
+    "ولذ"
+   ],
+   "best": "ولد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṭābātum",
+   "say": "ṭābātum",
+   "skeleton": "ṭbt",
+   "gloss": "vinegar",
+   "candidates_found": [
+    "طبث"
+   ],
+   "best": "طبث",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "karānum",
+   "say": "karānum",
+   "skeleton": "krn",
+   "gloss": "wine; grapevine, vine",
+   "candidates_found": [
+    "كرن"
+   ],
+   "best": "كرن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šasûm",
+   "say": "šasûm",
+   "skeleton": "šsm",
+   "gloss": "to cry out, shout, make a loud noise; to proclaim, announce, utter, exclaim",
+   "candidates_found": [
+    "سسم"
+   ],
+   "best": "سسم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "luppum",
+   "say": "luppum",
+   "skeleton": "lp",
+   "gloss": "leather bag",
+   "candidates_found": [
+    "لف",
+    "لب"
+   ],
+   "best": "لف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rigmum",
+   "say": "rigmum",
+   "skeleton": "rgm",
+   "gloss": "voice, cry; sound, noise",
+   "candidates_found": [
+    "رجم",
+    "رغم"
+   ],
+   "best": "رجم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "sāmum",
+   "say": "sāmum",
+   "skeleton": "sm",
+   "gloss": "red, brown",
+   "candidates_found": [
+    "سم"
+   ],
+   "best": "سم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "māšum",
+   "say": "māšum",
+   "skeleton": "mš",
+   "gloss": "twin; Gemini",
+   "candidates_found": [
+    "مش",
+    "مس",
+    "مث"
+   ],
+   "best": "مش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qinnum",
+   "say": "qinnum",
+   "skeleton": "qn",
+   "gloss": "nest, lair; family, clan, kinsman",
+   "candidates_found": [
+    "قن"
+   ],
+   "best": "قن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gamālum",
+   "say": "gamālum",
+   "skeleton": "gml",
+   "gloss": "to do a favour, be obliging, perform a kind act, act so as to please; to spare, save",
+   "candidates_found": [
+    "جمل",
+    "غمل"
+   ],
+   "best": "جمل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "warqum",
+   "say": "warqum",
+   "skeleton": "wrq",
+   "gloss": "verbal adjective of warāqum",
+   "candidates_found": [
+    "ورق"
+   ],
+   "best": "ورق",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "le'ûm",
+   "say": "le'ûm",
+   "skeleton": "lm",
+   "gloss": "to be able, master, be an expert, understand; to win, overpower someone, be more powerful",
+   "candidates_found": [
+    "لم"
+   ],
+   "best": "لم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "iškum",
+   "say": "iškum",
+   "skeleton": "šk",
+   "gloss": "testicle, scrotum",
+   "candidates_found": [
+    "شك",
+    "سك",
+    "ثك"
+   ],
+   "best": "شك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "peṣûm",
+   "say": "peṣûm",
+   "skeleton": "pṣm",
+   "gloss": "white, pale, bleached; cleared, empty",
+   "candidates_found": [
+    "فصم",
+    "بصم",
+    "بضم"
+   ],
+   "best": "فصم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "tumrum",
+   "say": "tumrum",
+   "skeleton": "tmr",
+   "gloss": "cinder, ashes, ember, (glowing) charcoal",
+   "candidates_found": [
+    "تمر",
+    "ثمر"
+   ],
+   "best": "تمر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ramānum",
+   "say": "ramānum",
+   "skeleton": "rmn",
+   "gloss": "self",
+   "candidates_found": [
+    "رمن"
+   ],
+   "best": "رمن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "madādum",
+   "say": "madādum",
+   "skeleton": "md",
+   "gloss": "to measure out, pay, measure, survey",
+   "candidates_found": [
+    "مد",
+    "مذ",
+    "مض"
+   ],
+   "best": "مد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kitûm",
+   "say": "kitûm",
+   "skeleton": "ktm",
+   "gloss": "flax; linen",
+   "candidates_found": [
+    "كتم",
+    "كثم"
+   ],
+   "best": "كتم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kītum",
+   "say": "kītum",
+   "skeleton": "kt",
+   "gloss": "reed mat; a surface measure",
+   "candidates_found": [
+    "كت",
+    "كث"
+   ],
+   "best": "كت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qerītum",
+   "say": "qerītum",
+   "skeleton": "qrt",
+   "gloss": "banquet, feast, festive meal",
+   "candidates_found": [
+    "قرت",
+    "قرث"
+   ],
+   "best": "قرت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Pazūzānu",
+   "say": "Pazūzānu",
+   "skeleton": "zn",
+   "gloss": "plural of Pazūzu",
+   "candidates_found": [
+    "زن",
+    "ذن"
+   ],
+   "best": "زن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "tarbāṣum",
+   "say": "tarbāṣum",
+   "skeleton": "trbṣ",
+   "gloss": "pen (for cattle), animal stall, enclosure, courtyard; halo",
+   "candidates_found": [
+    "تربص"
+   ],
+   "best": "تربص",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "talmīdum",
+   "say": "talmīdum",
+   "skeleton": "tlmd",
+   "gloss": "apprentice, student; a type of plow",
+   "candidates_found": [
+    "تلمذ"
+   ],
+   "best": "تلمذ",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "imittam",
+   "say": "imittam",
+   "skeleton": "mt",
+   "gloss": "to the right, on the right",
+   "candidates_found": [
+    "مت",
+    "مث"
+   ],
+   "best": "مت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "imittum",
+   "say": "imittum",
+   "skeleton": "mt",
+   "gloss": "the right; right side",
+   "candidates_found": [
+    "مت",
+    "مث"
+   ],
+   "best": "مت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mayyālum",
+   "say": "mayyālum",
+   "skeleton": "myl",
+   "gloss": "bed, sleeping place, resting place; grave",
+   "candidates_found": [
+    "ميل"
+   ],
+   "best": "ميل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "uršum",
+   "say": "uršum",
+   "skeleton": "rš",
+   "gloss": "bedroom, personal quarters",
+   "candidates_found": [
+    "رش",
+    "رس",
+    "رث"
+   ],
+   "best": "رش",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫamāṭum",
+   "say": "ḫamāṭum",
+   "skeleton": "ḫmṭ",
+   "gloss": "to hasten, be quick; to go/come in haste",
+   "candidates_found": [
+    "خمط",
+    "حمط",
+    "حمظ",
+    "همط",
+    "عمط",
+    "غمط"
+   ],
+   "best": "خمط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫamāṭum",
+   "say": "ḫamāṭum",
+   "skeleton": "ḫmṭ",
+   "gloss": "to burn, burn up, be inflamed",
+   "candidates_found": [
+    "خمط",
+    "حمط",
+    "حمظ",
+    "همط",
+    "عمط",
+    "غمط"
+   ],
+   "best": "خمط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gišrum",
+   "say": "gišrum",
+   "skeleton": "gšr",
+   "gloss": "wooden bar, log; part of a lock to close a door",
+   "candidates_found": [
+    "جشر",
+    "جسر",
+    "جثر",
+    "غشر",
+    "غسر",
+    "غثر"
+   ],
+   "best": "جشر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "napṭum",
+   "say": "napṭum",
+   "skeleton": "npṭ",
+   "gloss": "naphtha",
+   "candidates_found": [
+    "نفط",
+    "نبط"
+   ],
+   "best": "نفط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "qunnabu",
+   "say": "qunnabu",
+   "skeleton": "qnb",
+   "gloss": "an aromatic (possibly the seeds or flowers of hemp)",
+   "candidates_found": [
+    "قنب"
+   ],
+   "best": "قنب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ubānum",
+   "say": "ubānum",
+   "skeleton": "bn",
+   "gloss": "finger; fingerbreadth, 1/30 cubit",
+   "candidates_found": [
+    "بن"
+   ],
+   "best": "بن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ayyikīam",
+   "say": "ayyikīam",
+   "skeleton": "yk",
+   "gloss": "where?",
+   "candidates_found": [
+    "يك"
+   ],
+   "best": "يك",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "mīšarum",
+   "say": "mīšarum",
+   "skeleton": "mšr",
+   "gloss": "justice; the name of a month",
+   "candidates_found": [
+    "مشر",
+    "مسر"
+   ],
+   "best": "مشر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ešērum",
+   "say": "ešērum",
+   "skeleton": "šr",
+   "gloss": "to go well, be(come) well, successful, healthy, favourable, to straighten up, to prosper, ",
+   "candidates_found": [
+    "شر",
+    "سر",
+    "ثر"
+   ],
+   "best": "شر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣibtum",
+   "say": "ṣibtum",
+   "skeleton": "ṣbt",
+   "gloss": "interest; a part of the liver",
+   "candidates_found": [
+    "صبث",
+    "ضبث"
+   ],
+   "best": "صبث",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rē'ûtum",
+   "say": "rē'ûtum",
+   "skeleton": "rt",
+   "gloss": "shepherdship",
+   "candidates_found": [
+    "رت",
+    "رث"
+   ],
+   "best": "رت",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "kaṣāpu",
+   "say": "kaṣāpu",
+   "skeleton": "kṣp",
+   "gloss": "to think",
+   "candidates_found": [
+    "كضب",
+    "كظب"
+   ],
+   "best": "كضب",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gubāru",
+   "say": "gubāru",
+   "skeleton": "gbr",
+   "gloss": "Non-mimated form of gubārum",
+   "candidates_found": [
+    "جبر",
+    "غبر"
+   ],
+   "best": "جبر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "tarāṣu",
+   "say": "tarāṣu",
+   "skeleton": "trṣ",
+   "gloss": "Non-mimated form of tarāṣum",
+   "candidates_found": [
+    "ترص",
+    "ترض"
+   ],
+   "best": "ترص",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "laqāḫu",
+   "say": "laqāḫu",
+   "skeleton": "lqḫ",
+   "gloss": "El-Amarna form of leqûm",
+   "candidates_found": [
+    "لقح",
+    "لقع"
+   ],
+   "best": "لقح",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "gubārum",
+   "say": "gubārum",
+   "skeleton": "gbr",
+   "gloss": "ingot",
+   "candidates_found": [
+    "جبر",
+    "غبر"
+   ],
+   "best": "جبر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "tarāṣum",
+   "say": "tarāṣum",
+   "skeleton": "trṣ",
+   "gloss": "to be(come) pleasing, just, right, to be(come) honest, proper, to be(come) correct, fittin",
+   "candidates_found": [
+    "ترص",
+    "ترض"
+   ],
+   "best": "ترص",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "leqûm",
+   "say": "leqûm",
+   "skeleton": "lqm",
+   "gloss": "to take",
+   "candidates_found": [
+    "لقم"
+   ],
+   "best": "لقم",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣērum",
+   "say": "ṣērum",
+   "skeleton": "ṣr",
+   "gloss": "back; over, unto, towards, above",
+   "candidates_found": [
+    "صر",
+    "ضر",
+    "ظر"
+   ],
+   "best": "صر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ṣērum",
+   "say": "ṣērum",
+   "skeleton": "ṣr",
+   "gloss": "plain, steppe",
+   "candidates_found": [
+    "صر",
+    "ضر",
+    "ظر"
+   ],
+   "best": "صر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "nāqidum",
+   "say": "nāqidum",
+   "skeleton": "nqd",
+   "gloss": "stockbreeder; herdsman of sheep, goats and cows",
+   "candidates_found": [
+    "نقد",
+    "نقذ",
+    "نقض"
+   ],
+   "best": "نقد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Nabû-na'id",
+   "say": "Nabû-na'id",
+   "skeleton": "bnd",
+   "gloss": "a male given name: Nabonidus, the last king of Babylon",
+   "candidates_found": [
+    "بند"
+   ],
+   "best": "بند",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Gurdî",
+   "say": "Gurdî",
+   "skeleton": "rd",
+   "gloss": "a male given name",
+   "candidates_found": [
+    "رد",
+    "رذ",
+    "رض"
+   ],
+   "best": "رد",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Yaudāya",
+   "say": "Yaudāya",
+   "skeleton": "dy",
+   "gloss": "Judean, of Judah, an Iron Age tribal grouping, and later kingdom, of Northwest Semites",
+   "candidates_found": [
+    "دي"
+   ],
+   "best": "دي",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Ḫazaqiyau",
+   "say": "Ḫazaqiyau",
+   "skeleton": "zqy",
+   "gloss": "a male given name Hezekiah",
+   "candidates_found": [
+    "زقي"
+   ],
+   "best": "زقي",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Yauḫazi",
+   "say": "Yauḫazi",
+   "skeleton": "ḫz",
+   "gloss": "a male given name Ahaz, the king of Judah",
+   "candidates_found": [
+    "خز",
+    "خذ",
+    "حز",
+    "حذ",
+    "هز",
+    "هذ",
+    "عز",
+    "عذ",
+    "غز",
+    "غذ"
+   ],
+   "best": "خز",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Menasî",
+   "say": "Menasî",
+   "skeleton": "ns",
+   "gloss": "a male given name Manasseh",
+   "candidates_found": [
+    "نس"
+   ],
+   "best": "نس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "quppum",
+   "say": "quppum",
+   "skeleton": "qp",
+   "gloss": "wicker basket, wooden box",
+   "candidates_found": [
+    "قف",
+    "قب"
+   ],
+   "best": "قف",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "šawirum",
+   "say": "šawirum",
+   "skeleton": "šwr",
+   "gloss": "ring, torque",
+   "candidates_found": [
+    "شور",
+    "سور",
+    "ثور"
+   ],
+   "best": "شور",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Miṣri",
+   "say": "Miṣri",
+   "skeleton": "ṣr",
+   "gloss": "Egypt",
+   "candidates_found": [
+    "صر",
+    "ضر",
+    "ظر"
+   ],
+   "best": "صر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Muṣur",
+   "say": "Muṣur",
+   "skeleton": "ṣr",
+   "gloss": "Egypt",
+   "candidates_found": [
+    "صر",
+    "ضر",
+    "ظر"
+   ],
+   "best": "صر",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "Yamanāya",
+   "say": "Yamanāya",
+   "skeleton": "mny",
+   "gloss": "Ionian",
+   "candidates_found": [
+    "مني"
+   ],
+   "best": "مني",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "takālum",
+   "say": "takālum",
+   "skeleton": "tkl",
+   "gloss": "to trust, rely, put one's faith on",
+   "candidates_found": [
+    "تكل",
+    "ثكل"
+   ],
+   "best": "تكل",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "ḫazannum",
+   "say": "ḫazannum",
+   "skeleton": "ḫzn",
+   "gloss": "mayor, village headman",
+   "candidates_found": [
+    "خزن",
+    "خذن",
+    "حزن",
+    "حذن",
+    "هزن",
+    "هذن",
+    "عزن",
+    "عذن",
+    "غزن",
+    "غذن"
+   ],
+   "best": "خزن",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "rakāsum",
+   "say": "rakāsum",
+   "skeleton": "rks",
+   "gloss": "to tie, attach; to tie together, pack, wrap, harness, fasten",
+   "candidates_found": [
+    "ركس"
+   ],
+   "best": "ركس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "dakāšum",
+   "say": "dakāšum",
+   "skeleton": "dkš",
+   "gloss": "to pierce, sting, press in, press on; to press out, enlarge",
+   "candidates_found": [
+    "دكس"
+   ],
+   "best": "دكس",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "bulluṭum",
+   "say": "bulluṭum",
+   "skeleton": "blṭ",
+   "gloss": "to bring back to life, revive; to let live, support, provide for, keep alive and in good h",
+   "candidates_found": [
+    "بلط"
+   ],
+   "best": "بلط",
+   "overlap": 0,
+   "shared": []
+  },
+  {
+   "branch": "zuruqqu",
+   "say": "zuruqqu",
+   "skeleton": "zrq",
+   "gloss": "a shadoof",
+   "candidates_found": [
+    "زرق",
+    "ذرق"
+   ],
+   "best": "زرق",
+   "overlap": 0,
+   "shared": []
+  }
+ ]
 }
