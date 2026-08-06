@@ -198,8 +198,8 @@
  },
  "pipeline": {
   "cards_total": 27850,
-  "suspended": 20743,
-  "released": 7107,
+  "suspended": 20744,
+  "released": 7106,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -227,7 +227,7 @@
    },
    {
     "name": "NUCLEUS-ORIGINAL-CONSONANT-DROP",
-    "count": 2
+    "count": 3
    },
    {
     "name": "ORIGINAL-CONSONANT-DROP",
@@ -292,7 +292,7 @@
   "required_total": 600,
   "required_per_language": 150,
   "families_tracked": 1810,
-  "eligible_now": 363,
+  "eligible_now": 362,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
@@ -306,11 +306,11 @@
    },
    {
     "name": "hebrew",
-    "eligible": 129,
+    "eligible": 128,
     "represented": 1213,
-    "positive_families": 129,
+    "positive_families": 128,
     "closure_only_families": 0,
-    "one_member_short": 339
+    "one_member_short": 340
    }
   ],
   "counting_law": "A family counts only when every inventory member carries an issued verdict or recorded terminal closure."

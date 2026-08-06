@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-06",
+  "scope": "223 delegated proposed nuclei against 146 recorded retractions",
+  "summary": {
+    "proposed_nuclei": 223,
+    "frozen_nuclei_rows": 455,
+    "overlap_with_frozen_nuclei": 0,
+    "recorded_retractions_screened": 146,
+    "retractions_caused_by_absent_proposed_nucleus": 0,
+    "copy_lines_written": 0
+  },
+  "index_adjacent_records": [
+    {
+      "audit_id": "RET-N-001",
+      "layer": "nucleus",
+      "mentioned_form": "قر",
+      "mentioned_form_kind": "binary nucleus",
+      "in_frozen_index": true,
+      "in_proposed_layer": false,
+      "decision": "keep-retracted",
+      "reason": "The card used the internal frozen export instead of two named Arabic lexica; the nucleus itself was not absent."
+    },
+    {
+      "audit_id": "RET-R-031",
+      "layer": "root",
+      "mentioned_form_kind": "existing frozen reading used as sole Arabic support",
+      "decision": "keep-retracted",
+      "reason": "The root retraction concerns missing lexica and double counting of the Egyptian ancestor, not an absent binary nucleus."
+    },
+    {
+      "audit_id": "RET-R-032",
+      "layer": "root",
+      "mentioned_form_kind": "existing frozen reading used as sole Arabic support",
+      "decision": "keep-retracted",
+      "reason": "The root retraction concerns missing lexica and double counting of the Egyptian ancestor, not an absent binary nucleus."
+    },
+    {
+      "audit_id": "RET-R-057",
+      "layer": "root",
+      "mentioned_form": "مغر",
+      "mentioned_form_kind": "trilateral root",
+      "decision": "no-nucleus-copy-line",
+      "reason": "The delegated ruling opens binary nuclei, not absent trilateral root readings; the separate sound-row obstacle was superseded by RET-REOPEN-SEM-003."
+    },
+    {
+      "audit_id": "RET-R-014",
+      "layer": "root",
+      "mentioned_form": "كك",
+      "mentioned_form_kind": "binary nucleus mentioned in the card body but not in the recorded retraction reason",
+      "in_frozen_index": true,
+      "in_proposed_layer": false,
+      "decision": "keep-retracted",
+      "reason": "The recorded retraction concerns a reduplicated quadrilateral form promoted to a triliteral root; nucleus absence was not its cause."
+    }
+  ]
+}

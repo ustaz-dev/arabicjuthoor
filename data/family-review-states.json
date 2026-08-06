@@ -4966,9 +4966,9 @@
     "schema_version": 1,
     "generated_by": "scripts/count_proof_eligible_families.py",
     "report_path": "data/proof-eligible-families.json",
-    "report_sha256": "299ab353f0bc35e42a364ef048f8d09ee5efbb38e53b821390b82794784bc680",
+    "report_sha256": "4e43a74a1a9ab16b1abc286e392b5285cc0a996d32df37177ab3fc6304f860ff",
     "summary": {
-      "eligible_family_total": 363,
+      "eligible_family_total": 362,
       "required_total": 600,
       "required_per_language": 150,
       "total_threshold_met": false,
@@ -5220,10 +5220,10 @@
         ]
       },
       "hebrew": {
-        "eligible_family_count": 129,
-        "positive_family_count": 129,
+        "eligible_family_count": 128,
+        "positive_family_count": 128,
         "closure_only_family_count": 0,
-        "one_member_short_count": 339,
+        "one_member_short_count": 340,
         "eligible_family_ids": [
           "hebrew:family:002181eb560b984daace695f",
           "hebrew:family:019d6cc88b36c5a8ae9582dc",
@@ -5326,7 +5326,6 @@
           "hebrew:family:be2700c94fc549ad2e15bd1a",
           "hebrew:family:bf33afc69a98a8cd7f1daaad",
           "hebrew:family:bff6147cd24ec826c5a0ac22",
-          "hebrew:family:c27d3342c239b7251fbdd4df",
           "hebrew:family:c35650ba988905c3cb9aff01",
           "hebrew:family:c4c76dc337d4b84d7ed888f9",
           "hebrew:family:caa94f640607878a623576d0",

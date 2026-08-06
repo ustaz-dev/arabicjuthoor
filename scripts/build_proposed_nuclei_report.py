@@ -275,8 +275,13 @@ def main() -> int:
     cards = load_population()
     raw_core, core = load_core()
     rules = compile_network()
-    if len(rules) != 71:
-        raise RuntimeError(f"الشبكة المستعملة {len(rules)} صفًا، والمطلوب 71")
+    core_rules = [rule for rule in rules if not rule.row_id.startswith("BR-")]
+    branch_rules = [rule for rule in rules if rule.row_id.startswith("BR-")]
+    if len(core_rules) != 62 or len(branch_rules) != 14:
+        raise RuntimeError(
+            f"الشبكة المستعملة تحمل {len(core_rules)} صفًا أساسيًا "
+            f"و{len(branch_rules)} صفًا فرعيًا، والمطلوب 62 و14"
+        )
 
     witnesses: dict[str, set[str]] = defaultdict(set)
     languages: dict[str, set[str]] = defaultdict(set)
@@ -333,7 +338,7 @@ def main() -> int:
         f"- المجتمع: {TOTAL} بطاقة مستقلة.",
         f"- المصرية القديمة: {population_counts['egyptian']}، الآرامية: {population_counts['aramaic']}، العبرية: {population_counts['hebrew']}، وبقية الألسن: {TOTAL - population_counts['egyptian'] - population_counts['aramaic'] - population_counts['hebrew']}.",
         "- وحدة الشاهد هي معرف البطاقة. تعدد المواضع أو المسارات داخل البطاقة لا يزيد وزن النواة.",
-        "- الأزواج تولدت من الصوامت بعد الخطوة صفر، وبصفوف الشبكة الموقعة النافذة وعددها 71 فقط.",
+        "- الأزواج تولدت من الصوامت بعد الخطوة صفر، وبصفوف الشبكة الأساسية الموقعة النافذة وعددها 62 فقط.",
         f"- الفهرس يحمل {len(raw_core)} صفًا. بعد توحيد صور الهمزة تصبح مفاتيحه المميزة {len(core)}.",
         f"- بطاقات لم تولد زوجًا عربيًا مرخصًا: {cards_without_pair}. بقيت في مقامها ولم تخترع لها نواة.",
         f"- غطت البطاقات {len(witnesses)} زوجًا مرخصًا من شبكة الحروف العربية الثنائية، منها {len(existing)} موجودًا و{len(absent_many) + len(absent_thin)} غائبًا.",

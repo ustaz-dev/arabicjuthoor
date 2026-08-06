@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-06",
+  "scope": "SEM-01..SEM-05 and SIB-07 against recorded retractions",
+  "network": {
+    "core_rows": 62,
+    "branch_rows": 14,
+    "parsed_rows": 76
+  },
+  "summary": {
+    "screened": 146,
+    "reopened": 5,
+    "positive_verdicts_restored": 0,
+    "aramaic_ayin_to_arabic_dad_retractions": 0
+  },
+  "row_references": {
+    "SEM-01": 1,
+    "SEM-02": 4,
+    "SEM-03": 1
+  },
+  "records": [
+    {
+      "audit_id": "RET-N-008",
+      "copy_id": "RET-REOPEN-SEM-001",
+      "layer": "nucleus",
+      "language": "aramaic",
+      "source_file": "04-cross-linguistic/readings/aramaic.md",
+      "heading": "### إعادة قراءة بطبقتين: `aramaic:family:4e034bf7558d70476cbf2f6e`، עיבא، العضو `kaikki_aramaic:1598:en-עיבא-arc-noun-CP1ry2DN`",
+      "prior_degrees": [
+        "NUCLEUS-ECHO"
+      ],
+      "rows": [
+        "SEM-03",
+        "SEM-02"
+      ],
+      "correspondence": "ع ↔ ע، مع ذكر الوجه البديل غ ↔ ע",
+      "basis": "صار لعين الفرع صفان صريحان يفرقان وجهي *ʕ و*ġ بدل دعوى الهوية بلا صف",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-R-056",
+      "copy_id": "RET-REOPEN-SEM-002",
+      "layer": "root",
+      "language": "hebrew",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### بطاقة: `hebrew:family:3d1a812269dcc11383f991f3`، רעב (الرتبة 127)",
+      "prior_degrees": [
+        "ROOT-ECHO"
+      ],
+      "rows": [
+        "SEM-02"
+      ],
+      "correspondence": "غ ↔ ע",
+      "basis": "دخلت مقابلة الغين العربية بالعين العبرية في SEM-02",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-R-057",
+      "copy_id": "RET-REOPEN-SEM-003",
+      "layer": "root",
+      "language": "hebrew",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### بطاقة: `hebrew:family:4e6d0ff7f8e256db90b211b4`، מערה «مغارة» ↔ مغارة",
+      "prior_degrees": [
+        "ROOT-TRACE"
+      ],
+      "rows": [
+        "SEM-02"
+      ],
+      "correspondence": "غ ↔ ע",
+      "basis": "دخلت مقابلة الغين العربية بالعين العبرية في SEM-02",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-R-059",
+      "copy_id": "RET-REOPEN-SEM-004",
+      "layer": "root",
+      "language": "hebrew",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### بطاقة: `עץ`، العضو `kaikki_hebrew:501:en-עץ-he-noun-3Jxe24st`",
+      "prior_degrees": [
+        "ROOT-ECHO"
+      ],
+      "rows": [
+        "SEM-01"
+      ],
+      "correspondence": "ض ↔ ץ",
+      "basis": "دخلت مقابلة الضاد العربية بالصاد العبرية النهائية في SEM-01",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    },
+    {
+      "audit_id": "RET-R-061",
+      "copy_id": "RET-REOPEN-SEM-005",
+      "layer": "root",
+      "language": "hebrew",
+      "source_file": "04-cross-linguistic/readings/hebrew.md",
+      "heading": "### مراجعة عضوية: `hebrew:family:c27d3342c239b7251fbdd4df`، עול، كتلة الشواهد القديمة ذات المقابل العربي، الرتبة 62",
+      "prior_degrees": [
+        "ROOT-ECHO"
+      ],
+      "rows": [
+        "SEM-02"
+      ],
+      "correspondence": "غ ↔ ע",
+      "basis": "دخلت مقابلة الغين العربية بالعين العبرية في SEM-02",
+      "decision": "OPEN-CANDIDATE",
+      "copy_line_present": true
+    }
+  ]
+}

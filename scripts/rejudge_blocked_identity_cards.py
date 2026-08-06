@@ -108,12 +108,17 @@ def clean(value: object, limit: int = 180) -> str:
 def network_row_count() -> int:
     text = NETWORK.read_text(encoding="utf-8")
     rows = set(re.findall(r"(?m)^\| ((?:IDN|[A-Z]+(?:-[A-Z]+)*)-\d{2}) \|", text))
-    if len(rows) != 71:
-        raise RuntimeError(f"عدد صفوف الشبكة {len(rows)}، والمطلوب 71")
-    missing = sorted(IDENTITY_ROWS - rows)
+    core_rows = {row for row in rows if not row.startswith("BR-")}
+    branch_rows = rows - core_rows
+    if len(core_rows) != 62 or len(branch_rows) != 14:
+        raise RuntimeError(
+            f"عدد صفوف الشبكة الأساسية {len(core_rows)} والفرعية {len(branch_rows)}، "
+            "والمطلوب 62 و14"
+        )
+    missing = sorted(IDENTITY_ROWS - core_rows)
     if missing:
         raise RuntimeError(f"صفوف الهوية الناقصة: {missing}")
-    return len(rows)
+    return len(core_rows)
 
 
 def aramaic_samekh_tool_gap_cards() -> int:
