@@ -1,449 +1,3129 @@
 {
  "pair": "aramaic:hebrew",
- "pairs_examined": 95,
+ "matching": {
+  "before": "legacy exact normalized English gloss",
+  "after": "comma-trimmed exact or first semantic keyword or >=2 shared semantic tokens"
+ },
+ "before": {
+  "shared_exact_glosses": 704,
+  "sense_matches": 2008,
+  "pairs_examined": 95
+ },
+ "after": {
+  "sense_matches": 15204,
+  "pairs_examined": 320,
+  "new_pairs": 225
+ },
+ "pairs_examined": 320,
  "correspondences": [
   {
    "a": "ת",
    "b": "ש",
-   "witnesses": 12,
-   "glosses": [
-    "taurus",
-    "lion",
-    "garlic",
-    "eight",
-    "inherit",
-    "leek",
-    "snow",
-    "seat",
-    "repeat",
-    "spider",
-    "again",
-    "six"
+   "witnesses": 26,
+   "examples": [
+    {
+     "a_word": "שת",
+     "b_word": "שישה",
+     "glosses": [
+      "exact: six"
+     ]
+    },
+    {
+     "a_word": "תמנא",
+     "b_word": "שמונה",
+     "glosses": [
+      "exact: eight"
+     ]
+    },
+    {
+     "a_word": "שתא",
+     "b_word": "שישה",
+     "glosses": [
+      "exact: six"
+     ]
+    },
+    {
+     "a_word": "תמניא",
+     "b_word": "שמונה",
+     "glosses": [
+      "exact: eight"
+     ]
+    },
+    {
+     "a_word": "תורא",
+     "b_word": "שור",
+     "glosses": [
+      "exact: taurus",
+      "first: taurus"
+     ]
+    },
+    {
+     "a_word": "תורא",
+     "b_word": "שורה",
+     "glosses": [
+      "first: row"
+     ]
+    },
+    {
+     "a_word": "חדתא",
+     "b_word": "חדש",
+     "glosses": [
+      "exact: new"
+     ]
+    },
+    {
+     "a_word": "חדתא",
+     "b_word": "חודש",
+     "glosses": [
+      "first: new"
+     ]
+    },
+    {
+     "a_word": "תעלא",
+     "b_word": "שועל",
+     "glosses": [
+      "first: fox"
+     ]
+    },
+    {
+     "a_word": "תומא",
+     "b_word": "שום",
+     "glosses": [
+      "exact: garlic"
+     ]
+    },
+    {
+     "a_word": "תלגא",
+     "b_word": "שלגיה",
+     "glosses": [
+      "first: snow"
+     ]
+    },
+    {
+     "a_word": "תלגא",
+     "b_word": "שלג",
+     "glosses": [
+      "exact: snow"
+     ]
+    }
    ]
   },
   {
    "a": "ס",
    "b": "ש",
-   "witnesses": 6,
-   "glosses": [
-    "devil",
-    "witness",
-    "ten",
-    "spread",
-    "barley",
-    "hair"
-   ]
-  },
-  {
-   "a": "נ",
-   "b": "מ",
-   "witnesses": 6,
-   "glosses": [
-    "ninety",
-    "seventy",
-    "male given name",
-    "egypt",
-    "fifty",
-    "twenty"
+   "witnesses": 21,
+   "examples": [
+    {
+     "a_word": "עסרא",
+     "b_word": "עשרה",
+     "glosses": [
+      "exact: ten"
+     ]
+    },
+    {
+     "a_word": "סבא",
+     "b_word": "שיבה",
+     "glosses": [
+      "first: old"
+     ]
+    },
+    {
+     "a_word": "בסרא",
+     "b_word": "בשר",
+     "glosses": [
+      "exact: flesh"
+     ]
+    },
+    {
+     "a_word": "ערסא",
+     "b_word": "ערש",
+     "glosses": [
+      "exact: bed"
+     ]
+    },
+    {
+     "a_word": "סטנא",
+     "b_word": "שטן",
+     "glosses": [
+      "exact: devil",
+      "exact: satan"
+     ]
+    },
+    {
+     "a_word": "סרא",
+     "b_word": "שרה",
+     "glosses": [
+      "first: sarah"
+     ]
+    },
+    {
+     "a_word": "סרא",
+     "b_word": "שרי",
+     "glosses": [
+      "exact: female given name"
+     ]
+    },
+    {
+     "a_word": "סרא",
+     "b_word": "שירה",
+     "glosses": [
+      "exact: female given name"
+     ]
+    },
+    {
+     "a_word": "סהדא",
+     "b_word": "שהד",
+     "glosses": [
+      "exact: witness"
+     ]
+    },
+    {
+     "a_word": "סערא",
+     "b_word": "שער",
+     "glosses": [
+      "exact: hair"
+     ]
+    },
+    {
+     "a_word": "סערא",
+     "b_word": "שערה",
+     "glosses": [
+      "exact: hair"
+     ]
+    },
+    {
+     "a_word": "סערא",
+     "b_word": "שיער",
+     "glosses": [
+      "exact: hair"
+     ]
+    }
    ]
   },
   {
    "a": "ד",
    "b": "ז",
-   "witnesses": 6,
-   "glosses": [
-    "ear",
-    "beard",
-    "gold",
-    "fly",
-    "altar",
-    "male"
+   "witnesses": 19,
+   "examples": [
+    {
+     "a_word": "אחד",
+     "b_word": "אחז",
+     "glosses": [
+      "exact: hold"
+     ]
+    },
+    {
+     "a_word": "אחד",
+     "b_word": "אחיזה",
+     "glosses": [
+      "exact: hold"
+     ]
+    },
+    {
+     "a_word": "עדר",
+     "b_word": "עזר",
+     "glosses": [
+      "exact: help"
+     ]
+    },
+    {
+     "a_word": "עדר",
+     "b_word": "עזרה",
+     "glosses": [
+      "exact: help"
+     ]
+    },
+    {
+     "a_word": "הדא",
+     "b_word": "הזה",
+     "glosses": [
+      "first: this"
+     ]
+    },
+    {
+     "a_word": "דהבא",
+     "b_word": "זהב",
+     "glosses": [
+      "exact: gold"
+     ]
+    },
+    {
+     "a_word": "אדנא",
+     "b_word": "אוזן",
+     "glosses": [
+      "exact: ear"
+     ]
+    },
+    {
+     "a_word": "דקנא",
+     "b_word": "זקן",
+     "glosses": [
+      "exact: beard"
+     ]
+    },
+    {
+     "a_word": "דונבא",
+     "b_word": "זנב",
+     "glosses": [
+      "exact: tail"
+     ]
+    },
+    {
+     "a_word": "דכרא",
+     "b_word": "זכור",
+     "glosses": [
+      "exact: male"
+     ]
+    },
+    {
+     "a_word": "דכר",
+     "b_word": "זכר",
+     "glosses": [
+      "exact: remember"
+     ]
+    },
+    {
+     "a_word": "דכר",
+     "b_word": "זכור",
+     "glosses": [
+      "first: remember"
+     ]
+    }
    ]
   },
   {
-   "a": "י",
-   "b": "א",
-   "witnesses": 4,
-   "glosses": [
-    "unite",
-    "leah",
-    "she, it",
-    "teach"
+   "a": "נ",
+   "b": "מ",
+   "witnesses": 8,
+   "examples": [
+    {
+     "a_word": "מצרין",
+     "b_word": "מצרים",
+     "glosses": [
+      "exact: egypt"
+     ]
+    },
+    {
+     "a_word": "חמשין",
+     "b_word": "חמישים",
+     "glosses": [
+      "exact: fifty"
+     ]
+    },
+    {
+     "a_word": "שבעין",
+     "b_word": "שבעים",
+     "glosses": [
+      "exact: seventy"
+     ]
+    },
+    {
+     "a_word": "תשעין",
+     "b_word": "תשעים",
+     "glosses": [
+      "exact: ninety"
+     ]
+    },
+    {
+     "a_word": "מאתין",
+     "b_word": "מאתיים",
+     "glosses": [
+      "shared: hundred two"
+     ]
+    },
+    {
+     "a_word": "אהרון",
+     "b_word": "ארם",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "עשרין",
+     "b_word": "עשרים",
+     "glosses": [
+      "exact: twenty"
+     ]
+    },
+    {
+     "a_word": "מאתן",
+     "b_word": "מאתיים",
+     "glosses": [
+      "shared: hundred two"
+     ]
+    }
    ]
   },
   {
    "a": "ת",
    "b": "נ",
-   "witnesses": 3,
-   "glosses": [
-    "cheese",
-    "garden",
-    "dancer"
+   "witnesses": 8,
+   "examples": [
+    {
+     "a_word": "בית",
+     "b_word": "בני",
+     "glosses": [
+      "first: construct"
+     ]
+    },
+    {
+     "a_word": "בית",
+     "b_word": "בנו",
+     "glosses": [
+      "first: construct"
+     ]
+    },
+    {
+     "a_word": "גנתא",
+     "b_word": "גינן",
+     "glosses": [
+      "exact: garden"
+     ]
+    },
+    {
+     "a_word": "גבתא",
+     "b_word": "גבינה",
+     "glosses": [
+      "exact: cheese"
+     ]
+    },
+    {
+     "a_word": "אחריתא",
+     "b_word": "אחרון",
+     "glosses": [
+      "exact: last"
+     ]
+    },
+    {
+     "a_word": "עליתא",
+     "b_word": "עליון",
+     "glosses": [
+      "exact: supreme"
+     ]
+    },
+    {
+     "a_word": "רקדתא",
+     "b_word": "רקדן",
+     "glosses": [
+      "exact: dancer"
+     ]
+    },
+    {
+     "a_word": "גינתא",
+     "b_word": "גינן",
+     "glosses": [
+      "exact: garden"
+     ]
+    }
    ]
   },
   {
    "a": "ט",
    "b": "צ",
-   "witnesses": 3,
-   "glosses": [
-    "gazelle",
-    "summer",
-    "bone"
+   "witnesses": 6,
+   "examples": [
+    {
+     "a_word": "נטר",
+     "b_word": "נצר",
+     "glosses": [
+      "exact: guard"
+     ]
+    },
+    {
+     "a_word": "טביא",
+     "b_word": "צבי",
+     "glosses": [
+      "exact: gazelle"
+     ]
+    },
+    {
+     "a_word": "קיטא",
+     "b_word": "קיץ",
+     "glosses": [
+      "exact: summer"
+     ]
+    },
+    {
+     "a_word": "רהט",
+     "b_word": "ריצה",
+     "glosses": [
+      "exact: run"
+     ]
+    },
+    {
+     "a_word": "רהט",
+     "b_word": "רץ",
+     "glosses": [
+      "first: run"
+     ]
+    },
+    {
+     "a_word": "עטמא",
+     "b_word": "עצם",
+     "glosses": [
+      "exact: bone"
+     ]
+    }
    ]
   },
   {
    "a": "י",
+   "b": "א",
+   "witnesses": 5,
+   "examples": [
+    {
+     "a_word": "הי",
+     "b_word": "היא",
+     "glosses": [
+      "exact: she"
+     ]
+    },
+    {
+     "a_word": "ליא",
+     "b_word": "לאה",
+     "glosses": [
+      "exact: female given name",
+      "exact: leah"
+     ]
+    },
+    {
+     "a_word": "יהודא",
+     "b_word": "אהוד",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "ילף",
+     "b_word": "אילף",
+     "glosses": [
+      "exact: teach"
+     ]
+    },
+    {
+     "a_word": "יחד",
+     "b_word": "איחד",
+     "glosses": [
+      "exact: unite"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "א",
+   "witnesses": 5,
+   "examples": [
+    {
+     "a_word": "נהר",
+     "b_word": "אורה",
+     "glosses": [
+      "exact: light"
+     ]
+    },
+    {
+     "a_word": "נהר",
+     "b_word": "אור",
+     "glosses": [
+      "exact: light",
+      "first: light"
+     ]
+    },
+    {
+     "a_word": "מון",
+     "b_word": "מאי",
+     "glosses": [
+      "exact: what"
+     ]
+    },
+    {
+     "a_word": "נוהרא",
+     "b_word": "אורה",
+     "glosses": [
+      "exact: light"
+     ]
+    },
+    {
+     "a_word": "נוהרא",
+     "b_word": "אור",
+     "glosses": [
+      "exact: light",
+      "first: light"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ע",
+   "b": "צ",
+   "witnesses": 5,
+   "examples": [
+    {
+     "a_word": "עמר",
+     "b_word": "צמר",
+     "glosses": [
+      "exact: wool"
+     ]
+    },
+    {
+     "a_word": "קצע",
+     "b_word": "קיצץ",
+     "glosses": [
+      "first: cut"
+     ]
+    },
+    {
+     "a_word": "קצע",
+     "b_word": "קצוץ",
+     "glosses": [
+      "first: cut"
+     ]
+    },
+    {
+     "a_word": "קצע",
+     "b_word": "קוצץ",
+     "glosses": [
+      "first: cut"
+     ]
+    },
+    {
+     "a_word": "חמיעא",
+     "b_word": "חמץ",
+     "glosses": [
+      "exact: leaven"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ש",
+   "b": "ק",
+   "witnesses": 5,
+   "examples": [
+    {
+     "a_word": "שום",
+     "b_word": "קמי",
+     "glosses": [
+      "shared: construct state"
+     ]
+    },
+    {
+     "a_word": "שלף",
+     "b_word": "קליפה",
+     "glosses": [
+      "exact: peel"
+     ]
+    },
+    {
+     "a_word": "שלף",
+     "b_word": "קילף",
+     "glosses": [
+      "exact: peel"
+     ]
+    },
+    {
+     "a_word": "שלף",
+     "b_word": "קלף",
+     "glosses": [
+      "exact: peel"
+     ]
+    },
+    {
+     "a_word": "שורא",
+     "b_word": "קיר",
+     "glosses": [
+      "exact: wall"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "נ",
+   "witnesses": 4,
+   "examples": [
+    {
+     "a_word": "בקר",
+     "b_word": "ניקר",
+     "glosses": [
+      "exact: bore"
+     ]
+    },
+    {
+     "a_word": "בקר",
+     "b_word": "נקר",
+     "glosses": [
+      "exact: bore"
+     ]
+    },
+    {
+     "a_word": "שבת",
+     "b_word": "שנת",
+     "glosses": [
+      "shared: construct state"
+     ]
+    },
+    {
+     "a_word": "שבת",
+     "b_word": "שנות",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "א",
+   "witnesses": 4,
+   "examples": [
+    {
+     "a_word": "חילא",
+     "b_word": "אל",
+     "glosses": [
+      "first: strength"
+     ]
+    },
+    {
+     "a_word": "חובא",
+     "b_word": "אהב",
+     "glosses": [
+      "exact: love"
+     ]
+    },
+    {
+     "a_word": "חובא",
+     "b_word": "אהבה",
+     "glosses": [
+      "exact: love"
+     ]
+    },
+    {
+     "a_word": "חלימא",
+     "b_word": "אלם",
+     "glosses": [
+      "exact: strong"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
    "b": "מ",
-   "witnesses": 2,
-   "glosses": [
-    "water",
-    "essence"
+   "witnesses": 4,
+   "examples": [
+    {
+     "a_word": "חיותא",
+     "b_word": "חיים",
+     "glosses": [
+      "exact: life"
+     ]
+    },
+    {
+     "a_word": "חמתא",
+     "b_word": "חימם",
+     "glosses": [
+      "exact: heat"
+     ]
+    },
+    {
+     "a_word": "בתולותא",
+     "b_word": "בתולים",
+     "glosses": [
+      "exact: virginity"
+     ]
+    },
+    {
+     "a_word": "מרתא",
+     "b_word": "מרים",
+     "glosses": [
+      "exact: female given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "א",
+   "b": "ה",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "אין",
+     "b_word": "הן",
+     "glosses": [
+      "exact: yes"
+     ]
+    },
+    {
+     "a_word": "מאי",
+     "b_word": "מה",
+     "glosses": [
+      "exact: what"
+     ]
+    },
+    {
+     "a_word": "אינהו",
+     "b_word": "הן",
+     "glosses": [
+      "exact: they"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "י",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "כד",
+     "b_word": "כי",
+     "glosses": [
+      "exact: when"
+     ]
+    },
+    {
+     "a_word": "דויד",
+     "b_word": "יהודי",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "כדי",
+     "b_word": "כי",
+     "glosses": [
+      "exact: when"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "ש",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "כד",
+     "b_word": "כש־",
+     "glosses": [
+      "exact: when"
+     ]
+    },
+    {
+     "a_word": "דרא",
+     "b_word": "שורה",
+     "glosses": [
+      "first: row"
+     ]
+    },
+    {
+     "a_word": "כדי",
+     "b_word": "כש־",
+     "glosses": [
+      "exact: when"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ו",
+   "b": "א",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "הוא",
+     "b_word": "ה״א",
+     "glosses": [
+      "exact: he"
+     ]
+    },
+    {
+     "a_word": "הוא",
+     "b_word": "ההוא",
+     "glosses": [
+      "exact: that"
+     ]
+    },
+    {
+     "a_word": "הו",
+     "b_word": "ה״א",
+     "glosses": [
+      "exact: he"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "ב",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "נוח",
+     "b_word": "ניב",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "לחוד",
+     "b_word": "לבד",
+     "glosses": [
+      "exact: alone"
+     ]
+    },
+    {
+     "a_word": "ארחא",
+     "b_word": "ארבה",
+     "glosses": [
+      "shared: defective spelling"
+     ]
+    }
    ]
   },
   {
    "a": "י",
    "b": "ה",
-   "witnesses": 2,
-   "glosses": [
-    "birth",
-    "give"
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "יהב",
+     "b_word": "הבה",
+     "glosses": [
+      "exact: give"
+     ]
+    },
+    {
+     "a_word": "ילידותא",
+     "b_word": "הולדת",
+     "glosses": [
+      "exact: birth"
+     ]
+    },
+    {
+     "a_word": "ידא",
+     "b_word": "הודה",
+     "glosses": [
+      "exact: admit"
+     ]
+    }
    ]
   },
   {
-   "a": "ת",
-   "b": "א",
-   "witnesses": 2,
-   "glosses": [
-    "sin",
-    "sinner"
-   ]
-  },
-  {
-   "a": "ג",
-   "b": "ע",
-   "witnesses": 1,
-   "glosses": [
-    "gaza"
-   ]
-  },
-  {
-   "a": "ע",
-   "b": "ת",
-   "witnesses": 1,
-   "glosses": [
-    "week"
-   ]
-  },
-  {
-   "a": "ת",
+   "a": "י",
    "b": "מ",
-   "witnesses": 1,
-   "glosses": [
-    "virginity"
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "מיא",
+     "b_word": "מים",
+     "glosses": [
+      "exact: water"
+     ]
+    },
+    {
+     "a_word": "חיא",
+     "b_word": "חיים",
+     "glosses": [
+      "exact: life"
+     ]
+    },
+    {
+     "a_word": "יתא",
+     "b_word": "מהות",
+     "glosses": [
+      "exact: essence"
+     ]
+    }
    ]
   },
   {
-   "a": "ת",
+   "a": "כ",
+   "b": "פ",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "איכא",
+     "b_word": "איפה",
+     "glosses": [
+      "exact: where",
+      "first: where"
+     ]
+    },
+    {
+     "a_word": "סוך",
+     "b_word": "סוף",
+     "glosses": [
+      "exact: end"
+     ]
+    },
+    {
+     "a_word": "סכא",
+     "b_word": "סוף",
+     "glosses": [
+      "exact: end"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "מ",
    "b": "י",
-   "witnesses": 1,
-   "glosses": [
-    "south"
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "מדע",
+     "b_word": "ידע",
+     "glosses": [
+      "exact: know",
+      "first: know"
+     ]
+    },
+    {
+     "a_word": "מדעא",
+     "b_word": "ידע",
+     "glosses": [
+      "first: knowledge"
+     ]
+    },
+    {
+     "a_word": "מדעא",
+     "b_word": "ידיעה",
+     "glosses": [
+      "exact: knowledge"
+     ]
+    }
    ]
   },
   {
-   "a": "ת",
-   "b": "ק",
-   "witnesses": 1,
-   "glosses": [
-    "open"
+   "a": "מ",
+   "b": "ר",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "שום",
+     "b_word": "שרי",
+     "glosses": [
+      "shared: construct state"
+     ]
+    },
+    {
+     "a_word": "אדם",
+     "b_word": "אדה״ר",
+     "glosses": [
+      "exact: adam"
+     ]
+    },
+    {
+     "a_word": "סומק",
+     "b_word": "סרק",
+     "glosses": [
+      "first: red"
+     ]
+    }
    ]
   },
   {
-   "a": "ש",
+   "a": "מ",
    "b": "ת",
-   "witnesses": 1,
-   "glosses": [
-    "twist"
-   ]
-  },
-  {
-   "a": "ד",
-   "b": "ב",
-   "witnesses": 1,
-   "glosses": [
-    "without"
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "חמימא",
+     "b_word": "חמת",
+     "glosses": [
+      "first: hot"
+     ]
+    },
+    {
+     "a_word": "חמם",
+     "b_word": "חמת",
+     "glosses": [
+      "first: hot"
+     ]
+    },
+    {
+     "a_word": "נחם",
+     "b_word": "נוחות",
+     "glosses": [
+      "exact: comfort"
+     ]
+    }
    ]
   },
   {
    "a": "נ",
    "b": "ת",
-   "witnesses": 1,
-   "glosses": [
-    "asterisk"
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "כנפא",
+     "b_word": "כתף",
+     "glosses": [
+      "exact: side"
+     ]
+    },
+    {
+     "a_word": "כוכבונא",
+     "b_word": "כוכבית",
+     "glosses": [
+      "exact: asterisk"
+     ]
+    },
+    {
+     "a_word": "גאון",
+     "b_word": "גאות",
+     "glosses": [
+      "exact: majesty"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ס",
+   "b": "ע",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "סהדא",
+     "b_word": "עד",
+     "glosses": [
+      "exact: witness"
+     ]
+    },
+    {
+     "a_word": "סהד",
+     "b_word": "עד",
+     "glosses": [
+      "exact: witness"
+     ]
+    },
+    {
+     "a_word": "סהדותא",
+     "b_word": "עדות",
+     "glosses": [
+      "exact: testimony"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ר",
+   "b": "נ",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "ברא",
+     "b_word": "בן",
+     "glosses": [
+      "exact: son"
+     ]
+    },
+    {
+     "a_word": "בר",
+     "b_word": "בני",
+     "glosses": [
+      "first: construct"
+     ]
+    },
+    {
+     "a_word": "בר",
+     "b_word": "בנו",
+     "glosses": [
+      "first: construct"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ר",
+   "b": "ק",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "רמא",
+     "b_word": "קומה",
+     "glosses": [
+      "exact: height"
+     ]
+    },
+    {
+     "a_word": "רומא",
+     "b_word": "קומה",
+     "glosses": [
+      "exact: height"
+     ]
+    },
+    {
+     "a_word": "רירא",
+     "b_word": "רוק",
+     "glosses": [
+      "exact: saliva"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "א",
+   "b": "ק",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "אלה",
+     "b_word": "קלה",
+     "glosses": [
+      "first: indefinite"
+     ]
+    },
+    {
+     "a_word": "ארחא",
+     "b_word": "קרח",
+     "glosses": [
+      "shared: defective spelling"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "כ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "ערב",
+     "b_word": "ערוך",
+     "glosses": [
+      "exact: set"
+     ]
+    },
+    {
+     "a_word": "ערב",
+     "b_word": "ערך",
+     "glosses": [
+      "exact: set"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "ש",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "בר",
+     "b_word": "שרי",
+     "glosses": [
+      "first: construct"
+     ]
+    },
+    {
+     "a_word": "שבת",
+     "b_word": "ששת",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "ת",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "אביב",
+     "b_word": "אבות",
+     "glosses": [
+      "first: indefinite"
+     ]
+    },
+    {
+     "a_word": "בית",
+     "b_word": "תותי",
+     "glosses": [
+      "first: construct"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "ב",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "דויד",
+     "b_word": "דוב",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "די לא",
+     "b_word": "בלי",
+     "glosses": [
+      "exact: without"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ה",
+   "b": "ע",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "הה״ד",
+     "b_word": "עו״ד",
+     "glosses": [
+      "first: abbreviation"
+     ]
+    },
+    {
+     "a_word": "ה״מ",
+     "b_word": "עמ׳",
+     "glosses": [
+      "first: abbreviation"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ז",
+   "b": "צ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "זדק",
+     "b_word": "צדיק",
+     "glosses": [
+      "first: righteous"
+     ]
+    },
+    {
+     "a_word": "זדיקא",
+     "b_word": "צדיק",
+     "glosses": [
+      "exact: righteous"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "נ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "נוח",
+     "b_word": "נון",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "ארחא",
+     "b_word": "ארן",
+     "glosses": [
+      "shared: defective spelling"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "ר",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "חנן",
+     "b_word": "רונן",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "ארחא",
+     "b_word": "אורר",
+     "glosses": [
+      "shared: defective spelling"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "כ",
+   "b": "מ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "סוך",
+     "b_word": "סיום",
+     "glosses": [
+      "exact: end"
+     ]
+    },
+    {
+     "a_word": "סכא",
+     "b_word": "סיום",
+     "glosses": [
+      "exact: end"
+     ]
+    }
    ]
   },
   {
    "a": "מ",
-   "b": "ח",
-   "witnesses": 1,
-   "glosses": [
-    "female given name"
+   "b": "א",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "מתי",
+     "b_word": "איתי",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "מרתא",
+     "b_word": "אורית",
+     "glosses": [
+      "exact: female given name"
+     ]
+    }
    ]
   },
   {
-   "a": "ו",
-   "b": "א",
-   "witnesses": 1,
-   "glosses": [
-    "that"
+   "a": "מ",
+   "b": "נ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "ארם",
+     "b_word": "אורון",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "ארם",
+     "b_word": "אהרוני",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "מ",
+   "b": "ק",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "מתי",
+     "b_word": "קהת",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "ה״מ",
+     "b_word": "הק׳",
+     "glosses": [
+      "first: abbreviation"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "ב",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "נהר",
+     "b_word": "בהיר",
+     "glosses": [
+      "exact: light"
+     ]
+    },
+    {
+     "a_word": "נוהרא",
+     "b_word": "בהיר",
+     "glosses": [
+      "exact: light"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "ה",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "כן",
+     "b_word": "כה",
+     "glosses": [
+      "exact: thus"
+     ]
+    },
+    {
+     "a_word": "מון",
+     "b_word": "מה",
+     "glosses": [
+      "exact: what"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "ז",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "הנא",
+     "b_word": "הזה",
+     "glosses": [
+      "first: this"
+     ]
+    },
+    {
+     "a_word": "אהרון",
+     "b_word": "ארז",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "ל",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "הלין",
+     "b_word": "הללו",
+     "glosses": [
+      "exact: these"
+     ]
+    },
+    {
+     "a_word": "אינא",
+     "b_word": "אלו",
+     "glosses": [
+      "exact: which"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "צ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "נהר",
+     "b_word": "צהר",
+     "glosses": [
+      "exact: light"
+     ]
+    },
+    {
+     "a_word": "נוהרא",
+     "b_word": "צהר",
+     "glosses": [
+      "exact: light"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ס",
+   "b": "ה",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "סרק",
+     "b_word": "הריק",
+     "glosses": [
+      "exact: empty"
+     ]
+    },
+    {
+     "a_word": "סריק",
+     "b_word": "הריק",
+     "glosses": [
+      "exact: empty"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ס",
+   "b": "ר",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "אסא",
+     "b_word": "אריה",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "אסא",
+     "b_word": "אורי",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
    ]
   },
   {
    "a": "פ",
    "b": "ב",
-   "witnesses": 1,
-   "glosses": [
-    "iron"
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "פרזלא",
+     "b_word": "ברזל",
+     "glosses": [
+      "exact: iron"
+     ]
+    },
+    {
+     "a_word": "פקע",
+     "b_word": "ביקע",
+     "glosses": [
+      "exact: split"
+     ]
+    }
    ]
   },
   {
-   "a": "ו",
-   "b": "מ",
+   "a": "פ",
+   "b": "נ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "צפח",
+     "b_word": "צנח",
+     "glosses": [
+      "first: fall"
+     ]
+    },
+    {
+     "a_word": "כף",
+     "b_word": "כוהני",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ק",
+   "b": "צ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "קלא",
+     "b_word": "צלי",
+     "glosses": [
+      "exact: roast"
+     ]
+    },
+    {
+     "a_word": "קלא",
+     "b_word": "צלה",
+     "glosses": [
+      "exact: roast"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ר",
+   "b": "ב",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "רמא",
+     "b_word": "במה",
+     "glosses": [
+      "first: high"
+     ]
+    },
+    {
+     "a_word": "סברא",
+     "b_word": "סבבה",
+     "glosses": [
+      "first: fine"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ר",
+   "b": "ל",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "אהרון",
+     "b_word": "אילן",
+     "glosses": [
+      "exact: male given name"
+     ]
+    },
+    {
+     "a_word": "אהרון",
+     "b_word": "אלון",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ר",
+   "b": "ש",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "בקר",
+     "b_word": "ביקש",
+     "glosses": [
+      "exact: seek",
+      "first: ask"
+     ]
+    },
+    {
+     "a_word": "רמא",
+     "b_word": "שם",
+     "glosses": [
+      "exact: put",
+      "first: put"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
+   "b": "א",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "חטיתא",
+     "b_word": "חטא",
+     "glosses": [
+      "exact: sin"
+     ]
+    },
+    {
+     "a_word": "חטיתא",
+     "b_word": "חוטא",
+     "glosses": [
+      "exact: sinner"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
+   "b": "ד",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "כתבתא",
+     "b_word": "כתב יד",
+     "glosses": [
+      "exact: handwriting"
+     ]
+    },
+    {
+     "a_word": "תדא",
+     "b_word": "דד",
+     "glosses": [
+      "exact: breast"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
+   "b": "פ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "סתוא",
+     "b_word": "סופה",
+     "glosses": [
+      "first: storm"
+     ]
+    },
+    {
+     "a_word": "תור",
+     "b_word": "פר",
+     "glosses": [
+      "exact: bull"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
+   "b": "ק",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "פתיחא",
+     "b_word": "פקח",
+     "glosses": [
+      "exact: open"
+     ]
+    },
+    {
+     "a_word": "פתח",
+     "b_word": "פקח",
+     "glosses": [
+      "exact: open"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "א",
+   "b": "י",
    "witnesses": 1,
-   "glosses": [
-    "appointment"
+   "examples": [
+    {
+     "a_word": "ארם",
+     "b_word": "יהורם",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
    ]
   },
   {
    "a": "א",
    "b": "כ",
    "witnesses": 1,
-   "glosses": [
-    "yes"
+   "examples": [
+    {
+     "a_word": "אין",
+     "b_word": "כן",
+     "glosses": [
+      "exact: yes"
+     ]
+    }
    ]
   },
   {
-   "a": "ת",
-   "b": "ד",
+   "a": "א",
+   "b": "ע",
    "witnesses": 1,
-   "glosses": [
-    "handwriting"
+   "examples": [
+    {
+     "a_word": "אהרון",
+     "b_word": "ערן",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
    ]
   },
   {
-   "a": "ב",
-   "b": "מ",
-   "witnesses": 1,
-   "glosses": [
-    "time"
-   ]
-  },
-  {
-   "a": "נ",
-   "b": "ל",
-   "witnesses": 1,
-   "glosses": [
-    "which"
-   ]
-  },
-  {
-   "a": "ד",
-   "b": "ל",
-   "witnesses": 1,
-   "glosses": [
-    "which"
-   ]
-  },
-  {
-   "a": "צ",
-   "b": "ש",
-   "witnesses": 1,
-   "glosses": [
-    "laugh"
-   ]
-  },
-  {
-   "a": "כ",
+   "a": "א",
    "b": "פ",
    "witnesses": 1,
-   "glosses": [
-    "where"
-   ]
-  },
-  {
-   "a": "מ",
-   "b": "ת",
-   "witnesses": 1,
-   "glosses": [
-    "comfort"
-   ]
-  },
-  {
-   "a": "ה",
-   "b": "מ",
-   "witnesses": 1,
-   "glosses": [
-    "walk"
-   ]
-  },
-  {
-   "a": "ש",
-   "b": "ס",
-   "witnesses": 1,
-   "glosses": [
-    "sugar"
-   ]
-  },
-  {
-   "a": "ז",
-   "b": "מ",
-   "witnesses": 1,
-   "glosses": [
-    "species"
-   ]
-  },
-  {
-   "a": "ז",
-   "b": "צ",
-   "witnesses": 1,
-   "glosses": [
-    "righteous"
-   ]
-  },
-  {
-   "a": "ע",
-   "b": "צ",
-   "witnesses": 1,
-   "glosses": [
-    "wool"
-   ]
-  },
-  {
-   "a": "נ",
-   "b": "ה",
-   "witnesses": 1,
-   "glosses": [
-    "what"
-   ]
-  },
-  {
-   "a": "נ",
-   "b": "א",
-   "witnesses": 1,
-   "glosses": [
-    "what"
-   ]
-  },
-  {
-   "a": "מ",
-   "b": "נ",
-   "witnesses": 1,
-   "glosses": [
-    "male given name"
-   ]
-  },
-  {
-   "a": "מ",
-   "b": "ז",
-   "witnesses": 1,
-   "glosses": [
-    "male given name"
-   ]
-  },
-  {
-   "a": "ח",
-   "b": "צ",
-   "witnesses": 1,
-   "glosses": [
-    "male given name"
-   ]
-  },
-  {
-   "a": "ח",
-   "b": "ב",
-   "witnesses": 1,
-   "glosses": [
-    "male given name"
-   ]
-  },
-  {
-   "a": "ד",
-   "b": "ר",
-   "witnesses": 1,
-   "glosses": [
-    "male given name"
-   ]
-  },
-  {
-   "a": "מ",
-   "b": "ק",
-   "witnesses": 1,
-   "glosses": [
-    "male given name"
-   ]
-  },
-  {
-   "a": "ד",
-   "b": "י",
-   "witnesses": 1,
-   "glosses": [
-    "male given name"
-   ]
-  },
-  {
-   "a": "נ",
-   "b": "ז",
-   "witnesses": 1,
-   "glosses": [
-    "male given name"
-   ]
-  },
-  {
-   "a": "מ",
-   "b": "ה",
-   "witnesses": 1,
-   "glosses": [
-    "mouth"
-   ]
-  },
-  {
-   "a": "ל",
-   "b": "ס",
-   "witnesses": 1,
-   "glosses": [
-    "myth"
-   ]
-  },
-  {
-   "a": "י",
-   "b": "נ",
-   "witnesses": 1,
-   "glosses": [
-    "be born"
+   "examples": [
+    {
+     "a_word": "יאא",
+     "b_word": "יפה",
+     "glosses": [
+      "first: beautiful"
+     ]
+    }
    ]
   },
   {
    "a": "א",
    "b": "צ",
    "witnesses": 1,
-   "glosses": [
-    "rib"
+   "examples": [
+    {
+     "a_word": "אלעא",
+     "b_word": "צלע",
+     "glosses": [
+      "exact: rib"
+     ]
+    }
    ]
   },
   {
-   "a": "ס",
+   "a": "א",
+   "b": "ש",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "אלה",
+     "b_word": "שלווה",
+     "glosses": [
+      "first: indefinite"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "א",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שבת",
+     "b_word": "שואת",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
    "b": "ה",
    "witnesses": 1,
-   "glosses": [
-    "empty"
+   "examples": [
+    {
+     "a_word": "בר",
+     "b_word": "הרי",
+     "glosses": [
+      "first: construct"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "ח",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "בית",
+     "b_word": "חיות",
+     "glosses": [
+      "first: construct"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "זבנא",
+     "b_word": "זמן",
+     "glosses": [
+      "exact: time"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "ע",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שבת",
+     "b_word": "שעות",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "פ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שבת",
+     "b_word": "שפת",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "צ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "בר",
+     "b_word": "ציורי",
+     "glosses": [
+      "first: construct"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ב",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שבת",
+     "b_word": "שורת",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ג",
+   "b": "ע",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "גזא",
+     "b_word": "עזה",
+     "glosses": [
+      "exact: gaza"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "א",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "דויד",
+     "b_word": "אהוד",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "ג",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "דויד",
+     "b_word": "גד",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "ט",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "דבח",
+     "b_word": "טבח",
+     "glosses": [
+      "exact: slaughter"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "ל",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "אידא",
+     "b_word": "אלו",
+     "glosses": [
+      "exact: which"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "הה״ד",
+     "b_word": "ה״מ",
+     "glosses": [
+      "first: abbreviation"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "נ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "דויד",
+     "b_word": "דין",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "ק",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "הה״ד",
+     "b_word": "הק׳",
+     "glosses": [
+      "first: abbreviation"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ד",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "אדם",
+     "b_word": "ארם",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ה",
+   "b": "ז",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "הוא",
+     "b_word": "זו",
+     "glosses": [
+      "exact: that"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ה",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "הלך",
+     "b_word": "מהלך",
+     "glosses": [
+      "exact: walk"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ה",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ה״מ",
+     "b_word": "תומ״י",
+     "glosses": [
+      "first: abbreviation"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ו",
+   "b": "ב",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "או",
+     "b_word": "אבוי",
+     "glosses": [
+      "first: woe"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ו",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ועדא",
+     "b_word": "מועד",
+     "glosses": [
+      "exact: appointment"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ז",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "זנא",
+     "b_word": "מין",
+     "glosses": [
+      "exact: species"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ז",
+   "b": "נ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ארזא",
+     "b_word": "אורן",
+     "glosses": [
+      "first: pine"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ז",
+   "b": "ק",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "זעורתא",
+     "b_word": "קערית",
+     "glosses": [
+      "first: small"
+     ]
+    }
    ]
   },
   {
    "a": "ח",
+   "b": "ה",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "חיל",
+     "b_word": "הלו",
+     "glosses": [
+      "first: strong"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "ז",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ארחא",
+     "b_word": "ארז",
+     "glosses": [
+      "shared: defective spelling"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "כ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ארחא",
+     "b_word": "ארך",
+     "glosses": [
+      "shared: defective spelling"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ש־כ־ח",
+     "b_word": "ש־כ־ם",
+     "glosses": [
+      "shared: forming words"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "ס",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ארחא",
+     "b_word": "ארס",
+     "glosses": [
+      "shared: defective spelling"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "ע",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ארחא",
+     "b_word": "ארוע",
+     "glosses": [
+      "shared: defective spelling"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ח",
+   "b": "צ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "נוח",
+     "b_word": "נץ",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ט",
+   "b": "ה",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "טורא",
+     "b_word": "הר",
+     "glosses": [
+      "exact: mountain"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ט",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "טובא",
+     "b_word": "רב",
+     "glosses": [
+      "exact: much"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ט",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "עבט",
+     "b_word": "עבות",
+     "glosses": [
+      "first: thick"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "י",
+   "b": "ב",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ליא",
+     "b_word": "ליבי",
+     "glosses": [
+      "exact: female given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "י",
+   "b": "ג",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "יהודא",
+     "b_word": "גד",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "י",
+   "b": "ד",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "יהודא",
+     "b_word": "דוד",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "י",
+   "b": "נ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ילד",
+     "b_word": "נולד",
+     "glosses": [
+      "exact: be born"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "י",
+   "b": "פ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ישט",
+     "b_word": "פשט",
+     "glosses": [
+      "first: extend"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "י",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "חיא",
+     "b_word": "חיות",
+     "glosses": [
+      "exact: life"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "כ",
+   "b": "י",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "איכא",
+     "b_word": "אי",
+     "glosses": [
+      "exact: where"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "כ",
+   "b": "ל",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ש־כ־ח",
+     "b_word": "ש־ל־ח",
+     "glosses": [
+      "shared: forming words"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "כ",
+   "b": "נ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "הפך",
+     "b_word": "הפנה",
+     "glosses": [
+      "exact: turn"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "כ",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "רככא",
+     "b_word": "רכות",
+     "glosses": [
+      "exact: softness"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ל",
    "b": "א",
    "witnesses": 1,
-   "glosses": [
-    "love"
+   "examples": [
+    {
+     "a_word": "לות",
+     "b_word": "את",
+     "glosses": [
+      "exact: to"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ל",
+   "b": "ד",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "חיל",
+     "b_word": "חד",
+     "glosses": [
+      "first: strong"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ל",
+   "b": "י",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "לחוד",
+     "b_word": "יחיד",
+     "glosses": [
+      "exact: alone"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ל",
+   "b": "כ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "אלא",
+     "b_word": "אך",
+     "glosses": [
+      "exact: but"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ל",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "אלה",
+     "b_word": "איים",
+     "glosses": [
+      "first: indefinite"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ל",
+   "b": "ס",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "מתלא",
+     "b_word": "מיתוס",
+     "glosses": [
+      "exact: myth"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "מ",
+   "b": "ב",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "מרים",
+     "b_word": "מרב",
+     "glosses": [
+      "exact: female given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "מ",
+   "b": "ד",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "מרתא",
+     "b_word": "דורית",
+     "glosses": [
+      "exact: female given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "מ",
+   "b": "ה",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "פומא",
+     "b_word": "פה",
+     "glosses": [
+      "exact: mouth"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "מ",
+   "b": "ז",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ארם",
+     "b_word": "ארז",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "מ",
+   "b": "ח",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "מרתא",
+     "b_word": "חרות",
+     "glosses": [
+      "exact: female given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "ט",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "טינא",
+     "b_word": "טיט",
+     "glosses": [
+      "exact: mud"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "י",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "מן",
+     "b_word": "מי",
+     "glosses": [
+      "exact: who"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "כ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "כן",
+     "b_word": "ככה",
+     "glosses": [
+      "exact: thus"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "נ",
+   "b": "ש",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "קניא",
+     "b_word": "קש",
+     "glosses": [
+      "exact: straw"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ס",
+   "b": "ד",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "אסא",
+     "b_word": "אהוד",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ס",
+   "b": "ח",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "סכא",
+     "b_word": "חיכה",
+     "glosses": [
+      "exact: wait"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ס",
+   "b": "ל",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "אסא",
+     "b_word": "אייל",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ס",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "אסא",
+     "b_word": "איתי",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ע",
+   "b": "ט",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "זעורא",
+     "b_word": "זוטר",
+     "glosses": [
+      "exact: small"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ע",
+   "b": "ל",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "טעא",
+     "b_word": "טייל",
+     "glosses": [
+      "first: wander"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ע",
+   "b": "פ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שעא",
+     "b_word": "שוף",
+     "glosses": [
+      "exact: smooth"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ע",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שבועא",
+     "b_word": "שבת",
+     "glosses": [
+      "exact: week"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "פ",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "סיפא",
+     "b_word": "סיום",
+     "glosses": [
+      "exact: end"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "פ",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ספנא",
+     "b_word": "סרן",
+     "glosses": [
+      "first: captain"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "פ",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שופא",
+     "b_word": "שת",
+     "glosses": [
+      "exact: place"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "צ",
+   "b": "ט",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "קצע",
+     "b_word": "קטע",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "צ",
+   "b": "ש",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "צחק",
+     "b_word": "שחק",
+     "glosses": [
+      "exact: laugh"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ק",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "עמק",
+     "b_word": "עמים",
+     "glosses": [
+      "first: indefinite"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ק",
+   "b": "ש",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "נפק",
+     "b_word": "נפש",
+     "glosses": [
+      "first: go"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ר",
+   "b": "צ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "חמירא",
+     "b_word": "חמץ",
+     "glosses": [
+      "exact: leaven"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ר",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "בר",
+     "b_word": "בתי",
+     "glosses": [
+      "first: construct"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ש",
+   "b": "א",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שופא",
+     "b_word": "איפה",
+     "glosses": [
+      "first: place"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ש",
+   "b": "ז",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שבת",
+     "b_word": "זבת",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ש",
+   "b": "ח",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שום",
+     "b_word": "חום",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ש",
+   "b": "כ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "מושא",
+     "b_word": "מיכיהו",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ש",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שום",
+     "b_word": "מימי",
+     "glosses": [
+      "shared: construct state"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ש",
+   "b": "ס",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שכרא",
+     "b_word": "סוכר",
+     "glosses": [
+      "exact: sugar"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ש",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "פשל",
+     "b_word": "פיתל",
+     "glosses": [
+      "exact: twist"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
+   "b": "ב",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "מרתא",
+     "b_word": "מרב",
+     "glosses": [
+      "exact: female given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
+   "b": "י",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "תימנא",
+     "b_word": "ימין",
+     "glosses": [
+      "exact: south"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
+   "b": "כ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "מתי",
+     "b_word": "מיכיהו",
+     "glosses": [
+      "exact: male given name"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
+   "b": "ע",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "שבתא",
+     "b_word": "שבוע",
+     "glosses": [
+      "exact: week"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ת",
+   "b": "צ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "פרת",
+     "b_word": "פרץ",
+     "glosses": [
+      "first: burst"
+     ]
+    }
    ]
   }
  ]

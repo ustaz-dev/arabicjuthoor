@@ -46,6 +46,7 @@ GATES = [
     ("check_cooke1903_layer.py", []),
     ("rebuild_proof_preregistration.py", ["--check"]),
     ("count_proof_eligible_families.py", ["--check"]),
+    ("open_delegated_ruling_cards.py", ["--check"]),
     ("build_status_snapshot.py", ["--check"]),
     ("compare_cooke_diplomatic_passes.py", ["--check"]),
 ]

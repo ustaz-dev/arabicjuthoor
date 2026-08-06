@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "8751d0a90f43abea8dc5345d6bb1b64ec3a9917ee78d6072ae2b9fa7621f52cc"
+    "sha256": "7bdf166cbe48bc45ad75db96c6bb1c723c42fd7bcc3e567fc765e0ed524425eb"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "d38e6ccecb9749fdc71450a1d3140b9a205556d0c41c010c9bf70904f8319070"
+    "sha256": "0f154098bc02e3691a28b660bd3ea95e483ef319c273846c0a307490f4ed6742"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 367,
+  "eligible_family_total": 369,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -54,13 +54,13 @@
   "aramaic": {
    "inventory_family_count": 1573,
    "represented_current_family_count": 598,
-   "eligible_family_count": 237,
-   "positive_family_count": 237,
+   "eligible_family_count": 238,
+   "positive_family_count": 238,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 209,
-   "one_member_short_count": 89,
+   "one_member_short_count": 88,
    "issued_member_dispositions": {
-    "positive": 351,
+    "positive": 353,
     "closures": 264,
     "by_outcome": {
      "FORM-OF-ISOLATED": 18,
@@ -68,25 +68,25 @@
      "LOANWORD": 68,
      "NONLEXICAL-ISOLATED": 59,
      "NUCLEUS-ECHO": 4,
-     "NUCLEUS-TRACE": 12,
+     "NUCLEUS-TRACE": 13,
      "OUT-OF-SCOPE": 1,
      "PROPER-NAME-ISOLATED": 109,
      "ROOT-ECHO": 48,
-     "ROOT-TRACE": 287
+     "ROOT-TRACE": 288
     }
    },
    "incomplete_members_by_state": {
     "LAW-GAP": 3,
     "MORPHOLOGY-GAP": 1,
-    "OPEN-CANDIDATE": 48,
+    "OPEN-CANDIDATE": 47,
     "SOURCE-GAP": 3,
     "TOOL-GAP": 13,
-    "UNRECORDED": 171
+    "UNRECORDED": 170
    },
    "block_reconciliation": {
     "ambiguous-stale-heading": 4,
     "current-heading": 729,
-    "stable-entry-reconciled": 239,
+    "stable-entry-reconciled": 241,
     "unmapped-stale-heading": 10
    },
    "eligible_family_ids": [
@@ -311,6 +311,7 @@
     "aramaic:family:e9d160a2770a4409982b7c50",
     "aramaic:family:eb1de24ff0f31aa958bff92d",
     "aramaic:family:ec2502633194642a217f2368",
+    "aramaic:family:ec3374a76fa7e68563ea867a",
     "aramaic:family:ee9a2b08a8fd77abab173196",
     "aramaic:family:eee8a7826689a8c54a03e48f",
     "aramaic:family:f091e9a4d6bb20ac1d2812c4",
@@ -550,6 +551,7 @@
     "aramaic:family:e9d160a2770a4409982b7c50",
     "aramaic:family:eb1de24ff0f31aa958bff92d",
     "aramaic:family:ec2502633194642a217f2368",
+    "aramaic:family:ec3374a76fa7e68563ea867a",
     "aramaic:family:ee9a2b08a8fd77abab173196",
     "aramaic:family:eee8a7826689a8c54a03e48f",
     "aramaic:family:f091e9a4d6bb20ac1d2812c4",
@@ -1285,17 +1287,6 @@
      "missing_gloss": "to twist",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 30126
-    },
-    {
-     "family_id": "aramaic:family:ec3374a76fa7e68563ea867a",
-     "anchor_headword": "פומא",
-     "member_count": 1,
-     "missing_entry_id": "kaikki_aramaic:505:en-פומא-arc-noun-TPNc-HQ1",
-     "missing_headword": "פומא",
-     "missing_pos": "noun",
-     "missing_gloss": "mouth",
-     "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29518
     },
     {
      "family_id": "aramaic:family:f3532147fb2589040f7f5038",
@@ -3074,22 +3065,6 @@
      ]
     },
     {
-     "family_id": "aramaic:family:ec3374a76fa7e68563ea867a",
-     "anchor_headword": "פומא",
-     "member_count": 1,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:505:en-פומא-arc-noun-TPNc-HQ1",
-       "headword": "פומא",
-       "pos": "noun",
-       "gloss": "mouth",
-       "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29518
-      }
-     ]
-    },
-    {
      "family_id": "aramaic:family:f3532147fb2589040f7f5038",
      "anchor_headword": "אריסא",
      "member_count": 2,
@@ -3732,6 +3707,30 @@
        "headword": "נורא",
        "pos": "noun",
        "gloss": "mirror",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:722853d7b160b10ab235bc01",
+     "anchor_headword": "שמש",
+     "member_count": 3,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:163:en-שמשא-arc-noun-KVryxVxx",
+       "headword": "שמשא",
+       "pos": "noun",
+       "gloss": "servant",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:22:en-שמש-arc-verb-UTizBQxZ",
+       "headword": "שמש",
+       "pos": "verb",
+       "gloss": "to serve",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -4530,38 +4529,6 @@
      ]
     },
     {
-     "family_id": "aramaic:family:722853d7b160b10ab235bc01",
-     "anchor_headword": "שמש",
-     "member_count": 3,
-     "missing_member_count": 3,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:162:en-שמשא-arc-noun-J3VvBQ4U",
-       "headword": "שמשא",
-       "pos": "noun",
-       "gloss": "sun",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_aramaic:163:en-שמשא-arc-noun-KVryxVxx",
-       "headword": "שמשא",
-       "pos": "noun",
-       "gloss": "servant",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_aramaic:22:en-שמש-arc-verb-UTizBQxZ",
-       "headword": "שמש",
-       "pos": "verb",
-       "gloss": "to serve",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
      "family_id": "aramaic:family:b98997cdd73ff6d879d2048e",
      "anchor_headword": "בסם",
      "member_count": 4,
@@ -4966,13 +4933,13 @@
   "hebrew": {
    "inventory_family_count": 11852,
    "represented_current_family_count": 1213,
-   "eligible_family_count": 130,
-   "positive_family_count": 130,
+   "eligible_family_count": 131,
+   "positive_family_count": 131,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 423,
-   "one_member_short_count": 339,
+   "one_member_short_count": 338,
    "issued_member_dispositions": {
-    "positive": 304,
+    "positive": 305,
     "closures": 1140,
     "by_outcome": {
      "ABBREVIATION": 88,
@@ -4988,18 +4955,18 @@
      "NUCLEUS-TRACE": 9,
      "PROPER-NAME-ISOLATED": 71,
      "ROOT-ECHO": 114,
-     "ROOT-TRACE": 178
+     "ROOT-TRACE": 179
     }
    },
    "incomplete_members_by_state": {
     "LAW-GAP": 1,
-    "OPEN-CANDIDATE": 10,
+    "OPEN-CANDIDATE": 9,
     "UNRECORDED": 1309
    },
    "block_reconciliation": {
     "ambiguous-stale-heading": 151,
     "current-heading": 932,
-    "stable-entry-reconciled": 713,
+    "stable-entry-reconciled": 714,
     "unmapped-stale-heading": 4
    },
    "eligible_family_ids": [
@@ -5093,6 +5060,7 @@
     "hebrew:family:9d0299335fad2bbb27aaa8f6",
     "hebrew:family:a24cf3147a61b5f3ce70c9c9",
     "hebrew:family:a41c4f87e88f231b69a3840d",
+    "hebrew:family:a48066058a73043e76972fb5",
     "hebrew:family:a4ae11dc7a345de33a93081f",
     "hebrew:family:a82503cfe12f4d29c4ca40c8",
     "hebrew:family:ae481eb251c668760bd496c8",
@@ -5225,6 +5193,7 @@
     "hebrew:family:9d0299335fad2bbb27aaa8f6",
     "hebrew:family:a24cf3147a61b5f3ce70c9c9",
     "hebrew:family:a41c4f87e88f231b69a3840d",
+    "hebrew:family:a48066058a73043e76972fb5",
     "hebrew:family:a4ae11dc7a345de33a93081f",
     "hebrew:family:a82503cfe12f4d29c4ca40c8",
     "hebrew:family:ae481eb251c668760bd496c8",
@@ -5769,17 +5738,6 @@
      "missing_gloss": "forearm",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 41226
-    },
-    {
-     "family_id": "hebrew:family:a48066058a73043e76972fb5",
-     "anchor_headword": "שמש",
-     "member_count": 1,
-     "missing_entry_id": "kaikki_hebrew:399:en-שמש-he-noun-J3VvBQ4U",
-     "missing_headword": "שמש",
-     "missing_pos": "noun",
-     "missing_gloss": "sun",
-     "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41493
     },
     {
      "family_id": "hebrew:family:aca94bae5af936a0ce5d4e08",
@@ -13021,22 +12979,6 @@
        "gloss": "alternative form of שומשום",
        "current_state": "UNRECORDED",
        "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "hebrew:family:a48066058a73043e76972fb5",
-     "anchor_headword": "שמש",
-     "member_count": 1,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_hebrew:399:en-שמש-he-noun-J3VvBQ4U",
-       "headword": "שמש",
-       "pos": "noun",
-       "gloss": "sun",
-       "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41493
       }
      ]
     },

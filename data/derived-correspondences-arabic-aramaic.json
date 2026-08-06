@@ -1,0 +1,847 @@
+{
+ "pair": "arabic:aramaic",
+ "matching": {
+  "before": "legacy exact normalized English gloss",
+  "after": "comma-trimmed exact or first semantic keyword or >=2 shared semantic tokens"
+ },
+ "before": {
+  "shared_exact_glosses": 121,
+  "sense_matches": 391,
+  "pairs_examined": 3
+ },
+ "after": {
+  "sense_matches": 7018,
+  "pairs_examined": 64,
+  "new_pairs": 61
+ },
+ "pairs_examined": 64,
+ "correspondences": [
+  {
+   "a": "ج",
+   "b": "מ",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "رج",
+     "b_word": "רמא",
+     "glosses": [
+      "first: put"
+     ]
+    },
+    {
+     "a_word": "عج",
+     "b_word": "עם",
+     "glosses": [
+      "exact: people"
+     ]
+    },
+    {
+     "a_word": "عج",
+     "b_word": "עמא",
+     "glosses": [
+      "exact: people"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "س",
+   "b": "ש",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "سطح",
+     "b_word": "שטח",
+     "glosses": [
+      "first: spread"
+     ]
+    },
+    {
+     "a_word": "سنر",
+     "b_word": "שונרא",
+     "glosses": [
+      "exact: cat"
+     ]
+    },
+    {
+     "a_word": "لسن",
+     "b_word": "לשנא",
+     "glosses": [
+      "first: tongue"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ض",
+   "b": "ע",
+   "witnesses": 3,
+   "examples": [
+    {
+     "a_word": "ارض",
+     "b_word": "ארעא",
+     "glosses": [
+      "first: land"
+     ]
+    },
+    {
+     "a_word": "ضم",
+     "b_word": "עם",
+     "glosses": [
+      "exact: people"
+     ]
+    },
+    {
+     "a_word": "ضم",
+     "b_word": "עמא",
+     "glosses": [
+      "exact: people"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ك",
+   "b": "ק",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "كرب",
+     "b_word": "קרב",
+     "glosses": [
+      "first: near"
+     ]
+    },
+    {
+     "a_word": "كرب",
+     "b_word": "קריבא",
+     "glosses": [
+      "first: near"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "و",
+   "b": "מ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "فو",
+     "b_word": "פומא",
+     "glosses": [
+      "exact: mouth"
+     ]
+    },
+    {
+     "a_word": "قدو",
+     "b_word": "קדמיא",
+     "glosses": [
+      "first: first"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "و",
+   "b": "ת",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "حمو",
+     "b_word": "חמתא",
+     "glosses": [
+      "first: heat"
+     ]
+    },
+    {
+     "a_word": "قلو",
+     "b_word": "קליתא",
+     "glosses": [
+      "first: roasted"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ي",
+   "b": "מ",
+   "witnesses": 2,
+   "examples": [
+    {
+     "a_word": "ري",
+     "b_word": "רמא",
+     "glosses": [
+      "first: put"
+     ]
+    },
+    {
+     "a_word": "فري",
+     "b_word": "פרם",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ا",
+   "b": "ח",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "الم",
+     "b_word": "חלימא",
+     "glosses": [
+      "exact: sound"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ب",
+   "b": "ל",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "صب",
+     "b_word": "צלא",
+     "glosses": [
+      "shared: bend down"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ب",
+   "b": "ע",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "قصب",
+     "b_word": "קצע",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ب",
+   "b": "ש",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "بطح",
+     "b_word": "שטח",
+     "glosses": [
+      "first: spread"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ت",
+   "b": "ס",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "تب",
+     "b_word": "סבא",
+     "glosses": [
+      "shared: man old"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ث",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "حدث",
+     "b_word": "חדתא",
+     "glosses": [
+      "first: new"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ج",
+   "b": "א",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جس",
+     "b_word": "אסיא",
+     "glosses": [
+      "first: physician"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ج",
+   "b": "פ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جرم",
+     "b_word": "פרם",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ح",
+   "b": "נ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "حر",
+     "b_word": "נורא",
+     "glosses": [
+      "first: fire"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "خ",
+   "b": "כ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "نخت",
+     "b_word": "נכת",
+     "glosses": [
+      "first: bite"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "خ",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "رخ",
+     "b_word": "רמא",
+     "glosses": [
+      "first: put"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "خ",
+   "b": "פ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "خرم",
+     "b_word": "פרם",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ذ",
+   "b": "ד",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جذم",
+     "b_word": "גדם",
+     "glosses": [
+      "shared: cut off"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ذ",
+   "b": "ז",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جذر",
+     "b_word": "גזר",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ذ",
+   "b": "נ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "حذق",
+     "b_word": "חנקא",
+     "glosses": [
+      "first: bond"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ذ",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جبذ",
+     "b_word": "גברא",
+     "glosses": [
+      "first: man"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ر",
+   "b": "ב",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "عرد",
+     "b_word": "עבדו",
+     "glosses": [
+      "first: did"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ر",
+   "b": "ד",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جرم",
+     "b_word": "גדם",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ر",
+   "b": "נ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "دمر",
+     "b_word": "דמן",
+     "glosses": [
+      "first: whose"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ز",
+   "b": "ד",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جزم",
+     "b_word": "גדם",
+     "glosses": [
+      "first: cut",
+      "shared: cut off"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "س",
+   "b": "י",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "مس",
+     "b_word": "מיא",
+     "glosses": [
+      "first: water"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "س",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "سم",
+     "b_word": "רמא",
+     "glosses": [
+      "first: put"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ش",
+   "b": "ל",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "رعش",
+     "b_word": "רעלא",
+     "glosses": [
+      "first: shaking"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ش",
+   "b": "ס",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "فرش",
+     "b_word": "פרס",
+     "glosses": [
+      "first: spread"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ش",
+   "b": "ע",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "شن",
+     "b_word": "עינא",
+     "glosses": [
+      "first: eye"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ش",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "شم",
+     "b_word": "רמא",
+     "glosses": [
+      "first: high"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ش",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "شرع",
+     "b_word": "תרעא",
+     "glosses": [
+      "exact: door"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ص",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "فرص",
+     "b_word": "פרם",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ص",
+   "b": "פ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "صرم",
+     "b_word": "פרם",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ط",
+   "b": "ע",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "ارط",
+     "b_word": "ארעא",
+     "glosses": [
+      "first: land"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ط",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "فطم",
+     "b_word": "פרם",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ع",
+   "b": "ח",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "رع",
+     "b_word": "רוחא",
+     "glosses": [
+      "first: wind"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ع",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جدع",
+     "b_word": "גדם",
+     "glosses": [
+      "shared: cut off"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ع",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جزع",
+     "b_word": "גזר",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ف",
+   "b": "מ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جدف",
+     "b_word": "גדם",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ف",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "وفد",
+     "b_word": "ורדא",
+     "glosses": [
+      "first: rose"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ق",
+   "b": "נ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "عنق",
+     "b_word": "עננא",
+     "glosses": [
+      "first: cloud"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ل",
+   "b": "ד",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جلم",
+     "b_word": "גדם",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ل",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جزل",
+     "b_word": "גזר",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "م",
+   "b": "י",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "حم",
+     "b_word": "חיא",
+     "glosses": [
+      "first: live"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "م",
+   "b": "נ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "صمر",
+     "b_word": "צִנּוֹרָא",
+     "glosses": [
+      "first: water"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "م",
+   "b": "פ",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "سمسر",
+     "b_word": "ספסרא",
+     "glosses": [
+      "exact: broker"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "م",
+   "b": "ר",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "جزم",
+     "b_word": "גזר",
+     "glosses": [
+      "first: cut"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ن",
+   "b": "ג",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "نبر",
+     "b_word": "גברא",
+     "glosses": [
+      "first: man"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ه",
+   "b": "ס",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "همل",
+     "b_word": "סמלא",
+     "glosses": [
+      "first: left"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "و",
+   "b": "ג",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "زو",
+     "b_word": "זוג",
+     "glosses": [
+      "exact: pair"
+     ]
+    }
+   ]
+  },
+  {
+   "a": "ي",
+   "b": "ת",
+   "witnesses": 1,
+   "examples": [
+    {
+     "a_word": "قري",
+     "b_word": "קרתא",
+     "glosses": [
+      "exact: town"
+     ]
+    }
+   ]
+  }
+ ]
+}

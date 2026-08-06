@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31233,
+  "cards_total": 31236,
   "by_language": [
    {
     "key": "old-latin",
@@ -45,15 +45,15 @@
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2240,
-    "links": 908
+    "cards": 2241,
+    "links": 909
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1431,
-    "links": 1063
+    "cards": 1433,
+    "links": 1065
    },
    {
     "key": "ancient-greek",
@@ -121,17 +121,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2501,
+  "links_to_arabic": 2504,
   "closures": 781,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1155,
+    "count": 1157,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 745,
+    "count": 746,
     "link": true
    },
    {
@@ -197,9 +197,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27860,
+  "cards_total": 27863,
   "suspended": 20747,
-  "released": 7113,
+  "released": 7116,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -292,25 +292,25 @@
   "required_total": 600,
   "required_per_language": 150,
   "families_tracked": 1811,
-  "eligible_now": 367,
+  "eligible_now": 369,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 237,
+    "eligible": 238,
     "represented": 598,
-    "positive_families": 237,
+    "positive_families": 238,
     "closure_only_families": 0,
-    "one_member_short": 89
+    "one_member_short": 88
    },
    {
     "name": "hebrew",
-    "eligible": 130,
+    "eligible": 131,
     "represented": 1213,
-    "positive_families": 130,
+    "positive_families": 131,
     "closure_only_families": 0,
-    "one_member_short": 339
+    "one_member_short": 338
    }
   ],
   "counting_law": "A family counts only when every inventory member carries an issued verdict or recorded terminal closure."

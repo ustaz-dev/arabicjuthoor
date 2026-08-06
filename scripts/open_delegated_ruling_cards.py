@@ -58,7 +58,10 @@ EXPECTED_SAMEKH = 245
 EXPECTED_PROPOSED = 4393
 EXPECTED_DECISION_NUCLEI = 223
 EXPECTED_CARRYING_BEFORE_SEMITIC_ROWS = 3889
-REQUIRED_NOTE = "النواة من الطبقة المقترحة 2026-08-06، لا من الفهرس المجمَّد"
+REQUIRED_NOTE = "النواة من الطبقة المقترحة 2026-08-06"
+LAYER_BOUNDARY_NOTE = (
+    "طبقة قراءة قابلة للعزل، لا تعدّل الفهرس المجمَّد ولا تصدر حكم نسب أو صلة"
+)
 NORTHWEST_FACE_NOTE = (
     "عين الشمال مجمع *ʕ و*ġ، وحاؤه مجمع *ḥ و*ḫ؛ يذكر الوجهان معًا "
     "ولا ينتخب المعنى أحدهما"
@@ -501,15 +504,17 @@ def prepare_proposed_queue(core_hash: str, network_hash: str, force: bool = Fals
         shortlist = shortlist[:5]
 
         if card_forms:
-            notes = [REQUIRED_NOTE]
+            notes = [REQUIRED_NOTE, LAYER_BOUNDARY_NOTE]
             if ambiguities:
                 notes.append(NORTHWEST_FACE_NOTE)
             state = "READING-OPEN-NOT-A-VERDICT"
         else:
             notes = [
-                "فُحصت ضمن مجتمع القرار، ولم تولّد نواة من الطبقة المقترحة المقرّة؛ لم يرفع القرار عنها عائقًا"
+                REQUIRED_NOTE,
+                LAYER_BOUNDARY_NOTE,
+                "رُفع عائق الفهرس وفُحصت البطاقة، لكنها لم تولّد مرشحًا من النوى 223 المفتوحة",
             ]
-            state = "DECISION-POPULATION-READ; NO-APPROVED-PROPOSED-NUCLEUS"
+            state = "PROPOSED-LAYER-OPEN; NO-APPROVED-PROPOSED-NUCLEUS-GENERATED"
 
         if meta.get("loan_hint"):
             direction = "BRANCH-LOAN-HINT; VERDICT-BLOCKED"
@@ -887,9 +892,12 @@ def render_audit(rows: list[dict[str, Any]], core_hash: str, network_hash: str) 
     language_rows = "\n".join(
         f"| {language} | {count} |" for language, count in sorted(by_language.items())
     ) or "| لا شيء | 0 |"
-    return f"""# محضر فتح بطاقات القرارين المفوّضين
+    tagged = sum(REQUIRED_NOTE in row.get("notes", []) for row in proposed)
+    return f"""# محضر المسار ب الدوري لفتح بطاقات القرارين المفوّضين
 
 **التاريخ:** {DATE}. **الفهرس المجمّد:** قراءة فقط.
+
+**الدورية:** الدورة 002. ثُبّت فيها وسم الطبقة المقترحة على كل بطاقة من مجتمع القرار، بما فيها البطاقة التي لا تولّد مرشحًا بعد رفع عائق الفهرس.
 
 ## التقدم
 
@@ -902,6 +910,7 @@ def render_audit(rows: list[dict[str, Any]], core_hash: str, network_hash: str) 
 - بطاقة `סהרא` الناسخة للجذر `شهر`: {month}.
 - بطاقات النوى المنجزة التي حملت واحدة من النوى 223: {carrying}.
 - بطاقات مجتمع القرار المنجزة التي لم تحمل واحدة منها: {len(proposed) - carrying}.
+- بطاقات مجتمع القرار الموسومة بالوسم المطلوب: {tagged} من {EXPECTED_PROPOSED}.
 
 ## توزيع بطاقات النوى المنجزة
 
@@ -938,7 +947,7 @@ def validate_complete(rows: list[dict[str, Any]]) -> None:
     if len(samekh) > EXPECTED_SAMEKH or len(proposed) > EXPECTED_PROPOSED:
         raise RuntimeError("تجاوز سجل القرار مقام المجتمع")
     for row in proposed:
-        if row["approved_proposed_nuclei"] and REQUIRED_NOTE not in row.get("notes", []):
+        if REQUIRED_NOTE not in row.get("notes", []):
             raise RuntimeError(f"بطاقة بلا وسم القرار: {row['entry_id']}")
         expected_ambiguities = northwest_ambiguities(
             proposed_report.Card(
@@ -960,11 +969,33 @@ def validate_complete(rows: list[dict[str, Any]]) -> None:
             raise RuntimeError(f"تسرب حكم أو صلة من طبقة النوى: {row['entry_id']}")
 
 
+def check_complete_overlay(rows: list[dict[str, Any]], core_hash: str, network_hash: str) -> None:
+    counts = Counter(row["lane"] for row in rows)
+    if counts["aramaic-samekh-sib07"] != EXPECTED_SAMEKH:
+        raise RuntimeError(
+            f"سجل السامخ غير مكتمل: {counts['aramaic-samekh-sib07']} من {EXPECTED_SAMEKH}"
+        )
+    if counts["proposed-nuclei"] != EXPECTED_PROPOSED:
+        raise RuntimeError(
+            f"سجل النوى المقترحة غير مكتمل: {counts['proposed-nuclei']} من {EXPECTED_PROPOSED}"
+        )
+    validate_complete(rows)
+    expected_views = {
+        READING: render_reading(rows),
+        AUDIT: render_audit(rows, core_hash, network_hash),
+    }
+    for path, expected in expected_views.items():
+        if not path.exists() or path.read_text(encoding="utf-8") != expected:
+            raise RuntimeError(f"مشتق فتح البطاقات بائت: {path.relative_to(ROOT)}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--lane", choices=("samekh", "proposed"), required=True)
+    parser.add_argument("--lane", choices=("samekh", "proposed"))
     parser.add_argument("--batch-size", type=int, default=250)
     parser.add_argument("--force-prepare", action="store_true")
+    parser.add_argument("--refresh-existing", action="store_true")
+    parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
     if args.batch_size < 1:
         raise SystemExit("batch size must be positive")
@@ -973,6 +1004,15 @@ def main() -> int:
 
     core_hash, network_hash = assert_constitutional_inputs()
     current = load_ledger()
+    if args.check:
+        check_complete_overlay(current, core_hash, network_hash)
+        print(
+            f"CLEAN: proposed-nucleus overlay {EXPECTED_PROPOSED} cards, "
+            f"all tagged; frozen core {core_hash[:12]}"
+        )
+        return 0
+    if args.lane is None:
+        parser.error("--lane is required unless --check is used")
     lane_name = "aramaic-samekh-sib07" if args.lane == "samekh" else "proposed-nuclei"
     completed = {
         row["entry_id"] for row in current if row["lane"] == lane_name
@@ -983,8 +1023,11 @@ def main() -> int:
         population = prepare_proposed_queue(
             core_hash, network_hash, force=args.force_prepare
         )["records"]
+    if args.refresh_existing:
+        current = [row for row in current if row["lane"] != lane_name]
+        completed = set()
     pending = [row for row in population if row["entry_id"] not in completed]
-    addition = pending[: args.batch_size]
+    addition = pending if args.refresh_existing else pending[: args.batch_size]
     if addition:
         current.extend(addition)
         current.sort(
