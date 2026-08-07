@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "879871e2b65f19462f6060a2ecb2954015cff2f46aa07fe8430fbff6d76e9eb0"
+    "sha256": "ca273716d731a86162bfdde897f13ac91cd70fe2e99d2a703d1827298c44bf69"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "6075ebffb8a3f010561d284bd6821a4e83275aab80aedd3e15646735615b274f"
+    "sha256": "d27e311bd3dfd07c50548641ff0cf440ef4caa49b8753d23b46d75f470d33379"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 368,
+  "eligible_family_total": 369,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -53,14 +53,14 @@
  "languages": {
   "aramaic": {
    "inventory_family_count": 1573,
-   "represented_current_family_count": 601,
-   "eligible_family_count": 237,
-   "positive_family_count": 237,
+   "represented_current_family_count": 602,
+   "eligible_family_count": 238,
+   "positive_family_count": 238,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 209,
    "one_member_short_count": 91,
    "issued_member_dispositions": {
-    "positive": 355,
+    "positive": 356,
     "closures": 264,
     "by_outcome": {
      "FORM-OF-ISOLATED": 18,
@@ -72,7 +72,7 @@
      "OUT-OF-SCOPE": 1,
      "PROPER-NAME-ISOLATED": 109,
      "ROOT-ECHO": 48,
-     "ROOT-TRACE": 290
+     "ROOT-TRACE": 291
     }
    },
    "incomplete_members_by_state": {
@@ -86,7 +86,7 @@
    "block_reconciliation": {
     "ambiguous-stale-heading": 4,
     "current-heading": 729,
-    "stable-entry-reconciled": 245,
+    "stable-entry-reconciled": 248,
     "unmapped-stale-heading": 10
    },
    "eligible_family_ids": [
@@ -201,6 +201,7 @@
     "aramaic:family:8b9e7b23ea025d740de240a9",
     "aramaic:family:8bb6f2ad42ead0512c200e83",
     "aramaic:family:8c63d5d56732a12875e05816",
+    "aramaic:family:8d05661b0812c4b5d9e71cb7",
     "aramaic:family:90158e7b795dafe8e65c2f42",
     "aramaic:family:90b7925f418d9752908c7152",
     "aramaic:family:90fcf738efda6cd3825567cd",
@@ -440,6 +441,7 @@
     "aramaic:family:8b9e7b23ea025d740de240a9",
     "aramaic:family:8bb6f2ad42ead0512c200e83",
     "aramaic:family:8c63d5d56732a12875e05816",
+    "aramaic:family:8d05661b0812c4b5d9e71cb7",
     "aramaic:family:90158e7b795dafe8e65c2f42",
     "aramaic:family:90b7925f418d9752908c7152",
     "aramaic:family:90fcf738efda6cd3825567cd",
@@ -5101,7 +5103,7 @@
    "block_reconciliation": {
     "ambiguous-stale-heading": 151,
     "current-heading": 932,
-    "stable-entry-reconciled": 719,
+    "stable-entry-reconciled": 722,
     "unmapped-stale-heading": 4
    },
    "eligible_family_ids": [

@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 27882,
+ "cards_total": 27908,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -11702,6 +11702,18 @@
    "closure": "OPEN-CANDIDATE للجذر؛ ORBIT-NOT-IDENTICAL للنوى؛ ليس CLOSED-NO-TRACE.",
    "gaps": [
     "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "kbr (كبر) «يزيد ويكثّر»",
+   "verdict": "ROOT-TRACE للعضو kaikki_aramaic:849:en-כבר-arc-verb",
+   "closure": "READY للجذر الكامل؛ READY-ORBIT للنواة كب؛ SOURCE-GAP لما قبل الصورة المعجمية المنشورة.",
+   "gaps": [
+    "SOURCE-GAP"
    ],
    "blocker_type": "",
    "required": "",
@@ -98743,6 +98755,18 @@
    ]
   },
   {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "𐍆𐍂𐌹𐌾𐌴𐌹 (frijei؛ «فريَي») «حرية» ↔ فرج (معلَّق)",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفا صوتيا موقعا أو تحليلا منشورا يجيز مقابلة H الهندوأوروبية في *priHós (*priHós؛ «بريهوس») بالجيم العربية من غير إسقاط الصامت.",
+   "row_mentions": []
+  },
+  {
    "file": "04-cross-linguistic/readings/hebrew.md",
    "card": "(إعادةُ توسيم): المراجعةُ المضادّةُ الثالثةُ لحصادِ 2026-07-22 العبريّ",
    "verdict": "",
@@ -105817,6 +105841,30 @@
    ],
    "blocker_type": "LAW-GAP",
    "required": "توسيع موقع لـ LAB-07 إلى الكلتية، وصف لهمزة العربية بإزاء b.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-irish.md",
+   "card": "beithir (تُقرأ: بِيَثِر) «warrior, hero»",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "تحليل منشور يثبت وظيفة x-s في *betrixs (تُقرأ: بِتْرِخْس) قبل نزعها.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-irish.md",
+   "card": "ulcha (تُقرأ تقريبًا: أُلْخا) «beard»",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "صورة إيرلندية أو سلتية أقدم منشورة؛ وبعدها يبقى مطلوبًا صف موقع لـ x الكلتية بإزاء ح العربية.",
    "row_mentions": []
   },
   {
@@ -249137,6 +249185,18 @@
    ],
    "blocker_type": "",
    "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/welsh.md",
+   "card": "alaeth (تُقرأ: ألايث) «grief, sorrow; lamentation, elegy»",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "صورة وِلزية أو بريثونية أقدم منشورة؛ وبعدها صف موقع لـ θ الكلتية بإزاء ث العربية.",
    "row_mentions": []
   }
  ]

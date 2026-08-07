@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31258,
+  "cards_total": 31286,
   "by_language": [
    {
     "key": "old-latin",
@@ -38,22 +38,22 @@
     "key": "welsh",
     "en": "Welsh",
     "ar": "الويلزيّة",
-    "cards": 3007,
-    "links": 2
+    "cards": 3011,
+    "links": 3
    },
    {
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2247,
-    "links": 914
+    "cards": 2251,
+    "links": 917
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1438,
-    "links": 1068
+    "cards": 1442,
+    "links": 1071
    },
    {
     "key": "ancient-greek",
@@ -66,15 +66,15 @@
     "key": "old-irish",
     "en": "Old Irish",
     "ar": "old-irish",
-    "cards": 653,
-    "links": 28
+    "cards": 659,
+    "links": 30
    },
    {
     "key": "old-english",
     "en": "Old English",
     "ar": "old-english",
-    "cards": 438,
-    "links": 23
+    "cards": 443,
+    "links": 26
    },
    {
     "key": "phoenician-punic-scout",
@@ -87,8 +87,8 @@
     "key": "gothic",
     "en": "Gothic",
     "ar": "القوطيّة",
-    "cards": 284,
-    "links": 17
+    "cards": 287,
+    "links": 18
    },
    {
     "key": "punic",
@@ -108,8 +108,8 @@
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 158,
-    "links": 12
+    "cards": 160,
+    "links": 13
    },
    {
     "key": "middle-english",
@@ -121,17 +121,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2519,
-  "closures": 784,
+  "links_to_arabic": 2533,
+  "closures": 791,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1169,
+    "count": 1179,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 749,
+    "count": 753,
     "link": true
    },
    {
@@ -166,12 +166,12 @@
    },
    {
     "name": "LOANWORD",
-    "count": 57,
+    "count": 61,
     "link": false
    },
    {
     "name": "NO-TRACE",
-    "count": 57,
+    "count": 60,
     "link": false
    },
    {
@@ -197,13 +197,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27882,
-  "suspended": 20750,
-  "released": 7132,
+  "cards_total": 27908,
+  "suspended": 20755,
+  "released": 7153,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 16756
+    "count": 16757
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -211,7 +211,7 @@
    },
    {
     "name": "SOURCE-GAP",
-    "count": 254
+    "count": 256
    },
    {
     "name": "TOOL-GAP",
@@ -219,11 +219,11 @@
    },
    {
     "name": "LAW-GAP",
-    "count": 53
+    "count": 54
    },
    {
     "name": "MORPHOLOGY-GAP",
-    "count": 40
+    "count": 41
    },
    {
     "name": "NUCLEUS-ORIGINAL-CONSONANT-DROP",
@@ -249,7 +249,7 @@
    },
    {
     "file": "welsh.md",
-    "count": 2915
+    "count": 2916
    },
    {
     "file": "persian.md",
@@ -261,7 +261,7 @@
    },
    {
     "file": "old-irish.md",
-    "count": 359
+    "count": 361
    },
    {
     "file": "old-english.md",
@@ -269,7 +269,7 @@
    },
    {
     "file": "gothic.md",
-    "count": 196
+    "count": 197
    },
    {
     "file": "phoenician-punic-scout.md",
@@ -291,16 +291,16 @@
   "frozen_commit": "",
   "required_total": 600,
   "required_per_language": 150,
-  "families_tracked": 1818,
-  "eligible_now": 368,
+  "families_tracked": 1819,
+  "eligible_now": 369,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 237,
-    "represented": 601,
-    "positive_families": 237,
+    "eligible": 238,
+    "represented": 602,
+    "positive_families": 238,
     "closure_only_families": 0,
     "one_member_short": 91
    },

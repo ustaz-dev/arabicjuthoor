@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 1129,
-  "nucleus": 1060,
+  "root": 1464,
+  "nucleus": 1064,
   "languages": 15
  },
  "languages": [
@@ -12,8 +12,9 @@
    "ar": "الآراميّة",
    "en": "Aramaic",
    "distance": 1,
-   "root": 541,
+   "root": 680,
    "nucleus": 391,
+   "floor": 0,
    "examples": [
     {
      "word": "עיבא",
@@ -96,16 +97,17 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 932,
-   "nucleus_share": 42.0
+   "total": 1071,
+   "nucleus_share": 36.5
   },
   {
    "key": "hebrew",
    "ar": "العبريّة",
    "en": "Hebrew",
    "distance": 1,
-   "root": 398,
+   "root": 588,
    "nucleus": 329,
+   "floor": 0,
    "examples": [
     {
      "word": "קנה",
@@ -188,16 +190,17 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 727,
-   "nucleus_share": 45.3
+   "total": 917,
+   "nucleus_share": 35.9
   },
   {
    "key": "akkadian",
    "ar": "الأكّاديّة",
    "en": "Akkadian",
    "distance": 1,
-   "root": 69,
+   "root": 75,
    "nucleus": 18,
+   "floor": 0,
    "examples": [
     {
      "word": "idu",
@@ -280,8 +283,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 87,
-   "nucleus_share": 20.7
+   "total": 93,
+   "nucleus_share": 19.4
   },
   {
    "key": "phoenician-punic-scout",
@@ -290,6 +293,7 @@
    "distance": 1,
    "root": 15,
    "nucleus": 1,
+   "floor": 0,
    "examples": [
     {
      "word": "𐤁𐤍",
@@ -382,6 +386,7 @@
    "distance": 1,
    "root": 10,
    "nucleus": 0,
+   "floor": 0,
    "examples": [
     {
      "word": "ʿbd",
@@ -474,6 +479,7 @@
    "distance": 2,
    "root": 25,
    "nucleus": 160,
+   "floor": 1,
    "examples": [
     {
      "word": "ϣⲓⲕⲉ",
@@ -564,8 +570,9 @@
    "ar": "المصريّة القديمة",
    "en": "Ancient Egyptian",
    "distance": 2,
-   "root": 21,
+   "root": 20,
    "nucleus": 101,
+   "floor": 1,
    "examples": [
     {
      "word": "ḫf",
@@ -648,16 +655,17 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 122,
-   "nucleus_share": 82.8
+   "total": 121,
+   "nucleus_share": 83.5
   },
   {
    "key": "old-latin",
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 7,
+   "root": 6,
    "nucleus": 8,
+   "floor": 1,
    "examples": [
     {
      "word": "putamen",
@@ -740,8 +748,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 15,
-   "nucleus_share": 53.3
+   "total": 14,
+   "nucleus_share": 57.1
   },
   {
    "key": "ancient-greek",
@@ -750,6 +758,7 @@
    "distance": 3,
    "root": 4,
    "nucleus": 5,
+   "floor": 0,
    "examples": [
     {
      "word": "ἀμέλγω",
@@ -842,6 +851,7 @@
    "distance": 3,
    "root": 4,
    "nucleus": 0,
+   "floor": 0,
    "examples": [
     {
      "word": "astar",
@@ -892,8 +902,9 @@
    "ar": "الإيرلنديّة القديمة",
    "en": "Old Irish",
    "distance": 4,
-   "root": 10,
-   "nucleus": 18,
+   "root": 9,
+   "nucleus": 20,
+   "floor": 1,
    "examples": [
     {
      "word": "gel",
@@ -976,16 +987,17 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 28,
-   "nucleus_share": 64.3
+   "total": 29,
+   "nucleus_share": 69.0
   },
   {
    "key": "old-english",
    "ar": "الإنجليزيّة القديمة",
    "en": "Old English",
    "distance": 4,
-   "root": 9,
-   "nucleus": 14,
+   "root": 10,
+   "nucleus": 15,
+   "floor": 1,
    "examples": [
     {
      "word": "seofon",
@@ -1068,16 +1080,17 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 23,
-   "nucleus_share": 60.9
+   "total": 25,
+   "nucleus_share": 60.0
   },
   {
    "key": "gothic",
    "ar": "القوطيّة",
    "en": "Gothic",
    "distance": 4,
-   "root": 9,
+   "root": 10,
    "nucleus": 8,
+   "floor": 0,
    "examples": [
     {
      "word": "hauseins",
@@ -1160,16 +1173,17 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 17,
-   "nucleus_share": 47.1
+   "total": 18,
+   "nucleus_share": 44.4
   },
   {
    "key": "old-norse",
    "ar": "النُّرديّة القديمة",
    "en": "Old Norse",
    "distance": 4,
-   "root": 6,
+   "root": 7,
    "nucleus": 6,
+   "floor": 0,
    "examples": [
     {
      "word": "hamr",
@@ -1252,8 +1266,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 12,
-   "nucleus_share": 50.0
+   "total": 13,
+   "nucleus_share": 46.2
   },
   {
    "key": "welsh",
@@ -1261,7 +1275,8 @@
    "en": "Welsh",
    "distance": 4,
    "root": 1,
-   "nucleus": 1,
+   "nucleus": 2,
+   "floor": 0,
    "examples": [
     {
      "word": "hen",
@@ -1270,6 +1285,16 @@
      "arabic": "سن",
      "quote": "وأسن الرجل: كبر",
      "lexicon": "المحكم",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "caer",
+     "say": "",
+     "sense": "fort, fortress, fortified town; wall, rampart",
+     "arabic": "قر",
+     "quote": "أقره في مكانه فاستقر",
+     "lexicon": "لسان العرب",
      "layer": "nucleus",
      "degree": "NUCLEUS-TRACE"
     },
@@ -1284,8 +1309,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 2,
-   "nucleus_share": 50.0
+   "total": 3,
+   "nucleus_share": 66.7
   }
  ]
 }
