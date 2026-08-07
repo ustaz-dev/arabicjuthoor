@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 27865,
+ "cards_total": 27882,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -11678,6 +11678,30 @@
    "closure": "ROOT-ECHO للجذر؛ LAW-GAP لدرجة TRACE؛ ORIGINAL-CONSONANT-DROP وFULL-ROOT-FIRST للنواة.",
    "gaps": [
     "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "RECOVERY-v2: `תישא`، `tyšʾ` (تيشأ) «تيس، ذكر المعز»",
+   "verdict": "ROOT-TRACE للعضو `kaikki_aramaic:724:en-תישא-arc-no",
+   "closure": "READY للجذر الكامل؛ TOOL-GAP للأزواج غير المفهرسة؛ ORIGINAL-CONSONANT-DROP وORBIT-NOT-IDENTICAL للنواة `تس`.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "RECOVERY-v2: `צפרא`، `ṣp/frʾ` (صفرأ) «الصباح»",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE للجذر؛ ORBIT-NOT-IDENTICAL للنوى؛ ليس CLOSED-NO-TRACE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
    ],
    "blocker_type": "",
    "required": "",

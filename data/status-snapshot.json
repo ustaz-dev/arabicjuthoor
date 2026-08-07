@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31238,
+  "cards_total": 31258,
   "by_language": [
    {
     "key": "old-latin",
@@ -24,15 +24,15 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 4019,
-    "links": 120
+    "cards": 4021,
+    "links": 122
    },
    {
     "key": "coptic",
     "en": "Coptic",
     "ar": "القبطيّة",
-    "cards": 3920,
-    "links": 184
+    "cards": 3922,
+    "links": 186
    },
    {
     "key": "welsh",
@@ -45,21 +45,21 @@
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2243,
-    "links": 911
+    "cards": 2247,
+    "links": 914
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1433,
-    "links": 1065
+    "cards": 1438,
+    "links": 1068
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 1263,
+    "cards": 1266,
     "links": 9
    },
    {
@@ -101,8 +101,8 @@
     "key": "akkadian",
     "en": "Akkadian",
     "ar": "الأكّاديّة",
-    "cards": 174,
-    "links": 90
+    "cards": 178,
+    "links": 93
    },
    {
     "key": "old-norse",
@@ -121,17 +121,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2506,
-  "closures": 781,
+  "links_to_arabic": 2519,
+  "closures": 784,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1159,
+    "count": 1169,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 746,
+    "count": 749,
     "link": true
    },
    {
@@ -171,7 +171,7 @@
    },
    {
     "name": "NO-TRACE",
-    "count": 54,
+    "count": 57,
     "link": false
    },
    {
@@ -197,13 +197,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27865,
-  "suspended": 20748,
-  "released": 7117,
+  "cards_total": 27882,
+  "suspended": 20750,
+  "released": 7132,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 16754
+    "count": 16756
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -291,24 +291,24 @@
   "frozen_commit": "",
   "required_total": 600,
   "required_per_language": 150,
-  "families_tracked": 1812,
-  "eligible_now": 367,
+  "families_tracked": 1818,
+  "eligible_now": 368,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
     "eligible": 237,
-    "represented": 598,
+    "represented": 601,
     "positive_families": 237,
     "closure_only_families": 0,
-    "one_member_short": 89
+    "one_member_short": 91
    },
    {
     "name": "hebrew",
-    "eligible": 130,
-    "represented": 1214,
-    "positive_families": 130,
+    "eligible": 131,
+    "represented": 1217,
+    "positive_families": 131,
     "closure_only_families": 0,
     "one_member_short": 340
    }

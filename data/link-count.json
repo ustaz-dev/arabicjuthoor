@@ -1,26 +1,26 @@
 {
  "generated_from": "scripts/count_links.py",
- "cards_scanned": 31272,
+ "cards_scanned": 31292,
  "cards": {
-  "root": 1444,
-  "nucleus": 1057,
+  "root": 1454,
+  "nucleus": 1060,
   "floor": 5
  },
  "claims": {
-  "root": 984,
-  "nucleus": 939
+  "root": 994,
+  "nucleus": 942
  },
  "by_language": {
   "akkadian": {
    "cards": {
-    "root": 72,
-    "ROOT-TRACE": 72,
+    "root": 75,
+    "ROOT-TRACE": 75,
     "nucleus": 18,
     "NUCLEUS-TRACE": 7,
     "NUCLEUS-ECHO": 11
    },
    "claims": {
-    "root": 71,
+    "root": 74,
     "nucleus": 18
    }
   },
@@ -39,22 +39,22 @@
   },
   "aramaic": {
    "cards": {
-    "root": 674,
-    "ROOT-TRACE": 591,
+    "root": 677,
+    "ROOT-TRACE": 594,
     "ROOT-ECHO": 83,
     "nucleus": 391,
     "NUCLEUS-TRACE": 266,
     "NUCLEUS-ECHO": 125
    },
    "claims": {
-    "root": 413,
+    "root": 416,
     "nucleus": 307
    }
   },
   "coptic": {
    "cards": {
-    "nucleus": 158,
-    "NUCLEUS-TRACE": 149,
+    "nucleus": 160,
+    "NUCLEUS-TRACE": 151,
     "NUCLEUS-ECHO": 9,
     "floor": 1,
     "FLOOR-TRACE": 1,
@@ -63,25 +63,25 @@
     "ROOT-TRACE": 20
    },
    "claims": {
-    "nucleus": 144,
+    "nucleus": 146,
     "floor": 1,
     "root": 19
    }
   },
   "egyptian": {
    "cards": {
-    "root": 19,
-    "ROOT-TRACE": 16,
-    "nucleus": 100,
-    "NUCLEUS-TRACE": 83,
+    "root": 20,
+    "ROOT-TRACE": 17,
+    "nucleus": 101,
+    "NUCLEUS-TRACE": 84,
     "NUCLEUS-ECHO": 17,
     "floor": 1,
     "FLOOR-TRACE": 1,
     "ROOT-ECHO": 3
    },
    "claims": {
-    "root": 19,
-    "nucleus": 97,
+    "root": 20,
+    "nucleus": 98,
     "floor": 1
    }
   },
@@ -100,15 +100,15 @@
   },
   "hebrew": {
    "cards": {
-    "root": 582,
-    "ROOT-TRACE": 389,
+    "root": 585,
+    "ROOT-TRACE": 392,
     "ROOT-ECHO": 193,
     "nucleus": 329,
     "NUCLEUS-TRACE": 190,
     "NUCLEUS-ECHO": 139
    },
    "claims": {
-    "root": 395,
+    "root": 398,
     "nucleus": 317
    }
   },
@@ -220,14 +220,14 @@
   }
  },
  "heading_forms": {
-  "بطاقة": 1195,
+  "بطاقة": 1199,
   "بطاقة طابور": 9,
   "بطاقة إعادة فتح": 3,
+  "بطاقة RECOVERY-v2": 25,
   "إعادة توسيم موجبة": 1,
   "مراجعة ناسخة RECOVERY-v2": 2,
   "مراجعة عضوية": 233,
   "إعادة قراءة بطبقتين": 434,
-  "بطاقة RECOVERY-v2": 16,
   "بطاقة RECOVERY-v2 معاد فتحها": 1,
   "بطاقة حسم": 10,
   "بطاقة حسم عائلية": 2,
