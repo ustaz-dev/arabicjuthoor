@@ -94,6 +94,8 @@ p.lede { color:var(--text-2); font-size:1.06rem; margin:0 0 6px; max-width:70ch;
 .lang-head { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
   margin-bottom:12px; }
 .lang-head h3 { margin:0; font-size:1.12rem; }
+.lang-head .meta.shown { color:var(--text-3); font-size:.8rem;
+  display:block; }
 .lang-head .meta { font-size:.85rem; color:var(--text-3); }
 .tbl-wrap { overflow-x:auto; }
 table { width:100%; border-collapse:collapse; font-size:.9rem; }
@@ -179,6 +181,15 @@ footer { border-top:1px solid var(--border); margin-top:50px; padding:22px 0;
     <span class="lang-en">The links themselves</span>
     <span class="lang-ar ar-display">الصلاتُ نفسُها</span>
   </h2>
+  <p class="note" style="margin:-6px 0 18px;">
+    <span class="lang-en">Each block below gives its language's full count first, then shows a readable sample of
+      those links, chosen so that a quoted lexicon line comes with each one. The counts are the whole population;
+      the rows are the sample. For where a candidate enters before it becomes a link, see the
+      <a href="discoveries.html">discoveries roster</a>.</span>
+    <span class="lang-ar">كلُّ كتلةٍ أدناه تذكرُ أوّلًا عددَ لسانِها كاملًا، ثمّ تعرضُ منه عيّنةً تُقرَأ، اختيرَت
+      ليأتيَ مع كلِّ صفٍّ منها نصُّ معجمٍ منقول. فالعددُ هو السكّانُ كلُّهم، والصفوفُ هي العيّنة. ولمعرفةِ من أينَ
+      يدخلُ المرشَّحُ قبلَ أن يصيرَ صلةً، انظُرْ <a href="discoveries.html">روزنامةَ الاكتشافات</a>.</span>
+  </p>
   <div id="languages"></div>
 
   <div class="note" id="foot-note"></div>
@@ -260,7 +271,9 @@ footer { border-top:1px solid var(--border); margin-top:50px; padding:22px 0;
       return '<div class="lang-block"><div class="lang-head"><h3>' + esc(t(e.en, e.ar)) +
         '</h3><span class="meta">' + fmt(e.total) + " " + t("links", "صلة") + " · " +
         fmt(e.root) + " " + t("root", "جذر") + " · " + fmt(e.nucleus) + " " +
-        t("nucleus", "نواة") + "</span></div>" +
+        t("nucleus", "نواة") + '</span><span class="meta shown">' +
+        t("showing " + e.examples.length + " of them below",
+          "المعروضُ منها أدناه " + e.examples.length) + "</span></div>" +
         '<div class="tbl-wrap"><table><thead><tr>' +
         "<th>" + t("word", "الكلمة") + "</th><th>" + t("meaning", "معناها") +
         "</th><th>" + t("Arabic", "العربيّ") + "</th><th>" +

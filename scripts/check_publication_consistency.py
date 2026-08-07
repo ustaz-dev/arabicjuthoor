@@ -55,9 +55,10 @@ public_requirements = {
         f'<div class="stat-num">{declared_count}</div>',
         f"{declared_count} operational binary nuclei",
         f"{declared_count} نواةً ثنائيّةً تشغيليّة",
-        '<div class="stat-num">1 / 2,285</div>',
-        "Loanword label",
-        "وسم دخيل",
+        # بطاقةُ «وسم دخيل 1 / 2,285» رُفِعَت من شريطِ الصدرِ بأمرِ المؤلّفِ في
+        # 2026-08-07 مع بطاقتَي النظائرِ المصريّةِ وقرونِ اللغويّات، فالشريطُ
+        # للأرقامِ التي تتحرّك. والرقمُ نفسُه باقٍ في صورةِ المشاركةِ وفي بانيها
+        # أدناه وفي قسمِ المنهج، فما زالَ منشورًا ومحروسًا حيثُ يُنشَر.
     ],
     "README.md": [f"operational {declared_count}-nucleus catalog"],
     "manifest.webmanifest": [f"{declared_count} operational binary nuclei"],

@@ -264,16 +264,27 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
     var byLinks = ex.by_language.slice().sort(function (a, b) { return (b.links || 0) - (a.links || 0); });
     document.getElementById("langs").innerHTML =
       '<p class="sub" style="margin:0 0 8px">' +
-      t("Links found, then cards written, per language.", "الصلاتُ الموجودة، ثمّ البطاقاتُ المكتوبة، لكلِّ لسان.") + "</p>" +
+      t("Links found per language, split by the layer they landed on, then cards written. " +
+        "The nucleus share is the claim itself: near sisters answer at the root, far branches at the nucleus.",
+        "الصلاتُ الموجودةُ لكلِّ لسان، مقسومةً على الطبقةِ التي وقعَت فيها، ثمّ البطاقاتُ المكتوبة. " +
+        "وحصّةُ النواةِ هي الدعوى نفسُها: الأخواتُ القريبةُ تُجيبُ عندَ الجذرِ والفروعُ البعيدةُ عندَ النواة.") + "</p>" +
       '<table><thead><tr><th>' + t("Language", "اللسان") + '</th><th class="num">' +
-      t("Links", "صلات") + '</th><th class="num">' + t("Cards", "بطاقات") + "</th></tr></thead><tbody>" +
+      t("Links", "صلات") + '</th><th class="num">' + t("Root", "جذر") + '</th><th class="num">' +
+      t("Nucleus", "نواة") + '</th><th class="num">' + t("Nucleus %", "نواة %") +
+      '</th><th class="num">' + t("Cards", "بطاقات") + "</th></tr></thead><tbody>" +
       byLinks.map(function (r) {
         var pct = vd.links_to_arabic ? Math.round(((r.links || 0) / vd.links_to_arabic) * 100) : 0;
+        var share = (r.root || r.nucleus) ? Math.round(r.nucleus_share || 0) + "%" : "";
         return "<tr><td>" + (isAr() ? r.ar : r.en) +
           '<div class="bar"><i style="width:' + pct + '%"></i></div></td>' +
           '<td class="num">' + fmt(r.links || 0) + "</td>" +
+          '<td class="num" style="color:var(--text-3)">' + fmt(r.root || 0) + "</td>" +
+          '<td class="num" style="color:var(--text-3)">' + fmt(r.nucleus || 0) + "</td>" +
+          '<td class="num" style="color:var(--accent-strong);font-weight:600">' + share + "</td>" +
           '<td class="num" style="color:var(--text-3)">' + fmt(r.cards) + "</td></tr>";
-      }).join("") + "</tbody></table>";
+      }).join("") + "</tbody></table>" +
+      '<p class="sub" style="margin:10px 0 0"><a href="links.html" style="color:var(--accent-strong);font-weight:600;text-decoration:none">' +
+      t("Read the links themselves, word by word →", "اقرأِ الصلاتِ نفسَها، كلمةً كلمةً ←") + "</a></p>";
 
     var top = pl.blockers[0];
     document.getElementById("blockers").innerHTML =

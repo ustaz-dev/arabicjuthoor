@@ -100,6 +100,9 @@ LANGUAGE_NAMES = {
     "old-norse": ("Old Norse", "النورديّة القديمة"),
     "persian": ("Persian", "الفارسيّة"),
     "gothic": ("Gothic", "القوطيّة"),
+    "old-irish": ("Old Irish", "الإيرلنديّة القديمة"),
+    "old-english": ("Old English", "الإنجليزيّة القديمة"),
+    "middle-english": ("Middle English", "الإنجليزيّة الوسطى"),
 }
 
 # Files that are working notes rather than a language reading.
@@ -180,8 +183,22 @@ def language_rows() -> list[dict]:
         links = sum(
             count for name, count in verdicts.items() if name in POSITIVE_VERDICTS
         )
+        # الطبقةُ لكلِّ لسان، بقانونِ count_links نفسِه: كلُّ درجةٍ صادرةٍ تُحسَبُ
+        # في طبقتِها. وبها تصيرُ لوحةُ الحالةِ تعرضُ الدعوى لا حجمَ العملِ وحدَه.
+        layers = Counter()
+        for card in card_blocks:
+            for degree in count_links.scan_card(count_links.bare(card)):
+                layers[count_links.layer(degree)] += 1
         en, ar = LANGUAGE_NAMES.get(stem, (stem.replace("-", " ").title(), stem))
-        rows.append({"key": stem, "en": en, "ar": ar, "cards": cards, "links": links})
+        rows.append({
+            "key": stem, "en": en, "ar": ar, "cards": cards, "links": links,
+            "root": layers["root"], "nucleus": layers["nucleus"],
+            "floor": layers["floor"],
+            "nucleus_share": (
+                round(100 * layers["nucleus"] / (layers["root"] + layers["nucleus"]), 1)
+                if (layers["root"] + layers["nucleus"]) else 0.0
+            ),
+        })
     rows.sort(key=lambda r: -r["cards"])
     return rows
 
