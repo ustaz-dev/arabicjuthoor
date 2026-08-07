@@ -1265,6 +1265,7 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
       <div class="hp-kpi"><div class="n" id="hp-k-links">2,519</div><div class="l"><span class="lang-en">links to the Arabic tongue</span><span class="lang-ar">صِلةً باللِّسانِ العَرَبيّ</span></div></div>
       <div class="hp-kpi root"><div class="n" id="hp-k-root">1,454</div><div class="l"><span class="lang-en">at the triliteral root</span><span class="lang-ar">عندَ الجَذرِ الثُّلاثيّ</span></div></div>
       <div class="hp-kpi nuc"><div class="n" id="hp-k-nuc">1,060</div><div class="l"><span class="lang-en">at the binary nucleus</span><span class="lang-ar">عندَ النَّواةِ الثُّنائيّة</span></div></div>
+      <div class="hp-kpi"><div class="n" id="hp-k-floor">5</div><div class="l"><span class="lang-en">at the universal floor</span><span class="lang-ar">عندَ الأرضيّةِ الكَونيّة</span></div></div>
       <div class="hp-kpi"><div class="n" id="hp-k-langs">15</div><div class="l"><span class="lang-en">tongues carrying links</span><span class="lang-ar">لِسانًا فيه صِلات</span></div></div>
     </div>
 
@@ -2756,7 +2757,8 @@ const SUPABASE_TABLE = 'messages';
       var t = d.totals, by = {};
       d.languages.forEach(function (e) { by[e.key] = e; });
       if (canon && canon.cards) {
-        t = { root: canon.cards.root, nucleus: canon.cards.nucleus, languages: t.languages };
+        t = { root: canon.cards.root, nucleus: canon.cards.nucleus,
+              floor: canon.cards.floor || 0, languages: t.languages };
         Object.keys(canon.by_language || {}).forEach(function (k) {
           var c = (canon.by_language[k] || {}).cards || {};
           if (!by[k]) return;
@@ -2766,11 +2768,14 @@ const SUPABASE_TABLE = 'messages';
           by[k].nucleus_share = by[k].total ? (100 * by[k].nucleus / by[k].total) : 0;
         });
       }
-      var total = t.root + t.nucleus;
+      // المجموعُ يشملُ الأرضيّةَ الكونيّةَ كما يشملُها العدّادُ القانونيُّ وصفحةُ
+      // الحالة، وإلّا اختلفَ رقمُ الصدرِ عن رقمِ الموقعِ بخمسِ صلات
+      var total = t.root + t.nucleus + (t.floor || 0);
 
       put('#hp-k-links', N(total));
       put('#hp-k-root', N(t.root));
       put('#hp-k-nuc', N(t.nucleus));
+      put('#hp-k-floor', N(t.floor || 0));
       put('#hp-k-langs', String(t.languages));
       put('#hp-n1, .hp-n1', N(total));
       put('#hp-n2, .hp-n2', String(t.languages));
