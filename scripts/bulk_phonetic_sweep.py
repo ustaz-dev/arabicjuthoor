@@ -32,6 +32,7 @@ import json
 import pathlib
 import re
 import sys
+import unicodedata
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -45,22 +46,101 @@ SCRIPT_OF = {
     "aramaic": "north", "hebrew": "north", "coptic": "coptic",
     "egyptian": "egyptian", "akkadian": "akkadian",
     "ancient_greek": "greek",
+    # الفروعُ البعيدةُ التي لم تُمسَحْ قطُّ، وفيها تسكنُ النواةُ إن صحَّتِ الدعوى
+    "latin": "latin", "old_irish": "latin", "welsh": "latin",
+    "gothic": "gothic", "old_norse": "germanic",
+    "english_old": "germanic", "english_middle": "germanic",
 }
 
 OUT_DIR = ROOT / "04-cross-linguistic" / "exploration"
 
-# كلماتٌ إنجليزيّةٌ لا تحملُ معنًى مميّزًا فلا تُحسَبُ في التقاطع
+# كلماتٌ إنجليزيّةٌ لا تحملُ معنًى مميّزًا فلا تُحسَبُ في التقاطع. والطفيليّاتُ
+# النحويّةُ (verb, trans, lemma) كانت أكثرَ ما يلتقي فيُظَنُّ تقاطعَ معنًى وليسَ به.
 STOP = {
     "a", "an", "the", "to", "of", "or", "and", "in", "on", "at", "for", "with",
     "be", "is", "are", "was", "were", "it", "its", "that", "this", "as", "by",
     "from", "one", "any", "some", "used", "esp", "especially", "person", "thing",
     "something", "someone", "make", "made", "form", "kind", "sort", "type",
+    "meaning", "unknown", "uncertain", "trans", "intrans", "transitive",
+    "intransitive", "verb", "noun", "adj", "adjective", "adverb", "pronoun",
+    "particle", "lemma", "plural", "singular", "masculine", "feminine", "dual",
+    "construct", "state", "sense", "senses", "see", "also", "var", "variant",
+    "spelling", "alternative", "obsolete", "archaic", "rare", "figuratively",
+    "literally", "kaikki", "glosses", "gloss", "dictionary", "entry", "line",
+    "part", "place", "name", "word", "words", "written", "wrote",
 }
 WORD = re.compile(r"[a-z]+")
+
+BRIDGE = ROOT / "data" / "en-ar-bridge.json"
+
+# **مدخلٌ ليسَ كلمةً في اللسان.** بابانِ يُفسدانِ الطابورَ إن تُركا:
+# 1. أعلامٌ حديثةٌ وأسماءُ بلدانٍ ينقلُها العربُ اليومَ بحروفِها، فتتطابقُ الكلمةُ
+#    مع نفسِها لا مع أصلٍ: Nepal ~ نبل، Serbia ~ صرب، film ~ فلم.
+# 2. صيغٌ صرفيّةٌ لا مداخلَ معجميّة: «first-person singular present of…».
+INFLECTION = re.compile(
+    r"^\s*(?:alternative|obsolete|archaic|dialectal|misspelling|inflection|"
+    r"nominative|genitive|dative|accusative|vocative|instrumental|ablative|"
+    r"first-person|second-person|third-person|past|present|future|singular|"
+    r"plural|dual|comparative|superlative|definite|indefinite|feminine|"
+    r"masculine|neuter|strong|weak|verbal noun|participle|imperative|"
+    r"subjunctive|construct|emphatic|soft mutation|nasal mutation|aspirate)"
+    r"[^.]{0,80}\bof\b", re.I)
+PROPER = re.compile(
+    r"\b(?:given name|surname|male name|female name|a country|a city|a town|"
+    r"capital (?:city )?of|a village|a river in|a province|a region|a state in|"
+    r"a county|an island|Biblical|apostle|a district|a commune|a municipality|"
+    r"a language spoken|a people|ISO |a letter of|a month of)\b", re.I)
+
+
+ROMAN_FOLD = str.maketrans({"c": "k", "q": "k", "y": "i", "j": "i", "v": "f",
+                            "þ": "t", "ð": "d", "w": "u"})
+
+
+def latin_skeleton(s: str) -> str:
+    s = unicodedata.normalize("NFD", str(s).lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = s.replace("ph", "f").replace("x", "ks").translate(ROMAN_FOLD)
+    s = re.sub(r"[^a-z]", "", s)
+    s = "".join(c for c in s if c not in "aeiou")
+    return re.sub(r"(.)\1+", r"\1", s)
+
+
+def looks_modern_loan(branch: str, shared: list[str]) -> bool:
+    """الويلزيّةُ أخذَت film وmink من الإنجليزيّة، والعربيّةُ أخذَتهما منها أيضًا،
+    فيلتقي الطرفانِ في كلمةٍ حديثةٍ لا في أصلٍ قديم. وعلامتُها أنّ هيكلَ كلمةِ
+    الفرعِ هو هيكلُ الكلمةِ الإنجليزيّةِ نفسِها."""
+    b = latin_skeleton(branch)
+    return bool(b) and any(latin_skeleton(w) == b for w in shared)
+
+
+def entry_is_lexical(word: str, glosses: list[str]) -> bool:
+    g = " ".join(glosses)
+    if INFLECTION.match(g) or PROPER.search(g):
+        return False
+    if " " in word.strip() or "-" in word.strip():
+        return False
+    # العلَمُ في الخطِّ اللاتينيِّ يُكتَبُ بحرفٍ كبير، وهو أوضحُ علامةٍ عليه
+    first = word.strip()[:1]
+    return not (first.isascii() and first.isupper())
 
 
 def words_of(text: str) -> set[str]:
     return {w for w in WORD.findall(str(text).lower()) if len(w) > 2 and w not in STOP}
+
+
+def load_bridge() -> dict[str, set[str]]:
+    """**جسرُ المعنى.** كان هذا الموضعُ يقابِلُ شرحًا إنجليزيًّا بنصٍّ عربيٍّ فلا
+    يلتقيان، فامتلأَ طابورُ «صوتٌ ومعنًى» بالطفيليّاتِ وضاعَ الصيدُ في طابورِ
+    «صوتٌ وحدَه». والجسرُ يُعطي كلَّ جذرٍ عربيٍّ معانِيَه الإنجليزيّةَ من جدولِ
+    ترجماتِ ويكاموس ومن بطاقاتِ المشروعِ نفسِها، فيصيرُ الطرفانِ بلسانٍ واحد."""
+    if not BRIDGE.exists():
+        print("   تنبيه: جسرُ المعنى غيرُ مبنيّ، فالمعنى لا يُقاس.")
+        print("   ابنِه بـ python scripts/build_en_ar_bridge.py")
+        return {}
+    d = json.loads(BRIDGE.read_text(encoding="utf-8"))
+    head = {r: {w for w in g if w not in STOP} for r, g in d.get("root_head", {}).items()}
+    gloss = {r: {w for w in g if w not in STOP} for r, g in d.get("root_gloss", {}).items()}
+    return head, gloss
 
 
 # الذخائرُ التي ليست jsonl، ولها قارئاتٌ في خطِّ الاسترداد أصلًا
@@ -125,15 +205,19 @@ def main() -> int:
 
     print("تحميلُ ذخيرةِ الجذورِ العربيّة...")
     ar = F.load_arabic_roots()
-    ar_words = {r: words_of(" ".join(d for _, d in e[:3])) for r, e in ar.items()}
     print(f"جذورٌ عربيّةٌ: {len(ar):,}")
+    head, gloss = load_bridge()
+    print(f"جسرُ المعنى: {len(head):,} جذرًا بمعانيها الإنجليزيّة\n")
 
     rows = load_branch(args.lang)
     print(f"مداخلُ {args.lang}: {len(rows):,}\n")
 
-    both, sound_only, none = [], [], 0
+    both, sound_only, none, skipped = [], [], 0, 0
     script = SCRIPT_OF.get(args.lang, "north")
     for r in rows:
+        if not entry_is_lexical(r["word"], r["glosses"]):
+            skipped += 1
+            continue
         sk = "".join(FA.skeleton(r["word"], script))
         if not (2 <= len(sk) <= 4):
             continue
@@ -147,20 +231,31 @@ def main() -> int:
         branch_words = words_of(" ".join(r["glosses"]))
         scored = []
         for c in hits:
-            shared = branch_words & ar_words.get(c, set())
-            scored.append((c, len(shared), sorted(shared)[:4]))
-        scored.sort(key=lambda x: -x[1])
+            # الشهادةُ المباشرةُ تُعَدُّ ثلاثًا والقرينةُ واحدة، فلا يعلو ما حولَ
+            # المعنى على ما هو المعنى
+            direct = branch_words & head.get(c, set())
+            near = (branch_words & gloss.get(c, set())) - direct
+            score = 3 * len(direct) + len(near)
+            scored.append((c, score, sorted(direct)[:4] or sorted(near)[:3], bool(direct)))
+        scored.sort(key=lambda x: (-x[1], len(x[0])))
         best = scored[0]
         row = {
             "branch": r["word"], "say": say(r["word"]), "skeleton": sk,
             "gloss": "; ".join(r["glosses"][:2])[:90],
-            "candidates_found": [c for c, _, _ in scored],
+            "candidates_found": [c for c, _, _, _ in scored],
             "best": best[0], "overlap": best[1], "shared": best[2],
+            "direct": best[3], "depth": len(sk),
+            "loan_suspect": looks_modern_loan(r["word"], best[2]),
         }
         (both if best[1] >= args.min_overlap else sound_only).append(row)
 
-    both.sort(key=lambda r: -r["overlap"])
-    print(f"مطابقةُ صوتٍ ومعنًى معًا: {len(both):,}")
+    # الشهادةُ المباشرةُ أوّلًا، ثمّ قوّةُ التقاطع، ثمّ الهيكلُ الثلاثيُّ قبلَ الثنائيِّ
+    # لأنّ الثلاثيَّ أضيقُ فاحتمالُ الصدفةِ فيه أقلّ
+    both.sort(key=lambda r: (r["loan_suspect"], not r["direct"], -r["overlap"], -r["depth"]))
+    direct = sum(1 for r in both if r["direct"] and not r["loan_suspect"])
+    loans = sum(1 for r in both if r["loan_suspect"])
+    print(f"مطابقةُ صوتٍ ومعنًى معًا: {len(both):,}  (بشهادةٍ مباشرةٍ نظيفة: {direct:,}"
+          f"، ومشتبَهٌ فيه قرضًا حديثًا: {loans:,})")
     print(f"مطابقةُ صوتٍ بلا تقاطعِ معنًى: {len(sound_only):,}")
     print(f"بلا مرشّحٍ موجودٍ في المعاجم: {none:,}\n")
 
@@ -179,7 +274,8 @@ def main() -> int:
         "المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.",
         "**الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.",
         "",
-        f"**مطابقةُ صوتٍ ومعنًى معًا: {len(both):,}** · مطابقةُ صوتٍ وحدَه: {len(sound_only):,}",
+        f"**مطابقةُ صوتٍ ومعنًى معًا: {len(both):,}**، منها **{direct:,}** بشهادةٍ",
+        f"مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: {len(sound_only):,}",
         "",
         "| كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |",
         "|---|---|---|---|---|---|",
@@ -188,7 +284,8 @@ def main() -> int:
         others = " · ".join(c for c in r["candidates_found"][1:6])
         lines.append(
             f"| `{r['branch']}` | {r['say']} | {r['gloss']} | **{r['best']}** | "
-            f"{r['overlap']}: {' '.join(r['shared'])} | {others or '-'} |"
+            f"{'قرضٌ حديثٌ؟' if r['loan_suspect'] else 'مباشر' if r['direct'] else 'قرينة'} {r['overlap']}: "
+            f"{' '.join(r['shared'])} | {others or '-'} |"
         )
     base.with_suffix(".md").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     print(f"كُتب: {base.with_suffix('.md').relative_to(ROOT).as_posix()}")

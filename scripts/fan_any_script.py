@@ -67,6 +67,47 @@ GREEK_FAN: dict[str, tuple[str, ...]] = {
 }
 GREEK_VOWELS = set("αειηουω")
 
+# ------------------------------------------------------- اللاتينيّةُ والجرمانيّةُ والسلتيّة
+# **بابُ الهاءِ هو المفتاحُ هنا:** الفروعُ الجرمانيّةُ تكتبُ h حيثُ العربيّةُ غينٌ أو
+# حاءٌ أو خاء، فـ huljan «يغطّي» تُقابِلُ غلف، وhamr «غِطاء» تُقابِلُ غمر. ولو
+# قُصِرَت h على الهاءِ وحدَها لأُغلِقَ البابُ على أوسعِ ما فيه.
+LATIN_FAN: dict[str, tuple[str, ...]] = {
+    "b": ("ب",), "c": ("ك", "ق", "ج"), "d": ("د", "ض", "ذ"), "f": ("ف", "ب"),
+    "g": ("ج", "غ", "ق", "ك"), "h": ("ه", "ح", "خ", "غ"), "j": ("ي", "ج"),
+    "k": ("ك", "ق"), "l": ("ل", "ر"), "m": ("م",), "n": ("ن",),
+    "p": ("ب", "ف"), "q": ("ق", "ك"), "r": ("ر", "ل"),
+    "s": ("س", "ش", "ص", "ز"), "t": ("ت", "ط", "ث"), "v": ("و", "ف", "ب"),
+    "w": ("و",), "x": ("ك",), "y": ("ي",), "z": ("ز", "ذ", "ص"),
+    # حروفُ الجرمانيّةِ القديمةِ وما يُكتَبُ بحرفَين
+    "þ": ("ث", "ت", "ط"), "ð": ("ذ", "د"), "ƿ": ("و",),
+    "TH": ("ث", "ت", "ط"), "CH": ("خ", "ح", "ك"), "SH": ("ش", "س"),
+    "GH": ("غ", "ج"), "KH": ("خ",), "PH": ("ف",), "SC": ("ش", "س"),
+    "CC": ("ق", "ك"), "LL": ("ل",), "FF": ("ف",), "DD": ("د", "ض"),
+}
+LATIN_VOWELS = set("aeiouáéíóúàèìòùâêîôûäëïöüāēīōūåæøœǣœ")
+LATIN_DIGRAPH = ("TH", "CH", "SH", "GH", "KH", "PH", "SC", "CC", "LL", "FF", "DD")
+
+# الفروعُ الجرمانيّةُ نقلَت أصواتَها نقلةً مطّردةً معروفة، فحرفُها h يقابِلُ القافَ
+# والكافَ عندَنا كما في horn وقرن، وهي بطاقةٌ صادرةٌ في المشروعِ أصلًا. فتُوسَّعُ
+# لها المروحةُ بهذا القدرِ وحدَه، ويبقى المعنى هو الحاكم.
+GERMANIC_FAN: dict[str, tuple[str, ...]] = dict(
+    LATIN_FAN,
+    h=("ه", "ح", "خ", "غ", "ق", "ك"),
+    t=("ت", "ط", "ث", "د"),
+    k=("ك", "ق", "ج"),
+    d=("د", "ض", "ذ", "ت"),
+)
+
+GOTHIC_FAN: dict[str, tuple[str, ...]] = {
+    "𐌱": ("ب",), "𐌲": ("ج", "غ", "ق"), "𐌳": ("د", "ض", "ذ"), "𐌵": ("ق", "ك"),
+    "𐌶": ("ز", "ذ"), "𐌷": ("ه", "ح", "خ", "غ"), "𐌸": ("ث", "ت", "ط"),
+    "𐌺": ("ك", "ق"), "𐌻": ("ل", "ر"), "𐌼": ("م",), "𐌽": ("ن",),
+    "𐌾": ("ي", "ج"), "𐍀": ("ب", "ف"), "𐍂": ("ر", "ل"),
+    "𐍃": ("س", "ش", "ص", "ز"), "𐍄": ("ت", "ط", "ث"), "𐍅": ("و",),
+    "𐍆": ("ف", "ب"), "𐍇": ("خ", "ك"), "𐍈": ("ح", "خ"),
+}
+GOTHIC_VOWELS = set("𐌰𐌴𐌹𐌿𐍉")
+
 _DIAC_HEB = dict.fromkeys(range(0x0591, 0x05C8))
 FINALS = str.maketrans("ךםןףץ", "כמנפצ")
 
@@ -90,6 +131,8 @@ def detect(text: str) -> str:
             return "coptic"
         if 0x0370 <= o <= 0x03FF or 0x1F00 <= o <= 0x1FFF:
             return "greek"
+    if 0x10330 <= ord(text[0]) <= 0x1034A if text else False:
+        return "gothic"
     if any(c in text for c in "ꜣꜥẖṯḏḳ"):
         return "egyptian"
     return "akkadian"
@@ -117,6 +160,32 @@ def skeleton(word: str, script: str | None = None) -> list[str]:
         base = unicodedata.normalize("NFD", w.lower())
         base = "".join(c for c in base if not unicodedata.combining(c))
         return [c for c in base if c in GREEK_FAN and c not in GREEK_VOWELS]
+
+    if script == "gothic":
+        return [c for c in w if c in GOTHIC_FAN and c not in GOTHIC_VOWELS]
+
+    if script in {"latin", "germanic"}:
+        # الصوائتُ تُطرَحُ والمقارنةُ على الهيكلِ الصامتيّ، والحرفانِ المزدوجانِ
+        # يُقرآنِ صوتًا واحدًا قبلَ أن يُقرأَ كلُّ حرفٍ وحدَه
+        base = unicodedata.normalize("NFD", w.lower())
+        base = "".join(c for c in base if not unicodedata.combining(c) or c in "̧")
+        base = base.replace("̧", "")
+        out, i = [], 0
+        while i < len(base):
+            two = base[i:i + 2].upper()
+            if two in LATIN_DIGRAPH:
+                out.append(two)
+                i += 2
+                continue
+            c = base[i]
+            if c in LATIN_VOWELS:
+                i += 1
+                continue
+            if c in LATIN_FAN:
+                out.append(c)
+            i += 1
+        # الإدغامُ في الكتابةِ لا يُضاعِفُ الصامتَ في الهيكل
+        return [c for i, c in enumerate(out) if i == 0 or c != out[i - 1]]
 
     if script == "egyptian":
         out, i = [], 0
@@ -146,6 +215,7 @@ def skeleton(word: str, script: str | None = None) -> list[str]:
 FANS = {
     "north": NORTH_FAN, "coptic": COPTIC_FAN, "greek": GREEK_FAN,
     "egyptian": EGYPTIAN_FAN, "akkadian": AKKADIAN_FAN,
+    "latin": LATIN_FAN, "gothic": GOTHIC_FAN, "germanic": GERMANIC_FAN,
 }
 
 
