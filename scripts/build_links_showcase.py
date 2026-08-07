@@ -207,15 +207,19 @@ def main() -> int:
         entry = langs.setdefault(lang, {
             "key": lang, "ar": NAMES[lang][0], "en": NAMES[lang][1],
             "distance": DISTANCE.get(lang, 3),
-            "root": 0, "nucleus": 0, "pool": [], "examples": [],
+            "root": 0, "nucleus": 0, "floor": 0, "pool": [], "examples": [],
         })
         for raw in C.CARD_SPLIT.split(text)[1:]:
             block = C.bare(raw)
             degrees = C.scan_card(block)
             if not degrees:
                 continue
+            # يُعَدُّ كما يعدُّ `count_links.py` بالضبط: كلُّ درجةٍ صادرةٍ تُحسَبُ
+            # في طبقتِها، فالبطاقةُ الواحدةُ قد تحملُ درجتَينِ وهي صلتان. وإلّا
+            # اختلفَ رقمُ الصفحةِ عن الرقمِ القانونيِّ وصارَ في المشروعِ عدّادان.
+            for d in degrees:
+                entry[C.layer(d)] += 1
             layer = "nucleus" if any("NUCLEUS" in d for d in degrees) else "root"
-            entry[layer] += 1
 
             head = block.split("\n", 1)[0]
             mh = RX_HEAD.match(head)

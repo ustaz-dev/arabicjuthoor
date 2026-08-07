@@ -1170,6 +1170,137 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
 
 <main id="main-content">
 
+<!-- ============ THE RESULT: the claim, measured, above everything ============ -->
+<style>
+#hp-result { max-width: 1180px; margin: 30px auto 6px; padding: 0 28px; }
+.hp-card { background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 14px; padding: 22px 24px; }
+.hp-card + .hp-card { margin-top: 14px; }
+.hp-eyebrow { font-size: 12px; letter-spacing: .09em; text-transform: uppercase;
+  color: var(--accent-strong); font-weight: 700; }
+.hp-h { font-size: clamp(21px, 3vw, 29px); font-weight: 800; margin: 8px 0 10px;
+  letter-spacing: -.01em; line-height: 1.28; }
+.hp-lede { color: var(--text-2); margin: 0; font-size: 16.5px; }
+.hp-lede b { color: var(--text); }
+.hp-kpis { display: grid; gap: 12px; margin: 18px 0 2px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.hp-kpi { background: var(--bg-2); border: 1px solid var(--border);
+  border-radius: 11px; padding: 13px 15px; }
+.hp-kpi .n { font-size: 27px; font-weight: 800; line-height: 1.1;
+  font-variant-numeric: tabular-nums; }
+.hp-kpi .l { font-size: 12.5px; color: var(--text-3); margin-top: 3px; }
+.hp-kpi.root .n { color: var(--transform, #2255a4); }
+.hp-kpi.nuc .n { color: var(--accent-strong); }
+.hp-grad-row { display: grid; gap: 12px; align-items: center; padding: 6px 0;
+  grid-template-columns: minmax(112px, 1.15fr) 1fr minmax(52px, auto); }
+.hp-grad-name { font-size: 14.5px; }
+.hp-grad-name small { display: block; font-size: 12px; color: var(--text-3); }
+.hp-bar { height: 11px; border-radius: 6px; background: var(--bg-2);
+  border: 1px solid var(--border); overflow: hidden; display: flex; }
+.hp-bar i { display: block; height: 100%; }
+.hp-bar .r { background: var(--transform, #2255a4); opacity: .78; }
+.hp-bar .n { background: var(--accent); }
+.hp-pct { text-align: end; font-weight: 700; font-variant-numeric: tabular-nums;
+  color: var(--accent-strong); font-size: 14.5px; }
+.hp-gh { display: flex; align-items: baseline; gap: 10px; margin: 16px 0 4px;
+  padding-bottom: 6px; border-bottom: 1px solid var(--border);
+  font-size: 12.5px; letter-spacing: .05em; text-transform: uppercase;
+  font-weight: 700; color: var(--text-3); }
+.hp-gh:first-child { margin-top: 2px; }
+.hp-gh b { margin-inline-start: auto; text-transform: none; letter-spacing: 0;
+  font-size: 15px; color: var(--accent-strong); font-variant-numeric: tabular-nums; }
+.hp-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 14px;
+  font-size: 12.5px; color: var(--text-3); }
+.hp-legend span::before { content: ""; display: inline-block; width: 11px;
+  height: 11px; border-radius: 3px; margin-inline-end: 7px; vertical-align: -1px; }
+.hp-legend .r::before { background: var(--transform, #2255a4); opacity: .78; }
+.hp-legend .n::before { background: var(--accent); }
+.hp-tbl-wrap { overflow-x: auto; margin-top: 6px; }
+.hp-tbl { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+.hp-tbl th { text-align: start; font-size: 11.5px; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--text-3); font-weight: 700;
+  padding: 8px 12px; border-bottom: 1px solid var(--border); }
+.hp-tbl td { padding: 10px 12px; border-bottom: 1px solid var(--border);
+  vertical-align: top; }
+.hp-tbl tr:last-child td { border-bottom: 0; }
+.hp-w { font-weight: 600; font-size: 16px; }
+.hp-w small { display: block; font-weight: 400; font-size: 12.5px;
+  color: var(--text-3); font-family: 'Inter', system-ui, sans-serif;
+  direction: ltr; unicode-bidi: isolate; }
+.hp-ar { font-family: 'Amiri', serif; font-size: 20px; color: var(--accent-strong);
+  white-space: nowrap; }
+.hp-src { font-family: 'Amiri', serif; color: var(--text-2); }
+.hp-src cite { display: block; font-style: normal; font-size: 12px;
+  color: var(--text-3); font-family: 'Inter', system-ui, sans-serif; margin-top: 3px; }
+.hp-more { display: inline-block; margin-top: 14px; font-weight: 700;
+  color: var(--accent-strong); text-decoration: none; }
+.hp-note { font-size: 12.5px; color: var(--text-3); margin: 12px 0 0; }
+@media (max-width: 640px) {
+  #hp-result { padding: 0 16px; }
+  .hp-card { padding: 17px 15px; }
+  .hp-grad-row { grid-template-columns: minmax(88px, 1fr) 1fr auto; gap: 8px; }
+}
+</style>
+
+<div id="hp-result">
+  <div class="hp-card">
+    <div class="hp-eyebrow"><span class="lang-en">The result, measured</span><span class="lang-ar">النتيجةُ مَقيسة</span></div>
+    <h2 class="hp-h">
+      <span class="lang-en">The farther the branch, the older the layer of Arabic that survives in it</span>
+      <span class="lang-ar ar-display">كُلَّما بَعُدَ الفَرعُ، بَقِيَت فيه الطَّبَقةُ الأقدَمُ من العَربيّة</span>
+    </h2>
+    <p class="hp-lede lang-en">The triliteral root is a later stage of Arabic, so it is what a near branch can still return.
+      The <b>binary nucleus</b> of two consonants is older, so it is what remains once a branch has split away.
+      The bars below are not a drawing of that claim, they are the measured distribution of <b id="hp-n1">2,519</b> issued
+      links across <b id="hp-n2">15</b> tongues, every one a word joined to an Arabic word and quoted from a named classical
+      lexicon. The sisters answer at the root, the far branches answer at the nucleus, and the Egyptian branch,
+      which split earliest of all, answers almost entirely there.</p>
+    <p class="hp-lede lang-ar">الجَذرُ الثُّلاثيُّ طَورٌ مُتَأخِّرٌ من العَربيّة، فهو ما يَقدِرُ الفَرعُ القَريبُ أن يَرُدَّه.
+      و<b>النَّواةُ الثُّنائيّةُ</b> ذاتُ الحَرفَينِ أقدَمُ منه، فهي ما يَبقى بعدَ أن يَنشَقَّ الفَرعُ ويَبعُد. والأعمِدةُ أدناهُ ليسَت
+      رَسمًا لهذه الدَّعوى، بل هي التَّوزُّعُ المَقيسُ لـ<b class="hp-n1">2,519</b> صِلةً صادِرةً في <b class="hp-n2">15</b> لِسانًا،
+      كُلُّ صِلةٍ كَلِمةٌ وُصِلَت بكَلِمةٍ عَرَبيّةٍ ومَعَها نَصُّ مُعجَمٍ مُسَمًّى. فالأخَواتُ تُجيبُ عندَ الجَذر، والفُروعُ البَعيدةُ تُجيبُ
+      عندَ النَّواة، والفَرعُ المِصريُّ وهو أبكَرُها انشِقاقًا يُجيبُ عندَها كُلَّها تَقريبًا.</p>
+
+    <div class="hp-kpis">
+      <div class="hp-kpi"><div class="n" id="hp-k-links">2,519</div><div class="l"><span class="lang-en">links to the Arabic tongue</span><span class="lang-ar">صِلةً باللِّسانِ العَرَبيّ</span></div></div>
+      <div class="hp-kpi root"><div class="n" id="hp-k-root">1,454</div><div class="l"><span class="lang-en">at the triliteral root</span><span class="lang-ar">عندَ الجَذرِ الثُّلاثيّ</span></div></div>
+      <div class="hp-kpi nuc"><div class="n" id="hp-k-nuc">1,060</div><div class="l"><span class="lang-en">at the binary nucleus</span><span class="lang-ar">عندَ النَّواةِ الثُّنائيّة</span></div></div>
+      <div class="hp-kpi"><div class="n" id="hp-k-langs">15</div><div class="l"><span class="lang-en">tongues carrying links</span><span class="lang-ar">لِسانًا فيه صِلات</span></div></div>
+    </div>
+
+    <div id="hp-grad" style="margin-top:14px;"></div>
+    <div class="hp-legend">
+      <span class="r"><span class="lang-en">Triliteral root, the later stage</span><span class="lang-ar">الجَذرُ الثُّلاثيّ، الطَّورُ المُتَأخِّر</span></span>
+      <span class="n"><span class="lang-en">Binary nucleus, the older stage</span><span class="lang-ar">النَّواةُ الثُّنائيّة، الطَّورُ الأقدَم</span></span>
+    </div>
+  </div>
+
+  <div class="hp-card">
+    <div class="hp-eyebrow"><span class="lang-en">The evidence itself, word by word</span><span class="lang-ar">الدَّليلُ نَفسُه، كَلِمةً كَلِمة</span></div>
+    <h2 class="hp-h" style="font-size:clamp(18px,2.3vw,23px);">
+      <span class="lang-en">One word from each tongue, from the nearest sister to the farthest branch</span>
+      <span class="lang-ar ar-display">كَلِمةٌ من كُلِّ لِسان، من أقرَبِ الأخَواتِ إلى أبعَدِ الفُروع</span>
+    </h2>
+    <div class="hp-tbl-wrap">
+      <table class="hp-tbl"><thead><tr>
+        <th><span class="lang-en">tongue</span><span class="lang-ar">اللِّسان</span></th>
+        <th><span class="lang-en">word</span><span class="lang-ar">الكَلِمة</span></th>
+        <th><span class="lang-en">meaning</span><span class="lang-ar">مَعناها</span></th>
+        <th><span class="lang-en">Arabic</span><span class="lang-ar">العَرَبيّ</span></th>
+        <th><span class="lang-en">quoted from the lexicon</span><span class="lang-ar">نَصُّ المُعجَم</span></th>
+      </tr></thead><tbody id="hp-rows"></tbody></table>
+    </div>
+    <a class="hp-more" href="links.html">
+      <span class="lang-en">See every link, tongue by tongue →</span>
+      <span class="lang-ar">اطَّلِعْ على كُلِّ صِلةٍ، لِسانًا لِسانًا ←</span>
+    </a>
+    <p class="hp-note">
+      <span class="lang-en">Exploration layer. Figures come from the repository itself and are recomputed on every deploy; nothing here is typed by hand.</span>
+      <span class="lang-ar">طَبَقةُ استِكشاف. الأرقامُ من المُستَودَعِ نَفسِه وتُعادُ حِسابًا عندَ كُلِّ نَشر، ولا شَيءَ منها مَكتوبٌ باليَد.</span>
+    </p>
+  </div>
+</div>
+
 <!-- ====================== OVERVIEW ====================== -->
 <section id="overview">
   <div class="section-eyebrow"><span class="lang-en">01 · Introductory note</span><span class="lang-ar">1 · ورقةٌ تَعريفيّة</span></div>
@@ -2600,23 +2731,108 @@ const SUPABASE_TABLE = 'messages';
 })();
 </script>
 
-<!-- لافتةُ الصلات: أرقامُها من البطاقاتِ نفسِها، فلا تبيتُ في الصفحة -->
+<!-- صدرُ النتيجةِ واللافتة: أرقامُهما من البطاقاتِ نفسِها، فلا تبيتُ في الصفحة -->
 <script>
 (function () {
+  var N = function (x) { return Number(x || 0).toLocaleString('en-US'); };
   function put(sel, text) {
     document.querySelectorAll(sel).forEach(function (el) { el.textContent = text; });
   }
-  fetch('data/links-showcase.json', { cache: 'no-store' })
-    .then(function (r) { return r.json(); })
-    .then(function (d) {
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+
+  // العدُّ من `count_links.py` وهو التعريفُ الوحيدُ للصلةِ في المشروع، والمعرضُ
+  // يأتي بالأسماءِ والأمثلة. فلا يكونُ في الصفحةِ عدّادانِ يختلفان.
+  Promise.all([
+    fetch('data/links-showcase.json', { cache: 'no-store' }).then(function (r) { return r.json(); }),
+    fetch('data/link-count.json', { cache: 'no-store' }).then(function (r) { return r.json(); })
+      .catch(function () { return null; })
+  ])
+    .then(function (both) {
+      var d = both[0], canon = both[1];
       var t = d.totals, by = {};
       d.languages.forEach(function (e) { by[e.key] = e; });
-      put('#lb-total, .lb-total', (t.root + t.nucleus).toLocaleString('en-US'));
+      if (canon && canon.cards) {
+        t = { root: canon.cards.root, nucleus: canon.cards.nucleus, languages: t.languages };
+        Object.keys(canon.by_language || {}).forEach(function (k) {
+          var c = (canon.by_language[k] || {}).cards || {};
+          if (!by[k]) return;
+          by[k].root = c.root || 0;
+          by[k].nucleus = c.nucleus || 0;
+          by[k].total = by[k].root + by[k].nucleus;
+          by[k].nucleus_share = by[k].total ? (100 * by[k].nucleus / by[k].total) : 0;
+        });
+      }
+      var total = t.root + t.nucleus;
+
+      put('#hp-k-links', N(total));
+      put('#hp-k-root', N(t.root));
+      put('#hp-k-nuc', N(t.nucleus));
+      put('#hp-k-langs', String(t.languages));
+      put('#hp-n1, .hp-n1', N(total));
+      put('#hp-n2, .hp-n2', String(t.languages));
+      put('#lb-total, .lb-total', N(total));
       put('#lb-langs, .lb-langs', String(t.languages));
       if (by.coptic) put('#lb-cop, .lb-cop', Math.round(by.coptic.nucleus_share) + '%');
       if (by.egyptian) put('#lb-egy, .lb-egy', Math.round(by.egyptian.nucleus_share) + '%');
+
+      // **التدرُّجُ مجموعًا بحسبِ بُعدِ الفرع، لا بحسبِ الرقمِ الخارج.** فالترتيبُ
+      // بالمقدارِ المقيسِ يُرتِّبُ النتيجةَ لتوافقَ الدعوى، والترتيبُ بالبعدِ يجعلُ
+      // الدعوى تُختبَرُ: البعدُ مستقلٌّ عنّا، والنسبةُ هي التي تُجيبُ.
+      var GROUPS = [
+        { d: 1, en: 'The near Semitic sisters', ar: 'الأخَواتُ السامِيّةُ القَريبة' },
+        { d: 2, en: 'The Egyptian branch, split deeper', ar: 'الفَرعُ المِصريُّ، انشَقَّ أبكَر' },
+        { d: 3, en: 'The distant branches', ar: 'الفُروعُ البَعيدة' }
+      ];
+      var shown = d.languages.filter(function (e) { return e.total > 0; });
+      var grad = GROUPS.map(function (g) {
+        var mem = shown.filter(function (e) {
+          return g.d === 3 ? e.distance >= 3 : e.distance === g.d;
+        }).sort(function (a, b) { return b.total - a.total; });
+        if (!mem.length) return '';
+        var R = 0, U = 0;
+        mem.forEach(function (e) { R += e.root; U += e.nucleus; });
+        var gp = (R + U) ? Math.round(100 * U / (R + U)) : 0;
+        var head = '<div class="hp-gh"><span class="lang-en">' + esc(g.en) + '</span>'
+          + '<span class="lang-ar">' + esc(g.ar) + '</span>'
+          + '<b>' + gp + '%<span class="lang-en"> nucleus</span>'
+          + '<span class="lang-ar"> نواة</span></b></div>';
+        return head + mem.map(function (e) {
+          var nuc = e.nucleus_share, root = 100 - nuc;
+          return '<div class="hp-grad-row">'
+            + '<div class="hp-grad-name"><span class="lang-en">' + esc(e.en) + '</span>'
+            + '<span class="lang-ar">' + esc(e.ar) + '</span>'
+            + '<small>' + N(e.total) + '<span class="lang-en"> links</span>'
+            + '<span class="lang-ar"> صلة</span></small></div>'
+            + '<div class="hp-bar"><i class="r" style="width:' + root + '%"></i>'
+            + '<i class="n" style="width:' + nuc + '%"></i></div>'
+            + '<div class="hp-pct">' + Math.round(nuc) + '%</div></div>';
+        }).join('');
+      }).join('');
+      var el = document.getElementById('hp-grad');
+      if (el) el.innerHTML = grad;
+
+      // مثالٌ واحدٌ من كلِّ لسان، وأولاه ما حملَ نصًّا معجميًّا مسمًّى
+      var rows = shown.map(function (e) {
+        var ex = (e.examples || []).filter(function (x) { return x.quote && x.lexicon; })[0]
+              || (e.examples || [])[0];
+        if (!ex) return '';
+        return '<tr><td><span class="lang-en">' + esc(e.en) + '</span>'
+          + '<span class="lang-ar">' + esc(e.ar) + '</span></td>'
+          + '<td class="hp-w">' + esc(ex.word)
+          + (ex.say ? '<small>' + esc(ex.say) + '</small>' : '') + '</td>'
+          + '<td>' + esc(ex.sense) + '</td>'
+          + '<td class="hp-ar">' + esc(ex.arabic) + '</td>'
+          + '<td class="hp-src">' + (ex.quote ? '«' + esc(ex.quote) + '»' : '')
+          + (ex.lexicon ? '<cite>' + esc(ex.lexicon) + '</cite>' : '') + '</td></tr>';
+      }).join('');
+      var tb = document.getElementById('hp-rows');
+      if (tb) tb.innerHTML = rows;
     })
-    .catch(function () { /* اللافتةُ تبقى بأرقامِ آخرِ بناءٍ إن تعذّرَ الجلب */ });
+    .catch(function () { /* يبقى صدرُ الصفحةِ بأرقامِ آخرِ بناءٍ إن تعذّرَ الجلب */ });
 })();
 </script>
 
