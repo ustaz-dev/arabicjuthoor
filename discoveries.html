@@ -80,7 +80,8 @@ html[data-lang="ar"] .lang-en { display: none !important; }
 .brand { font-weight: 700; color: var(--text); text-decoration: none; font-size: 16px; }
 .brand .accent { color: var(--accent-strong); }
 .crumb { color: var(--text-3); font-size: 14px; flex: 1; }
-html[data-lang="ar"] .topbar-inner { flex-direction: row-reverse; }
+/* لا row-reverse مع direction: rtl، فهما انعكاسان يُلغي أحدُهما الآخَر
+   فتعودُ العلامةُ إلى اليسار في الوضع العربيّ. الاتّجاهُ وحدَه يكفي. */
 .actions { display: flex; align-items: center; gap: 8px; }
 .lang-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
 .lang-toggle button { background: var(--bg-2); border: 0; cursor: pointer; padding: 6px 12px; font-size: 13px; color: var(--text-3); }
@@ -170,6 +171,11 @@ table.discoveries tr.detail td { background: var(--bg-2); padding: 14px 18px 18p
     <span class="crumb">
       <span class="lang-en">› Discoveries</span>
       <span class="lang-ar">› الاكتِشافات</span>
+      &nbsp;·&nbsp;
+      <a href="links.html" style="color: var(--accent-strong); text-decoration: none;">
+        <span class="lang-en">Links to Arabic ↗</span>
+        <span class="lang-ar">الصِّلات بالعربيّة ↗</span>
+      </a>
     </span>
     <div class="actions">
       <div class="lang-toggle" role="group">
@@ -559,7 +565,7 @@ function render() {
       const oc = scoreClass(r.pass2_score);
       pass2Cell = `<span class="score-cell ${oc}" style="font-size:13px;">${r.pass2_score.toFixed(2)}</span>`;
     } else {
-      pass2Cell = '<span style="color:var(--text-3);font-size:12px;">—</span>';
+      pass2Cell = '<span style="color:var(--text-3);font-size:12px;">·</span>';
     }
     const arPron = r.ar_pron ? `<span class="ar-pron">${escapeHtml(r.ar_pron)}</span>` : '';
     const tgtPron = (r.tgt_pron && r.tgt_pron !== r.tgt) ? `<span class="tgt-pron">${escapeHtml(r.tgt_pron)}</span>` : '';

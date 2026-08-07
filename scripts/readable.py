@@ -59,6 +59,12 @@ COPTIC = {
     "ϩ": "h", "ϫ": "j", "ϭ": "č", "ϯ": "ti",
 }
 
+GOTHIC = dict(zip(
+    "𐌰𐌱𐌲𐌳𐌴𐌵𐌶𐌷𐌸𐌹𐌺𐌻𐌼𐌽𐌾𐌿𐍀𐍁𐍂𐍃𐍄𐍅𐍆𐍇𐍈𐍉𐍊",
+    ["a", "b", "g", "d", "e", "q", "z", "h", "th", "i", "k", "l", "m", "n",
+     "j", "u", "p", "", "r", "s", "t", "w", "f", "kh", "hw", "o", ""],
+))
+
 PHOENICIAN = dict(zip(
     "𐤀𐤁𐤂𐤃𐤄𐤅𐤆𐤇𐤈𐤉𐤊𐤋𐤌𐤍𐤎𐤏𐤐𐤑𐤒𐤓𐤔𐤕",
     ["ʾ", "b", "g", "d", "h", "w", "z", "ḥ", "ṭ", "y", "k", "l",
@@ -71,12 +77,17 @@ def _script_of(text: str) -> str:
         o = ord(ch)
         if 0x0590 <= o <= 0x05FF:
             return "north"
-        if 0x0370 <= o <= 0x03FF or 0x1F00 <= o <= 0x1FFF:
-            return "greek"
+        # القبطيّةُ تُسبَقُ في الفحصِ لأنّ سبعةً من حروفِها الديموطيّةِ الأصيلة
+        # (ϣ ϥ ϧ ϩ ϫ ϭ ϯ) تسكنُ كتلةَ اليونانيّةِ نفسَها، فكانت تُقرَأُ يونانيّةً
+        # فيرجعُ الحرفُ كما هو ويبقى اللفظُ محجوبًا عن القارئ
         if 0x2C80 <= o <= 0x2CFF or 0x03E2 <= o <= 0x03EF:
             return "coptic"
+        if 0x0370 <= o <= 0x03FF or 0x1F00 <= o <= 0x1FFF:
+            return "greek"
         if 0x10900 <= o <= 0x1091F:
             return "phoenician"
+        if 0x10330 <= o <= 0x1034A:
+            return "gothic"
     return "latin"
 
 
@@ -111,6 +122,9 @@ def say(word: str, script: str | None = None, with_arabic: bool = True) -> str:
 
     if script == "phoenician":
         return "".join(PHOENICIAN.get(c, c) for c in w)
+
+    if script == "gothic":
+        return "".join(GOTHIC.get(c, c) for c in w)
 
     return w
 

@@ -1,0 +1,1291 @@
+{
+ "generated_by": "scripts/build_links_showcase.py",
+ "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
+ "totals": {
+  "root": 1129,
+  "nucleus": 1060,
+  "languages": 15
+ },
+ "languages": [
+  {
+   "key": "aramaic",
+   "ar": "الآراميّة",
+   "en": "Aramaic",
+   "distance": 1,
+   "root": 541,
+   "nucleus": 391,
+   "examples": [
+    {
+     "word": "עיבא",
+     "say": "ʿybʾ",
+     "sense": "سحابة ممطرة",
+     "arabic": "عبب",
+     "quote": "واليعبوب: السحاب",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "פומא",
+     "say": "p/fwmʾ",
+     "sense": "فم، فتحة",
+     "arabic": "فوه",
+     "quote": "الفوه أصل قولنا فم، لأن الجمع أفواه",
+     "lexicon": "المحكم",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "בכא",
+     "say": "bkʾ",
+     "sense": "to weep, to mourn",
+     "arabic": "بكي",
+     "quote": "",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "חמא",
+     "say": "hmʾ",
+     "sense": "to brood",
+     "arabic": "حمي",
+     "quote": "",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "בטל",
+     "say": "btl",
+     "sense": "to cease؛ to make cease, stop, cancel؛ to ravish, violate",
+     "arabic": "بطل",
+     "quote": "ذهب ضياعا وخسرا",
+     "lexicon": "المحكم",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "מלח",
+     "say": "mlh",
+     "sense": "to salt؛ salt",
+     "arabic": "ملح",
+     "quote": "الملح معروف",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "קדם",
+     "say": "qdm",
+     "sense": "to precede, to come before؛ before, in front of",
+     "arabic": "قدم",
+     "quote": "القدم والقدمة السابقة",
+     "lexicon": "العين",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "פקע",
+     "say": "p/fqʿ",
+     "sense": "to split, crack, burst؛ to break",
+     "arabic": "فقع",
+     "quote": "رقة ظاهر الشيء المتكور أو لمعانه مع خلو جوفه",
+     "lexicon": "المحكم",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 932,
+   "nucleus_share": 42.0
+  },
+  {
+   "key": "hebrew",
+   "ar": "العبريّة",
+   "en": "Hebrew",
+   "distance": 1,
+   "root": 398,
+   "nucleus": 329,
+   "examples": [
+    {
+     "word": "קנה",
+     "say": "kaná",
+     "sense": "to buy, to purchase",
+     "arabic": "قني",
+     "quote": "القنية بالكسر، والضم: ما اكتسب",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "זנה",
+     "say": "znh",
+     "sense": "to lust, fornicate, commit adultery",
+     "arabic": "زني",
+     "quote": "",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "אפרוח",
+     "say": "ʾp/frwh",
+     "sense": "chick (a young bird), especially one that is independent from its hatching",
+     "arabic": "فرخ",
+     "quote": "",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "קריאה",
+     "say": "qryʾh",
+     "sense": "reading (the process of interpreting written language)",
+     "arabic": "قرأ",
+     "quote": "",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "פשר",
+     "say": "p/fshr",
+     "sense": "A solution, an explanation, an interpretation",
+     "arabic": "بت",
+     "quote": "القطع والانفصال",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "עופר",
+     "say": "ʿwp/fr",
+     "sense": "fawn: the young of a deer or a gazelle",
+     "arabic": "بب",
+     "quote": "الانفتاح والمنفذ",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "ביכר",
+     "say": "bykr",
+     "sense": "To give birth for the first time",
+     "arabic": "بج",
+     "quote": "التفتق والتفجر الرخو",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "קדם",
+     "say": "qdm",
+     "sense": "front",
+     "arabic": "قدم",
+     "quote": "سبق الشيء نافذا إلى الأمام بقوة أو حدة",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 727,
+   "nucleus_share": 45.3
+  },
+  {
+   "key": "akkadian",
+   "ar": "الأكّاديّة",
+   "en": "Akkadian",
+   "distance": 1,
+   "root": 69,
+   "nucleus": 18,
+   "examples": [
+    {
+     "word": "idu",
+     "say": "",
+     "sense": "الذراع والجانب",
+     "arabic": "يد",
+     "quote": "الامتداد بقوة للتمكين أو الضغط",
+     "lexicon": "المحكم",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "mû",
+     "say": "mu",
+     "sense": "الماء",
+     "arabic": "مه",
+     "quote": "ضم ممسك يجري نفسه فيخفت",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "kakkabu",
+     "say": "",
+     "sense": "الكوكب والنجم",
+     "arabic": "كوكب",
+     "quote": "لمعان الشيء المتجمع أو المتكتل",
+     "lexicon": "المحكم",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "nāru",
+     "say": "naru",
+     "sense": "النهر والقناة",
+     "arabic": "نه",
+     "quote": "فراغ يتخلل الشيء",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "īnu",
+     "say": "inu",
+     "sense": "العين",
+     "arabic": "عين",
+     "quote": "حاسة الرؤية، وهى مؤنثة، والجمع أعين وعيون وأعيان",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "uznu",
+     "say": "",
+     "sense": "الأذن",
+     "arabic": "أذن",
+     "quote": "مرور لطيف من منفذ خلال أثناء مرورا له أثر قوي",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "šārtu",
+     "say": "shartu",
+     "sense": "الشعرة والشعر",
+     "arabic": "شعر",
+     "quote": "دقاق كثيرة تنفذ من البدن أو الأرض بامتداد",
+     "lexicon": "العين",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "libbu",
+     "say": "",
+     "sense": "القلب والداخل",
+     "arabic": "قلب",
+     "quote": "لب كل شيء، ولبابه: خالصه وخياره",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 87,
+   "nucleus_share": 20.7
+  },
+  {
+   "key": "phoenician-punic-scout",
+   "ar": "الفينيقيّة",
+   "en": "Phoenician",
+   "distance": 1,
+   "root": 15,
+   "nucleus": 1,
+   "examples": [
+    {
+     "word": "𐤁𐤍",
+     "say": "bn",
+     "sense": "son",
+     "arabic": "الولد",
+     "quote": "والابن الولد ولامه في الأصل منقلبة عن واو عند بعضهم",
+     "lexicon": "المحكم",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "qbr",
+     "say": "",
+     "sense": "tomb",
+     "arabic": "قبر",
+     "quote": "تجوف دائم أو ممتد يخفى فيه ما يدخله",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "tḥt",
+     "say": "tht",
+     "sense": "underneath, under",
+     "arabic": "تحت",
+     "quote": "ت ح تفي الحديث: \" حتى تهلك الوعول وتظهر التحوت \" أي السفلة",
+     "lexicon": "أساس البلاغة",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐤊𐤍",
+     "say": "kn",
+     "sense": "كان وصار، فعل الكينونة في الفينيقية والبونية",
+     "arabic": "كون",
+     "quote": "الكون: الحدث يكون بين الناس، ويكون مصدرا من كان يكون",
+     "lexicon": "كتاب العين",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "rgz",
+     "say": "",
+     "sense": "to disturb",
+     "arabic": "رجز",
+     "quote": "ارتعاد عند النهوض - أو الحمل - بسبب الثقل العظيم",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐤁𐤕",
+     "say": "bt",
+     "sense": "بيت",
+     "arabic": "بيت",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐤇𐤋𐤁",
+     "say": "hlb",
+     "sense": "milk",
+     "arabic": "حلب",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐤔𐤋𐤌",
+     "say": "shlm",
+     "sense": "peace",
+     "arabic": "سلم",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 16,
+   "nucleus_share": 6.2
+  },
+  {
+   "key": "punic",
+   "ar": "البونيّة",
+   "en": "Punic",
+   "distance": 1,
+   "root": 10,
+   "nucleus": 0,
+   "examples": [
+    {
+     "word": "ʿbd",
+     "say": "",
+     "sense": "slave, servant",
+     "arabic": "عبد",
+     "quote": "حصر شديد للشيء يجعله رقيقا رخوا ناعما غير صلب",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "lbn",
+     "say": "",
+     "sense": "white",
+     "arabic": "لبن",
+     "quote": "احتواء الباطن على لطيف يخرج ثم يتماسك أو يظهر",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "tyn",
+     "say": "",
+     "sense": "fig",
+     "arabic": "تين",
+     "quote": "وجود أشياء دقيقة في أثناء شيء رخو لطيف",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐤁𐤕",
+     "say": "bt",
+     "sense": "house",
+     "arabic": "بيت",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐤇𐤋𐤁",
+     "say": "hlb",
+     "sense": "milk",
+     "arabic": "حلب",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐤔𐤋𐤌",
+     "say": "shlm",
+     "sense": "peace",
+     "arabic": "سلم",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐤔𐤌𐤔",
+     "say": "shmsh",
+     "sense": "sun",
+     "arabic": "شمس",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐤊𐤋𐤁",
+     "say": "klb",
+     "sense": "dog",
+     "arabic": "كلب",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 10,
+   "nucleus_share": 0.0
+  },
+  {
+   "key": "coptic",
+   "ar": "القبطيّة",
+   "en": "Coptic",
+   "distance": 2,
+   "root": 25,
+   "nucleus": 160,
+   "examples": [
+    {
+     "word": "ϣⲓⲕⲉ",
+     "say": "shike",
+     "sense": "dig",
+     "arabic": "شق",
+     "quote": "الشق والحفر",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "ϩⲟⲙⲉ",
+     "say": "home",
+     "sense": "cup",
+     "arabic": "حم",
+     "quote": "الحمل والاحتواء",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "ϫⲉⲗⲓ",
+     "say": "jeli",
+     "sense": "net",
+     "arabic": "جل",
+     "quote": "الجذب والجلب",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "ⲁϧⲱⲓⲣⲓ",
+     "say": "akhoiri",
+     "sense": "asp",
+     "arabic": "خر",
+     "quote": "النفاذ والخرق",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "ⲥⲁⲕⲃⲓ",
+     "say": "sakbi",
+     "sense": "يسكب ماء في طقس",
+     "arabic": "سكب",
+     "quote": "السكب: صب الماء",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "ϫⲱⲱⲃⲉ",
+     "say": "joobe",
+     "sense": "يجتاز، وغير قابل للاجتياز",
+     "arabic": "جوب",
+     "quote": "جبت البلاد: قطعتها",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "ⲛⲉϩⲡⲉ",
+     "say": "nehpe",
+     "sense": "ينوح، نياحة",
+     "arabic": "نحب",
+     "quote": "النحب والنحيب: رفع الصوت بالبكاء",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "ⲃⲁϩⲁⲗ",
+     "say": "bahal",
+     "sense": "the god Baal",
+     "arabic": "بعل",
+     "quote": "الرب والصاحب، واسم المعبود",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 185,
+   "nucleus_share": 86.5
+  },
+  {
+   "key": "egyptian",
+   "ar": "المصريّة القديمة",
+   "en": "Ancient Egyptian",
+   "distance": 2,
+   "root": 21,
+   "nucleus": 101,
+   "examples": [
+    {
+     "word": "ḫf",
+     "say": "khf",
+     "sense": "to see; to perceive",
+     "arabic": "خفا",
+     "quote": "خفا البرق يخفو خفوا: لمع",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "sn.w",
+     "say": "",
+     "sense": "two",
+     "arabic": "ثن",
+     "quote": "التبطن والكثرة في الداخل",
+     "lexicon": "الصحاح",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "nf",
+     "say": "",
+     "sense": "breath",
+     "arabic": "نف",
+     "quote": "النفس وجريان الهواء من الجسد",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "ḫr",
+     "say": "khr",
+     "sense": "to fall; to fell",
+     "arabic": "خر",
+     "quote": "السقوط والانخفاض",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "ntf",
+     "say": "",
+     "sense": "يرش، يبلل",
+     "arabic": "نطف",
+     "quote": "النطف: الصب",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "brq",
+     "say": "",
+     "sense": "to sparkle",
+     "arabic": "برق",
+     "quote": "برق السيف: تلألأ",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "brk",
+     "say": "",
+     "sense": "to bow; kneel; bless",
+     "arabic": "برك",
+     "quote": "أناخ ولزم، وبارك ودعا بالبركة",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "btk",
+     "say": "",
+     "sense": "to slaughter (enemies)",
+     "arabic": "بتك",
+     "quote": "بتكه: قطعه",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 122,
+   "nucleus_share": 82.8
+  },
+  {
+   "key": "old-latin",
+   "ar": "اللاتينيّة القديمة",
+   "en": "Old Latin",
+   "distance": 3,
+   "root": 7,
+   "nucleus": 8,
+   "examples": [
+    {
+     "word": "putamen",
+     "say": "",
+     "sense": "cutting, clipping (that which is cut away)",
+     "arabic": "بتر",
+     "quote": "البتر: استئصال الشيء قطعا",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "fructus",
+     "say": "",
+     "sense": "enjoyment, delight, satisfaction",
+     "arabic": "فرح",
+     "quote": "الفرح: نقيض الحزن",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "nequitia",
+     "say": "",
+     "sense": "a bad moral quality; idleness, negligence, inactivity, remissness; worthlessne",
+     "arabic": "نكر",
+     "quote": "النكر والنكراء... المنكر",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "spolium",
+     "say": "",
+     "sense": "the skin or hide of an animal stripped off",
+     "arabic": "سلب",
+     "quote": "الامتداد الدقيق مع الاتصال بشيء",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "trūdō",
+     "say": "trudo",
+     "sense": "to thrust; push",
+     "arabic": "طرد",
+     "quote": "الطرد: الشل",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "cornū",
+     "say": "cornu",
+     "sense": "horn",
+     "arabic": "قرن",
+     "quote": "القرن للثور وغيره: الروق",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "separo",
+     "say": "",
+     "sense": "to divide, separate",
+     "arabic": "صور",
+     "quote": "كشف ظاهر الشيء أو أعلاه بزوال ما يعروه أو يغشاه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "abutor",
+     "say": "",
+     "sense": "to use up, exhaust, consume entirely",
+     "arabic": "بتر",
+     "quote": "قطع ما يمتد من الشيء دقيقا، أو ضعيفا",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 15,
+   "nucleus_share": 53.3
+  },
+  {
+   "key": "ancient-greek",
+   "ar": "اليونانيّة القديمة",
+   "en": "Ancient Greek",
+   "distance": 3,
+   "root": 4,
+   "nucleus": 5,
+   "examples": [
+    {
+     "word": "ἀμέλγω",
+     "say": "amelgo",
+     "sense": "to milk, emulge, to express milk from cows",
+     "arabic": "ملح",
+     "quote": "الملح: الرضاع",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "ζεῦγος",
+     "say": "zeugos",
+     "sense": "pair (two things, persons or animals considered as pair)",
+     "arabic": "زوج",
+     "quote": "الزوج: الاثنان",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "πταίω",
+     "say": "ptaio",
+     "sense": "to cause to stumble, fall or fail",
+     "arabic": "بطح",
+     "quote": "البطح: البسط",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "στέγος",
+     "say": "stegos",
+     "sense": "roof",
+     "arabic": "سطح",
+     "quote": "السطح: ظهر البيت",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "dérkomai",
+     "say": "",
+     "sense": "to see; see clearly",
+     "arabic": "درك",
+     "quote": "وأدركته ببصري أي رأيته",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "κιέλλη",
+     "say": "kielle",
+     "sense": "ضياء، صقيع، ضباب",
+     "arabic": "كلل",
+     "quote": "الستر الرقيق",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "κορύνη",
+     "say": "korúne",
+     "sense": "mace, club shod with iron for fighting",
+     "arabic": "قرن",
+     "quote": "نتوء بشدة أو اعتصار يمتد في أعلى الجسم أو مقدمه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "ὄνυξ",
+     "say": "onuks",
+     "sense": "claw, nail, hoof, talon",
+     "arabic": "نقر",
+     "quote": "نقرت الشيء: ثقبته بالمنقار",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    }
+   ],
+   "total": 9,
+   "nucleus_share": 55.6
+  },
+  {
+   "key": "persian",
+   "ar": "الفارسيّة",
+   "en": "Persian",
+   "distance": 3,
+   "root": 4,
+   "nucleus": 0,
+   "examples": [
+    {
+     "word": "astar",
+     "say": "",
+     "sense": "بطانة",
+     "arabic": "ستر",
+     "quote": "الستر معروف: ما ستر به",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "گناه",
+     "say": "",
+     "sense": "sin",
+     "arabic": "جنح",
+     "quote": "امتداد أو اندفاع من الجوانب قوي أو حاد",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "کوتاه",
+     "say": "",
+     "sense": "short, low (in stature)",
+     "arabic": "قطع",
+     "quote": "فصل بعض الجرم الممتد الملتحم الرقيق",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "parêš",
+     "say": "paresh",
+     "sense": "مبعثر/متناثر",
+     "arabic": "فرش",
+     "quote": "انبساط وانتشار للشيء مع رقة - أو ليونة - فيه",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 4,
+   "nucleus_share": 0.0
+  },
+  {
+   "key": "old-irish",
+   "ar": "الإيرلنديّة القديمة",
+   "en": "Old Irish",
+   "distance": 4,
+   "root": 10,
+   "nucleus": 18,
+   "examples": [
+    {
+     "word": "gel",
+     "say": "",
+     "sense": "bright",
+     "arabic": "ج-ل",
+     "quote": "أمر جلي واضح",
+     "lexicon": "كتاب العين",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "sen",
+     "say": "",
+     "sense": "old",
+     "arabic": "س-ن",
+     "quote": "كبرت سن الرجل يعنى به الهرم",
+     "lexicon": "كتاب العين",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "glan",
+     "say": "",
+     "sense": "clear",
+     "arabic": "ج-ل",
+     "quote": "أمر جلي واضح",
+     "lexicon": "كتاب العين",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "calad",
+     "say": "",
+     "sense": "hard",
+     "arabic": "ج-ل",
+     "quote": "الجلد ما صلب من الأرض",
+     "lexicon": "كتاب العين",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "derc",
+     "say": "",
+     "sense": "eye",
+     "arabic": "درك",
+     "quote": "أدركته ببصري أي رأيته",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "má",
+     "say": "",
+     "sense": "if",
+     "arabic": "ما",
+     "quote": "تكون بمعنى الشرط",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "FLOOR-TRACE"
+    },
+    {
+     "word": "bir",
+     "say": "",
+     "sense": "water, spring, well",
+     "arabic": "بئر",
+     "quote": "بأرت بؤرة أي حفيرة",
+     "lexicon": "كتاب العين",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "fid",
+     "say": "",
+     "sense": "wood, timber",
+     "arabic": "عود",
+     "quote": "العود الخشبة",
+     "lexicon": "كتاب العين",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 28,
+   "nucleus_share": 64.3
+  },
+  {
+   "key": "old-english",
+   "ar": "الإنجليزيّة القديمة",
+   "en": "Old English",
+   "distance": 4,
+   "root": 9,
+   "nucleus": 14,
+   "examples": [
+    {
+     "word": "seofon",
+     "say": "",
+     "sense": "seven",
+     "arabic": "س-ب",
+     "quote": "الأسبوع تمام سبعة أيام",
+     "lexicon": "كتاب العين",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "hol",
+     "say": "",
+     "sense": "hole",
+     "arabic": "خ-ل",
+     "quote": "خلا يخلو خلاء فهو خال",
+     "lexicon": "كتاب العين",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "rap",
+     "say": "",
+     "sense": "rope",
+     "arabic": "ربق",
+     "quote": "ربقت الشاة بالربق وهو الخيط",
+     "lexicon": "كتاب العين",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "sima",
+     "say": "",
+     "sense": "cord، rope",
+     "arabic": "زمام",
+     "quote": "الزمام: الحبل الذي يجعل في البرة والخشبة",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "horn",
+     "say": "",
+     "sense": "horn",
+     "arabic": "قرن",
+     "quote": "قرن الثور معروف، وموضعه من رأس الإنسان قرن أيضا",
+     "lexicon": "كتاب العين",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "burg",
+     "say": "",
+     "sense": "fortified place: fortress, castle",
+     "arabic": "برج",
+     "quote": "برج سور المدينة والحصن بيوت تبنى على السور",
+     "lexicon": "كتاب العين",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "bi",
+     "say": "",
+     "sense": "by",
+     "arabic": "باء",
+     "quote": "أكثر ما ترد بمعنى الإلصاق",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "FLOOR-TRACE"
+    },
+    {
+     "word": "row",
+     "say": "",
+     "sense": "quiet, rest, calm",
+     "arabic": "ر-و-ح",
+     "quote": "ما لفلان في كذا من رواح أي من راحة",
+     "lexicon": "كتاب العين",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 23,
+   "nucleus_share": 60.9
+  },
+  {
+   "key": "gothic",
+   "ar": "القوطيّة",
+   "en": "Gothic",
+   "distance": 4,
+   "root": 9,
+   "nucleus": 8,
+   "examples": [
+    {
+     "word": "hauseins",
+     "say": "",
+     "sense": "السمع",
+     "arabic": "حس",
+     "quote": "الحس والحسيس: الصوت الخفي",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "𐌷𐌿𐌻𐌾𐌰𐌽",
+     "say": "huljan",
+     "sense": "to cover, wrap, veil",
+     "arabic": "غلف",
+     "quote": "الغلاف... ما اشتمل على الشيء",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "𐌷𐌰𐌽𐍃𐌰",
+     "say": "hansa",
+     "sense": "a crowd, gathering",
+     "arabic": "غمر",
+     "quote": "نوع من التغطية والحجب",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "𐌷𐌰𐌿𐍂𐌳𐍃",
+     "say": "haurds",
+     "sense": "a door, especially of wickerwork",
+     "arabic": "غلق",
+     "quote": "التخلل بحدة مع إحاطة أو تقييد أو ما بمعناهما",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "fitan",
+     "say": "",
+     "sense": "مخاض/ألم الولادة",
+     "arabic": "بطن",
+     "quote": "ألقت المرأة ذا بطنها أي ولدت",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐌼𐌰𐌲𐌰𐌽",
+     "say": "magan",
+     "sense": "to be able, may, can",
+     "arabic": "مكن",
+     "quote": "رسوخ الشيء متجمعا (من دقاق) في باطن يلتئم عليه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐍃𐌹𐌿𐌺𐌰𐌽",
+     "say": "siukan",
+     "sense": "to be sick",
+     "arabic": "سقم",
+     "quote": "استقرار في جوف حيز أو باطن",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "𐌺𐌰𐌿𐍂𐌽",
+     "say": "kaurn",
+     "sense": "corn, grain (harvested seeds of the main cereal plant grown in a given region,",
+     "arabic": "جرم",
+     "quote": "نتوء بشدة أو اعتصار يمتد في أعلى الجسم أو مقدمه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 17,
+   "nucleus_share": 47.1
+  },
+  {
+   "key": "old-norse",
+   "ar": "النُّرديّة القديمة",
+   "en": "Old Norse",
+   "distance": 4,
+   "root": 6,
+   "nucleus": 6,
+   "examples": [
+    {
+     "word": "hamr",
+     "say": "",
+     "sense": "shroud, covering",
+     "arabic": "غمر",
+     "quote": "غمره الماء: علاه وغطاه",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "hurð",
+     "say": "hurdh",
+     "sense": "door",
+     "arabic": "غلق",
+     "quote": "غلق الباب وأغلقه وغلقه",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "hylja",
+     "say": "",
+     "sense": "to hide, cover",
+     "arabic": "غلف",
+     "quote": "الغلاف... ما اشتمل على الشيء",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "vitra",
+     "say": "",
+     "sense": "to manifest, reveal",
+     "arabic": "فطر",
+     "quote": "ارتخاء الشيء لذهاب شدته؛ فينبسط",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "tign",
+     "say": "",
+     "sense": "state, highness, honour",
+     "arabic": "تقن",
+     "quote": "مادة جودة الشيء في بابه أو جنسه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "mygla",
+     "say": "",
+     "sense": "to grow mouldy or musty",
+     "arabic": "بقل",
+     "quote": "نبات (أو شيء ينبت) ضعيفا في ظاهر شيء",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "draga",
+     "say": "",
+     "sense": "to draw, drag, pull",
+     "arabic": "درج",
+     "quote": "ضم أو احتواء في مضم للنقل برفق",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "fleyta",
+     "say": "",
+     "sense": "to set afloat, launch",
+     "arabic": "فرط",
+     "quote": "خلوص الماء من الملح مع صفائه من الكدورة",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 12,
+   "nucleus_share": 50.0
+  },
+  {
+   "key": "welsh",
+   "ar": "الويلزيّة",
+   "en": "Welsh",
+   "distance": 4,
+   "root": 1,
+   "nucleus": 1,
+   "examples": [
+    {
+     "word": "hen",
+     "say": "",
+     "sense": "old, aged; ancient",
+     "arabic": "سن",
+     "quote": "وأسن الرجل: كبر",
+     "lexicon": "المحكم",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "mwg",
+     "say": "",
+     "sense": "smoke",
+     "arabic": "موج",
+     "quote": "حركة واضطراب للمائع في حيزه مع انتباره من كثافة تجمعه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 2,
+   "nucleus_share": 50.0
+  }
+ ]
+}

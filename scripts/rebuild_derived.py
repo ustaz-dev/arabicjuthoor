@@ -32,6 +32,7 @@ BUILD = [
     ("build_lane_data_manifest.py", []),
     ("build_status_snapshot.py", []),
     ("build_lane_b_open_review_queue.py", []),
+    ("build_links_showcase.py", []),          # معرضُ صفحةِ الصلات، من البطاقاتِ نفسِها
 ]
 
 # بوّاباتُ النشر، بترتيبِ deploy.yml

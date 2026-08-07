@@ -284,7 +284,7 @@ a:focus-visible, button:focus-visible {
    Cmd/Ctrl+P will print a blank page instead of the dashboard. */
 @media print {
   body::before {
-    content: "Juthoor — The Arabic Tongue. Online publication only. arabicjuthoor.com";
+    content: "Juthoor · The Arabic Tongue. Online publication only. arabicjuthoor.com";
     display: block; padding: 80px 40px; font-family: serif; font-size: 14pt;
   }
   body > *:not(:first-child) { display: none !important; }
@@ -1102,6 +1102,7 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
       <a href="#methodology"><span class="lang-en">Method</span><span class="lang-ar">المنهج</span></a>
       <a href="#findings"><span class="lang-en">Tables</span><span class="lang-ar">الجداول</span></a>
       <a href="#cross-linguistic"><span class="lang-en">Cross-lang</span><span class="lang-ar">بين اللغات</span></a>
+      <a href="links.html"><span class="lang-en">Links</span><span class="lang-ar">الصِّلات</span></a>
       <a href="#discoveries-panel"><span class="lang-en">Harvest</span><span class="lang-ar">الحصاد</span></a>
       <a href="#roadmap"><span class="lang-en">Road</span><span class="lang-ar">الطريق</span></a>
       <a href="discoveries.html"><span class="lang-en">Discoveries</span><span class="lang-ar">الاكتِشافات</span></a>
@@ -1641,6 +1642,29 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
   <p class="section-intro lang-ar">
     قُل كَلام و«claim». وقَرن و«horn». وأُمّ والسنسكريتيّة <em>mātṛ</em>. ليست هذه مُصادَفات، ولا استِعارات. في قِراءةِ هذا المشروع، العربيّةُ هي اللسانُ الأصل، الذي حَفِظَ مَنطِقَ الصوتِ-المعنى للُّغةِ الإنسانيّةِ الأولى أتَمَّ حِفظ، وكُلُّ لسانٍ آخَرَ فَرعٌ يَحمِلُ نُسخةً باهِتةً منه. هذا القِسمُ يَقرَأُ شَحَناتِ الحروفِ عبرَ الفروع، ويُرَتِّبُها بحَسَبِ ما حَفِظَهُ كلٌّ منها من ذلك الأصلِ الواحد.
   </p>
+
+  <div class="callout" id="links-banner" style="border-color: var(--accent-strong); margin: 6px 0 18px;">
+    <div class="callout-title">
+      <span class="lang-en">New: every link, word by word</span>
+      <span class="lang-ar">جديد: كلُّ صلةٍ، كلمةً كلمة</span>
+    </div>
+    <p class="lang-en" style="margin:6px 0 0;">The reading cards now carry <strong id="lb-total">2,176</strong> issued links across
+      <strong id="lb-langs">15</strong> tongues, each one joining a word in an ancient tongue to an Arabic one and naming the
+      layer where they meet. Sorted by branch distance, they show the gradient the thesis predicts: the near Semitic sisters
+      answer at the later <em>triliteral root</em>, while the deeper branches answer at the older <em>binary nucleus</em>
+      (Coptic <strong id="lb-cop">86%</strong> nucleus, Egyptian <strong id="lb-egy">84%</strong>).</p>
+    <p class="lang-ar" style="margin:6px 0 0;">تَحمِلُ بِطاقاتُ القِراءةِ الآنَ <strong class="lb-total">2,176</strong> صِلةً صادِرةً في
+      <strong class="lb-langs">15</strong> لِسانًا، كلُّ صِلةٍ تَصِلُ كلمةً في لسانٍ قديمٍ بكلمةٍ عربيّةٍ وتُسَمّي الطبقةَ التي
+      التَقَيا فيها. ومُرَتَّبةً بحَسَبِ بُعدِ الفَرعِ تُظهِرُ التَدَرُّجَ الذي تَتَنَبَّأُ به الأطروحة: الأخَواتُ السامِيّةُ القريبةُ
+      تُجيبُ عندَ <em>الجذرِ الثلاثيِّ</em> المُتَأَخِّر، والفروعُ الأعمَقُ تُجيبُ عندَ <em>النواةِ الثنائيّةِ</em> الأقدَم
+      (القِبطيّةُ <strong class="lb-cop">86%</strong> نَواة، والمِصريّةُ <strong class="lb-egy">84%</strong>).</p>
+    <p style="margin:12px 0 0;">
+      <a href="links.html" style="color: var(--accent-strong); font-weight: 600; text-decoration: none;">
+        <span class="lang-en">Open the links page ↗</span>
+        <span class="lang-ar">افتَحْ صفحةَ الصِّلات ↗</span>
+      </a>
+    </p>
+  </div>
 
   <div class="callout" style="border-color: var(--accent-strong); background: var(--accent-bg); margin: 6px 0 26px;">
     <div class="callout-title"><span class="lang-en">Arabic is the umbrella</span><span class="lang-ar">العربيّةُ هي المِظلّة</span></div>
@@ -2573,6 +2597,26 @@ const SUPABASE_TABLE = 'messages';
       submitBtn.innerHTML = '<span class="lang-en">Send</span><span class="lang-ar">إرسال</span>';
     }
   });
+})();
+</script>
+
+<!-- لافتةُ الصلات: أرقامُها من البطاقاتِ نفسِها، فلا تبيتُ في الصفحة -->
+<script>
+(function () {
+  function put(sel, text) {
+    document.querySelectorAll(sel).forEach(function (el) { el.textContent = text; });
+  }
+  fetch('data/links-showcase.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var t = d.totals, by = {};
+      d.languages.forEach(function (e) { by[e.key] = e; });
+      put('#lb-total, .lb-total', (t.root + t.nucleus).toLocaleString('en-US'));
+      put('#lb-langs, .lb-langs', String(t.languages));
+      if (by.coptic) put('#lb-cop, .lb-cop', Math.round(by.coptic.nucleus_share) + '%');
+      if (by.egyptian) put('#lb-egy, .lb-egy', Math.round(by.egyptian.nucleus_share) + '%');
+    })
+    .catch(function () { /* اللافتةُ تبقى بأرقامِ آخرِ بناءٍ إن تعذّرَ الجلب */ });
 })();
 </script>
 

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Juthoor · Links to the Arabic tongue · صلاتُ الألسنِ باللسانِ العربيّ</title>
+<meta name="description" content="Word by word, the links found between fifteen ancient tongues and Arabic, and where each link sits: at the later triliteral root or at the older binary nucleus. Every Arabic sense is quoted from a named classical lexicon." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://arabicjuthoor.com/links.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --bg: #fdfaf5; --bg-2: #f6f0e6; --bg-card: #ffffff;
+  --text: #1a2236; --text-2: #4a5266; --text-3: #5f6275;
+  --accent: #b8862f; --accent-strong: #8a5e1f; --accent-bg: #faf3df;
+  --border: #e4ddd0; --border-2: #cdc4b0;
+  --root: #2255a4; --root-bg: #e3edf9;
+  --nucleus: #8a5e1f; --nucleus-bg: #faf3df;
+  --shadow: 0 1px 3px rgba(26,34,54,.06), 0 1px 2px rgba(26,34,54,.04);
+}
+[data-theme="dark"] {
+  --bg: #14161d; --bg-2: #191c25; --bg-card: #1e212b;
+  --text: #eef0f6; --text-2: #c3c8d6; --text-3: #99a0b3;
+  --accent: #d4a73f; --accent-strong: #e0b95c; --accent-bg: #2a2418;
+  --border: #2c3040; --border-2: #3a3f52;
+  --root: #7aa9e8; --root-bg: #17263c;
+  --nucleus: #e0b95c; --nucleus-bg: #2f2814;
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height:1.65; -webkit-font-smoothing:antialiased; }
+html[data-lang="ar"] body { direction: rtl; font-family: Amiri, "Segoe UI", serif; }
+html[data-lang="ar"] .lang-en { display:none !important; }
+html[data-lang="en"] .lang-ar { display:none !important; }
+.ar-display { font-family: Amiri, serif; }
+
+nav.topbar { position:sticky; top:0; z-index:40;
+  background:rgba(253,250,245,.92); backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border); }
+[data-theme="dark"] nav.topbar { background:rgba(22,24,33,.92); }
+.nav-inner { max-width:1120px; margin:0 auto; padding:12px 20px;
+  display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+.nav-brand { font-weight:700; font-size:1.15rem; text-decoration:none; color:var(--text); }
+.accent { color:var(--accent); }
+.nav-links { display:flex; gap:14px; flex:1; flex-wrap:wrap; }
+.nav-links a { color:var(--text-2); text-decoration:none; font-size:.92rem; }
+.nav-links a:hover { color:var(--accent-strong); }
+.toggles { display:flex; gap:6px; }
+.toggles button { border:1px solid var(--border-2); background:var(--bg-card);
+  color:var(--text-2); border-radius:7px; padding:5px 10px; cursor:pointer; font-size:.82rem; }
+.toggles button.active { background:var(--accent-bg); color:var(--accent-strong);
+  border-color:var(--accent); }
+
+main { max-width:1120px; margin:0 auto; padding:34px 20px 80px; }
+h1 { font-size:2rem; line-height:1.25; margin:0 0 10px; }
+h2 { font-size:1.35rem; margin:44px 0 12px; padding-bottom:8px;
+  border-bottom:1px solid var(--border); }
+p.lede { color:var(--text-2); font-size:1.06rem; margin:0 0 6px; max-width:70ch; }
+.note { background:var(--bg-2); border:1px solid var(--border);
+  border-radius:10px; padding:12px 15px; font-size:.9rem; color:var(--text-2);
+  margin:16px 0; }
+
+.kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:12px; margin:22px 0; }
+.kpi { background:var(--bg-card); border:1px solid var(--border);
+  border-radius:12px; padding:16px; box-shadow:var(--shadow); }
+.kpi .n { font-size:1.9rem; font-weight:700; line-height:1.1; }
+.kpi .l { font-size:.84rem; color:var(--text-3); margin-top:4px; }
+.kpi.root .n { color:var(--root); }
+.kpi.nucleus .n { color:var(--nucleus); }
+
+.grad { background:var(--bg-card); border:1px solid var(--border);
+  border-radius:12px; padding:18px; box-shadow:var(--shadow); overflow-x:auto; }
+.grad-row { display:grid; grid-template-columns:minmax(120px,1.4fr) 1fr minmax(58px,auto);
+  gap:12px; align-items:center; padding:7px 0; }
+.grad-name { font-size:.94rem; }
+.grad-name small { color:var(--text-3); display:block; font-size:.76rem; }
+.bar { display:flex; height:20px; border-radius:5px; overflow:hidden;
+  background:var(--bg-2); min-width:150px; }
+.bar .r { background:var(--root); }
+.bar .n { background:var(--nucleus); }
+.grad-pct { font-variant-numeric:tabular-nums; font-weight:600;
+  color:var(--nucleus); text-align:end; font-size:.94rem; }
+.legend { display:flex; gap:16px; flex-wrap:wrap; margin:10px 0 0;
+  font-size:.85rem; color:var(--text-2); }
+.legend i { display:inline-block; width:13px; height:13px; border-radius:3px;
+  margin-inline-end:6px; vertical-align:-2px; }
+
+.lang-block { background:var(--bg-card); border:1px solid var(--border);
+  border-radius:12px; padding:18px; margin:16px 0; box-shadow:var(--shadow); }
+.lang-head { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+  margin-bottom:12px; }
+.lang-head h3 { margin:0; font-size:1.12rem; }
+.lang-head .meta { font-size:.85rem; color:var(--text-3); }
+.tbl-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-size:.9rem; }
+th, td { text-align:start; padding:8px 10px; border-bottom:1px solid var(--border);
+  vertical-align:top; }
+th { font-size:.8rem; color:var(--text-3); font-weight:600; white-space:nowrap; }
+td.word { font-size:1.02rem; white-space:nowrap; }
+td.word small { display:block; color:var(--text-3); font-size:.78rem;
+  font-family:Inter, sans-serif; direction:ltr; }
+td.ar { font-family:Amiri, serif; font-size:1.2rem; color:var(--accent-strong);
+  white-space:nowrap; }
+td.quote { color:var(--text-2); font-family:Amiri, serif; font-size:.98rem; }
+td.quote cite { display:block; font-size:.76rem; color:var(--text-3);
+  font-style:normal; font-family:Inter, sans-serif; margin-top:2px; }
+.tag { display:inline-block; font-size:.72rem; padding:2px 7px; border-radius:5px;
+  white-space:nowrap; }
+.tag.root { background:var(--root-bg); color:var(--root); }
+.tag.nucleus { background:var(--nucleus-bg); color:var(--nucleus); }
+footer { border-top:1px solid var(--border); margin-top:50px; padding:22px 0;
+  color:var(--text-3); font-size:.86rem; }
+@media (max-width:640px) {
+  h1 { font-size:1.6rem; }
+  .grad-row { grid-template-columns:minmax(96px,1fr) 1fr auto; gap:8px; }
+}
+</style>
+</head>
+<body>
+<nav class="topbar" aria-label="Primary">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <span class="lang-en">Juthoor<span class="accent">.</span></span>
+      <span class="lang-ar ar-display">جُذُور<span class="accent">.</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html"><span class="lang-en">Home</span><span class="lang-ar">الرئيسة</span></a>
+      <a href="links.html"><span class="lang-en">Links</span><span class="lang-ar">الصِّلات</span></a>
+      <a href="discoveries.html"><span class="lang-en">Discoveries</span><span class="lang-ar">الاكتِشافات</span></a>
+      <a href="status.html"><span class="lang-en">Status</span><span class="lang-ar">حالةُ العمل</span></a>
+    </div>
+    <div class="toggles">
+      <button id="lang-en" class="active">EN</button>
+      <button id="lang-ar">عربي</button>
+      <button id="theme">◐</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1>
+    <span class="lang-en">Links to the Arabic tongue, word by word</span>
+    <span class="lang-ar ar-display">صلاتُ الألسنِ باللسانِ العربيّ، كلمةً كلمة</span>
+  </h1>
+  <p class="lede">
+    <span class="lang-en">Each link below joins a word in an ancient tongue to an Arabic one, and says at which
+    layer the join sits: at the later triliteral root, or at the older binary nucleus of two consonants.
+    Every Arabic sense is quoted from a named classical lexicon.</span>
+    <span class="lang-ar">كلُّ صلةٍ أدناه تصِلُ كلمةً في لسانٍ قديمٍ بكلمةٍ عربيّة، وتقولُ في أيِّ طبقةٍ
+    وقعَ الوصل: في الجذرِ الثلاثيِّ المتأخّر، أم في النواةِ الثنائيّةِ الأقدم. وكلُّ معنًى عربيٍّ منقولٌ
+    من معجمٍ كلاسيكيٍّ مسمًّى.</span>
+  </p>
+
+  <div class="kpis" id="kpis"></div>
+
+  <h2>
+    <span class="lang-en">The gradient: the farther the branch, the older the layer that survives</span>
+    <span class="lang-ar ar-display">التدرُّج: كلّما بعُدَ الفرعُ بقيَت الطبقةُ الأقدم</span>
+  </h2>
+  <p class="lede">
+    <span class="lang-en">The triliteral root is a later stage, so it survives where the branch is near.
+    The binary nucleus is older, so it is what remains when the branch is far. The bars below are not
+    an illustration of that claim; they are the measured distribution of every issued link.</span>
+    <span class="lang-ar">الجذرُ الثلاثيُّ طورٌ متأخّر، فيبقى حيثُ قرُبَ الفرع. والنواةُ الثنائيّةُ أقدمُ،
+    فهي ما يبقى حينَ يبعُد. والأعمدةُ أدناه ليست رسمًا يشرحُ الدعوى، بل هي التوزُّعُ المقيسُ لكلِّ
+    صلةٍ صدرَت.</span>
+  </p>
+  <div class="grad" id="gradient"></div>
+  <div class="legend">
+    <span><i style="background:var(--root)"></i><span class="lang-en">Triliteral root, the later stage</span><span class="lang-ar">الجذرُ الثلاثيّ، الطورُ المتأخّر</span></span>
+    <span><i style="background:var(--nucleus)"></i><span class="lang-en">Binary nucleus, the older stage</span><span class="lang-ar">النواةُ الثنائيّة، الطورُ الأقدم</span></span>
+  </div>
+
+  <h2>
+    <span class="lang-en">The links themselves</span>
+    <span class="lang-ar ar-display">الصلاتُ نفسُها</span>
+  </h2>
+  <div id="languages"></div>
+
+  <div class="note" id="foot-note"></div>
+
+  <footer>
+    <span class="lang-en">Exploration layer. Figures come from <code>scripts/count_links.py</code>, the single
+    definition of a link in this repository, and are rebuilt from the cards on every publish.</span>
+    <span class="lang-ar">طبقةُ استكشاف. الأرقامُ من <code>scripts/count_links.py</code> وهو التعريفُ الوحيدُ
+    للصلةِ في هذا المستودع، وتُعادُ من البطاقاتِ عندَ كلِّ نشر.</span>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var DATA = null;
+  function t(en, ar) { return document.documentElement.getAttribute("data-lang") === "ar" ? ar : en; }
+  function fmt(n) { return (n === null || n === undefined) ? "0" : Number(n).toLocaleString("en-US"); }
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  function setLang(l) {
+    document.documentElement.setAttribute("data-lang", l);
+    document.documentElement.setAttribute("dir", l === "ar" ? "rtl" : "ltr");
+    document.documentElement.setAttribute("lang", l === "ar" ? "ar" : "en");
+    document.getElementById("lang-en").classList.toggle("active", l === "en");
+    document.getElementById("lang-ar").classList.toggle("active", l === "ar");
+    try { localStorage.setItem("juthoor-lang", l); } catch (e) {}
+    if (DATA) render();
+  }
+  document.getElementById("lang-en").onclick = function () { setLang("en"); };
+  document.getElementById("lang-ar").onclick = function () { setLang("ar"); };
+  document.getElementById("theme").onclick = function () {
+    var cur = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", cur);
+    try { localStorage.setItem("juthoor-theme", cur); } catch (e) {}
+  };
+
+  function kpi(n, label, cls) {
+    return '<div class="kpi ' + (cls || "") + '"><div class="n">' + n +
+      '</div><div class="l">' + label + "</div></div>";
+  }
+
+  function render() {
+    var tot = DATA.totals, langs = DATA.languages;
+    var all = tot.root + tot.nucleus;
+    document.getElementById("kpis").innerHTML =
+      kpi(fmt(all), t("links to the Arabic tongue", "صلةً باللسانِ العربيّ")) +
+      kpi(fmt(tot.root), t("at the triliteral root", "في الجذرِ الثلاثيّ"), "root") +
+      kpi(fmt(tot.nucleus), t("at the binary nucleus", "في النواةِ الثنائيّة"), "nucleus") +
+      kpi(fmt(tot.languages), t("tongues carrying links", "لسانًا تحملُ صلات"));
+
+    document.getElementById("gradient").innerHTML = langs.map(function (e) {
+      var r = e.total ? (100 * e.root / e.total) : 0;
+      return '<div class="grad-row">' +
+        '<div class="grad-name">' + esc(t(e.en, e.ar)) +
+        "<small>" + fmt(e.total) + " " + t("links", "صلة") + "</small></div>" +
+        '<div class="bar"><span class="r" style="width:' + r.toFixed(1) + '%"></span>' +
+        '<span class="n" style="width:' + (100 - r).toFixed(1) + '%"></span></div>' +
+        '<div class="grad-pct">' + e.nucleus_share.toFixed(0) + "%</div></div>";
+    }).join("");
+
+    document.getElementById("languages").innerHTML = langs.filter(function (e) {
+      return e.examples && e.examples.length;
+    }).map(function (e) {
+      var rows = e.examples.map(function (x) {
+        return "<tr>" +
+          '<td class="word">' + esc(x.word) + "<small>" + esc(x.say) + "</small></td>" +
+          "<td>" + esc(x.sense) + "</td>" +
+          '<td class="ar">' + esc(x.arabic) + "</td>" +
+          '<td class="quote">' + (x.quote ? "&laquo;" + esc(x.quote) + "&raquo;" : "") +
+          (x.lexicon ? "<cite>" + esc(x.lexicon) + "</cite>" : "") + "</td>" +
+          '<td><span class="tag ' + x.layer + '">' +
+          t(x.layer === "nucleus" ? "nucleus" : "root",
+            x.layer === "nucleus" ? "نواة" : "جذر") + "</span></td></tr>";
+      }).join("");
+      return '<div class="lang-block"><div class="lang-head"><h3>' + esc(t(e.en, e.ar)) +
+        '</h3><span class="meta">' + fmt(e.total) + " " + t("links", "صلة") + " · " +
+        fmt(e.root) + " " + t("root", "جذر") + " · " + fmt(e.nucleus) + " " +
+        t("nucleus", "نواة") + "</span></div>" +
+        '<div class="tbl-wrap"><table><thead><tr>' +
+        "<th>" + t("word", "الكلمة") + "</th><th>" + t("meaning", "معناها") +
+        "</th><th>" + t("Arabic", "العربيّ") + "</th><th>" +
+        t("quoted from the lexicon", "نصُّ المعجم") + "</th><th>" +
+        t("layer", "الطبقة") + "</th>" +
+        "</tr></thead><tbody>" + rows + "</tbody></table></div></div>";
+    }).join("");
+
+    document.getElementById("foot-note").innerHTML = t(
+      "Examples shown are a sample from each tongue, drawn from the cards that carry a quoted lexicon line. The counts above them cover every issued link.",
+      "الأمثلةُ المعروضةُ عيّنةٌ من كلِّ لسان، مأخوذةٌ من البطاقاتِ التي تحملُ نصًّا معجميًّا منقولًا. والأعدادُ فوقَها تشملُ كلَّ صلةٍ صدرَت."
+    );
+  }
+
+  fetch("data/links-showcase.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (d) { DATA = d; render(); })
+    .catch(function () {
+      document.getElementById("kpis").innerHTML =
+        '<div class="note">Showcase unavailable. Run <code>python scripts/build_links_showcase.py</code>.</div>';
+    });
+
+  try {
+    if (localStorage.getItem("juthoor-theme") === "dark")
+      document.documentElement.setAttribute("data-theme", "dark");
+    if (localStorage.getItem("juthoor-lang") === "ar") setLang("ar");
+  } catch (e) {}
+})();
+</script>
+</body>
+</html>
