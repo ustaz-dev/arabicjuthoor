@@ -27,10 +27,10 @@
     },
     {
       "path": "04-cross-linguistic/readings/old-latin.md",
-      "loan_card_blocks_sha256": "f4c0b75254bf59a650269005a2febe2ddd54e234ddde7eeca725604cd2c3e95f"
+      "loan_card_blocks_sha256": "5a37afdd36dc381bed0795e37b189c2b4408772af8c9c81af0e5f66663b938ae"
     }
   ],
-  "entries_total": 5,
+  "entries_total": 6,
   "entries": [
     {
       "registry_id": "loan-hebrew-001",
@@ -113,6 +113,23 @@
       "verdict": "LOANWORD",
       "source_path": "04-cross-linguistic/readings/old-latin.md",
       "source_line": 209891
+    },
+    {
+      "registry_id": "loan-old-latin-002",
+      "language": "اللاتينية القديمة",
+      "card": "follis «منفاخ؛ كيس أو صرّة نقود»",
+      "lexeme": "follis؛ وأخرجت أداة النطق المجمدة `follis`؛ والنطق الكلاسيكي /ˈfɔl.lɪs/ «فُلِّس».",
+      "route_as_recorded": "يعزل مسارًا: Latin follis → Greek phóllis → Aramaic puləsā → Arabic fals. تؤكد Encyclopaedia Iranica أن folūs من Greek phóllis ومن Latin follis في النقد البيزنطي. الحكم LATIN-TO-ARABIC-TRANSMISSION، لا أثر موروث.",
+      "oldest_form_as_recorded": "يقترح الحقل Proto-Indo-European *bʰolǵʰ-n-is من *bʰelǵʰ- «to swell»، أو *bʰol-n-is من *bʰel- «to blow»، وينص على تشكك De Vaan وترك الأصل مفتوحًا [Kaikki Latin، `follis`، `etymology_text`].",
+      "named_sources_as_recorded": [
+        "Kaikki Latin، `follis`، `etymology_text`",
+        "Kaikki Latin، `follis`",
+        "Lewis & Short، `follis`"
+      ],
+      "scope_note": "هذا إغلاق Latin trap في اتجاه الفرع ← العربية، لا اقتراض إلى اللاتينية. موضع الطابور queue_index=4؛ abūtor عند 3 بطاقة موجودة فتم تخطيها بلا تكرار.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/old-latin.md",
+      "source_line": 210050
     }
   ]
 }
