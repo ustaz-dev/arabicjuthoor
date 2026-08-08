@@ -6,8 +6,11 @@
 
 | اللغة | البطاقة | اللفظ | المسار المسمى في البطاقة | المصدر المسمى | الموضع |
 |---|---|---|---|---|---|
+| العبرية | blwg (بلوج) «مدوّنة إلكترونية» | בלוג blwg (بلوج)، وصورتها المعجمية בְּלוֹג bəlwog (بلوج)، اسم مذكر؛ نطق `scripts/readable.py` هو `blwg (بلوج)` و`bəlwog (بلوج)`، والرومنة المنشورة `blog`. | يعزل مسارًا مسمى من الإنجليزية إلى العبرية: `Borrowed from English blog`. صححت القراءة السالب الكاذب `loan_suspect=false` في الصف، ولم تغير ملف الطابور المولد. | Kaikki Hebrew، السطر 5217؛ Kaikki Hebrew، `kaikki_hebrew:5217:en-בלוג-he-noun-4iFKqZz4` | `04-cross-linguistic/readings/hebrew.md:43135` |
+| العبرية | hyndy (هـيندي) «اللغة الهندية Hindi» | הינדי hyndy (هـيندي)، اسم لغة مؤنث؛ نطق `scripts/readable.py` هو `hyndy (هـيندي)`، والرومنة المنشورة `híndi`. | يعزل مسارًا من Classical Persian هندی إلى العبرية. صححت القراءة السالب الكاذب `loan_suspect=false`. هند ليس في جرد القرآن؛ لا تُستنتج من الغياب دعوى اتجاه إلى العربية. | Kaikki Hebrew، السطر 15466؛ Kaikki Hebrew، `kaikki_hebrew:15466:en-הינדי-he-name-oonRlPW~` | `04-cross-linguistic/readings/hebrew.md:43176` |
 | القبطية | tōōbe «brick, adobe» | ⲧⲱⲱⲃⲉ tōōbe | يعزل مسارا: القبطية إلى العربية المصرية [Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة] | Hinds and Badawi, *A Dictionary of Egyptian Arabic*, 1986، مادة طوبة؛ TLA Lemma ID 183120؛ Erman & Grapow, Wb 5, 553.7-554.18: https://thesaurus-linguae-aegyptiae.de/lemma/183120؛ Crum, CD 398a؛ KELLIA C4084/C4085 | `04-cross-linguistic/readings/coptic.md:90` |
 | القبطية | apa «abbot (father); title of reverence» | ⲁⲡⲁ apa، وله وجه ⲁⲃⲃⲁ | يعزل مسارا: سريانية إلى يونانية ἀββᾶς ثم إلى القبطية، كما يصرح حقل `<etym>` | KELLIA C164؛ Crum, CD 13ab؛ Crum, CD 13ab؛ KELLIA C164 | `04-cross-linguistic/readings/coptic.md:104` |
+| اللاتينية القديمة | corōlla «إكليل صغير، طوق زهر» | corōlla؛ وأخرجت أداة النطق المجمدة corolla؛ والنطق الكلاسيكي /kɔˈroːl.la/ «كُرولّا». | يعزل مسارا يونانيا قديما إلى اللاتينية: κορώνη ← corōna ← corōlla. ليست المشكلة أن corolla دولية نباتية حديثة؛ الحس القديم كلاسيكي، لكن القاعدة اللاتينية نفسها قرض يوناني. | Kaikki Latin، corolla وcorona؛ Kaikki Latin، corolla؛ Lewis & Short، corolla | `04-cross-linguistic/readings/old-latin.md:209891` |
 
 ## حدود السجل
 

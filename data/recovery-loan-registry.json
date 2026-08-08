@@ -23,15 +23,47 @@
     },
     {
       "path": "04-cross-linguistic/readings/hebrew.md",
-      "loan_card_blocks_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "loan_card_blocks_sha256": "c03dcfb137fead828659801af860c8966db4b1923c4cf7830f53fc34ce91ea2f"
     },
     {
       "path": "04-cross-linguistic/readings/old-latin.md",
-      "loan_card_blocks_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "loan_card_blocks_sha256": "f4c0b75254bf59a650269005a2febe2ddd54e234ddde7eeca725604cd2c3e95f"
     }
   ],
-  "entries_total": 2,
+  "entries_total": 5,
   "entries": [
+    {
+      "registry_id": "loan-hebrew-001",
+      "language": "العبرية",
+      "card": "blwg (بلوج) «مدوّنة إلكترونية»",
+      "lexeme": "בלוג blwg (بلوج)، وصورتها المعجمية בְּלוֹג bəlwog (بلوج)، اسم مذكر؛ نطق `scripts/readable.py` هو `blwg (بلوج)` و`bəlwog (بلوج)`، والرومنة المنشورة `blog`.",
+      "route_as_recorded": "يعزل مسارًا مسمى من الإنجليزية إلى العبرية: `Borrowed from English blog`. صححت القراءة السالب الكاذب `loan_suspect=false` في الصف، ولم تغير ملف الطابور المولد.",
+      "oldest_form_as_recorded": "لا يقدم المورد تاريخ أول شاهد عبري. أقدم طبقة مصدرية مسماة فيه هي المانح الإنجليزي: `Borrowed from English blog (see Etymology 1)` [Kaikki Hebrew، السطر 5217]؛ لذلك لا تُخترع دعوى قدم عبرية، وتبقى فجوة التاريخ مسجلة.",
+      "named_sources_as_recorded": [
+        "Kaikki Hebrew، السطر 5217",
+        "Kaikki Hebrew، `kaikki_hebrew:5217:en-בלוג-he-noun-4iFKqZz4`"
+      ],
+      "scope_note": "أصل الصف `both[8]`. وجود `loan_suspect=false` لم يُقدَّم على نص الاشتقاق الصريح. عدسة الاسترداد فتحت بلج، وعدسة التشكيك أغلقت التشابه اللفظي بمصفاة النقل والمعنى. الدفعة 002.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 43135
+    },
+    {
+      "registry_id": "loan-hebrew-002",
+      "language": "العبرية",
+      "card": "hyndy (هـيندي) «اللغة الهندية Hindi»",
+      "lexeme": "הינדי hyndy (هـيندي)، اسم لغة مؤنث؛ نطق `scripts/readable.py` هو `hyndy (هـيندي)`، والرومنة المنشورة `híndi`.",
+      "route_as_recorded": "يعزل مسارًا من Classical Persian هندی إلى العبرية. صححت القراءة السالب الكاذب `loan_suspect=false`. هند ليس في جرد القرآن؛ لا تُستنتج من الغياب دعوى اتجاه إلى العربية.",
+      "oldest_form_as_recorded": "لا يقدم المورد تاريخ أول شاهد عبري. أقدم طبقة مصدرية مسماة فيه هي المانح الفارسي الكلاسيكي: `Borrowed from Classical Persian هندی (hindī)` [Kaikki Hebrew، السطر 15466]. لذلك تُقارن الصورة العبرية بالمانح هندی ولا تُدَّعى لها طبقة عبرية أقدم بلا مصدر.",
+      "named_sources_as_recorded": [
+        "Kaikki Hebrew، السطر 15466",
+        "Kaikki Hebrew، `kaikki_hebrew:15466:en-הינדי-he-name-oonRlPW~`"
+      ],
+      "scope_note": "أصل الصف `both[9]`. التطابق مع هند العربية حقيقي لكنه areal/traveling؛ لا يبدل نص المانح الفارسي إلى وراثة مستقلة. الدفعة 003.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 43176
+    },
     {
       "registry_id": "loan-coptic-001",
       "language": "القبطية",
@@ -64,6 +96,23 @@
       "verdict": "LOANWORD",
       "source_path": "04-cross-linguistic/readings/coptic.md",
       "source_line": 104
+    },
+    {
+      "registry_id": "loan-old-latin-001",
+      "language": "اللاتينية القديمة",
+      "card": "corōlla «إكليل صغير، طوق زهر»",
+      "lexeme": "corōlla؛ وأخرجت أداة النطق المجمدة corolla؛ والنطق الكلاسيكي /kɔˈroːl.la/ «كُرولّا».",
+      "route_as_recorded": "يعزل مسارا يونانيا قديما إلى اللاتينية: κορώνη ← corōna ← corōlla. ليست المشكلة أن corolla دولية نباتية حديثة؛ الحس القديم كلاسيكي، لكن القاعدة اللاتينية نفسها قرض يوناني.",
+      "oldest_form_as_recorded": "corōna «إكليل» + اللاحقة التصغيرية -la؛ وcorōna مقترضة من اليونانية القديمة κορώνη. ويربط مدخل الأصل اليوناني بالسلسلة الهندية الأوروبية *(s)ker- «يدور، ينحني» [Kaikki Latin، corolla وcorona].",
+      "named_sources_as_recorded": [
+        "Kaikki Latin، corolla وcorona",
+        "Kaikki Latin، corolla",
+        "Lewis & Short، corolla"
+      ],
+      "scope_note": "أغلقتها مصفاة Latin trap بوصفها LOANWORD-THIRD-PARTY-TO-BRANCH، لا بوصف العربية دخيلة. هذه بطاقة مؤلفية خارج الطابور، فلا تغيّر مؤشر الاستئناف.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/old-latin.md",
+      "source_line": 209891
     }
   ]
 }
