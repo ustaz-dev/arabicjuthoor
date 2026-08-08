@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 27908,
+ "cards_total": 27940,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -11717,6 +11717,78 @@
    ],
    "blocker_type": "",
    "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:04a9002f976e7eb15bfdef3b`، إغلاق المسار 001، الرتبة 1",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "a named historical source for this Aramaic sense or an attested one-step semantic bridge.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:1354f259a46cf4be5c462830`، إغلاق المسار 001، الرتبة 3",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "a published romanization or morphology that identifies the internal ו.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:1a1aa8d73b6394bfb396fbe3`، إغلاق المسار 002، الرتبة 1",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "an etymology for the fetus homonym or an attested historical semantic bridge.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:1d39ce152c35e2ea857683da`، إغلاق المسار 002، الرتبة 3",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "a published analysis identifying the final ת after the lexical p-ʿ-l base.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:1e830a4a8790d550f05d1021`، إغلاق المسار 002، الرتبة 4",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "a historical etymology that names the ancestor or donor and the direction of transmission.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/aramaic.md",
+   "card": "`aramaic:family:21e77b4f30b26000090d2f1e`، إغلاق المسار 002، الرتبة 5",
+   "verdict": "",
+   "closure": "MORPHOLOGY-GAP.",
+   "gaps": [
+    "MORPHOLOGY-GAP"
+   ],
+   "blocker_type": "MORPHOLOGY-GAP",
+   "required": "a published romanization or Aramaic morphology for the internal ו.",
    "row_mentions": []
   },
   {
@@ -99017,6 +99089,66 @@
    ],
    "blocker_type": "SOURCE-GAP",
    "required": "مادّة عربية بالسين أو الثاء مع التاء واللام الضعيفة تحمل الشرب بنصّ معجم قديم مسمّى.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "ḥlb (حلب) «الشحم الحيواني المحرَّم»",
+   "verdict": "NUCLEUS-ECHO للعضو `kaikki_hebrew:3041:en-חלב-he-noun",
+   "closure": "OPEN-CANDIDATE للجذر حلب؛ CLOSED-NO-TRACE للجذر خلب؛ READY للنواة لب.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "ʿšb (عشب) «العشب والنبات»",
+   "verdict": "ROOT-TRACE للعضو `kaikki_hebrew:563:en-עשב-he-noun-",
+   "closure": "READY للجذر عشب وللنواة شب؛ SOURCE-GAP لغسب وغثب؛ CLOSED-NO-TRACE لبقية المرفوضات.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "ḥtwnh (حتونهـ) «الزفاف»",
+   "verdict": "ROOT-TRACE للعضو `kaikki_hebrew:7381:en-חתונה-he-no",
+   "closure": "READY للجذر ختن؛ SOURCE-GAP لخثن؛ CLOSED-NO-TRACE للنوى والمرشحين الآخرين.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "blwg (بلوج) «مدوّنة إلكترونية»",
+   "verdict": "LOANWORD للعضو `kaikki_hebrew:5217:en-בלוג-he-nou",
+   "closure": "READY لمسار النقل؛ SOURCE-GAP لتاريخ أول شاهد عبري؛ CLOSED-NO-TRACE للمقارنة الجذرية والنووية.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/hebrew.md",
+   "card": "hyndy (هـيندي) «اللغة الهندية Hindi»",
+   "verdict": "LOANWORD للعضو `kaikki_hebrew:15466:en-הינדי-he-n",
+   "closure": "READY لمسار النقل؛ SOURCE-GAP لتاريخ أول شاهد عبري؛ CLOSED-NO-TRACE للنوى.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
    "row_mentions": []
   },
   {

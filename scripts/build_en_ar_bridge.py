@@ -35,8 +35,25 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import fan_northern_word as F  # noqa: E402
 
 SRC = ROOT / "Resources" / "english_modern" / "kaikki.org-dictionary-English.jsonl"
+SRC_AR = ROOT / "Resources" / "arabic_kaikki" / "kaikki.org-dictionary-Arabic.jsonl"
 OUT = ROOT / "data" / "en-ar-bridge.json"
 READINGS = ROOT / "04-cross-linguistic" / "readings"
+
+# «Arabic terms belonging to the root ح ل ل»: المعجمُ العربيُّ يُصرِّحُ بجذرِ كلِّ
+# كلمةٍ في تصنيفاتِها، وهذا إسنادٌ من المصدرِ لا اجتهادٌ من رادِّنا، فيُقدَّمُ عليه.
+RX_ROOT_CAT = re.compile(r"belonging to the root\s+([ء-ي](?:\s+[ء-ي]){1,4})")
+
+# شرحٌ يصفُ الصرفَ لا المعنى: «active participle of», «accusative of». لو أُخِذَ
+# لأدخلَ كلماتِ النحوِ في معاني الجذرِ فأفسدَ كلَّ مقابلةٍ بعدَه.
+RX_MORPH_GLOSS = re.compile(
+    r"^\s*(?:active|passive|verbal|present|past|future|nominative|accusative|"
+    r"genitive|dative|construct|definite|indefinite|masculine|feminine|dual|"
+    r"plural|singular|first-person|second-person|third-person|elative|"
+    r"comparative|superlative|diminutive|augmentative|imperative|jussive|"
+    r"subjunctive|inflected|inflection|alternative|obsolete|archaic|dialectal|"
+    r"colloquial|romanization|transliteration|abbreviation|misspelling|"
+    r"participle|noun|verb|adjective|adverb|form|dual|nisba|feminine)"
+    r"[^.]{0,70}of", re.I)
 
 _DIAC = dict.fromkeys(range(0x064B, 0x0653))
 _DIAC[0x0640] = None
@@ -67,6 +84,13 @@ NOISE = {
     "punic", "phoenician", "semitic", "proto", "reconstructed", "attested",
     "define", "definition", "having", "been", "because", "certain", "various",
     "senses",
+    # مصطلحاتُ النحوِ والصرف: تصفُ صيغةَ الكلمةِ لا معناها، وهي أكثرُ ما يتسرّبُ
+    # من معجمٍ يشرحُ كلَّ صيغةٍ مشتقّةٍ بمدخلٍ مستقلّ
+    "accusative", "nominative", "genitive", "dative", "vocative", "active",
+    "passive", "participle", "verbal", "elative", "nisba", "construct",
+    "imperfective", "perfective", "jussive", "subjunctive", "imperative",
+    "indicative", "inflected", "conjugation", "declension", "pausal",
+    "indefinite", "definite", "colloquial", "romanized", "romanization",
 }
 
 
@@ -82,8 +106,12 @@ def bare(s: str) -> str:
     return re.sub(r"[^ء-ي]", "", s)
 
 
-def root_of(word: str, roots: set[str]) -> str:
-    """يردُّ الصورةَ إلى جذرِها إن أمكنَ بيقينٍ، وإلّا فارغ."""
+def root_of(word: str, roots: set[str], strict: bool = True) -> str:
+    """يردُّ الصورةَ إلى جذرِها إن أمكنَ بيقينٍ، وإلّا فارغ.
+
+    و`strict` يمنعُ آخرَ المراتب، وهي أخذُ ثلاثةِ أصولٍ على ترتيبِها من الصورة.
+    تلكَ المرتبةُ ردَّت `سكايب` (Skype) إلى `سكب` فأدخلَت skype في معاني
+    الصبِّ والسكب، وهي بابُ خطأٍ مفتوحٌ على كلِّ علَمٍ منقول."""
     w = bare(word)
     if not w:
         return ""
@@ -104,7 +132,7 @@ def root_of(word: str, roots: set[str]) -> str:
                 return w[:-len(suf)]
     # آخرُ المراتب: ثلاثةُ أصولٍ على ترتيبِها، ولا تُقبَلُ إلّا إن كانت الزيادةُ
     # حرفَينِ فأقلَّ وكانَ المحذوفُ كلُّه من حروفِ الزيادةِ والعلّة
-    if 3 <= len(w) <= 6:
+    if not strict and 3 <= len(w) <= 6:
         for combo in itertools.combinations(range(len(w)), 3):
             cand = "".join(w[i] for i in combo)
             if cand not in roots:
@@ -142,6 +170,67 @@ def from_cards() -> dict[str, set[str]]:
             if gloss:
                 out[bare(m.group(1))] |= gloss
     return out
+
+
+def from_arabic_dictionary(roots: set[str]) -> tuple[dict[str, set[str]], dict]:
+    """**الاتّجاهُ المباشر:** مدخلٌ عربيٌّ ومعناه بالإنجليزيّة. وهو أوثقُ من جدولِ
+    الترجماتِ لأنّه لا يمرُّ بكلمةٍ إنجليزيّةٍ وسيطة، وأوسعُ منه لأنّه يغطّي
+    المعجمَ كلَّه لا ما اختارَ محرِّرٌ أن يُترجِمَه."""
+    out: dict[str, set[str]] = collections.defaultdict(set)
+    stats = {"entries": 0, "with_declared_root": 0, "resolved": 0, "unresolved": 0}
+    if not SRC_AR.exists():
+        return out, stats
+    with open(SRC_AR, encoding="utf-8") as fh:
+        for line in fh:
+            try:
+                e = json.loads(line)
+            except Exception:
+                continue
+            word = str(e.get("word") or "")
+            if not word or not re.search(r"[ء-ي]", word):
+                continue
+            stats["entries"] += 1
+            # رومنةُ الكلمةِ نفسِها تُكتَبُ بحروفٍ لاتينيّةٍ فتُشبِهُ معنًى إنجليزيًّا
+            # وليست منه: sakaba وbaraqa وallafa. تُجمَعُ لتُطرَح.
+            roman = set()
+            for f in e.get("forms") or []:
+                if "romanization" in (f.get("tags") or []) or f.get("roman"):
+                    roman |= words_of(f.get("form") or "") | words_of(f.get("roman") or "")
+            for h in e.get("head_templates") or []:
+                roman |= words_of(re.sub(r"[^A-Za-z ]", " ", str(h.get("expansion") or "")))
+            for s in e.get("sounds") or []:
+                roman |= words_of(s.get("romanization") or "")
+            gloss = set()
+            for s in e.get("senses") or []:
+                for g in (s.get("glosses") or [])[:3]:
+                    if RX_MORPH_GLOSS.match(str(g)):
+                        continue          # شرحُ صرفٍ لا شرحُ معنى
+                    # الرومنةُ تُكتَبُ بين قوسَينِ بعدَ الصورةِ العربيّة، فتُطرَحُ
+                    # الأقواسُ كلُّها: المعنى في الجملةِ لا في القوس
+                    gloss |= words_of(re.sub(r"\([^)]*\)", " ", str(g)))
+            gloss -= roman
+            if not gloss:
+                continue
+            cats = [c.get("name", "") if isinstance(c, dict) else str(c)
+                    for c in (e.get("categories") or [])]
+            cats += [c.get("name", "") if isinstance(c, dict) else str(c)
+                     for s in (e.get("senses") or [])
+                     for c in (s.get("categories") or [])]
+            root = ""
+            for c in cats:
+                m = RX_ROOT_CAT.search(c)
+                if m:
+                    root = re.sub(r"\s+", "", m.group(1))
+                    stats["with_declared_root"] += 1
+                    break
+            if not root:
+                root = root_of(word, roots, strict=False)  # اجتهادُ الرادِّ عندَ غيابِ التصريح
+            if root:
+                out[root] |= gloss
+                stats["resolved"] += 1
+            else:
+                stats["unresolved"] += 1
+    return out, stats
 
 
 def main() -> int:
@@ -219,6 +308,16 @@ def main() -> int:
 
     print(f"\nمن ويكاموس: {pairs:,} زوجًا، رُدَّ منها إلى جذرٍ {pairs - unresolved:,}")
 
+    ar_layer, ar_stats = from_arabic_dictionary(roots)
+    for r, g in ar_layer.items():
+        root_head[r] |= g      # مدخلٌ عربيٌّ ومعناه، وهو أوثقُ الطبقاتِ وأوسعُها
+    if ar_stats["entries"]:
+        print(f"من المعجمِ العربيّ: {ar_stats['entries']:,} مدخلًا، "
+              f"بجذرٍ مصرَّحٍ في المصدر {ar_stats['with_declared_root']:,}، "
+              f"رُدَّ إلى جذرٍ {ar_stats['resolved']:,}")
+    else:
+        print("المعجمُ العربيُّ غيرُ موجودٍ بعد، فطبقتُه لم تُبنَ")
+
     card_layer = from_cards()
     for r, g in card_layer.items():
         root_head[r] |= g      # معنى البطاقةِ من قاموسِ الفرعِ شهادةٌ مباشرةٌ أيضًا
@@ -230,6 +329,7 @@ def main() -> int:
         "stats": {
             "pairs": pairs, "resolved": pairs - unresolved,
             "from_cards": len(card_layer), "roots": len(root_head),
+            "from_arabic_dictionary": ar_stats,
             "surface_only": len(surface),
         },
         "root_head": {r: sorted(g)[:80] for r, g in sorted(root_head.items()) if g},

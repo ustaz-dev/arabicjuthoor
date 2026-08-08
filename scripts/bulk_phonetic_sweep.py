@@ -80,11 +80,15 @@ BRIDGE = ROOT / "data" / "en-ar-bridge.json"
 INFLECTION = re.compile(
     r"^\s*(?:alternative|obsolete|archaic|dialectal|misspelling|inflection|"
     r"nominative|genitive|dative|accusative|vocative|instrumental|ablative|"
-    r"first-person|second-person|third-person|past|present|future|singular|"
+    # الصيغُ تُكتَبُ أحيانًا مشتركةً بشَرطة: «second/third-person singular ... of»
+    r"(?:first|second|third)(?:[/-](?:first|second|third))*[- ]person|"
+    r"past|present|future|singular|"
     r"plural|dual|comparative|superlative|definite|indefinite|feminine|"
     r"masculine|neuter|strong|weak|verbal noun|participle|imperative|"
-    r"subjunctive|construct|emphatic|soft mutation|nasal mutation|aspirate)"
-    r"[^.]{0,80}\bof\b", re.I)
+    r"subjunctive|construct|emphatic|soft mutation|nasal mutation|aspirate|"
+    r"diminutive|augmentative|synonym|abbreviation|initialism|acronym|"
+    r"clipping|contraction|romanization|transliteration|medieval and early)"
+    r"[^.]{0,90}\bof\b", re.I)
 PROPER = re.compile(
     r"\b(?:given name|surname|male name|female name|a country|a city|a town|"
     r"capital (?:city )?of|a village|a river in|a province|a region|a state in|"

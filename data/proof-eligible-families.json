@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "ca273716d731a86162bfdde897f13ac91cd70fe2e99d2a703d1827298c44bf69"
+    "sha256": "c8cae6abf0793e06a5586eb582050176f750259a4150b0b411674af4de1c4626"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "d27e311bd3dfd07c50548641ff0cf440ef4caa49b8753d23b46d75f470d33379"
+    "sha256": "7d8b43face4e1d9b6b1705d46eeea0363f7ae9d187a15d157443eb0984dc5530"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 369,
+  "eligible_family_total": 378,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -54,16 +54,16 @@
   "aramaic": {
    "inventory_family_count": 1573,
    "represented_current_family_count": 602,
-   "eligible_family_count": 238,
-   "positive_family_count": 238,
+   "eligible_family_count": 247,
+   "positive_family_count": 247,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 209,
-   "one_member_short_count": 91,
+   "one_member_short_count": 82,
    "issued_member_dispositions": {
-    "positive": 356,
-    "closures": 264,
+    "positive": 362,
+    "closures": 267,
     "by_outcome": {
-     "FORM-OF-ISOLATED": 18,
+     "FORM-OF-ISOLATED": 21,
      "INTRA-HOUSE-TRANSFER": 9,
      "LOANWORD": 68,
      "NONLEXICAL-ISOLATED": 59,
@@ -71,21 +71,21 @@
      "NUCLEUS-TRACE": 13,
      "OUT-OF-SCOPE": 1,
      "PROPER-NAME-ISOLATED": 109,
-     "ROOT-ECHO": 48,
-     "ROOT-TRACE": 291
+     "ROOT-ECHO": 51,
+     "ROOT-TRACE": 294
     }
    },
    "incomplete_members_by_state": {
     "LAW-GAP": 3,
-    "MORPHOLOGY-GAP": 1,
+    "MORPHOLOGY-GAP": 4,
     "OPEN-CANDIDATE": 48,
-    "SOURCE-GAP": 3,
+    "SOURCE-GAP": 6,
     "TOOL-GAP": 13,
-    "UNRECORDED": 178
+    "UNRECORDED": 163
    },
    "block_reconciliation": {
     "ambiguous-stale-heading": 4,
-    "current-heading": 729,
+    "current-heading": 744,
     "stable-entry-reconciled": 248,
     "unmapped-stale-heading": 10
    },
@@ -102,27 +102,34 @@
     "aramaic:family:0973cfd715e4ab71a83a0160",
     "aramaic:family:0ca94f7a3b5a1120b654c9b9",
     "aramaic:family:0e1840bead90781816a6a818",
+    "aramaic:family:0f4f194923ba02f4c189391f",
     "aramaic:family:0ff542a2384f3360e90c5b40",
     "aramaic:family:11679a4be0d2acd58a65f7a9",
     "aramaic:family:16f0e1382fb6c89161cc4120",
     "aramaic:family:18e5f36ab4fd31faef0d923a",
+    "aramaic:family:197ffac3c71573a0fa59c659",
     "aramaic:family:198330336d4e9c74778cc9b7",
     "aramaic:family:19866099a2555b8601763f0f",
+    "aramaic:family:19d03b32cad07110ddd6427a",
     "aramaic:family:1a890e63f45b4449cef87e5c",
     "aramaic:family:1ac57125f59653cf329a2bae",
+    "aramaic:family:1b7c92e7c3f835921b43f7fe",
     "aramaic:family:1be7e5d307df55935ecbf2ed",
     "aramaic:family:23f81542a00c2859d88d6eb1",
     "aramaic:family:243165b2ec7e7a2b312602bb",
     "aramaic:family:26cd4bee1901cd0d7b958057",
     "aramaic:family:2a0fd9a73fa920adf56b4284",
     "aramaic:family:2a8b380174a4d0be2c4bd4d1",
+    "aramaic:family:2acd0d57a7748625f1c009a9",
     "aramaic:family:2b4b6c224a6768d7d40bfe18",
     "aramaic:family:2be3b50c1e966a5d5cf7f7cc",
     "aramaic:family:2cb3f2854007559e1a642149",
     "aramaic:family:2d50c9bb13f8e577efcda32f",
     "aramaic:family:2f91efae55dafaaf3ccad88d",
     "aramaic:family:2fb3f4e7b9789caf3a6acd5b",
+    "aramaic:family:336fdcca7343a4e0f82c1ec2",
     "aramaic:family:33db7b030869137a9c824163",
+    "aramaic:family:361e2b5b7daea9c17ce82cd9",
     "aramaic:family:36c4e6ec4443955ac12e5a9d",
     "aramaic:family:37ef1c278ebee491dcfa8836",
     "aramaic:family:382ec3888abb2ad03efc53c1",
@@ -132,6 +139,8 @@
     "aramaic:family:3b9345adf1b1b9a63c67f246",
     "aramaic:family:3d59aadd77ad89b22d581d26",
     "aramaic:family:3d90d46d5d9ef3b881b99b23",
+    "aramaic:family:3ddde136898fbd9b20c25c86",
+    "aramaic:family:3f5802f7541e4f342aa0d81d",
     "aramaic:family:4252d750b2260d575a61bbf5",
     "aramaic:family:42b3bc580f7f47664e12b39c",
     "aramaic:family:474e0f1f78c86b99d64f4c4a",
@@ -342,27 +351,34 @@
     "aramaic:family:0973cfd715e4ab71a83a0160",
     "aramaic:family:0ca94f7a3b5a1120b654c9b9",
     "aramaic:family:0e1840bead90781816a6a818",
+    "aramaic:family:0f4f194923ba02f4c189391f",
     "aramaic:family:0ff542a2384f3360e90c5b40",
     "aramaic:family:11679a4be0d2acd58a65f7a9",
     "aramaic:family:16f0e1382fb6c89161cc4120",
     "aramaic:family:18e5f36ab4fd31faef0d923a",
+    "aramaic:family:197ffac3c71573a0fa59c659",
     "aramaic:family:198330336d4e9c74778cc9b7",
     "aramaic:family:19866099a2555b8601763f0f",
+    "aramaic:family:19d03b32cad07110ddd6427a",
     "aramaic:family:1a890e63f45b4449cef87e5c",
     "aramaic:family:1ac57125f59653cf329a2bae",
+    "aramaic:family:1b7c92e7c3f835921b43f7fe",
     "aramaic:family:1be7e5d307df55935ecbf2ed",
     "aramaic:family:23f81542a00c2859d88d6eb1",
     "aramaic:family:243165b2ec7e7a2b312602bb",
     "aramaic:family:26cd4bee1901cd0d7b958057",
     "aramaic:family:2a0fd9a73fa920adf56b4284",
     "aramaic:family:2a8b380174a4d0be2c4bd4d1",
+    "aramaic:family:2acd0d57a7748625f1c009a9",
     "aramaic:family:2b4b6c224a6768d7d40bfe18",
     "aramaic:family:2be3b50c1e966a5d5cf7f7cc",
     "aramaic:family:2cb3f2854007559e1a642149",
     "aramaic:family:2d50c9bb13f8e577efcda32f",
     "aramaic:family:2f91efae55dafaaf3ccad88d",
     "aramaic:family:2fb3f4e7b9789caf3a6acd5b",
+    "aramaic:family:336fdcca7343a4e0f82c1ec2",
     "aramaic:family:33db7b030869137a9c824163",
+    "aramaic:family:361e2b5b7daea9c17ce82cd9",
     "aramaic:family:36c4e6ec4443955ac12e5a9d",
     "aramaic:family:37ef1c278ebee491dcfa8836",
     "aramaic:family:382ec3888abb2ad03efc53c1",
@@ -372,6 +388,8 @@
     "aramaic:family:3b9345adf1b1b9a63c67f246",
     "aramaic:family:3d59aadd77ad89b22d581d26",
     "aramaic:family:3d90d46d5d9ef3b881b99b23",
+    "aramaic:family:3ddde136898fbd9b20c25c86",
+    "aramaic:family:3f5802f7541e4f342aa0d81d",
     "aramaic:family:4252d750b2260d575a61bbf5",
     "aramaic:family:42b3bc580f7f47664e12b39c",
     "aramaic:family:474e0f1f78c86b99d64f4c4a",
@@ -783,6 +801,17 @@
    ],
    "one_member_short": [
     {
+     "family_id": "aramaic:family:04a9002f976e7eb15bfdef3b",
+     "anchor_headword": "סום",
+     "member_count": 3,
+     "missing_entry_id": "kaikki_aramaic:1200:en-סום-arc-verb-yjaG~g~s",
+     "missing_headword": "סום",
+     "missing_pos": "verb",
+     "missing_gloss": "to put, to place",
+     "current_state": "SOURCE-GAP",
+     "reading_line": 30725
+    },
+    {
      "family_id": "aramaic:family:05ecd34dfcc0fa1e5fc037ec",
      "anchor_headword": "חוא",
      "member_count": 2,
@@ -827,6 +856,17 @@
      "reading_line": 10292
     },
     {
+     "family_id": "aramaic:family:1354f259a46cf4be5c462830",
+     "anchor_headword": "בוצלא",
+     "member_count": 2,
+     "missing_entry_id": "kaikki_aramaic:2031:en-בוצלא-arc-noun-KIlxZxaF",
+     "missing_headword": "בוצלא",
+     "missing_pos": "noun",
+     "missing_gloss": "onion",
+     "current_state": "MORPHOLOGY-GAP",
+     "reading_line": 30763
+    },
+    {
      "family_id": "aramaic:family:150ccb77cd11eb6f14fcd4fd",
      "anchor_headword": "אסא",
      "member_count": 2,
@@ -836,6 +876,50 @@
      "missing_gloss": "to heal, to cure",
      "current_state": "OPEN-CANDIDATE",
      "reading_line": 10316
+    },
+    {
+     "family_id": "aramaic:family:1a1aa8d73b6394bfb396fbe3",
+     "anchor_headword": "עול",
+     "member_count": 3,
+     "missing_entry_id": "kaikki_aramaic:1335:en-עולא-arc-noun-YE89q0Fg",
+     "missing_headword": "עולא",
+     "missing_pos": "noun",
+     "missing_gloss": "fetus, embryo",
+     "current_state": "SOURCE-GAP",
+     "reading_line": 30829
+    },
+    {
+     "family_id": "aramaic:family:1d39ce152c35e2ea857683da",
+     "anchor_headword": "פעלא",
+     "member_count": 2,
+     "missing_entry_id": "kaikki_aramaic:1758:en-פעלתא-arc-noun-VRG0k7JK",
+     "missing_headword": "פעלתא",
+     "missing_pos": "noun",
+     "missing_gloss": "worker, labourer/laborer",
+     "current_state": "MORPHOLOGY-GAP",
+     "reading_line": 30867
+    },
+    {
+     "family_id": "aramaic:family:1e830a4a8790d550f05d1021",
+     "anchor_headword": "פרזלא",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_aramaic:428:en-פרזלא-arc-noun-BOnA24fn",
+     "missing_headword": "פרזלא",
+     "missing_pos": "noun",
+     "missing_gloss": "iron",
+     "current_state": "SOURCE-GAP",
+     "reading_line": 30886
+    },
+    {
+     "family_id": "aramaic:family:21e77b4f30b26000090d2f1e",
+     "anchor_headword": "עומק",
+     "member_count": 2,
+     "missing_entry_id": "kaikki_aramaic:1170:en-עומקא-arc-noun-XBaOHpyp",
+     "missing_headword": "עומקא",
+     "missing_pos": "noun",
+     "missing_gloss": "depth, deepness",
+     "current_state": "MORPHOLOGY-GAP",
+     "reading_line": 30905
     },
     {
      "family_id": "aramaic:family:248808daa7b1d22f2f5cec7c",
@@ -1333,171 +1417,6 @@
      "reading_line": 30075
     },
     {
-     "family_id": "aramaic:family:04a9002f976e7eb15bfdef3b",
-     "anchor_headword": "סום",
-     "member_count": 3,
-     "missing_entry_id": "kaikki_aramaic:1200:en-סום-arc-verb-yjaG~g~s",
-     "missing_headword": "סום",
-     "missing_pos": "verb",
-     "missing_gloss": "to put, to place",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:0f4f194923ba02f4c189391f",
-     "anchor_headword": "עקרא",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:1842:en-עקרתא-arc-adj-vXpoUGR0",
-     "missing_headword": "עקרתא",
-     "missing_pos": "adj",
-     "missing_gloss": "barren, sterile",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:1354f259a46cf4be5c462830",
-     "anchor_headword": "בוצלא",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:2031:en-בוצלא-arc-noun-KIlxZxaF",
-     "missing_headword": "בוצלא",
-     "missing_pos": "noun",
-     "missing_gloss": "onion",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:197ffac3c71573a0fa59c659",
-     "anchor_headword": "זמר",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:1534:en-זמרא-arc-noun-MFlB3Woh",
-     "missing_headword": "זמרא",
-     "missing_pos": "noun",
-     "missing_gloss": "singing, music",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:19d03b32cad07110ddd6427a",
-     "anchor_headword": "טביא",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:1691:en-טביתא-arc-noun-fKzbWDBb",
-     "missing_headword": "טביתא",
-     "missing_pos": "noun",
-     "missing_gloss": "gazelle",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:1a1aa8d73b6394bfb396fbe3",
-     "anchor_headword": "עול",
-     "member_count": 3,
-     "missing_entry_id": "kaikki_aramaic:1335:en-עולא-arc-noun-YE89q0Fg",
-     "missing_headword": "עולא",
-     "missing_pos": "noun",
-     "missing_gloss": "fetus, embryo",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:1b7c92e7c3f835921b43f7fe",
-     "anchor_headword": "אסר",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:1303:en-אצר-arc-verb-zFXUGHMs",
-     "missing_headword": "אצר",
-     "missing_pos": "verb",
-     "missing_gloss": "to store, to stockpile",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:1d39ce152c35e2ea857683da",
-     "anchor_headword": "פעלא",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:1758:en-פעלתא-arc-noun-VRG0k7JK",
-     "missing_headword": "פעלתא",
-     "missing_pos": "noun",
-     "missing_gloss": "worker, labourer/laborer",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:1e830a4a8790d550f05d1021",
-     "anchor_headword": "פרזלא",
-     "member_count": 1,
-     "missing_entry_id": "kaikki_aramaic:428:en-פרזלא-arc-noun-BOnA24fn",
-     "missing_headword": "פרזלא",
-     "missing_pos": "noun",
-     "missing_gloss": "iron",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:21e77b4f30b26000090d2f1e",
-     "anchor_headword": "עומק",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:1170:en-עומקא-arc-noun-XBaOHpyp",
-     "missing_headword": "עומקא",
-     "missing_pos": "noun",
-     "missing_gloss": "depth, deepness",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:2acd0d57a7748625f1c009a9",
-     "anchor_headword": "אצבע",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:589:en-אצבע-arc-noun-0erdWuaU",
-     "missing_headword": "אצבע",
-     "missing_pos": "noun",
-     "missing_gloss": "singular absolute/construct state of אֶצְבְּעָא (ʾeṣbəʿā, “finger”)",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:336fdcca7343a4e0f82c1ec2",
-     "anchor_headword": "יבש",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:1584:en-יבשא-arc-noun-WIAdN5go",
-     "missing_headword": "יבשא",
-     "missing_pos": "noun",
-     "missing_gloss": "earth, dry land",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:361e2b5b7daea9c17ce82cd9",
-     "anchor_headword": "כפא",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:1411:en-כף-arc-noun-icde6LNv",
-     "missing_headword": "כף",
-     "missing_pos": "noun",
-     "missing_gloss": "absolute state of כַּפָּא (kappā, “palm”)",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:3ddde136898fbd9b20c25c86",
-     "anchor_headword": "עקב",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:97:en-עקב-arc-verb-l8qJXv-n",
-     "missing_headword": "עקב",
-     "missing_pos": "verb",
-     "missing_gloss": "to search, to investigate",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "aramaic:family:3f5802f7541e4f342aa0d81d",
-     "anchor_headword": "תמניא",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_aramaic:1945:en-תמני-arc-num-CALQIT4o",
-     "missing_headword": "תמני",
-     "missing_pos": "num",
-     "missing_gloss": "feminine of תְּמָנְיָא (təmānəyā, “eight”)",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
      "family_id": "aramaic:family:46fd58cb36bf254cd2f8db6b",
      "anchor_headword": "נטר",
      "member_count": 1,
@@ -1796,8 +1715,8 @@
        "headword": "סום",
        "pos": "verb",
        "gloss": "to put, to place",
-       "current_state": "UNRECORDED",
-       "reading_line": null
+       "current_state": "SOURCE-GAP",
+       "reading_line": 30725
       }
      ]
     },
@@ -1850,22 +1769,6 @@
      ]
     },
     {
-     "family_id": "aramaic:family:0f4f194923ba02f4c189391f",
-     "anchor_headword": "עקרא",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:1842:en-עקרתא-arc-adj-vXpoUGR0",
-       "headword": "עקרתא",
-       "pos": "adj",
-       "gloss": "barren, sterile",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
      "family_id": "aramaic:family:12429e088206511a325403c5",
      "anchor_headword": "אכר",
      "member_count": 2,
@@ -1892,8 +1795,8 @@
        "headword": "בוצלא",
        "pos": "noun",
        "gloss": "onion",
-       "current_state": "UNRECORDED",
-       "reading_line": null
+       "current_state": "MORPHOLOGY-GAP",
+       "reading_line": 30763
       }
      ]
     },
@@ -1914,38 +1817,6 @@
      ]
     },
     {
-     "family_id": "aramaic:family:197ffac3c71573a0fa59c659",
-     "anchor_headword": "זמר",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:1534:en-זמרא-arc-noun-MFlB3Woh",
-       "headword": "זמרא",
-       "pos": "noun",
-       "gloss": "singing, music",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "aramaic:family:19d03b32cad07110ddd6427a",
-     "anchor_headword": "טביא",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:1691:en-טביתא-arc-noun-fKzbWDBb",
-       "headword": "טביתא",
-       "pos": "noun",
-       "gloss": "gazelle",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
      "family_id": "aramaic:family:1a1aa8d73b6394bfb396fbe3",
      "anchor_headword": "עול",
      "member_count": 3,
@@ -1956,24 +1827,8 @@
        "headword": "עולא",
        "pos": "noun",
        "gloss": "fetus, embryo",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "aramaic:family:1b7c92e7c3f835921b43f7fe",
-     "anchor_headword": "אסר",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:1303:en-אצר-arc-verb-zFXUGHMs",
-       "headword": "אצר",
-       "pos": "verb",
-       "gloss": "to store, to stockpile",
-       "current_state": "UNRECORDED",
-       "reading_line": null
+       "current_state": "SOURCE-GAP",
+       "reading_line": 30829
       }
      ]
     },
@@ -1988,8 +1843,8 @@
        "headword": "פעלתא",
        "pos": "noun",
        "gloss": "worker, labourer/laborer",
-       "current_state": "UNRECORDED",
-       "reading_line": null
+       "current_state": "MORPHOLOGY-GAP",
+       "reading_line": 30867
       }
      ]
     },
@@ -2004,8 +1859,8 @@
        "headword": "פרזלא",
        "pos": "noun",
        "gloss": "iron",
-       "current_state": "UNRECORDED",
-       "reading_line": null
+       "current_state": "SOURCE-GAP",
+       "reading_line": 30886
       }
      ]
     },
@@ -2020,8 +1875,8 @@
        "headword": "עומקא",
        "pos": "noun",
        "gloss": "depth, deepness",
-       "current_state": "UNRECORDED",
-       "reading_line": null
+       "current_state": "MORPHOLOGY-GAP",
+       "reading_line": 30905
       }
      ]
     },
@@ -2074,22 +1929,6 @@
      ]
     },
     {
-     "family_id": "aramaic:family:2acd0d57a7748625f1c009a9",
-     "anchor_headword": "אצבע",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:589:en-אצבע-arc-noun-0erdWuaU",
-       "headword": "אצבע",
-       "pos": "noun",
-       "gloss": "singular absolute/construct state of אֶצְבְּעָא (ʾeṣbəʿā, “finger”)",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
      "family_id": "aramaic:family:326d1915426f258fadcf32e5",
      "anchor_headword": "סרא",
      "member_count": 2,
@@ -2106,38 +1945,6 @@
      ]
     },
     {
-     "family_id": "aramaic:family:336fdcca7343a4e0f82c1ec2",
-     "anchor_headword": "יבש",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:1584:en-יבשא-arc-noun-WIAdN5go",
-       "headword": "יבשא",
-       "pos": "noun",
-       "gloss": "earth, dry land",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "aramaic:family:361e2b5b7daea9c17ce82cd9",
-     "anchor_headword": "כפא",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:1411:en-כף-arc-noun-icde6LNv",
-       "headword": "כף",
-       "pos": "noun",
-       "gloss": "absolute state of כַּפָּא (kappā, “palm”)",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
      "family_id": "aramaic:family:37de8eebbac3c3c855bfec90",
      "anchor_headword": "ימא",
      "member_count": 1,
@@ -2150,38 +1957,6 @@
        "gloss": "sea",
        "current_state": "OPEN-CANDIDATE",
        "reading_line": 29866
-      }
-     ]
-    },
-    {
-     "family_id": "aramaic:family:3ddde136898fbd9b20c25c86",
-     "anchor_headword": "עקב",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:97:en-עקב-arc-verb-l8qJXv-n",
-       "headword": "עקב",
-       "pos": "verb",
-       "gloss": "to search, to investigate",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "aramaic:family:3f5802f7541e4f342aa0d81d",
-     "anchor_headword": "תמניא",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:1945:en-תמני-arc-num-CALQIT4o",
-       "headword": "תמני",
-       "pos": "num",
-       "gloss": "feminine of תְּמָנְיָא (təmānəyā, “eight”)",
-       "current_state": "UNRECORDED",
-       "reading_line": null
       }
      ]
     },
@@ -5077,7 +4852,7 @@
    "one_member_short_count": 340,
    "issued_member_dispositions": {
     "positive": 309,
-    "closures": 1140,
+    "closures": 1141,
     "by_outcome": {
      "ABBREVIATION": 88,
      "COMPOUND-BOUNDARY": 138,
@@ -5085,26 +4860,26 @@
      "FUNCTION-WORD": 1,
      "INTRA-HOUSE-TRANSFER": 96,
      "LOAN-ROUTE-ISOLATED": 101,
-     "LOANWORD": 266,
+     "LOANWORD": 267,
      "NO-TRACE": 1,
      "NONLEXICAL-ISOLATED": 66,
-     "NUCLEUS-ECHO": 3,
+     "NUCLEUS-ECHO": 4,
      "NUCLEUS-TRACE": 9,
      "PROPER-NAME-ISOLATED": 71,
-     "ROOT-ECHO": 113,
-     "ROOT-TRACE": 184
+     "ROOT-ECHO": 110,
+     "ROOT-TRACE": 186
     }
    },
    "incomplete_members_by_state": {
     "LAW-GAP": 1,
     "OPEN-CANDIDATE": 10,
-    "UNRECORDED": 1313
+    "UNRECORDED": 1312
    },
    "block_reconciliation": {
     "ambiguous-stale-heading": 151,
     "current-heading": 932,
-    "stable-entry-reconciled": 722,
-    "unmapped-stale-heading": 4
+    "stable-entry-reconciled": 731,
+    "unmapped-stale-heading": 5
    },
    "eligible_family_ids": [
     "hebrew:family:002181eb560b984daace695f",
@@ -18750,6 +18525,30 @@
      ]
     },
     {
+     "family_id": "hebrew:family:d36301bad3e7f4b63f56f780",
+     "anchor_headword": "הינדי",
+     "member_count": 3,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:15465:en-הינדי-he-adj-00uQsBwq",
+       "headword": "הינדי",
+       "pos": "adj",
+       "gloss": "belonging or relating to India, anything Indian",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:15467:en-הינדי-he-noun-eaj2Q~XS",
+       "headword": "הינדי",
+       "pos": "noun",
+       "gloss": "a sword of Indian steel",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:d392f66de4846a5100bddef1",
      "anchor_headword": "פרדס",
      "member_count": 2,
@@ -21392,38 +21191,6 @@
        "headword": "הזדיין",
        "pos": "verb",
        "gloss": "to arm oneself",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "hebrew:family:d36301bad3e7f4b63f56f780",
-     "anchor_headword": "הינדי",
-     "member_count": 3,
-     "missing_member_count": 3,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_hebrew:15465:en-הינדי-he-adj-00uQsBwq",
-       "headword": "הינדי",
-       "pos": "adj",
-       "gloss": "belonging or relating to India, anything Indian",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_hebrew:15466:en-הינדי-he-name-oonRlPW~",
-       "headword": "הינדי",
-       "pos": "name",
-       "gloss": "Hindi (modern Standard Hindi, a standardized and Sanskritized version of the Hindustani language, which is based on Khariboli)",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_hebrew:15467:en-הינדי-he-noun-eaj2Q~XS",
-       "headword": "הינדי",
-       "pos": "noun",
-       "gloss": "a sword of Indian steel",
        "current_state": "UNRECORDED",
        "reading_line": null
       }

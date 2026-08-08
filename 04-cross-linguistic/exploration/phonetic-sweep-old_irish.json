@@ -15,12 +15,159 @@
     "كبذ"
    ],
    "best": "قبض",
-   "overlap": 5,
+   "overlap": 12,
    "shared": [
-    "grasp"
+    "grasp",
+    "hold",
+    "seize",
+    "take"
    ],
    "direct": true,
    "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "coicéile",
+   "say": "coicéile",
+   "skeleton": "cl",
+   "gloss": "vassal, bondsman (compare céile); companion, fellow, friend, comrade",
+   "candidates_found": [
+    "قر",
+    "كل",
+    "كر",
+    "قل",
+    "جل",
+    "جر"
+   ],
+   "best": "قر",
+   "overlap": 12,
+   "shared": [
+    "companion",
+    "comrade",
+    "fellow",
+    "friend"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "céile",
+   "say": "céile",
+   "skeleton": "cl",
+   "gloss": "servant, bondsman, subject; liege, vassal, the recipient of a fief",
+   "candidates_found": [
+    "قر",
+    "كل",
+    "كر",
+    "قل",
+    "جل",
+    "جر"
+   ],
+   "best": "قر",
+   "overlap": 9,
+   "shared": [
+    "companion",
+    "fellow",
+    "husband"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "corp",
+   "say": "corp",
+   "skeleton": "crp",
+   "gloss": "body; corpse",
+   "candidates_found": [
+    "قرب",
+    "قلب",
+    "كرب",
+    "كرف",
+    "كلب",
+    "كلف",
+    "قرف",
+    "قلف",
+    "جرب",
+    "جرف",
+    "جلب",
+    "جلف"
+   ],
+   "best": "قرب",
+   "overlap": 6,
+   "shared": [
+    "communion",
+    "eucharist"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "othar",
+   "say": "othar",
+   "skeleton": "THr",
+   "gloss": "sickness, illness (of the condition, not the disease); state of being tended in illness, n",
+   "candidates_found": [
+    "تل",
+    "ثر",
+    "ثل",
+    "تر",
+    "طر",
+    "طل"
+   ],
+   "best": "تل",
+   "overlap": 6,
+   "shared": [
+    "condition",
+    "lying"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "lac",
+   "say": "lac",
+   "skeleton": "lc",
+   "gloss": "weak, feeble; soft, smooth",
+   "candidates_found": [
+    "رك",
+    "لك",
+    "لق",
+    "لج",
+    "رق",
+    "رج"
+   ],
+   "best": "رك",
+   "overlap": 6,
+   "shared": [
+    "feeble",
+    "weak"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "cin",
+   "say": "cin",
+   "skeleton": "cn",
+   "gloss": "fault, guilt; sin, crime",
+   "candidates_found": [
+    "جن",
+    "كن",
+    "قن"
+   ],
+   "best": "جن",
+   "overlap": 6,
+   "shared": [
+    "crime",
+    "guilt"
+   ],
+   "direct": true,
+   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -52,6 +199,25 @@
    "loan_suspect": false
   },
   {
+   "branch": "cenn",
+   "say": "cenn",
+   "skeleton": "cn",
+   "gloss": "skin, covering; shell (of an animal)",
+   "candidates_found": [
+    "جن",
+    "كن",
+    "قن"
+   ],
+   "best": "جن",
+   "overlap": 4,
+   "shared": [
+    "covering"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "chell",
    "say": "chell",
    "skeleton": "CHLL",
@@ -65,6 +231,79 @@
    "overlap": 3,
    "shared": [
     "cell"
+   ],
+   "direct": true,
+   "depth": 4,
+   "loan_suspect": false
+  },
+  {
+   "branch": "poplach",
+   "say": "poplach",
+   "skeleton": "plCH",
+   "gloss": "pertaining to the people, public",
+   "candidates_found": [
+    "بلك",
+    "بلخ",
+    "بلح",
+    "برخ",
+    "برح",
+    "برك",
+    "فلخ",
+    "فلح",
+    "فلك",
+    "فرخ",
+    "فرح",
+    "فرك"
+   ],
+   "best": "بلك",
+   "overlap": 3,
+   "shared": [
+    "people"
+   ],
+   "direct": true,
+   "depth": 4,
+   "loan_suspect": false
+  },
+  {
+   "branch": "chéill",
+   "say": "chéill",
+   "skeleton": "CHLL",
+   "gloss": "lenited form of céill",
+   "candidates_found": [
+    "خل",
+    "حل",
+    "كل"
+   ],
+   "best": "خل",
+   "overlap": 3,
+   "shared": [
+    "ill"
+   ],
+   "direct": true,
+   "depth": 4,
+   "loan_suspect": false
+  },
+  {
+   "branch": "subach",
+   "say": "subach",
+   "skeleton": "sbCH",
+   "gloss": "cheerful, merry, happy",
+   "candidates_found": [
+    "صبح",
+    "سبخ",
+    "سبح",
+    "سبك",
+    "شبخ",
+    "شبح",
+    "شبك",
+    "صبخ",
+    "صبك",
+    "زبح"
+   ],
+   "best": "صبح",
+   "overlap": 3,
+   "shared": [
+    "cheerful"
    ],
    "direct": true,
    "depth": 4,
@@ -93,6 +332,30 @@
    "loan_suspect": false
   },
   {
+   "branch": "doairicc",
+   "say": "doairicc",
+   "skeleton": "drCC",
+   "gloss": "to come; to find",
+   "candidates_found": [
+    "دلق",
+    "درق",
+    "درك",
+    "دلك",
+    "ضرك",
+    "ذرق",
+    "ذلق",
+    "ذلك"
+   ],
+   "best": "دلق",
+   "overlap": 3,
+   "shared": [
+    "come"
+   ],
+   "direct": true,
+   "depth": 4,
+   "loan_suspect": false
+  },
+  {
    "branch": "chíall",
    "say": "chíall",
    "skeleton": "CHLL",
@@ -109,6 +372,47 @@
    ],
    "direct": true,
    "depth": 4,
+   "loan_suspect": false
+  },
+  {
+   "branch": "tall",
+   "say": "tall",
+   "skeleton": "tLL",
+   "gloss": "that (used after the noun, which is preceded by the definite article)",
+   "candidates_found": [
+    "ثل",
+    "تل",
+    "طل"
+   ],
+   "best": "ثل",
+   "overlap": 3,
+   "shared": [
+    "which"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "loch",
+   "say": "loch",
+   "skeleton": "lCH",
+   "gloss": "black, dark",
+   "candidates_found": [
+    "لح",
+    "لخ",
+    "لك",
+    "رخ",
+    "رح",
+    "رك"
+   ],
+   "best": "لح",
+   "overlap": 3,
+   "shared": [
+    "black"
+   ],
+   "direct": true,
+   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -134,6 +438,48 @@
    "loan_suspect": false
   },
   {
+   "branch": "fern",
+   "say": "fern",
+   "skeleton": "frn",
+   "gloss": "alder; shield (made of alder wood)",
+   "candidates_found": [
+    "برن",
+    "فرن",
+    "فلن",
+    "بلن"
+   ],
+   "best": "برن",
+   "overlap": 3,
+   "shared": [
+    "stake"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "cairm",
+   "say": "cairm",
+   "skeleton": "crm",
+   "gloss": "where?",
+   "candidates_found": [
+    "جرم",
+    "كرم",
+    "كلم",
+    "قرم",
+    "قلم",
+    "جلم"
+   ],
+   "best": "جرم",
+   "overlap": 3,
+   "shared": [
+    "where"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "fáth",
    "say": "fáth",
    "skeleton": "fTH",
@@ -149,6 +495,33 @@
    "overlap": 3,
    "shared": [
     "cause"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "clár",
+   "say": "clár",
+   "skeleton": "clr",
+   "gloss": "board, plank; stave (of a vat or cask)",
+   "candidates_found": [
+    "قلل",
+    "كلر",
+    "كلل",
+    "كرر",
+    "كرل",
+    "قلر",
+    "قرر",
+    "قرل",
+    "جلل",
+    "جرر",
+    "جرل"
+   ],
+   "best": "قلل",
+   "overlap": 3,
+   "shared": [
+    "board"
    ],
    "direct": true,
    "depth": 3,
@@ -177,24 +550,51 @@
    "loan_suspect": false
   },
   {
-   "branch": "gríb",
-   "say": "gríb",
-   "skeleton": "grb",
-   "gloss": "gyrfalcon, griffin; claw, talon",
+   "branch": "paiter",
+   "say": "paiter",
+   "skeleton": "ptr",
+   "gloss": "paternoster, Lord's Prayer; a short, formulaic prayer",
    "candidates_found": [
-    "كلب",
-    "جرب",
-    "جلب",
-    "غرب",
-    "غلب",
-    "قرب",
-    "قلب",
-    "كرب"
+    "فطر",
+    "بتر",
+    "بتل",
+    "بطر",
+    "بطل",
+    "بثر",
+    "بثل",
+    "فتر",
+    "فتل",
+    "فثر",
+    "فثل"
    ],
-   "best": "كلب",
+   "best": "فطر",
    "overlap": 3,
    "shared": [
-    "claw"
+    "short"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "samail",
+   "say": "samail",
+   "skeleton": "sml",
+   "gloss": "like, as",
+   "candidates_found": [
+    "شمل",
+    "شمر",
+    "سمل",
+    "سمر",
+    "صمل",
+    "صمر",
+    "زمل",
+    "زمر"
+   ],
+   "best": "شمل",
+   "overlap": 3,
+   "shared": [
+    "like"
    ],
    "direct": true,
    "depth": 3,
@@ -246,6 +646,28 @@
    "loan_suspect": false
   },
   {
+   "branch": "adbar",
+   "say": "adbar",
+   "skeleton": "dbr",
+   "gloss": "material, matter (kind of substance); reason (excuse, explanation; motive for an action or",
+   "candidates_found": [
+    "دبر",
+    "دبل",
+    "ضبر",
+    "ضبل",
+    "ذبر",
+    "ذبل"
+   ],
+   "best": "دبر",
+   "overlap": 3,
+   "shared": [
+    "cause"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "aricc",
    "say": "aricc",
    "skeleton": "rCC",
@@ -260,6 +682,196 @@
    "overlap": 3,
    "shared": [
     "find"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "fodaim",
+   "say": "fodaim",
+   "skeleton": "fdm",
+   "gloss": "to suffer, to endure; to allow",
+   "candidates_found": [
+    "فدم",
+    "بدم",
+    "بضم",
+    "بذم"
+   ],
+   "best": "فدم",
+   "overlap": 3,
+   "shared": [
+    "suffer"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "isindí",
+   "say": "isindí",
+   "skeleton": "snd",
+   "gloss": "in him/her who, in that which",
+   "candidates_found": [
+    "سند",
+    "زند",
+    "شنذ",
+    "صند"
+   ],
+   "best": "سند",
+   "overlap": 3,
+   "shared": [
+    "which"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "corop",
+   "say": "corop",
+   "skeleton": "crp",
+   "gloss": "so that (he/she/it) may be",
+   "candidates_found": [
+    "قرب",
+    "كرب",
+    "كرف",
+    "كلب",
+    "كلف",
+    "قرف",
+    "قلب",
+    "قلف",
+    "جرب",
+    "جرف",
+    "جلب",
+    "جلف"
+   ],
+   "best": "قرب",
+   "overlap": 3,
+   "shared": [
+    "may"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "sabbait",
+   "say": "sabbait",
+   "skeleton": "sbt",
+   "gloss": "Sabbath",
+   "candidates_found": [
+    "سبت",
+    "سبط",
+    "شبت",
+    "شبط",
+    "شبث",
+    "صبط",
+    "صبث",
+    "زبط"
+   ],
+   "best": "سبت",
+   "overlap": 3,
+   "shared": [
+    "sabbath"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "dofil",
+   "say": "dofil",
+   "skeleton": "dfl",
+   "gloss": "to be at hand, be approaching, be on one's way (with the subject of the English verb expre",
+   "candidates_found": [
+    "دبر",
+    "دفل",
+    "دفر",
+    "دبل",
+    "ضفر",
+    "ضبل",
+    "ضبر",
+    "ذفل",
+    "ذفر",
+    "ذبل",
+    "ذبر"
+   ],
+   "best": "دبر",
+   "overlap": 3,
+   "shared": [
+    "direct"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "arcain",
+   "say": "arcain",
+   "skeleton": "rcn",
+   "gloss": "to sing, recite",
+   "candidates_found": [
+    "لقن",
+    "ركن",
+    "رقن",
+    "رجن",
+    "لكن",
+    "لجن"
+   ],
+   "best": "لقن",
+   "overlap": 3,
+   "shared": [
+    "recite"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "cumal",
+   "say": "cumal",
+   "skeleton": "cml",
+   "gloss": "female servant or slave; a unit of measurement generally worth three milking cows",
+   "candidates_found": [
+    "جمل",
+    "كمل",
+    "كمر",
+    "قمل",
+    "قمر",
+    "جمر"
+   ],
+   "best": "جمل",
+   "overlap": 3,
+   "shared": [
+    "female"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "fortá",
+   "say": "fortá",
+   "skeleton": "frt",
+   "gloss": "to remain, be left over; to be upon",
+   "candidates_found": [
+    "فرط",
+    "فرت",
+    "فرث",
+    "فلت",
+    "فلط",
+    "برت",
+    "برط",
+    "برث",
+    "بلت",
+    "بلط",
+    "بلث"
+   ],
+   "best": "فرط",
+   "overlap": 3,
+   "shared": [
+    "over"
    ],
    "direct": true,
    "depth": 3,
@@ -287,6 +899,163 @@
    ],
    "direct": true,
    "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "doopair",
+   "say": "doopair",
+   "skeleton": "dpr",
+   "gloss": "to take away, deprive",
+   "candidates_found": [
+    "دبر",
+    "دبل",
+    "دفر",
+    "دفل",
+    "ضبر",
+    "ضبل",
+    "ضفر",
+    "ذبر",
+    "ذبل",
+    "ذفر",
+    "ذفل"
+   ],
+   "best": "دبر",
+   "overlap": 3,
+   "shared": [
+    "away"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "for",
+   "say": "for",
+   "skeleton": "fr",
+   "gloss": "your (plural); you (plural; as the object of a preposition that takes the genitive)",
+   "candidates_found": [
+    "فر",
+    "فل",
+    "بر",
+    "بل"
+   ],
+   "best": "فر",
+   "overlap": 3,
+   "shared": [
+    "object"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "fri",
+   "say": "fri",
+   "skeleton": "fr",
+   "gloss": "towards, to; against",
+   "candidates_found": [
+    "فر",
+    "بر",
+    "فل",
+    "بل"
+   ],
+   "best": "فر",
+   "overlap": 3,
+   "shared": [
+    "against"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "sel",
+   "say": "sel",
+   "skeleton": "sl",
+   "gloss": "a turn, a time, a while",
+   "candidates_found": [
+    "صل",
+    "سل",
+    "سر",
+    "شل",
+    "شر",
+    "صر",
+    "زل",
+    "زر"
+   ],
+   "best": "صل",
+   "overlap": 3,
+   "shared": [
+    "turn"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "gel",
+   "say": "gel",
+   "skeleton": "gl",
+   "gloss": "bright; clear",
+   "candidates_found": [
+    "غر",
+    "جل",
+    "جر",
+    "غل",
+    "قل",
+    "قر",
+    "كل",
+    "كر"
+   ],
+   "best": "غر",
+   "overlap": 3,
+   "shared": [
+    "white"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "fer",
+   "say": "fer",
+   "skeleton": "fr",
+   "gloss": "man; husband",
+   "candidates_found": [
+    "بل",
+    "فر",
+    "فل",
+    "بر"
+   ],
+   "best": "بل",
+   "overlap": 3,
+   "shared": [
+    "man"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "tra",
+   "say": "tra",
+   "skeleton": "tr",
+   "gloss": "over/across his/her/its/their",
+   "candidates_found": [
+    "تل",
+    "ثل",
+    "تر",
+    "طر",
+    "طل",
+    "ثر"
+   ],
+   "best": "تل",
+   "overlap": 3,
+   "shared": [
+    "their"
+   ],
+   "direct": true,
+   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -326,6 +1095,50 @@
    "loan_suspect": false
   },
   {
+   "branch": "tara",
+   "say": "tara",
+   "skeleton": "tr",
+   "gloss": "over/across his/her/its/their",
+   "candidates_found": [
+    "تل",
+    "ثل",
+    "تر",
+    "طر",
+    "طل",
+    "ثر"
+   ],
+   "best": "تل",
+   "overlap": 3,
+   "shared": [
+    "their"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "tara",
+   "say": "tara",
+   "skeleton": "tr",
+   "gloss": "over/across which/whom",
+   "candidates_found": [
+    "ثل",
+    "تر",
+    "طر",
+    "تل",
+    "طل",
+    "ثر"
+   ],
+   "best": "ثل",
+   "overlap": 3,
+   "shared": [
+    "which"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "fuit",
    "say": "fuit",
    "skeleton": "ft",
@@ -341,6 +1154,28 @@
    "overlap": 3,
    "shared": [
     "being"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "lóg",
+   "say": "lóg",
+   "skeleton": "lg",
+   "gloss": "value, equivalent, worth; reward, requital, compensation, payment, price",
+   "candidates_found": [
+    "لك",
+    "رك",
+    "لج",
+    "لق",
+    "رج",
+    "رق"
+   ],
+   "best": "لك",
+   "overlap": 3,
+   "shared": [
+    "equivalent"
    ],
    "direct": true,
    "depth": 2,
@@ -365,6 +1200,249 @@
    "loan_suspect": false
   },
   {
+   "branch": "ocus",
+   "say": "ocus",
+   "skeleton": "cs",
+   "gloss": "near; close (of a relationship)",
+   "candidates_found": [
+    "قص",
+    "كس",
+    "كش",
+    "كص",
+    "كز",
+    "قس",
+    "قش",
+    "قز",
+    "جس",
+    "جش",
+    "جص",
+    "جز"
+   ],
+   "best": "قص",
+   "overlap": 3,
+   "shared": [
+    "near"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "adaig",
+   "say": "adaig",
+   "skeleton": "dg",
+   "gloss": "to drive, impel",
+   "candidates_found": [
+    "دق",
+    "دج",
+    "دك",
+    "ضج",
+    "ضق",
+    "ضك",
+    "ذج",
+    "ذغ"
+   ],
+   "best": "دق",
+   "overlap": 3,
+   "shared": [
+    "drive"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "siur",
+   "say": "siur",
+   "skeleton": "sr",
+   "gloss": "sister; kinswoman, female relation",
+   "candidates_found": [
+    "سل",
+    "صر",
+    "سر",
+    "شر",
+    "شل",
+    "صل",
+    "زر",
+    "زل"
+   ],
+   "best": "سل",
+   "overlap": 3,
+   "shared": [
+    "female"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "dóer",
+   "say": "dóer",
+   "skeleton": "dr",
+   "gloss": "servile; unfree",
+   "candidates_found": [
+    "ذل",
+    "در",
+    "دل",
+    "ضر",
+    "ضل",
+    "ذر"
+   ],
+   "best": "ذل",
+   "overlap": 3,
+   "shared": [
+    "servile"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "fíad",
+   "say": "fíad",
+   "skeleton": "fd",
+   "gloss": "before (in time); before (in space), in front of",
+   "candidates_found": [
+    "فد",
+    "بد",
+    "فض",
+    "فذ",
+    "بض",
+    "بذ"
+   ],
+   "best": "فد",
+   "overlap": 3,
+   "shared": [
+    "time"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "caire",
+   "say": "caire",
+   "skeleton": "cr",
+   "gloss": "crime, sin; fault, reproach",
+   "candidates_found": [
+    "جر",
+    "كر",
+    "كل",
+    "قر",
+    "قل",
+    "جل"
+   ],
+   "best": "جر",
+   "overlap": 3,
+   "shared": [
+    "crime"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "caile",
+   "say": "caile",
+   "skeleton": "cl",
+   "gloss": "serving-girl, maid (sometimes pejorative)",
+   "candidates_found": [
+    "جر",
+    "كل",
+    "كر",
+    "قل",
+    "قر",
+    "جل"
+   ],
+   "best": "جر",
+   "overlap": 3,
+   "shared": [
+    "serving"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "carae",
+   "say": "carae",
+   "skeleton": "cr",
+   "gloss": "friend; relative, kinsman",
+   "candidates_found": [
+    "قر",
+    "كر",
+    "كل",
+    "قل",
+    "جر",
+    "جل"
+   ],
+   "best": "قر",
+   "overlap": 3,
+   "shared": [
+    "friend"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "cáin",
+   "say": "cáin",
+   "skeleton": "cn",
+   "gloss": "law (system, set of regulations), regulation, rule; legal due, fine, tax, tribute",
+   "candidates_found": [
+    "كن",
+    "قن",
+    "جن"
+   ],
+   "best": "كن",
+   "overlap": 3,
+   "shared": [
+    "law"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "odb",
+   "say": "odb",
+   "skeleton": "db",
+   "gloss": "knot (in a tree, branch, etc.); lump, swelling, protuberance",
+   "candidates_found": [
+    "ضب",
+    "دب",
+    "ذب"
+   ],
+   "best": "ضب",
+   "overlap": 3,
+   "shared": [
+    "tree"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "canóin",
+   "say": "canóin",
+   "skeleton": "cn",
+   "gloss": "canon (religious law), canonical text of Scripture",
+   "candidates_found": [
+    "كن",
+    "قن",
+    "جن"
+   ],
+   "best": "كن",
+   "overlap": 3,
+   "shared": [
+    "law"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "búar",
    "say": "búar",
    "skeleton": "br",
@@ -377,6 +1455,89 @@
    "overlap": 3,
    "shared": [
     "cattle"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "clú",
+   "say": "clú",
+   "skeleton": "cl",
+   "gloss": "fame (state of being famous)",
+   "candidates_found": [
+    "كل",
+    "جل",
+    "قل",
+    "كر",
+    "قر",
+    "جر"
+   ],
+   "best": "كل",
+   "overlap": 3,
+   "shared": [
+    "being"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "cúán",
+   "say": "cúán",
+   "skeleton": "cn",
+   "gloss": "small dog",
+   "candidates_found": [
+    "قن",
+    "كن",
+    "جن"
+   ],
+   "best": "قن",
+   "overlap": 3,
+   "shared": [
+    "small"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "dolá",
+   "say": "dolá",
+   "skeleton": "dl",
+   "gloss": "to put away; to expel, reject",
+   "candidates_found": [
+    "ذر",
+    "دل",
+    "در",
+    "ضل",
+    "ضر",
+    "ذل"
+   ],
+   "best": "ذر",
+   "overlap": 3,
+   "shared": [
+    "away"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "soid",
+   "say": "soid",
+   "skeleton": "sd",
+   "gloss": "to turn; to turn around, to return",
+   "candidates_found": [
+    "صد",
+    "سد",
+    "شد",
+    "شذ"
+   ],
+   "best": "صد",
+   "overlap": 3,
+   "shared": [
+    "turn"
    ],
    "direct": true,
    "depth": 2,
@@ -429,6 +1590,30 @@
    "loan_suspect": false
   },
   {
+   "branch": "doaig",
+   "say": "doaig",
+   "skeleton": "dg",
+   "gloss": "to drive off, drive away",
+   "candidates_found": [
+    "دق",
+    "دج",
+    "دك",
+    "ضج",
+    "ضق",
+    "ضك",
+    "ذج",
+    "ذغ"
+   ],
+   "best": "دق",
+   "overlap": 3,
+   "shared": [
+    "drive"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "conoí",
    "say": "conoí",
    "skeleton": "cn",
@@ -442,6 +1627,71 @@
    "overlap": 3,
    "shared": [
     "protect"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "resíu",
+   "say": "resíu",
+   "skeleton": "rs",
+   "gloss": "before",
+   "candidates_found": [
+    "رس",
+    "رش",
+    "رص",
+    "رز",
+    "لس",
+    "لص",
+    "لز"
+   ],
+   "best": "رس",
+   "overlap": 3,
+   "shared": [
+    "before"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "fíal",
+   "say": "fíal",
+   "skeleton": "fl",
+   "gloss": "noble, becoming, generous",
+   "candidates_found": [
+    "بر",
+    "فل",
+    "فر",
+    "بل"
+   ],
+   "best": "بر",
+   "overlap": 3,
+   "shared": [
+    "generous"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "cíar",
+   "say": "cíar",
+   "skeleton": "cr",
+   "gloss": "murky, dark, gloomy; black",
+   "candidates_found": [
+    "كل",
+    "جر",
+    "كر",
+    "قر",
+    "قل",
+    "جل"
+   ],
+   "best": "كل",
+   "overlap": 3,
+   "shared": [
+    "black"
    ],
    "direct": true,
    "depth": 2,
@@ -469,6 +1719,58 @@
    ],
    "direct": true,
    "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "aisec",
+   "say": "aisec",
+   "skeleton": "sc",
+   "gloss": "act of giving back, restitution",
+   "candidates_found": [
+    "زق",
+    "زك",
+    "سك",
+    "سج",
+    "شك",
+    "شق",
+    "شج",
+    "صك",
+    "صق",
+    "صج",
+    "زج"
+   ],
+   "best": "زق",
+   "overlap": 3,
+   "shared": [
+    "act"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "populda",
+   "say": "populda",
+   "skeleton": "pld",
+   "gloss": "belonging to the people, tribe, nation",
+   "candidates_found": [
+    "فرد",
+    "بلد",
+    "برد",
+    "برض",
+    "برذ",
+    "فلد",
+    "فلذ",
+    "فرض"
+   ],
+   "best": "فرد",
+   "overlap": 2,
+   "shared": [
+    "belonging",
+    "people"
+   ],
+   "direct": false,
+   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -562,26 +1864,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "bocht",
-   "say": "bocht",
-   "skeleton": "bCHt",
-   "gloss": "poor; of one who has taken a vow of poverty",
-   "candidates_found": [
-    "بحث",
-    "بخت",
-    "بحت",
-    "بكت"
-   ],
-   "best": "بحث",
-   "overlap": 1,
-   "shared": [
-    "who"
-   ],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "scoth",
    "say": "scoth",
    "skeleton": "SCTH",
@@ -602,44 +1884,16 @@
    "loan_suspect": false
   },
   {
-   "branch": "poplach",
-   "say": "poplach",
-   "skeleton": "plCH",
-   "gloss": "pertaining to the people, public",
-   "candidates_found": [
-    "فلك",
-    "بلخ",
-    "بلح",
-    "بلك",
-    "برخ",
-    "برح",
-    "برك",
-    "فلخ",
-    "فلح",
-    "فرخ",
-    "فرح",
-    "فرك"
-   ],
-   "best": "فلك",
-   "overlap": 1,
-   "shared": [
-    "pertaining"
-   ],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "foithir",
    "say": "foithir",
    "skeleton": "fTHr",
    "gloss": "a piece of unreclaimed valley or wooded land",
    "candidates_found": [
-    "فتل",
     "بتل",
     "فثر",
     "فثل",
     "فتر",
+    "فتل",
     "فطر",
     "بثر",
     "بثل",
@@ -647,7 +1901,7 @@
     "بطر",
     "بطل"
    ],
-   "best": "فتل",
+   "best": "بتل",
    "overlap": 1,
    "shared": [
     "piece"
@@ -698,57 +1952,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "follus",
-   "say": "follus",
-   "skeleton": "fLLs",
-   "gloss": "clear, evident",
-   "candidates_found": [
-    "بلز",
-    "فلس",
-    "فلص",
-    "فلز",
-    "بلس",
-    "بلش",
-    "بلص"
-   ],
-   "best": "بلز",
-   "overlap": 1,
-   "shared": [
-    "clear"
-   ],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fochlae",
-   "say": "fochlae",
-   "skeleton": "fCHl",
-   "gloss": "the north (especially of Ireland); seat of honor",
-   "candidates_found": [
-    "فخر",
-    "فخل",
-    "فحل",
-    "فحر",
-    "فكل",
-    "فكر",
-    "بخل",
-    "بخر",
-    "بحل",
-    "بحر",
-    "بكل",
-    "بكر"
-   ],
-   "best": "فخر",
-   "overlap": 1,
-   "shared": [
-    "honor"
-   ],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "acht",
    "say": "acht",
    "skeleton": "CHt",
@@ -767,34 +1970,6 @@
    "overlap": 1,
    "shared": [
     "but"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "corp",
-   "say": "corp",
-   "skeleton": "crp",
-   "gloss": "body; corpse",
-   "candidates_found": [
-    "قلب",
-    "كرب",
-    "كرف",
-    "كلب",
-    "كلف",
-    "قرب",
-    "قرف",
-    "قلف",
-    "جرب",
-    "جرف",
-    "جلب",
-    "جلف"
-   ],
-   "best": "قلب",
-   "overlap": 1,
-   "shared": [
-    "body"
    ],
    "direct": false,
    "depth": 3,
@@ -929,81 +2104,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "fetar",
-   "say": "fetar",
-   "skeleton": "ftr",
-   "gloss": "first/second-person singular perfect prototonic of ro·finnadar",
-   "candidates_found": [
-    "فطر",
-    "فتر",
-    "فتل",
-    "فثر",
-    "فثل",
-    "بتر",
-    "بتل",
-    "بطر",
-    "بطل",
-    "بثر",
-    "بثل"
-   ],
-   "best": "فطر",
-   "overlap": 1,
-   "shared": [
-    "first"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "samail",
-   "say": "samail",
-   "skeleton": "sml",
-   "gloss": "like, as",
-   "candidates_found": [
-    "سمر",
-    "شمر",
-    "سمل",
-    "شمل",
-    "صمل",
-    "صمر",
-    "زمل",
-    "زمر"
-   ],
-   "best": "سمر",
-   "overlap": 1,
-   "shared": [
-    "like"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "populda",
-   "say": "populda",
-   "skeleton": "pld",
-   "gloss": "belonging to the people, tribe, nation",
-   "candidates_found": [
-    "بلد",
-    "فرد",
-    "برد",
-    "برض",
-    "برذ",
-    "فلد",
-    "فلذ",
-    "فرض"
-   ],
-   "best": "بلد",
-   "overlap": 1,
-   "shared": [
-    "nation"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "cíall",
    "say": "cíall",
    "skeleton": "cLL",
@@ -1017,30 +2117,6 @@
    "overlap": 1,
    "shared": [
     "mind"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fuilide",
-   "say": "fuilide",
-   "skeleton": "fld",
-   "gloss": "of the nature of blood, containing blood; bloody, bloodstained",
-   "candidates_found": [
-    "فرض",
-    "فلد",
-    "فلذ",
-    "فرد",
-    "بلد",
-    "برد",
-    "برض",
-    "برذ"
-   ],
-   "best": "فرض",
-   "overlap": 1,
-   "shared": [
-    "nature"
    ],
    "direct": false,
    "depth": 3,
@@ -1075,48 +2151,20 @@
    "loan_suspect": false
   },
   {
-   "branch": "foceirr",
-   "say": "foceirr",
-   "skeleton": "fcr",
-   "gloss": "second/third-person singular present subjunctive deuterotonic of fo·ceird",
-   "candidates_found": [
-    "بجر",
-    "فكر",
-    "فكل",
-    "فقر",
-    "فقل",
-    "فجر",
-    "فجل",
-    "بكر",
-    "بكل",
-    "بقر",
-    "بقل",
-    "بجل"
-   ],
-   "best": "بجر",
-   "overlap": 1,
-   "shared": [
-    "present"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "gabál",
    "say": "gabál",
    "skeleton": "gbl",
    "gloss": "taking (into possession); verbal noun of gaibid",
    "candidates_found": [
+    "قبل",
     "قبر",
     "جبل",
     "جبر",
     "غبر",
-    "قبل",
     "كبل",
     "كبر"
    ],
-   "best": "قبر",
+   "best": "قبل",
    "overlap": 1,
    "shared": [
     "into"
@@ -1132,9 +2180,9 @@
    "gloss": "to consume, to use up; to use, to make use of",
    "candidates_found": [
     "دمر",
-    "ضمر",
     "دمل",
     "ضمل",
+    "ضمر",
     "ذمل",
     "ذمر"
    ],
@@ -1142,6 +2190,30 @@
    "overlap": 1,
    "shared": [
     "use"
+   ],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "feraid",
+   "say": "feraid",
+   "skeleton": "frd",
+   "gloss": "to grant; to supply, to provide",
+   "candidates_found": [
+    "برد",
+    "فرد",
+    "فرض",
+    "فلد",
+    "فلذ",
+    "برض",
+    "برذ",
+    "بلد"
+   ],
+   "best": "برد",
+   "overlap": 1,
+   "shared": [
+    "precipitation"
    ],
    "direct": false,
    "depth": 3,
@@ -1218,26 +2290,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "isindí",
-   "say": "isindí",
-   "skeleton": "snd",
-   "gloss": "in him/her who, in that which",
-   "candidates_found": [
-    "سند",
-    "شنذ",
-    "صند",
-    "زند"
-   ],
-   "best": "سند",
-   "overlap": 1,
-   "shared": [
-    "which"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "suth",
    "say": "suth",
    "skeleton": "sTH",
@@ -1273,26 +2325,6 @@
    "overlap": 1,
    "shared": [
     "tree"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fri",
-   "say": "fri",
-   "skeleton": "fr",
-   "gloss": "towards, to; against",
-   "candidates_found": [
-    "بر",
-    "فر",
-    "فل",
-    "بل"
-   ],
-   "best": "بر",
-   "overlap": 1,
-   "shared": [
-    "against"
    ],
    "direct": false,
    "depth": 2,
@@ -1368,30 +2400,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "gel",
-   "say": "gel",
-   "skeleton": "gl",
-   "gloss": "bright; clear",
-   "candidates_found": [
-    "جل",
-    "جر",
-    "غل",
-    "غر",
-    "قل",
-    "قر",
-    "كل",
-    "كر"
-   ],
-   "best": "جل",
-   "overlap": 1,
-   "shared": [
-    "clear"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "bun",
    "say": "bun",
    "skeleton": "bn",
@@ -1425,28 +2433,6 @@
    "overlap": 1,
    "shared": [
     "order"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "tra",
-   "say": "tra",
-   "skeleton": "tr",
-   "gloss": "over/across his/her/its/their",
-   "candidates_found": [
-    "تر",
-    "طر",
-    "تل",
-    "طل",
-    "ثر",
-    "ثل"
-   ],
-   "best": "تر",
-   "overlap": 1,
-   "shared": [
-    "across"
    ],
    "direct": false,
    "depth": 2,
@@ -1491,50 +2477,6 @@
    "overlap": 1,
    "shared": [
     "old"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "tara",
-   "say": "tara",
-   "skeleton": "tr",
-   "gloss": "over/across his/her/its/their",
-   "candidates_found": [
-    "تر",
-    "طر",
-    "تل",
-    "طل",
-    "ثر",
-    "ثل"
-   ],
-   "best": "تر",
-   "overlap": 1,
-   "shared": [
-    "across"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "tara",
-   "say": "tara",
-   "skeleton": "tr",
-   "gloss": "over/across which/whom",
-   "candidates_found": [
-    "تر",
-    "طر",
-    "تل",
-    "طل",
-    "ثر",
-    "ثل"
-   ],
-   "best": "تر",
-   "overlap": 1,
-   "shared": [
-    "across"
    ],
    "direct": false,
    "depth": 2,
@@ -1599,26 +2541,6 @@
    "overlap": 1,
    "shared": [
     "middle"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fria",
-   "say": "fria",
-   "skeleton": "fr",
-   "gloss": "contraction of fri + a, literally “to/towards/against/with his/her/its/their”",
-   "candidates_found": [
-    "بر",
-    "فر",
-    "فل",
-    "بل"
-   ],
-   "best": "بر",
-   "overlap": 1,
-   "shared": [
-    "against"
    ],
    "direct": false,
    "depth": 2,
@@ -1841,28 +2763,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "fíad",
-   "say": "fíad",
-   "skeleton": "fd",
-   "gloss": "before (in time); before (in space), in front of",
-   "candidates_found": [
-    "بد",
-    "فد",
-    "فض",
-    "فذ",
-    "بض",
-    "بذ"
-   ],
-   "best": "بد",
-   "overlap": 1,
-   "shared": [
-    "time"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "giun",
    "say": "giun",
    "skeleton": "gn",
@@ -1951,25 +2851,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "cenn",
-   "say": "cenn",
-   "skeleton": "cn",
-   "gloss": "skin, covering; shell (of an animal)",
-   "candidates_found": [
-    "كن",
-    "جن",
-    "قن"
-   ],
-   "best": "كن",
-   "overlap": 1,
-   "shared": [
-    "animal"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "boinenn",
    "say": "boinenn",
    "skeleton": "bn",
@@ -2009,28 +2890,6 @@
    "overlap": 1,
    "shared": [
     "which"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "clú",
-   "say": "clú",
-   "skeleton": "cl",
-   "gloss": "fame (state of being famous)",
-   "candidates_found": [
-    "قل",
-    "جل",
-    "كل",
-    "كر",
-    "قر",
-    "جر"
-   ],
-   "best": "قل",
-   "overlap": 1,
-   "shared": [
-    "being"
    ],
    "direct": false,
    "depth": 2,
@@ -2289,55 +3148,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "cíar",
-   "say": "cíar",
-   "skeleton": "cr",
-   "gloss": "murky, dark, gloomy; black",
-   "candidates_found": [
-    "جر",
-    "كر",
-    "كل",
-    "قر",
-    "قل",
-    "جل"
-   ],
-   "best": "جر",
-   "overlap": 1,
-   "shared": [
-    "black"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "aisec",
-   "say": "aisec",
-   "skeleton": "sc",
-   "gloss": "act of giving back, restitution",
-   "candidates_found": [
-    "زك",
-    "سك",
-    "سج",
-    "شك",
-    "شق",
-    "شج",
-    "صك",
-    "صق",
-    "صج",
-    "زق",
-    "زج"
-   ],
-   "best": "زك",
-   "overlap": 1,
-   "shared": [
-    "act"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "finnae",
    "say": "finnae",
    "skeleton": "fn",
@@ -2393,6 +3203,26 @@
    "overlap": 3,
    "shared": [
     "cat"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": true
+  },
+  {
+   "branch": "popul",
+   "say": "popul",
+   "skeleton": "pl",
+   "gloss": "people",
+   "candidates_found": [
+    "فر",
+    "بل",
+    "بر",
+    "فل"
+   ],
+   "best": "فر",
+   "overlap": 3,
+   "shared": [
+    "people"
    ],
    "direct": true,
    "depth": 2,
@@ -2491,24 +3321,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "for",
-   "say": "for",
-   "skeleton": "fr",
-   "gloss": "your (plural); you (plural; as the object of a preposition that takes the genitive)",
-   "candidates_found": [
-    "فر",
-    "فل",
-    "بر",
-    "بل"
-   ],
-   "best": "فر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -3054,23 +3866,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "tall",
-   "say": "tall",
-   "skeleton": "tLL",
-   "gloss": "that (used after the noun, which is preceded by the definite article)",
-   "candidates_found": [
-    "تل",
-    "طل",
-    "ثل"
-   ],
-   "best": "تل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "sal",
    "say": "sal",
    "skeleton": "sl",
@@ -3114,26 +3909,6 @@
    "say": "loch",
    "skeleton": "lCH",
    "gloss": "lake; inlet of the sea",
-   "candidates_found": [
-    "لخ",
-    "لح",
-    "لك",
-    "رخ",
-    "رح",
-    "رك"
-   ],
-   "best": "لخ",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "loch",
-   "say": "loch",
-   "skeleton": "lCH",
-   "gloss": "black, dark",
    "candidates_found": [
     "لخ",
     "لح",
@@ -3334,28 +4109,6 @@
     "نم"
    ],
    "best": "نم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "sel",
-   "say": "sel",
-   "skeleton": "sl",
-   "gloss": "a turn, a time, a while",
-   "candidates_found": [
-    "سل",
-    "سر",
-    "شل",
-    "شر",
-    "صل",
-    "صر",
-    "زل",
-    "زر"
-   ],
-   "best": "سل",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -3781,24 +4534,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "fer",
-   "say": "fer",
-   "skeleton": "fr",
-   "gloss": "man; husband",
-   "candidates_found": [
-    "فر",
-    "فل",
-    "بر",
-    "بل"
-   ],
-   "best": "فر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "mad",
    "say": "mad",
    "skeleton": "md",
@@ -4103,26 +4838,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "lac",
-   "say": "lac",
-   "skeleton": "lc",
-   "gloss": "weak, feeble; soft, smooth",
-   "candidates_found": [
-    "لك",
-    "لق",
-    "لج",
-    "رك",
-    "رق",
-    "رج"
-   ],
-   "best": "لك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "marc",
    "say": "marc",
    "skeleton": "mrc",
@@ -4223,24 +4938,6 @@
     "جرم"
    ],
    "best": "كلم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fern",
-   "say": "fern",
-   "skeleton": "frn",
-   "gloss": "alder; shield (made of alder wood)",
-   "candidates_found": [
-    "فرن",
-    "فلن",
-    "برن",
-    "بلن"
-   ],
-   "best": "فرن",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -4468,24 +5165,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "basa",
-   "say": "basa",
-   "skeleton": "bs",
-   "gloss": "first/second-person singular preterite/imperfect indicative of is",
-   "candidates_found": [
-    "بس",
-    "بش",
-    "بص",
-    "بز"
-   ],
-   "best": "بس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "fora",
    "say": "fora",
    "skeleton": "fr",
@@ -4615,6 +5294,24 @@
    "shared": [],
    "direct": false,
    "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "bocht",
+   "say": "bocht",
+   "skeleton": "bCHt",
+   "gloss": "poor; of one who has taken a vow of poverty",
+   "candidates_found": [
+    "بخت",
+    "بحت",
+    "بحث",
+    "بكت"
+   ],
+   "best": "بخت",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 4,
    "loan_suspect": false
   },
   {
@@ -4804,26 +5501,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "céile",
-   "say": "céile",
-   "skeleton": "cl",
-   "gloss": "servant, bondsman, subject; liege, vassal, the recipient of a fief",
-   "candidates_found": [
-    "كل",
-    "كر",
-    "قل",
-    "قر",
-    "جل",
-    "جر"
-   ],
-   "best": "كل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -5229,22 +5906,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fon",
-   "say": "fon",
-   "skeleton": "fn",
-   "gloss": "contraction of fo (“under”) + in (“the”, accusative singular masculine/feminine; dative si",
-   "candidates_found": [
-    "فن",
-    "بن"
-   ],
-   "best": "فن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -6420,26 +7081,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "tria",
-   "say": "tria",
-   "skeleton": "tr",
-   "gloss": "contraction of tri + a, literally “through his/her/its/their”",
-   "candidates_found": [
-    "تر",
-    "تل",
-    "طر",
-    "طل",
-    "ثر",
-    "ثل"
-   ],
-   "best": "تر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "adora",
    "say": "adora",
    "skeleton": "dr",
@@ -6651,22 +7292,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "robé",
-   "say": "robé",
-   "skeleton": "rb",
-   "gloss": "second/third-person singular present subjunctive ro-form of at·tá",
-   "candidates_found": [
-    "رب",
-    "لب"
-   ],
-   "best": "رب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -7211,26 +7836,6 @@
     "بن"
    ],
    "best": "فن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "lóg",
-   "say": "lóg",
-   "skeleton": "lg",
-   "gloss": "value, equivalent, worth; reward, requital, compensation, payment, price",
-   "candidates_found": [
-    "لج",
-    "لق",
-    "لك",
-    "رج",
-    "رق",
-    "رك"
-   ],
-   "best": "لج",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -8274,23 +8879,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "cin",
-   "say": "cin",
-   "skeleton": "cn",
-   "gloss": "fault, guilt; sin, crime",
-   "candidates_found": [
-    "كن",
-    "قن",
-    "جن"
-   ],
-   "best": "كن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "rét",
    "say": "rét",
    "skeleton": "rt",
@@ -8342,23 +8930,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "cona",
-   "say": "cona",
-   "skeleton": "cn",
-   "gloss": "contraction of co + a, literally “with his/her/its/their”",
-   "candidates_found": [
-    "كن",
-    "قن",
-    "جن"
-   ],
-   "best": "كن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "topar",
    "say": "topar",
    "skeleton": "tpr",
@@ -8378,31 +8949,6 @@
     "ثفل"
    ],
    "best": "تبر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "frit",
-   "say": "frit",
-   "skeleton": "frt",
-   "gloss": "contraction of fri + do, literally “towards/to/against/with your sg”",
-   "candidates_found": [
-    "فرت",
-    "فرط",
-    "فرث",
-    "فلت",
-    "فلط",
-    "برت",
-    "برط",
-    "برث",
-    "بلت",
-    "بلط",
-    "بلث"
-   ],
-   "best": "فرت",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -9038,23 +9584,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "déni",
-   "say": "déni",
-   "skeleton": "dn",
-   "gloss": "second/third-person singular present prototonic of do·gní",
-   "candidates_found": [
-    "دن",
-    "ضن",
-    "ذن"
-   ],
-   "best": "دن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "ciúin",
    "say": "ciúin",
    "skeleton": "cn",
@@ -9094,32 +9623,6 @@
    "say": "ocus",
    "skeleton": "cs",
    "gloss": "and",
-   "candidates_found": [
-    "كس",
-    "كش",
-    "كص",
-    "كز",
-    "قس",
-    "قش",
-    "قص",
-    "قز",
-    "جس",
-    "جش",
-    "جص",
-    "جز"
-   ],
-   "best": "كس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ocus",
-   "say": "ocus",
-   "skeleton": "cs",
-   "gloss": "near; close (of a relationship)",
    "candidates_found": [
     "كس",
     "كش",
@@ -9267,28 +9770,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "adaig",
-   "say": "adaig",
-   "skeleton": "dg",
-   "gloss": "to drive, impel",
-   "candidates_found": [
-    "دج",
-    "دق",
-    "دك",
-    "ضج",
-    "ضق",
-    "ضك",
-    "ذج",
-    "ذغ"
-   ],
-   "best": "دج",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "lám",
    "say": "lám",
    "skeleton": "lm",
@@ -9411,26 +9892,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "cairm",
-   "say": "cairm",
-   "skeleton": "crm",
-   "gloss": "where?",
-   "candidates_found": [
-    "كرم",
-    "كلم",
-    "قرم",
-    "قلم",
-    "جرم",
-    "جلم"
-   ],
-   "best": "كرم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -10156,28 +10617,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "siur",
-   "say": "siur",
-   "skeleton": "sr",
-   "gloss": "sister; kinswoman, female relation",
-   "candidates_found": [
-    "سر",
-    "سل",
-    "شر",
-    "شل",
-    "صر",
-    "صل",
-    "زر",
-    "زل"
-   ],
-   "best": "سر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "lóeg",
    "say": "lóeg",
    "skeleton": "lg",
@@ -10315,26 +10754,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "dóer",
-   "say": "dóer",
-   "skeleton": "dr",
-   "gloss": "servile; unfree",
-   "candidates_found": [
-    "در",
-    "دل",
-    "ضر",
-    "ضل",
-    "ذر",
-    "ذل"
-   ],
-   "best": "در",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -10495,23 +10914,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "dénai",
-   "say": "dénai",
-   "skeleton": "dn",
-   "gloss": "second/third-person singular present prototonic of do·gní",
-   "candidates_found": [
-    "دن",
-    "ضن",
-    "ذن"
-   ],
-   "best": "دن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -11172,26 +11574,6 @@
    "say": "othar",
    "skeleton": "THr",
    "gloss": "work, labour; wage, recompense, due",
-   "candidates_found": [
-    "ثر",
-    "ثل",
-    "تر",
-    "تل",
-    "طر",
-    "طل"
-   ],
-   "best": "ثر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "othar",
-   "say": "othar",
-   "skeleton": "THr",
-   "gloss": "sickness, illness (of the condition, not the disease); state of being tended in illness, n",
    "candidates_found": [
     "ثر",
     "ثل",
@@ -11990,26 +12372,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "caire",
-   "say": "caire",
-   "skeleton": "cr",
-   "gloss": "crime, sin; fault, reproach",
-   "candidates_found": [
-    "كر",
-    "كل",
-    "قر",
-    "قل",
-    "جر",
-    "جل"
-   ],
-   "best": "كر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "océn",
    "say": "océn",
    "skeleton": "cn",
@@ -12184,31 +12546,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "clár",
-   "say": "clár",
-   "skeleton": "clr",
-   "gloss": "board, plank; stave (of a vat or cask)",
-   "candidates_found": [
-    "كلر",
-    "كلل",
-    "كرر",
-    "كرل",
-    "قلر",
-    "قلل",
-    "قرر",
-    "قرل",
-    "جلل",
-    "جرر",
-    "جرل"
-   ],
-   "best": "كلر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "noídiu",
    "say": "noídiu",
    "skeleton": "nd",
@@ -12240,6 +12577,28 @@
    "shared": [],
    "direct": false,
    "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "gríb",
+   "say": "gríb",
+   "skeleton": "grb",
+   "gloss": "gyrfalcon, griffin; claw, talon",
+   "candidates_found": [
+    "جرب",
+    "جلب",
+    "غرب",
+    "غلب",
+    "قرب",
+    "قلب",
+    "كرب",
+    "كلب"
+   ],
+   "best": "جرب",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -12456,26 +12815,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "caile",
-   "say": "caile",
-   "skeleton": "cl",
-   "gloss": "serving-girl, maid (sometimes pejorative)",
-   "candidates_found": [
-    "كل",
-    "كر",
-    "قل",
-    "قر",
-    "جل",
-    "جر"
-   ],
-   "best": "كل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "chenna",
    "say": "chenna",
    "skeleton": "CHn",
@@ -12564,26 +12903,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "carae",
-   "say": "carae",
-   "skeleton": "cr",
-   "gloss": "friend; relative, kinsman",
-   "candidates_found": [
-    "كر",
-    "كل",
-    "قر",
-    "قل",
-    "جر",
-    "جل"
-   ],
-   "best": "كر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "ardae",
    "say": "ardae",
    "skeleton": "rd",
@@ -12597,23 +12916,6 @@
     "لذ"
    ],
    "best": "رد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "cáin",
-   "say": "cáin",
-   "skeleton": "cn",
-   "gloss": "law (system, set of regulations), regulation, rule; legal due, fine, tax, tribute",
-   "candidates_found": [
-    "كن",
-    "قن",
-    "جن"
-   ],
-   "best": "كن",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -12826,23 +13128,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "odb",
-   "say": "odb",
-   "skeleton": "db",
-   "gloss": "knot (in a tree, branch, etc.); lump, swelling, protuberance",
-   "candidates_found": [
-    "دب",
-    "ضب",
-    "ذب"
-   ],
-   "best": "دب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "féile",
    "say": "féile",
    "skeleton": "fl",
@@ -13016,46 +13301,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "lod",
-   "say": "lod",
-   "skeleton": "ld",
-   "gloss": "first/second-person singular preterite absolute of téit",
-   "candidates_found": [
-    "لد",
-    "لض",
-    "لذ",
-    "رد",
-    "رض",
-    "رذ"
-   ],
-   "best": "لد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "lod",
-   "say": "lod",
-   "skeleton": "ld",
-   "gloss": "first/second-person singular preterite conjunct of téit",
-   "candidates_found": [
-    "لد",
-    "لض",
-    "لذ",
-    "رد",
-    "رض",
-    "رذ"
-   ],
-   "best": "لد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "luam",
    "say": "luam",
    "skeleton": "lm",
@@ -13198,31 +13443,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "paiter",
-   "say": "paiter",
-   "skeleton": "ptr",
-   "gloss": "paternoster, Lord's Prayer; a short, formulaic prayer",
-   "candidates_found": [
-    "بتر",
-    "بتل",
-    "بطر",
-    "بطل",
-    "بثر",
-    "بثل",
-    "فتر",
-    "فتل",
-    "فطر",
-    "فثر",
-    "فثل"
-   ],
-   "best": "بتر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "buinne",
    "say": "buinne",
    "skeleton": "bn",
@@ -13269,24 +13489,6 @@
     "جن"
    ],
    "best": "كن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "gní",
-   "say": "gní",
-   "skeleton": "gn",
-   "gloss": "second/third-person singular present indicative conjunct of gníid",
-   "candidates_found": [
-    "جن",
-    "غن",
-    "قن",
-    "كن"
-   ],
-   "best": "جن",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -13415,23 +13617,6 @@
     "كن"
    ],
    "best": "جن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "nonda",
-   "say": "nonda",
-   "skeleton": "nd",
-   "gloss": "first/second-person singular present indicative relative of is",
-   "candidates_found": [
-    "ند",
-    "نض",
-    "نذ"
-   ],
-   "best": "ند",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -13801,23 +13986,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "canóin",
-   "say": "canóin",
-   "skeleton": "cn",
-   "gloss": "canon (religious law), canonical text of Scripture",
-   "candidates_found": [
-    "كن",
-    "قن",
-    "جن"
-   ],
-   "best": "كن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "líath",
    "say": "líath",
    "skeleton": "lTH",
@@ -13943,24 +14111,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "popul",
-   "say": "popul",
-   "skeleton": "pl",
-   "gloss": "people",
-   "candidates_found": [
-    "بل",
-    "بر",
-    "فل",
-    "فر"
-   ],
-   "best": "بل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -15153,23 +15303,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "chéill",
-   "say": "chéill",
-   "skeleton": "CHLL",
-   "gloss": "lenited form of céill",
-   "candidates_found": [
-    "خل",
-    "حل",
-    "كل"
-   ],
-   "best": "خل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "ungae",
    "say": "ungae",
    "skeleton": "ng",
@@ -15458,6 +15591,28 @@
    "loan_suspect": false
   },
   {
+   "branch": "fuilide",
+   "say": "fuilide",
+   "skeleton": "fld",
+   "gloss": "of the nature of blood, containing blood; bloody, bloodstained",
+   "candidates_found": [
+    "فلد",
+    "فلذ",
+    "فرد",
+    "فرض",
+    "بلد",
+    "برد",
+    "برض",
+    "برذ"
+   ],
+   "best": "فلد",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "ainimm",
    "say": "ainimm",
    "skeleton": "nm",
@@ -15491,26 +15646,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "coicéile",
-   "say": "coicéile",
-   "skeleton": "cl",
-   "gloss": "vassal, bondsman (compare céile); companion, fellow, friend, comrade",
-   "candidates_found": [
-    "كل",
-    "كر",
-    "قل",
-    "قر",
-    "جل",
-    "جر"
-   ],
-   "best": "كل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -15675,30 +15810,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "subach",
-   "say": "subach",
-   "skeleton": "sbCH",
-   "gloss": "cheerful, merry, happy",
-   "candidates_found": [
-    "سبخ",
-    "سبح",
-    "سبك",
-    "شبخ",
-    "شبح",
-    "شبك",
-    "صبخ",
-    "صبح",
-    "صبك",
-    "زبح"
-   ],
-   "best": "سبخ",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
    "loan_suspect": false
   },
   {
@@ -16185,24 +16296,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "atbath",
-   "say": "atbath",
-   "skeleton": "tbTH",
-   "gloss": "second/third-person singular preterite deuterotonic of at·baill",
-   "candidates_found": [
-    "تبت",
-    "طبث",
-    "ثبت",
-    "ثبط"
-   ],
-   "best": "تبت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "benaid",
    "say": "benaid",
    "skeleton": "bnd",
@@ -16286,24 +16379,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "epir",
-   "say": "epir",
-   "skeleton": "pr",
-   "gloss": "second/third-person singular present indicative prototonic of as·beir",
-   "candidates_found": [
-    "بر",
-    "بل",
-    "فر",
-    "فل"
-   ],
-   "best": "بر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -16397,23 +16472,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "cúán",
-   "say": "cúán",
-   "skeleton": "cn",
-   "gloss": "small dog",
-   "candidates_found": [
-    "كن",
-    "قن",
-    "جن"
-   ],
-   "best": "كن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -16562,26 +16620,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "dolá",
-   "say": "dolá",
-   "skeleton": "dl",
-   "gloss": "to put away; to expel, reject",
-   "candidates_found": [
-    "دل",
-    "در",
-    "ضل",
-    "ضر",
-    "ذل",
-    "ذر"
-   ],
-   "best": "دل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -16761,26 +16799,6 @@
     "كز"
    ],
    "best": "قس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "adbar",
-   "say": "adbar",
-   "skeleton": "dbr",
-   "gloss": "material, matter (kind of substance); reason (excuse, explanation; motive for an action or",
-   "candidates_found": [
-    "دبر",
-    "دبل",
-    "ضبر",
-    "ضبل",
-    "ذبر",
-    "ذبل"
-   ],
-   "best": "دبر",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -17438,24 +17456,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "soid",
-   "say": "soid",
-   "skeleton": "sd",
-   "gloss": "to turn; to turn around, to return",
-   "candidates_found": [
-    "سد",
-    "شد",
-    "شذ",
-    "صد"
-   ],
-   "best": "سد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "adannai",
    "say": "adannai",
    "skeleton": "dn",
@@ -17715,28 +17715,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "doairicc",
-   "say": "doairicc",
-   "skeleton": "drCC",
-   "gloss": "to come; to find",
-   "candidates_found": [
-    "درق",
-    "درك",
-    "دلق",
-    "دلك",
-    "ضرك",
-    "ذرق",
-    "ذلق",
-    "ذلك"
-   ],
-   "best": "درق",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "doéccai",
    "say": "doéccai",
    "skeleton": "dCC",
@@ -17965,28 +17943,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "feraid",
-   "say": "feraid",
-   "skeleton": "frd",
-   "gloss": "to grant; to supply, to provide",
-   "candidates_found": [
-    "فرد",
-    "فرض",
-    "فلد",
-    "فلذ",
-    "برد",
-    "برض",
-    "برذ",
-    "بلد"
-   ],
-   "best": "فرد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "fírían",
    "say": "fírían",
    "skeleton": "frn",
@@ -18054,24 +18010,6 @@
     "بذر"
    ],
    "best": "فدر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fodaim",
-   "say": "fodaim",
-   "skeleton": "fdm",
-   "gloss": "to suffer, to endure; to allow",
-   "candidates_found": [
-    "فدم",
-    "بدم",
-    "بضم",
-    "بذم"
-   ],
-   "best": "فدم",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -19495,22 +19433,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "níta",
-   "say": "níta",
-   "skeleton": "nt",
-   "gloss": "first/second-person singular of ní: I am not, you sg are not",
-   "candidates_found": [
-    "نت",
-    "نث"
-   ],
-   "best": "نت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "diar",
    "say": "diar",
    "skeleton": "dr",
@@ -19874,24 +19796,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "isind",
-   "say": "isind",
-   "skeleton": "snd",
-   "gloss": "contraction of hi (“in”) + in (“the”, dative singular, all genders)",
-   "candidates_found": [
-    "سند",
-    "شنذ",
-    "صند",
-    "زند"
-   ],
-   "best": "سند",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "adchiam",
    "say": "adchiam",
    "skeleton": "dCHm",
@@ -20061,23 +19965,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ɔboing",
-   "say": "ɔboing",
-   "skeleton": "bng",
-   "gloss": "abbreviation of con·boing",
-   "candidates_found": [
-    "بنج",
-    "بنق",
-    "بنك"
-   ],
-   "best": "بنج",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -20314,28 +20201,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "doaig",
-   "say": "doaig",
-   "skeleton": "dg",
-   "gloss": "to drive off, drive away",
-   "candidates_found": [
-    "دج",
-    "دق",
-    "دك",
-    "ضج",
-    "ضق",
-    "ضك",
-    "ذج",
-    "ذغ"
-   ],
-   "best": "دج",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "charae",
    "say": "charae",
    "skeleton": "CHr",
@@ -20529,27 +20394,6 @@
     "زند"
    ],
    "best": "سند",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "asbera",
-   "say": "asbera",
-   "skeleton": "sbr",
-   "gloss": "second/third-person singular present subjunctive deuterotonic of as·beir",
-   "candidates_found": [
-    "سبر",
-    "سبل",
-    "شبر",
-    "شبل",
-    "صبر",
-    "زبر",
-    "زبل"
-   ],
-   "best": "سبر",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -20842,74 +20686,6 @@
     "ملذ"
    ],
    "best": "مرد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ɔrop",
-   "say": "ɔrop",
-   "skeleton": "rp",
-   "gloss": "abbreviation of corop (“so that it may be”)",
-   "candidates_found": [
-    "رب",
-    "رف",
-    "لب",
-    "لف"
-   ],
-   "best": "رب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "corop",
-   "say": "corop",
-   "skeleton": "crp",
-   "gloss": "so that (he/she/it) may be",
-   "candidates_found": [
-    "كرب",
-    "كرف",
-    "كلب",
-    "كلف",
-    "قرب",
-    "قرف",
-    "قلب",
-    "قلف",
-    "جرب",
-    "جرف",
-    "جلب",
-    "جلف"
-   ],
-   "best": "كرب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ɔsecha",
-   "say": "ɔsecha",
-   "skeleton": "sCH",
-   "gloss": "abbreviation of con·secha",
-   "candidates_found": [
-    "سح",
-    "سك",
-    "شح",
-    "شك",
-    "صخ",
-    "صح",
-    "صك",
-    "زخ",
-    "زح",
-    "زك"
-   ],
-   "best": "سح",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -21359,28 +21135,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "sabbait",
-   "say": "sabbait",
-   "skeleton": "sbt",
-   "gloss": "Sabbath",
-   "candidates_found": [
-    "سبت",
-    "سبط",
-    "شبت",
-    "شبط",
-    "شبث",
-    "صبط",
-    "صبث",
-    "زبط"
-   ],
-   "best": "سبت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "immallé",
    "say": "immallé",
    "skeleton": "mLL",
@@ -21393,24 +21147,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "isna",
-   "say": "isna",
-   "skeleton": "sn",
-   "gloss": "contraction of hi (“in”) + inna (“the”, accusative plural)",
-   "candidates_found": [
-    "سن",
-    "شن",
-    "صن",
-    "زن"
-   ],
-   "best": "سن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -21528,6 +21264,27 @@
    "loan_suspect": false
   },
   {
+   "branch": "follus",
+   "say": "follus",
+   "skeleton": "fLLs",
+   "gloss": "clear, evident",
+   "candidates_found": [
+    "فلس",
+    "فلص",
+    "فلز",
+    "بلس",
+    "بلش",
+    "بلص",
+    "بلز"
+   ],
+   "best": "فلس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 4,
+   "loan_suspect": false
+  },
+  {
    "branch": "luithir",
    "say": "luithir",
    "skeleton": "lTHr",
@@ -21566,27 +21323,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "resíu",
-   "say": "resíu",
-   "skeleton": "rs",
-   "gloss": "before",
-   "candidates_found": [
-    "رس",
-    "رش",
-    "رص",
-    "رز",
-    "لس",
-    "لص",
-    "لز"
-   ],
-   "best": "رس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "céin",
    "say": "céin",
    "skeleton": "cn",
@@ -21597,24 +21333,6 @@
     "جن"
    ],
    "best": "كن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "epil",
-   "say": "epil",
-   "skeleton": "pl",
-   "gloss": "second/third-person singular present indicative prototonic of at·baill",
-   "candidates_found": [
-    "بل",
-    "بر",
-    "فل",
-    "فر"
-   ],
-   "best": "بل",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -21718,6 +21436,32 @@
    "loan_suspect": false
   },
   {
+   "branch": "fochlae",
+   "say": "fochlae",
+   "skeleton": "fCHl",
+   "gloss": "the north (especially of Ireland); seat of honor",
+   "candidates_found": [
+    "فخل",
+    "فخر",
+    "فحل",
+    "فحر",
+    "فكل",
+    "فكر",
+    "بخل",
+    "بخر",
+    "بحل",
+    "بحر",
+    "بكل",
+    "بكر"
+   ],
+   "best": "فخل",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 4,
+   "loan_suspect": false
+  },
+  {
    "branch": "doscéulai",
    "say": "doscéulai",
    "skeleton": "dSCl",
@@ -21743,24 +21487,6 @@
     "بن"
    ],
    "best": "فن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fíal",
-   "say": "fíal",
-   "skeleton": "fl",
-   "gloss": "noble, becoming, generous",
-   "candidates_found": [
-    "فل",
-    "فر",
-    "بل",
-    "بر"
-   ],
-   "best": "فل",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -21960,31 +21686,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "dofil",
-   "say": "dofil",
-   "skeleton": "dfl",
-   "gloss": "to be at hand, be approaching, be on one's way (with the subject of the English verb expre",
-   "candidates_found": [
-    "دفل",
-    "دفر",
-    "دبل",
-    "دبر",
-    "ضفر",
-    "ضبل",
-    "ضبر",
-    "ذفل",
-    "ذفر",
-    "ذبل",
-    "ذبر"
-   ],
-   "best": "دفل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "doessim",
    "say": "doessim",
    "skeleton": "dsm",
@@ -22172,46 +21873,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "arcain",
-   "say": "arcain",
-   "skeleton": "rcn",
-   "gloss": "to sing, recite",
-   "candidates_found": [
-    "ركن",
-    "رقن",
-    "رجن",
-    "لكن",
-    "لقن",
-    "لجن"
-   ],
-   "best": "ركن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "cumal",
-   "say": "cumal",
-   "skeleton": "cml",
-   "gloss": "female servant or slave; a unit of measurement generally worth three milking cows",
-   "candidates_found": [
-    "كمل",
-    "كمر",
-    "قمل",
-    "قمر",
-    "جمل",
-    "جمر"
-   ],
-   "best": "كمل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "escrae",
    "say": "escrae",
    "skeleton": "SCr",
@@ -22307,31 +21968,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fortá",
-   "say": "fortá",
-   "skeleton": "frt",
-   "gloss": "to remain, be left over; to be upon",
-   "candidates_found": [
-    "فرت",
-    "فرط",
-    "فرث",
-    "فلت",
-    "فلط",
-    "برت",
-    "برط",
-    "برث",
-    "بلت",
-    "بلط",
-    "بلث"
-   ],
-   "best": "فرت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -22798,27 +22434,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ɔriris",
-   "say": "ɔriris",
-   "skeleton": "rs",
-   "gloss": "abbreviation of con·riris",
-   "candidates_found": [
-    "رس",
-    "رش",
-    "رص",
-    "رز",
-    "لس",
-    "لص",
-    "لز"
-   ],
-   "best": "رس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -23321,31 +22936,6 @@
     "ثند"
    ],
    "best": "ثند",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "doopair",
-   "say": "doopair",
-   "skeleton": "dpr",
-   "gloss": "to take away, deprive",
-   "candidates_found": [
-    "دبر",
-    "دبل",
-    "دفر",
-    "دفل",
-    "ضبر",
-    "ضبل",
-    "ضفر",
-    "ذبر",
-    "ذبل",
-    "ذفر",
-    "ذفل"
-   ],
-   "best": "دبر",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -24169,24 +23759,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ɔscéra",
-   "say": "ɔscéra",
-   "skeleton": "SCr",
-   "gloss": "abbreviation of con·scéra",
-   "candidates_found": [
-    "شر",
-    "شل",
-    "سر",
-    "سل"
-   ],
-   "best": "شر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "nDǽ",
    "say": "nDǽ",
    "skeleton": "nd",
@@ -24291,21 +23863,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "donaibhí",
-   "say": "donaibhí",
-   "skeleton": "dnbh",
-   "gloss": "contraction of do (“to”) + *inaibhí (“the one who”, dative plural)",
-   "candidates_found": [
-    "دنبح"
-   ],
-   "best": "دنبح",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
    "loan_suspect": false
   },
   {
@@ -24430,24 +23987,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ɔsonaib",
-   "say": "ɔsonaib",
-   "skeleton": "snb",
-   "gloss": "abbreviation of consonaib",
-   "candidates_found": [
-    "سنب",
-    "شنب",
-    "صنب",
-    "زنب"
-   ],
-   "best": "سنب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -25275,24 +24814,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "rocúala",
-   "say": "rocúala",
-   "skeleton": "rcl",
-   "gloss": "first/second-person singular perfect deuterotonic of ro·cluinethar",
-   "candidates_found": [
-    "ركل",
-    "رقل",
-    "رجل",
-    "لجر"
-   ],
-   "best": "ركل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "foscad",
    "say": "foscad",
    "skeleton": "fSCd",
@@ -25577,23 +25098,6 @@
     "برن"
    ],
    "best": "فلن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "fadéin",
-   "say": "fadéin",
-   "skeleton": "fdn",
-   "gloss": "synonym of féin (“self; one's own”) used in the first- and second-person singular",
-   "candidates_found": [
-    "فدن",
-    "بدن",
-    "بذن"
-   ],
-   "best": "فدن",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -26492,28 +25996,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "romsa",
-   "say": "romsa",
-   "skeleton": "rms",
-   "gloss": "first/second-person singular perfect relative of is",
-   "candidates_found": [
-    "رمس",
-    "رمش",
-    "رمص",
-    "رمز",
-    "لمس",
-    "لمش",
-    "لمص",
-    "لمز"
-   ],
-   "best": "رمس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {

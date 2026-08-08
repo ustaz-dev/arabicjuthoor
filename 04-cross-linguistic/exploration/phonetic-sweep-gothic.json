@@ -25,6 +25,29 @@
    "loan_suspect": false
   },
   {
+   "branch": "𐌸𐌰𐍂𐌱𐌰",
+   "say": "tharba",
+   "skeleton": "𐌸𐍂𐌱",
+   "gloss": "need, want",
+   "candidates_found": [
+    "طلب",
+    "ترب",
+    "ثرب",
+    "ثلب",
+    "تلب",
+    "طرب"
+   ],
+   "best": "طلب",
+   "overlap": 6,
+   "shared": [
+    "need",
+    "want"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "𐍆𐍂𐌹𐌾𐌴𐌹",
    "say": "frijei",
    "skeleton": "𐍆𐍂𐌾",
@@ -44,6 +67,52 @@
    "shared": [
     "freedom",
     "liberty"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐌿𐍃𐌼𐌴𐍄",
+   "say": "usmet",
+   "skeleton": "𐍃𐌼𐍄",
+   "gloss": "behaviour, conduct, way of life",
+   "candidates_found": [
+    "سمت",
+    "سمط",
+    "شمت",
+    "شمط",
+    "صمت",
+    "زمت"
+   ],
+   "best": "سمت",
+   "overlap": 6,
+   "shared": [
+    "conduct",
+    "way"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐍅𐌰𐌹𐌷𐌾𐍉",
+   "say": "waihjo",
+   "skeleton": "𐍅𐌷𐌾",
+   "gloss": "fight, quarrel, battle",
+   "candidates_found": [
+    "وغي",
+    "وهي",
+    "وهج",
+    "وحي",
+    "وحج",
+    "وخي"
+   ],
+   "best": "وغي",
+   "overlap": 6,
+   "shared": [
+    "battle",
+    "fight"
    ],
    "direct": true,
    "depth": 3,
@@ -122,6 +191,179 @@
    "loan_suspect": false
   },
   {
+   "branch": "𐌿𐌽𐍃𐌰𐍂",
+   "say": "unsar",
+   "skeleton": "𐌽𐍃𐍂",
+   "gloss": "our (first-person plural possessive)",
+   "candidates_found": [
+    "نشر",
+    "نسر",
+    "نسل",
+    "نشل",
+    "نصر",
+    "نصل",
+    "نزر",
+    "نزل"
+   ],
+   "best": "نشر",
+   "overlap": 3,
+   "shared": [
+    "first"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐍆𐌰𐌹𐍂𐍂𐌰",
+   "say": "fairra",
+   "skeleton": "𐍆𐍂𐍂",
+   "gloss": "far away from",
+   "candidates_found": [
+    "فلل",
+    "فرر",
+    "فلر",
+    "برر",
+    "بلر",
+    "بلل"
+   ],
+   "best": "فلل",
+   "overlap": 3,
+   "shared": [
+    "away"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐌺𐌰𐌿𐍂𐌹𐌸𐌰",
+   "say": "kauritha",
+   "skeleton": "𐌺𐍂𐌸",
+   "gloss": "burden",
+   "candidates_found": [
+    "قرث",
+    "كرث",
+    "كرت",
+    "كلث",
+    "كلت",
+    "كلط",
+    "قرت",
+    "قرط",
+    "قلت",
+    "قلط"
+   ],
+   "best": "قرث",
+   "overlap": 3,
+   "shared": [
+    "burden"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐌰𐌻𐌰𐌺𐌾𐍉",
+   "say": "alakjo",
+   "skeleton": "𐌻𐌺𐌾",
+   "gloss": "all together, in unison",
+   "candidates_found": [
+    "لقي",
+    "لكي",
+    "ركي",
+    "رقي"
+   ],
+   "best": "لقي",
+   "overlap": 3,
+   "shared": [
+    "together"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐍂𐌹𐌲𐌽",
+   "say": "rign",
+   "skeleton": "𐍂𐌲𐌽",
+   "gloss": "rain (condensed water from a cloud)",
+   "candidates_found": [
+    "لجن",
+    "رجن",
+    "رغن",
+    "رقن",
+    "لغن",
+    "لقن"
+   ],
+   "best": "لجن",
+   "overlap": 3,
+   "shared": [
+    "water"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐌲𐌰𐌱𐌰𐌿𐍂",
+   "say": "gabaur",
+   "skeleton": "𐌲𐌱𐍂",
+   "gloss": "tribute; collection (gathering of money for charitable or other purposes)",
+   "candidates_found": [
+    "قبر",
+    "جبر",
+    "جبل",
+    "غبر",
+    "قبل"
+   ],
+   "best": "قبر",
+   "overlap": 3,
+   "shared": [
+    "other"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐍃𐌰𐌼𐌰𐌽𐌰",
+   "say": "samana",
+   "skeleton": "𐍃𐌼𐌽",
+   "gloss": "together",
+   "candidates_found": [
+    "زمن",
+    "سمن",
+    "شمن"
+   ],
+   "best": "زمن",
+   "overlap": 3,
+   "shared": [
+    "together"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐌱𐌰𐌿𐍄𐌰𐌽",
+   "say": "bautan",
+   "skeleton": "𐌱𐍄𐌽",
+   "gloss": "to beat, strike",
+   "candidates_found": [
+    "بطن",
+    "بتن",
+    "بثن"
+   ],
+   "best": "بطن",
+   "overlap": 3,
+   "shared": [
+    "strike"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "𐌰𐌹𐍈𐍃",
    "say": "aihws",
    "skeleton": "𐍈𐍃",
@@ -140,6 +382,94 @@
    "overlap": 3,
    "shared": [
     "horse"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐍄𐍂𐌹𐌿",
+   "say": "triu",
+   "skeleton": "𐍄𐍂",
+   "gloss": "piece of wood",
+   "candidates_found": [
+    "طر",
+    "تر",
+    "تل",
+    "طل",
+    "ثر",
+    "ثل"
+   ],
+   "best": "طر",
+   "overlap": 3,
+   "shared": [
+    "wood"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐍆𐌴𐍂𐌰",
+   "say": "fera",
+   "skeleton": "𐍆𐍂",
+   "gloss": "side, flank, part; region, part",
+   "candidates_found": [
+    "فل",
+    "فر",
+    "بر",
+    "بل"
+   ],
+   "best": "فل",
+   "overlap": 3,
+   "shared": [
+    "region"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐌷𐌰𐌹𐌸𐌹",
+   "say": "haithi",
+   "skeleton": "𐌷𐌸",
+   "gloss": "field (land area free of woodland, cities, and towns; open country)",
+   "candidates_found": [
+    "خط",
+    "هث",
+    "هت",
+    "هط",
+    "حث",
+    "حت",
+    "حط",
+    "خث",
+    "خت",
+    "غث",
+    "غت",
+    "غط"
+   ],
+   "best": "خط",
+   "overlap": 3,
+   "shared": [
+    "land"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐌾𐌴𐍂",
+   "say": "jer",
+   "skeleton": "𐌾𐍂",
+   "gloss": "year; a long time",
+   "candidates_found": [
+    "جر",
+    "جل"
+   ],
+   "best": "جر",
+   "overlap": 3,
+   "shared": [
+    "time"
    ],
    "direct": true,
    "depth": 2,
@@ -183,6 +513,30 @@
    "loan_suspect": false
   },
   {
+   "branch": "𐍃𐌰𐌹𐍂",
+   "say": "sair",
+   "skeleton": "𐍃𐍂",
+   "gloss": "pain; sorrow",
+   "candidates_found": [
+    "سر",
+    "سل",
+    "شر",
+    "شل",
+    "صر",
+    "صل",
+    "زر",
+    "زل"
+   ],
+   "best": "سر",
+   "overlap": 3,
+   "shared": [
+    "pain"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "𐌻𐌹𐌼𐌰",
    "say": "lima",
    "skeleton": "𐌻𐌼",
@@ -198,29 +552,6 @@
    ],
    "direct": true,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌰𐌽𐌸𐌰𐍂",
-   "say": "anthar",
-   "skeleton": "𐌽𐌸𐍂",
-   "gloss": "the other of two, the one that is different from the one just mentioned; the second (numer",
-   "candidates_found": [
-    "نثر",
-    "نثل",
-    "نتر",
-    "نتل",
-    "نطر",
-    "نطل"
-   ],
-   "best": "نثر",
-   "overlap": 2,
-   "shared": [
-    "different",
-    "other"
-   ],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -262,50 +593,22 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍈𐌰𐌸𐌰𐍂",
-   "say": "hwathar",
-   "skeleton": "𐍈𐌸𐍂",
-   "gloss": "which, what (of two)",
+   "branch": "𐌰𐌽𐌸𐌰𐍂",
+   "say": "anthar",
+   "skeleton": "𐌽𐌸𐍂",
+   "gloss": "the other of two, the one that is different from the one just mentioned; the second (numer",
    "candidates_found": [
-    "ختل",
-    "حثر",
-    "حثل",
-    "حتر",
-    "حتل",
-    "حطر",
-    "حطل",
-    "خثر",
-    "خثل",
-    "ختر",
-    "خطر",
-    "خطل"
+    "نثر",
+    "نثل",
+    "نتر",
+    "نتل",
+    "نطر",
+    "نطل"
    ],
-   "best": "ختل",
+   "best": "نثر",
    "overlap": 1,
    "shared": [
-    "which"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌰𐍄𐌱𐌰𐍂",
-   "say": "atbar",
-   "skeleton": "𐍄𐌱𐍂",
-   "gloss": "first/third-person singular past active indicative of 𐌰𐍄𐌱𐌰𐌹𐍂𐌰𐌽 (atbairan)",
-   "candidates_found": [
-    "طبر",
-    "تبر",
-    "تبل",
-    "طبل",
-    "ثبر",
-    "ثبل"
-   ],
-   "best": "طبر",
-   "overlap": 1,
-   "shared": [
-    "first"
+    "different"
    ],
    "direct": false,
    "depth": 3,
@@ -400,28 +703,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌸𐌰𐍂𐌱𐌰",
-   "say": "tharba",
-   "skeleton": "𐌸𐍂𐌱",
-   "gloss": "need, want",
-   "candidates_found": [
-    "طلب",
-    "ثرب",
-    "ثلب",
-    "ترب",
-    "تلب",
-    "طرب"
-   ],
-   "best": "طلب",
-   "overlap": 1,
-   "shared": [
-    "need"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌸𐌰𐌹𐍂𐌺𐍉",
    "say": "thairko",
    "skeleton": "𐌸𐍂𐌺",
@@ -467,94 +748,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌱𐌴𐌹𐍃𐍄",
-   "say": "beist",
-   "skeleton": "𐌱𐍃𐍄",
-   "gloss": "leaven (agent used to make dough rise)",
-   "candidates_found": [
-    "بست",
-    "بسط",
-    "بشت",
-    "بشط",
-    "بصط"
-   ],
-   "best": "بست",
-   "overlap": 1,
-   "shared": [
-    "dough"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌱𐌰𐌹𐍂𐌰𐌿𐌾𐌰",
-   "say": "bairauja",
-   "skeleton": "𐌱𐍂𐌾",
-   "gloss": "Beroea, an ancient city in Thrace near modern Stara Zagora",
-   "candidates_found": [
-    "بري",
-    "برج",
-    "بلي",
-    "بلج"
-   ],
-   "best": "بري",
-   "overlap": 1,
-   "shared": [
-    "city"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍀𐌻𐌰𐍄",
-   "say": "plat",
-   "skeleton": "𐍀𐌻𐍄",
-   "gloss": "a piece of cloth, a patch",
-   "candidates_found": [
-    "بلط",
-    "بلت",
-    "بلث",
-    "برت",
-    "برط",
-    "برث",
-    "فلت",
-    "فلط",
-    "فرت",
-    "فرط",
-    "فرث"
-   ],
-   "best": "بلط",
-   "overlap": 1,
-   "shared": [
-    "piece"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌱𐍂𐌰𐌺",
-   "say": "brak",
-   "skeleton": "𐌱𐍂𐌺",
-   "gloss": "first/third-person singular past active indicative of 𐌱𐍂𐌹𐌺𐌰𐌽 (brikan)",
-   "candidates_found": [
-    "بلك",
-    "برك",
-    "برق",
-    "بلق"
-   ],
-   "best": "بلك",
-   "overlap": 1,
-   "shared": [
-    "first"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌱𐌹𐌿𐌷𐍄𐌹",
    "say": "biuhti",
    "skeleton": "𐌱𐌷𐍄",
@@ -579,90 +772,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌱𐌹𐌸𐌴𐌷",
-   "say": "bitheh",
-   "skeleton": "𐌱𐌸𐌷",
-   "gloss": "when; after",
-   "candidates_found": [
-    "بطخ",
-    "بثغ",
-    "بطح",
-    "بطغ"
-   ],
-   "best": "بطخ",
-   "overlap": 1,
-   "shared": [
-    "when"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍆𐌰𐌹𐌰𐌽𐌳𐌰",
-   "say": "faianda",
-   "skeleton": "𐍆𐌽𐌳",
-   "gloss": "first/second/third-person plural present passive indicative of 𐍆𐌰𐌹𐌰𐌽 (faian)",
-   "candidates_found": [
-    "بند",
-    "فند",
-    "فنذ"
-   ],
-   "best": "بند",
-   "overlap": 1,
-   "shared": [
-    "first"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍃𐍅𐌰𐌹𐍆",
-   "say": "swaif",
-   "skeleton": "𐍃𐍅𐍆",
-   "gloss": "first/third-person singular past active indicative of 𐍃𐍅𐌴𐌹𐌱𐌰𐌽 (sweiban)",
-   "candidates_found": [
-    "سوف",
-    "سوب",
-    "شوف",
-    "شوب",
-    "صوف",
-    "صوب",
-    "زوف",
-    "زوب"
-   ],
-   "best": "سوف",
-   "overlap": 1,
-   "shared": [
-    "first"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌰𐌱𐌰𐌿𐍂",
-   "say": "gabaur",
-   "skeleton": "𐌲𐌱𐍂",
-   "gloss": "tribute; collection (gathering of money for charitable or other purposes)",
-   "candidates_found": [
-    "قبر",
-    "جبر",
-    "جبل",
-    "غبر",
-    "قبل"
-   ],
-   "best": "قبر",
-   "overlap": 1,
-   "shared": [
-    "other"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐍃𐌿𐌼𐌰𐌽",
    "say": "suman",
    "skeleton": "𐍃𐌼𐌽",
@@ -676,29 +785,6 @@
    "overlap": 1,
    "shared": [
     "point"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌿𐍃𐌰𐌹𐍅𐌹𐌳𐌰",
-   "say": "usaiwida",
-   "skeleton": "𐍃𐍅𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌿𐍃𐌰𐌹𐍅𐌾𐌰𐌽 (usaiwjan)",
-   "candidates_found": [
-    "سود",
-    "شود",
-    "شوض",
-    "شوذ",
-    "صود",
-    "زود",
-    "زوذ"
-   ],
-   "best": "سود",
-   "overlap": 1,
-   "shared": [
-    "first"
    ],
    "direct": false,
    "depth": 3,
@@ -779,24 +865,6 @@
    "overlap": 1,
    "shared": [
     "family"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌾𐌴𐍂",
-   "say": "jer",
-   "skeleton": "𐌾𐍂",
-   "gloss": "year; a long time",
-   "candidates_found": [
-    "جل",
-    "جر"
-   ],
-   "best": "جل",
-   "overlap": 1,
-   "shared": [
-    "long"
    ],
    "direct": false,
    "depth": 2,
@@ -986,29 +1054,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌻𐌰𐍃",
-   "say": "las",
-   "skeleton": "𐌻𐍃",
-   "gloss": "first/third-person singular past active indicative of 𐌻𐌹𐍃𐌰𐌽 (lisan)",
-   "candidates_found": [
-    "رس",
-    "لس",
-    "لص",
-    "لز",
-    "رش",
-    "رص",
-    "رز"
-   ],
-   "best": "رس",
-   "overlap": 1,
-   "shared": [
-    "third"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐍄𐌹𐌻",
    "say": "til",
    "skeleton": "𐍄𐌻",
@@ -1064,29 +1109,6 @@
    "overlap": 1,
    "shared": [
     "insect"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌻𐌰𐌹𐍃",
-   "say": "lais",
-   "skeleton": "𐌻𐍃",
-   "gloss": "first/third-person singular present active indicative of 𐌻𐌹𐍃𐌰𐌽 (lisan)",
-   "candidates_found": [
-    "رس",
-    "لس",
-    "لص",
-    "لز",
-    "رش",
-    "رص",
-    "رز"
-   ],
-   "best": "رس",
-   "overlap": 1,
-   "shared": [
-    "third"
    ],
    "direct": false,
    "depth": 2,
@@ -1519,26 +1541,6 @@
     "بن"
    ],
    "best": "فن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍄𐍂𐌹𐌿",
-   "say": "triu",
-   "skeleton": "𐍄𐍂",
-   "gloss": "piece of wood",
-   "candidates_found": [
-    "تر",
-    "تل",
-    "طر",
-    "طل",
-    "ثر",
-    "ثل"
-   ],
-   "best": "تر",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -2386,28 +2388,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌿𐌽𐍃𐌰𐍂",
-   "say": "unsar",
-   "skeleton": "𐌽𐍃𐍂",
-   "gloss": "our (first-person plural possessive)",
-   "candidates_found": [
-    "نسر",
-    "نسل",
-    "نشر",
-    "نشل",
-    "نصر",
-    "نصل",
-    "نزر",
-    "نزل"
-   ],
-   "best": "نسر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌹𐌶𐍅𐌰𐍂",
    "say": "izwar",
    "skeleton": "𐌶𐍅𐍂",
@@ -2563,6 +2543,32 @@
    "shared": [],
    "direct": false,
    "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐍈𐌰𐌸𐌰𐍂",
+   "say": "hwathar",
+   "skeleton": "𐍈𐌸𐍂",
+   "gloss": "which, what (of two)",
+   "candidates_found": [
+    "حثر",
+    "حثل",
+    "حتر",
+    "حتل",
+    "حطر",
+    "حطل",
+    "خثر",
+    "خثل",
+    "ختر",
+    "ختل",
+    "خطر",
+    "خطل"
+   ],
+   "best": "حثر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -2794,26 +2800,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍆𐌰𐌹𐍂𐍂𐌰",
-   "say": "fairra",
-   "skeleton": "𐍆𐍂𐍂",
-   "gloss": "far away from",
-   "candidates_found": [
-    "فرر",
-    "فلر",
-    "فلل",
-    "برر",
-    "بلر",
-    "بلل"
-   ],
-   "best": "فرر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -3478,23 +3464,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌰𐍆𐌰𐌹𐌰𐌹𐌺",
-   "say": "afaiaik",
-   "skeleton": "𐍆𐌺",
-   "gloss": "first/third-person singular past indicative of 𐌰𐍆𐌰𐌹𐌺𐌰𐌽 (afaikan)",
-   "candidates_found": [
-    "فك",
-    "بك",
-    "بق"
-   ],
-   "best": "فك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌰𐍆𐌰𐌹𐌺𐌰𐌽",
    "say": "afaikan",
    "skeleton": "𐍆𐌺𐌽",
@@ -3568,22 +3537,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌱𐌰𐍂",
-   "say": "bar",
-   "skeleton": "𐌱𐍂",
-   "gloss": "first/third-person singular past indicative of 𐌱𐌰𐌹𐍂𐌰𐌽 (bairan)",
-   "candidates_found": [
-    "بر",
-    "بل"
-   ],
-   "best": "بر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌷𐌰𐌻𐌱𐌰𐌹",
    "say": "halbai",
    "skeleton": "𐌷𐌻𐌱",
@@ -3621,95 +3574,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍅𐌰𐍃",
-   "say": "was",
-   "skeleton": "𐍅𐍃",
-   "gloss": "first/third-person singular past indicative of 𐍅𐌹𐍃𐌰𐌽 (wisan)",
-   "candidates_found": [
-    "وس",
-    "وش",
-    "وص",
-    "وز"
-   ],
-   "best": "وس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌳𐌰𐌿𐌲",
-   "say": "daug",
-   "skeleton": "𐌳𐌲",
-   "gloss": "first/third-person singular present active indicative of 𐌳𐌿𐌲𐌰𐌽 (dugan)",
-   "candidates_found": [
-    "دج",
-    "دق",
-    "ضج",
-    "ضق",
-    "ذج",
-    "ذغ"
-   ],
-   "best": "دج",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌵𐌰𐌼",
-   "say": "qam",
-   "skeleton": "𐌵𐌼",
-   "gloss": "first/third-person singular past indicative of 𐌵𐌹𐌼𐌰𐌽 (qiman)",
-   "candidates_found": [
-    "قم",
-    "كم"
-   ],
-   "best": "قم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌷𐌰𐌱𐌰𐌽𐌳𐌰",
-   "say": "habanda",
-   "skeleton": "𐌷𐌱𐌽𐌳",
-   "gloss": "first/second/third-person plural present passive indicative of 𐌷𐌰𐌱𐌰𐌽 (haban)",
-   "candidates_found": [
-    "خبند"
-   ],
-   "best": "خبند",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌷𐌰𐌱𐌰𐌹𐌳𐌰",
-   "say": "habaida",
-   "skeleton": "𐌷𐌱𐌳",
-   "gloss": "first/third-person singular past indicative of 𐌷𐌰𐌱𐌰𐌽 (haban)",
-   "candidates_found": [
-    "هبد",
-    "هبذ",
-    "حبض",
-    "حبذ",
-    "خبد",
-    "غبض"
-   ],
-   "best": "هبد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -3791,62 +3655,6 @@
     "قب"
    ],
    "best": "جب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌹𐌱𐌰𐌳𐌰",
-   "say": "gibada",
-   "skeleton": "𐌲𐌱𐌳",
-   "gloss": "first/third-person singular present passive indicative of 𐌲𐌹𐌱𐌰𐌽 (giban)",
-   "candidates_found": [
-    "جبذ",
-    "غبض",
-    "قبض",
-    "قبذ"
-   ],
-   "best": "جبذ",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌹𐌱𐌰𐌹𐌳𐌰𐌿",
-   "say": "gibaidau",
-   "skeleton": "𐌲𐌱𐌳",
-   "gloss": "first/third-person singular present passive subjunctive of 𐌲𐌹𐌱𐌰𐌽 (giban)",
-   "candidates_found": [
-    "جبذ",
-    "غبض",
-    "قبض",
-    "قبذ"
-   ],
-   "best": "جبذ",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌰𐍆",
-   "say": "gaf",
-   "skeleton": "𐌲𐍆",
-   "gloss": "first/third-person singular past indicative of 𐌲𐌹𐌱𐌰𐌽 (giban)",
-   "candidates_found": [
-    "جف",
-    "جب",
-    "غف",
-    "غب",
-    "قف",
-    "قب"
-   ],
-   "best": "جف",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -4255,54 +4063,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍆𐌰𐌿𐍂𐌱𐌰𐌿𐌸",
-   "say": "faurbauth",
-   "skeleton": "𐍆𐍂𐌱𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐍆𐌰𐌿𐍂𐌱𐌹𐌿𐌳𐌰𐌽 (faurbiudan)",
-   "candidates_found": [
-    "فربت",
-    "بربط"
-   ],
-   "best": "فربت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍆𐌰𐌿𐍂𐌱𐌰𐌿𐌳",
-   "say": "faurbaud",
-   "skeleton": "𐍆𐍂𐌱𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐍆𐌰𐌿𐍂𐌱𐌹𐌿𐌳𐌰𐌽 (faurbiudan)",
-   "candidates_found": [
-    "بلبد"
-   ],
-   "best": "بلبد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌻𐌰𐌹𐌻𐌰𐌹𐌺",
-   "say": "lailaik",
-   "skeleton": "𐌻𐌻𐌺",
-   "gloss": "first/third-person singular past active indicative of 𐌻𐌰𐌹𐌺𐌰𐌽 (laikan)",
-   "candidates_found": [
-    "للك",
-    "لرق",
-    "ررق"
-   ],
-   "best": "للك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌻𐌰𐌹𐌺𐌰𐌽",
    "say": "laikan",
    "skeleton": "𐌻𐌺𐌽",
@@ -4340,26 +4100,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍃𐌰𐍈",
-   "say": "sahw",
-   "skeleton": "𐍃𐍈",
-   "gloss": "first/third-person singular past active indicative of 𐍃𐌰𐌹𐍈𐌰𐌽 (saiƕan)",
-   "candidates_found": [
-    "سح",
-    "شح",
-    "صح",
-    "صخ",
-    "زح",
-    "زخ"
-   ],
-   "best": "سح",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -4887,21 +4627,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌻𐌰𐌹𐌻𐍉𐍄",
-   "say": "lailot",
-   "skeleton": "𐌻𐌻𐍄",
-   "gloss": "first/third-person singular past indicative of 𐌻𐌴𐍄𐌰𐌽 (lētan)",
-   "candidates_found": [
-    "لرت"
-   ],
-   "best": "لرت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌰𐍆𐌻𐌴𐌹𐌸𐌰𐌽",
    "say": "afleithan",
    "skeleton": "𐍆𐌻𐌸𐌽",
@@ -4913,73 +4638,6 @@
     "برطن"
    ],
    "best": "فرتن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌵𐌰𐌸",
-   "say": "qath",
-   "skeleton": "𐌵𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐌵𐌹𐌸𐌰𐌽 (qiþan)",
-   "candidates_found": [
-    "قث",
-    "قت",
-    "قط",
-    "كث",
-    "كت"
-   ],
-   "best": "قث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌰𐌽𐌰𐌰𐌹𐌰𐌿𐌺",
-   "say": "anaaiauk",
-   "skeleton": "𐌽𐌺",
-   "gloss": "first/third-person singular past active indicative of 𐌰𐌽𐌰𐌰𐌿𐌺𐌰𐌽 (anaaukan)",
-   "candidates_found": [
-    "نق"
-   ],
-   "best": "نق",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍆𐌴𐍂𐌰",
-   "say": "fera",
-   "skeleton": "𐍆𐍂",
-   "gloss": "side, flank, part; region, part",
-   "candidates_found": [
-    "فر",
-    "فل",
-    "بر",
-    "بل"
-   ],
-   "best": "فر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌰𐍄𐍅𐌰𐍂𐍀",
-   "say": "atwarp",
-   "skeleton": "𐍄𐍅𐍂𐍀",
-   "gloss": "first/third-person singular past active indicative of 𐌰𐍄𐍅𐌰𐌹𐍂𐍀𐌰𐌽 (atwairpan)",
-   "candidates_found": [
-    "تولب"
-   ],
-   "best": "تولب",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -5258,32 +4916,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌷𐌰𐌹𐌸𐌹",
-   "say": "haithi",
-   "skeleton": "𐌷𐌸",
-   "gloss": "field (land area free of woodland, cities, and towns; open country)",
-   "candidates_found": [
-    "هث",
-    "هت",
-    "هط",
-    "حث",
-    "حت",
-    "حط",
-    "خث",
-    "خت",
-    "خط",
-    "غث",
-    "غت",
-    "غط"
-   ],
-   "best": "هث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌹𐌳𐍅𐌴𐌹𐍄",
    "say": "idweit",
    "skeleton": "𐌳𐍅𐍄",
@@ -5450,25 +5082,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌸𐌰𐌹𐌷",
-   "say": "thaih",
-   "skeleton": "𐌸𐌷",
-   "gloss": "first/third-person singular past active indicative of 𐌸𐌴𐌹𐌷𐌰𐌽 (þeihan)",
-   "candidates_found": [
-    "ته",
-    "تخ",
-    "تغ",
-    "طه",
-    "طح"
-   ],
-   "best": "ته",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌹𐌾𐍉𐍃",
    "say": "ijos",
    "skeleton": "𐌾𐍃",
@@ -5539,24 +5152,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍅𐌰𐍂𐌸",
-   "say": "warth",
-   "skeleton": "𐍅𐍂𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐍅𐌰𐌹𐍂𐌸𐌰𐌽 (wairþan)",
-   "candidates_found": [
-    "ورث",
-    "ورط",
-    "ولث",
-    "ولت"
-   ],
-   "best": "ورث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉",
    "say": "sinteino",
    "skeleton": "𐍃𐌽𐍄𐌽",
@@ -5569,24 +5164,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌹𐌽𐌿𐌷",
-   "say": "inuh",
-   "skeleton": "𐌽𐌷",
-   "gloss": "contraction of 𐌹𐌽 (in) + -𐌿𐌷 (-uh)",
-   "candidates_found": [
-    "نه",
-    "نح",
-    "نخ",
-    "نغ"
-   ],
-   "best": "نه",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -5675,24 +5252,6 @@
     "غبط"
    ],
    "best": "هبث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍅𐌴𐌹𐍀𐌰𐌳𐌰",
-   "say": "weipada",
-   "skeleton": "𐍅𐍀𐌳",
-   "gloss": "first/third-person singular present passive indicative of 𐍅𐌴𐌹𐍀𐌰𐌽 (weipan)",
-   "candidates_found": [
-    "وبد",
-    "وبذ",
-    "وفد",
-    "وفض"
-   ],
-   "best": "وبد",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -6830,49 +6389,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍆𐍂𐍉𐌸",
-   "say": "froth",
-   "skeleton": "𐍆𐍂𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐍆𐍂𐌰𐌸𐌾𐌰𐌽 (fraþjan)",
-   "candidates_found": [
-    "فرث",
-    "فرت",
-    "فرط",
-    "فلت",
-    "فلط",
-    "برث",
-    "برت",
-    "برط",
-    "بلث",
-    "بلت",
-    "بلط"
-   ],
-   "best": "فرث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍅𐍉𐍀𐌹𐌳𐌰",
-   "say": "wopida",
-   "skeleton": "𐍅𐍀𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐍅𐍉𐍀𐌾𐌰𐌽 (wōpjan)",
-   "candidates_found": [
-    "وبد",
-    "وبذ",
-    "وفد",
-    "وفض"
-   ],
-   "best": "وبد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌱𐌻𐌴𐌹𐌸𐌴𐌹",
    "say": "bleithei",
    "skeleton": "𐌱𐌻𐌸",
@@ -6906,41 +6422,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌼𐌴𐌻𐌹𐌳𐌰",
-   "say": "melida",
-   "skeleton": "𐌼𐌻𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌼𐌴𐌻𐌾𐌰𐌽 (mēljan)",
-   "candidates_found": [
-    "ملد",
-    "ملذ",
-    "مرد",
-    "مرض",
-    "مرذ"
-   ],
-   "best": "ملد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍄𐌰𐍅𐌹𐌳𐌰",
-   "say": "tawida",
-   "skeleton": "𐍄𐍅𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐍄𐌰𐌿𐌾𐌰𐌽 (taujan)",
-   "candidates_found": [
-    "تود",
-    "طود"
-   ],
-   "best": "تود",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -7029,128 +6510,6 @@
     "وفز"
    ],
    "best": "وبش",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌱𐌹𐍄𐌰𐌿𐌷",
-   "say": "bitauh",
-   "skeleton": "𐌱𐍄𐌷",
-   "gloss": "first/third-person singular past active indicative of 𐌱𐌹𐍄𐌹𐌿𐌷𐌰𐌽 (bitiuhan)",
-   "candidates_found": [
-    "بطح",
-    "بطخ",
-    "بطغ",
-    "بثغ"
-   ],
-   "best": "بطح",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍂𐌰𐌽𐌽",
-   "say": "rann",
-   "skeleton": "𐍂𐌽𐌽",
-   "gloss": "first/third-person singular past active indicative of 𐍂𐌹𐌽𐌽𐌰𐌽 (rinnan)",
-   "candidates_found": [
-    "رنن"
-   ],
-   "best": "رنن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌰𐌱𐌰𐍂",
-   "say": "gabar",
-   "skeleton": "𐌲𐌱𐍂",
-   "gloss": "first/third-person singular past active indicative of 𐌲𐌰𐌱𐌰𐌹𐍂𐌰𐌽 (gabairan)",
-   "candidates_found": [
-    "جبر",
-    "جبل",
-    "غبر",
-    "قبر",
-    "قبل"
-   ],
-   "best": "جبر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌽𐌰𐌼",
-   "say": "nam",
-   "skeleton": "𐌽𐌼",
-   "gloss": "first/third-person singular past active indicative of 𐌽𐌹𐌼𐌰𐌽 (niman)",
-   "candidates_found": [
-    "نم"
-   ],
-   "best": "نم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌱𐌰𐌳",
-   "say": "bad",
-   "skeleton": "𐌱𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌱𐌹𐌳𐌾𐌰𐌽 (bidjan)",
-   "candidates_found": [
-    "بد",
-    "بض",
-    "بذ"
-   ],
-   "best": "بد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌱𐌹𐌲𐌰𐍄",
-   "say": "bigat",
-   "skeleton": "𐌱𐌲𐍄",
-   "gloss": "first/third-person singular past active indicative of 𐌱𐌹𐌲𐌹𐍄𐌰𐌽 (bigitan)",
-   "candidates_found": [
-    "بغت",
-    "بغث",
-    "بقت",
-    "بقط",
-    "بقث"
-   ],
-   "best": "بغت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌹𐌽𐍃𐌰𐍈",
-   "say": "insahw",
-   "skeleton": "𐌽𐍃𐍈",
-   "gloss": "first/third-person singular past active indicative of 𐌹𐌽𐍃𐌰𐌹𐍈𐌰𐌽 (insaiƕan)",
-   "candidates_found": [
-    "نسح",
-    "نسخ",
-    "نشح",
-    "نصح",
-    "نزح"
-   ],
-   "best": "نسح",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -7260,127 +6619,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌰𐌹𐌷𐍄𐌰",
-   "say": "aihta",
-   "skeleton": "𐌷𐍄",
-   "gloss": "first/third-person singular past active indicative of 𐌰𐌹𐌲𐌰𐌽 (aigan)",
-   "candidates_found": [
-    "هت",
-    "هط",
-    "هث",
-    "حت",
-    "حط",
-    "حث",
-    "خت",
-    "خط",
-    "خث",
-    "غت",
-    "غط",
-    "غث"
-   ],
-   "best": "هت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌸𐌰𐍂𐍆",
-   "say": "tharf",
-   "skeleton": "𐌸𐍂𐍆",
-   "gloss": "first/third-person singular present active indicative of 𐌸𐌰𐌿𐍂𐌱𐌰𐌽 (þaurban)",
-   "candidates_found": [
-    "ثرب",
-    "ثلب",
-    "ترف",
-    "ترب",
-    "تلف",
-    "تلب",
-    "طرف",
-    "طرب",
-    "طلف",
-    "طلب"
-   ],
-   "best": "ثرب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌺𐌰𐌽𐌽",
-   "say": "kann",
-   "skeleton": "𐌺𐌽𐌽",
-   "gloss": "first/third-person singular present active indicative of 𐌺𐌿𐌽𐌽𐌰𐌽 (kunnan)",
-   "candidates_found": [
-    "كنن",
-    "قنن"
-   ],
-   "best": "كنن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌺𐌿𐌽𐌸𐌰",
-   "say": "kuntha",
-   "skeleton": "𐌺𐌽𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐌺𐌿𐌽𐌽𐌰𐌽 (kunnan)",
-   "candidates_found": [
-    "كنث",
-    "كنت",
-    "كنط",
-    "قنت",
-    "قنط"
-   ],
-   "best": "كنث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌼𐌰𐌷𐍄𐌰",
-   "say": "mahta",
-   "skeleton": "𐌼𐌷𐍄",
-   "gloss": "first/third-person singular past active indicative of 𐌼𐌰𐌲𐌰𐌽 (magan)",
-   "candidates_found": [
-    "محت",
-    "محط",
-    "محث",
-    "مخط",
-    "مغط",
-    "مغث"
-   ],
-   "best": "محت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌼𐌰𐌲",
-   "say": "mag",
-   "skeleton": "𐌼𐌲",
-   "gloss": "first/third-person singular present active indicative of 𐌼𐌰𐌲𐌰𐌽 (magan)",
-   "candidates_found": [
-    "مج",
-    "مق"
-   ],
-   "best": "مج",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌼𐌰𐌲𐌿𐍃",
    "say": "magus",
    "skeleton": "𐌼𐌲𐍃",
@@ -7394,73 +6632,6 @@
     "مقس"
    ],
    "best": "مجس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌼𐌰𐌽",
-   "say": "man",
-   "skeleton": "𐌼𐌽",
-   "gloss": "first/third-person singular present active indicative of 𐌼𐌿𐌽𐌰𐌽 (munan)",
-   "candidates_found": [
-    "من"
-   ],
-   "best": "من",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌼𐌿𐌽𐌳𐌰",
-   "say": "munda",
-   "skeleton": "𐌼𐌽𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌼𐌿𐌽𐌰𐌽 (munan)",
-   "candidates_found": [
-    "مند",
-    "منذ"
-   ],
-   "best": "مند",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍅𐌰𐌹𐍄",
-   "say": "wait",
-   "skeleton": "𐍅𐍄",
-   "gloss": "first/third-person singular present active indicative of 𐍅𐌹𐍄𐌰𐌽 (witan)",
-   "candidates_found": [
-    "وت",
-    "وط",
-    "وث"
-   ],
-   "best": "وت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍅𐌹𐌻𐌳𐌰",
-   "say": "wilda",
-   "skeleton": "𐍅𐌻𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐍅𐌹𐌻𐌾𐌰𐌽 (wiljan)",
-   "candidates_found": [
-    "ولد",
-    "ولذ",
-    "ورد",
-    "ورض",
-    "ورذ"
-   ],
-   "best": "ولد",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -8049,30 +7220,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌺𐌰𐌿𐍂𐌹𐌸𐌰",
-   "say": "kauritha",
-   "skeleton": "𐌺𐍂𐌸",
-   "gloss": "burden",
-   "candidates_found": [
-    "كرث",
-    "كرت",
-    "كلث",
-    "كلت",
-    "كلط",
-    "قرث",
-    "قرت",
-    "قرط",
-    "قلت",
-    "قلط"
-   ],
-   "best": "كرث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌻𐌰𐌹𐌱𐌰",
    "say": "laiba",
    "skeleton": "𐌻𐌱",
@@ -8474,23 +7621,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍅𐍂𐌰𐌺",
-   "say": "wrak",
-   "skeleton": "𐍅𐍂𐌺",
-   "gloss": "first/third-person singular past active indicative of 𐍅𐍂𐌹𐌺𐌰𐌽 (wrikan)",
-   "candidates_found": [
-    "ورك",
-    "ورق",
-    "ولق"
-   ],
-   "best": "ورك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -9033,25 +8163,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌼𐌴𐍂𐌹𐌳𐌰",
-   "say": "merida",
-   "skeleton": "𐌼𐍂𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌼𐌴𐍂𐌾𐌰𐌽 (mērjan)",
-   "candidates_found": [
-    "مرد",
-    "مرض",
-    "مرذ",
-    "ملد",
-    "ملذ"
-   ],
-   "best": "مرد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌽𐌰𐌹𐍄𐌴𐌹𐌽𐍃",
    "say": "naiteins",
    "skeleton": "𐌽𐍄𐌽𐍃",
@@ -9129,23 +8240,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌼𐌰𐍄𐌹𐌳𐌰",
-   "say": "matida",
-   "skeleton": "𐌼𐍄𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌼𐌰𐍄𐌾𐌰𐌽 (matjan)",
-   "candidates_found": [
-    "متد",
-    "متذ",
-    "مثد"
-   ],
-   "best": "متد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌻𐌹𐌲𐌰𐌽",
    "say": "ligan",
    "skeleton": "𐌻𐌲𐌽",
@@ -9163,24 +8257,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌻𐌰𐌲",
-   "say": "lag",
-   "skeleton": "𐌻𐌲",
-   "gloss": "first/third-person singular past active indicative of 𐌻𐌹𐌲𐌰𐌽 (ligan)",
-   "candidates_found": [
-    "لج",
-    "لق",
-    "رج",
-    "رق"
-   ],
-   "best": "لج",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -9313,25 +8389,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍆𐌹𐌾𐌰𐌹𐌳𐌰",
-   "say": "fijaida",
-   "skeleton": "𐍆𐌾𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐍆𐌹𐌾𐌰𐌽 (fijan)",
-   "candidates_found": [
-    "فيد",
-    "فيض",
-    "بيد",
-    "بيض",
-    "بجد"
-   ],
-   "best": "فيد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌻𐌹𐌱𐌰𐌽",
    "say": "liban",
    "skeleton": "𐌻𐌱𐌽",
@@ -9367,27 +8424,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍃𐌰𐍄",
-   "say": "sat",
-   "skeleton": "𐍃𐍄",
-   "gloss": "first/third-person singular past active indicative of 𐍃𐌹𐍄𐌰𐌽 (sitan)",
-   "candidates_found": [
-    "ست",
-    "شت",
-    "شط",
-    "شث",
-    "صت",
-    "صط",
-    "زط"
-   ],
-   "best": "ست",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -9456,26 +8492,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌱𐌹𐌻𐌰𐌹𐌸",
-   "say": "bilaith",
-   "skeleton": "𐌱𐌻𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐌱𐌹𐌻𐌴𐌹𐌸𐌰𐌽 (bileiþan)",
-   "candidates_found": [
-    "بلث",
-    "بلت",
-    "بلط",
-    "برث",
-    "برت",
-    "برط"
-   ],
-   "best": "بلث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -9658,44 +8674,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍅𐌴𐌹𐌷𐌰𐌹𐌳𐌰",
-   "say": "weihaida",
-   "skeleton": "𐍅𐌷𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐍅𐌴𐌹𐌷𐌰𐌽 (weihan)",
-   "candidates_found": [
-    "وهد",
-    "وهض",
-    "وحد",
-    "وخد",
-    "وخض",
-    "وخذ",
-    "وغد",
-    "وغض"
-   ],
-   "best": "وهد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍅𐌰𐌹𐌷",
-   "say": "waih",
-   "skeleton": "𐍅𐌷",
-   "gloss": "first/third-person singular past active indicative of 𐍅𐌴𐌹𐌷𐌰𐌽 (weihan)",
-   "candidates_found": [
-    "وح",
-    "وخ"
-   ],
-   "best": "وح",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌰𐌹𐍅𐌹𐍃𐌺𐌹",
    "say": "aiwiski",
    "skeleton": "𐍅𐍃𐌺",
@@ -9708,24 +8686,6 @@
     "وزك"
    ],
    "best": "وسق",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌰𐌻𐌰𐌺𐌾𐍉",
-   "say": "alakjo",
-   "skeleton": "𐌻𐌺𐌾",
-   "gloss": "all together, in unison",
-   "candidates_found": [
-    "لكي",
-    "لقي",
-    "ركي",
-    "رقي"
-   ],
-   "best": "لكي",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -9759,28 +8719,6 @@
     "لوج"
    ],
    "best": "روي",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌱𐌰𐌿𐌷𐍄𐌰",
-   "say": "bauhta",
-   "skeleton": "𐌱𐌷𐍄",
-   "gloss": "first/third-person singular past active indicative of 𐌱𐌿𐌲𐌾𐌰𐌽 (bugjan)",
-   "candidates_found": [
-    "بهت",
-    "بهط",
-    "بهث",
-    "بحت",
-    "بحث",
-    "بخت",
-    "بغت",
-    "بغث"
-   ],
-   "best": "بهت",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -9881,60 +8819,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌰𐌽𐌰𐌱𐌰𐌿𐌸",
-   "say": "anabauth",
-   "skeleton": "𐌽𐌱𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐌰𐌽𐌰𐌱𐌹𐌿𐌳𐌰𐌽 (anabiudan)",
-   "candidates_found": [
-    "نبث",
-    "نبت",
-    "نبط"
-   ],
-   "best": "نبث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌰𐌽𐌰𐌱𐌰𐌿𐌳",
-   "say": "anabaud",
-   "skeleton": "𐌽𐌱𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌰𐌽𐌰𐌱𐌹𐌿𐌳𐌰𐌽 (anabiudan)",
-   "candidates_found": [
-    "نبد",
-    "نبض",
-    "نبذ"
-   ],
-   "best": "نبد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌹𐌽𐍃𐍉𐌺",
-   "say": "insok",
-   "skeleton": "𐌽𐍃𐌺",
-   "gloss": "first/third-person singular past active indicative of 𐌹𐌽𐍃𐌰𐌺𐌰𐌽 (insakan)",
-   "candidates_found": [
-    "نسك",
-    "نسق",
-    "نشك",
-    "نشق",
-    "نزك",
-    "نزق"
-   ],
-   "best": "نسك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐍃𐌰𐌺𐌰𐌽",
    "say": "sakan",
    "skeleton": "𐍃𐌺𐌽",
@@ -9967,28 +8851,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌺𐌰𐌿𐍂𐌹𐌳𐌰",
-   "say": "kaurida",
-   "skeleton": "𐌺𐍂𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌺𐌰𐌿𐍂𐌾𐌰𐌽 (kaurjan)",
-   "candidates_found": [
-    "كرد",
-    "كرض",
-    "كلد",
-    "كلذ",
-    "قرد",
-    "قرض",
-    "قلد",
-    "قلذ"
-   ],
-   "best": "كرد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -10059,43 +8921,10 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌰𐌽𐌰𐌵𐌰𐌼",
-   "say": "anaqam",
-   "skeleton": "𐌽𐌵𐌼",
-   "gloss": "first/third-person singular past indicative of 𐌰𐌽𐌰𐌵𐌹𐌼𐌰𐌽 (anaqiman)",
-   "candidates_found": [
-    "نقم",
-    "نكم"
-   ],
-   "best": "نقم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌲𐌰𐌼𐌰𐌽",
    "say": "gaman",
    "skeleton": "𐌲𐌼𐌽",
    "gloss": "companion, fellow, partner; companionship, partnership",
-   "candidates_found": [
-    "جمن",
-    "غمن",
-    "قمن"
-   ],
-   "best": "جمن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌰𐌼𐌰𐌽",
-   "say": "gaman",
-   "skeleton": "𐌲𐌼𐌽",
-   "gloss": "first/third-person singular present active indicative of 𐌲𐌰𐌼𐌿𐌽𐌰𐌽 (gamunan)",
    "candidates_found": [
     "جمن",
     "غمن",
@@ -10226,23 +9055,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌱𐌰𐌸",
-   "say": "bath",
-   "skeleton": "𐌱𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐌱𐌹𐌳𐌾𐌰𐌽 (bidjan)",
-   "candidates_found": [
-    "بث",
-    "بت",
-    "بط"
-   ],
-   "best": "بث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌰𐍅𐌹𐌻𐌹𐌿𐌸",
    "say": "awiliuth",
    "skeleton": "𐍅𐌻𐌸",
@@ -10333,27 +9145,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌰𐌽𐌳𐌿𐌷",
-   "say": "anduh",
-   "skeleton": "𐌽𐌳𐌷",
-   "gloss": "contraction of 𐌰𐌽𐌳 (and) + -𐌿𐌷 (-uh)",
-   "candidates_found": [
-    "نده",
-    "ندح",
-    "ندخ",
-    "ندغ",
-    "نضح",
-    "نضخ",
-    "نذخ"
-   ],
-   "best": "نده",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌰𐌿𐌳𐌰𐌲𐌴𐌹",
    "say": "audagei",
    "skeleton": "𐌳𐌲",
@@ -10390,21 +9181,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌿𐌽𐍅𐌴𐍂𐌹𐌳𐌰",
-   "say": "unwerida",
-   "skeleton": "𐌽𐍅𐍂𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌿𐌽𐍅𐌴𐍂𐌾𐌰𐌽 (unwērjan)",
-   "candidates_found": [
-    "نورد"
-   ],
-   "best": "نورد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌼𐌹𐍄𐌰𐌽",
    "say": "mitan",
    "skeleton": "𐌼𐍄𐌽",
@@ -10415,43 +9191,6 @@
     "مثن"
    ],
    "best": "متن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌼𐌹𐍄𐌰𐌳𐌰",
-   "say": "mitada",
-   "skeleton": "𐌼𐍄𐌳",
-   "gloss": "first/third-person singular present passive indicative of 𐌼𐌹𐍄𐌰𐌽 (mitan)",
-   "candidates_found": [
-    "متد",
-    "متذ",
-    "مثد"
-   ],
-   "best": "متد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍂𐌹𐌲𐌽",
-   "say": "rign",
-   "skeleton": "𐍂𐌲𐌽",
-   "gloss": "rain (condensed water from a cloud)",
-   "candidates_found": [
-    "رجن",
-    "رغن",
-    "رقن",
-    "لجن",
-    "لغن",
-    "لقن"
-   ],
-   "best": "رجن",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -10538,22 +9277,6 @@
     "مقر"
    ],
    "best": "مكل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌰𐍄𐌽𐌰𐌼",
-   "say": "atnam",
-   "skeleton": "𐍄𐌽𐌼",
-   "gloss": "first/third-person singular past active indicative of 𐌰𐍄𐌽𐌹𐌼𐌰𐌽 (atniman)",
-   "candidates_found": [
-    "تنم",
-    "طنم"
-   ],
-   "best": "تنم",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -10770,22 +9493,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍅𐌹𐍄𐌰𐌹𐌳𐌰",
-   "say": "witaida",
-   "skeleton": "𐍅𐍄𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐍅𐌹𐍄𐌰𐌽 (witān, “observe”)",
-   "candidates_found": [
-    "وتد",
-    "وطد"
-   ],
-   "best": "وتد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌼𐌰𐍂𐌰𐌽",
    "say": "maran",
    "skeleton": "𐌼𐍂𐌽",
@@ -10819,23 +9526,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌱𐌰𐌿𐌰𐌹𐌳𐌰",
-   "say": "bauaida",
-   "skeleton": "𐌱𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌱𐌰𐌿𐌰𐌽 (bauan)",
-   "candidates_found": [
-    "بد",
-    "بض",
-    "بذ"
-   ],
-   "best": "بد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -10914,6 +9604,25 @@
    "loan_suspect": false
   },
   {
+   "branch": "𐌱𐌴𐌹𐍃𐍄",
+   "say": "beist",
+   "skeleton": "𐌱𐍃𐍄",
+   "gloss": "leaven (agent used to make dough rise)",
+   "candidates_found": [
+    "بست",
+    "بسط",
+    "بشت",
+    "بشط",
+    "بصط"
+   ],
+   "best": "بست",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "𐌱𐌰𐌿𐍂𐌸𐌴𐌹",
    "say": "baurthei",
    "skeleton": "𐌱𐍂𐌸",
@@ -10947,26 +9656,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌳𐌰𐌹𐌲",
-   "say": "daig",
-   "skeleton": "𐌳𐌲",
-   "gloss": "first/third-person singular past indicative of 𐌳𐌹𐌲𐌰𐌽 (digan)",
-   "candidates_found": [
-    "دج",
-    "دق",
-    "ضج",
-    "ضق",
-    "ذج",
-    "ذغ"
-   ],
-   "best": "دج",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -11110,6 +9799,24 @@
    "shared": [],
    "direct": false,
    "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐌱𐌰𐌹𐍂𐌰𐌿𐌾𐌰",
+   "say": "bairauja",
+   "skeleton": "𐌱𐍂𐌾",
+   "gloss": "Beroea, an ancient city in Thrace near modern Stara Zagora",
+   "candidates_found": [
+    "بري",
+    "برج",
+    "بلي",
+    "بلج"
+   ],
+   "best": "بري",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -11275,40 +9982,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍆𐌰𐌽𐌸",
-   "say": "fanth",
-   "skeleton": "𐍆𐌽𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐍆𐌹𐌽𐌸𐌰𐌽 (finþan)",
-   "candidates_found": [
-    "بنث",
-    "بنت",
-    "بنط"
-   ],
-   "best": "بنث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍆𐍂𐌰𐌵𐌰𐌼",
-   "say": "fraqam",
-   "skeleton": "𐍆𐍂𐌵𐌼",
-   "gloss": "first/third-person singular past active indicative of 𐍆𐍂𐌰𐌵𐌹𐌼𐌰𐌽 (fraqiman)",
-   "candidates_found": [
-    "فرقم",
-    "فلقم",
-    "بلكم"
-   ],
-   "best": "فرقم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐍆𐌹𐌽𐍃",
    "say": "fins",
    "skeleton": "𐍆𐌽𐍃",
@@ -11460,32 +10133,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍉𐌷𐍄𐌰",
-   "say": "ohta",
-   "skeleton": "𐌷𐍄",
-   "gloss": "first/third-person singular past active indicative of 𐍉𐌲𐌰𐌽 (ōgan)",
-   "candidates_found": [
-    "هت",
-    "هط",
-    "هث",
-    "حت",
-    "حط",
-    "حث",
-    "خت",
-    "خط",
-    "خث",
-    "غت",
-    "غط",
-    "غث"
-   ],
-   "best": "هت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐍉𐍃𐌰𐌽𐌽𐌰",
    "say": "osanna",
    "skeleton": "𐍃𐌽𐌽",
@@ -11516,6 +10163,31 @@
     "قجن"
    ],
    "best": "جين",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐍀𐌻𐌰𐍄",
+   "say": "plat",
+   "skeleton": "𐍀𐌻𐍄",
+   "gloss": "a piece of cloth, a patch",
+   "candidates_found": [
+    "بلت",
+    "بلط",
+    "بلث",
+    "برت",
+    "برط",
+    "برث",
+    "فلت",
+    "فلط",
+    "فرت",
+    "فرط",
+    "فرث"
+   ],
+   "best": "بلت",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -11746,26 +10418,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌲𐍂𐍉𐌱",
-   "say": "grob",
-   "skeleton": "𐌲𐍂𐌱",
-   "gloss": "first/third-person singular past active indicative of 𐌲𐍂𐌰𐌱𐌰𐌽 (graban)",
-   "candidates_found": [
-    "جرب",
-    "جلب",
-    "غرب",
-    "غلب",
-    "قرب",
-    "قلب"
-   ],
-   "best": "جرب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌱𐌹𐌻𐌰𐌹𐌲𐍉𐌽",
    "say": "bilaigon",
    "skeleton": "𐌱𐌻𐌲𐌽",
@@ -11779,39 +10431,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌰𐌽𐌰𐌷",
-   "say": "ganah",
-   "skeleton": "𐌲𐌽𐌷",
-   "gloss": "first/third-person singular present active indicative of 𐌲𐌰𐌽𐌰𐌿𐌷𐌰𐌽 (ganauhan)",
-   "candidates_found": [
-    "جنه",
-    "جنح",
-    "قنح"
-   ],
-   "best": "جنه",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌱𐌹𐌽𐌰𐌷",
-   "say": "binah",
-   "skeleton": "𐌱𐌽𐌷",
-   "gloss": "first/third-person singular present active indicative of 𐌱𐌹𐌽𐌰𐌿𐌷𐌰𐌽 (binauhan)",
-   "candidates_found": [
-    "بنه",
-    "بنح"
-   ],
-   "best": "بنه",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -11867,21 +10486,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌱𐌹𐍃𐌺𐌰𐌹𐌽",
-   "say": "biskain",
-   "skeleton": "𐌱𐍃𐌺𐌽",
-   "gloss": "first/third-person singular present active indicative of 𐌱𐌹𐍃𐌺𐌴𐌹𐌽𐌰𐌽 (biskeinan)",
-   "candidates_found": [
-    "بشكن"
-   ],
-   "best": "بشكن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐍈𐌰𐌹𐍂𐌽𐌴𐌹",
    "say": "hwairnei",
    "skeleton": "𐍈𐍂𐌽",
@@ -11909,24 +10513,6 @@
     "بن"
    ],
    "best": "فن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍃𐌽𐌰𐌿",
-   "say": "snau",
-   "skeleton": "𐍃𐌽",
-   "gloss": "first/third-person singular past active indicative of 𐍃𐌽𐌹𐍅𐌰𐌽 (sniwan)",
-   "candidates_found": [
-    "سن",
-    "شن",
-    "صن",
-    "زن"
-   ],
-   "best": "سن",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -11972,6 +10558,24 @@
    "say": "bitheh",
    "skeleton": "𐌱𐌸𐌷",
    "gloss": "then",
+   "candidates_found": [
+    "بثغ",
+    "بطح",
+    "بطخ",
+    "بطغ"
+   ],
+   "best": "بثغ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "𐌱𐌹𐌸𐌴𐌷",
+   "say": "bitheh",
+   "skeleton": "𐌱𐌸𐌷",
+   "gloss": "when; after",
    "candidates_found": [
     "بثغ",
     "بطح",
@@ -12104,24 +10708,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌲𐌰𐌼𐍉𐍄",
-   "say": "gamot",
-   "skeleton": "𐌲𐌼𐍄",
-   "gloss": "first/third-person singular present active indicative of 𐌲𐌰𐌼𐍉𐍄𐌰𐌽 (gamōtan)",
-   "candidates_found": [
-    "جمط",
-    "غمت",
-    "غمط",
-    "قمط"
-   ],
-   "best": "جمط",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐍃𐌰𐍂𐍅𐌰",
    "say": "sarwa",
    "skeleton": "𐍃𐍂𐍅",
@@ -12246,25 +10832,6 @@
     "مرن"
    ],
    "best": "ملن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌼𐌰𐌹𐌶𐌿𐌷",
-   "say": "maizuh",
-   "skeleton": "𐌼𐌶𐌷",
-   "gloss": "contraction of 𐌼𐌰𐌹𐍃 (mais) + -𐌿𐌷 (-uh)",
-   "candidates_found": [
-    "مزه",
-    "مزح",
-    "مزغ",
-    "مذح",
-    "مذخ"
-   ],
-   "best": "مزه",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -12490,28 +11057,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍃𐍅𐍉𐍂",
-   "say": "swor",
-   "skeleton": "𐍃𐍅𐍂",
-   "gloss": "first/third-person singular past active indicative of 𐍃𐍅𐌰𐍂𐌰𐌽 (swaran)",
-   "candidates_found": [
-    "سور",
-    "سول",
-    "شور",
-    "شول",
-    "صور",
-    "صول",
-    "زور",
-    "زول"
-   ],
-   "best": "سور",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -12784,27 +11329,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌲𐌰𐍅𐌰𐌸",
-   "say": "gawath",
-   "skeleton": "𐌲𐍅𐌸",
-   "gloss": "first/third-person singular past active indicative of 𐌲𐌰𐍅𐌹𐌳𐌰𐌽 (gawidan)",
-   "candidates_found": [
-    "جوث",
-    "جوت",
-    "جوط",
-    "غوث",
-    "غوط",
-    "قوت",
-    "قوط"
-   ],
-   "best": "جوث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌹𐌱𐌿𐌺𐍃",
    "say": "ibuks",
    "skeleton": "𐌱𐌺𐍃",
@@ -12840,47 +11364,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌲𐌰𐌽𐌰𐍃",
-   "say": "ganas",
-   "skeleton": "𐌲𐌽𐍃",
-   "gloss": "first/third-person singular past active indicative of 𐌲𐌰𐌽𐌹𐍃𐌰𐌽 (ganisan)",
-   "candidates_found": [
-    "جنس",
-    "جنش",
-    "جنص",
-    "جنز",
-    "غنش",
-    "غنص",
-    "قنس",
-    "قنش",
-    "قنص",
-    "قنز"
-   ],
-   "best": "جنس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌰𐌽𐌰𐌼",
-   "say": "ganam",
-   "skeleton": "𐌲𐌽𐌼",
-   "gloss": "first/third-person singular past active indicative of 𐌲𐌰𐌽𐌹𐌼𐌰𐌽 (ganiman)",
-   "candidates_found": [
-    "جنم",
-    "غنم",
-    "قنم"
-   ],
-   "best": "جنم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌲𐌹𐌿𐍄𐌰𐌽",
    "say": "giutan",
    "skeleton": "𐌲𐍄𐌽",
@@ -12896,25 +11379,6 @@
     "قثن"
    ],
    "best": "جتن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌰𐌿𐌼𐌹𐌳𐌰",
-   "say": "gaumida",
-   "skeleton": "𐌲𐌼𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌲𐌰𐌿𐌼𐌾𐌰𐌽 (gaumjan)",
-   "candidates_found": [
-    "جمد",
-    "جمض",
-    "غمد",
-    "غمض",
-    "قمد"
-   ],
-   "best": "جمد",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -12982,41 +11446,6 @@
     "يقن"
    ],
    "best": "يقن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍃𐌰𐌹𐌰𐌳𐌰",
-   "say": "saiada",
-   "skeleton": "𐍃𐌳",
-   "gloss": "first/third-person singular present passive indicative of 𐍃𐌰𐌹𐌰𐌽 (saian)",
-   "candidates_found": [
-    "سد",
-    "شد",
-    "شذ",
-    "صد"
-   ],
-   "best": "سد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌹𐌽𐍅𐌰𐌹𐍄",
-   "say": "inwait",
-   "skeleton": "𐌽𐍅𐍄",
-   "gloss": "first/third-person singular past active indicative of 𐌹𐌽𐍅𐌴𐌹𐍄𐌰𐌽 (inweitan)",
-   "candidates_found": [
-    "نوت",
-    "نوط",
-    "نوث"
-   ],
-   "best": "نوت",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -13146,21 +11575,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍅𐌴𐌽𐌹𐌳𐌰",
-   "say": "wenida",
-   "skeleton": "𐍅𐌽𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐍅𐌴𐌽𐌾𐌰𐌽 (wēnjan)",
-   "candidates_found": [
-    "وند"
-   ],
-   "best": "وند",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -13411,46 +11825,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍃𐌰𐌹𐍂",
-   "say": "sair",
-   "skeleton": "𐍃𐍂",
-   "gloss": "pain; sorrow",
-   "candidates_found": [
-    "سر",
-    "سل",
-    "شر",
-    "شل",
-    "صر",
-    "صل",
-    "زر",
-    "زل"
-   ],
-   "best": "سر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌿𐍃𐌽𐌰𐌼",
-   "say": "usnam",
-   "skeleton": "𐍃𐌽𐌼",
-   "gloss": "first/third-person singular past active indicative of 𐌿𐍃𐌽𐌹𐌼𐌰𐌽 (usniman)",
-   "candidates_found": [
-    "سنم",
-    "شنم",
-    "صنم",
-    "زنم"
-   ],
-   "best": "سنم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐍆𐍂𐌿𐌼𐌰𐌳𐌴𐌹",
    "say": "frumadei",
    "skeleton": "𐍆𐍂𐌼𐌳",
@@ -13610,24 +11984,6 @@
     "خلبن"
    ],
    "best": "خلبن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍈𐌰𐍂𐌱𐍉𐌳𐌰",
-   "say": "hwarboda",
-   "skeleton": "𐍈𐍂𐌱𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐍈𐌰𐍂𐌱𐍉𐌽 (ƕarbōn)",
-   "candidates_found": [
-    "حلبد",
-    "خربد",
-    "خربض",
-    "خربذ"
-   ],
-   "best": "حلبد",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -13855,22 +12211,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌲𐌰𐌱𐍂𐌰𐌺",
-   "say": "gabrak",
-   "skeleton": "𐌲𐌱𐍂𐌺",
-   "gloss": "first/third-person singular preterite of 𐌲𐌰𐌱𐍂𐌹𐌺𐌰𐌽 (gabrikan)",
-   "candidates_found": [
-    "جبلق",
-    "غبرق"
-   ],
-   "best": "جبلق",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌲𐌰𐌹𐌻𐌾𐌰𐌽",
    "say": "gailjan",
    "skeleton": "𐌲𐌻𐌾𐌽",
@@ -13952,23 +12292,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌲𐌰𐌼𐌰𐌲",
-   "say": "gamag",
-   "skeleton": "𐌲𐌼𐌲",
-   "gloss": "first/third-person singular present active indicative of 𐌲𐌰𐌼𐌰𐌲𐌰𐌽 (gamagan)",
-   "candidates_found": [
-    "غمج",
-    "غمق",
-    "قمق"
-   ],
-   "best": "غمج",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌿𐍃𐌱𐌰𐌹𐍂𐌰𐌽",
    "say": "usbairan",
    "skeleton": "𐍃𐌱𐍂𐌽",
@@ -13981,49 +12304,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌿𐍃𐌱𐌰𐍂",
-   "say": "usbar",
-   "skeleton": "𐍃𐌱𐍂",
-   "gloss": "first/third-person singular past active indicative of 𐌿𐍃𐌱𐌰𐌹𐍂𐌰𐌽 (usbairan)",
-   "candidates_found": [
-    "سبر",
-    "سبل",
-    "شبر",
-    "شبل",
-    "صبر",
-    "زبر",
-    "زبل"
-   ],
-   "best": "سبر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌿𐍃𐌵𐌰𐌼",
-   "say": "usqam",
-   "skeleton": "𐍃𐌵𐌼",
-   "gloss": "first/third-person singular past indicative of 𐌿𐍃𐌵𐌹𐌼𐌰𐌽 (usqiman)",
-   "candidates_found": [
-    "سقم",
-    "سكم",
-    "شقم",
-    "شكم",
-    "صقم",
-    "صكم",
-    "زقم",
-    "زكم"
-   ],
-   "best": "سقم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -14135,26 +12415,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌿𐍃𐌼𐌴𐍄",
-   "say": "usmet",
-   "skeleton": "𐍃𐌼𐍄",
-   "gloss": "behaviour, conduct, way of life",
-   "candidates_found": [
-    "سمت",
-    "سمط",
-    "شمت",
-    "شمط",
-    "صمت",
-    "زمت"
-   ],
-   "best": "سمت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌺𐌿𐌼𐌴𐌹",
    "say": "kumei",
    "skeleton": "𐌺𐌼",
@@ -14168,59 +12428,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌽𐌰𐌼𐌿𐌷",
-   "say": "namuh",
-   "skeleton": "𐌽𐌼𐌷",
-   "gloss": "contraction of 𐌽𐌰𐌼 (nam) + -𐌿𐌷 (-uh)",
-   "candidates_found": [
-    "نمه",
-    "نمغ"
-   ],
-   "best": "نمه",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌽𐌹𐌼𐌿𐌷",
-   "say": "nimuh",
-   "skeleton": "𐌽𐌼𐌷",
-   "gloss": "contraction of 𐌽𐌹𐌼 (nim) + -𐌿𐌷 (-uh)",
-   "candidates_found": [
-    "نمه",
-    "نمغ"
-   ],
-   "best": "نمه",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍅𐌰𐌹𐍄𐌿𐌷",
-   "say": "waituh",
-   "skeleton": "𐍅𐍄𐌷",
-   "gloss": "contraction of 𐍅𐌰𐌹𐍄 (wait) + -𐌿𐌷 (-uh)",
-   "candidates_found": [
-    "وتح",
-    "وتخ",
-    "وتغ",
-    "وطح",
-    "وطخ",
-    "وثخ",
-    "وثغ"
-   ],
-   "best": "وتح",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -14276,21 +12483,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍅𐌹𐍄𐌿𐌼𐌿𐌷",
-   "say": "witumuh",
-   "skeleton": "𐍅𐍄𐌼𐌷",
-   "gloss": "contraction of 𐍅𐌹𐍄𐌿𐌼 (witum) + -𐌿𐌷 (-uh)",
-   "candidates_found": [
-    "وثمه"
-   ],
-   "best": "وثمه",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌽𐌹𐌷",
    "say": "nih",
    "skeleton": "𐌽𐌷",
@@ -14302,24 +12494,6 @@
     "نغ"
    ],
    "best": "نه",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌿𐌶𐌿𐌷",
-   "say": "uzuh",
-   "skeleton": "𐌶𐌷",
-   "gloss": "contraction of 𐌿𐍃 (us) + -𐌿𐌷 (-uh)",
-   "candidates_found": [
-    "زح",
-    "زخ",
-    "ذه",
-    "ذغ"
-   ],
-   "best": "زح",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -14358,29 +12532,6 @@
    "shared": [],
    "direct": false,
    "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌰𐌻𐌰𐌿𐌺",
-   "say": "galauk",
-   "skeleton": "𐌲𐌻𐌺",
-   "gloss": "first/third-person singular past active indicative of 𐌲𐌰𐌻𐌿𐌺𐌰𐌽 (galukan)",
-   "candidates_found": [
-    "جلك",
-    "جلق",
-    "جرك",
-    "جرق",
-    "غلق",
-    "غرك",
-    "غرق",
-    "قلق",
-    "قرق"
-   ],
-   "best": "جلك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -14426,40 +12577,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌲𐌰𐌼𐌰𐍄",
-   "say": "gamat",
-   "skeleton": "𐌲𐌼𐍄",
-   "gloss": "first/third-person singular past indicative of 𐌲𐌰𐌼𐌹𐍄𐌰𐌽 (gamitan)",
-   "candidates_found": [
-    "جمط",
-    "غمت",
-    "غمط",
-    "قمط"
-   ],
-   "best": "جمط",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌼𐌿𐌽𐌰𐌹𐌳𐌰",
-   "say": "munaida",
-   "skeleton": "𐌼𐌽𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌼𐌿𐌽𐌰𐌽 (munan)",
-   "candidates_found": [
-    "مند",
-    "منذ"
-   ],
-   "best": "مند",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌲𐌰𐌿𐌽𐍉𐌽",
    "say": "gaunon",
    "skeleton": "𐌲𐌽𐌽",
@@ -14474,24 +12591,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌻𐌿𐌺",
-   "say": "luk",
-   "skeleton": "𐌻𐌺",
-   "gloss": "abbreviation of 𐌻𐌿𐌺𐌰𐍃 (lūkās)",
-   "candidates_found": [
-    "لك",
-    "لق",
-    "رك",
-    "رق"
-   ],
-   "best": "لك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -14652,31 +12751,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌲𐌰𐍅𐌰𐍃",
-   "say": "gawas",
-   "skeleton": "𐌲𐍅𐍃",
-   "gloss": "first/third-person singular past active indicative of 𐌲𐌰𐍅𐌹𐍃𐌰𐌽 (gawisan)",
-   "candidates_found": [
-    "جوس",
-    "جوش",
-    "جوص",
-    "جوز",
-    "غوس",
-    "غوص",
-    "غوز",
-    "قوس",
-    "قوش",
-    "قوص",
-    "قوز"
-   ],
-   "best": "جوس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌲𐌰𐍅𐌴𐌹𐍃𐍉𐌽",
    "say": "gaweison",
    "skeleton": "𐌲𐍅𐍃𐌽",
@@ -14743,49 +12817,6 @@
     "ولق"
    ],
    "best": "ورك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐍃𐌰𐌼𐌰𐌽𐌰",
-   "say": "samana",
-   "skeleton": "𐍃𐌼𐌽",
-   "gloss": "together",
-   "candidates_found": [
-    "سمن",
-    "شمن",
-    "زمن"
-   ],
-   "best": "سمن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌲𐌰𐍃𐌽𐌰𐌿",
-   "say": "gasnau",
-   "skeleton": "𐌲𐍃𐌽",
-   "gloss": "first/third-person singular past indicative of 𐌲𐌰𐍃𐌽𐌹𐍅𐌰𐌽 (gasniwan)",
-   "candidates_found": [
-    "جسن",
-    "جشن",
-    "جصن",
-    "جزن",
-    "غسن",
-    "غشن",
-    "غصن",
-    "غزن",
-    "قسن",
-    "قشن",
-    "قصن",
-    "قزن"
-   ],
-   "best": "جسن",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -15101,26 +13132,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌹𐌽𐌰𐌲𐌹𐌳𐌰",
-   "say": "inagida",
-   "skeleton": "𐌽𐌲𐌳",
-   "gloss": "first/third-person singular past indicative of 𐌹𐌽𐌰𐌲𐌾𐌰𐌽 (inagjan)",
-   "candidates_found": [
-    "نجد",
-    "نجذ",
-    "نغض",
-    "نقد",
-    "نقض",
-    "نقذ"
-   ],
-   "best": "نجد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌹𐌽𐌰𐌷𐌴𐌹",
    "say": "inahei",
    "skeleton": "𐌽𐌷",
@@ -15285,26 +13296,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐍅𐌰𐌹𐌷𐌾𐍉",
-   "say": "waihjo",
-   "skeleton": "𐍅𐌷𐌾",
-   "gloss": "fight, quarrel, battle",
-   "candidates_found": [
-    "وهي",
-    "وهج",
-    "وحي",
-    "وحج",
-    "وخي",
-    "وغي"
-   ],
-   "best": "وهي",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌿𐌽𐌰𐌲𐌴𐌹",
    "say": "unagei",
    "skeleton": "𐌽𐌲",
@@ -15456,22 +13447,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌼𐌹𐌸𐍅𐌰𐌹𐍄",
-   "say": "mithwait",
-   "skeleton": "𐌼𐌸𐍅𐍄",
-   "gloss": "first/third-person singular present indicative of 𐌼𐌹𐌸𐍅𐌹𐍄𐌰𐌽 (miþwitan)",
-   "candidates_found": [
-    "متوت",
-    "متوث"
-   ],
-   "best": "متوت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌲𐌰𐌹𐍃",
    "say": "gais",
    "skeleton": "𐌲𐍃",
@@ -15535,23 +13510,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "𐌱𐌰𐌿𐍄𐌰𐌽",
-   "say": "bautan",
-   "skeleton": "𐌱𐍄𐌽",
-   "gloss": "to beat, strike",
-   "candidates_found": [
-    "بتن",
-    "بطن",
-    "بثن"
-   ],
-   "best": "بتن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "𐌿𐍆𐌻𐌹𐌲𐌰𐌽",
    "say": "ufligan",
    "skeleton": "𐍆𐌻𐌲𐌽",
@@ -15605,22 +13563,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌿𐌶𐍉𐌽",
-   "say": "uzon",
-   "skeleton": "𐌶𐌽",
-   "gloss": "first/third-person singular past active indicative of 𐌿𐌶𐌰𐌽𐌰𐌽 (uzanan)",
-   "candidates_found": [
-    "زن",
-    "ذن"
-   ],
-   "best": "زن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -15878,21 +13820,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "𐌿𐍆𐌼𐌴𐌻𐌹𐌳𐌰",
-   "say": "ufmelida",
-   "skeleton": "𐍆𐌼𐌻𐌳",
-   "gloss": "first/third-person singular past active indicative of 𐌿𐍆𐌼𐌴𐌻𐌾𐌰𐌽 (ufmēljan)",
-   "candidates_found": [
-    "بمرد"
-   ],
-   "best": "بمرد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
    "loan_suspect": false
   },
   {

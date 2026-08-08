@@ -12,12 +12,12 @@
     "ثلم"
    ],
    "best": "سلم",
-   "overlap": 21,
+   "overlap": 24,
    "shared": [
     "being",
     "completeness",
-    "greeting",
-    "health"
+    "good",
+    "greeting"
    ],
    "direct": true,
    "depth": 3,
@@ -39,6 +39,28 @@
     "difficult",
     "diseased",
     "displeasing"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šalāmum",
+   "say": "šalāmum",
+   "skeleton": "šlm",
+   "gloss": "to be(come) healthy, well, intact, in good condition, safe; to receive full payment, obtai",
+   "candidates_found": [
+    "سلم",
+    "شلم",
+    "ثلم"
+   ],
+   "best": "سلم",
+   "overlap": 15,
+   "shared": [
+    "good",
+    "intact",
+    "obtain",
+    "receive"
    ],
    "direct": true,
    "depth": 3,
@@ -97,14 +119,36 @@
     "مرص"
    ],
    "best": "مرض",
-   "overlap": 10,
+   "overlap": 12,
    "shared": [
     "difficult",
     "diseased",
+    "sick",
     "troublesome"
    ],
    "direct": true,
    "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ṣillum",
+   "say": "ṣillum",
+   "skeleton": "ṣl",
+   "gloss": "shadow, shade, shaded place; protection, canopy (on a boat), awning, covering",
+   "candidates_found": [
+    "ظل",
+    "صل",
+    "ضل"
+   ],
+   "best": "ظل",
+   "overlap": 10,
+   "shared": [
+    "protection",
+    "shade",
+    "shadow"
+   ],
+   "direct": true,
+   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -188,6 +232,26 @@
    "loan_suspect": false
   },
   {
+   "branch": "šikarum",
+   "say": "šikarum",
+   "skeleton": "škr",
+   "gloss": "beer (made of grain); alcoholic drink, intoxicant liquid",
+   "candidates_found": [
+    "سكر",
+    "شكر"
+   ],
+   "best": "سكر",
+   "overlap": 9,
+   "shared": [
+    "alcoholic",
+    "drink",
+    "intoxicant"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "malkum",
    "say": "malkum",
    "skeleton": "mlk",
@@ -207,21 +271,21 @@
    "loan_suspect": false
   },
   {
-   "branch": "šalāmum",
-   "say": "šalāmum",
-   "skeleton": "šlm",
-   "gloss": "health, physical well-being; welfare (of country, city, etc.)",
+   "branch": "šumēlum",
+   "say": "šumēlum",
+   "skeleton": "šml",
+   "gloss": "the left; left side",
    "candidates_found": [
-    "سلم",
-    "شلم",
-    "ثلم"
+    "شمل",
+    "سمل",
+    "ثمل"
    ],
-   "best": "سلم",
+   "best": "شمل",
    "overlap": 9,
    "shared": [
-    "being",
-    "health",
-    "well"
+    "hand",
+    "left",
+    "side"
    ],
    "direct": true,
    "depth": 3,
@@ -257,67 +321,10 @@
     "ولذ"
    ],
    "best": "ولد",
-   "overlap": 8,
+   "overlap": 7,
    "shared": [
     "birth",
     "father"
-   ],
-   "direct": true,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ṣillum",
-   "say": "ṣillum",
-   "skeleton": "ṣl",
-   "gloss": "shadow, shade, shaded place; protection, canopy (on a boat), awning, covering",
-   "candidates_found": [
-    "ظل",
-    "صل",
-    "ضل"
-   ],
-   "best": "ظل",
-   "overlap": 8,
-   "shared": [
-    "shade",
-    "shadow"
-   ],
-   "direct": true,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "birkum",
-   "say": "birkum",
-   "skeleton": "brk",
-   "gloss": "knee; lap",
-   "candidates_found": [
-    "برك"
-   ],
-   "best": "برك",
-   "overlap": 7,
-   "shared": [
-    "knee",
-    "lap"
-   ],
-   "direct": true,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šikarum",
-   "say": "šikarum",
-   "skeleton": "škr",
-   "gloss": "beer (made of grain); alcoholic drink, intoxicant liquid",
-   "candidates_found": [
-    "سكر",
-    "شكر"
-   ],
-   "best": "سكر",
-   "overlap": 7,
-   "shared": [
-    "alcoholic",
-    "drink"
    ],
    "direct": true,
    "depth": 3,
@@ -342,6 +349,44 @@
    "loan_suspect": false
   },
   {
+   "branch": "šinnum",
+   "say": "šinnum",
+   "skeleton": "šn",
+   "gloss": "tooth; teeth (\"two rows of teeth\")",
+   "candidates_found": [
+    "سن",
+    "ثن",
+    "شن"
+   ],
+   "best": "سن",
+   "overlap": 7,
+   "shared": [
+    "tooth",
+    "tusk"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "talmīdum",
+   "say": "talmīdum",
+   "skeleton": "tlmd",
+   "gloss": "apprentice, student; a type of plow",
+   "candidates_found": [
+    "تلمذ"
+   ],
+   "best": "تلمذ",
+   "overlap": 6,
+   "shared": [
+    "apprentice",
+    "student"
+   ],
+   "direct": true,
+   "depth": 4,
+   "loan_suspect": false
+  },
+  {
    "branch": "šarrāqum",
    "say": "šarrāqum",
    "skeleton": "šrq",
@@ -362,19 +407,64 @@
    "loan_suspect": false
   },
   {
-   "branch": "zikarum",
-   "say": "zikarum",
-   "skeleton": "zkr",
-   "gloss": "male, virile",
+   "branch": "paššūrum",
+   "say": "paššūrum",
+   "skeleton": "pšr",
+   "gloss": "dining tray, table; offering table",
    "candidates_found": [
-    "ذكر",
-    "زكر"
+    "فثر",
+    "فشر",
+    "فسر",
+    "بشر",
+    "بسر",
+    "بثر"
    ],
-   "best": "ذكر",
+   "best": "فثر",
    "overlap": 6,
    "shared": [
-    "male",
-    "virile"
+    "table",
+    "tray"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "birkum",
+   "say": "birkum",
+   "skeleton": "brk",
+   "gloss": "knee; lap",
+   "candidates_found": [
+    "برك"
+   ],
+   "best": "برك",
+   "overlap": 6,
+   "shared": [
+    "knee",
+    "lap"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ṣuprum",
+   "say": "ṣuprum",
+   "skeleton": "ṣpr",
+   "gloss": "nail; nail impression (on a clay tablet, as signature)",
+   "candidates_found": [
+    "ظفر",
+    "ضفر",
+    "صفر",
+    "صبر",
+    "ضبر",
+    "ظبر"
+   ],
+   "best": "ظفر",
+   "overlap": 6,
+   "shared": [
+    "claw",
+    "nail"
    ],
    "direct": true,
    "depth": 3,
@@ -420,6 +510,26 @@
    "loan_suspect": false
   },
   {
+   "branch": "šalāmum",
+   "say": "šalāmum",
+   "skeleton": "šlm",
+   "gloss": "health, physical well-being; welfare (of country, city, etc.)",
+   "candidates_found": [
+    "سلم",
+    "شلم",
+    "ثلم"
+   ],
+   "best": "سلم",
+   "overlap": 6,
+   "shared": [
+    "being",
+    "health"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "šakānum",
    "say": "šakānum",
    "skeleton": "škn",
@@ -434,6 +544,25 @@
    "shared": [
     "establish",
     "set"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ṣalmum",
+   "say": "ṣalmum",
+   "skeleton": "ṣlm",
+   "gloss": "verbal adjective of ṣalāmum:; black, dark",
+   "candidates_found": [
+    "ظلم",
+    "صلم"
+   ],
+   "best": "ظلم",
+   "overlap": 6,
+   "shared": [
+    "black",
+    "dark"
    ],
    "direct": true,
    "depth": 3,
@@ -458,6 +587,67 @@
    "loan_suspect": false
   },
   {
+   "branch": "qebērum",
+   "say": "qebērum",
+   "skeleton": "qbr",
+   "gloss": "to bury; to roll up in clothes or reed mat (in preparation for burial)",
+   "candidates_found": [
+    "قبر"
+   ],
+   "best": "قبر",
+   "overlap": 6,
+   "shared": [
+    "burial",
+    "bury"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šalmum",
+   "say": "šalmum",
+   "skeleton": "šlm",
+   "gloss": "verbal adjective of šalāmum:; healthy, sound, intact, whole, entire, correct, proper, safe",
+   "candidates_found": [
+    "سلم",
+    "شلم",
+    "ثلم"
+   ],
+   "best": "سلم",
+   "overlap": 6,
+   "shared": [
+    "intact",
+    "safe"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šapārum",
+   "say": "šapārum",
+   "skeleton": "špr",
+   "gloss": "to send; to send word (written or spoken), a message, a report, to write to",
+   "candidates_found": [
+    "سفر",
+    "شفر",
+    "شبر",
+    "سبر",
+    "ثفر",
+    "ثبر"
+   ],
+   "best": "سفر",
+   "overlap": 6,
+   "shared": [
+    "message",
+    "write"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "salīmum",
    "say": "salīmum",
    "skeleton": "slm",
@@ -468,7 +658,25 @@
    "best": "سلم",
    "overlap": 6,
    "shared": [
-    "concord",
+    "peace",
+    "reconciliation"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "salāmum",
+   "say": "salāmum",
+   "skeleton": "slm",
+   "gloss": "to make peace, become reconciled, be at peace",
+   "candidates_found": [
+    "سلم"
+   ],
+   "best": "سلم",
+   "overlap": 6,
+   "shared": [
+    "become",
     "peace"
    ],
    "direct": true,
@@ -476,25 +684,61 @@
    "loan_suspect": false
   },
   {
-   "branch": "ṣuprum",
-   "say": "ṣuprum",
-   "skeleton": "ṣpr",
-   "gloss": "nail; nail impression (on a clay tablet, as signature)",
+   "branch": "tīlum",
+   "say": "tīlum",
+   "skeleton": "tl",
+   "gloss": "mound, heap, tell",
    "candidates_found": [
-    "ظفر",
-    "ضفر",
-    "صفر",
-    "صبر",
-    "ضبر",
-    "ظبر"
+    "تل",
+    "ثل"
    ],
-   "best": "ظفر",
-   "overlap": 5,
+   "best": "تل",
+   "overlap": 6,
    "shared": [
-    "nail"
+    "heap",
+    "mound"
    ],
    "direct": true,
-   "depth": 3,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "madādum",
+   "say": "madādum",
+   "skeleton": "md",
+   "gloss": "to measure out, pay, measure, survey",
+   "candidates_found": [
+    "مد",
+    "مذ",
+    "مض"
+   ],
+   "best": "مد",
+   "overlap": 6,
+   "shared": [
+    "measure",
+    "out"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "quppum",
+   "say": "quppum",
+   "skeleton": "qp",
+   "gloss": "wicker basket, wooden box",
+   "candidates_found": [
+    "قف",
+    "قب"
+   ],
+   "best": "قف",
+   "overlap": 6,
+   "shared": [
+    "basket",
+    "wicker"
+   ],
+   "direct": true,
+   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -515,58 +759,175 @@
    "loan_suspect": false
   },
   {
-   "branch": "qebērum",
-   "say": "qebērum",
-   "skeleton": "qbr",
-   "gloss": "to bury; to roll up in clothes or reed mat (in preparation for burial)",
+   "branch": "šaplum",
+   "say": "šaplum",
+   "skeleton": "špl",
+   "gloss": "underside, bottom; arrears",
    "candidates_found": [
-    "قبر"
+    "سفل",
+    "شفل",
+    "شبل",
+    "سبل",
+    "ثفل",
+    "ثبل"
    ],
-   "best": "قبر",
+   "best": "سفل",
    "overlap": 4,
    "shared": [
-    "bury"
+    "bottom"
    ],
    "direct": true,
    "depth": 3,
    "loan_suspect": false
   },
   {
-   "branch": "šumēlum",
-   "say": "šumēlum",
-   "skeleton": "šml",
-   "gloss": "the left; left side",
+   "branch": "šiṭrum",
+   "say": "šiṭrum",
+   "skeleton": "šṭr",
+   "gloss": "text, inscription (any piece of writing); stars",
    "candidates_found": [
-    "شمل",
-    "سمل",
-    "ثمل"
+    "سطر",
+    "شطر",
+    "شظر"
    ],
-   "best": "شمل",
+   "best": "سطر",
    "overlap": 4,
    "shared": [
-    "left"
+    "writing"
    ],
    "direct": true,
    "depth": 3,
    "loan_suspect": false
   },
   {
-   "branch": "šinnum",
-   "say": "šinnum",
-   "skeleton": "šn",
-   "gloss": "tooth; teeth (\"two rows of teeth\")",
+   "branch": "šaṭārum",
+   "say": "šaṭārum",
+   "skeleton": "šṭr",
+   "gloss": "copy, exemplar, text, inscription, writing, written document",
    "candidates_found": [
-    "سن",
-    "ثن",
-    "شن"
+    "سطر",
+    "شطر",
+    "شظر"
    ],
-   "best": "سن",
+   "best": "سطر",
    "overlap": 4,
    "shared": [
-    "tooth"
+    "writing"
    ],
    "direct": true,
-   "depth": 2,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šiprum",
+   "say": "šiprum",
+   "skeleton": "špr",
+   "gloss": "message, report, commission; messenger",
+   "candidates_found": [
+    "سفر",
+    "شفر",
+    "شبر",
+    "سبر",
+    "ثفر",
+    "ثبر"
+   ],
+   "best": "سفر",
+   "overlap": 4,
+   "shared": [
+    "message"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "muškēnum",
+   "say": "muškēnum",
+   "skeleton": "mškn",
+   "gloss": "commoner, dependent (a class of people dependent or reliant on others, unable to provide s",
+   "candidates_found": [
+    "مسكن",
+    "مشكن"
+   ],
+   "best": "مسكن",
+   "overlap": 3,
+   "shared": [
+    "poor"
+   ],
+   "direct": true,
+   "depth": 4,
+   "loan_suspect": false
+  },
+  {
+   "branch": "sebet",
+   "say": "sebet",
+   "skeleton": "sbt",
+   "gloss": "seven, 7",
+   "candidates_found": [
+    "سبت"
+   ],
+   "best": "سبت",
+   "overlap": 3,
+   "shared": [
+    "seven"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "kirûm",
+   "say": "kirûm",
+   "skeleton": "krm",
+   "gloss": "garden, orchard",
+   "candidates_found": [
+    "كرم"
+   ],
+   "best": "كرم",
+   "overlap": 3,
+   "shared": [
+    "orchard"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḫalāqum",
+   "say": "ḫalāqum",
+   "skeleton": "ḫlq",
+   "gloss": "to disappear, vanquish, go missing, get lost, perish; to flee, escape",
+   "candidates_found": [
+    "علق",
+    "خلق",
+    "حلق",
+    "هلق",
+    "غلق"
+   ],
+   "best": "علق",
+   "overlap": 3,
+   "shared": [
+    "get"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "warāqum",
+   "say": "warāqum",
+   "skeleton": "wrq",
+   "gloss": "to be(come) green, yellow, to turn pale",
+   "candidates_found": [
+    "ورق"
+   ],
+   "best": "ورق",
+   "overlap": 3,
+   "shared": [
+    "turn"
+   ],
+   "direct": true,
+   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -607,6 +968,24 @@
    "loan_suspect": false
   },
   {
+   "branch": "zikarum",
+   "say": "zikarum",
+   "skeleton": "zkr",
+   "gloss": "male, virile",
+   "candidates_found": [
+    "زكر",
+    "ذكر"
+   ],
+   "best": "زكر",
+   "overlap": 3,
+   "shared": [
+    "male"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "qarnum",
    "say": "qarnum",
    "skeleton": "qrn",
@@ -618,6 +997,23 @@
    "overlap": 3,
    "shared": [
     "horn"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "lamassum",
+   "say": "lamassum",
+   "skeleton": "lms",
+   "gloss": "a lamassu protective spirit (representing and protecting the good fortune, spiritual healt",
+   "candidates_found": [
+    "لمس"
+   ],
+   "best": "لمس",
+   "overlap": 3,
+   "shared": [
+    "physical"
    ],
    "direct": true,
    "depth": 3,
@@ -642,6 +1038,25 @@
    "loan_suspect": false
   },
   {
+   "branch": "warādum",
+   "say": "warādum",
+   "skeleton": "wrd",
+   "gloss": "to descend, go down, come down; to hang down, droop",
+   "candidates_found": [
+    "ورد",
+    "ورذ",
+    "ورض"
+   ],
+   "best": "ورد",
+   "overlap": 3,
+   "shared": [
+    "come"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "gammalu",
    "say": "gammalu",
    "skeleton": "gml",
@@ -660,37 +1075,22 @@
    "loan_suspect": false
   },
   {
-   "branch": "šalāmum",
-   "say": "šalāmum",
-   "skeleton": "šlm",
-   "gloss": "to be(come) healthy, well, intact, in good condition, safe; to receive full payment, obtai",
+   "branch": "rapāšum",
+   "say": "rapāšum",
+   "skeleton": "rpš",
+   "gloss": "to be or become wide, broad, large, to increase, to expand",
    "candidates_found": [
-    "سلم",
-    "شلم",
-    "ثلم"
+    "ربث",
+    "رفش",
+    "رفس",
+    "رفث",
+    "ربش",
+    "ربس"
    ],
-   "best": "سلم",
+   "best": "ربث",
    "overlap": 3,
    "shared": [
-    "well"
-   ],
-   "direct": true,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ṣalmum",
-   "say": "ṣalmum",
-   "skeleton": "ṣlm",
-   "gloss": "verbal adjective of ṣalāmum:; black, dark",
-   "candidates_found": [
-    "ظلم",
-    "صلم"
-   ],
-   "best": "ظلم",
-   "overlap": 3,
-   "shared": [
-    "dark"
+    "become"
    ],
    "direct": true,
    "depth": 3,
@@ -736,22 +1136,63 @@
    "loan_suspect": false
   },
   {
+   "branch": "makārum",
+   "say": "makārum",
+   "skeleton": "mkr",
+   "gloss": "to flood, irrigate, water",
+   "candidates_found": [
+    "مكر"
+   ],
+   "best": "مكر",
+   "overlap": 3,
+   "shared": [
+    "irrigate"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "napāšum",
    "say": "napāšum",
    "skeleton": "npš",
    "gloss": "to breathe (freely), to relax; to be wide, expand, be abundant",
    "candidates_found": [
-    "نفس",
     "نفش",
+    "نفس",
     "نفث",
     "نبش",
     "نبس",
     "نبث"
    ],
-   "best": "نفس",
+   "best": "نفش",
    "overlap": 3,
    "shared": [
-    "breathe"
+    "expand"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šapattum",
+   "say": "šapattum",
+   "skeleton": "špt",
+   "gloss": "15ᵗʰ day of the month; period of 15 days, a fortnight",
+   "candidates_found": [
+    "سبت",
+    "شفت",
+    "شفث",
+    "شبت",
+    "شبث",
+    "سفت",
+    "ثفت",
+    "ثبت"
+   ],
+   "best": "سبت",
+   "overlap": 3,
+   "shared": [
+    "day"
    ],
    "direct": true,
    "depth": 3,
@@ -789,6 +1230,26 @@
    "overlap": 3,
    "shared": [
     "eagle"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "nasāḫum",
+   "say": "nasāḫum",
+   "skeleton": "nsḫ",
+   "gloss": "to tear out, pull out, uproot, dig up; to remove, take away, exterminate, wipe out, clear ",
+   "candidates_found": [
+    "نسخ",
+    "نسح",
+    "نسع",
+    "نسغ"
+   ],
+   "best": "نسخ",
+   "overlap": 3,
+   "shared": [
+    "withdraw"
    ],
    "direct": true,
    "depth": 3,
@@ -873,36 +1334,93 @@
    "loan_suspect": false
   },
   {
-   "branch": "naṣārum",
-   "say": "naṣārum",
-   "skeleton": "nṣr",
-   "gloss": "to watch over, protect",
+   "branch": "wabālum",
+   "say": "wabālum",
+   "skeleton": "wbl",
+   "gloss": "to bring, transport; to carry (things, animals, people; life, prosperity; messages, dreams",
    "candidates_found": [
-    "نظر",
-    "نصر",
-    "نضر"
+    "وبل"
    ],
-   "best": "نظر",
+   "best": "وبل",
    "overlap": 3,
    "shared": [
-    "watch"
+    "carry"
    ],
    "direct": true,
    "depth": 3,
    "loan_suspect": false
   },
   {
-   "branch": "salāmum",
-   "say": "salāmum",
-   "skeleton": "slm",
-   "gloss": "to make peace, become reconciled, be at peace",
+   "branch": "ṣamādum",
+   "say": "ṣamādum",
+   "skeleton": "ṣmd",
+   "gloss": "to yoke, harness, tie, attach; to make ready, prepare",
    "candidates_found": [
-    "سلم"
+    "ضمد",
+    "صمد"
    ],
-   "best": "سلم",
+   "best": "ضمد",
    "overlap": 3,
    "shared": [
-    "peace"
+    "yoke"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "pašāqum",
+   "say": "pašāqum",
+   "skeleton": "pšq",
+   "gloss": "to be(come) narrow, constricted; to be(come) difficult",
+   "candidates_found": [
+    "فسق",
+    "بثق",
+    "فشق",
+    "بشق",
+    "بسق"
+   ],
+   "best": "فسق",
+   "overlap": 3,
+   "shared": [
+    "come"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šaṭārum",
+   "say": "šaṭārum",
+   "skeleton": "šṭr",
+   "gloss": "to write down, inscribe, copy; to issue a legal document",
+   "candidates_found": [
+    "سطر",
+    "شطر",
+    "شظر"
+   ],
+   "best": "سطر",
+   "overlap": 3,
+   "shared": [
+    "write"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "gamālum",
+   "say": "gamālum",
+   "skeleton": "gml",
+   "gloss": "to do a favour, be obliging, perform a kind act, act so as to please; to spare, save",
+   "candidates_found": [
+    "جمل",
+    "غمل"
+   ],
+   "best": "جمل",
+   "overlap": 3,
+   "shared": [
+    "act"
    ],
    "direct": true,
    "depth": 3,
@@ -966,6 +1484,23 @@
    "loan_suspect": false
   },
   {
+   "branch": "libbum",
+   "say": "libbum",
+   "skeleton": "lb",
+   "gloss": "heart, abdomen, womb; mind, thought, intention, wish, desire, preference",
+   "candidates_found": [
+    "لب"
+   ],
+   "best": "لب",
+   "overlap": 3,
+   "shared": [
+    "heart"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "pûm",
    "say": "pûm",
    "skeleton": "pm",
@@ -1021,6 +1556,23 @@
    "overlap": 3,
    "shared": [
     "sister"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "akalum",
+   "say": "akalum",
+   "skeleton": "kl",
+   "gloss": "bread, loaf (of bread); edibles, food",
+   "candidates_found": [
+    "كل"
+   ],
+   "best": "كل",
+   "overlap": 3,
+   "shared": [
+    "food"
    ],
    "direct": true,
    "depth": 2,
@@ -1139,6 +1691,98 @@
    "loan_suspect": false
   },
   {
+   "branch": "eṭlum",
+   "say": "eṭlum",
+   "skeleton": "ṭl",
+   "gloss": "young man, youth",
+   "candidates_found": [
+    "ظل",
+    "طل"
+   ],
+   "best": "ظل",
+   "overlap": 3,
+   "shared": [
+    "youth"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "darārum",
+   "say": "darārum",
+   "skeleton": "dr",
+   "gloss": "to be free (of a task), move about freely, run off",
+   "candidates_found": [
+    "ذر",
+    "در",
+    "ضر"
+   ],
+   "best": "ذر",
+   "overlap": 3,
+   "shared": [
+    "off"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "kīma",
+   "say": "kīma",
+   "skeleton": "km",
+   "gloss": "like, as; according to",
+   "candidates_found": [
+    "كم"
+   ],
+   "best": "كم",
+   "overlap": 3,
+   "shared": [
+    "like"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ullûm",
+   "say": "ullûm",
+   "skeleton": "lm",
+   "gloss": "that, those; yonder, far away, over there, distant",
+   "candidates_found": [
+    "لم"
+   ],
+   "best": "لم",
+   "overlap": 3,
+   "shared": [
+    "those"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḫassū",
+   "say": "ḫassū",
+   "skeleton": "ḫs",
+   "gloss": "lettuce",
+   "candidates_found": [
+    "خس",
+    "حس",
+    "هس",
+    "عس",
+    "غس"
+   ],
+   "best": "خس",
+   "overlap": 3,
+   "shared": [
+    "lettuce"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "nišum",
    "say": "nišum",
    "skeleton": "nš",
@@ -1158,18 +1802,37 @@
    "loan_suspect": false
   },
   {
-   "branch": "tīlum",
-   "say": "tīlum",
-   "skeleton": "tl",
-   "gloss": "mound, heap, tell",
+   "branch": "pītum",
+   "say": "pītum",
+   "skeleton": "pt",
+   "gloss": "opening, aperture, breach, break; opening ceremony",
    "candidates_found": [
-    "تل",
-    "ثل"
+    "فت",
+    "فث",
+    "بت",
+    "بث"
    ],
-   "best": "تل",
+   "best": "فت",
    "overlap": 3,
    "shared": [
-    "heap"
+    "break"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "awīlu",
+   "say": "awīlu",
+   "skeleton": "wl",
+   "gloss": "Non-mimated form of awīlum",
+   "candidates_found": [
+    "ول"
+   ],
+   "best": "ول",
+   "overlap": 3,
+   "shared": [
+    "non"
    ],
    "direct": true,
    "depth": 2,
@@ -1208,29 +1871,6 @@
    ],
    "direct": true,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šaplum",
-   "say": "šaplum",
-   "skeleton": "špl",
-   "gloss": "underside, bottom; arrears",
-   "candidates_found": [
-    "سفل",
-    "شفل",
-    "شبل",
-    "سبل",
-    "ثفل",
-    "ثبل"
-   ],
-   "best": "سفل",
-   "overlap": 2,
-   "shared": [
-    "bottom",
-    "underside"
-   ],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -1290,42 +1930,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "lamassum",
-   "say": "lamassum",
-   "skeleton": "lms",
-   "gloss": "a lamassu protective spirit (representing and protecting the good fortune, spiritual healt",
-   "candidates_found": [
-    "لمس"
-   ],
-   "best": "لمس",
-   "overlap": 1,
-   "shared": [
-    "physical"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "warādum",
-   "say": "warādum",
-   "skeleton": "wrd",
-   "gloss": "to descend, go down, come down; to hang down, droop",
-   "candidates_found": [
-    "ورد",
-    "ورذ",
-    "ورض"
-   ],
-   "best": "ورد",
-   "overlap": 1,
-   "shared": [
-    "come"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "biṣṣūrum",
    "say": "biṣṣūrum",
    "skeleton": "bṣr",
@@ -1345,42 +1949,21 @@
    "loan_suspect": false
   },
   {
-   "branch": "maḫārum",
-   "say": "maḫārum",
-   "skeleton": "mḫr",
-   "gloss": "to accept, receive; to face, approach, meet, confront",
-   "candidates_found": [
-    "مخر",
-    "محر",
-    "مهر",
-    "معر",
-    "مغر"
-   ],
-   "best": "مخر",
-   "overlap": 1,
-   "shared": [
-    "face"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "ḫalqum",
    "say": "ḫalqum",
    "skeleton": "ḫlq",
    "gloss": "verbal adjective of ḫalāqum:; lost (object), missing (animal or person)",
    "candidates_found": [
-    "خلق",
     "حلق",
+    "خلق",
     "هلق",
     "علق",
     "غلق"
    ],
-   "best": "خلق",
+   "best": "حلق",
    "overlap": 1,
    "shared": [
-    "animal"
+    "object"
    ],
    "direct": false,
    "depth": 3,
@@ -1469,59 +2052,21 @@
    "loan_suspect": false
   },
   {
-   "branch": "pašāqum",
-   "say": "pašāqum",
-   "skeleton": "pšq",
-   "gloss": "to be(come) narrow, constricted; to be(come) difficult",
+   "branch": "ḫulqum",
+   "say": "ḫulqum",
+   "skeleton": "ḫlq",
+   "gloss": "lost object, lost property; loss",
    "candidates_found": [
-    "بثق",
-    "فشق",
-    "فسق",
-    "بشق",
-    "بسق"
+    "حلق",
+    "خلق",
+    "هلق",
+    "علق",
+    "غلق"
    ],
-   "best": "بثق",
+   "best": "حلق",
    "overlap": 1,
    "shared": [
-    "come"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šiṭrum",
-   "say": "šiṭrum",
-   "skeleton": "šṭr",
-   "gloss": "text, inscription (any piece of writing); stars",
-   "candidates_found": [
-    "سطر",
-    "شطر",
-    "شظر"
-   ],
-   "best": "سطر",
-   "overlap": 1,
-   "shared": [
-    "text"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šaṭārum",
-   "say": "šaṭārum",
-   "skeleton": "šṭr",
-   "gloss": "copy, exemplar, text, inscription, writing, written document",
-   "candidates_found": [
-    "سطر",
-    "شطر",
-    "شظر"
-   ],
-   "best": "سطر",
-   "overlap": 1,
-   "shared": [
-    "text"
+    "object"
    ],
    "direct": false,
    "depth": 3,
@@ -1556,28 +2101,6 @@
    "overlap": 1,
    "shared": [
     "time"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šaprum",
-   "say": "šaprum",
-   "skeleton": "špr",
-   "gloss": "thigh (contextually often applied to female genitals)",
-   "candidates_found": [
-    "سفر",
-    "شفر",
-    "شبر",
-    "سبر",
-    "ثفر",
-    "ثبر"
-   ],
-   "best": "سفر",
-   "overlap": 1,
-   "shared": [
-    "often"
    ],
    "direct": false,
    "depth": 3,
@@ -1668,23 +2191,6 @@
    "overlap": 1,
    "shared": [
     "surface"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "akalum",
-   "say": "akalum",
-   "skeleton": "kl",
-   "gloss": "bread, loaf (of bread); edibles, food",
-   "candidates_found": [
-    "كل"
-   ],
-   "best": "كل",
-   "overlap": 1,
-   "shared": [
-    "food"
    ],
    "direct": false,
    "depth": 2,
@@ -2074,21 +2580,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "sebet",
-   "say": "sebet",
-   "skeleton": "sbt",
-   "gloss": "seven, 7",
-   "candidates_found": [
-    "سبت"
-   ],
-   "best": "سبت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "kudurru",
    "say": "kudurru",
    "skeleton": "kdr",
@@ -2247,42 +2738,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "paššūrum",
-   "say": "paššūrum",
-   "skeleton": "pšr",
-   "gloss": "dining tray, table; offering table",
-   "candidates_found": [
-    "فشر",
-    "فسر",
-    "فثر",
-    "بشر",
-    "بسر",
-    "بثر"
-   ],
-   "best": "فشر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "muškēnum",
-   "say": "muškēnum",
-   "skeleton": "mškn",
-   "gloss": "commoner, dependent (a class of people dependent or reliant on others, unable to provide s",
-   "candidates_found": [
-    "مشكن",
-    "مسكن"
-   ],
-   "best": "مشكن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
    "loan_suspect": false
   },
   {
@@ -2530,21 +2985,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "libbum",
-   "say": "libbum",
-   "skeleton": "lb",
-   "gloss": "heart, abdomen, womb; mind, thought, intention, wish, desire, preference",
-   "candidates_found": [
-    "لب"
-   ],
-   "best": "لب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "šīpātum",
    "say": "šīpātum",
    "skeleton": "špt",
@@ -2577,21 +3017,6 @@
     "سرت"
    ],
    "best": "شرت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "kirûm",
-   "say": "kirûm",
-   "skeleton": "krm",
-   "gloss": "garden, orchard",
-   "candidates_found": [
-    "كرم"
-   ],
-   "best": "كرم",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -2665,25 +3090,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ḫalāqum",
-   "say": "ḫalāqum",
-   "skeleton": "ḫlq",
-   "gloss": "to disappear, vanquish, go missing, get lost, perish; to flee, escape",
-   "candidates_found": [
-    "خلق",
-    "حلق",
-    "هلق",
-    "علق",
-    "غلق"
-   ],
-   "best": "خلق",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "qanûm",
    "say": "qanûm",
    "skeleton": "qnm",
@@ -2707,21 +3113,6 @@
     "قنم"
    ],
    "best": "قنم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "warāqum",
-   "say": "warāqum",
-   "skeleton": "wrq",
-   "gloss": "to be(come) green, yellow, to turn pale",
-   "candidates_found": [
-    "ورق"
-   ],
-   "best": "ورق",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -4075,26 +4466,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "rapāšum",
-   "say": "rapāšum",
-   "skeleton": "rpš",
-   "gloss": "to be or become wide, broad, large, to increase, to expand",
-   "candidates_found": [
-    "رفش",
-    "رفس",
-    "رفث",
-    "ربش",
-    "ربس",
-    "ربث"
-   ],
-   "best": "رفش",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "ṣabātum",
    "say": "ṣabātum",
    "skeleton": "ṣbt",
@@ -4220,19 +4591,22 @@
    "loan_suspect": false
   },
   {
-   "branch": "eṭlum",
-   "say": "eṭlum",
-   "skeleton": "ṭl",
-   "gloss": "young man, youth",
+   "branch": "maḫārum",
+   "say": "maḫārum",
+   "skeleton": "mḫr",
+   "gloss": "to accept, receive; to face, approach, meet, confront",
    "candidates_found": [
-    "طل",
-    "ظل"
+    "مخر",
+    "محر",
+    "مهر",
+    "معر",
+    "مغر"
    ],
-   "best": "طل",
+   "best": "مخر",
    "overlap": 0,
    "shared": [],
    "direct": false,
-   "depth": 2,
+   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -4299,23 +4673,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "darārum",
-   "say": "darārum",
-   "skeleton": "dr",
-   "gloss": "to be free (of a task), move about freely, run off",
-   "candidates_found": [
-    "در",
-    "ذر",
-    "ضر"
-   ],
-   "best": "در",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -4649,21 +5006,6 @@
    "branch": "kīma",
    "say": "kīma",
    "skeleton": "km",
-   "gloss": "like, as; according to",
-   "candidates_found": [
-    "كم"
-   ],
-   "best": "كم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "kīma",
-   "say": "kīma",
-   "skeleton": "km",
    "gloss": "when, as soon as; because, in such a way that",
    "candidates_found": [
     "كم"
@@ -4834,21 +5176,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "makārum",
-   "say": "makārum",
-   "skeleton": "mkr",
-   "gloss": "to flood, irrigate, water",
-   "candidates_found": [
-    "مكر"
-   ],
-   "best": "مكر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -5073,28 +5400,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šapattum",
-   "say": "šapattum",
-   "skeleton": "špt",
-   "gloss": "15ᵗʰ day of the month; period of 15 days, a fortnight",
-   "candidates_found": [
-    "شفت",
-    "شفث",
-    "شبت",
-    "شبث",
-    "سفت",
-    "سبت",
-    "ثفت",
-    "ثبت"
-   ],
-   "best": "شفت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -5509,21 +5814,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ullûm",
-   "say": "ullûm",
-   "skeleton": "lm",
-   "gloss": "that, those; yonder, far away, over there, distant",
-   "candidates_found": [
-    "لم"
-   ],
-   "best": "لم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "mušītum",
    "say": "mušītum",
    "skeleton": "mšt",
@@ -5548,25 +5838,6 @@
     "من"
    ],
    "best": "من",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ḫassū",
-   "say": "ḫassū",
-   "skeleton": "ḫs",
-   "gloss": "lettuce",
-   "candidates_found": [
-    "خس",
-    "حس",
-    "هس",
-    "عس",
-    "غس"
-   ],
-   "best": "خس",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -5633,24 +5904,6 @@
     "كبث"
    ],
    "best": "كبت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "nasāḫum",
-   "say": "nasāḫum",
-   "skeleton": "nsḫ",
-   "gloss": "to tear out, pull out, uproot, dig up; to remove, take away, exterminate, wipe out, clear ",
-   "candidates_found": [
-    "نسخ",
-    "نسح",
-    "نسع",
-    "نسغ"
-   ],
-   "best": "نسخ",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -5981,24 +6234,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "pītum",
-   "say": "pītum",
-   "skeleton": "pt",
-   "gloss": "opening, aperture, breach, break; opening ceremony",
-   "candidates_found": [
-    "فت",
-    "فث",
-    "بت",
-    "بث"
-   ],
-   "best": "فت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "pītu",
    "say": "pītu",
    "skeleton": "pt",
@@ -6027,21 +6262,6 @@
     "ظر"
    ],
    "best": "صر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "awīlu",
-   "say": "awīlu",
-   "skeleton": "wl",
-   "gloss": "Non-mimated form of awīlum",
-   "candidates_found": [
-    "ول"
-   ],
-   "best": "ول",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -6292,21 +6512,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "wabālum",
-   "say": "wabālum",
-   "skeleton": "wbl",
-   "gloss": "to bring, transport; to carry (things, animals, people; life, prosperity; messages, dreams",
-   "candidates_found": [
-    "وبل"
-   ],
-   "best": "وبل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "babālum",
    "say": "babālum",
    "skeleton": "bl",
@@ -6487,22 +6692,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ṣamādum",
-   "say": "ṣamādum",
-   "skeleton": "ṣmd",
-   "gloss": "to yoke, harness, tie, attach; to make ready, prepare",
-   "candidates_found": [
-    "صمد",
-    "ضمد"
-   ],
-   "best": "صمد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "erretum",
    "say": "erretum",
    "skeleton": "rt",
@@ -6529,23 +6718,6 @@
     "كضر"
    ],
    "best": "كدر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šalmum",
-   "say": "šalmum",
-   "skeleton": "šlm",
-   "gloss": "verbal adjective of šalāmum:; healthy, sound, intact, whole, entire, correct, proper, safe",
-   "candidates_found": [
-    "شلم",
-    "سلم",
-    "ثلم"
-   ],
-   "best": "شلم",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -6798,25 +6970,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ḫulqum",
-   "say": "ḫulqum",
-   "skeleton": "ḫlq",
-   "gloss": "lost object, lost property; loss",
-   "candidates_found": [
-    "خلق",
-    "حلق",
-    "هلق",
-    "علق",
-    "غلق"
-   ],
-   "best": "خلق",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "šulmu",
    "say": "šulmu",
    "skeleton": "šlm",
@@ -6944,23 +7097,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "šaṭārum",
-   "say": "šaṭārum",
-   "skeleton": "šṭr",
-   "gloss": "to write down, inscribe, copy; to issue a legal document",
-   "candidates_found": [
-    "شطر",
-    "شظر",
-    "سطر"
-   ],
-   "best": "شطر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "bašûm",
    "say": "bašûm",
    "skeleton": "bšm",
@@ -7055,6 +7191,23 @@
    "shared": [],
    "direct": false,
    "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "naṣārum",
+   "say": "naṣārum",
+   "skeleton": "nṣr",
+   "gloss": "to watch over, protect",
+   "candidates_found": [
+    "نصر",
+    "نضر",
+    "نظر"
+   ],
+   "best": "نصر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -7309,30 +7462,10 @@
    "loan_suspect": false
   },
   {
-   "branch": "šapārum",
-   "say": "šapārum",
+   "branch": "šaprum",
+   "say": "šaprum",
    "skeleton": "špr",
-   "gloss": "to send; to send word (written or spoken), a message, a report, to write to",
-   "candidates_found": [
-    "شفر",
-    "شبر",
-    "سفر",
-    "سبر",
-    "ثفر",
-    "ثبر"
-   ],
-   "best": "شفر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šiprum",
-   "say": "šiprum",
-   "skeleton": "špr",
-   "gloss": "message, report, commission; messenger",
+   "gloss": "messenger, envoy; variation of 𒊭𒁀𒅈𒌈 (šapartum, “pledge”)",
    "candidates_found": [
     "شفر",
     "شبر",
@@ -7352,7 +7485,7 @@
    "branch": "šaprum",
    "say": "šaprum",
    "skeleton": "špr",
-   "gloss": "messenger, envoy; variation of 𒊭𒁀𒅈𒌈 (šapartum, “pledge”)",
+   "gloss": "thigh (contextually often applied to female genitals)",
    "candidates_found": [
     "شفر",
     "شبر",
@@ -7586,22 +7719,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "gamālum",
-   "say": "gamālum",
-   "skeleton": "gml",
-   "gloss": "to do a favour, be obliging, perform a kind act, act so as to please; to spare, save",
-   "candidates_found": [
-    "جمل",
-    "غمل"
-   ],
-   "best": "جمل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "warqum",
    "say": "warqum",
    "skeleton": "wrq",
@@ -7682,23 +7799,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "madādum",
-   "say": "madādum",
-   "skeleton": "md",
-   "gloss": "to measure out, pay, measure, survey",
-   "candidates_found": [
-    "مد",
-    "مذ",
-    "مض"
-   ],
-   "best": "مد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "kitûm",
    "say": "kitûm",
    "skeleton": "ktm",
@@ -7755,21 +7855,6 @@
     "تربص"
    ],
    "best": "تربص",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 4,
-   "loan_suspect": false
-  },
-  {
-   "branch": "talmīdum",
-   "say": "talmīdum",
-   "skeleton": "tlmd",
-   "gloss": "apprentice, student; a type of plow",
-   "candidates_found": [
-    "تلمذ"
-   ],
-   "best": "تلمذ",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -8103,22 +8188,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "quppum",
-   "say": "quppum",
-   "skeleton": "qp",
-   "gloss": "wicker basket, wooden box",
-   "candidates_found": [
-    "قف",
-    "قب"
-   ],
-   "best": "قف",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {

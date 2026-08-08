@@ -4,18 +4,18 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31286,
+  "cards_total": 31326,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 7443,
-    "links": 15,
-    "root": 6,
-    "nucleus": 8,
+    "cards": 7453,
+    "links": 17,
+    "root": 7,
+    "nucleus": 9,
     "floor": 1,
-    "nucleus_share": 57.1
+    "nucleus_share": 56.2
    },
    {
     "key": "persian",
@@ -65,23 +65,23 @@
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2251,
-    "links": 917,
-    "root": 588,
-    "nucleus": 329,
+    "cards": 2263,
+    "links": 925,
+    "root": 595,
+    "nucleus": 330,
     "floor": 0,
-    "nucleus_share": 35.9
+    "nucleus_share": 35.7
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1442,
-    "links": 1071,
-    "root": 680,
+    "cards": 1460,
+    "links": 1077,
+    "root": 686,
     "nucleus": 391,
     "floor": 0,
-    "nucleus_share": 36.5
+    "nucleus_share": 36.3
    },
    {
     "key": "ancient-greek",
@@ -185,32 +185,32 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2533,
-  "closures": 791,
+  "links_to_arabic": 2549,
+  "closures": 801,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1179,
+    "count": 1190,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 753,
+    "count": 754,
     "link": true
    },
    {
     "name": "FORM-OF-ISOLATED",
-    "count": 351,
+    "count": 354,
     "link": false
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 311,
+    "count": 312,
     "link": true
    },
    {
     "name": "ROOT-ECHO",
-    "count": 285,
+    "count": 288,
     "link": true
    },
    {
@@ -229,13 +229,13 @@
     "link": false
    },
    {
-    "name": "LOANWORD",
-    "count": 61,
+    "name": "NO-TRACE",
+    "count": 65,
     "link": false
    },
    {
-    "name": "NO-TRACE",
-    "count": 60,
+    "name": "LOANWORD",
+    "count": 63,
     "link": false
    },
    {
@@ -261,13 +261,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27908,
-  "suspended": 20755,
-  "released": 7153,
+  "cards_total": 27940,
+  "suspended": 20766,
+  "released": 7174,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 16757
+    "count": 16762
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -275,7 +275,7 @@
    },
    {
     "name": "SOURCE-GAP",
-    "count": 256
+    "count": 259
    },
    {
     "name": "TOOL-GAP",
@@ -287,7 +287,7 @@
    },
    {
     "name": "MORPHOLOGY-GAP",
-    "count": 41
+    "count": 44
    },
    {
     "name": "NUCLEUS-ORIGINAL-CONSONANT-DROP",
@@ -356,17 +356,17 @@
   "required_total": 600,
   "required_per_language": 150,
   "families_tracked": 1819,
-  "eligible_now": 369,
+  "eligible_now": 378,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 238,
+    "eligible": 247,
     "represented": 602,
-    "positive_families": 238,
+    "positive_families": 247,
     "closure_only_families": 0,
-    "one_member_short": 91
+    "one_member_short": 82
    },
    {
     "name": "hebrew",

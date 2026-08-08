@@ -43,6 +43,26 @@
    "loan_suspect": false
   },
   {
+   "branch": "kp",
+   "say": "kp",
+   "skeleton": "kp",
+   "gloss": "EN: palm (of the hand); sole (of the foot) (Sem. loan word) | DE: abgeschnitte Hände (der ",
+   "candidates_found": [
+    "كف",
+    "كب"
+   ],
+   "best": "كف",
+   "overlap": 9,
+   "shared": [
+    "foot",
+    "hand",
+    "palm"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "br",
    "say": "br",
    "skeleton": "br",
@@ -124,6 +144,25 @@
    "branch": "ḫtm",
    "say": "ḫtm",
    "skeleton": "ḫtm",
+   "gloss": "EN: seal; sealing; sealing cylinder | DE: Siegel; Siegelabdruck; Siegelzylinder",
+   "candidates_found": [
+    "ختم",
+    "خطم"
+   ],
+   "best": "ختم",
+   "overlap": 6,
+   "shared": [
+    "seal",
+    "sealing"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḫtm",
+   "say": "ḫtm",
+   "skeleton": "ḫtm",
    "gloss": "EN: to seal; to put a seal on | DE: siegeln; verschließen; umschließen",
    "candidates_found": [
     "ختم",
@@ -157,6 +196,29 @@
    "shared": [
     "courtier",
     "friend"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "srq",
+   "say": "srq",
+   "skeleton": "srq",
+   "gloss": "EN: [a fish] | DE: [ein Fisch (Petrocephalus)]",
+   "candidates_found": [
+    "شلق",
+    "سرق",
+    "سلق",
+    "شرق",
+    "صرق",
+    "صلق"
+   ],
+   "best": "شلق",
+   "overlap": 6,
+   "shared": [
+    "fish",
+    "petrocephalus"
    ],
    "direct": true,
    "depth": 3,
@@ -277,6 +339,27 @@
    "loan_suspect": false
   },
   {
+   "branch": "ḫꜣ",
+   "say": "ḫꜣ",
+   "skeleton": "ḫꜣ",
+   "gloss": "EN: road; path | DE: Weg",
+   "candidates_found": [
+    "خل",
+    "خء",
+    "خا",
+    "خر"
+   ],
+   "best": "خل",
+   "overlap": 6,
+   "shared": [
+    "path",
+    "road"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "ḫr",
    "say": "ḫr",
    "skeleton": "ḫr",
@@ -338,19 +421,44 @@
    "loan_suspect": false
   },
   {
-   "branch": "kp",
-   "say": "kp",
-   "skeleton": "kp",
-   "gloss": "EN: palm (of the hand); sole (of the foot) (Sem. loan word) | DE: abgeschnitte Hände (der ",
+   "branch": "tf",
+   "say": "tf",
+   "skeleton": "tf",
+   "gloss": "EN: to spit out | DE: speien",
    "candidates_found": [
-    "كف",
-    "كب"
+    "تف",
+    "طف"
    ],
-   "best": "كف",
+   "best": "تف",
    "overlap": 6,
    "shared": [
-    "hand",
-    "palm"
+    "out",
+    "spit"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḏr",
+   "say": "ḏr",
+   "skeleton": "ḏr",
+   "gloss": "EN: to hinder; to put an end to | DE: fernhalten (von); beseitigen; beenden",
+   "candidates_found": [
+    "جر",
+    "ذر",
+    "ذل",
+    "زر",
+    "زل",
+    "ضر",
+    "ضل",
+    "جل"
+   ],
+   "best": "جر",
+   "overlap": 6,
+   "shared": [
+    "end",
+    "put"
    ],
    "direct": true,
    "depth": 2,
@@ -432,10 +540,105 @@
    "loan_suspect": false
   },
   {
+   "branch": "ꜣwḥ",
+   "say": "ꜣwḥ",
+   "skeleton": "ꜣwḥ",
+   "gloss": "EN: to drive out; to drive away | DE: verdrängen",
+   "candidates_found": [
+    "روح",
+    "لوح"
+   ],
+   "best": "روح",
+   "overlap": 4,
+   "shared": [
+    "away"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḫt",
+   "say": "ḫt",
+   "skeleton": "ḫt",
+   "gloss": "EN: through; throughout | DE: durch (ein Land); überall in",
+   "candidates_found": [
+    "خط",
+    "خت"
+   ],
+   "best": "خط",
+   "overlap": 4,
+   "shared": [
+    "land"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḥmꜣ",
+   "say": "ḥmꜣ",
+   "skeleton": "ḥmꜣ",
+   "gloss": "EN: to tread; to press out (with the feet) | DE: (mit den Füßen) stampfen; austreten",
+   "candidates_found": [
+    "حمل",
+    "حمء",
+    "حما",
+    "حمر"
+   ],
+   "best": "حمل",
+   "overlap": 3,
+   "shared": [
+    "feet"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḥsb",
+   "say": "ḥsb",
+   "skeleton": "ḥsb",
+   "gloss": "EN: to count; to reckon; to distribute | DE: rechnen; zählen; zuteilen",
+   "candidates_found": [
+    "حسب",
+    "حشب",
+    "حصب"
+   ],
+   "best": "حسب",
+   "overlap": 3,
+   "shared": [
+    "reckon"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḥḏn",
+   "say": "ḥḏn",
+   "skeleton": "ḥḏn",
+   "gloss": "EN: to resist; to become angry; to be angry | DE: unwillig sein; ärgerlich sein; widersteh",
+   "candidates_found": [
+    "حزن",
+    "حذن",
+    "حضن",
+    "حجن"
+   ],
+   "best": "حزن",
+   "overlap": 3,
+   "shared": [
+    "become"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "ḫtm",
    "say": "ḫtm",
    "skeleton": "ḫtm",
-   "gloss": "EN: seal; sealing; sealing cylinder | DE: Siegel; Siegelabdruck; Siegelzylinder",
+   "gloss": "DE: Ring",
    "candidates_found": [
     "ختم",
     "خطم"
@@ -443,7 +646,7 @@
    "best": "ختم",
    "overlap": 3,
    "shared": [
-    "seal"
+    "ring"
    ],
    "direct": true,
    "depth": 3,
@@ -486,6 +689,304 @@
    "loan_suspect": false
   },
   {
+   "branch": "zꜣb",
+   "say": "zꜣb",
+   "skeleton": "zꜣb",
+   "gloss": "EN: to flow; to drip | DE: fließen, rinnen",
+   "candidates_found": [
+    "سرب",
+    "زاب",
+    "زلب",
+    "زرب",
+    "سلب"
+   ],
+   "best": "سرب",
+   "overlap": 3,
+   "shared": [
+    "flow"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "zwꜣ",
+   "say": "zwꜣ",
+   "skeleton": "zwꜣ",
+   "gloss": "EN: to cut (down, off); to break | DE: fällen; abhacken",
+   "candidates_found": [
+    "زول",
+    "زوء",
+    "زوا",
+    "زور",
+    "سوا",
+    "سول",
+    "سور"
+   ],
+   "best": "زول",
+   "overlap": 3,
+   "shared": [
+    "down"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "sbr",
+   "say": "sbr",
+   "skeleton": "sbr",
+   "gloss": "EN: shoots (of a tree); clusters (of grapes) (Sem. loan word) | DE: Ranke, Zweig",
+   "candidates_found": [
+    "صبر",
+    "سبر",
+    "سبل",
+    "شبر",
+    "شبل"
+   ],
+   "best": "صبر",
+   "overlap": 3,
+   "shared": [
+    "tree"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "sbḥ",
+   "say": "sbḥ",
+   "skeleton": "sbḥ",
+   "gloss": "EN: to cry out | DE: schreien",
+   "candidates_found": [
+    "شبح",
+    "سبح",
+    "صبح"
+   ],
+   "best": "شبح",
+   "overlap": 3,
+   "shared": [
+    "out"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "spr",
+   "say": "spr",
+   "skeleton": "spr",
+   "gloss": "EN: sheet (of metal) | DE: Blech (auch aus Gold)",
+   "candidates_found": [
+    "سفر",
+    "سبر",
+    "سبل",
+    "سفل",
+    "شبر",
+    "شبل",
+    "شفر",
+    "شفل",
+    "صبر",
+    "صفر",
+    "صفل"
+   ],
+   "best": "سفر",
+   "overlap": 3,
+   "shared": [
+    "sheet"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "spt",
+   "say": "spt",
+   "skeleton": "spt",
+   "gloss": "EN: to cut up | DE: schlachten",
+   "candidates_found": [
+    "شبط",
+    "سبت",
+    "سبط",
+    "سفت",
+    "سفط",
+    "شبت",
+    "شفت",
+    "صبط",
+    "صفت",
+    "صفط"
+   ],
+   "best": "شبط",
+   "overlap": 3,
+   "shared": [
+    "cut"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "sn.w",
+   "say": "sn.w",
+   "skeleton": "snw",
+   "gloss": "EN: two | DE: zwei",
+   "candidates_found": [
+    "صنو",
+    "سنو",
+    "شنو"
+   ],
+   "best": "صنو",
+   "overlap": 3,
+   "shared": [
+    "two"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "znn",
+   "say": "znn",
+   "skeleton": "znn",
+   "gloss": "EN: image; likeness | DE: Bild; Ebenbild",
+   "candidates_found": [
+    "سنن",
+    "زنن"
+   ],
+   "best": "سنن",
+   "overlap": 3,
+   "shared": [
+    "image"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "srf",
+   "say": "srf",
+   "skeleton": "srf",
+   "gloss": "EN: (flood) water (which comes to rest upon the land) | DE: [Bez. für Wasser]",
+   "candidates_found": [
+    "سلف",
+    "سرف",
+    "شرف",
+    "شلف",
+    "صرف",
+    "صلف"
+   ],
+   "best": "سلف",
+   "overlap": 3,
+   "shared": [
+    "land"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "stp",
+   "say": "stp",
+   "skeleton": "stp",
+   "gloss": "EN: strip (of cloth); rag | DE: Lappen; Binde; Tuch",
+   "candidates_found": [
+    "شطب",
+    "ستب",
+    "سطب",
+    "شطف",
+    "صطب",
+    "صطف"
+   ],
+   "best": "شطب",
+   "overlap": 3,
+   "shared": [
+    "strip"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "str",
+   "say": "str",
+   "skeleton": "str",
+   "gloss": "EN: green plants | DE: grüne Pflanzen",
+   "candidates_found": [
+    "شتل",
+    "ستر",
+    "ستل",
+    "سطر",
+    "سطل",
+    "شتر",
+    "شطر",
+    "صطر"
+   ],
+   "best": "شتل",
+   "overlap": 3,
+   "shared": [
+    "plants"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šmꜥ",
+   "say": "šmꜥ",
+   "skeleton": "šmꜥ",
+   "gloss": "EN: to make music | DE: singen",
+   "candidates_found": [
+    "سمع",
+    "شمع",
+    "شمغ",
+    "سمغ"
+   ],
+   "best": "سمع",
+   "overlap": 3,
+   "shared": [
+    "music"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šmm",
+   "say": "šmm",
+   "skeleton": "šmm",
+   "gloss": "EN: to be hot; to become hot (feverish) | DE: heiß werden; fiebern",
+   "candidates_found": [
+    "شمم",
+    "سمم"
+   ],
+   "best": "شمم",
+   "overlap": 3,
+   "shared": [
+    "become"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šmm",
+   "say": "šmm",
+   "skeleton": "šmm",
+   "gloss": "EN: hot one | DE: Hitziger, Feind",
+   "candidates_found": [
+    "سمم",
+    "شمم"
+   ],
+   "best": "سمم",
+   "overlap": 3,
+   "shared": [
+    "hot"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "šrm",
    "say": "šrm",
    "skeleton": "šrm",
@@ -500,6 +1001,149 @@
    "overlap": 3,
    "shared": [
     "peace"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šrr",
+   "say": "šrr",
+   "skeleton": "šrr",
+   "gloss": "EN: to cry out | DE: rufen, schreien",
+   "candidates_found": [
+    "سلل",
+    "شرر",
+    "شرل",
+    "شلر",
+    "شلل",
+    "سرر",
+    "سرل",
+    "سلر"
+   ],
+   "best": "سلل",
+   "overlap": 3,
+   "shared": [
+    "out"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "qꜣꜥ",
+   "say": "qꜣꜥ",
+   "skeleton": "qꜣꜥ",
+   "gloss": "EN: to vomit; to pour out | DE: ausspeien",
+   "candidates_found": [
+    "قلع",
+    "قرض",
+    "قاع",
+    "قاض",
+    "قرع"
+   ],
+   "best": "قلع",
+   "overlap": 3,
+   "shared": [
+    "out"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "qꜣs",
+   "say": "qꜣs",
+   "skeleton": "qꜣs",
+   "gloss": "EN: to bind (a victim); to string (a bow) | DE: binden; fesseln",
+   "candidates_found": [
+    "قلس",
+    "قلش",
+    "قلص",
+    "قرس",
+    "قرش",
+    "قرص"
+   ],
+   "best": "قلس",
+   "overlap": 3,
+   "shared": [
+    "bow"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "qꜣs",
+   "say": "qꜣs",
+   "skeleton": "qꜣs",
+   "gloss": "EN: rope (as fetters, as rigging (naut.)) | DE: Strick, Band, Fessel",
+   "candidates_found": [
+    "قلس",
+    "قلش",
+    "قلص",
+    "قرس",
+    "قرش",
+    "قرص"
+   ],
+   "best": "قلس",
+   "overlap": 3,
+   "shared": [
+    "rope"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "qnj",
+   "say": "qnj",
+   "skeleton": "qnj",
+   "gloss": "EN: [a plant (med.)] | DE: [eine Pflanze]",
+   "candidates_found": [
+    "قني",
+    "قنء"
+   ],
+   "best": "قني",
+   "overlap": 3,
+   "shared": [
+    "plant"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "qdd",
+   "say": "qdd",
+   "skeleton": "qdd",
+   "gloss": "EN: to sleep | DE: schlafen",
+   "candidates_found": [
+    "قضض",
+    "قدد"
+   ],
+   "best": "قضض",
+   "overlap": 3,
+   "shared": [
+    "sleep"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "qdd",
+   "say": "qdd",
+   "skeleton": "qdd",
+   "gloss": "EN: sleep | DE: Schlaf",
+   "candidates_found": [
+    "قضض",
+    "قدد"
+   ],
+   "best": "قضض",
+   "overlap": 3,
+   "shared": [
+    "sleep"
    ],
    "direct": true,
    "depth": 3,
@@ -524,6 +1168,65 @@
    "loan_suspect": false
   },
   {
+   "branch": "kmm",
+   "say": "kmm",
+   "skeleton": "kmm",
+   "gloss": "EN: to be black; to be dark | DE: schwarz sein; dunkel sein",
+   "candidates_found": [
+    "كمم"
+   ],
+   "best": "كمم",
+   "overlap": 3,
+   "shared": [
+    "dark"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "kmm",
+   "say": "kmm",
+   "skeleton": "kmm",
+   "gloss": "EN: black; dark | DE: schwarz; dunkel",
+   "candidates_found": [
+    "كمم"
+   ],
+   "best": "كمم",
+   "overlap": 3,
+   "shared": [
+    "dark"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "gꜣ.w",
+   "say": "gꜣ.w",
+   "skeleton": "gꜣw",
+   "gloss": "EN: lack; want | DE: Mangel; Not",
+   "candidates_found": [
+    "قلو",
+    "جءو",
+    "جلو",
+    "جرو",
+    "قءو",
+    "قرو",
+    "غءو",
+    "غلو",
+    "غرو"
+   ],
+   "best": "قلو",
+   "overlap": 3,
+   "shared": [
+    "not"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "gnẖ",
    "say": "gnẖ",
    "skeleton": "gnẖ",
@@ -536,6 +1239,28 @@
    "overlap": 3,
    "shared": [
     "wing"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "grm",
+   "say": "grm",
+   "skeleton": "grm",
+   "gloss": "EN: to carry off | DE: fortschleppen",
+   "candidates_found": [
+    "جرم",
+    "قلم",
+    "جلم",
+    "قرم",
+    "غرم",
+    "غلم"
+   ],
+   "best": "جرم",
+   "overlap": 3,
+   "shared": [
+    "off"
    ],
    "direct": true,
    "depth": 3,
@@ -568,6 +1293,108 @@
    "loan_suspect": false
   },
   {
+   "branch": "twr",
+   "say": "twr",
+   "skeleton": "twr",
+   "gloss": "EN: [a reed-like plant] | DE: [eine Rohrpflanze]",
+   "candidates_found": [
+    "طول",
+    "تور",
+    "تول",
+    "طور"
+   ],
+   "best": "طول",
+   "overlap": 3,
+   "shared": [
+    "like"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ṯꜣy",
+   "say": "ṯꜣy",
+   "skeleton": "ṯꜣy",
+   "gloss": "EN: to criticize; to reproach | DE: tadeln",
+   "candidates_found": [
+    "طلي",
+    "ثاي",
+    "ثري",
+    "تري",
+    "طري"
+   ],
+   "best": "طلي",
+   "overlap": 3,
+   "shared": [
+    "reproach"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ṯꜣy",
+   "say": "ṯꜣy",
+   "skeleton": "ṯꜣy",
+   "gloss": "EN: reproach; fault | DE: Vorwurf; Tadel",
+   "candidates_found": [
+    "طلي",
+    "ثاي",
+    "ثري",
+    "تري",
+    "طري"
+   ],
+   "best": "طلي",
+   "overlap": 3,
+   "shared": [
+    "reproach"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "=ṯnj",
+   "say": "=ṯnj",
+   "skeleton": "ṯnj",
+   "gloss": "EN: you two (suffix pron., 2nd person dual) | DE: [Suffix Pron. dual.2.c.]",
+   "candidates_found": [
+    "ثني",
+    "طني"
+   ],
+   "best": "ثني",
+   "overlap": 3,
+   "shared": [
+    "two"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "dbꜣ",
+   "say": "dbꜣ",
+   "skeleton": "dbꜣ",
+   "gloss": "EN: to fall down | DE: umfallen",
+   "candidates_found": [
+    "دبر",
+    "دبا",
+    "دبل",
+    "ضبا",
+    "ضبل",
+    "ضبر"
+   ],
+   "best": "دبر",
+   "overlap": 3,
+   "shared": [
+    "fall"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "ḏnḥ",
    "say": "ḏnḥ",
    "skeleton": "ḏnḥ",
@@ -580,6 +1407,73 @@
    "overlap": 3,
    "shared": [
     "wing"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḏr.w",
+   "say": "ḏr.w",
+   "skeleton": "ḏrw",
+   "gloss": "EN: kite (bird of prey) | DE: Weihe (Habicht)",
+   "candidates_found": [
+    "ضرو",
+    "ذرو",
+    "ذلو",
+    "ضلو",
+    "جرو",
+    "جلو"
+   ],
+   "best": "ضرو",
+   "overlap": 3,
+   "shared": [
+    "prey"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ꜥꜣy",
+   "say": "ꜥꜣy",
+   "skeleton": "ꜥꜣy",
+   "gloss": "EN: (glowing) fire | DE: Feuersglut",
+   "candidates_found": [
+    "ضري",
+    "علي",
+    "عري",
+    "غءي",
+    "غلي",
+    "غري"
+   ],
+   "best": "ضري",
+   "overlap": 3,
+   "shared": [
+    "fire"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ꜥwꜣ",
+   "say": "ꜥwꜣ",
+   "skeleton": "ꜥwꜣ",
+   "gloss": "EN: to rot; to spoil | DE: faulen; verderben",
+   "candidates_found": [
+    "عور",
+    "عول",
+    "ضوا",
+    "ضول",
+    "ضور",
+    "غول",
+    "غور"
+   ],
+   "best": "عور",
+   "overlap": 3,
+   "shared": [
+    "spoil"
    ],
    "direct": true,
    "depth": 3,
@@ -605,6 +1499,95 @@
    "loan_suspect": false
   },
   {
+   "branch": "ꜥpr",
+   "say": "ꜥpr",
+   "skeleton": "ꜥpr",
+   "gloss": "EN: [a cult object (presented by the king to a god)] | DE: [Kultgegenstand (den der König ",
+   "candidates_found": [
+    "غفر",
+    "غفل",
+    "عبر",
+    "عبل",
+    "عفر",
+    "عفل",
+    "ضبر",
+    "ضبل",
+    "ضفر",
+    "غبر"
+   ],
+   "best": "غفر",
+   "overlap": 3,
+   "shared": [
+    "god"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ꜥmꜣ",
+   "say": "ꜥmꜣ",
+   "skeleton": "ꜥmꜣ",
+   "gloss": "EN: [a plant (a very juicy fruit?) (med.)] | DE: [Pflanze (offizinell)]",
+   "candidates_found": [
+    "عمل",
+    "عمء",
+    "عمر",
+    "ضمل",
+    "ضمر",
+    "غما",
+    "غمل",
+    "غمر"
+   ],
+   "best": "عمل",
+   "overlap": 3,
+   "shared": [
+    "plant"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ꜥmd",
+   "say": "ꜥmd",
+   "skeleton": "ꜥmd",
+   "gloss": "EN: [a field (Sem. loan word)] | DE: [ein Feld]",
+   "candidates_found": [
+    "عمد",
+    "ضمد",
+    "غمد",
+    "غمض"
+   ],
+   "best": "عمد",
+   "overlap": 3,
+   "shared": [
+    "loan"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ꜥnn",
+   "say": "ꜥnn",
+   "skeleton": "ꜥnn",
+   "gloss": "EN: to return; to turn back | DE: (sich) umwenden; (etwas) umwenden; zuwenden",
+   "candidates_found": [
+    "عنن",
+    "ضنن",
+    "غنن"
+   ],
+   "best": "عنن",
+   "overlap": 3,
+   "shared": [
+    "turn"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "ꜥrf",
    "say": "ꜥrf",
    "skeleton": "ꜥrf",
@@ -620,6 +1603,159 @@
    "overlap": 3,
    "shared": [
     "wrap"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ꜥrq",
+   "say": "ꜥrq",
+   "skeleton": "ꜥrq",
+   "gloss": "EN: to complete; to stop (doing something) | DE: vollenden; aufhören (etwas zu tun)",
+   "candidates_found": [
+    "غلق",
+    "عرق",
+    "علق",
+    "غرق"
+   ],
+   "best": "غلق",
+   "overlap": 3,
+   "shared": [
+    "stop"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ꜥrq",
+   "say": "ꜥrq",
+   "skeleton": "ꜥrq",
+   "gloss": "EN: end | DE: Ende; Extremität",
+   "candidates_found": [
+    "عرق",
+    "علق",
+    "غرق",
+    "غلق"
+   ],
+   "best": "عرق",
+   "overlap": 3,
+   "shared": [
+    "end"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ꜥqꜣ",
+   "say": "ꜥqꜣ",
+   "skeleton": "ꜥqꜣ",
+   "gloss": "EN: [a body of water in the 5th nome of Lower Egypt] | DE: [ein Gewässer (im Gau von Proso",
+   "candidates_found": [
+    "عقر",
+    "عقا",
+    "عقل",
+    "ضقا",
+    "غقل",
+    "غقر"
+   ],
+   "best": "عقر",
+   "overlap": 3,
+   "shared": [
+    "body"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣi̯",
+   "say": "wꜣi̯",
+   "skeleton": "wꜣi",
+   "gloss": "EN: to be far (away from); to remove oneself | DE: fern sein; sich entfernen",
+   "candidates_found": [
+    "ولي",
+    "وري"
+   ],
+   "best": "ولي",
+   "overlap": 3,
+   "shared": [
+    "away"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḥsb",
+   "say": "ḥsb",
+   "skeleton": "ḥsb",
+   "gloss": "EN: accounting; distribution | DE: Abrechnung; Zuteilung (\"das Berechnen\")",
+   "candidates_found": [
+    "حسب",
+    "حشب",
+    "حصب"
+   ],
+   "best": "حسب",
+   "overlap": 3,
+   "shared": [
+    "accounting"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḥtm",
+   "say": "ḥtm",
+   "skeleton": "ḥtm",
+   "gloss": "EN: destruction | DE: Vernichtung",
+   "candidates_found": [
+    "حطم",
+    "حتم"
+   ],
+   "best": "حطم",
+   "overlap": 3,
+   "shared": [
+    "destruction"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wgb",
+   "say": "wgb",
+   "skeleton": "wgb",
+   "gloss": "EN: to cry out | DE: schreien",
+   "candidates_found": [
+    "وقب",
+    "وجب",
+    "وغب"
+   ],
+   "best": "وقب",
+   "overlap": 3,
+   "shared": [
+    "out"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "bj.t",
+   "say": "bj.t",
+   "skeleton": "bjt",
+   "gloss": "EN: [a flat loaf of bread]; [a loaf] | DE: [ein Fladenbrot]; [ein Brotlaib]",
+   "candidates_found": [
+    "بيت"
+   ],
+   "best": "بيت",
+   "overlap": 3,
+   "shared": [
+    "flat"
    ],
    "direct": true,
    "depth": 3,
@@ -661,6 +1797,25 @@
    "loan_suspect": false
   },
   {
+   "branch": "bkꜣ",
+   "say": "bkꜣ",
+   "skeleton": "bkꜣ",
+   "gloss": "EN: morning; morrow | DE: das Morgen; der Morgen",
+   "candidates_found": [
+    "بكر",
+    "بكا",
+    "بكل"
+   ],
+   "best": "بكر",
+   "overlap": 3,
+   "shared": [
+    "morning"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "prḫ",
    "say": "prḫ",
    "skeleton": "prḫ",
@@ -675,6 +1830,93 @@
    "overlap": 3,
    "shared": [
     "hen"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "prḫ",
+   "say": "prḫ",
+   "skeleton": "prḫ",
+   "gloss": "EN: blossom; sprout (Sem. loan word) | DE: Blüte",
+   "candidates_found": [
+    "فرخ",
+    "برخ",
+    "بلخ",
+    "فلخ"
+   ],
+   "best": "فرخ",
+   "overlap": 3,
+   "shared": [
+    "sprout"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "pẖr",
+   "say": "pẖr",
+   "skeleton": "pẖr",
+   "gloss": "EN: to turn round; to go around | DE: umhergehen; umwenden; zirkulieren; umgeben; durchzie",
+   "candidates_found": [
+    "بخر",
+    "بخل",
+    "بحر",
+    "بحل",
+    "فخر",
+    "فخل",
+    "فحر",
+    "فحل"
+   ],
+   "best": "بخر",
+   "overlap": 3,
+   "shared": [
+    "turn"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "pḏ.w",
+   "say": "pḏ.w",
+   "skeleton": "pḏw",
+   "gloss": "EN: flood | DE: Überschwemmung; Tümpel",
+   "candidates_found": [
+    "فضو",
+    "بذو",
+    "بزو",
+    "بجو",
+    "فجو"
+   ],
+   "best": "فضو",
+   "overlap": 3,
+   "shared": [
+    "flood"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "fꜣg",
+   "say": "fꜣg",
+   "skeleton": "fꜣg",
+   "gloss": "EN: to cut off (the foreleg) | DE: auslösen (des Schenkels)",
+   "candidates_found": [
+    "فلق",
+    "فلج",
+    "فلغ",
+    "فرج",
+    "فرق",
+    "فرغ"
+   ],
+   "best": "فلق",
+   "overlap": 3,
+   "shared": [
+    "off"
    ],
    "direct": true,
    "depth": 3,
@@ -699,38 +1941,98 @@
    "loan_suspect": false
   },
   {
-   "branch": "mdd",
-   "say": "mdd",
-   "skeleton": "mdd",
-   "gloss": "EN: [a vessel for wine; for milk (Sem. loan word)]: [a measure for wine] | DE: [ein Gefäß ",
+   "branch": "mꜣs",
+   "say": "mꜣs",
+   "skeleton": "mꜣs",
+   "gloss": "EN: [a red animal (deer?)] | DE: [ein Tier (von roter Farbe)]",
    "candidates_found": [
-    "مدد",
-    "مضد",
-    "مضض"
+    "ماش",
+    "ملس",
+    "ملش",
+    "ملص",
+    "مرس",
+    "مرش",
+    "مرص"
    ],
-   "best": "مدد",
+   "best": "ماش",
    "overlap": 3,
    "shared": [
-    "measure"
+    "deer"
    ],
    "direct": true,
    "depth": 3,
    "loan_suspect": false
   },
   {
-   "branch": "ꜥyn",
-   "say": "ꜥyn",
-   "skeleton": "ꜥyn",
-   "gloss": "EN: well | DE: Brunnen",
+   "branch": "mhr",
+   "say": "mhr",
+   "skeleton": "mhr",
+   "gloss": "EN: [military officer commanding troops and handling logistics (Sem. loan word)] | DE: Hel",
    "candidates_found": [
-    "عين",
-    "ضين",
-    "غين"
+    "مهر",
+    "مهل"
    ],
-   "best": "عين",
+   "best": "مهر",
    "overlap": 3,
    "shared": [
-    "well"
+    "handling"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "mšr",
+   "say": "mšr",
+   "skeleton": "mšr",
+   "gloss": "EN: [a piece of furniture (table?) (Sem. loan word)] | DE: [ein Möbelstück]",
+   "candidates_found": [
+    "مشر",
+    "مشل",
+    "مسر",
+    "مسل"
+   ],
+   "best": "مشر",
+   "overlap": 3,
+   "shared": [
+    "piece"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "mqr",
+   "say": "mqr",
+   "skeleton": "mqr",
+   "gloss": "EN: [a vessel (situla?) (Sem. loan word)] | DE: Situla",
+   "candidates_found": [
+    "مقل",
+    "مقر"
+   ],
+   "best": "مقل",
+   "overlap": 3,
+   "shared": [
+    "vessel"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "mdd",
+   "say": "mdd",
+   "skeleton": "mdd",
+   "gloss": "EN: [a vessel for wine; for milk (Sem. loan word)]: [a measure for wine] | DE: [ein Gefäß ",
+   "candidates_found": [
+    "مدد",
+    "مضض",
+    "مضد"
+   ],
+   "best": "مدد",
+   "overlap": 3,
+   "shared": [
+    "measure"
    ],
    "direct": true,
    "depth": 3,
@@ -778,6 +2080,23 @@
    "loan_suspect": false
   },
   {
+   "branch": "kmh",
+   "say": "kmh",
+   "skeleton": "kmh",
+   "gloss": "DE: [blind sein]",
+   "candidates_found": [
+    "كمه"
+   ],
+   "best": "كمه",
+   "overlap": 3,
+   "shared": [
+    "blind"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "nsꜣ",
    "say": "nsꜣ",
    "skeleton": "nsꜣ",
@@ -797,6 +2116,146 @@
    "overlap": 3,
    "shared": [
     "knife"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "nšꜣ",
+   "say": "nšꜣ",
+   "skeleton": "nšꜣ",
+   "gloss": "EN: [a plant] | DE: [eine Wasserpflanze (ein Laichkraut)]",
+   "candidates_found": [
+    "نشر",
+    "نشا",
+    "نشل",
+    "نسا",
+    "نسل",
+    "نسر"
+   ],
+   "best": "نشر",
+   "overlap": 3,
+   "shared": [
+    "plant"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "nkꜣ",
+   "say": "nkꜣ",
+   "skeleton": "nkꜣ",
+   "gloss": "EN: to think about | DE: überlegen; denken an (etwas)",
+   "candidates_found": [
+    "نكر",
+    "نكل"
+   ],
+   "best": "نكر",
+   "overlap": 3,
+   "shared": [
+    "about"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ngꜣ",
+   "say": "ngꜣ",
+   "skeleton": "ngꜣ",
+   "gloss": "EN: to kill; to cut up | DE: töten",
+   "candidates_found": [
+    "نجل",
+    "نجا",
+    "نجر",
+    "نقا",
+    "نقل",
+    "نقر",
+    "نغل",
+    "نغر"
+   ],
+   "best": "نجل",
+   "overlap": 3,
+   "shared": [
+    "cut"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ngg",
+   "say": "ngg",
+   "skeleton": "ngg",
+   "gloss": "EN: to cackle; to screech | DE: schreien (u. Ä.)",
+   "candidates_found": [
+    "نقق",
+    "نجج",
+    "نغق",
+    "نغغ"
+   ],
+   "best": "نقق",
+   "overlap": 3,
+   "shared": [
+    "cackle"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "nḏ.w",
+   "say": "nḏ.w",
+   "skeleton": "nḏw",
+   "gloss": "EN: protection | DE: Schutz",
+   "candidates_found": [
+    "نجو",
+    "نزو",
+    "نضو"
+   ],
+   "best": "نجو",
+   "overlap": 3,
+   "shared": [
+    "protection"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "nḏb",
+   "say": "nḏb",
+   "skeleton": "nḏb",
+   "gloss": "EN: [a tree] | DE: [ein Baum]",
+   "candidates_found": [
+    "نجب",
+    "نزب",
+    "نضب"
+   ],
+   "best": "نجب",
+   "overlap": 3,
+   "shared": [
+    "tree"
+   ],
+   "direct": true,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "hni̯",
+   "say": "hni̯",
+   "skeleton": "hni",
+   "gloss": "EN: to rejoice | DE: jubeln",
+   "candidates_found": [
+    "هنء",
+    "هني"
+   ],
+   "best": "هنء",
+   "overlap": 3,
+   "shared": [
+    "rejoice"
    ],
    "direct": true,
    "depth": 3,
@@ -823,6 +2282,60 @@
    "loan_suspect": false
   },
   {
+   "branch": "ḫr",
+   "say": "ḫr",
+   "skeleton": "ḫr",
+   "gloss": "EN: street; road; quarter (Sem. loan word) | DE: Straße; Gasse",
+   "candidates_found": [
+    "خل",
+    "خر"
+   ],
+   "best": "خل",
+   "overlap": 3,
+   "shared": [
+    "road"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḫt",
+   "say": "ḫt",
+   "skeleton": "ḫt",
+   "gloss": "EN: [an administrative unit (land register?)] | DE: [eine Verwaltung (Kataster?)]",
+   "candidates_found": [
+    "خط",
+    "خت"
+   ],
+   "best": "خط",
+   "overlap": 3,
+   "shared": [
+    "land"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "zn",
+   "say": "zn",
+   "skeleton": "zn",
+   "gloss": "EN: to open | DE: öffnen",
+   "candidates_found": [
+    "سن",
+    "زن"
+   ],
+   "best": "سن",
+   "overlap": 3,
+   "shared": [
+    "open"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "sn",
    "say": "sn",
    "skeleton": "sn",
@@ -836,6 +2349,116 @@
    "overlap": 3,
    "shared": [
     "brother"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šꜣ",
+   "say": "šꜣ",
+   "skeleton": "šꜣ",
+   "gloss": "EN: tree (gen.); vine(s) | DE: Baum (allg. Bez.); Weinstock",
+   "candidates_found": [
+    "شل",
+    "شر",
+    "سا",
+    "سل",
+    "سر"
+   ],
+   "best": "شل",
+   "overlap": 3,
+   "shared": [
+    "tree"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šn",
+   "say": "šn",
+   "skeleton": "šn",
+   "gloss": "EN: tree (gen.) | DE: Baum",
+   "candidates_found": [
+    "شن",
+    "سن"
+   ],
+   "best": "شن",
+   "overlap": 3,
+   "shared": [
+    "gen"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šn",
+   "say": "šn",
+   "skeleton": "šn",
+   "gloss": "EN: tree (gen.) | DE: Baum (mit fem. Artikel)",
+   "candidates_found": [
+    "شن",
+    "سن"
+   ],
+   "best": "شن",
+   "overlap": 3,
+   "shared": [
+    "gen"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "qꜣ",
+   "say": "qꜣ",
+   "skeleton": "qꜣ",
+   "gloss": "EN: tall; high; loud | DE: hoch; lang; laut",
+   "candidates_found": [
+    "قر",
+    "قل"
+   ],
+   "best": "قر",
+   "overlap": 3,
+   "shared": [
+    "high"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "qn",
+   "say": "qn",
+   "skeleton": "qn",
+   "gloss": "EN: strong lion (a water spout shaped like a lion's head) | DE: Löwe (als Wasserspeier)",
+   "candidates_found": [
+    "قن"
+   ],
+   "best": "قن",
+   "overlap": 3,
+   "shared": [
+    "like"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "kꜣ",
+   "say": "kꜣ",
+   "skeleton": "kꜣ",
+   "gloss": "EN: food; provisions | DE: Nahrung; Speise",
+   "candidates_found": [
+    "كل",
+    "كر"
+   ],
+   "best": "كل",
+   "overlap": 3,
+   "shared": [
+    "food"
    ],
    "direct": true,
    "depth": 2,
@@ -876,18 +2499,22 @@
    "loan_suspect": false
   },
   {
-   "branch": "tf",
-   "say": "tf",
-   "skeleton": "tf",
-   "gloss": "EN: to spit out | DE: speien",
+   "branch": "gꜣu̯",
+   "say": "gꜣu̯",
+   "skeleton": "gꜣ",
+   "gloss": "EN: to be narrow; to be constricted; to lack; to deprive | DE: eng sein; entbehren; (jmdn.",
    "candidates_found": [
-    "تف",
-    "طف"
+    "غر",
+    "قل",
+    "جل",
+    "جر",
+    "قر",
+    "غل"
    ],
-   "best": "تف",
+   "best": "غر",
    "overlap": 3,
    "shared": [
-    "spit"
+    "lack"
    ],
    "direct": true,
    "depth": 2,
@@ -899,16 +2526,16 @@
    "skeleton": "ṯꜣ",
    "gloss": "EN: pellet; drop | DE: Kügelchen; Tröpfchen",
    "candidates_found": [
+    "تل",
     "تر",
     "ثا",
     "ثل",
     "ثر",
     "تا",
-    "تل",
     "طل",
     "طر"
    ],
-   "best": "تر",
+   "best": "تل",
    "overlap": 3,
    "shared": [
     "drop"
@@ -936,6 +2563,24 @@
    "overlap": 3,
    "shared": [
     "harvest"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "Ꜣḫ.t",
+   "say": "Ꜣḫ.t",
+   "skeleton": "ḫt",
+   "gloss": "EN: Akhet (goddess of arable land) | DE: Achet (Göttin des Fruchtlandes)",
+   "candidates_found": [
+    "خط",
+    "خت"
+   ],
+   "best": "خط",
+   "overlap": 3,
+   "shared": [
+    "land"
    ],
    "direct": true,
    "depth": 2,
@@ -1015,6 +2660,26 @@
    "loan_suspect": false
   },
   {
+   "branch": "Ꜥḏn",
+   "say": "Ꜥḏn",
+   "skeleton": "ḏn",
+   "gloss": "EN: Adjen (demon associated with illness) | DE: Adjen (ein Krankheitsdämon?)",
+   "candidates_found": [
+    "جن",
+    "زن",
+    "ذن",
+    "ضن"
+   ],
+   "best": "جن",
+   "overlap": 3,
+   "shared": [
+    "demon"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
    "branch": "pꜣu̯",
    "say": "pꜣu̯",
    "skeleton": "pꜣ",
@@ -1048,6 +2713,25 @@
    "overlap": 3,
    "shared": [
     "weak"
+   ],
+   "direct": true,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "mꜣ",
+   "say": "mꜣ",
+   "skeleton": "mꜣ",
+   "gloss": "EN: [a plant (styrax?)] | DE: [eine Pflanze]",
+   "candidates_found": [
+    "مر",
+    "ما",
+    "مل"
+   ],
+   "best": "مر",
+   "overlap": 3,
+   "shared": [
+    "plant"
    ],
    "direct": true,
    "depth": 2,
@@ -1124,83 +2808,24 @@
    "loan_suspect": false
   },
   {
-   "branch": "ḥmḏ",
-   "say": "ḥmḏ",
-   "skeleton": "ḥmḏ",
-   "gloss": "EN: vinegar; inferior quality wine (Sem. loan word) | DE: Essig",
-   "candidates_found": [
-    "حمض",
-    "حمذ",
-    "حمز",
-    "حمج"
-   ],
-   "best": "حمض",
-   "overlap": 1,
-   "shared": [
-    "vinegar"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "ḥḏr",
    "say": "ḥḏr",
    "skeleton": "ḥḏr",
    "gloss": "EN: [a small animal (hyena?)] | DE: [ein kleines Tier (Hyäne, Wiesel, Erdwolf?)]",
    "candidates_found": [
+    "حضر",
     "حجر",
     "حذر",
     "حذل",
     "حزر",
     "حزل",
-    "حضر",
     "حضل",
     "حجل"
    ],
-   "best": "حجر",
+   "best": "حضر",
    "overlap": 1,
    "shared": [
     "small"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ḫꜣ.t",
-   "say": "ḫꜣ.t",
-   "skeleton": "ḫꜣt",
-   "gloss": "EN: [a collar-like necklace] | DE: [ein Halskragen (o. Ä.)]",
-   "candidates_found": [
-    "خرط",
-    "خات",
-    "خلت",
-    "خلط",
-    "خرت"
-   ],
-   "best": "خرط",
-   "overlap": 1,
-   "shared": [
-    "like"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ḫfꜥ",
-   "say": "ḫfꜥ",
-   "skeleton": "ḫfꜥ",
-   "gloss": "EN: [a kind of baked goods] | DE: [ein Gebäck]",
-   "candidates_found": [
-    "خفض",
-    "خفع"
-   ],
-   "best": "خفض",
-   "overlap": 1,
-   "shared": [
-    "goods"
    ],
    "direct": false,
    "depth": 3,
@@ -1274,50 +2899,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "zwꜣ",
-   "say": "zwꜣ",
-   "skeleton": "zwꜣ",
-   "gloss": "EN: to cut (down, off); to break | DE: fällen; abhacken",
-   "candidates_found": [
-    "زول",
-    "زوء",
-    "زوا",
-    "زور",
-    "سوا",
-    "سول",
-    "سور"
-   ],
-   "best": "زول",
-   "overlap": 1,
-   "shared": [
-    "down"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "sbr",
-   "say": "sbr",
-   "skeleton": "sbr",
-   "gloss": "EN: shoots (of a tree); clusters (of grapes) (Sem. loan word) | DE: Ranke, Zweig",
-   "candidates_found": [
-    "صبر",
-    "سبر",
-    "سبل",
-    "شبر",
-    "شبل"
-   ],
-   "best": "صبر",
-   "overlap": 1,
-   "shared": [
-    "tree"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "sp.t",
    "say": "sp.t",
    "skeleton": "spt",
@@ -1344,39 +2925,17 @@
    "loan_suspect": false
   },
   {
-   "branch": "smr",
-   "say": "smr",
-   "skeleton": "smr",
-   "gloss": "EN: [a destructive animal (med.)] | DE: [Tier (Feind der Eidechse)]",
-   "candidates_found": [
-    "سمر",
-    "سمل",
-    "شمر",
-    "شمل",
-    "صمر",
-    "صمل"
-   ],
-   "best": "سمر",
-   "overlap": 1,
-   "shared": [
-    "animal"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "sr.t",
    "say": "sr.t",
    "skeleton": "srt",
    "gloss": "EN: body of magistrates | DE: Magistraten; Beamtenkollegium",
    "candidates_found": [
     "سرط",
-    "شرط",
     "سرت",
     "سلت",
     "سلط",
     "شرت",
+    "شرط",
     "شلط",
     "صرط",
     "صلت",
@@ -1386,28 +2945,6 @@
    "overlap": 1,
    "shared": [
     "body"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "srf",
-   "say": "srf",
-   "skeleton": "srf",
-   "gloss": "EN: (flood) water (which comes to rest upon the land) | DE: [Bez. für Wasser]",
-   "candidates_found": [
-    "سلف",
-    "سرف",
-    "شرف",
-    "شلف",
-    "صرف",
-    "صلف"
-   ],
-   "best": "سلف",
-   "overlap": 1,
-   "shared": [
-    "land"
    ],
    "direct": false,
    "depth": 3,
@@ -1474,75 +3011,13 @@
    "loan_suspect": false
   },
   {
-   "branch": "str",
-   "say": "str",
-   "skeleton": "str",
-   "gloss": "EN: green plants | DE: grüne Pflanzen",
-   "candidates_found": [
-    "شتل",
-    "ستر",
-    "ستل",
-    "سطر",
-    "سطل",
-    "شتر",
-    "شطر",
-    "صطر"
-   ],
-   "best": "شتل",
-   "overlap": 1,
-   "shared": [
-    "plants"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šm.w",
-   "say": "šm.w",
-   "skeleton": "šmw",
-   "gloss": "EN: heat | DE: Hitze",
-   "candidates_found": [
-    "سمو",
-    "شمو"
-   ],
-   "best": "سمو",
-   "overlap": 1,
-   "shared": [
-    "heat"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šrj",
-   "say": "šrj",
-   "skeleton": "šrj",
-   "gloss": "EN: child; son; lad | DE: Kind; Sohn; Knabe",
-   "candidates_found": [
-    "سلي",
-    "شري",
-    "شلي",
-    "سري"
-   ],
-   "best": "سلي",
-   "overlap": 1,
-   "shared": [
-    "son"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "šgr",
    "say": "šgr",
    "skeleton": "šgr",
    "gloss": "EN: [a wooden box] | DE: verschließbarer Holzkasten (?)",
    "candidates_found": [
-    "سجر",
     "شجر",
+    "سجر",
     "شجل",
     "شقر",
     "شقل",
@@ -1554,7 +3029,7 @@
     "سغر",
     "سغل"
    ],
-   "best": "سجر",
+   "best": "شجر",
    "overlap": 1,
    "shared": [
     "wooden"
@@ -1564,49 +3039,27 @@
    "loan_suspect": false
   },
   {
-   "branch": "šgr",
-   "say": "šgr",
-   "skeleton": "šgr",
-   "gloss": "EN: [a body of water (ditch? dyke?) (Sem. loan word)] | DE: [ein Gewässer]",
+   "branch": "gbꜣ",
+   "say": "gbꜣ",
+   "skeleton": "gbꜣ",
+   "gloss": "EN: side (of a room) | DE: Seite, Wand (eines Raumes)",
    "candidates_found": [
-    "شقل",
-    "شجر",
-    "شجل",
-    "شقر",
-    "شغر",
-    "شغل",
-    "سجر",
-    "سجل",
-    "سقر",
-    "سقل",
-    "سغر",
-    "سغل"
+    "قبر",
+    "جبء",
+    "جبا",
+    "جبل",
+    "جبر",
+    "قبء",
+    "قبا",
+    "قبل",
+    "غبء",
+    "غبا",
+    "غبر"
    ],
-   "best": "شقل",
+   "best": "قبر",
    "overlap": 1,
    "shared": [
-    "water"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "qꜣꜥ",
-   "say": "qꜣꜥ",
-   "skeleton": "qꜣꜥ",
-   "gloss": "EN: to vomit; to pour out | DE: ausspeien",
-   "candidates_found": [
-    "قرض",
-    "قاع",
-    "قاض",
-    "قلع",
-    "قرع"
-   ],
-   "best": "قرض",
-   "overlap": 1,
-   "shared": [
-    "out"
+    "room"
    ],
    "direct": false,
    "depth": 3,
@@ -1616,41 +3069,19 @@
    "branch": "grb",
    "say": "grb",
    "skeleton": "grb",
-   "gloss": "EN: [a garment] | DE: [ein Kleidungsstück]; [ein Stoff]",
+   "gloss": "EN: to shave (a piece of wood serving as a chariot part) (Sem. loan word) | DE: schneiden ",
    "candidates_found": [
+    "غرب",
     "جرب",
     "جلب",
     "قرب",
     "قلب",
-    "غرب",
     "غلب"
    ],
-   "best": "جرب",
+   "best": "غرب",
    "overlap": 1,
    "shared": [
-    "garment"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "grm",
-   "say": "grm",
-   "skeleton": "grm",
-   "gloss": "EN: to carry off | DE: fortschleppen",
-   "candidates_found": [
-    "قلم",
-    "جرم",
-    "جلم",
-    "قرم",
-    "غرم",
-    "غلم"
-   ],
-   "best": "قلم",
-   "overlap": 1,
-   "shared": [
-    "off"
+    "wood"
    ],
    "direct": false,
    "depth": 3,
@@ -1737,19 +3168,22 @@
    "loan_suspect": false
   },
   {
-   "branch": "ḏdf",
-   "say": "ḏdf",
-   "skeleton": "ḏdf",
-   "gloss": "EN: to stand on end (hair); to creep (of the flesh) | DE: sich sträuben (Haar); schaudern",
+   "branch": "ꜥꜣb",
+   "say": "ꜥꜣb",
+   "skeleton": "ꜥꜣb",
+   "gloss": "EN: [a tree (?)]; [a plant (?)] | DE: [ein Baum (?)]; [eine Pflanze (?)]",
    "candidates_found": [
-    "جدف",
-    "زدف",
-    "جضف"
+    "غرب",
+    "عاب",
+    "علب",
+    "عرب",
+    "ضرب",
+    "غلب"
    ],
-   "best": "جدف",
+   "best": "غرب",
    "overlap": 1,
    "shared": [
-    "end"
+    "tree"
    ],
    "direct": false,
    "depth": 3,
@@ -1772,48 +3206,6 @@
    "overlap": 1,
    "shared": [
     "tree"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ꜥrq",
-   "say": "ꜥrq",
-   "skeleton": "ꜥrq",
-   "gloss": "EN: to complete; to stop (doing something) | DE: vollenden; aufhören (etwas zu tun)",
-   "candidates_found": [
-    "غلق",
-    "عرق",
-    "علق",
-    "غرق"
-   ],
-   "best": "غلق",
-   "overlap": 1,
-   "shared": [
-    "stop"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ꜥqꜣ",
-   "say": "ꜥqꜣ",
-   "skeleton": "ꜥqꜣ",
-   "gloss": "EN: one who is correct; one who is straightforward | DE: der richtig Handelnde",
-   "candidates_found": [
-    "عقر",
-    "عقا",
-    "عقل",
-    "ضقا",
-    "غقل",
-    "غقر"
-   ],
-   "best": "عقر",
-   "overlap": 1,
-   "shared": [
-    "who"
    ],
    "direct": false,
    "depth": 3,
@@ -2004,44 +3396,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "wšm",
-   "say": "wšm",
-   "skeleton": "wšm",
-   "gloss": "EN: [a metal vessel]; [a measure for beer] | DE: [ein Krug (aus Metall)]; Maß (für Bier)",
-   "candidates_found": [
-    "وسم",
-    "وشم"
-   ],
-   "best": "وسم",
-   "overlap": 1,
-   "shared": [
-    "metal"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "bꜣ.t",
-   "say": "bꜣ.t",
-   "skeleton": "bꜣt",
-   "gloss": "EN: bush; shrub | DE: Busch; Gebüsch",
-   "candidates_found": [
-    "بلط",
-    "بلت",
-    "برت",
-    "برط"
-   ],
-   "best": "بلط",
-   "overlap": 1,
-   "shared": [
-    "shrub"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "bjn",
    "say": "bjn",
    "skeleton": "bjn",
@@ -2079,30 +3433,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "pr.t",
-   "say": "pr.t",
-   "skeleton": "prt",
-   "gloss": "EN: fruit; seed; posterity (metaph.) | DE: Frucht (einer Pflanze); Saatkorn; Nachkommensch",
-   "candidates_found": [
-    "بلط",
-    "برت",
-    "برط",
-    "بلت",
-    "فرت",
-    "فرط",
-    "فلت",
-    "فلط"
-   ],
-   "best": "بلط",
-   "overlap": 1,
-   "shared": [
-    "fruit"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "prš",
    "say": "prš",
    "skeleton": "prš",
@@ -2132,9 +3462,9 @@
    "gloss": "EN: who? what? | DE: wer?; was?",
    "candidates_found": [
     "بتر",
+    "بطل",
     "بتل",
     "بطر",
-    "بطل",
     "فتر",
     "فتل",
     "فطر"
@@ -2155,40 +3485,17 @@
    "gloss": "EN: [a body of water] | DE: [ein Gewässer]",
    "candidates_found": [
     "بتر",
-    "بطل",
-    "فتل",
     "فطر",
     "بتل",
     "بطر",
-    "فتر"
+    "بطل",
+    "فتر",
+    "فتل"
    ],
    "best": "بتر",
    "overlap": 1,
    "shared": [
     "body"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ptr",
-   "say": "ptr",
-   "skeleton": "ptr",
-   "gloss": "EN: strip (of cloth) | DE: Schnur (?); Verband",
-   "candidates_found": [
-    "فتل",
-    "بتر",
-    "بتل",
-    "بطر",
-    "بطل",
-    "فتر",
-    "فطر"
-   ],
-   "best": "فتل",
-   "overlap": 1,
-   "shared": [
-    "strip"
    ],
    "direct": false,
    "depth": 3,
@@ -2241,30 +3548,6 @@
    "overlap": 1,
    "shared": [
     "his"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "mgꜣ",
-   "say": "mgꜣ",
-   "skeleton": "mgꜣ",
-   "gloss": "EN: youthful soldier | DE: junger Krieger",
-   "candidates_found": [
-    "مقل",
-    "مجل",
-    "مجر",
-    "مقا",
-    "مقر",
-    "مغا",
-    "مغل",
-    "مغر"
-   ],
-   "best": "مقل",
-   "overlap": 1,
-   "shared": [
-    "soldier"
    ],
    "direct": false,
    "depth": 3,
@@ -2441,24 +3724,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ḫt",
-   "say": "ḫt",
-   "skeleton": "ḫt",
-   "gloss": "EN: through; throughout | DE: durch (ein Land); überall in",
-   "candidates_found": [
-    "خت",
-    "خط"
-   ],
-   "best": "خت",
-   "overlap": 1,
-   "shared": [
-    "through"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "ẖꜣ",
    "say": "ẖꜣ",
    "skeleton": "ẖꜣ",
@@ -2595,24 +3860,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "kꜣ",
-   "say": "kꜣ",
-   "skeleton": "kꜣ",
-   "gloss": "EN: food; provisions | DE: Nahrung; Speise",
-   "candidates_found": [
-    "كل",
-    "كر"
-   ],
-   "best": "كل",
-   "overlap": 1,
-   "shared": [
-    "food"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "kṯ",
    "say": "kṯ",
    "skeleton": "kṯ",
@@ -2625,28 +3872,6 @@
    "overlap": 1,
    "shared": [
     "plant"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "gꜣu̯",
-   "say": "gꜣu̯",
-   "skeleton": "gꜣ",
-   "gloss": "EN: to be narrow; to be constricted; to lack; to deprive | DE: eng sein; entbehren; (jmdn.",
-   "candidates_found": [
-    "قل",
-    "جل",
-    "جر",
-    "قر",
-    "غل",
-    "غر"
-   ],
-   "best": "قل",
-   "overlap": 1,
-   "shared": [
-    "not"
    ],
    "direct": false,
    "depth": 2,
@@ -2742,26 +3967,6 @@
    "overlap": 1,
    "shared": [
     "writing"
-   ],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "Ꜥḏn",
-   "say": "Ꜥḏn",
-   "skeleton": "ḏn",
-   "gloss": "EN: Adjen (demon associated with illness) | DE: Adjen (ein Krankheitsdämon?)",
-   "candidates_found": [
-    "زن",
-    "ذن",
-    "ضن",
-    "جن"
-   ],
-   "best": "زن",
-   "overlap": 1,
-   "shared": [
-    "associated"
    ],
    "direct": false,
    "depth": 2,
@@ -2938,23 +4143,6 @@
    "overlap": 1,
    "shared": [
     "aba"
-   ],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": true
-  },
-  {
-   "branch": "bj.t",
-   "say": "bj.t",
-   "skeleton": "bjt",
-   "gloss": "EN: Bit (Red Crown of Lower Egypt) | DE: Bit (Rote Krone von U.Äg.)",
-   "candidates_found": [
-    "بيت"
-   ],
-   "best": "بيت",
-   "overlap": 1,
-   "shared": [
-    "bit"
    ],
    "direct": false,
    "depth": 3,
@@ -5681,24 +6869,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ḥmꜣ",
-   "say": "ḥmꜣ",
-   "skeleton": "ḥmꜣ",
-   "gloss": "EN: to tread; to press out (with the feet) | DE: (mit den Füßen) stampfen; austreten",
-   "candidates_found": [
-    "حمء",
-    "حما",
-    "حمل",
-    "حمر"
-   ],
-   "best": "حمء",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "ḥmꜣg",
    "say": "ḥmꜣg",
    "skeleton": "ḥmꜣg",
@@ -6046,6 +7216,24 @@
     "مصط"
    ],
    "best": "مسط",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḥmḏ",
+   "say": "ḥmḏ",
+   "skeleton": "ḥmḏ",
+   "gloss": "EN: vinegar; inferior quality wine (Sem. loan word) | DE: Essig",
+   "candidates_found": [
+    "حمذ",
+    "حمز",
+    "حمض",
+    "حمج"
+   ],
+   "best": "حمذ",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -7942,23 +9130,6 @@
    "branch": "ḥsb",
    "say": "ḥsb",
    "skeleton": "ḥsb",
-   "gloss": "EN: to count; to reckon; to distribute | DE: rechnen; zählen; zuteilen",
-   "candidates_found": [
-    "حسب",
-    "حشب",
-    "حصب"
-   ],
-   "best": "حسب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ḥsb",
-   "say": "ḥsb",
-   "skeleton": "ḥsb",
    "gloss": "EN: enlistee (for compulsory work) | DE: Konskribierter; Rekrutierter (\"Gezählter\")",
    "candidates_found": [
     "حسب",
@@ -9655,24 +10826,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ḥḏn",
-   "say": "ḥḏn",
-   "skeleton": "ḥḏn",
-   "gloss": "EN: to resist; to become angry; to be angry | DE: unwillig sein; ärgerlich sein; widersteh",
-   "candidates_found": [
-    "حذن",
-    "حزن",
-    "حضن",
-    "حجن"
-   ],
-   "best": "حذن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "ḫy.t",
    "say": "ḫy.t",
    "skeleton": "ḫyt",
@@ -9827,21 +10980,22 @@
    "loan_suspect": false
   },
   {
-   "branch": "ḫꜣ",
-   "say": "ḫꜣ",
-   "skeleton": "ḫꜣ",
-   "gloss": "EN: road; path | DE: Weg",
+   "branch": "ḫꜣ.t",
+   "say": "ḫꜣ.t",
+   "skeleton": "ḫꜣt",
+   "gloss": "EN: [a collar-like necklace] | DE: [ein Halskragen (o. Ä.)]",
    "candidates_found": [
-    "خء",
-    "خا",
-    "خل",
-    "خر"
+    "خات",
+    "خلت",
+    "خلط",
+    "خرت",
+    "خرط"
    ],
-   "best": "خء",
+   "best": "خات",
    "overlap": 0,
    "shared": [],
    "direct": false,
-   "depth": 2,
+   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -11814,6 +12968,22 @@
    "loan_suspect": false
   },
   {
+   "branch": "ḫfꜥ",
+   "say": "ḫfꜥ",
+   "skeleton": "ḫfꜥ",
+   "gloss": "EN: [a kind of baked goods] | DE: [ein Gebäck]",
+   "candidates_found": [
+    "خفع",
+    "خفض"
+   ],
+   "best": "خفع",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "ḫfm",
    "say": "ḫfm",
    "skeleton": "ḫfm",
@@ -13072,22 +14242,6 @@
    "branch": "ḫr",
    "say": "ḫr",
    "skeleton": "ḫr",
-   "gloss": "EN: street; road; quarter (Sem. loan word) | DE: Straße; Gasse",
-   "candidates_found": [
-    "خر",
-    "خل"
-   ],
-   "best": "خر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ḫr",
-   "say": "ḫr",
-   "skeleton": "ḫr",
    "gloss": "EN: Syria | DE: Syrien",
    "candidates_found": [
     "خر",
@@ -13753,22 +14907,6 @@
    "branch": "ḫt",
    "say": "ḫt",
    "skeleton": "ḫt",
-   "gloss": "EN: [an administrative unit (land register?)] | DE: [eine Verwaltung (Kataster?)]",
-   "candidates_found": [
-    "خت",
-    "خط"
-   ],
-   "best": "خت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ḫt",
-   "say": "ḫt",
-   "skeleton": "ḫt",
    "gloss": "EN: [an ethereal oil] | DE: [ein Baumöl]",
    "candidates_found": [
     "خت",
@@ -13907,22 +15045,6 @@
     "خطب"
    ],
    "best": "ختب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ḫtm",
-   "say": "ḫtm",
-   "skeleton": "ḫtm",
-   "gloss": "DE: Ring",
-   "candidates_found": [
-    "ختم",
-    "خطم"
-   ],
-   "best": "ختم",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -15829,25 +16951,6 @@
     "صرو"
    ],
    "best": "سلو",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "zꜣb",
-   "say": "zꜣb",
-   "skeleton": "zꜣb",
-   "gloss": "EN: to flow; to drip | DE: fließen, rinnen",
-   "candidates_found": [
-    "زاب",
-    "زلب",
-    "زرب",
-    "سلب",
-    "سرب"
-   ],
-   "best": "زاب",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -18014,23 +19117,6 @@
    "branch": "sbḥ",
    "say": "sbḥ",
    "skeleton": "sbḥ",
-   "gloss": "EN: to cry out | DE: schreien",
-   "candidates_found": [
-    "سبح",
-    "شبح",
-    "صبح"
-   ],
-   "best": "سبح",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "sbḥ",
-   "say": "sbḥ",
-   "skeleton": "sbḥ",
    "gloss": "EN: cry; shriek | DE: Schreien; Geschrei",
    "candidates_found": [
     "سبح",
@@ -18614,31 +19700,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "spr",
-   "say": "spr",
-   "skeleton": "spr",
-   "gloss": "EN: sheet (of metal) | DE: Blech (auch aus Gold)",
-   "candidates_found": [
-    "سبر",
-    "سبل",
-    "سفر",
-    "سفل",
-    "شبر",
-    "شبل",
-    "شفر",
-    "شفل",
-    "صبر",
-    "صفر",
-    "صفل"
-   ],
-   "best": "سبر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "spḥ",
    "say": "spḥ",
    "skeleton": "spḥ",
@@ -18726,30 +19787,6 @@
     "سفس"
    ],
    "best": "زبز",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "spt",
-   "say": "spt",
-   "skeleton": "spt",
-   "gloss": "EN: to cut up | DE: schlachten",
-   "candidates_found": [
-    "سبت",
-    "سبط",
-    "سفت",
-    "سفط",
-    "شبت",
-    "شبط",
-    "شفت",
-    "صبط",
-    "صفت",
-    "صفط"
-   ],
-   "best": "سبت",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -19959,6 +20996,26 @@
    "loan_suspect": false
   },
   {
+   "branch": "smr",
+   "say": "smr",
+   "skeleton": "smr",
+   "gloss": "EN: [a destructive animal (med.)] | DE: [Tier (Feind der Eidechse)]",
+   "candidates_found": [
+    "سمر",
+    "سمل",
+    "شمر",
+    "شمل",
+    "صمر",
+    "صمل"
+   ],
+   "best": "سمر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "smr.t",
    "say": "smr.t",
    "skeleton": "smrt",
@@ -20349,22 +21406,6 @@
    "branch": "zn",
    "say": "zn",
    "skeleton": "zn",
-   "gloss": "EN: to open | DE: öffnen",
-   "candidates_found": [
-    "زن",
-    "سن"
-   ],
-   "best": "زن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "zn",
-   "say": "zn",
-   "skeleton": "zn",
    "gloss": "EN: plowshare | DE: Pflugschar",
    "candidates_found": [
     "زن",
@@ -20445,23 +21486,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "sn.w",
-   "say": "sn.w",
-   "skeleton": "snw",
-   "gloss": "EN: two | DE: zwei",
-   "candidates_found": [
-    "سنو",
-    "شنو",
-    "صنو"
-   ],
-   "best": "سنو",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -21182,22 +22206,6 @@
    "say": "znn",
    "skeleton": "znn",
    "gloss": "EN: copy (of a document); record | DE: Aktenstück; Buch; Bericht",
-   "candidates_found": [
-    "زنن",
-    "سنن"
-   ],
-   "best": "زنن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "znn",
-   "say": "znn",
-   "skeleton": "znn",
-   "gloss": "EN: image; likeness | DE: Bild; Ebenbild",
    "candidates_found": [
     "زنن",
     "سنن"
@@ -22380,26 +23388,6 @@
    "say": "srq",
    "skeleton": "srq",
    "gloss": "EN: [a plant] | DE: Raps",
-   "candidates_found": [
-    "سرق",
-    "سلق",
-    "شرق",
-    "شلق",
-    "صرق",
-    "صلق"
-   ],
-   "best": "سرق",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "srq",
-   "say": "srq",
-   "skeleton": "srq",
-   "gloss": "EN: [a fish] | DE: [ein Fisch (Petrocephalus)]",
    "candidates_found": [
     "سرق",
     "سلق",
@@ -25619,26 +26607,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "stp",
-   "say": "stp",
-   "skeleton": "stp",
-   "gloss": "EN: strip (of cloth); rag | DE: Lappen; Binde; Tuch",
-   "candidates_found": [
-    "ستب",
-    "سطب",
-    "شطب",
-    "شطف",
-    "صطب",
-    "صطف"
-   ],
-   "best": "ستب",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "stf",
    "say": "stf",
    "skeleton": "stf",
@@ -26314,25 +27282,6 @@
    "say": "šꜣ",
    "skeleton": "šꜣ",
    "gloss": "EN: marsh; meadow | DE: Sumpfland; Weideland; Weingarten",
-   "candidates_found": [
-    "شل",
-    "شر",
-    "سا",
-    "سل",
-    "سر"
-   ],
-   "best": "شل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šꜣ",
-   "say": "šꜣ",
-   "skeleton": "šꜣ",
-   "gloss": "EN: tree (gen.); vine(s) | DE: Baum (allg. Bez.); Weinstock",
    "candidates_found": [
     "شل",
     "شر",
@@ -28427,6 +29376,22 @@
    "loan_suspect": false
   },
   {
+   "branch": "šm.w",
+   "say": "šm.w",
+   "skeleton": "šmw",
+   "gloss": "EN: heat | DE: Hitze",
+   "candidates_found": [
+    "شمو",
+    "سمو"
+   ],
+   "best": "شمو",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "šmꜣ",
    "say": "šmꜣ",
    "skeleton": "šmꜣ",
@@ -28568,24 +29533,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "šmꜥ",
-   "say": "šmꜥ",
-   "skeleton": "šmꜥ",
-   "gloss": "EN: to make music | DE: singen",
-   "candidates_found": [
-    "شمع",
-    "شمغ",
-    "سمع",
-    "سمغ"
-   ],
-   "best": "شمع",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "šmꜥ.t",
    "say": "šmꜥ.t",
    "skeleton": "šmꜥt",
@@ -28662,38 +29609,6 @@
     "سمو"
    ],
    "best": "شمو",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šmm",
-   "say": "šmm",
-   "skeleton": "šmm",
-   "gloss": "EN: to be hot; to become hot (feverish) | DE: heiß werden; fiebern",
-   "candidates_found": [
-    "شمم",
-    "سمم"
-   ],
-   "best": "شمم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šmm",
-   "say": "šmm",
-   "skeleton": "šmm",
-   "gloss": "EN: hot one | DE: Hitziger, Feind",
-   "candidates_found": [
-    "شمم",
-    "سمم"
-   ],
-   "best": "شمم",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -28884,38 +29799,6 @@
    "say": "šn",
    "skeleton": "šn",
    "gloss": "EN: [a body of water, in compounds] | DE: [ein Meer]; [in Meeresbezeichnungen]",
-   "candidates_found": [
-    "شن",
-    "سن"
-   ],
-   "best": "شن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šn",
-   "say": "šn",
-   "skeleton": "šn",
-   "gloss": "EN: tree (gen.) | DE: Baum",
-   "candidates_found": [
-    "شن",
-    "سن"
-   ],
-   "best": "شن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šn",
-   "say": "šn",
-   "skeleton": "šn",
-   "gloss": "EN: tree (gen.) | DE: Baum (mit fem. Artikel)",
    "candidates_found": [
     "شن",
     "سن"
@@ -29774,6 +30657,24 @@
    "branch": "šrj",
    "say": "šrj",
    "skeleton": "šrj",
+   "gloss": "EN: child; son; lad | DE: Kind; Sohn; Knabe",
+   "candidates_found": [
+    "شري",
+    "شلي",
+    "سري",
+    "سلي"
+   ],
+   "best": "شري",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "šrj",
+   "say": "šrj",
+   "skeleton": "šrj",
    "gloss": "EN: [a flower (?)] | DE: [eine Pflanze]",
    "candidates_found": [
     "شري",
@@ -29848,28 +30749,6 @@
    "say": "šrr",
    "skeleton": "šrr",
    "gloss": "EN: little | DE: klein",
-   "candidates_found": [
-    "شرر",
-    "شرل",
-    "شلر",
-    "شلل",
-    "سرر",
-    "سرل",
-    "سلر",
-    "سلل"
-   ],
-   "best": "شرر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "šrr",
-   "say": "šrr",
-   "skeleton": "šrr",
-   "gloss": "EN: to cry out | DE: rufen, schreien",
    "candidates_found": [
     "شرر",
     "شرل",
@@ -30566,6 +31445,32 @@
    "loan_suspect": false
   },
   {
+   "branch": "šgr",
+   "say": "šgr",
+   "skeleton": "šgr",
+   "gloss": "EN: [a body of water (ditch? dyke?) (Sem. loan word)] | DE: [ein Gewässer]",
+   "candidates_found": [
+    "شجر",
+    "شجل",
+    "شقر",
+    "شقل",
+    "شغر",
+    "شغل",
+    "سجر",
+    "سجل",
+    "سقر",
+    "سقل",
+    "سغر",
+    "سغل"
+   ],
+   "best": "شجر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
    "branch": "št",
    "say": "št",
    "skeleton": "št",
@@ -31028,22 +31933,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "qꜣ",
-   "say": "qꜣ",
-   "skeleton": "qꜣ",
-   "gloss": "EN: tall; high; loud | DE: hoch; lang; laut",
-   "candidates_found": [
-    "قل",
-    "قر"
-   ],
-   "best": "قل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
    "branch": "qꜣ.t",
    "say": "qꜣ.t",
    "skeleton": "qꜣt",
@@ -31212,46 +32101,6 @@
     "قرح"
    ],
    "best": "قاح",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "qꜣs",
-   "say": "qꜣs",
-   "skeleton": "qꜣs",
-   "gloss": "EN: to bind (a victim); to string (a bow) | DE: binden; fesseln",
-   "candidates_found": [
-    "قلس",
-    "قلش",
-    "قلص",
-    "قرس",
-    "قرش",
-    "قرص"
-   ],
-   "best": "قلس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "qꜣs",
-   "say": "qꜣs",
-   "skeleton": "qꜣs",
-   "gloss": "EN: rope (as fetters, as rigging (naut.)) | DE: Strick, Band, Fessel",
-   "candidates_found": [
-    "قلس",
-    "قلش",
-    "قلص",
-    "قرس",
-    "قرش",
-    "قرص"
-   ],
-   "best": "قلس",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -31867,21 +32716,6 @@
    "branch": "qn",
    "say": "qn",
    "skeleton": "qn",
-   "gloss": "EN: strong lion (a water spout shaped like a lion's head) | DE: Löwe (als Wasserspeier)",
-   "candidates_found": [
-    "قن"
-   ],
-   "best": "قن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "qn",
-   "say": "qn",
-   "skeleton": "qn",
    "gloss": "EN: plant of the field | DE: [Bez. der Ackerpflanzen]",
    "candidates_found": [
     "قن"
@@ -32055,22 +32889,6 @@
     "قنو"
    ],
    "best": "قنو",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "qnj",
-   "say": "qnj",
-   "skeleton": "qnj",
-   "gloss": "EN: [a plant (med.)] | DE: [eine Pflanze]",
-   "candidates_found": [
-    "قني",
-    "قنء"
-   ],
-   "best": "قني",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -32763,22 +33581,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "qdd",
-   "say": "qdd",
-   "skeleton": "qdd",
-   "gloss": "EN: to sleep | DE: schlafen",
-   "candidates_found": [
-    "قدد",
-    "قضض"
-   ],
-   "best": "قدد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "qd.t",
    "say": "qd.t",
    "skeleton": "qdt",
@@ -32899,22 +33701,6 @@
     "قضف"
    ],
    "best": "قدف",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "qdd",
-   "say": "qdd",
-   "skeleton": "qdd",
-   "gloss": "EN: sleep | DE: Schlaf",
-   "candidates_found": [
-    "قدد",
-    "قضض"
-   ],
-   "best": "قدد",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -33745,36 +34531,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "kmm",
-   "say": "kmm",
-   "skeleton": "kmm",
-   "gloss": "EN: to be black; to be dark | DE: schwarz sein; dunkel sein",
-   "candidates_found": [
-    "كمم"
-   ],
-   "best": "كمم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "kmm",
-   "say": "kmm",
-   "skeleton": "kmm",
-   "gloss": "EN: black; dark | DE: schwarz; dunkel",
-   "candidates_found": [
-    "كمم"
-   ],
-   "best": "كمم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -34679,29 +35435,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "gꜣ.w",
-   "say": "gꜣ.w",
-   "skeleton": "gꜣw",
-   "gloss": "EN: lack; want | DE: Mangel; Not",
-   "candidates_found": [
-    "جءو",
-    "جلو",
-    "جرو",
-    "قءو",
-    "قلو",
-    "قرو",
-    "غءو",
-    "غلو",
-    "غرو"
-   ],
-   "best": "جءو",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "gꜣb",
    "say": "gꜣb",
    "skeleton": "gꜣb",
@@ -35025,31 +35758,6 @@
    "say": "gbꜣ",
    "skeleton": "gbꜣ",
    "gloss": "EN: arm | DE: Arm, Oberarm",
-   "candidates_found": [
-    "جبء",
-    "جبا",
-    "جبل",
-    "جبر",
-    "قبء",
-    "قبا",
-    "قبل",
-    "قبر",
-    "غبء",
-    "غبا",
-    "غبر"
-   ],
-   "best": "جبء",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "gbꜣ",
-   "say": "gbꜣ",
-   "skeleton": "gbꜣ",
-   "gloss": "EN: side (of a room) | DE: Seite, Wand (eines Raumes)",
    "candidates_found": [
     "جبء",
     "جبا",
@@ -35788,7 +36496,7 @@
    "branch": "grb",
    "say": "grb",
    "skeleton": "grb",
-   "gloss": "EN: to shave (a piece of wood serving as a chariot part) (Sem. loan word) | DE: schneiden ",
+   "gloss": "EN: [a garment] | DE: [ein Kleidungsstück]; [ein Stoff]",
    "candidates_found": [
     "جرب",
     "جلب",
@@ -36605,24 +37313,6 @@
     "طون"
    ],
    "best": "تون",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "twr",
-   "say": "twr",
-   "skeleton": "twr",
-   "gloss": "EN: [a reed-like plant] | DE: [eine Rohrpflanze]",
-   "candidates_found": [
-    "تور",
-    "تول",
-    "طور",
-    "طول"
-   ],
-   "best": "تور",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -38393,44 +39083,6 @@
    "branch": "ṯꜣy",
    "say": "ṯꜣy",
    "skeleton": "ṯꜣy",
-   "gloss": "EN: to criticize; to reproach | DE: tadeln",
-   "candidates_found": [
-    "ثاي",
-    "ثري",
-    "تري",
-    "طلي",
-    "طري"
-   ],
-   "best": "ثاي",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ṯꜣy",
-   "say": "ṯꜣy",
-   "skeleton": "ṯꜣy",
-   "gloss": "EN: reproach; fault | DE: Vorwurf; Tadel",
-   "candidates_found": [
-    "ثاي",
-    "ثري",
-    "تري",
-    "طلي",
-    "طري"
-   ],
-   "best": "ثاي",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ṯꜣy",
-   "say": "ṯꜣy",
-   "skeleton": "ṯꜣy",
    "gloss": "EN: [a receptacle (box, basket)] | DE: [ein Behälter]",
    "candidates_found": [
     "ثاي",
@@ -39268,22 +39920,6 @@
     "تنت"
    ],
    "best": "ثنت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "=ṯnj",
-   "say": "=ṯnj",
-   "skeleton": "ṯnj",
-   "gloss": "EN: you two (suffix pron., 2nd person dual) | DE: [Suffix Pron. dual.2.c.]",
-   "candidates_found": [
-    "ثني",
-    "طني"
-   ],
-   "best": "ثني",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -40731,26 +41367,6 @@
     "ضبو"
    ],
    "best": "دبو",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "dbꜣ",
-   "say": "dbꜣ",
-   "skeleton": "dbꜣ",
-   "gloss": "EN: to fall down | DE: umfallen",
-   "candidates_found": [
-    "دبا",
-    "دبل",
-    "دبر",
-    "ضبا",
-    "ضبل",
-    "ضبر"
-   ],
-   "best": "دبا",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -43526,28 +44142,6 @@
    "branch": "ḏr",
    "say": "ḏr",
    "skeleton": "ḏr",
-   "gloss": "EN: to hinder; to put an end to | DE: fernhalten (von); beseitigen; beenden",
-   "candidates_found": [
-    "ذر",
-    "ذل",
-    "زر",
-    "زل",
-    "ضر",
-    "ضل",
-    "جر",
-    "جل"
-   ],
-   "best": "ذر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ḏr",
-   "say": "ḏr",
-   "skeleton": "ḏr",
    "gloss": "EN: [a grave in a foreign land] | DE: [primitives Grab in der Fremde]",
    "candidates_found": [
     "ذر",
@@ -43564,26 +44158,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ḏr.w",
-   "say": "ḏr.w",
-   "skeleton": "ḏrw",
-   "gloss": "EN: kite (bird of prey) | DE: Weihe (Habicht)",
-   "candidates_found": [
-    "ذرو",
-    "ذلو",
-    "ضرو",
-    "ضلو",
-    "جرو",
-    "جلو"
-   ],
-   "best": "ذرو",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -44040,6 +44614,23 @@
     "ضبي"
    ],
    "best": "دبي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ḏdf",
+   "say": "ḏdf",
+   "skeleton": "ḏdf",
+   "gloss": "EN: to stand on end (hair); to creep (of the flesh) | DE: sich sträuben (Haar); schaudern",
+   "candidates_found": [
+    "زدف",
+    "جدف",
+    "جضف"
+   ],
+   "best": "زدف",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -44919,22 +45510,6 @@
    "shared": [],
    "direct": false,
    "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "Ꜣḫ.t",
-   "say": "Ꜣḫ.t",
-   "skeleton": "ḫt",
-   "gloss": "EN: Akhet (goddess of arable land) | DE: Achet (Göttin des Fruchtlandes)",
-   "candidates_found": [
-    "خت",
-    "خط"
-   ],
-   "best": "خت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 2,
    "loan_suspect": false
   },
   {
@@ -48222,26 +48797,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ꜥꜣy",
-   "say": "ꜥꜣy",
-   "skeleton": "ꜥꜣy",
-   "gloss": "EN: (glowing) fire | DE: Feuersglut",
-   "candidates_found": [
-    "علي",
-    "عري",
-    "ضري",
-    "غءي",
-    "غلي",
-    "غري"
-   ],
-   "best": "علي",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "ꜣd",
    "say": "ꜣd",
    "skeleton": "ꜣd",
@@ -48335,26 +48890,6 @@
     "رضو"
    ],
    "best": "ادو",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ꜥꜣb",
-   "say": "ꜥꜣb",
-   "skeleton": "ꜥꜣb",
-   "gloss": "EN: [a tree (?)]; [a plant (?)] | DE: [ein Baum (?)]; [eine Pflanze (?)]",
-   "candidates_found": [
-    "عاب",
-    "علب",
-    "عرب",
-    "ضرب",
-    "غلب",
-    "غرب"
-   ],
-   "best": "عاب",
    "overlap": 0,
    "shared": [],
    "direct": false,
@@ -48688,27 +49223,6 @@
    "say": "ꜥwꜣ",
    "skeleton": "ꜥwꜣ",
    "gloss": "EN: [a contemptuous shout (?)] | DE: [verächtlicher Ruf (?)]",
-   "candidates_found": [
-    "عول",
-    "عور",
-    "ضوا",
-    "ضول",
-    "ضور",
-    "غول",
-    "غور"
-   ],
-   "best": "عول",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ꜥwꜣ",
-   "say": "ꜥwꜣ",
-   "skeleton": "ꜥwꜣ",
-   "gloss": "EN: to rot; to spoil | DE: faulen; verderben",
    "candidates_found": [
     "عول",
     "عور",
@@ -49675,30 +50189,6 @@
    "branch": "ꜥpr",
    "say": "ꜥpr",
    "skeleton": "ꜥpr",
-   "gloss": "EN: [a cult object (presented by the king to a god)] | DE: [Kultgegenstand (den der König ",
-   "candidates_found": [
-    "عبر",
-    "عبل",
-    "عفر",
-    "عفل",
-    "ضبر",
-    "ضبل",
-    "ضفر",
-    "غبر",
-    "غفر",
-    "غفل"
-   ],
-   "best": "عبر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ꜥpr",
-   "say": "ꜥpr",
-   "skeleton": "ꜥpr",
    "gloss": "EN: [a garment] | DE: Kleid",
    "candidates_found": [
     "عبر",
@@ -50024,28 +50514,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ꜥmꜣ",
-   "say": "ꜥmꜣ",
-   "skeleton": "ꜥmꜣ",
-   "gloss": "EN: [a plant (a very juicy fruit?) (med.)] | DE: [Pflanze (offizinell)]",
-   "candidates_found": [
-    "عمء",
-    "عمل",
-    "عمر",
-    "ضمل",
-    "ضمر",
-    "غما",
-    "غمل",
-    "غمر"
-   ],
-   "best": "عمء",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "ꜥmj",
    "say": "ꜥmj",
    "skeleton": "ꜥmj",
@@ -50269,24 +50737,6 @@
    "loan_suspect": false
   },
   {
-   "branch": "ꜥmd",
-   "say": "ꜥmd",
-   "skeleton": "ꜥmd",
-   "gloss": "EN: [a field (Sem. loan word)] | DE: [ein Feld]",
-   "candidates_found": [
-    "عمد",
-    "ضمد",
-    "غمد",
-    "غمض"
-   ],
-   "best": "عمد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
    "branch": "ꜥmḏ",
    "say": "ꜥmḏ",
    "skeleton": "ꜥmḏ",
@@ -50373,23 +50823,6 @@
    "shared": [],
    "direct": false,
    "depth": 2,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ꜥnn",
-   "say": "ꜥnn",
-   "skeleton": "ꜥnn",
-   "gloss": "EN: to return; to turn back | DE: (sich) umwenden; (etwas) umwenden; zuwenden",
-   "candidates_found": [
-    "عنن",
-    "ضنن",
-    "غنن"
-   ],
-   "best": "عنن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
    "loan_suspect": false
   },
   {
@@ -51261,24 +51694,6 @@
    "say": "ꜥrq",
    "skeleton": "ꜥrq",
    "gloss": "EN: [an item of chariot equipment] | DE: [Teil des Wagens (Sack oder Korb?)]",
-   "candidates_found": [
-    "عرق",
-    "علق",
-    "غرق",
-    "غلق"
-   ],
-   "best": "عرق",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ꜥrq",
-   "say": "ꜥrq",
-   "skeleton": "ꜥrq",
-   "gloss": "EN: end | DE: Ende; Extremität",
    "candidates_found": [
     "عرق",
     "علق",
@@ -53253,6 +53668,26 @@
    "branch": "ꜥqꜣ",
    "say": "ꜥqꜣ",
    "skeleton": "ꜥqꜣ",
+   "gloss": "EN: one who is correct; one who is straightforward | DE: der richtig Handelnde",
+   "candidates_found": [
+    "عقا",
+    "عقل",
+    "عقر",
+    "ضقا",
+    "غقل",
+    "غقر"
+   ],
+   "best": "عقا",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "ꜥqꜣ",
+   "say": "ꜥqꜣ",
+   "skeleton": "ꜥqꜣ",
    "gloss": "EN: precisely; correctly | DE: genau; richtig",
    "candidates_found": [
     "عقا",
@@ -53354,26 +53789,6 @@
    "say": "ꜥqꜣ",
    "skeleton": "ꜥqꜣ",
    "gloss": "EN: [a cut of beef] | DE: [Körperteil des Rindes (als Nahrung)]",
-   "candidates_found": [
-    "عقا",
-    "عقل",
-    "عقر",
-    "ضقا",
-    "غقل",
-    "غقر"
-   ],
-   "best": "عقا",
-   "overlap": 0,
-   "shared": [],
-   "direct": false,
-   "depth": 3,
-   "loan_suspect": false
-  },
-  {
-   "branch": "ꜥqꜣ",
-   "say": "ꜥqꜣ",
-   "skeleton": "ꜥqꜣ",
-   "gloss": "EN: [a body of water in the 5th nome of Lower Egypt] | DE: [ein Gewässer (im Gau von Proso",
    "candidates_found": [
     "عقا",
     "عقل",
@@ -53986,6 +54401,691 @@
     "ورط"
    ],
    "best": "واط",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣ.y",
+   "say": "wꜣ.y",
+   "skeleton": "wꜣy",
+   "gloss": "EN: [a demon associated with illness] | DE: Unheil sinnender (ein Krankheitsdämon)",
+   "candidates_found": [
+    "ولي",
+    "وري"
+   ],
+   "best": "ولي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣy",
+   "say": "wꜣy",
+   "skeleton": "wꜣy",
+   "gloss": "EN: [a mineral] | DE: [ein Mineral]",
+   "candidates_found": [
+    "ولي",
+    "وري"
+   ],
+   "best": "ولي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣ.w",
+   "say": "wꜣ.w",
+   "skeleton": "wꜣw",
+   "gloss": "EN: woe! (interjection) | DE: wehe!",
+   "candidates_found": [
+    "ولو"
+   ],
+   "best": "ولو",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣ.w",
+   "say": "wꜣ.w",
+   "skeleton": "wꜣw",
+   "gloss": "EN: long ago; far away | DE: seit langem; von fern (in der Ferne)",
+   "candidates_found": [
+    "ولو"
+   ],
+   "best": "ولو",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣ",
+   "say": "wꜣ",
+   "skeleton": "wꜣ",
+   "gloss": "EN: far; remote | DE: fern; abgelegen",
+   "candidates_found": [
+    "وا",
+    "ول"
+   ],
+   "best": "وا",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣ.w",
+   "say": "wꜣ.w",
+   "skeleton": "wꜣw",
+   "gloss": "EN: wave (of the sea); flood water | DE: Brandung; Flutwasser",
+   "candidates_found": [
+    "ولو"
+   ],
+   "best": "ولو",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣb",
+   "say": "wꜣb",
+   "skeleton": "wꜣb",
+   "gloss": "EN: root; socket | DE: Wurzel; Sockel; Ansatz (der Zähne, des Auges, des Oberschenkels)",
+   "candidates_found": [
+    "ولب",
+    "ورب"
+   ],
+   "best": "ولب",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣb",
+   "say": "wꜣb",
+   "skeleton": "wꜣb",
+   "gloss": "EN: cord (naut.?); cloth (?) | DE: Seil (am Schiff?); Gewebe (?)",
+   "candidates_found": [
+    "ولب",
+    "ورب"
+   ],
+   "best": "ولب",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣm",
+   "say": "wꜣm",
+   "skeleton": "wꜣm",
+   "gloss": "EN: [a plant (med.)]; [an edible plant] | DE: [eine Pflanze]; [eine Frucht (essbar)]",
+   "candidates_found": [
+    "ولم",
+    "ورم"
+   ],
+   "best": "ولم",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣr",
+   "say": "wꜣr",
+   "skeleton": "wꜣr",
+   "gloss": "EN: to tie up | DE: (den Sack) zusammenschnüren",
+   "candidates_found": [
+    "وار",
+    "ورر",
+    "ورل"
+   ],
+   "best": "وار",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣr",
+   "say": "wꜣr",
+   "skeleton": "wꜣr",
+   "gloss": "EN: [a priest at Ombos] | DE: [ein Priester (in Ombos)]",
+   "candidates_found": [
+    "وار",
+    "ورر",
+    "ورل"
+   ],
+   "best": "وار",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣr",
+   "say": "wꜣr",
+   "skeleton": "wꜣr",
+   "gloss": "EN: to dance | DE: tanzen (o. Ä.)",
+   "candidates_found": [
+    "وار",
+    "ورر",
+    "ورل"
+   ],
+   "best": "وار",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣr",
+   "say": "wꜣr",
+   "skeleton": "wꜣr",
+   "gloss": "EN: reed flute; reed | DE: Rohrflöte (?); Rohr",
+   "candidates_found": [
+    "وار",
+    "ورر",
+    "ورل"
+   ],
+   "best": "وار",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣḥ",
+   "say": "wꜣḥ",
+   "skeleton": "wꜣḥ",
+   "gloss": "EN: to lay down; to offer; to endure | DE: legen; dauern; opfern; zurücklassen",
+   "candidates_found": [
+    "ولح"
+   ],
+   "best": "ولح",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣḥ",
+   "say": "wꜣḥ",
+   "skeleton": "wꜣḥ",
+   "gloss": "EN: wreath; garland | DE: Kranz; Girlande (aus Blumen, Gold)",
+   "candidates_found": [
+    "ولح"
+   ],
+   "best": "ولح",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣḥ",
+   "say": "wꜣḥ",
+   "skeleton": "wꜣḥ",
+   "gloss": "EN: [noun] | DE: [Substantiv]",
+   "candidates_found": [
+    "ولح"
+   ],
+   "best": "ولح",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣḥ",
+   "say": "wꜣḥ",
+   "skeleton": "wꜣḥ",
+   "gloss": "EN: [a mineral] | DE: [ein Mineral]",
+   "candidates_found": [
+    "ولح"
+   ],
+   "best": "ولح",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣḫ",
+   "say": "wꜣḫ",
+   "skeleton": "wꜣḫ",
+   "gloss": "EN: fresh plants; verdure | DE: frisches Grün (Pflanzen)",
+   "candidates_found": [
+    "ولخ",
+    "ورخ"
+   ],
+   "best": "ولخ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣs",
+   "say": "wꜣs",
+   "skeleton": "wꜣs",
+   "gloss": "EN: was-scepter | DE: [ein Zepter]",
+   "candidates_found": [
+    "ولس",
+    "ورس",
+    "ورش",
+    "ورص"
+   ],
+   "best": "ولس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣs",
+   "say": "wꜣs",
+   "skeleton": "wꜣs",
+   "gloss": "EN: dominion; power | DE: Herrschaft; Wohlergehen",
+   "candidates_found": [
+    "ولس",
+    "ورس",
+    "ورش",
+    "ورص"
+   ],
+   "best": "ولس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣs",
+   "say": "wꜣs",
+   "skeleton": "wꜣs",
+   "gloss": "EN: to possess power; to have dominion; to be happy | DE: herrschen; mächtig sein; glückli",
+   "candidates_found": [
+    "ولس",
+    "ورس",
+    "ورش",
+    "ورص"
+   ],
+   "best": "ولس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣs",
+   "say": "wꜣs",
+   "skeleton": "wꜣs",
+   "gloss": "EN: Was (subdivision of a phyle) | DE: Was (Unterabteilung einer Phyle der Totenpriester)",
+   "candidates_found": [
+    "ولس",
+    "ورس",
+    "ورش",
+    "ورص"
+   ],
+   "best": "ولس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣš",
+   "say": "wꜣš",
+   "skeleton": "wꜣš",
+   "gloss": "EN: to be powerful; to worship | DE: mächtig sein, angesehen sein; (jmdn.) ehren",
+   "candidates_found": [
+    "ولس",
+    "ورش",
+    "ورس"
+   ],
+   "best": "ولس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣš",
+   "say": "wꜣš",
+   "skeleton": "wꜣš",
+   "gloss": "EN: honor; respect | DE: Ansehen; Ehre",
+   "candidates_found": [
+    "ولس",
+    "ورش",
+    "ورس"
+   ],
+   "best": "ولس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜣg",
+   "say": "wꜣg",
+   "skeleton": "wꜣg",
+   "gloss": "EN: to shout (for joy) | DE: jauchzen (vor Freude); sich freuen",
+   "candidates_found": [
+    "ولج",
+    "ولق",
+    "ولغ",
+    "ورج",
+    "ورق",
+    "ورغ"
+   ],
+   "best": "ولج",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wj",
+   "say": "wj",
+   "skeleton": "wj",
+   "gloss": "EN: I; me (depen. pron., 1st per. sing.) | DE: ich; mich [Enkl. Pron. sg.1.c]",
+   "candidates_found": [
+    "وي"
+   ],
+   "best": "وي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wj",
+   "say": "wj",
+   "skeleton": "wj",
+   "gloss": "EN: mummy case | DE: Mumienhülle",
+   "candidates_found": [
+    "وي"
+   ],
+   "best": "وي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wjꜣ",
+   "say": "wjꜣ",
+   "skeleton": "wjꜣ",
+   "gloss": "EN: ship; processional bark | DE: Schiff; Prozessionsbarke",
+   "candidates_found": [
+    "ويا",
+    "ويل",
+    "وير"
+   ],
+   "best": "ويا",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wjꜣ",
+   "say": "wjꜣ",
+   "skeleton": "wjꜣ",
+   "gloss": "EN: to push aside; to reject | DE: (etwas) zurückweisen; absondern",
+   "candidates_found": [
+    "ويا",
+    "ويل",
+    "وير"
+   ],
+   "best": "ويا",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wy",
+   "say": "wy",
+   "skeleton": "wy",
+   "gloss": "EN: woe! | DE: wehe!",
+   "candidates_found": [
+    "وي"
+   ],
+   "best": "وي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wjn",
+   "say": "wjn",
+   "skeleton": "wjn",
+   "gloss": "EN: to push aside; to reject | DE: zurückweisen; ablehnen",
+   "candidates_found": [
+    "وين"
+   ],
+   "best": "وين",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥ",
+   "say": "wꜥ",
+   "skeleton": "wꜥ",
+   "gloss": "EN: harpoon | DE: Harpune",
+   "candidates_found": [
+    "وع"
+   ],
+   "best": "وع",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥ",
+   "say": "wꜥ",
+   "skeleton": "wꜥ",
+   "gloss": "EN: one; sole | DE: eins (Zahl); einzig",
+   "candidates_found": [
+    "وع"
+   ],
+   "best": "وع",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 2,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥ.t",
+   "say": "wꜥ.t",
+   "skeleton": "wꜥt",
+   "gloss": "EN: Sole-one (solar eye) | DE: das Einzige (Sonnenauge)",
+   "candidates_found": [
+    "وعط"
+   ],
+   "best": "وعط",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥ.t",
+   "say": "wꜥ.t",
+   "skeleton": "wꜥt",
+   "gloss": "EN: Sole-one (uraeus) | DE: die Einzige (Uräusschlange)",
+   "candidates_found": [
+    "وعط"
+   ],
+   "best": "وعط",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥ.t",
+   "say": "wꜥ.t",
+   "skeleton": "wꜥt",
+   "gloss": "EN: sole one (Hathor) | DE: die Einzige (Hathor von Dendera)",
+   "candidates_found": [
+    "وعط"
+   ],
+   "best": "وعط",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥꜣ",
+   "say": "wꜥꜣ",
+   "skeleton": "wꜥꜣ",
+   "gloss": "EN: to curse (someone) | DE: schmähen",
+   "candidates_found": [
+    "وعل",
+    "وعر",
+    "وضر",
+    "وغل",
+    "وغر"
+   ],
+   "best": "وعل",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥꜣ",
+   "say": "wꜥꜣ",
+   "skeleton": "wꜥꜣ",
+   "gloss": "EN: candle; torch | DE: Kerze; Fackel",
+   "candidates_found": [
+    "وعل",
+    "وعر",
+    "وضر",
+    "وغل",
+    "وغر"
+   ],
+   "best": "وعل",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥꜣ",
+   "say": "wꜥꜣ",
+   "skeleton": "wꜥꜣ",
+   "gloss": "EN: pail; pot | DE: [ein Eimer]; [ein Topf]",
+   "candidates_found": [
+    "وعل",
+    "وعر",
+    "وضر",
+    "وغل",
+    "وغر"
+   ],
+   "best": "وعل",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥi̯",
+   "say": "wꜥi̯",
+   "skeleton": "wꜥi",
+   "gloss": "EN: to be alone; to be (the only) one | DE: allein sein; einzig sein",
+   "candidates_found": [
+    "وعي",
+    "وضي",
+    "وغي"
+   ],
+   "best": "وعي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 3,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥwꜥ",
+   "say": "wꜥwꜥ",
+   "skeleton": "wꜥwꜥ",
+   "gloss": "EN: to cut down (an enemy) | DE: (Feinde) niedermachen",
+   "candidates_found": [
+    "وعوع"
+   ],
+   "best": "وعوع",
+   "overlap": 0,
+   "shared": [],
+   "direct": false,
+   "depth": 4,
+   "loan_suspect": false
+  },
+  {
+   "branch": "wꜥb",
+   "say": "wꜥb",
+   "skeleton": "wꜥb",
+   "gloss": "EN: to purify; to be pure | DE: reinigen; rein sein; frei sein (unbenutzt sein)",
+   "candidates_found": [
+    "وعب",
+    "وغب"
+   ],
+   "best": "وعب",
    "overlap": 0,
    "shared": [],
    "direct": false,
