@@ -6,8 +6,8 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 55**، منها **25** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 706
+**مطابقةُ صوتٍ ومعنًى معًا: 53**، منها **24** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 701
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
@@ -16,7 +16,6 @@
 | `𐍆𐍂𐌹𐌾𐌴𐌹` | frijei | freedom, liberty | **فرج** | مباشر 6: freedom liberty | فري · فلي · فلج · بري · برج |
 | `𐌿𐍃𐌼𐌴𐍄` | usmet | behaviour, conduct, way of life | **سمت** | مباشر 6: conduct way | سمط · شمت · شمط · صمت · زمت |
 | `𐍅𐌰𐌹𐌷𐌾𐍉` | waihjo | fight, quarrel, battle | **وغي** | مباشر 6: battle fight | وهي · وهج · وحي · وحج · وخي |
-| `𐍃𐍅𐍂𐌹𐌰` | swria | Syria (a geographic region consisting of two provinces of the Roman Empire in Western Asia | **سور** | مباشر 4: syria | شور · زور · سول · شول · صور |
 | `𐌱𐌹𐌷𐌰𐌹𐍄` | bihait | slander, false rumors; abusive language | **بهت** | مباشر 4: slander | بهط · بهث · بحت · بحث · بخت |
 | `𐌷𐌰𐌿𐍂𐌽` | haurn | horn | **هرن** | مباشر 3: horn | هلن · حرن · حلن · خرن · خلن |
 | `𐌿𐌽𐍃𐌰𐍂` | unsar | our (first-person plural possessive) | **نشر** | مباشر 3: first | نسر · نسل · نشل · نصر · نصل |
@@ -59,7 +58,6 @@
 | `𐌴𐌹𐌸𐌰𐌽` | eithan | for which reason, wherefore | **طن** | قرينة 1: which | ثن · تن |
 | `𐌰𐌿𐌷𐌿𐌼𐌰` | auhuma | higher, superior | **حم** | قرينة 1: higher | هم · خم · غم |
 | `𐍆𐌰𐌿𐍃` | faus | few, not many | **فس** | قرينة 1: not | فش · فص · فز · بس · بش |
-| `𐍂𐌿𐌼𐌰` | ruma | Rome (a major city in Italy); Rome, Ancient Rome (an ancient empire based out of the city  | **رم** | قرينة 1: ancient | لم |
 | `𐍄𐌹𐌻` | til | something fitting or suitable (attested only as an accusative singular; plausibly not a no | **طر** | قرينة 1: only | تل · تر · طل · ثل · ثر |
 | `𐌻𐌹𐌿𐌸` | liuth | song | **رث** | قرينة 1: song | لث · لت · لط · رت |
 | `𐌼𐌰𐌻𐍉` | malo | moth (insect) | **مل** | قرينة 1: insect | مر |

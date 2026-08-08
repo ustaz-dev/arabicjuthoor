@@ -44,6 +44,11 @@ IE = {
     "gothic": ("got", "Gothic", "القوطيّة", "Germanic", "gothic"),
     "english_old": ("ang", "Old English", "الإنجليزيّة القديمة", "Germanic", "old-english"),
     "old_norse": ("non", "Old Norse", "النُّرديّة القديمة", "Germanic", "old-norse"),
+    "english_middle": ("enm", "Middle English", "الإنجليزيّة الوسطى", "Germanic", "middle-english"),
+    # الفارسيّةُ هندوأوربيّةٌ أيضًا، وهي أصعبُ الفروعِ لأنّها تُكتَبُ بالحرفِ العربيِّ
+    # نفسِه، فلا يدخلُ منها الطابورَ إلّا ما ثبتَت إيرانيّتُه بحرفٍ فارسيٍّ خالصٍ
+    # أو باشتقاقٍ منشورٍ يُسمّي الإيرانيّةَ أو الفارسيّةَ الوسطى
+    "persian": ("fa", "Persian", "الفارسيّة", "Iranian", "persian"),
 }
 
 TIERS = [

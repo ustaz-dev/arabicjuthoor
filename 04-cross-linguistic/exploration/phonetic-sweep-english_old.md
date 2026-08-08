@@ -6,8 +6,8 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 247**، منها **117** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 1,585
+**مطابقةُ صوتٍ ومعنًى معًا: 244**، منها **117** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 1,579
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
@@ -174,7 +174,6 @@
 | `rod` | rod | cross (method of execution); cross (method of execution) | **لد** | قرينة 1: which | لذ · لت · رد · رض · رذ |
 | `sin` | sin | his; her; its; their | **سن** | قرينة 1: his | شن · صن · زن |
 | `bil` | bil | a kind of sword or other bladed weapon, apparently having two edges | **بل** | قرينة 1: other | بر |
-| `hun` | hun | a common element in given names | **حن** | قرينة 1: given | كن · هن · خن · غن · قن |
 | `mot` | mot | meeting (encounter, assembly, or confluence); court or judicial assembly | **مد** | قرينة 1: judicial | مت · مط · مث |
 | `lad` | lad | excuse (+ genitive for something); apology (+ genitive for something) | **رد** | قرينة 1: accusation | لد · لض · لذ · لت · رض |
 | `sum` | sum | some; used to indicate a specific example of a thing: a, a certain | **سم** | قرينة 1: another | شم · صم · زم |
@@ -219,10 +218,8 @@
 | `gaf` | gaf | base, vile, lewd | **كب** | قرينة 1: base | جف · جب · غف · غب · قف |
 | `searu` | searu | machine; device, contrivance | **شر** | قرينة 1: machine | سر · سل · شل · صر · صل |
 | `eald` | eald | old; ancient | **رد** | قرينة 1: original | لد · لض · لذ · لت · رض |
-| `hamm` | hamm | enclosure, piece of enclosed land (especially land enclosed by a river) | **هم** | قرينة 1: piece | حم · خم · غم · قم · كم |
 | `æþel` | æþel | homeland (ancestral territory) alternative form of ēþel | **ثل** | قرينة 1: ancestral | ثر · تل · تر · طل · طر |
 | `hierra` | hierra | higher | **كل** | قرينة 1: higher | هر · هل · حر · حل · خر |
-| `leoda` | leoda | a man, person, individual of a nation or country | **لد** | قرينة 1: man | لض · لذ · لت · رد · رض |
 | `eþian` | eþian | to breathe; to smell | **تن** | قرينة 1: smell | ثن · طن |
 | `notu` | notu | use; enjoyment | **ند** | قرينة 1: use | نت · نث |
 | `cipp` | cipp | a small piece of wood; a shaving; chip | **قب** | قرينة 1: piece | قف · جب · كب · كف · جف |

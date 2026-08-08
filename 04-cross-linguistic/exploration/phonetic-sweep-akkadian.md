@@ -6,8 +6,8 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 122**، منها **97** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 366
+**مطابقةُ صوتٍ ومعنًى معًا: 120**، منها **96** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 359
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
@@ -53,7 +53,6 @@
 | `šiṭrum` | šiṭrum | text, inscription (any piece of writing); stars | **سطر** | مباشر 4: writing | شطر · شظر |
 | `šaṭārum` | šaṭārum | copy, exemplar, text, inscription, writing, written document | **سطر** | مباشر 4: writing | شطر · شظر |
 | `šiprum` | šiprum | message, report, commission; messenger | **سفر** | مباشر 4: message | شفر · شبر · سبر · ثفر · ثبر |
-| `muškēnum` | muškēnum | commoner, dependent (a class of people dependent or reliant on others, unable to provide s | **مسكن** | مباشر 3: poor | مشكن |
 | `sebet` | sebet | seven, 7 | **سبت** | مباشر 3: seven | - |
 | `kirûm` | kirûm | garden, orchard | **كرم** | مباشر 3: orchard | - |
 | `ḫalāqum` | ḫalāqum | to disappear, vanquish, go missing, get lost, perish; to flee, escape | **علق** | مباشر 3: get | خلق · حلق · هلق · غلق |
@@ -120,7 +119,6 @@
 | `ḫulqum` | ḫulqum | lost object, lost property; loss | **حلق** | قرينة 1: object | خلق · هلق · علق · غلق |
 | `serdum` | serdum | olive; olive tree | **سرد** | قرينة 1: olive | - |
 | `kurûm` | kurûm | verbal adjective of karûm:; short (time and size) | **كرم** | قرينة 1: time | - |
-| `bēlum` | bēlum | lord; proprietor, owner | **بل** | قرينة 1: other | - |
 | `pānum` | pānum | front, front part; surface | **بن** | قرينة 1: appearance | فن |
 | `ištu` | ištu | from, out of; down from | **ست** | قرينة 1: after | شت · شث |
 | `ištu` | ištu | since, after; when, as soon as | **ست** | قرينة 1: after | شت · شث |

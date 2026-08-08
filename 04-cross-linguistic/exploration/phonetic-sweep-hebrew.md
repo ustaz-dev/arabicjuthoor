@@ -6,12 +6,11 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 1,343**، منها **1,088** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 6,040
+**مطابقةُ صوتٍ ومعنًى معًا: 1,319**، منها **1,074** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 5,989
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
-| `הינדי` | hyndy  (هـيندي) | Hindi (modern Standard Hindi, a standardized and Sanskritized version of the Hindustani la | **هند** | مباشر 48: based hindi hindustani khariboli | - |
 | `כלב` | klb  (كلب) | dog (the species Canis familiaris (sometimes designated Canis lupus familiaris), domestica | **كلب** | مباشر 46: appearance bitch breeding canis | - |
 | `ענב` | ʿnb  (عنب) | grape (a small, round, smooth-skinned edible fruit, usually purple, red, or green, that gr | **عنب** | مباشر 45: bunches edible fruit genus | غنب · ضنب · حنب |
 | `כל` | kl  (كل) | All, whole, entirety, everything; found almost exclusively in singular definite and singul | **كل** | مباشر 27: all almost each entirety | - |
@@ -358,7 +357,6 @@
 | `עייף` | ʿyyp/f  (عييف) | tired (in need of rest or sleep) | **عب** | مباشر 6: tired | عف · غف · غب · ضف · ضب |
 | `צרה` | ṣrh  (صرهـ) | female equivalent of צר: enemy | **صر** | مباشر 6: equivalent female | ضر · ظر · زر |
 | `כמה` | kmh  (كمهـ) | How, how much, to what extent. | **كم** | مباشر 6: how much | - |
-| `לוד` | lwd  (لود) | Lydia (a historical region and ancient kingdom in western Asia Minor, in modern-day Turkey | **لد** | مباشر 6: day historical | لذ |
 | `חלה` | ḥlh  (حلهـ) | To become sick, to be ill. | **خل** | مباشر 6: become ill | حل |
 | `כיפה` | kyp/fh  (كيفهـ) | kippah, yarmulke; dome | **كب** | مباشر 6: kippah yarmulke | كف |
 | `קץ` | qṣ  (قص) | to cut off | **قص** | مباشر 6: cut off | قض · قز · كص · كض · كظ |
@@ -369,7 +367,6 @@
 | `כולה` | kwlh  (كولهـ) | form of כָּל (kol) with third-person feminine singular personal pronoun as possessor: all  | **كل** | مباشر 6: all her | - |
 | `כשר` | kšr  (كشر) | fit, proper, legitimate; kosher; permitted for consumption | **كشر** | مباشر 5: kosher | كسر · كثر |
 | `בעל` | bʿl  (بعل) | Baal (Canaanite deity) | **بعل** | مباشر 5: baal | بغل · بحل |
-| `חברה` | ḥbrh  (حبرهـ) | Company, society: the state of being with one or more other people.; Company, society: one | **خبر** | مباشر 5: other | حبر |
 | `טעם` | ṭʿm  (طعم) | taste (sense); taste, flavour (objective quality of a substance as perceived by the sense  | **طعم** | مباشر 5: taste | طغم · طحم · ظعم |
 | `קיוסק` | qywsq  (قيوسق) | kiosk (enclosed structure) | **كشك** | مباشر 5: kiosk | كسق |
 | `יחידה` | yḥydh  (يحيدهـ) | A unit, an organizational unit: a component of an organization, such as a military unit or | **وحد** | مباشر 5: unit | وخد · وخذ |
@@ -401,9 +398,7 @@
 | `קוטב` | qwṭb  (قوطب) | pole; magnetic pole | **قطب** | مباشر 4: pole | كظب |
 | `קוטב` | qwṭb  (قوطب) | the North Pole | **قطب** | مباشر 4: pole | كظب |
 | `שיעור` | šyʿwr  (شيعور) | measure, amount; rate, frequency, occurrence | **سعر** | مباشر 4: rate | سحر · شعر · شغر · شضر · شحر |
-| `חיריק` | ḥyryq  (حيريق) | hiriq (a Hebrew nikud vowel sign, a dot written beneath a letter) (ִ◌ִ). | **حرك** | مباشر 4: vowel | حرق · خرق · خرك |
 | `כביסה` | kbysh  (كبيسهـ) | A laundering, a washing.; Laundry (that which needs to be, is being, or has been laundered | **كبس** | مباشر 4: which | كبش |
-| `כתיבה` | ktybh  (كتيبهـ) | writing (the process of representing a language with symbols or letters). | **كتب** | مباشر 4: letters | كثب |
 | `שטף` | šṭp/f  (شطف) | to wash; to rinse | **شطف** | مباشر 4: rinse | شطب · شظف · سطب · ثطف · ثطب |
 | `חפר` | ḥp/fr  (حفر) | to dig; to search, to look through | **حفر** | مباشر 4: dig | حبر · خفر · خبر |
 | `סככה` | skkh  (سككهـ) | a light leafy roof providing shelter from sun or rain; a light roofed structure, often tem | **شكك** | مباشر 4: often | سكك |
@@ -411,14 +406,12 @@
 | `רדוד` | rdwd  (ردود) | Shallow: not deep; having little depth.; Used figuratively; shallow, superficial. | **ردد** | مباشر 4: little | رذذ |
 | `סיקר` | syqr  (سيقر) | To cover (an event), such as for a newspaper. | **سكر** | مباشر 4: event | سقر · شقر · شكر |
 | `נקר` | nqr  (نقر) | to bore, pierce through; gouge out (eyes); to peck (chiefly of birds) | **نقر** | مباشر 4: peck | نكر |
-| `לעז` | lʿz  (لعز) | to speak unintelligibly; to speak a language other than Hebrew | **لغز** | مباشر 4: speak | لعز · لغذ · لحز |
 | `ש־ב־ע` | šbʿ  (شبع) | Forming words pertaining to the number seven.; Forming words pertaining to promises, oaths | **سبع** | مباشر 4: seven | شبع · شبح · سبغ · سبح |
 | `פנדה` | p/fndh  (فندهـ) | giant panda; red panda | **بند** | مباشر 4: panda | فند · فنذ |
 | `מלחייה` | mlḥyyh  (ملحييهـ) | A salt shaker, a salt cellar: a container that holds ground salt and facilitates sprinklin | **ملح** | مباشر 4: salt | ملخ |
 | `נ־ע־ם` | nʿm  (نعم) | Related to singing, music, melody. | **نغم** | مباشر 4: melody | نعم · نضم · نحم |
 | `ע־ש־ר` | ʿšr  (عشر) | Related to the number ten.; Related to tithing. | **عشر** | مباشر 4: ten | عسر · عثر · غشر · غسر · غثر |
 | `כרס` | krs  (كرس) | abdomen, belly | **كرش** | مباشر 4: belly | كرس |
-| `רפיח` | rp/fyḥ  (رفيح) | Rafah (an ancient Canaanite City); Rafah (the modern Gazan city) | **رفح** | مباشر 4: rafah | رفخ · ربح · ربخ |
 | `יד` | yd  (يد) | arm; hand | **يد** | مباشر 4: hand | ود |
 | `רב` | rb  (رب) | Many, much.; Great. | **رب** | مباشر 4: many | - |
 | `בית` | byt  (بيت) | house; school | **بت** | مباشر 4: equivalent | بث |
@@ -611,3 +604,10 @@
 | `בטל` | bṭl  (بطل) | to cease to exist; to be idle | **بطل** | مباشر 3: cease | - |
 | `סבר` | sbr  (سبر) | countenance, expression | **سبر** | مباشر 3: countenance | شبر |
 | `נבח` | nbḥ  (نبح) | to bark | **نبح** | مباشر 3: bark | نبخ |
+| `חלב` | ḥlb  (حلب) | to milk; to obtain information | **حلب** | مباشر 3: milk | خلب |
+| `חגורה` | ḥgwrh  (حجورهـ) | belt | **حجر** | مباشر 3: belt | خجر |
+| `רעד` | rʿd  (رعد) | to tremble, shake, quake | **رعد** | مباشر 3: tremble | رغد · رضد |
+| `חלם` | ḥlm  (حلم) | to dream | **حلم** | مباشر 3: dream | خلم |
+| `שבח` | šbḥ  (شبح) | praise; appreciation (increase in value) | **سبح** | مباشر 3: praise | شبح · شبخ · سبخ |
+| `רעב` | rʿb  (رعب) | hunger | **رغب** | مباشر 3: hunger | رعب · رضب · رحب |
+| `רעב` | rʿb  (رعب) | to hunger, to be malnourished | **رغب** | مباشر 3: hunger | رعب · رضب · رحب |

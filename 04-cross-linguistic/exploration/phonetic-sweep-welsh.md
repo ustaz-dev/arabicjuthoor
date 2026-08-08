@@ -6,8 +6,8 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 254**، منها **125** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 2,987
+**مطابقةُ صوتٍ ومعنًى معًا: 252**، منها **125** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 2,984
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
@@ -187,7 +187,6 @@
 | `bridio` | bridio | to breed, to propagate; to breed fissile material | **برد** | قرينة 1: material | برض · برذ · بلد |
 | `man` | man | place; location | **من** | قرينة 1: location | - |
 | `cor` | cor | dwarf, pygmy, little urchin; spider | **قل** | قرينة 1: little | كر · كل · قر · جر · جل |
-| `aber` | aber | estuary, mouth of a river; confluence, joining of two or more rivers | **بر** | قرينة 1: more | بل |
 | `hen` | hen | old, aged; ancient, antique, pristine, former; inveterate, chronic; original; senior, elde | **حن** | قرينة 1: old | هن · خن · غن |
 | `din` | din | city, fort, stronghold | **ضن** | قرينة 1: city | دن · ذن |
 | `pais` | pais | petticoat, underskirt; tunic, jacket, doublet | **بز** | قرينة 1: jacket | بس · بش · بص · فس · فش |
@@ -246,7 +245,6 @@
 | `camera` | camera | camera | **كمر** | قرضٌ حديثٌ؟ 3: camera | كمل · قمر · قمل · جمر · جمل |
 | `organ` | organ | organ | **رغن** | قرضٌ حديثٌ؟ 3: organ | رجن · رقن · ركن · لجن · لغن |
 | `organ` | organ | organ | **رغن** | قرضٌ حديثٌ؟ 3: organ | رجن · رقن · ركن · لجن · لغن |
-| `banc` | banc | rising ground, hill, slope; bank (in a sea or river, e.g. sandbank, mudbank) | **بنك** | قرضٌ حديثٌ؟ 3: bank | بنق · بنج |
 | `doler` | doler | dollar | **دلر** | قرضٌ حديثٌ؟ 3: dollar | دلل · درر · درل · ضلل · ضرر |
 | `bloc` | bloc | block | **بلك** | قرضٌ حديثٌ؟ 3: block | بلق · بلج · برك · برق · برج |
 | `bocs` | bocs | box (cuboid space; container) | **بكس** | قرضٌ حديثٌ؟ 3: box | بقس · بكش · بقش · بجس |

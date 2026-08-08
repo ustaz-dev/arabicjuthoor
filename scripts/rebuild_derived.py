@@ -33,6 +33,7 @@ BUILD = [
     ("build_status_snapshot.py", []),
     ("build_lane_b_open_review_queue.py", []),
     ("build_links_showcase.py", []),          # معرضُ صفحةِ الصلات، من البطاقاتِ نفسِها
+    ("build_discoveries.py", []),             # روزنامةُ المرشَّحين، من المسحِ نفسِه
 ]
 
 # بوّاباتُ النشر، بترتيبِ deploy.yml
@@ -53,6 +54,10 @@ GATES = [
     ("build_lane_b_open_review_queue.py", ["--check"]),
     ("build_status_snapshot.py", ["--check"]),
     ("compare_cooke_diplomatic_passes.py", ["--check"]),
+    # الجسرُ والروزنامةُ يُفحَصانِ هنا لأنّ سجلَّ القرضِ باتَ مرّةً فرُفِضَ النشر،
+    # وكلُّ مشتقٍّ لا حارسَ له يبيتُ يومًا ويُوقِفُ الموقع
+    ("build_en_ar_bridge.py", ["--check"]),
+    ("build_discoveries.py", ["--check"]),
 ]
 
 

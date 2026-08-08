@@ -6,8 +6,8 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 637**، منها **339** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 6,752
+**مطابقةُ صوتٍ ومعنًى معًا: 603**، منها **326** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 6,625
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
@@ -39,7 +39,6 @@
 | `ὑστερέω` | ustereō  (وستإرإو) | to be behind, be later, come after, come late; to come too late, miss (an appointment or e | **صدر** | مباشر 6: come obtain | شتر · ستر · سطر · سدر · صطر |
 | `λῆδον` | lēdon  (ليدون) | gum rockrose (Cistus ladanifer), a shrub from which labdanum exudes | **لدن** | مباشر 6: cistus gum | لذن |
 | `καταίρω` | katairō  (كاتايرو) | to come down, swoop down; to put into port, put in | **قطر** | مباشر 6: come down | كدر · كتر · قتر · قدر |
-| `Λυδία` | ludia  (لوديا) | Lydia (a historical region and ancient kingdom in western Asia Minor, in modern-day Turkey | **لد** | مباشر 6: day historical | لض · لذ |
 | `ἐκδύω` | ekduō  (إكدوو) | to take off, remove, strip; to strip oneself (of a thing), take off oneself | **كد** | مباشر 6: off oneself | قد · كض · كذ · قض · قذ |
 | `ἀκμή` | akmē  (اكمي) | point, edge; the highest or culminating point of something, bloom, flower, prime, zenith,  | **قم** | مباشر 6: highest point | كم |
 | `ἡσυχία` | ēsukhia  (يسوخيا) | peace; silence, stillness, rest, quiet | **سك** | مباشر 6: quiet rest | سح · صخ · صح · صك · شح |
@@ -61,7 +60,6 @@
 | `φᾶρος` | pharos  (فاروس) | large piece of cloth, web; wide cloak or mantle without sleeves | **فرش** | مباشر 4: bedspread | فرس · فرص · فرز · برس · برص |
 | `Λύδδα` | ludda  (لوددا) | Lydda; Lod, Israel | **لدد** | مباشر 4: lod | لضض · لذذ |
 | `κάτειμι` | kateimi  (كاتإيمي) | to go down, come down; to come back, return | **قدم** | مباشر 4: come | كتم · كدم · قتم · قطم |
-| `πολιτεύω` | politeuō  (بوليتإوو) | to live as a citizen or freeman, live in a free state; to take part in the government | **بلد** | مباشر 4: citizen | فلت · بلت · بلط · فلط · فلد |
 | `γόμος` | gomos  (غوموس) | freight, cargo, the goods and items carried by a ship or other vessel; load, burden, a wei | **قمش** | مباشر 4: goods | جمس · جمص · جمش · جمز · غمس |
 | `ἐκφορά` | ekphora  (إكفورا) | carrying out; carrying out | **قبر** | مباشر 4: burial | كفر · كبر · قفر |
 | `καταβοάω` | kataboaō  (كاتابواو) | to cry down, cry out against; to bawl down, outcry | **كتب** | مباشر 4: down | كدب · قتب · قطب · قدب |
@@ -69,7 +67,6 @@
 | `ἀρκέω` | arkeō  (اركإو) | to ward off, keep off; to defend | **رك** | مباشر 4: keep | رق |
 | `ὅραμα` | orama  (وراما) | that which is seen, a visible object, a sight; that which is seen, a visible object, a sig | **رم** | مباشر 4: which | - |
 | `Σήρ` | sēr  (سير) | Serican, one of the Seres, the people from whom silk was obtained, the North Chinese as kn | **سر** | مباشر 4: known | صر · شر · زر |
-| `Σήθ` | sēth  (سيث) | Set (an Egyptian god) | **ست** | مباشر 4: set | صط · صت · شث · شط · شت |
 | `ὄχημα` | okhēma  (وخيما) | anything that bears or supports, prop, stay; carriage, chariot, especially the mule-car | **خم** | مباشر 4: like | كم · حم |
 | `δορά` | dora  (دورا) | Skin when taken off, hide.; Skin when taken off, hide. | **ذر** | مباشر 4: off | ضر · در |
 | `εἰσάγω` | eisagō  (إيساغو) | to lead in or into (esp. into one’s dwelling); to bring in, bring forward (esp. as a law-t | **سج** | مباشر 4: term | صج · صغ · صق · شج · شغ |
@@ -90,7 +87,6 @@
 | `ἀντλία` | antlia  (انتليا) | A baling out of bilge-water; bilge-water, filth | **نطل** | مباشر 3: out | نتل · ندل |
 | `ἀντλέω` | antleō  (انتلإو) | to bail out bilgewater; to draw water | **نطل** | مباشر 3: out | نتل · ندل |
 | `κάρυον` | karuon  (كاروون) | nut (hard-shelled seed) | **قرن** | مباشر 3: hard | كرن |
-| `Θρᾴκη` | thrakē  (ثراكي) | Thrace (a historical region of Southeast Europe, now divided between Greece, Bulgaria and  | **طرق** | مباشر 3: between | ترك · ثرق · طرك · ترق |
 | `χορός` | khoros  (خوروس) | dance ring; round dance; dance accompanied by song; choral dance | **حرش** | مباشر 3: troop | حرس · خرس · خرص · خرش · خرز |
 | `Τρωάς` | trōas  (ترواس) | a female inhabitant of Troy or of the Troas/Troad; a female Trojan | **درس** | مباشر 3: female | ترس · ترص · ترش · ترز · طرس |
 | `Ἄκτωρ` | aktōr  (اكتور) | Actor, an extremely common men's name in Greek mythology | **كدر** | مباشر 3: common | كتر · قتر · قطر · قدر |
@@ -103,7 +99,6 @@
 | `Δωρίς` | dōris  (دوريس) | a female Dorian | **درس** | مباشر 3: female | درص · درش · درز · ضرس · ضرز |
 | `Γέλας` | gelas  (غإلاس) | the river Gela | **قلص** | مباشر 3: river | جلس · جلز · غلس · غلص · قلس |
 | `διαλέγω` | dialegō  (ديالإغو) | to choose, gather, pick (out), select | **دلج** | مباشر 3: out | دلق · ضلج · ذلج · ذلغ · ذلق |
-| `Φάρος` | pharos  (فاروس) | Pharos (a former island off Alexandria, Egypt) | **برز** | مباشر 3: off | فرس · فرص · فرش · فرز · برس |
 | `κάμνω` | kamnō  (كامنو) | to exert oneself, labour, work hard; to be weary | **كمن** | مباشر 3: oneself | قمن |
 | `λεκάνη` | lekanē  (لإكاني) | dish, pot, pan, basin | **لقن** | مباشر 3: basin | لكن |
 | `ἤπειρος` | ēpeiros  (يبإيروس) | mainland, land; The mainland of Greece | **فرش** | مباشر 3: land | برس · برص · برش · برز · فرس |
@@ -132,7 +127,6 @@
 | `διάρροια` | diarroia  (دياررويا) | flowing through, diarrhoea | **درر** | مباشر 3: flowing | ضرر · ذرر |
 | `πληγή` | plēgē  (بليغي) | stroke (from a sword or a pike). | **فلج** | مباشر 3: stroke | بلج · بلغ · بلق · فلغ · فلق |
 | `βάτος` | batos  (باتوس) | blackberry (Rubus ulmifolius); fish, a kind of skate | **بطس** | مباشر 3: blackberry | بتش · بطش · بدس |
-| `λαγών` | lagōn  (لاغون) | hollow on each side below the ribs, flank; womb | **لجن** | مباشر 3: side | لغن · لقن |
 | `βύρσα` | bursa  (بورسا) | the skin stripped off a hide, leather; the skin of a live animal | **برز** | مباشر 3: off | برش · برس · برص |
 | `δηρός` | dēros  (ديروس) | long, too long | **ضرس** | مباشر 3: long | درس · درص · درش · درز · ضرز |
 | `ἐργασία` | ergasia  (إرغاسيا) | work, daily labor, business; an act of working, making, building | **رجس** | مباشر 3: act | رجش · رجز · رغس · رغش · رغز |
@@ -155,7 +149,6 @@
 | `προάγω` | proagō  (برواغو) | to lead forward, on, onward; to lead forward, on, onward | **برق** | مباشر 3: lead | برج · برغ · فرج · فرغ · فرق |
 | `παράγω` | paragō  (باراغو) | to lead by or past a place; to march the men up from the side, to bring them from column i | **برق** | مباشر 3: lead | فرق · برج · برغ · فرج · فرغ |
 | `ῥαββί` | rabbi  (راببي) | O my Master | **ربب** | مباشر 3: master | - |
-| `Ἰνωπός` | inōpos  (ينوبوس) | a fountain and river in the island of Delos, where Leto brought forth Apollo and Artemis ( | **نفس** | مباشر 3: same | نبس · نبص · نبش · نبز · نفص |
 | `κεράτια` | keratia  (كإراتيا) | fruit of the carob | **قرط** | مباشر 3: fruit | كرت · كرد · قرت · قرد |
 | `θυρεός` | thureos  (ثورإوس) | a stone put against a door to keep it shut, a door-stone; a wide oblong shield (like a doo | **ترس** | مباشر 3: shield | طرس · طرش · طرز · ترص · ترش |
 | `Γελλώ` | gellō  (غإللو) | Gello (a kind of vampiress, demoness, or goblin supposed to carry off young children and c | **قلل** | مباشر 3: carry | جلل · غلل |
@@ -179,9 +172,7 @@
 | `εὔπορος` | euporos  (إوبوروس) | easy to pass or travel through; easily got, easily done, easy; ready, glib; (of persons) f | **برز** | مباشر 3: off | فرس · برس · برص · برش · فرص |
 | `ἀφέλκω` | aphelkō  (افإلكو) | to drag off | **فلق** | مباشر 3: off | فلك · بلك · بلق |
 | `σπεῖρα` | speira  (سبإيرا) | anything twisted or wound; coils or spires of snakes | **شفر** | مباشر 3: anything | سبر · سفر · صبر · صفر · شبر |
-| `ῥάχις` | rakhis  (راخيس) | chine, lower part of the back; spine or backbone | **رخص** | مباشر 3: lower | رخس · رخش · رحس · ركس · ركز |
 | `ἔλασμα` | elasma  (إلاسما) | metal plate; general name for probes or other surgical instruments | **لزم** | مباشر 3: other | لسم |
-| `Ἄρβηλα` | arbēla  (اربيلا) | Arbela (an ancient city in Mesopotamia, in modern Iraq; modern Arbil) | **ربل** | مباشر 3: arbil | - |
 | `κημός` | kēmos  (كيموس) | muzzle put on a led horse; nosebag for horses | **قمش** | مباشر 3: cloth | كمس · كمص · كمش · كمز · قمس |
 | `ἀποχωρέω` | apokhōreō  (ابوخورإو) | to go away from, leave; to withdraw, retreat | **بخر** | مباشر 3: turn | بحر · بكر · فخر · فحر · فكر |
 | `ἐχθρά` | ekhthra  (إخثرا) | a (female) enemy or foe | **كثر** | مباشر 3: female | خثر · خطر · ختر · حثر · حطر |
@@ -217,7 +208,6 @@
 | `τέλλω` | tellō  (تإللو) | to accomplish, perform; to rise (of stars) = ἀνατέλλω (anatéllō) | **طلل** | مباشر 3: rise | تلل · دلل |
 | `ἀκάτιον` | akation  (اكاتيون) | light boat; small sail | **قطن** | مباشر 3: small | كتن · كدن · قتن · قدن |
 | `ἀριστεύω` | aristeuō  (اريستإوو) | to be superlative in quality, to be the best or finest; to be outstanding or preeminent; t | **رشد** | مباشر 3: triumph | رست · رسط · رصد · رشت · رشط |
-| `Πτερία` | pteria  (بتإريا) | Pteria (an ancient city in Cappadocia, modern Turkey) | **بطر** | مباشر 3: ancient | بتر · بدر · فتر · فطر · فدر |
 | `ἐφέλκω` | ephelkō  (إفإلكو) | to draw on, drag or trail after, lead; to bring on, bring in its train | **فلق** | مباشر 3: off | فلك · بلك · بلق |
 | `ἰσηγορία` | isēgoria  (يسيغوريا) | equal right to speak, equality of all in freedom of speech, particularly in the public ass | **زجر** | مباشر 3: speech | صقر · شقر · سجر · سغر · سقر |
 | `πόδιον` | podion  (بوديون) | foot of a vase; trunk, cutting, plant | **بدن** | مباشر 3: trunk | بذن · فدن |
@@ -247,9 +237,7 @@
 | `γυνή` | gunē  (غوني) | woman, female; wife | **جن** | مباشر 3: female | غن · قن |
 | `ὑπέρ` | uper  (وبإر) | [with genitive]; over, above | **فر** | مباشر 3: off | بر |
 | `φεύγω` | pheugō  (فإوغو) | to flee, run off, go a certain direction with haste (often with prepositions); to flee, es | **فج** | مباشر 3: into | بق · بج |
-| `Αἰθιοπία` | aithiopia  (ايثيوبيا) | Ethiopia (a historical region of East Africa) | **ثب** | مباشر 3: region | طب · طف · تب · تف |
 | `Πάν` | pan  (بان) | Pan, the Greek god of shepherds and nature | **بن** | مباشر 3: god | فن |
-| `Βέροια` | beroia  (بإرويا) | Beroea (an ancient city in Aleppo, Syria); Beroea (ancient city of Veria, Greece) | **بر** | مباشر 3: city | - |
 | `ποτέ` | pote  (بوتإ) | at some time, once, ever; presumably, possibly | **فد** | مباشر 3: time | بد · بت · بط · فت |
 | `ἱερός` | ieros  (يإروس) | a (male) member of a religious institution | **رز** | مباشر 3: male | رس · رص · رش |
 | `φαίνω` | phainō  (فاينو) | to cause to appear, bring to light; to show, uncover, reveal; to cause to appear, bring to | **فن** | مباشر 3: cause | بن |
@@ -300,7 +288,6 @@
 | `πίων` | piōn  (بيون) | fat, rich; wealthy | **بن** | مباشر 3: fat | فن |
 | `ζέμα` | zema  (زإما) | fermentation, boiling; That which is boiled, a decoction | **جم** | مباشر 3: which | زم · ذم |
 | `βρία` | bria  (بريا) | The Thracian word for city | **بر** | مباشر 3: city | - |
-| `Κίος` | kios  (كيوس) | Cius; Gemlik, Turkey; A river flowing near this city | **قص** | مباشر 3: near | كس · قز · كص · كش · كز |
 | `εὕρημα` | eurēma  (إوريما) | An invention, a discovery (not by chance but by thought); An invention, for or against thi | **رم** | مباشر 3: which | - |
 | `ὄνομαι` | onomai  (ونوماي) | to blame, scold; to find fault with, treat scornfully, attack verbally, vituperate, insult | **نم** | مباشر 3: slander | - |
 | `ἀθήρ` | athēr  (اثير) | awn; chaff | **طر** | مباشر 3: fish | ثر · تر |
@@ -350,16 +337,12 @@
 | `οἰζύς` | oizus  (ويزوس) | woe; misery; distress; hardship; suffering | **جص** | مباشر 3: suffering | زز · ذش · جس · جش · جز |
 | `ἡλικία` | ēlikia  (يليكيا) | time of life, age; the prime of life (from about 17 to 45) | **لق** | مباشر 3: about | لك |
 | `ἰχανάω` | ikhanaō  (يخاناو) | to crave, yearn, desire | **حن** | مباشر 3: desire | خن · كن |
-| `Ἀφρική` | aphrikē  (افريكي) | Africa (a former province of the Roman Empire, containing what is now Tunisia and portions | **برق** | قرينة 5: between former libya | فرق · برك · فرك |
-| `Φρυγία` | phrugia  (فروغيا) | Phrygia (a geographic region and ancient kingdom in the west central part of Asia Minor, i | **برق** | قرينة 4: ancient geographic modern | فرج · فرغ · فرق · برج · برغ |
 | `ἀσκέω` | askeō  (اسكإو) | to give form to some material: to beshape, fashion, form, shape, work; to adorn, decorate, | **شق** | قرينة 3: material not often | سك · صك · صق · شك · زك |
 | `θερμός` | thermos  (ثإرموس) | lupine, especially Lupinus albus | **ترمس** | قرينة 2: lupine lupinus | طرمس · طرمش · ترمز |
 | `κοινός` | koinos  (كوينوس) | common; public, general | **كنز** | قرينة 2: general public | كنس · كنص · كنش · قنس · قنص |
-| `Ἀλβανία` | albania  (البانيا) | Caucasian Albania (an ancient region and former kingdom in West Asia, south of the Caucasu | **لبن** | قرينة 2: asia east | - |
 | `φλοιός` | phloios  (فلويوس) | bark of trees, especially smooth bark; husk or skin of certain fruits | **فلس** | قرينة 2: animals skin | فلص · فلز · بلس · بلص · بلش |
 | `ὅλμος` | olmos  (ولموس) | round, smooth stone; any cylindrical or bowl shaped body: | **لمس** | قرينة 2: body which | لمص · لمش · لمز |
 | `ζεύγλη` | zeuglē  (زإوغلي) | loop attached to the yoke, through which the beasts's head were put; crossbar of the doubl | **زغل** | قرينة 2: through which | زجل · زقل · ذجل · ججل |
-| `Σίνδοι` | sindoi  (سيندوي) | Sindi, an ancient people settled on the shores of the Black Sea | **سند** | قرينة 2: black people | صند · شنذ · زند |
 | `οὐραχός` | ourakhos  (ووراخوس) | urachus, a foetal organ connected with the bladder; apex of the heart | **ركز** | قرينة 2: ends point | رخس · رخص · رخش · رحس · ركس |
 | `γρώνη` | grōnē  (غروني) | cavern (from the phrase γρώνη πέτρα (grṓnē pétra, “cavernous cave”)); hollow vessel | **جرن** | قرينة 2: hollow vessel | غرن · قرن |
 | `ῥίζα` | riza  (ريزا) | root (of a plant); source | **رز** | قرينة 2: family plant | رذ · رج |
@@ -373,7 +356,6 @@
 | `σοβέω` | sobeō  (سوبإو) | to scare away; to scare away | **صب** | قرينة 2: away move | سب · شب · زب |
 | `ἕτερος` | eteros  (إتإروس) | one or the other of two; either ... or ... | **طرس** | قرينة 1: other | درز · ترس · ترص · ترش · ترز |
 | `σάρξ` | sarks  (ساركس) | the material which covers the bones of a creature; flesh; body | **شرك** | قرينة 1: flesh | سرك · زرك |
-| `Σιδών` | sidōn  (سيدون) | Sidon or Zidon, a Phoenician city. | **سدن** | قرينة 1: city | صدن · شدن · شذن · زذن |
 | `συνάγω` | sunagō  (سوناغو) | to bring together, gather together; to bring together, gather together | **صنج** | قرينة 1: together | سنج · سنق · صنغ · صنق · شنج |
 | `πολύς` | polus  (بولوس) | many, a lot of; large, great | **بلس** | قرينة 1: many | فلس · بلص · بلش · بلز · فلص |
 | `πρός` | pros  (بروس) | besides, over and above, thereto, in addition | **برز** | قرينة 1: above | فرس · برس · برص · برش · فرص |
@@ -385,15 +367,12 @@
 | `ἀβαρής` | abarēs  (اباريس) | without weight, weightless; not burdensome | **برص** | قرينة 1: not | برس · برش · برز |
 | `σημαίνω` | sēmainō  (سيماينو) | to show, point out, indicate; to show, point out, indicate | **زمن** | قرينة 1: point | سمن · شمن |
 | `ξίφος` | ksiphos  (كسيفوس) | sword, the short, straight, double-edged sword of the Iron Age and Classical Antiquity.; s | **كبس** | قرينة 1: shaped | كفس · كبص · كبش |
-| `Ὠκεανός` | ōkeanos  (وكإانوس) | Oceanus, a Greek water god usually said to be a Titan, one of the sons of Uranus and Gaia. | **كنز** | قرينة 1: great | كنس · كنص · كنش · قنس · قنص |
 | `ἱστορία` | istoria  (يستوريا) | inquiry, examination, systematic observation, science; body of knowledge obtained by syste | **ستر** | قرينة 1: body | صدر · شتر · سطر · سدر · صطر |
-| `Γαλατία` | galatia  (غالاتيا) | Galatia (a historical region of ancient Asia Minor, in what is now central Turkey); Galati | **جلط** | قرينة 1: areas | جلت · جلد · غلت · غلط · غلد |
 | `Μύρρα` | murra  (موررا) | Myrrha, the mother of Adonis; Myrrha, the original Aeolic Greek name for the city of Smyrn | **مرر** | قرينة 1: myrrha | - |
 | `Ἄδωνις` | adōnis  (ادونيس) | Adonis; a type of fish | **دنس** | قرينة 1: fish | - |
 | `χυμός` | khumos  (خوموس) | juice of plants; animal juices, humors | **حمص** | قرينة 1: juice | خمس · خمص · خمش · خمز · حمس |
 | `χωρίς` | khōris  (خوريس) | separately, differently | **خرز** | قرينة 1: differently | خرس · خرص · خرش · حرس · حرص |
 | `Κύθηρα` | kuthēra  (كوثيرا) | Kythira (also spelt Cythera, Kythera or Kithira), one of the seven major Ionian Islands, G | **كثر** | قرينة 1: major | كتر · قثر · قطر · قتر |
-| `Ἤπειρος` | ēpeiros  (يبإيروس) | Epirus (a historical region and ancient kingdom in Southeast Europe, today split political | **برش** | قرينة 1: region | برس · برص · برز · فرس · فرص |
 | `Φούριος` | phourios  (فووريوس) | Furius; a member of the Roman Furia gens | **فرس** | قرينة 1: member | فرص · فرش · فرز · برس · برص |
 | `Ὀρεστεία` | oresteia  (ورإستإيا) | Orestes, an ancient Greek tragedy play | **رسط** | قرينة 1: ancient | رست · رصد · رشت · رشط · رشد |
 | `λόχος` | lokhos  (لوخوس) | ambush; the place of an ambush: ambuscade | **لخص** | قرينة 1: body | لخز · لحس · لحص · لحز · لكس |
@@ -403,13 +382,10 @@
 | `δάκρυ` | dakru  (داكرو) | tear; anything which drips like a tear, such as gum or sap | **ذكر** | قرينة 1: anything | دكر · دقر |
 | `ψιλός` | psilos  (بسيلوس) | naked, bare; bald, smooth, hairless | **بلس** | قرينة 1: small | بلص · بلش · بلز |
 | `ὕδρος` | udros  (ودروس) | water serpent; A smaller water animal, such as a spider, fish, or lizard. | **درس** | قرينة 1: such | درص · درش · درز · ضرس · ضرز |
-| `κέρας` | keras  (كإراس) | horn (of an animal); horn as a material, or anything made of horn, such as a bow. | **كرس** | قرينة 1: arm | كرش · كرص · كرز · قرس · قرص |
 | `πόρος` | poros  (بوروس) | a means of passage, passageway, way, opening; especially passage over a body of water: for | **برش** | قرينة 1: skin | فرس · برس · برص · برز · فرص |
-| `χεῖλος` | kheilos  (خإيلوس) | lip; mouth of any animal: snout, beak | **حلز** | قرينة 1: animal | خلس · خلص · حلس · كلس · كلز |
 | `αἰγίλωψ` | aigilōps  (ايغيلوبس) | haver-grass (Aegilops neglecta); Turkey oak (Quercus cerris) or valonia oak (Quercus ithab | **قلب** | قرينة 1: plant | جلب · غلب |
 | `πάλλω` | pallō  (باللو) | to poise or sway a missile before it is thrown; to brandish a weapon; to swing or dash one | **بلل** | قرينة 1: thrown | فلل |
 | `ἄλγος` | algos  (الغوس) | pain (of either mind or body), sorrow, trouble, grief, distress, woe; that which causes pa | **لغز** | قرينة 1: which | لجز · لغس · لقس · لقص · لقش |
-| `ἄκρον` | akron  (اكرون) | peak (e.g. of a mountain); headland, cape | **قرن** | قرينة 1: end | كرن |
 | `κορώνη` | korōnē  (كوروني) | a type of seabird, perhaps a shearwater; crow | **قرن** | قرينة 1: which | كرن |
 | `γραφή` | graphē  (غرافي) | drawing; painting | **جرب** | قرينة 1: description | جرف · غرف · غرب · قرف · قرب |
 | `πέλας` | pelas  (بإلاس) | nearby, hard by, close by | **فلس** | قرينة 1: hard | بلس · بلص · بلش · بلز · فلص |
@@ -442,7 +418,6 @@
 | `σμῆμα` | smēma  (سميما) | soap; a substance for cleaning and degreasing | **سمم** | قرينة 1: substance | صمم · شمم · زمم |
 | `πύελος` | puelos  (بوإلوس) | trough for feeding animals; trough for feeding animals | **فلس** | قرينة 1: animals | بلس · بلص · بلش · بلز · فلص |
 | `ἀπεύχομαι` | apeukhomai  (ابإوخوماي) | to wish away, wish it may not happen; to reject, despise | **بكم** | قرينة 1: not | بخم · بحم · فخم · فحم |
-| `Ἐγνατία` | egnatia  (إغناتيا) | Gnatia (an ancient city in Apulia) | **قنت** | قرينة 1: city | قنط · جند · قند |
 | `Κῦνος` | kunos  (كونوس) | Cynus, Locris, Greece | **كنس** | قرينة 1: greece | كنص · كنش · كنز · قنس · قنص |
 | `γάρος` | garos  (غاروس) | garum, a kind of sauce or paste made of brine and small fish | **قرص** | قرينة 1: small | قرش · جرس · جرص · جرش · جرز |
 | `ἐπιλέγω` | epilegō  (إبيلإغو) | to say in addition, to add further, to call by name; to choose, to pick out, to select | **بلغ** | قرينة 1: out | بلج · بلق · فلج · فلغ · فلق |
@@ -494,10 +469,8 @@
 | `εὐπραγία` | eupragia  (إوبراغيا) | well-doing, well-being, welfare, success | **فرغ** | قرينة 1: being | فرق · برج · برغ · برق · فرج |
 | `φωνή` | phōnē  (فوني) | sound; usually of the human voice: voice, cry, yell | **فن** | قرينة 1: human | بن |
 | `Λιβύη` | libuē  (ليبوي) | North Africa; Northwestern Africa | **لب** | قرينة 1: north | - |
-| `Ῥώμη` | rōmē  (رومي) | Rome (a major city in Italy); Rome, Ancient Rome (an ancient empire based out of the city  | **رم** | قرينة 1: ancient | - |
 | `σῶμα` | sōma  (سوما) | body (both that of people and animals); body (both that of people and animals) | **سم** | قرينة 1: body | زم · صم · شم |
 | `ὄνομα` | onoma  (ونوما) | name; fame (compare English make a name for oneself) | **نم** | قرينة 1: number | - |
-| `Συρία` | suria  (سوريا) | Syria (a historical region of West Asia, extending from modern-day southeast Turkey to the | **صر** | قرينة 1: ancient | سر · شر · زر |
 | `ἅλς` | als  (الس) | salt; brine | **لس** | قرينة 1: salt | لص · لز |
 | `πείθω` | peithō  (بإيثو) | to convince, persuade; to succeed through entreaty | **بث** | قرينة 1: through | بط · بت · فث · فت |
 | `μετά` | meta  (مإتا) | [with genitive]; in the midst of, among, between, with | **مد** | قرينة 1: time | مت · مط |
@@ -505,15 +478,11 @@
 | `ζῷον` | zōon  (زوون) | animal, beast; form, image | **جن** | قرينة 1: animal | زن · ذن |
 | `σιγάω` | sigaō  (سيغاو) | to be silent, to be still; to be silent, to be still | **شق** | قرينة 1: hold | سج · صج · صغ · صق · شج |
 | `Ἀραβία` | arabia  (ارابيا) | a peninsula of West Asia between the Red Sea and the Persian Gulf; the region of West Asia | **رب** | قرينة 1: region | - |
-| `Λυκία` | lukia  (لوكيا) | Lycia (a historical region in southwestern Asia Minor, in modern-day Turkey); Lycia (a for | **لك** | قرينة 1: empire | لق |
-| `Ἀπουλία` | apoulia  (ابووليا) | Apulia (a former province in lower Italy, at the north of Calabria and east of Samnium, no | **بل** | قرينة 1: now | فل |
 | `χάος` | khaos  (خاوس) | chaos, the primordial state of existence; space, air | **حش** | قرينة 1: space | خس · خص · خش · خز · حس |
 | `κάτω` | katō  (كاتو) | downwards; beneath, below | **قط** | قرينة 1: below | كت · كد · قت · قد |
 | `κάτω` | katō  (كاتو) | under, below | **قط** | قرينة 1: below | كت · كد · قت · قد |
 | `ῥίς` | ris  (ريس) | nose, snout; nose, snout | **رس** | قرينة 1: land | رص · رش · رز |
 | `Ἅλυς` | alus  (الوس) | The river Halys, now called Kızılırmak | **لس** | قرينة 1: called | لص · لز |
-| `Ὧρος` | ōros  (وروس) | Horus (an Egyptian god) | **رس** | قرينة 1: god | رص · رش · رز |
-| `Ἑλίκη` | elikē  (إليكي) | Helike (a nymph); Helike, an ancient Greek city in Achaea, drowned and destroyed in a natu | **لق** | قرينة 1: city | لك |
 | `Μαίων` | maiōn  (مايون) | an inhabitant of Maeonia or Lydia; one of the Maeones; a Maeonian | **من** | قرينة 1: inhabitant | - |
 | `Πῖσα` | pisa  (بيسا) | Pisa (ancient place situated in ancient Elis, Greece); Pisa (city on the mouth of the Arno | **بس** | قرينة 1: ancient | فص · بص · بش · بز · فس |
 | `ξυλεία` | ksuleia  (كسولإيا) | felling and carrying of wood; supply of wood | **كل** | قرينة 1: supply | - |
@@ -602,7 +571,6 @@
 | `κύημα` | kuēma  (كويما) | That which is conceived, embryo, foetus; That which is swollen as the result of growth, a  | **قم** | قرينة 1: which | كم |
 | `γαλέη` | galeē  (غالإي) | name given to various animals of the Mustelidae family, like martens, weasels and polecats | **جل** | قرينة 1: like | غل · قل |
 | `ψάθεα` | psathea  (بساثإا) | Hesychius gives the definition as: ψωμία (psōmía, “small crumbles, morsels”). | **بط** | قرينة 1: small | بث · بت |
-| `Ἅρμα` | arma  (ارما) | Harma (an ancient town in Boeotia, Greece) | **رم** | قرينة 1: ancient | - |
 | `γράα` | graa  (غراا) | kind of water snake mentioned in the Periplus of the Erythraean Sea | **غر** | قرينة 1: water | جر · قر |
 | `αὔγουρ` | augour  (اوغوور) | augur (Roman diviner) | **غر** | قرينة 1: roman | جر · قر |
 | `κομάω` | komaō  (كوماو) | to have long hair | **كم** | قرينة 1: long | قم |
@@ -611,3 +579,35 @@
 | `ῥαφή` | raphē  (رافي) | seam; seam | **رب** | قرينة 1: other | رف |
 | `σίδη` | sidē  (سيدي) | pomegranate (tree and fruit); kind of waterplant growing near Orchomenus, water lily | **سد** | قرينة 1: water | صد · شد · شذ |
 | `ἴφιος` | iphios  (يفيوس) | strong, fat, goodly | **فز** | قرينة 1: strong | فس · فص · فش · بس · بص |
+| `ἑανός` | eanos  (إانوس) | fine (of fabrics or materials like tin) | **نص** | قرينة 1: like | نس · نش · نز |
+| `ζῶμα` | zōma  (زوما) | loincloth, drawers, worn next the body in a boxing contest; band used in surgery | **جم** | قرينة 1: body | زم · ذم |
+| `θύος` | thuos  (ثووس) | burnt sacrifice, offering; kind of cake | **تش** | قرينة 1: cake | طس · طش |
+| `οἴσπη` | oispē  (ويسبي) | sheep dung, especially the dirt that collects about the hinder parts of sheep and goats | **سب** | قرينة 1: about | سف · صب · صف · شب · شف |
+| `εἶδαρ` | eidar  (إيدار) | food | **ذر** | قرينة 1: food | در · ضر |
+| `σύλη` | sulē  (سولي) | right of seizure of a ship or its cargo of a foreign merchant, to cover losses received th | **سل** | قرينة 1: through | صل · شل · زل |
+| `κώδεια` | kōdeia  (كودإيا) | poppyhead, head of plants; cup shaped like a poppyhead | **كذ** | قرينة 1: shaped | كد · كض · قد · قض · قذ |
+| `δῦναι` | dunai  (دوناي) | aorist active infinitive of δύω (dúō); inflection of δύνω (dúnō): | **دن** | قرينة 1: middle | ضن · ذن |
+| `ὀπάζω` | opazō  (وبازو) | to join (someone to someone else) as a companion, guide, escort, etc.; to cause to follow  | **فز** | قرينة 1: cause | بز · بذ · بج · فذ · فج |
+| `χοάνη` | khoanē  (خواني) | funnel (for pouring liquids); funnel-shaped hollow in the brain | **حن** | قرينة 1: behind | خن · كن |
+| `ἕωλος` | eōlos  (إولوس) | stale, a day old, kept till the morrow; stale, out of date | **لص** | قرينة 1: out | لس · لز |
+| `οὐρός` | ouros  (ووروس) | trench or channel for hauling up and launching ships | **رس** | قرينة 1: ships | رص · رش · رز |
+| `Κάδοι` | kadoi  (كادوي) | Cadi, Phrygia; now Gediz, in Turkey | **كد** | قرينة 1: now | كض · كذ · قد · قض · قذ |
+| `διαζῶ` | diazō  (ديازو) | to live through (time or circumstance), to live long, to live to an old age or to senectit | **دج** | قرينة 1: time | ضز · ضج · ذج |
+| `ἄωτον` | aōton  (اوتون) | finest wool; the choicest, the flower of its kind | **طن** | قرينة 1: which | تن · دن |
+| `κηπαία` | kēpaia  (كيبايا) | garden door, back door; pink stonecrop (Sedum cepaea) | **كب** | قرينة 1: back | قف · كف · قب |
+| `ἄρδω` | ardō  (اردو) | to water, irrigate; to be watered | **رد** | قرينة 1: give | رض · رذ |
+| `ῥιπή` | ripē  (ريبي) | swing or force with which anything is thrown; sweep, rush | **رف** | قرينة 1: which | رب |
+| `ὑαλίζω` | ualizō  (واليزو) | to be like glass | **لج** | قرينة 1: like | لز · لذ |
+| `ἐξέχω` | eksekhō  (إكسإخو) | to stand out, to project; to exceed, to be renowned | **كح** | قرينة 1: out | كخ |
+| `ἐξίημι` | eksiēmi  (إكسييمي) | to send out, let (someone) go out, dismiss; to take out | **كم** | قرينة 1: get | - |
+| `διαιρῶ` | diairō  (ديايرو) | contracted first-person singular present indicative active of δῐαιρέω (dĭairéō); contracte | **ذر** | قرينة 1: air | در · ضر |
+| `καθά` | katha  (كاثا) | according to which, just as | **قط** | قرينة 1: just | كث · كت · قث · قت |
+| `ἐκλύω` | ekluō  (إكلوو) | to set free, to release, to be set free, to get one set free; to unloose, unstring a bow,  | **قل** | قرينة 1: free | كل |
+| `ἐφήκω` | ephēkō  (إفيكو) | to have arrived; to reach, extend (a certain distance) | **بق** | قرينة 1: have | فك · بك |
+| `γάλεα` | galea  (غالإا) | galley (ship propelled primarily by oars) | **قل** | قرينة 1: ship | جل · غل |
+| `Ἀζανία` | azania  (ازانيا) | The region of East Africa as known by the Ancient Greeks and Romans. | **جن** | قرينة 1: known | زن · ذن |
+| `τρύω` | truō  (تروو) | to rub down, wear out | **تر** | قرينة 1: down | طر · در |
+| `ἐρητύω` | erētuō  (إريتوو) | to keep back, restrain, check, bar; to keep away from | **رد** | قرينة 1: back | رت |
+| `κοτέω` | koteō  (كوتإو) | to hold a grudge; to be angry | **قط** | قرينة 1: hold | كت · كد · قت · قد |
+| `ἰσοθεόω` | isotheoō  (يسوثإوو) | to make equal with the gods | **ست** | قرينة 1: equal | صط · صت · شث · شط · شت |
+| `εὐεστώ` | euestō  (إوإستو) | well-being, prosperity | **شد** | قرينة 1: being | ست · سد · صت · صط · صد |

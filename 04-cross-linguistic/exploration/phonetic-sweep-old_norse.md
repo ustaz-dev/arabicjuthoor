@@ -6,8 +6,8 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 200**، منها **112** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 1,352
+**مطابقةُ صوتٍ ومعنًى معًا: 198**، منها **112** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 1,344
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
@@ -153,7 +153,6 @@
 | `kyrra` | kyrra | to calm, still | **قيل** | قرينة 1: still | كير · كيل · قير · جير · جيل |
 | `beittr` | beittr | sharp, keen (of cutting instruments) | **بتر** | قرينة 1: cutting | بتل · بطر · بطل · بثر · بثل |
 | `ásjón` | ásjón | appearance, outward form; face | **زين** | قرينة 1: appearance | سين · سجن · شين · شجن · صين |
-| `fit` | fit | webbed foot (of swimming birds); flippers (of a seal) | **بط** | قرينة 1: webbed | فت · فث · فد · بت · بث |
 | `vel` | vel | well; easily | **بر** | قرينة 1: easily | ول · فل · فر · بل |
 | `erg` | erg | a word of not entirely certain meaning, roughly shepherd's cottage or hill-pasture | **رج** | قرينة 1: not | رق · رك · لج · لق · لك |
 | `gap` | gap | gap, empty space; shouting, crying, gab | **قف** | قرينة 1: space | جب · جف · غب · غف · قب |
@@ -175,7 +174,6 @@
 | `níð` | níð | contumely (offensive and abusive language or behaviour; scorn, insult), derision (act of t | **ند** | قرينة 1: such | نذ |
 | `hræ` | hræ | dead body, corpse, carrion; wreck, wreckage, fragments | **كل** | قرينة 1: body | هر · هل · حر · حل · خر |
 | `minna` | minna | to remind; to remind, to cause to remember [with accusative ‘someone’ and genitive ‘of som | **من** | قرينة 1: object | - |
-| `bakki` | bakki | bank (of a river, lake, chasm, etc.); ridge, bank | **بق** | قرينة 1: which | بك · بج |
 | `vík` | vík | a small bay, a cove, an inlet | **فك** | قرينة 1: small | وك · وج · فج · بك · بق |
 | `lúta` | lúta | to lout, bow down; to bow to in homage or worship | **رد** | قرينة 1: give | لت · لط · لث · لد · رت |
 | `reik` | reik | strolling, wandering, wavering; condition | **رق** | قرينة 1: condition | رج · رك · لك · لق · لج |

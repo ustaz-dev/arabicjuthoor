@@ -6,8 +6,8 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 937**، منها **551** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 6,730
+**مطابقةُ صوتٍ ومعنًى معًا: 932**، منها **551** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 6,711
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
@@ -568,13 +568,10 @@
 | `huc` | huc | to this, to this (alone), to (only) this subject/matter; for this (alone), for this (one)  | **حج** | قرينة 3: matter other reason | هج · هك · هق · حك · حق |
 | `pellis` | pellis | animal skin; pelt, fell, hide; leather; animal skin; pelt, fell, hide; leather | **فلس** | قرينة 2: animal skin | بلس · بلش · بلص · بلز · فلص |
 | `fututor` | fututor | a man who has sex; a (literal) fucker | **بتر** | قرينة 2: has who | بطل · فتر · فتل · فطر · فثر |
-| `oceanus` | oceanus | ocean, sea; any large body of water, including a channel or river | **كنز** | قرينة 2: body large | كنس · كنش · كنص · قنس · قنش |
 | `infula` | infula | A fillet of white and red wool, knotted at intervals with a ribbon (vitta) as a braid and  | **نفل** | قرينة 2: red white | نفر · نبل · نبر |
 | `incisio` | incisio | cutting into, incision.; a pause in a verse, caesura | **نقش** | قرينة 2: cutting into | نكس · نكش · نكص · نكز · نقس |
 | `quod` | quod | what for, why, wherefore, that:; with est and a previous referent (nihil, hoc, etc.): beca | **قض** | قرينة 2: which without | قد · قذ · كد · كض · كذ |
-| `regia` | regia | a royal palace, castle, fortress, residence; court; kingship; the royal tent in a camp | **لق** | قرينة 2: capital city | رج · رق · رك · لج · لك |
 | `modo` | modo | just, only, merely, simply; recently, just now | **مد** | قرينة 2: only time | مض · مذ |
-| `ripa` | ripa | bank (of a river); shore (of the sea) | **لب** | قرينة 2: river sea | رب · رف · لف |
 | `mula` | mula | female mule, she-mule | **مر** | قرينة 2: female she | مل |
 | `orbo` | orbo | to deprive (someone) of parents, children, or other dear persons; to deprive, bereave or s | **رب** | قرينة 2: children other | لب |
 | `pilula` | pilula | A small ball, globule; pellet.; A pill. | **بل** | قرينة 2: ball small | بر · فل · فر |
@@ -611,3 +608,6 @@
 | `panacea` | panacea | A particular kind of plant, believed to cure all diseases.; panacea, catholicon. | **بنج** | قرينة 1: plant | بنك · بنق · فنك · فنق · فنج |
 | `abarceo` | abarceo | to keep away, ward off | **برق** | قرينة 1: off | برك · برج · بلك · بلق · بلج |
 | `mango` | mango | dealer, monger in slaves or wares (to which he tries to give an appearance of greater valu | **منك** | قرينة 1: which | منج · منغ |
+| `canis` | canis | a dog, a hound (animal); a ‘dog’ constellation or ‘dog’ star: either Canis Major, its brig | **كنز** | قرينة 1: great | جنس · كنس · كنش · كنص · قنس |
+| `vento` | vento | to be wont to come, come often, keep coming, resort | **بنت** | قرينة 1: often | بنط · بنث |
+| `caninus` | caninus | canine; of or pertaining to a dog. | **كنز** | قرينة 1: pertaining | كنس · كنش · كنص · قنس · قنش |

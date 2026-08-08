@@ -50,7 +50,35 @@ SCRIPT_OF = {
     "latin": "latin", "old_irish": "latin", "welsh": "latin",
     "gothic": "gothic", "old_norse": "germanic",
     "english_old": "germanic", "english_middle": "germanic",
+    "persian": "persian",
 }
+
+# **الفارسيّةُ لا تُقرَأُ بالطرحِ بل بالانتقاء.** جرَّبتُ طرحَ ما يقولُ اشتقاقُه إنّه
+# عربيٌّ فامتلأَ الطابورُ رغمَ ذلك بـ ثبات وعصر وحفظ ووطن ومثل، وهي عربيّةٌ كلُّها،
+# لأنّ أكثرَ المداخلِ لا اشتقاقَ مكتوبًا لها أصلًا. فالطرحُ يعجزُ حينَ يسكتُ المصدر.
+#
+# **والقاعدةُ النافذةُ انتقاءٌ موجَب:** لا يدخلُ الطابورَ مدخلٌ فارسيٌّ إلّا بشرطٍ
+# يُثبِتُ إيرانيّتَه، وهما شرطان أحدُهما يكفي:
+#   1. أن يحملَ حرفًا من الأربعةِ التي لا توجدُ في العربيّةِ أصلًا: پ چ ژ گ.
+#   2. أن يقولَ اشتقاقُه المنشورُ إنّه من الإيرانيّةِ أو الفارسيّةِ الوسطى أو
+#      القديمةِ أو الهندوأوربيّة.
+# ومع الشرطَينِ يبقى الطرحُ قائمًا: ما صرَّحَ اشتقاقُه بالعربيّةِ يخرجُ ولو حملَ حرفًا.
+PERSIAN_ONLY_LETTERS = set("پچژگ")
+RX_FROM_ARABIC = re.compile(
+    r"(?:from|borrowed from|via|through|ultimately from)[^.]{0,60}Arabic"
+    r"|Arabic[^.]{0,30}(?:loan|borrowing)", re.I)
+RX_IRANIAN = re.compile(
+    r"Proto-Iranian|Proto-Indo-Iranian|Middle Persian|Old Persian|Pahlavi|"
+    r"Proto-Indo-European|Avestan|Parthian|Sogdian|Proto-Iranic", re.I)
+
+
+def persian_is_native(word: str, etymology: str) -> bool:
+    if RX_FROM_ARABIC.search(etymology):
+        return False
+    if any(c in PERSIAN_ONLY_LETTERS for c in word):
+        return True
+    return bool(RX_IRANIAN.search(etymology))
+
 
 OUT_DIR = ROOT / "04-cross-linguistic" / "exploration"
 
@@ -90,10 +118,13 @@ INFLECTION = re.compile(
     r"clipping|contraction|romanization|transliteration|medieval and early)"
     r"[^.]{0,90}\bof\b", re.I)
 PROPER = re.compile(
-    r"\b(?:given name|surname|male name|female name|a country|a city|a town|"
-    r"capital (?:city )?of|a village|a river in|a province|a region|a state in|"
-    r"a county|an island|Biblical|apostle|a district|a commune|a municipality|"
-    r"a language spoken|a people|ISO |a letter of|a month of)\b", re.I)
+    # الوصفُ يتوسّطُ أحيانًا: «a geographic region»، فيُسمَحُ بكلمتَينِ بينَ أداةِ
+    # التعريفِ والاسم، وإلّا نجا تِبِتُ من المصفاةِ وهو عَلَمٌ لا كلمة
+    r"\b(?:given name|surname|male name|female name|Biblical|apostle|ISO )"
+    r"|\ba(?:n)?(?: \w+){0,2} (?:country|city|town|village|province|region|"
+    r"state|county|island|district|commune|municipality|river|mountain|lake|"
+    r"language|people|dialect|deity|god|goddess|month|letter|surname)\b"
+    r"|\bcapital (?:city )?of\b", re.I)
 
 
 ROMAN_FOLD = str.maketrans({"c": "k", "q": "k", "y": "i", "j": "i", "v": "f",
@@ -193,7 +224,8 @@ def load_branch(lang: str) -> list[dict]:
                 ]
                 if not glosses:
                     continue
-                rows.append({"word": w, "glosses": glosses})
+                ety = str(e.get("etymology_text") or "")
+                rows.append({"word": w, "glosses": glosses, "etymology": ety})
     return rows
 
 
@@ -220,6 +252,9 @@ def main() -> int:
     script = SCRIPT_OF.get(args.lang, "north")
     for r in rows:
         if not entry_is_lexical(r["word"], r["glosses"]):
+            skipped += 1
+            continue
+        if args.lang == "persian" and not persian_is_native(r["word"], r.get("etymology", "")):
             skipped += 1
             continue
         sk = "".join(FA.skeleton(r["word"], script))

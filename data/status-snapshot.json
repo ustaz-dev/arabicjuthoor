@@ -4,18 +4,18 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31326,
+  "cards_total": 31343,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 7453,
-    "links": 17,
-    "root": 7,
-    "nucleus": 9,
+    "cards": 7464,
+    "links": 20,
+    "root": 8,
+    "nucleus": 11,
     "floor": 1,
-    "nucleus_share": 56.2
+    "nucleus_share": 57.9
    },
    {
     "key": "persian",
@@ -32,23 +32,23 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 4021,
-    "links": 122,
-    "root": 20,
-    "nucleus": 101,
+    "cards": 4024,
+    "links": 125,
+    "root": 22,
+    "nucleus": 102,
     "floor": 1,
-    "nucleus_share": 83.5
+    "nucleus_share": 82.3
    },
    {
     "key": "coptic",
     "en": "Coptic",
     "ar": "القبطيّة",
-    "cards": 3922,
-    "links": 186,
-    "root": 25,
-    "nucleus": 160,
+    "cards": 3925,
+    "links": 189,
+    "root": 27,
+    "nucleus": 161,
     "floor": 1,
-    "nucleus_share": 86.5
+    "nucleus_share": 85.6
    },
    {
     "key": "welsh",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2549,
-  "closures": 801,
+  "links_to_arabic": 2558,
+  "closures": 807,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1190,
+    "count": 1195,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 754,
+    "count": 758,
     "link": true
    },
    {
@@ -230,12 +230,12 @@
    },
    {
     "name": "NO-TRACE",
-    "count": 65,
+    "count": 70,
     "link": false
    },
    {
     "name": "LOANWORD",
-    "count": 63,
+    "count": 64,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27940,
+  "cards_total": 27955,
   "suspended": 20766,
-  "released": 7174,
+  "released": 7189,
   "blockers": [
    {
     "name": "UNLABELLED",
