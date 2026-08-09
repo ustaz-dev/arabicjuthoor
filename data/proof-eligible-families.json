@@ -33,7 +33,7 @@
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "7d8b43face4e1d9b6b1705d46eeea0363f7ae9d187a15d157443eb0984dc5530"
+    "sha256": "9ace1bdc0993dc24631cd3fd331592c8d537505d26126d2c91ec66dbf8135aad"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 378,
+  "eligible_family_total": 382,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -4844,15 +4844,15 @@
   },
   "hebrew": {
    "inventory_family_count": 11852,
-   "represented_current_family_count": 1217,
-   "eligible_family_count": 131,
-   "positive_family_count": 131,
+   "represented_current_family_count": 1224,
+   "eligible_family_count": 135,
+   "positive_family_count": 135,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 423,
    "one_member_short_count": 340,
    "issued_member_dispositions": {
-    "positive": 309,
-    "closures": 1141,
+    "positive": 314,
+    "closures": 1143,
     "by_outcome": {
      "ABBREVIATION": 88,
      "COMPOUND-BOUNDARY": 138,
@@ -4860,26 +4860,26 @@
      "FUNCTION-WORD": 1,
      "INTRA-HOUSE-TRANSFER": 96,
      "LOAN-ROUTE-ISOLATED": 101,
-     "LOANWORD": 267,
+     "LOANWORD": 269,
      "NO-TRACE": 1,
      "NONLEXICAL-ISOLATED": 66,
      "NUCLEUS-ECHO": 4,
      "NUCLEUS-TRACE": 9,
      "PROPER-NAME-ISOLATED": 71,
      "ROOT-ECHO": 110,
-     "ROOT-TRACE": 186
+     "ROOT-TRACE": 191
     }
    },
    "incomplete_members_by_state": {
     "LAW-GAP": 1,
     "OPEN-CANDIDATE": 10,
-    "UNRECORDED": 1312
+    "UNRECORDED": 1319
    },
    "block_reconciliation": {
     "ambiguous-stale-heading": 151,
     "current-heading": 932,
-    "stable-entry-reconciled": 731,
-    "unmapped-stale-heading": 5
+    "stable-entry-reconciled": 739,
+    "unmapped-stale-heading": 6
    },
    "eligible_family_ids": [
     "hebrew:family:002181eb560b984daace695f",
@@ -4892,6 +4892,7 @@
     "hebrew:family:086a7b96c89e806aa6058c98",
     "hebrew:family:0ac389f2529ca58a3e9c4988",
     "hebrew:family:0b7dea7d16cd5ba7306618ff",
+    "hebrew:family:0bb98b5f048e5d0ef33f6754",
     "hebrew:family:0ccb641e633f2f5180423a38",
     "hebrew:family:0d57ae27644b6cc6be06037c",
     "hebrew:family:0e6bd75c40f206300dc1cf7a",
@@ -4988,6 +4989,8 @@
     "hebrew:family:c27d3342c239b7251fbdd4df",
     "hebrew:family:c35650ba988905c3cb9aff01",
     "hebrew:family:c4c76dc337d4b84d7ed888f9",
+    "hebrew:family:c4f24ffd56deace1c77f447f",
+    "hebrew:family:c943dc0d7ab85eb7fa98a7e9",
     "hebrew:family:caa94f640607878a623576d0",
     "hebrew:family:cc053c81282aaf160b8c2e2b",
     "hebrew:family:ccf90347a716f797adc896e9",
@@ -5010,6 +5013,7 @@
     "hebrew:family:efb963a8dc8427814fac3978",
     "hebrew:family:f09da844588495139a3c04e5",
     "hebrew:family:f350e5611c42e653a4c19e9f",
+    "hebrew:family:f627d95e4271292d61e6cdab",
     "hebrew:family:f71bbb0c19041662821d4944",
     "hebrew:family:fbfcf0574c2325086221665b",
     "hebrew:family:fddfa052cc8619507f51949f"
@@ -5025,6 +5029,7 @@
     "hebrew:family:086a7b96c89e806aa6058c98",
     "hebrew:family:0ac389f2529ca58a3e9c4988",
     "hebrew:family:0b7dea7d16cd5ba7306618ff",
+    "hebrew:family:0bb98b5f048e5d0ef33f6754",
     "hebrew:family:0ccb641e633f2f5180423a38",
     "hebrew:family:0d57ae27644b6cc6be06037c",
     "hebrew:family:0e6bd75c40f206300dc1cf7a",
@@ -5121,6 +5126,8 @@
     "hebrew:family:c27d3342c239b7251fbdd4df",
     "hebrew:family:c35650ba988905c3cb9aff01",
     "hebrew:family:c4c76dc337d4b84d7ed888f9",
+    "hebrew:family:c4f24ffd56deace1c77f447f",
+    "hebrew:family:c943dc0d7ab85eb7fa98a7e9",
     "hebrew:family:caa94f640607878a623576d0",
     "hebrew:family:cc053c81282aaf160b8c2e2b",
     "hebrew:family:ccf90347a716f797adc896e9",
@@ -5143,6 +5150,7 @@
     "hebrew:family:efb963a8dc8427814fac3978",
     "hebrew:family:f09da844588495139a3c04e5",
     "hebrew:family:f350e5611c42e653a4c19e9f",
+    "hebrew:family:f627d95e4271292d61e6cdab",
     "hebrew:family:f71bbb0c19041662821d4944",
     "hebrew:family:fbfcf0574c2325086221665b",
     "hebrew:family:fddfa052cc8619507f51949f"
@@ -5901,17 +5909,6 @@
      "missing_headword": "חנויות",
      "missing_pos": "noun",
      "missing_gloss": "plural indefinite form of חֲנוּת (khanút), excessive spelling",
-     "current_state": "UNRECORDED",
-     "reading_line": null
-    },
-    {
-     "family_id": "hebrew:family:0bb98b5f048e5d0ef33f6754",
-     "anchor_headword": "כיפר",
-     "member_count": 2,
-     "missing_entry_id": "kaikki_hebrew:10999:en-כיפר-he-verb-HmfwMVjo",
-     "missing_headword": "כיפר",
-     "missing_pos": "verb",
-     "missing_gloss": "to cover",
      "current_state": "UNRECORDED",
      "reading_line": null
     },
@@ -8094,6 +8091,17 @@
      "reading_line": null
     },
     {
+     "family_id": "hebrew:family:a258c982a2627e96ec95f8d5",
+     "anchor_headword": "ערק",
+     "member_count": 2,
+     "missing_entry_id": "kaikki_hebrew:2446:en-ערק-he-verb-DyuKqAl5",
+     "missing_headword": "ערק",
+     "missing_pos": "verb",
+     "missing_gloss": "to desert, to defect",
+     "current_state": "UNRECORDED",
+     "reading_line": null
+    },
+    {
      "family_id": "hebrew:family:a29d05a843903f9e08250ba7",
      "anchor_headword": "שומשום",
      "member_count": 2,
@@ -9631,22 +9639,6 @@
        "headword": "חנויות",
        "pos": "noun",
        "gloss": "plural indefinite form of חֲנוּת (khanút), excessive spelling",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "hebrew:family:0bb98b5f048e5d0ef33f6754",
-     "anchor_headword": "כיפר",
-     "member_count": 2,
-     "missing_member_count": 1,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_hebrew:10999:en-כיפר-he-verb-HmfwMVjo",
-       "headword": "כיפר",
-       "pos": "verb",
-       "gloss": "to cover",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -12929,6 +12921,22 @@
        "gloss": "forearm",
        "current_state": "OPEN-CANDIDATE",
        "reading_line": 41242
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:a258c982a2627e96ec95f8d5",
+     "anchor_headword": "ערק",
+     "member_count": 2,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:2446:en-ערק-he-verb-DyuKqAl5",
+       "headword": "ערק",
+       "pos": "verb",
+       "gloss": "to desert, to defect",
+       "current_state": "UNRECORDED",
+       "reading_line": null
       }
      ]
     },
@@ -18381,6 +18389,30 @@
      ]
     },
     {
+     "family_id": "hebrew:family:cbe21b17353f39f0683d1a75",
+     "anchor_headword": "למשל",
+     "member_count": 3,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:6855:en-למשל-he-prep_phrase-lErvQX7x",
+       "headword": "למשל",
+       "pos": "prep_phrase",
+       "gloss": "For example: used to introduce or otherwise mark an example.",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:9190:en-משלים-he-noun-mN45pFzf",
+       "headword": "משלים",
+       "pos": "noun",
+       "gloss": "plural indefinite form of מָשָׁל",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
      "family_id": "hebrew:family:cd887e30c0075165758feb94",
      "anchor_headword": "כבש",
      "member_count": 3,
@@ -18831,6 +18863,30 @@
        "headword": "דמים",
        "pos": "noun",
        "gloss": "plural indefinite form of דָּם (dám)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:da5311bf4387f1b9c93485ae",
+     "anchor_headword": "שורש",
+     "member_count": 2,
+     "missing_member_count": 2,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:2715:en-שורש-he-noun-ASBEuOLL",
+       "headword": "שורש",
+       "pos": "noun",
+       "gloss": "root (the part of a plant, generally underground, that anchors and supports the plant body, absorbs and stores water and nutrients, and in some plants is able to perform vegetative reproduction)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:9273:en-שרש-he-noun-tELWP0EG",
+       "headword": "שרש",
+       "pos": "noun",
+       "gloss": "defective spelling of שורש",
        "current_state": "UNRECORDED",
        "reading_line": null
       }
@@ -21447,6 +21503,38 @@
        "headword": "ארגון",
        "pos": "noun",
        "gloss": "argon (the chemical element (symbol Ar) with an atomic number of 18)",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:f791f41a710b8a339e3a4177",
+     "anchor_headword": "הנדסה",
+     "member_count": 4,
+     "missing_member_count": 3,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:15331:en-הנדסת_מכונות-he-noun-zxYBYJ6I",
+       "headword": "הנדסת מכונות",
+       "pos": "noun",
+       "gloss": "mechanical engineering",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:15382:en-הנדסה_גנטית-he-noun-iBU0MWE2",
+       "headword": "הנדסה גנטית",
+       "pos": "noun",
+       "gloss": "genetic engineering",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_hebrew:15546:en-הנדסי-he-adj-Nr~wbLWu",
+       "headword": "הנדסי",
+       "pos": "adj",
+       "gloss": "pertaining to engineering",
        "current_state": "UNRECORDED",
        "reading_line": null
       }

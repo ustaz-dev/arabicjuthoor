@@ -4966,9 +4966,9 @@
     "schema_version": 1,
     "generated_by": "scripts/count_proof_eligible_families.py",
     "report_path": "data/proof-eligible-families.json",
-    "report_sha256": "568cf29f987cecb91bc3072b42de0dad9789848eb0e76fafeae79ae93efc292e",
+    "report_sha256": "3ab7aa076742e5a001c68b957f08e454e60e2dd40e28778452b14295573ae22d",
     "summary": {
-      "eligible_family_total": 378,
+      "eligible_family_total": 382,
       "required_total": 600,
       "required_per_language": 150,
       "total_threshold_met": false,
@@ -5233,8 +5233,8 @@
         ]
       },
       "hebrew": {
-        "eligible_family_count": 131,
-        "positive_family_count": 131,
+        "eligible_family_count": 135,
+        "positive_family_count": 135,
         "closure_only_family_count": 0,
         "one_member_short_count": 340,
         "eligible_family_ids": [
@@ -5248,6 +5248,7 @@
           "hebrew:family:086a7b96c89e806aa6058c98",
           "hebrew:family:0ac389f2529ca58a3e9c4988",
           "hebrew:family:0b7dea7d16cd5ba7306618ff",
+          "hebrew:family:0bb98b5f048e5d0ef33f6754",
           "hebrew:family:0ccb641e633f2f5180423a38",
           "hebrew:family:0d57ae27644b6cc6be06037c",
           "hebrew:family:0e6bd75c40f206300dc1cf7a",
@@ -5344,6 +5345,8 @@
           "hebrew:family:c27d3342c239b7251fbdd4df",
           "hebrew:family:c35650ba988905c3cb9aff01",
           "hebrew:family:c4c76dc337d4b84d7ed888f9",
+          "hebrew:family:c4f24ffd56deace1c77f447f",
+          "hebrew:family:c943dc0d7ab85eb7fa98a7e9",
           "hebrew:family:caa94f640607878a623576d0",
           "hebrew:family:cc053c81282aaf160b8c2e2b",
           "hebrew:family:ccf90347a716f797adc896e9",
@@ -5366,6 +5369,7 @@
           "hebrew:family:efb963a8dc8427814fac3978",
           "hebrew:family:f09da844588495139a3c04e5",
           "hebrew:family:f350e5611c42e653a4c19e9f",
+          "hebrew:family:f627d95e4271292d61e6cdab",
           "hebrew:family:f71bbb0c19041662821d4944",
           "hebrew:family:fbfcf0574c2325086221665b",
           "hebrew:family:fddfa052cc8619507f51949f"

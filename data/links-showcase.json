@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 1483,
-  "nucleus": 1070,
+  "root": 1493,
+  "nucleus": 1072,
   "languages": 15
  },
  "languages": [
@@ -105,8 +105,8 @@
    "ar": "العبريّة",
    "en": "Hebrew",
    "distance": 1,
-   "root": 595,
-   "nucleus": 330,
+   "root": 603,
+   "nucleus": 331,
    "floor": 0,
    "examples": [
     {
@@ -118,6 +118,16 @@
      "lexicon": "تاج العروس",
      "layer": "nucleus",
      "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "šwrš",
+     "say": "shwrsh",
+     "sense": "جذر النبات",
+     "arabic": "شرش",
+     "quote": "الانتشار أو صورة منه",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
     },
     {
      "word": "זנה",
@@ -134,16 +144,6 @@
      "say": "ʾp/frwh",
      "sense": "chick (a young bird), especially one that is independent from its hatching",
      "arabic": "فرخ",
-     "quote": "",
-     "lexicon": "",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "קריאה",
-     "say": "qryʾh",
-     "sense": "reading (the process of interpreting written language)",
-     "arabic": "قرأ",
      "quote": "",
      "lexicon": "",
      "layer": "nucleus",
@@ -190,8 +190,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 925,
-   "nucleus_share": 35.7
+   "total": 934,
+   "nucleus_share": 35.4
   },
   {
    "key": "akkadian",
@@ -757,7 +757,7 @@
    "en": "Ancient Greek",
    "distance": 3,
    "root": 4,
-   "nucleus": 5,
+   "nucleus": 6,
    "floor": 0,
    "examples": [
     {
@@ -841,8 +841,8 @@
      "degree": "NUCLEUS-ECHO"
     }
    ],
-   "total": 9,
-   "nucleus_share": 55.6
+   "total": 10,
+   "nucleus_share": 60.0
   },
   {
    "key": "persian",
@@ -1088,7 +1088,7 @@
    "ar": "القوطيّة",
    "en": "Gothic",
    "distance": 4,
-   "root": 10,
+   "root": 11,
    "nucleus": 8,
    "floor": 0,
    "examples": [
@@ -1173,15 +1173,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 18,
-   "nucleus_share": 44.4
+   "total": 19,
+   "nucleus_share": 42.1
   },
   {
    "key": "old-norse",
    "ar": "النُّرديّة القديمة",
    "en": "Old Norse",
    "distance": 4,
-   "root": 7,
+   "root": 8,
    "nucleus": 6,
    "floor": 0,
    "examples": [
@@ -1266,8 +1266,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 13,
-   "nucleus_share": 46.2
+   "total": 14,
+   "nucleus_share": 42.9
   },
   {
    "key": "welsh",
