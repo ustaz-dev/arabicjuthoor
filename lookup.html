@@ -82,7 +82,7 @@ html[data-lang="ar"] .lang-en { display: none !important; }
 
 @media print {
   body::before {
-    content: "Juthoor — Online publication only. arabicjuthoor.com";
+    content: "Juthoor · Online publication only. arabicjuthoor.com";
     display: block; padding: 80px 40px;
   }
   body > *:not(:first-child) { display: none !important; }
@@ -462,8 +462,8 @@ html[dir="rtl"] .share-row { justify-content: flex-start; }
     <span class="lang-ar">قارئُ الحرف ← النواة ← الجذر</span>
   </h1>
   <p class="subtitle">
-    <span class="lang-en">Type any Arabic word or root — the reader strips diacritics, identifies the consonants, and shows each letter&apos;s dual-face charge with the binary nucleus and the eleven operative modes. <strong>Or switch to reverse mode</strong> to enter an English / Latin / Greek word and find its plausible Arabic skeleton via Khshim&apos;s sound laws, cross-checked against the 19 Tier-A cognates.</span>
-    <span class="lang-ar">اكتُب أَيَّ كَلِمةٍ أَو جَذرٍ عَرَبيّ — يَستَخرِجُ القارئُ الصَّوامتَ ويَعرِضُ لِكلّ حَرفٍ شَحنَتَهُ ذاتَ الوَجهَين مع النَّواةِ الثُّنائيّة والأَبواب الأَحَدَ عَشَر. <strong>أَو بَدِّل إلى الوَضع العَكسيّ</strong> لإدخال كَلِمةٍ إنجليزيّة/لاتينيّة/إغريقيّة وإيجاد هَيكلِها العَرَبيّ المُحتَمَل وَفقَ قَوانين كَشِم الصَّوتيّة، مُقارَنةً بِسِجِلِّ الصِّنف الأَوّل (19 مُشتَركًا).</span>
+    <span class="lang-en">Type any Arabic word or root, and the reader strips diacritics, identifies the consonants, and shows each letter&apos;s dual-face charge with the binary nucleus and the eleven operative modes. <strong>Or switch to reverse mode</strong> to enter an English / Latin / Greek word and find its plausible Arabic skeleton via Khshim&apos;s sound laws, cross-checked against the 19 Tier-A cognates.</span>
+    <span class="lang-ar">اكتُب أَيَّ كَلِمةٍ أَو جَذرٍ عَرَبيّ، فيَستَخرِجُ القارئُ الصَّوامتَ ويَعرِضُ لِكلّ حَرفٍ شَحنَتَهُ ذاتَ الوَجهَين مع النَّواةِ الثُّنائيّة والأَبواب الأَحَدَ عَشَر. <strong>أَو بَدِّل إلى الوَضع العَكسيّ</strong> لإدخال كَلِمةٍ إنجليزيّة/لاتينيّة/إغريقيّة وإيجاد هَيكلِها العَرَبيّ المُحتَمَل وَفقَ قَوانين كَشِم الصَّوتيّة، مُقارَنةً بِسِجِلِّ الصِّنف الأَوّل (19 مُشتَركًا).</span>
   </p>
 
   <div class="input-card">
@@ -538,8 +538,8 @@ html[dir="rtl"] .share-row { justify-content: flex-start; }
   <div class="result" id="result">
     <div class="share-row" id="share-row">
       <button class="share-btn" id="share-btn" type="button">
-        <span class="lang-en">📋 Copy share link</span>
-        <span class="lang-ar">📋 انسَخ رابط المُشارَكة</span>
+        <span class="lang-en">Copy share link</span>
+        <span class="lang-ar">انسَخ رابط المُشارَكة</span>
       </button>
     </div>
 
@@ -925,8 +925,8 @@ function renderReverseResults(input) {
     const p = document.createElement('p');
     p.style.cssText = 'color:var(--text-3);font-size:13.5px;margin-top:14px;';
     p.innerHTML = `
-      <span class="lang-en">No Tier-A or known-nucleus match for this consonant skeleton in our roster of 19 verified cognates and 20 working nuclei. This doesn't rule out an Arabic root — it means our current shortlist doesn't contain one. Try a related word or a different spelling.</span>
-      <span class="lang-ar">لا مُطابَقة مَع الصِّنف الأَوّل ولا مَع النَّوى المَعروفة لِهذا الهَيكل الصامت ضِمن سِجِلِّنا (19 مُشتَركًا مُوَثَّقًا و20 نَواةً قَيد العَمَل). هذا لا يَنفي وُجودَ جَذرٍ عَرَبيّ — بل يَعني أَنّ قائمتَنا الحاليّة لا تَحتَويه. جَرِّب كَلِمةً قَريبة أَو هِجاءً مُختَلِفًا.</span>
+      <span class="lang-en">No Tier-A or known-nucleus match for this consonant skeleton in our roster of 19 verified cognates and 20 working nuclei. This doesn't rule out an Arabic root: it means our current shortlist doesn't contain one. Try a related word or a different spelling.</span>
+      <span class="lang-ar">لا مُطابَقة مَع الصِّنف الأَوّل ولا مَع النَّوى المَعروفة لِهذا الهَيكل الصامت ضِمن سِجِلِّنا (19 مُشتَركًا مُوَثَّقًا و20 نَواةً قَيد العَمَل). هذا لا يَنفي وُجودَ جَذرٍ عَرَبيّ، بل يَعني أَنّ قائمتَنا الحاليّة لا تَحتَويه. جَرِّب كَلِمةً قَريبة أَو هِجاءً مُختَلِفًا.</span>
     `;
     list.appendChild(p);
     return;
@@ -1107,19 +1107,19 @@ function markAugments(letters) {
   // Initial hamza in a 4+ letter word: form IV (أَفعَل, causative/elative) or broken plural (أفعال).
   if (n >= 4 && letters[0].isHamza) {
     letters[0].augment = {
-      en: 'the hamza of form IV (أَفعَل) or of the broken plural (أفعال) — it carries the pattern’s function, not a root-charge',
-      ar: 'هَمزةُ «أَفعَلَ» أو هَمزةُ جَمعِ «أَفعال» — تَحمِلُ وَظيفةَ الوَزن لا شَحنةَ جَذر'
+      en: 'the hamza of form IV (أَفعَل) or of the broken plural (أفعال): it carries the pattern’s function, not a root-charge',
+      ar: 'هَمزةُ «أَفعَلَ» أو هَمزةُ جَمعِ «أَفعال»: تَحمِلُ وَظيفةَ الوَزن لا شَحنةَ جَذر'
     };
   }
   // Final ـاء of the feminine فَعلاء (e.g. حَمراء): the closing hamza (and its alif) are augments.
   if (n >= 5 && letters[n-1].isHamza && letters[n-2].key === 'ا') {
-    letters[n-1].augment = { en: 'the feminine ـاء of فَعلاء (a wazn augment, not a root-charge)', ar: 'همزةُ التَّأنيثِ في «فَعلاء» — زائدةُ وَزن لا شَحنةَ جَذر' };
+    letters[n-1].augment = { en: 'the feminine ـاء of فَعلاء (a wazn augment, not a root-charge)', ar: 'همزةُ التَّأنيثِ في «فَعلاء»: زائدةُ وَزن لا شَحنةَ جَذر' };
     letters[n-2].augment = { en: 'augment alif of the feminine ـاء pattern', ar: 'ألِفُ التَّأنيثِ الزائدة' };
   }
   // Hamzat al-waṣl (bare initial alif in a known set): connective, often unpronounced.
   const word = letters.map(l => l.glyph).join('');
   if (n >= 3 && letters[0].key === 'ا' && WASL_WORDS.has(word)) {
-    letters[0].augment = { en: 'hamzat al-waṣl — a connective augment, not a root letter', ar: 'هَمزةُ وَصلٍ — زائدةُ صِلَةٍ لا حَرفٌ أَصليّ' };
+    letters[0].augment = { en: 'hamzat al-waṣl: a connective augment, not a root letter', ar: 'هَمزةُ وَصلٍ: زائدةُ صِلَةٍ لا حَرفٌ أَصليّ' };
   }
 }
 
@@ -1225,10 +1225,10 @@ function renderNucleus(letters) {
       </span>
     </div>
     <p class="lang-en" style="font-size:13.5px;color:var(--text-2);margin:8px 0 0;">
-      The reader does not auto-pick the mode — that requires the full meaning of the word. Browse the eleven modes below and identify which "DOES X" matches the actual sense of <strong>${binary}${L3?L3.glyph:''}</strong>.
+      The reader does not auto-pick the mode, because that requires the full meaning of the word. Browse the eleven modes below and identify which "DOES X" matches the actual sense of <strong>${binary}${L3?L3.glyph:''}</strong>.
     </p>
     <p class="lang-ar" style="font-size:13.5px;color:var(--text-2);margin:8px 0 0;">
-      لا يَنتَخِبُ القارئُ البابَ تِلقائيًّا — يَستَلزِمُ ذلك المَعنى الكامل لِلكَلِمة. تَصَفَّح الأَبوابَ الأَحَدَ عَشَر أَدناه واختَر «تَفعَل ×» التي تُطابِقُ المَعنى الفِعليَّ لِـ <strong>${binary}${L3?L3.glyph:''}</strong>.
+      لا يَنتَخِبُ القارئُ البابَ تِلقائيًّا، فذلك يَستَلزِمُ ذلك المَعنى الكامل لِلكَلِمة. تَصَفَّح الأَبوابَ الأَحَدَ عَشَر أَدناه واختَر «تَفعَل ×» التي تُطابِقُ المَعنى الفِعليَّ لِـ <strong>${binary}${L3?L3.glyph:''}</strong>.
     </p>
   `;
   block.appendChild(card);
@@ -1289,8 +1289,8 @@ function renderInsights(letters) {
             ${pills('unlikely', sugg.unlikely)}
           </div>
           <p style="margin-top:10px;font-size:12px;color:var(--text-3);">
-            <span class="lang-en">Heuristic only — confirm with the actual word meaning. See <a href="viewer.html?file=05-audits/2026-05-19-statistical-predictive-test.md">the statistical test</a>.</span>
-            <span class="lang-ar">اقتِراحٌ توجيهيّ فَقَط — أَكِّد بِالمَعنى الفِعليّ لِلكَلِمة. انظر <a href="viewer.html?file=05-audits/2026-05-19-statistical-predictive-test-ar.md">الاختبار الإحصائيّ</a>.</span>
+            <span class="lang-en">Heuristic only: confirm with the actual word meaning. See <a href="viewer.html?file=05-audits/2026-05-19-statistical-predictive-test.md">the statistical test</a>.</span>
+            <span class="lang-ar">اقتِراحٌ توجيهيّ فَقَط: أَكِّد بِالمَعنى الفِعليّ لِلكَلِمة. انظر <a href="viewer.html?file=05-audits/2026-05-19-statistical-predictive-test-ar.md">الاختبار الإحصائيّ</a>.</span>
           </p>
         </div>
       `);
@@ -1340,8 +1340,8 @@ function renderInsights(letters) {
       <div class="insight-card quad-card has-match">
         <span class="insight-tag lv2">LV2+ · QUADRILITERAL</span>
         <h3>
-          <span class="lang-en">Four-letter root — binary-on-binary decomposition</span>
-          <span class="lang-ar">جَذرٌ رُباعيّ — تَفكيكُ ثُنائيّة-في-ثُنائيّة</span>
+          <span class="lang-en">Four-letter root: binary-on-binary decomposition</span>
+          <span class="lang-ar">جَذرٌ رُباعيّ: تَفكيكُ ثُنائيّة-في-ثُنائيّة</span>
         </h3>
         <p style="font-size:18px;margin:8px 0;">
           <span class="pair">${B1}</span><span class="arrow">→</span><span class="pair">${B2}</span>
@@ -1359,8 +1359,8 @@ function renderInsights(letters) {
       <div class="insight-card quad-card has-match">
         <span class="insight-tag lv2">LV2+ · QUINTILITERAL</span>
         <h3>
-          <span class="lang-en">Five-letter root — stacked binary composition</span>
-          <span class="lang-ar">جَذرٌ خُماسيّ — رَزمةُ ثُنائيّاتٍ مُتَتابعة</span>
+          <span class="lang-en">Five-letter root: stacked binary composition</span>
+          <span class="lang-ar">جَذرٌ خُماسيّ: رَزمةُ ثُنائيّاتٍ مُتَتابعة</span>
         </h3>
         <p style="font-size:18px;margin:8px 0;">
           ${(() => {

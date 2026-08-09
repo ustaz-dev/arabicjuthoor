@@ -23,14 +23,14 @@
     },
     {
       "path": "04-cross-linguistic/readings/hebrew.md",
-      "loan_card_blocks_sha256": "c03dcfb137fead828659801af860c8966db4b1923c4cf7830f53fc34ce91ea2f"
+      "loan_card_blocks_sha256": "701a5e5e6f6fbbc7be0f3f86d2f5d424bc60c4f63c20af9b0ed169695bf88bc0"
     },
     {
       "path": "04-cross-linguistic/readings/old-latin.md",
       "loan_card_blocks_sha256": "5a37afdd36dc381bed0795e37b189c2b4408772af8c9c81af0e5f66663b938ae"
     }
   ],
-  "entries_total": 6,
+  "entries_total": 9,
   "entries": [
     {
       "registry_id": "loan-hebrew-001",
@@ -63,6 +63,55 @@
       "verdict": "LOANWORD",
       "source_path": "04-cross-linguistic/readings/hebrew.md",
       "source_line": 43176
+    },
+    {
+      "registry_id": "loan-hebrew-003",
+      "language": "العبرية",
+      "card": "kslw (كسلو) «شهر كِسليف»",
+      "lexeme": "כסלו kslw (كسلو)، وصورتها المعجمية כִּסְלֵו kisəlew (كسلو)، اسم شهر؛ نطق `scripts/readable.py` هو `kslw (كسلو)` و`kisəlew (كسلو)`.",
+      "route_as_recorded": "`From Akkadian 𒌗𒃶 (ⁱᵗⁱkislimu)` مسار مانح صريح. لا يُبدَّل هذا إلى وراثة بسبب `loan_suspect=false`، ولا تُغلق كسل القرآنية قرضًا.",
+      "oldest_form_as_recorded": "يسمي حقل الاشتقاق المانح الأكادي `𒌗𒃶 (ⁱᵗⁱkislimu)`، وأقدم شاهد عبري مسمى فُحص هو בְחֹדֶשׁ־כִּסְלֵו bəḥodeškisəlew (بحدشكسلو) «في شهر كِسليف» في [نحميا 1:1](https://mechon-mamre.org/p/pt/pt35b01.htm)؛ ويورد المورد أيضًا شاهد المشناه في تعنيت 1:5 نحو 217 م وشاهد التلمود نحو 500 م [Kaikki Hebrew، السطر 10672].",
+      "named_sources_as_recorded": [
+        "نحميا 1:1",
+        "Kaikki Hebrew، السطر 10672",
+        "Kaikki Hebrew، `kaikki_hebrew:10672:en-כסלו-he-name-m7A8vug9`"
+      ],
+      "scope_note": "أصل الصف `both[4]`. لم يثبت `best=كسل` بعد فتح المروحة، بل كشف المورد أن جسر المعنى اتصل بالاسم العربي المنقول كَسْلُوّ لا بجذر الفتور. الدفعة 001.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 43268
+    },
+    {
+      "registry_id": "loan-hebrew-004",
+      "language": "العبرية",
+      "card": "hndsh (هـندسهـ) «الهندسة والهندسة الرياضية»",
+      "lexeme": "הנדסה hndsh (هـندسهـ)، وصورتها المعجمية הַנְדָּסָה hanədāsāh (هـندسهـ)، اسم مؤنث؛ نطق `scripts/readable.py` هو `hndsh (هـندسهـ)` و`hanədāsāh (هـندسهـ)`.",
+      "route_as_recorded": "نص المورد: `From Arabic هَنْدَسَة (handasa), from the same Iranic source as modern Persian ... “measuring”`. صحح ذلك السالب الكاذب `loan_suspect=false`. هندس ليست في جرد القرآن؛ الحكم بالقرض مصدره النص المعجمي لا الغياب.",
+      "oldest_form_as_recorded": "أقدم شاهد عبري مؤرخ عُثر عليه في المصادر المفحوصة هو הַנְדָּסָה hanədāsāh (هـندسهـ) مصطلحًا لـgeometry في [معجم الرياضيات الصادر عن لجنة اللغة سنة 1940](https://terms.hebrew-academy.org.il/munnah/48213_1/%D7%94%D6%B7%D7%A0%D6%B0%D7%93%D6%BC%D6%B8%D7%A1%D6%B8%D7%94)؛ وتعيد الصفحة نشره أيضًا لـengineering في معجم التقنية سنة 1962. لا يثبت هذا أنه أول استعمال مطلق، لذلك يبقى ما قبل 1940 `SOURCE-GAP`.",
+      "named_sources_as_recorded": [
+        "معجم الرياضيات الصادر عن لجنة اللغة سنة 1940",
+        "Kaikki Hebrew، `kaikki_hebrew:3353:en-הנדסה-he-noun--Jzi8ZIV` و`en-הנדסה-he-noun-Y9bVpruY`"
+      ],
+      "scope_note": "أصل الصف `both[26]`. التطابق التام هندسة/هندسة شاهد النقل نفسه، و`loan_suspect=false` سالب كاذب. الدفعة 003.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 43466
+    },
+    {
+      "registry_id": "loan-hebrew-005",
+      "language": "العبرية",
+      "card": "ʿrq (عرق) «شراب العَرَق»",
+      "lexeme": "ערק ʿrq (عرق)، وصورتها المعجمية الاسمية עַרַק ʿaraq (عرق)، اسم مذكر؛ نطق `scripts/readable.py` هو `ʿrq (عرق)` و`ʿaraq (عرق)`.",
+      "route_as_recorded": "`From Arabic عَرَق` مسار مانح صريح، فيصحح `loan_suspect=false`. عرق وعرك وغرك وضرك ليست في جرد الجذور القرآنية؛ حرق وغرق وحرك قرآنية ومحفوظة عربية محضة، ولم تُغلق أي منها قرضًا.",
+      "oldest_form_as_recorded": "أقدم شاهد عبري مؤرخ عُثر عليه في المصادر المفحوصة هو ערק ʿrq (عرق) في [مرسوم المشروبات المسكرة المؤرخ 4 ديسمبر 1927](https://fs.knesset.gov.il/0/law/0_lsr_563393.PDF)، حيث عُرّف بأنه أرواح مقطرة من الفاكهة واليانسون. وقد يكون له استعمال أسبق، فيبقى ما قبل 1927 `SOURCE-GAP`.",
+      "named_sources_as_recorded": [
+        "مرسوم المشروبات المسكرة المؤرخ 4 ديسمبر 1927",
+        "Kaikki Hebrew، `kaikki_hebrew:2447:en-ערק-he-noun-b-~cloFE`"
+      ],
+      "scope_note": "أصل الصف `both[27]`. اختار المعنى عرق، لكن طبقة المصدر حولت التطابق من أثر وراثي إلى نقل مباشر. الدفعة 003.",
+      "verdict": "LOANWORD",
+      "source_path": "04-cross-linguistic/readings/hebrew.md",
+      "source_line": 43488
     },
     {
       "registry_id": "loan-coptic-001",
