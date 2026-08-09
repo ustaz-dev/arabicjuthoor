@@ -1,0 +1,305 @@
+{
+ "generated_by": "scripts/guttural_decoy_test.py",
+ "note": "طبقةُ استكشاف. ضابطٌ منهجيٌّ لا رقمٌ منشور.",
+ "design": "ذراعان بعرضِ مروحةٍ واحدٍ لا يفترقانِ إلّا في موضعِ الحلقيّ",
+ "decoy_sets": [
+  {
+   "name": "تغطية 45.5%",
+   "letters": [
+    "ب",
+    "ج",
+    "د",
+    "ص"
+   ]
+  },
+  {
+   "name": "تغطية 45.5%",
+   "letters": [
+    "ز",
+    "ش",
+    "ن",
+    "و"
+   ]
+  },
+  {
+   "name": "تغطية 45.5%",
+   "letters": [
+    "ق",
+    "ك",
+    "م",
+    "ي"
+   ]
+  },
+  {
+   "name": "تغطية 45.3%",
+   "letters": [
+    "ذ",
+    "ر",
+    "س",
+    "ط"
+   ]
+  }
+ ],
+ "result": {
+  "rows": 2005,
+  "real_found": 1993,
+  "real_direct": 191,
+  "decoy_found": [
+   1966,
+   1965,
+   1960,
+   1958
+  ],
+  "decoy_direct": [
+   204,
+   126,
+   197,
+   158
+  ],
+  "decoy_found_mean": 1962.25,
+  "decoy_direct_mean": 171.25,
+  "ratio_direct": 1.1153284671532846
+ },
+ "examples": [
+  {
+   "language": "akkadian",
+   "branch": "šemûm",
+   "ancestor": "šamaʕ",
+   "skeleton": "š-m-ʕ",
+   "arabic": "سمع",
+   "gloss": "to hear; to listen, pay attention"
+  },
+  {
+   "language": "akkadian",
+   "branch": "šārtum",
+   "ancestor": "śaʕr",
+   "skeleton": "ś-ʕ-r",
+   "arabic": "شعر",
+   "gloss": "a single hair; hair"
+  },
+  {
+   "language": "akkadian",
+   "branch": "aḫum",
+   "ancestor": "ʔaḫw",
+   "skeleton": "ʔ-ḫ-w",
+   "arabic": "ءخو",
+   "gloss": "brother; colleague, associate"
+  },
+  {
+   "language": "akkadian",
+   "branch": "eperum",
+   "ancestor": "ʕapar",
+   "skeleton": "ʕ-p-r",
+   "arabic": "عفر",
+   "gloss": "dust; soil, earth (for building work)"
+  },
+  {
+   "language": "akkadian",
+   "branch": "ergilum",
+   "ancestor": "ḥargil",
+   "skeleton": "ḥ-r-g-l",
+   "arabic": "حرجل",
+   "gloss": "a type of orthopteran, possibly the bush-cricket"
+  },
+  {
+   "language": "akkadian",
+   "branch": "būrum",
+   "ancestor": "bVʕVr",
+   "skeleton": "b-ʕ-r",
+   "arabic": "بعر",
+   "gloss": "young calf (of either sex); foal, kid (the young of quadrupeds)"
+  },
+  {
+   "language": "akkadian",
+   "branch": "erēšum",
+   "ancestor": "ḥaraṯ",
+   "skeleton": "ḥ-r-ṯ",
+   "arabic": "حرث",
+   "gloss": "to sow, plant, plough and seed; to cultivate (a field)"
+  },
+  {
+   "language": "akkadian",
+   "branch": "zērum",
+   "ancestor": "zarʕ",
+   "skeleton": "z-r-ʕ",
+   "arabic": "زرع",
+   "gloss": "seed; semen"
+  },
+  {
+   "language": "akkadian",
+   "branch": "enzum",
+   "ancestor": "ʕVnz",
+   "skeleton": "ʕ-n-z",
+   "arabic": "عنز",
+   "gloss": "she-goat; goat (as a generic term)"
+  },
+  {
+   "language": "akkadian",
+   "branch": "edēšum",
+   "ancestor": "ḥdθ",
+   "skeleton": "ḥ-d-θ",
+   "arabic": "حدث",
+   "gloss": "to be new, fresh, renewed"
+  },
+  {
+   "language": "akkadian",
+   "branch": "ṣērum",
+   "ancestor": "ṣaḥr",
+   "skeleton": "ṣ-ḥ-r",
+   "arabic": "صحر",
+   "gloss": "plain, steppe"
+  },
+  {
+   "language": "akkadian",
+   "branch": "eli",
+   "ancestor": "ʕalay",
+   "skeleton": "ʕ-l-y",
+   "arabic": "علي",
+   "gloss": "on, above, over, upon; towards"
+  },
+  {
+   "language": "akkadian",
+   "branch": "sebet",
+   "ancestor": "šabʕ",
+   "skeleton": "š-b-ʕ",
+   "arabic": "سبع",
+   "gloss": "seven, 7"
+  },
+  {
+   "language": "akkadian",
+   "branch": "īnum",
+   "ancestor": "ʕayn",
+   "skeleton": "ʕ-y-n",
+   "arabic": "عين",
+   "gloss": "eye; spring, well"
+  },
+  {
+   "language": "akkadian",
+   "branch": "imērum",
+   "ancestor": "ḥimār",
+   "skeleton": "ḥ-m-r",
+   "arabic": "حمر",
+   "gloss": "donkey; homer (a unity of capacity equal to 12 or 18 sūtum (“seah”))"
+  },
+  {
+   "language": "akkadian",
+   "branch": "ḫamšat",
+   "ancestor": "ḫamš",
+   "skeleton": "ḫ-m-š",
+   "arabic": "خمس",
+   "gloss": "five, 5"
+  },
+  {
+   "language": "akkadian",
+   "branch": "tišīt",
+   "ancestor": "tišʕ",
+   "skeleton": "t-š-ʕ",
+   "arabic": "تسع",
+   "gloss": "nine, 9"
+  },
+  {
+   "language": "akkadian",
+   "branch": "ešeret",
+   "ancestor": "ʕaśar",
+   "skeleton": "ʕ-ś-r",
+   "arabic": "عشر",
+   "gloss": "ten, 10"
+  },
+  {
+   "language": "akkadian",
+   "branch": "muḫḫum",
+   "ancestor": "muḫḫ",
+   "skeleton": "m-ḫ",
+   "arabic": "مخ",
+   "gloss": "skull, pate; brain"
+  },
+  {
+   "language": "akkadian",
+   "branch": "eqlum",
+   "ancestor": "ḥaḳl",
+   "skeleton": "ḥ-l",
+   "arabic": "حر",
+   "gloss": "field, cultivated field; terrain, land, region"
+  },
+  {
+   "language": "akkadian",
+   "branch": "ṭênum",
+   "ancestor": "ṭaḥan",
+   "skeleton": "ṭ-ḥ-n",
+   "arabic": "طحن",
+   "gloss": "to grind"
+  },
+  {
+   "language": "akkadian",
+   "branch": "šēlebum",
+   "ancestor": "ṯaʕlab",
+   "skeleton": "ṯ-ʕ-l-b",
+   "arabic": "ثعلب",
+   "gloss": "fox; an unidentified star"
+  },
+  {
+   "language": "ancient_greek",
+   "branch": "αὐλή",
+   "ancestor": "h₂wes",
+   "skeleton": "h₂-w-s",
+   "arabic": "حوش",
+   "gloss": "open court, courtyard; quadrangle"
+  },
+  {
+   "language": "ancient_greek",
+   "branch": "ἀλκή",
+   "ancestor": "h₂lek",
+   "skeleton": "h₂-l-k",
+   "arabic": "عرق",
+   "gloss": "prowess, force; defense, guard"
+  },
+  {
+   "language": "ancient_greek",
+   "branch": "συγκαλέω",
+   "ancestor": "kelh₁",
+   "skeleton": "k-l-h₁",
+   "arabic": "قرء",
+   "gloss": "to call to council; summon, convoke, convene, assemble; to invite (gue"
+  },
+  {
+   "language": "ancient_greek",
+   "branch": "ἐπί",
+   "ancestor": "h₁epi",
+   "skeleton": "h₁-p",
+   "arabic": "هب",
+   "gloss": "[with genitive]; on, upon (on the upper surface of)"
+  },
+  {
+   "language": "ancient_greek",
+   "branch": "γνωρίζω",
+   "ancestor": "ǵneh₃",
+   "skeleton": "ǵ-n-h₃",
+   "arabic": "قنء",
+   "gloss": "to make known (in passive: become known); to learn, discover"
+  },
+  {
+   "language": "ancient_greek",
+   "branch": "ἀλέξω",
+   "ancestor": "h₂lek",
+   "skeleton": "h₂-l-k",
+   "arabic": "حلق",
+   "gloss": "to keep off, turn aside; to guard, protect, defend, help"
+  },
+  {
+   "language": "ancient_greek",
+   "branch": "ἀρκέω",
+   "ancestor": "h₂erk",
+   "skeleton": "h₂-r-k",
+   "arabic": "حلق",
+   "gloss": "to ward off, keep off; to defend"
+  },
+  {
+   "language": "ancient_greek",
+   "branch": "οὐρά",
+   "ancestor": "h₁ers",
+   "skeleton": "h₁-r-s",
+   "arabic": "هرش",
+   "gloss": "the tail (of a lion, dog, etc.); the rear-guard, rear"
+  }
+ ]
+}
