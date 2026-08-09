@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 1493,
-  "nucleus": 1072,
+  "root": 1498,
+  "nucleus": 1074,
   "languages": 15
  },
  "languages": [
@@ -663,8 +663,8 @@
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 8,
-   "nucleus": 11,
+   "root": 12,
+   "nucleus": 13,
    "floor": 1,
    "examples": [
     {
@@ -748,15 +748,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 19,
-   "nucleus_share": 57.9
+   "total": 25,
+   "nucleus_share": 52.0
   },
   {
    "key": "ancient-greek",
    "ar": "اليونانيّة القديمة",
    "en": "Ancient Greek",
    "distance": 3,
-   "root": 4,
+   "root": 5,
    "nucleus": 6,
    "floor": 0,
    "examples": [
@@ -831,18 +831,18 @@
      "degree": "ROOT-TRACE"
     },
     {
-     "word": "ὄνυξ",
-     "say": "onuks",
-     "sense": "claw, nail, hoof, talon",
-     "arabic": "نقر",
-     "quote": "نقرت الشيء: ثقبته بالمنقار",
+     "word": "ἀλκή",
+     "say": "alke",
+     "sense": "بأس ودفاع ومعركة",
+     "arabic": "عرك",
+     "quote": "عركت القوم في الحرب عركا",
      "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-ECHO"
+     "layer": "root",
+     "degree": "ROOT-TRACE"
     }
    ],
-   "total": 10,
-   "nucleus_share": 60.0
+   "total": 11,
+   "nucleus_share": 54.5
   },
   {
    "key": "persian",

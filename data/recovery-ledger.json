@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 27973,
+ "cards_total": 27990,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -11487,6 +11487,30 @@
    ],
    "blocker_type": "SOURCE-GAP",
    "required": "تأثيلا منشورا وتعيينا نباتيا مستقرا قبل أي حكم صوتي دلالي",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "αὐλή «باحة وفناء دار»",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "رفع صيغة «most plausibly» إلى تحليل تاريخي محسوم، مع تثبيت دور اللاحقة `*-leh₂`",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "πλευρά «ضلع أو جانب»",
+   "verdict": "",
+   "closure": "SOURCE-GAP + ORBIT-NOT-IDENTICAL.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "حسم أصل `πλευρά` والبنية الصرفية، مع شاهد عربي مستقل لمعنى الضلع/الجانب إن وُجد",
    "row_mentions": []
   },
   {
@@ -190261,6 +190285,18 @@
    ],
    "blocker_type": "",
    "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/old-latin.md",
+   "card": "pullus «فرخ وصغير الحيوان»",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "حسم أي التأثيلات المنشورة هو سلف اسم الصغير قبل إصدار حكم تاريخي",
    "row_mentions": []
   },
   {

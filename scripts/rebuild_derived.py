@@ -58,6 +58,8 @@ GATES = [
     # وكلُّ مشتقٍّ لا حارسَ له يبيتُ يومًا ويُوقِفُ الموقع
     ("build_en_ar_bridge.py", ["--check"]),
     ("build_discoveries.py", ["--check"]),
+    # حارسُ قاموسِ الإغلاق: لا يُغلَقُ مرشَّحٌ بقانونٍ لم يُقرِّرْه المؤلّف
+    ("check_closure_vocabulary.py", ["--check"]),
 ]
 
 

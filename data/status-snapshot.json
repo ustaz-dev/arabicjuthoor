@@ -4,18 +4,18 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31364,
+  "cards_total": 31383,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 7464,
-    "links": 20,
-    "root": 8,
-    "nucleus": 11,
+    "cards": 7479,
+    "links": 26,
+    "root": 12,
+    "nucleus": 13,
     "floor": 1,
-    "nucleus_share": 57.9
+    "nucleus_share": 52.0
    },
    {
     "key": "persian",
@@ -87,12 +87,12 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 1270,
-    "links": 10,
-    "root": 4,
+    "cards": 1274,
+    "links": 11,
+    "root": 5,
     "nucleus": 6,
     "floor": 0,
-    "nucleus_share": 60.0
+    "nucleus_share": 54.5
    },
    {
     "key": "old-irish",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2570,
-  "closures": 812,
+  "links_to_arabic": 2577,
+  "closures": 819,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1205,
+    "count": 1210,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 759,
+    "count": 760,
     "link": true
    },
    {
@@ -205,7 +205,7 @@
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 313,
+    "count": 314,
     "link": true
    },
    {
@@ -230,7 +230,7 @@
    },
    {
     "name": "NO-TRACE",
-    "count": 74,
+    "count": 81,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27973,
-  "suspended": 20770,
-  "released": 7203,
+  "cards_total": 27990,
+  "suspended": 20773,
+  "released": 7217,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -275,7 +275,7 @@
    },
    {
     "name": "SOURCE-GAP",
-    "count": 260
+    "count": 263
    },
    {
     "name": "TOOL-GAP",
@@ -301,7 +301,7 @@
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 7018
+    "count": 7019
    },
    {
     "file": "egyptian.md",
@@ -321,7 +321,7 @@
    },
    {
     "file": "ancient-greek.md",
-    "count": 874
+    "count": 876
    },
    {
     "file": "old-irish.md",
