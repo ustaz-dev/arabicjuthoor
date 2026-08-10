@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "7fa0429a7ca0f68f97fc417fe0eba1168af27066d523e832fb117f63e4e709ac"
+    "sha256": "56cdf55ed08b67dfe71ca462fc2481da1fcb1294d4aaa791b30c9a6532c0fc87"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "87d37c6b059a5801fb6517de1001c32a3ada36ed1edda40320c0ce8e6da08896"
+    "sha256": "6ef50b8f0fd1b57d23515dff331bf03b7a99e345b0d85c18e6e462abc4da8971"
    }
   }
  },
@@ -87,7 +87,7 @@
     "ambiguous-stale-heading": 4,
     "current-heading": 744,
     "stable-entry-reconciled": 248,
-    "unmapped-stale-heading": 10
+    "unmapped-stale-heading": 12
    },
    "eligible_family_ids": [
     "aramaic:family:0263fb19382f883fbc93197a",
@@ -4839,6 +4839,16 @@
      "line": 27202,
      "heading": "### بطاقة طابور: أسرة `קם / קום` qwm «قام ونهض» بإزاء قوم",
      "reason": "ambiguous-stale-heading"
+    },
+    {
+     "line": 31042,
+     "heading": "### بطاقة: `טובא` «خير، حسن» ↔ طيب",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 31064,
+     "heading": "### بطاقة: `שלש/שלשה` «ثلاثة» ↔ ثلث",
+     "reason": "unmapped-stale-heading"
     }
    ]
   },
@@ -4879,7 +4889,7 @@
     "ambiguous-stale-heading": 151,
     "current-heading": 932,
     "stable-entry-reconciled": 739,
-    "unmapped-stale-heading": 6
+    "unmapped-stale-heading": 8
    },
    "eligible_family_ids": [
     "hebrew:family:002181eb560b984daace695f",
@@ -5589,7 +5599,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to be stubborn, disobedient",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41952
+     "reading_line": 41965
     },
     {
      "family_id": "hebrew:family:0cc97040204da72f867d287f",
@@ -5600,7 +5610,7 @@
      "missing_pos": "adj",
      "missing_gloss": "weak, poor",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 42473
+     "reading_line": 42486
     },
     {
      "family_id": "hebrew:family:288d73607531ab82dc0105f1",
@@ -5611,7 +5621,7 @@
      "missing_pos": "verb",
      "missing_gloss": "To cry, weep.",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 42020
+     "reading_line": 42033
     },
     {
      "family_id": "hebrew:family:2e9ca0e9a5f0f8eb243e8749",
@@ -5622,7 +5632,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to slumber",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41631
+     "reading_line": 41644
     },
     {
      "family_id": "hebrew:family:50b5ed7b139ee950689b7244",
@@ -5633,7 +5643,7 @@
      "missing_pos": "noun",
      "missing_gloss": "star",
      "current_state": "LAW-GAP",
-     "reading_line": 41389
+     "reading_line": 41402
     },
     {
      "family_id": "hebrew:family:5d11579b9fca4744e67e02d8",
@@ -5644,7 +5654,7 @@
      "missing_pos": "pron",
      "missing_gloss": "you, thou (second-person singular masculine)",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41602
+     "reading_line": 41615
     },
     {
      "family_id": "hebrew:family:6632665720f0f38a8b7565f6",
@@ -5699,7 +5709,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to seed, to sow",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 42046
+     "reading_line": 42059
     },
     {
      "family_id": "hebrew:family:f6c1ac99e6d1349776a6add9",
@@ -9505,7 +9515,7 @@
        "pos": "verb",
        "gloss": "to be stubborn, disobedient",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41952
+       "reading_line": 41965
       }
      ]
     },
@@ -9697,7 +9707,7 @@
        "pos": "adj",
        "gloss": "weak, poor",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 42473
+       "reading_line": 42486
       }
      ]
     },
@@ -10353,7 +10363,7 @@
        "pos": "verb",
        "gloss": "To cry, weep.",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 42020
+       "reading_line": 42033
       }
      ]
     },
@@ -10449,7 +10459,7 @@
        "pos": "verb",
        "gloss": "to slumber",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41631
+       "reading_line": 41644
       }
      ]
     },
@@ -11201,7 +11211,7 @@
        "pos": "noun",
        "gloss": "star",
        "current_state": "LAW-GAP",
-       "reading_line": 41389
+       "reading_line": 41402
       }
      ]
     },
@@ -11585,7 +11595,7 @@
        "pos": "pron",
        "gloss": "you, thou (second-person singular masculine)",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41602
+       "reading_line": 41615
       }
      ]
     },
@@ -13249,7 +13259,7 @@
        "pos": "verb",
        "gloss": "to seed, to sow",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 42046
+       "reading_line": 42059
       }
      ]
     },

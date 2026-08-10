@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 28013,
+ "cards_total": 28028,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -41,18 +41,6 @@
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
    "card": "râmu A «يحب»",
-   "verdict": "",
-   "closure": "TOOL-GAP.",
-   "gaps": [
-    "TOOL-GAP"
-   ],
-   "blocker_type": "TOOL-GAP",
-   "required": "مسح الأداة أو المروحة المسماة في البطاقة؛",
-   "row_mentions": []
-  },
-  {
-   "file": "04-cross-linguistic/readings/akkadian.md",
-   "card": "damu «الدم»",
    "verdict": "",
    "closure": "TOOL-GAP.",
    "gaps": [
@@ -11445,19 +11433,6 @@
    "verdict": "OPEN-CANDIDATE\n- الحكمُ السابقُ المرفوع (2026-08-09): غ",
    "closure": "مرفوعٌ في 2026-08-09، والنصُّ السابقُ محفوظٌ: OPEN-CANDIDATE؛ الوسم: `NO-NUCLEUS-IN-INDEX + NUCLEUS-ORBIT-GAP`.",
    "gaps": [
-    "OPEN-CANDIDATE"
-   ],
-   "blocker_type": "",
-   "required": "",
-   "row_mentions": []
-  },
-  {
-   "file": "04-cross-linguistic/readings/ancient-greek.md",
-   "card": "`kaikki_ancient_greek:177:en-μήτηρ-grc-noun-zwYi7ypm`، μήτηρ (الطبقةُ الأساسيّة:",
-   "verdict": "",
-   "closure": "OPEN-CANDIDATE؛ الوسم: `METATHESIS/LAW-GAP`.",
-   "gaps": [
-    "LAW-GAP",
     "OPEN-CANDIDATE"
    ],
    "blocker_type": "",
@@ -211444,6 +211419,20 @@
    "blocker_type": "",
    "required": "",
    "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/persian.md",
+   "card": "الفارسية `مادر` (`mādar`) «الأم» ↔ مطر",
+   "verdict": "ROOT-ECHO عند السلف.",
+   "closure": "READY عند السلف؛ السطح OPEN-CANDIDATE بلا حكم.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": [
+    "BR-VERN-01"
+   ]
   },
   {
    "file": "04-cross-linguistic/readings/phoenician-punic-scout.md",

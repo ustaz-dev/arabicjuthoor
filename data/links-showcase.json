@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 1517,
-  "nucleus": 1082,
+  "root": 1531,
+  "nucleus": 1088,
   "languages": 16
  },
  "languages": [
@@ -12,7 +12,7 @@
    "ar": "الآراميّة",
    "en": "Aramaic",
    "distance": 1,
-   "root": 686,
+   "root": 688,
    "nucleus": 391,
    "floor": 0,
    "examples": [
@@ -97,15 +97,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 1077,
-   "nucleus_share": 36.3
+   "total": 1079,
+   "nucleus_share": 36.2
   },
   {
    "key": "hebrew",
    "ar": "العبريّة",
    "en": "Hebrew",
    "distance": 1,
-   "root": 602,
+   "root": 605,
    "nucleus": 331,
    "floor": 0,
    "examples": [
@@ -190,8 +190,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 933,
-   "nucleus_share": 35.5
+   "total": 936,
+   "nucleus_share": 35.4
   },
   {
    "key": "akkadian",
@@ -199,7 +199,7 @@
    "en": "Akkadian",
    "distance": 1,
    "root": 79,
-   "nucleus": 21,
+   "nucleus": 22,
    "floor": 0,
    "examples": [
     {
@@ -283,8 +283,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 100,
-   "nucleus_share": 21.0
+   "total": 101,
+   "nucleus_share": 21.8
   },
   {
    "key": "phoenician-punic-scout",
@@ -663,8 +663,8 @@
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 20,
-   "nucleus": 16,
+   "root": 22,
+   "nucleus": 17,
    "floor": 1,
    "examples": [
     {
@@ -748,15 +748,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 36,
-   "nucleus_share": 44.4
+   "total": 39,
+   "nucleus_share": 43.6
   },
   {
    "key": "ancient-greek",
    "ar": "اليونانيّة القديمة",
    "en": "Ancient Greek",
    "distance": 3,
-   "root": 9,
+   "root": 12,
    "nucleus": 8,
    "floor": 0,
    "examples": [
@@ -811,6 +811,16 @@
      "degree": "ROOT-TRACE"
     },
     {
+     "word": "τρίς",
+     "say": "tris",
+     "sense": "ثلاث مرات/ثلاثة",
+     "arabic": "ثل",
+     "quote": "الثلاثة في عدد المذكر",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
      "word": "κιέλλη",
      "say": "kielle",
      "sense": "ضياء، صقيع، ضباب",
@@ -829,27 +839,17 @@
      "lexicon": "تاج العروس",
      "layer": "root",
      "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "ἀλκή",
-     "say": "alke",
-     "sense": "بأس ودفاع ومعركة",
-     "arabic": "عرك",
-     "quote": "عركت القوم في الحرب عركا",
-     "lexicon": "لسان العرب",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
     }
    ],
-   "total": 17,
-   "nucleus_share": 47.1
+   "total": 20,
+   "nucleus_share": 40.0
   },
   {
    "key": "persian",
    "ar": "الفارسيّة",
    "en": "Persian",
    "distance": 3,
-   "root": 4,
+   "root": 5,
    "nucleus": 0,
    "floor": 0,
    "examples": [
@@ -884,6 +884,16 @@
      "degree": "ROOT-TRACE"
     },
     {
+     "word": "الفارسية",
+     "say": "",
+     "sense": "الأم",
+     "arabic": "مطر",
+     "quote": "المطر واحد الأمطار... والاستمطار الاستسقاء... أي يعطى كالمطر مثلا",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
+    },
+    {
      "word": "parêš",
      "say": "paresh",
      "sense": "مبعثر/متناثر",
@@ -894,7 +904,7 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 4,
+   "total": 5,
    "nucleus_share": 0.0
   },
   {
@@ -902,8 +912,8 @@
    "ar": "الإيرلنديّة القديمة",
    "en": "Old Irish",
    "distance": 4,
-   "root": 10,
-   "nucleus": 20,
+   "root": 11,
+   "nucleus": 21,
    "floor": 1,
    "examples": [
     {
@@ -987,18 +997,28 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 30,
-   "nucleus_share": 66.7
+   "total": 32,
+   "nucleus_share": 65.6
   },
   {
    "key": "old-english",
    "ar": "الإنجليزيّة القديمة",
    "en": "Old English",
    "distance": 4,
-   "root": 11,
-   "nucleus": 15,
+   "root": 12,
+   "nucleus": 16,
    "floor": 1,
    "examples": [
+    {
+     "word": "þri",
+     "say": "thri",
+     "sense": "three",
+     "arabic": "ثل",
+     "quote": "الثلاثة من العدد",
+     "lexicon": "كتاب العين",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
     {
      "word": "seofon",
      "say": "",
@@ -1026,16 +1046,6 @@
      "arabic": "ربق",
      "quote": "ربقت الشاة بالربق وهو الخيط",
      "lexicon": "كتاب العين",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "sima",
-     "say": "",
-     "sense": "cord، rope",
-     "arabic": "زمام",
-     "quote": "الزمام: الحبل الذي يجعل في البرة والخشبة",
-     "lexicon": "لسان العرب",
      "layer": "nucleus",
      "degree": "NUCLEUS-TRACE"
     },
@@ -1080,8 +1090,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 26,
-   "nucleus_share": 57.7
+   "total": 28,
+   "nucleus_share": 57.1
   },
   {
    "key": "gothic",
@@ -1089,7 +1099,7 @@
    "en": "Gothic",
    "distance": 4,
    "root": 11,
-   "nucleus": 8,
+   "nucleus": 9,
    "floor": 0,
    "examples": [
     {
@@ -1173,15 +1183,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 19,
-   "nucleus_share": 42.1
+   "total": 20,
+   "nucleus_share": 45.0
   },
   {
    "key": "old-norse",
    "ar": "النُّرديّة القديمة",
    "en": "Old Norse",
    "distance": 4,
-   "root": 9,
+   "root": 10,
    "nucleus": 6,
    "floor": 0,
    "examples": [
@@ -1266,8 +1276,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 15,
-   "nucleus_share": 40.0
+   "total": 16,
+   "nucleus_share": 37.5
   },
   {
    "key": "welsh",
@@ -1318,9 +1328,19 @@
    "en": "Middle English",
    "distance": 4,
    "root": 1,
-   "nucleus": 0,
+   "nucleus": 1,
    "floor": 0,
    "examples": [
+    {
+     "word": "Middle",
+     "say": "",
+     "sense": "ثلاثة",
+     "arabic": "ثل",
+     "quote": "الثلاثة في عدد المذكر",
+     "lexicon": "الصحاح",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
     {
      "word": "fader",
      "say": "",
@@ -1332,8 +1352,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 1,
-   "nucleus_share": 0.0
+   "total": 2,
+   "nucleus_share": 50.0
   }
  ]
 }
