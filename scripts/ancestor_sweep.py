@@ -120,19 +120,42 @@ PROTO_FAN: dict[str, tuple[str, ...]] = {
 MULTI = tuple(sorted((k for k in PROTO_FAN if len(k) > 1), key=len, reverse=True))
 PROTO_VOWELS = set("aeiouāēīōūáéíóúàèìòùâêîôûăĕĭŏŭəɐɛɔʊɪæœø")
 
+# تُرَوْمَنُ الحروفُ اليونانيّةُ هنا لِيَعْمَلَ حارسُ الصامتَينِ والمروحةُ على
+# النهاياتِ المكتوبةِ بالخطِّ اليونانيِّ نفسِه، لا على رَوْمَنَتِها وحدَها.
+GREEK_TO_PROTO = {
+    "α": "a", "ε": "e", "η": "ē", "ι": "i", "ο": "o", "υ": "u", "ω": "ō",
+    "β": "b", "γ": "g", "δ": "d", "ζ": "z", "θ": "θ", "κ": "k",
+    "λ": "l", "μ": "m", "ν": "n", "ξ": "ks", "π": "p", "ρ": "r",
+    "σ": "s", "ς": "s", "τ": "t", "φ": "pʰ", "χ": "x", "ψ": "ps",
+    "ϝ": "w",
+}
+
+
+def _romanize_greek_for_skeleton(form: str) -> str:
+    decomposed = unicodedata.normalize("NFD", form.lower())
+    return "".join(GREEK_TO_PROTO.get(c, c) for c in decomposed
+                   if not unicodedata.combining(c))
+
+
+def _is_greek_form(form: str) -> bool:
+    letters = [c for c in unicodedata.normalize("NFD", form) if c.isalpha()]
+    return bool(letters) and all("GREEK" in unicodedata.name(c, "") for c in letters)
+
 
 def normalize_form(s: str) -> str:
     """يُنظَّفُ ما استُخرِجَ من نصِّ الاشتقاق: تُنزَعُ النجمةُ والشرطاتُ وعلاماتُ
     النبرِ وتبقى الرموزُ الصوتيّةُ المميِّزة."""
     s = unicodedata.normalize("NFC", str(s)).strip()
-    s = s.strip("*-–—()[]{}'’ʼ,.;:")
-    s = re.sub(r"[̀-̄̆-̣̱̌]", "", s)  # نبرٌ وطولٌ فقط
+    s = s.strip("*-\u2013\u2014()[]{}'’ʼ,.;:")
+    s = re.sub(r"[\u0300-\u0304\u0306-\u030c\u0323\u0331]", "", s)  # نبرٌ وطولٌ فقط
     return s.strip("*-").strip()
 
 
 def proto_skeleton(form: str) -> list[str]:
     """الهيكلُ الصامتيُّ لصورةٍ مستعادة، والحنجريّةُ صامتٌ كاملٌ فيه لا حركة."""
     w = normalize_form(form)
+    if _is_greek_form(w):
+        w = _romanize_greek_for_skeleton(w)
     out, i = [], 0
     while i < len(w):
         for k in MULTI:
@@ -179,12 +202,9 @@ def proto_fan(form: str, limit: int = 600) -> list[str]:
 
 
 # **اللاحقةُ تُعلِنُ نفسَها في شجرةِ الاشتقاق.** يسردُ المصدرُ عقدةَ اللاحقةِ عقدةً
-# مستقلّةً بشرطةٍ سابقة: `Proto-Indo-European *-s` ثمّ `*h₃rḗǵs`. فإن انتهَت الصورةُ
-# التامّةُ بلاحقةٍ سردَها المصدرُ نفسُه، فذلك الحرفُ ليس من الجذر.
-#
-# **والعطبُ الذي يُنهيه:** قُوبِلَت `rēx` بهيكلِ `r-k-s` فطُلِبَ صفٌّ يصلُ الكافَ
-# بالهمزةِ في `رأس` ولم يُوجَدْ فرُفِضَ الزوج. والسينُ لاحقةُ رفعٍ لا حرفَ جذر،
-# والمضافُ إليه `rēgis` بالجيمِ يشهدُ بذلك. والجذرُ المنشورُ `*h₃reǵ-` وحدَه.
+# مستقلّةً بشرطةٍ سابقة: `Proto-Indo-European *-s` ثمّ `*h₃rḗǵs`. وتبقى الصورةُ
+# التامّةُ في المروحةِ، وتُفتَحُ بجانبِها صورةٌ بديلةٌ منزوعةُ العقدةِ المصرَّحِ بها.
+# هذا توسيعٌ استكشافيٌّ للمرشَّحات، لا حكمٌ بأنّ الحرفَ زائدٌ في الكلمةِ بعينِها.
 RX_SUFFIX_NODE = re.compile(
     r"(?:" + "|".join(re.escape(a) for a, _ in ANCESTORS) + r")\s*\*(-[^\s,;.)\]]{1,8})")
 
@@ -200,8 +220,8 @@ def suffixes_in(etymology: str) -> list[str]:
 
 
 def strip_declared_suffix(form: str, sufs: list[str]) -> str:
-    """تُنزَعُ اللاحقةُ المسرودةُ إن ختمَتِ الصورةَ التامّة، ولا تُنزَعُ إن أبقَت
-    أقلَّ من صامتَين، فالجذرُ لا يقلُّ عن ثنائيّ."""
+    """تُفتَحُ صورةٌ بديلةٌ بلا اللاحقةِ المسرودة، معَ إبقاءِ الأصلِ كما وردَ.
+    ولا يُفتَحُ البديلُ إن أبقَى أقلَّ من صامتَين."""
     best = form
     for s in sorted(sufs, key=len, reverse=True):
         if len(s) < len(form) and form.endswith(s):
@@ -210,6 +230,49 @@ def strip_declared_suffix(form: str, sufs: list[str]) -> str:
                 best = cut
                 break
     return best
+
+
+# نهاياتٌ صرفيّةٌ معروفةٌ يفتحُ وجودُها هيكلًا بديلًا ولا يحسمُ أصلَها في أيِّ
+# كلمةٍ بعينِها. تُطبَّقُ نهايةٌ واحدةٌ فقط، وتبقى الصورةُ كما وردَت في المقارنة.
+CASE_ENDINGS_BY_LANGUAGE: dict[str, tuple[str, ...]] = {
+    "latin": ("us", "um", "is", "es", "s", "or"),
+    "ancient_greek": ("ος", "ον", "ης", "ς", "os", "on", "ēs", "s"),
+    "akkadian": ("um", "am", "im"),
+    "gothic": ("s", "a"),
+}
+CASE_ENDINGS_BY_LAYER: dict[str, tuple[str, ...]] = {
+    "Proto-Indo-European": ("s", "m"),
+    "Proto-Germanic": ("az", "iz", "uz", "ą"),
+}
+
+
+def _ends_in_proto_consonant(form: str) -> bool:
+    """هل تنتهي الصورةُ نفسها بصامتٍ معروفٍ، لا بصائتٍ بعدَ آخرِ صامت؟"""
+    w = normalize_form(form)
+    consonants = (c for c in PROTO_FAN if c not in PROTO_VOWELS)
+    return any(w.endswith(c) for c in consonants)
+
+
+def case_ending_alternate(form: str, lang: str, layer: str) -> tuple[str, str] | None:
+    """هيكلٌ بديلٌ بإسقاطِ نهايةٍ صرفيّةٍ واحدة، من غيرِ إصدارِ حكمٍ عليها.
+
+    تُقدَّمُ النهايةُ الأطولُ كي لا تتحوَّلَ `-is` مثلًا إلى إسقاطِ `-s` وحدَها.
+    وحارسُ الصامتَين نافذٌ بعدَ الإسقاط. أمّا `-s` الهنديّةُ الأوربيّةُ فلا
+    تُفتَحُ إلّا بعدَ صامتٍ، كما نصَّ نطاقُ هذهِ المروحةِ الاستكشافيّة.
+    """
+    w = normalize_form(form)
+    tagged = [(ending, "language") for ending in CASE_ENDINGS_BY_LANGUAGE.get(lang, ())]
+    tagged += [(ending, "layer") for ending in CASE_ENDINGS_BY_LAYER.get(layer, ())]
+    for ending, source in sorted(tagged, key=lambda item: len(item[0]), reverse=True):
+        if len(ending) >= len(w) or not w.endswith(ending):
+            continue
+        cut = w[:-len(ending)]
+        if (source == "layer" and layer == "Proto-Indo-European"
+                and ending == "s" and not _ends_in_proto_consonant(cut)):
+            continue
+        if len(proto_skeleton(cut)) >= 2:
+            return cut, ending
+    return None
 
 
 def ancestors_of(etymology: str) -> list[tuple[str, str, int]]:
@@ -236,14 +299,13 @@ def ancestors_of(etymology: str) -> list[tuple[str, str, int]]:
             seen.add((layer, form))
             found.append((layer, form, depth.get(layer, 4)))
             # الصورةُ نفسُها بعدَ نزعِ لاحقتِها المسرودةِ تُضافُ مرشَّحًا ثانيًا،
-            # فالجذرُ أولى بالمقابلةِ من الصيغةِ المرفوعة
+            # ولا يعني فتحُها حكمًا على أصلِ اللاحقةِ في الكلمةِ بعينِها.
             bare_form = strip_declared_suffix(form, sufs)
             if bare_form != form and (layer, bare_form) not in seen:
                 seen.add((layer, bare_form))
                 found.append((layer, bare_form, depth.get(layer, 4)))
     # الأعمقُ طبقةً أوّلًا، ثمّ الأتمُّ صوامتَ في الطبقةِ الواحدة. فالشجرةُ تسردُ
     # الجذرَ المجرَّدَ واللاحقةَ والصورةَ التامّةَ معًا، والتامّةُ هي المقصودة.
-    # الأعمقُ طبقةً أوّلًا، ثمّ الأتمُّ صوامتَ بعدَ طرحِ اللاحقة
     found.sort(key=lambda x: (x[2], -len(proto_skeleton(x[1]))))
     return found
 
@@ -290,42 +352,58 @@ def main() -> int:
         # `*ph₂tḗr` لأنّها تفتحُ ستّينَ مرشَّحًا، فينزلُ المسحُ إلى اللاحقةِ `*tḗr`
         # فيقابِلُ «ـتَر» بدلَ الكلمة. والسقفُ ضابطُ ضجيجٍ لا يجوزُ أن يُبدِّلَ
         # المادّةَ المقارَنة، فإن ضاقَ عن الأتمِّ وُسِّعَ له ولم يُستبدَلْ بها غيرُها.
-        for layer, form, depth in ancestors_of(r["etymology"])[:1]:
-            sk = proto_skeleton(form)
-            cands = proto_fan(form)
-            if not cands:
-                continue
-            hits = [c for c in cands if c in ar]
-            if not hits:
-                continue
-            # وسمٌ وصفيٌّ للطابور فقط؛ المروحةُ تفرضُ حلقيًّا عربيًّا في هذا
-            # الموضع، فلا يكونُ توافقُ الموضعِ شاهدًا ولا يدخلُ الحكم.
-            laryngeal = any(c in {"h₁", "h₂", "h₃", "H",
-                                  "ʔ", "ʕ", "ḥ", "ḫ", "ġ", "ʿ", "ʾ"} for c in sk)
+        for layer, source_form, depth in ancestors_of(r["etymology"])[:1]:
+            variants = [(source_form, "كما وردَت")]
+            alternate = case_ending_alternate(source_form, args.lang, layer)
+            if alternate:
+                alternate_form, ending = alternate
+                variants.append((alternate_form,
+                                 f"بإسقاطِ علامةِ الإعرابِ -{ending}"))
+
             branch_words = B.words_of(" ".join(r["glosses"]))
-            scored = []
-            for c in hits:
-                direct = branch_words & head.get(c, set())
-                near = (branch_words & gloss.get(c, set())) - direct
-                scored.append((c, 3 * len(direct) + len(near),
-                               sorted(direct)[:4] or sorted(near)[:3], bool(direct)))
-            scored.sort(key=lambda x: (-x[1], len(x[0])))
-            best = scored[0]
-            row = {
-                "branch": r["word"], "ancestor": form, "layer": layer, "depth": depth,
-                "skeleton": "-".join(sk), "laryngeal": laryngeal,
-                "gloss": "; ".join(r["glosses"][:2])[:90],
-                "candidates_found": [c for c, _, _, _ in scored],
-                "best": best[0], "overlap": best[1], "shared": best[2],
-                "direct": best[3],
-            }
-            if best[1] >= args.min_overlap:
+            compared = []
+            for comparison_form, skeleton_source in variants:
+                sk = proto_skeleton(comparison_form)
+                cands = proto_fan(comparison_form)
+                if not cands:
+                    continue
+                hits = [c for c in cands if c in ar]
+                if not hits:
+                    continue
+                # وسمٌ وصفيٌّ للطابور فقط؛ المروحةُ تفرضُ حلقيًّا عربيًّا في هذا
+                # الموضع، فلا يكونُ توافقُ الموضعِ شاهدًا ولا يدخلُ الحكم.
+                laryngeal = any(c in {"h₁", "h₂", "h₃", "H", "ʔ", "ʕ", "ḥ",
+                                      "ḫ", "ġ", "ʿ", "ʾ"} for c in sk)
+                scored = []
+                for c in hits:
+                    direct = branch_words & head.get(c, set())
+                    near = (branch_words & gloss.get(c, set())) - direct
+                    scored.append((c, 3 * len(direct) + len(near),
+                                   sorted(direct)[:4] or sorted(near)[:3], bool(direct)))
+                scored.sort(key=lambda x: (-x[1], len(x[0])))
+                best = scored[0]
+                compared.append({
+                    "branch": r["word"], "ancestor": source_form,
+                    "comparison_form": comparison_form,
+                    "layer": layer, "depth": depth,
+                    "skeleton": "-".join(sk), "skeleton_source": skeleton_source,
+                    "laryngeal": laryngeal,
+                    "gloss": "; ".join(r["glosses"][:2])[:90],
+                    "candidates_found": [c for c, _, _, _ in scored],
+                    "best": best[0], "overlap": best[1], "shared": best[2],
+                    "direct": best[3],
+                })
+
+            # إن طابقَ الهيكلانِ صوتًا ومعنًى بقيَ الصفُّ مرّةً واحدةً بوسمِ الأصل.
+            semantic = [row for row in compared if row["overlap"] >= args.min_overlap]
+            if semantic:
+                row = semantic[0]
                 both.append(row)
                 layers[layer] += 1
-                if laryngeal:
+                if row["laryngeal"]:
                     with_laryngeal += 1
-            else:
-                sound_only.append(row)
+            elif compared:
+                sound_only.append(compared[0])
             break                      # أقدمُ طبقةٍ متاحةٍ تكفي، ولا تُكرَّرُ الكلمة
 
     # الحنجريّةُ أوّلًا بوصفها طابورَ صورٍ قديمةٍ ذاتِ معنى، لا بوصفها شاهدًا؛
@@ -343,7 +421,8 @@ def main() -> int:
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     base = OUT_DIR / f"ancestor-sweep-{args.lang}"
-    json.dump({"language": args.lang, "method": "reconstructed ancestor, not the living word",
+    json.dump({"language": args.lang, "truth_layer": "استكشاف",
+               "method": "reconstructed ancestor, not the living word",
                "with_laryngeal": with_laryngeal,
                "both": both, "sound_only": sound_only[:2000]},
               open(base.with_suffix(".json"), "w", encoding="utf-8"),
@@ -356,19 +435,22 @@ def main() -> int:
         "",
         "**الطريقة:** لا تُقارَنُ الكلمةُ الحيّةُ بل الصورةُ التي يقولُ الاشتقاقُ المنشورُ",
         "إنّها أصلُها، لأنّ الصورةَ الأقدمَ تحفظُ مادةً صوتيّةً لا تظهرُ في اللفظِ الحيّ.",
+        "تُقارَنُ الصورةُ كما وردَت، ويُفتَحُ بجانبِها هيكلٌ بديلٌ واحدٌ إذا ختمَتْها",
+        "علامةُ إعرابٍ معروفةٌ في لسانِها. وهذا توسيعٌ للمروحةِ لا حكمٌ على الكلمة.",
         "**وسمُ الحنجريّةِ طابورٌ وصفيٌّ فقط:** المروحةُ تفرضُ حلقيًّا عربيًّا في موضعِها،",
         "فلا يكونُ توافقُ الموضعِ دليلًا. تُحكَمُ الأزواجُ بالصورةِ والمعنى والإشعاع.",
         "",
         f"**مطابقة: {len(both):,}** · بشهادةٍ مباشرة: {direct:,} · **فيها حنجريّةٌ مستعادة: {with_laryngeal:,}**",
         "",
-        "| الكلمةُ الحيّة | الصورةُ المستعادة | طبقتُها | الهيكل | معناها | العربيّ | التقاطع |",
-        "|---|---|---|---|---|---|---|",
+        "| الكلمةُ الحيّة | الصورةُ المستعادة | الصورةُ المقابَلة | طبقتُها | الهيكل | مسارُ الهيكل | معناها | العربيّ | التقاطع |",
+        "|---|---|---|---|---|---|---|---|---|",
     ]
     for r in both[:500]:
         mark = " ⟵ حنجريّة" if r["laryngeal"] else ""
         lines.append(
-            f"| `{r['branch']}` | `*{r['ancestor']}`{mark} | {r['layer']} | "
-            f"{r['skeleton']} | {r['gloss']} | **{r['best']}** | "
+            f"| `{r['branch']}` | `*{r['ancestor']}`{mark} | `*{r['comparison_form']}` | "
+            f"{r['layer']} | {r['skeleton']} | {r['skeleton_source']} | "
+            f"{r['gloss']} | **{r['best']}** | "
             f"{'مباشر' if r['direct'] else 'قرينة'} {r['overlap']}: {' '.join(r['shared'])} |"
         )
     base.with_suffix(".md").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
