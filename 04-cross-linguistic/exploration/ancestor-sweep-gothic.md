@@ -3,23 +3,35 @@
 **الطبقة:** استكشاف. **لا حكمَ ولا عدَّ ولا نشر.**
 
 **الطريقة:** لا تُقارَنُ الكلمةُ الحيّةُ بل الصورةُ التي يقولُ الاشتقاقُ المنشورُ
-إنّها أصلُها. **تصحيح 2026-08-09:** صفوف الحنجريّة طابورٌ لأشكال قديمة فقط؛
-المروحةُ تفرض حلقيًا عربيًا في خانتها، فضابط الطُّعم المطابق للتغطية أسقط دعوى
-الفئة. يُحكم كل زوج بالصورة والمعنى والمدار وحدها، ولا يكون الموضع دليلًا
-[المحضر: `../../05-audits/2026-08-08-laryngeal-claim-refuted-by-its-own-control.md`].
+إنّها أصلُها، لأنّ الصورةَ الأقدمَ تحفظُ مادةً صوتيّةً لا تظهرُ في اللفظِ الحيّ.
+**وسمُ الحنجريّةِ طابورٌ وصفيٌّ فقط:** المروحةُ تفرضُ حلقيًّا عربيًّا في موضعِها،
+فلا يكونُ توافقُ الموضعِ دليلًا. تُحكَمُ الأزواجُ بالصورةِ والمعنى والإشعاع.
 
-**مطابقة: 62** · بشهادةٍ مباشرة: 30 · **فيها حنجريّةٌ مستعادة: 6**
+**مطابقة: 74** · بشهادةٍ مباشرة: 35 · **فيها حنجريّةٌ مستعادة: 18**
 
 | الكلمةُ الحيّة | الصورةُ المستعادة | طبقتُها | الهيكل | معناها | العربيّ | التقاطع |
 |---|---|---|---|---|---|---|
-| `𐌲𐍂𐌰𐍃` | `*gʰreh₁` ⟵ حنجريّة | Proto-Indo-European | gʰ-r-h₁ | blade (narrow leaf of a grass or cereal.); herb (plant whose stem is not woody) | **قرء** | مباشر 3: not |
+| `𐌿𐍃𐌱𐍂𐌿𐌺𐌽𐌰𐌽` | `*bʰruHg` ⟵ حنجريّة | Proto-Indo-European | bʰ-r-H-g | to break off, become broken off | **فلق** | مباشر 12: become break broken off |
+| `𐌲𐌰𐍂𐌴𐌷𐍃𐌽𐍃` | `*Hrek` ⟵ حنجريّة | Proto-Indo-European | H-r-k | a fixed time; plan | **غلق** | مباشر 4: time |
+| `𐌰𐌻𐌾𐌹𐍃` | `*h₂élyos` ⟵ حنجريّة | Proto-Indo-European | h₂-l-y-s | other, another | **ريش** | مباشر 3: other |
 | `𐌹𐌿𐍃𐌹𐌶𐌰` | `*h₁wésus` ⟵ حنجريّة | Proto-Indo-European | h₁-w-s | better; comparative degree of 𐌲𐍉𐌸𐍃 (gōþs) | **هوس** | مباشر 3: degree |
+| `𐌽𐌰𐌲𐌻𐍃` | `*h₃negʰ` ⟵ حنجريّة | Proto-Indo-European | h₃-n-gʰ | nail, peg used for fastening; possibly nail, fingernail, toenail | **نق** | مباشر 3: nail |
+| `𐌿𐍃𐍅𐌰𐌻𐌿𐌲𐌾𐌰𐌽` | `*welH` ⟵ حنجريّة | Proto-Indo-European | w-l-H | to toss about, to move to and fro | **ول** | مباشر 3: about |
+| `𐌲𐍂𐌰𐍃` | `*gʰreh₁` ⟵ حنجريّة | Proto-Indo-European | gʰ-r-h₁ | blade (narrow leaf of a grass or cereal.); herb (plant whose stem is not woody) | **جل** | قرينة 3: blade cereal grass |
 | `𐌰𐍂𐌰` | `*h₃érō` ⟵ حنجريّة | Proto-Indo-European | h₃-r | eagle (bird) | **غر** | قرينة 1: bird |
+| `𐌰𐌹𐍈𐍃` | `*h₁éḱwos` ⟵ حنجريّة | Proto-Indo-European | h₁-ḱ-w-s | horse | **قوش** | قرينة 1: horse |
+| `𐍆𐍉𐌽` | `*péh₂wr̥` ⟵ حنجريّة | Proto-Indo-European | p-h₂-w-r | fire (chemical reaction) | **بور** | قرينة 1: chemical |
+| `𐍃𐍄𐌰𐌹𐍂𐌽𐍉` | `*h₂stḗr` ⟵ حنجريّة | Proto-Indo-European | h₂-s-t-r | star (luminous celestial body) | **ستر** | قرينة 1: body |
+| `𐌰𐌺𐍂𐍃` | `*h₂éǵros` ⟵ حنجريّة | Proto-Indo-European | h₂-ǵ-r-s | field (wide, open space used to grow crops or to hold farm animals) | **غرس** | قرينة 1: grow |
 | `𐌰𐌽𐌳` | `*h₂entó` ⟵ حنجريّة | Proto-Indo-European | h₂-n-t | along, through, into, against | **حنط** | قرينة 1: into |
 | `𐌰𐌷𐌰𐌺𐍃` | `*h₂eḱ` ⟵ حنجريّة | Proto-Indo-European | h₂-ḱ | pigeon, dove (bird) | **عش** | قرينة 1: bird |
+| `𐌼𐌰𐌻𐍉` | `*melh₂` ⟵ حنجريّة | Proto-Indo-European | m-l-h₂ | moth (insect) | **مل** | قرينة 1: insect |
 | `𐍅𐌹𐌻𐍅𐌰𐌽` | `*welh₃` ⟵ حنجريّة | Proto-Indo-European | w-l-h₃ | to take by force (of people or things), to rob, to raven (obtain or seize by violence) | **ولغ** | قرينة 1: take |
+| `𐌲𐌰𐌺𐌿𐌽𐌸𐍃` | `*ǵenh₁` ⟵ حنجريّة | Proto-Indo-European | ǵ-n-h₁ | Semantically unclear; used in the phrase uf gakunþai, translating ἀρχόμενος. | **غن** | قرينة 1: phrase |
+| `𐌿𐌽𐌳𐌰𐍂𐌻𐌴𐌹𐌾𐌰` | `*Heh₃l` ⟵ حنجريّة | Proto-Indo-European | H-h₃-l | the lowest or basest man | **حل** | قرينة 1: man |
 | `𐍂𐌰𐌶𐌳𐌰` | `*res` | Proto-Indo-European | r-s | tongue; speech, language | **لس** | مباشر 9: language speech tongue |
 | `𐌷𐌰𐌹𐍂𐍄𐍉` | `*ḱḗr` | Proto-Indo-European | ḱ-r | heart | **سر** | مباشر 3: heart |
+| `𐍃𐌹𐌱𐌿𐌽` | `*septḿ̥` | Proto-Indo-European | s-p-t | seven (cardinal number) | **سبت** | مباشر 3: seven |
 | `𐌱𐌰𐌹𐍂𐌰𐌽` | `*bʰéreti` | Proto-Indo-European | bʰ-r-t | to bear, to carry, to bring forth | **فرط** | مباشر 3: forth |
 | `𐌱𐌰𐌿𐍂𐌲𐍃` | `*bʰerǵʰ` | Proto-Indo-European | bʰ-r-ǵʰ | castle, fort; polis, city | **برج** | مباشر 3: castle |
 | `𐌲𐍉𐌸𐍃` | `*gʰedʰ` | Proto-Indo-European | gʰ-dʰ | good | **جد** | مباشر 3: good |
@@ -29,11 +41,11 @@
 | `𐌲𐌹𐌻𐌸𐌰` | `*gʰel` | Proto-Indo-European | gʰ-l | sickle | **جل** | مباشر 3: sickle |
 | `𐌼𐌹𐍄𐌰𐌽` | `*med` | Proto-Indo-European | m-d | to measure, gauge | **مد** | مباشر 3: measure |
 | `𐌲𐍂𐌰𐌱𐌰𐌽` | `*gʰrebʰ` | Proto-Indo-European | gʰ-r-bʰ | to dig | **جرف** | مباشر 3: dig |
+| `𐌲𐌰𐍄𐌰𐍂𐌷𐌾𐌰𐌽` | `*dorḱ-éie` | Proto-Indo-European | d-r-ḱ | to flag, mark, note | **درس** | مباشر 3: mark |
 | `𐍄𐌰𐌹𐍂𐌰𐌽` | `*der` | Proto-Indo-European | d-r | to tear, pull off | **ذر** | مباشر 3: off |
 | `𐍄𐌰𐍂𐌼𐌾𐌰𐌽` | `*der` | Proto-Indo-European | d-r | to break out, break forth | **ذر** | مباشر 3: forth |
 | `𐌿𐍆𐌰𐍂𐍄𐍂𐌿𐍃𐌽𐌾𐌰𐌽` | `*dóru` | Proto-Indo-European | d-r | to sprinkle over | **ذر** | مباشر 3: sprinkle |
 | `𐍈𐌰𐌽` | `*hwan` | Proto-Germanic | h-w-n | when; whenever, if | **هون** | مباشر 6: degree what |
-| `𐍆𐌰𐌹𐍂𐍂𐌰` | `*ferrai` | Proto-Germanic | f-r | far away from | **فر** | مباشر 3: away |
 | `𐌾𐌴𐍂` | `*jērą` | Proto-Germanic | j-r | year; a long time | **جر** | مباشر 3: time |
 | `𐍃𐍀𐌹𐌻𐌻` | `*spellą` | Proto-Germanic | s-p-l | story, tale, fable | **سفر** | مباشر 3: story |
 | `𐌳𐌰𐌻𐌰𐌸` | `*dalą` | Proto-Germanic | d-l | down, downwards; below | **ذر** | مباشر 3: down |
@@ -51,14 +63,13 @@
 | `𐍆𐌰𐌹𐌷𐌿` | `*péḱu` | Proto-Indo-European | p-ḱ | property, possessions; wealth, riches | **فك** | قرينة 1: money |
 | `𐌻𐌹𐌱𐌰𐌽` | `*leyp` | Proto-Indo-European | l-y-p | to live | **ليف** | قرينة 1: live |
 | `𐌷𐌻𐌴𐌹𐌳𐌿𐌼𐌰` | `*ḱley` | Proto-Indo-European | ḱ-l-y | left (west side of the body when one is facing north); left (left hand; the left side) | **كري** | قرينة 1: north |
-| `𐍃𐍅𐌴𐌹𐌽` | `*swīną` | Proto-Germanic | s-w-n | pig (animal, Sus) | **شون** | قرينة 1: animal |
 | `𐌱𐌻𐍉𐌼𐌰` | `*blōmô` | Proto-Germanic | b-l-m | lily (flower in the genus Lilium) | **بلم** | قرينة 1: genus |
 | `𐍈𐌰𐍂` | `*hwar` | Proto-Germanic | h-w-r | where | **خور** | قرينة 1: where |
 | `𐌸𐌰𐌿𐍂𐌱𐌰𐌽` | `*þurbaną` | Proto-Germanic | r-b-n | to need; to need to, to be required to, to have to | **لبن** | قرينة 1: have |
 | `𐌸𐌰𐌹𐍂𐌷` | `*þerhw` | Proto-Germanic | r-h-w | through; by | **رخو** | قرينة 1: through |
 | `𐍂𐌰𐌲𐌹𐌽𐍉𐌽` | `*raginōną` | Proto-Germanic | r-g-n | to rule, to be a ruler (with dative: over); to advise, give counsel | **لقن** | قرينة 1: give |
-| `𐍆𐌿𐌻𐌻𐍃` | `*fullaz` | Proto-Germanic | f-l-z | full (not empty); the whole, the entire | **برص** | قرينة 1: not |
 | `𐌰𐍆𐌰𐍂` | `*afar` | Proto-Germanic | f-r | after, following (in time); after, following (in space) | **فل** | قرينة 1: space |
+| `𐌲𐌰𐍂𐌳𐌰` | `*gardô` | Proto-Germanic | g-r-d | pen (enclosure for animals) | **جلد** | قرينة 1: animals |
 | `𐌻𐌰𐌿𐍆𐍃` | `*laubą` | Proto-Germanic | l-b | leaf (part of a plant); foliage | **رب** | قرينة 1: plant |
 | `𐌰𐍆𐍄𐌰𐌽𐌰` | `*aftanē` | Proto-Germanic | f-t-n | from behind | **بطن** | قرينة 1: behind |
 | `𐍅𐌹𐌻𐌾𐌰` | `*wiljô` | Proto-Germanic | w-l-j | will, desire | **ولي** | قرينة 1: will |

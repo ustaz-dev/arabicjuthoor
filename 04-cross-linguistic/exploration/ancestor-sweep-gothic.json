@@ -1,31 +1,103 @@
 {
  "language": "gothic",
  "method": "reconstructed ancestor, not the living word",
- "with_laryngeal": 6,
+ "with_laryngeal": 18,
  "both": [
   {
-   "branch": "𐌲𐍂𐌰𐍃",
-   "ancestor": "gʰreh₁",
+   "branch": "𐌿𐍃𐌱𐍂𐌿𐌺𐌽𐌰𐌽",
+   "ancestor": "bʰruHg",
    "layer": "Proto-Indo-European",
    "depth": 1,
-   "skeleton": "gʰ-r-h₁",
+   "skeleton": "bʰ-r-H-g",
    "laryngeal": true,
-   "gloss": "blade (narrow leaf of a grass or cereal.); herb (plant whose stem is not woody)",
+   "gloss": "to break off, become broken off",
    "candidates_found": [
-    "قرء",
-    "جرء",
-    "جره",
-    "جلء",
-    "جله",
-    "غره",
-    "قره",
-    "قلء",
-    "قله"
+    "فلق",
+    "برج",
+    "برق",
+    "برغ",
+    "بلج",
+    "بلغ",
+    "بلق",
+    "فرج",
+    "فرغ",
+    "فرق",
+    "فلج",
+    "فلغ",
+    "برهق",
+    "بلهق",
+    "بلعق",
+    "فرحج"
    ],
-   "best": "قرء",
+   "best": "فلق",
+   "overlap": 12,
+   "shared": [
+    "become",
+    "break",
+    "broken",
+    "off"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "𐌲𐌰𐍂𐌴𐌷𐍃𐌽𐍃",
+   "ancestor": "Hrek",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "H-r-k",
+   "laryngeal": true,
+   "gloss": "a fixed time; plan",
+   "candidates_found": [
+    "غلق",
+    "حرك",
+    "غرق",
+    "رك",
+    "رق",
+    "لك",
+    "لق",
+    "هرق",
+    "هلك",
+    "هلق",
+    "حرق",
+    "حلك",
+    "حلق",
+    "عرك",
+    "عرق",
+    "علك",
+    "علق",
+    "غرك",
+    "خرك",
+    "خرق",
+    "خلك",
+    "خلق"
+   ],
+   "best": "غلق",
+   "overlap": 4,
+   "shared": [
+    "time"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "𐌰𐌻𐌾𐌹𐍃",
+   "ancestor": "h₂élyos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-l-y-s",
+   "laryngeal": true,
+   "gloss": "other, another",
+   "candidates_found": [
+    "ريش",
+    "ليس",
+    "ليص",
+    "ليز",
+    "ريس",
+    "حريص"
+   ],
+   "best": "ريش",
    "overlap": 3,
    "shared": [
-    "not"
+    "other"
    ],
    "direct": true
   },
@@ -39,6 +111,10 @@
    "gloss": "better; comparative degree of 𐌲𐍉𐌸𐍃 (gōþs)",
    "candidates_found": [
     "هوس",
+    "وس",
+    "وص",
+    "وش",
+    "وز",
     "هوش",
     "هوز"
    ],
@@ -48,6 +124,93 @@
     "degree"
    ],
    "direct": true
+  },
+  {
+   "branch": "𐌽𐌰𐌲𐌻𐍃",
+   "ancestor": "h₃negʰ",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₃-n-gʰ",
+   "laryngeal": true,
+   "gloss": "nail, peg used for fastening; possibly nail, fingernail, toenail",
+   "candidates_found": [
+    "نق",
+    "نج",
+    "نغ",
+    "عنج",
+    "عنق",
+    "غنج",
+    "هنج",
+    "هنغ",
+    "هنق"
+   ],
+   "best": "نق",
+   "overlap": 3,
+   "shared": [
+    "nail"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "𐌿𐍃𐍅𐌰𐌻𐌿𐌲𐌾𐌰𐌽",
+   "ancestor": "welH",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "w-l-H",
+   "laryngeal": true,
+   "gloss": "to toss about, to move to and fro",
+   "candidates_found": [
+    "ول",
+    "وله",
+    "ولح",
+    "ولع",
+    "ولغ",
+    "ولخ",
+    "وره",
+    "ورع",
+    "ورغ",
+    "ورخ"
+   ],
+   "best": "ول",
+   "overlap": 3,
+   "shared": [
+    "about"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "𐌲𐍂𐌰𐍃",
+   "ancestor": "gʰreh₁",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "gʰ-r-h₁",
+   "laryngeal": true,
+   "gloss": "blade (narrow leaf of a grass or cereal.); herb (plant whose stem is not woody)",
+   "candidates_found": [
+    "جل",
+    "قرء",
+    "غل",
+    "قر",
+    "قل",
+    "جر",
+    "غر",
+    "جرء",
+    "جره",
+    "جلء",
+    "جله",
+    "غره",
+    "قره",
+    "قلء",
+    "قله"
+   ],
+   "best": "جل",
+   "overlap": 3,
+   "shared": [
+    "blade",
+    "cereal",
+    "grass"
+   ],
+   "direct": false
   },
   {
    "branch": "𐌰𐍂𐌰",
@@ -73,6 +236,128 @@
    "direct": false
   },
   {
+   "branch": "𐌰𐌹𐍈𐍃",
+   "ancestor": "h₁éḱwos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₁-ḱ-w-s",
+   "laryngeal": true,
+   "gloss": "horse",
+   "candidates_found": [
+    "قوش",
+    "كوس",
+    "كوش",
+    "كوز",
+    "قوس",
+    "قوص",
+    "قوز",
+    "شوس",
+    "شوص",
+    "شوش",
+    "شوز",
+    "سوس"
+   ],
+   "best": "قوش",
+   "overlap": 1,
+   "shared": [
+    "horse"
+   ],
+   "direct": false
+  },
+  {
+   "branch": "𐍆𐍉𐌽",
+   "ancestor": "péh₂wr̥",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "p-h₂-w-r",
+   "laryngeal": true,
+   "gloss": "fire (chemical reaction)",
+   "candidates_found": [
+    "بور",
+    "بول",
+    "فور",
+    "فول"
+   ],
+   "best": "بور",
+   "overlap": 1,
+   "shared": [
+    "chemical"
+   ],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐍄𐌰𐌹𐍂𐌽𐍉",
+   "ancestor": "h₂stḗr",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-s-t-r",
+   "laryngeal": true,
+   "gloss": "star (luminous celestial body)",
+   "candidates_found": [
+    "ستر",
+    "ستل",
+    "سطر",
+    "سطل",
+    "صطر",
+    "شتر",
+    "شتل",
+    "شطر",
+    "شثر",
+    "شثل",
+    "عسطل",
+    "خشتر"
+   ],
+   "best": "ستر",
+   "overlap": 1,
+   "shared": [
+    "body"
+   ],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌺𐍂𐍃",
+   "ancestor": "h₂éǵros",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-ǵ-r-s",
+   "laryngeal": true,
+   "gloss": "field (wide, open space used to grow crops or to hold farm animals)",
+   "candidates_found": [
+    "غرس",
+    "هجرس",
+    "جرس",
+    "جرص",
+    "جرش",
+    "جرز",
+    "جلس",
+    "جلز",
+    "زرز",
+    "زلز",
+    "قرس",
+    "قرص",
+    "قرش",
+    "قرز",
+    "قلس",
+    "قلص",
+    "قلش",
+    "قلز",
+    "غرش",
+    "غرز",
+    "غلس",
+    "غلص",
+    "عجرز",
+    "عجلز",
+    "عقرس",
+    "هقلس"
+   ],
+   "best": "غرس",
+   "overlap": 1,
+   "shared": [
+    "grow"
+   ],
+   "direct": false
+  },
+  {
    "branch": "𐌰𐌽𐌳",
    "ancestor": "h₂entó",
    "layer": "Proto-Indo-European",
@@ -82,6 +367,8 @@
    "gloss": "along, through, into, against",
    "candidates_found": [
     "حنط",
+    "نت",
+    "نث",
     "حنت",
     "حنث",
     "عنت",
@@ -133,6 +420,33 @@
    "direct": false
   },
   {
+   "branch": "𐌼𐌰𐌻𐍉",
+   "ancestor": "melh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "m-l-h₂",
+   "laryngeal": true,
+   "gloss": "moth (insect)",
+   "candidates_found": [
+    "مل",
+    "مر",
+    "ملح",
+    "ملع",
+    "ملخ",
+    "مله",
+    "مرح",
+    "مرع",
+    "مرخ",
+    "مره"
+   ],
+   "best": "مل",
+   "overlap": 1,
+   "shared": [
+    "insect"
+   ],
+   "direct": false
+  },
+  {
    "branch": "𐍅𐌹𐌻𐍅𐌰𐌽",
    "ancestor": "welh₃",
    "layer": "Proto-Indo-European",
@@ -142,6 +456,7 @@
    "gloss": "to take by force (of people or things), to rob, to raven (obtain or seize by violence)",
    "candidates_found": [
     "ولغ",
+    "ول",
     "ولع",
     "وله",
     "ورع",
@@ -152,6 +467,66 @@
    "overlap": 1,
    "shared": [
     "take"
+   ],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐌺𐌿𐌽𐌸𐍃",
+   "ancestor": "ǵenh₁",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "ǵ-n-h₁",
+   "laryngeal": true,
+   "gloss": "Semantically unclear; used in the phrase uf gakunþai, translating ἀρχόμενος.",
+   "candidates_found": [
+    "غن",
+    "جن",
+    "زن",
+    "قن",
+    "جنء",
+    "جنه",
+    "قنء"
+   ],
+   "best": "غن",
+   "overlap": 1,
+   "shared": [
+    "phrase"
+   ],
+   "direct": false
+  },
+  {
+   "branch": "𐌿𐌽𐌳𐌰𐍂𐌻𐌴𐌹𐌾𐌰",
+   "ancestor": "Heh₃l",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "H-h₃-l",
+   "laryngeal": true,
+   "gloss": "the lowest or basest man",
+   "candidates_found": [
+    "حل",
+    "خل",
+    "هل",
+    "هر",
+    "حر",
+    "عل",
+    "عر",
+    "غل",
+    "غر",
+    "خر",
+    "هعر",
+    "هغل",
+    "هغر",
+    "حعل",
+    "حهل",
+    "عهل",
+    "عهر",
+    "خعل",
+    "خعر"
+   ],
+   "best": "حل",
+   "overlap": 1,
+   "shared": [
+    "man"
    ],
    "direct": false
   },
@@ -203,6 +578,38 @@
    "overlap": 3,
    "shared": [
     "heart"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "𐍃𐌹𐌱𐌿𐌽",
+   "ancestor": "septḿ̥",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-p-t",
+   "laryngeal": false,
+   "gloss": "seven (cardinal number)",
+   "candidates_found": [
+    "سبت",
+    "سبط",
+    "سفت",
+    "سفط",
+    "صبط",
+    "صبث",
+    "صفت",
+    "صفط",
+    "شبت",
+    "شبط",
+    "شبث",
+    "شفت",
+    "شفث",
+    "زبط",
+    "زفت"
+   ],
+   "best": "سبت",
+   "overlap": 3,
+   "shared": [
+    "seven"
    ],
    "direct": true
   },
@@ -430,6 +837,35 @@
    "direct": true
   },
   {
+   "branch": "𐌲𐌰𐍄𐌰𐍂𐌷𐌾𐌰𐌽",
+   "ancestor": "dorḱ-éie",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "d-r-ḱ",
+   "laryngeal": false,
+   "gloss": "to flag, mark, note",
+   "candidates_found": [
+    "درس",
+    "درك",
+    "درق",
+    "درش",
+    "دلك",
+    "دلق",
+    "دلس",
+    "ضرك",
+    "ضرس",
+    "ذرق",
+    "ذلك",
+    "ذلق"
+   ],
+   "best": "درس",
+   "overlap": 3,
+   "shared": [
+    "mark"
+   ],
+   "direct": true
+  },
+  {
    "branch": "𐍄𐌰𐌹𐍂𐌰𐌽",
    "ancestor": "der",
    "layer": "Proto-Indo-European",
@@ -516,27 +952,6 @@
    "shared": [
     "degree",
     "what"
-   ],
-   "direct": true
-  },
-  {
-   "branch": "𐍆𐌰𐌹𐍂𐍂𐌰",
-   "ancestor": "ferrai",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "f-r",
-   "laryngeal": false,
-   "gloss": "far away from",
-   "candidates_found": [
-    "فر",
-    "فل",
-    "بر",
-    "بل"
-   ],
-   "best": "فر",
-   "overlap": 3,
-   "shared": [
-    "away"
    ],
    "direct": true
   },
@@ -929,27 +1344,6 @@
    "direct": false
   },
   {
-   "branch": "𐍃𐍅𐌴𐌹𐌽",
-   "ancestor": "swīną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "s-w-n",
-   "laryngeal": false,
-   "gloss": "pig (animal, Sus)",
-   "candidates_found": [
-    "شون",
-    "سون",
-    "صون",
-    "زون"
-   ],
-   "best": "شون",
-   "overlap": 1,
-   "shared": [
-    "animal"
-   ],
-   "direct": false
-  },
-  {
    "branch": "𐌱𐌻𐍉𐌼𐌰",
    "ancestor": "blōmô",
    "layer": "Proto-Germanic",
@@ -1057,33 +1451,6 @@
    "direct": false
   },
   {
-   "branch": "𐍆𐌿𐌻𐌻𐍃",
-   "ancestor": "fullaz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "f-l-z",
-   "laryngeal": false,
-   "gloss": "full (not empty); the whole, the entire",
-   "candidates_found": [
-    "برص",
-    "فلز",
-    "فلذ",
-    "فلص",
-    "فرز",
-    "فرص",
-    "بلز",
-    "بلص",
-    "برز",
-    "برذ"
-   ],
-   "best": "برص",
-   "overlap": 1,
-   "shared": [
-    "not"
-   ],
-   "direct": false
-  },
-  {
    "branch": "𐌰𐍆𐌰𐍂",
    "ancestor": "afar",
    "layer": "Proto-Germanic",
@@ -1101,6 +1468,37 @@
    "overlap": 1,
    "shared": [
     "space"
+   ],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐍂𐌳𐌰",
+   "ancestor": "gardô",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-r-d",
+   "laryngeal": false,
+   "gloss": "pen (enclosure for animals)",
+   "candidates_found": [
+    "جلد",
+    "جرد",
+    "جرض",
+    "جرذ",
+    "جلض",
+    "جلذ",
+    "غرد",
+    "غرض",
+    "غلد",
+    "غلذ",
+    "قرد",
+    "قرض",
+    "قلد",
+    "قلذ"
+   ],
+   "best": "جلد",
+   "overlap": 1,
+   "shared": [
+    "animals"
    ],
    "direct": false
   },
@@ -1483,37 +1881,65 @@
   },
   {
    "branch": "𐌰𐍈𐌰",
-   "ancestor": "ahwō",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "h-w",
-   "laryngeal": false,
+   "ancestor": "h₂ékʷeh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-kʷ-h₂",
+   "laryngeal": true,
    "gloss": "river",
    "candidates_found": [
-    "هو",
-    "حو",
-    "خو"
+    "حك",
+    "حق",
+    "عك",
+    "عق",
+    "خك",
+    "خق",
+    "هك",
+    "هق",
+    "كح",
+    "كع",
+    "كخ",
+    "كه",
+    "قح",
+    "قع",
+    "قه",
+    "هكع",
+    "هقع"
    ],
-   "best": "هو",
+   "best": "حك",
    "overlap": 0,
    "shared": [],
    "direct": false
   },
   {
    "branch": "𐌰𐌺𐍂𐌰𐌽",
-   "ancestor": "akraną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "k-r-n",
-   "laryngeal": false,
+   "ancestor": "h₂ógeh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-g-h₂",
+   "laryngeal": true,
    "gloss": "fruit",
    "candidates_found": [
-    "كرن",
-    "كلن",
-    "قرن",
-    "قلن"
+    "حج",
+    "حق",
+    "عج",
+    "عق",
+    "خج",
+    "خق",
+    "هج",
+    "هغ",
+    "هق",
+    "جح",
+    "جع",
+    "جخ",
+    "قح",
+    "قع",
+    "قه",
+    "عجه",
+    "هجع",
+    "هقع"
    ],
-   "best": "كرن",
+   "best": "حج",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -1573,39 +1999,88 @@
   },
   {
    "branch": "𐌱𐍂𐍉𐌸𐌰𐍂",
-   "ancestor": "brōþēr",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "b-r",
-   "laryngeal": false,
+   "ancestor": "bʰréh₂tēr",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "bʰ-r-h₂-t-r",
+   "laryngeal": true,
    "gloss": "brother",
    "candidates_found": [
-    "بر",
-    "بل"
+    "برطل"
    ],
-   "best": "بر",
+   "best": "برطل",
    "overlap": 0,
    "shared": [],
    "direct": false
   },
   {
    "branch": "𐍆𐌰𐌳𐌰𐍂",
-   "ancestor": "fadēr",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "f-d-r",
-   "laryngeal": false,
+   "ancestor": "ph₂tḗr",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "p-h₂-t-r",
+   "laryngeal": true,
    "gloss": "father",
    "candidates_found": [
-    "فدر",
-    "فضل",
-    "بدر",
-    "بدل",
-    "بضر",
-    "بذر",
-    "بذل"
+    "بتر",
+    "بتل",
+    "بطر",
+    "بطل",
+    "بثر",
+    "بثل",
+    "فتر",
+    "فتل",
+    "فطر",
+    "فثر",
+    "فثل",
+    "بحتر",
+    "بحثر",
+    "بعثر",
+    "بختر",
+    "بخثر",
+    "بهتر",
+    "فحطل"
    ],
-   "best": "فدر",
+   "best": "بتر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌳𐌰𐌿𐌷𐍄𐌰𐍂",
+   "ancestor": "dʰugh₂tḗr",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "dʰ-g-h₂-t-r",
+   "laryngeal": true,
+   "gloss": "daughter",
+   "candidates_found": [
+    "دغثر"
+   ],
+   "best": "دغثر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍄𐌰𐌲𐍂",
+   "ancestor": "dáḱru",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "d-ḱ-r",
+   "laryngeal": false,
+   "gloss": "teardrop",
+   "candidates_found": [
+    "دكر",
+    "دكل",
+    "دقر",
+    "دقل",
+    "دشل",
+    "دسر",
+    "ضكل",
+    "ذكر"
+   ],
+   "best": "دكر",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -1626,23 +2101,6 @@
     "هق"
    ],
    "best": "عك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌾𐌿𐌺",
-   "ancestor": "juką",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "j-k",
-   "laryngeal": false,
-   "gloss": "yoked pair of animals",
-   "candidates_found": [
-    "يك",
-    "جق"
-   ],
-   "best": "يك",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -1673,17 +2131,32 @@
   },
   {
    "branch": "𐌼𐌹𐌻𐌿𐌺𐍃",
-   "ancestor": "meluks",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "m-l-k-s",
-   "laryngeal": false,
+   "ancestor": "h₂melǵ",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-m-l-ǵ",
+   "laryngeal": true,
    "gloss": "milk",
    "candidates_found": [
-    "ملقس",
-    "مرقس"
+    "ملج",
+    "ملز",
+    "ملق",
+    "ملغ",
+    "مرج",
+    "مرز",
+    "مرق",
+    "مرغ",
+    "حملج",
+    "حملق",
+    "حمرق",
+    "عملج",
+    "عملق",
+    "هملج",
+    "هملق",
+    "همرج",
+    "همرز"
    ],
-   "best": "ملقس",
+   "best": "ملج",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -1768,39 +2241,21 @@
    "direct": false
   },
   {
-   "branch": "𐍃𐌹𐌱𐌿𐌽",
-   "ancestor": "sebun",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "s-b-n",
-   "laryngeal": false,
-   "gloss": "seven (cardinal number)",
-   "candidates_found": [
-    "سبن",
-    "صبن",
-    "شبن",
-    "زبن"
-   ],
-   "best": "سبن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐍅𐌰𐌹𐍂",
-   "ancestor": "weraz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "w-r-z",
-   "laryngeal": false,
+   "ancestor": "wiHrós",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "w-H-r-s",
+   "laryngeal": true,
    "gloss": "man",
    "candidates_found": [
-    "ورز",
-    "ورذ",
+    "ورس",
     "ورص",
-    "ولذ"
+    "ورش",
+    "ورز",
+    "ولس"
    ],
-   "best": "ورز",
+   "best": "ورس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -1817,6 +2272,23 @@
     "من"
    ],
    "best": "من",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌻𐌹𐌿𐌸𐍃",
+   "ancestor": "liudiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-d-z",
+   "laryngeal": false,
+   "gloss": "man",
+   "candidates_found": [
+    "لذذ",
+    "رذذ"
+   ],
+   "best": "لذذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -1888,75 +2360,66 @@
    "direct": false
   },
   {
-   "branch": "𐌰𐌹𐍈𐍃",
-   "ancestor": "ehwaz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "h-w-z",
-   "laryngeal": false,
-   "gloss": "horse",
-   "candidates_found": [
-    "هوز",
-    "هوذ",
-    "حوز",
-    "حوذ",
-    "حوص",
-    "خوز",
-    "خوذ",
-    "خوص"
-   ],
-   "best": "هوز",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐌽𐌰𐌼𐍉",
-   "ancestor": "namô",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "n-m",
-   "laryngeal": false,
+   "ancestor": "h₁nómn̥",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₁-n-m-n",
+   "laryngeal": true,
    "gloss": "name (word or phrase indicating a particular person, place, class or thing); name (authori",
    "candidates_found": [
-    "نم"
+    "نمن"
    ],
-   "best": "نم",
+   "best": "نمن",
    "overlap": 0,
    "shared": [],
    "direct": false
   },
   {
-   "branch": "𐌼𐌿𐌽𐌸𐍃",
-   "ancestor": "munþaz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "m-n-z",
-   "laryngeal": false,
-   "gloss": "mouth",
+   "branch": "𐌸𐌹𐌿𐌳𐌰",
+   "ancestor": "tewtéh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "t-w-t-h₂",
+   "laryngeal": true,
+   "gloss": "people, tribe; the heathen",
    "candidates_found": [
-    "منذ"
+    "توت",
+    "توث",
+    "طوط",
+    "ثوت",
+    "ثوث"
    ],
-   "best": "منذ",
+   "best": "توت",
    "overlap": 0,
    "shared": [],
    "direct": false
   },
   {
-   "branch": "𐍆𐍉𐌽",
-   "ancestor": "fōr",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "f-r",
-   "laryngeal": false,
-   "gloss": "fire (chemical reaction)",
+   "branch": "𐍃𐍅𐌴𐌹𐌽",
+   "ancestor": "suH",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-H",
+   "laryngeal": true,
+   "gloss": "pig (animal, Sus)",
    "candidates_found": [
-    "فر",
-    "فل",
-    "بر",
-    "بل"
+    "سه",
+    "سح",
+    "سع",
+    "صه",
+    "صح",
+    "صغ",
+    "صخ",
+    "شه",
+    "شح",
+    "شع",
+    "شغ",
+    "زح",
+    "زع",
+    "زخ"
    ],
-   "best": "فر",
+   "best": "سه",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -1973,6 +2436,67 @@
     "بجمز"
    ],
    "best": "بجمز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐍄𐌰𐌹𐌽𐍃",
+   "ancestor": "steyh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-t-y-h₂",
+   "laryngeal": true,
+   "gloss": "stone",
+   "candidates_found": [
+    "ستي",
+    "شطي"
+   ],
+   "best": "ستي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍄𐌰𐌲𐌻",
+   "ancestor": "taglą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "t-g-l",
+   "laryngeal": false,
+   "gloss": "hair",
+   "candidates_found": [
+    "تجر",
+    "تغر",
+    "تقر",
+    "طغر",
+    "ثجل",
+    "ثجر",
+    "ثغر",
+    "ثقل",
+    "ثقر"
+   ],
+   "best": "تجر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍆𐍉𐍄𐌿𐍃",
+   "ancestor": "pṓds",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "p-d-s",
+   "laryngeal": false,
+   "gloss": "foot",
+   "candidates_found": [
+    "بدس",
+    "بذس",
+    "بذش",
+    "فدس",
+    "فدش"
+   ],
+   "best": "بدس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2038,6 +2562,22 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌰𐌽𐌳𐌿𐍃",
+   "ancestor": "handuz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-n-d-z",
+   "laryngeal": false,
+   "gloss": "hand",
+   "candidates_found": [
+    "هندز"
+   ],
+   "best": "هندز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌹𐍄𐌰𐌽",
    "ancestor": "h₁ed",
    "layer": "Proto-Indo-European",
@@ -2064,6 +2604,10 @@
    "laryngeal": true,
    "gloss": "to be",
    "candidates_found": [
+    "وس",
+    "وص",
+    "وش",
+    "وز",
     "حوس",
     "حوص",
     "حوش",
@@ -2080,7 +2624,7 @@
     "هوش",
     "هوز"
    ],
-   "best": "حوس",
+   "best": "وس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2094,6 +2638,10 @@
    "laryngeal": true,
    "gloss": "to remain, abide",
    "candidates_found": [
+    "وس",
+    "وص",
+    "وش",
+    "وز",
     "حوس",
     "حوص",
     "حوش",
@@ -2110,7 +2658,7 @@
     "هوش",
     "هوز"
    ],
-   "best": "حوس",
+   "best": "وس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2135,38 +2683,38 @@
    "direct": false
   },
   {
-   "branch": "𐍄𐌰𐌹𐌷𐌿𐌽",
-   "ancestor": "tehun",
+   "branch": "𐌷𐌻𐌰𐌹𐍆𐍃",
+   "ancestor": "hlaibaz",
    "layer": "Proto-Germanic",
    "depth": 2,
-   "skeleton": "t-h-n",
+   "skeleton": "h-l-b-z",
    "laryngeal": false,
-   "gloss": "ten (cardinal number)",
+   "gloss": "bread",
    "candidates_found": [
-    "تهن",
-    "طهن",
-    "طحن",
-    "ثخن"
+    "هربذ",
+    "حربص",
+    "خلبص",
+    "خربز",
+    "خربذ",
+    "خربص"
    ],
-   "best": "تهن",
+   "best": "هربذ",
    "overlap": 0,
    "shared": [],
    "direct": false
   },
   {
-   "branch": "𐍄𐌿𐌲𐌲𐍉",
-   "ancestor": "tungǭ",
+   "branch": "𐌰𐍅𐌹𐍃𐍄𐍂",
+   "ancestor": "awistrą",
    "layer": "Proto-Germanic",
    "depth": 2,
-   "skeleton": "t-n-g",
+   "skeleton": "w-s-t-r",
    "laryngeal": false,
-   "gloss": "tongue",
+   "gloss": "sheepfold (enclosure for keeping sheep)",
    "candidates_found": [
-    "تنج",
-    "تنغ",
-    "طنج"
+    "وشتر"
    ],
-   "best": "تنج",
+   "best": "وشتر",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2186,30 +2734,6 @@
     "غم"
    ],
    "best": "جم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌰𐌺𐍂𐍃",
-   "ancestor": "akraz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "k-r-z",
-   "laryngeal": false,
-   "gloss": "field (wide, open space used to grow crops or to hold farm animals)",
-   "candidates_found": [
-    "كرز",
-    "كرص",
-    "كلز",
-    "كلذ",
-    "قرز",
-    "قرص",
-    "قلز",
-    "قلذ",
-    "قلص"
-   ],
-   "best": "كرز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2314,19 +2838,39 @@
   },
   {
    "branch": "𐍃𐌿𐌽𐌿𐍃",
-   "ancestor": "sunuz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "s-n-z",
-   "laryngeal": false,
+   "ancestor": "suHnús",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-H-n-s",
+   "laryngeal": true,
    "gloss": "son",
    "candidates_found": [
+    "سنس",
     "سنز",
+    "شنس",
+    "شنص",
+    "شنش",
     "شنز",
-    "شنذ",
-    "شنص"
+    "سهنس",
+    "شهنز"
    ],
-   "best": "سنز",
+   "best": "سنس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌳𐌿𐌻𐌲𐍃",
+   "ancestor": "dulgaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-l-g-z",
+   "laryngeal": false,
+   "gloss": "debt",
+   "candidates_found": [
+    "درقص"
+   ],
+   "best": "درقص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2344,6 +2888,23 @@
     "مر"
    ],
    "best": "مل",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍆𐌰𐍃𐍄𐌰𐌽",
+   "ancestor": "fastāną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "f-s-t-n",
+   "laryngeal": false,
+   "gloss": "to keep, to hold firm",
+   "candidates_found": [
+    "بستن",
+    "بشتن"
+   ],
+   "best": "بستن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2425,6 +2986,25 @@
    "direct": false
   },
   {
+   "branch": "𐌲𐌰𐌹𐍄𐍃",
+   "ancestor": "gaits",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-t-s",
+   "laryngeal": false,
+   "gloss": "goat (animal)",
+   "candidates_found": [
+    "غطس",
+    "غطش",
+    "قطس",
+    "قطش"
+   ],
+   "best": "غطس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌱𐍂𐌿𐌽𐌾𐍉",
    "ancestor": "brunjǭ",
    "layer": "Proto-Germanic",
@@ -2500,6 +3080,51 @@
    "direct": false
   },
   {
+   "branch": "𐌰𐍅𐍉",
+   "ancestor": "h₂éwh₂os",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-w-h₂-s",
+   "laryngeal": true,
+   "gloss": "grandmother",
+   "candidates_found": [
+    "وس",
+    "وص",
+    "وش",
+    "وز",
+    "حوس",
+    "حوص",
+    "حوش",
+    "حوز",
+    "عوس",
+    "عوص",
+    "عوش",
+    "عوز",
+    "خوس",
+    "خوص",
+    "خوش",
+    "خوز",
+    "هوس",
+    "هوش",
+    "هوز",
+    "وحص",
+    "وحش",
+    "وعس",
+    "وعز",
+    "وخص",
+    "وخش",
+    "وخز",
+    "وهس",
+    "وهص",
+    "وهش",
+    "وهز"
+   ],
+   "best": "وس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌳𐌰𐌿𐍂",
    "ancestor": "dʰwer",
    "layer": "Proto-Indo-European",
@@ -2529,6 +3154,10 @@
    "laryngeal": true,
    "gloss": "first person singular personal pronoun; I",
    "candidates_found": [
+    "جم",
+    "زم",
+    "قم",
+    "غم",
     "جحم",
     "جعم",
     "جهم",
@@ -2542,7 +3171,7 @@
     "قهم",
     "غهم"
    ],
-   "best": "جحم",
+   "best": "جم",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2596,6 +3225,40 @@
    "direct": false
   },
   {
+   "branch": "𐌰𐌹𐌷𐍄𐍃",
+   "ancestor": "aihtiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-t-z",
+   "laryngeal": false,
+   "gloss": "possessions, property",
+   "candidates_found": [
+    "هطذ",
+    "ختذ"
+   ],
+   "best": "هطذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌻𐌳𐍃",
+   "ancestor": "aldiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-d-z",
+   "laryngeal": false,
+   "gloss": "generation, age; lifetime",
+   "candidates_found": [
+    "لذذ",
+    "رذذ"
+   ],
+   "best": "لذذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌰𐌿𐍃𐍉",
    "ancestor": "h₂ows",
    "layer": "Proto-Indo-European",
@@ -2604,6 +3267,10 @@
    "laryngeal": true,
    "gloss": "ear",
    "candidates_found": [
+    "وس",
+    "وص",
+    "وش",
+    "وز",
     "حوس",
     "حوص",
     "حوش",
@@ -2620,7 +3287,7 @@
     "هوش",
     "هوز"
    ],
-   "best": "حوس",
+   "best": "وس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2638,6 +3305,26 @@
     "بر"
    ],
    "best": "بل",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌳𐌰𐌹𐌻𐍃",
+   "ancestor": "dailiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-l-z",
+   "laryngeal": false,
+   "gloss": "part, portion; share",
+   "candidates_found": [
+    "دلص",
+    "درز",
+    "درص",
+    "ضرز",
+    "ذرز"
+   ],
+   "best": "دلص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2696,34 +3383,25 @@
    "direct": false
   },
   {
-   "branch": "𐌳𐌴𐌸𐍃",
-   "ancestor": "dēdiz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "d-z",
-   "laryngeal": false,
-   "gloss": "deed",
-   "candidates_found": [
-    "ضز"
-   ],
-   "best": "ضز",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐌳𐍉𐌼𐍃",
-   "ancestor": "dōmaz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "d-m-z",
-   "laryngeal": false,
+   "ancestor": "dʰóh₁mos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "dʰ-h₁-m-s",
+   "laryngeal": true,
    "gloss": "judgement, insight; distinction",
    "candidates_found": [
+    "دمس",
     "دمص",
-    "ضمز"
+    "دمش",
+    "ضمس",
+    "ضمز",
+    "دهمس",
+    "دهمص",
+    "دهمش",
+    "دهمز"
    ],
-   "best": "دمص",
+   "best": "دمس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2775,31 +3453,17 @@
    "laryngeal": true,
    "gloss": "to know, to be familiar with",
    "candidates_found": [
+    "جن",
+    "زن",
+    "قن",
+    "غن",
     "جنع",
     "جنه",
     "جنء",
     "قنع",
     "قنء"
    ],
-   "best": "جنع",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐍅𐌹𐍄𐌰𐌽",
-   "ancestor": "witaną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "w-t-n",
-   "laryngeal": false,
-   "gloss": "to know",
-   "candidates_found": [
-    "وتن",
-    "وطن",
-    "وثن"
-   ],
-   "best": "وتن",
+   "best": "جن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2931,18 +3595,17 @@
   },
   {
    "branch": "𐌾𐌿𐍃",
-   "ancestor": "jūz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "j-z",
-   "laryngeal": false,
+   "ancestor": "yúHs",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "y-H-s",
+   "laryngeal": true,
    "gloss": "you, ye (second-person plural personal pronoun)",
    "candidates_found": [
-    "جز",
-    "جذ",
-    "جص"
+    "يس",
+    "يش"
    ],
-   "best": "جز",
+   "best": "يس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3063,10 +3726,11 @@
    "laryngeal": true,
    "gloss": "to want",
    "candidates_found": [
+    "ول",
     "وله",
     "وره"
    ],
-   "best": "وله",
+   "best": "ول",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3084,6 +3748,40 @@
     "بلهن"
    ],
    "best": "برهن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐍄𐌰𐌽𐌳𐌰𐌽",
+   "ancestor": "steh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-t-h₂",
+   "laryngeal": true,
+   "gloss": "to stand",
+   "candidates_found": [
+    "ست",
+    "صت",
+    "صط",
+    "شت",
+    "شط",
+    "شث",
+    "زط",
+    "ستع",
+    "سته",
+    "سطح",
+    "سطع",
+    "صتع",
+    "صته",
+    "صطح",
+    "صطع",
+    "شتع",
+    "شطح",
+    "شطع",
+    "زتخ"
+   ],
+   "best": "ست",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3120,22 +3818,6 @@
     "فيض"
    ],
    "best": "بيد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌳𐍂𐌴𐌹𐌱𐌰𐌽",
-   "ancestor": "drībaną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "d-r-b-n",
-   "laryngeal": false,
-   "gloss": "to drive, force to go",
-   "candidates_found": [
-    "دربن"
-   ],
-   "best": "دربن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3370,6 +4052,23 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐍂𐌰𐌹𐌽𐍃",
+   "ancestor": "hrainiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-n-z",
+   "laryngeal": false,
+   "gloss": "clean",
+   "candidates_found": [
+    "هرنص",
+    "خرنص"
+   ],
+   "best": "هرنص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌷𐌰𐌱𐌰𐌽",
    "ancestor": "kap",
    "layer": "Proto-Indo-European",
@@ -3476,6 +4175,25 @@
     "رص"
    ],
    "best": "لز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐍂𐌳𐍃",
+   "ancestor": "gʰórdʰos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "gʰ-r-dʰ-s",
+   "laryngeal": false,
+   "gloss": "yard, court; house, household",
+   "candidates_found": [
+    "جردش",
+    "جلدس",
+    "قردس",
+    "قلدس"
+   ],
+   "best": "جردش",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3596,18 +4314,16 @@
   },
   {
    "branch": "𐌰𐌹𐌽𐍃",
-   "ancestor": "ainaz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "n-z",
-   "laryngeal": false,
+   "ancestor": "h₁óynos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₁-y-n-s",
+   "laryngeal": true,
    "gloss": "one; some",
    "candidates_found": [
-    "نز",
-    "نذ",
-    "نص"
+    "ينص"
    ],
-   "best": "نز",
+   "best": "ينص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3621,30 +4337,12 @@
    "laryngeal": true,
    "gloss": "two (cardinal number)",
    "candidates_found": [
+    "دو",
+    "ضو",
+    "ذو",
     "دوه"
    ],
-   "best": "دوه",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌸𐍂𐌴𐌹𐍃",
-   "ancestor": "þrīz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "r-z",
-   "laryngeal": false,
-   "gloss": "three (cardinal number)",
-   "candidates_found": [
-    "رز",
-    "رذ",
-    "رص",
-    "لز",
-    "لذ",
-    "لص"
-   ],
-   "best": "رز",
+   "best": "دو",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3695,11 +4393,11 @@
   },
   {
    "branch": "𐌽𐌹𐌿𐌽",
-   "ancestor": "newun",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "n-w-n",
-   "laryngeal": false,
+   "ancestor": "h₁néwn̥",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₁-n-w-n",
+   "laryngeal": true,
    "gloss": "nine (cardinal number)",
    "candidates_found": [
     "نون"
@@ -3748,22 +4446,6 @@
    "direct": false
   },
   {
-   "branch": "𐌰𐌽𐌸𐌰𐍂",
-   "ancestor": "anþeraz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "n-r-z",
-   "laryngeal": false,
-   "gloss": "the other of two, the one that is different from the one just mentioned; the second (numer",
-   "candidates_found": [
-    "نرز"
-   ],
-   "best": "نرز",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐌸𐍂𐌹𐌳𐌾𐌰",
    "ancestor": "þridjô",
    "layer": "Proto-Germanic",
@@ -3782,6 +4464,50 @@
     "لذج"
    ],
    "best": "ردي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌰𐌹𐌷𐍃𐍄𐌰",
+   "ancestor": "sehtô",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-h-t",
+   "laryngeal": false,
+   "gloss": "the sixth",
+   "candidates_found": [
+    "سحت",
+    "سحط",
+    "سخت",
+    "سخط",
+    "صحت",
+    "صخت",
+    "شحت",
+    "شحط",
+    "شحث",
+    "شخت",
+    "زهط"
+   ],
+   "best": "سحت",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌷𐍄𐌿𐌳𐌰",
+   "ancestor": "ahtudô",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-t-d",
+   "laryngeal": false,
+   "gloss": "the eighth",
+   "candidates_found": [
+    "هطذ",
+    "حتد",
+    "ختذ"
+   ],
+   "best": "هطذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3822,25 +4548,6 @@
    "direct": false
   },
   {
-   "branch": "𐌷𐌿𐌽𐌳",
-   "ancestor": "hundą",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "h-n-d",
-   "laryngeal": false,
-   "gloss": "hundred (count of hundred)",
-   "candidates_found": [
-    "هند",
-    "حند",
-    "حنذ",
-    "خنذ"
-   ],
-   "best": "هند",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐌿𐍂𐍂𐌹𐌽𐌽𐌰𐌽",
    "ancestor": "uzrinnaną",
    "layer": "Proto-Germanic",
@@ -3852,6 +4559,23 @@
     "زرن"
    ],
    "best": "زرن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌹𐌻𐌱𐌰",
+   "ancestor": "selbaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-b-z",
+   "laryngeal": false,
+   "gloss": "self",
+   "candidates_found": [
+    "شربذ",
+    "شربص"
+   ],
+   "best": "شربذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3890,6 +4614,68 @@
     "شمص"
    ],
    "best": "سمذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍆𐌿𐌻𐌻𐍃",
+   "ancestor": "pl̥h₁nós",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "p-l-h₁-n-s",
+   "laryngeal": true,
+   "gloss": "full (not empty); the whole, the entire",
+   "candidates_found": [
+    "بلنس",
+    "بلنص",
+    "بلنز",
+    "برنس",
+    "برنش",
+    "فرنس"
+   ],
+   "best": "بلنس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌻𐌱𐍃",
+   "ancestor": "halbaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-b-z",
+   "laryngeal": false,
+   "gloss": "the half (consisting of a half)",
+   "candidates_found": [
+    "هربذ",
+    "حربص",
+    "خلبص",
+    "خربز",
+    "خربذ",
+    "خربص"
+   ],
+   "best": "هربذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌹𐌽𐌳𐌰𐍂",
+   "ancestor": "hinder",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-n-d-r",
+   "laryngeal": false,
+   "gloss": "behind, beyond",
+   "candidates_found": [
+    "هندل",
+    "حندر",
+    "حندل",
+    "حنضل",
+    "خندل"
+   ],
+   "best": "هندل",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3954,6 +4740,39 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌹𐌳𐍂𐌴",
+   "ancestor": "hidrê",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-d-r",
+   "laryngeal": false,
+   "gloss": "hither, here (to this place)",
+   "candidates_found": [
+    "هدر",
+    "هدل",
+    "هضر",
+    "هضل",
+    "هذر",
+    "هذل",
+    "حدر",
+    "حدل",
+    "حضر",
+    "حضل",
+    "حذر",
+    "حذل",
+    "خدر",
+    "خدل",
+    "خضر",
+    "خضل",
+    "خذر",
+    "خذل"
+   ],
+   "best": "هدر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍅𐌰𐌹𐌻𐌰",
    "ancestor": "welh₁",
    "layer": "Proto-Indo-European",
@@ -3962,10 +4781,11 @@
    "laryngeal": true,
    "gloss": "well (in a good manner)",
    "candidates_found": [
+    "ول",
     "وله",
     "وره"
    ],
-   "best": "وله",
+   "best": "ول",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3979,12 +4799,16 @@
    "laryngeal": true,
    "gloss": "much, a lot; a lot of",
    "candidates_found": [
+    "بل",
+    "بر",
+    "فل",
+    "فر",
     "بله",
     "بره",
     "فله",
     "فره"
    ],
-   "best": "بله",
+   "best": "بل",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -3998,33 +4822,16 @@
    "laryngeal": true,
    "gloss": "much, a lot; very",
    "candidates_found": [
+    "بل",
+    "بر",
+    "فل",
+    "فر",
     "بله",
     "بره",
     "فله",
     "فره"
    ],
-   "best": "بله",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌰𐌻𐌾𐌹𐍃",
-   "ancestor": "aljaz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "l-j-z",
-   "laryngeal": false,
-   "gloss": "other, another",
-   "candidates_found": [
-    "ليز",
-    "ليص",
-    "لجز",
-    "لجذ",
-    "ريذ",
-    "رجز"
-   ],
-   "best": "ليز",
+   "best": "بل",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -4114,6 +4921,7 @@
    "laryngeal": true,
    "gloss": "for, because; but also",
    "candidates_found": [
+    "وج",
     "حوج",
     "حوق",
     "عوج",
@@ -4124,7 +4932,7 @@
     "هوغ",
     "هوق"
    ],
-   "best": "حوج",
+   "best": "وج",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -4138,6 +4946,7 @@
    "laryngeal": true,
    "gloss": "also",
    "candidates_found": [
+    "وج",
     "حوج",
     "حوق",
     "عوج",
@@ -4148,7 +4957,7 @@
     "هوغ",
     "هوق"
    ],
-   "best": "حوج",
+   "best": "وج",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -4390,26 +5199,6 @@
    "direct": false
   },
   {
-   "branch": "𐍅𐌰𐌿𐍂𐌳",
-   "ancestor": "wurdą",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "w-r-d",
-   "laryngeal": false,
-   "gloss": "word",
-   "candidates_found": [
-    "ورد",
-    "ورض",
-    "ورذ",
-    "ولد",
-    "ولذ"
-   ],
-   "best": "ورد",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐌲𐌹𐌱𐌰",
    "ancestor": "gebō",
    "layer": "Proto-Germanic",
@@ -4436,11 +5225,15 @@
    "laryngeal": true,
    "gloss": "kin, family, race",
    "candidates_found": [
+    "جن",
+    "زن",
+    "قن",
+    "غن",
     "جنء",
     "جنه",
     "قنء"
    ],
-   "best": "جنء",
+   "best": "جن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -4457,6 +5250,23 @@
     "بند"
    ],
    "best": "بند",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌻𐌳𐌰𐌽",
+   "ancestor": "haldaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-d-n",
+   "laryngeal": false,
+   "gloss": "to hold; to take care of, tend, feed",
+   "candidates_found": [
+    "حردن",
+    "حرذن"
+   ],
+   "best": "حردن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -4485,6 +5295,22 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌰𐌻𐌳𐌹𐍃",
+   "ancestor": "haldiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-d-z",
+   "laryngeal": false,
+   "gloss": "more",
+   "candidates_found": [
+    "خردذ"
+   ],
+   "best": "خردذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌻𐌴𐍄𐌰𐌽",
    "ancestor": "lētaną",
    "layer": "Proto-Germanic",
@@ -4501,6 +5327,22 @@
     "رثن"
    ],
    "best": "لتن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐍂𐌴𐍄𐌰𐌽",
+   "ancestor": "grētaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-r-t-n",
+   "laryngeal": false,
+   "gloss": "to weep, cry",
+   "candidates_found": [
+    "قرطن"
+   ],
+   "best": "قرطن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -4580,6 +5422,23 @@
    "direct": false
   },
   {
+   "branch": "𐌺𐍂𐌹𐌿𐍃𐍄𐌰𐌽",
+   "ancestor": "kreustaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "k-r-s-t-n",
+   "laryngeal": false,
+   "gloss": "to gnash, grind",
+   "candidates_found": [
+    "قرسطن",
+    "قرصطن"
+   ],
+   "best": "قرسطن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌺𐍂𐌴𐌺𐍃",
    "ancestor": "Krēkō",
    "layer": "Proto-West Germanic",
@@ -4649,6 +5508,24 @@
    "direct": false
   },
   {
+   "branch": "𐌰𐌿𐍂𐍄𐌹𐌲𐌰𐍂𐌳𐍃",
+   "ancestor": "urtiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "r-t-z",
+   "laryngeal": false,
+   "gloss": "orchard, garden",
+   "candidates_found": [
+    "رطز",
+    "لتز",
+    "لطز"
+   ],
+   "best": "رطز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌲𐌿𐌸",
    "ancestor": "gudą",
    "layer": "Proto-Germanic",
@@ -4708,24 +5585,42 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌰𐍆𐌾𐌰𐌽",
+   "ancestor": "kh₂pyé",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "k-h₂-p-y",
+   "laryngeal": true,
+   "gloss": "to lift, raise, hold up",
+   "candidates_found": [
+    "كفي",
+    "قبي",
+    "قفي"
+   ],
+   "best": "كفي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍃𐌰𐌿𐌹𐌻",
-   "ancestor": "sōel",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "s-l",
-   "laryngeal": false,
+   "ancestor": "sóh₂wl̥",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-h₂-w-l",
+   "laryngeal": true,
    "gloss": "the Sun (star)",
    "candidates_found": [
-    "سل",
-    "سر",
-    "صل",
-    "صر",
-    "شل",
-    "شر",
-    "زل",
-    "زر"
+    "سول",
+    "سور",
+    "صول",
+    "صور",
+    "شول",
+    "شور",
+    "زول",
+    "زور"
    ],
-   "best": "سل",
+   "best": "سول",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -4970,6 +5865,47 @@
    "direct": false
   },
   {
+   "branch": "𐌳𐍂𐍉𐌱𐌽𐌰𐌽",
+   "ancestor": "drōbuz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-r-b-z",
+   "laryngeal": false,
+   "gloss": "to be/become restless, to be/become agitated; to be/become troubled",
+   "candidates_found": [
+    "دربص"
+   ],
+   "best": "دربص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌻𐌻𐌿𐍃",
+   "ancestor": "halluz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-z",
+   "laryngeal": false,
+   "gloss": "rock, stone",
+   "candidates_found": [
+    "هلز",
+    "هرز",
+    "هرذ",
+    "هرص",
+    "حلز",
+    "حرز",
+    "حرص",
+    "خلص",
+    "خرز",
+    "خرص"
+   ],
+   "best": "هلز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍆𐍂𐌰𐌹𐍃𐌰𐌽",
    "ancestor": "fraisaną",
    "layer": "Proto-Germanic",
@@ -4986,6 +5922,22 @@
     "بلسن"
    ],
    "best": "فرسن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌺𐌰𐌿𐌽𐍃",
+   "ancestor": "skauniz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-k-n-z",
+   "laryngeal": false,
+   "gloss": "beautiful",
+   "candidates_found": [
+    "شقنز"
+   ],
+   "best": "شقنز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5077,6 +6029,10 @@
    "laryngeal": true,
    "gloss": "to load",
    "candidates_found": [
+    "كل",
+    "كر",
+    "قل",
+    "قر",
     "كلح",
     "كلع",
     "كله",
@@ -5092,7 +6048,7 @@
     "قرع",
     "قره"
    ],
-   "best": "كلح",
+   "best": "كل",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5110,6 +6066,23 @@
     "نرب"
    ],
    "best": "نلب",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌱𐍂𐌿𐌶𐌳𐍉𐌽",
+   "ancestor": "bʰr̥s-dʰ",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "bʰ-r-s-dʰ",
+   "laryngeal": false,
+   "gloss": "to embroider",
+   "candidates_found": [
+    "فرصد",
+    "فرشد"
+   ],
+   "best": "فرصد",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5190,29 +6163,6 @@
     "وقن"
    ],
    "best": "وجن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌷𐌰𐌹𐌼𐍃",
-   "ancestor": "haimaz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "h-m-z",
-   "laryngeal": false,
-   "gloss": "village",
-   "candidates_found": [
-    "همز",
-    "همذ",
-    "همص",
-    "حمز",
-    "حمذ",
-    "حمص",
-    "خمز",
-    "خمص"
-   ],
-   "best": "همز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5362,44 +6312,107 @@
   },
   {
    "branch": "𐍂𐌴𐌹𐌺𐍃",
-   "ancestor": "rīks",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "r-k-s",
-   "laryngeal": false,
+   "ancestor": "h₃rḗǵs",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₃-r-ǵ-s",
+   "laryngeal": true,
    "gloss": "ruler, lord; archon",
    "candidates_found": [
-    "ركس",
-    "ركز",
+    "رجس",
+    "رجش",
+    "رجز",
+    "رزز",
     "رقس",
     "رقص",
     "رقش",
     "رقز",
-    "لكس",
-    "لكش",
-    "لكز",
+    "رغس",
+    "رغش",
+    "رغز",
+    "لجز",
+    "لزز",
     "لقس",
     "لقص",
     "لقش",
-    "لقز"
+    "لقز",
+    "لغس",
+    "لغز",
+    "عرقص",
+    "هرجس",
+    "هرجش",
+    "هلقس"
    ],
-   "best": "ركس",
+   "best": "رجس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍄𐌰𐌷𐌾𐌰𐌽",
+   "ancestor": "tahjaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "t-h-j-n",
+   "laryngeal": false,
+   "gloss": "to tear, rend, rip",
+   "candidates_found": [
+    "تحين"
+   ],
+   "best": "تحين",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌽𐌳𐌴𐌹𐍃",
+   "ancestor": "h₂entíos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-n-t-s",
+   "laryngeal": true,
+   "gloss": "end (final point in space or time); end (cessation)",
+   "candidates_found": [
+    "نتس",
+    "نتش",
+    "نطس",
+    "نطش",
+    "خنتص"
+   ],
+   "best": "نتس",
    "overlap": 0,
    "shared": [],
    "direct": false
   },
   {
    "branch": "𐌼𐌴𐌽𐌰",
-   "ancestor": "mēnô",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "m-n",
-   "laryngeal": false,
+   "ancestor": "mḗh₁n̥s",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "m-h₁-n-s",
+   "laryngeal": true,
    "gloss": "the Moon (sole natural satellite of the Earth)",
    "candidates_found": [
-    "من"
+    "منس",
+    "منش"
    ],
-   "best": "من",
+   "best": "منس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐍃𐍄𐍃",
+   "ancestor": "h₃ósdos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₃-s-d-s",
+   "laryngeal": true,
+   "gloss": "branch (woody part of a tree arising from the trunk)",
+   "candidates_found": [
+    "سدس"
+   ],
+   "best": "سدس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5515,20 +6528,21 @@
    "laryngeal": true,
    "gloss": "wall",
    "candidates_found": [
+    "وي",
     "وهي"
    ],
-   "best": "وهي",
+   "best": "وي",
    "overlap": 0,
    "shared": [],
    "direct": false
   },
   {
    "branch": "𐌴𐌹𐍃𐌰𐍂𐌽",
-   "ancestor": "īsarną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "s-r-n",
-   "laryngeal": false,
+   "ancestor": "h₁ēsh₂r̥no",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₁-s-h₂-r-n",
+   "laryngeal": true,
    "gloss": "iron; fetters, chains",
    "candidates_found": [
     "سلن",
@@ -5559,6 +6573,22 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐍄𐌰𐌸𐍃",
+   "ancestor": "staþaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-t-z",
+   "laryngeal": false,
+   "gloss": "land (from the point of view of a boat on the water), shore",
+   "candidates_found": [
+    "ستذ"
+   ],
+   "best": "ستذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌼𐌰𐌿𐍂𐌸𐍂𐌾𐌰𐌽",
    "ancestor": "murþrijaną",
    "layer": "Proto-Germanic",
@@ -5575,21 +6605,33 @@
    "direct": false
   },
   {
-   "branch": "𐍃𐍄𐍉𐌼𐌰",
-   "ancestor": "stōmô",
+   "branch": "𐍃𐌹𐌳𐌿𐍃",
+   "ancestor": "siduz",
    "layer": "Proto-Germanic",
    "depth": 2,
-   "skeleton": "s-t-m",
+   "skeleton": "s-d-z",
    "laryngeal": false,
-   "gloss": "substantial grounds, just cause",
+   "gloss": "custom; habit",
    "candidates_found": [
-    "سطم",
-    "صتم",
-    "صطم",
-    "شتم",
-    "شطم"
+    "شذذ"
    ],
-   "best": "سطم",
+   "best": "شذذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌴𐌸𐍃",
+   "ancestor": "sēdiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-d-z",
+   "laryngeal": false,
+   "gloss": "seed",
+   "candidates_found": [
+    "شذذ"
+   ],
+   "best": "شذذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5608,6 +6650,40 @@
     "ذب"
    ],
    "best": "دب",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌻𐌸𐌴𐌹𐍃",
+   "ancestor": "aldaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-d-z",
+   "laryngeal": false,
+   "gloss": "old",
+   "candidates_found": [
+    "لذذ",
+    "رذذ"
+   ],
+   "best": "لذذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌹𐌻𐌰𐌲𐍃",
+   "ancestor": "hailagaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-g-z",
+   "laryngeal": false,
+   "gloss": "holy, sacred",
+   "candidates_found": [
+    "حلجز",
+    "حرقص"
+   ],
+   "best": "حلجز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5799,6 +6875,39 @@
    "direct": false
   },
   {
+   "branch": "𐌰𐍆𐍃𐌻𐌰𐌷𐌰𐌽",
+   "ancestor": "slahaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-h-n",
+   "laryngeal": false,
+   "gloss": "to cut off; to kill, slay",
+   "candidates_found": [
+    "شرحن"
+   ],
+   "best": "شرحن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐍆𐍃𐌻𐌰𐌿𐍀𐌾𐌰𐌽",
+   "ancestor": "slaupijaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-p-j-n",
+   "laryngeal": false,
+   "gloss": "to put off, lay aside",
+   "candidates_found": [
+    "زربين",
+    "زرفين"
+   ],
+   "best": "زربين",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌰𐍆𐍄𐌰𐍂𐍉",
    "ancestor": "afterô",
    "layer": "Proto-Germanic",
@@ -5864,6 +6973,34 @@
     "بطم"
    ],
    "best": "فطم",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐍆𐌸𐌰𐌿𐍂𐍃𐌾𐌰𐌽",
+   "ancestor": "ters",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "t-r-s",
+   "laryngeal": false,
+   "gloss": "to be thirsty",
+   "candidates_found": [
+    "ترس",
+    "ترص",
+    "ترش",
+    "ترز",
+    "تلس",
+    "تلص",
+    "تلش",
+    "تلز",
+    "طرس",
+    "طرش",
+    "طرز",
+    "طلس",
+    "طلش"
+   ],
+   "best": "ترس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5947,22 +7084,26 @@
    "direct": false
   },
   {
-   "branch": "𐌷𐌻𐌰𐌹𐍅",
-   "ancestor": "hlaiwą",
+   "branch": "𐌷𐍉𐍂𐍃",
+   "ancestor": "hōraz",
    "layer": "Proto-Germanic",
    "depth": 2,
-   "skeleton": "h-l-w",
+   "skeleton": "h-r-z",
    "laryngeal": false,
-   "gloss": "tomb, grave",
+   "gloss": "adulterer, fornicator, whoremonger",
    "candidates_found": [
-    "هلو",
-    "هرو",
-    "حلو",
-    "حرو",
-    "خلو",
-    "خرو"
+    "هرز",
+    "هرذ",
+    "هرص",
+    "هلز",
+    "حرز",
+    "حرص",
+    "حلز",
+    "خرز",
+    "خرص",
+    "خلص"
    ],
-   "best": "هلو",
+   "best": "هرز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6125,6 +7266,29 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌻𐌿𐍄𐍂𐍃",
+   "ancestor": "ḱlewH",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "ḱ-l-w-H",
+   "laryngeal": true,
+   "gloss": "clean, pure",
+   "candidates_found": [
+    "كلو",
+    "كرو",
+    "قلو",
+    "قرو",
+    "شلو",
+    "شرو",
+    "سلو",
+    "سرو"
+   ],
+   "best": "كلو",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌿𐌽𐌷𐌿𐌻𐌸𐌰",
    "ancestor": "unhulþô",
    "layer": "Proto-Germanic",
@@ -6158,6 +7322,36 @@
     "بشكن"
    ],
    "best": "فسكن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌻𐌷𐍃",
+   "ancestor": "alhs",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-h-s",
+   "laryngeal": false,
+   "gloss": "temple",
+   "candidates_found": [
+    "لهس",
+    "لهز",
+    "لحس",
+    "لحص",
+    "لحز",
+    "لخص",
+    "لخز",
+    "رهس",
+    "رهص",
+    "رهش",
+    "رهز",
+    "رحس",
+    "رخس",
+    "رخص",
+    "رخش"
+   ],
+   "best": "لهس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6260,6 +7454,26 @@
    "direct": false
   },
   {
+   "branch": "𐌳𐌹𐌿𐍀𐍃",
+   "ancestor": "deupaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-p-z",
+   "laryngeal": false,
+   "gloss": "deep",
+   "candidates_found": [
+    "دبذ",
+    "دفص",
+    "ضبز",
+    "ضبص",
+    "ضفز"
+   ],
+   "best": "دبذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌻𐌴𐌹𐌽",
    "ancestor": "līną",
    "layer": "Proto-Germanic",
@@ -6272,6 +7486,44 @@
     "رن"
    ],
    "best": "لن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌴𐌻𐍃",
+   "ancestor": "sēliz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-z",
+   "laryngeal": false,
+   "gloss": "good, kind",
+   "candidates_found": [
+    "شلز",
+    "شرز",
+    "شرذ",
+    "شرص",
+    "زلز",
+    "زرز"
+   ],
+   "best": "شلز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐍄𐌹𐍃",
+   "ancestor": "hataz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-t-z",
+   "laryngeal": false,
+   "gloss": "hate, wrath",
+   "candidates_found": [
+    "هطذ",
+    "ختذ"
+   ],
+   "best": "هطذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6295,6 +7547,34 @@
     "نقص"
    ],
    "best": "نجز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌲𐌻𐍃",
+   "ancestor": "aglaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-z",
+   "laryngeal": false,
+   "gloss": "shameful, humiliating, disgraceful",
+   "candidates_found": [
+    "جلز",
+    "جلذ",
+    "جرز",
+    "جرذ",
+    "جرص",
+    "غلذ",
+    "غلص",
+    "غرز",
+    "قلز",
+    "قلذ",
+    "قلص",
+    "قرز",
+    "قرص"
+   ],
+   "best": "جلز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6346,25 +7626,6 @@
    "direct": false
   },
   {
-   "branch": "𐍅𐌿𐌻𐌸𐌿𐍃",
-   "ancestor": "wulþuz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "w-l-z",
-   "laryngeal": false,
-   "gloss": "glory",
-   "candidates_found": [
-    "ولذ",
-    "ورز",
-    "ورذ",
-    "ورص"
-   ],
-   "best": "ولذ",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐌰𐌹𐍅𐍃",
    "ancestor": "h₂óyu",
    "layer": "Proto-Indo-European",
@@ -6379,6 +7640,51 @@
     "هي"
    ],
    "best": "حي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍂𐌹𐌵𐌹𐍃",
+   "ancestor": "h₁régʷos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₁-r-gʷ-s",
+   "laryngeal": true,
+   "gloss": "darkness",
+   "candidates_found": [
+    "رجس",
+    "رجش",
+    "رجز",
+    "رقس",
+    "رقص",
+    "رقش",
+    "رقز",
+    "ربس",
+    "ربص",
+    "ربش",
+    "ربز",
+    "رغس",
+    "رغش",
+    "رغز",
+    "لجز",
+    "لقس",
+    "لقص",
+    "لقش",
+    "لقز",
+    "لبس",
+    "لبص",
+    "لبش",
+    "لبز",
+    "لغس",
+    "لغز",
+    "هرجس",
+    "هرجش",
+    "هلقس",
+    "هلبس",
+    "هلبش"
+   ],
+   "best": "رجس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6422,6 +7728,24 @@
    "direct": false
   },
   {
+   "branch": "𐌻𐌹𐌿𐍄𐍃",
+   "ancestor": "leutaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-t-z",
+   "laryngeal": false,
+   "gloss": "hypocritical, dishonest",
+   "candidates_found": [
+    "لتز",
+    "لطز",
+    "رطز"
+   ],
+   "best": "لتز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌲𐌰𐌵𐌿𐌼𐌸𐍃",
    "ancestor": "kumþiz",
    "layer": "Proto-Germanic",
@@ -6453,6 +7777,85 @@
     "وفن"
    ],
    "best": "وبن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌹𐌻𐍃",
+   "ancestor": "hailaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-z",
+   "laryngeal": false,
+   "gloss": "whole; healthy, well",
+   "candidates_found": [
+    "هلز",
+    "هرز",
+    "هرذ",
+    "هرص",
+    "حلز",
+    "حرز",
+    "حرص",
+    "خلص",
+    "خرز",
+    "خرص"
+   ],
+   "best": "هلز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌹𐌻𐍃",
+   "ancestor": "hailaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-z",
+   "laryngeal": false,
+   "gloss": "hail! greetings!",
+   "candidates_found": [
+    "هلز",
+    "هرز",
+    "هرذ",
+    "هرص",
+    "حلز",
+    "حرز",
+    "حرص",
+    "خلص",
+    "خرز",
+    "خرص"
+   ],
+   "best": "هلز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌰𐌻𐍄",
+   "ancestor": "saltą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-t",
+   "laryngeal": false,
+   "gloss": "salt",
+   "candidates_found": [
+    "سلت",
+    "سلط",
+    "سرت",
+    "سرط",
+    "صلت",
+    "صلط",
+    "صرط",
+    "شلط",
+    "شرت",
+    "شرط",
+    "شرث",
+    "زلط",
+    "زرت",
+    "زرط"
+   ],
+   "best": "سلت",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6492,6 +7895,55 @@
     "مصد"
    ],
    "best": "مزد",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍆𐌰𐌸𐍃",
+   "ancestor": "pótis",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "p-t-s",
+   "laryngeal": false,
+   "gloss": "lord, master, commander, ruler; husband",
+   "candidates_found": [
+    "بتش",
+    "بطس",
+    "بطش",
+    "فتش",
+    "فطس",
+    "فطش",
+    "فطز"
+   ],
+   "best": "بتش",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐌻𐌲𐌰",
+   "ancestor": "galgô",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-g",
+   "laryngeal": false,
+   "gloss": "stake; gallows",
+   "candidates_found": [
+    "جلج",
+    "جلغ",
+    "جلق",
+    "جرج",
+    "جرق",
+    "غلج",
+    "غلق",
+    "غرق",
+    "قلج",
+    "قلق",
+    "قرج",
+    "قرق"
+   ],
+   "best": "جلج",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6609,6 +8061,91 @@
    "direct": false
   },
   {
+   "branch": "𐍄𐌿𐌻𐌲𐌿𐍃",
+   "ancestor": "dl̥h₁gʰós",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "d-l-h₁-gʰ-s",
+   "laryngeal": true,
+   "gloss": "steadfast, resistant, firm",
+   "candidates_found": [
+    "درغش",
+    "درقس",
+    "درقص"
+   ],
+   "best": "درغش",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌿𐌽𐍃𐌻",
+   "ancestor": "hunslą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-n-s-l",
+   "laryngeal": false,
+   "gloss": "offering, sacrifice",
+   "candidates_found": [
+    "حنصل",
+    "حنصر",
+    "حنزر",
+    "خنسر",
+    "خنصر",
+    "خنشل",
+    "خنزر"
+   ],
+   "best": "حنصل",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌿𐌳𐌾𐌰",
+   "ancestor": "gudjô",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-d-j",
+   "laryngeal": false,
+   "gloss": "priest",
+   "candidates_found": [
+    "جدي",
+    "جضي",
+    "جذي",
+    "غدي",
+    "غضي",
+    "غذي",
+    "غذج",
+    "قدي",
+    "قضي",
+    "قذي"
+   ],
+   "best": "جدي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌳𐌿𐌻𐌸𐍃",
+   "ancestor": "dulþiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-l-z",
+   "laryngeal": false,
+   "gloss": "feast, celebration",
+   "candidates_found": [
+    "دلص",
+    "درز",
+    "درص",
+    "ضرز",
+    "ذرز"
+   ],
+   "best": "دلص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌷𐌰𐌽𐍃𐌰",
    "ancestor": "hansō",
    "layer": "Proto-Germanic",
@@ -6653,17 +8190,34 @@
   },
   {
    "branch": "𐌰𐌻𐌴𐌹𐌽𐌰",
-   "ancestor": "alīnō",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "l-n",
-   "laryngeal": false,
+   "ancestor": "Heh₃l",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "H-h₃-l",
+   "laryngeal": true,
    "gloss": "ell, cubit",
    "candidates_found": [
-    "لن",
-    "رن"
+    "هل",
+    "هر",
+    "حل",
+    "حر",
+    "عل",
+    "عر",
+    "غل",
+    "غر",
+    "خل",
+    "خر",
+    "هعر",
+    "هغل",
+    "هغر",
+    "حعل",
+    "حهل",
+    "عهل",
+    "عهر",
+    "خعل",
+    "خعر"
    ],
-   "best": "لن",
+   "best": "هل",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6731,6 +8285,24 @@
     "قوص"
    ],
    "best": "كوز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍆𐌰𐌹𐍂𐍈𐌿𐍃",
+   "ancestor": "ferhuz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "f-r-h-z",
+   "laryngeal": false,
+   "gloss": "the world (the Universe) (almost always accompanied by the definite article)",
+   "candidates_found": [
+    "فرهذ",
+    "بلهص",
+    "بلخص"
+   ],
+   "best": "فرهذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6819,6 +8391,64 @@
     "زط"
    ],
    "best": "ست",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐍂𐍉𐌸𐌴𐌹𐌲𐍃",
+   "ancestor": "hrōþīgaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-g-z",
+   "laryngeal": false,
+   "gloss": "glorious; triumphant",
+   "candidates_found": [
+    "حرقص",
+    "حلجز"
+   ],
+   "best": "حرقص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌰𐌺𐌺𐌿𐍃",
+   "ancestor": "sakkuz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-k-z",
+   "laryngeal": false,
+   "gloss": "sack; garb worn for penitence or mourning",
+   "candidates_found": [
+    "شكز",
+    "شكص",
+    "شقذ",
+    "شقص"
+   ],
+   "best": "شكز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌿𐍄𐌹𐍃",
+   "ancestor": "sweh₂d",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-w-h₂-d",
+   "laryngeal": true,
+   "gloss": "mild, tolerable",
+   "candidates_found": [
+    "سود",
+    "صود",
+    "شود",
+    "شوض",
+    "شوذ",
+    "زود",
+    "زوذ"
+   ],
+   "best": "سود",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6950,25 +8580,6 @@
    "direct": false
   },
   {
-   "branch": "𐌽𐌹𐌸𐌾𐌹𐍃",
-   "ancestor": "niþjaz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "n-j-z",
-   "laryngeal": false,
-   "gloss": "kinsman, a male relative",
-   "candidates_found": [
-    "نيص",
-    "نجز",
-    "نجذ",
-    "نجص"
-   ],
-   "best": "نيص",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐍅𐌹𐌽𐌾𐌰",
    "ancestor": "winjō",
    "layer": "Proto-Germanic",
@@ -7042,6 +8653,22 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐌺𐌰𐌻𐌾𐌰",
+   "ancestor": "skaljō",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-k-l-j",
+   "laryngeal": false,
+   "gloss": "tile, brick",
+   "candidates_found": [
+    "سكرج"
+   ],
+   "best": "سكرج",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍃𐌰𐌹𐍅𐍃",
    "ancestor": "saiwiz",
    "layer": "Proto-Germanic",
@@ -7058,6 +8685,48 @@
     "زوذ"
    ],
    "best": "صوص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌿𐌲𐍃",
+   "ancestor": "hugiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-g-z",
+   "laryngeal": false,
+   "gloss": "mind, reason",
+   "candidates_found": [
+    "هجز",
+    "هقز",
+    "هقص",
+    "حجز",
+    "حجذ",
+    "حقز",
+    "حقذ",
+    "حقص",
+    "خجز",
+    "خقز",
+    "خقذ"
+   ],
+   "best": "هجز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌿𐌳𐌷𐌿𐍃",
+   "ancestor": "gudahūsą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-d-h-s",
+   "laryngeal": false,
+   "gloss": "temple, sanctuary",
+   "candidates_found": [
+    "قدحس"
+   ],
+   "best": "قدحس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -7103,19 +8772,40 @@
   },
   {
    "branch": "𐌰𐍂𐌾𐌰𐌽",
-   "ancestor": "arjaną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "r-j-n",
-   "laryngeal": false,
+   "ancestor": "h₂éryeti",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-r-y-t",
+   "laryngeal": true,
    "gloss": "to plough (to use a plough)",
    "candidates_found": [
-    "رين",
-    "رجن",
-    "لين",
-    "لجن"
+    "ريط",
+    "ريث",
+    "ليت",
+    "ليط",
+    "ليث"
    ],
-   "best": "رين",
+   "best": "ريط",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌳𐌰𐌿𐍂𐍉𐌽𐍃",
+   "ancestor": "durz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-r-z",
+   "laryngeal": false,
+   "gloss": "double gate",
+   "candidates_found": [
+    "درز",
+    "درص",
+    "دلص",
+    "ضرز",
+    "ذرز"
+   ],
+   "best": "درز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -7172,6 +8862,24 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐍄𐌰𐌹𐌲𐌰",
+   "ancestor": "staigō",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-t-g",
+   "laryngeal": false,
+   "gloss": "way, path, road",
+   "candidates_found": [
+    "ستج",
+    "ستق",
+    "شتغ"
+   ],
+   "best": "ستج",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌰𐌹𐍈𐌰𐍄𐌿𐌽𐌳𐌹",
    "ancestor": "h₁ed",
    "layer": "Proto-Indo-European",
@@ -7185,6 +8893,27 @@
     "هذ"
    ],
    "best": "هد",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌹𐌲𐌹𐍃",
+   "ancestor": "segaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-g-z",
+   "laryngeal": false,
+   "gloss": "victory",
+   "candidates_found": [
+    "سجز",
+    "شجذ",
+    "شغز",
+    "شقذ",
+    "شقص",
+    "زغذ"
+   ],
+   "best": "سجز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -7368,6 +9097,26 @@
    "direct": false
   },
   {
+   "branch": "𐌳𐍂𐌿𐍃",
+   "ancestor": "druziz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-r-z",
+   "laryngeal": false,
+   "gloss": "a fall",
+   "candidates_found": [
+    "درز",
+    "درص",
+    "دلص",
+    "ضرز",
+    "ذرز"
+   ],
+   "best": "درز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌰𐌹𐌱𐍂",
    "ancestor": "tibrą",
    "layer": "Proto-Germanic",
@@ -7520,31 +9269,6 @@
    "direct": false
   },
   {
-   "branch": "𐌷𐌻𐌴𐌹𐌸𐍂𐌰",
-   "ancestor": "hlīþrō",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "h-l-r",
-   "laryngeal": false,
-   "gloss": "hut, tent",
-   "candidates_found": [
-    "هلل",
-    "هرر",
-    "هرل",
-    "حلل",
-    "حرر",
-    "حرل",
-    "خلر",
-    "خلل",
-    "خرر",
-    "خرل"
-   ],
-   "best": "هلل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐌼𐌹𐍄𐍉𐌽",
    "ancestor": "metōną",
    "layer": "Proto-Germanic",
@@ -7563,6 +9287,51 @@
    "direct": false
   },
   {
+   "branch": "𐍆𐍂𐌴𐌹𐍃",
+   "ancestor": "priHós",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "p-r-H-s",
+   "laryngeal": true,
+   "gloss": "free",
+   "candidates_found": [
+    "برس",
+    "برص",
+    "برش",
+    "برز",
+    "بلس",
+    "بلص",
+    "بلش",
+    "بلز",
+    "فرس",
+    "فرص",
+    "فرش",
+    "فرز",
+    "فلس",
+    "فلص",
+    "فلز",
+    "برعس",
+    "برعص",
+    "برعش",
+    "برغس",
+    "برغش",
+    "برغز",
+    "برخش",
+    "بلهس",
+    "بلهص",
+    "بلعس",
+    "بلعز",
+    "بلغص",
+    "بلخص",
+    "فرخش",
+    "فلحس"
+   ],
+   "best": "برس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌸𐌹𐌿𐌱𐌹",
    "ancestor": "þiubiją",
    "layer": "Proto-Germanic",
@@ -7574,6 +9343,35 @@
     "بج"
    ],
    "best": "بج",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌲𐌻𐌰𐌹𐍄𐌴𐌹",
+   "ancestor": "agalaitį",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-t",
+   "laryngeal": false,
+   "gloss": "fornication, lustfulness, lewdness, lasciviousness",
+   "candidates_found": [
+    "جلت",
+    "جلط",
+    "جرت",
+    "جرط",
+    "جرث",
+    "غلت",
+    "غلط",
+    "غلث",
+    "غرث",
+    "قلت",
+    "قلط",
+    "قرت",
+    "قرط",
+    "قرث"
+   ],
+   "best": "جلت",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -7623,6 +9421,22 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌰𐌿𐍂𐌳𐍃",
+   "ancestor": "hurdiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-d-z",
+   "laryngeal": false,
+   "gloss": "a door, especially of wickerwork",
+   "candidates_found": [
+    "خردذ"
+   ],
+   "best": "خردذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌺𐌰𐍃",
    "ancestor": "kazą",
    "layer": "Proto-Germanic",
@@ -7639,6 +9453,32 @@
     "قص"
    ],
    "best": "كز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌹𐍂𐌳𐌰",
+   "ancestor": "herdō",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-d",
+   "laryngeal": false,
+   "gloss": "herd (group of animals)",
+   "candidates_found": [
+    "هرد",
+    "هرض",
+    "هرذ",
+    "هلد",
+    "هلض",
+    "حرد",
+    "حرض",
+    "حلد",
+    "خرد",
+    "خرض",
+    "خلد"
+   ],
+   "best": "هرد",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -7676,6 +9516,23 @@
     "رص"
    ],
    "best": "لز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍂𐌰𐌿𐌸𐍃",
+   "ancestor": "raudaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "r-d-z",
+   "laryngeal": false,
+   "gloss": "red",
+   "candidates_found": [
+    "رذذ",
+    "لذذ"
+   ],
+   "best": "رذذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -7719,6 +9576,24 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌹𐌻𐌼𐍃",
+   "ancestor": "helmaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-m-z",
+   "laryngeal": false,
+   "gloss": "helmet",
+   "candidates_found": [
+    "هرمز",
+    "حرمز",
+    "خرمص"
+   ],
+   "best": "هرمز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍆𐌿𐌻𐌻𐌾𐌰𐌽",
    "ancestor": "fullijaną",
    "layer": "Proto-Germanic",
@@ -7731,23 +9606,6 @@
     "برجن"
    ],
    "best": "فرجن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌸𐌴𐌹𐌷𐌰𐌽",
-   "ancestor": "þinhaną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "n-h-n",
-   "laryngeal": false,
-   "gloss": "to prosper",
-   "candidates_found": [
-    "نحن",
-    "نخن"
-   ],
-   "best": "نحن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -7917,6 +9775,9 @@
    "laryngeal": true,
    "gloss": "to possess, own",
    "candidates_found": [
+    "يك",
+    "يش",
+    "يس",
     "حيك",
     "حيق",
     "حيش",
@@ -7932,7 +9793,7 @@
     "هيش",
     "هيس"
    ],
-   "best": "حيك",
+   "best": "يك",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -8109,22 +9970,46 @@
    "direct": false
   },
   {
-   "branch": "𐍆𐌰𐌹𐍂𐌶𐌽𐌰",
-   "ancestor": "fersnō",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "f-r-s-n",
-   "laryngeal": false,
-   "gloss": "heel",
+   "branch": "𐍆𐌰𐌸𐌰",
+   "ancestor": "ph₂-t-eh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "p-h₂-t-h₂",
+   "laryngeal": true,
+   "gloss": "fence, hedge",
    "candidates_found": [
-    "فرسن",
-    "فرصن",
-    "فرزن",
-    "برشن",
-    "برزن",
-    "بلسن"
+    "بت",
+    "بط",
+    "بث",
+    "فت",
+    "فث",
+    "بحت",
+    "بحث",
+    "بعت",
+    "بعط",
+    "بعث",
+    "بخت",
+    "بهت",
+    "بهط",
+    "بهث",
+    "بتع",
+    "بطح",
+    "بطخ",
+    "بثع",
+    "فحث",
+    "فخت",
+    "فهت",
+    "فتح",
+    "فتخ",
+    "فطح",
+    "فطه",
+    "فثح",
+    "بعطه",
+    "بعثه",
+    "بخثع",
+    "بهته"
    ],
-   "best": "فرسن",
+   "best": "بت",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -8247,45 +10132,28 @@
   },
   {
    "branch": "𐌰𐌸𐌽𐌰𐌼",
-   "ancestor": "h₂ét-no",
+   "ancestor": "péth₂r̥",
    "layer": "Proto-Indo-European",
    "depth": 1,
-   "skeleton": "h₂-t-n",
+   "skeleton": "p-t-h₂-r",
    "laryngeal": true,
    "gloss": "years (dative plural)",
    "candidates_found": [
-    "حتن",
-    "حطن",
-    "حثن",
-    "عتن",
-    "عطن",
-    "عثن",
-    "ختن",
-    "خطن",
-    "خثن",
-    "هتن",
-    "هطن"
+    "بتر",
+    "بتل",
+    "بطر",
+    "بطل",
+    "بثر",
+    "بثل",
+    "فتر",
+    "فتل",
+    "فطر",
+    "فثر",
+    "فثل",
+    "بثعر",
+    "فطحل"
    ],
-   "best": "حتن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐍅𐌰𐌿𐍂𐍄𐍃",
-   "ancestor": "wurt",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "w-r-t",
-   "laryngeal": false,
-   "gloss": "root (part of a plant); root (primary source)",
-   "candidates_found": [
-    "ورط",
-    "ورث",
-    "ولت",
-    "ولث"
-   ],
-   "best": "ورط",
+   "best": "بتر",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -8307,6 +10175,59 @@
     "قل"
    ],
    "best": "جر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐌹𐍂𐌳𐌰",
+   "ancestor": "gerdō",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-r-d",
+   "laryngeal": false,
+   "gloss": "girdle; purse",
+   "candidates_found": [
+    "جرد",
+    "جرض",
+    "جرذ",
+    "جلد",
+    "جلض",
+    "جلذ",
+    "غرد",
+    "غرض",
+    "غلد",
+    "غلذ",
+    "قرد",
+    "قرض",
+    "قلد",
+    "قلذ"
+   ],
+   "best": "جرد",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌿𐍀𐍃",
+   "ancestor": "hupiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-p-z",
+   "laryngeal": false,
+   "gloss": "hip",
+   "candidates_found": [
+    "هبز",
+    "هبذ",
+    "هبص",
+    "حبذ",
+    "حبص",
+    "حفز",
+    "حفص",
+    "خبز",
+    "خبص"
+   ],
+   "best": "هبز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -8378,6 +10299,24 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌻𐌰𐌼𐌼𐌰",
+   "ancestor": "hlammiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-m-z",
+   "laryngeal": false,
+   "gloss": "snare, trap",
+   "candidates_found": [
+    "هرمز",
+    "حرمز",
+    "خرمص"
+   ],
+   "best": "هرمز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍈𐍉𐍄𐌰",
    "ancestor": "hwōtō",
    "layer": "Proto-Germanic",
@@ -8402,6 +10341,24 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐍂𐌿𐌲𐌲𐌰",
+   "ancestor": "hrungō",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-n-g",
+   "laryngeal": false,
+   "gloss": "a staff",
+   "candidates_found": [
+    "هرنغ",
+    "خرنق",
+    "خلنج"
+   ],
+   "best": "هرنغ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌹𐌿𐍃𐌹𐌻𐌰",
    "ancestor": "h₁wésus",
    "layer": "Proto-Indo-European",
@@ -8410,28 +10367,15 @@
    "laryngeal": true,
    "gloss": "recovery, easing",
    "candidates_found": [
+    "وس",
+    "وص",
+    "وش",
+    "وز",
     "هوس",
     "هوش",
     "هوز"
    ],
-   "best": "هوس",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌾𐌿𐌽𐌳𐌰𐌹",
-   "ancestor": "jundō",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "j-n-d",
-   "laryngeal": false,
-   "gloss": "youth (quality or state of being young)",
-   "candidates_found": [
-    "جند",
-    "جنذ"
-   ],
-   "best": "جند",
+   "best": "وس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -8586,6 +10530,28 @@
    "direct": false
   },
   {
+   "branch": "𐍂𐌰𐍃𐍄𐌰",
+   "ancestor": "rastō",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "r-s-t",
+   "laryngeal": false,
+   "gloss": "mile",
+   "candidates_found": [
+    "رست",
+    "رسط",
+    "رشت",
+    "رشط",
+    "رزت",
+    "لصت",
+    "لزت"
+   ],
+   "best": "رست",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌵𐌰𐌹𐍂𐌿",
    "ancestor": "gʷéru",
    "layer": "Proto-Indo-European",
@@ -8609,6 +10575,27 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐌰𐌿𐌻𐍃",
+   "ancestor": "sauliz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-z",
+   "laryngeal": false,
+   "gloss": "column, pillar",
+   "candidates_found": [
+    "شلز",
+    "شرز",
+    "شرذ",
+    "شرص",
+    "زلز",
+    "زرز"
+   ],
+   "best": "شلز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍆𐍂𐌰𐌹𐍅",
    "ancestor": "fraiwą",
    "layer": "Proto-Germanic",
@@ -8623,6 +10610,22 @@
     "بلو"
    ],
    "best": "فرو",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌻𐌰𐌷𐍃",
+   "ancestor": "slagiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-g-z",
+   "laryngeal": false,
+   "gloss": "blow, strike; affliction, plague",
+   "candidates_found": [
+    "سلغز"
+   ],
+   "best": "سلغز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -8729,6 +10732,89 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐌰𐌿𐍂𐌲𐌰",
+   "ancestor": "surgō",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-r-g",
+   "laryngeal": false,
+   "gloss": "grief, sorrow; worry, care, concern",
+   "candidates_found": [
+    "سرج",
+    "سرغ",
+    "سرق",
+    "سلج",
+    "سلغ",
+    "سلق",
+    "صرج",
+    "صرق",
+    "صلج",
+    "صلغ",
+    "صلق",
+    "شرج",
+    "شرغ",
+    "شرق",
+    "شلج",
+    "شلغ",
+    "شلق",
+    "زرج",
+    "زرق",
+    "زلج",
+    "زلغ",
+    "زلق"
+   ],
+   "best": "سرج",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍄𐌰𐌹𐌷𐍃𐍅𐌰",
+   "ancestor": "deḱs",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "d-ḱ-s",
+   "laryngeal": false,
+   "gloss": "right (of direction, opposite of left); right (right hand; right, not left, side)",
+   "candidates_found": [
+    "دكس",
+    "دكص",
+    "دقس",
+    "دقش",
+    "دشش",
+    "دسس",
+    "ضكز",
+    "ذشش"
+   ],
+   "best": "دكس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍄𐌰𐌹𐌷𐍃𐍅𐌰",
+   "ancestor": "deḱs",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "d-ḱ-s",
+   "laryngeal": false,
+   "gloss": "right (right hand; right, not left, side)",
+   "candidates_found": [
+    "دكس",
+    "دكص",
+    "دقس",
+    "دقش",
+    "دشش",
+    "دسس",
+    "ضكز",
+    "ذشش"
+   ],
+   "best": "دكس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍄𐌴𐍅𐌰",
    "ancestor": "tēwō",
    "layer": "Proto-Germanic",
@@ -8822,16 +10908,68 @@
   },
   {
    "branch": "𐍅𐌿𐌻𐌻𐌰",
-   "ancestor": "wullō",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "w-l",
-   "laryngeal": false,
+   "ancestor": "h₂wĺ̥h₁neh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-w-h₁-n-h₂",
+   "laryngeal": true,
    "gloss": "wool (cloth or yarn made of wool)",
    "candidates_found": [
-    "ول"
+    "حون",
+    "عون",
+    "خون",
+    "هون",
+    "وهن",
+    "ونح",
+    "ونع"
    ],
-   "best": "ول",
+   "best": "حون",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌹𐌳𐌿𐍃",
+   "ancestor": "haiduz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-d-z",
+   "laryngeal": false,
+   "gloss": "manner, mode, fashion, way",
+   "candidates_found": [
+    "هضز",
+    "هذز",
+    "هذذ",
+    "حضذ",
+    "حذذ",
+    "خذذ"
+   ],
+   "best": "هضز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌹𐍂𐌿𐍃",
+   "ancestor": "heruz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-z",
+   "laryngeal": false,
+   "gloss": "sword (weapon)",
+   "candidates_found": [
+    "هرز",
+    "هرذ",
+    "هرص",
+    "هلز",
+    "حرز",
+    "حرص",
+    "حلز",
+    "خرز",
+    "خرص",
+    "خلص"
+   ],
+   "best": "هرز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -8889,6 +11027,34 @@
     "رنز"
    ],
    "best": "رنز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌲𐌻𐌿𐍃",
+   "ancestor": "agluz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-z",
+   "laryngeal": false,
+   "gloss": "difficult",
+   "candidates_found": [
+    "جلز",
+    "جلذ",
+    "جرز",
+    "جرذ",
+    "جرص",
+    "غلذ",
+    "غلص",
+    "غرز",
+    "قلز",
+    "قلذ",
+    "قلص",
+    "قرز",
+    "قرص"
+   ],
+   "best": "جلز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -8977,6 +11143,23 @@
    "direct": false
   },
   {
+   "branch": "𐌱𐌰𐌻𐌲𐍃",
+   "ancestor": "balgiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "b-l-g-z",
+   "laryngeal": false,
+   "gloss": "bag, sack; wineskin",
+   "candidates_found": [
+    "بلغص",
+    "برغز"
+   ],
+   "best": "بلغص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌼𐌰𐍄𐍃",
    "ancestor": "matiz",
    "layer": "Proto-Germanic",
@@ -9049,6 +11232,22 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌰𐌻𐍃",
+   "ancestor": "halsaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-s-z",
+   "laryngeal": false,
+   "gloss": "neck",
+   "candidates_found": [
+    "خرزذ"
+   ],
+   "best": "خرزذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌰𐌼𐍃",
    "ancestor": "h₃émsos",
    "layer": "Proto-Indo-European",
@@ -9057,6 +11256,10 @@
    "laryngeal": true,
    "gloss": "shoulder",
    "candidates_found": [
+    "مس",
+    "مص",
+    "مش",
+    "مز",
     "عمس",
     "عمص",
     "عمش",
@@ -9069,7 +11272,7 @@
     "همش",
     "همز"
    ],
-   "best": "عمس",
+   "best": "مس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -9098,6 +11301,55 @@
     "زنب"
    ],
    "best": "سنج",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌹𐌻𐌳",
+   "ancestor": "geldą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-d",
+   "laryngeal": false,
+   "gloss": "tax, tribute",
+   "candidates_found": [
+    "جلد",
+    "جلض",
+    "جلذ",
+    "جرد",
+    "جرض",
+    "جرذ",
+    "غلد",
+    "غلذ",
+    "غرد",
+    "غرض",
+    "قلد",
+    "قلذ",
+    "قرد",
+    "قرض"
+   ],
+   "best": "جلد",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌻𐌹𐌿𐌷𐌰𐌸",
+   "ancestor": "leuhadą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-h-d",
+   "laryngeal": false,
+   "gloss": "light",
+   "candidates_found": [
+    "لهد",
+    "لحد",
+    "رهد",
+    "رحض",
+    "رخد"
+   ],
+   "best": "لهد",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -9134,6 +11386,33 @@
     "روق"
    ],
    "best": "لوك",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌹𐍄𐌹",
+   "ancestor": "haisiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-s-z",
+   "laryngeal": false,
+   "gloss": "order, command",
+   "candidates_found": [
+    "هصص",
+    "هزز",
+    "حصص",
+    "حشز",
+    "حشذ",
+    "حشص",
+    "حزز",
+    "خصص",
+    "خشز",
+    "خشذ",
+    "خشص",
+    "خزز"
+   ],
+   "best": "هصص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -9384,22 +11663,21 @@
   },
   {
    "branch": "𐌷𐌰𐌹𐍃",
-   "ancestor": "keHy",
+   "ancestor": "kéHy-os",
    "layer": "Proto-Indo-European",
    "depth": 1,
-   "skeleton": "k-H-y",
+   "skeleton": "k-H-y-s",
    "laryngeal": true,
    "gloss": "torch",
    "candidates_found": [
-    "كءي",
-    "كهي",
-    "كحي",
-    "كغي",
-    "قءي",
-    "قهي",
-    "قخي"
+    "كيس",
+    "كيص",
+    "كيش",
+    "كيز",
+    "قيس",
+    "قيص"
    ],
-   "best": "كءي",
+   "best": "كيس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -9449,6 +11727,29 @@
    "direct": false
   },
   {
+   "branch": "𐌳𐌿𐌻𐌲𐌰𐌷𐌰𐌹𐍄𐌾𐌰",
+   "ancestor": "haitijô",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-t-j",
+   "laryngeal": false,
+   "gloss": "creditor",
+   "candidates_found": [
+    "هتي",
+    "هطي",
+    "هثي",
+    "حتي",
+    "حثي",
+    "ختي",
+    "خطي",
+    "خثي"
+   ],
+   "best": "هتي",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍆𐌴𐍂𐌾𐌰",
    "ancestor": "fērō",
    "layer": "Proto-Germanic",
@@ -9479,6 +11780,39 @@
     "مرجن"
    ],
    "best": "مرجن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐍉𐌺𐌴𐌹𐌽𐍃",
+   "ancestor": "sōkīniz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-k-n-z",
+   "laryngeal": false,
+   "gloss": "a search, investigation",
+   "candidates_found": [
+    "شقنز"
+   ],
+   "best": "شقنز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐌻𐌴𐌹𐌺𐍃",
+   "ancestor": "galīkaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-k-z",
+   "laryngeal": false,
+   "gloss": "alike, similar",
+   "candidates_found": [
+    "قرقز",
+    "قرقص"
+   ],
+   "best": "قرقز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -9528,6 +11862,31 @@
     "مل"
    ],
    "best": "مر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐍂𐍉𐌸𐍃",
+   "ancestor": "hrōþiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-z",
+   "laryngeal": false,
+   "gloss": "glory, fame, triumph",
+   "candidates_found": [
+    "هرز",
+    "هرذ",
+    "هرص",
+    "هلز",
+    "حرز",
+    "حرص",
+    "حلز",
+    "خرز",
+    "خرص",
+    "خلص"
+   ],
+   "best": "هرز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -9623,6 +11982,23 @@
     "بجن"
    ],
    "best": "فين",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌸𐌹𐌿𐌸𐌾𐌰𐌽",
+   "ancestor": "þeudjaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-j-z",
+   "laryngeal": false,
+   "gloss": "to bless",
+   "candidates_found": [
+    "ديص",
+    "ضيز"
+   ],
+   "best": "ديص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -9774,23 +12150,36 @@
   },
   {
    "branch": "𐌰𐌹𐍃𐍄𐌰𐌽",
-   "ancestor": "aistāną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "s-t-n",
-   "laryngeal": false,
+   "ancestor": "h₂eysd",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-y-s-d",
+   "laryngeal": true,
    "gloss": "to have regard for, revere, reverence",
    "candidates_found": [
-    "ستن",
-    "سطن",
-    "صتن",
-    "شتن",
-    "شطن",
-    "شثن",
-    "زتن",
-    "زطن"
+    "يزد"
    ],
-   "best": "ستن",
+   "best": "يزد",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌻𐌰𐌿𐍃",
+   "ancestor": "lausaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-s-z",
+   "laryngeal": false,
+   "gloss": "empty, devoid; -less, lacking, devoid of",
+   "candidates_found": [
+    "لصز",
+    "لصص",
+    "لزز",
+    "رصص",
+    "رزز"
+   ],
+   "best": "لصز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -9817,6 +12206,36 @@
    "direct": false
   },
   {
+   "branch": "𐌰𐍄𐌹𐍃𐌺",
+   "ancestor": "h₂edos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₂-d-s",
+   "laryngeal": true,
+   "gloss": "cornfields, cropland",
+   "candidates_found": [
+    "دس",
+    "ضس",
+    "ضز",
+    "ذش",
+    "حدس",
+    "عدس",
+    "عدش",
+    "عضس",
+    "عضز",
+    "خدش",
+    "هدس",
+    "هدش",
+    "هضس",
+    "هضز",
+    "هذز"
+   ],
+   "best": "دس",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌼𐌰𐍂𐌹𐌺𐍂𐌴𐌹𐍄𐌿𐍃",
    "ancestor": "mari",
    "layer": "Proto-Germanic",
@@ -9829,6 +12248,60 @@
     "مل"
    ],
    "best": "مر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌴𐌹𐍃𐌰𐍂𐌽𐌴𐌹𐌽𐍃",
+   "ancestor": "īsarnīnaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-r-n-z",
+   "laryngeal": false,
+   "gloss": "made of iron",
+   "candidates_found": [
+    "شرنص"
+   ],
+   "best": "شرنص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌽𐌿𐍄𐍂𐌴𐌹",
+   "ancestor": "snutrį",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-n-t-r",
+   "laryngeal": false,
+   "gloss": "cleverness; wisdom",
+   "candidates_found": [
+    "سنتر",
+    "سنطل",
+    "صنتل",
+    "صنطل",
+    "شنتر",
+    "زنتر"
+   ],
+   "best": "سنتر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌸𐌻𐌰𐌿𐌷𐍃",
+   "ancestor": "flugiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "f-l-g-z",
+   "laryngeal": false,
+   "gloss": "flight",
+   "candidates_found": [
+    "بلغص",
+    "برغز"
+   ],
+   "best": "بلغص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -9940,6 +12413,22 @@
    "direct": false
   },
   {
+   "branch": "𐍀𐌿𐌲𐌲𐍃",
+   "ancestor": "pungaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "p-n-g-z",
+   "laryngeal": false,
+   "gloss": "money pouch, wallet",
+   "candidates_found": [
+    "بنقص"
+   ],
+   "best": "بنقص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌰𐌽𐌰𐌱𐌹𐌿𐌳𐌰𐌽",
    "ancestor": "anabeudaną",
    "layer": "Proto-Germanic",
@@ -9996,24 +12485,60 @@
   },
   {
    "branch": "𐌺𐌰𐌿𐍂𐌿𐍃",
-   "ancestor": "kuruz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "k-r-z",
-   "laryngeal": false,
+   "ancestor": "gʷréh₂us",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "gʷ-r-h₂-s",
+   "laryngeal": true,
    "gloss": "burdensome",
    "candidates_found": [
-    "كرز",
-    "كرص",
-    "كلز",
-    "كلذ",
-    "قرز",
+    "جرس",
+    "جرص",
+    "جرش",
+    "جرز",
+    "جلس",
+    "جلز",
+    "قرس",
     "قرص",
+    "قرش",
+    "قرز",
+    "قلس",
+    "قلص",
+    "قلش",
     "قلز",
-    "قلذ",
-    "قلص"
+    "برس",
+    "برص",
+    "برش",
+    "برز",
+    "بلس",
+    "بلص",
+    "بلش",
+    "بلز",
+    "غرس",
+    "غرش",
+    "غرز",
+    "غلس",
+    "غلص",
+    "جرهس",
+    "جرهز",
+    "جلحز",
+    "جلهز",
+    "قرعس",
+    "قرعش",
+    "قرعز",
+    "قلحس",
+    "قلحز",
+    "برعس",
+    "برعص",
+    "برعش",
+    "برخش",
+    "بلعس",
+    "بلعز",
+    "بلخص",
+    "بلهس",
+    "بلهص"
    ],
-   "best": "كرز",
+   "best": "جرس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -10215,6 +12740,25 @@
    "direct": false
   },
   {
+   "branch": "𐌲𐌰𐌷𐌰𐌹𐍄",
+   "ancestor": "gahaitą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-h-t",
+   "laryngeal": false,
+   "gloss": "promise, pledge",
+   "candidates_found": [
+    "جهث",
+    "جحط",
+    "قحط",
+    "قحث"
+   ],
+   "best": "جهث",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌸𐌰𐌲𐌺𐍃",
    "ancestor": "þankaz",
    "layer": "Proto-Germanic",
@@ -10269,6 +12813,22 @@
    "direct": false
   },
   {
+   "branch": "𐌰𐌽𐌳𐌰𐍃𐌴𐍄𐍃",
+   "ancestor": "sētiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-t-z",
+   "laryngeal": false,
+   "gloss": "abominable",
+   "candidates_found": [
+    "ستذ"
+   ],
+   "best": "ستذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍃𐌴𐌹𐌸𐌿𐍃",
    "ancestor": "seh₁",
    "layer": "Proto-Indo-European",
@@ -10306,6 +12866,37 @@
    "direct": false
   },
   {
+   "branch": "𐌰𐍅𐌹𐌻𐌹𐌿𐌸",
+   "ancestor": "Hew(H",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "H-w-H",
+   "laryngeal": true,
+   "gloss": "prayer of gratitude, thanksgiving",
+   "candidates_found": [
+    "هو",
+    "حو",
+    "عو",
+    "غو",
+    "خو",
+    "وح",
+    "وع",
+    "وخ",
+    "هوه",
+    "هوع",
+    "هوغ",
+    "عوه",
+    "عوع",
+    "غوغ",
+    "خوع",
+    "خوخ"
+   ],
+   "best": "هو",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌰𐌽𐌳𐌷𐌰𐌼𐍉𐌽",
    "ancestor": "hamōną",
    "layer": "Proto-Germanic",
@@ -10319,6 +12910,23 @@
     "خمن"
    ],
    "best": "همن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌰𐌿𐌳𐌰𐌲𐍃",
+   "ancestor": "audagaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-g-z",
+   "laryngeal": false,
+   "gloss": "blessed, fortunate",
+   "candidates_found": [
+    "دغص",
+    "ضغز"
+   ],
+   "best": "دغص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -10371,6 +12979,22 @@
     "رمن"
    ],
    "best": "رمن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌹𐌻𐍃𐍄𐍂",
+   "ancestor": "gelstrą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-s-t-r",
+   "laryngeal": false,
+   "gloss": "tax, tribute",
+   "candidates_found": [
+    "قرصطل"
+   ],
+   "best": "قرصطل",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -10529,10 +13153,11 @@
    "laryngeal": true,
    "gloss": "room, space",
    "candidates_found": [
+    "لو",
     "روه",
     "لوه"
    ],
-   "best": "روه",
+   "best": "لو",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -10576,6 +13201,22 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌰𐍂𐌳𐌹𐌶𐌰",
+   "ancestor": "hardizô",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-d-z",
+   "laryngeal": false,
+   "gloss": "harder: comparative degree of 𐌷𐌰𐍂𐌳𐌿𐍃 (hardus)",
+   "candidates_found": [
+    "خردذ"
+   ],
+   "best": "خردذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍅𐌹𐌺𐍉",
    "ancestor": "wikǭ",
    "layer": "Proto-Germanic",
@@ -10593,17 +13234,36 @@
   },
   {
    "branch": "𐍅𐍉𐌳𐍃",
-   "ancestor": "wōdaz",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "w-d-z",
-   "laryngeal": false,
+   "ancestor": "weh₂t-ós",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "w-h₂-t-s",
+   "laryngeal": true,
    "gloss": "possessed by a devil",
    "candidates_found": [
-    "ودص",
-    "وذذ"
+    "وتش",
+    "وتز",
+    "وطس",
+    "وطش"
    ],
-   "best": "ودص",
+   "best": "وتش",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌻𐌴𐍀𐍃",
+   "ancestor": "slēpaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-p-z",
+   "laryngeal": false,
+   "gloss": "sleep",
+   "candidates_found": [
+    "شربذ",
+    "شربص"
+   ],
+   "best": "شربذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -10738,17 +13398,19 @@
   },
   {
    "branch": "𐌱𐍂𐌹𐌽𐌽𐍉",
-   "ancestor": "brinnaną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "b-r-n",
-   "laryngeal": false,
+   "ancestor": "bʰrewh₁",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "bʰ-r-w-h₁",
+   "laryngeal": true,
    "gloss": "fever",
    "candidates_found": [
-    "برن",
-    "بلن"
+    "برو",
+    "بلو",
+    "فرو",
+    "فلو"
    ],
-   "best": "برن",
+   "best": "برو",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -10766,6 +13428,23 @@
     "بل"
    ],
    "best": "بر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌳𐌰𐌹𐌲𐍃",
+   "ancestor": "daigaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-g-z",
+   "laryngeal": false,
+   "gloss": "soft, kneadable material, especially:; dough",
+   "candidates_found": [
+    "دغص",
+    "ضغز"
+   ],
+   "best": "دغص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -10885,6 +13564,33 @@
    "direct": false
   },
   {
+   "branch": "𐌸𐌰𐌷𐍃𐌿𐍃",
+   "ancestor": "þahsuz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-s-z",
+   "laryngeal": false,
+   "gloss": "badger",
+   "candidates_found": [
+    "هصص",
+    "هزز",
+    "حصص",
+    "حشز",
+    "حشذ",
+    "حشص",
+    "حزز",
+    "خصص",
+    "خشز",
+    "خشذ",
+    "خشص",
+    "خزز"
+   ],
+   "best": "هصص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌱𐌹𐌿𐌲𐌰𐌽",
    "ancestor": "beuganą",
    "layer": "Proto-Germanic",
@@ -10921,6 +13627,22 @@
    "direct": false
   },
   {
+   "branch": "𐌲𐌰𐌱𐌰𐌿𐍂𐌸𐍃",
+   "ancestor": "gaburþiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-b-r-z",
+   "laryngeal": false,
+   "gloss": "birth, genesis",
+   "candidates_found": [
+    "جبلص"
+   ],
+   "best": "جبلص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌲𐌰𐌼𐌰𐌹𐌸𐍃",
    "ancestor": "maidaz",
    "layer": "Proto-Germanic",
@@ -10933,6 +13655,60 @@
     "مذذ"
    ],
    "best": "مضز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍆𐌰𐌿𐍂𐌷𐍄𐌴𐌹",
+   "ancestor": "furhtį",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "f-r-h-t",
+   "laryngeal": false,
+   "gloss": "fright, fear",
+   "candidates_found": [
+    "برهت",
+    "بلهت",
+    "بلخت"
+   ],
+   "best": "برهت",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐍄𐌹𐌻𐍃",
+   "ancestor": "tilaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "t-l-z",
+   "laryngeal": false,
+   "gloss": "fit; convenient",
+   "candidates_found": [
+    "تلز",
+    "تلص",
+    "ترز",
+    "ترص",
+    "طرز"
+   ],
+   "best": "تلز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌵𐌹𐍃𐍃",
+   "ancestor": "kwissiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "k-w-s-z",
+   "laryngeal": false,
+   "gloss": "speech, (act of) saying",
+   "candidates_found": [
+    "كوشذ"
+   ],
+   "best": "كوشذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -10951,6 +13727,23 @@
     "مثن"
    ],
    "best": "متن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌸𐌹𐌿𐌸",
+   "ancestor": "þiudijaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-j-z",
+   "laryngeal": false,
+   "gloss": "a boon, a good thing",
+   "candidates_found": [
+    "ديص",
+    "ضيز"
+   ],
+   "best": "ديص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -10997,6 +13790,22 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐌰𐌸𐍃",
+   "ancestor": "sadaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-d-z",
+   "laryngeal": false,
+   "gloss": "full, sated",
+   "candidates_found": [
+    "شذذ"
+   ],
+   "best": "شذذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌿𐌶𐌴𐍄𐌰",
    "ancestor": "uzētô",
    "layer": "Proto-Germanic",
@@ -11010,6 +13819,25 @@
     "صط"
    ],
    "best": "زط",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐍅𐌿𐌼𐍃𐌻",
+   "ancestor": "sumslą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-m-s-l",
+   "laryngeal": false,
+   "gloss": "pool, place for swimming",
+   "candidates_found": [
+    "سمسر",
+    "شمصر",
+    "شمشل",
+    "زمزر"
+   ],
+   "best": "سمسر",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -11177,42 +14005,29 @@
    "direct": false
   },
   {
-   "branch": "𐍂𐌹𐌵𐌹𐌶𐌾𐌰𐌽",
-   "ancestor": "h₁regʷ",
+   "branch": "𐍂𐌹𐌺𐌰𐌽",
+   "ancestor": "h₃réǵeti",
    "layer": "Proto-Indo-European",
    "depth": 1,
-   "skeleton": "h₁-r-gʷ",
+   "skeleton": "h₃-r-ǵ-t",
    "laryngeal": true,
-   "gloss": "to become dark; darken",
-   "candidates_found": [
-    "هرج",
-    "هرق",
-    "هرب",
-    "هلج",
-    "هلق",
-    "هلب",
-    "هلغ"
-   ],
-   "best": "هرج",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐍂𐌹𐌺𐌰𐌽",
-   "ancestor": "rekaną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "r-k-n",
-   "laryngeal": false,
    "gloss": "to heap up",
    "candidates_found": [
-    "ركن",
-    "رقن",
-    "لكن",
-    "لقن"
+    "رزت",
+    "رقط",
+    "رغط",
+    "رغث",
+    "لزت",
+    "لقط",
+    "لقث",
+    "لغت",
+    "لغط",
+    "لغث",
+    "عرقط",
+    "علقط",
+    "هلقت"
    ],
-   "best": "ركن",
+   "best": "رزت",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -11284,6 +14099,53 @@
     "بلقن"
    ],
    "best": "بركن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐍂𐍉𐍄",
+   "ancestor": "hrōtą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-t",
+   "laryngeal": false,
+   "gloss": "roof",
+   "candidates_found": [
+    "هرت",
+    "هرط",
+    "هرث",
+    "هلت",
+    "هلط",
+    "هلث",
+    "حرت",
+    "حرث",
+    "حلت",
+    "حلط",
+    "خرت",
+    "خرط",
+    "خرث",
+    "خلت",
+    "خلط"
+   ],
+   "best": "هرت",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌿𐌻𐌸𐌴𐌹𐌽𐍃",
+   "ancestor": "gulþīnaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-n-z",
+   "laryngeal": false,
+   "gloss": "golden",
+   "candidates_found": [
+    "جلنز",
+    "قرنص"
+   ],
+   "best": "جلنز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -11561,10 +14423,11 @@
    "laryngeal": true,
    "gloss": "accustomed, wont",
    "candidates_found": [
+    "وك",
     "هوك",
     "هوق"
    ],
-   "best": "هوك",
+   "best": "وك",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -11621,17 +14484,16 @@
   },
   {
    "branch": "𐌱𐍂𐍉𐌸𐍂𐌰𐌷𐌰𐌽𐍃",
-   "ancestor": "brōþēr",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "b-r",
-   "laryngeal": false,
+   "ancestor": "bʰréh₂tēr",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "bʰ-r-h₂-t-r",
+   "laryngeal": true,
    "gloss": "brethren",
    "candidates_found": [
-    "بر",
-    "بل"
+    "برطل"
    ],
-   "best": "بر",
+   "best": "برطل",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -11765,6 +14627,30 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌿𐌶𐌳",
+   "ancestor": "huzdą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-z-d",
+   "laryngeal": false,
+   "gloss": "treasure, hoard",
+   "candidates_found": [
+    "هزد",
+    "هذذ",
+    "هصد",
+    "حزد",
+    "حذد",
+    "حذذ",
+    "حصد",
+    "خذذ",
+    "خصد"
+   ],
+   "best": "هزد",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌺𐌹𐌻𐌸𐌴𐌹",
    "ancestor": "kilþį",
    "layer": "Proto-Germanic",
@@ -11849,6 +14735,57 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐌺𐌰𐌹𐌳𐌰𐌽",
+   "ancestor": "skey-t",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-k-y-t",
+   "laryngeal": false,
+   "gloss": "to separate, divide, put asunder; to set at variance, cause dissension between",
+   "candidates_found": [
+    "شكيت"
+   ],
+   "best": "شكيت",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌳𐌹𐍃𐍃𐌺𐍂𐌴𐌹𐍄𐌰𐌽",
+   "ancestor": "skrītaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-k-r-t-n",
+   "laryngeal": false,
+   "gloss": "to tear, rip, rend",
+   "candidates_found": [
+    "سقلطن"
+   ],
+   "best": "سقلطن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐌰𐌽𐌳𐌿𐌲𐌴𐌹",
+   "ancestor": "handugį",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-n-d-g",
+   "laryngeal": false,
+   "gloss": "wisdom",
+   "candidates_found": [
+    "حندج",
+    "حندق",
+    "حنضج",
+    "خندق"
+   ],
+   "best": "حندج",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌳𐌹𐍃𐍄𐌰𐌹𐍂𐌰𐌽",
    "ancestor": "der",
    "layer": "Proto-Indo-European",
@@ -11902,29 +14839,6 @@
    "direct": false
   },
   {
-   "branch": "𐌼𐌰𐌻𐍉",
-   "ancestor": "melh₂",
-   "layer": "Proto-Indo-European",
-   "depth": 1,
-   "skeleton": "m-l-h₂",
-   "laryngeal": true,
-   "gloss": "moth (insect)",
-   "candidates_found": [
-    "ملح",
-    "ملع",
-    "ملخ",
-    "مله",
-    "مرح",
-    "مرع",
-    "مرخ",
-    "مره"
-   ],
-   "best": "ملح",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐌼𐌰𐌻𐌰𐌽",
    "ancestor": "malaną",
    "layer": "Proto-Germanic",
@@ -11937,6 +14851,23 @@
     "مرن"
    ],
    "best": "ملن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐌹𐍂𐌽𐍃",
+   "ancestor": "gernaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-r-n-z",
+   "laryngeal": false,
+   "gloss": "eager, willing; desirous, possibly covetous",
+   "candidates_found": [
+    "جلنز",
+    "قرنص"
+   ],
+   "best": "جلنز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -12029,10 +14960,11 @@
    "laryngeal": true,
    "gloss": "accusation",
    "candidates_found": [
+    "ول",
     "وره",
     "وله"
    ],
-   "best": "وره",
+   "best": "ول",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -12406,67 +15338,82 @@
    "direct": false
   },
   {
-   "branch": "𐌽𐌹𐌳𐍅𐌰",
-   "ancestor": "nidwō",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "n-d-w",
-   "laryngeal": false,
-   "gloss": "rust, corrosion (the act of corroding)",
-   "candidates_found": [
-    "ندو",
-    "نضو"
-   ],
-   "best": "ندو",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐍅𐌹𐌽𐌸𐌹𐍃𐌺𐌰𐌿𐍂𐍉",
-   "ancestor": "skurǭ",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "s-k-r",
-   "laryngeal": false,
-   "gloss": "a tool for winnowing (probably a kind of shovel, or perhaps a fork or fan)",
-   "candidates_found": [
-    "سكر",
-    "سكل",
-    "سقر",
-    "سقل",
-    "صقر",
-    "صقل",
-    "شكر",
-    "شكل",
-    "شقر",
-    "شقل",
-    "زكر",
-    "زكل",
-    "زقر",
-    "زقل"
-   ],
-   "best": "سكر",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐍆𐌰𐌿𐍂𐌰𐌲𐌰𐍂𐌴𐌳𐌰𐌽",
-   "ancestor": "rēdaną",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "r-d-n",
-   "laryngeal": false,
+   "ancestor": "Hreh₁dʰ",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "H-r-h₁-dʰ",
+   "laryngeal": true,
    "gloss": "to predestine",
    "candidates_found": [
-    "ردن",
-    "رضن",
-    "رذن",
-    "لدن",
-    "لذن"
+    "رد",
+    "رذ",
+    "رض",
+    "لد",
+    "لذ",
+    "لض",
+    "هرد",
+    "هرذ",
+    "هرض",
+    "هلد",
+    "هلض",
+    "حرد",
+    "حرض",
+    "حلد",
+    "عرد",
+    "عرض",
+    "علد",
+    "علض",
+    "غرد",
+    "غرض",
+    "غلد",
+    "غلذ",
+    "خرد",
+    "خرض",
+    "خلد",
+    "رهد",
+    "لهد",
+    "علهد",
+    "علهض"
    ],
-   "best": "ردن",
+   "best": "رد",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐍄𐌰𐌿𐍂𐌸𐍃",
+   "ancestor": "turþiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "t-r-z",
+   "laryngeal": false,
+   "gloss": "destruction, a tearing down",
+   "candidates_found": [
+    "ترز",
+    "ترص",
+    "تلز",
+    "تلص",
+    "طرز"
+   ],
+   "best": "ترز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌾𐌿𐌲𐌲𐌰𐌻𐌰𐌿𐌸𐍃",
+   "ancestor": "laudaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-d-z",
+   "laryngeal": false,
+   "gloss": "young man",
+   "candidates_found": [
+    "لذذ",
+    "رذذ"
+   ],
+   "best": "لذذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -12508,6 +15455,23 @@
     "رثن"
    ],
    "best": "لتن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍄𐌿𐌲𐌲𐌻",
+   "ancestor": "tunglą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "t-n-g-l",
+   "laryngeal": false,
+   "gloss": "The meaning of this term is uncertain. Possibilities include; The meaning of this term is ",
+   "candidates_found": [
+    "طنجر",
+    "ثنجر"
+   ],
+   "best": "طنجر",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -12584,6 +15548,25 @@
     "زقن"
    ],
    "best": "سكن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌹𐌿𐌺𐍃",
+   "ancestor": "seukaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-k-z",
+   "laryngeal": false,
+   "gloss": "sick, weak",
+   "candidates_found": [
+    "شكز",
+    "شكص",
+    "شقذ",
+    "شقص"
+   ],
+   "best": "شكز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -12901,6 +15884,67 @@
    "direct": false
   },
   {
+   "branch": "𐌳𐍂𐌰𐌲𐌰𐌽",
+   "ancestor": "draganą",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "d-r-g-n",
+   "laryngeal": false,
+   "gloss": "to draw, pull, carry",
+   "candidates_found": [
+    "درجن",
+    "درقن"
+   ],
+   "best": "درجن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐌻𐌰𐌿𐍆𐍃",
+   "ancestor": "galaubaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-b-z",
+   "laryngeal": false,
+   "gloss": "valuable, costly, expensive",
+   "candidates_found": [
+    "جلبز",
+    "جلبص",
+    "جربز",
+    "جربذ",
+    "قربز"
+   ],
+   "best": "جلبز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐍂𐍉𐍀𐍃",
+   "ancestor": "hrōpaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-p-z",
+   "laryngeal": false,
+   "gloss": "cry, clamour",
+   "candidates_found": [
+    "هربذ",
+    "حربص",
+    "حرفز",
+    "حرفص",
+    "خربز",
+    "خربذ",
+    "خربص",
+    "خرفذ",
+    "خلبص"
+   ],
+   "best": "هربذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌼𐌹𐌸𐍅𐌹𐍃𐍃𐌴𐌹",
    "ancestor": "wissį",
    "layer": "Proto-Germanic",
@@ -13026,6 +16070,26 @@
     "قفن"
    ],
    "best": "كبن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌸𐌰𐌿𐍂𐍃𐌿𐍃",
+   "ancestor": "þursuz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "r-s-z",
+   "laryngeal": false,
+   "gloss": "lacking water, dry",
+   "candidates_found": [
+    "رصص",
+    "رزز",
+    "لصز",
+    "لصص",
+    "لزز"
+   ],
+   "best": "رصص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -13246,6 +16310,23 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐍅𐌰𐌻𐌰𐌿𐌸𐍃",
+   "ancestor": "laudaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-d-z",
+   "laryngeal": false,
+   "gloss": "so great, so extensive",
+   "candidates_found": [
+    "لذذ",
+    "رذذ"
+   ],
+   "best": "لذذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍃𐌰𐌻𐌾𐌰𐌽",
    "ancestor": "saljaną",
    "layer": "Proto-Germanic",
@@ -13260,6 +16341,56 @@
     "زرجن"
    ],
    "best": "سرين",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐍄𐌰𐌹𐍂𐍉",
+   "ancestor": "ster",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-t-r",
+   "laryngeal": false,
+   "gloss": "infertile woman",
+   "candidates_found": [
+    "ستر",
+    "ستل",
+    "سطر",
+    "سطل",
+    "صطر",
+    "شتر",
+    "شتل",
+    "شطر",
+    "شثر",
+    "شثل"
+   ],
+   "best": "ستر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍅𐌹𐌻𐌾𐌰𐌷𐌰𐌻𐌸𐌴𐌹",
+   "ancestor": "halþaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-z",
+   "laryngeal": false,
+   "gloss": "bias, partisanship, partiality",
+   "candidates_found": [
+    "هلز",
+    "هرز",
+    "هرذ",
+    "هرص",
+    "حلز",
+    "حرز",
+    "حرص",
+    "خلص",
+    "خرز",
+    "خرص"
+   ],
+   "best": "هلز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -13359,6 +16490,40 @@
    "direct": false
   },
   {
+   "branch": "𐌻𐌿𐍃𐍄𐍉𐌽",
+   "ancestor": "lustōną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-s-t-n",
+   "laryngeal": false,
+   "gloss": "to lust, desire",
+   "candidates_found": [
+    "رستن",
+    "رسطن"
+   ],
+   "best": "رستن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐍂𐌴𐌳𐌰𐌱𐌰",
+   "ancestor": "rēdaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "r-d-z",
+   "laryngeal": false,
+   "gloss": "commendably, honestly, properly",
+   "candidates_found": [
+    "رذذ",
+    "لذذ"
+   ],
+   "best": "رذذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌷𐌰𐌿𐌽𐍃",
    "ancestor": "hauniz",
    "layer": "Proto-Germanic",
@@ -13376,6 +16541,25 @@
     "خنص"
    ],
    "best": "هنز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍈𐌰𐌸𐌾𐌰𐌽",
+   "ancestor": "kweth₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "k-w-t-h₂",
+   "laryngeal": true,
+   "gloss": "to foam",
+   "candidates_found": [
+    "كوت",
+    "كوث",
+    "قوت",
+    "قوط"
+   ],
+   "best": "كوت",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -13454,20 +16638,36 @@
    "direct": false
   },
   {
-   "branch": "𐌸𐍂𐌿𐍄𐍃𐍆𐌹𐌻𐌻",
-   "ancestor": "fellą",
+   "branch": "𐌲𐌰𐌷𐌻𐌰𐌹𐌱𐌰",
+   "ancestor": "gahlaibô",
    "layer": "Proto-Germanic",
    "depth": 2,
-   "skeleton": "f-l",
+   "skeleton": "g-h-l-b",
    "laryngeal": false,
-   "gloss": "leprosy",
+   "gloss": "companion",
    "candidates_found": [
-    "فل",
-    "فر",
-    "بل",
-    "بر"
+    "جحرب",
+    "قحرب"
    ],
-   "best": "فل",
+   "best": "جحرب",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌻𐌰𐍄𐍃",
+   "ancestor": "lataz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-t-z",
+   "laryngeal": false,
+   "gloss": "lazy, slothful",
+   "candidates_found": [
+    "لتز",
+    "لطز",
+    "رطز"
+   ],
+   "best": "لتز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -13569,6 +16769,22 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐍀𐌴𐌸𐍃",
+   "ancestor": "spēdiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-p-d-z",
+   "laryngeal": false,
+   "gloss": "late",
+   "candidates_found": [
+    "شبدز"
+   ],
+   "best": "شبدز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌼𐌰𐌹𐌻",
    "ancestor": "mailą",
    "layer": "Proto-Germanic",
@@ -13581,6 +16797,31 @@
     "مر"
    ],
    "best": "مل",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍄𐍂𐌹𐌲𐍉",
+   "ancestor": "tregô",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "t-r-g",
+   "laryngeal": false,
+   "gloss": "sadness, regret",
+   "candidates_found": [
+    "ترج",
+    "ترق",
+    "تلج",
+    "طرق",
+    "طلغ",
+    "طلق",
+    "ثرغ",
+    "ثرق",
+    "ثلج",
+    "ثلغ"
+   ],
+   "best": "ترج",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -13691,6 +16932,30 @@
    "direct": false
   },
   {
+   "branch": "𐌲𐌰𐍆𐌴𐌷𐌰𐌱𐌰",
+   "ancestor": "fēhiz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "f-h-z",
+   "laryngeal": false,
+   "gloss": "honestly",
+   "candidates_found": [
+    "فحز",
+    "فحص",
+    "فخز",
+    "فخذ",
+    "بهز",
+    "بهص",
+    "بحز",
+    "بخز",
+    "بخص"
+   ],
+   "best": "فحز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌲𐌰𐌹𐌻𐌾𐌰𐌽",
    "ancestor": "gailijaną",
    "layer": "Proto-Germanic",
@@ -13761,6 +17026,38 @@
    "direct": false
   },
   {
+   "branch": "𐌿𐍃𐌻𐌰𐌿𐌱𐌾𐌰𐌽",
+   "ancestor": "uzlaubijaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "z-l-b-j-n",
+   "laryngeal": false,
+   "gloss": "to allow, permit",
+   "candidates_found": [
+    "زربين"
+   ],
+   "best": "زربين",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌼𐌰𐌿𐌳𐌾𐌰𐌽",
+   "ancestor": "mewHdʰ",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "m-w-H-dʰ",
+   "laryngeal": true,
+   "gloss": "to remind",
+   "candidates_found": [
+    "موذ"
+   ],
+   "best": "موذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍅𐌴𐌹𐍄𐌰𐌽",
    "ancestor": "wītaną",
    "layer": "Proto-Germanic",
@@ -13819,6 +17116,31 @@
    "direct": false
   },
   {
+   "branch": "𐌷𐌿𐌻𐌸𐍃",
+   "ancestor": "hulþaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-l-z",
+   "laryngeal": false,
+   "gloss": "gracious, kind, clement",
+   "candidates_found": [
+    "هلز",
+    "هرز",
+    "هرذ",
+    "هرص",
+    "حلز",
+    "حرز",
+    "حرص",
+    "خلص",
+    "خرز",
+    "خرص"
+   ],
+   "best": "هلز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐍃𐌽𐌴𐌹𐌸𐌰𐌽",
    "ancestor": "snīþaną",
    "layer": "Proto-Germanic",
@@ -13858,19 +17180,18 @@
    "direct": false
   },
   {
-   "branch": "𐌲𐌰𐌺𐌿𐌽𐌸𐍃",
-   "ancestor": "ǵenh₁",
-   "layer": "Proto-Indo-European",
-   "depth": 1,
-   "skeleton": "ǵ-n-h₁",
-   "laryngeal": true,
-   "gloss": "Semantically unclear; used in the phrase uf gakunþai, translating ἀρχόμενος.",
+   "branch": "𐌲𐌰𐍂𐌴𐌳𐌰𐌽",
+   "ancestor": "garēdaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-r-d-n",
+   "laryngeal": false,
+   "gloss": "to provide for, to intend",
    "candidates_found": [
-    "جنء",
-    "جنه",
-    "قنء"
+    "غردن",
+    "قردن"
    ],
-   "best": "جنء",
+   "best": "غردن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -13911,30 +17232,6 @@
    "direct": false
   },
   {
-   "branch": "𐌲𐌰𐌻𐌴𐌹𐌺𐌹",
-   "ancestor": "galīkī",
-   "layer": "Proto-West Germanic",
-   "depth": 3,
-   "skeleton": "g-l-k",
-   "laryngeal": false,
-   "gloss": "likeness",
-   "candidates_found": [
-    "جلك",
-    "جلق",
-    "جرك",
-    "جرق",
-    "غلق",
-    "غرك",
-    "غرق",
-    "قلق",
-    "قرق"
-   ],
-   "best": "جلك",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "𐌸𐌿𐌻𐌰𐌽",
    "ancestor": "þulāną",
    "layer": "Proto-Germanic",
@@ -13947,6 +17244,22 @@
     "رن"
    ],
    "best": "لن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐌼𐌰𐌿𐍂𐌲𐌾𐌰𐌽",
+   "ancestor": "murgijaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "m-r-g-j-n",
+   "laryngeal": false,
+   "gloss": "to shorten, cut short",
+   "candidates_found": [
+    "مرغين"
+   ],
+   "best": "مرغين",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -13966,6 +17279,47 @@
     "قل"
    ],
    "best": "كر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌻𐌰𐌲𐌿𐍃",
+   "ancestor": "laguz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-g-z",
+   "laryngeal": false,
+   "gloss": "sea, ocean; the letter 𐌻",
+   "candidates_found": [
+    "لجز",
+    "لجذ",
+    "لغز",
+    "لغذ",
+    "لقز",
+    "لقص",
+    "رجز",
+    "رغز",
+    "رقز",
+    "رقص"
+   ],
+   "best": "لجز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐍉𐌺𐌽𐍃",
+   "ancestor": "sōkniz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-k-n-z",
+   "laryngeal": false,
+   "gloss": "question, point of controversy",
+   "candidates_found": [
+    "شقنز"
+   ],
+   "best": "شقنز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -14004,6 +17358,42 @@
     "خنص"
    ],
    "best": "هنز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌺𐌰𐌸𐌹𐍃",
+   "ancestor": "skaþaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-k-z",
+   "laryngeal": false,
+   "gloss": "wrongdoing",
+   "candidates_found": [
+    "شكز",
+    "شكص",
+    "شقذ",
+    "شقص"
+   ],
+   "best": "شكز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐍂𐌹𐌿𐌸𐍃",
+   "ancestor": "reudaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "r-d-z",
+   "laryngeal": false,
+   "gloss": "respectable, honorable, dignified",
+   "candidates_found": [
+    "رذذ",
+    "لذذ"
+   ],
+   "best": "رذذ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -14212,36 +17602,20 @@
    "direct": false
   },
   {
-   "branch": "𐌸𐌰𐌷𐍉",
-   "ancestor": "þanhǭ",
+   "branch": "𐍃𐌰𐌿𐍂𐌲𐌰𐌽",
+   "ancestor": "surgāną",
    "layer": "Proto-Germanic",
    "depth": 2,
-   "skeleton": "n-h",
+   "skeleton": "s-r-g-n",
    "laryngeal": false,
-   "gloss": "clay",
+   "gloss": "to worry; to grieve, be sorrowful",
    "candidates_found": [
-    "نه",
-    "نح",
-    "نخ"
+    "سرجن",
+    "سرقن",
+    "شرغن",
+    "زرجن"
    ],
-   "best": "نه",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌿𐌽𐌳𐌰𐍂𐌻𐌴𐌹𐌾𐌰",
-   "ancestor": "olīnā",
-   "layer": "Proto-Celtic",
-   "depth": 2,
-   "skeleton": "l-n",
-   "laryngeal": false,
-   "gloss": "the lowest or basest man",
-   "candidates_found": [
-    "لن",
-    "رن"
-   ],
-   "best": "لن",
+   "best": "سرجن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -14355,6 +17729,56 @@
    "direct": false
   },
   {
+   "branch": "𐍃𐌰𐌻𐍄𐌰𐌽",
+   "ancestor": "saltaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-t-n",
+   "laryngeal": false,
+   "gloss": "to salt",
+   "candidates_found": [
+    "سلتن"
+   ],
+   "best": "سلتن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌰𐍃𐍄𐍉𐌸𐌰𐌽",
+   "ancestor": "steh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "s-t-h₂",
+   "laryngeal": true,
+   "gloss": "to make upright, cause to stand",
+   "candidates_found": [
+    "ست",
+    "صت",
+    "صط",
+    "شت",
+    "شط",
+    "شث",
+    "زط",
+    "ستع",
+    "سته",
+    "سطح",
+    "سطع",
+    "صتع",
+    "صته",
+    "صطح",
+    "صطع",
+    "شتع",
+    "شطح",
+    "شطع",
+    "زتخ"
+   ],
+   "best": "ست",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌽𐌴𐌹𐍅𐌰𐌽",
    "ancestor": "nīwaną",
    "layer": "Proto-Germanic",
@@ -14421,6 +17845,26 @@
     "خلبن"
    ],
    "best": "خلبن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌻𐌴𐌹𐍃",
+   "ancestor": "līsaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-s-z",
+   "laryngeal": false,
+   "gloss": "skilled, knowledgeable",
+   "candidates_found": [
+    "لصز",
+    "لصص",
+    "لزز",
+    "رصص",
+    "رزز"
+   ],
+   "best": "لصز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -14565,6 +18009,46 @@
    "direct": false
   },
   {
+   "branch": "𐌿𐌽𐍄𐌰𐌻𐍃",
+   "ancestor": "talaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "t-l-z",
+   "laryngeal": false,
+   "gloss": "undisciplined, untrained, uneducated, unruly, disobedient",
+   "candidates_found": [
+    "تلز",
+    "تلص",
+    "ترز",
+    "ترص",
+    "طرز"
+   ],
+   "best": "تلز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍄𐌰𐌻𐍃",
+   "ancestor": "talaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "t-l-z",
+   "laryngeal": false,
+   "gloss": "trained, disciplined, obedient",
+   "candidates_found": [
+    "تلز",
+    "تلص",
+    "ترز",
+    "ترص",
+    "طرز"
+   ],
+   "best": "تلز",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌿𐍄𐌰𐌽𐌰",
    "ancestor": "ūtanē",
    "layer": "Proto-Germanic",
@@ -14702,6 +18186,8 @@
    "laryngeal": true,
    "gloss": "strong, stable",
    "candidates_found": [
+    "تو",
+    "ثو",
     "توح",
     "توع",
     "توخ",
@@ -14713,7 +18199,7 @@
     "ثوخ",
     "ثوه"
    ],
-   "best": "توح",
+   "best": "تو",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -14805,6 +18291,8 @@
    "laryngeal": true,
    "gloss": "to be moved with compassion, have compassion; to be tender",
    "candidates_found": [
+    "بو",
+    "فو",
     "بوه",
     "بوح",
     "بوع",
@@ -14816,7 +18304,7 @@
     "فوغ",
     "فوخ"
    ],
-   "best": "بوه",
+   "best": "بو",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -14842,33 +18330,48 @@
    "direct": false
   },
   {
-   "branch": "𐌽𐌰𐌲𐌻𐍃",
-   "ancestor": "h₃negʰ",
+   "branch": "𐌹𐌽𐍂𐌰𐌿𐌷𐍄𐌾𐌰𐌽",
+   "ancestor": "krewh₂",
    "layer": "Proto-Indo-European",
    "depth": 1,
-   "skeleton": "h₃-n-gʰ",
+   "skeleton": "k-r-w-h₂",
    "laryngeal": true,
-   "gloss": "nail, peg used for fastening; possibly nail, fingernail, toenail",
+   "gloss": "to groan",
    "candidates_found": [
-    "عنج",
-    "عنق",
-    "غنج",
-    "هنج",
-    "هنغ",
-    "هنق"
+    "كرو",
+    "كلو",
+    "قرو",
+    "قلو"
    ],
-   "best": "عنج",
+   "best": "كرو",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌲𐌹𐌻𐌳𐌰𐌽",
+   "ancestor": "geldaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-l-d-n",
+   "laryngeal": false,
+   "gloss": "to pay",
+   "candidates_found": [
+    "غردن",
+    "قردن"
+   ],
+   "best": "غردن",
    "overlap": 0,
    "shared": [],
    "direct": false
   },
   {
    "branch": "𐌲𐌰𐌽𐍃",
-   "ancestor": "gans",
-   "layer": "Proto-Germanic",
-   "depth": 2,
-   "skeleton": "g-n-s",
-   "laryngeal": false,
+   "ancestor": "ǵʰh₂éns",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "ǵʰ-h₂-n-s",
+   "laryngeal": true,
    "gloss": "goose",
    "candidates_found": [
     "جنس",
@@ -14877,10 +18380,8 @@
     "جنز",
     "غنص",
     "غنش",
-    "قنس",
-    "قنص",
-    "قنش",
-    "قنز"
+    "جحنش",
+    "جعنس"
    ],
    "best": "جنس",
    "overlap": 0,
@@ -15062,6 +18563,40 @@
    "direct": false
   },
   {
+   "branch": "𐍈𐌴𐌻𐌰𐌿𐌸𐍃",
+   "ancestor": "laudaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-d-z",
+   "laryngeal": false,
+   "gloss": "how large, how extensive",
+   "candidates_found": [
+    "لذذ",
+    "رذذ"
+   ],
+   "best": "لذذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌰𐌼𐌰𐌻𐌰𐌿𐌸𐍃",
+   "ancestor": "laudaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "l-d-z",
+   "laryngeal": false,
+   "gloss": "as large, as extensive",
+   "candidates_found": [
+    "لذذ",
+    "رذذ"
+   ],
+   "best": "لذذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "𐌸𐍂𐍉𐌸𐌾𐌰𐌽",
    "ancestor": "þrōþijaną",
    "layer": "Proto-Germanic",
@@ -15145,9 +18680,29 @@
    "laryngeal": true,
    "gloss": "a pair (collective number); two each (distributive number)",
    "candidates_found": [
+    "دو",
+    "ضو",
+    "ذو",
     "دوه"
    ],
-   "best": "دوه",
+   "best": "دو",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌷𐍂𐌹𐌲𐌲𐍃",
+   "ancestor": "hringaz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "h-r-n-g-z",
+   "laryngeal": false,
+   "gloss": "ring, circle",
+   "candidates_found": [
+    "هرنقص",
+    "هلنقص"
+   ],
+   "best": "هرنقص",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -15181,6 +18736,27 @@
     "نهوذ"
    ],
    "best": "نهوذ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐍃𐌰𐌻𐍃",
+   "ancestor": "saliz",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "s-l-z",
+   "laryngeal": false,
+   "gloss": "room, hall",
+   "candidates_found": [
+    "شلز",
+    "شرز",
+    "شرذ",
+    "شرص",
+    "زلز",
+    "زرز"
+   ],
+   "best": "شلز",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -15221,6 +18797,23 @@
     "فر"
    ],
    "best": "بل",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "𐌿𐍆𐌲𐌰𐌹𐍂𐌳𐌰𐌽",
+   "ancestor": "gerdaną",
+   "layer": "Proto-Germanic",
+   "depth": 2,
+   "skeleton": "g-r-d-n",
+   "laryngeal": false,
+   "gloss": "to gird oneself",
+   "candidates_found": [
+    "غردن",
+    "قردن"
+   ],
+   "best": "غردن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -15320,30 +18913,6 @@
     "خمن"
    ],
    "best": "همن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐌿𐍃𐍅𐌰𐌻𐌿𐌲𐌾𐌰𐌽",
-   "ancestor": "welH",
-   "layer": "Proto-Indo-European",
-   "depth": 1,
-   "skeleton": "w-l-H",
-   "laryngeal": true,
-   "gloss": "to toss about, to move to and fro",
-   "candidates_found": [
-    "وله",
-    "ولح",
-    "ولع",
-    "ولغ",
-    "ولخ",
-    "وره",
-    "ورع",
-    "ورغ",
-    "ورخ"
-   ],
-   "best": "وله",
    "overlap": 0,
    "shared": [],
    "direct": false

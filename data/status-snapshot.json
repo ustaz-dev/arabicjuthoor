@@ -88,9 +88,9 @@
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
     "cards": 1277,
-    "links": 12,
-    "root": 6,
-    "nucleus": 6,
+    "links": 16,
+    "root": 8,
+    "nucleus": 8,
     "floor": 0,
     "nucleus_share": 50.0
    },
@@ -154,11 +154,11 @@
     "en": "Akkadian",
     "ar": "الأكّاديّة",
     "cards": 178,
-    "links": 93,
-    "root": 75,
-    "nucleus": 18,
+    "links": 100,
+    "root": 79,
+    "nucleus": 21,
     "floor": 0,
-    "nucleus_share": 19.4
+    "nucleus_share": 21.0
    },
    {
     "key": "old-norse",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2587,
+  "links_to_arabic": 2598,
   "closures": 821,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1215,
+    "count": 1221,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 761,
+    "count": 764,
     "link": true
    },
    {
@@ -205,7 +205,7 @@
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 316,
+    "count": 318,
     "link": true
    },
    {

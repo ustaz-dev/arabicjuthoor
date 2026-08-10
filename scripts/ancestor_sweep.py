@@ -148,14 +148,34 @@ def proto_skeleton(form: str) -> list[str]:
     return [c for i, c in enumerate(out) if i == 0 or c != out[i - 1]]
 
 
-def proto_fan(form: str, limit: int = 400) -> list[str]:
+# **الحنجريّةُ المستعادةُ صفرٌ منطوقٌ في كلِّ فرعٍ حيٍّ بلا استثناء**، وهذا قولُ
+# المدرسةِ القياسيّةِ نفسِها لا قولُنا: لاتينيّةُ pater ويونانيّةُ patḗr ليسَ فيهما
+# أثرٌ صامتٌ لـ h₂ في `*ph₂tḗr`. فسقوطُها احتمالٌ قائمٌ يجبُ أن تفتحَه المروحةُ،
+# وإلّا استحالَ أن يُقابَلَ هيكلٌ رباعيٌّ فيه حنجريّةٌ بجذرٍ عربيٍّ ثلاثيّ.
+ZERO = ("",)
+
+
+def proto_fan(form: str, limit: int = 600) -> list[str]:
     sk = proto_skeleton(form)
-    if not (2 <= len(sk) <= 4):
+    if not (2 <= len(sk) <= 5):
         return []
-    options = [PROTO_FAN.get(c, ()) for c in sk]
-    if any(not o for o in options):
-        return []
-    return ["".join(c) for c in itertools.islice(itertools.product(*options), limit)]
+    options = []
+    for c in sk:
+        opts = PROTO_FAN.get(c, ())
+        if not opts:
+            return []
+        if c in {"h₁", "h₂", "h₃", "H"}:
+            opts = tuple(opts) + ZERO
+        options.append(opts)
+    out, seen = [], set()
+    for combo in itertools.islice(itertools.product(*options), limit * 3):
+        w = "".join(combo)
+        if 2 <= len(w) <= 5 and w not in seen:
+            seen.add(w)
+            out.append(w)
+        if len(out) >= limit:
+            break
+    return out
 
 
 def ancestors_of(etymology: str) -> list[tuple[str, str, int]]:
@@ -170,9 +190,19 @@ def ancestors_of(etymology: str) -> list[tuple[str, str, int]]:
                 continue
             if not re.search(r"[a-zʰʷ₁₂₃ḱǵćśčǰźžšθðɣʔʕḥḫġṣṯẖ]", form):
                 continue
+            # «شجرةُ الاشتقاق» في رأسِ المدخلِ تسردُ عقدًا ناقصةً مثل `*peh₂-?`،
+            # وهي جذرٌ مجرَّدٌ لا صورةُ الكلمة. وأخذُها أضاعَ `*ph₂tḗr` في الأبِ كلِّه.
+            if "?" in form:
+                continue
+            # `*-tḗr` لاحقةٌ لا كلمة، و`*peh₂-` جذرٌ مجرَّدٌ لا صورة. وقد قابلَت
+            # الأداةُ `pater` باللاحقةِ وحدَها فقارنَت «ـتَر» بدلَ الكلمةِ كلِّها.
+            if m.group(2).lstrip("*").startswith("-") or form.endswith("-"):
+                continue
             seen.add((layer, form))
             found.append((layer, form, depth.get(layer, 4)))
-    found.sort(key=lambda x: x[2])
+    # الأعمقُ طبقةً أوّلًا، ثمّ الأتمُّ صوامتَ في الطبقةِ الواحدة. فالشجرةُ تسردُ
+    # الجذرَ المجرَّدَ واللاحقةَ والصورةَ التامّةَ معًا، والتامّةُ هي المقصودة.
+    found.sort(key=lambda x: (x[2], -len(proto_skeleton(x[1]))))
     return found
 
 
@@ -214,10 +244,14 @@ def main() -> int:
     layers = collections.Counter()
     with_laryngeal = 0
     for r in rows:
-        for layer, form, depth in ancestors_of(r["etymology"])[:3]:
+        # **الصورةُ الأتمُّ هي المقابَلة، ولو اتّسعَت مروحتُها.** كانَ السقفُ يُسقِطُ
+        # `*ph₂tḗr` لأنّها تفتحُ ستّينَ مرشَّحًا، فينزلُ المسحُ إلى اللاحقةِ `*tḗr`
+        # فيقابِلُ «ـتَر» بدلَ الكلمة. والسقفُ ضابطُ ضجيجٍ لا يجوزُ أن يُبدِّلَ
+        # المادّةَ المقارَنة، فإن ضاقَ عن الأتمِّ وُسِّعَ له ولم يُستبدَلْ بها غيرُها.
+        for layer, form, depth in ancestors_of(r["etymology"])[:1]:
             sk = proto_skeleton(form)
             cands = proto_fan(form)
-            if not cands or len(cands) > args.max_cands:
+            if not cands:
                 continue
             hits = [c for c in cands if c in ar]
             if not hits:
