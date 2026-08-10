@@ -4,18 +4,18 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31383,
+  "cards_total": 31402,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 7479,
-    "links": 26,
-    "root": 12,
-    "nucleus": 13,
+    "cards": 7495,
+    "links": 36,
+    "root": 19,
+    "nucleus": 16,
     "floor": 1,
-    "nucleus_share": 52.0
+    "nucleus_share": 45.7
    },
    {
     "key": "persian",
@@ -66,11 +66,11 @@
     "en": "Hebrew",
     "ar": "العبريّة",
     "cards": 2275,
-    "links": 934,
-    "root": 603,
+    "links": 933,
+    "root": 602,
     "nucleus": 331,
     "floor": 0,
-    "nucleus_share": 35.4
+    "nucleus_share": 35.5
    },
    {
     "key": "aramaic",
@@ -87,12 +87,12 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 1274,
-    "links": 11,
-    "root": 5,
+    "cards": 1277,
+    "links": 12,
+    "root": 6,
     "nucleus": 6,
     "floor": 0,
-    "nucleus_share": 54.5
+    "nucleus_share": 50.0
    },
    {
     "key": "old-irish",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2577,
-  "closures": 819,
+  "links_to_arabic": 2587,
+  "closures": 821,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1210,
+    "count": 1215,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 760,
+    "count": 761,
     "link": true
    },
    {
@@ -205,12 +205,12 @@
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 314,
+    "count": 316,
     "link": true
    },
    {
     "name": "ROOT-ECHO",
-    "count": 288,
+    "count": 290,
     "link": true
    },
    {
@@ -230,7 +230,7 @@
    },
    {
     "name": "NO-TRACE",
-    "count": 81,
+    "count": 83,
     "link": false
    },
    {
@@ -261,13 +261,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 27990,
-  "suspended": 20773,
-  "released": 7217,
+  "cards_total": 28007,
+  "suspended": 20775,
+  "released": 7232,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 16765
+    "count": 16768
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -292,16 +292,12 @@
    {
     "name": "NUCLEUS-ORIGINAL-CONSONANT-DROP",
     "count": 3
-   },
-   {
-    "name": "ORIGINAL-CONSONANT-DROP",
-    "count": 1
    }
   ],
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 7019
+    "count": 7021
    },
    {
     "file": "egyptian.md",
@@ -356,7 +352,7 @@
   "required_total": 600,
   "required_per_language": 150,
   "families_tracked": 1826,
-  "eligible_now": 382,
+  "eligible_now": 381,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
@@ -370,11 +366,11 @@
    },
    {
     "name": "hebrew",
-    "eligible": 135,
+    "eligible": 134,
     "represented": 1224,
-    "positive_families": 135,
+    "positive_families": 134,
     "closure_only_families": 0,
-    "one_member_short": 340
+    "one_member_short": 341
    }
   ],
   "counting_law": "A family counts only when every inventory member carries an issued verdict or recorded terminal closure."

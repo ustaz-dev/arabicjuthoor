@@ -1,0 +1,917 @@
+{
+ "generated_by": "scripts/reopen_invented_closures.py",
+ "date": "2026-08-09",
+ "order": "أعِدْ فتحَ كلِّ واحدةٍ منها ولنُعامِلْها بالطريقةِ التي تستحقُّها",
+ "reopened": 106,
+ "by_language": {
+  "akkadian": 7,
+  "ancient-greek": 15,
+  "aramaic": 5,
+  "egyptian": 1,
+  "gothic": 2,
+  "hebrew": 9,
+  "middle-english": 29,
+  "old-english": 4,
+  "old-irish": 5,
+  "old-latin": 5,
+  "old-norse": 2,
+  "persian": 3,
+  "welsh": 12
+ },
+ "by_label": {
+  "ORIGINAL-CONSONANT-DROP": 37,
+  "NOT-IDENTICAL": 2,
+  "NUCLEUS-ORBIT-GAP": 7,
+  "CONSTRUCTED-SEMANTIC-BRIDGE": 10,
+  "ARABIC-MATERIAL-SPLIT": 2,
+  "ORBIT-NOT-IDENTICAL": 12,
+  "BELOW-NUCLEUS-AFTER-MORPHOLOGY": 2,
+  "MEANING-FAIL": 2,
+  "DIRECTIONAL-TRANSMISSION": 10,
+  "LOAN-DIRECTION-GAP": 1,
+  "ENTRY-GAP": 1,
+  "NO-ROOT-TRACE": 1,
+  "CHRONOLOGY-BRIDGE-OLD": 8,
+  "OLD-ENGLISH-CARD-GAP": 1,
+  "SENSE-SELECTED-AFTER-THE-FACT": 1,
+  "UNLISTED-CORRESPONDENCE": 8,
+  "NO-CANDIDATE-IN-FAN": 1,
+  "ROW-TAG-CONDITION-UNMET": 2,
+  "MATERIAL-SPLIT": 1,
+  "ARABIC-SOURCE-GAP": 1,
+  "SEMANTIC-BRIDGE-GAP": 1,
+  "SEMANTIC-GAP": 1,
+  "ORBIT-GAP": 6,
+  "ORIGINAL-CONSONANT-UNACCOUNTED": 1,
+  "ARABIC-QUOTE-GAP": 2,
+  "HISTORICAL-CONSONANT-GAP": 1,
+  "MATERIAL-UNITY-GAP": 1
+ },
+ "cards": [
+  {
+   "language": "akkadian",
+   "card": "بطاقة طابور مردودة: pûm «الفم والقول» بإزاء فوه وفم",
+   "previous_verdict": "غير صادر، الوسم ORIGINAL-CONSONANT-DROP.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "akkadian",
+   "card": "بطاقة إعادة فتح مردودة: pûm «الفم» بإزاء فوه",
+   "previous_verdict": "غير صادر، الوسم ORIGINAL-CONSONANT-DROP.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "akkadian",
+   "card": "بطاقة إعادة فتح مردودة: šaptum «الشفة» بإزاء شفه",
+   "previous_verdict": "غير صادر، الوسم ORIGINAL-CONSONANT-DROP.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "akkadian",
+   "card": "بطاقة طابور مردودة: pānum «الوجه والمقدّم» بإزاء فناء",
+   "previous_verdict": "غير صادر، الوسم ORIGINAL-CONSONANT-DROP.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "akkadian",
+   "card": "بطاقة طابور مردودة: nišū «الناس والبشر» بإزاء إنس وإنسان",
+   "previous_verdict": "غير صادر، الوسم ORIGINAL-CONSONANT-DROP.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "akkadian",
+   "card": "بطاقة طابور مردودة: šalû / salû «الغمر في امتحان النهر» بإزاء سال وسالّ",
+   "previous_verdict": "غير صادر، الوسمان ORIGINAL-CONSONANT-DROP وORBIT-NOT-IDENTICAL.",
+   "labels": [
+    "NOT-IDENTICAL",
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "akkadian",
+   "card": "بطاقة طابور مردودة: šēpu / šēpītu «القدم وأسفل الشيء» بإزاء شَبَاة النعل",
+   "previous_verdict": "غير صادر، الوسمان ORIGINAL-CONSONANT-DROP وORBIT-NOT-IDENTICAL.",
+   "labels": [
+    "NOT-IDENTICAL",
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `ἀμέλγω`، نسخ حكم النواة",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `ζεῦγος`، نسخ حكم النواة",
+   "previous_verdict": "NUCLEUS-ORBIT-GAP؛ غير صادر.",
+   "labels": [
+    "NUCLEUS-ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `πταίω`، نسخ حكم النواة",
+   "previous_verdict": "CONSTRUCTED-SEMANTIC-BRIDGE + NUCLEUS-ORBIT-GAP؛ غير صادر.",
+   "labels": [
+    "CONSTRUCTED-SEMANTIC-BRIDGE",
+    "NUCLEUS-ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `στέγος`، نسخ حكم النواة",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `πέντε`، قائدة خشيم في ملحق الأعداد",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP + CONSTRUCTED-SEMANTIC-BRIDGE؛ غير صادر.",
+   "labels": [
+    "CONSTRUCTED-SEMANTIC-BRIDGE",
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `kaikki_ancient_greek:1165:en-ὄνυξ-grc-noun-QUXCOZYD`، نسخ حكم النواة",
+   "previous_verdict": "`CONSTRUCTED-SEMANTIC-BRIDGE + ARABIC-MATERIAL-SPLIT/NUCLEUS-ORBIT-GAP`؛ غير صادر.",
+   "labels": [
+    "ARABIC-MATERIAL-SPLIT",
+    "CONSTRUCTED-SEMANTIC-BRIDGE",
+    "NUCLEUS-ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `kaikki_ancient_greek:3923:en-κέρας-grc-noun-4NMri9HY`، κέρας (الطبقةُ الأساسيّة: القرن)",
+   "previous_verdict": "غير صادر؛ `NUCLEUS-ORBIT-GAP`.",
+   "labels": [
+    "NUCLEUS-ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `kaikki_ancient_greek:743:en-πούς-grc-noun-IuT2kSpp`، πούς (الطبقةُ الأساسيّة: القدم)",
+   "previous_verdict": "غير صادر؛ `NUCLEUS-ORBIT-GAP`.",
+   "labels": [
+    "NUCLEUS-ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `kaikki_ancient_greek:4324:en-ὀμφαλός-grc-noun-1iegkLAD`، ὀμφαλός (الطبقةُ الأساسيّة: السرّة)",
+   "previous_verdict": "غير صادر؛ `CONSTRUCTED-SEMANTIC-BRIDGE`.",
+   "labels": [
+    "CONSTRUCTED-SEMANTIC-BRIDGE"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `kaikki_ancient_greek:4090:en-γόνυ-grc-noun-ae9aiLAn`، γόνυ (الطبقةُ الأساسيّة: الركبة)",
+   "previous_verdict": "غير صادر؛ `CONSTRUCTED-SEMANTIC-BRIDGE`.",
+   "labels": [
+    "CONSTRUCTED-SEMANTIC-BRIDGE"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `kaikki_ancient_greek:207:en-στόμα-grc-noun-P-gifVEE`، στόμα (الطبقةُ الأساسيّة: الفم)",
+   "previous_verdict": "غير صادر؛ `NUCLEUS-ORBIT-GAP`.",
+   "labels": [
+    "NUCLEUS-ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة RECOVERY-v2: `κῶμος`، قائدة `COMEDY (KOM-os)` في الطبقة الأساسية",
+   "previous_verdict": "NO-TRACE؛ `ORBIT-NOT-IDENTICAL` للنواة `قم` في هذا العضو وحده.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `kaikki_ancient_greek:9911:en--κός-grc-suffix-oiME-bwQ`، -κός (-kos؛ كوس) (دفعة فتح المسح 001)",
+   "previous_verdict": "NO-TRACE؛ `BELOW-NUCLEUS-AFTER-MORPHOLOGY`.",
+   "labels": [
+    "BELOW-NUCLEUS-AFTER-MORPHOLOGY"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: `kaikki_ancient_greek:26536:en-Ὦχος-grc-name-KiPV-4Sb`، Ὦχος (ōkhos؛ وخوس) (دفعة فتح المسح 002)",
+   "previous_verdict": "NO-TRACE؛ `BELOW-NUCLEUS-AFTER-MORPHOLOGY`.",
+   "labels": [
+    "BELOW-NUCLEUS-AFTER-MORPHOLOGY"
+   ]
+  },
+  {
+   "language": "ancient-greek",
+   "card": "بطاقة: πλευρά «ضلع أو جانب»",
+   "previous_verdict": "غير صادر (SOURCE-GAP + ORBIT-NOT-IDENTICAL؛ MEANING-FAIL).",
+   "labels": [
+    "MEANING-FAIL",
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "مراجعة ناسخة لإعادة قراءة بطبقتين: `aramaic:family:249626321527231090379777`، אדמתא، العضو `kaikki_aramaic:1862:en-אדמתא",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP؛ غير صادر. بعد تعرية `-tā` تبقى الصوامت `ʔ-d-m`، وحكم `دم` أسقط الهمزة الأصلية في الموضع 1.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `תגרא`، العضو `kaikki_aramaic:1262:en-תגרא-arc-noun-estAMW1w`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION؛ المسار `Akkadian tamkāru → Aramaic tagrā → Arabic تاجر`، لا حكم إرث جذري.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `תגרא`، العضو `kaikki_aramaic:1262:en-תגרא-arc-noun-estAMW1w`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION؛ لا تصدر نواة `تج` من لفظ انتقل إلى العربية.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `תגרא`، العضو `kaikki_aramaic:1262:en-תגרא-arc-noun-estAMW1w`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION في الجذر والنواة.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `מניא`، العضو `kaikki_aramaic:2045:en-מניא-arc-noun-m7hA339p`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION؛ اسم وحدة الوزن متنقل بين الألسن، والطرف العربي متلق لا شاهد إرث مستقل.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `מניא`، العضو `kaikki_aramaic:2045:en-מניא-arc-noun-m7hA339p`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION؛ لا تصدر نواة `من` من اسم مقياس رحال.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `מניא`، العضو `kaikki_aramaic:2045:en-מניא-arc-noun-m7hA339p`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION في الجذر والنواة.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `איר`، العضو `kaikki_aramaic:1454:en-איר-arc-name-jHj-W5k2`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION. حكم طبقة النواة: SEMITIC-SOURCE-TRANSMISSION؛ لا نواة من اسم منقول.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `פרזלא`، العضو `kaikki_aramaic:428:en-פרזלא-arc-noun-BOnA24fn`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION؛ اسم معدن رحال في الطبقة الرافدية، والعربية ليست طرفا شاهدا فيه.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `פרזלא`، العضو `kaikki_aramaic:428:en-פרזלא-arc-noun-BOnA24fn`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION؛ لا نواة من رباعي رحال.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "aramaic",
+   "card": "بطاقة: `פרזלא`، العضو `kaikki_aramaic:428:en-פרזלא-arc-noun-BOnA24fn`",
+   "previous_verdict": "DIRECTIONAL-TRANSMISSION في الطبقتين.",
+   "labels": [
+    "DIRECTIONAL-TRANSMISSION"
+   ]
+  },
+  {
+   "language": "egyptian",
+   "card": "بطاقة حسم عائلية: `ḫtm` «sealed chest/storehouse; seal» — `aed-v1.0:121720`, `121750`",
+   "previous_verdict": "**غير صادر**؛ حالة الإغلاق الجارية `LOAN-DIRECTION-GAP`",
+   "labels": [
+    "LOAN-DIRECTION-GAP"
+   ]
+  },
+  {
+   "language": "gothic",
+   "card": "بطاقة: `kaikki_gothic:9787:en-𐌷𐌰𐌻𐌳𐌰𐌽-got-verb-XSqE4Eh1`، 𐌷𐌰𐌻𐌳𐌰𐌽 (haldan) «to take care of, tend, feed» (مقلَّم)",
+   "previous_verdict": "غير صادر؛ أخذ h وl وحدهما يترك الدال، وهي صامت أصلي في الساق لا لاحقة مسماة، فالحكم `ORIGINAL-CONSONANT-DROP` والبطاقة غير صادرة.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "gothic",
+   "card": "بطاقة: `kaikki_gothic:635:en-𐌷𐌰𐌽𐌳𐌿𐍃-got-noun-GwAXBqQY`، 𐌷𐌰𐌽𐌳𐌿𐍃 (handus) «hand» (مقلَّم)",
+   "previous_verdict": "غير صادر؛ أخذ h وn وترك d إسقاط لصامت أصلي، فالحكم `ORIGINAL-CONSONANT-DROP`.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "hebrew",
+   "card": "بطاقة RECOVERY-v2: صف الفعل العبري `ʔty אתה` «أتى»",
+   "previous_verdict": "ENTRY-GAP؛ لا حكم جذر ولا حكم نواة للصف العبري، ولا تغيير لحكم العضو `kaikki_hebrew:414`.",
+   "labels": [
+    "ENTRY-GAP"
+   ]
+  },
+  {
+   "language": "hebrew",
+   "card": "بطاقة: `עז` «female goat, she-goat»، العضو `kaikki_hebrew:696:en-עז-he-noun-6HkTrNid`",
+   "previous_verdict": "`ORIGINAL-CONSONANT-DROP`، والبطاقة غير صادرة في هذه الطبقة. النواة `عز` موجودة في الفهرس المجمد وقراءتها `تماسك الأثناء والاشتداد`، وكان يسيرا أن تؤخذ لأن رسم الفرع الحي صامتان اث",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "hebrew",
+   "card": "بطاقة: `ארץ` «country, land»، العضو `kaikki_hebrew:6:en-ארץ-he-noun-eo~xhRN5`",
+   "previous_verdict": "`ORIGINAL-CONSONANT-DROP`، والبطاقة غير صادرة في هذه الطبقة. النواة `رض` قائمة في الفهرس المجمد وقراءتها `تضخم الجرم مع رخاوة باطنه`، وأخذها يقتضي إسقاط الهمزة في الموضع 1 وهي صامت",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "hebrew",
+   "card": "بطاقة: `שמים` «sky, heaven»، العضو `kaikki_hebrew:1409:en-שמים-he-noun-6m~Mw1x2`",
+   "previous_verdict": "`ORIGINAL-CONSONANT-DROP`، غير صادر. النواة `سم` في الفهرس المجمد قراءتها `نوع من الخرق الذي يضم`، وأخذها يقتضي إسقاط اللام الضعيفة `و/ي` وهي صامت أصل في الطرفين معا لا لاحقة، والم",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "hebrew",
+   "card": "بطاقة: `אחות` «sister»، العضو `kaikki_hebrew:3220:en-אחות-he-noun-GYDTkn8H`",
+   "previous_verdict": "`ORIGINAL-CONSONANT-DROP`، غير صادر. النواة `ءخ` قائمة في الفهرس المجمد وقراءتها `الفراغ أو الخلو في بنية الشيء`، وأخذها يقتضي إسقاط الواو الأصلية التي تحفظها العربية ظاهرة في `أخو",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "hebrew",
+   "card": "بطاقة: `זנב` «tail»، العضو `kaikki_hebrew:2008:en-זנב-he-noun-DGL4du8d`",
+   "previous_verdict": "`ORIGINAL-CONSONANT-DROP`، غير صادر. النواة `زن` قائمة في الفهرس وقراءتها `اختزان الباطن بقوة أو جمعه ما قد يبدو أثره`، وأخذها يقتضي إسقاط الباء الأصلية في الموضع 3، وهي محفوظة في ",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "hebrew",
+   "card": "بطاقة: `שמן` «fat, chubby»، العضو `kaikki_hebrew:1993:en-שמן-he-adj-VN-hjce~`",
+   "previous_verdict": "`ORIGINAL-CONSONANT-DROP`، غير صادر. النون في الموضع 3 صامت أصل في الطرفين معا، والمقارنة الثلاثية تامة متاحة، فلا نواة.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "hebrew",
+   "card": "بطاقة RECOVERY-v2 معاد فتحها: `אש` «fire»، العضو `kaikki_hebrew:220:en-אש-he-noun-3J8osS3R`",
+   "previous_verdict": "غير صادر؛ ORBIT-NOT-IDENTICAL للنواة `ءش`، ولا حكم جذر.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "hebrew",
+   "card": "بطاقة: ywsp/f (يوسف) «اسم يوسف»",
+   "previous_verdict": "NO-ROOT-TRACE للعضو `kaikki_hebrew:2339:en-יוסף-he-name-8dZ3Zg7J` داخل مروحة الصف؛ يسجل الاسم العربي يوسف بوصفه NAME-TRANSMISSION كتابيا/قرآنيا بلا دعوى عبري إلى عربي، ولا حكم نواة",
+   "labels": [
+    "NO-ROOT-TRACE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "بطاقة: cat «cat (feline)»",
+   "previous_verdict": "CHRONOLOGY-BRIDGE-OLD",
+   "labels": [
+    "CHRONOLOGY-BRIDGE-OLD"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "بطاقة: seven «seven»",
+   "previous_verdict": "CHRONOLOGY-BRIDGE-OLD",
+   "labels": [
+    "CHRONOLOGY-BRIDGE-OLD"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "بطاقة: hole «hole»",
+   "previous_verdict": "CHRONOLOGY-BRIDGE-OLD",
+   "labels": [
+    "CHRONOLOGY-BRIDGE-OLD"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "بطاقة: care «grief; sorrow»",
+   "previous_verdict": "CHRONOLOGY-BRIDGE-OLD",
+   "labels": [
+    "CHRONOLOGY-BRIDGE-OLD"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "بطاقة: horn «a horn; horn as material»",
+   "previous_verdict": "CHRONOLOGY-BRIDGE-OLD",
+   "labels": [
+    "CHRONOLOGY-BRIDGE-OLD"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "بطاقة: stelen «to steal»",
+   "previous_verdict": "CHRONOLOGY-BRIDGE-OLD",
+   "labels": [
+    "CHRONOLOGY-BRIDGE-OLD"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "بطاقة: got «goat (especially a female)»",
+   "previous_verdict": "غير صادر من هذه المرحلة، ولسببين مستقلين يذكران معا. الأول أن العضو موروث من `gāt` القديمة وليس لها بطاقة محكومة في `old-english.md`، فالفجوة مسماة `OLD-ENGLISH-CARD-GAP`. والثاني ",
+   "labels": [
+    "OLD-ENGLISH-CARD-GAP"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "بطاقة: got «goat (especially a female)»",
+   "previous_verdict": "CHRONOLOGY-BRIDGE-OLD",
+   "labels": [
+    "CHRONOLOGY-BRIDGE-OLD"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "بطاقة: good «good (of good quality or behaviour)»",
+   "previous_verdict": "CHRONOLOGY-BRIDGE-OLD",
+   "labels": [
+    "CHRONOLOGY-BRIDGE-OLD"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`hol` «whole, entirety» (L2532، en-hol-enm-noun-WyO7csxD)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `SENSE-SELECTED-AFTER-THE-FACT`.",
+   "labels": [
+    "SENSE-SELECTED-AFTER-THE-FACT"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`sonne` «The light and warmth that radiates from the sun; sunlight» (L1664، en-sonne-enm-noun-p-jEupZW)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `ORBIT-NOT-IDENTICAL`.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`two` «two» (L130، en-two-enm-num-P8TM~nRY)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `UNLISTED-CORRESPONDENCE`. وهذا صف من طابور المسار 2 (العدد الأساسي عند المقترحين الخارجيين) فحص ورد بسببه.",
+   "labels": [
+    "UNLISTED-CORRESPONDENCE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`that` «that (what is being indicated)» (L570، en-that-enm-det-YCSHkmLh)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `UNLISTED-CORRESPONDENCE` مع `ONE-CONSONANT-FLOOR`. صف من طابور المسار 2 (الجرمانية `þæt`).",
+   "labels": [
+    "UNLISTED-CORRESPONDENCE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`who` «who (nominative)» (L780، en-who-enm-pron-OAvLtjJZ) و`how` «how» (L615، en-how-enm-adv-gESq4fho)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `UNLISTED-CORRESPONDENCE`. صف من طابور المسار 2 (الجرمانية `hwā`).",
+   "labels": [
+    "UNLISTED-CORRESPONDENCE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`man` «man (male human)» (L154، en-man-enm-noun-kXSwYybS)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `ORBIT-NOT-IDENTICAL`.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`name` «name» (L31، en-name-enm-noun-gqNTf~Db)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `UNLISTED-CORRESPONDENCE`.",
+   "labels": [
+    "UNLISTED-CORRESPONDENCE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`mouth` «mouth» (L769، en-mouth-enm-noun-TPNc-HQ1)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `ORBIT-NOT-IDENTICAL`.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`nose` «nose (protrusion of the human face)» (L767، en-nose-enm-noun-QTttGLgx)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `ORBIT-NOT-IDENTICAL`.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`cow` «A cow (female bovine)» (L282، en-cow-enm-noun-Otgr9FUE)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `NO-CANDIDATE-IN-FAN`.",
+   "labels": [
+    "NO-CANDIDATE-IN-FAN"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`six` «six» (L183، en-six-enm-num-RHeNgjZe)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `UNLISTED-CORRESPONDENCE`.",
+   "labels": [
+    "UNLISTED-CORRESPONDENCE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`tre` «A tree or a plant resembling one» (L1484، en-tre-enm-noun-cIU61J8M)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `ORBIT-NOT-IDENTICAL` مع `GUT-04-SCOPE-QUESTION`.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`wode` «wood (material)» (L13388، en-wode-enm-noun-enm:wood)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `ORIGINAL-CONSONANT-DROP`.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`dam` «dam (structure to block water)» (L1547، en-dam-enm-noun-U1XCwfy5)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `ORBIT-NOT-IDENTICAL`.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`wet` «wet, watery» (L1116، en-wet-enm-adj-tSpQpzxr)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `ORBIT-NOT-IDENTICAL`.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`hot` «hot» (L554، en-hot-enm-adj-f10WGOfS)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `UNLISTED-CORRESPONDENCE` مع `ORBIT-NOT-IDENTICAL`.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL",
+    "UNLISTED-CORRESPONDENCE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`been` «To be; to exist or have existence» (L381، en-been-enm-verb-M7TVQxEq)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `ROW-TAG-CONDITION-UNMET`.",
+   "labels": [
+    "ROW-TAG-CONDITION-UNMET"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`mone` «The celestial body closest to the Earth ... the Moon» (L6627، en-mone-enm-noun-dIe9nhks)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `CONSTRUCTED-SEMANTIC-BRIDGE`.",
+   "labels": [
+    "CONSTRUCTED-SEMANTIC-BRIDGE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`fere` «fear» (L207، en-fere-enm-noun-WNVOfHVT)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `CONSTRUCTED-SEMANTIC-BRIDGE`.",
+   "labels": [
+    "CONSTRUCTED-SEMANTIC-BRIDGE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`biten` «to bite» (L12505، en-biten-enm-verb-Swb~XZyh)",
+   "previous_verdict": "مرفوض؛ غير صادر. الوسم: `UNLISTED-CORRESPONDENCE` مع `ROW-TAG-CONDITION-UNMET`.",
+   "labels": [
+    "ROW-TAG-CONDITION-UNMET",
+    "UNLISTED-CORRESPONDENCE"
+   ]
+  },
+  {
+   "language": "middle-english",
+   "card": "`den` «A cave or cavern» (L2166، en-den-enm-noun--EiIAxTL) و`sik` «sick, ill» (L2172، en-sik-enm-adj-OpiKk~RQ)",
+   "previous_verdict": "مرفوض؛ غير صادر في الاثنتين. الوسمان: `ORBIT-NOT-IDENTICAL` و`UNLISTED-CORRESPONDENCE`.",
+   "labels": [
+    "ORBIT-NOT-IDENTICAL",
+    "UNLISTED-CORRESPONDENCE"
+   ]
+  },
+  {
+   "language": "old-english",
+   "card": "محضر الدفعة",
+   "previous_verdict": "`OPEN-CANDIDATE` ل`flēan ~ فلح` فقط، مع `LAW/ARABIC-QUOTE/ORBIT/DIRECTION-GAP`؛ و`MATERIAL-SPLIT` للقائدة بصيغتها الثلاثية؛ لا موجب.",
+   "labels": [
+    "MATERIAL-SPLIT"
+   ]
+  },
+  {
+   "language": "old-english",
+   "card": "بطاقة: `kaikki_old_english:1802:en-healdan-ang-verb-edx2rnSA`، healdan «to keep watch over (cattle etc.)» (مقلَّم)",
+   "previous_verdict": "غير صادر؛ أخذ h وl وترك d إسقاط لصامت أصلي، فالحكم `ORIGINAL-CONSONANT-DROP`.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "old-english",
+   "card": "بطاقة: `kaikki_old_english:1741:en-mund-ang-noun-2eiDyH3N`، mund «trust, security, protection» (مقلَّم)",
+   "previous_verdict": "غير صادر؛ أخذ m وn وترك d إسقاط لصامت أصلي، فالحكم `ORIGINAL-CONSONANT-DROP`.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "old-english",
+   "card": "بطاقة: `kaikki_old_english:108:en-hand-ang-noun-GwAXBqQY`، hand «hand» (مقلَّم)",
+   "previous_verdict": "غير صادر؛ ترك الدال إسقاط لصامت أصلي، فالحكم `ORIGINAL-CONSONANT-DROP`.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "old-irish",
+   "card": "`denaid، dith ~ dayd` «ثدي»",
+   "previous_verdict": "`ARABIC-SOURCE-GAP + SEMANTIC-BRIDGE-GAP`؛ لا حكم. لا تستعمل لهجة غير موثقة في المعاجم المسماة لرفع الصف.",
+   "labels": [
+    "ARABIC-SOURCE-GAP",
+    "SEMANTIC-BRIDGE-GAP"
+   ]
+  },
+  {
+   "language": "old-irish",
+   "card": "`mún ~ ماء`",
+   "previous_verdict": "`HISTORICAL-STRATUM-GAP + FORM/SEMANTIC-GAP`؛ لا حكم.",
+   "labels": [
+    "SEMANTIC-GAP"
+   ]
+  },
+  {
+   "language": "old-irish",
+   "card": "`sellaim، selb ~ سلّ/سلب`",
+   "previous_verdict": "`OPEN-CANDIDATE؛ SOURCE/LAW/ARABIC-QUOTE/ORBIT-GAP`؛ لا موجب.",
+   "labels": [
+    "ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "old-irish",
+   "card": "بطاقة: selb «property; possession»",
+   "previous_verdict": "لا حكم صادر؛ LAW-GAP + ORBIT-GAP.",
+   "labels": [
+    "ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "old-irish",
+   "card": "بطاقة: ferg «anger, wrath»",
+   "previous_verdict": "لا حكم صادر؛ ORIGINAL-CONSONANT-DROP.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "old-latin",
+   "card": "بطاقة: `mulgeo`، نسخ حكم النواة",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "old-latin",
+   "card": "بطاقة: `fructus`، نسخ حكم النواة",
+   "previous_verdict": "MORPHOLOGY-GAP + ORIGINAL-CONSONANT-UNACCOUNTED؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-UNACCOUNTED"
+   ]
+  },
+  {
+   "language": "old-latin",
+   "card": "بطاقة: `nequitia`، نسخ حكم النواة",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "old-latin",
+   "card": "بطاقة: `kaikki_latin:78381:en-spolium-la-noun-kK6b0Qbv`، نسخ حكم النواة",
+   "previous_verdict": "`ORIGINAL-CONSONANT-DROP + ARABIC-MATERIAL-SPLIT`؛ غير صادر.",
+   "labels": [
+    "ARABIC-MATERIAL-SPLIT",
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "old-latin",
+   "card": "بطاقة: anguilla «أنقليس، أو حية صغيرة»",
+   "previous_verdict": "غير صادر (SOURCE-GAP + MEANING-FAIL).",
+   "labels": [
+    "MEANING-FAIL"
+   ]
+  },
+  {
+   "language": "old-norse",
+   "card": "بطاقة: `kaikki_old_norse:3048:en-hǫnd-non-noun-GwAXBqQY`، hǫnd «hand» (مقلَّم)",
+   "previous_verdict": "غير صادر؛ ترك الدال إسقاط لصامت أصلي، فالحكم `ORIGINAL-CONSONANT-DROP`.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "old-norse",
+   "card": "بطاقة: `kaikki_old_norse:904:en-mund-non-noun-GwAXBqQY`، mund «hand» (مقلَّم)",
+   "previous_verdict": "غير صادر؛ ترك الدال إسقاط لصامت أصلي، فالحكم `ORIGINAL-CONSONANT-DROP`.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "persian",
+   "card": "بطاقة: `بریدن`، نسخ حكم النواة",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "persian",
+   "card": "بطاقة: `شکستن`، نسخ حكم النواة",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "persian",
+   "card": "بطاقة: `شاریدن`، نسخ حكم النواة",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP + CONSTRUCTED-SEMANTIC-BRIDGE؛ غير صادر.",
+   "labels": [
+    "CONSTRUCTED-SEMANTIC-BRIDGE",
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: `blith`، نسخ حكم النواة",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: `taro`، نسخ حكم النواة",
+   "previous_verdict": "NUCLEUS-ORBIT-GAP + ARABIC-QUOTE-GAP؛ غير صادر.",
+   "labels": [
+    "ARABIC-QUOTE-GAP",
+    "NUCLEUS-ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: `ban`، نسخ حكم النواة",
+   "previous_verdict": "HISTORICAL-CONSONANT-GAP؛ غير صادر.",
+   "labels": [
+    "HISTORICAL-CONSONANT-GAP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: `galar`، نسخ حكم النواة",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP + CONSTRUCTED-SEMANTIC-BRIDGE؛ غير صادر.",
+   "labels": [
+    "CONSTRUCTED-SEMANTIC-BRIDGE",
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: `torrai/torri`، نسخ الصدى المحلي",
+   "previous_verdict": "CONSTRUCTED-SEMANTIC-BRIDGE + ARABIC-QUOTE-GAP؛ غير صادر.",
+   "labels": [
+    "ARABIC-QUOTE-GAP",
+    "CONSTRUCTED-SEMANTIC-BRIDGE"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: `sgogi/ysgogi`، نسخ الصدى المحلي",
+   "previous_verdict": "ORIGINAL-CONSONANT-DROP؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: craidd «centre, middle, core»",
+   "previous_verdict": "SOURCE-GAP + LAW-GAP + ORIGINAL-CONSONANT-DROP؛ غير صادر.",
+   "labels": [
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: gên «chin; jaw» وgenau «plural of gên»",
+   "previous_verdict": "MORPHOLOGY-GAP + SOURCE-GAP + MATERIAL-UNITY-GAP؛ غير صادر.",
+   "labels": [
+    "MATERIAL-UNITY-GAP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: gwraidd «roots (part of a plant)»",
+   "previous_verdict": "لا حكم صادر؛ ORBIT-GAP.",
+   "labels": [
+    "ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: glew «brave, bold»",
+   "previous_verdict": "لا حكم صادر؛ ORBIT-GAP.",
+   "labels": [
+    "ORBIT-GAP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: crwn «round, rounded; circular»",
+   "previous_verdict": "لا حكم صادر؛ ORIGINAL-CONSONANT-DROP + ORBIT-GAP.",
+   "labels": [
+    "ORBIT-GAP",
+    "ORIGINAL-CONSONANT-DROP"
+   ]
+  },
+  {
+   "language": "welsh",
+   "card": "بطاقة: marw «dead; to die»",
+   "previous_verdict": "لا حكم صادر؛ ORBIT-GAP.",
+   "labels": [
+    "ORBIT-GAP"
+   ]
+  }
+ ]
+}

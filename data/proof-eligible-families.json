@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "c8cae6abf0793e06a5586eb582050176f750259a4150b0b411674af4de1c4626"
+    "sha256": "7fa0429a7ca0f68f97fc417fe0eba1168af27066d523e832fb117f63e4e709ac"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "9ace1bdc0993dc24631cd3fd331592c8d537505d26126d2c91ec66dbf8135aad"
+    "sha256": "87d37c6b059a5801fb6517de1001c32a3ada36ed1edda40320c0ce8e6da08896"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 382,
+  "eligible_family_total": 381,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -809,7 +809,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to put, to place",
      "current_state": "SOURCE-GAP",
-     "reading_line": 30725
+     "reading_line": 30747
     },
     {
      "family_id": "aramaic:family:05ecd34dfcc0fa1e5fc037ec",
@@ -864,7 +864,7 @@
      "missing_pos": "noun",
      "missing_gloss": "onion",
      "current_state": "MORPHOLOGY-GAP",
-     "reading_line": 30763
+     "reading_line": 30785
     },
     {
      "family_id": "aramaic:family:150ccb77cd11eb6f14fcd4fd",
@@ -886,7 +886,7 @@
      "missing_pos": "noun",
      "missing_gloss": "fetus, embryo",
      "current_state": "SOURCE-GAP",
-     "reading_line": 30829
+     "reading_line": 30851
     },
     {
      "family_id": "aramaic:family:1d39ce152c35e2ea857683da",
@@ -897,7 +897,7 @@
      "missing_pos": "noun",
      "missing_gloss": "worker, labourer/laborer",
      "current_state": "MORPHOLOGY-GAP",
-     "reading_line": 30867
+     "reading_line": 30889
     },
     {
      "family_id": "aramaic:family:1e830a4a8790d550f05d1021",
@@ -908,7 +908,7 @@
      "missing_pos": "noun",
      "missing_gloss": "iron",
      "current_state": "SOURCE-GAP",
-     "reading_line": 30886
+     "reading_line": 30908
     },
     {
      "family_id": "aramaic:family:21e77b4f30b26000090d2f1e",
@@ -919,7 +919,7 @@
      "missing_pos": "noun",
      "missing_gloss": "depth, deepness",
      "current_state": "MORPHOLOGY-GAP",
-     "reading_line": 30905
+     "reading_line": 30927
     },
     {
      "family_id": "aramaic:family:248808daa7b1d22f2f5cec7c",
@@ -930,7 +930,7 @@
      "missing_pos": "noun",
      "missing_gloss": "chasm, gap, cleft",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29621
+     "reading_line": 29629
     },
     {
      "family_id": "aramaic:family:249626321527231090379777",
@@ -941,7 +941,7 @@
      "missing_pos": "noun",
      "missing_gloss": "earth, soil, dust",
      "current_state": "SOURCE-GAP",
-     "reading_line": 29734
+     "reading_line": 29748
     },
     {
      "family_id": "aramaic:family:25ac1d5f4701652e44d2e834",
@@ -952,7 +952,7 @@
      "missing_pos": "noun",
      "missing_gloss": "prayer",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30258
+     "reading_line": 30274
     },
     {
      "family_id": "aramaic:family:326d1915426f258fadcf32e5",
@@ -974,7 +974,7 @@
      "missing_pos": "noun",
      "missing_gloss": "sea",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29866
+     "reading_line": 29880
     },
     {
      "family_id": "aramaic:family:42fbb7c94511c1b2250c1cf1",
@@ -1007,7 +1007,7 @@
      "missing_pos": "noun",
      "missing_gloss": "tooth",
      "current_state": "LAW-GAP",
-     "reading_line": 29713
+     "reading_line": 29727
     },
     {
      "family_id": "aramaic:family:5b9c64c9f024fbe71fee40e9",
@@ -1018,7 +1018,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to see",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30091
+     "reading_line": 30107
     },
     {
      "family_id": "aramaic:family:60216cd8268a1bce4465830b",
@@ -1073,7 +1073,7 @@
      "missing_pos": "noun",
      "missing_gloss": "birth, nativity",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29634
+     "reading_line": 29642
     },
     {
      "family_id": "aramaic:family:710f69e7ba3a7ad107282160",
@@ -1084,7 +1084,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to think",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30139
+     "reading_line": 30155
     },
     {
      "family_id": "aramaic:family:75d7f175de698608e9ba8c23",
@@ -1106,7 +1106,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to know",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30242
+     "reading_line": 30258
     },
     {
      "family_id": "aramaic:family:8fc15ee53ceedb2fd9a4ea97",
@@ -1150,7 +1150,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to separate, cut off",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29560
+     "reading_line": 29562
     },
     {
      "family_id": "aramaic:family:a36d11a56c6a5692951a1cb8",
@@ -1172,7 +1172,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to be late, to delay",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30171
+     "reading_line": 30187
     },
     {
      "family_id": "aramaic:family:b49aee16989db1400d845ee5",
@@ -1183,7 +1183,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to hunt, to fish, to catch",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29946
+     "reading_line": 29962
     },
     {
      "family_id": "aramaic:family:bd8dfd3e1e9023047342464f",
@@ -1238,7 +1238,7 @@
      "missing_pos": "pron",
      "missing_gloss": "I",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30286
+     "reading_line": 30308
     },
     {
      "family_id": "aramaic:family:d38aa6b47b329bf8fcb2844e",
@@ -1304,7 +1304,7 @@
      "missing_pos": "noun",
      "missing_gloss": "day",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29850
+     "reading_line": 29864
     },
     {
      "family_id": "aramaic:family:e0cb76975bfc604e3b3b5ecd",
@@ -1326,7 +1326,7 @@
      "missing_pos": "noun",
      "missing_gloss": "bone",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30123
+     "reading_line": 30139
     },
     {
      "family_id": "aramaic:family:e492c9bc01e94431f6f7bbb9",
@@ -1381,7 +1381,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to twist",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30155
+     "reading_line": 30171
     },
     {
      "family_id": "aramaic:family:f3532147fb2589040f7f5038",
@@ -1414,7 +1414,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to desire, to will, to wish",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30075
+     "reading_line": 30091
     },
     {
      "family_id": "aramaic:family:46fd58cb36bf254cd2f8db6b",
@@ -1716,7 +1716,7 @@
        "pos": "verb",
        "gloss": "to put, to place",
        "current_state": "SOURCE-GAP",
-       "reading_line": 30725
+       "reading_line": 30747
       }
      ]
     },
@@ -1796,7 +1796,7 @@
        "pos": "noun",
        "gloss": "onion",
        "current_state": "MORPHOLOGY-GAP",
-       "reading_line": 30763
+       "reading_line": 30785
       }
      ]
     },
@@ -1828,7 +1828,7 @@
        "pos": "noun",
        "gloss": "fetus, embryo",
        "current_state": "SOURCE-GAP",
-       "reading_line": 30829
+       "reading_line": 30851
       }
      ]
     },
@@ -1844,7 +1844,7 @@
        "pos": "noun",
        "gloss": "worker, labourer/laborer",
        "current_state": "MORPHOLOGY-GAP",
-       "reading_line": 30867
+       "reading_line": 30889
       }
      ]
     },
@@ -1860,7 +1860,7 @@
        "pos": "noun",
        "gloss": "iron",
        "current_state": "SOURCE-GAP",
-       "reading_line": 30886
+       "reading_line": 30908
       }
      ]
     },
@@ -1876,7 +1876,7 @@
        "pos": "noun",
        "gloss": "depth, deepness",
        "current_state": "MORPHOLOGY-GAP",
-       "reading_line": 30905
+       "reading_line": 30927
       }
      ]
     },
@@ -1892,7 +1892,7 @@
        "pos": "noun",
        "gloss": "chasm, gap, cleft",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29621
+       "reading_line": 29629
       }
      ]
     },
@@ -1908,7 +1908,7 @@
        "pos": "noun",
        "gloss": "earth, soil, dust",
        "current_state": "SOURCE-GAP",
-       "reading_line": 29734
+       "reading_line": 29748
       }
      ]
     },
@@ -1924,7 +1924,7 @@
        "pos": "noun",
        "gloss": "prayer",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30258
+       "reading_line": 30274
       }
      ]
     },
@@ -1956,7 +1956,7 @@
        "pos": "noun",
        "gloss": "sea",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29866
+       "reading_line": 29880
       }
      ]
     },
@@ -2020,7 +2020,7 @@
        "pos": "noun",
        "gloss": "tooth",
        "current_state": "LAW-GAP",
-       "reading_line": 29713
+       "reading_line": 29727
       }
      ]
     },
@@ -2068,7 +2068,7 @@
        "pos": "verb",
        "gloss": "to see",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30091
+       "reading_line": 30107
       }
      ]
     },
@@ -2148,7 +2148,7 @@
        "pos": "noun",
        "gloss": "birth, nativity",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29634
+       "reading_line": 29642
       }
      ]
     },
@@ -2164,7 +2164,7 @@
        "pos": "verb",
        "gloss": "to think",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30139
+       "reading_line": 30155
       }
      ]
     },
@@ -2276,7 +2276,7 @@
        "pos": "verb",
        "gloss": "to know",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30242
+       "reading_line": 30258
       }
      ]
     },
@@ -2404,7 +2404,7 @@
        "pos": "verb",
        "gloss": "to separate, cut off",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29560
+       "reading_line": 29562
       }
      ]
     },
@@ -2468,7 +2468,7 @@
        "pos": "verb",
        "gloss": "to be late, to delay",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30171
+       "reading_line": 30187
       }
      ]
     },
@@ -2532,7 +2532,7 @@
        "pos": "verb",
        "gloss": "to hunt, to fish, to catch",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29946
+       "reading_line": 29962
       }
      ]
     },
@@ -2644,7 +2644,7 @@
        "pos": "pron",
        "gloss": "I",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30286
+       "reading_line": 30308
       }
      ]
     },
@@ -2772,7 +2772,7 @@
        "pos": "noun",
        "gloss": "day",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29850
+       "reading_line": 29864
       }
      ]
     },
@@ -2804,7 +2804,7 @@
        "pos": "noun",
        "gloss": "bone",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30123
+       "reading_line": 30139
       }
      ]
     },
@@ -2900,7 +2900,7 @@
        "pos": "verb",
        "gloss": "to twist",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30155
+       "reading_line": 30171
       }
      ]
     },
@@ -2980,7 +2980,7 @@
        "pos": "verb",
        "gloss": "to desire, to will, to wish",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30075
+       "reading_line": 30091
       }
      ]
     },
@@ -4845,13 +4845,13 @@
   "hebrew": {
    "inventory_family_count": 11852,
    "represented_current_family_count": 1224,
-   "eligible_family_count": 135,
-   "positive_family_count": 135,
+   "eligible_family_count": 134,
+   "positive_family_count": 134,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 423,
-   "one_member_short_count": 340,
+   "one_member_short_count": 341,
    "issued_member_dispositions": {
-    "positive": 314,
+    "positive": 313,
     "closures": 1143,
     "by_outcome": {
      "ABBREVIATION": 88,
@@ -4867,12 +4867,12 @@
      "NUCLEUS-TRACE": 9,
      "PROPER-NAME-ISOLATED": 71,
      "ROOT-ECHO": 110,
-     "ROOT-TRACE": 191
+     "ROOT-TRACE": 190
     }
    },
    "incomplete_members_by_state": {
     "LAW-GAP": 1,
-    "OPEN-CANDIDATE": 10,
+    "OPEN-CANDIDATE": 11,
     "UNRECORDED": 1319
    },
    "block_reconciliation": {
@@ -4936,7 +4936,6 @@
     "hebrew:family:55307a41b5ea7d390b0cb2b6",
     "hebrew:family:582e863b5e4245b70c5935ee",
     "hebrew:family:593df649272a45a7acb838ed",
-    "hebrew:family:5d11579b9fca4744e67e02d8",
     "hebrew:family:5f0e7004672a532c5ee53bb3",
     "hebrew:family:610927c3fa218017d6ca2c2d",
     "hebrew:family:617a0ac59419bd11e9a3003b",
@@ -5073,7 +5072,6 @@
     "hebrew:family:55307a41b5ea7d390b0cb2b6",
     "hebrew:family:582e863b5e4245b70c5935ee",
     "hebrew:family:593df649272a45a7acb838ed",
-    "hebrew:family:5d11579b9fca4744e67e02d8",
     "hebrew:family:5f0e7004672a532c5ee53bb3",
     "hebrew:family:610927c3fa218017d6ca2c2d",
     "hebrew:family:617a0ac59419bd11e9a3003b",
@@ -5591,7 +5589,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to be stubborn, disobedient",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41950
+     "reading_line": 41952
     },
     {
      "family_id": "hebrew:family:0cc97040204da72f867d287f",
@@ -5602,7 +5600,7 @@
      "missing_pos": "adj",
      "missing_gloss": "weak, poor",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 42459
+     "reading_line": 42473
     },
     {
      "family_id": "hebrew:family:288d73607531ab82dc0105f1",
@@ -5613,7 +5611,7 @@
      "missing_pos": "verb",
      "missing_gloss": "To cry, weep.",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 42018
+     "reading_line": 42020
     },
     {
      "family_id": "hebrew:family:2e9ca0e9a5f0f8eb243e8749",
@@ -5624,7 +5622,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to slumber",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41629
+     "reading_line": 41631
     },
     {
      "family_id": "hebrew:family:50b5ed7b139ee950689b7244",
@@ -5636,6 +5634,17 @@
      "missing_gloss": "star",
      "current_state": "LAW-GAP",
      "reading_line": 41389
+    },
+    {
+     "family_id": "hebrew:family:5d11579b9fca4744e67e02d8",
+     "anchor_headword": "אתה",
+     "member_count": 1,
+     "missing_entry_id": "kaikki_hebrew:414:en-אתה-he-pron-TMwdrlNN",
+     "missing_headword": "אתה",
+     "missing_pos": "pron",
+     "missing_gloss": "you, thou (second-person singular masculine)",
+     "current_state": "OPEN-CANDIDATE",
+     "reading_line": 41602
     },
     {
      "family_id": "hebrew:family:6632665720f0f38a8b7565f6",
@@ -5690,7 +5699,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to seed, to sow",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 42044
+     "reading_line": 42046
     },
     {
      "family_id": "hebrew:family:f6c1ac99e6d1349776a6add9",
@@ -9496,7 +9505,7 @@
        "pos": "verb",
        "gloss": "to be stubborn, disobedient",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41950
+       "reading_line": 41952
       }
      ]
     },
@@ -9688,7 +9697,7 @@
        "pos": "adj",
        "gloss": "weak, poor",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 42459
+       "reading_line": 42473
       }
      ]
     },
@@ -10344,7 +10353,7 @@
        "pos": "verb",
        "gloss": "To cry, weep.",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 42018
+       "reading_line": 42020
       }
      ]
     },
@@ -10440,7 +10449,7 @@
        "pos": "verb",
        "gloss": "to slumber",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41629
+       "reading_line": 41631
       }
      ]
     },
@@ -11561,6 +11570,22 @@
        "gloss": "a male given name",
        "current_state": "UNRECORDED",
        "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "hebrew:family:5d11579b9fca4744e67e02d8",
+     "anchor_headword": "אתה",
+     "member_count": 1,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_hebrew:414:en-אתה-he-pron-TMwdrlNN",
+       "headword": "אתה",
+       "pos": "pron",
+       "gloss": "you, thou (second-person singular masculine)",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 41602
       }
      ]
     },
@@ -13224,7 +13249,7 @@
        "pos": "verb",
        "gloss": "to seed, to sow",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 42044
+       "reading_line": 42046
       }
      ]
     },
