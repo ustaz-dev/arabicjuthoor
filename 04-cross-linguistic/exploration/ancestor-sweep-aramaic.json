@@ -1,7 +1,7 @@
 {
  "language": "aramaic",
  "method": "reconstructed ancestor, not the living word",
- "with_laryngeal": 17,
+ "with_laryngeal": 20,
  "both": [
   {
    "branch": "בעלא",
@@ -156,6 +156,27 @@
    "overlap": 3,
    "shared": [
     "fountain"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "תשעא",
+   "ancestor": "tišʿ",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "t-š-ʿ",
+   "laryngeal": true,
+   "gloss": "nine (9)",
+   "candidates_found": [
+    "تسع",
+    "تسغ",
+    "تثغ",
+    "طسع"
+   ],
+   "best": "تسع",
+   "overlap": 3,
+   "shared": [
+    "nine"
    ],
    "direct": true
   },
@@ -331,6 +352,46 @@
    "overlap": 3,
    "shared": [
     "salt"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "זמנא",
+   "ancestor": "ǰámaHnaH",
+   "layer": "Proto-Iranian",
+   "depth": 2,
+   "skeleton": "ǰ-m-H-n-H",
+   "laryngeal": true,
+   "gloss": "time",
+   "candidates_found": [
+    "زمن",
+    "جمن",
+    "زمخن"
+   ],
+   "best": "زمن",
+   "overlap": 3,
+   "shared": [
+    "time"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "𐡆𐡌𐡍𐡀",
+   "ancestor": "ǰámaHnaH",
+   "layer": "Proto-Iranian",
+   "depth": 2,
+   "skeleton": "ǰ-m-H-n-H",
+   "laryngeal": true,
+   "gloss": "time",
+   "candidates_found": [
+    "زمن",
+    "جمن",
+    "زمخن"
+   ],
+   "best": "زمن",
+   "overlap": 3,
+   "shared": [
+    "time"
    ],
    "direct": true
   },
@@ -624,6 +685,38 @@
    "shared": [
     "bull",
     "steer"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "גלדא",
+   "ancestor": "gild",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "g-l-d",
+   "laryngeal": false,
+   "gloss": "skin, hide",
+   "candidates_found": [
+    "جلد",
+    "جرد",
+    "جلض",
+    "جلذ",
+    "جرض",
+    "جرذ",
+    "غلد",
+    "غلذ",
+    "غرد",
+    "غرض",
+    "قلد",
+    "قلذ",
+    "قرد",
+    "قرض"
+   ],
+   "best": "جلد",
+   "overlap": 6,
+   "shared": [
+    "hide",
+    "skin"
    ],
    "direct": true
   },
@@ -1942,6 +2035,24 @@
    "direct": false
   },
   {
+   "branch": "ספסרא",
+   "ancestor": "safsēr",
+   "layer": "Parthian",
+   "depth": 4,
+   "skeleton": "s-f-s-r",
+   "laryngeal": false,
+   "gloss": "sword, blade",
+   "candidates_found": [
+    "سفسر",
+    "صفصل",
+    "شفصل"
+   ],
+   "best": "سفسر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "תמרא",
    "ancestor": "ṯamar",
    "layer": "Proto-Semitic",
@@ -2040,23 +2151,6 @@
     "تر"
    ],
    "best": "طل",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "זמנא",
-   "ancestor": "jamānā",
-   "layer": "Old Persian",
-   "depth": 3,
-   "skeleton": "j-m-n",
-   "laryngeal": false,
-   "gloss": "time",
-   "candidates_found": [
-    "يمن",
-    "جمن"
-   ],
-   "best": "يمن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2249,23 +2343,6 @@
     "روت"
    ],
    "best": "لوث",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "𐡆𐡌𐡍𐡀",
-   "ancestor": "jamānā",
-   "layer": "Old Persian",
-   "depth": 3,
-   "skeleton": "j-m-n",
-   "laryngeal": false,
-   "gloss": "time",
-   "candidates_found": [
-    "يمن",
-    "جمن"
-   ],
-   "best": "يمن",
    "overlap": 0,
    "shared": [],
    "direct": false

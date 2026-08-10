@@ -3,12 +3,11 @@
 **الطبقة:** استكشاف. **لا حكمَ ولا عدَّ ولا نشر.**
 
 **الطريقة:** لا تُقارَنُ الكلمةُ الحيّةُ بل الصورةُ التي يقولُ الاشتقاقُ المنشورُ
-إنّها أصلُها. **تصحيح 2026-08-09:** صفوف الحنجريّة طابورٌ لأشكال قديمة فقط؛
-المروحةُ تفرض حلقيًا عربيًا في خانتها، فضابط الطُّعم المطابق للتغطية أسقط دعوى
-الفئة. يُحكم كل زوج بالصورة والمعنى والمدار وحدها، ولا يكون الموضع دليلًا
-[المحضر: `../../05-audits/2026-08-08-laryngeal-claim-refuted-by-its-own-control.md`].
+إنّها أصلُها، لأنّ الصورةَ الأقدمَ تحفظُ مادةً صوتيّةً لا تظهرُ في اللفظِ الحيّ.
+**وسمُ الحنجريّةِ طابورٌ وصفيٌّ فقط:** المروحةُ تفرضُ حلقيًّا عربيًّا في موضعِها،
+فلا يكونُ توافقُ الموضعِ دليلًا. تُحكَمُ الأزواجُ بالصورةِ والمعنى والإشعاع.
 
-**مطابقة: 72** · بشهادةٍ مباشرة: 71 · **فيها حنجريّةٌ مستعادة: 17**
+**مطابقة: 76** · بشهادةٍ مباشرة: 75 · **فيها حنجريّةٌ مستعادة: 20**
 
 | الكلمةُ الحيّة | الصورةُ المستعادة | طبقتُها | الهيكل | معناها | العربيّ | التقاطع |
 |---|---|---|---|---|---|---|
@@ -20,6 +19,7 @@
 | `שמע` | `*šamaʕ` ⟵ حنجريّة | Proto-Semitic | š-m-ʕ | to hear | **سمع** | مباشر 3: hear |
 | `נפח` | `*napaḫ` ⟵ حنجريّة | Proto-Semitic | n-p-ḫ | to blow, to exhale to breathe | **نفخ** | مباشر 3: blow |
 | `עינא` | `*ʕayn` ⟵ حنجريّة | Proto-Semitic | ʕ-y-n | fountain, spring | **عين** | مباشر 3: fountain |
+| `תשעא` | `*tišʿ` ⟵ حنجريّة | Proto-Semitic | t-š-ʿ | nine (9) | **تسع** | مباشر 3: nine |
 | `עסרא` | `*ʿaśr` ⟵ حنجريّة | Proto-Semitic | ʿ-ś-r | ten (10) | **عشر** | مباشر 3: ten |
 | `חלבא` | `*ḥalīb` ⟵ حنجريّة | Proto-Semitic | ḥ-l-b | milk | **حلب** | مباشر 3: milk |
 | `אחא` | `*ʔaḫw` ⟵ حنجريّة | Proto-Semitic | ʔ-ḫ-w | brother | **ءخو** | مباشر 3: brother |
@@ -29,6 +29,8 @@
 | `חלב` | `*ḥalīb` ⟵ حنجريّة | Proto-Semitic | ḥ-l-b | to milk | **حلب** | مباشر 3: milk |
 | `אחד` | `*ʔaḫaḏ` ⟵ حنجريّة | Proto-West Semitic | ʔ-ḫ-ḏ | to hold, take, seize; to shut, close | **ءخذ** | مباشر 9: hold seize take |
 | `מלחא` | `*milḥ` ⟵ حنجريّة | Proto-West Semitic | m-l-ḥ | salt | **ملح** | مباشر 3: salt |
+| `זמנא` | `*ǰámaHnaH` ⟵ حنجريّة | Proto-Iranian | ǰ-m-H-n-H | time | **زمن** | مباشر 3: time |
+| `𐡆𐡌𐡍𐡀` | `*ǰámaHnaH` ⟵ حنجريّة | Proto-Iranian | ǰ-m-H-n-H | time | **زمن** | مباشر 3: time |
 | `ילדא` | `*walad` | Proto-Semitic | w-l-d | birth, childbirth, delivery, nativity; children, descendants, offspring, brood | **ولد** | مباشر 16: birth childbirth children offspring |
 | `רמא` | `*ramay` | Proto-Semitic | r-m-y | to throw, to warp, to cast, to hurl; to put, to place | **رمي** | مباشر 15: cast hurl put throw |
 | `קדם` | `*q-d-m` | Proto-Semitic | q-d-m | to precede, to come before | **قدم** | مباشر 9: before come precede |
@@ -42,6 +44,7 @@
 | `לשנא` | `*lišān` | Proto-Semitic | l-š-n | tongue; language | **لسن** | مباشر 6: language tongue |
 | `כלבתא` | `*kalb` | Proto-Semitic | k-l-b | dog, bitch | **كلب** | مباشر 6: bitch dog |
 | `תורא` | `*ṯawr` | Proto-Semitic | ṯ-w-r | steer, bull, ox | **ثور** | مباشر 6: bull steer |
+| `גלדא` | `*gild` | Proto-Semitic | g-l-d | skin, hide | **جلد** | مباشر 6: hide skin |
 | `רגלא` | `*rigl` | Proto-Semitic | r-g-l | leg, foot | **رجل** | مباشر 6: foot leg |
 | `דונבא` | `*ḏanab` | Proto-Semitic | ḏ-n-b | tail, end | **ذنب** | مباشر 6: end tail |
 | `כנפא` | `*kanap` | Proto-Semitic | k-n-p | side, edge; wing | **كنف** | مباشر 6: side wing |

@@ -1484,6 +1484,29 @@
    "direct": true
   },
   {
+   "branch": "šuršum",
+   "ancestor": "šurš",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "š-r-š",
+   "laryngeal": false,
+   "gloss": "root; base, foundation",
+   "candidates_found": [
+    "شرش",
+    "شرس",
+    "شرث",
+    "سرس",
+    "سلس",
+    "ثلث"
+   ],
+   "best": "شرش",
+   "overlap": 3,
+   "shared": [
+    "root"
+   ],
+   "direct": true
+  },
+  {
    "branch": "šebērum",
    "ancestor": "ṯabar",
    "layer": "Proto-Semitic",
@@ -1787,22 +1810,6 @@
    "direct": false
   },
   {
-   "branch": "anāku",
-   "ancestor": "ˀanāku",
-   "layer": "Proto-Afroasiatic",
-   "depth": 1,
-   "skeleton": "n-k",
-   "laryngeal": false,
-   "gloss": "I (first-person singular pronoun, nominative case)",
-   "candidates_found": [
-    "نق"
-   ],
-   "best": "نق",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "šamû",
    "ancestor": "šamāy",
    "layer": "Proto-Semitic",
@@ -1868,6 +1875,22 @@
     "خلس"
    ],
    "best": "خرص",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "qaqqadum",
+   "ancestor": "qadqad",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "q-d-q-d",
+   "laryngeal": false,
+   "gloss": "head; person, self",
+   "candidates_found": [
+    "كضكض"
+   ],
+   "best": "كضكض",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -2147,6 +2170,32 @@
    "direct": false
   },
   {
+   "branch": "ṣerretum",
+   "ancestor": "ṣarrat",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "ṣ-r-t",
+   "laryngeal": false,
+   "gloss": "concubine, subsidiary wife; rival",
+   "candidates_found": [
+    "صرط",
+    "صلت",
+    "صلط",
+    "سرت",
+    "سرط",
+    "سلت",
+    "سلط",
+    "شرت",
+    "شرط",
+    "شرث",
+    "شلط"
+   ],
+   "best": "صرط",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "ṣuprum",
    "ancestor": "ṯupr",
    "layer": "Proto-Semitic",
@@ -2229,30 +2278,6 @@
    "direct": false
   },
   {
-   "branch": "awātum",
-   "ancestor": "huwatu",
-   "layer": "Ugaritic",
-   "depth": 3,
-   "skeleton": "h-w-t",
-   "laryngeal": false,
-   "gloss": "word, utterance; word, utterance",
-   "candidates_found": [
-    "هوت",
-    "هوط",
-    "هوث",
-    "حوت",
-    "حوط",
-    "حوث",
-    "خوت",
-    "خوط",
-    "خوث"
-   ],
-   "best": "هوت",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
    "branch": "zubbum",
    "ancestor": "ḏubab",
    "layer": "Proto-Semitic",
@@ -2266,6 +2291,27 @@
     "ضب"
    ],
    "best": "ذب",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "daltum",
+   "ancestor": "dalt",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "d-l-t",
+   "laryngeal": false,
+   "gloss": "door",
+   "candidates_found": [
+    "دلث",
+    "درت",
+    "درط",
+    "ضرط",
+    "ذرت",
+    "ذرط"
+   ],
+   "best": "دلث",
    "overlap": 0,
    "shared": [],
    "direct": false

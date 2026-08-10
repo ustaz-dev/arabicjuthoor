@@ -3,12 +3,11 @@
 **الطبقة:** استكشاف. **لا حكمَ ولا عدَّ ولا نشر.**
 
 **الطريقة:** لا تُقارَنُ الكلمةُ الحيّةُ بل الصورةُ التي يقولُ الاشتقاقُ المنشورُ
-إنّها أصلُها. **تصحيح 2026-08-09:** صفوف الحنجريّة طابورٌ لأشكال قديمة فقط؛
-المروحةُ تفرض حلقيًا عربيًا في خانتها، فضابط الطُّعم المطابق للتغطية أسقط دعوى
-الفئة. يُحكم كل زوج بالصورة والمعنى والمدار وحدها، ولا يكون الموضع دليلًا
-[المحضر: `../../05-audits/2026-08-08-laryngeal-claim-refuted-by-its-own-control.md`].
+إنّها أصلُها، لأنّ الصورةَ الأقدمَ تحفظُ مادةً صوتيّةً لا تظهرُ في اللفظِ الحيّ.
+**وسمُ الحنجريّةِ طابورٌ وصفيٌّ فقط:** المروحةُ تفرضُ حلقيًّا عربيًّا في موضعِها،
+فلا يكونُ توافقُ الموضعِ دليلًا. تُحكَمُ الأزواجُ بالصورةِ والمعنى والإشعاع.
 
-**مطابقة: 178** · بشهادةٍ مباشرة: 158 · **فيها حنجريّةٌ مستعادة: 59**
+**مطابقة: 181** · بشهادةٍ مباشرة: 161 · **فيها حنجريّةٌ مستعادة: 62**
 
 | الكلمةُ الحيّة | الصورةُ المستعادة | طبقتُها | الهيكل | معناها | العربيّ | التقاطع |
 |---|---|---|---|---|---|---|
@@ -41,9 +40,11 @@
 | `עין` | `*ʕayn` ⟵ حنجريّة | Proto-Semitic | ʕ-y-n | spring, fountain | **عين** | مباشر 3: fountain |
 | `בעל` | `*baʕl` ⟵ حنجريّة | Proto-Semitic | b-ʕ-l | lord, idol | **بعل** | مباشر 3: lord |
 | `שבעים` | `*šabʿū` ⟵ حنجريّة | Proto-Semitic | š-b-ʿ | seventy | **سبع** | مباشر 3: seventy |
+| `תשעה` | `*tišʿ` ⟵ حنجريّة | Proto-Semitic | t-š-ʿ | nine | **تسع** | مباشر 3: nine |
 | `עשרה` | `*ʿaśr` ⟵ حنجريّة | Proto-Semitic | ʿ-ś-r | ten | **عشر** | مباشر 3: ten |
 | `עשרים` | `*ʿiśrū` ⟵ حنجريّة | Proto-Semitic | ʿ-ś-r | twenty | **عشر** | مباشر 3: twenty |
 | `חמישים` | `*ḫamšū` ⟵ حنجريّة | Proto-Semitic | ḫ-m-š | fifty | **خمس** | مباشر 3: fifty |
+| `תשעים` | `*tišʿū` ⟵ حنجريّة | Proto-Semitic | t-š-ʿ | ninety | **تسع** | مباشر 3: ninety |
 | `זרוע` | `*ḏirāʕ` ⟵ حنجريّة | Proto-Semitic | ḏ-r-ʕ | arm; tentacle | **ذرع** | مباشر 3: arm |
 | `אח` | `*ʔaḫw` ⟵ حنجريّة | Proto-Semitic | ʔ-ḫ-w | brother (son of the same parents as another person); brother, fellow, peer | **ءخو** | مباشر 3: brother |
 | `שער` | `*śaʕr` ⟵ حنجريّة | Proto-Semitic | ś-ʕ-r | hair | **شعر** | مباشر 3: hair |
@@ -63,24 +64,24 @@
 | `עיר` | `*ʕayr` ⟵ حنجريّة | Proto-West Semitic | ʕ-y-r | donkey foal | **عير** | مباشر 3: donkey |
 | `עגל` | `*ʕigl` ⟵ حنجريّة | Proto-West Semitic | ʕ-g-l | male calf; veal | **عجل** | مباشر 3: calf |
 | `תחת` | `*taḥta` ⟵ حنجريّة | Ugaritic | t-ḥ-t | below; underneath | **تحت** | مباشر 6: below underneath |
+| `היפופוטם` | `*h₁éḱwos` ⟵ حنجريّة | Proto-Indo-European | h₁-ḱ-w-s | hippopotamus (a semi-aquatic, herbivorous, African hoofed mammal of the family Hippopotami | **كوش** | قرينة 2: african family |
 | `ידע` | `*wadaʕ` ⟵ حنجريّة | Proto-Semitic | w-d-ʕ | Knowledge: that which is known (to a given knower). | **وضع** | قرينة 1: given |
 | `ידע` | `*wadaʕ` ⟵ حنجريّة | Proto-Semitic | w-d-ʕ | To know (a fact).; To know how (to do something). | **وضع** | قرينة 1: fact |
 | `נפח` | `*napaḫ` ⟵ حنجريّة | Proto-Semitic | n-p-ḫ | volume | **نفخ** | قرينة 1: volume |
-| `אינטרנט` | `*h₁en` ⟵ حنجريّة | Proto-Indo-European | h₁-n | Internet (the global, decentralized network of computers which communicate with one anothe | **هن** | قرينة 1: which |
 | `חידש` | `*ḥdṯ` ⟵ حنجريّة | Proto-Semitic | ḥ-d-ṯ | to resume, renew; to innovate | **حدث** | قرينة 1: renew |
 | `צבוע` | `*ṣabuʕ` ⟵ حنجريّة | Proto-Semitic | ṣ-b-ʕ | hyena; a male hyena, which begins to shapeshift into other creatures after 7 years of its  | **سبع** | قرينة 1: after |
 | `ב־ע־ל` | `*baʕl` ⟵ حنجريّة | Proto-Semitic | b-ʕ-l | Related to ownership, lordship, marriage. | **بعل** | قرينة 1: marriage |
+| `פילגש` | `*parikaH` ⟵ حنجريّة | Proto-Iranian | p-r-k-H | mistress, concubine, woman in a long-term but non-marital relationship with a man | **برك** | قرينة 2: but man |
 | `תחת` | `*taḥta` ⟵ حنجريّة | Ugaritic | t-ḥ-t | bottom; underside | **تحت** | قرينة 2: bottom underside |
 | `כלב` | `*kalb` | Proto-Semitic | k-l-b | dog (the species Canis familiaris (sometimes designated Canis lupus familiaris), domestica | **كلب** | مباشر 46: appearance bitch breeding canis |
-| `כל` | `*kʷall` | Proto-Semitic | kʷ-l | All, whole, entirety, everything; found almost exclusively in singular definite and singul | **كل** | مباشر 27: all almost each entirety |
 | `יום` | `*yawm` | Proto-Semitic | y-w-m | Day: the period between dawn and dusk.; A day: a unit of time corresponding to the period  | **يوم** | مباشر 23: between dawn day dusk |
 | `בנה` | `*banay` | Proto-Semitic | b-n-y | to build, to construct, to raise, to erect (a building, structure, or the like); to prepar | **بني** | مباشر 21: build building erect foundation |
 | `נפש` | `*napš` | Proto-Semitic | n-p-š | a soul, psyche (spirit of a person or animal); life (the state of being alive, of living) | **نفس** | مباشر 21: animal being human life |
 | `שבר` | `*ṯabar` | Proto-Semitic | ṯ-b-r | to break (separate into pieces or create cracks in); to break (cause to malfunction or sto | **ثبر** | مباشر 18: break cracks create into |
+| `שורש` | `*šurš` | Proto-Semitic | š-r-š | root (the part of a plant, generally underground, that anchors and supports the plant body | **شرش** | مباشر 18: root |
 | `ילד` | `*walad` | Proto-Semitic | w-l-d | A (male) child, a (male) kid, a boy (a male child).; A son: a person's (male) offspring or | **ولد** | مباشر 16: boy child male offspring |
 | `בית` | `*bayt` | Proto-Semitic | b-y-t | house; school | **بيت** | مباشر 14: house stanza verse |
 | `ילד` | `*walad` | Proto-Semitic | w-l-d | to give birth ("to child"; beget a descendant). | **ولد** | مباشر 13: beget birth child give |
-| `בת` | `*bint` | Proto-Semitic | b-n-t | daughter; a direct female descendant | **بنت** | مباشر 12: daughter descendant female girl |
 | `מלך` | `*malk` | Proto-Semitic | m-l-k | to reign (to rule as a king) | **ملك** | مباشر 9: king reign rule |
 | `קדם` | `*q-d-m` | Proto-Semitic | q-d-m | to precede, to come before | **قدم** | مباشر 9: before come precede |
 | `שבט` | `*šabṭ` | Proto-Semitic | š-b-ṭ | tribe; a wand, a staff; a swatting rod. cattle prod or a shepherd's crook. | **سبط** | مباشر 9: staff tribe wand |
@@ -109,6 +110,7 @@
 | `מדד` | `*mdd` | Proto-Semitic | m-d | To measure: to determine the size of. | **مد** | مباشر 6: measure size |
 | `בתולה` | `*batūl` | Proto-Semitic | b-t-l | virgin (female who has never had sexual intercourse) | **بتل** | مباشر 6: female virgin |
 | `מרד` | `*marad` | Proto-Semitic | m-r-d | to revolt, to rebel | **مرد** | مباشر 6: rebel revolt |
+| `קודש` | `*q-d-š` | Proto-Semitic | q-d-š | sanctity, holiness | **قدس** | مباشر 6: holiness sanctity |
 | `קודם` | `*q-d-m` | Proto-Semitic | q-d-m | before, earlier | **قدم** | مباشر 6: before earlier |
 | `שכר` | `*šikar` | Proto-Semitic | š-k-r | to be or become drunk | **سكر** | مباشر 6: become drunk |
 | `ה־ל־ך` | `*halak` | Proto-Semitic | h-l-k | Related to walking, going. | **حرك** | مباشر 6: related walking |
@@ -154,6 +156,7 @@
 | `שרה` | `*śarār` | Proto-Semitic | ś-r | lady, princess, queen; a female cabinet minister | **سل** | مباشر 3: female |
 | `חבט` | `*habat` | Proto-Semitic | h-b-t | to strike, hit | **خبط** | مباشر 3: hit |
 | `לבב` | `*libb` | Proto-Semitic | l-b | a heart | **لب** | مباشر 3: heart |
+| `קודש` | `*q-d-š` | Proto-Semitic | q-d-š | to be sanctified | **قدس** | مباشر 3: sanctified |
 | `קודם` | `*q-d-m` | Proto-Semitic | q-d-m | before, prior to | **قدم** | مباشر 3: before |
 | `זימר` | `*zamar` | Proto-Semitic | z-m-r | to sing | **زمر** | مباشر 3: sing |
 | `ש־ל־ם` | `*š-l-m` | Proto-Semitic | š-l-m | Forming words pertaining to completion, wholeness, peace. | **سلم** | مباشر 3: peace |
@@ -180,7 +183,6 @@
 | `דלק` | `*dalak` | Middle Persian | d-l-k | marten | **دلق** | مباشر 3: marten |
 | `בן` | `*bin` | Proto-Semitic | b-n | son; A direct male descendant. | **بن** | قرينة 3: descendant direct son |
 | `שום` | `*ṯūm` | Proto-Semitic | ṯ-m | garlic (a plant, Allium sativum, related to the onion, having a pungent bulb much used in  | **تم** | قرينة 1: food |
-| `אדם` | `*dam` | Proto-Semitic | d-m | man, human | **دم** | قرينة 1: human |
 | `כי` | `*kiyā` | Proto-Semitic | k-y | because, for, since; that; used to introduce declarative content clauses | **كي** | قرينة 1: but |
 | `שפה` | `*śapat` | Proto-Semitic | ś-p-t | lip (fleshy protrusion framing the mouth); lip (rim of an open container) | **سبت** | قرينة 1: body |
 | `פרי` | `*piry` | Proto-Semitic | p-r-y | fruit (a product of fertilization in a plant, specifically:); fruit (any sweet or sour, ed | **بري** | قرينة 1: not |

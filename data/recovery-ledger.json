@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 28028,
+ "cards_total": 28041,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -266,18 +266,6 @@
    ],
    "blocker_type": "LAW-GAP",
    "required": "صف صوتي منشور وموقع يحسم المسار المذكور في البطاقة؛ عوائق مصاحبة=TOOL-GAP؛",
-   "row_mentions": []
-  },
-  {
-   "file": "04-cross-linguistic/readings/akkadian.md",
-   "card": "sebe «سبعة»",
-   "verdict": "",
-   "closure": "TOOL-GAP.",
-   "gaps": [
-    "TOOL-GAP"
-   ],
-   "blocker_type": "TOOL-GAP",
-   "required": "مسح الأداة أو المروحة المسماة في البطاقة؛",
    "row_mentions": []
   },
   {
@@ -98825,20 +98813,6 @@
   },
   {
    "file": "04-cross-linguistic/readings/gothic.md",
-   "card": "`kaikki_gothic:617:en-𐍆𐍉𐌽-got-noun-got:Q3196`، 𐍆𐍉𐌽 (fōn) «fire» (مرشّح مفتوح)",
-   "verdict": "",
-   "closure": "OPEN-CANDIDATE.",
-   "gaps": [
-    "OPEN-CANDIDATE"
-   ],
-   "blocker_type": "OPEN-CANDIDATE",
-   "required": "موردَ تحول دلالي منشورا يوثق «غليان أو شدة حر ← نار»، أو صفا موقعا يقرأ الحنجري الهندوأوروبي صفرا في العربية.",
-   "row_mentions": [
-    "BR-GRIM-01"
-   ]
-  },
-  {
-   "file": "04-cross-linguistic/readings/gothic.md",
    "card": "𐍆𐍂𐌹𐌾𐌴𐌹 (frijei؛ «فريَي») «حرية» ↔ فرج (معلَّق)",
    "verdict": "",
    "closure": "LAW-GAP.",
@@ -105943,18 +105917,6 @@
    "closure": "SOURCE-GAP.",
    "gaps": [
     "SOURCE-GAP"
-   ],
-   "blocker_type": "",
-   "required": "",
-   "row_mentions": []
-  },
-  {
-   "file": "04-cross-linguistic/readings/old-irish.md",
-   "card": "mlicht «a milking, yield of milk»",
-   "verdict": "",
-   "closure": "MORPHOLOGY-GAP.",
-   "gaps": [
-    "MORPHOLOGY-GAP"
    ],
    "blocker_type": "",
    "required": "",

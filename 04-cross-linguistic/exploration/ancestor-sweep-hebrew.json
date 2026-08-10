@@ -1,7 +1,7 @@
 {
  "language": "hebrew",
  "method": "reconstructed ancestor, not the living word",
- "with_laryngeal": 59,
+ "with_laryngeal": 62,
  "both": [
   {
    "branch": "שועל",
@@ -597,6 +597,27 @@
    "direct": true
   },
   {
+   "branch": "תשעה",
+   "ancestor": "tišʿ",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "t-š-ʿ",
+   "laryngeal": true,
+   "gloss": "nine",
+   "candidates_found": [
+    "تسع",
+    "تسغ",
+    "تثغ",
+    "طسع"
+   ],
+   "best": "تسع",
+   "overlap": 3,
+   "shared": [
+    "nine"
+   ],
+   "direct": true
+  },
+  {
    "branch": "עשרה",
    "ancestor": "ʿaśr",
    "layer": "Proto-Semitic",
@@ -662,6 +683,27 @@
    "overlap": 3,
    "shared": [
     "fifty"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "תשעים",
+   "ancestor": "tišʿū",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "t-š-ʿ",
+   "laryngeal": true,
+   "gloss": "ninety",
+   "candidates_found": [
+    "تسع",
+    "تسغ",
+    "تثغ",
+    "طسع"
+   ],
+   "best": "تسع",
+   "overlap": 3,
+   "shared": [
+    "ninety"
    ],
    "direct": true
   },
@@ -1046,6 +1088,36 @@
    "direct": true
   },
   {
+   "branch": "היפופוטם",
+   "ancestor": "h₁éḱwos",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₁-ḱ-w-s",
+   "laryngeal": true,
+   "gloss": "hippopotamus (a semi-aquatic, herbivorous, African hoofed mammal of the family Hippopotami",
+   "candidates_found": [
+    "كوش",
+    "كوس",
+    "كوز",
+    "قوس",
+    "قوص",
+    "قوش",
+    "قوز",
+    "شوس",
+    "شوص",
+    "شوش",
+    "شوز",
+    "سوس"
+   ],
+   "best": "كوش",
+   "overlap": 2,
+   "shared": [
+    "african",
+    "family"
+   ],
+   "direct": false
+  },
+  {
    "branch": "ידע",
    "ancestor": "wadaʕ",
    "layer": "Proto-Semitic",
@@ -1101,24 +1173,6 @@
    "overlap": 1,
    "shared": [
     "volume"
-   ],
-   "direct": false
-  },
-  {
-   "branch": "אינטרנט",
-   "ancestor": "h₁en",
-   "layer": "Proto-Indo-European",
-   "depth": 1,
-   "skeleton": "h₁-n",
-   "laryngeal": true,
-   "gloss": "Internet (the global, decentralized network of computers which communicate with one anothe",
-   "candidates_found": [
-    "هن"
-   ],
-   "best": "هن",
-   "overlap": 1,
-   "shared": [
-    "which"
    ],
    "direct": false
   },
@@ -1181,6 +1235,43 @@
    "direct": false
   },
   {
+   "branch": "פילגש",
+   "ancestor": "parikaH",
+   "layer": "Proto-Iranian",
+   "depth": 2,
+   "skeleton": "p-r-k-H",
+   "laryngeal": true,
+   "gloss": "mistress, concubine, woman in a long-term but non-marital relationship with a man",
+   "candidates_found": [
+    "برك",
+    "برق",
+    "بلك",
+    "بلق",
+    "فرك",
+    "فرق",
+    "فلك",
+    "فلق",
+    "بركع",
+    "برقح",
+    "برقع",
+    "بلكه",
+    "بلكع",
+    "بلقع",
+    "فركح",
+    "فرقح",
+    "فرقع",
+    "فلقه",
+    "فلقح"
+   ],
+   "best": "برك",
+   "overlap": 2,
+   "shared": [
+    "but",
+    "man"
+   ],
+   "direct": false
+  },
+  {
    "branch": "תחת",
    "ancestor": "taḥta",
    "layer": "Ugaritic",
@@ -1223,30 +1314,6 @@
     "bitch",
     "breeding",
     "canis"
-   ],
-   "direct": true
-  },
-  {
-   "branch": "כל",
-   "ancestor": "kʷall",
-   "layer": "Proto-Semitic",
-   "depth": 1,
-   "skeleton": "kʷ-l",
-   "laryngeal": false,
-   "gloss": "All, whole, entirety, everything; found almost exclusively in singular definite and singul",
-   "candidates_found": [
-    "كل",
-    "كر",
-    "قل",
-    "قر"
-   ],
-   "best": "كل",
-   "overlap": 27,
-   "shared": [
-    "all",
-    "almost",
-    "each",
-    "entirety"
    ],
    "direct": true
   },
@@ -1343,6 +1410,29 @@
    "direct": true
   },
   {
+   "branch": "שורש",
+   "ancestor": "šurš",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "š-r-š",
+   "laryngeal": false,
+   "gloss": "root (the part of a plant, generally underground, that anchors and supports the plant body",
+   "candidates_found": [
+    "شرش",
+    "ثلث",
+    "شرس",
+    "شرث",
+    "سرس",
+    "سلس"
+   ],
+   "best": "شرش",
+   "overlap": 18,
+   "shared": [
+    "root"
+   ],
+   "direct": true
+  },
+  {
    "branch": "ילד",
    "ancestor": "walad",
    "layer": "Proto-Semitic",
@@ -1410,29 +1500,6 @@
     "birth",
     "child",
     "give"
-   ],
-   "direct": true
-  },
-  {
-   "branch": "בת",
-   "ancestor": "bint",
-   "layer": "Proto-Semitic",
-   "depth": 1,
-   "skeleton": "b-n-t",
-   "laryngeal": false,
-   "gloss": "daughter; a direct female descendant",
-   "candidates_found": [
-    "بنت",
-    "بنط",
-    "بنث"
-   ],
-   "best": "بنت",
-   "overlap": 12,
-   "shared": [
-    "daughter",
-    "descendant",
-    "female",
-    "girl"
    ],
    "direct": true
   },
@@ -2084,6 +2151,29 @@
    "shared": [
     "rebel",
     "revolt"
+   ],
+   "direct": true
+  },
+  {
+   "branch": "קודש",
+   "ancestor": "q-d-š",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "q-d-š",
+   "laryngeal": false,
+   "gloss": "sanctity, holiness",
+   "candidates_found": [
+    "قدس",
+    "قدث",
+    "كدش",
+    "كدس",
+    "كدث"
+   ],
+   "best": "قدس",
+   "overlap": 6,
+   "shared": [
+    "holiness",
+    "sanctity"
    ],
    "direct": true
   },
@@ -3052,6 +3142,28 @@
    "direct": true
   },
   {
+   "branch": "קודש",
+   "ancestor": "q-d-š",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "q-d-š",
+   "laryngeal": false,
+   "gloss": "to be sanctified",
+   "candidates_found": [
+    "قدس",
+    "قدث",
+    "كدش",
+    "كدس",
+    "كدث"
+   ],
+   "best": "قدس",
+   "overlap": 3,
+   "shared": [
+    "sanctified"
+   ],
+   "direct": true
+  },
+  {
    "branch": "קודם",
    "ancestor": "q-d-m",
    "layer": "Proto-Semitic",
@@ -3625,26 +3737,6 @@
    "overlap": 1,
    "shared": [
     "food"
-   ],
-   "direct": false
-  },
-  {
-   "branch": "אדם",
-   "ancestor": "dam",
-   "layer": "Proto-Semitic",
-   "depth": 1,
-   "skeleton": "d-m",
-   "laryngeal": false,
-   "gloss": "man, human",
-   "candidates_found": [
-    "دم",
-    "ضم",
-    "ذم"
-   ],
-   "best": "دم",
-   "overlap": 1,
-   "shared": [
-    "human"
    ],
    "direct": false
   },
@@ -5152,6 +5244,27 @@
    "direct": false
   },
   {
+   "branch": "דלת",
+   "ancestor": "dalt",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "d-l-t",
+   "laryngeal": false,
+   "gloss": "door (portal of entry)",
+   "candidates_found": [
+    "دلث",
+    "درت",
+    "درط",
+    "ضرط",
+    "ذرت",
+    "ذرط"
+   ],
+   "best": "دلث",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "שור",
    "ancestor": "ṯawr",
    "layer": "Proto-Semitic",
@@ -5288,33 +5401,6 @@
     "سمي"
    ],
    "best": "سمي",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "פילגש",
-   "ancestor": "parīg",
-   "layer": "Middle Persian",
-   "depth": 4,
-   "skeleton": "p-r-g",
-   "laryngeal": false,
-   "gloss": "mistress, concubine, woman in a long-term but non-marital relationship with a man",
-   "candidates_found": [
-    "برج",
-    "برغ",
-    "برق",
-    "بلج",
-    "بلغ",
-    "بلق",
-    "فرج",
-    "فرغ",
-    "فرق",
-    "فلج",
-    "فلغ",
-    "فلق"
-   ],
-   "best": "برج",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5458,25 +5544,6 @@
     "بنقص"
    ],
    "best": "بنقص",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "בסיס",
-   "ancestor": "gʷem",
-   "layer": "Proto-Indo-European",
-   "depth": 1,
-   "skeleton": "gʷ-m",
-   "laryngeal": false,
-   "gloss": "a base",
-   "candidates_found": [
-    "جم",
-    "قم",
-    "بم",
-    "غم"
-   ],
-   "best": "جم",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -5626,6 +5693,37 @@
     "ثمن"
    ],
    "best": "شمن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "סוכר",
+   "ancestor": "ḱorkeh₂",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "ḱ-r-k-h₂",
+   "laryngeal": true,
+   "gloss": "sugar",
+   "candidates_found": [
+    "كرك",
+    "كلك",
+    "قرق",
+    "قلق",
+    "شرك",
+    "شرق",
+    "شلك",
+    "شلق",
+    "سرك",
+    "سرق",
+    "سلك",
+    "سلق",
+    "قرقع",
+    "سرقع",
+    "سلقع",
+    "سلقه"
+   ],
+   "best": "كرك",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6076,6 +6174,27 @@
    "direct": false
   },
   {
+   "branch": "שורש",
+   "ancestor": "šurš",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "š-r-š",
+   "laryngeal": false,
+   "gloss": "to be rooted out",
+   "candidates_found": [
+    "شرش",
+    "شرس",
+    "شرث",
+    "سرس",
+    "سلس",
+    "ثلث"
+   ],
+   "best": "شرش",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "עורב",
    "ancestor": "ḡurayb",
    "layer": "Proto-Semitic",
@@ -6226,6 +6345,35 @@
    "direct": false
   },
   {
+   "branch": "גלד",
+   "ancestor": "gild",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "g-l-d",
+   "laryngeal": false,
+   "gloss": "scab; scale leaf",
+   "candidates_found": [
+    "جلد",
+    "جلض",
+    "جلذ",
+    "جرد",
+    "جرض",
+    "جرذ",
+    "غلد",
+    "غلذ",
+    "غرد",
+    "غرض",
+    "قلد",
+    "قلذ",
+    "قرد",
+    "قرض"
+   ],
+   "best": "جلد",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "אורח",
    "ancestor": "ʔurḫ",
    "layer": "Proto-Semitic",
@@ -6287,24 +6435,6 @@
     "بسم"
    ],
    "best": "بشم",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "היפופוטם",
-   "ancestor": "íkkʷos",
-   "layer": "Proto-Hellenic",
-   "depth": 2,
-   "skeleton": "k-kʷ-s",
-   "laryngeal": false,
-   "gloss": "hippopotamus (a semi-aquatic, herbivorous, African hoofed mammal of the family Hippopotami",
-   "candidates_found": [
-    "قكس",
-    "ققس",
-    "ققز"
-   ],
-   "best": "قكس",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6411,6 +6541,10 @@
    "laryngeal": true,
    "gloss": "jasper",
    "candidates_found": [
+    "كم",
+    "قم",
+    "شم",
+    "سم",
     "حكم",
     "حقم",
     "حشم",
@@ -6428,23 +6562,51 @@
     "هشم",
     "هسم"
    ],
-   "best": "حكم",
+   "best": "كم",
    "overlap": 0,
    "shared": [],
    "direct": false
   },
   {
    "branch": "אינטרנט",
-   "ancestor": "h₁en",
+   "ancestor": "h₁entér",
    "layer": "Proto-Indo-European",
    "depth": 1,
-   "skeleton": "h₁-n",
+   "skeleton": "h₁-n-t-r",
    "laryngeal": true,
    "gloss": "An internet: a group of mutually connected computer networks.",
    "candidates_found": [
-    "هن"
+    "نتر",
+    "نتل",
+    "نطر",
+    "نطل",
+    "نثر",
+    "نثل",
+    "هنتل"
    ],
-   "best": "هن",
+   "best": "نتر",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "אינטרנט",
+   "ancestor": "h₁entér",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₁-n-t-r",
+   "laryngeal": true,
+   "gloss": "Internet (the global, decentralized network of computers which communicate with one anothe",
+   "candidates_found": [
+    "نتر",
+    "نتل",
+    "نطر",
+    "نطل",
+    "نثر",
+    "نثل",
+    "هنتل"
+   ],
+   "best": "نتر",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6462,6 +6624,25 @@
     "ضثم"
    ],
    "best": "دثم",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "אנאלי",
+   "ancestor": "h₁eh₂no",
+   "layer": "Proto-Indo-European",
+   "depth": 1,
+   "skeleton": "h₁-h₂-n",
+   "laryngeal": true,
+   "gloss": "anal (sometimes substantivized to mean anal sex)",
+   "candidates_found": [
+    "هن",
+    "حن",
+    "عن",
+    "خن"
+   ],
+   "best": "هن",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6609,6 +6790,32 @@
     "فلت"
    ],
    "best": "برث",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "צרה",
+   "ancestor": "ṣarrat",
+   "layer": "Proto-Semitic",
+   "depth": 1,
+   "skeleton": "ṣ-r-t",
+   "laryngeal": false,
+   "gloss": "co-wife, rival-wife, vexer",
+   "candidates_found": [
+    "صرط",
+    "صلت",
+    "صلط",
+    "سرت",
+    "سرط",
+    "سلت",
+    "سلط",
+    "شرت",
+    "شرط",
+    "شرث",
+    "شلط"
+   ],
+   "best": "صرط",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -6966,6 +7173,42 @@
     "نسف"
    ],
    "best": "نشب",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "זן",
+   "ancestor": "jánHah",
+   "layer": "Proto-Iranian",
+   "depth": 2,
+   "skeleton": "j-n-H-h",
+   "laryngeal": true,
+   "gloss": "breed (of animal); type, variety",
+   "candidates_found": [
+    "ينخ",
+    "جنه",
+    "جنح"
+   ],
+   "best": "ينخ",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
+   "branch": "זן",
+   "ancestor": "jánHah",
+   "layer": "Proto-Iranian",
+   "depth": 2,
+   "skeleton": "j-n-H-h",
+   "laryngeal": true,
+   "gloss": "to sustain, to nurture, to feed",
+   "candidates_found": [
+    "ينخ",
+    "جنه",
+    "جنح"
+   ],
+   "best": "ينخ",
    "overlap": 0,
    "shared": [],
    "direct": false
@@ -7490,6 +7733,22 @@
    "direct": false
   },
   {
+   "branch": "כדכד",
+   "ancestor": "karkaðan",
+   "layer": "Parthian",
+   "depth": 4,
+   "skeleton": "k-r-k-ð-n",
+   "laryngeal": false,
+   "gloss": "some kind of gemstone; a legendary fluorescent stone",
+   "candidates_found": [
+    "كركدن"
+   ],
+   "best": "كركدن",
+   "overlap": 0,
+   "shared": [],
+   "direct": false
+  },
+  {
    "branch": "ש־ח־ר",
    "ancestor": "šaḥ(a",
    "layer": "Proto-Semitic",
@@ -7591,22 +7850,6 @@
     "غن"
    ],
    "best": "جن",
-   "overlap": 0,
-   "shared": [],
-   "direct": false
-  },
-  {
-   "branch": "ארידתא",
-   "ancestor": "Aryaʰ",
-   "layer": "Old Persian",
-   "depth": 3,
-   "skeleton": "r-y",
-   "laryngeal": false,
-   "gloss": "a son of Haman named in the Book of Esther.",
-   "candidates_found": [
-    "لي"
-   ],
-   "best": "لي",
    "overlap": 0,
    "shared": [],
    "direct": false

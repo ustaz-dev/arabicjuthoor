@@ -2,7 +2,7 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 1531,
+  "root": 1550,
   "nucleus": 1088,
   "languages": 16
  },
@@ -12,7 +12,7 @@
    "ar": "الآراميّة",
    "en": "Aramaic",
    "distance": 1,
-   "root": 688,
+   "root": 689,
    "nucleus": 391,
    "floor": 0,
    "examples": [
@@ -97,7 +97,7 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 1079,
+   "total": 1080,
    "nucleus_share": 36.2
   },
   {
@@ -105,7 +105,7 @@
    "ar": "العبريّة",
    "en": "Hebrew",
    "distance": 1,
-   "root": 605,
+   "root": 606,
    "nucleus": 331,
    "floor": 0,
    "examples": [
@@ -190,15 +190,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 936,
-   "nucleus_share": 35.4
+   "total": 937,
+   "nucleus_share": 35.3
   },
   {
    "key": "akkadian",
    "ar": "الأكّاديّة",
    "en": "Akkadian",
    "distance": 1,
-   "root": 79,
+   "root": 82,
    "nucleus": 22,
    "floor": 0,
    "examples": [
@@ -283,8 +283,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 101,
-   "nucleus_share": 21.8
+   "total": 104,
+   "nucleus_share": 21.2
   },
   {
    "key": "phoenician-punic-scout",
@@ -663,7 +663,7 @@
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 22,
+   "root": 23,
    "nucleus": 17,
    "floor": 1,
    "examples": [
@@ -748,8 +748,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 39,
-   "nucleus_share": 43.6
+   "total": 40,
+   "nucleus_share": 42.5
   },
   {
    "key": "ancient-greek",
@@ -912,7 +912,7 @@
    "ar": "الإيرلنديّة القديمة",
    "en": "Old Irish",
    "distance": 4,
-   "root": 11,
+   "root": 13,
    "nucleus": 21,
    "floor": 1,
    "examples": [
@@ -997,15 +997,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 32,
-   "nucleus_share": 65.6
+   "total": 34,
+   "nucleus_share": 61.8
   },
   {
    "key": "old-english",
    "ar": "الإنجليزيّة القديمة",
    "en": "Old English",
    "distance": 4,
-   "root": 12,
+   "root": 14,
    "nucleus": 16,
    "floor": 1,
    "examples": [
@@ -1090,15 +1090,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 28,
-   "nucleus_share": 57.1
+   "total": 30,
+   "nucleus_share": 53.3
   },
   {
    "key": "gothic",
    "ar": "القوطيّة",
    "en": "Gothic",
    "distance": 4,
-   "root": 11,
+   "root": 14,
    "nucleus": 9,
    "floor": 0,
    "examples": [
@@ -1183,15 +1183,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 20,
-   "nucleus_share": 45.0
+   "total": 23,
+   "nucleus_share": 39.1
   },
   {
    "key": "old-norse",
    "ar": "النُّرديّة القديمة",
    "en": "Old Norse",
    "distance": 4,
-   "root": 10,
+   "root": 13,
    "nucleus": 6,
    "floor": 0,
    "examples": [
@@ -1276,15 +1276,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 16,
-   "nucleus_share": 37.5
+   "total": 19,
+   "nucleus_share": 31.6
   },
   {
    "key": "welsh",
    "ar": "الويلزيّة",
    "en": "Welsh",
    "distance": 4,
-   "root": 1,
+   "root": 3,
    "nucleus": 2,
    "floor": 0,
    "examples": [
@@ -1317,17 +1317,37 @@
      "lexicon": "تاج العروس",
      "layer": "root",
      "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "Welsh",
+     "say": "",
+     "sense": "البحر",
+     "arabic": "مور",
+     "quote": "المور الموج",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
+    },
+    {
+     "word": "blith",
+     "say": "",
+     "sense": "milk, dairy produce; lactation; dairying",
+     "arabic": "ملح",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
     }
    ],
-   "total": 3,
-   "nucleus_share": 66.7
+   "total": 5,
+   "nucleus_share": 40.0
   },
   {
    "key": "middle-english",
    "ar": "الإنجليزيّة الوسطى",
    "en": "Middle English",
    "distance": 4,
-   "root": 1,
+   "root": 2,
    "nucleus": 1,
    "floor": 0,
    "examples": [
@@ -1350,10 +1370,20 @@
      "lexicon": "",
      "layer": "root",
      "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "Middle",
+     "say": "",
+     "sense": "باب",
+     "arabic": "الدار",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
     }
    ],
-   "total": 2,
-   "nucleus_share": 50.0
+   "total": 3,
+   "nucleus_share": 33.3
   }
  ]
 }

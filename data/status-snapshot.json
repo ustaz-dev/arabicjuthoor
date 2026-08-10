@@ -261,17 +261,17 @@
   ]
  },
  "pipeline": {
-  "cards_total": 28028,
-  "suspended": 20774,
-  "released": 7254,
+  "cards_total": 28041,
+  "suspended": 20771,
+  "released": 7270,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 16768
+    "count": 16767
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 3551
+    "count": 3550
    },
    {
     "name": "SOURCE-GAP",
@@ -279,7 +279,7 @@
    },
    {
     "name": "TOOL-GAP",
-    "count": 91
+    "count": 90
    },
    {
     "name": "LAW-GAP",
@@ -321,7 +321,7 @@
    },
    {
     "file": "old-irish.md",
-    "count": 361
+    "count": 360
    },
    {
     "file": "old-english.md",
@@ -329,7 +329,7 @@
    },
    {
     "file": "gothic.md",
-    "count": 197
+    "count": 196
    },
    {
     "file": "phoenician-punic-scout.md",
@@ -351,16 +351,16 @@
   "frozen_commit": "",
   "required_total": 600,
   "required_per_language": 150,
-  "families_tracked": 1826,
-  "eligible_now": 381,
+  "families_tracked": 1827,
+  "eligible_now": 382,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 247,
-    "represented": 602,
-    "positive_families": 247,
+    "eligible": 248,
+    "represented": 603,
+    "positive_families": 248,
     "closure_only_families": 0,
     "one_member_short": 82
    },
