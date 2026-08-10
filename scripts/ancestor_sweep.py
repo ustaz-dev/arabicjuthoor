@@ -178,9 +178,44 @@ def proto_fan(form: str, limit: int = 600) -> list[str]:
     return out
 
 
+# **اللاحقةُ تُعلِنُ نفسَها في شجرةِ الاشتقاق.** يسردُ المصدرُ عقدةَ اللاحقةِ عقدةً
+# مستقلّةً بشرطةٍ سابقة: `Proto-Indo-European *-s` ثمّ `*h₃rḗǵs`. فإن انتهَت الصورةُ
+# التامّةُ بلاحقةٍ سردَها المصدرُ نفسُه، فذلك الحرفُ ليس من الجذر.
+#
+# **والعطبُ الذي يُنهيه:** قُوبِلَت `rēx` بهيكلِ `r-k-s` فطُلِبَ صفٌّ يصلُ الكافَ
+# بالهمزةِ في `رأس` ولم يُوجَدْ فرُفِضَ الزوج. والسينُ لاحقةُ رفعٍ لا حرفَ جذر،
+# والمضافُ إليه `rēgis` بالجيمِ يشهدُ بذلك. والجذرُ المنشورُ `*h₃reǵ-` وحدَه.
+RX_SUFFIX_NODE = re.compile(
+    r"(?:" + "|".join(re.escape(a) for a, _ in ANCESTORS) + r")\s*\*(-[^\s,;.)\]]{1,8})")
+
+
+def suffixes_in(etymology: str) -> list[str]:
+    """اللواحقُ التي سردَها المصدرُ عقدًا مستقلّةً في شجرةِ الاشتقاق."""
+    out = []
+    for m in RX_SUFFIX_NODE.finditer(etymology or ""):
+        s = normalize_form(m.group(1).lstrip("-"))
+        if s and len(s) <= 6:
+            out.append(s)
+    return out
+
+
+def strip_declared_suffix(form: str, sufs: list[str]) -> str:
+    """تُنزَعُ اللاحقةُ المسرودةُ إن ختمَتِ الصورةَ التامّة، ولا تُنزَعُ إن أبقَت
+    أقلَّ من صامتَين، فالجذرُ لا يقلُّ عن ثنائيّ."""
+    best = form
+    for s in sorted(sufs, key=len, reverse=True):
+        if len(s) < len(form) and form.endswith(s):
+            cut = form[: -len(s)]
+            if len(proto_skeleton(cut)) >= 2:
+                best = cut
+                break
+    return best
+
+
 def ancestors_of(etymology: str) -> list[tuple[str, str, int]]:
     """كلُّ ما ذكرَه الاشتقاقُ من صورٍ أقدم، بطبقتِها ورتبةِ قِدَمِها."""
     depth = dict(ANCESTORS)
+    sufs = suffixes_in(etymology)
     found: list[tuple[str, str, int]] = []
     seen = set()
     for rx in (RX_STAR, RX_SLASH):
@@ -200,8 +235,15 @@ def ancestors_of(etymology: str) -> list[tuple[str, str, int]]:
                 continue
             seen.add((layer, form))
             found.append((layer, form, depth.get(layer, 4)))
+            # الصورةُ نفسُها بعدَ نزعِ لاحقتِها المسرودةِ تُضافُ مرشَّحًا ثانيًا،
+            # فالجذرُ أولى بالمقابلةِ من الصيغةِ المرفوعة
+            bare_form = strip_declared_suffix(form, sufs)
+            if bare_form != form and (layer, bare_form) not in seen:
+                seen.add((layer, bare_form))
+                found.append((layer, bare_form, depth.get(layer, 4)))
     # الأعمقُ طبقةً أوّلًا، ثمّ الأتمُّ صوامتَ في الطبقةِ الواحدة. فالشجرةُ تسردُ
     # الجذرَ المجرَّدَ واللاحقةَ والصورةَ التامّةَ معًا، والتامّةُ هي المقصودة.
+    # الأعمقُ طبقةً أوّلًا، ثمّ الأتمُّ صوامتَ بعدَ طرحِ اللاحقة
     found.sort(key=lambda x: (x[2], -len(proto_skeleton(x[1]))))
     return found
 
