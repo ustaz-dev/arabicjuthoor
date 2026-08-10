@@ -2,9 +2,9 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 1505,
-  "nucleus": 1077,
-  "languages": 15
+  "root": 1517,
+  "nucleus": 1082,
+  "languages": 16
  },
  "languages": [
   {
@@ -198,8 +198,8 @@
    "ar": "الأكّاديّة",
    "en": "Akkadian",
    "distance": 1,
-   "root": 75,
-   "nucleus": 18,
+   "root": 79,
+   "nucleus": 21,
    "floor": 0,
    "examples": [
     {
@@ -283,8 +283,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 93,
-   "nucleus_share": 19.4
+   "total": 100,
+   "nucleus_share": 21.0
   },
   {
    "key": "phoenician-punic-scout",
@@ -663,7 +663,7 @@
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 19,
+   "root": 20,
    "nucleus": 16,
    "floor": 1,
    "examples": [
@@ -748,16 +748,16 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 35,
-   "nucleus_share": 45.7
+   "total": 36,
+   "nucleus_share": 44.4
   },
   {
    "key": "ancient-greek",
    "ar": "اليونانيّة القديمة",
    "en": "Ancient Greek",
    "distance": 3,
-   "root": 6,
-   "nucleus": 6,
+   "root": 9,
+   "nucleus": 8,
    "floor": 0,
    "examples": [
     {
@@ -841,8 +841,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 12,
-   "nucleus_share": 50.0
+   "total": 17,
+   "nucleus_share": 47.1
   },
   {
    "key": "persian",
@@ -902,7 +902,7 @@
    "ar": "الإيرلنديّة القديمة",
    "en": "Old Irish",
    "distance": 4,
-   "root": 9,
+   "root": 10,
    "nucleus": 20,
    "floor": 1,
    "examples": [
@@ -987,15 +987,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 29,
-   "nucleus_share": 69.0
+   "total": 30,
+   "nucleus_share": 66.7
   },
   {
    "key": "old-english",
    "ar": "الإنجليزيّة القديمة",
    "en": "Old English",
    "distance": 4,
-   "root": 10,
+   "root": 11,
    "nucleus": 15,
    "floor": 1,
    "examples": [
@@ -1080,8 +1080,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 25,
-   "nucleus_share": 60.0
+   "total": 26,
+   "nucleus_share": 57.7
   },
   {
    "key": "gothic",
@@ -1181,7 +1181,7 @@
    "ar": "النُّرديّة القديمة",
    "en": "Old Norse",
    "distance": 4,
-   "root": 8,
+   "root": 9,
    "nucleus": 6,
    "floor": 0,
    "examples": [
@@ -1266,8 +1266,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 14,
-   "nucleus_share": 42.9
+   "total": 15,
+   "nucleus_share": 40.0
   },
   {
    "key": "welsh",
@@ -1311,6 +1311,29 @@
    ],
    "total": 3,
    "nucleus_share": 66.7
+  },
+  {
+   "key": "middle-english",
+   "ar": "الإنجليزيّة الوسطى",
+   "en": "Middle English",
+   "distance": 4,
+   "root": 1,
+   "nucleus": 0,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "fader",
+     "say": "",
+     "sense": "A father (male direct ancestor...)`، و`An indirect male ancestor`، وكذلك `The ",
+     "arabic": "فاطر",
+     "quote": "المنشئ المبتدئ",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 1,
+   "nucleus_share": 0.0
   }
  ]
 }
