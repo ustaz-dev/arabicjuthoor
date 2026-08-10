@@ -263,14 +263,26 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
 
     var byLinks = ex.by_language.slice().sort(function (a, b) { return (b.links || 0) - (a.links || 0); });
     document.getElementById("langs").innerHTML =
+      (DATA.board ? '<div class="note good" style="margin:0 0 10px"><b>' +
+        t("Every tongue whose file we opened has returned links: " +
+          DATA.board.answered + " of " + DATA.board.opened + ".",
+          "كلُّ لسانٍ فُتِحَ له ملفٌّ ردَّ صلات: " +
+          DATA.board.answered + " من " + DATA.board.opened + ".") + "</b> " +
+        t("A file is opened before we know whether the tongue will answer, and it is never closed for silence, " +
+          "so this is a measured result and not a selection.",
+          "والملفُّ يُفتَحُ قبلَ أن نعلمَ أيُجيبُ اللسانُ أم لا، ولا يُغلَقُ لصمتِه، " +
+          "فهذه نتيجةٌ مقيسةٌ لا انتقاء.") + "</div>" : "") +
       '<p class="sub" style="margin:0 0 8px">' +
-      t("Links found per language, split by the layer they landed on, then cards written. " +
-        "The nucleus share is the claim itself: near sisters answer at the root, far branches at the nucleus.",
-        "الصلاتُ الموجودةُ لكلِّ لسان، مقسومةً على الطبقةِ التي وقعَت فيها، ثمّ البطاقاتُ المكتوبة. " +
-        "وحصّةُ النواةِ هي الدعوى نفسُها: الأخواتُ القريبةُ تُجيبُ عندَ الجذرِ والفروعُ البعيدةُ عندَ النواة.") + "</p>" +
+      t("Links found per language, split by the layer they landed on, then the distinct Arabic roots reached " +
+        "and the cards written. The nucleus share is the claim itself: the sisters answer mostly at the root, " +
+        "and the nucleus share climbs as the branch recedes.",
+        "الصلاتُ الموجودةُ لكلِّ لسان، مقسومةً على الطبقةِ التي وقعَت فيها، ثمّ الجذورُ العربيّةُ المتمايزةُ " +
+        "التي بلغَها، ثمّ البطاقاتُ المكتوبة. وحصّةُ النواةِ هي الدعوى نفسُها: الأخواتُ تُجيبُ عندَ الجذرِ في " +
+        "أكثرِها، ونصيبُ النواةِ يعلو كلَّما بعُدَ الفرع.") + "</p>" +
       '<table><thead><tr><th>' + t("Language", "اللسان") + '</th><th class="num">' +
       t("Links", "صلات") + '</th><th class="num">' + t("Root", "جذر") + '</th><th class="num">' +
       t("Nucleus", "نواة") + '</th><th class="num">' + t("Nucleus %", "نواة %") +
+      '</th><th class="num">' + t("Arabic roots", "جذرًا عربيًّا") +
       '</th><th class="num">' + t("Cards", "بطاقات") + "</th></tr></thead><tbody>" +
       byLinks.map(function (r) {
         var pct = vd.links_to_arabic ? Math.round(((r.links || 0) / vd.links_to_arabic) * 100) : 0;
@@ -281,6 +293,7 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
           '<td class="num" style="color:var(--text-3)">' + fmt(r.root || 0) + "</td>" +
           '<td class="num" style="color:var(--text-3)">' + fmt(r.nucleus || 0) + "</td>" +
           '<td class="num" style="color:var(--accent-strong);font-weight:600">' + share + "</td>" +
+          '<td class="num">' + (r.arabic_roots == null ? "" : fmt(r.arabic_roots)) + "</td>" +
           '<td class="num" style="color:var(--text-3)">' + fmt(r.cards) + "</td></tr>";
       }).join("") + "</tbody></table>" +
       '<p class="sub" style="margin:10px 0 0"><a href="links.html" style="color:var(--accent-strong);font-weight:600;text-decoration:none">' +
@@ -333,9 +346,25 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
       kpi(fmt(fr.loanwords_registered), t("Loanwords on the open register", "كلمةً دخيلةً في السجلِّ المعلَن"), "", "");
   }
 
-  fetch("data/status-snapshot.json", { cache: "no-store" })
-    .then(function (r) { return r.json(); })
-    .then(function (d) { DATA = d; render(); })
+  // اللوحةُ تُجلَبُ مع اللقطةِ لأنّ عمودَ الجذورِ المتمايزةِ لا يوجدُ في اللقطة،
+  // ولا يُبنى في هذه الصفحةِ حسابٌ ثانٍ للصلاتِ فيختلفَ عدّادانِ في موقعٍ واحد.
+  Promise.all([
+    fetch("data/status-snapshot.json", { cache: "no-store" }).then(function (r) { return r.json(); }),
+    fetch("data/tongue-board.json", { cache: "no-store" })
+      .then(function (r) { return r.json(); }).catch(function () { return null; })
+  ])
+    .then(function (both) {
+      var d = both[0], board = both[1];
+      if (board && board.tongues) {
+        var roots = {};
+        board.tongues.forEach(function (t) { roots[t.key] = t.arabic_roots; });
+        (d.exploration.by_language || []).forEach(function (r) {
+          r.arabic_roots = roots[r.key];
+        });
+        d.board = board;
+      }
+      DATA = d; render();
+    })
     .catch(function () {
       document.getElementById("kpis").innerHTML =
         '<div class="note alert">Status snapshot unavailable. Run <code>python scripts/build_status_snapshot.py</code>.</div>';

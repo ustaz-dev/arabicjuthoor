@@ -60,9 +60,11 @@ def tree_hash() -> str:
     return git("write-tree")[1].strip()
 
 
-def build_all() -> None:
+def build_all(only: list[str] | None = None) -> None:
     print("البناء:")
     for script, argv in R.BUILD:
+        if only and script not in only:
+            continue
         code, line = run(script, argv)
         print(f" {'  ' if code == 0 else '!!'} {script:44}{line}")
 
@@ -83,14 +85,22 @@ def main() -> int:
     ap.add_argument("-m", "--message", help="رسالةُ الإيداع")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--push", action="store_true", help="ادفعْ بعدَ الإيداع")
+    # **الحاجةُ إلى التقييد:** المساراتُ الصناعيّةُ تعملُ معنا في الشجرةِ نفسِها،
+    # فـ`git add -A` يبتلعُ عملَ مسارٍ نصفَ منتهٍ ويُودِعُه برسالةٍ ليست له. فإذا
+    # عُلِمَ أنّ مسارًا يعملُ الآنَ سُمِّيَت الملفّاتُ بالاسم، والبناءُ والفحصُ
+    # يبقيانِ شاملَين لأنّ باتَ مشتقٍّ واحدٍ يُسقِطُ النشرَ كيفما أُودِع.
+    ap.add_argument("--only", nargs="+", metavar="PATH",
+                    help="أودِعْ هذه المساراتِ وحدَها (يُستعمَلُ حينَ يعملُ مسارٌ آخرُ معك)")
+    ap.add_argument("--build", nargs="+", metavar="SCRIPT",
+                    help="اقصرِ البناءَ على هذه البُناةِ (لا يُقصَرُ الفحص)")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
     for attempt in (1, 2):
         before = tree_hash()
-        build_all()
+        build_all(args.build)
         after = tree_hash()
-        if before == after or attempt == 2:
+        if before == after or attempt == 2 or args.only:
             break
         # لم تتغيّرِ الشجرةُ بالبناءِ وحدَه؟ إذًا كتبَ مسارٌ في أثنائِه
         print("\nتغيّرَت الشجرةُ أثناءَ البناء، فتُعادُ الدورةُ مرّةً واحدة.\n")
@@ -107,7 +117,12 @@ def main() -> int:
             print("لا رسالةَ إيداع، فلم يُودَعْ شيء.")
         return 0
 
-    git("add", "-A")
+    if args.only:
+        git("reset", "-q")
+        git("add", "--", *args.only)
+        print("مقصورٌ على: " + " · ".join(args.only))
+    else:
+        git("add", "-A")
     code, out = git("commit", "-q", "-m", args.message)
     if code != 0 and "nothing to commit" not in out:
         print(out[:400])

@@ -1232,10 +1232,31 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
 .hp-more { display: inline-block; margin-top: 14px; font-weight: 700;
   color: var(--accent-strong); text-decoration: none; }
 .hp-note { font-size: 12.5px; color: var(--text-3); margin: 12px 0 0; }
+
+/* لوحةُ الألسن: بطاقةٌ لكلِّ لسانٍ فُتِحَ له ملفُّ قراءة، ليَرى القارئُ أنّه
+   لم يبقَ لسانٌ فُتِحَ ملفُّه إلّا ردَّ صلات. والشريطُ فوقَها يقولُ أيَّ طبقةٍ
+   ردَّ، وهذه تقولُ هل ردَّ أصلًا. */
+.tb-grid { display: grid; gap: 10px; margin: 8px 0 2px;
+  grid-template-columns: repeat(auto-fill, minmax(196px, 1fr)); }
+.tb-t { background: var(--bg-2); border: 1px solid var(--border);
+  border-radius: 11px; padding: 12px 13px 11px; }
+.tb-name { font-weight: 700; font-size: 15px; line-height: 1.25; }
+.tb-era { font-size: 11.5px; color: var(--text-3); margin-top: 2px; }
+.tb-n { font-size: 25px; font-weight: 800; line-height: 1.05; margin-top: 9px;
+  font-variant-numeric: tabular-nums; }
+.tb-n span { font-size: 12px; font-weight: 600; color: var(--text-3);
+  margin-inline-start: 5px; }
+.tb-t .hp-bar { margin-top: 8px; height: 8px; }
+.tb-ans { font-size: 12px; margin-top: 7px; font-weight: 600;
+  color: var(--accent-strong); }
+.tb-sub { font-size: 11.5px; color: var(--text-3); margin-top: 3px;
+  font-variant-numeric: tabular-nums; }
 @media (max-width: 640px) {
   #hp-result { padding: 0 16px; }
   .hp-card { padding: 17px 15px; }
   .hp-grad-row { grid-template-columns: minmax(88px, 1fr) 1fr auto; gap: 8px; }
+  .tb-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+  .tb-n { font-size: 22px; }
 }
 </style>
 
@@ -1250,13 +1271,13 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
       The <b>binary nucleus</b> of two consonants is older, so it is what remains once a branch has split away.
       The bars below are not a drawing of that claim, they are the measured distribution of <b id="hp-n1">2,519</b> issued
       links across <b id="hp-n2">15</b> tongues, every one a word joined to an Arabic word and quoted from a named classical
-      lexicon. The sisters answer at the root, the far branches answer at the nucleus, and the Egyptian branch,
-      which split earliest of all, answers almost entirely there.</p>
+      lexicon. The sisters answer mostly at the root, the nucleus share climbs as the branch recedes, and the
+      Egyptian branch, which split earliest of all, answers there almost entirely.</p>
     <p class="hp-lede lang-ar">الجَذرُ الثُّلاثيُّ طَورٌ مُتَأخِّرٌ من العَربيّة، فهو ما يَقدِرُ الفَرعُ القَريبُ أن يَرُدَّه.
       و<b>النَّواةُ الثُّنائيّةُ</b> ذاتُ الحَرفَينِ أقدَمُ منه، فهي ما يَبقى بعدَ أن يَنشَقَّ الفَرعُ ويَبعُد. والأعمِدةُ أدناهُ ليسَت
       رَسمًا لهذه الدَّعوى، بل هي التَّوزُّعُ المَقيسُ لـ<b class="hp-n1">2,519</b> صِلةً صادِرةً في <b class="hp-n2">15</b> لِسانًا،
-      كُلُّ صِلةٍ كَلِمةٌ وُصِلَت بكَلِمةٍ عَرَبيّةٍ ومَعَها نَصُّ مُعجَمٍ مُسَمًّى. فالأخَواتُ تُجيبُ عندَ الجَذر، والفُروعُ البَعيدةُ تُجيبُ
-      عندَ النَّواة، والفَرعُ المِصريُّ وهو أبكَرُها انشِقاقًا يُجيبُ عندَها كُلَّها تَقريبًا.</p>
+      كُلُّ صِلةٍ كَلِمةٌ وُصِلَت بكَلِمةٍ عَرَبيّةٍ ومَعَها نَصُّ مُعجَمٍ مُسَمًّى. فالأخَواتُ تُجيبُ عندَ الجَذرِ في أكثَرِها،
+      ونَصيبُ النَّواةِ يَعلو كُلَّما بَعُدَ الفَرع، والفَرعُ المِصريُّ وهو أبكَرُها انشِقاقًا يُجيبُ عندَها كُلَّها تَقريبًا.</p>
 
     <div class="hp-kpis">
       <div class="hp-kpi"><div class="n" id="hp-k-links">2,519</div><div class="l"><span class="lang-en">links to the Arabic tongue</span><span class="lang-ar">صِلةً باللِّسانِ العَرَبيّ</span></div></div>
@@ -1271,6 +1292,33 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
       <span class="r"><span class="lang-en">Triliteral root, the later stage</span><span class="lang-ar">الجَذرُ الثُّلاثيّ، الطَّورُ المُتَأخِّر</span></span>
       <span class="n"><span class="lang-en">Binary nucleus, the older stage</span><span class="lang-ar">النَّواةُ الثُّنائيّة، الطَّورُ الأقدَم</span></span>
     </div>
+  </div>
+
+  <div class="hp-card">
+    <div class="hp-eyebrow"><span class="lang-en">Every tongue whose file we opened</span><span class="lang-ar">كُلُّ لِسانٍ فَتَحنا له مِلَفًّا</span></div>
+    <h2 class="hp-h" style="font-size:clamp(19px,2.6vw,26px);">
+      <span class="lang-en">Not one tongue we opened has failed to answer</span>
+      <span class="lang-ar ar-display">لم يَبقَ لِسانٌ فَتَحنا مِلَفَّه إلّا ردَّ صِلات</span>
+    </h2>
+    <p class="hp-lede lang-en">A file is opened for a tongue before we know whether it will answer, and it is never
+      closed for silence. Every one of the <b id="tb-opened">16</b> opened so far has returned links, from
+      the Semitic sisters to a branch that left before the triliteral root had settled. Each tile carries what
+      that tongue returned: the number of links, how they split between the later root layer and the older
+      nucleus layer, and how many <b>distinct Arabic roots</b> it reached, which a link count alone cannot show.</p>
+    <p class="hp-lede lang-ar">المِلَفُّ يُفتَحُ للِّسانِ قَبلَ أن نَعلَمَ أيُجيبُ أم لا، ولا يُغلَقُ لِصَمتِه.
+      وقد ردَّ كُلُّ واحِدٍ من <b class="tb-opened">16</b> لِسانًا فُتِحَ له مِلَفٌّ إلى اليَوم، من الأخَواتِ
+      السّامِيّةِ إلى فَرعٍ فارَقَ قَبلَ أن يَستَقِرَّ الجَذرُ الثُّلاثِيّ. وفي كُلِّ بِطاقةٍ ما ردَّه اللِّسان:
+      عَدَدُ الصِّلات، وكَيفَ انقَسَمَت بينَ طَبَقةِ الجَذرِ المُتَأخِّرةِ وطَبَقةِ النَّواةِ الأقدَم، وكَم بَلَغَ من
+      <b>جَذرٍ عَرَبِيٍّ مُتَمايِز</b>، وهو ما لا يَكشِفُه عَدَدُ الصِّلاتِ وحدَه.</p>
+    <div id="tb-board" style="margin-top:14px;"></div>
+    <p class="hp-note">
+      <span class="lang-en">Exploration layer. Counts come from the same counter that feeds every figure on this page.
+        The era and script beside each tongue are the conventional approximate dating found in the historical
+        literature; they are context for the reader, not a measurement of ours.</span>
+      <span class="lang-ar">طَبَقةُ استِكشاف. الأعدادُ من العَدّادِ الذي تَصدُرُ عنه كُلُّ أرقامِ هذه الصَّفحة.
+        وأمّا العَصرُ والخَطُّ بجانِبِ كُلِّ لِسانٍ فتَأريخٌ تَقريبِيٌّ مُتَعارَفٌ عليه في كُتُبِ التّاريخِ اللُّغَوِيّ،
+        وُضِعَ تَعريفًا للقارِئ ولَيسَ من قِياسِنا.</span>
+    </p>
   </div>
 
   <div class="hp-card">
@@ -2836,6 +2884,45 @@ const SUPABASE_TABLE = 'messages';
       if (tb) tb.innerHTML = rows;
     })
     .catch(function () { /* يبقى صدرُ الصفحةِ بأرقامِ آخرِ بناءٍ إن تعذّرَ الجلب */ });
+
+  // لوحةُ الألسن. **تُعرَضُ الألسنُ كلُّها بلا تصفية**، فالدعوى المعروضةُ هنا هي
+  // أنّه لم يبقَ لسانٌ فُتِحَ ملفُّه إلّا ردَّ صلات، ولو حجبنا الصامتَ لصارَت
+  // الدعوى صحيحةً بالإخفاءِ لا بالقياس.
+  fetch('data/tongue-board.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (b) {
+      put('#tb-opened, .tb-opened', String(b.opened));
+      var html = (b.families || []).map(function (f) {
+        var head = '<div class="hp-gh"><span class="lang-en">' + esc(f.en) + '</span>'
+          + '<span class="lang-ar">' + esc(f.ar) + '</span>'
+          + '<b>' + Math.round(f.nucleus_share) + '%<span class="lang-en"> nucleus</span>'
+          + '<span class="lang-ar"> نواة</span></b></div>';
+        var tiles = (f.tongues || []).map(function (t) {
+          var nuc = t.nucleus_share, root = 100 - nuc;
+          return '<div class="tb-t">'
+            + '<div class="tb-name"><span class="lang-en">' + esc(t.en) + '</span>'
+            + '<span class="lang-ar">' + esc(t.ar) + '</span></div>'
+            + '<div class="tb-era"><span class="lang-en">' + esc(t.era_en) + ' · ' + esc(t.script_en) + '</span>'
+            + '<span class="lang-ar">' + esc(t.era_ar) + ' · ' + esc(t.script_ar) + '</span></div>'
+            + '<div class="tb-n">' + N(t.links)
+            + '<span class="lang-en">links</span><span class="lang-ar">صِلة</span></div>'
+            + '<div class="hp-bar"><i class="r" style="width:' + root + '%"></i>'
+            + '<i class="n" style="width:' + nuc + '%"></i></div>'
+            + '<div class="tb-ans"><span class="lang-en">' + esc(t.answers_en) + '</span>'
+            + '<span class="lang-ar">' + esc(t.answers_ar) + '</span></div>'
+            + '<div class="tb-sub"><span class="lang-en">' + N(t.arabic_roots)
+            + (t.arabic_roots === 1 ? ' distinct Arabic root · ' : ' distinct Arabic roots · ')
+            + N(t.branch_words) + (t.branch_words === 1 ? ' word</span>' : ' words</span>')
+            + '<span class="lang-ar">' + N(t.arabic_roots) + ' جَذرًا عَرَبِيًّا مُتَمايِزًا · '
+            + N(t.branch_words) + ' كَلِمة</span></div>'
+            + '</div>';
+        }).join('');
+        return head + '<div class="tb-grid">' + tiles + '</div>';
+      }).join('');
+      var el = document.getElementById('tb-board');
+      if (el && html) el.innerHTML = html;
+    })
+    .catch(function () { /* اللوحةُ زيادةٌ في البيان، فغيابُها لا يُسقِطُ الصفحة */ });
 })();
 </script>
 

@@ -33,6 +33,7 @@ BUILD = [
     ("build_status_snapshot.py", []),
     ("build_lane_b_open_review_queue.py", []),
     ("build_links_showcase.py", []),          # معرضُ صفحةِ الصلات، من البطاقاتِ نفسِها
+    ("build_tongue_board.py", []),            # لوحةُ الألسنِ في الصدرِ وصفحةِ الحالة
     ("build_discoveries.py", []),             # روزنامةُ المرشَّحين، من المسحِ نفسِه
 ]
 
@@ -58,6 +59,7 @@ GATES = [
     # وكلُّ مشتقٍّ لا حارسَ له يبيتُ يومًا ويُوقِفُ الموقع
     ("build_en_ar_bridge.py", ["--check"]),
     ("build_discoveries.py", ["--check"]),
+    ("build_tongue_board.py", ["--check"]),
     # حارسُ قاموسِ الإغلاق: لا يُغلَقُ مرشَّحٌ بقانونٍ لم يُقرِّرْه المؤلّف
     ("check_closure_vocabulary.py", ["--check"]),
 ]
