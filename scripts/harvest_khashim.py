@@ -138,6 +138,67 @@ def mine(path: pathlib.Path, tongue_ar: str, tongue_key: str) -> list[dict]:
     return pairs
 
 
+# ---------------------------------------------- المسحُ الضوئيُّ الجديدُ للكتب
+# **لماذا مِعوَلٌ ثانٍ:** المسحُ القديمُ لكتابِ اللاتينيّةِ كان عربيًّا وحدَه فسقطَ
+# منه كلُّ حرفٍ لاتينيّ (صفرٌ في 234 صفحة)، فلم يبقَ من المدخلِ إلّا جوابُه. وقد
+# أُعيدَ مسحُه بإذنِ المؤلّفِ بمسحٍ يقرأُ الخطَّينِ، فصارَ المدخلُ كاملًا:
+#
+#     drappus
+#     شف ، نسيج ، شاش ، خرقة .
+#     * العربية : أذرب . جاء في (اللسان) تحت هذه المادة : ...
+#
+# فالمدخلُ سطرٌ لاتينيٌّ وحدَه، ويليه معناه بالعربيّة، ثمّ سطرُ الجوابِ الذي
+# يبدأُ بنجمةٍ ثمّ «العربية :» ثمّ الجذرُ ونصُّ معجمِه.
+RX_OCR_HEAD = re.compile(r"^\s*([A-Za-zĀ-ſ][A-Za-zĀ-ſ\-']{2,22})\s*$")
+RX_OCR_ANSWER = re.compile(r"^[\s*·•]*(?:[ء-ي]{0,4}\s*)?العربية\s*[:：]\s*(.+)$")
+
+
+def mine_ocr(md: pathlib.Path, tongue_ar: str, tongue_key: str) -> list[dict]:
+    lines = [clean(x) for x in md.read_text(encoding="utf-8").splitlines()]
+    pairs, seen = [], set()
+    for i, line in enumerate(lines):
+        m = RX_OCR_ANSWER.match(line)
+        if not m:
+            continue
+        ar_side = clean(m.group(1))
+        rm = RX_ROOT.match(ar_side)
+        if not rm:
+            continue
+        root, gloss_ar = rm.group(1), clean(ar_side[rm.end():])
+
+        # المدخلُ اللاتينيُّ في عشرةِ سطورٍ قبلَه، وأقربُها أولى، ومعناه
+        # أوّلُ سطرٍ عربيٍّ بعدَه مباشرةً
+        foreign = foreign_sense = ""
+        for back in range(1, 11):
+            if i - back < 0:
+                break
+            hm = RX_OCR_HEAD.match(lines[i - back])
+            if hm:
+                foreign = hm.group(1)
+                nxt = lines[i - back + 1] if i - back + 1 < len(lines) else ""
+                foreign_sense = nxt[:90] if AR.search(nxt) else ""
+                break
+        if not foreign or len(root) < 2:
+            continue
+        key = (foreign, root)
+        if key in seen:
+            continue
+        seen.add(key)
+        pairs.append({
+            "tongue_ar": tongue_ar, "tongue": tongue_key,
+            "foreign": foreign, "foreign_sense": foreign_sense,
+            "arabic_root": root, "arabic_gloss": gloss_ar[:200],
+            "source": md.parent.name,
+        })
+    return pairs
+
+
+OCR_BOOKS = {
+    "ocr-latin": ("اللاتينيّة", "old-latin"),
+    "ocr-egyptian2": ("المصريّةُ القديمة", "egyptian"),
+}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     if not STORE.exists():
@@ -146,6 +207,13 @@ def main() -> int:
 
     rows: list[dict] = []
     print(f"{'الكتاب':24}{'أزواج':>8}")
+    for folder, (ar, key) in OCR_BOOKS.items():
+        md = STORE / folder / "full.md"
+        if not md.exists():
+            continue
+        got = mine_ocr(md, ar, key)
+        rows.extend(got)
+        print(f"  {folder:24}{len(got):>8}   (مسحٌ جديد)")
     for stem, (ar, key) in BOOKS.items():
         p = STORE / f"{stem}.pdf"
         if not p.exists():
