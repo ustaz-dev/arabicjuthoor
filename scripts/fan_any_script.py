@@ -100,6 +100,9 @@ LATIN_FAN: dict[str, tuple[str, ...]] = {
 }
 LATIN_VOWELS = set("aeiouáéíóúàèìòùâêîôûäëïöüāēīōūåæøœǣœ")
 LATIN_DIGRAPH = ("TH", "CH", "SH", "GH", "KH", "PH", "SC", "CC", "LL", "FF", "DD")
+# لواحقُ الإعرابِ والاشتقاقِ في صيغةِ الاستشهاد، بالأطولِ أوّلًا
+LATIN_ENDINGS = ("ationem", "ation", "ium", "ius", "ion", "um", "us", "is",
+                 "es", "os", "on", "or", "as", "a", "s")
 
 # الفروعُ الجرمانيّةُ نقلَت أصواتَها نقلةً مطّردةً معروفة، فحرفُها h يقابِلُ القافَ
 # والكافَ عندَنا كما في horn وقرن، وهي بطاقةٌ صادرةٌ في المشروعِ أصلًا. فتُوسَّعُ
@@ -143,6 +146,25 @@ PERSIAN_FAN: dict[str, tuple[str, ...]] = {
 }
 PERSIAN_VOWELS = set("اآوی")
 
+# ------------------------------------------- الكلمةُ الأجنبيّةُ مكتوبةً بحرفٍ عربيّ
+# **حالةٌ لم تكنْ مرصودةً فأسقطَت ملفًّا كاملًا:** معجمُ خشيمٍ الأكّاديُّ يكتبُ
+# الكلمةَ الأكّاديّةَ **بحروفٍ عربيّةٍ** لا برومنةٍ لاتينيّة (`شزب` لبنٍ، و`نشك`
+# لعضّ)، ومروحةُ الأكّاديّةِ تنتظرُ رومنةً فتُخرِجُ صفرًا. فسقطَ 346 مرشَّحًا
+# صامتًا بلا إنذار. وهذه مروحةُ الحرفِ العربيِّ إلى نظائرِه في الشبكةِ الساميّة.
+ARABIC_SCRIPT_FAN: dict[str, tuple[str, ...]] = {
+    "ء": ("ء", "ا"), "ا": ("ا", "ء"), "أ": ("ء", "ا"), "إ": ("ء", "ا"), "آ": ("ا", "ء"),
+    "ب": ("ب", "ف"), "ت": ("ت", "ط", "ث"), "ث": ("ث", "ت", "ش", "س"),
+    "ج": ("ج", "ق", "غ", "ك"), "ح": ("ح", "خ", "ه"), "خ": ("خ", "ح", "غ", "ك"),
+    "د": ("د", "ض", "ذ", "ت"), "ذ": ("ذ", "ز", "د", "ظ"), "ر": ("ر", "ل"),
+    "ز": ("ز", "ذ", "ص", "س"), "س": ("س", "ش", "ص", "ث"), "ش": ("ش", "س", "ث"),
+    "ص": ("ص", "س", "ض", "ز"), "ض": ("ض", "د", "ص", "ظ"), "ط": ("ط", "ت", "ظ"),
+    "ظ": ("ظ", "ز", "ط", "ض"), "ع": ("ع", "غ", "ء", "ح"), "غ": ("غ", "ع", "ق", "خ"),
+    "ف": ("ف", "ب"), "ق": ("ق", "ك", "غ", "ج"), "ك": ("ك", "ق", "ج"),
+    "ل": ("ل", "ر"), "م": ("م",), "ن": ("ن",), "ه": ("ه", "ح"),
+    "و": ("و", "ب"), "ي": ("ي", "و"), "ى": ("ي", "ا"), "ة": ("ت", "ه"),
+}
+ARABIC_WEAK = set("اوىءآأإ")
+
 _DIAC_HEB = dict.fromkeys(range(0x0591, 0x05C8))
 FINALS = str.maketrans("ךםןףץ", "כמנפצ")
 
@@ -170,6 +192,9 @@ def detect(text: str) -> str:
         return "gothic"
     if any(c in text for c in "ꜣꜥẖṯḏḳ"):
         return "egyptian"
+    # الكلمةُ الأجنبيّةُ قد تُكتَبُ بحرفٍ عربيٍّ في المعاجمِ العربيّةِ المقارِنة
+    if any("ء" <= c <= "ي" for c in text):
+        return "arabic-script"
     return "akkadian"
 
 
@@ -299,6 +324,11 @@ def skeleton(word: str, script: str | None = None) -> list[str]:
         # الإدغامُ في الكتابةِ لا يُضاعِفُ الصامتَ في الهيكل
         return [c for i, c in enumerate(out) if i == 0 or c != out[i - 1]]
 
+    if script == "arabic-script":
+        w = re.sub(r"[^ء-ي]", "", w)
+        core = [c for c in w if c not in ARABIC_WEAK] or list(w)
+        return core[:4]
+
     if script == "egyptian":
         out, i = [], 0
         keys = sorted(EGYPTIAN_FAN, key=len, reverse=True)
@@ -327,6 +357,7 @@ def skeleton(word: str, script: str | None = None) -> list[str]:
 FANS = {
     "north": NORTH_FAN, "coptic": COPTIC_FAN, "greek": GREEK_FAN,
     "egyptian": EGYPTIAN_FAN, "akkadian": AKKADIAN_FAN,
+    "arabic-script": ARABIC_SCRIPT_FAN,
     "latin": LATIN_FAN, "gothic": GOTHIC_FAN, "germanic": GERMANIC_FAN,
     "persian": PERSIAN_FAN,
 }
@@ -344,21 +375,54 @@ def fan(word: str, script: str | None = None, limit: int = 400,
     """
     script = script or detect(word)
     sk = skeleton(word, script)
-    if not (2 <= len(sk) <= 4):
-        return []
+    # **اللاحقةُ الإعرابيّةُ تُطيلُ الهيكلَ فوقَ الحدِّ فتسقطُ الكلمةُ كلُّها.**
+    # `argentum` هيكلُها r-g-n-t-m بخمسةِ صوامتَ فمروحتُها صفرٌ، وميمُها لاحقةٌ
+    # لا حرفٌ من المادّة. وهي الفصيلةُ نفسُها التي رُئيَت في سينِ `rēx` وفي تاءِ
+    # `עסקתא` وفي لاحقةِ `*-tḗr`. فإن جاوزَ الهيكلُ الحدَّ جُرِّبَ بإسقاطِ لاحقةٍ
+    # واحدةٍ معروفةٍ في لسانِه، **ولا يُسقَطُ شيءٌ ما دامَ الهيكلُ صالحًا كما ورد**.
+    skeletons = [sk]
+    if script in {"latin", "germanic", "greek"}:
+        for end in LATIN_ENDINGS:
+            if word.lower().endswith(end) and len(word) - len(end) >= 2:
+                alt = skeleton(word[: -len(end)], script)
+                if 2 <= len(alt) <= 4 and alt != sk:
+                    skeletons.append(alt)
+                break
+
     table = FANS[script]
-    options = [table.get(c, ()) for c in sk]
-    if any(not o for o in options):
-        return []
-    out = ["".join(c) for c in itertools.islice(itertools.product(*options), limit)]
-    if geminate and len(sk) == 2:
-        seen = set(out)
-        for w in list(out):
-            g = w + w[-1]
-            if g not in seen and len(out) < limit:
-                seen.add(g)
-                out.append(g)
-    return out
+    out: list[str] = []
+    seen: set[str] = set()
+    for s in skeletons:
+        if not (2 <= len(s) <= 4):
+            continue
+        options = [table.get(c, ()) for c in s]
+        if any(not o for o in options):
+            continue
+        for combo in itertools.islice(itertools.product(*options), limit):
+            w = "".join(combo)
+            if w not in seen:
+                seen.add(w)
+                out.append(w)
+        if geminate and len(s) == 2:
+            # **البابُ الأوسعُ الذي كان مغلقًا: المادّةُ المعتلّة.** الجذرُ العربيُّ
+            # الأجوفُ والناقصُ والمثالُ فيه واوٌ أو ياءٌ **لا يقابلُها حرفٌ في
+            # الكلمةِ الأجنبيّةِ لأنّها صائتٌ هناك**: صائتُ `remus` هو ياءُ `رمي`،
+            # وصائتُ `turris` هو واوُ `طور`، وصائتُ `cuppa` هو واوُ `كوب`. فنحن
+            # نطرحُ صوائتَ الفرعِ ثمّ نطلبُ جذرًا صامتيًّا خالصًا، **وثلثُ موادِّ
+            # العربيّةِ معتلّ**. ومعها المضاعَفُ، وكلاهما وجهُ النواةِ الثنائيّةِ
+            # حينَ تصيرُ جذرًا ثلاثيًّا: إمّا كرَّرَت آخرَها وإمّا استعانت بحرفِ علّة.
+            for w in list(out):
+                if len(w) != 2:
+                    continue
+                a, b = w[0], w[1]
+                for cand in (w + w[-1],
+                             a + "و" + b, a + "ي" + b, a + "ا" + b,
+                             w + "و", w + "ي", w + "ا",
+                             "و" + w, "ي" + w):
+                    if cand not in seen and len(out) < limit * 3:
+                        seen.add(cand)
+                        out.append(cand)
+    return out[: limit * 3]
 
 
 if __name__ == "__main__":
