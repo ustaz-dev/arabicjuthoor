@@ -29,6 +29,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fan_any_script as FAN  # noqa: E402
+import harvest_khashim as KH  # noqa: E402
 import search_arabic_root_senses as ARS  # noqa: E402
 
 SOURCE = ROOT / "data" / "khashim-pairs.json"
@@ -36,11 +37,14 @@ READING = ROOT / "04-cross-linguistic" / "readings" / "egyptian.md"
 REPORT_1 = ROOT / "data" / "khashim-egyptian-batch-001.json"
 REPORT_2 = ROOT / "data" / "khashim-egyptian-batch-002.json"
 REPORT_3 = ROOT / "data" / "khashim-egyptian-batch-003.json"
+REPORT_4 = ROOT / "data" / "khashim-egyptian-batch-004.json"
 FAN_AUDIT = ROOT / "04-cross-linguistic" / "egyptian-fan-expansion-audit.md"
 SHIFT_PROPOSALS = ROOT / "04-cross-linguistic" / "proposed-shift-rows-egyptian.md"
 SEMANTIC_AUDIT = ROOT / "05-audits" / "2026-08-11-khashim-egyptian-semantic-bridge-sample.md"
+FINAL_AUDIT = ROOT / "05-audits" / "2026-08-11-egyptian-khashim-harvest.md"
 CORE_LEVELS = ROOT / "data" / "juthoor-core-levels.json"
 RESOURCES = ROOT / "Resources"
+OCR_EGYPTIAN = pathlib.Path.home() / "AI Projects" / "Resources" / "prior-art" / "ocr-egyptian2" / "full.md"
 
 START_1 = "<!-- KHASHIM-EGYPTIAN-BATCH-001:START -->"
 END_1 = "<!-- KHASHIM-EGYPTIAN-BATCH-001:END -->"
@@ -48,10 +52,13 @@ START_2 = "<!-- KHASHIM-EGYPTIAN-BATCH-002:START -->"
 END_2 = "<!-- KHASHIM-EGYPTIAN-BATCH-002:END -->"
 START_3 = "<!-- KHASHIM-EGYPTIAN-BATCH-003:START -->"
 END_3 = "<!-- KHASHIM-EGYPTIAN-BATCH-003:END -->"
+START_4 = "<!-- KHASHIM-EGYPTIAN-BATCH-004:START -->"
+END_4 = "<!-- KHASHIM-EGYPTIAN-BATCH-004:END -->"
 BOOK = "علي فهمي خشيم، «البرهان على عروبة اللغة المصرية القديمة»"
 FIRST_BATCH_SIZE = 120
 SECOND_BATCH_SIZE = 200
 THIRD_BATCH_SIZE = 250
+FOURTH_BATCH_SIZE = 368
 
 AR_MARKS = re.compile(r"[\u064b-\u0652ـ]")
 AR_TOKEN = re.compile(r"[ء-ي]{2,16}")
@@ -74,6 +81,51 @@ ENGLISH_HEADS = {
     "region", "bare", "gether", "kohl", "ing",
 }
 
+# استردادٌ مباشرٌ من ``ocr-egyptian2/full.md`` لا تخمينٌ من الجذر العربي.
+# الخمسون الأولى هي الصفوف التي سمّاها أمر المؤلف؛ وبعد مقابلتها ظهر في الجرد
+# الآلي أثر الانكسار نفسه في استمرار صفوف أخرى، فأصلحنا ما ثبت رأسه نصًّا وتركنا
+# الباقي مفتوحًا. يتحقق ``apply_ocr_head_recoveries`` من وجود الرأس في الأسطر
+# السابقة للصف نفسه، ويفشل البناء إن تحرك المصدر أو لم يعد الرأس هناك.
+OCR_NAMED_FIFTY: dict[int, str] = {
+    0: "ark-t", 10: "agb", 14: "áabi", 15: "áab", 16: "åama",
+    17: "åanob", 18: "åaru", 19: "áakhu-t sheta-t", 20: "áakhuit",
+    21: "áakhuit", 23: "áash", 25: "āārārut", 30: "åurekhu",
+    34: "áun", 39: "ἀρ-τ", 40: "ἀρ-τ", 43: "ásiási", 44: "ásfekk-t",
+    54: "aqet", 58: "àther", 71: "baka-t", 88: "beshu", 90: "beq",
+    95: "beka", 106: "bet", 113: "tur", 114: "teb", 119: "tem",
+    120: "temiu", 123: "terp", 124: "terf", 125: "tehenn",
+    126: "tehen", 129: "thar", 135: "gemh", 138: "hati",
+    142: "ḥaq-t", 144: "ḥāb-t", 145: "hebnen-t", 147: "hebs-t",
+    150: "hefau", 154: "heft", 169: "henu", 192: "hes",
+    196: "hesb-t", 198: "ḥesb-t", 201: "hesqeq", 202: "hesq-t",
+    208: "ḥeka", 209: "ḥeka",
+}
+
+OCR_ADDITIONAL_RECOVERIES: dict[int, str] = {
+    226: "khe-t", 254: "khenn", 255: "kheni", 256: "khen",
+    257: "khenâ", 263: "khnem-t", 266: "khenti", 268: "khent",
+    269: "khent", 274: "kheru", 283: "khetem-t", 284: "khetem",
+    294: "khatheb", 302: "tuâ", 305: "ṭemṭ-t", 306: "ṭen",
+    308: "tenhtenh", 311: "teha", 313: "tehan", 347: "s-am",
+    351: "saq", 365: "surâ", 369: "sebā", 392: "sená",
+    454: "sfi", 458: "s-fekhfekh", 467: "s-menkh", 482: "sent",
+    485: "sent", 494: "s-netchem", 509: "seshem", 515: "s-shemm",
+    534: "shab-t", 537: "shub", 538: "shebsheb", 539: "shofit",
+    542: "shmāi", 547: "shnā", 555: "shta-t", 558: "shtai-t",
+    564: "āapi", 601: "āsh", 626: "qi", 627: "qebh",
+    631: "qená-t", 632: "qen-t", 636: "kap", 637: "kap-t",
+    655: "kefa", 656: "kefā", 663: "kes", 670: "maár",
+    674: "mārīna", 675: "mārḥu", 683: "men", 684: "men",
+    686: "men-t", 691: "meni-t", 741: "metcha", 744: "nabenu",
+    774: "nems", 775: "nemta", 776: "nemta", 779: "neru",
+    781: "nehemhem", 791: "nesh", 795: "neshnesh", 816: "neken",
+    817: "nekenit", 818: "negaga", 840: "netches", 850: "habq",
+    852: "han", 863: "hen", 865: "henen", 866: "heri",
+    867: "herut", 871: "uai", 883: "uas", 893: "uāāu",
+    916: "uhen", 919: "user", 921: "userit", 925: "usheb",
+    926: "usheb-t",
+}
+
 # أمثلة المؤلف في أمر الدفعة تصحح موضع الجذر الذي شوّهه حقل رأس الجواب في
 # الاستخراج. لا يعفي التصحيح من المروحة ولا يمنح حكمًا.
 AUTHOR_EXAMPLES = {
@@ -82,6 +134,10 @@ AUTHOR_EXAMPLES = {
     "ḥai-t": "حيا",
     "qars-t": "قرس",
 }
+
+# يعلو هذا التصحيح على جذر تقرير تجريبي محفوظ؛ وحدة المقارنة هنا نواة `هن`
+# التي سمّاها شرح خشيم نفسه، لا الصيغة الضعيفة `هنا` التي فضّلها الفهرس آليًا.
+FINAL_ROOT_OVERRIDES = {863: "هن"}
 
 # في مثال المؤلف الصريح `āamāq→عمق` تمثل ā الأولى العين، وأما ā الداخلية
 # فحركة رومنة. لا نعمم هذا الفصل الملتبس على سائر رؤوس بدج؛ نسميه هنا كما
@@ -144,6 +200,11 @@ QUOTE_OVERRIDES = {
     761: "واسْتَنارَ عليه: ظَفِرَ به وغلبه.",
     792: "ونَشَّشْت الجلد إذا أسرعتَ سلخَه وقطعته عن اللحم.",
     897: "واسْتَوْعَبَ المكانُ والوِعاءُ الشيءَ: وَسِعَه. وبيتٌ وِعاءٌ: واسعٌ يستوعب كلَّ ما جُعل فيه.",
+    106: "والبَيْتُ: المَسْكَنُ، ويقع على الصغير والكبير.",
+    284: "خَتَمَه يَخْتِمُه خَتْماً: طَبَعَه، فهو مَختوم ومُخَتَّم.",
+    351: "وساقَ الماشيةَ يَسوقُها سَوْقاً وسِياقاً، فهو سائقٌ؛ واستاقها فانساقت.",
+    636: "والكِباءُ ممدودٌ فهو البَخورُ، وقد كَبَّى ثوبَه، بالتشديد، أي بَخَّرَه.",
+    637: "وكَبَتِ النارُ إذا غطّاها الرمادُ والجمرُ تحتَه.",
 }
 
 # المدار حكم قراءة، لا تقاطع آلي بين نصين. كل سطر هنا جملة كتبها القارئ بعد
@@ -180,6 +241,14 @@ HUMAN_ORBITS: dict[int, tuple[str, str]] = {
     806: ("نقر", "الدقيق والمسحوق نتيجة نقر الرحى والحجر وتفتيتهما؛ فالمدار انتقال المادة بالضرب إلى دقائق."),
     860: ("هم", "النار والحرارة تذيبان ما تمسانه، وحدث النواة `هم` هو التسيب والذوبان؛ فالمدار أثر الحرارة في الجسم."),
     897: ("وعب", "الوعاء في بدج يسع الماء، والاستيعاب في العربية سعة الوعاء لما جعل فيه؛ فالمدار وظيفة الاحتواء."),
+    106: ("بيت", "المكانُ والموطنُ القديمُ في بدج هما البيتُ الذي يسمّيه النصُّ العربيُّ مسكنًا؛ فالمدار مباشر."),
+    284: ("ختم", "الخبزُ الموسومُ في بدج يحمل أثرَ الختم، والعربيةُ تسمّي طبعَ الشيءِ ختمًا؛ فالمدار مباشر."),
+    351: ("سوق", "الجمعُ في بدج ضمٌّ لأفرادٍ، وسوقُ الماشية في العربية يجمعها في حركةٍ واحدةٍ إلى جهة؛ فالمدار تجميعٌ موجَّه."),
+    636: ("كبا", "التعطيرُ والتبخيرُ في بدج هما بعينهما تبخيرُ الثوب بالكِباء في النص العربي؛ فالمدار مباشر."),
+    637: ("كبا", "الفرنُ موضعُ النار والجمر، والنص العربي يسمّي النارَ التي غطّاها الرماد والجمرُ تحتها؛ فالمدار موضعُ الحرارة المحفوظة."),
+    683: ("من", "الدوامُ والثباتُ في بدج يطابقان حدثَ النواة `من`: القوةَ والثبات؛ فالمدار مباشر."),
+    684: ("من", "البقاءُ والرسوخُ في بدج هما وجهُ الثبات نفسه في حدث النواة `من`؛ فالمدار مباشر."),
+    863: ("هن", "النعشُ والتابوتُ والصندوقُ أوعيةٌ تضم ما في باطنها، وحدث النواة `هن` هو المتجمع في الباطن؛ فالمدار الاحتواء الداخلي."),
 }
 
 LEGACY_POSITIVE_INDICES = {67, 68, 99, 363, 364, 385, 424, 459, 650, 806}
@@ -303,11 +372,12 @@ def scan_defect(row: dict[str, Any]) -> list[str]:
     sense = row["foreign_sense"]
     glyphs = glyph_chars(row.get("glyphs", ""))
     reasons: list[str] = []
-    if " " in foreign:
+    recovered_head = bool(row.get("ocr_recovery"))
+    if " " in foreign and not recovered_head:
         reasons.append("رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية")
-    if (foreign.lower() in ENGLISH_HEADS
+    if (not recovered_head and (foreign.lower() in ENGLISH_HEADS
             or (len(foreign) >= 4 and foreign.lower() in GLOBAL_ENGLISH_WORDS)
-            or re.match(r"^(?:a|an|the|to)\s", foreign, re.I)):
+            or re.match(r"^(?:a|an|the|to)\s", foreign, re.I))):
         reasons.append("الرأس إنجليزي لا رومنة مصرية")
     if len(glyphs) >= 2 and len(set(glyphs)) == 1:
         reasons.append("رمز هيروغليفي واحد مكرر بخلل المسح")
@@ -329,6 +399,99 @@ def scan_defect(row: dict[str, Any]) -> list[str]:
             or not (content & GLOBAL_ENGLISH_WORDS)):
         reasons.append("المعنى الإنجليزي لم يسلم من المسح")
     return reasons
+
+
+def apply_ocr_head_recoveries(rows: list[dict[str, Any]]) -> tuple[
+        list[dict[str, Any]], dict[str, int]]:
+    """استردّ الرؤوس المنكسرة من موضع الصف نفسه في مسح الكتاب الكامل."""
+    if len(OCR_NAMED_FIFTY) != 50:
+        raise SystemExit(f"تغيّر جرد الخمسين المسماة: {len(OCR_NAMED_FIFTY)}")
+    overlap = set(OCR_NAMED_FIFTY) & set(OCR_ADDITIONAL_RECOVERIES)
+    if overlap:
+        raise SystemExit(f"تداخل جردا استرداد OCR: {sorted(overlap)}")
+    if not OCR_EGYPTIAN.exists():
+        raise SystemExit(f"غاب مسح المصرية المطلوب للمقابلة المباشرة: {OCR_EGYPTIAN}")
+
+    source_lines = [line.strip() for line in OCR_EGYPTIAN.read_text(encoding="utf-8").splitlines()]
+    located: list[tuple[int, str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for line_no, line in enumerate(source_lines):
+        if KH.AR.search(line):
+            continue
+        match = KH.RX_EG_ENTRY.match(line)
+        if not match:
+            continue
+        foreign = KH.clean(match.group(1))
+        english = KH.clean(KH.RX_REFS.sub("", match.group(3)))
+        if len(foreign) < 2 or len(english) < 4:
+            continue
+        for forward in (1, 2, 3):
+            if line_no + forward >= len(source_lines):
+                break
+            answer = KH.RX_EG_ANSWER.match(source_lines[line_no + forward])
+            if not answer:
+                continue
+            arabic = KH.bare_ar(KH.clean(answer.group(1))).replace("/", "")
+            if len(re.sub(r"[^ء-ي]", "", arabic)) < 2:
+                break
+            key = (foreign, arabic)
+            if key in seen:
+                break
+            seen.add(key)
+            located.append((line_no, foreign, arabic))
+            break
+    if len(located) != len(rows):
+        raise SystemExit(f"اختل رد صفوف المسح إلى الجرد: {len(located)} من {len(rows)}")
+
+    recoveries = {**OCR_NAMED_FIFTY, **OCR_ADDITIONAL_RECOVERIES}
+    repaired: list[dict[str, Any]] = []
+    for index, (row, source) in enumerate(zip(rows, located)):
+        source_line, mined_foreign, mined_arabic = source
+        if row["foreign"] != mined_foreign or row["arabic_root"] != mined_arabic:
+            raise SystemExit(
+                f"اختل رصف صف OCR {index}: "
+                f"{row['foreign']}/{row['arabic_root']} != {mined_foreign}/{mined_arabic}"
+            )
+        recovered = recoveries.get(index)
+        if not recovered:
+            repaired.append(dict(row))
+            continue
+        context_start = max(0, source_line - 40)
+        context = "\n".join(source_lines[context_start:source_line + 1]).casefold()
+        if recovered.casefold() not in context:
+            raise SystemExit(
+                f"الرأس المسترد `{recovered}` لا يقع قبل صف OCR {index} "
+                f"(سطر المصدر {source_line + 1})"
+            )
+        old_head = row["foreign"]
+        old_sense = row["foreign_sense"]
+        full_sense = old_sense
+        if old_head.casefold() not in old_sense.casefold():
+            full_sense = f"{old_head}, {old_sense}".strip(" ,")
+        repaired.append({
+            **row,
+            "foreign": recovered,
+            "foreign_sense": full_sense,
+            "ocr_recovery": {
+                "old_head": old_head,
+                "source_line": source_line + 1,
+                "scope": "الخمسون المسماة" if index in OCR_NAMED_FIFTY else "استمرار الخلل نفسه",
+            },
+        })
+
+    remaining_named = [
+        index for index in OCR_NAMED_FIFTY
+        if repaired[index].get("ocr_recovery") is None
+    ]
+    if remaining_named:
+        raise SystemExit(f"لم تسترد رؤوس من الخمسين المسماة: {remaining_named}")
+    return repaired, {
+        "named_english_heads": len(OCR_NAMED_FIFTY),
+        "named_recovered": len(OCR_NAMED_FIFTY) - len(remaining_named),
+        "named_unrecovered": len(remaining_named),
+        "additional_recovered": len(OCR_ADDITIONAL_RECOVERIES),
+        "all_recovered": len(recoveries),
+    }
 
 
 def morphology(row: dict[str, Any]) -> tuple[str, str, str]:
@@ -386,6 +549,18 @@ def candidate_tokens(row: dict[str, Any], morphology_map: dict[str, set[str]],
             seen.add(root)
             expanded.append((root, source, pos))
     return expanded
+
+
+def fallback_candidate(row: dict[str, Any]) -> tuple[str, str, int]:
+    """احفظ مرشح خشيم حتى إن غاب من فهرس الأداة؛ الغياب لا يسقط البطاقة."""
+    for field, label in (
+        (row.get("arabic_root", ""), "حقل `arabic_root` الخام غير المفهرس"),
+        (row.get("arabic_gloss", ""), "أول مادة عربية في شرح خشيم غير المفهرس"),
+    ):
+        tokens = AR_TOKEN.findall(ar_bare(str(field)))
+        if tokens:
+            return tokens[0], label, 999
+    return "غيرمستخرج", "تعذر استخراج مادة عربية من صف خشيم", 999
 
 
 def preferred_lexicon(matches: list[dict[str, Any]]) -> dict[str, Any] | None:
@@ -505,8 +680,6 @@ def evaluate_rows(rows: list[dict[str, Any]],
     root_inventory = set(bridge)
     morph = load_morphology()
     root_inventory.update(root for values in morph.values() for root in values)
-    old_heads = existing_heads()
-
     defects: list[dict[str, Any]] = []
     pool: list[dict[str, Any]] = []
     all_roots: set[str] = set()
@@ -514,14 +687,6 @@ def evaluate_rows(rows: list[dict[str, Any]],
         reasons = scan_defect(row)
         if reasons:
             defects.append({"index": index, "foreign": row["foreign"], "reasons": reasons})
-        # العضوية المودعة تُعاد كما هي ولو كشف الإصلاح أن الرأس أحاديّ الصامت
-        # (مثل `kha` بعدما صار `kh` رمزًا واحدًا). أمّا الحصاد الجديد فيبقى
-        # مقصورًا على هياكل 2--4 صوامت.
-        if (index not in forced_roots
-                and not (2 <= len(FAN.skeleton(row["foreign"], "egyptian")) <= 4)):
-            continue
-        if row["foreign"] in old_heads and index not in forced_roots:
-            continue
         stem, stripping, raw_skeleton = morphology(row)
         raw_fan = FAN.fan(row["foreign"], "egyptian", limit=400)
         stem_fan = FAN.fan(stem, "egyptian", limit=400)
@@ -530,7 +695,7 @@ def evaluate_rows(rows: list[dict[str, Any]],
         if forced_root and forced_root not in {root for root, _, _ in candidates}:
             candidates.insert(0, (forced_root, "الجذر المحفوظ في سجل الدفعة المودعة", 0))
         if not candidates:
-            continue
+            candidates = [fallback_candidate(row)]
         for root, _, _ in candidates:
             all_roots.add(root)
             if root in LEXICON_ALIASES:
@@ -586,9 +751,9 @@ def evaluate_rows(rows: list[dict[str, Any]],
 
 def choose_batches(rows: list[dict[str, Any]]) -> tuple[
         list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]],
-        list[dict[str, Any]], list[dict[str, Any]]]:
+        list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     prior_reports = []
-    for path in (REPORT_1, REPORT_2, REPORT_3):
+    for path in (REPORT_1, REPORT_2, REPORT_3, REPORT_4):
         prior_reports.append(
             json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"rows": []}
         )
@@ -596,6 +761,7 @@ def choose_batches(rows: list[dict[str, Any]]) -> tuple[
         int(row["index"]): str(row["root"])
         for report in prior_reports for row in report.get("rows", [])
     }
+    prior_roots.update(FINAL_ROOT_OVERRIDES)
     pool, defects = evaluate_rows(rows, prior_roots)
     by_index = {item["index"]: item for item in pool}
 
@@ -645,10 +811,20 @@ def choose_batches(rows: list[dict[str, Any]]) -> tuple[
         third = [item for item in pool if item["index"] not in used_ids][:THIRD_BATCH_SIZE]
     if len(third) != THIRD_BATCH_SIZE:
         raise SystemExit(f"لم تبلغ الدفعة الثالثة {THIRD_BATCH_SIZE}: المتاح {len(third)}")
+    used_ids.update(item["index"] for item in third)
+    fourth = restore(prior_reports[3], FOURTH_BATCH_SIZE, "004")
+    if not fourth:
+        fourth = [item for item in pool if item["index"] not in used_ids]
+    if len(fourth) != FOURTH_BATCH_SIZE:
+        raise SystemExit(f"لم تبلغ الدفعة الرابعة {FOURTH_BATCH_SIZE}: المتاح {len(fourth)}")
+    all_ids = [item["index"] for batch in (first, second, third, fourth) for item in batch]
+    if len(all_ids) != len(set(all_ids)) or set(all_ids) != set(range(len(rows))):
+        raise SystemExit("لم تغط الدفعات الأربع صفوف المصرية الـ938 مرة واحدة")
     first.sort(key=lambda x: (-x["score"], x["index"]))
     second.sort(key=lambda x: (-x["score"], x["index"]))
     third.sort(key=lambda x: (-x["score"], x["index"]))
-    return first, second, third, defects, pool
+    fourth.sort(key=lambda x: x["index"])
+    return first, second, third, fourth, defects, pool
 
 
 def fan_text(values: list[str]) -> str:
@@ -784,6 +960,11 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
         f"- الكلمةُ في الفرع: `{row['foreign']}`؛ الرمز المنقول `{glyphs}`؛ الرومنة من بدج كما نقلها خشيم.",
         f"- أقدمُ صورةٍ مستعادة: لا تُدّعى صورة أقدم من رومنة بدج المنقولة في {BOOK}؛ "
         "الصف من `data/khashim-pairs.json` ومصدره `ocr-egyptian2`.",
+        (f"- استردادُ رأس OCR: كان الحقل المنكسر `{row['ocr_recovery']['old_head']}`، "
+         f"واستُردّ `{row['foreign']}` من السطر {row['ocr_recovery']['source_line']} في "
+         "`Resources/prior-art/ocr-egyptian2/full.md` مباشرةً."
+         if row.get("ocr_recovery") else
+         "- استردادُ رأس OCR: لا استرداد مسجل لهذا الصف؛ الرأس هو حقل الحصاد الخام."),
         f"- سلامةُ صف المسح: {scan_status}؛ العيب، إن وُجد، يفتح المقابلة ولا يُسقط المرشح.",
         f"- الخطوةُ صفر (التعرية بصرف الفرع): {item['stripping']}؛ صوامت الرأس كاملة "
         f"`{raw_skeleton}` ← اللب `{stem_skeleton}`.",
@@ -834,6 +1015,7 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
         "closure": closure, "verdict": degree if positive else None,
         "sound_rows": chosen["sound_rows"], "sound_misses": chosen["sound_misses"],
         "scan_reasons": item["scan_reasons"], "open_reasons": obstacles,
+        "ocr_recovery": row.get("ocr_recovery"),
     }
     return "\n".join(lines), summary
 
@@ -1042,7 +1224,7 @@ def artifact_section() -> list[str]:
 
 
 def write_expansion_audits(first: list[dict[str, Any]], second: list[dict[str, Any]],
-                           third: list[dict[str, Any]],
+                           third: list[dict[str, Any]], fourth: list[dict[str, Any]],
                            fan_stats: dict[str, int]) -> None:
     fan_missing, fan_examples, fan_unaligned = audit_fan_gaps(first)
     fan_lines = [
@@ -1059,10 +1241,12 @@ def write_expansion_audits(first: list[dict[str, Any]], second: list[dict[str, A
         f"وكان السجل المعيب {fan_stats['batch_002_chosen_in_faulty_fan']} من 200.",
         f"- الدفعة 003: {fan_stats['batch_003_chosen_in_corrected_fan']} من 250؛ "
         f"وكان السجل المعيب {fan_stats['batch_003_chosen_in_faulty_fan']} من 250.",
-        f"- مجموع الدفعات الثلاث: "
-        f"{sum(fan_stats[f'batch_{number:03d}_chosen_in_corrected_fan'] for number in (1, 2, 3))} "
-        f"من {len(first) + len(second) + len(third)}؛ وبقي خارج المروحة "
-        f"{len(first) + len(second) + len(third) - sum(fan_stats[f'batch_{number:03d}_chosen_in_corrected_fan'] for number in (1, 2, 3))} بطاقة.",
+        f"- الدفعة 004: {fan_stats['batch_004_chosen_in_corrected_fan']} من 368؛ "
+        f"وكان السجل المعيب {fan_stats['batch_004_chosen_in_faulty_fan']} من 368.",
+        f"- مجموع الدفعات الأربع: "
+        f"{sum(fan_stats[f'batch_{number:03d}_chosen_in_corrected_fan'] for number in (1, 2, 3, 4))} "
+        f"من {len(first) + len(second) + len(third) + len(fourth)}؛ وبقي خارج المروحة "
+        f"{len(first) + len(second) + len(third) + len(fourth) - sum(fan_stats[f'batch_{number:03d}_chosen_in_corrected_fan'] for number in (1, 2, 3, 4))} بطاقة.",
         f"- بعد اشتراط مرساة صحيحة وعدم اقتراح أكثر من نقلة مجهولة من زوج واحد: "
         f"{sum(fan_missing.values())} شاهدًا في {len(fan_missing)} زوجًا فقط.",
         "- `h→ر` مشطوب كلّه؛ أمّا `h→ح` فباقٍ في المروحة بشواهده السليمة.",
@@ -1180,7 +1364,7 @@ def write_semantic_audit(batch_rows: list[list[dict[str, Any]]]) -> None:
     by_index = {row["index"]: (batch_no, row) for batch_no, row in all_rows}
     missing = sorted(set(HUMAN_ORBITS) - set(by_index))
     if missing:
-        raise SystemExit(f"غابت مدارات يدوية من عضوية البطاقات الـ570: {missing}")
+        raise SystemExit(f"غابت مدارات يدوية من عضوية البطاقات الـ938: {missing}")
 
     positives = [(batch_no, row) for batch_no, row in all_rows if row["verdict"]]
     if any(not row.get("human_orbit") for _, row in positives):
@@ -1230,7 +1414,7 @@ def write_semantic_audit(batch_rows: list[list[dict[str, Any]]]) -> None:
         "",
         f"- البطاقات المعاد حكمها: {len(all_rows)}.",
         f"- الصلات الصادرة: {len(positives)}؛ الدفعة 001 = {batch_counts[1]}، "
-        f"002 = {batch_counts[2]}، 003 = {batch_counts[3]}.",
+        f"002 = {batch_counts[2]}، 003 = {batch_counts[3]}، 004 = {batch_counts[4]}.",
         f"- الصلات الجديدة قياسًا إلى العشرة السابقة: {len(new_positive)}.",
         f"- بقي مفتوحًا: {len(all_rows) - len(positives)}.",
         f"- من الموجبات: {nucleus_positives} أحكام نواة من حدث السجل المجمد، و"
@@ -1269,6 +1453,102 @@ def write_semantic_audit(batch_rows: list[list[dict[str, Any]]]) -> None:
     SEMANTIC_AUDIT.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
+def write_final_audit(batch_rows: list[list[dict[str, Any]]],
+                      ocr_stats: dict[str, int]) -> None:
+    rows = [row for batch in batch_rows for row in batch]
+    positives = [(batch_no, row) for batch_no, batch in enumerate(batch_rows, 1)
+                 for row in batch if row["verdict"]]
+    opens = [row for row in rows if not row["verdict"]]
+    if len(rows) != 938 or len(positives) + len(opens) != 938:
+        raise SystemExit("اختل جرد المحضر النهائي")
+    reasons = Counter(reason for row in opens for reason in row["open_reasons"])
+    weak = sum(any("باب المعتل" in item for item in row["sound_rows"])
+               for _, row in positives)
+    geminate = sum(any("باب المضاعف" in item for item in row["sound_rows"])
+                   for _, row in positives)
+    suffix = sum(row["root_in_stem_fan"] and not row["root_in_raw_fan"]
+                 for _, row in positives)
+    prior_positive = sum(bool(row["verdict"]) for row in rows[:570])
+    final_positive = sum(bool(row["verdict"]) for row in rows)
+    if prior_positive != 30:
+        raise SystemExit(f"تغيّرت حصيلة إعادة الدفعات الثلاث: {prior_positive}")
+
+    lines = [
+        "# مَحْضَرُ حَصَادِ خَشِيمٍ لِلْمِصْرِيَّةِ القَدِيمَةِ",
+        "",
+        "**التَّارِيخُ:** ٢٠٢٦-٠٨-١١.  ",
+        "**الطَّبَقَةُ:** اِسْتِكْشَافٌ بِمِيثَاقِ الأَرْجُلِ الثَّلَاثِ.",
+        "",
+        "## الجَرْدُ الكَامِلُ",
+        "",
+        f"- المُرَشَّحَاتُ: **{len(rows)}** مُرَشَّحًا مِنْ كِتَابِ خَشِيمٍ.",
+        f"- البِطَاقَاتُ: **{len(rows)}** بِطَاقَةً؛ أَيْ تَغْطِيَةُ **938/938** بِلَا إِسْقَاطٍ.",
+        f"- الصِّلَاتُ المُوجَبَةُ: **{final_positive}** صِلَةً؛ مِنْهَا **8** فِي الدُّفْعَةِ الأَخِيرَةِ.",
+        f"- المَفْتُوحُ: **{len(opens)}** بِطَاقَةً؛ وَالفَتْحُ حِفْظٌ لِلْمُرَشَّحِ لَا حُكْمٌ سَلْبِيٌّ عَلَيْهِ.",
+        "- حَصِيلَةُ فَرْعِ المِصْرِيَّةِ فِي المَشْرُوعِ: **125 ← 155 ← 163**.",
+        "",
+        "## اِسْتِرْدَادُ رُؤُوسِ المَسْحِ",
+        "",
+        f"قُوبِلَتِ الخَمْسُونَ المَسَمَّاةُ بِـ`Resources/prior-art/ocr-egyptian2/full.md` "
+        f"مُبَاشَرَةً: اُسْتُرِدَّ **{ocr_stats['named_recovered']}/50**، وَبَقِيَ مِنْهَا "
+        f"غَيْرُ مُسْتَرَدٍّ **{ocr_stats['named_unrecovered']}**. وَكَشَفَتِ المُقَابَلَةُ "
+        f"اِسْتِمْرَارَ الخَلَلِ نَفْسِهِ، فَأُصْلِحَ **{ocr_stats['additional_recovered']}** "
+        "رَأْسًا إِضَافِيًّا ثَبَتَ نَطْقُهُ فِي السِّيَاقِ نَفْسِهِ.",
+        "",
+        "## إِعَادَةُ حُكْمِ الدُّفَعِ الثَّلَاثِ",
+        "",
+        "أُعِيدَتِ البِطَاقَاتُ الـ570 نَفْسُهَا بِالمِرْوَحَةِ المُوَسَّعَةِ وَبِشَرْطِ "
+        "ثَلَاثِ أَرْجُلٍ لَا أَرْبَعٍ. كَانَتِ الحَصِيلَةُ القَدِيمَةُ **10**، وَصَارَتْ "
+        f"**{prior_positive}**؛ فَالفَرْقُ **+{prior_positive - 10}** صِلَةً، مِنْ غَيْرِ "
+        "تَغْيِيرٍ فِي عُضْوِيَّةِ الدُّفَعِ.",
+        "",
+        "## الأَبْوَابُ الأَرْبَعَةُ الَّتِي فُتِحَتِ اليَوْمَ",
+        "",
+        "| البَابُ | أَثَرُهُ العَدَدِيُّ |",
+        "|---|---:|",
+        f"| إِسْقَاطُ الرِّجْلِ الرَّابِعَةِ المَصْنُوعَةِ | 10 ← 30؛ أَيْ **+20** فِي الدُّفَعِ الثَّلَاثِ |",
+        f"| بَابُ المُعْتَلِّ | **{weak}** صِلَاتٍ مُوجَبَةٍ تَمُرُّ بِهِ |",
+        f"| بَابُ المُضَاعَفِ | **{geminate}** صِلَاتٍ مُوجَبَةٍ تَمُرُّ بِهِ |",
+        f"| بَابُ اللَّاحِقَةِ الإِعْرَابِيَّةِ | **{suffix}** مِنَ الصِّلَاتِ المُوجَبَةِ تَمُرُّ بِهِ |",
+        "",
+        "هَذِهِ الأَعْدَادُ مُتَدَاخِلَةٌ؛ فَقَدْ تَمُرُّ الصِّلَةُ الوَاحِدَةُ بِأَكْثَرَ مِنْ بَابٍ.",
+        "",
+        "## أَسْبَابُ بَقَاءِ البِطَاقَاتِ مَفْتُوحَةً",
+        "",
+        "الأَسْبَابُ مُتَدَاخِلَةٌ، وَلِذَلِكَ يَجُوزُ أَنْ يَزِيدَ مَجْمُوعُهَا عَلَى "
+        f"عَدَدِ البِطَاقَاتِ المَفْتُوحَةِ ({len(opens)}).",
+        "",
+        "| السَّبَبُ | العَدَدُ |",
+        "|---|---:|",
+    ]
+    for reason, count in reasons.most_common():
+        lines.append(f"| {reason} | {count} |")
+    lines.extend([
+        "",
+        "## قَائِمَةُ الأَزْوَاجِ المُوجَبَةِ كُلِّهَا",
+        "",
+        "| # | الدُّفْعَةُ/العُضْوُ | النُّطْقُ المِصْرِيُّ | المَعْنَى عِنْدَ بَدْجٍ | المُقَابِلُ العَرَبِيُّ | المَدَارُ المَكْتُوبُ |",
+        "|---:|---|---|---|---|---|",
+    ])
+    for number, (batch_no, row) in enumerate(positives, 1):
+        sense = str(row["sense"]).replace("|", "\\|")
+        orbit = str(row["human_orbit"]).replace("|", "\\|")
+        lines.append(
+            f"| {number} | {batch_no:03d}/{row['index']:03d} | `{row['foreign']}` | "
+            f"{sense} | `{row['root']}` | {orbit} |"
+        )
+    lines.extend([
+        "",
+        "## خَاتِمَةُ الجَرْدِ",
+        "",
+        "اِنْتَهَى جَرْدُ خَشِيمٍ المِصْرِيُّ: لَا مُرَشَّحَ بِلَا بِطَاقَةٍ، وَلَا حُكْمَ "
+        "مُوجَبًا بِلَا مَسَارٍ صَوْتِيٍّ مُسَمًّى، وَحَدَثٍ عَرَبِيٍّ مِنَ السِّجِلِّ "
+        "المُجَمَّدِ، وَمَعْنًى مِنْ قَامُوسِ الفَرْعِ مَعَ مَدَارٍ مَكْتُوبٍ.",
+        "",
+    ])
+    FINAL_AUDIT.write_text("\n".join(lines), encoding="utf-8", newline="\n")
+
+
 def replace_batch(text: str, start: str, end: str, block: str) -> str:
     if start in text and end in text:
         before, rest = text.split(start, 1)
@@ -1285,9 +1565,10 @@ def main() -> int:
     rows = [row for row in payload["rows"] if row.get("tongue") == "egyptian"]
     if len(rows) != 938:
         raise SystemExit(f"تغيّر جرد المصرية: {len(rows)}، والمتوقع 938")
-    first, second, third, defects, pool = choose_batches(rows)
-    fan_stats = all_rows_fan_audit(rows, pool, [first, second, third])
-    write_expansion_audits(first, second, third, fan_stats)
+    rows, ocr_stats = apply_ocr_head_recoveries(rows)
+    first, second, third, fourth, defects, pool = choose_batches(rows)
+    fan_stats = all_rows_fan_audit(rows, pool, [first, second, third, fourth])
+    write_expansion_audits(first, second, third, fourth, fan_stats)
 
     def render_batch(selected: list[dict[str, Any]], batch_no: int,
                      start: str, end: str) -> tuple[str, list[dict[str, Any]]]:
@@ -1316,7 +1597,7 @@ def main() -> int:
                 "والشبكة والنص المعجمي والحكم من أدوات المشروع."
             )
             title = "## حصادُ خشيم المصري، الدفعة الثانية (2026-08-11)"
-        else:
+        elif batch_no == 3:
             scan_open = sum(bool(item["scan_reasons"]) for item in selected)
             scope = (
                 f"هذه 250 بطاقة جديدة بعد عضويتي 001 و002. لم يبق إلا "
@@ -1327,6 +1608,15 @@ def main() -> int:
                 "والمروحة والشبكة والنص المعجمي والحكم من أدوات المشروع."
             )
             title = "## حصادُ خشيم المصري، الدفعة الثالثة (250 بطاقة؛ 2026-08-11)"
+        else:
+            recovered = sum(bool(item["row"].get("ocr_recovery")) for item in selected)
+            scope = (
+                f"هذه هي البطاقات الـ368 الباقية من جرد الـ938، بلا انتقاء موجب. "
+                f"استُردّ في عضويتها {recovered} رأسًا من مسح الكتاب الكامل مباشرةً، "
+                "ودخل كل صف آخر بطاقة مفتوحة بعائقه المسمى؛ لم يسقط غياب المادة من "
+                "فهرس الأداة أي مرشح من الجرد."
+            )
+            title = "## حصادُ خشيم المصري، الدفعة الرابعة والأخيرة (368 بطاقة؛ 2026-08-11)"
         section = [
             start, title, "", "**بيان النطاق.** " + scope, "",
             "**تصحيح الشرط.** شرط الاستكشاف ثلاث أرجل: الصوت؛ والحدث من السجل "
@@ -1348,11 +1638,14 @@ def main() -> int:
     first_block, first_rows = render_batch(first, 1, START_1, END_1)
     second_block, second_rows = render_batch(second, 2, START_2, END_2)
     third_block, third_rows = render_batch(third, 3, START_3, END_3)
-    write_semantic_audit([first_rows, second_rows, third_rows])
+    fourth_block, fourth_rows = render_batch(fourth, 4, START_4, END_4)
+    write_semantic_audit([first_rows, second_rows, third_rows, fourth_rows])
+    write_final_audit([first_rows, second_rows, third_rows, fourth_rows], ocr_stats)
     current = READING.read_text(encoding="utf-8")
     updated = replace_batch(current, START_1, END_1, first_block)
     updated = replace_batch(updated, START_2, END_2, second_block)
     updated = replace_batch(updated, START_3, END_3, third_block)
+    updated = replace_batch(updated, START_4, END_4, fourth_block)
     updated = unicodedata.normalize("NFC", updated)
     READING.write_text(updated, encoding="utf-8", newline="\n")
 
@@ -1376,6 +1669,7 @@ def main() -> int:
             "batch": batch_no,
             "source": "data/khashim-pairs.json",
             "book": BOOK,
+            "ocr_recovery": ocr_stats,
             "rows_examined": len(rows),
             "fan_audit_938": fan_stats,
             "scan_defects_union": len(defects),
@@ -1397,13 +1691,18 @@ def main() -> int:
     first_positive, first_open = write_report(REPORT_1, 1, first_rows)
     second_positive, second_open = write_report(REPORT_2, 2, second_rows)
     third_positive, third_open = write_report(REPORT_3, 3, third_rows)
+    fourth_positive, fourth_open = write_report(REPORT_4, 4, fourth_rows)
     print(f"فُحص {len(rows)}؛ داخل المروحة المصححة {fan_stats['rows_any_candidate_in_expanded_fan']}؛ "
           f"الدفعة 001: موجب {first_positive} ومفتوح {first_open}؛ "
           f"الدفعة 002: موجب {second_positive} ومفتوح {second_open}؛ "
-          f"الدفعة 003: موجب {third_positive} ومفتوح {third_open}")
+          f"الدفعة 003: موجب {third_positive} ومفتوح {third_open}؛ "
+          f"الدفعة 004: موجب {fourth_positive} ومفتوح {fourth_open}")
+    print(f"استرداد OCR: الخمسون {ocr_stats['named_recovered']}/50؛ "
+          f"إضافي {ocr_stats['additional_recovered']}؛ غير مسترد من الخمسين "
+          f"{ocr_stats['named_unrecovered']}")
     print(f"كُتب: {READING.relative_to(ROOT).as_posix()}")
-    for path in (REPORT_1, REPORT_2, REPORT_3, FAN_AUDIT, SHIFT_PROPOSALS,
-                 SEMANTIC_AUDIT):
+    for path in (REPORT_1, REPORT_2, REPORT_3, REPORT_4, FAN_AUDIT, SHIFT_PROPOSALS,
+                 SEMANTIC_AUDIT, FINAL_AUDIT):
         print(f"كُتب: {path.relative_to(ROOT).as_posix()}")
     return 0
 
