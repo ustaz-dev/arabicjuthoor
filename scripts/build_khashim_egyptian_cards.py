@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""ابنِ دفعةَ خشيم المصريّة الأولى بطاقاتِ RECOVERY-v2 قابلةً للتدقيق.
+"""ابنِ دفعتَي خشيم المصريّتَين بطاقاتِ RECOVERY-v2 قابلةً للتدقيق.
 
 هذه أداةُ حصادٍ لا أداةُ حكمٍ عامّة. تختار من صفوف كتاب علي فهمي خشيم
 «البرهان على عروبة اللغة المصرية القديمة» أوضحَ الرؤوس التي سلمت من عيوب
@@ -16,12 +16,13 @@
 from __future__ import annotations
 
 import csv
+import itertools
 import json
 import pathlib
 import re
 import sys
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from typing import Any
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -32,13 +33,19 @@ import search_arabic_root_senses as ARS  # noqa: E402
 
 SOURCE = ROOT / "data" / "khashim-pairs.json"
 READING = ROOT / "04-cross-linguistic" / "readings" / "egyptian.md"
-REPORT = ROOT / "data" / "khashim-egyptian-batch-001.json"
+REPORT_1 = ROOT / "data" / "khashim-egyptian-batch-001.json"
+REPORT_2 = ROOT / "data" / "khashim-egyptian-batch-002.json"
+FAN_AUDIT = ROOT / "04-cross-linguistic" / "egyptian-fan-expansion-audit.md"
+SHIFT_PROPOSALS = ROOT / "04-cross-linguistic" / "proposed-shift-rows-egyptian.md"
 RESOURCES = ROOT / "Resources"
 
-START = "<!-- KHASHIM-EGYPTIAN-BATCH-001:START -->"
-END = "<!-- KHASHIM-EGYPTIAN-BATCH-001:END -->"
+START_1 = "<!-- KHASHIM-EGYPTIAN-BATCH-001:START -->"
+END_1 = "<!-- KHASHIM-EGYPTIAN-BATCH-001:END -->"
+START_2 = "<!-- KHASHIM-EGYPTIAN-BATCH-002:START -->"
+END_2 = "<!-- KHASHIM-EGYPTIAN-BATCH-002:END -->"
 BOOK = "علي فهمي خشيم، «البرهان على عروبة اللغة المصرية القديمة»"
-BATCH_SIZE = 120
+FIRST_BATCH_SIZE = 120
+SECOND_BATCH_SIZE = 200
 
 AR_MARKS = re.compile(r"[\u064b-\u0652ـ]")
 AR_TOKEN = re.compile(r"[ء-ي]{2,16}")
@@ -71,13 +78,18 @@ AUTHOR_EXAMPLES = {
 }
 
 # لا يُصدر الحصاد حكمًا آليًّا لمجرد اجتماع ألفاظ عامة في نصين طويلين. هذه
-# الأزواج الخمسة وحدها راجعها المنفذ عضوًا عضوًا: الصوت كامل بصفوف الشبكة،
+# الأزواج التسعة وحدها راجعها المنفذ عضوًا عضوًا: الصوت كامل بصفوف الشبكة،
 # والمعنى منصوص في بدج وفي المعجم العربي المسمى. سائر الدفعة يبقى مفتوحًا.
 APPROVED_POSITIVES = {
+    99: "بجس",   # beges: dagger; لسان العرب: حديدة يشق بها
     67: "برك",   # bareka: to bless
     68: "برك",   # baraka: to bow the knee in homage
+    385: "سمر",  # s-mer: inflict pain; سمر العين بمسامير محماة
+    424: "سجر",  # sger: strong enclosed place; الامتلاء والقيد بالساجور
+    427: "سجر",  # sgeru: the silent ones; المسجور الساكن
     459: "سفك",  # sefek: to cut; to slay; to cleave
     650: "كف",   # kep: palm/hollow of the hand
+    806: "نقر",  # neqr: dust/powder; ضرب الرحى والحجر، مدار التفتيت
 }
 
 # المادة الثنائية قد تكون رأس نواة لا جذر المعجم الثلاثي. يبقى المرشح كما
@@ -88,18 +100,28 @@ LEXICON_ALIASES = {"كف": "كفف", "يم": "يمم"}
 # يمنع خوارزمية التقريب من اختيار جملة تشترك مع شرح خشيم في لفظ عام مثل
 # «حتى»، ولا يُستعمل أيٌّ منها خارج الصف المسمى.
 QUOTE_OVERRIDES = {
+    99: "فإن أراد أحد أن يفجرها بظفره قدر على ذلك لامتلائها ولم يحتج إلى حديدة يشقها بها.",
     67: "وبارك الله الشيءَ وبارك فيه وعليه: وضع فيه البَرَكَة.",
     68: "وهو من بَرَكَ البعير إذا أناخ في موضع فلزمه.",
+    385: "والسَّمْرُ: شدُّك شيئًا بالمسمار. وسَمَرَ عينه: كَسَمَلَها؛ أي أحمى لها مسامير الحديد ثم كحلهم بها.",
+    424: "والساجر والمسجور: الساكن. أبو عبيد: المسجور الساكن والممتلئ معًا. والساجور: القلادة أو الخشبة التي توضع في عنق الكلب.",
+    427: "والساجر والمسجور: الساكن. أبو عبيد: المسجور الساكن والممتلئ معًا.",
     459: "السَّفْكُ: صَبُّ الدم ونَثْرُ الكلام. وسَفَك الدمَ والدمعَ يَسْفِكُه سَفْكاً، فهو مَسْفوك وسَفِيك: صبه وهَراقَه، وكأَنه بالدم أَخص.",
     650: "والكفُّ: اليد، أُنثى. وفي التهذيب: والكف كفّ اليد.",
+    806: "النَّقْرُ: ضربُ الرَّحى والحجر وغيره بالمِنْقار. ونَقَرَه يَنْقُره نَقْرًا: ضربه.",
     935: "اليَمُّ البحرُ، وكذلك هو في الكتاب، ويَقَع اسمُ اليَمّ على ما كان ماؤه مِلْحاً زُعاقاً، وعلى النهر الكبير العَذْب الماء.",
 }
 
 SEMANTIC_LABELS = {
+    99: "الحديدة التي يُشق بها، وهي مدار الخنجر ووظيفته",
     67: "البركة والدعاء بها",
     68: "البروك والإنَاخة ولزوم الموضع، وهو وجه ثني الركبة",
+    385: "إيلام الجسد بإدخال المسمار المحمى",
+    424: "الإحاطة والامتلاء والقيد، وهي مدار المكان المحصن المغلق",
+    427: "السكون؛ نص اللسان يسمّي المسجور ساكنًا",
     459: "السفك وإراقة الدم، وهو وجه الذبح في معنى بدج",
     650: "الكف واليد",
+    806: "ضرب الرحى والحجر والتفتيت الناتج عنه إلى دقيق ومسحوق",
     935: "اليم: البحر والنهر الكبير",
 }
 
@@ -142,6 +164,8 @@ SHIFTS = {
     ("s", "ش"): "SIB-01", ("s", "ص"): "SIB-02",
     ("š", "س"): "SIB-01", ("z", "س"): "SIB-03",
     ("ḏ", "ز"): "DENT-04",
+    # الصفّان موجودان في الشبكة المجمّدة؛ كان النقص في فهرس هذه الأداة.
+    ("i", "ي"): "IDN-23", ("s", "ث"): "BR-EGYP-03",
 }
 
 
@@ -234,6 +258,10 @@ def candidate_tokens(row: dict[str, Any], morphology_map: dict[str, set[str]],
     seen: set[str] = set()
     for token, source, pos in tokens:
         options = []
+        # حقلُ خشيم نفسه مرشَّحٌ استكشافيٌّ ولو لم تعرفه ذخيرةُ الجذور بعدُ؛
+        # غيابُه من فهرس الأداة لا يجوز أن يُسقطه قبل عرضِه على المعجم المسمّى.
+        if source == "حقل `arabic_root` في الحصاد" and 2 <= len(token) <= 4:
+            options.append(token)
         if token in root_inventory:
             options.append(token)
         options.extend(sorted(morphology_map.get(token, set())))
@@ -324,10 +352,11 @@ def sound_audit(stem: str, root: str) -> tuple[bool, list[str], list[str]]:
 
 def existing_heads() -> set[str]:
     text = READING.read_text(encoding="utf-8")
-    if START in text and END in text:
-        before, rest = text.split(START, 1)
-        _, after = rest.split(END, 1)
-        text = before + after
+    for start, end in ((START_1, END_1), (START_2, END_2)):
+        if start in text and end in text:
+            before, rest = text.split(start, 1)
+            _, after = rest.split(end, 1)
+            text = before + after
     heads = set()
     for head in re.findall(r"(?m)^### بطاقة[^\n]*", text):
         for token in re.findall(r"`([^`]+)`", head):
@@ -338,7 +367,10 @@ def existing_heads() -> set[str]:
     return heads
 
 
-def choose_rows(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+def evaluate_rows(rows: list[dict[str, Any]],
+                  forced_roots: dict[int, str] | None = None
+                  ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    forced_roots = forced_roots or {}
     bridge = json.loads((ROOT / "data" / "en-ar-bridge.json").read_text(encoding="utf-8"))["root_head"]
     root_inventory = set(bridge)
     morph = load_morphology()
@@ -352,7 +384,6 @@ def choose_rows(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], list[
         reasons = scan_defect(row)
         if reasons:
             defects.append({"index": index, "foreign": row["foreign"], "reasons": reasons})
-            continue
         if not (2 <= len(FAN.skeleton(row["foreign"], "egyptian")) <= 4):
             continue
         if row["foreign"] in old_heads:
@@ -370,7 +401,7 @@ def choose_rows(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], list[
         pool.append({
             "index": index, "row": row, "stem": stem, "stripping": stripping,
             "raw_skeleton": raw_skeleton, "raw_fan": raw_fan, "stem_fan": stem_fan,
-            "candidates": candidates,
+            "candidates": candidates, "scan_reasons": reasons,
         })
 
     lexica = ARS.matches_for_roots(RESOURCES, all_roots, limit=None)
@@ -396,6 +427,7 @@ def choose_rows(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], list[
                 + (2 if row.get("glyphs") else 0)
                 + max(0, 4 - pos)
                 - (8 if not en_hit and not ar_hit else 0)
+                - (18 * len(item["scan_reasons"]))
             )
             evaluated.append({
                 "root": root, "root_origin": origin, "position": pos,
@@ -404,29 +436,58 @@ def choose_rows(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], list[
                 "raw_hit": raw_hit, "stem_hit": stem_hit, "sound_ready": sound_ready,
                 "sound_rows": sound_rows, "sound_misses": sound_misses, "score": score,
             })
-        approved_root = APPROVED_POSITIVES.get(item["index"])
+        approved_root = forced_roots.get(item["index"], APPROVED_POSITIVES.get(item["index"]))
         approved = [x for x in evaluated if x["root"] == approved_root]
         chosen = (approved[0] if approved else
                   sorted(evaluated, key=lambda x: (-x["score"], x["position"], x["root"]))[0])
         item["chosen"] = chosen
         item["score"] = chosen["score"]
 
-    pool.sort(key=lambda x: (-x["score"], x["index"]))
-    forced = [x for x in pool if x["index"] in APPROVED_POSITIVES]
-    selected = forced + [x for x in pool if x["index"] not in APPROVED_POSITIVES][
-        :BATCH_SIZE - len(forced)
+    pool.sort(key=lambda x: (-x["score"], len(x["scan_reasons"]), x["index"]))
+    return pool, defects
+
+
+def choose_batches(rows: list[dict[str, Any]]) -> tuple[
+        list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]],
+        list[dict[str, Any]]]:
+    prior = json.loads(REPORT_1.read_text(encoding="utf-8")) if REPORT_1.exists() else {"rows": []}
+    first_roots = {int(row["index"]): str(row["root"]) for row in prior.get("rows", [])}
+    pool, defects = evaluate_rows(rows, first_roots)
+
+    if first_roots:
+        first = [item for item in pool if item["index"] in first_roots]
+    else:
+        clean = [item for item in pool if not item["scan_reasons"]]
+        forced = [item for item in clean if item["index"] in APPROVED_POSITIVES]
+        first = forced + [item for item in clean if item["index"] not in APPROVED_POSITIVES][
+            :FIRST_BATCH_SIZE - len(forced)
+        ]
+    if len(first) != FIRST_BATCH_SIZE:
+        raise SystemExit(f"لم تُحفَظ الدفعة الأولى: {len(first)} من {FIRST_BATCH_SIZE}")
+    first_ids = {item["index"] for item in first}
+    structural_scan_defects = {
+        "الرأس إنجليزي لا رومنة مصرية",
+        "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+        "رمز هيروغليفي واحد مكرر بخلل المسح",
+    }
+    second_pool = [
+        item for item in pool
+        if item["index"] not in first_ids
+        and not (set(item["scan_reasons"]) & structural_scan_defects)
     ]
-    selected.sort(key=lambda x: (-x["score"], x["index"]))
-    if len(selected) != BATCH_SIZE:
-        raise SystemExit(f"لم تبلغ الدفعة {BATCH_SIZE}: المتاح {len(selected)}")
-    return selected, defects
+    second = second_pool[:SECOND_BATCH_SIZE]
+    if len(second) != SECOND_BATCH_SIZE:
+        raise SystemExit(f"لم تبلغ الدفعة الثانية {SECOND_BATCH_SIZE}: المتاح {len(second)}")
+    first.sort(key=lambda x: (-x["score"], x["index"]))
+    second.sort(key=lambda x: (-x["score"], x["index"]))
+    return first, second, defects, pool
 
 
 def fan_text(values: list[str]) -> str:
     return "، ".join(f"`{x}`" for x in values) if values else "(لم تولّد الأداة مرشحًا)"
 
 
-def card(item: dict[str, Any]) -> tuple[str, dict[str, Any]]:
+def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
     row, chosen = item["row"], item["chosen"]
     root = chosen["root"]
     raw_fan, stem_fan = item["raw_fan"], item["stem_fan"]
@@ -434,7 +495,7 @@ def card(item: dict[str, Any]) -> tuple[str, dict[str, Any]]:
     source_label = (ARS.SOURCE_LABELS.get(lexicon["source_id"], lexicon["source"])
                     if lexicon else "")
     quote = QUOTE_OVERRIDES.get(item["index"], "")
-    if not quote and lexicon and chosen["ar_hit"]:
+    if not quote and lexicon:
         quote = excerpt(lexicon["definition"], row)
     direct_semantics = bool(chosen["en_hit"] or chosen["ar_hit"])
     semantic_ready = direct_semantics or APPROVED_POSITIVES.get(item["index"]) == root
@@ -476,14 +537,19 @@ def card(item: dict[str, Any]) -> tuple[str, dict[str, Any]]:
     if lexicon and quote:
         material_note = (f"، تحت مادة `{chosen['lexicon_root']}` الشارحة للنواة `{root}`"
                          if chosen["lexicon_root"] != root else "")
+        if chosen["ar_hit"] or item["index"] in SEMANTIC_LABELS:
+            semantic_note = (
+                "القريب المراد هو "
+                f"{SEMANTIC_LABELS.get(item['index'], ', '.join(chosen['ar_hit']))}؛ "
+                "وسائر وجوه النص لا تُنقل إلى المصرية"
+            )
+        else:
+            semantic_note = (
+                "أُثبت النص المعجمي الحرفي للحفظ والمراجعة؛ ولم تعثر الأداة على عبارة "
+                "عربية مشتركة كافية، فلا يُجعل الاقتباس وحده حكمًا دلاليًّا"
+            )
         scan = (f"المادة `{root}`{material_note}؛ نص {source_label}: «{quote}». ونص خشيم المنقول في "
-                f"الصف: «{row['arabic_gloss']}». القريب المراد هو "
-                f"{SEMANTIC_LABELS.get(item['index'], ', '.join(chosen['ar_hit']) if chosen['ar_hit'] else 'ما عيّنه خشيم')}؛ "
-                "وسائر وجوه النص لا تُنقل إلى المصرية.")
-    elif lexicon:
-        scan = (f"وُجدت المادة `{root}` في {source_label}، لكن لم تُستخرج من نصها عبارة "
-                "تطابق المعنى المقصود تطابقًا صالحًا للاقتباس؛ لذلك لا نضع نصًّا معجميًّا "
-                f"مضللًا. نص خشيم «{row['arabic_gloss']}» محفوظ، والزوج مفتوح.")
+                f"الصف: «{row['arabic_gloss']}». {semantic_note}.")
     else:
         scan = (f"لم يوجد للمادة `{root}` نص في لسان العرب ولا تاج العروس في الذخيرة "
                 f"المحلية؛ نص خشيم وحده «{row['arabic_gloss']}» محفوظ ولا يقوم مقام معجم مسمّى.")
@@ -503,6 +569,8 @@ def card(item: dict[str, Any]) -> tuple[str, dict[str, Any]]:
         obstacles.append("شاهد دلالي منشور يصل نص بدج بنص المعجم العربي")
     if not length_ready:
         obstacles.append("تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت")
+    if item["scan_reasons"]:
+        obstacles.append("مقابلة الصفحة المصوّرة لعيب المسح المسمّى")
     if not positive and not obstacles:
         obstacles.append("مراجعة دلالية بشرية مستقلة تتجاوز التقارب الآلي بين النصوص")
     required = "؛ ".join(obstacles) if obstacles else "لا عائق معلق"
@@ -516,13 +584,17 @@ def card(item: dict[str, Any]) -> tuple[str, dict[str, Any]]:
         "غير صادر؛ شرح خشيم يرشح الصلة، لكن النصين لم يلتقيا بلفظ مستقل كاف للحكم"
     )
     family_ar = 1 if positive else 0
+    batch_label = f"{batch_no:03d}"
+    scan_status = ("؛ ".join(item["scan_reasons"]) if item["scan_reasons"]
+                   else "لم تُسجّل أداة المسح عيبًا في هذا الصف")
     lines = [
-        f"### بطاقة: `{row['foreign']}` «{row['foreign_sense']}»؛ خشيم 001/{item['index']:03d}",
-        f"<!-- khashim-egyptian-batch-001:{item['index']} -->",
+        f"### بطاقة: `{row['foreign']}` «{row['foreign_sense']}»؛ خشيم {batch_label}/{item['index']:03d}",
+        f"<!-- khashim-egyptian-batch-{batch_label}:{item['index']} -->",
         "- إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)",
         f"- الكلمةُ في الفرع: `{row['foreign']}`؛ الرمز المنقول `{glyphs}`؛ الرومنة من بدج كما نقلها خشيم.",
         f"- أقدمُ صورةٍ مستعادة: لا تُدّعى صورة أقدم من رومنة بدج المنقولة في {BOOK}؛ "
         "الصف من `data/khashim-pairs.json` ومصدره `ocr-egyptian2`.",
+        f"- سلامةُ صف المسح: {scan_status}؛ العيب، إن وُجد، يفتح المقابلة ولا يُسقط المرشح.",
         f"- الخطوةُ صفر (التعرية بصرف الفرع): {item['stripping']}؛ صوامت الرأس كاملة "
         f"`{raw_skeleton}` ← اللب `{stem_skeleton}`.",
         f"- حسابُ الصوامت: صوامت اللب {len(FAN.skeleton(item['stem'], 'egyptian'))}؛ "
@@ -567,15 +639,269 @@ def card(item: dict[str, Any]) -> tuple[str, dict[str, Any]]:
         "lexicon": source_label or None, "semantic_hits": chosen["en_hit"] + chosen["ar_hit"],
         "closure": closure, "verdict": degree if positive else None,
         "sound_rows": chosen["sound_rows"], "sound_misses": chosen["sound_misses"],
-        "open_reasons": obstacles,
+        "scan_reasons": item["scan_reasons"], "open_reasons": obstacles,
     }
     return "\n".join(lines), summary
 
 
-def replace_batch(text: str, block: str) -> str:
-    if START in text and END in text:
-        before, rest = text.split(START, 1)
-        _, after = rest.split(END, 1)
+def baseline_egyptian_table() -> dict[str, tuple[str, ...]]:
+    """مروحةُ 526dd60 قبل إضافتَي h المَقيسَتَين في هذه الجولة."""
+    return {
+        symbol: tuple(value for value in values
+                      if not (symbol == "h" and value in {"ر", "ح"}))
+        for symbol, values in FAN.EGYPTIAN_FAN.items()
+    }
+
+
+def fan_from_table(word: str, table: dict[str, tuple[str, ...]]) -> list[str]:
+    skeleton = FAN.skeleton(word, "egyptian")
+    if not (2 <= len(skeleton) <= 4):
+        return []
+    options = [table.get(symbol, ()) for symbol in skeleton]
+    if any(not values for values in options):
+        return []
+    return ["".join(value) for value in itertools.islice(itertools.product(*options), 400)]
+
+
+def all_rows_fan_audit(rows: list[dict[str, Any]], pool: list[dict[str, Any]],
+                       first: list[dict[str, Any]]) -> dict[str, int]:
+    bridge = json.loads((ROOT / "data" / "en-ar-bridge.json").read_text(encoding="utf-8"))["root_head"]
+    morphology_map = load_morphology()
+    root_inventory = set(bridge)
+    root_inventory.update(root for values in morphology_map.values() for root in values)
+    old_table = baseline_egyptian_table()
+    stats = Counter(rows_examined=len(rows))
+    for row in rows:
+        stem, _, _ = morphology(row)
+        candidates = candidate_tokens(row, morphology_map, root_inventory)
+        if candidates:
+            stats["rows_with_khashim_candidate"] += 1
+        old_raw = set(fan_from_table(row["foreign"], old_table))
+        old_stem = set(fan_from_table(stem, old_table))
+        new_raw = set(FAN.fan(row["foreign"], "egyptian", limit=400))
+        new_stem = set(FAN.fan(stem, "egyptian", limit=400))
+        roots = {root for root, _, _ in candidates}
+        if roots & (old_raw | old_stem):
+            stats["rows_any_candidate_in_old_fan"] += 1
+        if roots & (new_raw | new_stem):
+            stats["rows_any_candidate_in_expanded_fan"] += 1
+        field = ar_bare(row.get("arabic_root", ""))
+        if field and field in old_raw | old_stem:
+            stats["rows_exact_field_in_old_fan"] += 1
+        if field and field in new_raw | new_stem:
+            stats["rows_exact_field_in_expanded_fan"] += 1
+    stats["rows_evaluable_after_skeleton_and_candidate"] = len(pool)
+    stats["chosen_candidate_in_expanded_fan"] = sum(
+        item["chosen"]["raw_hit"] or item["chosen"]["stem_hit"] for item in pool
+    )
+    old_table = baseline_egyptian_table()
+    first_old_hits = 0
+    for item in first:
+        root = item["chosen"]["root"]
+        old = set(fan_from_table(item["row"]["foreign"], old_table))
+        old.update(fan_from_table(item["stem"], old_table))
+        first_old_hits += root in old
+    stats["first_batch_chosen_in_old_fan"] = first_old_hits
+    stats["first_batch_chosen_in_expanded_fan"] = sum(
+        item["chosen"]["raw_hit"] or item["chosen"]["stem_hit"] for item in first
+    )
+    return dict(stats)
+
+
+def audit_fan_gaps(first: list[dict[str, Any]]) -> tuple[
+        Counter[tuple[str, str]], dict[tuple[str, str], list[str]], list[dict[str, Any]]]:
+    table = baseline_egyptian_table()
+    missing: Counter[tuple[str, str]] = Counter()
+    examples: dict[tuple[str, str], list[str]] = defaultdict(list)
+    unaligned: list[dict[str, Any]] = []
+    for item in first:
+        root = item["chosen"]["root"]
+        skeletons: list[list[str]] = []
+        for word in (item["row"]["foreign"], item["stem"]):
+            skeleton = FAN.skeleton(word, "egyptian")
+            if skeleton not in skeletons:
+                skeletons.append(skeleton)
+        if any(root in fan_from_table(word, table)
+               for word in (item["row"]["foreign"], item["stem"])):
+            continue
+        alignments = [skeleton for skeleton in skeletons if len(skeleton) == len(root)]
+        if not alignments:
+            unaligned.append(item)
+            continue
+        skeleton = min(
+            alignments,
+            key=lambda value: sum(arabic not in table.get(symbol, ())
+                                  for symbol, arabic in zip(value, root)),
+        )
+        for symbol, arabic in zip(skeleton, root):
+            if arabic in table.get(symbol, ()):
+                continue
+            pair = (symbol, arabic)
+            missing[pair] += 1
+            examples[pair].append(f"`{item['row']['foreign']}`→`{root}`")
+    return missing, examples, unaligned
+
+
+def audit_network_gaps(first: list[dict[str, Any]]) -> tuple[
+        Counter[tuple[str, str]], dict[tuple[str, str], list[str]], list[dict[str, Any]], int]:
+    # يعيد فهرسَ 526dd60 عمدًا كي يبقى جردُ الـ99 قابلًا لإعادة الإنتاج.
+    baseline_shifts = {
+        pair: row for pair, row in SHIFTS.items()
+        if pair not in {("i", "ي"), ("s", "ث")}
+    }
+    missing: Counter[tuple[str, str]] = Counter()
+    examples: dict[tuple[str, str], list[str]] = defaultdict(list)
+    unaligned: list[dict[str, Any]] = []
+    gap_cards = 0
+    for item in first:
+        skeleton = FAN.skeleton(item["stem"], "egyptian")
+        root = item["chosen"]["root"]
+        if len(skeleton) != len(root):
+            gap_cards += 1
+            unaligned.append(item)
+            continue
+        card_has_gap = False
+        for symbol, arabic in zip(skeleton, root):
+            if IDENTITY.get((symbol, arabic)) or baseline_shifts.get((symbol, arabic)):
+                continue
+            card_has_gap = True
+            pair = (symbol, arabic)
+            missing[pair] += 1
+            sense = " ".join(item["row"]["foreign_sense"].split()).replace("|", "/")
+            examples[pair].append(
+                f"`{item['row']['foreign']}`→`{root}` «{sense}»"
+            )
+        gap_cards += card_has_gap
+    return missing, examples, unaligned, gap_cards
+
+
+def network_analogue(pair: tuple[str, str]) -> str:
+    exact = {
+        ("i", "ي"): "موجودٌ معنىً في `IDN-23`؛ يُوسَّع شاهدُه ليصرّح بـ`i` المصريّة، لا صف جديد",
+        ("s", "ث"): "موجودٌ نصًّا في `BR-EGYP-03`؛ هذا خطأ فهرسة وقد أُصلح، لا صف جديد",
+        ("n", "ل"): "موجودٌ مشروطًا في `BR-EGYP-02`؛ لا يُعمَّم بلا خلف ديموطيقي/قبطي",
+        ("h", "ح"): "نظيرُه `GUT-04`، لكن شاهدَه لا يسمّي المصريّة؛ يُوسَّع نطاقه وشاهدُه",
+        ("h", "ع"): "نظيرُه `GUT-04`، لكن شاهدَه لا يسمّي المصريّة؛ يُوسَّع نطاقه وشاهدُه",
+        ("n", "م"): "نظيرُه `LIQ-02` في الأنفيّات؛ يحتاج شاهدًا مصريًّا في الصف",
+        ("r", "ن"): "نظيرُه `LIQ-03` في الذلقيّات؛ يحتاج شاهدًا مصريًّا في الصف",
+        ("t", "ث"): "نظيرُه `DENT-01` في فرع آخر؛ يحتاج شاهدًا مصريًّا صريحًا",
+    }
+    if pair in exact:
+        return exact[pair]
+    if pair[1] in {"أ", "إ", "آ"}:
+        return "فجوةُ تطبيعٍ للهمزة أولًا، لا يُنشأ صف صوتي قبل توحيد الرسم"
+    return "لا نظيرَ مطابقًا في الشبكة؛ مسوّدة صف جديد"
+
+
+def write_expansion_audits(first: list[dict[str, Any]], fan_stats: dict[str, int]) -> None:
+    fan_missing, fan_examples, fan_unaligned = audit_fan_gaps(first)
+    fan_lines = [
+        "# جردُ توسيع مروحة المصريّة من دفعة خشيم 001",
+        "",
+        "هذا جردٌ للمروحة كما كانت في الإيداع `526dd60`. عُدَّ الزوج خارجها إذا لم "
+        "يظهر مرشح خشيم في المروحة الخام ولا في مروحة اللب بعد تعرية `-t` المسماة.",
+        "",
+        f"- البطاقات الخارجة من المروحة القديمة: {len(first) - fan_stats['first_batch_chosen_in_old_fan']}.",
+        f"- القابلة لمحاذاة حرف بحرف: {len(first) - fan_stats['first_batch_chosen_in_old_fan'] - len(fan_unaligned)}؛ "
+        f"فيها {sum(fan_missing.values())} موضع نقل و{len(fan_missing)} نقلة متميزة.",
+        f"- غير القابلة لمحاذاة حرف بحرف لاختلاف عدد الصوامت: {len(fan_unaligned)}؛ "
+        "حُفظت ولم يُخترع لها إسقاط أو إدغام.",
+        "- دخلت المروحةَ النقلاتُ المتكررة ثلاث مرات فأكثر فقط: `h→ر` (4) و`h→ح` (3).",
+        "",
+        "## جدولُ النقلات الناقصة كاملًا",
+        "",
+        "| المصري | العربي | الشواهد | أمثلة من الدفعة | القرار |",
+        "|---|---|---:|---|---|",
+    ]
+    for pair, count in sorted(fan_missing.items(), key=lambda value: (-value[1], value[0])):
+        decision = "أُضيفت إلى `EGYPTIAN_FAN`" if count >= 3 else "تبقى مرصودة دون إدخال"
+        fan_lines.append(
+            f"| `{pair[0]}` | `{pair[1]}` | {count} | "
+            f"{ '؛ '.join(fan_examples[pair][:3]) } | {decision} |"
+        )
+    fan_lines.extend([
+        "",
+        "## الأزواج التي لا تعطي محاذاة حرفية",
+        "",
+        "| الرأس المصري | مرشح خشيم | صوامت الرأس/اللب | صوامت المرشح |",
+        "|---|---|---:|---:|",
+    ])
+    for item in sorted(fan_unaligned, key=lambda value: value["index"]):
+        raw = len(FAN.skeleton(item["row"]["foreign"], "egyptian"))
+        stem = len(FAN.skeleton(item["stem"], "egyptian"))
+        fan_lines.append(
+            f"| `{item['row']['foreign']}` | `{item['chosen']['root']}` | {raw}/{stem} | "
+            f"{len(item['chosen']['root'])} |"
+        )
+    fan_lines.extend([
+        "",
+        "## إعادة تمرير الصفوف الـ938",
+        "",
+        f"- فيها مرشح خشيم قابل للاستخراج: {fan_stats['rows_with_khashim_candidate']}.",
+        f"- أصاب مرشحٌ واحد على الأقل المروحة القديمة في {fan_stats['rows_any_candidate_in_old_fan']} صفًا، "
+        f"والمروحة الموسعة في {fan_stats['rows_any_candidate_in_expanded_fan']} صفًا.",
+        f"- وبالاقتصار على حقل `arabic_root` الحرفي: {fan_stats['rows_exact_field_in_old_fan']} قديمًا، "
+        f"و{fan_stats['rows_exact_field_in_expanded_fan']} بعد التوسيع.",
+        f"- وفي الدفعة الأولى نفسها صار المرشح المختار داخل المروحة في "
+        f"{fan_stats['first_batch_chosen_in_expanded_fan']} من 120، وكان القياس المعاد من ملف الإيداع "
+        f"{fan_stats['first_batch_chosen_in_old_fan']} من 120.",
+        "",
+    ])
+    FAN_AUDIT.write_text("\n".join(fan_lines), encoding="utf-8", newline="\n")
+
+    network_missing, network_examples, network_unaligned, gap_cards = audit_network_gaps(first)
+    shift_lines = [
+        "# مسوّدةُ صفوف الإبدال المصريّة المقترحة من دفعة خشيم 001",
+        "",
+        "> هذه مسوّدة خارج الشبكة النافذة. لم يُمسّ `shift-network-draft.md` لأنه مجمّد ولا يدخل "
+        "من هذه الورقة أي صف قبل توقيع المؤلف.",
+        "",
+        "## طريقة التفتيش",
+        "",
+        "فُتّش `shift-network-draft.md` لكل نقلة بالحرفين معًا في الترتيبين "
+        "(`<الحرف المصري>.*<الحرف العربي>` و`<الحرف العربي>.*<الحرف المصري>`)، ثم فُتّشت ألفاظ النطاق والشاهد "
+        "`المصريّة` و`المصرية` و`Egyptian` و`BR-EGYP`، ثم قُرئ عمود «مثال موثّق» "
+        "وعمود النطاق. وأظهر ذلك صفين أخطأ فهرس الأداة في إعلان غيابهما: `i→ي` له "
+        "صف الهوية `IDN-23` الذي يحتاج تصريحًا بالرومنة المصرية، و`s→ث` موجود نصًا "
+        "في `BR-EGYP-03`. كما ظهر `n→ل` في `BR-EGYP-02` لكنه مشروط بخلف لاحق، فلا "
+        "يُطلق على شاهد الحصاد بلا شرطه.",
+        "",
+        f"الجرد الأصلي وسم {gap_cards} بطاقةً بعائق شبكة. منها {len(network_unaligned)} بطاقة "
+        f"سببها اختلاف عدد الصوامت لا غياب صف، وخرجت من الباقي {sum(network_missing.values())} "
+        f"مواضع نقل في {len(network_missing)} زوجًا متميزًا.",
+        "",
+        "## صفوف النقل المقترحة أو التوسيعات اللازمة",
+        "",
+        "الأمثلة ثلاثة حيث أتاح الحصاد ثلاثة، وكل الشواهد المتاحة حيث كان العدد أقل.",
+        "",
+        "| المصري | العربي | عدد الشواهد | أمثلة بأسمائها | صف قائم يُوسّع أم صف جديد؟ |",
+        "|---|---|---:|---|---|",
+    ]
+    for pair, count in sorted(network_missing.items(), key=lambda value: (-value[1], value[0])):
+        shift_lines.append(
+            f"| `{pair[0]}` | `{pair[1]}` | {count} | "
+            f"{'؛ '.join(network_examples[pair][:3])} | {network_analogue(pair)} |"
+        )
+    shift_lines.extend([
+        "",
+        "## مواضع اختلاف عدد الصوامت، وليست صفوفًا ناقصة",
+        "",
+        "| الرأس المصري | مرشح خشيم | صوامت اللب | صوامت المرشح |",
+        "|---|---|---:|---:|",
+    ])
+    for item in sorted(network_unaligned, key=lambda value: value["index"]):
+        shift_lines.append(
+            f"| `{item['row']['foreign']}` | `{item['chosen']['root']}` | "
+            f"{len(FAN.skeleton(item['stem'], 'egyptian'))} | {len(item['chosen']['root'])} |"
+        )
+    shift_lines.append("")
+    SHIFT_PROPOSALS.write_text("\n".join(shift_lines), encoding="utf-8", newline="\n")
+
+
+def replace_batch(text: str, start: str, end: str, block: str) -> str:
+    if start in text and end in text:
+        before, rest = text.split(start, 1)
+        _, after = rest.split(end, 1)
         tail = after.lstrip()
         return (before.rstrip() + "\n\n" + block.rstrip()
                 + ("\n\n" + tail if tail else "\n"))
@@ -588,64 +914,96 @@ def main() -> int:
     rows = [row for row in payload["rows"] if row.get("tongue") == "egyptian"]
     if len(rows) != 938:
         raise SystemExit(f"تغيّر جرد المصرية: {len(rows)}، والمتوقع 938")
-    selected, defects = choose_rows(rows)
-    rendered, report_rows = [], []
-    for item in selected:
-        text, summary = card(item)
-        rendered.append(text)
-        report_rows.append(summary)
+    first, second, defects, pool = choose_batches(rows)
+    fan_stats = all_rows_fan_audit(rows, pool, first)
+    write_expansion_audits(first, fan_stats)
 
-    positives = sum(bool(row["verdict"]) for row in report_rows)
-    opens = sum(row["closure"] == "OPEN-CANDIDATE" for row in report_rows)
-    section = [
-        START,
-        "## حصادُ خشيم المصري، الدفعة الأولى (2026-08-11)",
-        "",
-        "**بيان النطاق.** فُحصت صفوف المصرية البالغ عددها 938 في `data/khashim-pairs.json`. "
-        "عُزلت الرؤوس الإنجليزية، والرؤوس الملتبسة ذات الفراغ، والرموز الهيروغليفية "
-        "المكررة من رمز واحد، والمعاني التي لم يسلم نصها الإنجليزي. ثم رتبت البقية قبل "
-        "الحكم بقرب نص بدج من مروحة المعجم العربي، وإصابة مروحة الصوت، وسلامة المصدر. "
-        "هذه 120 بطاقة استكشاف، وأصل كل مرشح من خشيم ومعناه الإنجليزي من بدج؛ أما المروحة "
-        "والشبكة والحكم فمن أدوات المشروع.",
-        "",
-        f"**عدستا المراجعة.** أبقت عدسة الاسترداد كل مرشح مشكوك فيه `OPEN-CANDIDATE` "
-        f"بدل إسقاطه. وراجعت عدسة التشكيك الصوامت كاملة ومجال صف الشبكة ونص المعجم؛ "
-        f"فصدر {positives} حكمًا، وبقي {opens} مفتوحًا. هذه أعداد جرد الدفعة لا نسبة منشورة.",
-        "",
-        *rendered,
-        END,
-    ]
+    def render_batch(selected: list[dict[str, Any]], batch_no: int,
+                     start: str, end: str) -> tuple[str, list[dict[str, Any]]]:
+        rendered: list[str] = []
+        report_rows: list[dict[str, Any]] = []
+        for item in selected:
+            text, summary = card(item, batch_no)
+            rendered.append(text)
+            report_rows.append(summary)
+        positives = sum(bool(row["verdict"]) for row in report_rows)
+        opens = sum(row["closure"] == "OPEN-CANDIDATE" for row in report_rows)
+        if batch_no == 1:
+            scope = (
+                "هذه هي العضوية المودعة في الدفعة الأولى نفسها، وأعيد بناؤها بالمروحة "
+                "الموسعة. أصل كل مرشح من خشيم ومعناه الإنجليزي من بدج؛ أما المروحة "
+                "والشبكة والنص المعجمي والحكم فمن أدوات المشروع."
+            )
+            title = "## حصادُ خشيم المصري، الدفعة الأولى (مراجعة 2026-08-11)"
+        else:
+            scope = (
+                "هذه 200 بطاقة جديدة بعد الدفعة الأولى. استُبعد الرأس الإنجليزي والمركب "
+                "والرمز الهيروغليفي المكرر بخلل المسح، ولم يُسقط ضعف التقاطع الآلي ولا "
+                "غياب الجذر من فهرس الأداة مرشح خشيم؛ بل سُمّي العيب داخل البطاقة وبقي "
+                "`OPEN-CANDIDATE`. أصل المرشح من خشيم والمعنى الإنجليزي من بدج، والمروحة "
+                "والشبكة والنص المعجمي والحكم من أدوات المشروع."
+            )
+            title = "## حصادُ خشيم المصري، الدفعة الثانية (2026-08-11)"
+        section = [
+            start, title, "", "**بيان النطاق.** " + scope, "",
+            f"**قاموس الإغلاق المغلق.** لا تستعمل البطاقات إلا `READY` و`OPEN-CANDIDATE`. "
+            f"صدر {positives} حكمًا استكشافيًا وبقي {opens} مفتوحًا؛ الفتح حفظٌ للمرشح "
+            "لا حكمٌ سلبي عليه.",
+            "", *rendered, end,
+        ]
+        return "\n".join(section), report_rows
+
+    first_block, first_rows = render_batch(first, 1, START_1, END_1)
+    second_block, second_rows = render_batch(second, 2, START_2, END_2)
     current = READING.read_text(encoding="utf-8")
-    updated = unicodedata.normalize("NFC", replace_batch(current, "\n".join(section)))
+    updated = replace_batch(current, START_1, END_1, first_block)
+    updated = replace_batch(updated, START_2, END_2, second_block)
+    updated = unicodedata.normalize("NFC", updated)
     READING.write_text(updated, encoding="utf-8", newline="\n")
 
     reasons: dict[str, int] = defaultdict(int)
     for item in defects:
         for reason in item["reasons"]:
             reasons[reason] += 1
-    open_reasons: dict[str, int] = defaultdict(int)
-    for item in report_rows:
-        for reason in item["open_reasons"]:
-            open_reasons[reason] += 1
-    report = {
-        "generated_by": "scripts/build_khashim_egyptian_cards.py",
-        "source": "data/khashim-pairs.json",
-        "book": BOOK,
-        "rows_examined": len(rows),
-        "scan_defects_union": len(defects),
-        "scan_defects_by_reason": dict(sorted(reasons.items())),
-        "cards_written": len(report_rows),
-        "positive": positives,
-        "open_candidate": opens,
-        "open_reasons_overlapping": dict(sorted(open_reasons.items())),
-        "rows": report_rows,
-    }
-    REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=1),
-                      encoding="utf-8", newline="\n")
-    print(f"فُحص {len(rows)}؛ عيب مسح {len(defects)}؛ بطاقات {len(report_rows)}؛ "
-          f"موجب {positives}؛ مفتوح {opens}")
+    def write_report(path: pathlib.Path, batch_no: int,
+                     report_rows: list[dict[str, Any]]) -> tuple[int, int]:
+        open_reasons: dict[str, int] = defaultdict(int)
+        selection_scan_reasons: dict[str, int] = defaultdict(int)
+        for item in report_rows:
+            for reason in item["open_reasons"]:
+                open_reasons[reason] += 1
+            for reason in item["scan_reasons"]:
+                selection_scan_reasons[reason] += 1
+        positives = sum(bool(row["verdict"]) for row in report_rows)
+        opens = sum(row["closure"] == "OPEN-CANDIDATE" for row in report_rows)
+        report = {
+            "generated_by": "scripts/build_khashim_egyptian_cards.py",
+            "batch": batch_no,
+            "source": "data/khashim-pairs.json",
+            "book": BOOK,
+            "rows_examined": len(rows),
+            "fan_audit_938": fan_stats,
+            "scan_defects_union": len(defects),
+            "scan_defects_by_reason": dict(sorted(reasons.items())),
+            "selection_scan_reasons": dict(sorted(selection_scan_reasons.items())),
+            "cards_written": len(report_rows),
+            "positive": positives,
+            "open_candidate": opens,
+            "open_reasons_overlapping": dict(sorted(open_reasons.items())),
+            "rows": report_rows,
+        }
+        path.write_text(json.dumps(report, ensure_ascii=False, indent=1),
+                        encoding="utf-8", newline="\n")
+        return positives, opens
+
+    first_positive, first_open = write_report(REPORT_1, 1, first_rows)
+    second_positive, second_open = write_report(REPORT_2, 2, second_rows)
+    print(f"فُحص {len(rows)}؛ داخل المروحة الموسعة {fan_stats['rows_any_candidate_in_expanded_fan']}؛ "
+          f"الدفعة 001: موجب {first_positive} ومفتوح {first_open}؛ "
+          f"الدفعة 002: {len(second_rows)} بطاقة، موجب {second_positive} ومفتوح {second_open}")
     print(f"كُتب: {READING.relative_to(ROOT).as_posix()}")
-    print(f"كُتب: {REPORT.relative_to(ROOT).as_posix()}")
+    for path in (REPORT_1, REPORT_2, FAN_AUDIT, SHIFT_PROPOSALS):
+        print(f"كُتب: {path.relative_to(ROOT).as_posix()}")
     return 0
 
 
