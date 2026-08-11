@@ -7,18 +7,18 @@
  "fan_audit_938": {
   "rows_examined": 938,
   "rows_with_khashim_candidate": 820,
+  "rows_any_candidate_in_expanded_fan": 242,
   "rows_any_candidate_in_old_fan": 106,
-  "rows_any_candidate_in_expanded_fan": 224,
   "rows_exact_field_in_old_fan": 97,
-  "rows_exact_field_in_expanded_fan": 208,
+  "rows_exact_field_in_expanded_fan": 221,
   "rows_evaluable_after_skeleton_and_candidate": 618,
-  "chosen_candidate_in_expanded_fan": 189,
+  "chosen_candidate_in_expanded_fan": 204,
   "batch_001_chosen_in_faulty_fan": 28,
-  "batch_001_chosen_in_corrected_fan": 37,
+  "batch_001_chosen_in_corrected_fan": 42,
   "batch_002_chosen_in_faulty_fan": 39,
-  "batch_002_chosen_in_corrected_fan": 77,
+  "batch_002_chosen_in_corrected_fan": 80,
   "batch_003_chosen_in_faulty_fan": 24,
-  "batch_003_chosen_in_corrected_fan": 75
+  "batch_003_chosen_in_corrected_fan": 81
  },
  "scan_defects_union": 584,
  "scan_defects_by_reason": {
@@ -34,17 +34,17 @@
   "رمز هيروغليفي واحد مكرر بخلل المسح": 64
  },
  "cards_written": 250,
- "chosen_in_corrected_fan": 75,
- "positive": 0,
- "open_candidate": 250,
+ "chosen_in_corrected_fan": 81,
+ "positive": 8,
+ "open_candidate": 242,
  "open_reasons_overlapping": {
-  "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة": 175,
+  "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة": 169,
+  "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية": 3,
   "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت": 73,
-  "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي": 177,
-  "صفوف الشبكة الناقصة المبيّنة في مسار الصوت": 192,
-  "مراجعة دلالية بشرية مستقلة تتجاوز التقارب الآلي بين النصوص": 1,
-  "مقابلة الصفحة المصوّرة لعيب المسح المسمّى": 210,
-  "نص لسان العرب أو تاج العروس للمادة": 121
+  "حدث النواة من السجل المجمد": 5,
+  "صفوف الشبكة الناقصة المبيّنة في مسار الصوت": 187,
+  "مقابلة الصفحة المصوّرة لعيب المسح المسمّى": 203,
+  "نص لسان العرب أو تاج العروس للمادة": 105
  },
  "rows": [
   {
@@ -63,8 +63,12 @@
     "تقدمة",
     "نارا"
    ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": "إيقاد النار للحرق في بدج هو نفسه سَعْر النار وإيقادها وتهييجها في العربية؛ فالمدار مباشر.",
+   "scan_override_by_human_orbit": true,
+   "closure": "READY",
+   "verdict": "ROOT-TRACE",
    "sound_rows": [
     "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
     "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
@@ -74,8 +78,36 @@
    "scan_reasons": [
     "رمز هيروغليفي واحد مكرر بخلل المسح"
    ],
+   "open_reasons": []
+  },
+  {
+   "index": 565,
+   "foreign": "āam",
+   "sense": "to eat, to under-",
+   "root": "عيم",
+   "score": 68,
+   "raw_fan_count": 20,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "فهم"
+   ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [],
    "open_reasons": [
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ]
   },
   {
@@ -91,8 +123,12 @@
    "semantic_hits": [
     "وعاء"
    ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": "الوعاء في بدج يسع الماء، والاستيعاب في العربية سعة الوعاء لما جعل فيه؛ فالمدار وظيفة الاحتواء.",
+   "scan_override_by_human_orbit": false,
+   "closure": "READY",
+   "verdict": "ROOT-TRACE",
    "sound_rows": [
     "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)",
     "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
@@ -100,9 +136,7 @@
    ],
    "sound_misses": [],
    "scan_reasons": [],
-   "open_reasons": [
-    "مراجعة دلالية بشرية مستقلة تتجاوز التقارب الآلي بين النصوص"
-   ]
+   "open_reasons": []
   },
   {
    "index": 591,
@@ -115,6 +149,10 @@
    "root_in_stem_fan": true,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -125,7 +163,35 @@
    "sound_misses": [],
    "scan_reasons": [],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 600,
+   "foreign": "āsa",
+   "sense": "Rev., wrong, retribution",
+   "root": "عسا",
+   "score": 56,
+   "raw_fan_count": 60,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [],
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ]
   },
   {
@@ -139,6 +205,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -151,7 +221,6 @@
    "scan_reasons": [],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -166,6 +235,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -178,7 +251,6 @@
    "scan_reasons": [],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -193,6 +265,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -205,7 +281,6 @@
    "scan_reasons": [],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -215,15 +290,19 @@
    "sense": "boat, barge",
    "root": "قرر",
    "score": 52,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "مركب"
    ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": "القارب والبارجة مركب يحمل راكبه، و`القَرّ` في العربية مركب للرجال؛ فالمدار مركب الحمل وإن اختلف البر والماء.",
+   "scan_override_by_human_orbit": true,
+   "closure": "READY",
+   "verdict": "ROOT-TRACE",
    "sound_rows": [
     "q↔ق = `IDN-12` (بحث: `q` + `ق` + «المصريّة/Egyptian» في عمود الشاهد)",
     "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)",
@@ -233,9 +312,7 @@
    "scan_reasons": [
     "رمز هيروغليفي واحد مكرر بخلل المسح"
    ],
-   "open_reasons": [
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
-   ]
+   "open_reasons": []
   },
   {
    "index": 785,
@@ -248,6 +325,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -260,7 +341,6 @@
    "scan_reasons": [],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -277,8 +357,12 @@
    "semantic_hits": [
     "أسرع"
    ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": "العجلة والإسراع في بدج يطابقان قول العربية `نششت الجلد إذا أسرعت سلخه`؛ فالمدار مباشر.",
+   "scan_override_by_human_orbit": true,
+   "closure": "READY",
+   "verdict": "ROOT-TRACE",
    "sound_rows": [
     "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)",
     "sh↔ش = `IDN-21` (بحث: `sh` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
@@ -288,9 +372,7 @@
    "scan_reasons": [
     "رمز هيروغليفي واحد مكرر بخلل المسح"
    ],
-   "open_reasons": [
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
-   ]
+   "open_reasons": []
   },
   {
    "index": 415,
@@ -303,6 +385,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -315,7 +401,6 @@
    "scan_reasons": [],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -330,6 +415,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -340,8 +429,7 @@
    "sound_misses": [],
    "scan_reasons": [],
    "open_reasons": [
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "نص لسان العرب أو تاج العروس للمادة"
    ]
   },
   {
@@ -355,6 +443,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -365,8 +457,7 @@
    "sound_misses": [],
    "scan_reasons": [],
    "open_reasons": [
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "نص لسان العرب أو تاج العروس للمادة"
    ]
   },
   {
@@ -375,13 +466,17 @@
    "sense": "to desire, to wish for, to crave for to will",
    "root": "مرر",
    "score": 50,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "أراد"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -403,13 +498,17 @@
    "sense": "child, son",
    "root": "مسس",
    "score": 50,
-   "raw_fan_count": 6,
+   "raw_fan_count": 30,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "ابن"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -436,6 +535,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -448,7 +551,6 @@
    "scan_reasons": [],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -465,8 +567,12 @@
    "semantic_hits": [
     "ظفر"
    ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": "الفوز والظفر والغلبة في بدج يطابق قول العربية «استنار عليه: ظفر به وغلبه»؛ فالمدار مباشر.",
+   "scan_override_by_human_orbit": true,
+   "closure": "READY",
+   "verdict": "ROOT-TRACE",
    "sound_rows": [
     "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)",
     "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)",
@@ -476,8 +582,34 @@
    "scan_reasons": [
     "رمز هيروغليفي واحد مكرر بخلل المسح"
    ],
+   "open_reasons": []
+  },
+  {
+   "index": 561,
+   "foreign": "āa-t",
+   "sense": "ice or value, gem, amulet, tumour; plur. rare stones; nes",
+   "root": "عتا",
+   "score": 48,
+   "raw_fan_count": 40,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": false,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "جوهرة"
+   ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 1 في الفرع و3 في المرشح"
+   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -493,6 +625,10 @@
    "semantic_hits": [
     "مدفن"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -519,6 +655,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -531,7 +671,6 @@
     "رمز هيروغليفي واحد مكرر بخلل المسح"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -546,6 +685,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -558,7 +701,6 @@
     "الرأس إنجليزي لا رومنة مصرية"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -573,6 +715,10 @@
    "root_in_stem_fan": true,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -586,8 +732,37 @@
     "رمز هيروغليفي واحد مكرر بخلل المسح"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
+    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+   ]
+  },
+  {
+   "index": 603,
+   "foreign": "āka",
+   "sense": "a drowning man",
+   "root": "عكا",
+   "score": 38,
+   "raw_fan_count": 20,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "k↔ك = `IDN-13` (بحث: `k` + `ك` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "open_reasons": [
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -604,8 +779,12 @@
    "semantic_hits": [
     "die"
    ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": "`to die` في بدج هو نفس حدث `مات يموت موتًا` في العربية؛ فالمدار مباشر.",
+   "scan_override_by_human_orbit": true,
+   "closure": "READY",
+   "verdict": "ROOT-TRACE",
    "sound_rows": [
     "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
     "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)",
@@ -616,9 +795,7 @@
     "رمز هيروغليفي واحد مكرر بخلل المسح",
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
-   "open_reasons": [
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
-   ]
+   "open_reasons": []
   },
   {
    "index": 682,
@@ -626,13 +803,17 @@
    "sense": "A.Z. 1908, 17, an amulet, a kind of ornament",
    "root": "من",
    "score": 38,
-   "raw_fan_count": 2,
+   "raw_fan_count": 10,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "القوة والثبات مع صفة (نقص، وثاقة، حجز)",
+   "human_orbit": "الحرز أداة تثبيت وحجز وحماية، وحدث النواة `من` هو القوة والثبات مع الوثاقة والحجز؛ فالمدار وظيفته الحافظة.",
+   "scan_override_by_human_orbit": true,
+   "closure": "READY",
+   "verdict": "NUCLEUS-TRACE",
    "sound_rows": [
     "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
     "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)"
@@ -641,10 +822,7 @@
    "scan_reasons": [
     "رمز هيروغليفي واحد مكرر بخلل المسح"
    ],
-   "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
-   ]
+   "open_reasons": []
   },
   {
    "index": 498,
@@ -657,6 +835,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -669,7 +851,6 @@
     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -684,6 +865,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -696,7 +881,6 @@
     "الرأس إنجليزي لا رومنة مصرية"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -711,6 +895,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -723,7 +911,6 @@
     "رمز هيروغليفي واحد مكرر بخلل المسح"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -738,6 +925,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -751,7 +942,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -766,6 +956,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -780,7 +974,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -796,6 +989,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -810,7 +1007,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -826,6 +1022,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -840,7 +1040,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -856,6 +1055,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -869,7 +1072,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -884,6 +1086,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -898,8 +1104,40 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
+    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+   ]
+  },
+  {
+   "index": 764,
+   "foreign": "neb",
+   "sense": "all, any, each, every, everyone, every sort or kind; fem. neb-t 𓂋𓂋; plur. 𓂋𓂋, 𓂋𓂋, ; 𓂋𓂋",
+   "root": "نيب",
+   "score": 34,
+   "raw_fan_count": 10,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "جميع"
+   ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "b↔ب = `IDN-05` (بحث: `b` + `ب` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "open_reasons": [
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -916,6 +1154,10 @@
    "semantic_hits": [
     "جميع"
    ],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -943,6 +1185,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -956,7 +1202,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -971,6 +1216,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -985,7 +1234,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -996,11 +1244,15 @@
    "sense": "𓀀, 𓀀, 𓀀, to go down, to fall; see 𓀀",
    "root": "هو",
    "score": 34,
-   "raw_fan_count": 4,
+   "raw_fan_count": 16,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1012,8 +1264,7 @@
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
    "open_reasons": [
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
+    "حدث النواة من السجل المجمد",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1023,11 +1274,15 @@
    "sense": "𓊃𓊀𓊀, 𓊃𓊀𓊀, 𓊃𓊀𓊀, 𓊃𓊀𓊀, 𓊃𓊀𓊀, 𓊃𓊀𓊀, 𓊃𓊀𓊀, 𓊃𓊀𓊀, 𓊃𓊀𓊀, memorial tablet or stone, landmark, pillar, boundary stone, inscr",
    "root": "وذ",
    "score": 34,
-   "raw_fan_count": 8,
+   "raw_fan_count": 36,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1039,8 +1294,7 @@
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
    "open_reasons": [
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
+    "حدث النواة من السجل المجمد",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1055,6 +1309,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -1065,7 +1323,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -1080,6 +1337,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1093,7 +1354,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1108,6 +1368,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1122,7 +1386,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -1138,6 +1401,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1152,7 +1419,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -1168,6 +1434,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1181,7 +1451,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1191,11 +1460,15 @@
    "sense": "h companions, to swill",
    "root": "نو",
    "score": 32,
-   "raw_fan_count": 2,
+   "raw_fan_count": 8,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "الاحتواء والانجذاب والعود إلى الجوف أو الأصل",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1207,8 +1480,6 @@
     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
    ],
    "open_reasons": [
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1223,6 +1494,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -1233,7 +1508,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -1248,6 +1522,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -1258,7 +1536,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -1268,11 +1545,15 @@
    "sense": "Jour. As. 1908, 285, to set",
    "root": "وع",
    "score": 32,
-   "raw_fan_count": 4,
+   "raw_fan_count": 18,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "حوز الشيء في جوفه",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1284,8 +1565,6 @@
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
    "open_reasons": [
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1300,6 +1579,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1313,7 +1596,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1328,6 +1610,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1342,7 +1628,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -1360,6 +1645,10 @@
    "semantic_hits": [
     "طائر"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1377,18 +1666,52 @@
    ]
   },
   {
+   "index": 846,
+   "foreign": "hab-t",
+   "sense": "a journey",
+   "root": "وهب",
+   "score": 31,
+   "raw_fan_count": 4,
+   "root_in_raw_fan": false,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "h↔ه = `IDN-20` (بحث: `h` + `ه` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "b↔ب = `IDN-05` (بحث: `b` + `ب` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "open_reasons": [
+    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+   ]
+  },
+  {
    "index": 500,
    "foreign": "seh 8",
    "sense": "to discuss, to talk over a thing, to take counsel; Dream Stele 27, took counsel with his heart; 9",
    "root": "سحح",
    "score": 30,
-   "raw_fan_count": 12,
+   "raw_fan_count": 60,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "استشار"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1417,6 +1740,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -1427,7 +1754,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -1442,6 +1768,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1455,7 +1785,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1473,6 +1802,10 @@
     "beneficent",
     "محسن"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -1491,7 +1824,7 @@
    "sense": "band, tie, cord, rope",
    "root": "حبل",
    "score": 23,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1501,6 +1834,10 @@
     "حبل",
     "رباط"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -1530,6 +1867,10 @@
     "كاتب",
     "ناسخ"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -1553,6 +1894,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1566,7 +1911,6 @@
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1581,6 +1925,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1594,7 +1942,6 @@
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1609,6 +1956,10 @@
    "root_in_stem_fan": true,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1622,7 +1973,6 @@
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1637,8 +1987,12 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": "الكاذب يخدع، والمكر في العربية الخديعة والاحتيال؛ فالمدار فعل التضليل.",
+   "scan_override_by_human_orbit": true,
+   "closure": "READY",
+   "verdict": "ROOT-TRACE",
    "sound_rows": [
     "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
     "k↔ك = `IDN-13` (بحث: `k` + `ك` + «المصريّة/Egyptian» في عمود الشاهد)",
@@ -1649,10 +2003,7 @@
     "رمز هيروغليفي واحد مكرر بخلل المسح",
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
-   "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
-   ]
+   "open_reasons": []
   },
   {
    "index": 878,
@@ -1660,13 +2011,17 @@
    "sense": "that which is",
    "root": "ما",
    "score": 20,
-   "raw_fan_count": 2,
+   "raw_fan_count": 9,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "which"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -1677,7 +2032,8 @@
    "scan_reasons": [],
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
+    "حدث النواة من السجل المجمد"
    ]
   },
   {
@@ -1693,6 +2049,10 @@
    "semantic_hits": [
     "أرض"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1719,6 +2079,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1733,7 +2097,6 @@
    ],
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1748,6 +2111,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1762,7 +2129,6 @@
    ],
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1777,6 +2143,10 @@
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1791,7 +2161,6 @@
    ],
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1808,6 +2177,10 @@
    "semantic_hits": [
     "والكتف"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1829,11 +2202,15 @@
    "sense": "khemm ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ⓐ ",
    "root": "خمم",
    "score": 18,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1847,7 +2224,6 @@
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1857,13 +2233,17 @@
    "sense": "to purify, to make clean",
    "root": "عبل",
    "score": 18,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "مردود"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -1887,6 +2267,10 @@
    "root_in_stem_fan": true,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1900,7 +2284,6 @@
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
    "open_reasons": [
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -1910,18 +2293,25 @@
    "sense": "reed, a reed flute or pipe",
    "root": "يرع",
    "score": 17,
-   "raw_fan_count": 4,
+   "raw_fan_count": 18,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "مزمار"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔ر (بحث: `u` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "r↔ع (بحث: `r` + `ع` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1935,11 +2325,15 @@
    "sense": "chamber, council hall or chamber; plur",
    "root": "سحح",
    "score": 16,
-   "raw_fan_count": 12,
+   "raw_fan_count": 60,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -1954,58 +2348,7 @@
    ],
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
-   ]
-  },
-  {
-   "index": 561,
-   "foreign": "āa-t",
-   "sense": "ice or value, gem, amulet, tumour; plur. rare stones; nes",
-   "root": "عتا",
-   "score": 16,
-   "raw_fan_count": 8,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "جوهرة"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 1 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
-   ]
-  },
-  {
-   "index": 565,
-   "foreign": "āam",
-   "sense": "to eat, to under-",
-   "root": "عيم",
-   "score": 16,
-   "raw_fan_count": 4,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "فهم"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -2019,6 +2362,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -2034,7 +2381,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -2050,6 +2396,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -2064,7 +2414,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -2079,6 +2428,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -2094,7 +2447,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -2110,6 +2462,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -2125,7 +2481,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -2136,18 +2491,25 @@
    "sense": "to make bad, to defame, to decry, to vilify; caus",
    "root": "سين",
    "score": 15,
-   "raw_fan_count": 6,
+   "raw_fan_count": 24,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [
     "جعله"
    ],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔ن (بحث: `u` + `ن` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2168,6 +2530,10 @@
    "semantic_hits": [
     "عطرة"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2191,6 +2557,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -2206,7 +2576,6 @@
    ],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -2222,6 +2591,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -2238,7 +2611,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -2254,6 +2626,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2266,7 +2642,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -2277,11 +2652,15 @@
    "sense": "we, us",
    "root": "ون",
    "score": 14,
-   "raw_fan_count": 2,
+   "raw_fan_count": 9,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "الفتور والتوقف عن الحركة",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -2294,8 +2673,6 @@
     "المعنى الإنجليزي لم يسلم من المسح"
    ],
    "open_reasons": [
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -2314,6 +2691,10 @@
     "قطع",
     "قطعا"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2335,7 +2716,7 @@
    "sense": "to complete",
    "root": "كمل",
    "score": 11,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2344,6 +2725,10 @@
     "أتم",
     "أنهى"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2373,6 +2758,10 @@
     "settle",
     "حسب"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2404,6 +2793,10 @@
     "back",
     "عنق"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2435,6 +2828,10 @@
     "descend",
     "down"
    ],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2459,7 +2856,7 @@
    "sense": "sheep; Gr. βḡ, ovis longipes",
    "root": "كبش",
    "score": 5,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2467,6 +2864,10 @@
     "sheep",
     "كبش"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2496,6 +2897,10 @@
     "pregnant",
     "حبلى"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2525,6 +2930,10 @@
     "patient",
     "مريضا"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2556,6 +2965,10 @@
     "ape",
     "قرد"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2587,6 +3000,10 @@
     "بالتمام",
     "ناس"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2615,6 +3032,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2624,32 +3045,7 @@
    "scan_reasons": [],
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
-   ]
-  },
-  {
-   "index": 600,
-   "foreign": "āsa",
-   "sense": "Rev., wrong, retribution",
-   "root": "عسا",
-   "score": 4,
-   "raw_fan_count": 12,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -2658,22 +3054,28 @@
    "sense": "to be hot, to burn",
    "root": "وأم",
    "score": 4,
-   "raw_fan_count": 2,
+   "raw_fan_count": 9,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔أ (بحث: `u` + `أ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -2687,6 +3089,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2696,8 +3102,7 @@
    "scan_reasons": [],
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -2714,6 +3119,10 @@
     "فاض",
     "قاء"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2737,13 +3146,17 @@
    "sense": "death bed, bier",
    "root": "من",
    "score": 2,
-   "raw_fan_count": 4,
+   "raw_fan_count": 18,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [
     "death"
    ],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "القوة والثبات مع صفة (نقص، وثاقة، حجز)",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2766,22 +3179,28 @@
    "sense": "worm =",
    "root": "فعا",
    "score": 1,
-   "raw_fan_count": 2,
+   "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "f↔ف = `IDN-06` (بحث: `f` + `ف` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔ع (بحث: `u` + `ع` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -2795,6 +3214,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2804,8 +3227,7 @@
    "scan_reasons": [],
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -2821,6 +3243,10 @@
    "semantic_hits": [
     "violent"
    ],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2847,6 +3273,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2858,7 +3288,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -2873,6 +3302,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2885,7 +3318,6 @@
    ],
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -2900,6 +3332,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2911,7 +3347,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -2926,6 +3361,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "التخلخل الممتد في الباطن",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2935,9 +3374,7 @@
    "scan_reasons": [],
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -2953,6 +3390,10 @@
    "semantic_hits": [
     "رجل"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -2982,6 +3423,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -2993,7 +3438,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -3008,11 +3452,18 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔ت (بحث: `u` + `ت` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [
     "رمز هيروغليفي واحد مكرر بخلل المسح",
@@ -3020,7 +3471,6 @@
    ],
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -3037,6 +3487,10 @@
    "semantic_hits": [
     "تقدمات"
    ],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -3061,18 +3515,25 @@
    "sense": "garden, courtyard;",
    "root": "غيض",
    "score": -1,
-   "raw_fan_count": 8,
+   "raw_fan_count": 36,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "حديقة"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "kh↔غ (بحث: `kh` + `غ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "i↔ض (بحث: `i` + `ض` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [
     "رمز هيروغليفي واحد مكرر بخلل المسح"
@@ -3096,6 +3557,10 @@
    "semantic_hits": [
     "رفع"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -3120,22 +3585,28 @@
    "sense": "a fighting animal, the Set animal (?)",
    "root": "عجا",
    "score": -1,
-   "raw_fan_count": 8,
+   "raw_fan_count": 40,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "h↔ج (بحث: `h` + `ج` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -3144,18 +3615,25 @@
    "sense": "deluge",
    "root": "جوب",
    "score": -2,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "ماء"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "f↔ج (بحث: `f` + `ج` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "d↔ب (بحث: `d` + `ب` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [
     "الرأس إنجليزي لا رومنة مصرية"
@@ -3172,13 +3650,17 @@
    "sense": "to rise, to pass on, to pass up",
    "root": "بسس",
    "score": -2,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "تقدم"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -3210,6 +3692,10 @@
    "semantic_hits": [
     "بالقوة"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3238,6 +3724,10 @@
    "semantic_hits": [
     "ملي"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3268,6 +3758,10 @@
    "semantic_hits": [
     "قلب"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3298,6 +3792,10 @@
    "semantic_hits": [
     "ناس"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3328,6 +3826,10 @@
    "semantic_hits": [
     "ناس"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3351,13 +3853,17 @@
    "sense": "tomb, necropolis, cemetery",
    "root": "خرر",
    "score": -2,
-   "raw_fan_count": 12,
+   "raw_fan_count": 60,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "جبانة"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -3389,6 +3895,10 @@
    "semantic_hits": [
     "جمع"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3412,18 +3922,25 @@
    "sense": "antimony;",
    "root": "سما",
    "score": -2,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "عين"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "k↔س (بحث: `k` + `س` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "h↔م (بحث: `h` + `م` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [
     "الرأس إنجليزي لا رومنة مصرية"
@@ -3447,6 +3964,10 @@
    "semantic_hits": [
     "فهم"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3468,11 +3989,15 @@
    "sense": "food, bread",
    "root": "عفأ",
    "score": -2,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3483,8 +4008,7 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "نص لسان العرب أو تاج العروس للمادة"
    ]
   },
   {
@@ -3500,6 +4024,10 @@
    "semantic_hits": [
     "لقب"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3528,6 +4056,10 @@
    "semantic_hits": [
     "انتكب"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3556,6 +4088,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "حوز الشيء في جوفه",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3565,9 +4101,7 @@
    "scan_reasons": [],
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -3581,6 +4115,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3592,7 +4130,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -3609,6 +4146,10 @@
    "semantic_hits": [
     "أرض"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3632,13 +4173,17 @@
    "sense": "chief, master, president",
    "root": "شرف",
    "score": -3,
-   "raw_fan_count": 8,
+   "raw_fan_count": 40,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "جماعة"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3667,6 +4212,10 @@
    "semantic_hits": [
     "صاحبة"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3695,6 +4244,10 @@
    "semantic_hits": [
     "بيت"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3718,13 +4271,17 @@
    "sense": "to withdraw",
    "root": "شدد",
    "score": -3,
-   "raw_fan_count": 4,
+   "raw_fan_count": 18,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "أخرج"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -3749,13 +4306,17 @@
    "sense": "to denude, to unclothe, to divest, to strip, to deprive, to spoil, to dismantle, to unveil, to uncover, to unf",
    "root": "خبأ",
    "score": -3,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "مخبأ"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3784,6 +4345,10 @@
    "semantic_hits": [
     "خاتم"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3810,6 +4375,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3821,7 +4390,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت"
    ]
   },
@@ -3838,6 +4406,10 @@
    "semantic_hits": [
     "قطع"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3864,6 +4436,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3877,7 +4453,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -3892,6 +4467,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3905,7 +4484,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -3923,6 +4501,10 @@
    "semantic_hits": [
     "مستوطنة"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3951,6 +4533,10 @@
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -3968,7 +4554,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -3984,6 +4569,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -3997,7 +4586,6 @@
    "open_reasons": [
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -4016,6 +4604,10 @@
     "reckon",
     "حسب"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4048,6 +4640,10 @@
     "force",
     "أضر"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4072,11 +4668,15 @@
    "sense": "evil thing, iniquity, wickedness, bad, abomina-",
    "root": "بتأ",
    "score": -14,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4089,7 +4689,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4104,6 +4703,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -4119,7 +4722,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4134,6 +4736,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -4149,7 +4755,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4164,6 +4769,10 @@
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -4179,7 +4788,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4194,6 +4802,10 @@
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4206,34 +4818,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
-   ]
-  },
-  {
-   "index": 603,
-   "foreign": "āka",
-   "sense": "a drowning man",
-   "root": "عكا",
-   "score": -14,
-   "raw_fan_count": 4,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [
-    "رمز هيروغليفي واحد مكرر بخلل المسح"
-   ],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4251,6 +4835,10 @@
     "بقرن",
     "واليد"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4270,39 +4858,12 @@
    ]
   },
   {
-   "index": 846,
-   "foreign": "hab-t",
-   "sense": "a journey",
-   "root": "وهب",
-   "score": -15,
-   "raw_fan_count": 4,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [
-    "رمز هيروغليفي واحد مكرر بخلل المسح"
-   ],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
-   ]
-  },
-  {
    "index": 26,
    "foreign": "to go",
    "sense": "to come ;",
    "root": "ذهب",
    "score": -16,
-   "raw_fan_count": 12,
+   "raw_fan_count": 60,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -4310,6 +4871,10 @@
     "جاء",
     "ذهب"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4332,16 +4897,23 @@
    "sense": "vomit",
    "root": "بشو",
    "score": -16,
-   "raw_fan_count": 12,
+   "raw_fan_count": 54,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "s↔ب (بحث: `s` + `ب` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "i↔ش (بحث: `i` + `ش` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [
     "الرأس إنجليزي لا رومنة مصرية"
@@ -4349,7 +4921,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4364,6 +4935,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -4379,7 +4954,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4394,6 +4968,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -4409,7 +4987,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4424,6 +5001,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4436,7 +5017,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4451,6 +5031,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4465,7 +5049,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4480,6 +5063,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4492,7 +5079,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4502,16 +5088,23 @@
    "sense": "stranger, alien",
    "root": "خيت",
    "score": -16,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "kh↔خ = `IDN-17` (بحث: `kh` + `خ` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "m↔ت (بحث: `m` + `ت` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [
     "الرأس إنجليزي لا رومنة مصرية"
@@ -4519,7 +5112,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4534,6 +5126,10 @@
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4548,7 +5144,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4563,6 +5158,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4575,7 +5174,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4590,6 +5188,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4602,7 +5204,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4617,6 +5218,10 @@
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
+   "event_source": "تاج العروس لمرتضى الزبيدي",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4629,7 +5234,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -4640,11 +5244,15 @@
    "sense": "ground, soil, pave-",
    "root": "سأت",
    "score": -16,
-   "raw_fan_count": 12,
+   "raw_fan_count": 60,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4657,7 +5265,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4667,11 +5274,15 @@
    "sense": "to kill",
    "root": "سفف",
    "score": -16,
-   "raw_fan_count": 6,
+   "raw_fan_count": 24,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -4687,7 +5298,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4702,6 +5312,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4716,7 +5330,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4731,6 +5344,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4745,7 +5362,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4760,6 +5376,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4774,7 +5394,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4789,6 +5408,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4801,7 +5424,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4816,6 +5438,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4828,7 +5454,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4838,11 +5463,15 @@
    "sense": "to be away from a person or",
    "root": "وأي",
    "score": -16,
-   "raw_fan_count": 4,
+   "raw_fan_count": 16,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4855,7 +5484,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4870,6 +5498,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4884,7 +5516,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4901,6 +5532,10 @@
    "semantic_hits": [
     "موت"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -4926,11 +5561,15 @@
    "sense": "instructor, teacher, school-",
    "root": "يس",
    "score": -18,
-   "raw_fan_count": 6,
+   "raw_fan_count": 30,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -4945,8 +5584,7 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
+    "حدث النواة من السجل المجمد",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -4961,6 +5599,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -4974,7 +5616,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -4990,6 +5631,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -5007,7 +5652,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5023,6 +5667,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5036,7 +5684,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5052,6 +5699,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5065,7 +5716,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5081,6 +5731,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5094,7 +5748,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5110,6 +5763,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -5127,7 +5784,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5145,6 +5801,10 @@
    "semantic_hits": [
     "إنشاء"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -5170,11 +5830,15 @@
    "sense": "forest, plantation, or-",
    "root": "شتأ",
    "score": -18,
-   "raw_fan_count": 8,
+   "raw_fan_count": 40,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5188,7 +5852,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5203,6 +5866,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5216,7 +5883,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5232,6 +5898,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5245,7 +5915,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5261,6 +5930,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5273,7 +5946,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5288,6 +5960,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5301,37 +5977,7 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
-   ]
-  },
-  {
-   "index": 764,
-   "foreign": "neb",
-   "sense": "all, any, each, every, everyone, every sort or kind; fem. neb-t 𓂋𓂋; plur. 𓂋𓂋, 𓂋𓂋, ; 𓂋𓂋",
-   "root": "نيب",
-   "score": -18,
-   "raw_fan_count": 2,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "جميع"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [
-    "رمز هيروغليفي واحد مكرر بخلل المسح",
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5346,6 +5992,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5359,7 +6009,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5374,6 +6023,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5387,7 +6040,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5402,6 +6054,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5416,7 +6072,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5433,6 +6088,10 @@
    "semantic_hits": [
     "استعجب"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5462,6 +6121,10 @@
    "semantic_hits": [
     "رجل"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5486,11 +6149,15 @@
    "sense": "A.Z. 1898, 49, Rev. 14, 10, to be sad ;",
    "root": "أشرت",
    "score": -20,
-   "raw_fan_count": 2,
+   "raw_fan_count": 10,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5504,7 +6171,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5520,6 +6186,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5532,8 +6202,7 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
+    "حدث النواة من السجل المجمد",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5548,6 +6217,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5561,7 +6234,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5577,6 +6249,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5590,7 +6266,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5606,6 +6281,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5621,7 +6300,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5636,6 +6314,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5651,7 +6333,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5661,11 +6342,15 @@
    "sense": "body, corcuse",
    "root": "اوف",
    "score": -20,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5679,7 +6364,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5694,6 +6378,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5707,7 +6395,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5722,6 +6409,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5737,7 +6428,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5747,11 +6437,15 @@
    "sense": "pustule, abscess",
    "root": "بسيت",
    "score": -20,
-   "raw_fan_count": 4,
+   "raw_fan_count": 18,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5765,7 +6459,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5781,6 +6474,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5797,7 +6494,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5813,6 +6509,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "القطع والانفصال",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5825,8 +6525,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -5841,6 +6539,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -5858,7 +6560,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5869,11 +6570,15 @@
    "sense": "temm",
    "root": "تميو",
    "score": -20,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5887,7 +6592,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5898,11 +6602,15 @@
    "sense": "to be humble",
    "root": "حفنو",
    "score": -20,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5916,7 +6624,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5934,6 +6641,10 @@
    "semantic_hits": [
     "غصن"
    ],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5963,6 +6674,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -5979,7 +6694,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -5995,6 +6709,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6008,7 +6726,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6023,6 +6740,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6036,7 +6757,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6051,6 +6771,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -6068,7 +6792,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6084,6 +6807,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6097,7 +6824,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6113,6 +6839,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -6130,7 +6860,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6146,6 +6875,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6159,7 +6892,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6175,6 +6907,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "نقص الحدة أو الجرم",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6187,8 +6923,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6198,11 +6932,15 @@
    "sense": "to be inactive, inert",
    "root": "خأس",
    "score": -20,
-   "raw_fan_count": 12,
+   "raw_fan_count": 60,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6216,7 +6954,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6226,11 +6963,15 @@
    "sense": "gore",
    "root": "دشر",
    "score": -20,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6244,7 +6985,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6254,11 +6994,15 @@
    "sense": "fan, umbrella",
    "root": "سيري",
    "score": -20,
-   "raw_fan_count": 6,
+   "raw_fan_count": 30,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6272,7 +7016,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6288,6 +7031,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6301,7 +7048,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6312,11 +7058,15 @@
    "sense": "to be poured out, exhausted",
    "root": "سفكك",
    "score": -20,
-   "raw_fan_count": 4,
+   "raw_fan_count": 18,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6330,7 +7080,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6346,6 +7095,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6362,7 +7115,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6378,6 +7130,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6393,7 +7149,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6408,6 +7163,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -6424,7 +7183,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6439,6 +7197,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6452,7 +7214,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6468,6 +7229,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6481,7 +7246,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6496,6 +7260,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -6513,7 +7281,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6529,6 +7296,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
@@ -6546,7 +7317,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6557,11 +7327,15 @@
    "sense": "any small domestic animal",
    "root": "عنخ",
    "score": -20,
-   "raw_fan_count": 12,
+   "raw_fan_count": 60,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6575,7 +7349,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6590,6 +7363,10 @@
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
+   "event_source": "لسان العرب لابن منظور",
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6602,7 +7379,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6617,6 +7393,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6633,7 +7413,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6649,6 +7428,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "نوع من التركز والكثافة مع غلظ وثقل إلى أسفل",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6661,8 +7444,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6672,11 +7453,15 @@
    "sense": "coffer, coffin, chest; plur. ﷺ",
    "root": "كإت",
    "score": -20,
-   "raw_fan_count": 8,
+   "raw_fan_count": 40,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6690,7 +7475,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6705,6 +7489,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6721,7 +7509,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6737,6 +7524,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6750,7 +7541,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6766,6 +7556,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6779,7 +7573,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6795,6 +7588,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6810,7 +7607,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6825,6 +7621,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6838,7 +7638,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6854,6 +7653,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "النُّبُوُّ ارتفاعًا أو ابتعادًا",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6866,8 +7669,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6882,6 +7683,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "النُّبُوُّ ارتفاعًا أو ابتعادًا",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6894,8 +7699,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6910,6 +7713,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "التجوف والوجود في الجوف",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6922,8 +7729,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6938,6 +7743,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6951,7 +7760,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -6967,6 +7775,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": "data/juthoor-core-levels.json",
+   "nucleus_event": "الوصول إلى عمق الشيء بجد وتدقيق",
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -6979,8 +7791,6 @@
    "open_reasons": [
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -6995,6 +7805,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -7011,7 +7825,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -7027,6 +7840,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -7040,7 +7857,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -7050,11 +7866,15 @@
    "sense": "to traverse a country, to invade a country",
    "root": "هآب",
    "score": -20,
-   "raw_fan_count": 4,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -7068,7 +7888,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -7083,6 +7902,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -7096,7 +7919,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -7112,6 +7934,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -7125,7 +7951,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
@@ -7136,16 +7961,23 @@
    "sense": "way, road, path",
    "root": "وأت",
    "score": -20,
-   "raw_fan_count": 4,
+   "raw_fan_count": 18,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔أ (بحث: `u` + `أ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [
     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
@@ -7154,7 +7986,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]
   },
@@ -7169,6 +8000,10 @@
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
+   "event_source": null,
+   "nucleus_event": null,
+   "human_orbit": null,
+   "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [],
@@ -7182,7 +8017,6 @@
     "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
     "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
     "نص لسان العرب أو تاج العروس للمادة",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي",
     "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
     "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
    ]

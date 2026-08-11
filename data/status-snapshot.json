@@ -33,11 +33,11 @@
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
     "cards": 4594,
-    "links": 135,
-    "root": 31,
-    "nucleus": 103,
+    "links": 155,
+    "root": 47,
+    "nucleus": 107,
     "floor": 1,
-    "nucleus_share": 76.9
+    "nucleus_share": 69.5
    },
    {
     "key": "coptic",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2653,
+  "links_to_arabic": 2673,
   "closures": 821,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1248,
+    "count": 1264,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 768,
+    "count": 772,
     "link": true
    },
    {
@@ -262,8 +262,8 @@
  },
  "pipeline": {
   "cards_total": 28611,
-  "suspended": 21331,
-  "released": 7280,
+  "suspended": 21311,
+  "released": 7300,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -271,7 +271,7 @@
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 4110
+    "count": 4090
    },
    {
     "name": "SOURCE-GAP",
@@ -301,7 +301,7 @@
    },
    {
     "file": "egyptian.md",
-    "count": 4293
+    "count": 4273
    },
    {
     "file": "coptic.md",

@@ -39,6 +39,7 @@ REPORT_3 = ROOT / "data" / "khashim-egyptian-batch-003.json"
 FAN_AUDIT = ROOT / "04-cross-linguistic" / "egyptian-fan-expansion-audit.md"
 SHIFT_PROPOSALS = ROOT / "04-cross-linguistic" / "proposed-shift-rows-egyptian.md"
 SEMANTIC_AUDIT = ROOT / "05-audits" / "2026-08-11-khashim-egyptian-semantic-bridge-sample.md"
+CORE_LEVELS = ROOT / "data" / "juthoor-core-levels.json"
 RESOURCES = ROOT / "Resources"
 
 START_1 = "<!-- KHASHIM-EGYPTIAN-BATCH-001:START -->"
@@ -89,9 +90,8 @@ BUDGE_STEM_OVERRIDES = {
     "āamāq": ("āamq", "تعرية ā الداخلية الصائتة في مثال بدج المصرح `āamāq→عمق`"),
 }
 
-# لا يُصدر الحصاد حكمًا آليًّا لمجرد اجتماع ألفاظ عامة في نصين طويلين. هذه
-# الأزواج التسعة وحدها راجعها المنفذ عضوًا عضوًا: الصوت كامل بصفوف الشبكة،
-# والمعنى منصوص في بدج وفي المعجم العربي المسمى. سائر الدفعة يبقى مفتوحًا.
+# تحفظ هذه الجذور اختيار المرشح الذي راجعه العمل السابق. ليست القائمة بوابة
+# حكم: الحكم أدناه لا يصدر إلا من HUMAN_ORBITS وبعد اكتمال الأرجل الثلاث.
 APPROVED_POSITIVES = {
     99: "بجس",   # beges: dagger; لسان العرب: حديدة يشق بها
     67: "برك",   # bareka: to bless
@@ -114,6 +114,7 @@ LEXICON_ALIASES = {"كف": "كفف", "يم": "يمم"}
 # يمنع خوارزمية التقريب من اختيار جملة تشترك مع شرح خشيم في لفظ عام مثل
 # «حتى»، ولا يُستعمل أيٌّ منها خارج الصف المسمى.
 QUOTE_OVERRIDES = {
+    7: "والشَّرَرُ: ما تطاير من النار. وشَرَّ اللحْمَ والأَقِطَ والثوبَ ونحوَها يَشُرُّه شَرّاً: وضعه على خَصفَةٍ أَو غيرها ليَجِفَّ.",
     99: "فإن أراد أحد أن يفجرها بظفره قدر على ذلك لامتلائها ولم يحتج إلى حديدة يشقها بها.",
     67: "وبارك الله الشيءَ وبارك فيه وعليه: وضع فيه البَرَكَة.",
     68: "وهو من بَرَكَ البعير إذا أناخ في موضع فلزمه.",
@@ -129,60 +130,68 @@ QUOTE_OVERRIDES = {
     522: "وشدَّه أي أوثقه، يشدُّه ويشِدُّه أيضًا.",
     790: "وقال شمر: نشنش الرجلُ الرجلَ إذا دفعه وحرَّكه.",
     881: "وشجرة وارقة ووريقة وورقة: خضراء الورق حسنة؛ والوارقة الشجرة الخضراء الورق الحسنة.",
+    328: "الذَّوْبُ: ضِدُّ الجُمُودِ. ذابَ يَذُوبُ ذَوْباً وذَوَباناً: نَقيض جمَدَ. وذاب إِذا سال.",
+    357: "وسَعَرَ النار والحرب يَسْعَرُهما سَعْراً وأَسْعَرَهُما وسَعَّرَهُما: أَوقدهما وهَيَّجَهُما.",
+    423: "والساجور: القلادة أو الخشبة التي توضع في عنق الكلب. وسَجَرَ الكلبَ والرجلَ: وضع الساجور في عنقه؛ ومُسَوْجَراً: مُقَيَّداً مغلولاً.",
+    426: "والساجر والمسجور: الساكن. أبو عبيد: المسجور الساكن والممتلئ معًا.",
+    452: "الصَّفْوُ والصَّفَاءُ: نقيضُ الكَدَرِ. صفَا الشيءُ والشرابُ يصفو صفاءً؛ وصفَّيتُه أنا تصفيةً.",
+    453: "سَفَتِ الريحُ الترابَ واليابسَ والورقَ تسفيه سَفْياً: ذَرَتْه أو حملته.",
+    567: "العُمْق والعَمْق: البعد إلى أسفل، وقيل: هو قعر البئر والفج والوادي.",
+    616: "والقَرُّ: مَرْكَبٌ للرجال بين الرَّحْل والسَّرْج، وقيل: القَرُّ الهَوْدَجُ.",
+    681: "ماتَ يَمُوتُ مَوْتاً. وقيل: المَيْتُ الذي ماتَ.",
+    717: "وفي التهذيب: أصبحت الأرض مَحْوةً واحدةً إذا تغطّى وجهها بالماء.",
+    737: "ابن سيده: المَكْرُ الخَدِيعَة والاحتيال، مَكَرَ يَمْكُرُ مَكْراً ومَكَرَ به.",
+    761: "واسْتَنارَ عليه: ظَفِرَ به وغلبه.",
+    792: "ونَشَّشْت الجلد إذا أسرعتَ سلخَه وقطعته عن اللحم.",
+    897: "واسْتَوْعَبَ المكانُ والوِعاءُ الشيءَ: وَسِعَه. وبيتٌ وِعاءٌ: واسعٌ يستوعب كلَّ ما جُعل فيه.",
 }
 
-SEMANTIC_LABELS = {
-    99: "الحديدة التي يُشق بها، وهي مدار الخنجر ووظيفته",
-    67: "البركة والدعاء بها",
-    68: "البروك والإنَاخة ولزوم الموضع، وهو وجه ثني الركبة",
-    385: "إيلام الجسد بإدخال المسمار المحمى",
-    424: "الإحاطة والامتلاء والقيد، وهي مدار المكان المحصن المغلق",
-    427: "السكون؛ نص اللسان يسمّي المسجور ساكنًا",
-    459: "السفك وإراقة الدم، وهو وجه الذبح في معنى بدج",
-    650: "الكف واليد",
-    806: "ضرب الرحى والحجر والتفتيت الناتج عنه إلى دقيق ومسحوق",
-    935: "اليم: البحر والنهر الكبير",
-    364: "الشراب وحدّته ووثوبه",
-    363: "الزيادة والتعظيم في جهة الارتفاع والعلو",
-    522: "العصابة والربطة في وظيفة الشد والإيثاق",
-    790: "الدفع والتحريك والسوق",
-    881: "الخضرة والإيراق",
+# المدار حكم قراءة، لا تقاطع آلي بين نصين. كل سطر هنا جملة كتبها القارئ بعد
+# رؤية معنى بدج وحدث العربية. لا يصدر أي موجب بلا عضو صريح في هذه القائمة.
+# تحفظ قيمة الجذر مع الجملة حتى يفشل البناء إن تغيّر المرشح المختار لاحقًا.
+HUMAN_ORBITS: dict[int, tuple[str, str]] = {
+    7: ("شرر", "الحرقُ والشواءُ فعلان للنار، والشرر ما يتطاير منها؛ فمدار بدج هو فعل النار الذي تسمي العربية أثره الظاهر."),
+    67: ("برك", "البركة في بدج هي نفسها وضع البركة والدعاء بها في نص العربية؛ فالمدار مباشر."),
+    68: ("برك", "ثني الركبة في الطاعة هو البروك والإنَاخة على الركبتين؛ فالهيئة الحركية واحدة."),
+    99: ("بجس", "الخنجر حديدة تشق وتفجر موضعها، وفعل البجس هو الشق والتفجير؛ فالأداة ملتقية بفعلها المباشر."),
+    253: ("خن", "أخص موضع في المبنى ومقصورة الزورق تجويف ممتد في الباطن، وهو حدث النواة `خن` كما جُمّد."),
+    328: ("ذوب", "الضعف والمسغبة إذ يستهلكان البدن يلتقيان بذوبانه وخروجه من تماسكه؛ وهذا هو الوجه المداري المقروء من قائمة بدج."),
+    357: ("سعر", "إيقاد النار للحرق في بدج هو نفسه سَعْر النار وإيقادها وتهييجها في العربية؛ فالمدار مباشر."),
+    363: ("سور", "الزيادة والتعظيم حركة إلى العلو، و`سار يسور` في العربية هو الارتفاع؛ فمدار النمو هنا الارتفاع."),
+    364: ("سور", "الشراب في بدج هو نفس الشيء الذي تسمي العربية سورته ووثوبه في الرأس؛ فالمدار مباشر في الشراب."),
+    385: ("سمر", "إيقاع الألم في بدج يلتقي بإدخال المسامير المحماة في الجسد في العربية؛ فالمدار فعل الإيلام بالمسمار."),
+    423: ("سجر", "القلعة تحيط بمن فيها وتحجزه، والسجر في العربية يضع الساجور ويقيد؛ فمدار الحصن هو الإحاطة والحجز."),
+    424: ("سجر", "الحصن مكان محاط ممتلئ بحدوده، والسجر في العربية امتلاء وقيد بالساجور؛ فمدار المكان المحصن هو الإحاطة والحجز."),
+    426: ("سجر", "الإسكات والتهدئة في بدج يطابقان السكون في قول العربية «المسجور الساكن»؛ فالمدار مباشر."),
+    452: ("صفا", "التصفية والتطهير في بدج هما إخراج الكدر حتى يصفو الشيء في العربية؛ فالمدار مباشر."),
+    453: ("سفي", "المزج تفريق للجزيئات بعضها في بعض، وسفي الريح يذرو التراب ويحمله؛ فمدار الحركة هو نثر الدقائق وتداخلها."),
+    459: ("سفك", "الذبح في بدج يريق الدم، والسفك في العربية صب الدم وإهراقه؛ فالمدار مباشر في فعل القتل."),
+    567: ("عمق", "الوادي في بدج هو بعينه أحد المواضع التي يسمي نص العربية قعرها وعمقها؛ فالمدار مباشر."),
+    616: ("قرر", "القارب والبارجة مركب يحمل راكبه، و`القَرّ` في العربية مركب للرجال؛ فالمدار مركب الحمل وإن اختلف البر والماء."),
+    650: ("كف", "باطن اليد في بدج هو الكف التي تنثني وتقبض على الشيء في حدث النواة؛ فالمدار عضو اليد ووظيفته."),
+    681: ("موت", "`to die` في بدج هو نفس حدث `مات يموت موتًا` في العربية؛ فالمدار مباشر."),
+    682: ("من", "الحرز أداة تثبيت وحجز وحماية، وحدث النواة `من` هو القوة والثبات مع الوثاقة والحجز؛ فالمدار وظيفته الحافظة."),
+    717: ("محو", "الغريق من غطاه الماء، والعربية تسمي الأرض محوة إذا تغطى وجهها بالماء؛ فالمدار التغطية بالماء."),
+    737: ("مكر", "الكاذب يخدع، والمكر في العربية الخديعة والاحتيال؛ فالمدار فعل التضليل."),
+    761: ("نور", "الفوز والظفر والغلبة في بدج يطابق قول العربية «استنار عليه: ظفر به وغلبه»؛ فالمدار مباشر."),
+    772: ("نب", "البناء رفع للبنية من موضعها، وحدث النواة `نب` هو النبو ارتفاعًا؛ فالمدار حركة الرفع والبروز."),
+    790: ("نشش", "الطرد والسوق في بدج هما دفع وتحريك إلى الخارج، وهو نص العربية في `نشنش الرجل الرجل`؛ فالمدار مباشر."),
+    792: ("نشش", "العجلة والإسراع في بدج يطابقان قول العربية `نششت الجلد إذا أسرعت سلخه`؛ فالمدار مباشر."),
+    806: ("نقر", "الدقيق والمسحوق نتيجة نقر الرحى والحجر وتفتيتهما؛ فالمدار انتقال المادة بالضرب إلى دقائق."),
+    860: ("هم", "النار والحرارة تذيبان ما تمسانه، وحدث النواة `هم` هو التسيب والذوبان؛ فالمدار أثر الحرارة في الجسم."),
+    897: ("وعب", "الوعاء في بدج يسع الماء، والاستيعاب في العربية سعة الوعاء لما جعل فيه؛ فالمدار وظيفة الاحتواء."),
 }
 
-# عيّنةٌ يدويّةٌ ثابتة من عائق الدلالة في الدفعة 002. اختيرت عشرون حالة
-# موزعةً بالتساوي على الحالات الستين التي وُجد لها نص عربي منشور أصلًا؛ فهذا
-# هو الجزء الذي يستطيع اختبار ضيق الجسر، بخلاف 117 حالة لا نص عربي لها في
-# الذخيرة. لا تُعمَّم النتيجة آليًا: الأربعة المبيّنة فقط يزول عنها عائق
-# الدلالة، وتبقى أرجل الصوت والمروحة والمسح حاكمةً كلٌّ على حدة.
-MANUAL_SEMANTIC_BRIDGES = {
-    363: "`increase, magnify` ↔ «سار الرجل يسور سورًا: ارتفع؛ وكل مرتفع سور»",
-    522: "`bandlet, headcloth` ↔ «شدَّه: أوثقه»؛ جسر الوظيفة: الربطة والإيثاق",
-    790: "`drive away, rush out upon` ↔ «نشنش الرجل الرجل: دفعه وحرّكه»",
-    881: "`be green, flourish` ↔ «الشجرة الخضراء الورق؛ أورقت الشجرة»",
-}
+LEGACY_POSITIVE_INDICES = {67, 68, 99, 363, 364, 385, 424, 459, 650, 806}
+FEATURED_NEW = [426, 357, 681, 452, 761, 792, 790, 567, 717, 737,
+                423, 253, 860, 772, 7, 453, 328, 616, 897, 682]
 
-SEMANTIC_SAMPLE = [
-    (46, "مادة", "`dry up` لا يلتقي بمعاني `شوه` المنشورة: القبح والتشويه"),
-    (103, "مادة", "`sin, fault` لا يلتقي بـ`بتأ`: أقام بالمكان"),
-    (162, "مادة", "نص بدج مبتور في `preparation of copper`، والحمرة وصف للنحاس لا معنى الفعل"),
-    (185, "مادة", "نص بدج تالف بالرموز، ونص `حسس` في الحس والصوت لا المدح"),
-    (212, "مادة", "نص بدج تالف، ومادة `حكن` لا تحمل معنى المدح المزعوم"),
-    (288, "مادة", "`neck, throat` لا يلتقي بمعاني `خوخ` المنشورة"),
-    (324, "مادة", "نص بدج تالف، و`دقق` في الرض والكسر لا الفاكهة"),
-    (363, "جسر", MANUAL_SEMANTIC_BRIDGES[363]),
-    (398, "مادة", "لا معنى سالمًا من بدج، وإن أثبت اللسان السنط شجرًا"),
-    (420, "مادة", "`rejuvenate (?)` لا يثبت في `خرد` المنشورة: البكر والحياء والسكوت"),
-    (445, "مادة", "`green, fertile` لا يلتقي بمادة `ورش` التي اختارها السجل"),
-    (522, "جسر", MANUAL_SEMANTIC_BRIDGES[522]),
-    (532, "مادة", "`flame` لا يلتقي بـ`شوب`: الخلط"),
-    (593, "مادة", "`bundle, packet` لا يلتقي بـ`عرف`: العلم والمعرفة"),
-    (641, "مادة", "`gardener` لا يلتقي بـ`كمي`: الستر والاستخفاء"),
-    (750, "مادة", "نص بدج خالٍ من المعنى؛ لا يكفي معنى النهر العربي وحده"),
-    (790, "جسر", MANUAL_SEMANTIC_BRIDGES[790]),
-    (824, "مادة", "`natron` لا يلتقي بـ`نثر`: التفريق والرمي متناثرًا"),
-    (881, "جسر", MANUAL_SEMANTIC_BRIDGES[881]),
-    (933, "مادة", "`claw` لا يلتقي بـ`أبي`: الامتناع والكراهة"),
-]
+_CORE_PAYLOAD = json.loads(CORE_LEVELS.read_text(encoding="utf-8"))
+NUCLEUS_EVENTS = {
+    row["nucleus"]: row["jabal_lexicon_reading_ar"]
+    for row in _CORE_PAYLOAD["levels"]["level_2_binary_nuclei"]["nuclei"]
+    if row.get("jabal_lexicon_reading_ar")
+}
 
 # المواضع الأربعون التي كانت صفوفًا أو شواهد صفوف في الجرد القديم، ثم زال
 # رصفها نفسه بعد قراءة رموز بدج المركبة وإثبات ā/u. تُحفظ هنا ولا تدخل أي
@@ -441,11 +450,15 @@ def pair_row(symbol: str, arabic: str) -> str | None:
 def sound_audit(stem: str, root: str) -> tuple[bool, list[str], list[str]]:
     skeleton = FAN.skeleton(stem, "egyptian")
     geminate = len(skeleton) == 2 and len(root) == 3 and root[-1] == root[-2]
-    if len(skeleton) != len(root) and not geminate:
+    weak_positions = [i for i, letter in enumerate(root) if letter in "اوي"]
+    weak = len(skeleton) == 2 and len(root) == 3 and len(weak_positions) == 1
+    if len(skeleton) != len(root) and not geminate and not weak:
         return False, [], [f"عدد الصوامت {len(skeleton)} في الفرع و{len(root)} في المرشح"]
     rows: list[str] = []
     misses: list[str] = []
-    aligned_root = root[:2] if geminate else root
+    aligned_root = (root[:2] if geminate else
+                    "".join(letter for letter in root if letter not in "اوي") if weak else
+                    root)
     for symbol, arabic in zip(skeleton, aligned_root):
         row = pair_row(symbol, arabic)
         query = f"`{symbol}` + `{arabic}` + «المصريّة/Egyptian» في عمود الشاهد"
@@ -456,6 +469,13 @@ def sound_audit(stem: str, root: str) -> tuple[bool, list[str], list[str]]:
     if geminate:
         rows.append(
             f"{root[-1]}↔{root[-1]} = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+        )
+    if weak:
+        position = ("الأول" if weak_positions[0] == 0 else
+                    "الأوسط" if weak_positions[0] == 1 else "الأخير")
+        rows.append(
+            f"{root[weak_positions[0]]} = باب المعتل (حرف العلة العربي {position} يقابل "
+            "الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
         )
     return not misses, rows, misses
 
@@ -645,17 +665,20 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
     quote = QUOTE_OVERRIDES.get(item["index"], "")
     if not quote and lexicon:
         quote = excerpt(lexicon["definition"], row)
-    direct_semantics = bool(chosen["en_hit"] or chosen["ar_hit"])
-    manual_semantics = item["index"] in MANUAL_SEMANTIC_BRIDGES
-    semantic_ready = (direct_semantics or manual_semantics
-                      or APPROVED_POSITIVES.get(item["index"]) == root)
-    source_ready = bool(lexicon and quote)
+    orbit_spec = HUMAN_ORBITS.get(item["index"])
+    if orbit_spec and orbit_spec[0] != root:
+        raise SystemExit(
+            f"تغيّر مرشح المدار اليدوي في العضو {item['index']}: "
+            f"{orbit_spec[0]} ← {root}"
+        )
+    human_orbit = orbit_spec[1] if orbit_spec else ""
+    nucleus_event = NUCLEUS_EVENTS.get(root, "") if len(root) == 2 else ""
+    source_ready = bool(nucleus_event) if len(root) == 2 else bool(lexicon and quote)
     length_ready = len(root) in {2, 3}
     fan_ready = chosen["raw_hit"] or chosen["stem_hit"]
     positive = (
-        APPROVED_POSITIVES.get(item["index"]) == root
-        and all((chosen["sound_ready"], source_ready, length_ready, fan_ready,
-                 "?" not in row["foreign_sense"]))
+        bool(human_orbit)
+        and all((chosen["sound_ready"], source_ready, length_ready, fan_ready))
     )
     degree = "ROOT-TRACE" if len(root) == 3 else "NUCLEUS-TRACE"
     closure = "READY" if positive else "OPEN-CANDIDATE"
@@ -687,22 +710,31 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
     if lexicon and quote:
         material_note = (f"، تحت مادة `{chosen['lexicon_root']}` الشارحة للنواة `{root}`"
                          if chosen["lexicon_root"] != root else "")
-        if chosen["ar_hit"] or item["index"] in SEMANTIC_LABELS:
-            semantic_note = (
-                "القريب المراد هو "
-                f"{SEMANTIC_LABELS.get(item['index'], ', '.join(chosen['ar_hit']))}؛ "
-                "وسائر وجوه النص لا تُنقل إلى المصرية"
-            )
+        if human_orbit:
+            semantic_note = f"قراءة المدار البشرية: {human_orbit} وسائر وجوه النص لا تُنقل إلى المصرية"
         else:
             semantic_note = (
-                "أُثبت النص المعجمي الحرفي للحفظ والمراجعة؛ ولم تعثر الأداة على عبارة "
-                "عربية مشتركة كافية، فلا يُجعل الاقتباس وحده حكمًا دلاليًّا"
+                "أُثبت النص المعجمي الحرفي للحفظ والمراجعة؛ ولم يكتب القارئ مدارًا "
+                "مقنعًا لهذا العضو، فلا يُجعل الاقتباس وحده حكمًا"
             )
         scan = (f"المادة `{root}`{material_note}؛ نص {source_label}: «{quote}». ونص خشيم المنقول في "
                 f"الصف: «{row['arabic_gloss']}». {semantic_note}.")
     else:
         scan = (f"لم يوجد للمادة `{root}` نص في لسان العرب ولا تاج العروس في الذخيرة "
                 f"المحلية؛ نص خشيم وحده «{row['arabic_gloss']}» محفوظ ولا يقوم مقام معجم مسمّى.")
+
+    if len(root) == 2:
+        event_record = (
+            f"«{nucleus_event}» [`data/juthoor-core-levels.json`، حقل "
+            "`jabal_lexicon_reading_ar`؛ نُقل كما هو بلا تفصيل للزوج]"
+            if nucleus_event else
+            "(لا قراءة لهذه النواة في `data/juthoor-core-levels.json`)"
+        )
+    else:
+        event_record = (
+            f"النص المعجمي الحرفي المسمى في مسح المادة `{root}` أعلاه؛ لم تُنشأ له "
+            "قراءة آلية على مقاس معنى بدج"
+        )
 
     sound_parts = chosen["sound_rows"] + chosen["sound_misses"]
     sound = "؛ ".join(sound_parts) if sound_parts else (
@@ -714,29 +746,37 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
     if not chosen["sound_ready"]:
         obstacles.append("صفوف الشبكة الناقصة المبيّنة في مسار الصوت")
     if not source_ready:
-        obstacles.append("نص لسان العرب أو تاج العروس للمادة")
-    if not semantic_ready:
-        obstacles.append("شاهد دلالي منشور يصل نص بدج بنص المعجم العربي")
+        obstacles.append(
+            "حدث النواة من السجل المجمد"
+            if len(root) == 2 else
+            "نص لسان العرب أو تاج العروس للمادة"
+        )
     if not length_ready:
         obstacles.append("تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت")
-    if item["scan_reasons"]:
+    if item["scan_reasons"] and not human_orbit:
         obstacles.append("مقابلة الصفحة المصوّرة لعيب المسح المسمّى")
-    if not positive and not obstacles:
-        obstacles.append("مراجعة دلالية بشرية مستقلة تتجاوز التقارب الآلي بين النصوص")
+    pre_orbit_ready = all((fan_ready, chosen["sound_ready"], source_ready,
+                           length_ready, not item["scan_reasons"]))
+    if not human_orbit and pre_orbit_ready:
+        obstacles.append("الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية")
     required = "؛ ".join(obstacles) if obstacles else "لا عائق معلق"
 
     degree_text = "جذر كامل" if len(root) == 3 else "نواة" if len(root) == 2 else "مفتوحة بلا درجة صادرة"
-    orbit_hits = ([SEMANTIC_LABELS[item["index"]]]
-                  if item["index"] in SEMANTIC_LABELS
-                  else chosen["en_hit"] + chosen["ar_hit"])
-    orbit = ("مباشر؛ التقى نص بدج ونص المعجم العربي في "
-             + ("، ".join(orbit_hits) if orbit_hits else "الوجه النصي المقتبس")) if semantic_ready else (
-        "غير صادر؛ شرح خشيم يرشح الصلة، لكن النصين لم يلتقيا بلفظ مستقل كاف للحكم"
+    orbit = human_orbit if human_orbit else (
+        "غير مكتوب؛ لم تُقنع القراءة البشرية بمدار واحد، أو لم تكتمل الرجل السابقة "
+        "التي تسمح بكتابته"
     )
     family_ar = 1 if positive else 0
     batch_label = f"{batch_no:03d}"
-    scan_status = ("؛ ".join(item["scan_reasons"]) if item["scan_reasons"]
-                   else "لم تُسجّل أداة المسح عيبًا في هذا الصف")
+    if item["scan_reasons"] and human_orbit:
+        scan_status = (
+            "؛ ".join(item["scan_reasons"])
+            + "؛ قرأ القارئ نص بدج المنقول كما هو فوجده واضحًا في الوجه الذي سماه المدار، "
+            "فلم يجعل وسم المصفاة الآلي رجلًا رابعة"
+        )
+    else:
+        scan_status = ("؛ ".join(item["scan_reasons"]) if item["scan_reasons"]
+                       else "لم تُسجّل أداة المسح عيبًا في هذا الصف")
     lines = [
         f"### بطاقة: `{row['foreign']}` «{row['foreign_sense']}»؛ خشيم {batch_label}/{item['index']:03d}",
         f"<!-- khashim-egyptian-batch-{batch_label}:{item['index']} -->",
@@ -754,6 +794,7 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
         *fan_lines,
         f"- موضعُ مرشح خشيم من المروحة: {location}؛ وهذه المروحة من أداتنا لا من قول خشيم.",
         f"- مسحُ المعاني العربيّة: {scan}",
+        f"- الحدثُ من السجلّ المجمّد: {event_record}.",
         f"- المقابلُ من اللسان: `{root}`؛ مادة الصلة المستخرجة من صف خشيم، لا مادة ولّدتها "
         f"المروحة؛ النص الحرفي لحقل `arabic_root` هو `{row['arabic_root']}`؛ "
         f"مصدر الاستخراج: {chosen['root_origin']}.",
@@ -780,13 +821,16 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
         f"- الحكم (استكشاف): {verdict}",
         f"- ملاحظات: أصل المرشح وشرحُه «{row['arabic_gloss']}» من {BOOK}، والمعنى الإنجليزي من معجم بدج كما نقله خشيم. "
         "فُصلت نسبة خشيم وبدج عن المروحة والمسار والحكم، وهي عمل المشروع. "
-        f"عدسة الاسترداد أبقت المرشح عند الشك؛ وعدسة التشكيك {'أصدرت الحكم بعد اكتمال الأرجل' if positive else 'منعت الحكم ولم تغلق الزوج'}.",
+        f"عدسة الاسترداد أبقت المرشح عند الشك؛ وعدسة التشكيك {'أصدرت الحكم بعد اكتمال الأرجل الثلاث ومدار مكتوب' if positive else 'منعت الحكم ولم تغلق الزوج'}.",
     ]
     summary = {
         "index": item["index"], "foreign": row["foreign"], "sense": row["foreign_sense"],
         "root": root, "score": item["score"], "raw_fan_count": len(raw_fan),
         "root_in_raw_fan": chosen["raw_hit"], "root_in_stem_fan": chosen["stem_hit"],
         "lexicon": source_label or None, "semantic_hits": chosen["en_hit"] + chosen["ar_hit"],
+        "event_source": "data/juthoor-core-levels.json" if len(root) == 2 and nucleus_event else source_label or None,
+        "nucleus_event": nucleus_event or None, "human_orbit": human_orbit or None,
+        "scan_override_by_human_orbit": bool(item["scan_reasons"] and human_orbit),
         "closure": closure, "verdict": degree if positive else None,
         "sound_rows": chosen["sound_rows"], "sound_misses": chosen["sound_misses"],
         "scan_reasons": item["scan_reasons"], "open_reasons": obstacles,
@@ -998,21 +1042,27 @@ def artifact_section() -> list[str]:
 
 
 def write_expansion_audits(first: list[dict[str, Any]], second: list[dict[str, Any]],
+                           third: list[dict[str, Any]],
                            fan_stats: dict[str, int]) -> None:
     fan_missing, fan_examples, fan_unaligned = audit_fan_gaps(first)
     fan_lines = [
         "# جردُ مروحة المصريّة بعد تصحيح رموز بدج",
         "",
-        "أعيد هذا الجرد بعد `0b5584e`: تُقرأ `sh/kh/tch/th` رموزًا واحدة، "
-        "وتدخل `ā/u` في الهيكل، ويولّد الهيكل الثنائي صورة المضاعف. لا يُعدّ "
+        "أعيد هذا الجرد بعد `5ed786b`: تُقرأ `sh/kh/tch/th` رموزًا واحدة، "
+        "وتدخل `ā/u` في الهيكل، ويولّد الهيكل الثنائي صور المضاعف والمعتل. "
+        "وتفتح لاحقة الإعراب هيكلًا بديلًا يضاف إلى الأصل ولا يحل محله. لا يُعدّ "
         "مرشح خشيم داخل المروحة إلا إذا ظهر حرفيًا في الخام أو في اللب بعد تعرية `-t` المسماة.",
         "",
         f"- الدفعة 001: {fan_stats['batch_001_chosen_in_corrected_fan']} من 120؛ "
         f"وكان السجل المعيب {fan_stats['batch_001_chosen_in_faulty_fan']} من 120.",
         f"- الدفعة 002: {fan_stats['batch_002_chosen_in_corrected_fan']} من 200؛ "
         f"وكان السجل المعيب {fan_stats['batch_002_chosen_in_faulty_fan']} من 200.",
-        f"- بقي خارج المروحة المصححة في 001: "
-        f"{len(first) - fan_stats['batch_001_chosen_in_corrected_fan']} بطاقة.",
+        f"- الدفعة 003: {fan_stats['batch_003_chosen_in_corrected_fan']} من 250؛ "
+        f"وكان السجل المعيب {fan_stats['batch_003_chosen_in_faulty_fan']} من 250.",
+        f"- مجموع الدفعات الثلاث: "
+        f"{sum(fan_stats[f'batch_{number:03d}_chosen_in_corrected_fan'] for number in (1, 2, 3))} "
+        f"من {len(first) + len(second) + len(third)}؛ وبقي خارج المروحة "
+        f"{len(first) + len(second) + len(third) - sum(fan_stats[f'batch_{number:03d}_chosen_in_corrected_fan'] for number in (1, 2, 3))} بطاقة.",
         f"- بعد اشتراط مرساة صحيحة وعدم اقتراح أكثر من نقلة مجهولة من زوج واحد: "
         f"{sum(fan_missing.values())} شاهدًا في {len(fan_missing)} زوجًا فقط.",
         "- `h→ر` مشطوب كلّه؛ أمّا `h→ح` فباقٍ في المروحة بشواهده السليمة.",
@@ -1121,57 +1171,101 @@ def write_expansion_audits(first: list[dict[str, Any]], second: list[dict[str, A
     SHIFT_PROPOSALS.write_text("\n".join(shift_lines), encoding="utf-8", newline="\n")
 
 
-def write_semantic_audit(second: list[dict[str, Any]]) -> None:
-    by_index = {item["index"]: item for item in second}
-    missing = [index for index, _, _ in SEMANTIC_SAMPLE if index not in by_index]
+def write_semantic_audit(batch_rows: list[list[dict[str, Any]]]) -> None:
+    all_rows = [
+        (batch_no, row)
+        for batch_no, rows in enumerate(batch_rows, 1)
+        for row in rows
+    ]
+    by_index = {row["index"]: (batch_no, row) for batch_no, row in all_rows}
+    missing = sorted(set(HUMAN_ORBITS) - set(by_index))
     if missing:
-        raise SystemExit(f"غابت حالات عينة الجسر الدلالي من الدفعة 002: {missing}")
+        raise SystemExit(f"غابت مدارات يدوية من عضوية البطاقات الـ570: {missing}")
 
-    blocked_before_manual = [
-        item for item in second
-        if not (item["chosen"]["en_hit"] or item["chosen"]["ar_hit"])
+    positives = [(batch_no, row) for batch_no, row in all_rows if row["verdict"]]
+    if any(not row.get("human_orbit") for _, row in positives):
+        raise SystemExit("صدر حكم موجب بلا مدار بشري مكتوب")
+    forbidden = "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+    if any(forbidden in row["open_reasons"] for _, row in all_rows):
+        raise SystemExit("بقيت الرجل الرابعة في open_reasons")
+
+    new_positive = [
+        (batch_no, row) for batch_no, row in positives
+        if row["index"] not in LEGACY_POSITIVE_INDICES
     ]
-    without_lexicon = sum(not item["chosen"]["lexicon"] for item in blocked_before_manual)
-    source_present = len(blocked_before_manual) - without_lexicon
-    bridge_hits = sum(kind == "جسر" for _, kind, _ in SEMANTIC_SAMPLE)
-    material_hits = len(SEMANTIC_SAMPLE) - bridge_hits
+    featured = []
+    for index in FEATURED_NEW:
+        pair = by_index.get(index)
+        if not pair or not pair[1]["verdict"]:
+            raise SystemExit(f"غاب الزوج المميز الجديد أو لم يصدر: {index}")
+        featured.append(pair)
+
+    reasons = Counter(
+        reason for _, row in all_rows for reason in row["open_reasons"]
+    )
+    batch_counts = Counter(batch_no for batch_no, _ in positives)
+    weak_positives = sum(
+        any("باب المعتل" in sound_row for sound_row in row["sound_rows"])
+        for _, row in positives
+    )
+    nucleus_positives = sum(row["verdict"] == "NUCLEUS-TRACE" for _, row in positives)
+    scan_overrides = sum(row["scan_override_by_human_orbit"] for _, row in positives)
+
     lines = [
-        "# فحص عائق الجسر الدلالي في دفعة خشيم المصرية 002",
+        "# إعادة حكم دفعات خشيم المصرية بالأرجل الثلاث",
         "",
-        "## تصميم العينة",
+        "## تصحيح الشرط",
         "",
-        f"كان العائق قبل الفحص في {len(blocked_before_manual)} من 200 بطاقة. وفي "
-        f"{without_lexicon} منها لا يوجد أصلًا نص من لسان العرب أو تاج العروس للمادة؛ "
-        f"وبقي {source_present} زوجًا له نصان منشوران ويمكن أن يُختبر فيه ضيق الجسر. "
-        "أُخذت عشرون حالة موزعة بالتساوي على هذه الطبقة ذات المصدرين؛ وهذه عينة "
-        "تشخيصية للجسر، لا تقدير عشوائي لكل الـ177.",
+        "الميثاق يشترط ثلاث أرجل بترخيص الاستكشاف: مسار الصوت المسمى؛ والحدث من "
+        "السجل المجمد كما هو؛ والمعنى من قاموس الفرع بلا رتوش، مع تسمية المدار إن "
+        "كانت الصلة مدارية. لذلك أُسقط الشرط الزائد «شاهد دلالي منشور يصل نص بدج "
+        "بنص المعجم العربي» من `open_reasons` ومن بوابة الحكم. المدار المكتوب هو "
+        "قراءة الرجل الثالثة نفسها، لا رجل رابعة ولا تقاطعًا آليًا بين نصين.",
         "",
-        "## الحكم اليدوي",
+        "لا يصدر موجب إلا إذا كان له سطر في `HUMAN_ORBITS`، ويُفشل البناء إذا تغير "
+        "جذر ذلك السطر أو صدر موجب بلا مدار. وسم المسح الآلي بقي ظاهرًا، لكن القارئ "
+        "يرفع أثره في العضو المسمى فقط حين يكون نص بدج المنقول واضحًا؛ لم يُعمم الرفع.",
         "",
-        "| # | عضو المصدر | المصري ومرشح خشيم | التصنيف | سبب الحكم |",
-        "|---:|---:|---|---|---|",
+        "## الحصيلة",
+        "",
+        f"- البطاقات المعاد حكمها: {len(all_rows)}.",
+        f"- الصلات الصادرة: {len(positives)}؛ الدفعة 001 = {batch_counts[1]}، "
+        f"002 = {batch_counts[2]}، 003 = {batch_counts[3]}.",
+        f"- الصلات الجديدة قياسًا إلى العشرة السابقة: {len(new_positive)}.",
+        f"- بقي مفتوحًا: {len(all_rows) - len(positives)}.",
+        f"- من الموجبات: {nucleus_positives} أحكام نواة من حدث السجل المجمد، و"
+        f"{weak_positives} مرشحًا مرّ بباب المعتل المسمى، و{scan_overrides} صفوف "
+        "رفع فيها القارئ وسم المسح بعد قراءة النص المنقول.",
+        "",
+        "## أسباب الفتح المتداخلة بعد إسقاط الرجل الرابعة",
+        "",
+        "| السبب | البطاقات |",
+        "|---|---:|",
     ]
-    for number, (index, kind, reason) in enumerate(SEMANTIC_SAMPLE, 1):
-        item = by_index[index]
-        lines.append(
-            f"| {number} | {index} | `{item['row']['foreign']}`→`{item['chosen']['root']}` | "
-            f"{'ضيق الجسر' if kind == 'جسر' else 'نقص المادة/عدم التقاء النصين'} | {reason} |"
-        )
+    for reason, count in reasons.most_common():
+        lines.append(f"| {reason} | {count} |")
+
     lines.extend([
         "",
-        "## النتيجة",
+        "## أبرز عشرين صلة جديدة",
         "",
-        f"- ضيق الجسر: {bridge_hits}/20 = {bridge_hits * 5}٪.",
-        f"- نقص المادة أو عدم التقاء النصين فعلًا: {material_hits}/20 = {material_hits * 5}٪.",
-        f"- وقبل أخذ العينة، كان غياب النص العربي نفسه {without_lexicon}/177 = "
-        f"{without_lexicon / len(blocked_before_manual):.1%} من العائق كله.",
-        "",
-        "العائق الغالب إذن مادي، لكن الجسر ضيق في خُمس الطبقة القابلة للاختبار. "
-        "فُتح الباب الثالث فتحًا مضبوطًا: ثُبتت الجسور الأربعة بأعيانها في "
-        "`MANUAL_SEMANTIC_BRIDGES`، ولم تُعمّم قائمة مترادفات على بقية البطاقات. "
-        "لا يزيل هذا إلا رجل الدلالة؛ وتبقى المروحة والصوت وسلامة المسح شروطًا مستقلة.",
-        "",
+        "| # | الدفعة/العضو | المصري | العربي | المدار المكتوب |",
+        "|---:|---|---|---|---|",
     ])
+    for number, (batch_no, row) in enumerate(featured, 1):
+        lines.append(
+            f"| {number} | {batch_no:03d}/{row['index']:03d} | `{row['foreign']}` "
+            f"«{row['sense']}» | `{row['root']}` | {row['human_orbit']} |"
+        )
+    extra = [row for _, row in new_positive if row["index"] not in FEATURED_NEW]
+    if extra:
+        lines.extend([
+            "",
+            "ودخلت فوق العشرين: "
+            + "؛ ".join(f"`{row['foreign']}→{row['root']}`" for row in extra)
+            + ".",
+        ])
+    lines.append("")
     SEMANTIC_AUDIT.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
@@ -1193,8 +1287,7 @@ def main() -> int:
         raise SystemExit(f"تغيّر جرد المصرية: {len(rows)}، والمتوقع 938")
     first, second, third, defects, pool = choose_batches(rows)
     fan_stats = all_rows_fan_audit(rows, pool, [first, second, third])
-    write_expansion_audits(first, second, fan_stats)
-    write_semantic_audit(second)
+    write_expansion_audits(first, second, third, fan_stats)
 
     def render_batch(selected: list[dict[str, Any]], batch_no: int,
                      start: str, end: str) -> tuple[str, list[dict[str, Any]]]:
@@ -1228,13 +1321,23 @@ def main() -> int:
             scope = (
                 f"هذه 250 بطاقة جديدة بعد عضويتي 001 و002. لم يبق إلا "
                 f"{len(selected) - scan_open} صفًا بلا عيب مسح مسمى؛ لذلك حُفظت "
-                f"{scan_open} بطاقةً مع عائق مقابلة الصفحة، ولا يصدر منها حكم موجب "
-                "قبل استكمال هذا العائق. أصل المرشح من خشيم والمعنى الإنجليزي من بدج، "
+                f"{scan_open} بطاقةً مع وسم المسح. يبقى الوسم عائقًا إلا في العضو الذي "
+                "قرأ القارئ نص بدج المنقول فيه واضحًا وكتب مداره باسمه. أصل المرشح من "
+                "خشيم والمعنى الإنجليزي من بدج، "
                 "والمروحة والشبكة والنص المعجمي والحكم من أدوات المشروع."
             )
             title = "## حصادُ خشيم المصري، الدفعة الثالثة (250 بطاقة؛ 2026-08-11)"
         section = [
             start, title, "", "**بيان النطاق.** " + scope, "",
+            "**تصحيح الشرط.** شرط الاستكشاف ثلاث أرجل: الصوت؛ والحدث من السجل "
+            "المجمد كما هو؛ والمعنى من قاموس الفرع بلا رتوش مع مدار مكتوب عند الصلة "
+            "المدارية. أُسقطت الرجل الرابعة المصنوعة «شاهد دلالي منشور يصل نص بدج "
+            "بنص المعجم العربي» من `open_reasons` ومن الحكم.",
+            "",
+            "**حراسة المدار.** المدار المكتوب هو قراءة الرجل الثالثة نفسها لا زينة ولا "
+            "شرطًا زائدًا؛ لا يصدر موجب بلا جملة بشرية مسجلة في `HUMAN_ORBITS`، "
+            "ولا تولد الآلة مدارًا من تقاطع الألفاظ.",
+            "",
             f"**قاموس الإغلاق المغلق.** لا تستعمل البطاقات إلا `READY` و`OPEN-CANDIDATE`. "
             f"صدر {positives} حكمًا استكشافيًا وبقي {opens} مفتوحًا؛ الفتح حفظٌ للمرشح "
             "لا حكمٌ سلبي عليه.",
@@ -1245,6 +1348,7 @@ def main() -> int:
     first_block, first_rows = render_batch(first, 1, START_1, END_1)
     second_block, second_rows = render_batch(second, 2, START_2, END_2)
     third_block, third_rows = render_batch(third, 3, START_3, END_3)
+    write_semantic_audit([first_rows, second_rows, third_rows])
     current = READING.read_text(encoding="utf-8")
     updated = replace_batch(current, START_1, END_1, first_block)
     updated = replace_batch(updated, START_2, END_2, second_block)
