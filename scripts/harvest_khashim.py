@@ -195,8 +195,71 @@ def mine_ocr(md: pathlib.Path, tongue_ar: str, tongue_key: str) -> list[dict]:
 
 OCR_BOOKS = {
     "ocr-latin": ("اللاتينيّة", "old-latin"),
-    "ocr-egyptian2": ("المصريّةُ القديمة", "egyptian"),
 }
+
+# ------------------------------------------------- «البرهانُ على عروبةِ المصريّة»
+# **بنيتُه ثلاثيّةٌ لا ثنائيّة**، وهي أقربُ ما رأيناه إلى بطاقاتِنا:
+#
+#     skher-t 𓊖, defeat, overthrow.
+#     سَخَرَتْ : هَزِيمَةٌ، قَلْبٌ.
+#
+#     ses-t 𓂋, Rec. 15, 152, a garment of some kind, bandlet.
+#     * سست : نوع من الثياب، عصابة (شاش، شاشة).
+#
+# فالسطرُ الأوّلُ نطقُ الكلمةِ المصريّةِ ورمزُها ومعناها الإنجليزيُّ من بدج،
+# والثاني مقابلُها العربيُّ ونصُّه. **ويُحفَظُ الرمزُ الهيروغليفيُّ نفسُه** لأنّه
+# مرساةُ البطاقةِ عندَنا لا النطقُ وحدَه.
+RX_EG_ENTRY = re.compile(
+    r"^\s*([a-zāḏḥḫḳṣṭṯẖʿꜣꜥ][a-zāēīōūḏḥḫḳṣṭṯẖʿꜣꜥ0-9\-\.\s]{1,26}?)\s*"
+    r"([\U00013000-\U0001342F]*)\s*,\s*(.{4,150})$")
+RX_EG_ANSWER = re.compile(r"^[\s*·•]*([ء-ي][ء-يًٌٍَُِّْـ/\s]{0,20}?)\s*[:：]\s*(.{2,180})$")
+RX_REFS = re.compile(r"\b(?:B\.?D\.?|U\.?|P\.?|N\.?|M\.?|T\.?|Rec\.?|IV|V|Peasant|Israel|"
+                     r"Amen\.?|Ebers|Westc\.?|Hh\.?|Thes\.?|Mar\.?|Copt\.?)[\s\d,\.\(\)A-Za-z]{0,26}")
+_TASHKEEL = dict.fromkeys(range(0x064B, 0x0653))
+
+
+def bare_ar(s: str) -> str:
+    return unicodedata.normalize("NFC", s).translate(_TASHKEEL).replace("ـ", "")
+
+
+def mine_egyptian(md: pathlib.Path) -> list[dict]:
+    lines = [x.strip() for x in md.read_text(encoding="utf-8").splitlines()]
+    pairs, seen = [], set()
+    for i, line in enumerate(lines):
+        if AR.search(line):
+            continue
+        m = RX_EG_ENTRY.match(line)
+        if not m:
+            continue
+        translit = clean(m.group(1))
+        glyphs = m.group(2)
+        english = clean(RX_REFS.sub("", m.group(3)))
+        if len(translit) < 2 or len(english) < 4:
+            continue
+        # الجوابُ العربيُّ في السطرَينِ التاليَين
+        for fwd in (1, 2, 3):
+            if i + fwd >= len(lines):
+                break
+            am = RX_EG_ANSWER.match(lines[i + fwd])
+            if not am:
+                continue
+            arabic = bare_ar(clean(am.group(1))).replace("/", "")
+            gloss = bare_ar(clean(am.group(2)))
+            if len(re.sub(r"[^ء-ي]", "", arabic)) < 2:
+                break
+            key = (translit, arabic)
+            if key in seen:
+                break
+            seen.add(key)
+            pairs.append({
+                "tongue_ar": "المصريّةُ القديمة", "tongue": "egyptian",
+                "foreign": translit, "glyphs": glyphs,
+                "foreign_sense": english[:110],
+                "arabic_root": arabic, "arabic_gloss": gloss[:180],
+                "source": "ocr-egyptian2",
+            })
+            break
+    return pairs
 
 
 def main() -> int:
@@ -214,6 +277,11 @@ def main() -> int:
         got = mine_ocr(md, ar, key)
         rows.extend(got)
         print(f"  {folder:24}{len(got):>8}   (مسحٌ جديد)")
+    eg = STORE / "ocr-egyptian2" / "full.md"
+    if eg.exists():
+        got = mine_egyptian(eg)
+        rows.extend(got)
+        print(f"  {'ocr-egyptian2':24}{len(got):>8}   (مسحٌ جديد)")
     for stem, (ar, key) in BOOKS.items():
         p = STORE / f"{stem}.pdf"
         if not p.exists():
