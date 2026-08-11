@@ -197,6 +197,54 @@ OCR_BOOKS = {
     "ocr-latin": ("اللاتينيّة", "old-latin"),
 }
 
+# ------------------------------------------------------ «القبطيّةُ عربيّة» بعدَ مسحِها
+# **بنيتُه هنا أقربُ ما رأيناه إلى بنيتِنا نحن**، فهو يكتبُ النواةَ الثنائيّةَ
+# حروفًا مفرَّقةً في العنوان، ثمّ يردُّها إلى مادّتِها الثلاثيّةِ في المتن:
+#
+#     ## ب ح  وصل. جاء. حلّ بالمكان   poh
+#     في معجم بدج (ص 244) تفيد 'ب ح' ومشتقاتها: بلوغ الغاية، الوصول، النهاية.
+#     في مادة 'بحح' العربية (ثلاثي 'بح') : التبحج؛ التمكن في الحلول والمقام.
+#
+# فالعنوانُ يحملُ النواةَ والمعنى والكلمةَ القبطيّة، والمتنُ يحملُ الجذرَ الثلاثيَّ
+# بنصِّ معجمِه. **وهذا لسانُنا الأعلى في نسبةِ النواة (85.6%)**، فبنيةُ كتابِه
+# شاهدةٌ على ذلك من طريقٍ مستقلٍّ عنّا.
+RX_COPT_HEAD = re.compile(r"^##+\s+(.{2,90}?)\s*$", re.M)
+RX_COPT_LATIN = re.compile(r"([a-zàâäèéêëîïôöùûüō][a-zàâäèéêëîïôöùûüō,\s]{1,28})$")
+RX_COPT_ROOT = re.compile(r"في\s*مادة\s*['\"‹«]?\s*([ء-ي]{2,6})")
+RX_COPT_NUC = re.compile(r"ثلاثي\s*['\"‹«]?\s*([ء-ي]{2,4})")
+
+
+def mine_coptic(md: pathlib.Path) -> list[dict]:
+    text = md.read_text(encoding="utf-8")
+    blocks = re.split(r"(?m)^##+\s+", text)[1:]
+    pairs, seen = [], set()
+    for block in blocks:
+        head, _, body = block.partition("\n")
+        head = clean(head)
+        m = RX_COPT_LATIN.search(head)
+        if not m:
+            continue
+        coptic = " ".join(m.group(1).split())
+        gloss = clean(head[: m.start()])
+        rm = RX_COPT_ROOT.search(body[:1400]) or RX_COPT_NUC.search(body[:1400])
+        if not rm:
+            continue
+        root = rm.group(1)
+        nuc = RX_COPT_NUC.search(body[:1400])
+        key = (coptic, root)
+        if key in seen or len(root) < 2:
+            continue
+        seen.add(key)
+        pairs.append({
+            "tongue_ar": "القبطيّة", "tongue": "coptic",
+            "foreign": coptic, "foreign_sense": gloss[:90],
+            "arabic_root": root,
+            "arabic_nucleus": nuc.group(1) if nuc else "",
+            "arabic_gloss": clean(re.sub(r"\s+", " ", body[:220])),
+            "source": "ocr-coptic",
+        })
+    return pairs
+
 # ------------------------------------------------- «البرهانُ على عروبةِ المصريّة»
 # **بنيتُه ثلاثيّةٌ لا ثنائيّة**، وهي أقربُ ما رأيناه إلى بطاقاتِنا:
 #
@@ -277,6 +325,11 @@ def main() -> int:
         got = mine_ocr(md, ar, key)
         rows.extend(got)
         print(f"  {folder:24}{len(got):>8}   (مسحٌ جديد)")
+    cop = STORE / "ocr-coptic" / "full.md"
+    if cop.exists():
+        got = mine_coptic(cop)
+        rows.extend(got)
+        print(f"  {'ocr-coptic':24}{len(got):>8}   (مسحٌ جديد)")
     eg = STORE / "ocr-egyptian2" / "full.md"
     if eg.exists():
         got = mine_egyptian(eg)
