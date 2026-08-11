@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 31556,
+  "cards_total": 31756,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,12 +32,12 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 4144,
-    "links": 129,
-    "root": 25,
+    "cards": 4344,
+    "links": 134,
+    "root": 30,
     "nucleus": 103,
     "floor": 1,
-    "nucleus_share": 80.5
+    "nucleus_share": 77.4
    },
    {
     "key": "coptic",
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2647,
+  "links_to_arabic": 2652,
   "closures": 821,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1242,
+    "count": 1247,
     "link": true
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 28161,
-  "suspended": 20887,
-  "released": 7274,
+  "cards_total": 28361,
+  "suspended": 21082,
+  "released": 7279,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -271,7 +271,7 @@
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 3666
+    "count": 3861
    },
    {
     "name": "SOURCE-GAP",
@@ -301,7 +301,7 @@
    },
    {
     "file": "egyptian.md",
-    "count": 3849
+    "count": 4044
    },
    {
     "file": "coptic.md",
