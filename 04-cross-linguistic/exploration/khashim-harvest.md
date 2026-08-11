@@ -2813,3 +2813,13 @@ its sense is followed by a line marked with the Arabic letter ain giving the Ara
 root and its lexical text. These are candidates, not verdicts. The foreign words
 appear in Arabic transcription because the available scans were OCRed for Arabic
 only and dropped every Latin character; that is a named gap, not a choice.
+
+## حصاد الكتب المقالية الموسّع
+
+هذه إضافة استكشافية خالصة لأعمالٍ مقالية، حُصدت يدويًا فصلًا فصلًا. كل رقم هنا هو عدد الأزواج المفردة في `data/prior-art-extended-pairs.json` بعد فصل الصيغ الأجنبية المتعددة وحذف تكرار اللفظ والجذر داخل الكتاب. لا يتضمن الجدول حكمًا على المقارنات.
+
+| المؤلف | الكتاب | المفتاح | الأزواج |
+|---|---|---:|---:|
+| علي فهمي خشيم | رحلة الكلمات | `khashim-journey1` | 3,625 |
+
+> سامح مقّار مؤلف مستقل عن علي فهمي خشيم، وستظل نسبته مستقلة في البيانات والجدول.
