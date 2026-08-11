@@ -1,0 +1,6188 @@
+{
+ "generated_by": "scripts/build_khashim_latin_coptic_completion.py",
+ "batch": "001",
+ "source": "data/khashim-pairs.json",
+ "book": "علي فهمي خشيم، «القبطيّة عربيّة»",
+ "inventory": {
+  "old_scan": 169,
+  "new_scan": 17,
+  "total": 186
+ },
+ "cards_written": 186,
+ "positive": 4,
+ "open_candidate": 182,
+ "nucleus_comparison": {
+  "khashim_explicit": 7,
+  "agree": 5,
+  "differ": 2,
+  "unavailable": 179
+ },
+ "count_links": {
+  "before": 189,
+  "after": 193
+ },
+ "rows": [
+  {
+   "index": 0,
+   "foreign": "owoj",
+   "sense": "سلامة. صحة",
+   "root": "ودع",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 16,
+   "sound_ready": false,
+   "sound_rows": [
+    "باب المعتل: حرف العلة `و` في الموضع الأول يقابل صائت الفرع، مع بقاء الصامتين القويين"
+   ],
+   "sound_misses": [
+    "w↔د (بحث: `w` + `د` + «اللاتينيّة/Latin» في عمود الشاهد؛ لا صف مناسب)",
+    "j↔ع (بحث: `j` + `ع` + «اللاتينيّة/Latin» في عمود الشاهد؛ لا صف مناسب)"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "ود",
+   "our_nucleus_event": "الامتداد مع الضغط أو التماسك",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 1,
+   "foreign": "owon",
+   "sense": "فتح",
+   "root": "وني",
+   "source": "ocr-coptic",
+   "root_in_fan": true,
+   "fan_count": 9,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 2 في الفرع و3 في مرشح خشيم"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": "ون",
+   "our_nucleus": "ون",
+   "our_nucleus_event": "الفتور والتوقف عن الحركة",
+   "nucleus_comparison": "AGREE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 2,
+   "foreign": "poh",
+   "sense": "ب ح وصل. جاء. حلّ بالمكان",
+   "root": "بحح",
+   "source": "ocr-coptic",
+   "root_in_fan": true,
+   "fan_count": 80,
+   "sound_ready": true,
+   "sound_rows": [
+    "p↔ب = `LAB-01` (بحث: `p` + `ب` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "h↔ح = `GUT-04` (بحث: `h` + `ح` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "باب المضاعف: تكرير `ح` في آخر الجذر العربي، والهيكل الأصلي باق"
+   ],
+   "sound_misses": [],
+   "named_arabic_text_ready": true,
+   "human_orbit": "الوصول والمجيء والحلول بالمكان تنتهي إلى التمكن في الحلول والمقام الذي نقله خشيم في مادة `بحح`؛ فالمدار بلوغ المكان والاستقرار فيه.",
+   "khashim_nucleus": "بح",
+   "our_nucleus": "بح",
+   "our_nucleus_event": "الكشف والفراغ",
+   "nucleus_comparison": "AGREE",
+   "three_legs": {
+    "sound": true,
+    "named_lexicon": true,
+    "written_orbit": true
+   },
+   "loan_marker": null,
+   "closure": "READY",
+   "verdict": "ROOT-TRACE",
+   "open_reasons": []
+  },
+  {
+   "index": 3,
+   "foreign": "pahoy",
+   "sense": "ب ح وي خلفي. ورائي. للخلف",
+   "root": "حل",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 8,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 3 في الفرع و2 في مرشح خشيم"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": "حل",
+   "our_nucleus": "حل",
+   "our_nucleus_event": "التسيب والتفكك وما هو من لوازمه كالزيادة",
+   "nucleus_comparison": "AGREE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 4,
+   "foreign": "fent, fend",
+   "sense": "دودة",
+   "root": "فنن",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 6,
+   "sound_ready": false,
+   "sound_rows": [
+    "f↔ف = `IDN-06` (بحث: `f` + `ف` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «اللاتينيّة/Latin» في عمود الشاهد)"
+   ],
+   "sound_misses": [
+    "t↔ن (بحث: `t` + `ن` + «اللاتينيّة/Latin» في عمود الشاهد؛ لا صف مناسب)"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "فن",
+   "our_nucleus_event": "امتداد مع الرقة أو الضعف",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 5,
+   "foreign": "iorem",
+   "sense": "حرك عينه. أشار. نظر",
+   "root": "موا",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 20,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 2 في الفرع و3 في مرشح خشيم"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 6,
+   "foreign": "mei",
+   "sense": "حق. حقيقي",
+   "root": "أما",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 1 في الفرع و3 في مرشح خشيم"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 7,
+   "foreign": "moni",
+   "sense": "مرفأ. مرسي. موت",
+   "root": "وني",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 10,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 2 في الفرع و3 في مرشح خشيم"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "ون",
+   "our_nucleus_event": "الفتور والتوقف عن الحركة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 8,
+   "foreign": "meini",
+   "sense": "مبانٍ. علامات",
+   "root": "من",
+   "source": "ocr-coptic",
+   "root_in_fan": true,
+   "fan_count": 10,
+   "sound_ready": true,
+   "sound_rows": [
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «اللاتينيّة/Latin» في عمود الشاهد)"
+   ],
+   "sound_misses": [],
+   "named_arabic_text_ready": true,
+   "human_orbit": "المباني العالية تثبت بقوتها وتبرز علامات باقية؛ وهذا هو وجه القوة والثبات الذي يسميه نص العربية ومدار النواة `من`.",
+   "khashim_nucleus": "من",
+   "our_nucleus": "من",
+   "our_nucleus_event": "القوة والثبات مع صفة (نقص، وثاقة، حجز)",
+   "nucleus_comparison": "AGREE",
+   "three_legs": {
+    "sound": true,
+    "named_lexicon": true,
+    "written_orbit": true
+   },
+   "loan_marker": null,
+   "closure": "READY",
+   "verdict": "NUCLEUS-TRACE",
+   "open_reasons": []
+  },
+  {
+   "index": 9,
+   "foreign": "mei",
+   "sense": "أحب. حبيب",
+   "root": "روم",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 1 في الفرع و3 في مرشح خشيم"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": "رم",
+   "our_nucleus": "رو",
+   "our_nucleus_event": "نفاذ شيء لطيف أو خفي من حيز إلى آخر",
+   "nucleus_comparison": "DIFFER",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 10,
+   "foreign": "mise",
+   "sense": "ولد. مولود",
+   "root": "مشي",
+   "source": "ocr-coptic",
+   "root_in_fan": true,
+   "fan_count": 40,
+   "sound_ready": true,
+   "sound_rows": [
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "s↔ش = `SIB-01` (بحث: `s` + `ش` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "باب المعتل: حرف العلة `ي` في الموضع الأخير يقابل صائت الفرع، مع بقاء الصامتين القويين"
+   ],
+   "sound_misses": [],
+   "named_arabic_text_ready": true,
+   "human_orbit": "الولادة في الفرع هي نفسها قول لسان العرب الذي نقله خشيم: `مشت الغنم` أي كثر أولادها، و`أمشى` أي ولد كثيرًا؛ فالمدار مباشر في التولد.",
+   "khashim_nucleus": null,
+   "our_nucleus": "مش",
+   "our_nucleus_event": "النفاذ بانتشار من أثناء الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": true,
+    "named_lexicon": true,
+    "written_orbit": true
+   },
+   "loan_marker": null,
+   "closure": "READY",
+   "verdict": "ROOT-TRACE",
+   "open_reasons": []
+  },
+  {
+   "index": 11,
+   "foreign": "mir, mer",
+   "sense": "ربط",
+   "root": "مر",
+   "source": "ocr-coptic",
+   "root_in_fan": true,
+   "fan_count": 20,
+   "sound_ready": true,
+   "sound_rows": [
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «اللاتينيّة/Latin» في عمود الشاهد)"
+   ],
+   "sound_misses": [],
+   "named_arabic_text_ready": true,
+   "human_orbit": "الربط في الفرع يطابق نص العربية في الحبل الذي أُجيد فتله وفي `أمرّ الشيء` أي شده بالمرار؛ فالمدار شد الحبل وربطه.",
+   "khashim_nucleus": "مر",
+   "our_nucleus": "مر",
+   "our_nucleus_event": "الاسترسال والحركة مع صفة (حدة، قوة، اضطراب...)",
+   "nucleus_comparison": "AGREE",
+   "three_legs": {
+    "sound": true,
+    "named_lexicon": true,
+    "written_orbit": true
+   },
+   "loan_marker": null,
+   "closure": "READY",
+   "verdict": "NUCLEUS-TRACE",
+   "open_reasons": []
+  },
+  {
+   "index": 12,
+   "foreign": "emhet",
+   "sense": "الشّمال (بحري)",
+   "root": "محا",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 12,
+   "sound_ready": false,
+   "sound_rows": [
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "h↔ح = `GUT-04` (بحث: `h` + `ح` + «اللاتينيّة/Latin» في عمود الشاهد)"
+   ],
+   "sound_misses": [
+    "t↔ا (بحث: `t` + `ا` + «اللاتينيّة/Latin» في عمود الشاهد؛ لا صف مناسب)"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "مح",
+   "our_nucleus_event": "ذهاب الشيء أو خلاصته",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 13,
+   "foreign": "heli",
+   "sense": "خوف. رعب",
+   "root": "حري",
+   "source": "ocr-coptic",
+   "root_in_fan": true,
+   "fan_count": 80,
+   "sound_ready": true,
+   "sound_rows": [
+    "h↔ح = `GUT-04` (بحث: `h` + `ح` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "l↔ر = `LIQ-01` (بحث: `l` + `ر` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "باب المعتل: حرف العلة `ي` في الموضع الأخير يقابل صائت الفرع، مع بقاء الصامتين القويين"
+   ],
+   "sound_misses": [],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حر",
+   "our_nucleus_event": "الخلوص من الغلظ",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": true,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بالكلمات"
+   ]
+  },
+  {
+   "index": 14,
+   "foreign": "chaio",
+   "sense": "لوم. ملام. عدل",
+   "root": "ثأ",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 1 في الفرع و2 في مرشح خشيم"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 15,
+   "foreign": "toy",
+   "sense": "جبل",
+   "root": "ثوا",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 24,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 2 في الفرع و3 في مرشح خشيم"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 16,
+   "foreign": "dap",
+   "sense": "ذاق",
+   "root": "طوب",
+   "source": "ocr-coptic",
+   "root_in_fan": false,
+   "fan_count": 60,
+   "sound_ready": false,
+   "sound_rows": [
+    "p↔ب = `LAB-01` (بحث: `p` + `ب` + «اللاتينيّة/Latin» في عمود الشاهد)",
+    "باب المعتل: حرف العلة `و` في الموضع الأوسط يقابل صائت الفرع، مع بقاء الصامتين القويين"
+   ],
+   "sound_misses": [
+    "d↔ط (بحث: `d` + `ط` + «اللاتينيّة/Latin» في عمود الشاهد؛ لا صف مناسب)"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": "طب",
+   "our_nucleus": "طو",
+   "our_nucleus_event": "الثني والانخفاض",
+   "nucleus_comparison": "DIFFER",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 17,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ن ( عربة فاخرة تجرها الخيول) . 6550113أو الفرنسية 428( كروسة) من الإيطالية",
+   "root": "حمارء",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حم",
+   "our_nucleus_event": "حدة تسري في الشيء حتى تعمه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 18,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "في المصرية القديمة إب بمعنى : عطش",
+   "root": "الع",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 19,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "(م خأ) . عطفصة",
+   "root": "فشق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "فش",
+   "our_nucleus_event": "خروج ما يمتلئ به الشيء من لطيف باتساع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 20,
+   "foreign": "بمعنى أيوه",
+   "sense": "نعم (أ). القبطية ؟ -أه",
+   "root": "إي",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 21,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1له0رقع؛ علّ ى) -تل: سحب جر “حمل رودت .ع ر",
+   "root": "تلل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "تل",
+   "our_nucleus_event": "التكديس والاتباع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 22,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "011حمحم : دار طوف (هاوهم)",
+   "root": "حوم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حو",
+   "our_nucleus_event": "الامتلاء والحيازة بقوة وحياة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 23,
+   "foreign": "زقزق",
+   "sense": "دغدغ. القبطية",
+   "root": "دغغ",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 24,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ميل) . -(",
+   "root": "ركا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "رك",
+   "our_nucleus_event": "التجمع مع قلة الكثافة والتماسك",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 25,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "8510805شلشل : جذب بعدف . القبطية",
+   "root": "تل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "تل",
+   "our_nucleus_event": "التكديس والاتباع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 26,
+   "foreign": "كيب",
+   "sense": "كوم (ق أ ب) (مء! ضاعف )",
+   "root": "كبب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كب",
+   "our_nucleus_event": "التجمع كتلة متضاغطة أو كالكتلة المتضاغطة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 27,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1/01عقاب) -نوري : محتال ؛ نصاب, جشع (ن رت",
+   "root": "نسر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "نس",
+   "our_nucleus_event": "نفاذ بدقة من أثناء شيء أو فيها",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 28,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "لقبا للملك (فرعون) .. . وثمت اسم بيومي والأرجح",
+   "root": "اليم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 29,
+   "foreign": "م ري ت",
+   "sense": ")1(",
+   "root": "مور",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 30,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "عقاب",
+   "root": "رخم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "رخ",
+   "our_nucleus_event": "طراءة الشيء المتجسم لتندى أثنائه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 31,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "بالياء كما في -إذا عدنا إلى الجذر الأصلي في المصرية (! ب) والنسبة إليه ! ب ي",
+   "root": "فإننا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 32,
+   "foreign": "باختصار",
+   "sense": "المصرية (بن. إبي) هي أصلاً (يا. إب) وبزيادة ياء النسبة (با",
+   "root": "وفية",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "وف",
+   "our_nucleus_event": "بلوغ الشيء تمام قوامه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 33,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "مبدلة من القاف (رقح) ومقلوبة قلبا مكانيا (حرق). أما (ور) فهي",
+   "root": "وري",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 34,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "المصرية (د ي و). ) 8700في القبطية (دوو",
+   "root": "يدد",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "يد",
+   "our_nucleus_event": "الامتداد بقوة للتمكين أو الضغط",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 35,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ونجدها فى .1167م ,. 942وتعاقب الشين والخاء (",
+   "root": "أنس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "أن",
+   "our_nucleus_event": "التهيؤ والصلاح للبلوغ والاستعمال",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 36,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "لأحد جذرين في",
+   "root": "نظر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "نظ",
+   "our_nucleus_event": "مواجهة العين للالتقاط",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 37,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "612ارتفع 4",
+   "root": "علا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "عل",
+   "our_nucleus_event": "نوع من التراكم أو الارتفاع الذي يلزمه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 38,
+   "foreign": "وسف",
+   "sense": "كسل., خمود., بلادة, بطء. وأإسف : قطع. جريمة : )181عند بدج (المعجم, ص",
+   "root": "وسف",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 39,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "راعساب )",
+   "root": "مادة",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 40,
+   "foreign": "الناخت",
+   "sense": "الطاعن بقوة. ) 0000",
+   "root": "نشط",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "نش",
+   "our_nucleus_event": "ارتفاع بانتشار مع حدة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 41,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "005أخ",
+   "root": "صنا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "صن",
+   "our_nucleus_event": "الاحتواء في الجوف أو الإمساك في الأثناء بتمكن أو دوام",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 42,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "اقترب, دخل. وفي ثكن : )648ومن معاني المصرية تكن عند بدج رص",
+   "root": "النكنة",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 43,
+   "foreign": "ور",
+   "sense": "كغيرء وفير, عظيم؛ كبير. +هم -إم",
+   "root": "وري",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 44,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ضميرامتكلم المجمع. وفي اللهجات",
+   "root": "نحن",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "نح",
+   "our_nucleus_event": "النفاذ من الباطن بقوة واتساع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 45,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "جع جع . +العربية: أشش. -مكونة من أش -",
+   "root": "جعع",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "جع",
+   "our_nucleus_event": "التجوف والفراغ",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 46,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "وي عا | +في -وب -م -",
+   "root": "واي",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 47,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": ")824ب( بدج ع .ص 1تقارن بالعبرية (ريع) ع ع -",
+   "root": "راع",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 48,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "مأت (الحقيقة). +لام الاضافة)-م (١ +رمي -",
+   "root": "أمت",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 49,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "الكنعانية (ح ب ر) : الرفيق والصديق والصاحب ٍ -",
+   "root": "خبر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "خب",
+   "our_nucleus_event": "تخلخل باطن الشيء المتجمع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 50,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ن حم (أكل). +مكونة من (س) العتعدية -",
+   "root": "لهم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "له",
+   "our_nucleus_event": "الاتساع مع شمول وشفافية أو فراغ أثناء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 51,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "شوا. شاة. شياهة. -",
+   "root": "لوب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لو",
+   "our_nucleus_event": null,
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 52,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ملك, ملكي . -نسو )2(",
+   "root": "نشأ",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "نش",
+   "our_nucleus_event": "ارتفاع بانتشار مع حدة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 53,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "012خثر, عقد",
+   "root": "عقد",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "عق",
+   "our_nucleus_event": "وجود غلظ أو تعقد في عمق الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 54,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "012فتاة",
+   "root": "عول",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 55,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "31012, 01بد بوّْ بوٌ العين",
+   "root": "عول",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 56,
+   "foreign": "فمىت تكلم",
+   "sense": "3العربية عق كين حانقل قولا آخره كر أعاذ اعلغن",
+   "root": "عطس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "عط",
+   "our_nucleus_event": "الامتداد مع غلظ ما",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 57,
+   "foreign": "السريانية",
+   "sense": "أبا",
+   "root": "أبب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 58,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "الأصل البعيد من المصرية (أخ ي) > نباتات . الكنعانية: أخو . الأكادية أكو ح نبات",
+   "root": "أخا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 59,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "نسبة إلى (! ق ر) فى المصرية > روح رب الأرض",
+   "root": "أكر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 60,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1082البقرة",
+   "root": "عجل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "عج",
+   "our_nucleus_event": "التجمع مع نوع من الهشاشة أو الضعف",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 61,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "-د امرأة",
+   "root": "عقر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "عق",
+   "our_nucleus_event": "وجود غلظ أو تعقد في عمق الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 62,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "0101د شع لمع",
+   "root": "بأبأ",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 63,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "اطاط",
+   "root": "برر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "بر",
+   "our_nucleus_event": "التجرد والخلوص",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 64,
+   "foreign": "قارن الدارجة",
+   "sense": "بلأص وبجمع على : بلاليص",
+   "root": "بوم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "بو",
+   "our_nucleus_event": "الوصول",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 65,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "170125م) -مدشار. (ب",
+   "root": "نشر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "نش",
+   "our_nucleus_event": "ارتفاع بانتشار مع حدة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 66,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "طاء ططعط",
+   "root": "بحح",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "بح",
+   "our_nucleus_event": "الكشف والفراغ",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 67,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "د برف",
+   "root": "برق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "بر",
+   "our_nucleus_event": "التجرد والخلوص",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 68,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "بد دي",
+   "root": "كعب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كع",
+   "our_nucleus_event": "النتوء الجزئي مع عدم الاسترسال فيه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 69,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "لاكاعصسء",
+   "root": "ميش",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 70,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "المصرية (ع ب ش",
+   "root": "خنفس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "خن",
+   "our_nucleus_event": "التخلخل الممتد في الباطن",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 71,
+   "foreign": "وفارد",
+   "sense": "ولي . الولي : الصديق",
+   "root": "أسسيت",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "أس",
+   "our_nucleus_event": "نفاذ شعور أو أثر حاد في عمق أو فجوة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 72,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "110606د غنم أغنام",
+   "root": "شاء",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 73,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "06د بقية",
+   "root": "أثر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "أث",
+   "our_nucleus_event": "تجمع الدقائق بكثافة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 74,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "من المصرية (ب ني ت): حجر الرحى . الجذر العروبي (بن) يعطي معنى الحجر ومنه",
+   "root": "بنى",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "بن",
+   "our_nucleus_event": "الامتداد والبناء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 75,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "نخزء حث طرف حاد +",
+   "root": "دبس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "دب",
+   "our_nucleus_event": "الثقل أو الضغط والحركة البطيئة، ويلزمها التخلف",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 76,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "66بد لمعان , سطوع, بريق",
+   "root": "ألل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 77,
+   "foreign": "ناقة فشوش",
+   "sense": "منتشرة البول",
+   "root": "شوي",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شو",
+   "our_nucleus_event": "النتوء والظهور والزيادة الدقيقة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 78,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "أسرع , ركضص 33",
+   "root": "جري",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "جر",
+   "our_nucleus_event": "الاسترسال والامتداد",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 79,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "بروعطلاعء! 611د بغرةء كملة",
+   "root": "كلع",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كل",
+   "our_nucleus_event": "تجمع الشيء كتلة دون حد أو طرف دقيق",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 80,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1101بد رتاج باب",
+   "root": "كلأ",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كل",
+   "our_nucleus_event": "تجمع الشيء كتلة دون حد أو طرف دقيق",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 81,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "زملاءء!",
+   "root": "كلب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كل",
+   "our_nucleus_event": "تجمع الشيء كتلة دون حد أو طرف دقيق",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 82,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "مسدولء]",
+   "root": "قلم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قل",
+   "our_nucleus_event": "الرفع بصورة من الصور",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 83,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1مرع[زع)ك",
+   "root": "كلم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كل",
+   "our_nucleus_event": "تجمع الشيء كتلة دون حد أو طرف دقيق",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 84,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "يقابل",
+   "root": "قوم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قو",
+   "our_nucleus_event": "شدة في الأثناء بالالتئام أو الالتواء مع امتداد",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 85,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "بد عانق حضن., غطى",
+   "root": "كنن",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كن",
+   "our_nucleus_event": "الاستتار في جوف شيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 86,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "(بناء) سقف",
+   "root": "قبا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قب",
+   "our_nucleus_event": "النتوء مع تجوف وصلابة تحيط بنصف الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 87,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ولذة!",
+   "root": "قور",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قو",
+   "our_nucleus_event": "شدة في الأثناء بالالتئام أو الالتواء مع امتداد",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 88,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "71011خبزة",
+   "root": "قرص",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قر",
+   "our_nucleus_event": "استقرار ما شأنه التسيب في قاع عميق أو حيز",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 89,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "المصرية (ك أس)",
+   "root": "كأس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كأ",
+   "our_nucleus_event": null,
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 90,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "]501ظ",
+   "root": "كسا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كس",
+   "our_nucleus_event": "النقص بالدق أو القشر أو نحوهما من التأخر والغئور",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 91,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "د إسكافي, صانع الأحذية",
+   "root": "قصص",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قص",
+   "our_nucleus_event": "نوع من القطع مع التسوية والتتابع الممتد",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 92,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "!1[52وع",
+   "root": "كشش",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كش",
+   "our_nucleus_event": "خروج ما هو متغلغل في أثناء الشيء أو شديد الالتحام به",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 93,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "110051بد خاتم اليد",
+   "root": "خصر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "خص",
+   "our_nucleus_event": "دقة الشيء ومحدوديته",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 94,
+   "foreign": "الخصر",
+   "sense": "وسط الإنسان يوضع حوله النطاق, كما يوضع الخاتم في الإصبع, الخنصر",
+   "root": "قدد",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قد",
+   "our_nucleus_event": "الامتداد الطولي بالقطع ونحوه مع تحدد وجفاف",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 95,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "؟! 212آ و ل]2م9[",
+   "root": "قبج",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قب",
+   "our_nucleus_event": "النتوء مع تجوف وصلابة تحيط بنصف الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 96,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": ")د حب شديد",
+   "root": "لبب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لب",
+   "our_nucleus_event": "اللزوم أي التلازم والتداخل",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 97,
+   "foreign": "المصرية",
+   "sense": "(رب ش ي). العربية: لبس < ألبس, لبوس",
+   "root": "ليق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لي",
+   "our_nucleus_event": null,
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 98,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "د ناعم ضعيف",
+   "root": "رقق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "رق",
+   "our_nucleus_event": "الانبساط مع الرقة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 99,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "قطعة (خبزر)",
+   "root": "لقم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لق",
+   "our_nucleus_event": "الصدم أو الالتقاء بالشيء في الحيز بقوة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 100,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "نرى أن هذا كله ذو صلة",
+   "root": "لجج",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لج",
+   "our_nucleus_event": "التراكم ثم ما قد يلزمه من كثافة وشدة مادية",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 101,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "111ج",
+   "root": "لعب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لع",
+   "our_nucleus_event": "الحدة في الأثناء حدة يظهر أثرها",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 102,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "111د تللاشي, بلى",
+   "root": "رثم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "رث",
+   "our_nucleus_event": "مستوى من البلى",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 103,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "31م5عض , لسع ( للحشرات ) نهش ( للأفعى )",
+   "root": "لسب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لس",
+   "our_nucleus_event": "قلة مفارقة المنشأ أو المقر",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 104,
+   "foreign": "والزنبور",
+   "sense": "لسعته",
+   "root": "لظ",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لظ",
+   "our_nucleus_event": "الحركة الخفيفة مع الحدة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 105,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "زئير الأسد. -صرخ. ثم: صاح فرحا. وفي المصرية أيضا ( ن هم هم) -المصرية إن هم)",
+   "root": "نهم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "نه",
+   "our_nucleus_event": "فراغ يتخلل الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 106,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "لصق, لرق",
+   "root": "لزز",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لز",
+   "our_nucleus_event": "لصوق الشيء بالشيء وشده إلى الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 107,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "01طاع",
+   "root": "لحس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لح",
+   "our_nucleus_event": "الالتحام وما يلزمه من عرض وامتداد",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 108,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "01د عنيدل ) ملحاح",
+   "root": "لوج",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "لو",
+   "our_nucleus_event": null,
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 109,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "وهو اسم معبود الأمونيين (ملوخ) . في المصرية (م رخ). 1010نقلا عن اليونانية",
+   "root": "مرخ",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "مر",
+   "our_nucleus_event": "الاسترسال والحركة مع صفة (حدة، قوة، اضطراب...)",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 110,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "101111ل",
+   "root": "مرخ",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "مر",
+   "our_nucleus_event": "الاسترسال والحركة مع صفة (حدة، قوة، اضطراب...)",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 111,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1111ب شخص ماء فلان رجل إنسان",
+   "root": "هن",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "هن",
+   "our_nucleus_event": "رخاوة المتجمع في الباطن ولطفه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 112,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "161221أداة حصاد الررع 4",
+   "root": "نجل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "نج",
+   "our_nucleus_event": "النفاذ بغلظ وكثافة أو قوة مما يحتوي",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 113,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "المصرية (م س ن)",
+   "root": "شن",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شن",
+   "our_nucleus_event": "انتشار دقاق من أثناء الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 114,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "10115111د مبرد",
+   "root": "سحل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "سح",
+   "our_nucleus_event": "تسيُّب الشيء أو انفصاله بلطف أو دقة عن مقره",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 115,
+   "foreign": "العرينة",
+   "sense": "هوت زو قرت ع امات > قعل",
+   "root": "معشر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "مع",
+   "our_nucleus_event": "الامتداد والصلابة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 116,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "01111(نبات)",
+   "root": "بصل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "بص",
+   "our_nucleus_event": "النفاذ والإدراك",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 117,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "12627الأكادية ارم لاحء[",
+   "root": "مسح",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "مس",
+   "our_nucleus_event": "المخالطة والاتصال",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 118,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "0ضمير المتكلم الجمع, عند الإضافة",
+   "root": "نا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 119,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "9211 777011بد ذهب",
+   "root": "نأي",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "نأ",
+   "our_nucleus_event": "الصرف والإبعاد بقوة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 120,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "المصرية إن ب)",
+   "root": "نيب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 121,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "102ظ",
+   "root": "فلح",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "فل",
+   "our_nucleus_event": "انفصال ندورًا أو نتوءًا مع ضعف",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 122,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "11121نعم",
+   "root": "رقق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "رق",
+   "our_nucleus_event": "الانبساط مع الرقة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 123,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "05د برص (مرض) “",
+   "root": "صبح",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "صب",
+   "our_nucleus_event": "الحدر أو الامتداد إلى أسفل بقوة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 124,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ذبالة القدديل",
+   "root": "شعل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شع",
+   "our_nucleus_event": "الانتشار بتفرق ودقة وامتداد",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 125,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "بيعة اليهود , معبد. وفى كلتيهما معنى الغطاء. -العدنانية : صلا . صلاة. جمعها: صلوات",
+   "root": "سلل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "سل",
+   "our_nucleus_event": "انسحاب الشيء ممتدًا من أثناء أو فيها بطول ورفق",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 126,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "اقتطع, أخذ",
+   "root": "سلب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "سل",
+   "our_nucleus_event": "انسحاب الشيء ممتدًا من أثناء أو فيها بطول ورفق",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 127,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "نظّ م سلك في خيط واحد",
+   "root": "سلل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "سل",
+   "our_nucleus_event": "انسحاب الشيء ممتدًا من أثناء أو فيها بطول ورفق",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 128,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "6525, 77305بد جذب . قاد",
+   "root": "سوس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "سو",
+   "our_nucleus_event": "هيئة الشيء الظاهرة وما يعتريها من استواء أو عيب",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 129,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ابن الأرض . العربية : ذو طآة. قارن أيضا -أعيدت إلى المصرية (س١. ت أ)",
+   "root": "شيط",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 130,
+   "foreign": "وعين آنية",
+   "sense": "حارة. .]44الآن : الماء الجار. © يطوفون بينها وبين حمسيم أن © [الرحمن",
+   "root": "ذو",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "ذو",
+   "our_nucleus_event": "الدفع والحماية",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 131,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "15جذب ) شك 30",
+   "root": "سحب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "سح",
+   "our_nucleus_event": "تسيُّب الشيء أو انفصاله بلطف أو دقة عن مقره",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 132,
+   "foreign": "العرنية",
+   "sense": "فلل راكل",
+   "root": "طلق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "طل",
+   "our_nucleus_event": "الامتداد الظاهر من أصل",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 133,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "11101 0الحراث, شق خد",
+   "root": "تلم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "تل",
+   "our_nucleus_event": "التكديس والاتباع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 134,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "د لوبياء نوع من البقول “",
+   "root": "ترمس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "تر",
+   "our_nucleus_event": "الابتعاد بقوة مع دقة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 135,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "عقا ]ا -حلّ مة الندي +",
+   "root": "حلم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حل",
+   "our_nucleus_event": "التسيب والتفكك وما هو من لوازمه كالزيادة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 136,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1] 50تغضن (الجلد ), تجعد",
+   "root": "كرش",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كر",
+   "our_nucleus_event": "التركز تكرارًا ومعاودة أو بقاء طويلًا لحصول النفع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 137,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "5110ظ",
+   "root": "غمس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "غم",
+   "our_nucleus_event": "نوع من التغطية والحجب",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 138,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "10215) 1ل1510622(",
+   "root": "خطل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "خط",
+   "our_nucleus_event": "الامتداد السطحي الخفيف مع أخذ ما",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 139,
+   "foreign": "الخيطل",
+   "sense": "السنور. والكلب والنمش من نفس الفصيلة",
+   "root": "شكا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شك",
+   "our_nucleus_event": "دخول أو نفاذ بحدة أو قوة يلزمه الجمع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 140,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "اسم نبات",
+   "root": "شكر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شك",
+   "our_nucleus_event": "دخول أو نفاذ بحدة أو قوة يلزمه الجمع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 141,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "11015ب خاط, ضفر. نسج",
+   "root": "شرج",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شر",
+   "our_nucleus_event": "الانتشار أو صورة منه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 142,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "بد دعل تعبد",
+   "root": "صلا",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "صل",
+   "our_nucleus_event": "التماسك الدقيق مع لطف ما في الأثناء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 143,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "01015مدية: سكين +",
+   "root": "شلق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 144,
+   "foreign": "الغربية",
+   "sense": "هلجع من الفارسية شلغم . وتقال سلجم بالسين المهملة أيضا",
+   "root": "حمر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حم",
+   "our_nucleus_event": "حدة تسري في الشيء حتى تعمه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": "من الفارسية",
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "عزل اتجاه النقل المسمى «من الفارسية»"
+   ]
+  },
+  {
+   "index": 145,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "منزقط؟ لوطه",
+   "root": "خزم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "خز",
+   "our_nucleus_event": "نفاذ الحاد أو النفاذ بحدة في أثناء الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 146,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "00انعدام الماع جفاف 70",
+   "root": "شرق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شر",
+   "our_nucleus_event": "الانتشار أو صورة منه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 147,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "11ثوب رداء",
+   "root": "كتن",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كت",
+   "our_nucleus_event": "تداخل الشيء بعضه في بعض فيدق وينحصر",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 148,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "5215جزء من البناء",
+   "root": "أسس",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "أس",
+   "our_nucleus_event": "نفاذ شعور أو أثر حاد في عمق أو فجوة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 149,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "المصرية وش و ح). العربية: شحح. شح الماء. من البثر أو العين: قل جف",
+   "root": "شحم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شح",
+   "our_nucleus_event": "هو جفاف الجرم أو حدته مع عرض أو تجسم",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 150,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "إ)لططآ؟",
+   "root": "سحق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "سح",
+   "our_nucleus_event": "تسيُّب الشيء أو انفصاله بلطف أو دقة عن مقره",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 151,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "د جراح",
+   "root": "شجج",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شج",
+   "our_nucleus_event": "حدوث الشقّ أو الفتح في الجرم أو وجوده فيه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 152,
+   "foreign": "خيمة",
+   "sense": "غطاء",
+   "root": "خبأ",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "خب",
+   "our_nucleus_event": "تخلخل باطن الشيء المتجمع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 153,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "تحط 0خادم, عبد 4",
+   "root": "خول",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 154,
+   "foreign": "خول الامو",
+   "sense": "أعطى",
+   "root": "حلق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حل",
+   "our_nucleus_event": "التسيب والتفكك وما هو من لوازمه كالزيادة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 155,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "772111ظ",
+   "root": "حلق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حل",
+   "our_nucleus_event": "التسيب والتفكك وما هو من لوازمه كالزيادة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 156,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "10عانق 2",
+   "root": "حلق",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حل",
+   "our_nucleus_event": "التسيب والتفكك وما هو من لوازمه كالزيادة",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 157,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "دع لوطا",
+   "root": "حمل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حم",
+   "our_nucleus_event": "حدة تسري في الشيء حتى تعمه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 158,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "حكم, قضاءء قانون, عدل",
+   "root": "حفي",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حف",
+   "our_nucleus_event": "الإحاطة بالشيء من خارج",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 159,
+   "foreign": "قارن العربية",
+   "sense": "برك < بركان. الب ركان : الكساء الأسود. 21:00المقطع الثانى",
+   "root": "هبط",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "هب",
+   "our_nucleus_event": "مفارقة المقرّ باندفاع وقوة مع شيء من التجمع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 160,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "بطاوسدمط ]7[501موقف صعب , عسير ثقيل ضيق",
+   "root": "حرج",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حر",
+   "our_nucleus_event": "الخلوص من الغلظ",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 161,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "د(ه) طترره)ج!",
+   "root": "خرر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "خر",
+   "our_nucleus_event": "تخلخل الأثناء وتسيبها وهو مستوٍ من النقص",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 162,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "يتم إحصاء البضاعة وعد النقود ونحو ذلك",
+   "root": "حتت",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حت",
+   "our_nucleus_event": "تفتت الرقيق الجاف حكًا أو تسيبه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 163,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "21د وضيع دنيء",
+   "root": "حثل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حث",
+   "our_nucleus_event": "تسيب الشيء قطعًا جافة صغيرة، كحبيبات الرمل الخشن",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 164,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "123داء يصيب العين",
+   "root": "حتل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "حت",
+   "our_nucleus_event": "تفتت الرقيق الجاف حكًا أو تسيبه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 165,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "(لوزجتقط) لدع تفط",
+   "root": "هجل",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "هج",
+   "our_nucleus_event": "غور في العمق مع حدة أو فراغ ما",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 166,
+   "foreign": "بمعنى",
+   "sense": "517811فى اليونانية",
+   "root": "دغر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 167,
+   "foreign": "وقارن",
+   "sense": "زنبع . زنبوع وزنباع : ضرب من الفاكهة",
+   "root": "كنف",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كن",
+   "our_nucleus_event": "الاستتار في جوف شيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 168,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "ل 10د احد, سن",
+   "root": "ظرر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": false,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": false,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "نص العربية الذي نقله خشيم في المدخل"
+   ]
+  },
+  {
+   "index": 169,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "170صهد",
+   "root": "شفف",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شف",
+   "our_nucleus_event": "فقد كثافة الأثناء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 170,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "اه 4ا",
+   "root": "فقرمر",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "فق",
+   "our_nucleus_event": "شق الشيء إلى عمقه ويلزمه فراغ",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 171,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "رر). العربية: قلا. قلى: يلون فليا تقر بالياوة حرق",
+   "root": "قلم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قل",
+   "our_nucleus_event": "الرفع بصورة من الصور",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 172,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "11000ش",
+   "root": "قرط",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قر",
+   "our_nucleus_event": "استقرار ما شأنه التسيب في قاع عميق أو حيز",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 173,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "0010اسل",
+   "root": "درج",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "در",
+   "our_nucleus_event": "الجريان باسترسال، أو الامتداد بتوال",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 174,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "010ط",
+   "root": "قلف",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قل",
+   "our_nucleus_event": "الرفع بصورة من الصور",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 175,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "أخمص القدم. باطن القدم",
+   "root": "كفف",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كف",
+   "our_nucleus_event": "الانثناء أو القبض على الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 176,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "00إناء صغير كمية قليلة. حفنة >",
+   "root": "كفف",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كف",
+   "our_nucleus_event": "الانثناء أو القبض على الشيء",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 177,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "80قدم رجل 4",
+   "root": "كرع",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "كر",
+   "our_nucleus_event": "التركز تكرارًا ومعاودة أو بقاء طويلًا لحصول النفع",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 178,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "120قى ن خروب (نبات) #4",
+   "root": "قرظ",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قر",
+   "our_nucleus_event": "استقرار ما شأنه التسيب في قاع عميق أو حيز",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 179,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1100مدية سكين",
+   "root": "قرط",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قر",
+   "our_nucleus_event": "استقرار ما شأنه التسيب في قاع عميق أو حيز",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 180,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1100, 100م",
+   "root": "خرب",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "خر",
+   "our_nucleus_event": "تخلخل الأثناء وتسيبها وهو مستوٍ من النقص",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 181,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "1010ا",
+   "root": "قرح",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قر",
+   "our_nucleus_event": "استقرار ما شأنه التسيب في قاع عميق أو حيز",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 182,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "01010فخ 4مصيدة 03",
+   "root": "شرك",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "شر",
+   "our_nucleus_event": "الانتشار أو صورة منه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 183,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "11000منديل للرأس غطاء. وعاء. إناء",
+   "root": "اكوم",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت",
+    "تحليل يحدد درجة المادة العربية"
+   ]
+  },
+  {
+   "index": 184,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "500اندلق 4ع تدفق, انب",
+   "root": "جيش",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": null,
+   "our_nucleus_event": null,
+   "nucleus_comparison": "BOTH-UNAVAILABLE",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  },
+  {
+   "index": 185,
+   "foreign": "(سقطَ حرفُه في المسح)",
+   "sense": "دازم 000",
+   "root": "قشع",
+   "source": "khashim-coptic",
+   "root_in_fan": false,
+   "fan_count": 0,
+   "sound_ready": false,
+   "sound_rows": [],
+   "sound_misses": [
+    "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
+   ],
+   "named_arabic_text_ready": true,
+   "human_orbit": null,
+   "khashim_nucleus": null,
+   "our_nucleus": "قش",
+   "our_nucleus_event": "جفاف الظاهر وتقلصه أو تشنجه",
+   "nucleus_comparison": "KHASHIM-NUCLEUS-NOT-RECOVERED",
+   "three_legs": {
+    "sound": false,
+    "named_lexicon": true,
+    "written_orbit": false
+   },
+   "loan_marker": null,
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "open_reasons": [
+    "استرداد الرأس القبطي أو رومنته السليمة من المسح",
+    "دخول مرشح خشيم نفسه في مروحة الأداة",
+    "صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت"
+   ]
+  }
+ ]
+}

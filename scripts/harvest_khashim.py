@@ -35,6 +35,7 @@
 """
 from __future__ import annotations
 
+import difflib
 import json
 import pathlib
 import re
@@ -166,17 +167,35 @@ def mine_ocr(md: pathlib.Path, tongue_ar: str, tongue_key: str) -> list[dict]:
             continue
         root, gloss_ar = rm.group(1), clean(ar_side[rm.end():])
 
+        # نص لسان العرب يمتد كثيرًا إلى الأسطر التالية بعد سطر «العربية: مادة»؛
+        # لا يجوز اختزاله في ذيل السطر الأول، ولا سيما إذا كان الذيل فارغًا.
+        gloss_parts = [gloss_ar] if gloss_ar else []
+        for forward in range(1, 10):
+            if i + forward >= len(lines):
+                break
+            continuation = lines[i + forward]
+            if RX_OCR_ANSWER.match(continuation) or RX_OCR_HEAD.match(continuation):
+                break
+            if continuation and AR.search(continuation):
+                gloss_parts.append(continuation)
+        gloss_ar = clean(" ".join(gloss_parts))
+
         # المدخلُ اللاتينيُّ في عشرةِ سطورٍ قبلَه، وأقربُها أولى، ومعناه
         # أوّلُ سطرٍ عربيٍّ بعدَه مباشرةً
         foreign = foreign_sense = ""
+        head_line = None
         for back in range(1, 11):
             if i - back < 0:
                 break
             hm = RX_OCR_HEAD.match(lines[i - back])
             if hm:
                 foreign = hm.group(1)
-                nxt = lines[i - back + 1] if i - back + 1 < len(lines) else ""
-                foreign_sense = nxt[:90] if AR.search(nxt) else ""
+                head_line = i - back + 1
+                for sense_line in range(i - back + 1, i):
+                    candidate = lines[sense_line]
+                    if candidate and AR.search(candidate) and not RX_OCR_ANSWER.match(candidate):
+                        foreign_sense = candidate[:90]
+                        break
                 break
         if not foreign or len(root) < 2:
             continue
@@ -187,10 +206,111 @@ def mine_ocr(md: pathlib.Path, tongue_ar: str, tongue_key: str) -> list[dict]:
         pairs.append({
             "tongue_ar": tongue_ar, "tongue": tongue_key,
             "foreign": foreign, "foreign_sense": foreign_sense,
-            "arabic_root": root, "arabic_gloss": gloss_ar[:200],
+            "arabic_root": root, "arabic_gloss": gloss_ar[:600],
             "source": md.parent.name,
+            "source_line": head_line,
         })
     return pairs
+
+
+def _bare_ar(value: str) -> str:
+    value = unicodedata.normalize("NFKC", value or "")
+    value = re.sub(r"[\u064b-\u065fـ]", "", value).replace("ٱ", "ا")
+    return re.sub(r"[^ء-ي]", "", value)
+
+
+def _ocr_similarity(left: str, right: str) -> float:
+    left, right = _bare_ar(left), _bare_ar(right)
+    if not left or not right:
+        return 0.0
+    return difflib.SequenceMatcher(None, left, right, autojunk=False).ratio()
+
+
+def recover_latin_heads(rows: list[dict]) -> tuple[list[dict], dict[str, int]]:
+    """ردّ رؤوس المسح العربي القديم إلى المسح الجديد بلا إعادة استعمال.
+
+    الرصف عالمي رتيب: لا يطابق إلا الجذر العربي نفسه، ويرجّح داخل التكرار
+    اتفاق نص لسان العرب ثم معنى المدخل. وبذلك لا يستطيع رأس متأخر أن يقفز فوق
+    رأس سابق، ولا يستطيع صفان قديمان سرقة الرأس الجديد نفسه.
+    """
+    new = [row for row in rows if row.get("source") == "ocr-latin"]
+    old_positions = [
+        index for index, row in enumerate(rows)
+        if row.get("source") == "khashim-latin"
+    ]
+    old = [rows[index] for index in old_positions]
+    if (len(new), len(old)) != (515, 560):
+        raise SystemExit(
+            f"تغيّر جرد رصف اللاتينية: الجديد/القديم={len(new)}/{len(old)}"
+        )
+
+    n, m, gap = len(old), len(new), -2.0
+    scores = [[0.0] * (m + 1) for _ in range(n + 1)]
+    paths = [[0] * (m + 1) for _ in range(n + 1)]
+    for i in range(1, n + 1):
+        scores[i][0], paths[i][0] = i * gap, 1
+    for j in range(1, m + 1):
+        scores[0][j], paths[0][j] = j * gap, 2
+    for i in range(1, n + 1):
+        for j in range(1, m + 1):
+            if _bare_ar(old[i - 1]["arabic_root"]) == _bare_ar(new[j - 1]["arabic_root"]):
+                match = (
+                    7.0
+                    + 6.0 * _ocr_similarity(old[i - 1].get("arabic_gloss", ""),
+                                             new[j - 1].get("arabic_gloss", ""))
+                    + 4.0 * _ocr_similarity(old[i - 1].get("foreign_sense", ""),
+                                             new[j - 1].get("foreign_sense", ""))
+                )
+            else:
+                match = -8.0
+            choices = (
+                scores[i - 1][j - 1] + match,
+                scores[i - 1][j] + gap,
+                scores[i][j - 1] + gap,
+            )
+            choice = max(range(3), key=lambda key: choices[key])
+            scores[i][j], paths[i][j] = choices[choice], choice
+
+    aligned: list[tuple[int, int]] = []
+    i, j = n, m
+    while i or j:
+        choice = paths[i][j]
+        if i and j and choice == 0:
+            if _bare_ar(old[i - 1]["arabic_root"]) == _bare_ar(new[j - 1]["arabic_root"]):
+                aligned.append((i - 1, j - 1))
+            i, j = i - 1, j - 1
+        elif i and (not j or choice == 1):
+            i -= 1
+        else:
+            j -= 1
+    aligned.reverse()
+
+    repaired = [dict(row) for row in rows]
+    recovered = 0
+    for old_index, new_index in aligned:
+        old_row, new_row = old[old_index], new[new_index]
+        if old_row.get("foreign") != "(سقطَ حرفُه في المسح)":
+            continue
+        target = repaired[old_positions[old_index]]
+        target["foreign"] = new_row["foreign"]
+        if new_row.get("foreign_sense"):
+            target["foreign_sense"] = new_row["foreign_sense"]
+        target["ocr_recovery"] = {
+            "old_head": "(سقطَ حرفُه في المسح)",
+            "old_foreign_sense": old_row.get("foreign_sense", ""),
+            "matched_source": "Resources/prior-art/ocr-latin/full.md",
+            "source_line": new_row.get("source_line"),
+            "matched_new_row": new_index,
+            "contract": "الجذر نفسه + رصف رتيب + ترجيح معنى المدخل ونص لسان العرب",
+        }
+        recovered += 1
+    if recovered != 290:
+        raise SystemExit(f"تغيّر عدد رؤوس اللاتينية المستردة: {recovered}، والمتوقع 290")
+    return repaired, {
+        "old_rows_with_fallen_head": 513,
+        "heads_recovered": recovered,
+        "heads_still_fallen": 513 - recovered,
+    }
 
 
 OCR_BOOKS = {
@@ -211,7 +331,29 @@ OCR_BOOKS = {
 RX_COPT_HEAD = re.compile(r"^##+\s+(.{2,90}?)\s*$", re.M)
 RX_COPT_LATIN = re.compile(r"([a-zàâäèéêëîïôöùûüō][a-zàâäèéêëîïôöùûüō,\s]{1,28})$")
 RX_COPT_ROOT = re.compile(r"في\s*مادة\s*['\"‹«]?\s*([ء-ي]{2,6})")
-RX_COPT_NUC = re.compile(r"ثلاثي\s*['\"‹«]?\s*([ء-ي]{2,4})")
+RX_COPT_THREE = re.compile(r"ثلاثي\s*['\"‹«]?\s*([ء-ي]{2,4})")
+RX_COPT_BINARY_AFTER = re.compile(
+    r"ثنائي(?:ة)?\s*['\"‹«]?\s*([ء-ي]{2,3})(?![ء-ي])"
+)
+RX_COPT_BINARY_BEFORE = re.compile(
+    r"['\"‹«]?\s*([ء-ي]{2,3})(?![ء-ي])\s*['\"›»]?\s*الثنائي"
+)
+
+
+def coptic_nucleus(body: str) -> str:
+    """استخرج تسمية خشيم الثنائية، وقد تأتي قبل لفظ «الثنائي» أو بعده."""
+    after = RX_COPT_BINARY_AFTER.search(body)
+    before = RX_COPT_BINARY_BEFORE.search(body)
+    # صيغة «الجذر الثنائي طب» ينبغي أن تعطي `طب` لا الكلمة السابقة `جذر`؛
+    # لذلك تكون جهة ما بعد الصفة أولى، ولا نرجع إلى السابقة إلا عند «رم الثنائي».
+    if after:
+        return after.group(1)
+    if before and before.group(1) != "جذر":
+        return before.group(1)
+    # يكتب خشيم أحيانًا الصيغة «ثلاثي بح» وهو يعني أن بح نواة بحح؛ لا يؤخذ
+    # من هذا الباب إلا ما كان ثنائي الحروف فعلًا.
+    three = RX_COPT_THREE.search(body)
+    return three.group(1) if three and len(three.group(1)) == 2 else ""
 
 
 def mine_coptic(md: pathlib.Path) -> list[dict]:
@@ -226,11 +368,11 @@ def mine_coptic(md: pathlib.Path) -> list[dict]:
             continue
         coptic = " ".join(m.group(1).split())
         gloss = clean(head[: m.start()])
-        rm = RX_COPT_ROOT.search(body[:1400]) or RX_COPT_NUC.search(body[:1400])
+        rm = RX_COPT_ROOT.search(body[:1400]) or RX_COPT_THREE.search(body[:1400])
         if not rm:
             continue
         root = rm.group(1)
-        nuc = RX_COPT_NUC.search(body[:1400])
+        nucleus = coptic_nucleus(body[:1400])
         key = (coptic, root)
         if key in seen or len(root) < 2:
             continue
@@ -239,7 +381,7 @@ def mine_coptic(md: pathlib.Path) -> list[dict]:
             "tongue_ar": "القبطيّة", "tongue": "coptic",
             "foreign": coptic, "foreign_sense": gloss[:90],
             "arabic_root": root,
-            "arabic_nucleus": nuc.group(1) if nuc else "",
+            "arabic_nucleus": nucleus,
             "arabic_gloss": clean(re.sub(r"\s+", " ", body[:220])),
             "source": "ocr-coptic",
         })
@@ -344,6 +486,8 @@ def main() -> int:
         rows.extend(got)
         print(f"  {stem:24}{len(got):>8}")
 
+    rows, latin_recovery = recover_latin_heads(rows)
+
     OUT.write_text(json.dumps({
         "generated_by": "scripts/harvest_khashim.py",
         "layer": "استكشاف",
@@ -353,6 +497,7 @@ def main() -> int:
                  "والكلمةُ الأجنبيّةُ بحروفٍ عربيّةٍ كما كتبَها هو، لأنّ المسحَ الضوئيَّ "
                  "عربيٌّ فقط فسقطَ الحرفُ الأصليُّ، وهو نقصٌ مسمًّى يُسَدُّ بمسحٍ ثانٍ."),
         "pairs": len(rows),
+        "latin_head_recovery": latin_recovery,
         "rows": rows,
     }, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
 

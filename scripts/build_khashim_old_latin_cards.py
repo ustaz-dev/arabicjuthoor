@@ -6,7 +6,7 @@
 ثابتة. لا تمنح الأداة حكمًا من تقاطع ألفاظ آلي، ولا تضيف شاهدًا دلاليًا رابعًا:
 
 * الصوت من صفوف شبكة الإبدالات المجمدة، مع تسجيل ألفاظ البحث.
-* الحدث من سجل الجذور أو النوى المجمد كما هو.
+* الرجل المعجمية نص لسان العرب الذي نقله خشيم نفسه في المدخل.
 * معنى الفرع من مسح كتاب خشيم بلا ترجمة ولا تهذيب، والمدار جملة بشرية.
 
 المروحة أداة توليد فقط. غياب مرشح خشيم منها أو من السجل يفتح
@@ -27,7 +27,6 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fan_any_script as FAN  # noqa: E402
-import search_arabic_root_senses as ARS  # noqa: E402
 
 SOURCE = ROOT / "data" / "khashim-pairs.json"
 READING = ROOT / "04-cross-linguistic" / "readings" / "old-latin.md"
@@ -35,7 +34,6 @@ REPORT = ROOT / "data" / "khashim-old-latin-batch-001.json"
 AUDIT = ROOT / "05-audits" / "2026-08-11-khashim-old-latin-batch-001.md"
 ROOT_EVENTS = ROOT / "computational" / "data" / "layer_2_results_v2.jsonl"
 CORE_LEVELS = ROOT / "data" / "juthoor-core-levels.json"
-RESOURCES = ROOT / "Resources"
 OCR_LATIN = pathlib.Path.home() / "AI Projects" / "Resources" / "prior-art" / "ocr-latin" / "full.md"
 
 START = "<!-- KHASHIM-OLD-LATIN-BATCH-001:START -->"
@@ -85,11 +83,17 @@ IDENTITY: dict[tuple[str, str], str] = {
 SHIFTS: dict[tuple[str, str], str] = {
     ("p", "ب"): "LAB-01", ("p", "ف"): "IDN-06",
     ("b", "ف"): "LAB-02", ("f", "ب"): "LAB-02",
+    ("w", "ب"): "LAB-05", ("v", "ب"): "LAB-05",
     ("r", "ل"): "LIQ-01", ("l", "ر"): "LIQ-01",
+    ("m", "ن"): "LIQ-02", ("n", "م"): "LIQ-02",
     ("c", "ق"): "GUT-01", ("k", "ق"): "GUT-01", ("q", "ك"): "GUT-01",
     ("c", "ج"): "GUT-03", ("g", "ك"): "GUT-02",
-    ("t", "ط"): "DENT-05", ("d", "ض"): "DENT-06",
-    ("s", "ش"): "SIB-01", ("s", "ص"): "SIB-02", ("s", "ز"): "SIB-03",
+    ("h", "ع"): "GUT-04", ("h", "ح"): "GUT-04",
+    ("h", "غ"): "GUT-04", ("h", "ء"): "GUT-04",
+    ("t", "ث"): "DENT-01", ("t", "ط"): "DENT-05",
+    ("d", "ذ"): "DENT-03", ("d", "ض"): "DENT-06", ("z", "ذ"): "DENT-04",
+    ("s", "ث"): "DENT-02", ("s", "ش"): "SIB-01",
+    ("s", "ص"): "SIB-02", ("s", "ز"): "SIB-03",
     ("j", "ي"): "GLD-02", ("v", "و"): "LAB-06",
 }
 
@@ -326,7 +330,18 @@ def excerpt(value: str, limit: int = 380) -> str:
 def prepare_rows() -> tuple[list[dict[str, Any]], dict[str, int]]:
     payload = json.loads(SOURCE.read_text(encoding="utf-8"))
     all_latin = [row for row in payload["rows"] if row.get("tongue") == "old-latin"]
-    valid = [row for row in all_latin if row.get("foreign") != "(سقطَ حرفُه في المسح)"]
+    # يبقى مقام الـ562 ثابتًا بعد استرداد 290 رأسًا من المسح القديم: المسح
+    # الجديد كله، ومعه الصفوف القديمة السبعة والأربعون التي كان رأسها سالمًا
+    # أصلًا. أما المستردة فتثري نظائرها ولا تنشئ مرشحات مكررة.
+    valid = [
+        row for row in all_latin
+        if row.get("source") == "ocr-latin"
+        or (
+            row.get("source") == "khashim-latin"
+            and not row.get("ocr_recovery")
+            and row.get("foreign") != "(سقطَ حرفُه في المسح)"
+        )
+    ]
     if len(valid) != VALID_COUNT:
         raise SystemExit(f"تغيّر جرد اللاتينية الصالح: {len(valid)}، والمتوقع {VALID_COUNT}")
     sense_index = ocr_sense_index()
@@ -401,7 +416,7 @@ def fan_text(values: list[str]) -> str:
     return "، ".join(f"`{value}`" for value in values) if values else "(لم تولد الأداة مرشحًا)"
 
 
-def card(item: dict[str, Any], lexica: dict[str, list[dict[str, Any]]]) -> tuple[str, dict[str, Any]]:
+def card(item: dict[str, Any]) -> tuple[str, dict[str, Any]]:
     row = item["row"]
     foreign, root, sense = item["foreign"], item["root"], item["sense"]
     fan = item["fan"]
@@ -420,23 +435,15 @@ def card(item: dict[str, Any], lexica: dict[str, list[dict[str, Any]]]) -> tuple
         event_source = "`computational/data/layer_2_results_v2.jsonl`، حقل `jabal_axial`"
         degree = "ROOT-TRACE"
 
-    # الأرجل الثلاث وحدها: الصوت، الحدث، معنى الفرع مع المدار المكتوب.
+    # الأرجل الثلاث وحدها: الصوت، نص المعجم المسمى، والمدار المكتوب.
     sound_leg = item["sound_ready"]
-    event_leg = bool(event_text)
-    meaning_leg = bool(sense and orbit)
+    source_leg = bool(one_line(row.get("arabic_gloss", "")))
+    orbit_leg = bool(sense and orbit)
     structural_ready = bool(fan["hit"] and len(root) in {2, 3})
     direction_ready = not item["loan_marker"]
-    positive = all((sound_leg, event_leg, meaning_leg)) and structural_ready and direction_ready
+    positive = all((sound_leg, source_leg, orbit_leg)) and structural_ready and direction_ready
     closure = "READY" if positive else "OPEN-CANDIDATE"
     verdict = f"**{degree} (استكشاف)**" if positive else "**غير صادر (استكشاف)**"
-
-    independent = preferred_lexicon(lexica.get(root, []))
-    if independent:
-        independent_text = (
-            f"ومقتطف حرفي مستقل من {independent['source']}: «{excerpt(independent['definition'])}»"
-        )
-    else:
-        independent_text = "ولم تسترد الأداة المحلية نصًا مستقلًا ثانيًا لهذه المادة"
 
     if fan["hit"]:
         location = (
@@ -460,8 +467,8 @@ def card(item: dict[str, Any], lexica: dict[str, list[dict[str, Any]]]) -> tuple
         obstacles.append("تحليل يحدد درجة المادة العربية")
     if not sound_leg:
         obstacles.append("صف أو صفوف الشبكة المبينة في مسار الصوت")
-    if not event_leg:
-        obstacles.append("حدث المادة من السجل المجمد")
+    if not source_leg:
+        obstacles.append("نص لسان العرب الذي نقله خشيم في المدخل")
     if not sense:
         obstacles.append("معنى الفرع الحرفي من مسح الكتاب")
     if sense and not orbit:
@@ -514,9 +521,9 @@ def card(item: dict[str, Any], lexica: dict[str, list[dict[str, Any]]]) -> tuple
         f"- مروحة المرشحات العربية من أداتنا: شغل `scripts/fan_any_script.py` على `{foreign}` بلسان "
         f"`latin`؛ المروحة الكاملة: {fan_text(fan['full'])}.",
         f"- موضع مرشح خشيم من المروحة: `{root}` {location}؛ المروحة من أداتنا لا من قول خشيم.",
-        f"- مسح المعاني العربية: مادة خشيم `{row.get('arabic_root', '')}`، ونص لسان العرب كما نقله هو "
-        f"بلا تعديل: «{markdown_quote(row.get('arabic_gloss', ''))}»؛ {independent_text}.",
-        f"- الحدث من السجل المجمد: {'«' + event_text + '» [' + event_source + '؛ نقل كما هو]' if event_text else '(لا حدث مسجل لهذه المادة)'}.",
+        f"- مسح المعاني العربية: مادة خشيم `{row.get('arabic_root', '')}`؛ «{markdown_quote(row.get('arabic_gloss', ''))}» "
+        "[نقلَه خشيمٌ عن لسان العرب؛ هو الرجل المعجمية المسماة نفسها، بلا طلب بديل].",
+        f"- الحدث من السجل المجمد (فحص موازٍ لا رجل زائدة): {'«' + event_text + '» [' + event_source + '؛ نقل كما هو]' if event_text else '(لا حدث مسجل لهذه المادة)'}.",
         f"- المقابل من اللسان: `{root}`؛ هو النص الحرفي لحقل `arabic_root` عند خشيم، لا مرشح اختارته المروحة.",
         f"- مسار الصوت: {sound}. فُتش كل موضع بالحرفين معًا ثم بلفظي «اللاتينيّة» و`Latin` "
         "في عمود الشاهد من `shift-network-draft.md`؛ لم يكتب في الملف المجمد.",
@@ -533,7 +540,7 @@ def card(item: dict[str, Any], lexica: dict[str, list[dict[str, Any]]]) -> tuple
         f"- إشعاع الأسرة في العربية: الأعضاء المعجمية المدعومة={family_count}؛ "
         f"سلاسل المعنى المدعومة={family_count}؛ مادة `{root}` في الحدث والمدار المسميين وحدهما.",
         "- جسور الاسترداد المفحوصة: الرسم اللاتيني المستعاد؛ معنى الفرع في المسح؛ التعرية اللاتينية؛ "
-        "المروحة الخام والبديلة؛ مرشح خشيم؛ نص لسان العرب المنقول ونص معجمي مستقل؛ سجل الحدث؛ "
+        "المروحة الخام والبديلة؛ مرشح خشيم؛ نص لسان العرب الذي نقله خشيم؛ سجل الحدث الموازي؛ "
         "الشبكة بالحرفين وباسمي اللسان؛ المدار؛ الاتجاه؛ المتجانسات.",
         f"- عائق: النوع={closure}؛ يتطلب={required}",
         f"- حالة الإغلاق: {closure}",
@@ -549,10 +556,12 @@ def card(item: dict[str, Any], lexica: dict[str, list[dict[str, Any]]]) -> tuple
         "root_in_fan": fan["hit"], "root_fan_position": fan["position"],
         "fan_source": fan["source"], "sound_ready": sound_leg,
         "sound_rows": item["sound_rows"], "sound_misses": item["sound_misses"],
-        "event_ready": event_leg, "event": event_text or None,
+        "named_lexicon_ready": source_leg,
+        "named_lexicon_source": "نقلَه خشيمٌ عن لسان العرب" if source_leg else None,
+        "event_ready": bool(event_text), "event": event_text or None,
         "event_source": event_source if event_text else None,
         "human_orbit": orbit or None, "loan_marker": item["loan_marker"],
-        "three_legs": {"sound": sound_leg, "event": event_leg, "branch_meaning_with_orbit": meaning_leg},
+        "three_legs": {"sound": sound_leg, "named_lexicon": source_leg, "written_orbit": orbit_leg},
         "closure": closure, "verdict": degree if positive else None,
         "open_reasons": obstacles,
     }
@@ -624,7 +633,8 @@ def write_audit(report_rows: list[dict[str, Any]], inventory: dict[str, int]) ->
         "## حراسة الأرجل الثلاث",
         "",
         "الحكم الموجب لا يطلب شاهدًا دلاليًا منشورًا يصل النصين. البوابة في البنّاء ثلاثة "
-        "متغيرات فقط: `sound` و`event` و`branch_meaning_with_orbit`. المدار جملة بشرية "
+        "متغيرات فقط: `sound` و`named_lexicon` و`written_orbit`. الرجل المعجمية "
+        "هي نص لسان العرب الذي نقله خشيم في المدخل نفسه، والمدار جملة بشرية "
         "مسجلة في `HUMAN_ORBITS`، والمروحة مرحلة توليد سابقة لا شاهد معنى رابعًا. كل صف صوتي "
         "ناقص يحمل ألفاظ البحث بالحرفين وبلفظي «اللاتينيّة» و`Latin` قبل إعلان النقص.",
         "",
@@ -638,12 +648,10 @@ def write_audit(report_rows: list[dict[str, Any]], inventory: dict[str, int]) ->
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     selected, inventory = prepare_rows()
-    roots = {item["root"] for item in selected if item["root"]}
-    lexica = ARS.matches_for_roots(RESOURCES, roots, limit=None)
     rendered: list[str] = []
     report_rows: list[dict[str, Any]] = []
     for item in selected:
-        text, summary = card(item, lexica)
+        text, summary = card(item)
         rendered.append(text)
         report_rows.append(summary)
     positives = sum(bool(row["verdict"]) for row in report_rows)
@@ -664,8 +672,9 @@ def main() -> int:
         "كل مرشح ونص معجمي لاتيني وعربي من علي فهمي خشيم، «اللاتينيّة عربيّة». "
         "المروحة والمسار والحدث والمدار والحكم من أدوات المشروع.",
         "",
-        "**الأرجل الثلاث.** لا حكم موجب إلا بصوت من الشبكة المجمدة، وحدث من السجل المجمد "
-        "كما هو، ومعنى من قاموس الفرع بلا رتوش مع مدار بشري مكتوب. لا يطلب شاهد دلالي رابع.",
+        "**الأرجل الثلاث.** لا حكم موجب إلا بصوت من الشبكة المجمدة، ونص لسان العرب "
+        "الذي نقله خشيم في المدخل نفسه، ومدار بشري مكتوب يصل معنى الفرع بالنص. "
+        "سجل الحدث فحص موازٍ لا شاهد دلالي رابع.",
         "",
         "**قاموس الإغلاق المغلق.** تستعمل الدفعة `READY` و`OPEN-CANDIDATE` فقط. "
         f"صدر {positives} حكمًا موجبًا موسومًا `(استكشاف)`، وبقي {opens} مرشحًا مفتوحًا.",
