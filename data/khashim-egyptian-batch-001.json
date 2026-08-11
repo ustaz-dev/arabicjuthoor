@@ -7,14 +7,18 @@
  "fan_audit_938": {
   "rows_examined": 938,
   "rows_with_khashim_candidate": 820,
-  "rows_any_candidate_in_expanded_fan": 106,
-  "rows_any_candidate_in_old_fan": 81,
-  "rows_exact_field_in_old_fan": 75,
-  "rows_exact_field_in_expanded_fan": 97,
-  "rows_evaluable_after_skeleton_and_candidate": 558,
-  "chosen_candidate_in_expanded_fan": 95,
-  "first_batch_chosen_in_old_fan": 25,
-  "first_batch_chosen_in_expanded_fan": 28
+  "rows_any_candidate_in_old_fan": 106,
+  "rows_any_candidate_in_expanded_fan": 224,
+  "rows_exact_field_in_old_fan": 97,
+  "rows_exact_field_in_expanded_fan": 208,
+  "rows_evaluable_after_skeleton_and_candidate": 618,
+  "chosen_candidate_in_expanded_fan": 189,
+  "batch_001_chosen_in_faulty_fan": 28,
+  "batch_001_chosen_in_corrected_fan": 37,
+  "batch_002_chosen_in_faulty_fan": 39,
+  "batch_002_chosen_in_corrected_fan": 77,
+  "batch_003_chosen_in_faulty_fan": 24,
+  "batch_003_chosen_in_corrected_fan": 75
  },
  "scan_defects_union": 584,
  "scan_defects_by_reason": {
@@ -25,14 +29,15 @@
  },
  "selection_scan_reasons": {},
  "cards_written": 120,
+ "chosen_in_corrected_fan": 37,
  "positive": 9,
  "open_candidate": 111,
  "open_reasons_overlapping": {
-  "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة": 92,
+  "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة": 83,
   "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت": 1,
   "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي": 36,
-  "صفوف الشبكة الناقصة المبيّنة في مسار الصوت": 96,
-  "مراجعة دلالية بشرية مستقلة تتجاوز التقارب الآلي بين النصوص": 2,
+  "صفوف الشبكة الناقصة المبيّنة في مسار الصوت": 91,
+  "مراجعة دلالية بشرية مستقلة تتجاوز التقارب الآلي بين النصوص": 5,
   "نص لسان العرب أو تاج العروس للمادة": 9
  },
  "rows": [
@@ -69,7 +74,7 @@
    "sense": "hollow of the hand or foot; Heb. 𓀀, 𓀀",
    "root": "كف",
    "score": 88,
-   "raw_fan_count": 2,
+   "raw_fan_count": 4,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
@@ -94,7 +99,7 @@
    "sense": "sea, river; Heb. יָס",
    "root": "يم",
    "score": 84,
-   "raw_fan_count": 2,
+   "raw_fan_count": 4,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
@@ -139,6 +144,33 @@
    "sound_misses": [],
    "scan_reasons": [],
    "open_reasons": []
+  },
+  {
+   "index": 7,
+   "foreign": "asher",
+   "sense": "to burn, to melt, to roast, to try by fire",
+   "root": "شرر",
+   "score": 73,
+   "raw_fan_count": 8,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "أحرق",
+    "بالنار"
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "sh↔ش = `IDN-21` (بحث: `sh` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ر↔ر = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [],
+   "open_reasons": [
+    "مراجعة دلالية بشرية مستقلة تتجاوز التقارب الآلي بين النصوص"
+   ]
   },
   {
    "index": 806,
@@ -189,6 +221,32 @@
    "open_reasons": []
   },
   {
+   "index": 338,
+   "foreign": "tcher",
+   "sense": "to be near the limit or boundary, by the side of something, near; 𓂋𓂍",
+   "root": "ذرر",
+   "score": 70,
+   "raw_fan_count": 16,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "الحد"
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "tch↔ذ = `IDN-24` (بحث: `tch` + `ذ` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ر↔ر = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [],
+   "open_reasons": [
+    "مراجعة دلالية بشرية مستقلة تتجاوز التقارب الآلي بين النصوص"
+   ]
+  },
+  {
    "index": 424,
    "foreign": "sger",
    "sense": "fort, fortress, a to strong enclosed place",
@@ -213,23 +271,23 @@
    "open_reasons": []
   },
   {
-   "index": 427,
-   "foreign": "sgeru",
-   "sense": "the silent ones",
-   "root": "سجر",
-   "score": 70,
-   "raw_fan_count": 18,
+   "index": 364,
+   "foreign": "sur",
+   "sense": "drink;",
+   "root": "سور",
+   "score": 68,
+   "raw_fan_count": 6,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
-    "سجرت"
+    "شراب"
    ],
    "closure": "READY",
    "verdict": "ROOT-TRACE",
    "sound_rows": [
     "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
-    "g↔ج = `IDN-08` (بحث: `g` + `ج` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)",
     "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
    "sound_misses": [],
@@ -266,7 +324,7 @@
    "sense": "g, to carry; = q1 π 80;",
    "root": "في",
    "score": 68,
-   "raw_fan_count": 2,
+   "raw_fan_count": 4,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
@@ -291,7 +349,7 @@
    "sense": "a sea-going ship",
    "root": "مر",
    "score": 68,
-   "raw_fan_count": 2,
+   "raw_fan_count": 4,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
@@ -308,6 +366,56 @@
    "scan_reasons": [],
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة"
+   ]
+  },
+  {
+   "index": 567,
+   "foreign": "āamāq",
+   "sense": "valley; Heb. 𓀀",
+   "root": "عمق",
+   "score": 65,
+   "raw_fan_count": 4,
+   "root_in_raw_fan": false,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "واد"
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "q↔ق = `IDN-12` (بحث: `q` + `ق` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [],
+   "open_reasons": [
+    "مراجعة دلالية بشرية مستقلة تتجاوز التقارب الآلي بين النصوص"
+   ]
+  },
+  {
+   "index": 345,
+   "foreign": "resh",
+   "sense": "𓂀, a disease or",
+   "root": "رشش",
+   "score": 56,
+   "raw_fan_count": 8,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "sh↔ش = `IDN-21` (بحث: `sh` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ش↔ش = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [],
+   "open_reasons": [
+    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
    ]
   },
   {
@@ -349,6 +457,30 @@
     "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
     "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
     "ḥ↔ح = `IDN-14` (بحث: `ḥ` + `ح` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
+   "sound_misses": [],
+   "scan_reasons": [],
+   "open_reasons": [
+    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+   ]
+  },
+  {
+   "index": 546,
+   "foreign": "shen",
+   "sense": "hair, foliage of a plant or tree; 𓂀, berries of a tree, fruit",
+   "root": "شنن",
+   "score": 56,
+   "raw_fan_count": 4,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "sh↔ش = `IDN-21` (بحث: `sh` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ن↔ن = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
    ],
    "sound_misses": [],
    "scan_reasons": [],
@@ -440,7 +572,7 @@
    "sense": "l-worker",
    "root": "حمم",
    "score": 54,
-   "raw_fan_count": 3,
+   "raw_fan_count": 2,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
@@ -511,40 +643,12 @@
    ]
   },
   {
-   "index": 7,
-   "foreign": "asher",
-   "sense": "to burn, to melt, to roast, to try by fire",
-   "root": "شرر",
-   "score": 53,
-   "raw_fan_count": 18,
-   "root_in_raw_fan": true,
-   "root_in_stem_fan": true,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "أحرق",
-    "بالنار"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [
-    "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
-    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
-   ],
-   "sound_misses": [
-    "h↔ر (بحث: `h` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
-   ]
-  },
-  {
    "index": 738,
    "foreign": "met",
    "sense": "death; see mut",
    "root": "مت",
    "score": 52,
-   "raw_fan_count": 2,
+   "raw_fan_count": 4,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
@@ -568,7 +672,7 @@
    "sense": "to bind, to regulate",
    "root": "هب",
    "score": 52,
-   "raw_fan_count": 6,
+   "raw_fan_count": 8,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
@@ -592,7 +696,7 @@
    "sense": "fire, heat, hot;",
    "root": "هم",
    "score": 52,
-   "raw_fan_count": 3,
+   "raw_fan_count": 4,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
@@ -616,7 +720,7 @@
    "sense": "the member of the crocodile, an aphrodisiac (?)",
    "root": "مسح",
    "score": 51,
-   "raw_fan_count": 9,
+   "raw_fan_count": 6,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
@@ -644,7 +748,7 @@
    "sense": "L.D. III, 194, 30, form, image, kind, manner, practice, custom",
    "root": "سم",
    "score": 50,
-   "raw_fan_count": 3,
+   "raw_fan_count": 6,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
@@ -663,12 +767,63 @@
    ]
   },
   {
+   "index": 405,
+   "foreign": "sekh-t",
+   "sense": "a broad boat, barge, lighter",
+   "root": "سخت",
+   "score": 50,
+   "raw_fan_count": 12,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": false,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "واسع"
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [],
+   "sound_misses": [
+    "عدد الصوامت 2 في الفرع و3 في المرشح"
+   ],
+   "scan_reasons": [],
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 448,
+   "foreign": "suh",
+   "sense": "balls of incense",
+   "root": "سوح",
+   "score": 50,
+   "raw_fan_count": 6,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "كرات"
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
+   "sound_misses": [
+    "h↔ح (بحث: `h` + `ح` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+   ],
+   "scan_reasons": [],
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
    "index": 772,
    "foreign": "neb",
    "sense": "var. , to build",
    "root": "نب",
    "score": 50,
-   "raw_fan_count": 1,
+   "raw_fan_count": 2,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
@@ -692,7 +847,7 @@
    "sense": "to smite, to attack, to injure, outrage",
    "root": "نك",
    "score": 50,
-   "raw_fan_count": 1,
+   "raw_fan_count": 2,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
@@ -708,6 +863,33 @@
    "open_reasons": [
     "نص لسان العرب أو تاج العروس للمادة",
     "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+   ]
+  },
+  {
+   "index": 159,
+   "foreign": "hem",
+   "sense": "the apartments of the women in a house",
+   "root": "حمم",
+   "score": 48,
+   "raw_fan_count": 4,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "بيت"
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "م↔م = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+   ],
+   "sound_misses": [
+    "h↔ح (بحث: `h` + `ح` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+   ],
+   "scan_reasons": [],
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ]
   },
   {
@@ -743,7 +925,7 @@
    "sense": "to unite, to join oneself to someone or something",
    "root": "وحد",
    "score": 45,
-   "raw_fan_count": 3,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -786,9 +968,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "s↔أ (بحث: `s` + `أ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "n↔ك (بحث: `n` + `ك` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "m↔ل (بحث: `m` + `ل` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "عدد الصوامت 4 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -820,12 +1000,64 @@
    ]
   },
   {
+   "index": 695,
+   "foreign": "menkh",
+   "sense": "an offering",
+   "root": "منح",
+   "score": 36,
+   "raw_fan_count": 2,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
+   "sound_misses": [
+    "kh↔ح (بحث: `kh` + `ح` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+   ],
+   "scan_reasons": [],
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
+    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+   ]
+  },
+  {
+   "index": 609,
+   "foreign": "ātchar",
+   "sense": "help, assistance; compare Heb. 𓈖𓈖",
+   "root": "عزر",
+   "score": 35,
+   "raw_fan_count": 16,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [
+    "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
+   "sound_misses": [
+    "tch↔ز (بحث: `tch` + `ز` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+   ],
+   "scan_reasons": [],
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
+    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
+   ]
+  },
+  {
    "index": 825,
    "foreign": "net",
    "sense": "𓂋, to tie, to bind",
    "root": "ربط",
    "score": 35,
-   "raw_fan_count": 2,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -886,11 +1118,12 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "ر↔ر = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+   ],
    "sound_misses": [
     "s↔ج (بحث: `s` + `ج` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "t↔ر (بحث: `t` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ر (بحث: `h` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "th↔ر (بحث: `th` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -904,7 +1137,7 @@
    "sense": "arm, shoulder;",
    "root": "ذرع",
    "score": 33,
-   "raw_fan_count": 3,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -917,7 +1150,9 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "q↔ذ (بحث: `q` + `ذ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "ā↔ر (بحث: `ā` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "h↔ع (بحث: `h` + `ع` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -931,7 +1166,7 @@
    "sense": "place of rest, couch",
    "root": "روح",
    "score": 31,
-   "raw_fan_count": 1,
+   "raw_fan_count": 2,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -958,7 +1193,7 @@
    "sense": "𓀀, Jour. As. 1908, 290, a plant",
    "root": "حنا",
    "score": 28,
-   "raw_fan_count": 3,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -968,9 +1203,12 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "h↔ح (بحث: `h` + `ح` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "ā↔ا (بحث: `ā` + `ا` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -994,9 +1232,12 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "b↔ب = `IDN-05` (بحث: `b` + `ب` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔ي (بحث: `u` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1010,7 +1251,7 @@
    "sense": "Åmen. 15, 5, to dislike, to loathe, evil-doer, horror",
    "root": "خبث",
    "score": 27,
-   "raw_fan_count": 6,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1020,9 +1261,12 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "kh↔خ = `IDN-17` (بحث: `kh` + `خ` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "b↔ب = `IDN-05` (بحث: `b` + `ب` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
+    "t↔ث (بحث: `t` + `ث` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1036,7 +1280,7 @@
    "sense": "child, offspring; 𓂋, 𓂋",
    "root": "طفل",
    "score": 27,
-   "raw_fan_count": 6,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1046,9 +1290,12 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "f↔ف = `IDN-06` (بحث: `f` + `ف` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
+    "tch↔ط (بحث: `tch` + `ط` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "n↔ل (بحث: `n` + `ل` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1072,12 +1319,9 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [
-    "s↔ث = `BR-EGYP-03` (بحث: `s` + `ث` + «المصريّة/Egyptian» في عمود الشاهد)",
-    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)"
-   ],
+   "sound_rows": [],
    "sound_misses": [
-    "n↔ي (بحث: `n` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "عدد الصوامت 4 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1120,7 +1364,7 @@
    "sense": "fire, flame",
    "root": "نور",
    "score": 25,
-   "raw_fan_count": 18,
+   "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1134,8 +1378,8 @@
     "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
    "sound_misses": [
-    "s↔ن (بحث: `s` + `ن` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔و (بحث: `h` + `و` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "ā↔ن (بحث: `ā` + `ن` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "sh↔و (بحث: `sh` + `و` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1149,7 +1393,7 @@
    "sense": "to measure a road",
    "root": "عدل",
    "score": 25,
-   "raw_fan_count": 3,
+   "raw_fan_count": 0,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1161,7 +1405,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "عدد الصوامت 1 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1175,7 +1419,7 @@
    "sense": "ring, bracelet;",
    "root": "حلق",
    "score": 25,
-   "raw_fan_count": 6,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1204,7 +1448,7 @@
    "sense": "to enjoy",
    "root": "متع",
    "score": 25,
-   "raw_fan_count": 18,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1216,9 +1460,9 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "r↔م (بحث: `r` + `م` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "s↔ت (بحث: `s` + `ت` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ع (بحث: `h` + `ع` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "u↔م (بحث: `u` + `م` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "r↔ت (بحث: `r` + `ت` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "sh↔ع (بحث: `sh` + `ع` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1244,7 +1488,9 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔ن (بحث: `u` + `ن` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "p↔و (بحث: `p` + `و` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "s↔ر (بحث: `s` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1258,7 +1504,7 @@
    "sense": "calf",
    "root": "بخع",
    "score": 23,
-   "raw_fan_count": 9,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1287,7 +1533,7 @@
    "sense": "to scatter [sand 𓀀𓀭𓀀]",
    "root": "رمل",
    "score": 22,
-   "raw_fan_count": 9,
+   "raw_fan_count": 0,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1299,7 +1545,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "عدد الصوامت 1 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1313,7 +1559,7 @@
    "sense": "to proclaim; see 𓀀",
    "root": "ما",
    "score": 22,
-   "raw_fan_count": 1,
+   "raw_fan_count": 2,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1340,7 +1586,7 @@
    "sense": "evening; see 𓀀𓀭𓀀",
    "root": "عشا",
    "score": 21,
-   "raw_fan_count": 9,
+   "raw_fan_count": 0,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1351,7 +1597,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "عدد الصوامت 1 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1365,7 +1611,7 @@
    "sense": "𓀀𓀭𓀀, a measure",
    "root": "بيع",
    "score": 21,
-   "raw_fan_count": 3,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1390,7 +1636,7 @@
    "sense": "to shine, to",
    "root": "برق",
    "score": 21,
-   "raw_fan_count": 1,
+   "raw_fan_count": 2,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1415,7 +1661,7 @@
    "sense": "to cast a net, to drag a stream",
    "root": "صيد",
    "score": 21,
-   "raw_fan_count": 6,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1442,7 +1688,7 @@
    "sense": "Rev. 11, 173, to inform, to report news or intelligence;",
    "root": "ما",
    "score": 21,
-   "raw_fan_count": 3,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1469,7 +1715,7 @@
    "sense": "flame, fire; see",
    "root": "شيط",
    "score": 21,
-   "raw_fan_count": 6,
+   "raw_fan_count": 12,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1495,7 +1741,7 @@
    "sense": "an arm ornament, bracelet, armlet ; see 𓀀𓀭𓀭",
    "root": "خلا",
    "score": 21,
-   "raw_fan_count": 12,
+   "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1521,13 +1767,40 @@
    "sense": "; maiden, girl",
    "root": "فتي",
    "score": 19,
-   "raw_fan_count": 12,
+   "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [
     "صبي",
     "صبية"
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "sound_rows": [],
+   "sound_misses": [
+    "kh↔ف (بحث: `kh` + `ف` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "r↔ت (بحث: `r` + `ت` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "t↔ي (بحث: `t` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+   ],
+   "scan_reasons": [],
+   "open_reasons": [
+    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 427,
+   "foreign": "sgeru",
+   "sense": "the silent ones",
+   "root": "سجر",
+   "score": 18,
+   "raw_fan_count": 18,
+   "root_in_raw_fan": false,
+   "root_in_stem_fan": false,
+   "lexicon": "لسان العرب لابن منظور",
+   "semantic_hits": [
+    "سجرت"
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
@@ -1542,118 +1815,12 @@
    ]
   },
   {
-   "index": 567,
-   "foreign": "āamāq",
-   "sense": "valley; Heb. 𓀀",
-   "root": "عمق",
-   "score": 19,
-   "raw_fan_count": 1,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "واد"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
-   ]
-  },
-  {
-   "index": 338,
-   "foreign": "tcher",
-   "sense": "to be near the limit or boundary, by the side of something, near; 𓂋𓂍",
-   "root": "ذرر",
-   "score": 18,
-   "raw_fan_count": 12,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "الحد"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [
-    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
-   ],
-   "sound_misses": [
-    "t↔ذ (بحث: `t` + `ذ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ر (بحث: `h` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
-   ]
-  },
-  {
-   "index": 405,
-   "foreign": "sekh-t",
-   "sense": "a broad boat, barge, lighter",
-   "root": "سخت",
-   "score": 18,
-   "raw_fan_count": 18,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "واسع"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [
-    "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)"
-   ],
-   "sound_misses": [
-    "k↔خ (بحث: `k` + `خ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ت (بحث: `h` + `ت` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
-   ]
-  },
-  {
-   "index": 448,
-   "foreign": "suh",
-   "sense": "balls of incense",
-   "root": "سوح",
-   "score": 18,
-   "raw_fan_count": 9,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "كرات"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
-   ]
-  },
-  {
    "index": 180,
    "foreign": "henbi",
    "sense": "fountain, well, spring",
    "root": "حلب",
    "score": 17,
-   "raw_fan_count": 6,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1678,7 +1845,7 @@
    "sense": "𓂁, 𓂂, thing, object, subject, matter, affair, business, fact, point, concern, cause, case;",
    "root": "شيا",
    "score": 17,
-   "raw_fan_count": 6,
+   "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1689,7 +1856,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "عدد الصوامت 1 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1703,7 +1870,7 @@
    "sense": "𓈶, knife ; plur",
    "root": "قصص",
    "score": 17,
-   "raw_fan_count": 18,
+   "raw_fan_count": 24,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1713,11 +1880,11 @@
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
-    "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)"
+    "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ص↔ص = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
    ],
    "sound_misses": [
-    "t↔ق (بحث: `t` + `ق` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ص (بحث: `h` + `ص` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "tch↔ق (بحث: `tch` + `ق` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1756,7 +1923,7 @@
    "sense": "to strain, to purify;",
    "root": "صفا",
    "score": 17,
-   "raw_fan_count": 3,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1808,7 +1975,7 @@
    "sense": "a large sea-going trading boat; 𓂋, a large sea-going trading boat; plur. 𓂋, A.Z. 1905, 15",
    "root": "نشأ",
    "score": 17,
-   "raw_fan_count": 9,
+   "raw_fan_count": 2,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1819,7 +1986,9 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
+    "m↔ن (بحث: `m` + `ن` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "n↔ش (بحث: `n` + `ش` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "sh↔أ (بحث: `sh` + `أ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1869,59 +2038,12 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
-   ]
-  },
-  {
-   "index": 159,
-   "foreign": "hem",
-   "sense": "the apartments of the women in a house",
-   "root": "حمم",
-   "score": 16,
-   "raw_fan_count": 3,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "بيت"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
-   ]
-  },
-  {
-   "index": 364,
-   "foreign": "sur",
-   "sense": "drink;",
-   "root": "سور",
-   "score": 16,
-   "raw_fan_count": 6,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [
-    "شراب"
-   ],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "r↔ث (بحث: `r` + `ث` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "u↔ر (بحث: `u` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1935,7 +2057,7 @@
    "sense": "to cut, to slay",
    "root": "سدف",
    "score": 16,
-   "raw_fan_count": 3,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -1960,7 +2082,7 @@
    "sense": "to sing;",
    "root": "غنى",
    "score": 16,
-   "raw_fan_count": 1,
+   "raw_fan_count": 2,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
@@ -1969,9 +2091,12 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "ā↔غ (بحث: `ā` + `غ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "n↔ى (بحث: `n` + `ى` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -1986,7 +2111,7 @@
    "sense": "eternal",
    "root": "أبد",
    "score": 16,
-   "raw_fan_count": 3,
+   "raw_fan_count": 2,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2024,7 +2149,9 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔ط (بحث: `u` + `ط` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "t↔ي (بحث: `t` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "i↔ن (بحث: `i` + `ن` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2038,7 +2165,7 @@
    "sense": "field labourer, ploughman",
    "root": "شقق",
    "score": 15,
-   "raw_fan_count": 2,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2047,9 +2174,12 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "ق↔ق = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "b↔ش (بحث: `b` + `ش` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "i↔ق (بحث: `i` + `ق` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2063,7 +2193,7 @@
    "sense": "to utter words as the result of some great or sudden emotion, to speak in an ecstasy, to prophesy",
    "root": "صدح",
    "score": 15,
-   "raw_fan_count": 9,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2072,9 +2202,12 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "u↔د (بحث: `u` + `د` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "h↔ح (بحث: `h` + `ح` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2099,9 +2232,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "s↔ق (بحث: `s` + `ق` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "s↔و (بحث: `s` + `و` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "r↔ا (بحث: `r` + `ا` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "عدد الصوامت 4 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2115,7 +2246,7 @@
    "sense": "to walk with long strides; caus. of usekh",
    "root": "خطا",
    "score": 15,
-   "raw_fan_count": 27,
+   "raw_fan_count": 18,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2140,7 +2271,7 @@
    "sense": "to hide; caus. of",
    "root": "سين",
    "score": 15,
-   "raw_fan_count": 3,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
@@ -2165,7 +2296,7 @@
    "sense": "to be hot, to burn, fire",
    "root": "شوه",
    "score": 15,
-   "raw_fan_count": 9,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2201,7 +2332,9 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "k↔ن (بحث: `k` + `ن` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "b↔ع (بحث: `b` + `ع` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "u↔ل (بحث: `u` + `ل` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2240,7 +2373,7 @@
    "sense": "to forget, delay, hesitation; not forgetting my rule",
    "root": "أمم",
    "score": 15,
-   "raw_fan_count": 6,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2276,12 +2409,9 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [
-    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
-   ],
+   "sound_rows": [],
    "sound_misses": [
-    "m↔س (بحث: `m` + `س` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "s↔ي (بحث: `s` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "عدد الصوامت 4 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2295,7 +2425,7 @@
    "sense": "the benevolent",
    "root": "كيف",
    "score": 15,
-   "raw_fan_count": 2,
+   "raw_fan_count": 0,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2306,7 +2436,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
+    "عدد الصوامت 5 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2320,7 +2450,7 @@
    "sense": "Rev. 13, 13, 22, strength; πᾶσθε",
    "root": "قوا",
    "score": 15,
-   "raw_fan_count": 18,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2331,7 +2461,9 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
+    "n↔ق (بحث: `n` + `ق` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "sh↔و (بحث: `sh` + `و` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "t↔ا (بحث: `t` + `ا` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2397,7 +2529,7 @@
    "sense": "altar vessel;",
    "root": "وزع",
    "score": 15,
-   "raw_fan_count": 18,
+   "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2406,10 +2538,11 @@
    ],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "t↔و (بحث: `t` + `و` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ز (بحث: `h` + `ز` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "tch↔ز (بحث: `tch` + `ز` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
     "h↔ع (بحث: `h` + `ع` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
@@ -2449,7 +2582,7 @@
    "sense": "tortoise, or turtle",
    "root": "كيف",
    "score": 14,
-   "raw_fan_count": 18,
+   "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2460,9 +2593,9 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "p↔ك (بحث: `p` + `ك` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "s↔ي (بحث: `s` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ف (بحث: `h` + `ف` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "ā↔ك (بحث: `ā` + `ك` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "p↔ي (بحث: `p` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "sh↔ف (بحث: `sh` + `ف` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2476,7 +2609,7 @@
    "sense": "to satisfy",
    "root": "قلب",
    "score": 13,
-   "raw_fan_count": 3,
+   "raw_fan_count": 0,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2487,7 +2620,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
+    "عدد الصوامت 5 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2501,7 +2634,7 @@
    "sense": "steps (?) strid-",
    "root": "مسي",
    "score": 13,
-   "raw_fan_count": 9,
+   "raw_fan_count": 0,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
@@ -2512,7 +2645,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
+    "عدد الصوامت 5 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2554,7 +2687,7 @@
    "sense": "ground, earth;",
    "root": "شتر",
    "score": 4,
-   "raw_fan_count": 6,
+   "raw_fan_count": 12,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2605,16 +2738,19 @@
    "sense": "chant",
    "root": "جسس",
    "score": 4,
-   "raw_fan_count": 18,
+   "raw_fan_count": 12,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "س↔س = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "h↔ج (بحث: `h` + `ج` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2629,16 +2765,19 @@
    "sense": "lamp, star, luminary; plur. 𓊖",
    "root": "خيس",
    "score": 4,
-   "raw_fan_count": 9,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "kh↔خ = `IDN-17` (بحث: `kh` + `خ` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
+    "b↔ي (بحث: `b` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2653,7 +2792,7 @@
    "sense": "f the hand;",
    "root": "ذرا",
    "score": 4,
-   "raw_fan_count": 24,
+   "raw_fan_count": 16,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2662,36 +2801,7 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "t↔ذ (بحث: `t` + `ذ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ر (بحث: `h` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "r↔ا (بحث: `r` + `ا` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
-   ]
-  },
-  {
-   "index": 345,
-   "foreign": "resh",
-   "sense": "𓂀, a disease or",
-   "root": "رشش",
-   "score": 4,
-   "raw_fan_count": 18,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [
-    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)",
-    "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)"
-   ],
-   "sound_misses": [
-    "h↔ش (بحث: `h` + `ش` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "عدد الصوامت 2 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2735,7 +2845,7 @@
    "sense": "-house",
    "root": "سخا",
    "score": 4,
-   "raw_fan_count": 9,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2743,38 +2853,11 @@
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
    "sound_rows": [
-    "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)"
+    "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "kh↔خ = `IDN-17` (بحث: `kh` + `خ` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
    "sound_misses": [
-    "k↔خ (بحث: `k` + `خ` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ا (بحث: `h` + `ا` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
-   ]
-  },
-  {
-   "index": 546,
-   "foreign": "shen",
-   "sense": "hair, foliage of a plant or tree; 𓂀, berries of a tree, fruit",
-   "root": "شنن",
-   "score": 4,
-   "raw_fan_count": 9,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [
-    "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
-    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)"
-   ],
-   "sound_misses": [
-    "h↔ن (بحث: `h` + `ن` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "u↔ا (بحث: `u` + `ا` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2802,30 +2885,6 @@
    ],
    "sound_misses": [
     "n↔ت (بحث: `n` + `ت` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
-   ]
-  },
-  {
-   "index": 695,
-   "foreign": "menkh",
-   "sense": "an offering",
-   "root": "منح",
-   "score": 4,
-   "raw_fan_count": 3,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2867,16 +2926,19 @@
    "sense": "to tie, to bind",
    "root": "ندد",
    "score": 4,
-   "raw_fan_count": 2,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "تاج العروس لمرتضى الزبيدي",
    "semantic_hits": [],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_rows": [
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "د↔د = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 2 في الفرع و3 في المرشح"
+    "t↔د (بحث: `t` + `د` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2918,7 +2980,7 @@
    "sense": "to run, to travel",
    "root": "هيب",
    "score": 4,
-   "raw_fan_count": 36,
+   "raw_fan_count": 16,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2942,19 +3004,16 @@
    "sense": "to burn, to melt, to roast, to try by fire",
    "root": "شوف",
    "score": 3,
-   "raw_fan_count": 18,
+   "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [
-    "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
-    "p↔ف = `IDN-06` (بحث: `p` + `ف` + «المصريّة/Egyptian» في عمود الشاهد)"
-   ],
+   "sound_rows": [],
    "sound_misses": [
-    "h↔و (بحث: `h` + `و` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+    "عدد الصوامت 2 في الفرع و3 في المرشح"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -2969,7 +3028,7 @@
    "sense": "to make to shine",
    "root": "شوف",
    "score": 3,
-   "raw_fan_count": 54,
+   "raw_fan_count": 24,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -2993,7 +3052,7 @@
    "sense": "to use force",
    "root": "سلح",
    "score": 3,
-   "raw_fan_count": 1,
+   "raw_fan_count": 2,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -3044,7 +3103,7 @@
    "sense": "to be red, to become red; τροχ",
    "root": "لون",
    "score": 3,
-   "raw_fan_count": 36,
+   "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
@@ -3053,7 +3112,9 @@
    "verdict": null,
    "sound_rows": [],
    "sound_misses": [
-    "عدد الصوامت 4 في الفرع و3 في المرشح"
+    "t↔ل (بحث: `t` + `ل` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "sh↔و (بحث: `sh` + `و` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "r↔ن (بحث: `r` + `ن` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
@@ -3078,33 +3139,6 @@
    "sound_rows": [],
    "sound_misses": [
     "عدد الصوامت 4 في الفرع و3 في المرشح"
-   ],
-   "scan_reasons": [],
-   "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "شاهد دلالي منشور يصل نص بدج بنص المعجم العربي"
-   ]
-  },
-  {
-   "index": 609,
-   "foreign": "ātchar",
-   "sense": "help, assistance; compare Heb. 𓈖𓈖",
-   "root": "عزر",
-   "score": 3,
-   "raw_fan_count": 12,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
-   "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [],
-   "closure": "OPEN-CANDIDATE",
-   "verdict": null,
-   "sound_rows": [
-    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
-   ],
-   "sound_misses": [
-    "t↔ع (بحث: `t` + `ع` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
-    "h↔ز (بحث: `h` + `ز` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
    "scan_reasons": [],
    "open_reasons": [
