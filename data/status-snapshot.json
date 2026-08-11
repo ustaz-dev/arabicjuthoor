@@ -4,18 +4,18 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 32006,
+  "cards_total": 32574,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 7500,
-    "links": 41,
-    "root": 23,
+    "cards": 7700,
+    "links": 74,
+    "root": 56,
     "nucleus": 17,
     "floor": 1,
-    "nucleus_share": 42.5
+    "nucleus_share": 23.3
    },
    {
     "key": "persian",
@@ -32,12 +32,12 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 4594,
-    "links": 155,
-    "root": 47,
-    "nucleus": 107,
+    "cards": 4962,
+    "links": 163,
+    "root": 52,
+    "nucleus": 110,
     "floor": 1,
-    "nucleus_share": 69.5
+    "nucleus_share": 67.9
    },
    {
     "key": "coptic",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2673,
+  "links_to_arabic": 2714,
   "closures": 821,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1264,
+    "count": 1302,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 772,
+    "count": 775,
     "link": true
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 28611,
-  "suspended": 21311,
-  "released": 7300,
+  "cards_total": 29179,
+  "suspended": 21838,
+  "released": 7341,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -271,7 +271,7 @@
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 4090
+    "count": 4617
    },
    {
     "name": "SOURCE-GAP",
@@ -297,11 +297,11 @@
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 7021
+    "count": 7188
    },
    {
     "file": "egyptian.md",
-    "count": 4273
+    "count": 4633
    },
    {
     "file": "coptic.md",

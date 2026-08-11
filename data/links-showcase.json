@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 1575,
-  "nucleus": 1093,
+  "root": 1613,
+  "nucleus": 1096,
   "languages": 16
  },
  "languages": [
@@ -570,8 +570,8 @@
    "ar": "المصريّة القديمة",
    "en": "Ancient Egyptian",
    "distance": 2,
-   "root": 47,
-   "nucleus": 107,
+   "root": 52,
+   "nucleus": 110,
    "floor": 1,
    "examples": [
     {
@@ -655,15 +655,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 154,
-   "nucleus_share": 69.5
+   "total": 162,
+   "nucleus_share": 67.9
   },
   {
    "key": "old-latin",
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 23,
+   "root": 56,
    "nucleus": 17,
    "floor": 1,
    "examples": [
@@ -748,8 +748,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 40,
-   "nucleus_share": 42.5
+   "total": 73,
+   "nucleus_share": 23.3
   },
   {
    "key": "ancient-greek",
