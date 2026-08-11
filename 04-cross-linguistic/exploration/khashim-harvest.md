@@ -2823,5 +2823,6 @@ only and dropped every Latin character; that is a named gap, not a choice.
 | علي فهمي خشيم | رحلة الكلمات | `khashim-journey1` | 3,625 |
 | علي فهمي خشيم | العرب والهيروغليفية | `khashim-hieroglyphic` | 176 |
 | علي فهمي خشيم | هؤلاء الأباطرة وألقابهم العربية | `khashim-emperors` | 1,407 |
+| علي فهمي خشيم | آلهة مصر العربية، الجزء الأول | `khashim-gods1` | 4,806 |
 
 > سامح مقّار مؤلف مستقل عن علي فهمي خشيم، وستظل نسبته مستقلة في البيانات والجدول.
