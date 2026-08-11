@@ -91,6 +91,61 @@ def _script_of(text: str) -> str:
     return "latin"
 
 
+# ------------------------------------------------- الصورةُ المستعادةُ بحروفٍ تُقرَأ
+# **العطبُ الذي يُصلِحُه هذا القسم:** كُتِبَ للمؤلّفِ `*h₂eḱrós` وكُتِبَ بجانبِها
+# «النطق: h₂eḱrós»، وهذا ليس نطقًا بل تكرارٌ للرمز. والحنجريّاتُ والأرقامُ
+# السفليّةُ والعلاماتُ فوقَ الحروفِ اصطلاحُ كتابةٍ لا صوتٌ يُسمَع، فتُحجَبُ
+# الكلمةُ عمّن يحلُّها بالسماع كما حُجِبَ الخطُّ العبريُّ من قبل.
+#
+# **والمواضعةُ المتّبَعةُ في تلوينِ الحنجريّات:** `h₁` تُبقي الصائتَ على حالِه،
+# و`h₂` تصبغُه ألفًا، و`h₃` تصبغُه واوًا. وهي مواضعةُ الكتبِ المنشورةِ نفسِها،
+# فليست اجتهادًا منّا. والحنجريّةُ بينَ صامتَينِ تُقرَأُ ألفًا خفيفة.
+# (الصبغُ إن جاورَ صائتَ e، الصوتُ إن وقعَت بينَ صامتَين). و`H` رمزُ حنجريّةٍ
+# غيرِ معيَّنةٍ عندَ من لم يحسمْ أيَّتَها هي، فتُعامَلُ معاملةَ الأخفِّ أثرًا.
+LARYNGEAL = {"h₁": ("", "e"), "h₂": ("a", "a"), "h₃": ("o", "o"), "H": ("", "a")}
+PIE_LETTERS = [
+    ("ǵʰ", "gh"), ("gʷʰ", "gwh"), ("kʷ", "kw"), ("gʷ", "gw"),
+    ("bʰ", "bh"), ("dʰ", "dh"), ("gʰ", "gh"), ("ḱ", "k"), ("ǵ", "g"),
+    ("l̥", "ul"), ("r̥", "ur"), ("m̥", "um"), ("n̥", "un"),
+    ("ə", "a"), ("ś", "sh"), ("š", "sh"), ("þ", "th"), ("ð", "dh"),
+]
+# الصائتُ الممدودُ والمنبورُ يُرَدُّ إلى حرفِه، وما كان منها حرفَينِ في الترميز
+# (أساسٌ وعلامةٌ مركَّبة) يسقطُ في تجريدِ NFD بعدَها فلا يُدرَجُ هنا
+ACCENTS = str.maketrans({"ó": "o", "ō": "o", "ṓ": "o", "ö": "o",
+                         "é": "e", "ē": "e", "ḗ": "e", "ë": "e",
+                         "í": "i", "ī": "i", "ï": "i",
+                         "ú": "u", "ū": "u", "ü": "u",
+                         "á": "a", "ā": "a", "ä": "a",
+                         "ń": "n", "ł": "l", "ṛ": "r", "ṇ": "n", "ṃ": "m"})
+VOWELS = set("aeiouāēīōūáéíóúàèìòùäëïöüấ")
+E_LIKE = set("eēéḗë")   # الصبغُ لا يقعُ إلّا على الصائتِ e، فالألفُ والواوُ مصبوغتان أصلًا
+
+
+def pie(form: str) -> str:
+    """الصورةُ المستعادةُ بحروفٍ تُقرَأُ جهرًا. `*h₂eḱrós` -> `akros`."""
+    w = unicodedata.normalize("NFC", str(form)).strip().lstrip("*").replace("-", "")
+    for lar, (colour, alone) in LARYNGEAL.items():
+        while lar in w:
+            i = w.index(lar)
+            nxt = w[i + len(lar):i + len(lar) + 1]
+            prv = w[i - 1:i] if i else ""
+            if nxt and nxt in VOWELS:
+                # الحنجريّةُ تصبغُ الصائتَ المجاورَ ثمّ تسقط، ولا تصبغُ إلّا e
+                keep = colour if (colour and nxt in E_LIKE) else nxt
+                w = w[:i] + keep + w[i + len(lar) + 1:]
+            elif prv and prv in VOWELS:
+                keep = colour if (colour and prv in E_LIKE) else prv
+                w = w[:i - 1] + keep + w[i + len(lar):]
+            else:
+                w = w[:i] + alone + w[i + len(lar):]
+    for a, b in PIE_LETTERS:
+        w = w.replace(a, b)
+    w = unicodedata.normalize("NFC", w).translate(ACCENTS)
+    w = "".join(c for c in unicodedata.normalize("NFD", w)
+                if not unicodedata.combining(c))
+    return re.sub(r"[^A-Za-z'ʾʿ]", "", w) or form
+
+
 def say(word: str, script: str | None = None, with_arabic: bool = True) -> str:
     """نطقٌ يُقرَأ. مثال: say('תישא') -> 'tysh-ʾa  (تيشا)'"""
     w = unicodedata.normalize("NFC", str(word))
