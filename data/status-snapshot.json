@@ -4,18 +4,18 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 33120,
+  "cards_total": 33420,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 8062,
-    "links": 74,
-    "root": 56,
-    "nucleus": 17,
+    "cards": 8033,
+    "links": 105,
+    "root": 83,
+    "nucleus": 21,
     "floor": 1,
-    "nucleus_share": 23.3
+    "nucleus_share": 20.2
    },
    {
     "key": "persian",
@@ -44,11 +44,11 @@
     "en": "Coptic",
     "ar": "القبطيّة",
     "cards": 4109,
-    "links": 193,
-    "root": 29,
+    "links": 195,
+    "root": 31,
     "nucleus": 163,
     "floor": 1,
-    "nucleus_share": 84.9
+    "nucleus_share": 84.0
    },
    {
     "key": "welsh",
@@ -65,23 +65,23 @@
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2278,
-    "links": 937,
-    "root": 606,
+    "cards": 2521,
+    "links": 991,
+    "root": 660,
     "nucleus": 331,
     "floor": 0,
-    "nucleus_share": 35.3
+    "nucleus_share": 33.4
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1463,
-    "links": 1080,
-    "root": 689,
+    "cards": 1549,
+    "links": 1118,
+    "root": 727,
     "nucleus": 391,
     "floor": 0,
-    "nucleus_share": 36.2
+    "nucleus_share": 35.0
    },
    {
     "key": "ancient-greek",
@@ -185,22 +185,22 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 2718,
-  "closures": 821,
+  "links_to_arabic": 2843,
+  "closures": 944,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1304,
+    "count": 1425,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 777,
+    "count": 781,
     "link": true
    },
    {
     "name": "FORM-OF-ISOLATED",
-    "count": 354,
+    "count": 447,
     "link": false
    },
    {
@@ -215,12 +215,12 @@
    },
    {
     "name": "INTRA-HOUSE-TRANSFER",
-    "count": 112,
+    "count": 123,
     "link": false
    },
    {
     "name": "LOAN-ROUTE-ISOLATED",
-    "count": 101,
+    "count": 120,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 29725,
-  "suspended": 22380,
-  "released": 7345,
+  "cards_total": 29696,
+  "suspended": 22318,
+  "released": 7378,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -271,7 +271,7 @@
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 5159
+    "count": 5097
    },
    {
     "name": "SOURCE-GAP",
@@ -297,7 +297,7 @@
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 7550
+    "count": 7490
    },
    {
     "file": "egyptian.md",
@@ -305,7 +305,7 @@
    },
    {
     "file": "coptic.md",
-    "count": 3498
+    "count": 3496
    },
    {
     "file": "welsh.md",
@@ -351,16 +351,16 @@
   "frozen_commit": "",
   "required_total": 600,
   "required_per_language": 150,
-  "families_tracked": 1827,
-  "eligible_now": 382,
+  "families_tracked": 1826,
+  "eligible_now": 381,
   "trigger_threshold_met": false,
   "proof_executed": false,
   "by_language": [
    {
     "name": "aramaic",
-    "eligible": 248,
-    "represented": 603,
-    "positive_families": 248,
+    "eligible": 247,
+    "represented": 602,
+    "positive_families": 247,
     "closure_only_families": 0,
     "one_member_short": 82
    },

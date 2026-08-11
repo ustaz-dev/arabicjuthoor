@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-"""أتمم حصاد خشيم: 362 بطاقة لاتينية، ثم 186 بطاقة قبطية.
+"""أعد حكم حصاد خشيم في اللاتينية والقبطية على المروحة كلها.
 
-الرجل الثانية في اللاتينية هي نص لسان العرب الذي نقله خشيم في المدخل نفسه؛
-لا تطلب الأداة معجمًا بديلًا. ولا يصدر حكم موجب في اللسانين بلا مدار مكتوب
-بالكلمات. وفي القبطية تعرض البطاقة نواة خشيم الصريحة ونواة المشروع من الفهرس
-المجمد، ثم تسجل الاتفاق أو الاختلاف ولا تملأ الغياب بالتخمين.
+وحدة الحكم هي مدخل الفرع ومعناه، لا صف المسح. لذلك تدمج الشواهد القديمة
+والجديدة للمدخل نفسه، ثم تثبت مروحة المرشحين قبل اختبار المعنى. يفحص كل
+مرشح في المروحة بالصوت والنص المعجمي المقترن بجذره والمدار المكتوب. يبقى
+كل اقتراح لخشيم ظاهرًا، سواء دخل المروحة أم بقي خارجها.
 """
 from __future__ import annotations
 
@@ -13,22 +13,28 @@ import pathlib
 import re
 import sys
 import unicodedata
-from collections import Counter
+from collections import Counter, defaultdict
 from typing import Any
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import build_khashim_old_latin_cards as LAT  # noqa: E402
+import search_arabic_root_senses as ARS  # noqa: E402
 
 SOURCE = ROOT / "data" / "khashim-pairs.json"
+RESOURCES = ROOT / "Resources"
 LATIN_READING = ROOT / "04-cross-linguistic" / "readings" / "old-latin.md"
 COPTIC_READING = ROOT / "04-cross-linguistic" / "readings" / "coptic.md"
 LATIN_REPORT = ROOT / "data" / "khashim-old-latin-batch-002.json"
+LATIN_LEGACY_REPORT = ROOT / "data" / "khashim-old-latin-batch-001.json"
 COPTIC_REPORT = ROOT / "data" / "khashim-coptic-batch-001.json"
 LATIN_AUDIT = ROOT / "05-audits" / "2026-08-11-khashim-old-latin-batch-002.md"
+LATIN_LEGACY_AUDIT = ROOT / "05-audits" / "2026-08-11-khashim-old-latin-batch-001.md"
 COPTIC_AUDIT = ROOT / "05-audits" / "2026-08-11-khashim-coptic-batch-001.md"
 
+LATIN_LEGACY_START = "<!-- KHASHIM-OLD-LATIN-BATCH-001:START -->"
+LATIN_LEGACY_END = "<!-- KHASHIM-OLD-LATIN-BATCH-001:END -->"
 LATIN_START = "<!-- KHASHIM-OLD-LATIN-BATCH-002:START -->"
 LATIN_END = "<!-- KHASHIM-OLD-LATIN-BATCH-002:END -->"
 COPTIC_START = "<!-- KHASHIM-COPTIC-BATCH-001:START -->"
@@ -37,15 +43,21 @@ COPTIC_END = "<!-- KHASHIM-COPTIC-BATCH-001:END -->"
 LATIN_BOOK = "علي فهمي خشيم، «اللاتينيّة عربيّة»"
 COPTIC_BOOK = "علي فهمي خشيم، «القبطيّة عربيّة»"
 FALLEN = "(سقطَ حرفُه في المسح)"
-LATIN_BASELINE = 74
+LATIN_SOURCE_ROWS = 562
+LATIN_UNIFIED_CARDS = 533
+COPTIC_SOURCE_ROWS = 186
+LATIN_BASELINE = 41
 COPTIC_BASELINE = 189
 
-LATIN_HEAD = re.compile(r"^[A-Za-zÀ-žĀ-ſæœÆŒ][A-Za-zÀ-žĀ-ſæœÆŒ' -]{1,30}$")
+LATIN_HEAD = LAT.LATIN_HEAD
 COPTIC_ROMAN_HEAD = re.compile(
     r"^[A-Za-zÀ-žĀ-ſæœÆŒ][A-Za-zÀ-žĀ-ſæœÆŒ,' -]{1,34}$"
 )
 
-COPTIC_ORBITS: dict[tuple[str, str, str], str] = {
+# مواضع قرأها الممر السابق قراءة بشرية مفصلة. تبقى نصوصها كما هي، لكن
+# الحكم الجديد لا يستعملها إلا للمرشح نفسه بعد فحص المروحة كلها.
+LATIN_MANUAL_ORBITS = dict(LAT.HUMAN_ORBITS)
+COPTIC_MANUAL_ORBITS: dict[tuple[str, str, str], str] = {
     ("poh", "بحح", "ب ح وصل. جاء. حلّ بالمكان"): (
         "الوصول والمجيء والحلول بالمكان تنتهي إلى التمكن في الحلول والمقام الذي "
         "نقله خشيم في مادة `بحح`؛ فالمدار بلوغ المكان والاستقرار فيه."
@@ -55,25 +67,104 @@ COPTIC_ORBITS: dict[tuple[str, str, str], str] = {
         "الذي يسميه نص العربية ومدار النواة `من`."
     ),
     ("mise", "مشي", "ولد. مولود"): (
-        "الولادة في الفرع هي نفسها قول لسان العرب الذي نقله خشيم: `مشت الغنم` أي "
-        "كثر أولادها، و`أمشى` أي ولد كثيرًا؛ فالمدار مباشر في التولد."
+        "الولادة في الفرع هي نفسها قول النص المقترن بـ`مشي`: مشت الغنم، أي كثر "
+        "أولادها، وأمشى، أي ولد كثيرًا؛ فالمدار مباشر في التولد."
     ),
     ("mir, mer", "مر", "ربط"): (
-        "الربط في الفرع يطابق نص العربية في الحبل الذي أُجيد فتله وفي `أمرّ الشيء` "
-        "أي شده بالمرار؛ فالمدار شد الحبل وربطه."
+        "الربط في الفرع يطابق النص في الحبل الذي أجيد فتله وفي أمر الشيء، أي شده "
+        "بالمرار؛ فالمدار شد الحبل وربطه."
     ),
 }
+
+# هذه ليست إصابات آلية. هي مواضع راجع فيها النص المقترن بالجذر عند خشيم
+# وظهر فيه معنى الفرع صريحًا. تصاغ منها جملة المدار، ولا تعمم إلى جذر آخر.
+KHASHIM_DIRECT: dict[tuple[str, str], str] = {
+    ("bonus", "بنن"): "الجودة والطيب",
+    ("caelum", "قلم"): "القطع والقلم",
+    ("caleo", "قلي"): "الحرارة والشواء",
+    ("clamo", "كلم"): "الكلام والإعلان بالصوت",
+    ("cleps", "كلب"): "الأخذ والسرقة",
+    ("crinis", "قرن"): "ذؤابة المرأة وضفيرتها",
+    ("cruppa", "كرب"): "الحبل الغليظ والشد",
+    ("curro", "جري"): "الجري والركض والعدو",
+    ("domo", "دم"): "الضرب والإخضاع",
+    ("fulgo", "فلج"): "الضياء والإشراق",
+    ("geno", "جني"): "إنتاج الثمر وجنيه",
+    ("grumus", "جرم"): "النواة والبذرة",
+    ("hinnio", "حن"): "صوت الدابة وحنينها",
+    ("munus", "من"): "العطاء والإنعام",
+    ("mutilus", "مثل"): "القطع والتمثيل بالأطراف",
+    ("neruus", "نير"): "الخيط والرباط",
+    ("pars", "فرس"): "القطع والفصل",
+    ("remus", "رمي"): "القذف والرمي",
+    ("sem", "زم"): "الجمع والوحدة بالشد",
+    ("semita", "سمت"): "الطريق والسمت",
+    ("sera", "سرر"): "الإغلاق والكتم",
+    ("sesima", "سمم"): "السمسم والجلجلان",
+    ("socius", "شقق"): "الشقيق والرفيق والمرافق",
+    ("talea", "تول"): "الفسيلة وصغار النخل",
+    ("taurus", "ثور"): "الثور، ذكر البقر",
+    ("vaco", "بوق"): "الجوف والفراغ",
+    ("veredus", "برد"): "البريد ودابته",
+}
+
+# مرشحات لم يقترحها خشيم في المدخل، ففحصت في الذخيرة المحلية. تحدد cues
+# موضع النص الذي يحمل المعنى حتى لا ينتخب شاهد عارض من مادة طويلة.
+LOCAL_ORBITS: dict[tuple[str, str], dict[str, Any]] = {
+    ("frico", "فرك"): {
+        "cues": ("دلك", "دلك الشيء"),
+        "orbit": "الفرك في نص المعجم هو دلك الشيء، ومعنى الفرع الحك؛ فالمدار حركة الاحتكاك نفسها.",
+    },
+    ("iterum", "تور"): {
+        "cues": ("تارة أخرى", "مرة بعد مرة"),
+        "orbit": "نص `تور` يقول: جاء به تارة أخرى، أي مرة بعد مرة؛ ومعنى الفرع الإعادة والتكرار، فالمدار مباشر.",
+    },
+    ("nimis", "نمي"): {
+        "cues": ("النماء الزيادة", "الزيادة"),
+        "orbit": "النماء في نص المعجم هو الزيادة، ومعنى الفرع الكثرة والوفرة؛ فالمدار ازدياد المقدار.",
+    },
+    ("sinapi", "صنب"): {
+        "cues": ("الخردل",),
+        "orbit": "الصناب في نص المعجم صباغ يتخذ من الخردل، ومعنى المدخل الخردل؛ فالمدار النبات نفسه ومنتجه.",
+    },
+    ("dirus", "ضرر"): {
+        "cues": ("المضرة خلاف المنفعة", "الضرر"),
+        "orbit": "الضرر والمضرة في نص المعجم أذى ونقصان وخلاف المنفعة، ومعنى الفرع الشر والشؤم؛ فالمدار الأذى الواقع.",
+    },
+    ("heli", "هول"): {
+        "cues": ("الهول المخافة", "هو الخوف"),
+        "orbit": "الهول في نص المعجم هو الخوف والمخافة من الأمر الشديد، ومعنى الفرع الخوف والرعب؛ فالمدار مباشر.",
+    },
+    ("moni", "مني"): {
+        "cues": ("المنية الموت", "المنى والمنية"),
+        "orbit": "المنى والمنية في نص المعجم هما الموت، وهو أحد معاني المدخل بنصه؛ فالمدار مباشر في الموت المقدر.",
+    },
+}
+
+FEATURED = [
+    ("remus", "رمي"), ("cuppa", "كوب"), ("cornu", "قرن"),
+    ("carrus", "جرر"), ("gero", "جرر"), ("sorbeo", "شرب"),
+    ("solidus", "صلد"), ("fodio", "فضض"), ("furca", "فرق"),
+    ("seco", "شقق"), ("palus", "بلل"), ("pasta", "بسط"),
+    ("lacus", "لجج"), ("mare", "مور"), ("nidor", "ندد"),
+    ("storea", "سطر"), ("topia", "طيب"), ("castus", "قسط"),
+    ("braca", "برك"), ("turris", "طور"),
+]
 
 
 def one_line(value: Any) -> str:
     return " ".join(str(value or "").split())
 
 
-def quote(value: Any, limit: int = 620) -> str:
+def quote(value: Any, limit: int = 460) -> str:
     text = one_line(value).replace("`", "ˋ")
     if len(text) <= limit:
         return text
     return text[:limit].rsplit(" ", 1)[0] + "…"
+
+
+def normalized_key(row: dict[str, Any]) -> tuple[str, str]:
+    return one_line(row.get("foreign")).casefold(), one_line(row.get("foreign_sense"))
 
 
 def replace_block(text: str, start: str, end: str, block: str) -> str:
@@ -81,7 +172,15 @@ def replace_block(text: str, start: str, end: str, block: str) -> str:
         before, rest = text.split(start, 1)
         _, after = rest.split(end, 1)
         tail = after.lstrip()
-        return before.rstrip() + "\n\n" + block.rstrip() + ("\n\n" + tail if tail else "\n")
+        middle = block.rstrip()
+        pieces = [before.rstrip()]
+        if middle:
+            pieces.append(middle)
+        if tail:
+            pieces.append(tail.rstrip())
+        return "\n\n".join(piece for piece in pieces if piece) + "\n"
+    if not block:
+        return text
     return text.rstrip() + "\n\n" + block.rstrip() + "\n"
 
 
@@ -98,483 +197,718 @@ def original_latin_inventory(rows: list[dict[str, Any]]) -> list[dict[str, Any]]
             )
         )
     ]
-    if len(inventory) != 562:
-        raise SystemExit(f"تغيّر مقام اللاتينية الأصلي: {len(inventory)}، والمتوقع 562")
+    if len(inventory) != LATIN_SOURCE_ROWS:
+        raise SystemExit(
+            f"تغيّر مقام اللاتينية: {len(inventory)}، والمتوقع {LATIN_SOURCE_ROWS}"
+        )
     return inventory
 
 
-def recovered_latin_by_new_row(rows: list[dict[str, Any]]) -> dict[int, dict[str, Any]]:
-    recovered: dict[int, dict[str, Any]] = {}
-    for row in rows:
-        rec = row.get("ocr_recovery") or {}
-        if row.get("source") != "khashim-latin" or "matched_new_row" not in rec:
+def unified_latin_cards(
+    inventory: list[dict[str, Any]], all_rows: list[dict[str, Any]]
+) -> list[dict[str, Any]]:
+    witnesses: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
+    for row in all_rows:
+        if row.get("tongue") != "old-latin" or one_line(row.get("foreign")) == FALLEN:
             continue
-        index = int(rec["matched_new_row"])
-        if index in recovered:
-            raise SystemExit(f"أعيد استعمال صف المسح الجديد في الاسترداد: {index}")
-        recovered[index] = row
-    if len(recovered) != 290:
-        raise SystemExit(f"تغيّر جرد الرؤوس المستردة: {len(recovered)}، والمتوقع 290")
-    return recovered
+        witnesses[normalized_key(row)].append(row)
 
-
-def latin_item(
-    valid_index: int,
-    row: dict[str, Any],
-    recovered: dict[int, dict[str, Any]],
-    senses: dict[str, tuple[str, int]],
-) -> dict[str, Any]:
-    foreign = one_line(row.get("foreign"))
-    root = LAT.ar_bare(row.get("arabic_root", ""))
-    sense = one_line(row.get("foreign_sense", ""))
-    recovered_sense = senses.get(foreign)
-    if not sense and recovered_sense:
-        sense = recovered_sense[0]
-    paired_old = recovered.get(valid_index) if valid_index < 515 else None
-    lisan_text = one_line(row.get("arabic_gloss", ""))
-    if not lisan_text and paired_old:
-        lisan_text = one_line(paired_old.get("arabic_gloss", ""))
-    valid_head = bool(LATIN_HEAD.fullmatch(foreign))
-    if valid_head:
-        fan = LAT.candidate_fan(foreign, root)
-        sound_ready, sound_rows, sound_misses = LAT.sound_audit(fan["route_skeleton"], root)
-    else:
-        fan = {
-            "stem": foreign, "stripping": "تعذر لأن الرأس القديم ليس رسمًا لاتينيًا صالحًا",
-            "raw_skeleton": [], "stem_skeleton": [], "route_skeleton": [],
-            "full": [], "hit": False, "position": None, "source": "خارج المروحة",
-        }
-        sound_ready, sound_rows, sound_misses = (
-            False, [], ["تعذر رصف الصوت قبل استرداد رسم لاتيني صالح للرأس القديم"]
+    cards: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    for source_index, row in enumerate(inventory):
+        key = normalized_key(row)
+        if key in seen:
+            continue
+        seen.add(key)
+        members = [member for member in inventory if normalized_key(member) == key]
+        cards.append({
+            "source_indices": [
+                index for index, member in enumerate(inventory) if normalized_key(member) == key
+            ],
+            "foreign": key[0],
+            "sense": key[1],
+            "members": members,
+            "witnesses": witnesses.get(key, members),
+            "first_source_index": source_index,
+        })
+    if len(cards) != LATIN_UNIFIED_CARDS:
+        raise SystemExit(
+            f"تغيّر عدد البطاقات اللاتينية الموحدة: {len(cards)}، والمتوقع {LATIN_UNIFIED_CARDS}"
         )
-    loan = LAT.explicit_loan(sense)
-    # لم يبق في ذيل الـ362 صف يجمع المروحة والصوت، ولذلك لا يُكتب مدار مصنوع
-    # لمجرد إكمال الحكم. كل بطاقة تبقى مفتوحة بعائقها الفعلي.
-    orbit = ""
-    source_ready = bool(lisan_text)
-    structural = bool(valid_head and fan["hit"] and len(root) in {2, 3})
-    positive = bool(sound_ready and source_ready and orbit and structural and not loan)
-    obstacles: list[str] = []
-    if not valid_head:
-        obstacles.append("استرداد الرسم اللاتيني الصالح للرأس القديم")
-    if not fan["hit"]:
-        obstacles.append("دخول مرشح خشيم نفسه في مروحة الأداة")
-    if not sound_ready:
-        obstacles.append("صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت")
-    if not source_ready:
-        obstacles.append("نص لسان العرب الذي نقله خشيم في المدخل")
-    if len(root) not in {2, 3}:
-        obstacles.append("تحليل يحدد درجة المادة العربية")
-    if structural and sound_ready and source_ready and not orbit:
-        obstacles.append("الرجل الثالثة: مدار مقنع مكتوب بالكلمات")
-    if loan:
-        obstacles.append(f"عزل اتجاه النقل الذي سماه النص بعبارة «{loan}»")
-    return {
-        "valid_index": valid_index, "row": row, "foreign": foreign, "root": root,
-        "sense": sense, "lisan_text": lisan_text, "paired_old": paired_old,
-        "fan": fan, "sound_ready": sound_ready, "sound_rows": sound_rows,
-        "sound_misses": sound_misses, "source_ready": source_ready,
-        "human_orbit": orbit, "loan_marker": loan, "positive": positive,
-        "closure": "READY" if positive else "OPEN-CANDIDATE",
-        "open_reasons": obstacles,
+    return cards
+
+
+def khashim_proposals(witnesses: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    grouped: dict[str, dict[str, Any]] = {}
+    seen_text: dict[str, set[str]] = defaultdict(set)
+    for row in witnesses:
+        root = LAT.ar_bare(row.get("arabic_root", ""))
+        if not root:
+            continue
+        proposal = grouped.setdefault(root, {
+            "root": root, "texts": [], "sources": [], "source_lines": [],
+            "khashim_nuclei": [],
+        })
+        source = one_line(row.get("source"))
+        if source and source not in proposal["sources"]:
+            proposal["sources"].append(source)
+        line = row.get("source_line") or (row.get("ocr_recovery") or {}).get("source_line")
+        if line is not None and line not in proposal["source_lines"]:
+            proposal["source_lines"].append(line)
+        nucleus = LAT.ar_bare(row.get("arabic_nucleus", ""))
+        if nucleus and nucleus not in proposal["khashim_nuclei"]:
+            proposal["khashim_nuclei"].append(nucleus)
+        text = one_line(row.get("arabic_gloss"))
+        if text and text not in seen_text[root]:
+            seen_text[root].add(text)
+            proposal["texts"].append(text)
+    return list(grouped.values())
+
+
+def preferred_lexicon(
+    matches: list[dict[str, Any]], cues: tuple[str, ...] = ()
+) -> dict[str, Any] | None:
+    ranked: list[tuple[int, int, int, str, dict[str, Any]]] = []
+    priority = {
+        "lisan": 0, "taj_al_arus": 1, "al_sihah": 2, "al_muhkam": 3,
+        "kitab_al_ayn": 4, "asas_al_balagha": 5,
     }
+    folded_cues = tuple(LAT.ar_bare(cue) for cue in cues)
+    for item in matches:
+        source_id = ARS.canonical_source_id(str(item.get("source") or ""))
+        if source_id not in priority:
+            continue
+        definition = one_line(item.get("definition"))
+        if not definition:
+            continue
+        bare_definition = LAT.ar_bare(definition)
+        cue_hits = sum(cue in bare_definition for cue in folded_cues if cue)
+        if cues and not cue_hits:
+            continue
+        ranked.append((-cue_hits, priority[source_id], -len(definition), definition, {
+            **item,
+            "source_id": source_id,
+            "source_label": ARS.SOURCE_LABELS[source_id],
+            "definition": definition,
+        }))
+    if not ranked:
+        return None
+    return min(ranked, key=lambda item: item[:4])[4]
 
 
-def render_latin(item: dict[str, Any]) -> tuple[str, dict[str, Any]]:
-    foreign, root, sense = item["foreign"], item["root"], item["sense"]
-    fan = item["fan"]
-    degree = "NUCLEUS-TRACE" if len(root) == 2 else "ROOT-TRACE"
-    verdict = f"**{degree} (استكشاف)**" if item["positive"] else "**غير صادر (استكشاف)**"
-    sound = "؛ ".join(item["sound_rows"] + item["sound_misses"]) or "تعذر الرصف"
-    fan_values = "، ".join(f"`{value}`" for value in fan["full"]) or "(لم تولد الأداة مرشحًا)"
-    paired = item["paired_old"]
-    recovery = (
-        f"؛ والرأس نفسه ردّ إلى صف المسح القديم من السطر "
-        f"{paired['ocr_recovery'].get('source_line')}" if paired else ""
-    )
-    orbit = item["human_orbit"] or "غير مكتوب؛ لم تكتمل الأرجل السابقة التي تجيز الحكم"
-    required = "؛ ".join(item["open_reasons"]) or "لا عائق معلق"
-    lines = [
-        f"### بطاقة: `{foreign}` «{quote(sense) if sense else '(المعنى لم يسترد)' }»؛ خشيم لاتيني 002/{item['valid_index']:03d}",
-        f"<!-- khashim-old-latin-batch-002:{item['valid_index']}:{root} -->",
-        "- إصدار البروتوكول: RECOVERY-v2 (استكشاف).",
-        f"- نسبة المصدر: المرشح `{foreign}→{root}` ومعنى الفرع ونص العربية من {LATIN_BOOK}؛ "
-        "المروحة والمسار والمدار والحكم أعمال المشروع.",
-        f"- الكلمة في الفرع: `{foreign}`؛ رسم المدخل في المسح الكامل المأذون{recovery}.",
-        f"- موضع الصف: `data/khashim-pairs.json`؛ العضو الصالح {item['valid_index']}؛ المصدر `{item['row'].get('source')}`.",
-        f"- الخطوة صفر: {fan['stripping']}؛ الخام `{''.join(fan['raw_skeleton']) or '∅'}`؛ "
-        f"البديل `{''.join(fan['stem_skeleton']) or '∅'}`.",
-        f"- درجة المقارنة: {'نواة' if len(root) == 2 else 'جذر كامل' if len(root) == 3 else 'مفتوحة'}؛ "
-        "لا يقفز الحكم من درجة ناقصة إلى أخرى.",
-        f"- مروحة المرشحات العربية من أداتنا: {fan_values}.",
-        f"- موضع مرشح خشيم من المروحة: `{root}` "
-        f"{'داخلها في الرتبة ' + str(fan['position']) if fan['hit'] else 'غير موجود فيها، فحُفظ ولم يُستبدل'}.",
-        f"- مسح المعاني العربية: «{quote(item['lisan_text']) if item['lisan_text'] else '(لم يسلم النص في الصف)' }» "
-        "[نقلَه خشيمٌ عن لسان العرب؛ هذه هي الرجل المعجمية المسماة، ولم يُطلب لها بديل].",
-        f"- المقابل من اللسان: `{root}`؛ حقل خشيم نفسه لا أول مرشح من المروحة.",
-        f"- مسار الصوت: {sound}. فُتش كل موضع بالحرفين وبلفظي «اللاتينيّة» و`Latin` في الشبكة المجمدة.",
-        f"- المعنى من قاموس الفرع: «{quote(sense) if sense else '(فارغ)' }» [{LATIN_BOOK}؛ بلا رتوش].",
-        f"- المدار: {orbit}.",
-        f"- المصفاة: {'علامة الاتجاه «' + item['loan_marker'] + '» تمنع الحكم' if item['loan_marker'] else 'لا مانح صريح في سطر المعنى؛ غياب الاسم ليس إثبات أصالة'}.",
-        "- فصل المتجانسات: البطاقة لهذا المدخل وهذا المعنى وحدهما.",
-        "- جرد العلم ومؤشر اليتم: غير حاسمين في صف خشيم، فلا يستعملان رفعًا ولا إسقاطًا.",
-        f"- إشعاع الأسرة في الفرع والعربية: الأعضاء المدعومة={1 if item['positive'] else 0}؛ المدخل المفرد وحده.",
-        "- جسور الاسترداد المفحوصة: الرأس؛ المعنى؛ المروحة؛ مرشح خشيم؛ نص لسان العرب المنقول؛ "
-        "الشبكة؛ المدار؛ الاتجاه؛ المتجانسات.",
-        f"- عائق: النوع={item['closure']}؛ يتطلب={required}",
-        f"- حالة الإغلاق: {item['closure']}",
-        f"- الحكم (استكشاف): {verdict}",
-        f"- ملاحظات: عدسة الاسترداد أبقت المرشح؛ وعدسة التشكيك "
-        f"{'أصدرته بعد اكتمال الأرجل الثلاث' if item['positive'] else 'منعت الحكم من غير NO-TRACE'}.",
-    ]
-    summary = {
-        "valid_index": item["valid_index"], "foreign": foreign, "sense": sense,
-        "root": root, "source": item["row"].get("source"),
-        "old_scan_head_recovered": bool(paired),
-        "root_in_fan": fan["hit"], "fan_count": len(fan["full"]),
-        "sound_ready": item["sound_ready"], "sound_rows": item["sound_rows"],
-        "sound_misses": item["sound_misses"],
-        "named_lexicon_ready": item["source_ready"],
-        "named_lexicon_source": "نقلَه خشيمٌ عن لسان العرب" if item["source_ready"] else None,
-        "human_orbit": item["human_orbit"] or None,
-        "three_legs": {
-            "sound": item["sound_ready"], "named_lexicon": item["source_ready"],
-            "written_orbit": bool(item["human_orbit"]),
-        },
-        "loan_marker": item["loan_marker"], "closure": item["closure"],
-        "verdict": degree if item["positive"] else None,
-        "open_reasons": item["open_reasons"],
-    }
-    return "\n".join(lines), summary
+def relevant_excerpt(text: str, cues: tuple[str, ...] = (), limit: int = 360) -> str:
+    text = one_line(text)
+    if not text:
+        return ""
+    parts = [part.strip() for part in re.split(r"(?<=[.؟!])\s+|\s*[؛]\s*", text) if part.strip()]
+    folded = tuple(LAT.ar_bare(cue) for cue in cues)
+    if folded:
+        matching = [
+            part for part in parts
+            if any(cue and cue in LAT.ar_bare(part) for cue in folded)
+        ]
+        if matching:
+            text = min(matching, key=len)
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0] + "…"
 
 
-def nucleus_registry() -> tuple[dict[str, dict[str, Any]], set[str]]:
-    payload = json.loads((ROOT / "data" / "juthoor-core-levels.json").read_text(encoding="utf-8"))
-    records = {
-        LAT.ar_bare(row["nucleus"]): row
-        for row in payload["levels"]["level_2_binary_nuclei"]["nuclei"]
-    }
-    return records, set(records)
+def semantic_cues(label: str) -> tuple[str, ...]:
+    cues: list[str] = []
+    for word in re.findall(r"[\u0621-\u064a]+", label):
+        word = re.sub(r"^و", "", word)
+        word = re.sub(r"^ال", "", word)
+        if len(word) >= 3 and word not in cues:
+            cues.append(word)
+    return tuple(cues)
 
 
-NUCLEUS_RECORDS, NUCLEI = nucleus_registry()
+def sound_audit(
+    skeleton: list[str], root: str, tongue_ar: str, tongue_en: str
+) -> tuple[bool, list[str], list[str]]:
+    strong = "".join(letter for letter in root if letter not in "اوي")
+    weak_positions = [index for index, letter in enumerate(root) if letter in "اوي"]
+    geminate = len(skeleton) == 2 and len(root) == 3 and root[-1] == root[-2]
+    weak = len(skeleton) == 2 and len(root) == 3 and len(weak_positions) == 1
+    if len(skeleton) != len(root) and not geminate and not weak:
+        return False, [], [
+            f"عدد الصوامت {len(skeleton)} في الفرع و{len(root)} في المرشح"
+        ]
+    aligned = root[:2] if geminate else strong if weak else root
+    if len(aligned) != len(skeleton):
+        return False, [], [
+            f"تعذر رصف الهيكل `{''.join(skeleton)}` بالمادة `{root}`"
+        ]
+    rows: list[str] = []
+    misses: list[str] = []
+    for symbol, arabic in zip(skeleton, aligned):
+        row_id = LAT.pair_row(symbol, arabic)
+        normalized = "c=[k] ثم " if symbol == "c" else ""
+        query = f"`{symbol}` + `{arabic}` + «{tongue_ar}/{tongue_en}» في عمود الشاهد"
+        if row_id:
+            rows.append(f"{normalized}{symbol}↔{arabic} = `{row_id}` (بحث: {query})")
+        else:
+            misses.append(f"{symbol}↔{arabic} (بحث: {query}؛ لا صف مناسب)")
+    if geminate:
+        rows.append(f"باب المضاعف: تكرير `{root[-1]}` في آخر الجذر العربي")
+    if weak:
+        position = ("الأول" if weak_positions[0] == 0 else
+                    "الأوسط" if weak_positions[0] == 1 else "الأخير")
+        rows.append(
+            f"باب المعتل: حرف العلة `{root[weak_positions[0]]}` في الموضع {position} "
+            "يقابل صائت الفرع، مع بقاء الصامتين القويين"
+        )
+    return not misses, rows, misses
 
 
-def project_nucleus(root: str) -> tuple[str | None, str | None]:
-    candidate = root if len(root) == 2 else root[:2] if len(root) >= 3 else ""
-    if candidate in NUCLEI:
-        record = NUCLEUS_RECORDS[candidate]
-        return candidate, one_line(record.get("jabal_lexicon_reading_ar")) or None
-    root_record = LAT.ROOT_RECORDS.get(root)
-    if root_record and LAT.ar_bare(root_record.get("binary", "")) in NUCLEI:
-        candidate = LAT.ar_bare(root_record["binary"])
-        return candidate, one_line(NUCLEUS_RECORDS[candidate].get("jabal_lexicon_reading_ar")) or None
-    return None, None
+def orbit_for(
+    language: str, foreign: str, sense: str, root: str, has_khashim_text: bool
+) -> tuple[str, str, tuple[str, ...]]:
+    if language == "latin" and (foreign, root) in LATIN_MANUAL_ORBITS:
+        return LATIN_MANUAL_ORBITS[(foreign, root)], "مراجعة بشرية سابقة محفوظة", (root,)
+    if language == "coptic" and (foreign, root, sense) in COPTIC_MANUAL_ORBITS:
+        return COPTIC_MANUAL_ORBITS[(foreign, root, sense)], "مراجعة بشرية سابقة محفوظة", (root,)
+    if has_khashim_text and (foreign, root) in KHASHIM_DIRECT:
+        center = KHASHIM_DIRECT[(foreign, root)]
+        orbit = (
+            f"معنى الفرع «{sense}» ونص خشيم المقترن بالجذر `{root}` يلتقيان صراحة "
+            f"في {center}؛ فالمدار مباشر في هذا المعنى المسمى."
+        )
+        return orbit, "نص خشيم المقترن بالجذر نفسه", semantic_cues(center)
+    local = LOCAL_ORBITS.get((foreign, root))
+    if local:
+        return str(local["orbit"]), "ذخيرة المعاجم العربية المحلية", tuple(local["cues"])
+    return "", "", ()
 
 
-def coptic_comparison(khashim: str, ours: str | None) -> tuple[str, str]:
-    khashim = LAT.ar_bare(khashim)
-    if khashim and ours:
-        if khashim == ours:
-            return "AGREE", "تتوافقان"
-        return "DIFFER", "تختلفان"
-    if not khashim and ours:
-        return "KHASHIM-NUCLEUS-NOT-RECOVERED", "لم تُسترد نواة خشيم، فلا يُصطنع اتفاق ولا اختلاف"
-    if khashim and not ours:
-        return "PROJECT-NUCLEUS-NOT-IN-FROZEN-INDEX", "نواة خشيم مسماة ونواتنا غائبة من الفهرس المجمد"
-    return "BOTH-UNAVAILABLE", "لم تسترد نواة خشيم ولم تسجل نواتنا، فلا مقارنة"
+def evaluate_card(
+    language: str,
+    card_index: int,
+    foreign: str,
+    sense: str,
+    witnesses: list[dict[str, Any]],
+    source_indices: list[int],
+    lexica: dict[str, list[dict[str, Any]]],
+) -> dict[str, Any]:
+    proposals = khashim_proposals(witnesses)
+    proposals_by_root = {proposal["root"]: proposal for proposal in proposals}
+    if language == "latin":
+        valid_head = bool(LATIN_HEAD.fullmatch(foreign))
+        analysis_head = foreign
+        tongue_ar, tongue_en = "اللاتينيّة", "Latin"
+        book = LATIN_BOOK
+    else:
+        valid_head = bool(COPTIC_ROMAN_HEAD.fullmatch(foreign)) and any(
+            witness.get("source") == "ocr-coptic" for witness in witnesses
+        )
+        analysis_head = foreign.split(",", 1)[0].strip()
+        tongue_ar, tongue_en = "القبطيّة", "Coptic"
+        book = COPTIC_BOOK
 
-
-def coptic_item(index: int, row: dict[str, Any]) -> dict[str, Any]:
-    foreign, root = one_line(row.get("foreign")), LAT.ar_bare(row.get("arabic_root", ""))
-    sense, source_text = one_line(row.get("foreign_sense")), one_line(row.get("arabic_gloss"))
-    analysis_head = foreign.split(",", 1)[0].strip()
-    roman = row.get("source") == "ocr-coptic" and bool(COPTIC_ROMAN_HEAD.fullmatch(foreign))
-    if roman:
-        fan = LAT.candidate_fan(analysis_head, root)
-        sound_ready, sound_rows, sound_misses = LAT.sound_audit(fan["route_skeleton"], root)
+    if valid_head:
+        fan = LAT.candidate_fan(analysis_head, "")
+        candidates = fan["full"]
     else:
         fan = {
-            "stem": foreign, "stripping": "لا تعرية؛ الرأس القديم مكسور أو منقول بحرف عربي لا بالرسم القبطي",
+            "stem": analysis_head,
+            "stripping": "تعذر توليد المروحة لأن رأس الفرع ليس رومنة صالحة",
             "raw_skeleton": [], "stem_skeleton": [], "route_skeleton": [],
-            "full": [], "hit": False, "position": None, "source": "خارج المروحة",
+            "full": [],
         }
-        sound_ready, sound_rows, sound_misses = False, [], [
-            "الرأس القديم لا يحمل رسمًا قبطيًا أو رومنةً صالحةً للرصف"
-        ]
-    orbit = COPTIC_ORBITS.get((foreign, root, sense), "")
-    khashim_nucleus = LAT.ar_bare(row.get("arabic_nucleus", ""))
-    our_nucleus, our_event = project_nucleus(root)
-    comparison, comparison_ar = coptic_comparison(khashim_nucleus, our_nucleus)
-    loan = LAT.explicit_loan(sense + " " + source_text)
-    structural = bool(roman and fan["hit"] and len(root) in {2, 3})
-    source_ready = bool(source_text)
-    positive = bool(structural and sound_ready and source_ready and orbit and not loan)
-    obstacles: list[str] = []
-    if not roman:
-        obstacles.append("استرداد الرأس القبطي أو رومنته السليمة من المسح")
-    if not fan["hit"]:
-        obstacles.append("دخول مرشح خشيم نفسه في مروحة الأداة")
-    if not sound_ready:
-        obstacles.append("صفوف الشبكة أو اكتمال الرصف المبيّن في مسار الصوت")
-    if not source_ready:
-        obstacles.append("نص العربية الذي نقله خشيم في المدخل")
-    if len(root) not in {2, 3}:
-        obstacles.append("تحليل يحدد درجة المادة العربية")
-    if structural and sound_ready and source_ready and not orbit:
-        obstacles.append("الرجل الثالثة: مدار مقنع مكتوب بالكلمات")
-    if loan:
-        obstacles.append(f"عزل اتجاه النقل المسمى «{loan}»")
-    return {
-        "index": index, "row": row, "foreign": foreign, "analysis_head": analysis_head,
-        "root": root, "sense": sense, "source_text": source_text, "fan": fan,
-        "sound_ready": sound_ready, "sound_rows": sound_rows, "sound_misses": sound_misses,
-        "source_ready": source_ready, "human_orbit": orbit, "loan_marker": loan,
-        "khashim_nucleus": khashim_nucleus or None, "our_nucleus": our_nucleus,
-        "our_nucleus_event": our_event, "nucleus_comparison": comparison,
-        "nucleus_comparison_ar": comparison_ar,
-        "positive": positive, "closure": "READY" if positive else "OPEN-CANDIDATE",
-        "open_reasons": obstacles,
-    }
+        candidates = []
 
+    candidate_rows: list[dict[str, Any]] = []
+    for position, root in enumerate(candidates, 1):
+        routed = LAT.candidate_fan(analysis_head, root)
+        sound, sound_rows, sound_misses = sound_audit(
+            routed["route_skeleton"], root, tongue_ar, tongue_en
+        )
+        proposal = proposals_by_root.get(root)
+        has_khashim_text = bool(proposal and proposal["texts"])
+        orbit, orbit_source, cues = orbit_for(
+            language, foreign, sense, root, has_khashim_text
+        )
+        if has_khashim_text:
+            texts = proposal["texts"]
+            if cues:
+                matching = [
+                    text for text in texts
+                    if any(LAT.ar_bare(cue) in LAT.ar_bare(text) for cue in cues)
+                ]
+                selected_text = min(matching or texts, key=len)
+            else:
+                selected_text = min(texts, key=len)
+            lexicon_source = f"{book}؛ نص خشيم المقترن بالجذر نفسه"
+            lexicon_origin = "khashim"
+        else:
+            witness = preferred_lexicon(lexica.get(root, []), cues=cues)
+            if witness is None and not cues:
+                witness = preferred_lexicon(lexica.get(root, []))
+            selected_text = witness["definition"] if witness else ""
+            lexicon_source = witness.get("source_label", "") if witness else ""
+            lexicon_origin = "resources" if witness else None
+        lexicon_excerpt = relevant_excerpt(selected_text, cues=cues)
+        lexicon_ready = bool(selected_text)
+        orbit_ready = bool(orbit and sense)
+        loan = LAT.explicit_loan(" ".join((sense, lexicon_excerpt)))
+        candidate_rows.append({
+            "root": root,
+            "fan_position": position,
+            "fan_source": routed["source"],
+            "route_skeleton": routed["route_skeleton"],
+            "sound_ready": sound,
+            "sound_rows": sound_rows,
+            "sound_misses": sound_misses,
+            "named_lexicon_ready": lexicon_ready,
+            "named_lexicon_source": lexicon_source or None,
+            "lexicon_origin": lexicon_origin,
+            "lexicon_excerpt": lexicon_excerpt or None,
+            "written_orbit_ready": orbit_ready,
+            "written_orbit": orbit or None,
+            "orbit_source": orbit_source or None,
+            "loan_marker": loan,
+            "three_legs": {
+                "sound": sound,
+                "named_lexicon": lexicon_ready,
+                "written_orbit": orbit_ready,
+            },
+        })
 
-def render_coptic(item: dict[str, Any]) -> tuple[str, dict[str, Any]]:
-    foreign, root, sense, fan = item["foreign"], item["root"], item["sense"], item["fan"]
-    degree = "NUCLEUS-TRACE" if len(root) == 2 else "ROOT-TRACE"
-    verdict = f"**{degree} (استكشاف)**" if item["positive"] else "**غير صادر (استكشاف)**"
-    sound = "؛ ".join(item["sound_rows"] + item["sound_misses"]) or "تعذر الرصف"
-    fan_values = "، ".join(f"`{value}`" for value in fan["full"]) or "(لم تولد الأداة مرشحًا)"
-    orbit = item["human_orbit"] or "غير مكتوب؛ لم تكتمل الأرجل السابقة التي تجيز الحكم"
-    required = "؛ ".join(item["open_reasons"]) or "لا عائق معلق"
-    kh = f"`{item['khashim_nucleus']}`" if item["khashim_nucleus"] else "(لم تُسترد صريحة في الصف)"
-    ours = f"`{item['our_nucleus']}`" if item["our_nucleus"] else "(غير مسجلة في الفهرس المجمد)"
-    event = f"؛ مدارها «{item['our_nucleus_event']}»" if item["our_nucleus_event"] else ""
-    lines = [
-        f"### بطاقة: `{foreign}` «{quote(sense) if sense else '(المعنى لم يسترد)' }»؛ خشيم قبطي 001/{item['index']:03d}",
-        f"<!-- khashim-coptic-batch-001:{item['index']}:{root} -->",
-        "- إصدار البروتوكول: RECOVERY-v2 (استكشاف).",
-        f"- نسبة المصدر: المرشح `{foreign}→{root}` وشرحه من {COPTIC_BOOK}؛ المروحة والمسار "
-        "واستخراج نواتنا والمدار والحكم أعمال المشروع.",
-        f"- الكلمة في الفرع: `{foreign}`؛ مصدر الصف `{item['row'].get('source')}`.",
-        f"- الخطوة صفر: {fan['stripping']}؛ رأس التحليل `{item['analysis_head']}`؛ "
-        f"الهيكل `{''.join(fan['route_skeleton']) or '∅'}`.",
-        f"- درجة المقارنة: {'نواة' if len(root) == 2 else 'جذر كامل' if len(root) == 3 else 'مفتوحة'}؛ "
-        "فُحص الجذر والنواة كل على استقلال.",
-        f"- مروحة المرشحات العربية من أداتنا: {fan_values}.",
-        f"- موضع مرشح خشيم من المروحة: `{root}` "
-        f"{'داخلها في الرتبة ' + str(fan['position']) if fan['hit'] else 'غير موجود فيها، فحُفظ ولم يُستبدل'}.",
-        f"- مسح المعاني العربية: «{quote(item['source_text']) if item['source_text'] else '(لم يسلم النص)' }» "
-        f"[{COPTIC_BOOK}؛ نقل كما هو].",
-        f"- المقابل من اللسان: `{root}`؛ حقل خشيم نفسه لا أول مرشح من المروحة.",
-        f"- نواة خشيم ونواتنا: نواة خشيم {kh}؛ نواتنا من `data/juthoor-core-levels.json` {ours}{event}؛ "
-        f"المقارنة: **{item['nucleus_comparison_ar']}** (`{item['nucleus_comparison']}`).",
-        f"- مسار الصوت: {sound}. فُتش كل موضع بالحرفين وبلفظي «القبطيّة» و`Coptic` في الشبكة المجمدة.",
-        f"- المعنى من قاموس الفرع: «{quote(sense) if sense else '(فارغ)' }» [{COPTIC_BOOK}؛ بلا رتوش].",
-        f"- المدار: {orbit}.",
-        f"- المصفاة: {'علامة الاتجاه «' + item['loan_marker'] + '» تمنع الحكم' if item['loan_marker'] else 'لا مانح صريح؛ غياب الاسم ليس إثبات أصالة'}.",
-        "- فصل المتجانسات: البطاقة لهذا المدخل وهذا المعنى وحدهما.",
-        "- جرد العلم ومؤشر اليتم: غير حاسمين في صف خشيم.",
-        f"- إشعاع الأسرة في الفرع والعربية: الأعضاء المدعومة={1 if item['positive'] else 0}؛ المدخل المفرد وحده.",
-        "- جسور الاسترداد المفحوصة: الرأس؛ المعنى؛ المروحة؛ مرشح خشيم؛ نص العربية؛ "
-        "نواة خشيم؛ نواة المشروع؛ الشبكة؛ المدار؛ الاتجاه؛ المتجانسات.",
-        f"- عائق: النوع={item['closure']}؛ يتطلب={required}",
-        f"- حالة الإغلاق: {item['closure']}",
-        f"- الحكم (استكشاف): {verdict}",
-        f"- ملاحظات: عدسة الاسترداد أبقت المرشح؛ وعدسة التشكيك "
-        f"{'أصدرته بعد اكتمال الأرجل الثلاث ومدار مكتوب' if item['positive'] else 'منعت الحكم من غير NO-TRACE'}.",
+    blocking_loans = sorted({
+        candidate["loan_marker"] for candidate in candidate_rows
+        if all(candidate["three_legs"].values()) and candidate["loan_marker"]
+    })
+    positives = [
+        candidate for candidate in candidate_rows
+        if all(candidate["three_legs"].values()) and not candidate["loan_marker"]
     ]
-    summary = {
-        "index": item["index"], "foreign": foreign, "sense": sense, "root": root,
-        "source": item["row"].get("source"), "root_in_fan": fan["hit"],
-        "fan_count": len(fan["full"]), "sound_ready": item["sound_ready"],
-        "sound_rows": item["sound_rows"], "sound_misses": item["sound_misses"],
-        "named_arabic_text_ready": item["source_ready"],
-        "human_orbit": item["human_orbit"] or None,
-        "khashim_nucleus": item["khashim_nucleus"], "our_nucleus": item["our_nucleus"],
-        "our_nucleus_event": item["our_nucleus_event"],
-        "nucleus_comparison": item["nucleus_comparison"],
-        "three_legs": {
-            "sound": item["sound_ready"], "named_lexicon": item["source_ready"],
-            "written_orbit": bool(item["human_orbit"]),
-        },
-        "loan_marker": item["loan_marker"], "closure": item["closure"],
-        "verdict": degree if item["positive"] else None,
-        "open_reasons": item["open_reasons"],
+
+    def winner_key(candidate: dict[str, Any]) -> tuple[int, int, int]:
+        provenance = candidate.get("orbit_source") or ""
+        rank = (0 if "مراجعة بشرية" in provenance else
+                1 if candidate.get("lexicon_origin") == "khashim" else 2)
+        degree = 0 if len(candidate["root"]) == 3 else 1 if len(candidate["root"]) == 2 else 2
+        return rank, degree, int(candidate["fan_position"])
+
+    winner = min(positives, key=winner_key) if positives else None
+    fan_positions = {candidate["root"]: candidate["fan_position"] for candidate in candidate_rows}
+    candidate_by_root = {candidate["root"]: candidate for candidate in candidate_rows}
+    for proposal in proposals:
+        proposal["fan_position"] = fan_positions.get(proposal["root"])
+        proposal["fan_status"] = (
+            "IN-FAN" if proposal["root"] in fan_positions else "OUTSIDE-FAN-PRESERVED"
+        )
+        candidate = candidate_by_root.get(proposal["root"])
+        proposal["candidate_three_legs"] = candidate["three_legs"] if candidate else None
+
+    if winner:
+        closure = "READY"
+        degree = "NUCLEUS-TRACE" if len(winner["root"]) == 2 else "ROOT-TRACE"
+        verdict = degree
+        open_reasons: list[str] = []
+    else:
+        closure = "OPEN-CANDIDATE"
+        verdict = None
+        open_reasons = []
+        if not valid_head:
+            open_reasons.append("استرداد رسم صالح لرأس الفرع قبل توليد المروحة")
+        elif not candidate_rows:
+            open_reasons.append("لم تولد الأداة مرشحًا من الهيكل المثبت")
+        else:
+            if not any(candidate["sound_ready"] for candidate in candidate_rows):
+                open_reasons.append("لا مرشح في المروحة أكمل الرصف الصوتي")
+            if not any(candidate["named_lexicon_ready"] for candidate in candidate_rows):
+                open_reasons.append("لا مرشح في المروحة وجد له نص معجمي مقترن بجذره")
+            if not any(candidate["written_orbit_ready"] for candidate in candidate_rows):
+                open_reasons.append("لا مرشح في المروحة ثبت له مدار مكتوب بعد قراءة النص")
+            if not open_reasons:
+                open_reasons.append("استنفدت المروحة ولم تجتمع الأرجل الثلاث في مرشح واحد")
+        if blocking_loans:
+            open_reasons.append(
+                "عزل اتجاه النقل المسمى «" + "؛ ".join(blocking_loans) + "»"
+            )
+
+    stats = {
+        "fan_candidates": len(candidate_rows),
+        "sound_ready": sum(candidate["sound_ready"] for candidate in candidate_rows),
+        "named_lexicon_ready": sum(
+            candidate["named_lexicon_ready"] for candidate in candidate_rows
+        ),
+        "written_orbit_ready": sum(
+            candidate["written_orbit_ready"] for candidate in candidate_rows
+        ),
+        "three_legs_ready": len(positives),
     }
-    return "\n".join(lines), summary
+    return {
+        "card_index": card_index,
+        "language": language,
+        "foreign": foreign,
+        "sense": sense,
+        "source_row_indices": source_indices,
+        "source_row_count": len(source_indices),
+        "source_witness_count": len(witnesses),
+        "analysis_head": analysis_head,
+        "valid_head": valid_head,
+        "stripping": fan["stripping"],
+        "raw_skeleton": fan["raw_skeleton"],
+        "stem_skeleton": fan["stem_skeleton"],
+        "fan": candidates,
+        "fan_stats": stats,
+        "khashim_proposals": proposals,
+        "candidate_evaluations": candidate_rows,
+        "loan_marker": None if winner else "؛ ".join(blocking_loans) or None,
+        "winner": winner,
+        "closure": closure,
+        "verdict": verdict,
+        "open_reasons": open_reasons,
+    }
+
+
+def compact_candidate_scan(card: dict[str, Any]) -> str:
+    if not card["candidate_evaluations"]:
+        return "(لا مروحة قبل استرداد الرأس)"
+    values = []
+    for candidate in card["candidate_evaluations"]:
+        legs = candidate["three_legs"]
+        values.append(
+            f"`{candidate['root']}`[ص{'✓' if legs['sound'] else '×'}،"
+            f"م{'✓' if legs['named_lexicon'] else '×'}،"
+            f"د{'✓' if legs['written_orbit'] else '×'}]"
+        )
+    return "، ".join(values)
+
+
+def proposal_text(card: dict[str, Any]) -> str:
+    if not card["khashim_proposals"]:
+        return "(لم يسترد اقتراح عربي من الصف)"
+    values = []
+    for proposal in card["khashim_proposals"]:
+        location = (
+            f"داخل المروحة في الرتبة {proposal['fan_position']}"
+            if proposal["fan_position"] is not None
+            else "خارج المروحة ومحفوظ في موضعه"
+        )
+        text = quote(proposal["texts"][0], 220) if proposal["texts"] else "بلا نص سالم"
+        values.append(f"`{proposal['root']}`: {location}؛ «{text}»")
+    return " | ".join(values)
+
+
+def render_card(card: dict[str, Any], book: str, marker: str) -> str:
+    winner = card["winner"]
+    stats = card["fan_stats"]
+    required = "؛ ".join(card["open_reasons"]) or "لا عائق معلق"
+    verdict = (
+        f"**{card['verdict']} (استكشاف)** بالمقابل `{winner['root']}`"
+        if winner else "**غير صادر (استكشاف)**"
+    )
+    if winner:
+        lexicon = (
+            f"`{winner['root']}`؛ «{winner['lexicon_excerpt']}» "
+            f"[{winner['named_lexicon_source']}]"
+        )
+        sound = "؛ ".join(winner["sound_rows"])
+        orbit = winner["written_orbit"]
+    else:
+        lexicon = "لا نص منتخب للحكم؛ نصوص المرشحين محفوظة في سجل الفحص"
+        sound = "لا مسار منتخب للحكم؛ مسارات المرشحين محفوظة في سجل الفحص"
+        orbit = "لا مدار محكوم بعد استنفاد المرشحين المسجلين"
+    source_rows = ", ".join(str(index) for index in card["source_row_indices"])
+    lines = [
+        f"### بطاقة: `{card['foreign']}` «{quote(card['sense']) if card['sense'] else '(المعنى لم يسترد)'}»؛ {marker}/{card['card_index']:03d}",
+        f"<!-- {marker}:{card['card_index']} -->",
+        "- إصدار البروتوكول: RECOVERY-v2 (استكشاف)، مع تطبيق البند 10 على المروحة كلها.",
+        f"- وحدة البطاقة: صفوف المصدر [{source_rows}]، وعددها {card['source_row_count']}؛ دُمجت لأنها تحمل المدخل والمعنى نفسيهما.",
+        f"- نسبة المصدر: معنى الفرع واقتراحات خشيم ونصوصه من {book}؛ المروحة والمسار والمدار والحكم أعمال المشروع.",
+        f"- الكلمة في الفرع: `{card['foreign']}`؛ المعنى «{quote(card['sense'])}» بلا رتوش.",
+        f"- الخطوة صفر: {card['stripping']}؛ الخام `{''.join(card['raw_skeleton']) or '∅'}`؛ البديل `{''.join(card['stem_skeleton']) or '∅'}`.",
+        f"- اقتراحات خشيم مجتمعة: {proposal_text(card)}.",
+        f"- المروحة المثبتة قبل المعنى: {', '.join(f'`{root}`' for root in card['fan']) if card['fan'] else '(فارغة)'}.",
+        f"- فحص كل مرشحات المروحة: {compact_candidate_scan(card)}.",
+        f"- حصيلة الفحص: المروحة={stats['fan_candidates']}؛ الصوت={stats['sound_ready']}؛ النص المقترن بالجذر={stats['named_lexicon_ready']}؛ المدار المكتوب={stats['written_orbit_ready']}؛ مكتمل الأرجل={stats['three_legs_ready']}.",
+        f"- المقابل من اللسان: {lexicon}.",
+        f"- مسار الصوت المنتخب: {sound}.",
+        f"- المدار: {orbit}.",
+        f"- المصفاة: {'علامة الاتجاه «' + card['loan_marker'] + '» تمنع حكم النسب' if card['loan_marker'] else 'لا مانح أجنبي صريح في نص البطاقة؛ غياب الاسم ليس إثبات أصالة'}.",
+        "- فصل المتجانسات: الحكم لهذا المدخل وهذا المعنى وحدهما، ولا يرثه متحد الرسم أو معنى آخر.",
+        "- جسور الاسترداد المفحوصة: المسحان؛ التعرية؛ المروحة كاملة؛ كل اقتراح لخشيم؛ نص كل جذر من خشيم أو الذخيرة؛ الشبكة؛ المدار؛ الاتجاه.",
+        f"- عائق: النوع={card['closure']}؛ يتطلب={required}",
+        f"- حالة الإغلاق: {card['closure']}",
+        f"- الحكم (استكشاف): {verdict}",
+        "- ملاحظات: عدسة الاسترداد منعت احتكار أول مقابل، وعدسة التشكيك لم تقبل تقاطع لفظ عارض بدل مدار مقروء.",
+    ]
+    return "\n".join(lines)
+
+
+def write_legacy_supersession() -> None:
+    payload = {
+        "schema": "khashim-old-latin-superseded-v1",
+        "batch": "001",
+        "status": "superseded",
+        "reason": "دُمجت صفوف المسحين وحُكم على المروحة كلها في الدفعة 002",
+        "superseded_by": "data/khashim-old-latin-batch-002.json",
+        "rows": [],
+    }
+    LATIN_LEGACY_REPORT.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=1) + "\n",
+        encoding="utf-8", newline="\n",
+    )
+    LATIN_LEGACY_AUDIT.write_text(
+        "\n".join([
+            "# حصاد خشيم للاتينية القديمة، الدفعة 001: سجل مستبدل",
+            "",
+            "استُبدلت هذه القسمة في 2026-08-11 لأن صفوف المدخل الواحد عبر المسحين "
+            "كانت تتوزع على بطاقتين، ولأن الحكم كان يختبر اقتراح خشيم وحده. السجل "
+            "النافذ الجامع هو `data/khashim-old-latin-batch-002.json`، والبطاقات "
+            "النافذة في كتلة الحصاد الموحدة من قراءة اللاتينية القديمة.",
+            "",
+        ]),
+        encoding="utf-8", newline="\n",
+    )
 
 
 def write_latin_audit(report: dict[str, Any]) -> None:
-    reasons = Counter(reason for row in report["rows"] for reason in row["open_reasons"])
+    rows = report["rows"]
+    reasons = Counter(reason for row in rows for reason in row["open_reasons"])
+    by_pair = {
+        (row["foreign"], row["winner"]["root"]): row
+        for row in rows if row["winner"]
+    }
+    featured = [by_pair[pair] for pair in FEATURED if pair in by_pair]
+    if len(featured) != len(FEATURED):
+        missing = [pair for pair in FEATURED if pair not in by_pair]
+        raise SystemExit(f"غابت أزواج العشرين البارزة بعد إعادة الحكم: {missing}")
     lines = [
-        "# إتمام حصاد خشيم للاتينية القديمة، الدفعة 002",
+        "# إعادة حكم حصاد خشيم للاتينية القديمة على المروحة كلها",
         "", "## الأعداد", "",
-        f"- مقام المرشحين الأصلي: {report['inventory']['original_candidates']}.",
-        f"- المكتوب سابقًا: {report['inventory']['previously_written']}.",
-        f"- المكتوب هنا: {report['cards_written']}.",
-        f"- الرؤوس القديمة المستردة من المسح الجديد: {report['head_recovery']['recovered']} من "
-        f"{report['head_recovery']['fallen']}؛ الباقي {report['head_recovery']['still_fallen']}.",
+        f"- صفوف المصدر المفحوصة: {report['inventory']['source_rows']}.",
+        f"- البطاقات بعد دمج المدخل والمعنى عبر المسحين: {report['cards_written']}.",
+        f"- مجموع مرشحات المراوح المفحوصة: {report['candidate_totals']['fan_candidates']}.",
         f"- موجب استكشافي: {report['positive']}. مفتوح: {report['open_candidate']}.",
         f"- عداد اللاتينية: {report['count_links']['before']}→{report['count_links']['after']}.",
         "", "## أسباب الفتح المتداخلة", "", "| السبب | البطاقات |", "|---|---:|",
     ]
     lines.extend(f"| {reason} | {count} |" for reason, count in reasons.most_common())
     lines.extend([
-        "", "## حراسة الميثاق", "",
-        "نص الرجل الثانية في كل صف سالم هو نص لسان العرب الذي نقله خشيم نفسه؛ لا بحث معجمي "
-        "خارجي في هذه الدفعة. لم يبق في ذيل الـ362 صف يجمع إصابة المروحة ورصف الشبكة، "
-        "فلم يُكتب مدار مصنوع ولم يصدر موجب. كل بطاقة مع ذلك مكتوبة ومحفوظة OPEN-CANDIDATE.", "",
+        "", "## أبرز عشرين", "",
+        "| # | اللاتينية | المقابل المنتخب | المدار المكتوب |",
+        "|---:|---|---|---|",
+    ])
+    for number, row in enumerate(featured, 1):
+        winner = row["winner"]
+        lines.append(
+            f"| {number} | `{row['foreign']}` «{row['sense']}» | `{winner['root']}` | {winner['written_orbit']} |"
+        )
+    lines.extend([
+        "", "## حراسة التصحيح", "",
+        "ثُبتت المروحة قبل اختبار المعنى، ثم فُحص كل مرشح بالصوت والنص المعجمي "
+        "المقترن بجذره والمدار المكتوب. اقتراح خشيم شاهد داخل القائمة لا سيد عليها. "
+        "إذا غاب نصه عن جذر بعينه طُلب نص ذلك الجذر من الذخيرة المحلية، وإذا غاب "
+        "من الموضعين بقيت الرجل المعجمية مفتوحة. لا ينقل نص جذر إلى جذر آخر.",
+        "",
     ])
     LATIN_AUDIT.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 def write_coptic_audit(report: dict[str, Any]) -> None:
-    reasons = Counter(reason for row in report["rows"] for reason in row["open_reasons"])
+    rows = report["rows"]
+    reasons = Counter(reason for row in rows for reason in row["open_reasons"])
+    positives = [row for row in rows if row["winner"]]
     lines = [
-        "# حصاد خشيم للقبطية، الدفعة 001", "", "## الأعداد", "",
-        f"- صفوف المسح القديم: {report['inventory']['old_scan']}.",
-        f"- صفوف المسح الجديد: {report['inventory']['new_scan']}.",
-        f"- البطاقات المكتوبة: {report['cards_written']}.",
+        "# إعادة حكم حصاد خشيم للقبطية على المروحة كلها",
+        "", "## الأعداد", "",
+        f"- صفوف المصدر والبطاقات: {report['cards_written']}.",
+        f"- الرؤوس الصالحة لتوليد المروحة: {report['inventory']['usable_heads']}.",
+        f"- مجموع مرشحات المراوح المفحوصة: {report['candidate_totals']['fan_candidates']}.",
         f"- موجب استكشافي: {report['positive']}. مفتوح: {report['open_candidate']}.",
-        f"- نواة خشيم الصريحة المستردة: {report['nucleus_comparison']['khashim_explicit']}.",
-        f"- توافق نواته ونواتنا: {report['nucleus_comparison']['agree']}. اختلافهما: "
-        f"{report['nucleus_comparison']['differ']}.",
-        f"- غير قابل للمقارنة لغياب إحدى النواتين أو كلتيهما: {report['nucleus_comparison']['unavailable']}.",
         f"- عداد القبطية: {report['count_links']['before']}→{report['count_links']['after']}.",
-        "", "## أسباب الفتح المتداخلة", "", "| السبب | البطاقات |", "|---|---:|",
+        "", "## الموجبات", "", "| القبطية | المقابل المنتخب | المدار |", "|---|---|---|",
     ]
+    for row in positives:
+        winner = row["winner"]
+        lines.append(
+            f"| `{row['foreign']}` «{row['sense']}» | `{winner['root']}` | {winner['written_orbit']} |"
+        )
+    lines.extend(["", "## أسباب الفتح المتداخلة", "", "| السبب | البطاقات |", "|---|---:|"])
     lines.extend(f"| {reason} | {count} |" for reason, count in reasons.most_common())
     lines.extend([
-        "", "## شهادة النواة", "",
-        "تعرض كل بطاقة نواة خشيم ونواة المشروع معًا. لا تُملأ نواة خشيم من تقسيمنا حين يغيب "
-        "حقلها، ولا تُرد نواتنا إلى تقسيمه. في الصفوف السبعة التي سلم فيها نصه الثنائي اتفق "
-        "التقسيمان في خمسة واختلفا في اثنين. وكل حكم موجب يحمل مدارًا مكتوبًا بالكلمات.", "",
+        "", "## حراسة التصحيح", "",
+        "فُحصت المروحة كلها في الرؤوس السبعة عشر السليمة. بقيت الصفوف القديمة "
+        "ذات الرأس المكسور مفتوحة، مع حفظ اقتراحات خشيم ونصوصها، ولم تُنشأ لها "
+        "مروحة من رسم غير مسترد.", "",
     ])
     COPTIC_AUDIT.write_text("\n".join(lines), encoding="utf-8", newline="\n")
+
+
+def report_payload(
+    language: str,
+    rows: list[dict[str, Any]],
+    inventory: dict[str, Any],
+    baseline: int,
+    book: str,
+) -> dict[str, Any]:
+    positive = sum(bool(row["winner"]) for row in rows)
+    totals = Counter()
+    for row in rows:
+        totals.update(row["fan_stats"])
+    return {
+        "schema": "khashim-full-fan-reruling-v2",
+        "generated_by": "scripts/build_khashim_latin_coptic_completion.py",
+        "language": language,
+        "source": "data/khashim-pairs.json",
+        "book": book,
+        "layer": "استكشاف",
+        "inventory": inventory,
+        "cards_written": len(rows),
+        "positive": positive,
+        "open_candidate": len(rows) - positive,
+        "candidate_totals": dict(totals),
+        "count_links": {"before": baseline, "after": baseline + positive},
+        "rows": rows,
+    }
 
 
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     payload = json.loads(SOURCE.read_text(encoding="utf-8"))
-    rows = payload["rows"]
-    recovery = payload.get("latin_head_recovery", {})
-    recovered = recovered_latin_by_new_row(rows)
-
-    inventory = original_latin_inventory(rows)
-    prior = json.loads((ROOT / "data" / "khashim-old-latin-batch-001.json").read_text(encoding="utf-8"))
-    used = {int(row["valid_index"]) for row in prior["rows"]}
-    if len(used) != 200:
-        raise SystemExit(f"تغيّرت عضوية الدفعة الأولى: {len(used)}")
-    senses = LAT.ocr_sense_index()
-    latin_items = [
-        latin_item(index, row, recovered, senses)
-        for index, row in enumerate(inventory) if index not in used
+    all_rows = payload["rows"]
+    inventory = original_latin_inventory(all_rows)
+    latin_cards = unified_latin_cards(inventory, all_rows)
+    coptic_cards = [
+        {
+            "foreign": normalized_key(row)[0],
+            "sense": normalized_key(row)[1],
+            "witnesses": [row],
+            "source_indices": [index],
+        }
+        for index, row in enumerate(
+            [row for row in all_rows if row.get("tongue") == "coptic"]
+        )
     ]
-    if len(latin_items) != 362:
-        raise SystemExit(f"لم تبلغ بقية اللاتينية 362: {len(latin_items)}")
-    latin_rendered, latin_rows = [], []
-    for item in latin_items:
-        rendered, summary = render_latin(item)
-        latin_rendered.append(rendered)
-        latin_rows.append(summary)
-    latin_positive = sum(bool(row["verdict"]) for row in latin_rows)
-    if any(row["verdict"] and not row["human_orbit"] for row in latin_rows):
-        raise SystemExit("صدر حكم لاتيني موجب بلا مدار مكتوب")
+    if len(coptic_cards) != COPTIC_SOURCE_ROWS:
+        raise SystemExit(f"تغيّر مقام القبطية: {len(coptic_cards)}")
+
+    all_candidate_roots: set[str] = set()
+    for language, cards in (("latin", latin_cards), ("coptic", coptic_cards)):
+        for card in cards:
+            foreign = card["foreign"]
+            usable = (
+                bool(LATIN_HEAD.fullmatch(foreign)) if language == "latin"
+                else bool(COPTIC_ROMAN_HEAD.fullmatch(foreign))
+                and any(row.get("source") == "ocr-coptic" for row in card["witnesses"])
+            )
+            if usable:
+                head = foreign if language == "latin" else foreign.split(",", 1)[0].strip()
+                all_candidate_roots.update(LAT.candidate_fan(head, "")["full"])
+    lexica = ARS.matches_for_roots(RESOURCES, all_candidate_roots, limit=None)
+
+    latin_rows = [
+        evaluate_card(
+            "latin", index, card["foreign"], card["sense"], card["witnesses"],
+            card["source_indices"], lexica,
+        )
+        for index, card in enumerate(latin_cards)
+    ]
+    coptic_rows = [
+        evaluate_card(
+            "coptic", index, card["foreign"], card["sense"], card["witnesses"],
+            card["source_indices"], lexica,
+        )
+        for index, card in enumerate(coptic_cards)
+    ]
+
+    remus = [row for row in latin_rows if row["foreign"] == "remus"]
+    if len(remus) != 1:
+        raise SystemExit(f"لم تتوحد remus في بطاقة واحدة: {len(remus)}")
+    remus_proposals = {proposal["root"] for proposal in remus[0]["khashim_proposals"]}
+    if not {"رمي", "روى"} <= remus_proposals:
+        raise SystemExit(f"غاب أحد اقتراحي خشيم في remus: {sorted(remus_proposals)}")
+    if not remus[0]["winner"] or remus[0]["winner"]["root"] != "رمي":
+        raise SystemExit("لم يصدر حكم remus بالمقابل رمي")
+    if any(row["winner"] and not row["winner"]["written_orbit"] for row in latin_rows + coptic_rows):
+        raise SystemExit("صدر حكم موجب بلا مدار مكتوب")
+
+    latin_report = report_payload(
+        "old-latin", latin_rows,
+        {
+            "source_rows": LATIN_SOURCE_ROWS,
+            "unified_cards": len(latin_rows),
+            "merged_duplicate_rows": LATIN_SOURCE_ROWS - len(latin_rows),
+        },
+        LATIN_BASELINE, LATIN_BOOK,
+    )
+    coptic_report = report_payload(
+        "coptic", coptic_rows,
+        {
+            "source_rows": COPTIC_SOURCE_ROWS,
+            "unified_cards": len(coptic_rows),
+            "usable_heads": sum(row["valid_head"] for row in coptic_rows),
+        },
+        COPTIC_BASELINE, COPTIC_BOOK,
+    )
+
     latin_section = "\n".join([
         LATIN_START,
-        "## إتمام حصاد خشيم للاتينية القديمة (362 بطاقة؛ 2026-08-11)", "",
-        "**المقام.** هذه كل الصفوف الباقية من مقام الـ562 بعد الدفعة الأولى. رُد 290 رأسًا "
-        "من المسح القديم إلى المسح الكامل، واستعملت نظائرها لإحكام المصدر من غير مضاعفة الدعوى.", "",
-        "**الأرجل الثلاث.** الصوت من الشبكة، والرجل المعجمية نص لسان العرب الذي نقله خشيم، "
-        "والرجل الثالثة مدار مكتوب. لا حكم بلا الثلاث.", "",
-        f"**الحصيلة.** كُتبت {len(latin_rows)} بطاقة؛ موجب {latin_positive}؛ "
-        f"مفتوح {len(latin_rows) - latin_positive}.", "", *latin_rendered, LATIN_END,
+        "## حصاد خشيم لللاتينية القديمة بعد إعادة الحكم على المروحة كلها (2026-08-11)",
+        "",
+        f"**المقام.** فُحصت صفوف المصدر الـ{LATIN_SOURCE_ROWS} كلها، ثم دُمجت الصفوف التي "
+        f"تحمل المدخل والمعنى نفسيهما في {len(latin_rows)} بطاقة. لا يحتكر اقتراح خشيم "
+        "الحكم؛ يبقى ظاهرًا في موضعه، وتفحص معه المروحة كاملة.",
+        "",
+        "**الأرجل الثلاث.** لكل مرشح سجل مستقل للصوت، والنص المعجمي المقترن بجذره "
+        "من خشيم أو من الذخيرة، والمدار المكتوب. لا ينقل نص جذر إلى غيره.",
+        "",
+        f"**الحصيلة.** موجب {latin_report['positive']}؛ مفتوح {latin_report['open_candidate']}.",
+        "",
+        *[render_card(row, LATIN_BOOK, "khashim-old-latin-full-fan") for row in latin_rows],
+        LATIN_END,
     ])
+    latin_text = LATIN_READING.read_text(encoding="utf-8")
+    latin_text = replace_block(latin_text, LATIN_LEGACY_START, LATIN_LEGACY_END, "")
+    latin_text = replace_block(latin_text, LATIN_START, LATIN_END, latin_section)
     LATIN_READING.write_text(
-        unicodedata.normalize("NFC", replace_block(
-            LATIN_READING.read_text(encoding="utf-8"), LATIN_START, LATIN_END, latin_section
-        )), encoding="utf-8", newline="\n",
+        unicodedata.normalize("NFC", latin_text), encoding="utf-8", newline="\n"
     )
-    latin_report = {
-        "generated_by": "scripts/build_khashim_latin_coptic_completion.py",
-        "batch": "002", "source": "data/khashim-pairs.json", "book": LATIN_BOOK,
-        "inventory": {"original_candidates": 562, "previously_written": 200, "remaining": 362},
-        "head_recovery": {
-            "fallen": recovery.get("old_rows_with_fallen_head"),
-            "recovered": recovery.get("heads_recovered"),
-            "still_fallen": recovery.get("heads_still_fallen"),
-        },
-        "cards_written": len(latin_rows), "positive": latin_positive,
-        "open_candidate": len(latin_rows) - latin_positive,
-        "count_links": {"before": LATIN_BASELINE, "after": LATIN_BASELINE + latin_positive},
-        "rows": latin_rows,
-    }
+
+    coptic_section = "\n".join([
+        COPTIC_START,
+        "## حصاد خشيم للقبطية بعد إعادة الحكم على المروحة كلها (2026-08-11)",
+        "",
+        f"**المقام.** فُحصت البطاقات الـ{COPTIC_SOURCE_ROWS} كلها. تولدت المروحة في "
+        f"{coptic_report['inventory']['usable_heads']} رأسًا سليمًا، وبقي الرأس المكسور "
+        "مفتوحًا مع حفظ اقتراح خشيم.",
+        "",
+        f"**الحصيلة.** موجب {coptic_report['positive']}؛ مفتوح {coptic_report['open_candidate']}.",
+        "",
+        *[render_card(row, COPTIC_BOOK, "khashim-coptic-full-fan") for row in coptic_rows],
+        COPTIC_END,
+    ])
+    COPTIC_READING.write_text(
+        unicodedata.normalize("NFC", replace_block(
+            COPTIC_READING.read_text(encoding="utf-8"),
+            COPTIC_START, COPTIC_END, coptic_section,
+        )),
+        encoding="utf-8", newline="\n",
+    )
+
     LATIN_REPORT.write_text(
         json.dumps(latin_report, ensure_ascii=False, indent=1) + "\n",
         encoding="utf-8", newline="\n",
     )
-    write_latin_audit(latin_report)
-
-    coptic_source = [row for row in rows if row.get("tongue") == "coptic"]
-    old_count = sum(row.get("source") == "khashim-coptic" for row in coptic_source)
-    new_count = sum(row.get("source") == "ocr-coptic" for row in coptic_source)
-    if (len(coptic_source), old_count, new_count) != (186, 169, 17):
-        raise SystemExit(
-            f"تغيّر جرد القبطية: الكل/قديم/جديد={len(coptic_source)}/{old_count}/{new_count}"
-        )
-    coptic_items = [coptic_item(index, row) for index, row in enumerate(coptic_source)]
-    coptic_rendered, coptic_rows = [], []
-    for item in coptic_items:
-        rendered, summary = render_coptic(item)
-        coptic_rendered.append(rendered)
-        coptic_rows.append(summary)
-    coptic_positive = sum(bool(row["verdict"]) for row in coptic_rows)
-    if any(row["verdict"] and not row["human_orbit"] for row in coptic_rows):
-        raise SystemExit("صدر حكم قبطي موجب بلا مدار مكتوب")
-    comparisons = Counter(row["nucleus_comparison"] for row in coptic_rows)
-    explicit = sum(bool(row["khashim_nucleus"]) for row in coptic_rows)
-    agree, differ = comparisons["AGREE"], comparisons["DIFFER"]
-    unavailable = len(coptic_rows) - agree - differ
-    coptic_section = "\n".join([
-        COPTIC_START,
-        "## حصاد خشيم للقبطية (186 بطاقة؛ 2026-08-11)", "",
-        "**المقام.** كُتبت صفوف المسح القديم الـ169 وصفوف المسح الجديد الـ17 كلها. "
-        "تعرض كل بطاقة نواة خشيم الصريحة ونواة المشروع من الفهرس المجمد مع حكم الاتفاق.", "",
-        f"**شهادة النواة.** استردت نواة خشيم صريحة في {explicit} صفوف: توافق التقسيمان في "
-        f"{agree} واختلفا في {differ}؛ ولم أصطنع مقارنة حين غابت إحدى النواتين.", "",
-        f"**الحصيلة.** كُتبت {len(coptic_rows)} بطاقة؛ موجب {coptic_positive}؛ "
-        f"مفتوح {len(coptic_rows) - coptic_positive}.", "", *coptic_rendered, COPTIC_END,
-    ])
-    COPTIC_READING.write_text(
-        unicodedata.normalize("NFC", replace_block(
-            COPTIC_READING.read_text(encoding="utf-8"), COPTIC_START, COPTIC_END, coptic_section
-        )), encoding="utf-8", newline="\n",
-    )
-    coptic_report = {
-        "generated_by": "scripts/build_khashim_latin_coptic_completion.py",
-        "batch": "001", "source": "data/khashim-pairs.json", "book": COPTIC_BOOK,
-        "inventory": {"old_scan": old_count, "new_scan": new_count, "total": len(coptic_rows)},
-        "cards_written": len(coptic_rows), "positive": coptic_positive,
-        "open_candidate": len(coptic_rows) - coptic_positive,
-        "nucleus_comparison": {
-            "khashim_explicit": explicit, "agree": agree, "differ": differ,
-            "unavailable": unavailable,
-        },
-        "count_links": {"before": COPTIC_BASELINE, "after": COPTIC_BASELINE + coptic_positive},
-        "rows": coptic_rows,
-    }
     COPTIC_REPORT.write_text(
         json.dumps(coptic_report, ensure_ascii=False, indent=1) + "\n",
         encoding="utf-8", newline="\n",
     )
+    write_legacy_supersession()
+    write_latin_audit(latin_report)
     write_coptic_audit(coptic_report)
     print(
-        f"اللاتينية: كُتب {len(latin_rows)}، موجب {latin_positive}، مفتوح {len(latin_rows)-latin_positive}؛ "
-        f"استرد رأس {recovery.get('heads_recovered')}."
+        f"اللاتينية: {LATIN_SOURCE_ROWS} صفًا→{len(latin_rows)} بطاقة؛ "
+        f"موجب {latin_report['positive']}، مفتوح {latin_report['open_candidate']}."
     )
     print(
-        f"القبطية: كُتب {len(coptic_rows)} ({old_count}+{new_count})، موجب {coptic_positive}، "
-        f"مفتوح {len(coptic_rows)-coptic_positive}؛ النواة توافق {agree} وتختلف {differ}."
+        f"القبطية: {len(coptic_rows)} بطاقة؛ موجب {coptic_report['positive']}، "
+        f"مفتوح {coptic_report['open_candidate']}."
     )
     return 0
 

@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 1615,
-  "nucleus": 1098,
+  "root": 1736,
+  "nucleus": 1102,
   "languages": 16
  },
  "languages": [
@@ -12,7 +12,7 @@
    "ar": "الآراميّة",
    "en": "Aramaic",
    "distance": 1,
-   "root": 689,
+   "root": 727,
    "nucleus": 391,
    "floor": 0,
    "examples": [
@@ -97,15 +97,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 1080,
-   "nucleus_share": 36.2
+   "total": 1118,
+   "nucleus_share": 35.0
   },
   {
    "key": "hebrew",
    "ar": "العبريّة",
    "en": "Hebrew",
    "distance": 1,
-   "root": 606,
+   "root": 660,
    "nucleus": 331,
    "floor": 0,
    "examples": [
@@ -190,8 +190,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 937,
-   "nucleus_share": 35.3
+   "total": 991,
+   "nucleus_share": 33.4
   },
   {
    "key": "akkadian",
@@ -477,7 +477,7 @@
    "ar": "القبطيّة",
    "en": "Coptic",
    "distance": 2,
-   "root": 29,
+   "root": 31,
    "nucleus": 163,
    "floor": 1,
    "examples": [
@@ -562,8 +562,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 192,
-   "nucleus_share": 84.9
+   "total": 194,
+   "nucleus_share": 84.0
   },
   {
    "key": "egyptian",
@@ -663,8 +663,8 @@
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 56,
-   "nucleus": 17,
+   "root": 83,
+   "nucleus": 21,
    "floor": 1,
    "examples": [
     {
@@ -748,8 +748,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 73,
-   "nucleus_share": 23.3
+   "total": 104,
+   "nucleus_share": 20.2
   },
   {
    "key": "ancient-greek",

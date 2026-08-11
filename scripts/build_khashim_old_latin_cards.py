@@ -646,6 +646,11 @@ def write_audit(report_rows: list[dict[str, Any]], inventory: dict[str, int]) ->
 
 
 def main() -> int:
+    # أُبطل مسار الدفعتين المنفصلتين: البناء الموحَّد يعيد الحكم في الصفوف كلها
+    # ويجمع شواهد المدخل الواحد قبل تثبيت المروحة.
+    import build_khashim_latin_coptic_completion as unified
+    return unified.main()
+
     sys.stdout.reconfigure(encoding="utf-8")
     selected, inventory = prepare_rows()
     rendered: list[str] = []

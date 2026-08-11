@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "053322820384dc2e88b9bad07c66d5487f6b70e726ecf75d22f4c9588112e968"
+    "sha256": "a0171a558893c85874db5711133f781c898b7022a1d83e4f07b0a96c037c32bb"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "4083cacf919203c3a9d46aa48cf99c9bb5d70fe3ed8bdf4be127bf2a1ac1f025"
+    "sha256": "2dcafc70664a21c32622cec9bf8e1261469cb0b992bf99d80c694492c0c3bb4b"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 382,
+  "eligible_family_total": 381,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -53,14 +53,14 @@
  "languages": {
   "aramaic": {
    "inventory_family_count": 1573,
-   "represented_current_family_count": 603,
-   "eligible_family_count": 248,
-   "positive_family_count": 248,
+   "represented_current_family_count": 602,
+   "eligible_family_count": 247,
+   "positive_family_count": 247,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 209,
    "one_member_short_count": 82,
    "issued_member_dispositions": {
-    "positive": 363,
+    "positive": 362,
     "closures": 267,
     "by_outcome": {
      "FORM-OF-ISOLATED": 21,
@@ -72,7 +72,7 @@
      "OUT-OF-SCOPE": 1,
      "PROPER-NAME-ISOLATED": 109,
      "ROOT-ECHO": 51,
-     "ROOT-TRACE": 295
+     "ROOT-TRACE": 294
     }
    },
    "incomplete_members_by_state": {
@@ -84,9 +84,9 @@
     "UNRECORDED": 163
    },
    "block_reconciliation": {
-    "ambiguous-stale-heading": 4,
+    "ambiguous-stale-heading": 5,
     "current-heading": 744,
-    "stable-entry-reconciled": 249,
+    "stable-entry-reconciled": 248,
     "unmapped-stale-heading": 12
    },
    "eligible_family_ids": [
@@ -192,7 +192,6 @@
     "aramaic:family:7bdc1e2a6a3d48fb901ce22d",
     "aramaic:family:7bf401b726adf04afd06aa10",
     "aramaic:family:7c1e5940ab94d9e81b36bbd9",
-    "aramaic:family:7e052696f8636331e5c58d3b",
     "aramaic:family:7f2e27e81bbf419cad765d3f",
     "aramaic:family:7ff8f30fe074e9b2c0f7b422",
     "aramaic:family:809d739ae56958801f809e03",
@@ -442,7 +441,6 @@
     "aramaic:family:7bdc1e2a6a3d48fb901ce22d",
     "aramaic:family:7bf401b726adf04afd06aa10",
     "aramaic:family:7c1e5940ab94d9e81b36bbd9",
-    "aramaic:family:7e052696f8636331e5c58d3b",
     "aramaic:family:7f2e27e81bbf419cad765d3f",
     "aramaic:family:7ff8f30fe074e9b2c0f7b422",
     "aramaic:family:809d739ae56958801f809e03",
@@ -4851,6 +4849,11 @@
      "line": 31064,
      "heading": "### بطاقة: `שלש/שלשה` «ثلاثة» ↔ ثلث",
      "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 31092,
+     "heading": "### بطاقة: `יתב` «جلس، أقام» ↔ وثب الحميرية «جلس»",
+     "reason": "ambiguous-stale-heading"
     }
    ]
   },
