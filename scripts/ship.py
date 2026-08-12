@@ -54,6 +54,11 @@ def git(*args: str) -> tuple[int, str]:
     return p.returncode, (p.stdout or "") + (p.stderr or "")
 
 
+def changed_now() -> list[str]:
+    """أسطرُ `git status --porcelain` كما هي الآن."""
+    return [ln for ln in git("status", "--porcelain")[1].splitlines() if ln.strip()]
+
+
 def tree_hash() -> str:
     """بصمةُ ما تحتَ اليدِ الآن، ليُعرَفَ هل كتبَ مسارٌ أثناءَ البناء."""
     git("add", "-A")
@@ -118,9 +123,18 @@ def main() -> int:
         return 0
 
     if args.only:
+        # **المقصورُ يشملُ المشتقّاتِ التي بناها هذا الشحنُ نفسُه.** كان `--only`
+        # يبني المشتقّاتِ كلَّها ثمّ يودِعُ المسمّى وحدَه، فيبقى سجلُّ الاسترداد
+        # وأخواتُه معادَ البناءِ خارجَ الإيداعِ فيبيتُ ويرفضُ التكاملُ النشر.
+        # وقد سقطَت نشرتانِ بهذا في 2026-08-12.
+        derived = [ln[3:].strip().strip('"') for ln in changed_now()
+                   if ln[3:].strip().strip('"').startswith("data/")]
+        paths = list(dict.fromkeys([*args.only, *derived]))
         git("reset", "-q")
-        git("add", "--", *args.only)
-        print("مقصورٌ على: " + " · ".join(args.only))
+        git("add", "--", *paths)
+        extra = len(paths) - len(args.only)
+        print("مقصورٌ على: " + " · ".join(args.only)
+              + (f"   (ومعها {extra} مشتقًّا أعادَ هذا الشحنُ بناءَه)" if extra else ""))
     else:
         git("add", "-A")
     code, out = git("commit", "-q", "-m", args.message)
