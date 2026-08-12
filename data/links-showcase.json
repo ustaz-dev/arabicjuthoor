@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 1795,
-  "nucleus": 1130,
+  "root": 1846,
+  "nucleus": 1197,
   "languages": 16
  },
  "languages": [
@@ -473,6 +473,99 @@
    "nucleus_share": 0.0
   },
   {
+   "key": "egyptian",
+   "ar": "المصريّة القديمة",
+   "en": "Ancient Egyptian",
+   "distance": 2,
+   "root": 104,
+   "nucleus": 178,
+   "floor": 1,
+   "examples": [
+    {
+     "word": "ḫf",
+     "say": "khf",
+     "sense": "to see; to perceive",
+     "arabic": "خفا",
+     "quote": "خفا البرق يخفو خفوا: لمع",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "sn.w",
+     "say": "",
+     "sense": "two",
+     "arabic": "ثن",
+     "quote": "التبطن والكثرة في الداخل",
+     "lexicon": "الصحاح",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "nf",
+     "say": "",
+     "sense": "breath",
+     "arabic": "نف",
+     "quote": "النفس وجريان الهواء من الجسد",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "ḫr",
+     "say": "khr",
+     "sense": "to fall; to fell",
+     "arabic": "خر",
+     "quote": "السقوط والانخفاض",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "ntf",
+     "say": "",
+     "sense": "يرش، يبلل",
+     "arabic": "نطف",
+     "quote": "النطف: الصب",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "brq",
+     "say": "",
+     "sense": "to sparkle",
+     "arabic": "برق",
+     "quote": "برق السيف: تلألأ",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "brk",
+     "say": "",
+     "sense": "to bow; kneel; bless",
+     "arabic": "برك",
+     "quote": "أناخ ولزم، وبارك ودعا بالبركة",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "btk",
+     "say": "",
+     "sense": "to slaughter (enemies)",
+     "arabic": "بتك",
+     "quote": "بتكه: قطعه",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 282,
+   "nucleus_share": 63.1
+  },
+  {
    "key": "coptic",
    "ar": "القبطيّة",
    "en": "Coptic",
@@ -564,99 +657,6 @@
    ],
    "total": 212,
    "nucleus_share": 81.6
-  },
-  {
-   "key": "egyptian",
-   "ar": "المصريّة القديمة",
-   "en": "Ancient Egyptian",
-   "distance": 2,
-   "root": 53,
-   "nucleus": 111,
-   "floor": 1,
-   "examples": [
-    {
-     "word": "ḫf",
-     "say": "khf",
-     "sense": "to see; to perceive",
-     "arabic": "خفا",
-     "quote": "خفا البرق يخفو خفوا: لمع",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-ECHO"
-    },
-    {
-     "word": "sn.w",
-     "say": "",
-     "sense": "two",
-     "arabic": "ثن",
-     "quote": "التبطن والكثرة في الداخل",
-     "lexicon": "الصحاح",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-ECHO"
-    },
-    {
-     "word": "nf",
-     "say": "",
-     "sense": "breath",
-     "arabic": "نف",
-     "quote": "النفس وجريان الهواء من الجسد",
-     "lexicon": "تاج العروس",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "ḫr",
-     "say": "khr",
-     "sense": "to fall; to fell",
-     "arabic": "خر",
-     "quote": "السقوط والانخفاض",
-     "lexicon": "تاج العروس",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "ntf",
-     "say": "",
-     "sense": "يرش، يبلل",
-     "arabic": "نطف",
-     "quote": "النطف: الصب",
-     "lexicon": "لسان العرب",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "brq",
-     "say": "",
-     "sense": "to sparkle",
-     "arabic": "برق",
-     "quote": "برق السيف: تلألأ",
-     "lexicon": "الصحاح",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "brk",
-     "say": "",
-     "sense": "to bow; kneel; bless",
-     "arabic": "برك",
-     "quote": "أناخ ولزم، وبارك ودعا بالبركة",
-     "lexicon": "لسان العرب",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "btk",
-     "say": "",
-     "sense": "to slaughter (enemies)",
-     "arabic": "بتك",
-     "quote": "بتكه: قطعه",
-     "lexicon": "الصحاح",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    }
-   ],
-   "total": 164,
-   "nucleus_share": 67.7
   },
   {
    "key": "old-latin",

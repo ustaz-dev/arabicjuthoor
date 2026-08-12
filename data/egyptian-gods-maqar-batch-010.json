@@ -1,0 +1,6636 @@
+{
+ "generated_by": "scripts/build_egyptian_gods_maqar_cards.py",
+ "source": "data/prior-art-extended-pairs.json",
+ "layer": "استكشاف",
+ "batch": 10,
+ "batch_size": 300,
+ "total_batches": 10,
+ "selected_total": 2725,
+ "first_ordinal": 2701,
+ "last_ordinal": 2725,
+ "source_rows_examined": 25,
+ "cards_written": 25,
+ "survival_only": 0,
+ "positive": 2,
+ "open_candidate": 23,
+ "books": {
+  "khashim-hieroglyphic": 25
+ },
+ "rows": [
+  {
+   "row_id": "extended-egyptian:2701",
+   "ordinal": 2701,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 176,
+   "tongue": "egyptian",
+   "foreign": "bkh-mwt",
+   "foreign_sense": "ثور الماء",
+   "author_root": "ماء",
+   "comparison_root": "ماء",
+   "author_root_position": null,
+   "arabic_gloss": "حلّل الاسم إلى بخ + موت، وجعل «موت/مو» مكافئة للماء.",
+   "proper_name": false,
+   "script": "egyptian",
+   "raw_skeleton": [
+    "b",
+    "kh",
+    "m",
+    "w",
+    "t"
+   ],
+   "buggy_raw_skeleton": [
+    "b",
+    "k",
+    "h",
+    "m",
+    "w",
+    "t"
+   ],
+   "case_head_restored": false,
+   "stem": "bkh-mwt",
+   "stem_skeleton": [
+    "b",
+    "kh",
+    "m",
+    "w",
+    "t"
+   ],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "ماء",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 5 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثور الماء",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "ماء"
+  },
+  {
+   "row_id": "extended-egyptian:2702",
+   "ordinal": 2702,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 176,
+   "tongue": "egyptian",
+   "foreign": "بخ موت",
+   "foreign_sense": "ثور الماء",
+   "author_root": "ماء",
+   "comparison_root": "ماء",
+   "author_root_position": null,
+   "arabic_gloss": "حلّل الاسم إلى بخ + موت، وجعل «موت/مو» مكافئة للماء.",
+   "proper_name": false,
+   "script": "egyptian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "بخ موت",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "ماء",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 0 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثور الماء",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "ماء"
+  },
+  {
+   "row_id": "extended-egyptian:2703",
+   "ordinal": 2703,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 195,
+   "tongue": "greek",
+   "foreign": "tris",
+   "foreign_sense": "ثلاثي؛ مثلث",
+   "author_root": "إدريس",
+   "comparison_root": "إدريس",
+   "author_root_position": null,
+   "arabic_gloss": "اقترح أن «إدريس» من اليونانية tris بعد إبدال التاء دالاً وإسباق ألف.",
+   "proper_name": false,
+   "script": "latin",
+   "raw_skeleton": [
+    "t",
+    "r",
+    "s"
+   ],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "tris",
+   "stem_skeleton": [
+    "t",
+    "r",
+    "s"
+   ],
+   "fan_count": 84,
+   "candidates": [
+    {
+     "candidate": "ترس",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ترش",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ترص",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ترز",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلس",
+     "position": 5,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلش",
+     "position": 6,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلص",
+     "position": 7,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلز",
+     "position": 8,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرس",
+     "position": 9,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرش",
+     "position": 10,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرص",
+     "position": 11,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرز",
+     "position": 12,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلس",
+     "position": 13,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلش",
+     "position": 14,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلص",
+     "position": 15,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلز",
+     "position": 16,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثرس",
+     "position": 17,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثرش",
+     "position": 18,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثرص",
+     "position": 19,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثرز",
+     "position": 20,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلس",
+     "position": 21,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلش",
+     "position": 22,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلص",
+     "position": 23,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلز",
+     "position": 24,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تر",
+     "position": 25,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "الابتعاد بقوة مع دقة",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تل",
+     "position": 26,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "التكديس والاتباع",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طر",
+     "position": 27,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "الامتداد مع الرقة أو التتابع",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طل",
+     "position": 28,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "الامتداد الظاهر من أصل",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثر",
+     "position": 29,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "نفاذ المائع وما يشبهه بغزارة وانتشار",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثل",
+     "position": 30,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "تجمع الدقائق وتماسكها",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ترر",
+     "position": 31,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "طفر الشيء الدقيق مبتعدًا عن مقره - أومنفصلا عنه - باندفاع",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تور",
+     "position": 32,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تير",
+     "position": 33,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "دور الشيء راجعًا إلى ما فارقه أو تردده عليه بخفة",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تار",
+     "position": 34,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ترو",
+     "position": 35,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تري",
+     "position": 36,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ترا",
+     "position": 37,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وتر",
+     "position": 38,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "تجرد الشيء مما يحيط به، أو انكشاف هذا؛ عنه فيبقى دقيقًا ممتدًا بين جاذبين",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يتر",
+     "position": 39,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلل",
+     "position": 40,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "تكديس بالضغط إلى أسفل حتى يصير الشيء جثا رابيا متماسكا",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تول",
+     "position": 41,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تيل",
+     "position": 42,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تال",
+     "position": 43,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلو",
+     "position": 44,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "اتباع الشيء ما يسبقه لحوقًا به من خلفه",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلي",
+     "position": 45,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "اتباع الشيء ما يسبقه لحوقًا به من خلفه",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلا",
+     "position": 46,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وتل",
+     "position": 47,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يتل",
+     "position": 48,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرر",
+     "position": 49,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "امتداد جرم الشيء مستدقًا مع رقة ما",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طور",
+     "position": 50,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "الامتداد حول الشيء أو بإزائه",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طير",
+     "position": 51,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "انتشار الشيء من مقره مرتفعًا في الهواء بخفة",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طار",
+     "position": 52,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرو",
+     "position": 53,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "غضاضة ولين مع تخلخل في الشيء المتجمع",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طري",
+     "position": 54,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرا",
+     "position": 55,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وطر",
+     "position": 56,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "حاجة أو رغبة محدودة في شيء ما",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يطر",
+     "position": 57,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلل",
+     "position": 58,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "إشراف الشيء مع لطف وملازمة أو امتداد لمخالطة ما هو دونه",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طول",
+     "position": 59,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "تمدد الشيء أو امتداده متماسكًا",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طيل",
+     "position": 60,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طال",
+     "position": 61,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلو",
+     "position": 62,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلي",
+     "position": 63,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلا",
+     "position": 64,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وطل",
+     "position": 65,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يطل",
+     "position": 66,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثرر",
+     "position": 67,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "غزارة المائع المنبثق أو الخارج من شيء",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثور",
+     "position": 68,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "انتشار (حاد) كامن في عمق الشيء إلى حيث يرى في ظاهره",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثير",
+     "position": 69,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثار",
+     "position": 70,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثرو",
+     "position": 71,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثري",
+     "position": 72,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثرا",
+     "position": 73,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وثر",
+     "position": 74,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يثر",
+     "position": 75,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلل",
+     "position": 76,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "تجمع من دقاق متنوعة تتناشب وتتميز أو تنفصل من أصلها",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثول",
+     "position": 77,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثيل",
+     "position": 78,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثال",
+     "position": 79,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلو",
+     "position": 80,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلي",
+     "position": 81,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلا",
+     "position": 82,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وثل",
+     "position": 83,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يثل",
+     "position": 84,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "إدريس",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "ثلاثي؛ مثلث",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "إدريس"
+  },
+  {
+   "row_id": "extended-egyptian:2704",
+   "ordinal": 2704,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 195,
+   "tongue": "latin",
+   "foreign": "Tripolis",
+   "foreign_sense": "مدينة طرابلس",
+   "author_root": "طرابلس",
+   "comparison_root": "طرابلس",
+   "author_root_position": null,
+   "arabic_gloss": "استشهد بصورة «أطرابلس» العربية من Tripolis لإسباق الألف قبل الساكن.",
+   "proper_name": false,
+   "script": "latin",
+   "raw_skeleton": [
+    "t",
+    "r",
+    "p",
+    "l",
+    "s"
+   ],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "Tripolis",
+   "stem_skeleton": [
+    "t",
+    "r",
+    "p",
+    "l",
+    "s"
+   ],
+   "fan_count": 24,
+   "candidates": [
+    {
+     "candidate": "تربل",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تربر",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ترفل",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ترفر",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلبل",
+     "position": 5,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلبر",
+     "position": 6,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلفل",
+     "position": 7,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تلفر",
+     "position": 8,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طربل",
+     "position": 9,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طربر",
+     "position": 10,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرفل",
+     "position": 11,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرفر",
+     "position": 12,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلبل",
+     "position": 13,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلبر",
+     "position": 14,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلفل",
+     "position": 15,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طلفر",
+     "position": 16,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثربل",
+     "position": 17,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثربر",
+     "position": 18,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثرفل",
+     "position": 19,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثرفر",
+     "position": 20,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلبل",
+     "position": 21,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلبر",
+     "position": 22,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلفل",
+     "position": 23,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ثلفر",
+     "position": 24,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طرابلس",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "مدينة طرابلس",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "طرابلس"
+  },
+  {
+   "row_id": "extended-egyptian:2705",
+   "ordinal": 2705,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 195,
+   "tongue": "greek",
+   "foreign": "Platon",
+   "foreign_sense": "أفلاطون",
+   "author_root": "فلاطون",
+   "comparison_root": "فلاطون",
+   "author_root_position": null,
+   "arabic_gloss": "استشهد بتحول Platon إلى «أفلاطون» بإسباق الألف.",
+   "proper_name": false,
+   "script": "latin",
+   "raw_skeleton": [
+    "p",
+    "l",
+    "t",
+    "n"
+   ],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "Platon",
+   "stem_skeleton": [
+    "p",
+    "l",
+    "t",
+    "n"
+   ],
+   "fan_count": 24,
+   "candidates": [
+    {
+     "candidate": "بلتن",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "بلطن",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "بلثن",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "برتن",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "برطن",
+     "position": 5,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "برثن",
+     "position": 6,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فلتن",
+     "position": 7,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فلطن",
+     "position": 8,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فلثن",
+     "position": 9,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فرتن",
+     "position": 10,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فرطن",
+     "position": 11,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فرثن",
+     "position": 12,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "بلت",
+     "position": 13,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "بلط",
+     "position": 14,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "بلث",
+     "position": 15,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "برت",
+     "position": 16,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "برط",
+     "position": 17,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "برث",
+     "position": 18,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فلت",
+     "position": 19,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فلط",
+     "position": 20,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فلث",
+     "position": 21,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فرت",
+     "position": 22,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "خُلوص الماء من الملح مع صفائه من الكدورة",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فرط",
+     "position": 23,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "اندفاع بعض الشيء متقدمًا - أو مبتعدًا - من عُظْمِه بقوة",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فرث",
+     "position": 24,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "فلاطون",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفلاطون",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "فلاطون"
+  },
+  {
+   "row_id": "extended-egyptian:2706",
+   "ordinal": 2706,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "egyptian",
+   "foreign": "itm",
+   "foreign_sense": "الشمس عند الغروب؛ الإله الكامل",
+   "author_root": "تم",
+   "comparison_root": "تم",
+   "author_root_position": null,
+   "arabic_gloss": "قابل الاسم المصري الدال على الإله الكامل بالعربية «تام/التام».",
+   "proper_name": true,
+   "script": "egyptian",
+   "raw_skeleton": [
+    "i",
+    "t",
+    "m"
+   ],
+   "buggy_raw_skeleton": [
+    "i",
+    "t",
+    "m"
+   ],
+   "case_head_restored": false,
+   "stem": "itm",
+   "stem_skeleton": [
+    "i",
+    "t",
+    "m"
+   ],
+   "fan_count": 4,
+   "candidates": [
+    {
+     "candidate": "يتم",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": "انفراد الشيء عن مجانسه مستقلًا بذاته",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": "الإله الكامل قائم مستقل بذاته، وحدث `يتم` انفراد الشيء مستقلًا؛ والعلم خارج بسط العد.",
+     "degree": "ROOT-TRACE",
+     "positive": true,
+     "state": "ROOT-TRACE"
+    },
+    {
+     "candidate": "يطم",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ءتم",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ءطم",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تم",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 3 في الفرع و2 في المرشح"
+     ],
+     "event": "التميز الشيء مستقلا",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "ROOT-TRACE",
+   "verdict": "ROOT-TRACE",
+   "positive_root": "يتم",
+   "human_orbit": "الإله الكامل قائم مستقل بذاته، وحدث `يتم` انفراد الشيء مستقلًا؛ والعلم خارج بسط العد.",
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "تم"
+  },
+  {
+   "row_id": "extended-egyptian:2707",
+   "ordinal": 2707,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "egyptian",
+   "foreign": "إتم",
+   "foreign_sense": "الشمس عند الغروب؛ الإله الكامل",
+   "author_root": "تم",
+   "comparison_root": "تم",
+   "author_root_position": null,
+   "arabic_gloss": "قابل الاسم المصري الدال على الإله الكامل بالعربية «تام/التام».",
+   "proper_name": true,
+   "script": "egyptian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "إتم",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "تم",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 0 في الفرع و2 في المرشح"
+     ],
+     "event": "التميز الشيء مستقلا",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "تم"
+  },
+  {
+   "row_id": "extended-egyptian:2708",
+   "ordinal": 2708,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "egyptian",
+   "foreign": "tm",
+   "foreign_sense": "الشمس عند الغروب؛ الإله الكامل",
+   "author_root": "تم",
+   "comparison_root": "تم",
+   "author_root_position": 1,
+   "arabic_gloss": "قابل الاسم المصري الدال على الإله الكامل بالعربية «تام/التام».",
+   "proper_name": true,
+   "script": "egyptian",
+   "raw_skeleton": [
+    "t",
+    "m"
+   ],
+   "buggy_raw_skeleton": [
+    "t",
+    "m"
+   ],
+   "case_head_restored": false,
+   "stem": "tm",
+   "stem_skeleton": [
+    "t",
+    "m"
+   ],
+   "fan_count": 20,
+   "candidates": [
+    {
+     "candidate": "تم",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": "التميز الشيء مستقلا",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": "وصف المعبود بالكامل يلتقي بتميز الشيء مستقلًا عند تمام حدّه في حدث `تم`؛ فالمدار حال الكمال، والبطاقة لعلم إلهي لا لمفردة معجمية عامة.",
+     "degree": "NUCLEUS-TRACE",
+     "positive": true,
+     "state": "NUCLEUS-TRACE"
+    },
+    {
+     "candidate": "طم",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": "الملء والتغطية حتى الإخفاء",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تمم",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "م↔م = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": "استيفاء جرم الشيء حجمه متميزًا عن غيره",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "توم",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تيم",
+     "position": 5,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تام",
+     "position": 6,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تمو",
+     "position": 7,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تمي",
+     "position": 8,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تما",
+     "position": 9,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وتم",
+     "position": 10,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يتم",
+     "position": 11,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": "انفراد الشيء عن مجانسه مستقلًا بذاته",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طمم",
+     "position": 12,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "م↔م = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": "ملء فجوة الشيء المفتوحة إلى أعلى بغليظ أو كثيف",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طوم",
+     "position": 13,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طيم",
+     "position": 14,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طام",
+     "position": 15,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طمو",
+     "position": 16,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طمي",
+     "position": 17,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طما",
+     "position": 18,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وطم",
+     "position": 19,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يطم",
+     "position": 20,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "NUCLEUS-TRACE",
+   "verdict": "NUCLEUS-TRACE",
+   "positive_root": "تم",
+   "human_orbit": "وصف المعبود بالكامل يلتقي بتميز الشيء مستقلًا عند تمام حدّه في حدث `تم`؛ فالمدار حال الكمال، والبطاقة لعلم إلهي لا لمفردة معجمية عامة.",
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "تم"
+  },
+  {
+   "row_id": "extended-egyptian:2709",
+   "ordinal": 2709,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "egyptian",
+   "foreign": "تم",
+   "foreign_sense": "الشمس عند الغروب؛ الإله الكامل",
+   "author_root": "تم",
+   "comparison_root": "تم",
+   "author_root_position": null,
+   "arabic_gloss": "قابل الاسم المصري الدال على الإله الكامل بالعربية «تام/التام».",
+   "proper_name": true,
+   "script": "egyptian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "تم",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "تم",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 0 في الفرع و2 في المرشح"
+     ],
+     "event": "التميز الشيء مستقلا",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "تم"
+  },
+  {
+   "row_id": "extended-egyptian:2710",
+   "ordinal": 2710,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "egyptian",
+   "foreign": "tmu",
+   "foreign_sense": "الشمس عند الغروب؛ الإله الكامل",
+   "author_root": "تم",
+   "comparison_root": "تم",
+   "author_root_position": null,
+   "arabic_gloss": "قابل الاسم المصري الدال على الإله الكامل بالعربية «تام/التام».",
+   "proper_name": true,
+   "script": "egyptian",
+   "raw_skeleton": [
+    "t",
+    "m",
+    "u"
+   ],
+   "buggy_raw_skeleton": [
+    "t",
+    "m"
+   ],
+   "case_head_restored": false,
+   "stem": "tmu",
+   "stem_skeleton": [
+    "t",
+    "m",
+    "u"
+   ],
+   "fan_count": 2,
+   "candidates": [
+    {
+     "candidate": "تمو",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طمو",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تم",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 3 في الفرع و2 في المرشح"
+     ],
+     "event": "التميز الشيء مستقلا",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "تم"
+  },
+  {
+   "row_id": "extended-egyptian:2711",
+   "ordinal": 2711,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "egyptian",
+   "foreign": "تمو",
+   "foreign_sense": "الشمس عند الغروب؛ الإله الكامل",
+   "author_root": "تم",
+   "comparison_root": "تم",
+   "author_root_position": null,
+   "arabic_gloss": "قابل الاسم المصري الدال على الإله الكامل بالعربية «تام/التام».",
+   "proper_name": true,
+   "script": "egyptian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "تمو",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "تم",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 0 في الفرع و2 في المرشح"
+     ],
+     "event": "التميز الشيء مستقلا",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "تم"
+  },
+  {
+   "row_id": "extended-egyptian:2712",
+   "ordinal": 2712,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "egyptian",
+   "foreign": "idm",
+   "foreign_sense": "الشمس عند الغروب؛ الإله الكامل",
+   "author_root": "تم",
+   "comparison_root": "تم",
+   "author_root_position": null,
+   "arabic_gloss": "قابل الاسم المصري الدال على الإله الكامل بالعربية «تام/التام».",
+   "proper_name": true,
+   "script": "egyptian",
+   "raw_skeleton": [
+    "i",
+    "d",
+    "m"
+   ],
+   "buggy_raw_skeleton": [
+    "i",
+    "d",
+    "m"
+   ],
+   "case_head_restored": false,
+   "stem": "idm",
+   "stem_skeleton": [
+    "i",
+    "d",
+    "m"
+   ],
+   "fan_count": 4,
+   "candidates": [
+    {
+     "candidate": "يدم",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "d↔د = `IDN-09` (بحث: `d` + `د` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يضم",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "d↔ض = `DENT-06` (بحث: `d` + `ض` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ءدم",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔د = `IDN-09` (بحث: `d` + `د` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ءضم",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔ض = `DENT-06` (بحث: `d` + `ض` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "تم",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 3 في الفرع و2 في المرشح"
+     ],
+     "event": "التميز الشيء مستقلا",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "تم"
+  },
+  {
+   "row_id": "extended-egyptian:2713",
+   "ordinal": 2713,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "egyptian",
+   "foreign": "إدم",
+   "foreign_sense": "الشمس عند الغروب؛ الإله الكامل",
+   "author_root": "تم",
+   "comparison_root": "تم",
+   "author_root_position": null,
+   "arabic_gloss": "قابل الاسم المصري الدال على الإله الكامل بالعربية «تام/التام».",
+   "proper_name": true,
+   "script": "egyptian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "إدم",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "تم",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 0 في الفرع و2 في المرشح"
+     ],
+     "event": "التميز الشيء مستقلا",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "الشمس عند الغروب؛ الإله الكامل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "تم"
+  },
+  {
+   "row_id": "extended-egyptian:2714",
+   "ordinal": 2714,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "nabataean",
+   "foreign": "tum",
+   "foreign_sense": "القرين",
+   "author_root": "توأم",
+   "comparison_root": "توأم",
+   "author_root_position": null,
+   "arabic_gloss": "كافأ «التوم» النبطية بالعربية «توأم».",
+   "proper_name": false,
+   "script": "akkadian",
+   "raw_skeleton": [
+    "t"
+   ],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "tum",
+   "stem_skeleton": [
+    "t"
+   ],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "توأم",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "القرين",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "توأم"
+  },
+  {
+   "row_id": "extended-egyptian:2715",
+   "ordinal": 2715,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 205,
+   "tongue": "nabataean",
+   "foreign": "التوم",
+   "foreign_sense": "القرين",
+   "author_root": "توأم",
+   "comparison_root": "توأم",
+   "author_root_position": null,
+   "arabic_gloss": "كافأ «التوم» النبطية بالعربية «توأم».",
+   "proper_name": false,
+   "script": "akkadian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "التوم",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "توأم",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "القرين",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "توأم"
+  },
+  {
+   "row_id": "extended-egyptian:2716",
+   "ordinal": 2716,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 221,
+   "tongue": "egyptian",
+   "foreign": "djt",
+   "foreign_sense": "أفعى كوبرا",
+   "author_root": "طوط",
+   "comparison_root": "طوط",
+   "author_root_position": null,
+   "arabic_gloss": "قابل صوت الرمز في كلمة الأفعى بالعربية «طوط»: ثعبان طويل.",
+   "proper_name": false,
+   "script": "egyptian",
+   "raw_skeleton": [
+    "d",
+    "j",
+    "t"
+   ],
+   "buggy_raw_skeleton": [
+    "d",
+    "j",
+    "t"
+   ],
+   "case_head_restored": false,
+   "stem": "djt",
+   "stem_skeleton": [
+    "d",
+    "j",
+    "t"
+   ],
+   "fan_count": 8,
+   "candidates": [
+    {
+     "candidate": "ديت",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔د = `IDN-09` (بحث: `d` + `د` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "j↔ي (بحث: `j` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ديط",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔د = `IDN-09` (بحث: `d` + `د` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "j↔ي (بحث: `j` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "دءت",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔د = `IDN-09` (بحث: `d` + `د` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "j↔ء (بحث: `j` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "دءط",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔د = `IDN-09` (بحث: `d` + `د` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "j↔ء (بحث: `j` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ضيت",
+     "position": 5,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔ض = `DENT-06` (بحث: `d` + `ض` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "j↔ي (بحث: `j` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ضيط",
+     "position": 6,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔ض = `DENT-06` (بحث: `d` + `ض` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "j↔ي (بحث: `j` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ضءت",
+     "position": 7,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔ض = `DENT-06` (بحث: `d` + `ض` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "j↔ء (بحث: `j` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ضءط",
+     "position": 8,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "d↔ض = `DENT-06` (بحث: `d` + `ض` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "j↔ء (بحث: `j` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "طوط",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "d↔ط (بحث: `d` + `ط` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+      "j↔و (بحث: `j` + `و` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "طوط"
+  },
+  {
+   "row_id": "extended-egyptian:2717",
+   "ordinal": 2717,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 221,
+   "tongue": "egyptian",
+   "foreign": "ذت",
+   "foreign_sense": "أفعى كوبرا",
+   "author_root": "طوط",
+   "comparison_root": "طوط",
+   "author_root_position": null,
+   "arabic_gloss": "قابل صوت الرمز في كلمة الأفعى بالعربية «طوط»: ثعبان طويل.",
+   "proper_name": false,
+   "script": "egyptian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "ذت",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "طوط",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 0 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "أفعى كوبرا",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "طوط"
+  },
+  {
+   "row_id": "extended-egyptian:2718",
+   "ordinal": 2718,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 227,
+   "tongue": "egyptian",
+   "foreign": "s",
+   "foreign_sense": "رجل",
+   "author_root": "سي",
+   "comparison_root": "سي",
+   "author_root_position": null,
+   "arabic_gloss": "قارن المصرية «س/سي» للرجل بقول العربية المعاصرة «سي فلان».",
+   "proper_name": false,
+   "script": "egyptian",
+   "raw_skeleton": [
+    "s"
+   ],
+   "buggy_raw_skeleton": [
+    "s"
+   ],
+   "case_head_restored": false,
+   "stem": "s",
+   "stem_skeleton": [
+    "s"
+   ],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "سي",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 1 في الفرع و2 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "سي"
+  },
+  {
+   "row_id": "extended-egyptian:2719",
+   "ordinal": 2719,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 227,
+   "tongue": "egyptian",
+   "foreign": "si",
+   "foreign_sense": "رجل",
+   "author_root": "سي",
+   "comparison_root": "سي",
+   "author_root_position": 1,
+   "arabic_gloss": "قارن المصرية «س/سي» للرجل بقول العربية المعاصرة «سي فلان».",
+   "proper_name": false,
+   "script": "egyptian",
+   "raw_skeleton": [
+    "s",
+    "i"
+   ],
+   "buggy_raw_skeleton": [
+    "s",
+    "i"
+   ],
+   "case_head_restored": false,
+   "stem": "si",
+   "stem_skeleton": [
+    "s",
+    "i"
+   ],
+   "fan_count": 54,
+   "candidates": [
+    {
+     "candidate": "سي",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سء",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شي",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شء",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صي",
+     "position": 5,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": "الاتصال والحيازة",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صء",
+     "position": 6,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سيي",
+     "position": 7,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي↔ي = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سوي",
+     "position": 8,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ساي",
+     "position": 9,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سيو",
+     "position": 10,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سيا",
+     "position": 11,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وسي",
+     "position": 12,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يسي",
+     "position": 13,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سءء",
+     "position": 14,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ء↔ء = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سوء",
+     "position": 15,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سيء",
+     "position": 16,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ساء",
+     "position": 17,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سءو",
+     "position": 18,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سءي",
+     "position": 19,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سءا",
+     "position": 20,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وسء",
+     "position": 21,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يسء",
+     "position": 22,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شيي",
+     "position": 23,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي↔ي = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شوي",
+     "position": 24,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شاي",
+     "position": 25,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شيو",
+     "position": 26,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شيا",
+     "position": 27,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وشي",
+     "position": 28,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يشي",
+     "position": 29,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شءء",
+     "position": 30,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ء↔ء = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شوء",
+     "position": 31,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شيء",
+     "position": 32,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شاء",
+     "position": 33,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شءو",
+     "position": 34,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شءي",
+     "position": 35,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شءا",
+     "position": 36,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وشء",
+     "position": 37,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يشء",
+     "position": 38,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صيي",
+     "position": 39,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي↔ي = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صوي",
+     "position": 40,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صاي",
+     "position": 41,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صيو",
+     "position": 42,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صيا",
+     "position": 43,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وصي",
+     "position": 44,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يصي",
+     "position": 45,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 2 في الفرع و3 في المرشح"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صءء",
+     "position": 46,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ء↔ء = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صوء",
+     "position": 47,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صيء",
+     "position": 48,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صاء",
+     "position": 49,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صءو",
+     "position": 50,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صءي",
+     "position": 51,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صءا",
+     "position": 52,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وصء",
+     "position": 53,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يصء",
+     "position": 54,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [
+      "i↔ء (بحث: `i` + `ء` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "سي"
+  },
+  {
+   "row_id": "extended-egyptian:2720",
+   "ordinal": 2720,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 227,
+   "tongue": "egyptian",
+   "foreign": "st",
+   "foreign_sense": "امرأة",
+   "author_root": "ست",
+   "comparison_root": "ست",
+   "author_root_position": 1,
+   "arabic_gloss": "قارن المصرية «ست» للمرأة بقول العربية المعاصرة «الست فلانة».",
+   "proper_name": false,
+   "script": "egyptian",
+   "raw_skeleton": [
+    "s",
+    "t"
+   ],
+   "buggy_raw_skeleton": [
+    "s",
+    "t"
+   ],
+   "case_head_restored": false,
+   "stem": "st",
+   "stem_skeleton": [
+    "s",
+    "t"
+   ],
+   "fan_count": 60,
+   "candidates": [
+    {
+     "candidate": "ست",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": "التغطية والإخفاء",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سط",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": "الامتداد الدقيق مع الانتهاء بغلظ",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شت",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": "هو التفرق",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شط",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": "الامتداد بجانب أو الانقسام عنه",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صت",
+     "position": 5,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": "الصدم والطرق وما بمعناهما من الضغط الشديد",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صط",
+     "position": 6,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ستت",
+     "position": 7,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ت↔ت = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": "كثافة وامتداد",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سوت",
+     "position": 8,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سيت",
+     "position": 9,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سات",
+     "position": 10,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ستو",
+     "position": 11,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ستي",
+     "position": 12,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ستا",
+     "position": 13,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وست",
+     "position": 14,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يست",
+     "position": 15,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سطط",
+     "position": 16,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ط↔ط = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": "تمدّد الشيء دقيقا مع غلظ وتضخم في طرفه أو أعلاه",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سوط",
+     "position": 17,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": "غوص أو مخالطة غليظة من الممتد القوي المستدق في شيء",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سيط",
+     "position": 18,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ساط",
+     "position": 19,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سطو",
+     "position": 20,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": "الامتداد للتناول بقوة أو غلظ من جوف أو حيّز",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سطي",
+     "position": 21,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سطا",
+     "position": 22,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وسط",
+     "position": 23,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": "كون الشيء مكتنفًا من حواليه أو آخذًا منهما بالتساوي امتدادا أو قدرا",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يسط",
+     "position": 24,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شتت",
+     "position": 25,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ت↔ت = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": "تفرُّق أفراد الشيء بمسافة واضحة بين كلٍّ منها والآخر",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شوت",
+     "position": 26,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شيت",
+     "position": 27,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شات",
+     "position": 28,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شتو",
+     "position": 29,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": "الجَدْب - وهو جفاف وخلو من الخضرة والمرعى (ويلزمه التشتت)",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شتي",
+     "position": 30,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شتا",
+     "position": 31,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وشت",
+     "position": 32,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يشت",
+     "position": 33,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شطط",
+     "position": 34,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ط↔ط = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": "امتداد جانب إزاء مقابل له امتدادًا عظيمًا بارتفاع واستقامة نسبية",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شوط",
+     "position": 35,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شيط",
+     "position": 36,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شاط",
+     "position": 37,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شطو",
+     "position": 38,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شطي",
+     "position": 39,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "شطا",
+     "position": 40,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وشط",
+     "position": 41,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يشط",
+     "position": 42,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ش = `SIB-01` (بحث: `s` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صتت",
+     "position": 43,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ت↔ت = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": "وقع بحدة وغلظ على غير رخو",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صوت",
+     "position": 44,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": "امتداد الشيء قوياً مستقيماً لصدوره بضغط أو وقوع ضغط عليه",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صيت",
+     "position": 45,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صات",
+     "position": 46,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صتو",
+     "position": 47,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صتي",
+     "position": 48,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صتا",
+     "position": 49,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وصت",
+     "position": 50,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يصت",
+     "position": 51,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صطط",
+     "position": 52,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ط↔ط = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صوط",
+     "position": 53,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صيط",
+     "position": 54,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صاط",
+     "position": 55,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صطو",
+     "position": 56,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صطي",
+     "position": 57,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "صطا",
+     "position": 58,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ا = باب المعتل (حرف العلة العربي الأخير يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وصط",
+     "position": 59,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "و = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يصط",
+     "position": 60,
+     "origin": "مروحة الأداة",
+     "sound_ready": true,
+     "sound_rows": [
+      "s↔ص = `SIB-02` (بحث: `s` + `ص` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)",
+      "ي = باب المعتل (حرف العلة العربي الأول يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+     ],
+     "sound_misses": [],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "ست"
+  },
+  {
+   "row_id": "extended-egyptian:2721",
+   "ordinal": 2721,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 227,
+   "tongue": "egyptian",
+   "foreign": "ست",
+   "foreign_sense": "امرأة",
+   "author_root": "ست",
+   "comparison_root": "ست",
+   "author_root_position": null,
+   "arabic_gloss": "قارن المصرية «ست» للمرأة بقول العربية المعاصرة «الست فلانة».",
+   "proper_name": false,
+   "script": "egyptian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "ست",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "ست",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "عدد الصوامت 0 في الفرع و2 في المرشح"
+     ],
+     "event": "التغطية والإخفاء",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "امرأة",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "ست"
+  },
+  {
+   "row_id": "extended-egyptian:2722",
+   "ordinal": 2722,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 227,
+   "tongue": "akkadian",
+   "foreign": "sh",
+   "foreign_sense": "رجل؛ ذكر؛ موجود",
+   "author_root": "أيس",
+   "comparison_root": "أيس",
+   "author_root_position": null,
+   "arabic_gloss": "ردّ المعنى الأصلي إلى الوجود، وقارنه بالعربية «أيس»: وجود.",
+   "proper_name": false,
+   "script": "akkadian",
+   "raw_skeleton": [
+    "s",
+    "h"
+   ],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "sh",
+   "stem_skeleton": [
+    "s",
+    "h"
+   ],
+   "fan_count": 10,
+   "candidates": [
+    {
+     "candidate": "سه",
+     "position": 1,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "الفراغ المتخلل",
+     "event_source": "data/juthoor-core-levels.json",
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سهه",
+     "position": 2,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سوه",
+     "position": 3,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سيه",
+     "position": 4,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "ساه",
+     "position": 5,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سهو",
+     "position": 6,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": "فراغ نافذ بين أشياء، أو أثناء",
+     "event_source": "computational/data/layer_2_results_v2.jsonl",
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سهي",
+     "position": 7,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "سها",
+     "position": 8,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "وسه",
+     "position": 9,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "يسه",
+     "position": 10,
+     "origin": "مروحة الأداة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    },
+    {
+     "candidate": "أيس",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "أيس"
+  },
+  {
+   "row_id": "extended-egyptian:2723",
+   "ordinal": 2723,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 227,
+   "tongue": "akkadian",
+   "foreign": "ش",
+   "foreign_sense": "رجل؛ ذكر؛ موجود",
+   "author_root": "أيس",
+   "comparison_root": "أيس",
+   "author_root_position": null,
+   "arabic_gloss": "ردّ المعنى الأصلي إلى الوجود، وقارنه بالعربية «أيس»: وجود.",
+   "proper_name": false,
+   "script": "akkadian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "ش",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "أيس",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ ذكر؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "أيس"
+  },
+  {
+   "row_id": "extended-egyptian:2724",
+   "ordinal": 2724,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 227,
+   "tongue": "sabaic",
+   "foreign": "is",
+   "foreign_sense": "رجل؛ موجود",
+   "author_root": "أيس",
+   "comparison_root": "أيس",
+   "author_root_position": null,
+   "arabic_gloss": "ردّ المعنى الأصلي إلى الوجود، وقارنه بالعربية «أيس»: وجود.",
+   "proper_name": false,
+   "script": "akkadian",
+   "raw_skeleton": [
+    "s"
+   ],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "is",
+   "stem_skeleton": [
+    "s"
+   ],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "أيس",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "أيس"
+  },
+  {
+   "row_id": "extended-egyptian:2725",
+   "ordinal": 2725,
+   "batch": 10,
+   "book": "khashim-hieroglyphic",
+   "author": "علي فهمي خشيم",
+   "page": 227,
+   "tongue": "sabaic",
+   "foreign": "إس",
+   "foreign_sense": "رجل؛ موجود",
+   "author_root": "أيس",
+   "comparison_root": "أيس",
+   "author_root_position": null,
+   "arabic_gloss": "ردّ المعنى الأصلي إلى الوجود، وقارنه بالعربية «أيس»: وجود.",
+   "proper_name": false,
+   "script": "akkadian",
+   "raw_skeleton": [],
+   "buggy_raw_skeleton": [],
+   "case_head_restored": false,
+   "stem": "إس",
+   "stem_skeleton": [],
+   "fan_count": 0,
+   "candidates": [
+    {
+     "candidate": "أيس",
+     "position": null,
+     "origin": "مرشح المؤلف خارج المروحة",
+     "sound_ready": false,
+     "sound_rows": [],
+     "sound_misses": [
+      "الصف من لسان غير مصري داخل كتاب الهيروغليفية؛ لم يُنسب إليه مسار مصري"
+     ],
+     "event": null,
+     "event_source": null,
+     "branch_sense": "رجل؛ موجود",
+     "human_orbit": null,
+     "degree": null,
+     "positive": false,
+     "state": "OPEN-CANDIDATE"
+    }
+   ],
+   "closure": "OPEN-CANDIDATE",
+   "verdict": null,
+   "positive_root": null,
+   "human_orbit": null,
+   "lane": "disciplined-card",
+   "maqar_colloquial": null,
+   "classical_root": "أيس"
+  }
+ ],
+ "survival_rows": []
+}
