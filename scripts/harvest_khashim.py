@@ -313,6 +313,56 @@ def recover_latin_heads(rows: list[dict]) -> tuple[list[dict], dict[str, int]]:
     }
 
 
+
+# ------------------------------------------- «الأكّاديّةُ عربيّة» بعدَ مسحِها الجديد
+# **العطبُ الذي يُغلِقُه:** المسحُ القديمُ أسقطَ رأسَ المدخلِ في 242 صفًّا من 588
+# (41%)، فكانت ورقةُ الأذُنِ تعرضُ على المؤلّفِ معنًى بلا كلمةٍ يقرؤُها. والمسحُ
+# الجديدُ يُخرِجُ المدخلَ مشكولًا كاملًا:
+#
+#     بِرَاشُ : طَارَ .
+#     ع : فَرَشَ . ومنها فَرَاشَةٌ: حشرةٌ تطير... وأفرشَ: ارتفعَ وأقلعَ، أي طار.
+RX_AKK_ENTRY = re.compile(r"^\s*([ء-يًٌٍَُِّْـ][ء-يًٌٍَُِّْـ\s]{0,16}?)\s*[:：]\s*(.{2,90})$")
+
+
+def mine_akkadian_ocr(md: pathlib.Path) -> list[dict]:
+    lines = [clean(x) for x in md.read_text(encoding="utf-8").splitlines()]
+    pairs, seen = [], set()
+    for i, line in enumerate(lines):
+        m = RX_AR_LINE.match(line)
+        if not m:
+            continue
+        ar_side = clean(m.group(1))
+        rm = RX_ROOT.match(bare_ar(ar_side))
+        if not rm:
+            continue
+        root, gloss = rm.group(1), bare_ar(clean(ar_side))
+        foreign = foreign_sense = ""
+        for back in range(1, 4):
+            if i - back < 0:
+                break
+            prev = clean(lines[i - back])
+            if not prev or RX_AR_LINE.match(lines[i - back]):
+                continue
+            em = RX_AKK_ENTRY.match(prev)
+            if em and not any(n in prev for n in NOISE):
+                foreign = bare_ar(clean(em.group(1)))
+                foreign_sense = bare_ar(clean(em.group(2)))
+                break
+        if not foreign or len(root) < 2:
+            continue
+        key = (foreign, root)
+        if key in seen:
+            continue
+        seen.add(key)
+        pairs.append({
+            "tongue_ar": "الأكّاديّة", "tongue": "akkadian",
+            "foreign": foreign, "foreign_sense": foreign_sense,
+            "arabic_root": root, "arabic_gloss": gloss[:200],
+            "source": "ocr-akkadian",
+        })
+    return pairs
+
+
 OCR_BOOKS = {
     "ocr-latin": ("اللاتينيّة", "old-latin"),
 }
@@ -467,6 +517,11 @@ def main() -> int:
         got = mine_ocr(md, ar, key)
         rows.extend(got)
         print(f"  {folder:24}{len(got):>8}   (مسحٌ جديد)")
+    akk = STORE / "ocr-akkadian" / "full.md"
+    if akk.exists():
+        got = mine_akkadian_ocr(akk)
+        rows.extend(got)
+        print(f"  {'ocr-akkadian':24}{len(got):>8}   (مسحٌ جديد)")
     cop = STORE / "ocr-coptic" / "full.md"
     if cop.exists():
         got = mine_coptic(cop)
