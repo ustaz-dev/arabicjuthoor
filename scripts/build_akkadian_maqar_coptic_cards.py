@@ -288,12 +288,8 @@ def candidate_fan(language: str, word: str) -> tuple[list[str], list[str], str]:
 def manual_orbit(language: str, index: int, root: str) -> str:
     table = AKKADIAN_ORBITS if language == "akkadian" else COPTIC_ORBITS
     spec = table.get(index)
-    if not spec:
+    if not spec or spec[0] != root:
         return ""
-    if spec[0] != root:
-        raise SystemExit(
-            f"تغير مرشح المدار اليدوي في {language}/{index}: {spec[0]} ← {root}"
-        )
     return spec[1]
 
 
@@ -307,7 +303,11 @@ def evaluate_candidate(
 ) -> dict[str, Any]:
     sound, sound_rows, sound_misses, alignment = sound_audit(language, skeleton, root)
     event, degree, event_source = event_for(root)
-    orbit = manual_orbit(language, index, root) if root == source_root else ""
+    # المدار المكتوب يخص الزوج والمرشح الذي سمّاه القارئ، لا مرشح المصدر.
+    # قصره على ``source_root`` كان يجعل مقترح صاحب الكتاب يحتكر الحكم مع أن
+    # المروحة مثبتة قبله. تستدعي الدالة الجدول لكل مرشح؛ وما لم يكتب له مدار
+    # يبقى بلا رجل معنى، سواء وافق صاحب المصدر أم خالفه.
+    orbit = manual_orbit(language, index, root)
     meaning = bool(orbit)
     complete = bool(sound and event and meaning and not loan_marker)
     return {
@@ -644,7 +644,7 @@ def build(language: str, batch: int) -> dict[str, Any]:
         "rows": report_rows,
     }
     report.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=1),
+        unicodedata.normalize("NFC", json.dumps(payload, ensure_ascii=False, indent=1)),
         encoding="utf-8", newline="\n",
     )
     return {"report": report, **payload}
