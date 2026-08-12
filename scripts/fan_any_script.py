@@ -321,8 +321,13 @@ def skeleton(word: str, script: str | None = None) -> list[str]:
             if c in LATIN_FAN:
                 out.append(c)
             i += 1
-        # الإدغامُ في الكتابةِ لا يُضاعِفُ الصامتَ في الهيكل
-        return [c for i, c in enumerate(out) if i == 0 or c != out[i - 1]]
+        # **الإدغامُ يُقاسُ على الأصلِ لا على الهيكل.** كان الحذفُ يجري بعدَ
+        # طرحِ الصوائت، فيلتقي صامتانِ كانا مفصولَينِ بصائتٍ فيُدغَمانِ ظلمًا:
+        # `Dadanu` (ددان) تُقرَأُ `دن`، و`Yatribu` سليمةٌ لأنّ صوامتَها مختلفة.
+        # فلا يُحذَفُ إلّا ما كان مكرَّرًا **متلاصقًا في الكلمةِ نفسِها**.
+        doubled = {base[i] for i in range(len(base) - 1) if base[i] == base[i + 1]}
+        return [c for i, c in enumerate(out)
+                if i == 0 or c != out[i - 1] or c not in doubled]
 
     if script == "arabic-script":
         w = re.sub(r"[^ء-ي]", "", w)
@@ -343,6 +348,12 @@ def skeleton(word: str, script: str | None = None) -> list[str]:
         return out
 
     # الأكديّة: تُنزَعُ ميمةُ التنوينِ والصوائت
+    #
+    # **والحرفُ الكبيرُ يُصغَّرُ أوّلًا، وإلّا سقطَ أوّلُ حرفٍ من كلِّ عَلَم.** مفاتيحُ
+    # المروحةِ صغيرةٌ كلُّها، والأعلامُ تُكتَبُ بحرفٍ كبير، فكانت `Padakku` تُقرَأُ
+    # `دك` و`Ḫibrā` تُقرَأُ `بر` و`Yatribu` تُقرَأُ `ترب`. وقائمةُ نبونيد المسماريّةُ
+    # كشفَتْه: خمسةٌ من ستّةِ مواضعَ فيها فقدَت صدرَها قبلَ أن تدخلَ المروحة.
+    w = w.lower()
     w = AKKADIAN_MIMATION.sub("", w)
     out = []
     for c in w:
@@ -350,8 +361,13 @@ def skeleton(word: str, script: str | None = None) -> list[str]:
             continue
         if c in AKKADIAN_FAN:
             out.append(c)
-    # الإدغامُ في الرومنةِ لا يُضاعِفُ الصامت
-    return [c for i, c in enumerate(out) if i == 0 or c != out[i - 1]]
+    # **الإدغامُ يُقاسُ على الأصلِ لا على الهيكل.** كان الحذفُ يجري بعدَ
+    # طرحِ الصوائت، فيلتقي صامتانِ كانا مفصولَينِ بصائتٍ فيُدغَمانِ ظلمًا:
+    # `Dadanu` (ددان) تُقرَأُ `دن`، و`Yatribu` سليمةٌ لأنّ صوامتَها مختلفة.
+    # فلا يُحذَفُ إلّا ما كان مكرَّرًا **متلاصقًا في الكلمةِ نفسِها**.
+    doubled = {w[i] for i in range(len(w) - 1) if w[i] == w[i + 1]}
+    return [c for i, c in enumerate(out)
+            if i == 0 or c != out[i - 1] or c not in doubled]
 
 
 FANS = {
