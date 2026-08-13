@@ -101,9 +101,13 @@ def main() -> int:
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
+    before_build: set[str] = set()
+    after_build: set[str] = set()
     for attempt in (1, 2):
         before = tree_hash()
+        before_build = {ln[3:].strip().strip('"') for ln in changed_now()}
         build_all(args.build)
+        after_build = {ln[3:].strip().strip('"') for ln in changed_now()}
         after = tree_hash()
         if before == after or attempt == 2 or args.only:
             break
@@ -127,8 +131,11 @@ def main() -> int:
         # يبني المشتقّاتِ كلَّها ثمّ يودِعُ المسمّى وحدَه، فيبقى سجلُّ الاسترداد
         # وأخواتُه معادَ البناءِ خارجَ الإيداعِ فيبيتُ ويرفضُ التكاملُ النشر.
         # وقد سقطَت نشرتانِ بهذا في 2026-08-12.
-        derived = [ln[3:].strip().strip('"') for ln in changed_now()
-                   if ln[3:].strip().strip('"').startswith("data/")]
+        # **ولا تُحصَرُ المشتقّاتُ في `data/`.** كان الالتقاطُ مقصورًا عليها،
+        # وسجلُّ مساراتِ القرضِ في `04-cross-linguistic/recovery-loan-registry.md`
+        # فبقيَ خارجَ الإيداعِ وأسقطَ ثلاثَ نشراتٍ متتالية. فالمقياسُ الصحيحُ
+        # **ما تغيّرَ في أثناءِ البناءِ نفسِه** أيًّا كان موضعُه.
+        derived = sorted(after_build - before_build)
         paths = list(dict.fromkeys([*args.only, *derived]))
         git("reset", "-q")
         git("add", "--", *paths)
