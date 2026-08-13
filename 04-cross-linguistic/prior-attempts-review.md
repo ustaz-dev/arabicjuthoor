@@ -49,13 +49,13 @@
 
 ## ما حُصِدَ إلى الآن
 
-اتّسعَت قائمةُ الإنزالِ إلى **40 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF مباشرة،
+اتّسعَت قائمةُ الإنزالِ إلى **43 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF مباشرة،
 وحُفظت الذخيرةُ الخامُّ خارجَ git في `~/AI Projects/Resources/prior-art/`. وبعدَ
-الدمجِ بلغَ الفهرسُ **3257 زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
+الدمجِ بلغَ الفهرسُ **3662 زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
 الدمجِ في [ورقةِ الحصاد](exploration/prior-art-harvest.md)، والصفوفُ المهيكلةُ في
 `data/prior-art-pairs.json`.
 
-وحملَ **3133 صفًّا** رأسَ المدخلِ الأوربيَّ، أي **96.2%** من الفهرس. جرى ذلك
+وحملَ **3535 صفًّا** رأسَ المدخلِ الأوربيَّ، أي **96.5%** من الفهرس. جرى ذلك
 بتوسيعِ قارئِ الرأسِ ليأخذَ صيغَ `via Latin` و`from Arabic` و`is a compound of`
 معَ صيغِ الاشتقاقِ الأولى، معَ إبقاءِ الشرطِ أن يكونَ الرأسُ في أوّلِ السطر.
 وفُحِصت بالعينِ عيّنةٌ موزَّعةٌ من 20 صفًّا ذي رأس، فكانت كلُّها عناوينَ مداخلَ
@@ -68,17 +68,23 @@
 جُرِّبَ فأعادَ 403 أو 404 أو صفحةَ تحقّقٍ بدلَ PDF باقٍ باسمِه وسببِه في ورقةِ
 الحصاد، حتّى لا تُمحى الفجوةُ ولا يُعادَ اكتشافُها من الصفر.
 
+ثمّ استُردَّت من أرشيفِ مجلّةِ RJELAL الأصليِّ 3 أبحاثٍ أخرى: القطعُ والكسر،
+والحركةُ والفعل، والإدراكُ والحسّ. أضافت **405 أزواجٍ بعدَ الدمج**، ووُثِّقت
+مقابلَها طريقا JOELL وSciencePG اللذان أحالا إلى صورةِ أيقونةٍ أو أعادا ملفًّا
+من 31 بايتًا لا PDF. وبقيَ 15 بحثًا من قائمةِ 58 بلا
+نسخةٍ محليّةٍ صالحةٍ، لا تُملأ فجوتُها بالحدس.
+
 ## أينَ التقى الطريقان
 
 أضيفَ إلى كلِّ صفٍّ حقلُ `bridge_agrees`. سألَ الحقلُ جسرَنا عن ألفاظِ المعنى
 الإنجليزيِّ نفسِها: فإن ربطَها بالجذرِ نفسِه كتبَ `نعم`، وإن ربطَها بغيرِه سمّى
 ما عندَنا، وإن لم يجدْها كتبَ `لا مدخلَ عندنا`. **وافقَ الجسرُ الجذرَ نفسَه في
-1211 زوجًا**. وهذه موافقةٌ من ذخيرةٍ لم يمرَّ بها صاحبُ البحث، وليست بوّابةً
+1363 زوجًا**. وهذه موافقةٌ من ذخيرةٍ لم يمرَّ بها صاحبُ البحث، وليست بوّابةً
 تسقطُ غيرَ الموافق.
 
-وفي الحصادِ **1585 جذرًا عربيًّا متمايزًا**. قابلَها السكربتُ بالمقابلِ العربيِّ
+وفي الحصادِ **1728 جذرًا عربيًّا متمايزًا**. قابلَها السكربتُ بالمقابلِ العربيِّ
 المصرَّحِ به في بطاقاتِ `04-cross-linguistic/readings/` التي صدرَ فيها حكمٌ موجب،
-فوجدَ **261 جذرًا** قد وردت فعلًا في تلكَ البطاقات. فهذا موضعُ التقاءِ المسارِ
+فوجدَ **277 جذرًا** قد وردت فعلًا في تلكَ البطاقات. فهذا موضعُ التقاءِ المسارِ
 النازلِ من حقولِ المعنى عندَه بالمسارِ الصاعدِ من الجذورِ عندَنا.
 
 ## ما نفعلُه بها
@@ -158,10 +164,10 @@ question words, prepositions, the verb to be, numerals and affixes. Those fields
 are not ours, which is precisely why the corpus is worth harvesting. A harvester
 reads his fixed entry format and his declared transliteration, discards the
 Arabic script in his PDFs because its font encoding is broken, and strips the
-grammatical endings he writes in parentheses. Forty directly downloadable
-papers have yielded 3,257 merged pairs. The European entry head is present in
-3,133 rows. The independent English-Arabic bridge agrees on the same root in
-1,211 pairs, while 261 of the harvest's 1,585 distinct Arabic roots already occur
+grammatical endings he writes in parentheses. Forty-three directly downloadable
+papers have yielded 3,662 merged pairs. The European entry head is present in
+3,535 rows. The independent English-Arabic bridge agrees on the same root in
+1,363 pairs, while 277 of the harvest's 1,728 distinct Arabic roots already occur
 in reading cards carrying an issued positive result. Ali Fahmi Khashim's newly
 downloaded *Journey of Words II* and *Gods of Arabic Egypt II*, together with a
 nine-author symposium on ancient Arabic-related tongues, added 250 attributed

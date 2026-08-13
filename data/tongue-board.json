@@ -5,9 +5,9 @@
  "opened": 16,
  "answered": 16,
  "totals": {
-  "links": 3190,
+  "links": 3222,
   "arabic_roots": 754,
-  "branch_words": 2048
+  "branch_words": 2076
  },
  "families": [
   {
@@ -16,8 +16,8 @@
    "en": "The near Semitic sisters",
    "note_ar": "أقرَبُ ما إلى العَرَبِيّة، فتَرُدُّ الجَذرَ الثُّلاثِيَّ نَفسَه",
    "note_en": "The nearest kin, so they return the triliteral root itself",
-   "links": 2396,
-   "nucleus_share": 31.4,
+   "links": 2428,
+   "nucleus_share": 31.2,
    "arabic_roots": 503,
    "tongues": [
     {
@@ -69,13 +69,13 @@
      "script_ar": "مِسمارِيّة",
      "script_en": "cuneiform",
      "distance": 1,
-     "links": 202,
-     "root": 173,
-     "nucleus": 29,
+     "links": 234,
+     "root": 200,
+     "nucleus": 34,
      "floor": 0,
-     "nucleus_share": 14.4,
+     "nucleus_share": 14.5,
      "arabic_roots": 96,
-     "branch_words": 194,
+     "branch_words": 222,
      "answers": "root",
      "answers_ar": "يُجيبُ عندَ الجَذر",
      "answers_en": "answers at the root"
@@ -429,6 +429,26 @@
    "answers_en": "answers at the nucleus"
   },
   {
+   "key": "akkadian",
+   "ar": "الأكّادِيّة",
+   "en": "Akkadian",
+   "era_ar": "الألفُ الثّالِثةُ ق.م",
+   "era_en": "3rd millennium BC",
+   "script_ar": "مِسمارِيّة",
+   "script_en": "cuneiform",
+   "distance": 1,
+   "links": 234,
+   "root": 200,
+   "nucleus": 34,
+   "floor": 0,
+   "nucleus_share": 14.5,
+   "arabic_roots": 96,
+   "branch_words": 222,
+   "answers": "root",
+   "answers_ar": "يُجيبُ عندَ الجَذر",
+   "answers_en": "answers at the root"
+  },
+  {
    "key": "coptic",
    "ar": "القِبطِيّة",
    "en": "Coptic",
@@ -447,26 +467,6 @@
    "answers": "nucleus",
    "answers_ar": "يُجيبُ عندَ النَّواة",
    "answers_en": "answers at the nucleus"
-  },
-  {
-   "key": "akkadian",
-   "ar": "الأكّادِيّة",
-   "en": "Akkadian",
-   "era_ar": "الألفُ الثّالِثةُ ق.م",
-   "era_en": "3rd millennium BC",
-   "script_ar": "مِسمارِيّة",
-   "script_en": "cuneiform",
-   "distance": 1,
-   "links": 202,
-   "root": 173,
-   "nucleus": 29,
-   "floor": 0,
-   "nucleus_share": 14.4,
-   "arabic_roots": 96,
-   "branch_words": 194,
-   "answers": "root",
-   "answers_ar": "يُجيبُ عندَ الجَذر",
-   "answers_en": "answers at the root"
   },
   {
    "key": "old-latin",

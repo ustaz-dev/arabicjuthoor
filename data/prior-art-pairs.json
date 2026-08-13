@@ -20,6 +20,9 @@
   "jassem-2013-animal",
   "jassem-2013-speech-writing",
   "jassem-2013-time",
+  "jassem-2013-cutting-breaking",
+  "jassem-2013-movement-action",
+  "jassem-2013-perceptual-sensual",
   "jassem-2014-divine-theological",
   "jassem-2014-prepositions",
   "jassem-2014-mathematical",
@@ -62,6 +65,9 @@
   "jassem-2013-animal": "https://languageinindia.com/april2013/jassemanimaltermsfinal.pdf",
   "jassem-2013-speech-writing": "https://languageinindia.com/may2013/jassemtermsfinal2.pdf",
   "jassem-2013-time": "https://languageinindia.com/june2013/jassemtimetermsfinal.pdf",
+  "jassem-2013-cutting-breaking": "http://www.rjelal.com/RJELAL%201.2/RJELAL%201.2.%20pp%20155-168.pdf",
+  "jassem-2013-movement-action": "http://www.rjelal.com/RJELAL%20VOL.1.ISSUE.3/ZAIDAN%20ALI%20JASSEM%20187-202.pdf",
+  "jassem-2013-perceptual-sensual": "http://www.rjelal.com/RJELAL%20VOL.1.ISSUE.3/ZAIDAN%20ALI%20JASSEM%20213-224.pdf",
   "jassem-2014-divine-theological": "https://languageinindia.com/march2014/jassemtheologicalterms1.pdf",
   "jassem-2014-prepositions": "https://www.macrothink.org/journal/index.php/jsel/article/download/5056/4078",
   "jassem-2014-mathematical": "https://www.arcjournals.org/pdfs/ijsell/v2-i5/4.pdf",
@@ -169,19 +175,29 @@
    "reason": "ردّت المرآةُ 403"
   },
   {
+   "source": "jassem-2015-medical-catalog",
+   "url": "https://www.joell.in/vol-ii-issue-i-2015/",
+   "reason": "أثبتَ الفهرسُ البحثَ وصفحاتِه، لكن رابطَ التنزيلِ يحيلُ إلى صورةِ أيقونةٍ لا إلى PDF"
+  },
+  {
+   "source": "jassem-2015-legal-sciencepg",
+   "url": "https://article.sciencepublishinggroup.com/pdf/10.11648.j.ijalt.20150103.11",
+   "reason": "أعادَ المستضيفُ ملفًّا من 31 بايتًا يقول إنّ رمزَ التحقّق غيرُ صالح، لا PDF"
+  },
+  {
    "source": "jassem-2018-demonstratives-wrong-galley",
    "url": "https://journal.uinjkt.ac.id/index.php/arabiyat/article/download/8936/6230",
    "reason": "ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح"
   }
  ],
- "pairs": 3257,
+ "pairs": 3662,
  "stats": {
-  "papers_downloaded": 40,
-  "with_european_head": 3133,
-  "head_coverage": 0.9619,
-  "bridge_agrees": 1211,
-  "unique_roots": 1585,
-  "roots_in_positive_cards": 261
+  "papers_downloaded": 43,
+  "with_european_head": 3535,
+  "head_coverage": 0.9653,
+  "bridge_agrees": 1363,
+  "unique_roots": 1728,
+  "roots_in_positive_cards": 277
  },
  "rows": [
   {
@@ -267,9 +283,9 @@
   {
    "european": "",
    "arabic_root": "بصر",
-   "author_translit": "abSar",
-   "arabic_gloss": "to see",
-   "source": "jassem-2018-week-days",
+   "author_translit": "baSar",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual · jassem-2018-week-days",
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
@@ -277,7 +293,7 @@
    "arabic_root": "بقر",
    "author_translit": "baqara(t)",
    "arabic_gloss": "cow",
-   "source": "jassem-2013-animal",
+   "source": "jassem-2013-animal · jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -300,8 +316,8 @@
    "european": "",
    "arabic_root": "بن",
    "author_translit": "baien",
-   "arabic_gloss": "clear, plain; a plain",
-   "source": "jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names",
+   "arabic_gloss": "clear, plain",
+   "source": "jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names",
    "bridge_agrees": "جذرٌ آخر: بدو، بين، فصح، وضح"
   },
   {
@@ -325,7 +341,7 @@
    "arabic_root": "ثلث",
    "author_translit": "thalath",
    "arabic_gloss": "three",
-   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2018-week-days",
+   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2018-week-days",
    "bridge_agrees": "نعم"
   },
   {
@@ -501,7 +517,7 @@
    "arabic_root": "شرب",
    "author_translit": "shorb",
    "arabic_gloss": "drinking, I drink",
-   "source": "jassem-2013-water-sea",
+   "source": "jassem-2013-water-sea · jassem-2013-perceptual-sensual",
    "bridge_agrees": "نعم"
   },
   {
@@ -612,9 +628,9 @@
    "european": "",
    "arabic_root": "عر",
    "author_translit": "3air",
-   "arabic_gloss": "ear",
-   "source": "jassem-2017-harper-review",
-   "bridge_agrees": "جذرٌ آخر: ءذن، حرث، حلق، دوخ، رعي، زير، سدر، سرر، وغيرُها"
+   "arabic_gloss": "ear, hear",
+   "source": "jassem-2013-perceptual-sensual · jassem-2017-harper-review",
+   "bridge_agrees": "جذرٌ آخر: ءذن، سك، سمع، صوت، نصت"
   },
   {
    "european": "",
@@ -770,6 +786,14 @@
   },
   {
    "european": "",
+   "arabic_root": "قرب",
+   "author_translit": "qareeb",
+   "arabic_gloss": "near, approaching",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "",
    "arabic_root": "قرح",
    "author_translit": "aqra2",
    "arabic_gloss": "gray; white",
@@ -781,7 +805,7 @@
    "arabic_root": "قرط",
    "author_translit": "qeeraaT",
    "arabic_gloss": "1/4",
-   "source": "jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2017-myth-fallacy · jassem-2018-week-days",
+   "source": "jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2017-myth-fallacy · jassem-2018-week-days",
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
@@ -879,6 +903,14 @@
    "arabic_gloss": "write",
    "source": "jassem-2013-derivational · jassem-2013-back-consonants",
    "bridge_agrees": "جذرٌ آخر: ء، ءرخ، ءلف، حرر، حفظ، خبر، خط، دون، وغيرُها"
+  },
+  {
+   "european": "",
+   "arabic_root": "كد",
+   "author_translit": "kadd",
+   "arabic_gloss": "act, work",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "",
@@ -1146,6 +1178,14 @@
   },
   {
    "european": "",
+   "arabic_root": "ولق",
+   "author_translit": "walaq",
+   "arabic_gloss": "walk",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها"
+  },
+  {
+   "european": "",
    "arabic_root": "ون",
    "author_translit": "wain",
    "arabic_gloss": "wine",
@@ -1305,6 +1345,62 @@
    "bridge_agrees": "جذرٌ آخر: ءخو، ءشق، ءمم، الحوت، الغرب، القدس، ان، برق، وغيرُها"
   },
   {
+   "european": "Abrade",
+   "arabic_root": "برد",
+   "author_translit": "barada",
+   "arabic_gloss": "abrade",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءكل، جلخ، حك، سحج، قشط، كشط"
+  },
+  {
+   "european": "Abrade",
+   "arabic_root": "رمح",
+   "author_translit": "rum2",
+   "arabic_gloss": "arrow",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: جعب، حظو، دفع، رصف، زج، زع، زلم، سار، وغيرُها"
+  },
+  {
+   "european": "Abrade",
+   "arabic_root": "عن",
+   "author_translit": "3an",
+   "arabic_gloss": "on, about",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Abrade",
+   "arabic_root": "قرص",
+   "author_translit": "qurS",
+   "arabic_gloss": "arch",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: جسر، صدغ، عقد، فقر، قب، قبا، قنطر، قوس، وغيرُها"
+  },
+  {
+   "european": "Abrade",
+   "arabic_root": "قطم",
+   "author_translit": "qaTam",
+   "arabic_gloss": "to cut the top",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Abrade",
+   "arabic_root": "منجل",
+   "author_translit": "manjal",
+   "arabic_gloss": "sickle",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: جل، حصد، ذرق، نجل"
+  },
+  {
+   "european": "Abrade",
+   "arabic_root": "نجل",
+   "author_translit": "najal",
+   "arabic_gloss": "sickle",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Absorb",
    "arabic_root": "حت",
    "author_translit": "2atta",
@@ -1327,6 +1423,38 @@
    "arabic_gloss": "add",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: ابل، بهر، تبع، جمع، جمل، حرك، ذيل، رقم، وغيرُها"
+  },
+  {
+   "european": "Accelerate",
+   "arabic_root": "جز",
+   "author_translit": "jaaza",
+   "arabic_gloss": "exceed",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ثقل، خط، روق، سرف، شطط، طنب، عدو، علا، وغيرُها"
+  },
+  {
+   "european": "Accelerate",
+   "arabic_root": "جوز",
+   "author_translit": "jaawaza",
+   "arabic_gloss": "exceed",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ثقل، خط، روق، سرف، شطط، طنب، عدو، علا، وغيرُها"
+  },
+  {
+   "european": "Accelerate",
+   "arabic_root": "خش",
+   "author_translit": "khashsha",
+   "arabic_gloss": "enter",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءذن، بطن، تاق، جوف، حرم، دبب، دخل، دهم، وغيرُها"
+  },
+  {
+   "european": "Accelerate",
+   "arabic_root": "سرع",
+   "author_translit": "asra3a",
+   "arabic_gloss": "go fast, fast",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Accent",
@@ -1409,6 +1537,14 @@
    "bridge_agrees": "جذرٌ آخر: ربع"
   },
   {
+   "european": "Act",
+   "arabic_root": "كد",
+   "author_translit": "kadd",
+   "arabic_gloss": "work hard",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Add",
    "arabic_root": "حت",
    "author_translit": "2atta",
@@ -1463,6 +1599,14 @@
    "arabic_gloss": "cry",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: ءبب، ءل، ءن، ادي، بكا، بكي، بي، ثغا، وغيرُها"
+  },
+  {
+   "european": "Adventure",
+   "arabic_root": "نفذ",
+   "author_translit": "nafadha",
+   "arabic_gloss": "to penetrate, vent, window",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Advise",
@@ -1609,6 +1753,46 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Ail",
+   "arabic_root": "تلمظ",
+   "author_translit": "talammaDh",
+   "arabic_gloss": "move tongue with food",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: حص، شوك، طبق، طعم، نزل"
+  },
+  {
+   "european": "Ail",
+   "arabic_root": "حمص",
+   "author_translit": "2ummuS",
+   "arabic_gloss": "chick peas",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: رءل، صوص، فتا، فرج، فرخ، لوب، ليل، هار"
+  },
+  {
+   "european": "Ail",
+   "arabic_root": "عل",
+   "author_translit": "3ill(at)",
+   "arabic_gloss": "ailment, ill",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: دوي، مرض، وعك"
+  },
+  {
+   "european": "Ail",
+   "arabic_root": "لمظ",
+   "author_translit": "lamaDha",
+   "arabic_gloss": "move tongue with food",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: حص، شوك، طبق، طعم، نزل"
+  },
+  {
+   "european": "Ail",
+   "arabic_root": "نس",
+   "author_translit": "aanas",
+   "arabic_gloss": "amuse",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءنس، سلو، كيف، لهو"
+  },
+  {
    "european": "Air",
    "arabic_root": "ءلن",
    "author_translit": "'loan",
@@ -1679,6 +1863,46 @@
    "arabic_gloss": "talk enviously about",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: باه، شاع، غيب، قول، ميمة"
+  },
+  {
+   "european": "Alienate",
+   "arabic_root": "تشقل",
+   "author_translit": "tashaqqal",
+   "arabic_gloss": "ride",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءركب، ءل، بحر، ردف، ركب، سير، طغي، علط، وغيرُها"
+  },
+  {
+   "european": "Alienate",
+   "arabic_root": "شقل",
+   "author_translit": "shaqal(at)",
+   "arabic_gloss": "ride",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءركب، ءل، بحر، ردف، ركب، سير، طغي، علط، وغيرُها"
+  },
+  {
+   "european": "Alienate",
+   "arabic_root": "قرب",
+   "author_translit": "qareeb",
+   "arabic_gloss": "near",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Alienate",
+   "arabic_root": "مقترب",
+   "author_translit": "muqtarib",
+   "arabic_gloss": "near, nearer",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: دنو، قرب"
+  },
+  {
+   "european": "Alienate",
+   "arabic_root": "نء",
+   "author_translit": "naa'i",
+   "arabic_gloss": "far",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: بد، بعد، بلغ، جنب، حتي، حشو، خط، دوم، وغيرُها"
   },
   {
    "european": "Aliment",
@@ -2113,6 +2337,22 @@
    "bridge_agrees": "جذرٌ آخر: جب، حبن، سعد، غول، غيب، قرد، قلد، مون"
   },
   {
+   "european": "Appear",
+   "arabic_root": "ذن",
+   "author_translit": "udhun",
+   "arabic_gloss": "ear",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءذن، حرث، حلق، دوخ، رعي، زير، سدر، سرر، وغيرُها"
+  },
+  {
+   "european": "Appear",
+   "arabic_root": "عطس",
+   "author_translit": "3aTas",
+   "arabic_gloss": "sneeze",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Appetite",
    "arabic_root": "ءطيب",
    "author_translit": "'aTaayeb",
@@ -2369,6 +2609,38 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Arrive",
+   "arabic_root": "رح",
+   "author_translit": "raa2a",
+   "arabic_gloss": "leave",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
+  },
+  {
+   "european": "Arrive",
+   "arabic_root": "روح",
+   "author_translit": "rawaa2",
+   "arabic_gloss": "leave",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
+  },
+  {
+   "european": "Arrive",
+   "arabic_root": "صعد",
+   "author_translit": "Sa3ada",
+   "arabic_gloss": "ascend",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Arrive",
+   "arabic_root": "مصعد",
+   "author_translit": "maS3ad",
+   "arabic_gloss": "ascend",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: النواة، درج، رفع، رقي، سلق، سند، سنم، سوي، وغيرُها"
+  },
+  {
    "european": "Arrow",
    "arabic_root": "صر",
    "author_translit": "Soora(t)",
@@ -2481,6 +2753,14 @@
    "bridge_agrees": "جذرٌ آخر: عين، قفا"
   },
   {
+   "european": "Assault",
+   "arabic_root": "صل",
+   "author_translit": "Saula(t)",
+   "arabic_gloss": "assault, attack",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حمل، سطو، صول، هجم"
+  },
+  {
    "european": "Assert",
    "arabic_root": "صر",
    "author_translit": "aSarra",
@@ -2532,9 +2812,9 @@
    "european": "Attack",
    "arabic_root": "دك",
    "author_translit": "dakka",
-   "arabic_gloss": "hit",
-   "source": "jassem-2015-military",
-   "bridge_agrees": "جذرٌ آخر: بطش، جبل، جبه، جلد، جنب، جهر، جوف، حكم، وغيرُها"
+   "arabic_gloss": "attack, hit",
+   "source": "jassem-2013-movement-action · jassem-2015-military",
+   "bridge_agrees": "جذرٌ آخر: بطش، جهر"
   },
   {
    "european": "Attire",
@@ -2687,6 +2967,46 @@
    "arabic_gloss": "bird",
    "source": "jassem-2013-animal",
    "bridge_agrees": "جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها"
+  },
+  {
+   "european": "Avoid",
+   "arabic_root": "حد",
+   "author_translit": "2aada",
+   "arabic_gloss": "avoid",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: اكف، بعد، جفو، جنب، حذر، حرز، حرف، حشو، وغيرُها"
+  },
+  {
+   "european": "Away",
+   "arabic_root": "بنس",
+   "author_translit": "banas",
+   "arabic_gloss": "flee, escape",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حصص، فر، نفر، هرب"
+  },
+  {
+   "european": "Away",
+   "arabic_root": "دبر",
+   "author_translit": "dubur",
+   "arabic_gloss": "back, ride",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Away",
+   "arabic_root": "لقن",
+   "author_translit": "laqn",
+   "arabic_gloss": "big round dish",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ثني، صين"
+  },
+  {
+   "european": "Axe",
+   "arabic_root": "فءس",
+   "author_translit": "fa's",
+   "arabic_gloss": "axe",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Aye",
@@ -3185,6 +3505,22 @@
    "bridge_agrees": "جذرٌ آخر: ثور، حيو، خطم، داب، سبع، وحش"
   },
   {
+   "european": "Beat",
+   "arabic_root": "بضع",
+   "author_translit": "baDa3a",
+   "arabic_gloss": "to cut (the meat)",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: باك، طباهج، قدد، وشق"
+  },
+  {
+   "european": "Beat",
+   "arabic_root": "طب",
+   "author_translit": "Tabba",
+   "arabic_gloss": "beat",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءجن، بذذ، بض، جب، جم، حدج، حضر، خرق، وغيرُها"
+  },
+  {
    "european": "Beautiful",
    "arabic_root": "ءد",
    "author_translit": "'adda",
@@ -3367,6 +3703,14 @@
    "arabic_gloss": "female goat",
    "source": "jassem-2014-prepositions",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Behold",
+   "arabic_root": "لحظ",
+   "author_translit": "laa2aDh",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Belief",
@@ -3737,6 +4081,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Blunt",
+   "arabic_root": "برد",
+   "author_translit": "baarid",
+   "arabic_gloss": "of knives, not sharp; cold",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Boast",
    "arabic_root": "بجح",
    "author_translit": "baj2(at)",
@@ -3833,6 +4185,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Bore",
+   "arabic_root": "بحر",
+   "author_translit": "ba2ar",
+   "arabic_gloss": "to bore, to cut; sea",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Bound",
+   "arabic_root": "طنب",
+   "author_translit": "Tannab",
+   "arabic_gloss": "stand",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: برز، ثمل، رءي، ربط، رنح، زعزع، زلق، سجد، وغيرُها"
+  },
+  {
    "european": "Bow",
    "arabic_root": "قب",
    "author_translit": "qaab",
@@ -3919,6 +4287,22 @@
    "arabic_gloss": "break, open",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: حل، خرق، سرح، شجر، شقق، فضض، فطر، فقع، وغيرُها"
+  },
+  {
+   "european": "Break",
+   "arabic_root": "برش",
+   "author_translit": "barasha",
+   "arabic_gloss": "to scrape",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: حسر، حف، حك، حكك، خمش، سحج، قحط، قشط، وغيرُها"
+  },
+  {
+   "european": "Break",
+   "arabic_root": "بطش",
+   "author_translit": "baTasha",
+   "arabic_gloss": "beat, kill",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: فطس"
   },
   {
    "european": "Breath",
@@ -4039,6 +4423,22 @@
    "arabic_gloss": "child",
    "source": "jassem-2013-family",
    "bridge_agrees": "جذرٌ آخر: ءب، ءبو، ءم، ءمم، ءمي، ابن، الذي، النواة، وغيرُها"
+  },
+  {
+   "european": "Browse",
+   "arabic_root": "بصر",
+   "author_translit": "baSar",
+   "arabic_gloss": "sight",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Browse",
+   "arabic_root": "قرص",
+   "author_translit": "qaraS",
+   "arabic_gloss": "sting",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Bug",
@@ -4449,6 +4849,22 @@
    "bridge_agrees": "جذرٌ آخر: تل، جب، جبه، ركع، سجد، سيل، صدغ، طر، وغيرُها"
   },
   {
+   "european": "Capsize",
+   "arabic_root": "كب",
+   "author_translit": "kaba",
+   "arabic_gloss": "capsize",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: كبب"
+  },
+  {
+   "european": "Car",
+   "arabic_root": "جر",
+   "author_translit": "jarra",
+   "arabic_gloss": "draw, pull, drag; tractor",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Carpet",
    "arabic_root": "زرب",
    "author_translit": "zarabia(t)",
@@ -4497,6 +4913,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Carry",
+   "arabic_root": "قل",
+   "author_translit": "aqalla",
+   "arabic_gloss": "carry",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، ءدي، ءذن، ءنف، النواة، بردع، بشر، بوز، وغيرُها"
+  },
+  {
+   "european": "Cast",
+   "arabic_root": "قذف",
+   "author_translit": "qadhaf",
+   "arabic_gloss": "throw, cast",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Cast",
+   "arabic_root": "قرص",
+   "author_translit": "qurS(at)",
+   "arabic_gloss": "a rounded object; circle",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Cat",
    "arabic_root": "سن",
    "author_translit": "sin",
@@ -4511,6 +4951,14 @@
    "arabic_gloss": "cat",
    "source": "jassem-2013-animal",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Catch",
+   "arabic_root": "كمش",
+   "author_translit": "kamash",
+   "arabic_gloss": "catch",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءوب، خطء، دبق، درك، رءي، رعي، سجل، شبث، وغيرُها"
   },
   {
    "european": "Cauliflower",
@@ -4989,7 +5437,7 @@
    "arabic_root": "كل",
    "author_translit": "akal",
    "arabic_gloss": "eat",
-   "source": "jassem-2014-wining-dining",
+   "source": "jassem-2013-perceptual-sensual · jassem-2014-wining-dining",
    "bridge_agrees": "نعم"
   },
   {
@@ -5065,6 +5513,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Chisel",
+   "arabic_root": "جزل",
+   "author_translit": "jaazool",
+   "arabic_gloss": "cutter",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: برد"
+  },
+  {
    "european": "Chivalry",
    "arabic_root": "خل",
    "author_translit": "khail",
@@ -5095,6 +5551,22 @@
    "arabic_gloss": "slice, division",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: بد، برج، بردع، بعض، بيت، بين، جرب، جزء، وغيرُها"
+  },
+  {
+   "european": "Chop",
+   "arabic_root": "جب",
+   "author_translit": "jabba",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Chop",
+   "arabic_root": "غص",
+   "author_translit": "ghaSSa",
+   "arabic_gloss": "hoke",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Church",
@@ -5249,6 +5721,14 @@
    "bridge_agrees": "جذرٌ آخر: برثن، حفر، خلب، زبن، زمع، سلح، ظفر، قنب، وغيرُها"
   },
   {
+   "european": "Cleanse",
+   "arabic_root": "كنس",
+   "author_translit": "kan(n)as",
+   "arabic_gloss": "cleanse",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ترك، زكو، سوك، صف، نقو، نقي، هلك"
+  },
+  {
    "european": "Clement",
    "arabic_root": "حلم",
    "author_translit": "2aleem(at)",
@@ -5289,6 +5769,30 @@
    "bridge_agrees": "جذرٌ آخر: جدر، حدق، حف، رفق، سور، شمل، صعد، ضمن، وغيرُها"
   },
   {
+   "european": "Climb",
+   "arabic_root": "غلق",
+   "author_translit": "ghalq",
+   "arabic_gloss": "lock, close",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Climb",
+   "arabic_root": "قلب",
+   "author_translit": "qalaba",
+   "arabic_gloss": "turn over",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Clip",
+   "arabic_root": "كلب",
+   "author_translit": "kallab",
+   "arabic_gloss": "clip",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Cloak",
    "arabic_root": "قلق",
    "author_translit": "qaliq",
@@ -5321,6 +5825,14 @@
    "bridge_agrees": "جذرٌ آخر: خفف، صلي، طبل، ظفر، غطا، غلف، قب"
   },
   {
+   "european": "Club",
+   "arabic_root": "كلب",
+   "author_translit": "kilaab",
+   "arabic_gloss": "club",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: جمع، دستج، دسس، دق، صولج، ضرب، طرق، عجر، وغيرُها"
+  },
+  {
    "european": "Cluck",
    "arabic_root": "قد",
    "author_translit": "qaid",
@@ -5351,6 +5863,14 @@
    "arabic_gloss": "coagulate",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Coarse",
+   "arabic_root": "جرش",
+   "author_translit": "jarsh",
+   "arabic_gloss": "crushed",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: برغل، بعض، دك، رتم، سحق، طح، كسر، محق، وغيرُها"
   },
   {
    "european": "Coast",
@@ -5449,6 +5969,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Coil",
+   "arabic_root": "لك",
+   "author_translit": "lakka",
+   "arabic_gloss": "coil, encircle",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءزر، ابض، ثني، حاط، حف، حن، حوط، حوي، وغيرُها"
+  },
+  {
    "european": "Cold",
    "arabic_root": "جلد",
    "author_translit": "jaleed",
@@ -5470,6 +5998,22 @@
    "author_translit": "qilaada(t)",
    "arabic_gloss": "necklace",
    "source": "jassem-2016-fashion",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Collect",
+   "arabic_root": "لقط",
+   "author_translit": "laqaT",
+   "arabic_gloss": "collect",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: النواة، جبي، جلس، جمر، جمع، جني، جوق، حبش، وغيرُها"
+  },
+  {
+   "european": "Collect",
+   "arabic_root": "مع",
+   "author_translit": "ma3a",
+   "arabic_gloss": "together, com-",
+   "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -5530,10 +6074,18 @@
   },
   {
    "european": "Coma",
+   "arabic_root": "جمع",
+   "author_translit": "jamee3",
+   "arabic_gloss": "all",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Coma",
    "arabic_root": "غم",
-   "author_translit": "ghama",
-   "arabic_gloss": "coma",
-   "source": "jassem-2015-life-death",
+   "author_translit": "ghamia",
+   "arabic_gloss": "be in coma",
+   "source": "jassem-2013-perceptual-sensual · jassem-2015-life-death",
    "bridge_agrees": "جذرٌ آخر: غيب"
   },
   {
@@ -5551,6 +6103,38 @@
    "arabic_gloss": "together",
    "source": "jassem-2015-military",
    "bridge_agrees": "جذرٌ آخر: ء، ءسر، ءكل، ءلف، ءوي، ا، بال، بحث، وغيرُها"
+  },
+  {
+   "european": "Come",
+   "arabic_root": "جمل",
+   "author_translit": "jameel",
+   "arabic_gloss": "beautiful",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Come",
+   "arabic_root": "صرح",
+   "author_translit": "Sar2",
+   "arabic_gloss": "building",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Come",
+   "arabic_root": "فرق",
+   "author_translit": "faraqa",
+   "arabic_gloss": "divide",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Come",
+   "arabic_root": "قم",
+   "author_translit": "qaama",
+   "arabic_gloss": "rise, stand, come",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: نهض"
   },
   {
    "european": "Comely",
@@ -5713,6 +6297,14 @@
    "bridge_agrees": "جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها"
   },
   {
+   "european": "Concise",
+   "arabic_root": "عقد",
+   "author_translit": "3aqad",
+   "arabic_gloss": "tie, bend",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءسر، ءطر، ءود، النواة، ثني، جثم، حبس، حجن، وغيرُها"
+  },
+  {
    "european": "Condemn",
    "arabic_root": "جمهر",
    "author_translit": "jamhara",
@@ -5815,6 +6407,30 @@
    "arabic_gloss": "thank",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Conscious",
+   "arabic_root": "جمع",
+   "author_translit": "jamee3",
+   "arabic_gloss": "all",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Conscious",
+   "arabic_root": "صح",
+   "author_translit": "Saa2i",
+   "arabic_gloss": "awake",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Conscious",
+   "arabic_root": "طس",
+   "author_translit": "Tassa",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Conscious",
@@ -6225,6 +6841,38 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Crack",
+   "arabic_root": "خرق",
+   "author_translit": "kharq",
+   "arabic_gloss": "to crack",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Crash",
+   "arabic_root": "جرش",
+   "author_translit": "jarash",
+   "arabic_gloss": "to crush",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Crash",
+   "arabic_root": "خرص",
+   "author_translit": "khuraS",
+   "arabic_gloss": "short arrow",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: سدس"
+  },
+  {
+   "european": "Crawl",
+   "arabic_root": "رقل",
+   "author_translit": "arqala",
+   "arabic_gloss": "of camels, walk",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءبل، ءدم، ءيي، بختر، برغش، تلو، ثفر، جري، وغيرُها"
+  },
+  {
    "european": "Crawl",
    "arabic_root": "ركل",
    "author_translit": "rakal",
@@ -6325,7 +6973,7 @@
    "arabic_root": "حرب",
    "author_translit": "2arba",
    "arabic_gloss": "to creep",
-   "source": "jassem-2013-animal",
+   "source": "jassem-2013-animal · jassem-2013-movement-action",
    "bridge_agrees": "جذرٌ آخر: حبو، دب، دبب، دسس، زحف، سلل، عثر، فقس، وغيرُها"
   },
   {
@@ -6481,6 +7129,14 @@
    "bridge_agrees": "جذرٌ آخر: بء، بشر، شءم، شمل، طير، فرط، لمس، مين، وغيرُها"
   },
   {
+   "european": "Cruise",
+   "arabic_root": "كرج",
+   "author_translit": "karaja",
+   "arabic_gloss": "run, cruise",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءبد، ءبق، جرد، جري، جف، جفف، جمز، حصص، وغيرُها"
+  },
+  {
    "european": "Cry",
    "arabic_root": "قر",
    "author_translit": "qarr",
@@ -6609,12 +7265,36 @@
    "bridge_agrees": "جذرٌ آخر: ءحيا، ءذن، ءم، ءمن، ءنس، ار، تسل، حرب، وغيرُها"
   },
   {
+   "european": "Curve",
+   "arabic_root": "حرف",
+   "author_translit": "2araf",
+   "arabic_gloss": "curve; bend",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Cut",
+   "arabic_root": "قد",
+   "author_translit": "qadda",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
+  },
+  {
    "european": "Daffodil",
    "arabic_root": "سف",
    "author_translit": "saif",
    "arabic_gloss": "sword",
    "source": "jassem-2016-floral",
    "bridge_agrees": "جذرٌ آخر: بضع، ترس، حسا، حشش، خل، خنجر، ساف، سطم، وغيرُها"
+  },
+  {
+   "european": "Dagger",
+   "arabic_root": "طرق",
+   "author_translit": "Tiraaq",
+   "arabic_gloss": "dagger, sword iron",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: خنجر، سلاح"
   },
   {
    "european": "Dairy",
@@ -6671,6 +7351,22 @@
    "arabic_gloss": "dispraise, dispraised",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: ذمم، هجو"
+  },
+  {
+   "european": "Dance",
+   "arabic_root": "دعج",
+   "author_translit": "da3aj",
+   "arabic_gloss": "go quickly",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: تهم، جري، ردد، ركض، رمش، سرع، شطف، صوب، وغيرُها"
+  },
+  {
+   "european": "Dance",
+   "arabic_root": "نطز",
+   "author_translit": "naTaz",
+   "arabic_gloss": "go up and down",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءث، ءثر، ءلي، ءمر، ءنس، ءود، برك، بطح، وغيرُها"
   },
   {
    "european": "Date",
@@ -6865,6 +7561,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Decline",
+   "arabic_root": "تنزل",
+   "author_translit": "tanzeel",
+   "arabic_gloss": "go down",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءث، ءثر، ءلي، ءمر، ءنس، ءود، برك، بطح، وغيرُها"
+  },
+  {
+   "european": "Decline",
+   "arabic_root": "دلف",
+   "author_translit": "dalafa",
+   "arabic_gloss": "walk/come slowly",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Decline",
+   "arabic_root": "نزل",
+   "author_translit": "nazal",
+   "arabic_gloss": "go down",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Deer",
    "arabic_root": "طل",
    "author_translit": "Tili",
@@ -6991,6 +7711,14 @@
    "arabic_gloss": "reduction",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: تخس، حسم، خزل، خصم، خفض، رخص، صغر، نقص"
+  },
+  {
+   "european": "Depart",
+   "arabic_root": "دبر",
+   "author_translit": "adbara",
+   "arabic_gloss": "leave",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
   },
   {
    "european": "Design",
@@ -7153,6 +7881,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Dial",
+   "arabic_root": "در",
+   "author_translit": "daira(at)",
+   "arabic_gloss": "circle, dial",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: درج"
+  },
+  {
    "european": "Dialect",
    "arabic_root": "لهجت",
    "author_translit": "lahjat",
@@ -7246,6 +7982,14 @@
    "author_translit": "nafadh",
    "arabic_gloss": "penetrate",
    "source": "jassem-2015-military",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Dig",
+   "arabic_root": "دق",
+   "author_translit": "daqq",
+   "arabic_gloss": "dig; knock; to prick",
+   "source": "jassem-2013-cutting-breaking · jassem-2013-movement-action",
    "bridge_agrees": "نعم"
   },
   {
@@ -7434,10 +8178,26 @@
   },
   {
    "european": "Dissection",
+   "arabic_root": "تشق",
+   "author_translit": "tashaqqaq",
+   "arabic_gloss": "dissection, split",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: شرط"
+  },
+  {
+   "european": "Dissection",
    "arabic_root": "ست",
    "author_translit": "sitt(at)",
    "arabic_gloss": "six",
    "source": "jassem-2018-sex-derivatives",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Dissection",
+   "arabic_root": "شق",
+   "author_translit": "shaqq(at)",
+   "arabic_gloss": "dissection, split",
+   "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -7626,10 +8386,34 @@
   },
   {
    "european": "Divide",
+   "arabic_root": "در",
+   "author_translit": "daar",
+   "arabic_gloss": "turn around",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: دار، دلج، صفر، عرج، عكس، قلب، لف، لفت، وغيرُها"
+  },
+  {
+   "european": "Divide",
+   "arabic_root": "دورن",
+   "author_translit": "dawaraan",
+   "arabic_gloss": "turn around",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: دار، دلج، صفر، عرج، عكس، قلب، لف، لفت، وغيرُها"
+  },
+  {
+   "european": "Divide",
    "arabic_root": "فت",
    "author_translit": "fatta",
    "arabic_gloss": "divide, break",
    "source": "jassem-2014-mathematical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Divide",
+   "arabic_root": "قطم",
+   "author_translit": "qaTam",
+   "arabic_gloss": "cut (the top)",
+   "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -7670,6 +8454,22 @@
    "author_translit": "firaaq",
    "arabic_gloss": "divorce, separation, division",
    "source": "jassem-2013-family",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Dizzy",
+   "arabic_root": "دخ",
+   "author_translit": "daakh",
+   "arabic_gloss": "to feel dizzy",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءسف، ءم، ءمن، ءنس، برد، تاب، ترعب، تقي، وغيرُها"
+  },
+  {
+   "european": "Dizzy",
+   "arabic_root": "طعم",
+   "author_translit": "Ta3aam",
+   "arabic_gloss": "food, eat",
+   "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "نعم"
   },
   {
@@ -7780,9 +8580,9 @@
    "european": "Down",
    "arabic_root": "دن",
    "author_translit": "doon",
-   "arabic_gloss": "below, underneath, low, down",
-   "source": "jassem-2014-prepositions",
-   "bridge_agrees": "جذرٌ آخر: تحت"
+   "arabic_gloss": "down; lower",
+   "source": "jassem-2013-movement-action · jassem-2014-prepositions",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Doze",
@@ -7793,11 +8593,19 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Drag",
+   "arabic_root": "درج",
+   "author_translit": "daraja",
+   "arabic_gloss": "walk slowly",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: خفض، دب، دلف، عثر، هود"
+  },
+  {
    "european": "Draw",
    "arabic_root": "جر",
    "author_translit": "jarra",
    "arabic_gloss": "draw",
-   "source": "jassem-2013-speech-writing · jassem-2014-mathematical",
+   "source": "jassem-2013-speech-writing · jassem-2013-movement-action · jassem-2014-mathematical",
    "bridge_agrees": "نعم"
   },
   {
@@ -7829,7 +8637,7 @@
    "arabic_root": "طرقع",
    "author_translit": "Tarqa3",
    "arabic_gloss": "drink",
-   "source": "jassem-2013-water-sea · jassem-2014-wining-dining",
+   "source": "jassem-2013-water-sea · jassem-2013-perceptual-sensual · jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: ءسقي، بتع، برد، بلع، بير، ترق، ثمل، جرع، وغيرُها"
   },
   {
@@ -7847,6 +8655,38 @@
    "arabic_gloss": "drop",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "جذرٌ آخر: ءسلم، بعثر، تر، تل، حذف، خدر، خرر، خفض، وغيرُها"
+  },
+  {
+   "european": "Drive",
+   "arabic_root": "تنم",
+   "author_translit": "tanaama",
+   "arabic_gloss": "grow",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءمر، ءود، ءيك، اب، بء، بقل، بلي، بوظ، وغيرُها"
+  },
+  {
+   "european": "Drive",
+   "arabic_root": "دفر",
+   "author_translit": "dafara",
+   "arabic_gloss": "kick",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: خبط، رجب، رغب، رفس، ركب، ركل، ركن، شاط، وغيرُها"
+  },
+  {
+   "european": "Drive",
+   "arabic_root": "نم",
+   "author_translit": "nama",
+   "arabic_gloss": "grow",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءمر، ءود، ءيك، اب، بء، بقل، بلي، بوظ، وغيرُها"
+  },
+  {
+   "european": "Drive",
+   "arabic_root": "هرب",
+   "author_translit": "haraba",
+   "arabic_gloss": "to escape",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Drizzle",
@@ -8291,10 +9131,18 @@
   {
    "european": "Eat",
    "arabic_root": "عش",
-   "author_translit": "3asha",
-   "arabic_gloss": "eat",
-   "source": "jassem-2014-wining-dining",
+   "author_translit": "3ashsha",
+   "arabic_gloss": "food, eat",
+   "source": "jassem-2013-perceptual-sensual · jassem-2014-wining-dining",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Eat",
+   "arabic_root": "عشء",
+   "author_translit": "3ashaa'",
+   "arabic_gloss": "food, eat",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءكل، ثمل، رمرم، زءم، طاع، طعم، غذي، قصف، وغيرُها"
   },
   {
    "european": "Ecclesiastical",
@@ -8505,6 +9353,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Embark",
+   "arabic_root": "تمرق",
+   "author_translit": "tamarraq",
+   "arabic_gloss": "pass, walk away",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، تلش، جاز، جاع، جول، حول، ختف، دبر، وغيرُها"
+  },
+  {
+   "european": "Embark",
+   "arabic_root": "مرق",
+   "author_translit": "maraqa(t)",
+   "arabic_gloss": "pass, walk away",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Embrace",
+   "arabic_root": "رقب",
+   "author_translit": "raqaba(t)",
+   "arabic_gloss": "neck",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Embroidery",
    "arabic_root": "برد",
    "author_translit": "burda(t)",
@@ -8559,6 +9431,70 @@
    "arabic_gloss": "pledge, promise",
    "source": "jassem-2015-military",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Engrave",
+   "arabic_root": "جرد",
+   "author_translit": "jarada",
+   "arabic_gloss": "scrape, peel",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Engrave",
+   "arabic_root": "قرف",
+   "author_translit": "qaraf",
+   "arabic_gloss": "break",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: الجذر، النواة، ثبر، ثغر، ثقب، ثلم، ثور، جدر، وغيرُها"
+  },
+  {
+   "european": "Enter",
+   "arabic_root": "ثن",
+   "author_translit": "thanaia",
+   "arabic_gloss": "inside, within, through",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حتو، في"
+  },
+  {
+   "european": "Enter",
+   "arabic_root": "ثنء",
+   "author_translit": "athnaa'",
+   "arabic_gloss": "inside, within, through",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حتو، في"
+  },
+  {
+   "european": "Enter",
+   "arabic_root": "دن",
+   "author_translit": "udnu",
+   "arabic_gloss": "come near, enter",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءخر، ءني، ءون، حول، حين، دخل، دهم، سلل، وغيرُها"
+  },
+  {
+   "european": "Enter",
+   "arabic_root": "سو",
+   "author_translit": "sawi",
+   "arabic_gloss": "equal",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءخت، ءلف، بوص، بيض، بيع، تسع، تسعة، تن، وغيرُها"
+  },
+  {
+   "european": "Enter",
+   "arabic_root": "لتر",
+   "author_translit": "litr",
+   "arabic_gloss": "a litre",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Enter",
+   "arabic_root": "يسو",
+   "author_translit": "yusaawi",
+   "arabic_gloss": "equal",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءخت، ءلف، بوص، بيض، بيع، تسع، تسعة، تن، وغيرُها"
   },
   {
    "european": "Enthrall",
@@ -8633,6 +9569,22 @@
    "bridge_agrees": "جذرٌ آخر: بلور، خلص، روق، سلك، صرح، صفو، فسر، نور، وغيرُها"
   },
   {
+   "european": "Envy",
+   "arabic_root": "عن",
+   "author_translit": "3ain",
+   "arabic_gloss": "eye, envy",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: حسد، عين"
+  },
+  {
+   "european": "Envy",
+   "arabic_root": "معن",
+   "author_translit": "am3ana",
+   "arabic_gloss": "continue looking into",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Epitaph",
    "arabic_root": "جدث",
    "author_translit": "jadath",
@@ -8705,12 +9657,52 @@
    "bridge_agrees": "جذرٌ آخر: ءثر، ءمر، ءنس، ءول، اع، بب، بخر، برر، وغيرُها"
   },
   {
+   "european": "Escalate",
+   "arabic_root": "تسلق",
+   "author_translit": "tasallaq",
+   "arabic_gloss": "climb",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: رفع، رقي، زلق، سلق، سنم، شبط، صعد، ظهر، وغيرُها"
+  },
+  {
+   "european": "Escalate",
+   "arabic_root": "سلق",
+   "author_translit": "sallaqa",
+   "arabic_gloss": "climb",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Escape",
+   "arabic_root": "ذهب",
+   "author_translit": "dhahaba",
+   "arabic_gloss": "go",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Escape",
+   "arabic_root": "سع",
+   "author_translit": "sa3a",
+   "arabic_gloss": "try, work",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: سعي، كسب"
+  },
+  {
    "european": "Essence",
    "arabic_root": "يكن",
    "author_translit": "yakoon",
    "arabic_gloss": "to be",
    "source": "jassem-2015-life-death",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Evade",
+   "arabic_root": "لف",
+   "author_translit": "laffa",
+   "arabic_gloss": "turn, fold",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Even",
@@ -8937,6 +9929,14 @@
    "bridge_agrees": "جذرٌ آخر: ءكد، حق، درس، دري، طبع، طمءن، قنع، قين، وغيرُها"
   },
   {
+   "european": "Excavate",
+   "arabic_root": "كهف",
+   "author_translit": "kahf",
+   "arabic_gloss": "cave",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Except",
    "arabic_root": "دهر",
    "author_translit": "dahr",
@@ -8985,6 +9985,30 @@
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
+   "european": "Exile",
+   "arabic_root": "رح",
+   "author_translit": "raa2a",
+   "arabic_gloss": "go",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Exile",
+   "arabic_root": "قص",
+   "author_translit": "aqSa",
+   "arabic_gloss": "out, far",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: بعد، بلغ، سحق، طلب، طول، عال، عزب، قصو، وغيرُها"
+  },
+  {
+   "european": "Exile",
+   "arabic_root": "ول",
+   "author_translit": "walla",
+   "arabic_gloss": "go away",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءبد، ءبق، ءخذ، ءفك، ءفن، ءكل، ءلل، بت، وغيرُها"
+  },
+  {
    "european": "Existence",
    "arabic_root": "دخن",
    "author_translit": "dukhaan",
@@ -9031,6 +10055,30 @@
    "arabic_gloss": "to drum out; to hit with hands",
    "source": "jassem-2015-military",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Explode",
+   "arabic_root": "جر",
+   "author_translit": "jarra",
+   "arabic_gloss": "draw",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Explode",
+   "arabic_root": "فلق",
+   "author_translit": "falq(at)",
+   "arabic_gloss": "split",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Explode",
+   "arabic_root": "قص",
+   "author_translit": "aqSa",
+   "arabic_gloss": "far, out",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: بعد، بلغ، سحق، طلب، طول، عال، عزب، قصو، وغيرُها"
   },
   {
    "european": "Express",
@@ -9129,6 +10177,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Facilitate",
+   "arabic_root": "سهل",
+   "author_translit": "sahl",
+   "arabic_gloss": "easy, facilitate",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Faculty",
    "arabic_root": "فرز",
    "author_translit": "faariz",
@@ -9191,6 +10247,14 @@
    "arabic_gloss": "fall, set",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Fall",
+   "arabic_root": "فل",
+   "author_translit": "afala",
+   "arabic_gloss": "fall, set, disapper",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: حط، حقق"
   },
   {
    "european": "False",
@@ -9377,6 +10441,22 @@
    "bridge_agrees": "جذرٌ آخر: ثعلب، شعث، فرو"
   },
   {
+   "european": "Feel",
+   "arabic_root": "فل",
+   "author_translit": "full(at)",
+   "arabic_gloss": "flower, perfume",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: مرر"
+  },
+  {
+   "european": "Fell",
+   "arabic_root": "فلع",
+   "author_translit": "fala3",
+   "arabic_gloss": "fell, uproot",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءصل، جحف، جدر، جفء، خر، زرع، شتل، فلل، وغيرُها"
+  },
+  {
    "european": "Fellow",
    "arabic_root": "برق",
    "author_translit": "bairaq",
@@ -9521,6 +10601,30 @@
    "bridge_agrees": "جذرٌ آخر: ار، بحر، رس، رفء، سطح، ظهر، كنث، مين، وغيرُها"
   },
   {
+   "european": "File",
+   "arabic_root": "فل",
+   "author_translit": "falla",
+   "arabic_gloss": "file, cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
+  },
+  {
+   "european": "Fine",
+   "arabic_root": "فرم",
+   "author_translit": "faram",
+   "arabic_gloss": "mince",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Fine",
+   "arabic_root": "فصر",
+   "author_translit": "faSar",
+   "arabic_gloss": "roll out",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: صفح، صفق، طمر، فرد، قسم، نول"
+  },
+  {
    "european": "Fir",
    "arabic_root": "سر",
    "author_translit": "saroo",
@@ -9593,6 +10697,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Fit",
+   "arabic_root": "فخ",
+   "author_translit": "fakhkh",
+   "arabic_gloss": "snare, trap",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Fit",
+   "arabic_root": "فط",
+   "author_translit": "faTT",
+   "arabic_gloss": "jump, fit",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءدب، ءهل، اسب، جد، جدر، جزز، جلد، جمز، وغيرُها"
+  },
+  {
    "european": "Five",
    "arabic_root": "بن",
    "author_translit": "banan(at)",
@@ -9607,6 +10727,14 @@
    "arabic_gloss": "five",
    "source": "jassem-2012-numerals · jassem-2014-mathematical",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Flake",
+   "arabic_root": "فلق",
+   "author_translit": "falq",
+   "arabic_gloss": "flake, division",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: بد، برج، بعض، بيت، بين، جرب، جزء، جند، وغيرُها"
   },
   {
    "european": "Flame",
@@ -9631,6 +10759,14 @@
    "arabic_gloss": "sloping (land); flat (foot)",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: صطب، يد"
+  },
+  {
+   "european": "Flee",
+   "arabic_root": "فل",
+   "author_translit": "falla",
+   "arabic_gloss": "flee, leave",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: فر"
   },
   {
    "european": "Fleece",
@@ -9749,7 +10885,7 @@
    "arabic_root": "فر",
    "author_translit": "farra",
    "arabic_gloss": "fly",
-   "source": "jassem-2013-air-fire · jassem-2013-animal",
+   "source": "jassem-2013-air-fire · jassem-2013-animal · jassem-2013-movement-action",
    "bridge_agrees": "جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها"
   },
   {
@@ -9933,7 +11069,7 @@
    "arabic_root": "فرق",
    "author_translit": "farraaq(at)",
    "arabic_gloss": "divider; fork",
-   "source": "jassem-2019-frk",
+   "source": "jassem-2019-frk · jassem-2013-cutting-breaking",
    "bridge_agrees": "جذرٌ آخر: ءفع، الجذر، ثعب، حجز، حنش، حي، ذرا، ذرو، وغيرُها"
   },
   {
@@ -10001,6 +11137,14 @@
    "bridge_agrees": "جذرٌ آخر: النواة، حل، فقع، لا"
   },
   {
+   "european": "Fracture",
+   "arabic_root": "قلع",
+   "author_translit": "qala3",
+   "arabic_gloss": "uproot, kill",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Free",
    "arabic_root": "شعر",
    "author_translit": "shi3ra",
@@ -10022,6 +11166,14 @@
    "author_translit": "ghad",
    "arabic_gloss": "tomorrow",
    "source": "jassem-2016-entirely-arabic",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Free",
+   "arabic_root": "فر",
+   "author_translit": "farra",
+   "arabic_gloss": "fly, escape",
+   "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
   },
   {
@@ -10369,6 +11521,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Gallop",
+   "arabic_root": "غلب",
+   "author_translit": "ghalab",
+   "arabic_gloss": "of horses, outrun",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: جرذ، جول، حرجل، حسك، خيل، روث، ساس، سك، وغيرُها"
+  },
+  {
    "european": "Game",
    "arabic_root": "قنص",
    "author_translit": "qanS",
@@ -10505,6 +11665,38 @@
    "bridge_agrees": "جذرٌ آخر: بلد، ثون، حضر، زنق، زوف، ضيع"
   },
   {
+   "european": "Gather",
+   "arabic_root": "فقع",
+   "author_translit": "faqa3",
+   "arabic_gloss": "to explode",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: جدب، شوط، فجر، فرقع، لغم"
+  },
+  {
+   "european": "Gather",
+   "arabic_root": "قرء",
+   "author_translit": "qara'a",
+   "arabic_gloss": "gather, read",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Gather",
+   "arabic_root": "قرءت",
+   "author_translit": "qiraa'at",
+   "arabic_gloss": "gather, read",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: قرء"
+  },
+  {
+   "european": "Gaze",
+   "arabic_root": "جحظ",
+   "author_translit": "ja2aDh",
+   "arabic_gloss": "look with wide open eyes",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: نجل"
+  },
+  {
    "european": "Genealogy",
    "arabic_root": "جنس",
    "author_translit": "jins",
@@ -10546,10 +11738,18 @@
   },
   {
    "european": "Gesture",
+   "arabic_root": "جحر",
+   "author_translit": "ja2ar",
+   "arabic_gloss": "stare, look",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: حدق، فرس"
+  },
+  {
+   "european": "Gesture",
    "arabic_root": "شر",
    "author_translit": "ishaara(t)",
    "arabic_gloss": "sign",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: ءثر، ءية، ءيي، اتم، الءسد، الثور، الجدي، الحوت، وغيرُها"
   },
   {
@@ -10559,6 +11759,30 @@
    "arabic_gloss": "talk",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها"
+  },
+  {
+   "european": "Get",
+   "arabic_root": "جب",
+   "author_translit": "jaab(at)",
+   "arabic_gloss": "she begot",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءم، اب، ببر، بغل، بهء، تا، تبن، ته، وغيرُها"
+  },
+  {
+   "european": "Get",
+   "arabic_root": "غد",
+   "author_translit": "ghada",
+   "arabic_gloss": "go, leave, arrive, become",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءسلم، بعد، ترك، تلو، جلو، حل، خلص، وغيرُها"
+  },
+  {
+   "european": "Get",
+   "arabic_root": "فقد",
+   "author_translit": "faqad",
+   "arabic_gloss": "forget, miss",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Get up",
@@ -10623,6 +11847,22 @@
    "arabic_gloss": "ice",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Glide",
+   "arabic_root": "جء",
+   "author_translit": "jaa'a",
+   "arabic_gloss": "come",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءج، ءخر، ءمر، ءمل، ءني، ءهل، ءوب، وغيرُها"
+  },
+  {
+   "european": "Glide",
+   "arabic_root": "قلط",
+   "author_translit": "qalaT",
+   "arabic_gloss": "move forward",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حول، دحرج، زحف، ساق، قرب، قلب، كور، لمز، وغيرُها"
   },
   {
    "european": "Gloss",
@@ -10913,6 +12153,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Grasp",
+   "arabic_root": "كربس",
+   "author_translit": "karbas",
+   "arabic_gloss": "grasp, hold in ropes",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، حوز، ضبب، فهم، قبض، كفف، لقف، مسك"
+  },
+  {
    "european": "Grave",
    "arabic_root": "قبر",
    "author_translit": "qabr",
@@ -10987,10 +12235,10 @@
   {
    "european": "Grind",
    "arabic_root": "قرط",
-   "author_translit": "qaraT",
-   "arabic_gloss": "grind",
-   "source": "jassem-2014-wining-dining",
-   "bridge_agrees": "جذرٌ آخر: جرن، جلخ، خمد، دستج، دق، ذر، رتم، رقق، وغيرُها"
+   "author_translit": "qarT(at)",
+   "arabic_gloss": "crush, cut",
+   "source": "jassem-2013-cutting-breaking · jassem-2014-wining-dining",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Grind",
@@ -11057,6 +12305,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Guess",
+   "arabic_root": "وجس",
+   "author_translit": "awjasa",
+   "arabic_gloss": "feel, guess",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Guest",
    "arabic_root": "غز",
    "author_translit": "ghaazi(at)",
@@ -11071,6 +12327,14 @@
    "arabic_gloss": "enemy, invader",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: خا، خرب، خصم، خصي، خير، دور، زرر، سلم، وغيرُها"
+  },
+  {
+   "european": "Guide",
+   "arabic_root": "قد",
+   "author_translit": "qaada",
+   "arabic_gloss": "lead, guide",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءدي، دل، رشد، قود، هدي، وعز"
   },
   {
    "european": "Guilt",
@@ -11141,7 +12405,7 @@
    "arabic_root": "غب",
    "author_translit": "ghabb",
    "arabic_gloss": "gulp",
-   "source": "jassem-2013-water-sea · jassem-2014-wining-dining",
+   "source": "jassem-2013-water-sea · jassem-2013-perceptual-sensual · jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: بلع، جرع، رهط، زءم، زرد، زقم، زلط، سرط، وغيرُها"
   },
   {
@@ -11151,6 +12415,30 @@
    "arabic_gloss": "gum",
    "source": "jassem-2016-floral",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Gun",
+   "arabic_root": "قن",
+   "author_translit": "qana",
+   "arabic_gloss": "spear, arrow",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: زج، سدس، شجب، عرن"
+  },
+  {
+   "european": "Gush",
+   "arabic_root": "جش",
+   "author_translit": "jasha",
+   "arabic_gloss": "gush, come out",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءتي، بثق، بدر، برز، بين، تبع، حسر، حصل، وغيرُها"
+  },
+  {
+   "european": "Gush",
+   "arabic_root": "كر",
+   "author_translit": "karra(t)",
+   "arabic_gloss": "turn",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءسلم، ءفك، ءول، ءيض، بخر، برم، بعثر، وغيرُها"
   },
   {
    "european": "Gust",
@@ -11249,6 +12537,14 @@
    "bridge_agrees": "جذرٌ آخر: تقي، زكو، صلح، وقي"
   },
   {
+   "european": "Hammer",
+   "arabic_root": "جمر",
+   "author_translit": "jamra(t)",
+   "arabic_gloss": "stone, spark",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ثور، جلخ، جلد، جلمد، جندل، جوهر، حجر، حدد، وغيرُها"
+  },
+  {
    "european": "Hang",
    "arabic_root": "جن",
    "author_translit": "jinna(t)",
@@ -11258,11 +12554,43 @@
   },
   {
    "european": "Hang",
+   "arabic_root": "حف",
+   "author_translit": "2affa",
+   "arabic_gloss": "cut (the edge)",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: زلم، قصب، قضم"
+  },
+  {
+   "european": "Hang",
+   "arabic_root": "شنق",
+   "author_translit": "shanaq",
+   "arabic_gloss": "hang",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Hang",
    "arabic_root": "علق",
    "author_translit": "3allaq",
    "arabic_gloss": "suspend, hang",
    "source": "jassem-2015-life-death",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Happen",
+   "arabic_root": "صب",
+   "author_translit": "aSaab",
+   "arabic_gloss": "befall, happen",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: توب، حزب، حصل، حكم، حل، عني، نهر"
+  },
+  {
+   "european": "Happen",
+   "arabic_root": "مصب",
+   "author_translit": "muSaab",
+   "arabic_gloss": "befall, happen",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: توب، حزب، حصل، حكم، حل، عني، نهر"
   },
   {
    "european": "Hardware",
@@ -11383,6 +12711,38 @@
    "arabic_gloss": "head, chief, guide",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: حرب، دير، رءس، رب، سر، شيخ، قدم، كبش، وغيرُها"
+  },
+  {
+   "european": "Hear",
+   "arabic_root": "رع",
+   "author_translit": "ar3a",
+   "arabic_gloss": "ear, hear",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءذن، سك، سمع، صوت، نصت"
+  },
+  {
+   "european": "Hear",
+   "arabic_root": "عر",
+   "author_translit": "3air",
+   "arabic_gloss": "ear, hear",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءذن، سك، سمع، صوت، نصت"
+  },
+  {
+   "european": "Hear",
+   "arabic_root": "عن",
+   "author_translit": "3ain",
+   "arabic_gloss": "eye, see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءقي، بخص، بشع، بوم، تبل، جحم، جفن، جن، وغيرُها"
+  },
+  {
+   "european": "Hear",
+   "arabic_root": "عون",
+   "author_translit": "3uwaina(t)",
+   "arabic_gloss": "eye, see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءقي، بخص، بشع، بوم، تبل، جحم، جفن، جن، وغيرُها"
   },
   {
    "european": "Hearth",
@@ -11689,6 +13049,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Hit",
+   "arabic_root": "عد",
+   "author_translit": "3ada",
+   "arabic_gloss": "attack, hit",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: بطش، جهر"
+  },
+  {
    "european": "Hoarse",
    "arabic_root": "حشرج",
    "author_translit": "2ashraj",
@@ -11719,6 +13087,22 @@
    "arabic_gloss": "talk funny",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: خزعبل"
+  },
+  {
+   "european": "Hold",
+   "arabic_root": "عتل",
+   "author_translit": "3atal",
+   "arabic_gloss": "carry, hold",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Hold",
+   "arabic_root": "عنق",
+   "author_translit": "3aanaq",
+   "arabic_gloss": "embrace",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Holy",
@@ -11863,6 +13247,14 @@
    "arabic_gloss": "whiteness, light, appearance, seeing",
    "source": "jassem-2015-radical-translation-names",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Home",
+   "arabic_root": "هب",
+   "author_translit": "haab",
+   "arabic_gloss": "jump/walk with one leg up",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: تلو، رجل، عرج"
   },
   {
    "european": "Honey",
@@ -12193,6 +13585,46 @@
    "bridge_agrees": "جذرٌ آخر: بلد، ثلث، حول، دين، سر، عصر، قر، قرن، وغيرُها"
   },
   {
+   "european": "Hurry",
+   "arabic_root": "من",
+   "author_translit": "min",
+   "arabic_gloss": "from, in, by",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Hurry",
+   "arabic_root": "هرع",
+   "author_translit": "hara3a",
+   "arabic_gloss": "hurry",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Hurt",
+   "arabic_root": "تشبح",
+   "author_translit": "tashbee2",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Hurt",
+   "arabic_root": "شبح",
+   "author_translit": "shaba2a",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Hurt",
+   "arabic_root": "ضر",
+   "author_translit": "Durr(at)",
+   "arabic_gloss": "hurt",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءذن، ءذي، ءلم، جرح، حرق، ذلل، سحر، سر، وغيرُها"
+  },
+  {
    "european": "Husband",
    "arabic_root": "رب",
    "author_translit": "rabb(at)",
@@ -12345,6 +13777,22 @@
    "bridge_agrees": "جذرٌ آخر: حجم، سطر، سلا، عين، قدر، قيس، كم، مقي، وغيرُها"
   },
   {
+   "european": "Incision",
+   "arabic_root": "قص",
+   "author_translit": "qaSSa",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Incline",
+   "arabic_root": "نزل",
+   "author_translit": "nazal",
+   "arabic_gloss": "go down",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Including",
    "arabic_root": "دن",
    "author_translit": "adna",
@@ -12423,6 +13871,14 @@
    "arabic_gloss": "below",
    "source": "jassem-2015-military",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Indicate",
+   "arabic_root": "ذك",
+   "author_translit": "dhaa(k)",
+   "arabic_gloss": "this/that",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Infant",
@@ -12913,6 +14369,46 @@
    "bridge_agrees": "جذرٌ آخر: سرب، فشو، مرح، نطف"
   },
   {
+   "european": "Issue",
+   "arabic_root": "جزء",
+   "author_translit": "juz'",
+   "arabic_gloss": "part, issue",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءمر، ازل، بحث، بند، خرج، خير، رءي، سءل، وغيرُها"
+  },
+  {
+   "european": "Issue",
+   "arabic_root": "جطل",
+   "author_translit": "jaTal",
+   "arabic_gloss": "beat, hit",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: دق، ضرب، لطس، لطش"
+  },
+  {
+   "european": "Issue",
+   "arabic_root": "جمع",
+   "author_translit": "jama3",
+   "arabic_gloss": "join, gather",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Issue",
+   "arabic_root": "سجن",
+   "author_translit": "sajan",
+   "arabic_gloss": "imprison",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Issue",
+   "arabic_root": "سح",
+   "author_translit": "saa2a",
+   "arabic_gloss": "move, go, flow",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Item",
    "arabic_root": "قطم",
    "author_translit": "qaTam",
@@ -12993,6 +14489,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Join",
+   "arabic_root": "جمع",
+   "author_translit": "jama3",
+   "arabic_gloss": "join, gather",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Joke",
    "arabic_root": "خط",
    "author_translit": "khaT",
@@ -13023,6 +14527,14 @@
    "arabic_gloss": "sauce, soup",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: برش، بست، ثرد، حسا، دقو، رق، زبد، سقع، وغيرُها"
+  },
+  {
+   "european": "Jump",
+   "arabic_root": "شب",
+   "author_translit": "shabba",
+   "arabic_gloss": "jump",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: جمز، جندب، رمز، صول، غطس، قز، قفز، نخع، وغيرُها"
   },
   {
    "european": "Jungle",
@@ -13081,6 +14593,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Kick",
+   "arabic_root": "صك",
+   "author_translit": "Sakka",
+   "arabic_gloss": "kick",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: خبط، رجب، رغب، رفس، ركب، ركل، ركن، شاط، وغيرُها"
+  },
+  {
    "european": "Kid",
    "arabic_root": "جد",
    "author_translit": "jadee",
@@ -13118,6 +14638,14 @@
    "author_translit": "naqeeb",
    "arabic_gloss": "leader, servant",
    "source": "jassem-2013-family",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Kill",
+   "arabic_root": "قتل",
+   "author_translit": "qatal",
+   "arabic_gloss": "kill",
+   "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -13213,7 +14741,7 @@
    "arabic_root": "سكن",
    "author_translit": "sikkeen",
    "arabic_gloss": "knife",
-   "source": "jassem-2015-military",
+   "source": "jassem-2013-cutting-breaking · jassem-2015-military",
    "bridge_agrees": "نعم"
   },
   {
@@ -13286,6 +14814,14 @@
    "author_translit": "waalida(t)",
    "arabic_gloss": "mother; lady",
    "source": "jassem-2013-family",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Lag",
+   "arabic_root": "لحق",
+   "author_translit": "la2aq",
+   "arabic_gloss": "follow, lag",
+   "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
   },
   {
@@ -13452,9 +14988,25 @@
    "european": "Lance",
    "arabic_root": "نصل",
    "author_translit": "naSl",
-   "arabic_gloss": "arrow head",
-   "source": "jassem-2015-military",
-   "bridge_agrees": "جذرٌ آخر: رصف، زلم، سار، عرن"
+   "arabic_gloss": "arrow",
+   "source": "jassem-2013-cutting-breaking · jassem-2015-military",
+   "bridge_agrees": "جذرٌ آخر: جعب، حظو، دفع، رصف، زج، زع، زلم، سار، وغيرُها"
+  },
+  {
+   "european": "Lance",
+   "arabic_root": "وصل",
+   "author_translit": "waSal",
+   "arabic_gloss": "link, arrive",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Land",
+   "arabic_root": "نجد",
+   "author_translit": "najd",
+   "arabic_gloss": "land, earth",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءرض، ءفق، ءل، برر، ترب، جرد، جهد، دفن، وغيرُها"
   },
   {
    "european": "Language",
@@ -13761,6 +15313,38 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Lead",
+   "arabic_root": "دل",
+   "author_translit": "dalla",
+   "arabic_gloss": "lead",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Lead",
+   "arabic_root": "لن",
+   "author_translit": "laien(at)",
+   "arabic_gloss": "lenient, soft",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: يسر"
+  },
+  {
+   "european": "Lead",
+   "arabic_root": "مل",
+   "author_translit": "maal",
+   "arabic_gloss": "to lean",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: بد، تكء، حرف، حنا، حنو، خشب، خطف، خل، وغيرُها"
+  },
+  {
+   "european": "Lead",
+   "arabic_root": "نحل",
+   "author_translit": "na2eel",
+   "arabic_gloss": "thin",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Leaf",
    "arabic_root": "رف",
    "author_translit": "riff",
@@ -13775,6 +15359,14 @@
    "arabic_gloss": "fiber",
    "source": "jassem-2016-floral · jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: اد، خيط، شبك، قطن، كت"
+  },
+  {
+   "european": "Leap",
+   "arabic_root": "هب",
+   "author_translit": "haab",
+   "arabic_gloss": "jump on one leg",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ال، بج، بط، تلو، جر، جرذ، جزم، جمز، وغيرُها"
   },
   {
    "european": "Learn",
@@ -13831,6 +15423,14 @@
    "arabic_gloss": "carefulness, gentleness",
    "source": "jassem-2016-fashion",
    "bridge_agrees": "جذرٌ آخر: حرز، حوط، ذل، رخم، ورع"
+  },
+  {
+   "european": "Leave",
+   "arabic_root": "فل",
+   "author_translit": "falla",
+   "arabic_gloss": "leave",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
   },
   {
    "european": "Leek",
@@ -14018,6 +15618,22 @@
   },
   {
    "european": "Lick",
+   "arabic_root": "لحس",
+   "author_translit": "la2as",
+   "arabic_gloss": "lick",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Lick",
+   "arabic_root": "لسن",
+   "author_translit": "lisaan",
+   "arabic_gloss": "tongue",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Lick",
    "arabic_root": "لعق",
    "author_translit": "la3q",
    "arabic_gloss": "eating",
@@ -14031,6 +15647,22 @@
    "arabic_gloss": "to say but not to do",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: صرح، طوق"
+  },
+  {
+   "european": "Lift",
+   "arabic_root": "رفع",
+   "author_translit": "rafa3a",
+   "arabic_gloss": "lift",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Lift",
+   "arabic_root": "رفعت",
+   "author_translit": "rif3at",
+   "arabic_gloss": "lift",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حمل، ربع، رفع، سما، شبب، شجر، شرع، شول، وغيرُها"
   },
   {
    "european": "Lightening",
@@ -14137,6 +15769,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Link",
+   "arabic_root": "علق",
+   "author_translit": "3allaq",
+   "arabic_gloss": "link",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: حلق، حمل، ربط، سرد، سلسل، سود، صل، قرن، وغيرُها"
+  },
+  {
    "european": "Lion",
    "arabic_root": "نهل",
    "author_translit": "nahal",
@@ -14189,7 +15829,7 @@
    "arabic_root": "نصت",
    "author_translit": "naSat",
    "arabic_gloss": "listen",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-perceptual-sensual",
    "bridge_agrees": "نعم"
   },
   {
@@ -14219,10 +15859,10 @@
   {
    "european": "Live",
    "arabic_root": "لب",
-   "author_translit": "labba",
-   "arabic_gloss": "to stay, live; to love; to escape",
-   "source": "jassem-2015-life-death · jassem-2015-urban",
-   "bridge_agrees": "نعم"
+   "author_translit": "laabb(at)",
+   "arabic_gloss": "love",
+   "source": "jassem-2013-movement-action · jassem-2015-life-death · jassem-2015-urban",
+   "bridge_agrees": "جذرٌ آخر: بوس، تاب، تيم، حب، حبب، حبك، حمر، حمس، وغيرُها"
   },
   {
    "european": "Live",
@@ -14343,6 +15983,46 @@
    "arabic_gloss": "lice",
    "source": "jassem-2013-animal",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Look",
+   "arabic_root": "رء",
+   "author_translit": "ra'a",
+   "arabic_gloss": "look",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءمل، ءوي، بحث، بدا، بسر، بش، بص، تفرج، وغيرُها"
+  },
+  {
+   "european": "Look",
+   "arabic_root": "لص",
+   "author_translit": "laSSa",
+   "arabic_gloss": "look",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءمل، ءوي، بحث، بدا، بسر، بش، بص، تفرج، وغيرُها"
+  },
+  {
+   "european": "Look",
+   "arabic_root": "لصلص",
+   "author_translit": "laSlaS",
+   "arabic_gloss": "look",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءمل، ءوي، بحث، بدا، بسر، بش، بص، تفرج، وغيرُها"
+  },
+  {
+   "european": "Look",
+   "arabic_root": "لمح",
+   "author_translit": "lama2a",
+   "arabic_gloss": "see, appear",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: بدا، بدر، بدو، برز، ثور، جدر، جسد، جن، وغيرُها"
+  },
+  {
+   "european": "Look",
+   "arabic_root": "مرء",
+   "author_translit": "mar'a",
+   "arabic_gloss": "look",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءمل، ءوي، بحث، بدا، بسر، بش، بص، تفرج، وغيرُها"
   },
   {
    "european": "Lord",
@@ -14644,9 +16324,9 @@
    "european": "Make",
    "arabic_root": "قم",
    "author_translit": "aqaama",
-   "arabic_gloss": "make, do",
-   "source": "jassem-2014-mathematical",
-   "bridge_agrees": "لا مدخلَ عندنا"
+   "arabic_gloss": "make, design",
+   "source": "jassem-2013-movement-action · jassem-2014-mathematical",
+   "bridge_agrees": "جذرٌ آخر: بنت، بنط، خترع، ختم، خطط، درج، رزب، رسم، وغيرُها"
   },
   {
    "european": "Male",
@@ -14719,6 +16399,22 @@
    "arabic_gloss": "water, rain, sea",
    "source": "jassem-2019-mr",
    "bridge_agrees": "جذرٌ آخر: ءرض، ءس، بحر، بغش، جون، حوت، حوض، خور، وغيرُها"
+  },
+  {
+   "european": "March",
+   "arabic_root": "مش",
+   "author_translit": "masha",
+   "arabic_gloss": "to walk",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها"
+  },
+  {
+   "european": "March",
+   "arabic_root": "نط",
+   "author_translit": "naTTa",
+   "arabic_gloss": "jump",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: جمز، جندب، رمز، صول، غطس، قز، قفز، نخع، وغيرُها"
   },
   {
    "european": "Mare",
@@ -14841,6 +16537,22 @@
    "bridge_agrees": "جذرٌ آخر: بغل، حجر، عود، فرس"
   },
   {
+   "european": "Mash",
+   "arabic_root": "معس",
+   "author_translit": "ma3as",
+   "arabic_gloss": "mash",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: بل، بلل، رب، هرس"
+  },
+  {
+   "european": "Mash",
+   "arabic_root": "ملع",
+   "author_translit": "mala3",
+   "arabic_gloss": "dislodge",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: خرج، دحر، عشش"
+  },
+  {
    "european": "Mason",
    "arabic_root": "ءم",
    "author_translit": "'umm(at)",
@@ -14951,6 +16663,14 @@
    "arabic_gloss": "abundant rain, water, sea; embitter",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: بحر، غدق، غزر"
+  },
+  {
+   "european": "Masticate",
+   "arabic_root": "مضغ",
+   "author_translit": "maDagha",
+   "arabic_gloss": "chew",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Mat",
@@ -15457,6 +17177,22 @@
    "bridge_agrees": "جذرٌ آخر: حزم، حقر، دق، ربط، رزم، صبصب، صرر، صغر، وغيرُها"
   },
   {
+   "european": "Mince",
+   "arabic_root": "زمل",
+   "author_translit": "izmeel",
+   "arabic_gloss": "chisel",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Mince",
+   "arabic_root": "مزق",
+   "author_translit": "mazzaq",
+   "arabic_gloss": "to tear apart",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Minister",
    "arabic_root": "منظر",
    "author_translit": "munaaDhir",
@@ -15506,10 +17242,18 @@
   },
   {
    "european": "Mirror",
+   "arabic_root": "رء",
+   "author_translit": "ra'a",
+   "arabic_gloss": "mirror",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ججل، رءي، را، عكس، نظر"
+  },
+  {
+   "european": "Mirror",
    "arabic_root": "مرء",
    "author_translit": "mir'a(t)",
    "arabic_gloss": "mirror",
-   "source": "jassem-2019-mr · jassem-2016-fashion",
+   "source": "jassem-2019-mr · jassem-2016-fashion · jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: ججل، رءي، را، عكس، نظر"
   },
   {
@@ -15901,7 +17645,7 @@
    "arabic_root": "مت",
    "author_translit": "amt",
    "arabic_gloss": "height",
-   "source": "jassem-2015-urban",
+   "source": "jassem-2013-movement-action · jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: بعد، بنش، بيع، تلع، جار، حجم، دوخ، دوش، وغيرُها"
   },
   {
@@ -15933,7 +17677,7 @@
    "arabic_root": "مح",
    "author_translit": "ma2a",
    "arabic_gloss": "erase",
-   "source": "jassem-2015-urban",
+   "source": "jassem-2013-movement-action · jassem-2015-urban",
    "bridge_agrees": "نعم"
   },
   {
@@ -16170,10 +17914,34 @@
   },
   {
    "european": "Near",
+   "arabic_root": "جث",
+   "author_translit": "jatha",
+   "arabic_gloss": "sit",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
+  },
+  {
+   "european": "Near",
+   "arabic_root": "صرح",
+   "author_translit": "Sar2",
+   "arabic_gloss": "building",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Near",
    "arabic_root": "نحو",
    "author_translit": "na2wa",
    "arabic_gloss": "toward, near",
    "source": "jassem-2014-prepositions",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Needle",
+   "arabic_root": "بتر",
+   "author_translit": "batara",
+   "arabic_gloss": "to cut",
+   "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -16649,6 +18417,70 @@
    "bridge_agrees": "جذرٌ آخر: ءشل، جرذ، حظل، خمع، شل، شلل، عرج، عند، وغيرُها"
   },
   {
+   "european": "Note",
+   "arabic_root": "نقط",
+   "author_translit": "nuqTa",
+   "arabic_gloss": "dot, sign",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Notice",
+   "arabic_root": "بصر",
+   "author_translit": "baSar",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Notice",
+   "arabic_root": "تيقن",
+   "author_translit": "tayaqqan",
+   "arabic_gloss": "know",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها"
+  },
+  {
+   "european": "Notice",
+   "arabic_root": "صبر",
+   "author_translit": "Sabara",
+   "arabic_gloss": "embitter, preserve, persevere",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Notice",
+   "arabic_root": "قن",
+   "author_translit": "aiqan",
+   "arabic_gloss": "know",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها"
+  },
+  {
+   "european": "Notice",
+   "arabic_root": "نم",
+   "author_translit": "naam",
+   "arabic_gloss": "sleep",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها"
+  },
+  {
+   "european": "Notice",
+   "arabic_root": "نوم",
+   "author_translit": "nawm",
+   "arabic_gloss": "sleep",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Notice",
+   "arabic_root": "يقن",
+   "author_translit": "yaqeen",
+   "arabic_gloss": "know",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها"
+  },
+  {
    "european": "Now",
    "arabic_root": "حز",
    "author_translit": "2azza(t)",
@@ -16785,6 +18617,14 @@
    "bridge_agrees": "جذرٌ آخر: ستر، سطح، سقف، صعد، علي، فوق"
   },
   {
+   "european": "Occur",
+   "arabic_root": "جر",
+   "author_translit": "jara",
+   "arabic_gloss": "to happen",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءذن، ءلح، ءمل، تم، توب، جري، جوز، وغيرُها"
+  },
+  {
    "european": "Odd",
    "arabic_root": "ءل",
    "author_translit": "'ul",
@@ -16821,7 +18661,7 @@
    "arabic_root": "عطر",
    "author_translit": "3iTr",
    "arabic_gloss": "perfume",
-   "source": "jassem-2013-air-fire",
+   "source": "jassem-2013-air-fire · jassem-2013-perceptual-sensual",
    "bridge_agrees": "نعم"
   },
   {
@@ -16922,6 +18762,30 @@
   },
   {
    "european": "Omen",
+   "arabic_root": "بص",
+   "author_translit": "baSSa",
+   "arabic_gloss": "look, see; eye pupil",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Omen",
+   "arabic_root": "بصبص",
+   "author_translit": "baSbooS",
+   "arabic_gloss": "look, see; eye pupil",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: حدق"
+  },
+  {
+   "european": "Omen",
+   "arabic_root": "بصر",
+   "author_translit": "baSar",
+   "arabic_gloss": "sight",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Omen",
    "arabic_root": "بوص",
    "author_translit": "bawS",
    "arabic_gloss": "pass, advance",
@@ -16959,6 +18823,22 @@
    "arabic_gloss": "all, common",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: جمع، ركز، سود، صلا، ضلع، عرق، عمم، كل، وغيرُها"
+  },
+  {
+   "european": "Omen",
+   "arabic_root": "نءب",
+   "author_translit": "naa'iba(t)",
+   "arabic_gloss": "ib (pl.)",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Omen",
+   "arabic_root": "نو",
+   "author_translit": "nawa",
+   "arabic_gloss": "ib (pl.)",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Omen",
@@ -17031,6 +18911,14 @@
    "arabic_gloss": "mint",
    "source": "jassem-2016-floral · jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: جعد، حبق، خيت، دنر، سك، ضرب، ضرم، فلي، وغيرُها"
+  },
+  {
+   "european": "Open",
+   "arabic_root": "بن",
+   "author_translit": "abaana",
+   "arabic_gloss": "bring into the open",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: باب، برء، برز، بشر، جلب، جلو، جمع، حقق، وغيرُها"
   },
   {
    "european": "Opinion",
@@ -17314,11 +19202,27 @@
   },
   {
    "european": "Oscillate",
+   "arabic_root": "زقل",
+   "author_translit": "zaqala(t)",
+   "arabic_gloss": "push",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: برطم، تل، حث، دحا، دحو، درء، دسر، دفع، وغيرُها"
+  },
+  {
+   "european": "Oscillate",
    "arabic_root": "هز",
    "author_translit": "hazz(at)",
    "arabic_gloss": "oscillate",
    "source": "jassem-2013-air-fire",
    "bridge_agrees": "جذرٌ آخر: ذبذب"
+  },
+  {
+   "european": "Oust",
+   "arabic_root": "قس",
+   "author_translit": "aqsa",
+   "arabic_gloss": "to oust",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: خرج، خلع، رجم، طرد"
   },
   {
    "european": "Out",
@@ -17586,10 +19490,18 @@
   },
   {
    "european": "Pass",
+   "arabic_root": "سب",
+   "author_translit": "saab",
+   "arabic_gloss": "to go, to pass",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، ءمل، بال، بث، بلع، تلش، ثني، جاز، وغيرُها"
+  },
+  {
+   "european": "Pass",
    "arabic_root": "سبسب",
-   "author_translit": "sab(sab)",
+   "author_translit": "sabsab",
    "arabic_gloss": "go, pass, flow",
-   "source": "jassem-2015-urban",
+   "source": "jassem-2013-movement-action · jassem-2015-urban",
    "bridge_agrees": "نعم"
   },
   {
@@ -17615,6 +19527,14 @@
    "arabic_gloss": "soft, easy earth",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: خفض، سنو، شفق، لين، نعم، يسر"
+  },
+  {
+   "european": "Pause",
+   "arabic_root": "حبس",
+   "author_translit": "2abas",
+   "arabic_gloss": "imprison, pause",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Pavement",
@@ -17662,6 +19582,14 @@
    "author_translit": "faris",
    "arabic_gloss": "Persian; horseman",
    "source": "jassem-2016-floral",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Peel",
+   "arabic_root": "لب",
+   "author_translit": "lubb",
+   "arabic_gloss": "pulp, inside",
+   "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -17849,6 +19777,30 @@
    "bridge_agrees": "جذرٌ آخر: ء، ءجل، ءما، ءي، اه، ايه، بلا، بلي، وغيرُها"
   },
   {
+   "european": "Piece",
+   "arabic_root": "بج",
+   "author_translit": "bijja(t)",
+   "arabic_gloss": "piece, a cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، بتل، جبن، جزء، خرق، خشب، زبر، سنن، وغيرُها"
+  },
+  {
+   "european": "Pierce",
+   "arabic_root": "بر",
+   "author_translit": "ibra(t)",
+   "arabic_gloss": "needle",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Pierce",
+   "arabic_root": "بقر",
+   "author_translit": "baqara",
+   "arabic_gloss": "cut into",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، الجذر، بحر، ثقب، جبن، جرح، جزء، حبر، وغيرُها"
+  },
+  {
    "european": "Piety",
    "arabic_root": "بث",
    "author_translit": "bathth",
@@ -17990,6 +19942,22 @@
    "author_translit": "qabal",
    "arabic_gloss": "accept",
    "source": "jassem-2015-democratic",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Plot",
+   "arabic_root": "بت",
+   "author_translit": "bait",
+   "arabic_gloss": "plot, home",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءوب، بني، بيت، جبح، جحر، جم، حبك، حل، وغيرُها"
+  },
+  {
+   "european": "Plot",
+   "arabic_root": "بيت",
+   "author_translit": "baiyata",
+   "arabic_gloss": "plot, home",
+   "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
   },
   {
@@ -18273,6 +20241,22 @@
    "bridge_agrees": "جذرٌ آخر: ءجر، ءرض، ءوي، اشر، برج، بغي، بوت، بيت، وغيرُها"
   },
   {
+   "european": "Pound",
+   "arabic_root": "دب",
+   "author_translit": "dabba",
+   "arabic_gloss": "to pound",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: بنس، جرن، جني، خفق، دستج، دقق، دك، ذر، وغيرُها"
+  },
+  {
+   "european": "Powder",
+   "arabic_root": "ترب",
+   "author_translit": "turaab",
+   "arabic_gloss": "dust, powder",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Power",
    "arabic_root": "بء",
    "author_translit": "baa'a(t)",
@@ -18367,6 +20351,54 @@
    "arabic_gloss": "sit, lie",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءفك، بطح، بني، بور، بوق، تلو، جال، جلا، وغيرُها"
+  },
+  {
+   "european": "Press",
+   "arabic_root": "دج",
+   "author_translit": "dajja",
+   "arabic_gloss": "walk, go",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها"
+  },
+  {
+   "european": "Press",
+   "arabic_root": "ربص",
+   "author_translit": "rabaS",
+   "arabic_gloss": "press down",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: دلك، نوء"
+  },
+  {
+   "european": "Press",
+   "arabic_root": "زرب",
+   "author_translit": "zaraba",
+   "arabic_gloss": "imprison",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حبس، حجز، سجن"
+  },
+  {
+   "european": "Press",
+   "arabic_root": "زربن",
+   "author_translit": "zurbaan",
+   "arabic_gloss": "imprison",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حبس، حجز، سجن"
+  },
+  {
+   "european": "Press",
+   "arabic_root": "قبل",
+   "author_translit": "qabl",
+   "arabic_gloss": "before",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Press",
+   "arabic_root": "كرش",
+   "author_translit": "karasha",
+   "arabic_gloss": "drive out",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، دمر، زجر، ساق، صفق، طرد، قصو، نفر، وغيرُها"
   },
   {
    "european": "Previous",
@@ -18537,6 +20569,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Prune",
+   "arabic_root": "بر",
+   "author_translit": "bara",
+   "arabic_gloss": "sharpen, trim",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: قط"
+  },
+  {
+   "european": "Prune",
+   "arabic_root": "ملح",
+   "author_translit": "mil2",
+   "arabic_gloss": "salt, dust, very tiny",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Psalm",
    "arabic_root": "بجر",
    "author_translit": "bajar",
@@ -18617,6 +20665,14 @@
    "bridge_agrees": "جذرٌ آخر: حصر، دون، ربو، ربي، زحم، شوش، طلي، قبط"
   },
   {
+   "european": "Pull",
+   "arabic_root": "بل",
+   "author_translit": "balla",
+   "arabic_gloss": "to have in hand, catch",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Pulp",
    "arabic_root": "لب",
    "author_translit": "lubb",
@@ -18646,6 +20702,38 @@
    "author_translit": "keena",
    "arabic_gloss": "such a tree",
    "source": "jassem-2016-floral",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Push",
+   "arabic_root": "بس",
+   "author_translit": "basas",
+   "arabic_gloss": "keep away gently",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، بعد، جفو، جنب، حفظ، درء، دفع، ربد، وغيرُها"
+  },
+  {
+   "european": "Put",
+   "arabic_root": "بطح",
+   "author_translit": "baTa2",
+   "arabic_gloss": "put down",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Put",
+   "arabic_root": "قف",
+   "author_translit": "qif",
+   "arabic_gloss": "stand, stop",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Put",
+   "arabic_root": "وقف",
+   "author_translit": "waqaf",
+   "arabic_gloss": "stand, stop",
+   "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
   },
   {
@@ -18737,6 +20825,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Race",
+   "arabic_root": "ركض",
+   "author_translit": "rakaD",
+   "arabic_gloss": "run",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Radical",
    "arabic_root": "جذر",
    "author_translit": "jadhr",
@@ -18766,6 +20862,14 @@
    "author_translit": "nahar",
    "arabic_gloss": "river",
    "source": "jassem-2013-water-sea",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Raise",
+   "arabic_root": "ظهر",
+   "author_translit": "Dhahara",
+   "arabic_gloss": "rise, appear",
+   "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
   },
   {
@@ -18889,6 +20993,14 @@
    "bridge_agrees": "جذرٌ آخر: ثفي، جحم، جذو، حرق، حطب، حمر، خلو، دفء، وغيرُها"
   },
   {
+   "european": "Reach",
+   "arabic_root": "درك",
+   "author_translit": "adraka",
+   "arabic_gloss": "to reach",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Read",
    "arabic_root": "رد",
    "author_translit": "radda",
@@ -18908,9 +21020,17 @@
    "european": "Real",
    "arabic_root": "رء",
    "author_translit": "ra'a",
-   "arabic_gloss": "i (ru",
-   "source": "jassem-2015-life-death",
+   "arabic_gloss": "i/ru",
+   "source": "jassem-2013-perceptual-sensual · jassem-2015-life-death",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Real",
+   "arabic_root": "رح",
+   "author_translit": "ree2(at)",
+   "arabic_gloss": "wind, smell",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ريح"
   },
   {
    "european": "Real",
@@ -19129,6 +21249,38 @@
    "bridge_agrees": "جذرٌ آخر: ءخذ، ءدي، ءذن، ءنف، النواة، بردع، بشر، بوز، وغيرُها"
   },
   {
+   "european": "Recur",
+   "arabic_root": "تكر",
+   "author_translit": "takarrar",
+   "arabic_gloss": "to recur",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: تور، كرر، هيض"
+  },
+  {
+   "european": "Recur",
+   "arabic_root": "رجع",
+   "author_translit": "raja3",
+   "arabic_gloss": "return",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Recur",
+   "arabic_root": "سكن",
+   "author_translit": "sakan",
+   "arabic_gloss": "stillness, motionlessness",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Recur",
+   "arabic_root": "كر",
+   "author_translit": "karra",
+   "arabic_gloss": "to recur",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: تور، كرر، هيض"
+  },
+  {
    "european": "Reed",
    "arabic_root": "رض",
    "author_translit": "riaD",
@@ -19194,6 +21346,22 @@
   },
   {
    "european": "Regurgitate",
+   "arabic_root": "رب",
+   "author_translit": "araba",
+   "arabic_gloss": "fall",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءني، بط، بطش، بغض، بلل، بهر، بهل، تر، وغيرُها"
+  },
+  {
+   "european": "Regurgitate",
+   "arabic_root": "رتم",
+   "author_translit": "ratam",
+   "arabic_gloss": "break, crush",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Regurgitate",
    "arabic_root": "قرقط",
    "author_translit": "qarqaT",
    "arabic_gloss": "regurgitate, cut",
@@ -19255,6 +21423,14 @@
    "arabic_gloss": "read, collect",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: قرء"
+  },
+  {
+   "european": "Relish",
+   "arabic_root": "لحس",
+   "author_translit": "la2as",
+   "arabic_gloss": "lick-relish",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Relish",
@@ -19473,6 +21649,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Review",
+   "arabic_root": "رء",
+   "author_translit": "ra'a",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Revise",
+   "arabic_root": "شرب",
+   "author_translit": "shariba",
+   "arabic_gloss": "drink",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Revise",
+   "arabic_root": "صنت",
+   "author_translit": "Sannat",
+   "arabic_gloss": "odour, perfume",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: شذا، عطر"
+  },
+  {
    "european": "Reward",
    "arabic_root": "سحر",
    "author_translit": "si2r",
@@ -19551,6 +21751,14 @@
    "arabic_gloss": "saliva, flowing",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: الفرات، بزق، بصق، تف، تفل، خرر، دجل، درر، وغيرُها"
+  },
+  {
+   "european": "Ride",
+   "arabic_root": "رض",
+   "author_translit": "raaDa",
+   "arabic_gloss": "ride, tame-ride",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءركب، ءل، ءلف، ءنس، ءهل، بحر، بهء، دجن، وغيرُها"
   },
   {
    "european": "Right",
@@ -19713,6 +21921,14 @@
    "bridge_agrees": "جذرٌ آخر: برق"
   },
   {
+   "european": "Rise",
+   "arabic_root": "شرق",
+   "author_translit": "shurooq",
+   "arabic_gloss": "(sun) rise",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "River",
    "arabic_root": "نهر",
    "author_translit": "nahar",
@@ -19727,6 +21943,14 @@
    "arabic_gloss": "river",
    "source": "jassem-2015-urban",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Road",
+   "arabic_root": "رض",
+   "author_translit": "raaDa",
+   "arabic_gloss": "ride, tame-ride",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءركب، ءل، ءلف، ءنس، ءهل، بحر، بهء، دجن، وغيرُها"
   },
   {
    "european": "Road",
@@ -19819,10 +22043,10 @@
   {
    "european": "Round",
    "arabic_root": "دورن",
-   "author_translit": "dawaraan",
-   "arabic_gloss": "round",
-   "source": "jassem-2014-mathematical · jassem-2015-urban",
-   "bridge_agrees": "جذرٌ آخر: ان، بال، بقع، ثفر، ثني، جفن، جول، حجر، وغيرُها"
+   "author_translit": "dawaran",
+   "arabic_gloss": "turning",
+   "source": "jassem-2013-movement-action · jassem-2014-mathematical · jassem-2015-urban",
+   "bridge_agrees": "جذرٌ آخر: بكر، حنف، دحرج، عطف، غدن، غمض، قلب، كور، وغيرُها"
   },
   {
    "european": "Round",
@@ -19889,6 +22113,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Ruin",
+   "arabic_root": "نهر",
+   "author_translit": "inhaar",
+   "arabic_gloss": "to ruin",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءسا، تبب، تعس، تلف، ثبر، خدش، خرب، خربة، وغيرُها"
+  },
+  {
    "european": "Ruler",
    "arabic_root": "سلم",
    "author_translit": "salima",
@@ -19933,8 +22165,32 @@
    "arabic_root": "مر",
    "author_translit": "marr",
    "arabic_gloss": "pass",
-   "source": "jassem-2013-water-sea",
+   "source": "jassem-2013-water-sea · jassem-2013-movement-action",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Rupture",
+   "arabic_root": "برط",
+   "author_translit": "baraT",
+   "arabic_gloss": "rupture",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: عصف، فطر، مزق"
+  },
+  {
+   "european": "Rupture",
+   "arabic_root": "سخ",
+   "author_translit": "seekh",
+   "arabic_gloss": "large knife",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: دي، سك، شفر"
+  },
+  {
+   "european": "Rupture",
+   "arabic_root": "سخن",
+   "author_translit": "seekhaan",
+   "arabic_gloss": "large knife",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: دي، سك، شفر"
   },
   {
    "european": "Rural",
@@ -19951,6 +22207,14 @@
    "arabic_gloss": "castle",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: النواة، برج، حصن، رخ، رخخ، سور، صرح، طاب، وغيرُها"
+  },
+  {
+   "european": "Rush",
+   "arabic_root": "سرع",
+   "author_translit": "saree3",
+   "arabic_gloss": "fast, go fast",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Ruthful",
@@ -20265,6 +22529,78 @@
    "bridge_agrees": "جذرٌ آخر: ءلا، حاش، غير"
   },
   {
+   "european": "Saw",
+   "arabic_root": "سف",
+   "author_translit": "saif",
+   "arabic_gloss": "sword",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: بضع، ترس، حسا، حشش، خل، خنجر، ساف، سطم، وغيرُها"
+  },
+  {
+   "european": "Saw",
+   "arabic_root": "سقر",
+   "author_translit": "saqar",
+   "arabic_gloss": "fire",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ثفي، جحم، جذو، حرق، حطب، حمر، خلو، دفء، وغيرُها"
+  },
+  {
+   "european": "Saw",
+   "arabic_root": "شح",
+   "author_translit": "shaa2",
+   "arabic_gloss": "swing",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: اس، بختر، جاز، خطر، ذبذب، رجح، رجحن"
+  },
+  {
+   "european": "Saw",
+   "arabic_root": "شرخ",
+   "author_translit": "sharkh",
+   "arabic_gloss": "cut, crack",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Saw",
+   "arabic_root": "قسم",
+   "author_translit": "qism",
+   "arabic_gloss": "division",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Scale",
+   "arabic_root": "تسلق",
+   "author_translit": "tasallaqa",
+   "arabic_gloss": "to climb",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: رفع، رقي، زلق، سلق، سنم، شبط، صعد، ظهر، وغيرُها"
+  },
+  {
+   "european": "Scale",
+   "arabic_root": "سلق",
+   "author_translit": "sallaqa",
+   "arabic_gloss": "to climb",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Scale",
+   "arabic_root": "شح",
+   "author_translit": "shaa2a",
+   "arabic_gloss": "shake",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: تعع، جلجل، جهر، خضخض، خطر، رتج، رج، رجح، وغيرُها"
+  },
+  {
+   "european": "Scale",
+   "arabic_root": "شوشح",
+   "author_translit": "shawsha2a",
+   "arabic_gloss": "shake",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: تعع، جلجل، جهر، خضخض، خطر، رتج، رج، رجح، وغيرُها"
+  },
+  {
    "european": "Scent",
    "arabic_root": "شم",
    "author_translit": "shamm(at)",
@@ -20297,12 +22633,60 @@
    "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
   },
   {
+   "european": "Scissors",
+   "arabic_root": "قص",
+   "author_translit": "qaSSa",
+   "arabic_gloss": "cut, cutter",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Scope",
+   "arabic_root": "شبح",
+   "author_translit": "shaba2",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
    "european": "Scorpion",
    "arabic_root": "عقرب",
    "author_translit": "3aqrab(un)",
    "arabic_gloss": "scorpion",
    "source": "jassem-2013-animal",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Scrape",
+   "arabic_root": "بشر",
+   "author_translit": "bashar",
+   "arabic_gloss": "scrape",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: حسر، حف، حك، حكك، خمش، سحج، قحط، قشط، وغيرُها"
+  },
+  {
+   "european": "Scrape",
+   "arabic_root": "خرب",
+   "author_translit": "kharib",
+   "arabic_gloss": "scrap, useless, destroyed",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Scrape",
+   "arabic_root": "غرز",
+   "author_translit": "gharz",
+   "arabic_gloss": "stick in",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Scrape",
+   "arabic_root": "قرطش",
+   "author_translit": "qarTash",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
   },
   {
    "european": "Scream",
@@ -20561,6 +22945,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Section",
+   "arabic_root": "تشق",
+   "author_translit": "tashaqqaq",
+   "arabic_gloss": "to dissect",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: خربق، شرح"
+  },
+  {
+   "european": "Section",
+   "arabic_root": "شق",
+   "author_translit": "shaqq(at)",
+   "arabic_gloss": "to dissect",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: خربق، شرح"
+  },
+  {
    "european": "Security Council",
    "arabic_root": "شط",
    "author_translit": "shaaT",
@@ -20583,6 +22983,14 @@
    "arabic_gloss": "sit",
    "source": "jassem-2015-urban",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "See",
+   "arabic_root": "سم",
+   "author_translit": "sama",
+   "arabic_gloss": "rise, appear",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ثور، شخص، شرق، طلع، نجم، نهض، هلل"
   },
   {
    "european": "Seek",
@@ -20615,6 +23023,30 @@
    "arabic_gloss": "segment",
    "source": "jassem-2014-mathematical",
    "bridge_agrees": "جذرٌ آخر: جزء، جول، رحل، شقف، فصص، قول، كسر، منصف، وغيرُها"
+  },
+  {
+   "european": "Segregate",
+   "arabic_root": "زبر",
+   "author_translit": "zabar(at)",
+   "arabic_gloss": "to cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Seize",
+   "arabic_root": "قس",
+   "author_translit": "qias",
+   "arabic_gloss": "size",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: اسب، بسط، جهر، حجم، رم، رمان، سار، سلع، وغيرُها"
+  },
+  {
+   "european": "Seize",
+   "arabic_root": "كمش",
+   "author_translit": "kamash",
+   "arabic_gloss": "catch",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءوب، خطء، دبق، درك، رءي، رعي، سجل، شبث، وغيرُها"
   },
   {
    "european": "Self",
@@ -20817,6 +23249,14 @@
    "bridge_agrees": "جذرٌ آخر: حجز، وضع"
   },
   {
+   "european": "Set",
+   "arabic_root": "سقط",
+   "author_translit": "saqaT",
+   "arabic_gloss": "fall",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Seven",
    "arabic_root": "سبع",
    "author_translit": "sab3(at)",
@@ -20857,6 +23297,14 @@
    "bridge_agrees": "جذرٌ آخر: اد، باب، بطن، جز، جزء، جزر، دد، درس، وغيرُها"
   },
   {
+   "european": "Shake",
+   "arabic_root": "شح",
+   "author_translit": "shaa2a",
+   "arabic_gloss": "to shake",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: تعع، جلجل، جهر، خضخض، خطر، رتج، رج، رجح، وغيرُها"
+  },
+  {
    "european": "Shark",
    "arabic_root": "جل",
    "author_translit": "jilaal",
@@ -20871,6 +23319,38 @@
    "arabic_gloss": "shark (fish)",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sharp",
+   "arabic_root": "شطر",
+   "author_translit": "shaTara",
+   "arabic_gloss": "split",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Shave",
+   "arabic_root": "شف",
+   "author_translit": "shaffa",
+   "arabic_gloss": "to cut (branches)",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: خشب، شطب، شعب، عذق، قضب"
+  },
+  {
+   "european": "Shave",
+   "arabic_root": "قصر",
+   "author_translit": "qaSeera(t)",
+   "arabic_gloss": "short",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Shave",
+   "arabic_root": "نقصر",
+   "author_translit": "inqaSar",
+   "arabic_gloss": "short",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءلو، ءني، ادر، با، باك، برص، برق، بقي، وغيرُها"
   },
   {
    "european": "Sheep",
@@ -20945,6 +23425,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Shift",
+   "arabic_root": "زف",
+   "author_translit": "zaffa(t)",
+   "arabic_gloss": "to lift, to move",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: غرف"
+  },
+  {
    "european": "Shine",
    "arabic_root": "سن",
    "author_translit": "sana",
@@ -20983,6 +23471,14 @@
    "arabic_gloss": "of animals, loose shit",
    "source": "jassem-2013-animal",
    "bridge_agrees": "جذرٌ آخر: ءلف، الجذر، ام، بر، برش، برغش، بري، بشر، وغيرُها"
+  },
+  {
+   "european": "Shiver",
+   "arabic_root": "رجف",
+   "author_translit": "rajaf",
+   "arabic_gloss": "shiver",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Shoe",
@@ -21049,12 +23545,28 @@
    "bridge_agrees": "جذرٌ آخر: باك، بكا، بكي، دمع، نوح، هتف، وعوع"
   },
   {
+   "european": "Shovel",
+   "arabic_root": "رفش",
+   "author_translit": "rafsh",
+   "arabic_gloss": "shovel; kick",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: جرف، حفر، خبط، رجب، رغب، رفس، ركب، ركل، وغيرُها"
+  },
+  {
    "european": "Show",
    "arabic_root": "شع",
    "author_translit": "sha33",
    "arabic_gloss": "shine",
    "source": "jassem-2013-air-fire",
    "bridge_agrees": "جذرٌ آخر: ءلق، ءلل، برق، بهر، ججل، جوهر، خفق، خفي، وغيرُها"
+  },
+  {
+   "european": "Show",
+   "arabic_root": "شف",
+   "author_translit": "shaaf",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Shower",
@@ -21073,6 +23585,30 @@
    "bridge_agrees": "جذرٌ آخر: نطف"
   },
   {
+   "european": "Shred",
+   "arabic_root": "شرط",
+   "author_translit": "sharaTa",
+   "arabic_gloss": "shred",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: بد، خرق، شلو، فتت، قد"
+  },
+  {
+   "european": "Shred",
+   "arabic_root": "قصل",
+   "author_translit": "qaSala",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Shred",
+   "arabic_root": "لكم",
+   "author_translit": "lakam",
+   "arabic_gloss": "hit",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Shrine",
    "arabic_root": "مزر",
    "author_translit": "mazar",
@@ -21086,6 +23622,14 @@
    "author_translit": "shaarib",
    "arabic_gloss": "a young plant; moustache",
    "source": "jassem-2016-floral",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Shut",
+   "arabic_root": "وصد",
+   "author_translit": "awSada",
+   "arabic_gloss": "shut",
+   "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
   },
   {
@@ -21103,6 +23647,14 @@
    "arabic_gloss": "cut",
    "source": "jassem-2015-military",
    "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
+  },
+  {
+   "european": "Siege",
+   "arabic_root": "سج",
+   "author_translit": "siaaj",
+   "arabic_gloss": "enclosure, siege",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حجر، حصر، حظر، حوش، خمم، ربد، ستر، قبو، وغيرُها"
   },
   {
    "european": "Siesta",
@@ -21138,10 +23690,18 @@
   },
   {
    "european": "Silent",
+   "arabic_root": "سمعن",
+   "author_translit": "sam3aan",
+   "arabic_gloss": "hearer",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ساع"
+  },
+  {
+   "european": "Silent",
    "arabic_root": "صنت",
    "author_translit": "Saanit",
    "arabic_gloss": "silent",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: ءتءة، خرس، خرمس، خرمص، خفت، سكت، صمت، صه، وغيرُها"
   },
   {
@@ -21329,6 +23889,14 @@
    "bridge_agrees": "جذرٌ آخر: دير، رءس، رب، شيخ، عمد، عهل، قدم، كبر، وغيرُها"
   },
   {
+   "european": "Sit",
+   "arabic_root": "جث",
+   "author_translit": "jatha",
+   "arabic_gloss": "sit",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
+  },
+  {
    "european": "Six",
    "arabic_root": "ست",
    "author_translit": "sit",
@@ -21359,6 +23927,30 @@
    "arabic_gloss": "sizzle, burn, roast, fry",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: صلي"
+  },
+  {
+   "european": "Skate",
+   "arabic_root": "زحط",
+   "author_translit": "za2aT",
+   "arabic_gloss": "skate, slide, drag",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: زحلق، زلق"
+  },
+  {
+   "european": "Skate",
+   "arabic_root": "شحط",
+   "author_translit": "sha2aT",
+   "arabic_gloss": "skate, slide, drag",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Skate",
+   "arabic_root": "قفز",
+   "author_translit": "qafaz",
+   "arabic_gloss": "jump",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Skin",
@@ -21420,8 +24012,8 @@
    "european": "Slay",
    "arabic_root": "سلخ",
    "author_translit": "salakh",
-   "arabic_gloss": "to remove skin; kill",
-   "source": "jassem-2015-life-death",
+   "arabic_gloss": "to skin, to kill",
+   "source": "jassem-2013-cutting-breaking · jassem-2015-life-death",
    "bridge_agrees": "نعم"
   },
   {
@@ -21439,6 +24031,14 @@
    "arabic_gloss": "to hit; rub, cleanse",
    "source": "jassem-2015-life-death",
    "bridge_agrees": "جذرٌ آخر: ترك"
+  },
+  {
+   "european": "Sleep",
+   "arabic_root": "سنت",
+   "author_translit": "sinat",
+   "arabic_gloss": "sleepiness",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: سنة، عس"
   },
   {
    "european": "Sleep",
@@ -21465,6 +24065,70 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Sleigh",
+   "arabic_root": "زلج",
+   "author_translit": "zalaj",
+   "arabic_gloss": "slide, sleigh",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: زلق"
+  },
+  {
+   "european": "Sleigh",
+   "arabic_root": "زلق",
+   "author_translit": "zalaq",
+   "arabic_gloss": "slide, sleigh",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Slice",
+   "arabic_root": "زلط",
+   "author_translit": "zalaT",
+   "arabic_gloss": "to wound",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ام، بتر، برغش، بكر، جرح، جلب، جوف، خلب، وغيرُها"
+  },
+  {
+   "european": "Slice",
+   "arabic_root": "شلخ",
+   "author_translit": "shalakh",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
+  },
+  {
+   "european": "Slice",
+   "arabic_root": "صلم",
+   "author_translit": "Salam",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
+  },
+  {
+   "european": "Slide",
+   "arabic_root": "زلط",
+   "author_translit": "zalaT",
+   "arabic_gloss": "fall",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءني، بط، بطش، بغض، بلل، بهر، بهل، تر، وغيرُها"
+  },
+  {
+   "european": "Slide",
+   "arabic_root": "طر",
+   "author_translit": "Taara",
+   "arabic_gloss": "to fly",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها"
+  },
+  {
+   "european": "Smack",
+   "arabic_root": "صمق",
+   "author_translit": "Samaq",
+   "arabic_gloss": "smack, hit",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: بطش، جبل، جبه، جلد، جنب، جهر، جوف، حكم، وغيرُها"
+  },
+  {
    "european": "Smell",
    "arabic_root": "سبر",
    "author_translit": "subbar",
@@ -21477,7 +24141,7 @@
    "arabic_root": "شم",
    "author_translit": "shamm",
    "arabic_gloss": "smell",
-   "source": "jassem-2013-air-fire",
+   "source": "jassem-2013-air-fire · jassem-2013-perceptual-sensual",
    "bridge_agrees": "نعم"
   },
   {
@@ -21511,6 +24175,14 @@
    "arabic_gloss": "fly",
    "source": "jassem-2013-air-fire",
    "bridge_agrees": "جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها"
+  },
+  {
+   "european": "Smile",
+   "arabic_root": "صمل",
+   "author_translit": "Sammal",
+   "arabic_gloss": "move lips, smile",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءبب، ءتي، ءج، ءخذ، ءدي، برطم، بزبز، بسم، وغيرُها"
   },
   {
    "european": "Smoke",
@@ -21607,6 +24279,38 @@
    "arabic_gloss": "dip, submerge, food",
    "source": "jassem-2013-animal",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sneeze",
+   "arabic_root": "نشق",
+   "author_translit": "nashaq",
+   "arabic_gloss": "draw into nose",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sniff",
+   "arabic_root": "بص",
+   "author_translit": "baSSa",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Sniff",
+   "arabic_root": "شنف",
+   "author_translit": "shannaf",
+   "arabic_gloss": "to nose-sense",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءنف، باك، بر، بلج، بوز، حرم، حيا، خر، وغيرُها"
+  },
+  {
+   "european": "Snip",
+   "arabic_root": "نشب",
+   "author_translit": "nashab",
+   "arabic_gloss": "of arrows, to hit-cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: سر، يدي"
   },
   {
    "european": "Snow",
@@ -21833,6 +24537,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Spade",
+   "arabic_root": "صب",
+   "author_translit": "Saabba(t)",
+   "arabic_gloss": "a digging tool, a spade",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: سحا"
+  },
+  {
    "european": "Spark",
    "arabic_root": "قبس",
    "author_translit": "qabas",
@@ -21893,8 +24605,16 @@
    "arabic_root": "سبل",
    "author_translit": "sabal",
    "arabic_gloss": "a spear of wheat; arrow",
-   "source": "jassem-2016-floral",
+   "source": "jassem-2016-floral · jassem-2013-cutting-breaking",
    "bridge_agrees": "جذرٌ آخر: زج، سدس، شجب، عرن"
+  },
+  {
+   "european": "Spear",
+   "arabic_root": "سبلت",
+   "author_translit": "sabalat",
+   "arabic_gloss": "arrow head",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: رصف، زلم، سار، عرن"
   },
   {
    "european": "Spear",
@@ -21902,6 +24622,14 @@
    "author_translit": "safeeh",
    "arabic_gloss": "chief, leader; stupid, silly",
    "source": "jassem-2015-military",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Spear",
+   "arabic_root": "شوك",
+   "author_translit": "shawk",
+   "arabic_gloss": "thorn",
+   "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -21919,6 +24647,22 @@
    "arabic_gloss": "walking stick, rod",
    "source": "jassem-2015-military",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Speed",
+   "arabic_root": "سبق",
+   "author_translit": "sabaq",
+   "arabic_gloss": "speed, race",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Speed",
+   "arabic_root": "شربعن",
+   "author_translit": "sharba3(aan)",
+   "arabic_gloss": "climb",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: رفع، رقي، زلق، سلق، سنم، شبط، صعد، ظهر، وغيرُها"
   },
   {
    "european": "Spew",
@@ -21975,6 +24719,14 @@
    "arabic_gloss": "bathe",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "جذرٌ آخر: ءدو، حم، حمم، غسل"
+  },
+  {
+   "european": "Split",
+   "arabic_root": "بزل",
+   "author_translit": "bazal(at)",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
   },
   {
    "european": "Spoil",
@@ -22097,6 +24849,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Squat",
+   "arabic_root": "قعد",
+   "author_translit": "qa3ad",
+   "arabic_gloss": "sit",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Stable",
+   "arabic_root": "جث",
+   "author_translit": "jatha",
+   "arabic_gloss": "sit",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
+  },
+  {
    "european": "Stair",
    "arabic_root": "درج",
    "author_translit": "daraj",
@@ -22121,12 +24889,44 @@
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
+   "european": "Stake",
+   "arabic_root": "خزق",
+   "author_translit": "khaazooq",
+   "arabic_gloss": "stake",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Stalk",
    "arabic_root": "قصل",
    "author_translit": "qaSala(t)",
    "arabic_gloss": "a stalk",
    "source": "jassem-2016-floral",
    "bridge_agrees": "جذرٌ آخر: بجل، ثفر، ساق، سقي، سوق، شمخ، عود، قصب، وغيرُها"
+  },
+  {
+   "european": "Stall",
+   "arabic_root": "عطل",
+   "author_translit": "3aTal",
+   "arabic_gloss": "stall, stop working",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Stand",
+   "arabic_root": "ستند",
+   "author_translit": "istanda",
+   "arabic_gloss": "support, stand, sit upright",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: قعد"
+  },
+  {
+   "european": "Stand",
+   "arabic_root": "سند",
+   "author_translit": "sanada",
+   "arabic_gloss": "support, stand, sit upright",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Start",
@@ -22157,7 +24957,7 @@
    "arabic_root": "جث",
    "author_translit": "jatha",
    "arabic_gloss": "sit",
-   "source": "jassem-2015-urban",
+   "source": "jassem-2013-movement-action · jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
   },
   {
@@ -22257,6 +25057,30 @@
    "bridge_agrees": "جذرٌ آخر: بثق، بج، بجس، بخ، تير، جدل، جري، خاض، وغيرُها"
   },
   {
+   "european": "Step",
+   "arabic_root": "بحص",
+   "author_translit": "ba2S(at)",
+   "arabic_gloss": "stones",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: بذر، ثفي، حلب، حيط، راس، رجم، رصص، زبر، وغيرُها"
+  },
+  {
+   "european": "Step",
+   "arabic_root": "طب",
+   "author_translit": "Tabba(t)",
+   "arabic_gloss": "step, stepping",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءبن، بدء، برز، جيل، خطا، خطو، در، دعس، وغيرُها"
+  },
+  {
+   "european": "Stick",
+   "arabic_root": "غز",
+   "author_translit": "ghazza(t)",
+   "arabic_gloss": "stick in",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءبن، برز، بيت، تقع، جرثم، حرب، خز، خس، وغيرُها"
+  },
+  {
    "european": "Still",
    "arabic_root": "زل",
    "author_translit": "zalla",
@@ -22265,11 +25089,27 @@
    "bridge_agrees": "جذرٌ آخر: خلص"
   },
   {
+   "european": "Still",
+   "arabic_root": "ظل",
+   "author_translit": "Dhalla",
+   "arabic_gloss": "stay still",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: وطن"
+  },
+  {
+   "european": "Sting",
+   "arabic_root": "صك",
+   "author_translit": "Sakka",
+   "arabic_gloss": "press teeth",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: كلس"
+  },
+  {
    "european": "Sting",
    "arabic_root": "نغز",
    "author_translit": "naghaz",
    "arabic_gloss": "sting",
-   "source": "jassem-2013-animal",
+   "source": "jassem-2013-animal · jassem-2013-cutting-breaking · jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: ءبر، حرق، حم، خلب، سمم، شوك، طعن، عقرب، وغيرُها"
   },
   {
@@ -22295,6 +25135,22 @@
    "arabic_gloss": "dry grass, plants, or trees",
    "source": "jassem-2016-floral",
    "bridge_agrees": "جذرٌ آخر: بست، بوص، جرد، حشش، خضر، دبق، دسس، رز، وغيرُها"
+  },
+  {
+   "european": "Stop",
+   "arabic_root": "قلب",
+   "author_translit": "qalab",
+   "arabic_gloss": "turn over",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Stop",
+   "arabic_root": "مقلب",
+   "author_translit": "maqlab",
+   "arabic_gloss": "turn over",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءسلم، بعثر، ثني، حمر، دحرج، دهم، صفق، عزف، وغيرُها"
   },
   {
    "european": "Story",
@@ -22402,6 +25258,14 @@
   },
   {
    "european": "Strike",
+   "arabic_root": "جرف",
+   "author_translit": "jaraf",
+   "arabic_gloss": "of water, take away",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Strike",
    "arabic_root": "خطت",
    "author_translit": "khiTat",
    "arabic_gloss": "plan, planning",
@@ -22434,11 +25298,27 @@
   },
   {
    "european": "Strike",
+   "arabic_root": "شرق",
+   "author_translit": "sharaq",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
+  },
+  {
+   "european": "Strike",
    "arabic_root": "شفق",
    "author_translit": "shafaqa(t)",
    "arabic_gloss": "sympathy, kindness",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Strike",
+   "arabic_root": "صبر",
+   "author_translit": "Subbar",
+   "arabic_gloss": "high",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها"
   },
   {
    "european": "Strike",
@@ -22460,9 +25340,9 @@
    "european": "Strike",
    "arabic_root": "طرق",
    "author_translit": "Taraq",
-   "arabic_gloss": "hit",
-   "source": "jassem-2015-democratic",
-   "bridge_agrees": "جذرٌ آخر: بطش، جبل، جبه، جلد، جنب، جهر، جوف، حكم، وغيرُها"
+   "arabic_gloss": "strike",
+   "source": "jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2015-democratic",
+   "bridge_agrees": "جذرٌ آخر: بدر، بطش، بطن، بغت، تنس، جبه، حدج، حذف، وغيرُها"
   },
   {
    "european": "Strike",
@@ -22721,11 +25601,43 @@
    "bridge_agrees": "جذرٌ آخر: ءتي، ءلف، ءمل، بعد، جن، جول، حس، خيل، وغيرُها"
   },
   {
+   "european": "Surmount",
+   "arabic_root": "ظهر",
+   "author_translit": "Dhahr",
+   "arabic_gloss": "back",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Surveillance",
+   "arabic_root": "ظهر",
+   "author_translit": "Dhahr",
+   "arabic_gloss": "back, top",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Survey",
+   "arabic_root": "صبر",
+   "author_translit": "Subbar",
+   "arabic_gloss": "high",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها"
+  },
+  {
    "european": "Swallow",
    "arabic_root": "زلع",
    "author_translit": "zala3",
    "arabic_gloss": "swallow",
    "source": "jassem-2013-water-sea",
+   "bridge_agrees": "جذرٌ آخر: بلع، جرع، خسف، زءم، زرد، زقم، سرط، سنو، وغيرُها"
+  },
+  {
+   "european": "Swallow",
+   "arabic_root": "زولع",
+   "author_translit": "za(w)la3",
+   "arabic_gloss": "swallow",
+   "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: بلع، جرع، خسف، زءم، زرد، زقم، سرط، سنو، وغيرُها"
   },
   {
@@ -22743,6 +25655,14 @@
    "arabic_gloss": "swimming pool",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "جذرٌ آخر: سبح"
+  },
+  {
+   "european": "Swallow",
+   "arabic_root": "نعس",
+   "author_translit": "nu3aas",
+   "arabic_gloss": "sleepiness",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: سنة، عس"
   },
   {
    "european": "Swear",
@@ -22857,12 +25777,28 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Swing",
+   "arabic_root": "جنح",
+   "author_translit": "janaa2",
+   "arabic_gloss": "wing",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Swish",
    "arabic_root": "سوك",
    "author_translit": "sawak",
    "arabic_gloss": "to rub one",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: ترك، جرن، حدد، حف، حك، حكك، حنك، خربش، وغيرُها"
+  },
+  {
+   "european": "Switch",
+   "arabic_root": "فتح",
+   "author_translit": "fata2",
+   "arabic_gloss": "open, switch",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Swoon",
@@ -23049,11 +25985,27 @@
    "bridge_agrees": "جذرٌ آخر: ءثر، ءدم، ءنا، ءنتن، ءهل، اس، الصمم، باب، وغيرُها"
   },
   {
+   "european": "Tangible",
+   "arabic_root": "طج",
+   "author_translit": "Tajja",
+   "arabic_gloss": "beat-touch",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءثر، ءجن، اصل، بذذ، بض، بوس، تخم، تول، وغيرُها"
+  },
+  {
+   "european": "Tangible",
+   "arabic_root": "نطج",
+   "author_translit": "inTajja",
+   "arabic_gloss": "beat-touch",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءثر، ءجن، اصل، بذذ، بض، بوس، تخم، تول، وغيرُها"
+  },
+  {
    "european": "Taste",
    "arabic_root": "ذق",
    "author_translit": "dhaaq",
    "arabic_gloss": "taste",
-   "source": "jassem-2014-wining-dining",
+   "source": "jassem-2013-perceptual-sensual · jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: ءجن، ءس، ابل، حس، حلو، خمط، دري، دوغ، وغيرُها"
   },
   {
@@ -23061,8 +26013,16 @@
    "arabic_root": "ذوق",
    "author_translit": "dhawq(at)",
    "arabic_gloss": "taste",
-   "source": "jassem-2014-wining-dining",
+   "source": "jassem-2013-perceptual-sensual · jassem-2014-wining-dining",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Taste",
+   "arabic_root": "زق",
+   "author_translit": "zauq",
+   "arabic_gloss": "ethic, manners",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءدب، ءمر، جمل، خشن، خلق، ذوق، ربو، سلك، وغيرُها"
   },
   {
    "european": "Tavern",
@@ -23079,6 +26039,22 @@
    "arabic_gloss": "spices",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: بهر، جبز"
+  },
+  {
+   "european": "Tear",
+   "arabic_root": "تر",
+   "author_translit": "tarra",
+   "arabic_gloss": "tear, cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Tear",
+   "arabic_root": "حرب",
+   "author_translit": "2arba(t)",
+   "arabic_gloss": "lance",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: دفل، رمح، سنن، شك، طعن، طلق، فطر، قذف، وغيرُها"
   },
   {
    "european": "Tear",
@@ -23270,6 +26246,14 @@
    "author_translit": "Tawr",
    "arabic_gloss": "time, term",
    "source": "jassem-2013-time",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Terse",
+   "arabic_root": "قصر",
+   "author_translit": "qaSeer",
+   "arabic_gloss": "short, brief",
+   "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -23577,6 +26561,14 @@
    "bridge_agrees": "جذرٌ آخر: ءتي، ءسلم، ءفك، ءول، ءيض، بخر، برم، بعثر، وغيرُها"
   },
   {
+   "european": "Throw",
+   "arabic_root": "ذر",
+   "author_translit": "dharra",
+   "arabic_gloss": "throw",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Thrush",
    "arabic_root": "زرزر",
    "author_translit": "zarzoor",
@@ -23607,6 +26599,30 @@
    "arabic_gloss": "garlic",
    "source": "jassem-2016-floral",
    "bridge_agrees": "جذرٌ آخر: باج، بست، ثوم، حمص، طباهج، فصص، ليغ"
+  },
+  {
+   "european": "Tick",
+   "arabic_root": "حت",
+   "author_translit": "2atta",
+   "arabic_gloss": "until, till, to",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءلو، حتي، ريث"
+  },
+  {
+   "european": "Tick",
+   "arabic_root": "طق",
+   "author_translit": "Taq",
+   "arabic_gloss": "tick",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: بق، تك، قرد، نبر"
+  },
+  {
+   "european": "Tickle",
+   "arabic_root": "دغدغ",
+   "author_translit": "dagh(dagh)",
+   "arabic_gloss": "tickle",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Tiger",
@@ -23777,12 +26793,36 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Tool",
+   "arabic_root": "لت",
+   "author_translit": "aalat",
+   "arabic_gloss": "tool, device",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءدا، ءدو، ءل، ءول، اد، عد، وسل"
+  },
+  {
+   "european": "Topple",
+   "arabic_root": "قلب",
+   "author_translit": "qalab",
+   "arabic_gloss": "topple",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: خلع، سقط، كبب، كفء"
+  },
+  {
    "european": "Tortoise",
    "arabic_root": "درد",
    "author_translit": "adrad",
    "arabic_gloss": "toothless; turtle",
    "source": "jassem-2013-animal",
    "bridge_agrees": "جذرٌ آخر: رس، رق، صدف، ضهر، غلم، لجء"
+  },
+  {
+   "european": "Touch",
+   "arabic_root": "طخ",
+   "author_translit": "Takhkha",
+   "arabic_gloss": "strike",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: بدر، بطش، بطن، بغت، تنس، جبه، حدج، حذف، وغيرُها"
   },
   {
    "european": "Tough",
@@ -23817,12 +26857,28 @@
    "bridge_agrees": "جذرٌ آخر: ءزر، ءيد، بءس، بطش، تعب، حدد، حيل، خلق، وغيرُها"
   },
   {
+   "european": "Tour",
+   "arabic_root": "طرء",
+   "author_translit": "Turra'",
+   "arabic_gloss": "tourist",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: جول، سيح"
+  },
+  {
    "european": "Toward",
    "arabic_root": "در",
    "author_translit": "daar",
-   "arabic_gloss": "to take care of, watch",
-   "source": "jassem-2014-prepositions",
-   "bridge_agrees": "جذرٌ آخر: حرس، رقب"
+   "arabic_gloss": "house, home, ward",
+   "source": "jassem-2013-movement-action · jassem-2014-prepositions",
+   "bridge_agrees": "جذرٌ آخر: بيت، زل، سكن، مسكن"
+  },
+  {
+   "european": "Toward",
+   "arabic_root": "دور",
+   "author_translit": "dawra(t)",
+   "arabic_gloss": "turn",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءسلم، ءفك، ءول، ءيض، بخر، برم، بعثر، وغيرُها"
   },
   {
    "european": "Toward",
@@ -23846,6 +26902,38 @@
    "author_translit": "Tareeq",
    "arabic_gloss": "road",
    "source": "jassem-2015-urban",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Trap",
+   "arabic_root": "ربط",
+   "author_translit": "rabaT",
+   "arabic_gloss": "bind, trap",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Travel",
+   "arabic_root": "ترحل",
+   "author_translit": "tir2aal",
+   "arabic_gloss": "travel, moving place",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: عرج، وقف"
+  },
+  {
+   "european": "Tread",
+   "arabic_root": "ضرب",
+   "author_translit": "Darab",
+   "arabic_gloss": "travel, beat",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Tread",
+   "arabic_root": "طرد",
+   "author_translit": "Taarad",
+   "arabic_gloss": "run",
+   "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
   },
   {
@@ -23961,6 +27049,14 @@
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
+   "european": "Trim",
+   "arabic_root": "رتم",
+   "author_translit": "ratama",
+   "arabic_gloss": "to break, smash",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: رضخ، صقع، قصف، كسر"
+  },
+  {
    "european": "Troop",
    "arabic_root": "ثرب",
    "author_translit": "tharb",
@@ -24073,6 +27169,22 @@
    "bridge_agrees": "جذرٌ آخر: ترب، جرف، راب، ردم، سفو، كفر"
   },
   {
+   "european": "Tumble",
+   "arabic_root": "قلب",
+   "author_translit": "qalab",
+   "arabic_gloss": "topple",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: خلع، سقط، كبب، كفء"
+  },
+  {
+   "european": "Tumble",
+   "arabic_root": "مقلب",
+   "author_translit": "maqloob",
+   "arabic_gloss": "topple",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: خلع، سقط، كبب، كفء"
+  },
+  {
    "european": "Tunic",
    "arabic_root": "نطق",
    "author_translit": "niTaaq",
@@ -24087,6 +27199,14 @@
    "arabic_gloss": "male chicken",
    "source": "jassem-2013-animal",
    "bridge_agrees": "جذرٌ آخر: بيض، ديك"
+  },
+  {
+   "european": "Turn",
+   "arabic_root": "دورن",
+   "author_translit": "dawaraan",
+   "arabic_gloss": "turning round",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: كور"
   },
   {
    "european": "Turnip",
@@ -24183,6 +27303,14 @@
    "arabic_gloss": "twist, bend",
    "source": "jassem-2016-fashion",
    "bridge_agrees": "جذرٌ آخر: ثني، حرف، حنا، حنو، حني، قوس، لفت، لوي"
+  },
+  {
+   "european": "Twist",
+   "arabic_root": "عب",
+   "author_translit": "3abaab",
+   "arabic_gloss": "highest",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: ءس، بطرك، حرب، ذرو، رفع، زاد، زبد، زيد، وغيرُها"
   },
   {
    "european": "Twister",
@@ -24529,6 +27657,14 @@
    "bridge_agrees": "جذرٌ آخر: جوت، حبل، خيط، قنبر، لفف، ليف"
   },
   {
+   "european": "Vent",
+   "arabic_root": "نفذ",
+   "author_translit": "nafadha",
+   "arabic_gloss": "to penetrate, vent, window",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Verb",
    "arabic_root": "ذرب",
    "author_translit": "dharab",
@@ -24561,6 +27697,14 @@
    "bridge_agrees": "جذرٌ آخر: شير، صعد، عين، قبر، قفف"
   },
   {
+   "european": "Vibrate",
+   "arabic_root": "ضرب",
+   "author_translit": "Darab(at)",
+   "arabic_gloss": "beat, vibrate",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Vice",
    "arabic_root": "وص",
    "author_translit": "waSee",
@@ -24591,6 +27735,30 @@
    "arabic_gloss": "farmer",
    "source": "jassem-2015-military",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Video",
+   "arabic_root": "وضح",
+   "author_translit": "waDa2",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Vigil",
+   "arabic_root": "وجل",
+   "author_translit": "wajal",
+   "arabic_gloss": "fearful",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Vigil",
+   "arabic_root": "وضح",
+   "author_translit": "waDa2a",
+   "arabic_gloss": "see",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Villa",
@@ -24777,6 +27945,14 @@
    "bridge_agrees": "جذرٌ آخر: ءتي، ءج، ءخر، ءمر، ءمل، ءني، ءهل، ءوب، وغيرُها"
   },
   {
+   "european": "Wake",
+   "arabic_root": "فق",
+   "author_translit": "faaqa",
+   "arabic_gloss": "wake",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: سحر، صبح، صحح، صحو، فوق، نبه، نفض، يقظ"
+  },
+  {
    "european": "Walk",
    "arabic_root": "وجه",
    "author_translit": "wajh",
@@ -24789,7 +27965,7 @@
    "arabic_root": "ولق",
    "author_translit": "walaq",
    "arabic_gloss": "walk",
-   "source": "jassem-2015-urban",
+   "source": "jassem-2013-movement-action · jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها"
   },
   {
@@ -24988,9 +28164,9 @@
    "european": "Wary",
    "arabic_root": "ورع",
    "author_translit": "wari3",
-   "arabic_gloss": "careful, wary, fearful",
-   "source": "jassem-2015-life-death",
-   "bridge_agrees": "نعم"
+   "arabic_gloss": "fearful",
+   "source": "jassem-2013-perceptual-sensual · jassem-2015-life-death",
+   "bridge_agrees": "جذرٌ آخر: جب، حرص، حريص، خاف، خوف، رعب، رهب، فزع، وغيرُها"
   },
   {
    "european": "Wash",
@@ -25023,6 +28199,14 @@
    "arabic_gloss": "male bee",
    "source": "jassem-2013-animal",
    "bridge_agrees": "جذرٌ آخر: زبر"
+  },
+  {
+   "european": "Watch",
+   "arabic_root": "حدج",
+   "author_translit": "2adaja",
+   "arabic_gloss": "see, look",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Water",
@@ -25226,6 +28410,14 @@
   },
   {
    "european": "Wear",
+   "arabic_root": "هر",
+   "author_translit": "hara",
+   "arabic_gloss": "wear out",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءكل، بلو، بلي، تعب، خفف، داب، سحق، عرك، وغيرُها"
+  },
+  {
+   "european": "Wear",
    "arabic_root": "ور",
    "author_translit": "waara",
    "arabic_gloss": "to hide, to wear",
@@ -25389,8 +28581,16 @@
    "arabic_root": "ءن",
    "author_translit": "'anna",
    "arabic_gloss": "whine, moan",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: ءنن، ءوه، نين، همم"
+  },
+  {
+   "european": "Whine",
+   "arabic_root": "عن",
+   "author_translit": "3ain",
+   "arabic_gloss": "eye",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "جذرٌ آخر: ءقي، بخص، بشع، بوم، تبل، جحم، جفن، جن، وغيرُها"
   },
   {
    "european": "Whisky",
@@ -25745,6 +28945,14 @@
    "bridge_agrees": "جذرٌ آخر: جارية، فتا"
   },
   {
+   "european": "Wonder",
+   "arabic_root": "نظر",
+   "author_translit": "naDhar",
+   "arabic_gloss": "see, look",
+   "source": "jassem-2013-perceptual-sensual",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Wood",
    "arabic_root": "وجد",
    "author_translit": "wajda(t)",
@@ -25775,6 +28983,46 @@
    "arabic_gloss": "cry",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: ءبب، ءل، ءن، ادي، بكا، بكي، بي، ثغا، وغيرُها"
+  },
+  {
+   "european": "Work",
+   "arabic_root": "حدث",
+   "author_translit": "2adeeth",
+   "arabic_gloss": "talk",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Work",
+   "arabic_root": "حرك",
+   "author_translit": "2araka",
+   "arabic_gloss": "move, work",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Work",
+   "arabic_root": "حق",
+   "author_translit": "2aqq",
+   "arabic_gloss": "right, law, actual",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Work",
+   "arabic_root": "حقت",
+   "author_translit": "a2aqqiat",
+   "arabic_gloss": "right, law, actual",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "جذرٌ آخر: حقق، خلع، عدل، عمي، نقض"
+  },
+  {
+   "european": "Work",
+   "arabic_root": "كد",
+   "author_translit": "kadd",
+   "arabic_gloss": "work",
+   "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Worm",
@@ -25823,6 +29071,14 @@
    "arabic_gloss": "glorify, purify, worship, bathe",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: بجل، ثني، حمد، طري، قدس، مدح"
+  },
+  {
+   "european": "Wound",
+   "arabic_root": "طن",
+   "author_translit": "Tanna",
+   "arabic_gloss": "cut",
+   "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
   },
   {
    "european": "Write",
