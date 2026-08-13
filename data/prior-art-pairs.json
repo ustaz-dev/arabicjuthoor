@@ -45,6 +45,7 @@
   "jassem-2015-life-death",
   "jassem-2015-medical",
   "jassem-2015-urban",
+  "jassem-2016-definite",
   "jassem-2016-entirely-arabic",
   "jassem-2017-harper-review",
   "jassem-2017-myth-fallacy",
@@ -96,6 +97,7 @@
   "jassem-2015-life-death": "https://ijee.org/ijee/article/download/923/915",
   "jassem-2015-medical": "https://www.joell.in/wp-content/uploads/2015/08/Zaidan-Ali-Jassem.pdf",
   "jassem-2015-urban": "https://journal.uniku.ac.id/index.php/ERJEE/article/download/204/161",
+  "jassem-2016-definite": "https://web.archive.org/web/20200320043645id_/https://ijellh.com/OJS/index.php/OJS/article/download/1489/8673",
   "jassem-2016-entirely-arabic": "https://ijee.org/ijee/article/download/670/663",
   "jassem-2017-harper-review": "https://ijee.org/ijee/article/download/270/265",
   "jassem-2017-myth-fallacy": "https://joell.in/wp-content/uploads/2017/01/Myth-and-Fallacy-in-the-Oxford-English-Dictionary.pdf",
@@ -169,7 +171,7 @@
   {
    "source": "jassem-2016-definite-ojs",
    "url": "https://ijellh.com/OJS/index.php/OJS/article/download/1489/8673",
-   "reason": "ردّ مسارُ OJS القديم 404"
+   "reason": "ردّ مسارُ OJS الحالي 404؛ واستُبدل بلقطةِ PDF رسميّةٍ صالحةٍ مؤرَّخةٍ في 2020-03-20"
   },
   {
    "source": "jassem-2016-definite-legacy",
@@ -212,13 +214,13 @@
    "reason": "ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح"
   }
  ],
- "pairs": 4291,
+ "pairs": 4300,
  "stats": {
-  "papers_downloaded": 49,
+  "papers_downloaded": 50,
   "with_european_head": 4152,
-  "head_coverage": 0.9676,
-  "bridge_agrees": 1579,
-  "unique_roots": 1926,
+  "head_coverage": 0.9656,
+  "bridge_agrees": 1580,
+  "unique_roots": 1929,
   "roots_in_positive_cards": 292
  },
  "rows": [
@@ -272,10 +274,18 @@
   },
   {
    "european": "",
+   "arabic_root": "ءلء",
+   "author_translit": "'ula'i",
+   "arabic_gloss": "these",
+   "source": "jassem-2016-definite",
+   "bridge_agrees": "جذرٌ آخر: ءولي، اد، ان، دد، ساخ، سام، صطب، صقع، وغيرُها"
+  },
+  {
+   "european": "",
    "arabic_root": "ءمر",
    "author_translit": "'imara(t)",
    "arabic_gloss": "emirate, princedom",
-   "source": "jassem-2019-mr · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
+   "source": "jassem-2019-mr · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
    "bridge_agrees": "نعم"
   },
   {
@@ -323,7 +333,7 @@
    "arabic_root": "بصر",
    "author_translit": "baSar",
    "arabic_gloss": "see",
-   "source": "jassem-2013-perceptual-sensual · jassem-2018-week-days",
+   "source": "jassem-2013-perceptual-sensual · jassem-2016-definite · jassem-2018-week-days",
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
@@ -371,7 +381,7 @@
    "arabic_root": "بن",
    "author_translit": "baien",
    "arabic_gloss": "clear, plain",
-   "source": "jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names",
+   "source": "jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite",
    "bridge_agrees": "جذرٌ آخر: بدو، بين، فصح، وضح"
   },
   {
@@ -408,6 +418,14 @@
   },
   {
    "european": "",
+   "arabic_root": "ثت",
+   "author_translit": "that",
+   "arabic_gloss": "that (f); whose",
+   "source": "jassem-2016-definite",
+   "bridge_agrees": "جذرٌ آخر: ءسماعيل، افق، التي، الذي، الذين، بيض، تيل، تيم، وغيرُها"
+  },
+  {
+   "european": "",
    "arabic_root": "ثر",
    "author_translit": "thaur",
    "arabic_gloss": "bull",
@@ -419,7 +437,7 @@
    "arabic_root": "ثلث",
    "author_translit": "thalath",
    "arabic_gloss": "three",
-   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2018-week-days",
+   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2018-week-days",
    "bridge_agrees": "نعم"
   },
   {
@@ -555,7 +573,7 @@
    "arabic_root": "زبر",
    "author_translit": "zabar",
    "arabic_gloss": "write; originally cut",
-   "source": "jassem-2015-case-word-order · jassem-2018-week-days",
+   "source": "jassem-2015-case-word-order · jassem-2016-definite · jassem-2018-week-days",
    "bridge_agrees": "نعم"
   },
   {
@@ -571,7 +589,7 @@
    "arabic_root": "زن",
    "author_translit": "zain",
    "arabic_gloss": "beautiful",
-   "source": "jassem-2018-week-days",
+   "source": "jassem-2016-definite · jassem-2018-week-days",
    "bridge_agrees": "جذرٌ آخر: ءنق، برج، بهج، بهي، جمل، جود، حسن، حيل، وغيرُها"
   },
   {
@@ -643,7 +661,7 @@
    "arabic_root": "شن",
    "author_translit": "shain",
    "arabic_gloss": "bad",
-   "source": "jassem-2018-week-days",
+   "source": "jassem-2016-definite · jassem-2018-week-days",
    "bridge_agrees": "جذرٌ آخر: بخر، بد، بعد، تن، جزل، جور، خبث، دخن، وغيرُها"
   },
   {
@@ -832,6 +850,14 @@
   },
   {
    "european": "",
+   "arabic_root": "فت",
+   "author_translit": "fata(t)",
+   "arabic_gloss": "boy, girl",
+   "source": "jassem-2016-definite",
+   "bridge_agrees": "جذرٌ آخر: رجل، فيج"
+  },
+  {
+   "european": "",
    "arabic_root": "فحش",
    "author_translit": "fu2sh",
    "arabic_gloss": "vice",
@@ -891,7 +917,7 @@
    "arabic_root": "قرءت",
    "author_translit": "qira'at",
    "arabic_gloss": "reading",
-   "source": "jassem-2018-week-days",
+   "source": "jassem-2016-definite · jassem-2018-week-days",
    "bridge_agrees": "جذرٌ آخر: حزب، صحف، ضد، قرء، كتب"
   },
   {
@@ -915,7 +941,7 @@
    "arabic_root": "قرط",
    "author_translit": "qeeraaT",
    "arabic_gloss": "1/4",
-   "source": "jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2017-myth-fallacy · jassem-2018-week-days",
+   "source": "jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2017-myth-fallacy · jassem-2018-week-days",
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
@@ -957,6 +983,14 @@
    "arabic_gloss": "gist",
    "source": "jassem-2017-harper-review",
    "bridge_agrees": "جذرٌ آخر: لبب"
+  },
+  {
+   "european": "",
+   "arabic_root": "قط",
+   "author_translit": "alqiT",
+   "arabic_gloss": "the cat",
+   "source": "jassem-2016-definite",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "",
@@ -1096,6 +1130,14 @@
   },
   {
    "european": "",
+   "arabic_root": "لد",
+   "author_translit": "lad(eed)",
+   "arabic_gloss": "side",
+   "source": "jassem-2016-definite",
+   "bridge_agrees": "جذرٌ آخر: ءدم، تل، تيز، ثني، جحف، جد، جدد، جفء، وغيرُها"
+  },
+  {
+   "european": "",
    "arabic_root": "لسن",
    "author_translit": "lisaan",
    "arabic_gloss": "tongue",
@@ -1139,7 +1181,7 @@
    "arabic_root": "مر",
    "author_translit": "mar(ra)",
    "arabic_gloss": "pass, go",
-   "source": "jassem-verb-to-be · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
+   "source": "jassem-verb-to-be · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
    "bridge_agrees": "نعم"
   },
   {
@@ -1147,7 +1189,7 @@
    "arabic_root": "مرء",
    "author_translit": "mar'a(t)",
    "arabic_gloss": "woman, wife",
-   "source": "jassem-2013-family · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
+   "source": "jassem-2013-family · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
    "bridge_agrees": "نعم"
   },
   {
@@ -1171,7 +1213,7 @@
    "arabic_root": "مرع",
    "author_translit": "mar3a",
    "arabic_gloss": "grazing ground",
-   "source": "jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
+   "source": "jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
    "bridge_agrees": "جذرٌ آخر: ضيع"
   },
   {
@@ -1203,7 +1245,7 @@
    "arabic_root": "مهر",
    "author_translit": "muhra(t)",
    "arabic_gloss": "mare",
-   "source": "jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
+   "source": "jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
    "bridge_agrees": "جذرٌ آخر: بغل، حجر، عود، فرس"
   },
   {
@@ -1227,7 +1269,7 @@
    "arabic_root": "نحس",
    "author_translit": "na2s",
    "arabic_gloss": "bad",
-   "source": "jassem-2018-week-days",
+   "source": "jassem-2016-definite · jassem-2018-week-days",
    "bridge_agrees": "نعم"
   },
   {
@@ -1256,11 +1298,43 @@
   },
   {
    "european": "",
+   "arabic_root": "هث",
+   "author_translit": "hatha",
+   "arabic_gloss": "this",
+   "source": "jassem-2016-definite",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "",
    "arabic_root": "هدم",
    "author_translit": "hidm",
    "arabic_gloss": "dress",
    "source": "jassem-2017-harper-review",
    "bridge_agrees": "جذرٌ آخر: ءل، بدل، بذل، برنس، بهر، ثوب، جلبب، دبج، وغيرُها"
+  },
+  {
+   "european": "",
+   "arabic_root": "هذ",
+   "author_translit": "(haa)dha",
+   "arabic_gloss": "this",
+   "source": "jassem-2016-definite",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "",
+   "arabic_root": "هش",
+   "author_translit": "heech)",
+   "arabic_gloss": "thus",
+   "source": "jassem-2016-definite",
+   "bridge_agrees": "جذرٌ آخر: ءذا، ءين، خلع، رجع، شيص، صوت، غرز، ف، وغيرُها"
+  },
+  {
+   "european": "",
+   "arabic_root": "هك",
+   "author_translit": "haik",
+   "arabic_gloss": "thus",
+   "source": "jassem-2016-definite",
+   "bridge_agrees": "جذرٌ آخر: ءذا، ءين، خلع، رجع، شيص، صوت، غرز، ف، وغيرُها"
   },
   {
    "european": "",
@@ -1315,7 +1389,7 @@
    "arabic_root": "ير",
    "author_translit": "uyar",
    "arabic_gloss": "air",
-   "source": "jassem-2018-week-days",
+   "source": "jassem-2016-definite · jassem-2018-week-days",
    "bridge_agrees": "جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها"
   },
   {

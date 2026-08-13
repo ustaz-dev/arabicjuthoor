@@ -6,11 +6,11 @@
 من الصِّلات». فهذه أزواجٌ اقتَرَحَها باحِثونَ قَبلَنا، جُمِعَت كما هي، ولم يُرَدَّ
 منها زَوجٌ لأنّ صاحِبَه لم يَذكُرْ له قانونًا. الحُكمُ بَعدَ الحَصادِ لا قَبلَه.
 
-**العَدَد: 4291 زَوجًا** من 49 بَحثًا مفتوحَ الوصول.
+**العَدَد: 4300 زَوجًا** من 50 بَحثًا مفتوحَ الوصول.
 
-حَمَلَ 4152 صفًّا رأسَ المَدخلِ الأوربِيَّ، أي 96.8% من الحَصيلة. وفُحِصَت عَيِّنةٌ موزَّعةٌ من 20 صفًّا ذي رأسٍ، فكانَ الرأسُ فيها عنوانَ المَدخلِ لا لفظًا من وَسَطِ الفِقرة.
+حَمَلَ 4152 صفًّا رأسَ المَدخلِ الأوربِيَّ، أي 96.6% من الحَصيلة. وفُحِصَت عَيِّنةٌ موزَّعةٌ من 20 صفًّا ذي رأسٍ، فكانَ الرأسُ فيها عنوانَ المَدخلِ لا لفظًا من وَسَطِ الفِقرة.
 
-وافَقَ جِسرُ المَعنى الجَذرَ نفسَه في 1579 زَوجًا. وفي الحَصادِ 1926 جَذرًا مُتَمايِزًا، وَرَدَ منها 292 جَذرًا في بِطاقاتِ القِراءةِ ذاتِ حُكمٍ مُوجَبٍ صادِر.
+وافَقَ جِسرُ المَعنى الجَذرَ نفسَه في 1580 زَوجًا. وفي الحَصادِ 1929 جَذرًا مُتَمايِزًا، وَرَدَ منها 292 جَذرًا في بِطاقاتِ القِراءةِ ذاتِ حُكمٍ مُوجَبٍ صادِر.
 
 ## المَصادِرُ المُنزَّلة
 
@@ -57,6 +57,7 @@
 | jassem-2015-life-death | [PDF](https://ijee.org/ijee/article/download/923/915) | 116 |
 | jassem-2015-medical | [PDF](https://www.joell.in/wp-content/uploads/2015/08/Zaidan-Ali-Jassem.pdf) | 225 |
 | jassem-2015-urban | [PDF](https://journal.uniku.ac.id/index.php/ERJEE/article/download/204/161) | 130 |
+| jassem-2016-definite | [PDF](https://web.archive.org/web/20200320043645id_/https://ijellh.com/OJS/index.php/OJS/article/download/1489/8673) | 26 |
 | jassem-2016-entirely-arabic | [PDF](https://ijee.org/ijee/article/download/670/663) | 54 |
 | jassem-2017-harper-review | [PDF](https://ijee.org/ijee/article/download/270/265) | 36 |
 | jassem-2017-myth-fallacy | [PDF](https://joell.in/wp-content/uploads/2017/01/Myth-and-Fallacy-in-the-Oxford-English-Dictionary.pdf) | 25 |
@@ -84,7 +85,7 @@
 | jassem-2013-cognitive-ojs | [الرابط](https://ijee.org/ijee/article/download/1296/1289) | ردّ مسارُ OJS الجديد 404؛ وملفُّ المجلةِ القديمُ ظاهرٌ في الفهرسِ لكنّه محذوفٌ من المستضيف |
 | jassem-2013-cognitive-ojs-file | [الرابط](https://ijee.org/ijee/article/download/1296/1289/3967) | ولّد عارضُ OJS هذا المسارَ النهائيَّ للملف، لكنّه ردّ 404 |
 | jassem-2013-cognitive-legacy | [الرابط](https://www.ijee.org/assets/docs/7.271143130.pdf) | ردّ مستودعُ IJEE القديم 404 |
-| jassem-2016-definite-ojs | [الرابط](https://ijellh.com/OJS/index.php/OJS/article/download/1489/8673) | ردّ مسارُ OJS القديم 404 |
+| jassem-2016-definite-ojs | [الرابط](https://ijellh.com/OJS/index.php/OJS/article/download/1489/8673) | ردّ مسارُ OJS الحالي 404؛ واستُبدل بلقطةِ PDF رسميّةٍ صالحةٍ مؤرَّخةٍ في 2020-03-20 |
 | jassem-2016-definite-legacy | [الرابط](https://ijellh.com/wp-content/uploads/2016/06/64.-Zaidan-Ali-Jassem-paper-final.pdf) | ردّ مستودعُ IJELLH القديم 404 |
 | jassem-2016-campbell-ojs | [الرابط](https://ijellh.com/OJS/index.php/OJS/article/download/1705/8672) | ردّ المسارُ الحالي 404؛ ولقطتُه المؤرشفةُ مقالٌ لصمويل دوكو لا بحثُ جاسم |
 | jassem-2012-religious-scispace | [الرابط](https://scispace.com/pdf/the-arabic-origins-of-common-religious-terms-in-english-a-11uoozx0kl.pdf) | ردّت المرآةُ 403 |
@@ -106,25 +107,27 @@
 |  | `'arr` | **ءر** | intercourse, making love | جذرٌ آخر: عشق، وجد، وطء، وقع | jassem-2013-love · jassem-2017-harper-review · jassem-2017-myth-fallacy |
 |  | `'usToora(t)` | **ءسطر** | story, myth, something written | جذرٌ آخر: خرف، سفر، ف | jassem-2017-harper-review |
 |  | `'aghar` | **ءغر** | of hair, white; victorious | جذرٌ آخر: بيض، جعد، شيب، لح | jassem-2017-myth-fallacy |
-|  | `'imara(t)` | **ءمر** | emirate, princedom | نعم | jassem-2019-mr · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `'ula'i` | **ءلء** | these | جذرٌ آخر: ءولي، اد، ان، دد، ساخ، سام، صطب، صقع، وغيرُها | jassem-2016-definite |
+|  | `'imara(t)` | **ءمر** | emirate, princedom | نعم | jassem-2019-mr · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
 |  | `'awadim` | **ءودم** | man; Adam | جذرٌ آخر: ءدم | jassem-2015-democratic |
 |  | `bait` | **بت** | house | جذرٌ آخر: ءجر، ءرض، ءوي، اشر، برج، بغي، بوت، بيت، وغيرُها | jassem-2015-life-death |
 |  | `badha2` | **بذح** | cut, kill | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2015-life-death |
 |  | `bardanat` | **بردنت** | one (f.) feeling cold | جذرٌ آخر: عطف | jassem-2013-derivational |
 |  | `beesh` | **بش** | ditch, pit | جذرٌ آخر: حفر | jassem-2015-life-death |
-|  | `baSar` | **بصر** | see | لا مدخلَ عندنا | jassem-2013-perceptual-sensual · jassem-2018-week-days |
+|  | `baSar` | **بصر** | see | لا مدخلَ عندنا | jassem-2013-perceptual-sensual · jassem-2016-definite · jassem-2018-week-days |
 |  | `bai3` | **بع** | buy, sell | جذرٌ آخر: بيع، سوق، شري | jassem-2014-commerce |
 |  | `baqara(t)` | **بقر** | cow | نعم | jassem-2013-animal · jassem-2013-cutting-breaking |
 |  | `baak` | **بك** | buy and sell | جذرٌ آخر: بيع، سوق، شري | jassem-2014-commerce |
 |  | `bakthara(tun)` | **بكثرتن** | (water) dirt, impurity | جذرٌ آخر: قذر | jassem-2015-case-word-order |
 |  | `abal` | **بل** | group; many, much | جذرٌ آخر: كثر، كم | jassem-2014-mathematical |
-|  | `baien` | **بن** | clear, plain | جذرٌ آخر: بدو، بين، فصح، وضح | jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names |
+|  | `baien` | **بن** | clear, plain | جذرٌ آخر: بدو، بين، فصح، وضح | jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite |
 |  | `bawk` | **بوك** | buy and sell | جذرٌ آخر: بيع، سوق، شري | jassem-2014-commerce |
 |  | `taajar` | **تجر** | trade | نعم | jassem-2014-commerce |
 |  | `tamarra` | **تمر** | emir, prince, ruler | جذرٌ آخر: مير | jassem-2017-harper-review · jassem-2017-myth-fallacy |
 |  | `tih` | **ته** | this | لا مدخلَ عندنا | jassem-2014-question-modal |
+|  | `that` | **ثت** | that (f); whose | جذرٌ آخر: ءسماعيل، افق، التي، الذي، الذين، بيض، تيل، تيم، وغيرُها | jassem-2016-definite |
 |  | `thaur` | **ثر** | bull | جذرٌ آخر: ءرخ، الثور، ثور، خرف، خوار، طور، عجل، نير، وغيرُها | jassem-2015-case-word-order · jassem-2015-life-death |
-|  | `thalath` | **ثلث** | three | نعم | jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2018-week-days |
+|  | `thalath` | **ثلث** | three | نعم | jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2018-week-days |
 |  | `jurm` | **جرم** | crime | نعم | jassem-2017-myth-fallacy |
 |  | `grammar` | **جرمر** | be | لا مدخلَ عندنا | jassem-verb-to-be |
 |  | `ajama(t)` | **جم** | dense trees, grove | نعم | jassem-2013-speech-writing · jassem-2014-question-modal |
@@ -141,9 +144,9 @@
 |  | `dhaat(i)` | **ذت** | myself | جذرٌ آخر: فس، يا | jassem-2014-basque-finnish · jassem-2014-mandarin-pronouns |
 |  | `dha(h)` | **ذه** | this | لا مدخلَ عندنا | jassem-2014-prepositions |
 |  | `Origins` | **رجنس** | Place Names | جذرٌ آخر: ءم، اه، بر، بور، جو، جيم، حلم، حيي، وغيرُها | jassem-2018-place-names |
-|  | `zabar` | **زبر** | write; originally cut | نعم | jassem-2015-case-word-order · jassem-2018-week-days |
+|  | `zabar` | **زبر** | write; originally cut | نعم | jassem-2015-case-word-order · jassem-2016-definite · jassem-2018-week-days |
 |  | `zaman` | **زمن** | time | نعم | jassem-2013-time |
-|  | `zain` | **زن** | beautiful | جذرٌ آخر: ءنق، برج، بهج، بهي، جمل، جود، حسن، حيل، وغيرُها | jassem-2018-week-days |
+|  | `zain` | **زن** | beautiful | جذرٌ آخر: ءنق، برج، بهج، بهي، جمل، جود، حسن، حيل، وغيرُها | jassem-2016-definite · jassem-2018-week-days |
 |  | `zaiyee` | **زي** | lit., like me; myself | جذرٌ آخر: شعل، علق | jassem-2014-mandarin-pronouns |
 |  | `sab3(at)` | **سبع** | seven | نعم | jassem-2013-back-consonants |
 |  | `siqaa` | **سق** | /suqia | لا مدخلَ عندنا | jassem-2013-water-sea |
@@ -152,7 +155,7 @@
 |  | `ishtara` | **شتر** | buy | نعم | jassem-2014-commerce |
 |  | `shorb` | **شرب** | drinking, I drink | نعم | jassem-2013-water-sea · jassem-2013-perceptual-sensual |
 |  | `shakl` | **شكل** | shape, form | نعم | jassem-2013-derivational |
-|  | `shain` | **شن** | bad | جذرٌ آخر: بخر، بد، بعد، تن، جزل، جور، خبث، دخن، وغيرُها | jassem-2018-week-days |
+|  | `shain` | **شن** | bad | جذرٌ آخر: بخر، بد، بعد، تن، جزل، جور، خبث، دخن، وغيرُها | jassem-2016-definite · jassem-2018-week-days |
 |  | `aSba2a` | **صبح** | become | نعم | jassem-verb-to-be |
 |  | `aSba2a(n)` | **صبحن** | became (they) | جذرٌ آخر: ء، ءسد، ءيا، بوز، ترف، جب، جندب، حسد، وغيرُها | jassem-verb-to-be |
 |  | `Saa2ib` | **صحب** | owner, companion | نعم | jassem-2013-derivational |
@@ -176,6 +179,7 @@
 |  | `ghasal` | **غسل** | wash | نعم | jassem-2013-water-sea |
 |  | `ghaSSat` | **غصت** | choke; aghast | جذرٌ آخر: خنق، زرد، شرق، غصص | jassem-2017-harper-review |
 |  | `ghawr` | **غور** | a depression | نعم | jassem-2017-harper-review · jassem-2017-myth-fallacy |
+|  | `fata(t)` | **فت** | boy, girl | جذرٌ آخر: رجل، فيج | jassem-2016-definite |
 |  | `fu2sh` | **فحش** | vice | جذرٌ آخر: بطن، رين، شراه، شره، شنر، عل، عيب، قبح، وغيرُها | jassem-2013-back-consonants |
 |  | `faad` | **فد** | death | جذرٌ آخر: بعد، جني، جهنم، حرق، حضر، حما، حمل، خسر، وغيرُها | jassem-2015-life-death |
 |  | `fadaa'` | **فدء** | food | جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها | jassem-2014-wining-dining |
@@ -183,15 +187,16 @@
 |  | `fira'` | **فرء** | fur | جذرٌ آخر: ثعلب، جلد، حنبل، ستق، سلخ، شعث، شعر، عطف، وغيرُها | jassem-2017-harper-review |
 |  | `falla2(in)` | **فلح** | farmer | نعم | jassem-2017-myth-fallacy |
 |  | `qudus` | **قدس** | (the) holy, sacred | نعم | jassem-2014-mathematical · jassem-2017-harper-review |
-|  | `qira'at` | **قرءت** | reading | جذرٌ آخر: حزب، صحف، ضد، قرء، كتب | jassem-2018-week-days |
+|  | `qira'at` | **قرءت** | reading | جذرٌ آخر: حزب، صحف، ضد، قرء، كتب | jassem-2016-definite · jassem-2018-week-days |
 |  | `qareeb` | **قرب** | near, approaching | نعم | jassem-2013-movement-action |
 |  | `aqra2` | **قرح** | gray; white | جذرٌ آخر: شهب، شيب، صو، لج | jassem-2017-harper-review |
-|  | `qeeraaT` | **قرط** | 1/4 | لا مدخلَ عندنا | jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `qeeraaT` | **قرط** | 1/4 | لا مدخلَ عندنا | jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2017-myth-fallacy · jassem-2018-week-days |
 |  | `qaraTan` | **قرطن** | to cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2017-myth-fallacy |
 |  | `qarn` | **قرن** | horn, century | نعم | jassem-2013-back-consonants |
 |  | `qaSab` | **قصب** | tube, reed | نعم | jassem-2013-back-consonants |
 |  | `qiSSat` | **قصت** | story | جذرٌ آخر: ءذا، ادر، بطل، تء، تبع، حاك، حبك، حدث، وغيرُها | jassem-2017-harper-review |
 |  | `qaSd` | **قصد** | gist | جذرٌ آخر: لبب | jassem-2017-harper-review |
+|  | `alqiT` | **قط** | the cat | نعم | jassem-2016-definite |
 |  | `qaal` | **قل** | to say | جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها | jassem-2019-mr · jassem-2019-frk · jassem-2013-back-consonants |
 |  | `qalam` | **قلم** | pen | نعم | jassem-2015-case-word-order · jassem-2017-harper-review · jassem-2017-myth-fallacy |
 |  | `qameeS` | **قمص** | shirt | نعم | jassem-2017-harper-review |
@@ -209,34 +214,39 @@
 |  | `accents)` | **كنتس** | (he) was | لا مدخلَ عندنا | jassem-verb-to-be |
 |  | `kaneesat` | **كنست** | church | جذرٌ آخر: ءرا، النسطورية، باب، بر، برش، بوق، بيع، جاثليق، وغيرُها | jassem-2013-back-consonants |
 |  | `kawan` | **كون** | be | لا مدخلَ عندنا | jassem-verb-to-be · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal |
+|  | `lad(eed)` | **لد** | side | جذرٌ آخر: ءدم، تل، تيز، ثني، جحف، جد، جدد، جفء، وغيرُها | jassem-2016-definite |
 |  | `lisaan` | **لسن** | tongue | نعم | jassem-2013-speech-writing |
 |  | `lafi` | **لف** | a (alfa, alfa | لا مدخلَ عندنا | jassem-2015-life-death |
 |  | `like` | **لك** | wine | جذرٌ آخر: برزين، بيت، بيد، تفل، ثب، جدد، جلف، جون، وغيرُها | jassem-2013-derivational |
 |  | `lakun` | **لكن** | to you (f. pl.) | نعم | jassem-2014-mandarin-pronouns |
 |  | `umoomat` | **مت** | motherhood | جذرٌ آخر: ءمم، موم | jassem-2013-derivational |
-|  | `mar(ra)` | **مر** | pass, go | نعم | jassem-verb-to-be · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
-|  | `mar'a(t)` | **مرء** | woman, wife | نعم | jassem-2013-family · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `mar(ra)` | **مر** | pass, go | نعم | jassem-verb-to-be · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `mar'a(t)` | **مرء** | woman, wife | نعم | jassem-2013-family · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
 |  | `mar'atun` | **مرءتن** | a woman (nom. indef.) | جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، اجر، اخت، بدل، بذل، وغيرُها | jassem-2017-myth-fallacy |
 |  | `mari2` | **مرح** | happy | نعم | jassem-2017-myth-fallacy |
-|  | `mar3a` | **مرع** | grazing ground | جذرٌ آخر: ضيع | jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `mar3a` | **مرع** | grazing ground | جذرٌ آخر: ضيع | jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
 |  | `maktoob` | **مكتب** | written | جذرٌ آخر: ء، ءبي، ءدب، ءنت، ا، انت، ب، با، وغيرُها | jassem-2012-number-gender |
 |  | `maal` | **مل** | money, price | جذرٌ آخر: شتر، فدي، كلف، مهر | jassem-2013-back-consonants |
 |  | `muntaha` | **منته** | end, result (of something) | جذرٌ آخر: ءول، رجم، طلق، غب، غبب، قصد، هدف | jassem-2013-derivational |
-|  | `muhra(t)` | **مهر** | mare | جذرٌ آخر: بغل، حجر، عود، فرس | jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `muhra(t)` | **مهر** | mare | جذرٌ آخر: بغل، حجر، عود، فرس | jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
 |  | `mawt` | **موت** | death | نعم | jassem-2015-life-death |
 |  | `anta` | **نت** | you- nom. | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، صحح، عطو، وغيرُها | jassem-verb-to-be · jassem-2013-air-fire · jassem-2013-animal · jassem-2014-mandarin-pronouns |
-|  | `na2s` | **نحس** | bad | نعم | jassem-2018-week-days |
+|  | `na2s` | **نحس** | bad | نعم | jassem-2016-definite · jassem-2018-week-days |
 |  | `na2nu` | **نحن** | we | لا مدخلَ عندنا | jassem-pronouns · jassem-2013-back-consonants · jassem-2014-mandarin-pronouns |
 |  | `nafadha` | **نفذ** | penetrate, outlet | نعم | jassem-2013-back-consonants |
 |  | `innak` | **نك** | you | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، صحح، عطو، وغيرُها | jassem-2014-mandarin-pronouns |
+|  | `hatha` | **هث** | this | لا مدخلَ عندنا | jassem-2016-definite |
 |  | `hidm` | **هدم** | dress | جذرٌ آخر: ءل، بدل، بذل، برنس، بهر، ثوب، جلبب، دبج، وغيرُها | jassem-2017-harper-review |
+|  | `(haa)dha` | **هذ** | this | لا مدخلَ عندنا | jassem-2016-definite |
+|  | `heech)` | **هش** | thus | جذرٌ آخر: ءذا، ءين، خلع، رجع، شيص، صوت، غرز، ف، وغيرُها | jassem-2016-definite |
+|  | `haik` | **هك** | thus | جذرٌ آخر: ءذا، ءين، خلع، رجع، شيص، صوت، غرز، ف، وغيرُها | jassem-2016-definite |
 |  | `huna` | **هن** | here | جذرٌ آخر: ده، دول، دي، سار، لبك، ها، هات، هذ، وغيرُها | jassem-2014-mandarin-pronouns |
 |  | `hind(eed)` | **هند** | 100 | لا مدخلَ عندنا | jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2012-religious |
 |  | `wa3r` | **وعر** | rough, stony, uncultivated land | جذرٌ آخر: ءثر، ءجر، ءرض، ءفق، ءكر، ءل، القدس، بابل، وغيرُها | jassem-2017-harper-review |
 |  | `waqt` | **وقت** | time | نعم | jassem-2013-time |
 |  | `walaq` | **ولق** | walk | جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها | jassem-2013-movement-action |
 |  | `wain` | **ون** | wine | جذرٌ آخر: برزين، بيت، بيد، تفل، ثب، جدد، جلف، جون، وغيرُها | jassem-2014-wining-dining |
-|  | `uyar` | **ير** | air | جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها | jassem-2018-week-days |
+|  | `uyar` | **ير** | air | جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها | jassem-2016-definite · jassem-2018-week-days |
 |  | `(iya)ki` | **يك** | you-acc. (f.) | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، سعف، صحح، وغيرُها | jassem-verb-to-be |
 |  | `ai(yama)` | **يم** | any | لا مدخلَ عندنا | jassem-2012-determiners |
 | Abacus | `ba2S(at)` | **بحص** | pebbles | لا مدخلَ عندنا | jassem-2014-mathematical |
