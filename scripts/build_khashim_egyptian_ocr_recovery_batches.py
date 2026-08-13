@@ -66,11 +66,14 @@ def main() -> int:
     selected_indices = indices[start:start + BATCH_SIZE]
 
     payload = json.loads(SOURCE.read_text(encoding="utf-8"))
-    rows = [row for row in payload["rows"] if row.get("tongue") == "egyptian"]
+    rows = [
+        row for row in payload["rows"]
+        if row.get("source") == "ocr-egyptian2"
+    ]
     if len(rows) != 938:
         raise SystemExit(f"تغير مقام المصرية: {len(rows)}")
     rows, manual_stats = B.apply_ocr_head_recoveries(rows)
-    first, second, third, fourth, _, pool = B.choose_batches(rows)
+    first, second, third, fourth, defects, pool = B.choose_batches(rows)
     pool_by_index = {int(item["index"]): item for item in pool}
     membership: dict[int, int] = {}
     for batch_no, group in enumerate((first, second, third, fourth), start=1):
@@ -120,6 +123,37 @@ def main() -> int:
             "verdict": summary["verdict"],
             "open_reasons": summary["open_reasons"],
         })
+
+    global_scan_reasons: Counter[str] = Counter()
+    for item in defects:
+        global_scan_reasons.update(item["scan_reasons"])
+    for report in report_payloads.values():
+        report_rows = report["rows"]
+        selection_scan_reasons: Counter[str] = Counter()
+        open_reasons: Counter[str] = Counter()
+        for row in report_rows:
+            selection_scan_reasons.update(row["scan_reasons"])
+            open_reasons.update(row["open_reasons"])
+        report["ocr_recovery"] = {
+            "overlay_rows": len(recovery_by_index),
+            "overlay_fields": sum(
+                len(recovery["fields"]) for recovery in recovery_by_index.values()
+            ),
+            "reharvested_through_batch": args.batch,
+            "manual_head_recovery_baseline": manual_stats,
+        }
+        report["scan_defects_union"] = len(defects)
+        report["scan_defects_by_reason"] = dict(sorted(global_scan_reasons.items()))
+        report["selection_scan_reasons"] = dict(sorted(selection_scan_reasons.items()))
+        report["cards_written"] = len(report_rows)
+        report["chosen_in_corrected_fan"] = sum(
+            row["root_in_raw_fan"] or row["root_in_stem_fan"] for row in report_rows
+        )
+        report["positive"] = sum(bool(row["verdict"]) for row in report_rows)
+        report["open_candidate"] = sum(
+            row["closure"] == "OPEN-CANDIDATE" for row in report_rows
+        )
+        report["open_reasons_overlapping"] = dict(sorted(open_reasons.items()))
 
     positives = sum(bool(row["verdict"]) for row in rendered_rows)
     sound_ready = sum(bool(row["sound_ready"]) for row in rendered_rows)

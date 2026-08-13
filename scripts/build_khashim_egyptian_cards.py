@@ -992,7 +992,8 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
         "- إصدارُ البروتوكول: RECOVERY-v2 (2026-07-14)",
         f"- الكلمةُ في الفرع: `{row['foreign']}`؛ الرمز المنقول `{glyphs}`؛ الرومنة من بدج كما نقلها خشيم.",
         f"- أقدمُ صورةٍ مستعادة: لا تُدّعى صورة أقدم من رومنة بدج المنقولة في {BOOK}؛ "
-        "الصف من `data/khashim-pairs.json` ومصدره `ocr-egyptian2`.",
+        "الصف من `data/khashim-pairs.json`؛ أصل فهرسه `ocr-egyptian2`، وأي حقل "
+        "مسترد موثق في سطر استرداد OCR أدناه.",
         ocr_recovery_line(row),
         f"- سلامةُ صف المسح: {scan_status}؛ العيب، إن وُجد، يفتح المقابلة ولا يُسقط المرشح.",
         f"- الخطوةُ صفر (التعرية بصرف الفرع): {item['stripping']}؛ صوامت الرأس كاملة "
@@ -1601,7 +1602,10 @@ def replace_batch(text: str, start: str, end: str, block: str) -> str:
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     payload = json.loads(SOURCE.read_text(encoding="utf-8"))
-    rows = [row for row in payload["rows"] if row.get("tongue") == "egyptian"]
+    rows = [
+        row for row in payload["rows"]
+        if row.get("source") == "ocr-egyptian2"
+    ]
     if len(rows) != 938:
         raise SystemExit(f"تغيّر جرد المصرية: {len(rows)}، والمتوقع 938")
     rows, ocr_stats = apply_ocr_head_recoveries(rows)

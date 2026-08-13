@@ -555,6 +555,7 @@ def apply_egyptian_ocr_recoveries(rows: list[dict]) -> tuple[list[dict], dict[st
             "new_location": recovery["new_location"],
             "matched_new_row": recovery["matched_new_row"],
             "alignment_score": recovery["alignment_score"],
+            "alignment_evidence": recovery.get("alignment_evidence"),
             "matched_source": payload["new_source"],
         }
         repaired.append(row)

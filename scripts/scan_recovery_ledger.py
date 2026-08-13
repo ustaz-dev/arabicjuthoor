@@ -67,10 +67,30 @@ def cards(path):
         m = re.search(r'<!--\s*KHASHIM-IE:(\d+):[^>]+-->', b)
         if m:
             card_id = f'KHASHIM-IE:{m.group(1)}'
+        # بطاقات القرض المعاد فتحها أقدم من باب النسخ العام، ولذلك لا تحمل
+        # وسم HTML للمعرّف. سطر النسخ المؤرخ هو معرّفها التاريخي الصريح.
+        # نقيد النمط بالتاريخ والصيغة القديمة حتى لا تلتقط البطاقة الناسخة
+        # معرّف المنسوخ على أنه معرّفها هي.
+        if not card_id:
+            m = re.search(
+                r'سطر النسخ\s*\(2026-08-05،\s*'
+                r'(LOAN-REOPEN-[A-Z-]+-\d+)\s*\)',
+                b,
+            )
+            if m:
+                card_id = m.group(1)
         supersedes = ''
         m = re.search(r'<!--\s*DEAD-GATE-REREVIEW:(KHASHIM-IE:\d+)\s*-->', b)
         if m:
             supersedes = m.group(1)
+        if not supersedes:
+            m = re.search(
+                r'<!--\s*LOAN-HARVEST-REREVIEW:'
+                r'(LOAN-REOPEN-[A-Z-]+-\d+)\s*-->',
+                b,
+            )
+            if m:
+                supersedes = m.group(1)
         yield {'file': path.replace('\\', '/'), 'card': title[:80], 'verdict': verdict,
                'closure': closure, 'gaps': gaps, 'blocker_type': blocker_type,
                'required': required, 'row_mentions': rows,

@@ -17014,7 +17014,80 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_comparative_supplements": [
+        {
+          "batch": 3,
+          "category": "cross-european",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            2063
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 2063,
+              "source_row_key": "ff3d1ee1b3ac97b60539f345",
+              "foreign": "berry",
+              "foreign_sense": "ثمرة صغيرة",
+              "tongue_ar": "الجرمانيّات والرومانيّات",
+              "arabic_root": "بر",
+              "arabic_gloss": "ردّ berry إلى الجذر بر في الثمر والغلة.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 416,
+              "assigned_language": "middle-english",
+              "assignment_reason": "exact form already has one Indo-European card"
+            }
+          ],
+          "forms": [
+            {
+              "form": "berry",
+              "normalized_form": "berry",
+              "script": "germanic",
+              "skeleton": [
+                "b",
+                "r",
+                "y"
+              ],
+              "fan_review": [
+                {
+                  "root": "بري",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "التجرد والخلوص؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "الجذرُ «بري» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بر» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بلي",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "شدة تَحُوز الشيء - أو حَوْز الشيء بشدة - لمدى طويل",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "dialect_additions": 0,
+              "positives": []
+            }
+          ],
+          "target_card_id": "JAS-IE-008-027",
+          "target_manifest": "jassem-indo-european-batch-008.json",
+          "target_language": "middle-english",
+          "target_kind": "jassem",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-008-028",

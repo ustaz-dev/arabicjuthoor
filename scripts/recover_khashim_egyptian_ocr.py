@@ -210,11 +210,13 @@ def main() -> int:
         raise SystemExit(f"المحلل الموضعي لم يرد المسح القديم إلى 938 صفًا: {len(old)}")
     stored = stored_rows()
     for index, (source, row) in enumerate(zip(old, stored)):
+        legacy = row.get("legacy") or {}
         for key in ("foreign", "glyphs", "foreign_sense", "arabic_root", "arabic_gloss"):
-            if source.get(key, "") != row.get(key, ""):
+            stored_value = legacy.get(key, row.get(key, ""))
+            if source.get(key, "") != stored_value:
                 raise SystemExit(
                     f"اختل رد الفهرس {index} إلى المسح القديم في {key}: "
-                    f"{source.get(key)!r} != {row.get(key)!r}"
+                    f"{source.get(key)!r} != {stored_value!r}"
                 )
 
     new = located_rows(args.new)
@@ -235,7 +237,8 @@ def main() -> int:
                 and left["foreign_sense"] != right["foreign_sense"]):
             fields["foreign_sense"] = {
                 "legacy": left["foreign_sense"], "recovered": right["foreign_sense"]}
-        if (HEAD_DEFECT in before and HEAD_DEFECT not in after
+        if (HEAD_DEFECT in before and ENGLISH_HEAD not in before
+                and HEAD_DEFECT not in after
                 and ENGLISH_HEAD not in after and left["foreign"] != right["foreign"]):
             fields["foreign"] = {
                 "legacy": left["foreign"], "recovered": right["foreign"]}
@@ -261,6 +264,20 @@ def main() -> int:
                 "page": right.get("source_page"), "line": right["source_line"]},
             "matched_new_row": new_index,
             "alignment_score": round(score, 6),
+            "alignment_evidence": {
+                "foreign_similarity": round(
+                    similarity(left["foreign"], right["foreign"], "latin"), 6
+                ),
+                "sense_similarity": round(
+                    similarity(left["foreign_sense"], right["foreign_sense"]), 6
+                ),
+                "arabic_gloss_similarity": round(
+                    similarity(left["arabic_gloss"], right["arabic_gloss"], "ar"), 6
+                ),
+                "page_delta": (
+                    (right.get("source_page") or 0) - (left.get("source_page") or 0)
+                ),
+            },
         })
 
     payload = {
