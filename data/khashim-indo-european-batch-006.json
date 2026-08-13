@@ -37477,6 +37477,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 11,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2098,
+              "source_row_index_at_freeze": 2098,
+              "source_row_key": "4cb6e96eab968ecfcea0b3b2",
+              "european": "Horse",
+              "arabic_root": "غلب",
+              "author_translit": "ghalab",
+              "arabic_gloss": "outrun",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            }
+          ]
         }
       ]
     },
@@ -95540,7 +95557,48 @@
         "`t` + `ط` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 11,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2304,
+              "source_row_index_at_freeze": 2304,
+              "source_row_key": "9b10c7b113a9a209558d9ba9",
+              "european": "Justice",
+              "arabic_root": "بع",
+              "author_translit": "bai3a(t)",
+              "arabic_gloss": "agreement; allegiance",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: ءجل، ءم، ءي، افق، ال، النواة، اه، ايه، وغيرُها"
+            },
+            {
+              "source_row_index": 2305,
+              "source_row_index_at_freeze": 2305,
+              "source_row_key": "979a321cb15c090fc42fff1b",
+              "european": "Justice",
+              "arabic_root": "قسط",
+              "author_translit": "qisT",
+              "arabic_gloss": "justice",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: بوق، جور، حكم، ظلم، عدل، قاض، قسم، قوا، وغيرُها"
+            },
+            {
+              "source_row_index": 2306,
+              "source_row_index_at_freeze": 2306,
+              "source_row_key": "ea1853f99307cdf7af4a968d",
+              "european": "Justice",
+              "arabic_root": "قسطس",
+              "author_translit": "qisTaas",
+              "arabic_gloss": "justice",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: بوق، جور، حكم، ظلم، عدل، قاض، قسم، قوا، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-200",
@@ -96562,7 +96620,26 @@
         "`k` + `ك` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 11,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2313,
+              "source_row_index_at_freeze": 2313,
+              "source_row_key": "a5d72fef35eca0074bd55e80",
+              "european": "Kick",
+              "arabic_root": "صك",
+              "author_translit": "Sakka",
+              "arabic_gloss": "kick",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: خبط، رجب، رغب، رفس، ركب، ركل، ركن، شاط، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-201",

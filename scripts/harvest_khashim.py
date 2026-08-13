@@ -1219,6 +1219,107 @@ def mine_dawudi_list(md: pathlib.Path) -> list[dict]:
     return rows
 
 
+QURAN_ADI_SHIR_COMMENTARIES = (
+    (4064, "أبد"),
+    (4117, "إبل"),
+    (4217, "أريكة"),
+    (4257, "أسوة"),
+    (4281, "أمد"),
+    (4299, "بخس"),
+    (4323, "برزخ"),
+    (4407, "برهان"),
+    (4433, "بهيمة"),
+    (4469, "باب"),
+    (4526, "تباب"),
+    (4579, "جوف"),
+    (4621, "خيال"),
+    (4745, "دمار"),
+    (4776, "زخرف"),
+    (4836, "زرابي"),
+    (4940, "سخط"),
+    (5006, "سراب"),
+    (5057, "سرابيل"),
+    (5179, "سرمد"),
+    (5225, "شأن"),
+    (5278, "شرب"),
+    (5336, "شطأ"),
+    (5362, "الشفع"),
+    (5405, "شهي"),
+    (5460, "شواظ"),
+    (5490, "شوك"),
+    (5530, "شيء"),
+    (5591, "تصدية"),
+    (5619, "صنم"),
+    (5688, "صهر"),
+    (5773, "الصيف"),
+    (5836, "ضنك"),
+    (5874, "طود"),
+    (5915, "عبقري"),
+    (6052, "غرام"),
+    (6089, "فوم"),
+    (6221, "فيل"),
+    (6404, "قسورة"),
+    (6470, "قمطرير"),
+    (6504, "كأس"),
+    (6537, "لجة"),
+    (6643, "مائدة"),
+    (6715, "نكس"),
+    (6809, "هاد"),
+)
+
+
+def mine_quran_adi_shir_commentaries(md: pathlib.Path) -> list[dict]:
+    """احفظ قسمَ أدّي شير/خشيم كاملًا قبلَ تفكيك مقابلاته آليًّا.
+
+    يبدأ كلُّ بندٍ بعلامة «التعليق» بعد أن يطبع خشيم قولَ أدّي شير. وبعض
+    العلامات تشوّهت في DjVuTXT إلى «التعحليق» أو تقدّمها رقمُ حاشية؛ لذلك
+    ثُبّتت مواضعُها بعد القراءة البصريّة والنصيّة. يمتدُّ كلُّ مقطعٍ من علامة
+    التعليق إلى ما قبل العلامة التالية؛ وهذا حدٌّ آليٌّ معلنٌ يحفظ كلَّ النص
+    ولا يدّعي أنَّ كلَّ سطرٍ داخله زوجٌ مستقلٌّ.
+    """
+    lines = md.read_text(encoding="utf-8").splitlines()
+    rows = []
+    for index, (line_no, head) in enumerate(QURAN_ADI_SHIR_COMMENTARIES):
+        marker = unicodedata.normalize("NFKC", lines[line_no - 1])
+        marker = re.sub(r"[ـ\u200e\u200f\u202a-\u202e]", "", marker)
+        if not re.search(r"التعح?ليق", marker):
+            raise SystemExit(
+                f"تغيّر موضعُ تعليق «{head}» في هل في القرآن أعجمي؟: السطر {line_no}"
+            )
+        if index + 1 < len(QURAN_ADI_SHIR_COMMENTARIES):
+            end_line = QURAN_ADI_SHIR_COMMENTARIES[index + 1][0] - 1
+        else:
+            end_line = 6918
+        block_lines = lines[line_no - 1:end_line]
+        equation_lines = []
+        for source_line, raw in enumerate(block_lines, line_no):
+            normalized = unicodedata.normalize("NFKC", raw)
+            normalized = re.sub(r"[ـ\u200e\u200f\u202a-\u202e]", "", normalized)
+            normalized = re.sub(r"\s+", " ", normalized).strip()
+            if "=" in normalized:
+                equation_lines.append({
+                    "source_line": source_line,
+                    "printed_line": normalized,
+                })
+        rows.append({
+            "head": head,
+            "commentary_line": line_no,
+            "source_span": f"{line_no}-{end_line}",
+            "printed_block": "\n".join(block_lines).strip(),
+            "equation_lines": equation_lines,
+            "quoted_lexicographer": "أدّي شير",
+            "commentator": "علي فهمي خشيم",
+            "source": "ocr-khashim-quran-foreign",
+            "harvest_kind": "قولُ أدّي شير وتعليقُ خشيم عليه، محفوظان كاملين",
+            "ocr_source": "Internet Archive DjVuTXT الرسمي",
+        })
+    if len(rows) != 45:
+        raise SystemExit(
+            f"تغيّر جردُ تعليقاتِ هل في القرآن أعجمي؟: {len(rows)}، والمتوقَّع 45"
+        )
+    return rows
+
+
 def mine_ember_arabic_marked_lines(md: pathlib.Path) -> list[dict]:
     """احفظ كلَّ سطرٍ علَّمه إمبر صراحةً بالطرف العربيِّ «عر:».
 
@@ -1261,6 +1362,7 @@ def main() -> int:
 
     rows: list[dict] = []
     ember_lines: list[dict] = []
+    quran_commentaries: list[dict] = []
     print(f"{'الكتاب':24}{'أزواج':>8}")
     for folder, (ar, key) in OCR_BOOKS.items():
         md = STORE / folder / "full.md"
@@ -1312,6 +1414,10 @@ def main() -> int:
     if ember.exists():
         ember_lines = mine_ember_arabic_marked_lines(ember)
         print(f"  {'ember-arabic-lines':24}{len(ember_lines):>8}   (جردٌ موسومٌ خام)")
+    quran = STORE / "ocr-khashim-quran-foreign" / "full.md"
+    if quran.exists():
+        quran_commentaries = mine_quran_adi_shir_commentaries(quran)
+        print(f"  {'quran-adi-shir':24}{len(quran_commentaries):>8}   (تعليقاتٌ محفوظةٌ كاملة)")
     for stem, (ar, key) in BOOKS.items():
         p = STORE / f"{stem}.pdf"
         if not p.exists():
@@ -1346,6 +1452,18 @@ def main() -> int:
                     "كاملةً لأنَّ استخراجَ الأعمدة خلط أحيانًا الرسمَ المصريَّ بالطرف العربي."
                 ),
                 "rows": ember_lines,
+            },
+            "adi_shir_quranic_lexemes_with_khashim_commentary": {
+                "title": "هل في القرآن أعجميّ؟",
+                "quoted_lexicographer": "أدّي شير",
+                "commentator": "علي فهمي خشيم",
+                "items": len(quran_commentaries),
+                "counting_rule": "كلُّ مادّةٍ معنونةٍ أعقب فيها خشيم قولَ أدّي شير بعلامة «التعليق»",
+                "note": (
+                    "جردٌ نصّيٌّ خامٌ مستقلٌّ عن عدّاد الأزواج المنظَّمة؛ حُفظ قولُ أدّي شير "
+                    "وتعليقُ خشيم كاملين، وحُصرت داخلهما أسطرُ المساواة من غير إسقاطٍ أو حكم."
+                ),
+                "rows": quran_commentaries,
             }
         },
         "rows": rows,
@@ -1397,11 +1515,34 @@ def main() -> int:
         for item in ember_lines:
             printed = item["printed_line"].replace("|", "\\|")
             lines.append(f"| {item['source_line']} | `{printed}` |")
+    if quran_commentaries:
+        lines += [
+            "",
+            "## أَقوالُ أَدّي شير وتَعليقاتُ خُشَيم في «هَل في القُرآنِ أَعجَميّ؟»",
+            "",
+            "حُفِظَ القِسمُ الَّذي يَطبَعُ فيه خُشَيم قَولَ أَدّي شير ثُمَّ يَبدَأُ",
+            "تَعليقَهُ بِعَلامَةِ `التعليق`. يَحفَظُ المَخزَنُ النَّصَّ الكامِلَ لِكُلِّ",
+            "مادَّةٍ، وأَسطُرَ المُساواةِ داخِلَها، مَعَ نِسبَةِ القَولِ إلى أَدّي شير",
+            "ونِسبَةِ التَّعليقِ إلى عَلي فَهمي خُشَيم. لا تَدخُلُ هذِهِ المَوادُ",
+            "عَدّادَ الأَزواجِ المُنَظَّمَةِ قَبلَ فَصلِ أَطرافِها.",
+            "",
+            f"**العَدَد: {len(quran_commentaries)} مادَّةً مَعنونَةً.**",
+            "",
+            "| رَأسُ المادَّة | مَدى أَسطُرِ المَصدَر | أَسطُرٌ تَحمِلُ عَلامَةَ `=` |",
+            "|---|---:|---:|",
+        ]
+        for item in quran_commentaries:
+            lines.append(
+                f"| **{item['head']}** | {item['source_span']} | {len(item['equation_lines'])} |"
+            )
     lines += ["", "---", "",
               "*English abstract.* Pairs harvested from Ali Fahmi Khashim's comparative",
               "dictionaries, whose titles state the thesis directly: Akkadian is Arabic, Coptic is",
               "Arabic, Latin is Arabic. The harvest also includes Journey of Words II, Gods of",
               "Arabic Egypt II, and nine attributed papers in the Unity and Diversity symposium.",
+              "A separate raw inventory preserves 45 headed entries in Is There Anything Foreign",
+              "in the Qur'an?, attributing the quoted lexicography to Addi Shir and the full",
+              "commentary to Khashim without inflating the structured-pair counter.",
               "His dictionary entries are lexicographic, so each foreign headword and",
               "its sense is followed by a line marked with the Arabic letter ain giving the Arabic",
               "root and its lexical text. These are candidates, not verdicts. The foreign words",

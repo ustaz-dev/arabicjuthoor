@@ -55394,6 +55394,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 11,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2053,
+              "source_row_index_at_freeze": 2053,
+              "source_row_key": "dd5bd1c1c679f087c5fde9fa",
+              "european": "Hill",
+              "arabic_root": "عل",
+              "author_translit": "3aal",
+              "arabic_gloss": "high, heights",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -73997,7 +74014,26 @@
         "`h` + `ه` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 11,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1994,
+              "source_row_index_at_freeze": 1994,
+              "source_row_key": "1290d79bb0cff910eb47feb5",
+              "european": "Head",
+              "arabic_root": "جبهت",
+              "author_translit": "jabhat",
+              "arabic_gloss": "forehead",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: تل، جب، جبه، ركع، سجد، سيل، صدغ، طر، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0741",

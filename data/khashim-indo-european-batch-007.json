@@ -941,6 +941,34 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 11,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1984,
+              "source_row_index_at_freeze": 1984,
+              "source_row_key": "7b610887773cc773fd6d87e9",
+              "european": "Harvest",
+              "arabic_root": "حش",
+              "author_translit": "2ash",
+              "arabic_gloss": "to cut grass; cut grass",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: الجذر، تبن، خلب، دريس، قصب، نجل"
+            },
+            {
+              "source_row_index": 1985,
+              "source_row_index_at_freeze": 1985,
+              "source_row_key": "23e467619c9dbf8497eef413",
+              "european": "Harvest",
+              "arabic_root": "حصد",
+              "author_translit": "2aSad",
+              "arabic_gloss": "harvesting",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: غل"
+            }
+          ]
         }
       ]
     },
@@ -4461,6 +4489,23 @@
               "arabic_gloss": "tomorrow",
               "source": "jassem-2013-time",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 11,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1889,
+              "source_row_index_at_freeze": 1889,
+              "source_row_key": "1c43b78e2c34892fc8bc4edb",
+              "european": "Good",
+              "arabic_root": "قضب",
+              "author_translit": "qaDab",
+              "arabic_gloss": "catch",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "جذرٌ آخر: ءوب، خطء، دبق، درك، رءي، رعي، سجل، شبث، وغيرُها"
             }
           ]
         }
@@ -8458,7 +8503,26 @@
         "`t` + `ث` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 11,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1979,
+              "source_row_index_at_freeze": 1979,
+              "source_row_key": "2e5a4585fc1d7b0563457d92",
+              "european": "Hard",
+              "arabic_root": "عتر",
+              "author_translit": "3atr",
+              "arabic_gloss": "hard",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: الجذر، بسكت، بله، بيت، تعب، تكء، ثخن، ثقل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-017",

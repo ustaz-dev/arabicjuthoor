@@ -2341,7 +2341,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 11,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2320,
+              "source_row_index_at_freeze": 2320,
+              "source_row_key": "707fe5e67dbf868efbcc1c7f",
+              "european": "Kilogram",
+              "arabic_root": "كل",
+              "author_translit": "kail",
+              "arabic_gloss": "weight",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "جذرٌ آخر: بنش، بنط، بهر، تخس، ثقل، جبر، حم، خدود، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N009-006",
