@@ -5934,6 +5934,9 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: لا يطلب ثبوت الصورة في اللقطة، ولا يحوّل غيابها إلى رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-011:START -->
+- إلحاق جاسم، الدفعة 012: صف 2456: `Lift` ↔ `رفعت` (rif3at)؛ «lift» [jassem-2013-movement-action]. بقيت المروحة والحكم في البطاقة الواحدة نفسها.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-011:END -->
 
 ### بطاقة جاسم: `Load`؛ JAS-IE-004-019
 <!-- JASSEM-IE:JAS-IE-004-019 -->
@@ -5948,6 +5951,9 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: لا يطلب ثبوت الصورة في اللقطة، ولا يحوّل غيابها إلى رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-019:START -->
+- إلحاق جاسم، الدفعة 012: صف 2491: `Load` ↔ `دن` (doon)؛ «down, low» [jassem-2014-mathematical] | صف 2492: `Load` ↔ `عب` (3ubaab)؛ «height» [jassem-2014-mathematical]. بقيت المروحة والحكم في البطاقة الواحدة نفسها.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-019:END -->
 
 ### بطاقة جاسم: `Low`؛ JAS-IE-004-022
 <!-- JASSEM-IE:JAS-IE-004-022 -->
@@ -5962,6 +5968,9 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: لا يطلب ثبوت الصورة في اللقطة، ولا يحوّل غيابها إلى رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-022:START -->
+- إلحاق جاسم، الدفعة 012: صف 2523: `Low` ↔ `تمتم` (tamtam)؛ «murmur» [jassem-2013-speech-writing] | صف 2525: `Low` ↔ `عل` (3uloo)؛ «height, hill» [jassem-2013-celestial] | صف 2527: `Low` ↔ `علو` (3alwa(t))؛ «height, hill» [jassem-2013-celestial] | صف 2528: `Low` ↔ `لع` (la3a)؛ «shout» [jassem-2013-speech-writing] | صف 2529: `Low` ↔ `لقح` (laqa2a)؛ «to place low» [jassem-2013-celestial]. بقيت المروحة والحكم في البطاقة الواحدة نفسها.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-022:END -->
 
 ### بطاقة جاسم: `Mistake`؛ JAS-IE-004-051
 <!-- JASSEM-IE:JAS-IE-004-051 -->
@@ -5976,6 +5985,9 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: لا يطلب ثبوت الصورة في اللقطة، ولا يحوّل غيابها إلى رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-051:START -->
+- إلحاق جاسم، الدفعة 012: صف 2700: `Mistake` ↔ `مخطء` (mukhTi')؛ «mistake, mistaken» [jassem-2013-speech-writing · jassem-2014-divine-theological]. بقيت المروحة والحكم في البطاقة الواحدة نفسها.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-051:END -->
 
 ### بطاقة جاسم: `Near`؛ JAS-IE-004-077
 <!-- JASSEM-IE:JAS-IE-004-077 -->
@@ -5990,6 +6002,9 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: لا يطلب ثبوت الصورة في اللقطة، ولا يحوّل غيابها إلى رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-077:START -->
+- إلحاق جاسم، الدفعة 012: صف 2798: `Near` ↔ `جث` (jatha)؛ «sit» [jassem-2013-movement-action]. بقيت المروحة والحكم في البطاقة الواحدة نفسها.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-077:END -->
 
 ### بطاقة جاسم: `Needle`؛ JAS-IE-004-078
 <!-- JASSEM-IE:JAS-IE-004-078 -->
@@ -6004,6 +6019,9 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: لا يطلب ثبوت الصورة في اللقطة، ولا يحوّل غيابها إلى رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-078:START -->
+- إلحاق جاسم، الدفعة 012: صف 2802: `Needle` ↔ `نحر` (naa2ir(an))؛ «veins» [jassem-2015-medical] | صف 2804: `Needle` ↔ `نم` (naam)؛ «sleep» [jassem-2015-medical]. بقيت المروحة والحكم في البطاقة الواحدة نفسها.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-078:END -->
 
 ### بطاقة جاسم: `Next to`؛ JAS-IE-004-082
 <!-- JASSEM-IE:JAS-IE-004-082 -->
@@ -6018,6 +6036,9 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: لا يطلب ثبوت الصورة في اللقطة، ولا يحوّل غيابها إلى رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-082:START -->
+- إلحاق جاسم، الدفعة 012: صف 2824: `Next to` ↔ `جث` (jatha)؛ «sit» [jassem-2014-prepositions] | صف 2825: `Next to` ↔ `حت` (2atta)؛ «to» [jassem-2014-prepositions] | صف 2826: `Next to` ↔ `سيرن` (sayr(aan))؛ «walk, trip» [jassem-2014-prepositions] | صف 2832: `Next to` ↔ `لس` (laisa)؛ «not» [jassem-2014-prepositions] | صف 2833: `Next to` ↔ `مض` (miD)؛ «not» [jassem-2014-prepositions] | صف 2834: `Next to` ↔ `معذلك` (ma3adhalik)؛ «lit., with that; however» [jassem-2014-prepositions]. بقيت المروحة والحكم في البطاقة الواحدة نفسها.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-082:END -->
 
 ### بطاقة جاسم: `Nigh`؛ JAS-IE-004-083
 <!-- JASSEM-IE:JAS-IE-004-083 -->
@@ -6056,6 +6077,9 @@
 - في هذا الملف 15 بطاقة جديدة؛ اتبع الإسناد مادة الكلمة لا ترتيب ملف المصدر.
 - `bridge_agrees=نعم` قدّم الصف للفحص فقط؛ الحكم لا يصدر إلا بمسار صوت مسمى، وحدث مجمد كما هو، ومعنى فرع ومدار إنساني مكتوب.
 - فُحصت المروحة كلها مرتبة بـ`F.rank`، واستُعمل `fan_with_dialect` بعد عجز الفصيح؛ الوزن ترتيب لا حكم.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-084:START -->
+- إلحاق جاسم، الدفعة 012: صف 2839: `Night` ↔ `مسء` (masaa')؛ «evening» [jassem-2013-time] | صف 2840: `Night` ↔ `مست` (masiat)؛ «evening» [jassem-2013-time]. بقيت المروحة والحكم في البطاقة الواحدة نفسها.
+<!-- JASSEM-IE-CROSS-SUPPLEMENT-012:JAS-IE-004-084:END -->
 
 ### بطاقة جاسم: `Raise`؛ JAS-IE-005-009
 <!-- JASSEM-IE:JAS-IE-005-009 -->

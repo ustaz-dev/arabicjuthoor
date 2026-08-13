@@ -2743,7 +2743,37 @@
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2577,
+              "source_row_index_at_freeze": 2577,
+              "source_row_key": "3c7d8b03efe93ffed3257f4e",
+              "european": "March",
+              "arabic_root": "مش",
+              "author_translit": "masha",
+              "arabic_gloss": "to walk",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها"
+            },
+            {
+              "source_row_index": 2578,
+              "source_row_index_at_freeze": 2578,
+              "source_row_key": "d14847926e580d9c3e0a7e01",
+              "european": "March",
+              "arabic_root": "نط",
+              "author_translit": "naTTa",
+              "arabic_gloss": "jump",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: جمز، جندب، رمز، صول، غطس، قز، قفز، نخع، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0630",
@@ -59922,6 +59952,34 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2755,
+              "source_row_index_at_freeze": 2755,
+              "source_row_key": "ba3e7bb445b9d11575359a15",
+              "european": "Mound",
+              "arabic_root": "متط",
+              "author_translit": "imtaTa",
+              "arabic_gloss": "ride, animal to ride",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءركب، ركب"
+            },
+            {
+              "source_row_index": 2756,
+              "source_row_index_at_freeze": 2756,
+              "source_row_key": "9571ee7d0334b95464d7424f",
+              "european": "Mound",
+              "arabic_root": "مط",
+              "author_translit": "maTa",
+              "arabic_gloss": "ride, animal to ride",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءركب، ركب"
+            }
+          ]
         }
       ]
     },
@@ -60437,6 +60495,23 @@
               "arabic_gloss": "cities, urban",
               "source": "jassem-2013-celestial",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2768,
+              "source_row_index_at_freeze": 2768,
+              "source_row_key": "7dcb0d899b3d579417baf645",
+              "european": "Mud",
+              "arabic_root": "طم",
+              "author_translit": "Tami",
+              "arabic_gloss": "river mud",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءرد، ار، السين، الغرب، الفرات، اه، بحر، برق، وغيرُها"
             }
           ]
         }

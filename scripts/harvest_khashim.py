@@ -1320,6 +1320,56 @@ def mine_quran_adi_shir_commentaries(md: pathlib.Path) -> list[dict]:
     return rows
 
 
+def mine_philosophy_power_linguistic_essay(md: pathlib.Path) -> dict:
+    """احفظ مقالةَ خشيم اللغويّةَ في «الفلسفة والسلطة» كاملةً.
+
+    المقالةُ ردٌّ على الصادق النيهوم، وفيها مقابلاتٌ عربيّةٌ بإزاء الآراميّة
+    والأكّاديّة والمصريّة القديمة والسومريّة وغيرها. ولا تكفي علامةُ المساواة
+    لاستخراج جميع المقابلات، لذلك يُحفَظ المتنُ كلُّه، وتُفهرَس أسطرُ `=`
+    زيادةً على ذلك، من غير إدخالها في عدّاد الأزواج المنظَّمة قبل فصل أطرافها.
+    """
+    lines = md.read_text(encoding="utf-8").splitlines()
+    start_line, end_line = 1540, 3074
+    start = unicodedata.normalize("NFKC", lines[start_line - 1])
+    end = unicodedata.normalize("NFKC", lines[end_line - 1])
+    if "الصادق" not in start or "النيه" not in start:
+        raise SystemExit(
+            f"تغيّر بدءُ مقالة «اقرأ والأمي»: السطر {start_line}: {start}"
+        )
+    if "والسلام" not in end:
+        raise SystemExit(
+            f"تغيّرت خاتمةُ مقالة «اقرأ والأمي»: السطر {end_line}: {end}"
+        )
+    block_lines = lines[start_line - 1:end_line]
+    equation_lines = []
+    for source_line, raw in enumerate(block_lines, start_line):
+        normalized = unicodedata.normalize("NFKC", raw)
+        normalized = re.sub(r"[ـ\u200e\u200f\u202a-\u202e]", "", normalized)
+        normalized = re.sub(r"\s+", " ", normalized).strip()
+        if "=" in normalized:
+            equation_lines.append({
+                "source_line": source_line,
+                "printed_line": normalized,
+            })
+    if len(equation_lines) != 46:
+        raise SystemExit(
+            "تغيّر جردُ أسطر المساواة في مقالة «اقرأ والأمي»: "
+            f"{len(equation_lines)}، والمتوقَّع 46"
+        )
+    return {
+        "title": "عن «اقرأ» و«الأمي».. والصادق النيهوم",
+        "author": "علي فهمي خشيم",
+        "interlocutor": "الصادق النيهوم",
+        "source": "ocr-khashim-philosophy-and-power",
+        "source_span": f"{start_line}-{end_line}",
+        "printed_pages": "59-113",
+        "printed_block": "\n".join(block_lines).strip(),
+        "equation_lines": equation_lines,
+        "harvest_kind": "مقالةٌ لغويّةٌ مقارنةٌ محفوظةٌ كاملةً مع فهرس أسطر المساواة",
+        "ocr_source": "Internet Archive DjVuTXT الرسمي",
+    }
+
+
 def mine_ember_arabic_marked_lines(md: pathlib.Path) -> list[dict]:
     """احفظ كلَّ سطرٍ علَّمه إمبر صراحةً بالطرف العربيِّ «عر:».
 
@@ -1363,6 +1413,7 @@ def main() -> int:
     rows: list[dict] = []
     ember_lines: list[dict] = []
     quran_commentaries: list[dict] = []
+    philosophy_power_essay: dict = {}
     print(f"{'الكتاب':24}{'أزواج':>8}")
     for folder, (ar, key) in OCR_BOOKS.items():
         md = STORE / folder / "full.md"
@@ -1418,6 +1469,14 @@ def main() -> int:
     if quran.exists():
         quran_commentaries = mine_quran_adi_shir_commentaries(quran)
         print(f"  {'quran-adi-shir':24}{len(quran_commentaries):>8}   (تعليقاتٌ محفوظةٌ كاملة)")
+    philosophy_power = STORE / "ocr-khashim-philosophy-and-power" / "full.md"
+    if philosophy_power.exists():
+        philosophy_power_essay = mine_philosophy_power_linguistic_essay(philosophy_power)
+        print(
+            f"  {'philosophy-power-essay':24}"
+            f"{len(philosophy_power_essay['equation_lines']):>8}   "
+            "(مقالةٌ كاملة؛ أسطرُ مساواة)"
+        )
     for stem, (ar, key) in BOOKS.items():
         p = STORE / f"{stem}.pdf"
         if not p.exists():
@@ -1464,7 +1523,24 @@ def main() -> int:
                     "وتعليقُ خشيم كاملين، وحُصرت داخلهما أسطرُ المساواة من غير إسقاطٍ أو حكم."
                 ),
                 "rows": quran_commentaries,
-            }
+            },
+            "khashim_iqra_ummi_essay": {
+                "title": "عن «اقرأ» و«الأمي».. والصادق النيهوم",
+                "author": "علي فهمي خشيم",
+                "items": 1 if philosophy_power_essay else 0,
+                "equation_lines": len(
+                    philosophy_power_essay.get("equation_lines", [])
+                ),
+                "counting_rule": (
+                    "المقالةُ كاملةٌ مادةٌ واحدة؛ وفهرسٌ زائدٌ لكلِّ سطرٍ "
+                    "فيها يحمل علامة المساواة"
+                ),
+                "note": (
+                    "جردٌ نصّيٌّ خامٌ مستقلٌّ عن عدّاد الأزواج المنظَّمة؛ "
+                    "حُفظ المتنُ كاملًا لأنَّ مقابلاتٍ كثيرةً لا تحمل علامة المساواة."
+                ),
+                "record": philosophy_power_essay,
+            },
         },
         "rows": rows,
     }, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
@@ -1535,6 +1611,27 @@ def main() -> int:
             lines.append(
                 f"| **{item['head']}** | {item['source_span']} | {len(item['equation_lines'])} |"
             )
+    if philosophy_power_essay:
+        lines += [
+            "",
+            "## مَقالَةُ «عَن اِقرَأ والأُمِّيّ» في «الفَلسَفَةِ والسُّلطَة»",
+            "",
+            "حُفِظَ مَتنُ مَقالَةِ عَلي فَهمي خُشَيم كُلُّهُ مِن صَفحَةِ 59 إلى",
+            "صَفحَةِ 113؛ فَفيها مُقابَلاتٌ لِلعَرَبِيَّةِ بِإِزاءِ الآرامِيَّةِ",
+            "والأَكّادِيَّةِ والمِصرِيَّةِ القَديمَةِ والسُّومَرِيَّةِ وغَيرِها.",
+            "وبَعضُ المُقابَلاتِ مَطبوعٌ بِغَيرِ عَلامَةِ مُساواة، فَلا يُختَزَلُ",
+            "الحَصادُ في الأَسطُرِ الآتِيَة؛ إِنَّما هي فِهرِسٌ زائِدٌ داخِلَ",
+            "المَتنِ المَحفوظِ، ولا تَدخُلُ عَدّادَ الأَزواجِ المُنَظَّمَةِ بَعدُ.",
+            "",
+            f"**مَدى أَسطُرِ المَصدَر: {philosophy_power_essay['source_span']}؛ "
+            f"وأَسطُرُ المُساواة: {len(philosophy_power_essay['equation_lines'])}.**",
+            "",
+            "| سَطرُ المَصدَر | السَّطرُ كَما استُخرِج |",
+            "|---:|---|",
+        ]
+        for item in philosophy_power_essay["equation_lines"]:
+            printed = item["printed_line"].replace("|", "\\|")
+            lines.append(f"| {item['source_line']} | `{printed}` |")
     lines += ["", "---", "",
               "*English abstract.* Pairs harvested from Ali Fahmi Khashim's comparative",
               "dictionaries, whose titles state the thesis directly: Akkadian is Arabic, Coptic is",
@@ -1542,7 +1639,10 @@ def main() -> int:
               "Arabic Egypt II, and nine attributed papers in the Unity and Diversity symposium.",
               "A separate raw inventory preserves 45 headed entries in Is There Anything Foreign",
               "in the Qur'an?, attributing the quoted lexicography to Addi Shir and the full",
-              "commentary to Khashim without inflating the structured-pair counter.",
+               "commentary to Khashim without inflating the structured-pair counter.",
+               "A second raw inventory preserves Khashim's complete 59–113 essay on iqra and",
+               "ummi, plus all 46 lines bearing an equals sign, because many comparisons in the",
+               "essay are expressed without that typographic marker.",
               "His dictionary entries are lexicographic, so each foreign headword and",
               "its sense is followed by a line marked with the Arabic letter ain giving the Arabic",
               "root and its lexical text. These are candidates, not verdicts. The foreign words",

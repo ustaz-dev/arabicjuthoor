@@ -70893,6 +70893,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2672,
+              "source_row_index_at_freeze": 2672,
+              "source_row_key": "ed7a8e17d45355e32ecff336",
+              "european": "Milk",
+              "arabic_root": "بسبس",
+              "author_translit": "basbas",
+              "arabic_gloss": "flow water; walk fast",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: جري، خرط، زيف، سد، سدد، سري، سقي، سكب، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -97879,7 +97896,48 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2723,
+              "source_row_index_at_freeze": 2723,
+              "source_row_key": "48581bffb24bc06cdb7220ef",
+              "european": "Money",
+              "arabic_root": "ءمول",
+              "author_translit": "'amwaal",
+              "arabic_gloss": "money",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "جذرٌ آخر: ءجر، ءذن، بدر، بذر، برع، بغي، بلغ، بيز، وغيرُها"
+            },
+            {
+              "source_row_index": 2724,
+              "source_row_index_at_freeze": 2724,
+              "source_row_key": "84327dd9417f41eee77d09fb",
+              "european": "Money",
+              "arabic_root": "مل",
+              "author_translit": "maal",
+              "arabic_gloss": "money",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "جذرٌ آخر: ءجر، ءذن، بدر، بذر، برع، بغي، بلغ، بيز، وغيرُها"
+            },
+            {
+              "source_row_index": 2725,
+              "source_row_index_at_freeze": 2725,
+              "source_row_key": "6847e9b8a4496052d7b937b0",
+              "european": "Money",
+              "arabic_root": "نم",
+              "author_translit": "nummi",
+              "arabic_gloss": "money",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "جذرٌ آخر: ءجر، ءذن، بدر، بذر، برع، بغي، بلغ، بيز، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-207",

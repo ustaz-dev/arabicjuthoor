@@ -51847,6 +51847,56 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2574,
+              "source_row_index_at_freeze": 2574,
+              "source_row_key": "7221d0a034657d74d406b354",
+              "european": "Mansion",
+              "arabic_root": "منزل",
+              "author_translit": "manzil",
+              "arabic_gloss": "mansion, house",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: برج، قصر، قلع"
+            },
+            {
+              "source_row_index": 2601,
+              "source_row_index_at_freeze": 2601,
+              "source_row_key": "6dd119fa4700675c79ce79c7",
+              "european": "Mason",
+              "arabic_root": "مر",
+              "author_translit": "marr",
+              "arabic_gloss": "water, rain, sea",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: ءرض، ءس، بحر، بغش، جون، حوت، حوض، خور، وغيرُها"
+            },
+            {
+              "source_row_index": 2602,
+              "source_row_index_at_freeze": 2602,
+              "source_row_key": "6a943f3b1c6c7f6547fb0725",
+              "european": "Mason",
+              "arabic_root": "مرع",
+              "author_translit": "mar3a",
+              "arabic_gloss": "grazing land",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: ضيع، وزز"
+            },
+            {
+              "source_row_index": 2603,
+              "source_row_index_at_freeze": 2603,
+              "source_row_key": "7aed237802c875d7817ef167",
+              "european": "Mason",
+              "arabic_root": "مصون",
+              "author_translit": "muSawin",
+              "arabic_gloss": "mason; builder",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: بنا، بني، جرف، خوف، عمر، لج"
+            }
+          ]
         }
       ]
     },
@@ -60042,6 +60092,45 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2576,
+              "source_row_index_at_freeze": 2576,
+              "source_row_key": "8e5c796600cee27c44202fe5",
+              "european": "Mar",
+              "arabic_root": "مر",
+              "author_translit": "mar",
+              "arabic_gloss": "water, rain, sea",
+              "source": "jassem-2019-mr",
+              "bridge_agrees": "جذرٌ آخر: ءرض، ءس، بحر، بغش، جون، حوت، حوض، خور، وغيرُها"
+            },
+            {
+              "source_row_index": 2580,
+              "source_row_index_at_freeze": 2580,
+              "source_row_key": "77bd4cc2daf50b359f22a301",
+              "european": "Marine",
+              "arabic_root": "بء",
+              "author_translit": "bau'",
+              "arabic_gloss": "a(t) بىء، ب ُئت, from bawa",
+              "source": "jassem-2019-mr",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 2581,
+              "source_row_index_at_freeze": 2581,
+              "source_row_key": "0309b908baaf5d5f54cdffbf",
+              "european": "Marine",
+              "arabic_root": "مرمر",
+              "author_translit": "mar(mar)",
+              "arabic_gloss": "sea, much rain",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: ءبل، غب، وبل"
+            }
+          ]
         }
       ]
     },
@@ -66119,6 +66208,34 @@
               "arabic_gloss": "cut, measure",
               "source": "jassem-2014-mathematical",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2634,
+              "source_row_index_at_freeze": 2634,
+              "source_row_key": "6e480d42f48adf1f9dc9c7e0",
+              "european": "Measure",
+              "arabic_root": "مس",
+              "author_translit": "masa",
+              "arabic_gloss": "middle; evening",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "جذرٌ آخر: ءرد، ءير، الليل، اليمن، بحبح، برغل، بعث، بول، وغيرُها"
+            },
+            {
+              "source_row_index": 2635,
+              "source_row_index_at_freeze": 2635,
+              "source_row_key": "1bbf054313bb79d38df3ab9b",
+              "european": "Measure",
+              "arabic_root": "نص",
+              "author_translit": "niS)",
+              "arabic_gloss": "middle, half",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "جذرٌ آخر: نصف"
             }
           ]
         }

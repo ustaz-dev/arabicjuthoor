@@ -58252,6 +58252,56 @@
               "bridge_agrees": "جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، صحح، عطو، وغيرُها"
             }
           ]
+        },
+        {
+          "batch": 12,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2392,
+              "source_row_index_at_freeze": 2392,
+              "source_row_key": "af7222fb5523fb33d44a685a",
+              "european": "Language",
+              "arabic_root": "نته",
+              "author_translit": "intaha",
+              "arabic_gloss": "finished",
+              "source": "jassem-2018-negative-terms",
+              "bridge_agrees": "جذرٌ آخر: خلص، دبر، رفض، شرشف، صرم، صقل، كمل، لوح، وغيرُها"
+            },
+            {
+              "source_row_index": 2393,
+              "source_row_index_at_freeze": 2393,
+              "source_row_key": "2fbfc0dd81f225f4b8a0118f",
+              "european": "Language",
+              "arabic_root": "نحن",
+              "author_translit": "na2nu",
+              "arabic_gloss": "we",
+              "source": "jassem-2014-basque-finnish",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 2395,
+              "source_row_index_at_freeze": 2395,
+              "source_row_key": "d055cef68e7a0aaf9b39cb97",
+              "european": "Language",
+              "arabic_root": "هءلء",
+              "author_translit": "ha'ula'",
+              "arabic_gloss": "these, they",
+              "source": "jassem-2014-basque-finnish",
+              "bridge_agrees": "جذرٌ آخر: فيا"
+            },
+            {
+              "source_row_index": 2396,
+              "source_row_index_at_freeze": 2396,
+              "source_row_key": "30699a948d45f5c0325eb665",
+              "european": "Language",
+              "arabic_root": "هن",
+              "author_translit": "huna",
+              "arabic_gloss": "here",
+              "source": "jassem-2014-basque-finnish",
+              "bridge_agrees": "جذرٌ آخر: ده، دول، دي، سار، لبك، ها، هات، هذ، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -59163,7 +59213,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 12,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2411,
+              "source_row_index_at_freeze": 2411,
+              "source_row_key": "68b3bd17ca18eb0e74bb4245",
+              "european": "Lead",
+              "arabic_root": "لن",
+              "author_translit": "laien(at)",
+              "arabic_gloss": "lenient, soft",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: يسر"
+            },
+            {
+              "source_row_index": 2412,
+              "source_row_index_at_freeze": 2412,
+              "source_row_key": "92e3bcd8ff129cf9659f8ea1",
+              "european": "Lead",
+              "arabic_root": "مل",
+              "author_translit": "maal",
+              "arabic_gloss": "to lean",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: بد، تكء، حرف، حنا، حنو، خشب، خطف، خل، وغيرُها"
+            }
+          ]
+        }
+      ]
     }
   ],
   "previous_positive_confirmations": 2

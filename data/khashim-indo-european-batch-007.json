@@ -20608,7 +20608,37 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2404,
+              "source_row_index_at_freeze": 2404,
+              "source_row_key": "71b5e365c7cc945b653e9f84",
+              "european": "Laugh",
+              "arabic_root": "لغ",
+              "author_translit": "lagha",
+              "arabic_gloss": "talking",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: خنق، ضبب، غيب، كلم، لف، محر، نطق"
+            },
+            {
+              "source_row_index": 2405,
+              "source_row_index_at_freeze": 2405,
+              "source_row_key": "c10b929aa3982f97e1a213cc",
+              "european": "Laugh",
+              "arabic_root": "لغو",
+              "author_translit": "laghwa(t)",
+              "arabic_gloss": "talking",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: خنق، ضبب، غيب، كلم، لف، محر، نطق"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-042",
@@ -24771,6 +24801,34 @@
               "arabic_gloss": "to be late/long, to be delayed",
               "source": "jassem-2013-time",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 12,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2399,
+              "source_row_index_at_freeze": 2399,
+              "source_row_key": "8e2da6402bba13ce32cbbd15",
+              "european": "Late",
+              "arabic_root": "طل",
+              "author_translit": "Taal",
+              "arabic_gloss": "to be late/long, to be delayed",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "جذرٌ آخر: ءخر، حدث، خلد، رحل، قرء، كلء، موث"
+            },
+            {
+              "source_row_index": 2401,
+              "source_row_index_at_freeze": 2401,
+              "source_row_key": "701c9d88757baf6ba1da82e4",
+              "european": "Late",
+              "arabic_root": "عم",
+              "author_translit": "3aam",
+              "arabic_gloss": "year",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "جذرٌ آخر: ءيل، حال، حشو، حفن، خرف، خل، خمس، سمي، وغيرُها"
             }
           ]
         }
