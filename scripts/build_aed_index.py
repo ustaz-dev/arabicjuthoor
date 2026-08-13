@@ -151,7 +151,7 @@ def lexicon() -> dict:
     return _CACHE
 
 
-def look(form: str, limit: int = 6) -> tuple[list[dict], str]:
+def look(form: str, limit: int | None = None) -> tuple[list[dict], str]:
     """مداخلُ القاموسِ الموافقةُ للصورة، ومعها وسمُ الطريقِ الذي أصابَ بها.
 
     **الدقيقُ أوّلًا والمطويُّ احتياطًا**، ويُكتَبُ الوسمُ في البطاقةِ دائمًا.
@@ -171,12 +171,15 @@ def look(form: str, limit: int = 6) -> tuple[list[dict], str]:
             not ("entity_name" in (e.get("pos") or "")) if proper
             else ("entity_name" in (e.get("pos") or ""))))
 
+    def clipped(values: list[dict]) -> list[dict]:
+        return values if limit is None else values[:limit]
+
     idx = lex["by_skeleton"].get(skeleton_key(form), [])
     if idx:
-        return order([lex["entries"][i] for i in idx])[:limit], "هيكلٌ مطابق"
+        return clipped(order([lex["entries"][i] for i in idx])), "هيكلٌ مطابق"
     idx = lex.get("by_folded", {}).get(folded_key(form), [])
     if idx:
-        return (order([lex["entries"][i] for i in idx])[:limit],
+        return (clipped(order([lex["entries"][i] for i in idx])),
                 "هيكلٌ مطويٌّ (فرقُ نقطٍ في الرسم)")
     return [], "لا مدخل"
 

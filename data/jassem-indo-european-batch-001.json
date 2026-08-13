@@ -18136,7 +18136,51 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_comparative_supplements": [
+        {
+          "batch": 4,
+          "category": "cross-european",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            2545
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 2545,
+              "source_row_key": "b84c24225f70a879c763b207",
+              "foreign": "axe",
+              "foreign_sense": "فأس",
+              "tongue_ar": "اللاتينيّة والجرمانيّات والرومانيّات",
+              "arabic_root": "قص / شقص",
+              "arabic_gloss": "ردّ ألفاظ الفأس إلى قص وشقص للقطع.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 443,
+              "assigned_language": "old-english",
+              "assignment_reason": "exact form already has one Indo-European card"
+            }
+          ],
+          "forms": [
+            {
+              "form": "axe",
+              "normalized_form": "axe",
+              "script": "germanic",
+              "skeleton": [
+                "x"
+              ],
+              "fan_review": [],
+              "dialect_additions": 0,
+              "positives": []
+            }
+          ],
+          "target_card_id": "JAS-IE-001-061",
+          "target_manifest": "jassem-indo-european-batch-001.json",
+          "target_language": "old-english",
+          "target_kind": "jassem",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-001-062",

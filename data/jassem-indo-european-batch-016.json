@@ -28195,7 +28195,67 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_comparative_supplements": [
+        {
+          "batch": 4,
+          "category": "cross-european",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            2212
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 2212,
+              "source_row_key": "65d63196ca9e290aa8e82905",
+              "foreign": "yellow",
+              "foreign_sense": "ذهب؛ أصفر",
+              "tongue_ar": "الجرمانيّات والفرنسيّة",
+              "arabic_root": "جون",
+              "arabic_gloss": "ردّ أسرة الذهب والصفرة إلى جون، من ألفاظ الألوان.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 422,
+              "assigned_language": "old-english",
+              "assignment_reason": "exact form already has one Indo-European card"
+            }
+          ],
+          "forms": [
+            {
+              "form": "yellow",
+              "normalized_form": "yellow",
+              "script": "germanic",
+              "skeleton": [
+                "y",
+                "LL",
+                "w"
+              ],
+              "fan_review": [
+                {
+                  "root": "يلو",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«ي»: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.؛ «ل»: تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.؛ «و»: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.",
+                  "event_note": "لا الجذرُ «يلو» في الـ2,285 ولا نواتُه «يل» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "dialect_additions": 0,
+              "positives": []
+            }
+          ],
+          "target_card_id": "JAS-IE-016-074",
+          "target_manifest": "jassem-indo-european-batch-016.json",
+          "target_language": "old-english",
+          "target_kind": "jassem",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-016-075",

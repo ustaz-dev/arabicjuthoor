@@ -104,6 +104,37 @@ LATIN_DIGRAPH = ("TH", "CH", "SH", "GH", "KH", "PH", "SC", "CC", "LL", "FF", "DD
 LATIN_ENDINGS = ("ationem", "ation", "ium", "ius", "ion", "um", "us", "is",
                  "es", "os", "on", "or", "as", "a", "s")
 
+# ------------------------------------------ زوائدُ الاشتقاقِ في المفرداتِ اللاتينيّةِ الأصل
+# **الحدُّ الأعلى للهيكلِ أربعةٌ، وما جاوزَه سقطَت مروحتُه صفرًا.** والمقيسُ في
+# مخزنَي جاسمَ والبوّاباتِ الميّتة: من 1,101 صورةٍ لاتينيّةِ الحرفِ **249 يجاوزُ
+# هيكلُها الأربعة (22.6%)**، منها 216 كلمةٌ واحدةٌ طويلةٌ لا عبارة. وهي في
+# أكثرِها مفرداتٌ لاتينيّةُ الأصلِ ركِبَت عليها زوائدُ اشتقاقٍ إنجليزيّة:
+# `Comprehend` و`Bureaucracy` و`Conciliation` و`Chivalry` و`Bracelet`.
+#
+# **والزائدةُ ليست من المادّة**، وهي الفصيلةُ نفسُها التي رُئيَت في تاءِ `עסקתא`
+# وفي تاءِ التأنيثِ المصريّةِ وفي سينِ الرفعِ في `rēx`. فيُزادُ هيكلٌ موسومٌ
+# ولا يُحذَفُ الأصلُ، ويُنزَعُ أكثرُ من زائدةٍ ما دامَ الهيكلُ مجاوِزًا للحدّ،
+# لأنّ `Conciliation` فيها لاحقتان.
+#
+# **ويبقى التحفُّظُ مكتوبًا:** الكلمةُ الإنجليزيّةُ المشتقّةُ حديثًا (`spectrograph`
+# ونحوُها) مادّتُها لاتينيّةٌ وصياغتُها معاصرة، فالمقابلةُ إنّما هي مع عنصرِها
+# اللاتينيِّ لا مع الصياغةِ نفسِها، وذلك يُكتَبُ في البطاقةِ صراحةً.
+LATIN_DERIVATIONAL = (
+    "ification", "ationem", "aceous", "ization", "isation", "ability",
+    "ibility", "ational", "ferous", "ometer", "ograph", "ology", "ocracy",
+    "ention", "ination", "iation", "ation", "ition", "ution", "escence",
+    "acular", "ular", "atory", "ator", "ancy", "ency", "arium", "orium",
+    "ature", "iture", "ement", "ament",
+    "ical", "ually", "ually", "uous", "ious", "eous", "ance", "ence",
+    "ment", "tion", "sion", "ity", "ety", "ary", "ory", "ery", "ury",
+    "ist", "ism", "ive", "ous", "ial", "ual", "eal", "let", "ette",
+    "able", "ible", "age", "ic", "al", "ry", "cy", "ty", "y",
+)
+LATIN_PREFIXES = ("circum", "contra", "trans", "inter", "super", "under",
+                  "counter", "com", "con", "pre", "pro", "sub", "dis",
+                  "mis", "non", "over", "out", "re", "de", "ex", "in",
+                  "un", "ab", "ad", "be")
+
 # الفروعُ الجرمانيّةُ نقلَت أصواتَها نقلةً مطّردةً معروفة، فحرفُها h يقابِلُ القافَ
 # والكافَ عندَنا كما في horn وقرن، وهي بطاقةٌ صادرةٌ في المشروعِ أصلًا. فتُوسَّعُ
 # لها المروحةُ بهذا القدرِ وحدَه، ويبقى المعنى هو الحاكم.
@@ -278,6 +309,57 @@ def egyptian_skeletons(letters: list[str]) -> list[tuple[list[str], str]]:
     # صدرِ الفعلِ المصريّ. ولا تُنزَعُ إلّا إذا بقيَ بعدَها هيكلٌ صالحٌ.
     if len(letters) >= 4 and letters[0] in ("s", "š"):
         add(letters[1:], "بإسقاطِ سينِ السببيّةِ من الصدر")
+    return out
+
+
+def latin_stem_skeletons(word: str, script: str = "latin") -> list[tuple[list[str], str]]:
+    """هياكلُ الكلمةِ اللاتينيّةِ الأصلِ بأوسامِها، والأوّلُ «كما وردَت» دائمًا.
+
+    تُنزَعُ الزوائدُ ما دامَ الهيكلُ مجاوِزًا الأربعةَ، ولا يُنزَعُ شيءٌ يترُكُ
+    ساقًا أقصرَ من حرفَينِ صامتَين. والعبارةُ ذاتُ الكلمتَينِ تُفَضُّ كلماتٍ.
+    """
+    out: list[tuple[list[str], str]] = []
+    seen: set[str] = set()
+
+    def add(text: str, label: str) -> None:
+        s = skeleton(text, script)
+        key = "".join(s)
+        if not (2 <= len(s) <= 4) or key in seen:
+            return
+        seen.add(key)
+        out.append((s, label))
+
+    base = word.strip()
+    add(base, "كما وردَت")
+
+    # العبارةُ تُفَضُّ، فكلُّ كلمةٍ فيها مادّةٌ على حدة
+    parts = re.split(r"[\s'’-]+", base)
+    if len(parts) > 1:
+        for part in parts:
+            if len(part) > 2:
+                add(part, f"كلمةُ «{part}» من العبارة")
+        return out
+
+    stem, peeled = base, []
+    for _ in range(3):
+        low = stem.lower()
+        cut = next((e for e in LATIN_DERIVATIONAL
+                    if low.endswith(e) and len(low) - len(e) >= 3), None)
+        if not cut:
+            break
+        stem, _ = stem[:-len(cut)], peeled.append(cut)
+        add(stem, "بإسقاطِ زائدةِ " + " ثمّ ".join(f"`-{p}`" for p in peeled))
+        if len(skeleton(stem, script)) <= 4:
+            break
+
+    low = base.lower()
+    pre = next((p for p in LATIN_PREFIXES
+                if low.startswith(p) and len(low) - len(p) >= 4), None)
+    if pre:
+        add(base[len(pre):], f"بإسقاطِ صدرِ `{pre}-`")
+        if peeled:
+            add(stem[len(pre):] if stem.lower().startswith(pre) else stem,
+                f"بإسقاطِ صدرِ `{pre}-` وزائدةِ النهاية")
     return out
 
 
@@ -469,6 +551,14 @@ def fan(word: str, script: str | None = None, limit: int = 400,
     # المصريّةُ: تاءُ التأنيثِ وسينُ السببيّةِ وأخواتُهما بديلٌ موسومٌ لا بديلَ عنه
     if script == "egyptian":
         skeletons += [alt for alt, _ in egyptian_skeletons(sk)[1:]]
+
+    # اللاتينيُّ والجرمانيُّ: ما جاوزَ هيكلُه الأربعةَ تُنزَعُ زوائدُ اشتقاقِه.
+    # **ولا يُقتَطَعُ أوّلُ الراجعِ هنا**: الكلمةُ الطويلةُ لا يدخلُ هيكلُها
+    # «كما وردَت» أصلًا لأنّه مجاوِزٌ للحدّ، فأوّلُ الراجعِ بديلٌ لا أصل.
+    if script in {"latin", "germanic"} and len(sk) > 4:
+        for alt, _ in latin_stem_skeletons(word, script):
+            if alt not in skeletons:
+                skeletons.append(alt)
 
     table = FANS[script]
     out: list[str] = []

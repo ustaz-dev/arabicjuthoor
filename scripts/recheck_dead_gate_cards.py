@@ -82,6 +82,10 @@ MANUAL_SPECS.update({
         "root": "مسح",
         "orbit": "المسيح هو الممسوح بالدهن، والمسح يبسط الدهن على ظاهر الجسد حتى يستوي عليه؛ فمعنى الممسوح يصل إلى انبساط الظاهر واستوائه في حدث `مسح`.",
     }],
+    625: [{
+        "root": "جن",
+        "orbit": "الجن في معنى الفرع كائن مستور عن العين لا يظهر في العادة؛ فخفاء شخصه يصل مباشرة إلى الستر والكثافة في حدث النواة `جن`.",
+    }],
 })
 
 
@@ -157,16 +161,52 @@ def targets(blocks: dict[int, str], files: dict[int, str]) -> list[int]:
     return selected
 
 
-def skeleton_variants(form: str, script: str) -> str:
-    values = ["".join(F.skeleton(form, script))]
+def skeleton_variant_items(form: str, script: str) -> list[dict[str, Any]]:
+    """Return every skeleton used by the fan, preserving its morphology label."""
+    items: list[dict[str, Any]] = []
+    seen: set[str] = set()
+
+    def add(letters: list[str], label: str, usable: bool | None = None) -> None:
+        value = "".join(letters)
+        if not value or value in seen:
+            return
+        seen.add(value)
+        items.append({
+            "skeleton": value,
+            "label": label,
+            "usable": 2 <= len(letters) <= 4 if usable is None else usable,
+        })
+
+    raw = F.skeleton(form, script)
+    raw_label = "كما وردَت"
+    if not 2 <= len(raw) <= 4:
+        raw_label += "؛ خارج حدّ المروحة"
+    add(raw, raw_label)
+
     if script in {"latin", "germanic", "greek"}:
         for ending in F.LATIN_ENDINGS:
             if form.lower().endswith(ending) and len(form) - len(ending) >= 2:
-                alternate = "".join(F.skeleton(form[:-len(ending)], script))
-                if 2 <= len(alternate) <= 4 and alternate not in values:
-                    values.append(alternate)
+                alternate = F.skeleton(form[:-len(ending)], script)
+                if 2 <= len(alternate) <= 4:
+                    add(alternate, f"بإسقاطِ لاحقةِ `-{ending}`")
                 break
-    return "|".join(value for value in values if value)
+    if script in {"latin", "germanic"} and len(raw) > 4:
+        for alternate, label in F.latin_stem_skeletons(form, script):
+            add(alternate, label)
+    return items
+
+
+def skeleton_variants(form: str, script: str) -> str:
+    return "|".join(
+        item["skeleton"] for item in skeleton_variant_items(form, script)
+        if item["usable"]
+    )
+
+
+def render_skeleton_variants(items: list[dict[str, Any]]) -> str:
+    return " / ".join(
+        f"`{item['skeleton']}` ({item['label']})" for item in items
+    ) or "∅"
 
 
 def current_fan(form: str, language: str, selected: set[str]) -> tuple[list[dict[str, Any]], int]:
@@ -217,7 +257,12 @@ def missing_sound_searches(form: str, language: str) -> list[str]:
     lines = NETWORK.read_text(encoding="utf-8").splitlines()
     queries: list[str] = []
     seen: set[tuple[str, str]] = set()
-    for source in F.skeleton(form, script):
+    sources = [
+        source
+        for item in skeleton_variant_items(form, script) if item["usable"]
+        for source in item["skeleton"]
+    ]
+    for source in sources:
         for arabic in F.FANS[script].get(source, ()):  # كل حرفَي الباب، لا أحدهما
             pair = (source, arabic)
             if pair in seen or pair in K.ROW_IDS:
@@ -263,6 +308,13 @@ def build_card(
     raw_rows: list[dict[str, Any]],
 ) -> tuple[list[str], dict[str, Any], str]:
     word = str(form["form"])
+    fan_script = script_for(language)
+    fan_skeletons = skeleton_variant_items(word, fan_script)
+    stem_labels = [
+        item["label"] for item in fan_skeletons
+        if item["label"] != "كما وردَت"
+        and not item["label"].startswith("كما وردَت؛")
+    ]
     specs = MANUAL_SPECS.get(index, [])
     selected_roots = {spec["root"] for spec in specs}
     if len(selected_roots) != len(specs):
@@ -296,10 +348,16 @@ def build_card(
         f"- اللسان: {LANGUAGE_LABELS[language]}؛ الطبقة: استكشاف.",
         f"- نقل المصدر بلا رتوش: {source_claims}",
         f"- معنى الفرع بلا رتوش: {branch_line(block)} وعند غياب اللقطة يبقى نقل المصدر المسمى صالحًا: {source_meanings}.",
-        f"- الخطوة صفر: الصورة `{clean(word)}`؛ الرسم `{script_for(language)}`؛ الهياكل الحالية `{' / '.join(skeleton_variants(word, script_for(language)).split('|')) or '∅'}`.",
+        f"- الخطوة صفر: الصورة `{clean(word)}`؛ الرسم الصريح `{fan_script}`؛ الهياكل الحالية {render_skeleton_variants(fan_skeletons)}.",
+        f"- باب الساق اللاتيني الموسوم: {('؛ '.join(stem_labels) + '؛ بقيت الصورة كما وردت في أول العرض حيث صلحت.') if stem_labels else 'لم يضف هيكلًا بديلًا لهذه الصورة.'}",
         f"- المروحة الكاملة من `fan_any_script.fan` مرتبة بـ`fan_any_script.rank`: {('، '.join(render_candidate(item) for item in review) or 'لا مرشح قابل للتوليد')}. الوزن ترتيب لا حكم؛ د=درجة الحدث؛ م× يعني أن المدار فُحص ولم يقنع.",
         f"- فحص `fan_with_dialect`: أضاف {dialect_additions} صورة موسومة بعد الفصيح ولم يحذف الفصيح.",
     ]
+    if stem_labels:
+        lines.append(
+            "- تنبيه التأريخ: التعرية لا تجعل الصياغة الإنجليزية المشتقة حديثًا قديمة؛ "
+            "المقابلة، إن ثبتت أرجلها، تكون مع عنصرها اللاتيني الباقي لا مع الصياغة الحديثة نفسها."
+        )
 
     positives: list[dict[str, Any]] = []
     for spec in specs:
@@ -386,7 +444,8 @@ def build_card(
         "form": word,
         "source_rows": form["source_rows"],
         "dead_gates": gates,
-        "fan_script": script_for(language),
+        "fan_script": fan_script,
+        "fan_skeletons": fan_skeletons,
         "fan_candidates": review,
         "dialect_additions": dialect_additions,
         "positives": positives,
@@ -401,6 +460,7 @@ def audit_text(
     rows: list[dict[str, Any]],
     gate_mentions: int,
     reason_counts: Counter[str],
+    fan_empty_rereview: dict[str, Any] | None = None,
 ) -> str:
     positive = [row for row in rows if row["positives"]]
     opened = [row for row in rows if not row["positives"]]
@@ -433,6 +493,18 @@ def audit_text(
     for key, count in reason_counts.items():
         if count:
             lines.append(f"- سبب الفتح `{key}`: {count}، {reason_ar[key]}.")
+    if fan_empty_rereview:
+        transitions = fan_empty_rereview["after"]
+        lines.extend([
+            "",
+            "## تصحيح مروحة الساق اللاتيني",
+            "",
+            f"- أُعيدت {fan_empty_rereview['targeted_cards']} بطاقة كانت موسومة `FAN-EMPTY` وحدها؛ لم تُعَد أي بطاقة ذات حكم أو سبب آخر.",
+            f"- صار لـ{fan_empty_rereview['cards_gained_fan']} بطاقة منها مرشحون بعد التعرية الموسومة، وبقيت {transitions.get('FAN-EMPTY', 0)} بلا مرشح.",
+            f"- دخل {fan_empty_rereview['new_positive_cards']} موجب جديد من هذه الإعادة؛ وُزعت بقية النتائج: "
+            + "، ".join(f"`{key}`={value}" for key, value in transitions.items()) + ".",
+            "- كل بطاقة اتسعت مروحتها تسمي الزائدة المنزوعة، وتصرح بأن الصياغة الإنجليزية الحديثة ليست هي المدعى قدمها؛ المقابلة مع العنصر اللاتيني وحده.",
+        ])
     lines.extend([
         "",
         "## أبرز الأزواج الداخلة",
@@ -451,12 +523,135 @@ def audit_text(
     return "\n".join(lines)
 
 
+def replace_rereview_card(text: str, index: int, card_lines: list[str]) -> str:
+    marker = f"<!-- DEAD-GATE-REREVIEW:KHASHIM-IE:{index} -->"
+    marker_at = text.find(marker)
+    if marker_at < 0 or text.find(marker, marker_at + len(marker)) >= 0:
+        raise AssertionError(f"expected one rereview marker for card {index}")
+    heading_at = text.rfind("\n### ", 0, marker_at)
+    start = heading_at + 1 if heading_at >= 0 else 0
+    following = [
+        value + 1 for value in (
+            text.find("\n### ", marker_at + len(marker)),
+            text.find("\n<!-- DEAD-GATE-REREVIEW-BATCH-", marker_at + len(marker)),
+        ) if value >= 0
+    ]
+    if not following:
+        raise AssertionError(f"could not find the end of rereview card {index}")
+    finish = min(following)
+    replacement = "\n".join(card_lines).rstrip() + "\n\n"
+    return text[:start] + replacement + text[finish:]
+
+
+def redo_fan_empty(batch: int) -> int:
+    audit_path = ROOT / "05-audits" / f"{DATE}-dead-gate-rereview-batch-{batch:03d}.md"
+    manifest_path = ROOT / "data" / f"dead-gate-rereview-batch-{batch:03d}.json"
+    if not audit_path.exists() or not manifest_path.exists():
+        raise AssertionError(f"batch {batch} must exist before its FAN-EMPTY rereview")
+
+    payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+    if payload.get("batch") != batch:
+        raise AssertionError(f"manifest batch mismatch in {manifest_path}")
+    target_positions = [
+        position for position, row in enumerate(payload["rows"])
+        if row.get("open_reason") == "FAN-EMPTY"
+    ]
+    if not target_positions:
+        raise AssertionError(f"batch {batch} has no current FAN-EMPTY rows to rereview")
+
+    blocks, files = original_blocks()
+    forms = form_index()
+    raw_rows = source_rows()
+    before_untouched = {
+        position: json.dumps(row, ensure_ascii=False, sort_keys=True)
+        for position, row in enumerate(payload["rows"])
+        if position not in target_positions
+    }
+    reading_texts: dict[str, str] = {}
+    transitions: Counter[str] = Counter()
+    cards_gained_fan = 0
+    new_positive_cards = 0
+
+    for position in target_positions:
+        old = payload["rows"][position]
+        index = old["original_index"]
+        language = files[index]
+        if old["language"] != language or old["form"] != forms[index]["form"]:
+            raise AssertionError(f"source identity drift in dead-gate card {index}")
+        card_lines, row, _ = build_card(
+            index, language, blocks[index], forms[index], raw_rows
+        )
+        if row["fan_candidates"]:
+            cards_gained_fan += 1
+        if row["positives"]:
+            new_positive_cards += 1
+            transition = "+".join(dict.fromkeys(
+                positive["closure"] for positive in row["positives"]
+            ))
+        else:
+            transition = row["open_reason"]
+        transitions[transition] += 1
+        payload["rows"][position] = row
+
+        if language not in reading_texts:
+            path = READINGS / f"{language}.md"
+            reading_texts[language] = path.read_text(encoding="utf-8")
+        reading_texts[language] = replace_rereview_card(
+            reading_texts[language], index, card_lines
+        )
+
+    for position, serialized in before_untouched.items():
+        current = json.dumps(payload["rows"][position], ensure_ascii=False, sort_keys=True)
+        if current != serialized:
+            raise AssertionError(f"non-FAN-EMPTY row {position} changed in batch {batch}")
+
+    reason_counts = Counter(
+        row["open_reason"] for row in payload["rows"] if not row["positives"]
+    )
+    summary = {
+        "date": DATE,
+        "targeted_cards": len(target_positions),
+        "cards_gained_fan": cards_gained_fan,
+        "new_positive_cards": new_positive_cards,
+        "before": {"FAN-EMPTY": len(target_positions)},
+        "after": dict(transitions),
+        "policy": "only rows whose current open_reason was FAN-EMPTY were rebuilt",
+    }
+    payload.update({
+        "positive_cards": sum(bool(row["positives"]) for row in payload["rows"]),
+        "positive_traces": sum(len(row["positives"]) for row in payload["rows"]),
+        "open_cards": sum(not row["positives"] for row in payload["rows"]),
+        "open_reasons": dict(reason_counts),
+        "fan_empty_rereview": summary,
+    })
+
+    for language, text in reading_texts.items():
+        (READINGS / f"{language}.md").write_text(
+            text, encoding="utf-8", newline="\n"
+        )
+    manifest_path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    audit_path.write_text(
+        audit_text(batch, payload["rows"], payload["gate_mentions"], reason_counts, summary),
+        encoding="utf-8",
+        newline="\n",
+    )
+    print(json.dumps(summary, ensure_ascii=False))
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--batch", type=int, required=True)
+    parser.add_argument("--redo-fan-empty", action="store_true")
     args = parser.parse_args()
     if not 1 <= args.batch <= 7:
         raise SystemExit("batch must be between 1 and 7")
+    if args.redo_fan_empty:
+        return redo_fan_empty(args.batch)
 
     blocks, files = original_blocks()
     forms = form_index()

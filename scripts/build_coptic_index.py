@@ -138,18 +138,23 @@ def lexicon() -> dict:
     return _CACHE
 
 
-def look(form: str, limit: int = 6) -> tuple[list[dict], str]:
+def look(form: str, limit: int | None = None) -> tuple[list[dict], str]:
     """مداخلُ القاموسِ القبطيِّ الموافقةُ للصورة، ومعها وسمُ الطريق.
 
     **ولا تُؤخَذُ الأولى وحدَها**، للعلّةِ نفسِها المكتوبةِ في `build_aed_index`.
+    ولذلك الأصلُ أن تُرَدَّ المداخلُ **كلُّها** ويقصُرَها الطالبُ إن شاء.
     """
     lex = lexicon()
+
+    def clipped(values: list[dict]) -> list[dict]:
+        return values if limit is None else values[:limit]
+
     idx = lex["by_skeleton"].get(AED.skeleton_key(form), [])
     if idx:
-        return [lex["entries"][i] for i in idx[:limit]], "هيكلٌ مطابق"
+        return clipped([lex["entries"][i] for i in idx]), "هيكلٌ مطابق"
     idx = lex["by_folded"].get(AED.folded_key(form), [])
     if idx:
-        return [lex["entries"][i] for i in idx[:limit]], "هيكلٌ مطويٌّ (فرقُ رسم)"
+        return clipped([lex["entries"][i] for i in idx]), "هيكلٌ مطويٌّ (فرقُ رسم)"
     return [], "لا مدخل"
 
 
@@ -163,7 +168,7 @@ def main() -> int:
         for form in args.look:
             hits, how = look(form)
             print(f"\n{form}  (هيكل {AED.skeleton_key(form)})  {len(hits)} مدخلًا، {how}:")
-            for e in hits:
+            for e in hits[:12]:
                 print(f"  {e['coptic']:14} {e['latin']:12} {e['pos'][:14]:16} {e['en'][:60]}")
         return 0
 

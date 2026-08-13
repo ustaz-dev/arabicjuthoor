@@ -2,7 +2,7 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 2210,
+  "root": 2220,
   "nucleus": 1269,
   "languages": 16
  },
@@ -477,7 +477,7 @@
    "ar": "المصريّة القديمة",
    "en": "Ancient Egyptian",
    "distance": 2,
-   "root": 110,
+   "root": 108,
    "nucleus": 189,
    "floor": 1,
    "examples": [
@@ -562,8 +562,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 299,
-   "nucleus_share": 63.2
+   "total": 297,
+   "nucleus_share": 63.6
   },
   {
    "key": "coptic",
@@ -571,7 +571,7 @@
    "en": "Coptic",
    "distance": 2,
    "root": 39,
-   "nucleus": 175,
+   "nucleus": 174,
    "floor": 1,
    "examples": [
     {
@@ -655,15 +655,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 214,
-   "nucleus_share": 81.8
+   "total": 213,
+   "nucleus_share": 81.7
   },
   {
    "key": "old-latin",
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 104,
+   "root": 106,
    "nucleus": 32,
    "floor": 1,
    "examples": [
@@ -748,15 +748,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 136,
-   "nucleus_share": 23.5
+   "total": 138,
+   "nucleus_share": 23.2
   },
   {
    "key": "ancient-greek",
    "ar": "اليونانيّة القديمة",
    "en": "Ancient Greek",
    "distance": 3,
-   "root": 18,
+   "root": 19,
    "nucleus": 9,
    "floor": 0,
    "examples": [
@@ -841,8 +841,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 27,
-   "nucleus_share": 33.3
+   "total": 28,
+   "nucleus_share": 32.1
   },
   {
    "key": "persian",
@@ -1005,8 +1005,8 @@
    "ar": "الإنجليزيّة الوسطى",
    "en": "Middle English",
    "distance": 4,
-   "root": 45,
-   "nucleus": 19,
+   "root": 49,
+   "nucleus": 20,
    "floor": 0,
    "examples": [
     {
@@ -1080,8 +1080,101 @@
      "degree": "ROOT-ECHO"
     }
    ],
-   "total": 64,
-   "nucleus_share": 29.7
+   "total": 69,
+   "nucleus_share": 29.0
+  },
+  {
+   "key": "old-norse",
+   "ar": "النُّرديّة القديمة",
+   "en": "Old Norse",
+   "distance": 4,
+   "root": 24,
+   "nucleus": 11,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "hamr",
+     "say": "",
+     "sense": "shroud, covering",
+     "arabic": "غمر",
+     "quote": "غمره الماء: علاه وغطاه",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "hurð",
+     "say": "hurdh",
+     "sense": "door",
+     "arabic": "غلق",
+     "quote": "غلق الباب وأغلقه وغلقه",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "hylja",
+     "say": "",
+     "sense": "to hide, cover",
+     "arabic": "غلف",
+     "quote": "الغلاف... ما اشتمل على الشيء",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "vitra",
+     "say": "",
+     "sense": "to manifest, reveal",
+     "arabic": "فطر",
+     "quote": "ارتخاء الشيء لذهاب شدته؛ فينبسط",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "tign",
+     "say": "",
+     "sense": "state, highness, honour",
+     "arabic": "تقن",
+     "quote": "مادة جودة الشيء في بابه أو جنسه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "mygla",
+     "say": "",
+     "sense": "to grow mouldy or musty",
+     "arabic": "بقل",
+     "quote": "نبات (أو شيء ينبت) ضعيفا في ظاهر شيء",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "draga",
+     "say": "",
+     "sense": "to draw, drag, pull",
+     "arabic": "درج",
+     "quote": "ضم أو احتواء في مضم للنقل برفق",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "fleyta",
+     "say": "",
+     "sense": "to set afloat, launch",
+     "arabic": "فرط",
+     "quote": "خلوص الماء من الملح مع صفائه من الكدورة",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 35,
+   "nucleus_share": 31.4
   },
   {
    "key": "old-irish",
@@ -1175,99 +1268,6 @@
    ],
    "total": 34,
    "nucleus_share": 61.8
-  },
-  {
-   "key": "old-norse",
-   "ar": "النُّرديّة القديمة",
-   "en": "Old Norse",
-   "distance": 4,
-   "root": 22,
-   "nucleus": 11,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "hamr",
-     "say": "",
-     "sense": "shroud, covering",
-     "arabic": "غمر",
-     "quote": "غمره الماء: علاه وغطاه",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "hurð",
-     "say": "hurdh",
-     "sense": "door",
-     "arabic": "غلق",
-     "quote": "غلق الباب وأغلقه وغلقه",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "hylja",
-     "say": "",
-     "sense": "to hide, cover",
-     "arabic": "غلف",
-     "quote": "الغلاف... ما اشتمل على الشيء",
-     "lexicon": "تاج العروس",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "vitra",
-     "say": "",
-     "sense": "to manifest, reveal",
-     "arabic": "فطر",
-     "quote": "ارتخاء الشيء لذهاب شدته؛ فينبسط",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "tign",
-     "say": "",
-     "sense": "state, highness, honour",
-     "arabic": "تقن",
-     "quote": "مادة جودة الشيء في بابه أو جنسه",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "mygla",
-     "say": "",
-     "sense": "to grow mouldy or musty",
-     "arabic": "بقل",
-     "quote": "نبات (أو شيء ينبت) ضعيفا في ظاهر شيء",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "draga",
-     "say": "",
-     "sense": "to draw, drag, pull",
-     "arabic": "درج",
-     "quote": "ضم أو احتواء في مضم للنقل برفق",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "fleyta",
-     "say": "",
-     "sense": "to set afloat, launch",
-     "arabic": "فرط",
-     "quote": "خلوص الماء من الملح مع صفائه من الكدورة",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    }
-   ],
-   "total": 33,
-   "nucleus_share": 33.3
   },
   {
    "key": "gothic",
@@ -1367,7 +1367,7 @@
    "ar": "الويلزيّة",
    "en": "Welsh",
    "distance": 4,
-   "root": 3,
+   "root": 6,
    "nucleus": 3,
    "floor": 0,
    "examples": [
@@ -1422,8 +1422,8 @@
      "degree": "ROOT-ECHO"
     }
    ],
-   "total": 6,
-   "nucleus_share": 50.0
+   "total": 9,
+   "nucleus_share": 33.3
   }
  ]
 }

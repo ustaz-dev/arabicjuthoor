@@ -86,6 +86,26 @@ MANUAL_SPECS: dict[tuple[str, int], list[dict[str, str]]] = {
         "lisan": "حجر صلد وصلود: بين الصلادة والصلود، صلب أملس.",
         "taj": "الصلد: الصلب الأملس؛ يقال حجر صلد وصلود وصليد.",
     }],
+    ("welsh", 168): [{
+        "root": "شد",
+        "orbit": (
+            "معنى `sad` في هذه البطاقة هو الثبات والرسوخ والصلابة، لا الحزن؛ "
+            "فالشيء الثابت المتين قد اشتدت أجزاؤه ووثق بعضها ببعض، ولذلك يصل "
+            "معنى الفرع مباشرة إلى حدث `شد` في صلابة الشيء ووثاقة تركيبه."
+        ),
+        "lisan": "الشدة: الصلابة، وهي نقيض اللين.",
+        "taj": "الشد: العقد القوي؛ يقال شددت الشيء: قويت عقده.",
+    }],
+    ("welsh", 175): [{
+        "root": "قرن",
+        "orbit": (
+            "الـ`horn` قرن ناتئ صلب يمتد من أعلى رأس الحيوان أو مقدمه؛ وهذا "
+            "هو بعينه حدث `قرن` المسجل: نتوء بشدة يمتد في أعلى الجسم أو "
+            "مقدمه، فلا يحتاج الانتقال بين المعنيين إلى واسطة مصطنعة."
+        ),
+        "lisan": "القرن للثور وغيره: الروق، وموضعه من رأس الإنسان قرن أيضا.",
+        "taj": "القرن، محركة: الروق من الحيوان، والجمع قرون.",
+    }],
 }
 
 # إغلاقات لا تنشئ صلة مقارنة. لكل عضو دليله، ولا يورث الحكم لمتحد الرسم.
@@ -119,6 +139,18 @@ NAMED_CLOSURES: dict[tuple[str, int], dict[str, str]] = {
         "donor": "الأكدية qanû، القصبة",
         "route": "الأكدية qanû ← اليونانية kanna ← اللاتينية canna ← الإيطالية cannone ← الفرنسية الوسطى canon ← الإنجليزية cannon ← الويلزية canon",
         "evidence": "04-cross-linguistic/data/lane_d_middle_english_transmissions.jsonl، السطر 14",
+    },
+    ("welsh", 186): {
+        "closure": "SEMITIC-SOURCE-TRANSMISSION",
+        "donor": "العربية الغطاس (al-ġaṭṭās)، الغواص أو طائر البحر",
+        "route": "العربية الغطاس ← الإسبانية أو البرتغالية alcatraz ← الإنجليزية albatross ← الويلزية albatros",
+        "evidence": "Merriam-Webster، مادة albatross، فقرة Word History؛ وCNRTL، مادة alcatraz",
+    },
+    ("welsh", 233): {
+        "closure": "SEMITIC-SOURCE-TRANSMISSION",
+        "donor": "العبرية בֹּשֶׂם (bōśem)، الطيب أو البلسم",
+        "route": "العبرية bōśem ← اليونانية balsamon ← اللاتينية balsamum ← الفرنسية القديمة basme أو baume ← الإنجليزية balm ← الويلزية balm",
+        "evidence": "CNRTL، مادة baume، فقرة Étymologie؛ ويؤيده Merriam-Webster، مادة balsam، فقرة Word History",
     },
 }
 
@@ -270,9 +302,18 @@ def original_cards(language: str) -> list[dict[str, Any]]:
         and "أعيدت إلى الطابور" in row.get("closure", "")
         for row in ledger["suspended"]
     )
-    if ledger_count != int(cfg["expected"]):
+    superseded = {
+        int(value)
+        for value in re.findall(
+            rf"LOAN-HARVEST-REREVIEW:LOAN-REOPEN-{re.escape(str(cfg['id_label']))}-(\d+)",
+            body,
+        )
+    }
+    expected_active = int(cfg["expected"]) - len(superseded)
+    if ledger_count != expected_active:
         raise AssertionError(
-            f"مرشح السجل أعاد {ledger_count} بطاقة لـ{language} بدل {cfg['expected']}"
+            f"مرشح السجل أعاد {ledger_count} بطاقة لـ{language} بدل {expected_active} "
+            f"بعد طرح {len(superseded)} بطاقة منسوخة"
         )
     return cards
 
@@ -559,7 +600,7 @@ def main() -> int:
     if audit.exists() or manifest.exists() or f"<!-- {marker}:START -->" in text:
         raise AssertionError(f"مخرجات الدفعة {args.batch} موجودة من قبل")
 
-    controls = control_run() if language == "welsh" and args.batch == 1 else []
+    controls = control_run() if language == "welsh" else []
     lines: list[str] = []
     rows: list[dict[str, Any]] = []
     reasons: Counter[str] = Counter()
