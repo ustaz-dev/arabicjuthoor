@@ -44,6 +44,12 @@ AED_SELECTIONS: dict[int, str] = {
     112: "73580", 113: "73580",                # northerners
     114: "73940", 115: "73940",                # Lower Egypt
     145: "26140", 146: "26140",                # right side; west; land dead
+    187: "93960", 188: "93960", 189: "93960", # Rbw, region of Libya
+    209: "99330", 210: "99330",                # Hs, Libyan tribe
+    211: "76410", 212: "76410",                # Mšwš, Libyan tribe
+    269: "82090", 270: "82090", 271: "82090", # nb.t-pr, mistress of house
+    272: "87870", 273: "87870", 274: "87870", # ns.t, seat; throne
+    288: "110310", 289: "110310", 290: "110310", 291: "110310", # Hekat
 }
 
 BASELINE_POSITIVE_ORDINALS = {1, 2, 41}
