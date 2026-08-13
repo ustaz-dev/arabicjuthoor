@@ -5,7 +5,7 @@
  "opened": 16,
  "answered": 16,
  "totals": {
-  "links": 3347,
+  "links": 3350,
   "arabic_roots": 754,
   "branch_words": 2111
  },
@@ -180,7 +180,7 @@
    "en": "The distant branches",
    "note_ar": "أبعَدُ الفُروعِ نَسَبًا، وفيها اللّاتينِيَّةُ واليونانِيَّةُ والجِرمانِيّةُ والسِّلتِيَّةُ والفارِسِيّة",
    "note_en": "The farthest branches: Latin, Greek, Germanic, Celtic and Persian",
-   "links": 312,
+   "links": 315,
    "nucleus_share": 35.3,
    "arabic_roots": 158,
    "tongues": [
@@ -193,11 +193,11 @@
      "script_ar": "لاتينِيّة",
      "script_en": "Latin script",
      "distance": 3,
-     "links": 130,
-     "root": 98,
+     "links": 131,
+     "root": 99,
      "nucleus": 31,
      "floor": 1,
-     "nucleus_share": 24.0,
+     "nucleus_share": 23.8,
      "arabic_roots": 82,
      "branch_words": 98,
      "answers": "root",
@@ -325,6 +325,26 @@
      "answers_en": "answers at the root"
     },
     {
+     "key": "persian",
+     "ar": "الفارِسِيّة",
+     "en": "Persian",
+     "era_ar": "القَرنُ التّاسِعُ للميلاد",
+     "era_en": "9th c. AD",
+     "script_ar": "عَرَبِيّةٌ مُوَسَّعة",
+     "script_en": "Perso-Arabic",
+     "distance": 3,
+     "links": 7,
+     "root": 6,
+     "nucleus": 1,
+     "floor": 0,
+     "nucleus_share": 14.3,
+     "arabic_roots": 5,
+     "branch_words": 4,
+     "answers": "root",
+     "answers_ar": "يُجيبُ عندَ الجَذر",
+     "answers_en": "answers at the root"
+    },
+    {
      "key": "welsh",
      "ar": "الويلزِيّة",
      "en": "Welsh",
@@ -343,26 +363,6 @@
      "answers": "both",
      "answers_ar": "يُجيبُ عندَ الطَّبَقَتَين",
      "answers_en": "answers at both layers"
-    },
-    {
-     "key": "persian",
-     "ar": "الفارِسِيّة",
-     "en": "Persian",
-     "era_ar": "القَرنُ التّاسِعُ للميلاد",
-     "era_en": "9th c. AD",
-     "script_ar": "عَرَبِيّةٌ مُوَسَّعة",
-     "script_en": "Perso-Arabic",
-     "distance": 3,
-     "links": 5,
-     "root": 5,
-     "nucleus": 0,
-     "floor": 0,
-     "nucleus_share": 0.0,
-     "arabic_roots": 5,
-     "branch_words": 4,
-     "answers": "root",
-     "answers_ar": "يُجيبُ عندَ الجَذر",
-     "answers_en": "answers at the root"
     }
    ]
   }
@@ -477,11 +477,11 @@
    "script_ar": "لاتينِيّة",
    "script_en": "Latin script",
    "distance": 3,
-   "links": 130,
-   "root": 98,
+   "links": 131,
+   "root": 99,
    "nucleus": 31,
    "floor": 1,
-   "nucleus_share": 24.0,
+   "nucleus_share": 23.8,
    "arabic_roots": 82,
    "branch_words": 98,
    "answers": "root",
@@ -649,6 +649,26 @@
    "answers_en": "answers at the root"
   },
   {
+   "key": "persian",
+   "ar": "الفارِسِيّة",
+   "en": "Persian",
+   "era_ar": "القَرنُ التّاسِعُ للميلاد",
+   "era_en": "9th c. AD",
+   "script_ar": "عَرَبِيّةٌ مُوَسَّعة",
+   "script_en": "Perso-Arabic",
+   "distance": 3,
+   "links": 7,
+   "root": 6,
+   "nucleus": 1,
+   "floor": 0,
+   "nucleus_share": 14.3,
+   "arabic_roots": 5,
+   "branch_words": 4,
+   "answers": "root",
+   "answers_ar": "يُجيبُ عندَ الجَذر",
+   "answers_en": "answers at the root"
+  },
+  {
    "key": "welsh",
    "ar": "الويلزِيّة",
    "en": "Welsh",
@@ -667,26 +687,6 @@
    "answers": "both",
    "answers_ar": "يُجيبُ عندَ الطَّبَقَتَين",
    "answers_en": "answers at both layers"
-  },
-  {
-   "key": "persian",
-   "ar": "الفارِسِيّة",
-   "en": "Persian",
-   "era_ar": "القَرنُ التّاسِعُ للميلاد",
-   "era_en": "9th c. AD",
-   "script_ar": "عَرَبِيّةٌ مُوَسَّعة",
-   "script_en": "Perso-Arabic",
-   "distance": 3,
-   "links": 5,
-   "root": 5,
-   "nucleus": 0,
-   "floor": 0,
-   "nucleus_share": 0.0,
-   "arabic_roots": 5,
-   "branch_words": 4,
-   "answers": "root",
-   "answers_ar": "يُجيبُ عندَ الجَذر",
-   "answers_en": "answers at the root"
   }
  ]
 }

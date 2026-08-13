@@ -88,7 +88,7 @@
 | jassem-2013-cognitive-ojs-file | [الرابط](https://ijee.org/ijee/article/download/1296/1289/3967) | ولّد عارضُ OJS هذا المسارَ النهائيَّ للملف، لكنّه ردّ 404 |
 | jassem-2013-cognitive-legacy | [الرابط](https://www.ijee.org/assets/docs/7.271143130.pdf) | ردّ مستودعُ IJEE الحديث 404؛ واستُبدل بلقطةِ PDF رسميّةٍ من مسارِ yahoo_site_admin القديم |
 | jassem-2016-definite-ojs | [الرابط](https://ijellh.com/OJS/index.php/OJS/article/download/1489/8673) | ردّ مسارُ OJS الحالي 404؛ واستُبدل بلقطةِ PDF رسميّةٍ صالحةٍ مؤرَّخةٍ في 2020-03-20 |
-| jassem-2016-definite-legacy | [الرابط](https://ijellh.com/wp-content/uploads/2016/06/64.-Zaidan-Ali-Jassem-paper-final.pdf) | ردّ مستودعُ IJELLH القديم 404 |
+| jassem-2016-campbell-legacy | [الرابط](https://ijellh.com/wp-content/uploads/2016/06/64.-Zaidan-Ali-Jassem-paper-final.pdf) | ردّ مستودعُ IJELLH القديم 404؛ ويورده فهرسُ المؤلّف لمراجعةِ كامبل لا لبحثِ أدواتِ التعريف |
 | jassem-2016-campbell-ojs | [الرابط](https://ijellh.com/OJS/index.php/OJS/article/download/1705/8672) | ردّ المسارُ الحالي 404؛ ولقطتُه المؤرشفةُ مقالٌ لصمويل دوكو لا بحثُ جاسم |
 | jassem-2012-religious-scispace | [الرابط](https://scispace.com/pdf/the-arabic-origins-of-common-religious-terms-in-english-a-11uoozx0kl.pdf) | ردّت المرآةُ 403 |
 | jassem-2014-question-modal-scispace | [الرابط](https://scispace.com/pdf/the-arabic-origins-of-question-and-modal-words-in-english-48w16fl95a.pdf) | ردّت المرآةُ 403 |

@@ -102587,16 +102587,20 @@
         2887,
         2888,
         2889,
-        2890
+        2890,
+        4835,
+        4836
       ],
       "forms": [
         {
           "form": "hundra",
           "source_rows": [
-            2887
+            2887,
+            4835
           ],
           "branch_meanings": [
-            "مائة"
+            "مائة",
+            "مائة؛ العدد مائة"
           ]
         },
         {
@@ -102620,10 +102624,12 @@
         {
           "form": "hundert",
           "source_rows": [
-            2890
+            2890,
+            4836
           ],
           "branch_meanings": [
-            "مائة"
+            "مائة",
+            "مائة؛ العدد مائة"
           ]
         }
       ],
@@ -102671,6 +102677,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 462
+        },
+        {
+          "tongue_ar": "الجرمانية",
+          "tongue": "germanic",
+          "foreign": "hundra",
+          "foreign_sense": "مائة؛ العدد مائة",
+          "arabic_root": "هند",
+          "arabic_gloss": "يرد hund إلى هند، المائة والماء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 172
+        },
+        {
+          "tongue_ar": "الجرمانية",
+          "tongue": "germanic",
+          "foreign": "hundert",
+          "foreign_sense": "مائة؛ العدد مائة",
+          "arabic_root": "هند",
+          "arabic_gloss": "يرد hund إلى هند، المائة والماء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 172
         }
       ],
       "fan_reviews": [

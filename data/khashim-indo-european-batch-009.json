@@ -2348,7 +2348,8 @@
       "batch": 9,
       "language": "ancient-greek",
       "source_rows": [
-        4110
+        4110,
+        4867
       ],
       "forms": [
         {
@@ -2358,6 +2359,15 @@
           ],
           "branch_meanings": [
             "ألف؛ كثير"
+          ]
+        },
+        {
+          "form": "khilioi",
+          "source_rows": [
+            4867
+          ],
+          "branch_meanings": [
+            "ألف؛ ثعبان الماء؛ سلحفاة الماء"
           ]
         }
       ],
@@ -2372,6 +2382,17 @@
           "source": "ocr-khashim-emperors",
           "book": "khashim-emperors",
           "page": 115
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "khilioi",
+          "foreign_sense": "ألف؛ ثعبان الماء؛ سلحفاة الماء",
+          "arabic_root": "غيل",
+          "arabic_gloss": "يرد الجذر خل إلى غيل وكيل وصلته بالماء والكثرة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 178
         }
       ],
       "fan_reviews": [
@@ -2379,6 +2400,15 @@
           "form": "khilio",
           "source_rows": [
             4110
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        },
+        {
+          "form": "khilioi",
+          "source_rows": [
+            4867
           ],
           "script": "greek",
           "candidates": [],
