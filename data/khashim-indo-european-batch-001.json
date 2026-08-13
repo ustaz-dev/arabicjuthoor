@@ -6279,7 +6279,26 @@
         "`w` + `ع` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 638,
+              "source_row_index_at_freeze": 638,
+              "source_row_key": "cead4844ba2c8c5ffd5f9c4d",
+              "european": "Bow",
+              "arabic_root": "قب",
+              "author_translit": "qaab",
+              "arabic_gloss": "the part of the arrow between the handle and head",
+              "source": "jassem-2015-military",
+              "bridge_agrees": "جذرٌ آخر: طرق، عرن"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0013",
@@ -36840,6 +36859,23 @@
             }
           ],
           "bridge_agrees": true
+        },
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 755,
+              "source_row_index_at_freeze": 755,
+              "source_row_key": "1d6352c4196e9296994bcdc8",
+              "european": "Cat",
+              "arabic_root": "سن",
+              "author_translit": "sin",
+              "arabic_gloss": "teeth",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: ءحد، اب، اسك، بسم، ثني، جريث، خلب، دجج، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -66510,7 +66546,37 @@
         "`t` + `ن` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 773,
+              "source_row_index_at_freeze": 773,
+              "source_row_key": "e271a797a34019cc137ea467",
+              "european": "Century",
+              "arabic_root": "هند",
+              "author_translit": "hindeed",
+              "arabic_gloss": "a hundred (camels)",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "جذرٌ آخر: ءبل، ءدم، ءيي، بلد، ثلث، حرج، حرجل، حول، وغيرُها"
+            },
+            {
+              "source_row_index": 774,
+              "source_row_index_at_freeze": 774,
+              "source_row_key": "db0904c1d984fb92b1fea558",
+              "european": "Century",
+              "arabic_root": "هندت",
+              "author_translit": "hunaidat",
+              "arabic_gloss": "a hundred (camels)",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "جذرٌ آخر: ءبل، ءدم، ءيي، بلد، ثلث، حرج، حرجل، حول، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0133",
@@ -76292,7 +76358,37 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 737,
+              "source_row_index_at_freeze": 737,
+              "source_row_key": "b8db96f3a555d73d2ebd8ba4",
+              "european": "Capital",
+              "arabic_root": "جبهت",
+              "author_translit": "jabhat",
+              "arabic_gloss": "forehead",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: تل، جب، جبه، ركع، سجد، سيل، صدغ، طر، وغيرُها"
+            },
+            {
+              "source_row_index": 738,
+              "source_row_index_at_freeze": 738,
+              "source_row_key": "bcf299db5a11fdcc57dd6bfe",
+              "european": "Capital",
+              "arabic_root": "خزن",
+              "author_translit": "khaazin",
+              "arabic_gloss": "lit., storer; treasurer",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "جذرٌ آخر: شرق، شعل، ضوء، علق، غسق، فرقع، قمر، نور، وغيرُها"
+            }
+          ]
+        }
+      ]
     }
   ],
   "rank_review": {

@@ -8240,7 +8240,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 769,
+              "source_row_index_at_freeze": 769,
+              "source_row_key": "fa12d62971f39bbee2a2b752",
+              "european": "Cemetery",
+              "arabic_root": "رجمت",
+              "author_translit": "rajmat",
+              "arabic_gloss": "grave",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "جذرٌ آخر: ءمر، بء، بقر، بلغ، جدد، جدي، جسي، دف، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N008-118",

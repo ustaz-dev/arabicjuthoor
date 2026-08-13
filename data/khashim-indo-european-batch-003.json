@@ -546,7 +546,70 @@
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 650,
+              "source_row_index_at_freeze": 650,
+              "source_row_key": "eab17e94a17098ac51584d57",
+              "european": "Break",
+              "arabic_root": "برش",
+              "author_translit": "barasha",
+              "arabic_gloss": "to scrape",
+              "source": "jassem-2013-cutting-breaking",
+              "bridge_agrees": "جذرٌ آخر: حسر، حف، حك، حكك، خمش، سحج، قحط، قشط، وغيرُها"
+            },
+            {
+              "source_row_index": 651,
+              "source_row_index_at_freeze": 651,
+              "source_row_key": "fb8be6ec0859c35f1a12d465",
+              "european": "Break",
+              "arabic_root": "بزر",
+              "author_translit": "bazar",
+              "arabic_gloss": "pierce",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: ءلل، بزل، ثقب، جرر، خرب، خرت، خرز، خرق، وغيرُها"
+            },
+            {
+              "source_row_index": 652,
+              "source_row_index_at_freeze": 652,
+              "source_row_key": "319090f984885f84181d42fe",
+              "european": "Break",
+              "arabic_root": "بطش",
+              "author_translit": "baTasha",
+              "arabic_gloss": "beat, kill",
+              "source": "jassem-2013-cutting-breaking",
+              "bridge_agrees": "جذرٌ آخر: فطس"
+            },
+            {
+              "source_row_index": 653,
+              "source_row_index_at_freeze": 653,
+              "source_row_key": "d11856b1f4cc083ac8ef139f",
+              "european": "Break",
+              "arabic_root": "بقر",
+              "author_translit": "baqara",
+              "arabic_gloss": "to break, open",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: حل، خرق، سرح، شجر، شقق، فضض، فطر، فقع، وغيرُها"
+            },
+            {
+              "source_row_index": 654,
+              "source_row_index_at_freeze": 654,
+              "source_row_key": "93d075183449060e77a14251",
+              "european": "Break",
+              "arabic_root": "منخر",
+              "author_translit": "minkhar",
+              "arabic_gloss": "nostril",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: خر، خشم، عر"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0325",
@@ -53056,7 +53119,26 @@
         "`y` + `ب` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 639,
+              "source_row_index_at_freeze": 639,
+              "source_row_key": "36ea087908dbc4abed4b4a66",
+              "european": "Boy",
+              "arabic_root": "صب",
+              "author_translit": "Sabi",
+              "arabic_gloss": "boy",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: بزر، خنث، رجل، زغل، صبو، غلم، فتي، فرش، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0423",
@@ -53471,6 +53553,34 @@
             }
           ],
           "bridge_agrees": true
+        },
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 465,
+              "source_row_index_at_freeze": 465,
+              "source_row_key": "b81f059d831598da2a17fb21",
+              "european": "Baby",
+              "arabic_root": "بر",
+              "author_translit": "abarra",
+              "arabic_gloss": "to give birth to (good children)",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: جنس، ذكر، طول، ولد"
+            },
+            {
+              "source_row_index": 466,
+              "source_row_index_at_freeze": 466,
+              "source_row_key": "14010838d4c7dd46c8800da6",
+              "european": "Baby",
+              "arabic_root": "بعبع",
+              "author_translit": "bu3bu3",
+              "arabic_gloss": "baby; early (childhood)",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: رب، صبا، طفل"
+            }
+          ]
         }
       ]
     },
@@ -63355,6 +63465,34 @@
               "arabic_gloss": "talk",
               "source": "jassem-2013-speech-writing",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 858,
+              "source_row_index_at_freeze": 858,
+              "source_row_key": "521512c9f1e965223ce33be7",
+              "european": "Cite",
+              "arabic_root": "صت",
+              "author_translit": "Saat",
+              "arabic_gloss": "call",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءبو، ءذن، ءهر، ادي، ار، النواة، بهل، توب، وغيرُها"
+            },
+            {
+              "source_row_index": 860,
+              "source_row_index_at_freeze": 860,
+              "source_row_key": "a40112ef2a2adf198602ca52",
+              "european": "City",
+              "arabic_root": "جدت",
+              "author_translit": "jiddat",
+              "arabic_gloss": "river bank, KSA city",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: عدن"
             }
           ]
         }
@@ -75506,7 +75644,26 @@
         "`z` + `ص` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 861,
+              "source_row_index_at_freeze": 861,
+              "source_row_key": "c93ca4dd2c84a823023eefd6",
+              "european": "Civil",
+              "arabic_root": "خلص",
+              "author_translit": "khulaSa(t)",
+              "arabic_gloss": "conclusion, summary, end",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: ختا، خير"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0454",

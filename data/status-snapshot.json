@@ -4,13 +4,13 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 44786,
+  "cards_total": 44871,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 9036,
+    "cards": 9058,
     "links": 133,
     "root": 101,
     "nucleus": 31,
@@ -76,7 +76,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 1901,
+    "cards": 1904,
     "links": 24,
     "root": 15,
     "nucleus": 9,
@@ -95,6 +95,17 @@
     "nucleus_share": 12.2
    },
    {
+    "key": "middle-english",
+    "en": "Middle English",
+    "ar": "الإنجليزيّة الوسطى",
+    "cards": 1590,
+    "links": 40,
+    "root": 25,
+    "nucleus": 15,
+    "floor": 0,
+    "nucleus_share": 37.5
+   },
+   {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
@@ -106,21 +117,10 @@
     "nucleus_share": 33.9
    },
    {
-    "key": "middle-english",
-    "en": "Middle English",
-    "ar": "الإنجليزيّة الوسطى",
-    "cards": 1554,
-    "links": 40,
-    "root": 25,
-    "nucleus": 15,
-    "floor": 0,
-    "nucleus_share": 37.5
-   },
-   {
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 1179,
+    "cards": 1198,
     "links": 71,
     "root": 46,
     "nucleus": 24,
@@ -175,7 +175,7 @@
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 247,
+    "cards": 252,
     "links": 23,
     "root": 17,
     "nucleus": 6,
@@ -261,13 +261,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 41002,
-  "suspended": 31094,
+  "cards_total": 41087,
+  "suspended": 31179,
   "released": 9908,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 21300
+    "count": 21385
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -297,7 +297,7 @@
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 8465
+    "count": 8487
    },
    {
     "file": "egyptian.md",
@@ -317,11 +317,11 @@
    },
    {
     "file": "middle-english.md",
-    "count": 1503
+    "count": 1539
    },
    {
     "file": "ancient-greek.md",
-    "count": 1493
+    "count": 1496
    },
    {
     "file": "akkadian.md",
@@ -329,7 +329,7 @@
    },
    {
     "file": "old-english.md",
-    "count": 898
+    "count": 917
    },
    {
     "file": "old-irish.md",

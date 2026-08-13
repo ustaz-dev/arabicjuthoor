@@ -74769,6 +74769,10 @@
 <!-- JASSEM-IE-SUPPLEMENT-001:KIE-M0566:START -->
 - إلحاق جاسم، الدفعة 001: صف 740: `Car` ↔ `جر` (jarra)؛ «draw, pull, drag; tractor» [jassem-2013-movement-action]. قيمة `bridge_agrees=نعم` أولوية فحص مستقلة وليست حكمًا.
 <!-- JASSEM-IE-SUPPLEMENT-001:KIE-M0566:END -->
+<!-- JASSEM-IE-SUPPLEMENT-008:KIE-M0566:START -->
+- إلحاق جاسم، الدفعة 008: صف 752: `Carry` ↔ `قل` (aqalla)؛ «carry» [jassem-2013-movement-action]. قيمة `bridge_agrees` وصفٌ لمقارنة الجسر في المصدر، وليست حكمًا.
+- المروحة الحالية الكاملة لـ`Carry`، مرتبة بـ`F.rank`: `كري`[و0.000000،ص✓،ح×،م؟]، `كلي`[و0.000000،ص✓،ح×،م؟]، `قري`[و0.000000،ص✓،ح✓،م×]، `قلي`[و0.000000،ص✓،ح×،م؟]، `جري`[و0.000000،ص✓،ح×،م؟]، `جلي`[و0.000000،ص✓،ح×،م؟]. الوزن ترتيب لا حكم؛ أضاف `fan_with_dialect` 0 صورة بعد عجز الفصحى.
+<!-- JASSEM-IE-SUPPLEMENT-008:KIE-M0566:END -->
 
 ### بطاقة مدمجة: `SWT`؛ KIE-M0603
 <!-- KHASHIM-IE-MERGED:KIE-M0603 -->

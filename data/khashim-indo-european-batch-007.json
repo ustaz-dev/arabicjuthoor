@@ -1270,7 +1270,37 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 666,
+              "source_row_index_at_freeze": 666,
+              "source_row_key": "6d501dc2160e7abc9715f650",
+              "european": "Bright",
+              "arabic_root": "برق",
+              "author_translit": "bareeq",
+              "arabic_gloss": "bright",
+              "source": "jassem-2013-air-fire · jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: ءث، السنبلة، النواة، بطيخ، بلج، بيض، ثور، خفش، وغيرُها"
+            },
+            {
+              "source_row_index": 667,
+              "source_row_index_at_freeze": 667,
+              "source_row_key": "2800934ab747ecab01d32afb",
+              "european": "Bright",
+              "arabic_root": "برقت",
+              "author_translit": "baariqat",
+              "arabic_gloss": "bright",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ءث، السنبلة، النواة، بطيخ، بلج، بيض، ثور، خفش، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-009",
@@ -11457,7 +11487,37 @@
         "`t` + `ط` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 527,
+              "source_row_index_at_freeze": 527,
+              "source_row_key": "dceb57fa8b82a72cc40c0260",
+              "european": "Beat",
+              "arabic_root": "بضع",
+              "author_translit": "baDa3a",
+              "arabic_gloss": "to cut (the meat)",
+              "source": "jassem-2013-cutting-breaking",
+              "bridge_agrees": "جذرٌ آخر: باك، طباهج، قدد، وشق"
+            },
+            {
+              "source_row_index": 528,
+              "source_row_index_at_freeze": 528,
+              "source_row_key": "1cdcf8505fd907489846f9e6",
+              "european": "Beat",
+              "arabic_root": "طب",
+              "author_translit": "Tabba",
+              "arabic_gloss": "beat",
+              "source": "jassem-2013-cutting-breaking",
+              "bridge_agrees": "جذرٌ آخر: ءجن، بذذ، بض، جب، جم، حدج، حضر، خرق، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-024",
@@ -15424,7 +15484,37 @@
         "`l` + `ل` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 719,
+              "source_row_index_at_freeze": 719,
+              "source_row_key": "09402f1aa8293dc71a7961d4",
+              "european": "Call",
+              "arabic_root": "قر",
+              "author_translit": "qarra",
+              "arabic_gloss": "talk a lot",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: باه، بجح، بحث، بق، بوق، تيل، جدر، جوي، وغيرُها"
+            },
+            {
+              "source_row_index": 720,
+              "source_row_index_at_freeze": 720,
+              "source_row_key": "945d0195317ded9fdede99b5",
+              "european": "Call",
+              "arabic_root": "قل",
+              "author_translit": "qaal",
+              "arabic_gloss": "say",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-034",

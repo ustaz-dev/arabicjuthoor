@@ -61531,6 +61531,23 @@
             }
           ],
           "bridge_agrees": true
+        },
+        {
+          "batch": 8,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 752,
+              "source_row_index_at_freeze": 752,
+              "source_row_key": "0072c12c672a9013ce280d60",
+              "european": "Carry",
+              "arabic_root": "قل",
+              "author_translit": "aqalla",
+              "arabic_gloss": "carry",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: ءخذ، ءدي، ءذن، ءنف، النواة، بردع، بشر، بوز، وغيرُها"
+            }
+          ]
         }
       ]
     },
