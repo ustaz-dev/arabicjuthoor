@@ -49,13 +49,13 @@
 
 ## ما حُصِدَ إلى الآن
 
-اتّسعَت قائمةُ الإنزالِ إلى **52 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF مباشرة،
+اتّسعَت قائمةُ الإنزالِ إلى **53 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF مباشرة،
 وحُفظت الذخيرةُ الخامُّ خارجَ git في `~/AI Projects/Resources/prior-art/`. وبعدَ
-الدمجِ بلغَ الفهرسُ **4,590 زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
+الدمجِ بلغَ الفهرسُ **4,677 زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
 الدمجِ في [ورقةِ الحصاد](exploration/prior-art-harvest.md)، والصفوفُ المهيكلةُ في
 `data/prior-art-pairs.json`.
 
-وحملَ **4,437 صفًّا** رأسَ المدخلِ الأوربيَّ، أي **96.7%** من الفهرس. جرى ذلك
+وحملَ **4,523 صفًّا** رأسَ المدخلِ الأوربيَّ، أي **96.7%** من الفهرس. جرى ذلك
 بتوسيعِ قارئِ الرأسِ ليأخذَ صيغَ `via Latin` و`from Arabic` و`is a compound of`
 معَ صيغِ الاشتقاقِ الأولى، معَ إبقاءِ الشرطِ أن يكونَ الرأسُ في أوّلِ السطر.
 وفُحِصت بالعينِ عيّنةٌ موزَّعةٌ من 20 صفًّا ذي رأس، فكانت كلُّها عناوينَ مداخلَ
@@ -100,7 +100,16 @@
 أخرجَ الحاصدُ منهما 336 زوجًا قبلَ الدمج و**290 زوجًا جديدًا بعدَه**، فصارَ
 المتبقّي **6 أبحاثٍ**.
 
-والفجواتُ الستُّ بأسمائِها: أعضاءُ الجسم، والأسماءُ الأعلام، واللونُ والفن،
+ثمّ وُجدَ ملفُّ ناشرِ مجلّةِ IJELR المباشرُ لبحثِ **ألفاظِ اللونِ والفنِّ**،
+وهو PDF مفتوحُ الوصولِ في 18 صفحةً، حجمُه 596,218 بايتًا، وبصمةُ SHA-256 له
+`854DCB323ACBCAE9EB99E07A76AA1DB017973F954A33FCF631C3A2C5C79133E9`.
+فُحِصت الصفحةُ الأولى صورةً ونصًّا، فظهرَ اسمُ زيدان علي جاسم، والعنوانُ، ووسمُ
+الوصولِ المفتوح، واسمُ الناشر. أخرجَ منه الحاصدُ 116 زوجًا قبلَ الدمج، و**87
+زوجًا جديدًا بعدَه**. وفشلَ مسارُ HTTPS بانقطاعِ TLS، فسُجِّلَ سببُه واستُعملَ
+مسارُ HTTP المباشرُ الصالح. ولم يُستعملْ `academia.edu` ولا `ResearchGate` في
+هذا الاستردادِ أو في الحصاد.
+
+والفجواتُ الخمسُ بأسمائِها: أعضاءُ الجسم، والأسماءُ الأعلام،
 وأصلُ الإنجليزيّةِ والألمانيّةِ والفرنسيّةِ وتطوّرُها، وتعليمُ المفرداتِ
 وتعلّمُها، ومراجعةُ كتابِ كامبل. فهذه قائمةُ عملٍ مضبوطةٌ لا عدٌّ مجرّد.
 
@@ -109,12 +118,12 @@
 أضيفَ إلى كلِّ صفٍّ حقلُ `bridge_agrees`. سألَ الحقلُ جسرَنا عن ألفاظِ المعنى
 الإنجليزيِّ نفسِها: فإن ربطَها بالجذرِ نفسِه كتبَ `نعم`، وإن ربطَها بغيرِه سمّى
 ما عندَنا، وإن لم يجدْها كتبَ `لا مدخلَ عندنا`. **وافقَ الجسرُ الجذرَ نفسَه في
-1677 زوجًا**. وهذه موافقةٌ من ذخيرةٍ لم يمرَّ بها صاحبُ البحث، وليست بوّابةً
+1712 زوجًا**. وهذه موافقةٌ من ذخيرةٍ لم يمرَّ بها صاحبُ البحث، وليست بوّابةً
 تسقطُ غيرَ الموافق.
 
-وفي الحصادِ **2007 جذورٍ عربيّةٍ متمايزةٍ**. قابلَها السكربتُ بالمقابلِ العربيِّ
+وفي الحصادِ **2034 جذرًا عربيًّا متمايزًا**. قابلَها السكربتُ بالمقابلِ العربيِّ
 المصرَّحِ به في بطاقاتِ `04-cross-linguistic/readings/` التي صدرَ فيها حكمٌ موجب،
-فوجدَ **297 جذرًا** قد وردت فعلًا في تلكَ البطاقات. فهذا موضعُ التقاءِ المسارِ
+فوجدَ **299 جذرًا** قد وردت فعلًا في تلكَ البطاقات. فهذا موضعُ التقاءِ المسارِ
 النازلِ من حقولِ المعنى عندَه بالمسارِ الصاعدِ من الجذورِ عندَنا.
 
 ## ما نفعلُه بها
@@ -252,17 +261,19 @@ question words, prepositions, the verb to be, numerals and affixes. Those fields
 are not ours, which is precisely why the corpus is worth harvesting. A harvester
 reads his fixed entry format and his declared transliteration, discards the
 Arabic script in his PDFs because its font encoding is broken, and strips the
-grammatical endings he writes in parentheses. Fifty-two verified PDFs have yielded
-4,590 merged pairs. Eight of them were recovered from preserved publisher PDFs in
+grammatical endings he writes in parentheses. Fifty-three verified PDFs have yielded
+4,677 merged pairs. Eight of them were recovered from preserved publisher PDFs in
 the Internet Archive and one from an official JOELL attachment, while a
 misattributed snapshot was rejected after its text proved to be another author's
-article. The European entry head is present in 4,437 rows. The independent
-English-Arabic bridge agrees on the same root in 1,677 pairs, while 297 of the
-harvest's 2,007 distinct Arabic roots occur
+article. The colour-and-art paper came from a direct open-access IJELR publisher
+PDF; no Academia.edu or ResearchGate source was used. The European entry head is
+present in 4,523 rows. The independent English-Arabic bridge agrees on the same
+root in 1,712 pairs, while 299 of the harvest's 2,034 distinct Arabic roots occur
 in reading cards carrying an issued positive result. Ali Fahmi Khashim's newly
 downloaded *Journey of Words II* and *Gods of Arabic Egypt II*, together with a
 nine-author symposium on ancient Arabic-related tongues, added 250 attributed
-candidates and brought that separate harvest from 3,612 to 3,862 pairs. Two open
+candidates; a further 107 pairs from *Continuous Contact* brought that separate
+harvest from 3,612 to 3,969 pairs. Two open
 Coptic-Arabic inventories by Wilson B. Bishai and Emile Maher Ishaq were also
 downloaded and read; their bibliographies surface George Sobhy, Werner Vycichl,
 and William H. Worrell as earlier pair collectors.
