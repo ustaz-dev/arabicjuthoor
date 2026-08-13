@@ -16566,7 +16566,28 @@
       ],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            228
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 228,
+              "european": "Add",
+              "arabic_root": "حط",
+              "author_translit": "2aTT",
+              "arabic_gloss": "put, place",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0029",
@@ -36273,7 +36294,28 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            753
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 753,
+              "european": "Cat",
+              "arabic_root": "قط",
+              "author_translit": "qiTT",
+              "arabic_gloss": "cat",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0058",

@@ -43777,7 +43777,27 @@
           "dialect_review": []
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            758,
+            759
+          ],
+          "form": "Cave",
+          "root": "قوب",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`cave`، فراغ جوفي محدود داخل جرم متماسك",
+          "orbit": "الكهف فراغ جوفي محدود الجوانب مقور في جرم الأرض أو الصخر؛ وهذا نص حدث `قوب` مباشرة.",
+          "sound_route": "c↔ق=`GUT-01`؛ v↔ب=`LAB-05`؛ باب المعتل المسمى يثبت الواو في الجوف",
+          "sound_searches": [
+            "`c` + `ق` + «الإنجليزيّة الوسطى/Middle English»",
+            "`v` + `ب` + «الإنجليزيّة الوسطى/Middle English»"
+          ],
+          "frozen_event": "فراغ جَوْفي محدود الجوانب مقوَّرٌ",
+          "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
+        }
+      ],
       "deficiencies": [],
       "missing_row_searches": [
         "`c` + `ج` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
@@ -43792,8 +43812,59 @@
         "`v` + `ف` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`v` + `ف` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "closure": "ROOT-TRACE",
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            758,
+            759
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 758,
+              "european": "Cave",
+              "arabic_root": "قطم",
+              "author_translit": "qaTam",
+              "arabic_gloss": "cut",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 759,
+              "european": "Cave",
+              "arabic_root": "كهف",
+              "author_translit": "kahf",
+              "arabic_gloss": "cave",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            758,
+            759
+          ],
+          "root": "قوب",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`cave`، فراغ جوفي محدود داخل جرم متماسك",
+          "orbit": "الكهف فراغ جوفي محدود الجوانب مقور في جرم الأرض أو الصخر؛ وهذا نص حدث `قوب` مباشرة.",
+          "sound_route": "c↔ق=`GUT-01`؛ v↔ب=`LAB-05`؛ باب المعتل المسمى يثبت الواو في الجوف",
+          "sound_searches": [
+            "`c` + `ق` + «الإنجليزيّة الوسطى/Middle English»",
+            "`v` + `ب` + «الإنجليزيّة الوسطى/Middle English»"
+          ],
+          "frozen_event": "فراغ جَوْفي محدود الجوانب مقوَّرٌ"
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0686",
@@ -81880,7 +81951,28 @@
         "`b` + `ب` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            681
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 681,
+              "european": "Bull",
+              "arabic_root": "بقر",
+              "author_translit": "baqar(at)",
+              "arabic_gloss": "cow",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0767",

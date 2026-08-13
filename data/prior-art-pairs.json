@@ -33,6 +33,7 @@
   "jassem-2014-commerce",
   "jassem-2014-mathematical",
   "jassem-2014-basque-finnish",
+  "jassem-2014-colour-art",
   "jassem-2015-case-word-order",
   "jassem-2015-military",
   "jassem-2015-legal",
@@ -87,6 +88,7 @@
   "jassem-2014-commerce": "https://web.archive.org/web/20160414134728id_/http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijll.20140205.15.pdf",
   "jassem-2014-mathematical": "https://www.arcjournals.org/pdfs/ijsell/v2-i5/4.pdf",
   "jassem-2014-basque-finnish": "https://pdfs.semanticscholar.org/4be9/7789652dec742056bbe617e9a3a7b6089502.pdf",
+  "jassem-2014-colour-art": "http://www.ijelr.in/Vol.%20Issue.12014/Zaidan%201-18.pdf",
   "jassem-2015-case-word-order": "https://languageinindia.com/march2015/jassemcasemarkings.pdf",
   "jassem-2015-military": "https://languageinindia.com/may2015/jassemmilitary.pdf",
   "jassem-2015-legal": "https://web.archive.org/web/20170706110525id_/http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijalt.20150103.11.pdf",
@@ -216,16 +218,21 @@
    "source": "jassem-2018-demonstratives-wrong-galley",
    "url": "https://journal.uinjkt.ac.id/index.php/arabiyat/article/download/8936/6230",
    "reason": "ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح"
+  },
+  {
+   "source": "jassem-2014-colour-art-https",
+   "url": "https://www.ijelr.in/Vol.%20Issue.12014/Zaidan%201-18.pdf",
+   "reason": "انقطع اتصالُ TLS؛ واستُبدل بمسارِ HTTP المباشرِ الصالحِ من ناشرِ المجلّة"
   }
  ],
- "pairs": 4590,
+ "pairs": 4677,
  "stats": {
-  "papers_downloaded": 52,
-  "with_european_head": 4437,
-  "head_coverage": 0.9667,
-  "bridge_agrees": 1677,
-  "unique_roots": 2007,
-  "roots_in_positive_cards": 297
+  "papers_downloaded": 53,
+  "with_european_head": 4523,
+  "head_coverage": 0.9671,
+  "bridge_agrees": 1712,
+  "unique_roots": 2034,
+  "roots_in_positive_cards": 299
  },
  "rows": [
   {
@@ -377,7 +384,7 @@
    "arabic_root": "بل",
    "author_translit": "abal",
    "arabic_gloss": "group; many, much",
-   "source": "jassem-2014-mathematical",
+   "source": "jassem-2014-mathematical · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: كثر، كم"
   },
   {
@@ -441,7 +448,7 @@
    "arabic_root": "ثلث",
    "author_translit": "thalath",
    "arabic_gloss": "three",
-   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-celestial · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2013-cognitive · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2018-week-days",
+   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-celestial · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2013-cognitive · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2014-colour-art · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2018-week-days",
    "bridge_agrees": "نعم"
   },
   {
@@ -705,7 +712,7 @@
    "arabic_root": "صر",
    "author_translit": "Saara",
    "arabic_gloss": "become",
-   "source": "jassem-verb-to-be",
+   "source": "jassem-verb-to-be · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ءبد، ءتي، ءجج، ءجل، ءجن، ءخو، ءسلم، ءصل، وغيرُها"
   },
   {
@@ -961,7 +968,7 @@
    "arabic_root": "قرط",
    "author_translit": "qeeraaT",
    "arabic_gloss": "1/4",
-   "source": "jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-celestial · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2013-cognitive · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2017-myth-fallacy · jassem-2018-week-days",
+   "source": "jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-celestial · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2013-cognitive · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2014-colour-art · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2017-myth-fallacy · jassem-2018-week-days",
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
@@ -1123,6 +1130,14 @@
    "arabic_gloss": "all",
    "source": "jassem-2012-determiners",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "",
+   "arabic_root": "كلس",
+   "author_translit": "kalas(at)",
+   "arabic_gloss": "colour",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءجن، ءدم، بشر، بع، بني، جزر، جعد، حمر، وغيرُها"
   },
   {
    "european": "",
@@ -2053,6 +2068,22 @@
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
+   "european": "Adorn",
+   "arabic_root": "تلون",
+   "author_translit": "talween",
+   "arabic_gloss": "colour; decoration",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءجن، ءدم، بال، بشر، بع، بني، بهش، جزر، وغيرُها"
+  },
+  {
+   "european": "Adorn",
+   "arabic_root": "لون",
+   "author_translit": "lawn",
+   "arabic_gloss": "colour; decoration",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Adultery",
    "arabic_root": "عطل",
    "author_translit": "3aaTil(at)",
@@ -2613,6 +2644,14 @@
    "bridge_agrees": "جذرٌ آخر: برد، ذير، رسل، سعي، فرق، فيج، لءك، ملك"
   },
   {
+   "european": "Amber",
+   "arabic_root": "عنبر",
+   "author_translit": "3anbar",
+   "arabic_gloss": "ambergris; white/yellow amber (musk)",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Ambush",
    "arabic_root": "بش",
    "author_translit": "beesh(at)",
@@ -3053,6 +3092,14 @@
    "bridge_agrees": "جذرٌ آخر: صفح، فوفل، لبب"
   },
   {
+   "european": "Aquamarine",
+   "arabic_root": "سق",
+   "author_translit": "siqaa",
+   "arabic_gloss": "/suqia",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
    "european": "Arbitration",
    "arabic_root": "بد",
    "author_translit": "bada",
@@ -3377,7 +3424,7 @@
    "arabic_root": "صر",
    "author_translit": "Soora(t)",
    "arabic_gloss": "picture",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: دعي، رسم، صور، ططر، فلم، قص، لصق، نقش"
   },
   {
@@ -3465,7 +3512,7 @@
    "arabic_root": "عج",
    "author_translit": "3aj",
    "arabic_gloss": "dust",
-   "source": "jassem-2013-air-fire",
+   "source": "jassem-2013-air-fire · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ءدم، بء، بلد، ترب، جر، جرف، دق، ذنب، وغيرُها"
   },
   {
@@ -3882,6 +3929,14 @@
    "author_translit": "Tarab",
    "arabic_gloss": "singing",
    "source": "jassem-2013-speech-writing",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Azure",
+   "arabic_root": "زرق",
+   "author_translit": "azraq",
+   "arabic_gloss": "blue",
+   "source": "jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -4349,6 +4404,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Beam",
+   "arabic_root": "بهم",
+   "author_translit": "baheem",
+   "arabic_gloss": "pure white or black; black",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءدم، برج، رمث، ريباس، زلل، شهب، شيب، عزف، وغيرُها"
+  },
+  {
    "european": "Bean",
    "arabic_root": "بن",
    "author_translit": "bunn",
@@ -4475,6 +4538,14 @@
    "arabic_gloss": "fullness",
    "source": "jassem-2016-entirely-arabic",
    "bridge_agrees": "جذرٌ آخر: شبع، كثر، كل"
+  },
+  {
+   "european": "Beauty",
+   "arabic_root": "بض",
+   "author_translit": "baiDa",
+   "arabic_gloss": "white, beautiful",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: برج، غرر، لح"
   },
   {
    "european": "Beauty",
@@ -4635,6 +4706,14 @@
    "arabic_gloss": "see",
    "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Beige",
+   "arabic_root": "بص",
+   "author_translit": "booSi",
+   "arabic_gloss": "white; white sheep",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءدم، ءلية، از، اسم، باج، برج، برق، برك، وغيرُها"
   },
   {
    "european": "Belief",
@@ -4941,6 +5020,14 @@
    "bridge_agrees": "جذرٌ آخر: رشف، سفف، شرب، لبن، مص"
   },
   {
+   "european": "Black",
+   "arabic_root": "سود",
+   "author_translit": "aswad",
+   "arabic_gloss": "black",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Blaze",
    "arabic_root": "لهب",
    "author_translit": "lahab",
@@ -5067,6 +5154,38 @@
    "arabic_gloss": "flame, burn",
    "source": "jassem-2013-air-fire",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Blue",
+   "arabic_root": "بل",
+   "author_translit": "baali",
+   "arabic_gloss": "old, discoloured",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءكل، اب، او، بء، باب، بال، بدن، بر، وغيرُها"
+  },
+  {
+   "european": "Blue",
+   "arabic_root": "رءس",
+   "author_translit": "ra'ees",
+   "arabic_gloss": "head, chief; rule, lead",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Blue",
+   "arabic_root": "ربط",
+   "author_translit": "rabaT",
+   "arabic_gloss": "tie, twist",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Blue",
+   "arabic_root": "مت",
+   "author_translit": "mata",
+   "arabic_gloss": "middle",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءرد، ءير، اليمن، بحبح، برغل، بعث، بول، بين، وغيرُها"
   },
   {
    "european": "Blunt",
@@ -5449,7 +5568,7 @@
    "arabic_root": "برق",
    "author_translit": "bareeq",
    "arabic_gloss": "bright",
-   "source": "jassem-2013-air-fire",
+   "source": "jassem-2013-air-fire · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ءث، السنبلة، النواة، بطيخ، بلج، بيض، ثور، خفش، وغيرُها"
   },
   {
@@ -6089,7 +6208,7 @@
    "arabic_root": "زرب",
    "author_translit": "zarabia(t)",
    "arabic_gloss": "carpet",
-   "source": "jassem-2016-fashion",
+   "source": "jassem-2016-fashion · jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -6477,6 +6596,30 @@
    "bridge_agrees": "جذرٌ آخر: ءوم، جدب، حشش، دخن، ردن، شوي، شيش، عجج، وغيرُها"
   },
   {
+   "european": "Charcoal",
+   "arabic_root": "شحر",
+   "author_translit": "sha22ar",
+   "arabic_gloss": "char, smoke",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءوم، جدب، حشش، دخن، ردن، شوي، شيش، عجج، وغيرُها"
+  },
+  {
+   "european": "Charcoal",
+   "arabic_root": "شحور",
+   "author_translit": "shi2waar",
+   "arabic_gloss": "char, smoke",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءوم، جدب، حشش، دخن، ردن، شوي، شيش، عجج، وغيرُها"
+  },
+  {
+   "european": "Charcoal",
+   "arabic_root": "كحل",
+   "author_translit": "ku2l",
+   "arabic_gloss": "black (substance)",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Charge d'Affairs",
    "arabic_root": "ءمر",
    "author_translit": "'amr",
@@ -6531,6 +6674,22 @@
    "arabic_gloss": "Christian",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: الءحد، بيع، جاثليق، جرجس، حنا، حيي، درع، ربب، وغيرُها"
+  },
+  {
+   "european": "Charming",
+   "arabic_root": "غن",
+   "author_translit": "ghanna",
+   "arabic_gloss": "sing",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: جوق، زمر، شدو، صدح، طرب، غرد، غني، مرق، وغيرُها"
+  },
+  {
+   "european": "Chartreuse",
+   "arabic_root": "خرط",
+   "author_translit": "khareeTa(t)",
+   "arabic_gloss": "lit., map",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: شرق، شعل، ضوء، علق، غسق، فرقع، قمر، نور، وغيرُها"
   },
   {
    "european": "Chaste",
@@ -7125,6 +7284,14 @@
    "bridge_agrees": "جذرٌ آخر: ترك، زكو، سوك، صف، نقو، نقي، هلك"
   },
   {
+   "european": "Clear",
+   "arabic_root": "جل",
+   "author_translit": "jalee",
+   "arabic_gloss": "clear",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Clement",
    "arabic_root": "حلم",
    "author_translit": "2aleem(at)",
@@ -7563,6 +7730,14 @@
    "arabic_gloss": "farm, field, estate",
    "source": "jassem-2015-military",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Colour",
+   "arabic_root": "كلس",
+   "author_translit": "kalaasa(t)",
+   "arabic_gloss": "colour",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءجن، ءدم، بشر، بع، بني، جزر، جعد، حمر، وغيرُها"
   },
   {
    "european": "Coma",
@@ -8281,7 +8456,7 @@
    "arabic_root": "قر",
    "author_translit": "qarr",
    "arabic_gloss": "cold",
-   "source": "jassem-2013-water-sea",
+   "source": "jassem-2013-water-sea · jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -8306,6 +8481,14 @@
    "author_translit": "kitaab",
    "arabic_gloss": "book",
    "source": "jassem-2013-speech-writing",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Coral",
+   "arabic_root": "حور",
+   "author_translit": "2awar",
+   "arabic_gloss": "chalk, white dust or earth",
+   "source": "jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -8768,16 +8951,16 @@
    "european": "Create",
    "arabic_root": "صرت",
    "author_translit": "Soorat",
-   "arabic_gloss": "illustrate, create",
-   "source": "jassem-2015-life-death",
-   "bridge_agrees": "جذرٌ آخر: صور"
+   "arabic_gloss": "create, make, fashion, illustrate",
+   "source": "jassem-2014-colour-art · jassem-2015-life-death",
+   "bridge_agrees": "جذرٌ آخر: جبل، صور، صوغ، فطر، كون"
   },
   {
    "european": "Create",
    "arabic_root": "صور",
-   "author_translit": "Sawwar",
-   "arabic_gloss": "illustrate, create",
-   "source": "jassem-2015-life-death",
+   "author_translit": "Sawar",
+   "arabic_gloss": "create, make, fashion, illustrate",
+   "source": "jassem-2014-colour-art · jassem-2015-life-death",
    "bridge_agrees": "نعم"
   },
   {
@@ -9221,6 +9404,14 @@
    "bridge_agrees": "جذرٌ آخر: ءبر، ءدي، ءم، ءول، ءوم، ءيس، بحبح، برق، وغيرُها"
   },
   {
+   "european": "Cyan",
+   "arabic_root": "جون",
+   "author_translit": "jawn",
+   "arabic_gloss": "white, black, black & red, pure red",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Daffodil",
    "arabic_root": "سف",
    "author_translit": "saif",
@@ -9323,6 +9514,14 @@
    "arabic_gloss": "go up and down",
    "source": "jassem-2013-movement-action",
    "bridge_agrees": "جذرٌ آخر: ءث، ءثر، ءلي، ءمر، ءنس، ءود، برك، بطح، وغيرُها"
+  },
+  {
+   "european": "Dark",
+   "arabic_root": "دكن",
+   "author_translit": "daakin",
+   "arabic_gloss": "dark",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Date",
@@ -9581,6 +9780,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Decorate",
+   "arabic_root": "تحور",
+   "author_translit": "ta2weer(at)",
+   "arabic_gloss": "to whiten; to paint in white",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: بيض، ورد"
+  },
+  {
+   "european": "Decorate",
+   "arabic_root": "حور",
+   "author_translit": "2awwar",
+   "arabic_gloss": "to whiten; to paint in white",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: بيض، ورد"
+  },
+  {
    "european": "Deeds",
    "arabic_root": "تحت",
    "author_translit": "ta2t",
@@ -9825,7 +10040,7 @@
    "arabic_root": "تصنع",
    "author_translit": "taSnee3",
    "arabic_gloss": "make",
-   "source": "jassem-2014-mathematical",
+   "source": "jassem-2014-mathematical · jassem-2014-colour-art",
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
@@ -9833,7 +10048,7 @@
    "arabic_root": "صنع",
    "author_translit": "Sana3",
    "arabic_gloss": "make",
-   "source": "jassem-2014-mathematical",
+   "source": "jassem-2014-mathematical · jassem-2014-colour-art",
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
@@ -10017,7 +10232,7 @@
    "arabic_root": "ترقم",
    "author_translit": "tarqeem",
    "arabic_gloss": "writing, numbering",
-   "source": "jassem-2014-mathematical",
+   "source": "jassem-2014-mathematical · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ءرخ، ءشر، ءمر، ءول، ءولي، بجد، بنط، تكء، وغيرُها"
   },
   {
@@ -10041,7 +10256,7 @@
    "arabic_root": "رقم",
    "author_translit": "raqeem",
    "arabic_gloss": "writing, numbering",
-   "source": "jassem-2014-mathematical",
+   "source": "jassem-2014-mathematical · jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -11277,6 +11492,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Dye",
+   "arabic_root": "ءدوت",
+   "author_translit": "'adwiat",
+   "arabic_gloss": "food",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها"
+  },
+  {
+   "european": "Dye",
+   "arabic_root": "دوء",
+   "author_translit": "dawaa'",
+   "arabic_gloss": "food",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها"
+  },
+  {
    "european": "Each",
    "arabic_root": "بضع",
    "author_translit": "biD3",
@@ -11717,6 +11948,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Egg",
+   "arabic_root": "يق",
+   "author_translit": "yaqaq",
+   "arabic_gloss": "pure white",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: زلل، نصع"
+  },
+  {
    "european": "Egg Plant",
    "arabic_root": "دج",
    "author_translit": "dajaj",
@@ -11845,6 +12084,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Embellish",
+   "arabic_root": "لبس",
+   "author_translit": "labas",
+   "arabic_gloss": "to dress up, to wear",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Embellish",
+   "arabic_root": "ملبس",
+   "author_translit": "malbas",
+   "arabic_gloss": "to dress up, to wear",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Embrace",
    "arabic_root": "رقب",
    "author_translit": "raqaba(t)",
@@ -11891,6 +12146,14 @@
    "arabic_gloss": "a wide, short arrow",
    "source": "jassem-2015-radical-translation-names",
    "bridge_agrees": "جذرٌ آخر: سدس"
+  },
+  {
+   "european": "Enchanting",
+   "arabic_root": "نجن",
+   "author_translit": "injann(at)",
+   "arabic_gloss": "to be bedeviled, enchanted",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: محر"
   },
   {
    "european": "Enemy",
@@ -11953,7 +12216,7 @@
    "arabic_root": "قرف",
    "author_translit": "qaraf",
    "arabic_gloss": "break",
-   "source": "jassem-2013-cutting-breaking",
+   "source": "jassem-2013-cutting-breaking · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: الجذر، النواة، ثبر، ثغر، ثقب، ثلم، ثور، جدر، وغيرُها"
   },
   {
@@ -12891,6 +13154,30 @@
    "arabic_gloss": "(school) class, section",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Fade",
+   "arabic_root": "بهت",
+   "author_translit": "baahit",
+   "arabic_gloss": "faded, tasteless",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Fade",
+   "arabic_root": "زن",
+   "author_translit": "zain",
+   "arabic_gloss": "fine",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: بخر، بزي، بن، حرم، حسن، حلو، دق، دقق، وغيرُها"
+  },
+  {
+   "european": "Fade",
+   "arabic_root": "فن",
+   "author_translit": "fana",
+   "arabic_gloss": "end",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءبد، ءخر، ءلي، ءول، اسب، اه، بء، بطل، وغيرُها"
   },
   {
    "european": "Faeces",
@@ -15238,10 +15525,18 @@
   },
   {
    "european": "Graph",
+   "arabic_root": "تحرف",
+   "author_translit": "ta2reef",
+   "arabic_gloss": "letter; edge, curve",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: حرف"
+  },
+  {
+   "european": "Graph",
    "arabic_root": "حرف",
    "author_translit": "2arf",
    "arabic_gloss": "letter; curve",
-   "source": "jassem-2014-mathematical",
+   "source": "jassem-2014-mathematical · jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -15277,12 +15572,28 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Gray",
+   "arabic_root": "غر",
+   "author_translit": "ghurr(at)",
+   "arabic_gloss": "white",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Great",
    "arabic_root": "قدر",
    "author_translit": "qadeer",
    "arabic_gloss": "able, great",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Green",
+   "arabic_root": "غرن",
+   "author_translit": "ghareen",
+   "arabic_gloss": "river mud",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءرد، ار، السين، الغرب، الفرات، اه، بحر، برق، وغيرُها"
   },
   {
    "european": "Green Beans",
@@ -16034,6 +16345,14 @@
    "author_translit": "hasees",
    "arabic_gloss": "sound of trees",
    "source": "jassem-2013-air-fire",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Heavy",
+   "arabic_root": "عبء",
+   "author_translit": "3ib'",
+   "arabic_gloss": "burden, weight, heaviness",
+   "source": "jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -16789,6 +17108,14 @@
    "bridge_agrees": "جذرٌ آخر: رشق، عرض، نوش، وقع"
   },
   {
+   "european": "Hot",
+   "arabic_root": "حد",
+   "author_translit": "2aad",
+   "arabic_gloss": "hot; sharp; edge, limit",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Hour",
    "arabic_root": "شب",
    "author_translit": "shabba(t)",
@@ -16859,6 +17186,14 @@
    "arabic_gloss": "child, human, man",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءب"
+  },
+  {
+   "european": "Hue",
+   "arabic_root": "هء",
+   "author_translit": "hai'a(t)",
+   "arabic_gloss": "form, appearance, shape",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: بقع، حبر، شبح، شكل، هيء"
   },
   {
    "european": "Hum",
@@ -17793,8 +18128,16 @@
    "arabic_root": "نقس",
    "author_translit": "niqs",
    "arabic_gloss": "ink",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ءمد، حبر، حق، دوا، قلم، مدد، هرشف، وشم"
+  },
+  {
+   "european": "Ink",
+   "arabic_root": "نك",
+   "author_translit": "aanik",
+   "arabic_gloss": "lead",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءبر، ءدي، ءم، ءول، ءوم، ءيس، بحبح، برق، وغيرُها"
   },
   {
    "european": "Inn",
@@ -18093,6 +18436,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Ivory",
+   "arabic_root": "ءنيب",
+   "author_translit": "'anyaab",
+   "arabic_gloss": "canine tooth",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: اب، نبو"
+  },
+  {
+   "european": "Ivory",
+   "arabic_root": "نب",
+   "author_translit": "naab",
+   "arabic_gloss": "canine tooth",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: اب، نبو"
+  },
+  {
    "european": "Jacket",
    "arabic_root": "جحش",
    "author_translit": "ja2sh",
@@ -18362,6 +18721,22 @@
    "author_translit": "qidr",
    "arabic_gloss": "pot, kettle",
    "source": "jassem-2014-wining-dining",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Khaki",
+   "arabic_root": "حنظل",
+   "author_translit": "2anDhal(at)",
+   "arabic_gloss": "a type of bitter plant",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Khaki",
+   "arabic_root": "خلق",
+   "author_translit": "khaliq",
+   "arabic_gloss": "old, shabby, shaggy, worn out",
+   "source": "jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -19582,6 +19957,14 @@
   },
   {
    "european": "Lime",
+   "arabic_root": "رمل",
+   "author_translit": "raml",
+   "arabic_gloss": "sand",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Lime",
    "arabic_root": "لبن",
    "author_translit": "laban",
    "arabic_gloss": "milk",
@@ -19590,10 +19973,18 @@
   },
   {
    "european": "Lime",
+   "arabic_root": "لصفن",
+   "author_translit": "laSaf(aan)",
+   "arabic_gloss": "glow",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءشع، روق، زهر، زهو، سفر، عبو، لمع، نور، وغيرُها"
+  },
+  {
+   "european": "Lime",
    "arabic_root": "لمن",
-   "author_translit": "laimoon",
+   "author_translit": "laimoon(at)",
    "arabic_gloss": "lemon",
-   "source": "jassem-2014-wining-dining",
+   "source": "jassem-2014-colour-art · jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: بول، حمص، حمض، حنظل، ذخر، رنجان، علقم، ليم، وغيرُها"
   },
   {
@@ -20305,7 +20696,7 @@
    "arabic_root": "قم",
    "author_translit": "aqaama",
    "arabic_gloss": "make, design",
-   "source": "jassem-2013-movement-action · jassem-2014-mathematical",
+   "source": "jassem-2013-movement-action · jassem-2014-mathematical · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: بنت، بنط، خترع، ختم، خطط، درج، رزب، رسم، وغيرُها"
   },
   {
@@ -20491,6 +20882,14 @@
    "arabic_gloss": "a(t) بىء، ب ُئت, from bawa",
    "source": "jassem-2019-mr",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Marine",
+   "arabic_root": "مرمر",
+   "author_translit": "mar(mar)",
+   "arabic_gloss": "sea, much rain",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءبل، غب، وبل"
   },
   {
    "european": "Mark",
@@ -21445,6 +21844,14 @@
    "bridge_agrees": "جذرٌ آخر: بدل، خطء، غلط"
   },
   {
+   "european": "Mix",
+   "arabic_root": "مزج",
+   "author_translit": "mazaj",
+   "arabic_gloss": "mix",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Moan",
    "arabic_root": "منح",
    "author_translit": "manaa2a(t)",
@@ -22093,6 +22500,14 @@
    "bridge_agrees": "جذرٌ آخر: ءم، اخت، بز، بنت، ثوب، خت، خدر، در، وغيرُها"
   },
   {
+   "european": "Muse",
+   "arabic_root": "مس",
+   "author_translit": "mass",
+   "arabic_gloss": "devil, madness; lit., touch",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Mushroom",
    "arabic_root": "مشر",
    "author_translit": "mashr(at)",
@@ -22194,6 +22609,14 @@
    "author_translit": "safeen(at)",
    "arabic_gloss": "ship",
    "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Navy",
+   "arabic_root": "سفن",
+   "author_translit": "safina(t)",
+   "arabic_gloss": "ship",
+   "source": "jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -23185,7 +23608,7 @@
    "arabic_root": "هل",
    "author_translit": "ihaala(t)",
    "arabic_gloss": "oil, fat",
-   "source": "jassem-2013-air-fire · jassem-2014-wining-dining",
+   "source": "jassem-2013-air-fire · jassem-2014-colour-art · jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: دهن، زيت، سمن، شحم، قلي"
   },
   {
@@ -23686,10 +24109,18 @@
   },
   {
    "european": "Ornate",
+   "arabic_root": "بض",
+   "author_translit": "baiD(at)",
+   "arabic_gloss": "egg; white",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: بيض، رصب، زلل، غرق، غرقل، محح"
+  },
+  {
+   "european": "Ornate",
    "arabic_root": "تلون",
    "author_translit": "talween",
    "arabic_gloss": "colour",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ءجن، ءدم، بشر، بع، بني، جزر، جعد، حمر، وغيرُها"
   },
   {
@@ -23713,7 +24144,7 @@
    "arabic_root": "لون",
    "author_translit": "lawn",
    "arabic_gloss": "colour",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -23891,6 +24322,14 @@
    "arabic_gloss": "devil",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: بلس، شرر، شيط، عفر، مرد، وسوس"
+  },
+  {
+   "european": "Paint",
+   "arabic_root": "نقب",
+   "author_translit": "nuqb(at)",
+   "arabic_gloss": "colour",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءجن، ءدم، بشر، بع، بني، جزر، جعد، حمر، وغيرُها"
   },
   {
    "european": "Pair",
@@ -24525,6 +24964,14 @@
    "bridge_agrees": "جذرٌ آخر: عين"
   },
   {
+   "european": "Pink",
+   "arabic_root": "زنبق",
+   "author_translit": "zanbaq",
+   "arabic_gloss": "a kind of flower",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Pint",
    "arabic_root": "تبن",
    "author_translit": "tubbana(t)",
@@ -24785,7 +25232,7 @@
    "arabic_root": "برعم",
    "author_translit": "bur3um",
    "arabic_gloss": "rose bud, flowering",
-   "source": "jassem-2016-floral",
+   "source": "jassem-2016-floral · jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -24899,6 +25346,22 @@
    "arabic_gloss": "village, city, town",
    "source": "jassem-2015-military",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Polish",
+   "arabic_root": "برغث",
+   "author_translit": "barghooth",
+   "arabic_gloss": "flea",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: فلي"
+  },
+  {
+   "european": "Polish",
+   "arabic_root": "بشت",
+   "author_translit": "baashit",
+   "arabic_gloss": "discoloured",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: بقع، رقط، قط"
   },
   {
    "european": "Pool",
@@ -25789,6 +26252,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Purple",
+   "arabic_root": "رب",
+   "author_translit": "rabaab",
+   "arabic_gloss": "lit., white/black rain cloud",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءدم، اليعبو، برج، برق، خدر، خلب، رمث، رمي، وغيرُها"
+  },
+  {
    "european": "Push",
    "arabic_root": "بس",
    "author_translit": "basas",
@@ -25949,6 +26420,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Radiant",
+   "arabic_root": "در",
+   "author_translit": "durr(at)",
+   "arabic_gloss": "light; rod",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها"
+  },
+  {
    "european": "Radical",
    "arabic_root": "جذر",
    "author_translit": "jadhr",
@@ -25978,6 +26457,22 @@
    "author_translit": "nahar",
    "arabic_gloss": "river",
    "source": "jassem-2013-water-sea",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Rainbow",
+   "arabic_root": "رين",
+   "author_translit": "raiyaan",
+   "arabic_gloss": "water",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءجن، ءرض، ءس، ءسقي، ءفك، ءهر، ار، الدلو، وغيرُها"
+  },
+  {
+   "european": "Rainbow",
+   "arabic_root": "قب",
+   "author_translit": "qubba(t)",
+   "arabic_gloss": "circular top; top, dome",
+   "source": "jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -26123,6 +26618,14 @@
    "arabic_gloss": "eat enjoyably",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: ءج، ءكل، بشر، تهم، تول، ثرد، ثمل، ثني، وغيرُها"
+  },
+  {
+   "european": "Ray",
+   "arabic_root": "در",
+   "author_translit": "durr",
+   "arabic_gloss": "strong, piercing light",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: تاق، شه، وقد"
   },
   {
    "european": "Ray",
@@ -26451,6 +26954,30 @@
    "arabic_gloss": "to recur",
    "source": "jassem-2013-movement-action",
    "bridge_agrees": "جذرٌ آخر: تور، كرر، هيض"
+  },
+  {
+   "european": "Red",
+   "arabic_root": "دن",
+   "author_translit": "adna",
+   "arabic_gloss": "lower",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Red",
+   "arabic_root": "نفر",
+   "author_translit": "naafir",
+   "arabic_gloss": "going up, bulging",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: بعد، خرج، خزن، درك، دور، ذهب، رب، رجل، وغيرُها"
+  },
+  {
+   "european": "Red",
+   "arabic_root": "ورد",
+   "author_translit": "ward(at)",
+   "arabic_gloss": "(white) rose, flower, red, light red",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Reed",
@@ -27329,8 +27856,24 @@
    "arabic_root": "زهر",
    "author_translit": "zahr(at)",
    "arabic_gloss": "flower",
-   "source": "jassem-2016-floral",
+   "source": "jassem-2016-floral · jassem-2014-colour-art",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Rouge",
+   "arabic_root": "ءرجون",
+   "author_translit": "'urjuwan",
+   "arabic_gloss": "deep red",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: زنجفر، شفق، قرمز"
+  },
+  {
+   "european": "Rouge",
+   "arabic_root": "رج",
+   "author_translit": "raja",
+   "arabic_gloss": "deep red",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: زنجفر، شفق، قرمز"
   },
   {
    "european": "Round",
@@ -27717,6 +28260,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Salmon",
+   "arabic_root": "زتن",
+   "author_translit": "zaitoon",
+   "arabic_gloss": "olive",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: بست، بول، حمص، دق، زبج، زري، زيت، سرد"
+  },
+  {
    "european": "Salt",
    "arabic_root": "جر",
    "author_translit": "ajr",
@@ -28085,6 +28636,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Scarlet",
+   "arabic_root": "سقر",
+   "author_translit": "saqar",
+   "arabic_gloss": "fire",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ثفي، جحم، جذو، حرق، حطب، حمر، خلو، دفء، وغيرُها"
+  },
+  {
+   "european": "Scarlet",
+   "arabic_root": "سقلت",
+   "author_translit": "siqillat",
+   "arabic_gloss": "fine cloth",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: حرم، ديل، فوف"
+  },
+  {
+   "european": "Scarlet",
+   "arabic_root": "قل",
+   "author_translit": "qaleel",
+   "arabic_gloss": "little",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Scent",
    "arabic_root": "شم",
    "author_translit": "shamm(at)",
@@ -28155,6 +28730,14 @@
    "arabic_gloss": "see",
    "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Scorch",
+   "arabic_root": "حرق",
+   "author_translit": "2aariq",
+   "arabic_gloss": "burning",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Scorn",
@@ -28989,6 +29572,14 @@
    "bridge_agrees": "جذرٌ آخر: اد، باب، بطن، جز، جزء، جزر، دد، درس، وغيرُها"
   },
   {
+   "european": "Shade",
+   "arabic_root": "سود",
+   "author_translit": "sawaad",
+   "arabic_gloss": "blackness, shade",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Shake",
    "arabic_root": "شح",
    "author_translit": "shaa2a",
@@ -29145,7 +29736,7 @@
    "arabic_root": "سن",
    "author_translit": "sana",
    "arabic_gloss": "light",
-   "source": "jassem-2013-air-fire",
+   "source": "jassem-2013-air-fire · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها"
   },
   {
@@ -29281,7 +29872,7 @@
    "arabic_root": "شع",
    "author_translit": "sha33",
    "arabic_gloss": "shine",
-   "source": "jassem-2013-air-fire",
+   "source": "jassem-2013-air-fire · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ءلق، ءلل، برق، بهر، ججل، جوهر، خفق، خفي، وغيرُها"
   },
   {
@@ -29441,7 +30032,7 @@
    "arabic_root": "نقش",
    "author_translit": "naqsh",
    "arabic_gloss": "sign",
-   "source": "jassem-2013-speech-writing · jassem-2014-mathematical",
+   "source": "jassem-2013-speech-writing · jassem-2014-mathematical · jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ءثر، ءية، ءيي، اتم، الءسد، الثور، الجدي، الحوت، وغيرُها"
   },
   {
@@ -29475,6 +30066,14 @@
    "arabic_gloss": "silly, ignorant, stupid",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Silver",
+   "arabic_root": "زرب",
+   "author_translit": "ziriaab",
+   "arabic_gloss": "silver",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: تبر، ثعلب، ثوم، ديق، طلي، فض، فضض، فضي، وغيرُها"
   },
   {
    "european": "Sin",
@@ -30041,7 +30640,7 @@
    "arabic_root": "سحم",
    "author_translit": "sa2am",
    "arabic_gloss": "blackness, smoke",
-   "source": "jassem-2013-air-fire",
+   "source": "jassem-2013-air-fire · jassem-2014-colour-art",
    "bridge_agrees": "نعم"
   },
   {
@@ -30506,6 +31105,14 @@
    "author_translit": "qabSa(t)",
    "arabic_gloss": "spark",
    "source": "jassem-2013-air-fire",
+   "bridge_agrees": "جذرٌ آخر: ثور، شرر، ظرر، فلل، قدح"
+  },
+  {
+   "european": "Sparkling",
+   "arabic_root": "قبس",
+   "author_translit": "qabas",
+   "arabic_gloss": "spark",
+   "source": "jassem-2014-colour-art",
    "bridge_agrees": "جذرٌ آخر: ثور، شرر، ظرر، فلل، قدح"
   },
   {
@@ -32301,6 +32908,14 @@
    "bridge_agrees": "جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها"
   },
   {
+   "european": "Tan",
+   "arabic_root": "بسط",
+   "author_translit": "bisaaT",
+   "arabic_gloss": "rug, carpet",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Tangible",
    "arabic_root": "طج",
    "author_translit": "Tajja",
@@ -32339,6 +32954,22 @@
    "arabic_gloss": "ethic, manners",
    "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: ءدب، ءمر، جمل، خشن، خلق، ذوق، ربو، سلك، وغيرُها"
+  },
+  {
+   "european": "Tattoo",
+   "arabic_root": "خط",
+   "author_translit": "khaTT",
+   "arabic_gloss": "lines",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: برق، بطن، بكر، بيت، خطط، خمس، ركن، ساف، وغيرُها"
+  },
+  {
+   "european": "Tattoo",
+   "arabic_root": "طحل",
+   "author_translit": "Tu2la(t)",
+   "arabic_gloss": "gray to white with little black",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: شهب، شيب"
   },
   {
    "european": "Tavern",
@@ -33349,6 +33980,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Tinge",
+   "arabic_root": "دمغ",
+   "author_translit": "damgh(at)",
+   "arabic_gloss": "dye",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: حبر، حمر، حنء، حنا، خضب، دم، دمم، صبغ، وغيرُها"
+  },
+  {
    "european": "Title",
    "arabic_root": "ثور",
    "author_translit": "thawr",
@@ -33411,6 +34050,14 @@
    "arabic_gloss": "weakness, feebleness",
    "source": "jassem-2015-life-death",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Tone",
+   "arabic_root": "بهر",
+   "author_translit": "bahara",
+   "arabic_gloss": "appear, come in light",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ظهر، نجم، نور"
   },
   {
    "european": "Tool",
@@ -34477,6 +35124,14 @@
    "bridge_agrees": "جذرٌ آخر: بدر، بطش، بطن، بغت، تنس، جبه، حدج، حذف، وغيرُها"
   },
   {
+   "european": "Verdant",
+   "arabic_root": "خضر",
+   "author_translit": "akhDar",
+   "arabic_gloss": "green",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Verdict",
    "arabic_root": "ثر",
    "author_translit": "thar",
@@ -34795,6 +35450,22 @@
    "arabic_gloss": "dull, heavy, debased person",
    "source": "jassem-2015-military",
    "bridge_agrees": "جذرٌ آخر: ثقل"
+  },
+  {
+   "european": "Violet",
+   "arabic_root": "ءتم",
+   "author_translit": "'atamm",
+   "arabic_gloss": "come to an end; perfect",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ءخر، دبر، روح، صرم، صلي، عدم، عقب، غب، وغيرُها"
+  },
+  {
+   "european": "Violet",
+   "arabic_root": "فل",
+   "author_translit": "full(at)",
+   "arabic_gloss": "a flower",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: ببر، بتل، برعم، بزم، بنفسج، تاج، دق، دقق، وغيرُها"
   },
   {
    "european": "Virgin",
@@ -35293,6 +35964,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Water colours",
+   "arabic_root": "ورد",
+   "author_translit": "wird",
+   "arabic_gloss": "water",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Watercress",
    "arabic_root": "قر",
    "author_translit": "qurra(t)",
@@ -35662,6 +36341,14 @@
   },
   {
    "european": "Wheat",
+   "arabic_root": "حنط",
+   "author_translit": "2inTa(t)",
+   "arabic_gloss": "wheat",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Wheat",
    "arabic_root": "وضح",
    "author_translit": "waD2",
    "arabic_gloss": "white",
@@ -35811,6 +36498,14 @@
    "arabic_gloss": "respond, ask",
    "source": "jassem-2015-radical-translation-names",
    "bridge_agrees": "جذرٌ آخر: ءبو، ءتي، ءذن، ءمر، ءنس، ءوي، بدر، برء، وغيرُها"
+  },
+  {
+   "european": "White",
+   "arabic_root": "وضح",
+   "author_translit": "waDa2",
+   "arabic_gloss": "white, light, appear",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Whiz",
@@ -36651,6 +37346,14 @@
    "arabic_gloss": "sing",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: جوق، زمر، شدو، صدح، طرب، غرد، غني، مرق، وغيرُها"
+  },
+  {
+   "european": "Yellow",
+   "arabic_root": "جلح",
+   "author_translit": "ajla2",
+   "arabic_gloss": "yellow",
+   "source": "jassem-2014-colour-art",
+   "bridge_agrees": "جذرٌ آخر: اسم، برغش، ترمس، جب، حوذ، حوي، خضر، خلط، وغيرُها"
   },
   {
    "european": "Yes",

@@ -16651,7 +16651,48 @@
         "`t` + `ط` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            438,
+            439,
+            440
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 438,
+              "european": "Augustus",
+              "arabic_root": "خل",
+              "author_translit": "khaleel",
+              "arabic_gloss": "friend, husband",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 439,
+              "european": "Augustus",
+              "arabic_root": "رجل",
+              "author_translit": "rajul",
+              "arabic_gloss": "man, husband",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 440,
+              "european": "Augustus",
+              "arabic_root": "قدس",
+              "author_translit": "qudus",
+              "arabic_gloss": "sacred",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0179",
@@ -35895,7 +35936,28 @@
       ],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            482
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 482,
+              "european": "Banana",
+              "arabic_root": "بن",
+              "author_translit": "banan",
+              "arabic_gloss": "finger",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0224",
@@ -68887,7 +68949,28 @@
         "`s` + `ز` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            614
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 614,
+              "european": "Blouse",
+              "arabic_root": "لبس",
+              "author_translit": "libas",
+              "arabic_gloss": "dress",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0302",

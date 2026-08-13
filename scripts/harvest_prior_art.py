@@ -78,6 +78,7 @@ SOURCES = [
     ("jassem-2014-commerce", "https://web.archive.org/web/20160414134728id_/http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijll.20140205.15.pdf"),
     ("jassem-2014-mathematical", "https://www.arcjournals.org/pdfs/ijsell/v2-i5/4.pdf"),
     ("jassem-2014-basque-finnish", "https://pdfs.semanticscholar.org/4be9/7789652dec742056bbe617e9a3a7b6089502.pdf"),
+    ("jassem-2014-colour-art", "http://www.ijelr.in/Vol.%20Issue.12014/Zaidan%201-18.pdf"),
     ("jassem-2015-case-word-order", "https://languageinindia.com/march2015/jassemcasemarkings.pdf"),
     ("jassem-2015-military", "https://languageinindia.com/may2015/jassemmilitary.pdf"),
     ("jassem-2015-legal", "https://web.archive.org/web/20170706110525id_/http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijalt.20150103.11.pdf"),
@@ -148,6 +149,8 @@ FAILED_SOURCES = [
      "أعادَ المستضيفُ ملفًّا من 31 بايتًا يقول إنّ رمزَ التحقّق غيرُ صالح، لا PDF"),
     ("jassem-2018-demonstratives-wrong-galley", "https://journal.uinjkt.ac.id/index.php/arabiyat/article/download/8936/6230",
      "ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح"),
+    ("jassem-2014-colour-art-https", "https://www.ijelr.in/Vol.%20Issue.12014/Zaidan%201-18.pdf",
+     "انقطع اتصالُ TLS؛ واستُبدل بمسارِ HTTP المباشرِ الصالحِ من ناشرِ المجلّة"),
 ]
 
 UA = {"User-Agent": "Mozilla/5.0 (research harvest; contact via arabicjuthoor.com)"}
@@ -316,8 +319,6 @@ def fetch() -> None:
             print(f"   نُزِّل  {key}  ({len(data)//1024} KB)")
         except Exception as exc:                       # noqa: BLE001
             print(f"!! تعذَّر  {key}: {str(exc)[:70]}")
-
-
 def mine(path: pathlib.Path) -> list[dict]:
     import fitz                                       # noqa: PLC0415
     text = "\n".join(pg.get_text() for pg in fitz.open(path))
@@ -434,7 +435,7 @@ def main() -> int:
         "note": ("أزواجٌ اقترحَها سابقون. **لا حكمَ فيها ولا تزكية**، وهي مرشَّحاتٌ "
                  "تدخلُ بوّاباتِنا كما يدخلُها أيُّ مرشَّح. والجذرُ العربيُّ مردودٌ "
                  "من رومنةِ صاحبِ البحثِ لا من حروفِه العربيّةِ لأنّ ترميزَها مكسور."),
-        "sources": [s for s, _ in SOURCES if (STORE / f"{s}.pdf").exists()],
+        "sources": [f.stem for f in files],
         "source_urls": {s: url for s, url in SOURCES},
         "failed_sources": [
             {"source": key, "url": url, "reason": reason}

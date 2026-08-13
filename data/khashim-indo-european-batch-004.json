@@ -43881,7 +43881,28 @@
         "`n` + `ن` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            484
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 484,
+              "european": "Bank",
+              "arabic_root": "جنب",
+              "author_translit": "janb",
+              "arabic_gloss": "side",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0548",
@@ -61138,7 +61159,28 @@
         "`z` + `ى` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "NUCLEUS-TRACE",
-      "judgment": "NUCLEUS-TRACE"
+      "judgment": "NUCLEUS-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            737
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 737,
+              "european": "Car",
+              "arabic_root": "جر",
+              "author_translit": "jarra",
+              "arabic_gloss": "draw, pull, drag; tractor",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0567",

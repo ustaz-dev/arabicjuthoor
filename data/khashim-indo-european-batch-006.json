@@ -803,7 +803,38 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            272,
+            273
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 272,
+              "european": "Aide",
+              "arabic_root": "طلق",
+              "author_translit": "Taleeq",
+              "arabic_gloss": "free(d)",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 273,
+              "european": "Aide",
+              "arabic_root": "عون",
+              "author_translit": "3aawan",
+              "arabic_gloss": "to help",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-006",
@@ -42311,7 +42342,28 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            512
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 512,
+              "european": "Barley",
+              "arabic_root": "بصل",
+              "author_translit": "baSal",
+              "arabic_gloss": "onion",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-095",
@@ -42519,7 +42571,38 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            527,
+            528
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 527,
+              "european": "Bear",
+              "arabic_root": "برء",
+              "author_translit": "bara'a",
+              "arabic_gloss": "create, bear",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 528,
+              "european": "Bear",
+              "arabic_root": "بعر",
+              "author_translit": "ba3eer",
+              "arabic_gloss": "camel",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-096",
@@ -42924,7 +43007,28 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            526
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 526,
+              "european": "Bean",
+              "arabic_root": "بن",
+              "author_translit": "bunn",
+              "arabic_gloss": "(coffee) bean",
+              "source": "jassem-2016-floral · jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-099",
@@ -62969,7 +63073,28 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            808
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 808,
+              "european": "Chemise",
+              "arabic_root": "قمص",
+              "author_translit": "qameeS",
+              "arabic_gloss": "shirt",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-141",
@@ -68386,7 +68511,28 @@
         "`k` + `ك` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            712
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 712,
+              "european": "Cake",
+              "arabic_root": "كعك",
+              "author_translit": "ka3ak",
+              "arabic_gloss": "cake; dry, ring-shaped bread",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-151",

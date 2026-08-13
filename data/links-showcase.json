@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 2121,
-  "nucleus": 1228,
+  "root": 2130,
+  "nucleus": 1230,
   "languages": 16
  },
  "languages": [
@@ -849,7 +849,7 @@
    "ar": "الفارسيّة",
    "en": "Persian",
    "distance": 3,
-   "root": 8,
+   "root": 10,
    "nucleus": 3,
    "floor": 0,
    "examples": [
@@ -904,16 +904,16 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 11,
-   "nucleus_share": 27.3
+   "total": 13,
+   "nucleus_share": 23.1
   },
   {
    "key": "old-english",
    "ar": "الإنجليزيّة القديمة",
    "en": "Old English",
    "distance": 4,
-   "root": 26,
-   "nucleus": 20,
+   "root": 32,
+   "nucleus": 22,
    "floor": 1,
    "examples": [
     {
@@ -997,8 +997,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 46,
-   "nucleus_share": 43.5
+   "total": 54,
+   "nucleus_share": 40.7
   },
   {
    "key": "old-irish",
@@ -1191,7 +1191,7 @@
    "ar": "الإنجليزيّة الوسطى",
    "en": "Middle English",
    "distance": 4,
-   "root": 12,
+   "root": 13,
    "nucleus": 9,
    "floor": 0,
    "examples": [
@@ -1266,8 +1266,8 @@
      "degree": "ROOT-ECHO"
     }
    ],
-   "total": 21,
-   "nucleus_share": 42.9
+   "total": 22,
+   "nucleus_share": 40.9
   },
   {
    "key": "old-norse",

@@ -8703,7 +8703,32 @@
           "dialect_review": []
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            167,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175
+          ],
+          "form": "Abide",
+          "root": "بيت",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`abide` في البقاء والسكن والإقامة",
+          "orbit": "الإقامة بقاءٌ في حيزٍ مسكون؛ فيلتقي معنى `abide` حدث `بيت` في الحيز الذي يُسكن ويُستقر فيه مباشرة.",
+          "sound_route": "b↔ب=`IDN-05`؛ d↔ت=`BR-GRIM-02`؛ باب المعتل المسمى يثبت الياء في الجوف",
+          "sound_searches": [
+            "`b` + `ب` + «الإنجليزيّة القديمة/Old English»",
+            "`d` + `ت` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "حَيّز محيط يُسكَنُ فيه، أي يُستَقَرُّ",
+          "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
+        }
+      ],
       "deficiencies": [
         {
           "member_index": 633,
@@ -8728,8 +8753,114 @@
         "`d` + `ت` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`n` + `ن` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "closure": "ROOT-TRACE",
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            167,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 167,
+              "european": "Abide",
+              "arabic_root": "ءبد",
+              "author_translit": "'abada",
+              "arabic_gloss": "dwell, stay",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 170,
+              "european": "Abide",
+              "arabic_root": "ذعر",
+              "author_translit": "dhu3r",
+              "arabic_gloss": "fear",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 171,
+              "european": "Abide",
+              "arabic_root": "شرط",
+              "author_translit": "shareeT",
+              "arabic_gloss": "cord, string",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 172,
+              "european": "Abide",
+              "arabic_root": "صدر",
+              "author_translit": "Sadr",
+              "arabic_gloss": "breast, heart",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 173,
+              "european": "Abide",
+              "arabic_root": "عقد",
+              "author_translit": "3aqd",
+              "arabic_gloss": "act, contract; connection; getting ready",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 174,
+              "european": "Abide",
+              "arabic_root": "قرض",
+              "author_translit": "qurD(at)",
+              "arabic_gloss": "a loan",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 175,
+              "european": "Abide",
+              "arabic_root": "كم",
+              "author_translit": "kama",
+              "arabic_gloss": "like",
+              "source": "jassem-2015-legal · jassem-2015-urban",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            167,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175
+          ],
+          "root": "بيت",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`abide` في البقاء والسكن والإقامة",
+          "orbit": "الإقامة بقاءٌ في حيزٍ مسكون؛ فيلتقي معنى `abide` حدث `بيت` في الحيز الذي يُسكن ويُستقر فيه مباشرة.",
+          "sound_route": "b↔ب=`IDN-05`؛ d↔ت=`BR-GRIM-02`؛ باب المعتل المسمى يثبت الياء في الجوف",
+          "sound_searches": [
+            "`b` + `ب` + «الإنجليزيّة القديمة/Old English»",
+            "`d` + `ت` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "حَيّز محيط يُسكَنُ فيه، أي يُستَقَرُّ"
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0341",
@@ -23004,7 +23135,28 @@
         "`t` + `ر` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            748
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 748,
+              "european": "Carrot",
+              "arabic_root": "جزر",
+              "author_translit": "jazar(at)",
+              "arabic_gloss": "a carrot",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0370",
@@ -51398,7 +51550,28 @@
         "`n` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            483
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 483,
+              "european": "Bandage",
+              "arabic_root": "بطن",
+              "author_translit": "biTaana(t)",
+              "arabic_gloss": "belly strap; lining",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0419",
@@ -52633,7 +52806,38 @@
         "`y` + `ب` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            472,
+            473
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 472,
+              "european": "Baby",
+              "arabic_root": "بكر",
+              "author_translit": "bikr",
+              "arabic_gloss": "first child, virgin, early",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 473,
+              "european": "Baby",
+              "arabic_root": "ملك",
+              "author_translit": "malaka",
+              "arabic_gloss": "possess",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0425",
