@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 43204,
+  "cards_total": 43454,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,12 +32,12 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 6947,
-    "links": 17,
-    "root": 12,
-    "nucleus": 5,
+    "cards": 7197,
+    "links": 20,
+    "root": 14,
+    "nucleus": 6,
     "floor": 0,
-    "nucleus_share": 29.4
+    "nucleus_share": 30.0
    },
    {
     "key": "coptic",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3369,
+  "links_to_arabic": 3372,
   "closures": 1009,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1802,
+    "count": 1804,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 910,
+    "count": 911,
     "link": true
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 39420,
+  "cards_total": 39670,
   "suspended": 30272,
-  "released": 9148,
+  "released": 9398,
   "blockers": [
    {
     "name": "UNLABELLED",
