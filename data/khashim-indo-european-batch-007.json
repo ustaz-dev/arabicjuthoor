@@ -923,7 +923,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1986,
+              "source_row_index_at_freeze": 1986,
+              "source_row_key": "ec78f990bff0e6c2d5d1d57a",
+              "european": "Harvest",
+              "arabic_root": "خرف",
+              "author_translit": "khareef",
+              "arabic_gloss": "autumn, fall; harvest",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-007",
@@ -4363,7 +4382,59 @@
         "`g` + `ك` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1885,
+              "source_row_index_at_freeze": 1885,
+              "source_row_key": "65fb80eb34fc96c185a088f6",
+              "european": "Good",
+              "arabic_root": "جد",
+              "author_translit": "jood",
+              "arabic_gloss": "good, fine, generous",
+              "source": "jassem-2016-entirely-arabic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1886,
+              "source_row_index_at_freeze": 1886,
+              "source_row_key": "81a2a7cc5304d282a1eb3d40",
+              "european": "Good",
+              "arabic_root": "جيد",
+              "author_translit": "jaiyed",
+              "arabic_gloss": "good, fine, generous",
+              "source": "jassem-2016-entirely-arabic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1887,
+              "source_row_index_at_freeze": 1887,
+              "source_row_key": "0295dbde624634bb819972bd",
+              "european": "Good",
+              "arabic_root": "عن",
+              "author_translit": "3an",
+              "arabic_gloss": "about, on",
+              "source": "jassem-2016-entirely-arabic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1888,
+              "source_row_index_at_freeze": 1888,
+              "source_row_key": "17e2c37a7090aa2c0ecaba82",
+              "european": "Good",
+              "arabic_root": "غد",
+              "author_translit": "ghad",
+              "arabic_gloss": "tomorrow",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-011",
@@ -24500,7 +24571,26 @@
         "`t` + `ط` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2400,
+              "source_row_index_at_freeze": 2400,
+              "source_row_key": "0b62709e8af8f68cad3156be",
+              "european": "Late",
+              "arabic_root": "طول",
+              "author_translit": "Tawwal",
+              "arabic_gloss": "to be late/long, to be delayed",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-048",
@@ -42255,6 +42345,25 @@
       "judgment": "غير صادر",
       "cross_book_supplement_rows": [
         4147
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1847,
+              "source_row_index_at_freeze": 1847,
+              "source_row_key": "8b58c696eb7d940a99d89e3a",
+              "european": "Genealogy",
+              "arabic_root": "جنس",
+              "author_translit": "jins",
+              "arabic_gloss": "sex, genus, kind",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
       ]
     },
     {

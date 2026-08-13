@@ -3806,7 +3806,26 @@
         "`y` + `ي` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1763,
+              "source_row_index_at_freeze": 1763,
+              "source_row_key": "a7cb31587f6403949e60697a",
+              "european": "Four",
+              "arabic_root": "ربع",
+              "author_translit": "arba3(at)",
+              "arabic_gloss": "four",
+              "source": "jassem-2012-numerals · jassem-2014-mathematical",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N010-008",

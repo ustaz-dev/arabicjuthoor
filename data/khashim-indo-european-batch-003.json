@@ -1888,7 +1888,26 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1712,
+              "source_row_index_at_freeze": 1712,
+              "source_row_key": "bd6458a4b68c03b348a2cb90",
+              "european": "Flat",
+              "arabic_root": "بلط",
+              "author_translit": "balaaT",
+              "arabic_gloss": "rock, tile, flat land",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0327",
@@ -24950,7 +24969,26 @@
         "`l` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2340,
+              "source_row_index_at_freeze": 2340,
+              "source_row_key": "4cc1ecbc75871c84401575ee",
+              "european": "Lad",
+              "arabic_root": "ولد",
+              "author_translit": "walad",
+              "arabic_gloss": "boy, child",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0372",
@@ -26375,7 +26413,37 @@
         "`y` + `ي` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2341,
+              "source_row_index_at_freeze": 2341,
+              "source_row_key": "67f4694543dda19ed4ce7b84",
+              "european": "Lady",
+              "arabic_root": "رغف",
+              "author_translit": "ragheef",
+              "arabic_gloss": "a loaf (of bread)",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2342,
+              "source_row_index_at_freeze": 2342,
+              "source_row_key": "5db5b4616811551caddd0b2a",
+              "european": "Lady",
+              "arabic_root": "ولد",
+              "author_translit": "waalida(t)",
+              "arabic_gloss": "mother; lady",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0376",
@@ -30850,7 +30918,59 @@
         "`g` + `ك` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1880,
+              "source_row_index_at_freeze": 1880,
+              "source_row_key": "3c787398d9d738e159718d71",
+              "european": "God",
+              "arabic_root": "جد",
+              "author_translit": "jadd",
+              "arabic_gloss": "grandfather",
+              "source": "jassem-2014-divine-theological · jassem-2015-radical-translation-names",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1882,
+              "source_row_index_at_freeze": 1882,
+              "source_row_key": "f9a0311ab3622dc87e847597",
+              "european": "God",
+              "arabic_root": "عجل",
+              "author_translit": "3ijl",
+              "arabic_gloss": "bull, bull owner",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1883,
+              "source_row_index_at_freeze": 1883,
+              "source_row_key": "804d37459361b83c2f557470",
+              "european": "God",
+              "arabic_root": "قبل",
+              "author_translit": "qibla(t)",
+              "arabic_gloss": "prayer direction",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1884,
+              "source_row_index_at_freeze": 1884,
+              "source_row_key": "140a135dc174b2522ecc4af3",
+              "european": "God",
+              "arabic_root": "له",
+              "author_translit": "Allah",
+              "arabic_gloss": "God",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0382",
@@ -41045,6 +41165,23 @@
             "تاج العروس لمرتضى الزبيدي"
           ],
           "source_gap": false
+        },
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "form": "Father",
+          "root": "فطر",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`father` في الوالد الذي يكون منه بدء خروج الولد إلى الوجود",
+          "orbit": "الأب مبدأ خروج الولد أول أمره من أصل النسل؛ فهذا مدار سببي واحد إلى حدث `فطر` في الخروج الأول الشاق لما فوقه.",
+          "sound_route": "f↔ف=`IDN-06`؛ th↔ط=`DENT-05`؛ r↔ر=`IDN-01`",
+          "sound_searches": [
+            "`f` + `ف` + «الإنجليزيّة الوسطى/Middle English»",
+            "`th` + `ط` + «الإنجليزيّة الوسطى/Middle English»",
+            "`r` + `ر` + «الإنجليزيّة الوسطى/Middle English»"
+          ],
+          "frozen_event": "خروج الشيء - أو نفاذه - أوّل أمره شاقًا ما فوقه بضغط",
+          "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
         }
       ],
       "deficiencies": [
@@ -41090,8 +41227,79 @@
         "`v` + `ف` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`v` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
-      "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "closure": "ROOT-ECHO + ROOT-TRACE",
+      "judgment": "ROOT-ECHO + ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1647,
+              "source_row_index_at_freeze": 1647,
+              "source_row_key": "8b79b983d4d210b82c073175",
+              "european": "Father",
+              "arabic_root": "ءب",
+              "author_translit": "'abb",
+              "arabic_gloss": "father",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1648,
+              "source_row_index_at_freeze": 1648,
+              "source_row_key": "3b3fee3b3bdbba528a0d4c45",
+              "european": "Father",
+              "arabic_root": "ءبت",
+              "author_translit": "'abat",
+              "arabic_gloss": "father",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1647,
+              "source_row_index_at_freeze": 1647,
+              "source_row_key": "8b79b983d4d210b82c073175",
+              "european": "Father",
+              "arabic_root": "ءب",
+              "author_translit": "'abb",
+              "arabic_gloss": "father",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1648,
+              "source_row_index_at_freeze": 1648,
+              "source_row_key": "3b3fee3b3bdbba528a0d4c45",
+              "european": "Father",
+              "arabic_root": "ءبت",
+              "author_translit": "'abat",
+              "arabic_gloss": "father",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "root": "فطر",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`father` في الوالد الذي يكون منه بدء خروج الولد إلى الوجود",
+          "orbit": "الأب مبدأ خروج الولد أول أمره من أصل النسل؛ فهذا مدار سببي واحد إلى حدث `فطر` في الخروج الأول الشاق لما فوقه.",
+          "sound_route": "f↔ف=`IDN-06`؛ th↔ط=`DENT-05`؛ r↔ر=`IDN-01`",
+          "sound_searches": [
+            "`f` + `ف` + «الإنجليزيّة الوسطى/Middle English»",
+            "`th` + `ط` + «الإنجليزيّة الوسطى/Middle English»",
+            "`r` + `ر` + «الإنجليزيّة الوسطى/Middle English»"
+          ],
+          "frozen_event": "خروج الشيء - أو نفاذه - أوّل أمره شاقًا ما فوقه بضغط"
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0395",
@@ -51588,6 +51796,34 @@
             }
           ],
           "bridge_agrees": true
+        },
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2142,
+              "source_row_index_at_freeze": 2142,
+              "source_row_key": "5b29d4566e130cbc34d361f7",
+              "european": "Husband",
+              "arabic_root": "حسب",
+              "author_translit": "2aseeb",
+              "arabic_gloss": "relative, noble, husband",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2143,
+              "source_row_index_at_freeze": 2143,
+              "source_row_key": "0814dd1e0f46956541b31938",
+              "european": "Husband",
+              "arabic_root": "رب",
+              "author_translit": "rabb(at)",
+              "arabic_gloss": "owner",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "نعم"
+            }
+          ]
         }
       ]
     },
@@ -53478,7 +53714,26 @@
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1863,
+              "source_row_index_at_freeze": 1863,
+              "source_row_key": "a518d51f03ea82c04c5412ce",
+              "european": "Girl",
+              "arabic_root": "جد",
+              "author_translit": "jadd",
+              "arabic_gloss": "grandfather",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0426",
@@ -58073,7 +58328,26 @@
         "`w` + `ي` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2116,
+              "source_row_index_at_freeze": 2116,
+              "source_row_key": "160f35b6a67f2e220eb52673",
+              "european": "House",
+              "arabic_root": "بن",
+              "author_translit": "ibn",
+              "arabic_gloss": "son, child",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0438",

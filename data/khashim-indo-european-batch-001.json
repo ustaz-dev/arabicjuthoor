@@ -14469,7 +14469,37 @@
         "`s` + `ص` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2133,
+              "source_row_index_at_freeze": 2133,
+              "source_row_key": "2233d31e14826d920b9bdb07",
+              "european": "Hundred",
+              "arabic_root": "عقد",
+              "author_translit": "3aqd",
+              "arabic_gloss": "a decade (of ten years); a knot",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2134,
+              "source_row_index_at_freeze": 2134,
+              "source_row_key": "9cf6d33ae2f8d372dbcbb7ce",
+              "european": "Hundred",
+              "arabic_root": "ميت",
+              "author_translit": "miyat",
+              "arabic_gloss": "hundred",
+              "source": "jassem-2012-numerals",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0021",
@@ -33017,6 +33047,23 @@
           ],
           "frozen_event": "نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه",
           "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
+        },
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "form": "Horn",
+          "root": "قرن",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`horn`، النتوء الصلب الممتد في أعلى رأس الحيوان أو مقدمه",
+          "orbit": "القرن نتوء شديد ممتد في أعلى الجسم أو مقدمه؛ وهذا نص الحدث المجمّد نفسه.",
+          "sound_route": "ق↔k=`GUT-01` ثم k→h=`BR-GRIM-01`؛ r↔ر=`IDN-01`؛ n↔ن=`IDN-03`",
+          "sound_searches": [
+            "`h` + `ق` + «الإنجليزيّة الوسطى/Middle English»",
+            "`r` + `ر` + «الإنجليزيّة الوسطى/Middle English»",
+            "`n` + `ن` + «الإنجليزيّة الوسطى/Middle English»"
+          ],
+          "frozen_event": "نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه",
+          "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
         }
       ],
       "deficiencies": [],
@@ -33065,6 +33112,34 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2092,
+              "source_row_index_at_freeze": 2092,
+              "source_row_key": "a705730e416226379e0b043d",
+              "european": "Horn",
+              "arabic_root": "عجل",
+              "author_translit": "3ijl",
+              "arabic_gloss": "bull",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2094,
+              "source_row_index_at_freeze": 2094,
+              "source_row_key": "a748355771ff0a28d90d1206",
+              "european": "Horn",
+              "arabic_root": "قرن",
+              "author_translit": "qarn",
+              "arabic_gloss": "horn",
+              "source": "jassem-2013-animal · jassem-2013-speech-writing",
+              "bridge_agrees": "نعم"
+            }
+          ]
         }
       ],
       "jassem_rejudgments": [
@@ -33104,6 +33179,45 @@
             "`c` + `ق` + «الإنجليزيّة القديمة/Old English»",
             "`r` + `ر` + «الإنجليزيّة القديمة/Old English»",
             "`n` + `ن` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه"
+        },
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2092,
+              "source_row_index_at_freeze": 2092,
+              "source_row_key": "a705730e416226379e0b043d",
+              "european": "Horn",
+              "arabic_root": "عجل",
+              "author_translit": "3ijl",
+              "arabic_gloss": "bull",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2094,
+              "source_row_index_at_freeze": 2094,
+              "source_row_key": "a748355771ff0a28d90d1206",
+              "european": "Horn",
+              "arabic_root": "قرن",
+              "author_translit": "qarn",
+              "arabic_gloss": "horn",
+              "source": "jassem-2013-animal · jassem-2013-speech-writing",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "root": "قرن",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`horn`، النتوء الصلب الممتد في أعلى رأس الحيوان أو مقدمه",
+          "orbit": "القرن نتوء شديد ممتد في أعلى الجسم أو مقدمه؛ وهذا نص الحدث المجمّد نفسه.",
+          "sound_route": "ق↔k=`GUT-01` ثم k→h=`BR-GRIM-01`؛ r↔ر=`IDN-01`؛ n↔ن=`IDN-03`",
+          "sound_searches": [
+            "`h` + `ق` + «الإنجليزيّة الوسطى/Middle English»",
+            "`r` + `ر` + «الإنجليزيّة الوسطى/Middle English»",
+            "`n` + `ن` + «الإنجليزيّة الوسطى/Middle English»"
           ],
           "frozen_event": "نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه"
         }
@@ -47222,7 +47336,48 @@
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "NUCLEUS-TRACE",
-      "judgment": "NUCLEUS-TRACE"
+      "judgment": "NUCLEUS-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1770,
+              "source_row_index_at_freeze": 1770,
+              "source_row_key": "1595e1ab8d2634506e815ee2",
+              "european": "Free",
+              "arabic_root": "غد",
+              "author_translit": "ghad",
+              "arabic_gloss": "tomorrow",
+              "source": "jassem-2016-entirely-arabic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1771,
+              "source_row_index_at_freeze": 1771,
+              "source_row_key": "1fd56d7ae22a7ad456b7688d",
+              "european": "Free",
+              "arabic_root": "فر",
+              "author_translit": "farra",
+              "arabic_gloss": "fly, escape",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1773,
+              "source_row_index_at_freeze": 1773,
+              "source_row_key": "4ab2b6118049485c61187e92",
+              "european": "Free",
+              "arabic_root": "فرح",
+              "author_translit": "fari2",
+              "arabic_gloss": "joyful",
+              "source": "jassem-2016-entirely-arabic · jassem-2018-week-days",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0088",
@@ -61692,7 +61847,37 @@
         "`y` + `ي` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1912,
+              "source_row_index_at_freeze": 1912,
+              "source_row_key": "04ebac1d4c64c3588ee26303",
+              "european": "Graph",
+              "arabic_root": "حرف",
+              "author_translit": "2arf",
+              "arabic_gloss": "letter; curve",
+              "source": "jassem-2014-mathematical · jassem-2014-colour-art",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1913,
+              "source_row_index_at_freeze": 1913,
+              "source_row_key": "80e5a47ad615bc648d845adb",
+              "european": "Graph",
+              "arabic_root": "كرش",
+              "author_translit": "karsh",
+              "arabic_gloss": "belly; big; group",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0123",
@@ -62342,7 +62527,37 @@
         "`v` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1915,
+              "source_row_index_at_freeze": 1915,
+              "source_row_key": "c2b2b595b36a3a040fc96c92",
+              "european": "Grave",
+              "arabic_root": "قبر",
+              "author_translit": "qabr",
+              "arabic_gloss": "grave, bury",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1916,
+              "source_row_index_at_freeze": 1916,
+              "source_row_key": "dea03f295c1ca810b6858ad7",
+              "european": "Grave",
+              "arabic_root": "كبر",
+              "author_translit": "kabeer(at)",
+              "arabic_gloss": "big, large, serious",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0124",
@@ -64375,7 +64590,37 @@
         "`r` + `ل` + «اليونانيّة القديمة/Ancient Greek» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1906,
+              "source_row_index_at_freeze": 1906,
+              "source_row_key": "763a9e6ddae9d2e05a307b3c",
+              "european": "Gram",
+              "arabic_root": "حرف",
+              "author_translit": "2arf",
+              "arabic_gloss": "letter",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1907,
+              "source_row_index_at_freeze": 1907,
+              "source_row_key": "3f9bfbdf9b2dee2e01a10fd9",
+              "european": "Gram",
+              "arabic_root": "قدر",
+              "author_translit": "qadr",
+              "arabic_gloss": "amount, measurement; respect",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0129",

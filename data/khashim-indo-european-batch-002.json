@@ -34531,7 +34531,26 @@
         "`t` + `ط` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1918,
+              "source_row_index_at_freeze": 1918,
+              "source_row_key": "a4d6b3934fb516baab67d139",
+              "european": "Great",
+              "arabic_root": "قدر",
+              "author_translit": "qadeer",
+              "arabic_gloss": "able, great",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0215",
@@ -67918,7 +67937,37 @@
         "`t` + `ط` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 3,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2277,
+              "source_row_index_at_freeze": 2277,
+              "source_row_key": "b4033d28067cf45798ea9e5d",
+              "european": "Jacket",
+              "arabic_root": "جحش",
+              "author_translit": "ja2sh",
+              "arabic_gloss": "chief; donkey; proper name",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2278,
+              "source_row_index_at_freeze": 2278,
+              "source_row_key": "ed8086d4346c0c946d1939f9",
+              "european": "Jacket",
+              "arabic_root": "جزر",
+              "author_translit": "jazeera(t)",
+              "arabic_gloss": "island",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0299",
