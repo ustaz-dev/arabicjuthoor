@@ -97937,7 +97937,26 @@
         "`r` + `ل` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 9,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1369,
+              "source_row_index_at_freeze": 1369,
+              "source_row_key": "5976f86acdf2399fac812e6f",
+              "european": "Drag",
+              "arabic_root": "درج",
+              "author_translit": "daraja",
+              "arabic_gloss": "walk slowly",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: خفض، دب، دلف، عثر، هود"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-208",
@@ -104135,6 +104154,89 @@
               "arabic_gloss": "day",
               "source": "jassem-2018-week-days",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 9,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1165,
+              "source_row_index_at_freeze": 1165,
+              "source_row_key": "e392393197b9019d10626a6e",
+              "european": "Dawn",
+              "arabic_root": "جد",
+              "author_translit": "god",
+              "arabic_gloss": "ﻭﺩﻉand related wadee3",
+              "source": "jassem-2018-week-days",
+              "bridge_agrees": "جذرٌ آخر: ءثم، ءرض، ءسماعيل، ءمم، ءهل، اسب، بت، بحر، وغيرُها"
+            },
+            {
+              "source_row_index": 1166,
+              "source_row_index_at_freeze": 1166,
+              "source_row_key": "a100e53264d8301127d05024",
+              "european": "Dawn",
+              "arabic_root": "صن",
+              "author_translit": "Sunu",
+              "arabic_gloss": "son, uncle",
+              "source": "jassem-2018-week-days",
+              "bridge_agrees": "جذرٌ آخر: بعم، صنو"
+            },
+            {
+              "source_row_index": 1167,
+              "source_row_index_at_freeze": 1167,
+              "source_row_key": "4c966d0ab824a46d3eb5e2ea",
+              "european": "Dawn",
+              "arabic_root": "ضو",
+              "author_translit": "Daw",
+              "arabic_gloss": "/Dia",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 1168,
+              "source_row_index_at_freeze": 1168,
+              "source_row_key": "17d3fc6e631b82107b146d1a",
+              "european": "Dawn",
+              "arabic_root": "مت",
+              "author_translit": "mata",
+              "arabic_gloss": "mid, middle",
+              "source": "jassem-2018-week-days",
+              "bridge_agrees": "جذرٌ آخر: زط، نصف، وسط"
+            },
+            {
+              "source_row_index": 1169,
+              "source_row_index_at_freeze": 1169,
+              "source_row_key": "3f9601091f405f4e43cd002c",
+              "european": "Dawn",
+              "arabic_root": "مسء",
+              "author_translit": "masaa'",
+              "arabic_gloss": "evening",
+              "source": "jassem-2018-week-days",
+              "bridge_agrees": "جذرٌ آخر: الليل، روح، سمر، شفق، طلل، عش، عشا، عشو، وغيرُها"
+            },
+            {
+              "source_row_index": 1170,
+              "source_row_index_at_freeze": 1170,
+              "source_row_key": "bd4301a0a9d963fa36cb774d",
+              "european": "Dawn",
+              "arabic_root": "مشتر",
+              "author_translit": "mushtari",
+              "arabic_gloss": "Mercury; buyer, seller",
+              "source": "jassem-2018-week-days",
+              "bridge_agrees": "جذرٌ آخر: بيع، شتر"
+            },
+            {
+              "source_row_index": 1171,
+              "source_row_index_at_freeze": 1171,
+              "source_row_key": "62c52b99547109e4f207be23",
+              "european": "Dawn",
+              "arabic_root": "نهر",
+              "author_translit": "nahaar",
+              "arabic_gloss": "day",
+              "source": "jassem-2018-week-days",
+              "bridge_agrees": "جذرٌ آخر: ءمس، اثن، الءحد، السبت، العرش، الليل، اليوم، بابل، وغيرُها"
             }
           ]
         }

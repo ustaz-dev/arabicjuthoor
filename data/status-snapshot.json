@@ -4,13 +4,13 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 44871,
+  "cards_total": 44948,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 9058,
+    "cards": 9091,
     "links": 133,
     "root": 101,
     "nucleus": 31,
@@ -76,7 +76,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 1904,
+    "cards": 1908,
     "links": 24,
     "root": 15,
     "nucleus": 9,
@@ -98,12 +98,12 @@
     "key": "middle-english",
     "en": "Middle English",
     "ar": "الإنجليزيّة الوسطى",
-    "cards": 1590,
-    "links": 40,
-    "root": 25,
+    "cards": 1609,
+    "links": 41,
+    "root": 26,
     "nucleus": 15,
     "floor": 0,
-    "nucleus_share": 37.5
+    "nucleus_share": 36.6
    },
    {
     "key": "aramaic",
@@ -120,12 +120,12 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 1198,
-    "links": 71,
-    "root": 46,
+    "cards": 1199,
+    "links": 72,
+    "root": 47,
     "nucleus": 24,
     "floor": 1,
-    "nucleus_share": 34.3
+    "nucleus_share": 33.8
    },
    {
     "key": "old-irish",
@@ -175,7 +175,7 @@
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 252,
+    "cards": 272,
     "links": 23,
     "root": 17,
     "nucleus": 6,
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3416,
+  "links_to_arabic": 3418,
   "closures": 1009,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1819,
+    "count": 1821,
     "link": true
    },
    {
@@ -261,13 +261,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 41087,
-  "suspended": 31179,
-  "released": 9908,
+  "cards_total": 41164,
+  "suspended": 31254,
+  "released": 9910,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 21385
+    "count": 21460
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -297,7 +297,7 @@
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 8487
+    "count": 8520
    },
    {
     "file": "egyptian.md",
@@ -317,11 +317,11 @@
    },
    {
     "file": "middle-english.md",
-    "count": 1539
+    "count": 1557
    },
    {
     "file": "ancient-greek.md",
-    "count": 1496
+    "count": 1500
    },
    {
     "file": "akkadian.md",
@@ -340,8 +340,8 @@
     "count": 293
    },
    {
-    "file": "gothic.md",
-    "count": 209
+    "file": "old-norse.md",
+    "count": 220
    }
   ]
  },

@@ -58734,6 +58734,45 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 9,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1058,
+              "source_row_index_at_freeze": 1058,
+              "source_row_key": "d0b1873a7d7420f57d5341b4",
+              "european": "Course",
+              "arabic_root": "قرقر",
+              "author_translit": "qarqara(t)",
+              "arabic_gloss": "talk",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها"
+            },
+            {
+              "source_row_index": 1136,
+              "source_row_index_at_freeze": 1136,
+              "source_row_key": "2830a062c3b10810c2a0dffd",
+              "european": "Current",
+              "arabic_root": "جريت",
+              "author_translit": "jaariyat",
+              "arabic_gloss": "stream, flowing",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: درر، دفق، سيل"
+            },
+            {
+              "source_row_index": 1137,
+              "source_row_index_at_freeze": 1137,
+              "source_row_key": "63adb5b4485d88c6a0536241",
+              "european": "Current",
+              "arabic_root": "جرين",
+              "author_translit": "jarayaan",
+              "arabic_gloss": "stream, flowing",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: درر، دفق، سيل"
+            }
+          ]
         }
       ]
     },

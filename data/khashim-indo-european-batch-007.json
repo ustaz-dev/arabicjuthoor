@@ -25518,6 +25518,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 9,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1405,
+              "source_row_index_at_freeze": 1405,
+              "source_row_key": "e43b5cc98261f4bbd820e6d4",
+              "european": "Dwell",
+              "arabic_root": "بنك",
+              "author_translit": "banak",
+              "arabic_gloss": "stay",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: ءبد، ءبن، بقي، بن، بيت، تنخ، ثمل، جنب، وغيرُها"
+            }
+          ]
         }
       ]
     },

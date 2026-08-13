@@ -12456,7 +12456,48 @@
         "`t` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 9,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1041,
+              "source_row_index_at_freeze": 1041,
+              "source_row_key": "d28d4c8ae5f343551234a501",
+              "european": "Costume",
+              "arabic_root": "جمع",
+              "author_translit": "jamee3",
+              "arabic_gloss": "together",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: ء، ءسر، ءكل، ءلف، ءوي، ا، بال، بحث، وغيرُها"
+            },
+            {
+              "source_row_index": 1042,
+              "source_row_index_at_freeze": 1042,
+              "source_row_key": "caa79ab8fa62aba24a2e3e8d",
+              "european": "Costume",
+              "arabic_root": "ذت",
+              "author_translit": "dhaat",
+              "arabic_gloss": "self; of",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: ءنا، اسك، ام، بحث، بين، جزء، حلم، خزل، وغيرُها"
+            },
+            {
+              "source_row_index": 1043,
+              "source_row_index_at_freeze": 1043,
+              "source_row_key": "15748a28a98e30cd6f0a9383",
+              "european": "Costume",
+              "arabic_root": "كسم",
+              "author_translit": "kasm",
+              "arabic_gloss": "manner, shape, face; body hugging (cloth)",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: خلق، قب، مسح"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0344",
