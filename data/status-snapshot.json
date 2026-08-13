@@ -4,13 +4,13 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 45315,
+  "cards_total": 45393,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 9216,
+    "cards": 9245,
     "links": 135,
     "root": 102,
     "nucleus": 32,
@@ -76,7 +76,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 1925,
+    "cards": 1927,
     "links": 26,
     "root": 17,
     "nucleus": 9,
@@ -98,7 +98,7 @@
     "key": "middle-english",
     "en": "Middle English",
     "ar": "الإنجليزيّة الوسطى",
-    "cards": 1662,
+    "cards": 1665,
     "links": 46,
     "root": 31,
     "nucleus": 15,
@@ -120,7 +120,7 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 1292,
+    "cards": 1293,
     "links": 78,
     "root": 49,
     "nucleus": 28,
@@ -153,12 +153,12 @@
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 351,
-    "links": 30,
-    "root": 19,
+    "cards": 394,
+    "links": 33,
+    "root": 22,
     "nucleus": 11,
     "floor": 0,
-    "nucleus_share": 36.7
+    "nucleus_share": 33.3
    },
    {
     "key": "gothic",
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3440,
+  "links_to_arabic": 3443,
   "closures": 1009,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1822,
+    "count": 1823,
     "link": true
    },
    {
@@ -205,7 +205,7 @@
    },
    {
     "name": "ROOT-ECHO",
-    "count": 361,
+    "count": 363,
     "link": true
    },
    {
@@ -261,13 +261,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 41531,
-  "suspended": 31599,
-  "released": 9932,
+  "cards_total": 41609,
+  "suspended": 31674,
+  "released": 9935,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 21805
+    "count": 21880
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -297,7 +297,7 @@
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 8643
+    "count": 8672
    },
    {
     "file": "egyptian.md",
@@ -317,11 +317,11 @@
    },
    {
     "file": "middle-english.md",
-    "count": 1605
+    "count": 1608
    },
    {
     "file": "ancient-greek.md",
-    "count": 1515
+    "count": 1517
    },
    {
     "file": "akkadian.md",
@@ -329,19 +329,19 @@
    },
    {
     "file": "old-english.md",
-    "count": 1004
+    "count": 1005
    },
    {
     "file": "old-irish.md",
     "count": 379
    },
    {
-    "file": "phoenician-punic-scout.md",
-    "count": 293
+    "file": "old-norse.md",
+    "count": 332
    },
    {
-    "file": "old-norse.md",
-    "count": 292
+    "file": "phoenician-punic-scout.md",
+    "count": 293
    }
   ]
  },

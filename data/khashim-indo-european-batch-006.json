@@ -41590,6 +41590,34 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4063,
+              "source_row_index_at_freeze": 4063,
+              "source_row_key": "9fc5d6df44fee710d46797ec",
+              "european": "Tail",
+              "arabic_root": "ثد",
+              "author_translit": "thadi",
+              "arabic_gloss": "teats",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 4064,
+              "source_row_index_at_freeze": 4064,
+              "source_row_key": "83401e55c54608df75174ab9",
+              "european": "Tail",
+              "arabic_root": "ثل",
+              "author_translit": "thail",
+              "arabic_gloss": "tail",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: ءلو، ءلية، بء، باك، برص، ثفر، جرر، جسم، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -52933,7 +52961,26 @@
         "`w` + `و` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4242,
+              "source_row_index_at_freeze": 4242,
+              "source_row_key": "46ec290fbfd1eef010bb5094",
+              "european": "Tower",
+              "arabic_root": "در",
+              "author_translit": "daar",
+              "arabic_gloss": "house; world; abode",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: ءرض، بيت، حلل، خيم، دار، زل، سكن"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-124",
@@ -53885,7 +53932,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4238,
+              "source_row_index_at_freeze": 4238,
+              "source_row_key": "1b67347f61f6ca1d764b547f",
+              "european": "Tour",
+              "arabic_root": "طرء",
+              "author_translit": "Turra'",
+              "arabic_gloss": "tourist",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: جول، سيح"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-127",
@@ -100237,6 +100303,78 @@
               "arabic_gloss": "word, talk",
               "source": "jassem-2013-speech-writing",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4107,
+              "source_row_index_at_freeze": 4107,
+              "source_row_key": "c04996486549cce2c5fe8683",
+              "european": "Tell",
+              "arabic_root": "تطول",
+              "author_translit": "taTweel",
+              "arabic_gloss": "tall, to be long",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: سطو، فرع"
+            },
+            {
+              "source_row_index": 4108,
+              "source_row_index_at_freeze": 4108,
+              "source_row_key": "737ea9595c4732150b9262f4",
+              "european": "Tell",
+              "arabic_root": "تكلم",
+              "author_translit": "takallam",
+              "arabic_gloss": "word, talk",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: شاع، قول، كلم، نطق"
+            },
+            {
+              "source_row_index": 4110,
+              "source_row_index_at_freeze": 4110,
+              "source_row_key": "3c615caa6074bcfb0dd420a9",
+              "european": "Tell",
+              "arabic_root": "دست",
+              "author_translit": "dist",
+              "arabic_gloss": "pot",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: برم، برن، بطن، تغر، جفء، حصل، حل، حلق، وغيرُها"
+            },
+            {
+              "source_row_index": 4111,
+              "source_row_index_at_freeze": 4111,
+              "source_row_key": "f6e34d407a32f06c8c4b27ad",
+              "european": "Tell",
+              "arabic_root": "ذل",
+              "author_translit": "dhail",
+              "arabic_gloss": "tail",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءلو، ءلية، بء، باك، برص، ثفر، جرر، جسم، وغيرُها"
+            },
+            {
+              "source_row_index": 4113,
+              "source_row_index_at_freeze": 4113,
+              "source_row_key": "85f6304d9c87c97b6f8e01de",
+              "european": "Tell",
+              "arabic_root": "طل",
+              "author_translit": "Taal",
+              "arabic_gloss": "tall, to be long",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: سطو، فرع"
+            },
+            {
+              "source_row_index": 4116,
+              "source_row_index_at_freeze": 4116,
+              "source_row_key": "3f2bf513135184ebf2712735",
+              "european": "Tell",
+              "arabic_root": "قل",
+              "author_translit": "qaal",
+              "arabic_gloss": "tell, say",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءمر، حدث، حكي، قال، قول"
             }
           ]
         }

@@ -25203,6 +25203,23 @@
               "bridge_agrees": "جذرٌ آخر: ءمل، ءيس، بغي، بلس، ثمر، حرص، حرم، حري، وغيرُها"
             }
           ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3881,
+              "source_row_index_at_freeze": 3881,
+              "source_row_key": "5b5bed5a50133c5671719c97",
+              "european": "Spirit",
+              "arabic_root": "زفرت",
+              "author_translit": "zafrat",
+              "arabic_gloss": "expiration, breathing out",
+              "source": "jassem-2013-cognitive",
+              "bridge_agrees": "جذرٌ آخر: نفس"
+            }
+          ]
         }
       ]
     },
@@ -48247,7 +48264,37 @@
         "`r` + `ي` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4182,
+              "source_row_index_at_freeze": 4182,
+              "source_row_key": "5f88025b6c5f5a397efb5ea9",
+              "european": "Thread",
+              "arabic_root": "در",
+              "author_translit": "daar",
+              "arabic_gloss": "turn",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: ءتي، ءسلم، ءفك، ءول، ءيض، بخر، برم، بعثر، وغيرُها"
+            },
+            {
+              "source_row_index": 4183,
+              "source_row_index_at_freeze": 4183,
+              "source_row_key": "11b04ae03d899150246cc3ce",
+              "european": "Thread",
+              "arabic_root": "دور",
+              "author_translit": "dawra(t)",
+              "arabic_gloss": "turn",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: ءتي، ءسلم، ءفك، ءول، ءيض، بخر، برم، بعثر، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0559",
@@ -53283,6 +53330,23 @@
               "arabic_gloss": "road",
               "source": "jassem-2013-celestial",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3959,
+              "source_row_index_at_freeze": 3959,
+              "source_row_key": "db38498f4d3e9a98091e471d",
+              "european": "Street",
+              "arabic_root": "طلع",
+              "author_translit": "Tuloo3",
+              "arabic_gloss": "uphill",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "لا مدخلَ عندنا"
             }
           ]
         }
@@ -76576,7 +76640,37 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4229,
+              "source_row_index_at_freeze": 4229,
+              "source_row_key": "894bd912cfa8fd6d5a7fc83a",
+              "european": "Top",
+              "arabic_root": "عب",
+              "author_translit": "3ubaab",
+              "arabic_gloss": "heights",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 4230,
+              "source_row_index_at_freeze": 4230,
+              "source_row_key": "2ec42782288b83dc1bfc7aea",
+              "european": "Top",
+              "arabic_root": "قبت",
+              "author_translit": "qubbat",
+              "arabic_gloss": "top",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ا، بسط، جار، جب، دبر، دوم، رءس، راس، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0597",

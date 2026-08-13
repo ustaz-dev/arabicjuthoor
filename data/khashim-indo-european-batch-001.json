@@ -2807,7 +2807,37 @@
         "`y` + `ي` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4143,
+              "source_row_index_at_freeze": 4143,
+              "source_row_key": "4c660eb8e1986c57f68dcf8f",
+              "european": "Theology",
+              "arabic_root": "ضء",
+              "author_translit": "Dau'",
+              "arabic_gloss": "light",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها"
+            },
+            {
+              "source_row_index": 4144,
+              "source_row_index_at_freeze": 4144,
+              "source_row_key": "d74d6dfd4c9dee4b1ff304bc",
+              "european": "Theology",
+              "arabic_root": "لغ",
+              "author_translit": "laghoo",
+              "arabic_gloss": "talk",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0003",
@@ -35917,6 +35947,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3819,
+              "source_row_index_at_freeze": 3819,
+              "source_row_key": "d366049df4acaa3817459b60",
+              "european": "Soap",
+              "arabic_root": "سد",
+              "author_translit": "sadeed",
+              "arabic_gloss": "true",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: ءكد، بذر، برهن، بزر، بوق، ثبت، جاموس، جهنم، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -38738,6 +38785,34 @@
               "arabic_gloss": "walking stick, rod",
               "source": "jassem-2015-military",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3865,
+              "source_row_index_at_freeze": 3865,
+              "source_row_key": "c18d4071f2766d5304ea6aae",
+              "european": "Spear",
+              "arabic_root": "سبل",
+              "author_translit": "sabal",
+              "arabic_gloss": "a spear of wheat; arrow",
+              "source": "jassem-2016-floral · jassem-2013-cutting-breaking",
+              "bridge_agrees": "جذرٌ آخر: زج، سدس، شجب، عرن"
+            },
+            {
+              "source_row_index": 3866,
+              "source_row_index_at_freeze": 3866,
+              "source_row_key": "6046e0f36b368620abe022b6",
+              "european": "Spear",
+              "arabic_root": "سبلت",
+              "author_translit": "sabalat",
+              "arabic_gloss": "arrow head",
+              "source": "jassem-2013-cutting-breaking",
+              "bridge_agrees": "جذرٌ آخر: رصف، زلم، سار، عرن"
             }
           ]
         }
@@ -41947,7 +42022,37 @@
       ],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3871,
+              "source_row_index_at_freeze": 3871,
+              "source_row_key": "d3c593fb908dbd0b44803525",
+              "european": "Speculate",
+              "arabic_root": "شبح",
+              "author_translit": "shaba2a",
+              "arabic_gloss": "see",
+              "source": "jassem-2013-cognitive",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 3872,
+              "source_row_index_at_freeze": 3872,
+              "source_row_key": "0f195d2db19d9a3034da8812",
+              "european": "Speculate",
+              "arabic_root": "شبحت",
+              "author_translit": "shab2at",
+              "arabic_gloss": "see",
+              "source": "jassem-2013-cognitive",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0075",

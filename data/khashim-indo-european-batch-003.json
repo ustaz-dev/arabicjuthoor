@@ -46709,6 +46709,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3837,
+              "source_row_index_at_freeze": 3837,
+              "source_row_key": "22470011fe1514fe6e067c2a",
+              "european": "Son",
+              "arabic_root": "قم",
+              "author_translit": "qaum",
+              "arabic_gloss": "group, community",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: جمع، دير، زمر، شعب، عصب، عين، قوم، لهج، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -65783,6 +65800,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3909,
+              "source_row_index_at_freeze": 3909,
+              "source_row_key": "3a7a7e3c32ccb58376287565",
+              "european": "Stand",
+              "arabic_root": "ستند",
+              "author_translit": "istanda",
+              "arabic_gloss": "support, stand, sit upright",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: قعد"
+            }
+          ]
         }
       ]
     },
@@ -69590,7 +69624,26 @@
         "`t` + `ط` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3901,
+              "source_row_index_at_freeze": 3901,
+              "source_row_key": "2d08ede0f0a2accdb2c93829",
+              "european": "Stable",
+              "arabic_root": "جث",
+              "author_translit": "jatha",
+              "arabic_gloss": "sit",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0451",
@@ -75051,7 +75104,48 @@
         "`t` + `ط` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3935,
+              "source_row_index_at_freeze": 3935,
+              "source_row_key": "86692c38d83ecc633a1fce29",
+              "european": "Stick",
+              "arabic_root": "غز",
+              "author_translit": "ghazza(t)",
+              "arabic_gloss": "stick in",
+              "source": "jassem-2013-cutting-breaking",
+              "bridge_agrees": "جذرٌ آخر: ءبن، برز، بيت، تقع، جرثم، حرب، خز، خس، وغيرُها"
+            },
+            {
+              "source_row_index": 3944,
+              "source_row_index_at_freeze": 3944,
+              "source_row_key": "f7efdb1953fc490cc3707c2e",
+              "european": "Stock",
+              "arabic_root": "درن",
+              "author_translit": "dareen",
+              "arabic_gloss": "dry grass, plants, or trees",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: بست، بوص، جرد، حشش، خضر، دبق، دسس، رز، وغيرُها"
+            },
+            {
+              "source_row_index": 3945,
+              "source_row_index_at_freeze": 3945,
+              "source_row_key": "891bf507d635d01d16bf3983",
+              "european": "Stock",
+              "arabic_root": "سق",
+              "author_translit": "saaq",
+              "arabic_gloss": "(tree) trunk; leg; drive, take",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "جذرٌ آخر: سقي"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0453",
@@ -78477,6 +78571,23 @@
               "arabic_gloss": "town",
               "source": "jassem-2013-celestial",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4245,
+              "source_row_index_at_freeze": 4245,
+              "source_row_key": "b75e9198b9642e1f41ad1e14",
+              "european": "Town",
+              "arabic_root": "مدنت",
+              "author_translit": "madeenat",
+              "arabic_gloss": "town",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءم، ال، باد، برذع، بصر، بلد، بو، ثون، وغيرُها"
             }
           ]
         }

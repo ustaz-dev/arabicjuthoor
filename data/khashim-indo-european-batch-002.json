@@ -4912,7 +4912,59 @@
         "`y` + `ي` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3950,
+              "source_row_index_at_freeze": 3950,
+              "source_row_key": "c502138626b5fb6cc7c2f2d9",
+              "european": "Story",
+              "arabic_root": "ءسطر",
+              "author_translit": "'usToora(t)",
+              "arabic_gloss": "story, myth",
+              "source": "jassem-2013-speech-writing · jassem-2014-divine-theological · jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: خرف"
+            },
+            {
+              "source_row_index": 3951,
+              "source_row_index_at_freeze": 3951,
+              "source_row_key": "58b3818af7df63bc7c277170",
+              "european": "Story",
+              "arabic_root": "جث",
+              "author_translit": "jatha",
+              "arabic_gloss": "sit",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
+            },
+            {
+              "source_row_index": 3952,
+              "source_row_index_at_freeze": 3952,
+              "source_row_key": "e0dc5a0241f32540713daa1e",
+              "european": "Story",
+              "arabic_root": "صبر",
+              "author_translit": "Subar",
+              "arabic_gloss": "highest",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: ءس، بطرك، حرب، ذرو، رفع، زاد، زبد، زيد، وغيرُها"
+            },
+            {
+              "source_row_index": 3953,
+              "source_row_index_at_freeze": 3953,
+              "source_row_key": "64c461ccbe6f49720ce1e2bd",
+              "european": "Story",
+              "arabic_root": "نشء",
+              "author_translit": "nasha'",
+              "arabic_gloss": "to be born",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: بكر، حدث، حر، خرف، سقط، سود، سيد، شيع، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0151",
@@ -61239,7 +61291,26 @@
         "`s` + `ك` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3833,
+              "source_row_index_at_freeze": 3833,
+              "source_row_key": "58a37b0b9441184d1033f498",
+              "european": "Solid",
+              "arabic_root": "صلد",
+              "author_translit": "Sald",
+              "arabic_gloss": "solid, hard",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: جمد، حجر، حفر، زفت، شدد، شق، صخر، صلب، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0277",

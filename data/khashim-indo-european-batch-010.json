@@ -6446,6 +6446,34 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 15,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4121,
+              "source_row_index_at_freeze": 4121,
+              "source_row_key": "9d149baeda4d0617ba24e20e",
+              "european": "Ten",
+              "arabic_root": "دج",
+              "author_translit": "daja(t)",
+              "arabic_gloss": "fingers, hand",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "جذرٌ آخر: صبع، قبض، كفف"
+            },
+            {
+              "source_row_index": 4123,
+              "source_row_index_at_freeze": 4123,
+              "source_row_key": "b6b53e3824488965f41a1cea",
+              "european": "Ten",
+              "arabic_root": "عشرت",
+              "author_translit": "3ashrat",
+              "arabic_gloss": "ten",
+              "source": "jassem-2012-numerals",
+              "bridge_agrees": "جذرٌ آخر: تسعة، ثر، ربو، رهط، عشر، فر، قصع، نتج"
+            }
+          ]
         }
       ]
     },
