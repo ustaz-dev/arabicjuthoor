@@ -6428,7 +6428,26 @@
         "`z` + `ص` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4122,
+              "source_row_index_at_freeze": 4122,
+              "source_row_key": "cf5ed20b4ea5e48c88c193ee",
+              "european": "Ten",
+              "arabic_root": "عشر",
+              "author_translit": "3ashra(t)",
+              "arabic_gloss": "ten",
+              "source": "jassem-2012-numerals",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N010-013",

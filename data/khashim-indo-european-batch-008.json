@@ -16393,7 +16393,26 @@
         "`v` + `و` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4409,
+              "source_row_index_at_freeze": 4409,
+              "source_row_key": "bc9b1faa9bd1335842d090bc",
+              "european": "Virtue",
+              "arabic_root": "مرء",
+              "author_translit": "mar'",
+              "arabic_gloss": "man",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N008-160",

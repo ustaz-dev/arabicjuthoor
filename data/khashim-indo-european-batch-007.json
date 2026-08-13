@@ -10481,7 +10481,37 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4529,
+              "source_row_index_at_freeze": 4529,
+              "source_row_key": "e6636a0c41bb7cdfad1e5bcb",
+              "european": "White",
+              "arabic_root": "حجل",
+              "author_translit": "2ajal(at)",
+              "arabic_gloss": "cock-like bird",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4533,
+              "source_row_index_at_freeze": 4533,
+              "source_row_key": "31dfacaa93262eec48874d3c",
+              "european": "White",
+              "arabic_root": "وضح",
+              "author_translit": "waDa2",
+              "arabic_gloss": "white, light, appear",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-021",

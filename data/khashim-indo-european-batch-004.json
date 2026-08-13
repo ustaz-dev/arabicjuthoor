@@ -10781,7 +10781,26 @@
         "`w` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4465,
+              "source_row_index_at_freeze": 4465,
+              "source_row_key": "ba35e3b92365af959af87892",
+              "european": "Water",
+              "arabic_root": "مطر",
+              "author_translit": "maTar",
+              "arabic_gloss": "rain",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0481",
@@ -45495,7 +45514,26 @@
         "`t` + `ط` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4246,
+              "source_row_index_at_freeze": 4246,
+              "source_row_key": "3dcc17dc09bd26270e24bd06",
+              "european": "Track",
+              "arabic_root": "طرق",
+              "author_translit": "Tareeq",
+              "arabic_gloss": "road",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0555",
@@ -46528,7 +46566,25 @@
           "dialect_review": []
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "form": "Tread",
+          "root": "طرد",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`tread` في التقدم بخطوات متتابعة تدفع الجسد من خلفه",
+          "orbit": "المشي بالوطء يبعد الجسد عن حيزه خطوة بعد خطوة بدفع متتابع من الخلف؛ فهذا مدار حركي واحد إلى حدث `طرد`.",
+          "sound_route": "t↔ط=`DENT-05`؛ r↔ر=`IDN-01`؛ d↔د=`IDN-09`",
+          "sound_searches": [
+            "`t` + `ط` + «الإنجليزيّة القديمة/Old English»",
+            "`r` + `ر` + «الإنجليزيّة القديمة/Old English»",
+            "`d` + `د` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "إبعاد أو ابتعاد عن الحيز بتتابع ودفع قوي من الخلف",
+          "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
+        }
+      ],
       "deficiencies": [
         {
           "member_index": 1088,
@@ -46559,8 +46615,79 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`t` + `ط` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "closure": "ROOT-ECHO",
+      "judgment": "ROOT-ECHO",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4249,
+              "source_row_index_at_freeze": 4249,
+              "source_row_key": "2155a079e5bca47a1d6365d8",
+              "european": "Tread",
+              "arabic_root": "ضرب",
+              "author_translit": "Darab",
+              "arabic_gloss": "travel, beat",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4250,
+              "source_row_index_at_freeze": 4250,
+              "source_row_key": "5e7456c2d471ea180de8496c",
+              "european": "Tread",
+              "arabic_root": "طرد",
+              "author_translit": "Taarad",
+              "arabic_gloss": "run",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4249,
+              "source_row_index_at_freeze": 4249,
+              "source_row_key": "2155a079e5bca47a1d6365d8",
+              "european": "Tread",
+              "arabic_root": "ضرب",
+              "author_translit": "Darab",
+              "arabic_gloss": "travel, beat",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4250,
+              "source_row_index_at_freeze": 4250,
+              "source_row_key": "5e7456c2d471ea180de8496c",
+              "european": "Tread",
+              "arabic_root": "طرد",
+              "author_translit": "Taarad",
+              "arabic_gloss": "run",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "root": "طرد",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`tread` في التقدم بخطوات متتابعة تدفع الجسد من خلفه",
+          "orbit": "المشي بالوطء يبعد الجسد عن حيزه خطوة بعد خطوة بدفع متتابع من الخلف؛ فهذا مدار حركي واحد إلى حدث `طرد`.",
+          "sound_route": "t↔ط=`DENT-05`؛ r↔ر=`IDN-01`؛ d↔د=`IDN-09`",
+          "sound_searches": [
+            "`t` + `ط` + «الإنجليزيّة القديمة/Old English»",
+            "`r` + `ر` + «الإنجليزيّة القديمة/Old English»",
+            "`d` + `د` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "إبعاد أو ابتعاد عن الحيز بتتابع ودفع قوي من الخلف"
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0557",
@@ -70915,7 +71042,26 @@
         "`y` + `ى` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4486,
+              "source_row_index_at_freeze": 4486,
+              "source_row_key": "3e366810e470649082949222",
+              "european": "Way",
+              "arabic_root": "وجه",
+              "author_translit": "wijha(t)",
+              "arabic_gloss": "direction, way, face",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0582",
@@ -88035,7 +88181,26 @@
         "`w` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4462,
+              "source_row_index_at_freeze": 4462,
+              "source_row_key": "68c82ec3ef4da6e9bb1a2b0c",
+              "european": "Watch",
+              "arabic_root": "حدج",
+              "author_translit": "2adaja",
+              "arabic_gloss": "see, look",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     }
   ],
   "rank_review": {

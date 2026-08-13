@@ -98,6 +98,7 @@
 | jassem-2015-legal-sciencepg | [الرابط](https://article.sciencepublishinggroup.com/pdf/10.11648.j.ijalt.20150103.11) | أعادَ المستضيفُ ملفًّا من 31 بايتًا يقول إنّ رمزَ التحقّق غيرُ صالح، لا PDF |
 | jassem-2018-demonstratives-wrong-galley | [الرابط](https://journal.uinjkt.ac.id/index.php/arabiyat/article/download/8936/6230) | ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح |
 | jassem-2014-colour-art-https | [الرابط](https://www.ijelr.in/Vol.%20Issue.12014/Zaidan%201-18.pdf) | انقطع اتصالُ TLS؛ واستُبدل بمسارِ HTTP المباشرِ الصالحِ من ناشرِ المجلّة |
+| jassem-2013-body-parts-bretj-157 | [الرابط](http://bretj.com/bretj/journals/download_paper/157) | استُعيدَ PDF رسميٌّ من 21 صفحةً من لقطة Common Crawl المؤرَّخة 2014-03-09، لكنّه بحثُ Monireh TaghiPour Masoumei وزملائها في خطابِ معلّمي EFL، لا بحثُ جاسم في أعضاءِ الجسم |
 
 ## الأَزواجُ المَحصودة
 

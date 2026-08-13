@@ -64557,7 +64557,26 @@
         "`v` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4396,
+              "source_row_index_at_freeze": 4396,
+              "source_row_key": "343ea10aef0012118d444b4a",
+              "european": "Vine",
+              "arabic_root": "خل",
+              "author_translit": "khall",
+              "arabic_gloss": "vinegar, sour",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0720",
@@ -65385,7 +65404,70 @@
         "`w` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4550,
+              "source_row_index_at_freeze": 4550,
+              "source_row_key": "e18d1c2ed27fda8f131ae480",
+              "european": "Wind",
+              "arabic_root": "بلور",
+              "author_translit": "billawr(at)",
+              "arabic_gloss": "glass, crystal",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4551,
+              "source_row_index_at_freeze": 4551,
+              "source_row_key": "39dcbe7ff34a9ed08d27122d",
+              "european": "Wind",
+              "arabic_root": "بن",
+              "author_translit": "baan",
+              "arabic_gloss": "appear, tree type",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4552,
+              "source_row_index_at_freeze": 4552,
+              "source_row_key": "38175e99464de1c26e34b3c5",
+              "european": "Wind",
+              "arabic_root": "بهر",
+              "author_translit": "bahar",
+              "arabic_gloss": "dazzle",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4554,
+              "source_row_index_at_freeze": 4554,
+              "source_row_key": "2662488ef92008a85cd944f5",
+              "european": "Wind",
+              "arabic_root": "ضرب",
+              "author_translit": "Darab",
+              "arabic_gloss": "beat",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4555,
+              "source_row_index_at_freeze": 4555,
+              "source_row_key": "f994c21d7d404393a30b586b",
+              "european": "Wind",
+              "arabic_root": "لهب",
+              "author_translit": "lahab",
+              "arabic_gloss": "flame, heat",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0722",
@@ -76531,7 +76613,24 @@
           "dialect_review": []
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "form": "Tear",
+          "root": "تر",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`tear` في معنى الشق والتمزيق، لا دمع العين المتجانس رسمًا",
+          "orbit": "التمزيق يباعد جزءًا دقيقًا عن مادته بقوة؛ وهذا نص حدث `تر`، والحكم مقصور على معنى القطع.",
+          "sound_route": "t↔ت=`IDN-11`؛ r↔ر=`IDN-01`",
+          "sound_searches": [
+            "`t` + `ت` + «الإنجليزيّة الوسطى/Middle English»",
+            "`r` + `ر` + «الإنجليزيّة الوسطى/Middle English»"
+          ],
+          "frozen_event": "الابتعاد بقوة مع دقة",
+          "event_source": "data/juthoor-core-levels.json؛ jabal_lexicon_reading_ar"
+        }
+      ],
       "deficiencies": [],
       "missing_row_searches": [
         "`r` + `ر` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
@@ -76540,8 +76639,8 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`t` + `ر` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر",
+      "closure": "ROOT-TRACE",
+      "judgment": "ROOT-TRACE",
       "jassem_supplements": [
         {
           "batch": 5,
@@ -76559,6 +76658,140 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4097,
+              "source_row_index_at_freeze": 4097,
+              "source_row_key": "d679b5c4b2f2fabe1dc2d3b0",
+              "european": "Tear",
+              "arabic_root": "تر",
+              "author_translit": "tarra",
+              "arabic_gloss": "tear, cut",
+              "source": "jassem-2013-cutting-breaking · jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4100,
+              "source_row_index_at_freeze": 4100,
+              "source_row_key": "7d4a0c481c99c46f51dfb1c9",
+              "european": "Tear",
+              "arabic_root": "ضرم",
+              "author_translit": "Diraam",
+              "arabic_gloss": "lighting up, burning",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4101,
+              "source_row_index_at_freeze": 4101,
+              "source_row_key": "2d3296e5b73d55875c5c593e",
+              "european": "Tear",
+              "arabic_root": "طن",
+              "author_translit": "Tann(at)",
+              "arabic_gloss": "ringing",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4102,
+              "source_row_index_at_freeze": 4102,
+              "source_row_key": "ef28c57e74a29ea2bec198de",
+              "european": "Tear",
+              "arabic_root": "قطر",
+              "author_translit": "qaTr(at)",
+              "arabic_gloss": "drop",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4103,
+              "source_row_index_at_freeze": 4103,
+              "source_row_key": "fdad302867963d50ecdf0b58",
+              "european": "Tear",
+              "arabic_root": "وقت",
+              "author_translit": "waqt",
+              "arabic_gloss": "time",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 6,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4097,
+              "source_row_index_at_freeze": 4097,
+              "source_row_key": "d679b5c4b2f2fabe1dc2d3b0",
+              "european": "Tear",
+              "arabic_root": "تر",
+              "author_translit": "tarra",
+              "arabic_gloss": "tear, cut",
+              "source": "jassem-2013-cutting-breaking · jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4100,
+              "source_row_index_at_freeze": 4100,
+              "source_row_key": "7d4a0c481c99c46f51dfb1c9",
+              "european": "Tear",
+              "arabic_root": "ضرم",
+              "author_translit": "Diraam",
+              "arabic_gloss": "lighting up, burning",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4101,
+              "source_row_index_at_freeze": 4101,
+              "source_row_key": "2d3296e5b73d55875c5c593e",
+              "european": "Tear",
+              "arabic_root": "طن",
+              "author_translit": "Tann(at)",
+              "arabic_gloss": "ringing",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4102,
+              "source_row_index_at_freeze": 4102,
+              "source_row_key": "ef28c57e74a29ea2bec198de",
+              "european": "Tear",
+              "arabic_root": "قطر",
+              "author_translit": "qaTr(at)",
+              "arabic_gloss": "drop",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 4103,
+              "source_row_index_at_freeze": 4103,
+              "source_row_key": "fdad302867963d50ecdf0b58",
+              "european": "Tear",
+              "arabic_root": "وقت",
+              "author_translit": "waqt",
+              "arabic_gloss": "time",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "root": "تر",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`tear` في معنى الشق والتمزيق، لا دمع العين المتجانس رسمًا",
+          "orbit": "التمزيق يباعد جزءًا دقيقًا عن مادته بقوة؛ وهذا نص حدث `تر`، والحكم مقصور على معنى القطع.",
+          "sound_route": "t↔ت=`IDN-11`؛ r↔ر=`IDN-01`",
+          "sound_searches": [
+            "`t` + `ت` + «الإنجليزيّة الوسطى/Middle English»",
+            "`r` + `ر` + «الإنجليزيّة الوسطى/Middle English»"
+          ],
+          "frozen_event": "الابتعاد بقوة مع دقة"
         }
       ]
     },
