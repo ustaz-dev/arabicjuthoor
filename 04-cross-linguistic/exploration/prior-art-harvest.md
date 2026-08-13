@@ -6,11 +6,11 @@
 من الصِّلات». فهذه أزواجٌ اقتَرَحَها باحِثونَ قَبلَنا، جُمِعَت كما هي، ولم يُرَدَّ
 منها زَوجٌ لأنّ صاحِبَه لم يَذكُرْ له قانونًا. الحُكمُ بَعدَ الحَصادِ لا قَبلَه.
 
-**العَدَد: 2582 زَوجًا** من 26 بَحثًا مفتوحَ الوصول.
+**العَدَد: 3257 زَوجًا** من 40 بَحثًا مفتوحَ الوصول.
 
-حَمَلَ 2522 صفًّا رأسَ المَدخلِ الأوربِيَّ، أي 97.7% من الحَصيلة. وفُحِصَت عَيِّنةٌ موزَّعةٌ من 20 صفًّا ذي رأسٍ، فكانَ الرأسُ فيها عنوانَ المَدخلِ لا لفظًا من وَسَطِ الفِقرة.
+حَمَلَ 3133 صفًّا رأسَ المَدخلِ الأوربِيَّ، أي 96.2% من الحَصيلة. وفُحِصَت عَيِّنةٌ موزَّعةٌ من 20 صفًّا ذي رأسٍ، فكانَ الرأسُ فيها عنوانَ المَدخلِ لا لفظًا من وَسَطِ الفِقرة.
 
-وافَقَ جِسرُ المَعنى الجَذرَ نفسَه في 965 زَوجًا. وفي الحَصادِ 1365 جَذرًا مُتَمايِزًا، وَرَدَ منها 234 جَذرًا في بِطاقاتِ القِراءةِ ذاتِ حُكمٍ مُوجَبٍ صادِر.
+وافَقَ جِسرُ المَعنى الجَذرَ نفسَه في 1211 زَوجًا. وفي الحَصادِ 1585 جَذرًا مُتَمايِزًا، وَرَدَ منها 261 جَذرًا في بِطاقاتِ القِراءةِ ذاتِ حُكمٍ مُوجَبٍ صادِر.
 
 ## المَصادِرُ المُنزَّلة
 
@@ -41,6 +41,20 @@
 | jassem-2015-democratic | [PDF](https://joell.in/wp-content/uploads/2015/08/A-Radical-Linguistic-Theory.pdf) | 284 |
 | jassem-2015-negation-world | [PDF](https://joell.in/wp-content/uploads/2015/10/Negation-in-World-Languages.pdf) | 14 |
 | jassem-2015-plural-markers | [PDF](https://journal.uniku.ac.id/index.php/IEFLJ/article/download/623/480) | 3 |
+| jassem-2013-back-consonants | [PDF](https://ijee.org/ijee/article/download/1129/1122) | 19 |
+| jassem-2013-family | [PDF](https://ijee.org/ijee/article/download/1244/1237) | 103 |
+| jassem-2014-wining-dining | [PDF](https://ijee.org/ijee/article/download/1013/1003) | 228 |
+| jassem-2014-mandarin-pronouns | [PDF](https://ijee.org/ijee/article/download/1174/1168) | 12 |
+| jassem-2015-radical-translation-names | [PDF](https://ijee.org/ijee/article/download/922/914) | 34 |
+| jassem-2015-life-death | [PDF](https://ijee.org/ijee/article/download/923/915) | 116 |
+| jassem-2015-urban | [PDF](https://journal.uniku.ac.id/index.php/ERJEE/article/download/204/161) | 130 |
+| jassem-2016-entirely-arabic | [PDF](https://ijee.org/ijee/article/download/670/663) | 54 |
+| jassem-2017-harper-review | [PDF](https://ijee.org/ijee/article/download/270/265) | 36 |
+| jassem-2017-myth-fallacy | [PDF](https://joell.in/wp-content/uploads/2017/01/Myth-and-Fallacy-in-the-Oxford-English-Dictionary.pdf) | 25 |
+| jassem-2018-negative-terms | [PDF](https://ijee.org/ijee/article/download/308/302) | 15 |
+| jassem-2018-week-days | [PDF](https://ijee.org/ijee/article/download/362/356) | 31 |
+| jassem-2018-place-names | [PDF](https://pdfs.semanticscholar.org/fc3e/fbc726d16f2e4aa65f32c3438b376662f94c.pdf) | 19 |
+| jassem-2018-demonstratives | [PDF](https://journal.uinjkt.ac.id/index.php/arabiyat/article/download/8936/pdf) | 0 |
 | jassem-2018-sex-derivatives | [PDF](https://www.arcjournals.org/pdfs/ijsell/v6-i10/5.pdf) | 16 |
 
 ## رَوابِطُ تَعَذَّرَت
@@ -55,6 +69,17 @@
 | jassem-2014-question-modal | [الرابط](https://article.sciencepublishinggroup.com/pdf/10.11648.j.ijll.20140201.13.pdf) | عاد رابطًا قصيرًا لا PDF |
 | jassem-2014-commerce | [الرابط](https://article.sciencepublishinggroup.com/pdf/10.11648.j.ijll.20140205.15.pdf) | عاد رابطًا قصيرًا لا PDF |
 | jassem-2014-basque-finnish-old | [الرابط](https://journals.techmindresearch.com/index.php/jell/article/download/25/26) | تعذّر اسمُ المستضيف، واستُبدل بمرآة Semantic Scholar صالحة |
+| jassem-2013-celestial-ojs | [الرابط](https://ijee.org/ijee/article/download/1266/1259) | ردّ مسارُ OJS الجديد 404؛ وملفُّ المجلةِ القديمُ ظاهرٌ في الفهرسِ لكنّه محذوفٌ من المستضيف |
+| jassem-2013-celestial-legacy | [الرابط](https://www.ijee.org/assets/docs/27.89114953.pdf) | ردّ مستودعُ IJEE القديم 404 |
+| jassem-2013-cognitive-ojs | [الرابط](https://ijee.org/ijee/article/download/1296/1289) | ردّ مسارُ OJS الجديد 404؛ وملفُّ المجلةِ القديمُ ظاهرٌ في الفهرسِ لكنّه محذوفٌ من المستضيف |
+| jassem-2013-cognitive-legacy | [الرابط](https://www.ijee.org/assets/docs/7.271143130.pdf) | ردّ مستودعُ IJEE القديم 404 |
+| jassem-2016-definite-ojs | [الرابط](https://ijellh.com/OJS/index.php/OJS/article/download/1489/8673) | ردّ مسارُ OJS القديم 404 |
+| jassem-2016-definite-legacy | [الرابط](https://ijellh.com/wp-content/uploads/2016/06/64.-Zaidan-Ali-Jassem-paper-final.pdf) | ردّ مستودعُ IJELLH القديم 404 |
+| jassem-2016-campbell-ojs | [الرابط](https://ijellh.com/OJS/index.php/OJS/article/download/1705/8672) | ردّ مسارُ OJS القديم 404 |
+| jassem-2012-religious-scispace | [الرابط](https://scispace.com/pdf/the-arabic-origins-of-common-religious-terms-in-english-a-11uoozx0kl.pdf) | ردّت المرآةُ 403 |
+| jassem-2014-question-modal-scispace | [الرابط](https://scispace.com/pdf/the-arabic-origins-of-question-and-modal-words-in-english-48w16fl95a.pdf) | ردّت المرآةُ 403 |
+| jassem-2013-love-scispace | [الرابط](https://scispace.com/pdf/the-arabic-origins-of-love-and-sexual-terms-in-english-and-4y5lm94n80.pdf) | ردّت المرآةُ 403 |
+| jassem-2018-demonstratives-wrong-galley | [الرابط](https://journal.uinjkt.ac.id/index.php/arabiyat/article/download/8936/6230) | ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح |
 
 ## الأَزواجُ المَحصودة
 
@@ -62,69 +87,137 @@
 
 | الكَلِمةُ الأوربِيّة | رومَنةُ الباحِث | الجَذرُ العَرَبِيُّ كما نَرُدُّه | المَعنى الذي ذَكَرَه | `bridge_agrees` | المَصدَر |
 |---|---|---|---|---|---|
-|  | `'adami` | **ءدم** | man; Adam | نعم | jassem-2015-democratic |
-|  | `'imara(t)` | **ءمر** | emirate, princedom | نعم | jassem-2019-mr |
+|  | `'adami` | **ءدم** | man; Adam | نعم | jassem-2015-democratic · jassem-2014-wining-dining |
+|  | `'air` | **ءر** | air, wind | جذرٌ آخر: جوو، ريح، نفخ، هوا | jassem-2017-harper-review · jassem-2017-myth-fallacy |
+|  | `'usToora(t)` | **ءسطر** | story, myth, something written | جذرٌ آخر: خرف، سفر، ف | jassem-2017-harper-review |
+|  | `'aghar` | **ءغر** | of hair, white; victorious | جذرٌ آخر: بيض، جعد، شيب، لح | jassem-2017-myth-fallacy |
+|  | `'imara(t)` | **ءمر** | emirate, princedom | نعم | jassem-2019-mr · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
 |  | `'awadim` | **ءودم** | man; Adam | جذرٌ آخر: ءدم | jassem-2015-democratic |
+|  | `bait` | **بت** | house | جذرٌ آخر: ءجر، ءرض، ءوي، اشر، برج، بغي، بوت، بيت، وغيرُها | jassem-2015-life-death |
+|  | `badha2` | **بذح** | cut, kill | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2015-life-death |
 |  | `bardanat` | **بردنت** | one (f.) feeling cold | جذرٌ آخر: عطف | jassem-2013-derivational |
+|  | `beesh` | **بش** | ditch, pit | جذرٌ آخر: حفر | jassem-2015-life-death |
+|  | `abSar` | **بصر** | to see | لا مدخلَ عندنا | jassem-2018-week-days |
 |  | `baqara(t)` | **بقر** | cow | نعم | jassem-2013-animal |
 |  | `bakthara(tun)` | **بكثرتن** | (water) dirt, impurity | جذرٌ آخر: قذر | jassem-2015-case-word-order |
 |  | `abal` | **بل** | group; many, much | جذرٌ آخر: كثر، كم | jassem-2014-mathematical |
-|  | `baien` | **بن** | clear, plain; a plain | جذرٌ آخر: بدو، بين، فصح، وضح | jassem-2014-prepositions · jassem-2014-mathematical |
-|  | `thaur` | **ثر** | bull | جذرٌ آخر: ءرخ، الثور، ثور، خرف، خوار، طور، عجل، نير، وغيرُها | jassem-2015-case-word-order |
-|  | `thalath` | **ثلث** | three | نعم | jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2014-prepositions · jassem-2014-mathematical |
+|  | `baien` | **بن** | clear, plain; a plain | جذرٌ آخر: بدو، بين، فصح، وضح | jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names |
+|  | `tamarra` | **تمر** | emir, prince, ruler | جذرٌ آخر: مير | jassem-2017-harper-review · jassem-2017-myth-fallacy |
+|  | `thaur` | **ثر** | bull | جذرٌ آخر: ءرخ، الثور، ثور، خرف، خوار، طور، عجل، نير، وغيرُها | jassem-2015-case-word-order · jassem-2015-life-death |
+|  | `thalath` | **ثلث** | three | نعم | jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2018-week-days |
+|  | `jurm` | **جرم** | crime | نعم | jassem-2017-myth-fallacy |
 |  | `grammar` | **جرمر** | be | لا مدخلَ عندنا | jassem-verb-to-be |
 |  | `ajama(t)` | **جم** | dense trees, grove | نعم | jassem-2013-speech-writing |
+|  | `jawhar(at)` | **جوهر** | jewel | نعم | jassem-2017-harper-review |
+|  | `2iat` | **حت** | life | جذرٌ آخر: ءحيا، ءرض، ءسا، ءف، ءكل، ءمد، اب، اسك، وغيرُها | jassem-2015-life-death |
 |  | `2ijja(t)` | **حج** | age | جذرٌ آخر: ابن، با، بال، برقع، بقر، بلغ، بن، ترب، وغيرُها | jassem-2013-derivational |
+|  | `2iss` | **حس** | feeling, sensation | نعم | jassem-2015-life-death |
+|  | `2aassat` | **حست** | feeling, sensation | جذرٌ آخر: حسا، حسس، شعر | jassem-2015-life-death |
 |  | `2aana(t)` | **حن** | bar | جذرٌ آخر: ءخذ، حظر، دهق، سد، سدد، شرب، ضب، عتل، وغيرُها | jassem-2013-negative-particles |
 |  | `khamr` | **خمر** | wine | نعم | jassem-2013-derivational |
 |  | `dijat` | **دجت** | fingers, hand | جذرٌ آخر: صبع، قبض، كفف | jassem-2014-mathematical |
-|  | `dhaat(i)` | **ذت** | myself | جذرٌ آخر: فس، يا | jassem-2014-basque-finnish |
+|  | `dhaat(i)` | **ذت** | myself | جذرٌ آخر: فس، يا | jassem-2014-basque-finnish · jassem-2014-mandarin-pronouns |
 |  | `dha(h)` | **ذه** | this | لا مدخلَ عندنا | jassem-2014-prepositions |
-|  | `zabar` | **زبر** | write; originally cut | نعم | jassem-2015-case-word-order |
+|  | `Origins` | **رجنس** | Place Names | جذرٌ آخر: ءم، اه، بر، بور، جو، جيم، حلم، حيي، وغيرُها | jassem-2018-place-names |
+|  | `zabar` | **زبر** | write; originally cut | نعم | jassem-2015-case-word-order · jassem-2018-week-days |
 |  | `zaman` | **زمن** | time | نعم | jassem-2013-time |
+|  | `zain` | **زن** | beautiful | جذرٌ آخر: ءنق، برج، بهج، بهي، جمل، جود، حسن، حيل، وغيرُها | jassem-2018-week-days |
+|  | `zaiyee` | **زي** | lit., like me; myself | جذرٌ آخر: شعل، علق | jassem-2014-mandarin-pronouns |
+|  | `sab3(at)` | **سبع** | seven | نعم | jassem-2013-back-consonants |
 |  | `siqaa` | **سق** | /suqia | لا مدخلَ عندنا | jassem-2013-water-sea |
 |  | `salaam(at)` | **سلم** | safety, peace | نعم | jassem-2014-divine-theological |
 |  | `shorb` | **شرب** | drinking, I drink | نعم | jassem-2013-water-sea |
 |  | `shakl` | **شكل** | shape, form | نعم | jassem-2013-derivational |
+|  | `shain` | **شن** | bad | جذرٌ آخر: بخر، بد، بعد، تن، جزل، جور، خبث، دخن، وغيرُها | jassem-2018-week-days |
 |  | `aSba2a` | **صبح** | become | نعم | jassem-verb-to-be |
 |  | `aSba2a(n)` | **صبحن** | became (they) | جذرٌ آخر: ء، ءسد، ءيا، بوز، ترف، جب، جندب، حسد، وغيرُها | jassem-verb-to-be |
 |  | `Saa2ib` | **صحب** | owner, companion | نعم | jassem-2013-derivational |
 |  | `Sakhab` | **صخب** | noise, talk | نعم | jassem-2013-speech-writing |
 |  | `Saara` | **صر** | become | جذرٌ آخر: ءبد، ءتي، ءجج، ءجل، ءجن، ءخو، ءسلم، ءصل، وغيرُها | jassem-verb-to-be |
 |  | `Saale2` | **صلح** | holy | جذرٌ آخر: القدس، بعي، حرم، دن، رمض، روح، طف، عدد، وغيرُها | jassem-2014-divine-theological |
+|  | `Sinu` | **صن** | son, brother, uncle | نعم | jassem-2013-family · jassem-2014-mandarin-pronouns |
 |  | `Dau'` | **ضء** | light | جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها | jassem-2014-divine-theological |
 |  | `Did` | **ضد** | against | نعم | jassem-2013-derivational |
 |  | `Taaqat` | **طقت** | hole, opening | جذرٌ آخر: ثقب، جبب، حفر، سم، شقق، فتح، فم، كو، وغيرُها | jassem-2013-water-sea |
+|  | `Tawwal` | **طول** | to be late; to lengthen | نعم | jassem-2017-harper-review |
+|  | `3air` | **عر** | ear | جذرٌ آخر: ءذن، حرث، حلق، دوخ، رعي، زير، سدر، سرر، وغيرُها | jassem-2017-harper-review |
+|  | `3araa'` | **عرء** | open space | جذرٌ آخر: بسط، جوو، حقل، حوش، ضيع، فضا | jassem-2017-harper-review |
+|  | `3asha` | **عش** | eat | نعم | jassem-2014-wining-dining |
+|  | `3aSr` | **عصر** | time, age | نعم | jassem-2017-harper-review |
+|  | `3aali(at)` | **عل** | high | جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها | jassem-2015-life-death |
 |  | `3alim` | **علم** | scholar, knowledgeable person | جذرٌ آخر: جهبذ، عال | jassem-2015-case-word-order |
 |  | `3aam` | **عم** | year | جذرٌ آخر: ءيل، حال، حشو، حفن، خرف، خل، خمس، سمي، وغيرُها | jassem-pronouns · jassem-2012-determiners · jassem-2012-number-gender |
+|  | `ghirr` | **غر** | young boy; inexperienced person | جذرٌ آخر: زغل، صبو، غلم، فتي، ولد | jassem-2017-harper-review · jassem-2017-myth-fallacy |
+|  | `ghirl` | **غرل** | uncircumcised child | جذرٌ آخر: ءب، ءبو، ءم، ءمم، ءمي، ابن، الذي، النواة، وغيرُها | jassem-2017-harper-review |
 |  | `ghasal` | **غسل** | wash | نعم | jassem-2013-water-sea |
-|  | `qudus` | **قدس** | (the) holy, sacred | نعم | jassem-2014-mathematical |
-|  | `qeeraaT` | **قرط** | 1/4 | لا مدخلَ عندنا | jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2014-prepositions · jassem-2014-mathematical |
-|  | `qaal` | **قل** | to say | جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها | jassem-2019-mr · jassem-2019-frk |
-|  | `qalam` | **قلم** | pen | نعم | jassem-2015-case-word-order |
+|  | `ghaSSat` | **غصت** | choke; aghast | جذرٌ آخر: خنق، زرد، شرق، غصص | jassem-2017-harper-review |
+|  | `ghawr` | **غور** | a depression | نعم | jassem-2017-harper-review · jassem-2017-myth-fallacy |
+|  | `fu2sh` | **فحش** | vice | جذرٌ آخر: بطن، رين، شراه، شره، شنر، عل، عيب، قبح، وغيرُها | jassem-2013-back-consonants |
+|  | `faad` | **فد** | death | جذرٌ آخر: بعد، جني، جهنم، حرق، حضر، حما، حمل، خسر، وغيرُها | jassem-2015-life-death |
+|  | `fadaa'` | **فدء** | food | جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها | jassem-2014-wining-dining |
+|  | `faru` | **فر** | fur | جذرٌ آخر: ثعلب، جلد، حنبل، ستق، سلخ، شعث، شعر، عطف، وغيرُها | jassem-2017-harper-review |
+|  | `fira'` | **فرء** | fur | جذرٌ آخر: ثعلب، جلد، حنبل، ستق، سلخ، شعث، شعر، عطف، وغيرُها | jassem-2017-harper-review |
+|  | `falla2(in)` | **فلح** | farmer | نعم | jassem-2017-myth-fallacy |
+|  | `qudus` | **قدس** | (the) holy, sacred | نعم | jassem-2014-mathematical · jassem-2017-harper-review |
+|  | `qira'at` | **قرءت** | reading | جذرٌ آخر: حزب، صحف، ضد، قرء، كتب | jassem-2018-week-days |
+|  | `aqra2` | **قرح** | gray; white | جذرٌ آخر: شهب، شيب، صو، لج | jassem-2017-harper-review |
+|  | `qeeraaT` | **قرط** | 1/4 | لا مدخلَ عندنا | jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `qaraTan` | **قرطن** | to cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2017-myth-fallacy |
+|  | `qarn` | **قرن** | horn, century | نعم | jassem-2013-back-consonants |
+|  | `qaSab` | **قصب** | tube, reed | نعم | jassem-2013-back-consonants |
+|  | `qiSSat` | **قصت** | story | جذرٌ آخر: ءذا، ادر، بطل، تء، تبع، حاك، حبك، حدث، وغيرُها | jassem-2017-harper-review |
+|  | `qaSd` | **قصد** | gist | جذرٌ آخر: لبب | jassem-2017-harper-review |
+|  | `qaal` | **قل** | to say | جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها | jassem-2019-mr · jassem-2019-frk · jassem-2013-back-consonants |
+|  | `qalam` | **قلم** | pen | نعم | jassem-2015-case-word-order · jassem-2017-harper-review · jassem-2017-myth-fallacy |
+|  | `qameeS` | **قمص** | shirt | نعم | jassem-2017-harper-review |
+|  | `kabd` | **كبد** | liver | نعم | jassem-2013-back-consonants |
 |  | `kabsh` | **كبش** | male sheep | نعم | jassem-2013-animal |
-|  | `katab` | **كتب** | write | جذرٌ آخر: ء، ءرخ، ءلف، حرر، حفظ، خبر، خط، دون، وغيرُها | jassem-2013-derivational |
+|  | `kait` | **كت** | such; like this | جذرٌ آخر: اه، بذر، بزر، بوص، حدب، حضن، حلم، خدر، وغيرُها | jassem-2014-mandarin-pronouns |
+|  | `katab` | **كتب** | write | جذرٌ آخر: ء، ءرخ، ءلف، حرر، حفظ، خبر، خط، دون، وغيرُها | jassem-2013-derivational · jassem-2013-back-consonants |
 |  | `kaslaan` | **كسلن** | lazy one | جذرٌ آخر: بطل، تنبل، ثقل، خال، ريث، ضجع، كسل | jassem-2012-number-gender |
 |  | `kaifa` | **كف** | how | جذرٌ آخر: ءني، ءين، برع، بصر، تقي، حبب، حجم، حرك، وغيرُها | jassem-2014-prepositions |
 |  | `kull` | **كل** | all | نعم | jassem-2012-determiners |
-|  | `kaan` | **كن** | be | لا مدخلَ عندنا | jassem-verb-to-be |
+|  | `kalim(at)` | **كلم** | word | نعم | jassem-2013-back-consonants |
+|  | `kaan` | **كن** | be | لا مدخلَ عندنا | jassem-verb-to-be · jassem-2017-harper-review · jassem-2017-myth-fallacy |
 |  | `accents)` | **كنتس** | (he) was | لا مدخلَ عندنا | jassem-verb-to-be |
+|  | `kaneesat` | **كنست** | church | جذرٌ آخر: ءرا، النسطورية، باب، بر، برش، بوق، بيع، جاثليق، وغيرُها | jassem-2013-back-consonants |
 |  | `kawan` | **كون** | be | لا مدخلَ عندنا | jassem-verb-to-be · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal |
 |  | `lisaan` | **لسن** | tongue | نعم | jassem-2013-speech-writing |
+|  | `lafi` | **لف** | a (alfa, alfa | لا مدخلَ عندنا | jassem-2015-life-death |
 |  | `like` | **لك** | wine | جذرٌ آخر: برزين، بيت، بيد، تفل، ثب، جدد، جلف، جون، وغيرُها | jassem-2013-derivational |
+|  | `lakun` | **لكن** | to you (f. pl.) | نعم | jassem-2014-mandarin-pronouns |
 |  | `umoomat` | **مت** | motherhood | جذرٌ آخر: ءمم، موم | jassem-2013-derivational |
-|  | `mar(ra)` | **مر** | pass, go | نعم | jassem-verb-to-be |
+|  | `mar(ra)` | **مر** | pass, go | نعم | jassem-verb-to-be · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `mar'a(t)` | **مرء** | woman, wife | نعم | jassem-2013-family · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `mar'atun` | **مرءتن** | a woman (nom. indef.) | جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، اجر، اخت، بدل، بذل، وغيرُها | jassem-2017-myth-fallacy |
+|  | `mari2` | **مرح** | happy | نعم | jassem-2017-myth-fallacy |
+|  | `mar3a` | **مرع** | grazing ground | جذرٌ آخر: ضيع | jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
 |  | `maktoob` | **مكتب** | written | جذرٌ آخر: ء، ءبي، ءدب، ءنت، ا، انت، ب، با، وغيرُها | jassem-2012-number-gender |
+|  | `maal` | **مل** | money, price | جذرٌ آخر: شتر، فدي، كلف، مهر | jassem-2013-back-consonants |
 |  | `muntaha` | **منته** | end, result (of something) | جذرٌ آخر: ءول، رجم، طلق، غب، غبب، قصد، هدف | jassem-2013-derivational |
-|  | `anta` | **نت** | you- nom. | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، صحح، عطو، وغيرُها | jassem-verb-to-be · jassem-2013-air-fire · jassem-2013-animal |
-|  | `na2nu` | **نحن** | we | لا مدخلَ عندنا | jassem-pronouns |
+|  | `muhra(t)` | **مهر** | mare | جذرٌ آخر: بغل، حجر، عود، فرس | jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days |
+|  | `mawt` | **موت** | death | نعم | jassem-2015-life-death |
+|  | `anta` | **نت** | you- nom. | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، صحح، عطو، وغيرُها | jassem-verb-to-be · jassem-2013-air-fire · jassem-2013-animal · jassem-2014-mandarin-pronouns |
+|  | `na2s` | **نحس** | bad | نعم | jassem-2018-week-days |
+|  | `na2nu` | **نحن** | we | لا مدخلَ عندنا | jassem-pronouns · jassem-2013-back-consonants · jassem-2014-mandarin-pronouns |
+|  | `nafadha` | **نفذ** | penetrate, outlet | نعم | jassem-2013-back-consonants |
+|  | `innak` | **نك** | you | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، صحح، عطو، وغيرُها | jassem-2014-mandarin-pronouns |
+|  | `hidm` | **هدم** | dress | جذرٌ آخر: ءل، بدل، بذل، برنس، بهر، ثوب، جلبب، دبج، وغيرُها | jassem-2017-harper-review |
+|  | `huna` | **هن** | here | جذرٌ آخر: ده، دول، دي، سار، لبك، ها، هات، هذ، وغيرُها | jassem-2014-mandarin-pronouns |
 |  | `hind(eed)` | **هند** | 100 | لا مدخلَ عندنا | jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners |
+|  | `wa3r` | **وعر** | rough, stony, uncultivated land | جذرٌ آخر: ءثر، ءجر، ءرض، ءفق، ءكر، ءل، القدس، بابل، وغيرُها | jassem-2017-harper-review |
 |  | `waqt` | **وقت** | time | نعم | jassem-2013-time |
+|  | `wain` | **ون** | wine | جذرٌ آخر: برزين، بيت، بيد، تفل، ثب، جدد، جلف، جون، وغيرُها | jassem-2014-wining-dining |
+|  | `uyar` | **ير** | air | جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها | jassem-2018-week-days |
 |  | `(iya)ki` | **يك** | you-acc. (f.) | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، سعف، صحح، وغيرُها | jassem-verb-to-be |
 |  | `ai(yama)` | **يم** | any | لا مدخلَ عندنا | jassem-2012-determiners |
 | Abacus | `ba2S(at)` | **بحص** | pebbles | لا مدخلَ عندنا | jassem-2014-mathematical |
 | Abacus | `kawm(at)` | **كوم** | heap | نعم | jassem-2014-mathematical |
 | Abbey | `bai3a(t)` | **بع** | abbey | جذرٌ آخر: دير | jassem-2014-divine-theological |
+| Abide | `'abada` | **ءبد** | dwell, stay | نعم | jassem-2015-urban |
+| Abide | `jathama` | **جثم** | to stay | جذرٌ آخر: ءبد، ءبن، بقي، بن، بيت، تنخ، ثمل، جنب، وغيرُها | jassem-2015-urban |
+| Abide | `kama` | **كم** | as, like | نعم | jassem-2015-urban |
+| Abide | `madd(at)` | **مد** | extension; lying | جذرٌ آخر: را | jassem-2015-urban |
 | Ablative | `'aab` | **ءب** | come back | جذرٌ آخر: ءخر، ءوب، باء، بطء، ثني، ثوب، حضر، حور، وغيرُها | jassem-2015-case-word-order |
 | Ablative | `balad` | **بلد** | stay | جذرٌ آخر: ءبد، ءبن، بقي، بن، بيت، تنخ، ثمل، جنب، وغيرُها | jassem-2015-case-word-order |
 | Ablative | `lad(i)d` | **لد** | side | جذرٌ آخر: ءدم، تل، تيز، ثني، جحف، جد، جدد، جفء، وغيرُها | jassem-2015-case-word-order |
@@ -134,6 +227,9 @@
 | About | `3an` | **عن** | on | لا مدخلَ عندنا | jassem-2014-prepositions |
 | About | `aqSa` | **قص** | far, outside | جذرٌ آخر: جنب | jassem-2014-prepositions |
 | Above | `baina` | **بن** | between | جذرٌ آخر: ءخو، ءشق، ءمم، الحوت، الغرب، القدس، ان، برق، وغيرُها | jassem-2014-prepositions |
+| Absorb | `2atta` | **حت** | to | لا مدخلَ عندنا | jassem-2014-wining-dining |
+| Absorb | `Dajja(t)` | **ضج** | shout, say | جذرٌ آخر: هدر | jassem-2014-wining-dining |
+| Absorb | `aDaaf` | **ضف** | add | جذرٌ آخر: ابل، بهر، تبع، جمع، جمل، حرك، ذيل، رقم، وغيرُها | jassem-2014-wining-dining |
 | Accent | `ghanna` | **غن** | sing, song, twang | نعم | jassem-2013-speech-writing |
 | Accent | `ughniat` | **غنت** | sing, song, twang | جذرٌ آخر: زمر، غني، مرق، نشد | jassem-2013-speech-writing |
 | Accusative | `Did` | **ضد** | against | نعم | jassem-2015-case-word-order |
@@ -154,6 +250,8 @@
 | Advise | `Saarim` | **صرم** | firm, tight | نعم | jassem-2013-speech-writing |
 | Advisor | `qawi(un)` | **قو** | strong, powerful | نعم | jassem-2015-democratic |
 | Advisor | `waSee` | **وص** | deputy | جذرٌ آخر: خلف، فد، يابي | jassem-2015-democratic |
+| Affiliation | `filu` | **فل** | baby (horse) | جذرٌ آخر: ءمم، الذي، با، بد، برد، برق، برقع، بغل، وغيرُها | jassem-2013-family |
+| Affiliation | `qiddaam` | **قدم** | before, in front | نعم | jassem-2013-family |
 | After | `ab3ad` | **بعد** | farther off | نعم | jassem-2014-prepositions |
 | After | `ithra` | **ثر** | after | نعم | jassem-2013-time · jassem-2014-prepositions |
 | Against | `jana2a` | **جنح** | leaning towards | نعم | jassem-2014-prepositions |
@@ -162,7 +260,7 @@
 | Age | `2ijja(t)` | **حج** | year | جذرٌ آخر: ءيل، حال، حشو، حفن، خرف، خل، خمس، سمي، وغيرُها | jassem-2013-time |
 | Age | `wajh` | **وجه** | dignity, honour, face | نعم | jassem-2013-time |
 | Aggression | `daraja` | **درج** | walk slowly | جذرٌ آخر: خفض، دب، دلف، عثر، هود | jassem-2015-military |
-| Agrarian | `3aqaar` | **عقر** | a field, earth | جذرٌ آخر: ءفق، حول | jassem-2016-floral |
+| Agrarian | `3aqaar` | **عقر** | a field, earth | جذرٌ آخر: ءفق، حول | jassem-2016-floral · jassem-2015-urban |
 | Agree | `aqarra` | **قر** | agree | جذرٌ آخر: ءتي، تفق، جمع، حمل، رضو، صلح، صوب، طاع، وغيرُها | jassem-2013-speech-writing |
 | Agreement | `qurra(t)` | **قر** | happiness, reassurance | جذرٌ آخر: ءم، بسم، بهج، جدي، خلد، خير، سرر، سعد، وغيرُها | jassem-2015-democratic |
 | Aide | `Taleeq` | **طلق** | free(d) | نعم | jassem-2015-democratic |
@@ -176,6 +274,8 @@
 | Alarm | `rum2` | **رمح** | arrow | جذرٌ آخر: جعب، حظو، دفع، رصف، زج، زع، زلم، سار، وغيرُها | jassem-2015-military |
 | Alas | `a3jami(at)` | **عجم** | ambiguity | جذرٌ آخر: بهم، شبه، شكل، غمض، لبس | jassem-2013-speech-writing |
 | Alas | `lajja` | **لج** | talk enviously about | جذرٌ آخر: باه، شاع، غيب، قول، ميمة | jassem-2013-speech-writing |
+| Aliment | `lamaDha(t)` | **لمظ** | eat | جذرٌ آخر: ءج، ءكل، بشر، تهم، تول، ثرد، ثمل، ثني، وغيرُها | jassem-2014-wining-dining |
+| Alley | `'alla` | **ءل** | go, speed up | جذرٌ آخر: البرق، جلذ، سرع، عجل، كي، مطر، هرول، وشك | jassem-2015-urban |
 | Allow | `'a2all` | **ءحل** | allow, permit | جذرٌ آخر: ءذن، ترك، جوز، سمح، صرح | jassem-2015-democratic |
 | Allow | `2alal` | **حل** | allow, permit | نعم | jassem-2015-democratic |
 | Allow | `3allaq` | **علق** | bind, hang | نعم | jassem-2015-democratic |
@@ -206,13 +306,17 @@
 | Ancient | `3aam` | **عم** | year | جذرٌ آخر: ءيل، حال، حشو، حفن، خرف، خل، خمس، سمي، وغيرُها | jassem-2013-time |
 | Ancient | `qadeem` | **قدم** | ancient | نعم | jassem-2013-time |
 | And | `3ada` | **عد** | except | جذرٌ آخر: ءلا، بث، بهر، بيد، ثني، حاش، حول، خرج، وغيرُها | jassem-2014-prepositions |
-| And | `3inda` | **عند** | there, at | جذرٌ آخر: ءم، ءو، النسطورية، تر، تري، ثم، جرر، جنف، وغيرُها | jassem-2014-prepositions |
+| And | `3an` | **عن** | on, from | لا مدخلَ عندنا | jassem-2016-entirely-arabic |
+| And | `3inda` | **عند** | there, at | جذرٌ آخر: ءم، ءو، النسطورية، تر، تري، ثم، جرر، جنف، وغيرُها | jassem-2014-prepositions · jassem-2016-entirely-arabic |
+| And | `wardanat` | **وردنت** | flowering | جذرٌ آخر: ءذن، ءس، ثمر، حسك، خربق، خف، خفج، رير، وغيرُها | jassem-2016-entirely-arabic |
 | Angel | `rasool` | **رسل** | messenger | نعم | jassem-2014-divine-theological |
 | Angel | `munaaji` | **منج** | announcer, caller | جذرٌ آخر: ذيع، زور | jassem-2014-divine-theological |
 | Angel | `naji` | **نج** | announcer, caller | جذرٌ آخر: ذيع، زور | jassem-2014-divine-theological |
 | Animal | `maheen` | **مهن** | despised | جذرٌ آخر: حقر، دون، صغر | jassem-2013-animal |
 | Animal | `naseem` | **نسم** | air, person | جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها | jassem-2013-animal |
+| Animate | `naseem` | **نسم** | air, person | جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها | jassem-2015-life-death |
 | Annoy | `na'j` | **نءج** | call sadly | جذرٌ آخر: ءبو، ءذن، ءهر، ادي، ار، النواة، بهل، توب، وغيرُها | jassem-2013-speech-writing |
+| Another set of names | `qist` | **قست** | part, share | جذرٌ آخر: ءثر، ءذن، ءسي، ءكل، ءلف، جزء، جل، حاص، وغيرُها | jassem-2018-place-names |
 | Answer | `ashaar` | **شر** | point, answer | جذرٌ آخر: سءل | jassem-2013-speech-writing |
 | Answer | `labba` | **لب** | say, answer | جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها | jassem-2013-speech-writing |
 | Answer | `laqab` | **لقب** | surname | نعم | jassem-2013-speech-writing |
@@ -221,12 +325,19 @@
 | Ant | `naml(at)` | **نمل** | ant | نعم | jassem-2013-animal |
 | Ant | `anmulat` | **نملت** | ant | جذرٌ آخر: كلب، مل، نمل، هبر | jassem-2013-animal |
 | Anterior to | `3inda` | **عند** | there, at | جذرٌ آخر: ءم، ءو، النسطورية، تر، تري، ثم، جرر، جنف، وغيرُها | jassem-2014-prepositions |
+| Apartment | `'abtar` | **ءبتر** | cutting | جذرٌ آخر: ءحد، بت، بتر، برد، جار، جدد، جدع، جذع، وغيرُها | jassem-2015-urban |
+| Apartment | `batr` | **بتر** | cutting | نعم | jassem-2015-urban |
 | Ape | `rabaa2` | **ربح** | ape | جذرٌ آخر: جب، حبن، سعد، غول، غيب، قرد، قلد، مون | jassem-2013-animal |
-| Apple | `bala2` | **بلح** | dates | نعم | jassem-2016-floral |
+| Appetite | `'aTaayeb` | **ءطيب** | delicious (food) | جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها | jassem-2014-wining-dining |
+| Appetite | `Taiyeb(at)` | **طيب** | delicious (food) | نعم | jassem-2014-wining-dining |
+| Apple | `bala2` | **بلح** | dates | نعم | jassem-2016-floral · jassem-2014-wining-dining |
 | Apron | `nabia(tun)` | **نبتن** | a palm-leaf meal spread | جذرٌ آخر: صفح، فوفل، لبب | jassem-2016-fashion |
 | Arboreal | `'irb` | **ءرب** | organ | جذرٌ آخر: ءذن، ءير، بز، بط، بطن، بظر، بيض، تلم، وغيرُها | jassem-2016-floral |
 | Archaic | `3areeq` | **عرق** | old | جذرٌ آخر: ءكل، اب، او، بء، باب، بال، بدن، بر، وغيرُها | jassem-2013-time |
 | Archaic | `wara` | **ور** | light | جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها | jassem-2013-time |
+| Architecture | `ra'ees` | **رءس** | head | نعم | jassem-2015-urban |
+| Architecture | `Taqqa(t)` | **طق** | beat, knock, break | جذرٌ آخر: خرق، خفق، دق، صقع، ضرب، طرق، قرع، لطس، وغيرُها | jassem-2015-urban |
+| Area | `3araa'` | **عرء** | open space | جذرٌ آخر: بسط، جوو، حقل، حوش، ضيع، فضا | jassem-2015-urban |
 | Argue | `qarra` | **قر** | talk a lot | جذرٌ آخر: باه، بجح، بحث، بق، بوق، تيل، جدر، جوي، وغيرُها | jassem-2013-speech-writing |
 | Arid | `jurd` | **جرد** | plantless | لا مدخلَ عندنا | jassem-2013-air-fire |
 | Arithmetic | `jatha` | **جث** | sit | جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها | jassem-2014-mathematical |
@@ -238,6 +349,8 @@
 | Army | `rum2` | **رمح** | arrow | جذرٌ آخر: جعب، حظو، دفع، رصف، زج، زع، زلم، سار، وغيرُها | jassem-2015-military |
 | Army Desertion | `tashaqqaq` | **تشق** | to dissect | جذرٌ آخر: خربق، شرح | jassem-2015-military |
 | Army Desertion | `shaqq(at)` | **شق** | to dissect | جذرٌ آخر: خربق، شرح | jassem-2015-military |
+| Aroma | `rai2aan` | **رحن** | a sweet, pleasant plant | جذرٌ آخر: شهد | jassem-2014-wining-dining |
+| Aroma | `mithl` | **مثل** | like, similar | نعم | jassem-2014-wining-dining |
 | Around | `jamee3` | **جمع** | together | جذرٌ آخر: ء، ءسر، ءكل، ءلف، ءوي، ا، بال، بحث، وغيرُها | jassem-2014-prepositions |
 | Around | `2atta` | **حت** | to, in order to | جذرٌ آخر: ءجر، ءذن، ءكل، ءلو، ءمر، ءن، ءنف، ءنقليس، وغيرُها | jassem-2014-prepositions |
 | Around | `irtadda` | **رتد** | go back, turn | جذرٌ آخر: ءفك، ءول، ثني، حرف، حصص، زرق، صد، عكر، وغيرُها | jassem-2014-prepositions |
@@ -269,12 +382,21 @@
 | Atomic Bomb/Weapon | `qaTam` | **قطم** | to cut (the top) | نعم | jassem-2015-military |
 | Attack | `dakka` | **دك** | hit | جذرٌ آخر: بطش، جبل، جبه، جلد، جنب، جهر، جوف، حكم، وغيرُها | jassem-2015-military |
 | Attire | `ridaa'` | **ردء** | dress | جذرٌ آخر: ءل، بدل، بذل، برنس، بهر، ثوب، جلبب، دبج، وغيرُها | jassem-2016-fashion |
+| Attribute | `qareeb(at)` | **قرب** | near, relative | نعم | jassem-2013-family |
+| Augustus | `khaleel` | **خل** | friend, husband | نعم | jassem-2015-radical-translation-names |
+| Augustus | `rajul` | **رجل** | man, husband | نعم | jassem-2015-radical-translation-names |
+| Augustus | `qudus` | **قدس** | sacred | نعم | jassem-2015-radical-translation-names |
+| Augustus | `kaleet` | **كلت** | a rectangular stone used for closing holes; a hyena | جذرٌ آخر: صطب، طوب | jassem-2015-radical-translation-names |
 | Authority | `'akthar` | **ءكثر** | more | جذرٌ آخر: ءبش، ءجد، ءحد، ءصل، ءكد، ءل، ءلا، ءمس، وغيرُها | jassem-2015-democratic |
 | Authority | `dhaat` | **ذت** | self | جذرٌ آخر: ءنا، اسك، ام، بحث، بين، جزء، حلم، خزل، وغيرُها | jassem-2015-democratic |
 | Authority | `warid` | **ورد** | coming | نعم | jassem-2015-democratic |
 | Autumn | `rijl` | **رجل** | time, leg | نعم | jassem-2013-time |
 | Autumn | `sin` | **سن** | tooth, old | نعم | jassem-2013-time |
 | Autumn | `musin` | **مسن** | tooth, old | جذرٌ آخر: اب، سنن | jassem-2013-time |
+| Avenue | `bait` | **بت** | house; plot | جذرٌ آخر: ءجر، ءرض، ءوي، اشر، برج، بغي، بوت، بيت، وغيرُها | jassem-2015-urban |
+| Avenue | `saba2` | **سبح** | bathe, swim | نعم | jassem-2015-urban |
+| Avenue | `faana` | **فن** | to go | لا مدخلَ عندنا | jassem-2015-urban |
+| Avenue | `mahd` | **مهد** | bed | نعم | jassem-2015-urban |
 | Avian | `saba2` | **سبح** | bathe | جذرٌ آخر: ءدو، حم، حمم، غسل | jassem-2013-air-fire |
 | Avian | `3aSfoor` | **عصفر** | bird | جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها | jassem-2013-air-fire |
 | Avis | `3aSfoor` | **عصفر** | bird | جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها | jassem-2013-animal |
@@ -282,6 +404,12 @@
 | Aye | `Tarab` | **طرب** | singing | نعم | jassem-2013-speech-writing |
 | Baa | `baa3` | **بع** | sound of sheep | جذرٌ آخر: ثغا، مءمء | jassem-2013-animal |
 | Baboon | `maimoon` | **من** | monkey | جذرٌ آخر: باب، حبن، سعد، قرد، مون، نسا، هجرس، يد | jassem-2013-animal |
+| Baby | `abarra` | **بر** | to give birth to (good children) | جذرٌ آخر: جنس، ذكر، طول، ولد | jassem-2013-family |
+| Baby | `bu3bu3` | **بعبع** | baby; early (childhood) | جذرٌ آخر: رب، صبا، طفل | jassem-2013-family |
+| Baby | `bikr` | **بكر** | first child, virgin, early | نعم | jassem-2013-family |
+| Baby | `malaka` | **ملك** | possess | نعم | jassem-2013-family |
+| Bad | `badhdh` | **بذ** | bad | جذرٌ آخر: بخر، بد، بعد، تن، جزل، جور، خبث، دخن، وغيرُها | jassem-2014-wining-dining |
+| Bake | `khabaz` | **خبز** | bake | نعم | jassem-2014-wining-dining |
 | Balance | `bilaqn` | **بلقن** | lit., by dish | جذرٌ آخر: ءكل، باج، بن، بوت، ثرد، ثني، حل، حلو، وغيرُها | jassem-2014-mathematical |
 | Balance | `laqn` | **لقن** | large deep dish | جذرٌ آخر: ثرد، حل، ديق، زير، صحف، صين، طبق، عرق، وغيرُها | jassem-2014-mathematical |
 | Ballistic Missile | `barrakia(t)` | **برك** | a kind of boat; shanty home | جذرٌ آخر: قرب | jassem-2015-military |
@@ -289,6 +417,8 @@
 | Ballot Box | `khashab` | **خشب** | wood | نعم | jassem-2015-democratic |
 | Banana | `banan` | **بن** | finger | نعم | jassem-2016-floral |
 | Bank | `janb` | **جنب** | side | نعم | jassem-2013-water-sea |
+| Banquet | `jaanib` | **جنب** | side | نعم | jassem-2014-wining-dining |
+| Bar | `barra` | **بر** | outside | نعم | jassem-2014-wining-dining |
 | Barely | `barra(ni)` | **برن** | outside | جذرٌ آخر: اب، بدع، بر، برا، بره، بست، تاق، جرد، وغيرُها | jassem-2013-negative-particles |
 | Barely | `bila` | **بل** | without | جذرٌ آخر: ءبد، ءخذ، ءذا، ءزق، ءشع، ءلا، ءني، ءيي، وغيرُها | jassem-2013-negative-particles |
 | Barely | `ra3a` | **رع** | graze | جذرٌ آخر: خرف، رتع، رعي، رمش، سحج، شرشر، غر، لفح | jassem-2013-negative-particles |
@@ -313,8 +443,10 @@
 | Bark | `bal` | **بل** | talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
 | Bark | `balbal` | **بلبل** | talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
 | Bark | `naba2` | **نبح** | bark | نعم | jassem-2013-animal · jassem-2013-speech-writing |
-| Barley | `burr` | **بر** | wheat | جذرٌ آخر: برر، برغل، جرم، حزم، حل، حنط، خال، خندريس، وغيرُها | jassem-2016-floral |
+| Barley | `burr` | **بر** | wheat | جذرٌ آخر: برر، برغل، جرم، حزم، حل، حنط، خال، خندريس، وغيرُها | jassem-2016-floral · jassem-2014-wining-dining |
+| Barley | `baSal` | **بصل** | onion | نعم | jassem-2014-wining-dining |
 | Baron | `baar` | **بر** | kind, honest, true man | جذرٌ آخر: حمد، خل، قوم، مين | jassem-2015-democratic |
+| Barrel | `barmeel` | **برمل** | barrel | جذرٌ آخر: ءسر، بندق، جدب، خاب، خدود، دفع، روح، سبط، وغيرُها | jassem-2014-wining-dining |
 | Basil | `baSal` | **بصل** | onion | نعم | jassem-2016-floral |
 | Bat | `waTwaaT` | **وطوط** | bat | جذرٌ آخر: بت، جرو، خفش، دبش، دق، دقق، ضرب، طرق، وغيرُها | jassem-2013-animal |
 | Bath | `saba2` | **سبح** | bathe | جذرٌ آخر: ءدو، حم، حمم، غسل | jassem-2013-water-sea |
@@ -325,12 +457,25 @@
 | Bead | `'usToora(t)` | **ءسطر** | story | جذرٌ آخر: ءذا، ادر، بطل، تء، تبع، حاك، حبك، حدث، وغيرُها | jassem-2014-divine-theological |
 | Bead | `3abada` | **عبد** | to worship | نعم | jassem-2014-divine-theological |
 | Bead | `kaneesa(t)` | **كنس** | church | نعم | jassem-2014-divine-theological |
-| Bean | `bunn` | **بن** | (coffee) bean | نعم | jassem-2016-floral |
+| Bean | `bunn` | **بن** | (coffee) bean | نعم | jassem-2016-floral · jassem-2014-wining-dining |
+| Bear | `bara'a` | **برء** | create, bear | نعم | jassem-2015-life-death |
 | Bear | `ba3eer` | **بعر** | camel | نعم | jassem-2013-animal |
+| Bear | `jaaba(t)` | **جب** | deliver (give birth to a child); lit., she brings | جذرٌ آخر: وضع | jassem-2015-life-death |
 | Beast | `daabba(t)` | **دب** | beast, animal | جذرٌ آخر: ثور، حيو، خطم، داب، سبع، وحش | jassem-2013-animal |
+| Beautiful | `'adda` | **ءد** | to do, perform | جذرٌ آخر: ءدي، ءمر، برر، بغي، بوت، جدر، جذر، جرح، وغيرُها | jassem-2016-entirely-arabic |
+| Beautiful | `'aghar` | **ءغر** | gray, white | جذرٌ آخر: شهب، شيب، صو، لج | jassem-2016-entirely-arabic |
+| Beautiful | `baiDa'` | **بضء** | white; beautiful | جذرٌ آخر: برج، غرر، لح | jassem-2016-entirely-arabic |
+| Beautiful | `bayaaD` | **بيض** | white; beautiful | نعم | jassem-2016-entirely-arabic |
+| Beautiful | `Dia'` | **ضء** | light, shine | جذرٌ آخر: ءلق، برق، خفق، ذلق، زهر، ضوء، عبو، لءلء، وغيرُها | jassem-2016-entirely-arabic |
+| Beautiful | `Daw'` | **ضوء** | light, shine | نعم | jassem-2016-entirely-arabic |
+| Beautiful | `ghirra(t)` | **غر** | young girl | جذرٌ آخر: بز، بنت، ثوب، در، صب، طفل، فتا، فست | jassem-2016-entirely-arabic |
+| Beautiful | `ghirl` | **غرل** | uncircumcised child | جذرٌ آخر: ءب، ءبو، ءم، ءمم، ءمي، ابن، الذي، النواة، وغيرُها | jassem-2016-entirely-arabic |
+| Beautiful | `mil'` | **ملء** | fullness | جذرٌ آخر: شبع، كثر، كل | jassem-2016-entirely-arabic |
 | Bee | `dhubaab` | **ذب** | fly | جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها | jassem-2013-animal |
 | Beef | `baqar(at)` | **بقر** | cow | نعم | jassem-2013-animal |
 | Beef | `bala3` | **بلع** | swallow | نعم | jassem-2013-animal |
+| Beer | `bajar` | **بجر** | to drink without satisfaction | جذرٌ آخر: شمت | jassem-2014-wining-dining |
+| Beer | `bareer` | **بر** | a kind of black and sweet fruit | جذرٌ آخر: بطيخ، ثمر، جر، جهل، حلو، خضر، ربي، رق، وغيرُها | jassem-2014-wining-dining |
 | Before | `ghurra(t)` | **غر** | front | جذرٌ آخر: ءما، ءمم، برقع، برنك، بز، بسم، بق، بوز، وغيرُها | jassem-2013-time |
 | Beg | `bajja` | **بج** | wide, big | جذرٌ آخر: وسع | jassem-2014-divine-theological |
 | Beg | `bagha` | **بغ** | beg | جذرٌ آخر: بيه، جدو، جدي، رءف، رجا، رجو، سءل، سول، وغيرُها | jassem-2013-speech-writing · jassem-2014-divine-theological |
@@ -353,12 +498,15 @@
 | Beside | `jidaa'` | **جدء** | side | جذرٌ آخر: ءدم، تل، تيز، ثني، جحف، جد، جدد، جفء، وغيرُها | jassem-2014-prepositions |
 | Between | `thaani` | **ثن** | two | نعم | jassem-2014-prepositions |
 | Between | `thawaani` | **ثون** | two | جذرٌ آخر: ءم، ءو، اس، النسطورية، ان، او، برزخ، بز، وغيرُها | jassem-2014-prepositions |
+| Beverage | `khubz(at)` | **خبز** | bread | نعم | jassem-2014-wining-dining |
+| Beverage | `sharaab` | **شرب** | drink | نعم | jassem-2014-wining-dining |
 | Bias | `'aat(i)` | **ءت** | plural suffix | جذرٌ آخر: ءب، ان، سب، سود، لبب، لقب، ن، نوي، وغيرُها | jassem-2015-democratic |
 | Bias | `burj` | **برج** | tower | نعم | jassem-2015-democratic |
 | Bifurcate | `bifurqat` | **بفرقت** | lit., with division | جذرٌ آخر: قمر | jassem-2019-frk |
 | Bikini | `baqee3` | **بقع** | planted, flat grounds | جذرٌ آخر: ابض، ان، برطم، بسط، بسكت، بشر، بط، بطح، وغيرُها | jassem-2016-fashion |
 | Bikini | `niqaab` | **نقب** | a female | نعم | jassem-2016-fashion |
 | Binary | `sab3` | **سبع** | seven; much | نعم | jassem-2014-mathematical |
+| Bio | `2iat` | **حت** | alive, living | جذرٌ آخر: جار، حي، حيا، حيو، حيي، درك، عمر، عيش، وغيرُها | jassem-2015-life-death |
 | Bird | `lubaid` | **لبد** | bird | جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها | jassem-2013-animal |
 | Bishop | `'usquf` | **ءسقف** | bishop, priest | جذرٌ آخر: الءب، باب، برش، بطرك، جاثليق، جبت، حبر، حن، وغيرُها | jassem-2014-divine-theological |
 | Bishop | `saqf` | **سقف** | a roof | نعم | jassem-2014-divine-theological |
@@ -367,6 +515,9 @@
 | Bit | `baDa3` | **بضع** | cut; piece; a cut; a few; 3-9 count | نعم | jassem-2014-mathematical |
 | Bitch | `kalba(t)` | **كلب** | she-dog, bitch | نعم | jassem-2013-animal |
 | Bite | `baTTa` | **بط** | of wounds, to burst | جذرٌ آخر: جهش، دلع، رش، زفر، شتو، صعق، صيح، طر، وغيرُها | jassem-2013-animal |
+| Bitter | `bidhar` | **بذر** | of water, to get yellow and bad | جذرٌ آخر: ربد | jassem-2014-wining-dining |
+| Bitter | `bazz` | **بز** | suck in, drink | جذرٌ آخر: رشف، سفف، شرب، لبن، مص | jassem-2014-wining-dining |
+| Bitter | `bazbaz` | **بزبز** | suck in, drink | جذرٌ آخر: رشف، سفف، شرب، لبن، مص | jassem-2014-wining-dining |
 | Blaze | `lahab` | **لهب** | blaze | نعم | jassem-2013-air-fire |
 | Bless | `ta2ta` | **تحت** | under | نعم | jassem-2014-divine-theological |
 | Bless | `2aDra(t)` | **حضر** | 2aDar (v) | لا مدخلَ عندنا | jassem-2014-divine-theological |
@@ -391,19 +542,36 @@
 | Book | `bizz` | **بز** | insect sound | جذرٌ آخر: ءن، ءنس، ءوه، برغش، بق، بقق، بيت، تشو، وغيرُها | jassem-2013-speech-writing |
 | Book | `kitaab` | **كتب** | book | نعم | jassem-2013-speech-writing |
 | Boot | `sibtia(t)` | **سبت** | shoes; tanned skin | جذرٌ آخر: ءدم، بثر، بجل، برش، برغش، بض، بن، بنج، وغيرُها | jassem-2016-fashion |
+| Booth | `burj` | **برج** | tower; a high structure | نعم | jassem-2015-urban |
 | Bow | `qaab` | **قب** | the part of the arrow between the handle and head | جذرٌ آخر: طرق، عرن | jassem-2015-military |
+| Boy | `Sabi` | **صب** | boy | جذرٌ آخر: بزر، خنث، رجل، زغل، صبو، غلم، فتي، فرش، وغيرُها | jassem-2013-family |
 | Bra | `bark` | **برك** | breast | جذرٌ آخر: بز، بزز، ثدي، جبب، حضن، ديد، ديس، رشف، وغيرُها | jassem-2016-fashion |
 | Bracelet | `bark` | **برك** | breast | جذرٌ آخر: بز، بزز، ثدي، جبب، حضن، ديد، ديس، رشف، وغيرُها | jassem-2016-fashion |
 | Bracelet | `rabaT` | **ربط** | to tie, fold | نعم | jassem-2016-fashion |
 | Branch | `3arboosh` | **عربش** | a branch of tree | جذرٌ آخر: بتل، برزين، شعب، صنو، غص، غصن، فرع، قضب | jassem-2016-floral |
+| Brandy | `burood` | **برد** | a (cooling) drink | نعم | jassem-2014-wining-dining |
+| Brandy | `burdaan` | **بردن** | a (cooling) drink | جذرٌ آخر: برد | jassem-2014-wining-dining |
+| Bread | `burr(at)` | **بر** | bread, wheat | جذرٌ آخر: حل، طح | jassem-2014-wining-dining |
+| Bread | `basT` | **بسط** | eating, happiness, spreading | نعم | jassem-2014-wining-dining |
+| Bread | `baqara` | **بقر** | break, open | جذرٌ آخر: حل، خرق، سرح، شجر، شقق، فضض، فطر، فقع، وغيرُها | jassem-2014-wining-dining |
 | Breath | `baari2` | **برح** | hot air | جذرٌ آخر: سم، شوا | jassem-2013-air-fire |
 | Breath | `bard(at)` | **برد** | cool, cold air | نعم | jassem-2013-air-fire |
 | Breath | `makaan` | **مكن** | place | لا مدخلَ عندنا | jassem-2013-air-fire |
+| Brew | `baghgha` | **بغ** | to brew, to ferment | جذرٌ آخر: خمر | jassem-2014-wining-dining |
+| Bride | `baayera(t)` | **بير** | unmarried (girl) | جذرٌ آخر: فتا | jassem-2013-family |
 | Bright | `bareeq` | **برق** | bright | جذرٌ آخر: ءث، السنبلة، النواة، بطيخ، بلج، بيض، ثور، خفش، وغيرُها | jassem-2013-air-fire |
 | Bright | `baariqat` | **برقت** | bright | جذرٌ آخر: ءث، السنبلة، النواة، بطيخ، بلج، بيض، ثور، خفش، وغيرُها | jassem-2013-air-fire |
+| Brine | `ba2r` | **بحر** | sea (water) | نعم | jassem-2014-wining-dining |
+| Brine | `ba2rani` | **بحرن** | sea (water) | جذرٌ آخر: ءرض، ءس، بحر، جون، حوت، حوض، خور، رس، وغيرُها | jassem-2014-wining-dining |
+| Brine | `lahab` | **لهب** | to burn, boil | نعم | jassem-2014-wining-dining |
 | Broad Beans | `ba3eed` | **بعد** | far, extended | نعم | jassem-2016-floral |
 | Brook | `barka(t)` | **برك** | water pool | نعم | jassem-2013-water-sea |
+| Broth | `shawraba(t)` | **شورب** | broth, stew | جذرٌ آخر: سلت | jassem-2014-wining-dining |
+| Brother | `rajul` | **رجل** | man, husband | نعم | jassem-2013-family |
+| Brother | `faraT` | **فرط** | child | جذرٌ آخر: ءب، ءبو، ءم، ءمم، ءمي، ابن، الذي، النواة، وغيرُها | jassem-2013-family |
 | Bug | `buqq` | **بق** | bug | نعم | jassem-2013-animal |
+| Build | `burj` | **برج** | tower; a high structure | نعم | jassem-2015-urban |
+| Build | `ballaTa` | **بلط** | build with stones | جذرٌ آخر: بء، بذر، بني، ثفي، جدر، حلب، حيط، راس، وغيرُها | jassem-2015-urban |
 | Bull | `baqar(at)` | **بقر** | cow | نعم | jassem-2013-animal |
 | Bullock | `baqar(at)` | **بقر** | cow | نعم | jassem-2013-animal |
 | Bureaucracy | `jabhat` | **جبهت** | forehead | جذرٌ آخر: تل، جب، جبه، ركع، سجد، سيل، صدغ، طر، وغيرُها | jassem-2015-democratic |
@@ -413,6 +581,9 @@
 | Burn | `2arr(oor)` | **حر** | heat | نعم | jassem-2013-air-fire |
 | Burn | `qandeel` | **قندل** | light, lamp | جذرٌ آخر: سرج، صبح، نور | jassem-2013-air-fire |
 | Burnoose | `burnus` | **برنس** | burnoose; a dress with head cap | نعم | jassem-2016-fashion |
+| Bury | `boor` | **بر** | useless, poor; uncultivated; unmarried | جذرٌ آخر: بور | jassem-2015-life-death |
+| Bury | `baayer` | **بير** | useless, poor; uncultivated; unmarried | جذرٌ آخر: بور | jassem-2015-life-death |
+| Bury | `qabara` | **قبر** | to bury | نعم | jassem-2015-life-death · jassem-2015-urban |
 | But | `bidoon` | **بدن** | without | جذرٌ آخر: ءبد، ءخذ، ءذا، ءزق، ءشع، ءلا، ءني، ءيي، وغيرُها | jassem-2014-prepositions |
 | But | `thaani` | **ثن** | next, other | جذرٌ آخر: بدل، تبع، جور، صفف، لصق، لفف، نظر | jassem-2013-negative-particles |
 | But | `jamee3` | **جمع** | together | جذرٌ آخر: ء، ءسر، ءكل، ءلف، ءوي، ا، بال، بحث، وغيرُها | jassem-2014-prepositions |
@@ -425,16 +596,21 @@
 | But | `na2wa` | **نحو** | towards | نعم | jassem-2013-negative-particles |
 | But | `huna` | **هن** | here | جذرٌ آخر: ده، دول، دي، سار، لبك، ها، هات، هذ، وغيرُها | jassem-2013-negative-particles |
 | But | `waaf(i)` | **وف** | enough | جذرٌ آخر: اخ، بسس، بسط، تخت، جذع، خضب، خلص، درك، وغيرُها | jassem-2013-negative-particles |
+| Butter | `ruTab` | **رطب** | sour milk; any soft and wet fruits like dates | نعم | jassem-2014-wining-dining |
 | Butter | `zubda(t)` | **زبد** | butter | نعم | jassem-2013-animal |
 | Button | `badda` | **بد** | to have a large backside | جذرٌ آخر: باب، برج، تمم، ثلج، جار، جبل، جحم، جلد، وغيرُها | jassem-2016-fashion |
 | Button | `biTaana(t)` | **بطن** | a lining | نعم | jassem-2016-fashion |
 | Cabbage | `qubbat` | **قبت** | top | جذرٌ آخر: ا، بسط، جار، جب، دبر، دوم، رءس، راس، وغيرُها | jassem-2016-floral |
 | Cabbage | `qazam` | **قزم** | dwarf | نعم | jassem-2016-floral |
+| Cake | `ka3ak` | **كعك** | cake; dry, ring-shaped bread | نعم | jassem-2014-wining-dining |
 | Calculus | `kils` | **كلس** | limestone, calcium | جذرٌ آخر: سمنت | jassem-2014-mathematical |
 | Calf | `khilfa(t)` | **خلف** | a female camel | نعم | jassem-2013-animal |
 | Call | `qarra` | **قر** | talk a lot | جذرٌ آخر: باه، بجح، بحث، بق، بوق، تيل، جدر، جوي، وغيرُها | jassem-2013-speech-writing |
 | Call | `qaal` | **قل** | say | جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها | jassem-2013-speech-writing |
 | Canal | `qanaat` | **قنت** | canal | جذرٌ آخر: النواة، جري، حشا، خلج، خوخ، رع، سك، شءن، وغيرُها | jassem-2013-water-sea |
+| Candy | `jabab` | **جب** | good earth; cutting | جذرٌ آخر: برر، رضي، كون | jassem-2014-wining-dining |
+| Candy | `shukr` | **شكر** | thank | نعم | jassem-2014-wining-dining |
+| Candy | `qand` | **قند** | candy; solid sugar cane honey | نعم | jassem-2014-wining-dining |
 | Cane | `sukkar` | **سكر** | sugar | نعم | jassem-2016-floral |
 | Cane | `qana` | **قن** | tube, reed; club, stick; spear, arrow | جذرٌ آخر: جعب، حرب، دستج، رمح، زج، زغا، سدس، شجب، وغيرُها | jassem-2016-floral |
 | Cannon | `qabaD` | **قبض** | hold, seize | نعم | jassem-2015-military |
@@ -443,6 +619,7 @@
 | Cant | `ghunwat` | **غنوت** | song | جذرٌ آخر: ءور، بيت، دجج، رث، زمر، شود، صوت، غن، وغيرُها | jassem-2013-speech-writing |
 | Canvas | `qinnab` | **قنب** | a plant used for ropes | نعم | jassem-2016-fashion |
 | Cap | `qabb(at)` | **قب** | a head | جذرٌ آخر: ءرخ، الجذر، باب، باج، بختر، برص، برقع، بهم، وغيرُها | jassem-2016-fashion |
+| Capital | `jabhat` | **جبهت** | forehead | جذرٌ آخر: تل، جب، جبه، ركع، سجد، سيل، صدغ، طر، وغيرُها | jassem-2015-urban |
 | Carpet | `zarabia(t)` | **زرب** | carpet | نعم | jassem-2016-fashion |
 | Carpet | `qiTT(at)` | **قط** | cat | نعم | jassem-2016-fashion |
 | Carpet | `walaq` | **ولق** | walk | جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها | jassem-2016-fashion |
@@ -460,11 +637,20 @@
 | Ceasefire Agreement | `qurra(t)` | **قر** | happiness, reassurance | جذرٌ آخر: ءم، بسم، بهج، جدي، خلد، خير، سرر، سعد، وغيرُها | jassem-2015-military |
 | Cedar | `sidr` | **سدر** | a kind of tree or plant | نعم | jassem-2016-floral |
 | Celery | `Silliaan` | **صلن** | a vegetable | جذرٌ آخر: بقل، جزر، جعد، خسس، خضر، خيز، سلط، سلق، وغيرُها | jassem-2016-floral |
+| Cemetery | `rajmat` | **رجمت** | grave | جذرٌ آخر: ءمر، بء، بقر، بلغ، جدد، جدي، جسي، دف، وغيرُها | jassem-2015-life-death |
 | Central | `'ajeer(at)` | **ءجر** | payee, wager | جذرٌ آخر: خطر، راه، رها | jassem-2015-military |
 | Central | `qara'a` | **قرء** | collect, read | نعم | jassem-2015-military |
 | Central | `qawi(un)` | **قو** | strong, powerful | نعم | jassem-2015-military |
 | Century | `hindeed` | **هند** | a hundred (camels) | جذرٌ آخر: ءبل، ءدم، ءيي، بلد، ثلث، حرج، حرجل، حول، وغيرُها | jassem-2013-time |
 | Century | `hunaidat` | **هندت** | a hundred (camels) | جذرٌ آخر: ءبل، ءدم، ءيي، بلد، ثلث، حرج، حرجل، حول، وغيرُها | jassem-2013-time |
+| Ceremony | `3ada` | **عد** | except | جذرٌ آخر: ءلا، بث، بهر، بيد، ثني، حاش، حول، خرج، وغيرُها | jassem-2016-entirely-arabic |
+| Ceremony | `alghirr` | **غر** | the young person | جذرٌ آخر: ءنس، ءيل، برغز، بز، بكر، بنت، بيب، تاج، وغيرُها | jassem-2016-entirely-arabic |
+| Ceremony | `qalam` | **قلم** | pen | نعم | jassem-2016-entirely-arabic |
+| Ceremony | `kurmaan)` | **كرمن** | of guests and VIPs, in honour of | جذرٌ آخر: بجل، بون، بيع، تقن، جلل، حتفل، حفل، دست، وغيرُها | jassem-2016-entirely-arabic |
+| Ceremony | `mar` | **مر** | a(t)/imra | لا مدخلَ عندنا | jassem-2016-entirely-arabic |
+| Ceremony | `mar'a(t)` | **مرء** | woman | نعم | jassem-2016-entirely-arabic |
+| Ceremony | `mar'at` | **مرءت** | woman | جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، اجر، اخت، بدل، بذل، وغيرُها | jassem-2016-entirely-arabic |
+| Ceremony | `wa3d` | **وعد** | promise | نعم | jassem-2016-entirely-arabic |
 | Cesspool | `jalmood` | **جلمد** | rock | نعم | jassem-2013-water-sea |
 | Cesspool | `shakh` | **شخ** | urine | جذرٌ آخر: ءسر، بال، بول، سلس، صرب، صنن، عبس، قزح، وغيرُها | jassem-2013-water-sea |
 | Chameleon | `raqeeb` | **رقب** | snake type | جذرٌ آخر: ءفع، برص، ثعب، جنن، حبب، حجر، حنش، حي، وغيرُها | jassem-2013-animal |
@@ -486,19 +672,35 @@
 | Cheers | `shukur` | **شكر** | thank | نعم | jassem-2013-speech-writing |
 | Cheers | `Saffar` | **صفر** | whistle | نعم | jassem-2013-speech-writing |
 | Cheers | `karaz` | **كرز** | cherry | نعم | jassem-2013-speech-writing |
+| Cheese | `qishda(t)` | **قشد** | (top) milk fat | نعم | jassem-2014-wining-dining |
+| Chef | `safeeh` | **سفه** | chief, head; silly | نعم | jassem-2014-wining-dining |
 | Chemise | `qameeS` | **قمص** | shirt | نعم | jassem-2016-fashion |
 | Chemise | `hidm` | **هدم** | dress | جذرٌ آخر: ءل، بدل، بذل، برنس، بهر، ثوب، جلبب، دبج، وغيرُها | jassem-2016-fashion |
 | Cherry | `karaz` | **كرز** | cherry | نعم | jassem-2016-floral |
+| Chester arose | `'abaa` | **ءب** | a(t) | لا مدخلَ عندنا | jassem-2018-place-names |
+| Chester arose | `bee'a(t)` | **بء** | a(t) | لا مدخلَ عندنا | jassem-2018-place-names |
+| Chester arose | `thaur` | **ثر** | animal | جذرٌ آخر: ءثر، ءحيا، ءركب، ءهل، ءيل، اب، الجذر، بدن، وغيرُها | jassem-2018-place-names |
+| Chester arose | `3eedaan` | **عدن** | coast | جذرٌ آخر: الغرب، اللاذقية، ثغر، جنب، حفف، دار، رءس، زنج، وغيرُها | jassem-2018-place-names |
+| Chester arose | `falaat` | **فلت** | open land, pasture | جذرٌ آخر: رعي، سرح، ضيع | jassem-2018-place-names |
+| Chester arose | `qaSS` | **قص** | to cut | نعم | jassem-2018-place-names |
+| Chester arose | `qaSqaS` | **قصقص** | to cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2018-place-names |
+| Chester arose | `nd` | **ند** | ﺛﺮبand related yathrib | جذرٌ آخر: ءثم، ءرض، ءسماعيل، ءمم، ءهل، اسب، بت، بحر، وغيرُها | jassem-2018-place-names |
+| Chester arose | `wara` | **ور** | people | جذرٌ آخر: ءب، ءم، ءمم، ءنا، ءهل، اس، اصر، التي، وغيرُها | jassem-2018-place-names |
+| Chew | `Sali` | **صل** | hot, sizzling | جذرٌ آخر: ءجج، برش، ثري، جحم، جمر، حدد، حر، حرر، وغيرُها | jassem-2014-wining-dining |
+| Chew | `akal` | **كل** | eat | نعم | jassem-2014-wining-dining |
 | Chick peas | `bizr(at)` | **بزر** | a seed | نعم | jassem-2016-floral |
 | Chick peas | `SeeSan` | **صن** | young fowl | جذرٌ آخر: ءنس، ءيل، برغز، بز، بكر، بنت، بيب، بيض، وغيرُها | jassem-2016-floral |
 | Chief | `safeeh` | **سفه** | chief, villain | جذرٌ آخر: ءبو، بعل، تخم، جبار، حرب، دحي، دوج، دوق، وغيرُها | jassem-2014-divine-theological |
 | Chief | `naSraniat` | **نصرنت** | Christianity | جذرٌ آخر: القدس، بشر، جبريل، سيح، صر، قذ، نصر، وثن | jassem-2014-divine-theological |
+| Child | `qaum` | **قم** | community | جذرٌ آخر: ءم، ءمم، ءندلس، بر، بلد، بلنسية، بولس، جمع، وغيرُها | jassem-2013-family |
 | Chili | `qulqas` | **قلقس** | a kind of chili-tasting plant | جذرٌ آخر: ثمر | jassem-2016-floral |
 | Chimney | `baSSat` | **بصت** | spark | جذرٌ آخر: ثور، شرر، ظرر، فلل، قدح | jassem-2013-air-fire |
 | Chimney | `dukhaan` | **دخن** | smoke | نعم | jassem-2013-air-fire |
 | Chimney | `ku2l` | **كحل** | black (substance) | نعم | jassem-2013-air-fire |
 | Chivalry | `khail` | **خل** | horse, horses | جذرٌ آخر: جرذ، خيل | jassem-2013-animal |
 | Chivalry | `khuyool` | **خيل** | horse, horses | نعم | jassem-2013-animal |
+| Choke | `shaja` | **شج** | choke (with bones) | جذرٌ آخر: جبر، خنق، رث، رسغ، رق، زرد، زند، شبك، وغيرُها | jassem-2014-wining-dining · jassem-2015-life-death |
+| Choke | `falq` | **فلق** | slice, division | جذرٌ آخر: بد، برج، بردع، بعض، بيت، بين، جرب، جزء، وغيرُها | jassem-2014-wining-dining |
 | Church | `kanees(at)` | **كنس** | church | نعم | jassem-2014-divine-theological |
 | Churn | `baqara` | **بقر** | cow | نعم | jassem-2013-animal |
 | Churn | `khawwaar` | **خور** | coward, cowardice | جذرٌ آخر: جب | jassem-2013-animal |
@@ -525,6 +727,7 @@
 | Clerk | `qalad` | **قلد** | to enclose | جذرٌ آخر: جدر، حدق، حف، رفق، سور، شمل، صعد، ضمن، وغيرُها | jassem-2014-divine-theological |
 | Cloak | `qaliq` | **قلق** | a kind of mantle | جذرٌ آخر: برك، زنر، غفر، كرك | jassem-2016-fashion |
 | Clock | `jaras` | **جرس** | bell | نعم | jassem-2013-time |
+| Close | `qalaS` | **قلص** | close, shut | جذرٌ آخر: ءطر، جوف، دفف، ربد، سطم، صفق، صك، غضو، وغيرُها | jassem-2015-urban |
 | Cloth | `kalla(t)` | **كل** | a thin covering | جذرٌ آخر: خفف، صلي، طبل، ظفر، غطا، غلف، قب | jassem-2016-fashion |
 | Cluck | `qaid` | **قد** | writing, limit | جذرٌ آخر: ءبق، ءجل، ءرخ، ءشر، ءمر، ءيي، بجد، بنط، وغيرُها | jassem-2013-speech-writing |
 | Cluck | `qalqal` | **قلقل** | cluck, talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
@@ -538,7 +741,12 @@
 | Coat of arms | `rum2` | **رمح** | arrow | جذرٌ آخر: جعب، حظو، دفع، رصف، زج، زع، زلم، سار، وغيرُها | jassem-2016-fashion |
 | Cock | `nasr` | **نسر** | eagle | نعم | jassem-2013-animal |
 | Cod | `2oot` | **حت** | fish | جذرٌ آخر: ءنقليس، الحوت، بقل، بلم، بن، تنن، تون، جريث، وغيرُها | jassem-2013-water-sea |
+| Coffee | `qaana` | **قن** | to mix colours | جذرٌ آخر: ءدف، اه، جرن، خبص، خفق، خلط، خمر، دهن، وغيرُها | jassem-2014-wining-dining |
+| Coffee | `qahwa(t)` | **قهو** | lit., wine, alcohol; coffee | نعم | jassem-2014-wining-dining |
+| Coffee | `muqaanaa(t)` | **مقن** | to mix colours | جذرٌ آخر: ءدف، اه، جرن، خبص، خفق، خلط، خمر، دهن، وغيرُها | jassem-2014-wining-dining |
+| Coffin | `kafan` | **كفن** | a dead body | نعم | jassem-2015-life-death |
 | Cold | `jaleed` | **جلد** | ice, cold | نعم | jassem-2013-water-sea |
+| Collapse | `jamee3` | **جمع** | all, together | نعم | jassem-2015-life-death |
 | Collar | `qilaada(t)` | **قلد** | necklace | نعم | jassem-2016-fashion |
 | College | `jizla(t)` | **جزل** | large group | جذرٌ آخر: باب، بال، برج، حفل، حوت، خل، رست، شعب، وغيرُها | jassem-2013-speech-writing |
 | College | `jeel` | **جل** | large group | جذرٌ آخر: باب، بال، برج، حفل، حوت، خل، رست، شعب، وغيرُها | jassem-2013-speech-writing |
@@ -547,8 +755,11 @@
 | Colloquial | `2amaas` | **حمس** | enthusiasm, happiness | نعم | jassem-2013-speech-writing |
 | Colloquial | `laghoo` | **لغ** | talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
 | Colonial | `2aql(un)` | **حقل** | farm, field, estate | نعم | jassem-2015-military |
+| Coma | `ghama` | **غم** | coma | جذرٌ آخر: غيب | jassem-2015-life-death |
 | Comb | `qawama` | **قوم** | to straighten, to comb | جذرٌ آخر: النواة، ثقف، درك، رجل، سحج، سمح، سوي، شط، وغيرُها | jassem-2016-fashion |
 | Combat | `jamee3` | **جمع** | together | جذرٌ آخر: ء، ءسر، ءكل، ءلف، ءوي، ا، بال، بحث، وغيرُها | jassem-2015-military |
+| Comely | `jameel` | **جمل** | beautiful | نعم | jassem-2016-entirely-arabic |
+| Comely | `qallama` | **قلم** | hardly, scarcely | جذرٌ آخر: قرو، كيد | jassem-2016-entirely-arabic |
 | Command | `baraq` | **برق** | to light up | نعم | jassem-2015-military |
 | Command | `qaddam` | **قدم** | advance | نعم | jassem-2013-speech-writing · jassem-2015-military |
 | Commend | `mada2` | **مدح** | praise | نعم | jassem-2013-speech-writing |
@@ -559,6 +770,8 @@
 | Community | `qaum` | **قم** | people, community | نعم | jassem-2014-mathematical |
 | Companion | `Saa2ib` | **صحب** | friend | نعم | jassem-2015-democratic |
 | Companion | `Su2baan` | **صحبن** | friend | جذرٌ آخر: ءنس، بني، جي، حب، حبب، خدن، خل، خلل، وغيرُها | jassem-2015-democratic |
+| Companion | `qamra(t)` | **قمر** | room | نعم | jassem-2013-family |
+| Companion | `ma3` | **مع** | with | لا مدخلَ عندنا | jassem-2013-family |
 | Company | `Su2baan` | **صحبن** | friends | جذرٌ آخر: ءنس، بطن، حن، فر، واد، وب، ودد | jassem-2015-democratic |
 | Company | `qamra(t)` | **قمر** | room | نعم | jassem-2015-democratic |
 | Complete | `mala'` | **ملء** | fill | نعم | jassem-2013-time |
@@ -570,6 +783,7 @@
 | Condition | `daraj` | **درج** | step, walk | جذرٌ آخر: خطو، دوس، سري، سمح، شرع، مشية | jassem-2015-democratic |
 | Condition | `Daaja` | **ضج** | speak, shout | جذرٌ آخر: هدر | jassem-2015-democratic |
 | Condition | `wazar` | **وزر** | carry | جذرٌ آخر: ءخذ، ءدي، ءذن، ءنف، النواة، بردع، بشر، بوز، وغيرُها | jassem-2015-democratic |
+| Condominium | `jamee3` | **جمع** | all, together | نعم | jassem-2015-urban |
 | Conflict | `falaqa(t)` | **فلق** | hitting on the feet; a splitting | نعم | jassem-2015-military |
 | Congratulate | `tasaa'ul` | **تسءل** | ask, question | جذرٌ آخر: سءل، سال، سول، فسر، فهم | jassem-2013-speech-writing |
 | Congratulate | `daras` | **درس** | study | نعم | jassem-2013-speech-writing |
@@ -577,11 +791,13 @@
 | Congratulate | `salaa` | **سل** | forget, amuse | جذرٌ آخر: ءنس، درس، ذهل، سلا، سلو، سيي، كيف، لهو، وغيرُها | jassem-2013-speech-writing |
 | Congratulate | `shi3r` | **شعر** | poetry | نعم | jassem-2013-speech-writing |
 | Congratulate | `shakara` | **شكر** | thank | نعم | jassem-2013-speech-writing |
+| Conscious | `kafar` | **كفر** | cover, bury | نعم | jassem-2015-life-death |
 | Consensus | `baSar` | **بصر** | see, watch, oversee | جذرٌ آخر: رقب | jassem-2015-democratic |
 | Consensus | `jatha` | **جث** | sit | جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها | jassem-2015-democratic |
 | Consensus | `jam3` | **جمع** | gathering; agreement | نعم | jassem-2015-democratic |
 | Consensus | `zafar` | **زفر** | to breathe | نعم | jassem-2015-democratic |
 | Consensus | `Dhann` | **ظن** | thinking, feeling | جذرٌ آخر: ءمل، قلق | jassem-2015-democratic |
+| Consort | `qaaSirat` | **قصرت** | girl, woman, wife | جذرٌ آخر: اخت، بز، ثوب، خت، خلع، رجل، سن، صب، وغيرُها | jassem-2013-family |
 | Consultation | `sa'al` | **سءل** | to ask | نعم | jassem-2015-democratic |
 | Consultation | `su'la(tun)` | **سءلتن** | to ask | جذرٌ آخر: ءبو، ءتي، ءذن، ءمر، ءنس، ءوي، برء، بقي، وغيرُها | jassem-2015-democratic |
 | Consultation | `Tajja` | **طج** | beat-touch | جذرٌ آخر: ءثر، ءجن، اصل، بذذ، بض، بوس، تخم، تول، وغيرُها | jassem-2015-democratic |
@@ -600,14 +816,22 @@
 | Cool | `qarr` | **قر** | cold | نعم | jassem-2013-water-sea |
 | Cool | `karaj` | **كرج** | run, roll-run | جذرٌ آخر: ءبد، ءبق، برم، ثني، جدد، جرد، جري، جف، وغيرُها | jassem-2013-water-sea |
 | Copy | `kitaab` | **كتب** | book | نعم | jassem-2013-speech-writing |
+| Corn | `falq` | **فلق** | a split, a flake | نعم | jassem-2014-wining-dining |
+| Corn | `qarn` | **قرن** | horn, horn-shaped grain, bunch | نعم | jassem-2014-wining-dining |
 | Costume | `jamee3` | **جمع** | together | جذرٌ آخر: ء، ءسر، ءكل، ءلف، ءوي، ا، بال، بحث، وغيرُها | jassem-2016-fashion |
 | Costume | `dhaat` | **ذت** | self; of | جذرٌ آخر: ءنا، اسك، ام، بحث، بين، جزء، حلم، خزل، وغيرُها | jassem-2016-fashion |
 | Costume | `kasm` | **كسم** | manner, shape, face; body hugging (cloth) | جذرٌ آخر: خلق، قب، مسح | jassem-2016-fashion |
+| Cottage | `raa2` | **رح** | go | لا مدخلَ عندنا | jassem-2015-urban |
 | Cotton | `quTn` | **قطن** | cotton | نعم | jassem-2016-fashion |
 | Cough | `qa22a` | **قح** | cough | جذرٌ آخر: سعل، كح، نفث | jassem-2013-speech-writing |
 | Cough | `qa2qa2a` | **قحقح** | cough | جذرٌ آخر: سعل، كح، نفث | jassem-2013-speech-writing |
 | Counsel | `raa2` | **رح** | go | لا مدخلَ عندنا | jassem-2015-democratic |
 | Counsel | `qaal` | **قل** | say | جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها | jassem-2015-democratic |
+| Country | `thara` | **ثر** | earth | جذرٌ آخر: ءرض، ءفق، ءل، ءوج، الءرض، الكون، بحثر، برر، وغيرُها | jassem-2015-urban |
+| Country | `quTr` | **قطر** | country; side | نعم | jassem-2015-urban |
+| Couple | `2ibb(at)` | **حب** | lover | نعم | jassem-2013-family |
+| Couple | `ikhwaan` | **خون** | brother | جذرٌ آخر: ءخ، ءخو، العيص، بعم، بول، حم، خال، خو، وغيرُها | jassem-2013-family |
+| Couple | `qabeel` | **قبل** | companion, kissed one | جذرٌ آخر: ءنس، جلي، حب، حسن، خدن، خلط، رفع، رفق، وغيرُها | jassem-2013-family |
 | Course | `qir'` | **قرء** | course, period | نعم | jassem-2013-time |
 | Course | `qarqara(t)` | **قرقر** | talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
 | Court | `2arth` | **حرث** | farming; garden | جذرٌ آخر: ءيك، الفردوس، بست، بستن، بيار، بيت، جرد، جرف، وغيرُها | jassem-2015-democratic |
@@ -619,6 +843,11 @@
 | Crab | `kalb` | **كلب** | dog, clip, grip, crab | نعم | jassem-2013-water-sea |
 | Crab | `marr` | **مر** | pass, water | نعم | jassem-2013-water-sea |
 | Crawl | `rakal` | **ركل** | kick | نعم | jassem-2013-animal |
+| Cream | `qurS` | **قرص** | bread or dough circles or lumps | نعم | jassem-2014-wining-dining |
+| Cream | `qurSaan(at)` | **قرصن** | bread or dough circles or lumps | جذرٌ آخر: خبز، عجن، عيش، فن، قرص | jassem-2014-wining-dining |
+| Cream | `karma` | **كرم** | cream | جذرٌ آخر: برش، بلسم، بوز، بوظ، ثلج، خيض، دهن، دون، وغيرُها | jassem-2014-wining-dining |
+| Create | `Soorat` | **صرت** | illustrate, create | جذرٌ آخر: صور | jassem-2015-life-death |
+| Create | `Sawwar` | **صور** | illustrate, create | نعم | jassem-2015-life-death |
 | Creator | `Soorat` | **صرت** | to fashion, illustrate, create | جذرٌ آخر: جبل، صور، صوغ، فطر، كون | jassem-2014-divine-theological |
 | Creator | `Sawwar` | **صور** | to fashion, illustrate, create | نعم | jassem-2014-divine-theological |
 | Creator | `qarD` | **قرض** | a loan | نعم | jassem-2014-divine-theological |
@@ -626,6 +855,7 @@
 | Credentials | `qadr` | **قدر** | respect, dignity | جذرٌ آخر: حيث، خزي، ذل، عز، كرم، وقر | jassem-2015-democratic |
 | Creek | `Sareek` | **صرك** | creek | جذرٌ آخر: جدل، جعفر، غدر، قري، نبع | jassem-2013-speech-writing |
 | Creep | `2arba` | **حرب** | to creep | جذرٌ آخر: حبو، دب، دبب، دسس، زحف، سلل، عثر، فقس، وغيرُها | jassem-2013-animal |
+| Cremation | `qabr(at)` | **قبر** | grave, hidden | نعم | jassem-2015-life-death |
 | Cross | `ghurz` | **غرز** | a pole, a stake | جذرٌ آخر: الثمن، برن، بو، حرق، حص، خزق، خطر، خطط، وغيرُها | jassem-2014-divine-theological |
 | Crow | `ghuraab` | **غرب** | crow | نعم | jassem-2013-animal |
 | Crown | `'adam` | **ءدم** | people | جذرٌ آخر: ءب، ءم، ءمم، ءنا، ءهل، اس، اصر، التي، وغيرُها | jassem-2015-democratic |
@@ -646,15 +876,22 @@
 | Crown | `yumn(atun)` | **يمنتن** | omen, right hand | جذرٌ آخر: بء، بشر، شءم، شمل، طير، فرط، لمس، مين، وغيرُها | jassem-2015-democratic |
 | Cry | `qarr` | **قر** | talk much | جذرٌ آخر: بق | jassem-2013-speech-writing |
 | Cry | `qarqar` | **قرقر** | talk much | جذرٌ آخر: بق | jassem-2013-speech-writing |
+| Cud liver oil | `2oot` | **حت** | whale, cud | جذرٌ آخر: جتر، جر، جرة، حوت، دغفل، ذخس، عنبر، نين | jassem-2014-wining-dining |
+| Cud liver oil | `ghidhaa'` | **غذء** | food, lunch | جذرٌ آخر: بنت | jassem-2014-wining-dining |
 | Cuff | `kaff` | **كف** | palm of the hand; folding back | نعم | jassem-2016-fashion |
+| Cultivate | `dija(t)` | **دج** | (food-filled) fingers, hand | جذرٌ آخر: بطن، بل، حص، دهق، سود، شوا، صبع، طبق، وغيرُها | jassem-2015-urban |
+| Cultivate | `naqsh` | **نقش** | sign, decoration | جذرٌ آخر: وسم، يش | jassem-2015-urban |
 | Culture | `2aDaara(t)` | **حضر** | urbanity, culture | جذرٌ آخر: ءدب، تري، تش، ثقف، جال، حرث، خلف، دن، وغيرُها | jassem-2013-speech-writing |
 | Cumin | `kammoon` | **كمن** | cumin | جذرٌ آخر: سنو، قزح، كم، مضر | jassem-2016-floral |
+| Cup | `qiraa'` | **قرء** | food | جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها | jassem-2014-wining-dining |
+| Cup | `koop` | **كب** | cup | جذرٌ آخر: برزين، جام، جرس، حجم، حق، شرط، صوع، ظرف، وغيرُها | jassem-2014-wining-dining |
 | Cur | `jaroo` | **جر** | bay dog | جذرٌ آخر: الجذر، باب، باك، بندق، ثعلب، ثغر، جرو، جون، وغيرُها | jassem-2013-animal |
 | Curly Hair | `ghurra(t)` | **غر** | a frontal lock of hair | نعم | jassem-2016-fashion |
 | Current | `jaariyat` | **جريت** | stream, flowing | جذرٌ آخر: درر، دفق، سيل | jassem-2013-water-sea |
 | Current | `jarayaan` | **جرين** | stream, flowing | جذرٌ آخر: درر، دفق، سيل | jassem-2013-water-sea |
 | Curse | `2irz` | **حرز** | a prayer for safety | جذرٌ آخر: ءحيا، ءذن، ءم، ءمن، ءنس، ار، تسل، حرب، وغيرُها | jassem-2014-divine-theological |
 | Daffodil | `saif` | **سف** | sword | جذرٌ آخر: بضع، ترس، حسا، حشش، خل، خنجر، ساف، سطم، وغيرُها | jassem-2016-floral |
+| Dairy | `darr` | **در** | milk, dairy | نعم | jassem-2014-wining-dining |
 | Damage | `jalee` | **جل** | clear | نعم | jassem-2015-military |
 | Damage | `damar` | **دمر** | destroy | نعم | jassem-2015-military |
 | Damage | `dhakar` | **ذكر** | mention | نعم | jassem-2015-military |
@@ -663,7 +900,16 @@
 | Damn | `dhameen` | **ذمن** | dispraise, dispraised | جذرٌ آخر: ذمم، هجو | jassem-2013-speech-writing |
 | Date | `daqal(at)` | **دقل** | (a bad type of) dates | نعم | jassem-2016-floral |
 | Date | `waqt` | **وقت** | time | نعم | jassem-2013-time |
+| Daughter | `ukht` | **خت** | sister | نعم | jassem-2013-family |
+| Dawn | `god` | **جد** | ﻭﺩﻉand related wadee3 | جذرٌ آخر: ءثم، ءرض، ءسماعيل، ءمم، ءهل، اسب، بت، بحر، وغيرُها | jassem-2018-week-days |
+| Dawn | `Sunu` | **صن** | son, uncle | جذرٌ آخر: بعم، صنو | jassem-2018-week-days |
 | Dawn | `Daw` | **ضو** | /Dia | لا مدخلَ عندنا | jassem-2013-time |
+| Dawn | `mata` | **مت** | mid, middle | جذرٌ آخر: زط، نصف، وسط | jassem-2018-week-days |
+| Dawn | `masaa'` | **مسء** | evening | جذرٌ آخر: الليل، روح، سمر، شفق، طلل، عش، عشا، عشو، وغيرُها | jassem-2018-week-days |
+| Dawn | `mushtari` | **مشتر** | Mercury; buyer, seller | جذرٌ آخر: بيع، شتر | jassem-2018-week-days |
+| Dawn | `nahaar` | **نهر** | day | جذرٌ آخر: ءمس، اثن، الءحد، السبت، العرش، الليل، اليوم، بابل، وغيرُها | jassem-2018-week-days |
+| Dawn | `wajd` | **وجد** | strong emotion | نعم | jassem-2018-week-days |
+| Dawn | `yawm` | **يوم** | day | نعم | jassem-2018-week-days |
 | Day | `Dau'` | **ضء** | light | جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها | jassem-2013-time |
 | Dazzle | `2arak` | **حرك** | move | نعم | jassem-2013-air-fire |
 | Dazzle | `Sana3` | **صنع** | design, make, something designed | جذرٌ آخر: بنط، خطط | jassem-2013-air-fire |
@@ -683,6 +929,10 @@
 | Degree | `qadr` | **قدر** | quantity, size, grade | جذرٌ آخر: ضخم، قد، كتلة | jassem-2014-mathematical |
 | Delay | `Taal` | **طل** | to be late/delayed, to take long | جذرٌ آخر: حدث | jassem-2013-time |
 | Delay | `Tawwal` | **طول** | to be late/delayed, to take long | نعم | jassem-2013-time |
+| Delicious | `ladheedh` | **لذ** | delicious | نعم | jassem-2014-wining-dining |
+| Delight | `Talq` | **طلق** | pleasurable, free | نعم | jassem-2014-wining-dining |
+| Deliver | `taagh` | **تغ** | die | جذرٌ آخر: بعد، بيد، تمت، خبو، خسر، خفت، خمد، دثر، وغيرُها | jassem-2015-life-death |
+| Deliver | `walada` | **ولد** | deliver, give birth to | نعم | jassem-2013-family · jassem-2015-life-death |
 | Demand | `ta'ammar` | **تءمر** | order, rule | جذرٌ آخر: ءمر، قان، قضي، نظم | jassem-2013-speech-writing |
 | Demand | `amara` | **مر** | order, rule | جذرٌ آخر: ءمر، قان، قضي، نظم | jassem-2013-speech-writing |
 | Demand | `im(aa)rat` | **مرت** | order, rule | جذرٌ آخر: ءمر، قان، قضي، نظم | jassem-2013-speech-writing |
@@ -720,6 +970,11 @@
 | Diffusion of Nuclear Weapons | `shaaT` | **شط** | scattered, away | جذرٌ آخر: تلش | jassem-2015-military |
 | Diffusion of Nuclear Weapons | `fasha` | **فش** | spread | نعم | jassem-2015-military |
 | Diffusion of Nuclear Weapons | `nafadh` | **نفذ** | penetrate | نعم | jassem-2015-military |
+| Digest | `Taqash` | **طقش** | to eat, to crack | جذرٌ آخر: فطر | jassem-2014-wining-dining |
+| Digest | `Taqshat` | **طقشت** | to eat, to crack | جذرٌ آخر: فطر | jassem-2014-wining-dining |
+| Dine | `Ta3aam` | **طعم** | food, eat | نعم | jassem-2014-wining-dining |
+| Dining room | `'idam` | **ءدم** | food | جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها | jassem-2015-urban |
+| Dip | `dabb` | **دب** | dip, throw into water, beat | جذرٌ آخر: غطس | jassem-2014-wining-dining |
 | Diplomacy | `tanazu3(un)` | **تنزع** | disagreement; uprooting | جذرٌ آخر: بلا، بلي، جذر، خلف، زاع، شقق، عرض، فرق، وغيرُها | jassem-2015-democratic |
 | Diplomacy | `dabal` | **دبل** | double, gather, increase | جذرٌ آخر: ربب، كثر | jassem-2015-democratic |
 | Diplomacy | `dablat(un)` | **دبلت** | plotter, schemer | جذرٌ آخر: دسا | jassem-2015-democratic |
@@ -727,10 +982,12 @@
 | Diplomacy | `shadh` | **شذ** | deviant | جذرٌ آخر: لحد | jassem-2015-democratic |
 | Diplomacy | `naz3(un)` | **نزع** | disagreement; uprooting | جذرٌ آخر: بلا، بلي، جذر، خلف، زاع، شقق، عرض، فرق، وغيرُها | jassem-2015-democratic |
 | Diplomacy | `nazaa3a(tun)` | **نزعتن** | disagreement; uprooting | جذرٌ آخر: بلا، بلي، جذر، خلف، زاع، شقق، عرض، فرق، وغيرُها | jassem-2015-democratic |
+| Direction | `raqa` | **رق** | to ascend, straighten | جذرٌ آخر: سوي، قب | jassem-2015-urban |
 | Dirt | `qadhar` | **قذر** | dirt | نعم | jassem-2013-air-fire |
 | Discourse | `jara` | **جر** | run | جذرٌ آخر: ءبد، ءبق، جرد، جري، جف، جفف، جمز، حصص، وغيرُها | jassem-2013-speech-writing |
 | Discuss | `taqSeeS` | **تقص** | recount | جذرٌ آخر: بلغ، سفر، قص، وصف | jassem-2013-speech-writing |
 | Discuss | `qaSSa` | **قص** | recount | نعم | jassem-2013-speech-writing |
+| Dish | `dasee3a(t)` | **دسع** | dish | جذرٌ آخر: ءكل، باج، بن، بوت، ثرد، ثني، حل، حلو، وغيرُها | jassem-2014-wining-dining |
 | Dispute | `baDa3` | **بضع** | clarify, add | جذرٌ آخر: ابل، بلور، بهر، تبع، جمع، جمل، حرك، خلص، وغيرُها | jassem-2013-speech-writing |
 | Dispute | `tasmee3` | **تسمع** | hearing | جذرٌ آخر: ءذن، بوم، جلس، ساع، سك، سم، سمع، صغ، وغيرُها | jassem-2013-speech-writing |
 | Dispute | `sama3(aan)` | **سمعن** | hearing | جذرٌ آخر: ءذن، بوم، جلس، ساع، سك، سم، سمع، صغ، وغيرُها | jassem-2013-speech-writing |
@@ -741,6 +998,10 @@
 | Distance | `jatha` | **جث** | sit | جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها | jassem-2014-mathematical |
 | Distance | `shatta` | **شت** | far, apart, distant | جذرٌ آخر: بعد | jassem-2014-mathematical |
 | Distance | `Tashsha` | **طش** | spread, apart | جذرٌ آخر: طير، عزل | jassem-2014-mathematical |
+| Distill | `'adda` | **ءد** | do, perform | جذرٌ آخر: ءدي، ءمر، برر، بغي، بوت، جدر، جذر، جرح، وغيرُها | jassem-2014-wining-dining |
+| Distill | `'adaa'` | **ءدء** | do, perform | جذرٌ آخر: ءدي، ءمر، برر، بغي، بوت، جدر، جذر، جرح، وغيرُها | jassem-2014-wining-dining |
+| Distill | `Tilaa'` | **طلء** | cooking until two thirds go | جذرٌ آخر: دام | jassem-2014-wining-dining |
+| District | `Tareeq(at)` | **طرق** | road, way | نعم | jassem-2015-urban |
 | Diurnal | `ra3d` | **رعد** | thunder | نعم | jassem-2013-time |
 | Diurnal | `sabt` | **سبت** | Saturday, fixation, rest, time | نعم | jassem-2013-time |
 | Diurnal | `shams` | **شمس** | sun | نعم | jassem-2013-time |
@@ -760,21 +1021,28 @@
 | Divine | `'anTa` | **ءنط** | give | جذرٌ آخر: ءبر، ءثر، ءجر، ءحيا، ءخ، ءدر، ءدي، ءذعن، وغيرُها | jassem-2014-divine-theological |
 | Divine | `deen` | **دن** | religion, subordination | جذرٌ آخر: تبع | jassem-2014-divine-theological |
 | Divine | `Dau'` | **ضء** | light | جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها | jassem-2014-divine-theological |
+| Divorce | `tafreeq` | **تفرق** | divorce, separation, division | جذرٌ آخر: بد، بين، عزل، وزع | jassem-2013-family |
+| Divorce | `firaaq` | **فرق** | divorce, separation, division | نعم | jassem-2013-family |
+| Dizzy | `Taayesh` | **طيش** | foolish, aimless; lit., float | جذرٌ آخر: ءبله، بله، جهل، حمق، درج، دوي، رعن، رمث، وغيرُها | jassem-2015-life-death |
 | Dog | `ba3d` | **بعد** | after | نعم | jassem-2013-animal |
 | Dog | `ghoula(t)` | **غل** | ghoul | جذرٌ آخر: غول | jassem-2013-animal |
 | Dog | `qirda(t)` | **قرد** | ape | نعم | jassem-2013-animal |
 | Dog | `hirr` | **هر** | cat | نعم | jassem-2013-animal |
 | Donkey | `2iSaan` | **حصن** | male horse | نعم | jassem-2013-animal |
 | Donkey | `haa3` | **هع** | sound of donkey | جذرٌ آخر: ءتان، ءث، ءن، ءنس، ءوه، بد، بر، بغل، وغيرُها | jassem-2013-animal |
+| Door | `daar` | **در** | house | جذرٌ آخر: ءجر، ءرض، ءوي، اشر، برج، بغي، بوت، بيت، وغيرُها | jassem-2015-urban |
 | Dot | `nuqTa(t)` | **نقط** | dot | نعم | jassem-2013-speech-writing |
 | Double | `dabal` | **دبل** | to double | جذرٌ آخر: ء، ثني، جفت، جوز، حدء، خنجر، دنا، ديبوذ، وغيرُها | jassem-2014-mathematical |
 | Double | `zauj(aan)` | **زجن** | a couple, pair | جذرٌ آخر: زوج، فرد، قار | jassem-2014-mathematical |
 | Dove | `Do3a(t)` | **ضع** | chicken-like bird | جذرٌ آخر: ديك، رخخ، شحم، صوص، عرن، عشش، فرخ، قار، وغيرُها | jassem-2013-animal |
 | Dove | `wird` | **ورد** | bird group | نعم | jassem-2013-animal |
 | Down | `doon` | **دن** | below, underneath, low, down | جذرٌ آخر: تحت | jassem-2014-prepositions |
+| Doze | `suhaad` | **سهد** | sleep | نعم | jassem-2015-life-death |
 | Draw | `jarra` | **جر** | draw | نعم | jassem-2013-speech-writing · jassem-2014-mathematical |
+| Dream | `'urdun` | **ءردن** | sleep | جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها | jassem-2015-life-death |
+| Dream | `saadir` | **سدر** | dizziness | جذرٌ آخر: دوخ، دور، ميد | jassem-2015-life-death |
 | Drench | `(in)Tarash` | **نطرش** | throw water | جذرٌ آخر: زرق، صرع، وحل | jassem-2013-water-sea |
-| Drink | `Tarqa3` | **طرقع** | drink | جذرٌ آخر: ءسقي، بتع، برد، بلع، بير، ترق، ثمل، جرع، وغيرُها | jassem-2013-water-sea |
+| Drink | `Tarqa3` | **طرقع** | drink | جذرٌ آخر: ءسقي، بتع، برد، بلع، بير، ترق، ثمل، جرع، وغيرُها | jassem-2013-water-sea · jassem-2014-wining-dining |
 | Drip | `danaa` | **دن** | go down | جذرٌ آخر: ءث، ءثر، ءلي، ءمر، ءنس، ءود، برك، بطح، وغيرُها | jassem-2013-water-sea |
 | Drip | `zarab` | **زرب** | drop | جذرٌ آخر: ءسلم، بعثر، تر، تل، حذف، خدر، خرر، خفض، وغيرُها | jassem-2013-water-sea |
 | Drizzle | `radhaadh` | **رذ** | drizzle | نعم | jassem-2013-water-sea |
@@ -796,6 +1064,8 @@
 | Duty | `aqSa` | **قص** | furthest | جذرٌ آخر: زحل، قصو | jassem-2015-military |
 | Duty | `mashriq` | **مشرق** | east, sunrise | جذرٌ آخر: شرق | jassem-2014-divine-theological |
 | Duty | `wadee3a` | **ودع** | deposit, trust | نعم | jassem-2014-divine-theological |
+| Dwell | `banak` | **بنك** | stay | جذرٌ آخر: ءبد، ءبن، بقي، بن، بيت، تنخ، ثمل، جنب، وغيرُها | jassem-2015-urban |
+| Dwell | `Dalla` | **ضل** | to mislead, deceive | نعم | jassem-2015-urban |
 | Each | `biD3` | **بضع** | few | نعم | jassem-2012-determiners |
 | Each | `ba3D` | **بعض** | some, 3-9 | لا مدخلَ عندنا | jassem-2012-determiners |
 | Each | `thak` | **ثك** | that | لا مدخلَ عندنا | jassem-2012-determiners |
@@ -828,6 +1098,9 @@
 | Early | `faina(t)` | **فن** | short time | جذرٌ آخر: ءني، با، بقي، ثمم، جوو، حرك، خير، ساعة، وغيرُها | jassem-2013-time |
 | Early | `awwali` | **ول** | first, one | نعم | jassem-2013-time |
 | Early | `a(w)an` | **ون** | time, now | جذرٌ آخر: ءما، جود، جوو، حال، خفق، دبر، راه، ريق، وغيرُها | jassem-2013-time |
+| East | `sharq` | **شرق** | east | نعم | jassem-2015-life-death |
+| East | `mashriq` | **مشرق** | east | جذرٌ آخر: ءذربيجان، ءرد، ءير، الست، النسطورية، اليمن، بال، بعث، وغيرُها | jassem-2015-life-death |
+| Eat | `3asha` | **عش** | eat | نعم | jassem-2014-wining-dining |
 | Ecclesiastical | `3an` | **عن** | on | لا مدخلَ عندنا | jassem-2014-divine-theological |
 | Ecclesiastical | `fooh(at)` | **فه** | start of the road | جذرٌ آخر: شرع | jassem-2014-divine-theological |
 | Ecclesiastical | `kanees(at)` | **كنس** | church | نعم | jassem-2014-divine-theological |
@@ -837,6 +1110,9 @@
 | Eel | `ilaaha(t)` | **له** | big snake | جذرٌ آخر: ءثجل، ءذن، ءسد، ءفع، بجح، برص، بط، بطن، وغيرُها | jassem-2013-animal |
 | Effervescent | `fawara` | **فور** | effervescent, boiling | نعم | jassem-2013-water-sea |
 | Effervescent | `maSl` | **مصل** | cheese liquid | نعم | jassem-2013-water-sea |
+| Egg | `samm` | **سم** | poison, a chemical | نعم | jassem-2014-wining-dining |
+| Egg | `famm` | **فم** | mouth | نعم | jassem-2014-wining-dining |
+| Egg | `maSl` | **مصل** | milk water | نعم | jassem-2014-wining-dining |
 | Egg Plant | `dajaj` | **دج** | chicken, hens | جذرٌ آخر: بيض، حمق، ديك، روع، صوص، فا، فرخ، فشل | jassem-2016-floral |
 | Eight | `'awalan` | **ءولن** | one, first | جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها | jassem-2014-mathematical |
 | Eight | `tis3` | **تسع** | nine | نعم | jassem-2014-mathematical |
@@ -852,7 +1128,9 @@
 | Emancipation | `mu3allam` | **معلم** | sign, mark | جذرٌ آخر: ءثر، ءيي، سيم، شعر، عذق، فتح، قاب، كسر، وغيرُها | jassem-2015-democratic |
 | Emancipation | `wa3d` | **وعد** | pledge, promise | نعم | jassem-2015-democratic |
 | Embroidery | `burda(t)` | **برد** | a strapped dress | جذرٌ آخر: ءل، بدل، بذل، برنس، بهر، ثوب، جلبب، دبج، وغيرُها | jassem-2016-fashion |
-| Emperor | `'ameer` | **ءمر** | ruler, prince | نعم | jassem-2019-mr |
+| Emperor | `'ameer` | **ءمر** | ruler, prince | نعم | jassem-2019-mr · jassem-2015-radical-translation-names |
+| Emperor | `qaa3` | **قع** | earth | جذرٌ آخر: ءرض، ءفق، ءل، ءوج، الءرض، الكون، بحثر، برر، وغيرُها | jassem-2015-radical-translation-names |
+| Emperor | `naqla(t)` | **نقل** | a wide, short arrow | جذرٌ آخر: سدس | jassem-2015-radical-translation-names |
 | Enemy | `2ameem` | **حم** | close friend | جذرٌ آخر: ءنس، جي، خدن، خلل، رفق، نيس، ولي | jassem-2015-military |
 | Enemy | `3an` | **عن** | on, from | لا مدخلَ عندنا | jassem-2015-military |
 | Enemy | `wa3d` | **وعد** | pledge, promise | نعم | jassem-2015-military |
@@ -865,6 +1143,7 @@
 | Entreat | `dar(r)a` | **در** | know, tell | جذرٌ آخر: خبر، سمع، طلع | jassem-2013-speech-writing |
 | Entreat | `diraiat` | **درت** | know, tell | جذرٌ آخر: خبر، سمع، طلع | jassem-2013-speech-writing |
 | Entreat | `istabyan` | **ستبين** | clarify | جذرٌ آخر: بلور، خلص، روق، سلك، صرح، صفو، فسر، نور، وغيرُها | jassem-2013-speech-writing |
+| Epitaph | `jadath` | **جدث** | grave | جذرٌ آخر: ءمر، بء، بقر، بلغ، جدد، جدي، جسي، دف، وغيرُها | jassem-2015-life-death |
 | Equal | `qeema(t)` | **قم** | value, price, estimation | جذرٌ آخر: ثمن، جنس، حسب، رخص، غلا | jassem-2014-mathematical |
 | Error | `raa2a` | **رح** | go | لا مدخلَ عندنا | jassem-2014-divine-theological |
 | Error | `zakee` | **زك** | beautiful, delicious, good | جذرٌ آخر: بهج، جمل، جود، حسن، حيل، زين، صبح، فن، وغيرُها | jassem-2014-divine-theological |
@@ -873,6 +1152,7 @@
 | Error | `munaji` | **منج** | caller | جذرٌ آخر: زور | jassem-2014-divine-theological |
 | Error | `naji` | **نج** | caller | جذرٌ آخر: زور | jassem-2014-divine-theological |
 | Error | `waahi` | **وه** | clever, good | جذرٌ آخر: ءثر، ءمر، ءنس، ءول، اع، بب، بخر، برر، وغيرُها | jassem-2014-divine-theological |
+| Essence | `yakoon` | **يكن** | to be | لا مدخلَ عندنا | jassem-2015-life-death |
 | Even | `ithnan` | **ثن** | two | نعم | jassem-2014-mathematical |
 | Eventually | `intaha` | **نته** | end | جذرٌ آخر: ءبد، ءخر، ءلي، ءول، اسب، اه، بء، بطل، وغيرُها | jassem-2013-time |
 | Eventually | `nihayat` | **نهيت** | end | جذرٌ آخر: ءبد، ءخر، ءلي، ءول، اسب، اه، بء، بطل، وغيرُها | jassem-2013-time |
@@ -907,6 +1187,9 @@
 | Except | `aqSa` | **قص** | out, farthest | جذرٌ آخر: بعد | jassem-2014-prepositions |
 | Excrete | `khara` | **خر** | excrete, stool | جذرٌ آخر: برز | jassem-2013-air-fire |
 | Excrete | `fasa` | **فس** | (n) or faSS, fuSooS (pl.) | لا مدخلَ عندنا | jassem-2013-air-fire |
+| Existence | `dukhaan` | **دخن** | smoke | نعم | jassem-2015-life-death |
+| Existence | `dakhnat` | **دخنت** | smoke | جذرٌ آخر: ءوم، جدب، حشش، دخن، ردن، شوي، شيش، عجج، وغيرُها | jassem-2015-life-death |
+| Existence | `aqSa` | **قص** | farthest, out | جذرٌ آخر: بعد | jassem-2015-life-death |
 | Expedition | `baadd` | **بد** | inner thigh | جذرٌ آخر: ءحح، بطن، تبت، ترمس، جفت، جم، جوف، جول، وغيرُها | jassem-2015-military |
 | Expedition | `istibTa'(atun)` | **ستبطءتن** | slowing down | جذرٌ آخر: ءث، ءثر، ءلي، ءمر، ءنس، ءود، برك، بطح، وغيرُها | jassem-2015-military |
 | Expedition | `Tabal` | **طبل** | to drum out; to hit with hands | نعم | jassem-2015-military |
@@ -933,11 +1216,17 @@
 | False | `zaif` | **زف** | false | جذرٌ آخر: برنج، بطل، بهت، بهر، جثث، خرط، خطء، خون، وغيرُها | jassem-2014-divine-theological |
 | False | `Saam` | **صم** | to fast | جذرٌ آخر: بء، حرجل، خرط، خفد، ذرو، ربط، رتب، رخي، وغيرُها | jassem-2014-divine-theological |
 | Fame | `sami3a` | **سمع** | hear, fame | نعم | jassem-2013-speech-writing |
-| Farm | `thamar` | **ثمر** | fruit; farming | نعم | jassem-2016-floral |
+| Family | `zameel` | **زمل** | friend, servant | جذرٌ آخر: ءنس، بني، تبع، جي، حب، حبب، خدر، خدم، وغيرُها | jassem-2013-family |
+| Farm | `thamar` | **ثمر** | fruit; farming | نعم | jassem-2016-floral · jassem-2015-urban |
 | Fart | `DaraT` | **ضرط** | fart | نعم | jassem-2013-air-fire |
 | Fart | `faraT` | **فرط** | fart | جذرٌ آخر: حبق، حزق، روح، ضرط، فخ، فسا، فسو، فوخ، وغيرُها | jassem-2013-air-fire |
+| Fat | `zait` | **زت** | oil | جذرٌ آخر: ءبهل، بءر، بست، بقل، بور، بول، بير، جفت، وغيرُها | jassem-2014-wining-dining |
+| Fatal | `faraq(at)` | **فرق** | fear, sorrow | نعم | jassem-2015-life-death |
+| Fatal | `faTT(at)` | **فط** | lit., jump; madness | جذرٌ آخر: جمز، جن، جندب، رمز، سعر، شرق، شعل، صول، وغيرُها | jassem-2015-life-death |
+| Fatal | `wafaat` | **وفت** | death | جذرٌ آخر: بعد، جني، جهنم، حرق، حضر، حما، حمل، خسر، وغيرُها | jassem-2015-life-death |
 | Father | `'abb` | **ءب** | father | نعم | jassem-2014-divine-theological |
 | Father | `'abat` | **ءبت** | father | نعم | jassem-2014-divine-theological |
+| Father | `abat` | **بت** | father | جذرٌ آخر: ءب، ءبا، ءبب، ءبت، ءبو، ءبي، ءس، باب، وغيرُها | jassem-2013-family |
 | Fatigues | `fataq` | **فتق** | of clothes, to rip, rupture | نعم | jassem-2016-fashion |
 | Fault | `basT` | **بسط** | joyfulness | لا مدخلَ عندنا | jassem-2014-divine-theological |
 | Fault | `fara2` | **فرح** | happiness | نعم | jassem-2014-divine-theological |
@@ -948,7 +1237,11 @@
 | Feather | `farrooj` | **فرج** | young chicken | جذرٌ آخر: صوص، فرخ | jassem-2013-animal |
 | Feather | `farwat` | **فروت** | wool, fur | جذرٌ آخر: ثعلب، شعث، فرو | jassem-2013-animal |
 | Fellow | `bairaq` | **برق** | cloth ensign | جذرٌ آخر: را | jassem-2015-democratic |
-| Fellow | `wali` | **ول** | fellow, follower | جذرٌ آخر: شرك | jassem-2015-democratic |
+| Fellow | `wali` | **ول** | fellow, follower | جذرٌ آخر: شرك | jassem-2015-democratic · jassem-2013-family |
+| Female | `mu'annath` | **مءنث** | female, woman | جذرٌ آخر: ءث، ءذربيجان، ءنث، بز، جارية، جز، حق، خنث، وغيرُها | jassem-2013-family |
+| Female | `untha` | **نث** | female, woman | جذرٌ آخر: ءث، ءذربيجان، ءنث، بز، جارية، جز، حق، خنث، وغيرُها | jassem-2013-family |
+| Fermentation | `khamran(at)` | **خمرن** | fermentation | جذرٌ آخر: بوظ، خلل، خمر، سو، صطر، مزر | jassem-2014-wining-dining |
+| Feudal | `faddad` | **فد** | rich landlord | جذرٌ آخر: توف، جلجل، حفل، حيو، درر، دسم، دهق، زخر، وغيرُها | jassem-2015-urban |
 | Few | `baqi(at)` | **بق** | remnant, leftover, small, trace | جذرٌ آخر: ءس، ظل، نزر | jassem-2014-mathematical |
 | Few | `baqaya` | **بقي** | remnant, leftover, small, trace | جذرٌ آخر: ءس، ظل، نزر | jassem-2014-mathematical |
 | Few | `furr(at)` | **فر** | head, chief; first, beginning, choicest | جذرٌ آخر: قدم | jassem-2014-mathematical |
@@ -966,11 +1259,15 @@
 | First | `2adi` | **حد** | first | جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها | jassem-2012-numerals |
 | First | `awwal` | **ول** | first | نعم | jassem-2012-numerals |
 | Fish | `saaToor` | **سطر** | long, big knife | نعم | jassem-2013-water-sea |
+| Fish | `salfa(t)` | **سلف** | raw meat | جذرٌ آخر: باك، بردع، بشر، بقل، جرم، جزر، جوذاب، خات، وغيرُها | jassem-2014-wining-dining |
+| Fish | `samak` | **سمك** | fish | نعم | jassem-2014-wining-dining |
+| Fish | `full(at)` | **فل** | flower | جذرٌ آخر: ببر، بتل، برعم، بزم، بنفسج، تاج، دق، دقق، وغيرُها | jassem-2014-wining-dining |
 | Fish | `qiT` | **قط** | cat | نعم | jassem-2013-water-sea |
 | Five | `banan(at)` | **بن** | finger(s) | نعم | jassem-2014-mathematical |
 | Five | `khams(at)` | **خمس** | five | نعم | jassem-2012-numerals · jassem-2014-mathematical |
 | Flame | `fa2am` | **فحم** | fire leftovers | جذرٌ آخر: ثفي، جحم، جذو، حرق، حطب، حمر، خلو، دفء، وغيرُها | jassem-2013-air-fire |
 | Flash | `laSf` | **لصف** | flash | جذرٌ آخر: ءلق، البرق، برق، زين، شع، لءلء، لمع، محص، وغيرُها | jassem-2013-air-fire |
+| Flat | `falTa2` | **فلطح** | sloping (land); flat (foot) | جذرٌ آخر: صطب، يد | jassem-2015-urban |
 | Fleece | `rafala` | **رفل** | of clothes, to hang down loose, move or shake around legs | جذرٌ آخر: عقد | jassem-2016-fashion |
 | Fleet | `fulk` | **فلك** | ships | جذرٌ آخر: ار، بحر، رس، رفء، سطح، ظهر، كنث، مين، وغيرُها | jassem-2013-water-sea |
 | Flood | `saal` | **سل** | flow | جذرٌ آخر: ءتءة، ثخن، ثور، جري، حبس، حفل، حنف، حيض، وغيرُها | jassem-2013-water-sea |
@@ -997,23 +1294,39 @@
 | Fog | `naafoorat` | **نفرت** | fountain | جذرٌ آخر: سبل، عين، فسق، نبع، نفر | jassem-2013-water-sea |
 | Fold | `laffa` | **لف** | fold, tie, bend, roll, wrap; group | نعم | jassem-2014-mathematical |
 | Folio | `leef` | **لف** | fiber | جذرٌ آخر: اد، خيط، شبك، قطن، كت | jassem-2016-floral |
+| Food | `fadaa'` | **فدء** | food: dates, wheat, and barley | جذرٌ آخر: جرم | jassem-2014-wining-dining |
 | Foot | `ibT` | **بط** | armpit | نعم | jassem-2014-mathematical |
+| Ford | `'atoon` | **ءتن** | hearth, fireplace | جذرٌ آخر: دفء، قد، كان، وقد | jassem-2018-place-names |
+| Ford | `'aqaam` | **ءقم** | to stay | جذرٌ آخر: ءبد، ءبن، بقي، بن، بيت، تنخ، ثمل، جنب، وغيرُها | jassem-2018-place-names |
+| Ford | `ba3eed` | **بعد** | far | نعم | jassem-2018-place-names |
+| Ford | `shaq` | **شق** | cut, division | جذرٌ آخر: جزء، شعب، عزل، فصل، قسم، قط، قطع | jassem-2018-place-names |
+| Ford | `qira'at` | **قرءت** | reading | جذرٌ آخر: حزب، صحف، ضد، قرء، كتب | jassem-2018-place-names |
+| Ford | `qariat` | **قرت** | village, town | جذرٌ آخر: بلد، ثون، حضر، زنق، زوف، ضيع | jassem-2018-place-names |
+| Ford | `qilz` | **قلز** | dark | جذرٌ آخر: ءزر، بهم، بور، حبر، حسن، حلك، حنتم، حو، وغيرُها | jassem-2018-place-names |
+| Ford | `lubb` | **لب** | inner; heart | نعم | jassem-2018-place-names |
 | Forgive | `ghafar` | **غفر** | to forgive | نعم | jassem-2014-divine-theological |
 | Fork | `farraaq(at)` | **فرق** | divider; fork | جذرٌ آخر: ءفع، الجذر، ثعب، حجز، حنش، حي، ذرا، ذرو، وغيرُها | jassem-2019-frk |
 | Fork | `farqat` | **فرقت** | divider; fork | جذرٌ آخر: ءفع، الجذر، ثعب، حجز، حنش، حي، ذرا، ذرو، وغيرُها | jassem-2019-frk |
 | Fortune | `tharwa(t)` | **ثرو** | wealth, fortune | نعم | jassem-2014-divine-theological |
+| Foster | `thalj` | **ثلج** | snow | نعم | jassem-2014-wining-dining |
+| Foster | `faTara` | **فطر** | to milk | جذرٌ آخر: ءقط، بري، بز، بيض، توع، توف، ثدي، جبن، وغيرُها | jassem-2013-family · jassem-2014-wining-dining |
 | Foul | `ba3r` | **بعر** | foul | جذرٌ آخر: ءجن، بخر، خم، دفع، دمل، دمن، سوء، صن، وغيرُها | jassem-2013-animal |
 | Four | `arba3(at)` | **ربع** | four | نعم | jassem-2012-numerals · jassem-2014-mathematical |
 | Fowl | `3aSfoor` | **عصفر** | bird | جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها | jassem-2013-animal |
 | Fraction | `farkath` | **فركث** | to break (bread) | جذرٌ آخر: النواة، حل، فقع، لا | jassem-2014-mathematical |
+| Free | `shi3ra` | **شعر** | a star | جذرٌ آخر: ءلق، الثور، الدلو، السنبلة، الشمس، اللفظ، باض، بقر، وغيرُها | jassem-2018-week-days |
+| Free | `Du2a` | **ضح** | forenoon | جذرٌ آخر: صبح، ضحا، ضحو | jassem-2016-entirely-arabic |
+| Free | `ghad` | **غد** | tomorrow | نعم | jassem-2016-entirely-arabic |
 | Free | `faraj` | **فرج** | to set free | جذرٌ آخر: حر، خلو، سرح، سيب، طلق، عتق، عمل، فدي، وغيرُها | jassem-2015-democratic |
+| Free | `fari2` | **فرح** | joyful | نعم | jassem-2016-entirely-arabic · jassem-2018-week-days |
+| Free | `far2aan(at)` | **فرحن** | happy, to be happy | جذرٌ آخر: ءنس، بسط، بسم، بش، بشر، بشش، بهج، حبر، وغيرُها | jassem-2018-week-days |
 | Free Army | `fari2a` | **فرح** | happy | نعم | jassem-2015-military |
 | Free Army | `far2aan(at)` | **فرحن** | happy | جذرٌ آخر: ءنس، بسط، بسم، بش، بشر، بشش، بهج، حبر، وغيرُها | jassem-2015-military |
 | Free Army | `finneera(t)` | **فنر** | nose | جذرٌ آخر: ءنف، باك، بر، بلج، بوز، حرم، حيا، خر، وغيرُها | jassem-2015-military |
 | Friar | `farT` | **فرط** | baby, child | جذرٌ آخر: ءمم، الذي، رب، شب، طفل، ما، ولد | jassem-2014-divine-theological |
 | Fridge | `thalj` | **ثلج** | snow | نعم | jassem-2013-water-sea |
-| Friend | `fari2a` | **فرح** | happy | نعم | jassem-2015-democratic |
-| Friend | `far2aan(at)` | **فرحن** | happy | جذرٌ آخر: ءنس، بسط، بسم، بش، بشر، بشش، بهج، حبر، وغيرُها | jassem-2015-democratic |
+| Friend | `fari2a` | **فرح** | happy | نعم | jassem-2015-democratic · jassem-2013-family |
+| Friend | `far2aan(at)` | **فرحن** | happy | جذرٌ آخر: ءنس، بسط، بسم، بش، بشر، بشش، بهج، حبر، وغيرُها | jassem-2015-democratic · jassem-2013-family |
 | Frog | `wirriq` | **ورق** | frog | جذرٌ آخر: جر، ضفدع، علج، قيق، مسخ، نق | jassem-2013-animal |
 | From | `'idh(a)` | **ءذ** | if | لا مدخلَ عندنا | jassem-2014-prepositions |
 | From | `'ul` | **ءل** | one, first | جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها | jassem-2014-prepositions |
@@ -1027,9 +1340,11 @@
 | From | `inna(ma)` | **نم** | intensifier | جذرٌ آخر: فس، لعو | jassem-2014-prepositions |
 | Front | `finneera(t)` | **فنر** | nose | جذرٌ آخر: ءنف، باك، بر، بلج، بوز، حرم، حيا، خر، وغيرُها | jassem-2015-democratic |
 | Froth | `samoom` | **سم** | hot wind | نعم | jassem-2013-water-sea |
-| Fruit | `thamar(at)` | **ثمر** | fruit | نعم | jassem-2016-floral |
+| Fruit | `thamar(at)` | **ثمر** | fruit | نعم | jassem-2016-floral · jassem-2014-wining-dining |
 | Fruit | `far2(at)` | **فرح** | happiness | نعم | jassem-2016-floral |
 | Fume | `fa2am` | **فحم** | fire black | جذرٌ آخر: ءدم، برج، برنج، بطيخ، ثفي، جحم، جذو، جر، وغيرُها | jassem-2013-air-fire |
+| Funeral | `fania` | **فن** | end, vanish | جذرٌ آخر: ختف، ذهب، طلق، غيب، فني، هلك | jassem-2015-life-death |
+| Funeral | `fanaa'` | **فنء** | end, vanish | جذرٌ آخر: ختف، ذهب، طلق، غيب، فني، هلك | jassem-2015-life-death |
 | Fungus | `isfanj` | **سفنج** | a tree root or branch good for treating bad wounds; sponge | نعم | jassem-2016-floral |
 | Fur | `ghutra(t)` | **غتر** | head cover; a covering | جذرٌ آخر: برقع، خمر، ستر، طبق، قاب | jassem-2016-fashion |
 | Fur | `farra` | **فر** | to unfurl, untie, unloosen | جذرٌ آخر: فك | jassem-2016-fashion |
@@ -1046,29 +1361,50 @@
 | Futile | `dawala` | **دول** | circulate, utilize | نعم | jassem-2014-divine-theological |
 | Future | `fatra(t)` | **فتر** | a limited period | نعم | jassem-2013-time |
 | Game | `qanS` | **قنص** | to game-hunt | نعم | jassem-2013-animal |
-| Garden | `jidar` | **جدر** | wall; garden | نعم | jassem-2016-floral |
-| Garden | `judran` | **جدرن** | wall; garden | جذرٌ آخر: ءيك، الفردوس، باء، بست، بستن، بني، بيار، بيت، وغيرُها | jassem-2016-floral |
+| Gang | `jaa'a` | **جء** | come | جذرٌ آخر: ءتي، ءج، ءخر، ءمر، ءمل، ءني، ءهل، ءوب، وغيرُها | jassem-2015-urban |
+| Garden | `jidar` | **جدر** | wall; garden | نعم | jassem-2016-floral · jassem-2015-urban |
+| Garden | `judran` | **جدرن** | wall; garden | جذرٌ آخر: ءيك، الفردوس، باء، بست، بستن، بني، بيار، بيت، وغيرُها | jassem-2016-floral · jassem-2015-urban |
+| Garden | `qariat` | **قرت** | village, town | جذرٌ آخر: بلد، ثون، حضر، زنق، زوف، ضيع | jassem-2015-urban |
 | Garden of Eden | `jidaar` | **جدر** | wall, enclosure, garden, orchard | نعم | jassem-2014-divine-theological |
 | Garden of Eden | `judraan` | **جدرن** | wall, enclosure, garden, orchard | جذرٌ آخر: ءيك، بست، بيار، حجر، حوش، خرف | jassem-2014-divine-theological |
 | Garden of Eden | `3adn` | **عدن** | happiness, stay | نعم | jassem-2014-divine-theological |
 | Garden of Eden | `qudus` | **قدس** | sacred, holy, angel (Gabriel) | نعم | jassem-2014-divine-theological |
+| Gargle | `gharghar` | **غرغر** | gargle | لا مدخلَ عندنا | jassem-2014-wining-dining |
+| Garlic | `Sagheer` | **صغر** | small (boy), servant | نعم | jassem-2014-wining-dining |
+| Garlic | `3aSal` | **عصل** | leech | جذرٌ آخر: علق | jassem-2014-wining-dining |
+| Garlic | `3aiSalaan` | **عصلن** | leech | جذرٌ آخر: علق | jassem-2014-wining-dining |
 | Garlic | `qurra(t)` | **قر** | watercress | لا مدخلَ عندنا | jassem-2016-floral |
 | Garment | `qiraam` | **قرم** | a cover | جذرٌ آخر: ءجن، ءزر، النواة، بردع، برقع، ترب، ترس، تستر، وغيرُها | jassem-2016-fashion |
 | Gas | `ghaaz` | **غز** | gas | جذرٌ آخر: بءر، بير، جشء، حبس، دفق، راد، رب، رغو، وغيرُها | jassem-2013-air-fire |
+| Gate | `qariat` | **قرت** | village, town | جذرٌ آخر: بلد، ثون، حضر، زنق، زوف، ضيع | jassem-2015-urban |
+| Genealogy | `jins` | **جنس** | sex, genus, kind | نعم | jassem-2013-family |
 | Generation | `jins` | **جنس** | sex, kind | نعم | jassem-2013-time |
 | Generation | `qarn` | **قرن** | generation, horn, like, equal | نعم | jassem-2013-time |
+| Generous | `2uloo` | **حل** | sweet | جذرٌ آخر: بطط، ثمر، جزر، جعد، جهل، حلم، حلو، حلي، وغيرُها | jassem-2014-wining-dining |
+| Generous | `kareem(at)` | **كرم** | generous, kind | نعم | jassem-2014-wining-dining |
 | Gesture | `ishaara(t)` | **شر** | sign | جذرٌ آخر: ءثر، ءية، ءيي، اتم، الءسد، الثور، الجدي، الحوت، وغيرُها | jassem-2013-speech-writing |
 | Gesture | `qarqar` | **قرقر** | talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
+| Get up | `aiqaDh` | **قظ** | wake, get up | جذرٌ آخر: صبح | jassem-2015-life-death |
 | Ginger | `zanjabeel` | **زنجبل** | ginger | جذرٌ آخر: زنجبيل، صهب، كركم | jassem-2016-floral |
 | Girdle | `'iqleed` | **ءقلد** | a strap, string, rope | جذرٌ آخر: شرط | jassem-2016-fashion |
+| Girl | `jadd` | **جد** | grandfather | نعم | jassem-2013-family |
+| Girl | `jaaria(t)` | **جر** | young girl | جذرٌ آخر: بز، بنت، ثوب، در، صب، طفل، فتا، فست | jassem-2013-family |
+| Girl | `ghundar` | **غندر** | soft servant, child; fat and tough; proud and beautiful | جذرٌ آخر: بن، بهي، جمل، شحم، صبو، طول، غلم، فتي، وغيرُها | jassem-2013-family |
+| Girl | `qinTaar` | **قنطر** | 1000, huge amount | جذرٌ آخر: ءجر، بد، بدر، بعد، بعض، بلغ، بنس، بني، وغيرُها | jassem-2013-family |
 | Glacier | `jaleed` | **جلد** | ice | نعم | jassem-2013-water-sea |
 | Gloss | `asalat` | **سلت** | tongue edge | جذرٌ آخر: ءنس، الفرات، اه، تء، جال، جد، جرس، جلل، وغيرُها | jassem-2013-speech-writing |
 | Gloss | `Saqal` | **صقل** | polish | نعم | jassem-2013-speech-writing |
 | Glow | `ghala` | **غل** | burn, boil | جذرٌ آخر: شيط | jassem-2013-air-fire |
 | Gnat | `namoosat` | **نمست** | gnat | جذرٌ آخر: بعض، رعع | jassem-2013-animal |
 | Goat | `jadee` | **جد** | baby male goat | نعم | jassem-2013-animal |
-| God | `jadd` | **جد** | grandfather | نعم | jassem-2014-divine-theological |
+| God | `jadd` | **جد** | grandfather | نعم | jassem-2014-divine-theological · jassem-2015-radical-translation-names |
+| God | `2aalool` | **حل** | hail; frozen snow balls | جذرٌ آخر: برد | jassem-2015-radical-translation-names |
+| God | `3ijl` | **عجل** | bull, bull owner | نعم | jassem-2015-radical-translation-names |
 | God | `qibla(t)` | **قبل** | prayer direction | نعم | jassem-2014-divine-theological |
+| God | `Allah` | **له** | God | نعم | jassem-2015-radical-translation-names |
+| Good | `jood` | **جد** | good, fine, generous | نعم | jassem-2016-entirely-arabic |
+| Good | `jaiyed` | **جيد** | good, fine, generous | نعم | jassem-2016-entirely-arabic |
+| Good | `3an` | **عن** | about, on | نعم | jassem-2016-entirely-arabic |
 | Good | `ghad` | **غد** | tomorrow | نعم | jassem-2013-time |
 | Goose | `'awz` | **ءوز** | goose | جذرٌ آخر: بيض، درج، فرغل، قشعر، وز، وزز، وزي | jassem-2013-animal |
 | Goose | `khadsh` | **خدش** | scratch | نعم | jassem-2013-animal |
@@ -1084,24 +1420,33 @@
 | Grace | `shakara` | **شكر** | thank | نعم | jassem-2013-speech-writing |
 | Grade | `daraj` | **درج** | step, walk | جذرٌ آخر: خطو، دوس، سري، سمح، شرع، مشية | jassem-2014-mathematical |
 | Grail | `qidr` | **قدر** | large pot; cauldron | نعم | jassem-2014-divine-theological |
-| Grain | `qarn` | **قرن** | a seed, corn; early/last grass | جذرٌ آخر: غل | jassem-2016-floral |
+| Grain | `qarn` | **قرن** | a seed, corn; early/last grass | جذرٌ آخر: غل | jassem-2016-floral · jassem-2014-wining-dining |
 | Gram | `2arf` | **حرف** | letter | نعم | jassem-2014-mathematical |
 | Gram | `qadr` | **قدر** | amount, measurement; respect | نعم | jassem-2014-mathematical |
 | Gram | `miqdaar` | **مقدر** | amount, measurement; respect | جذرٌ آخر: قدر، كم | jassem-2014-mathematical |
-| Grape | `karm(at)` | **كرم** | grape, vine tree | نعم | jassem-2016-floral |
+| Grape | `karm(at)` | **كرم** | grape, vine tree | نعم | jassem-2016-floral · jassem-2014-wining-dining |
+| Grape | `maraq` | **مرق** | food water | نعم | jassem-2014-wining-dining |
 | Graph | `2arf` | **حرف** | letter; curve | نعم | jassem-2014-mathematical |
 | Graph | `karsh` | **كرش** | belly; big; group | نعم | jassem-2014-mathematical |
+| Grave | `qabr` | **قبر** | grave, bury | نعم | jassem-2015-life-death |
+| Grave | `kabeer(at)` | **كبر** | big, large, serious | نعم | jassem-2015-life-death |
 | Great | `qadeer` | **قدر** | able, great | نعم | jassem-2014-divine-theological |
 | Green Beans | `ghareen` | **غرن** | river mud | جذرٌ آخر: ءرد، ار، السين، الغرب، الفرات، اه، بحر، برق، وغيرُها | jassem-2016-floral |
 | Greet | `ghalaT` | **غلط** | wrong | نعم | jassem-2014-divine-theological |
 | Greet | `qiraa` | **قر** | at | لا مدخلَ عندنا | jassem-2013-speech-writing |
 | Greet | `qira'at` | **قرءت** | greeting, reading | جذرٌ آخر: ءل، ءلو، الو، بوس، تشا، حزب، حي، حيو، وغيرُها | jassem-2014-divine-theological |
 | Greet | `Allah` | **له** | God | نعم | jassem-2014-divine-theological |
+| Grill | `qala` | **قل** | fry | جذرٌ آخر: حمر، صلي، صير، قلي | jassem-2014-wining-dining |
+| Grind | `qaraT` | **قرط** | grind | جذرٌ آخر: جرن، جلخ، خمد، دستج، دق، ذر، رتم، رقق، وغيرُها | jassem-2014-wining-dining |
+| Grind | `inqaraT` | **نقرط** | grind | جذرٌ آخر: جرن، جلخ، خمد، دستج، دق، ذر، رتم، رقق، وغيرُها | jassem-2014-wining-dining |
+| Groom | `qarm` | **قرم** | great master; male | جذرٌ آخر: سيد، علي | jassem-2013-family |
+| Group | `baqara(t)` | **بقر** | group; cow; break, open | نعم | jassem-2013-family |
 | Group | `karb(at)` | **كرب** | knot; tightening | جذرٌ آخر: برم، تو، حكي، خصل، سفين، ضيق، عقد، فك، وغيرُها | jassem-2014-mathematical |
 | Grove | `ghareef` | **غرف** | a group of trees | جذرٌ آخر: عر | jassem-2016-floral |
 | Grove of Academe | `ajama(t)` | **جم** | dense trees, grove | نعم | jassem-2016-floral |
 | Grow | `zar3` | **زرع** | sow; growth | نعم | jassem-2016-floral |
 | Grow | `kabur` | **كبر** | to get bigger | نعم | jassem-2016-floral |
+| Guest | `ghaazi(at)` | **غز** | enemy, invader | جذرٌ آخر: خا، خرب، خصم، خصي، خير، دور، زرر، سلم، وغيرُها | jassem-2014-wining-dining |
 | Guest of Honour | `ghaazi(at)` | **غز** | enemy, invader | جذرٌ آخر: خا، خرب، خصم، خصي، خير، دور، زرر، سلم، وغيرُها | jassem-2015-democratic |
 | Guilt | `ghalaT` | **غلط** | error, mistake | نعم | jassem-2013-speech-writing |
 | Guise | `ghishaa'` | **غشء** | a thin cover; darkness | جذرٌ آخر: بردع، حبر، ذهب، سلك، ظل، غطا، غلف، كفر، وغيرُها | jassem-2016-fashion |
@@ -1111,7 +1456,7 @@
 | Gulf | `3eer` | **عر** | group | نعم | jassem-2013-water-sea |
 | Gulf | `falj` | **فلج** | sea, river | نعم | jassem-2013-water-sea |
 | Gulp | `jaash` | **جش** | to spring forth | جذرٌ آخر: ابض، سخا، يا | jassem-2013-water-sea |
-| Gulp | `ghabb` | **غب** | gulp | جذرٌ آخر: بلع، جرع، رهط، زءم، زرد، زقم، زلط، سرط، وغيرُها | jassem-2013-water-sea |
+| Gulp | `ghabb` | **غب** | gulp | جذرٌ آخر: بلع، جرع، رهط، زءم، زرد، زقم، زلط، سرط، وغيرُها | jassem-2013-water-sea · jassem-2014-wining-dining |
 | Gum tree | `Samgh` | **صمغ** | gum | نعم | jassem-2016-floral |
 | Gust | `qaaSif` | **قصف** | breaking, striking | جذرٌ آخر: بط، بيع، بين، جدد، جرف، جرم، حرث، حطم، وغيرُها | jassem-2013-air-fire |
 | Gust | `haij` | **هج** | strong wind | جذرٌ آخر: ءم، هبب | jassem-2013-air-fire |
@@ -1121,8 +1466,12 @@
 | Hail | `hala` | **هل** | welcome, hail | جذرٌ آخر: برد، رحب، رزز، رفق، سبح، طفل، عفو، عيط، وغيرُها | jassem-2013-speech-writing |
 | Hair | `sha3r` | **شعر** | hair | نعم | jassem-2016-fashion · jassem-2013-animal |
 | Half | `half` | **هلف** | a cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2014-mathematical |
+| Hall | `2all` | **حل** | home, house; living | نعم | jassem-2015-urban |
+| Hall | `ma2all` | **محل** | home, house; living | جذرٌ آخر: بيت، جار، حيي، خل، زل، ساك، سكن، مسكن | jassem-2015-urban |
 | Halloween | `Saali2` | **صلح** | the good, righteous | نعم | jassem-2014-divine-theological |
 | Halloween | `Sali2een` | **صلحن** | the good, righteous | جذرٌ آخر: تقي، زكو، صلح، وقي | jassem-2014-divine-theological |
+| Hang | `jinna(t)` | **جن** | devils; darkness | جذرٌ آخر: جنح، حبر، حلك، دجو، دها، رك، رهق، ظل، وغيرُها | jassem-2015-life-death |
+| Hang | `3allaq` | **علق** | suspend, hang | نعم | jassem-2015-life-death |
 | Hardware | `3atir` | **عتر** | hard | جذرٌ آخر: الجذر، بسكت، بله، بيت، تعب، تكء، ثخن، ثقل، وغيرُها | jassem-2014-mathematical |
 | Hardware | `inaa'` | **نء** | container | جذرٌ آخر: بخر، بطل، بهر، تابوت، تفل، جر، جردل، جرر، وغيرُها | jassem-2014-mathematical |
 | Hardware | `awaani` | **ون** | container | جذرٌ آخر: بخر، بطل، بهر، تابوت، تفل، جر، جردل، جرر، وغيرُها | jassem-2014-mathematical |
@@ -1132,9 +1481,12 @@
 | Hatchet | `2alaq(at)` | **حلق** | rings; spiral | نعم | jassem-2015-military |
 | Hatchet | `2ahoosha(t)` | **حهش** | sickle, grass cutter | جذرٌ آخر: جل، نجل | jassem-2015-military |
 | Hatchet | `Taraf(un)` | **طرف** | extremity | نعم | jassem-2015-military |
+| Have | `wahab` | **وهب** | give | نعم | jassem-2013-family |
 | Hawk | `3aaq` | **عق** | crow-like bird | جذرٌ آخر: رخخ، زاغ، شحم، صقع، عرن، عشش، قار، نسر | jassem-2013-animal |
 | Hawk | `3aq3aq` | **عقعق** | crow-like bird | جذرٌ آخر: رخخ، زاغ، شحم، صقع، عرن، عشش، قار، نسر | jassem-2013-animal |
 | Head | `jabhat` | **جبهت** | forehead | جذرٌ آخر: تل، جب، جبه، ركع، سجد، سيل، صدغ، طر، وغيرُها | jassem-2015-democratic |
+| Headquarters | `jabha(t)` | **جبه** | forehead | نعم | jassem-2015-urban |
+| Headquarters | `haadi` | **هد** | head, chief, guide | جذرٌ آخر: حرب، دير، رءس، رب، سر، شيخ، قدم، كبش، وغيرُها | jassem-2015-urban |
 | Hearth | `2aad` | **حد** | sharp, hot | نعم | jassem-2013-air-fire |
 | Hearth | `2arrat` | **حرت** | hot place, hearth | جذرٌ آخر: ءجج، برش، ثري، جحم، جمر، حدد، حر، حرر، وغيرُها | jassem-2013-air-fire |
 | Hearth | `saafil` | **سفل** | low | نعم | jassem-2013-air-fire |
@@ -1169,6 +1521,7 @@
 | High | `shaahiq` | **شهق** | high | نعم | jassem-2014-mathematical |
 | High Heels | `shahiq` | **شهق** | very high | نعم | jassem-2016-fashion |
 | High Heels | `kaa2il` | **كحل** | ankle | نعم | jassem-2016-fashion |
+| Highway | `shahiq` | **شهق** | high | نعم | jassem-2015-urban |
 | His | `fakhdh(un)` | **فخذ** | a subtribe; lit., thigh | نعم | jassem-2015-democratic |
 | Hiss | `2ass(ees)` | **حس** | hiss | جذرٌ آخر: حف، زيز، صفر، فح، فحيح، هس، هف | jassem-2013-animal |
 | Hiss | `hass(ees)` | **هس** | hiss | نعم | jassem-2013-animal |
@@ -1178,15 +1531,23 @@
 | Hoax | `hailam` | **هلم** | talk funny | جذرٌ آخر: خزعبل | jassem-2013-speech-writing |
 | Holy | `khuloo` | **خل** | empty | جذرٌ آخر: بيض، جلف، جوف، حيز، خا، خال، خلا، خلب، وغيرُها | jassem-2014-divine-theological |
 | Holy | `Saali2` | **صلح** | good, valid, holy, righteous | نعم | jassem-2014-divine-theological |
+| Holy Ghost | `Saali2` | **صلح** | good, holy | نعم | jassem-2015-radical-translation-names |
+| Holy Ghost | `qudus` | **قدس** | sacred, holy | نعم | jassem-2015-radical-translation-names |
+| Holy See | `abat(aah)` | **بته** | father | جذرٌ آخر: ءب، ءبا، ءبب، ءبت، ءبو، ءبي، ءس، باب، وغيرُها | jassem-2015-radical-translation-names |
 | Holy See | `iblees` | **بلس** | Satan | نعم | jassem-2014-divine-theological |
 | Holy See | `timthaal` | **تمثل** | idol, image | جذرٌ آخر: دم، صنم، وثن | jassem-2014-divine-theological |
+| Holy See | `jatha` | **جث** | sit | جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها | jassem-2013-family |
+| Holy See | `ja2sh` | **جحش** | chief; donkey, a male | نعم | jassem-2015-radical-translation-names |
+| Holy See | `jum3a(t)` | **جمع** | gatherer, gathering, Friday, a proper name | نعم | jassem-2015-radical-translation-names |
 | Holy See | `sadara` | **سدر** | go | لا مدخلَ عندنا | jassem-2014-divine-theological |
-| Holy See | `Saali2` | **صلح** | good, holy | نعم | jassem-2014-divine-theological |
+| Holy See | `Saali2` | **صلح** | good, holy | نعم | jassem-2014-divine-theological · jassem-2013-family · jassem-2015-radical-translation-names |
+| Holy See | `3aqib` | **عقب** | heel, back | نعم | jassem-2015-radical-translation-names |
 | Holy See | `min` | **من** | from | لا مدخلَ عندنا | jassem-2014-divine-theological |
 | Holy See | `nadhr` | **نذر** | doing it for God; devotion | نعم | jassem-2014-divine-theological |
 | Holy See | `naar` | **نر** | fire | جذرٌ آخر: ثفي، جحم، جذو، حرق، حطب، حمر، خلو، دفء، وغيرُها | jassem-2014-divine-theological |
 | Holy See | `ham(ham)` | **همهم** | mutter, sing | جذرٌ آخر: تمتم، جوق، دمدم، زمر، شدو، صدح، طرب، غرد، وغيرُها | jassem-2014-divine-theological |
-| Honey | `na2l(at)` | **نحل** | honey bee | نعم | jassem-2013-animal |
+| Holy See | `waDa2` | **وضح** | whiteness, light, appearance, seeing | نعم | jassem-2015-radical-translation-names |
+| Honey | `na2l(at)` | **نحل** | honey bee | نعم | jassem-2013-animal · jassem-2014-wining-dining |
 | Honour | `haash` | **هش** | attack, fight | جذرٌ آخر: رشق، عرض، نوش، وقع | jassem-2015-democratic |
 | Honour | `hawsha(t)` | **هوش** | attack, fight | جذرٌ آخر: رشق، عرض، نوش، وقع | jassem-2015-democratic |
 | Hood | `2aTTa(t)` | **حط** | head cover; cap | جذرٌ آخر: برقع، حبر، خمر، ستر، ضبب، طبق، قاب، قبع، وغيرُها | jassem-2016-fashion |
@@ -1199,6 +1560,9 @@
 | Horse | `ghalab` | **غلب** | outrun | لا مدخلَ عندنا | jassem-2013-animal |
 | Horse | `faras` | **فرس** | female horse | نعم | jassem-2013-animal |
 | Horticulture | `qal3` | **قلع** | uprooting, removing plants | نعم | jassem-2016-floral |
+| Host | `haash` | **هش** | attack, fight | جذرٌ آخر: رشق، عرض، نوش، وقع | jassem-2014-wining-dining |
+| Host | `hawsha(t)` | **هوش** | attack, fight | جذرٌ آخر: رشق، عرض، نوش، وقع | jassem-2014-wining-dining |
+| Hostel | `haDhal` | **هظل** | stay | جذرٌ آخر: ءبد، ءبن، بقي، بن، بيت، تنخ، ثمل، جنب، وغيرُها | jassem-2015-urban |
 | Hostility | `'ameer` | **ءمر** | ruler, prince | نعم | jassem-2015-military |
 | Hostility | `haash` | **هش** | attack, fight | جذرٌ آخر: رشق، عرض، نوش، وقع | jassem-2015-military |
 | Hostility | `hawsha(t)` | **هوش** | attack, fight | جذرٌ آخر: رشق، عرض، نوش، وقع | jassem-2015-military |
@@ -1214,16 +1578,20 @@
 | Hum | `Sah` | **صه** | silence gesture | نعم | jassem-2013-speech-writing |
 | Hum | `mara2` | **مرح** | fun | نعم | jassem-2013-speech-writing |
 | Hum | `ham(ham)` | **همهم** | hum | جذرٌ آخر: دندن، دوي، رنم، طن، غنن، نغم | jassem-2013-speech-writing |
+| Human | `'insaan` | **ءنسن** | human | جذرٌ آخر: ءب، ءبو، ءدم، ءم، ءمم، ءنس، ءير، اس، وغيرُها | jassem-2013-family |
 | Human Rights Activist | `haaj` | **هج** | stir up | جذرٌ آخر: ثور، حرض، حرك، حض، حوث، خلخل، خلط، زحزح، وغيرُها | jassem-2015-democratic |
 | Human Rights Activist | `hiajan` | **هجن** | stir up | جذرٌ آخر: ثور، حرض، حرك، حض، حوث، خلخل، خلط، زحزح، وغيرُها | jassem-2015-democratic |
+| Humble | `haamel` | **همل** | careless, lazy, dejected | نعم | jassem-2015-life-death |
+| Humble | `hawm(at)` | **هوم** | sleep | جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها | jassem-2015-life-death |
 | Humid | `2areeq(an)` | **حرق** | burning | نعم | jassem-2013-water-sea |
 | Humid | `qaTr` | **قطر** | water | جذرٌ آخر: ءجن، ءرض، ءس، ءسقي، ءفك، ءهر، ار، الدلو، وغيرُها | jassem-2013-water-sea |
 | Hundred | `3aqd` | **عقد** | a decade (of ten years); a knot | نعم | jassem-2014-mathematical |
 | Hundred | `miyat` | **ميت** | hundred | نعم | jassem-2012-numerals |
 | Hundred | `hind` | **هند** | hundred | جذرٌ آخر: بلد، ثلث، حول، دين، سر، عصر، قر، قرن، وغيرُها | jassem-2012-numerals |
+| Husband | `rabb(at)` | **رب** | owner | نعم | jassem-2013-family |
 | Husk | `2asak` | **حسك** | husk; skin of wheat | جذرٌ آخر: جرد، خال، قشر | jassem-2016-floral |
 | Husk | `2awsh` | **حوش** | house; courtyard | نعم | jassem-2016-floral |
-| Ice | `Saqee3` | **صقع** | ice | نعم | jassem-2013-water-sea |
+| Ice | `Saqee3` | **صقع** | ice | نعم | jassem-2013-water-sea · jassem-2014-wining-dining |
 | Idea | `taSweer` | **تصور** | picture | جذرٌ آخر: دعي، رسم، صور، ططر، فلم، قص، لصق، نقش | jassem-2013-speech-writing |
 | Idea | `seema` | **سم** | image, mark | جذرٌ آخر: طبع | jassem-2013-speech-writing |
 | Idea | `Soora(t)` | **صر** | picture | جذرٌ آخر: دعي، رسم، صور، ططر، فلم، قص، لصق، نقش | jassem-2013-speech-writing |
@@ -1233,6 +1601,8 @@
 | Illuminate | `jamra(t)` | **جمر** | spark, burn red | نعم | jassem-2013-air-fire |
 | Illuminate | `lama3aan` | **لمعن** | illumination | جذرٌ آخر: شفق، صبح، نور | jassem-2013-air-fire |
 | Illuminate | `injamar` | **نجمر** | spark, burn red | جذرٌ آخر: ثور، ظرر | jassem-2013-air-fire |
+| Imbibe | `min` | **من** | from | لا مدخلَ عندنا | jassem-2014-wining-dining |
+| Impasse | `3inda` | **عند** | in, at | لا مدخلَ عندنا | jassem-2015-urban |
 | Imperative | `'ameer` | **ءمر** | prince, commander | نعم | jassem-2019-mr |
 | Imperative | `'imrat` | **ءمرت** | command, authority | جذرٌ آخر: ءمر، حكم، عصي | jassem-2019-mr |
 | Imperative | `'umayer` | **ءمير** | prince, commander | جذرٌ آخر: ءمر، مير | jassem-2019-mr |
@@ -1244,8 +1614,12 @@
 | Increase | `katheer` | **كثر** | many, much | نعم | jassem-2014-mathematical |
 | Increase | `min` | **من** | from | لا مدخلَ عندنا | jassem-2014-mathematical |
 | Increment | `min` | **من** | from | لا مدخلَ عندنا | jassem-2014-mathematical |
+| Incubus | `kaaboos` | **كبس** | nightmare; pressing down | نعم | jassem-2015-life-death |
 | Independence | `banat` | **بنت** | of arrows, to stick to shaft | جذرٌ آخر: عصا | jassem-2015-military |
 | Independence | `ta2t` | **تحت** | below | نعم | jassem-2015-military |
+| Infant | `faTeem` | **فطم** | weaned baby | جذرٌ آخر: ءمم، الذي، با، بيب، درص، رب، رزم، رضع، وغيرُها | jassem-2013-family |
+| Infant | `mafToom` | **مفطم** | weaned baby | جذرٌ آخر: ءمم، الذي، با، بيب، درص، رب، رزم، رضع، وغيرُها | jassem-2013-family |
+| Infant | `infaTam` | **نفطم** | weaned baby | جذرٌ آخر: ءمم، الذي، با، بيب، درص، رب، رزم، رضع، وغيرُها | jassem-2013-family |
 | Infantry | `fata` | **فت** | a youth | جذرٌ آخر: جذع، حدث، شبب، شرخ، صبا، ظل، فتا، فتو، وغيرُها | jassem-2015-military |
 | Infantry | `fitian` | **فتن** | a youth | جذرٌ آخر: جذع، حدث، شبب، شرخ، صبا، ظل، فتا، فتو، وغيرُها | jassem-2015-military |
 | Inflate | `rujm` | **رجم** | stones | نعم | jassem-2013-air-fire |
@@ -1266,6 +1640,12 @@
 | Inform | `rasm` | **رسم** | drawing | نعم | jassem-2013-speech-writing |
 | Inform | `ma3roof` | **معرف** | known, knowledge | جذرٌ آخر: بلغ، بهم، جرب، دري، سر، شار، شعر، علم، وغيرُها | jassem-2013-speech-writing |
 | Inform | `ma3rifat` | **معرفت** | known, knowledge | جذرٌ آخر: بلغ، بهم، جرب، دري، سر، شار، شعر، علم، وغيرُها | jassem-2013-speech-writing |
+| Infrastructure | `adna` | **دن** | lower | نعم | jassem-2015-urban |
+| Ingredient | `qadr` | **قدر** | amount, ingredient | نعم | jassem-2014-wining-dining |
+| Ingredient | `miqdaar` | **مقدر** | amount, ingredient | جذرٌ آخر: قوم | jassem-2014-wining-dining |
+| Inherit | `inwarath` | **نورث** | inherit | جذرٌ آخر: رث، ورث | jassem-2015-life-death |
+| Inherit | `warith` | **ورث** | inherit | نعم | jassem-2015-life-death |
+| Inherit | `wirathat` | **ورثت** | inherit | جذرٌ آخر: رث، ورث | jassem-2015-life-death |
 | Initial | `qaam` | **قم** | quickly, stand | جذرٌ آخر: برز، تهم، ثمل، جري، رءي، ربط، ردد، ركض، وغيرُها | jassem-2013-time |
 | Initial | `qawaam` | **قوم** | quickly, stand | جذرٌ آخر: برز، تهم، ثمل، جري، رءي، ربط، ردد، ركض، وغيرُها | jassem-2013-time |
 | Initial | `awwal` | **ول** | first, one | نعم | jassem-2013-time |
@@ -1274,6 +1654,10 @@
 | Ink | `2aki` | **حك** | talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
 | Ink | `2ikaiat` | **حكت** | talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
 | Ink | `niqs` | **نقس** | ink | جذرٌ آخر: ءمد، حبر، حق، دوا، قلم، مدد، هرشف، وشم | jassem-2013-speech-writing |
+| Inn | `2aani(at)` | **حن** | winery; fine, antiquated wine | جذرٌ آخر: ذوق | jassem-2014-wining-dining · jassem-2015-urban |
+| Inn | `2aanoot` | **حنت** | winery; fine, antiquated wine | جذرٌ آخر: ذوق | jassem-2014-wining-dining |
+| Inn | `2awaan` | **حون** | winery; fine, antiquated wine | جذرٌ آخر: ذوق | jassem-2014-wining-dining |
+| Inn | `Daif` | **ضف** | guest | جذرٌ آخر: زب، زور، ساك، ضيف، طفل، قري، نزل، وغل | jassem-2014-wining-dining |
 | Insect | `shaqq(at)` | **شق** | divide, cut | جذرٌ آخر: شعب، شقق، صرم، فصل، قسم، قطع | jassem-2013-animal |
 | Insect | `inshaqq(at)` | **نشق** | divide, cut | جذرٌ آخر: شعب، شقق، صرم، فصل، قسم، قطع | jassem-2013-animal |
 | Inter | `3an` | **عن** | about, on | نعم | jassem-2014-prepositions |
@@ -1298,6 +1682,8 @@
 | Jacket | `ja2sh` | **جحش** | chief; donkey; proper name | نعم | jassem-2016-fashion |
 | Jacket | `jazeera(t)` | **جزر** | island | نعم | jassem-2016-fashion |
 | Jacket | `shakk` | **شك** | breastplate | جذرٌ آخر: لبب | jassem-2016-fashion |
+| Jam | `jam3` | **جمع** | join, gather | نعم | jassem-2014-wining-dining |
+| Jar | `jarra(t)` | **جر** | jar | نعم | jassem-2014-wining-dining |
 | Jasmine | `yasameen` | **يسمن** | jasmine | جذرٌ آخر: اسم، جل، ظيا، فل | jassem-2016-floral |
 | Jest | `istihzaa'` | **ستهزء** | jest, mock at | جذرٌ آخر: لعب | jassem-2013-speech-writing |
 | Jest | `huzu` | **هز** | jest, mock at | جذرٌ آخر: لعب | jassem-2013-speech-writing |
@@ -1305,15 +1691,27 @@
 | Joke | `khaT` | **خط** | line, write | نعم | jassem-2013-speech-writing |
 | Joke | `Da2ik(a)` | **ضحك** | laugh at | نعم | jassem-2013-speech-writing |
 | Joke | `kahkah` | **كهكه** | laughter | جذرٌ آخر: دغدغ، ضحك، لول، مرح، هه | jassem-2013-speech-writing |
+| Juice | `2usaa'` | **حسء** | sauce, soup | جذرٌ آخر: برش، بست، ثرد، حسا، دقو، رق، زبد، سقع، وغيرُها | jassem-2014-wining-dining |
 | Jungle | `'adghal` | **ءدغل** | jungle | جذرٌ آخر: ءيك، جم، دغل، غيب | jassem-2016-floral |
 | Jungle | `daghal` | **دغل** | jungle | نعم | jassem-2016-floral |
 | Junior | `qabla` | **قبل** | before | نعم | jassem-2013-time |
 | Junior | `yafan` | **يفن** | young, small; old | جذرٌ آخر: ءكل، جدد، خلج، خلد، ذعر، روض، زغب، سلو، وغيرُها | jassem-2013-time |
 | Just | `issa(3)at` | **سعت** | this hour | جذرٌ آخر: ءجر، جر، حين، خزن، درس، ساعة، عقد، عقرب، وغيرُها | jassem-2013-time |
 | Just | `hassa3(at)` | **هسع** | this hour | جذرٌ آخر: ءجر، جر، حين، خزن، درس، ساعة، عقد، عقرب، وغيرُها | jassem-2013-time |
-| Kid | `jadee` | **جد** | baby male goat | نعم | jassem-2013-animal |
+| Kettle | `qidr` | **قدر** | pot, kettle | نعم | jassem-2014-wining-dining |
+| Kid | `jadee` | **جد** | baby male goat | نعم | jassem-2013-animal · jassem-2013-family |
+| Kid | `ikhwat` | **خوت** | brothers, relatives | جذرٌ آخر: ءخو، ءهل، خسس، خو، خوي، ذو، فخذ، فر، وغيرُها | jassem-2013-family |
+| Kid | `ikhwaan` | **خون** | brothers, relatives | جذرٌ آخر: ءخو، ءهل، خسس، خو، خوي، ذو، فخذ، فر، وغيرُها | jassem-2013-family |
+| Kid | `Da2ik` | **ضحك** | laugh, kid | نعم | jassem-2013-family |
+| Kid | `naqeeb` | **نقب** | leader, servant | نعم | jassem-2013-family |
 | Kilogram | `kail` | **كل** | weight | جذرٌ آخر: بنش، بنط، بهر، تخس، ثقل، جبر، حم، خدود، وغيرُها | jassem-2014-mathematical |
+| King | `qamqaam` | **قمقم** | king, leader | جذرٌ آخر: رب، طلس | jassem-2015-radical-translation-names |
+| King | `Allah` | **له** | God | نعم | jassem-2015-radical-translation-names |
+| King | `mu3Tee` | **معط** | giver; a proper name | نعم | jassem-2015-radical-translation-names |
 | Kiss | `qafaS` | **قفص** | a nest; box; chest | جذرٌ آخر: تابوت، تخت، خزن، صدق، علب | jassem-2018-sex-derivatives |
+| Kitchen | `istawa` | **ستو** | to cook, ripen | جذرٌ آخر: نضج | jassem-2015-urban |
+| Kitchen | `sawa` | **سو** | to cook, ripen | جذرٌ آخر: نضج | jassem-2015-urban |
+| Knead | `3ajan` | **عجن** | knead | نعم | jassem-2014-wining-dining |
 | Kneel | `rukba(t)` | **ركب** | knee | نعم | jassem-2014-divine-theological |
 | Kneel | `zaman` | **زمن** | time | نعم | jassem-2014-divine-theological |
 | Kneel | `nooq` | **نق** | tall, long | جذرٌ آخر: سطو، فرع | jassem-2014-divine-theological |
@@ -1324,7 +1722,10 @@
 | Know | `aiqan` | **قن** | know for certain | جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها | jassem-2013-speech-writing |
 | Know | `yaqeen` | **يقن** | know for certain | جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها | jassem-2013-speech-writing |
 | Labour Party | `lughoob` | **لغب** | tiredness | جذرٌ آخر: تعب، ضجر، ملل | jassem-2015-democratic |
+| Lad | `walad` | **ولد** | boy, child | نعم | jassem-2013-family |
 | Lady | `ragheef` | **رغف** | a loaf (of bread) | نعم | jassem-2015-democratic |
+| Lady | `waalida(t)` | **ولد** | mother; lady | نعم | jassem-2013-family |
+| Lager | `3ilq` | **علق** | precious wine | جذرٌ آخر: كرم | jassem-2014-wining-dining |
 | Lake | `boor(at)` | **بر** | land, the wild, prairie | نعم | jassem-2013-water-sea |
 | Lake | `barr(iat)` | **برت** | land, the wild, prairie | جذرٌ آخر: بري، وحش | jassem-2013-water-sea |
 | Lake | `safina(t)` | **سفن** | ship | نعم | jassem-2013-water-sea |
@@ -1345,21 +1746,33 @@
 | Lamp | `inaarat` | **نرت** | lighting | جذرٌ آخر: ثري، جف، صبح، ضحك | jassem-2013-air-fire |
 | Lance | `nashal` | **نشل** | to remove from water | جذرٌ آخر: جهر، خصي، غسل، نجل، نفي | jassem-2015-military |
 | Lance | `naSl` | **نصل** | arrow head | جذرٌ آخر: رصف، زلم، سار، عرن | jassem-2015-military |
+| Language | `ba2` | **بح** | nothing for children | جذرٌ آخر: ءلا، ءهل، ان، بتر، بخ، بس، بطل، بطن، وغيرُها | jassem-2018-negative-terms |
 | Language | `barra` | **بر** | out; out there; outside | نعم | jassem-2014-basque-finnish |
-| Language | `baien` | **بن** | clear, plain | جذرٌ آخر: بدو، بين، فصح، وضح | jassem-2014-basque-finnish · jassem-2015-plural-markers |
-| Language | `thalath` | **ثلث** | three | نعم | jassem-2014-basque-finnish · jassem-2015-plural-markers |
+| Language | `bas` | **بس** | finished, nothing; enough | جذرٌ آخر: خلص | jassem-2018-negative-terms |
+| Language | `bila` | **بل** | without | جذرٌ آخر: ءبد، ءخذ، ءذا، ءزق، ءشع، ءلا، ءني، ءيي، وغيرُها | jassem-2018-negative-terms |
+| Language | `baien` | **بن** | clear, plain | جذرٌ آخر: بدو، بين، فصح، وضح | jassem-2014-basque-finnish · jassem-2015-plural-markers · jassem-2018-negative-terms |
+| Language | `taDaad` | **تضد** | against | جذرٌ آخر: ءبض، ءفق، ءلل، ءم، ءمم، اع، بر، برز، وغيرُها | jassem-2018-negative-terms |
+| Language | `thalath` | **ثلث** | three | نعم | jassem-2014-basque-finnish · jassem-2015-plural-markers · jassem-2018-negative-terms |
 | Language | `dhan(ne)` | **ذن** | these (f.) | جذرٌ آخر: ءولي، اد، ان، دد، ساخ، سام، صطب، صقع، وغيرُها | jassem-2014-basque-finnish |
 | Language | `shareeT` | **شرط** | cord, string | نعم | jassem-2015-democratic |
 | Language | `Sadr` | **صدر** | breast, heart | نعم | jassem-2015-democratic |
+| Language | `Did` | **ضد** | against | نعم | jassem-2018-negative-terms |
 | Language | `Tair` | **طر** | bird | جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها | jassem-2015-plural-markers |
-| Language | `qeeraaT` | **قرط** | a fourth; carat | نعم | jassem-2014-basque-finnish |
+| Language | `3ada` | **عد** | except | جذرٌ آخر: ءلا، بث، بهر، بيد، ثني، حاش، حول، خرج، وغيرُها | jassem-2018-negative-terms |
+| Language | `ghair` | **غر** | not | جذرٌ آخر: ءبد، ءجر، ءخر، ءدا، ءرض، ءس، ءكد، ءل، وغيرُها | jassem-2018-negative-terms |
+| Language | `qi'` | **قء** | a negative gesture (in spoken Arabic) | جذرٌ آخر: ء، ءلا، ءمل، ءنت، ءيض، التركمان، ان، انت، وغيرُها | jassem-2018-negative-terms |
+| Language | `qeeraaT` | **قرط** | a fourth; carat | نعم | jassem-2014-basque-finnish · jassem-2018-negative-terms |
+| Language | `qaT` | **قط** | never | نعم | jassem-2018-negative-terms |
 | Language | `qana` | **قن** | to own | جذرٌ آخر: ءب، ءبو، ءبي، ءحح، ءخذ، ادم، اط، باب، وغيرُها | jassem-2014-basque-finnish |
 | Language | `lisaan` | **لسن** | tongue | نعم | jassem-2013-speech-writing |
 | Language | `madha` | **مذ** | what | جذرٌ آخر: ءدم، ءذا، ءسو، ءش، ءمل، ءي، ءين، ءيي، وغيرُها | jassem-2014-basque-finnish |
 | Language | `anta` | **نت** | you | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، صحح، عطو، وغيرُها | jassem-2014-basque-finnish |
+| Language | `intaha` | **نته** | finished | جذرٌ آخر: خلص، دبر، رفض، شرشف، صرم، صقل، كمل، لوح، وغيرُها | jassem-2018-negative-terms |
 | Language | `na2nu` | **نحن** | we | لا مدخلَ عندنا | jassem-2014-basque-finnish |
+| Language | `na3am` | **نعم** | yes | نعم | jassem-2018-negative-terms |
 | Language | `ha'ula'` | **هءلء** | these, they | جذرٌ آخر: فيا | jassem-2014-basque-finnish |
 | Language | `huna` | **هن** | here | جذرٌ آخر: ده، دول، دي، سار، لبك، ها، هات، هذ، وغيرُها | jassem-2014-basque-finnish |
+| Lass | `nisa` | **نس** | woman | جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، اجر، اخت، بدل، بذل، وغيرُها | jassem-2013-family |
 | Late | `Taal` | **طل** | to be late/long, to be delayed | جذرٌ آخر: ءخر، حدث، خلد، رحل، قرء، كلء، موث | jassem-2013-time |
 | Late | `Tawwal` | **طول** | to be late/long, to be delayed | نعم | jassem-2013-time |
 | Late | `3aam` | **عم** | year | جذرٌ آخر: ءيل، حال، حشو، حفن، خرف، خل، خمس، سمي، وغيرُها | jassem-2013-time |
@@ -1367,11 +1780,12 @@
 | Latitude | `3arD` | **عرض** | wide | جذرٌ آخر: ءفق، بحر، برن، بسط، بقع، جو، جوف، حقل، وغيرُها | jassem-2014-mathematical |
 | Laugh | `lagha` | **لغ** | talking | جذرٌ آخر: خنق، ضبب، غيب، كلم، لف، محر، نطق | jassem-2013-speech-writing |
 | Laugh | `laghwa(t)` | **لغو** | talking | جذرٌ آخر: خنق، ضبب، غيب، كلم، لف، محر، نطق | jassem-2013-speech-writing |
+| Law | `qara'a` | **قرء** | gather, read | نعم | jassem-2013-family |
 | Law and Order | `radda(t)` | **رد** | coming back, rearrangement | نعم | jassem-2015-democratic |
 | Law and Order | `3allaq` | **علق** | bind, hang | نعم | jassem-2015-democratic |
 | Law and Order | `law2` | **لوح** | board | نعم | jassem-2015-democratic |
 | Leaf | `riff` | **رف** | tree leaves | جذرٌ آخر: بق، خوص، دوح، ريح، زا، زرنب، سجر، سرو، وغيرُها | jassem-2016-floral |
-| Leaf | `leef` | **لف** | fiber | جذرٌ آخر: اد، خيط، شبك، قطن، كت | jassem-2016-floral |
+| Leaf | `leef` | **لف** | fiber | جذرٌ آخر: اد، خيط، شبك، قطن، كت | jassem-2016-floral · jassem-2014-wining-dining |
 | Learn | `3aql` | **عقل** | mind, obstacle | نعم | jassem-2013-speech-writing |
 | Learn | `3alima` | **علم** | learn | نعم | jassem-2013-speech-writing |
 | Learn | `qara'a` | **قرء** | read | نعم | jassem-2013-speech-writing |
@@ -1386,7 +1800,7 @@
 | Legal | `wakal` | **وكل** | to appoint as agent; rely on, trust | نعم | jassem-2015-democratic |
 | Legible | `qara` | **قر** | a (qiraa | لا مدخلَ عندنا | jassem-2013-speech-writing |
 | Lemon | `qal(eel)` | **قل** | small, little | نعم | jassem-2016-floral |
-| Lemon | `laimoon` | **لمن** | lemon | جذرٌ آخر: بول، حمص، حمض، حنظل، ذخر، رنجان، علقم، ليم، وغيرُها | jassem-2016-floral |
+| Lemon | `laimoon` | **لمن** | lemon | جذرٌ آخر: بول، حمص، حمض، حنظل، ذخر، رنجان، علقم، ليم، وغيرُها | jassem-2016-floral · jassem-2014-wining-dining |
 | Leopard | `labwat` | **لبوت** | she-lion | جذرٌ آخر: ءسامة، ءسد، ءم، اب، الءسد، ببر، بغل، بهء، وغيرُها | jassem-2013-animal |
 | Less | `laisa` | **لس** | not | جذرٌ آخر: ءبد، ءجر، ءخر، ءدا، ءرض، ءس، ءكد، ءل، وغيرُها | jassem-2014-mathematical |
 | Lesson | `qara'a` | **قرء** | read | نعم | jassem-2013-speech-writing |
@@ -1402,6 +1816,7 @@
 | Libra | `shakl` | **شكل** | form, shape | نعم | jassem-2014-mathematical |
 | Libra | `3alla` | **عل** | perhaps | نعم | jassem-2014-mathematical |
 | Libra | `la3alla` | **لعل** | perhaps | نعم | jassem-2014-mathematical |
+| Lick | `la3q` | **لعق** | eating | نعم | jassem-2014-wining-dining |
 | Lie | `laqa3` | **لقع** | to say but not to do | جذرٌ آخر: صرح، طوق | jassem-2013-speech-writing |
 | Lightening | `saa'il` | **سءل** | liquid | جذرٌ آخر: ءسيت، اشف، بءر، بتل، بخر، بلل، بول، تفل، وغيرُها | jassem-2013-water-sea |
 | Lightening | `suyoolat` | **سيلت** | liquid | جذرٌ آخر: ءسيت، اشف، بءر، بتل، بخر، بلل، بول، تفل، وغيرُها | jassem-2013-water-sea |
@@ -1411,18 +1826,30 @@
 | Like | `shakl` | **شكل** | form, shape | نعم | jassem-2014-prepositions |
 | Like | `laaqa` | **لق** | to be suitable and nice; to like | جذرٌ آخر: جمل، طيب | jassem-2014-prepositions |
 | Like | `masaa'` | **مسء** | of the road, middle | جذرٌ آخر: طرق، قصد | jassem-2014-prepositions |
+| Lime | `laban` | **لبن** | milk | نعم | jassem-2014-wining-dining |
+| Lime | `laimoon` | **لمن** | lemon | جذرٌ آخر: بول، حمص، حمض، حنظل، ذخر، رنجان، علقم، ليم، وغيرُها | jassem-2014-wining-dining |
+| Line | `maashia(t)` | **مش** | child(ren) | جذرٌ آخر: ءب، ءبو، ءم، ءمم، ءمي، ابن، الذي، النواة، وغيرُها | jassem-2013-family |
+| Line | `mawaashi` | **موش** | child(ren) | جذرٌ آخر: ءب، ءبو، ءم، ءمم، ءمي، ابن، الذي، النواة، وغيرُها | jassem-2013-family |
+| Line | `nasl` | **نسل** | line, genealogy | نعم | jassem-2013-family |
 | Lion | `nahal` | **نهل** | lion | جذرٌ آخر: ءسامة، ءسد، الءسد، جرو، جل، حدر، حمز، درب، وغيرُها | jassem-2013-animal |
+| Liquor | `3ilq` | **علق** | precious wine | جذرٌ آخر: كرم | jassem-2014-wining-dining |
 | List | `tasjeel` | **تسجل** | record | جذرٌ آخر: باه، حجج، خطب، دخل، دفتر، دون، رسم، رقم، وغيرُها | jassem-2013-speech-writing |
 | List | `sajjal` | **سجل** | record | نعم | jassem-2013-speech-writing |
 | Listen | `taSannat` | **تصنت** | listen | جذرٌ آخر: ءذن، ءنس، حس، رعي، رنا، سمع، شءو، شغل، وغيرُها | jassem-2013-speech-writing |
 | Listen | `Sanat` | **صنت** | listen | جذرٌ آخر: ءذن، ءنس، حس، رعي، رنا، سمع، شءو، شغل، وغيرُها | jassem-2013-speech-writing |
 | Listen | `naSat` | **نصت** | listen | نعم | jassem-2013-speech-writing |
 | Literature | `qiraa'at` | **قرءت** | reading | جذرٌ آخر: حزب، صحف، ضد، قرء، كتب | jassem-2013-speech-writing |
+| Live | `2iat` | **حت** | alive | جذرٌ آخر: ءحيا، جار، جود، حوي، حي، حيا، حياة، حيو، وغيرُها | jassem-2015-life-death |
+| Live | `falla` | **فل** | leave | جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها | jassem-2015-life-death · jassem-2015-urban |
+| Live | `labba` | **لب** | to stay, live; to love; to escape | نعم | jassem-2015-life-death · jassem-2015-urban |
+| Live | `lafa'a` | **لفء** | peel | جذرٌ آخر: بشر، جحف، جرد، جلف، حسر، حلق، حنا، حنو، وغيرُها | jassem-2015-life-death · jassem-2015-urban |
+| Live | `walaj` | **ولج** | to enter home | جذرٌ آخر: ءذن، ءوب، بطن، بني، بيت، تاق، جبح، جحر، وغيرُها | jassem-2015-urban |
 | Lizard | `si2liyat` | **سحليت** | lizard | جذرٌ آخر: برص، حسل، سحل، سمندل، ضب، ضبب، ورل، وزغ | jassem-2013-animal |
 | Lizard | `3ama` | **عم** | blind | نعم | jassem-2013-animal |
 | Load | `doon` | **دن** | down, low | جذرٌ آخر: تحت، جمد، حقر، خفض، خور، دون، ردي، ركع، وغيرُها | jassem-2014-mathematical |
 | Load | `3ubaab` | **عب** | height | جذرٌ آخر: بعد، بنش، بيع، تلع، جار، حجم، دوخ، دوش، وغيرُها | jassem-2014-mathematical |
 | Load | `3idl` | **عدل** | equal weight; balance; load | نعم | jassem-2014-mathematical |
+| Loaf | `laffa(t)` | **لف** | (a bread) roll | نعم | jassem-2014-wining-dining |
 | Locative | `'alqa` | **ءلق** | raised, (long narrow, or unidentified) ground | جذرٌ آخر: خدود، خندق، ربو، وتد | jassem-2015-case-word-order |
 | Locative | `ism` | **سم** | name | لا مدخلَ عندنا | jassem-2015-case-word-order |
 | Locative | `laqq` | **لق** | raised, (long narrow, or unidentified) ground | جذرٌ آخر: خدود، خندق، ربو، وتد | jassem-2015-case-word-order |
@@ -1441,6 +1868,8 @@
 | Lord | `warrad` | **ورد** | to bring | نعم | jassem-2015-democratic |
 | Lord | `wazar` | **وزر** | carry | جذرٌ آخر: ءخذ، ءدي، ءذن، ءنف، النواة، بردع، بشر، بوز، وغيرُها | jassem-2014-divine-theological |
 | Loud | `3alaat` | **علت** | high | جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها | jassem-2013-speech-writing |
+| Love | `shakl` | **شكل** | shape | نعم | jassem-2016-entirely-arabic |
+| Love | `lahaf` | **لهف** | love, strong desire | نعم | jassem-2016-entirely-arabic |
 | Low | `tamtam` | **تمتم** | murmur | جذرٌ آخر: ءل، خر، خرر، دمدم، ردن، طبطب، لغط، هرهر، وغيرُها | jassem-2013-speech-writing |
 | Low | `saafil` | **سفل** | low | نعم | jassem-2013-speech-writing |
 | Low | `3ilm` | **علم** | news, knowledge | نعم | jassem-2013-speech-writing |
@@ -1450,10 +1879,15 @@
 | Loyal | `makeen(atun)` | **مكنتن** | strong, mighty | جذرٌ آخر: بءس، تء، جبر، عزز، قوي | jassem-2015-democratic |
 | Loyal | `wali` | **ول** | loyal | جذرٌ آخر: ال، حق، خلص، ذنب، مين، وفي | jassem-2015-military |
 | Luminance | `laSf(aan)` | **لصفن** | glow | جذرٌ آخر: ءشع، روق، زهر، زهو، سفر، عبو، لمع، نور، وغيرُها | jassem-2013-air-fire |
+| Lunch | `laqima` | **لقم** | eat, food, a morsel | نعم | jassem-2014-wining-dining |
+| Lunch | `ma3s` | **معس** | mash | جذرٌ آخر: بل، بلل، رب، هرس | jassem-2014-wining-dining |
 | Machine gun | `'adda` | **ءد** | give | جذرٌ آخر: ءبر، ءثر، ءجر، ءحيا، ءخ، ءدر، ءدي، ءذعن، وغيرُها | jassem-2015-military |
 | Machine gun | `madda(t)` | **مد** | to extend | نعم | jassem-2015-military |
 | Machine gun | `anamil` | **نمل** | fingers, hand | جذرٌ آخر: صبع، قبض، كفف | jassem-2015-military |
 | Macro | `markoo` | **مرك** | large; small | جذرٌ آخر: برج، بسط، حبب، زير، شفن، شفي، صين، طفر، وغيرُها | jassem-2014-mathematical |
+| Mad | `maaDi` | **مض** | past, far | جذرٌ آخر: بعد | jassem-2015-life-death |
+| Mad | `mawt` | **موت** | death | نعم | jassem-2015-life-death |
+| Maid | `khaadim` | **خدم** | servant | نعم | jassem-2013-family |
 | Major | `majeed` | **مجد** | great | نعم | jassem-2014-mathematical |
 | Majority | `'adda` | **ءد** | give | جذرٌ آخر: ءبر، ءثر، ءجر، ءحيا، ءخ، ءدر، ءدي، ءذعن، وغيرُها | jassem-2015-democratic |
 | Majority | `lajam` | **لجم** | to reign in (a horse) | جذرٌ آخر: بد، برد، برق، برقع، بغل، بلغ، ثفر، جحش، وغيرُها | jassem-2015-democratic |
@@ -1461,20 +1895,49 @@
 | Majority | `madda(t)` | **مد** | to extend | نعم | jassem-2015-democratic |
 | Majority | `anamil` | **نمل** | fingers, hand | جذرٌ آخر: صبع، قبض، كفف | jassem-2015-democratic |
 | Make | `aqaama` | **قم** | make, do | لا مدخلَ عندنا | jassem-2014-mathematical |
+| Male | `mar'` | **مرء** | man | نعم | jassem-2013-family |
+| Man | `'anaam` | **ءنم** | child, man, human | جذرٌ آخر: ءب | jassem-2013-family |
+| Man | `nama` | **نم** | child, man, human | جذرٌ آخر: ءب | jassem-2013-family |
 | Mandate | `ta'ammar` | **تءمر** | order, rule | جذرٌ آخر: ءمر، قان، قضي، نظم | jassem-2013-speech-writing |
 | Mandate | `amara` | **مر** | order, rule | جذرٌ آخر: ءمر، قان، قضي، نظم | jassem-2013-speech-writing |
 | Mandate | `im(aa)rat` | **مرت** | order, rule | جذرٌ آخر: ءمر، قان، قضي، نظم | jassem-2013-speech-writing |
+| Mansion | `manzil` | **منزل** | mansion, house | جذرٌ آخر: برج، قصر، قلع | jassem-2015-urban |
 | Many | `majmoo3` | **مجمع** | lit., gathered; many, total | جذرٌ آخر: بلغ، جمع، عقد | jassem-2019-mr |
 | Mar | `mar` | **مر** | water, rain, sea | جذرٌ آخر: ءرض، ءس، بحر، بغش، جون، حوت، حوض، خور، وغيرُها | jassem-2019-mr |
 | Mare | `muhr(at)` | **مهر** | young or baby horse | نعم | jassem-2013-animal |
 | Marine | `bau'` | **بء** | a(t) بىء، ب ُئت, from bawa | لا مدخلَ عندنا | jassem-2019-mr |
 | Mark | `marqoom` | **مرقم** | marked | جذرٌ آخر: افق، حذف، حر، حرك، حشو، حفر، حقل، حلء، وغيرُها | jassem-2016-fashion · jassem-2014-mathematical |
+| Marry | `tafreeq` | **تفرق** | separation, divorce | جذرٌ آخر: ءب، بد، برزخ، بين، خلع، طلق، عزل، عن، وغيرُها | jassem-2016-entirely-arabic |
+| Marry | `they` | **ثي** | separation | جذرٌ آخر: ءب، بد، برزخ، بين، عزل، عن، وزع | jassem-2016-entirely-arabic |
+| Marry | `diverge` | **دفرج** | separation | جذرٌ آخر: ءب، بد، برزخ، بين، عزل، عن، وزع | jassem-2016-entirely-arabic |
+| Marry | `divergence` | **دفرجنك** | separation | جذرٌ آخر: ءب، بد، برزخ، بين، عزل، عن، وزع | jassem-2016-entirely-arabic |
+| Marry | `diverse` | **دفرس** | separation | جذرٌ آخر: ءب، بد، برزخ، بين، عزل، عن، وزع | jassem-2016-entirely-arabic |
+| Marry | `convergence` | **كنفرجنك** | separation | جذرٌ آخر: ءب، بد، برزخ، بين، عزل، عن، وزع | jassem-2016-entirely-arabic |
+| Marry | `mar` | **مر** | a(t) by substituting /f/ for /m/ in German. Furthermore, Fre | جذرٌ آخر: ءلم، از، بابونج، باخ، بدل، بري، بلو، بوت، وغيرُها | jassem-2016-entirely-arabic |
+| Marry | `mar'a(t)` | **مرء** | woman | نعم | jassem-2013-family · jassem-2016-entirely-arabic |
+| Marry | `mar'atun` | **مرءتن** | a woman (nom. indef.) | جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، اجر، اخت، بدل، بذل، وغيرُها | jassem-2016-entirely-arabic |
+| Marry | `mar3a` | **مرع** | grazing ground | جذرٌ آخر: ضيع | jassem-2016-entirely-arabic |
+| Marry | `mufaraqatun` | **مفرقتن** | separation | جذرٌ آخر: ءب، بد، برزخ، بين، عزل، عن، وزع | jassem-2016-entirely-arabic |
+| Marry | `muhra(t)` | **مهر** | mare | جذرٌ آخر: بغل، حجر، عود، فرس | jassem-2016-entirely-arabic |
+| Mason | `'umm(at)` | **ءم** | mother | نعم | jassem-2015-urban |
+| Mason | `madeena(t)` | **مدن** | city, town | نعم | jassem-2015-urban |
+| Mason | `marr` | **مر** | water, rain, sea | جذرٌ آخر: ءرض، ءس، بحر، بغش، جون، حوت، حوض، خور، وغيرُها | jassem-2015-urban |
+| Mason | `mar3a` | **مرع** | grazing land | جذرٌ آخر: ضيع، وزز | jassem-2015-urban |
+| Mason | `muSawin` | **مصون** | mason; builder | جذرٌ آخر: بنا، بني، جرف، خوف، عمر، لج | jassem-2015-urban |
 | Mass | `jism` | **جسم** | body, mass | نعم | jassem-2014-mathematical |
 | Master | `3air` | **عر** | owner, master | جذرٌ آخر: بعل، رب، سيد، صحب، ملك | jassem-2015-democratic |
 | Master | `ma'joor` | **مءجر** | paid, thanked | جذرٌ آخر: ءجر، جزي، حرف، رتب، رصد، رها، شغر، شغل، وغيرُها | jassem-2014-divine-theological |
 | Master | `musaiTir` | **مسطر** | controller, master | جذرٌ آخر: ءبو، ءمر، بء، بر، بعل، جبي، جهبذ، دهر، وغيرُها | jassem-2014-divine-theological · jassem-2015-democratic |
 | Master | `mafrash` | **مفرش** | woman; mattress | جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، اجر، اخت، بدل، بذل، وغيرُها | jassem-2015-democratic |
+| Masticate | `2ummuS` | **حمص** | chick peas | جذرٌ آخر: رءل، صوص، فتا، فرج، فرخ، لوب، ليل، هار | jassem-2014-wining-dining |
+| Masticate | `qaawirma(t)` | **قورم** | melted fat and meat | جذرٌ آخر: بردع، جمل، شحم، صهب، قدد، لحم، مضر | jassem-2014-wining-dining |
+| Masticate | `mar` | **مر** | abundant rain, water, sea; embitter | جذرٌ آخر: بحر، غدق، غزر | jassem-2014-wining-dining |
+| Masticate | `marmar` | **مرمر** | abundant rain, water, sea; embitter | جذرٌ آخر: بحر، غدق، غزر | jassem-2014-wining-dining |
 | Mat | `madda(t)` | **مد** | mat | جذرٌ آخر: بسط، حصر، سجد، سفر، عرق، فرش، لبد، مت، وغيرُها | jassem-2016-fashion |
+| Mate | `shaikh` | **شخ** | chief | جذرٌ آخر: ءبو، بعل، تخم، جبار، حرب، دحي، دوج، دوق، وغيرُها | jassem-2013-family |
+| Mate | `maa'ida(t)` | **مءد** | table | جذرٌ آخر: جدل، جلي، خو، ديق، ديل، ذبح، سطح، سفر، وغيرُها | jassem-2013-family |
+| Mate | `anisa(t)` | **نس** | girl | جذرٌ آخر: ءم، اخت، بز، بنت، ثوب، خت، خدر، در، وغيرُها | jassem-2013-family |
+| Mate | `nisaa'` | **نسء** | girl | جذرٌ آخر: ءم، اخت، بز، بنت، ثوب، خت، خدر، در، وغيرُها | jassem-2013-family |
 | Maximum | `majmoo3` | **مجمع** | gathered; total | جذرٌ آخر: ءتم، باد، بلد، بلغ، جرب، جمع، جمل، حجر، وغيرُها | jassem-2014-mathematical |
 | May | `tis3a(t)` | **تسع** | nine | نعم | jassem-2013-time |
 | May | `thaman` | **ثمن** | eight | نعم | jassem-2013-time |
@@ -1483,6 +1946,7 @@
 | May | `Dau'` | **ضء** | light | جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها | jassem-2013-time |
 | May | `nash'` | **نشء** | the young | جذرٌ آخر: ءنس، ءيل، برغز، بز، بكر، بنت، بيب، تاج، وغيرُها | jassem-2013-time |
 | Mayor | `'ameer` | **ءمر** | prince, commander | نعم | jassem-2015-democratic |
+| Meal | `waleema(t)` | **ولم** | banquet | نعم | jassem-2014-wining-dining |
 | Mean | `mata` | **مت** | middle; when | جذرٌ آخر: غزل | jassem-2014-mathematical |
 | Mean | `matara` | **متر** | measure | جذرٌ آخر: ءشل، ان، بحر، برد، بعد، بهر، بيز، بيع، وغيرُها | jassem-2013-speech-writing |
 | Mean | `ma3na` | **معن** | meaning | لا مدخلَ عندنا | jassem-2013-speech-writing |
@@ -1491,6 +1955,8 @@
 | Measure | `matar` | **متر** | cut, measure | نعم | jassem-2014-mathematical |
 | Measure | `masa` | **مس** | middle; evening | جذرٌ آخر: ءرد، ءير، الليل، اليمن، بحبح، برغل، بعث، بول، وغيرُها | jassem-2014-mathematical |
 | Measure | `niS)` | **نص** | middle, half | جذرٌ آخر: نصف | jassem-2014-mathematical |
+| Meat | `Ta3aam` | **طعم** | food | نعم | jassem-2014-wining-dining |
+| Meat | `moona(t)` | **من** | stored food | جذرٌ آخر: لحم | jassem-2014-wining-dining |
 | Melon | `laimoon` | **لمن** | lemon | جذرٌ آخر: بول، حمص، حمض، حنظل، ذخر، رنجان، علقم، ليم، وغيرُها | jassem-2016-floral |
 | Melt | `3atm(at)` | **عتم** | darkness | نعم | jassem-2013-water-sea |
 | Melt | `qataama(t)` | **قتم** | darkness | جذرٌ آخر: جنح، حبر، حلك، دجو، دها، رك، رهق، ظل، وغيرُها | jassem-2013-water-sea |
@@ -1499,6 +1965,7 @@
 | Menace | `mana3a(t)` | **منع** | impenetrability, prevention | نعم | jassem-2015-military |
 | Mental | `nafs` | **نفس** | self, mind, thought | نعم | jassem-2014-divine-theological |
 | Merely | `shakl` | **شكل** | form, shape | نعم | jassem-2019-mr |
+| Merry | `mara2` | **مرح** | merry, happy | نعم | jassem-2016-entirely-arabic |
 | Merry Christmas | `maaddat` | **مدت** | material, method | جذرٌ آخر: رتب | jassem-2014-divine-theological |
 | Merry Christmas | `mari2` | **مرح** | merry | نعم | jassem-2014-divine-theological |
 | Messenger | `mursal(een)` | **مرسلن** | messenger(s) | جذرٌ آخر: برد، ذير، رسل، سعي، فرق، فيج، لءك، ملك | jassem-2015-democratic |
@@ -1523,7 +1990,7 @@
 | Milk | `basbas` | **بسبس** | flow water; walk fast | جذرٌ آخر: جري، خرط، زيف، سد، سدد، سري، سقي، سكب، وغيرُها | jassem-2013-animal |
 | Milk | `Da'n` | **ضءن** | sheep | نعم | jassem-2013-animal |
 | Milk | `3ijl` | **عجل** | bull | نعم | jassem-2013-animal |
-| Milk | `maSl` | **مصل** | milk liquid | نعم | jassem-2013-animal |
+| Milk | `maSl` | **مصل** | milk liquid | نعم | jassem-2013-animal · jassem-2014-wining-dining |
 | Milk | `ma33a` | **مع** | sound of cows | نعم | jassem-2013-animal |
 | Million | `qaleel` | **قل** | small | جذرٌ آخر: ءس، ءكل، ا، الثمن، باك، بب، بحثر، بخ، وغيرُها | jassem-2014-mathematical |
 | Million | `lamam` | **لم** | very small things | جذرٌ آخر: بعض، حزم، حفظ، خلد، ربد، سدس، سيي، صغر، وغيرُها | jassem-2014-mathematical |
@@ -1580,14 +2047,28 @@
 | Mosque | `mastoor` | **مستر** | secret, hidden | جذرٌ آخر: بطن، خف، خفي، خمل، دسس، سر، سرر، سري، وغيرُها | jassem-2014-divine-theological |
 | Mosque | `mann` | **من** | giving for free | جذرٌ آخر: فدي | jassem-2014-divine-theological |
 | Mosquito | `namoos(at)` | **نمس** | mosquito | جذرٌ آخر: برغش، بعض، كلل | jassem-2013-animal |
-| Mother | `mar'a(t)` | **مرء** | woman, wife | نعم | jassem-2019-mr |
+| Mother | `jimaa3` | **جمع** | marriage, intercourse | جذرٌ آخر: بر، نكح | jassem-2013-family |
+| Mother | `3air` | **عر** | owner | جذرٌ آخر: بعل، خمر، دهق، ذو، رب، رجع، رد، زرع، وغيرُها | jassem-2013-family |
+| Mother | `mar'a(t)` | **مرء** | woman, wife | نعم | jassem-2019-mr · jassem-2013-family |
+| Mother | `musaiTir` | **مسطر** | master, writer | جذرٌ آخر: ءبو، ءدب، ءمر، ءنا، اثر، بء، بر، بعل، وغيرُها | jassem-2013-family |
+| Mount | `amt` | **مت** | height | جذرٌ آخر: بعد، بنش، بيع، تلع، جار، حجم، دوخ، دوش، وغيرُها | jassem-2015-urban |
 | Mount | `maTiya(t)` | **مطي** | riding animal, horse | نعم | jassem-2013-animal |
 | Mouse | `beesh` | **بش** | of babies, drink | جذرٌ آخر: ءسقي، بتع، برد، بلع، بير، ترق، ثمل، جرع، وغيرُها | jassem-2013-animal |
 | Mouse | `qawaam` | **قوم** | mice, rats, snakes | جذرٌ آخر: فءر، نمس | jassem-2013-animal |
+| Move | `ma2a` | **مح** | erase | نعم | jassem-2015-urban |
+| Move | `madina(t)` | **مدن** | city | نعم | jassem-2015-urban |
+| Move | `maDa` | **مض** | go, move | جذرٌ آخر: ءبب، ءتي، ءج، ءخذ، ءدي، بزبز، بطء، بعد، وغيرُها | jassem-2015-urban |
 | Mow | `matara` | **متر** | cut | نعم | jassem-2016-floral |
 | Much | `kaamil` | **كمل** | full, complete | نعم | jassem-2014-mathematical |
 | Mule | `2imaar` | **حمر** | donkey | نعم | jassem-2013-animal |
 | Mule | `fa2l` | **فحل** | male | نعم | jassem-2013-animal |
+| Mum | `bin(t)` | **بن** | son (daughter) | نعم | jassem-2013-family |
+| Mum | `aanisa(t)` | **نس** | girl, Miss | جذرٌ آخر: ءم، ءنس، اخت، بجل، بز، بنت، توق، ثوب، وغيرُها | jassem-2013-family |
+| Mum | `niswat` | **نسوت** | girl, Miss | جذرٌ آخر: ءم، ءنس، اخت، بجل، بز، بنت، توق، ثوب، وغيرُها | jassem-2013-family |
+| Munch | `maqqa` | **مق** | to open one | جذرٌ آخر: باب، بسط، بوح، بيا، ثري، جفء، جو، جوو، وغيرُها | jassem-2014-wining-dining |
+| Munch | `maqmaq` | **مقمق** | to open one | جذرٌ آخر: باب، بسط، بوح، بيا، ثري، جفء، جو، جوو، وغيرُها | jassem-2014-wining-dining |
+| Munch | `nadhl` | **نذل** | lowly, ill-mannered | نعم | jassem-2014-wining-dining |
+| Munch | `nasr` | **نسر** | eat a little | جذرٌ آخر: قنت | jassem-2014-wining-dining |
 | Murmur | `ramram` | **رمرم** | talk low; eat | نعم | jassem-2013-speech-writing |
 | Murmur | `Saamit` | **صمت** | silent | نعم | jassem-2013-speech-writing |
 | Murmur | `aanisa(t)` | **نس** | girl | جذرٌ آخر: ءم، اخت، بز، بنت، ثوب، خت، خدر، در، وغيرُها | jassem-2013-speech-writing |
@@ -1598,6 +2079,8 @@
 | Myriad | `miat` | **مت** | hundred | جذرٌ آخر: بلد، ثلث، حول، دين، سر، عصر، قر، قرن، وغيرُها | jassem-2014-mathematical |
 | Myth | `fam` | **فم** | mouth | نعم | jassem-2013-speech-writing · jassem-2014-divine-theological |
 | Nag | `naq` | **نق** | nag | لا مدخلَ عندنا | jassem-2013-speech-writing |
+| Nap | `3inab` | **عنب** | grapes | نعم | jassem-2015-life-death |
+| Nap | `naam` | **نم** | sleep | جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها | jassem-2015-life-death |
 | Narrate | `nathara` | **نثر** | talk much | جذرٌ آخر: بق | jassem-2013-speech-writing |
 | National Anthem | `fanan` | **فن** | sound | جذرٌ آخر: ءن، ءنس، ءوه، بيت، تشو، تلعثم، ثغا، جرس، وغيرُها | jassem-2015-democratic |
 | National Anthem | `natham` | **نثم** | bad talk | جذرٌ آخر: غيب، فوض | jassem-2015-democratic |
@@ -1619,6 +2102,7 @@
 | Neigh | `muSalSal` | **مصلصل** | fast horse | جذرٌ آخر: كفت | jassem-2013-animal |
 | Neigh | `na3eeq` | **نعق** | sound and cry of animals | نعم | jassem-2013-animal |
 | Net | `naseej` | **نسج** | knitting, weaving, binding together | نعم | jassem-2016-fashion |
+| New | `nai'` | **نء** | raw | جذرٌ آخر: خات، دبس، رد، شحن، عبط، عتر، عدد، غرر، وغيرُها | jassem-2015-life-death |
 | Next to | `bin` | **بن** | son | نعم | jassem-2014-prepositions |
 | Next to | `jatha` | **جث** | sit | جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها | jassem-2014-prepositions |
 | Next to | `2atta` | **حت** | to | لا مدخلَ عندنا | jassem-2014-prepositions |
@@ -1635,15 +2119,21 @@
 | Night | `thamaan` | **ثمن** | eight | نعم | jassem-2013-time |
 | Night | `masaa'` | **مسء** | evening | جذرٌ آخر: الليل، روح، سمر، شفق، طلل، عش، عشا، عشو، وغيرُها | jassem-2013-time |
 | Night | `masiat` | **مست** | evening | جذرٌ آخر: الليل، روح، سمر، شفق، طلل، عش، عشا، عشو، وغيرُها | jassem-2013-time |
+| Nightmare | `jinnat` | **جنت** | darkness | جذرٌ آخر: جنح، حبر، حلك، دجو، دها، رك، رهق، ظل، وغيرُها | jassem-2015-life-death |
 | Nine | `tis3(at)` | **تسع** | nine | نعم | jassem-2012-numerals |
 | Nine | `thamaan(iat)` | **ثمنت** | eight | جذرٌ آخر: بء، تر، تري، تسعة، ثمانية، ثمن، حنك، زل، وغيرُها | jassem-2014-mathematical |
 | Ninth | `tasi3` | **تسع** | ninth | نعم | jassem-2012-numerals |
+| Noble | `'aiqan` | **ءقن** | to know | جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها | jassem-2016-entirely-arabic |
+| Nod | `naad` | **ند** | nod | جذرٌ آخر: نغض، نوب، هز، ومء | jassem-2015-life-death |
+| Nod | `nawd` | **نود** | nod | جذرٌ آخر: نغض، نوب، هز، ومء | jassem-2015-life-death |
 | Noise | `naba'` | **نبء** | new(s), story | نعم | jassem-2013-speech-writing |
 | North | `tall(at)` | **تل** | hill, mount | نعم | jassem-2015-military |
-| North | `shimaal` | **شمل** | north | نعم | jassem-2014-divine-theological · jassem-2015-military |
+| North | `shimaal` | **شمل** | north | نعم | jassem-2014-divine-theological · jassem-2015-military · jassem-2015-life-death |
 | North | `3anqood` | **عنقد** | bunch (of grapes); cluster | جذرٌ آخر: خصل، عنقود | jassem-2015-military |
 | North | `qarn` | **قرن** | (musical) horn, connection | نعم | jassem-2015-military |
 | North | `nathoor` | **نثر** | woman with many children | جذرٌ آخر: بق، رب، روم، طول، عد، نون | jassem-2014-divine-theological |
+| North | `naam` | **نم** | sleep | جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها | jassem-2015-life-death |
+| North | `nawm` | **نوم** | sleep | نعم | jassem-2015-life-death |
 | Not | `2imar` | **حمر** | donkey | نعم | jassem-2013-negative-particles |
 | Not | `dzil(eel))` | **دزل** | little, less | جذرٌ آخر: خف، سهل، صغر، ضحل، علب، قزم، قلل، لطف، وغيرُها | jassem-2013-negative-particles |
 | Not | `doon` | **دن** | down | جذرٌ آخر: ءث، ءثر، ءلي، ءمر، ءنس، ءود، برك، بطح، وغيرُها | jassem-2013-negative-particles |
@@ -1660,37 +2150,49 @@
 | Number | `nimra(t)` | **نمر** | mark, number | جذرٌ آخر: ءسس، رقم، ضمم، طبع | jassem-2014-mathematical |
 | Numeral | `nimra(t)` | **نمر** | mark, number | جذرٌ آخر: ءسس، رقم، ضمم، طبع | jassem-2014-mathematical |
 | Nun | `'umm` | **ءم** | mother | نعم | jassem-2014-divine-theological |
+| Nun | `bizraan` | **بزرن** | children | جذرٌ آخر: ءهل، بتر، بخ، بس، بطن، بق، بو، جيل، وغيرُها | jassem-2013-family |
+| Nut | `nuwaa(t)` | **نو** | nut, nucleus | جذرٌ آخر: بست، بق، بيار، بيض، تبل، تر، جرثومة، جوز، وغيرُها | jassem-2014-wining-dining |
 | Oat | `'atta` | **ءت** | of plants, to increase | جذرٌ آخر: ربو، زهر | jassem-2016-floral |
 | Oat | `waDee3a(t)` | **وضع** | crushed butter-mixed wheat | جذرٌ آخر: برغل، طح، لبن | jassem-2016-floral |
 | Oath | `waswaas` | **وسوس** | obsession | جذرٌ آخر: قلق، هوس | jassem-2014-divine-theological |
 | Oath | `wa3d` | **وعد** | promise | نعم | jassem-2014-divine-theological |
 | Object | `shaqqa(t)` | **شق** | cut, division | جذرٌ آخر: جزء، شعب، عزل، فصل، قسم، قط، قطع | jassem-2015-case-word-order |
 | Object | `shiqqat` | **شقت** | cut, division | جذرٌ آخر: جزء، شعب، عزل، فصل، قسم، قط، قطع | jassem-2015-case-word-order |
-| Occult | `2arth` | **حرث** | farming, cultivation | نعم | jassem-2014-divine-theological |
+| Obsessed | `wasas` | **وس** | obsession | جذرٌ آخر: قلق، هوس | jassem-2015-life-death |
+| Obsessed | `waswaas` | **وسوس** | obsession | جذرٌ آخر: قلق، هوس | jassem-2015-life-death |
+| Occult | `2arth` | **حرث** | farming, cultivation | نعم | jassem-2014-divine-theological · jassem-2015-life-death |
+| Occult | `kallal` | **كل** | to top-cover; blind | جذرٌ آخر: ستر، سطح، سقف، صعد، علي، فوق | jassem-2015-life-death |
 | Odd | `'ul` | **ءل** | one, first | جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها | jassem-2014-mathematical |
 | Odd | `'awwal` | **ءول** | one, first | نعم | jassem-2014-mathematical |
 | Odd | `3adoo` | **عد** | enemy | نعم | jassem-2014-mathematical |
 | Ode | `2adi` | **حد** | camel song | جذرٌ آخر: ءبل، ءور، اب، بخت، بدن، برد، بطن، بعر، وغيرُها | jassem-2013-speech-writing |
 | Odour | `3iTr` | **عطر** | perfume | نعم | jassem-2013-air-fire |
+| Office | `fisfis` | **فسفس** | a decorated house | جذرٌ آخر: صطب | jassem-2015-urban |
 | Officer | `3ib'` | **عبء** | onus, burden | نعم | jassem-2015-military |
 | Officer | `3an` | **عن** | on | لا مدخلَ عندنا | jassem-2015-military |
 | Officer | `wafeeq` | **وفق** | companion | جذرٌ آخر: ءنس، جلي، حب، حسن، خدن، خلط، رفع، رفق، وغيرُها | jassem-2015-military |
 | Often | `3an` | **عن** | on | لا مدخلَ عندنا | jassem-2013-time |
 | Often | `fainat` | **فنت** | a time | جذرٌ آخر: ءبد، ءجل، ءخر، ءذ، ءرخ، ءصل، ءما، ءمس، وغيرُها | jassem-2013-time |
 | Often | `waalid` | **ولد** | father, old | نعم | jassem-2013-time |
-| Oil | `ihaala(t)` | **هل** | oil, fat | جذرٌ آخر: دهن، زيت، سمن، شحم، قلي | jassem-2013-air-fire |
+| Oil | `ihaala(t)` | **هل** | oil, fat | جذرٌ آخر: دهن، زيت، سمن، شحم، قلي | jassem-2013-air-fire · jassem-2014-wining-dining |
 | Ointment | `duhoon` | **دهن** | ointment, fat | نعم | jassem-2013-speech-writing |
 | Ointment | `3abra(t)` | **عبر** | passionate cry, tear, lesson | نعم | jassem-2013-speech-writing |
-| Omen | `'am(aa)n` | **ءمن** | safety, security, faith | نعم | jassem-2014-divine-theological |
+| Olive | `ihaala(t)` | **هل** | liquefied, melted fat | جذرٌ آخر: جمل، شحم، صهر | jassem-2014-wining-dining |
+| Omen | `'am(aa)n` | **ءمن** | safety, security, faith | نعم | jassem-2014-divine-theological · jassem-2015-life-death |
+| Omen | `bawS` | **بوص** | pass, advance | جذرٌ آخر: دبر | jassem-2015-life-death |
+| Omen | `sabsab` | **سبسب** | go, pass, flow | نعم | jassem-2015-life-death |
+| Omen | `sam3aan` | **سمعن** | hearing | جذرٌ آخر: ءذن، بوم، جلس، ساع، سك، سم، سمع، صغ، وغيرُها | jassem-2015-life-death |
 | Omen | `shara2a` | **شرح** | cut, divide, explain | نعم | jassem-2014-divine-theological |
 | Omen | `3umoom` | **عم** | all, common | جذرٌ آخر: جمع، ركز، سود، صلا، ضلع، عرق، عمم، كل، وغيرُها | jassem-2014-divine-theological |
+| Omen | `wajh` | **وجه** | face, way, direction | نعم | jassem-2015-life-death |
 | Once | `awwal` | **ول** | one | لا مدخلَ عندنا | jassem-2013-time |
 | One | `a2ad` | **حد** | one | لا مدخلَ عندنا | jassem-2012-numerals |
 | One | `wa2id` | **وحد** | one | لا مدخلَ عندنا | jassem-2012-numerals |
 | One | `awwal` | **ول** | one | لا مدخلَ عندنا | jassem-2012-numerals |
+| Onion | `'aarinj` | **ءرنج** | oranges | لا مدخلَ عندنا | jassem-2014-wining-dining |
 | Onion | `'ul(an)` | **ءل** | one, first | جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها | jassem-2016-floral |
 | Onion | `'awal(an)` | **ءول** | one, first | نعم | jassem-2016-floral |
-| Onion | `na3na3` | **نعنع** | mint | جذرٌ آخر: جعد، حبق، خيت، دنر، سك، ضرب، ضرم، فلي، وغيرُها | jassem-2016-floral |
+| Onion | `na3na3` | **نعنع** | mint | جذرٌ آخر: جعد، حبق، خيت، دنر، سك، ضرب، ضرم، فلي، وغيرُها | jassem-2016-floral · jassem-2014-wining-dining |
 | Opinion | `abaan` | **بن** | open, clarify | جذرٌ آخر: باب، بسط، بلور، بوح، بيا، ثري، جفء، جو، وغيرُها | jassem-2013-speech-writing |
 | Opposite to | `thaan(i)` | **ثن** | second, next, other | جذرٌ آخر: ب، بدل، بطرك، تبع، جور، خطب، صفف، عل، وغيرُها | jassem-2014-prepositions |
 | Opposite to | `alladhi` | **لذ** | who | نعم | jassem-2014-prepositions |
@@ -1738,30 +2240,44 @@
 | Overalls | `Subar` | **صبر** | high | جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها | jassem-2016-fashion |
 | Overalls | `kull` | **كل** | all | نعم | jassem-2016-fashion |
 | Owl | `boom` | **بم** | owl | جذرٌ آخر: بوم، هار، هام | jassem-2013-animal |
+| Own | `qana` | **قن** | possess | جذرٌ آخر: ءخذ، حوز، خلج، خمر، ذات، ذو، سمن، شت، وغيرُها | jassem-2013-family |
 | Paddle | `ba2r` | **بحر** | sea, sailor | نعم | jassem-2013-water-sea |
 | Paddle | `nab3a(t)` | **نبع** | water spring | نعم | jassem-2013-water-sea |
 | Pagan | `bajja(t)` | **بج** | a pre-Islamic idol worshipped by pagan Arabs then | جذرٌ آخر: جهل | jassem-2014-divine-theological |
 | Pagan | `jibt` | **جبت** | devil | جذرٌ آخر: بلس، شرر، شيط، عفر، مرد، وسوس | jassem-2014-divine-theological |
 | Pair | `arba3` | **ربع** | four | نعم | jassem-2014-mathematical |
+| Palace | `balaaT` | **بلط** | rock, marble; palace | نعم | jassem-2015-urban |
 | Pantaloon | `bailam` | **بلم** | cane cotton; lip fetter | جذرٌ آخر: ءسر | jassem-2016-fashion |
 | Pantaloon | `tabaan` | **تبن** | short trousers for covering genitalia | جذرٌ آخر: بيض، جل | jassem-2016-fashion |
 | Paradise | `burood(at)` | **برد** | coolness | جذرٌ آخر: قر، كب | jassem-2014-divine-theological |
 | Paradise | `bassa` | **بس** | pass, flow | جذرٌ آخر: درر، طرد | jassem-2014-divine-theological |
 | Paradise | `basbas` | **بسبس** | pass, flow | جذرٌ آخر: درر، طرد | jassem-2014-divine-theological |
 | Parameter | `barra` | **بر** | outside | نعم | jassem-2014-mathematical |
+| Parent | `rabbat` | **ربت** | father, mother | جذرٌ آخر: بو، حمو، راب، سلف، ولد | jassem-2013-family |
 | Parsley | `baSSa(t)` | **بص** | pasture, growth | جذرٌ آخر: ءبب، ءرض، الجذر، بت، تقدم، جر، جو، حدث، وغيرُها | jassem-2016-floral |
 | Particle | `batr` | **بتر** | cut | نعم | jassem-2014-mathematical |
 | Particle | `qaleel` | **قل** | small | جذرٌ آخر: ءس، ءكل، ا، الثمن، باك، بب، بحثر، بخ، وغيرُها | jassem-2014-mathematical |
+| Partner | `'abtar` | **ءبتر** | childless person; cut | جذرٌ آخر: بتر | jassem-2013-family |
 | Party | `abat` | **بت** | father | جذرٌ آخر: ءب، ءبا، ءبب، ءبت، ءبو، ءبي، ءس، باب، وغيرُها | jassem-2015-democratic |
 | Party | `batr` | **بتر** | cut, division | نعم | jassem-2015-democratic |
+| Pass | `baSSa(t)` | **بص** | pasture, growth | جذرٌ آخر: ءبب، ءرض، الجذر، بت، تقدم، جر، جو، حدث، وغيرُها | jassem-2015-urban |
+| Pass | `bawS` | **بوص** | pass, advance | جذرٌ آخر: دبر | jassem-2015-urban |
+| Pass | `sab(sab)` | **سبسب** | go, pass, flow | نعم | jassem-2015-urban |
 | Past | `saabiq` | **سبق** | past, passed, previous | نعم | jassem-2013-time |
+| Pastry | `2abb(at)` | **حب** | grains | نعم | jassem-2014-wining-dining |
+| Path | `batha'` | **بثء** | soft, easy earth | جذرٌ آخر: خفض، سنو، شفق، لين، نعم، يسر | jassem-2015-urban |
+| Pavement | `baaj` | **بج** | vast sand area; road | جذرٌ آخر: ءرض، جول، خل، صحر، فضا، نحو، وسع | jassem-2015-urban |
+| Pavement | `baa2a(t)` | **بح** | a space | جذرٌ آخر: اس، بدا، بسط، بعد، بلج، بيض، بين، تابوت، وغيرُها | jassem-2015-urban |
+| Pavement | `bustani` | **بستن** | a gardener | جذرٌ آخر: جرف، قار، لج | jassem-2015-urban |
 | Peace | `bai3a(t)` | **بع** | agreement | جذرٌ آخر: ءجل، ءم، ءي، افق، النواة، اه، ايه، تثل، وغيرُها | jassem-2014-divine-theological · jassem-2015-military · jassem-2015-democratic |
 | Peace | `bayan(at)` | **بين** | clarification, plan | جذرٌ آخر: ءبب، جلو، حلل، خط، خطط، دبر، رتب، زمم، وغيرُها | jassem-2015-military |
 | Peach | `faris` | **فرس** | Persian; horseman | نعم | jassem-2016-floral |
 | Peep | `bula2(aan)` | **بلحن** | big bird | جذرٌ آخر: بط، رءل | jassem-2013-animal |
 | Peep | `banaan` | **بن** | finger | نعم | jassem-2013-animal |
 | Peer | `baar` | **بر** | kind, honest man | جذرٌ آخر: قوم | jassem-2015-democratic |
-| Pen | `banaan` | **بن** | finger | نعم | jassem-2013-speech-writing |
+| Pen | `balad` | **بلد** | village, city, town | نعم | jassem-2015-urban |
+| Pen | `banaan` | **بن** | finger | نعم | jassem-2013-speech-writing · jassem-2015-urban |
+| Pen | `bina'` | **بنء** | building; hut | جذرٌ آخر: ءرض، ءسس، ءفق، اد، ار، باب، برج، بلك، وغيرُها | jassem-2015-urban |
 | Pen | `laabba(t)` | **لب** | loving | جذرٌ آخر: حب، حبب، حنن، عطف، مومي، ميي، ودد | jassem-2013-speech-writing |
 | Pen | `naffa` | **نف** | nose-shout | نعم | jassem-2013-speech-writing |
 | Penitence | `joor` | **جر** | injustice | جذرٌ آخر: بطل، بغي، ثءر، جور، حيف، ظلم، عطب، عول، وغيرُها | jassem-2014-divine-theological |
@@ -1769,6 +2285,7 @@
 | Penitence | `inabat` | **نبت** | repentance | جذرٌ آخر: ءوب، تاب، توب، ندم، وب | jassem-2014-divine-theological |
 | Pentagon | `banaan(at)` | **بن** | finger(s) | نعم | jassem-2014-mathematical |
 | Pepper | `baan` | **بن** | a kind of tall, soft tree | نعم | jassem-2016-floral |
+| Pepper | `buhaar` | **بهر** | pepper | جذرٌ آخر: ابل، برنج، بسب، تبل، شيط، كل | jassem-2014-wining-dining |
 | Pepper | `filfil` | **فلفل** | pepper | جذرٌ آخر: ابل، برنج، بسب، تبل، شيط، كل | jassem-2016-floral |
 | Perfume | `fa2am` | **فحم** | of fire, black, smoke, char | جذرٌ آخر: شوي | jassem-2013-air-fire |
 | Period | `burhat` | **برهت** | period | جذرٌ آخر: ءث، ءخر، اخ، با، بد، بدل، بذل، بره، وغيرُها | jassem-2013-time |
@@ -1776,6 +2293,7 @@
 | Pheasant | `bustaan(i)` | **بستن** | orchard (man) | جذرٌ آخر: علج | jassem-2013-animal |
 | Pheasant | `2abash` | **حبش** | turkey; grey | جذرٌ آخر: الءسكندر، الشرق، الفرات، بلق، ترك، خدي، دجل، درن، وغيرُها | jassem-2013-animal |
 | Pheasant | `2ubshaan` | **حبشن** | turkey; grey | جذرٌ آخر: الءسكندر، الشرق، الفرات، بلق، ترك، خدي، دجل، درن، وغيرُها | jassem-2013-animal |
+| Pickle | `baql` | **بقل** | (sour) vegetable | نعم | jassem-2014-wining-dining |
 | Picture | `bala` | **بل** | yes | جذرٌ آخر: ء، ءجل، ءما، ءي، اه، ايه، بلا، بلي، وغيرُها | jassem-2013-speech-writing |
 | Piety | `bathth` | **بث** | sorrow | جذرٌ آخر: ءسف، ءسي، ادم، بكي، تاب، ثب، حز، حزن، وغيرُها | jassem-2014-divine-theological |
 | Piety | `ibT` | **بط** | armpit | نعم | jassem-2014-divine-theological |
@@ -1791,6 +2309,9 @@
 | Plane | `nibaal` | **نبل** | arrows | نعم | jassem-2013-air-fire |
 | Plant | `labaT` | **لبط** | to kick with the foot | جذرٌ آخر: رفس، ركل، نجل | jassem-2016-floral |
 | Plant | `nabat` | **نبت** | plant | نعم | jassem-2016-floral |
+| Plate | `balaaT(at)` | **بلط** | a flat stone | جذرٌ آخر: جلخ، حلق، دك، سنن، شحذ، صطب | jassem-2014-wining-dining |
+| Please | `bajal` | **بجل** | to please, respect | نعم | jassem-2014-wining-dining |
+| Please | `baSal` | **بصل** | onion | نعم | jassem-2014-wining-dining |
 | Pledge | `qabal` | **قبل** | accept | نعم | jassem-2015-democratic |
 | Plum | `bur3um` | **برعم** | rose bud, flowering | نعم | jassem-2016-floral |
 | Plum | `baamia` | **بم** | okra; lady | جذرٌ آخر: خاتون، دام، رب، سلت، سيد، قين، لا، ليد، وغيرُها | jassem-2016-floral |
@@ -1814,10 +2335,19 @@
 | Poplar | `lablab` | **لبلب** | a kind of tree | جذرٌ آخر: ءرز، ءرك، ءرم، ءس، با، بتل، برزين، بطم، وغيرُها | jassem-2016-floral |
 | Pork | `biss(at)` | **بس** | cat (f) | نعم | jassem-2013-animal |
 | Pork | `kalb` | **كلب** | dog | نعم | jassem-2013-animal |
-| Possessed | `masasa` | **مس** | possessed, touched | جذرٌ آخر: ءثر، بصم، جن، جنن، حسد، رب، سكن، طرب، وغيرُها | jassem-2014-divine-theological |
+| Port | `bu'ra(t)` | **بءر** | opening | جذرٌ آخر: است، باب، بق، بوب، بوز، تاق، تم، ثقب، وغيرُها | jassem-2015-urban |
+| Port | `rijl` | **رجل** | foot, leg | نعم | jassem-2015-urban |
+| Possessed | `bajar` | **بجر** | drink | جذرٌ آخر: ءسقي، بتع، برد، بلع، بير، ترق، ثمل، جرع، وغيرُها | jassem-2015-life-death |
+| Possessed | `masasa` | **مس** | possessed, touched | جذرٌ آخر: ءثر، بصم، جن، جنن، حسد، رب، سكن، طرب، وغيرُها | jassem-2014-divine-theological · jassem-2015-life-death |
 | Post | `ba3d(a)` | **بعد** | after | نعم | jassem-2014-prepositions |
 | Post | `qabl(a)` | **قبل** | before, in front of | نعم | jassem-2014-prepositions |
+| Pot | `baTTa(t)` | **بط** | a bottle-shaped container; pot; duck; a lie/liar (cf. poet) | نعم | jassem-2014-wining-dining |
+| Pot | `Taaba` | **طب** | delicious | جذرٌ آخر: حيل، طلي، فخر، لذ، لذذ، متع | jassem-2014-wining-dining |
+| Pot | `Taiyeb` | **طيب** | delicious | جذرٌ آخر: حيل، طلي، فخر، لذ، لذذ، متع | jassem-2014-wining-dining |
 | Potato | `baiDat` | **بضت** | egg | جذرٌ آخر: باض، بوض، بيض، جن، حثث، حسل، خفق، رصب، وغيرُها | jassem-2016-floral |
+| Potato | `baTTa(t)` | **بط** | a swelling, to swell, duck | نعم | jassem-2014-wining-dining |
+| Potato | `baTbaT` | **بطبط** | a swelling, to swell, duck | جذرٌ آخر: نفخ، ورم | jassem-2014-wining-dining |
+| Potato | `2aush` | **حش** | house (courtyard); den | جذرٌ آخر: ءجر، ءرض، ءوي، اشر، برج، بغي، بوت، بيت، وغيرُها | jassem-2014-wining-dining |
 | Power | `baa'a(t)` | **بء** | ability | جذرٌ آخر: برع، بصر، بيع، تقن، جندب، جهد، حج، حدث، وغيرُها | jassem-2015-military |
 | Power | `murr` | **مر** | bitter, strong, strength | نعم | jassem-2013-air-fire |
 | Power | `muru'a(t)` | **مرء** | strength, power | جذرٌ آخر: ءزر، ءيد، بءس، سطو، سلط، طوق، عزز، قو، وغيرُها | jassem-2015-military |
@@ -1826,6 +2356,7 @@
 | Pray | `Dajja` | **ضج** | say, talk | جذرٌ آخر: حدث، زعم، قول، كلم | jassem-2014-divine-theological |
 | Pray | `qabl` | **قبل** | before | نعم | jassem-2014-divine-theological |
 | Pray | `qara'a` | **قرء** | read | نعم | jassem-2013-speech-writing |
+| Pregnant | `qabl` | **قبل** | before | نعم | jassem-2013-family |
 | Presbyter | `kabeer` | **كبر** | old | نعم | jassem-2014-divine-theological |
 | Present | `qabl` | **قبل** | before | نعم | jassem-2013-time |
 | President | `sada2` | **سدح** | sit, lie | جذرٌ آخر: ءفك، بطح، بني، بور، بوق، تلو، جال، جلا، وغيرُها | jassem-2015-democratic |
@@ -1856,6 +2387,10 @@
 | Psalm | `mizmaar` | **مزمر** | a flute | جذرٌ آخر: خدود، نقب | jassem-2014-divine-theological |
 | Public Opinion | `'abana` | **ءبن** | to clarify, to explain | جذرٌ آخر: صرح، فسر | jassem-2015-democratic |
 | Public Opinion | `baiyan` | **بين** | to clarify, to explain | نعم | jassem-2015-democratic |
+| Pudding | `bakhkha` | **بخ** | to spray, slay | جذرٌ آخر: دفق، ذبح، رش، رشش، طحل، قتل، نحر | jassem-2014-wining-dining |
+| Pudding | `2iSrim` | **حصرم** | unripe, sour grapes | نعم | jassem-2014-wining-dining |
+| Pudding | `rubb` | **رب** | purée, jam | جذرٌ آخر: حصر، دون، ربو، ربي، زحم، شوش، طلي، قبط | jassem-2014-wining-dining |
+| Pudding | `murabba` | **مرب** | purée, jam | جذرٌ آخر: حصر، دون، ربو، ربي، زحم، شوش، طلي، قبط | jassem-2014-wining-dining |
 | Pulp | `lubb` | **لب** | pulp, heart, mind, inner part | نعم | jassem-2016-floral |
 | Pulse | `baqool` | **بقل** | legume | جذرٌ آخر: ترمس، خلر، سيل | jassem-2016-floral |
 | Pumpkin | `2ab2ab(un)` | **حبحب** | melon | جذرٌ آخر: بطخ، حدج، خربز، شما، شهد، قان، قرع، قط | jassem-2016-floral |
@@ -1863,7 +2398,12 @@
 | Python | `thu3baan` | **ثعبن** | snake | جذرٌ آخر: ءفع، برص، ثعب، جنن، حبب، حجر، حنش، حي، وغيرُها | jassem-2013-animal |
 | Quantity | `kamm(iat)` | **كمت** | amount; how much | جذرٌ آخر: كم | jassem-2014-mathematical |
 | Quarter | `qeeraT` | **قرط** | a quarter, a measurement unit | جذرٌ آخر: سلا | jassem-2014-mathematical |
+| Queen | `darra` | **در** | give (milk), rain | نعم | jassem-2015-radical-translation-names |
+| Queen | `sibaal` | **سبل** | arrows | جذرٌ آخر: جعب، سر، قوس، نبل، يسر | jassem-2015-radical-translation-names |
+| Queen | `Dau'` | **ضء** | light | جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها | jassem-2015-radical-translation-names |
 | Queen | `qiSSat` | **قصت** | story | جذرٌ آخر: ءذا، ادر، بطل، تء، تبع، حاك، حبك، حدث، وغيرُها | jassem-2015-democratic |
+| Queen | `qaiyen` | **قين** | beautiful girl, female singer, woman | نعم | jassem-2015-radical-translation-names |
+| Queen | `wird` | **ورد** | water | نعم | jassem-2015-radical-translation-names |
 | Rabbit | `arnab(at)` | **رنب** | rabbit | نعم | jassem-2013-animal |
 | Rabbit | `ghanam` | **غنم** | male sheep | نعم | jassem-2013-animal |
 | Radical | `jadhr` | **جذر** | root | نعم | jassem-2014-mathematical |
@@ -1882,9 +2422,12 @@
 | Rat | `qaraD` | **قرض** | bite | جذرٌ آخر: ءبر، برغش، خلب، سمم، شرشر، ضرس، عجم، عض، وغيرُها | jassem-2013-animal |
 | Ratio | `ra'a` | **رء** | see, think | جذرٌ آخر: ءتي، ءلف، ءمل، بعد، جن، جول، حس، خيل، وغيرُها | jassem-2014-mathematical |
 | Ratio | `ru'iat` | **رءت** | see, think | جذرٌ آخر: ءتي، ءلف، ءمل، بعد، جن، جول، حس، خيل، وغيرُها | jassem-2014-mathematical |
+| Raw | `tafakkaha` | **تفكه** | eat enjoyably | جذرٌ آخر: ءج، ءكل، بشر، تهم، تول، ثرد، ثمل، ثني، وغيرُها | jassem-2014-wining-dining |
+| Raw | `fakiha` | **فكه** | eat enjoyably | جذرٌ آخر: ءج، ءكل، بشر، تهم، تول، ثرد، ثمل، ثني، وغيرُها | jassem-2014-wining-dining |
 | Ray | `naar` | **نر** | fire | جذرٌ آخر: ثفي، جحم، جذو، حرق، حطب، حمر، خلو، دفء، وغيرُها | jassem-2013-air-fire |
 | Read | `radda` | **رد** | answer, retort, repeat | نعم | jassem-2013-speech-writing |
 | Real | `'arD` | **ءرض** | earth | نعم | jassem-2014-divine-theological |
+| Real | `ra'a` | **رء** | i (ru | لا مدخلَ عندنا | jassem-2015-life-death |
 | Real | `raiD(at)` | **رض** | earth | جذرٌ آخر: ءرض، ءفق، ءل، ءوج، الءرض، الكون، بحثر، برر، وغيرُها | jassem-2014-divine-theological |
 | Real | `rawDa(t)` | **روض** | earth | جذرٌ آخر: ءرض، ءفق، ءل، ءوج، الءرض، الكون، بحثر، برر، وغيرُها | jassem-2014-divine-theological |
 | Reap | `'abara` | **ءبر** | to treat or mend plants | جذرٌ آخر: شعب | jassem-2016-floral |
@@ -1920,12 +2463,17 @@
 | Regiment | `rajmat` | **رجمت** | to hit/kill with stones; big stones | جذرٌ آخر: رجم، لطس | jassem-2015-military |
 | Regiment | `raqa` | **رق** | to ascend, straighten | جذرٌ آخر: سوي، قب | jassem-2015-military |
 | Regret | `ghalaT` | **غلط** | mistake, sorrow | نعم | jassem-2013-speech-writing |
-| Regurgitate | `qarqaT` | **قرقط** | regurgitate, cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2013-animal |
+| Regurgitate | `qarqaT` | **قرقط** | regurgitate, cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2013-animal · jassem-2014-wining-dining |
 | Rehearse | `sha3ar` | **شعر** | say poetry | نعم | jassem-2013-speech-writing |
+| Relative | `sin` | **سن** | tooth, old | نعم | jassem-2013-family |
+| Relative | `musin` | **مسن** | tooth, old | جذرٌ آخر: اب، سنن | jassem-2013-family |
 | Religion | `radd` | **رد** | again | جذرٌ آخر: ءحيا، ءنف، برغش، تدمر، ثمم، ثوب، جدد، دلق، وغيرُها | jassem-2014-divine-theological |
 | Religion | `Quran` | **رن** | the Holy Book of Islam or Allah | جذرٌ آخر: القدس، عدد، علي | jassem-2014-divine-theological |
 | Religion | `qara'` | **قرء** | read, collect | نعم | jassem-2014-divine-theological |
 | Religion | `qur'aan` | **قرءن** | read, collect | جذرٌ آخر: قرء | jassem-2014-divine-theological |
+| Relish | `la3q` | **لعق** | eating | نعم | jassem-2014-wining-dining |
+| Remain | `rai3` | **رع** | back | جذرٌ آخر: ءحيا، ءخر، ءفك، ءوب، ءول، ءيد، ابض، النواة، وغيرُها | jassem-2015-urban |
+| Remain | `naam` | **نم** | sleep | جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها | jassem-2015-urban |
 | Repentance | `radd` | **رد** | again | جذرٌ آخر: ءحيا، ءنف، برغش، تدمر، ثمم، ثوب، جدد، دلق، وغيرُها | jassem-2014-divine-theological |
 | Repentance | `la2afa` | **لحف** | cover, veil | نعم | jassem-2014-divine-theological |
 | Repentance | `laffa(t)` | **لف** | cover, veil | جذرٌ آخر: ءجن، برقع، جن، حجب، خمر، ستر، شبك، غشي، وغيرُها | jassem-2014-divine-theological |
@@ -1933,8 +2481,16 @@
 | Reply | `barama` | **برم** | round (lips) | جذرٌ آخر: ان، بال، برطم، بقع، بوس، ثفر، ثني، جفن، وغيرُها | jassem-2013-speech-writing |
 | Reply | `bala` | **بل** | yes | جذرٌ آخر: ء، ءجل، ءما، ءي، اه، ايه، بلا، بلي، وغيرُها | jassem-2013-speech-writing |
 | Reproach | `zabar` | **زبر** | reproach | جذرٌ آخر: ءخذ، ءنب، تءب، جنب، طلي، عتب، عذق، عذل، وغيرُها | jassem-2013-speech-writing |
+| Reside | `raqad` | **رقد** | stay, reside | نعم | jassem-2015-urban |
 | Response | `naabaz` | **نبز** | answer back | جذرٌ آخر: درج، رجع، رد، ردد | jassem-2013-speech-writing |
 | Response | `nabzat` | **نبزت** | answer back | جذرٌ آخر: درج، رجع، رد، ردد | jassem-2013-speech-writing |
+| Restaurant | `raa2at` | **رحت** | rest; a soft doughy sweet | جذرٌ آخر: نقع | jassem-2014-wining-dining |
+| Resurrect | `kharaj` | **خرج** | come out, appear, resurrect | نعم | jassem-2015-life-death |
+| Resurrect | `raja3` | **رجع** | return | نعم | jassem-2015-life-death |
+| Resurrect | `Saat` | **صت** | talk, shout | جذرٌ آخر: دعا | jassem-2015-life-death |
+| Resurrect | `Sa2a(t)` | **صح** | health, to awake | نعم | jassem-2015-life-death |
+| Resurrect | `Si22at` | **صحت** | health, to awake | جذرٌ آخر: صح، فوق | jassem-2015-life-death |
+| Resurrect | `Sawb` | **صوب** | under, falling | جذرٌ آخر: ثلج، سقط، قبو، هوي، وقع | jassem-2015-life-death |
 | Retort | `baSar` | **بصر** | see | لا مدخلَ عندنا | jassem-2013-speech-writing |
 | Retort | `2aara` | **حر** | to worry | جذرٌ آخر: جزع، حرش، شجن، طمءن، قلق، كرب، هلع، هم، وغيرُها | jassem-2013-speech-writing |
 | Retort | `ra'a` | **رء** | ia(t) | لا مدخلَ عندنا | jassem-2013-speech-writing |
@@ -1942,6 +2498,16 @@
 | Retort | `hadhar` | **هذر** | talk much | نعم | jassem-2013-speech-writing |
 | Revere | `radd` | **رد** | again | جذرٌ آخر: ءحيا، ءنف، برغش، تدمر، ثمم، ثوب، جدد، دلق، وغيرُها | jassem-2014-divine-theological |
 | Reverse | `raja3` | **رجع** | return | نعم | jassem-2019-frk |
+| Reward | `si2r` | **سحر** | charm, enchantment, magic, spell | نعم | jassem-2015-life-death |
+| Reward | `sal(i)m` | **سلم** | safe, secure | نعم | jassem-2015-life-death |
+| Reward | `Safa` | **صف** | to be pure; remain; to sieve | جذرٌ آخر: صفو، عفف | jassem-2015-life-death |
+| Reward | `fakka` | **فك** | to unlock, disentangle | جذرٌ آخر: حلل، سلك | jassem-2015-life-death |
+| Reward | `waarid` | **ورد** | coming, approaching | نعم | jassem-2015-life-death |
+| Rice | `'arz` | **ءرز** | rice | جذرٌ آخر: برنج، تش، رز، رزز، روز، سوب، طال، عيش، وغيرُها | jassem-2014-wining-dining |
+| Rice | `rathth` | **رث** | bad, untidy | جذرٌ آخر: بخر، بد، بعد، تن، جزل، جور، خبث، دخن، وغيرُها | jassem-2014-wining-dining |
+| Rice | `sukkar` | **سكر** | sugar | نعم | jassem-2014-wining-dining |
+| Rice | `saal` | **سل** | saliva, flowing | جذرٌ آخر: الفرات، بزق، بصق، تف، تفل، خرر، دجل، درر، وغيرُها | jassem-2014-wining-dining |
+| Rice | `saiyalat` | **سيلت** | saliva, flowing | جذرٌ آخر: الفرات، بزق، بصق، تف، تفل، خرر، دجل، درر، وغيرُها | jassem-2014-wining-dining |
 | Right | `raaqi(at)` | **رق** | high, elevated, good, stable | جذرٌ آخر: شمم | jassem-2014-divine-theological |
 | Right | `ruqiat` | **رقت** | a religious reading for healing purposes | جذرٌ آخر: حبس، قرء، وقف | jassem-2014-divine-theological |
 | Right | `karb` | **كرب** | grief, stress | نعم | jassem-2014-divine-theological |
@@ -1950,7 +2516,7 @@
 | Ring | `3air` | **عر** | ear | جذرٌ آخر: ءذن، حرث، حلق، دوخ، رعي، زير، سدر، سرر، وغيرُها | jassem-2016-fashion |
 | Ring | `3araa'` | **عرء** | open space | جذرٌ آخر: بسط، جوو، حقل، حوش، ضيع، فضا | jassem-2016-fashion |
 | Ring | `3aSr` | **عصر** | time, era | نعم | jassem-2016-fashion |
-| Ring | `qarn` | **قرن** | a horn or horn-shaped object | نعم | jassem-2016-fashion |
+| Ring | `qarn` | **قرن** | a horn or horn-shaped object | نعم | jassem-2016-fashion · jassem-2016-entirely-arabic |
 | Ring | `naqar` | **نقر** | ring-knock | نعم | jassem-2013-speech-writing |
 | Rinse | `ghasal` | **غسل** | wash | نعم | jassem-2013-water-sea |
 | Riot | `thawra(t)` | **ثور** | revolt, stirring | نعم | jassem-2015-military · jassem-2015-democratic |
@@ -1963,14 +2529,20 @@
 | Rip | `'irb` | **ءرب** | organ | جذرٌ آخر: ءذن، ءير، بز، بط، بطن، بظر، بيض، تلم، وغيرُها | jassem-2016-fashion |
 | Rip | `buhaar` | **بهر** | white, brilliant | جذرٌ آخر: برق | jassem-2016-fashion |
 | River | `nahar` | **نهر** | river | نعم | jassem-2013-water-sea |
+| Riverside | `nahar` | **نهر** | river | نعم | jassem-2015-urban |
+| Road | `rawd` | **رود** | road | جذرٌ آخر: ءوب، برك، بني، جاز، جول، حدل، حني، خل، وغيرُها | jassem-2015-urban |
 | Roar | `za'ar` | **زءر** | roar | نعم | jassem-2013-animal |
 | Rocket | `raqq(at)` | **رق** | a thin flat stone; hitting | جذرٌ آخر: جلخ، حلق، دك، رفف، سنن، شحذ، شعر، صرق، وغيرُها | jassem-2015-military |
 | Rod | `durra(t)` | **در** | a rod, stick | جذرٌ آخر: شمخ، عصا، عصو، قضب | jassem-2016-floral |
+| Roof | `raff` | **رف** | shelf, roof | نعم | jassem-2015-urban |
+| Room | `maraa2` | **مرح** | a space for resting or going to | نعم | jassem-2015-urban |
 | Root | `jadhr` | **جذر** | root | نعم | jassem-2016-floral |
 | Rose | `batala(t)` | **بتل** | a baby plant coming out of its mother; offshoot, budding; cu | نعم | jassem-2016-floral |
 | Rose | `zahr(at)` | **زهر** | flower | نعم | jassem-2016-floral |
 | Round | `tashaqqaq` | **تشق** | dissect, split | جذرٌ آخر: بحر، بقر، خربق، خرع، ذهب، شبح، شحط، شرح، وغيرُها | jassem-2014-mathematical |
-| Round | `dawaraan` | **دورن** | round | جذرٌ آخر: ان، بال، بقع، ثفر، ثني، جفن، جول، حجر، وغيرُها | jassem-2014-mathematical |
+| Round | `dawrat(un)` | **دورت** | turning | جذرٌ آخر: بكر، حنف، دحرج، عطف، غدن، غمض، قلب، كور، وغيرُها | jassem-2015-urban |
+| Round | `dawaraan` | **دورن** | round | جذرٌ آخر: ان، بال، بقع، ثفر، ثني، جفن، جول، حجر، وغيرُها | jassem-2014-mathematical · jassem-2015-urban |
+| Round | `raddat(un)` | **ردت** | turning | جذرٌ آخر: بكر، حنف، دحرج، عطف، غدن، غمض، قلب، كور، وغيرُها | jassem-2015-urban |
 | Round | `saaq` | **سق** | follow, drive; leg | جذرٌ آخر: ءخذ، تلو، جر، ساق، سقي، طرد، عرج، عقب | jassem-2014-mathematical |
 | Round | `sharkh` | **شرخ** | rift, cut | جذرٌ آخر: فطر | jassem-2014-mathematical |
 | Round | `shaqq(at)` | **شق** | dissect, split | نعم | jassem-2014-mathematical |
@@ -1984,6 +2556,8 @@
 | Run | `aj(aa)r` | **جر** | salary | جذرٌ آخر: ءجر، عط، عيش، معل، مهو، نح، وظف | jassem-2013-water-sea |
 | Run | `shara` | **شر** | buy | جذرٌ آخر: ءثر، ءمو، بيع، حوذ، زيد، سوق، سوم، شتر، وغيرُها | jassem-2013-water-sea |
 | Run | `marr` | **مر** | pass | نعم | jassem-2013-water-sea |
+| Rural | `rass` | **رس** | a well | جذرٌ آخر: ءتي، ءس، ءصل، ءل، ءول، ءيض، بءر، بب، وغيرُها | jassem-2015-urban |
+| Rural | `qal3a(tun)` | **قلعتن** | castle | جذرٌ آخر: النواة، برج، حصن، رخ، رخخ، سور، صرح، طاب، وغيرُها | jassem-2015-urban |
 | Ruthful | `ra'oof` | **رءف** | ruthful | لا مدخلَ عندنا | jassem-2014-divine-theological |
 | Ruthful | `sabt` | **سبت** | rest, week, Saturday | نعم | jassem-2014-divine-theological |
 | Ruthful | `shaikh` | **شخ** | chief, old man | جذرٌ آخر: شيخ | jassem-2014-divine-theological |
@@ -2017,6 +2591,9 @@
 | Sarcasm | `sukhria(t)` | **سخر** | sarcasm | نعم | jassem-2013-speech-writing |
 | Sarcasm | `Saa2` | **صح** | cry | جذرٌ آخر: ءبب، ءل، ءن، ادي، بكا، بكي، بي، ثغا، وغيرُها | jassem-2013-speech-writing |
 | Sarcasm | `maskhara(t)` | **مسخر** | sarcasm | جذرٌ آخر: سخر، هكم | jassem-2013-speech-writing |
+| Sauce | `saweeq` | **سوق** | a meal cooked with wheat and milk | جذرٌ آخر: حل، خال، شوي، طبخ، طعا، طه، فلج، مضر | jassem-2014-wining-dining |
+| Saucer | `rashaf` | **رشف** | eat, drink, sip | نعم | jassem-2014-wining-dining |
+| Saucer | `Sa2n` | **صحن** | saucer | جذرٌ آخر: ظرف، قعب، كوب | jassem-2014-wining-dining |
 | Save | `zaam` | **زم** | quarter | جذرٌ آخر: ءمن، بوب، حفل، حور، حوم، حي، ربع، سمت، وغيرُها | jassem-2014-prepositions |
 | Save | `zuwaim` | **زوم** | group, gathering | جذرٌ آخر: جمع، حشد، حفل، شعب | jassem-2014-prepositions |
 | Save | `siwa` | **سو** | save for, except | جذرٌ آخر: ءلا، حاش، غير | jassem-2014-prepositions |
@@ -2030,6 +2607,7 @@
 | Scream | `Sareekh` | **صرخ** | crying | جذرٌ آخر: باك، بكا، بكي، دمع، نوح، هتف، وعوع | jassem-2013-speech-writing |
 | Scream | `katab` | **كتب** | write | جذرٌ آخر: ء، ءرخ، ءلف، حرر، حفظ، خبر، خط، دون، وغيرُها | jassem-2013-speech-writing |
 | Scream | `kitaabat` | **كتبت** | write | جذرٌ آخر: ء، ءرخ، ءلف، حرر، حفظ، خبر، خط، دون، وغيرُها | jassem-2013-speech-writing |
+| Scum | `sakham` | **سخم** | scum; blackness | جذرٌ آخر: جون، حلك، دمن، دها، زبد، سحم، سود، كفر | jassem-2014-wining-dining |
 | Sea Gull | `Saqr` | **صقر** | hawk | نعم | jassem-2013-animal |
 | Sea lion | `babr` | **بر** | bear | جذرٌ آخر: برهن، بطش، بطن، بق، ثبت، ثقل، ثمر، جدر، وغيرُها | jassem-2013-animal |
 | Sea lion | `baqar(at)` | **بقر** | cow | نعم | jassem-2013-animal |
@@ -2045,6 +2623,7 @@
 | Season | `zara3` | **زرع** | to sow | نعم | jassem-2013-time |
 | Season | `zar3an` | **زرعن** | to sow | جذرٌ آخر: بذر، تء، خنزير، ذرو، زرع، شار، عفر، نف، وغيرُها | jassem-2013-time |
 | Season | `maTar` | **مطر** | rain | نعم | jassem-2013-time |
+| Seasoning | `zara3` | **زرع** | to sow, plant | نعم | jassem-2014-wining-dining |
 | Second | `thani` | **ثن** | second | جذرٌ آخر: ءث، ءندلس، ءوش، اثن، الزهرة، ان، ب، با، وغيرُها | jassem-2012-numerals |
 | Sect | `tun` | **تن** | fem. nominal and adjectival suffix | جذرٌ آخر: وت | jassem-2018-sex-derivatives |
 | Sect | `shaqqa` | **شق** | section, cut | جذرٌ آخر: جز، جزء، فصل، قسم | jassem-2018-sex-derivatives |
@@ -2057,10 +2636,12 @@
 | Sectarian | `qalb` | **قلب** | heart, mind | نعم | jassem-2015-democratic |
 | Security Council | `shaaT` | **شط** | to kill or die by arrows; to run wild; to burn | جذرٌ آخر: ءبد، خبو، زهق، سم، طبع، عدم، غرق، فطس، وغيرُها | jassem-2015-military |
 | Security Council | `qaal` | **قل** | say | جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها | jassem-2015-military |
+| Sedentary | `qa3ad` | **قعد** | sit | نعم | jassem-2015-urban |
 | Seek | `bishuqq` | **بشق** | to cut, visit | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2018-sex-derivatives |
 | Seek | `shawq` | **شوق** | longing | نعم | jassem-2018-sex-derivatives |
 | Segment | `qasam(at)` | **قسم** | segment | جذرٌ آخر: جزء، جول، رحل، شقف، فصص، قول، كسر، منصف، وغيرُها | jassem-2014-mathematical |
 | Segment | `(inqasam(at)` | **نقسم** | segment | جذرٌ آخر: جزء، جول، رحل، شقف، فصص، قول، كسر، منصف، وغيرُها | jassem-2014-mathematical |
+| Self | `jibilla(t)` | **جبل** | self, nature, people | جذرٌ آخر: ءنا، بشر، بين، خصص، خلق، ذات، عصا، غير، وغيرُها | jassem-2015-life-death |
 | Semantics | `seema(t)` | **سم** | sign | جذرٌ آخر: ءثر، ءية، ءيي، اتم، الءسد، الثور، الجدي، الحوت، وغيرُها | jassem-2013-speech-writing |
 | Semi | `ba3d` | **بعد** | yet | نعم | jassem-2013-negative-particles |
 | Semi | `3aSr` | **عصر** | time | نعم | jassem-2013-negative-particles |
@@ -2080,20 +2661,27 @@
 | Senate | `shaikh(oon)` | **شخن** | old man; chief | جذرٌ آخر: شيخ | jassem-2015-democratic |
 | Sequence | `saaqa` | **سق** | follow, drive, leg | جذرٌ آخر: ءخذ، تلو، جر، ساق، سقي، طرد، عرج، عقب | jassem-2014-mathematical |
 | Serpent | `thu3baan(at)` | **ثعبن** | snake | جذرٌ آخر: ءفع، برص، ثعب، جنن، حبب، حجر، حنش، حي، وغيرُها | jassem-2013-animal |
+| Serve | `sakhkhar` | **سخر** | to serve, work for | جذرٌ آخر: ءجر، خدم | jassem-2014-wining-dining |
 | Service | `sakhkhar` | **سخر** | to serve, put in the service of | جذرٌ آخر: نذر | jassem-2014-divine-theological |
 | Sesame | `kees` | **كس** | bag, covering | جذرٌ آخر: قنع | jassem-2016-floral |
+| Sesame oil | `sumsum` | **سمسم** | sesame | جذرٌ آخر: جلجل، سلط، سمس، شرج، طحن، كسب | jassem-2014-wining-dining |
 | Set | `safaT` | **سفط** | a set, an arrangement | جذرٌ آخر: حجز، وضع | jassem-2014-mathematical |
 | Seven | `sab3(at)` | **سبع** | seven | نعم | jassem-2012-numerals · jassem-2014-mathematical |
 | Sew | `sa'wa` | **سءو** | of clothes, to cut | جذرٌ آخر: ءخذ، اسب، الجذر، ام، باك، بت، بتر، بتل، وغيرُها | jassem-2016-fashion |
 | Sewage | `siyaaq` | **سيق** | sewage | جذرٌ آخر: سرب | jassem-2013-water-sea |
-| Sex | `shaqq` | **شق** | cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2018-sex-derivatives |
+| Sex | `shaqqa` | **شق** | cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2016-entirely-arabic · jassem-2018-sex-derivatives |
 | Sex | `alshaqq(i)at` | **شقت** | the section | جذرٌ آخر: اد، باب، بطن، جز، جزء، جزر، دد، درس، وغيرُها | jassem-2018-sex-derivatives |
 | Shark | `jilaal` | **جل** | (animal) back cover | جذرٌ آخر: بردع، كب، لبد | jassem-2013-water-sea |
 | Shark | `qirsh` | **قرش** | shark (fish) | نعم | jassem-2013-water-sea |
 | Sheep | `kabsh` | **كبش** | adult male sheep | نعم | jassem-2013-animal |
 | Sheet | `Sa2eefa(t)` | **صحف** | sheet | جذرٌ آخر: برش، خلب، ديل، سفر، شر، شرشف، شوا، شور، وغيرُها | jassem-2013-speech-writing |
 | Sheet | `Saf2a(t)` | **صفح** | sheet | نعم | jassem-2013-speech-writing |
+| Shelf | `raSeef` | **رصف** | a pavement, layer | نعم | jassem-2015-urban |
+| Shelf | `soor` | **سر** | wall; walled-in area | جذرٌ آخر: جدر، حجر، حوش، حيط، سور، صحن | jassem-2015-urban |
+| Shelf | `qeeraaT` | **قرط** | quarter | جذرٌ آخر: ءمن، بوب، حفل، حور، حوم، حي، ربع، سمت، وغيرُها | jassem-2015-urban |
+| Shelf | `aqSa` | **قص** | far | جذرٌ آخر: بد، بعد، بلغ، جنب، حتي، حشو، خط، دوم، وغيرُها | jassem-2015-urban |
 | Shell | `jill` | **جل** | of plants, leg, stalk | جذرٌ آخر: سقي، قصب | jassem-2016-floral |
+| Sherry | `sukr` | **سكر** | intoxicant, alcohol | نعم | jassem-2014-wining-dining |
 | Shine | `sana` | **سن** | light | جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها | jassem-2013-air-fire |
 | Ship | `saabi2` | **سبح** | swimmer | نعم | jassem-2013-water-sea |
 | Shirt | `sutra(t)` | **ستر** | a covering | نعم | jassem-2016-fashion |
@@ -2110,9 +2698,12 @@
 | Show | `sha33` | **شع** | shine | جذرٌ آخر: ءلق، ءلل، برق، بهر، ججل، جوهر، خفق، خفي، وغيرُها | jassem-2013-air-fire |
 | Shower | `rashsh` | **رش** | shower, spray | نعم | jassem-2013-water-sea |
 | Shower | `sharra` | **شر** | drip, leak | جذرٌ آخر: نطف | jassem-2013-water-sea |
+| Shrine | `mazar` | **مزر** | (often-visited) shrine | نعم | jassem-2015-life-death |
 | Shrub | `shaarib` | **شرب** | a young plant; moustache | نعم | jassem-2016-floral |
 | Sickle | `siaj` | **سج** | a fence; surrounding | جذرٌ آخر: سور | jassem-2015-military |
 | Sickle | `shaq` | **شق** | cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2015-military |
+| Siesta | `sitt(at)` | **ست** | six | نعم | jassem-2015-life-death |
+| Siesta | `suds` | **سدس** | six | نعم | jassem-2015-life-death |
 | Sigh | `shahaq` | **شهق** | sigh | جذرٌ آخر: ءل، ءنن، ءوه، نهد، هم | jassem-2013-air-fire · jassem-2013-speech-writing |
 | Sign | `naqsh` | **نقش** | sign | جذرٌ آخر: ءثر، ءية، ءيي، اتم، الءسد، الثور، الجدي، الحوت، وغيرُها | jassem-2013-speech-writing · jassem-2014-mathematical |
 | Silent | `Saanit` | **صنت** | silent | جذرٌ آخر: ءتءة، خرس، خرمس، خرمص، خفت، سكت، صمت، صه، وغيرُها | jassem-2013-speech-writing |
@@ -2124,19 +2715,25 @@
 | Sing | `zajal` | **زجل** | sing loud | جذرٌ آخر: زمر | jassem-2013-speech-writing |
 | Sing | `subar` | **سبر** | bird | جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها | jassem-2013-animal |
 | Sing | `Taar` | **طر** | fly | جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها | jassem-2013-animal |
+| Single | `jamee3` | **جمع** | together | جذرٌ آخر: ء، ءسر، ءكل، ءلف، ءوي، ا، بال، بحث، وغيرُها | jassem-2013-family |
+| Single | `sari` | **سر** | chief, noble | نعم | jassem-2013-family |
+| Single | `saraat` | **سرت** | chief, noble | جذرٌ آخر: ءبو، ءصل، بال، بحر، بعل، بيل، تخم، جبار، وغيرُها | jassem-2013-family |
 | Sink | `sakan` | **سكن** | settle in, go down, ash | نعم | jassem-2013-water-sea |
+| Sip | `Sabba` | **صب** | spew, pour | نعم | jassem-2014-wining-dining |
 | Sir | `sirr` | **سر** | head, chief | نعم | jassem-2015-democratic |
 | Siren | `taSammal` | **تصمل** | manipulate lips | جذرٌ آخر: برطم، بوس، رشف، رمم، سوس، شرس، صفر، صيد، وغيرُها | jassem-2013-speech-writing |
 | Siren | `shakhT` | **شخط** | draw (a line) | جذرٌ آخر: ءني، برد، بنط، تقع، جذب، جر، جفو، حبر، وغيرُها | jassem-2013-speech-writing |
 | Siren | `shamma` | **شم** | smell | نعم | jassem-2013-speech-writing |
-| Siren | `Soor` | **صر** | siren | جذرٌ آخر: صفر | jassem-2013-speech-writing |
+| Siren | `Soor` | **صر** | siren | جذرٌ آخر: صفر | jassem-2013-speech-writing · jassem-2015-life-death |
 | Siren | `Sammal` | **صمل** | manipulate lips | جذرٌ آخر: برطم، بوس، رشف، رمم، سوس، شرس، صفر، صيد، وغيرُها | jassem-2013-speech-writing |
 | Siren | `qarn` | **قرن** | horn, siren | نعم | jassem-2013-air-fire |
 | Siren | `kull` | **كل** | all | نعم | jassem-2013-speech-writing |
 | Siren | `nashaq` | **نشق** | blow nose in/out | نعم | jassem-2013-speech-writing |
+| Sister | `sawaas` | **سوس** | leader, chief; equals | جذرٌ آخر: دير، رءس، رب، شيخ، عمد، عهل، قدم، كبر، وغيرُها | jassem-2013-family |
 | Six | `sit` | **ست** | six | نعم | jassem-2012-numerals · jassem-2014-mathematical |
 | Six | `siks` | **سكس** | six | جذرٌ آخر: المادة، تء، ثني، حشر، خمس، سبعة، ست، سدس، وغيرُها | jassem-2012-numerals |
 | Size | `qias` | **قس** | size, measure | جذرٌ آخر: حجم، فد، قد، قيس، كوك، مد، وسط | jassem-2014-mathematical |
+| Sizzle | `Sala` | **صل** | sizzle, burn, roast, fry | جذرٌ آخر: صلي | jassem-2014-wining-dining |
 | Skin | `sakina(t)` | **سكن** | head position in the neck | نعم | jassem-2016-fashion |
 | Skin | `shaqq(un)` | **شق** | to cut | جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها | jassem-2016-fashion |
 | Slavery | `jatha` | **جث** | sit | جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها | jassem-2015-democratic |
@@ -2144,6 +2741,10 @@
 | Slavery | `sulTa(t)` | **سلط** | authority | نعم | jassem-2015-democratic |
 | Slavery | `shadeed` | **شد** | strong | جذرٌ آخر: ءكل، ءم، ءن، ءيد، بءس، بتع، بغض، بقو، وغيرُها | jassem-2015-democratic |
 | Slavery | `Subar` | **صبر** | highest | جذرٌ آخر: ءس، بطرك، حرب، ذرو، رفع، زاد، زبد، زيد، وغيرُها | jassem-2015-democratic |
+| Slay | `salakh` | **سلخ** | to remove skin; kill | نعم | jassem-2015-life-death |
+| Sleep | `saleeb` | **سلب** | mindless | لا مدخلَ عندنا | jassem-2015-life-death |
+| Sleep | `samaT` | **سمط** | to hit; rub, cleanse | جذرٌ آخر: ترك | jassem-2015-life-death |
+| Sleep | `wasan` | **وسن** | sleep | جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها | jassem-2015-life-death |
 | Sleet | `jaleed` | **جلد** | ice, sleet | نعم | jassem-2013-water-sea |
 | Sleeve | `labisa` | **لبس** | to put on | نعم | jassem-2016-fashion |
 | Smell | `subbar` | **سبر** | bird | جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها | jassem-2013-air-fire |
@@ -2157,6 +2758,7 @@
 | Smoke | `sood` | **سد** | blackness | جذرٌ آخر: جون، حلك، دمن، دها، سحم، سود، كفر | jassem-2013-air-fire |
 | Smoke | `sawaad` | **سود** | blackness | نعم | jassem-2013-air-fire |
 | Smoke | `Soba(t)` | **صب** | stove | جذرٌ آخر: دفء، قد، وبر، وقد | jassem-2013-air-fire |
+| Snack | `zaqama` | **زقم** | eat, force-feed | جذرٌ آخر: ءكل، رتع، زءم، زق، طعم، غذي، قصل | jassem-2014-wining-dining |
 | Snail | `2alazawn` | **حلزون** | snail | جذرٌ آخر: بزق، حلز، دود، زرد، سوس، عال، وقز | jassem-2013-water-sea |
 | Snake | `2anash` | **حنش** | snake | نعم | jassem-2013-animal |
 | Snake | `khanas` | **خنس** | lie low, sneak | جذرٌ آخر: سجد | jassem-2013-animal |
@@ -2164,21 +2766,31 @@
 | Snake | `SawwaS` | **صوص** | to sound-annoy | جذرٌ آخر: ءن، ءنس، ءوه، بيت، تشو، تعب، تلعثم، ثغا، وغيرُها | jassem-2013-animal |
 | Snake | `ghamas` | **غمس** | dip, submerge, food | نعم | jassem-2013-animal |
 | Snow | `muzn` | **مزن** | sky, rain | نعم | jassem-2013-water-sea |
-| Soak | `saqa` | **سق** | to water, soak | جذرٌ آخر: بلل، مش، نقع | jassem-2013-water-sea · jassem-2018-sex-derivatives |
+| Soak | `saqa` | **سق** | to water, soak | جذرٌ آخر: بلل، مش، نقع | jassem-2013-water-sea · jassem-2014-wining-dining · jassem-2018-sex-derivatives |
 | Soak | `shawq` | **شوق** | longing | نعم | jassem-2013-water-sea |
+| Soak | `Saabir` | **صبر** | patient, persevering | نعم | jassem-2014-wining-dining |
 | Software | `Saafi(at)` | **صف** | pure, good-natured | جذرٌ آخر: حر | jassem-2014-mathematical |
+| Sojourn | `dahr(un)` | **دهر** | time, day | نعم | jassem-2015-urban |
+| Sojourn | `saa3a(t)` | **سع** | hour | جذرٌ آخر: ءجر، جر، حين، خزن، درس، ساعة، عقد، عقرب، وغيرُها | jassem-2015-urban |
+| Sojourn | `Sawb` | **صوب** | under, toward | نعم | jassem-2015-urban |
 | Soldier | `jundi` | **جند** | soldier | نعم | jassem-2015-military |
 | Soldier | `Sald` | **صلد** | solid | جذرٌ آخر: ءكل، بعر، بلور، تين، ثقب، ثلج، جسم، جمد، وغيرُها | jassem-2015-military |
 | Solemn | `2aal` | **حل** | alone | جذرٌ آخر: تو، شخص، شذذ، عزل، فذ، فذذ، فرد، قلل، وغيرُها | jassem-2014-divine-theological |
 | Solemn | `salim(an)` | **سلم** | safe, quiet | نعم | jassem-2014-divine-theological |
 | Solemn | `salman` | **سلمن** | safe, Solomon | جذرٌ آخر: ءصف، ءم، ءمن، ءنس، حما، حمي، خزن، داود، وغيرُها | jassem-2014-divine-theological |
 | Solid | `Sald` | **صلد** | solid, hard | جذرٌ آخر: جمد، حجر، حفر، زفت، شدد، شق، صخر، صلب، وغيرُها | jassem-2013-water-sea |
+| Son | `Sinu` | **صن** | son, brother, uncle; similar | نعم | jassem-2013-family |
+| Son | `qaum` | **قم** | group, community | جذرٌ آخر: جمع، دير، زمر، شعب، عصب، عين، قوم، لهج، وغيرُها | jassem-2013-family |
+| Son | `naseeb` | **نسب** | in-law; belonging to | نعم | jassem-2013-family |
 | Sonnet | `Sarr` | **صر** | sound | نعم | jassem-2013-speech-writing |
 | Sorrow | `2asra(t)` | **حسر** | sorrow | نعم | jassem-2013-speech-writing |
-| Soul | `saa2il` | **سحل** | seashore | جذرٌ آخر: رغل، سرمق، شط، قطف | jassem-2014-divine-theological |
+| Soul | `saa2il` | **سحل** | seashore | جذرٌ آخر: رغل، سرمق، شط، قطف | jassem-2014-divine-theological · jassem-2015-life-death |
 | Sound | `Saut` | **صت** | sound | جذرٌ آخر: ءن، ءنس، ءوه، بيت، تشو، تلعثم، ثغا، جرس، وغيرُها | jassem-2013-speech-writing |
+| Soup | `shawraba(t)` | **شورب** | soup, stew | جذرٌ آخر: برد، برش، ثرد، حسا، خن، زبد، سلت، سلق، وغيرُها | jassem-2014-wining-dining |
+| Sour | `Sari` | **صر** | bad, sour (yogurt); stagnant (water) | جذرٌ آخر: ربد، رده، زنخ، زوم، فسد، قري، لبن، لس، وغيرُها | jassem-2014-wining-dining |
+| Sour | `qaSab(at)` | **قصب** | tube, reed | نعم | jassem-2014-wining-dining |
 | South | `baSeera(t)` | **بصر** | insight, sight, mind | نعم | jassem-2014-divine-theological |
-| South | `junoob` | **جنب** | south | نعم | jassem-2014-divine-theological |
+| South | `junoob` | **جنب** | south | نعم | jassem-2014-divine-theological · jassem-2015-life-death |
 | Sow | `zara3` | **زرع** | to sow | نعم | jassem-2016-floral |
 | Spa | `saba2` | **سبح** | swim | نعم | jassem-2013-water-sea |
 | Spark | `qabas` | **قبس** | spark | جذرٌ آخر: ثور، شرر، ظرر، فلل، قدح | jassem-2013-air-fire |
@@ -2192,11 +2804,19 @@
 | Spear | `safeeh` | **سفه** | chief, leader; stupid, silly | نعم | jassem-2015-military |
 | Spear | `qubba(t)` | **قب** | summit, top, dome | نعم | jassem-2015-military |
 | Spear | `qaDeeb` | **قضب** | walking stick, rod | نعم | jassem-2015-military |
-| Spew | `Sabba` | **صب** | spew, pour | نعم | jassem-2013-water-sea |
+| Spew | `Sabba` | **صب** | spew, pour | نعم | jassem-2013-water-sea · jassem-2014-wining-dining |
 | Spider | `dabboor` | **دبر** | wasp | جذرٌ آخر: دلك، عفص | jassem-2013-animal |
-| Spinach | `sabanikh` | **سبنخ** | spinach | جذرٌ آخر: رغل، سبخ، سرمق، قطف | jassem-2016-floral |
+| Spinach | `sabanikh` | **سبنخ** | spinach | جذرٌ آخر: رغل، سبخ، سرمق، قطف | jassem-2016-floral · jassem-2014-wining-dining |
+| Spinach | `sharba(t)` | **شرب** | a drink | نعم | jassem-2014-wining-dining |
+| Spirit | `baSeera(t)` | **بصر** | insight, sight, mind | نعم | jassem-2015-life-death |
 | Spit | `baSaq` | **بصق** | spit | نعم | jassem-2013-water-sea |
 | Spit | `saba2` | **سبح** | bathe | جذرٌ آخر: ءدو، حم، حمم، غسل | jassem-2013-water-sea |
+| Spoil | `taali` | **تل** | of food, leftovers | جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها | jassem-2014-wining-dining |
+| Spoil | `tuwaali` | **تول** | of food, leftovers | جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها | jassem-2014-wining-dining |
+| Spoil | `zankh(at)` | **زنخ** | of meat, smelly and oily | جذرٌ آخر: باك، بردع، بشر، بقل، تن، جرم، جزر، جوذاب، وغيرُها | jassem-2014-wining-dining |
+| Spoil | `salb` | **سلب** | rob, spoil | نعم | jassem-2014-wining-dining |
+| Spoil | `Sabar(at)` | **صبر** | tolerate, persevere, embitter | نعم | jassem-2014-wining-dining |
+| Spoil | `Dabaab` | **ضب** | fog, steam | جذرٌ آخر: بخر، دخن، زيز، سخا، ضبب، عشي، فحيح، نفط، وغيرُها | jassem-2014-wining-dining |
 | Spray | `sarrab` | **سرب** | of animals, wash | جذرٌ آخر: ءلف، الجذر، بر، برش، برغش، بري، بشر، بطن، وغيرُها | jassem-2013-water-sea |
 | Spread | `basaTa` | **بسط** | to spread | نعم | jassem-2013-animal |
 | Sprig | `shibriq` | **شبرق** | a kind of a small, low thorny plant | نعم | jassem-2016-floral |
@@ -2206,10 +2826,14 @@
 | Square | `aqSa` | **قص** | far | جذرٌ آخر: بد، بعد، بلغ، جنب، حتي، حشو، خط، دوم، وغيرُها | jassem-2014-mathematical |
 | Squash | `saqa` | **سق** | drink | جذرٌ آخر: ءسقي، بتع، برد، بلع، بير، ترق، ثمل، جرع، وغيرُها | jassem-2016-floral |
 | Squash | `aswad` | **سود** | black | نعم | jassem-2016-floral |
+| Stair | `daraj` | **درج** | steps, stairs; walk | جذرٌ آخر: بختر، سعي، عدو | jassem-2015-urban |
+| Stair | `doon` | **دن** | below | جذرٌ آخر: بدر، بط، بين، تحت، ثوب، جبه، حنجر، حنك، وغيرُها | jassem-2015-urban |
+| Stair | `3abab` | **عب** | up | لا مدخلَ عندنا | jassem-2015-urban |
 | Stalk | `qaSala(t)` | **قصل** | a stalk | جذرٌ آخر: بجل، ثفر، ساق، سقي، سوق، شمخ، عود، قصب، وغيرُها | jassem-2016-floral |
 | Start | `Ta'ira(t)` | **طءر** | to fly | جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها | jassem-2013-time |
 | Start | `Taar` | **طر** | to fly | جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها | jassem-2013-time |
 | Statistics | `jatha` | **جث** | sit | جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها | jassem-2014-mathematical |
+| Stay | `jatha` | **جث** | sit | جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها | jassem-2015-urban |
 | Steam | `zanTar` | **زنطر** | pinching/freezing weather | جذرٌ آخر: صقع | jassem-2013-water-sea |
 | Steam | `sadeem` | **سدم** | a cloud type, steam | جذرٌ آخر: اليعبو، بخر، برق، جوو، حنتم، خفي، خلب، دخن، وغيرُها | jassem-2013-water-sea |
 | Steam | `majra` | **مجر** | water course | جذرٌ آخر: غرف | jassem-2013-water-sea |
@@ -2227,13 +2851,14 @@
 | Sting | `naghzat` | **نغزت** | sting | جذرٌ آخر: ءبر، حرق، حم، خلب، سمم، شوك، طعن، عقرب، وغيرُها | jassem-2013-animal |
 | Stitch | `shawk(at)` | **شوك** | a prick | جذرٌ آخر: ءير، زبب، زبر، زعق، غرز، نخز، نخس، نسغ، وغيرُها | jassem-2016-fashion |
 | Stock | `dareen` | **درن** | dry grass, plants, or trees | جذرٌ آخر: بست، بوص، جرد، حشش، خضر، دبق، دسس، رز، وغيرُها | jassem-2016-floral |
-| Story | `'usToora(t)` | **ءسطر** | story, myth | جذرٌ آخر: خرف | jassem-2013-speech-writing · jassem-2014-divine-theological |
+| Story | `'usToora(t)` | **ءسطر** | story, myth | جذرٌ آخر: خرف | jassem-2013-speech-writing · jassem-2014-divine-theological · jassem-2015-urban |
 | Story | `jatha` | **جث** | sit | جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها | jassem-2014-divine-theological |
 | Story | `Subar` | **صبر** | highest | جذرٌ آخر: ءس، بطرك، حرب، ذرو، رفع، زاد، زبد، زيد، وغيرُها | jassem-2014-divine-theological |
 | Story | `nasha'` | **نشء** | to be born | جذرٌ آخر: بكر، حدث، حر، خرف، سقط، سود، سيد، شيع، وغيرُها | jassem-2014-divine-theological |
 | Strap | `ribq(at)` | **ربق** | cable, string | جذرٌ آخر: حبل | jassem-2016-fashion |
 | Stream | `jaraf` | **جرف** | water-push | جذرٌ آخر: دسر، نجف، وحل | jassem-2013-water-sea |
 | Stream | `majra` | **مجر** | water course | جذرٌ آخر: غرف | jassem-2013-water-sea |
+| Street | `siraaT` | **سرط** | road, way | نعم | jassem-2015-urban |
 | Stress | `tarSeeS` | **ترص** | stress, press | جذرٌ آخر: شدد، ضغط | jassem-2013-speech-writing |
 | Stress | `raSS(at)` | **رص** | stress, press | جذرٌ آخر: شدد، ضغط | jassem-2013-speech-writing |
 | Strife | `radd(an)` | **رد** | return | نعم | jassem-2015-military |
@@ -2252,6 +2877,8 @@
 | Strike | `qaDaa'` | **قضء** | judgement | جذرٌ آخر: ءبله، بطل، حشر، حمق، خرف، دين، ساذج، ساعة، وغيرُها | jassem-2015-democratic |
 | String | `jazza` | **جز** | to cut wool | نعم | jassem-2016-fashion |
 | String | `Sarab` | **صرب** | cut; earn | نعم | jassem-2016-fashion |
+| Structure | `Sar2` | **صرح** | a high building | نعم | jassem-2015-urban |
+| Structure | `Sawb` | **صوب** | falling; towards | نعم | jassem-2015-urban |
 | Study | `ijtahad` | **جتهد** | study/work hard | جذرٌ آخر: بله، تعب، جهد، حال، درس، شغل، ضوع، قرث، وغيرُها | jassem-2013-speech-writing |
 | Stylus | `barak` | **برك** | kneel down, sit | نعم | jassem-2013-speech-writing |
 | Stylus | `qalam` | **قلم** | pen | نعم | jassem-2013-speech-writing |
@@ -2262,6 +2889,8 @@
 | Subject | `Sawb` | **صوب** | falling; under | جذرٌ آخر: ثلج، سقط، قبو، هوي، وقع | jassem-2015-case-word-order |
 | Subtract | `Sawb` | **صوب** | under; towards | نعم | jassem-2014-mathematical |
 | Subtract | `Tara2(at)` | **طرح** | throw, subtract | نعم | jassem-2014-mathematical |
+| Suck | `Subar` | **صبر** | food heap, a snack | نعم | jassem-2014-wining-dining |
+| Suffocate | `jada3` | **جدع** | cut | نعم | jassem-2015-life-death |
 | Suit | `'aSda(t)` | **ءصد** | a small shirt or underwear for children | جذرٌ آخر: بخ، حجر، روض، كري، كيس، ولد | jassem-2016-fashion |
 | Suit | `Sawb` | **صوب** | falling; towards | نعم | jassem-2016-fashion |
 | Suit | `mu'Sada(t)` | **مءصد** | a small shirt or underwear for children | جذرٌ آخر: بخ، حجر، روض، كري، كيس، ولد | jassem-2016-fashion |
@@ -2283,6 +2912,7 @@
 | Swear | `shaara` | **شر** | swear at | جذرٌ آخر: حلف، سب، شتم، صقع، قسم، يمن | jassem-2013-speech-writing · jassem-2014-divine-theological |
 | Swear | `qaweeq` | **قوق** | or ghawsh | لا مدخلَ عندنا | jassem-2013-speech-writing · jassem-2014-divine-theological |
 | Sweat | `Sa'ak` | **صءك** | sweat | نعم | jassem-2013-water-sea |
+| Sweet | `'aSiat` | **ءصت** | a sweet made from flour, yogurt, and dates | جذرٌ آخر: خبص، ذرر، قمح، كعك | jassem-2014-wining-dining |
 | Swim | `sa22a` | **سح** | of water, to channel | جذرٌ آخر: رع، زرق، سقي، ضيق، قري، قير | jassem-2013-water-sea |
 | Swim | `sa2sa2` | **سحسح** | of water, to channel | جذرٌ آخر: رع، زرق، سقي، ضيق، قري، قير | jassem-2013-water-sea |
 | Swim | `sawwa2` | **سوح** | of water, to channel | جذرٌ آخر: رع، زرق، سقي، ضيق، قري، قير | jassem-2013-water-sea |
@@ -2291,6 +2921,8 @@
 | Swine | `2azeen` | **حزن** | sad | نعم | jassem-2013-animal |
 | Swine | `khanzeer` | **خنزر** | pig | جذرٌ آخر: باك، تء، حذ، حلف، خنزير، خير، سال، شحم | jassem-2013-animal |
 | Swine | `Sarakh` | **صرخ** | cry | نعم | jassem-2013-animal |
+| Swish | `sawak` | **سوك** | to rub one | جذرٌ آخر: ترك، جرن، حدد، حف، حك، حكك، حنك، خربش، وغيرُها | jassem-2014-wining-dining |
+| Swoon | `sina(t)` | **سن** | sleepiness | جذرٌ آخر: سنة، عس | jassem-2015-life-death |
 | Sword | `takhTeeT` | **تخط** | plan, planning | جذرٌ آخر: خطط | jassem-2015-military |
 | Sword | `khiTat` | **خطت** | plan, planning | جذرٌ آخر: خطط | jassem-2015-military |
 | Sword | `daraqa(t)` | **درق** | a tool or object for military training | جذرٌ آخر: ثقب، ثقل، حسك، دفع، دن، رسا، طعن، عد، وغيرُها | jassem-2015-military |
@@ -2305,12 +2937,18 @@
 | Tailor | `talla` | **تل** | to pull | جذرٌ آخر: بخص، برشم، جذب، جر، جرر، جلف، خلع، خلل، وغيرُها | jassem-2016-fashion |
 | Tailor | `khuTooT` | **خط** | lines | جذرٌ آخر: برق، بطن، بكر، بيت، خطط، خمس، ركن، ساف، وغيرُها | jassem-2016-fashion |
 | Tailor | `dhail` | **ذل** | tail; edge of dress | جذرٌ آخر: ذيل، سءف | jassem-2016-fashion |
+| Take | `akhadh` | **خذ** | take | جذرٌ آخر: ءبط، ءبه، ءثر، ءجر، ءخ، ءخذ، ءخو، ءدي، وغيرُها | jassem-2014-wining-dining |
+| Take | `faTeera(t)` | **فطر** | pie | جذرٌ آخر: صفح | jassem-2014-wining-dining |
 | Talk | `khuTooT` | **خط** | lines | جذرٌ آخر: برق، بطن، بكر، بيت، خطط، خمس، ركن، ساف، وغيرُها | jassem-2013-speech-writing |
 | Talk | `dahan` | **دهن** | paint, oint | نعم | jassem-2013-speech-writing |
 | Talk | `Talaq` | **طلق** | talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
 | Tall | `Taal` | **طل** | long, tall | جذرٌ آخر: سطو، فرع | jassem-2014-mathematical |
 | Tall | `Taweel` | **طول** | long, tall | نعم | jassem-2014-mathematical |
 | Tall | `fi'aam` | **فءم** | group | جذرٌ آخر: ءثر، ءدم، ءنا، ءنتن، ءهل، اس، الصمم، باب، وغيرُها | jassem-2014-mathematical |
+| Taste | `dhaaq` | **ذق** | taste | جذرٌ آخر: ءجن، ءس، ابل، حس، حلو، خمط، دري، دوغ، وغيرُها | jassem-2014-wining-dining |
+| Taste | `dhawq(at)` | **ذوق** | taste | نعم | jassem-2014-wining-dining |
+| Tavern | `tabbaan` | **تبن** | barn | جذرٌ آخر: حظر، زرب، هام | jassem-2014-wining-dining |
+| Tavern | `tawaabil` | **توبل** | spices | جذرٌ آخر: بهر، جبز | jassem-2014-wining-dining |
 | Tear | `qaTr(at)` | **قطر** | drop | نعم | jassem-2013-water-sea |
 | Tell | `taTweel` | **تطول** | tall, to be long | جذرٌ آخر: سطو، فرع | jassem-2013-speech-writing |
 | Tell | `takallam` | **تكلم** | word, talk | جذرٌ آخر: شاع، قول، كلم، نطق | jassem-2013-speech-writing |
@@ -2329,7 +2967,10 @@
 | Ten | `daja(t)` | **دج** | fingers, hand | جذرٌ آخر: صبع، قبض، كفف | jassem-2014-mathematical |
 | Ten | `3ashra(t)` | **عشر** | ten | نعم | jassem-2012-numerals |
 | Ten | `3ashrat` | **عشرت** | ten | جذرٌ آخر: تسعة، ثر، ربو، رهط، عشر، فر، قصع، نتج | jassem-2012-numerals |
+| Tender | `Tari(at)` | **طر** | soft, tender | جذرٌ آخر: رقق، شفق، طري، عشب، لين، ملد، ناع، هضي | jassem-2014-wining-dining |
 | Tense | `zaman(aat)` | **زمن** | time | نعم | jassem-2013-time |
+| Tent | `taali` | **تل** | of clothes, tails or rags | جذرٌ آخر: ام، بدل، بذل، بز، بقع، بيض، ثوب، جدد، وغيرُها | jassem-2015-urban |
+| Tent | `tuwali` | **تول** | of clothes, tails or rags | جذرٌ آخر: ام، بدل، بذل، بز، بقع، بيض، ثوب، جدد، وغيرُها | jassem-2015-urban |
 | Term | `Taraf` | **طرف** | end, side | نعم | jassem-2013-time |
 | Term | `Tawr` | **طور** | time, term | نعم | jassem-2013-time |
 | Testament | `tashahud` | **تشهد** | witness | جذرٌ آخر: حي، شب، فاد، فرج | jassem-2013-speech-writing |
@@ -2338,7 +2979,7 @@
 | Text | `khaiaT` | **خط** | sew | جذرٌ آخر: ءلل، حوك، خيط، درز، سرد، قطب، مل | jassem-2013-speech-writing |
 | Than | `tilk` | **تلك** | that | لا مدخلَ عندنا | jassem-2014-prepositions |
 | Thank | `tafakkar` | **تفكر** | think | جذرٌ آخر: ءتي، ءلف، ءمل، بعد، جن، جول، حس، خيل، وغيرُها | jassem-2013-speech-writing |
-| Thank | `shakara` | **شكر** | thank | نعم | jassem-2013-speech-writing |
+| Thank | `shakara` | **شكر** | thank | نعم | jassem-2013-speech-writing · jassem-2014-wining-dining |
 | Thank | `fakkar` | **فكر** | think | نعم | jassem-2013-speech-writing |
 | Thaw | `thaab` | **ثب** | melt | جذرٌ آخر: ذاب، ذوب، سيح، شفق، صعد، صهر، فتن، ميع، وغيرُها | jassem-2013-water-sea |
 | Then | `thumma` | **ثم** | then | نعم | jassem-2013-time · jassem-2014-prepositions |
@@ -2355,6 +2996,9 @@
 | They | `huwa` | **هو** | he | لا مدخلَ عندنا | jassem-pronouns |
 | They | `hi(ya)` | **هي** | she | نعم | jassem-pronouns |
 | They | `(iya)ka` | **يك** | you- acc. | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، سعف، صحح، وغيرُها | jassem-pronouns |
+| Thirsty | `thoom` | **ثم** | garlic | جذرٌ آخر: باج، بست، ثوم، حمص، طباهج، فصص، ليغ | jassem-2014-wining-dining |
+| Thirsty | `sa3aT` | **سعط** | to drink | جذرٌ آخر: ءسقي، بتع، برد، بلع، بير، ترق، ثمل، جرع، وغيرُها | jassem-2014-wining-dining |
+| Thirsty | `Saarra(t)` | **صر** | thirst | جذرٌ آخر: ءحح، بله، بني، جر، زكي، سعر، سقي، صدي، وغيرُها | jassem-2014-wining-dining |
 | Thousand | `daja(t)` | **دج** | fingers, hand | جذرٌ آخر: صبع، قبض، كفف | jassem-2014-mathematical |
 | Thousand | `soodaan` | **سدن** | lit., blackness; multitude, majority | جذرٌ آخر: بلغ، جمهر، سود، عظم، كثر | jassem-2014-mathematical |
 | Thousand | `sawaad` | **سود** | lit., blackness; multitude, majority | نعم | jassem-2014-mathematical |
@@ -2388,6 +3032,10 @@
 | Title | `faSl` | **فصل** | chapter; separation | نعم | jassem-2015-democratic |
 | Tomato | `tamaddad` | **تمد** | to stretch | جذرٌ آخر: بسط، بلغ، تلع، جر، جلعب، سيل، شب، شبح، وغيرُها | jassem-2016-floral |
 | Tomato | `tamaTTaT` | **تمط** | to stretch | جذرٌ آخر: بسط، بلغ، تلع، جر، جلعب، سيل، شب، شبح، وغيرُها | jassem-2016-floral |
+| Tomato | `maTTa(t)` | **مط** | to stretch | جذرٌ آخر: بسط، بلغ، تلع، جر، جلعب، سيل، شب، شبح، وغيرُها | jassem-2014-wining-dining |
+| Tomb | `2iat` | **حت** | life | جذرٌ آخر: ءحيا، ءرض، ءسا، ءف، ءكل، ءمد، اب، اسك، وغيرُها | jassem-2015-life-death |
+| Tomb | `dhunoob` | **ذنب** | grave; sins | جذرٌ آخر: ءقر، ءمر، بء، بقر، بلغ، جدد، جدي، جسي، وغيرُها | jassem-2015-life-death |
+| Tomb | `wahn` | **وهن** | weakness, feebleness | نعم | jassem-2015-life-death |
 | Tortoise | `adrad` | **درد** | toothless; turtle | جذرٌ آخر: رس، رق، صدف، ضهر، غلم، لجء | jassem-2013-animal |
 | Tough | `tais` | **تس** | male goat | جذرٌ آخر: ءيل، تيس، جدي، عز، علج، كبش، مسك، وعل | jassem-2013-speech-writing |
 | Tough | `dirasat` | **درست** | study | جذرٌ آخر: ءخذ، اد، بحث، بحر، جال، جبر، حال، خصص، وغيرُها | jassem-2013-speech-writing |
@@ -2395,6 +3043,8 @@
 | Tough | `quwat` | **قوت** | strength | جذرٌ آخر: ءزر، ءيد، بءس، بطش، تعب، حدد، حيل، خلق، وغيرُها | jassem-2013-speech-writing |
 | Toward | `daar` | **در** | to take care of, watch | جذرٌ آخر: حرس، رقب | jassem-2014-prepositions |
 | Toward | `waarid` | **ورد** | coming, approaching | نعم | jassem-2014-prepositions |
+| Tower | `daar` | **در** | house; world; abode | جذرٌ آخر: ءرض، بيت، حلل، خيم، دار، زل، سكن | jassem-2015-urban |
+| Track | `Tareeq` | **طرق** | road | نعم | jassem-2015-urban |
 | Treaty | `'ul` | **ءل** | first, one | جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها | jassem-2014-divine-theological |
 | Treaty | `'amSaar` | **ءمصر** | country, universe | جذرٌ آخر: ءذربيجان، ءرد، ءرض، ءفق، ءير، اخ، اد، اط، وغيرُها | jassem-2014-divine-theological |
 | Treaty | `'awal` | **ءول** | one, first | نعم | jassem-2014-divine-theological |
@@ -2407,6 +3057,7 @@
 | Treaty | `maSr` | **مصر** | country, universe | نعم | jassem-2014-divine-theological |
 | Treaty | `awwal` | **ول** | first, one | نعم | jassem-2014-divine-theological |
 | Tree | `shajar` | **شجر** | tree | نعم | jassem-2016-floral |
+| Tribe | `Dareeba(t)` | **ضرب** | tax | جذرٌ آخر: ءتو، جبي، جز، جزي، رسم، زكا، سمك، طبل، وغيرُها | jassem-2013-family |
 | Trill | `Taran` | **طرن** | overcry | لا مدخلَ عندنا | jassem-2013-speech-writing |
 | Troop | `tharb` | **ثرب** | white-stoned earth | جذرٌ آخر: برق، غر | jassem-2015-military |
 | Troop | `Daarib` | **ضرب** | fighter, hitter, beater; traveler | جذرٌ آخر: برز، جلد، جهد، حجي، حرب، دستج، رجل، سيح، وغيرُها | jassem-2015-military |
@@ -2418,6 +3069,9 @@
 | Truce | `taraju3` | **ترجع** | retreat | جذرٌ آخر: ءخر، ءوي، خنس، رجع، سحب، ضوي، عزل، عظظ، وغيرُها | jassem-2015-democratic |
 | Trunk | `Dinaak` | **ضنك** | width of a tree | جذرٌ آخر: ءرز، ءرك، ءرم، ءس، با، بتل، برزين، بطم، وغيرُها | jassem-2016-floral |
 | Trust | `tarDiat` | **ترضت** | agreement | جذرٌ آخر: ءجل، ءم، ءي، افق، النواة، اه، ايه، تثل، وغيرُها | jassem-2015-democratic |
+| Tube | `'adna` | **ءدن** | lower | جذرٌ آخر: ا، است، بط، بطن، تحت، جر، جوب، جوف، وغيرُها | jassem-2015-urban |
+| Tube | `jurd(un)` | **جرد** | unplanted land | نعم | jassem-2015-urban |
+| Tube | `qaDeeb` | **قضب** | stick | نعم | jassem-2015-urban |
 | Tulip | `thara` | **ثر** | dust, earth | جذرٌ آخر: ترب، جرف، راب، ردم، سفو، كفر | jassem-2016-floral |
 | Tunic | `niTaaq` | **نطق** | girdle, belt | نعم | jassem-2016-fashion |
 | Turkey | `deek` | **دك** | male chicken | جذرٌ آخر: بيض، ديك | jassem-2013-animal |
@@ -2430,7 +3084,7 @@
 | Twang | `Taba3` | **طبع** | print | نعم | jassem-2013-speech-writing |
 | Twang | `ghunnat` | **غنت** | twang | جذرٌ آخر: خن، خنخن، نضب، نعق | jassem-2013-speech-writing |
 | Twang | `madrasa(t)` | **مدرس** | school | جذرٌ آخر: جاز، جعف، جهم، حنف، خرج، درس، دفع، ذهب، وغيرُها | jassem-2013-speech-writing |
-| Twin | `taw'am` | **توءم** | twin | جذرٌ آخر: العيص، عيس، وءم | jassem-2014-mathematical |
+| Twin | `taw'am` | **توءم** | twin | جذرٌ آخر: العيص، عيس، وءم | jassem-2014-mathematical · jassem-2013-family |
 | Twist | `Ta3aja` | **طعج** | twist, bend | جذرٌ آخر: ثني، حرف، حنا، حنو، حني، قوس، لفت، لوي | jassem-2016-fashion |
 | Twist | `Ta3waj(at)` | **طعوج** | twist, bend | جذرٌ آخر: ثني، حرف، حنا، حنو، حني، قوس، لفت، لوي | jassem-2016-fashion |
 | Twister | `dhaariat` | **ذرت** | winnowing wind | جذرٌ آخر: ذرو | jassem-2013-air-fire |
@@ -2450,6 +3104,7 @@
 | Umpire | `'ameer` | **ءمر** | ruler, commander | نعم | jassem-2019-mr |
 | Umpire | `mar` | **مر** | a(t) (pronounced mara in the vernacular) | جذرٌ آخر: حرك، سلي، شدد، ضعف، لفظ، نطق | jassem-2019-mr |
 | Umpire | `almar'at` | **مرءت** | the woman | جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، اجر، اخت، بدل، بذل، وغيرُها | jassem-2019-mr |
+| Uncle | `'abb` | **ءب** | father | نعم | jassem-2013-family |
 | Under | `'adna` | **ءدن** | lower | جذرٌ آخر: ا، است، بط، بطن، تحت، جر، جوب، جوف، وغيرُها | jassem-2014-prepositions |
 | Under | `qaTi3` | **قطع** | counter, against | نعم | jassem-2013-negative-particles |
 | Under | `ma3a` | **مع** | with, together | نعم | jassem-2013-negative-particles |
@@ -2457,6 +3112,8 @@
 | Unity | `saar` | **سر** | walk | جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها | jassem-2015-democratic |
 | Until | `intaha` | **نته** | end | جذرٌ آخر: ءبد، ءخر، ءلي، ءول، اسب، اه، بء، بطل، وغيرُها | jassem-2014-prepositions |
 | Until | `nihayat` | **نهيت** | end | جذرٌ آخر: ءبد، ءخر، ءلي، ءول، اسب، اه، بء، بطل، وغيرُها | jassem-2014-prepositions |
+| Urban | `bina` | **بن** | , bunian | لا مدخلَ عندنا | jassem-2015-urban |
+| Urban | `dawaraan` | **دورن** | turning round | جذرٌ آخر: كور | jassem-2015-urban |
 | Urgency | `2aarik(in)` | **حرك** | move, hurry | نعم | jassem-2015-democratic |
 | Utter | `ratta(at)` | **رت** | talk quickly | جذرٌ آخر: باه، بجح، بحث، بق، تهم، جري، جوي، حدث، وغيرُها | jassem-2013-speech-writing |
 | Valley | `Sa2n` | **صحن** | dish | نعم | jassem-2013-water-sea |
@@ -2467,7 +3124,8 @@
 | Veal | `3anza(t)` | **عنز** | goat | نعم | jassem-2013-animal |
 | Veal | `maaDi` | **مض** | old, past | جذرٌ آخر: حن، دبر، قدم | jassem-2013-animal |
 | Veal | `maa3iz` | **معز** | goat | نعم | jassem-2013-animal |
-| Vegetable | `baql(at)` | **بقل** | any (sour) vegetable; thyme | نعم | jassem-2016-floral |
+| Vegetable | `baql(at)` | **بقل** | any (sour) vegetable; thyme | نعم | jassem-2016-floral · jassem-2014-wining-dining |
+| Vegetarian | `i2na(t)` | **حن** | hatred | نعم | jassem-2014-wining-dining |
 | Vegetarian | `faaqa` | **فق** | wake up, become bigger | جذرٌ آخر: جسم، درك، دين، صبح، صحح، صحو، كبر، نمي، وغيرُها | jassem-2016-floral |
 | Veil | `2aak` | **حك** | to weave | جذرٌ آخر: ثخن، جدل، حوك، سدي، شاش، شرج، ضفر، نسج، وغيرُها | jassem-2016-fashion |
 | Veil | `lifaa3` | **لفع** | a veil | جذرٌ آخر: ءجن، برقع، جلو، جن، جهر، حجب، خمر، ستر، وغيرُها | jassem-2016-fashion |
@@ -2480,21 +3138,31 @@
 | Victory | `faa'iq(at)` | **فءق** | overpowering | لا مدخلَ عندنا | jassem-2015-military |
 | Victory | `faaq` | **فق** | overpowering | لا مدخلَ عندنا | jassem-2015-military |
 | Victory | `falla2(in)` | **فلح** | farmer | نعم | jassem-2015-military |
-| Villain | `falla2(in)` | **فلح** | farmer | نعم | jassem-2015-democratic |
+| Villa | `fila2a(t)` | **فلح** | farming | لا مدخلَ عندنا | jassem-2015-urban |
+| Villain | `jurm` | **جرم** | crime | نعم | jassem-2016-entirely-arabic |
+| Villain | `falla2(in)` | **فلح** | farmer | نعم | jassem-2015-democratic · jassem-2015-urban · jassem-2016-entirely-arabic |
+| Vine | `khall` | **خل** | vinegar, sour | نعم | jassem-2014-wining-dining |
+| Vine | `wain` | **ون** | grapes | جذرٌ آخر: بيت، بيد، جفن، حرص، حصرم، خرط، خصل، خمر، وغيرُها | jassem-2014-wining-dining |
 | Vineyard | `wain` | **ون** | grapes | جذرٌ آخر: بيت، بيد، جفن، حرص، حصرم، خرط، خصل، خمر، وغيرُها | jassem-2016-floral |
 | Violence | `feel` | **فل** | dull, heavy, debased person | جذرٌ آخر: ثقل | jassem-2015-military |
+| Virgin | `bikr` | **بكر** | virgin, first child | نعم | jassem-2013-family |
+| Virgin | `wiT'` | **وطء** | marriage, intercourse | نعم | jassem-2013-family |
 | Virile | `kharoof` | **خرف** | young sheep | نعم | jassem-2013-animal |
 | Virile | `dhakar` | **ذكر** | male (organ) | نعم | jassem-2013-animal |
 | Virtue | `mar'` | **مرء** | man | نعم | jassem-2014-divine-theological |
 | Viscount | `qaiem(at)` | **قم** | valuable, noble; responsible officer | جذرٌ آخر: حسب، كرم | jassem-2015-democratic |
 | Viscount | `waSee` | **وص** | deputy | جذرٌ آخر: خلف، فد، يابي | jassem-2015-democratic |
 | Voice | `2iss` | **حس** | voice, feeling | جذرٌ آخر: حسس | jassem-2013-speech-writing |
+| Vomit | `famm` | **فم** | mouth | نعم | jassem-2014-wining-dining |
 | Vote | `wa'a` | **وء** | promise | جذرٌ آخر: ءلو، بشر، حلف، عهد، قال، مين، نذر، نكث، وغيرُها | jassem-2015-democratic |
 | Wade | `faaD` | **فض** | flood | جذرٌ آخر: ءبب، الجذر، دفق، سيل، شعر، طغي، طمي، طوف، وغيرُها | jassem-2013-water-sea |
 | Wage | `ajr` | **جر** | wage, wages | نعم | jassem-2014-divine-theological |
 | Wage | `3afa` | **عف** | excuse, pardon | جذرٌ آخر: صفح، عذر، عفو، غفر | jassem-2014-divine-theological |
 | Wage | `wa3d` | **وعد** | promise | نعم | jassem-2015-military |
 | Wail | `walwal` | **ولول** | wail | نعم | jassem-2013-speech-writing |
+| Waiter | `'ata` | **ءت** | come | جذرٌ آخر: ءتي، ءج، ءخر، ءمر، ءمل، ءني، ءهل، ءوب، وغيرُها | jassem-2014-wining-dining |
+| Walk | `wajh` | **وجه** | face, way, direction | نعم | jassem-2015-urban |
+| Walk | `walaq` | **ولق** | walk | جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها | jassem-2015-urban |
 | Walnut tree | `nuwaa(t)` | **نو** | nut, nucleus | جذرٌ آخر: بست، بق، بيار، بيض، تبل، تر، جرثومة، جوز، وغيرُها | jassem-2016-floral |
 | Walnut tree | `wali` | **ول** | close, ally, follower | جذرٌ آخر: ولي | jassem-2016-floral |
 | Want | `mawadda(t)` | **مود** | want | جذرٌ آخر: ءراد، ءمل، بد، بغي، ترب، جلد، حب، حرص، وغيرُها | jassem-2013-speech-writing |
@@ -2517,14 +3185,19 @@
 | Warm | `Tal` | **طل** | dew | نعم | jassem-2013-air-fire |
 | Warm | `lahab` | **لهب** | blaze | نعم | jassem-2013-air-fire |
 | Warm | `hawaa'` | **هوء** | air | جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها | jassem-2013-air-fire |
+| Wary | `2a'ir` | **حءر** | worried | جذرٌ آخر: قلق، كءب، كدر، كرب، هلع، همم | jassem-2015-life-death |
+| Wary | `hari'a` | **هرء** | wear out | جذرٌ آخر: ءكل، بلو، بلي، تعب، خفف، داب، سحق، عرك، وغيرُها | jassem-2015-life-death |
+| Wary | `wari3` | **ورع** | careful, wary, fearful | نعم | jassem-2015-life-death |
 | Wash | `shaa'` | **شء** | wish | جذرٌ آخر: ءراد، ءمل، بد، بغي، تمم، جشع، حب، حلم، وغيرُها | jassem-2013-water-sea |
 | Wash | `mashee'a(t)` | **مشء** | wish | جذرٌ آخر: ءراد، ءمل، بد، بغي، تمم، جشع، حب، حلم، وغيرُها | jassem-2013-water-sea |
 | Wash | `maaS` | **مص** | to stir-wash | جذرٌ آخر: ثور، جفء، حرض، حرك، حض، حوث، خلخل، خلط، وغيرُها | jassem-2013-water-sea |
 | Wasp | `ya3soop` | **يعسب** | male bee | جذرٌ آخر: زبر | jassem-2013-animal |
 | Water | `qira'at` | **قرءت** | reading | جذرٌ آخر: حزب، صحف، ضد، قرء، كتب | jassem-2013-water-sea |
+| Water | `qaTr` | **قطر** | water | جذرٌ آخر: ءجن، ءرض، ءس، ءسقي، ءفك، ءهر، ار، الدلو، وغيرُها | jassem-2014-wining-dining |
 | Water | `maTar` | **مطر** | rain | نعم | jassem-2013-water-sea |
 | Watercress | `qurra(t)` | **قر** | watercress | لا مدخلَ عندنا | jassem-2016-floral |
 | Watercress | `qira'at` | **قرءت** | reading | جذرٌ آخر: حزب، صحف، ضد، قرء، كتب | jassem-2016-floral |
+| Watercress | `laimoom` | **لم** | lemon | جذرٌ آخر: بول، حمص، حمض، حنظل، ذخر، رنجان، علقم، ليم، وغيرُها | jassem-2014-wining-dining |
 | Watercress | `wird` | **ورد** | water | نعم | jassem-2016-floral |
 | Wave | `thalj` | **ثلج** | snow | نعم | jassem-2013-water-sea |
 | Wave | `jaleed` | **جلد** | ice, frost | نعم | jassem-2013-water-sea |
@@ -2546,13 +3219,16 @@
 | Wear | `tarra` | **تر** | tear, cut | نعم | jassem-2016-fashion |
 | Wear | `waara` | **ور** | to hide, to wear | جذرٌ آخر: حجب | jassem-2016-fashion |
 | Weather | `'atheer` | **ءثر** | air, ether | نعم | jassem-2013-air-fire |
+| Wed | `wa3d` | **وعد** | promise, pledge, date | نعم | jassem-2016-entirely-arabic |
+| Week | `afaaq` | **فق** | wake | جذرٌ آخر: سحر، صبح، صحح، صحو، فوق، نبه، نفض، يقظ | jassem-2018-week-days |
 | Week | `awjas` | **وجس** | time | جذرٌ آخر: ءبد، ءجل، ءخر، ءذ، ءرخ، ءصل، ءما، ءمس، وغيرُها | jassem-2013-time |
-| Week | `waah` | **وه** | weak | جذرٌ آخر: ءفك، حسر، خفش، خفف، خنب، خور، دنو، دون، وغيرُها | jassem-2013-time |
+| Week | `waah` | **وه** | weak | جذرٌ آخر: ءفك، حسر، خفش، خفف، خنب، خور، دنو، دون، وغيرُها | jassem-2013-time · jassem-2018-week-days |
 | Weep | `ba22a` | **بح** | have a hoarse sound | نعم | jassem-2013-speech-writing |
-| Welcome | `salaam` | **سلم** | greeting, peace, Islam | نعم | jassem-2013-speech-writing · jassem-2014-divine-theological |
+| Welcome | `salaam` | **سلم** | greeting, peace, Islam | نعم | jassem-2013-speech-writing · jassem-2014-divine-theological · jassem-2014-wining-dining |
 | Welcome | `wasaT` | **وسط** | middle | نعم | jassem-2014-divine-theological |
 | Well | `3ain` | **عن** | eye | جذرٌ آخر: ءقي، بخص، بشع، بوم، تبل، جحم، جفن، جن، وغيرُها | jassem-2013-water-sea |
 | Wet | `lawa` | **لو** | turn | جذرٌ آخر: ءتي، ءسلم، ءفك، ءول، ءيض، بخر، برم، بعثر، وغيرُها | jassem-2013-water-sea |
+| Wheat | `baiDaa` | **بض** | ( | لا مدخلَ عندنا | jassem-2014-wining-dining |
 | Wheat | `waD2` | **وضح** | white | جذرٌ آخر: ءدم، از، اسم، برج، برق، برك، بهق، بهمن، وغيرُها | jassem-2016-floral |
 | When | `2eena` | **حن** | when | جذرٌ آخر: ء، ءذ، ءذا، ءذن، ءس، ءقط، ءل، ءلو، وغيرُها | jassem-2013-time |
 | Whether | `'idha` | **ءذ** | if | لا مدخلَ عندنا | jassem-2014-prepositions |
@@ -2562,8 +3238,13 @@
 | While | `awwal` | **ول** | first | نعم | jassem-2013-time |
 | While | `wahla(t)` | **وهل** | a while, a short time | نعم | jassem-2013-time |
 | Whine | `'anna` | **ءن** | whine, moan | جذرٌ آخر: ءنن، ءوه، نين، همم | jassem-2013-speech-writing |
+| Whisky | `saweeq` | **سوق** | wine | جذرٌ آخر: برزين، بيت، بيد، تفل، ثب، جدد، جلف، جون، وغيرُها | jassem-2014-wining-dining |
 | Whisper | `shaawar` | **شور** | whisper | جذرٌ آخر: سرر، نجو، هسس، همس، وسوس | jassem-2013-speech-writing |
 | Whistle | `Safeer(at)` | **صفر** | whistle | نعم | jassem-2013-air-fire · jassem-2013-speech-writing |
+| White | `2ajal(at)` | **حجل** | cock-like bird | نعم | jassem-2015-radical-translation-names |
+| White | `ism` | **سم** | name | لا مدخلَ عندنا | jassem-2015-radical-translation-names |
+| White | `la'ma(t)` | **لءم** | battle head gear | جذرٌ آخر: حرب، شعر | jassem-2015-radical-translation-names |
+| White | `labba` | **لب** | respond, ask | جذرٌ آخر: ءبو، ءتي، ءذن، ءمر، ءنس، ءوي، بدر، برء، وغيرُها | jassem-2015-radical-translation-names |
 | Whiz | `'azz` | **ءز** | whiz | جذرٌ آخر: جيب، زفف، طن | jassem-2013-air-fire · jassem-2013-animal |
 | Whiz | `wash(wash)` | **وشوش** | whisper | جذرٌ آخر: سرر، نجو، هسس، همس، وسوس | jassem-2013-animal |
 | Wide | `faDee` | **فض** | wide | جذرٌ آخر: ءفق، بحر، برن، بسط، بقع، جو، جوف، حقل، وغيرُها | jassem-2014-mathematical |
@@ -2577,6 +3258,9 @@
 | Wind | `nadwa(t)` | **ندو** | dew | جذرٌ آخر: برد، ثري، رفف، طل، طلل، لعب، ندي | jassem-2013-air-fire |
 | Wind | `hawia(t)` | **هو** | airy | جذرٌ آخر: سمد | jassem-2013-air-fire |
 | Wind | `hawaa'` | **هوء** | air | جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها | jassem-2013-air-fire |
+| Window | `nada` | **ند** | wetness, dew | جذرٌ آخر: برد، بلل، ثري، رفف، طل، طلل، لعب، ندي | jassem-2015-urban |
+| Window | `nadwa` | **ندو** | wetness, dew | جذرٌ آخر: برد، بلل، ثري، رفف، طل، طلل، لعب، ندي | jassem-2015-urban |
+| Wine | `wain` | **ون** | grapes | جذرٌ آخر: بيت، بيد، جفن، حرص، حصرم، خرط، خصل، خمر، وغيرُها | jassem-2014-wining-dining |
 | Wing | `janaa2` | **جنح** | wing | نعم | jassem-2013-animal |
 | Wing | `af3a` | **فع** | snake | جذرٌ آخر: ءفع، برص، ثعب، جنن، حبب، حجر، حنش، حي، وغيرُها | jassem-2013-animal |
 | Wing | `nahr` | **نهر** | river | نعم | jassem-2013-animal |
@@ -2597,18 +3281,21 @@
 | Witness | `fiTna(t)` | **فطن** | remembering, knowledge | جذرٌ آخر: ءثر، ءكد، اد، بء، باه، بلغ، بهم، تعل، وغيرُها | jassem-2014-divine-theological |
 | Wolf | `laith` | **لث** | lion | جذرٌ آخر: ءسامة، ءسد، الءسد، جرو، جل، حدر، حمز، درب، وغيرُها | jassem-2013-animal |
 | Wolf | `wal(wal)` | **ولول** | sound of dog | جذرٌ آخر: هوهو | jassem-2013-animal |
+| Woman | `imaa'` | **مء** | woman, maid | جذرٌ آخر: جارية، فتا | jassem-2013-family |
 | Wood | `wajda(t)` | **وجد** | cut (fire) wood | جذرٌ آخر: جذو، حطب، خشب، شعل، صلب، عض، فسق، فصل، وغيرُها | jassem-2016-floral |
 | Wool | `3ihn` | **عهن** | wool | نعم | jassem-2016-fashion |
 | Word | `hart` | **هرت** | talk | جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها | jassem-2013-speech-writing |
 | Word | `wa33` | **وع** | cry | جذرٌ آخر: ءبب، ءل، ءن، ادي، بكا، بكي، بي، ثغا، وغيرُها | jassem-2013-speech-writing |
 | Worm | `2alam(at)` | **حلم** | worm | جذرٌ آخر: حي، خرط، دود، سوس، عال، ملق، وقز | jassem-2013-animal |
 | Worm | `2aami` | **حم** | hot | نعم | jassem-2013-animal |
+| Worse | `2aiwan` | **حون** | animal | جذرٌ آخر: ءثر، ءحيا، ءركب، ءهل، ءيل، اب، الجذر، بدن، وغيرُها | jassem-2015-life-death |
+| Worse | `nubh` | **نبه** | arise from sleep | جذرٌ آخر: ءتي، ءرق، بثق، بعث، بقق، تنا، جثم، جيل، وغيرُها | jassem-2015-life-death |
 | Worship | `sabba2` | **سبح** | glorify, purify, worship, bathe | نعم | jassem-2014-divine-theological |
 | Worship | `sub2ana` | **سبحن** | glorify, purify, worship, bathe | جذرٌ آخر: بجل، ثني، حمد، طري، قدس، مدح | jassem-2014-divine-theological |
 | Write | `qira'at` | **قرءت** | reading | جذرٌ آخر: حزب، صحف، ضد، قرء، كتب | jassem-2013-speech-writing |
 | Yard | `jidar` | **جدر** | wall; garden | نعم | jassem-2016-floral |
 | Yard | `judran` | **جدرن** | wall; garden | جذرٌ آخر: ءيك، الفردوس، باء، بست، بستن، بني، بيار، بيت، وغيرُها | jassem-2016-floral |
-| Yard | `qarTa(t)` | **قرط** | rod; a cut | نعم | jassem-2016-floral |
+| Yard | `qarTa(t)` | **قرط** | rod; a cut | نعم | jassem-2016-floral · jassem-2015-urban |
 | Yarn | `jazeera(t)` | **جزر** | island | نعم | jassem-2016-fashion |
 | Yarn | `jawhar(at)` | **جوهر** | jewel | نعم | jassem-2016-fashion |
 | Yarn | `2aTTa` | **حط** | hat | جذرٌ آخر: طرط، ططر، قبع، قوق، كنو | jassem-2016-fashion |
@@ -2629,8 +3316,14 @@
 | Yet | `qaTT` | **قط** | not yet, never | نعم | jassem-2014-prepositions |
 | Yet | `qal(eel)` | **قل** | little | نعم | jassem-2014-prepositions |
 | Yogurt | `2aiwan` | **حون** | animal | جذرٌ آخر: ءثر، ءحيا، ءركب، ءهل، ءيل، اب، الجذر، بدن، وغيرُها | jassem-2013-animal |
+| Yogurt | `iqT` | **قط** | dried yogurt | جذرٌ آخر: لبن | jassem-2014-wining-dining |
 | You | `innak` | **نك** | you | جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، صحح، عطو، وغيرُها | jassem-pronouns |
 | You | `hi(ya)` | **هي** | she | نعم | jassem-pronouns |
+| Youth | `but` | **بت** | thin | جذرٌ آخر: ءفع، بد، بردع، بور، بوظ، ثرب، ثعب، جفن، وغيرُها | jassem-2013-family |
+| Youth | `zeeja(t)` | **زج** | a couple, marriage, joining | جذرٌ آخر: زوج | jassem-2013-family |
+| Youth | `zawja(t)` | **زوج** | a couple, marriage, joining | نعم | jassem-2013-family |
+| Youth | `zawjaan` | **زوجن** | a couple, marriage, joining | جذرٌ آخر: زوج | jassem-2013-family |
+| Youth | `filu` | **فل** | baby horse | جذرٌ آخر: ءمم، الذي، با، بد، برد، برق، برقع، بغل، وغيرُها | jassem-2013-family |
 | Zero | `2aiwan` | **حون** | animal | جذرٌ آخر: ءثر، ءحيا، ءركب، ءهل، ءيل، اب، الجذر، بدن، وغيرُها | jassem-2014-mathematical |
 | Zero | `Sifr` | **صفر** | zero, empty | نعم | jassem-2014-mathematical |
 | Zero | `Tool` | **طل** | length | جذرٌ آخر: الفرات، بحث، بعد، بوص، ثر، جزء، جيب، حبل، وغيرُها | jassem-2014-mathematical |
@@ -2639,10 +3332,17 @@
 | Zero | `markoo` | **مرك** | small; large | جذرٌ آخر: برج، بسط، حبب، زير، شفن، شفي، صين، طفر، وغيرُها | jassem-2014-mathematical |
 | Zero Hour | `zinnar` | **زنر** | belt | نعم | jassem-2015-military |
 | Zero Hour | `Sifr` | **صفر** | zero, empty | نعم | jassem-2015-military |
+| Zoological Gardens | `burj` | **برج** | tower; a high structure | نعم | jassem-2015-urban |
+| Zoological Gardens | `bana` | **بن** | to build | جذرٌ آخر: بء، بني، جدر، رج، شاد، شك، شيد، صنع، وغيرُها | jassem-2015-urban |
+| Zoological Gardens | `2aiwan` | **حون** | animal | جذرٌ آخر: ءثر، ءحيا، ءركب، ءهل، ءيل، اب، الجذر، بدن، وغيرُها | jassem-2015-urban |
+| Zoological Gardens | `Tareeq` | **طرق** | road, way | نعم | jassem-2015-urban |
+| Zoological Gardens | `naafir` | **نفر** | bulging, protruding | جذرٌ آخر: بوز، خطم، زج، زير، سءف، شفن، طنجر، فتق، وغيرُها | jassem-2015-urban |
 | Zucchini | `'abara` | **ءبر** | to treat plants | جذرٌ آخر: ءبي، ءخو، ءذن، ءس، ءسي، ءشق، ءفك، ءنس، وغيرُها | jassem-2016-floral |
 | Zucchini | `thamar(at)` | **ثمر** | fruit, farm | نعم | jassem-2016-floral |
 | Zucchini | `shajar(at)` | **شجر** | tree | نعم | jassem-2016-floral |
+| Zucchini | `shariba` | **شرب** | drink | نعم | jassem-2014-wining-dining |
 | Zucchini | `koosa` | **كس** | zucchini | جذرٌ آخر: كوس | jassem-2016-floral |
+| Zucchini | `koosa(n)` | **كسن** | zucchini | جذرٌ آخر: كوس | jassem-2014-wining-dining |
 | Zucchini | `na3na3` | **نعنع** | mint | جذرٌ آخر: جعد، حبق، خيت، دنر، سك، ضرب، ضرم، فلي، وغيرُها | jassem-2016-floral |
 
 ---

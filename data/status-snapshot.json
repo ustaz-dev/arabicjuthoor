@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 39429,
+  "cards_total": 40226,
   "by_language": [
    {
     "key": "old-latin",
@@ -21,7 +21,7 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 7370,
+    "cards": 8065,
     "links": 283,
     "root": 104,
     "nucleus": 178,
@@ -43,7 +43,7 @@
     "key": "coptic",
     "en": "Coptic",
     "ar": "القبطيّة",
-    "cards": 4375,
+    "cards": 4418,
     "links": 213,
     "root": 39,
     "nucleus": 173,
@@ -65,23 +65,23 @@
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2521,
-    "links": 991,
-    "root": 660,
+    "cards": 2544,
+    "links": 1014,
+    "root": 683,
     "nucleus": 331,
     "floor": 0,
-    "nucleus_share": 33.4
+    "nucleus_share": 32.6
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1549,
-    "links": 1118,
-    "root": 727,
+    "cards": 1585,
+    "links": 1154,
+    "root": 763,
     "nucleus": 391,
     "floor": 0,
-    "nucleus_share": 35.0
+    "nucleus_share": 33.9
    },
    {
     "key": "ancient-greek",
@@ -110,11 +110,11 @@
     "en": "Akkadian",
     "ar": "الأكّاديّة",
     "cards": 1226,
-    "links": 165,
-    "root": 138,
-    "nucleus": 27,
+    "links": 202,
+    "root": 173,
+    "nucleus": 29,
     "floor": 0,
-    "nucleus_share": 16.4
+    "nucleus_share": 14.4
    },
    {
     "key": "old-irish",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3094,
-  "closures": 944,
+  "links_to_arabic": 3190,
+  "closures": 945,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1576,
+    "count": 1654,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 881,
+    "count": 883,
     "link": true
    },
    {
@@ -204,13 +204,13 @@
     "link": false
    },
    {
-    "name": "NUCLEUS-ECHO",
-    "count": 321,
+    "name": "ROOT-ECHO",
+    "count": 327,
     "link": true
    },
    {
-    "name": "ROOT-ECHO",
-    "count": 311,
+    "name": "NUCLEUS-ECHO",
+    "count": 321,
     "link": true
    },
    {
@@ -255,23 +255,23 @@
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 1,
+    "count": 2,
     "link": false
    }
   ]
  },
  "pipeline": {
-  "cards_total": 35705,
-  "suspended": 28076,
-  "released": 7629,
+  "cards_total": 36443,
+  "suspended": 28776,
+  "released": 7667,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 17716
+    "count": 18664
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 9906
+    "count": 9658
    },
    {
     "name": "SOURCE-GAP",
@@ -301,11 +301,11 @@
    },
    {
     "file": "egyptian.md",
-    "count": 6921
+    "count": 7616
    },
    {
     "file": "coptic.md",
-    "count": 3744
+    "count": 3787
    },
    {
     "file": "welsh.md",
@@ -325,7 +325,7 @@
    },
    {
     "file": "akkadian.md",
-    "count": 1062
+    "count": 1024
    },
    {
     "file": "old-english.md",
