@@ -36197,7 +36197,26 @@
         "`t` + `ط` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1862,
+              "source_row_index_at_freeze": 1862,
+              "source_row_key": "fb478b6fba4bf953e79aaf85",
+              "european": "Girdle",
+              "arabic_root": "ءقلد",
+              "author_translit": "'iqleed",
+              "arabic_gloss": "a strap, string, rope",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: شرط"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0677",
@@ -49137,6 +49156,34 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1444,
+              "source_row_index_at_freeze": 1444,
+              "source_row_key": "249d9cf783ade254502f5ef6",
+              "european": "Earth",
+              "arabic_root": "رض",
+              "author_translit": "arD",
+              "arabic_gloss": "earth",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءرض، ءفق، ءل، ءوج، الءرض، الكون، بحثر، برر، وغيرُها"
+            },
+            {
+              "source_row_index": 1445,
+              "source_row_index_at_freeze": 1445,
+              "source_row_key": "779d26de119c66bddf3e0bcf",
+              "european": "Earth",
+              "arabic_root": "غرب",
+              "author_translit": "gharb",
+              "arabic_gloss": "west",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءذربيجان، ءرد، ءير، اد، الشرق، الغرب، الفرات، اليمن، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -51765,6 +51812,23 @@
               "arabic_gloss": "firm, strict",
               "source": "jassem-2013-celestial",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1684,
+              "source_row_index_at_freeze": 1684,
+              "source_row_key": "932981409247a2cc2db7b867",
+              "european": "Field",
+              "arabic_root": "فلت",
+              "author_translit": "falaat",
+              "arabic_gloss": "(grazing) land",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ضيع، وزز"
             }
           ]
         }
@@ -70439,7 +70503,26 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1795,
+              "source_row_index_at_freeze": 1795,
+              "source_row_key": "3aabf050565c889f551b3ce0",
+              "european": "Front",
+              "arabic_root": "فنر",
+              "author_translit": "finneera(t)",
+              "arabic_gloss": "nose",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: ءنف، باك، بر، بلج، بوز، حرم، حيا، خر، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0735",

@@ -4210,7 +4210,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1740,
+              "source_row_index_at_freeze": 1740,
+              "source_row_key": "9ac709bb3c3042c1d49fc395",
+              "european": "Folio",
+              "arabic_root": "لف",
+              "author_translit": "leef",
+              "arabic_gloss": "fiber",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: اد، خيط، شبك، قطن، كت"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N008-062",

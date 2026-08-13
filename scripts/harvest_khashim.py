@@ -1219,6 +1219,40 @@ def mine_dawudi_list(md: pathlib.Path) -> list[dict]:
     return rows
 
 
+def mine_ember_arabic_marked_lines(md: pathlib.Path) -> list[dict]:
+    """احفظ كلَّ سطرٍ علَّمه إمبر صراحةً بالطرف العربيِّ «عر:».
+
+    نسخةُ مكتبة الإسكندريّة الرسميّة ذاتُ نصٍّ مستخرجٍ مقروء، لكنَّ صفَّها
+    متعدِّدَ الأعمدة خلط أحيانًا الرسمَ المصريَّ والمقابلَ العربيَّ في سطرٍ
+    واحد، وأحيانًا شطرهما بين سطرين. لذلك لا نفرضُ فاصلًا آليًّا قد يبدِّل
+    طرفَي الزوج؛ بل نحفظُ الجردَ الموسومَ كلَّه، سطرًا ورقمًا، من غير إسقاط.
+    """
+    lines = md.read_text(encoding="utf-8").splitlines()
+    rows = []
+    for line_no, raw in enumerate(lines, 1):
+        normalized = unicodedata.normalize("NFKC", raw)
+        normalized = re.sub(r"[ـ\u200e\u200f\u202a-\u202e]", "", normalized)
+        normalized = re.sub(r"\s+", " ", normalized).strip()
+        if not re.match(r"^عر\s*[:：]", normalized):
+            continue
+        rows.append({
+            "source_line": line_no,
+            "printed_line": normalized,
+            "ancient_tongue": "المصريّةُ القديمة، ومعها المقابلاتُ العروبيّةُ التي سمّاها المؤلّف",
+            "author": "آرون إمبر",
+            "editor": "فريدا بنك",
+            "translator_commentator": "علي فهمي خشيم",
+            "source": "ocr-khashim-egyptian-arabic-language",
+            "harvest_kind": "سطرٌ موسومٌ صراحةً بـ«عر:» في معجمِ المصدر",
+            "ocr_source": "Internet Archive DjVuTXT الرسمي؛ حُفظ السطرُ كاملًا لأنَّ الأعمدةَ مختلطة",
+        })
+    if len(rows) != 623:
+        raise SystemExit(
+            f"تغيّر جردُ أسطرِ إمبر الموسومة: {len(rows)}، والمتوقَّع 623"
+        )
+    return rows
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     if not STORE.exists():
@@ -1226,6 +1260,7 @@ def main() -> int:
         return 1
 
     rows: list[dict] = []
+    ember_lines: list[dict] = []
     print(f"{'الكتاب':24}{'أزواج':>8}")
     for folder, (ar, key) in OCR_BOOKS.items():
         md = STORE / folder / "full.md"
@@ -1273,6 +1308,10 @@ def main() -> int:
         got = mine_emperors_greek_glossary(emperors)
         rows.extend(got)
         print(f"  {'emperors-greek-glossary':24}{len(got):>8}   (145 مدخلًا مرقّمًا)")
+    ember = STORE / "ocr-khashim-egyptian-arabic-language" / "full.md"
+    if ember.exists():
+        ember_lines = mine_ember_arabic_marked_lines(ember)
+        print(f"  {'ember-arabic-lines':24}{len(ember_lines):>8}   (جردٌ موسومٌ خام)")
     for stem, (ar, key) in BOOKS.items():
         p = STORE / f"{stem}.pdf"
         if not p.exists():
@@ -1294,6 +1333,21 @@ def main() -> int:
                  "عربيٌّ فقط فسقطَ الحرفُ الأصليُّ، وهو نقصٌ مسمًّى يُسَدُّ بمسحٍ ثانٍ."),
         "pairs": len(rows),
         "latin_head_recovery": latin_recovery,
+        "additional_attributed_inventories": {
+            "aaron_ember_egypto_semitic": {
+                "title": "المصريّةُ القديمةُ لغةٌ عروبيّة",
+                "author": "آرون إمبر",
+                "editor": "فريدا بنك",
+                "translator_commentator": "علي فهمي خشيم",
+                "items": len(ember_lines),
+                "counting_rule": "كلُّ سطرٍ في النصِّ الرسميِّ المستخرج يبدأ صراحةً بالوسم «عر:»",
+                "note": (
+                    "هذا جردٌ خامٌ مستقلٌّ عن عدّاد الأزواج المنظَّمة؛ حُفظت الأسطرُ "
+                    "كاملةً لأنَّ استخراجَ الأعمدة خلط أحيانًا الرسمَ المصريَّ بالطرف العربي."
+                ),
+                "rows": ember_lines,
+            }
+        },
         "rows": rows,
     }, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
 
@@ -1323,6 +1377,26 @@ def main() -> int:
     for r in rows:
         lines.append(f"| {r['tongue_ar']} | `{r['foreign']}` | {r['foreign_sense'][:44]} | "
                      f"**{r['arabic_root']}** | {r['arabic_gloss'][:70]} |")
+    if ember_lines:
+        lines += [
+            "",
+            "## جَردُ آرون إِمبر المَوسومُ بـ«عَر:»",
+            "",
+            "في نُسخةِ «المِصرِيَّةُ القَديمةُ لُغةٌ عَروبِيَّة» الرَّسميَّةِ حُفِظَ كُلُّ",
+            "سَطرٍ بَدَأَهُ المُؤَلِّفُ بِوَسمِ الطَّرَفِ العَرَبِيِّ `عر:`. النَّصُّ",
+            "المُستَخرَجُ خَلَطَ بَعضَ الأَعمِدَة؛ فَلا يَفرِضُ الحاصِدُ فَصلًا آليًّا",
+            "بَينَ الرَّسمِ المِصرِيِّ والطَّرَفِ العَرَبِيّ، ولا يَطرَحُ سَطرًا لِذَلِك.",
+            "نِسبَةُ التَّأليفِ لآرون إِمبر، والتَّحريرِ لِفريدا بِنك، والتَّرجَمَةِ",
+            "والتَّعليقِ لِعلي فَهمي خَشيم.",
+            "",
+            f"**العَدَد: {len(ember_lines)} سَطرًا مَوسومًا.**",
+            "",
+            "| سَطرُ المَصدَر | سَطرُ المُقابَلَةِ كَما استُخرِج |",
+            "|---:|---|",
+        ]
+        for item in ember_lines:
+            printed = item["printed_line"].replace("|", "\\|")
+            lines.append(f"| {item['source_line']} | `{printed}` |")
     lines += ["", "---", "",
               "*English abstract.* Pairs harvested from Ali Fahmi Khashim's comparative",
               "dictionaries, whose titles state the thesis directly: Akkadian is Arabic, Coptic is",

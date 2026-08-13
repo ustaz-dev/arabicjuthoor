@@ -38599,7 +38599,26 @@
         "`s` + `أ` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1536,
+              "source_row_index_at_freeze": 1536,
+              "source_row_key": "53e507f3528011fd7c2bc47d",
+              "european": "Essence",
+              "arabic_root": "يكن",
+              "author_translit": "yakoon",
+              "arabic_gloss": "to be",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0234",
@@ -75941,7 +75960,37 @@
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1757,
+              "source_row_index_at_freeze": 1757,
+              "source_row_key": "7d73414dcdfa31534b2ef82c",
+              "european": "Fork",
+              "arabic_root": "فرق",
+              "author_translit": "farraaq(at)",
+              "arabic_gloss": "divider; fork",
+              "source": "jassem-2019-frk · jassem-2013-cutting-breaking",
+              "bridge_agrees": "جذرٌ آخر: ءفع، الجذر، ثعب، حجز، حنش، حي، ذرا، ذرو، وغيرُها"
+            },
+            {
+              "source_row_index": 1758,
+              "source_row_index_at_freeze": 1758,
+              "source_row_key": "55144802e20f9b9481a0457a",
+              "european": "Fork",
+              "arabic_root": "فرقت",
+              "author_translit": "farqat",
+              "arabic_gloss": "divider; fork",
+              "source": "jassem-2019-frk",
+              "bridge_agrees": "جذرٌ آخر: ءفع، الجذر، ثعب، حجز، حنش، حي، ذرا، ذرو، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0320",
@@ -77408,7 +77457,26 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1765,
+              "source_row_index_at_freeze": 1765,
+              "source_row_key": "45476b93da05a35fbddac481",
+              "european": "Fraction",
+              "arabic_root": "فركث",
+              "author_translit": "farkath",
+              "arabic_gloss": "to break (bread)",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "جذرٌ آخر: النواة، حل، فقع، لا"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0323",

@@ -10223,6 +10223,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1696,
+              "source_row_index_at_freeze": 1696,
+              "source_row_key": "bbc7ac2798b99525790810e5",
+              "european": "First",
+              "arabic_root": "حد",
+              "author_translit": "2adi",
+              "arabic_gloss": "first",
+              "source": "jassem-2012-numerals",
+              "bridge_agrees": "جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -15717,6 +15734,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1565,
+              "source_row_index_at_freeze": 1565,
+              "source_row_key": "6a7be04de02f2076720260f9",
+              "european": "Ewe",
+              "arabic_root": "زبر",
+              "author_translit": "zabr",
+              "arabic_gloss": "fine wool, hair, feather",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: فرو"
+            }
+          ]
         }
       ]
     },
@@ -18201,6 +18235,78 @@
               "arabic_gloss": "inner; heart",
               "source": "jassem-2018-place-names",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1743,
+              "source_row_index_at_freeze": 1743,
+              "source_row_key": "f4ba3cccf99ce38301ee0ff6",
+              "european": "Ford",
+              "arabic_root": "ءتن",
+              "author_translit": "'atoon",
+              "arabic_gloss": "hearth, fireplace",
+              "source": "jassem-2018-place-names",
+              "bridge_agrees": "جذرٌ آخر: دفء، قد، كان، وقد"
+            },
+            {
+              "source_row_index": 1744,
+              "source_row_index_at_freeze": 1744,
+              "source_row_key": "151e8972e3106f7090fbd232",
+              "european": "Ford",
+              "arabic_root": "ءقم",
+              "author_translit": "'aqaam",
+              "arabic_gloss": "to stay",
+              "source": "jassem-2018-place-names",
+              "bridge_agrees": "جذرٌ آخر: ءبد، ءبن، بقي، بن، بيت، تنخ، ثمل، جنب، وغيرُها"
+            },
+            {
+              "source_row_index": 1746,
+              "source_row_index_at_freeze": 1746,
+              "source_row_key": "d4672a30dd57a5dc7ec9a845",
+              "european": "Ford",
+              "arabic_root": "شق",
+              "author_translit": "shaq",
+              "arabic_gloss": "cut, division",
+              "source": "jassem-2018-place-names",
+              "bridge_agrees": "جذرٌ آخر: جزء، شعب، عزل، فصل، قسم، قط، قطع"
+            },
+            {
+              "source_row_index": 1747,
+              "source_row_index_at_freeze": 1747,
+              "source_row_key": "66b6b85bf5349a3227e081bb",
+              "european": "Ford",
+              "arabic_root": "قرءت",
+              "author_translit": "qira'at",
+              "arabic_gloss": "reading",
+              "source": "jassem-2018-place-names",
+              "bridge_agrees": "جذرٌ آخر: حزب، صحف، ضد، قرء، كتب"
+            },
+            {
+              "source_row_index": 1748,
+              "source_row_index_at_freeze": 1748,
+              "source_row_key": "819e72b0a9b6009204199ac7",
+              "european": "Ford",
+              "arabic_root": "قرت",
+              "author_translit": "qariat",
+              "arabic_gloss": "village, town",
+              "source": "jassem-2018-place-names",
+              "bridge_agrees": "جذرٌ آخر: بلد، ثون، حضر، زنق، زوف، ضيع"
+            },
+            {
+              "source_row_index": 1749,
+              "source_row_index_at_freeze": 1749,
+              "source_row_key": "010105f015590a9bbe277c9b",
+              "european": "Ford",
+              "arabic_root": "قلز",
+              "author_translit": "qilz",
+              "arabic_gloss": "dark",
+              "source": "jassem-2018-place-names",
+              "bridge_agrees": "جذرٌ آخر: ءزر، بهم، بور، حبر، حسن، حلك، حنتم، حو، وغيرُها"
             }
           ]
         }
@@ -56409,7 +56515,26 @@
         "`t` + `ط` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1841,
+              "source_row_index_at_freeze": 1841,
+              "source_row_key": "a9db9d26198ae7a4ad428e17",
+              "european": "Gate",
+              "arabic_root": "قرت",
+              "author_translit": "qariat",
+              "arabic_gloss": "village, town",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: بلد، ثون، حضر، زنق، زوف، ضيع"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0563",

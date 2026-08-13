@@ -41810,7 +41810,37 @@
         "`s` + `ش` + «النورديّة القديمة/Old Norse» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1825,
+              "source_row_index_at_freeze": 1825,
+              "source_row_key": "95444380f24f79d402bc2a9b",
+              "european": "Gap",
+              "arabic_root": "جب",
+              "author_translit": "jaib",
+              "arabic_gloss": "gap",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءشق، بون، بيض، ثرم، ثغر، ثلم، خرب، خل، وغيرُها"
+            },
+            {
+              "source_row_index": 1826,
+              "source_row_index_at_freeze": 1826,
+              "source_row_key": "84b59a4cbab35d06c7c44985",
+              "european": "Gap",
+              "arabic_root": "حص",
+              "author_translit": "2aSa",
+              "arabic_gloss": "pebbles, stones",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: بذر، ثفي، حلب، حيط، راس، رجم، رصص، زبر، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-085",
@@ -43859,6 +43889,25 @@
       "cross_book_supplement_rows": [
         4131,
         4136
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1524,
+              "source_row_index_at_freeze": 1524,
+              "source_row_key": "686f3ce320e24883c591fa2a",
+              "european": "Erotic",
+              "arabic_root": "ءر",
+              "author_translit": "'arr",
+              "arabic_gloss": "making love",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "جذرٌ آخر: وجد"
+            }
+          ]
+        }
       ]
     },
     {
@@ -48974,6 +49023,25 @@
       "judgment": "غير صادر",
       "cross_book_supplement_rows": [
         4294
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1520,
+              "source_row_index_at_freeze": 1520,
+              "source_row_key": "e7458dc39a3526b7a52d02d1",
+              "european": "Epitaph",
+              "arabic_root": "جدث",
+              "author_translit": "jadath",
+              "arabic_gloss": "grave",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "جذرٌ آخر: ءمر، بء، بقر، بلغ، جدد، جدي، جسي، دف، وغيرُها"
+            }
+          ]
+        }
       ]
     },
     {
@@ -50502,6 +50570,45 @@
               "arabic_gloss": "balance, scale",
               "source": "jassem-2015-medical",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1516,
+              "source_row_index_at_freeze": 1516,
+              "source_row_key": "3c0121ed1900203ef15b8fea",
+              "european": "Epidemic",
+              "arabic_root": "ءدم",
+              "author_translit": "'aadam(i)",
+              "arabic_gloss": "people",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: ءب، ءم، ءمم، ءنا، ءهل، اس، اصر، التي، وغيرُها"
+            },
+            {
+              "source_row_index": 1517,
+              "source_row_index_at_freeze": 1517,
+              "source_row_key": "1057ef450e8882be439cad9a",
+              "european": "Epidemic",
+              "arabic_root": "ءودم",
+              "author_translit": "'awaadim",
+              "arabic_gloss": "people",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: ءب، ءم، ءمم، ءنا، ءهل، اس، اصر، التي، وغيرُها"
+            },
+            {
+              "source_row_index": 1518,
+              "source_row_index_at_freeze": 1518,
+              "source_row_key": "f966cfa7814a93a81b6c1185",
+              "european": "Epidemic",
+              "arabic_root": "مزن",
+              "author_translit": "mizaan",
+              "arabic_gloss": "balance, scale",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: ثقل، شاهين"
             }
           ]
         }

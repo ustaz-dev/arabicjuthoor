@@ -2021,6 +2021,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1713,
+              "source_row_index_at_freeze": 1713,
+              "source_row_key": "69fc09165ceb87a09cfe1b54",
+              "european": "Flat",
+              "arabic_root": "فلطح",
+              "author_translit": "falTa2",
+              "arabic_gloss": "sloping (land); flat (foot)",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: صطب، يد"
+            }
+          ]
         }
       ]
     },
@@ -7498,7 +7515,26 @@
         "`s` + `ي` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1852,
+              "source_row_index_at_freeze": 1852,
+              "source_row_key": "e2013d1a01d5b5dbdbe90003",
+              "european": "Genius",
+              "arabic_root": "جنس",
+              "author_translit": "jins",
+              "arabic_gloss": "race",
+              "source": "jassem-2013-cognitive",
+              "bridge_agrees": "جذرٌ آخر: ءدم، ءنس، جم، جنن، خت، ركض، سبق، سلل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0337",
@@ -41640,6 +41676,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1649,
+              "source_row_index_at_freeze": 1649,
+              "source_row_key": "df5498ed97ce09a012ff37eb",
+              "european": "Father",
+              "arabic_root": "بت",
+              "author_translit": "abat",
+              "arabic_gloss": "father",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: ءب، ءبا، ءبب، ءبت، ءبو، ءبي، ءس، باب، وغيرُها"
+            }
+          ]
         }
       ],
       "jassem_rejudgments": [
@@ -54260,6 +54313,45 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1864,
+              "source_row_index_at_freeze": 1864,
+              "source_row_key": "c45ca5dedc00c07fc2f2861e",
+              "european": "Girl",
+              "arabic_root": "جر",
+              "author_translit": "jaaria(t)",
+              "arabic_gloss": "young girl",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: بز، بنت، ثوب، در، صب، طفل، فتا، فست"
+            },
+            {
+              "source_row_index": 1865,
+              "source_row_index_at_freeze": 1865,
+              "source_row_key": "fd1fdb1591bc38b2e25b34d6",
+              "european": "Girl",
+              "arabic_root": "غندر",
+              "author_translit": "ghundar",
+              "arabic_gloss": "soft servant, child; fat and tough; proud and beautiful",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: بن، بهي، جمل، شحم، صبو، طول، غلم، فتي، وغيرُها"
+            },
+            {
+              "source_row_index": 1866,
+              "source_row_index_at_freeze": 1866,
+              "source_row_key": "da60070c666fd88de8dd6ebf",
+              "european": "Girl",
+              "arabic_root": "قنطر",
+              "author_translit": "qinTaar",
+              "arabic_gloss": "1000, huge amount",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: ءجر، بد، بدر، بعد، بعض، بلغ، بنس، بني، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -59369,7 +59461,37 @@
         "`m` + `م` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1665,
+              "source_row_index_at_freeze": 1665,
+              "source_row_key": "892d8725e7d75bd6ad5ebf49",
+              "european": "Female",
+              "arabic_root": "مءنث",
+              "author_translit": "mu'annath",
+              "arabic_gloss": "female, woman",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: ءث، ءذربيجان، ءنث، بز، جارية، جز، حق، خنث، وغيرُها"
+            },
+            {
+              "source_row_index": 1666,
+              "source_row_index_at_freeze": 1666,
+              "source_row_key": "ed155719ab7932e29ec2bdd4",
+              "european": "Female",
+              "arabic_root": "نث",
+              "author_translit": "untha",
+              "arabic_gloss": "female, woman",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: ءث، ءذربيجان، ءنث، بز، جارية، جز، حق، خنث، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0440",
@@ -59660,7 +59782,26 @@
         "`m` + `ل` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1634,
+              "source_row_index_at_freeze": 1634,
+              "source_row_key": "6bb1a141f88f1fba4fbfcefd",
+              "european": "Family",
+              "arabic_root": "زمل",
+              "author_translit": "zameel",
+              "arabic_gloss": "friend, servant",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: ءنس، بني، تبع، جي، حب، حبب، خدر، خدم، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0441",

@@ -24659,6 +24659,89 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1725,
+              "source_row_index_at_freeze": 1725,
+              "source_row_key": "bbd3e9d96b71240251bf99a5",
+              "european": "Fly",
+              "arabic_root": "جم",
+              "author_translit": "jamma",
+              "arabic_gloss": "collect-cut",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، النواة، باك، بت، بتر، بتل، وغيرُها"
+            },
+            {
+              "source_row_index": 1726,
+              "source_row_index_at_freeze": 1726,
+              "source_row_key": "d9e3e0480275485a3d8e09e8",
+              "european": "Fly",
+              "arabic_root": "عصفر",
+              "author_translit": "3aSfoor",
+              "arabic_gloss": "bird",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها"
+            },
+            {
+              "source_row_index": 1728,
+              "source_row_index_at_freeze": 1728,
+              "source_row_key": "8950398a6656a1c4ebaedcdb",
+              "european": "Fly",
+              "arabic_root": "غبرت",
+              "author_translit": "ghabrat",
+              "arabic_gloss": "dust",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ءدم، بء، بلد، ترب، جر، جرف، دق، ذنب، وغيرُها"
+            },
+            {
+              "source_row_index": 1729,
+              "source_row_index_at_freeze": 1729,
+              "source_row_key": "09e0e3b8e90a26d8abeaab5c",
+              "european": "Fly",
+              "arabic_root": "فر",
+              "author_translit": "farra",
+              "arabic_gloss": "fly",
+              "source": "jassem-2013-air-fire · jassem-2013-animal · jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها"
+            },
+            {
+              "source_row_index": 1730,
+              "source_row_index_at_freeze": 1730,
+              "source_row_key": "ca5d87239e04253ffebd2b09",
+              "european": "Fly",
+              "arabic_root": "فل",
+              "author_translit": "falla",
+              "arabic_gloss": "leave",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
+            },
+            {
+              "source_row_index": 1731,
+              "source_row_index_at_freeze": 1731,
+              "source_row_key": "e579fe8c93f0a1c56ef843e2",
+              "european": "Fly",
+              "arabic_root": "قرف",
+              "author_translit": "qaraf",
+              "arabic_gloss": "leave",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
+            },
+            {
+              "source_row_index": 1732,
+              "source_row_index_at_freeze": 1732,
+              "source_row_key": "507ccceb85eef922dfa38c30",
+              "european": "Fly",
+              "arabic_root": "قرفن",
+              "author_translit": "qarfaan",
+              "arabic_gloss": "leave",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -26026,6 +26109,56 @@
               "arabic_gloss": "fur",
               "source": "jassem-2016-fashion · jassem-2013-animal",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1805,
+              "source_row_index_at_freeze": 1805,
+              "source_row_key": "cadb82264a8e5dcea44a2809",
+              "european": "Fur",
+              "arabic_root": "غتر",
+              "author_translit": "ghutra(t)",
+              "arabic_gloss": "head cover; a covering",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: برقع، خمر، ستر، طبق، قاب"
+            },
+            {
+              "source_row_index": 1806,
+              "source_row_index_at_freeze": 1806,
+              "source_row_key": "05e7341108c63e5e21e0b032",
+              "european": "Fur",
+              "arabic_root": "فر",
+              "author_translit": "farra",
+              "arabic_gloss": "to unfurl, untie, unloosen",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: فك"
+            },
+            {
+              "source_row_index": 1807,
+              "source_row_index_at_freeze": 1807,
+              "source_row_key": "bac7a7812c61ceb90e1d7f82",
+              "european": "Fur",
+              "arabic_root": "فرء",
+              "author_translit": "firaa'",
+              "arabic_gloss": "fur",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: ثعلب، جلد، حنبل، ستق، سلخ، شعث، شعر، عطف، وغيرُها"
+            },
+            {
+              "source_row_index": 1809,
+              "source_row_index_at_freeze": 1809,
+              "source_row_key": "bcce7f3e8f53fcfca9364115",
+              "european": "Fur",
+              "arabic_root": "فل",
+              "author_translit": "falla",
+              "arabic_gloss": "to unfurl, untie, unloosen",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: فك"
             }
           ]
         }
@@ -30049,6 +30182,34 @@
               "arabic_gloss": "forget, miss",
               "source": "jassem-2013-movement-action",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1857,
+              "source_row_index_at_freeze": 1857,
+              "source_row_key": "c6df3329f8280169a79add02",
+              "european": "Get",
+              "arabic_root": "جب",
+              "author_translit": "jaab(at)",
+              "arabic_gloss": "she begot",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: ءم، اب، ببر، بغل، بهء، تا، تبن، ته، وغيرُها"
+            },
+            {
+              "source_row_index": 1858,
+              "source_row_index_at_freeze": 1858,
+              "source_row_key": "b4f38ee757a55c7c8056ae2f",
+              "european": "Get",
+              "arabic_root": "غد",
+              "author_translit": "ghada",
+              "arabic_gloss": "go, leave, arrive, become",
+              "source": "jassem-2013-movement-action · jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: ءتي، ءسلم، بعد، ترك، تلو، جلو، حل، خلص، وغيرُها"
             }
           ]
         }
@@ -87941,7 +88102,26 @@
         "`f` + `ف` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1741,
+              "source_row_index_at_freeze": 1741,
+              "source_row_key": "560660c4914c3c2418313bf0",
+              "european": "Food",
+              "arabic_root": "فدء",
+              "author_translit": "fadaa'",
+              "arabic_gloss": "food: dates, wheat, and barley",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: جرم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-186",

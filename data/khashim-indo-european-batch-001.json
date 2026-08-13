@@ -6103,7 +6103,26 @@
       "deficiencies": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1609,
+              "source_row_index_at_freeze": 1609,
+              "source_row_key": "64d70bd1fb35919c509e1d66",
+              "european": "Eye",
+              "arabic_root": "عن",
+              "author_translit": "3ain",
+              "arabic_gloss": "eye",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: ءقي، بخص، بشع، بوم، تبل، جحم، جفن، جن، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0012",
@@ -14957,6 +14976,23 @@
               "arabic_gloss": "milk water",
               "source": "jassem-2014-wining-dining",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1464,
+              "source_row_index_at_freeze": 1464,
+              "source_row_key": "f86751264c353b2e0e626fea",
+              "european": "Egg",
+              "arabic_root": "يق",
+              "author_translit": "yaqaq",
+              "arabic_gloss": "pure white",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: زلل، نصع"
             }
           ]
         }
@@ -47720,6 +47756,56 @@
               "arabic_gloss": "joyful",
               "source": "jassem-2016-entirely-arabic · jassem-2018-week-days",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 10,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1768,
+              "source_row_index_at_freeze": 1768,
+              "source_row_key": "bd8eac5fd0214ff1bfaf4b4c",
+              "european": "Free",
+              "arabic_root": "شعر",
+              "author_translit": "shi3ra",
+              "arabic_gloss": "a star",
+              "source": "jassem-2018-week-days",
+              "bridge_agrees": "جذرٌ آخر: ءلق، الثور، الدلو، السنبلة، الشمس، اللفظ، باض، بقر، وغيرُها"
+            },
+            {
+              "source_row_index": 1769,
+              "source_row_index_at_freeze": 1769,
+              "source_row_key": "00355783f5b70895909ff5ce",
+              "european": "Free",
+              "arabic_root": "ضح",
+              "author_translit": "Du2a",
+              "arabic_gloss": "forenoon",
+              "source": "jassem-2016-entirely-arabic",
+              "bridge_agrees": "جذرٌ آخر: صبح، ضحا، ضحو"
+            },
+            {
+              "source_row_index": 1772,
+              "source_row_index_at_freeze": 1772,
+              "source_row_key": "bb3ae99b9119587ec076213c",
+              "european": "Free",
+              "arabic_root": "فرج",
+              "author_translit": "faraj",
+              "arabic_gloss": "to set free",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: حر، خلو، سرح، سيب، طلق، عتق، عمل، فدي، وغيرُها"
+            },
+            {
+              "source_row_index": 1774,
+              "source_row_index_at_freeze": 1774,
+              "source_row_key": "26a2c311cdc99d2c240fc87f",
+              "european": "Free",
+              "arabic_root": "فرحن",
+              "author_translit": "far2aan(at)",
+              "arabic_gloss": "happy, to be happy",
+              "source": "jassem-2018-week-days",
+              "bridge_agrees": "جذرٌ آخر: ءنس، بسط، بسم، بش، بشر، بشش، بهج، حبر، وغيرُها"
             }
           ]
         }
