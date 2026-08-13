@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 41093,
+  "cards_total": 41254,
   "by_language": [
    {
     "key": "old-latin",
@@ -76,10 +76,10 @@
     "key": "akkadian",
     "en": "Akkadian",
     "ar": "الأكّاديّة",
-    "cards": 1653,
-    "links": 320,
-    "root": 281,
-    "nucleus": 39,
+    "cards": 1814,
+    "links": 336,
+    "root": 295,
+    "nucleus": 41,
     "floor": 0,
     "nucleus_share": 12.2
    },
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3316,
-  "closures": 948,
+  "links_to_arabic": 3332,
+  "closures": 979,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1764,
+    "count": 1778,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 899,
+    "count": 901,
     "link": true
    },
    {
@@ -239,6 +239,11 @@
     "link": false
    },
    {
+    "name": "OUT-OF-SCOPE",
+    "count": 36,
+    "link": false
+   },
+   {
     "name": "COMPOUND-BOUNDARY",
     "count": 11,
     "link": false
@@ -252,22 +257,17 @@
     "name": "MIXED-ISOLATED",
     "count": 5,
     "link": false
-   },
-   {
-    "name": "OUT-OF-SCOPE",
-    "count": 5,
-    "link": false
    }
   ]
  },
  "pipeline": {
-  "cards_total": 37310,
-  "suspended": 29514,
-  "released": 7796,
+  "cards_total": 37471,
+  "suspended": 29628,
+  "released": 7843,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 19720
+    "count": 19834
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -317,7 +317,7 @@
    },
    {
     "file": "akkadian.md",
-    "count": 1330
+    "count": 1444
    },
    {
     "file": "middle-english.md",
