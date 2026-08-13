@@ -49386,6 +49386,36 @@
       "judgment": "غير صادر",
       "cross_book_supplement_rows": [
         4300
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2715,
+              "source_row_index_at_freeze": 2715,
+              "source_row_key": "bf299d6c9dc1a82b2b2c61e9",
+              "european": "Monarch",
+              "arabic_root": "كلم",
+              "author_translit": "kalaam",
+              "arabic_gloss": "talk",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2716,
+              "source_row_index_at_freeze": 2716,
+              "source_row_key": "d6431872e28b28a5b80074bf",
+              "european": "Monarch",
+              "arabic_root": "ملك",
+              "author_translit": "malik",
+              "arabic_gloss": "monarch(y)",
+              "source": "jassem-2014-divine-theological · jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
       ]
     },
     {

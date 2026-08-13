@@ -70575,7 +70575,59 @@
         "`m` + `م` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2673,
+              "source_row_index_at_freeze": 2673,
+              "source_row_key": "a4fff97a2851fe02d6efdbff",
+              "european": "Milk",
+              "arabic_root": "ضءن",
+              "author_translit": "Da'n",
+              "arabic_gloss": "sheep",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2674,
+              "source_row_index_at_freeze": 2674,
+              "source_row_key": "86626297d2f4224d91667501",
+              "european": "Milk",
+              "arabic_root": "عجل",
+              "author_translit": "3ijl",
+              "arabic_gloss": "bull",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2675,
+              "source_row_index_at_freeze": 2675,
+              "source_row_key": "83d075511b213b2993176636",
+              "european": "Milk",
+              "arabic_root": "مصل",
+              "author_translit": "maSl",
+              "arabic_gloss": "milk liquid",
+              "source": "jassem-2013-animal · jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2676,
+              "source_row_index_at_freeze": 2676,
+              "source_row_key": "292579e1a54e56c860bdae27",
+              "european": "Milk",
+              "arabic_root": "مع",
+              "author_translit": "ma33a",
+              "arabic_gloss": "sound of cows",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-153",

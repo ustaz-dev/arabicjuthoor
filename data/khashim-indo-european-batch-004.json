@@ -65346,7 +65346,24 @@
           "dialect_review": []
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "form": "Pass",
+          "root": "فوز",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`pass` في العبور من جانب إلى آخر ومجاوزة المسافة",
+          "orbit": "المرور عبور امتداد حتى الخروج من طرفه؛ وحدث `فوز` يخصص هذا المدار بعبور مسافة قفر طويلة، فيبقى الصدى الحركي واحدًا مع فرق البيئة.",
+          "sound_route": "p↔ف=`IDN-06`؛ s↔ز=`SIB-03`؛ باب المعتل المسمى يثبت الواو في الجوف",
+          "sound_searches": [
+            "`p` + `ف` + «اللاتينيّة القديمة/Old Latin»",
+            "`s` + `ز` + «اللاتينيّة القديمة/Old Latin»"
+          ],
+          "frozen_event": "عبور مسافةِ قَفْرٍ جَافَّةٍ بالغة الامتداد",
+          "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
+        }
+      ],
       "deficiencies": [
         {
           "member_index": 1121,
@@ -65399,8 +65416,67 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`t` + `ص` + «الويلزيّة/Welsh» في عمود الشاهد"
       ],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "closure": "ROOT-ECHO",
+      "judgment": "ROOT-ECHO",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3033,
+              "source_row_index_at_freeze": 3033,
+              "source_row_key": "7e0b395c7a0416373be40043",
+              "european": "Pass",
+              "arabic_root": "سبسب",
+              "author_translit": "sabsab",
+              "arabic_gloss": "go, pass, flow",
+              "source": "jassem-2013-movement-action · jassem-2015-urban",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 3034,
+              "source_row_index_at_freeze": 3034,
+              "source_row_key": "4575b755dcf4b31013b95672",
+              "european": "Past",
+              "arabic_root": "سبق",
+              "author_translit": "saabiq",
+              "arabic_gloss": "past, passed, previous",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3033,
+              "source_row_index_at_freeze": 3033,
+              "source_row_key": "7e0b395c7a0416373be40043",
+              "european": "Pass",
+              "arabic_root": "سبسب",
+              "author_translit": "sabsab",
+              "arabic_gloss": "go, pass, flow",
+              "source": "jassem-2013-movement-action · jassem-2015-urban",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "root": "فوز",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`pass` في العبور من جانب إلى آخر ومجاوزة المسافة",
+          "orbit": "المرور عبور امتداد حتى الخروج من طرفه؛ وحدث `فوز` يخصص هذا المدار بعبور مسافة قفر طويلة، فيبقى الصدى الحركي واحدًا مع فرق البيئة.",
+          "sound_route": "p↔ف=`IDN-06`؛ s↔ز=`SIB-03`؛ باب المعتل المسمى يثبت الواو في الجوف",
+          "sound_searches": [
+            "`p` + `ف` + «اللاتينيّة القديمة/Old Latin»",
+            "`s` + `ز` + «اللاتينيّة القديمة/Old Latin»"
+          ],
+          "frozen_event": "عبور مسافةِ قَفْرٍ جَافَّةٍ بالغة الامتداد"
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0572",
@@ -66359,7 +66435,26 @@
         "`p` + `ف` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3037,
+              "source_row_index_at_freeze": 3037,
+              "source_row_key": "237a199ec7899d2b791b4ac4",
+              "european": "Path",
+              "arabic_root": "سبل",
+              "author_translit": "sabeel",
+              "arabic_gloss": "path",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0574",

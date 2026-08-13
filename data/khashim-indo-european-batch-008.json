@@ -8517,6 +8517,25 @@
       "judgment": "غير صادر",
       "cross_book_supplement_rows": [
         4114
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2655,
+              "source_row_index_at_freeze": 2655,
+              "source_row_key": "f9544f25a1d835c9020be021",
+              "european": "Meter",
+              "arabic_root": "متر",
+              "author_translit": "matar",
+              "arabic_gloss": "cut, measure",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
       ]
     },
     {

@@ -80,6 +80,47 @@ ns["POSITIVE"] = {
 def rewrite_outputs() -> None:
     manifest = ROOT / "data" / "jassem-indo-european-batch-004.json"
     payload = json.loads(manifest.read_text(encoding="utf-8"))
+    # Pass and Past are two members of one pre-existing Khashim form family.
+    # Collapse their source claims into one card supplement and render one
+    # marker, while keeping the positive judgment scoped to the pass member.
+    family = [item for item in payload["khashim_card_supplements"] if item["target_card_id"] == "KIE-M0571"]
+    if len(family) != 2 or {item["head"] for item in family} != {"Pass", "Past"}:
+        raise AssertionError("expected the Pass/Past KIE-M0571 family")
+    pass_item = next(item for item in family if item["head"] == "Pass")
+    past_item = next(item for item in family if item["head"] == "Past")
+    combined = {
+        **pass_item,
+        "head": "Pass / Past",
+        "forms": ["Pass", "Past"],
+        "fan_sizes_by_form": {"Pass": pass_item["fan_size"], "Past": past_item["fan_size"]},
+        "fan_size": pass_item["fan_size"] + past_item["fan_size"],
+        "source_rows": sorted(pass_item["source_rows"] + past_item["source_rows"]),
+        "source_claims": pass_item["source_claims"] + past_item["source_claims"],
+        "reason": "two members of the same Khashim form-family card; one supplement with all Jassem claims",
+    }
+    payload["khashim_card_supplements"] = [
+        item for item in payload["khashim_card_supplements"] if item["target_card_id"] != "KIE-M0571"
+    ] + [combined]
+    payload["khashim_card_supplements_count"] = len(payload["khashim_card_supplements"])
+    payload["cards_touched"] = payload["new_cards_written"] + payload["jassem_card_supplements_count"] + payload["khashim_card_supplements_count"]
+
+    target_payload = json.loads((ROOT / "data/khashim-indo-european-batch-004.json").read_text(encoding="utf-8"))
+    target_card = next(card for card in target_payload["rows"] if (card.get("merged_card_id") or card.get("card_id")) == "KIE-M0571")
+    prior = [item for item in target_card.get("jassem_supplements", []) if item.get("batch") != 4]
+    prior.append({"batch": 4, "source": "data/prior-art-pairs.json", "source_claims": combined["source_claims"]})
+    target_card["jassem_supplements"] = prior
+    (ROOT / "data/khashim-indo-european-batch-004.json").write_text(
+        json.dumps(target_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n",
+    )
+    old_latin_path = ROOT / "04-cross-linguistic/readings/old-latin.md"
+    old_latin = old_latin_path.read_text(encoding="utf-8")
+    root_events, nucleus_events = B.load_events()
+    old_latin = ns["add_khashim_supplement"](
+        old_latin, "KIE-M0571", combined, combined["rejudgments"],
+        root_events, nucleus_events, target_card["closure"],
+    )
+    old_latin_path.write_text(old_latin, encoding="utf-8", newline="\n")
+
     confirmations = []
     for item in payload["khashim_card_supplements"]:
         if item["head"].casefold() == "pierce":

@@ -40818,7 +40818,26 @@
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2913,
+              "source_row_index_at_freeze": 2913,
+              "source_row_key": "32cf6c4581a7bba29abed5a6",
+              "european": "Odour",
+              "arabic_root": "عطر",
+              "author_translit": "3iTr",
+              "arabic_gloss": "perfume",
+              "source": "jassem-2013-air-fire · jassem-2013-perceptual-sensual",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0239",
@@ -63003,7 +63022,37 @@
         "`v` + `ف` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "NUCLEUS-TRACE",
-      "judgment": "NUCLEUS-TRACE"
+      "judgment": "NUCLEUS-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2521,
+              "source_row_index_at_freeze": 2521,
+              "source_row_key": "645874742deb26523d9aa07b",
+              "european": "Love",
+              "arabic_root": "شكل",
+              "author_translit": "shakl",
+              "arabic_gloss": "shape",
+              "source": "jassem-2016-entirely-arabic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2522,
+              "source_row_index_at_freeze": 2522,
+              "source_row_key": "fe5aaa98b152ef7ee679a5b4",
+              "european": "Love",
+              "arabic_root": "لهف",
+              "author_translit": "lahaf",
+              "arabic_gloss": "love, strong desire",
+              "source": "jassem-2016-entirely-arabic",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0284",

@@ -304,6 +304,97 @@ shura` للمجمرة، و`twbh : tubha` للصلوات، و`bwre/vori : buri` �
 والمعاجمِ المصريّةِ والقبطيّة، فلا تُنسبُ إلى الحسابِ منفردًا حتى يُفرَزَ
 مصدرُ كلِّ واحدٍ منها.
 
+### سابقٌ من المدوّنات: عبدُ الرّحمنِ الصبّاغ
+
+نشرَ **عبدُ الرّحمنِ الصبّاغ** في 2014-12-19 تدوينةَ «[مفردات وكلمات عربية ـ
+سومرية من فجر التاريخ](https://lahajat.blogspot.com/2014/12/blog-post_162.html)»
+في «معجم اللهجات المحكية». نصَّ على أنّ قائمته جُمعت، في أصلها، من القواميسِ
+السومريّة، وبخاصّةٍ قاموسِ جون أ. هالوران، ثمّ وضعَ **142 مدخلًا سومريًّا
+بإزاءِ لفظٍ عربيٍّ أو أكثر**. نُزِّلت صفحةُ المصدر كاملةً إلى مجلّدِ المواردِ
+الخارجيّ: 228,978 بايتًا، وSHA-256 هو
+`CC990459B55693A362CF0CEEFC06CFC3CAB005E318F3B7173EFBBFEB9B6B0BBB`.
+
+وهذه قائمتُه كلُّها كما نشرَ طرفَيها، بما فيها علاماتُ الاستفهامِ والبدائل، من
+غيرِ حذفٍ أو ترجيحٍ:
+
+| السومريُّ في القائمة | العربيُّ بإزائِه | السومريُّ في القائمة | العربيُّ بإزائِه |
+|---|---|---|---|
+| `Ab` | أب | `Abrig` | أبريق |
+| `Ad, ada` | عاد | `Adda` | عدى |
+| `Adaab, atab` | عذاب / عتاب | `Agabi se` | عقب ذا / ذه |
+| `Agrun` | عقر | `Ama` | أم |
+| `Amah` | ماء / مياه | `Amaatu` | أمة / عمة؟ |
+| `Ambar` | عمبر | `Anbar` | عنبر |
+| `An dul` | ظل | `Anše` | عنز |
+| `Apin` | حب | `Arzu` | عرض |
+| `Asa, as, az` | عصا / عاص | `Asaga` | السقاء |
+| `Aškud` | السقاطة | `Ata` | حتى |
+| `Azlag` | الزلق | `Bad` | بط |
+| `Badara` | البتارة | `Bar..dab` | ذاب في البر |
+| `Barra` | برة | `Bar edinna` | بر عدن |
+| `Buranun` | الفرات / براني؟ | `Daga` | دكة |
+| `Daggan` | دكان | `Dakkan` | دكان |
+| `Dalla..é` | طلع | `Damgar` | تاجر |
+| `Dirig` | طريق | `Dubban` | ضبان |
+| `E anira` | بيت النور | `Eden, edin` | عدن / أرض البراري أو الجنان الطبيعيّة |
+| `Eduru` | الدور | `Égar` | حجار / آجر |
+| `Elilum` | هللو | `Eme gilimama` | أم الكلام |
+| `Emedu` | أمة | `Èš` | عز / حج؟ |
+| `Eskir` | الشخير | `Éšša` | عشاء / حشى / يحشو |
+| `Eššu` | عيش | `Gaba` | غابة |
+| `Gabaal` | قابل | `Gaba..ru` | جبار |
+| `Gada` | قطن / كتان | `Ganam` | غنم |
+| `Garáš` | غراس | `Gaumn` | كمون |
+| `Gasubba` | قصب | `Gaz` | غاز |
+| `Gibil` | قبل | `Gidda` | جدًّا |
+| `Giin` | قن | `Ginun` | قنة |
+| `Gira` | جراي | `Gir, kir` | جي / قي / كير |
+| `Girim, girir` | غريين | `Gišabba` | خشب / خشبة |
+| `Gišur` | جسور | `Gudmu` | قديم |
+| `Gúg` | كعك | `Gú gur dug` | دق عنقه |
+| `Gúšub` | غصب | `Guz, huž` | قص / جز / حز |
+| `Hab` | حب | `Háš` | حشا |
+| `Haz, haš` | حش / حز | `Hili` | حلي |
+| `Hur, ur` | هور / حر / أور | `Idigna` | دجلة |
+| `Íllà` | ال / عال | `Illi, illu` | عالي / علو |
+| `Imi, im, em` | حمأ | `Imrihamun` | أم ريح |
+| `Kàbarra` | قبر | `Kaš bir` | كاس بيرة |
+| `Kas` | قص | `Kašsura` | كأس عصير |
+| `Katae` | خطأ | `Katar` | خطر |
+| `Kib, kiba` | كب / كبة | `Ki bala` | كربلاء / ذي بلاء / مقر البلاء |
+| `Ki dul` | ذو ظل | `Ki gubba` | ذي قبة |
+| `Ki naaka` | ذي ناقة | `Ki sáalamha` | ذي سلامة |
+| `Ki sahar` | الصحراء | `Ki ud` | عاد / عدن |
+| `Ki zúurra` | كسورة | `Kur` | كر |
+| `Kurun` | قرن / قرون | `Lú barra` | البراني |
+| `Lú gašum` | الغاشم | `Lug` | لغو / لغة |
+| `Lu silim` | الرجل السليم | `Lub` | لب |
+| `Lu úb` | عب | `Mašgána` | مسكن / سجن / معسكر |
+| `Máššub` | مصب | `Mitum` | مأتم |
+| `Mudur` | مضر | `Mušalum` | مثاله / مثله |
+| `Mén` | معًا / سويّة | `Nar` | نهر؟ |
+| `Niggal` | منجل | `Nigtur` | نقطار |
+| `Nimur` | نمر | `Pap, pap, pa` | أب |
+| `Ra, ri` | ري | `Ribba` | ربة / رب |
+| `Rig, raag` | رق | `Réiš` | رئيس / رئيسة |
+| `U, o` | أو / و | `Udun` | أتون / كانون / فرن |
+| `Umu, um` | أم | `Uráš` | أرض |
+| `Ús` | أس / أساس | `Us, uz` | وز / أوز |
+| `Ušu` | عث | `Uzu` | عشاء؟ |
+| `Sag, sig` | شاق / شق | `Sagi` | ساقي |
+| `Šar` | شار / أشار | `Sér, šír` | سعير |
+| `Shur, suhur` | شعر / شعور | `Sartur` | سطار |
+| `Silim` | سليم | `Šim` | شم / يشم |
+| `Sir` | سير | `Sirra` | شارع / سار / يسير / سيارة |
+| `Šita, éšda, šid` | شد / يشد | `Su` | سن |
+| `Sum` | ثوم | `Šukur` | صخور |
+| `Zakàr` | صخر | `Zid, ziše` | زيت / زيت وعيش |
+| `Gamur` | قيمر | `Gurušša sahar` | غراس / قراش الصحراء |
+
+تُحفظُ هذه كلُّها باسمِ الصبّاغ، لا باسمِ المدوّنةِ وحدَها، ولا تُستبدلُ
+نسبتُه بإحالتِه إلى هالوران؛ فالإحالةُ مصدرُه، أمّا اختيارُ المقابلاتِ العربيّة
+وصياغتُها فهما عملُه المنشور.
+
 والبحثُ عن غيرِهم مستمرٌّ ويُلحَقُ بهذه الورقةِ أوّلًا بأوّل: كلُّ من نشرَ أزواجًا
 عربيّةً بإزاءِ لسانٍ قديمٍ في بحثٍ أو كتابٍ أو مدوَّنةٍ أو منتدًى أو صفحةٍ
 اجتماعيّة، فمادّتُه ذخيرةٌ عندَنا. **ولا يُشتَرَطُ في المصدرِ أن يكونَ محكَّمًا
@@ -343,4 +434,7 @@ downloaded and read; their bibliographies surface George Sobhy, Werner Vycichl,
 and William H. Worrell as earlier pair collectors. Eleven Ancient Egyptian–Saidi
 Arabic pairs explicitly preserved from the public `@tareq.ismail` video series
 have now been indexed under the account's own attribution, without importing the
-later project's verdicts on them.
+later project's verdicts on them. Abd al-Rahman al-Sabbagh's 2014 blog inventory
+adds 142 explicitly listed Sumerian–Arabic entries under his own attribution;
+the complete source page was preserved with its content hash, and every listed
+alternative remains a candidate rather than a verdict.

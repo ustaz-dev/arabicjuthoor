@@ -2982,7 +2982,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3073,
+              "source_row_index_at_freeze": 3073,
+              "source_row_key": "f6afea5ad5102db0e2be0497",
+              "european": "Period",
+              "arabic_root": "بعد",
+              "author_translit": "ba3d",
+              "arabic_gloss": "after",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N009-019",

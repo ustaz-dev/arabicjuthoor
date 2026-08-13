@@ -1447,7 +1447,59 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3108,
+              "source_row_index_at_freeze": 3108,
+              "source_row_key": "f3d79d4e1a20855f7a47afc8",
+              "european": "Plateau",
+              "arabic_root": "بلد",
+              "author_translit": "balad(at)",
+              "arabic_gloss": "village, town",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 3109,
+              "source_row_index_at_freeze": 3109,
+              "source_row_key": "bd7437936b0b4a9cbdd370ec",
+              "european": "Plateau",
+              "arabic_root": "بلط",
+              "author_translit": "balaaT(a)",
+              "arabic_gloss": "rock, tile, flat land",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 3110,
+              "source_row_index_at_freeze": 3110,
+              "source_row_key": "3d1c1d45af5fe2eac2397fdb",
+              "european": "Plateau",
+              "arabic_root": "بين",
+              "author_translit": "bayen",
+              "arabic_gloss": "clear",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 3111,
+              "source_row_index_at_freeze": 3111,
+              "source_row_key": "5bafcc9f73c5c08e82c8ff7d",
+              "european": "Plateau",
+              "arabic_root": "ترب",
+              "author_translit": "turaab",
+              "arabic_gloss": "earth",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0326",
@@ -2645,7 +2697,26 @@
         "`p` + `ب` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3013,
+              "source_row_index_at_freeze": 3013,
+              "source_row_key": "6079f67b600bb5798639e74f",
+              "european": "Palace",
+              "arabic_root": "بلط",
+              "author_translit": "balaaT",
+              "arabic_gloss": "rock, marble; palace",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0332",
@@ -26218,7 +26289,24 @@
           "dialect_review": []
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "form": "Loaf",
+          "root": "لف",
+          "closure": "NUCLEUS-ECHO",
+          "branch_meaning": "`loaf` في رغيف أو لفافة خبز تتجمع مادتها في كتلة ملتفة كثيفة",
+          "orbit": "لفافة الخبز تُلوى مادتها على ظاهرها حتى توجد كتلة كثيفة؛ فهذا مدار صناعي واحد إلى حدث `لف`.",
+          "sound_route": "l↔ل=`IDN-04`؛ f↔ف=`IDN-06`",
+          "sound_searches": [
+            "`l` + `ل` + «الإنجليزيّة القديمة/Old English»",
+            "`f` + `ف` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "التلوي على ظاهر الشيء وما يلزمه من الوجود بكثافة",
+          "event_source": "data/juthoor-core-levels.json؛ jabal_lexicon_reading_ar"
+        }
+      ],
       "deficiencies": [
         {
           "member_index": 699,
@@ -26228,8 +26316,56 @@
         }
       ],
       "missing_row_searches": [],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "closure": "NUCLEUS-ECHO",
+      "judgment": "NUCLEUS-ECHO",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2494,
+              "source_row_index_at_freeze": 2494,
+              "source_row_key": "99bdb8e14d5168fadfb2bc91",
+              "european": "Loaf",
+              "arabic_root": "لف",
+              "author_translit": "laffa(t)",
+              "arabic_gloss": "(a bread) roll",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2494,
+              "source_row_index_at_freeze": 2494,
+              "source_row_key": "99bdb8e14d5168fadfb2bc91",
+              "european": "Loaf",
+              "arabic_root": "لف",
+              "author_translit": "laffa(t)",
+              "arabic_gloss": "(a bread) roll",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "root": "لف",
+          "closure": "NUCLEUS-ECHO",
+          "branch_meaning": "`loaf` في رغيف أو لفافة خبز تتجمع مادتها في كتلة ملتفة كثيفة",
+          "orbit": "لفافة الخبز تُلوى مادتها على ظاهرها حتى توجد كتلة كثيفة؛ فهذا مدار صناعي واحد إلى حدث `لف`.",
+          "sound_route": "l↔ل=`IDN-04`؛ f↔ف=`IDN-06`",
+          "sound_searches": [
+            "`l` + `ل` + «الإنجليزيّة القديمة/Old English»",
+            "`f` + `ف` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "التلوي على ظاهر الشيء وما يلزمه من الوجود بكثافة"
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0374",
@@ -26727,7 +26863,59 @@
         "`r` + `ل` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2507,
+              "source_row_index_at_freeze": 2507,
+              "source_row_key": "838e9d19d32636520d9a54ce",
+              "european": "Lord",
+              "arabic_root": "بكر",
+              "author_translit": "bikr(in)",
+              "arabic_gloss": "virgin",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2508,
+              "source_row_index_at_freeze": 2508,
+              "source_row_key": "c0498bce970772f19ec25f4f",
+              "european": "Lord",
+              "arabic_root": "جمع",
+              "author_translit": "jam3",
+              "arabic_gloss": "group",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2514,
+              "source_row_index_at_freeze": 2514,
+              "source_row_key": "e794c2c84254fb4b3ae0fa02",
+              "european": "Lord",
+              "arabic_root": "نعم",
+              "author_translit": "na3eem",
+              "arabic_gloss": "good, nice",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2516,
+              "source_row_index_at_freeze": 2516,
+              "source_row_key": "8dc8b0e47db82dcbde0420a9",
+              "european": "Lord",
+              "arabic_root": "ورد",
+              "author_translit": "warrad",
+              "arabic_gloss": "to bring",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0377",
@@ -48876,7 +49064,26 @@
         "`t` + `ي` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2753,
+              "source_row_index_at_freeze": 2753,
+              "source_row_key": "8d523152002e090364cdb283",
+              "european": "Mother",
+              "arabic_root": "مرء",
+              "author_translit": "mar'a(t)",
+              "arabic_gloss": "woman, wife",
+              "source": "jassem-2019-mr · jassem-2013-family",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0409",
@@ -52442,7 +52649,37 @@
         "`y` + `ء` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 4,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2588,
+              "source_row_index_at_freeze": 2588,
+              "source_row_key": "144c100e8855921c816c4ccb",
+              "european": "Marry",
+              "arabic_root": "زلم",
+              "author_translit": "zalama(t)",
+              "arabic_gloss": "man",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 2592,
+              "source_row_index_at_freeze": 2592,
+              "source_row_key": "a1f105e09eb939b6fbca817c",
+              "european": "Marry",
+              "arabic_root": "مرء",
+              "author_translit": "mar'a(t)",
+              "arabic_gloss": "woman",
+              "source": "jassem-2013-family · jassem-2016-entirely-arabic",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0421",

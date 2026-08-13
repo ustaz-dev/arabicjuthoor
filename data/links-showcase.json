@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 2150,
-  "nucleus": 1237,
+  "root": 2153,
+  "nucleus": 1241,
   "languages": 16
  },
  "languages": [
@@ -663,7 +663,7 @@
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 99,
+   "root": 100,
    "nucleus": 31,
    "floor": 1,
    "examples": [
@@ -748,8 +748,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 130,
-   "nucleus_share": 23.8
+   "total": 131,
+   "nucleus_share": 23.7
   },
   {
    "key": "persian",
@@ -913,7 +913,7 @@
    "en": "Old English",
    "distance": 4,
    "root": 37,
-   "nucleus": 23,
+   "nucleus": 24,
    "floor": 1,
    "examples": [
     {
@@ -997,8 +997,91 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 60,
-   "nucleus_share": 38.3
+   "total": 61,
+   "nucleus_share": 39.3
+  },
+  {
+   "key": "middle-english",
+   "ar": "الإنجليزيّة الوسطى",
+   "en": "Middle English",
+   "distance": 4,
+   "root": 21,
+   "nucleus": 14,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "Middle",
+     "say": "",
+     "sense": "ثلاثة",
+     "arabic": "ثل",
+     "quote": "الثلاثة في عدد المذكر",
+     "lexicon": "الصحاح",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "free",
+     "say": "",
+     "sense": "حر؛ حرية",
+     "arabic": "فر",
+     "quote": "رحلة الكلمات",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "love",
+     "say": "",
+     "sense": "حب؛ حياة؛ رغبة؛ سرور | أسد",
+     "arabic": "لب",
+     "quote": "حب؛ حياة؛ رغبة؛ سرور | أسد",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "bite",
+     "say": "",
+     "sense": "خنفساء؛ عض وقطع",
+     "arabic": "بت",
+     "quote": "خنفساء؛ عض وقطع",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "fader",
+     "say": "",
+     "sense": "A father (male direct ancestor...)`، و`An indirect male ancestor`، وكذلك `The ",
+     "arabic": "فاطر",
+     "quote": "المنشئ المبتدئ",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "house",
+     "say": "",
+     "sense": "بيت؛ ربة بيت؛ أهل البيت",
+     "arabic": "حوش",
+     "quote": "بيت؛ ربة بيت؛ أهل البيت",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "Middle",
+     "say": "",
+     "sense": "باب",
+     "arabic": "الدار",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
+    }
+   ],
+   "total": 35,
+   "nucleus_share": 40.0
   },
   {
    "key": "old-irish",
@@ -1092,89 +1175,6 @@
    ],
    "total": 34,
    "nucleus_share": 61.8
-  },
-  {
-   "key": "middle-english",
-   "ar": "الإنجليزيّة الوسطى",
-   "en": "Middle English",
-   "distance": 4,
-   "root": 19,
-   "nucleus": 11,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "Middle",
-     "say": "",
-     "sense": "ثلاثة",
-     "arabic": "ثل",
-     "quote": "الثلاثة في عدد المذكر",
-     "lexicon": "الصحاح",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-ECHO"
-    },
-    {
-     "word": "free",
-     "say": "",
-     "sense": "حر؛ حرية",
-     "arabic": "فر",
-     "quote": "رحلة الكلمات",
-     "lexicon": "",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "love",
-     "say": "",
-     "sense": "حب؛ حياة؛ رغبة؛ سرور | أسد",
-     "arabic": "لب",
-     "quote": "حب؛ حياة؛ رغبة؛ سرور | أسد",
-     "lexicon": "",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "bite",
-     "say": "",
-     "sense": "خنفساء؛ عض وقطع",
-     "arabic": "بت",
-     "quote": "خنفساء؛ عض وقطع",
-     "lexicon": "",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "fader",
-     "say": "",
-     "sense": "A father (male direct ancestor...)`، و`An indirect male ancestor`، وكذلك `The ",
-     "arabic": "فاطر",
-     "quote": "المنشئ المبتدئ",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "house",
-     "say": "",
-     "sense": "بيت؛ ربة بيت؛ أهل البيت",
-     "arabic": "حوش",
-     "quote": "بيت؛ ربة بيت؛ أهل البيت",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "Middle",
-     "say": "",
-     "sense": "باب",
-     "arabic": "الدار",
-     "quote": "",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-ECHO"
-    }
-   ],
-   "total": 30,
-   "nucleus_share": 36.7
   },
   {
    "key": "gothic",
