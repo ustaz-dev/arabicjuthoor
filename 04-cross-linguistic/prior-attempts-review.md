@@ -308,4 +308,7 @@ candidates; a further 107 pairs from *Continuous Contact* brought that separate
 harvest from 3,612 to 3,969 pairs. Two open
 Coptic-Arabic inventories by Wilson B. Bishai and Emile Maher Ishaq were also
 downloaded and read; their bibliographies surface George Sobhy, Werner Vycichl,
-and William H. Worrell as earlier pair collectors.
+and William H. Worrell as earlier pair collectors. Eleven Ancient Egyptian–Saidi
+Arabic pairs explicitly preserved from the public `@tareq.ismail` video series
+have now been indexed under the account's own attribution, without importing the
+later project's verdicts on them.
