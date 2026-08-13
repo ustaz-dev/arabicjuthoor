@@ -49,13 +49,13 @@
 
 ## ما حُصِدَ إلى الآن
 
-اتّسعَت قائمةُ الإنزالِ إلى **48 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF مباشرة،
+اتّسعَت قائمةُ الإنزالِ إلى **49 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF مباشرة،
 وحُفظت الذخيرةُ الخامُّ خارجَ git في `~/AI Projects/Resources/prior-art/`. وبعدَ
-الدمجِ بلغَ الفهرسُ **4092 زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
+الدمجِ بلغَ الفهرسُ **4291 زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
 الدمجِ في [ورقةِ الحصاد](exploration/prior-art-harvest.md)، والصفوفُ المهيكلةُ في
 `data/prior-art-pairs.json`.
 
-وحملَ **3957 صفًّا** رأسَ المدخلِ الأوربيَّ، أي **96.7%** من الفهرس. جرى ذلك
+وحملَ **4152 صفًّا** رأسَ المدخلِ الأوربيَّ، أي **96.8%** من الفهرس. جرى ذلك
 بتوسيعِ قارئِ الرأسِ ليأخذَ صيغَ `via Latin` و`from Arabic` و`is a compound of`
 معَ صيغِ الاشتقاقِ الأولى، معَ إبقاءِ الشرطِ أن يكونَ الرأسُ في أوّلِ السطر.
 وفُحِصت بالعينِ عيّنةٌ موزَّعةٌ من 20 صفًّا ذي رأس، فكانت كلُّها عناوينَ مداخلَ
@@ -76,10 +76,11 @@
 
 ثمّ رُوجعَ فهرسُ أرشيفِ الإنترنت للمساراتِ الميتة، فاستُعيدت منه 5 ملفاتٍ
 أصليّة: المصطلحاتُ الدينيّة، والحبُّ والجنس، وألفاظُ السؤالِ والأفعالِ الناقصة،
-والتجارة، والمصطلحاتُ القانونيّة. أخرجَ الحاصدُ منها 492 زوجًا قبلَ الدمج،
-وبقيَ **430 زوجًا جديدًا بعدَه**. وفُحِصَت العناوينُ واسمُ المؤلفِ وعددُ الصفحات.
+والتجارة، والمصطلحاتُ القانونيّة. واستُعيدَ من مرفقاتِ JOELL الرسميّة بحثُ
+المصطلحاتِ الطبيّة. أخرجَ الحاصدُ من الستّة 717 زوجًا قبلَ الدمج، وبقيَ
+**629 زوجًا جديدًا بعدَه**. وفُحِصَت العناوينُ واسمُ المؤلفِ وعددُ الصفحات.
 ورُفضت لقطةٌ سادسةٌ منسوبةٌ في فهرسِ OJS إلى بحثِ كامبل لأنّ متنَها مقالٌ
-لصمويل دوكو لا بحثُ جاسم، وحُذف ملفُها الدخيل. وبقيَ **10 أبحاثٍ** بلا نسخةٍ
+لصمويل دوكو لا بحثُ جاسم، وحُذف ملفُها الدخيل. وبقيَ **9 أبحاثٍ** بلا نسخةٍ
 محليّةٍ صالحة.
 
 ## أينَ التقى الطريقان
@@ -87,12 +88,12 @@
 أضيفَ إلى كلِّ صفٍّ حقلُ `bridge_agrees`. سألَ الحقلُ جسرَنا عن ألفاظِ المعنى
 الإنجليزيِّ نفسِها: فإن ربطَها بالجذرِ نفسِه كتبَ `نعم`، وإن ربطَها بغيرِه سمّى
 ما عندَنا، وإن لم يجدْها كتبَ `لا مدخلَ عندنا`. **وافقَ الجسرُ الجذرَ نفسَه في
-1509 أزواجٍ**. وهذه موافقةٌ من ذخيرةٍ لم يمرَّ بها صاحبُ البحث، وليست بوّابةً
+1579 زوجًا**. وهذه موافقةٌ من ذخيرةٍ لم يمرَّ بها صاحبُ البحث، وليست بوّابةً
 تسقطُ غيرَ الموافق.
 
-وفي الحصادِ **1863 جذرًا عربيًّا متمايزًا**. قابلَها السكربتُ بالمقابلِ العربيِّ
+وفي الحصادِ **1926 جذرًا عربيًّا متمايزًا**. قابلَها السكربتُ بالمقابلِ العربيِّ
 المصرَّحِ به في بطاقاتِ `04-cross-linguistic/readings/` التي صدرَ فيها حكمٌ موجب،
-فوجدَ **287 جذرًا** قد وردت فعلًا في تلكَ البطاقات. فهذا موضعُ التقاءِ المسارِ
+فوجدَ **292 جذرًا** قد وردت فعلًا في تلكَ البطاقات. فهذا موضعُ التقاءِ المسارِ
 النازلِ من حقولِ المعنى عندَه بالمسارِ الصاعدِ من الجذورِ عندَنا.
 
 ## ما نفعلُه بها
@@ -154,6 +155,40 @@
 السابقةَ وتدعو إلى جمعِ مقارباتِها في معجمٍ شامل. فأُثبتَ أحمدُ كمال في سجلِّ
 السابقين، وستُتَّبعُ نسخةُ معجمِه المفتوحةُ إن وُجدت، مع نسبةِ كلِّ زوجٍ إليه.
 
+### سابقو الألفاظِ القبطيّةِ العربيّة
+
+عُثِرَ على قائمتينِ مفتوحتينِ مستقلّتينِ للألفاظِ القبطيّةِ بإزاءِ العربيّةِ
+المصريّة، ونُزِّلَ ملفّاهما إلى مجلّدِ المواردِ الخارجيِّ ببصمتَيهما:
+
+1. **ولسن ب. بشاي**، «[الأثرُ المعجميُّ القبطيُّ في العربيّةِ
+   المصريّة](https://copticsounds.files.wordpress.com/2010/01/coptic-lexical-influence-on-egyptian-arabic.pdf)»،
+   *Journal of Near Eastern Studies* 23.1 (1964)، الصفحات 39 إلى 47. جمعَ بشاي
+   **205 مقترحاتٍ** من القوائمِ السابقة، فحُفِظَ مجموعُها ذخيرةً منسوبةً كما
+   نشرَه، لا ما انتهى إليه وحدَه. حجمُ الملفِّ 379,381 بايتًا، وSHA-256 هو
+   `E2EA3DA5EE689E74CF364F8F9DDFEC0AD727856E7044ECBE45EBE0A08FC58784`.
+2. **إميل ماهر إسحق**، مادّةُ «[مفرداتُ العربيّةِ
+   المصريّة](https://ccdl.claremont.edu/digital/api/collection/cce/id/1988/download)»
+   في *الموسوعةِ القبطيّة*، وهي خلاصةٌ منشورةٌ لأطروحتِه سنةَ 1975. رتّبَ
+   أزواجَه الصريحةَ في **22 بابًا دلاليًّا**. حجمُ الملفِّ 309,031 بايتًا،
+   وSHA-256 هو
+   `9ECA6FB16C3649C54471F85726EDED51942893D03851DED36BD3530286B7E99C`.
+
+ومن أزواجِ إسحقَ كما طُبعت، مع إبقاءِ رسمِه اللاتينيِّ: `em/re : damira`
+للغطاء المائي، و`stom/syom : ishtum` للسدّ، و`rpe : birba` للمعبدِ القديم،
+و`mcah : timsah` للتمساح، و`twwbe/twbe : tuba` للطوب، و`cnau : sinnu`
+للجولةِ الثانية، و`alou : yala(h)` للولد، و`fwte : futah` للمنشفة، و`souri :
+shura` للمجمرة، و`twbh : tubha` للصلوات، و`bwre/vori : buri` و`j/l : shal`
+لنوعَينِ من السمك. وهذه أمثلةٌ من قائمته، لا أحكامٌ صادرةٌ عن هذا المشروع.
+
+وأحالَ بشاي إلى جامعينَ أسبقَ منه، فأُثبتوا في سجلِّ السابقين: **جورج صبحي**
+في *Common Words in the Spoken Arabic of Egypt*، و**وليم هويت وورل** في
+*Coptic Texts*، و**فرنر فيسيشل** في دراساته المعجميّة، مع ما نقلوه عن
+شبيغلبرغ وإرمان. وعُثرَ كذلكَ على ملحقِ **كارستن بوست** «تمثيلُ الصوامتِ
+القبطيّةِ في الألفاظِ العربيّةِ المقترضة» في كتابِه المفتوح
+*[Egyptian Phonology](https://digi.ub.uni-heidelberg.de/diglit/peust1999/0321)*؛
+وهو يصفُ مقابلاتِ الصوامتِ ويوردُ معها أمثلةً قبطيّةً عربيّةً. تُقرأ هذه
+القوائمُ لاحقًا زوجًا زوجًا، وتبقى النسبةُ إلى صاحبِ كلِّ قائمةٍ محفوظةً.
+
 والبحثُ عن غيرِهم مستمرٌّ ويُلحَقُ بهذه الورقةِ أوّلًا بأوّل: كلُّ من نشرَ أزواجًا
 عربيّةً بإزاءِ لسانٍ قديمٍ في بحثٍ أو كتابٍ أو مدوَّنةٍ أو منتدًى أو صفحةٍ
 اجتماعيّة، فمادّتُه ذخيرةٌ عندَنا. **ولا يُشتَرَطُ في المصدرِ أن يكونَ محكَّمًا
@@ -172,13 +207,17 @@ question words, prepositions, the verb to be, numerals and affixes. Those fields
 are not ours, which is precisely why the corpus is worth harvesting. A harvester
 reads his fixed entry format and his declared transliteration, discards the
 Arabic script in his PDFs because its font encoding is broken, and strips the
-grammatical endings he writes in parentheses. Forty-eight verified PDFs have
-yielded 4,092 merged pairs. Five of them were recovered from preserved publisher
-PDFs in the Internet Archive, while a sixth misattributed snapshot was rejected
-after its text proved to be another author's article. The European entry head is
-present in 3,957 rows. The independent English-Arabic bridge agrees on the same
-root in 1,509 pairs, while 287 of the harvest's 1,863 distinct Arabic roots occur
+grammatical endings he writes in parentheses. Forty-nine verified PDFs have
+yielded 4,291 merged pairs. Five of them were recovered from preserved publisher
+PDFs in the Internet Archive and one from an official JOELL attachment, while a
+misattributed snapshot was rejected after its text proved to be another author's
+article. The European entry head is present in 4,152 rows. The independent
+English-Arabic bridge agrees on the same root in 1,579 pairs, while 292 of the
+harvest's 1,926 distinct Arabic roots occur
 in reading cards carrying an issued positive result. Ali Fahmi Khashim's newly
 downloaded *Journey of Words II* and *Gods of Arabic Egypt II*, together with a
 nine-author symposium on ancient Arabic-related tongues, added 250 attributed
-candidates and brought that separate harvest from 3,612 to 3,862 pairs.
+candidates and brought that separate harvest from 3,612 to 3,862 pairs. Two open
+Coptic-Arabic inventories by Wilson B. Bishai and Emile Maher Ishaq were also
+downloaded and read; their bibliographies surface George Sobhy, Werner Vycichl,
+and William H. Worrell as earlier pair collectors.

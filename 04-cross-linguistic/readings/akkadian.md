@@ -39646,4 +39646,165 @@ Militarev وMilitarev & Kogan في قاعدةِ `semet`)، و`arabic-school-khus
 
 <!-- KHASHIM-AKKADIAN-ROW-BATCH-006:END -->
 
+<!-- AKKADIAN-PROPER-NAME-SWEEP:START -->
+## مسح الأعلام والمواضع من ذخيرة الأكّادية
+
+**الطبقة: استكشاف اسمي مستقل. هذه مرشحات لا صلات، ولا يدخل شيء منها عد الصلات المنشور.**
+
+مُررت الرؤوس الـ506 الموسومة `proper-name` في `Resources/akkadian/derived/akkadian-lexical-headwords.jsonl` كلها على `F.fan(word, "akkadian")`. ولدت 318 رأسا مروحة، ولم تولد 188 رأسا مروحة صالحة لطول الرسم أو علاماته. وقع مرشح ذو حدث عربي مجمد في 140 رأسا، ولم يقع في 178 من ذوات المروحة.
+
+**المعدل الخام: 140 من 506 = 27.7% من جميع الرؤوس الاسمية؛ و140 من 318 = 44.0% من الرؤوس التي ولدت مروحة.** هذا خط أساس وصفي للصدفة، لا برهان اشتقاق؛ فالاسم لا يحمل معنى معجميا ينهض بالرجل الدلالية.
+
+تركيب الجرد والضربات: المواضع `GN` 5/8، والأشخاص `PN` 21/96، والمعبودات `DN` 69/255، وأسماء المعابد `TN` 23/65، والأعلام الأخرى 22/82. التكرار هنا تكرار رأس مصدري مستقل، لا دعوى عدد كيانات تاريخية فريدة.
+
+اختير للعرض أول مرشح في ترتيب المروحة له حدث مجمد، وسجل موضعه وعدد المرشحات ذوات الحدث. لم يستعمل التشابه الاسمي لإصدار `ROOT-TRACE` أو `NUCLEUS-TRACE`.
+
+| # | العلم الأكّادي | النوع | شاهد المصدر | هيكل المروحة | حجمها | أول جذر ذي حدث | موضعه | ذوات الحدث | الحدث المجمد |
+|---:|---|---|---|---|---:|---|---:|---:|---|
+| 1 | `Adad` | معبود DN | Adad (the god of storm, identified with the Sumerian god Ishkur, son of Anu or Enlil); DN | `dd` | 90 | `ودد` (ROOT-TRACE) | 17 | 3 | التلازم والتماسك الممتد - مع رفق أو لين |
+| 2 | `Adapa` | شخص PN | PN | `dp` | 60 | `دف` (NUCLEUS-TRACE) | 1 | 12 | الضغط من الظاهر أو إليه |
+| 3 | `Addarum` | علم آخر | Adar, the twelfth month of the Babylonian calendar (approximately February-March) | `dr` | 30 | `در` (NUCLEUS-TRACE) | 1 | 12 | الجريان باسترسال، أو الامتداد بتوال |
+| 4 | `Akkade` | موضع GN | Akkad (a land in northern Babylonia and a city founded by Sargon of Akkad); GN | `kd` | 30 | `كد` (NUCLEUS-TRACE) | 1 | 7 | التعامل مع ما يشبه القشر الشديد اللصوق بأصله |
+| 5 | `Alamuš` | معبود DN | DN | `lmš` | 3 | `لمس` (ROOT-TRACE) | 2 | 1 | أخذ بلطف من ظاهر الشيء تهيئة لحسن استعماله |
+| 6 | `Allatum` | معبود DN | DN | `lt` | 20 | `لت` (NUCLEUS-TRACE) | 1 | 5 | التماسك واللزوق وما إليه وهو تداخل يلزمه النقص |
+| 7 | `Amurrum` | موضع GN | Amorite; toponym for Syria and the West, the land of the Amorites; Amurru (god of the Amorites); Perseus (the "west star"); west; west wind; GN | `mr` | 10 | `مر` (NUCLEUS-TRACE) | 1 | 5 | الاسترسال والحركة مع صفة (حدة، قوة، اضطراب...) |
+| 8 | `Annunītum` | معبود DN | DN | `nt` | 20 | `نت` (NUCLEUS-TRACE) | 1 | 4 | الاندفاع الجزئي القوي انتبارًا أو انتثارًا |
+| 9 | `Antum` | معبود DN | DN | `nt` | 20 | `نت` (NUCLEUS-TRACE) | 1 | 4 | الاندفاع الجزئي القوي انتبارًا أو انتثارًا |
+| 10 | `Anunnakkū` | معبود DN | DN | `nk` | 10 | `نك` (NUCLEUS-TRACE) | 1 | 1 | الوصول إلى عمق الشيء بجد وتدقيق |
+| 11 | `Anzû` | معبود DN | DN | `nz` | 20 | `نز` (NUCLEUS-TRACE) | 1 | 4 | دقيق الجرم ينفذ بضغط أو قوة من أثناء ظاهر أو فيها |
+| 12 | `ardum` | شخص PN | alternative form of wardum; PN | `rd` | 30 | `رد` (NUCLEUS-TRACE) | 1 | 12 | التراكم المترتب على صدّ الشيء المسترسل |
+| 13 | `Asalluḫe` | معبود DN | DN | `slḫ` | 5 | `سلخ` (ROOT-TRACE) | 1 | 2 | نزع ما هو ملتصق محيط بظاهر الشيء فينكشف |
+| 14 | `Asarre` | معبود DN | DN | `sr` | 10 | `سر` (NUCLEUS-TRACE) | 1 | 6 | الامتداد أو النفاذ مع الدقة |
+| 15 | `Aššur` | معبود DN | DN | `šr` | 30 | `شر` (NUCLEUS-TRACE) | 1 | 12 | الانتشار أو صورة منه |
+| 16 | `Aššūr` | علم آخر | Assur (political capital of Assyria from the XIV to the IX centuries BCE) | `šr` | 30 | `شر` (NUCLEUS-TRACE) | 1 | 12 | الانتشار أو صورة منه |
+| 17 | `Bazi` | معبود DN | DN | `bz` | 20 | `بز` (NUCLEUS-TRACE) | 1 | 4 | النفاذ من مضيق |
+| 18 | `BAḪAR` | معبود DN | DN | `bḫr` | 5 | `بحر` (ROOT-TRACE) | 2 | 2 | شَقٌّ عظيم أو فجوة عظيمة في جِرْم شديد تشغلها مادة مسترسلة الحركة |
+| 19 | `Belili` | معبود DN | DN | `bll` | 1 | `بلل` (ROOT-TRACE) | 1 | 1 | تَحَصُّل لطيف في الأثناء بتمكّن |
+| 20 | `Benna` | معبود DN | DN | `bn` | 10 | `بن` (NUCLEUS-TRACE) | 1 | 6 | الامتداد والبناء |
+| 21 | `Bubu` | شخص PN | PN | `bb` | 10 | `بب` (NUCLEUS-TRACE) | 1 | 3 | الانفتاح والمنفذ |
+| 22 | `Bunene` | معبود DN | DN | `bnn` | 1 | `بنن` (ROOT-TRACE) | 1 | 1 | امتداد الشيء اللطيف من أصله، أو فيه |
+| 23 | `Bēl` | معبود DN | DN | `bl` | 10 | `بل` (NUCLEUS-TRACE) | 1 | 6 | التمكن والحَوْز بشدة |
+| 24 | `Bēl-x` | شخص PN | PN | `bl` | 10 | `بل` (NUCLEUS-TRACE) | 1 | 6 | التمكن والحَوْز بشدة |
+| 25 | `Dagan` | معبود DN | DN | `dgn` | 6 | `ضغن` (ROOT-TRACE) | 6 | 1 | غُور أو امتداد في داخل جرم كثيف |
+| 26 | `dūrum` | معبود DN | city wall, fortification wall; (city) wall, rampart, fortress; DN | `dr` | 30 | `در` (NUCLEUS-TRACE) | 1 | 12 | الجريان باسترسال، أو الامتداد بتوال |
+| 27 | `Ea (//dEn-ki)` | معبود DN | DN | `dnk` | 3 | `ضنك` (ROOT-TRACE) | 3 | 1 | اكتناز جَوْفِ الشيء بلين أو رخو يمتسك فيه |
+| 28 | `Ea-ibbīšu` | شخص PN | PN | `bš` | 30 | `بش` (NUCLEUS-TRACE) | 1 | 7 | الانتشار الظاهر |
+| 29 | `Eabzu` | معبد TN | TN | `bz` | 20 | `بز` (NUCLEUS-TRACE) | 1 | 4 | النفاذ من مضيق |
+| 30 | `Eadgigi` | معبد TN | TN | `dgg` | 12 | `ضجج` (ROOT-TRACE) | 9 | 2 | حدّة تُذيب اللصوق والتماسك |
+| 31 | `Ebabbar` | معبد TN | TN | `br` | 10 | `بر` (NUCLEUS-TRACE) | 1 | 5 | التجرد والخلوص |
+| 32 | `Edubba` | معبد TN | TN | `db` | 30 | `دب` (NUCLEUS-TRACE) | 1 | 6 | الثقل أو الضغط والحركة البطيئة، ويلزمها التخلف |
+| 33 | `Egasilum` | معبد TN | TN | `gsl` | 2 | `غسل` (ROOT-TRACE) | 2 | 1 | إزالة ما علق بالشيء من دَرَن بمائع يقلعه |
+| 34 | `Egidda` | معبد TN | TN | `gd` | 60 | `جد` (NUCLEUS-TRACE) | 1 | 14 | العظم والامتداد |
+| 35 | `Ekur` | معبد TN | TN | `kr` | 10 | `كر` (NUCLEUS-TRACE) | 1 | 4 | التركز تكرارًا ومعاودة أو بقاء طويلًا لحصول النفع |
+| 36 | `Elali` | شخص PN | PN | `ll` | 10 | `ليل` (ROOT-TRACE) | 4 | 1 | حجاب لطيف كثيف يلف الأشياء متميزًا عنها عالقًا في الأفق |
+| 37 | `ellēt` | علم آخر | with the authority (of DN) | `lt` | 20 | `لت` (NUCLEUS-TRACE) | 1 | 5 | التماسك واللزوق وما إليه وهو تداخل يلزمه النقص |
+| 38 | `Emaš` | معبد TN | TN | `mš` | 30 | `مش` (NUCLEUS-TRACE) | 1 | 7 | النفاذ بانتشار من أثناء الشيء |
+| 39 | `Emaḫ` | معبد TN | TN | `mḫ` | 50 | `مخ` (NUCLEUS-TRACE) | 1 | 9 | توسط مادة رخوة أو خروجها |
+| 40 | `Emeurur` | معبد TN | TN | `mrr` | 1 | `مرر` (ROOT-TRACE) | 1 | 1 | استرسال اطرادي - أو اجتيازي - مع شدة أثناء أو ضيق وحبس |
+| 41 | `Enam…` | معبد TN | TN | `nm` | 10 | `نم` (NUCLEUS-TRACE) | 1 | 3 | انتشار من باطن الشيء إلى ظاهره مع لطف ما |
+| 42 | `Enegi` | معبد TN | TN | `ng` | 20 | `نج` (NUCLEUS-TRACE) | 1 | 4 | النفاذ بغلظ وكثافة أو قوة مما يحتوي |
+| 43 | `Enki` | معبود DN | DN | `nk` | 10 | `نك` (NUCLEUS-TRACE) | 1 | 1 | الوصول إلى عمق الشيء بجد وتدقيق |
+| 44 | `Enkidu` | شخص PN | PN | `nkd` | 3 | `نكد` (ROOT-TRACE) | 1 | 1 | قلة الخير الذي يأتي من الشيء بسبب شدة أثناء الشيء وتماسكه |
+| 45 | `Ennugi` | معبود DN | DN | `ng` | 20 | `نج` (NUCLEUS-TRACE) | 1 | 4 | النفاذ بغلظ وكثافة أو قوة مما يحتوي |
+| 46 | `Equlû` | معبد TN | TN | `ql` | 10 | `قل` (NUCLEUS-TRACE) | 1 | 4 | الرفع بصورة من الصور |
+| 47 | `Eridu` | موضع GN | GN, TN, SN | `rd` | 30 | `رد` (NUCLEUS-TRACE) | 1 | 12 | التراكم المترتب على صدّ الشيء المسترسل |
+| 48 | `Esagil` | معبد TN | TN | `sgl` | 2 | `سجل` (ROOT-TRACE) | 1 | 1 | تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه |
+| 49 | `Esagila` | معبد TN | TN | `sgl` | 2 | `سجل` (ROOT-TRACE) | 1 | 1 | تضمن الظرف العميق ما يملؤه بنحو الصبّ ملأً تامًا حتى يقوم بنفسه، أي يقوم بنفسه |
+| 50 | `Etana` | شخص PN | PN, RN | `tn` | 20 | `تن` (NUCLEUS-TRACE) | 1 | 7 | الضغط على القوة الباطنية للشيء |
+| 51 | `Eulmaš` | معبد TN | TN | `lmš` | 3 | `لمس` (ROOT-TRACE) | 2 | 1 | أخذ بلطف من ظاهر الشيء تهيئة لحسن استعماله |
+| 52 | `Eumuša` | معبد TN | TN | `mš` | 30 | `مش` (NUCLEUS-TRACE) | 1 | 7 | النفاذ بانتشار من أثناء الشيء |
+| 53 | `Ezida` | معبد TN | TN | `zd` | 60 | `زد` (NUCLEUS-TRACE) | 1 | 4 | إضافة شيء إلى الحيز |
+| 54 | `Ešarra` | معبد TN | TN | `šr` | 30 | `شر` (NUCLEUS-TRACE) | 1 | 12 | الانتشار أو صورة منه |
+| 55 | `Gibbilû` | معبود DN | DN | `gbl` | 2 | `جبل` (ROOT-TRACE) | 1 | 1 | تجمع عظيم شديد الأثناء مع غلظ هيأة |
+| 56 | `Gibil` | معبود DN | DN | `gbl` | 2 | `جبل` (ROOT-TRACE) | 1 | 1 | تجمع عظيم شديد الأثناء مع غلظ هيأة |
+| 57 | `Girda` | معبود DN | DN | `grd` | 6 | `جرد` (ROOT-TRACE) | 1 | 1 | تكشف ظاهر الجسم الممتد أو عريه مما يغطيه |
+| 58 | `Girra` | معبود DN | DN | `gr` | 20 | `جر` (NUCLEUS-TRACE) | 1 | 8 | الاسترسال والامتداد |
+| 59 | `Gubaru` | شخص PN | PN | `gbr` | 2 | `جبر` (ROOT-TRACE) | 1 | 2 | اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا |
+| 60 | `Gula` | معبود DN | DN | `gl` | 20 | `جل` (NUCLEUS-TRACE) | 1 | 8 | الاتساع والانكشاف |
+| 61 | `Gurdî` | علم آخر | a male given name | `grd` | 6 | `جرد` (ROOT-TRACE) | 1 | 1 | تكشف ظاهر الجسم الممتد أو عريه مما يغطيه |
+| 62 | `Ibbi-Tutu` | شخص PN | PN | `btt` | 4 | `بتت` (ROOT-TRACE) | 1 | 2 | منع امتداد الشيء بجعله قصيرًا، أو قطعه |
+| 63 | `ikûm` | معبد TN | field, the constellation Pegasus, TN | `km` | 10 | `كم` (NUCLEUS-TRACE) | 1 | 2 | تغطية الشيء بغطاء زائد على حقيقته |
+| 64 | `Ilaba` | معبود DN | DN | `lb` | 10 | `لب` (NUCLEUS-TRACE) | 1 | 2 | اللزوم أي التلازم والتداخل |
+| 65 | `In-dim-É-a` | شخص PN | PN | `ndm` | 3 | `ندم` (ROOT-TRACE) | 1 | 1 | فَوْتُ جُلِّ الشيء ومُعظَمِه بحيث لا يبقى إلا أثر يسير منه |
+| 66 | `Ingi` | شخص PN | PN | `ng` | 20 | `نج` (NUCLEUS-TRACE) | 1 | 4 | النفاذ بغلظ وكثافة أو قوة مما يحتوي |
+| 67 | `Ištar` | معبود DN | Ishtar (goddess of love and war, associated with the planet Venus, corresponding to the Sumerian Inanna); DN, SN | `štr` | 6 | `ستر` (ROOT-TRACE) | 3 | 1 | تغطية الشيء ما وراءه |
+| 68 | `Išḫara` | معبود DN | DN | `šḫr` | 15 | `شهر` (ROOT-TRACE) | 3 | 5 | ظهور الشيء أقصى ظهور؛ لبروزه من جوف كان يحجبه |
+| 69 | `Ka-Utuea` | معبد TN | TN | `kt` | 20 | `كت` (NUCLEUS-TRACE) | 1 | 4 | تداخل الشيء بعضه في بعض فيدق وينحصر |
+| 70 | `Kilili` | معبود DN | DN | `kll` | 1 | `كلل` (ROOT-TRACE) | 1 | 1 | تجمع الشيء على ذاته؛ فيغلظ ويثخن بلا حدة |
+| 71 | `ku-si` | علم آخر | Cuneiform spelling of Kūsu | `ks` | 10 | `كس` (NUCLEUS-TRACE) | 1 | 3 | النقص بالدق أو القشر أو نحوهما من التأخر والغئور |
+| 72 | `Kusu` | معبود DN | DN | `ks` | 10 | `كس` (NUCLEUS-TRACE) | 1 | 3 | النقص بالدق أو القشر أو نحوهما من التأخر والغئور |
+| 73 | `Kūbu` | معبود DN | DN | `kb` | 10 | `كب` (NUCLEUS-TRACE) | 1 | 3 | التجمع كتلة متضاغطة أو كالكتلة المتضاغطة |
+| 74 | `Kūsu` | علم آخر | Cush | `ks` | 10 | `كس` (NUCLEUS-TRACE) | 1 | 3 | النقص بالدق أو القشر أو نحوهما من التأخر والغئور |
+| 75 | `Laz` | معبود DN | DN | `lz` | 20 | `لز` (NUCLEUS-TRACE) | 1 | 5 | لصوق الشيء بالشيء وشده إلى الشيء |
+| 76 | `Laḫmum` | معبود DN | DN; guardians of sea, sky, earth, apsû; hairy, mythical beings | `lḫm` | 5 | `لحم` (ROOT-TRACE) | 2 | 2 | التئام جرم كثيف غض بين أثناء الشيء وحوله فيكسوه |
+| 77 | `Liba` | معبود DN | DN | `lb` | 10 | `لب` (NUCLEUS-TRACE) | 1 | 2 | اللزوم أي التلازم والتداخل |
+| 78 | `Lisi` | معبود DN | DN | `ls` | 10 | `لس` (NUCLEUS-TRACE) | 1 | 3 | قلة مفارقة المنشأ أو المقر |
+| 79 | `Luḫuša` | معبود DN | DN | `lḫš` | 15 | `لهث` (ROOT-TRACE) | 9 | 1 | اندفاع شيء مما في الباطن إلى الظاهر لحدة أو شدة |
+| 80 | `Madānu` | معبود DN | DN | `mdn` | 3 | `مدن` (ROOT-TRACE) | 1 | 1 | المصر الجامع المحصن |
+| 81 | `Mama` | معبود DN | DN | `mm` | 10 | `مم` (NUCLEUS-TRACE) | 1 | 2 | التجمع والتضام |
+| 82 | `Mami` | معبود DN | DN | `mm` | 10 | `مم` (NUCLEUS-TRACE) | 1 | 2 | التجمع والتضام |
+| 83 | `Mannu-x` | شخص PN | PN | `mn` | 10 | `من` (NUCLEUS-TRACE) | 1 | 4 | القوة والثبات مع صفة (نقص، وثاقة، حجز) |
+| 84 | `Manum` | شخص PN | PN | `mn` | 10 | `من` (NUCLEUS-TRACE) | 1 | 4 | القوة والثبات مع صفة (نقص، وثاقة، حجز) |
+| 85 | `Meluḫḫa` | موضع GN | Meluhha; GN | `mlḫ` | 5 | `ملح` (ROOT-TRACE) | 2 | 1 | تَعَلُّق الشيء حاداً - أو قوي الأثر - في أثنائه |
+| 86 | `Miqit` | معبود DN | DN | `mqt` | 2 | `مقت` (ROOT-TRACE) | 1 | 1 | اختزان مشاعر غليظة في القلب |
+| 87 | `Miṣri` | علم آخر | Egypt | `mṣr` | 3 | `مصر` (ROOT-TRACE) | 1 | 1 | أخذ الشيء – أو جذبه – بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال |
+| 88 | `miṭṭum` | معبود DN | a divine weapon, mace, DN | `mṭ` | 20 | `مط` (NUCLEUS-TRACE) | 1 | 3 | الامتداد والانسكاب |
+| 89 | `Mu'ati` | معبود DN | DN | `mt` | 20 | `مت` (NUCLEUS-TRACE) | 1 | 6 | الامتداد مع صفة (قوة، دقة، ضعف...) |
+| 90 | `Muṣur` | علم آخر | Egypt | `mṣr` | 3 | `مصر` (ROOT-TRACE) | 1 | 1 | أخذ الشيء – أو جذبه – بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال |
+| 91 | `Māštum` | معبود DN | DN, twin goddess, twin-sister | `mšt` | 6 | `مثث` (ROOT-TRACE) | 6 | 1 | انتشار رشح كثيف من باطن الشيء على ظاهره |
+| 92 | `Nabû` | معبود DN | DN | `nb` | 10 | `نب` (NUCLEUS-TRACE) | 1 | 4 | النُّبُوُّ ارتفاعًا أو ابتعادًا |
+| 93 | `Nammu` | معبود DN | DN | `nm` | 10 | `نم` (NUCLEUS-TRACE) | 1 | 3 | انتشار من باطن الشيء إلى ظاهره مع لطف ما |
+| 94 | `Ninua` | موضع GN | Nineveh (capital city of Assyria in the late VIII and VII centuries BCE); GN | `nn` | 10 | `نن` (NUCLEUS-TRACE) | 1 | 2 | التجوف والوجود في الجوف |
+| 95 | `Nisaba` | معبود DN | Nisaba (grain goddess); DN | `nsb` | 1 | `نسب` (ROOT-TRACE) | 1 | 1 | اتصال بلطف (دقة) وامتداد |
+| 96 | `Nuska` | معبود DN | DN | `nsk` | 1 | `نسك` (ROOT-TRACE) | 1 | 1 | تصفية الشيء من الأدران العالقة بأثنائه، وتماسكه على نقائه |
+| 97 | `Pazūzu` | علم آخر | Pazuzu, an evil demon, king of the wind demons.; (a demon) | `pzz` | 8 | `فزز` (ROOT-TRACE) | 1 | 3 | نهوض - أو انبعاث - بضغط، أو إثارة وخِفّة |
+| 98 | `qu-up-pu` | علم آخر | Cuneiform spelling of quppu | `qpp` | 4 | `قفف` (ROOT-TRACE) | 1 | 2 | الارتفاع توترًا أو تصلُّبا مع جفاف لما شأنه أن يكون لينا |
+| 99 | `Rābiṣa` | معبود DN | DN | `rbṣ` | 3 | `ربص` (ROOT-TRACE) | 1 | 1 | جُثوم - أو ثبات - للشيء في مكانه مع استغلاظ، أو حدّة ما |
+| 100 | `Sebettu` | معبود DN | group of seven, heptad, DN | `sbt` | 2 | `سبت` (ROOT-TRACE) | 1 | 1 | انبطاح الشيء مع سلاسة سطحه بلا نتوء أو نمو لذهاب حدة باطنه |
+| 101 | `Sutītum` | معبود DN | DN | `stt` | 4 | `ستت` (ROOT-TRACE) | 1 | 1 | كثافة وامتداد |
+| 102 | `Sîn` | معبود DN | Nanna, Suen, Nanna-Suen, the Sumerian moon god, son of Enlil and Ninlil.; moon; the name of a month; DN | `sn` | 10 | `سن` (NUCLEUS-TRACE) | 1 | 5 | الامتداد (أو النفاذ) مع حدة أو دقة |
+| 103 | `Telītum` | معبود DN | DN, “(the) very competent (one)” epith. of goddesses esp. Ištar | `tlt` | 4 | `ثلث` (ROOT-TRACE) | 4 | 1 | إمساك وتعلق لبضع حبات أو أشياء |
+| 104 | `Tiruru` | معبود DN | DN | `trr` | 2 | `ترر` (ROOT-TRACE) | 1 | 2 | طفر الشيء الدقيق مبتعدًا عن مقره - أومنفصلا عنه - باندفاع |
+| 105 | `Udibabbar` | معبد TN | TN | `dbr` | 3 | `دبر` (ROOT-TRACE) | 1 | 1 | امتداد غائر إلى آخر الشيء أو خلفه بقوة |
+| 106 | `Ugbaru` | شخص PN | PN | `gbr` | 2 | `جبر` (ROOT-TRACE) | 1 | 2 | اشتداد وامتداد ذاتي يتجاوز ضعفًا أو خللًا طارئًا |
+| 107 | `Ur-Utu` | شخص PN | PN | `rt` | 20 | `رت` (NUCLEUS-TRACE) | 1 | 5 | الامتساك الدقيق وما إليه |
+| 108 | `Uraš` | معبود DN | DN | `rš` | 30 | `رش` (NUCLEUS-TRACE) | 1 | 9 | انتشار الأشياء الدقيقة الطرية |
+| 109 | `Urušalim` | علم آخر | Jerusalem | `ršl` | 3 | `رسل` (ROOT-TRACE) | 2 | 1 | تَسَيُّب من المقر - أو الحيز - مع امتداد وتميز |
+| 110 | `Usmû` | معبود DN | DN | `sm` | 10 | `سم` (NUCLEUS-TRACE) | 1 | 5 | نوع من الخرق الذي يضم |
+| 111 | `Utulu` | معبود DN | DN | `tl` | 20 | `تل` (NUCLEUS-TRACE) | 1 | 6 | التكديس والاتباع |
+| 112 | `Utulualim` | معبود DN | DN | `tll` | 2 | `تلل` (ROOT-TRACE) | 1 | 2 | تكديس بالضغط إلى أسفل حتى يصير الشيء جثا رابيا متماسكا |
+| 113 | `x-dān` | شخص PN | PN | `dn` | 30 | `دن` (NUCLEUS-TRACE) | 1 | 10 | اندساس الشيء في أثناء أو ثباته فيه |
+| 114 | `ya-ba-sa` | علم آخر | Jebus, the Caananite settlement of Jerusalem prior to its conquest by King David circa 1000 BC | `ybs` | 1 | `يبس` (ROOT-TRACE) | 1 | 1 | جفاف الشيء بذهاب رطوبته ونداه |
+| 115 | `ya-bi-sa` | علم آخر | Jebus, the Canaanite settlement of Jerusalem prior to its conquest by King David circa 1000 BC | `ybs` | 1 | `يبس` (ROOT-TRACE) | 1 | 1 | جفاف الشيء بذهاب رطوبته ونداه |
+| 116 | `ya-bu-su` | علم آخر | Jebus, the Caananite settlement of Jerusalem prior to its conquest by King David circa 1000 BC | `ybs` | 1 | `يبس` (ROOT-TRACE) | 1 | 1 | جفاف الشيء بذهاب رطوبته ونداه |
+| 117 | `ya-bu-šu` | علم آخر | Jebus, the Caananite settlement of Jerusalem prior to its conquest by King David circa 1000 BC | `ybš` | 3 | `يبس` (ROOT-TRACE) | 2 | 1 | جفاف الشيء بذهاب رطوبته ونداه |
+| 118 | `Yaudu` | علم آخر | Judah, an Iron Age tribal grouping, and later kingdom, of Northwest Semites | `yd` | 27 | `يد` (NUCLEUS-TRACE) | 1 | 1 | الامتداد بقوة للتمكين أو الضغط |
+| 119 | `Zababa` | معبود DN | DN | `zbb` | 2 | `زبب` (ROOT-TRACE) | 1 | 2 | امتلاء الشيء باكتناز يظهر أثره اشتدادًا فيه أو نضحًا على ظاهره |
+| 120 | `Zāriqu` | معبود DN | DN | `zrq` | 2 | `زرق` (ROOT-TRACE) | 1 | 1 | نفاذ بخفة واندفاع إلى العمق أو منه |
+| 121 | `É-tuššum` | معبد TN | TN | `tš` | 60 | `تس` (NUCLEUS-TRACE) | 2 | 1 | ما دل على العدد تسعة |
+| 122 | `Šabāṭum` | علم آخر | Šabāṭu, the eleventh month of the Babylonian calendar | `šbṭ` | 6 | `سبط` (ROOT-TRACE) | 3 | 2 | امتداد الشيء طولًا مع قوته واستواء ظاهره أو رخاوته |
+| 123 | `Šamaš` | معبود DN | Shamash, the sun god.; DN | `šmš` | 9 | `شمس` (ROOT-TRACE) | 2 | 1 | حدةٌ بالغة تتركز في الشيء تَنْفُذُ منه وتَظْهَر من كثرتها |
+| 124 | `Šamaš-x` | شخص PN | PN | `šmš` | 9 | `شمس` (ROOT-TRACE) | 2 | 1 | حدةٌ بالغة تتركز في الشيء تَنْفُذُ منه وتَظْهَر من كثرتها |
+| 125 | `Šara` | معبود DN | DN | `šr` | 30 | `شر` (NUCLEUS-TRACE) | 1 | 12 | الانتشار أو صورة منه |
+| 126 | `Šaššur` | معبود DN | DN | `šr` | 30 | `شر` (NUCLEUS-TRACE) | 1 | 12 | الانتشار أو صورة منه |
+| 127 | `šibirrum` | معبود DN | shepherd's staff, scepter, DN | `šbr` | 3 | `ثبر` (ROOT-TRACE) | 3 | 1 | تجمع الشيء انقباضًا أو تقبضًا وعدم انتشار |
+| 128 | `Šullat` | معبود DN | DN | `šlt` | 6 | `ثلث` (ROOT-TRACE) | 6 | 1 | إمساك وتعلق لبضع حبات أو أشياء |
+| 129 | `Šumerum` | علم آخر | Sumer; Sumerian (language); Sumer, Sumerian (language) | `šmr` | 3 | `سمر` (ROOT-TRACE) | 2 | 2 | التئام وتداخل شديد لأشياء بعضها في بعض دون رخاوة |
+| 130 | `ŠÚ.ḪAL` | معبود DN | DN | `šḫl` | 15 | `شعل` (ROOT-TRACE) | 4 | 3 | أن ينتشر في الشيء - أو منه - ما هو حاد الوقع مع لُطْفِ جِرْمٍ، أو خِفَّة في الانتشار |
+| 131 | `Šāla` | معبود DN | DN | `šl` | 30 | `سل` (NUCLEUS-TRACE) | 2 | 9 | انسحاب الشيء ممتدًا من أثناء أو فيها بطول ورفق |
+| 132 | `ᴷᵁᴿmi-iṣ-ri` | علم آخر | Cuneiform spelling of Miṣri | `mṣr` | 3 | `مصر` (ROOT-TRACE) | 1 | 1 | أخذ الشيء – أو جذبه – بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال |
+| 133 | `ᵈiš₈-tar₂` | علم آخر | Cuneiform spelling of Ištar | `štr` | 6 | `ستر` (ROOT-TRACE) | 3 | 1 | تغطية الشيء ما وراءه |
+| 134 | `ᵐgur-di-i` | علم آخر | Cuneiform spelling of Gurdî | `grd` | 6 | `جرد` (ROOT-TRACE) | 1 | 1 | تكشف ظاهر الجسم الممتد أو عريه مما يغطيه |
+| 135 | `ᵐia-ú-ḫa-zi` | علم آخر | Cuneiform spelling of Yauḫazi | `ḫz` | 100 | `خز` (NUCLEUS-TRACE) | 1 | 23 | نفاذ الحاد أو النفاذ بحدة في أثناء الشيء |
+| 136 | `Ḫaniš` | معبود DN | DN | `ḫnš` | 15 | `خنس` (ROOT-TRACE) | 2 | 2 | تأخر الناتيء الدقيق غائرًا في ما نتأ منه |
+| 137 | `Ḫuwawa` | شخص PN | PN | `ḫww` | 5 | `خوو` (ROOT-TRACE) | 1 | 2 | فراغ أثناءَ مكتنفةٍ محاطة |
+| 138 | `Ṣabrum` | شخص PN | PN; twinkling(?) | `ṣbr` | 3 | `صبر` (ROOT-TRACE) | 1 | 1 | تراكم الشيء أو تكدسه مع تزايده أو دوامه على حالته |
+| 139 | `Ṣallâ` | شخص PN | PN | `ṣl` | 30 | `صل` (NUCLEUS-TRACE) | 1 | 7 | التماسك الدقيق مع لطف ما في الأثناء |
+| 140 | `Ṭirid` | معبود DN | DN | `ṭrd` | 6 | `طرد` (ROOT-TRACE) | 1 | 1 | إبعاد أو ابتعاد عن الحيز بتتابع ودفع قوي من الخلف |
+
+### ضابط القراءة
+
+هذه القائمة لا تقول إن الاسم مشتق من الجذر العربي المعروض، ولا تدخل في حصيلة الأكّادية المعجمية. إنها تقيس فقط كم مرة فتحت المروحة بابا إلى مادة عربية لها حدث مجمد، ليقارن المعدل لاحقا بخطوط صدفة مضبوطة وبشواهد تاريخية مستقلة.
+<!-- AKKADIAN-PROPER-NAME-SWEEP:END -->
+
 <!-- KHASHIM-AKKADIAN-OCR-COMPLETION:END -->

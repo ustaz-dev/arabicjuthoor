@@ -39,8 +39,8 @@
     ]
   },
   "cards_written": 164,
-  "positive_cards": 5,
-  "positive_traces": 5,
+  "positive_cards": 6,
+  "positive_traces": 6,
   "by_language": {
     "ancient-greek": 7,
     "gothic": 1,
@@ -54,8 +54,8 @@
     "original_cards": 1500,
     "merged_cards": 789,
     "cards_saved": 711,
-    "positive_cards": 39,
-    "positive_traces": 48,
+    "positive_cards": 40,
+    "positive_traces": 49,
     "positive_cards_with_source_gap": 21,
     "by_language": {
       "ancient-greek": 89,
@@ -25533,7 +25533,7 @@
               "root": "سلك",
               "sound": "✓",
               "event": "✓",
-              "meaning": "×",
+              "meaning": "✓",
               "weight": 0.0
             },
             {
@@ -25712,7 +25712,7 @@
               "root": "سلك",
               "sound": "✓",
               "event": "✓",
-              "meaning": "×",
+              "meaning": "✓",
               "weight": 0.0
             },
             {
@@ -26063,7 +26063,71 @@
           "dialect_review": []
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "member_index": 1279,
+          "form": "silki",
+          "root": "سلك",
+          "closure": "ROOT-TRACE",
+          "sound_route": "s↔س=`IDN-07`؛ l↔ل=`IDN-04`؛ k↔ك=`IDN-13`",
+          "sound_searches": [
+            "`s` + `س` + «النورديّة القديمة/Old Norse» في عمود الشاهد",
+            "`l` + `ل` + «النورديّة القديمة/Old Norse» في عمود الشاهد",
+            "`k` + `ك` + «النورديّة القديمة/Old Norse» في عمود الشاهد"
+          ],
+          "frozen_event": "نفاذ في أثناء (ضيقة) بدقة وامتداد: كذلك الخيط",
+          "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial",
+          "branch_meaning": "- الكلمة في الفرع ومعناها: `silki`؛ POS=noun؛ «silk» [Kaikki Old Norse، سطر JSONL 3165، بلا رتوش].",
+          "source_claims": [
+            {
+              "tongue_ar": "اليونانيّة واللاتينيّة والجرمانيّات",
+              "tongue": "cross-european",
+              "foreign": "silki",
+              "foreign_sense": "حرير؛ حريري؛ ناعم",
+              "arabic_root": "سرق / صرق",
+              "arabic_gloss": "ردّ silk وأصولها إلى سرق الحرير وصرقه.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 380
+            },
+            {
+              "tongue_ar": "اليونانيّة واللاتينيّة والجرمانيّات",
+              "tongue": "cross-european",
+              "foreign": "silk",
+              "foreign_sense": "حرير؛ حريري؛ ناعم",
+              "arabic_root": "سرق / صرق",
+              "arabic_gloss": "ردّ silk وأصولها إلى سرق الحرير وصرقه.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 380
+            },
+            {
+              "tongue_ar": "الإنكليزية والنوردية",
+              "tongue": "germanic",
+              "foreign": "silk",
+              "foreign_sense": "حرير",
+              "arabic_root": "شرق",
+              "arabic_gloss": "يرد أسرة silk إلى شرق عبر سرك.",
+              "source": "ocr-khashim-emperors",
+              "book": "khashim-emperors",
+              "page": 63
+            },
+            {
+              "tongue_ar": "الإنكليزية والنوردية",
+              "tongue": "germanic",
+              "foreign": "silki",
+              "foreign_sense": "حرير",
+              "arabic_root": "شرق",
+              "arabic_gloss": "يرد أسرة silk إلى شرق عبر سرك.",
+              "source": "ocr-khashim-emperors",
+              "book": "khashim-emperors",
+              "page": 63
+            }
+          ],
+          "orbit": "الحريرُ خيوط دقيقة ممتدة تنفذ في أثناء النسيج وتتعاقب في مسالكه الضيقة؛ فهذا مدار مادة الحرير إلى الخيط والنفاذ الدقيق في حدث `سلك`.",
+          "source_gap": false
+        }
+      ],
       "deficiencies": [
         {
           "member_index": 1280,
@@ -26075,6 +26139,7 @@
       "missing_row_searches": [
         "`k` + `ج` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`k` + `ج` + «النورديّة القديمة/Old Norse» في عمود الشاهد",
+        "`k` + `ك` + «النورديّة القديمة/Old Norse» في عمود الشاهد",
         "`l` + `ر` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`l` + `ر` + «النورديّة القديمة/Old Norse» في عمود الشاهد",
         "`l` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
@@ -26089,8 +26154,9 @@
         "`s` + `ص` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`s` + `ص` + «النورديّة القديمة/Old Norse» في عمود الشاهد"
       ],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "closure": "ROOT-TRACE",
+      "judgment": "ROOT-TRACE",
+      "rejudged_in_batch": 8
     },
     {
       "merged_card_id": "KIE-M0663",

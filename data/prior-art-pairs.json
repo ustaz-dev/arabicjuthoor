@@ -43,6 +43,7 @@
   "jassem-2014-mandarin-pronouns",
   "jassem-2015-radical-translation-names",
   "jassem-2015-life-death",
+  "jassem-2015-medical",
   "jassem-2015-urban",
   "jassem-2016-entirely-arabic",
   "jassem-2017-harper-review",
@@ -93,6 +94,7 @@
   "jassem-2014-mandarin-pronouns": "https://ijee.org/ijee/article/download/1174/1168",
   "jassem-2015-radical-translation-names": "https://ijee.org/ijee/article/download/922/914",
   "jassem-2015-life-death": "https://ijee.org/ijee/article/download/923/915",
+  "jassem-2015-medical": "https://www.joell.in/wp-content/uploads/2015/08/Zaidan-Ali-Jassem.pdf",
   "jassem-2015-urban": "https://journal.uniku.ac.id/index.php/ERJEE/article/download/204/161",
   "jassem-2016-entirely-arabic": "https://ijee.org/ijee/article/download/670/663",
   "jassem-2017-harper-review": "https://ijee.org/ijee/article/download/270/265",
@@ -140,6 +142,11 @@
    "reason": "ردّ مسارُ OJS الجديد 404؛ وملفُّ المجلةِ القديمُ ظاهرٌ في الفهرسِ لكنّه محذوفٌ من المستضيف"
   },
   {
+   "source": "jassem-2013-celestial-ojs-file",
+   "url": "https://ijee.org/ijee/article/download/1266/1259/3875",
+   "reason": "ولّد عارضُ OJS هذا المسارَ النهائيَّ للملف، لكنّه ردّ 404"
+  },
+  {
    "source": "jassem-2013-celestial-legacy",
    "url": "https://www.ijee.org/assets/docs/27.89114953.pdf",
    "reason": "ردّ مستودعُ IJEE القديم 404"
@@ -148,6 +155,11 @@
    "source": "jassem-2013-cognitive-ojs",
    "url": "https://ijee.org/ijee/article/download/1296/1289",
    "reason": "ردّ مسارُ OJS الجديد 404؛ وملفُّ المجلةِ القديمُ ظاهرٌ في الفهرسِ لكنّه محذوفٌ من المستضيف"
+  },
+  {
+   "source": "jassem-2013-cognitive-ojs-file",
+   "url": "https://ijee.org/ijee/article/download/1296/1289/3967",
+   "reason": "ولّد عارضُ OJS هذا المسارَ النهائيَّ للملف، لكنّه ردّ 404"
   },
   {
    "source": "jassem-2013-cognitive-legacy",
@@ -187,7 +199,7 @@
   {
    "source": "jassem-2015-medical-catalog",
    "url": "https://www.joell.in/vol-ii-issue-i-2015/",
-   "reason": "أثبتَ الفهرسُ البحثَ وصفحاتِه، لكن رابطَ التنزيلِ يحيلُ إلى صورةِ أيقونةٍ لا إلى PDF"
+   "reason": "أثبتَ الفهرسُ البحثَ وصفحاتِه، لكن رابطَ التنزيلِ يحيلُ إلى صورةِ أيقونة؛ واستُبدل بمرفقِ PDF الرسميِّ الظاهرِ في واجهةِ ووردبريس"
   },
   {
    "source": "jassem-2015-legal-sciencepg",
@@ -200,16 +212,24 @@
    "reason": "ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح"
   }
  ],
- "pairs": 4092,
+ "pairs": 4291,
  "stats": {
-  "papers_downloaded": 48,
-  "with_european_head": 3957,
-  "head_coverage": 0.967,
-  "bridge_agrees": 1509,
-  "unique_roots": 1863,
-  "roots_in_positive_cards": 287
+  "papers_downloaded": 49,
+  "with_european_head": 4152,
+  "head_coverage": 0.9676,
+  "bridge_agrees": 1579,
+  "unique_roots": 1926,
+  "roots_in_positive_cards": 292
  },
  "rows": [
+  {
+   "european": "",
+   "arabic_root": "ءجل",
+   "author_translit": "'ijl",
+   "arabic_gloss": "(neck) illness",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: فقر"
+  },
   {
    "european": "",
    "arabic_root": "ءدم",
@@ -217,6 +237,14 @@
    "arabic_gloss": "man; Adam",
    "source": "jassem-2015-democratic · jassem-2014-wining-dining",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "",
+   "arabic_root": "ءدوت",
+   "author_translit": "'adwiat",
+   "arabic_gloss": "food",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها"
   },
   {
    "european": "",
@@ -492,6 +520,14 @@
   },
   {
    "european": "",
+   "arabic_root": "دوء",
+   "author_translit": "dawaa'",
+   "arabic_gloss": "food",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءبر، ءكل، ابل، بخر، برغل، بسط، بطن، بق، وغيرُها"
+  },
+  {
+   "european": "",
    "arabic_root": "ذت",
    "author_translit": "dhaat(i)",
    "arabic_gloss": "myself",
@@ -561,6 +597,14 @@
    "arabic_gloss": "/suqia",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "",
+   "arabic_root": "سقم",
+   "author_translit": "saqeem",
+   "arabic_gloss": "sick",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "",
@@ -943,7 +987,7 @@
    "arabic_root": "قو",
    "author_translit": "qaawa",
    "arabic_gloss": "buy & sell",
-   "source": "jassem-2014-commerce",
+   "source": "jassem-2014-commerce · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
   },
   {
@@ -1700,6 +1744,38 @@
   },
   {
    "european": "Acquire",
+   "arabic_root": "تحت",
+   "author_translit": "ta2t",
+   "arabic_gloss": "down, under",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Acquire",
+   "arabic_root": "سون",
+   "author_translit": "sawia(n)",
+   "arabic_gloss": "together, jointly",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ء، ءسر، ءكل، ءلف، ءوي، ا، بال، بحث، وغيرُها"
+  },
+  {
+   "european": "Acquire",
+   "arabic_root": "كف",
+   "author_translit": "kafa",
+   "arabic_gloss": "to be enough",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: اخ، بسس، بسط، تخت، جذع، خضب، خلص، درك، وغيرُها"
+  },
+  {
+   "european": "Acquire",
+   "arabic_root": "كفت",
+   "author_translit": "kifaiat",
+   "arabic_gloss": "to be enough",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: اخ، بسس، بسط، تخت، جذع، خضب، خلص، درك، وغيرُها"
+  },
+  {
+   "european": "Acquire",
    "arabic_root": "نبك",
    "author_translit": "nabk",
    "arabic_gloss": "raised ground",
@@ -1745,6 +1821,22 @@
    "arabic_gloss": "high",
    "source": "jassem-2014-mathematical",
    "bridge_agrees": "جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها"
+  },
+  {
+   "european": "Addict",
+   "arabic_root": "حت",
+   "author_translit": "2atta",
+   "arabic_gloss": "to",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Addict",
+   "arabic_root": "ضج",
+   "author_translit": "Dajja(t)",
+   "arabic_gloss": "shout, say",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: هدر"
   },
   {
    "european": "Admire",
@@ -2076,6 +2168,14 @@
   },
   {
    "european": "Ail",
+   "arabic_root": "ءجل",
+   "author_translit": "'ijl",
+   "arabic_gloss": "(neck) pain",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حلق، سكن، فقر"
+  },
+  {
+   "european": "Ail",
    "arabic_root": "تلمظ",
    "author_translit": "talammaDh",
    "arabic_gloss": "move tongue with food",
@@ -2105,6 +2205,14 @@
    "arabic_gloss": "move tongue with food",
    "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: حص، شوك، طبق، طعم، نزل"
+  },
+  {
+   "european": "Ail",
+   "arabic_root": "من",
+   "author_translit": "min",
+   "arabic_gloss": "from",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Ail",
@@ -2473,6 +2581,38 @@
    "arabic_gloss": "like",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Anatomy",
+   "arabic_root": "دم",
+   "author_translit": "damm",
+   "arabic_gloss": "blood",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Anatomy",
+   "arabic_root": "عن",
+   "author_translit": "3an",
+   "arabic_gloss": "on, about",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Anatomy",
+   "arabic_root": "مد",
+   "author_translit": "mad(ad)",
+   "arabic_gloss": "continuation, stretch",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Anatomy",
+   "arabic_root": "نم",
+   "author_translit": "naamma(t)",
+   "arabic_gloss": "feeling, sensation, motion; life of one",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حسا، حسس، حمس، دجر، ذوق، سير، شعر، ميد، وغيرُها"
   },
   {
    "european": "Ancient",
@@ -3211,6 +3351,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Asthma",
+   "arabic_root": "خش",
+   "author_translit": "khashia",
+   "arabic_gloss": "fear",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بر، ترعب، تقي، جفل، حيو، خاف، خشي، خلع، وغيرُها"
+  },
+  {
+   "european": "Asthma",
+   "arabic_root": "ذن",
+   "author_translit": "udhun",
+   "arabic_gloss": "ear; hearing",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءذن، سك، سمع، نصت"
+  },
+  {
+   "european": "Asthma",
+   "arabic_root": "هثن",
+   "author_translit": "uhthain(at)",
+   "arabic_gloss": "ear; hearing",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءذن، سك، سمع، نصت"
+  },
+  {
    "european": "Atomic Bomb/Weapon",
    "arabic_root": "ءثر",
    "author_translit": "'athar(at)",
@@ -3600,6 +3764,14 @@
    "author_translit": "banan",
    "arabic_gloss": "finger",
    "source": "jassem-2016-floral",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Bandage",
+   "arabic_root": "بطن",
+   "author_translit": "biTaana(t)",
+   "arabic_gloss": "belly strap; lining",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -4539,6 +4711,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Bleed",
+   "arabic_root": "بلد",
+   "author_translit": "balad",
+   "arabic_gloss": "bodily scar",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءلم، بدن، جسد، جسم، جلب، خشب، دب، شقق، وغيرُها"
+  },
+  {
    "european": "Bless",
    "arabic_root": "تحت",
    "author_translit": "ta2ta",
@@ -4576,6 +4756,14 @@
    "author_translit": "kaahin",
    "arabic_gloss": "priest, clever",
    "source": "jassem-2014-divine-theological",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Blind",
+   "arabic_root": "بلد",
+   "author_translit": "baleed",
+   "arabic_gloss": "stupid",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -4876,11 +5064,35 @@
   },
   {
    "european": "Break",
+   "arabic_root": "بزر",
+   "author_translit": "bazar",
+   "arabic_gloss": "pierce",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءلل، بزل، ثقب، جرر، خرب، خرت، خرز، خرق، وغيرُها"
+  },
+  {
+   "european": "Break",
    "arabic_root": "بطش",
    "author_translit": "baTasha",
    "arabic_gloss": "beat, kill",
    "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "جذرٌ آخر: فطس"
+  },
+  {
+   "european": "Break",
+   "arabic_root": "بقر",
+   "author_translit": "baqara",
+   "arabic_gloss": "to break, open",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حل، خرق، سرح، شجر، شقق، فضض، فطر، فقع، وغيرُها"
+  },
+  {
+   "european": "Break",
+   "arabic_root": "منخر",
+   "author_translit": "minkhar",
+   "arabic_gloss": "nostril",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: خر، خشم، عر"
   },
   {
    "european": "Breath",
@@ -5057,6 +5269,14 @@
    "arabic_gloss": "sting",
    "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Bruise",
+   "arabic_root": "لكع",
+   "author_translit": "laka3",
+   "arabic_gloss": "to burn",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: النواة، جحم، جمر، حرر، حرق، خفق، دفء، ذوي، وغيرُها"
   },
   {
    "european": "Bug",
@@ -5379,6 +5599,14 @@
    "bridge_agrees": "جذرٌ آخر: النواة، جري، حشا، خلج، خوخ، رع، سك، شءن، وغيرُها"
   },
   {
+   "european": "Cancer",
+   "arabic_root": "خنزر",
+   "author_translit": "khanzeer(at)",
+   "arabic_gloss": "a glanduloid neck disease; lit., a swine",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: برص، ضبب، علق، كاف"
+  },
+  {
    "european": "Candy",
    "arabic_root": "جب",
    "author_translit": "jabab",
@@ -5521,6 +5749,46 @@
    "arabic_gloss": "draw, pull, drag; tractor",
    "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Cardiac Failure",
+   "arabic_root": "صدر",
+   "author_translit": "Sadr",
+   "arabic_gloss": "breast, heart",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Cardiac Failure",
+   "arabic_root": "فل",
+   "author_translit": "afal",
+   "arabic_gloss": "fall, set down",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حط"
+  },
+  {
+   "european": "Cardiac Failure",
+   "arabic_root": "قرع",
+   "author_translit": "qar3a(t)",
+   "arabic_gloss": "skull, shaved head",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Cardiac Failure",
+   "arabic_root": "كر",
+   "author_translit": "kara",
+   "arabic_gloss": "sleep",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها"
+  },
+  {
+   "european": "Cardiac Failure",
+   "arabic_root": "كرون",
+   "author_translit": "karawaan",
+   "arabic_gloss": "sleep",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها"
   },
   {
    "european": "Carpet",
@@ -6467,11 +6735,35 @@
    "bridge_agrees": "جذرٌ آخر: برثن، حفر، خلب، زبن، زمع، سلح، ظفر، قنب، وغيرُها"
   },
   {
+   "european": "Clean",
+   "arabic_root": "قل",
+   "author_translit": "qaleel",
+   "arabic_gloss": "small",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءس، ءكل، ا، الثمن، باك، بب، بحثر، بخ، وغيرُها"
+  },
+  {
+   "european": "Clean",
+   "arabic_root": "قن",
+   "author_translit": "qaani",
+   "arabic_gloss": "pure, clear",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: خلص، روق، زلل، صرح، صفو، طهر، عفف، فصح، وغيرُها"
+  },
+  {
+   "european": "Cleanse",
+   "arabic_root": "كل",
+   "author_translit": "kilia(t)",
+   "arabic_gloss": "bed",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ام، بيت، تخت، تلع، ثب، حف، حوض، خد، وغيرُها"
+  },
+  {
    "european": "Cleanse",
    "arabic_root": "كنس",
    "author_translit": "kan(n)as",
    "arabic_gloss": "cleanse",
-   "source": "jassem-2013-movement-action",
+   "source": "jassem-2013-movement-action · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: ترك، زكو، سوك، صف، نقو، نقي، هلك"
   },
   {
@@ -6620,10 +6912,18 @@
   },
   {
    "european": "Coagulate",
+   "arabic_root": "تجلط",
+   "author_translit": "tajallaT",
+   "arabic_gloss": "coagulate",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جلد، جلط، جمد، خثر، عقد، فح"
+  },
+  {
+   "european": "Coagulate",
    "arabic_root": "جلط",
    "author_translit": "jallaT",
    "arabic_gloss": "coagulate",
-   "source": "jassem-2013-water-sea",
+   "source": "jassem-2013-water-sea · jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -6775,8 +7075,16 @@
    "arabic_root": "جلد",
    "author_translit": "jaleed",
    "arabic_gloss": "ice, cold",
-   "source": "jassem-2013-water-sea",
+   "source": "jassem-2013-water-sea · jassem-2015-medical",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Colic",
+   "arabic_root": "غلص",
+   "author_translit": "gholooS",
+   "arabic_gloss": "colic, stomach pain",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: مغص"
   },
   {
    "european": "Collapse",
@@ -6879,7 +7187,7 @@
    "arabic_root": "غم",
    "author_translit": "ghamia",
    "arabic_gloss": "be in coma",
-   "source": "jassem-2013-perceptual-sensual · jassem-2015-life-death",
+   "source": "jassem-2013-perceptual-sensual · jassem-2015-life-death · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: غيب"
   },
   {
@@ -7075,6 +7383,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Complaint",
+   "arabic_root": "جمع",
+   "author_translit": "jamee3",
+   "arabic_gloss": "all",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Complete",
    "arabic_root": "ملء",
    "author_translit": "mala'",
@@ -7225,6 +7541,14 @@
    "arabic_gloss": "thank",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Conscious",
+   "arabic_root": "بل",
+   "author_translit": "bill",
+   "arabic_gloss": "recovery, health",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: شفي، عاف، عفو"
   },
   {
    "european": "Conscious",
@@ -7623,7 +7947,7 @@
    "arabic_root": "قح",
    "author_translit": "qa22a",
    "arabic_gloss": "cough",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: سعل، كح، نفث"
   },
   {
@@ -7631,7 +7955,7 @@
    "arabic_root": "قحقح",
    "author_translit": "qa2qa2a",
    "arabic_gloss": "cough",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: سعل، كح، نفث"
   },
   {
@@ -8299,6 +8623,14 @@
    "bridge_agrees": "جذرٌ آخر: الجذر، باب، باك، بندق، ثعلب، ثغر، جرو، جون، وغيرُها"
   },
   {
+   "european": "Cure",
+   "arabic_root": "وجر",
+   "author_translit": "wajoor",
+   "arabic_gloss": "oral medicine",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءس، الطب، برش، بطنج، بلغم، بهت، بول، بيا، وغيرُها"
+  },
+  {
    "european": "Curly Hair",
    "arabic_root": "غر",
    "author_translit": "ghurra(t)",
@@ -8340,10 +8672,18 @@
   },
   {
    "european": "Cut",
+   "arabic_root": "غطء",
+   "author_translit": "ghiTaa'",
+   "arabic_gloss": "a covering",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: الءسد، الثور، الجدي، الجذر، الدلو، العقرب، القوس، بابل، وغيرُها"
+  },
+  {
+   "european": "Cut",
    "arabic_root": "قد",
    "author_translit": "qadda",
    "arabic_gloss": "cut",
-   "source": "jassem-2013-cutting-breaking",
+   "source": "jassem-2013-cutting-breaking · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
   },
   {
@@ -8611,6 +8951,14 @@
    "bridge_agrees": "جذرٌ آخر: بنط، خطط"
   },
   {
+   "european": "Deaf",
+   "arabic_root": "ضعف",
+   "author_translit": "Da3eef",
+   "arabic_gloss": "weak",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Dear",
    "arabic_root": "دل",
    "author_translit": "dalaal",
@@ -8641,6 +8989,22 @@
    "arabic_gloss": "beat",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: ءجن، بذذ، بض، جب، جم، حدج، حضر، خرق، وغيرُها"
+  },
+  {
+   "european": "Decay",
+   "arabic_root": "كت",
+   "author_translit": "katta",
+   "arabic_gloss": "fall, drop; pour",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: تل"
+  },
+  {
+   "european": "Decay",
+   "arabic_root": "كتكت",
+   "author_translit": "katkat",
+   "arabic_gloss": "laugh",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بندق، شمع، صد، ضحك، قرقر، قهقه، لول، هكم، وغيرُها"
   },
   {
    "european": "Declare",
@@ -8867,6 +9231,22 @@
    "bridge_agrees": "جذرٌ آخر: تخس، حسم، خزل، خصم، خفض، رخص، صغر، نقص"
   },
   {
+   "european": "Dentist",
+   "arabic_root": "ثن",
+   "author_translit": "thania(t)",
+   "arabic_gloss": "tooth",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: اب، ثرم، ثغر، جذر، رق، سن، سنة، سنن، وغيرُها"
+  },
+  {
+   "european": "Dentist",
+   "arabic_root": "طرق",
+   "author_translit": "Taraq",
+   "arabic_gloss": "strike, rub",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: شحط"
+  },
+  {
    "european": "Depart",
    "arabic_root": "دبر",
    "author_translit": "adbara",
@@ -9043,6 +9423,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Diabetes",
+   "arabic_root": "تبول",
+   "author_translit": "tabawul",
+   "arabic_gloss": "urination",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءير، زبب، زبر، طرط، قعد"
+  },
+  {
+   "european": "Diabetes",
+   "arabic_root": "حت",
+   "author_translit": "2atta",
+   "arabic_gloss": "until, to",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءجل، ءخر، ءلو، ءما، الصرب، بطء، بون، جني، وغيرُها"
+  },
+  {
    "european": "Diagonal",
    "arabic_root": "حت",
    "author_translit": "2atta",
@@ -9107,6 +9503,22 @@
    "bridge_agrees": "جذرٌ آخر: ءندلس، كري، لهج، نطق، ها، ياه"
   },
   {
+   "european": "Diarrhea",
+   "arabic_root": "تره",
+   "author_translit": "taraahi",
+   "arabic_gloss": "urinating",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Diarrhea",
+   "arabic_root": "ره",
+   "author_translit": "raha",
+   "arabic_gloss": "urinate",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بال، بول، دمن"
+  },
+  {
    "european": "Dictator",
    "arabic_root": "ضج",
    "author_translit": "Daaj",
@@ -9137,6 +9549,30 @@
    "arabic_gloss": "talk",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: باه، بجح، بحث، بق، جوي، حدث، خرف، خزعبل، وغيرُها"
+  },
+  {
+   "european": "Diet",
+   "arabic_root": "ءدوت",
+   "author_translit": "'adwiat",
+   "arabic_gloss": "food; medicine",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جرع، شرب، وصف"
+  },
+  {
+   "european": "Diet",
+   "arabic_root": "دلمء",
+   "author_translit": "dalmaa'",
+   "arabic_gloss": "very dark night",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حلك، ربد، سمر، ظل، ظلم، عتم، غسق، قوي، وغيرُها"
+  },
+  {
+   "european": "Diet",
+   "arabic_root": "دوء",
+   "author_translit": "dawaa'",
+   "arabic_gloss": "food; medicine",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جرع، شرب، وصف"
   },
   {
    "european": "Differential",
@@ -9363,6 +9799,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Disease",
+   "arabic_root": "شت",
+   "author_translit": "shatta",
+   "arabic_gloss": "away, far",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بعد، جنب، طرح، قصو، ميل، نءي"
+  },
+  {
+   "european": "Disease",
+   "arabic_root": "صح",
+   "author_translit": "Si22a(t)",
+   "arabic_gloss": "health; ease; clearing up",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Dish",
    "arabic_root": "دسع",
    "author_translit": "dasee3a(t)",
@@ -9415,7 +9867,7 @@
    "arabic_root": "تشق",
    "author_translit": "tashaqqaq",
    "arabic_gloss": "dissection, split",
-   "source": "jassem-2013-cutting-breaking",
+   "source": "jassem-2013-cutting-breaking · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: شرط"
   },
   {
@@ -9431,7 +9883,7 @@
    "arabic_root": "شق",
    "author_translit": "shaqq(at)",
    "arabic_gloss": "dissection, split",
-   "source": "jassem-2013-cutting-breaking",
+   "source": "jassem-2013-cutting-breaking · jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -9697,6 +10149,30 @@
    "arabic_gloss": "to feel dizzy",
    "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: ءسف، ءم، ءمن، ءنس، برد، تاب، ترعب، تقي، وغيرُها"
+  },
+  {
+   "european": "Dizzy",
+   "arabic_root": "درز",
+   "author_translit": "darz",
+   "arabic_gloss": "sewing",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: خيط، رقع، غرز"
+  },
+  {
+   "european": "Dizzy",
+   "arabic_root": "درس",
+   "author_translit": "daras",
+   "arabic_gloss": "teach, study",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Dizzy",
+   "arabic_root": "سدر",
+   "author_translit": "saadir",
+   "arabic_gloss": "dizziness, oblivion",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: دثر، دوخ، دور، سي، عفو، ميد، نسي"
   },
   {
    "european": "Dizzy",
@@ -9987,6 +10463,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Drug",
+   "arabic_root": "ترق",
+   "author_translit": "tiriaq",
+   "arabic_gloss": "drug",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بنج، خدر، دمن، دوي، سبر، سك، سمم، طحث، وغيرُها"
+  },
+  {
    "european": "Dry",
    "arabic_root": "طر",
    "author_translit": "Tari",
@@ -10017,6 +10501,30 @@
    "arabic_gloss": "leader",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءمم، بوع، بيع، جنب، دير، رءس، رب، زعم، وغيرُها"
+  },
+  {
+   "european": "Dumb",
+   "arabic_root": "عرق",
+   "author_translit": "3irq(un)",
+   "arabic_gloss": "a vein",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: خل، شري، صفن، نبض، ودج"
+  },
+  {
+   "european": "Dumb",
+   "arabic_root": "قطم",
+   "author_translit": "qaTam",
+   "arabic_gloss": "cut (the top a little)",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Dumb",
+   "arabic_root": "من",
+   "author_translit": "min",
+   "arabic_gloss": "from",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Dungeon",
@@ -10931,6 +11439,38 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Epidemic",
+   "arabic_root": "ءدم",
+   "author_translit": "'aadam(i)",
+   "arabic_gloss": "people",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءب، ءم، ءمم، ءنا، ءهل، اس، اصر، التي، وغيرُها"
+  },
+  {
+   "european": "Epidemic",
+   "arabic_root": "ءودم",
+   "author_translit": "'awaadim",
+   "arabic_gloss": "people",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءب، ءم، ءمم، ءنا، ءهل، اس، اصر، التي، وغيرُها"
+  },
+  {
+   "european": "Epidemic",
+   "arabic_root": "مزن",
+   "author_translit": "mizaan",
+   "arabic_gloss": "balance, scale",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ثقل، شاهين"
+  },
+  {
+   "european": "Epidemic",
+   "arabic_root": "وزن",
+   "author_translit": "wazan",
+   "arabic_gloss": "balance, scale",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Epitaph",
    "arabic_root": "جدث",
    "author_translit": "jadath",
@@ -11427,6 +11967,22 @@
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
+   "european": "Excrete",
+   "arabic_root": "قرن",
+   "author_translit": "qaran",
+   "arabic_gloss": "join",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Excrete",
+   "arabic_root": "قص",
+   "author_translit": "aqSa",
+   "arabic_gloss": "far",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بد، بعد، بلغ، جنب، حتي، حشو، خط، دوم، وغيرُها"
+  },
+  {
    "european": "Exempt",
    "arabic_root": "سم",
    "author_translit": "saama",
@@ -11667,6 +12223,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Faeces",
+   "arabic_root": "فس",
+   "author_translit": "fasa",
+   "arabic_gloss": "silent body wind",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جنب، ذنب، سلك، شرش، كب، لف، هيف"
+  },
+  {
+   "european": "Faeces",
+   "arabic_root": "فسء",
+   "author_translit": "fusaa'",
+   "arabic_gloss": "silent body wind",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جنب، ذنب، سلك، شرش، كب، لف، هيف"
+  },
+  {
+   "european": "Faeces",
+   "arabic_root": "وهن",
+   "author_translit": "wahin(at)",
+   "arabic_gloss": "weak",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءفك، حسر، خفش، خفف، خنب، خور، دنو، دون، وغيرُها"
+  },
+  {
    "european": "Fail",
    "arabic_root": "فشل",
    "author_translit": "fashal",
@@ -11788,6 +12368,22 @@
   },
   {
    "european": "Fart",
+   "arabic_root": "برط",
+   "author_translit": "baraT",
+   "arabic_gloss": "to fart",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حبق، حزق، روح، ضرط، فخ، فسا، فسو، فوخ، وغيرُها"
+  },
+  {
+   "european": "Fart",
+   "arabic_root": "ضرت",
+   "author_translit": "Darat",
+   "arabic_gloss": "to fart",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حبق، حزق، روح، ضرط، فخ، فسا، فسو، فوخ، وغيرُها"
+  },
+  {
+   "european": "Fart",
    "arabic_root": "ضرط",
    "author_translit": "DaraT",
    "arabic_gloss": "fart",
@@ -11799,8 +12395,16 @@
    "arabic_root": "فرط",
    "author_translit": "faraT",
    "arabic_gloss": "fart",
-   "source": "jassem-2013-air-fire",
+   "source": "jassem-2013-air-fire · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: حبق، حزق، روح، ضرط، فخ، فسا، فسو، فوخ، وغيرُها"
+  },
+  {
+   "european": "Fart",
+   "arabic_root": "ولول",
+   "author_translit": "wal(wal)",
+   "arabic_gloss": "weep, cry",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بكي، بي، جهش، شهق، عول، عيط، نحب"
   },
   {
    "european": "Fat",
@@ -12009,6 +12613,30 @@
    "arabic_gloss": "rich landlord",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: توف، جلجل، حفل، حيو، درر، دسم، دهق، زخر، وغيرُها"
+  },
+  {
+   "european": "Fever",
+   "arabic_root": "زبر",
+   "author_translit": "zabr",
+   "arabic_gloss": "very tiny hair",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءبله، ءحد، ءدب، ءكد، ادر، الجذر، باك، بعض، وغيرُها"
+  },
+  {
+   "european": "Fever",
+   "arabic_root": "فر",
+   "author_translit": "faar",
+   "arabic_gloss": "boil, heat up",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: غلي"
+  },
+  {
+   "european": "Fever",
+   "arabic_root": "فور",
+   "author_translit": "fawr",
+   "arabic_gloss": "boil, heat up",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Few",
@@ -12700,6 +13328,14 @@
   },
   {
    "european": "Fracture",
+   "arabic_root": "فركث",
+   "author_translit": "farkath",
+   "arabic_gloss": "of bread, to break",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: النواة، حل، فقع، لا"
+  },
+  {
+   "european": "Fracture",
    "arabic_root": "قلع",
    "author_translit": "qala3",
    "arabic_gloss": "uproot, kill",
@@ -13339,6 +13975,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Germ",
+   "arabic_root": "نوجذ",
+   "author_translit": "nawajidh",
+   "arabic_gloss": "all molars; teeth",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءب، ءبد، ءحد، ءدب، ءش، ءفق، ءيي، اب، وغيرُها"
+  },
+  {
    "european": "Gesture",
    "arabic_root": "جحر",
    "author_translit": "ja2ar",
@@ -13375,7 +14019,7 @@
    "arabic_root": "غد",
    "author_translit": "ghada",
    "arabic_gloss": "go, leave, arrive, become",
-   "source": "jassem-2013-movement-action",
+   "source": "jassem-2013-movement-action · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: ءتي، ءسلم، بعد، ترك، تلو، جلو، حل، خلص، وغيرُها"
   },
   {
@@ -13951,8 +14595,16 @@
    "arabic_root": "غز",
    "author_translit": "ghaazi(at)",
    "arabic_gloss": "enemy, invader",
-   "source": "jassem-2014-wining-dining",
+   "source": "jassem-2014-wining-dining · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: خا، خرب، خصم، خصي، خير، دور، زرر، سلم، وغيرُها"
+  },
+  {
+   "european": "Guest",
+   "arabic_root": "قن",
+   "author_translit": "qaien",
+   "arabic_gloss": "beautiful woman",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، ءنق، اجر، اخت، بدل، وغيرُها"
   },
   {
    "european": "Guest of Honour",
@@ -14411,6 +15063,30 @@
    "bridge_agrees": "جذرٌ آخر: حرب، دير، رءس، رب، سر، شيخ، قدم، كبش، وغيرُها"
   },
   {
+   "european": "Heal",
+   "arabic_root": "عل",
+   "author_translit": "3aal",
+   "arabic_gloss": "lit., high; of heath, well, fine",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بخر، حلو، رفع، زين، سيي، شمم، شير، طيب، وغيرُها"
+  },
+  {
+   "european": "Heal",
+   "arabic_root": "هل",
+   "author_translit": "halla",
+   "arabic_gloss": "to welcome; heavy rain",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: رمي، عطف، غزر، وبل"
+  },
+  {
+   "european": "Heal",
+   "arabic_root": "هلن",
+   "author_translit": "ahla(n)",
+   "arabic_gloss": "to welcome; heavy rain",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: رمي، عطف، غزر، وبل"
+  },
+  {
    "european": "Hear",
    "arabic_root": "رع",
    "author_translit": "ar3a",
@@ -14635,6 +15311,38 @@
    "bridge_agrees": "جذرٌ آخر: حرب، شعر"
   },
   {
+   "european": "Hemoglobin",
+   "arabic_root": "دم",
+   "author_translit": "damm",
+   "arabic_gloss": "blood",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Hemoglobin",
+   "arabic_root": "قلب",
+   "author_translit": "qalb",
+   "arabic_gloss": "heart, ball",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Hemorrhage",
+   "arabic_root": "كبد",
+   "author_translit": "kabd",
+   "arabic_gloss": "liver",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Hemorrhage",
+   "arabic_root": "هرق",
+   "author_translit": "haraq",
+   "arabic_gloss": "shed blood",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Hen",
    "arabic_root": "حرن",
    "author_translit": "2aran",
@@ -14689,6 +15397,38 @@
    "arabic_gloss": "chief, master",
    "source": "jassem-2015-military",
    "bridge_agrees": "جذرٌ آخر: ءبو، بعل، دير، رب، شيخ، نقب، ولي"
+  },
+  {
+   "european": "Hiccup",
+   "arabic_root": "حسك",
+   "author_translit": "2assak",
+   "arabic_gloss": "hiccup; lit., husk",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جرد، جلف، حزق، شرق، شعل، ضوء، عبب، علق، وغيرُها"
+  },
+  {
+   "european": "Hiccup",
+   "arabic_root": "حسكت",
+   "author_translit": "2asakat",
+   "arabic_gloss": "hiccup; lit., husk",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جرد، جلف، حزق، شرق، شعل، ضوء، عبب، علق، وغيرُها"
+  },
+  {
+   "european": "Hiccup",
+   "arabic_root": "عش",
+   "author_translit": "3ush(at)",
+   "arabic_gloss": "nest",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Hiccup",
+   "arabic_root": "قحب",
+   "author_translit": "qa2ab",
+   "arabic_gloss": "cough",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: سعل، كح، نفث"
   },
   {
    "european": "High",
@@ -14759,7 +15499,7 @@
    "arabic_root": "حشرج",
    "author_translit": "2ashraj",
    "arabic_gloss": "hoarse",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: بح، بحح، جشش، خشن، صحل"
   },
   {
@@ -15427,6 +16167,38 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Hygiene",
+   "arabic_root": "صبر",
+   "author_translit": "Subar",
+   "arabic_gloss": "high",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها"
+  },
+  {
+   "european": "Hygiene",
+   "arabic_root": "صوب",
+   "author_translit": "Sawb",
+   "arabic_gloss": "falling",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءلو، الجذر، برد، تلج، ثلج، حطط، خبء، خشب، وغيرُها"
+  },
+  {
+   "european": "Hygiene",
+   "arabic_root": "قلس",
+   "author_translit": "qalees",
+   "arabic_gloss": "honey, bees",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جبح، حال، حل، خل، شهد، عسل"
+  },
+  {
+   "european": "Hygiene",
+   "arabic_root": "نط",
+   "author_translit": "naTaT",
+   "arabic_gloss": "stretch",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بسط، بلغ، تلع، جر، جلعب، سيل، شب، شبح، وغيرُها"
+  },
+  {
    "european": "Ice",
    "arabic_root": "صقع",
    "author_translit": "Saqee3",
@@ -15480,6 +16252,14 @@
    "author_translit": "sakan",
    "arabic_gloss": "fire",
    "source": "jassem-2013-air-fire",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Ill",
+   "arabic_root": "عل",
+   "author_translit": "3illa(t)",
+   "arabic_gloss": "disease; ailment",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -15556,10 +16336,34 @@
   },
   {
    "european": "Incision",
+   "arabic_root": "ضج",
+   "author_translit": "Dajja",
+   "arabic_gloss": "shout",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ادي، جلب، خشب، دعا، زعق، صاح، صتت، صرخ، وغيرُها"
+  },
+  {
+   "european": "Incision",
    "arabic_root": "قص",
    "author_translit": "qaSSa",
    "arabic_gloss": "cut",
-   "source": "jassem-2013-cutting-breaking",
+   "source": "jassem-2013-cutting-breaking · jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Incision",
+   "arabic_root": "من",
+   "author_translit": "min",
+   "arabic_gloss": "from",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Incision",
+   "arabic_root": "وقع",
+   "author_translit": "waqa3",
+   "arabic_gloss": "fall (ill); happen",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -15723,6 +16527,14 @@
    "bridge_agrees": "جذرٌ آخر: جذع، حدث، شبب، شرخ، صبا، ظل، فتا، فتو، وغيرُها"
   },
   {
+   "european": "Inflammation",
+   "arabic_root": "فحمتن",
+   "author_translit": "fa2m(atun)",
+   "arabic_gloss": "black fire dust; charcoal; dead fire",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءدم، جر، حرق"
+  },
+  {
    "european": "Inflate",
    "arabic_root": "رجم",
    "author_translit": "rujm",
@@ -15843,6 +16655,14 @@
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
+   "european": "Influenza",
+   "arabic_root": "عنز",
+   "author_translit": "3anz(at)",
+   "arabic_gloss": "goat",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Inform",
    "arabic_root": "رسم",
    "author_translit": "rasm",
@@ -15945,6 +16765,14 @@
    "arabic_gloss": "first, one",
    "source": "jassem-2013-time",
    "bridge_agrees": "جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها"
+  },
+  {
+   "european": "Injury",
+   "arabic_root": "حق",
+   "author_translit": "2aq",
+   "arabic_gloss": "right",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Ink",
@@ -16240,6 +17068,22 @@
    "author_translit": "saa2a",
    "arabic_gloss": "move, go, flow",
    "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Itch",
+   "arabic_root": "حك",
+   "author_translit": "2akk(at)",
+   "arabic_gloss": "itch; scratch",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Itch",
+   "arabic_root": "رخ",
+   "author_translit": "rakhoo",
+   "arabic_gloss": "loose",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -17483,6 +18327,14 @@
    "bridge_agrees": "جذرٌ آخر: زوم، لبن"
   },
   {
+   "european": "Leukemia",
+   "arabic_root": "دم",
+   "author_translit": "damm",
+   "arabic_gloss": "blood",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Lewd",
    "arabic_root": "لط",
    "author_translit": "looTi",
@@ -18363,12 +19215,92 @@
    "bridge_agrees": "جذرٌ آخر: بنت، بنط، خترع، ختم، خطط، درج، رزب، رسم، وغيرُها"
   },
   {
+   "european": "Malady",
+   "arabic_root": "مرض",
+   "author_translit": "maraD",
+   "arabic_gloss": "disease",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Malaise",
+   "arabic_root": "ءر",
+   "author_translit": "'air",
+   "arabic_gloss": "air",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها"
+  },
+  {
+   "european": "Malaise",
+   "arabic_root": "سم",
+   "author_translit": "seema",
+   "arabic_gloss": "image, mark",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: طبع"
+  },
+  {
+   "european": "Malaise",
+   "arabic_root": "صن",
+   "author_translit": "San(een)",
+   "arabic_gloss": "listening, silence; sound of pain",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءن، رز، سمع، صمت، نصت، نين"
+  },
+  {
+   "european": "Malaise",
+   "arabic_root": "لم",
+   "author_translit": "lam",
+   "arabic_gloss": "not",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Malaise",
+   "arabic_root": "مسنت",
+   "author_translit": "misan(nat)",
+   "arabic_gloss": "a sharpening stone",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جلخ، حدد، سنن، شحذ، لق"
+  },
+  {
    "european": "Male",
    "arabic_root": "مرء",
    "author_translit": "mar'",
    "arabic_gloss": "man",
    "source": "jassem-2013-family",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Malignant",
+   "arabic_root": "كلم",
+   "author_translit": "kalm",
+   "arabic_gloss": "injury, wound",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Malignant",
+   "arabic_root": "لم",
+   "author_translit": "lam",
+   "arabic_gloss": "not",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Malignant",
+   "arabic_root": "مكلم",
+   "author_translit": "makloom",
+   "arabic_gloss": "injury, wound",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جرح"
+  },
+  {
+   "european": "Malignant",
+   "arabic_root": "ملعن",
+   "author_translit": "mal3oon(at)",
+   "arabic_gloss": "lit., cursed; malignant",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حرم، حنق، خبث، درء، دفع، رجي، سرط، شرق، وغيرُها"
   },
   {
    "european": "Man",
@@ -18913,6 +19845,14 @@
    "arabic_gloss": "stored food",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: لحم"
+  },
+  {
+   "european": "Medicine",
+   "arabic_root": "دسم",
+   "author_translit": "disaam",
+   "arabic_gloss": "sealing, blocking wounds",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جرجس، ختم، ساك، سدد، سعل، طبع، علج، قسطر، وغيرُها"
   },
   {
    "european": "Melon",
@@ -19643,6 +20583,14 @@
    "bridge_agrees": "جذرٌ آخر: ءهل، بتر، بخ، بس، بطن، بق، بو، جيل، وغيرُها"
   },
   {
+   "european": "Morbid",
+   "arabic_root": "مرض",
+   "author_translit": "mareeD",
+   "arabic_gloss": "ill",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "More",
    "arabic_root": "كمل",
    "author_translit": "kaamil",
@@ -19816,6 +20764,14 @@
    "author_translit": "kaamil",
    "arabic_gloss": "full, complete",
    "source": "jassem-2014-mathematical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Mucus",
+   "arabic_root": "مخط",
+   "author_translit": "mukhaaT",
+   "arabic_gloss": "mucus",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -20019,6 +20975,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Nausea",
+   "arabic_root": "سفن",
+   "author_translit": "safeen(at)",
+   "arabic_gloss": "ship",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Near",
    "arabic_root": "جث",
    "author_translit": "jatha",
@@ -20048,6 +21012,38 @@
    "author_translit": "batara",
    "arabic_gloss": "to cut",
    "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Needle",
+   "arabic_root": "نحر",
+   "author_translit": "naa2ir(an)",
+   "arabic_gloss": "veins",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جوهر، دمم، ذين"
+  },
+  {
+   "european": "Needle",
+   "arabic_root": "نظف",
+   "author_translit": "naDheef",
+   "arabic_gloss": "clean",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Needle",
+   "arabic_root": "نم",
+   "author_translit": "naam",
+   "arabic_gloss": "sleep",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها"
+  },
+  {
+   "european": "Needle",
+   "arabic_root": "نوم",
+   "author_translit": "nawm",
+   "arabic_gloss": "sleep",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -20683,6 +21679,22 @@
    "bridge_agrees": "جذرٌ آخر: ءهل، بتر، بخ، بس، بطن، بق، بو، جيل، وغيرُها"
   },
   {
+   "european": "Nurse",
+   "arabic_root": "رضع",
+   "author_translit": "raDa3",
+   "arabic_gloss": "nursing, suckling mother",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Nurse",
+   "arabic_root": "مرضع",
+   "author_translit": "murDi3",
+   "arabic_gloss": "nursing, suckling mother",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: رضع"
+  },
+  {
    "european": "Nut",
    "arabic_root": "نو",
    "author_translit": "nuwaa(t)",
@@ -20748,10 +21760,26 @@
   },
   {
    "european": "Obsessed",
+   "arabic_root": "ست",
+   "author_translit": "sitt(at)",
+   "arabic_gloss": "lady",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: خاتون، دام، رب، سيد، قين، لا، ليد، مريم، وغيرُها"
+  },
+  {
+   "european": "Obsessed",
+   "arabic_root": "سيدت",
+   "author_translit": "saiyedat",
+   "arabic_gloss": "lady",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: خاتون، دام، رب، سيد، قين، لا، ليد، مريم، وغيرُها"
+  },
+  {
+   "european": "Obsessed",
    "arabic_root": "وس",
    "author_translit": "wasas",
    "arabic_gloss": "obsession",
-   "source": "jassem-2015-life-death",
+   "source": "jassem-2015-life-death · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: قلق، هوس"
   },
   {
@@ -20759,7 +21787,7 @@
    "arabic_root": "وسوس",
    "author_translit": "waswaas",
    "arabic_gloss": "obsession",
-   "source": "jassem-2015-life-death",
+   "source": "jassem-2015-life-death · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: قلق، هوس"
   },
   {
@@ -20905,6 +21933,14 @@
    "arabic_gloss": "passionate cry, tear, lesson",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Ointment",
+   "arabic_root": "لغ",
+   "author_translit": "laghoo",
+   "arabic_gloss": "vain talk",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءثم، باه، بجح، بحث، بطل، بق، جوي، حدث، وغيرُها"
   },
   {
    "european": "Olive",
@@ -21075,12 +22111,52 @@
    "bridge_agrees": "جذرٌ آخر: جعد، حبق، خيت، دنر، سك، ضرب، ضرم، فلي، وغيرُها"
   },
   {
+   "european": "Opaque",
+   "arabic_root": "ءبق",
+   "author_translit": "'abaq",
+   "arabic_gloss": "hidden, concealed; escape",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بطن، خبء، خفي، خمل، دف، شيم، ضمر، غيب، وغيرُها"
+  },
+  {
    "european": "Open",
    "arabic_root": "بن",
    "author_translit": "abaana",
    "arabic_gloss": "bring into the open",
    "source": "jassem-2013-movement-action",
    "bridge_agrees": "جذرٌ آخر: باب، برء، برز، بشر، جلب، جلو، جمع، حقق، وغيرُها"
+  },
+  {
+   "european": "Ophthalmic",
+   "arabic_root": "بصبص",
+   "author_translit": "baSbooS",
+   "arabic_gloss": "eye pupil",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حدق، صبو، قرن، قزح"
+  },
+  {
+   "european": "Ophthalmic",
+   "arabic_root": "ثن",
+   "author_translit": "thania(t)",
+   "arabic_gloss": "tooth",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: اب، ثرم، ثغر، جذر، رق، سن، سنة، سنن، وغيرُها"
+  },
+  {
+   "european": "Ophthalmic",
+   "arabic_root": "رفع",
+   "author_translit": "rafee3",
+   "arabic_gloss": "high",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Ophthalmic",
+   "arabic_root": "عظم",
+   "author_translit": "3aDhm(at)",
+   "arabic_gloss": "bone",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Opinion",
@@ -21603,6 +22679,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Parasite",
+   "arabic_root": "بر",
+   "author_translit": "barra",
+   "arabic_gloss": "outside",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Parasite",
+   "arabic_root": "تفكه",
+   "author_translit": "tafakkah",
+   "arabic_gloss": "to eat fruit",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءكل، لحم"
+  },
+  {
+   "european": "Parasite",
+   "arabic_root": "فكه",
+   "author_translit": "fakiha",
+   "arabic_gloss": "to eat fruit",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Parent",
    "arabic_root": "ربت",
    "author_translit": "rabbat",
@@ -22035,6 +23135,14 @@
    "bridge_agrees": "جذرٌ آخر: الءسكندر، الشرق، الفرات، بلق، ترك، خدي، دجل، درن، وغيرُها"
   },
   {
+   "european": "Physician",
+   "arabic_root": "فسق",
+   "author_translit": "fasaq",
+   "arabic_gloss": "come out, bring forth",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Pickle",
    "arabic_root": "بقل",
    "author_translit": "baql",
@@ -22113,6 +23221,14 @@
    "arabic_gloss": "pant; short trousers",
    "source": "jassem-2014-mathematical",
    "bridge_agrees": "جذرٌ آخر: ءلو، ءني، ادر، ام، با، باك، بدل، بذل، وغيرُها"
+  },
+  {
+   "european": "Plague",
+   "arabic_root": "بجل",
+   "author_translit": "bajal",
+   "arabic_gloss": "oral disease",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Plan",
@@ -22443,6 +23559,14 @@
    "bridge_agrees": "جذرٌ آخر: ءرز، ءرك، ءرم، ءس، با، بتل، برزين، بطم، وغيرُها"
   },
   {
+   "european": "Pore",
+   "arabic_root": "بءر",
+   "author_translit": "bu'ra(t)",
+   "arabic_gloss": "hole, pore",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Pork",
    "arabic_root": "بس",
    "author_translit": "biss(at)",
@@ -22484,10 +23608,26 @@
   },
   {
    "european": "Possessed",
+   "arabic_root": "ربص",
+   "author_translit": "rabaS",
+   "arabic_gloss": "to press down",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: دلك، نوء"
+  },
+  {
+   "european": "Possessed",
+   "arabic_root": "قشب",
+   "author_translit": "qashab",
+   "arabic_gloss": "soul, self, spirit, mind",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءمر، شبح، نفس"
+  },
+  {
+   "european": "Possessed",
    "arabic_root": "مس",
    "author_translit": "masasa",
    "arabic_gloss": "possessed, touched",
-   "source": "jassem-2014-divine-theological · jassem-2015-life-death",
+   "source": "jassem-2014-divine-theological · jassem-2015-life-death · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: ءثر، بصم، جن، جنن، حسد، رب، سكن، طرب، وغيرُها"
   },
   {
@@ -23139,6 +24279,38 @@
    "bridge_agrees": "جذرٌ آخر: حصر، دون، ربو، ربي، زحم، شوش، طلي، قبط"
   },
   {
+   "european": "Puke",
+   "arabic_root": "بخ",
+   "author_translit": "bakhkha",
+   "arabic_gloss": "to mouth-spray",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: اب، الفوه، بخر، بزق، بسم، بصق، بق، بلع، وغيرُها"
+  },
+  {
+   "european": "Puke",
+   "arabic_root": "حرف",
+   "author_translit": "2arf",
+   "arabic_gloss": "letter; curve",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Puke",
+   "arabic_root": "در",
+   "author_translit": "durra(t)",
+   "arabic_gloss": "staff, rod; star, shining",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: عصا، عصو، قضب"
+  },
+  {
+   "european": "Puke",
+   "arabic_root": "رقم",
+   "author_translit": "raqam",
+   "arabic_gloss": "letter, writing, marking",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Pull",
    "arabic_root": "بل",
    "author_translit": "balla",
@@ -23787,6 +24959,22 @@
    "bridge_agrees": "جذرٌ آخر: ءخذ، ءدي، ءذن، ءنف، النواة، بردع، بشر، بوز، وغيرُها"
   },
   {
+   "european": "Recovery",
+   "arabic_root": "رع",
+   "author_translit": "rai3",
+   "arabic_gloss": "return",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءبد، ءجر، ءوب، ءول، ءيض، ب، باء، ثاب، وغيرُها"
+  },
+  {
+   "european": "Recovery",
+   "arabic_root": "كفر",
+   "author_translit": "kafar",
+   "arabic_gloss": "cover with dust",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Recur",
    "arabic_root": "تكر",
    "author_translit": "takarrar",
@@ -24033,6 +25221,46 @@
    "arabic_gloss": "sleep",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها"
+  },
+  {
+   "european": "Remedy",
+   "arabic_root": "صت",
+   "author_translit": "Saat",
+   "arabic_gloss": "talk, shout",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: دعا"
+  },
+  {
+   "european": "Remedy",
+   "arabic_root": "صحت",
+   "author_translit": "Si22at",
+   "arabic_gloss": "health",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: برء، حال، حم، خلط، خير، سلم، شفي، صح، وغيرُها"
+  },
+  {
+   "european": "Remedy",
+   "arabic_root": "صوب",
+   "author_translit": "Sawb",
+   "arabic_gloss": "under, falling",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ثلج، سقط، قبو، هوي، وقع"
+  },
+  {
+   "european": "Remedy",
+   "arabic_root": "مذق",
+   "author_translit": "madhaq",
+   "arabic_gloss": "to mix milk with water",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: اه، جهر، خصي، خمر، رخ، زبد، سيل، شرب، وغيرُها"
+  },
+  {
+   "european": "Remedy",
+   "arabic_root": "مرض",
+   "author_translit": "maraD",
+   "arabic_gloss": "treatment; disease",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Repentance",
@@ -24288,6 +25516,14 @@
    "author_translit": "waarid",
    "arabic_gloss": "coming, approaching",
    "source": "jassem-2015-life-death",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Rheumatism",
+   "arabic_root": "سلم",
+   "author_translit": "salim",
+   "arabic_gloss": "safe, secure",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -25075,6 +26311,14 @@
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
+   "european": "Sanity",
+   "arabic_root": "زن",
+   "author_translit": "zain(at)",
+   "arabic_gloss": "fine, well, beautiful, healthy",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: زين"
+  },
+  {
    "european": "Sarcasm",
    "arabic_root": "زدر",
    "author_translit": "izdara",
@@ -25195,6 +26439,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Scabies",
+   "arabic_root": "جرب",
+   "author_translit": "jarab",
+   "arabic_gloss": "scabies",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Scale",
    "arabic_root": "تسلق",
    "author_translit": "tasallaqa",
@@ -25225,6 +26477,30 @@
    "arabic_gloss": "shake",
    "source": "jassem-2013-movement-action",
    "bridge_agrees": "جذرٌ آخر: تعع، جلجل، جهر، خضخض، خطر، رتج، رج، رجح، وغيرُها"
+  },
+  {
+   "european": "Scar",
+   "arabic_root": "سقر",
+   "author_translit": "saqar",
+   "arabic_gloss": "fire",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ثفي، جحم، جذو، حرق، حطب، حمر، خلو، دفء، وغيرُها"
+  },
+  {
+   "european": "Scar",
+   "arabic_root": "شقص",
+   "author_translit": "shaqaSa",
+   "arabic_gloss": "cut, split",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بحر، شبح، شرط، شطف، شعب، فطر، قدد، قسم، وغيرُها"
+  },
+  {
+   "european": "Scar",
+   "arabic_root": "كسر",
+   "author_translit": "kasar",
+   "arabic_gloss": "break, fraction",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Scent",
@@ -25264,6 +26540,14 @@
    "author_translit": "qaSSa",
    "arabic_gloss": "cut, cutter",
    "source": "jassem-2013-cutting-breaking",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sclerosis",
+   "arabic_root": "صخر",
+   "author_translit": "Sakhr",
+   "arabic_gloss": "stone, rock; hardness",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -25353,6 +26637,14 @@
    "arabic_gloss": "cut",
    "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
+  },
+  {
+   "european": "Scratch",
+   "arabic_root": "قشر",
+   "author_translit": "qashar",
+   "arabic_gloss": "peel off",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Scream",
@@ -25615,7 +26907,7 @@
    "arabic_root": "تشق",
    "author_translit": "tashaqqaq",
    "arabic_gloss": "to dissect",
-   "source": "jassem-2013-cutting-breaking",
+   "source": "jassem-2013-cutting-breaking · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: خربق، شرح"
   },
   {
@@ -25625,6 +26917,14 @@
    "arabic_gloss": "to dissect",
    "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "جذرٌ آخر: خربق، شرح"
+  },
+  {
+   "european": "Section",
+   "arabic_root": "شقتن",
+   "author_translit": "shaqq(atun)",
+   "arabic_gloss": "a cutting, split",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: شعب، قد، قسم"
   },
   {
    "european": "Security Council",
@@ -26003,6 +27303,14 @@
    "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، ام، باك، بت، بتر، بتل، وغيرُها"
   },
   {
+   "european": "Sew",
+   "arabic_root": "سو",
+   "author_translit": "sawwa",
+   "arabic_gloss": "to put together, mend",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ثمم"
+  },
+  {
    "european": "Sewage",
    "arabic_root": "سيق",
    "author_translit": "siyaaq",
@@ -26089,6 +27397,14 @@
    "arabic_gloss": "short",
    "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "جذرٌ آخر: ءلو، ءني، ادر، با، باك، برص، برق، بقي، وغيرُها"
+  },
+  {
+   "european": "Shed",
+   "arabic_root": "جد",
+   "author_translit": "jadda",
+   "arabic_gloss": "cut",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
   },
   {
    "european": "Sheep",
@@ -26216,6 +27532,14 @@
    "author_translit": "rajaf",
    "arabic_gloss": "shiver",
    "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Shiver perhaps",
+   "arabic_root": "رجف",
+   "author_translit": "rajaf",
+   "arabic_gloss": "to shiver",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -26385,6 +27709,30 @@
    "arabic_gloss": "(n), 2ayi (adj.), ista2a (v)",
    "source": "jassem-2013-love",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Sick",
+   "arabic_root": "شكع",
+   "author_translit": "shaki3",
+   "arabic_gloss": "often ill",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: حرم، خل، سخن، سود، نقع، وهم"
+  },
+  {
+   "european": "Sick",
+   "arabic_root": "شوق",
+   "author_translit": "shawq",
+   "arabic_gloss": "longing for",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sick",
+   "arabic_root": "قن",
+   "author_translit": "qina",
+   "arabic_gloss": "bend, curve; nose bend",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءطر، ثني، حجن، حرف، حنا، حنو، حني، ضلع، وغيرُها"
   },
   {
    "european": "Sickle",
@@ -27115,6 +28463,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Soap",
+   "arabic_root": "سد",
+   "author_translit": "sadeed",
+   "arabic_gloss": "true",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءكد، بذر، برهن، بزر، بوق، ثبت، جاموس، جهنم، وغيرُها"
+  },
+  {
+   "european": "Soap",
+   "arabic_root": "صبن",
+   "author_translit": "Saboon",
+   "arabic_gloss": "soap",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Software",
    "arabic_root": "صف",
    "author_translit": "Saafi(at)",
@@ -27249,6 +28613,22 @@
    "arabic_gloss": "sound",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sore",
+   "arabic_root": "جءر",
+   "author_translit": "jaa'ir",
+   "arabic_gloss": "a sore (throat)",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جدر"
+  },
+  {
+   "european": "Sore",
+   "arabic_root": "جرو",
+   "author_translit": "jarwa(t)",
+   "arabic_gloss": "a sore (throat)",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: جدر"
   },
   {
    "european": "Sorrow",
@@ -27979,6 +29359,14 @@
    "bridge_agrees": "جذرٌ آخر: سقي"
   },
   {
+   "european": "Stool",
+   "arabic_root": "جلس",
+   "author_translit": "jalas",
+   "arabic_gloss": "sit",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Stop",
    "arabic_root": "قلب",
    "author_translit": "qalab",
@@ -28227,6 +29615,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Stroke",
+   "arabic_root": "سبت",
+   "author_translit": "subaat",
+   "arabic_gloss": "stillness; sleep",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Stroke",
+   "arabic_root": "طرق",
+   "author_translit": "Taraq",
+   "arabic_gloss": "hit",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بطش، جبل، جبه، جلد، جنب، جهر، جوف، حكم، وغيرُها"
+  },
+  {
    "european": "Structure",
    "arabic_root": "صرح",
    "author_translit": "Sar2",
@@ -28441,6 +29845,46 @@
    "arabic_gloss": "think",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: ءتي، ءلف، ءمل، بعد، جن، جول، حس، خيل، وغيرُها"
+  },
+  {
+   "european": "Surgery",
+   "arabic_root": "جمع",
+   "author_translit": "jamee3",
+   "arabic_gloss": "all, together",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Surgery",
+   "arabic_root": "شول",
+   "author_translit": "shawal",
+   "arabic_gloss": "to lift, heap; to become little",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Surgery",
+   "arabic_root": "كهل",
+   "author_translit": "kaahil",
+   "arabic_gloss": "shoulder, arm",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Surgery",
+   "arabic_root": "هبط",
+   "author_translit": "habaT",
+   "arabic_gloss": "fall",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Surgery",
+   "arabic_root": "وسن",
+   "author_translit": "wasan",
+   "arabic_gloss": "sleepiness",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: سنة، عس"
   },
   {
    "european": "Surmount",
@@ -28948,10 +30392,34 @@
   },
   {
    "european": "Tear",
+   "arabic_root": "ءضرم",
+   "author_translit": "'aDram",
+   "arabic_gloss": "lighting up, burning",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءجج، بخر، ثري، جحم، جف، جمر، حرر، حرق، وغيرُها"
+  },
+  {
+   "european": "Tear",
+   "arabic_root": "برء",
+   "author_translit": "bari'a(t)",
+   "arabic_gloss": "heal",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Tear",
+   "arabic_root": "تبرءت",
+   "author_translit": "tabri'at",
+   "arabic_gloss": "heal",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: برء، جلب، حك، دمل، رقي، زمن، شفي، طبب، وغيرُها"
+  },
+  {
+   "european": "Tear",
    "arabic_root": "تر",
    "author_translit": "tarra",
    "arabic_gloss": "tear, cut",
-   "source": "jassem-2013-cutting-breaking",
+   "source": "jassem-2013-cutting-breaking · jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -28964,10 +30432,42 @@
   },
   {
    "european": "Tear",
+   "arabic_root": "رمض",
+   "author_translit": "ramDa",
+   "arabic_gloss": ", ramDa(t)",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Tear",
+   "arabic_root": "ضرم",
+   "author_translit": "Diraam",
+   "arabic_gloss": "lighting up, burning",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Tear",
+   "arabic_root": "طن",
+   "author_translit": "Tann(at)",
+   "arabic_gloss": "ringing",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Tear",
    "arabic_root": "قطر",
    "author_translit": "qaTr(at)",
    "arabic_gloss": "drop",
    "source": "jassem-2013-water-sea",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Tear",
+   "arabic_root": "وقت",
+   "author_translit": "waqt",
+   "arabic_gloss": "time",
+   "source": "jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -30067,6 +31567,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Treatment",
+   "arabic_root": "قل",
+   "author_translit": "qal(eel)",
+   "arabic_gloss": "small",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءس، ءكل، ا، الثمن، باك، بب، بحثر، بخ، وغيرُها"
+  },
+  {
    "european": "Treaty",
    "arabic_root": "ءل",
    "author_translit": "'ul",
@@ -30505,6 +32013,14 @@
    "arabic_gloss": "tyrant",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: بدد، جبر، ربب، طغي، ظلم، فرع"
+  },
+  {
+   "european": "Type",
+   "arabic_root": "طف",
+   "author_translit": "Tafa",
+   "arabic_gloss": "extinguish, put out; float",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: خمد، طفء، موت، هلك"
   },
   {
    "european": "Typhoon",
@@ -31051,6 +32567,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Virus",
+   "arabic_root": "فرس",
+   "author_translit": "fars(at)",
+   "arabic_gloss": "neck disease; extreme discomfort",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: برص، رث، سقم، ضبب، كاف، مرض"
+  },
+  {
    "european": "Viscount",
    "arabic_root": "قم",
    "author_translit": "qaiem(at)",
@@ -31087,7 +32611,7 @@
    "arabic_root": "فم",
    "author_translit": "famm",
    "arabic_gloss": "mouth",
-   "source": "jassem-2014-wining-dining",
+   "source": "jassem-2014-wining-dining · jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -31343,7 +32867,7 @@
    "arabic_root": "حم",
    "author_translit": "2amm",
    "arabic_gloss": "warm, hot",
-   "source": "jassem-2013-water-sea · jassem-2013-air-fire",
+   "source": "jassem-2013-water-sea · jassem-2013-air-fire · jassem-2015-medical",
    "bridge_agrees": "نعم"
   },
   {
@@ -31351,7 +32875,7 @@
    "arabic_root": "حموت",
    "author_translit": "2amaawat",
    "arabic_gloss": "hot, heat",
-   "source": "jassem-2013-air-fire",
+   "source": "jassem-2013-air-fire · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: ءجج، جمر، حر، حرر، حرق، حم، حمم، حمي، وغيرُها"
   },
   {
@@ -31627,6 +33151,14 @@
    "bridge_agrees": "جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها"
   },
   {
+   "european": "Weak",
+   "arabic_root": "فقر",
+   "author_translit": "faqeer",
+   "arabic_gloss": "poor, weak",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Weapons of mass destruction",
    "arabic_root": "فت",
    "author_translit": "faat",
@@ -31663,7 +33195,7 @@
    "arabic_root": "ور",
    "author_translit": "waara",
    "arabic_gloss": "to hide, to wear",
-   "source": "jassem-2016-fashion",
+   "source": "jassem-2016-fashion · jassem-2015-medical",
    "bridge_agrees": "جذرٌ آخر: حجب"
   },
   {
@@ -31787,6 +33319,14 @@
    "bridge_agrees": "جذرٌ آخر: ءقي، بخص، بشع، بوم، تبل، جحم، جفن، جن، وغيرُها"
   },
   {
+   "european": "Well",
+   "arabic_root": "فل",
+   "author_translit": "fail",
+   "arabic_gloss": "much",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءبل، ءكل، برع، بق، تعب، ثقل، ثمل، ثوم، وغيرُها"
+  },
+  {
    "european": "Wet",
    "arabic_root": "لو",
    "author_translit": "lawa",
@@ -31881,6 +33421,14 @@
    "arabic_gloss": "eye",
    "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "جذرٌ آخر: ءقي، بخص، بشع، بوم، تبل، جحم، جفن، جن، وغيرُها"
+  },
+  {
+   "european": "Whine",
+   "arabic_root": "هوء",
+   "author_translit": "hawaa'",
+   "arabic_gloss": "air",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها"
   },
   {
    "european": "Whisky",
@@ -32260,6 +33808,14 @@
   },
   {
    "european": "Wither",
+   "arabic_root": "ذو",
+   "author_translit": "dhawa",
+   "arabic_gloss": "wither",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: دثر، ذوي، شهب، صعق، ضمر، قب، قحل، قفل"
+  },
+  {
+   "european": "Wither",
    "arabic_root": "فتر",
    "author_translit": "fatar",
    "arabic_gloss": "to weaken",
@@ -32468,11 +34024,43 @@
   },
   {
    "european": "Worse",
+   "arabic_root": "در",
+   "author_translit": "durr(at)",
+   "arabic_gloss": "staff, rod; star, shining",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: عصا، عصو، قضب"
+  },
+  {
+   "european": "Worse",
+   "arabic_root": "سء",
+   "author_translit": "soo'",
+   "arabic_gloss": "badness",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ردء، سوء، شرر، قبح"
+  },
+  {
+   "european": "Worse",
    "arabic_root": "نبه",
    "author_translit": "nubh",
    "arabic_gloss": "arise from sleep",
    "source": "jassem-2015-life-death",
    "bridge_agrees": "جذرٌ آخر: ءتي، ءرق، بثق، بعث، بقق، تنا، جثم، جيل، وغيرُها"
+  },
+  {
+   "european": "Worse",
+   "arabic_root": "نر",
+   "author_translit": "noor",
+   "arabic_gloss": "light",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها"
+  },
+  {
+   "european": "Worse",
+   "arabic_root": "نور",
+   "author_translit": "nuwair",
+   "arabic_gloss": "light",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Worship",
@@ -32505,6 +34093,14 @@
    "arabic_gloss": "cut",
    "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
+  },
+  {
+   "european": "Wound",
+   "arabic_root": "ودن",
+   "author_translit": "wadan",
+   "arabic_gloss": "skin softening; beating; shortage",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: ءدم، بثر، بجل، برش، برغش، بض، بن، بنج، وغيرُها"
   },
   {
    "european": "Write",
@@ -32945,6 +34541,14 @@
    "arabic_gloss": "mint",
    "source": "jassem-2016-floral",
    "bridge_agrees": "جذرٌ آخر: جعد، حبق، خيت، دنر، سك، ضرب، ضرم، فلي، وغيرُها"
+  },
+  {
+   "european": "Zygote",
+   "arabic_root": "مذق",
+   "author_translit": "madheeq",
+   "arabic_gloss": "liar; mixer",
+   "source": "jassem-2015-medical",
+   "bridge_agrees": "جذرٌ آخر: بء، خرط، خفق، خلط، دجل، كذب، نصب، ولع"
   }
  ]
 }
