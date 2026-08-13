@@ -59835,7 +59835,26 @@
         "`w` + `و` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4299,
+              "source_row_index_at_freeze": 4299,
+              "source_row_key": "91117890dcf5cd8dbd3d125e",
+              "european": "Twin",
+              "arabic_root": "توءم",
+              "author_translit": "taw'am",
+              "arabic_gloss": "twin",
+              "source": "jassem-2014-mathematical · jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: العيص، عيس، وءم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-132",
@@ -103647,6 +103666,23 @@
               "arabic_gloss": "work",
               "source": "jassem-2013-movement-action",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4604,
+              "source_row_index_at_freeze": 4604,
+              "source_row_key": "10c571a543133c576068346d",
+              "european": "Work",
+              "arabic_root": "حقت",
+              "author_translit": "a2aqqiat",
+              "arabic_gloss": "right, law, actual",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: حقق، خلع، عدل، عمي، نقض"
             }
           ]
         }

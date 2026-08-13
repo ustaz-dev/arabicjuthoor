@@ -10917,6 +10917,34 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4463,
+              "source_row_index_at_freeze": 4463,
+              "source_row_key": "a6c1a80f1e2100beec2d30fa",
+              "european": "Water",
+              "arabic_root": "قرءت",
+              "author_translit": "qira'at",
+              "arabic_gloss": "reading",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: حزب، صحف، ضد، قرء، كتب"
+            },
+            {
+              "source_row_index": 4464,
+              "source_row_index_at_freeze": 4464,
+              "source_row_key": "557cd4bd7790adc2d47701ba",
+              "european": "Water",
+              "arabic_root": "قطر",
+              "author_translit": "qaTr",
+              "arabic_gloss": "water",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: ءجن، ءرض، ءس، ءسقي، ءفك، ءهر، ار، الدلو، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -11691,7 +11719,26 @@
         "`w` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4511,
+              "source_row_index_at_freeze": 4511,
+              "source_row_key": "cab924d9aa17ab0e520bd5be",
+              "european": "Wet",
+              "arabic_root": "لو",
+              "author_translit": "lawa",
+              "arabic_gloss": "turn",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: ءتي، ءسلم، ءفك، ءول، ءيض، بخر، برم، بعثر، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0484",
@@ -14393,7 +14440,26 @@
         "`y` + `ي` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4312,
+              "source_row_index_at_freeze": 4312,
+              "source_row_key": "8b7656d71b9c07b3b5f025ac",
+              "european": "Typhoon",
+              "arabic_root": "طفن",
+              "author_translit": "Toofaan",
+              "arabic_gloss": "flooding",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: سد، سدد، غرق، غمر"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0493",
@@ -31997,7 +32063,26 @@
         "`w` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4597,
+              "source_row_index_at_freeze": 4597,
+              "source_row_key": "fb899caa5c2e9d062c1879ea",
+              "european": "Wood",
+              "arabic_root": "وجد",
+              "author_translit": "wajda(t)",
+              "arabic_gloss": "cut (fire) wood",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: جذو، حطب، خشب، شعل، صلب، عض، فسق، فصل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0528",
@@ -71709,7 +71794,26 @@
       "deficiencies": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4368,
+              "source_row_index_at_freeze": 4368,
+              "source_row_key": "3533630ae827db029c2ea52f",
+              "european": "Via",
+              "arabic_root": "وفي",
+              "author_translit": "wafy",
+              "arabic_gloss": "upland, high ground",
+              "source": "jassem-2014-prepositions",
+              "bridge_agrees": "جذرٌ آخر: شير، صعد، عين، قبر، قفف"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0583",

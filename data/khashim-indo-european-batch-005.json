@@ -1878,7 +1878,26 @@
         "`w` + `و` + «القوطيّة/Gothic» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4429,
+              "source_row_index_at_freeze": 4429,
+              "source_row_key": "c4d32b026a6dda91b1d3b8e2",
+              "european": "Wake",
+              "arabic_root": "فق",
+              "author_translit": "faaqa",
+              "arabic_gloss": "wake",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "جذرٌ آخر: سحر، صبح، صحح، صحو، فوق، نبه، نفض، يقظ"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0627",
@@ -64958,6 +64977,34 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4397,
+              "source_row_index_at_freeze": 4397,
+              "source_row_key": "aef25f59d246da32431f0cec",
+              "european": "Vine",
+              "arabic_root": "ون",
+              "author_translit": "wain",
+              "arabic_gloss": "grapes",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: بيت، بيد، جفن، حرص، حصرم، خرط، خصل، خمر، وغيرُها"
+            },
+            {
+              "source_row_index": 4562,
+              "source_row_index_at_freeze": 4562,
+              "source_row_key": "b8a41d96b1177b0cf41926da",
+              "european": "Wine",
+              "arabic_root": "ون",
+              "author_translit": "wain",
+              "arabic_gloss": "grapes",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: بيت، بيد، جفن، حرص، حصرم، خرط، خصل، خمر، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -65886,6 +65933,67 @@
               "arabic_gloss": "flame, heat",
               "source": "jassem-2013-air-fire",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4553,
+              "source_row_index_at_freeze": 4553,
+              "source_row_key": "5c4f8cbc94ca85e9faa7c810",
+              "european": "Wind",
+              "arabic_root": "صبر",
+              "author_translit": "Sabeer",
+              "arabic_gloss": "type of rain or wind",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: عثن"
+            },
+            {
+              "source_row_index": 4556,
+              "source_row_index_at_freeze": 4556,
+              "source_row_key": "d9c850b133a4ad95615b9cd2",
+              "european": "Wind",
+              "arabic_root": "ند",
+              "author_translit": "nada",
+              "arabic_gloss": "dew",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: برد، ثري، رفف، طل، طلل، لعب، ندي"
+            },
+            {
+              "source_row_index": 4557,
+              "source_row_index_at_freeze": 4557,
+              "source_row_key": "b217933bc3cba70c74522a7f",
+              "european": "Wind",
+              "arabic_root": "ندو",
+              "author_translit": "nadwa(t)",
+              "arabic_gloss": "dew",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: برد، ثري، رفف، طل، طلل، لعب، ندي"
+            },
+            {
+              "source_row_index": 4558,
+              "source_row_index_at_freeze": 4558,
+              "source_row_key": "3f974d0fc2fc119931b2883b",
+              "european": "Wind",
+              "arabic_root": "هو",
+              "author_translit": "hawia(t)",
+              "arabic_gloss": "airy",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: سمد"
+            },
+            {
+              "source_row_index": 4559,
+              "source_row_index_at_freeze": 4559,
+              "source_row_key": "0a83473c03c9efe6dd223523",
+              "european": "Wind",
+              "arabic_root": "هوء",
+              "author_translit": "hawaa'",
+              "arabic_gloss": "air",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها"
             }
           ]
         }

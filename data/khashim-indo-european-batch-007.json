@@ -10604,6 +10604,45 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 16,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4530,
+              "source_row_index_at_freeze": 4530,
+              "source_row_key": "7e2006e0b00775ecc1a50b93",
+              "european": "White",
+              "arabic_root": "سم",
+              "author_translit": "ism",
+              "arabic_gloss": "name",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 4531,
+              "source_row_index_at_freeze": 4531,
+              "source_row_key": "9c19046c064b510c35d79c2c",
+              "european": "White",
+              "arabic_root": "لءم",
+              "author_translit": "la'ma(t)",
+              "arabic_gloss": "battle head gear",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "جذرٌ آخر: حرب، شعر"
+            },
+            {
+              "source_row_index": 4532,
+              "source_row_index_at_freeze": 4532,
+              "source_row_key": "ca7aca4ece236696e350f7b7",
+              "european": "White",
+              "arabic_root": "لب",
+              "author_translit": "labba",
+              "arabic_gloss": "respond, ask",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "جذرٌ آخر: ءبو، ءتي، ءذن، ءمر، ءنس، ءوي، بدر، برء، وغيرُها"
+            }
+          ]
         }
       ]
     },
