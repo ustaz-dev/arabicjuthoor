@@ -5694,7 +5694,8 @@
           "attestation": "local-snapshot",
           "branch_meaning": "- الكلمة في الفرع ومعناها: `τέχνη`؛ POS=noun؛ «craft, skill, trade | art | cunning, wile | means» [Kaikki Ancient Greek، سطر JSONL 820، بلا رتوش].",
           "source_rows": [
-            417
+            417,
+            3266
           ]
         },
         {
@@ -5781,6 +5782,7 @@
         422,
         423,
         424,
+        3266,
         3268,
         3599,
         4176,
@@ -5918,6 +5920,17 @@
           "source": "ocr-khashim-emperors",
           "book": "khashim-emperors",
           "page": 140
+        },
+        {
+          "tongue_ar": "اليونانيّة",
+          "tongue": "greek",
+          "foreign": "tekhne",
+          "foreign_sense": "فن؛ صنعة؛ تقنية",
+          "arabic_root": "تقن",
+          "arabic_gloss": "ردّ tekhne إلى تقن.",
+          "source": "ocr-khashim-journey1",
+          "book": "khashim-journey1",
+          "page": 484
         }
       ],
       "fan_reviews": [
@@ -6604,7 +6617,10 @@
         "`t` + `ط` + «اليونانيّة القديمة/Ancient Greek» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        3266
+      ]
     },
     {
       "merged_card_id": "KIE-M0155",

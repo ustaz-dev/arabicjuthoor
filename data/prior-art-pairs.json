@@ -13,6 +13,7 @@
   "jassem-verb-to-be",
   "jassem-2012-determiners",
   "jassem-2012-number-gender",
+  "jassem-2012-religious",
   "jassem-2013-derivational",
   "jassem-2013-negative-particles",
   "jassem-2013-water-sea",
@@ -20,15 +21,19 @@
   "jassem-2013-animal",
   "jassem-2013-speech-writing",
   "jassem-2013-time",
+  "jassem-2013-love",
   "jassem-2013-cutting-breaking",
   "jassem-2013-movement-action",
   "jassem-2013-perceptual-sensual",
   "jassem-2014-divine-theological",
   "jassem-2014-prepositions",
+  "jassem-2014-question-modal",
+  "jassem-2014-commerce",
   "jassem-2014-mathematical",
   "jassem-2014-basque-finnish",
   "jassem-2015-case-word-order",
   "jassem-2015-military",
+  "jassem-2015-legal",
   "jassem-2015-democratic",
   "jassem-2015-negation-world",
   "jassem-2015-plural-markers",
@@ -58,6 +63,7 @@
   "jassem-verb-to-be": "https://journals.aiac.org.au/index.php/IJALEL/article/viewFile/830/762",
   "jassem-2012-determiners": "https://languageinindia.com/nov2012/jassemdeterminersfinal.pdf",
   "jassem-2012-number-gender": "https://languageinindia.com/dec2012/jassemarabicgender.pdf",
+  "jassem-2012-religious": "https://web.archive.org/web/20150330231748id_/http://journals.aiac.org.au/index.php/IJALEL/article/download/800/731",
   "jassem-2013-derivational": "https://languageinindia.com/jan2013/jassemderive.pdf",
   "jassem-2013-negative-particles": "https://languageinindia.com/jan2013/jassemnegativefinal.pdf",
   "jassem-2013-water-sea": "https://languageinindia.com/feb2013/jassemwater.pdf",
@@ -65,15 +71,19 @@
   "jassem-2013-animal": "https://languageinindia.com/april2013/jassemanimaltermsfinal.pdf",
   "jassem-2013-speech-writing": "https://languageinindia.com/may2013/jassemtermsfinal2.pdf",
   "jassem-2013-time": "https://languageinindia.com/june2013/jassemtimetermsfinal.pdf",
+  "jassem-2013-love": "https://web.archive.org/web/20160414135432id_/http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijll.20130104.13.pdf",
   "jassem-2013-cutting-breaking": "http://www.rjelal.com/RJELAL%201.2/RJELAL%201.2.%20pp%20155-168.pdf",
   "jassem-2013-movement-action": "http://www.rjelal.com/RJELAL%20VOL.1.ISSUE.3/ZAIDAN%20ALI%20JASSEM%20187-202.pdf",
   "jassem-2013-perceptual-sensual": "http://www.rjelal.com/RJELAL%20VOL.1.ISSUE.3/ZAIDAN%20ALI%20JASSEM%20213-224.pdf",
   "jassem-2014-divine-theological": "https://languageinindia.com/march2014/jassemtheologicalterms1.pdf",
   "jassem-2014-prepositions": "https://www.macrothink.org/journal/index.php/jsel/article/download/5056/4078",
+  "jassem-2014-question-modal": "https://web.archive.org/web/20160414135247id_/http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijll.20140201.13.pdf",
+  "jassem-2014-commerce": "https://web.archive.org/web/20160414134728id_/http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijll.20140205.15.pdf",
   "jassem-2014-mathematical": "https://www.arcjournals.org/pdfs/ijsell/v2-i5/4.pdf",
   "jassem-2014-basque-finnish": "https://pdfs.semanticscholar.org/4be9/7789652dec742056bbe617e9a3a7b6089502.pdf",
   "jassem-2015-case-word-order": "https://languageinindia.com/march2015/jassemcasemarkings.pdf",
   "jassem-2015-military": "https://languageinindia.com/may2015/jassemmilitary.pdf",
+  "jassem-2015-legal": "https://web.archive.org/web/20170706110525id_/http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijalt.20150103.11.pdf",
   "jassem-2015-democratic": "https://joell.in/wp-content/uploads/2015/08/A-Radical-Linguistic-Theory.pdf",
   "jassem-2015-negation-world": "https://joell.in/wp-content/uploads/2015/10/Negation-in-World-Languages.pdf",
   "jassem-2015-plural-markers": "https://journal.uniku.ac.id/index.php/IEFLJ/article/download/623/480",
@@ -157,7 +167,7 @@
   {
    "source": "jassem-2016-campbell-ojs",
    "url": "https://ijellh.com/OJS/index.php/OJS/article/download/1705/8672",
-   "reason": "ردّ مسارُ OJS القديم 404"
+   "reason": "ردّ المسارُ الحالي 404؛ ولقطتُه المؤرشفةُ مقالٌ لصمويل دوكو لا بحثُ جاسم"
   },
   {
    "source": "jassem-2012-religious-scispace",
@@ -190,14 +200,14 @@
    "reason": "ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح"
   }
  ],
- "pairs": 3662,
+ "pairs": 4092,
  "stats": {
-  "papers_downloaded": 43,
-  "with_european_head": 3535,
-  "head_coverage": 0.9653,
-  "bridge_agrees": 1363,
-  "unique_roots": 1728,
-  "roots_in_positive_cards": 277
+  "papers_downloaded": 48,
+  "with_european_head": 3957,
+  "head_coverage": 0.967,
+  "bridge_agrees": 1509,
+  "unique_roots": 1863,
+  "roots_in_positive_cards": 287
  },
  "rows": [
   {
@@ -211,10 +221,10 @@
   {
    "european": "",
    "arabic_root": "ءر",
-   "author_translit": "'air",
-   "arabic_gloss": "air, wind",
-   "source": "jassem-2017-harper-review · jassem-2017-myth-fallacy",
-   "bridge_agrees": "جذرٌ آخر: جوو، ريح، نفخ، هوا"
+   "author_translit": "'arr",
+   "arabic_gloss": "intercourse, making love",
+   "source": "jassem-2013-love · jassem-2017-harper-review · jassem-2017-myth-fallacy",
+   "bridge_agrees": "جذرٌ آخر: عشق، وجد، وطء، وقع"
   },
   {
    "european": "",
@@ -290,11 +300,27 @@
   },
   {
    "european": "",
+   "arabic_root": "بع",
+   "author_translit": "bai3",
+   "arabic_gloss": "buy, sell",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
+  },
+  {
+   "european": "",
    "arabic_root": "بقر",
    "author_translit": "baqara(t)",
    "arabic_gloss": "cow",
    "source": "jassem-2013-animal · jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "",
+   "arabic_root": "بك",
+   "author_translit": "baak",
+   "arabic_gloss": "buy and sell",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
   },
   {
    "european": "",
@@ -317,8 +343,24 @@
    "arabic_root": "بن",
    "author_translit": "baien",
    "arabic_gloss": "clear, plain",
-   "source": "jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names",
+   "source": "jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names",
    "bridge_agrees": "جذرٌ آخر: بدو، بين، فصح، وضح"
+  },
+  {
+   "european": "",
+   "arabic_root": "بوك",
+   "author_translit": "bawk",
+   "arabic_gloss": "buy and sell",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
+  },
+  {
+   "european": "",
+   "arabic_root": "تجر",
+   "author_translit": "taajar",
+   "arabic_gloss": "trade",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "",
@@ -327,6 +369,14 @@
    "arabic_gloss": "emir, prince, ruler",
    "source": "jassem-2017-harper-review · jassem-2017-myth-fallacy",
    "bridge_agrees": "جذرٌ آخر: مير"
+  },
+  {
+   "european": "",
+   "arabic_root": "ته",
+   "author_translit": "tih",
+   "arabic_gloss": "this",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "",
@@ -341,7 +391,7 @@
    "arabic_root": "ثلث",
    "author_translit": "thalath",
    "arabic_gloss": "three",
-   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2018-week-days",
+   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2018-week-days",
    "bridge_agrees": "نعم"
   },
   {
@@ -365,7 +415,7 @@
    "arabic_root": "جم",
    "author_translit": "ajama(t)",
    "arabic_gloss": "dense trees, grove",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2014-question-modal",
    "bridge_agrees": "نعم"
   },
   {
@@ -374,6 +424,14 @@
    "author_translit": "jawhar(at)",
    "arabic_gloss": "jewel",
    "source": "jassem-2017-harper-review",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "",
+   "arabic_root": "حب",
+   "author_translit": "2ubb",
+   "arabic_gloss": "love, hope",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -510,6 +568,14 @@
    "author_translit": "salaam(at)",
    "arabic_gloss": "safety, peace",
    "source": "jassem-2014-divine-theological",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "",
+   "arabic_root": "شتر",
+   "author_translit": "ishtara",
+   "arabic_gloss": "buy",
+   "source": "jassem-2014-commerce",
    "bridge_agrees": "نعم"
   },
   {
@@ -805,7 +871,7 @@
    "arabic_root": "قرط",
    "author_translit": "qeeraaT",
    "arabic_gloss": "1/4",
-   "source": "jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2017-myth-fallacy · jassem-2018-week-days",
+   "source": "jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2017-myth-fallacy · jassem-2018-week-days",
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
@@ -874,6 +940,14 @@
   },
   {
    "european": "",
+   "arabic_root": "قو",
+   "author_translit": "qaawa",
+   "arabic_gloss": "buy & sell",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
+  },
+  {
+   "european": "",
    "arabic_root": "كبد",
    "author_translit": "kabd",
    "arabic_gloss": "liver",
@@ -925,7 +999,7 @@
    "arabic_root": "كف",
    "author_translit": "kaifa",
    "arabic_gloss": "how",
-   "source": "jassem-2014-prepositions",
+   "source": "jassem-2014-prepositions · jassem-2014-question-modal",
    "bridge_agrees": "جذرٌ آخر: ءني، ءين، برع، بصر، تقي، حبب، حجم، حرك، وغيرُها"
   },
   {
@@ -1157,7 +1231,7 @@
    "arabic_root": "هند",
    "author_translit": "hind(eed)",
    "arabic_gloss": "100",
-   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners",
+   "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2012-religious",
    "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
@@ -1241,12 +1315,28 @@
    "bridge_agrees": "جذرٌ آخر: دير"
   },
   {
+   "european": "Abhor",
+   "arabic_root": "كره",
+   "author_translit": "kariha",
+   "arabic_gloss": "hate",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Abide",
    "arabic_root": "ءبد",
    "author_translit": "'abada",
    "arabic_gloss": "dwell, stay",
    "source": "jassem-2015-urban",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Abide",
+   "arabic_root": "ءمض",
+   "author_translit": "'amDa",
+   "arabic_gloss": "permit, go",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءذن، ترك، جوز، حل، خفف، خلا، رخص، سمح، وغيرُها"
   },
   {
    "european": "Abide",
@@ -1258,10 +1348,50 @@
   },
   {
    "european": "Abide",
+   "arabic_root": "ذعر",
+   "author_translit": "dhu3r",
+   "arabic_gloss": "fear",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Abide",
+   "arabic_root": "شرط",
+   "author_translit": "shareeT",
+   "arabic_gloss": "cord, string",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Abide",
+   "arabic_root": "صدر",
+   "author_translit": "Sadr",
+   "arabic_gloss": "breast, heart",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Abide",
+   "arabic_root": "عقد",
+   "author_translit": "3aqd",
+   "arabic_gloss": "act, contract; connection; getting ready",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Abide",
+   "arabic_root": "قرض",
+   "author_translit": "qurD(at)",
+   "arabic_gloss": "a loan",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Abide",
    "arabic_root": "كم",
    "author_translit": "kama",
-   "arabic_gloss": "as, like",
-   "source": "jassem-2015-urban",
+   "arabic_gloss": "like",
+   "source": "jassem-2015-legal · jassem-2015-urban",
    "bridge_agrees": "نعم"
   },
   {
@@ -1271,6 +1401,14 @@
    "arabic_gloss": "extension; lying",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: را"
+  },
+  {
+   "european": "Abide",
+   "arabic_root": "مض",
+   "author_translit": "maDa",
+   "arabic_gloss": "permit, go",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءذن، ترك، جوز، حل، خفف، خلا، رخص، سمح، وغيرُها"
   },
   {
    "european": "Ablative",
@@ -1473,6 +1611,22 @@
    "bridge_agrees": "جذرٌ آخر: زمر، غني، مرق، نشد"
   },
   {
+   "european": "Accept",
+   "arabic_root": "جب",
+   "author_translit": "jaab",
+   "arabic_gloss": "bring",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءتي، ءحيا، ءدي، ءلف، ءهل، باء، برء، برز، وغيرُها"
+  },
+  {
+   "european": "Accept",
+   "arabic_root": "حت",
+   "author_translit": "2atta",
+   "arabic_gloss": "to, until",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءجل، ءخر، ءلو، ءما، الصرب، بطء، بون، جني، وغيرُها"
+  },
+  {
    "european": "Accusative",
    "arabic_root": "ضد",
    "author_translit": "Did",
@@ -1527,6 +1681,30 @@
    "arabic_gloss": "a horn; such a plant; acorn",
    "source": "jassem-2016-floral",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Acquire",
+   "arabic_root": "بعل",
+   "author_translit": "ba3l",
+   "arabic_gloss": "hire pay, salary, rent",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءجر"
+  },
+  {
+   "european": "Acquire",
+   "arabic_root": "بهل",
+   "author_translit": "bahl",
+   "arabic_gloss": "curse; little money",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Acquire",
+   "arabic_root": "نبك",
+   "author_translit": "nabk",
+   "arabic_gloss": "raised ground",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءبض، خال، خضر، دك، ضد، طبل، ميز، يد"
   },
   {
    "european": "Across",
@@ -1601,6 +1779,30 @@
    "bridge_agrees": "جذرٌ آخر: ءبب، ءل، ءن، ادي، بكا، بكي، بي، ثغا، وغيرُها"
   },
   {
+   "european": "Adolescent",
+   "arabic_root": "طلع",
+   "author_translit": "Tala3",
+   "arabic_gloss": "appear, grow up",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Adore",
+   "arabic_root": "حت",
+   "author_translit": "2atta",
+   "arabic_gloss": "to",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Adultery",
+   "arabic_root": "عطل",
+   "author_translit": "3aaTil(at)",
+   "arabic_gloss": "faithless, lewd, useless",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بطل، بور، بوق، حبط، خلف، خون، شبق، عبث، وغيرُها"
+  },
+  {
    "european": "Adventure",
    "arabic_root": "نفذ",
    "author_translit": "nafadha",
@@ -1633,6 +1835,46 @@
    "bridge_agrees": "جذرٌ آخر: خلف، فد، يابي"
   },
   {
+   "european": "Affair",
+   "arabic_root": "ءمر",
+   "author_translit": "'amr",
+   "arabic_gloss": "affair, order",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Affair",
+   "arabic_root": "وجد",
+   "author_translit": "wajd",
+   "arabic_gloss": "love-sorrow",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Affidavit",
+   "arabic_root": "ءجر",
+   "author_translit": "'ajeer(at)",
+   "arabic_gloss": "payee, wager",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: خطر، راه، رها"
+  },
+  {
+   "european": "Affidavit",
+   "arabic_root": "ءفدت",
+   "author_translit": "'ifadat",
+   "arabic_gloss": "report; benefit",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: فيد"
+  },
+  {
+   "european": "Affidavit",
+   "arabic_root": "قو",
+   "author_translit": "qawi(un)",
+   "arabic_gloss": "strong, powerful",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Affiliation",
    "arabic_root": "فل",
    "author_translit": "filu",
@@ -1663,6 +1905,70 @@
    "arabic_gloss": "after",
    "source": "jassem-2013-time · jassem-2014-prepositions",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Again they are taken",
+   "arabic_root": "بع",
+   "author_translit": "baa3",
+   "arabic_gloss": "to sell",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: بضض، بيع، تبن، دعا، روج، سوق، شري، شهر، وغيرُها"
+  },
+  {
+   "european": "Again they are taken",
+   "arabic_root": "رفق",
+   "author_translit": "rafeeq",
+   "arabic_gloss": "friend",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Again they are taken",
+   "arabic_root": "رفقن",
+   "author_translit": "rufqan",
+   "arabic_gloss": "friend",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: ءنس، بني، جي، حب، حبب، خدن، خل، خلل، وغيرُها"
+  },
+  {
+   "european": "Again they are taken",
+   "arabic_root": "شبه",
+   "author_translit": "shabah",
+   "arabic_gloss": "form",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Again they are taken",
+   "arabic_root": "كنس",
+   "author_translit": "kanees(at)",
+   "arabic_gloss": "church",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Again they are taken",
+   "arabic_root": "نصر",
+   "author_translit": "naSir",
+   "arabic_gloss": "victory, victorious",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Again they are taken",
+   "arabic_root": "نصرنت",
+   "author_translit": "naSraniat",
+   "arabic_gloss": "Christianity",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: القدس، بشر، جبريل، سيح، صر، قذ، نصر، وثن"
+  },
+  {
+   "european": "Again they are taken",
+   "arabic_root": "وغ",
+   "author_translit": "wagha",
+   "arabic_gloss": "war",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: ءب، بءس، بلو، ترس، ثخن، ثغر، جاش، جل، وغيرُها"
   },
   {
    "european": "Against",
@@ -1705,6 +2011,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Agenda",
+   "arabic_root": "قد",
+   "author_translit": "qaid(un)",
+   "arabic_gloss": "writing",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءرخ، ءشر، ءمر، بجد، بنط، تكء، جام، جل، وغيرُها"
+  },
+  {
    "european": "Aggression",
    "arabic_root": "درج",
    "author_translit": "daraja",
@@ -1725,8 +2039,16 @@
    "arabic_root": "قر",
    "author_translit": "aqarra",
    "arabic_gloss": "agree",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
    "bridge_agrees": "جذرٌ آخر: ءتي، تفق، جمع، حمل، رضو، صلح، صوب، طاع، وغيرُها"
+  },
+  {
+   "european": "Agree",
+   "arabic_root": "لءلء",
+   "author_translit": "la'la'",
+   "arabic_gloss": "shine",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Agreement",
@@ -1923,17 +2245,17 @@
   {
    "european": "Allow",
    "arabic_root": "ءحل",
-   "author_translit": "'a2all",
-   "arabic_gloss": "allow, permit",
-   "source": "jassem-2015-democratic",
-   "bridge_agrees": "جذرٌ آخر: ءذن، ترك، جوز، سمح، صرح"
+   "author_translit": "'a2alla",
+   "arabic_gloss": "allow, make lawful",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
+   "bridge_agrees": "جذرٌ آخر: بوح، جوز، حلل"
   },
   {
    "european": "Allow",
    "arabic_root": "حل",
    "author_translit": "2alal",
-   "arabic_gloss": "allow, permit",
-   "source": "jassem-2015-democratic",
+   "arabic_gloss": "allow, make lawful",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "نعم"
   },
   {
@@ -2031,6 +2353,30 @@
    "arabic_gloss": "on",
    "source": "jassem-2015-military",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Amicable",
+   "arabic_root": "عن",
+   "author_translit": "3aana(t)",
+   "arabic_gloss": "anus",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: است، حبق، دبر، ديل، ذنب، ذيل، رحض، سرم، وغيرُها"
+  },
+  {
+   "european": "Amicable",
+   "arabic_root": "عنتر",
+   "author_translit": "3antar(at)",
+   "arabic_gloss": "a powerful, daring man",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Amicable",
+   "arabic_root": "هم",
+   "author_translit": "haama",
+   "arabic_gloss": "to love madly",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: تيم، شغف، هيم"
   },
   {
    "european": "Ammunition",
@@ -2233,6 +2579,14 @@
    "bridge_agrees": "جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها"
   },
   {
+   "european": "Animosity",
+   "arabic_root": "حمست",
+   "author_translit": "2amaasat",
+   "arabic_gloss": "vehemence, enthusiasm",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: جمع، حرر، حم، حمس، سورة، شغف، كبب، كفت، وغيرُها"
+  },
+  {
    "european": "Annoy",
    "arabic_root": "نءج",
    "author_translit": "na'j",
@@ -2337,6 +2691,14 @@
    "bridge_agrees": "جذرٌ آخر: جب، حبن، سعد، غول، غيب، قرد، قلد، مون"
   },
   {
+   "european": "Appeals Court",
+   "arabic_root": "لب",
+   "author_translit": "labba",
+   "arabic_gloss": "say, answer",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها"
+  },
+  {
    "european": "Appear",
    "arabic_root": "ذن",
    "author_translit": "udhun",
@@ -2383,6 +2745,14 @@
    "arabic_gloss": "a palm-leaf meal spread",
    "source": "jassem-2016-fashion",
    "bridge_agrees": "جذرٌ آخر: صفح، فوفل، لبب"
+  },
+  {
+   "european": "Arbitration",
+   "arabic_root": "بد",
+   "author_translit": "bada",
+   "arabic_gloss": "go away",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءبد، ءبق، ءخذ، ءفك، ءفن، ءكل، ءلل، بت، وغيرُها"
   },
   {
    "european": "Arboreal",
@@ -2609,6 +2979,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Arouse",
+   "arabic_root": "ثر",
+   "author_translit": "athaara",
+   "arabic_gloss": "stir, arouse",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ثور، نبه"
+  },
+  {
    "european": "Arrive",
    "arabic_root": "رح",
    "author_translit": "raa2a",
@@ -2649,6 +3027,14 @@
    "bridge_agrees": "جذرٌ آخر: صور"
   },
   {
+   "european": "Arse",
+   "arabic_root": "شرج",
+   "author_translit": "sharj",
+   "arabic_gloss": "arse",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
    "european": "Art",
    "arabic_root": "صر",
    "author_translit": "Soora(t)",
@@ -2662,6 +3048,30 @@
    "author_translit": "anTaqa",
    "arabic_gloss": "pronounce",
    "source": "jassem-2013-speech-writing",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Article",
+   "arabic_root": "دورن",
+   "author_translit": "dawaran",
+   "arabic_gloss": "turning",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بكر، حنف، دحرج، عطف، غدن، غمض، قلب، كور، وغيرُها"
+  },
+  {
+   "european": "Article",
+   "arabic_root": "رثت",
+   "author_translit": "rathiat",
+   "arabic_gloss": "joint pain",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حلق"
+  },
+  {
+   "european": "Article",
+   "arabic_root": "نطق",
+   "author_translit": "anTaqa",
+   "arabic_gloss": "pronounce",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -2721,11 +3131,27 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Aspire",
+   "arabic_root": "صب",
+   "author_translit": "Saba",
+   "arabic_gloss": "hope, aspire",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءمل، ءيس، بغي، بلس، ثمر، حرص، حرم، حري، وغيرُها"
+  },
+  {
    "european": "Ass",
    "arabic_root": "جحش",
    "author_translit": "ja2sh",
    "arabic_gloss": "ass",
    "source": "jassem-2013-animal",
+   "bridge_agrees": "جذرٌ آخر: ءث، بغل، تا، حمار، خدر، داب، علج، عير، وغيرُها"
+  },
+  {
+   "european": "Ass",
+   "arabic_root": "ست",
+   "author_translit": "ist",
+   "arabic_gloss": "ass",
+   "source": "jassem-2013-love",
    "bridge_agrees": "جذرٌ آخر: ءث، بغل، تا، حمار، خدر، داب، علج، عير، وغيرُها"
   },
   {
@@ -2865,6 +3291,30 @@
    "bridge_agrees": "جذرٌ آخر: صطب، طوب"
   },
   {
+   "european": "Authentication",
+   "arabic_root": "ءذنت",
+   "author_translit": "'udhoonat",
+   "arabic_gloss": "permits",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Authentication",
+   "arabic_root": "ذت",
+   "author_translit": "dhaat",
+   "arabic_gloss": "self",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءنا، اسك، ام، بحث، بين، جزء، حلم، خزل، وغيرُها"
+  },
+  {
+   "european": "Authentication",
+   "arabic_root": "صنع",
+   "author_translit": "Sana3",
+   "arabic_gloss": "do, make",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
    "european": "Authority",
    "arabic_root": "ءكثر",
    "author_translit": "'akthar",
@@ -2887,6 +3337,14 @@
    "arabic_gloss": "coming",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Authorization",
+   "arabic_root": "ءكثر",
+   "author_translit": "'akthar",
+   "arabic_gloss": "more",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءبش، ءجد، ءحد، ءصل، ءكد، ءل، ءلا، ءمس، وغيرُها"
   },
   {
    "european": "Autumn",
@@ -3070,6 +3528,14 @@
    "author_translit": "malaka",
    "arabic_gloss": "possess",
    "source": "jassem-2013-family",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Bachelor",
+   "arabic_root": "بكر",
+   "author_translit": "bikr",
+   "arabic_gloss": "virgin",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -3385,6 +3851,14 @@
    "bridge_agrees": "جذرٌ آخر: ءسر، بندق، جدب، خاب، خدود، دفع، روح، سبط، وغيرُها"
   },
   {
+   "european": "Barrister",
+   "arabic_root": "رب",
+   "author_translit": "rabb(at)",
+   "arabic_gloss": "owner, lord, manager",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Basil",
    "arabic_root": "بصل",
    "author_translit": "baSal",
@@ -3593,6 +4067,22 @@
    "bridge_agrees": "جذرٌ آخر: شبع، كثر، كل"
   },
   {
+   "european": "Beauty",
+   "arabic_root": "به",
+   "author_translit": "bahi(at)",
+   "arabic_gloss": "beautiful",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءنق، برج، بهج، بهي، جمل، جود، حسن، حيل، وغيرُها"
+  },
+  {
+   "european": "Bed",
+   "arabic_root": "مهد",
+   "author_translit": "mahd",
+   "arabic_gloss": "bed",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Bee",
    "arabic_root": "ذب",
    "author_translit": "dhubaab",
@@ -3687,6 +4177,30 @@
    "arabic_gloss": "begin",
    "source": "jassem-2013-time",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Behest",
+   "arabic_root": "هتف",
+   "author_translit": "hataf",
+   "arabic_gloss": "to call",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءبو، ءذن، ءهر، ادي، ار، النواة، بهل، توب، وغيرُها"
+  },
+  {
+   "european": "Behest",
+   "arabic_root": "وص",
+   "author_translit": "waSSa",
+   "arabic_gloss": "to advise, bequeath",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: وصي"
+  },
+  {
+   "european": "Behest",
+   "arabic_root": "وصت",
+   "author_translit": "waSiat",
+   "arabic_gloss": "to advise, bequeath",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: وصي"
   },
   {
    "european": "Behind",
@@ -3785,12 +4299,44 @@
    "bridge_agrees": "جذرٌ آخر: تحت، جمد، حقر، خفض، خور، دون، ردي، ركع، وغيرُها"
   },
   {
+   "european": "Bequeath",
+   "arabic_root": "ءقظ",
+   "author_translit": "'aqaDha",
+   "arabic_gloss": "annoy, shout",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ادي، تعب، جلب، حفظ، خشب، دعا، زعج، زعق، وغيرُها"
+  },
+  {
+   "european": "Bequeath",
+   "arabic_root": "بق",
+   "author_translit": "baqia",
+   "arabic_gloss": "what is left",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Bequeath",
+   "arabic_root": "بقت",
+   "author_translit": "baqiat",
+   "arabic_gloss": "what is left",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: رسب، شمل، فا، فضل، كسب، نقر"
+  },
+  {
    "european": "Berry",
    "arabic_root": "بر",
    "author_translit": "bareer",
    "arabic_gloss": "a kind of black and sweet fruit",
    "source": "jassem-2016-floral",
    "bridge_agrees": "جذرٌ آخر: بطيخ، ثمر، جر، جهل، حلو، خضر، ربي، رق، وغيرُها"
+  },
+  {
+   "european": "Beseech",
+   "arabic_root": "شوق",
+   "author_translit": "shawq",
+   "arabic_gloss": "longing",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Beside",
@@ -3934,6 +4480,14 @@
    "author_translit": "baDa3",
    "arabic_gloss": "cut; piece; a cut; a few; 3-9 count",
    "source": "jassem-2014-mathematical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Bitch",
+   "arabic_root": "قحب",
+   "author_translit": "qa2ba(t)",
+   "arabic_gloss": "prostitute",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -4162,10 +4716,18 @@
   },
   {
    "european": "Book",
+   "arabic_root": "بوك",
+   "author_translit": "bawk",
+   "arabic_gloss": "buy & sell",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
+  },
+  {
+   "european": "Book",
    "arabic_root": "كتب",
    "author_translit": "kitaab",
    "arabic_gloss": "book",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2014-commerce · jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -4199,6 +4761,14 @@
    "arabic_gloss": "stand",
    "source": "jassem-2013-movement-action",
    "bridge_agrees": "جذرٌ آخر: برز، ثمل، رءي، ربط، رنح، زعزع، زلق، سجد، وغيرُها"
+  },
+  {
+   "european": "Bourse",
+   "arabic_root": "جرب",
+   "author_translit": "jiraab",
+   "arabic_gloss": "(money) bag, purse",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بدر، حفظ، ظرف، عضد، كيس، نفح"
   },
   {
    "european": "Bow",
@@ -4263,6 +4833,14 @@
    "arabic_gloss": "a (cooling) drink",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: برد"
+  },
+  {
+   "european": "Breach of Law",
+   "arabic_root": "بقر",
+   "author_translit": "baqara",
+   "arabic_gloss": "to break, to open",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حل، خرق، سرح، شجر، شقق، فضض، فطر، فقع، وغيرُها"
   },
   {
    "european": "Bread",
@@ -4343,6 +4921,46 @@
    "arabic_gloss": "unmarried (girl)",
    "source": "jassem-2013-family",
    "bridge_agrees": "جذرٌ آخر: فتا"
+  },
+  {
+   "european": "Bride",
+   "arabic_root": "ربض",
+   "author_translit": "rubaD",
+   "arabic_gloss": "bride, wife",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Bridegroom",
+   "arabic_root": "بغ",
+   "author_translit": "baghi",
+   "arabic_gloss": "whore; unjust",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بغي، دعر، ضعف، طغي، ظلم، ظلي، عدو، عسف، وغيرُها"
+  },
+  {
+   "european": "Bridegroom",
+   "arabic_root": "حسن",
+   "author_translit": "2asan",
+   "arabic_gloss": "a beautiful, good-looking man",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Bridegroom",
+   "arabic_root": "غلم",
+   "author_translit": "ghulaam",
+   "arabic_gloss": "a young bachelor",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Bridegroom",
+   "arabic_root": "قرص",
+   "author_translit": "qaraS",
+   "arabic_gloss": "sting",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Bright",
@@ -4689,6 +5307,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Buy",
+   "arabic_root": "بع",
+   "author_translit": "bai3(at)",
+   "arabic_gloss": "sell",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بضض، بيع، تبن، دعا، روج، سوق، شري، شهر، وغيرُها"
+  },
+  {
    "european": "Cabbage",
    "arabic_root": "قبت",
    "author_translit": "qubbat",
@@ -4801,6 +5427,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Canonical",
+   "arabic_root": "قرطس",
+   "author_translit": "qirTas",
+   "arabic_gloss": "paper",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: برد، جل، جوت، حج، حفظ، خطط، خلف، دست، وغيرُها"
+  },
+  {
+   "european": "Canonical",
+   "arabic_root": "قفص",
+   "author_translit": "qafaS",
+   "arabic_gloss": "cage; box; chest",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Canonical",
+   "arabic_root": "قن",
+   "author_translit": "qanoon",
+   "arabic_gloss": "law",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءثم، ءخذ، ءمر، ءهل، بدع، برء، بطل، بيا، وغيرُها"
+  },
+  {
    "european": "Cant",
    "arabic_root": "خرز",
    "author_translit": "kharaza(at)",
@@ -4847,6 +5497,14 @@
    "arabic_gloss": "forehead",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: تل، جب، جبه، ركع، سجد، سيل، صدغ، طر، وغيرُها"
+  },
+  {
+   "european": "Capital",
+   "arabic_root": "خزن",
+   "author_translit": "khaazin",
+   "arabic_gloss": "lit., storer; treasurer",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: شرق، شعل، ضوء، علق، غسق، فرقع، قمر، نور، وغيرُها"
   },
   {
    "european": "Capsize",
@@ -5177,6 +5835,38 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Change",
+   "arabic_root": "بخس",
+   "author_translit": "bakhs",
+   "arabic_gloss": "low in price, cheap",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: رخص"
+  },
+  {
+   "european": "Change",
+   "arabic_root": "تسنه",
+   "author_translit": "tasannah",
+   "arabic_gloss": "change",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءف، ءفك، النواة، بحر، بدل، بعد، بند، ترجم، وغيرُها"
+  },
+  {
+   "european": "Change",
+   "arabic_root": "سنه",
+   "author_translit": "saniha",
+   "arabic_gloss": "change",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءف، ءفك، النواة، بحر، بدل، بعد، بند، ترجم، وغيرُها"
+  },
+  {
+   "european": "Change",
+   "arabic_root": "قو",
+   "author_translit": "qaawi",
+   "arabic_gloss": "buyer & seller; trader",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بيع، شتر، نخس"
+  },
+  {
    "european": "Chapel",
    "arabic_root": "خر",
    "author_translit": "khair(aat)",
@@ -5263,6 +5953,14 @@
    "arabic_gloss": "Christian",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: الءحد، بيع، جاثليق، جرجس، حنا، حيي، درع، ربب، وغيرُها"
+  },
+  {
+   "european": "Chaste",
+   "arabic_root": "قزت",
+   "author_translit": "qazaazat",
+   "arabic_gloss": "shyness, modesty",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حشم، حمر، خجل، خفر، خنع، عصم، فرج، ورع"
   },
   {
    "european": "Chatter",
@@ -5439,6 +6137,14 @@
    "arabic_gloss": "eat",
    "source": "jassem-2013-perceptual-sensual · jassem-2014-wining-dining",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Chic",
+   "arabic_root": "شكل",
+   "author_translit": "shakl",
+   "arabic_gloss": "form, style",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بث، بدل، بذل، بنط، ثلث، حيا، روك، سلب، وغيرُها"
   },
   {
    "european": "Chick peas",
@@ -5689,6 +6395,46 @@
    "bridge_agrees": "جذرٌ آخر: ختا، خير"
   },
   {
+   "european": "Civil Law",
+   "arabic_root": "ءمض",
+   "author_translit": "'amDa",
+   "arabic_gloss": "pass, send, sign",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: فرط"
+  },
+  {
+   "european": "Civil Law",
+   "arabic_root": "جذع",
+   "author_translit": "jadh3",
+   "arabic_gloss": "tree trunk",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Civil Law",
+   "arabic_root": "جمع",
+   "author_translit": "jam3(un)",
+   "arabic_gloss": "group",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Civil Law",
+   "arabic_root": "خلص",
+   "author_translit": "khulaSa(t)",
+   "arabic_gloss": "conclusion, summary, end",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ختا، خير"
+  },
+  {
+   "european": "Civil Law",
+   "arabic_root": "مض",
+   "author_translit": "maDa",
+   "arabic_gloss": "pass, send, sign",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: فرط"
+  },
+  {
    "european": "Claw",
    "arabic_root": "خلب",
    "author_translit": "khilb",
@@ -5743,6 +6489,22 @@
    "arabic_gloss": "meek, clement, dreaming",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: حلي"
+  },
+  {
+   "european": "Clement",
+   "arabic_root": "رحمت",
+   "author_translit": "ra2mat",
+   "arabic_gloss": "clement, merciful",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: بن، حلم، حلي، حنن، حنون، رحم، رحمن، رحي، وغيرُها"
+  },
+  {
+   "european": "Clement",
+   "arabic_root": "رحمن",
+   "author_translit": "ra2maan",
+   "arabic_gloss": "clement, merciful",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Clergy",
@@ -5935,6 +6697,38 @@
    "arabic_gloss": "fish",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "جذرٌ آخر: ءنقليس، الحوت، بقل، بلم، بن، تنن، تون، جريث، وغيرُها"
+  },
+  {
+   "european": "Coerce",
+   "arabic_root": "جمع",
+   "author_translit": "jamee3",
+   "arabic_gloss": "all, together",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Coerce",
+   "arabic_root": "شرك",
+   "author_translit": "shareek",
+   "arabic_gloss": "partner",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Coerce",
+   "arabic_root": "قسر",
+   "author_translit": "qasara",
+   "arabic_gloss": "coerce, force",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Coerce",
+   "arabic_root": "كعب",
+   "author_translit": "ka3b",
+   "arabic_gloss": "a cube",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Coffee",
@@ -6177,6 +6971,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Commerce",
+   "arabic_root": "جمع",
+   "author_translit": "jam3",
+   "arabic_gloss": "together, all",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Commission",
    "arabic_root": "ءمض",
    "author_translit": "'amDa",
@@ -6206,6 +7008,14 @@
    "author_translit": "jamee3(un)",
    "arabic_gloss": "all",
    "source": "jassem-2015-democratic",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Common Law",
+   "arabic_root": "جمع",
+   "author_translit": "jamee3(un)",
+   "arabic_gloss": "all",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -6285,7 +7095,7 @@
    "arabic_root": "صلحتن",
    "author_translit": "Sul2(atun)",
    "arabic_gloss": "conciliation",
-   "source": "jassem-2015-democratic",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: صلح"
   },
   {
@@ -6293,7 +7103,7 @@
    "arabic_root": "قل",
    "author_translit": "qaal",
    "arabic_gloss": "say",
-   "source": "jassem-2015-democratic",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها"
   },
   {
@@ -6317,7 +7127,7 @@
    "arabic_root": "ذم",
    "author_translit": "dhamm(a)",
    "arabic_gloss": "condemn",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
    "bridge_agrees": "جذرٌ آخر: ءد، ثبر، حكم، دحض، دين، شهر، قضي، لعن، وغيرُها"
   },
   {
@@ -6333,7 +7143,7 @@
    "arabic_root": "ضج",
    "author_translit": "Daaja",
    "arabic_gloss": "speak, shout",
-   "source": "jassem-2015-democratic",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: هدر"
   },
   {
@@ -6350,6 +7160,14 @@
    "author_translit": "jamee3",
    "arabic_gloss": "all, together",
    "source": "jassem-2015-urban",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Confess",
+   "arabic_root": "فضح",
+   "author_translit": "faDa2a",
+   "arabic_gloss": "to expose, declare",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -6477,7 +7295,7 @@
    "arabic_root": "ظن",
    "author_translit": "Dhann",
    "arabic_gloss": "thinking, feeling",
-   "source": "jassem-2015-democratic",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءمل، قلق"
   },
   {
@@ -6489,11 +7307,19 @@
    "bridge_agrees": "جذرٌ آخر: اخت، بز، ثوب، خت، خلع، رجل، سن، صب، وغيرُها"
   },
   {
+   "european": "Constituency",
+   "arabic_root": "جث",
+   "author_translit": "jatha",
+   "arabic_gloss": "sit",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
+  },
+  {
    "european": "Consultation",
    "arabic_root": "سءل",
    "author_translit": "sa'al",
    "arabic_gloss": "to ask",
-   "source": "jassem-2015-democratic",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "نعم"
   },
   {
@@ -6501,8 +7327,24 @@
    "arabic_root": "سءلتن",
    "author_translit": "su'la(tun)",
    "arabic_gloss": "to ask",
-   "source": "jassem-2015-democratic",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءبو، ءتي، ءذن، ءمر، ءنس، ءوي، برء، بقي، وغيرُها"
+  },
+  {
+   "european": "Consultation",
+   "arabic_root": "شل",
+   "author_translit": "shaal",
+   "arabic_gloss": "take, seize, carry",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، خطف"
+  },
+  {
+   "european": "Consultation",
+   "arabic_root": "شلتن",
+   "author_translit": "shail(atun)",
+   "arabic_gloss": "take, seize, carry",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، خطف"
   },
   {
    "european": "Consultation",
@@ -6559,6 +7401,46 @@
    "arabic_gloss": "last, continue",
    "source": "jassem-2013-time",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Contract",
+   "arabic_root": "طرح",
+   "author_translit": "Tara2",
+   "arabic_gloss": "to throw",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Contract",
+   "arabic_root": "قطر",
+   "author_translit": "quTr",
+   "arabic_gloss": "side",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءدم، تل، تيز، ثني، جحف، جد، جدد، جفء، وغيرُها"
+  },
+  {
+   "european": "Contract",
+   "arabic_root": "كتب",
+   "author_translit": "katab",
+   "arabic_gloss": "write",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ء، ءرخ، ءلف، حرر، حفظ، خبر، خط، دون، وغيرُها"
+  },
+  {
+   "european": "Contract",
+   "arabic_root": "نتصر",
+   "author_translit": "intaSar",
+   "arabic_gloss": "to be victorious",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ظفر، غلب، فوز"
+  },
+  {
+   "european": "Contract",
+   "arabic_root": "نصر",
+   "author_translit": "naSar",
+   "arabic_gloss": "to be victorious",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ظفر، غلب، فوز"
   },
   {
    "european": "Contrary to",
@@ -6625,12 +7507,28 @@
    "bridge_agrees": "جذرٌ آخر: ءبد، ءبق، برم، ثني، جدد، جرد، جري، جف، وغيرُها"
   },
   {
+   "european": "Copulate",
+   "arabic_root": "حبل",
+   "author_translit": "2abl",
+   "arabic_gloss": "cable, rope",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Copy",
    "arabic_root": "كتب",
    "author_translit": "kitaab",
    "arabic_gloss": "book",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Cordial",
+   "arabic_root": "صدر",
+   "author_translit": "Sadr",
+   "arabic_gloss": "heart",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بال، بض، بط، بك، بهر، تيم، جءش، جبب، وغيرُها"
   },
   {
    "european": "Corn",
@@ -6647,6 +7545,38 @@
    "arabic_gloss": "horn, horn-shaped grain, bunch",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Cost",
+   "arabic_root": "جث",
+   "author_translit": "jatha",
+   "arabic_gloss": "sit",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
+  },
+  {
+   "european": "Cost",
+   "arabic_root": "جمع",
+   "author_translit": "jamee3",
+   "arabic_gloss": "together, all",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Cost",
+   "arabic_root": "قرض",
+   "author_translit": "qarD",
+   "arabic_gloss": "a loan",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Cost",
+   "arabic_root": "قرضت",
+   "author_translit": "qurDat",
+   "arabic_gloss": "a loan",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: تلف، دين، رهن، سلف، عمد، عور، قرض"
   },
   {
    "european": "Costume",
@@ -6717,7 +7647,7 @@
    "arabic_root": "قل",
    "author_translit": "qaal",
    "arabic_gloss": "say",
-   "source": "jassem-2015-democratic",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءذن، ءكد، ءمر، ءمن، ءي، بسمل، بل، تبب، وغيرُها"
   },
   {
@@ -6781,7 +7711,7 @@
    "arabic_root": "حرث",
    "author_translit": "2arth",
    "arabic_gloss": "farming; garden",
-   "source": "jassem-2015-democratic",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءيك، الفردوس، بست، بستن، بيار، بيت، جرد، جرف، وغيرُها"
   },
   {
@@ -6794,10 +7724,26 @@
   },
   {
    "european": "Court",
+   "arabic_root": "شهوت",
+   "author_translit": "shahwat",
+   "arabic_gloss": "desire",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءبو، ءراد، ءمل، ءوي، بد، بغي، تاق، توق، وغيرُها"
+  },
+  {
+   "european": "Court",
    "arabic_root": "غرد",
    "author_translit": "gharrad",
    "arabic_gloss": "trill",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Court",
+   "arabic_root": "قصر",
+   "author_translit": "qaSr",
+   "arabic_gloss": "palace; lit., shortening, enclosure",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -6806,6 +7752,70 @@
    "author_translit": "qalam",
    "arabic_gloss": "pen",
    "source": "jassem-2013-speech-writing",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Covenant",
+   "arabic_root": "جرم",
+   "author_translit": "jurm",
+   "arabic_gloss": "crime",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Covenant",
+   "arabic_root": "خفر",
+   "author_translit": "khafar",
+   "arabic_gloss": "guarding, watching",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Covenant",
+   "arabic_root": "خلبت",
+   "author_translit": "khalboot",
+   "arabic_gloss": "deceiver",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: خبب، خدع، خون، غشش، نصب"
+  },
+  {
+   "european": "Covenant",
+   "arabic_root": "صدر",
+   "author_translit": "Sadr",
+   "arabic_gloss": "heart, breast",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Covenant",
+   "arabic_root": "فن",
+   "author_translit": "faana",
+   "arabic_gloss": "go",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Covenant",
+   "arabic_root": "فنتن",
+   "author_translit": "faina(tun)",
+   "arabic_gloss": "go",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Covenant",
+   "arabic_root": "كسو",
+   "author_translit": "kiswa(t)",
+   "arabic_gloss": "clothing, covering",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Covenant",
+   "arabic_root": "كفر",
+   "author_translit": "kafar",
+   "arabic_gloss": "cover",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -6822,6 +7832,30 @@
    "author_translit": "kafar",
    "arabic_gloss": "to bury, to cover",
    "source": "jassem-2016-fashion",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Coy",
+   "arabic_root": "حي",
+   "author_translit": "2ayi",
+   "arabic_gloss": "shy",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءبد، حيو، خجل، خفر، وجم، وحش، ورط"
+  },
+  {
+   "european": "Coy",
+   "arabic_root": "حيء",
+   "author_translit": "2ayaa'",
+   "arabic_gloss": "shy",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءبد، حيو، خجل، خفر، وجم، وحش، ورط"
+  },
+  {
+   "european": "Coy",
+   "arabic_root": "رغب",
+   "author_translit": "raghiba",
+   "arabic_gloss": "desire",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -6919,6 +7953,22 @@
    "arabic_gloss": "illustrate, create",
    "source": "jassem-2015-life-death",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Creator",
+   "arabic_root": "جد",
+   "author_translit": "jadd",
+   "arabic_gloss": "grandfather",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Creator",
+   "arabic_root": "دين",
+   "author_translit": "daiyaan",
+   "arabic_gloss": "dominator",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Creator",
@@ -7169,6 +8219,14 @@
    "bridge_agrees": "جذرٌ آخر: بنت"
   },
   {
+   "european": "Cuddle",
+   "arabic_root": "حضن",
+   "author_translit": "2aDan",
+   "arabic_gloss": "cuddle",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
    "european": "Cuff",
    "arabic_root": "كف",
    "author_translit": "kaff",
@@ -7223,6 +8281,14 @@
    "arabic_gloss": "cup",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: برزين، جام، جرس، حجم، حق، شرط، صوع، ظرف، وغيرُها"
+  },
+  {
+   "european": "Cupid",
+   "arabic_root": "حب",
+   "author_translit": "2ubb",
+   "arabic_gloss": "love, beloved (female)",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Cur",
@@ -7329,6 +8395,22 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Damages",
+   "arabic_root": "دمر",
+   "author_translit": "damar",
+   "arabic_gloss": "destroy",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Damages",
+   "arabic_root": "رجل",
+   "author_translit": "rajul",
+   "arabic_gloss": "(brave, generous) man; leader, hero",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Damn",
    "arabic_root": "دج",
    "author_translit": "dija(t)",
@@ -7341,7 +8423,7 @@
    "arabic_root": "ذم",
    "author_translit": "dhamm",
    "arabic_gloss": "dispraise, dispraised",
-   "source": "jassem-2013-speech-writing · jassem-2014-divine-theological",
+   "source": "jassem-2013-speech-writing · jassem-2013-love · jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: ذمم، هجو"
   },
   {
@@ -7374,6 +8456,14 @@
    "author_translit": "daqal(at)",
    "arabic_gloss": "(a bad type of) dates",
    "source": "jassem-2016-floral",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Date",
+   "arabic_root": "قود",
+   "author_translit": "qawaad",
+   "arabic_gloss": "a date, pimp",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -7521,6 +8611,14 @@
    "bridge_agrees": "جذرٌ آخر: بنط، خطط"
   },
   {
+   "european": "Dear",
+   "arabic_root": "دل",
+   "author_translit": "dalaal",
+   "arabic_gloss": "endearment",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءي، يا"
+  },
+  {
    "european": "Debate",
    "arabic_root": "تصفر",
    "author_translit": "taSfeer",
@@ -7582,6 +8680,62 @@
    "author_translit": "nazal",
    "arabic_gloss": "go down",
    "source": "jassem-2013-movement-action",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Deeds",
+   "arabic_root": "تحت",
+   "author_translit": "ta2t",
+   "arabic_gloss": "below",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Deeds",
+   "arabic_root": "تنقل",
+   "author_translit": "tanaqal",
+   "arabic_gloss": "move, transfer",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، ءدي، عط، لجء، منح، نزل، نقل، وهب"
+  },
+  {
+   "european": "Deeds",
+   "arabic_root": "ضع",
+   "author_translit": "Da3",
+   "arabic_gloss": "put",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءبب، ءجل، ءخذ، ءخر، ءلف، ءني، ءيي، العروض، وغيرُها"
+  },
+  {
+   "european": "Deeds",
+   "arabic_root": "ندف",
+   "author_translit": "nadafa",
+   "arabic_gloss": "strike, hit",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بطش، جبه، خرطم، دق، دهن، ركب، ركل، سفع، وغيرُها"
+  },
+  {
+   "european": "Deeds",
+   "arabic_root": "نقل",
+   "author_translit": "naqal",
+   "arabic_gloss": "move, transfer",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Deeds",
+   "arabic_root": "وضع",
+   "author_translit": "waDa3",
+   "arabic_gloss": "put",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Deeds",
+   "arabic_root": "وكل",
+   "author_translit": "wakeel(at)",
+   "arabic_gloss": "deputy, agent",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -7721,6 +8875,30 @@
    "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
   },
   {
+   "european": "Dependent",
+   "arabic_root": "بءر",
+   "author_translit": "bu'ra(t)",
+   "arabic_gloss": "opening",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: است، باب، بق، بوب، بوز، تاق، تم، ثقب، وغيرُها"
+  },
+  {
+   "european": "Dependent",
+   "arabic_root": "دبر",
+   "author_translit": "adbar",
+   "arabic_gloss": "leave",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
+  },
+  {
+   "european": "Dependent",
+   "arabic_root": "دبرتن",
+   "author_translit": "dabra(tun)",
+   "arabic_gloss": "leave",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءسلم، برح، بصم، بعد، بقي، بور، ترك، تلو، وغيرُها"
+  },
+  {
    "european": "Design",
    "arabic_root": "تصنع",
    "author_translit": "taSnee3",
@@ -7735,6 +8913,38 @@
    "arabic_gloss": "make",
    "source": "jassem-2014-mathematical",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Desire",
+   "arabic_root": "شره",
+   "author_translit": "sharah",
+   "arabic_gloss": "strong desire",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: تاق، توق، حب، حمس، حن، رغب، شبق، شغف، وغيرُها"
+  },
+  {
+   "european": "Despise",
+   "arabic_root": "تقش",
+   "author_translit": "taqsheesh",
+   "arabic_gloss": "eating",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءكل، برج، برقش، بطن، جرد، حظل، حفل، حلب، وغيرُها"
+  },
+  {
+   "european": "Despise",
+   "arabic_root": "صد",
+   "author_translit": "Sadad",
+   "arabic_gloss": "hate, turn away",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Despise",
+   "arabic_root": "قش",
+   "author_translit": "qashsha(t)",
+   "arabic_gloss": "eating",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءكل، برج، برقش، بطن، جرد، حظل، حفل، حلب، وغيرُها"
   },
   {
    "european": "Despite",
@@ -8102,6 +9312,30 @@
    "author_translit": "qadhar",
    "arabic_gloss": "dirt",
    "source": "jassem-2013-air-fire",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Discipline",
+   "arabic_root": "طش",
+   "author_translit": "Taash",
+   "arabic_gloss": "spread out",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بثث، بسط، بق، تشر، ثور، سطح، شن، صبع، وغيرُها"
+  },
+  {
+   "european": "Discipline",
+   "arabic_root": "طلب",
+   "author_translit": "Taalib(in)",
+   "arabic_gloss": "student; requester",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Discipline",
+   "arabic_root": "كسب",
+   "author_translit": "kasab",
+   "arabic_gloss": "obtain",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -8513,6 +9747,62 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Dollar",
+   "arabic_root": "قس",
+   "author_translit": "qoos",
+   "arabic_gloss": "monk",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: اسك، بيل، دير، رهب، صن، كرح"
+  },
+  {
+   "european": "Dollar",
+   "arabic_root": "لد",
+   "author_translit": "lad(ee)d",
+   "arabic_gloss": "river side",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: جفء، عضد، نصر"
+  },
+  {
+   "european": "Dollar",
+   "arabic_root": "نم",
+   "author_translit": "nam(m)a",
+   "arabic_gloss": "to grow larger; increase",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Dominion",
+   "arabic_root": "دن",
+   "author_translit": "deen",
+   "arabic_gloss": "religion, subordination",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: تبع"
+  },
+  {
+   "european": "Dominion",
+   "arabic_root": "دني",
+   "author_translit": "dunya",
+   "arabic_gloss": "world, field, domain",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: ءفق، باب، جال، جول، سرد، ضيع"
+  },
+  {
+   "european": "Dominion",
+   "arabic_root": "لك",
+   "author_translit": "like",
+   "arabic_gloss": "stone",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: جلخ، جلد، جلمد، جندل، جوهر، حجر، حدد، حصا، وغيرُها"
+  },
+  {
+   "european": "Dominion",
+   "arabic_root": "وثن",
+   "author_translit": "wathan",
+   "arabic_gloss": "stone",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: جلخ، جلد، جلمد، جندل، جوهر، حجر، حدد، حصا، وغيرُها"
+  },
+  {
    "european": "Donkey",
    "arabic_root": "حصن",
    "author_translit": "2iSaan",
@@ -8727,6 +10017,14 @@
    "arabic_gloss": "leader",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءمم، بوع، بيع، جنب، دير، رءس، رب، زعم، وغيرُها"
+  },
+  {
+   "european": "Dungeon",
+   "arabic_root": "دن",
+   "author_translit": "dian",
+   "arabic_gloss": "master",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءبو، ءمر، بء، بر، بعل، جبي، جهبذ، دهر، وغيرُها"
   },
   {
    "european": "Duration",
@@ -9031,6 +10329,22 @@
    "arabic_gloss": "these are",
    "source": "jassem-2012-determiners",
    "bridge_agrees": "جذرٌ آخر: ءولي، اد، ان، دد، ساخ، سام، صطب، صقع، وغيرُها"
+  },
+  {
+   "european": "Eager",
+   "arabic_root": "تءلق",
+   "author_translit": "ta'allaq",
+   "arabic_gloss": "to shine",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءلق، ءلل، برق، بهر، ججل، جوهر، خفق، خفي، وغيرُها"
+  },
+  {
+   "european": "Eager",
+   "arabic_root": "نس",
+   "author_translit": "anees(at)",
+   "arabic_gloss": "nice, kind",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: جبر، جمل، حلو، حن، حيل، رع، رفق، زين، وغيرُها"
   },
   {
    "european": "Eagle",
@@ -9372,8 +10686,8 @@
    "european": "Embrace",
    "arabic_root": "رقب",
    "author_translit": "raqaba(t)",
-   "arabic_gloss": "neck",
-   "source": "jassem-2013-perceptual-sensual",
+   "arabic_gloss": "neck; a rounding",
+   "source": "jassem-2013-love · jassem-2013-perceptual-sensual",
    "bridge_agrees": "نعم"
   },
   {
@@ -9383,6 +10697,14 @@
    "arabic_gloss": "a strapped dress",
    "source": "jassem-2016-fashion",
    "bridge_agrees": "جذرٌ آخر: ءل، بدل، بذل، برنس، بهر، ثوب، جلبب، دبج، وغيرُها"
+  },
+  {
+   "european": "Emotion",
+   "arabic_root": "مثع",
+   "author_translit": "math3",
+   "arabic_gloss": "a woman",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، اجر، اخت، بدل، بذل، وغيرُها"
   },
   {
    "european": "Emperor",
@@ -9418,6 +10740,22 @@
   },
   {
    "european": "Enemy",
+   "arabic_root": "ذق",
+   "author_translit": "dhaaq",
+   "arabic_gloss": "to taste",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءجن، ءس، ابل، حس، حلو، خمط، دري، دوغ، وغيرُها"
+  },
+  {
+   "european": "Enemy",
+   "arabic_root": "رق",
+   "author_translit": "raaqi(at)",
+   "arabic_gloss": "high",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها"
+  },
+  {
+   "european": "Enemy",
    "arabic_root": "عن",
    "author_translit": "3an",
    "arabic_gloss": "on, from",
@@ -9431,6 +10769,14 @@
    "arabic_gloss": "pledge, promise",
    "source": "jassem-2015-military",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Enemy",
+   "arabic_root": "ينذق",
+   "author_translit": "yindhaaq",
+   "arabic_gloss": "to taste",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءجن، ءس، ابل، حس، حلو، خمط، دري، دوغ، وغيرُها"
   },
   {
    "european": "Engrave",
@@ -9601,6 +10947,30 @@
    "bridge_agrees": "جذرٌ آخر: ثمن، جنس، حسب، رخص، غلا"
   },
   {
+   "european": "Equality",
+   "arabic_root": "قص",
+   "author_translit": "aqSa",
+   "arabic_gloss": "out, far",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بعد، بلغ، سحق، طلب، طول، عال، عزب، قصو، وغيرُها"
+  },
+  {
+   "european": "Equality",
+   "arabic_root": "كفل",
+   "author_translit": "kifl",
+   "arabic_gloss": "equal, like",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بوص، ثل، ثلث، ربع، سوي، سي، شبه، شرك، وغيرُها"
+  },
+  {
+   "european": "Erotic",
+   "arabic_root": "ءر",
+   "author_translit": "'arr",
+   "arabic_gloss": "making love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: وجد"
+  },
+  {
    "european": "Error",
    "arabic_root": "رح",
    "author_translit": "raa2a",
@@ -9695,6 +11065,38 @@
    "arabic_gloss": "to be",
    "source": "jassem-2015-life-death",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Estimate",
+   "arabic_root": "دفع",
+   "author_translit": "dafa3",
+   "arabic_gloss": "pay",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Estimate",
+   "arabic_root": "فت",
+   "author_translit": "fatt",
+   "arabic_gloss": "paying (money); lit., dividing",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: دفع، شتر، صرف، فدي، مهر"
+  },
+  {
+   "european": "Estimate",
+   "arabic_root": "فدن",
+   "author_translit": "fadan",
+   "arabic_gloss": "palace",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Estimate",
+   "arabic_root": "فلس",
+   "author_translit": "fuloos",
+   "arabic_gloss": "money",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Evade",
@@ -9969,6 +11371,46 @@
    "bridge_agrees": "جذرٌ آخر: بعد"
   },
   {
+   "european": "Excite",
+   "arabic_root": "ستشط",
+   "author_translit": "istashaaTa",
+   "arabic_gloss": "excite, to get excited",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ثور، حمس، شبع، فعل، هرج"
+  },
+  {
+   "european": "Excite",
+   "arabic_root": "شط",
+   "author_translit": "shaaTa",
+   "arabic_gloss": "excite, to get excited",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ثور، حمس، شبع، فعل، هرج"
+  },
+  {
+   "european": "Excite",
+   "arabic_root": "عف",
+   "author_translit": "3afaaf",
+   "arabic_gloss": "chastity",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Excite",
+   "arabic_root": "عفت",
+   "author_translit": "3iffat",
+   "arabic_gloss": "chastity",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حرم، عصم، عف، عفف، فرج"
+  },
+  {
+   "european": "Excite",
+   "arabic_root": "نخس",
+   "author_translit": "nakhs",
+   "arabic_gloss": "slave",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Excrete",
    "arabic_root": "خر",
    "author_translit": "khara",
@@ -9983,6 +11425,14 @@
    "arabic_gloss": "(n) or faSS, fuSooS (pl.)",
    "source": "jassem-2013-air-fire",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Exempt",
+   "arabic_root": "سم",
+   "author_translit": "saama",
+   "arabic_gloss": "to price out",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءبب، ءتي، ءجر، ءخذ، ءدي، ءسس، ءسماعيل، ءصل، وغيرُها"
   },
   {
    "european": "Exile",
@@ -10161,6 +11611,22 @@
    "bridge_agrees": "جذرٌ آخر: كمل، نجز، نهي"
   },
   {
+   "european": "Extradition",
+   "arabic_root": "ستطرد",
+   "author_translit": "istaTrad",
+   "arabic_gloss": "to drive out",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، دمر، زجر، ساق، صفق، طرد، قصو، نفر، وغيرُها"
+  },
+  {
+   "european": "Extradition",
+   "arabic_root": "طردتن",
+   "author_translit": "Tarad(atun)",
+   "arabic_gloss": "to drive out",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، دمر، زجر، ساق، صفق، طرد، قصو، نفر، وغيرُها"
+  },
+  {
    "european": "Eye",
    "arabic_root": "عن",
    "author_translit": "3ain",
@@ -10217,6 +11683,14 @@
    "bridge_agrees": "جذرٌ آخر: العدل، جمل، حسن، حقق، زين، سوغ، شرع، صلح، وغيرُها"
   },
   {
+   "european": "Fair",
+   "arabic_root": "بهر",
+   "author_translit": "baaher",
+   "arabic_gloss": "bright, very beautiful",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: غرر، لمع"
+  },
+  {
    "european": "Faith",
    "arabic_root": "تفث",
    "author_translit": "tafath",
@@ -10258,6 +11732,14 @@
   },
   {
    "european": "False",
+   "arabic_root": "ءفل",
+   "author_translit": "'afal",
+   "arabic_gloss": "fall, set down",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "False",
    "arabic_root": "زف",
    "author_translit": "zaif",
    "arabic_gloss": "false",
@@ -10287,6 +11769,14 @@
    "arabic_gloss": "friend, servant",
    "source": "jassem-2013-family",
    "bridge_agrees": "جذرٌ آخر: ءنس، بني، تبع، جي، حب، حبب، خدر، خدم، وغيرُها"
+  },
+  {
+   "european": "Fancy",
+   "arabic_root": "بص",
+   "author_translit": "baSeeS",
+   "arabic_gloss": "small light",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: برك، زرق، شمس، شه، شور، صوف، ظل، ظهر، وغيرُها"
   },
   {
    "european": "Farm",
@@ -10489,6 +11979,22 @@
    "bridge_agrees": "جذرٌ آخر: ءث، ءذربيجان، ءنث، بز، جارية، جز، حق، خنث، وغيرُها"
   },
   {
+   "european": "Feminine",
+   "arabic_root": "ثمر",
+   "author_translit": "thamar(at)",
+   "arabic_gloss": "fruit",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Feminine",
+   "arabic_root": "كفح",
+   "author_translit": "kaafa2",
+   "arabic_gloss": "attack",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: اكف، بر، بطش، ثور، جني، جهر، حرس، حصن، وغيرُها"
+  },
+  {
    "european": "Fermentation",
    "arabic_root": "خمرن",
    "author_translit": "khamran(at)",
@@ -10610,6 +12116,22 @@
   },
   {
    "european": "Fine",
+   "arabic_root": "دندل",
+   "author_translit": "dandal",
+   "arabic_gloss": "suspend, draw out (one",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: تقع، خرج، خطط، خلص، دلج، دلق، رهق، سحب، وغيرُها"
+  },
+  {
+   "european": "Fine",
+   "arabic_root": "زن",
+   "author_translit": "zain",
+   "arabic_gloss": "fine, beautiful",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حسن، زين"
+  },
+  {
+   "european": "Fine",
    "arabic_root": "فرم",
    "author_translit": "faram",
    "arabic_gloss": "mince",
@@ -10623,6 +12145,14 @@
    "arabic_gloss": "roll out",
    "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "جذرٌ آخر: صفح، صفق، طمر، فرد، قسم، نول"
+  },
+  {
+   "european": "Fine",
+   "arabic_root": "فع",
+   "author_translit": "faa3i",
+   "arabic_gloss": "angry, evil man; snake",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: جن، حمد، حمي، خل، شيط، عال، عض"
   },
   {
    "european": "Fir",
@@ -11057,6 +12587,38 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Foreplay",
+   "arabic_root": "ثلج",
+   "author_translit": "thalj",
+   "arabic_gloss": "snow",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Foreplay",
+   "arabic_root": "فرح",
+   "author_translit": "fari2",
+   "arabic_gloss": "happy",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Foreplay",
+   "arabic_root": "فرش",
+   "author_translit": "fareesh",
+   "arabic_gloss": "a sex slave girl",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءم، خت، خدر، فتا"
+  },
+  {
+   "european": "Foreplay",
+   "arabic_root": "لعب",
+   "author_translit": "la3ib",
+   "arabic_gloss": "play",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Forgive",
    "arabic_root": "غفر",
    "author_translit": "ghafar",
@@ -11225,6 +12787,14 @@
    "bridge_agrees": "جذرٌ آخر: ءنف، باك، بر، بلج، بوز، حرم، حيا، خر، وغيرُها"
   },
   {
+   "european": "Free Will",
+   "arabic_root": "فرج",
+   "author_translit": "faraj",
+   "arabic_gloss": "to set free",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حر، خلو، سرح، سيب، طلق، عتق، عمل، فدي، وغيرُها"
+  },
+  {
    "european": "Friar",
    "arabic_root": "فرط",
    "author_translit": "farT",
@@ -11361,6 +12931,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Frown",
+   "arabic_root": "نفر",
+   "author_translit": "nafar",
+   "arabic_gloss": "frown, come up, bulge",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Fruit",
    "arabic_root": "ثمر",
    "author_translit": "thamar(at)",
@@ -11374,6 +12952,14 @@
    "author_translit": "far2(at)",
    "arabic_gloss": "happiness",
    "source": "jassem-2016-floral",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Fuck",
+   "arabic_root": "وقع",
+   "author_translit": "wiqaa3",
+   "arabic_gloss": "intercourse",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -11519,6 +13105,14 @@
    "arabic_gloss": "a limited period",
    "source": "jassem-2013-time",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Gain",
+   "arabic_root": "جن",
+   "author_translit": "jana",
+   "arabic_gloss": "gain; reap, harvest",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: جني"
   },
   {
    "european": "Gallop",
@@ -11689,6 +13283,14 @@
    "bridge_agrees": "جذرٌ آخر: قرء"
   },
   {
+   "european": "Gay",
+   "arabic_root": "غوت",
+   "author_translit": "ghiwaiat",
+   "arabic_gloss": "gay, proud",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: او، باء، بهي، توه، ثل، جبر، جي، خرطم، وغيرُها"
+  },
+  {
    "european": "Gaze",
    "arabic_root": "جحظ",
    "author_translit": "ja2aDh",
@@ -11841,12 +13443,36 @@
    "bridge_agrees": "جذرٌ آخر: ءجر، بد، بدر، بعد، بعض، بلغ، بنس، بني، وغيرُها"
   },
   {
+   "european": "Give",
+   "arabic_root": "جب",
+   "author_translit": "jaba",
+   "arabic_gloss": "obtain",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءجر، ءخذ، ءمم، بحث، بلغ، تلو، تمم، تول، وغيرُها"
+  },
+  {
+   "european": "Give",
+   "arabic_root": "قو",
+   "author_translit": "qaawa",
+   "arabic_gloss": "sell, buy",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
+  },
+  {
    "european": "Glacier",
    "arabic_root": "جلد",
    "author_translit": "jaleed",
    "arabic_gloss": "ice",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Glad",
+   "arabic_root": "رغد",
+   "author_translit": "ragheed",
+   "arabic_gloss": "happy",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءنس، بسط، بسم، بش، بشر، بشش، بهج، حبر، وغيرُها"
   },
   {
    "european": "Glide",
@@ -11975,6 +13601,14 @@
    "arabic_gloss": "tomorrow",
    "source": "jassem-2013-time",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Good",
+   "arabic_root": "قضب",
+   "author_translit": "qaDab",
+   "arabic_gloss": "catch",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءوب، خطء، دبق، درك، رءي، رعي، سجل، شبث، وغيرُها"
   },
   {
    "european": "Goose",
@@ -12341,8 +13975,40 @@
    "arabic_root": "غلط",
    "author_translit": "ghalaT",
    "arabic_gloss": "error, mistake",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Guilty",
+   "arabic_root": "ءنم",
+   "author_translit": "'anaam",
+   "arabic_gloss": "child, human, man",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءب"
+  },
+  {
+   "european": "Guilty",
+   "arabic_root": "بن",
+   "author_translit": "ibn",
+   "arabic_gloss": "son, child",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Guilty",
+   "arabic_root": "غلط",
+   "author_translit": "ghalaT",
+   "arabic_gloss": "wrong",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Guilty",
+   "arabic_root": "نم",
+   "author_translit": "nama",
+   "arabic_gloss": "child, human, man",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءب"
   },
   {
    "european": "Guise",
@@ -12593,6 +14259,22 @@
    "bridge_agrees": "جذرٌ آخر: توب، حزب، حصل، حكم، حل، عني، نهر"
   },
   {
+   "european": "Harass",
+   "arabic_root": "تحرش",
+   "author_translit": "ta2arrash",
+   "arabic_gloss": "harass, aggress",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءكل، برح، حرش، ضيق، عاك، عتن، عدو، قصف، وغيرُها"
+  },
+  {
+   "european": "Harass",
+   "arabic_root": "حرش",
+   "author_translit": "2arasha",
+   "arabic_gloss": "harass, aggress",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Hardware",
    "arabic_root": "عتر",
    "author_translit": "3atir",
@@ -12615,6 +14297,14 @@
    "arabic_gloss": "container",
    "source": "jassem-2014-mathematical",
    "bridge_agrees": "جذرٌ آخر: بخر، بطل، بهر، تابوت، تفل، جر، جردل، جرر، وغيرُها"
+  },
+  {
+   "european": "Harlot",
+   "arabic_root": "عهرت",
+   "author_translit": "3aahirat",
+   "arabic_gloss": "whore",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بغي، دعر، عهر، قحب"
   },
   {
    "european": "Harvest",
@@ -12665,11 +14355,19 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Hate",
+   "arabic_root": "حقد",
+   "author_translit": "2aqida",
+   "arabic_gloss": "hate",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Have",
    "arabic_root": "وهب",
    "author_translit": "wahab",
    "arabic_gloss": "give",
-   "source": "jassem-2013-family",
+   "source": "jassem-2013-love · jassem-2013-family",
    "bridge_agrees": "نعم"
   },
   {
@@ -13266,6 +14964,22 @@
   },
   {
    "european": "Honour",
+   "arabic_root": "حر",
+   "author_translit": "2oor(i)",
+   "arabic_gloss": "beautiful, white",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: برج، غرر، لح"
+  },
+  {
+   "european": "Honour",
+   "arabic_root": "حرم",
+   "author_translit": "2aram",
+   "arabic_gloss": "honour, prohibition",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بجل، بون، بيع، تقن، جلل، حتفل، حظر، دست، وغيرُها"
+  },
+  {
+   "european": "Honour",
    "arabic_root": "هش",
    "author_translit": "haash",
    "arabic_gloss": "attack, fight",
@@ -13305,6 +15019,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Hope",
+   "arabic_root": "حب",
+   "author_translit": "2ubb(i)",
+   "arabic_gloss": "love, hope",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Horn",
    "arabic_root": "عجل",
    "author_translit": "3ijl",
@@ -13326,6 +15048,22 @@
    "author_translit": "qarn",
    "arabic_gloss": "horn",
    "source": "jassem-2013-animal · jassem-2013-speech-writing",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Horny",
+   "arabic_root": "عزب",
+   "author_translit": "3izba(t)",
+   "arabic_gloss": "(offering) food and drink",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بلع، ثمل، جرع، حم، خا، خدم، زءم، سرط، وغيرُها"
+  },
+  {
+   "european": "Horny",
+   "arabic_root": "قرن",
+   "author_translit": "qarn",
+   "arabic_gloss": "horn",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -13383,6 +15121,22 @@
    "arabic_gloss": "stay",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: ءبد، ءبن، بقي، بن، بيت، تنخ، ثمل، جنب، وغيرُها"
+  },
+  {
+   "european": "Hostile",
+   "arabic_root": "هش",
+   "author_translit": "haash",
+   "arabic_gloss": "attack, fight",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: رشق، عرض، نوش، وقع"
+  },
+  {
+   "european": "Hostile",
+   "arabic_root": "هوشت",
+   "author_translit": "hawshat",
+   "arabic_gloss": "attack, fight",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: رشق، عرض، نوش، وقع"
   },
   {
    "european": "Hostility",
@@ -13626,11 +15380,35 @@
   },
   {
    "european": "Husband",
+   "arabic_root": "بضع",
+   "author_translit": "baaDa3",
+   "arabic_gloss": "to make love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بوس، تاب، تيم، حب، حبب، حبك، حمر، حمس، وغيرُها"
+  },
+  {
+   "european": "Husband",
+   "arabic_root": "حسب",
+   "author_translit": "2aseeb",
+   "arabic_gloss": "relative, noble, husband",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Husband",
    "arabic_root": "رب",
    "author_translit": "rabb(at)",
    "arabic_gloss": "owner",
    "source": "jassem-2013-family",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Husband",
+   "arabic_root": "مبضع",
+   "author_translit": "mubaaDa3a(t)",
+   "arabic_gloss": "to make love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بوس، تاب، تيم، حب، حبب، حبك، حمر، حمس، وغيرُها"
   },
   {
    "european": "Husk",
@@ -13855,6 +15633,30 @@
    "arabic_gloss": "nightmare; pressing down",
    "source": "jassem-2015-life-death",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Indemnity",
+   "arabic_root": "دمر",
+   "author_translit": "dammar(un)",
+   "arabic_gloss": "destruction",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Indemnity",
+   "arabic_root": "نك",
+   "author_translit": "naka",
+   "arabic_gloss": "harm, injure, kill",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: جرح، ظلم، عطل، قصد"
+  },
+  {
+   "european": "Indemnity",
+   "arabic_root": "نكت",
+   "author_translit": "nikiat",
+   "arabic_gloss": "harm, injure, kill",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: جرح، ظلم، عطل، قصد"
   },
   {
    "european": "Independence",
@@ -14225,6 +16027,14 @@
    "bridge_agrees": "جذرٌ آخر: شعب، شقق، صرم، فصل، قسم، قطع"
   },
   {
+   "european": "Insult",
+   "arabic_root": "سلط",
+   "author_translit": "salaT",
+   "arabic_gloss": "bad talk",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: غيب، فوض"
+  },
+  {
    "european": "Inter",
    "arabic_root": "عن",
    "author_translit": "3an",
@@ -14238,6 +16048,30 @@
    "author_translit": "3inda",
    "arabic_gloss": "into, at; have, own",
    "source": "jassem-2014-prepositions",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Intercourse",
+   "arabic_root": "ضف",
+   "author_translit": "Daif",
+   "arabic_gloss": "guest",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: زب، زور، ساك، ضيف، طفل، قري، نزل، وغل"
+  },
+  {
+   "european": "Intercourse",
+   "arabic_root": "نضف",
+   "author_translit": "inDaaf",
+   "arabic_gloss": "guest",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: زب، زور، ساك، ضيف، طفل، قري، نزل، وغل"
+  },
+  {
+   "european": "Intercourse",
+   "arabic_root": "نهر",
+   "author_translit": "nahara",
+   "arabic_gloss": "to shout one down",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -14441,6 +16275,22 @@
    "bridge_agrees": "جذرٌ آخر: لبب"
   },
   {
+   "european": "Jail",
+   "arabic_root": "سجن",
+   "author_translit": "sijn",
+   "arabic_gloss": "jail, prison",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Jail",
+   "arabic_root": "كهف",
+   "author_translit": "kahf",
+   "arabic_gloss": "cave",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Jam",
    "arabic_root": "جمع",
    "author_translit": "jam3",
@@ -14521,6 +16371,30 @@
    "bridge_agrees": "جذرٌ آخر: دغدغ، ضحك، لول، مرح، هه"
   },
   {
+   "european": "Joy",
+   "arabic_root": "جو",
+   "author_translit": "jawa",
+   "arabic_gloss": "internal love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بطن، بطنج، بوس، تاب، تيم، حب، حبب، حبك، وغيرُها"
+  },
+  {
+   "european": "Joy",
+   "arabic_root": "حن",
+   "author_translit": "2an(een)",
+   "arabic_gloss": "longing, yearning",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: شهو، شوق، مشق"
+  },
+  {
+   "european": "Judge",
+   "arabic_root": "ضج",
+   "author_translit": "Dajja",
+   "arabic_gloss": "say, shout",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: هدر"
+  },
+  {
    "european": "Juice",
    "arabic_root": "حسء",
    "author_translit": "2usaa'",
@@ -14569,6 +16443,14 @@
    "bridge_agrees": "جذرٌ آخر: ءكل، جدد، خلج، خلد، ذعر، روض، زغب، سلو، وغيرُها"
   },
   {
+   "european": "Jury",
+   "arabic_root": "شرع",
+   "author_translit": "shar3",
+   "arabic_gloss": "law, legislature",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Just",
    "arabic_root": "سعت",
    "author_translit": "issa(3)at",
@@ -14583,6 +16465,38 @@
    "arabic_gloss": "this hour",
    "source": "jassem-2013-time",
    "bridge_agrees": "جذرٌ آخر: ءجر، جر، حين، خزن، درس، ساعة، عقد، عقرب، وغيرُها"
+  },
+  {
+   "european": "Justice",
+   "arabic_root": "بع",
+   "author_translit": "bai3a(t)",
+   "arabic_gloss": "agreement; allegiance",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءجل، ءم، ءي، افق، ال، النواة، اه، ايه، وغيرُها"
+  },
+  {
+   "european": "Justice",
+   "arabic_root": "قسط",
+   "author_translit": "qisT",
+   "arabic_gloss": "justice",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بوق، جور، حكم، ظلم، عدل، قاض، قسم، قوا، وغيرُها"
+  },
+  {
+   "european": "Justice",
+   "arabic_root": "قسطس",
+   "author_translit": "qisTaas",
+   "arabic_gloss": "justice",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بوق، جور، حكم، ظلم، عدل، قاض، قسم، قوا، وغيرُها"
+  },
+  {
+   "european": "Juvenile Court",
+   "arabic_root": "يفع",
+   "author_translit": "yafi3(in)",
+   "arabic_gloss": "a youth; young",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حدث، شبب، فتا، فتو، فتي"
   },
   {
    "european": "Kettle",
@@ -14645,7 +16559,7 @@
    "arabic_root": "قتل",
    "author_translit": "qatal",
    "arabic_gloss": "kill",
-   "source": "jassem-2013-cutting-breaking",
+   "source": "jassem-2013-love · jassem-2013-cutting-breaking",
    "bridge_agrees": "نعم"
   },
   {
@@ -14687,6 +16601,22 @@
    "arabic_gloss": "a nest; box; chest",
    "source": "jassem-2018-sex-derivatives",
    "bridge_agrees": "جذرٌ آخر: تابوت، تخت، خزن، صدق، علب"
+  },
+  {
+   "european": "Kiss",
+   "arabic_root": "كفح",
+   "author_translit": "ka(a)fa2",
+   "arabic_gloss": "kiss suddenly",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بخ، بغت، بوس، دلق، دهم، ربو، زءم، صاح، وغيرُها"
+  },
+  {
+   "european": "Kiss",
+   "arabic_root": "نك",
+   "author_translit": "naak",
+   "arabic_gloss": "make love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بوس، تاب، تيم، حب، حبب، حبك، حمر، حمس، وغيرُها"
   },
   {
    "european": "Kitchen",
@@ -15217,6 +17147,14 @@
    "bridge_agrees": "جذرٌ آخر: ده، دول، دي، سار، لبك، ها، هات، هذ، وغيرُها"
   },
   {
+   "european": "Lascivious",
+   "arabic_root": "له",
+   "author_translit": "lahoo",
+   "arabic_gloss": "playfulness",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
    "european": "Lass",
    "arabic_root": "نس",
    "author_translit": "nisa",
@@ -15308,8 +17246,8 @@
    "european": "Law and Order",
    "arabic_root": "لوح",
    "author_translit": "law2",
-   "arabic_gloss": "board",
-   "source": "jassem-2015-democratic",
+   "arabic_gloss": "board, layer, tablet",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "نعم"
   },
   {
@@ -15543,6 +17481,14 @@
    "arabic_gloss": "yogurt; sour milk",
    "source": "jassem-2016-floral",
    "bridge_agrees": "جذرٌ آخر: زوم، لبن"
+  },
+  {
+   "european": "Lewd",
+   "arabic_root": "لط",
+   "author_translit": "looTi",
+   "arabic_gloss": "homosexual",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ثل، جي، خنث، شذذ، لوط"
   },
   {
    "european": "Lexis",
@@ -15783,6 +17729,30 @@
    "arabic_gloss": "lion",
    "source": "jassem-2013-animal",
    "bridge_agrees": "جذرٌ آخر: ءسامة، ءسد، الءسد، جرو، جل، حدر، حمز، درب، وغيرُها"
+  },
+  {
+   "european": "Lip",
+   "arabic_root": "لب",
+   "author_translit": "laabba(t)",
+   "arabic_gloss": "lip, loving",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بق، بوز، بوق، تم، ثر، جعد، حب، حبب، وغيرُها"
+  },
+  {
+   "european": "Lip",
+   "arabic_root": "لبلب",
+   "author_translit": "labaaleeb",
+   "arabic_gloss": "lip, loving",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بق، بوز، بوق، تم، ثر، جعد، حب، حبب، وغيرُها"
+  },
+  {
+   "european": "Lip",
+   "arabic_root": "لد",
+   "author_translit": "ludd",
+   "arabic_gloss": "hostile",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بلقن، حد، ردع، شيط، صوب، عد، عدو، غرب، وغيرُها"
   },
   {
    "european": "Liquor",
@@ -16050,6 +18020,14 @@
   },
   {
    "european": "Lord",
+   "arabic_root": "رد",
+   "author_translit": "raada",
+   "arabic_gloss": "to lead, leader",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: جنب، رءس، زعم، عمد، قدم"
+  },
+  {
+   "european": "Lord",
    "arabic_root": "لقس",
    "author_translit": "laqs",
    "arabic_gloss": "light, shine",
@@ -16103,6 +18081,22 @@
    "arabic_gloss": "carry",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: ءخذ، ءدي، ءذن، ءنف، النواة، بردع، بشر، بوز، وغيرُها"
+  },
+  {
+   "european": "Lord Chancellor",
+   "arabic_root": "رءد",
+   "author_translit": "raa'id",
+   "arabic_gloss": "leader",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءمم، بوع، بيع، جنب، دير، رءس، رب، زعم، وغيرُها"
+  },
+  {
+   "european": "Lose",
+   "arabic_root": "مصر",
+   "author_translit": "maSaari",
+   "arabic_gloss": "money",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءجر، ءذن، بدر، بذر، برع، بغي، بلغ، بيز، وغيرُها"
   },
   {
    "european": "Loud",
@@ -16189,7 +18183,7 @@
    "arabic_root": "ول",
    "author_translit": "wali",
    "arabic_gloss": "loyal",
-   "source": "jassem-2015-military",
+   "source": "jassem-2015-military · jassem-2015-legal",
    "bridge_agrees": "جذرٌ آخر: ال، حق، خلص، ذنب، مين، وفي"
   },
   {
@@ -16215,6 +18209,22 @@
    "arabic_gloss": "mash",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: بل، بلل، رب، هرس"
+  },
+  {
+   "european": "Lust",
+   "arabic_root": "لذ",
+   "author_translit": "ladheedh",
+   "arabic_gloss": "lust, delicious",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Lust",
+   "arabic_root": "لذت",
+   "author_translit": "ladhdhat",
+   "arabic_gloss": "lust, delicious",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بد، حضن، حيل، زني، شبق، شهو، طلي، عرب، وغيرُها"
   },
   {
    "european": "Machine gun",
@@ -16263,6 +18273,30 @@
    "arabic_gloss": "death",
    "source": "jassem-2015-life-death",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Magna Carta",
+   "arabic_root": "ءمل",
+   "author_translit": "'umlia(t)",
+   "arabic_gloss": "notes, dictations",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بين، جاز، دفتر، ساف، طنجر، عمر، غن، فكر، وغيرُها"
+  },
+  {
+   "european": "Magna Carta",
+   "arabic_root": "جمع",
+   "author_translit": "jama3",
+   "arabic_gloss": "gathered; big; total",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Magna Carta",
+   "arabic_root": "مجمع",
+   "author_translit": "majmoo3",
+   "arabic_gloss": "gathered; big; total",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءتم، ءثجل، ءذن، ءسد، باد، بجح، بط، بطن، وغيرُها"
   },
   {
    "european": "Maid",
@@ -16348,9 +18382,9 @@
    "european": "Man",
    "arabic_root": "نم",
    "author_translit": "nama",
-   "arabic_gloss": "child, man, human",
-   "source": "jassem-2013-family",
-   "bridge_agrees": "جذرٌ آخر: ءب"
+   "arabic_gloss": "man",
+   "source": "jassem-2013-love · jassem-2013-family",
+   "bridge_agrees": "جذرٌ آخر: ءب، ءبر، ءدم، ءف، ءلف، ءنس، ءنق، اجر، وغيرُها"
   },
   {
    "european": "Mandate",
@@ -16482,11 +18516,27 @@
   },
   {
    "european": "Marry",
+   "arabic_root": "زلم",
+   "author_translit": "zalama(t)",
+   "arabic_gloss": "man",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Marry",
    "arabic_root": "كنفرجنك",
    "author_translit": "convergence",
    "arabic_gloss": "separation",
    "source": "jassem-2016-entirely-arabic",
    "bridge_agrees": "جذرٌ آخر: ءب، بد، برزخ، بين، عزل، عن، وزع"
+  },
+  {
+   "european": "Marry",
+   "arabic_root": "متجر",
+   "author_translit": "mutaajara(t)",
+   "arabic_gloss": "trading",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: اجر، سوق، نوش"
   },
   {
    "european": "Marry",
@@ -16931,10 +18981,18 @@
   {
    "european": "Merry",
    "arabic_root": "مرح",
-   "author_translit": "mara2",
-   "arabic_gloss": "merry, happy",
-   "source": "jassem-2016-entirely-arabic",
+   "author_translit": "mari2",
+   "arabic_gloss": "happy",
+   "source": "jassem-2013-love · jassem-2016-entirely-arabic",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Merry",
+   "arabic_root": "معثر",
+   "author_translit": "mu3aththar",
+   "arabic_gloss": "miserable, poor",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حقر"
   },
   {
    "european": "Merry Christmas",
@@ -17393,6 +19451,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Modest",
+   "arabic_root": "مر",
+   "author_translit": "muru",
+   "arabic_gloss": "a(t)",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Modest",
+   "arabic_root": "مط",
+   "author_translit": "muTaiTa",
+   "arabic_gloss": ", maTTa (v)",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Modest",
+   "arabic_root": "نح",
+   "author_translit": "na2a",
+   "arabic_gloss": "take off (clothes)",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بز، عشش، غسل"
+  },
+  {
    "european": "Moment",
    "arabic_root": "مت",
    "author_translit": "ummat",
@@ -17463,6 +19545,30 @@
    "arabic_gloss": "lessening",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: نقص"
+  },
+  {
+   "european": "Money",
+   "arabic_root": "ءمول",
+   "author_translit": "'amwaal",
+   "arabic_gloss": "money",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءجر، ءذن، بدر، بذر، برع، بغي، بلغ، بيز، وغيرُها"
+  },
+  {
+   "european": "Money",
+   "arabic_root": "مل",
+   "author_translit": "maal",
+   "arabic_gloss": "money",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءجر، ءذن، بدر، بذر، برع، بغي، بلغ، بيز، وغيرُها"
+  },
+  {
+   "european": "Money",
+   "arabic_root": "نم",
+   "author_translit": "nummi",
+   "arabic_gloss": "money",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءجر، ءذن، بدر، بذر، برع، بغي، بلغ، بيز، وغيرُها"
   },
   {
    "european": "Monk",
@@ -18185,6 +20291,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Nice",
+   "arabic_root": "زن",
+   "author_translit": "zain(at)",
+   "arabic_gloss": "nice, beautiful",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: جمل، حيل، زين"
+  },
+  {
    "european": "Night",
    "arabic_root": "ثمن",
    "author_translit": "thamaan",
@@ -18247,6 +20361,38 @@
    "arabic_gloss": "to know",
    "source": "jassem-2016-entirely-arabic",
    "bridge_agrees": "جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها"
+  },
+  {
+   "european": "Noble",
+   "arabic_root": "ثغر",
+   "author_translit": "thaghr",
+   "arabic_gloss": "mouth",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: اب، الفوه، بخر، بزق، بسم، بصق، بق، بلع، وغيرُها"
+  },
+  {
+   "european": "Noble",
+   "arabic_root": "عد",
+   "author_translit": "3adoo",
+   "arabic_gloss": "enemy, enmity",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Noble",
+   "arabic_root": "عدوت",
+   "author_translit": "3adawat",
+   "arabic_gloss": "enemy, enmity",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: عدو"
+  },
+  {
+   "european": "Noble",
+   "arabic_root": "نض",
+   "author_translit": "naDa",
+   "arabic_gloss": "take off clothes",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بز، عشش، غسل"
   },
   {
    "european": "Nod",
@@ -18417,6 +20563,14 @@
    "bridge_agrees": "جذرٌ آخر: ءشل، جرذ، حظل، خمع، شل، شلل، عرج، عند، وغيرُها"
   },
   {
+   "european": "Notary",
+   "arabic_root": "نقط",
+   "author_translit": "nuqTa(t)",
+   "arabic_gloss": "dot; writing",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Note",
    "arabic_root": "نقط",
    "author_translit": "nuqTa",
@@ -18554,6 +20708,14 @@
   },
   {
    "european": "Oath",
+   "arabic_root": "عهد",
+   "author_translit": "3ahd",
+   "arabic_gloss": "oath, promise",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Oath",
    "arabic_root": "وسوس",
    "author_translit": "waswaas",
    "arabic_gloss": "obsession",
@@ -18677,7 +20839,7 @@
    "arabic_root": "عبء",
    "author_translit": "3ib'",
    "arabic_gloss": "onus, burden",
-   "source": "jassem-2015-military",
+   "source": "jassem-2015-military · jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -19042,10 +21204,18 @@
   },
   {
    "european": "Order",
+   "arabic_root": "جر",
+   "author_translit": "joor",
+   "arabic_gloss": "injustice",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بطل، بغي، ثءر، جور، حيف، ظلم، عطب، عول، وغيرُها"
+  },
+  {
+   "european": "Order",
    "arabic_root": "رتل",
    "author_translit": "ratl",
    "arabic_gloss": "row, line, order",
-   "source": "jassem-2015-military",
+   "source": "jassem-2015-military · jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -19105,6 +21275,14 @@
    "bridge_agrees": "جذرٌ آخر: خلص، ردي، زكو، عصم، غسل، قاء، قدس، نزه"
   },
   {
+   "european": "Organ",
+   "arabic_root": "عرق",
+   "author_translit": "3irq",
+   "arabic_gloss": "vein, organ",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءذن، ءير، بز، بط، بطن، بظر، بيض، تلم، وغيرُها"
+  },
+  {
    "european": "Organization",
    "arabic_root": "بلط",
    "author_translit": "balaaT",
@@ -19118,6 +21296,14 @@
    "author_translit": "qarn",
    "arabic_gloss": "(musical) horn, connection",
    "source": "jassem-2015-democratic",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Orgasm",
+   "arabic_root": "قرن",
+   "author_translit": "qarn",
+   "arabic_gloss": "horn, to bulge like one; horny",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -19529,6 +21715,46 @@
    "bridge_agrees": "جذرٌ آخر: خفض، سنو، شفق، لين، نعم، يسر"
   },
   {
+   "european": "Pathos",
+   "arabic_root": "بث",
+   "author_translit": "bathth",
+   "arabic_gloss": "extreme sorrow",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءخر، ءسا، ءسف، ءسي، ءلم، ادم، از، بتل، وغيرُها"
+  },
+  {
+   "european": "Pathos",
+   "arabic_root": "بله",
+   "author_translit": "balah",
+   "arabic_gloss": "love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بوس، تاب، تيم، حب، حبب، حبك، حمر، حمس، وغيرُها"
+  },
+  {
+   "european": "Pathos",
+   "arabic_root": "ذنب",
+   "author_translit": "dhanab",
+   "arabic_gloss": "tail",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Pathos",
+   "arabic_root": "فشل",
+   "author_translit": "faishala(t)",
+   "arabic_gloss": "penis head",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: غرل، قلف"
+  },
+  {
+   "european": "Pathos",
+   "arabic_root": "وله",
+   "author_translit": "walah",
+   "arabic_gloss": "love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بوس، تاب، تيم، حب، حبب، حبك، حمر، حمس، وغيرُها"
+  },
+  {
    "european": "Pause",
    "arabic_root": "حبس",
    "author_translit": "2abas",
@@ -19559,6 +21785,22 @@
    "arabic_gloss": "a gardener",
    "source": "jassem-2015-urban",
    "bridge_agrees": "جذرٌ آخر: جرف، قار، لج"
+  },
+  {
+   "european": "Pay",
+   "arabic_root": "بك",
+   "author_translit": "baak",
+   "arabic_gloss": "buy and sell",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
+  },
+  {
+   "european": "Pay",
+   "arabic_root": "بوك",
+   "author_translit": "bawk",
+   "arabic_gloss": "buy and sell",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
   },
   {
    "european": "Peace",
@@ -19735,6 +21977,38 @@
    "arabic_gloss": "after",
    "source": "jassem-2013-time",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Permit",
+   "arabic_root": "ءمض",
+   "author_translit": "'amDa",
+   "arabic_gloss": "permit, go",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءذن، ترك، جوز، حل، خفف، خلا، رخص، سمح، وغيرُها"
+  },
+  {
+   "european": "Permit",
+   "arabic_root": "بن",
+   "author_translit": "bian",
+   "arabic_gloss": "evidence, complaint",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءصل، برء، بره، بين، ثبت، حجج، حقق، خم، وغيرُها"
+  },
+  {
+   "european": "Permit",
+   "arabic_root": "بنت",
+   "author_translit": "baienat",
+   "arabic_gloss": "evidence, complaint",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءصل، برء، بره، بين، ثبت، حجج، حقق، خم، وغيرُها"
+  },
+  {
+   "european": "Permit",
+   "arabic_root": "مض",
+   "author_translit": "maDa",
+   "arabic_gloss": "permit, go",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءذن، ترك، جوز، حل، خفف، خلا، رخص، سمح، وغيرُها"
   },
   {
    "european": "Pheasant",
@@ -19921,6 +22195,38 @@
    "bridge_agrees": "جذرٌ آخر: جلخ، حلق، دك، سنن، شحذ، صطب"
   },
   {
+   "european": "Playful",
+   "arabic_root": "برط",
+   "author_translit": "barTa(t)",
+   "arabic_gloss": "beautiful",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءنق، برج، بهج، بهي، جمل، جود، حسن، حيل، وغيرُها"
+  },
+  {
+   "european": "Playful",
+   "arabic_root": "بعل",
+   "author_translit": "ba3l",
+   "arabic_gloss": "wife, husband",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Plead guilty",
+   "arabic_root": "بل",
+   "author_translit": "bala",
+   "arabic_gloss": "yes",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ء، ءجل، ءما، ءي، اه، ايه، بلا، بلي، وغيرُها"
+  },
+  {
+   "european": "Plead guilty",
+   "arabic_root": "غلط",
+   "author_translit": "ghalaTi",
+   "arabic_gloss": "yes, (it",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ء، ءجل، ءما، ءي، اه، ايه، بلا، بلي، وغيرُها"
+  },
+  {
    "european": "Please",
    "arabic_root": "بجل",
    "author_translit": "bajal",
@@ -19938,10 +22244,26 @@
   },
   {
    "european": "Pledge",
+   "arabic_root": "بلد",
+   "author_translit": "balad",
+   "arabic_gloss": "village, city, town",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Pledge",
    "arabic_root": "قبل",
    "author_translit": "qabal",
    "arabic_gloss": "accept",
    "source": "jassem-2015-democratic",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Pledge",
+   "arabic_root": "كفل",
+   "author_translit": "kafal",
+   "arabic_gloss": "to guarantee",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -20261,8 +22583,16 @@
    "arabic_root": "بء",
    "author_translit": "baa'a(t)",
    "arabic_gloss": "ability",
-   "source": "jassem-2015-military",
+   "source": "jassem-2015-military · jassem-2015-legal",
    "bridge_agrees": "جذرٌ آخر: برع، بصر، بيع، تقن، جندب، جهد، حج، حدث، وغيرُها"
+  },
+  {
+   "european": "Power",
+   "arabic_root": "برء",
+   "author_translit": "baraa'",
+   "arabic_gloss": "first",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها"
   },
   {
    "european": "Power",
@@ -20277,7 +22607,15 @@
    "arabic_root": "مرء",
    "author_translit": "muru'a(t)",
    "arabic_gloss": "strength, power",
-   "source": "jassem-2015-military",
+   "source": "jassem-2015-military · jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءزر، ءيد، بءس، سطو، سلط، طوق، عزز، قو، وغيرُها"
+  },
+  {
+   "european": "Power",
+   "arabic_root": "مرو",
+   "author_translit": "muruwa(t)",
+   "arabic_gloss": "strength, power",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "جذرٌ آخر: ءزر، ءيد، بءس، سطو، سلط، طوق، عزز، قو، وغيرُها"
   },
   {
@@ -20433,12 +22771,28 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Price",
+   "arabic_root": "ربح",
+   "author_translit": "rib2",
+   "arabic_gloss": "profit",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Prick",
    "arabic_root": "بقر",
    "author_translit": "baqr",
    "arabic_gloss": "a cut",
    "source": "jassem-2016-floral",
    "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
+  },
+  {
+   "european": "Pride",
+   "arabic_root": "بطر",
+   "author_translit": "baTar",
+   "arabic_gloss": "pride, evil",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: خيل"
   },
   {
    "european": "Priest",
@@ -20495,6 +22849,22 @@
    "arabic_gloss": "before, in front of",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Prison",
+   "arabic_root": "بر",
+   "author_translit": "baria(t)",
+   "arabic_gloss": "people",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءب، ءم، ءمم، ءنا، ءهل، اس، اصر، التي، وغيرُها"
+  },
+  {
+   "european": "Prison",
+   "arabic_root": "زرب",
+   "author_translit": "zirb(un)",
+   "arabic_gloss": "enclosure, den; jail, prison",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حبس، سجن، عقل"
   },
   {
    "european": "Privilege",
@@ -20566,6 +22936,110 @@
    "author_translit": "rubba",
    "arabic_gloss": "perhaps, probably, likely",
    "source": "jassem-2014-mathematical",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Proceedings",
+   "arabic_root": "بر",
+   "author_translit": "barra",
+   "arabic_gloss": "out",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءبب، ءتي، ءجر، ءخذ، ءدي، ءسس، ءسماعيل، ءصل، وغيرُها"
+  },
+  {
+   "european": "Proceedings",
+   "arabic_root": "كد",
+   "author_translit": "kadda",
+   "arabic_gloss": "walk fast",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: خرط، هرول، هطع"
+  },
+  {
+   "european": "Profess",
+   "arabic_root": "ءفصح",
+   "author_translit": "'afSa2a",
+   "arabic_gloss": "to declare",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءد، برء، بهر، تلف، جرم، حرم، حظر، حكم، وغيرُها"
+  },
+  {
+   "european": "Profit",
+   "arabic_root": "بر",
+   "author_translit": "barra",
+   "arabic_gloss": "out",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءبب، ءتي، ءجر، ءخذ، ءدي، ءسس، ءسماعيل، ءصل، وغيرُها"
+  },
+  {
+   "european": "Profit",
+   "arabic_root": "وقع",
+   "author_translit": "waqa3",
+   "arabic_gloss": "happen, make",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Prohibition",
+   "arabic_root": "بر",
+   "author_translit": "barra",
+   "arabic_gloss": "outside",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Prohibition",
+   "arabic_root": "حبذ",
+   "author_translit": "2abadha",
+   "arabic_gloss": "like",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءبي، ءخو، ءسر، ءطر، ءنث، ءنس، ءيض، الءسد، وغيرُها"
+  },
+  {
+   "european": "Prohibition",
+   "arabic_root": "رب",
+   "author_translit": "rabb(at)",
+   "arabic_gloss": "owner",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Prohibition",
+   "arabic_root": "هب",
+   "author_translit": "haba",
+   "arabic_gloss": "give; suppose",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: خيل، وهب"
+  },
+  {
+   "european": "Prohibition",
+   "arabic_root": "هبتن",
+   "author_translit": "hiba(tun)",
+   "arabic_gloss": "give; suppose",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: خيل، وهب"
+  },
+  {
+   "european": "Prosecutor General",
+   "arabic_root": "جنس",
+   "author_translit": "jins",
+   "arabic_gloss": "kind, stock",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Prosecutor General",
+   "arabic_root": "سق",
+   "author_translit": "saaqa",
+   "arabic_gloss": "drive/push ahead; follow",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: طرد"
+  },
+  {
+   "european": "Prostitute",
+   "arabic_root": "قبل",
+   "author_translit": "qabl",
+   "arabic_gloss": "before",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -20702,6 +23176,38 @@
    "author_translit": "keena",
    "arabic_gloss": "such a tree",
    "source": "jassem-2016-floral",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Punish",
+   "arabic_root": "عقب",
+   "author_translit": "3aaqab",
+   "arabic_gloss": "punish",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، جاز، جزي، حد، خسف، عزر، قصص، مثل، وغيرُها"
+  },
+  {
+   "european": "Punish",
+   "arabic_root": "عقبن",
+   "author_translit": "3uqban",
+   "arabic_gloss": "punish",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، جاز، جزي، حد، خسف، عزر، قصص، مثل، وغيرُها"
+  },
+  {
+   "european": "Pure",
+   "arabic_root": "برهره",
+   "author_translit": "barahraha(t)",
+   "arabic_gloss": "very white",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: غرر"
+  },
+  {
+   "european": "Pure",
+   "arabic_root": "بس",
+   "author_translit": "biss(at)",
+   "arabic_gloss": "cat",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -20902,6 +23408,30 @@
    "author_translit": "qareeb",
    "arabic_gloss": "near",
    "source": "jassem-2015-democratic",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Ram",
+   "arabic_root": "ءرب",
+   "author_translit": "'irb",
+   "arabic_gloss": "intercourse, vagina",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءير، ام، اين، بر، بشر، بضع، بكر، جنس، وغيرُها"
+  },
+  {
+   "european": "Ram",
+   "arabic_root": "رذل",
+   "author_translit": "radheel",
+   "arabic_gloss": "lowly, base",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Ram",
+   "arabic_root": "غنم",
+   "author_translit": "ghanam",
+   "arabic_gloss": "sheep",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -21237,7 +23767,15 @@
    "arabic_root": "جرد",
    "author_translit": "jarada",
    "arabic_gloss": "write, newspaper",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Record",
+   "arabic_root": "صدر",
+   "author_translit": "Sadr",
+   "arabic_gloss": "breast, heart",
+   "source": "jassem-2015-legal",
    "bridge_agrees": "نعم"
   },
   {
@@ -21337,12 +23875,52 @@
    "bridge_agrees": "جذرٌ آخر: سوي، قب"
   },
   {
+   "european": "Register",
+   "arabic_root": "رقش",
+   "author_translit": "raqsh(at)",
+   "arabic_gloss": "dotting, writing",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءرخ، ءشر، ءمر، بجد، بنط، تكء، جام، جل، وغيرُها"
+  },
+  {
+   "european": "Register",
+   "arabic_root": "قل",
+   "author_translit": "aqalla",
+   "arabic_gloss": "carry",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءخذ، ءدي، ءذن، ءنف، النواة، بردع، بشر، بوز، وغيرُها"
+  },
+  {
+   "european": "Regret",
+   "arabic_root": "ءرم",
+   "author_translit": "'araam",
+   "arabic_gloss": "rocks",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: جرف، حجر، حفر، خزف، شن، صخر، صو، عدن، وغيرُها"
+  },
+  {
    "european": "Regret",
    "arabic_root": "غلط",
    "author_translit": "ghalaT",
    "arabic_gloss": "mistake, sorrow",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Regulation",
+   "arabic_root": "رجلتن",
+   "author_translit": "rijl(atun)",
+   "arabic_gloss": "leg, foot, a metrical unit",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بوص، جر، جزم، رجل، رفس، ركل، ريل، شبر، وغيرُها"
+  },
+  {
+   "european": "Regulation",
+   "arabic_root": "رق",
+   "author_translit": "raqa",
+   "arabic_gloss": "to ascend, straighten",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: سوي، قب"
   },
   {
    "european": "Regurgitate",
@@ -22105,6 +24683,30 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Rude",
+   "arabic_root": "ترو",
+   "author_translit": "tarawwi",
+   "arabic_gloss": "thoughtfulness",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Rude",
+   "arabic_root": "ردء",
+   "author_translit": "radee'",
+   "arabic_gloss": "bad, rude",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: فظظ"
+  },
+  {
+   "european": "Rude",
+   "arabic_root": "رو",
+   "author_translit": "rawia(t)",
+   "arabic_gloss": "thoughtfulness",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
    "european": "Rug",
    "arabic_root": "رقع",
    "author_translit": "ruq3a(t)",
@@ -22119,6 +24721,14 @@
    "arabic_gloss": "to ruin",
    "source": "jassem-2013-cutting-breaking",
    "bridge_agrees": "جذرٌ آخر: ءسا، تبب، تعس، تلف، ثبر، خدش، خرب، خربة، وغيرُها"
+  },
+  {
+   "european": "Rule",
+   "arabic_root": "ول",
+   "author_translit": "waali",
+   "arabic_gloss": "ruler",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بدد، بعل، بلو، تبع، تمرد، ثور، حاك، حلف، وغيرُها"
   },
   {
    "european": "Ruler",
@@ -22226,6 +24836,14 @@
   },
   {
    "european": "Ruthful",
+   "arabic_root": "رف",
+   "author_translit": "raoof",
+   "arabic_gloss": "ruthful",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Ruthful",
    "arabic_root": "سبت",
    "author_translit": "sabt",
    "arabic_gloss": "rest, week, Saturday",
@@ -22239,6 +24857,14 @@
    "arabic_gloss": "chief, old man",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: شيخ"
+  },
+  {
+   "european": "Ruthful",
+   "arabic_root": "علم",
+   "author_translit": "3aleem",
+   "arabic_gloss": "knowing",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Ruthful",
@@ -22461,7 +25087,7 @@
    "arabic_root": "سخر",
    "author_translit": "sukhria(t)",
    "arabic_gloss": "sarcasm",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -22477,7 +25103,7 @@
    "arabic_root": "مسخر",
    "author_translit": "maskhara(t)",
    "arabic_gloss": "sarcasm",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
    "bridge_agrees": "جذرٌ آخر: سخر، هكم"
   },
   {
@@ -22647,6 +25273,46 @@
    "arabic_gloss": "see",
    "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Scorn",
+   "arabic_root": "زجر",
+   "author_translit": "zajar",
+   "arabic_gloss": "scorn",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءبق، خف، طنف، مهن، نكف، هان، هون"
+  },
+  {
+   "european": "Scorn",
+   "arabic_root": "زجرن",
+   "author_translit": "zujraan",
+   "arabic_gloss": "scorn",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءبق، خف، طنف، مهن، نكف، هان، هون"
+  },
+  {
+   "european": "Scorn",
+   "arabic_root": "زح",
+   "author_translit": "zaa2",
+   "arabic_gloss": "shift, to be away",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءبد، ءبق، ءخذ، ءدي، ءفك، ءفن، ءكل، ءلل، وغيرُها"
+  },
+  {
+   "european": "Scorn",
+   "arabic_root": "قد",
+   "author_translit": "qaada",
+   "arabic_gloss": "lead",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءبر، ءدي، ءم، ءول، ءوم، ءيس، بحبح، برق، وغيرُها"
+  },
+  {
+   "european": "Scorn",
+   "arabic_root": "قدت",
+   "author_translit": "qiadat",
+   "arabic_gloss": "lead",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءبر، ءدي، ءم، ءول، ءوم، ءيس، بحبح، برق، وغيرُها"
   },
   {
    "european": "Scorpion",
@@ -23057,12 +25723,44 @@
    "bridge_agrees": "جذرٌ آخر: ءنا، بشر، بين، خصص، خلق، ذات، عصا، غير، وغيرُها"
   },
   {
+   "european": "Sell",
+   "arabic_root": "شر",
+   "author_translit": "shara",
+   "arabic_gloss": "/sharwa(t) (n)",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
    "european": "Semantics",
    "arabic_root": "سم",
    "author_translit": "seema(t)",
    "arabic_gloss": "sign",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: ءثر، ءية، ءيي، اتم، الءسد، الثور، الجدي، الحوت، وغيرُها"
+  },
+  {
+   "european": "Semen",
+   "arabic_root": "حس",
+   "author_translit": "2iss",
+   "arabic_gloss": "sense, feeling, voice",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حسس"
+  },
+  {
+   "european": "Semen",
+   "arabic_root": "محس",
+   "author_translit": "ma2soos",
+   "arabic_gloss": "sense, feeling, voice",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حسس"
+  },
+  {
+   "european": "Semen",
+   "arabic_root": "نحس",
+   "author_translit": "in2ass",
+   "arabic_gloss": "sense, feeling, voice",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حسس"
   },
   {
    "european": "Semi",
@@ -23193,6 +25891,38 @@
    "bridge_agrees": "جذرٌ آخر: شيخ"
   },
   {
+   "european": "Sentence",
+   "arabic_root": "جلس",
+   "author_translit": "jalas",
+   "arabic_gloss": "sit",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sentence",
+   "arabic_root": "شرع",
+   "author_translit": "shari3",
+   "arabic_gloss": "street, area; jurisdiction",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sentence",
+   "arabic_root": "شرف",
+   "author_translit": "shareef",
+   "arabic_gloss": "noble, honest, honourable",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sentence",
+   "arabic_root": "ظن",
+   "author_translit": "Dhann(at)",
+   "arabic_gloss": "opinion, thinking",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Sequence",
    "arabic_root": "سق",
    "author_translit": "saaqa",
@@ -23285,7 +26015,7 @@
    "arabic_root": "شق",
    "author_translit": "shaqqa",
    "arabic_gloss": "cut",
-   "source": "jassem-2016-entirely-arabic · jassem-2018-sex-derivatives",
+   "source": "jassem-2013-love · jassem-2016-entirely-arabic · jassem-2018-sex-derivatives",
    "bridge_agrees": "جذرٌ آخر: ءخذ، اسب، الجذر، باك، بت، بتر، بتل، بحر، وغيرُها"
   },
   {
@@ -23303,6 +26033,14 @@
    "arabic_gloss": "to shake",
    "source": "jassem-2013-movement-action",
    "bridge_agrees": "جذرٌ آخر: تعع، جلجل، جهر، خضخض، خطر، رتج، رج، رجح، وغيرُها"
+  },
+  {
+   "european": "Shame",
+   "arabic_root": "شءم",
+   "author_translit": "shu'm",
+   "arabic_gloss": "shame",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حمر، حيو، خجل، خزي، خنع، زري، ستر، عاب، وغيرُها"
   },
   {
    "european": "Shark",
@@ -23505,6 +26243,14 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Shop",
+   "arabic_root": "سقف",
+   "author_translit": "saqf",
+   "arabic_gloss": "a roof",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Shore",
    "arabic_root": "شرع",
    "author_translit": "sharee3a(t)",
@@ -23631,6 +26377,14 @@
    "arabic_gloss": "shut",
    "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Shy",
+   "arabic_root": "حي",
+   "author_translit": "2ayaa",
+   "arabic_gloss": "(n), 2ayi (adj.), ista2a (v)",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Sickle",
@@ -24121,6 +26875,22 @@
    "bridge_agrees": "جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها"
   },
   {
+   "european": "Slut",
+   "arabic_root": "سلط",
+   "author_translit": "saleeTa(t)",
+   "arabic_gloss": "a rude woman",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءث، ءذربيجان، ءنث، ءنس، اجر، اخت، بدل، بذل، وغيرُها"
+  },
+  {
+   "european": "Slut",
+   "arabic_root": "مرد",
+   "author_translit": "amrad",
+   "arabic_gloss": "hairless (male), beautiful",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بهج، جمل، جود، حسن، زين، صبح، صور، ولي"
+  },
+  {
    "european": "Smack",
    "arabic_root": "صمق",
    "author_translit": "Samaq",
@@ -24417,6 +27187,30 @@
    "bridge_agrees": "جذرٌ آخر: ءصف، ءم، ءمن، ءنس، حما، حمي، خزن، داود، وغيرُها"
   },
   {
+   "european": "Solicitor",
+   "arabic_root": "شط",
+   "author_translit": "shaaT",
+   "arabic_gloss": "arouse, burn",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: النواة، ثور، جحم، جمر، حرر، حرق، خفق، دفء، وغيرُها"
+  },
+  {
+   "european": "Solicitor",
+   "arabic_root": "قضب",
+   "author_translit": "qaDeeb",
+   "arabic_gloss": "walking stick, rod",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Solicitor",
+   "arabic_root": "كل",
+   "author_translit": "kull",
+   "arabic_gloss": "all",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Solid",
    "arabic_root": "صلد",
    "author_translit": "Sald",
@@ -24462,6 +27256,14 @@
    "author_translit": "2asra(t)",
    "arabic_gloss": "sorrow",
    "source": "jassem-2013-speech-writing",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Sorrow",
+   "arabic_root": "زعل",
+   "author_translit": "za3al",
+   "arabic_gloss": "sorrow",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -24961,6 +27763,14 @@
    "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
   },
   {
+   "european": "Steal",
+   "arabic_root": "سلت",
+   "author_translit": "salat",
+   "arabic_gloss": "light theft",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها"
+  },
+  {
    "european": "Steam",
    "arabic_root": "زنطر",
    "author_translit": "zanTar",
@@ -25073,6 +27883,14 @@
    "bridge_agrees": "جذرٌ آخر: ءبن، بدء، برز، جيل، خطا، خطو، در، دعس، وغيرُها"
   },
   {
+   "european": "Sterile",
+   "arabic_root": "جردء",
+   "author_translit": "jardaa'",
+   "arabic_gloss": "barren, sterile",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: تء، جدب، عاقر، عقر، عقم، عقي، محل"
+  },
+  {
    "european": "Stick",
    "arabic_root": "غز",
    "author_translit": "ghazza(t)",
@@ -25121,6 +27939,22 @@
    "bridge_agrees": "جذرٌ آخر: ءبر، حرق، حم، خلب، سمم، شوك، طعن، عقرب، وغيرُها"
   },
   {
+   "european": "Stipulation",
+   "arabic_root": "صوب",
+   "author_translit": "Sawb",
+   "arabic_gloss": "falling; towards",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Stipulation",
+   "arabic_root": "طلبتن",
+   "author_translit": "Talab(atun)",
+   "arabic_gloss": "demand, request",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءبي، رفض، سءل، طلب، عود"
+  },
+  {
    "european": "Stitch",
    "arabic_root": "شوك",
    "author_translit": "shawk(at)",
@@ -25135,6 +27969,14 @@
    "arabic_gloss": "dry grass, plants, or trees",
    "source": "jassem-2016-floral",
    "bridge_agrees": "جذرٌ آخر: بست، بوص، جرد، حشش، خضر، دبق، دسس، رز، وغيرُها"
+  },
+  {
+   "european": "Stock",
+   "arabic_root": "سق",
+   "author_translit": "saaq",
+   "arabic_gloss": "(tree) trunk; leg; drive, take",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: سقي"
   },
   {
    "european": "Stop",
@@ -25666,6 +28508,14 @@
   },
   {
    "european": "Swear",
+   "arabic_root": "ءصر",
+   "author_translit": "'iSr(ar)",
+   "arabic_gloss": "swearing, oath; insistence",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حلف"
+  },
+  {
+   "european": "Swear",
    "arabic_root": "بزبز",
    "author_translit": "baz(baz)",
    "arabic_gloss": "drink",
@@ -25685,8 +28535,24 @@
    "arabic_root": "شر",
    "author_translit": "shaara",
    "arabic_gloss": "swear at",
-   "source": "jassem-2013-speech-writing · jassem-2014-divine-theological",
+   "source": "jassem-2013-speech-writing · jassem-2013-love · jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: حلف، سب، شتم، صقع، قسم، يمن"
+  },
+  {
+   "european": "Swear",
+   "arabic_root": "صر",
+   "author_translit": "aSarr",
+   "arabic_gloss": "swearing, oath; insistence",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حلف"
+  },
+  {
+   "european": "Swear",
+   "arabic_root": "طس",
+   "author_translit": "Tass(at)",
+   "arabic_gloss": "see",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Swear",
@@ -25695,6 +28561,14 @@
    "arabic_gloss": "or ghawsh",
    "source": "jassem-2013-speech-writing · jassem-2014-divine-theological",
    "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "Swear",
+   "arabic_root": "مشر",
+   "author_translit": "mishaari",
+   "arabic_gloss": "swear at",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حلف، سب، شتم، صقع، قسم، يمن"
   },
   {
    "european": "Sweat",
@@ -25857,6 +28731,14 @@
    "bridge_agrees": "جذرٌ آخر: رع، زرق، سقي، ضيق، قري، قير"
   },
   {
+   "european": "Sympathy",
+   "arabic_root": "جمع",
+   "author_translit": "jamee3",
+   "arabic_gloss": "together",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ء، ءسر، ءكل، ءلف، ءوي، ا، بال، بحث، وغيرُها"
+  },
+  {
    "european": "Tail",
    "arabic_root": "ثد",
    "author_translit": "thadi",
@@ -25922,11 +28804,35 @@
   },
   {
    "european": "Take",
+   "arabic_root": "ءخذ",
+   "author_translit": "'akhadh",
+   "arabic_gloss": "take",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Take",
+   "arabic_root": "تجر",
+   "author_translit": "tijaara(t)",
+   "arabic_gloss": "trade",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Take",
    "arabic_root": "خذ",
    "author_translit": "akhadh",
    "arabic_gloss": "take",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: ءبط، ءبه، ءثر، ءجر، ءخ، ءخذ، ءخو، ءدي، وغيرُها"
+  },
+  {
+   "european": "Take",
+   "arabic_root": "طرق",
+   "author_translit": "Tareeq",
+   "arabic_gloss": "path, road",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Take",
@@ -26063,6 +28969,30 @@
    "arabic_gloss": "drop",
    "source": "jassem-2013-water-sea",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Teat",
+   "arabic_root": "تم",
+   "author_translit": "taim",
+   "arabic_gloss": "love-enslaved",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: تيم"
+  },
+  {
+   "european": "Teat",
+   "arabic_root": "ثد",
+   "author_translit": "thadi",
+   "arabic_gloss": "teat",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بز، حلم، در"
+  },
+  {
+   "european": "Teat",
+   "arabic_root": "متم",
+   "author_translit": "mutaiam",
+   "arabic_gloss": "love-enslaved",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: تيم"
   },
   {
    "european": "Tell",
@@ -26386,6 +29316,118 @@
   },
   {
    "european": "They",
+   "arabic_root": "جرء",
+   "author_translit": "jaree'",
+   "arabic_gloss": "daring",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "They",
+   "arabic_root": "حءل",
+   "author_translit": "2aa'el",
+   "arabic_gloss": "wall, barrier",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: راس، سور"
+  },
+  {
+   "european": "They",
+   "arabic_root": "حت",
+   "author_translit": "2atta",
+   "arabic_gloss": "to, until",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءجل، ءخر، ءلو، ءما، الصرب، بطء، بون، جني، وغيرُها"
+  },
+  {
+   "european": "They",
+   "arabic_root": "حي",
+   "author_translit": "2aiya",
+   "arabic_gloss": "greet",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: حيا، حيو، رحب، سلم، صفح، قبل"
+  },
+  {
+   "european": "They",
+   "arabic_root": "رجل",
+   "author_translit": "rajul",
+   "arabic_gloss": "man, husband",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "They",
+   "arabic_root": "زن",
+   "author_translit": "zain",
+   "arabic_gloss": "fine",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: بخر، بزي، بن، حرم، حسن، حلو، دق، دقق، وغيرُها"
+  },
+  {
+   "european": "They",
+   "arabic_root": "شكر",
+   "author_translit": "shakara",
+   "arabic_gloss": "thank",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "They",
+   "arabic_root": "صح",
+   "author_translit": "Saa2",
+   "arabic_gloss": "say, shout, cry",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: هدر"
+  },
+  {
+   "european": "They",
+   "arabic_root": "صر",
+   "author_translit": "Saar",
+   "arabic_gloss": "become, is",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءبد، ءتي، ءجج، ءجل، ءجن، ءخو، ءسلم، ءصل، وغيرُها"
+  },
+  {
+   "european": "They",
+   "arabic_root": "ضع",
+   "author_translit": "Da3",
+   "arabic_gloss": "put, place",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءبب، ءجل، ءخذ، ءخر، ءلف، ءني، ءيي، العروض، وغيرُها"
+  },
+  {
+   "european": "They",
+   "arabic_root": "عد",
+   "author_translit": "3adaa",
+   "arabic_gloss": "(3adwaa",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "They",
+   "arabic_root": "قد",
+   "author_translit": "qad",
+   "arabic_gloss": "certainly",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءم، ربم، قطع، قين، ل، لجر، لعل"
+  },
+  {
+   "european": "They",
+   "arabic_root": "قسط",
+   "author_translit": "qisT",
+   "arabic_gloss": "justice",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: بوق، جور، حكم، ظلم، عدل، قاض، قسم، قوا، وغيرُها"
+  },
+  {
+   "european": "They",
+   "arabic_root": "قط",
+   "author_translit": "qaTT",
+   "arabic_gloss": "nothing",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءلا، ان، بطل، بور، ثا، درج، دي، شرد، وغيرُها"
+  },
+  {
+   "european": "They",
    "arabic_root": "كتبت",
    "author_translit": "katabat",
    "arabic_gloss": "she writes/wrote",
@@ -26394,11 +29436,27 @@
   },
   {
    "european": "They",
+   "arabic_root": "كن",
+   "author_translit": "kaan",
+   "arabic_gloss": "be, was",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "لا مدخلَ عندنا"
+  },
+  {
+   "european": "They",
    "arabic_root": "نت",
    "author_translit": "anta",
    "arabic_gloss": "you- nom.",
    "source": "jassem-pronouns",
    "bridge_agrees": "جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، صحح، عطو، وغيرُها"
+  },
+  {
+   "european": "They",
+   "arabic_root": "هذ",
+   "author_translit": "haadha",
+   "arabic_gloss": "this",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "They",
@@ -26434,11 +29492,51 @@
   },
   {
    "european": "They",
+   "arabic_root": "وحل",
+   "author_translit": "wa2l",
+   "arabic_gloss": "mud",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "They",
+   "arabic_root": "ود",
+   "author_translit": "wadda",
+   "arabic_gloss": "desire",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءبو، ءراد، ءمل، ءوي، بد، بغي، تاق، توق، وغيرُها"
+  },
+  {
+   "european": "They",
+   "arabic_root": "وضع",
+   "author_translit": "waDa3",
+   "arabic_gloss": "put, place",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "They",
+   "arabic_root": "ول",
+   "author_translit": "wail",
+   "arabic_gloss": "wail",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءن، ءنن، بكي، عدد، عول، ندب، ولول"
+  },
+  {
+   "european": "They",
    "arabic_root": "يك",
    "author_translit": "(iya)ka",
    "arabic_gloss": "you- acc.",
    "source": "jassem-pronouns",
    "bridge_agrees": "جذرٌ آخر: ءنت، ءنتن، انت، تين، حبك، رز، سعف، صحح، وغيرُها"
+  },
+  {
+   "european": "They",
+   "arabic_root": "يكن",
+   "author_translit": "yakoo(n)",
+   "arabic_gloss": "be",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "لا مدخلَ عندنا"
   },
   {
    "european": "Thirsty",
@@ -26535,6 +29633,38 @@
    "arabic_gloss": "to thresh (wheat, barley)",
    "source": "jassem-2016-floral",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Throne",
+   "arabic_root": "سر",
+   "author_translit": "sareer",
+   "arabic_gloss": "bed, throne",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: تخت، سرر"
+  },
+  {
+   "european": "Throne",
+   "arabic_root": "عبس",
+   "author_translit": "3abas",
+   "arabic_gloss": "frown, anger",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Throne",
+   "arabic_root": "عبست",
+   "author_translit": "3absat",
+   "arabic_gloss": "frown, anger",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: ءن، بسر، بكي، بي، جرم، جهم، حبط، حد، وغيرُها"
+  },
+  {
+   "european": "Throne",
+   "arabic_root": "قل",
+   "author_translit": "qala",
+   "arabic_gloss": "hate",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: از، بغض، حقد، شغف، شنء، ضغن، طير، قذر، وغيرُها"
   },
   {
    "european": "Through",
@@ -27133,7 +30263,7 @@
    "arabic_root": "ترضت",
    "author_translit": "tarDiat",
    "arabic_gloss": "agreement",
-   "source": "jassem-2015-democratic",
+   "source": "jassem-2015-legal · jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءجل، ءم، ءي، افق، النواة، اه، ايه، تثل، وغيرُها"
   },
   {
@@ -27537,12 +30667,36 @@
    "bridge_agrees": "نعم"
   },
   {
+   "european": "Usury",
+   "arabic_root": "ءد",
+   "author_translit": "'adda",
+   "arabic_gloss": "give",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءبر، ءثر، ءجر، ءحيا، ءخ، ءدر، ءدي، ءذعن، وغيرُها"
+  },
+  {
+   "european": "Usury",
+   "arabic_root": "من",
+   "author_translit": "manna",
+   "arabic_gloss": "give for free",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءمن، خدم، خلص، رسل، زكو، سلم، طلق، عمل"
+  },
+  {
    "european": "Utter",
    "arabic_root": "رت",
    "author_translit": "ratta(at)",
    "arabic_gloss": "talk quickly",
    "source": "jassem-2013-speech-writing",
    "bridge_agrees": "جذرٌ آخر: باه، بجح، بحث، بق، تهم، جري، جوي، حدث، وغيرُها"
+  },
+  {
+   "european": "Vagina",
+   "arabic_root": "فرج",
+   "author_translit": "farj",
+   "arabic_gloss": "vagina",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
   },
   {
    "european": "Valley",
@@ -27681,6 +30835,14 @@
    "bridge_agrees": "جذرٌ آخر: بدر، بطش، بطن، بغت، تنس، جبه، حدج، حذف، وغيرُها"
   },
   {
+   "european": "Verdict",
+   "arabic_root": "ثر",
+   "author_translit": "thar",
+   "arabic_gloss": "true, much",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حمد"
+  },
+  {
    "european": "Verdure",
    "arabic_root": "خضر",
    "author_translit": "khaDra",
@@ -27703,6 +30865,14 @@
    "arabic_gloss": "beat, vibrate",
    "source": "jassem-2013-movement-action",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Vice",
+   "arabic_root": "فحش",
+   "author_translit": "fu2sh",
+   "arabic_gloss": "vice",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بطن، رين، شراه، شره، شنر، عل، عيب، قبح، وغيرُها"
   },
   {
    "european": "Vice",
@@ -27809,6 +30979,22 @@
    "bridge_agrees": "جذرٌ آخر: بيت، بيد، جفن، حرص، حصرم، خرط، خصل، خمر، وغيرُها"
   },
   {
+   "european": "Violation",
+   "arabic_root": "ءذل",
+   "author_translit": "'adhalla",
+   "arabic_gloss": "to frighten; to disrespect",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حنش، خشي، خوف، راع، رعب، رهب، روع، زءم، وغيرُها"
+  },
+  {
+   "european": "Violation",
+   "arabic_root": "ذلتن",
+   "author_translit": "dhill(atun)",
+   "arabic_gloss": "to frighten; to disrespect",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حنش، خشي، خوف، راع، رعب، رهب، روع، زءم، وغيرُها"
+  },
+  {
    "european": "Violence",
    "arabic_root": "فل",
    "author_translit": "feel",
@@ -27820,8 +31006,8 @@
    "european": "Virgin",
    "arabic_root": "بكر",
    "author_translit": "bikr",
-   "arabic_gloss": "virgin, first child",
-   "source": "jassem-2013-family",
+   "arabic_gloss": "virgin",
+   "source": "jassem-2013-love · jassem-2013-family",
    "bridge_agrees": "نعم"
   },
   {
@@ -27846,6 +31032,14 @@
    "author_translit": "dhakar",
    "arabic_gloss": "male (organ)",
    "source": "jassem-2013-animal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Virile",
+   "arabic_root": "مرء",
+   "author_translit": "mar'",
+   "arabic_gloss": "man",
+   "source": "jassem-2013-love",
    "bridge_agrees": "نعم"
   },
   {
@@ -27881,6 +31075,14 @@
    "bridge_agrees": "جذرٌ آخر: حسس"
   },
   {
+   "european": "Volition",
+   "arabic_root": "بل",
+   "author_translit": "baal",
+   "arabic_gloss": "mind, wish, desire",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: حلم، لبب"
+  },
+  {
    "european": "Vomit",
    "arabic_root": "فم",
    "author_translit": "famm",
@@ -27895,6 +31097,22 @@
    "arabic_gloss": "promise",
    "source": "jassem-2015-democratic",
    "bridge_agrees": "جذرٌ آخر: ءلو، بشر، حلف، عهد، قال، مين، نذر، نكث، وغيرُها"
+  },
+  {
+   "european": "Vow",
+   "arabic_root": "فجر",
+   "author_translit": "faajir",
+   "arabic_gloss": "bad, rude",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: فظظ"
+  },
+  {
+   "european": "Vow",
+   "arabic_root": "وء",
+   "author_translit": "wa'i",
+   "arabic_gloss": "vow, promise; zebra; fast horse",
+   "source": "jassem-2013-love · jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: علج، عهد، عير، فرء، كفت، نذر، وعد"
   },
   {
    "european": "Wade",
@@ -27943,6 +31161,22 @@
    "arabic_gloss": "come",
    "source": "jassem-2014-wining-dining",
    "bridge_agrees": "جذرٌ آخر: ءتي، ءج، ءخر، ءمر، ءمل، ءني، ءهل، ءوب، وغيرُها"
+  },
+  {
+   "european": "Waive right",
+   "arabic_root": "عف",
+   "author_translit": "3afa",
+   "arabic_gloss": "to forgive",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: جاز، ساح، عذر، غفر، كفر"
+  },
+  {
+   "european": "Waive right",
+   "arabic_root": "هف",
+   "author_translit": "haifa",
+   "arabic_gloss": "pretty girl",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: ءم، ءنق، اخت، بز، بنت، ثوب، جمل، حبر، وغيرُها"
   },
   {
    "european": "Wake",
@@ -27997,8 +31231,16 @@
    "arabic_root": "ود",
    "author_translit": "wadda",
    "arabic_gloss": "want",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
    "bridge_agrees": "جذرٌ آخر: ءراد، ءمل، بد، بغي، ترب، جلد، حب، حرص، وغيرُها"
+  },
+  {
+   "european": "Want",
+   "arabic_root": "ودن",
+   "author_translit": "wadan",
+   "arabic_gloss": "a bride",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بني، بوج، جلو، عرس، مهر"
   },
   {
    "european": "Want",
@@ -28434,6 +31676,14 @@
   },
   {
    "european": "Wed",
+   "arabic_root": "وطء",
+   "author_translit": "wiT'",
+   "arabic_gloss": "making love, marriage",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Wed",
    "arabic_root": "وعد",
    "author_translit": "wa3d",
    "arabic_gloss": "promise, pledge, date",
@@ -28474,10 +31724,42 @@
   },
   {
    "european": "Welcome",
+   "arabic_root": "جد",
+   "author_translit": "jadd",
+   "arabic_gloss": "grandfather",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Welcome",
    "arabic_root": "سلم",
    "author_translit": "salaam",
-   "arabic_gloss": "greeting, peace, Islam",
-   "source": "jassem-2013-speech-writing · jassem-2014-divine-theological · jassem-2014-wining-dining",
+   "arabic_gloss": "greeting, peace",
+   "source": "jassem-2012-religious · jassem-2013-speech-writing · jassem-2014-divine-theological · jassem-2014-wining-dining",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Welcome",
+   "arabic_root": "غفر",
+   "author_translit": "ghafara",
+   "arabic_gloss": "forgive",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Welcome",
+   "arabic_root": "قبر",
+   "author_translit": "qabr",
+   "arabic_gloss": "grave",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Welcome",
+   "arabic_root": "كبر",
+   "author_translit": "akbar",
+   "arabic_gloss": "bigger",
+   "source": "jassem-2012-religious",
    "bridge_agrees": "نعم"
   },
   {
@@ -28487,6 +31769,14 @@
    "arabic_gloss": "middle",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Welcome",
+   "arabic_root": "يهد",
+   "author_translit": "yahood",
+   "arabic_gloss": "Jews",
+   "source": "jassem-2012-religious",
+   "bridge_agrees": "جذرٌ آخر: بيع، حل، حلب، خل، ديش، ذبح، شمعل، صلا، وغيرُها"
   },
   {
    "european": "Well",
@@ -28665,12 +31955,76 @@
    "bridge_agrees": "جذرٌ آخر: سرر، نجو، هسس، همس، وسوس"
   },
   {
+   "european": "Whore",
+   "arabic_root": "عهر",
+   "author_translit": "3aahir(at)",
+   "arabic_gloss": "whore",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Why might obtain",
+   "arabic_root": "ءه",
+   "author_translit": "'aih",
+   "arabic_gloss": "what",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءدم، ءذا، ءسو، ءش، ءمل، ءي، ءين، ءيي، وغيرُها"
+  },
+  {
+   "european": "Why might obtain",
+   "arabic_root": "قف",
+   "author_translit": "qif",
+   "arabic_gloss": "stop, stand",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Why might obtain",
+   "arabic_root": "قن",
+   "author_translit": "aiqan",
+   "arabic_gloss": "know",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها"
+  },
+  {
+   "european": "Why might obtain",
+   "arabic_root": "كف",
+   "author_translit": "kaifa",
+   "arabic_gloss": "how",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "جذرٌ آخر: ءني، ءين، برع، بصر، تقي، حبب، حجم، حرك، وغيرُها"
+  },
+  {
+   "european": "Why might obtain",
+   "arabic_root": "كم",
+   "author_translit": "kama",
+   "arabic_gloss": "like",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Why might obtain",
+   "arabic_root": "وقف",
+   "author_translit": "waqaf",
+   "arabic_gloss": "stop, stand",
+   "source": "jassem-2014-question-modal",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Wide",
    "arabic_root": "فض",
    "author_translit": "faDee",
    "arabic_gloss": "wide",
    "source": "jassem-2014-mathematical",
    "bridge_agrees": "جذرٌ آخر: ءفق، بحر، برن، بسط، بقع، جو، جوف، حقل، وغيرُها"
+  },
+  {
+   "european": "Wife",
+   "arabic_root": "وف",
+   "author_translit": "wafia(t)",
+   "arabic_gloss": "faithful woman",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: حق"
   },
   {
    "european": "Wind",
@@ -28837,7 +32191,7 @@
    "arabic_root": "شء",
    "author_translit": "shaa'a",
    "arabic_gloss": "wish",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
    "bridge_agrees": "جذرٌ آخر: ءراد، ءمل، بد، بغي، تمم، جشع، حب، حلم، وغيرُها"
   },
   {
@@ -28845,7 +32199,7 @@
    "arabic_root": "مشء",
    "author_translit": "mashee'a(t)",
    "arabic_gloss": "wish",
-   "source": "jassem-2013-speech-writing",
+   "source": "jassem-2013-speech-writing · jassem-2013-love",
    "bridge_agrees": "جذرٌ آخر: ءراد، ءمل، بد، بغي، تمم، جشع، حب، حلم، وغيرُها"
   },
   {
@@ -28881,6 +32235,14 @@
    "bridge_agrees": "جذرٌ آخر: جهر، حق، ركز، زخرف، ززم، سدد، كلف، نفي، وغيرُها"
   },
   {
+   "european": "Wish",
+   "arabic_root": "وضء",
+   "author_translit": "wuDu'",
+   "arabic_gloss": "wash (for prayer)",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
    "european": "Witch",
    "arabic_root": "فتح",
    "author_translit": "fata2",
@@ -28906,6 +32268,14 @@
   },
   {
    "european": "Witness",
+   "arabic_root": "برء",
+   "author_translit": "bara'a",
+   "arabic_gloss": "carry; to have children",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Witness",
    "arabic_root": "بصر",
    "author_translit": "baSSaar(at)",
    "arabic_gloss": "witch, seer",
@@ -28914,11 +32284,51 @@
   },
   {
    "european": "Witness",
+   "arabic_root": "بلد",
+   "author_translit": "balad(at)",
+   "arabic_gloss": "village, town, country",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Witness",
+   "arabic_root": "زر",
+   "author_translit": "zoor",
+   "arabic_gloss": "perjury, injustice, falsehood",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بطل"
+  },
+  {
+   "european": "Witness",
    "arabic_root": "فطن",
    "author_translit": "fiTna(t)",
    "arabic_gloss": "remembering, knowledge",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: ءثر، ءكد، اد، بء، باه، بلغ، بهم، تعل، وغيرُها"
+  },
+  {
+   "european": "Witness",
+   "arabic_root": "كتب",
+   "author_translit": "katab",
+   "arabic_gloss": "write, book",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Witness",
+   "arabic_root": "نت",
+   "author_translit": "nat",
+   "arabic_gloss": "derivational suffix",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: سب"
+  },
+  {
+   "european": "Witness",
+   "arabic_root": "وضح",
+   "author_translit": "waDa2",
+   "arabic_gloss": "to see, to appear",
+   "source": "jassem-2015-legal",
+   "bridge_agrees": "جذرٌ آخر: بدا، بدر، بدو، برز، ثور، جدر، جسد، جن، وغيرُها"
   },
   {
    "european": "Wolf",
@@ -28951,6 +32361,14 @@
    "arabic_gloss": "see, look",
    "source": "jassem-2013-perceptual-sensual",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Woo",
+   "arabic_root": "هو",
+   "author_translit": "hawa",
+   "arabic_gloss": "fall in love with",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: عشق، علق، غرم، كلف، هوي، وقع"
   },
   {
    "european": "Wood",
@@ -29071,6 +32489,14 @@
    "arabic_gloss": "glorify, purify, worship, bathe",
    "source": "jassem-2014-divine-theological",
    "bridge_agrees": "جذرٌ آخر: بجل، ثني، حمد، طري، قدس، مدح"
+  },
+  {
+   "european": "Worth",
+   "arabic_root": "حرز",
+   "author_translit": "2irz",
+   "arabic_gloss": "be worth to; significant, deserving",
+   "source": "jassem-2014-commerce",
+   "bridge_agrees": "جذرٌ آخر: ءهل، حق"
   },
   {
    "european": "Wound",
@@ -29199,6 +32625,30 @@
    "arabic_gloss": "month",
    "source": "jassem-2013-time",
    "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Yearn",
+   "arabic_root": "حب",
+   "author_translit": "2ubb",
+   "arabic_gloss": "love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Yearn",
+   "arabic_root": "غرم",
+   "author_translit": "gharaam",
+   "arabic_gloss": "love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "نعم"
+  },
+  {
+   "european": "Yearn",
+   "arabic_root": "لهف",
+   "author_translit": "lahaf",
+   "arabic_gloss": "love",
+   "source": "jassem-2013-love",
+   "bridge_agrees": "جذرٌ آخر: بوس، تاب، تيم، حب، حبب، حبك، حمر، حمس، وغيرُها"
   },
   {
    "european": "Yell",
