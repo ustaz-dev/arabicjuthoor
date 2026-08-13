@@ -60,9 +60,21 @@ def cards(path):
             gaps = [g for g in GAPS if g in closure]
         # prose mentions are hints only, never unlock triggers
         rows = sorted(set(re.findall(r'\bBR-[A-Z]+-\d+\b', b)))
+        # بطاقاتُ إعادة الفحص تُلحَقُ ولا تمحو البطاقةَ التاريخيّة. يربط هذا
+        # المعرّفُ الناسخَ بالمنسوخ كي يبقى النصُّ القديم في القراءة ولا يبقى
+        # عائقُه القديم نافذًا في السجل. لا يُستعمل هذا الباب بلا معرّفٍ صريح.
+        card_id = ''
+        m = re.search(r'<!--\s*KHASHIM-IE:(\d+):[^>]+-->', b)
+        if m:
+            card_id = f'KHASHIM-IE:{m.group(1)}'
+        supersedes = ''
+        m = re.search(r'<!--\s*DEAD-GATE-REREVIEW:(KHASHIM-IE:\d+)\s*-->', b)
+        if m:
+            supersedes = m.group(1)
         yield {'file': path.replace('\\', '/'), 'card': title[:80], 'verdict': verdict,
                'closure': closure, 'gaps': gaps, 'blocker_type': blocker_type,
-               'required': required, 'row_mentions': rows}
+               'required': required, 'row_mentions': rows,
+               '_card_id': card_id, '_supersedes': supersedes}
 
 # current instruments
 net = open('04-cross-linguistic/shift-network-draft.md', encoding='utf-8').read()
@@ -72,25 +84,44 @@ HM = {'أ': 'ء', 'إ': 'ء', 'آ': 'ء'}
 catalog = {''.join(HM.get(c, c) for c in n['nucleus'].replace('-', '').replace(' ', ''))
            for n in core['levels']['level_2_binary_nuclei']['nuclei']}
 
-ledger, open_q, unlocked = [], [], []
+scanned = []
 for path in sorted(glob.glob('04-cross-linguistic/readings/*.md')):
     for c in cards(path):
-        ledger.append(c)
-        suspended = bool(c['gaps']) or any(g in c['closure'] for g in GAPS)
-        if not suspended:
-            continue
-        open_q.append(c)
-        # unlock triggers come ONLY from the structured requirement field
-        req = c.get('required', '')
-        hints = []
-        for rid in re.findall(r'\bBR-[A-Z]+-\d+\b', req):
-            if rid in signed_rows:
-                hints.append(f'الصف المطلوب {rid} موجود الآن في الشبكة')
-        m = re.search(r'نواة\s+([ء-ي]{2,3})', req)
-        if m and m.group(1) in catalog:
-            hints.append(f'النواة المطلوبة {m.group(1)} موجودة الآن في الفهرس')
-        if hints:
-            unlocked.append((c, hints))
+        scanned.append(c)
+
+superseding = [c['_supersedes'] for c in scanned if c['_supersedes']]
+duplicates = sorted({value for value in superseding if superseding.count(value) > 1})
+if duplicates:
+    print('FAIL: أكثر من بطاقة إعادة فحص تنسخ المعرّف نفسه: ' + '، '.join(duplicates[:10]))
+    sys.exit(1)
+known = {c['_card_id'] for c in scanned if c['_card_id']}
+missing = sorted(set(superseding) - known)
+if missing:
+    print('FAIL: بطاقة إعادة فحص تشير إلى معرّف تاريخي غير موجود: ' + '، '.join(missing[:10]))
+    sys.exit(1)
+
+ledger, open_q, unlocked = [], [], []
+superseded = set(superseding)
+for c in scanned:
+    if c['_card_id'] in superseded:
+        continue
+    c = {key: value for key, value in c.items() if not key.startswith('_')}
+    ledger.append(c)
+    suspended = bool(c['gaps']) or any(g in c['closure'] for g in GAPS)
+    if not suspended:
+        continue
+    open_q.append(c)
+    # unlock triggers come ONLY from the structured requirement field
+    req = c.get('required', '')
+    hints = []
+    for rid in re.findall(r'\bBR-[A-Z]+-\d+\b', req):
+        if rid in signed_rows:
+            hints.append(f'الصف المطلوب {rid} موجود الآن في الشبكة')
+    m = re.search(r'نواة\s+([ء-ي]{2,3})', req)
+    if m and m.group(1) in catalog:
+        hints.append(f'النواة المطلوبة {m.group(1)} موجودة الآن في الفهرس')
+    if hints:
+        unlocked.append((c, hints))
 
 payload = {'generated_from': 'scan_recovery_ledger.py', 'cards_total': len(ledger),
            'suspended': [c for c in open_q]}

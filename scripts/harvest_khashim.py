@@ -46,6 +46,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 STORE = pathlib.Path.home() / "AI Projects" / "Resources" / "prior-art"
 OUT = ROOT / "data" / "khashim-pairs.json"
 SHEET = ROOT / "04-cross-linguistic" / "exploration" / "khashim-harvest.md"
+EGYPTIAN_OCR_RECOVERIES = ROOT / "data" / "khashim-egyptian-ocr-recoveries.json"
 
 BOOKS = {
     "khashim-akkadian": ("الأكّاديّة", "akkadian"),
@@ -500,6 +501,64 @@ def mine_egyptian(md: pathlib.Path) -> list[dict]:
             })
             break
     return pairs
+
+
+def apply_egyptian_ocr_recoveries(rows: list[dict]) -> tuple[list[dict], dict[str, int]]:
+    """طبّق Overlay المسح الأقوى مع حارس legacy لكل عضو مبدّل.
+
+    لا يقرأ الحاصد المسح الجديد مباشرة؛ فسقفه هو الجرد المقابل والمودع الذي
+    لا يحمل إلا حقولًا أزالت عيبًا مسجلًا. وهكذا لا يستطيع تغير خدمة OCR في
+    تشغيل لاحق أن يبدل صفًا سليمًا أو يمحو القيمة القديمة.
+    """
+    if not EGYPTIAN_OCR_RECOVERIES.exists():
+        return [dict(row) for row in rows], {"rows": 0, "fields": 0}
+    payload = json.loads(EGYPTIAN_OCR_RECOVERIES.read_text(encoding="utf-8"))
+    if payload.get("schema") != "khashim-egyptian-ocr-recovery-v1":
+        raise SystemExit("مخطط استرداد مسح البرهان غير معروف")
+    if len(rows) != payload.get("old_rows"):
+        raise SystemExit(
+            f"تغير مقام تطبيق استرداد المصرية: {len(rows)} != {payload.get('old_rows')}"
+        )
+    by_index = {int(item["index"]): item for item in payload["recoveries"]}
+    if len(by_index) != len(payload["recoveries"]):
+        raise SystemExit("تكرر فهرس في Overlay استرداد مسح البرهان")
+    repaired: list[dict] = []
+    field_count = 0
+    for index, source in enumerate(rows):
+        row = dict(source)
+        recovery = by_index.get(index)
+        if not recovery:
+            repaired.append(row)
+            continue
+        legacy = dict(row.get("legacy") or {})
+        fields = recovery.get("fields") or {}
+        if not fields:
+            raise SystemExit(f"استرداد الفهرس {index} بلا حقل")
+        for field, change in fields.items():
+            if field not in {"foreign", "foreign_sense", "glyphs"}:
+                raise SystemExit(f"حقل استرداد غير مأذون في الفهرس {index}: {field}")
+            if row.get(field, "") != change["legacy"]:
+                raise SystemExit(
+                    f"تغير legacy الفهرس {index}/{field}: "
+                    f"{row.get(field, '')!r} != {change['legacy']!r}"
+                )
+            legacy[field] = change["legacy"]
+            row[field] = change["recovered"]
+            field_count += 1
+        row["legacy"] = legacy
+        row["ocr_recovery"] = {
+            "schema": payload["schema"],
+            "fields": fields,
+            "registered_scan_reasons": recovery["registered_scan_reasons"],
+            "new_scan_reasons": recovery["new_scan_reasons"],
+            "old_location": recovery["old_location"],
+            "new_location": recovery["new_location"],
+            "matched_new_row": recovery["matched_new_row"],
+            "alignment_score": recovery["alignment_score"],
+            "matched_source": payload["new_source"],
+        }
+        repaired.append(row)
+    return repaired, {"rows": len(by_index), "fields": field_count}
 
 
 # -------------------------------- حصادُ الجُمَلِ الصريحةِ في بقيّةِ كتبِ خشيم
@@ -1433,10 +1492,16 @@ def main() -> int:
         rows.extend(got)
         print(f"  {'ocr-coptic':24}{len(got):>8}   (مسحٌ جديد)")
     eg = STORE / "ocr-egyptian2" / "full.md"
+    egyptian_recovery = {"rows": 0, "fields": 0}
     if eg.exists():
         got = mine_egyptian(eg)
+        got, egyptian_recovery = apply_egyptian_ocr_recoveries(got)
         rows.extend(got)
-        print(f"  {'ocr-egyptian2':24}{len(got):>8}   (مسحٌ جديد)")
+        print(
+            f"  {'ocr-egyptian2':24}{len(got):>8}   "
+            f"(المسح الأساس؛ استرداد={egyptian_recovery['rows']} صفًا/"
+            f"{egyptian_recovery['fields']} حقلًا)"
+        )
     for folder, (author, default_tongue) in CLAIM_BOOKS.items():
         md = STORE / folder / "full.md"
         if not md.exists():
@@ -1498,6 +1563,7 @@ def main() -> int:
                  "عربيٌّ فقط فسقطَ الحرفُ الأصليُّ، وهو نقصٌ مسمًّى يُسَدُّ بمسحٍ ثانٍ."),
         "pairs": len(rows),
         "latin_head_recovery": latin_recovery,
+        "egyptian_ocr_recovery": egyptian_recovery,
         "additional_attributed_inventories": {
             "aaron_ember_egypto_semitic": {
                 "title": "المصريّةُ القديمةُ لغةٌ عروبيّة",

@@ -29,6 +29,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fan_any_script as FAN  # noqa: E402
+import frozen_event as FE  # noqa: E402
 import harvest_khashim as KH  # noqa: E402
 import search_arabic_root_senses as ARS  # noqa: E402
 
@@ -64,6 +65,7 @@ AR_MARKS = re.compile(r"[\u064b-\u0652ـ]")
 AR_TOKEN = re.compile(r"[ء-ي]{2,16}")
 EN_TOKEN = re.compile(r"[a-z]{3,}")
 FEMININE = re.compile(r"[-.]t$", re.I)
+SENSE_DEFECT = "المعنى الإنجليزي لم يسلم من المسح"
 
 # رؤوسٌ إنجليزيّة مفردة ثبت من مقابلة السطر بسياقه أن المِعول التقطها مكان
 # الرومنة. الرأس ذو الفراغ يعزل آليًّا أيضًا، لأن الدفعة الأولى لا تقبل مركبًا
@@ -372,7 +374,10 @@ def scan_defect(row: dict[str, Any]) -> list[str]:
     sense = row["foreign_sense"]
     glyphs = glyph_chars(row.get("glyphs", ""))
     reasons: list[str] = []
-    recovered_head = bool(row.get("ocr_recovery"))
+    recovered_fields = set((row.get("ocr_recovery") or {}).get("fields", {}))
+    recovered_head = ("foreign" in recovered_fields
+                      or bool(row.get("manual_ocr_head_recovery"))
+                      or bool((row.get("ocr_recovery") or {}).get("old_head")))
     if " " in foreign and not recovered_head:
         reasons.append("رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية")
     if (not recovered_head and (foreign.lower() in ENGLISH_HEADS
@@ -447,13 +452,18 @@ def apply_ocr_head_recoveries(rows: list[dict[str, Any]]) -> tuple[
     repaired: list[dict[str, Any]] = []
     for index, (row, source) in enumerate(zip(rows, located)):
         source_line, mined_foreign, mined_arabic = source
-        if row["foreign"] != mined_foreign or row["arabic_root"] != mined_arabic:
+        legacy_foreign = (row.get("legacy") or {}).get("foreign", row["foreign"])
+        if legacy_foreign != mined_foreign or row["arabic_root"] != mined_arabic:
             raise SystemExit(
                 f"اختل رصف صف OCR {index}: "
-                f"{row['foreign']}/{row['arabic_root']} != {mined_foreign}/{mined_arabic}"
+                f"{legacy_foreign}/{row['arabic_root']} != {mined_foreign}/{mined_arabic}"
             )
         recovered = recoveries.get(index)
         if not recovered:
+            repaired.append(dict(row))
+            continue
+        already_recovered = "foreign" in (row.get("ocr_recovery") or {}).get("fields", {})
+        if already_recovered:
             repaired.append(dict(row))
             continue
         context_start = max(0, source_line - 40)
@@ -468,12 +478,17 @@ def apply_ocr_head_recoveries(rows: list[dict[str, Any]]) -> tuple[
         full_sense = old_sense
         if old_head.casefold() not in old_sense.casefold():
             full_sense = f"{old_head}, {old_sense}".strip(" ,")
+        legacy = dict(row.get("legacy") or {})
+        legacy.setdefault("foreign", old_head)
+        legacy.setdefault("foreign_sense", old_sense)
         repaired.append({
             **row,
             "foreign": recovered,
             "foreign_sense": full_sense,
-            "ocr_recovery": {
+            "legacy": legacy,
+            "manual_ocr_head_recovery": {
                 "old_head": old_head,
+                "old_foreign_sense": old_sense,
                 "source_line": source_line + 1,
                 "scope": "الخمسون المسماة" if index in OCR_NAMED_FIFTY else "استمرار الخلل نفسه",
             },
@@ -481,7 +496,8 @@ def apply_ocr_head_recoveries(rows: list[dict[str, Any]]) -> tuple[
 
     remaining_named = [
         index for index in OCR_NAMED_FIFTY
-        if repaired[index].get("ocr_recovery") is None
+        if not ("foreign" in (repaired[index].get("ocr_recovery") or {}).get("fields", {})
+                or repaired[index].get("manual_ocr_head_recovery"))
     ]
     if remaining_named:
         raise SystemExit(f"لم تسترد رؤوس من الخمسين المسماة: {remaining_named}")
@@ -831,6 +847,36 @@ def fan_text(values: list[str]) -> str:
     return "، ".join(f"`{x}`" for x in values) if values else "(لم تولّد الأداة مرشحًا)"
 
 
+def ocr_recovery_line(row: dict[str, Any]) -> str:
+    recovery = row.get("ocr_recovery") or {}
+    fields = recovery.get("fields") or {}
+    parts: list[str] = []
+    labels = {
+        "foreign": "الرأس",
+        "foreign_sense": "المعنى الإنجليزي",
+        "glyphs": "الرمز الهيروغليفي",
+    }
+    for field, change in fields.items():
+        parts.append(
+            f"{labels.get(field, field)}: legacy=`{change['legacy']}`، "
+            f"المسترد=`{change['recovered']}`"
+        )
+    if fields:
+        location = recovery.get("new_location") or {}
+        parts.append(
+            f"المصدر الجديد صفحة {location.get('page', '?')}، سطر {location.get('line', '?')}"
+        )
+    manual = row.get("manual_ocr_head_recovery")
+    if manual:
+        parts.append(
+            f"الرأس القديم اليدوي: legacy=`{manual['old_head']}`، المسترد=`{row['foreign']}`، "
+            f"سطر المصدر القديم {manual['source_line']}"
+        )
+    if not parts:
+        return "- استردادُ OCR: لا استرداد مسجل لهذا الصف؛ الحقول هي حصاد المسح الأساس."
+    return "- استردادُ OCR: " + "؛ ".join(parts) + "."
+
+
 def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
     row, chosen = item["row"], item["chosen"]
     root = chosen["root"]
@@ -848,13 +894,16 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
             f"{orbit_spec[0]} ← {root}"
         )
     human_orbit = orbit_spec[1] if orbit_spec else ""
-    nucleus_event = NUCLEUS_EVENTS.get(root, "") if len(root) == 2 else ""
-    source_ready = bool(nucleus_event) if len(root) == 2 else bool(lexicon and quote)
-    length_ready = len(root) in {2, 3}
+    frozen_event = FE.resolve(root)
+    event_ready = bool(frozen_event)
+    branch_meaning_ready = (
+        bool(en_words(row["foreign_sense"]))
+        and SENSE_DEFECT not in item["scan_reasons"]
+    )
     fan_ready = chosen["raw_hit"] or chosen["stem_hit"]
     positive = (
         bool(human_orbit)
-        and all((chosen["sound_ready"], source_ready, length_ready, fan_ready))
+        and all((chosen["sound_ready"], event_ready, branch_meaning_ready))
     )
     degree = "ROOT-TRACE" if len(root) == 3 else "NUCLEUS-TRACE"
     closure = "READY" if positive else "OPEN-CANDIDATE"
@@ -899,40 +948,24 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
         scan = (f"لم يوجد للمادة `{root}` نص في لسان العرب ولا تاج العروس في الذخيرة "
                 f"المحلية؛ نص خشيم وحده «{row['arabic_gloss']}» محفوظ ولا يقوم مقام معجم مسمّى.")
 
-    if len(root) == 2:
-        event_record = (
-            f"«{nucleus_event}» [`data/juthoor-core-levels.json`، حقل "
-            "`jabal_lexicon_reading_ar`؛ نُقل كما هو بلا تفصيل للزوج]"
-            if nucleus_event else
-            "(لا قراءة لهذه النواة في `data/juthoor-core-levels.json`)"
-        )
-    else:
-        event_record = (
-            f"النص المعجمي الحرفي المسمى في مسح المادة `{root}` أعلاه؛ لم تُنشأ له "
-            "قراءة آلية على مقاس معنى بدج"
-        )
+    event_record = (
+        frozen_event.line().removeprefix("- ")
+        if frozen_event else
+        "لا حدث مجمد؛ حرف خارج المحاكم"
+    )
 
     sound_parts = chosen["sound_rows"] + chosen["sound_misses"]
     sound = "؛ ".join(sound_parts) if sound_parts else (
         "اختل عدد الصوامت، ثم فُتشت الشبكة بالحرفين وبالمصريّة/Egyptian في عمود الشاهد"
     )
     obstacles = []
-    if not fan_ready:
-        obstacles.append("إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة")
     if not chosen["sound_ready"]:
         obstacles.append("صفوف الشبكة الناقصة المبيّنة في مسار الصوت")
-    if not source_ready:
-        obstacles.append(
-            "حدث النواة من السجل المجمد"
-            if len(root) == 2 else
-            "نص لسان العرب أو تاج العروس للمادة"
-        )
-    if not length_ready:
-        obstacles.append("تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت")
-    if item["scan_reasons"] and not human_orbit:
-        obstacles.append("مقابلة الصفحة المصوّرة لعيب المسح المسمّى")
-    pre_orbit_ready = all((fan_ready, chosen["sound_ready"], source_ready,
-                           length_ready, not item["scan_reasons"]))
+    if not event_ready:
+        obstacles.append("حدث من frozen_event.resolve")
+    if not branch_meaning_ready:
+        obstacles.append("المعنى الإنجليزي السليم من قاموس الفرع")
+    pre_orbit_ready = all((chosen["sound_ready"], event_ready, branch_meaning_ready))
     if not human_orbit and pre_orbit_ready:
         obstacles.append("الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية")
     required = "؛ ".join(obstacles) if obstacles else "لا عائق معلق"
@@ -960,11 +993,7 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
         f"- الكلمةُ في الفرع: `{row['foreign']}`؛ الرمز المنقول `{glyphs}`؛ الرومنة من بدج كما نقلها خشيم.",
         f"- أقدمُ صورةٍ مستعادة: لا تُدّعى صورة أقدم من رومنة بدج المنقولة في {BOOK}؛ "
         "الصف من `data/khashim-pairs.json` ومصدره `ocr-egyptian2`.",
-        (f"- استردادُ رأس OCR: كان الحقل المنكسر `{row['ocr_recovery']['old_head']}`، "
-         f"واستُردّ `{row['foreign']}` من السطر {row['ocr_recovery']['source_line']} في "
-         "`Resources/prior-art/ocr-egyptian2/full.md` مباشرةً."
-         if row.get("ocr_recovery") else
-         "- استردادُ رأس OCR: لا استرداد مسجل لهذا الصف؛ الرأس هو حقل الحصاد الخام."),
+        ocr_recovery_line(row),
         f"- سلامةُ صف المسح: {scan_status}؛ العيب، إن وُجد، يفتح المقابلة ولا يُسقط المرشح.",
         f"- الخطوةُ صفر (التعرية بصرف الفرع): {item['stripping']}؛ صوامت الرأس كاملة "
         f"`{raw_skeleton}` ← اللب `{stem_skeleton}`.",
@@ -1009,13 +1038,23 @@ def card(item: dict[str, Any], batch_no: int) -> tuple[str, dict[str, Any]]:
         "root": root, "score": item["score"], "raw_fan_count": len(raw_fan),
         "root_in_raw_fan": chosen["raw_hit"], "root_in_stem_fan": chosen["stem_hit"],
         "lexicon": source_label or None, "semantic_hits": chosen["en_hit"] + chosen["ar_hit"],
-        "event_source": "data/juthoor-core-levels.json" if len(root) == 2 and nucleus_event else source_label or None,
-        "nucleus_event": nucleus_event or None, "human_orbit": human_orbit or None,
+        "event_source": frozen_event.source if frozen_event else None,
+        "frozen_event": ({
+            "text": frozen_event.text,
+            "source": frozen_event.source,
+            "tier": frozen_event.tier,
+            "tier_ar": frozen_event.tier_ar,
+            "note": frozen_event.note,
+        } if frozen_event else None),
+        "human_orbit": human_orbit or None,
         "scan_override_by_human_orbit": bool(item["scan_reasons"] and human_orbit),
         "closure": closure, "verdict": degree if positive else None,
+        "sound_ready": chosen["sound_ready"],
         "sound_rows": chosen["sound_rows"], "sound_misses": chosen["sound_misses"],
         "scan_reasons": item["scan_reasons"], "open_reasons": obstacles,
         "ocr_recovery": row.get("ocr_recovery"),
+        "manual_ocr_head_recovery": row.get("manual_ocr_head_recovery"),
+        "legacy": row.get("legacy"),
     }
     return "\n".join(lines), summary
 
