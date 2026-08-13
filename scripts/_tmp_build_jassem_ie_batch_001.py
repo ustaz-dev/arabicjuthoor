@@ -2,6 +2,7 @@
 """One-shot builder for Jassem Indo-European bridge-agree batch 001."""
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import sys
@@ -22,6 +23,10 @@ READINGS = ROOT / "04-cross-linguistic" / "readings"
 KHASHIM = ROOT / "data" / "khashim-indo-european-batch-{number:03d}.json"
 START = "<!-- JASSEM-IE-BATCH-001:START -->"
 END = "<!-- JASSEM-IE-BATCH-001:END -->"
+ALL_LANGUAGES = (
+    "ancient-greek", "gothic", "middle-english", "old-english",
+    "old-irish", "old-latin", "old-norse", "welsh",
+)
 
 LANG_LABELS = {
     "ancient-greek": "اليونانيّة القديمة/Ancient Greek",
@@ -115,6 +120,18 @@ def clean(value: Any) -> str:
     return " ".join(str(value or "").split()).replace("`", "ˋ")
 
 
+def claim_key(row: dict[str, Any]) -> str:
+    """Stable pair identity even when harvest merges sources or reorders rows."""
+    fields = [
+        norm(str(row.get("european") or "")),
+        clean(row.get("arabic_root")),
+        clean(row.get("arabic_gloss")),
+        clean(row.get("author_translit")),
+    ]
+    raw = json.dumps(fields, ensure_ascii=False, separators=(",", ":"))
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:24]
+
+
 def language_for(head: str) -> str:
     if head in GREEK:
         return "ancient-greek"
@@ -171,6 +188,46 @@ def card_forms(card: dict[str, Any]) -> list[str]:
     return [item.get("form", "") for item in card.get("forms", []) if isinstance(item, dict) and item.get("form")]
 
 
+def reset_rejudged_block(text: str, card_id: str, root: str, original: dict[str, str]) -> str:
+    """Restore the Khashim-only judgment before rebuilding a moving Jassem batch."""
+    markers = [f"<!-- KHASHIM-IE-MERGED:{card_id} -->", f"<!-- KHASHIM-IE-CONT:{card_id} -->"]
+    marker = next((item for item in markers if item in text), None)
+    if not marker:
+        raise AssertionError(f"reading marker missing while resetting {card_id}")
+    at = text.index(marker)
+    start = text.rfind("\n### ", 0, at)
+    start = start + 1 if start >= 0 else at
+    finish = text.find("\n### ", at)
+    if finish < 0:
+        finish = len(text)
+    block = text[start:finish]
+    block, count = re.subn(
+        rf"(`{re.escape(root)}`\[و[0-9.]+،)ص[✓×]،ح[✓×]،م[✓×؟](\])",
+        rf"\1ص{original['sound']}،ح{original['event']}،م{original['meaning']}\2",
+        block, count=1,
+    )
+    if count == 0:
+        raise AssertionError(f"could not restore fan member in {card_id}:{root}")
+    block, n1 = re.subn(
+        r"^- المدار المكتوب:.*$",
+        "- المدار المكتوب: فحصت المرشحات التي اجتمع لها ص✓ وح✓، ولم يثبت بينها مدار من معنى الفرع إلى الحدث المجمّد؛ لذلك لا موجب بلا مدار.",
+        block, count=1, flags=re.MULTILINE,
+    )
+    block, n2 = re.subn(
+        r"^- الحكم \(استكشاف\):.*$",
+        "- الحكم (استكشاف): **غير صادر (استكشاف)**.",
+        block, count=1, flags=re.MULTILINE,
+    )
+    block, n3 = re.subn(
+        r"^- حالة الإغلاق: [A-Z-]+\.?$",
+        "- حالة الإغلاق: OPEN-CANDIDATE.",
+        block, count=1, flags=re.MULTILINE,
+    )
+    if not (n1 and n2 and n3):
+        raise AssertionError(f"could not restore judgment lines in {card_id}: {n1,n2,n3}")
+    return text[:start] + block + text[finish:]
+
+
 def update_existing_block(text: str, card_id: str, supplement: dict[str, Any], rejudgment: dict[str, Any] | None, root_events: dict[str, str], nucleus_events: dict[str, str]) -> str:
     markers = [f"<!-- KHASHIM-IE-MERGED:{card_id} -->", f"<!-- KHASHIM-IE-CONT:{card_id} -->"]
     marker = next((item for item in markers if item in text), None)
@@ -198,12 +255,12 @@ def update_existing_block(text: str, card_id: str, supplement: dict[str, Any], r
             raise AssertionError(f"missing event for existing rejudgment {card_id}:{root}")
         # Mark the selected member in the already displayed whole fan.
         block, count = re.subn(
-            rf"(`{re.escape(root)}`\[و[0-9.]+،)ص[✓×]،ح✓،م[×؟](\])",
+            rf"(`{re.escape(root)}`\[و[0-9.]+،)ص[✓×]،ح✓،م[✓×؟](\])",
             rf"\1ص✓،ح✓،م✓\2", block, count=1,
         )
         if count == 0:
             block, count = re.subn(
-                rf"(`{re.escape(root)}`\[)ص[✓×]،ح✓،م[×؟](\])",
+                rf"(`{re.escape(root)}`\[)ص[✓×]،ح✓،م[✓×؟](\])",
                 rf"\1ص✓،ح✓،م✓\2", block, count=1,
             )
         if count == 0:
@@ -282,11 +339,69 @@ def main() -> int:
     for index, row in selected:
         head = str(row.get("european") or "").strip()
         if not head:
-            head_gaps.append({"source_row_index": index, "tag": "SOURCE-HEAD-GAP", "source_claim": row})
+            head_gaps.append({
+                "source_row_index": index,
+                "source_row_index_at_freeze": index,
+                "source_row_key": claim_key(row),
+                "tag": "SOURCE-HEAD-GAP",
+                "source_claim": row,
+            })
             continue
         groups.setdefault(norm(head), []).append((index, row))
 
     khashim_payloads = [json.loads(Path(str(KHASHIM).format(number=number)).read_text(encoding="utf-8")) for number in range(1, 11)]
+    reading_texts: dict[str, str] = {
+        language: (READINGS / f"{language}.md").read_text(encoding="utf-8")
+        for language in ALL_LANGUAGES
+    }
+    # Remove the prior rendering of this moving batch everywhere.  Two cards
+    # may also have had their Khashim-only open judgment superseded, so restore
+    # their original fan flags and judgment before selecting the fresh snapshot.
+    for language, text in reading_texts.items():
+        text = re.sub(rf"\n?{re.escape(START)}.*?{re.escape(END)}\n?", "\n", text, flags=re.DOTALL)
+        text = re.sub(
+            r"\n?<!-- JASSEM-IE-SUPPLEMENT-001:[^:]+:START -->.*?<!-- JASSEM-IE-SUPPLEMENT-001:[^:]+:END -->\n?",
+            "\n", text, flags=re.DOTALL,
+        )
+        reading_texts[language] = text
+    for payload in khashim_payloads:
+        for card in payload["rows"]:
+            prior_rejudgments = [item for item in card.get("jassem_rejudgments", []) if item.get("batch") == 1]
+            for judged in prior_rejudgments:
+                selected_root = judged["root"]
+                original = None
+                for review in card.get("fan_reviews", []):
+                    for candidate in review.get("candidates", []):
+                        if candidate.get("root") == selected_root:
+                            original = candidate
+                            break
+                    if original:
+                        break
+                if original is None:
+                    raise AssertionError(f"original fan member missing for reset: {card.get('merged_card_id') or card.get('card_id')}:{selected_root}")
+                cid = card.get("merged_card_id") or card.get("card_id")
+                language = card["language"]
+                reading_texts[language] = reset_rejudged_block(
+                    reading_texts[language], cid, selected_root, original,
+                )
+            if "jassem_supplements" in card:
+                card["jassem_supplements"] = [item for item in card["jassem_supplements"] if item.get("batch") != 1]
+                if not card["jassem_supplements"]:
+                    card.pop("jassem_supplements")
+            if "jassem_rejudgments" in card:
+                card["jassem_rejudgments"] = [item for item in card["jassem_rejudgments"] if item.get("batch") != 1]
+                if not card["jassem_rejudgments"]:
+                    card.pop("jassem_rejudgments")
+            if prior_rejudgments:
+                card["positives"] = [item for item in card.get("positives", []) if item.get("source") != "data/prior-art-pairs.json"]
+                if card["positives"]:
+                    closures = sorted({item["closure"] for item in card["positives"]})
+                    card["closure"] = " + ".join(closures)
+                    card["judgment"] = card["closure"]
+                else:
+                    card["closure"] = "OPEN-CANDIDATE"
+                    card["judgment"] = "غير صادر"
+
     existing: dict[str, list[tuple[int, str, str, str]]] = defaultdict(list)
     for number, payload in enumerate(khashim_payloads, 1):
         for card in payload["rows"]:
@@ -300,7 +415,12 @@ def main() -> int:
     new_ordinal = 0
     for key, members in groups.items():
         head = str(members[0][1]["european"]).strip()
-        claims = [{"source_row_index": index, **row} for index, row in members]
+        claims = [{
+            "source_row_index": index,
+            "source_row_index_at_freeze": index,
+            "source_row_key": claim_key(row),
+            **row,
+        } for index, row in members]
         if key in existing:
             target = existing[key][0]
             number, cid, language, matched_form = target
@@ -363,7 +483,6 @@ def main() -> int:
 
     # Merge the nineteen exact forms into their Khashim cards and update the two
     # cards for which the newly inspected whole fan completes all three legs.
-    reading_texts: dict[str, str] = {}
     touched_khashim_batches = set()
     for supplement in supplements:
         number, card = find_card(supplement["target_card_id"], khashim_payloads)
