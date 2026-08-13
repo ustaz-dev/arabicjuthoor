@@ -26438,7 +26438,26 @@
         "`t` + `ط` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 959,
+              "source_row_index_at_freeze": 959,
+              "source_row_key": "abef3126dfb96f34976dd7eb",
+              "european": "Committee",
+              "arabic_root": "جمع",
+              "author_translit": "jamee3(un)",
+              "arabic_gloss": "all",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N008-184",

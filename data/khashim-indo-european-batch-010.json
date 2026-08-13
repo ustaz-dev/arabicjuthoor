@@ -9003,7 +9003,26 @@
         "`n` + `ن` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 961,
+              "source_row_index_at_freeze": 961,
+              "source_row_key": "4db582a4794b7540675037f1",
+              "european": "Community",
+              "arabic_root": "قم",
+              "author_translit": "qaum",
+              "arabic_gloss": "people, community",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N010-023",

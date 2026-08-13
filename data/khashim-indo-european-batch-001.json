@@ -14851,7 +14851,48 @@
       "deficiencies": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1461,
+              "source_row_index_at_freeze": 1461,
+              "source_row_key": "0b2aa40e2219c8a6df3bfed7",
+              "european": "Egg",
+              "arabic_root": "سم",
+              "author_translit": "samm",
+              "arabic_gloss": "poison, a chemical",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1462,
+              "source_row_index_at_freeze": 1462,
+              "source_row_key": "d311017318824c3879422aac",
+              "european": "Egg",
+              "arabic_root": "فم",
+              "author_translit": "famm",
+              "arabic_gloss": "mouth",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1463,
+              "source_row_index_at_freeze": 1463,
+              "source_row_key": "df89f01604f3a86a1c2468a2",
+              "european": "Egg",
+              "arabic_root": "مصل",
+              "author_translit": "maSl",
+              "arabic_gloss": "milk water",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0024",
@@ -16506,7 +16547,26 @@
         "`k` + `ك` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 911,
+              "source_row_index_at_freeze": 911,
+              "source_row_key": "5dd05974578b298ec3a66ff3",
+              "european": "Cock",
+              "arabic_root": "نسر",
+              "author_translit": "nasr",
+              "arabic_gloss": "eagle",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0028",
@@ -22102,7 +22162,26 @@
         "`t` + `ط` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1359,
+              "source_row_index_at_freeze": 1359,
+              "source_row_key": "67d8bc4bb1f3804d886ba379",
+              "european": "Dot",
+              "arabic_root": "نقط",
+              "author_translit": "nuqTa(t)",
+              "arabic_gloss": "dot",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0038",
@@ -25252,7 +25331,48 @@
         "`v` + `ى` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1161,
+              "source_row_index_at_freeze": 1161,
+              "source_row_key": "a1ce8d446a7a7e7feb647568",
+              "european": "Date",
+              "arabic_root": "دقل",
+              "author_translit": "daqal(at)",
+              "arabic_gloss": "(a bad type of) dates",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1162,
+              "source_row_index_at_freeze": 1162,
+              "source_row_key": "fca21fd01b80ab9e2ade8228",
+              "european": "Date",
+              "arabic_root": "قود",
+              "author_translit": "qawaad",
+              "arabic_gloss": "a date, pimp",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1163,
+              "source_row_index_at_freeze": 1163,
+              "source_row_key": "27c7c8dbec7ee7fe6481781d",
+              "european": "Date",
+              "arabic_root": "وقت",
+              "author_translit": "waqt",
+              "arabic_gloss": "time",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0041",
@@ -32880,6 +33000,23 @@
             "تاج العروس لمرتضى الزبيدي"
           ],
           "source_gap": false
+        },
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "form": "Corn",
+          "root": "قرن",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`corn` في الحبّة أو السنبلة الناتئة الصلبة في أعلى ساقها",
+          "orbit": "الحبة والسنبلة نتوء صلب ممتد في أعلى جسم النبات؛ فهذا مدار عضوي واحد إلى نتوء `قرن`، لا دعوى أنه قرن الحيوان نفسه.",
+          "sound_route": "c↔ق=`GUT-01`؛ r↔ر=`IDN-01`؛ n↔ن=`IDN-03`",
+          "sound_searches": [
+            "`c` + `ق` + «الإنجليزيّة القديمة/Old English»",
+            "`r` + `ر` + «الإنجليزيّة القديمة/Old English»",
+            "`n` + `ن` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه",
+          "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
         }
       ],
       "deficiencies": [],
@@ -32898,8 +33035,79 @@
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
-      "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "closure": "ROOT-ECHO + ROOT-TRACE",
+      "judgment": "ROOT-ECHO + ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1033,
+              "source_row_index_at_freeze": 1033,
+              "source_row_key": "2bcf304108b0827b341a9e0d",
+              "european": "Corn",
+              "arabic_root": "فلق",
+              "author_translit": "falq",
+              "arabic_gloss": "a split, a flake",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1034,
+              "source_row_index_at_freeze": 1034,
+              "source_row_key": "fd811df8d8f0a8b4bfdaf2ec",
+              "european": "Corn",
+              "arabic_root": "قرن",
+              "author_translit": "qarn",
+              "arabic_gloss": "horn, horn-shaped grain, bunch",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1033,
+              "source_row_index_at_freeze": 1033,
+              "source_row_key": "2bcf304108b0827b341a9e0d",
+              "european": "Corn",
+              "arabic_root": "فلق",
+              "author_translit": "falq",
+              "arabic_gloss": "a split, a flake",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1034,
+              "source_row_index_at_freeze": 1034,
+              "source_row_key": "fd811df8d8f0a8b4bfdaf2ec",
+              "european": "Corn",
+              "arabic_root": "قرن",
+              "author_translit": "qarn",
+              "arabic_gloss": "horn, horn-shaped grain, bunch",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "root": "قرن",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`corn` في الحبّة أو السنبلة الناتئة الصلبة في أعلى ساقها",
+          "orbit": "الحبة والسنبلة نتوء صلب ممتد في أعلى جسم النبات؛ فهذا مدار عضوي واحد إلى نتوء `قرن`، لا دعوى أنه قرن الحيوان نفسه.",
+          "sound_route": "c↔ق=`GUT-01`؛ r↔ر=`IDN-01`؛ n↔ن=`IDN-03`",
+          "sound_searches": [
+            "`c` + `ق` + «الإنجليزيّة القديمة/Old English»",
+            "`r` + `ر` + «الإنجليزيّة القديمة/Old English»",
+            "`n` + `ن` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه"
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0052",
@@ -32995,7 +33203,92 @@
       "deficiencies": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1107,
+              "source_row_index_at_freeze": 1107,
+              "source_row_key": "05d1da0e592fa7cc930cad4c",
+              "european": "Crown",
+              "arabic_root": "تحت",
+              "author_translit": "ta2t",
+              "arabic_gloss": "below",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1109,
+              "source_row_index_at_freeze": 1109,
+              "source_row_key": "e5729bfde8508fe681004d73",
+              "european": "Crown",
+              "arabic_root": "جل",
+              "author_translit": "jalee",
+              "arabic_gloss": "clear",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1112,
+              "source_row_index_at_freeze": 1112,
+              "source_row_key": "597d0ddb0a532b0c84a84bc2",
+              "european": "Crown",
+              "arabic_root": "ذكر",
+              "author_translit": "dhakar",
+              "arabic_gloss": "mention",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1113,
+              "source_row_index_at_freeze": 1113,
+              "source_row_key": "959bfc7546fcf8444e1de6ef",
+              "european": "Crown",
+              "arabic_root": "قدر",
+              "author_translit": "qaddar",
+              "arabic_gloss": "to decide, estimate",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1115,
+              "source_row_index_at_freeze": 1115,
+              "source_row_key": "34cf2394d3c226c6ff9bd987",
+              "european": "Crown",
+              "arabic_root": "مد",
+              "author_translit": "mad(ad)",
+              "arabic_gloss": "continuation, stretch",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1116,
+              "source_row_index_at_freeze": 1116,
+              "source_row_key": "22506543cee3f6780e31ba8f",
+              "european": "Crown",
+              "arabic_root": "نقش",
+              "author_translit": "naqash",
+              "arabic_gloss": "sign, design",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1117,
+              "source_row_index_at_freeze": 1117,
+              "source_row_key": "b1ae9b6dd5dd8c6682a81e38",
+              "european": "Crown",
+              "arabic_root": "يمن",
+              "author_translit": "yameen",
+              "arabic_gloss": "omen, right hand",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0053",

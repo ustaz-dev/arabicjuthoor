@@ -18451,7 +18451,24 @@
           "dialect_additions": 0
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "form": "Dig",
+          "root": "دق",
+          "closure": "NUCLEUS-TRACE",
+          "branch_meaning": "`dig`، إدخال أداة حادة في الأرض بالضغط أو الضرب",
+          "orbit": "الحفر يضغط طرفًا حادًا في المادة ويصدمها حتى تنفصل؛ وهذا حدث `دق` مباشرة.",
+          "sound_route": "d↔د=`IDN-09`؛ g↔ق=`GUT-01`",
+          "sound_searches": [
+            "`d` + `د` + «الإنجليزيّة القديمة/Old English»",
+            "`g` + `ق` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "الصدم أو الضغط الشديد والحدة",
+          "event_source": "data/juthoor-core-levels.json؛ jabal_lexicon_reading_ar"
+        }
+      ],
       "missing_row_searches": [
         "`d` + `د` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد",
         "`d` + `ذ` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد",
@@ -18459,8 +18476,56 @@
         "`g` + `ج` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد",
         "`g` + `ك` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "closure": "NUCLEUS-TRACE",
+      "judgment": "NUCLEUS-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1271,
+              "source_row_index_at_freeze": 1271,
+              "source_row_key": "0832c1fd4fa479e832500a98",
+              "european": "Dig",
+              "arabic_root": "دق",
+              "author_translit": "daqq",
+              "arabic_gloss": "dig; knock; to prick",
+              "source": "jassem-2013-cutting-breaking · jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1271,
+              "source_row_index_at_freeze": 1271,
+              "source_row_key": "0832c1fd4fa479e832500a98",
+              "european": "Dig",
+              "arabic_root": "دق",
+              "author_translit": "daqq",
+              "arabic_gloss": "dig; knock; to prick",
+              "source": "jassem-2013-cutting-breaking · jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "root": "دق",
+          "closure": "NUCLEUS-TRACE",
+          "branch_meaning": "`dig`، إدخال أداة حادة في الأرض بالضغط أو الضرب",
+          "orbit": "الحفر يضغط طرفًا حادًا في المادة ويصدمها حتى تنفصل؛ وهذا حدث `دق` مباشرة.",
+          "sound_route": "d↔د=`IDN-09`؛ g↔ق=`GUT-01`",
+          "sound_searches": [
+            "`d` + `د` + «الإنجليزيّة القديمة/Old English»",
+            "`g` + `ق` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "الصدم أو الضغط الشديد والحدة"
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-038",
@@ -25225,7 +25290,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1406,
+              "source_row_index_at_freeze": 1406,
+              "source_row_key": "3c43e91b33303a1f805621d6",
+              "european": "Dwell",
+              "arabic_root": "ضل",
+              "author_translit": "Dalla",
+              "arabic_gloss": "to mislead, deceive",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-051",
@@ -49659,6 +49743,25 @@
       "cross_book_supplement_rows": [
         4324,
         4325
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1519,
+              "source_row_index_at_freeze": 1519,
+              "source_row_key": "7d4116433fdb67aaaceca8ed",
+              "european": "Epidemic",
+              "arabic_root": "وزن",
+              "author_translit": "wazan",
+              "arabic_gloss": "balance, scale",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
       ]
     },
     {

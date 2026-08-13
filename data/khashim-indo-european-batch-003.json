@@ -62688,7 +62688,26 @@
         "`z` + `ص` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 859,
+              "source_row_index_at_freeze": 859,
+              "source_row_key": "4decef339ba849be6852897e",
+              "european": "Cite",
+              "arabic_root": "كلم",
+              "author_translit": "kalaam",
+              "arabic_gloss": "talk",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0447",

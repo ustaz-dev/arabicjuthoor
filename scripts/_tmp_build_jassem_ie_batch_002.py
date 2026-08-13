@@ -14,6 +14,7 @@ from typing import Any
 HERE = Path(__file__).resolve()
 ROOT = HERE.parent.parent
 BASE_COMMIT = "2882fc0"
+READING_BASE_COMMIT = "d24a181"
 base_source = subprocess.check_output(
     ["git", "show", f"{BASE_COMMIT}:scripts/_tmp_build_jassem_ie_batch_001.py"],
     cwd=ROOT, text=True, encoding="utf-8",
@@ -174,6 +175,19 @@ def find_reading_block(text: str, marker: str) -> tuple[int, int, str]:
     return start, finish, text[start:finish]
 
 
+def restore_khashim_block(text: str, language: str, card_id: str) -> str:
+    """Restore the whole pre-batch-002 card, preserving all older judgments."""
+    path = f"04-cross-linguistic/readings/{language}.md"
+    baseline = subprocess.check_output(
+        ["git", "show", f"{READING_BASE_COMMIT}:{path}"],
+        cwd=ROOT, text=True, encoding="utf-8",
+    )
+    marker = next(item for item in (f"<!-- KHASHIM-IE-MERGED:{card_id} -->", f"<!-- KHASHIM-IE-CONT:{card_id} -->") if item in text and item in baseline)
+    start, finish, _ = find_reading_block(text, marker)
+    _, _, old_block = find_reading_block(baseline, marker)
+    return text[:start] + old_block + text[finish:]
+
+
 def add_jassem_supplement(text: str, card_id: str, claims: list[dict[str, Any]]) -> str:
     marker = f"<!-- JASSEM-IE:{card_id} -->"
     start, finish, block = find_reading_block(text, marker)
@@ -202,12 +216,21 @@ def add_khashim_supplement(text: str, card_id: str, supplement: dict[str, Any], 
     for item in specs:
         root = item["root"]
         event = root_events.get(root) or nucleus_events.get(root)
-        block, count = re.subn(
+        form = supplement["matched_form"]
+        fan_line = re.compile(
+            rf"^- فحص كل مرشحات مروحة `{re.escape(form)}`[^\n]*$",
+            flags=re.MULTILINE,
+        )
+        line_match = fan_line.search(block)
+        if not line_match:
+            raise AssertionError(f"fan line missing in {card_id}:{form}")
+        line, count = re.subn(
             rf"(`{re.escape(root)}`\[و[0-9.]+،)ص[✓×]،ح✓،م[✓×؟](\])",
-            rf"\1ص✓،ح✓،م✓\2", block, count=1,
+            rf"\1ص✓،ح✓،م✓\2", line_match.group(0), count=1,
         )
         if count == 0:
-            raise AssertionError(f"selected fan member missing in {card_id}:{root}")
+            raise AssertionError(f"selected fan member missing in {card_id}:{form}:{root}")
+        block = block[:line_match.start()] + line + block[line_match.end():]
         lines.extend([
             f"- إعادة حكم جاسم من المروحة كلها: `{root}`؛ مسار الصوت: {item['sound_route']}.",
             f"- الحدث المجمّد كما هو: «{event}».", f"- معنى الفرع: {item['branch_meaning']}.",
@@ -265,12 +288,9 @@ def main() -> int:
             old_supplements = [x for x in card.get("jassem_supplements", []) if x.get("batch") == BATCH]
             if old_supplements or old_rejudgments:
                 reset_khashim.add(number)
-            for item in old_rejudgments:
-                original = next((c for review in card.get("fan_reviews", []) for c in review.get("candidates", []) if c.get("root") == item["root"]), None)
-                if original is None:
-                    raise AssertionError(f"original candidate missing for reset {item['root']}")
+            if old_rejudgments:
                 cid = card.get("merged_card_id") or card.get("card_id")
-                reading_texts[card["language"]] = B.reset_rejudged_block(reading_texts[card["language"]], cid, item["root"], original)
+                reading_texts[card["language"]] = restore_khashim_block(reading_texts[card["language"]], card["language"], cid)
             card["jassem_supplements"] = [x for x in card.get("jassem_supplements", []) if x.get("batch") != BATCH]
             card["jassem_rejudgments"] = [x for x in card.get("jassem_rejudgments", []) if x.get("batch") != BATCH]
             if not card["jassem_supplements"]:
@@ -325,13 +345,13 @@ def main() -> int:
             if not {x["root"] for x in specs}.issubset(candidate_roots):
                 raise AssertionError(f"selected Khashim roots absent for {head}")
             item = {"head": head, "source_rows": [i for i, _ in members], "source_claims": claims, "target_batch": number, "target_card_id": cid, "target_language": card["language"], "matched_form": form, "fan_size": len(review["candidates"]), "rejudgments": specs, "reason": "exact normalized form in Khashim; supplement without duplication"}
-            card.setdefault("jassem_supplements", []).append({"batch": BATCH, "source": str(SOURCE.relative_to(ROOT)), "source_claims": claims})
+            card.setdefault("jassem_supplements", []).append({"batch": BATCH, "source": SOURCE.relative_to(ROOT).as_posix(), "source_claims": claims})
             for judged in specs:
                 event = root_events.get(judged["root"]) or nucleus_events.get(judged["root"])
                 enriched = {**judged, "frozen_event": event}
-                card.setdefault("jassem_rejudgments", []).append({"batch": BATCH, "source": str(SOURCE.relative_to(ROOT)), "source_claims": claims, **enriched})
+                card.setdefault("jassem_rejudgments", []).append({"batch": BATCH, "source": SOURCE.relative_to(ROOT).as_posix(), "source_claims": claims, **enriched})
                 if not any(x.get("root") == judged["root"] and x.get("batch") == BATCH for x in card.get("positives", [])):
-                    card.setdefault("positives", []).append({"batch": BATCH, "source": str(SOURCE.relative_to(ROOT)), "form": head, **enriched, "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial" if judged["root"] in root_events else "data/juthoor-core-levels.json؛ jabal_lexicon_reading_ar"})
+                    card.setdefault("positives", []).append({"batch": BATCH, "source": SOURCE.relative_to(ROOT).as_posix(), "form": head, **enriched, "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial" if judged["root"] in root_events else "data/juthoor-core-levels.json؛ jabal_lexicon_reading_ar"})
             closures = sorted({x["closure"] for x in card.get("positives", [])})
             card["closure"] = " + ".join(closures) if closures else "OPEN-CANDIDATE"
             card["judgment"] = card["closure"] if closures else "غير صادر"
@@ -377,11 +397,11 @@ def main() -> int:
     positive_existing = [item for item in khashim_supplements if item["rejudgments"]]
     all_candidates = sum(len(card["fan_review"]) for card in new_cards) + sum(x["fan_size"] for x in khashim_supplements + jassem_supplements)
     payload = {
-        "schema": "jassem-indo-european-batch-v1.0", "date": "2026-08-13", "source_author": "زيدان علي جاسم", "source_affiliation": "جامعة القصيم", "source": str(SOURCE.relative_to(ROOT)), "layer": "exploration", "batch": BATCH,
+        "schema": "jassem-indo-european-batch-v1.0", "date": "2026-08-13", "source_author": "زيدان علي جاسم", "source_affiliation": "جامعة القصيم", "source": SOURCE.relative_to(ROOT).as_posix(), "layer": "exploration", "batch": BATCH,
         "selection": {"criterion": "first 300 bridge_agrees=نعم claims whose stable source_row_key is absent from earlier Jassem manifests", "row_identity": "SHA-256/24 of normalized european + arabic_root + arabic_gloss + author_translit; indices are freeze-time locators", "source_sha256_at_freeze": source_sha, "prior_claim_keys_excluded": len(done), "eligible_unprocessed_at_freeze": len(eligible), "selected_source_rows": 300, "first_source_row_index": selected[0][0], "last_source_row_index": selected[-1][0], "source_head_gaps": len(gaps), "nonempty_source_rows": 300 - len(gaps), "unique_european_heads": len(groups)},
         "jassem_transliteration": {"3": "ع", "2": "ح", "kh": "خ", "gh": "غ", "T": "ط", "D": "ض", "S": "ص", "Dh": "ظ", "'": "ء"},
         "merge_policy": {"same_normalized_head": "one card across Jassem batches and Khashim books", "snapshot_absence": "never a judgment condition", "judgment_legs": ["named sound route", "frozen event verbatim", "branch meaning with human-written orbit"], "bridge_agrees": "priority signal only"},
-        "cards_touched": len(groups), "new_cards_written": len(new_cards), "khashim_card_supplements": len(khashim_supplements), "jassem_card_supplements": len(jassem_supplements), "newly_issued_positive_cards": len(positive_new) + len(positive_existing), "newly_issued_positive_roots": sum(len(x["positives"]) for x in positive_new) + sum(len(x["rejudgments"]) for x in positive_existing), "open_new_cards": len(new_cards) - len(positive_new),
+        "cards_touched": len(groups), "new_cards_written": len(new_cards), "khashim_card_supplements_count": len(khashim_supplements), "jassem_card_supplements_count": len(jassem_supplements), "newly_issued_positive_cards": len(positive_new) + len(positive_existing), "newly_issued_positive_roots": sum(len(x["positives"]) for x in positive_new) + sum(len(x["rejudgments"]) for x in positive_existing), "open_new_cards": len(new_cards) - len(positive_new),
         "new_cards_by_language": dict(sorted(Counter(x["language"] for x in new_cards).items())),
         "rank_review": {"method": "F.rank", "ranked_candidates_in_new_or_referenced_full_fans": all_candidates, "new_card_fan_with_dialect_additions": sum(x["dialect_additions"] for x in new_cards), "policy": "weight orders display and never judges"},
         "source_head_gaps": gaps, "jassem_card_supplements": jassem_supplements, "khashim_card_supplements": khashim_supplements, "rows": new_cards,

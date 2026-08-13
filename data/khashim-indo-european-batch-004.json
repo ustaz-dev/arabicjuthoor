@@ -15661,7 +15661,26 @@
       "deficiencies": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1566,
+              "source_row_index_at_freeze": 1566,
+              "source_row_key": "67cdac360d1928c77e0c6001",
+              "european": "Ewe",
+              "arabic_root": "وجه",
+              "author_translit": "wajh",
+              "arabic_gloss": "face, way",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0504",
@@ -58387,7 +58406,26 @@
         "`s` + `ي` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1057,
+              "source_row_index_at_freeze": 1057,
+              "source_row_key": "e7be88e32e92634320511bb1",
+              "european": "Course",
+              "arabic_root": "قرء",
+              "author_translit": "qir'",
+              "arabic_gloss": "course, period",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0564",

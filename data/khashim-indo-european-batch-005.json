@@ -2327,7 +2327,26 @@
         "`l` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 895,
+              "source_row_index_at_freeze": 895,
+              "source_row_key": "182a712a3e4e21a621eac476",
+              "european": "Clock",
+              "arabic_root": "جرس",
+              "author_translit": "jaras",
+              "arabic_gloss": "bell",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0628",
@@ -4945,7 +4964,26 @@
       ],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 955,
+              "source_row_index_at_freeze": 955,
+              "source_row_key": "73b0a442cb68c254fd6e0573",
+              "european": "Commerce",
+              "arabic_root": "جمع",
+              "author_translit": "jam3",
+              "arabic_gloss": "together, all",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0635",
@@ -46135,7 +46173,37 @@
         "`t` + `د` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 905,
+              "source_row_index_at_freeze": 905,
+              "source_row_key": "cc5863407fe3cb7f3685fdac",
+              "european": "Coast",
+              "arabic_root": "شرج",
+              "author_translit": "shurja",
+              "arabic_gloss": "water course",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 908,
+              "source_row_index_at_freeze": 908,
+              "source_row_key": "57f9fcf37327a33211dfa099",
+              "european": "Coast",
+              "arabic_root": "قرب",
+              "author_translit": "qaarib",
+              "arabic_gloss": "boat",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0689",
@@ -48890,7 +48958,26 @@
         "`r` + `ل` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1443,
+              "source_row_index_at_freeze": 1443,
+              "source_row_key": "abc0d7132e357a891bd4c045",
+              "european": "Earth",
+              "arabic_root": "حول",
+              "author_translit": "2awla",
+              "arabic_gloss": "around",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0692",
@@ -89980,7 +90067,25 @@
           "dialect_review": []
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "form": "Crab",
+          "root": "كلب",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`crab`، الحيوان الذي تقبض كلابته على الشيء ولا تفلته",
+          "orbit": "كلّابة السرطان تعض المقبوض عليه وتمسكه بشدة؛ فالاسم يلتقي حدث `كلب` في عضو الحيوان المميز ومداره الحركي.",
+          "sound_route": "c↔ك=`IDN-13`؛ r↔ل=`LIQ-01`؛ b↔ب=`IDN-05`",
+          "sound_searches": [
+            "`c` + `ك` + «الإنجليزيّة القديمة/Old English»",
+            "`r` + `ل` + «الإنجليزيّة القديمة/Old English»",
+            "`b` + `ب` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "العض على الشيء والإمساك به شديدًا لا يفلت",
+          "event_source": "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
+        }
+      ],
       "deficiencies": [
         {
           "member_index": 1488,
@@ -90001,8 +90106,79 @@
         "`r` + `ر` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد",
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "closure": "ROOT-ECHO",
+      "judgment": "ROOT-ECHO",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1078,
+              "source_row_index_at_freeze": 1078,
+              "source_row_key": "3b8c6107837d3a523412f71a",
+              "european": "Crab",
+              "arabic_root": "كلب",
+              "author_translit": "kalb",
+              "arabic_gloss": "dog, clip, grip, crab",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1079,
+              "source_row_index_at_freeze": 1079,
+              "source_row_key": "60bf2e094e7a4c04dc4dd042",
+              "european": "Crab",
+              "arabic_root": "مر",
+              "author_translit": "marr",
+              "arabic_gloss": "pass, water",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1078,
+              "source_row_index_at_freeze": 1078,
+              "source_row_key": "3b8c6107837d3a523412f71a",
+              "european": "Crab",
+              "arabic_root": "كلب",
+              "author_translit": "kalb",
+              "arabic_gloss": "dog, clip, grip, crab",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 1079,
+              "source_row_index_at_freeze": 1079,
+              "source_row_key": "60bf2e094e7a4c04dc4dd042",
+              "european": "Crab",
+              "arabic_root": "مر",
+              "author_translit": "marr",
+              "arabic_gloss": "pass, water",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "root": "كلب",
+          "closure": "ROOT-ECHO",
+          "branch_meaning": "`crab`، الحيوان الذي تقبض كلابته على الشيء ولا تفلته",
+          "orbit": "كلّابة السرطان تعض المقبوض عليه وتمسكه بشدة؛ فالاسم يلتقي حدث `كلب` في عضو الحيوان المميز ومداره الحركي.",
+          "sound_route": "c↔ك=`IDN-13`؛ r↔ل=`LIQ-01`؛ b↔ب=`IDN-05`",
+          "sound_searches": [
+            "`c` + `ك` + «الإنجليزيّة القديمة/Old English»",
+            "`r` + `ل` + «الإنجليزيّة القديمة/Old English»",
+            "`b` + `ب` + «الإنجليزيّة القديمة/Old English»"
+          ],
+          "frozen_event": "العض على الشيء والإمساك به شديدًا لا يفلت"
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0780",
@@ -90102,7 +90278,26 @@
         "`w` + `أ` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1102,
+              "source_row_index_at_freeze": 1102,
+              "source_row_key": "4cb6290cc4defe2732778acb",
+              "european": "Crow",
+              "arabic_root": "غرب",
+              "author_translit": "ghuraab",
+              "arabic_gloss": "crow",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0781",
@@ -91697,7 +91892,26 @@
         "`y` + `ي` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 2,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 1356,
+              "source_row_index_at_freeze": 1356,
+              "source_row_key": "4a64d6dd839c77fdf72ad13d",
+              "european": "Donkey",
+              "arabic_root": "حصن",
+              "author_translit": "2iSaan",
+              "arabic_gloss": "male horse",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0787",

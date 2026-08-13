@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 2137,
-  "nucleus": 1234,
+  "root": 2145,
+  "nucleus": 1236,
   "languages": 16
  },
  "languages": [
@@ -756,7 +756,7 @@
    "ar": "الفارسيّة",
    "en": "Persian",
    "distance": 3,
-   "root": 17,
+   "root": 18,
    "nucleus": 7,
    "floor": 0,
    "examples": [
@@ -811,8 +811,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 24,
-   "nucleus_share": 29.2
+   "total": 25,
+   "nucleus_share": 28.0
   },
   {
    "key": "ancient-greek",
@@ -912,8 +912,8 @@
    "ar": "الإنجليزيّة القديمة",
    "en": "Old English",
    "distance": 4,
-   "root": 32,
-   "nucleus": 22,
+   "root": 33,
+   "nucleus": 23,
    "floor": 1,
    "examples": [
     {
@@ -997,8 +997,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 54,
-   "nucleus_share": 40.7
+   "total": 56,
+   "nucleus_share": 41.1
   },
   {
    "key": "old-irish",
@@ -1094,6 +1094,89 @@
    "nucleus_share": 61.8
   },
   {
+   "key": "middle-english",
+   "ar": "الإنجليزيّة الوسطى",
+   "en": "Middle English",
+   "distance": 4,
+   "root": 18,
+   "nucleus": 10,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "Middle",
+     "say": "",
+     "sense": "ثلاثة",
+     "arabic": "ثل",
+     "quote": "الثلاثة في عدد المذكر",
+     "lexicon": "الصحاح",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-ECHO"
+    },
+    {
+     "word": "free",
+     "say": "",
+     "sense": "حر؛ حرية",
+     "arabic": "فر",
+     "quote": "رحلة الكلمات",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "love",
+     "say": "",
+     "sense": "حب؛ حياة؛ رغبة؛ سرور | أسد",
+     "arabic": "لب",
+     "quote": "حب؛ حياة؛ رغبة؛ سرور | أسد",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "bite",
+     "say": "",
+     "sense": "خنفساء؛ عض وقطع",
+     "arabic": "بت",
+     "quote": "خنفساء؛ عض وقطع",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "fader",
+     "say": "",
+     "sense": "A father (male direct ancestor...)`، و`An indirect male ancestor`، وكذلك `The ",
+     "arabic": "فاطر",
+     "quote": "المنشئ المبتدئ",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "house",
+     "say": "",
+     "sense": "بيت؛ ربة بيت؛ أهل البيت",
+     "arabic": "حوش",
+     "quote": "بيت؛ ربة بيت؛ أهل البيت",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "Middle",
+     "say": "",
+     "sense": "باب",
+     "arabic": "الدار",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
+    }
+   ],
+   "total": 28,
+   "nucleus_share": 35.7
+  },
+  {
    "key": "gothic",
    "ar": "القوطيّة",
    "en": "Gothic",
@@ -1187,94 +1270,11 @@
    "nucleus_share": 41.7
   },
   {
-   "key": "middle-english",
-   "ar": "الإنجليزيّة الوسطى",
-   "en": "Middle English",
-   "distance": 4,
-   "root": 13,
-   "nucleus": 9,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "Middle",
-     "say": "",
-     "sense": "ثلاثة",
-     "arabic": "ثل",
-     "quote": "الثلاثة في عدد المذكر",
-     "lexicon": "الصحاح",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-ECHO"
-    },
-    {
-     "word": "free",
-     "say": "",
-     "sense": "حر؛ حرية",
-     "arabic": "فر",
-     "quote": "رحلة الكلمات",
-     "lexicon": "",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "love",
-     "say": "",
-     "sense": "حب؛ حياة؛ رغبة؛ سرور | أسد",
-     "arabic": "لب",
-     "quote": "حب؛ حياة؛ رغبة؛ سرور | أسد",
-     "lexicon": "",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "bite",
-     "say": "",
-     "sense": "خنفساء؛ عض وقطع",
-     "arabic": "بت",
-     "quote": "خنفساء؛ عض وقطع",
-     "lexicon": "",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "fader",
-     "say": "",
-     "sense": "A father (male direct ancestor...)`، و`An indirect male ancestor`، وكذلك `The ",
-     "arabic": "فاطر",
-     "quote": "المنشئ المبتدئ",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "house",
-     "say": "",
-     "sense": "بيت؛ ربة بيت؛ أهل البيت",
-     "arabic": "حوش",
-     "quote": "بيت؛ ربة بيت؛ أهل البيت",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "Middle",
-     "say": "",
-     "sense": "باب",
-     "arabic": "الدار",
-     "quote": "",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-ECHO"
-    }
-   ],
-   "total": 22,
-   "nucleus_share": 40.9
-  },
-  {
    "key": "old-norse",
    "ar": "النُّرديّة القديمة",
    "en": "Old Norse",
    "distance": 4,
-   "root": 15,
+   "root": 16,
    "nucleus": 6,
    "floor": 0,
    "examples": [
@@ -1359,8 +1359,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 21,
-   "nucleus_share": 28.6
+   "total": 22,
+   "nucleus_share": 27.3
   },
   {
    "key": "welsh",
