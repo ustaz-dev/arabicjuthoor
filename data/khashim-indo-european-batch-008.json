@@ -30462,7 +30462,37 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 408,
+              "source_row_index_at_freeze": 408,
+              "source_row_key": "1103fe0ab78a558f052cc9d3",
+              "european": "Ash",
+              "arabic_root": "سدم",
+              "author_translit": "sadeem",
+              "arabic_gloss": "steam",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: بخر، دخن، زيز، سخا، فحيح، نفط، وبر"
+            },
+            {
+              "source_row_index": 409,
+              "source_row_index_at_freeze": 409,
+              "source_row_key": "ee498fe3dc865e02b66bc022",
+              "european": "Ash",
+              "arabic_root": "عج",
+              "author_translit": "3aj",
+              "arabic_gloss": "dust",
+              "source": "jassem-2013-air-fire · jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: ءدم، بء، بلد، ترب، جر، جرف، دق، ذنب، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N008-199",

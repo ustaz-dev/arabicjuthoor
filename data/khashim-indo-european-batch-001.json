@@ -16697,6 +16697,34 @@
             }
           ],
           "bridge_agrees": true
+        },
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 218,
+              "source_row_index_at_freeze": 218,
+              "source_row_key": "7eb85d610016418ccf97549d",
+              "european": "Add",
+              "arabic_root": "حت",
+              "author_translit": "2atta",
+              "arabic_gloss": "to",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 220,
+              "source_row_index_at_freeze": 220,
+              "source_row_key": "a65001c8aad99e4a2e91348d",
+              "european": "Add",
+              "arabic_root": "علت",
+              "author_translit": "3aal(iat)",
+              "arabic_gloss": "high",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -55080,7 +55108,37 @@
         "`t` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 307,
+              "source_row_index_at_freeze": 307,
+              "source_row_key": "58373ca7ca9a05a7eed0dde7",
+              "european": "Ammunition",
+              "arabic_root": "منتن",
+              "author_translit": "amana(tun)",
+              "arabic_gloss": "safety",
+              "source": "jassem-2015-military",
+              "bridge_agrees": "جذرٌ آخر: ءمن، ءنس، تسل، حرس، خزن، خلا، خير، سلم، وغيرُها"
+            },
+            {
+              "source_row_index": 308,
+              "source_row_index_at_freeze": 308,
+              "source_row_key": "ee2e6a6908ffa737efa9af58",
+              "european": "Ammunition",
+              "arabic_root": "نم",
+              "author_translit": "nama",
+              "arabic_gloss": "life, being",
+              "source": "jassem-2015-military",
+              "bridge_agrees": "جذرٌ آخر: جحم، جود، حبل، حمس، حمل، حيا، حيو، خلد، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0103",

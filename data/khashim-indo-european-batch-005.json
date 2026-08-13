@@ -80696,7 +80696,37 @@
         "`n` + `ت` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 333,
+              "source_row_index_at_freeze": 333,
+              "source_row_key": "790ca6fd81f21ea26cf1a02b",
+              "european": "Animal",
+              "arabic_root": "مهن",
+              "author_translit": "maheen",
+              "arabic_gloss": "despised",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: حقر، دون، صغر"
+            },
+            {
+              "source_row_index": 334,
+              "source_row_index_at_freeze": 334,
+              "source_row_key": "7ee3525bf8fc2228586c7ba4",
+              "european": "Animal",
+              "arabic_root": "نسم",
+              "author_translit": "naseem",
+              "arabic_gloss": "air, person",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: ءثر، النواة، برد، تاق، جري، جو، جوو، جوي، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0757",
@@ -80855,7 +80885,26 @@
       "deficiencies": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 349,
+              "source_row_index_at_freeze": 349,
+              "source_row_key": "b6ec7076f77f62b42c186491",
+              "european": "Ape",
+              "arabic_root": "ربح",
+              "author_translit": "rabaa2",
+              "arabic_gloss": "ape",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: جب، حبن، سعد، غول، غيب، قرد، قلد، مون"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0760",

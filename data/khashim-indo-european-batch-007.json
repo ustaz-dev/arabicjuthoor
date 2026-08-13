@@ -41760,12 +41760,392 @@
           "dialect_additions": 0
         }
       ],
-      "positives": [],
+      "positives": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "form": "Acme",
+          "root": "قم",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`acme` في أعلى نقطة أو ذروة يبلغها الشيء",
+          "orbit": "الذروة كتلة متجمعة متسنمة مرتفعة؛ وهذا نص حدث `قم` مباشرة.",
+          "sound_route": "c↔ق=`GUT-01`؛ m↔م=`IDN-02`",
+          "sound_searches": [
+            "`c` + `ق` + «اليونانيّة القديمة/Ancient Greek»",
+            "`m` + `م` + «اليونانيّة القديمة/Ancient Greek»"
+          ],
+          "frozen_event": "تجمع الشيء أو تضامه في كتلة قوية مع تسنم أو ارتفاع",
+          "event_source": "data/juthoor-core-levels.json؛ jabal_lexicon_reading_ar"
+        }
+      ],
       "missing_row_searches": [],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر",
+      "closure": "ROOT-TRACE",
+      "judgment": "ROOT-TRACE",
       "cross_book_supplement_rows": [
         4128
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 204,
+              "source_row_index_at_freeze": 204,
+              "source_row_key": "6d4e2714e87823df66fed2af",
+              "european": "Acme",
+              "arabic_root": "عل",
+              "author_translit": "3uloo",
+              "arabic_gloss": "high, height",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: رفع، شمم"
+            },
+            {
+              "source_row_index": 205,
+              "source_row_index_at_freeze": 205,
+              "source_row_key": "58f1e18d34ae52135a96b0bd",
+              "european": "Acme",
+              "arabic_root": "علت",
+              "author_translit": "3aal(iat)",
+              "arabic_gloss": "high, height",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: رفع، شمم"
+            },
+            {
+              "source_row_index": 206,
+              "source_row_index_at_freeze": 206,
+              "source_row_key": "a80e5fab4d1eda94733722e7",
+              "european": "Acme",
+              "arabic_root": "علوت",
+              "author_translit": "3alawat",
+              "arabic_gloss": "high, height",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: رفع، شمم"
+            },
+            {
+              "source_row_index": 207,
+              "source_row_index_at_freeze": 207,
+              "source_row_key": "d11769e0d4466be75a14e304",
+              "european": "Acme",
+              "arabic_root": "قم",
+              "author_translit": "qimma(t)",
+              "arabic_gloss": "acme",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءوج، بلغ"
+            }
+          ]
+        }
+      ],
+      "jassem_rejudgments": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 204,
+              "source_row_index_at_freeze": 204,
+              "source_row_key": "6d4e2714e87823df66fed2af",
+              "european": "Acme",
+              "arabic_root": "عل",
+              "author_translit": "3uloo",
+              "arabic_gloss": "high, height",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: رفع، شمم"
+            },
+            {
+              "source_row_index": 205,
+              "source_row_index_at_freeze": 205,
+              "source_row_key": "58f1e18d34ae52135a96b0bd",
+              "european": "Acme",
+              "arabic_root": "علت",
+              "author_translit": "3aal(iat)",
+              "arabic_gloss": "high, height",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: رفع، شمم"
+            },
+            {
+              "source_row_index": 206,
+              "source_row_index_at_freeze": 206,
+              "source_row_key": "a80e5fab4d1eda94733722e7",
+              "european": "Acme",
+              "arabic_root": "علوت",
+              "author_translit": "3alawat",
+              "arabic_gloss": "high, height",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: رفع، شمم"
+            },
+            {
+              "source_row_index": 207,
+              "source_row_index_at_freeze": 207,
+              "source_row_key": "d11769e0d4466be75a14e304",
+              "european": "Acme",
+              "arabic_root": "قم",
+              "author_translit": "qimma(t)",
+              "arabic_gloss": "acme",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءوج، بلغ"
+            }
+          ],
+          "current_full_fan": {
+            "form": "Acme",
+            "candidates": [
+              {
+                "root": "كم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "✓",
+                "meaning": "×",
+                "dialect_label": null
+              },
+              {
+                "root": "قم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "✓",
+                "meaning": "✓",
+                "dialect_label": null
+              },
+              {
+                "root": "جم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "✓",
+                "meaning": "×",
+                "dialect_label": null
+              },
+              {
+                "root": "كمم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "✓",
+                "meaning": "×",
+                "dialect_label": null
+              },
+              {
+                "root": "كوم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "كيم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "كام",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "كمو",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "كمي",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "كما",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "وكم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "يكم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "قمم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "✓",
+                "meaning": "×",
+                "dialect_label": null
+              },
+              {
+                "root": "قوم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "✓",
+                "meaning": "×",
+                "dialect_label": null
+              },
+              {
+                "root": "قيم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "قام",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "قمو",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "قمي",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "قما",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "وقم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "يقم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "جمم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "✓",
+                "meaning": "×",
+                "dialect_label": null
+              },
+              {
+                "root": "جوم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "جيم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "جام",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "جمو",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "جمي",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "جما",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "وجم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              },
+              {
+                "root": "يجم",
+                "weight": 0.0,
+                "sound": "✓",
+                "event": "×",
+                "meaning": "؟",
+                "dialect_label": null
+              }
+            ],
+            "dialect_additions": 0,
+            "positive_scope": [
+              "قم"
+            ]
+          },
+          "root": "قم",
+          "closure": "ROOT-TRACE",
+          "branch_meaning": "`acme` في أعلى نقطة أو ذروة يبلغها الشيء",
+          "orbit": "الذروة كتلة متجمعة متسنمة مرتفعة؛ وهذا نص حدث `قم` مباشرة.",
+          "sound_route": "c↔ق=`GUT-01`؛ m↔م=`IDN-02`",
+          "sound_searches": [
+            "`c` + `ق` + «اليونانيّة القديمة/Ancient Greek»",
+            "`m` + `م` + «اليونانيّة القديمة/Ancient Greek»"
+          ],
+          "frozen_event": "تجمع الشيء أو تضامه في كتلة قوية مع تسنم أو ارتفاع"
+        }
       ]
     },
     {
@@ -42150,6 +42530,36 @@
       "judgment": "غير صادر",
       "cross_book_supplement_rows": [
         4122
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 360,
+              "source_row_index_at_freeze": 360,
+              "source_row_key": "b88c85194231e32c94fe25e4",
+              "european": "Archaic",
+              "arabic_root": "عرق",
+              "author_translit": "3areeq",
+              "arabic_gloss": "old",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "جذرٌ آخر: ءكل، اب، او، بء، باب، بال، بدن، بر، وغيرُها"
+            },
+            {
+              "source_row_index": 361,
+              "source_row_index_at_freeze": 361,
+              "source_row_key": "ef215ed794ee9195503acf37",
+              "european": "Archaic",
+              "arabic_root": "ور",
+              "author_translit": "wara",
+              "arabic_gloss": "light",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها"
+            }
+          ]
+        }
       ]
     },
     {

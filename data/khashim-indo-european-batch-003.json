@@ -8938,6 +8938,78 @@
             }
           ],
           "bridge_agrees": true
+        },
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 159,
+              "source_row_index_at_freeze": 159,
+              "source_row_key": "a8546b45a8a49100bb26193d",
+              "european": "Abide",
+              "arabic_root": "ءمض",
+              "author_translit": "'amDa",
+              "arabic_gloss": "permit, go",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: ءذن، ترك، جوز، حل، خفف، خلا، رخص، سمح، وغيرُها"
+            },
+            {
+              "source_row_index": 160,
+              "source_row_index_at_freeze": 160,
+              "source_row_key": "a2a339ff6b7f9da329085066",
+              "european": "Abide",
+              "arabic_root": "جثم",
+              "author_translit": "jathama",
+              "arabic_gloss": "to stay",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: ءبد، ءبن، بقي، بن، بيت، تنخ، ثمل، جنب، وغيرُها"
+            },
+            {
+              "source_row_index": 167,
+              "source_row_index_at_freeze": 167,
+              "source_row_key": "80130bbbacd66bb93ad062d1",
+              "european": "Abide",
+              "arabic_root": "مد",
+              "author_translit": "madd(at)",
+              "arabic_gloss": "extension; lying",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: را"
+            },
+            {
+              "source_row_index": 168,
+              "source_row_index_at_freeze": 168,
+              "source_row_key": "2c77872df566022d352f3fed",
+              "european": "Abide",
+              "arabic_root": "مض",
+              "author_translit": "maDa",
+              "arabic_gloss": "permit, go",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: ءذن، ترك، جوز، حل، خفف، خلا، رخص، سمح، وغيرُها"
+            },
+            {
+              "source_row_index": 172,
+              "source_row_index_at_freeze": 172,
+              "source_row_key": "abbcefec2390fe19cb2e3a39",
+              "european": "Abode",
+              "arabic_root": "بت",
+              "author_translit": "bait",
+              "arabic_gloss": "house",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: ءجر، ءرض، ءوي، اشر، برج، بغي، بوت، بيت، وغيرُها"
+            },
+            {
+              "source_row_index": 173,
+              "source_row_index_at_freeze": 173,
+              "source_row_key": "744889715d55c180888d973c",
+              "european": "Abode",
+              "arabic_root": "بش",
+              "author_translit": "beesh",
+              "arabic_gloss": "ditch, pit",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: حفر"
+            }
+          ]
         }
       ],
       "jassem_rejudgments": [

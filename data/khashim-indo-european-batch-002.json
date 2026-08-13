@@ -16697,6 +16697,23 @@
             }
           ],
           "bridge_agrees": true
+        },
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 435,
+              "source_row_index_at_freeze": 435,
+              "source_row_key": "6781ac371e5dd3ea3a988a8f",
+              "european": "Augustus",
+              "arabic_root": "كلت",
+              "author_translit": "kaleet",
+              "arabic_gloss": "a rectangular stone used for closing holes; a hyena",
+              "source": "jassem-2015-radical-translation-names",
+              "bridge_agrees": "جذرٌ آخر: صطب، طوب"
+            }
+          ]
         }
       ]
     },
@@ -27397,7 +27414,26 @@
         "`z` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 288,
+              "source_row_index_at_freeze": 288,
+              "source_row_key": "b3e4afc2b1dc8eb44e19b7e2",
+              "european": "Alley",
+              "arabic_root": "ءل",
+              "author_translit": "'alla",
+              "arabic_gloss": "go, speed up",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: البرق، جلذ، سرع، عجل، كي، مطر، هرول، وشك"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0201",
@@ -37792,7 +37828,37 @@
         "`y` + `ه` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 7,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 273,
+              "source_row_index_at_freeze": 273,
+              "source_row_key": "9f312598b16579aad3203470",
+              "european": "Air",
+              "arabic_root": "ءلن",
+              "author_translit": "'loan",
+              "arabic_gloss": "3anbar",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 274,
+              "source_row_index_at_freeze": 274,
+              "source_row_key": "e95fc23142bf904a021ece4e",
+              "european": "Air",
+              "arabic_root": "ري",
+              "author_translit": "raiya",
+              "arabic_gloss": "good wind",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: سلك"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0229",
