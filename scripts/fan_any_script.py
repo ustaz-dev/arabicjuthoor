@@ -455,3 +455,130 @@ if __name__ == "__main__":
     for w in sys.argv[1:] or ["ⲙⲟⲟⲩ", "ⲣⲱⲙⲉ", "jb", "mw", "ꜥꜣ", "kalbum", "עינא", "κέρας"]:
         s = detect(w)
         print(f"   {w:12} [{s:9}] هيكل={''.join(skeleton(w, s)):8} مرشّحات={len(fan(w, s))}")
+
+# ------------------------------------------- الأوزانُ المقيسةُ من «التراثِ المأثور»
+# **ما تُضيفُه:** مروحتُنا تُخرِجُ مرشَّحيها بلا ترتيب، والمعنى وحدَه يختار. ومادّةُ
+# **محمّد مصطفى منصور** (10,399 آيةً بثلاثةِ سطور، حوذيَ منها 6,002 كلمةً بكلمة)
+# تُعطي كلَّ إبدالٍ تكرارَه المقيس، فيصيرُ الترتيبُ مرجَّحًا بعدد.
+#
+# **والوزنُ ترتيبٌ لا بوّابة:** لا يُحذَفُ مرشَّحٌ لخفّةِ وزنِه، إنّما يتأخّرُ في
+# العرض. وأمرُ المؤلّفِ صريحٌ في ألّا يُخنَقَ طورُ الاستكشافِ بقوانينَ حذرة.
+#
+# **ورسمُ منصورٍ للحرفِ العبريِّ بالعربيّة** هو الجسرُ: سطرُ الرسمِ عندَه هو النصُّ
+# العبريُّ بحروفٍ عربيّة، فوزنُ `ח` يُقرَأُ من وزنِ `ح`، ووزنُ `ש` من وزنِ `ش`.
+NORTH_TO_MANSUR = {
+    "א": "ء", "ב": "ب", "ג": "ج", "ד": "د", "ה": "ه", "ו": "و", "ז": "ز",
+    "ח": "ح", "ט": "ط", "י": "ي", "כ": "ك", "ל": "ل", "מ": "م", "נ": "ن",
+    "ס": "س", "ע": "ع", "פ": "ف", "צ": "ص", "ק": "ق", "ר": "ر", "ש": "ش",
+    "ת": "ت",
+}
+_WEIGHTS: dict | None = None
+
+
+def _weights() -> dict:
+    """المصفوفةُ المقيسةُ إن كانت مبنيّة، وإلّا فقاموسٌ فارغٌ ولا يضرّ."""
+    global _WEIGHTS
+    if _WEIGHTS is None:
+        import json as _json                                  # noqa: PLC0415
+        import pathlib as _pathlib                            # noqa: PLC0415
+        p = _pathlib.Path(__file__).resolve().parent.parent / "data" / "mansur-correspondences.json"
+        try:
+            _WEIGHTS = _json.loads(p.read_text(encoding="utf-8")).get("letters", {})
+        except Exception:                                     # noqa: BLE001
+            _WEIGHTS = {}
+    return _WEIGHTS
+
+
+def weight_of(source_letter: str, arabic: str, script: str = "north") -> int:
+    """تكرارُ هذا الإبدالِ في مادّةِ منصور. صفرٌ يعني «لم يُرصَدْ» لا «ممنوع»."""
+    w = _weights()
+    key = NORTH_TO_MANSUR.get(source_letter, source_letter) if script == "north" else source_letter
+    row = w.get(key)
+    if not row:
+        return 0
+    if arabic == key:
+        return int(row.get("kept", 0))
+    return int(row.get("becomes", {}).get(arabic, 0))
+
+
+def probability_of(source_letter: str, arabic: str, script: str = "north",
+                   tongue: str = "hebrew") -> float:
+    """**الاحتمالُ لا العدد.** جمعُ الأعدادِ الخامِّ يُغرِقُ الفرقَ في ثوابتِ
+    الرواسي: اللامُ تبقى 16,308 مرّةً فتُضافُ إلى كلِّ مرشَّحٍ بالتساوي، فيصيرُ
+    الفرقُ بينَ `سلم` و`ثلم` ألفَينِ من ثلاثينَ ألفًا. والقسمةُ على مجموعِ
+    الحرفِ تُخرِجُ نصيبَه الحقيقيَّ فيُبِينُ الفرق."""
+    w = _aramaic_weights() if tongue == "aramaic" else _weights()
+    key = NORTH_TO_MANSUR.get(source_letter, source_letter) if script == "north" else source_letter
+    row = w.get(key)
+    if not row:
+        return 0.0
+    total = int(row.get("kept", 0)) + int(row.get("moved", 0))
+    if total <= 0:
+        return 0.0
+    n = int(row.get("kept", 0)) if arabic == key else int(row.get("becomes", {}).get(arabic, 0))
+    return n / total
+
+
+def rank(word: str, candidates: list[str], script: str | None = None,
+         tongue: str = "hebrew") -> list[tuple[str, float]]:
+    """المروحةُ مرتَّبةً بالوزنِ المقيس، ومعها وزنُ كلِّ مرشَّح.
+
+    **ولا يُحذَفُ من القائمةِ شيء.** المرشَّحُ الذي لم يُرصَدْ إبدالُه في مادّةِ
+    منصورٍ يبقى في آخرِ الترتيبِ بوزنِ صفر، فقد يكونُ الصوابَ ولم تبلغْه مادّتُه.
+    """
+    script = script or detect(word)
+    sk = skeleton(word, script)
+    out = []
+    for cand in candidates:
+        letters = [c for c in cand if "ء" <= c <= "ي"]
+        if len(letters) != len(sk):
+            out.append((cand, 0))
+            continue
+        p = 1.0
+        for src, ar in zip(sk, letters):
+            q = probability_of(src, ar, script, tongue)
+            # **الصفرُ لا يُصفِّرُ المرشَّح**: «لم يُرصَدْ» ليست «ممنوعة»، فيُعطى
+            # نصيبًا ضئيلًا يُبقيه في الترتيبِ آخِرًا ولا يُخرِجُه منه
+            p *= q if q > 0 else 1e-4
+        out.append((cand, round(p, 6)))
+    return sorted(out, key=lambda kv: -kv[1])
+
+# -------------------------------------------------- الرؤيةُ الآراميّةُ للمصفوفة
+# **مادّةُ منصورٍ عبريّةٌ لا آراميّة**، فأوزانُها تُصيبُ في العبريّةِ وتُخطئُ في
+# الآراميّةِ خطأً منتظمًا: `תלת` «ثلاثة» يُرتَّبُ فيها `ثلث` آخِرًا، و`צל` «الظلّ»
+# يُرتَّبُ فيها `ظل` آخِرًا. والسببُ أنّ الصوتَ الواحدَ يختبئُ تحتَ حرفٍ في
+# العبريّةِ وتحتَ حرفٍ آخرَ في الآراميّة، وهو تحذيرُ منصورٍ نفسِه: «قبلَ إجراءِ
+# أيِّ جدولٍ اعرِفْ لسانَ النصّ».
+#
+# فتُنقَلُ الأصواتُ الستّةُ إلى مضيفِها الآراميِّ بأوزانِها، بشواهدِها المنشورة:
+#   ث: عبريًّا تحتَ ש وآراميًّا تحتَ ת   (שלושה / תלתא)
+#   ذ: عبريًّا تحتَ ז وآراميًّا تحتَ ד   (זהב / דהב)
+#   ض: عبريًّا تحتَ צ وآراميًّا تحتَ ע   (ארץ / ארעא)
+#   ظ: عبريًّا تحتَ צ وآراميًّا تحتَ ט   (צל / טולא)
+#   خ وغ: تحتَ ח وע في اللسانَينِ معًا فلا تُنقَلان
+ARAMAIC_REHOST = [
+    # (الصوت، مضيفُه العبريُّ برسمِ منصور، مضيفُه الآراميّ)
+    ("ث", "ش", "ت"),
+    ("ذ", "ز", "د"),
+    ("ض", "ص", "ع"),
+    ("ظ", "ص", "ط"),
+]
+_ARAMAIC_WEIGHTS: dict | None = None
+
+
+def _aramaic_weights() -> dict:
+    global _ARAMAIC_WEIGHTS
+    if _ARAMAIC_WEIGHTS is None:
+        import copy as _copy                                   # noqa: PLC0415
+        w = _copy.deepcopy(_weights())
+        for sound, heb, ara in ARAMAIC_REHOST:
+            n = int(w.get(heb, {}).get("becomes", {}).pop(sound, 0))
+            if not n:
+                continue
+            row = w.setdefault(ara, {"kept": 0, "moved": 0, "becomes": {}})
+            row["becomes"][sound] = int(row["becomes"].get(sound, 0)) + n
+            row["moved"] = int(row.get("moved", 0)) + n
+            heb_row = w.get(heb, {})
+            heb_row["moved"] = max(0, int(heb_row.get("moved", 0)) - n)
+        _ARAMAIC_WEIGHTS = w
+    return _ARAMAIC_WEIGHTS
