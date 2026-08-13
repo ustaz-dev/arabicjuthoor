@@ -184,6 +184,35 @@
 لغةٌ عروبيّة» أضعفُها نصًّا، فيبقى موسومًا لإعادةِ المسحِ عندَ تجدّدِ مفتاحِ
 Mistral، لا تُمحى مادّتُه ولا يُستعاضُ عنها بالحدس.
 
+ثمّ صُحِّحت سلسلةُ النُّسَخِ للمجلّدينِ الأوّلين، ووُثِّقت نسختانِ رسميّتانِ
+أُخريانِ لكتابَي التأصيلِ المصريِّ واللاتينيِّ. نُزِّلت الملفاتُ الأربعةُ من
+موادِّ مكتبةِ الإسكندريّةِ في أرشيفِ الإنترنت، وطابقت بصماتُها بيانَ كلِّ
+مادّة:
+
+| الكتاب | مادّةُ أرشيفِ الإنترنت | حجمُ PDF | MD5 | الحروفُ العربيّةُ في DjVuTXT الرسميِّ |
+|---|---|---:|---|---:|
+| [رحلة الكلمات، الرحلة الأولى](https://archive.org/details/AAlexandrina-102430) | `AAlexandrina-102430` | 22,195,157 | `CEA474ECF0604BB8180295C81B00E86D` | 446,777 |
+| [آلهة مصر العربية، المجلّد الأول](https://archive.org/details/BBib-Alex-06175) | `BBib-Alex-06175` | 20,152,999 | `48A5EBDBE1D9FCF7500023B44EA72871` | 578,413 |
+| [البرهان على عروبة اللغة المصرية القديمة](https://archive.org/details/AAlexandrina-067891) | `AAlexandrina-067891` | 45,666,458 | `E6A1D808B225AB780138317744C99B11` | 348,988 |
+| [اللاتينية العربية](https://archive.org/details/AAlexandrina-069158) | `AAlexandrina-069158` | 11,227,841 | `7E304CB8E1D5A0B05913BE2D97C0EA97` | 204,557 |
+
+كان مسحُ Mistral الموجودُ قبلَ هذا المرورِ أقوى من `DjVuTXT` الرسميِّ في
+الأربعة: 460,815 حرفًا عربيًّا في «الرحلة الأولى»، و629,441 في «آلهة مصر 1»،
+و419,439 في «البرهان»، و205,633 في «اللاتينية العربية». لذلك استُعمل المسحُ
+الأقوى للحصاد، مع تثبيتِ النسخِ الرسميّةِ وبصماتِها مرجعًا للمقابلة، ولم يُستبدل
+به نصٌّ أضعف.
+
+فُحِصَت مواضعُ النسبةِ في «الرحلة الأولى» و«آلهة مصر 1» بدلَ تمريرِ أسماءِ
+الكتبِ والباحثينَ التي تقع بين علامتَي تنصيص. أضافت الأولى **105 أزواج**،
+وأضاف الثاني **256 زوجًا**؛ أي **361 زوجًا منسوبًا** مع رقمِ السطرِ وسياقِه.
+وتتوزّع على المصريّةِ القديمة (220)، واللاتينيّةِ القديمة (48)، واليونانيّةِ
+القديمة (39)، والأكّاديّةِ والبابليّة (18)، والكنعانيّة (11)،
+والآراميّةِ والسريانيّة (8)، والعربيّةِ الجنوبيّةِ القديمة (5)، والقبطيّة
+(4)، والإتروسكيّة (3)، والليبيّةِ القديمة (2)، ثمّ زوجٍ واحدٍ لكلٍّ من
+الإنكليزيّةِ القديمة والعِبريّة والسومريّة. فبلغَ حصادُ خشيمَ والندوةِ
+**4,330 زوجًا**. جرى تفريقُ البدائلِ التي كتبَها خشيم في صفوفٍ مستقلّة، ولم
+يُرَدَّ زوجٌ لغيابِ قانونٍ مصاحب.
+
 ### سابقو ندوةِ الوحدةِ والتنوّع
 
 كتابُ الندوةِ نفسُه فهرسُ سابقينَ، وقد سمّى أصحابَ المقالاتِ وعناوينَها. نثبتُهم
@@ -305,7 +334,10 @@ in reading cards carrying an issued positive result. Ali Fahmi Khashim's newly
 downloaded *Journey of Words II* and *Gods of Arabic Egypt II*, together with a
 nine-author symposium on ancient Arabic-related tongues, added 250 attributed
 candidates; a further 107 pairs from *Continuous Contact* brought that separate
-harvest from 3,612 to 3,969 pairs. Two open
+harvest from 3,612 to 3,969 pairs. Official Internet Archive copies of *Journey
+of Words I* and *Gods of Arabic Egypt I* were then fixed to the Bibliotheca
+Alexandrina records, and 361 explicitly located pairs from their stronger OCR
+raised the attributed harvest to 4,330 pairs. Two open
 Coptic-Arabic inventories by Wilson B. Bishai and Emile Maher Ishaq were also
 downloaded and read; their bibliographies surface George Sobhy, Werner Vycichl,
 and William H. Worrell as earlier pair collectors. Eleven Ancient Egyptian–Saidi
