@@ -162,7 +162,8 @@
       "language": "ancient-greek",
       "source_rows": [
         3421,
-        3422
+        3422,
+        4357
       ],
       "forms": [
         {
@@ -177,7 +178,8 @@
         {
           "form": "hierarchy",
           "source_rows": [
-            3422
+            3422,
+            4357
           ],
           "branch_meanings": [
             "كاهن؛ مقدس؛ كهنوتي"
@@ -206,6 +208,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 492
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hierarchy",
+          "foreign_sense": "كاهن؛ مقدس؛ نوراني",
+          "arabic_root": "حور",
+          "arabic_gloss": "يردها إلى حور وحواري: البياض والطهر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 131
         }
       ],
       "fan_reviews": [
@@ -231,7 +244,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4357
+      ]
     },
     {
       "card_id": "KIE-N008-003",
@@ -239,13 +255,15 @@
       "language": "ancient-greek",
       "source_rows": [
         3427,
-        3429
+        3429,
+        4358
       ],
       "forms": [
         {
           "form": "papyro",
           "source_rows": [
-            3427
+            3427,
+            4358
           ],
           "branch_meanings": [
             "بردي؛ ورق"
@@ -283,6 +301,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 493
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "papyro",
+          "foreign_sense": "ورق البردي",
+          "arabic_root": "جبل",
+          "arabic_gloss": "يرده إلى Byblos وجبيل.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 131
         }
       ],
       "fan_reviews": [
@@ -308,7 +337,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4358
+      ]
     },
     {
       "card_id": "KIE-N008-004",
@@ -424,13 +456,15 @@
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3435
+        3435,
+        4382
       ],
       "forms": [
         {
           "form": "thyreodectomy",
           "source_rows": [
-            3435
+            3435,
+            4382
           ],
           "branch_meanings": [
             "قطع؛ استئصال"
@@ -448,6 +482,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 493
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "thyreodectomy",
+          "foreign_sense": "قطع؛ استئصال",
+          "arabic_root": "قطم",
+          "arabic_gloss": "يقابلها بقطم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -464,20 +509,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4382
+      ]
     },
     {
       "card_id": "KIE-N008-007",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3436
+        3436,
+        4383
       ],
       "forms": [
         {
           "form": "hypophysectomy",
           "source_rows": [
-            3436
+            3436,
+            4383
           ],
           "branch_meanings": [
             "قطع؛ استئصال"
@@ -495,6 +545,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 493
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hypophysectomy",
+          "foreign_sense": "قطع؛ استئصال",
+          "arabic_root": "قطم",
+          "arabic_gloss": "يقابلها بقطم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -511,20 +572,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4383
+      ]
     },
     {
       "card_id": "KIE-N008-008",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3437
+        3437,
+        4381
       ],
       "forms": [
         {
           "form": "kephale",
           "source_rows": [
-            3437
+            3437,
+            4381
           ],
           "branch_meanings": [
             "رأس؛ بلا رأس؛ رأسيات الأرجل"
@@ -542,6 +608,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kephale",
+          "foreign_sense": "رأس",
+          "arabic_root": "قفن",
+          "arabic_gloss": "يقابلها بقفن وقفل: الرأس.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -558,20 +635,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4381
+      ]
     },
     {
       "card_id": "KIE-N008-009",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3438
+        3438,
+        4387
       ],
       "forms": [
         {
           "form": "acephalic",
           "source_rows": [
-            3438
+            3438,
+            4387
           ],
           "branch_meanings": [
             "رأس؛ بلا رأس؛ رأسيات الأرجل"
@@ -589,6 +671,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "acephalic",
+          "foreign_sense": "رأس",
+          "arabic_root": "قفن",
+          "arabic_gloss": "يقابلها بقفن وقفل: الرأس.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -605,20 +698,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4387
+      ]
     },
     {
       "card_id": "KIE-N008-010",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3439
+        3439,
+        4380
       ],
       "forms": [
         {
           "form": "Cephalopoda",
           "source_rows": [
-            3439
+            3439,
+            4380
           ],
           "branch_meanings": [
             "رأس؛ بلا رأس؛ رأسيات الأرجل"
@@ -636,6 +734,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "cephalopoda",
+          "foreign_sense": "رأس",
+          "arabic_root": "قفن",
+          "arabic_gloss": "يقابلها بقفن وقفل: الرأس.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -652,20 +761,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4380
+      ]
     },
     {
       "card_id": "KIE-N008-011",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3440
+        3440,
+        4378
       ],
       "forms": [
         {
           "form": "kore",
           "source_rows": [
-            3440
+            3440,
+            4378
           ],
           "branch_meanings": [
             "بنت؛ فتاة؛ بؤبؤ العين"
@@ -683,6 +797,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kore",
+          "foreign_sense": "بنت؛ فتاة؛ بؤبؤ العين",
+          "arabic_root": "غر",
+          "arabic_gloss": "يقابلها بغرة وجارية.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -699,20 +824,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4378
+      ]
     },
     {
       "card_id": "KIE-N008-012",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3441
+        3441,
+        4374
       ],
       "forms": [
         {
           "form": "corea",
           "source_rows": [
-            3441
+            3441,
+            4374
           ],
           "branch_meanings": [
             "بنت؛ فتاة؛ بؤبؤ العين"
@@ -730,6 +860,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "corea",
+          "foreign_sense": "بنت؛ فتاة؛ بؤبؤ العين",
+          "arabic_root": "غر",
+          "arabic_gloss": "يقابلها بغرة وجارية.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -746,20 +887,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4374
+      ]
     },
     {
       "card_id": "KIE-N008-013",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3442
+        3442,
+        4371
       ],
       "forms": [
         {
           "form": "kranion",
           "source_rows": [
-            3442
+            3442,
+            4371
           ],
           "branch_meanings": [
             "جمجمة"
@@ -777,6 +923,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kranion",
+          "foreign_sense": "جمجمة",
+          "arabic_root": "قرن",
+          "arabic_gloss": "يقابلها بقرن.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -793,7 +950,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4371
+      ]
     },
     {
       "card_id": "KIE-N008-014",
@@ -801,13 +961,16 @@
       "language": "ancient-greek",
       "source_rows": [
         3443,
-        3444
+        3444,
+        4373,
+        4377
       ],
       "forms": [
         {
           "form": "cranial",
           "source_rows": [
-            3443
+            3443,
+            4377
           ],
           "branch_meanings": [
             "جمجمة"
@@ -816,7 +979,8 @@
         {
           "form": "Craniata",
           "source_rows": [
-            3444
+            3444,
+            4373
           ],
           "branch_meanings": [
             "جمجمة"
@@ -845,6 +1009,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "craniata",
+          "foreign_sense": "جمجمة",
+          "arabic_root": "قرن",
+          "arabic_gloss": "يقابلها بقرن.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "cranial",
+          "foreign_sense": "جمجمة",
+          "arabic_root": "قرن",
+          "arabic_gloss": "يقابلها بقرن.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -870,20 +1056,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4373,
+        4377
+      ]
     },
     {
       "card_id": "KIE-N008-015",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3445
+        3445,
+        4372
       ],
       "forms": [
         {
           "form": "chondrocranium",
           "source_rows": [
-            3445
+            3445,
+            4372
           ],
           "branch_meanings": [
             "جمجمة"
@@ -901,6 +1093,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "chondrocranium",
+          "foreign_sense": "جمجمة",
+          "arabic_root": "قرن",
+          "arabic_gloss": "يقابلها بقرن.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -917,20 +1120,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4372
+      ]
     },
     {
       "card_id": "KIE-N008-016",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3446
+        3446,
+        4375
       ],
       "forms": [
         {
           "form": "kystos",
           "source_rows": [
-            3446
+            3446,
+            4375
           ],
           "branch_meanings": [
             "مثانة؛ كيس؛ حويصلة"
@@ -948,6 +1156,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kystos",
+          "foreign_sense": "مثانة؛ حقيبة؛ وعاء",
+          "arabic_root": "كيس",
+          "arabic_gloss": "يقابلها بكيس وكيسة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -964,20 +1183,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4375
+      ]
     },
     {
       "card_id": "KIE-N008-017",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3447
+        3447,
+        4376
       ],
       "forms": [
         {
           "form": "cystitis",
           "source_rows": [
-            3447
+            3447,
+            4376
           ],
           "branch_meanings": [
             "مثانة؛ كيس؛ حويصلة"
@@ -995,6 +1219,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "cystitis",
+          "foreign_sense": "مثانة؛ حقيبة؛ وعاء",
+          "arabic_root": "كيس",
+          "arabic_gloss": "يقابلها بكيس وكيسة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -1011,20 +1246,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4376
+      ]
     },
     {
       "card_id": "KIE-N008-018",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3448
+        3448,
+        4379
       ],
       "forms": [
         {
           "form": "nematocyst",
           "source_rows": [
-            3448
+            3448,
+            4379
           ],
           "branch_meanings": [
             "مثانة؛ كيس؛ حويصلة"
@@ -1042,6 +1282,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "nematocyst",
+          "foreign_sense": "مثانة؛ حقيبة؛ وعاء",
+          "arabic_root": "كيس",
+          "arabic_gloss": "يقابلها بكيس وكيسة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
         }
       ],
       "fan_reviews": [
@@ -1058,20 +1309,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4379
+      ]
     },
     {
       "card_id": "KIE-N008-019",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3449
+        3449,
+        4402
       ],
       "forms": [
         {
           "form": "myxa",
           "source_rows": [
-            3449
+            3449,
+            4402
           ],
           "branch_meanings": [
             "بلغم؛ مخاط"
@@ -1089,6 +1345,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "myxa",
+          "foreign_sense": "بلغم",
+          "arabic_root": "مخ",
+          "arabic_gloss": "يقابلها بمخ على التشبيه.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1105,20 +1372,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4402
+      ]
     },
     {
       "card_id": "KIE-N008-020",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3450
+        3450,
+        4407
       ],
       "forms": [
         {
           "form": "myxomycetes",
           "source_rows": [
-            3450
+            3450,
+            4407
           ],
           "branch_meanings": [
             "بلغم؛ مخاط"
@@ -1136,6 +1408,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "myxomycetes",
+          "foreign_sense": "بلغم",
+          "arabic_root": "مخ",
+          "arabic_gloss": "يقابلها بمخ على التشبيه.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1152,20 +1435,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4407
+      ]
     },
     {
       "card_id": "KIE-N008-021",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3451
+        3451,
+        4404
       ],
       "forms": [
         {
           "form": "Myxococcus",
           "source_rows": [
-            3451
+            3451,
+            4404
           ],
           "branch_meanings": [
             "بلغم؛ مخاط"
@@ -1183,6 +1471,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "myxococcus",
+          "foreign_sense": "بلغم",
+          "arabic_root": "مخ",
+          "arabic_gloss": "يقابلها بمخ على التشبيه.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1199,20 +1498,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4404
+      ]
     },
     {
       "card_id": "KIE-N008-022",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3452
+        3452,
+        4406
       ],
       "forms": [
         {
           "form": "neurosis",
           "source_rows": [
-            3452
+            3452,
+            4406
           ],
           "branch_meanings": [
             "عصب؛ عصبي"
@@ -1230,6 +1534,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "neurosis",
+          "foreign_sense": "عصب",
+          "arabic_root": "نير",
+          "arabic_gloss": "يقابلها بنير.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1246,20 +1561,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4406
+      ]
     },
     {
       "card_id": "KIE-N008-023",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3453
+        3453,
+        4412
       ],
       "forms": [
         {
           "form": "neural",
           "source_rows": [
-            3453
+            3453,
+            4412
           ],
           "branch_meanings": [
             "عصب؛ عصبي"
@@ -1277,6 +1597,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "neural",
+          "foreign_sense": "عصب",
+          "arabic_root": "نير",
+          "arabic_gloss": "يقابلها بنير.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1293,7 +1624,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4412
+      ]
     },
     {
       "card_id": "KIE-N008-024",
@@ -1301,13 +1635,16 @@
       "language": "ancient-greek",
       "source_rows": [
         3454,
-        3457
+        3457,
+        4401,
+        4408
       ],
       "forms": [
         {
           "form": "ura",
           "source_rows": [
-            3454
+            3454,
+            4408
           ],
           "branch_meanings": [
             "ذيل؛ خلف"
@@ -1316,7 +1653,8 @@
         {
           "form": "Anura",
           "source_rows": [
-            3457
+            3457,
+            4401
           ],
           "branch_meanings": [
             "ذيل؛ خلف"
@@ -1345,6 +1683,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "anura",
+          "foreign_sense": "ذيل؛ خلف",
+          "arabic_root": "وراء",
+          "arabic_gloss": "يقابلها بوراء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "ura",
+          "foreign_sense": "ذيل؛ خلف",
+          "arabic_root": "وراء",
+          "arabic_gloss": "يقابلها بوراء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1370,20 +1730,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4401,
+        4408
+      ]
     },
     {
       "card_id": "KIE-N008-025",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3455
+        3455,
+        4410
       ],
       "forms": [
         {
           "form": "Urostyle",
           "source_rows": [
-            3455
+            3455,
+            4410
           ],
           "branch_meanings": [
             "ذيل؛ خلف"
@@ -1401,6 +1767,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "urostyle",
+          "foreign_sense": "ذيل؛ خلف",
+          "arabic_root": "وراء",
+          "arabic_gloss": "يقابلها بوراء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1417,20 +1794,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4410
+      ]
     },
     {
       "card_id": "KIE-N008-026",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3456
+        3456,
+        4411
       ],
       "forms": [
         {
           "form": "Ophiura",
           "source_rows": [
-            3456
+            3456,
+            4411
           ],
           "branch_meanings": [
             "ذيل؛ خلف"
@@ -1448,6 +1830,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 494
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "ophiura",
+          "foreign_sense": "ذيل؛ خلف",
+          "arabic_root": "وراء",
+          "arabic_gloss": "يقابلها بوراء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1464,7 +1857,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4411
+      ]
     },
     {
       "card_id": "KIE-N008-027",
@@ -1518,13 +1914,15 @@
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3467
+        3467,
+        4400
       ],
       "forms": [
         {
           "form": "antipyretic",
           "source_rows": [
-            3467
+            3467,
+            4400
           ],
           "branch_meanings": [
             "حمى؛ مضاد الحمى"
@@ -1542,6 +1940,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 495
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "antipyretic",
+          "foreign_sense": "حمى",
+          "arabic_root": "برد",
+          "arabic_gloss": "يقابلها ببرد والبرداء: الحمى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1558,20 +1967,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4400
+      ]
     },
     {
       "card_id": "KIE-N008-029",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3468
+        3468,
+        4394
       ],
       "forms": [
         {
           "form": "pyrexia",
           "source_rows": [
-            3468
+            3468,
+            4394
           ],
           "branch_meanings": [
             "حمى؛ مضاد الحمى"
@@ -1589,6 +2003,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 495
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "pyrexia",
+          "foreign_sense": "حمى",
+          "arabic_root": "برد",
+          "arabic_gloss": "يقابلها ببرد والبرداء: الحمى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1605,7 +2030,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4394
+      ]
     },
     {
       "card_id": "KIE-N008-030",
@@ -1614,13 +2042,17 @@
       "source_rows": [
         3469,
         3470,
-        3471
+        3471,
+        4393,
+        4396,
+        4397
       ],
       "forms": [
         {
           "form": "stoma",
           "source_rows": [
-            3469
+            3469,
+            4393
           ],
           "branch_meanings": [
             "فم؛ فتحة؛ معدة"
@@ -1629,7 +2061,8 @@
         {
           "form": "stomata",
           "source_rows": [
-            3470
+            3470,
+            4396
           ],
           "branch_meanings": [
             "فم؛ فتحة؛ معدة"
@@ -1638,7 +2071,8 @@
         {
           "form": "stomach",
           "source_rows": [
-            3471
+            3471,
+            4397
           ],
           "branch_meanings": [
             "فم؛ فتحة؛ معدة"
@@ -1678,6 +2112,39 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 495
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "stoma",
+          "foreign_sense": "فم",
+          "arabic_root": "تم",
+          "arabic_gloss": "يردها إلى تم الشامية، والسين زائدة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "stomata",
+          "foreign_sense": "فم",
+          "arabic_root": "تم",
+          "arabic_gloss": "يردها إلى تم الشامية، والسين زائدة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "stomach",
+          "foreign_sense": "فم",
+          "arabic_root": "تم",
+          "arabic_gloss": "يردها إلى تم الشامية، والسين زائدة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
         }
       ],
       "fan_reviews": [
@@ -1712,20 +2179,27 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4393,
+        4396,
+        4397
+      ]
     },
     {
       "card_id": "KIE-N008-031",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3476
+        3476,
+        4419
       ],
       "forms": [
         {
           "form": "ther",
           "source_rows": [
-            3476
+            3476,
+            4419
           ],
           "branch_meanings": [
             "حيوان قوي؛ ثور"
@@ -1743,6 +2217,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 495
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "ther",
+          "foreign_sense": "حيوان قوي؛ ثور",
+          "arabic_root": "ثور",
+          "arabic_gloss": "يقابلها بثور.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 134
         }
       ],
       "fan_reviews": [
@@ -1759,20 +2244,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4419
+      ]
     },
     {
       "card_id": "KIE-N008-032",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3477
+        3477,
+        4420
       ],
       "forms": [
         {
           "form": "taurus",
           "source_rows": [
-            3477
+            3477,
+            4420
           ],
           "branch_meanings": [
             "حيوان قوي؛ ثور"
@@ -1790,6 +2280,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 495
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "taurus",
+          "foreign_sense": "حيوان قوي؛ ثور",
+          "arabic_root": "ثور",
+          "arabic_gloss": "يقابلها بثور.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 134
         }
       ],
       "fan_reviews": [
@@ -1806,7 +2307,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4420
+      ]
     },
     {
       "card_id": "KIE-N008-033",
@@ -1907,13 +2411,15 @@
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3480
+        3480,
+        4415
       ],
       "forms": [
         {
           "form": "lagos",
           "source_rows": [
-            3480
+            3480,
+            4415
           ],
           "branch_meanings": [
             "أرنب؛ أيل"
@@ -1931,6 +2437,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 496
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "lagos",
+          "foreign_sense": "أرنب؛ حيوان من فصيلة الغزلان",
+          "arabic_root": "ألق",
+          "arabic_gloss": "يقابلها بإلق: أرنب.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 134
         }
       ],
       "fan_reviews": [
@@ -1947,20 +2464,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4415
+      ]
     },
     {
       "card_id": "KIE-N008-036",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3481
+        3481,
+        4413
       ],
       "forms": [
         {
           "form": "elk",
           "source_rows": [
-            3481
+            3481,
+            4413
           ],
           "branch_meanings": [
             "أرنب؛ أيل"
@@ -1978,6 +2500,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 496
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "elk",
+          "foreign_sense": "ذئب؛ كلب صيد",
+          "arabic_root": "ألق",
+          "arabic_gloss": "يقابلها بإلق: ذئب.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 134
         }
       ],
       "fan_reviews": [
@@ -1994,20 +2527,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4413
+      ]
     },
     {
       "card_id": "KIE-N008-037",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3482
+        3482,
+        4414
       ],
       "forms": [
         {
           "form": "lykos",
           "source_rows": [
-            3482
+            3482,
+            4414
           ],
           "branch_meanings": [
             "ذئب؛ كلب صيد"
@@ -2025,6 +2563,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 496
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "lykos",
+          "foreign_sense": "ذئب؛ كلب صيد",
+          "arabic_root": "ألق",
+          "arabic_gloss": "يقابلها بإلق: ذئب.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 134
         }
       ],
       "fan_reviews": [
@@ -2041,7 +2590,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4414
+      ]
     },
     {
       "card_id": "KIE-N008-038",
@@ -2049,13 +2601,16 @@
       "language": "ancient-greek",
       "source_rows": [
         3483,
-        3486
+        3486,
+        4444,
+        4445
       ],
       "forms": [
         {
           "form": "ophis",
           "source_rows": [
-            3483
+            3483,
+            4445
           ],
           "branch_meanings": [
             "حية؛ أفعواني"
@@ -2064,7 +2619,8 @@
         {
           "form": "ophite",
           "source_rows": [
-            3486
+            3486,
+            4444
           ],
           "branch_meanings": [
             "حية؛ أفعواني"
@@ -2093,6 +2649,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 496
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "ophite",
+          "foreign_sense": "حية",
+          "arabic_root": "أفعى",
+          "arabic_gloss": "يردها إلى فعو وأفعى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "ophis",
+          "foreign_sense": "حية",
+          "arabic_root": "أفعى",
+          "arabic_gloss": "يردها إلى فعو وأفعى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2118,20 +2696,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4444,
+        4445
+      ]
     },
     {
       "card_id": "KIE-N008-039",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3484
+        3484,
+        4436
       ],
       "forms": [
         {
           "form": "ophicleide",
           "source_rows": [
-            3484
+            3484,
+            4436
           ],
           "branch_meanings": [
             "حية؛ أفعواني"
@@ -2149,6 +2733,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 496
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "ophicleide",
+          "foreign_sense": "حية",
+          "arabic_root": "أفعى",
+          "arabic_gloss": "يردها إلى فعو وأفعى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2165,20 +2760,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4436
+      ]
     },
     {
       "card_id": "KIE-N008-040",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3485
+        3485,
+        4443
       ],
       "forms": [
         {
           "form": "ophidian",
           "source_rows": [
-            3485
+            3485,
+            4443
           ],
           "branch_meanings": [
             "حية؛ أفعواني"
@@ -2196,6 +2796,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 496
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "ophidian",
+          "foreign_sense": "حية",
+          "arabic_root": "أفعى",
+          "arabic_gloss": "يردها إلى فعو وأفعى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2212,20 +2823,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4443
+      ]
     },
     {
       "card_id": "KIE-N008-041",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3487
+        3487,
+        4441
       ],
       "forms": [
         {
           "form": "scorpion",
           "source_rows": [
-            3487
+            3487,
+            4441
           ],
           "branch_meanings": [
             "عقرب؛ سرطان بحري"
@@ -2243,6 +2859,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 496
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "scorpion",
+          "foreign_sense": "عقرب؛ سرطان",
+          "arabic_root": "عقرب",
+          "arabic_gloss": "يقابلها بعقرب مع عد السين زائدة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2259,20 +2886,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4441
+      ]
     },
     {
       "card_id": "KIE-N008-042",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3488
+        3488,
+        4439
       ],
       "forms": [
         {
           "form": "tauros",
           "source_rows": [
-            3488
+            3488,
+            4439
           ],
           "branch_meanings": [
             "ثور؛ مصارعة الثيران"
@@ -2290,6 +2922,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 496
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "tauros",
+          "foreign_sense": "ثور",
+          "arabic_root": "ثور",
+          "arabic_gloss": "يقابلها بثور.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2306,20 +2949,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4439
+      ]
     },
     {
       "card_id": "KIE-N008-043",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3489
+        3489,
+        4438
       ],
       "forms": [
         {
           "form": "tauromachy",
           "source_rows": [
-            3489
+            3489,
+            4438
           ],
           "branch_meanings": [
             "ثور؛ مصارعة الثيران"
@@ -2337,6 +2985,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 496
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "tauromachy",
+          "foreign_sense": "ثور",
+          "arabic_root": "ثور",
+          "arabic_gloss": "يقابلها بثور.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2353,20 +3012,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4438
+      ]
     },
     {
       "card_id": "KIE-N008-044",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3490
+        3490,
+        4427
       ],
       "forms": [
         {
           "form": "anemone",
           "source_rows": [
-            3490
+            3490,
+            4427
           ],
           "branch_meanings": [
             "شقائق النعمان"
@@ -2384,6 +3048,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 497
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "anemone",
+          "foreign_sense": "شقائق النعمان",
+          "arabic_root": "نعم",
+          "arabic_gloss": "يقابلها بنعم ونعمان.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2400,7 +3075,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4427
+      ]
     },
     {
       "card_id": "KIE-N008-045",
@@ -2409,13 +3087,17 @@
       "source_rows": [
         3491,
         3492,
-        3493
+        3493,
+        4432,
+        4433,
+        4434
       ],
       "forms": [
         {
           "form": "thymos",
           "source_rows": [
-            3491
+            3491,
+            4434
           ],
           "branch_meanings": [
             "زعتر؛ نبات حريف"
@@ -2424,7 +3106,8 @@
         {
           "form": "thyme",
           "source_rows": [
-            3492
+            3492,
+            4433
           ],
           "branch_meanings": [
             "زعتر؛ نبات حريف"
@@ -2433,7 +3116,8 @@
         {
           "form": "thymus",
           "source_rows": [
-            3493
+            3493,
+            4432
           ],
           "branch_meanings": [
             "زعتر؛ نبات حريف"
@@ -2473,6 +3157,39 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 497
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "thymus",
+          "foreign_sense": "نبات حريف؛ زعتر",
+          "arabic_root": "ثوم",
+          "arabic_gloss": "يقارنها بثوم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "thyme",
+          "foreign_sense": "نبات حريف؛ زعتر",
+          "arabic_root": "ثوم",
+          "arabic_gloss": "يقارنها بثوم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "thymos",
+          "foreign_sense": "نبات حريف؛ زعتر",
+          "arabic_root": "ثوم",
+          "arabic_gloss": "يقارنها بثوم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2507,20 +3224,27 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4432,
+        4433,
+        4434
+      ]
     },
     {
       "card_id": "KIE-N008-046",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3494
+        3494,
+        4431
       ],
       "forms": [
         {
           "form": "kalamos",
           "source_rows": [
-            3494
+            3494,
+            4431
           ],
           "branch_meanings": [
             "غاب؛ يراع؛ قلم"
@@ -2538,6 +3262,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 497
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kalamos",
+          "foreign_sense": "غاب؛ يراع",
+          "arabic_root": "قلم",
+          "arabic_gloss": "يقابلها بقلم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2554,20 +3289,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4431
+      ]
     },
     {
       "card_id": "KIE-N008-047",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3495
+        3495,
+        4428
       ],
       "forms": [
         {
           "form": "calamite",
           "source_rows": [
-            3495
+            3495,
+            4428
           ],
           "branch_meanings": [
             "غاب؛ يراع؛ قلم"
@@ -2585,6 +3325,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 497
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "calamite",
+          "foreign_sense": "غاب؛ يراع",
+          "arabic_root": "قلم",
+          "arabic_gloss": "يقابلها بقلم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2601,20 +3352,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4428
+      ]
     },
     {
       "card_id": "KIE-N008-048",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3496
+        3496,
+        4429
       ],
       "forms": [
         {
           "form": "calamary",
           "source_rows": [
-            3496
+            3496,
+            4429
           ],
           "branch_meanings": [
             "غاب؛ يراع؛ قلم"
@@ -2632,6 +3388,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 497
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "calamary",
+          "foreign_sense": "غاب؛ يراع",
+          "arabic_root": "قلم",
+          "arabic_gloss": "يقابلها بقلم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2648,20 +3415,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4429
+      ]
     },
     {
       "card_id": "KIE-N008-049",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3497
+        3497,
+        4430
       ],
       "forms": [
         {
           "form": "chalamoichthyes",
           "source_rows": [
-            3497
+            3497,
+            4430
           ],
           "branch_meanings": [
             "غاب؛ يراع؛ قلم"
@@ -2679,6 +3451,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 497
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "chalamoichthyes",
+          "foreign_sense": "غاب؛ يراع",
+          "arabic_root": "قلم",
+          "arabic_gloss": "يقابلها بقلم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 135
         }
       ],
       "fan_reviews": [
@@ -2695,20 +3478,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4430
+      ]
     },
     {
       "card_id": "KIE-N008-050",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3501
+        3501,
+        4461
       ],
       "forms": [
         {
           "form": "linon",
           "source_rows": [
-            3501
+            3501,
+            4461
           ],
           "branch_meanings": [
             "كتان؛ نسيج كتاني"
@@ -2726,6 +3514,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 497
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "linon",
+          "foreign_sense": "كتان",
+          "arabic_root": "نيل",
+          "arabic_gloss": "يقابلها بنيل ونيلي.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 136
         }
       ],
       "fan_reviews": [
@@ -2742,20 +3541,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4461
+      ]
     },
     {
       "card_id": "KIE-N008-051",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3502
+        3502,
+        4467
       ],
       "forms": [
         {
           "form": "mykos",
           "source_rows": [
-            3502
+            3502,
+            4467
           ],
           "branch_meanings": [
             "فطر؛ مصطلح فطري أو مخاطي"
@@ -2773,6 +3577,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 497
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "mykos",
+          "foreign_sense": "فطر",
+          "arabic_root": "مخ",
+          "arabic_gloss": "يقابلها بمخ.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 136
         }
       ],
       "fan_reviews": [
@@ -2789,20 +3604,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4467
+      ]
     },
     {
       "card_id": "KIE-N008-052",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3503
+        3503,
+        4464
       ],
       "forms": [
         {
           "form": "myxoedema",
           "source_rows": [
-            3503
+            3503,
+            4464
           ],
           "branch_meanings": [
             "فطر؛ مصطلح فطري أو مخاطي"
@@ -2820,6 +3640,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 497
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "myxoedema",
+          "foreign_sense": "فطر",
+          "arabic_root": "مخ",
+          "arabic_gloss": "يقابلها بمخ.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 136
         }
       ],
       "fan_reviews": [
@@ -2836,7 +3667,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4464
+      ]
     },
     {
       "card_id": "KIE-N008-053",
@@ -3374,13 +4208,16 @@
       "language": "ancient-greek",
       "source_rows": [
         3517,
-        3518
+        3518,
+        4479,
+        4480
       ],
       "forms": [
         {
           "form": "agathos",
           "source_rows": [
-            3517
+            3517,
+            4479
           ],
           "branch_meanings": [
             "طيب؛ اسم مؤنث بمعنى جيدة"
@@ -3389,7 +4226,8 @@
         {
           "form": "Agatha",
           "source_rows": [
-            3518
+            3518,
+            4480
           ],
           "branch_meanings": [
             "طيب؛ اسم مؤنث بمعنى جيدة"
@@ -3418,6 +4256,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 498
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "agathos",
+          "foreign_sense": "طيب؛ جيد",
+          "arabic_root": "جود",
+          "arabic_gloss": "يقابلها بجود وجيد.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "Agatha",
+          "foreign_sense": "طيب؛ جيد",
+          "arabic_root": "جود",
+          "arabic_gloss": "يقابلها بجود وجيد.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -3443,7 +4303,11 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4479,
+        4480
+      ]
     },
     {
       "card_id": "KIE-N008-064",
@@ -3451,13 +4315,16 @@
       "language": "ancient-greek",
       "source_rows": [
         3519,
-        3520
+        3520,
+        4481,
+        4482
       ],
       "forms": [
         {
           "form": "hagios",
           "source_rows": [
-            3519
+            3519,
+            4481
           ],
           "branch_meanings": [
             "مقدس؛ قديسي"
@@ -3466,7 +4333,8 @@
         {
           "form": "hagio",
           "source_rows": [
-            3520
+            3520,
+            4482
           ],
           "branch_meanings": [
             "مقدس؛ قديسي"
@@ -3495,6 +4363,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 498
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hagios",
+          "foreign_sense": "مقدس",
+          "arabic_root": "حج",
+          "arabic_gloss": "يقابلها بحج وحاج.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hagio",
+          "foreign_sense": "مقدس",
+          "arabic_root": "حج",
+          "arabic_gloss": "يقابلها بحج وحاج.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -3520,7 +4410,11 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4481,
+        4482
+      ]
     },
     {
       "card_id": "KIE-N008-065",
@@ -3528,13 +4422,16 @@
       "language": "ancient-greek",
       "source_rows": [
         3521,
-        3522
+        3522,
+        4484,
+        4487
       ],
       "forms": [
         {
           "form": "hagiarchy",
           "source_rows": [
-            3521
+            3521,
+            4487
           ],
           "branch_meanings": [
             "مقدس؛ قديسي"
@@ -3543,7 +4440,8 @@
         {
           "form": "hagiolatry",
           "source_rows": [
-            3522
+            3522,
+            4484
           ],
           "branch_meanings": [
             "مقدس؛ قديسي"
@@ -3572,6 +4470,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 498
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hagiolatry",
+          "foreign_sense": "مقدس",
+          "arabic_root": "حج",
+          "arabic_gloss": "يقابلها بحج وحاج.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hagiarchy",
+          "foreign_sense": "مقدس",
+          "arabic_root": "حج",
+          "arabic_gloss": "يقابلها بحج وحاج.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -3597,20 +4517,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4484,
+        4487
+      ]
     },
     {
       "card_id": "KIE-N008-066",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3526
+        3526,
+        4483
       ],
       "forms": [
         {
           "form": "akros",
           "source_rows": [
-            3526
+            3526,
+            4483
           ],
           "branch_meanings": [
             "عال؛ مرتفع؛ طرفي"
@@ -3628,6 +4554,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "akros",
+          "foreign_sense": "عال؛ مرتفع",
+          "arabic_root": "وقر",
+          "arabic_gloss": "يردها إلى الجذر أقر ووقر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -3644,20 +4581,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4483
+      ]
     },
     {
       "card_id": "KIE-N008-067",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3527
+        3527,
+        4476
       ],
       "forms": [
         {
           "form": "acrodont",
           "source_rows": [
-            3527
+            3527,
+            4476
           ],
           "branch_meanings": [
             "عال؛ مرتفع؛ طرفي"
@@ -3675,6 +4617,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "acrodont",
+          "foreign_sense": "عال؛ مرتفع",
+          "arabic_root": "وقر",
+          "arabic_gloss": "يردها إلى الجذر أقر ووقر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -3691,20 +4644,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4476
+      ]
     },
     {
       "card_id": "KIE-N008-068",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3528
+        3528,
+        4468
       ],
       "forms": [
         {
           "form": "acropetal",
           "source_rows": [
-            3528
+            3528,
+            4468
           ],
           "branch_meanings": [
             "عال؛ مرتفع؛ طرفي"
@@ -3722,6 +4680,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "acropetal",
+          "foreign_sense": "عال؛ مرتفع",
+          "arabic_root": "وقر",
+          "arabic_gloss": "يردها إلى الجذر أقر ووقر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -3738,20 +4707,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4468
+      ]
     },
     {
       "card_id": "KIE-N008-069",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3529
+        3529,
+        4477
       ],
       "forms": [
         {
           "form": "Akrogyne",
           "source_rows": [
-            3529
+            3529,
+            4477
           ],
           "branch_meanings": [
             "عال؛ مرتفع؛ طرفي"
@@ -3769,6 +4743,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "akrogyne",
+          "foreign_sense": "عال؛ مرتفع",
+          "arabic_root": "وقر",
+          "arabic_gloss": "يردها إلى الجذر أقر ووقر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -3785,7 +4770,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4477
+      ]
     },
     {
       "card_id": "KIE-N008-070",
@@ -3793,7 +4781,8 @@
       "language": "ancient-greek",
       "source_rows": [
         3530,
-        3532
+        3532,
+        4473
       ],
       "forms": [
         {
@@ -3808,7 +4797,8 @@
         {
           "form": "enantiomorph",
           "source_rows": [
-            3532
+            3532,
+            4473
           ],
           "branch_meanings": [
             "ضد؛ مخالف"
@@ -3837,6 +4827,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "enantiomorph",
+          "foreign_sense": "ضد؛ مخالف",
+          "arabic_root": "عند",
+          "arabic_gloss": "يقابلها بعند وعناد.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -3862,7 +4863,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4473
+      ]
     },
     {
       "card_id": "KIE-N008-071",
@@ -3931,13 +4935,15 @@
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3533
+        3533,
+        4472
       ],
       "forms": [
         {
           "form": "isos",
           "source_rows": [
-            3533
+            3533,
+            4472
           ],
           "branch_meanings": [
             "مساو؛ مكافئ"
@@ -3955,6 +4961,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "isos",
+          "foreign_sense": "معادل؛ مكافئ",
+          "arabic_root": "سوي",
+          "arabic_gloss": "يقابلها بسوي وسواء ومساو.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -3971,20 +4988,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4472
+      ]
     },
     {
       "card_id": "KIE-N008-073",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3534
+        3534,
+        4470
       ],
       "forms": [
         {
           "form": "isoptera",
           "source_rows": [
-            3534
+            3534,
+            4470
           ],
           "branch_meanings": [
             "مساو؛ مكافئ"
@@ -4002,6 +5024,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "isoptera",
+          "foreign_sense": "معادل؛ مكافئ",
+          "arabic_root": "سوي",
+          "arabic_gloss": "يقابلها بسوي وسواء ومساو.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -4018,20 +5051,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4470
+      ]
     },
     {
       "card_id": "KIE-N008-074",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3535
+        3535,
+        4469
       ],
       "forms": [
         {
           "form": "isomerism",
           "source_rows": [
-            3535
+            3535,
+            4469
           ],
           "branch_meanings": [
             "مساو؛ مكافئ"
@@ -4049,6 +5087,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "isomerism",
+          "foreign_sense": "معادل؛ مكافئ",
+          "arabic_root": "سوي",
+          "arabic_gloss": "يقابلها بسوي وسواء ومساو.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -4065,20 +5114,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4469
+      ]
     },
     {
       "card_id": "KIE-N008-075",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3536
+        3536,
+        4475
       ],
       "forms": [
         {
           "form": "isosceles",
           "source_rows": [
-            3536
+            3536,
+            4475
           ],
           "branch_meanings": [
             "مساو؛ مكافئ"
@@ -4096,6 +5150,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "isosceles",
+          "foreign_sense": "معادل؛ مكافئ",
+          "arabic_root": "سوي",
+          "arabic_gloss": "يقابلها بسوي وسواء ومساو.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
         }
       ],
       "fan_reviews": [
@@ -4112,20 +5177,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4475
+      ]
     },
     {
       "card_id": "KIE-N008-076",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3537
+        3537,
+        4508
       ],
       "forms": [
         {
           "form": "kainos",
           "source_rows": [
-            3537
+            3537,
+            4508
           ],
           "branch_meanings": [
             "جديد؛ حديث"
@@ -4143,6 +5213,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kainos",
+          "foreign_sense": "جديد؛ حديث",
+          "arabic_root": "كون",
+          "arabic_gloss": "يردها إلى كون وكائن وتكون.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4159,20 +5240,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4508
+      ]
     },
     {
       "card_id": "KIE-N008-077",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3538
+        3538,
+        4504
       ],
       "forms": [
         {
           "form": "Eocene",
           "source_rows": [
-            3538
+            3538,
+            4504
           ],
           "branch_meanings": [
             "جديد؛ حديث"
@@ -4190,6 +5276,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "eocene",
+          "foreign_sense": "جديد؛ حديث",
+          "arabic_root": "كون",
+          "arabic_gloss": "يردها إلى كون وكائن وتكون.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4206,20 +5303,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4504
+      ]
     },
     {
       "card_id": "KIE-N008-078",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3539
+        3539,
+        4505
       ],
       "forms": [
         {
           "form": "Oligocene",
           "source_rows": [
-            3539
+            3539,
+            4505
           ],
           "branch_meanings": [
             "جديد؛ حديث"
@@ -4237,6 +5339,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "oligocene",
+          "foreign_sense": "جديد؛ حديث",
+          "arabic_root": "كون",
+          "arabic_gloss": "يردها إلى كون وكائن وتكون.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4253,7 +5366,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4505
+      ]
     },
     {
       "card_id": "KIE-N008-079",
@@ -4307,13 +5423,15 @@
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3541
+        3541,
+        4507
       ],
       "forms": [
         {
           "form": "koilos",
           "source_rows": [
-            3541
+            3541,
+            4507
           ],
           "branch_meanings": [
             "أجوف؛ جوف"
@@ -4331,6 +5449,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "koilos",
+          "foreign_sense": "أجوف؛ خال",
+          "arabic_root": "خلا",
+          "arabic_gloss": "يقابلها بخلا وخلو.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4347,7 +5476,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4507
+      ]
     },
     {
       "card_id": "KIE-N008-081",
@@ -4356,13 +5488,16 @@
       "source_rows": [
         3542,
         3543,
-        3544
+        3544,
+        4509,
+        4510
       ],
       "forms": [
         {
           "form": "coelom",
           "source_rows": [
-            3542
+            3542,
+            4509
           ],
           "branch_meanings": [
             "أجوف؛ جوف"
@@ -4380,7 +5515,8 @@
         {
           "form": "acoelous",
           "source_rows": [
-            3544
+            3544,
+            4510
           ],
           "branch_meanings": [
             "أجوف؛ جوف"
@@ -4420,6 +5556,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "coelom",
+          "foreign_sense": "أجوف؛ خال",
+          "arabic_root": "خلا",
+          "arabic_gloss": "يقابلها بخلا وخلو.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "acoelous",
+          "foreign_sense": "أجوف؛ خال",
+          "arabic_root": "خلا",
+          "arabic_gloss": "يقابلها بخلا وخلو.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4454,20 +5612,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4509,
+        4510
+      ]
     },
     {
       "card_id": "KIE-N008-082",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3545
+        3545,
+        4511
       ],
       "forms": [
         {
           "form": "kryos",
           "source_rows": [
-            3545
+            3545,
+            4511
           ],
           "branch_meanings": [
             "بارد؛ متجمد"
@@ -4485,6 +5649,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kryos",
+          "foreign_sense": "بارد؛ متجمد",
+          "arabic_root": "قرس",
+          "arabic_gloss": "يقابلها بقرس وقارس.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4501,20 +5676,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4511
+      ]
     },
     {
       "card_id": "KIE-N008-083",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3546
+        3546,
+        4512
       ],
       "forms": [
         {
           "form": "cryohydric",
           "source_rows": [
-            3546
+            3546,
+            4512
           ],
           "branch_meanings": [
             "بارد؛ متجمد"
@@ -4532,6 +5712,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 499
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "cryohydric",
+          "foreign_sense": "بارد؛ متجمد",
+          "arabic_root": "قرس",
+          "arabic_gloss": "يقابلها بقرس وقارس.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4548,7 +5739,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4512
+      ]
     },
     {
       "card_id": "KIE-N008-084",
@@ -4698,13 +5892,17 @@
       "source_rows": [
         3555,
         3556,
-        3558
+        3558,
+        4492,
+        4494,
+        4499
       ],
       "forms": [
         {
           "form": "nekros",
           "source_rows": [
-            3555
+            3555,
+            4492
           ],
           "branch_meanings": [
             "ميت؛ موت ونخر"
@@ -4713,7 +5911,8 @@
         {
           "form": "necro",
           "source_rows": [
-            3556
+            3556,
+            4494
           ],
           "branch_meanings": [
             "ميت؛ موت ونخر"
@@ -4722,7 +5921,8 @@
         {
           "form": "necrosis",
           "source_rows": [
-            3558
+            3558,
+            4499
           ],
           "branch_meanings": [
             "ميت؛ موت ونخر"
@@ -4762,6 +5962,39 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "nekros",
+          "foreign_sense": "ميت",
+          "arabic_root": "نخر",
+          "arabic_gloss": "يقابلها بنخر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "necro",
+          "foreign_sense": "ميت",
+          "arabic_root": "نخر",
+          "arabic_gloss": "يقابلها بنخر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "necrosis",
+          "foreign_sense": "ميت",
+          "arabic_root": "نخر",
+          "arabic_gloss": "يقابلها بنخر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4796,20 +6029,27 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4492,
+        4494,
+        4499
+      ]
     },
     {
       "card_id": "KIE-N008-088",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3557
+        3557,
+        4493
       ],
       "forms": [
         {
           "form": "necromancy",
           "source_rows": [
-            3557
+            3557,
+            4493
           ],
           "branch_meanings": [
             "ميت؛ موت ونخر"
@@ -4827,6 +6067,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "necromancy",
+          "foreign_sense": "ميت",
+          "arabic_root": "نخر",
+          "arabic_gloss": "يقابلها بنخر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4843,20 +6094,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4493
+      ]
     },
     {
       "card_id": "KIE-N008-089",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3559
+        3559,
+        4495
       ],
       "forms": [
         {
           "form": "palaios",
           "source_rows": [
-            3559
+            3559,
+            4495
           ],
           "branch_meanings": [
             "قديم؛ عتيق"
@@ -4874,6 +6130,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "palaios",
+          "foreign_sense": "قديم؛ عتيق",
+          "arabic_root": "بلي",
+          "arabic_gloss": "يقابلها ببلي وبال.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4890,20 +6157,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4495
+      ]
     },
     {
       "card_id": "KIE-N008-090",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3560
+        3560,
+        4498
       ],
       "forms": [
         {
           "form": "palaeography",
           "source_rows": [
-            3560
+            3560,
+            4498
           ],
           "branch_meanings": [
             "قديم؛ عتيق"
@@ -4921,6 +6193,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "palaeography",
+          "foreign_sense": "قديم؛ عتيق",
+          "arabic_root": "بلي",
+          "arabic_gloss": "يقابلها ببلي وبال.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -4937,7 +6220,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4498
+      ]
     },
     {
       "card_id": "KIE-N008-091",
@@ -4945,13 +6231,16 @@
       "language": "ancient-greek",
       "source_rows": [
         3561,
-        3562
+        3562,
+        4497,
+        4500
       ],
       "forms": [
         {
           "form": "palaeolithic",
           "source_rows": [
-            3561
+            3561,
+            4497
           ],
           "branch_meanings": [
             "قديم؛ عتيق"
@@ -4960,7 +6249,8 @@
         {
           "form": "palaeozoic",
           "source_rows": [
-            3562
+            3562,
+            4500
           ],
           "branch_meanings": [
             "قديم؛ عتيق"
@@ -4989,6 +6279,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "palaeolithic",
+          "foreign_sense": "قديم؛ عتيق",
+          "arabic_root": "بلي",
+          "arabic_gloss": "يقابلها ببلي وبال.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "palaeozoic",
+          "foreign_sense": "قديم؛ عتيق",
+          "arabic_root": "بلي",
+          "arabic_gloss": "يقابلها ببلي وبال.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
         }
       ],
       "fan_reviews": [
@@ -5014,20 +6326,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4497,
+        4500
+      ]
     },
     {
       "card_id": "KIE-N008-092",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3563
+        3563,
+        4526
       ],
       "forms": [
         {
           "form": "platos",
           "source_rows": [
-            3563
+            3563,
+            4526
           ],
           "branch_meanings": [
             "مسطح؛ سهل"
@@ -5045,6 +6363,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "platos",
+          "foreign_sense": "مسطح؛ سهل",
+          "arabic_root": "بلط",
+          "arabic_gloss": "يقابلها ببلط وبلاط.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5061,20 +6390,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4526
+      ]
     },
     {
       "card_id": "KIE-N008-093",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3564
+        3564,
+        4527
       ],
       "forms": [
         {
           "form": "amphiplatian",
           "source_rows": [
-            3564
+            3564,
+            4527
           ],
           "branch_meanings": [
             "مسطح؛ سهل"
@@ -5092,6 +6426,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "amphiplatian",
+          "foreign_sense": "مسطح؛ سهل",
+          "arabic_root": "بلط",
+          "arabic_gloss": "يقابلها ببلط وبلاط.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5108,20 +6453,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4527
+      ]
     },
     {
       "card_id": "KIE-N008-094",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3565
+        3565,
+        4528
       ],
       "forms": [
         {
           "form": "Platyhelminthes",
           "source_rows": [
-            3565
+            3565,
+            4528
           ],
           "branch_meanings": [
             "مسطح؛ سهل"
@@ -5139,6 +6489,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "platyhelminthes",
+          "foreign_sense": "مسطح؛ سهل",
+          "arabic_root": "بلط",
+          "arabic_gloss": "يقابلها ببلط وبلاط.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5155,7 +6516,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4528
+      ]
     },
     {
       "card_id": "KIE-N008-095",
@@ -5163,13 +6527,15 @@
       "language": "ancient-greek",
       "source_rows": [
         3566,
-        3567
+        3567,
+        4529
       ],
       "forms": [
         {
           "form": "phaneros",
           "source_rows": [
-            3566
+            3566,
+            4529
           ],
           "branch_meanings": [
             "مرئي؛ ظاهر"
@@ -5207,6 +6573,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "phaneros",
+          "foreign_sense": "مرئي؛ ظاهر",
+          "arabic_root": "بان",
+          "arabic_gloss": "يقابلها ببان يبين.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5232,20 +6609,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4529
+      ]
     },
     {
       "card_id": "KIE-N008-096",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3568
+        3568,
+        4524
       ],
       "forms": [
         {
           "form": "phanerocephala",
           "source_rows": [
-            3568
+            3568,
+            4524
           ],
           "branch_meanings": [
             "مرئي؛ ظاهر"
@@ -5263,6 +6645,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "phanerocephala",
+          "foreign_sense": "مرئي؛ ظاهر",
+          "arabic_root": "بان",
+          "arabic_gloss": "يقابلها ببان يبين.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5279,7 +6672,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4524
+      ]
     },
     {
       "card_id": "KIE-N008-097",
@@ -5288,7 +6684,8 @@
       "source_rows": [
         3569,
         3570,
-        3572
+        3572,
+        4525
       ],
       "forms": [
         {
@@ -5303,7 +6700,8 @@
         {
           "form": "erythrocyte",
           "source_rows": [
-            3570
+            3570,
+            4525
           ],
           "branch_meanings": [
             "أحمر؛ مصطلحات الحمرة"
@@ -5352,6 +6750,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "erythrocyte",
+          "foreign_sense": "أحمر",
+          "arabic_root": "ورد",
+          "arabic_gloss": "يقابلها بورد، الأحمر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5386,7 +6795,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4525
+      ]
     },
     {
       "card_id": "KIE-N008-098",
@@ -5440,13 +6852,15 @@
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3574
+        3574,
+        4523
       ],
       "forms": [
         {
           "form": "leucocyte",
           "source_rows": [
-            3574
+            3574,
+            4523
           ],
           "branch_meanings": [
             "أبيض؛ مصطلحات البياض"
@@ -5464,6 +6878,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "leucocyte",
+          "foreign_sense": "أبيض؛ لامع",
+          "arabic_root": "ألق",
+          "arabic_gloss": "يقابلها بألق وتألق.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5480,20 +6905,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4523
+      ]
     },
     {
       "card_id": "KIE-N008-100",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3575
+        3575,
+        4514
       ],
       "forms": [
         {
           "form": "Leucosolenia",
           "source_rows": [
-            3575
+            3575,
+            4514
           ],
           "branch_meanings": [
             "أبيض؛ مصطلحات البياض"
@@ -5511,6 +6941,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 500
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "leucosolenia",
+          "foreign_sense": "أبيض؛ لامع",
+          "arabic_root": "ألق",
+          "arabic_gloss": "يقابلها بألق وتألق.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5527,20 +6968,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4514
+      ]
     },
     {
       "card_id": "KIE-N008-101",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3576
+        3576,
+        4522
       ],
       "forms": [
         {
           "form": "kuanos",
           "source_rows": [
-            3576
+            3576,
+            4522
           ],
           "branch_meanings": [
             "أزرق؛ أصفر؛ مصطلحات اللون"
@@ -5558,6 +7004,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 501
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kuanos",
+          "foreign_sense": "أزرق؛ أصفر",
+          "arabic_root": "قنا",
+          "arabic_gloss": "يردهما إلى قنا أو جون مع اختلاف دلالات اللون.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5574,20 +7031,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4522
+      ]
     },
     {
       "card_id": "KIE-N008-102",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3577
+        3577,
+        4521
       ],
       "forms": [
         {
           "form": "xanthos",
           "source_rows": [
-            3577
+            3577,
+            4521
           ],
           "branch_meanings": [
             "أزرق؛ أصفر؛ مصطلحات اللون"
@@ -5605,6 +7067,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 501
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "xanthos",
+          "foreign_sense": "أزرق؛ أصفر",
+          "arabic_root": "قنا",
+          "arabic_gloss": "يردهما إلى قنا أو جون مع اختلاف دلالات اللون.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5621,20 +7094,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4521
+      ]
     },
     {
       "card_id": "KIE-N008-103",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3578
+        3578,
+        4519
       ],
       "forms": [
         {
           "form": "cyanosis",
           "source_rows": [
-            3578
+            3578,
+            4519
           ],
           "branch_meanings": [
             "أزرق؛ أصفر؛ مصطلحات اللون"
@@ -5652,6 +7130,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 501
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "cyanosis",
+          "foreign_sense": "أزرق؛ أصفر",
+          "arabic_root": "قنا",
+          "arabic_gloss": "يردهما إلى قنا أو جون مع اختلاف دلالات اللون.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5668,20 +7157,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4519
+      ]
     },
     {
       "card_id": "KIE-N008-104",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3579
+        3579,
+        4520
       ],
       "forms": [
         {
           "form": "xanthoderma",
           "source_rows": [
-            3579
+            3579,
+            4520
           ],
           "branch_meanings": [
             "أزرق؛ أصفر؛ مصطلحات اللون"
@@ -5699,6 +7193,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 501
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "xanthoderma",
+          "foreign_sense": "أزرق؛ أصفر",
+          "arabic_root": "قنا",
+          "arabic_gloss": "يردهما إلى قنا أو جون مع اختلاف دلالات اللون.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5715,7 +7220,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4520
+      ]
     },
     {
       "card_id": "KIE-N008-105",
@@ -5723,13 +7231,16 @@
       "language": "ancient-greek",
       "source_rows": [
         3580,
-        3583
+        3583,
+        4517,
+        4518
       ],
       "forms": [
         {
           "form": "gameo",
           "source_rows": [
-            3580
+            3580,
+            4518
           ],
           "branch_meanings": [
             "تزوج؛ اقترن؛ زواج"
@@ -5738,7 +7249,8 @@
         {
           "form": "gamete",
           "source_rows": [
-            3583
+            3583,
+            4517
           ],
           "branch_meanings": [
             "تزوج؛ اقترن؛ زواج"
@@ -5767,6 +7279,28 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 501
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "gamete",
+          "foreign_sense": "تزوج؛ اقترن",
+          "arabic_root": "جمع",
+          "arabic_gloss": "يقابلها بجمع وجامع.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "gameo",
+          "foreign_sense": "تزوج؛ اقترن",
+          "arabic_root": "جمع",
+          "arabic_gloss": "يقابلها بجمع وجامع.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5792,20 +7326,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4517,
+        4518
+      ]
     },
     {
       "card_id": "KIE-N008-106",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3581
+        3581,
+        4515
       ],
       "forms": [
         {
           "form": "polygamy",
           "source_rows": [
-            3581
+            3581,
+            4515
           ],
           "branch_meanings": [
             "تزوج؛ اقترن؛ زواج"
@@ -5823,6 +7363,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 501
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "polygamy",
+          "foreign_sense": "تزوج؛ اقترن",
+          "arabic_root": "جمع",
+          "arabic_gloss": "يقابلها بجمع وجامع.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5839,20 +7390,25 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4515
+      ]
     },
     {
       "card_id": "KIE-N008-107",
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        3582
+        3582,
+        4516
       ],
       "forms": [
         {
           "form": "monogamy",
           "source_rows": [
-            3582
+            3582,
+            4516
           ],
           "branch_meanings": [
             "تزوج؛ اقترن؛ زواج"
@@ -5870,6 +7426,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 501
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "monogamy",
+          "foreign_sense": "تزوج؛ اقترن",
+          "arabic_root": "جمع",
+          "arabic_gloss": "يقابلها بجمع وجامع.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 139
         }
       ],
       "fan_reviews": [
@@ -5886,7 +7453,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4516
+      ]
     },
     {
       "card_id": "KIE-N008-108",
@@ -6566,7 +8136,8 @@
       "source_rows": [
         3602,
         3603,
-        3604
+        3604,
+        4114
       ],
       "forms": [
         {
@@ -6581,7 +8152,8 @@
         {
           "form": "meter",
           "source_rows": [
-            3603
+            3603,
+            4114
           ],
           "branch_meanings": [
             "قاس؛ مقياس"
@@ -6630,6 +8202,17 @@
           "source": "ocr-khashim-journey1",
           "book": "khashim-journey1",
           "page": 502
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "meter",
+          "foreign_sense": "قياس",
+          "arabic_root": "متر",
+          "arabic_gloss": "يقابل meter بمتر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 117
         }
       ],
       "fan_reviews": [
@@ -6664,7 +8247,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4114
+      ]
     },
     {
       "card_id": "KIE-N008-122",
@@ -33003,13 +34589,15 @@
       "batch": 8,
       "language": "ancient-greek",
       "source_rows": [
-        4093
+        4093,
+        4239
       ],
       "forms": [
         {
           "form": "hydrogen",
           "source_rows": [
-            4093
+            4093,
+            4239
           ],
           "branch_meanings": [
             "مولود؛ مكون"
@@ -33027,6 +34615,17 @@
           "source": "ocr-khashim-emperors",
           "book": "khashim-emperors",
           "page": 114
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hydrogen",
+          "foreign_sense": "ماء",
+          "arabic_root": "خضر",
+          "arabic_gloss": "يقابلها بخضر وخضرم وخضم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 125
         }
       ],
       "fan_reviews": [
@@ -33043,7 +34642,10 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "cross_book_supplement_rows": [
+        4239
+      ]
     },
     {
       "card_id": "KIE-N008-224",

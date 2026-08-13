@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 41479,
+  "cards_total": 41769,
   "by_language": [
    {
     "key": "old-latin",
@@ -73,6 +73,17 @@
     "nucleus_share": 32.6
    },
    {
+    "key": "ancient-greek",
+    "en": "Ancient Greek",
+    "ar": "اليونانيّة القديمة",
+    "cards": 1825,
+    "links": 23,
+    "root": 14,
+    "nucleus": 9,
+    "floor": 0,
+    "nucleus_share": 39.1
+   },
+   {
     "key": "akkadian",
     "en": "Akkadian",
     "ar": "الأكّاديّة",
@@ -82,17 +93,6 @@
     "nucleus": 41,
     "floor": 0,
     "nucleus_share": 12.2
-   },
-   {
-    "key": "ancient-greek",
-    "en": "Ancient Greek",
-    "ar": "اليونانيّة القديمة",
-    "cards": 1785,
-    "links": 23,
-    "root": 14,
-    "nucleus": 9,
-    "floor": 0,
-    "nucleus_share": 39.1
    },
    {
     "key": "aramaic",
@@ -142,12 +142,12 @@
     "key": "phoenician-punic-scout",
     "en": "Phoenician scout",
     "ar": "مسحُ الفينيقيّة",
-    "cards": 305,
-    "links": 16,
-    "root": 15,
-    "nucleus": 1,
+    "cards": 461,
+    "links": 21,
+    "root": 19,
+    "nucleus": 2,
     "floor": 0,
-    "nucleus_share": 6.2
+    "nucleus_share": 9.5
    },
    {
     "key": "gothic",
@@ -161,6 +161,17 @@
     "nucleus_share": 41.7
    },
    {
+    "key": "punic",
+    "en": "Punic",
+    "ar": "البونيقيّة",
+    "cards": 285,
+    "links": 14,
+    "root": 14,
+    "nucleus": 0,
+    "floor": 0,
+    "nucleus_share": 0.0
+   },
+   {
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
@@ -170,32 +181,21 @@
     "nucleus": 6,
     "floor": 0,
     "nucleus_share": 28.6
-   },
-   {
-    "key": "punic",
-    "en": "Punic",
-    "ar": "البونيقيّة",
-    "cards": 191,
-    "links": 10,
-    "root": 10,
-    "nucleus": 0,
-    "floor": 0,
-    "nucleus_share": 0.0
    }
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3338,
-  "closures": 979,
+  "links_to_arabic": 3347,
+  "closures": 1007,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1782,
+    "count": 1790,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 903,
+    "count": 904,
     "link": true
    },
    {
@@ -240,7 +240,7 @@
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 36,
+    "count": 64,
     "link": false
    },
    {
@@ -261,13 +261,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 37695,
-  "suspended": 29846,
-  "released": 7849,
+  "cards_total": 37985,
+  "suspended": 30099,
+  "released": 7886,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 20052
+    "count": 20305
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -321,7 +321,7 @@
    },
    {
     "file": "ancient-greek.md",
-    "count": 1378
+    "count": 1418
    },
    {
     "file": "middle-english.md",
@@ -336,12 +336,12 @@
     "count": 378
    },
    {
-    "file": "gothic.md",
-    "count": 209
+    "file": "phoenician-punic-scout.md",
+    "count": 293
    },
    {
-    "file": "old-norse.md",
-    "count": 161
+    "file": "gothic.md",
+    "count": 209
    }
   ]
  },

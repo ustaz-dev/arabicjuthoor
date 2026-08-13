@@ -1,0 +1,4112 @@
+{
+  "schema": "khashim-indo-european-continuation-v1.0",
+  "date": "2026-08-13",
+  "source_author": "علي فهمي خشيم",
+  "source_books": [
+    "khashim-journey1",
+    "khashim-emperors"
+  ],
+  "layer": "exploration",
+  "batch": 9,
+  "selection": {
+    "raw_rows": 300,
+    "first_global_row": 4096,
+    "last_global_row": 4529,
+    "tongues": "ancient Greek source material",
+    "already_processed_rows_excluded": 2730,
+    "new_source_rows": 44,
+    "cross_book_supplements": 256
+  },
+  "merge_policy": {
+    "same_named_claim_form_similarity_minimum": 0.7,
+    "explicit_lexical_families": [
+      [
+        4364,
+        4365,
+        4366
+      ],
+      [
+        4418,
+        4426
+      ]
+    ],
+    "exact_form_cross_book_merge": "same language and lexical identity",
+    "snapshot_absence": "never a judgment condition",
+    "judgment_legs": [
+      "named sound route",
+      "frozen event",
+      "branch meaning with human-written orbit"
+    ]
+  },
+  "cards_written": 40,
+  "positive_cards": 0,
+  "positive_traces": 0,
+  "open_candidate": 40,
+  "empty_fan_cards": 40,
+  "by_language": {
+    "ancient-greek": 40
+  },
+  "source_rows_by_language": {
+    "ancient-greek": 300
+  },
+  "rank_review": {
+    "method": "F.rank",
+    "ranked_candidates": 0,
+    "nonzero_weights": 0,
+    "all_weights_zero": true,
+    "fan_with_dialect_additions": 0,
+    "policy": "weight orders display and never judges; Latin-letter transliteration under Greek source attribution was not reassigned to Latin merely to force candidates"
+  },
+  "supplements": [
+    {
+      "source_row_index": 4114,
+      "target_card_id": "KIE-N008-121",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "meter",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4115,
+      "target_card_id": "KIE-N007-133",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "topography",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4116,
+      "target_card_id": "KIE-N007-153",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "anemometer",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4120,
+      "target_card_id": "KIE-N007-090",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "ectogenesis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4121,
+      "target_card_id": "KIE-N007-088",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "archetype",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4122,
+      "target_card_id": "KIE-N007-089",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "archaic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4123,
+      "target_card_id": "KIE-N007-088",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "arche",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4124,
+      "target_card_id": "KIE-N007-090",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "genesis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4125,
+      "target_card_id": "KIE-N007-087",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "aesthetic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4126,
+      "target_card_id": "KIE-N007-087",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "aesthesis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4127,
+      "target_card_id": "KIE-N007-086",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "kudos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4128,
+      "target_card_id": "KIE-N007-085",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "acme",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4129,
+      "target_card_id": "KIE-N007-087",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "anaesthesia",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4131,
+      "target_card_id": "KIE-N007-106",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "autoerotic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4132,
+      "target_card_id": "KIE-N007-105",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "eros",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4134,
+      "target_card_id": "KIE-N007-104",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "energy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4135,
+      "target_card_id": "KIE-N007-103",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "ergon",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4136,
+      "target_card_id": "KIE-N007-106",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "erotic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4137,
+      "target_card_id": "KIE-N007-102",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "epic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4138,
+      "target_card_id": "KIE-N007-101",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "epos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4140,
+      "target_card_id": "KIE-N007-095",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "gonad",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4142,
+      "target_card_id": "KIE-N007-098",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "gyrate",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4143,
+      "target_card_id": "KIE-N007-097",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "gyros",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4144,
+      "target_card_id": "KIE-N007-096",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "opisthogoneate",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4145,
+      "target_card_id": "KIE-N007-094",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "gone",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4146,
+      "target_card_id": "KIE-N007-093",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "photogenic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4147,
+      "target_card_id": "KIE-N007-092",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "genealogy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4149,
+      "target_card_id": "KIE-N007-091",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "genos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4150,
+      "target_card_id": "KIE-N007-100",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "dynamis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4152,
+      "target_card_id": "KIE-N007-116",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "amphimixis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4153,
+      "target_card_id": "KIE-N007-117",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "musike",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4154,
+      "target_card_id": "KIE-N007-118",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "musician",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4155,
+      "target_card_id": "KIE-N007-115",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "mixis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4156,
+      "target_card_id": "KIE-N007-119",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "sarcastic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4157,
+      "target_card_id": "KIE-N007-119",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "sarcasm",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4158,
+      "target_card_id": "KIE-N007-120",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "sema",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4159,
+      "target_card_id": "KIE-N007-121",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "semantics",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4160,
+      "target_card_id": "KIE-N007-114",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "method",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4161,
+      "target_card_id": "KIE-N007-119",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "sarkasmos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4162,
+      "target_card_id": "KIE-N007-114",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "methodos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4163,
+      "target_card_id": "KIE-N007-112",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "eulogy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4164,
+      "target_card_id": "KIE-N007-113",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "logarithm",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4165,
+      "target_card_id": "KIE-N007-107",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "istoria",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4167,
+      "target_card_id": "KIE-N007-108",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "cubos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4168,
+      "target_card_id": "KIE-N007-109",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "cubical",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4170,
+      "target_card_id": "KIE-N007-110",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "loga",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4172,
+      "target_card_id": "KIE-N007-111",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "apology",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4173,
+      "target_card_id": "KIE-N007-111",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "analogy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4177,
+      "target_card_id": "KIE-N007-131",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "pyrotechnic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4178,
+      "target_card_id": "KIE-M0154",
+      "target_batch": 2,
+      "language": "ancient-greek",
+      "form": "tekhne",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4179,
+      "target_card_id": "KIE-N007-130",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "amphoteric",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4180,
+      "target_card_id": "KIE-N007-129",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "teras",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4181,
+      "target_card_id": "KIE-N007-128",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "philosophy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4183,
+      "target_card_id": "KIE-N007-127",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "stigmata",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4184,
+      "target_card_id": "KIE-N007-127",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "stigma",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4185,
+      "target_card_id": "KIE-N007-126",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "epistatic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4186,
+      "target_card_id": "KIE-N007-125",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "ecstasy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4187,
+      "target_card_id": "KIE-N007-124",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "apostasy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4188,
+      "target_card_id": "KIE-N007-123",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "statolith",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4189,
+      "target_card_id": "KIE-N007-122",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "stasis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4191,
+      "target_card_id": "KIE-N007-141",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "antiphony",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4192,
+      "target_card_id": "KIE-N007-143",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "chronon",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4193,
+      "target_card_id": "KIE-N007-145",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "chronometer",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4194,
+      "target_card_id": "KIE-N007-144",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "synchronize",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4195,
+      "target_card_id": "KIE-N007-143",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "chronology",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4196,
+      "target_card_id": "KIE-N007-146",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "agros",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4197,
+      "target_card_id": "KIE-N007-149",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "aeroplane",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4199,
+      "target_card_id": "KIE-N007-151",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "aerial",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4200,
+      "target_card_id": "KIE-N007-150",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "aerobic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4201,
+      "target_card_id": "KIE-N007-148",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "aerotropism",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4202,
+      "target_card_id": "KIE-N007-147",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "agronomy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4204,
+      "target_card_id": "KIE-N007-142",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "gramophone",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4205,
+      "target_card_id": "KIE-N007-140",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "phone",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4207,
+      "target_card_id": "KIE-N007-133",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "topography",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4208,
+      "target_card_id": "KIE-N007-140",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "phonetics",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4209,
+      "target_card_id": "KIE-N007-132",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "topical",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4210,
+      "target_card_id": "KIE-N007-134",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "trope",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4211,
+      "target_card_id": "KIE-N007-135",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "heliotropism",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4212,
+      "target_card_id": "KIE-N007-132",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "ectopic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4213,
+      "target_card_id": "KIE-N007-135",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "geotropism",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4215,
+      "target_card_id": "KIE-N007-139",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "typical",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4216,
+      "target_card_id": "KIE-N007-138",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "typography",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4217,
+      "target_card_id": "KIE-N007-137",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "typewriter",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4218,
+      "target_card_id": "KIE-N007-136",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "entropy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4219,
+      "target_card_id": "KIE-N007-156",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "ephemeral",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4220,
+      "target_card_id": "KIE-N007-156",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "hemera",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4226,
+      "target_card_id": "KIE-N007-155",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "zaphyros",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4234,
+      "target_card_id": "KIE-N007-154",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "anemophilous",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4235,
+      "target_card_id": "KIE-N007-152",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "anemos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4239,
+      "target_card_id": "KIE-N008-223",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "hydrogen",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4255,
+      "target_card_id": "KIE-N007-158",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "thalassoplancta",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4256,
+      "target_card_id": "KIE-N007-157",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "thalassa",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4260,
+      "target_card_id": "KIE-N007-170",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "plax",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4261,
+      "target_card_id": "KIE-N007-167",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "thecophore",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4262,
+      "target_card_id": "KIE-N007-173",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "placophora",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4263,
+      "target_card_id": "KIE-N007-172",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "placoid",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4264,
+      "target_card_id": "KIE-N007-169",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "gonotheca",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4265,
+      "target_card_id": "KIE-N007-171",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "plakos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4266,
+      "target_card_id": "KIE-N007-168",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "blastotheca",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4267,
+      "target_card_id": "KIE-N007-162",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "disk",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4268,
+      "target_card_id": "KIE-N007-166",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "theka",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4269,
+      "target_card_id": "KIE-N007-165",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "zone",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4270,
+      "target_card_id": "KIE-N007-164",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "cephalodiscus",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4271,
+      "target_card_id": "KIE-N007-163",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "discoglossa",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4272,
+      "target_card_id": "KIE-N007-162",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "diskos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4273,
+      "target_card_id": "KIE-N007-160",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "ascomycetes",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4274,
+      "target_card_id": "KIE-N007-161",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "ascidian",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4275,
+      "target_card_id": "KIE-N007-159",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "askos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4278,
+      "target_card_id": "KIE-N007-181",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "kolla",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4279,
+      "target_card_id": "KIE-N007-180",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "elektron",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4280,
+      "target_card_id": "KIE-N007-183",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "collencyte",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4281,
+      "target_card_id": "KIE-N007-183",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "collenchyma",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4286,
+      "target_card_id": "KIE-N007-174",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "schole",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4287,
+      "target_card_id": "KIE-N007-174",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "scholastic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4288,
+      "target_card_id": "KIE-N007-174",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "scholar",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4294,
+      "target_card_id": "KIE-N007-176",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "epitaph",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4295,
+      "target_card_id": "KIE-N007-189",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "archon",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4296,
+      "target_card_id": "KIE-N007-194",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "gynaecology",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4297,
+      "target_card_id": "KIE-N007-195",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "epigynous",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4298,
+      "target_card_id": "KIE-N007-196",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "polygyny",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4299,
+      "target_card_id": "KIE-N007-193",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "gyne",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4300,
+      "target_card_id": "KIE-N007-192",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "monarch",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4301,
+      "target_card_id": "KIE-N007-191",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "heptarchy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4303,
+      "target_card_id": "KIE-N007-187",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "androgynous",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4305,
+      "target_card_id": "KIE-N007-188",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "polyandry",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4307,
+      "target_card_id": "KIE-N007-184",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "Margaret",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4308,
+      "target_card_id": "KIE-N007-184",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "margarites",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4309,
+      "target_card_id": "KIE-N007-186",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "androecium",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4310,
+      "target_card_id": "KIE-N007-203",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "critic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4311,
+      "target_card_id": "KIE-N007-203",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "criticism",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4313,
+      "target_card_id": "KIE-N007-204",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "hypercritical",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4317,
+      "target_card_id": "KIE-N007-202",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "krites",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4319,
+      "target_card_id": "KIE-N007-200",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "klyptos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4321,
+      "target_card_id": "KIE-N007-199",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "dynastos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4322,
+      "target_card_id": "KIE-N007-197",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "democracy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4323,
+      "target_card_id": "KIE-N007-197",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "demography",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4324,
+      "target_card_id": "KIE-N007-198",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "endemic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4325,
+      "target_card_id": "KIE-N007-198",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "epidemic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4327,
+      "target_card_id": "KIE-N007-201",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "kleptomania",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4328,
+      "target_card_id": "KIE-N007-211",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "corymorpha",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4329,
+      "target_card_id": "KIE-N007-213",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "xiphos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4330,
+      "target_card_id": "KIE-N007-212",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "corydendrium",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4331,
+      "target_card_id": "KIE-N007-213",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "xiphias",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4332,
+      "target_card_id": "KIE-N007-211",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "corylophidae",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4337,
+      "target_card_id": "KIE-N007-213",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "xiphosura",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4338,
+      "target_card_id": "KIE-N007-210",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "korys",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4340,
+      "target_card_id": "KIE-N007-208",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "metathorax",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4341,
+      "target_card_id": "KIE-N007-209",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "thyreos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4342,
+      "target_card_id": "KIE-N007-208",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "thorax",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4345,
+      "target_card_id": "KIE-N007-208",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "thoracic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4346,
+      "target_card_id": "KIE-N007-207",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "phemi",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4347,
+      "target_card_id": "KIE-N007-205",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "prophet",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4348,
+      "target_card_id": "KIE-N007-205",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "prophetes",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4357,
+      "target_card_id": "KIE-N008-002",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "hierarchy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4358,
+      "target_card_id": "KIE-N008-003",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "papyro",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4361,
+      "target_card_id": "KIE-N007-214",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "phonogram",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4367,
+      "target_card_id": "KIE-N007-216",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "epigram",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4368,
+      "target_card_id": "KIE-N007-215",
+      "target_batch": 7,
+      "language": "ancient-greek",
+      "form": "telegram",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4371,
+      "target_card_id": "KIE-N008-013",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "kranion",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4372,
+      "target_card_id": "KIE-N008-015",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "chondrocranium",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4373,
+      "target_card_id": "KIE-N008-014",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "craniata",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4374,
+      "target_card_id": "KIE-N008-012",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "corea",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4375,
+      "target_card_id": "KIE-N008-016",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "kystos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4376,
+      "target_card_id": "KIE-N008-017",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "cystitis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4377,
+      "target_card_id": "KIE-N008-014",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "cranial",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4378,
+      "target_card_id": "KIE-N008-011",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "kore",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4379,
+      "target_card_id": "KIE-N008-018",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "nematocyst",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4380,
+      "target_card_id": "KIE-N008-010",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "cephalopoda",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4381,
+      "target_card_id": "KIE-N008-008",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "kephale",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4382,
+      "target_card_id": "KIE-N008-006",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "thyreodectomy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4383,
+      "target_card_id": "KIE-N008-007",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "hypophysectomy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4387,
+      "target_card_id": "KIE-N008-009",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "acephalic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4393,
+      "target_card_id": "KIE-N008-030",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "stoma",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4394,
+      "target_card_id": "KIE-N008-029",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "pyrexia",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4396,
+      "target_card_id": "KIE-N008-030",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "stomata",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4397,
+      "target_card_id": "KIE-N008-030",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "stomach",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4400,
+      "target_card_id": "KIE-N008-028",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "antipyretic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4401,
+      "target_card_id": "KIE-N008-024",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "anura",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4402,
+      "target_card_id": "KIE-N008-019",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "myxa",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4404,
+      "target_card_id": "KIE-N008-021",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "myxococcus",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4406,
+      "target_card_id": "KIE-N008-022",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "neurosis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4407,
+      "target_card_id": "KIE-N008-020",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "myxomycetes",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4408,
+      "target_card_id": "KIE-N008-024",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "ura",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4410,
+      "target_card_id": "KIE-N008-025",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "urostyle",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4411,
+      "target_card_id": "KIE-N008-026",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "ophiura",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4412,
+      "target_card_id": "KIE-N008-023",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "neural",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4413,
+      "target_card_id": "KIE-N008-036",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "elk",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4414,
+      "target_card_id": "KIE-N008-037",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "lykos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4415,
+      "target_card_id": "KIE-N008-035",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "lagos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4419,
+      "target_card_id": "KIE-N008-031",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "ther",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4420,
+      "target_card_id": "KIE-N008-032",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "taurus",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4427,
+      "target_card_id": "KIE-N008-044",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "anemone",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4428,
+      "target_card_id": "KIE-N008-047",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "calamite",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4429,
+      "target_card_id": "KIE-N008-048",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "calamary",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4430,
+      "target_card_id": "KIE-N008-049",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "chalamoichthyes",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4431,
+      "target_card_id": "KIE-N008-046",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "kalamos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4432,
+      "target_card_id": "KIE-N008-045",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "thymus",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4433,
+      "target_card_id": "KIE-N008-045",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "thyme",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4434,
+      "target_card_id": "KIE-N008-045",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "thymos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4436,
+      "target_card_id": "KIE-N008-039",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "ophicleide",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4438,
+      "target_card_id": "KIE-N008-043",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "tauromachy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4439,
+      "target_card_id": "KIE-N008-042",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "tauros",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4441,
+      "target_card_id": "KIE-N008-041",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "scorpion",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4443,
+      "target_card_id": "KIE-N008-040",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "ophidian",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4444,
+      "target_card_id": "KIE-N008-038",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "ophite",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4445,
+      "target_card_id": "KIE-N008-038",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "ophis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4461,
+      "target_card_id": "KIE-N008-050",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "linon",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4464,
+      "target_card_id": "KIE-N008-052",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "myxoedema",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4467,
+      "target_card_id": "KIE-N008-051",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "mykos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4468,
+      "target_card_id": "KIE-N008-068",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "acropetal",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4469,
+      "target_card_id": "KIE-N008-074",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "isomerism",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4470,
+      "target_card_id": "KIE-N008-073",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "isoptera",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4472,
+      "target_card_id": "KIE-N008-072",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "isos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4473,
+      "target_card_id": "KIE-N008-070",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "enantiomorph",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4475,
+      "target_card_id": "KIE-N008-075",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "isosceles",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4476,
+      "target_card_id": "KIE-N008-067",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "acrodont",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4477,
+      "target_card_id": "KIE-N008-069",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "akrogyne",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4479,
+      "target_card_id": "KIE-N008-063",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "agathos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4480,
+      "target_card_id": "KIE-N008-063",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "Agatha",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4481,
+      "target_card_id": "KIE-N008-064",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "hagios",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4482,
+      "target_card_id": "KIE-N008-064",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "hagio",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4483,
+      "target_card_id": "KIE-N008-066",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "akros",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4484,
+      "target_card_id": "KIE-N008-065",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "hagiolatry",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4487,
+      "target_card_id": "KIE-N008-065",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "hagiarchy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4492,
+      "target_card_id": "KIE-N008-087",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "nekros",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4493,
+      "target_card_id": "KIE-N008-088",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "necromancy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4494,
+      "target_card_id": "KIE-N008-087",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "necro",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4495,
+      "target_card_id": "KIE-N008-089",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "palaios",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4497,
+      "target_card_id": "KIE-N008-091",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "palaeolithic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4498,
+      "target_card_id": "KIE-N008-090",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "palaeography",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4499,
+      "target_card_id": "KIE-N008-087",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "necrosis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4500,
+      "target_card_id": "KIE-N008-091",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "palaeozoic",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4504,
+      "target_card_id": "KIE-N008-077",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "eocene",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4505,
+      "target_card_id": "KIE-N008-078",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "oligocene",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4507,
+      "target_card_id": "KIE-N008-080",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "koilos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4508,
+      "target_card_id": "KIE-N008-076",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "kainos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4509,
+      "target_card_id": "KIE-N008-081",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "coelom",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4510,
+      "target_card_id": "KIE-N008-081",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "acoelous",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4511,
+      "target_card_id": "KIE-N008-082",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "kryos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4512,
+      "target_card_id": "KIE-N008-083",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "cryohydric",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4514,
+      "target_card_id": "KIE-N008-100",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "leucosolenia",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4515,
+      "target_card_id": "KIE-N008-106",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "polygamy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4516,
+      "target_card_id": "KIE-N008-107",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "monogamy",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4517,
+      "target_card_id": "KIE-N008-105",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "gamete",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4518,
+      "target_card_id": "KIE-N008-105",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "gameo",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4519,
+      "target_card_id": "KIE-N008-103",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "cyanosis",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4520,
+      "target_card_id": "KIE-N008-104",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "xanthoderma",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4521,
+      "target_card_id": "KIE-N008-102",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "xanthos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4522,
+      "target_card_id": "KIE-N008-101",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "kuanos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4523,
+      "target_card_id": "KIE-N008-099",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "leucocyte",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4524,
+      "target_card_id": "KIE-N008-096",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "phanerocephala",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4525,
+      "target_card_id": "KIE-N008-097",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "erythrocyte",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4526,
+      "target_card_id": "KIE-N008-092",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "platos",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4527,
+      "target_card_id": "KIE-N008-093",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "amphiplatian",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4528,
+      "target_card_id": "KIE-N008-094",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "platyhelminthes",
+      "reason": "exact already-written lexical form in the same assigned language"
+    },
+    {
+      "source_row_index": 4529,
+      "target_card_id": "KIE-N008-095",
+      "target_batch": 8,
+      "language": "ancient-greek",
+      "form": "phaneros",
+      "reason": "exact already-written lexical form in the same assigned language"
+    }
+  ],
+  "rows": [
+    {
+      "card_id": "KIE-N009-001",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4096
+      ],
+      "forms": [
+        {
+          "form": "logogram",
+          "source_rows": [
+            4096
+          ],
+          "branch_meanings": [
+            "علم؛ كلمة؛ كلام"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "logogram",
+          "foreign_sense": "علم؛ كلمة؛ كلام",
+          "arabic_root": "لغا",
+          "arabic_gloss": "يردها إلى لغا ولغة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 114
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "logogram",
+          "source_rows": [
+            4096
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-002",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4105
+      ],
+      "forms": [
+        {
+          "form": "kilometer",
+          "source_rows": [
+            4105
+          ],
+          "branch_meanings": [
+            "ألف؛ كثير"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kilometer",
+          "foreign_sense": "ألف؛ كثير",
+          "arabic_root": "كيل",
+          "arabic_gloss": "يقابل khilio بخل وغيل وكيل.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 115
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "kilometer",
+          "source_rows": [
+            4105
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-003",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4107
+      ],
+      "forms": [
+        {
+          "form": "kilocycle",
+          "source_rows": [
+            4107
+          ],
+          "branch_meanings": [
+            "ألف؛ كثير"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kilocycle",
+          "foreign_sense": "ألف؛ كثير",
+          "arabic_root": "كيل",
+          "arabic_gloss": "يقابل khilio بخل وغيل وكيل.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 115
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "kilocycle",
+          "source_rows": [
+            4107
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-004",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4108
+      ],
+      "forms": [
+        {
+          "form": "kilowatt",
+          "source_rows": [
+            4108
+          ],
+          "branch_meanings": [
+            "ألف؛ كثير"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kilowatt",
+          "foreign_sense": "ألف؛ كثير",
+          "arabic_root": "كيل",
+          "arabic_gloss": "يقابل khilio بخل وغيل وكيل.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 115
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "kilowatt",
+          "source_rows": [
+            4108
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-005",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4109
+      ],
+      "forms": [
+        {
+          "form": "kilogram",
+          "source_rows": [
+            4109
+          ],
+          "branch_meanings": [
+            "ألف؛ كثير"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kilogram",
+          "foreign_sense": "ألف؛ كثير",
+          "arabic_root": "كيل",
+          "arabic_gloss": "يقابل khilio بخل وغيل وكيل.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 115
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "kilogram",
+          "source_rows": [
+            4109
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-006",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4110
+      ],
+      "forms": [
+        {
+          "form": "khilio",
+          "source_rows": [
+            4110
+          ],
+          "branch_meanings": [
+            "ألف؛ كثير"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "khilio",
+          "foreign_sense": "ألف؛ كثير",
+          "arabic_root": "كيل",
+          "arabic_gloss": "يقابل khilio بخل وغيل وكيل.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 115
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "khilio",
+          "source_rows": [
+            4110
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-007",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4113
+      ],
+      "forms": [
+        {
+          "form": "anemo",
+          "source_rows": [
+            4113
+          ],
+          "branch_meanings": [
+            "ريح؛ مقياس الريح"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "anemo",
+          "foreign_sense": "ريح؛ مقياس الريح",
+          "arabic_root": "نام",
+          "arabic_gloss": "يقابل anemo بنام وأنم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 117
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "anemo",
+          "source_rows": [
+            4113
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-008",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4133
+      ],
+      "forms": [
+        {
+          "form": "ereg",
+          "source_rows": [
+            4133
+          ],
+          "branch_meanings": [
+            "عمل"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "ereg",
+          "foreign_sense": "عمل",
+          "arabic_root": "أري",
+          "arabic_gloss": "يقابلها بأرى والأري: العمل.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 120
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "ereg",
+          "source_rows": [
+            4133
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-009",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4141
+      ],
+      "forms": [
+        {
+          "form": "cyrocotyle",
+          "source_rows": [
+            4141
+          ],
+          "branch_meanings": [
+            "دائرة؛ حلقة؛ قرص"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "cyrocotyle",
+          "foreign_sense": "دائرة؛ حلقة؛ قرص",
+          "arabic_root": "قرص",
+          "arabic_gloss": "يقابلها بقرص.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 120
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "cyrocotyle",
+          "source_rows": [
+            4141
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-010",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4214
+      ],
+      "forms": [
+        {
+          "form": "typos",
+          "source_rows": [
+            4214
+          ],
+          "branch_meanings": [
+            "نمط؛ مثال؛ انطباع"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "typos",
+          "foreign_sense": "نمط؛ مثال؛ انطباع",
+          "arabic_root": "طبع",
+          "arabic_gloss": "يقابلها بطبع.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 123
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "typos",
+          "source_rows": [
+            4214
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-011",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4222
+      ],
+      "forms": [
+        {
+          "form": "perihelio",
+          "source_rows": [
+            4222
+          ],
+          "branch_meanings": [
+            "الشمس"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "perihelio",
+          "foreign_sense": "الشمس",
+          "arabic_root": "هلل",
+          "arabic_gloss": "يقابلها بهالة الشمس.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 124
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "perihelio",
+          "source_rows": [
+            4222
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-012",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4223
+      ],
+      "forms": [
+        {
+          "form": "heliograph",
+          "source_rows": [
+            4223
+          ],
+          "branch_meanings": [
+            "الشمس"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "heliograph",
+          "foreign_sense": "الشمس",
+          "arabic_root": "هلل",
+          "arabic_gloss": "يقابلها بهالة الشمس.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 124
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "heliograph",
+          "source_rows": [
+            4223
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-013",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4224
+      ],
+      "forms": [
+        {
+          "form": "helios",
+          "source_rows": [
+            4224
+          ],
+          "branch_meanings": [
+            "الشمس"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "helios",
+          "foreign_sense": "الشمس",
+          "arabic_root": "هلل",
+          "arabic_gloss": "يقابلها بهالة الشمس.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 124
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "helios",
+          "source_rows": [
+            4224
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-014",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4225
+      ],
+      "forms": [
+        {
+          "form": "zaphyr",
+          "source_rows": [
+            4225
+          ],
+          "branch_meanings": [
+            "الريح الغربية"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "zaphyr",
+          "foreign_sense": "الريح الغربية",
+          "arabic_root": "زفر",
+          "arabic_gloss": "يقابلها بزفير وزفر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 124
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "zaphyr",
+          "source_rows": [
+            4225
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-015",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4236
+      ],
+      "forms": [
+        {
+          "form": "hydor",
+          "source_rows": [
+            4236
+          ],
+          "branch_meanings": [
+            "ماء"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hydor",
+          "foreign_sense": "ماء",
+          "arabic_root": "خضر",
+          "arabic_gloss": "يقابلها بخضر وخضرم وخضم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 125
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "hydor",
+          "source_rows": [
+            4236
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-016",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4237
+      ],
+      "forms": [
+        {
+          "form": "hydrant",
+          "source_rows": [
+            4237
+          ],
+          "branch_meanings": [
+            "ماء"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hydrant",
+          "foreign_sense": "ماء",
+          "arabic_root": "خضر",
+          "arabic_gloss": "يقابلها بخضر وخضرم وخضم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 125
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "hydrant",
+          "source_rows": [
+            4237
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-017",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4238
+      ],
+      "forms": [
+        {
+          "form": "anhydrous",
+          "source_rows": [
+            4238
+          ],
+          "branch_meanings": [
+            "ماء"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "anhydrous",
+          "foreign_sense": "ماء",
+          "arabic_root": "خضر",
+          "arabic_gloss": "يقابلها بخضر وخضرم وخضم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 125
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "anhydrous",
+          "source_rows": [
+            4238
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-018",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4250
+      ],
+      "forms": [
+        {
+          "form": "period",
+          "source_rows": [
+            4250
+          ],
+          "branch_meanings": [
+            "طريق؛ رحلة"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "period",
+          "foreign_sense": "طريق؛ رحلة",
+          "arabic_root": "هدى",
+          "arabic_gloss": "يقابلها بهدى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 125
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "period",
+          "source_rows": [
+            4250
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-019",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4251
+      ],
+      "forms": [
+        {
+          "form": "anode",
+          "source_rows": [
+            4251
+          ],
+          "branch_meanings": [
+            "طريق؛ رحلة"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "anode",
+          "foreign_sense": "طريق؛ رحلة",
+          "arabic_root": "هدى",
+          "arabic_gloss": "يقابلها بهدى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 125
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "anode",
+          "source_rows": [
+            4251
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-020",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4252
+      ],
+      "forms": [
+        {
+          "form": "cathode",
+          "source_rows": [
+            4252
+          ],
+          "branch_meanings": [
+            "طريق؛ رحلة"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "cathode",
+          "foreign_sense": "طريق؛ رحلة",
+          "arabic_root": "هدى",
+          "arabic_gloss": "يقابلها بهدى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 125
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "cathode",
+          "source_rows": [
+            4252
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-021",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4254
+      ],
+      "forms": [
+        {
+          "form": "thalassemia",
+          "source_rows": [
+            4254
+          ],
+          "branch_meanings": [
+            "بحر"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "thalassemia",
+          "foreign_sense": "بحر",
+          "arabic_root": "طلس",
+          "arabic_gloss": "يردها إلى طلس وأطلس، اللون الداكن ثم البحر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 125
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "thalassemia",
+          "source_rows": [
+            4254
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-022",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4283
+      ],
+      "forms": [
+        {
+          "form": "colloidy",
+          "source_rows": [
+            4283
+          ],
+          "branch_meanings": [
+            "لاصق؛ غراء"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "colloidy",
+          "foreign_sense": "لاصق؛ غراء",
+          "arabic_root": "غرا",
+          "arabic_gloss": "يقابلها بغرا وغراء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 127
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "colloidy",
+          "source_rows": [
+            4283
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-023",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4289
+      ],
+      "forms": [
+        {
+          "form": "tapho",
+          "source_rows": [
+            4289
+          ],
+          "branch_meanings": [
+            "قبر"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "tapho",
+          "foreign_sense": "قبر",
+          "arabic_root": "ثوى",
+          "arabic_gloss": "يقابلها بثوى ومشوى، بيت الميت.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 127
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "tapho",
+          "source_rows": [
+            4289
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-024",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4291
+      ],
+      "forms": [
+        {
+          "form": "chlam",
+          "source_rows": [
+            4291
+          ],
+          "branch_meanings": [
+            "عباءة؛ شملة"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "chlam",
+          "foreign_sense": "عباءة؛ شملة",
+          "arabic_root": "شمل",
+          "arabic_gloss": "يقابلها بشلامة وشملة وشمالة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 127
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "chlam",
+          "source_rows": [
+            4291
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-025",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4292
+      ],
+      "forms": [
+        {
+          "form": "chlamydomonas",
+          "source_rows": [
+            4292
+          ],
+          "branch_meanings": [
+            "عباءة؛ شملة"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "chlamydomonas",
+          "foreign_sense": "عباءة؛ شملة",
+          "arabic_root": "شمل",
+          "arabic_gloss": "يقابلها بشلامة وشملة وشمالة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 127
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "chlamydomonas",
+          "source_rows": [
+            4292
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-026",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4293
+      ],
+      "forms": [
+        {
+          "form": "monochlamydeous",
+          "source_rows": [
+            4293
+          ],
+          "branch_meanings": [
+            "عباءة؛ شملة"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "monochlamydeous",
+          "foreign_sense": "عباءة؛ شملة",
+          "arabic_root": "شمل",
+          "arabic_gloss": "يقابلها بشلامة وشملة وشمالة.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 127
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "monochlamydeous",
+          "source_rows": [
+            4293
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-027",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4316
+      ],
+      "forms": [
+        {
+          "form": "patriarchy",
+          "source_rows": [
+            4316
+          ],
+          "branch_meanings": [
+            "والد؛ أب"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "patriarchy",
+          "foreign_sense": "والد؛ أب",
+          "arabic_root": "فطر",
+          "arabic_gloss": "يقابلها بفطر وفاطر: شق وخلق.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 129
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "patriarchy",
+          "source_rows": [
+            4316
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-028",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4318
+      ],
+      "forms": [
+        {
+          "form": "cosmopolis",
+          "source_rows": [
+            4318
+          ],
+          "branch_meanings": [
+            "مدينة"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "cosmopolis",
+          "foreign_sense": "مدينة",
+          "arabic_root": "بلس",
+          "arabic_gloss": "يردها إلى بلس وبلد: قعد وسكن.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 129
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "cosmopolis",
+          "source_rows": [
+            4318
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-029",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4359
+      ],
+      "forms": [
+        {
+          "form": "hiereus",
+          "source_rows": [
+            4359
+          ],
+          "branch_meanings": [
+            "كاهن؛ مقدس؛ نوراني"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hiereus",
+          "foreign_sense": "كاهن؛ مقدس؛ نوراني",
+          "arabic_root": "حور",
+          "arabic_gloss": "يردها إلى حور وحواري: البياض والطهر.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 131
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "hiereus",
+          "source_rows": [
+            4359
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-030",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4362,
+        4363
+      ],
+      "forms": [
+        {
+          "form": "polytheism",
+          "source_rows": [
+            4362
+          ],
+          "branch_meanings": [
+            "إله؛ رب؛ نور"
+          ]
+        },
+        {
+          "form": "pantheism",
+          "source_rows": [
+            4363
+          ],
+          "branch_meanings": [
+            "إله؛ رب؛ نور"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "polytheism",
+          "foreign_sense": "إله؛ رب؛ نور",
+          "arabic_root": "ضوء",
+          "arabic_gloss": "يردها إلى ضو وضوء وضياء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 131
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "pantheism",
+          "foreign_sense": "إله؛ رب؛ نور",
+          "arabic_root": "ضوء",
+          "arabic_gloss": "يردها إلى ضو وضوء وضياء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 131
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "polytheism",
+          "source_rows": [
+            4362
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        },
+        {
+          "form": "pantheism",
+          "source_rows": [
+            4363
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-031",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4364,
+        4365,
+        4366
+      ],
+      "forms": [
+        {
+          "form": "zeos",
+          "source_rows": [
+            4364
+          ],
+          "branch_meanings": [
+            "إله؛ رب؛ نور"
+          ]
+        },
+        {
+          "form": "deos",
+          "source_rows": [
+            4365
+          ],
+          "branch_meanings": [
+            "إله؛ رب؛ نور"
+          ]
+        },
+        {
+          "form": "theos",
+          "source_rows": [
+            4366
+          ],
+          "branch_meanings": [
+            "إله؛ رب؛ نور"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "zeos",
+          "foreign_sense": "إله؛ رب؛ نور",
+          "arabic_root": "ضوء",
+          "arabic_gloss": "يردها إلى ضو وضوء وضياء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 131
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "deos",
+          "foreign_sense": "إله؛ رب؛ نور",
+          "arabic_root": "ضوء",
+          "arabic_gloss": "يردها إلى ضو وضوء وضياء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 131
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "theos",
+          "foreign_sense": "إله؛ رب؛ نور",
+          "arabic_root": "ضوء",
+          "arabic_gloss": "يردها إلى ضو وضوء وضياء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 131
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "zeos",
+          "source_rows": [
+            4364
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        },
+        {
+          "form": "deos",
+          "source_rows": [
+            4365
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        },
+        {
+          "form": "theos",
+          "source_rows": [
+            4366
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-032",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4369
+      ],
+      "forms": [
+        {
+          "form": "theocracy",
+          "source_rows": [
+            4369
+          ],
+          "branch_meanings": [
+            "إله؛ رب؛ نور"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "theocracy",
+          "foreign_sense": "إله؛ رب؛ نور",
+          "arabic_root": "ضوء",
+          "arabic_gloss": "يردها إلى ضو وضوء وضياء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 131
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "theocracy",
+          "source_rows": [
+            4369
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-033",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4384
+      ],
+      "forms": [
+        {
+          "form": "actome",
+          "source_rows": [
+            4384
+          ],
+          "branch_meanings": [
+            "قطع؛ استئصال"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "actome",
+          "foreign_sense": "قطع؛ استئصال",
+          "arabic_root": "قطم",
+          "arabic_gloss": "يقابلها بقطم.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 132
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "actome",
+          "source_rows": [
+            4384
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-034",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4398
+      ],
+      "forms": [
+        {
+          "form": "puretos",
+          "source_rows": [
+            4398
+          ],
+          "branch_meanings": [
+            "حمى"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "puretos",
+          "foreign_sense": "حمى",
+          "arabic_root": "برد",
+          "arabic_gloss": "يقابلها ببرد والبرداء: الحمى.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "puretos",
+          "source_rows": [
+            4398
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-035",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4409
+      ],
+      "forms": [
+        {
+          "form": "oura",
+          "source_rows": [
+            4409
+          ],
+          "branch_meanings": [
+            "ذيل؛ خلف"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "oura",
+          "foreign_sense": "ذيل؛ خلف",
+          "arabic_root": "وراء",
+          "arabic_gloss": "يقابلها بوراء.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 133
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "oura",
+          "source_rows": [
+            4409
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-036",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4418,
+        4426
+      ],
+      "forms": [
+        {
+          "form": "camel",
+          "source_rows": [
+            4418
+          ],
+          "branch_meanings": [
+            "جمل"
+          ]
+        },
+        {
+          "form": "kamelos",
+          "source_rows": [
+            4426
+          ],
+          "branch_meanings": [
+            "جمل"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "camel",
+          "foreign_sense": "جمل",
+          "arabic_root": "جمل",
+          "arabic_gloss": "يقابلها بجمل.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 134
+        },
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "kamelos",
+          "foreign_sense": "جمل",
+          "arabic_root": "جمل",
+          "arabic_gloss": "يقابلها بجمل.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 134
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "camel",
+          "source_rows": [
+            4418
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        },
+        {
+          "form": "kamelos",
+          "source_rows": [
+            4426
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-037",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4471
+      ],
+      "forms": [
+        {
+          "form": "iso",
+          "source_rows": [
+            4471
+          ],
+          "branch_meanings": [
+            "معادل؛ مكافئ"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "iso",
+          "foreign_sense": "معادل؛ مكافئ",
+          "arabic_root": "سوي",
+          "arabic_gloss": "يقابلها بسوي وسواء ومساو.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "iso",
+          "source_rows": [
+            4471
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-038",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4474
+      ],
+      "forms": [
+        {
+          "form": "anantios",
+          "source_rows": [
+            4474
+          ],
+          "branch_meanings": [
+            "ضد؛ مخالف"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "anantios",
+          "foreign_sense": "ضد؛ مخالف",
+          "arabic_root": "عند",
+          "arabic_gloss": "يقابلها بعند وعناد.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 137
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "anantios",
+          "source_rows": [
+            4474
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-039",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4506
+      ],
+      "forms": [
+        {
+          "form": "cainozoic",
+          "source_rows": [
+            4506
+          ],
+          "branch_meanings": [
+            "جديد؛ حديث"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "cainozoic",
+          "foreign_sense": "جديد؛ حديث",
+          "arabic_root": "كون",
+          "arabic_gloss": "يردها إلى كون وكائن وتكون.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "cainozoic",
+          "source_rows": [
+            4506
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "KIE-N009-040",
+      "batch": 9,
+      "language": "ancient-greek",
+      "source_rows": [
+        4513
+      ],
+      "forms": [
+        {
+          "form": "hollow",
+          "source_rows": [
+            4513
+          ],
+          "branch_meanings": [
+            "أجوف؛ خال"
+          ]
+        }
+      ],
+      "source_claims": [
+        {
+          "tongue_ar": "اليونانية",
+          "tongue": "greek",
+          "foreign": "hollow",
+          "foreign_sense": "أجوف؛ خال",
+          "arabic_root": "خلا",
+          "arabic_gloss": "يقابلها بخلا وخلو.",
+          "source": "ocr-khashim-emperors",
+          "book": "khashim-emperors",
+          "page": 138
+        }
+      ],
+      "fan_reviews": [
+        {
+          "form": "hollow",
+          "source_rows": [
+            4513
+          ],
+          "script": "greek",
+          "candidates": [],
+          "dialect_additions": 0
+        }
+      ],
+      "positives": [],
+      "missing_row_searches": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    }
+  ]
+}
