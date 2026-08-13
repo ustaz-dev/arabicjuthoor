@@ -15101,7 +15101,26 @@
       "deficiencies": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3612,
+              "source_row_index_at_freeze": 3612,
+              "source_row_key": "d166e38445015e9f6ef1d4ba",
+              "european": "See",
+              "arabic_root": "سم",
+              "author_translit": "sama",
+              "arabic_gloss": "rise, appear",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "جذرٌ آخر: ثور، شخص، شرق، طلع، نجم، نهض، هلل"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0499",
@@ -50709,7 +50728,59 @@
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3414,
+              "source_row_index_at_freeze": 3414,
+              "source_row_key": "f8dee39e5c6582f0e319242b",
+              "european": "Ride",
+              "arabic_root": "رض",
+              "author_translit": "raaDa",
+              "arabic_gloss": "ride, tame-ride",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: ءركب، ءل، ءلف، ءنس، ءهل، بحر، بهء، دجن، وغيرُها"
+            },
+            {
+              "source_row_index": 3439,
+              "source_row_index_at_freeze": 3439,
+              "source_row_key": "ee5134fb73a85c1ef1908b62",
+              "european": "Road",
+              "arabic_root": "رض",
+              "author_translit": "raaDa",
+              "arabic_gloss": "ride, tame-ride",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: ءركب، ءل، ءلف، ءنس، ءهل، بحر، بهء، دجن، وغيرُها"
+            },
+            {
+              "source_row_index": 3440,
+              "source_row_index_at_freeze": 3440,
+              "source_row_key": "257b2d0753f4878f1a301496",
+              "european": "Road",
+              "arabic_root": "رود",
+              "author_translit": "rawd",
+              "arabic_gloss": "road",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: ءوب، برك، بني، جاز، جول، حدل، حني، خل، وغيرُها"
+            },
+            {
+              "source_row_index": 3441,
+              "source_row_index_at_freeze": 3441,
+              "source_row_key": "a6f217638a29d3e08759bfd5",
+              "european": "Road",
+              "arabic_root": "نجد",
+              "author_translit": "najd",
+              "arabic_gloss": "way",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءبب، ءم، ءوب، اه، بتت، بغي، تبع، ترجم، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0560",

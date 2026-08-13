@@ -37863,7 +37863,26 @@
         "`k` + `ك` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3668,
+              "source_row_index_at_freeze": 3668,
+              "source_row_key": "604224b8bc766947b9a6d041",
+              "european": "Shake",
+              "arabic_root": "شح",
+              "author_translit": "shaa2a",
+              "arabic_gloss": "to shake",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: تعع، جلجل، جهر، خضخض، خطر، رتج، رج، رجح، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0061",

@@ -33941,6 +33941,56 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3575,
+              "source_row_index_at_freeze": 3575,
+              "source_row_key": "c98f769f9ffdf61a877ae790",
+              "european": "Scream",
+              "arabic_root": "زمجر",
+              "author_translit": "zamjar",
+              "arabic_gloss": "cry loud",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءن، رزم، صاح، صرخ، عوي، هتف، هدر"
+            },
+            {
+              "source_row_index": 3576,
+              "source_row_index_at_freeze": 3576,
+              "source_row_key": "dd1aea782e0d2ba9e7295a8f",
+              "european": "Scream",
+              "arabic_root": "صرخ",
+              "author_translit": "Sareekh",
+              "arabic_gloss": "crying",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: باك، بكا، بكي، دمع، نوح، هتف، وعوع"
+            },
+            {
+              "source_row_index": 3577,
+              "source_row_index_at_freeze": 3577,
+              "source_row_key": "0a580c19fa5a9ce8cfbfe3eb",
+              "european": "Scream",
+              "arabic_root": "كتب",
+              "author_translit": "katab",
+              "arabic_gloss": "write",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ء، ءرخ، ءلف، حرر، حفظ، خبر، خط، دون، وغيرُها"
+            },
+            {
+              "source_row_index": 3578,
+              "source_row_index_at_freeze": 3578,
+              "source_row_key": "bcc712d1ac1e47d13e6faa4c",
+              "european": "Scream",
+              "arabic_root": "كتبت",
+              "author_translit": "kitaabat",
+              "arabic_gloss": "write",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ء، ءرخ، ءلف، حرر، حفظ، خبر، خط، دون، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -36454,7 +36504,37 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3701,
+              "source_row_index_at_freeze": 3701,
+              "source_row_key": "fe08d2bb20be6dc13f296df1",
+              "european": "Shout",
+              "arabic_root": "صت",
+              "author_translit": "Saut",
+              "arabic_gloss": "sound",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءن، ءنس، ءوه، بيت، تشو، تلعثم، ثغا، جرس، وغيرُها"
+            },
+            {
+              "source_row_index": 3702,
+              "source_row_index_at_freeze": 3702,
+              "source_row_key": "678dde9e3d30b91114581061",
+              "european": "Shout",
+              "arabic_root": "صرخ",
+              "author_translit": "Sareekh",
+              "arabic_gloss": "crying",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: باك، بكا، بكي، دمع، نوح، هتف، وعوع"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-072",
@@ -37917,7 +37997,48 @@
         "`s` + `ز` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3733,
+              "source_row_index_at_freeze": 3733,
+              "source_row_key": "a318ee3efc83d0d8fb6abb28",
+              "european": "Sing",
+              "arabic_root": "زجل",
+              "author_translit": "zajal",
+              "arabic_gloss": "sing loud",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: زمر"
+            },
+            {
+              "source_row_index": 3734,
+              "source_row_index_at_freeze": 3734,
+              "source_row_key": "c81bb899e652b03f2a145fa4",
+              "european": "Sing",
+              "arabic_root": "سبر",
+              "author_translit": "subar",
+              "arabic_gloss": "bird",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: باز، برثن، برقش، برك، بط، بطط، بلش، بوم، وغيرُها"
+            },
+            {
+              "source_row_index": 3735,
+              "source_row_index_at_freeze": 3735,
+              "source_row_key": "08db3ba19d9ec17bbe12e46d",
+              "european": "Sing",
+              "arabic_root": "طر",
+              "author_translit": "Taar",
+              "arabic_gloss": "fly",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: حد، حلق، دب، ذبب، رفع، زخرف، سرف، شيط، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-075",
@@ -45043,6 +45164,45 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3527,
+              "source_row_index_at_freeze": 3527,
+              "source_row_key": "266ceb427baf89a90044bec7",
+              "european": "Sarcasm",
+              "arabic_root": "زدر",
+              "author_translit": "izdara",
+              "arabic_gloss": "look down upon",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: رءي، شزر، علي، فرس، مهن"
+            },
+            {
+              "source_row_index": 3529,
+              "source_row_index_at_freeze": 3529,
+              "source_row_key": "3521a420f554bdba98306be9",
+              "european": "Sarcasm",
+              "arabic_root": "صح",
+              "author_translit": "Saa2",
+              "arabic_gloss": "cry",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءبب، ءل، ءن، ادي، بكا، بكي، بي، ثغا، وغيرُها"
+            },
+            {
+              "source_row_index": 3530,
+              "source_row_index_at_freeze": 3530,
+              "source_row_key": "94e2b18d4d15b165c2e7e295",
+              "european": "Sarcasm",
+              "arabic_root": "مسخر",
+              "author_translit": "maskhara(t)",
+              "arabic_gloss": "sarcasm",
+              "source": "jassem-2013-speech-writing · jassem-2013-love",
+              "bridge_agrees": "جذرٌ آخر: سخر، هكم"
+            }
+          ]
         }
       ]
     },
@@ -45170,6 +45330,25 @@
       "judgment": "غير صادر",
       "cross_book_supplement_rows": [
         4159
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3629,
+              "source_row_index_at_freeze": 3629,
+              "source_row_key": "d90458afcf274ae6f25265ee",
+              "european": "Semantics",
+              "arabic_root": "سم",
+              "author_translit": "seema(t)",
+              "arabic_gloss": "sign",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءثر، ءية، ءيي، اتم، الءسد، الثور، الجدي، الحوت، وغيرُها"
+            }
+          ]
+        }
       ]
     },
     {

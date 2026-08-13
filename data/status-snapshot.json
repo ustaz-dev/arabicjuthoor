@@ -4,18 +4,18 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 45237,
+  "cards_total": 45315,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 9177,
-    "links": 134,
-    "root": 101,
+    "cards": 9216,
+    "links": 135,
+    "root": 102,
     "nucleus": 32,
     "floor": 1,
-    "nucleus_share": 24.1
+    "nucleus_share": 23.9
    },
    {
     "key": "egyptian",
@@ -76,12 +76,12 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 1922,
-    "links": 25,
-    "root": 16,
+    "cards": 1925,
+    "links": 26,
+    "root": 17,
     "nucleus": 9,
     "floor": 0,
-    "nucleus_share": 36.0
+    "nucleus_share": 34.6
    },
    {
     "key": "akkadian",
@@ -120,7 +120,7 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 1290,
+    "cards": 1292,
     "links": 78,
     "root": 49,
     "nucleus": 28,
@@ -153,12 +153,12 @@
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 317,
-    "links": 25,
-    "root": 18,
-    "nucleus": 7,
+    "cards": 351,
+    "links": 30,
+    "root": 19,
+    "nucleus": 11,
     "floor": 0,
-    "nucleus_share": 28.0
+    "nucleus_share": 36.7
    },
    {
     "key": "gothic",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3433,
+  "links_to_arabic": 3440,
   "closures": 1009,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1821,
+    "count": 1822,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 918,
+    "count": 920,
     "link": true
    },
    {
@@ -205,12 +205,12 @@
    },
    {
     "name": "ROOT-ECHO",
-    "count": 359,
+    "count": 361,
     "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 330,
+    "count": 332,
     "link": true
    },
    {
@@ -261,13 +261,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 41453,
-  "suspended": 31528,
-  "released": 9925,
+  "cards_total": 41531,
+  "suspended": 31599,
+  "released": 9932,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 21734
+    "count": 21805
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -297,7 +297,7 @@
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 8605
+    "count": 8643
    },
    {
     "file": "egyptian.md",
@@ -321,7 +321,7 @@
    },
    {
     "file": "ancient-greek.md",
-    "count": 1513
+    "count": 1515
    },
    {
     "file": "akkadian.md",
@@ -329,7 +329,7 @@
    },
    {
     "file": "old-english.md",
-    "count": 1002
+    "count": 1004
    },
    {
     "file": "old-irish.md",
@@ -341,7 +341,7 @@
    },
    {
     "file": "old-norse.md",
-    "count": 263
+    "count": 292
    }
   ]
  },

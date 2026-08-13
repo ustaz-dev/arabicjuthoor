@@ -66691,7 +66691,26 @@
       "deficiencies": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3751,
+              "source_row_index_at_freeze": 3751,
+              "source_row_key": "c642383a923ec5101357e71d",
+              "european": "Sit",
+              "arabic_root": "جث",
+              "author_translit": "jatha",
+              "arabic_gloss": "sit",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: جال، جلا، جلس، حبو، خضب، ربع، شل، قعد، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0449",

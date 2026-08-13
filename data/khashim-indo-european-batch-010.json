@@ -8357,7 +8357,26 @@
         "`s` + `ص` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3524,
+              "source_row_index_at_freeze": 3524,
+              "source_row_key": "3ef789b1c74fc7a57704b88e",
+              "european": "Sand",
+              "arabic_root": "زلط",
+              "author_translit": "zalaT",
+              "arabic_gloss": "stone",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: جلخ، جلد، جلمد، جندل، جوهر، حجر، حدد، حصا، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N010-020",

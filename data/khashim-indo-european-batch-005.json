@@ -7645,7 +7645,26 @@
         "`s` + `ص` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3628,
+              "source_row_index_at_freeze": 3628,
+              "source_row_key": "a5132389fdc379516f440ba0",
+              "european": "Sell",
+              "arabic_root": "شر",
+              "author_translit": "shara",
+              "arabic_gloss": "/sharwa(t) (n)",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0641",
@@ -26330,7 +26349,26 @@
       ],
       "closure": "ROOT-TRACE",
       "judgment": "ROOT-TRACE",
-      "rejudged_in_batch": 8
+      "rejudged_in_batch": 8,
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3727,
+              "source_row_index_at_freeze": 3727,
+              "source_row_key": "bc15ee3396418bdf464a99c8",
+              "european": "Silk",
+              "arabic_root": "سرق",
+              "author_translit": "saraq",
+              "arabic_gloss": "silk",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: بزي، حرر، خمل، دبج، دمقس، سندس، سير، صقل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0663",

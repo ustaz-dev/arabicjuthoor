@@ -38403,6 +38403,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3554,
+              "source_row_index_at_freeze": 3554,
+              "source_row_key": "54f41d5ef30c59fc04fa1956",
+              "european": "Scent",
+              "arabic_root": "شن",
+              "author_translit": "shain",
+              "arabic_gloss": "bad, obscene",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: بخر، بد، بعد، تن، جزل، جور، خبث، دخن، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -47177,6 +47194,23 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3341,
+              "source_row_index_at_freeze": 3341,
+              "source_row_key": "f9c654005d782217cf3b91fa",
+              "european": "Red",
+              "arabic_root": "نفر",
+              "author_translit": "naafir",
+              "arabic_gloss": "going up, bulging",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: بعد، خرج، خزن، درك، دور، ذهب، رب، رجل، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -47945,7 +47979,37 @@
         "`r` + `ل` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 14,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3453,
+              "source_row_index_at_freeze": 3453,
+              "source_row_key": "a4fa9b388fac1a1c8fe988fa",
+              "european": "Rouge",
+              "arabic_root": "ءرجون",
+              "author_translit": "'urjuwan",
+              "arabic_gloss": "deep red",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: زنجفر، شفق، قرمز"
+            },
+            {
+              "source_row_index": 3454,
+              "source_row_index_at_freeze": 3454,
+              "source_row_key": "fcc067184df0aea72b4f91f3",
+              "european": "Rouge",
+              "arabic_root": "رج",
+              "author_translit": "raja",
+              "arabic_gloss": "deep red",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: زنجفر، شفق، قرمز"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0255",
