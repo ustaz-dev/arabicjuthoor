@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 41769,
+  "cards_total": 41771,
   "by_language": [
    {
     "key": "old-latin",
@@ -164,7 +164,7 @@
     "key": "punic",
     "en": "Punic",
     "ar": "البونيقيّة",
-    "cards": 285,
+    "cards": 287,
     "links": 14,
     "root": 14,
     "nucleus": 0,
@@ -186,7 +186,7 @@
  },
  "verdicts": {
   "links_to_arabic": 3347,
-  "closures": 1007,
+  "closures": 1009,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
@@ -234,13 +234,13 @@
     "link": false
    },
    {
-    "name": "LOANWORD",
-    "count": 65,
+    "name": "OUT-OF-SCOPE",
+    "count": 66,
     "link": false
    },
    {
-    "name": "OUT-OF-SCOPE",
-    "count": 64,
+    "name": "LOANWORD",
+    "count": 65,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 37985,
+  "cards_total": 37987,
   "suspended": 30099,
-  "released": 7886,
+  "released": 7888,
   "blockers": [
    {
     "name": "UNLABELLED",

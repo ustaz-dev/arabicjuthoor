@@ -49,13 +49,13 @@
 
 ## ما حُصِدَ إلى الآن
 
-اتّسعَت قائمةُ الإنزالِ إلى **49 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF مباشرة،
+اتّسعَت قائمةُ الإنزالِ إلى **52 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF مباشرة،
 وحُفظت الذخيرةُ الخامُّ خارجَ git في `~/AI Projects/Resources/prior-art/`. وبعدَ
-الدمجِ بلغَ الفهرسُ **4291 زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
+الدمجِ بلغَ الفهرسُ **4,590 زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
 الدمجِ في [ورقةِ الحصاد](exploration/prior-art-harvest.md)، والصفوفُ المهيكلةُ في
 `data/prior-art-pairs.json`.
 
-وحملَ **4152 صفًّا** رأسَ المدخلِ الأوربيَّ، أي **96.8%** من الفهرس. جرى ذلك
+وحملَ **4,437 صفًّا** رأسَ المدخلِ الأوربيَّ، أي **96.7%** من الفهرس. جرى ذلك
 بتوسيعِ قارئِ الرأسِ ليأخذَ صيغَ `via Latin` و`from Arabic` و`is a compound of`
 معَ صيغِ الاشتقاقِ الأولى، معَ إبقاءِ الشرطِ أن يكونَ الرأسُ في أوّلِ السطر.
 وفُحِصت بالعينِ عيّنةٌ موزَّعةٌ من 20 صفًّا ذي رأس، فكانت كلُّها عناوينَ مداخلَ
@@ -83,17 +83,34 @@
 لصمويل دوكو لا بحثُ جاسم، وحُذف ملفُها الدخيل. وبقيَ **9 أبحاثٍ** بلا نسخةٍ
 محليّةٍ صالحة.
 
+ثمّ استُعيدَ من سجلِّ Wayback ملفُّ IJELLH الرسميُّ لبحثِ **أدواتِ التعريف**،
+بلقطةٍ مؤرَّخةٍ في 2020-03-20. فُحِصت صورتُه الأولى ونصُّه: 27 صفحةً، والعنوانُ
+واسمُ زيدان علي جاسم ظاهران، وSHA-256 هو
+`7D2185492DCA3C99C56B6A6CA2E25399103CE99DEC3427F38928E565F65E446A`.
+أخرجَ منه الحاصدُ 26 زوجًا قبلَ الدمج و**9 أزواجٍ جديدةً بعدَه**، فصارَ المتبقّي
+**8 أبحاثٍ**. وبقيَ رابطا الناشرِ الحاليُّ والقديمُ في سجلِّ الفشلِ مع سببِ 404
+وطريقِ اللقطةِ البديلة.
+
+ثمّ كُشِفَ مسارُ `yahoo_site_admin/assets/docs/` القديمُ خلفَ رابطَي IJEE
+المحذوفَين، فاستُعيدَ منه بحثُ **السماويّاتِ والأرضيّات** في 23 صفحةً، وبحثُ
+**المصطلحاتِ المعرفيّةِ والعقليّة** في 19 صفحةً. فُحِصت صورتا الصفحةِ الأولى
+والنصّان، وثبتَ العنوانُ واسمُ جاسم. بصمتا SHA-256 هما على الترتيب
+`F84B2E96E5E1002B04084E5DDC730179E24DD83ECC7BD94BBDC09BB0C7BDB3C2`
+و`86CA504BBD1480FD6B4E5EEC70E7620E9815F7BAC4B4D5FD330153A69FFBF536`.
+أخرجَ الحاصدُ منهما 336 زوجًا قبلَ الدمج و**290 زوجًا جديدًا بعدَه**، فصارَ
+المتبقّي **6 أبحاثٍ**.
+
 ## أينَ التقى الطريقان
 
 أضيفَ إلى كلِّ صفٍّ حقلُ `bridge_agrees`. سألَ الحقلُ جسرَنا عن ألفاظِ المعنى
 الإنجليزيِّ نفسِها: فإن ربطَها بالجذرِ نفسِه كتبَ `نعم`، وإن ربطَها بغيرِه سمّى
 ما عندَنا، وإن لم يجدْها كتبَ `لا مدخلَ عندنا`. **وافقَ الجسرُ الجذرَ نفسَه في
-1579 زوجًا**. وهذه موافقةٌ من ذخيرةٍ لم يمرَّ بها صاحبُ البحث، وليست بوّابةً
+1677 زوجًا**. وهذه موافقةٌ من ذخيرةٍ لم يمرَّ بها صاحبُ البحث، وليست بوّابةً
 تسقطُ غيرَ الموافق.
 
-وفي الحصادِ **1926 جذرًا عربيًّا متمايزًا**. قابلَها السكربتُ بالمقابلِ العربيِّ
+وفي الحصادِ **2007 جذورٍ عربيّةٍ متمايزةٍ**. قابلَها السكربتُ بالمقابلِ العربيِّ
 المصرَّحِ به في بطاقاتِ `04-cross-linguistic/readings/` التي صدرَ فيها حكمٌ موجب،
-فوجدَ **292 جذرًا** قد وردت فعلًا في تلكَ البطاقات. فهذا موضعُ التقاءِ المسارِ
+فوجدَ **297 جذرًا** قد وردت فعلًا في تلكَ البطاقات. فهذا موضعُ التقاءِ المسارِ
 النازلِ من حقولِ المعنى عندَه بالمسارِ الصاعدِ من الجذورِ عندَنا.
 
 ## ما نفعلُه بها
@@ -207,13 +224,13 @@ question words, prepositions, the verb to be, numerals and affixes. Those fields
 are not ours, which is precisely why the corpus is worth harvesting. A harvester
 reads his fixed entry format and his declared transliteration, discards the
 Arabic script in his PDFs because its font encoding is broken, and strips the
-grammatical endings he writes in parentheses. Forty-nine verified PDFs have
-yielded 4,291 merged pairs. Five of them were recovered from preserved publisher
-PDFs in the Internet Archive and one from an official JOELL attachment, while a
+grammatical endings he writes in parentheses. Fifty-two verified PDFs have yielded
+4,590 merged pairs. Eight of them were recovered from preserved publisher PDFs in
+the Internet Archive and one from an official JOELL attachment, while a
 misattributed snapshot was rejected after its text proved to be another author's
-article. The European entry head is present in 4,152 rows. The independent
-English-Arabic bridge agrees on the same root in 1,579 pairs, while 292 of the
-harvest's 1,926 distinct Arabic roots occur
+article. The European entry head is present in 4,437 rows. The independent
+English-Arabic bridge agrees on the same root in 1,677 pairs, while 297 of the
+harvest's 2,007 distinct Arabic roots occur
 in reading cards carrying an issued positive result. Ali Fahmi Khashim's newly
 downloaded *Journey of Words II* and *Gods of Arabic Egypt II*, together with a
 nine-author symposium on ancient Arabic-related tongues, added 250 attributed
