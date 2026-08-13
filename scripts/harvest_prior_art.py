@@ -319,6 +319,7 @@ def fetch() -> None:
             print(f"   نُزِّل  {key}  ({len(data)//1024} KB)")
         except Exception as exc:                       # noqa: BLE001
             print(f"!! تعذَّر  {key}: {str(exc)[:70]}")
+
 def mine(path: pathlib.Path) -> list[dict]:
     import fitz                                       # noqa: PLC0415
     text = "\n".join(pg.get_text() for pg in fitz.open(path))

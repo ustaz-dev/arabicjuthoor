@@ -7049,7 +7049,30 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            598
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 598,
+              "source_row_index_at_freeze": 598,
+              "source_row_key": "e124075562f2d914e2d6edc0",
+              "european": "Black",
+              "arabic_root": "سود",
+              "author_translit": "aswad",
+              "arabic_gloss": "black",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-016",

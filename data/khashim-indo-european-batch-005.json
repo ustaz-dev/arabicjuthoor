@@ -43781,8 +43781,8 @@
         {
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            758,
-            759
+            761,
+            762
           ],
           "form": "Cave",
           "root": "قوب",
@@ -43819,12 +43819,14 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            758,
-            759
+            761,
+            762
           ],
           "source_claims": [
             {
-              "source_row_index": 758,
+              "source_row_index": 761,
+              "source_row_index_at_freeze": 761,
+              "source_row_key": "331ed4b91e52dde7a83130b8",
               "european": "Cave",
               "arabic_root": "قطم",
               "author_translit": "qaTam",
@@ -43833,7 +43835,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 759,
+              "source_row_index": 762,
+              "source_row_index_at_freeze": 762,
+              "source_row_key": "ce961b825b460d018e89d24a",
               "european": "Cave",
               "arabic_root": "كهف",
               "author_translit": "kahf",
@@ -43850,8 +43854,8 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            758,
-            759
+            761,
+            762
           ],
           "root": "قوب",
           "closure": "ROOT-TRACE",
@@ -81957,11 +81961,13 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            681
+            684
           ],
           "source_claims": [
             {
-              "source_row_index": 681,
+              "source_row_index": 684,
+              "source_row_index_at_freeze": 684,
+              "source_row_key": "9e1ca02bae9dfe5d139fb727",
               "european": "Bull",
               "arabic_root": "بقر",
               "author_translit": "baqar(at)",

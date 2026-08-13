@@ -49,9 +49,10 @@
 
 ## ما حُصِدَ إلى الآن
 
-اتّسعَت قائمةُ الإنزالِ إلى **53 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF مباشرة،
-وحُفظت الذخيرةُ الخامُّ خارجَ git في `~/AI Projects/Resources/prior-art/`. وبعدَ
-الدمجِ بلغَ الفهرسُ **4,677 زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
+اتّسعَت قائمةُ الإنزالِ إلى **53 بحثًا مفتوحَ الوصول من أصلِ 58** بملفّاتِ PDF
+مباشرة، وحُفظت الذخيرةُ الخامُّ خارجَ git في
+`~/AI Projects/Resources/prior-art/`. وبعدَ الدمجِ بلغَ الفهرسُ **4,677
+زوجًا**. وتفصيلُ كلِّ مصدرٍ ورابطِه وحصيلتِه قبلَ
 الدمجِ في [ورقةِ الحصاد](exploration/prior-art-harvest.md)، والصفوفُ المهيكلةُ في
 `data/prior-art-pairs.json`.
 
@@ -107,11 +108,14 @@
 الوصولِ المفتوح، واسمُ الناشر. أخرجَ منه الحاصدُ 116 زوجًا قبلَ الدمج، و**87
 زوجًا جديدًا بعدَه**. وفشلَ مسارُ HTTPS بانقطاعِ TLS، فسُجِّلَ سببُه واستُعملَ
 مسارُ HTTP المباشرُ الصالح. ولم يُستعملْ `academia.edu` ولا `ResearchGate` في
-هذا الاستردادِ أو في الحصاد.
+استردادِ بحثِ اللونِ هذا.
 
-والفجواتُ الخمسُ بأسمائِها: أعضاءُ الجسم، والأسماءُ الأعلام،
-وأصلُ الإنجليزيّةِ والألمانيّةِ والفرنسيّةِ وتطوّرُها، وتعليمُ المفرداتِ
-وتعلّمُها، ومراجعةُ كتابِ كامبل. فهذه قائمةُ عملٍ مضبوطةٌ لا عدٌّ مجرّد.
+والفجواتُ الخمسُ بأسمائِها: أعضاءُ الجسم، والأسماءُ الأعلام، وأصلُ
+الإنجليزيّةِ والألمانيّةِ والفرنسيّةِ وتطوّرُها، وتعليمُ المفرداتِ وتعلّمُها،
+ومراجعةُ كتابِ كامبل. جُرِّبت في شجرةِ العملِ آليّةٌ تقرأُ عارضَ Academia ثمّ
+أُزيلت مرّتَين لمخالفتِها أمرَ المؤلّفِ الصريحَ. وأُعيدَ توليدُ البياناتِ من
+ملفّاتِ PDF الثلاثةِ والخمسينَ وحدَها، فلا يحملُ الحصادُ الجاريُ صفًّا من ذلكَ
+العارض. فهذه قائمةُ عملٍ مضبوطةٌ لا عدٌّ مجرّد.
 
 ## أينَ التقى الطريقان
 
@@ -262,7 +266,7 @@ are not ours, which is precisely why the corpus is worth harvesting. A harvester
 reads his fixed entry format and his declared transliteration, discards the
 Arabic script in his PDFs because its font encoding is broken, and strips the
 grammatical endings he writes in parentheses. Fifty-three verified PDFs have yielded
-4,677 merged pairs. Eight of them were recovered from preserved publisher PDFs in
+4,677 merged pairs. Eight PDFs were recovered from preserved publisher files in
 the Internet Archive and one from an official JOELL attachment, while a
 misattributed snapshot was rejected after its text proved to be another author's
 article. The colour-and-art paper came from a direct open-access IJELR publisher

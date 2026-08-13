@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 42951,
+  "cards_total": 43204,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,12 +32,12 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 6697,
-    "links": 15,
+    "cards": 6947,
+    "links": 17,
     "root": 12,
-    "nucleus": 3,
+    "nucleus": 5,
     "floor": 0,
-    "nucleus_share": 20.0
+    "nucleus_share": 29.4
    },
    {
     "key": "coptic",
@@ -120,7 +120,7 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 930,
+    "cards": 933,
     "links": 55,
     "root": 32,
     "nucleus": 22,
@@ -185,7 +185,7 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3367,
+  "links_to_arabic": 3369,
   "closures": 1009,
   "by_verdict": [
    {
@@ -195,7 +195,7 @@
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 908,
+    "count": 910,
     "link": true
    },
    {
@@ -261,13 +261,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 39167,
-  "suspended": 30269,
-  "released": 8898,
+  "cards_total": 39420,
+  "suspended": 30272,
+  "released": 9148,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 20475
+    "count": 20478
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -329,7 +329,7 @@
    },
    {
     "file": "old-english.md",
-    "count": 665
+    "count": 668
    },
    {
     "file": "old-irish.md",

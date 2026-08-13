@@ -16657,13 +16657,15 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            438,
-            439,
-            440
+            432,
+            433,
+            434
           ],
           "source_claims": [
             {
-              "source_row_index": 438,
+              "source_row_index": 432,
+              "source_row_index_at_freeze": 432,
+              "source_row_key": "a8c59192986aa2628187317b",
               "european": "Augustus",
               "arabic_root": "خل",
               "author_translit": "khaleel",
@@ -16672,7 +16674,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 439,
+              "source_row_index": 433,
+              "source_row_index_at_freeze": 433,
+              "source_row_key": "af6d496adb60ef9a10b6c115",
               "european": "Augustus",
               "arabic_root": "رجل",
               "author_translit": "rajul",
@@ -16681,7 +16685,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 440,
+              "source_row_index": 434,
+              "source_row_index_at_freeze": 434,
+              "source_row_key": "be05305e5324e4153b385507",
               "european": "Augustus",
               "arabic_root": "قدس",
               "author_translit": "qudus",
@@ -35942,11 +35948,13 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            482
+            477
           ],
           "source_claims": [
             {
-              "source_row_index": 482,
+              "source_row_index": 477,
+              "source_row_index_at_freeze": 477,
+              "source_row_key": "41a39ea9fb2678f3ff6b6744",
               "european": "Banana",
               "arabic_root": "بن",
               "author_translit": "banan",
@@ -41459,7 +41467,30 @@
         "`r` + `ك` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 1,
+          "source": "data/prior-art-pairs.json",
+          "source_rows": [
+            301
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 301,
+              "source_row_index_at_freeze": 301,
+              "source_row_key": "b4068b6b7e79a2ffad017d34",
+              "european": "Amber",
+              "arabic_root": "عنبر",
+              "author_translit": "3anbar",
+              "arabic_gloss": "ambergris; white/yellow amber (musk)",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "نعم"
+            }
+          ],
+          "bridge_agrees": true
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0242",
@@ -68955,11 +68986,13 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            614
+            613
           ],
           "source_claims": [
             {
-              "source_row_index": 614,
+              "source_row_index": 613,
+              "source_row_index_at_freeze": 613,
+              "source_row_key": "32c451ac09a574b38d19ba27",
               "european": "Blouse",
               "arabic_root": "لبس",
               "author_translit": "libas",

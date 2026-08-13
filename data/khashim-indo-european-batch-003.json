@@ -8707,13 +8707,13 @@
         {
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            167,
-            170,
-            171,
-            172,
-            173,
-            174,
-            175
+            158,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166
           ],
           "form": "Abide",
           "root": "بيت",
@@ -8760,17 +8760,19 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            167,
-            170,
-            171,
-            172,
-            173,
-            174,
-            175
+            158,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166
           ],
           "source_claims": [
             {
-              "source_row_index": 167,
+              "source_row_index": 158,
+              "source_row_index_at_freeze": 158,
+              "source_row_key": "8068e25f52bb3e4f9b600ad2",
               "european": "Abide",
               "arabic_root": "ءبد",
               "author_translit": "'abada",
@@ -8779,7 +8781,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 170,
+              "source_row_index": 161,
+              "source_row_index_at_freeze": 161,
+              "source_row_key": "b52c5b85fa57e9bdd9e2aadd",
               "european": "Abide",
               "arabic_root": "ذعر",
               "author_translit": "dhu3r",
@@ -8788,7 +8792,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 171,
+              "source_row_index": 162,
+              "source_row_index_at_freeze": 162,
+              "source_row_key": "3d2a9f3de84fa3da0f97d8a4",
               "european": "Abide",
               "arabic_root": "شرط",
               "author_translit": "shareeT",
@@ -8797,7 +8803,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 172,
+              "source_row_index": 163,
+              "source_row_index_at_freeze": 163,
+              "source_row_key": "1f47d7bef0c8610e7d8b30d7",
               "european": "Abide",
               "arabic_root": "صدر",
               "author_translit": "Sadr",
@@ -8806,7 +8814,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 173,
+              "source_row_index": 164,
+              "source_row_index_at_freeze": 164,
+              "source_row_key": "80ce2fe6b8cd054cf9c4afb8",
               "european": "Abide",
               "arabic_root": "عقد",
               "author_translit": "3aqd",
@@ -8815,7 +8825,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 174,
+              "source_row_index": 165,
+              "source_row_index_at_freeze": 165,
+              "source_row_key": "70795dcbc249d702e7ec7fac",
               "european": "Abide",
               "arabic_root": "قرض",
               "author_translit": "qurD(at)",
@@ -8824,7 +8836,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 175,
+              "source_row_index": 166,
+              "source_row_index_at_freeze": 166,
+              "source_row_key": "5cdd91208f0bcc1c0c8ee8ba",
               "european": "Abide",
               "arabic_root": "كم",
               "author_translit": "kama",
@@ -8841,13 +8855,13 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            167,
-            170,
-            171,
-            172,
-            173,
-            174,
-            175
+            158,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166
           ],
           "root": "بيت",
           "closure": "ROOT-TRACE",
@@ -23141,11 +23155,13 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            748
+            751
           ],
           "source_claims": [
             {
-              "source_row_index": 748,
+              "source_row_index": 751,
+              "source_row_index_at_freeze": 751,
+              "source_row_key": "99082d64739b0235db7bde24",
               "european": "Carrot",
               "arabic_root": "جزر",
               "author_translit": "jazar(at)",
@@ -51556,11 +51572,13 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            483
+            478
           ],
           "source_claims": [
             {
-              "source_row_index": 483,
+              "source_row_index": 478,
+              "source_row_index_at_freeze": 478,
+              "source_row_key": "392bc77d9d166b03dcc0d32a",
               "european": "Bandage",
               "arabic_root": "بطن",
               "author_translit": "biTaana(t)",
@@ -52812,12 +52830,14 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            472,
-            473
+            467,
+            468
           ],
           "source_claims": [
             {
-              "source_row_index": 472,
+              "source_row_index": 467,
+              "source_row_index_at_freeze": 467,
+              "source_row_key": "1de9f8088278a4b6eb0c82f4",
               "european": "Baby",
               "arabic_root": "بكر",
               "author_translit": "bikr",
@@ -52826,7 +52846,9 @@
               "bridge_agrees": "نعم"
             },
             {
-              "source_row_index": 473,
+              "source_row_index": 468,
+              "source_row_index_at_freeze": 468,
+              "source_row_key": "64684d43fc0023be85556ef0",
               "european": "Baby",
               "arabic_root": "ملك",
               "author_translit": "malaka",

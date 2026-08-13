@@ -16572,11 +16572,13 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            228
+            219
           ],
           "source_claims": [
             {
-              "source_row_index": 228,
+              "source_row_index": 219,
+              "source_row_index_at_freeze": 219,
+              "source_row_key": "9962f24fee3143032deefd23",
               "european": "Add",
               "arabic_root": "حط",
               "author_translit": "2aTT",
@@ -36300,11 +36302,13 @@
           "batch": 1,
           "source": "data/prior-art-pairs.json",
           "source_rows": [
-            753
+            756
           ],
           "source_claims": [
             {
-              "source_row_index": 753,
+              "source_row_index": 756,
+              "source_row_index_at_freeze": 756,
+              "source_row_key": "229e7214ed4923295ebf36d5",
               "european": "Cat",
               "arabic_root": "قط",
               "author_translit": "qiTT",

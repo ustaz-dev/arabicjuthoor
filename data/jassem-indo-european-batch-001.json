@@ -8,13 +8,15 @@
   "batch": 1,
   "selection": {
     "criterion": "first 300 source rows with bridge_agrees=نعم in source order",
-    "eligible_bridge_agrees_rows_current": 1684,
+    "row_identity": "source_row_key is SHA-256/24 of normalized european + arabic_root + arabic_gloss + author_translit; row indices are freeze-time locators only",
+    "source_sha256_at_freeze": "9615a9a49578a0b43edf276ebb32528812a23d4411815b3b27ba35f034bba50e",
+    "eligible_bridge_agrees_rows_current": 1712,
     "selected_source_rows": 300,
-    "first_source_row_index": 2,
-    "last_source_row_index": 823,
-    "source_head_gaps": 59,
-    "nonempty_source_rows": 241,
-    "unique_european_heads": 175
+    "first_source_row_index": 1,
+    "last_source_row_index": 829,
+    "source_head_gaps": 53,
+    "nonempty_source_rows": 247,
+    "unique_european_heads": 180
   },
   "jassem_transliteration": {
     "3": "ع",
@@ -38,35 +40,37 @@
     ],
     "bridge_agrees": "priority signal only, never a verdict"
   },
-  "cards_touched": 175,
-  "new_cards_written": 156,
-  "existing_card_supplements": 19,
+  "cards_touched": 180,
+  "new_cards_written": 159,
+  "existing_card_supplements": 21,
   "newly_issued_positive_cards": 9,
   "previous_positive_confirmations": 1,
-  "open_new_cards": 149,
+  "open_new_cards": 152,
   "new_cards_by_language": {
     "ancient-greek": 11,
     "middle-english": 49,
-    "old-english": 77,
+    "old-english": 80,
     "old-latin": 19
   },
   "all_heads_by_target_language": {
     "ancient-greek": 11,
-    "middle-english": 55,
-    "old-english": 83,
+    "middle-english": 56,
+    "old-english": 87,
     "old-latin": 25,
     "welsh": 1
   },
   "rank_review": {
     "method": "F.rank",
-    "ranked_candidates": 3263,
+    "ranked_candidates": 3333,
     "nonzero_weights": 0,
     "fan_with_dialect_additions": 0,
     "policy": "weight orders display and never judges"
   },
   "source_head_gaps": [
     {
-      "source_row_index": 2,
+      "source_row_index": 1,
+      "source_row_index_at_freeze": 1,
+      "source_row_key": "ab1fb316c6d58dad1bf48184",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -78,7 +82,9 @@
       }
     },
     {
-      "source_row_index": 8,
+      "source_row_index": 7,
+      "source_row_index_at_freeze": 7,
+      "source_row_key": "947103cbfb0b20183603b480",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -90,7 +96,9 @@
       }
     },
     {
-      "source_row_index": 16,
+      "source_row_index": 15,
+      "source_row_index_at_freeze": 15,
+      "source_row_key": "b726102fae12151bc773e0f3",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -102,7 +110,9 @@
       }
     },
     {
-      "source_row_index": 22,
+      "source_row_index": 21,
+      "source_row_index_at_freeze": 21,
+      "source_row_key": "654af6e478afdad52089c239",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -114,55 +124,23 @@
       }
     },
     {
-      "source_row_index": 27,
-      "tag": "SOURCE-HEAD-GAP",
-      "source_claim": {
-        "european": "",
-        "arabic_root": "ثقل",
-        "author_translit": "thiqal",
-        "arabic_gloss": "scale; heaviness",
-        "source": "jassem-2016-origins-development",
-        "bridge_agrees": "نعم"
-      }
-    },
-    {
-      "source_row_index": 28,
+      "source_row_index": 26,
+      "source_row_index_at_freeze": 26,
+      "source_row_key": "e2dad3eccd5f5a3648dc3a67",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
         "arabic_root": "ثلث",
         "author_translit": "thalath",
         "arabic_gloss": "three",
-        "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-celestial · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2013-cognitive · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2018-week-days · jassem-2016-origins-development",
+        "source": "jassem-pronouns · jassem-verb-to-be · jassem-2012-determiners · jassem-2013-negative-particles · jassem-2013-water-sea · jassem-2013-air-fire · jassem-2013-celestial · jassem-2013-animal · jassem-2013-love · jassem-2013-cutting-breaking · jassem-2013-movement-action · jassem-2013-perceptual-sensual · jassem-2013-cognitive · jassem-2014-prepositions · jassem-2014-question-modal · jassem-2014-commerce · jassem-2014-mathematical · jassem-2014-colour-art · jassem-2013-back-consonants · jassem-2014-wining-dining · jassem-2014-mandarin-pronouns · jassem-2015-radical-translation-names · jassem-2016-definite · jassem-2018-week-days",
         "bridge_agrees": "نعم"
       }
     },
     {
-      "source_row_index": 29,
-      "tag": "SOURCE-HEAD-GAP",
-      "source_claim": {
-        "european": "",
-        "arabic_root": "جبر",
-        "author_translit": "jabar",
-        "arabic_gloss": "of bones, to heal",
-        "source": "jassem-2016-origins-development",
-        "bridge_agrees": "نعم"
-      }
-    },
-    {
-      "source_row_index": 30,
-      "tag": "SOURCE-HEAD-GAP",
-      "source_claim": {
-        "european": "",
-        "arabic_root": "جد",
-        "author_translit": "jadd",
-        "arabic_gloss": "grandfather",
-        "source": "jassem-2016-origins-development",
-        "bridge_agrees": "نعم"
-      }
-    },
-    {
-      "source_row_index": 31,
+      "source_row_index": 27,
+      "source_row_index_at_freeze": 27,
+      "source_row_key": "9fb12b3b5f3784593a38152e",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -174,7 +152,9 @@
       }
     },
     {
-      "source_row_index": 33,
+      "source_row_index": 29,
+      "source_row_index_at_freeze": 29,
+      "source_row_key": "f1c218202e5c5e97dea35968",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -186,7 +166,9 @@
       }
     },
     {
-      "source_row_index": 34,
+      "source_row_index": 30,
+      "source_row_index_at_freeze": 30,
+      "source_row_key": "0a2a2ae7410caac20d4ebec7",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -198,7 +180,9 @@
       }
     },
     {
-      "source_row_index": 35,
+      "source_row_index": 31,
+      "source_row_index_at_freeze": 31,
+      "source_row_key": "bccf2c98de640c18ee94ef48",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -210,7 +194,9 @@
       }
     },
     {
-      "source_row_index": 38,
+      "source_row_index": 34,
+      "source_row_index_at_freeze": 34,
+      "source_row_key": "2d63ee38ea7355abe045709c",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -222,7 +208,9 @@
       }
     },
     {
-      "source_row_index": 41,
+      "source_row_index": 37,
+      "source_row_index_at_freeze": 37,
+      "source_row_key": "67e2356bc76b5cfaabbb744f",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -234,31 +222,23 @@
       }
     },
     {
-      "source_row_index": 46,
-      "tag": "SOURCE-HEAD-GAP",
-      "source_claim": {
-        "european": "",
-        "arabic_root": "رجل",
-        "author_translit": "rajul",
-        "arabic_gloss": "man, husband",
-        "source": "jassem-2016-origins-development",
-        "bridge_agrees": "نعم"
-      }
-    },
-    {
-      "source_row_index": 48,
+      "source_row_index": 43,
+      "source_row_index_at_freeze": 43,
+      "source_row_key": "41eacfc941c70c572cd67a46",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
         "arabic_root": "زبر",
         "author_translit": "zabar",
         "arabic_gloss": "write; originally cut",
-        "source": "jassem-2015-case-word-order · jassem-2016-definite · jassem-2018-week-days · jassem-2016-origins-development",
+        "source": "jassem-2015-case-word-order · jassem-2016-definite · jassem-2018-week-days",
         "bridge_agrees": "نعم"
       }
     },
     {
-      "source_row_index": 49,
+      "source_row_index": 44,
+      "source_row_index_at_freeze": 44,
+      "source_row_key": "6ac511d8aab90b17342f55df",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -270,7 +250,9 @@
       }
     },
     {
-      "source_row_index": 52,
+      "source_row_index": 47,
+      "source_row_index_at_freeze": 47,
+      "source_row_key": "f6a137cfaa1a6a2d4745a806",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -282,7 +264,9 @@
       }
     },
     {
-      "source_row_index": 55,
+      "source_row_index": 49,
+      "source_row_index_at_freeze": 49,
+      "source_row_key": "2afd3f37dceacdf143559ff5",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -294,7 +278,9 @@
       }
     },
     {
-      "source_row_index": 56,
+      "source_row_index": 50,
+      "source_row_index_at_freeze": 50,
+      "source_row_key": "0af7708feebd5412512f69cd",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -306,7 +292,9 @@
       }
     },
     {
-      "source_row_index": 57,
+      "source_row_index": 51,
+      "source_row_index_at_freeze": 51,
+      "source_row_key": "8db3207fa241359dace5fead",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -318,7 +306,9 @@
       }
     },
     {
-      "source_row_index": 58,
+      "source_row_index": 52,
+      "source_row_index_at_freeze": 52,
+      "source_row_key": "677d14d05134a50a97661bd0",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -330,7 +320,9 @@
       }
     },
     {
-      "source_row_index": 59,
+      "source_row_index": 53,
+      "source_row_index_at_freeze": 53,
+      "source_row_key": "0e8520f31a75bfe003300e90",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -342,7 +334,9 @@
       }
     },
     {
-      "source_row_index": 61,
+      "source_row_index": 55,
+      "source_row_index_at_freeze": 55,
+      "source_row_key": "9914fd7e14844fcd8c88b4b7",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -354,7 +348,9 @@
       }
     },
     {
-      "source_row_index": 63,
+      "source_row_index": 57,
+      "source_row_index_at_freeze": 57,
+      "source_row_key": "522af12295b016be696b6d4e",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -366,7 +362,9 @@
       }
     },
     {
-      "source_row_index": 64,
+      "source_row_index": 58,
+      "source_row_index_at_freeze": 58,
+      "source_row_key": "843a7bad23e5afeb002e3ab4",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -378,7 +376,9 @@
       }
     },
     {
-      "source_row_index": 67,
+      "source_row_index": 61,
+      "source_row_index_at_freeze": 61,
+      "source_row_key": "0f9b92e97f2fe5d8adb7dc13",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -390,7 +390,9 @@
       }
     },
     {
-      "source_row_index": 69,
+      "source_row_index": 63,
+      "source_row_index_at_freeze": 63,
+      "source_row_key": "ad95fd7b030c2e616e0cad31",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -402,7 +404,9 @@
       }
     },
     {
-      "source_row_index": 71,
+      "source_row_index": 65,
+      "source_row_index_at_freeze": 65,
+      "source_row_key": "6cbd7437ff5f680203f2119d",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -414,7 +418,9 @@
       }
     },
     {
-      "source_row_index": 74,
+      "source_row_index": 68,
+      "source_row_index_at_freeze": 68,
+      "source_row_key": "26bbe35c516a0bd3a31a8d1e",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -426,7 +432,9 @@
       }
     },
     {
-      "source_row_index": 75,
+      "source_row_index": 69,
+      "source_row_index_at_freeze": 69,
+      "source_row_key": "5693bd31b330f8a50ab65f99",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -438,7 +446,9 @@
       }
     },
     {
-      "source_row_index": 82,
+      "source_row_index": 75,
+      "source_row_index_at_freeze": 75,
+      "source_row_key": "28ce1d9f36f66efc58630708",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -450,19 +460,9 @@
       }
     },
     {
-      "source_row_index": 84,
-      "tag": "SOURCE-HEAD-GAP",
-      "source_claim": {
-        "european": "",
-        "arabic_root": "غوث",
-        "author_translit": "ghawth",
-        "arabic_gloss": "rain, help; helper; God",
-        "source": "jassem-2016-origins-development",
-        "bridge_agrees": "نعم"
-      }
-    },
-    {
-      "source_row_index": 85,
+      "source_row_index": 77,
+      "source_row_index_at_freeze": 77,
+      "source_row_key": "2dd063f7f63b816b8ed609da",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -474,7 +474,9 @@
       }
     },
     {
-      "source_row_index": 92,
+      "source_row_index": 84,
+      "source_row_index_at_freeze": 84,
+      "source_row_key": "6a36fc92b2c35f1c16d4188a",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -486,7 +488,9 @@
       }
     },
     {
-      "source_row_index": 93,
+      "source_row_index": 85,
+      "source_row_index_at_freeze": 85,
+      "source_row_key": "c04d6c727df42d76a029c5ec",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -498,7 +502,9 @@
       }
     },
     {
-      "source_row_index": 95,
+      "source_row_index": 87,
+      "source_row_index_at_freeze": 87,
+      "source_row_key": "c10c6acb730a8dca6004dd59",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -510,7 +516,9 @@
       }
     },
     {
-      "source_row_index": 97,
+      "source_row_index": 89,
+      "source_row_index_at_freeze": 89,
+      "source_row_key": "5765123641ce8553a09919f6",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -522,7 +530,9 @@
       }
     },
     {
-      "source_row_index": 101,
+      "source_row_index": 93,
+      "source_row_index_at_freeze": 93,
+      "source_row_key": "9c0f5a8f9a60398f0c555eb4",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -534,7 +544,9 @@
       }
     },
     {
-      "source_row_index": 102,
+      "source_row_index": 94,
+      "source_row_index_at_freeze": 94,
+      "source_row_key": "a605eca0aac4450f84ef47bf",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -546,7 +558,9 @@
       }
     },
     {
-      "source_row_index": 105,
+      "source_row_index": 97,
+      "source_row_index_at_freeze": 97,
+      "source_row_key": "c1b449e67c2ce672e406b907",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -558,7 +572,9 @@
       }
     },
     {
-      "source_row_index": 107,
+      "source_row_index": 99,
+      "source_row_index_at_freeze": 99,
+      "source_row_key": "01a5efe5d546227c33f3322e",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -570,7 +586,9 @@
       }
     },
     {
-      "source_row_index": 108,
+      "source_row_index": 100,
+      "source_row_index_at_freeze": 100,
+      "source_row_key": "79ad4b1950e83a9dd9a52a93",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -582,7 +600,9 @@
       }
     },
     {
-      "source_row_index": 109,
+      "source_row_index": 101,
+      "source_row_index_at_freeze": 101,
+      "source_row_key": "3ee0ad22a4cee84b1f662b53",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -594,7 +614,9 @@
       }
     },
     {
-      "source_row_index": 112,
+      "source_row_index": 104,
+      "source_row_index_at_freeze": 104,
+      "source_row_key": "c3a3db9b34e7b6e97cfdd5cc",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -606,7 +628,9 @@
       }
     },
     {
-      "source_row_index": 113,
+      "source_row_index": 105,
+      "source_row_index_at_freeze": 105,
+      "source_row_key": "5aaceb66e0011ca7e2190c1a",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -618,7 +642,9 @@
       }
     },
     {
-      "source_row_index": 116,
+      "source_row_index": 108,
+      "source_row_index_at_freeze": 108,
+      "source_row_key": "472d83eec2b1ed458a053f7d",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -630,7 +656,9 @@
       }
     },
     {
-      "source_row_index": 119,
+      "source_row_index": 111,
+      "source_row_index_at_freeze": 111,
+      "source_row_key": "ff53f94bb796f147d9ee02db",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -642,7 +670,9 @@
       }
     },
     {
-      "source_row_index": 120,
+      "source_row_index": 113,
+      "source_row_index_at_freeze": 113,
+      "source_row_key": "42ff652fad2bc97eec9277f1",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -654,7 +684,9 @@
       }
     },
     {
-      "source_row_index": 126,
+      "source_row_index": 119,
+      "source_row_index_at_freeze": 119,
+      "source_row_key": "a821b03494d511641739b920",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -666,19 +698,9 @@
       }
     },
     {
-      "source_row_index": 128,
-      "tag": "SOURCE-HEAD-GAP",
-      "source_claim": {
-        "european": "",
-        "arabic_root": "لقلق",
-        "author_translit": "laq(laq)",
-        "arabic_gloss": "a long-necked snake-eating bird",
-        "source": "jassem-2016-origins-development",
-        "bridge_agrees": "نعم"
-      }
-    },
-    {
-      "source_row_index": 130,
+      "source_row_index": 122,
+      "source_row_index_at_freeze": 122,
+      "source_row_key": "bac3e3d6b67bf3fab61216da",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -690,31 +712,37 @@
       }
     },
     {
-      "source_row_index": 132,
+      "source_row_index": 124,
+      "source_row_index_at_freeze": 124,
+      "source_row_key": "0da17c204e3780d95caf8b8b",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
         "arabic_root": "مر",
         "author_translit": "mar(ra)",
         "arabic_gloss": "pass, go",
-        "source": "jassem-verb-to-be · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days · jassem-2016-origins-development",
+        "source": "jassem-verb-to-be · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
         "bridge_agrees": "نعم"
       }
     },
     {
-      "source_row_index": 133,
+      "source_row_index": 125,
+      "source_row_index_at_freeze": 125,
+      "source_row_key": "8ce5387443622707acb6d192",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
         "arabic_root": "مرء",
         "author_translit": "mar'a(t)",
         "arabic_gloss": "woman, wife",
-        "source": "jassem-2013-family · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days · jassem-2016-origins-development",
+        "source": "jassem-2013-family · jassem-2016-definite · jassem-2017-harper-review · jassem-2017-myth-fallacy · jassem-2018-week-days",
         "bridge_agrees": "نعم"
       }
     },
     {
-      "source_row_index": 135,
+      "source_row_index": 127,
+      "source_row_index_at_freeze": 127,
+      "source_row_key": "c22e665af5b07f5663878e8e",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -726,7 +754,9 @@
       }
     },
     {
-      "source_row_index": 142,
+      "source_row_index": 134,
+      "source_row_index_at_freeze": 134,
+      "source_row_key": "48dfa941854ebaeec93246af",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -738,19 +768,23 @@
       }
     },
     {
-      "source_row_index": 144,
+      "source_row_index": 136,
+      "source_row_index_at_freeze": 136,
+      "source_row_key": "b68bad197f3ac9db5cd7a81c",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
         "arabic_root": "نحس",
         "author_translit": "na2s",
         "arabic_gloss": "bad",
-        "source": "jassem-2016-definite · jassem-2018-week-days · jassem-2016-origins-development",
+        "source": "jassem-2016-definite · jassem-2018-week-days",
         "bridge_agrees": "نعم"
       }
     },
     {
-      "source_row_index": 146,
+      "source_row_index": 138,
+      "source_row_index_at_freeze": 138,
+      "source_row_key": "74fb35e6399798925e538596",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -762,7 +796,9 @@
       }
     },
     {
-      "source_row_index": 156,
+      "source_row_index": 148,
+      "source_row_index_at_freeze": 148,
+      "source_row_key": "b646ce08c8af38cffaf30403",
       "tag": "SOURCE-HEAD-GAP",
       "source_claim": {
         "european": "",
@@ -778,17 +814,19 @@
     {
       "head": "Abide",
       "source_rows": [
-        167,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175
+        158,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
       ],
       "source_claims": [
         {
-          "source_row_index": 167,
+          "source_row_index": 158,
+          "source_row_index_at_freeze": 158,
+          "source_row_key": "8068e25f52bb3e4f9b600ad2",
           "european": "Abide",
           "arabic_root": "ءبد",
           "author_translit": "'abada",
@@ -797,7 +835,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 170,
+          "source_row_index": 161,
+          "source_row_index_at_freeze": 161,
+          "source_row_key": "b52c5b85fa57e9bdd9e2aadd",
           "european": "Abide",
           "arabic_root": "ذعر",
           "author_translit": "dhu3r",
@@ -806,7 +846,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 171,
+          "source_row_index": 162,
+          "source_row_index_at_freeze": 162,
+          "source_row_key": "3d2a9f3de84fa3da0f97d8a4",
           "european": "Abide",
           "arabic_root": "شرط",
           "author_translit": "shareeT",
@@ -815,7 +857,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 172,
+          "source_row_index": 163,
+          "source_row_index_at_freeze": 163,
+          "source_row_key": "1f47d7bef0c8610e7d8b30d7",
           "european": "Abide",
           "arabic_root": "صدر",
           "author_translit": "Sadr",
@@ -824,7 +868,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 173,
+          "source_row_index": 164,
+          "source_row_index_at_freeze": 164,
+          "source_row_key": "80ce2fe6b8cd054cf9c4afb8",
           "european": "Abide",
           "arabic_root": "عقد",
           "author_translit": "3aqd",
@@ -833,7 +879,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 174,
+          "source_row_index": 165,
+          "source_row_index_at_freeze": 165,
+          "source_row_key": "70795dcbc249d702e7ec7fac",
           "european": "Abide",
           "arabic_root": "قرض",
           "author_translit": "qurD(at)",
@@ -842,7 +890,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 175,
+          "source_row_index": 166,
+          "source_row_index_at_freeze": 166,
+          "source_row_key": "5cdd91208f0bcc1c0c8ee8ba",
           "european": "Abide",
           "arabic_root": "كم",
           "author_translit": "kama",
@@ -872,11 +922,13 @@
     {
       "head": "Add",
       "source_rows": [
-        228
+        219
       ],
       "source_claims": [
         {
-          "source_row_index": 228,
+          "source_row_index": 219,
+          "source_row_index_at_freeze": 219,
+          "source_row_key": "9962f24fee3143032deefd23",
           "european": "Add",
           "arabic_root": "حط",
           "author_translit": "2aTT",
@@ -894,12 +946,14 @@
     {
       "head": "Aide",
       "source_rows": [
-        272,
-        273
+        264,
+        265
       ],
       "source_claims": [
         {
-          "source_row_index": 272,
+          "source_row_index": 264,
+          "source_row_index_at_freeze": 264,
+          "source_row_key": "bb3c6e3d3245f61d910b3bb7",
           "european": "Aide",
           "arabic_root": "طلق",
           "author_translit": "Taleeq",
@@ -908,7 +962,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 273,
+          "source_row_index": 265,
+          "source_row_index_at_freeze": 265,
+          "source_row_key": "a7435f8aa55b573b928f682f",
           "european": "Aide",
           "arabic_root": "عون",
           "author_translit": "3aawan",
@@ -924,15 +980,41 @@
       "reason": "exact same normalized European lexical form; merged across Khashim and Jassem"
     },
     {
-      "head": "Augustus",
+      "head": "Amber",
       "source_rows": [
-        438,
-        439,
-        440
+        301
       ],
       "source_claims": [
         {
-          "source_row_index": 438,
+          "source_row_index": 301,
+          "source_row_index_at_freeze": 301,
+          "source_row_key": "b4068b6b7e79a2ffad017d34",
+          "european": "Amber",
+          "arabic_root": "عنبر",
+          "author_translit": "3anbar",
+          "arabic_gloss": "ambergris; white/yellow amber (musk)",
+          "source": "jassem-2014-colour-art",
+          "bridge_agrees": "نعم"
+        }
+      ],
+      "target_batch": 2,
+      "target_card_id": "KIE-M0241",
+      "target_language": "middle-english",
+      "matched_form": "amber",
+      "reason": "exact same normalized European lexical form; merged across Khashim and Jassem"
+    },
+    {
+      "head": "Augustus",
+      "source_rows": [
+        432,
+        433,
+        434
+      ],
+      "source_claims": [
+        {
+          "source_row_index": 432,
+          "source_row_index_at_freeze": 432,
+          "source_row_key": "a8c59192986aa2628187317b",
           "european": "Augustus",
           "arabic_root": "خل",
           "author_translit": "khaleel",
@@ -941,7 +1023,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 439,
+          "source_row_index": 433,
+          "source_row_index_at_freeze": 433,
+          "source_row_key": "af6d496adb60ef9a10b6c115",
           "european": "Augustus",
           "arabic_root": "رجل",
           "author_translit": "rajul",
@@ -950,7 +1034,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 440,
+          "source_row_index": 434,
+          "source_row_index_at_freeze": 434,
+          "source_row_key": "be05305e5324e4153b385507",
           "european": "Augustus",
           "arabic_root": "قدس",
           "author_translit": "qudus",
@@ -968,12 +1054,14 @@
     {
       "head": "Baby",
       "source_rows": [
-        472,
-        473
+        467,
+        468
       ],
       "source_claims": [
         {
-          "source_row_index": 472,
+          "source_row_index": 467,
+          "source_row_index_at_freeze": 467,
+          "source_row_key": "1de9f8088278a4b6eb0c82f4",
           "european": "Baby",
           "arabic_root": "بكر",
           "author_translit": "bikr",
@@ -982,7 +1070,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 473,
+          "source_row_index": 468,
+          "source_row_index_at_freeze": 468,
+          "source_row_key": "64684d43fc0023be85556ef0",
           "european": "Baby",
           "arabic_root": "ملك",
           "author_translit": "malaka",
@@ -1000,11 +1090,13 @@
     {
       "head": "Banana",
       "source_rows": [
-        482
+        477
       ],
       "source_claims": [
         {
-          "source_row_index": 482,
+          "source_row_index": 477,
+          "source_row_index_at_freeze": 477,
+          "source_row_key": "41a39ea9fb2678f3ff6b6744",
           "european": "Banana",
           "arabic_root": "بن",
           "author_translit": "banan",
@@ -1022,11 +1114,13 @@
     {
       "head": "Bandage",
       "source_rows": [
-        483
+        478
       ],
       "source_claims": [
         {
-          "source_row_index": 483,
+          "source_row_index": 478,
+          "source_row_index_at_freeze": 478,
+          "source_row_key": "392bc77d9d166b03dcc0d32a",
           "european": "Bandage",
           "arabic_root": "بطن",
           "author_translit": "biTaana(t)",
@@ -1044,11 +1138,13 @@
     {
       "head": "Bank",
       "source_rows": [
-        484
+        479
       ],
       "source_claims": [
         {
-          "source_row_index": 484,
+          "source_row_index": 479,
+          "source_row_index_at_freeze": 479,
+          "source_row_key": "e32b016aea86aa54235407cd",
           "european": "Bank",
           "arabic_root": "جنب",
           "author_translit": "janb",
@@ -1066,11 +1162,13 @@
     {
       "head": "Barley",
       "source_rows": [
-        512
+        507
       ],
       "source_claims": [
         {
-          "source_row_index": 512,
+          "source_row_index": 507,
+          "source_row_index_at_freeze": 507,
+          "source_row_key": "8544d6fc11023a310d8ee7b3",
           "european": "Barley",
           "arabic_root": "بصل",
           "author_translit": "baSal",
@@ -1088,11 +1186,13 @@
     {
       "head": "Bean",
       "source_rows": [
-        526
+        522
       ],
       "source_claims": [
         {
-          "source_row_index": 526,
+          "source_row_index": 522,
+          "source_row_index_at_freeze": 522,
+          "source_row_key": "a5f68b3b6dd7ff2fabc94573",
           "european": "Bean",
           "arabic_root": "بن",
           "author_translit": "bunn",
@@ -1110,12 +1210,14 @@
     {
       "head": "Bear",
       "source_rows": [
-        527,
-        528
+        523,
+        524
       ],
       "source_claims": [
         {
-          "source_row_index": 527,
+          "source_row_index": 523,
+          "source_row_index_at_freeze": 523,
+          "source_row_key": "96e1b8483f5abe7c10c16932",
           "european": "Bear",
           "arabic_root": "برء",
           "author_translit": "bara'a",
@@ -1124,7 +1226,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 528,
+          "source_row_index": 524,
+          "source_row_index_at_freeze": 524,
+          "source_row_key": "dfcf760708ed491a32274813",
           "european": "Bear",
           "arabic_root": "بعر",
           "author_translit": "ba3eer",
@@ -1140,13 +1244,39 @@
       "reason": "exact same normalized European lexical form; merged across Khashim and Jassem"
     },
     {
-      "head": "Blouse",
+      "head": "Black",
       "source_rows": [
-        614
+        598
       ],
       "source_claims": [
         {
-          "source_row_index": 614,
+          "source_row_index": 598,
+          "source_row_index_at_freeze": 598,
+          "source_row_key": "e124075562f2d914e2d6edc0",
+          "european": "Black",
+          "arabic_root": "سود",
+          "author_translit": "aswad",
+          "arabic_gloss": "black",
+          "source": "jassem-2014-colour-art",
+          "bridge_agrees": "نعم"
+        }
+      ],
+      "target_batch": 7,
+      "target_card_id": "KIE-N007-015",
+      "target_language": "old-english",
+      "matched_form": "black",
+      "reason": "exact same normalized European lexical form; merged across Khashim and Jassem"
+    },
+    {
+      "head": "Blouse",
+      "source_rows": [
+        613
+      ],
+      "source_claims": [
+        {
+          "source_row_index": 613,
+          "source_row_index_at_freeze": 613,
+          "source_row_key": "32c451ac09a574b38d19ba27",
           "european": "Blouse",
           "arabic_root": "لبس",
           "author_translit": "libas",
@@ -1164,11 +1294,13 @@
     {
       "head": "Bull",
       "source_rows": [
-        681
+        684
       ],
       "source_claims": [
         {
-          "source_row_index": 681,
+          "source_row_index": 684,
+          "source_row_index_at_freeze": 684,
+          "source_row_key": "9e1ca02bae9dfe5d139fb727",
           "european": "Bull",
           "arabic_root": "بقر",
           "author_translit": "baqar(at)",
@@ -1186,11 +1318,13 @@
     {
       "head": "Cake",
       "source_rows": [
-        712
+        715
       ],
       "source_claims": [
         {
-          "source_row_index": 712,
+          "source_row_index": 715,
+          "source_row_index_at_freeze": 715,
+          "source_row_key": "3acdb7ece1237a8d4cd1f546",
           "european": "Cake",
           "arabic_root": "كعك",
           "author_translit": "ka3ak",
@@ -1208,11 +1342,13 @@
     {
       "head": "Car",
       "source_rows": [
-        737
+        740
       ],
       "source_claims": [
         {
-          "source_row_index": 737,
+          "source_row_index": 740,
+          "source_row_index_at_freeze": 740,
+          "source_row_key": "9853e9239473b5c1892f27db",
           "european": "Car",
           "arabic_root": "جر",
           "author_translit": "jarra",
@@ -1231,11 +1367,13 @@
     {
       "head": "Carrot",
       "source_rows": [
-        748
+        751
       ],
       "source_claims": [
         {
-          "source_row_index": 748,
+          "source_row_index": 751,
+          "source_row_index_at_freeze": 751,
+          "source_row_key": "99082d64739b0235db7bde24",
           "european": "Carrot",
           "arabic_root": "جزر",
           "author_translit": "jazar(at)",
@@ -1253,11 +1391,13 @@
     {
       "head": "Cat",
       "source_rows": [
-        753
+        756
       ],
       "source_claims": [
         {
-          "source_row_index": 753,
+          "source_row_index": 756,
+          "source_row_index_at_freeze": 756,
+          "source_row_key": "229e7214ed4923295ebf36d5",
           "european": "Cat",
           "arabic_root": "قط",
           "author_translit": "qiTT",
@@ -1275,12 +1415,14 @@
     {
       "head": "Cave",
       "source_rows": [
-        758,
-        759
+        761,
+        762
       ],
       "source_claims": [
         {
-          "source_row_index": 758,
+          "source_row_index": 761,
+          "source_row_index_at_freeze": 761,
+          "source_row_key": "331ed4b91e52dde7a83130b8",
           "european": "Cave",
           "arabic_root": "قطم",
           "author_translit": "qaTam",
@@ -1289,7 +1431,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 759,
+          "source_row_index": 762,
+          "source_row_index_at_freeze": 762,
+          "source_row_key": "ce961b825b460d018e89d24a",
           "european": "Cave",
           "arabic_root": "كهف",
           "author_translit": "kahf",
@@ -1319,11 +1463,13 @@
     {
       "head": "Chemise",
       "source_rows": [
-        808
+        816
       ],
       "source_claims": [
         {
-          "source_row_index": 808,
+          "source_row_index": 816,
+          "source_row_index_at_freeze": 816,
+          "source_row_key": "5c89695387706726dc808d2c",
           "european": "Chemise",
           "arabic_root": "قمص",
           "author_translit": "qameeS",
@@ -1353,11 +1499,13 @@
         "s"
       ],
       "source_rows": [
-        164
+        155
       ],
       "source_claims": [
         {
-          "source_row_index": 164,
+          "source_row_index": 155,
+          "source_row_index_at_freeze": 155,
+          "source_row_key": "bfb6c9be752eaf493d1e7123",
           "european": "Abacus",
           "arabic_root": "كوم",
           "author_translit": "kawm(at)",
@@ -1722,11 +1870,13 @@
         "r"
       ],
       "source_rows": [
-        166
+        157
       ],
       "source_claims": [
         {
-          "source_row_index": 166,
+          "source_row_index": 157,
+          "source_row_index_at_freeze": 157,
+          "source_row_key": "9808dbf8c92c957a92ef5a34",
           "european": "Abhor",
           "arabic_root": "كره",
           "author_translit": "kariha",
@@ -2330,11 +2480,13 @@
         "t"
       ],
       "source_rows": [
-        183
+        174
       ],
       "source_claims": [
         {
-          "source_row_index": 183,
+          "source_row_index": 174,
+          "source_row_index_at_freeze": 174,
+          "source_row_key": "9f6a15d902b65cfe03c477b3",
           "european": "About",
           "arabic_root": "بعد",
           "author_translit": "ba3d",
@@ -2683,13 +2835,15 @@
         "d"
       ],
       "source_rows": [
-        189,
-        191,
-        193
+        180,
+        182,
+        184
       ],
       "source_claims": [
         {
-          "source_row_index": 189,
+          "source_row_index": 180,
+          "source_row_index_at_freeze": 180,
+          "source_row_key": "22c189cc07133c0e5f320d94",
           "european": "Abrade",
           "arabic_root": "عن",
           "author_translit": "3an",
@@ -2698,7 +2852,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 191,
+          "source_row_index": 182,
+          "source_row_index_at_freeze": 182,
+          "source_row_key": "c60625386249e81979174e08",
           "european": "Abrade",
           "arabic_root": "قطم",
           "author_translit": "qaTam",
@@ -2707,7 +2863,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 193,
+          "source_row_index": 184,
+          "source_row_index_at_freeze": 184,
+          "source_row_key": "494f8f1897e804be10d94364",
           "european": "Abrade",
           "arabic_root": "نجل",
           "author_translit": "najal",
@@ -2801,11 +2959,13 @@
         "t"
       ],
       "source_rows": [
-        200
+        191
       ],
       "source_claims": [
         {
-          "source_row_index": 200,
+          "source_row_index": 191,
+          "source_row_index_at_freeze": 191,
+          "source_row_key": "b85528d9d4d7587275e574c9",
           "european": "Accelerate",
           "arabic_root": "سرع",
           "author_translit": "asra3a",
@@ -3026,11 +3186,13 @@
         "t"
       ],
       "source_rows": [
-        201
+        192
       ],
       "source_claims": [
         {
-          "source_row_index": 201,
+          "source_row_index": 192,
+          "source_row_index_at_freeze": 192,
+          "source_row_key": "26d7591baf52f337a3023d84",
           "european": "Accent",
           "arabic_root": "غن",
           "author_translit": "ghanna",
@@ -3108,12 +3270,14 @@
         "v"
       ],
       "source_rows": [
-        207,
-        208
+        198,
+        199
       ],
       "source_claims": [
         {
-          "source_row_index": 207,
+          "source_row_index": 198,
+          "source_row_index_at_freeze": 198,
+          "source_row_key": "0f070acc84a776255fd176c6",
           "european": "Accusative",
           "arabic_root": "ضد",
           "author_translit": "Did",
@@ -3122,7 +3286,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 208,
+          "source_row_index": 199,
+          "source_row_index_at_freeze": 199,
+          "source_row_key": "19ea56d611e15f5bfb3183db",
           "european": "Accusative",
           "arabic_root": "قص",
           "author_translit": "qiSSa(t)",
@@ -3726,12 +3892,14 @@
         "s"
       ],
       "source_rows": [
-        211,
-        212
+        202,
+        203
       ],
       "source_claims": [
         {
-          "source_row_index": 211,
+          "source_row_index": 202,
+          "source_row_index_at_freeze": 202,
+          "source_row_key": "198eb20b659d47a0265e1a2a",
           "european": "Accuse",
           "arabic_root": "رشد",
           "author_translit": "arshad",
@@ -3740,7 +3908,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 212,
+          "source_row_index": 203,
+          "source_row_index_at_freeze": 203,
+          "source_row_key": "69a0ffc2219d393d833b199c",
           "european": "Accuse",
           "arabic_root": "قض",
           "author_translit": "qaDia(t)",
@@ -4409,11 +4579,13 @@
         "n"
       ],
       "source_rows": [
-        217
+        208
       ],
       "source_claims": [
         {
-          "source_row_index": 217,
+          "source_row_index": 208,
+          "source_row_index_at_freeze": 208,
+          "source_row_key": "6ffe76aa8b24e1c1f07027ee",
           "european": "Acorn",
           "arabic_root": "قرن",
           "author_translit": "qarn",
@@ -4505,12 +4677,14 @@
         "r"
       ],
       "source_rows": [
-        219,
-        220
+        210,
+        211
       ],
       "source_claims": [
         {
-          "source_row_index": 219,
+          "source_row_index": 210,
+          "source_row_index_at_freeze": 210,
+          "source_row_key": "92f222b9745b74158bc917ef",
           "european": "Acquire",
           "arabic_root": "بهل",
           "author_translit": "bahl",
@@ -4519,7 +4693,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 220,
+          "source_row_index": 211,
+          "source_row_index_at_freeze": 211,
+          "source_row_key": "828fd2bc76cfe5b604650a0d",
           "european": "Acquire",
           "arabic_root": "تحت",
           "author_translit": "ta2t",
@@ -4643,11 +4819,13 @@
         "t"
       ],
       "source_rows": [
-        226
+        217
       ],
       "source_claims": [
         {
-          "source_row_index": 226,
+          "source_row_index": 217,
+          "source_row_index_at_freeze": 217,
+          "source_row_key": "e808fdaa3f16b16001ab0757",
           "european": "Act",
           "arabic_root": "كد",
           "author_translit": "kadd",
@@ -5637,11 +5815,13 @@
         "SH"
       ],
       "source_rows": [
-        234
+        225
       ],
       "source_claims": [
         {
-          "source_row_index": 234,
+          "source_row_index": 225,
+          "source_row_index_at_freeze": 225,
+          "source_row_key": "947b0ed2f39134a5c38c8836",
           "european": "Admonish",
           "arabic_root": "نصح",
           "author_translit": "naSa2",
@@ -5736,11 +5916,13 @@
         "t"
       ],
       "source_rows": [
-        236
+        227
       ],
       "source_claims": [
         {
-          "source_row_index": 236,
+          "source_row_index": 227,
+          "source_row_index_at_freeze": 227,
+          "source_row_key": "d151b2b218de3d92678a7fc8",
           "european": "Adolescent",
           "arabic_root": "طلع",
           "author_translit": "Tala3",
@@ -5758,6 +5940,105 @@
     {
       "card_id": "JAS-IE-001-014",
       "batch": 1,
+      "head": "Adorn",
+      "normalized_head": "adorn",
+      "language": "old-english",
+      "script": "germanic",
+      "skeleton": [
+        "d",
+        "r",
+        "n"
+      ],
+      "source_rows": [
+        230
+      ],
+      "source_claims": [
+        {
+          "source_row_index": 230,
+          "source_row_index_at_freeze": 230,
+          "source_row_key": "874a6c9f99427935ac16733b",
+          "european": "Adorn",
+          "arabic_root": "لون",
+          "author_translit": "lawn",
+          "arabic_gloss": "colour; decoration",
+          "source": "jassem-2014-colour-art",
+          "bridge_agrees": "نعم"
+        }
+      ],
+      "fan_review": [
+        {
+          "root": "درن",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "دلن",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ضرن",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ضلن",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذرن",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذلن",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ترن",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "تلن",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        }
+      ],
+      "dialect_additions": 0,
+      "positives": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "JAS-IE-001-015",
+      "batch": 1,
       "head": "Adventure",
       "normalized_head": "adventure",
       "language": "middle-english",
@@ -5770,11 +6051,13 @@
         "r"
       ],
       "source_rows": [
-        239
+        232
       ],
       "source_claims": [
         {
-          "source_row_index": 239,
+          "source_row_index": 232,
+          "source_row_index_at_freeze": 232,
+          "source_row_key": "0c378c7b63b98c2786cec2d1",
           "european": "Adventure",
           "arabic_root": "نفذ",
           "author_translit": "nafadha",
@@ -5790,7 +6073,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-015",
+      "card_id": "JAS-IE-001-016",
       "batch": 1,
       "head": "Advise",
       "normalized_head": "advise",
@@ -5802,11 +6085,13 @@
         "s"
       ],
       "source_rows": [
-        240
+        233
       ],
       "source_claims": [
         {
-          "source_row_index": 240,
+          "source_row_index": 233,
+          "source_row_index_at_freeze": 233,
+          "source_row_key": "3aa450ef37804b2f6e1e90e4",
           "european": "Advise",
           "arabic_root": "صرم",
           "author_translit": "Saarim",
@@ -6207,7 +6492,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-016",
+      "card_id": "JAS-IE-001-017",
       "batch": 1,
       "head": "Advisor",
       "normalized_head": "advisor",
@@ -6220,11 +6505,13 @@
         "r"
       ],
       "source_rows": [
-        241
+        234
       ],
       "source_claims": [
         {
-          "source_row_index": 241,
+          "source_row_index": 234,
+          "source_row_index_at_freeze": 234,
+          "source_row_key": "7c867663fb6185d8ff7aac2e",
           "european": "Advisor",
           "arabic_root": "قو",
           "author_translit": "qawi(un)",
@@ -7393,7 +7680,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-017",
+      "card_id": "JAS-IE-001-018",
       "batch": 1,
       "head": "Affair",
       "normalized_head": "affair",
@@ -7404,12 +7691,14 @@
         "r"
       ],
       "source_rows": [
-        243,
-        244
+        236,
+        237
       ],
       "source_claims": [
         {
-          "source_row_index": 243,
+          "source_row_index": 236,
+          "source_row_index_at_freeze": 236,
+          "source_row_key": "dddd327dd8fb1f60f3f85dd9",
           "european": "Affair",
           "arabic_root": "ءمر",
           "author_translit": "'amr",
@@ -7418,7 +7707,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 244,
+          "source_row_index": 237,
+          "source_row_index_at_freeze": 237,
+          "source_row_key": "5f17f1e6182bb9f251d941ee",
           "european": "Affair",
           "arabic_root": "وجد",
           "author_translit": "wajd",
@@ -7595,7 +7886,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-018",
+      "card_id": "JAS-IE-001-019",
       "batch": 1,
       "head": "Affidavit",
       "normalized_head": "affidavit",
@@ -7608,11 +7899,13 @@
         "t"
       ],
       "source_rows": [
-        247
+        240
       ],
       "source_claims": [
         {
-          "source_row_index": 247,
+          "source_row_index": 240,
+          "source_row_index_at_freeze": 240,
+          "source_row_key": "2178e9152e5dc34d94952caa",
           "european": "Affidavit",
           "arabic_root": "قو",
           "author_translit": "qawi(un)",
@@ -7845,7 +8138,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-019",
+      "card_id": "JAS-IE-001-020",
       "batch": 1,
       "head": "Affiliation",
       "normalized_head": "affiliation",
@@ -7858,11 +8151,13 @@
         "n"
       ],
       "source_rows": [
-        249
+        242
       ],
       "source_claims": [
         {
-          "source_row_index": 249,
+          "source_row_index": 242,
+          "source_row_index_at_freeze": 242,
+          "source_row_key": "0557ef59a6001c9d713adef1",
           "european": "Affiliation",
           "arabic_root": "قدم",
           "author_translit": "qiddaam",
@@ -8103,7 +8398,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-020",
+      "card_id": "JAS-IE-001-021",
       "batch": 1,
       "head": "After",
       "normalized_head": "after",
@@ -8115,12 +8410,14 @@
         "r"
       ],
       "source_rows": [
-        250,
-        251
+        243,
+        244
       ],
       "source_claims": [
         {
-          "source_row_index": 250,
+          "source_row_index": 243,
+          "source_row_index_at_freeze": 243,
+          "source_row_key": "540111a6e49550bc97d6be2c",
           "european": "After",
           "arabic_root": "بعد",
           "author_translit": "ab3ad",
@@ -8129,7 +8426,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 251,
+          "source_row_index": 244,
+          "source_row_index_at_freeze": 244,
+          "source_row_key": "73b82432c5dfd55d11854cbf",
           "european": "After",
           "arabic_root": "ثر",
           "author_translit": "ithra",
@@ -8274,7 +8573,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-021",
+      "card_id": "JAS-IE-001-022",
       "batch": 1,
       "head": "Again they are taken",
       "normalized_head": "again they are taken",
@@ -8291,13 +8590,15 @@
         "n"
       ],
       "source_rows": [
-        253,
-        256,
-        257
+        246,
+        249,
+        250
       ],
       "source_claims": [
         {
-          "source_row_index": 253,
+          "source_row_index": 246,
+          "source_row_index_at_freeze": 246,
+          "source_row_key": "19e0fa444393a684d750fa5a",
           "european": "Again they are taken",
           "arabic_root": "رفق",
           "author_translit": "rafeeq",
@@ -8306,7 +8607,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 256,
+          "source_row_index": 249,
+          "source_row_index_at_freeze": 249,
+          "source_row_key": "4ca8f27b87bf4698ba84d6bd",
           "european": "Again they are taken",
           "arabic_root": "كنس",
           "author_translit": "kanees(at)",
@@ -8315,7 +8618,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 257,
+          "source_row_index": 250,
+          "source_row_index_at_freeze": 250,
+          "source_row_key": "340d8b5f7a071b43759f0463",
           "european": "Again they are taken",
           "arabic_root": "نصر",
           "author_translit": "naSir",
@@ -8331,7 +8636,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-022",
+      "card_id": "JAS-IE-001-023",
       "batch": 1,
       "head": "Against",
       "normalized_head": "against",
@@ -8344,11 +8649,13 @@
         "t"
       ],
       "source_rows": [
-        260
+        253
       ],
       "source_claims": [
         {
-          "source_row_index": 260,
+          "source_row_index": 253,
+          "source_row_index_at_freeze": 253,
+          "source_row_key": "42a2204dcbae1c70d1cb9221",
           "european": "Against",
           "arabic_root": "جنح",
           "author_translit": "jana2a",
@@ -8877,7 +9184,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-023",
+      "card_id": "JAS-IE-001-024",
       "batch": 1,
       "head": "Age",
       "normalized_head": "age",
@@ -8887,11 +9194,13 @@
         "g"
       ],
       "source_rows": [
-        264
+        257
       ],
       "source_claims": [
         {
-          "source_row_index": 264,
+          "source_row_index": 257,
+          "source_row_index_at_freeze": 257,
+          "source_row_key": "4d45a9f2d347d874f117f978",
           "european": "Age",
           "arabic_root": "وجه",
           "author_translit": "wajh",
@@ -8907,7 +9216,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-024",
+      "card_id": "JAS-IE-001-025",
       "batch": 1,
       "head": "Agree",
       "normalized_head": "agree",
@@ -8918,11 +9227,13 @@
         "r"
       ],
       "source_rows": [
-        270
+        262
       ],
       "source_claims": [
         {
-          "source_row_index": 270,
+          "source_row_index": 262,
+          "source_row_index_at_freeze": 262,
+          "source_row_key": "4ecd899abb02cdc3a14e5432",
           "european": "Agree",
           "arabic_root": "لءلء",
           "author_translit": "la'la'",
@@ -9579,7 +9890,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-025",
+      "card_id": "JAS-IE-001-026",
       "batch": 1,
       "head": "Aircraft",
       "normalized_head": "aircraft",
@@ -9593,11 +9904,13 @@
         "t"
       ],
       "source_rows": [
-        284
+        276
       ],
       "source_claims": [
         {
-          "source_row_index": 284,
+          "source_row_index": 276,
+          "source_row_index_at_freeze": 276,
+          "source_row_key": "666bfafbdcf1fbb3bc05b645",
           "european": "Aircraft",
           "arabic_root": "جرف",
           "author_translit": "jarraafa(t)",
@@ -9613,7 +9926,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-026",
+      "card_id": "JAS-IE-001-027",
       "batch": 1,
       "head": "Alienate",
       "normalized_head": "alienate",
@@ -9625,11 +9938,13 @@
         "t"
       ],
       "source_rows": [
-        292
+        284
       ],
       "source_claims": [
         {
-          "source_row_index": 292,
+          "source_row_index": 284,
+          "source_row_index_at_freeze": 284,
+          "source_row_key": "7ee1926dd853b67a8f636302",
           "european": "Alienate",
           "arabic_root": "قرب",
           "author_translit": "qareeb",
@@ -9710,7 +10025,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-027",
+      "card_id": "JAS-IE-001-028",
       "batch": 1,
       "head": "Allow",
       "normalized_head": "allow",
@@ -9721,12 +10036,14 @@
         "w"
       ],
       "source_rows": [
-        298,
-        299
+        290,
+        291
       ],
       "source_claims": [
         {
-          "source_row_index": 298,
+          "source_row_index": 290,
+          "source_row_index_at_freeze": 290,
+          "source_row_key": "ae119e6eccdb1860ff536458",
           "european": "Allow",
           "arabic_root": "حل",
           "author_translit": "2alal",
@@ -9735,7 +10052,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 299,
+          "source_row_index": 291,
+          "source_row_index_at_freeze": 291,
+          "source_row_key": "b11480569e0969a0a8a5f556",
           "european": "Allow",
           "arabic_root": "علق",
           "author_translit": "3allaq",
@@ -9816,7 +10135,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-028",
+      "card_id": "JAS-IE-001-029",
       "batch": 1,
       "head": "Ally",
       "normalized_head": "ally",
@@ -9827,11 +10146,13 @@
         "y"
       ],
       "source_rows": [
-        300
+        292
       ],
       "source_claims": [
         {
-          "source_row_index": 300,
+          "source_row_index": 292,
+          "source_row_index_at_freeze": 292,
+          "source_row_key": "20844bc2007a60546118c83c",
           "european": "Ally",
           "arabic_root": "علق",
           "author_translit": "3allaq",
@@ -9926,7 +10247,7 @@
       "judgment": "ROOT-TRACE"
     },
     {
-      "card_id": "JAS-IE-001-029",
+      "card_id": "JAS-IE-001-030",
       "batch": 1,
       "head": "Along",
       "normalized_head": "along",
@@ -9938,11 +10259,13 @@
         "g"
       ],
       "source_rows": [
-        304
+        296
       ],
       "source_claims": [
         {
-          "source_row_index": 304,
+          "source_row_index": 296,
+          "source_row_index_at_freeze": 296,
+          "source_row_key": "db63f7a06dd4ec87ff63c3b9",
           "european": "Along",
           "arabic_root": "عند",
           "author_translit": "3aneed",
@@ -10023,7 +10346,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-030",
+      "card_id": "JAS-IE-001-031",
       "batch": 1,
       "head": "Amicable",
       "normalized_head": "amicable",
@@ -10036,11 +10359,13 @@
         "l"
       ],
       "source_rows": [
-        312
+        305
       ],
       "source_claims": [
         {
-          "source_row_index": 312,
+          "source_row_index": 305,
+          "source_row_index_at_freeze": 305,
+          "source_row_key": "d656b6ba415a50bba44b1677",
           "european": "Amicable",
           "arabic_root": "عنتر",
           "author_translit": "3antar(at)",
@@ -10105,7 +10430,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-031",
+      "card_id": "JAS-IE-001-032",
       "batch": 1,
       "head": "Among",
       "normalized_head": "among",
@@ -10117,11 +10442,13 @@
         "g"
       ],
       "source_rows": [
-        316
+        309
       ],
       "source_claims": [
         {
-          "source_row_index": 316,
+          "source_row_index": 309,
+          "source_row_index_at_freeze": 309,
+          "source_row_key": "339037649b03af96b70ca536",
           "european": "Among",
           "arabic_root": "جمع",
           "author_translit": "jam(ee)3",
@@ -10170,7 +10497,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-032",
+      "card_id": "JAS-IE-001-033",
       "batch": 1,
       "head": "Anarchy",
       "normalized_head": "anarchy",
@@ -10183,11 +10510,13 @@
         "y"
       ],
       "source_rows": [
-        325
+        318
       ],
       "source_claims": [
         {
-          "source_row_index": 325,
+          "source_row_index": 318,
+          "source_row_index_at_freeze": 318,
+          "source_row_key": "f8c1d79a08926e7bc5ea51fe",
           "european": "Anarchy",
           "arabic_root": "مثل",
           "author_translit": "mithil",
@@ -10252,7 +10581,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-033",
+      "card_id": "JAS-IE-001-034",
       "batch": 1,
       "head": "Anatomy",
       "normalized_head": "anatomy",
@@ -10265,13 +10594,15 @@
         "y"
       ],
       "source_rows": [
-        326,
-        327,
-        328
+        319,
+        320,
+        321
       ],
       "source_claims": [
         {
-          "source_row_index": 326,
+          "source_row_index": 319,
+          "source_row_index_at_freeze": 319,
+          "source_row_key": "0e2fb2c4713576e479362c9c",
           "european": "Anatomy",
           "arabic_root": "دم",
           "author_translit": "damm",
@@ -10280,7 +10611,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 327,
+          "source_row_index": 320,
+          "source_row_index_at_freeze": 320,
+          "source_row_key": "8c38b078f5da66ed87f41408",
           "european": "Anatomy",
           "arabic_root": "عن",
           "author_translit": "3an",
@@ -10289,7 +10622,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 328,
+          "source_row_index": 321,
+          "source_row_index_at_freeze": 321,
+          "source_row_key": "423fde9a3e5991f29bf51edc",
           "european": "Anatomy",
           "arabic_root": "مد",
           "author_translit": "mad(ad)",
@@ -10330,7 +10665,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-034",
+      "card_id": "JAS-IE-001-035",
       "batch": 1,
       "head": "Ancient",
       "normalized_head": "ancient",
@@ -10343,12 +10678,14 @@
         "t"
       ],
       "source_rows": [
-        330,
-        332
+        323,
+        325
       ],
       "source_claims": [
         {
-          "source_row_index": 330,
+          "source_row_index": 323,
+          "source_row_index_at_freeze": 323,
+          "source_row_key": "704f2da401ac9634257e47aa",
           "european": "Ancient",
           "arabic_root": "عتق",
           "author_translit": "3ateeq",
@@ -10357,7 +10694,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 332,
+          "source_row_index": 325,
+          "source_row_index_at_freeze": 325,
+          "source_row_key": "9eedf3c95bbf0aeefcc2bbd4",
           "european": "Ancient",
           "arabic_root": "قدم",
           "author_translit": "qadeem",
@@ -10470,7 +10809,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-035",
+      "card_id": "JAS-IE-001-036",
       "batch": 1,
       "head": "Angel",
       "normalized_head": "angel",
@@ -10482,11 +10821,13 @@
         "l"
       ],
       "source_rows": [
-        337
+        330
       ],
       "source_claims": [
         {
-          "source_row_index": 337,
+          "source_row_index": 330,
+          "source_row_index_at_freeze": 330,
+          "source_row_key": "71ad8e56fe85932f3dc1f1be",
           "european": "Angel",
           "arabic_root": "رسل",
           "author_translit": "rasool",
@@ -10567,7 +10908,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-036",
+      "card_id": "JAS-IE-001-037",
       "batch": 1,
       "head": "Answer",
       "normalized_head": "answer",
@@ -10580,12 +10921,14 @@
         "r"
       ],
       "source_rows": [
-        348,
-        349
+        341,
+        342
       ],
       "source_claims": [
         {
-          "source_row_index": 348,
+          "source_row_index": 341,
+          "source_row_index_at_freeze": 341,
+          "source_row_key": "1ee745fe6955ff9e6c48fde5",
           "european": "Answer",
           "arabic_root": "لقب",
           "author_translit": "laqab",
@@ -10594,7 +10937,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 349,
+          "source_row_index": 342,
+          "source_row_index_at_freeze": 342,
+          "source_row_key": "7db8b745dfd1d46b4c2ac0a6",
           "european": "Answer",
           "arabic_root": "نظم",
           "author_translit": "naDhm",
@@ -10675,7 +11020,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-037",
+      "card_id": "JAS-IE-001-038",
       "batch": 1,
       "head": "Ant",
       "normalized_head": "ant",
@@ -10686,11 +11031,13 @@
         "t"
       ],
       "source_rows": [
-        351
+        344
       ],
       "source_claims": [
         {
-          "source_row_index": 351,
+          "source_row_index": 344,
+          "source_row_index_at_freeze": 344,
+          "source_row_key": "09d5f9213a47e5caaf9cb86c",
           "european": "Ant",
           "arabic_root": "نمل",
           "author_translit": "naml(at)",
@@ -11027,7 +11374,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-038",
+      "card_id": "JAS-IE-001-039",
       "batch": 1,
       "head": "Apartment",
       "normalized_head": "apartment",
@@ -11042,11 +11389,13 @@
         "t"
       ],
       "source_rows": [
-        355
+        348
       ],
       "source_claims": [
         {
-          "source_row_index": 355,
+          "source_row_index": 348,
+          "source_row_index_at_freeze": 348,
+          "source_row_key": "82c89afc83d01c411badd972",
           "european": "Apartment",
           "arabic_root": "بتر",
           "author_translit": "batr",
@@ -11062,7 +11411,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-039",
+      "card_id": "JAS-IE-001-040",
       "batch": 1,
       "head": "Appear",
       "normalized_head": "appear",
@@ -11073,11 +11422,13 @@
         "r"
       ],
       "source_rows": [
-        359
+        352
       ],
       "source_claims": [
         {
-          "source_row_index": 359,
+          "source_row_index": 352,
+          "source_row_index_at_freeze": 352,
+          "source_row_key": "eb47467c2ff92109c07503dc",
           "european": "Appear",
           "arabic_root": "عطس",
           "author_translit": "3aTas",
@@ -11414,7 +11765,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-040",
+      "card_id": "JAS-IE-001-041",
       "batch": 1,
       "head": "Appetite",
       "normalized_head": "appetite",
@@ -11426,11 +11777,13 @@
         "t"
       ],
       "source_rows": [
-        361
+        354
       ],
       "source_claims": [
         {
-          "source_row_index": 361,
+          "source_row_index": 354,
+          "source_row_index_at_freeze": 354,
+          "source_row_key": "d6c97328c684b359df0e9c5e",
           "european": "Appetite",
           "arabic_root": "طيب",
           "author_translit": "Taiyeb(at)",
@@ -11703,7 +12056,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-041",
+      "card_id": "JAS-IE-001-042",
       "batch": 1,
       "head": "Apple",
       "normalized_head": "apple",
@@ -11714,11 +12067,13 @@
         "l"
       ],
       "source_rows": [
-        362
+        355
       ],
       "source_claims": [
         {
-          "source_row_index": 362,
+          "source_row_index": 355,
+          "source_row_index_at_freeze": 355,
+          "source_row_key": "3512db82bfc1b867bad33eb8",
           "european": "Apple",
           "arabic_root": "بلح",
           "author_translit": "bala2",
@@ -12055,7 +12410,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-042",
+      "card_id": "JAS-IE-001-043",
       "batch": 1,
       "head": "Architecture",
       "normalized_head": "architecture",
@@ -12070,11 +12425,13 @@
         "r"
       ],
       "source_rows": [
-        368
+        362
       ],
       "source_claims": [
         {
-          "source_row_index": 368,
+          "source_row_index": 362,
+          "source_row_index_at_freeze": 362,
+          "source_row_key": "d4d8e12b12fcbf2947c55daa",
           "european": "Architecture",
           "arabic_root": "رءس",
           "author_translit": "ra'ees",
@@ -12090,7 +12447,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-043",
+      "card_id": "JAS-IE-001-044",
       "batch": 1,
       "head": "Area",
       "normalized_head": "area",
@@ -12100,12 +12457,14 @@
         "r"
       ],
       "source_rows": [
-        370,
-        371
+        364,
+        365
       ],
       "source_claims": [
         {
-          "source_row_index": 370,
+          "source_row_index": 364,
+          "source_row_index_at_freeze": 364,
+          "source_row_key": "e01df68da2f59d21d89b1f54",
           "european": "Area",
           "arabic_root": "برج",
           "author_translit": "burj",
@@ -12114,7 +12473,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 371,
+          "source_row_index": 365,
+          "source_row_index_at_freeze": 365,
+          "source_row_key": "b4a1b59cf6ffe624faac0640",
           "european": "Area",
           "arabic_root": "جبل",
           "author_translit": "jabal",
@@ -12130,7 +12491,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-044",
+      "card_id": "JAS-IE-001-045",
       "batch": 1,
       "head": "Aroma",
       "normalized_head": "aroma",
@@ -12141,11 +12502,13 @@
         "m"
       ],
       "source_rows": [
-        387
+        381
       ],
       "source_claims": [
         {
-          "source_row_index": 387,
+          "source_row_index": 381,
+          "source_row_index_at_freeze": 381,
+          "source_row_key": "c277382593b7c42a13169cc1",
           "european": "Aroma",
           "arabic_root": "مثل",
           "author_translit": "mithl",
@@ -12322,7 +12685,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-045",
+      "card_id": "JAS-IE-001-046",
       "batch": 1,
       "head": "Around",
       "normalized_head": "around",
@@ -12334,13 +12697,15 @@
         "d"
       ],
       "source_rows": [
-        391,
-        395,
-        396
+        385,
+        389,
+        390
       ],
       "source_claims": [
         {
-          "source_row_index": 391,
+          "source_row_index": 385,
+          "source_row_index_at_freeze": 385,
+          "source_row_key": "38e8d5265e948e888593f172",
           "european": "Around",
           "arabic_root": "رد",
           "author_translit": "radada",
@@ -12349,7 +12714,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 395,
+          "source_row_index": 389,
+          "source_row_index_at_freeze": 389,
+          "source_row_key": "5d54ab36713478b875398724",
           "european": "Around",
           "arabic_root": "سوق",
           "author_translit": "sawq",
@@ -12358,7 +12725,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 396,
+          "source_row_index": 390,
+          "source_row_index_at_freeze": 390,
+          "source_row_key": "ddb11f8a28da6920ee1890bb",
           "european": "Around",
           "arabic_root": "عقب",
           "author_translit": "3aqib",
@@ -12439,7 +12808,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-046",
+      "card_id": "JAS-IE-001-047",
       "batch": 1,
       "head": "Arrive",
       "normalized_head": "arrive",
@@ -12450,11 +12819,13 @@
         "v"
       ],
       "source_rows": [
-        400
+        394
       ],
       "source_claims": [
         {
-          "source_row_index": 400,
+          "source_row_index": 394,
+          "source_row_index_at_freeze": 394,
+          "source_row_key": "2651af806bfed6825cf3bcd4",
           "european": "Arrive",
           "arabic_root": "صعد",
           "author_translit": "Sa3ada",
@@ -12919,7 +13290,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-047",
+      "card_id": "JAS-IE-001-048",
       "batch": 1,
       "head": "Art",
       "normalized_head": "art",
@@ -12930,11 +13301,13 @@
         "t"
       ],
       "source_rows": [
-        405
+        399
       ],
       "source_claims": [
         {
-          "source_row_index": 405,
+          "source_row_index": 399,
+          "source_row_index_at_freeze": 399,
+          "source_row_key": "00e0cbe5ad72ff0352e67b51",
           "european": "Art",
           "arabic_root": "نطق",
           "author_translit": "anTaqa",
@@ -13431,7 +13804,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-048",
+      "card_id": "JAS-IE-001-049",
       "batch": 1,
       "head": "Article",
       "normalized_head": "article",
@@ -13444,11 +13817,13 @@
         "l"
       ],
       "source_rows": [
-        408
+        402
       ],
       "source_claims": [
         {
-          "source_row_index": 408,
+          "source_row_index": 402,
+          "source_row_index_at_freeze": 402,
+          "source_row_key": "09c6d50b1978417c05e38ac6",
           "european": "Article",
           "arabic_root": "نطق",
           "author_translit": "anTaqa",
@@ -13753,7 +14128,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-049",
+      "card_id": "JAS-IE-001-050",
       "batch": 1,
       "head": "Ascent",
       "normalized_head": "ascent",
@@ -13765,11 +14140,13 @@
         "t"
       ],
       "source_rows": [
-        409
+        403
       ],
       "source_claims": [
         {
-          "source_row_index": 409,
+          "source_row_index": 403,
+          "source_row_index_at_freeze": 403,
+          "source_row_key": "7517b3b4bcbd022dd146855f",
           "european": "Ascent",
           "arabic_root": "صعد",
           "author_translit": "aS3ad",
@@ -13834,7 +14211,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-050",
+      "card_id": "JAS-IE-001-051",
       "batch": 1,
       "head": "Ascetic",
       "normalized_head": "ascetic",
@@ -13846,12 +14223,14 @@
         "c"
       ],
       "source_rows": [
-        412,
-        413
+        406,
+        407
       ],
       "source_claims": [
         {
-          "source_row_index": 412,
+          "source_row_index": 406,
+          "source_row_index_at_freeze": 406,
+          "source_row_key": "fd2c10a6bf2f3f3af3b6ff32",
           "european": "Ascetic",
           "arabic_root": "سبح",
           "author_translit": "sibaa2a(t)",
@@ -13860,7 +14239,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 413,
+          "source_row_index": 407,
+          "source_row_index_at_freeze": 407,
+          "source_row_key": "e54de6ac20ef5995c998a23d",
           "european": "Ascetic",
           "arabic_root": "سلم",
           "author_translit": "aslam",
@@ -14021,7 +14402,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-051",
+      "card_id": "JAS-IE-001-052",
       "batch": 1,
       "head": "Ask",
       "normalized_head": "ask",
@@ -14032,11 +14413,13 @@
         "k"
       ],
       "source_rows": [
-        416
+        410
       ],
       "source_claims": [
         {
-          "source_row_index": 416,
+          "source_row_index": 410,
+          "source_row_index_at_freeze": 410,
+          "source_row_key": "55123dd012b4cb7621b6c32f",
           "european": "Ask",
           "arabic_root": "قص",
           "author_translit": "qaSSa",
@@ -15013,7 +15396,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-052",
+      "card_id": "JAS-IE-001-053",
       "batch": 1,
       "head": "Assume",
       "normalized_head": "assume",
@@ -15024,11 +15407,13 @@
         "m"
       ],
       "source_rows": [
-        426
+        420
       ],
       "source_claims": [
         {
-          "source_row_index": 426,
+          "source_row_index": 420,
+          "source_row_index_at_freeze": 420,
+          "source_row_key": "640a8d92b6bcfc69dd2b99bc",
           "european": "Assume",
           "arabic_root": "عطس",
           "author_translit": "3uTaas",
@@ -15365,7 +15750,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-053",
+      "card_id": "JAS-IE-001-054",
       "batch": 1,
       "head": "Atomic Bomb/Weapon",
       "normalized_head": "atomic bomb/weapon",
@@ -15383,12 +15768,14 @@
         "n"
       ],
       "source_rows": [
-        432,
-        434
+        426,
+        428
       ],
       "source_claims": [
         {
-          "source_row_index": 432,
+          "source_row_index": 426,
+          "source_row_index_at_freeze": 426,
+          "source_row_key": "def08dde77ccbee6ad75e9e4",
           "european": "Atomic Bomb/Weapon",
           "arabic_root": "ءثر",
           "author_translit": "'athar(at)",
@@ -15397,7 +15784,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 434,
+          "source_row_index": 428,
+          "source_row_index_at_freeze": 428,
+          "source_row_key": "c07034d754b2f9f28ed1875b",
           "european": "Atomic Bomb/Weapon",
           "arabic_root": "قطم",
           "author_translit": "qaTam",
@@ -15413,7 +15802,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-054",
+      "card_id": "JAS-IE-001-055",
       "batch": 1,
       "head": "Attribute",
       "normalized_head": "attribute",
@@ -15426,11 +15815,13 @@
         "t"
       ],
       "source_rows": [
-        437
+        431
       ],
       "source_claims": [
         {
-          "source_row_index": 437,
+          "source_row_index": 431,
+          "source_row_index_at_freeze": 431,
+          "source_row_key": "eaea26fd8714b0bf08b41f64",
           "european": "Attribute",
           "arabic_root": "قرب",
           "author_translit": "qareeb(at)",
@@ -15591,7 +15982,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-055",
+      "card_id": "JAS-IE-001-056",
       "batch": 1,
       "head": "Authority",
       "normalized_head": "authority",
@@ -15604,11 +15995,13 @@
         "y"
       ],
       "source_rows": [
-        447
+        441
       ],
       "source_claims": [
         {
-          "source_row_index": 447,
+          "source_row_index": 441,
+          "source_row_index_at_freeze": 441,
+          "source_row_key": "b8eba017e20a416f5c218506",
           "european": "Authority",
           "arabic_root": "ورد",
           "author_translit": "warid",
@@ -15769,7 +16162,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-056",
+      "card_id": "JAS-IE-001-057",
       "batch": 1,
       "head": "Autumn",
       "normalized_head": "autumn",
@@ -15781,12 +16174,14 @@
         "n"
       ],
       "source_rows": [
-        449,
-        450
+        443,
+        444
       ],
       "source_claims": [
         {
-          "source_row_index": 449,
+          "source_row_index": 443,
+          "source_row_index_at_freeze": 443,
+          "source_row_key": "ac5798b372a37bf7ad67bf65",
           "european": "Autumn",
           "arabic_root": "رجل",
           "author_translit": "rijl",
@@ -15795,7 +16190,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 450,
+          "source_row_index": 444,
+          "source_row_index_at_freeze": 444,
+          "source_row_key": "a2e46266f94d9dd51636639e",
           "european": "Autumn",
           "arabic_root": "سن",
           "author_translit": "sin",
@@ -15836,7 +16233,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-057",
+      "card_id": "JAS-IE-001-058",
       "batch": 1,
       "head": "Avenue",
       "normalized_head": "avenue",
@@ -15847,12 +16244,14 @@
         "n"
       ],
       "source_rows": [
-        453,
-        455
+        447,
+        449
       ],
       "source_claims": [
         {
-          "source_row_index": 453,
+          "source_row_index": 447,
+          "source_row_index_at_freeze": 447,
+          "source_row_key": "801e190dacc238375e0b8cda",
           "european": "Avenue",
           "arabic_root": "سبح",
           "author_translit": "saba2",
@@ -15861,7 +16260,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 455,
+          "source_row_index": 449,
+          "source_row_index_at_freeze": 449,
+          "source_row_key": "19fec147811faddf37ecd5be",
           "european": "Avenue",
           "arabic_root": "مهد",
           "author_translit": "mahd",
@@ -16110,7 +16511,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-058",
+      "card_id": "JAS-IE-001-059",
       "batch": 1,
       "head": "Aware",
       "normalized_head": "aware",
@@ -16121,11 +16522,13 @@
         "r"
       ],
       "source_rows": [
-        461
+        455
       ],
       "source_claims": [
         {
-          "source_row_index": 461,
+          "source_row_index": 455,
+          "source_row_index_at_freeze": 455,
+          "source_row_key": "b79a2ab95979a2b3f1d3591b",
           "european": "Aware",
           "arabic_root": "عرف",
           "author_translit": "3arifa",
@@ -16286,7 +16689,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-059",
+      "card_id": "JAS-IE-001-060",
       "batch": 1,
       "head": "Away",
       "normalized_head": "away",
@@ -16297,11 +16700,13 @@
         "y"
       ],
       "source_rows": [
-        463
+        457
       ],
       "source_claims": [
         {
-          "source_row_index": 463,
+          "source_row_index": 457,
+          "source_row_index_at_freeze": 457,
+          "source_row_key": "2288e111c73bef266b738fb7",
           "european": "Away",
           "arabic_root": "دبر",
           "author_translit": "dubur",
@@ -16374,7 +16779,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-060",
+      "card_id": "JAS-IE-001-061",
       "batch": 1,
       "head": "Axe",
       "normalized_head": "axe",
@@ -16384,11 +16789,13 @@
         "x"
       ],
       "source_rows": [
-        465
+        459
       ],
       "source_claims": [
         {
-          "source_row_index": 465,
+          "source_row_index": 459,
+          "source_row_index_at_freeze": 459,
+          "source_row_key": "1a4730a6fb7e586c5e494d8d",
           "european": "Axe",
           "arabic_root": "فءس",
           "author_translit": "fa's",
@@ -16404,7 +16811,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-061",
+      "card_id": "JAS-IE-001-062",
       "batch": 1,
       "head": "Aye",
       "normalized_head": "aye",
@@ -16414,11 +16821,13 @@
         "y"
       ],
       "source_rows": [
-        467
+        461
       ],
       "source_claims": [
         {
-          "source_row_index": 467,
+          "source_row_index": 461,
+          "source_row_index_at_freeze": 461,
+          "source_row_key": "27e77ff07599512c358926b6",
           "european": "Aye",
           "arabic_root": "طرب",
           "author_translit": "Tarab",
@@ -16434,7 +16843,521 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-062",
+      "card_id": "JAS-IE-001-063",
+      "batch": 1,
+      "head": "Azure",
+      "normalized_head": "azure",
+      "language": "old-english",
+      "script": "germanic",
+      "skeleton": [
+        "z",
+        "r"
+      ],
+      "source_rows": [
+        462
+      ],
+      "source_claims": [
+        {
+          "source_row_index": 462,
+          "source_row_index_at_freeze": 462,
+          "source_row_key": "7e84d7779d1f814868927507",
+          "european": "Azure",
+          "arabic_root": "زرق",
+          "author_translit": "azraq",
+          "arabic_gloss": "blue",
+          "source": "jassem-2014-colour-art",
+          "bridge_agrees": "نعم"
+        }
+      ],
+      "fan_review": [
+        {
+          "root": "زر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "زل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "ذر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "ذل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "صر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "صل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "زرر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "زور",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "زير",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "زار",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "زرو",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "زري",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "زرا",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "وزر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "يزر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "زلل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "زول",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "زيل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "زال",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "زلو",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "زلي",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "زلا",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "وزل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "يزل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذرر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "ذور",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذير",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذار",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذرو",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "ذري",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذرا",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "وذر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "يذر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذلل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "ذول",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذيل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذال",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذلو",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذلي",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "ذلا",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "وذل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "يذل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "صرر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "صور",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "صير",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "صار",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "صرو",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "صري",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "صرا",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "وصر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "يصر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "صلل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "صول",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "صيل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "صال",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "صلو",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "صلي",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "صلا",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "وصل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "يصل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        }
+      ],
+      "dialect_additions": 0,
+      "positives": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "JAS-IE-001-064",
       "batch": 1,
       "head": "Bachelor",
       "normalized_head": "bachelor",
@@ -16447,11 +17370,13 @@
         "r"
       ],
       "source_rows": [
-        474
+        469
       ],
       "source_claims": [
         {
-          "source_row_index": 474,
+          "source_row_index": 469,
+          "source_row_index_at_freeze": 469,
+          "source_row_key": "b149b2a1b3705599d82d87ae",
           "european": "Bachelor",
           "arabic_root": "بكر",
           "author_translit": "bikr",
@@ -16612,7 +17537,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-063",
+      "card_id": "JAS-IE-001-065",
       "batch": 1,
       "head": "Bake",
       "normalized_head": "bake",
@@ -16623,11 +17548,13 @@
         "k"
       ],
       "source_rows": [
-        476
+        471
       ],
       "source_claims": [
         {
-          "source_row_index": 476,
+          "source_row_index": 471,
+          "source_row_index_at_freeze": 471,
+          "source_row_key": "4c24d59e09b49b736d75fe3c",
           "european": "Bake",
           "arabic_root": "خبز",
           "author_translit": "khabaz",
@@ -16884,7 +17811,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-064",
+      "card_id": "JAS-IE-001-066",
       "batch": 1,
       "head": "Ballot Box",
       "normalized_head": "ballot box",
@@ -16898,11 +17825,13 @@
         "x"
       ],
       "source_rows": [
-        481
+        476
       ],
       "source_claims": [
         {
-          "source_row_index": 481,
+          "source_row_index": 476,
+          "source_row_index_at_freeze": 476,
+          "source_row_key": "57d5246aa0a032615f090fdf",
           "european": "Ballot Box",
           "arabic_root": "خشب",
           "author_translit": "khashab",
@@ -16918,7 +17847,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-065",
+      "card_id": "JAS-IE-001-067",
       "batch": 1,
       "head": "Banquet",
       "normalized_head": "banquet",
@@ -16931,11 +17860,13 @@
         "t"
       ],
       "source_rows": [
-        485
+        480
       ],
       "source_claims": [
         {
-          "source_row_index": 485,
+          "source_row_index": 480,
+          "source_row_index_at_freeze": 480,
+          "source_row_key": "d1e34b9177ad4a251bb14587",
           "european": "Banquet",
           "arabic_root": "جنب",
           "author_translit": "jaanib",
@@ -17016,7 +17947,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-066",
+      "card_id": "JAS-IE-001-068",
       "batch": 1,
       "head": "Bar",
       "normalized_head": "bar",
@@ -17027,11 +17958,13 @@
         "r"
       ],
       "source_rows": [
-        486
+        481
       ],
       "source_claims": [
         {
-          "source_row_index": 486,
+          "source_row_index": 481,
+          "source_row_index_at_freeze": 481,
+          "source_row_key": "c9dcee8fc17b8010eca41c28",
           "european": "Bar",
           "arabic_root": "بر",
           "author_translit": "barra",
@@ -17208,7 +18141,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-067",
+      "card_id": "JAS-IE-001-069",
       "batch": 1,
       "head": "Barely",
       "normalized_head": "barely",
@@ -17221,12 +18154,14 @@
         "y"
       ],
       "source_rows": [
-        492,
-        499
+        487,
+        494
       ],
       "source_claims": [
         {
-          "source_row_index": 492,
+          "source_row_index": 487,
+          "source_row_index_at_freeze": 487,
+          "source_row_key": "91473ed127ee41558ede7fb3",
           "european": "Barely",
           "arabic_root": "صغر",
           "author_translit": "Sagheer(at)",
@@ -17235,7 +18170,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 499,
+          "source_row_index": 494,
+          "source_row_index_at_freeze": 494,
+          "source_row_key": "39f9c567d8a1a61709494242",
           "european": "Barely",
           "arabic_root": "قل",
           "author_translit": "qal(eel)",
@@ -17284,7 +18221,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-068",
+      "card_id": "JAS-IE-001-070",
       "batch": 1,
       "head": "Bark",
       "normalized_head": "bark",
@@ -17296,11 +18233,13 @@
         "k"
       ],
       "source_rows": [
-        510
+        505
       ],
       "source_claims": [
         {
-          "source_row_index": 510,
+          "source_row_index": 505,
+          "source_row_index_at_freeze": 505,
+          "source_row_key": "6fc112c31739b65d67b75c1e",
           "european": "Bark",
           "arabic_root": "نبح",
           "author_translit": "naba2",
@@ -17365,7 +18304,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-069",
+      "card_id": "JAS-IE-001-071",
       "batch": 1,
       "head": "Barrister",
       "normalized_head": "barrister",
@@ -17379,11 +18318,13 @@
         "r"
       ],
       "source_rows": [
-        515
+        510
       ],
       "source_claims": [
         {
-          "source_row_index": 515,
+          "source_row_index": 510,
+          "source_row_index_at_freeze": 510,
+          "source_row_key": "7ad1917cde4f2dc518cb1dc5",
           "european": "Barrister",
           "arabic_root": "رب",
           "author_translit": "rabb(at)",
@@ -17399,7 +18340,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-070",
+      "card_id": "JAS-IE-001-072",
       "batch": 1,
       "head": "Basil",
       "normalized_head": "basil",
@@ -17411,11 +18352,13 @@
         "l"
       ],
       "source_rows": [
-        516
+        511
       ],
       "source_claims": [
         {
-          "source_row_index": 516,
+          "source_row_index": 511,
+          "source_row_index_at_freeze": 511,
+          "source_row_key": "495a5f423eb53edf918952f9",
           "european": "Basil",
           "arabic_root": "بصل",
           "author_translit": "baSal",
@@ -17496,7 +18439,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-071",
+      "card_id": "JAS-IE-001-073",
       "batch": 1,
       "head": "Battle",
       "normalized_head": "battle",
@@ -17508,12 +18451,14 @@
         "l"
       ],
       "source_rows": [
-        520,
-        521
+        515,
+        516
       ],
       "source_claims": [
         {
-          "source_row_index": 520,
+          "source_row_index": 515,
+          "source_row_index_at_freeze": 515,
+          "source_row_key": "a1f5fb9b0119c6f04a2543ed",
           "european": "Battle",
           "arabic_root": "بطل",
           "author_translit": "baTal",
@@ -17522,7 +18467,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 521,
+          "source_row_index": 516,
+          "source_row_index_at_freeze": 516,
+          "source_row_key": "8667fd5520a6d3ff3831e7f4",
           "european": "Battle",
           "arabic_root": "ضرب",
           "author_translit": "Darab",
@@ -17603,7 +18550,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-072",
+      "card_id": "JAS-IE-001-074",
       "batch": 1,
       "head": "Bead",
       "normalized_head": "bead",
@@ -17614,12 +18561,14 @@
         "d"
       ],
       "source_rows": [
-        524,
-        525
+        519,
+        520
       ],
       "source_claims": [
         {
-          "source_row_index": 524,
+          "source_row_index": 519,
+          "source_row_index_at_freeze": 519,
+          "source_row_key": "5a36bf528af8fe09ad872f48",
           "european": "Bead",
           "arabic_root": "عبد",
           "author_translit": "3abada",
@@ -17628,7 +18577,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 525,
+          "source_row_index": 520,
+          "source_row_index_at_freeze": 520,
+          "source_row_key": "b121ca13e5d0af769f1c1a95",
           "european": "Bead",
           "arabic_root": "كنس",
           "author_translit": "kaneesa(t)",
@@ -17965,7 +18916,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-073",
+      "card_id": "JAS-IE-001-075",
       "batch": 1,
       "head": "Beautiful",
       "normalized_head": "beautiful",
@@ -17978,12 +18929,14 @@
         "l"
       ],
       "source_rows": [
-        536,
-        538
+        532,
+        534
       ],
       "source_claims": [
         {
-          "source_row_index": 536,
+          "source_row_index": 532,
+          "source_row_index_at_freeze": 532,
+          "source_row_key": "ffbb77bcacb932fd138ee142",
           "european": "Beautiful",
           "arabic_root": "بيض",
           "author_translit": "bayaaD",
@@ -17992,7 +18945,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 538,
+          "source_row_index": 534,
+          "source_row_index_at_freeze": 534,
+          "source_row_key": "e644a8a0cd99be4e02aa8bf3",
           "european": "Beautiful",
           "arabic_root": "ضوء",
           "author_translit": "Daw'",
@@ -18137,7 +19092,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-074",
+      "card_id": "JAS-IE-001-076",
       "batch": 1,
       "head": "Bed",
       "normalized_head": "bed",
@@ -18148,11 +19103,13 @@
         "d"
       ],
       "source_rows": [
-        543
+        540
       ],
       "source_claims": [
         {
-          "source_row_index": 543,
+          "source_row_index": 540,
+          "source_row_index_at_freeze": 540,
+          "source_row_key": "6d2e122218135f1ae353bb84",
           "european": "Bed",
           "arabic_root": "مهد",
           "author_translit": "mahd",
@@ -18489,7 +19446,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-075",
+      "card_id": "JAS-IE-001-077",
       "batch": 1,
       "head": "Beef",
       "normalized_head": "beef",
@@ -18500,12 +19457,14 @@
         "f"
       ],
       "source_rows": [
-        545,
-        546
+        542,
+        543
       ],
       "source_claims": [
         {
-          "source_row_index": 545,
+          "source_row_index": 542,
+          "source_row_index_at_freeze": 542,
+          "source_row_key": "68674da7d82835de47350412",
           "european": "Beef",
           "arabic_root": "بقر",
           "author_translit": "baqar(at)",
@@ -18514,7 +19473,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 546,
+          "source_row_index": 543,
+          "source_row_index_at_freeze": 543,
+          "source_row_key": "09d32eddfe08dd3140d5fe1f",
           "european": "Beef",
           "arabic_root": "بلع",
           "author_translit": "bala3",
@@ -18691,7 +19652,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-076",
+      "card_id": "JAS-IE-001-078",
       "batch": 1,
       "head": "Beg",
       "normalized_head": "beg",
@@ -18702,11 +19663,13 @@
         "g"
       ],
       "source_rows": [
-        552
+        549
       ],
       "source_claims": [
         {
-          "source_row_index": 552,
+          "source_row_index": 549,
+          "source_row_index_at_freeze": 549,
+          "source_row_key": "847c668e24b649d94a69fe80",
           "european": "Beg",
           "arabic_root": "بلع",
           "author_translit": "bala3",
@@ -19043,7 +20006,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-077",
+      "card_id": "JAS-IE-001-079",
       "batch": 1,
       "head": "Begin",
       "normalized_head": "begin",
@@ -19055,11 +20018,13 @@
         "n"
       ],
       "source_rows": [
-        555
+        552
       ],
       "source_claims": [
         {
-          "source_row_index": 555,
+          "source_row_index": 552,
+          "source_row_index_at_freeze": 552,
+          "source_row_key": "a623bb5ec424299f33f2d058",
           "european": "Begin",
           "arabic_root": "نشء",
           "author_translit": "nasha'a",
@@ -19108,7 +20073,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-078",
+      "card_id": "JAS-IE-001-080",
       "batch": 1,
       "head": "Behind",
       "normalized_head": "behind",
@@ -19121,12 +20086,14 @@
         "d"
       ],
       "source_rows": [
-        559,
-        560
+        556,
+        557
       ],
       "source_claims": [
         {
-          "source_row_index": 559,
+          "source_row_index": 556,
+          "source_row_index_at_freeze": 556,
+          "source_row_key": "87b1cf765d088b4d445f3368",
           "european": "Behind",
           "arabic_root": "بعد",
           "author_translit": "ba3d(in)",
@@ -19135,7 +20102,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 560,
+          "source_row_index": 557,
+          "source_row_index_at_freeze": 557,
+          "source_row_key": "26af3dde2ecf85f83a4eeb7a",
           "european": "Behind",
           "arabic_root": "عنز",
           "author_translit": "3anz(at)",
@@ -19344,7 +20313,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-079",
+      "card_id": "JAS-IE-001-081",
       "batch": 1,
       "head": "Belt",
       "normalized_head": "belt",
@@ -19356,11 +20325,13 @@
         "t"
       ],
       "source_rows": [
-        569
+        567
       ],
       "source_claims": [
         {
-          "source_row_index": 569,
+          "source_row_index": 567,
+          "source_row_index_at_freeze": 567,
+          "source_row_key": "7659b37abebf2bc00b1cdbed",
           "european": "Belt",
           "arabic_root": "ربط",
           "author_translit": "ribaaT",
@@ -19441,7 +20412,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-080",
+      "card_id": "JAS-IE-001-082",
       "batch": 1,
       "head": "Bequeath",
       "normalized_head": "bequeath",
@@ -19453,11 +20424,13 @@
         "TH"
       ],
       "source_rows": [
-        572
+        570
       ],
       "source_claims": [
         {
-          "source_row_index": 572,
+          "source_row_index": 570,
+          "source_row_index_at_freeze": 570,
+          "source_row_key": "f018e144457b714d1c54bc11",
           "european": "Bequeath",
           "arabic_root": "بق",
           "author_translit": "baqia",
@@ -19522,7 +20495,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-081",
+      "card_id": "JAS-IE-001-083",
       "batch": 1,
       "head": "Beseech",
       "normalized_head": "beseech",
@@ -19534,11 +20507,13 @@
         "CH"
       ],
       "source_rows": [
-        575
+        573
       ],
       "source_claims": [
         {
-          "source_row_index": 575,
+          "source_row_index": 573,
+          "source_row_index_at_freeze": 573,
+          "source_row_key": "93a0db070af98c8662cdf04a",
           "european": "Beseech",
           "arabic_root": "شوق",
           "author_translit": "shawq",
@@ -19651,7 +20626,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-082",
+      "card_id": "JAS-IE-001-084",
       "batch": 1,
       "head": "Between",
       "normalized_head": "between",
@@ -19664,11 +20639,13 @@
         "n"
       ],
       "source_rows": [
-        577
+        575
       ],
       "source_claims": [
         {
-          "source_row_index": 577,
+          "source_row_index": 575,
+          "source_row_index_at_freeze": 575,
+          "source_row_key": "8e17df1b694d919097a0711b",
           "european": "Between",
           "arabic_root": "ثن",
           "author_translit": "thaani",
@@ -19717,7 +20694,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-083",
+      "card_id": "JAS-IE-001-085",
       "batch": 1,
       "head": "Beverage",
       "normalized_head": "beverage",
@@ -19730,12 +20707,14 @@
         "g"
       ],
       "source_rows": [
-        579,
-        580
+        577,
+        578
       ],
       "source_claims": [
         {
-          "source_row_index": 579,
+          "source_row_index": 577,
+          "source_row_index_at_freeze": 577,
+          "source_row_key": "30a7e86f02a9e4f3144d03dc",
           "european": "Beverage",
           "arabic_root": "خبز",
           "author_translit": "khubz(at)",
@@ -19744,7 +20723,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 580,
+          "source_row_index": 578,
+          "source_row_index_at_freeze": 578,
+          "source_row_key": "c826a01a0f665300ff67bf84",
           "european": "Beverage",
           "arabic_root": "شرب",
           "author_translit": "sharaab",
@@ -19953,7 +20934,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-084",
+      "card_id": "JAS-IE-001-086",
       "batch": 1,
       "head": "Bias",
       "normalized_head": "bias",
@@ -19964,11 +20945,13 @@
         "s"
       ],
       "source_rows": [
-        582
+        580
       ],
       "source_claims": [
         {
-          "source_row_index": 582,
+          "source_row_index": 580,
+          "source_row_index_at_freeze": 580,
+          "source_row_key": "8b23e42510e6fa5c879538fd",
           "european": "Bias",
           "arabic_root": "برج",
           "author_translit": "burj",
@@ -20305,7 +21288,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-085",
+      "card_id": "JAS-IE-001-087",
       "batch": 1,
       "head": "Bikini",
       "normalized_head": "bikini",
@@ -20317,11 +21300,13 @@
         "n"
       ],
       "source_rows": [
-        585
+        583
       ],
       "source_claims": [
         {
-          "source_row_index": 585,
+          "source_row_index": 583,
+          "source_row_index_at_freeze": 583,
+          "source_row_key": "4b28a72f470b210c1c60f8d4",
           "european": "Bikini",
           "arabic_root": "نقب",
           "author_translit": "niqaab",
@@ -20362,7 +21347,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-086",
+      "card_id": "JAS-IE-001-088",
       "batch": 1,
       "head": "Binary",
       "normalized_head": "binary",
@@ -20375,11 +21360,13 @@
         "y"
       ],
       "source_rows": [
-        586
+        584
       ],
       "source_claims": [
         {
-          "source_row_index": 586,
+          "source_row_index": 584,
+          "source_row_index_at_freeze": 584,
+          "source_row_key": "454ae065b02442bcd889fddf",
           "european": "Binary",
           "arabic_root": "سبع",
           "author_translit": "sab3",
@@ -20412,7 +21399,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-087",
+      "card_id": "JAS-IE-001-089",
       "batch": 1,
       "head": "Bishop",
       "normalized_head": "bishop",
@@ -20424,12 +21411,14 @@
         "p"
       ],
       "source_rows": [
-        590,
-        591
+        588,
+        589
       ],
       "source_claims": [
         {
-          "source_row_index": 590,
+          "source_row_index": 588,
+          "source_row_index_at_freeze": 588,
+          "source_row_key": "64ca6591993bf346583df5ce",
           "european": "Bishop",
           "arabic_root": "سقف",
           "author_translit": "saqf",
@@ -20438,7 +21427,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 591,
+          "source_row_index": 589,
+          "source_row_index_at_freeze": 589,
+          "source_row_key": "c5aefa2520cec1b5f5c2ec94",
           "european": "Bishop",
           "arabic_root": "كبش",
           "author_translit": "kabsh",
@@ -20487,7 +21478,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-088",
+      "card_id": "JAS-IE-001-090",
       "batch": 1,
       "head": "Bit",
       "normalized_head": "bit",
@@ -20498,12 +21489,14 @@
         "t"
       ],
       "source_rows": [
-        592,
-        593
+        590,
+        591
       ],
       "source_claims": [
         {
-          "source_row_index": 592,
+          "source_row_index": 590,
+          "source_row_index_at_freeze": 590,
+          "source_row_key": "b87ac5f2f08dc147b0712df0",
           "european": "Bit",
           "arabic_root": "بدء",
           "author_translit": "bada'",
@@ -20512,7 +21505,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 593,
+          "source_row_index": 591,
+          "source_row_index_at_freeze": 591,
+          "source_row_key": "9df6abfc7a743d40c7b3c383",
           "european": "Bit",
           "arabic_root": "بضع",
           "author_translit": "baDa3",
@@ -20863,7 +21858,7 @@
       "judgment": "NUCLEUS-TRACE"
     },
     {
-      "card_id": "JAS-IE-001-089",
+      "card_id": "JAS-IE-001-091",
       "batch": 1,
       "head": "Bitch",
       "normalized_head": "bitch",
@@ -20875,12 +21870,14 @@
         "CH"
       ],
       "source_rows": [
-        594,
-        595
+        592,
+        593
       ],
       "source_claims": [
         {
-          "source_row_index": 594,
+          "source_row_index": 592,
+          "source_row_index_at_freeze": 592,
+          "source_row_key": "cbdd89af50762a26708a7ab9",
           "european": "Bitch",
           "arabic_root": "قحب",
           "author_translit": "qa2ba(t)",
@@ -20889,7 +21886,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 595,
+          "source_row_index": 593,
+          "source_row_index_at_freeze": 593,
+          "source_row_key": "a896ccb06d1f94e079875efa",
           "european": "Bitch",
           "arabic_root": "كلب",
           "author_translit": "kalba(t)",
@@ -21002,7 +22001,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-090",
+      "card_id": "JAS-IE-001-092",
       "batch": 1,
       "head": "Blaze",
       "normalized_head": "blaze",
@@ -21014,11 +22013,13 @@
         "z"
       ],
       "source_rows": [
-        600
+        599
       ],
       "source_claims": [
         {
-          "source_row_index": 600,
+          "source_row_index": 599,
+          "source_row_index_at_freeze": 599,
+          "source_row_key": "91a58f8900e10924c0273cd8",
           "european": "Blaze",
           "arabic_root": "لهب",
           "author_translit": "lahab",
@@ -21098,7 +22099,7 @@
       "judgment": "ROOT-ECHO"
     },
     {
-      "card_id": "JAS-IE-001-091",
+      "card_id": "JAS-IE-001-093",
       "batch": 1,
       "head": "Bless",
       "normalized_head": "bless",
@@ -21110,13 +22111,15 @@
         "s"
       ],
       "source_rows": [
-        602,
-        604,
-        606
+        601,
+        603,
+        605
       ],
       "source_claims": [
         {
-          "source_row_index": 602,
+          "source_row_index": 601,
+          "source_row_index_at_freeze": 601,
+          "source_row_key": "1cb4045a838c8b10b072f6d3",
           "european": "Bless",
           "arabic_root": "تحت",
           "author_translit": "ta2ta",
@@ -21125,7 +22128,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 604,
+          "source_row_index": 603,
+          "source_row_index_at_freeze": 603,
+          "source_row_key": "fe958898c6c1a29321f0873d",
           "european": "Bless",
           "arabic_root": "صلب",
           "author_translit": "Saleeb",
@@ -21134,7 +22139,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 606,
+          "source_row_index": 605,
+          "source_row_index_at_freeze": 605,
+          "source_row_key": "f9241c628de409047f9e1290",
           "european": "Bless",
           "arabic_root": "كهن",
           "author_translit": "kaahin",
@@ -21215,7 +22222,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-092",
+      "card_id": "JAS-IE-001-094",
       "batch": 1,
       "head": "Blind",
       "normalized_head": "blind",
@@ -21228,11 +22235,13 @@
         "d"
       ],
       "source_rows": [
-        607
+        606
       ],
       "source_claims": [
         {
-          "source_row_index": 607,
+          "source_row_index": 606,
+          "source_row_index_at_freeze": 606,
+          "source_row_key": "d3f065f8a9eb22a9d7232d3c",
           "european": "Blind",
           "arabic_root": "بلد",
           "author_translit": "baleed",
@@ -21313,7 +22322,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-093",
+      "card_id": "JAS-IE-001-095",
       "batch": 1,
       "head": "Blizzard",
       "normalized_head": "blizzard",
@@ -21327,11 +22336,13 @@
         "d"
       ],
       "source_rows": [
-        608
+        607
       ],
       "source_claims": [
         {
-          "source_row_index": 608,
+          "source_row_index": 607,
+          "source_row_index_at_freeze": 607,
+          "source_row_key": "bc127f30f1fdfe64678cd7d9",
           "european": "Blizzard",
           "arabic_root": "برد",
           "author_translit": "bar(a)d",
@@ -21347,7 +22358,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-094",
+      "card_id": "JAS-IE-001-096",
       "batch": 1,
       "head": "Bloom",
       "normalized_head": "bloom",
@@ -21359,11 +22370,13 @@
         "m"
       ],
       "source_rows": [
-        610
+        609
       ],
       "source_claims": [
         {
-          "source_row_index": 610,
+          "source_row_index": 609,
+          "source_row_index_at_freeze": 609,
+          "source_row_key": "a4a5f021da4fde58c806836e",
           "european": "Bloom",
           "arabic_root": "برعم",
           "author_translit": "bur3um",
@@ -21396,7 +22409,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-095",
+      "card_id": "JAS-IE-001-097",
       "batch": 1,
       "head": "Blossom",
       "normalized_head": "blossom",
@@ -21409,12 +22422,14 @@
         "m"
       ],
       "source_rows": [
-        612,
-        613
+        611,
+        612
       ],
       "source_claims": [
         {
-          "source_row_index": 612,
+          "source_row_index": 611,
+          "source_row_index_at_freeze": 611,
+          "source_row_key": "4fa543669e15c6d08e04458f",
           "european": "Blossom",
           "arabic_root": "بلسم",
           "author_translit": "balsam",
@@ -21423,7 +22438,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 613,
+          "source_row_index": 612,
+          "source_row_index_at_freeze": 612,
+          "source_row_key": "a7c7d576f0a0b721c8cf4e60",
           "european": "Blossom",
           "arabic_root": "نبت",
           "author_translit": "nabat",
@@ -21504,7 +22521,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-096",
+      "card_id": "JAS-IE-001-098",
       "batch": 1,
       "head": "Blow",
       "normalized_head": "blow",
@@ -21516,11 +22533,13 @@
         "w"
       ],
       "source_rows": [
-        615
+        614
       ],
       "source_claims": [
         {
-          "source_row_index": 615,
+          "source_row_index": 614,
+          "source_row_index_at_freeze": 614,
+          "source_row_key": "0f9983650ff0c329b392db0e",
           "european": "Blow",
           "arabic_root": "لهب",
           "author_translit": "lahab",
@@ -21553,7 +22572,213 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-097",
+      "card_id": "JAS-IE-001-099",
+      "batch": 1,
+      "head": "Blue",
+      "normalized_head": "blue",
+      "language": "old-english",
+      "script": "germanic",
+      "skeleton": [
+        "b",
+        "l"
+      ],
+      "source_rows": [
+        616,
+        617
+      ],
+      "source_claims": [
+        {
+          "source_row_index": 616,
+          "source_row_index_at_freeze": 616,
+          "source_row_key": "30ec5afd4583735b838992ca",
+          "european": "Blue",
+          "arabic_root": "رءس",
+          "author_translit": "ra'ees",
+          "arabic_gloss": "head, chief; rule, lead",
+          "source": "jassem-2014-colour-art",
+          "bridge_agrees": "نعم"
+        },
+        {
+          "source_row_index": 617,
+          "source_row_index_at_freeze": 617,
+          "source_row_key": "44d50a8ea20586f291317fab",
+          "european": "Blue",
+          "arabic_root": "ربط",
+          "author_translit": "rabaT",
+          "arabic_gloss": "tie, twist",
+          "source": "jassem-2014-colour-art",
+          "bridge_agrees": "نعم"
+        }
+      ],
+      "fan_review": [
+        {
+          "root": "بل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "بر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "بلل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "بول",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "بيل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "بال",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "بلو",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "بلي",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "بلا",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "وبل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "يبل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "برر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "بور",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "بير",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "بار",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "برو",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "بري",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "برا",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "وبر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "يبر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        }
+      ],
+      "dialect_additions": 0,
+      "positives": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "JAS-IE-001-100",
       "batch": 1,
       "head": "Blunt",
       "normalized_head": "blunt",
@@ -21566,11 +22791,13 @@
         "t"
       ],
       "source_rows": [
-        616
+        619
       ],
       "source_claims": [
         {
-          "source_row_index": 616,
+          "source_row_index": 619,
+          "source_row_index_at_freeze": 619,
+          "source_row_key": "6dc51530055ef895ecee31f0",
           "european": "Blunt",
           "arabic_root": "برد",
           "author_translit": "baarid",
@@ -21651,7 +22878,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-098",
+      "card_id": "JAS-IE-001-101",
       "batch": 1,
       "head": "Boast",
       "normalized_head": "boast",
@@ -21663,11 +22890,13 @@
         "t"
       ],
       "source_rows": [
-        617
+        620
       ],
       "source_claims": [
         {
-          "source_row_index": 617,
+          "source_row_index": 620,
+          "source_row_index_at_freeze": 620,
+          "source_row_key": "5d4f522131a953ae82aa0074",
           "european": "Boast",
           "arabic_root": "بجح",
           "author_translit": "baj2(at)",
@@ -21812,7 +23041,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-099",
+      "card_id": "JAS-IE-001-102",
       "batch": 1,
       "head": "Boat",
       "normalized_head": "boat",
@@ -21823,11 +23052,13 @@
         "t"
       ],
       "source_rows": [
-        618
+        621
       ],
       "source_claims": [
         {
-          "source_row_index": 618,
+          "source_row_index": 621,
+          "source_row_index_at_freeze": 621,
+          "source_row_key": "42a7b2f846efa5e73cdfb054",
           "european": "Boat",
           "arabic_root": "بط",
           "author_translit": "baTTa(t)",
@@ -22164,7 +23395,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-100",
+      "card_id": "JAS-IE-001-103",
       "batch": 1,
       "head": "Boil",
       "normalized_head": "boil",
@@ -22175,11 +23406,13 @@
         "l"
       ],
       "source_rows": [
-        621
+        624
       ],
       "source_claims": [
         {
-          "source_row_index": 621,
+          "source_row_index": 624,
+          "source_row_index_at_freeze": 624,
+          "source_row_key": "480bb5feab4547894d8f9ecc",
           "european": "Boil",
           "arabic_root": "لهب",
           "author_translit": "laheeb",
@@ -22356,7 +23589,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-101",
+      "card_id": "JAS-IE-001-104",
       "batch": 1,
       "head": "Bomb",
       "normalized_head": "bomb",
@@ -22368,11 +23601,13 @@
         "b"
       ],
       "source_rows": [
-        622
+        625
       ],
       "source_claims": [
         {
-          "source_row_index": 622,
+          "source_row_index": 625,
+          "source_row_index_at_freeze": 625,
+          "source_row_key": "5ad8b80ede81e427e51efcb7",
           "european": "Bomb",
           "arabic_root": "ضرب",
           "author_translit": "Darb",
@@ -22397,7 +23632,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-102",
+      "card_id": "JAS-IE-001-105",
       "batch": 1,
       "head": "Book",
       "normalized_head": "book",
@@ -22408,11 +23643,13 @@
         "k"
       ],
       "source_rows": [
-        627
+        630
       ],
       "source_claims": [
         {
-          "source_row_index": 627,
+          "source_row_index": 630,
+          "source_row_index_at_freeze": 630,
+          "source_row_key": "a1e1910a319ebcfc1f0ed431",
           "european": "Book",
           "arabic_root": "كتب",
           "author_translit": "kitaab",
@@ -22669,7 +23906,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-103",
+      "card_id": "JAS-IE-001-106",
       "batch": 1,
       "head": "Booth",
       "normalized_head": "booth",
@@ -22680,11 +23917,13 @@
         "TH"
       ],
       "source_rows": [
-        629
+        632
       ],
       "source_claims": [
         {
-          "source_row_index": 629,
+          "source_row_index": 632,
+          "source_row_index_at_freeze": 632,
+          "source_row_key": "44cdc1dc897b8e9b270862c6",
           "european": "Booth",
           "arabic_root": "برج",
           "author_translit": "burj",
@@ -22955,7 +24194,7 @@
       "judgment": "ROOT-TRACE"
     },
     {
-      "card_id": "JAS-IE-001-104",
+      "card_id": "JAS-IE-001-107",
       "batch": 1,
       "head": "Bore",
       "normalized_head": "bore",
@@ -22966,11 +24205,13 @@
         "r"
       ],
       "source_rows": [
-        630
+        633
       ],
       "source_claims": [
         {
-          "source_row_index": 630,
+          "source_row_index": 633,
+          "source_row_index_at_freeze": 633,
+          "source_row_key": "7323c2a797d615406d8da3d4",
           "european": "Bore",
           "arabic_root": "بحر",
           "author_translit": "ba2ar",
@@ -23147,7 +24388,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-105",
+      "card_id": "JAS-IE-001-108",
       "batch": 1,
       "head": "Bottom",
       "normalized_head": "bottom",
@@ -23159,11 +24400,13 @@
         "m"
       ],
       "source_rows": [
-        631
+        634
       ],
       "source_claims": [
         {
-          "source_row_index": 631,
+          "source_row_index": 634,
+          "source_row_index_at_freeze": 634,
+          "source_row_key": "53d7c7a4bfe6282ffc5e14c2",
           "european": "Bottom",
           "arabic_root": "بطن",
           "author_translit": "baTn",
@@ -23212,7 +24455,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-106",
+      "card_id": "JAS-IE-001-109",
       "batch": 1,
       "head": "Bracelet",
       "normalized_head": "bracelet",
@@ -23226,11 +24469,13 @@
         "t"
       ],
       "source_rows": [
-        639
+        642
       ],
       "source_claims": [
         {
-          "source_row_index": 639,
+          "source_row_index": 642,
+          "source_row_index_at_freeze": 642,
+          "source_row_key": "512b592d969a67d2f9843199",
           "european": "Bracelet",
           "arabic_root": "ربط",
           "author_translit": "rabaT",
@@ -23246,7 +24491,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-107",
+      "card_id": "JAS-IE-001-110",
       "batch": 1,
       "head": "Brandy",
       "normalized_head": "brandy",
@@ -23260,11 +24505,13 @@
         "y"
       ],
       "source_rows": [
-        641
+        644
       ],
       "source_claims": [
         {
-          "source_row_index": 641,
+          "source_row_index": 644,
+          "source_row_index_at_freeze": 644,
+          "source_row_key": "83835d444e6cfe94419fd462",
           "european": "Brandy",
           "arabic_root": "برد",
           "author_translit": "burood",
@@ -23280,7 +24527,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-108",
+      "card_id": "JAS-IE-001-111",
       "batch": 1,
       "head": "Bread",
       "normalized_head": "bread",
@@ -23292,11 +24539,13 @@
         "d"
       ],
       "source_rows": [
-        645
+        648
       ],
       "source_claims": [
         {
-          "source_row_index": 645,
+          "source_row_index": 648,
+          "source_row_index_at_freeze": 648,
+          "source_row_key": "676431686025e328f40aaa2e",
           "european": "Bread",
           "arabic_root": "بسط",
           "author_translit": "basT",
@@ -23377,7 +24626,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-109",
+      "card_id": "JAS-IE-001-112",
       "batch": 1,
       "head": "Breath",
       "normalized_head": "breath",
@@ -23389,11 +24638,13 @@
         "TH"
       ],
       "source_rows": [
-        653
+        656
       ],
       "source_claims": [
         {
-          "source_row_index": 653,
+          "source_row_index": 656,
+          "source_row_index_at_freeze": 656,
+          "source_row_key": "960a8da66380aacadcc2ccda",
           "european": "Breath",
           "arabic_root": "برد",
           "author_translit": "bard(at)",
@@ -23458,7 +24709,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-110",
+      "card_id": "JAS-IE-001-113",
       "batch": 1,
       "head": "Bride",
       "normalized_head": "bride",
@@ -23470,11 +24721,13 @@
         "d"
       ],
       "source_rows": [
-        658
+        661
       ],
       "source_claims": [
         {
-          "source_row_index": 658,
+          "source_row_index": 661,
+          "source_row_index_at_freeze": 661,
+          "source_row_key": "a79c944777fda300b23d96b7",
           "european": "Bride",
           "arabic_root": "ربض",
           "author_translit": "rubaD",
@@ -23555,7 +24808,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-111",
+      "card_id": "JAS-IE-001-114",
       "batch": 1,
       "head": "Bridegroom",
       "normalized_head": "bridegroom",
@@ -23570,13 +24823,15 @@
         "m"
       ],
       "source_rows": [
-        660,
-        661,
-        662
+        663,
+        664,
+        665
       ],
       "source_claims": [
         {
-          "source_row_index": 660,
+          "source_row_index": 663,
+          "source_row_index_at_freeze": 663,
+          "source_row_key": "e4bfe2633211fc22488fded1",
           "european": "Bridegroom",
           "arabic_root": "حسن",
           "author_translit": "2asan",
@@ -23585,7 +24840,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 661,
+          "source_row_index": 664,
+          "source_row_index_at_freeze": 664,
+          "source_row_key": "21b893fbdf2edc5c4c6a2cd2",
           "european": "Bridegroom",
           "arabic_root": "غلم",
           "author_translit": "ghulaam",
@@ -23594,7 +24851,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 662,
+          "source_row_index": 665,
+          "source_row_index_at_freeze": 665,
+          "source_row_key": "53358c833fa4775bf34fbaaa",
           "european": "Bridegroom",
           "arabic_root": "قرص",
           "author_translit": "qaraS",
@@ -23610,7 +24869,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-112",
+      "card_id": "JAS-IE-001-115",
       "batch": 1,
       "head": "Brine",
       "normalized_head": "brine",
@@ -23622,12 +24881,14 @@
         "n"
       ],
       "source_rows": [
-        665,
-        667
+        668,
+        670
       ],
       "source_claims": [
         {
-          "source_row_index": 665,
+          "source_row_index": 668,
+          "source_row_index_at_freeze": 668,
+          "source_row_key": "4dd6e5669d881774e6043e62",
           "european": "Brine",
           "arabic_root": "بحر",
           "author_translit": "ba2r",
@@ -23636,7 +24897,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 667,
+          "source_row_index": 670,
+          "source_row_index_at_freeze": 670,
+          "source_row_key": "0acc71c87b41c4524c89b64d",
           "european": "Brine",
           "arabic_root": "لهب",
           "author_translit": "lahab",
@@ -23669,7 +24932,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-113",
+      "card_id": "JAS-IE-001-116",
       "batch": 1,
       "head": "Broad",
       "normalized_head": "broad",
@@ -23681,11 +24944,13 @@
         "d"
       ],
       "source_rows": [
-        668
+        671
       ],
       "source_claims": [
         {
-          "source_row_index": 668,
+          "source_row_index": 671,
+          "source_row_index_at_freeze": 671,
+          "source_row_key": "e8ac535106d480081edeef63",
           "european": "Broad",
           "arabic_root": "بعد",
           "author_translit": "ba3eed",
@@ -23766,7 +25031,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-114",
+      "card_id": "JAS-IE-001-117",
       "batch": 1,
       "head": "Broad Beans",
       "normalized_head": "broad beans",
@@ -23781,11 +25046,13 @@
         "s"
       ],
       "source_rows": [
-        670
+        673
       ],
       "source_claims": [
         {
-          "source_row_index": 670,
+          "source_row_index": 673,
+          "source_row_index_at_freeze": 673,
+          "source_row_key": "1128652d6627f7d76ab09141",
           "european": "Broad Beans",
           "arabic_root": "بعد",
           "author_translit": "ba3eed",
@@ -23801,7 +25068,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-115",
+      "card_id": "JAS-IE-001-118",
       "batch": 1,
       "head": "Brook",
       "normalized_head": "brook",
@@ -23813,11 +25080,13 @@
         "k"
       ],
       "source_rows": [
-        671
+        674
       ],
       "source_claims": [
         {
-          "source_row_index": 671,
+          "source_row_index": 674,
+          "source_row_index_at_freeze": 674,
+          "source_row_key": "0b575060a41e3a20779942e9",
           "european": "Brook",
           "arabic_root": "برك",
           "author_translit": "barka(t)",
@@ -23882,7 +25151,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-116",
+      "card_id": "JAS-IE-001-119",
       "batch": 1,
       "head": "Brother",
       "normalized_head": "brother",
@@ -23895,11 +25164,13 @@
         "r"
       ],
       "source_rows": [
-        673
+        676
       ],
       "source_claims": [
         {
-          "source_row_index": 673,
+          "source_row_index": 676,
+          "source_row_index_at_freeze": 676,
+          "source_row_key": "b3b2f45375cc126840a4c26d",
           "european": "Brother",
           "arabic_root": "رجل",
           "author_translit": "rajul",
@@ -24012,7 +25283,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-117",
+      "card_id": "JAS-IE-001-120",
       "batch": 1,
       "head": "Browse",
       "normalized_head": "browse",
@@ -24025,12 +25296,14 @@
         "s"
       ],
       "source_rows": [
-        675,
-        676
+        678,
+        679
       ],
       "source_claims": [
         {
-          "source_row_index": 675,
+          "source_row_index": 678,
+          "source_row_index_at_freeze": 678,
+          "source_row_key": "83ea2e42cc59dc4c001b55da",
           "european": "Browse",
           "arabic_root": "بصر",
           "author_translit": "baSar",
@@ -24039,7 +25312,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 676,
+          "source_row_index": 679,
+          "source_row_index_at_freeze": 679,
+          "source_row_key": "4a4e26f800b002975226c7e3",
           "european": "Browse",
           "arabic_root": "قرص",
           "author_translit": "qaraS",
@@ -24120,7 +25395,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-118",
+      "card_id": "JAS-IE-001-121",
       "batch": 1,
       "head": "Bug",
       "normalized_head": "bug",
@@ -24131,11 +25406,13 @@
         "g"
       ],
       "source_rows": [
-        678
+        681
       ],
       "source_claims": [
         {
-          "source_row_index": 678,
+          "source_row_index": 681,
+          "source_row_index_at_freeze": 681,
+          "source_row_key": "6d00d832923285a0df9a3e37",
           "european": "Bug",
           "arabic_root": "بق",
           "author_translit": "buqq",
@@ -24472,7 +25749,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-119",
+      "card_id": "JAS-IE-001-122",
       "batch": 1,
       "head": "Build",
       "normalized_head": "build",
@@ -24484,11 +25761,13 @@
         "d"
       ],
       "source_rows": [
-        679
+        682
       ],
       "source_claims": [
         {
-          "source_row_index": 679,
+          "source_row_index": 682,
+          "source_row_index_at_freeze": 682,
+          "source_row_key": "6de362ce4e9894b8b0b1b27e",
           "european": "Build",
           "arabic_root": "برج",
           "author_translit": "burj",
@@ -24569,7 +25848,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-120",
+      "card_id": "JAS-IE-001-123",
       "batch": 1,
       "head": "Bullock",
       "normalized_head": "bullock",
@@ -24582,11 +25861,13 @@
         "k"
       ],
       "source_rows": [
-        682
+        685
       ],
       "source_claims": [
         {
-          "source_row_index": 682,
+          "source_row_index": 685,
+          "source_row_index_at_freeze": 685,
+          "source_row_key": "f7af1d809ed0f2474d80828f",
           "european": "Bullock",
           "arabic_root": "بقر",
           "author_translit": "baqar(at)",
@@ -24675,7 +25956,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-121",
+      "card_id": "JAS-IE-001-124",
       "batch": 1,
       "head": "Bureaucracy",
       "normalized_head": "bureaucracy",
@@ -24690,11 +25971,13 @@
         "y"
       ],
       "source_rows": [
-        685
+        688
       ],
       "source_claims": [
         {
-          "source_row_index": 685,
+          "source_row_index": 688,
+          "source_row_index_at_freeze": 688,
+          "source_row_key": "8f1758b412e576297f8d45d2",
           "european": "Bureaucracy",
           "arabic_root": "قبض",
           "author_translit": "qabaD",
@@ -24710,7 +25993,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-122",
+      "card_id": "JAS-IE-001-125",
       "batch": 1,
       "head": "Burn",
       "normalized_head": "burn",
@@ -24722,11 +26005,13 @@
         "n"
       ],
       "source_rows": [
-        687
+        690
       ],
       "source_claims": [
         {
-          "source_row_index": 687,
+          "source_row_index": 690,
+          "source_row_index_at_freeze": 690,
+          "source_row_key": "4534db9901aa44df5cb69667",
           "european": "Burn",
           "arabic_root": "حر",
           "author_translit": "2arr(oor)",
@@ -24759,7 +26044,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-123",
+      "card_id": "JAS-IE-001-126",
       "batch": 1,
       "head": "Burnoose",
       "normalized_head": "burnoose",
@@ -24772,11 +26057,13 @@
         "s"
       ],
       "source_rows": [
-        689
+        692
       ],
       "source_claims": [
         {
-          "source_row_index": 689,
+          "source_row_index": 692,
+          "source_row_index_at_freeze": 692,
+          "source_row_key": "e9df6bf59c262e7f665bf40a",
           "european": "Burnoose",
           "arabic_root": "برنس",
           "author_translit": "burnus",
@@ -24857,7 +26144,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-124",
+      "card_id": "JAS-IE-001-127",
       "batch": 1,
       "head": "Bury",
       "normalized_head": "bury",
@@ -24869,11 +26156,13 @@
         "y"
       ],
       "source_rows": [
-        692
+        695
       ],
       "source_claims": [
         {
-          "source_row_index": 692,
+          "source_row_index": 695,
+          "source_row_index_at_freeze": 695,
+          "source_row_key": "feec6ef163f91679925f3fb1",
           "european": "Bury",
           "arabic_root": "قبر",
           "author_translit": "qabara",
@@ -24906,7 +26195,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-125",
+      "card_id": "JAS-IE-001-128",
       "batch": 1,
       "head": "But",
       "normalized_head": "but",
@@ -24917,13 +26206,15 @@
         "t"
       ],
       "source_rows": [
-        697,
-        701,
-        702
+        700,
+        704,
+        705
       ],
       "source_claims": [
         {
-          "source_row_index": 697,
+          "source_row_index": 700,
+          "source_row_index_at_freeze": 700,
+          "source_row_key": "3f8d80fee4becefcb66b8388",
           "european": "But",
           "arabic_root": "ضد",
           "author_translit": "Did",
@@ -24932,7 +26223,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 701,
+          "source_row_index": 704,
+          "source_row_index_at_freeze": 704,
+          "source_row_key": "50c1f6bea5405879c896f612",
           "european": "But",
           "arabic_root": "لم",
           "author_translit": "lam",
@@ -24941,7 +26234,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 702,
+          "source_row_index": 705,
+          "source_row_index_at_freeze": 705,
+          "source_row_key": "558654ea7d7d0948df327b49",
           "european": "But",
           "arabic_root": "نحو",
           "author_translit": "na2wa",
@@ -25292,7 +26587,7 @@
       "judgment": "NUCLEUS-ECHO"
     },
     {
-      "card_id": "JAS-IE-001-126",
+      "card_id": "JAS-IE-001-129",
       "batch": 1,
       "head": "Butter",
       "normalized_head": "butter",
@@ -25304,12 +26599,14 @@
         "r"
       ],
       "source_rows": [
-        705,
-        706
+        708,
+        709
       ],
       "source_claims": [
         {
-          "source_row_index": 705,
+          "source_row_index": 708,
+          "source_row_index_at_freeze": 708,
+          "source_row_key": "032f6b091aa1ed2926cd745c",
           "european": "Butter",
           "arabic_root": "رطب",
           "author_translit": "ruTab",
@@ -25318,7 +26615,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 706,
+          "source_row_index": 709,
+          "source_row_index_at_freeze": 709,
+          "source_row_key": "c5b9717a9ae8ba2cada4bd55",
           "european": "Butter",
           "arabic_root": "زبد",
           "author_translit": "zubda(t)",
@@ -25414,7 +26713,7 @@
       "judgment": "ROOT-ECHO"
     },
     {
-      "card_id": "JAS-IE-001-127",
+      "card_id": "JAS-IE-001-130",
       "batch": 1,
       "head": "Button",
       "normalized_head": "button",
@@ -25426,11 +26725,13 @@
         "n"
       ],
       "source_rows": [
-        708
+        711
       ],
       "source_claims": [
         {
-          "source_row_index": 708,
+          "source_row_index": 711,
+          "source_row_index_at_freeze": 711,
+          "source_row_key": "cffa6b6e8b86fda3d7a2b7d6",
           "european": "Button",
           "arabic_root": "بطن",
           "author_translit": "biTaana(t)",
@@ -25799,7 +27100,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-128",
+      "card_id": "JAS-IE-001-131",
       "batch": 1,
       "head": "Cabbage",
       "normalized_head": "cabbage",
@@ -25811,11 +27112,13 @@
         "g"
       ],
       "source_rows": [
-        711
+        714
       ],
       "source_claims": [
         {
-          "source_row_index": 711,
+          "source_row_index": 714,
+          "source_row_index_at_freeze": 714,
+          "source_row_key": "c4825f754da7b58be2479d6a",
           "european": "Cabbage",
           "arabic_root": "قزم",
           "author_translit": "qazam",
@@ -25928,7 +27231,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-129",
+      "card_id": "JAS-IE-001-132",
       "batch": 1,
       "head": "Calf",
       "normalized_head": "calf",
@@ -25940,11 +27243,13 @@
         "f"
       ],
       "source_rows": [
-        715
+        718
       ],
       "source_claims": [
         {
-          "source_row_index": 715,
+          "source_row_index": 718,
+          "source_row_index_at_freeze": 718,
+          "source_row_key": "494c4799f905c6f263a37a6e",
           "european": "Calf",
           "arabic_root": "خلف",
           "author_translit": "khilfa(t)",
@@ -26057,7 +27362,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-130",
+      "card_id": "JAS-IE-001-133",
       "batch": 1,
       "head": "Candy",
       "normalized_head": "candy",
@@ -26070,12 +27375,14 @@
         "y"
       ],
       "source_rows": [
-        721,
-        722
+        724,
+        725
       ],
       "source_claims": [
         {
-          "source_row_index": 721,
+          "source_row_index": 724,
+          "source_row_index_at_freeze": 724,
+          "source_row_key": "96043cc7a2770819fb1af8ca",
           "european": "Candy",
           "arabic_root": "شكر",
           "author_translit": "shukr",
@@ -26084,7 +27391,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 722,
+          "source_row_index": 725,
+          "source_row_index_at_freeze": 725,
+          "source_row_key": "97423c74f0e9d7e53464f636",
           "european": "Candy",
           "arabic_root": "قند",
           "author_translit": "qand",
@@ -26197,7 +27506,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-131",
+      "card_id": "JAS-IE-001-134",
       "batch": 1,
       "head": "Cane",
       "normalized_head": "cane",
@@ -26208,11 +27517,13 @@
         "n"
       ],
       "source_rows": [
-        723
+        726
       ],
       "source_claims": [
         {
-          "source_row_index": 723,
+          "source_row_index": 726,
+          "source_row_index_at_freeze": 726,
+          "source_row_key": "b8e0edd5072166b31e464748",
           "european": "Cane",
           "arabic_root": "سكر",
           "author_translit": "sukkar",
@@ -26469,7 +27780,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-132",
+      "card_id": "JAS-IE-001-135",
       "batch": 1,
       "head": "Cannon",
       "normalized_head": "cannon",
@@ -26480,11 +27791,13 @@
         "n"
       ],
       "source_rows": [
-        725
+        728
       ],
       "source_claims": [
         {
-          "source_row_index": 725,
+          "source_row_index": 728,
+          "source_row_index_at_freeze": 728,
+          "source_row_key": "b37c2adbacdc183aa5cdf531",
           "european": "Cannon",
           "arabic_root": "قبض",
           "author_translit": "qabaD",
@@ -26741,7 +28054,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-133",
+      "card_id": "JAS-IE-001-136",
       "batch": 1,
       "head": "Canonical",
       "normalized_head": "canonical",
@@ -26755,11 +28068,13 @@
         "l"
       ],
       "source_rows": [
-        727
+        730
       ],
       "source_claims": [
         {
-          "source_row_index": 727,
+          "source_row_index": 730,
+          "source_row_index_at_freeze": 730,
+          "source_row_key": "a4a9deef2bb6d92a69b7fe2e",
           "european": "Canonical",
           "arabic_root": "قفص",
           "author_translit": "qafaS",
@@ -26775,7 +28090,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-134",
+      "card_id": "JAS-IE-001-137",
       "batch": 1,
       "head": "Cant",
       "normalized_head": "cant",
@@ -26787,11 +28102,13 @@
         "t"
       ],
       "source_rows": [
-        730
+        733
       ],
       "source_claims": [
         {
-          "source_row_index": 730,
+          "source_row_index": 733,
+          "source_row_index_at_freeze": 733,
+          "source_row_key": "37c709060bc2fa3e1252def5",
           "european": "Cant",
           "arabic_root": "شوش",
           "author_translit": "shawwash",
@@ -26904,7 +28221,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-135",
+      "card_id": "JAS-IE-001-138",
       "batch": 1,
       "head": "Canvas",
       "normalized_head": "canvas",
@@ -26917,11 +28234,13 @@
         "s"
       ],
       "source_rows": [
-        732
+        735
       ],
       "source_claims": [
         {
-          "source_row_index": 732,
+          "source_row_index": 735,
+          "source_row_index_at_freeze": 735,
+          "source_row_key": "589d672eec4c97b7b4c8574f",
           "european": "Canvas",
           "arabic_root": "قنب",
           "author_translit": "qinnab",
@@ -27298,7 +28617,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-136",
+      "card_id": "JAS-IE-001-139",
       "batch": 1,
       "head": "Cardiac Failure",
       "normalized_head": "cardiac failure",
@@ -27314,12 +28633,14 @@
         "r"
       ],
       "source_rows": [
-        738,
-        740
+        741,
+        743
       ],
       "source_claims": [
         {
-          "source_row_index": 738,
+          "source_row_index": 741,
+          "source_row_index_at_freeze": 741,
+          "source_row_key": "a7a81a4334684caa9ab5f18d",
           "european": "Cardiac Failure",
           "arabic_root": "صدر",
           "author_translit": "Sadr",
@@ -27328,7 +28649,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 740,
+          "source_row_index": 743,
+          "source_row_index_at_freeze": 743,
+          "source_row_key": "538aa7cb61aad2801fbf7853",
           "european": "Cardiac Failure",
           "arabic_root": "قرع",
           "author_translit": "qar3a(t)",
@@ -27344,7 +28667,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-137",
+      "card_id": "JAS-IE-001-140",
       "batch": 1,
       "head": "Carpet",
       "normalized_head": "carpet",
@@ -27357,21 +28680,25 @@
         "t"
       ],
       "source_rows": [
-        743,
-        744
+        746,
+        747
       ],
       "source_claims": [
         {
-          "source_row_index": 743,
+          "source_row_index": 746,
+          "source_row_index_at_freeze": 746,
+          "source_row_key": "92bbe04910b09cd0b8649236",
           "european": "Carpet",
           "arabic_root": "زرب",
           "author_translit": "zarabia(t)",
           "arabic_gloss": "carpet",
-          "source": "jassem-2016-fashion",
+          "source": "jassem-2016-fashion · jassem-2014-colour-art",
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 744,
+          "source_row_index": 747,
+          "source_row_index_at_freeze": 747,
+          "source_row_key": "1fcd65c21ef2aecb503d47fd",
           "european": "Carpet",
           "arabic_root": "قط",
           "author_translit": "qiTT(at)",
@@ -27772,7 +29099,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-138",
+      "card_id": "JAS-IE-001-141",
       "batch": 1,
       "head": "Carpet bombing",
       "normalized_head": "carpet bombing",
@@ -27790,12 +29117,14 @@
         "g"
       ],
       "source_rows": [
-        746,
-        747
+        749,
+        750
       ],
       "source_claims": [
         {
-          "source_row_index": 746,
+          "source_row_index": 749,
+          "source_row_index_at_freeze": 749,
+          "source_row_key": "15265d69ab03c4a09065b318",
           "european": "Carpet bombing",
           "arabic_root": "خسر",
           "author_translit": "khasar(at)",
@@ -27804,7 +29133,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 747,
+          "source_row_index": 750,
+          "source_row_index_at_freeze": 750,
+          "source_row_key": "bb02964e9e51230bc3f693a9",
           "european": "Carpet bombing",
           "arabic_root": "زرب",
           "author_translit": "zarabia(t)",
@@ -27820,7 +29151,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-139",
+      "card_id": "JAS-IE-001-142",
       "batch": 1,
       "head": "Cast",
       "normalized_head": "cast",
@@ -27832,12 +29163,14 @@
         "t"
       ],
       "source_rows": [
-        750,
-        751
+        753,
+        754
       ],
       "source_claims": [
         {
-          "source_row_index": 750,
+          "source_row_index": 753,
+          "source_row_index_at_freeze": 753,
+          "source_row_key": "8ba6a848032fe7e896f58810",
           "european": "Cast",
           "arabic_root": "قذف",
           "author_translit": "qadhaf",
@@ -27846,7 +29179,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 751,
+          "source_row_index": 754,
+          "source_row_index_at_freeze": 754,
+          "source_row_key": "3cd62b944dddd28cf962da31",
           "european": "Cast",
           "arabic_root": "قرص",
           "author_translit": "qurS(at)",
@@ -28247,7 +29582,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-140",
+      "card_id": "JAS-IE-001-143",
       "batch": 1,
       "head": "Cauliflower",
       "normalized_head": "cauliflower",
@@ -28262,11 +29597,13 @@
         "r"
       ],
       "source_rows": [
-        755
+        758
       ],
       "source_claims": [
         {
-          "source_row_index": 755,
+          "source_row_index": 758,
+          "source_row_index_at_freeze": 758,
+          "source_row_key": "5934f8d82ac1b44d62c71807",
           "european": "Cauliflower",
           "arabic_root": "بقل",
           "author_translit": "baql",
@@ -28282,7 +29619,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-141",
+      "card_id": "JAS-IE-001-144",
       "batch": 1,
       "head": "Cause",
       "normalized_head": "cause",
@@ -28293,11 +29630,13 @@
         "s"
       ],
       "source_rows": [
-        756
+        759
       ],
       "source_claims": [
         {
-          "source_row_index": 756,
+          "source_row_index": 759,
+          "source_row_index_at_freeze": 759,
+          "source_row_key": "00774094a61d562346df69b8",
           "european": "Cause",
           "arabic_root": "خرس",
           "author_translit": "kharas",
@@ -29274,7 +30613,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-142",
+      "card_id": "JAS-IE-001-145",
       "batch": 1,
       "head": "Cavalry",
       "normalized_head": "cavalry",
@@ -29288,11 +30627,13 @@
         "y"
       ],
       "source_rows": [
-        757
+        760
       ],
       "source_claims": [
         {
-          "source_row_index": 757,
+          "source_row_index": 760,
+          "source_row_index_at_freeze": 760,
+          "source_row_key": "95a5c22e1fbb8a92570de2da",
           "european": "Cavalry",
           "arabic_root": "جحش",
           "author_translit": "ja2sh",
@@ -29308,7 +30649,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-143",
+      "card_id": "JAS-IE-001-146",
       "batch": 1,
       "head": "Ceasefire Agreement",
       "normalized_head": "ceasefire agreement",
@@ -29326,11 +30667,13 @@
         "t"
       ],
       "source_rows": [
-        762
+        765
       ],
       "source_claims": [
         {
-          "source_row_index": 762,
+          "source_row_index": 765,
+          "source_row_index_at_freeze": 765,
+          "source_row_key": "abe9b26875745d09ebce6d67",
           "european": "Ceasefire Agreement",
           "arabic_root": "شب",
           "author_translit": "shaabb(un)",
@@ -29346,7 +30689,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-144",
+      "card_id": "JAS-IE-001-147",
       "batch": 1,
       "head": "Cedar",
       "normalized_head": "cedar",
@@ -29358,11 +30701,13 @@
         "r"
       ],
       "source_rows": [
-        764
+        767
       ],
       "source_claims": [
         {
-          "source_row_index": 764,
+          "source_row_index": 767,
+          "source_row_index_at_freeze": 767,
+          "source_row_key": "0748b8b433c73790658bace9",
           "european": "Cedar",
           "arabic_root": "سدر",
           "author_translit": "sidr",
@@ -29523,7 +30868,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-145",
+      "card_id": "JAS-IE-001-148",
       "batch": 1,
       "head": "Central",
       "normalized_head": "central",
@@ -29537,12 +30882,14 @@
         "l"
       ],
       "source_rows": [
-        768,
-        769
+        771,
+        772
       ],
       "source_claims": [
         {
-          "source_row_index": 768,
+          "source_row_index": 771,
+          "source_row_index_at_freeze": 771,
+          "source_row_key": "364a6f7c9e17d3e8e094ba54",
           "european": "Central",
           "arabic_root": "قرء",
           "author_translit": "qara'a",
@@ -29551,7 +30898,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 769,
+          "source_row_index": 772,
+          "source_row_index_at_freeze": 772,
+          "source_row_key": "f22533d74b5e9c10589913fa",
           "european": "Central",
           "arabic_root": "قو",
           "author_translit": "qawi(un)",
@@ -29567,7 +30916,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-146",
+      "card_id": "JAS-IE-001-149",
       "batch": 1,
       "head": "Ceremony",
       "normalized_head": "ceremony",
@@ -29581,13 +30930,15 @@
         "y"
       ],
       "source_rows": [
-        774,
         777,
-        779
+        780,
+        782
       ],
       "source_claims": [
         {
-          "source_row_index": 774,
+          "source_row_index": 777,
+          "source_row_index_at_freeze": 777,
+          "source_row_key": "de24343a3bd97bd87e90c739",
           "european": "Ceremony",
           "arabic_root": "قلم",
           "author_translit": "qalam",
@@ -29596,7 +30947,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 777,
+          "source_row_index": 780,
+          "source_row_index_at_freeze": 780,
+          "source_row_key": "7315b6b3bfc95dd6cf039622",
           "european": "Ceremony",
           "arabic_root": "مرء",
           "author_translit": "mar'a(t)",
@@ -29605,7 +30958,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 779,
+          "source_row_index": 782,
+          "source_row_index_at_freeze": 782,
+          "source_row_key": "72d519361c0f5638c7248184",
           "european": "Ceremony",
           "arabic_root": "وعد",
           "author_translit": "wa3d",
@@ -29621,7 +30976,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-147",
+      "card_id": "JAS-IE-001-150",
       "batch": 1,
       "head": "Cesspool",
       "normalized_head": "cesspool",
@@ -29634,11 +30989,13 @@
         "l"
       ],
       "source_rows": [
-        780
+        783
       ],
       "source_claims": [
         {
-          "source_row_index": 780,
+          "source_row_index": 783,
+          "source_row_index_at_freeze": 783,
+          "source_row_key": "5a32473ebab0f2830b050e52",
           "european": "Cesspool",
           "arabic_root": "جلمد",
           "author_translit": "jalmood",
@@ -30039,7 +31396,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-148",
+      "card_id": "JAS-IE-001-151",
       "batch": 1,
       "head": "Chameleon",
       "normalized_head": "chameleon",
@@ -30052,11 +31409,13 @@
         "n"
       ],
       "source_rows": [
-        783
+        786
       ],
       "source_claims": [
         {
-          "source_row_index": 783,
+          "source_row_index": 786,
+          "source_row_index_at_freeze": 786,
+          "source_row_key": "edc7477f72846132b371bf49",
           "european": "Chameleon",
           "arabic_root": "قزم",
           "author_translit": "qazam",
@@ -30169,7 +31528,331 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-149",
+      "card_id": "JAS-IE-001-152",
+      "batch": 1,
+      "head": "Charcoal",
+      "normalized_head": "charcoal",
+      "language": "old-english",
+      "script": "germanic",
+      "skeleton": [
+        "CH",
+        "r",
+        "c",
+        "l"
+      ],
+      "source_rows": [
+        797
+      ],
+      "source_claims": [
+        {
+          "source_row_index": 797,
+          "source_row_index_at_freeze": 797,
+          "source_row_key": "0e872f8b1e9fb0c2e1224637",
+          "european": "Charcoal",
+          "arabic_root": "كحل",
+          "author_translit": "ku2l",
+          "arabic_gloss": "black (substance)",
+          "source": "jassem-2014-colour-art",
+          "bridge_agrees": "نعم"
+        }
+      ],
+      "fan_review": [
+        {
+          "root": "خركل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خركر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خرقل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خرقر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خرجل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خرجر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خلكل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خلكر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خلقل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خلقر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خلجل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "خلجر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حركل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حركر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حرقل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حرقر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حرجل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حرجر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حلكل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حلكر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حلقل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حلقر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حلجل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "حلجر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كركل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كركر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "كرقل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كرقر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كرجل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كرجر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كلكل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "✓",
+          "meaning": "×",
+          "dialect_label": null
+        },
+        {
+          "root": "كلكر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كلقل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كلقر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كلجل",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        },
+        {
+          "root": "كلجر",
+          "weight": 0.0,
+          "sound": "✓",
+          "event": "×",
+          "meaning": "؟",
+          "dialect_label": null
+        }
+      ],
+      "dialect_additions": 0,
+      "positives": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر"
+    },
+    {
+      "card_id": "JAS-IE-001-153",
       "batch": 1,
       "head": "Charge d'Affairs",
       "normalized_head": "charge d'affairs",
@@ -30185,13 +31868,15 @@
         "s"
       ],
       "source_rows": [
-        792,
-        794,
-        796
+        798,
+        800,
+        802
       ],
       "source_claims": [
         {
-          "source_row_index": 792,
+          "source_row_index": 798,
+          "source_row_index_at_freeze": 798,
+          "source_row_key": "e369bbe8426838603cfeba14",
           "european": "Charge d'Affairs",
           "arabic_root": "ءمر",
           "author_translit": "'amr",
@@ -30200,7 +31885,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 794,
+          "source_row_index": 800,
+          "source_row_index_at_freeze": 800,
+          "source_row_key": "a36eec46cd7ba6fbdc214cb5",
           "european": "Charge d'Affairs",
           "arabic_root": "شرك",
           "author_translit": "shareek",
@@ -30209,7 +31896,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 796,
+          "source_row_index": 802,
+          "source_row_index_at_freeze": 802,
+          "source_row_key": "71ee71433a319039197251a9",
           "european": "Charge d'Affairs",
           "arabic_root": "قرع",
           "author_translit": "qaree3",
@@ -30225,7 +31914,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-150",
+      "card_id": "JAS-IE-001-154",
       "batch": 1,
       "head": "Cheers",
       "normalized_head": "cheers",
@@ -30237,14 +31926,16 @@
         "s"
       ],
       "source_rows": [
-        802,
-        803,
-        804,
-        805
+        810,
+        811,
+        812,
+        813
       ],
       "source_claims": [
         {
-          "source_row_index": 802,
+          "source_row_index": 810,
+          "source_row_index_at_freeze": 810,
+          "source_row_key": "818898c1e070b4603e3a0b0f",
           "european": "Cheers",
           "arabic_root": "سكر",
           "author_translit": "sukr",
@@ -30253,7 +31944,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 803,
+          "source_row_index": 811,
+          "source_row_index_at_freeze": 811,
+          "source_row_key": "569fb20c9435f7d77477e497",
           "european": "Cheers",
           "arabic_root": "شكر",
           "author_translit": "shukur",
@@ -30262,7 +31955,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 804,
+          "source_row_index": 812,
+          "source_row_index_at_freeze": 812,
+          "source_row_key": "292b6cb606fbe773d66f17b2",
           "european": "Cheers",
           "arabic_root": "صفر",
           "author_translit": "Saffar",
@@ -30271,7 +31966,9 @@
           "bridge_agrees": "نعم"
         },
         {
-          "source_row_index": 805,
+          "source_row_index": 813,
+          "source_row_index_at_freeze": 813,
+          "source_row_key": "04367a436e61c2c42fce89a7",
           "european": "Cheers",
           "arabic_root": "كرز",
           "author_translit": "karaz",
@@ -30960,7 +32657,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-151",
+      "card_id": "JAS-IE-001-155",
       "batch": 1,
       "head": "Cheese",
       "normalized_head": "cheese",
@@ -30971,11 +32668,13 @@
         "s"
       ],
       "source_rows": [
-        806
+        814
       ],
       "source_claims": [
         {
-          "source_row_index": 806,
+          "source_row_index": 814,
+          "source_row_index_at_freeze": 814,
+          "source_row_key": "e427a817810396c43e72ad69",
           "european": "Cheese",
           "arabic_root": "قشد",
           "author_translit": "qishda(t)",
@@ -31952,7 +33651,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-152",
+      "card_id": "JAS-IE-001-156",
       "batch": 1,
       "head": "Chef",
       "normalized_head": "chef",
@@ -31963,11 +33662,13 @@
         "f"
       ],
       "source_rows": [
-        807
+        815
       ],
       "source_claims": [
         {
-          "source_row_index": 807,
+          "source_row_index": 815,
+          "source_row_index_at_freeze": 815,
+          "source_row_key": "32ab05424010ad0472844ea9",
           "european": "Chef",
           "arabic_root": "سفه",
           "author_translit": "safeeh",
@@ -32464,7 +34165,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-153",
+      "card_id": "JAS-IE-001-157",
       "batch": 1,
       "head": "Cherry",
       "normalized_head": "cherry",
@@ -32476,11 +34177,13 @@
         "y"
       ],
       "source_rows": [
-        810
+        818
       ],
       "source_claims": [
         {
-          "source_row_index": 810,
+          "source_row_index": 818,
+          "source_row_index_at_freeze": 818,
+          "source_row_key": "5468485a4ec31ab265d0cc9c",
           "european": "Cherry",
           "arabic_root": "كرز",
           "author_translit": "karaz",
@@ -32545,7 +34248,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-154",
+      "card_id": "JAS-IE-001-158",
       "batch": 1,
       "head": "Chester arose",
       "normalized_head": "chester arose",
@@ -32560,11 +34263,13 @@
         "s"
       ],
       "source_rows": [
-        816
+        824
       ],
       "source_claims": [
         {
-          "source_row_index": 816,
+          "source_row_index": 824,
+          "source_row_index_at_freeze": 824,
+          "source_row_key": "d7956969aa05775915b52fb6",
           "european": "Chester arose",
           "arabic_root": "قص",
           "author_translit": "qaSS",
@@ -32580,7 +34285,7 @@
       "judgment": "غير صادر"
     },
     {
-      "card_id": "JAS-IE-001-155",
+      "card_id": "JAS-IE-001-159",
       "batch": 1,
       "head": "Chew",
       "normalized_head": "chew",
@@ -32591,11 +34296,13 @@
         "w"
       ],
       "source_rows": [
-        821
+        829
       ],
       "source_claims": [
         {
-          "source_row_index": 821,
+          "source_row_index": 829,
+          "source_row_index_at_freeze": 829,
+          "source_row_key": "18a0ac171650e9b02c40ee8f",
           "european": "Chew",
           "arabic_root": "كل",
           "author_translit": "akal",
@@ -32791,473 +34498,6 @@
         },
         {
           "root": "يكو",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        }
-      ],
-      "dialect_additions": 0,
-      "positives": [],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
-    },
-    {
-      "card_id": "JAS-IE-001-156",
-      "batch": 1,
-      "head": "Chick peas",
-      "normalized_head": "chick peas",
-      "language": "old-english",
-      "script": "germanic",
-      "skeleton": [
-        "CH",
-        "c",
-        "k",
-        "p",
-        "s"
-      ],
-      "source_rows": [
-        823
-      ],
-      "source_claims": [
-        {
-          "source_row_index": 823,
-          "european": "Chick peas",
-          "arabic_root": "بزر",
-          "author_translit": "bizr(at)",
-          "arabic_gloss": "a seed",
-          "source": "jassem-2016-floral",
-          "bridge_agrees": "نعم"
-        }
-      ],
-      "fan_review": [
-        {
-          "root": "خككب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خككف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خكقب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خكقف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خكجب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خكجف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خقكب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خقكف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خققب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خققف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خقجب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خقجف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خجكب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خجكف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خجقب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خجقف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خججب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "خججف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حككب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حككف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حكقب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حكقف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حكجب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حكجف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حقكب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حقكف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حققب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حققف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حقجب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حقجف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حجكب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حجكف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حجقب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حجقف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حججب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "حججف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كككب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كككف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "ككقب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "ككقف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "ككجب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "ككجف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كقكب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كقكف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كققب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كققف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كقجب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كقجف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كجكب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كجكف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كجقب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كجقف",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كججب",
-          "weight": 0.0,
-          "sound": "✓",
-          "event": "×",
-          "meaning": "؟",
-          "dialect_label": null
-        },
-        {
-          "root": "كججف",
           "weight": 0.0,
           "sound": "✓",
           "event": "×",

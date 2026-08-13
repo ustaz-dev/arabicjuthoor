@@ -327,7 +327,9 @@ def render_card(card: dict[str, Any]) -> list[str]:
 
 
 def main() -> int:
-    source_payload = json.loads(SOURCE.read_text(encoding="utf-8"))
+    source_text = SOURCE.read_text(encoding="utf-8")
+    source_payload = json.loads(source_text)
+    source_sha256 = hashlib.sha256(source_text.encode("utf-8")).hexdigest()
     all_rows = source_payload["rows"]
     eligible = [(index, row) for index, row in enumerate(all_rows) if row.get("bridge_agrees") == "نعم"]
     selected = eligible[:300]
@@ -364,9 +366,13 @@ def main() -> int:
             "\n", text, flags=re.DOTALL,
         )
         reading_texts[language] = text
-    for payload in khashim_payloads:
+    reset_khashim_batches = set()
+    for number, payload in enumerate(khashim_payloads, 1):
         for card in payload["rows"]:
+            prior_supplements = [item for item in card.get("jassem_supplements", []) if item.get("batch") == 1]
             prior_rejudgments = [item for item in card.get("jassem_rejudgments", []) if item.get("batch") == 1]
+            if prior_supplements or prior_rejudgments:
+                reset_khashim_batches.add(number)
             for judged in prior_rejudgments:
                 selected_root = judged["root"]
                 original = None
@@ -481,8 +487,8 @@ def main() -> int:
     if len(groups) != len(supplements) + len(new_cards) or len(head_gaps) + sum(len(value) for value in groups.values()) != 300:
         raise AssertionError((len(groups), len(supplements), len(new_cards), len(head_gaps)))
 
-    # Merge the nineteen exact forms into their Khashim cards and update the two
-    # cards for which the newly inspected whole fan completes all three legs.
+    # Merge exact forms into their Khashim cards and update any card for which
+    # the newly inspected whole fan completes all three legs.
     touched_khashim_batches = set()
     for supplement in supplements:
         number, card = find_card(supplement["target_card_id"], khashim_payloads)
@@ -545,7 +551,8 @@ def main() -> int:
 
     for language, text in reading_texts.items():
         (READINGS / f"{language}.md").write_text(text, encoding="utf-8", newline="\n")
-    for number in touched_khashim_batches:
+    changed_khashim_batches = touched_khashim_batches | reset_khashim_batches
+    for number in changed_khashim_batches:
         Path(str(KHASHIM).format(number=number)).write_text(
             json.dumps(khashim_payloads[number - 1], ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8", newline="\n",
@@ -555,6 +562,7 @@ def main() -> int:
     dialect_additions = sum(card["dialect_additions"] for card in new_cards)
     new_positive_cards = [card for card in new_cards if card["positives"]]
     rejudged = [item for item in supplements if item.get("rejudgment")]
+    confirmed = [item for item in supplements if item.get("existing_positive_confirmed")]
     payload = {
         "schema": "jassem-indo-european-batch-v1.0",
         "date": "2026-08-13",
@@ -565,6 +573,8 @@ def main() -> int:
         "batch": 1,
         "selection": {
             "criterion": "first 300 source rows with bridge_agrees=نعم in source order",
+            "row_identity": "source_row_key is SHA-256/24 of normalized european + arabic_root + arabic_gloss + author_translit; row indices are freeze-time locators only",
+            "source_sha256_at_freeze": source_sha256,
             "eligible_bridge_agrees_rows_current": len(eligible),
             "selected_source_rows": 300,
             "first_source_row_index": selected[0][0],
@@ -585,7 +595,7 @@ def main() -> int:
         "new_cards_written": len(new_cards),
         "existing_card_supplements": len(supplements),
         "newly_issued_positive_cards": len(new_positive_cards) + len(rejudged),
-        "previous_positive_confirmations": 1,
+        "previous_positive_confirmations": len(confirmed),
         "open_new_cards": len(new_cards) - len(new_positive_cards),
         "new_cards_by_language": dict(sorted(Counter(card["language"] for card in new_cards).items())),
         "all_heads_by_target_language": dict(sorted(Counter(
@@ -604,18 +614,43 @@ def main() -> int:
     }
     MANIFEST.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
-    highlights = [
-        "`Abide` دُمجت في بطاقة خشيم القائمة، ورفعت المروحة الكاملة `بيت` لا جذر المؤلف وحده؛ `ROOT-TRACE`.",
-        "`Acorn` ↔ `قرن`: `ROOT-ECHO` في النتوء الصلب، مع فصل ثمرة البلوط عن قرن الحيوان.",
-        "`Ally` ↔ `ولي`: `ROOT-TRACE` في اللزوم والتبعية والاشتمال.",
-        "`Bit` ↔ `بت`: `NUCLEUS-TRACE` في القطعة الناتجة من القطع والانفصال.",
-        "`Blaze` ↔ `برز`: `ROOT-ECHO` في بروز الضوء أو اللهب ظهورًا قويًا.",
-        "`Booth` ↔ `بيت`: `ROOT-TRACE` في الحيز المحيط الذي يشغله الإنسان.",
-        "`But` ↔ `بت`: `NUCLEUS-ECHO` في قطع استرسال القضية بأداة الاستدراك.",
-        "`Butter` ↔ `بتل`: `ROOT-ECHO` في تميز الدهن من أصله وصيرورته كتلة قائمة.",
-        "`Car` لم تتكرر؛ أضيف شاهد جاسم إلى بطاقة خشيم الويلزية ذات `جر` الصادرة من قبل.",
-        "`Cave` دُمجت في بطاقة خشيم القائمة، وأخرج فحص المروحة `قوب` «فراغ جوفي محدود الجوانب»؛ `ROOT-TRACE`.",
-    ]
+    highlight_map = {
+        "abide": "`Abide` دُمجت في بطاقة خشيم القائمة، ورفعت المروحة الكاملة `بيت` لا جذر المؤلف وحده؛ `ROOT-TRACE`.",
+        "acorn": "`Acorn` ↔ `قرن`: `ROOT-ECHO` في النتوء الصلب، مع فصل ثمرة البلوط عن قرن الحيوان.",
+        "ally": "`Ally` ↔ `ولي`: `ROOT-TRACE` في اللزوم والتبعية والاشتمال.",
+        "bit": "`Bit` ↔ `بت`: `NUCLEUS-TRACE` في القطعة الناتجة من القطع والانفصال.",
+        "blaze": "`Blaze` ↔ `برز`: `ROOT-ECHO` في بروز الضوء أو اللهب ظهورًا قويًا.",
+        "booth": "`Booth` ↔ `بيت`: `ROOT-TRACE` في الحيز المحيط الذي يشغله الإنسان.",
+        "but": "`But` ↔ `بت`: `NUCLEUS-ECHO` في قطع استرسال القضية بأداة الاستدراك.",
+        "butter": "`Butter` ↔ `بتل`: `ROOT-ECHO` في تميز الدهن من أصله وصيرورته كتلة قائمة.",
+        "car": "`Car` لم تتكرر؛ أضيف شاهد جاسم إلى بطاقة خشيم الويلزية ذات `جر` الصادرة من قبل.",
+        "cave": "`Cave` دُمجت في بطاقة خشيم القائمة، وأخرج فحص المروحة `قوب` «فراغ جوفي محدود الجوانب»؛ `ROOT-TRACE`.",
+    }
+    issued_keys = {card["normalized_head"] for card in new_positive_cards}
+    issued_keys.update(norm(item["head"]) for item in rejudged + confirmed)
+    highlights = [highlight_map[key] for key in groups if key in issued_keys and key in highlight_map]
+    new_by_key = {card["normalized_head"]: card for card in new_cards}
+    supplement_by_key = {norm(item["head"]): item for item in supplements}
+    for key, members in groups.items():
+        if len(highlights) >= 10 or key in issued_keys:
+            continue
+        head = str(members[0][1]["european"]).strip()
+        if key in new_by_key:
+            card = new_by_key[key]
+            highlights.append(
+                f"`{clean(head)}` بقي مفتوحًا بعد عرض مروحته المرتبة ذات {len(card['fan_review'])} مرشحًا؛ موافقة الجسر لم تُقم وحدها مدار المعنى."
+            )
+        elif key in supplement_by_key:
+            highlights.append(
+                f"`{clean(head)}` أُلحق ببطاقة خشيم المطابقة بدل تكراره، وبقي حكم البطاقة كما هو لعدم اكتمال الأرجل الثلاث."
+            )
+    if len(highlights) < 10:
+        raise AssertionError(f"ten audit highlights required, found {len(highlights)}")
+    highlights = highlights[:10]
+    confirmation_text = (
+        f"، وثُبّت {len(confirmed)} شاهد جاسم لبطاقة موجبة من قبل"
+        if confirmed else ""
+    )
     audit_lines = [
         "# محضر حصاد جاسم الهنديّ الأوربيّ، دفعة الموافقات 001 (2026-08-13)",
         "",
@@ -624,7 +659,7 @@ def main() -> int:
         f"- انتُخبت أول 300 صف من الصفوف ذات `bridge_agrees=نعم`؛ المخزون الجاري يحمل {len(eligible)} صفًا موافقًا بعد توسع الحصاد، لا العدد القديم وحده.",
         f"- {len(head_gaps)} صفًا بلا مدخل أوربي حُفظت في البيان بوسم حسابي `SOURCE-HEAD-GAP` ولم تُختلق لها بطاقات.",
         f"- {300 - len(head_gaps)} صفًا غير فارغ انكمشت إلى {len(groups)} كلمة: {len(supplements)} أُلحقت ببطاقات خشيم القائمة، و{len(new_cards)} بطاقة جديدة.",
-        f"- أُصدر {len(new_positive_cards) + len(rejudged)} حكم موجب جديد، وثُبّت شاهد جاسم لبطاقة `car↔جر` الموجبة من قبل؛ بقي {len(new_cards) - len(new_positive_cards)} من البطاقات الجديدة مفتوحًا.",
+        f"- أُصدر {len(new_positive_cards) + len(rejudged)} حكم موجب جديد{confirmation_text}؛ بقي {len(new_cards) - len(new_positive_cards)} من البطاقات الجديدة مفتوحًا.",
         f"- توزيع البطاقات الجديدة: " + "، ".join(f"{LANG_LABELS[k]}={v}" for k, v in sorted(Counter(card['language'] for card in new_cards).items())) + ".",
         f"- فُحص {all_candidates} مرشحًا مرتبة بـ`F.rank`، ومنها {dialect_additions} إضافة موسومة من `fan_with_dialect`؛ الوزن لم يحكم.",
         "- رومنة جاسم قُرئت بمفتاحه المعلن، لكن الجذر العربي في `arabic_root` هو المعتمد كما أمر المؤلف.",
@@ -634,6 +669,7 @@ def main() -> int:
         "- لم تُعامل موافقة الجسر حكمًا رابعًا ولا بديلًا من الأرجل الثلاث؛ إنما قدّمت الصف إلى أول الطابور.",
         "- كل مرشح ذي حدث مجمد عُرض على معنى المدخل؛ تشابه الرسم بلا مدار بقي مفتوحًا، مثل `cat↔قط` لأن حدث `قط` هو القطع لا الحيوان.",
         "- جُمعت دعاوى المدخل الواحد عبر أبحاث جاسم، وجُمعت المطابقات الحرفية مع بطاقات خشيم بدل إنشاء نسخ موازية.",
+        "- ثُبّتت هوية كل صف بمفتاح محتوى؛ أرقام الصفوف في البيان مواضع لقطة التجميد لا هويات دائمة.",
         "- غياب الصورة من لقطة المشروع لم يدخل الحكم ولم يُنتج `SOURCE-GAP` مفترضًا.",
         "",
         "## عشرة مواضع بارزة",
@@ -651,9 +687,10 @@ def main() -> int:
         "selected": 300, "head_gaps": len(head_gaps), "unique_heads": len(groups),
         "supplements": len(supplements), "new_cards": len(new_cards),
         "new_positive_cards": len(new_positive_cards), "rejudgments": len(rejudged),
+        "confirmations": len(confirmed),
         "candidates": all_candidates, "dialect_additions": dialect_additions,
         "languages": Counter(card["language"] for card in new_cards),
-        "touched_khashim_batches": sorted(touched_khashim_batches),
+        "touched_khashim_batches": sorted(changed_khashim_batches),
     }, ensure_ascii=False, default=dict))
     return 0
 
