@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 2134,
-  "nucleus": 1233,
+  "root": 2137,
+  "nucleus": 1234,
   "languages": 16
  },
  "languages": [
@@ -752,6 +752,69 @@
    "nucleus_share": 23.8
   },
   {
+   "key": "persian",
+   "ar": "الفارسيّة",
+   "en": "Persian",
+   "distance": 3,
+   "root": 17,
+   "nucleus": 7,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "astar",
+     "say": "",
+     "sense": "بطانة",
+     "arabic": "ستر",
+     "quote": "الستر معروف: ما ستر به",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "گناه",
+     "say": "",
+     "sense": "sin",
+     "arabic": "جنح",
+     "quote": "امتداد أو اندفاع من الجوانب قوي أو حاد",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "کوتاه",
+     "say": "",
+     "sense": "short, low (in stature)",
+     "arabic": "قطع",
+     "quote": "فصل بعض الجرم الممتد الملتحم الرقيق",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "الفارسية",
+     "say": "",
+     "sense": "الأم",
+     "arabic": "مطر",
+     "quote": "المطر واحد الأمطار... والاستمطار الاستسقاء... أي يعطى كالمطر مثلا",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
+    },
+    {
+     "word": "parêš",
+     "say": "paresh",
+     "sense": "مبعثر/متناثر",
+     "arabic": "فرش",
+     "quote": "انبساط وانتشار للشيء مع رقة - أو ليونة - فيه",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 24,
+   "nucleus_share": 29.2
+  },
+  {
    "key": "ancient-greek",
    "ar": "اليونانيّة القديمة",
    "en": "Ancient Greek",
@@ -843,69 +906,6 @@
    ],
    "total": 23,
    "nucleus_share": 39.1
-  },
-  {
-   "key": "persian",
-   "ar": "الفارسيّة",
-   "en": "Persian",
-   "distance": 3,
-   "root": 14,
-   "nucleus": 6,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "astar",
-     "say": "",
-     "sense": "بطانة",
-     "arabic": "ستر",
-     "quote": "الستر معروف: ما ستر به",
-     "lexicon": "لسان العرب",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "گناه",
-     "say": "",
-     "sense": "sin",
-     "arabic": "جنح",
-     "quote": "امتداد أو اندفاع من الجوانب قوي أو حاد",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "کوتاه",
-     "say": "",
-     "sense": "short, low (in stature)",
-     "arabic": "قطع",
-     "quote": "فصل بعض الجرم الممتد الملتحم الرقيق",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "الفارسية",
-     "say": "",
-     "sense": "الأم",
-     "arabic": "مطر",
-     "quote": "المطر واحد الأمطار... والاستمطار الاستسقاء... أي يعطى كالمطر مثلا",
-     "lexicon": "الصحاح",
-     "layer": "root",
-     "degree": "ROOT-ECHO"
-    },
-    {
-     "word": "parêš",
-     "say": "paresh",
-     "sense": "مبعثر/متناثر",
-     "arabic": "فرش",
-     "quote": "انبساط وانتشار للشيء مع رقة - أو ليونة - فيه",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    }
-   ],
-   "total": 20,
-   "nucleus_share": 30.0
   },
   {
    "key": "old-english",
