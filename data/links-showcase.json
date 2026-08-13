@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 2177,
-  "nucleus": 1246,
+  "root": 2180,
+  "nucleus": 1248,
   "languages": 16
  },
  "languages": [
@@ -664,7 +664,7 @@
    "en": "Old Latin",
    "distance": 3,
    "root": 101,
-   "nucleus": 31,
+   "nucleus": 32,
    "floor": 1,
    "examples": [
     {
@@ -748,78 +748,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 132,
-   "nucleus_share": 23.5
-  },
-  {
-   "key": "persian",
-   "ar": "الفارسيّة",
-   "en": "Persian",
-   "distance": 3,
-   "root": 18,
-   "nucleus": 7,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "astar",
-     "say": "",
-     "sense": "بطانة",
-     "arabic": "ستر",
-     "quote": "الستر معروف: ما ستر به",
-     "lexicon": "لسان العرب",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "گناه",
-     "say": "",
-     "sense": "sin",
-     "arabic": "جنح",
-     "quote": "امتداد أو اندفاع من الجوانب قوي أو حاد",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "کوتاه",
-     "say": "",
-     "sense": "short, low (in stature)",
-     "arabic": "قطع",
-     "quote": "فصل بعض الجرم الممتد الملتحم الرقيق",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "الفارسية",
-     "say": "",
-     "sense": "الأم",
-     "arabic": "مطر",
-     "quote": "المطر واحد الأمطار... والاستمطار الاستسقاء... أي يعطى كالمطر مثلا",
-     "lexicon": "الصحاح",
-     "layer": "root",
-     "degree": "ROOT-ECHO"
-    },
-    {
-     "word": "parêš",
-     "say": "paresh",
-     "sense": "مبعثر/متناثر",
-     "arabic": "فرش",
-     "quote": "انبساط وانتشار للشيء مع رقة - أو ليونة - فيه",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    }
-   ],
-   "total": 25,
-   "nucleus_share": 28.0
+   "total": 133,
+   "nucleus_share": 24.1
   },
   {
    "key": "ancient-greek",
    "ar": "اليونانيّة القديمة",
    "en": "Ancient Greek",
    "distance": 3,
-   "root": 15,
+   "root": 16,
    "nucleus": 9,
    "floor": 0,
    "examples": [
@@ -904,15 +841,78 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 24,
-   "nucleus_share": 37.5
+   "total": 25,
+   "nucleus_share": 36.0
+  },
+  {
+   "key": "persian",
+   "ar": "الفارسيّة",
+   "en": "Persian",
+   "distance": 3,
+   "root": 18,
+   "nucleus": 7,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "astar",
+     "say": "",
+     "sense": "بطانة",
+     "arabic": "ستر",
+     "quote": "الستر معروف: ما ستر به",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "گناه",
+     "say": "",
+     "sense": "sin",
+     "arabic": "جنح",
+     "quote": "امتداد أو اندفاع من الجوانب قوي أو حاد",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "کوتاه",
+     "say": "",
+     "sense": "short, low (in stature)",
+     "arabic": "قطع",
+     "quote": "فصل بعض الجرم الممتد الملتحم الرقيق",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "الفارسية",
+     "say": "",
+     "sense": "الأم",
+     "arabic": "مطر",
+     "quote": "المطر واحد الأمطار... والاستمطار الاستسقاء... أي يعطى كالمطر مثلا",
+     "lexicon": "الصحاح",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
+    },
+    {
+     "word": "parêš",
+     "say": "paresh",
+     "sense": "مبعثر/متناثر",
+     "arabic": "فرش",
+     "quote": "انبساط وانتشار للشيء مع رقة - أو ليونة - فيه",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 25,
+   "nucleus_share": 28.0
   },
   {
    "key": "old-english",
    "ar": "الإنجليزيّة القديمة",
    "en": "Old English",
    "distance": 4,
-   "root": 48,
+   "root": 49,
    "nucleus": 28,
    "floor": 1,
    "examples": [
@@ -997,8 +997,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 76,
-   "nucleus_share": 36.8
+   "total": 77,
+   "nucleus_share": 36.4
   },
   {
    "key": "middle-english",
@@ -1177,6 +1177,99 @@
    "nucleus_share": 61.8
   },
   {
+   "key": "old-norse",
+   "ar": "النُّرديّة القديمة",
+   "en": "Old Norse",
+   "distance": 4,
+   "root": 18,
+   "nucleus": 7,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "hamr",
+     "say": "",
+     "sense": "shroud, covering",
+     "arabic": "غمر",
+     "quote": "غمره الماء: علاه وغطاه",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "hurð",
+     "say": "hurdh",
+     "sense": "door",
+     "arabic": "غلق",
+     "quote": "غلق الباب وأغلقه وغلقه",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "hylja",
+     "say": "",
+     "sense": "to hide, cover",
+     "arabic": "غلف",
+     "quote": "الغلاف... ما اشتمل على الشيء",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "vitra",
+     "say": "",
+     "sense": "to manifest, reveal",
+     "arabic": "فطر",
+     "quote": "ارتخاء الشيء لذهاب شدته؛ فينبسط",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "tign",
+     "say": "",
+     "sense": "state, highness, honour",
+     "arabic": "تقن",
+     "quote": "مادة جودة الشيء في بابه أو جنسه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "mygla",
+     "say": "",
+     "sense": "to grow mouldy or musty",
+     "arabic": "بقل",
+     "quote": "نبات (أو شيء ينبت) ضعيفا في ظاهر شيء",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "draga",
+     "say": "",
+     "sense": "to draw, drag, pull",
+     "arabic": "درج",
+     "quote": "ضم أو احتواء في مضم للنقل برفق",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "fleyta",
+     "say": "",
+     "sense": "to set afloat, launch",
+     "arabic": "فرط",
+     "quote": "خلوص الماء من الملح مع صفائه من الكدورة",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    }
+   ],
+   "total": 25,
+   "nucleus_share": 28.0
+  },
+  {
    "key": "gothic",
    "ar": "القوطيّة",
    "en": "Gothic",
@@ -1268,99 +1361,6 @@
    ],
    "total": 24,
    "nucleus_share": 41.7
-  },
-  {
-   "key": "old-norse",
-   "ar": "النُّرديّة القديمة",
-   "en": "Old Norse",
-   "distance": 4,
-   "root": 17,
-   "nucleus": 6,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "hamr",
-     "say": "",
-     "sense": "shroud, covering",
-     "arabic": "غمر",
-     "quote": "غمره الماء: علاه وغطاه",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "hurð",
-     "say": "hurdh",
-     "sense": "door",
-     "arabic": "غلق",
-     "quote": "غلق الباب وأغلقه وغلقه",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "hylja",
-     "say": "",
-     "sense": "to hide, cover",
-     "arabic": "غلف",
-     "quote": "الغلاف... ما اشتمل على الشيء",
-     "lexicon": "تاج العروس",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "vitra",
-     "say": "",
-     "sense": "to manifest, reveal",
-     "arabic": "فطر",
-     "quote": "ارتخاء الشيء لذهاب شدته؛ فينبسط",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "tign",
-     "say": "",
-     "sense": "state, highness, honour",
-     "arabic": "تقن",
-     "quote": "مادة جودة الشيء في بابه أو جنسه",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "mygla",
-     "say": "",
-     "sense": "to grow mouldy or musty",
-     "arabic": "بقل",
-     "quote": "نبات (أو شيء ينبت) ضعيفا في ظاهر شيء",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "draga",
-     "say": "",
-     "sense": "to draw, drag, pull",
-     "arabic": "درج",
-     "quote": "ضم أو احتواء في مضم للنقل برفق",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "fleyta",
-     "say": "",
-     "sense": "to set afloat, launch",
-     "arabic": "فرط",
-     "quote": "خلوص الماء من الملح مع صفائه من الكدورة",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    }
-   ],
-   "total": 23,
-   "nucleus_share": 26.1
   },
   {
    "key": "welsh",

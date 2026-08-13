@@ -19454,7 +19454,81 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2858,
+              "source_row_index_at_freeze": 2858,
+              "source_row_key": "0ed0d328755ab90acc277a52",
+              "european": "North",
+              "arabic_root": "عرب",
+              "author_translit": "3arab(at)",
+              "arabic_gloss": "run, move",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: جري، ركض، طرد، عدو، مشي، هرول"
+            },
+            {
+              "source_row_index": 2859,
+              "source_row_index_at_freeze": 2859,
+              "source_row_key": "5b3727c12f4159a6d47beffb",
+              "european": "North",
+              "arabic_root": "عنقد",
+              "author_translit": "3anqood",
+              "arabic_gloss": "bunch (of grapes); cluster",
+              "source": "jassem-2015-military",
+              "bridge_agrees": "جذرٌ آخر: خصل، عنقود"
+            },
+            {
+              "source_row_index": 2861,
+              "source_row_index_at_freeze": 2861,
+              "source_row_key": "b8e9c71a52cce4ec64f54b0b",
+              "european": "North",
+              "arabic_root": "مسقط",
+              "author_translit": "masqiT",
+              "arabic_gloss": "fall, set",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: حط، حقق"
+            },
+            {
+              "source_row_index": 2862,
+              "source_row_index_at_freeze": 2862,
+              "source_row_key": "e856998d8486aba9f5c89e2c",
+              "european": "North",
+              "arabic_root": "مشرق",
+              "author_translit": "mashriq",
+              "arabic_gloss": "east",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءذربيجان، ءرد، ءير، الست، النسطورية، اليمن، بال، بعث، وغيرُها"
+            },
+            {
+              "source_row_index": 2863,
+              "source_row_index_at_freeze": 2863,
+              "source_row_key": "b641047fc13539282b934dbd",
+              "european": "North",
+              "arabic_root": "نثر",
+              "author_translit": "nathoor",
+              "arabic_gloss": "woman with many children",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: بق، رب، روم، طول، عد، نون"
+            },
+            {
+              "source_row_index": 2864,
+              "source_row_index_at_freeze": 2864,
+              "source_row_key": "4068d61de9d2f20c1f83e2ad",
+              "european": "North",
+              "arabic_root": "نم",
+              "author_translit": "naam",
+              "arabic_gloss": "sleep",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-090",
@@ -19832,7 +19906,103 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2867,
+              "source_row_index_at_freeze": 2867,
+              "source_row_key": "63dacd6f76231c3c229bab4e",
+              "european": "Not",
+              "arabic_root": "دزل",
+              "author_translit": "dzil(eel))",
+              "arabic_gloss": "little, less",
+              "source": "jassem-2013-negative-particles",
+              "bridge_agrees": "جذرٌ آخر: خف، سهل، صغر، ضحل، علب، قزم، قلل، لطف، وغيرُها"
+            },
+            {
+              "source_row_index": 2868,
+              "source_row_index_at_freeze": 2868,
+              "source_row_key": "6cff76060ec561e0b6ba1642",
+              "european": "Not",
+              "arabic_root": "دن",
+              "author_translit": "doon",
+              "arabic_gloss": "down",
+              "source": "jassem-2013-negative-particles",
+              "bridge_agrees": "جذرٌ آخر: ءث، ءثر، ءلي، ءمر، ءنس، ءود، برك، بطح، وغيرُها"
+            },
+            {
+              "source_row_index": 2870,
+              "source_row_index_at_freeze": 2870,
+              "source_row_key": "c3b0fca15f91ca323bd14d52",
+              "european": "Not",
+              "arabic_root": "عل",
+              "author_translit": "3aleel",
+              "arabic_gloss": "ill",
+              "source": "jassem-2013-negative-particles",
+              "bridge_agrees": "جذرٌ آخر: بغض، جرم، جن، حاد، حرز، حرم، حقد، حوس، وغيرُها"
+            },
+            {
+              "source_row_index": 2871,
+              "source_row_index_at_freeze": 2871,
+              "source_row_key": "41eb09527f1901f73a60e999",
+              "european": "Not",
+              "arabic_root": "علم",
+              "author_translit": "3ilm",
+              "arabic_gloss": "news",
+              "source": "jassem-2013-negative-particles",
+              "bridge_agrees": "جذرٌ آخر: بشر، بلغ، حدث، خبر، دون، ذير، ذيع، زفف، وغيرُها"
+            },
+            {
+              "source_row_index": 2872,
+              "source_row_index_at_freeze": 2872,
+              "source_row_key": "9836c384eec73125d17d494c",
+              "european": "Not",
+              "arabic_root": "لءم",
+              "author_translit": "la'eem",
+              "arabic_gloss": "evil, bad",
+              "source": "jassem-2013-negative-particles",
+              "bridge_agrees": "جذرٌ آخر: خبث، دخن، ذير، ردي، سوء، سود، شءم، شر، وغيرُها"
+            },
+            {
+              "source_row_index": 2873,
+              "source_row_index_at_freeze": 2873,
+              "source_row_key": "f2ffcc3e66db5cd147a820e0",
+              "european": "Not",
+              "arabic_root": "لس",
+              "author_translit": "laisa",
+              "arabic_gloss": "not",
+              "source": "jassem-2013-negative-particles",
+              "bridge_agrees": "جذرٌ آخر: ءبد، ءجر، ءخر، ءدا، ءرض، ءس، ءكد، ءل، وغيرُها"
+            },
+            {
+              "source_row_index": 2874,
+              "source_row_index_at_freeze": 2874,
+              "source_row_key": "9f71dc870187e226efa2ea50",
+              "european": "Not",
+              "arabic_root": "مل",
+              "author_translit": "meel",
+              "arabic_gloss": "mile",
+              "source": "jassem-2013-negative-particles",
+              "bridge_agrees": "جذرٌ آخر: عقد، ميل"
+            },
+            {
+              "source_row_index": 2876,
+              "source_row_index_at_freeze": 2876,
+              "source_row_key": "44efb590d7a8207b58c22580",
+              "european": "Not",
+              "arabic_root": "ميل",
+              "author_translit": "mayel",
+              "arabic_gloss": "lame, declining",
+              "source": "jassem-2013-negative-particles",
+              "bridge_agrees": "جذرٌ آخر: ءشل، جرذ، حظل، خمع، شل، شلل، عرج، عند، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-091",
@@ -20309,7 +20479,70 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2879,
+              "source_row_index_at_freeze": 2879,
+              "source_row_key": "fa69f5b5c85bb875b82bf87e",
+              "european": "Notice",
+              "arabic_root": "بصر",
+              "author_translit": "baSar",
+              "arabic_gloss": "see",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 2880,
+              "source_row_index_at_freeze": 2880,
+              "source_row_key": "41d44410464ce54b79c978e2",
+              "european": "Notice",
+              "arabic_root": "تيقن",
+              "author_translit": "tayaqqan",
+              "arabic_gloss": "know",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها"
+            },
+            {
+              "source_row_index": 2882,
+              "source_row_index_at_freeze": 2882,
+              "source_row_key": "a206f1c38c25b3b263ac5ec1",
+              "european": "Notice",
+              "arabic_root": "قن",
+              "author_translit": "aiqan",
+              "arabic_gloss": "know",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها"
+            },
+            {
+              "source_row_index": 2883,
+              "source_row_index_at_freeze": 2883,
+              "source_row_key": "5da0fb23375d8388d084c908",
+              "european": "Notice",
+              "arabic_root": "نم",
+              "author_translit": "naam",
+              "arabic_gloss": "sleep",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "جذرٌ آخر: ءتي، ءرق، بقق، تنا، جثم، حلم، خدر، خلط، وغيرُها"
+            },
+            {
+              "source_row_index": 2885,
+              "source_row_index_at_freeze": 2885,
+              "source_row_key": "aaed66075e8072f82300772a",
+              "european": "Notice",
+              "arabic_root": "يقن",
+              "author_translit": "yaqeen",
+              "arabic_gloss": "know",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "جذرٌ آخر: ءنس، برع، بطن، بلغ، بين، تعل، جهل، حس، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-094",
@@ -20423,7 +20656,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2891,
+              "source_row_index_at_freeze": 2891,
+              "source_row_key": "9989433d7c90815a93a33e0c",
+              "european": "Nun",
+              "arabic_root": "بزرن",
+              "author_translit": "bizraan",
+              "arabic_gloss": "children",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "جذرٌ آخر: ءهل، بتر، بخ، بس، بطن، بق، بو، جيل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-095",
@@ -20522,7 +20774,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2893,
+              "source_row_index_at_freeze": 2893,
+              "source_row_key": "c2b200a155dd4a9aca84b6be",
+              "european": "Nurse",
+              "arabic_root": "مرضع",
+              "author_translit": "murDi3",
+              "arabic_gloss": "nursing, suckling mother",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: رضع"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-096",
@@ -20566,7 +20837,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2898,
+              "source_row_index_at_freeze": 2898,
+              "source_row_key": "5116b2172032a4dd959e85b0",
+              "european": "Oath",
+              "arabic_root": "وسوس",
+              "author_translit": "waswaas",
+              "arabic_gloss": "obsession",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: قلق، هوس"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-097",
@@ -20697,7 +20987,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2907,
+              "source_row_index_at_freeze": 2907,
+              "source_row_key": "0e0d221b8b7e346f86d28352",
+              "european": "Occult",
+              "arabic_root": "كل",
+              "author_translit": "kallal",
+              "arabic_gloss": "to top-cover; blind",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "جذرٌ آخر: ستر، سطح، سقف، صعد، علي، فوق"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-098",
@@ -20780,7 +21089,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2916,
+              "source_row_index_at_freeze": 2916,
+              "source_row_key": "8a65a62684acf2de5bd233d0",
+              "european": "Officer",
+              "arabic_root": "عن",
+              "author_translit": "3an",
+              "arabic_gloss": "on",
+              "source": "jassem-2015-military",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 2917,
+              "source_row_index_at_freeze": 2917,
+              "source_row_key": "2eeaa45da829063fe5fa621a",
+              "european": "Officer",
+              "arabic_root": "وفق",
+              "author_translit": "wafeeq",
+              "arabic_gloss": "companion",
+              "source": "jassem-2015-military",
+              "bridge_agrees": "جذرٌ آخر: ءنس، جلي، حب، حسن، خدن، خلط، رفع، رفق، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-099",
@@ -20879,7 +21218,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2918,
+              "source_row_index_at_freeze": 2918,
+              "source_row_key": "6d83b274e1d3e26838ca2ee9",
+              "european": "Often",
+              "arabic_root": "عن",
+              "author_translit": "3an",
+              "arabic_gloss": "on",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 2919,
+              "source_row_index_at_freeze": 2919,
+              "source_row_key": "62ece24f997b29e90030db35",
+              "european": "Often",
+              "arabic_root": "فنت",
+              "author_translit": "fainat",
+              "arabic_gloss": "a time",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "جذرٌ آخر: ءبد، ءجل، ءخر، ءذ، ءرخ، ءصل، ءما، ءمس، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-100",
@@ -20927,7 +21296,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2924,
+              "source_row_index_at_freeze": 2924,
+              "source_row_key": "806ab59558ac7e75494b297c",
+              "european": "Ointment",
+              "arabic_root": "لغ",
+              "author_translit": "laghoo",
+              "arabic_gloss": "vain talk",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: ءثم، باه، بجح، بحث، بطل، بق، جوي، حدث، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-101",
@@ -21101,7 +21489,81 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2928,
+              "source_row_index_at_freeze": 2928,
+              "source_row_key": "3a9f832cc07548caab7a8d98",
+              "european": "Omen",
+              "arabic_root": "بصبص",
+              "author_translit": "baSbooS",
+              "arabic_gloss": "look, see; eye pupil",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "جذرٌ آخر: حدق"
+            },
+            {
+              "source_row_index": 2930,
+              "source_row_index_at_freeze": 2930,
+              "source_row_key": "ca8d6e885b9fcde5f2941fb2",
+              "european": "Omen",
+              "arabic_root": "بوص",
+              "author_translit": "bawS",
+              "arabic_gloss": "pass, advance",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "جذرٌ آخر: دبر"
+            },
+            {
+              "source_row_index": 2932,
+              "source_row_index_at_freeze": 2932,
+              "source_row_key": "3841b2f06330ead5528b46b2",
+              "european": "Omen",
+              "arabic_root": "سمعن",
+              "author_translit": "sam3aan",
+              "arabic_gloss": "hearing",
+              "source": "jassem-2015-life-death",
+              "bridge_agrees": "جذرٌ آخر: ءذن، بوم، جلس، ساع، سك، سم، سمع، صغ، وغيرُها"
+            },
+            {
+              "source_row_index": 2934,
+              "source_row_index_at_freeze": 2934,
+              "source_row_key": "21601d6efa292215c348e26e",
+              "european": "Omen",
+              "arabic_root": "عم",
+              "author_translit": "3umoom",
+              "arabic_gloss": "all, common",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: جمع، ركز، سود، صلا، ضلع، عرق، عمم، كل، وغيرُها"
+            },
+            {
+              "source_row_index": 2935,
+              "source_row_index_at_freeze": 2935,
+              "source_row_key": "74a0e68dd3c6298075887000",
+              "european": "Omen",
+              "arabic_root": "نءب",
+              "author_translit": "naa'iba(t)",
+              "arabic_gloss": "ib (pl.)",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 2936,
+              "source_row_index_at_freeze": 2936,
+              "source_row_key": "a3c30ccb1d9320894dad9728",
+              "european": "Omen",
+              "arabic_root": "نو",
+              "author_translit": "nawa",
+              "arabic_gloss": "ib (pl.)",
+              "source": "jassem-2013-perceptual-sensual",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-102",
@@ -21215,7 +21677,48 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2942,
+              "source_row_index_at_freeze": 2942,
+              "source_row_key": "66af8058188258c5b9ae0bb0",
+              "european": "Onion",
+              "arabic_root": "ءرنج",
+              "author_translit": "'aarinj",
+              "arabic_gloss": "oranges",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "لا مدخلَ عندنا"
+            },
+            {
+              "source_row_index": 2943,
+              "source_row_index_at_freeze": 2943,
+              "source_row_key": "0b3c70deae7084dceea715c4",
+              "european": "Onion",
+              "arabic_root": "ءل",
+              "author_translit": "'ul(an)",
+              "arabic_gloss": "one, first",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها"
+            },
+            {
+              "source_row_index": 2945,
+              "source_row_index_at_freeze": 2945,
+              "source_row_key": "ee03547f64b502273b93c973",
+              "european": "Onion",
+              "arabic_root": "نعنع",
+              "author_translit": "na3na3",
+              "arabic_gloss": "mint",
+              "source": "jassem-2016-floral · jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: جعد، حبق، خيت، دنر، سك، ضرب، ضرم، فلي، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-103",
@@ -21263,7 +21766,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2948,
+              "source_row_index_at_freeze": 2948,
+              "source_row_key": "caa769e7fcc1714078bbfbd0",
+              "european": "Ophthalmic",
+              "arabic_root": "بصبص",
+              "author_translit": "baSbooS",
+              "arabic_gloss": "eye pupil",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: حدق، صبو، قرن، قزح"
+            },
+            {
+              "source_row_index": 2949,
+              "source_row_index_at_freeze": 2949,
+              "source_row_key": "2cbad46f2e2ab162d7220702",
+              "european": "Ophthalmic",
+              "arabic_root": "ثن",
+              "author_translit": "thania(t)",
+              "arabic_gloss": "tooth",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: اب، ثرم، ثغر، جذر، رق، سن، سنة، سنن، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-104",
@@ -21875,7 +22408,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2954,
+              "source_row_index_at_freeze": 2954,
+              "source_row_key": "5a31b5db4fbaaa107d81e123",
+              "european": "Opposite to",
+              "arabic_root": "ثن",
+              "author_translit": "thaan(i)",
+              "arabic_gloss": "second, next, other",
+              "source": "jassem-2014-prepositions",
+              "bridge_agrees": "جذرٌ آخر: ب، بدل، بطرك، تبع، جور، خطب، صفف، عل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-105",
@@ -22450,7 +23002,48 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2968,
+              "source_row_index_at_freeze": 2968,
+              "source_row_key": "7ee6b9544b61bbda0fa310e1",
+              "european": "Order",
+              "arabic_root": "جر",
+              "author_translit": "joor",
+              "arabic_gloss": "injustice",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: بطل، بغي، ثءر، جور، حيف، ظلم، عطب، عول، وغيرُها"
+            },
+            {
+              "source_row_index": 2970,
+              "source_row_index_at_freeze": 2970,
+              "source_row_key": "4fdf445425edcf857c7ec9ba",
+              "european": "Order",
+              "arabic_root": "رد",
+              "author_translit": "araada",
+              "arabic_gloss": "want",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءراد، ءمل، بد، بغي، ترب، جلد، حب، حرص، وغيرُها"
+            },
+            {
+              "source_row_index": 2972,
+              "source_row_index_at_freeze": 2972,
+              "source_row_key": "6ae5c836b567ea0e3e9cd75e",
+              "european": "Order",
+              "arabic_root": "نر",
+              "author_translit": "noor(at)",
+              "arabic_gloss": "light",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: ءخ، ءدم، ءزر، ءشع، ءلق، ءهل، ار، برق، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-107",
@@ -22681,7 +23274,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2975,
+              "source_row_index_at_freeze": 2975,
+              "source_row_key": "cb50e1fccdaabc5d0c5bcc6a",
+              "european": "Oregano",
+              "arabic_root": "رحن",
+              "author_translit": "rai2an",
+              "arabic_gloss": "any aromatic (henna) plant",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: انس، حاش، حبق، حلب، حنا، ريح، زنجبيل، سنبل، وغيرُها"
+            },
+            {
+              "source_row_index": 2976,
+              "source_row_index_at_freeze": 2976,
+              "source_row_key": "bb87e963da439ef8f9eeb488",
+              "european": "Oregano",
+              "arabic_root": "نقء",
+              "author_translit": "naqaa'",
+              "arabic_gloss": "purity",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: خلص، ردي، زكو، عصم، غسل، قاء، قدس، نزه"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-109",
@@ -23322,7 +23945,81 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2981,
+              "source_row_index_at_freeze": 2981,
+              "source_row_key": "135f49ec6496abf1b3fad34c",
+              "european": "Ornate",
+              "arabic_root": "بر",
+              "author_translit": "baara",
+              "arabic_gloss": "parallel",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: از، حرف، ساخ، سوي، صنو، ضرع، عدس، عود، وغيرُها"
+            },
+            {
+              "source_row_index": 2982,
+              "source_row_index_at_freeze": 2982,
+              "source_row_key": "1fbccb212de3890136c398dc",
+              "european": "Ornate",
+              "arabic_root": "بربر",
+              "author_translit": "barbar",
+              "arabic_gloss": "talk swiftly",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: باه، بجح، بحث، بق، جلذ، جوي، حدث، خرف، وغيرُها"
+            },
+            {
+              "source_row_index": 2984,
+              "source_row_index_at_freeze": 2984,
+              "source_row_key": "9cacf4674a33b1faa74bcc0a",
+              "european": "Ornate",
+              "arabic_root": "بض",
+              "author_translit": "baiD(at)",
+              "arabic_gloss": "egg; white",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: بيض، رصب، زلل، غرق، غرقل، محح"
+            },
+            {
+              "source_row_index": 2985,
+              "source_row_index_at_freeze": 2985,
+              "source_row_key": "de8711de9dc426e1a581d206",
+              "european": "Ornate",
+              "arabic_root": "تلون",
+              "author_translit": "talween",
+              "arabic_gloss": "colour",
+              "source": "jassem-2013-speech-writing · jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: ءجن، ءدم، بشر، بع، بني، جزر، جعد، حمر، وغيرُها"
+            },
+            {
+              "source_row_index": 2986,
+              "source_row_index_at_freeze": 2986,
+              "source_row_key": "eca9005ecd39242992079a36",
+              "european": "Ornate",
+              "arabic_root": "حد",
+              "author_translit": "2adee",
+              "arabic_gloss": "camel song",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءبل، ءور، اب، بخت، بدن، برد، بطن، بعر، وغيرُها"
+            },
+            {
+              "source_row_index": 2989,
+              "source_row_index_at_freeze": 2989,
+              "source_row_key": "8dad92477ea2779f3eb050a6",
+              "european": "Ornate",
+              "arabic_root": "مبر",
+              "author_translit": "mubaari",
+              "arabic_gloss": "parallel",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: از، حرف، ساخ، سوي، صنو، ضرع، عدس، عود، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-112",
@@ -23600,7 +24297,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2996,
+              "source_row_index_at_freeze": 2996,
+              "source_row_key": "d1a17e9f13d1ad24fac4f57a",
+              "european": "Oven",
+              "arabic_root": "بستن",
+              "author_translit": "bustaan",
+              "arabic_gloss": "orchard",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ءيك، بست، بيار، حوش، خرف، علج، كرم"
+            },
+            {
+              "source_row_index": 2998,
+              "source_row_index_at_freeze": 2998,
+              "source_row_key": "1898fabb1fd0d6c6f72d0766",
+              "european": "Oven",
+              "arabic_root": "بصر",
+              "author_translit": "baSra(t)",
+              "arabic_gloss": "soft rock",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ءيس، بري، بسكت، بلور، تلع، جبل، جرس، جرف، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-113",
@@ -23888,7 +24615,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3002,
+              "source_row_index_at_freeze": 3002,
+              "source_row_key": "0a935e574bb0417f5196ba4a",
+              "european": "Overalls",
+              "arabic_root": "جب",
+              "author_translit": "jubba(t)",
+              "arabic_gloss": "a dress",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: ءل، بدل، بذل، برنس، بهر، ثوب، جلبب، دبج، وغيرُها"
+            },
+            {
+              "source_row_index": 3003,
+              "source_row_index_at_freeze": 3003,
+              "source_row_key": "879a1422be207a9452bf0d55",
+              "european": "Overalls",
+              "arabic_root": "صبر",
+              "author_translit": "Subar",
+              "arabic_gloss": "high",
+              "source": "jassem-2016-fashion",
+              "bridge_agrees": "جذرٌ آخر: ءيل، بختر، بدع، برج، برق، بلغ، بهظ، تحت، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-114",
@@ -24821,7 +25578,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3021,
+              "source_row_index_at_freeze": 3021,
+              "source_row_key": "0849cb4b47976a6fe35c4f42",
+              "european": "Parasite",
+              "arabic_root": "تفكه",
+              "author_translit": "tafakkah",
+              "arabic_gloss": "to eat fruit",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: ءكل، لحم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-118",
@@ -24857,7 +25633,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3026,
+              "source_row_index_at_freeze": 3026,
+              "source_row_key": "5ead0880b9943bac919d0660",
+              "european": "Particle",
+              "arabic_root": "قل",
+              "author_translit": "qaleel",
+              "arabic_gloss": "small",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "جذرٌ آخر: ءس، ءكل، ا، الثمن، باك، بب، بحثر، بخ، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-119",
@@ -25021,7 +25816,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3028,
+              "source_row_index_at_freeze": 3028,
+              "source_row_key": "8b70a3fc059da18d6e16c988",
+              "european": "Party",
+              "arabic_root": "بت",
+              "author_translit": "abat",
+              "arabic_gloss": "father",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: ءب، ءبا، ءبب، ءبت، ءبو، ءبي، ءس، باب، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-120",
@@ -25764,7 +26578,59 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3038,
+              "source_row_index_at_freeze": 3038,
+              "source_row_key": "53d83c22f4bd3065d64e381b",
+              "european": "Pathos",
+              "arabic_root": "بث",
+              "author_translit": "bathth",
+              "arabic_gloss": "extreme sorrow",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "جذرٌ آخر: ءخر، ءسا، ءسف، ءسي، ءلم، ادم، از، بتل، وغيرُها"
+            },
+            {
+              "source_row_index": 3039,
+              "source_row_index_at_freeze": 3039,
+              "source_row_key": "24cb40045ba4d7cbdbe164e2",
+              "european": "Pathos",
+              "arabic_root": "بله",
+              "author_translit": "balah",
+              "arabic_gloss": "love",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "جذرٌ آخر: بوس، تاب، تيم، حب، حبب، حبك، حمر، حمس، وغيرُها"
+            },
+            {
+              "source_row_index": 3041,
+              "source_row_index_at_freeze": 3041,
+              "source_row_key": "ec0c9af112e59f1286afc898",
+              "european": "Pathos",
+              "arabic_root": "فشل",
+              "author_translit": "faishala(t)",
+              "arabic_gloss": "penis head",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "جذرٌ آخر: غرل، قلف"
+            },
+            {
+              "source_row_index": 3042,
+              "source_row_index_at_freeze": 3042,
+              "source_row_key": "f7fe57ae0411138cd04e3ad8",
+              "european": "Pathos",
+              "arabic_root": "وله",
+              "author_translit": "walah",
+              "arabic_gloss": "love",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "جذرٌ آخر: بوس، تاب، تيم، حب، حبب، حبك، حمر، حمس، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-122",
@@ -27660,7 +28526,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3056,
+              "source_row_index_at_freeze": 3056,
+              "source_row_key": "747a6fc102fd080c1e57c344",
+              "european": "Peep",
+              "arabic_root": "بلحن",
+              "author_translit": "bula2(aan)",
+              "arabic_gloss": "big bird",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "جذرٌ آخر: بط، رءل"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-126",
@@ -27892,7 +28777,37 @@
         }
       ],
       "closure": "NUCLEUS-ECHO",
-      "judgment": "NUCLEUS-ECHO"
+      "judgment": "NUCLEUS-ECHO",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3061,
+              "source_row_index_at_freeze": 3061,
+              "source_row_key": "6d301862b2ab1bf627455fd9",
+              "european": "Pen",
+              "arabic_root": "بنء",
+              "author_translit": "bina'",
+              "arabic_gloss": "building; hut",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: ءرض، ءسس، ءفق، اد، ار، باب، برج، بلك، وغيرُها"
+            },
+            {
+              "source_row_index": 3062,
+              "source_row_index_at_freeze": 3062,
+              "source_row_key": "c0cf3cea928a5515801bff5c",
+              "european": "Pen",
+              "arabic_root": "لب",
+              "author_translit": "laabba(t)",
+              "arabic_gloss": "loving",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: حب، حبب، حنن، عطف، مومي، ميي، ودد"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-127",
@@ -28475,7 +29390,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3069,
+              "source_row_index_at_freeze": 3069,
+              "source_row_key": "85f4b6196c2169bc34677fcf",
+              "european": "Pepper",
+              "arabic_root": "بهر",
+              "author_translit": "buhaar",
+              "arabic_gloss": "pepper",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: ابل، برنج، بسب، تبل، شيط، كل"
+            },
+            {
+              "source_row_index": 3070,
+              "source_row_index_at_freeze": 3070,
+              "source_row_key": "9d4e76461af5386d7be120e8",
+              "european": "Pepper",
+              "arabic_root": "فلفل",
+              "author_translit": "filfil",
+              "arabic_gloss": "pepper",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: ابل، برنج، بسب، تبل، شيط، كل"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-129",
@@ -28934,7 +29879,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3087,
+              "source_row_index_at_freeze": 3087,
+              "source_row_key": "63c7aefe8da5f287e905d1fb",
+              "european": "Piety",
+              "arabic_root": "بث",
+              "author_translit": "bathth",
+              "arabic_gloss": "sorrow",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: ءسف، ءسي، ادم، بكي، تاب، ثب، حز، حزن، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-132",
@@ -29933,7 +30897,48 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3097,
+              "source_row_index_at_freeze": 3097,
+              "source_row_key": "ce63c25bb394a7a2e5e5337e",
+              "european": "Plane",
+              "arabic_root": "بف",
+              "author_translit": "pif",
+              "arabic_gloss": "sound of blowing off at fire",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: دفع، سدد، شيع، صفق، صوب، طفء، طلق، فصل، وغيرُها"
+            },
+            {
+              "source_row_index": 3098,
+              "source_row_index_at_freeze": 3098,
+              "source_row_key": "455ddfdc580b80d9b37a33a3",
+              "european": "Plane",
+              "arabic_root": "بل",
+              "author_translit": "baleel",
+              "arabic_gloss": "dew-carrying wind",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ريح"
+            },
+            {
+              "source_row_index": 3099,
+              "source_row_index_at_freeze": 3099,
+              "source_row_key": "ce6feee1d6cfdb1883b9aa47",
+              "european": "Plane",
+              "arabic_root": "بن",
+              "author_translit": "baana",
+              "arabic_gloss": "appear",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: بدا، بدر، بدو، برز، ثور، جدر، جسد، جن، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-136",
@@ -30065,7 +31070,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3102,
+              "source_row_index_at_freeze": 3102,
+              "source_row_key": "feda86efdcf27b4f44a286f1",
+              "european": "Planet",
+              "arabic_root": "بدر",
+              "author_translit": "badr",
+              "arabic_gloss": "star",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءلق، الثور، الدلو، السنبلة، الشمس، اللفظ، باض، بقر، وغيرُها"
+            },
+            {
+              "source_row_index": 3103,
+              "source_row_index_at_freeze": 3103,
+              "source_row_key": "723269e0a158ebe77492e5fe",
+              "european": "Planet",
+              "arabic_root": "بدرن",
+              "author_translit": "budraan",
+              "arabic_gloss": "star",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءلق، الثور، الدلو، السنبلة، الشمس، اللفظ، باض، بقر، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-137",
@@ -30229,7 +31264,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3105,
+              "source_row_index_at_freeze": 3105,
+              "source_row_key": "83e71cb2a904440d39f0950f",
+              "european": "Plant",
+              "arabic_root": "لبط",
+              "author_translit": "labaT",
+              "arabic_gloss": "to kick with the foot",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: رفس، ركل، نجل"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-138",
@@ -30265,7 +31319,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3113,
+              "source_row_index_at_freeze": 3113,
+              "source_row_key": "8a5dadc479f82ed6e4a9fed7",
+              "european": "Playful",
+              "arabic_root": "برط",
+              "author_translit": "barTa(t)",
+              "arabic_gloss": "beautiful",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "جذرٌ آخر: ءنق، برج، بهج، بهي، جمل، جود، حسن، حيل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-139",
@@ -31175,7 +32248,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3122,
+              "source_row_index_at_freeze": 3122,
+              "source_row_key": "c2cc1e0bdfc89314e46bb0f7",
+              "european": "Plot",
+              "arabic_root": "بت",
+              "author_translit": "bait",
+              "arabic_gloss": "plot, home",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: ءوب، بني، بيت، جبح، جحر، جم، حبك، حل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-142",
@@ -31574,7 +32666,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3125,
+              "source_row_index_at_freeze": 3125,
+              "source_row_key": "ab1fbb2c7e67a2d6873208ed",
+              "european": "Plum",
+              "arabic_root": "بم",
+              "author_translit": "baamia",
+              "arabic_gloss": "okra; lady",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: خاتون، دام، رب، سلت، سيد، قين، لا، ليد، وغيرُها"
+            },
+            {
+              "source_row_index": 3127,
+              "source_row_index_at_freeze": 3127,
+              "source_row_key": "4703e38fef6e2e44f299c126",
+              "european": "Plum",
+              "arabic_root": "قرنء",
+              "author_translit": "qarniaa'",
+              "arabic_gloss": "a corn; horn; seed, grain",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: غل"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-143",
@@ -31623,7 +32745,59 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3128,
+              "source_row_index_at_freeze": 3128,
+              "source_row_key": "66490aaeef44001c0ad4313c",
+              "european": "Plurality",
+              "arabic_root": "بء",
+              "author_translit": "baa'a(t)",
+              "arabic_gloss": "ability",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: برع، بصر، بيع، تقن، جندب، جهد، حج، حدث، وغيرُها"
+            },
+            {
+              "source_row_index": 3129,
+              "source_row_index_at_freeze": 3129,
+              "source_row_key": "e426cc6c5206f4e080f79325",
+              "european": "Plurality",
+              "arabic_root": "برء",
+              "author_translit": "baraa'",
+              "arabic_gloss": "first",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها"
+            },
+            {
+              "source_row_index": 3131,
+              "source_row_index_at_freeze": 3131,
+              "source_row_key": "81ccdb5db990be52affe01aa",
+              "european": "Plurality",
+              "arabic_root": "رج",
+              "author_translit": "raja",
+              "arabic_gloss": "ask for, implore",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: رجو، رحم، نشد، وسل"
+            },
+            {
+              "source_row_index": 3132,
+              "source_row_index_at_freeze": 3132,
+              "source_row_key": "14c59de507169342aa5d3f0c",
+              "european": "Plurality",
+              "arabic_root": "مرو",
+              "author_translit": "murwa(t)",
+              "arabic_gloss": "strength, power",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: ءزر، ءيد، بءس، سطو، سلط، طوق، عزز، قو، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-144",
@@ -32620,7 +33794,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3135,
+              "source_row_index_at_freeze": 3135,
+              "source_row_key": "8ff88d3d71607978d0437a5f",
+              "european": "Poet",
+              "arabic_root": "برجمت",
+              "author_translit": "barjamat",
+              "arabic_gloss": "bad speech",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: ءتءة، ءدا، ءدب، ءنس، بخر، بد، بعد، بكم، وغيرُها"
+            },
+            {
+              "source_row_index": 3136,
+              "source_row_index_at_freeze": 3136,
+              "source_row_key": "9bf445e1e206034a4e44e8ed",
+              "european": "Poet",
+              "arabic_root": "بط",
+              "author_translit": "baTTa",
+              "arabic_gloss": "tell lies",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "جذرٌ آخر: كذب"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-146",
@@ -33011,7 +34215,48 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3141,
+              "source_row_index_at_freeze": 3141,
+              "source_row_key": "0c2ff277f2e8f07f137985dd",
+              "european": "Pool",
+              "arabic_root": "بر",
+              "author_translit": "beer(at)",
+              "arabic_gloss": "water well",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: ءس، بءر، بير، جهر، دلي، رسغ، روي، شطف، وغيرُها"
+            },
+            {
+              "source_row_index": 3142,
+              "source_row_index_at_freeze": 3142,
+              "source_row_key": "7a4371c055d00b39a3afc043",
+              "european": "Pool",
+              "arabic_root": "بلع",
+              "author_translit": "baaloo3(at)",
+              "arabic_gloss": "water spring (cesspool)",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: بءر، تنم، سخا، شتا، صول، طمر، غدق، غوط، وغيرُها"
+            },
+            {
+              "source_row_index": 3143,
+              "source_row_index_at_freeze": 3143,
+              "source_row_key": "e17858f90bfe17202a9f89e9",
+              "european": "Pool",
+              "arabic_root": "تصب",
+              "author_translit": "taSabbab",
+              "arabic_gloss": "precipitate, spew, rain down",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "جذرٌ آخر: زخخ، صوب، طر، قطر، مطر، نوء، همر"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-148",
@@ -33639,7 +34884,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3149,
+              "source_row_index_at_freeze": 3149,
+              "source_row_key": "ecaf869f005fecafabe032a4",
+              "european": "Port",
+              "arabic_root": "بءر",
+              "author_translit": "bu'ra(t)",
+              "arabic_gloss": "opening",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: است، باب، بق، بوب، بوز، تاق، تم، ثقب، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-151",
@@ -34552,7 +35816,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3158,
+              "source_row_index_at_freeze": 3158,
+              "source_row_key": "f31a68f55b9111dc2ef77133",
+              "european": "Pot",
+              "arabic_root": "طب",
+              "author_translit": "Taaba",
+              "arabic_gloss": "delicious",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: حيل، طلي، فخر، لذ، لذذ، متع"
+            },
+            {
+              "source_row_index": 3159,
+              "source_row_index_at_freeze": 3159,
+              "source_row_key": "b6265237df4e913591341ddc",
+              "european": "Pot",
+              "arabic_root": "طيب",
+              "author_translit": "Taiyeb",
+              "arabic_gloss": "delicious",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: حيل، طلي، فخر، لذ، لذذ، متع"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-153",
@@ -34731,7 +36025,48 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3160,
+              "source_row_index_at_freeze": 3160,
+              "source_row_key": "403791b88963d868979dc850",
+              "european": "Potato",
+              "arabic_root": "بضت",
+              "author_translit": "baiDat",
+              "arabic_gloss": "egg",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: باض، بوض، بيض، جن، حثث، حسل، خفق، رصب، وغيرُها"
+            },
+            {
+              "source_row_index": 3162,
+              "source_row_index_at_freeze": 3162,
+              "source_row_key": "b98e06d207823d561808f39a",
+              "european": "Potato",
+              "arabic_root": "بطبط",
+              "author_translit": "baTbaT",
+              "arabic_gloss": "a swelling, to swell, duck",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: نفخ، ورم"
+            },
+            {
+              "source_row_index": 3163,
+              "source_row_index_at_freeze": 3163,
+              "source_row_key": "f7e0ecd7dca32e9ecad9a37f",
+              "european": "Potato",
+              "arabic_root": "حش",
+              "author_translit": "2aush",
+              "arabic_gloss": "house (courtyard); den",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: ءجر، ءرض، ءوي، اشر، برج، بغي، بوت، بيت، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-154",
@@ -34962,7 +36297,59 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3166,
+              "source_row_index_at_freeze": 3166,
+              "source_row_key": "346bc5cad1d050cdf6393425",
+              "european": "Power",
+              "arabic_root": "بء",
+              "author_translit": "baa'a(t)",
+              "arabic_gloss": "ability",
+              "source": "jassem-2015-military · jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: برع، بصر، بيع، تقن، جندب، جهد، حج، حدث، وغيرُها"
+            },
+            {
+              "source_row_index": 3167,
+              "source_row_index_at_freeze": 3167,
+              "source_row_key": "68be530a4ae62bf08a579a59",
+              "european": "Power",
+              "arabic_root": "برء",
+              "author_translit": "baraa'",
+              "arabic_gloss": "first",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: ء، ءخر، ءدم، ءلف، ءول، ءولي، ا، اثن، وغيرُها"
+            },
+            {
+              "source_row_index": 3169,
+              "source_row_index_at_freeze": 3169,
+              "source_row_key": "a211a9121eb399898e2ff4c1",
+              "european": "Power",
+              "arabic_root": "مرء",
+              "author_translit": "muru'a(t)",
+              "arabic_gloss": "strength, power",
+              "source": "jassem-2015-military · jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: ءزر، ءيد، بءس، سطو، سلط، طوق، عزز، قو، وغيرُها"
+            },
+            {
+              "source_row_index": 3170,
+              "source_row_index_at_freeze": 3170,
+              "source_row_key": "6c8a224f72edbee3567a2242",
+              "european": "Power",
+              "arabic_root": "مرو",
+              "author_translit": "muruwa(t)",
+              "arabic_gloss": "strength, power",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: ءزر، ءيد، بءس، سطو، سلط، طوق، عزز، قو، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-156",
@@ -35231,7 +36618,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3175,
+              "source_row_index_at_freeze": 3175,
+              "source_row_key": "bfc18bc823f50eed1c7cf691",
+              "european": "Pray",
+              "arabic_root": "ضج",
+              "author_translit": "Dajja",
+              "arabic_gloss": "say, talk",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: حدث، زعم، قول، كلم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-158",
@@ -35505,7 +36911,70 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3182,
+              "source_row_index_at_freeze": 3182,
+              "source_row_key": "a69420823fc98ba3b63998ff",
+              "european": "Press",
+              "arabic_root": "دج",
+              "author_translit": "dajja",
+              "arabic_gloss": "walk, go",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: بختر، برغش، تلو، ثفر، جري، جول، حجل، خرط، وغيرُها"
+            },
+            {
+              "source_row_index": 3183,
+              "source_row_index_at_freeze": 3183,
+              "source_row_key": "b4ea69f469d6620ed1f455ad",
+              "european": "Press",
+              "arabic_root": "ربص",
+              "author_translit": "rabaS",
+              "arabic_gloss": "press down",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: دلك، نوء"
+            },
+            {
+              "source_row_index": 3184,
+              "source_row_index_at_freeze": 3184,
+              "source_row_key": "d6bedc1b8f9a41b8b78aae85",
+              "european": "Press",
+              "arabic_root": "زرب",
+              "author_translit": "zaraba",
+              "arabic_gloss": "imprison",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: حبس، حجز، سجن"
+            },
+            {
+              "source_row_index": 3185,
+              "source_row_index_at_freeze": 3185,
+              "source_row_key": "905bdf87ca1ab5fa8fe4cddf",
+              "european": "Press",
+              "arabic_root": "زربن",
+              "author_translit": "zurbaan",
+              "arabic_gloss": "imprison",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: حبس، حجز، سجن"
+            },
+            {
+              "source_row_index": 3187,
+              "source_row_index_at_freeze": 3187,
+              "source_row_key": "6989928dcad119bcf939036f",
+              "european": "Press",
+              "arabic_root": "كرش",
+              "author_translit": "karasha",
+              "arabic_gloss": "drive out",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: ءخذ، دمر، زجر، ساق، صفق، طرد، قصو، نفر، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-162",
@@ -36033,7 +37502,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3188,
+              "source_row_index_at_freeze": 3188,
+              "source_row_key": "324a982333529d41cf1f3f28",
+              "european": "Previous",
+              "arabic_root": "بن",
+              "author_translit": "bunai",
+              "arabic_gloss": "boy",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "جذرٌ آخر: بزر، خنث، رجل، زغل، صبو، غلم، فتي، فرش، وغيرُها"
+            },
+            {
+              "source_row_index": 3190,
+              "source_row_index_at_freeze": 3190,
+              "source_row_key": "fcdb40699fd6f4328289c182",
+              "european": "Previous",
+              "arabic_root": "قبليت",
+              "author_translit": "qabliyyat",
+              "arabic_gloss": "before, in front of",
+              "source": "jassem-2013-time",
+              "bridge_agrees": "جذرٌ آخر: ءمم، تقد، تقدم، تلا، سبق، سلف، قبل، قدا، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-163",
@@ -36736,7 +38235,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3197,
+              "source_row_index_at_freeze": 3197,
+              "source_row_key": "bf5d1177c4a7bceb3b70ea4a",
+              "european": "Priest",
+              "arabic_root": "فنء",
+              "author_translit": "fanaa'",
+              "arabic_gloss": "courtyard",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: حوش، خا، خانقاه، ساح، سرا، صحن، صفح، عرص، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-165",
@@ -36868,7 +38386,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3199,
+              "source_row_index_at_freeze": 3199,
+              "source_row_key": "9e2b5195c01c680e714f9148",
+              "european": "Prince",
+              "arabic_root": "زنبر",
+              "author_translit": "zanbari",
+              "arabic_gloss": "nice, eloquent, strong man; lion",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: غضنفر"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-166",
@@ -36940,7 +38477,92 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3204,
+              "source_row_index_at_freeze": 3204,
+              "source_row_key": "35d0a29c950cd49510003ea3",
+              "european": "Privilege",
+              "arabic_root": "بر",
+              "author_translit": "baria(t)",
+              "arabic_gloss": "people",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: ءب، ءم، ءمم، ءنا، ءهل، اس، اصر، التي، وغيرُها"
+            },
+            {
+              "source_row_index": 3205,
+              "source_row_index_at_freeze": 3205,
+              "source_row_key": "2cc492c5bedba47d4cb37e00",
+              "european": "Privilege",
+              "arabic_root": "بربر",
+              "author_translit": "bar(bar)",
+              "arabic_gloss": "talk quickly",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: باه، بجح، بحث، بق، تهم، جري، جوي، حدث، وغيرُها"
+            },
+            {
+              "source_row_index": 3206,
+              "source_row_index_at_freeze": 3206,
+              "source_row_key": "19e4eb08de01e290f89da75c",
+              "european": "Privilege",
+              "arabic_root": "بكل",
+              "author_translit": "bakal",
+              "arabic_gloss": "to tie, fasten",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: ءسر، حزم، ربط، شدد"
+            },
+            {
+              "source_row_index": 3207,
+              "source_row_index_at_freeze": 3207,
+              "source_row_key": "e0b1bd8b67dd41c6c9934940",
+              "european": "Privilege",
+              "arabic_root": "تشهد",
+              "author_translit": "tashahud",
+              "arabic_gloss": "seeing, witness",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: بصر، جلو، حي، شب، ظر، فاد، فرج"
+            },
+            {
+              "source_row_index": 3208,
+              "source_row_index_at_freeze": 3208,
+              "source_row_key": "22bbefd3d1ef46ea8049c915",
+              "european": "Privilege",
+              "arabic_root": "شهد",
+              "author_translit": "shahid",
+              "arabic_gloss": "seeing, witness",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: بصر، جلو، حي، شب، ظر، فاد، فرج"
+            },
+            {
+              "source_row_index": 3210,
+              "source_row_index_at_freeze": 3210,
+              "source_row_key": "4f14abef4d3e0de4f8020e2e",
+              "european": "Privilege",
+              "arabic_root": "غنوت",
+              "author_translit": "ghinwat",
+              "arabic_gloss": "song",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: ءور، بيت، دجج، رث، زمر، شود، صوت، غن، وغيرُها"
+            },
+            {
+              "source_row_index": 3211,
+              "source_row_index_at_freeze": 3211,
+              "source_row_key": "3d175ae8db3f5ebfb4a471ff",
+              "european": "Privilege",
+              "arabic_root": "كبل",
+              "author_translit": "kabal",
+              "arabic_gloss": "to tie, fasten",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: ءسر، حزم، ربط، شدد"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-168",
@@ -37206,7 +38828,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3216,
+              "source_row_index_at_freeze": 3216,
+              "source_row_key": "25e3eceacfba7094f5c01215",
+              "european": "Profit",
+              "arabic_root": "بر",
+              "author_translit": "barra",
+              "arabic_gloss": "out",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "جذرٌ آخر: ءبب، ءتي، ءجر، ءخذ، ءدي، ءسس، ءسماعيل، ءصل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-170",
@@ -37255,7 +38896,48 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3219,
+              "source_row_index_at_freeze": 3219,
+              "source_row_key": "a9e59272ae35ec70af4a834c",
+              "european": "Prohibition",
+              "arabic_root": "حبذ",
+              "author_translit": "2abadha",
+              "arabic_gloss": "like",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: ءبي، ءخو، ءسر، ءطر، ءنث، ءنس، ءيض، الءسد، وغيرُها"
+            },
+            {
+              "source_row_index": 3221,
+              "source_row_index_at_freeze": 3221,
+              "source_row_key": "0dafdf075fc9d8816cb8b008",
+              "european": "Prohibition",
+              "arabic_root": "هب",
+              "author_translit": "haba",
+              "arabic_gloss": "give; suppose",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: خيل، وهب"
+            },
+            {
+              "source_row_index": 3222,
+              "source_row_index_at_freeze": 3222,
+              "source_row_key": "4a4cdd1309ed7e55b5e9bddc",
+              "european": "Prohibition",
+              "arabic_root": "هبتن",
+              "author_translit": "hiba(tun)",
+              "arabic_gloss": "give; suppose",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: خيل، وهب"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-171",
@@ -37296,7 +38978,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3224,
+              "source_row_index_at_freeze": 3224,
+              "source_row_key": "b8b99aea9ebc110a99a38e00",
+              "european": "Prosecutor General",
+              "arabic_root": "سق",
+              "author_translit": "saaqa",
+              "arabic_gloss": "drive/push ahead; follow",
+              "source": "jassem-2015-legal",
+              "bridge_agrees": "جذرٌ آخر: طرد"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-172",
@@ -37400,7 +39101,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3226,
+              "source_row_index_at_freeze": 3226,
+              "source_row_key": "00870bf0f328ddba7eee766d",
+              "european": "Prune",
+              "arabic_root": "بر",
+              "author_translit": "bara",
+              "arabic_gloss": "sharpen, trim",
+              "source": "jassem-2013-cutting-breaking",
+              "bridge_agrees": "جذرٌ آخر: قط"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-174",
@@ -37564,7 +39284,48 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3228,
+              "source_row_index_at_freeze": 3228,
+              "source_row_key": "48429a7b22cccc5a491851d7",
+              "european": "Psalm",
+              "arabic_root": "بجر",
+              "author_translit": "bajar",
+              "arabic_gloss": "drink",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: ءسقي، بتع، برد، بلع، بير، ترق، ثمل، جرع، وغيرُها"
+            },
+            {
+              "source_row_index": 3229,
+              "source_row_index_at_freeze": 3229,
+              "source_row_key": "ee722c79ad0905cb4a47de48",
+              "european": "Psalm",
+              "arabic_root": "بر",
+              "author_translit": "baar",
+              "arabic_gloss": "fair, just, pure, first; angels",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: نزه"
+            },
+            {
+              "source_row_index": 3231,
+              "source_row_index_at_freeze": 3231,
+              "source_row_key": "7bc943f41f9ee0c08d728248",
+              "european": "Psalm",
+              "arabic_root": "مزمر",
+              "author_translit": "mizmaar",
+              "arabic_gloss": "a flute",
+              "source": "jassem-2014-divine-theological",
+              "bridge_agrees": "جذرٌ آخر: خدود، نقب"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-175",
@@ -37830,7 +39591,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3233,
+              "source_row_index_at_freeze": 3233,
+              "source_row_key": "df9f5961cdfbfbae145553b7",
+              "european": "Public Opinion",
+              "arabic_root": "ءبن",
+              "author_translit": "'abana",
+              "arabic_gloss": "to clarify, to explain",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "جذرٌ آخر: صرح، فسر"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-177",
@@ -37994,7 +39774,48 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3235,
+              "source_row_index_at_freeze": 3235,
+              "source_row_key": "a43767e3b5149ddeb211bca3",
+              "european": "Pudding",
+              "arabic_root": "بخ",
+              "author_translit": "bakhkha",
+              "arabic_gloss": "to spray, slay",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: دفق، ذبح، رش، رشش، طحل، قتل، نحر"
+            },
+            {
+              "source_row_index": 3237,
+              "source_row_index_at_freeze": 3237,
+              "source_row_key": "8548d02d0eb46e64a7dddd77",
+              "european": "Pudding",
+              "arabic_root": "رب",
+              "author_translit": "rubb",
+              "arabic_gloss": "purée, jam",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: حصر، دون، ربو، ربي، زحم، شوش، طلي، قبط"
+            },
+            {
+              "source_row_index": 3238,
+              "source_row_index_at_freeze": 3238,
+              "source_row_key": "69b75eb0189518431cfef28f",
+              "european": "Pudding",
+              "arabic_root": "مرب",
+              "author_translit": "murabba",
+              "arabic_gloss": "purée, jam",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: حصر، دون، ربو، ربي، زحم، شوش، طلي، قبط"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-178",
@@ -38520,7 +40341,37 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3239,
+              "source_row_index_at_freeze": 3239,
+              "source_row_key": "acf2d85b2148b246a4c755e5",
+              "european": "Puke",
+              "arabic_root": "بخ",
+              "author_translit": "bakhkha",
+              "arabic_gloss": "to mouth-spray",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: اب، الفوه، بخر، بزق، بسم، بصق، بق، بلع، وغيرُها"
+            },
+            {
+              "source_row_index": 3241,
+              "source_row_index_at_freeze": 3241,
+              "source_row_key": "ac471639e7bac22775263fda",
+              "european": "Puke",
+              "arabic_root": "در",
+              "author_translit": "durra(t)",
+              "arabic_gloss": "staff, rod; star, shining",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "جذرٌ آخر: عصا، عصو، قضب"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-179",
@@ -38863,7 +40714,26 @@
       "dialect_additions": 0,
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3246,
+              "source_row_index_at_freeze": 3246,
+              "source_row_key": "1056285fc0771b4d7d88a7a7",
+              "european": "Pumpkin",
+              "arabic_root": "حبحب",
+              "author_translit": "2ab2ab(un)",
+              "arabic_gloss": "melon",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "جذرٌ آخر: بطخ، حدج، خربز، شما، شهد، قان، قرع، قط"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-004-182",
@@ -39231,7 +41101,26 @@
         }
       ],
       "closure": "NUCLEUS-TRACE",
-      "judgment": "NUCLEUS-TRACE"
+      "judgment": "NUCLEUS-TRACE",
+      "later_jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3250,
+              "source_row_index_at_freeze": 3250,
+              "source_row_key": "874db955dba48334d7a33e92",
+              "european": "Pure",
+              "arabic_root": "برهره",
+              "author_translit": "barahraha(t)",
+              "arabic_gloss": "very white",
+              "source": "jassem-2013-love",
+              "bridge_agrees": "جذرٌ آخر: غرر"
+            }
+          ]
+        }
+      ]
     }
   ],
   "previous_positive_confirmations": 1

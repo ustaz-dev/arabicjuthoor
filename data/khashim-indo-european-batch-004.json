@@ -8959,7 +8959,37 @@
       ],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3171,
+              "source_row_index_at_freeze": 3171,
+              "source_row_key": "3bf1ce84218ada6751ce38c5",
+              "european": "Prairie",
+              "arabic_root": "بر",
+              "author_translit": "barr",
+              "arabic_gloss": "the wild, prairie",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءبد، ءيل، اب، الغرب، بري، بشش، بيس، جلنار، وغيرُها"
+            },
+            {
+              "source_row_index": 3172,
+              "source_row_index_at_freeze": 3172,
+              "source_row_key": "5302f9a7bf35f23ad302eadb",
+              "european": "Prairie",
+              "arabic_root": "بريت",
+              "author_translit": "barriyat",
+              "arabic_gloss": "the wild, prairie",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: ءبد، ءيل، اب، الغرب، بري، بشش، بيس، جلنار، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0475",
@@ -14902,7 +14932,37 @@
         "`y` + `ع` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3298,
+              "source_row_index_at_freeze": 3298,
+              "source_row_key": "5455a4615a08fb5ee7e09009",
+              "european": "Ray",
+              "arabic_root": "در",
+              "author_translit": "durr",
+              "arabic_gloss": "strong, piercing light",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: تاق، شه، وقد"
+            },
+            {
+              "source_row_index": 3299,
+              "source_row_index_at_freeze": 3299,
+              "source_row_key": "ff45ee94534552cb43827247",
+              "european": "Ray",
+              "arabic_root": "نر",
+              "author_translit": "naar",
+              "arabic_gloss": "fire",
+              "source": "jassem-2013-air-fire",
+              "bridge_agrees": "جذرٌ آخر: ثفي، جحم، جذو، حرق، حطب، حمر، خلو، دفء، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0497",
@@ -65996,6 +66056,45 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3030,
+              "source_row_index_at_freeze": 3030,
+              "source_row_key": "0e02128404cfd77118b74168",
+              "european": "Pass",
+              "arabic_root": "بص",
+              "author_translit": "baSSa(t)",
+              "arabic_gloss": "pasture, growth",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: ءبب، ءرض، الجذر، بت، تقدم، جر، جو، حدث، وغيرُها"
+            },
+            {
+              "source_row_index": 3031,
+              "source_row_index_at_freeze": 3031,
+              "source_row_key": "05ceecb5ca77e6581435689c",
+              "european": "Pass",
+              "arabic_root": "بوص",
+              "author_translit": "bawS",
+              "arabic_gloss": "pass, advance",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: دبر"
+            },
+            {
+              "source_row_index": 3032,
+              "source_row_index_at_freeze": 3032,
+              "source_row_key": "50c0db63e604e12f59ba80ca",
+              "european": "Pass",
+              "arabic_root": "سب",
+              "author_translit": "saab",
+              "arabic_gloss": "to go, to pass",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "جذرٌ آخر: ءخذ، ءمل، بال، بث، بلع، تلش، ثني، جاز، وغيرُها"
+            }
+          ]
         }
       ],
       "jassem_rejudgments": [
@@ -67001,6 +67100,23 @@
               "arabic_gloss": "path",
               "source": "jassem-2013-celestial",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3036,
+              "source_row_index_at_freeze": 3036,
+              "source_row_key": "2bae1a1a61245b130272e8ff",
+              "european": "Path",
+              "arabic_root": "بثء",
+              "author_translit": "batha'",
+              "arabic_gloss": "soft, easy earth",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "جذرٌ آخر: خفض، سنو، شفق، لين، نعم، يسر"
             }
           ]
         }

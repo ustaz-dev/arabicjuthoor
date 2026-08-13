@@ -12802,7 +12802,37 @@
         "`y` + `ى` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3047,
+              "source_row_index_at_freeze": 3047,
+              "source_row_key": "0a2b75ebb569fe885d3f3058",
+              "european": "Pay",
+              "arabic_root": "بك",
+              "author_translit": "baak",
+              "arabic_gloss": "buy and sell",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
+            },
+            {
+              "source_row_index": 3048,
+              "source_row_index_at_freeze": 3048,
+              "source_row_key": "c3d83dde798f133eff3a5fbb",
+              "european": "Pay",
+              "arabic_root": "بوك",
+              "author_translit": "bawk",
+              "arabic_gloss": "buy and sell",
+              "source": "jassem-2014-commerce",
+              "bridge_agrees": "جذرٌ آخر: بيع، سوق، شري"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0649",
@@ -65196,6 +65226,45 @@
               "arabic_gloss": "easy, smooth",
               "source": "jassem-2013-cognitive",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 2851,
+              "source_row_index_at_freeze": 2851,
+              "source_row_key": "49fb7dc7d9f66cf8b3f11288",
+              "european": "Nod",
+              "arabic_root": "عم",
+              "author_translit": "3umoom",
+              "arabic_gloss": "all",
+              "source": "jassem-2013-cognitive",
+              "bridge_agrees": "جذرٌ آخر: ءب، ءبد، ءدب، ءش، ءفق، ءيي، ال، الجذر، وغيرُها"
+            },
+            {
+              "source_row_index": 2852,
+              "source_row_index_at_freeze": 2852,
+              "source_row_key": "f1b6d78cd0e7b4ec2817e5a3",
+              "european": "Nod",
+              "arabic_root": "ند",
+              "author_translit": "naada",
+              "arabic_gloss": "nod, move head in sleepiness",
+              "source": "jassem-2013-cognitive · jassem-2015-life-death",
+              "bridge_agrees": "جذرٌ آخر: هز"
+            },
+            {
+              "source_row_index": 2853,
+              "source_row_index_at_freeze": 2853,
+              "source_row_key": "b5824a24f7efc5c478aeba45",
+              "european": "Nod",
+              "arabic_root": "نود",
+              "author_translit": "nawd",
+              "arabic_gloss": "nod, move head in sleepiness",
+              "source": "jassem-2013-cognitive · jassem-2015-life-death",
+              "bridge_agrees": "جذرٌ آخر: هز"
             }
           ]
         }

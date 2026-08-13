@@ -1561,6 +1561,34 @@
               "bridge_agrees": "نعم"
             }
           ]
+        },
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3107,
+              "source_row_index_at_freeze": 3107,
+              "source_row_key": "6d2aee2d090edd5a60b43e4b",
+              "european": "Plate",
+              "arabic_root": "بلط",
+              "author_translit": "balaaT(at)",
+              "arabic_gloss": "a flat stone",
+              "source": "jassem-2014-wining-dining",
+              "bridge_agrees": "جذرٌ آخر: جلخ، حلق، دك، سنن، شحذ، صطب"
+            },
+            {
+              "source_row_index": 3112,
+              "source_row_index_at_freeze": 3112,
+              "source_row_key": "5f19387d818922422c05566e",
+              "european": "Plateau",
+              "arabic_root": "لب",
+              "author_translit": "laabba(t)",
+              "arabic_gloss": "end, side",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: حدد، سءف، طرف، عبر، عفج، فءس، كوع، مال، وغيرُها"
+            }
+          ]
         }
       ]
     },
@@ -2793,6 +2821,23 @@
               "arabic_gloss": "rock, marble; palace",
               "source": "jassem-2015-urban",
               "bridge_agrees": "نعم"
+            }
+          ]
+        },
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3093,
+              "source_row_index_at_freeze": 3093,
+              "source_row_key": "211b7b823f7e51cc136b91fe",
+              "european": "Place",
+              "arabic_root": "بلط",
+              "author_translit": "balaaT",
+              "arabic_gloss": "stones",
+              "source": "jassem-2013-celestial",
+              "bridge_agrees": "جذرٌ آخر: بذر، ثفي، حلب، حيط، راس، رجم، رصص، زبر، وغيرُها"
             }
           ]
         }
@@ -5666,7 +5711,37 @@
         "`t` + `س` + «اليونانيّة القديمة/Ancient Greek» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3139,
+              "source_row_index_at_freeze": 3139,
+              "source_row_key": "9ebe1c2871b683f21ce2de5a",
+              "european": "Polish",
+              "arabic_root": "برغث",
+              "author_translit": "barghooth",
+              "arabic_gloss": "flea",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: فلي"
+            },
+            {
+              "source_row_index": 3140,
+              "source_row_index_at_freeze": 3140,
+              "source_row_key": "2f4af61a025529dd32846946",
+              "european": "Polish",
+              "arabic_root": "بشت",
+              "author_translit": "baashit",
+              "arabic_gloss": "discoloured",
+              "source": "jassem-2014-colour-art",
+              "bridge_agrees": "جذرٌ آخر: بقع، رقط، قط"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0333",

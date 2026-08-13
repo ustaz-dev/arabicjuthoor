@@ -12148,7 +12148,26 @@
         "`v` + `و` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 13,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3000,
+              "source_row_index_at_freeze": 3000,
+              "source_row_key": "476f49ef69977bd9bb9810bb",
+              "european": "Over",
+              "arabic_root": "ورء",
+              "author_translit": "waraa'",
+              "arabic_gloss": "beyond",
+              "source": "jassem-2014-prepositions · jassem-2014-mathematical",
+              "bridge_agrees": "جذرٌ آخر: ءفل، ءلا، الجذر، برز، بعد، جاز، جر، جل، وغيرُها"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N008-149",
