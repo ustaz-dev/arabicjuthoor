@@ -39334,7 +39334,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3671,
+              "source_row_index_at_freeze": 3671,
+              "source_row_key": "7954817582630c7af4c9325c",
+              "european": "Shark",
+              "arabic_root": "قرش",
+              "author_translit": "qirsh",
+              "arabic_gloss": "shark (fish)",
+              "source": "jassem-2013-water-sea",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-084",
@@ -41358,7 +41377,26 @@
         "`t` + `ط` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4065,
+              "source_row_index_at_freeze": 4065,
+              "source_row_key": "4cf1aac855151d9225672e1d",
+              "european": "Tail",
+              "arabic_root": "ثور",
+              "author_translit": "thawr",
+              "arabic_gloss": "male cow",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-087",

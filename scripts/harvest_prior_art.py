@@ -151,6 +151,8 @@ FAILED_SOURCES = [
      "ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح"),
     ("jassem-2014-colour-art-https", "https://www.ijelr.in/Vol.%20Issue.12014/Zaidan%201-18.pdf",
      "انقطع اتصالُ TLS؛ واستُبدل بمسارِ HTTP المباشرِ الصالحِ من ناشرِ المجلّة"),
+    ("jassem-2013-body-parts-bretj-157", "http://bretj.com/bretj/journals/download_paper/157",
+     "استُعيدَ PDF رسميٌّ من 21 صفحةً من لقطة Common Crawl المؤرَّخة 2014-03-09، لكنّه بحثُ Monireh TaghiPour Masoumei وزملائها في خطابِ معلّمي EFL، لا بحثُ جاسم في أعضاءِ الجسم"),
 ]
 
 UA = {"User-Agent": "Mozilla/5.0 (research harvest; contact via arabicjuthoor.com)"}

@@ -17443,7 +17443,26 @@
         "`s` + `ض` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "NUCLEUS-TRACE",
-      "judgment": "NUCLEUS-TRACE"
+      "judgment": "NUCLEUS-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 4002,
+              "source_row_index_at_freeze": 4002,
+              "source_row_key": "1eb48f06753e84a5b3099888",
+              "european": "Sum",
+              "arabic_root": "قم",
+              "author_translit": "qimma(t)",
+              "arabic_gloss": "top",
+              "source": "jassem-2014-mathematical",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0030",
@@ -35622,7 +35641,26 @@
         "`s` + `ن` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3820,
+              "source_row_index_at_freeze": 3820,
+              "source_row_key": "df2bededbf96c0879ccbd05e",
+              "european": "Soap",
+              "arabic_root": "صبن",
+              "author_translit": "Saboon",
+              "arabic_gloss": "soap",
+              "source": "jassem-2015-medical",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0055",
@@ -38357,7 +38395,59 @@
       ],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3867,
+              "source_row_index_at_freeze": 3867,
+              "source_row_key": "83f6ff42d2a488d6ae2e1bb5",
+              "european": "Spear",
+              "arabic_root": "سفه",
+              "author_translit": "safeeh",
+              "arabic_gloss": "chief, leader; stupid, silly",
+              "source": "jassem-2015-military",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 3868,
+              "source_row_index_at_freeze": 3868,
+              "source_row_key": "a0fefcff2e7a026057432ab6",
+              "european": "Spear",
+              "arabic_root": "شوك",
+              "author_translit": "shawk",
+              "arabic_gloss": "thorn",
+              "source": "jassem-2013-cutting-breaking",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 3869,
+              "source_row_index_at_freeze": 3869,
+              "source_row_key": "52c6c44dde6ff42eafb951ac",
+              "european": "Spear",
+              "arabic_root": "قب",
+              "author_translit": "qubba(t)",
+              "arabic_gloss": "summit, top, dome",
+              "source": "jassem-2015-military",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 3870,
+              "source_row_index_at_freeze": 3870,
+              "source_row_key": "0f03c9dd89713a8513a0b9db",
+              "european": "Spear",
+              "arabic_root": "قضب",
+              "author_translit": "qaDeeb",
+              "arabic_gloss": "walking stick, rod",
+              "source": "jassem-2015-military",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0063",

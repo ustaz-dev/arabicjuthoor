@@ -33550,7 +33550,26 @@
       "deficiencies": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3741,
+              "source_row_index_at_freeze": 3741,
+              "source_row_key": "0c8a8924b383d51f213f5985",
+              "european": "Sir",
+              "arabic_root": "سر",
+              "author_translit": "sirr",
+              "arabic_gloss": "head, chief",
+              "source": "jassem-2015-democratic",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0384",
@@ -46054,7 +46073,37 @@
         "`y` + `و` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3836,
+              "source_row_index_at_freeze": 3836,
+              "source_row_key": "3c878cc99a41f42ff495b75d",
+              "european": "Son",
+              "arabic_root": "صن",
+              "author_translit": "Sinu",
+              "arabic_gloss": "son, brother, uncle; similar",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "نعم"
+            },
+            {
+              "source_row_index": 3838,
+              "source_row_index_at_freeze": 3838,
+              "source_row_key": "03e0872b5a762bfd26c5804a",
+              "european": "Son",
+              "arabic_root": "نسب",
+              "author_translit": "naseeb",
+              "arabic_gloss": "in-law; belonging to",
+              "source": "jassem-2013-family",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0400",
@@ -64642,7 +64691,26 @@
         "`z` + `ص` + «الإنجليزيّة الوسطى/Middle English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3910,
+              "source_row_index_at_freeze": 3910,
+              "source_row_key": "9709cd3b3f8eed281aa3241e",
+              "european": "Stand",
+              "arabic_root": "سند",
+              "author_translit": "sanada",
+              "arabic_gloss": "support, stand, sit upright",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "merged_card_id": "KIE-M0448",

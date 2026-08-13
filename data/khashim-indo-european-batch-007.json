@@ -32660,7 +32660,26 @@
         "`s` + `ص` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3494,
+              "source_row_index_at_freeze": 3494,
+              "source_row_key": "89af8a0200d8829e667a2b8a",
+              "european": "Saga",
+              "arabic_root": "قص",
+              "author_translit": "qiSSa(t)",
+              "arabic_gloss": "story",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-064",
@@ -33645,7 +33664,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3574,
+              "source_row_index_at_freeze": 3574,
+              "source_row_key": "5629c5816e84f33bb1e78a30",
+              "european": "Scream",
+              "arabic_root": "رقع",
+              "author_translit": "ruq3a(t)",
+              "arabic_gloss": "cut-off piece, writing material",
+              "source": "jassem-2013-speech-writing",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-067",
@@ -44269,6 +44307,25 @@
         4156,
         4157,
         4161
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3528,
+              "source_row_index_at_freeze": 3528,
+              "source_row_key": "ee88b3c9f5809d271156065c",
+              "european": "Sarcasm",
+              "arabic_root": "سخر",
+              "author_translit": "sukhria(t)",
+              "arabic_gloss": "sarcasm",
+              "source": "jassem-2013-speech-writing · jassem-2013-love",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
       ]
     },
     {

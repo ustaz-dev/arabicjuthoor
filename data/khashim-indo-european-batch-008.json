@@ -2889,6 +2889,25 @@
       "judgment": "غير صادر",
       "cross_book_supplement_rows": [
         4441
+      ],
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3568,
+              "source_row_index_at_freeze": 3568,
+              "source_row_key": "4a3b175a548dd0c03d4e4cb2",
+              "european": "Scorpion",
+              "arabic_root": "عقرب",
+              "author_translit": "3aqrab(un)",
+              "arabic_gloss": "scorpion",
+              "source": "jassem-2013-animal",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
       ]
     },
     {
@@ -3841,7 +3860,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3450,
+              "source_row_index_at_freeze": 3450,
+              "source_row_key": "e77231f0b2f8de43f0556fef",
+              "european": "Root",
+              "arabic_root": "جذر",
+              "author_translit": "jadhr",
+              "arabic_gloss": "root",
+              "source": "jassem-2016-floral",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N008-056",
@@ -3888,7 +3926,26 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3272,
+              "source_row_index_at_freeze": 3272,
+              "source_row_key": "570f85b60b2ea63edb64a340",
+              "european": "Race",
+              "arabic_root": "ركض",
+              "author_translit": "rakaD",
+              "arabic_gloss": "run",
+              "source": "jassem-2013-movement-action",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N008-057",
@@ -11423,7 +11480,26 @@
         "`r` + `ل` + «الإنجليزيّة القديمة/Old English» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "jassem_supplements": [
+        {
+          "batch": 5,
+          "source": "data/prior-art-pairs.json",
+          "source_claims": [
+            {
+              "source_row_index": 3449,
+              "source_row_index_at_freeze": 3449,
+              "source_row_key": "0aa799e29fd2dc8af129be84",
+              "european": "Room",
+              "arabic_root": "مرح",
+              "author_translit": "maraa2",
+              "arabic_gloss": "a space for resting or going to",
+              "source": "jassem-2015-urban",
+              "bridge_agrees": "نعم"
+            }
+          ]
+        }
+      ]
     },
     {
       "card_id": "KIE-N008-147",
