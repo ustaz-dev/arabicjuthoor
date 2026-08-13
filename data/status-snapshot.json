@@ -110,11 +110,11 @@
     "en": "Akkadian",
     "ar": "الأكّاديّة",
     "cards": 1226,
-    "links": 119,
-    "root": 97,
-    "nucleus": 22,
+    "links": 165,
+    "root": 138,
+    "nucleus": 27,
     "floor": 0,
-    "nucleus_share": 18.5
+    "nucleus_share": 16.4
    },
    {
     "key": "old-irish",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3048,
+  "links_to_arabic": 3094,
   "closures": 944,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1535,
+    "count": 1576,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 876,
+    "count": 881,
     "link": true
    },
    {
@@ -262,16 +262,16 @@
  },
  "pipeline": {
   "cards_total": 35705,
-  "suspended": 28122,
-  "released": 7583,
+  "suspended": 28076,
+  "released": 7629,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 17517
+    "count": 17716
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 10151
+    "count": 9906
    },
    {
     "name": "SOURCE-GAP",
@@ -320,12 +320,12 @@
     "count": 1204
    },
    {
-    "file": "akkadian.md",
-    "count": 1108
-   },
-   {
     "file": "ancient-greek.md",
     "count": 1070
+   },
+   {
+    "file": "akkadian.md",
+    "count": 1062
    },
    {
     "file": "old-english.md",
