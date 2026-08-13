@@ -101,22 +101,27 @@ def main() -> int:
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
+    # **دورةُ بناءٍ وفحصٍ تُعاوَدُ ولا يُستسلَمُ لأوّلِ سقوط.** خمسةُ مساراتٍ
+    # تكتبُ في الشجرةِ نفسِها، فأيُّ مشتقٍّ يُبنى قد يبيتُ قبلَ أن يُفحَصَ لأنّ
+    # مسارًا كتبَ بطاقةً في تلك اللحظة. **ومن استسلمَ لأوّلِ سقوطٍ توقّفَ الحصادُ
+    # كلُّه**، والبياتُ ههنا عارضُ سباقٍ لا عطبٌ في المادّة.
     before_build: set[str] = set()
     after_build: set[str] = set()
-    for attempt in (1, 2):
-        before = tree_hash()
+    failed: list[str] = []
+    ROUNDS = 4
+    for attempt in range(1, ROUNDS + 1):
         before_build = {ln[3:].strip().strip('"') for ln in changed_now()}
         build_all(args.build)
         after_build = {ln[3:].strip().strip('"') for ln in changed_now()}
-        after = tree_hash()
-        if before == after or attempt == 2 or args.only:
+        failed = gates_all()
+        if not failed:
             break
-        # لم تتغيّرِ الشجرةُ بالبناءِ وحدَه؟ إذًا كتبَ مسارٌ في أثنائِه
-        print("\nتغيّرَت الشجرةُ أثناءَ البناء، فتُعادُ الدورةُ مرّةً واحدة.\n")
-
-    failed = gates_all()
+        if attempt < ROUNDS:
+            print(f"\n{len(failed)} بوّابةً ساقطةٌ ومسارٌ آخرُ يكتبُ الآن، "
+                  f"فتُعادُ الدورةُ ({attempt} من {ROUNDS - 1}).\n")
     if failed:
-        print(f"\nRESULT: {len(failed)} بوّابةً ساقطة: {', '.join(failed)}")
+        print(f"\nRESULT: {len(failed)} بوّابةً ساقطةٌ بعدَ {ROUNDS} دورات: "
+              f"{', '.join(failed)}")
         print("لم يُودَعْ شيء. الإيداعُ على شجرةٍ حمراءَ يدفعُ فشلًا معروفًا إلى الأصل.")
         return 1
     print("\nRESULT: البوّاباتُ كلُّها خضراء")
