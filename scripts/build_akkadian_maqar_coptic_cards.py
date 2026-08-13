@@ -27,6 +27,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fan_any_script as FAN  # noqa: E402
+import frozen_event as FE  # noqa: E402
 
 AKKADIAN_SOURCE = ROOT / "data" / "khashim-pairs.json"
 COPTIC_SOURCE = ROOT / "data" / "prior-art-extended-pairs.json"
@@ -204,14 +205,17 @@ NUCLEUS_EVENTS = load_nucleus_events()
 
 
 def event_for(root: str) -> tuple[str, str, str]:
-    if len(root) == 2:
-        event = one_line(NUCLEUS_EVENTS.get(root, ""))
-        return event, "NUCLEUS-TRACE", "data/juthoor-core-levels.json: jabal_lexicon_reading_ar"
-    if len(root) == 3:
-        record = ROOT_RECORDS.get(root, {})
-        event = one_line(record.get("jabal_axial", ""))
-        return event, "ROOT-TRACE", "computational/data/layer_2_results_v2.jsonl: jabal_axial"
-    return "", "OPEN-CANDIDATE", "لا سجل مجمد لوحدة بهذا الطول"
+    """الحدثُ المجمَّدُ بالنزولِ الذي نصَّ عليه التعديل 2 (انظر `frozen_event`).
+
+    **الكلفةُ التي كانت تُدفَعُ هنا مقيسةٌ أيضًا:** من 6,989 مرشَّحًا أكّاديًّا
+    متمايزًا كان **13.6%** وحدَها يجدُ حدثًا، لأنّ السؤالَ كان عن عضويّةِ
+    ملفٍّ مشتقٍّ فيه 2,285 جذرًا. وبالنزولِ القانونيِّ 99.5%.
+    """
+    ev = FE.resolve(root)
+    if not ev:
+        return "", "OPEN-CANDIDATE", "لا حرف من هذا المرشح في محاكم الحروف التسع والعشرين"
+    ladder = "ROOT-TRACE" if ev.tier == 1 else "NUCLEUS-TRACE"
+    return one_line(ev.text), ladder, f"{ev.source} (درجة {ev.tier}، {ev.tier_ar})"
 
 
 def our_nucleus(root: str) -> tuple[str, str]:

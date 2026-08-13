@@ -31,13 +31,19 @@ import argparse
 import json
 import os
 import pathlib
+import re
 import sys
 import time
 
 import requests
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+# **المفتاحُ يُطلَبُ من مواضعِه كلِّها لا من واحد.** المؤلّفُ يحفظُه في مجلّدِ
+# `AI Projects` الأبِ ليشتركَ فيه أكثرُ من مشروع، وكانت الأداةُ تنظرُ في
+# `Data raw` وحدَها. والاثنانِ خارجَ git فلا يُودَعُ مفتاحٌ أبدًا.
 KEY_FILES = [
+    ROOT.parent / "api ocr mistral.md",
+    ROOT.parent / "API Keys.md",
     ROOT / "Data raw" / "api ocr mistral.md",
     ROOT / "Data raw" / ".mistral_key",
 ]
@@ -47,16 +53,46 @@ PAGES_PER_REQUEST = 40
 
 
 def load_key() -> str:
-    key = os.environ.get("MISTRAL_API_KEY", "").strip()
-    if key:
-        return key
+    """المفتاحُ من البيئةِ أو من ملفّاتِه، **ولا يُطبَعُ ولا يُودَعُ أبدًا**.
+
+    وفي الملفّاتِ الجامعةِ (`API Keys.md`) مفاتيحُ خدماتٍ شتّى، فلا يُؤخَذُ
+    أوّلُ سطرٍ طويلٍ كيفما كان، بل يُشتَرَطُ أن يكونَ تحتَ عنوانٍ فيه ذكرُ
+    Mistral، وإلّا أُخِذَ مفتاحُ خدمةٍ أخرى فيفشلَ الطلبُ بـ401 بلا سببٍ ظاهر.
+    """
+    env = os.environ.get("MISTRAL_API_KEY", "").strip()
+    if env:
+        return env
+
+    seen: list[str] = []
     for p in KEY_FILES:
-        if p.exists():
-            for line in p.read_text(encoding="utf-8").splitlines():
-                line = line.strip().strip("`")
-                if len(line) > 20 and " " not in line and not line.startswith("#"):
-                    return line
-    sys.exit("لا مفتاحَ. ضعْه في MISTRAL_API_KEY أو في Data raw/api ocr mistral.md")
+        if not p.exists():
+            continue
+        lines = p.read_text(encoding="utf-8", errors="replace").splitlines()
+        near_mistral = any("mistral" in ln.lower() for ln in lines)
+        armed = not near_mistral      # ملفٌّ خاصٌّ بمِسترال: كلُّ سطرٍ صالح
+        for line in lines:
+            if "mistral" in line.lower():
+                armed = True
+            elif near_mistral and re.match(r"^\s*#{1,6}\s", line):
+                armed = False         # عنوانٌ جديدٌ لخدمةٍ أخرى، فيُقفَل
+            token = line.strip().strip("`").strip()
+            if (armed and len(token) > 20 and " " not in token
+                    and not token.startswith("#") and token not in seen):
+                seen.append(token)
+
+    # **المرشَّحُ يُجرَّبُ ولا يُفترَض.** ثلاثةُ ملفّاتٍ تحملُ مفاتيحَ، وفيها
+    # مفتاحٌ منتهي الصلاحيّةِ في الملفِّ الخاصِّ ومفتاحٌ حيٌّ في الجامع. ومن
+    # أخذَ الأوّلَ ظنَّ الخدمةَ مقطوعةً يومًا كاملًا وهي عاملة.
+    for token in seen:
+        try:
+            r = requests.get(f"{API}/models",
+                             headers={"Authorization": f"Bearer {token}"}, timeout=30)
+            if r.status_code == 200:
+                return token
+            print(f"مفتاحٌ مرفوضٌ ({r.status_code})، يُجرَّبُ التالي")
+        except requests.RequestException as exc:
+            print(f"تعذَّرَ فحصُ مفتاحٍ: {exc}")
+    sys.exit(f"لا مفتاحَ يُقبَل. جُرِّبَ {len(seen)} مفتاحًا من {len(KEY_FILES)} ملفًّا.")
 
 
 def auth(key: str) -> dict:

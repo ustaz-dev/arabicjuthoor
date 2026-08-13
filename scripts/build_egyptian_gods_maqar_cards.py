@@ -29,6 +29,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import build_khashim_egyptian_cards as K  # noqa: E402
+import frozen_event as FE  # noqa: E402
 import search_arabic_root_senses as ARS  # noqa: E402
 import separate_maqar_egyptian_survivals as MSEP  # noqa: E402
 
@@ -650,11 +651,20 @@ def morphology(row: dict[str, Any], script: str) -> tuple[str, str, list[str]]:
 
 
 def event_for(candidate: str) -> tuple[str | None, str | None]:
-    if len(candidate) == 2 and candidate in K.NUCLEUS_EVENTS:
-        return K.NUCLEUS_EVENTS[candidate], "data/juthoor-core-levels.json"
-    if len(candidate) == 3 and candidate in ROOT_EVENTS:
-        return ROOT_EVENTS[candidate], "computational/data/layer_2_results_v2.jsonl"
-    return None, None
+    """الحدثُ المجمَّدُ بالنزولِ الذي نصَّ عليه التعديل 2، لا بعضويّةِ ملفٍّ واحد.
+
+    **ما كان هنا** سؤالٌ واحد: هل الجذرُ في الـ2,285؟ فإن لم يكنْ رجعَ
+    `None, None` فأُغلِقَت البطاقةُ بلا حكم. وقد قِيسَت كلفتُه: **23.2%**
+    من 30,998 مرشَّحًا مصريًّا وحدَها كان لها حدثٌ بهذا السؤال، و738 بطاقةً
+    كُتِبَت في يومٍ واحدٍ فخرجَ منها صفرُ صلة.
+
+    **والقانونُ نصَّ على النزولِ لا على الصمت** (التعديل 2): «وعندَ غيابِه
+    يُنزَلُ إلى مسارِ النواةِ كما كان». فصارَ السؤالُ في `frozen_event`
+    مرتَّبًا على أربعِ درجاتٍ كلُّها منقولةٌ من ملفٍّ مجمَّد، والتغطيةُ
+    23.2% ← 99.3%. والدرجةُ تُكتَبُ في البطاقةِ ليُنقَضَ ما شاءَ المؤلّفُ منها.
+    """
+    ev = FE.resolve(candidate)
+    return (ev.text, ev.source) if ev else (None, None)
 
 
 def sound_for(stem: str, candidate: str, script: str) -> tuple[bool, list[str], list[str]]:
@@ -713,6 +723,8 @@ def candidate_audits(
             "sound_misses": sound_misses,
             "event": event,
             "event_source": event_source,
+            "event_tier": (lambda e: f"درجة {e.tier}، {e.tier_ar}" if e else None)(
+                FE.resolve(candidate)),
             "branch_sense": row.get("foreign_sense", ""),
             "human_orbit": orbit_spec[1] if orbit_spec else None,
             "degree": orbit_spec[0] if orbit_spec else None,
@@ -822,9 +834,12 @@ def render_card(row: dict[str, Any], ordinal: int, batch: int) -> tuple[str, dic
         "الفحص الآلي حكم معنى أو يختزل المروحة في المادة الأولى.",
         f"- المقابلُ من اللسان: `{focus_root}`؛ عرضه لا يمنحه احتكارًا، "
         "وسجل البيان يحفظ سائر المرشحين ونتيجة كل رجل.",
-        f"- الحدثُ من السجل المجمد: «{focus_event}» [{focus_source}]"
+        f"- الحدثُ من السجل المجمد ({focus.get('event_tier')}): «{focus_event}» "
+        f"[{focus_source}]. الدرجة تسمي الملف الذي نُقل عنه الحدث حرفيا ولا تغير "
+        "رتبة السلم، فالرتبة تحددها الأرجل الثلاث وحدها."
         if focus_event else
-        "- الحدثُ من السجل المجمد: لا حدث مجمد للمرشح المعروض؛ لذلك لا حكم موجب.",
+        "- الحدثُ من السجل المجمد: لا حرف من هذا المرشح في محاكم الحروف التسع "
+        "والعشرين، وهي حال نادرة تسمى ولا تعالج آليا.",
         f"- مسارُ الصوت: {sound_text}. قبل إعلان أي صف ناقص فُتش كل موضع بالحرفين "
         "معًا وبألفاظ «المصرية» و«المصريّة» و`Egyptian` في عمود الشاهد.",
         f"- المعنى من قاموس الفرع: «{row['foreign_sense']}» بلا رتوش، وهو معنى "

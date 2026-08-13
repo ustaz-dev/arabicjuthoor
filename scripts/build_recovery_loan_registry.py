@@ -14,14 +14,16 @@ import json
 import re
 import subprocess
 import unicodedata
-from datetime import date
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
 READINGS = ROOT / "04-cross-linguistic" / "readings"
 OUTPUT_JSON = ROOT / "data" / "recovery-loan-registry.json"
 OUTPUT_MD = ROOT / "04-cross-linguistic" / "recovery-loan-registry.md"
+PROJECT_TIMEZONE = ZoneInfo("Africa/Cairo")
 
 LANGUAGE_BY_FILE = {
     "ancient-greek.md": "اليونانية القديمة",
@@ -120,7 +122,10 @@ def build() -> dict[str, object]:
     entries.sort(key=lambda row: (str(row["language"]), str(row["source_path"]), int(row["source_line"])))
     return {
         "schema_version": 1,
-        "generated_on": date.today().isoformat(),
+        # GitHub Actions runs in UTC while the project day is Cairo time. A
+        # bare date.today() made --check disagree for the first hours after
+        # Cairo midnight even when the committed cards were identical.
+        "generated_on": datetime.now(PROJECT_TIMEZONE).date().isoformat(),
         "status": "internal-retrieval-only",
         "scope": "explicit LOANWORD verdict cards committed at HEAD in the named reading files",
         "non_inference_rule": "routes, directions, sources, and verdicts are copied only from the cards; missing fields remain empty",

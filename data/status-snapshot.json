@@ -4,18 +4,18 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 45470,
+  "cards_total": 45496,
   "by_language": [
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 9263,
-    "links": 135,
-    "root": 102,
+    "cards": 9274,
+    "links": 136,
+    "root": 103,
     "nucleus": 32,
     "floor": 1,
-    "nucleus_share": 23.9
+    "nucleus_share": 23.7
    },
    {
     "key": "egyptian",
@@ -76,7 +76,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 1929,
+    "cards": 1932,
     "links": 26,
     "root": 17,
     "nucleus": 9,
@@ -98,12 +98,12 @@
     "key": "middle-english",
     "en": "Middle English",
     "ar": "الإنجليزيّة الوسطى",
-    "cards": 1687,
-    "links": 48,
-    "root": 32,
+    "cards": 1695,
+    "links": 49,
+    "root": 33,
     "nucleus": 16,
     "floor": 0,
-    "nucleus_share": 33.3
+    "nucleus_share": 32.7
    },
    {
     "key": "aramaic",
@@ -153,7 +153,7 @@
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 397,
+    "cards": 401,
     "links": 33,
     "root": 22,
     "nucleus": 11,
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3446,
+  "links_to_arabic": 3448,
   "closures": 1009,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1823,
+    "count": 1825,
     "link": true
    },
    {
@@ -261,13 +261,13 @@
   ]
  },
  "pipeline": {
-  "cards_total": 41686,
-  "suspended": 31748,
-  "released": 9938,
+  "cards_total": 41712,
+  "suspended": 31772,
+  "released": 9940,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 21954
+    "count": 21978
    },
    {
     "name": "OPEN-CANDIDATE",
@@ -297,7 +297,7 @@
   "backlog_by_file": [
    {
     "file": "old-latin.md",
-    "count": 8690
+    "count": 8700
    },
    {
     "file": "egyptian.md",
@@ -317,11 +317,11 @@
    },
    {
     "file": "middle-english.md",
-    "count": 1628
+    "count": 1635
    },
    {
     "file": "ancient-greek.md",
-    "count": 1519
+    "count": 1522
    },
    {
     "file": "akkadian.md",
@@ -337,7 +337,7 @@
    },
    {
     "file": "old-norse.md",
-    "count": 335
+    "count": 339
    },
    {
     "file": "phoenician-punic-scout.md",

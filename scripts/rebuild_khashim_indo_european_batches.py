@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fan_any_script as FAN  # noqa: E402
+import frozen_event as FE  # noqa: E402
 from search_arabic_root_senses import (  # noqa: E402
     DEFAULT_RESOURCES,
     independent_fan,
@@ -460,16 +461,16 @@ def main() -> int:
                 candidate = next((item for item in member["fan_review"] if item["root"] == root), None)
                 if not candidate or candidate["sound"] != "✓" or candidate["event"] != "✓":
                     raise AssertionError(f"Positive {member['card_index']}:{root} lacks sound or frozen event")
-                if len(root) == 2:
-                    event = nucleus_events.get(root)
-                    closure = "NUCLEUS-TRACE"
-                    event_source = "data/juthoor-core-levels.json؛ jabal_lexicon_reading_ar"
-                else:
-                    event = root_events.get(root)
-                    closure = "ROOT-TRACE"
-                    event_source = "computational/data/layer_2_results_v2.jsonl؛ jabal_axial"
-                if not event:
-                    raise AssertionError(f"No frozen event for {root}")
+                # **كان هنا `raise` لا سكوتٌ فحسب**: أيُّ جذرٍ خارجَ الـ2,285
+                # يُسقِطُ الدفعةَ كلَّها بالخطأ، فلم يكنْ للمسارِ بدٌّ من تصفيةِ
+                # مرشَّحيه إلى تلك العضويّةِ قبلَ أن ينظرَ فيهم. والتعديلُ 2
+                # ينصُّ على النزولِ إلى النواةِ عندَ الغياب، لا على الامتناع.
+                frozen = FE.resolve(root)
+                if not frozen:
+                    continue
+                event, event_source = frozen.text, (
+                    f"{frozen.source}؛ درجة {frozen.tier}، {frozen.tier_ar}")
+                closure = "ROOT-TRACE" if frozen.tier == 1 else "NUCLEUS-TRACE"
                 route, route_searches = match_sound_route(member["skeleton"], root, language)
                 source_claims = [
                     raw_rows[source_index] for source_index in member["source_rows"]
