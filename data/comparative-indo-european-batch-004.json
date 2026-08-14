@@ -40476,7 +40476,330 @@
         "tool": "scripts/build_kaikki_index.py",
         "all_entries_shown": true,
         "dictionary_precedes_researcher_column": true
-      }
+      },
+      "later_comparative_supplements": [
+        {
+          "batch": 6,
+          "category": "cross-linguistic",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            1492
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 1492,
+              "source_row_key": "6afe2d13a19dfbab63658631",
+              "foreign": "frutta",
+              "foreign_sense": "أرض الثمار؛ دقيق؛ ثمر وفاكهة؛ فراولة",
+              "tongue_ar": "الكنعانيّة واللاتينيّة والأوربيّات",
+              "arabic_root": "بر / فر",
+              "arabic_gloss": "ردّ ألفاظ الثمر والدقيق إلى الجذر العروبي بر/فر.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 339,
+              "assigned_language": "old-latin",
+              "assignment_reason": "human material review: assigned by the cited form's own linguistic shape and context"
+            }
+          ],
+          "forms": [
+            {
+              "form": "frutta",
+              "normalized_form": "frutta",
+              "script": "latin",
+              "skeleton": [
+                "f",
+                "r",
+                "t"
+              ],
+              "fan_review": [
+                {
+                  "root": "فرت",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "خُلوص الماء من الملح مع صفائه من الكدورة",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "فرط",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "اندفاع بعض الشيء متقدمًا - أو مبتعدًا - من عُظْمِه بقوة",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "فرث",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "تسيُّب الدقاق المجتمعة، مع خشونة أو غِلَظ فيها",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "فلت",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "انفصال ندورًا أو نتوءًا مع ضعف؛ والحرفُ الثالثُ «ت» حدثُه: انطباقٌ دقيقٌ لطرفِ اللسانِ يقرعُ أصولَ الثنايا العليا قرعًا خفيفًا، فحبسةٌ وجيزةٌ بضغطٍ دقيقٍ قد تضعُفُ مسكتُها، فانفتاحٌ خاطفٌ يقطعُ الحدثَ ويُتِمُّه",
+                  "event_note": "الجذرُ «فلت» ليس في الـ2,285، فنُزِلَ إلى نواتِه «فل» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "فلط",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "انفصال ندورًا أو نتوءًا مع ضعف؛ والحرفُ الثالثُ «ط» حدثُه: إطباقٌ عريضٌ ثقيلٌ للسانِ يحبسُ النفَسَ بضغطٍ ثمّ ينفتحُ عنه منبسِطًا منتشرًا.",
+                  "event_note": "الجذرُ «فلط» ليس في الـ2,285، فنُزِلَ إلى نواتِه «فل» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "فلث",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "انفصال ندورًا أو نتوءًا مع ضعف؛ والحرفُ الثالثُ «ث» حدثُه: انبساطُ طرَفِ اللسانِ رخوًا بين الأسنانِ كتلةً كثيفةً، يجري النفَسُ فوقَها جريانًا متّصلًا، ثمّ يتفشّى خارجًا دقائقَ منتثرةً عبرَ فُرَجِ الأسنان.",
+                  "event_note": "الجذرُ «فلث» ليس في الـ2,285، فنُزِلَ إلى نواتِه «فل» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "برت",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "التجرد والخلوص؛ والحرفُ الثالثُ «ت» حدثُه: انطباقٌ دقيقٌ لطرفِ اللسانِ يقرعُ أصولَ الثنايا العليا قرعًا خفيفًا، فحبسةٌ وجيزةٌ بضغطٍ دقيقٍ قد تضعُفُ مسكتُها، فانفتاحٌ خاطفٌ يقطعُ الحدثَ ويُتِمُّه",
+                  "event_note": "الجذرُ «برت» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بر» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "برط",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "التجرد والخلوص؛ والحرفُ الثالثُ «ط» حدثُه: إطباقٌ عريضٌ ثقيلٌ للسانِ يحبسُ النفَسَ بضغطٍ ثمّ ينفتحُ عنه منبسِطًا منتشرًا.",
+                  "event_note": "الجذرُ «برط» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بر» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "برث",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "التجرد والخلوص؛ والحرفُ الثالثُ «ث» حدثُه: انبساطُ طرَفِ اللسانِ رخوًا بين الأسنانِ كتلةً كثيفةً، يجري النفَسُ فوقَها جريانًا متّصلًا، ثمّ يتفشّى خارجًا دقائقَ منتثرةً عبرَ فُرَجِ الأسنان.",
+                  "event_note": "الجذرُ «برث» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بر» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بلت",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "التمكن والحَوْز بشدة؛ والحرفُ الثالثُ «ت» حدثُه: انطباقٌ دقيقٌ لطرفِ اللسانِ يقرعُ أصولَ الثنايا العليا قرعًا خفيفًا، فحبسةٌ وجيزةٌ بضغطٍ دقيقٍ قد تضعُفُ مسكتُها، فانفتاحٌ خاطفٌ يقطعُ الحدثَ ويُتِمُّه",
+                  "event_note": "الجذرُ «بلت» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بل» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بلط",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "التمكن والحَوْز بشدة؛ والحرفُ الثالثُ «ط» حدثُه: إطباقٌ عريضٌ ثقيلٌ للسانِ يحبسُ النفَسَ بضغطٍ ثمّ ينفتحُ عنه منبسِطًا منتشرًا.",
+                  "event_note": "الجذرُ «بلط» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بل» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بلث",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "التمكن والحَوْز بشدة؛ والحرفُ الثالثُ «ث» حدثُه: انبساطُ طرَفِ اللسانِ رخوًا بين الأسنانِ كتلةً كثيفةً، يجري النفَسُ فوقَها جريانًا متّصلًا، ثمّ يتفشّى خارجًا دقائقَ منتثرةً عبرَ فُرَجِ الأسنان.",
+                  "event_note": "الجذرُ «بلث» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بل» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "dialect_additions": 0,
+              "positives": [],
+              "branch_lexicon": {
+                "language": "latin",
+                "source": "data/branch-lexicons/latin.json",
+                "lookup_path": "هيكلٌ مطابق",
+                "query": "frutta",
+                "entries": [
+                  {
+                    "word": "forte",
+                    "read": "",
+                    "pos": "adv",
+                    "en": "by chance, accidentally؛ once, once upon a time؛ perhaps, perchance",
+                    "etym": "From the ablative singular of fors (“chance, luck”)."
+                  },
+                  {
+                    "word": "furto",
+                    "read": "",
+                    "pos": "adv",
+                    "en": "stealthily; secretly",
+                    "etym": ""
+                  },
+                  {
+                    "word": "frit",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "awn",
+                    "etym": "Uncertain; proposed derivations include: * From a root common to Ancient Greek θρίξ (thríx, “hair”). * From Proto-Indo-European *bʰrewd-. Cognates include Latin frutex (“shrub”), O"
+                  },
+                  {
+                    "word": "fruito",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to enjoy",
+                    "etym": "From fruor (“enjoy”) + -itō."
+                  },
+                  {
+                    "word": "foret",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "early third-person singular imperfect active subjunctive of sum",
+                    "etym": "A conjugated form of sum."
+                  },
+                  {
+                    "word": "fortia",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "force, violence",
+                    "etym": "Originally the neuter plural of fortis (“strong, brave”), taken from expressions such as fortia facta 'brave deeds'. Attested in works such as the Formulary of Marculf."
+                  },
+                  {
+                    "word": "fruitio",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "enjoyment",
+                    "etym": ""
+                  },
+                  {
+                    "word": "Fort.",
+                    "read": "",
+                    "pos": "name",
+                    "en": "abbreviation of Fortūnātus",
+                    "etym": ""
+                  },
+                  {
+                    "word": "aforet",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "early third-person singular imperfect active subjunctive of absum",
+                    "etym": ""
+                  },
+                  {
+                    "word": "fore ut",
+                    "read": "",
+                    "pos": "phrase",
+                    "en": "that",
+                    "etym": ""
+                  }
+                ],
+                "selected": null,
+                "researcher_sense": "أرض الثمار؛ دقيق؛ ثمر وفاكهة؛ فراولة",
+                "dictionary_precedes_researcher": true,
+                "selection": "عُرضت جميع الإصابات كاملة؛ لا اختيار آلي من ترتيب القاموس، ويبقى الاختيار للمدخل الموافق لسياق الصف قبل أي مدار."
+              }
+            }
+          ],
+          "target_card_id": "CMP-IE-004-005",
+          "target_manifest": "comparative-indo-european-batch-004.json",
+          "target_language": "old-latin",
+          "target_kind": "comparative",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card",
+          "arabic_root_sense_review": {
+            "date": "2026-08-14",
+            "command": "python scripts/search_arabic_root_senses.py ROOT --max-chars 0",
+            "max_chars": 0,
+            "definition_truncated": false,
+            "roots_reviewed": [
+              "برت",
+              "برث",
+              "برط",
+              "بلت",
+              "بلث",
+              "بلط",
+              "فرت",
+              "فرث",
+              "فرط",
+              "فلت",
+              "فلث",
+              "فلط"
+            ],
+            "roots_with_witnesses": 11,
+            "lexicographic_witnesses_reviewed": 119,
+            "root_match_counts": {
+              "برت": 10,
+              "برث": 11,
+              "برط": 4,
+              "بلت": 8,
+              "بلث": 7,
+              "بلط": 14,
+              "فرت": 13,
+              "فرث": 14,
+              "فرط": 17,
+              "فلت": 12,
+              "فلط": 9
+            },
+            "result": "no further convincing orbit after full witness review"
+          },
+          "blocker_type": "SOURCE-GAP",
+          "required": "مدخل قاموس فرع يوافق سياق الصف، ثم مدار بشري مكتوب"
+        }
+      ]
     },
     {
       "card_id": "CMP-IE-004-006",

@@ -16727,7 +16727,702 @@
       "positives": [],
       "missing_row_searches": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "comparative_supplements": [
+        {
+          "batch": 6,
+          "category": "cross-linguistic",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            514
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 514,
+              "source_row_key": "0414922de5b8298e75ecdc30",
+              "foreign": "Donna",
+              "foreign_sense": "قوة؛ حركة؛ حاكم؛ سيد؛ سيدة ومشتقاتها",
+              "tongue_ar": "اليونانيّة والأوربيّات والأكّاديّة",
+              "arabic_root": "دن / دين / ديان",
+              "arabic_gloss": "ردّ DN إلى دنن الأكادية ودين العربية بمعاني القوة والقهر والحكم والسلطان.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 143,
+              "assigned_language": "old-latin",
+              "assignment_reason": "human material review: assigned by the cited form's own linguistic shape and context"
+            }
+          ],
+          "forms": [
+            {
+              "form": "Donna",
+              "normalized_form": "donna",
+              "script": "latin",
+              "skeleton": [
+                "d",
+                "n"
+              ],
+              "fan_review": [
+                {
+                  "root": "دن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 2,
+                  "event_tier_ar": "نواةٌ مسجَّلة",
+                  "event_source": "data/juthoor-core-levels.json",
+                  "event_text": "اندساس الشيء في أثناء أو ثباته فيه",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ضن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 2,
+                  "event_tier_ar": "نواةٌ مسجَّلة",
+                  "event_source": "data/juthoor-core-levels.json",
+                  "event_text": "هو لزوم الشيء حيزه أي بقاؤه داخله لا يبرحه",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ذن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 2,
+                  "event_tier_ar": "نواةٌ مسجَّلة",
+                  "event_source": "data/juthoor-core-levels.json",
+                  "event_text": "الامتداد من الأثناء أو فيها",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "دنن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "رسوخ وثبات في الموضع",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "دون",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "كون الشيء منخفضًا في أسفل شيء",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "دين",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "حق للغير يلزم ذمة بقوة أو تمكن شديد",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "دان",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "اندساس الشيء في أثناء أو ثباته فيه؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «دان» ليس في الـ2,285، فنُزِلَ إلى نواتِه «دن» بنصِّ التعديل 2، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "دنو",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "قرب الوصول إلى المقر المراد نزولاً",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "دني",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "اندساس الشيء في أثناء أو ثباته فيه؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "الجذرُ «دني» ليس في الـ2,285، فنُزِلَ إلى نواتِه «دن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "دنا",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "اندساس الشيء في أثناء أو ثباته فيه؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «دنا» ليس في الـ2,285، فنُزِلَ إلى نواتِه «دن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ودن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد مع الضغط أو التماسك؛ والحرفُ الثالثُ «ن» حدثُه: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+                  "event_note": "الجذرُ «ودن» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ود» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "يدن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد بقوة للتمكين أو الضغط؛ والحرفُ الثالثُ «ن» حدثُه: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+                  "event_note": "الجذرُ «يدن» ليس في الـ2,285، فنُزِلَ إلى نواتِه «يد» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ضنن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "لزوم الشيء حيزه أي بقاؤه داخله لا يبرحه",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ضون",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "هو لزوم الشيء حيزه أي بقاؤه داخله لا يبرحه؛ والحرفُ الثالثُ «و» حدثُه: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.",
+                  "event_note": "الجذرُ «ضون» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ضن» بنصِّ التعديل 2، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ضين",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "هو لزوم الشيء حيزه أي بقاؤه داخله لا يبرحه؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "الجذرُ «ضين» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ضن» بنصِّ التعديل 2، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ضان",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "هو لزوم الشيء حيزه أي بقاؤه داخله لا يبرحه؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «ضان» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ضن» بنصِّ التعديل 2، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ضنو",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "هو لزوم الشيء حيزه أي بقاؤه داخله لا يبرحه؛ والحرفُ الثالثُ «و» حدثُه: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.",
+                  "event_note": "الجذرُ «ضنو» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ضن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ضني",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "هو لزوم الشيء حيزه أي بقاؤه داخله لا يبرحه؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "الجذرُ «ضني» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ضن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ضنا",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "هو لزوم الشيء حيزه أي بقاؤه داخله لا يبرحه؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «ضنا» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ضن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "وضن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "تَدَاخُل بكثافة، أو احتواء",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "يضن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«ي»: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.؛ «ض»: انطباقٌ عريضٌ ثقيلٌ لحافّةِ اللسانِ يُطبِقُ على الحنكِ فيحتبسُ النفَسُ تحتَه مضغوطًا بكثافةٍ، ثمّ يستطيلُ الصوتُ في مجراهُ الجانبيِّ وينفرجُ عنه منبسطًا بثِقَلِه.؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+                  "event_note": "لا الجذرُ «يضن» في الـ2,285 ولا نواتُه «يض» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ذنن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "نفاذ سائل أو نحوه من باطن أو أثناء بامتداد مع غلظ",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ذون",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد من الأثناء أو فيها؛ والحرفُ الثالثُ «و» حدثُه: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.",
+                  "event_note": "الجذرُ «ذون» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ذن» بنصِّ التعديل 2، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ذين",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد من الأثناء أو فيها؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "الجذرُ «ذين» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ذن» بنصِّ التعديل 2، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ذان",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد من الأثناء أو فيها؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «ذان» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ذن» بنصِّ التعديل 2، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ذنو",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد من الأثناء أو فيها؛ والحرفُ الثالثُ «و» حدثُه: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.",
+                  "event_note": "الجذرُ «ذنو» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ذن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ذني",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد من الأثناء أو فيها؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "الجذرُ «ذني» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ذن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ذنا",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد من الأثناء أو فيها؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «ذنا» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ذن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "وذن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«و»: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.؛ «ذ»: طرفُ اللسانِ يبرزُ من باطنِ الفمِ فيماسُّ الأسنانَ مماسّةً رخوةً، ويجري النفَسُ المجهورُ في مضيقِها جريانًا متّصلًا نافذًا، ثمّ يسترسلُ ناثرًا دقيقًا حتى ينقطعَ، لا انطباقَ تامًّا فيه ولا انفجار.؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+                  "event_note": "لا الجذرُ «وذن» في الـ2,285 ولا نواتُه «وذ» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "يذن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«ي»: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.؛ «ذ»: طرفُ اللسانِ يبرزُ من باطنِ الفمِ فيماسُّ الأسنانَ مماسّةً رخوةً، ويجري النفَسُ المجهورُ في مضيقِها جريانًا متّصلًا نافذًا، ثمّ يسترسلُ ناثرًا دقيقًا حتى ينقطعَ، لا انطباقَ تامًّا فيه ولا انفجار.؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+                  "event_note": "لا الجذرُ «يذن» في الـ2,285 ولا نواتُه «يذ» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "dialect_additions": 0,
+              "positives": [],
+              "branch_lexicon": {
+                "language": "latin",
+                "source": "data/branch-lexicons/latin.json",
+                "lookup_path": "هيكلٌ مطابق",
+                "query": "Donna",
+                "entries": [
+                  {
+                    "word": "dono",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to give (with dative of the indirect object and accusative of the object (thing presented))؛ to present (someone with something)؛ to naturalize",
+                    "etym": "Etymology tree Proto-Indo-European *déh₃nom Proto-Italic *dōnom Proto-Indo-European *-h₂ Proto-Indo-European *-éh₂ Proto-Indo-European *-yéti Proto-Indo-European *-eh₂yéti Proto-It"
+                  },
+                  {
+                    "word": "Diana",
+                    "read": "",
+                    "pos": "name",
+                    "en": "Diana, the daughter of Latona and Jupiter, and twin sister of Apollo; the goddess of the hunt, associated with wild animals and the forest or wilderness, and an emblem of chastity; the Roman counterpart of Greek goddess Artemis.",
+                    "etym": "Original form with long i Dīāna, derived by syncope from Dīvāna, equivalent to dīvus + -āna; some inscriptions read Deiana or Deana, akin to deus + -āna; both feminine stem words d"
+                  },
+                  {
+                    "word": "Dan.",
+                    "read": "",
+                    "pos": "name",
+                    "en": "abbreviation of Daniēl (Book of Daniel).",
+                    "etym": ""
+                  },
+                  {
+                    "word": "Eden",
+                    "read": "",
+                    "pos": "name",
+                    "en": "the Garden of Eden",
+                    "etym": "From Hebrew עֵדֶן (ʿḗḏen)"
+                  },
+                  {
+                    "word": "Dani",
+                    "read": "",
+                    "pos": "name",
+                    "en": "the Danes (natives of Denmark)",
+                    "etym": "Borrowed from Proto-Germanic *daniz."
+                  },
+                  {
+                    "word": "Dania",
+                    "read": "",
+                    "pos": "name",
+                    "en": "Denmark (a country in Northern Europe)",
+                    "etym": "From Dānī (“Danes”) + -ia."
+                  },
+                  {
+                    "word": "idonee",
+                    "read": "",
+                    "pos": "adv",
+                    "en": "suitably, properly, duly",
+                    "etym": "From idōneus (“suitable”)."
+                  },
+                  {
+                    "word": "aduno",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to unite, make one",
+                    "etym": "From ad- + ūnus (“one, single, sole”) + -ō. Compare the similarly formed English atone."
+                  },
+                  {
+                    "word": "adnuo",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to nod assent, approval, or consent; especially, as a sign of divine approval or favor؛ to favour or designate with a nod؛ to promise, grant",
+                    "etym": "From ad- + *nuō."
+                  },
+                  {
+                    "word": "denuo",
+                    "read": "",
+                    "pos": "adv",
+                    "en": "anew, afresh, again؛ a second time, once again, once more, again؛ anything which is repeated, once more, again",
+                    "etym": "From an unattested Old Latin *dē novōd, from Proto-Italic *dē nowōd, equivalent to dē + novō (“from new”). Compare the medieval expression dē novō (“afresh, anew”), as well as Fren"
+                  },
+                  {
+                    "word": "adno",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to swim or sail to, towards or along؛ to come to, approach؛ to swim with or along with",
+                    "etym": "From ad- + nō (“swim”)."
+                  },
+                  {
+                    "word": "Dinia",
+                    "read": "",
+                    "pos": "name",
+                    "en": "a male given name, character in the play Vidularia of Plautus",
+                    "etym": ""
+                  },
+                  {
+                    "word": "Dinia",
+                    "read": "",
+                    "pos": "name",
+                    "en": "a town in Gallia Narbonensis, now Digne",
+                    "etym": ""
+                  },
+                  {
+                    "word": "Adana",
+                    "read": "",
+                    "pos": "name",
+                    "en": "Adana (a town in Cilicia, in modern Adana Province, Turkey, situated on the road from Tarsus to Issus)",
+                    "etym": "Borrowed from Ancient Greek Ἄδανα (Ádana)."
+                  },
+                  {
+                    "word": "Daunii",
+                    "read": "",
+                    "pos": "name",
+                    "en": "A tribe of southern Italy, inhabiting the part of Apulia included between the rivers Aufidus and Frento",
+                    "etym": "From Ancient Greek Δαύνιοι (Daúnioi), said to be from the tribe's word for wolf, ultimately from Proto-Indo-European *dhau (“to strangle”), perhaps through Illyrian where the voice"
+                  },
+                  {
+                    "word": "Danae",
+                    "read": "",
+                    "pos": "name",
+                    "en": "Danae",
+                    "etym": "From Ancient Greek Δανάη (Danáē)."
+                  },
+                  {
+                    "word": "Danai",
+                    "read": "",
+                    "pos": "name",
+                    "en": "the Danaans, the Greeks",
+                    "etym": "From Ancient Greek Δᾰνᾰοί (Dănăoí, “the Danaans, the Greeks”)."
+                  },
+                  {
+                    "word": "DN",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "initialism of dominus noster, our lord.",
+                    "etym": ""
+                  },
+                  {
+                    "word": "Edoni",
+                    "read": "",
+                    "pos": "name",
+                    "en": "A tribe of Thrace, situated west of the river Strymon",
+                    "etym": "Borrowed from Ancient Greek Ἠδωνοί (Ēdōnoí)."
+                  },
+                  {
+                    "word": "aedon",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "The nightingale",
+                    "etym": "Borrowed from Ancient Greek ἀηδών (aēdṓn)."
+                  },
+                  {
+                    "word": "Adeona",
+                    "read": "",
+                    "pos": "name",
+                    "en": "The tutelary goddess of newcomers",
+                    "etym": "From adeō (“I approach, go to”) + -ōna."
+                  },
+                  {
+                    "word": "Eudon",
+                    "read": "",
+                    "pos": "name",
+                    "en": "a river in Phrygia, mentioned by Pliny",
+                    "etym": "Borrowed from Ancient Greek Εὔδων (Eúdōn)."
+                  },
+                  {
+                    "word": "Audena",
+                    "read": "",
+                    "pos": "name",
+                    "en": "A river of Etruria mentioned only by Livy",
+                    "etym": ""
+                  },
+                  {
+                    "word": "Udini",
+                    "read": "",
+                    "pos": "name",
+                    "en": "A tribe settled near the Caspian Sea, mentioned by Pliny",
+                    "etym": ""
+                  },
+                  {
+                    "word": "Aduna",
+                    "read": "",
+                    "pos": "name",
+                    "en": "a river in Persia, mentioned by Pliny",
+                    "etym": ""
+                  },
+                  {
+                    "word": "doana",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "A customs duty.",
+                    "etym": "From Arabic دِيوَان (dīwān, “administrative office”), from Persian دیوان (divân, “customs, divan”)."
+                  }
+                ],
+                "selected": null,
+                "researcher_sense": "قوة؛ حركة؛ حاكم؛ سيد؛ سيدة ومشتقاتها",
+                "dictionary_precedes_researcher": true,
+                "selection": "عُرضت جميع الإصابات كاملة؛ لا اختيار آلي من ترتيب القاموس، ويبقى الاختيار للمدخل الموافق لسياق الصف قبل أي مدار."
+              }
+            }
+          ],
+          "target_card_id": "KIE-N006-039",
+          "target_manifest": "khashim-indo-european-batch-006.json",
+          "target_language": "old-latin",
+          "target_kind": "khashim",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card",
+          "arabic_root_sense_review": {
+            "date": "2026-08-14",
+            "command": "python scripts/search_arabic_root_senses.py ROOT --max-chars 0",
+            "max_chars": 0,
+            "definition_truncated": false,
+            "roots_reviewed": [
+              "دان",
+              "دن",
+              "دنا",
+              "دنن",
+              "دنو",
+              "دني",
+              "دون",
+              "دين",
+              "ذان",
+              "ذن",
+              "ذنا",
+              "ذنن",
+              "ذنو",
+              "ذني",
+              "ذون",
+              "ذين",
+              "ضان",
+              "ضن",
+              "ضنا",
+              "ضنن",
+              "ضنو",
+              "ضني",
+              "ضون",
+              "ضين",
+              "ودن",
+              "وذن",
+              "وضن",
+              "يدن",
+              "يذن",
+              "يضن"
+            ],
+            "roots_with_witnesses": 20,
+            "lexicographic_witnesses_reviewed": 150,
+            "root_match_counts": {
+              "دن": 4,
+              "دنا": 6,
+              "دنن": 6,
+              "دنو": 11,
+              "دون": 16,
+              "دين": 13,
+              "ذن": 4,
+              "ذنن": 8,
+              "ذون": 7,
+              "ذين": 7,
+              "ضن": 5,
+              "ضنا": 4,
+              "ضنن": 11,
+              "ضنو": 3,
+              "ضني": 5,
+              "ضون": 9,
+              "ضين": 4,
+              "ودن": 12,
+              "وذن": 3,
+              "وضن": 12
+            },
+            "result": "no further convincing orbit after full witness review"
+          },
+          "blocker_type": "SOURCE-GAP",
+          "required": "مدخل قاموس فرع يوافق سياق الصف، ثم مدار بشري مكتوب"
+        }
+      ]
     },
     {
       "card_id": "KIE-N006-040",

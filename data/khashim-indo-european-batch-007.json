@@ -6195,7 +6195,565 @@
         "`n` + `ن` + «اللاتينيّة القديمة/Old Latin» في عمود الشاهد"
       ],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "comparative_supplements": [
+        {
+          "batch": 6,
+          "category": "cross-linguistic",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            566,
+            568
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 566,
+              "source_row_key": "ffad57246a14c12005ec3879",
+              "foreign": "bon",
+              "foreign_sense": "طيب؛ حلو؛ لذيذ؛ خير ومشتقاته",
+              "tongue_ar": "المصريّة واللاتينيّة والأوربيّات",
+              "arabic_root": "بنن / بنة / بنين",
+              "arabic_gloss": "ردّ الأسرة إلى بنن المصرية وبنة العربية: الريح أو الطعم الطيب.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 162,
+              "assigned_language": "old-latin",
+              "assignment_reason": "human material review: assigned by the cited form's own linguistic shape and context"
+            },
+            {
+              "source_row_index": 568,
+              "source_row_key": "a33b44d145328e1897a2b6b6",
+              "foreign": "bueno",
+              "foreign_sense": "طيب؛ حلو؛ لذيذ؛ خير ومشتقاته",
+              "tongue_ar": "المصريّة واللاتينيّة والأوربيّات",
+              "arabic_root": "بنن / بنة / بنين",
+              "arabic_gloss": "ردّ الأسرة إلى بنن المصرية وبنة العربية: الريح أو الطعم الطيب.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 162,
+              "assigned_language": "old-latin",
+              "assignment_reason": "human material review: assigned by the cited form's own linguistic shape and context"
+            }
+          ],
+          "forms": [
+            {
+              "form": "bon",
+              "normalized_form": "bon",
+              "script": "latin",
+              "skeleton": [
+                "b",
+                "n"
+              ],
+              "fan_review": [
+                {
+                  "root": "بن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 2,
+                  "event_tier_ar": "نواةٌ مسجَّلة",
+                  "event_source": "data/juthoor-core-levels.json",
+                  "event_text": "الامتداد والبناء",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بنن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "امتداد الشيء اللطيف من أصله، أو فيه",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بون",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بين",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بان",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد والبناء؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «بان» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بن» بنصِّ التعديل 2، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بنو",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "زيادة قوية تنشأ للشيء؛ فتقيمه وتُنصبه، أو تُعظّمه وتمدّ جِرْمَه",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بني",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "زيادة قوية تنشأ للشيء؛ فتقيمه وتُنصبه، أو تُعظّمه وتمدّ جِرْمَه",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بنا",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد والبناء؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «بنا» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "وبن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«و»: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.؛ «ب»: التقاءٌ رخوٌ للشفتَينِ يُمسِكُ النفَسَ محتبَسًا ثمّ ينفتحُ عنه خارجًا؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+                  "event_note": "لا الجذرُ «وبن» في الـ2,285 ولا نواتُه «وب» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "يبن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«ي»: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.؛ «ب»: التقاءٌ رخوٌ للشفتَينِ يُمسِكُ النفَسَ محتبَسًا ثمّ ينفتحُ عنه خارجًا؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+                  "event_note": "لا الجذرُ «يبن» في الـ2,285 ولا نواتُه «يب» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "dialect_additions": 0,
+              "positives": [],
+              "branch_lexicon": {
+                "language": "latin",
+                "source": "data/branch-lexicons/latin.json",
+                "lookup_path": "هيكلٌ مطابق",
+                "query": "bon",
+                "entries": [
+                  {
+                    "word": "bene",
+                    "read": "",
+                    "pos": "adv",
+                    "en": "well؛ properly, exactly؛ agreeably, favorably",
+                    "etym": "From Old Latin *duenēd, from duenos (“good”), which gave bonus, from Proto-Italic *dwenos."
+                  },
+                  {
+                    "word": "bona",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "A good or brave woman.",
+                    "etym": "Feminine of the noun bonus (“a good man”)."
+                  },
+                  {
+                    "word": "bn",
+                    "read": "",
+                    "pos": "adv",
+                    "en": "abbreviation of bene",
+                    "etym": ""
+                  },
+                  {
+                    "word": "benna",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "kind of carriage",
+                    "etym": "From Gaulish benna."
+                  },
+                  {
+                    "word": "bino",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to repeat; to replough؛ to binate, to celebrate Mass twice in one day",
+                    "etym": "bīnus (“occurring twice”) + -ō"
+                  },
+                  {
+                    "word": "abnuo",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to say no, to nod in negation؛ to refuse, reject؛ to not admit of",
+                    "etym": "From ab- (“from, away from”) + *nuō (“nod”), literally “to reject by a nod”."
+                  },
+                  {
+                    "word": "bannio",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to summon؛ to require, compel؛ to order",
+                    "etym": "Borrowed from Frankish *bannijan (“proclaim, order, summon, ban”). Early attestations include the Lex Ribuaria and Fredegarius. The form with /d/ shows contamination with Gothic 𐌱𐌰"
+                  },
+                  {
+                    "word": "Boiana",
+                    "read": "",
+                    "pos": "name",
+                    "en": "Buna (a river in modern day Albania and Montenegro)",
+                    "etym": "First attested in 1396. See Albanian Bunë for more."
+                  },
+                  {
+                    "word": "binio",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "The number two on a die; deuce",
+                    "etym": "From bīnus (“two each”) + -iō."
+                  },
+                  {
+                    "word": "Abeona",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "The goddess of departing.",
+                    "etym": "From abeō (“to depart, go away”) + -ōna."
+                  },
+                  {
+                    "word": "Bonna",
+                    "read": "",
+                    "pos": "name",
+                    "en": "Bonn (an independent city in North Rhine-Westphalia, Germany, on the Rhine River; the former capital of West Germany and (until 1999) seat of government of unified Germany)",
+                    "etym": "Short for Castra Bonnensia."
+                  }
+                ],
+                "selected": {
+                  "word": "bene",
+                  "read": "",
+                  "pos": "adv",
+                  "en": "well؛ properly, exactly؛ agreeably, favorably",
+                  "etym": "From Old Latin *duenēd, from duenos (“good”), which gave bonus, from Proto-Italic *dwenos."
+                },
+                "researcher_sense": "طيب؛ حلو؛ لذيذ؛ خير ومشتقاته",
+                "dictionary_precedes_researcher": true,
+                "selection": "اختير `bene` بعد موازنة جميع الإصابات بسياق الصف «طيب؛ حلو؛ لذيذ؛ خير ومشتقاته»؛ لم تؤخذ الإصابة الأولى آليا."
+              }
+            },
+            {
+              "form": "bueno",
+              "normalized_form": "bueno",
+              "script": "latin",
+              "skeleton": [
+                "b",
+                "n"
+              ],
+              "fan_review": [
+                {
+                  "root": "بن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 2,
+                  "event_tier_ar": "نواةٌ مسجَّلة",
+                  "event_source": "data/juthoor-core-levels.json",
+                  "event_text": "الامتداد والبناء",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بنن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "امتداد الشيء اللطيف من أصله، أو فيه",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بون",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بين",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "امتداد بين طرفين أو جانبين مع فصل كبير، أو اتساع",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بان",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد والبناء؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «بان» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بن» بنصِّ التعديل 2، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بنو",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "زيادة قوية تنشأ للشيء؛ فتقيمه وتُنصبه، أو تُعظّمه وتمدّ جِرْمَه",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بني",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "زيادة قوية تنشأ للشيء؛ فتقيمه وتُنصبه، أو تُعظّمه وتمدّ جِرْمَه",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بنا",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الامتداد والبناء؛ والحرفُ الثالثُ «ا» حدثُه: انفتاحٌ أقصى للفمِ والحلقِ يُطلِقُ النفَسَ المجهورَ جريانًا حرًّا بلا عائق، ثمّ يمدُّه في الزمنِ ما دامَ النفَس.",
+                  "event_note": "الجذرُ «بنا» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "وبن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«و»: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.؛ «ب»: التقاءٌ رخوٌ للشفتَينِ يُمسِكُ النفَسَ محتبَسًا ثمّ ينفتحُ عنه خارجًا؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+                  "event_note": "لا الجذرُ «وبن» في الـ2,285 ولا نواتُه «وب» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "يبن",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«ي»: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.؛ «ب»: التقاءٌ رخوٌ للشفتَينِ يُمسِكُ النفَسَ محتبَسًا ثمّ ينفتحُ عنه خارجًا؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+                  "event_note": "لا الجذرُ «يبن» في الـ2,285 ولا نواتُه «يب» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "dialect_additions": 0,
+              "positives": [],
+              "branch_lexicon": {
+                "language": "latin",
+                "source": "data/branch-lexicons/latin.json",
+                "lookup_path": "هيكلٌ مطابق",
+                "query": "bueno",
+                "entries": [
+                  {
+                    "word": "bene",
+                    "read": "",
+                    "pos": "adv",
+                    "en": "well؛ properly, exactly؛ agreeably, favorably",
+                    "etym": "From Old Latin *duenēd, from duenos (“good”), which gave bonus, from Proto-Italic *dwenos."
+                  },
+                  {
+                    "word": "bona",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "A good or brave woman.",
+                    "etym": "Feminine of the noun bonus (“a good man”)."
+                  },
+                  {
+                    "word": "bn",
+                    "read": "",
+                    "pos": "adv",
+                    "en": "abbreviation of bene",
+                    "etym": ""
+                  },
+                  {
+                    "word": "benna",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "kind of carriage",
+                    "etym": "From Gaulish benna."
+                  },
+                  {
+                    "word": "bino",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to repeat; to replough؛ to binate, to celebrate Mass twice in one day",
+                    "etym": "bīnus (“occurring twice”) + -ō"
+                  },
+                  {
+                    "word": "abnuo",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to say no, to nod in negation؛ to refuse, reject؛ to not admit of",
+                    "etym": "From ab- (“from, away from”) + *nuō (“nod”), literally “to reject by a nod”."
+                  },
+                  {
+                    "word": "bannio",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to summon؛ to require, compel؛ to order",
+                    "etym": "Borrowed from Frankish *bannijan (“proclaim, order, summon, ban”). Early attestations include the Lex Ribuaria and Fredegarius. The form with /d/ shows contamination with Gothic 𐌱𐌰"
+                  },
+                  {
+                    "word": "Boiana",
+                    "read": "",
+                    "pos": "name",
+                    "en": "Buna (a river in modern day Albania and Montenegro)",
+                    "etym": "First attested in 1396. See Albanian Bunë for more."
+                  },
+                  {
+                    "word": "binio",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "The number two on a die; deuce",
+                    "etym": "From bīnus (“two each”) + -iō."
+                  },
+                  {
+                    "word": "Abeona",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "The goddess of departing.",
+                    "etym": "From abeō (“to depart, go away”) + -ōna."
+                  },
+                  {
+                    "word": "Bonna",
+                    "read": "",
+                    "pos": "name",
+                    "en": "Bonn (an independent city in North Rhine-Westphalia, Germany, on the Rhine River; the former capital of West Germany and (until 1999) seat of government of unified Germany)",
+                    "etym": "Short for Castra Bonnensia."
+                  }
+                ],
+                "selected": {
+                  "word": "bene",
+                  "read": "",
+                  "pos": "adv",
+                  "en": "well؛ properly, exactly؛ agreeably, favorably",
+                  "etym": "From Old Latin *duenēd, from duenos (“good”), which gave bonus, from Proto-Italic *dwenos."
+                },
+                "researcher_sense": "طيب؛ حلو؛ لذيذ؛ خير ومشتقاته",
+                "dictionary_precedes_researcher": true,
+                "selection": "اختير `bene` بعد موازنة جميع الإصابات بسياق الصف «طيب؛ حلو؛ لذيذ؛ خير ومشتقاته»؛ لم تؤخذ الإصابة الأولى آليا."
+              }
+            }
+          ],
+          "target_card_id": "KIE-N007-012",
+          "target_manifest": "khashim-indo-european-batch-007.json",
+          "target_language": "old-latin",
+          "target_kind": "khashim",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card",
+          "arabic_root_sense_review": {
+            "date": "2026-08-14",
+            "command": "python scripts/search_arabic_root_senses.py ROOT --max-chars 0",
+            "max_chars": 0,
+            "definition_truncated": false,
+            "roots_reviewed": [
+              "بان",
+              "بن",
+              "بنا",
+              "بنن",
+              "بنو",
+              "بني",
+              "بون",
+              "بين",
+              "وبن",
+              "يبن"
+            ],
+            "roots_with_witnesses": 9,
+            "lexicographic_witnesses_reviewed": 67,
+            "root_match_counts": {
+              "بن": 5,
+              "بنا": 1,
+              "بنن": 10,
+              "بنو": 5,
+              "بني": 10,
+              "بون": 12,
+              "بين": 16,
+              "وبن": 5,
+              "يبن": 3
+            },
+            "result": "no further convincing orbit after full witness review"
+          },
+          "blocker_type": "SEMANTIC-ORBIT-GAP",
+          "required": "مدار بشري مقنع بعد قراءة شواهد الجذور العربية كاملة"
+        }
+      ]
     },
     {
       "card_id": "KIE-N007-013",

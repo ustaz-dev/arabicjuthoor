@@ -12279,3 +12279,36 @@
 - حالة الإغلاق: OPEN-CANDIDATE.
 
 <!-- LOAN-HARVEST-OLD-NORSE-BATCH-001:END -->
+
+<!-- COMPARATIVE-IE-BATCH-006:START -->
+
+## حصادُ الصفوف العابرة للألسن في المسار الهنديّ الأوربيّ، الدفعة 006 (2026-08-14)
+
+- في هذا الملف 1 بطاقة جديدة؛ جُمعت صور الأسرة الواحدة، وأُحيلت الصور السابقة إلى بطاقاتها بدل تكرارها.
+- فُحصت المروحة كاملة مرتبة بـ`F.rank`، ثم `fan_with_dialect` عند عجز الفصحى؛ الوزن ترتيب لا حكم.
+- غياب الصورة من اللقطة `SOURCE-GAP` خارج الحكم؛ الحكم ثلاثي الأرجل: مسار صوت مسمى، حدث مجمد، ومعنى فرع بمدار مكتوب.
+
+### بطاقة المقارنات: `stjarna`؛ CMP-IE-006-067
+<!-- COMPARATIVE-IE:CMP-IE-006-067 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `stjarna`, `stjerne`؛ صفوف المصدر [1815, 1816].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 1815: `stjarna`؛ «عشتر؛ نجم» ↔ `عشتر / عثتر`؛ ردّ ألفاظ النجم إلى أسماء عشتر وعثتر العروبية. [ocr-khashim-journey1، ص404] | صف 1816: `stjerne`؛ «عشتر؛ نجم» ↔ `عشتر / عثتر`؛ ردّ ألفاظ النجم إلى أسماء عشتر وعثتر العروبية. [ocr-khashim-journey1، ص404].
+- الخطوة صفر لصورة `stjarna`: الرسم `germanic`؛ الهيكل `s-t-j-r-n`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- المروحة الكاملة لصورة `stjarna`، مرتبة بـ`F.rank`: لا مرشح قابل للتوليد من الهيكل. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- قاموس الفرع لصورة `stjarna`: الطريق الصورةُ بنصِّها؛ المصدر `data/branch-lexicons/old-norse.json`؛ جميع الإصابات: `stjarna` [noun] «star»؛ الاشتقاق: «From Proto-Germanic *sternǭ (“star”), from Proto-Indo-European *h₂stḗr (“star”). Cognate with Old English steorra, Old Frisian stēra, Old Saxon sterro, Old Dutch sterno, sterro, Ol».
+- اختيار قاموس الفرع لصورة `stjarna`: `stjarna` [noun] «star»؛ الاشتقاق: «From Proto-Germanic *sternǭ (“star”), from Proto-Indo-European *h₂stḗr (“star”). Cognate with Old English steorra, Old Frisian stēra, Old Saxon sterro, Old Dutch sterno, sterro, Ol». اختير `stjarna` بعد موازنة جميع الإصابات بسياق الصف «عشتر؛ نجم»؛ لم تؤخذ الإصابة الأولى آليا. قاموس الفرع مقدم على عمود الباحث.
+- الخطوة صفر لصورة `stjerne`: الرسم `germanic`؛ الهيكل `s-t-j-r-n`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- المروحة الكاملة لصورة `stjerne`، مرتبة بـ`F.rank`: لا مرشح قابل للتوليد من الهيكل. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- قاموس الفرع لصورة `stjerne`: الطريق هيكلٌ مطابق؛ المصدر `data/branch-lexicons/old-norse.json`؛ جميع الإصابات: `stjarna` [noun] «star»؛ الاشتقاق: «From Proto-Germanic *sternǭ (“star”), from Proto-Indo-European *h₂stḗr (“star”). Cognate with Old English steorra, Old Frisian stēra, Old Saxon sterro, Old Dutch sterno, sterro, Ol».
+- اختيار قاموس الفرع لصورة `stjerne`: `stjarna` [noun] «star»؛ الاشتقاق: «From Proto-Germanic *sternǭ (“star”), from Proto-Indo-European *h₂stḗr (“star”). Cognate with Old English steorra, Old Frisian stēra, Old Saxon sterro, Old Dutch sterno, sterro, Ol». اختير `stjarna` بعد موازنة جميع الإصابات بسياق الصف «عشتر؛ نجم»؛ لم تؤخذ الإصابة الأولى آليا. قاموس الفرع مقدم على عمود الباحث.
+- فحص معاني الجذور العربية: قُرئت بلا اقتطاع بـ`--max-chars 0` شواهد 0 جذرا من المراوح؛ وُجد 0 شاهدا لـ0 جذرا، ولم يحكم العدد ولا ترتيب المعاجم.
+- عائق: النوع=FAN-EMPTY؛ يتطلب=توسيع مولد المروحة أو صف صوت موقع، مع بقاء معنى قاموس الفرع محفوظا.
+- المدار المكتوب: لم يصدر مدار قبل تعيين معنى قاموس الفرع وقراءة شواهد الجذور العربية كاملة؛ اقتراح المؤلف لا يعوّض رجل المعنى.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: ثبوت الصورة أو غيابها من اللقطة خارج الحكم؛ حيث تغيب توسم `SOURCE-GAP` وحده، لا رفضًا.
+- حالة الإغلاق: OPEN-CANDIDATE.
+
+<!-- COMPARATIVE-IE-BATCH-006:END -->
