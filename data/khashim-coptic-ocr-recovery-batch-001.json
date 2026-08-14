@@ -1,0 +1,1258 @@
+{
+ "schema": "khashim-coptic-ocr-recovery-batch-v1",
+ "generated_by": "scripts/build_khashim_coptic_ocr_recovery_batches.py",
+ "batch": 1,
+ "batch_size": 150,
+ "total_recovered_rows": 71,
+ "total_batches": 1,
+ "slice": [
+  0,
+  70
+ ],
+ "rows": [
+  {
+   "source_index": 36,
+   "card_index": 53,
+   "foreign": "akd",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "عقد",
+   "page": 240,
+   "ocr_line": 7054,
+   "fan_candidates": 60,
+   "sound_ready": 60,
+   "frozen_event_ready": 60,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 37,
+   "card_index": 54,
+   "foreign": "alow",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "عول",
+   "page": 240,
+   "ocr_line": 7058,
+   "fan_candidates": 16,
+   "sound_ready": 4,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 38,
+   "card_index": 55,
+   "foreign": "alow, alo",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "عول",
+   "page": 240,
+   "ocr_line": 7062,
+   "fan_candidates": 16,
+   "sound_ready": 4,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 43,
+   "card_index": 60,
+   "foreign": "agol",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "عجل",
+   "page": 245,
+   "ocr_line": 7246,
+   "fan_candidates": 80,
+   "sound_ready": 40,
+   "frozen_event_ready": 80,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 44,
+   "card_index": 61,
+   "foreign": "agrim",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "عقر",
+   "page": 245,
+   "ocr_line": 7252,
+   "fan_candidates": 8,
+   "sound_ready": 4,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 45,
+   "card_index": 62,
+   "foreign": "bowhow",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "بأبأ",
+   "page": 246,
+   "ocr_line": 7289,
+   "fan_candidates": 4,
+   "sound_ready": 3,
+   "frozen_event_ready": 4,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 48,
+   "card_index": 65,
+   "foreign": "bashowr",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "نشر",
+   "page": 247,
+   "ocr_line": 7358,
+   "fan_candidates": 4,
+   "sound_ready": 0,
+   "frozen_event_ready": 4,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 49,
+   "card_index": 66,
+   "foreign": "behbeh",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "بحح",
+   "page": 247,
+   "ocr_line": 7364,
+   "fan_candidates": 16,
+   "sound_ready": 9,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 50,
+   "card_index": 67,
+   "foreign": "ebriqe",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "برق",
+   "page": 248,
+   "ocr_line": 7385,
+   "fan_candidates": 4,
+   "sound_ready": 4,
+   "frozen_event_ready": 4,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 51,
+   "card_index": 68,
+   "foreign": "ekebe",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "كعب",
+   "page": 248,
+   "ocr_line": 7391,
+   "fan_candidates": 20,
+   "sound_ready": 20,
+   "frozen_event_ready": 20,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 52,
+   "card_index": 69,
+   "foreign": "emeish",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "ميش",
+   "page": 249,
+   "ocr_line": 7431,
+   "fan_candidates": 20,
+   "sound_ready": 0,
+   "frozen_event_ready": 20,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 53,
+   "card_index": 70,
+   "foreign": "epshe",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "خنفس",
+   "page": 249,
+   "ocr_line": 7441,
+   "fan_candidates": 40,
+   "sound_ready": 0,
+   "frozen_event_ready": 40,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 55,
+   "card_index": 72,
+   "foreign": "essow",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شاء",
+   "page": 249,
+   "ocr_line": 7460,
+   "fan_candidates": 32,
+   "sound_ready": 8,
+   "frozen_event_ready": 32,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 56,
+   "card_index": 73,
+   "foreign": "etre",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "أثر",
+   "page": 249,
+   "ocr_line": 7470,
+   "fan_candidates": 60,
+   "sound_ready": 60,
+   "frozen_event_ready": 60,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 58,
+   "card_index": 75,
+   "foreign": "thows",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "دبس",
+   "page": 251,
+   "ocr_line": 7526,
+   "fan_candidates": 36,
+   "sound_ready": 0,
+   "frozen_event_ready": 36,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 59,
+   "card_index": 76,
+   "foreign": "eille",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "ألل",
+   "page": 251,
+   "ocr_line": 7534,
+   "fan_candidates": 0,
+   "sound_ready": 0,
+   "frozen_event_ready": 0,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لم تولد أداة الصوت مرشحًا من الرأس المسترد"
+   ]
+  },
+  {
+   "source_index": 61,
+   "card_index": 78,
+   "foreign": "eigri",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "جري",
+   "page": 252,
+   "ocr_line": 7579,
+   "fan_candidates": 80,
+   "sound_ready": 40,
+   "frozen_event_ready": 80,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 65,
+   "card_index": 82,
+   "foreign": "klom",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "قلم",
+   "page": 254,
+   "ocr_line": 7679,
+   "fan_candidates": 4,
+   "sound_ready": 4,
+   "frozen_event_ready": 4,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 71,
+   "card_index": 88,
+   "foreign": "krowj",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "قرص",
+   "page": 256,
+   "ocr_line": 7757,
+   "fan_candidates": 8,
+   "sound_ready": 4,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 74,
+   "card_index": 91,
+   "foreign": "kase",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "قصص",
+   "page": 257,
+   "ocr_line": 7790,
+   "fan_candidates": 80,
+   "sound_ready": 80,
+   "frozen_event_ready": 80,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 75,
+   "card_index": 92,
+   "foreign": "kaskes",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "كشش",
+   "page": 257,
+   "ocr_line": 7796,
+   "fan_candidates": 80,
+   "sound_ready": 80,
+   "frozen_event_ready": 80,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 76,
+   "card_index": 93,
+   "foreign": "ksowr",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "خصر",
+   "page": 257,
+   "ocr_line": 7802,
+   "fan_candidates": 16,
+   "sound_ready": 16,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 86,
+   "card_index": 103,
+   "foreign": "lapsi",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "لسب",
+   "page": 261,
+   "ocr_line": 7987,
+   "fan_candidates": 16,
+   "sound_ready": 16,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 88,
+   "card_index": 105,
+   "foreign": "lhiem",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "نهم",
+   "page": 262,
+   "ocr_line": 8026,
+   "fan_candidates": 8,
+   "sound_ready": 6,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 91,
+   "card_index": 108,
+   "foreign": "loj",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "لوج",
+   "page": 262,
+   "ocr_line": 8057,
+   "fan_candidates": 36,
+   "sound_ready": 4,
+   "frozen_event_ready": 36,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 93,
+   "card_index": 110,
+   "foreign": "mlokh",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "مرخ",
+   "page": 264,
+   "ocr_line": 8113,
+   "fan_candidates": 2,
+   "sound_ready": 0,
+   "frozen_event_ready": 2,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 95,
+   "card_index": 112,
+   "foreign": "mangale",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "نجل",
+   "page": 264,
+   "ocr_line": 8155,
+   "fan_candidates": 8,
+   "sound_ready": 4,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 97,
+   "card_index": 114,
+   "foreign": "meshol",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "سحل",
+   "page": 266,
+   "ocr_line": 8233,
+   "fan_candidates": 4,
+   "sound_ready": 0,
+   "frozen_event_ready": 4,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 99,
+   "card_index": 116,
+   "foreign": "mchol",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "بصل",
+   "page": 268,
+   "ocr_line": 8341,
+   "fan_candidates": 6,
+   "sound_ready": 0,
+   "frozen_event_ready": 6,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 104,
+   "card_index": 121,
+   "foreign": "polh",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "فلح",
+   "page": 272,
+   "ocr_line": 8479,
+   "fan_candidates": 16,
+   "sound_ready": 12,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 105,
+   "card_index": 122,
+   "foreign": "rakrek",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "رقق",
+   "page": 274,
+   "ocr_line": 8593,
+   "fan_candidates": 16,
+   "sound_ready": 16,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 106,
+   "card_index": 123,
+   "foreign": "sobh",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "صبح",
+   "page": 276,
+   "ocr_line": 8675,
+   "fan_candidates": 16,
+   "sound_ready": 12,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 107,
+   "card_index": 124,
+   "foreign": "sol",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شعل",
+   "page": 277,
+   "ocr_line": 8722,
+   "fan_candidates": 80,
+   "sound_ready": 80,
+   "frozen_event_ready": 80,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 108,
+   "card_index": 125,
+   "foreign": "salo",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "سلل",
+   "page": 277,
+   "ocr_line": 8736,
+   "fan_candidates": 80,
+   "sound_ready": 80,
+   "frozen_event_ready": 80,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 111,
+   "card_index": 128,
+   "foreign": "sase, sowsow",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "سوس",
+   "page": 281,
+   "ocr_line": 8933,
+   "fan_candidates": 160,
+   "sound_ready": 152,
+   "frozen_event_ready": 160,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 114,
+   "card_index": 131,
+   "foreign": "sohm",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "سحب",
+   "page": 283,
+   "ocr_line": 9035,
+   "fan_candidates": 16,
+   "sound_ready": 12,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 116,
+   "card_index": 133,
+   "foreign": "tlom, tnom",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "تلم",
+   "page": 286,
+   "ocr_line": 9176,
+   "fan_candidates": 6,
+   "sound_ready": 6,
+   "frozen_event_ready": 6,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 117,
+   "card_index": 134,
+   "foreign": "trim(tharmows)",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "ترمس",
+   "page": 287,
+   "ocr_line": 9235,
+   "fan_candidates": 0,
+   "sound_ready": 0,
+   "frozen_event_ready": 0,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لم تولد أداة الصوت مرشحًا من الرأس المسترد"
+   ]
+  },
+  {
+   "source_index": 118,
+   "card_index": 135,
+   "foreign": "khelme",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "حلم",
+   "page": 291,
+   "ocr_line": 9383,
+   "fan_candidates": 2,
+   "sound_ready": 0,
+   "frozen_event_ready": 2,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 119,
+   "card_index": 136,
+   "foreign": "khosh",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "كرش",
+   "page": 291,
+   "ocr_line": 9401,
+   "fan_candidates": 20,
+   "sound_ready": 0,
+   "frozen_event_ready": 20,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 120,
+   "card_index": 137,
+   "foreign": "oms",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "غمس",
+   "page": 291,
+   "ocr_line": 9415,
+   "fan_candidates": 40,
+   "sound_ready": 40,
+   "frozen_event_ready": 40,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 123,
+   "card_index": 140,
+   "foreign": "showkre",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شكر",
+   "page": 294,
+   "ocr_line": 9528,
+   "fan_candidates": 8,
+   "sound_ready": 0,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 124,
+   "card_index": 141,
+   "foreign": "sholk",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شرج",
+   "page": 294,
+   "ocr_line": 9546,
+   "fan_candidates": 8,
+   "sound_ready": 0,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 125,
+   "card_index": 142,
+   "foreign": "shliel",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "صلا",
+   "page": 294,
+   "ocr_line": 9552,
+   "fan_candidates": 8,
+   "sound_ready": 0,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 126,
+   "card_index": 143,
+   "foreign": "sholq",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شلق",
+   "page": 295,
+   "ocr_line": 9567,
+   "fan_candidates": 8,
+   "sound_ready": 0,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 129,
+   "card_index": 146,
+   "foreign": "sharke",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شرق",
+   "page": 296,
+   "ocr_line": 9628,
+   "fan_candidates": 8,
+   "sound_ready": 0,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 130,
+   "card_index": 147,
+   "foreign": "shtien",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "كتن",
+   "page": 296,
+   "ocr_line": 9646,
+   "fan_candidates": 6,
+   "sound_ready": 0,
+   "frozen_event_ready": 6,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 131,
+   "card_index": 148,
+   "foreign": "shash",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "أسس",
+   "page": 297,
+   "ocr_line": 9679,
+   "fan_candidates": 40,
+   "sound_ready": 0,
+   "frozen_event_ready": 40,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 132,
+   "card_index": 149,
+   "foreign": "shahm",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شحم",
+   "page": 297,
+   "ocr_line": 9697,
+   "fan_candidates": 8,
+   "sound_ready": 0,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 133,
+   "card_index": 150,
+   "foreign": "shḥiq",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "سحق",
+   "page": 297,
+   "ocr_line": 9709,
+   "fan_candidates": 16,
+   "sound_ready": 0,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 134,
+   "card_index": 151,
+   "foreign": "shoje",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شجج",
+   "page": 298,
+   "ocr_line": 9730,
+   "fan_candidates": 36,
+   "sound_ready": 0,
+   "frozen_event_ready": 36,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 136,
+   "card_index": 153,
+   "foreign": "ḥal",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "خول",
+   "page": 299,
+   "ocr_line": 9777,
+   "fan_candidates": 80,
+   "sound_ready": 60,
+   "frozen_event_ready": 80,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 139,
+   "card_index": 156,
+   "foreign": "ḥolg",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "حلق",
+   "page": 300,
+   "ocr_line": 9818,
+   "fan_candidates": 32,
+   "sound_ready": 12,
+   "frozen_event_ready": 32,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 141,
+   "card_index": 158,
+   "foreign": "ḥap",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "حفي",
+   "page": 301,
+   "ocr_line": 9889,
+   "fan_candidates": 80,
+   "sound_ready": 60,
+   "frozen_event_ready": 80,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 143,
+   "card_index": 160,
+   "foreign": "ḥorsh, hrosh",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "حرج",
+   "page": 302,
+   "ocr_line": 9953,
+   "fan_candidates": 16,
+   "sound_ready": 0,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "لا مرشح أكمل مسار الصوت المسمى",
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 146,
+   "card_index": 163,
+   "foreign": "ḥate",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "حثل",
+   "page": 303,
+   "ocr_line": 9986,
+   "fan_candidates": 120,
+   "sound_ready": 90,
+   "frozen_event_ready": 120,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 147,
+   "card_index": 164,
+   "foreign": "ḥataile",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "حتل",
+   "page": 303,
+   "ocr_line": 9992,
+   "fan_candidates": 24,
+   "sound_ready": 18,
+   "frozen_event_ready": 24,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 151,
+   "card_index": 168,
+   "foreign": "jor",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "ظرر",
+   "page": 305,
+   "ocr_line": 10084,
+   "fan_candidates": 38,
+   "sound_ready": 4,
+   "frozen_event_ready": 38,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 152,
+   "card_index": 169,
+   "foreign": "jowf",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شفف",
+   "page": 306,
+   "ocr_line": 10117,
+   "fan_candidates": 4,
+   "sound_ready": 2,
+   "frozen_event_ready": 4,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 154,
+   "card_index": 171,
+   "foreign": "qelm",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "قلم",
+   "page": 308,
+   "ocr_line": 10205,
+   "fan_candidates": 4,
+   "sound_ready": 4,
+   "frozen_event_ready": 4,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 156,
+   "card_index": 173,
+   "foreign": "qlooqe",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "درج",
+   "page": 308,
+   "ocr_line": 10223,
+   "fan_candidates": 8,
+   "sound_ready": 8,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 157,
+   "card_index": 174,
+   "foreign": "qlobi",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "قلف",
+   "page": 308,
+   "ocr_line": 10229,
+   "fan_candidates": 4,
+   "sound_ready": 4,
+   "frozen_event_ready": 4,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 158,
+   "card_index": 175,
+   "foreign": "qop",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "كفف",
+   "page": 309,
+   "ocr_line": 10266,
+   "fan_candidates": 40,
+   "sound_ready": 40,
+   "frozen_event_ready": 40,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 159,
+   "card_index": 176,
+   "foreign": "qope",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "كفف",
+   "page": 309,
+   "ocr_line": 10284,
+   "fan_candidates": 40,
+   "sound_ready": 40,
+   "frozen_event_ready": 40,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 160,
+   "card_index": 177,
+   "foreign": "qra",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "كرع",
+   "page": 310,
+   "ocr_line": 10306,
+   "fan_candidates": 40,
+   "sound_ready": 40,
+   "frozen_event_ready": 40,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 162,
+   "card_index": 179,
+   "foreign": "qorte",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "قرط",
+   "page": 310,
+   "ocr_line": 10324,
+   "fan_candidates": 12,
+   "sound_ready": 12,
+   "frozen_event_ready": 12,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 163,
+   "card_index": 180,
+   "foreign": "qorf, qorp",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "خرب",
+   "page": 310,
+   "ocr_line": 10330,
+   "fan_candidates": 8,
+   "sound_ready": 8,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 164,
+   "card_index": 181,
+   "foreign": "qroh",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "قرح",
+   "page": 310,
+   "ocr_line": 10336,
+   "fan_candidates": 16,
+   "sound_ready": 12,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 165,
+   "card_index": 182,
+   "foreign": "qorq",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "شرك",
+   "page": 310,
+   "ocr_line": 10342,
+   "fan_candidates": 8,
+   "sound_ready": 8,
+   "frozen_event_ready": 8,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 166,
+   "card_index": 183,
+   "foreign": "qoowne",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "اكوم",
+   "page": 311,
+   "ocr_line": 10363,
+   "fan_candidates": 2,
+   "sound_ready": 2,
+   "frozen_event_ready": 2,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  },
+  {
+   "source_index": 168,
+   "card_index": 185,
+   "foreign": "qojh",
+   "legacy_foreign": "(سقطَ حرفُه في المسح)",
+   "arabic_root": "قشع",
+   "page": 311,
+   "ocr_line": 10387,
+   "fan_candidates": 16,
+   "sound_ready": 6,
+   "frozen_event_ready": 16,
+   "manual_orbit_ready": 0,
+   "verdict": null,
+   "open_reasons": [
+    "معنى الفرع حاضر، لكن لا مدار يدوي مسمى لأي مرشح"
+   ]
+  }
+ ],
+ "counts": {
+  "rows": 71,
+  "restored_foreign_fields": 71,
+  "fan_candidates": 1954,
+  "sound_leg_ready_candidates": 1310,
+  "frozen_event_leg_ready_candidates": 1954,
+  "frozen_event_tiers": {
+   "1": 368,
+   "2": 110,
+   "3": 857,
+   "4": 619
+  },
+  "manual_orbit_ready_candidates": 0,
+  "positive_verdicts": 0,
+  "open_verdicts": 71
+ },
+ "contract": "ثلاث أرجل فقط: مسار الصوت المسمى؛ frozen_event.resolve؛ معنى الفرع مع مدار يدوي. لا يولد السكربت مدارًا"
+}

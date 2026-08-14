@@ -47,6 +47,7 @@ STORE = pathlib.Path.home() / "AI Projects" / "Resources" / "prior-art"
 OUT = ROOT / "data" / "khashim-pairs.json"
 SHEET = ROOT / "04-cross-linguistic" / "exploration" / "khashim-harvest.md"
 EGYPTIAN_OCR_RECOVERIES = ROOT / "data" / "khashim-egyptian-ocr-recoveries.json"
+COPTIC_OCR_RECOVERIES = ROOT / "data" / "khashim-coptic-ocr-recoveries.json"
 
 BOOKS = {
     "khashim-akkadian": ("الأكّاديّة", "akkadian"),
@@ -562,6 +563,61 @@ def apply_egyptian_ocr_recoveries(rows: list[dict]) -> tuple[list[dict], dict[st
     return repaired, {"rows": len(by_index), "fields": field_count}
 
 
+def apply_coptic_ocr_recoveries(rows: list[dict]) -> tuple[list[dict], dict[str, int]]:
+    """طبّق رؤوس القبطية المستردة مع حارس القيمة القديمة.
+
+    Overlay لا يملك إذنًا إلا لحقل ``foreign`` الموسوم أصلًا بسقوط الرأس؛
+    فلا يستطيع المسح الجديد تبديل معنى أو جذر أو صف غير مسجل العيب.
+    """
+    if not COPTIC_OCR_RECOVERIES.exists():
+        return [dict(row) for row in rows], {"rows": 0, "fields": 0}
+    payload = json.loads(COPTIC_OCR_RECOVERIES.read_text(encoding="utf-8"))
+    if payload.get("schema") != "khashim-coptic-ocr-recovery-v1":
+        raise SystemExit("مخطط استرداد مسح القبطية غير معروف")
+    if len(rows) != payload.get("old_rows"):
+        raise SystemExit(
+            f"تغير مقام تطبيق استرداد القبطية: {len(rows)} != {payload.get('old_rows')}"
+        )
+    by_index = {int(item["source_index"]): item for item in payload["recoveries"]}
+    if len(by_index) != len(payload["recoveries"]):
+        raise SystemExit("تكرر فهرس في Overlay استرداد مسح القبطية")
+
+    repaired: list[dict] = []
+    for index, source in enumerate(rows):
+        row = dict(source)
+        recovery = by_index.get(index)
+        if not recovery:
+            repaired.append(row)
+            continue
+        fields = recovery.get("fields") or {}
+        if set(fields) != {"foreign"}:
+            raise SystemExit(f"حقل استرداد قبطي غير مأذون في الفهرس {index}")
+        change = fields["foreign"]
+        if row.get("foreign", "") != change["legacy"]:
+            raise SystemExit(
+                f"تغير legacy القبطية {index}/foreign: "
+                f"{row.get('foreign', '')!r} != {change['legacy']!r}"
+            )
+        legacy = dict(row.get("legacy") or {})
+        legacy["foreign"] = change["legacy"]
+        row["foreign"] = change["recovered"]
+        row["legacy"] = legacy
+        row["ocr_recovery"] = {
+            "schema": payload["schema"],
+            "fields": fields,
+            "registered_scan_reasons": recovery["registered_scan_reasons"],
+            "new_scan_reasons": recovery["new_scan_reasons"],
+            "old_location": recovery["old_location"],
+            "new_location": recovery["new_location"],
+            "matched_new_row": recovery["matched_new_row"],
+            "alignment_score": recovery["alignment_score"],
+            "alignment_evidence": recovery.get("alignment_evidence"),
+            "matched_source": payload["new_source"],
+        }
+        repaired.append(row)
+    return repaired, {"rows": len(by_index), "fields": len(by_index)}
+
+
 # -------------------------------- حصادُ الجُمَلِ الصريحةِ في بقيّةِ كتبِ خشيم
 # «رحلةُ الكلماتِ الثانية» و«آلهةُ مصرَ العربيّةُ 2» كتابا فصولٍ لا معجمين؛
 # وكذلك كتابُ الندوةِ مجموعةُ بحوثٍ لتسعةِ سابقين. فلا مرساةَ فيهما من قبيل
@@ -605,6 +661,15 @@ CLAIM_BOOKS = {
     "ocr-khashim-journey2": ("علي فهمي خشيم", None),
     "ocr-khashim-gods2": ("علي فهمي خشيم", ("المصريّةُ القديمة", "egyptian")),
     "ocr-khashim-dialects": ("بحوثُ ندوةِ الوحدةِ والتنوّع", None),
+}
+
+# أُعيدَ مسحُ هذه المجلّداتِ الثلاثةِ بمسترال بعد الحصادِ الأوّل. لا يُستبدَلُ
+# شاهدُ DjVuTXT به، لأنّ كلَّ واحدٍ منهما يستردُّ رسومًا يسقطُها الآخر؛ بل تُضمُّ
+# النتيجتانِ وتُدمجانِ دلاليًّا مع حفظِ موضعِ كلِّ شاهدٍ في صفِّه.
+MISTRAL_CLAIM_BOOKS = {
+    "ocr-khashim-journey2": "mistral-khashim-journey2",
+    "ocr-khashim-gods2": "mistral-khashim-gods2",
+    "ocr-khashim-dialects": "mistral-khashim-dialects",
 }
 
 # «رحلةُ الكلماتِ الأولى» و«آلهةُ مصرَ العربيّةُ 1» ممسوحان بمسترال، لكنّ
@@ -963,10 +1028,33 @@ SYMPOSIUM_AUTHORS = [
     (8915, "محمد المختار العرباوي"),
 ]
 
+# حدودُ البحوثِ في المسحِ المصوَّرِ الجديدِ. أرقامُ صفحاتِ مسترال هي أرقامُ
+# الكتابِ المطبوعة، ولذلك تبقى النسبةُ صحيحةً وإن تغيّر عددُ أسطرِ OCR.
+SYMPOSIUM_PAGE_AUTHORS = [
+    (5, "علي فهمي خشيم"),
+    (11, "محمد بهجت قبيسي"),
+    (39, "نائل حنون"),
+    (79, "عكاشة الدالي"),
+    (87, "لؤي محمود سعيد"),
+    (129, "أشرف محمد فتحي"),
+    (145, "سعيد بن عبدالله الدارودي"),
+    (187, "عبدالعزيز سعيد الصويعي"),
+    (197, "أحمد شحلان"),
+    (237, "محمد المختار العرباوي"),
+]
 
-def _claim_author(source: str, line: int, fallback: str) -> str:
+
+def _claim_author(source: str, line: int, fallback: str,
+                  page: int | None = None) -> str:
     if source != "ocr-khashim-dialects":
         return fallback
+    if page is not None:
+        author = "علي فهمي خشيم"
+        for start, name in SYMPOSIUM_PAGE_AUTHORS:
+            if page < start:
+                break
+            author = name
+        return author
     author = "علي فهمي خشيم"
     for start, name in SYMPOSIUM_AUTHORS:
         if line < start:
@@ -989,15 +1077,26 @@ def _claim_token(value: str, *, arabic: bool = False) -> str:
 
 
 def mine_claim_ocr(md: pathlib.Path, source: str, author: str,
-                   default_tongue: tuple[str, str] | None) -> list[dict]:
+                   default_tongue: tuple[str, str] | None, *,
+                   ocr_source: str = (
+                       "Internet Archive DjVuTXT؛ مؤقّتٌ حتّى يتجدّد مفتاحُ Mistral"
+                   )) -> list[dict]:
     """يلتقطُ الزوجَ حيثُ سمّى النصُّ اللسانَ القديمَ والعربيّةَ في جملةٍ واحدة.
 
     يُحفَظُ سياقُ الجملةِ ورقمُ السطرِ لأنّ OCR أرشيفِ الإنترنتِ مؤقّتٌ، ولأنّ
     إعادةَ المسحِ بمسترال ستسمحُ لاحقًا بردِّ الرسمِ القديمِ إذا شوّهه المسحُ.
     """
     # لا نستعمل `clean` هنا لأنّه يطرحُ علامتَي « »، وهما مرساتا طرفَي الزوج.
+    raw_lines = md.read_text(encoding="utf-8").splitlines()
     lines = [re.sub(r"\s+", " ", unicodedata.normalize("NFC", x)).strip()
-             for x in md.read_text(encoding="utf-8").splitlines()]
+             for x in raw_lines]
+    pages: list[int | None] = []
+    page: int | None = None
+    for raw in raw_lines:
+        page_match = re.match(r"^\s*<!--\s*صفحة\s+(\d+)\s*-->\s*$", raw)
+        if page_match:
+            page = int(page_match.group(1))
+        pages.append(page)
     rows, seen = [], set()
     for i, line in enumerate(lines):
         if "العربي" not in line and not any(
@@ -1047,16 +1146,82 @@ def mine_claim_ocr(md: pathlib.Path, source: str, author: str,
             continue
         seen.add(key)
         context = window[:360]
-        rows.append({
+        witness = {"ocr_source": ocr_source, "source_line": i + 1}
+        if pages[i] is not None:
+            witness["source_page"] = pages[i]
+        row = {
             "tongue_ar": tongue[0], "tongue": tongue[1],
             "foreign": foreign, "foreign_sense": context,
             "arabic_root": arabic, "arabic_gloss": context,
             "source": source, "source_line": i + 1,
-            "author": _claim_author(source, i + 1, author),
+            "author": _claim_author(source, i + 1, author, pages[i]),
             "harvest_kind": "نسبةٌ صريحةٌ في جملةِ المصدر",
-            "ocr_source": "Internet Archive DjVuTXT؛ مؤقّتٌ حتّى يتجدّد مفتاحُ Mistral",
-        })
+            "ocr_source": ocr_source,
+            "ocr_witnesses": [witness],
+        }
+        if pages[i] is not None:
+            row["source_page"] = pages[i]
+        rows.append(row)
     return rows
+
+
+def _claim_semantic_key(row: dict) -> tuple[str, str, str, str, str]:
+    """مفتاحُ دمجِ شاهدَي OCR؛ ولا يدمجُ موضعينِ من كتابينِ مختلفين."""
+    if row.get("source_entry") is not None:
+        return (
+            row.get("source", ""), row.get("tongue", ""),
+            f"entry:{row['source_entry']}", "", row.get("author", ""),
+        )
+    return _claim_lexical_key(row)
+
+
+def _claim_lexical_key(row: dict) -> tuple[str, str, str, str, str]:
+    """الرسمانِ المطبوعانِ والمؤلّف؛ يُستعملُ لمضاهاةِ شاهدٍ قديمٍ بلا رقم."""
+    return (
+        row.get("source", ""),
+        row.get("tongue", ""),
+        clean(row.get("foreign", "")).casefold(),
+        clean(row.get("arabic_root", "")),
+        row.get("author", ""),
+    )
+
+
+def merge_claim_ocr_witnesses(primary: list[dict], alternate: list[dict]) -> list[dict]:
+    """اتّحادٌ دلاليٌّ دقيقٌ مع إبقاءِ موضعَي المسحِ عندَ اتّفاقِهما."""
+    merged = [dict(row) for row in primary]
+    by_key: dict[tuple[str, str, str, str, str], dict] = {}
+    primary_by_lexical: dict[tuple[str, str, str, str, str], dict] = {}
+    for row in merged:
+        witnesses = row.setdefault("ocr_witnesses", [{
+            "ocr_source": row.get("ocr_source", ""),
+            "source_line": row.get("source_line"),
+            **({"source_page": row["source_page"]} if row.get("source_page") else {}),
+        }])
+        # طرحُ الشاهدِ الفارغِ احتياطٌ لسجلاتٍ أقدمَ لا تحملُ وصفَ OCR.
+        row["ocr_witnesses"] = [w for w in witnesses if w.get("ocr_source")]
+        by_key[_claim_semantic_key(row)] = row
+        primary_by_lexical[_claim_lexical_key(row)] = row
+    for row in alternate:
+        key = _claim_semantic_key(row)
+        old = by_key.get(key)
+        # شاهدُ DjVuTXT لقائمةِ الدارودي أسقطَ أرقامًا كثيرةً؛ فإذا اتّفق
+        # الرسمانِ والمؤلّفُ تمامًا نردُّ إليه رقمَ مسترال بدلَ عدِّه صفًّا آخر.
+        if old is None and row.get("source_entry") is not None:
+            lexical_key = _claim_lexical_key(row)
+            old = primary_by_lexical.pop(lexical_key, None)
+        if old is None:
+            copied = dict(row)
+            merged.append(copied)
+            by_key[key] = copied
+            continue
+        if row.get("source_entry") is not None:
+            old.setdefault("source_entry", row["source_entry"])
+            by_key[key] = old
+        old_witnesses = old.setdefault("ocr_witnesses", [])
+        for witness in row.get("ocr_witnesses", []):
+            if witness not in old_witnesses:
+                old_witnesses.append(witness)
+    return merged
 
 
 # «هؤلاء الأباطرة وألقابهم العربية» يضمّ ملحقًا مستقلًّا صرّح خشيم في
@@ -1242,40 +1407,86 @@ def mine_early_volume_claims() -> list[dict]:
 
 
 RX_DAWUDI_PAIR = re.compile(
-    r"^\s*(?:[-–]|[٠-٩0-9]+\s*[-–])\s*"
+    r"^\s*(?:[-–—]|(?P<number>[٠-٩0-9]+)\s*[-–—.)])\s*"
     r"([ء-يًٌٍَُِّْـ][ء-يًٌٍَُِّْـ\s]{1,24}?)\s*[-–]\s*"
     r"([ء-يًٌٍَُِّْـ][ء-يًٌٍَُِّْـ\s]{1,24}?)\s*[:：]"
 )
+DAWUDI_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
+DAWUDI_MISTRAL_EXCEPTIONS = {
+    # في المدخل 216 طبعَ المقابلَ داخلَ الشرحِ لا بعدَ شرطةٍ ثانية.
+    216: ("إكسيس", "كيس"),
+}
 
 
-def mine_dawudi_list(md: pathlib.Path) -> list[dict]:
+def mine_dawudi_list(md: pathlib.Path, *, mistral: bool = False) -> list[dict]:
     """قائمةُ سعيد الدارودي: اللفظُ الأمازيغيُّ ثمّ مقابلُه العربيُّ في سطرٍ ثابت."""
     lines = md.read_text(encoding="utf-8").splitlines()
     rows, seen = [], set()
-    # حدودُ بحثِه مطبوعةٌ في الكتاب: من العنوان عند السطر 4937 إلى البحث التالي.
-    for line_no in range(4937, min(7234, len(lines) + 1)):
+    pages: list[int | None] = []
+    page: int | None = None
+    for raw in lines:
+        page_match = re.match(r"^\s*<!--\s*صفحة\s+(\d+)\s*-->\s*$", raw)
+        if page_match:
+            page = int(page_match.group(1))
+        pages.append(page)
+    # حدودُ بحثِه: سطورُ DjVuTXT القديمة أو الصفحاتُ المطبوعة 145--186.
+    if mistral:
+        line_numbers = [
+            i for i, source_page in enumerate(pages, 1)
+            if source_page is not None and 145 <= source_page <= 186
+        ]
+        ocr_source = "Mistral OCR الجديد؛ الصفحةُ المطبوعةُ محفوظة"
+    else:
+        line_numbers = range(4937, min(7234, len(lines) + 1))
+        ocr_source = (
+            "Internet Archive DjVuTXT؛ مؤقّتٌ حتّى يتجدّد مفتاحُ Mistral"
+        )
+    for line_no in line_numbers:
         line = unicodedata.normalize("NFC", lines[line_no - 1])
+        line = re.sub(r"[*_#]", "", line)
         match = RX_DAWUDI_PAIR.match(line)
-        if not match:
+        entry_number = (
+            int(match.group("number").translate(DAWUDI_DIGITS))
+            if match and match.group("number") and mistral else None
+        )
+        exception_match = re.match(r"^\s*(?P<number>[٠-٩0-9]+)\s*[-–—.)]", line)
+        exception_number = (
+            int(exception_match.group("number").translate(DAWUDI_DIGITS))
+            if exception_match and mistral else None
+        )
+        if not match and exception_number not in DAWUDI_MISTRAL_EXCEPTIONS:
             continue
-        foreign = clean(match.group(1))
-        arabic = _claim_token(match.group(2), arabic=True)
+        if match:
+            foreign = clean(match.group(2))
+            arabic = _claim_token(match.group(3), arabic=True)
+        else:
+            entry_number = exception_number
+            foreign, arabic = DAWUDI_MISTRAL_EXCEPTIONS[exception_number]
         if not foreign or not arabic:
             continue
-        key = (foreign, arabic)
+        key = (entry_number, foreign, arabic) if entry_number else (foreign, arabic)
         if key in seen:
             continue
         seen.add(key)
         context = clean(" ".join(lines[line_no - 1:min(line_no + 2, len(lines))]))[:360]
-        rows.append({
+        witness = {"ocr_source": ocr_source, "source_line": line_no}
+        if pages[line_no - 1] is not None:
+            witness["source_page"] = pages[line_no - 1]
+        row = {
             "tongue_ar": "الأمازيغيّة", "tongue": "amazigh",
             "foreign": foreign, "foreign_sense": context,
             "arabic_root": arabic, "arabic_gloss": context,
             "source": "ocr-khashim-dialects", "source_line": line_no,
             "author": "سعيد بن عبدالله الدارودي",
             "harvest_kind": "قائمةٌ ثنائيّةُ العمودِ في بحثِ المصدر",
-            "ocr_source": "Internet Archive DjVuTXT؛ مؤقّتٌ حتّى يتجدّد مفتاحُ Mistral",
-        })
+            "ocr_source": ocr_source,
+            "ocr_witnesses": [witness],
+        }
+        if pages[line_no - 1] is not None:
+            row["source_page"] = pages[line_no - 1]
+        if entry_number is not None:
+            row["source_entry"] = entry_number
+        rows.append(row)
     return rows
 
 
@@ -1471,6 +1682,7 @@ def main() -> int:
         return 1
 
     rows: list[dict] = []
+    coptic_recovery = {"rows": 0, "fields": 0}
     ember_lines: list[dict] = []
     quran_commentaries: list[dict] = []
     philosophy_power_essay: dict = {}
@@ -1507,13 +1719,39 @@ def main() -> int:
         md = STORE / folder / "full.md"
         if not md.exists():
             continue
-        got = mine_claim_ocr(md, folder, author, default_tongue)
+        old_got = mine_claim_ocr(md, folder, author, default_tongue)
+        got = old_got
+        mistral_folder = MISTRAL_CLAIM_BOOKS.get(folder)
+        mistral_md = STORE / mistral_folder / "full.md" if mistral_folder else None
+        new_got: list[dict] = []
+        if mistral_md and mistral_md.exists():
+            new_got = mine_claim_ocr(
+                mistral_md, folder, author, default_tongue,
+                ocr_source="Mistral OCR الجديد؛ الصفحةُ المطبوعةُ محفوظة",
+            )
+            got = merge_claim_ocr_witnesses(old_got, new_got)
         rows.extend(got)
-        print(f"  {folder:24}{len(got):>8}   (نِسَبٌ صريحة)")
+        if new_got:
+            print(
+                f"  {folder:24}{len(got):>8}   "
+                f"(اتّحادُ OCR: قديم={len(old_got)}، جديد={len(new_got)}، "
+                f"زاد={len(got) - len(old_got)})"
+            )
+        else:
+            print(f"  {folder:24}{len(got):>8}   (نِسَبٌ صريحة)")
         if folder == "ocr-khashim-dialects":
-            listed = mine_dawudi_list(md)
+            old_listed = mine_dawudi_list(md)
+            listed = old_listed
+            new_listed: list[dict] = []
+            if mistral_md and mistral_md.exists():
+                new_listed = mine_dawudi_list(mistral_md, mistral=True)
+                listed = merge_claim_ocr_witnesses(old_listed, new_listed)
             rows.extend(listed)
-            print(f"  {'dialects-dawudi-list':24}{len(listed):>8}   (قائمةٌ صريحة)")
+            print(
+                f"  {'dialects-dawudi-list':24}{len(listed):>8}   "
+                f"(اتّحادُ OCR: قديم={len(old_listed)}، جديد={len(new_listed)}، "
+                f"زاد={len(listed) - len(old_listed)})"
+            )
     early = mine_early_volume_claims()
     rows.extend(early)
     print(f"  {'early-volume-claims':24}{len(early):>8}   (مواضعُ مفحوصة)")
@@ -1549,8 +1787,17 @@ def main() -> int:
             print(f"  {stem:24}{'غائب':>8}")
             continue
         got = mine(p, ar, key)
+        if stem == "khashim-coptic":
+            got, coptic_recovery = apply_coptic_ocr_recoveries(got)
         rows.extend(got)
-        print(f"  {stem:24}{len(got):>8}")
+        if stem == "khashim-coptic" and coptic_recovery["rows"]:
+            print(
+                f"  {stem:24}{len(got):>8}   "
+                f"(استرداد={coptic_recovery['rows']} صفًا/"
+                f"{coptic_recovery['fields']} حقلًا)"
+            )
+        else:
+            print(f"  {stem:24}{len(got):>8}")
 
     rows, latin_recovery = recover_latin_heads(rows)
 
@@ -1564,6 +1811,7 @@ def main() -> int:
                  "عربيٌّ فقط فسقطَ الحرفُ الأصليُّ، وهو نقصٌ مسمًّى يُسَدُّ بمسحٍ ثانٍ."),
         "pairs": len(rows),
         "latin_head_recovery": latin_recovery,
+        "coptic_ocr_recovery": coptic_recovery,
         "egyptian_ocr_recovery": egyptian_recovery,
         "additional_attributed_inventories": {
             "aaron_ember_egypto_semitic": {

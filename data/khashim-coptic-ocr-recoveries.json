@@ -1,0 +1,2221 @@
+{
+ "schema": "khashim-coptic-ocr-recovery-v1",
+ "generated_by": "scripts/recover_khashim_coptic_ocr.py",
+ "book": "علي فهمي خشيم، «القبطية العربية»",
+ "old_source": "Resources/prior-art/khashim-coptic.pdf",
+ "new_source": "Resources/prior-art/ocr-khashim-coptic-recovery-20260814/full.md",
+ "source_pdf_archive_item": "AAlexandrina-122567",
+ "old_rows": 169,
+ "registered_fallen_heads": 143,
+ "dictionary3_first_source_index": 36,
+ "new_candidates": 493,
+ "aligned_rows": 133,
+ "restored_unique_rows": 71,
+ "restored_fields": {
+  "foreign": 71
+ },
+ "contract": "رصف رتيب بلا إعادة استعمال داخل معجم شيرني؛ لا يبدل إلا الرأس الموسوم صراحة بأنه سقط؛ ويلزم تطابق الجذر مع شاهد معنى أو شرح قوي، أو اتفاق المعنى والشرح اتفاقا مستقلا",
+ "recoveries": [
+  {
+   "source_index": 36,
+   "pair_index": 4396,
+   "source": "khashim-coptic",
+   "arabic_root": "عقد",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "akd"
+    }
+   },
+   "old_location": {
+    "source_index": 36
+   },
+   "new_location": {
+    "page": 240,
+    "line": 7054
+   },
+   "matched_new_row": 2,
+   "alignment_score": 19.344538,
+   "alignment_evidence": {
+    "sense_similarity": 0.705882,
+    "arabic_gloss_similarity": 0.880952,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "جَمْد، خَثْر، عقد"
+   }
+  },
+  {
+   "source_index": 37,
+   "pair_index": 4397,
+   "source": "khashim-coptic",
+   "arabic_root": "عول",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "alow"
+    }
+   },
+   "old_location": {
+    "source_index": 37
+   },
+   "new_location": {
+    "page": 240,
+    "line": 7058
+   },
+   "matched_new_row": 3,
+   "alignment_score": 18.74359,
+   "alignment_evidence": {
+    "sense_similarity": 0.666667,
+    "arabic_gloss_similarity": 0.846154,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "طِفْل، فتاة"
+   }
+  },
+  {
+   "source_index": 38,
+   "pair_index": 4398,
+   "source": "khashim-coptic",
+   "arabic_root": "عول",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "alow, alo"
+    }
+   },
+   "old_location": {
+    "source_index": 38
+   },
+   "new_location": {
+    "page": 240,
+    "line": 7062
+   },
+   "matched_new_row": 4,
+   "alignment_score": 14.913876,
+   "alignment_evidence": {
+    "sense_similarity": 0.736842,
+    "arabic_gloss_similarity": 0.090909,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "بَؤْبُ العين"
+   }
+  },
+  {
+   "source_index": 43,
+   "pair_index": 4403,
+   "source": "khashim-coptic",
+   "arabic_root": "عجل",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "agol"
+    }
+   },
+   "old_location": {
+    "source_index": 43
+   },
+   "new_location": {
+    "page": 245,
+    "line": 7246
+   },
+   "matched_new_row": 27,
+   "alignment_score": 17.341463,
+   "alignment_evidence": {
+    "sense_similarity": 0.8,
+    "arabic_gloss_similarity": 0.390244,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "ولد البقرة"
+   }
+  },
+  {
+   "source_index": 44,
+   "pair_index": 4404,
+   "source": "khashim-coptic",
+   "arabic_root": "عقر",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "agrim"
+    }
+   },
+   "old_location": {
+    "source_index": 44
+   },
+   "new_location": {
+    "page": 245,
+    "line": 7252
+   },
+   "matched_new_row": 28,
+   "alignment_score": 17.848485,
+   "alignment_evidence": {
+    "sense_similarity": 0.666667,
+    "arabic_gloss_similarity": 0.69697,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "امرأة عقيم"
+   }
+  },
+  {
+   "source_index": 45,
+   "pair_index": 4405,
+   "source": "khashim-coptic",
+   "arabic_root": "بأبأ",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "bowhow"
+    }
+   },
+   "old_location": {
+    "source_index": 45
+   },
+   "new_location": {
+    "page": 246,
+    "line": 7289
+   },
+   "matched_new_row": 33,
+   "alignment_score": 18.046312,
+   "alignment_evidence": {
+    "sense_similarity": 0.727273,
+    "arabic_gloss_similarity": 0.628931,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "شَعٌّ، لَع"
+   }
+  },
+  {
+   "source_index": 48,
+   "pair_index": 4408,
+   "source": "khashim-coptic",
+   "arabic_root": "نشر",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "bashowr"
+    }
+   },
+   "old_location": {
+    "source_index": 48
+   },
+   "new_location": {
+    "page": 247,
+    "line": 7358
+   },
+   "matched_new_row": 44,
+   "alignment_score": 18.080357,
+   "alignment_evidence": {
+    "sense_similarity": 0.714286,
+    "arabic_gloss_similarity": 0.65625,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "منشار. (ب = م)"
+   }
+  },
+  {
+   "source_index": 49,
+   "pair_index": 4409,
+   "source": "khashim-coptic",
+   "arabic_root": "بحح",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "behbeh"
+    }
+   },
+   "old_location": {
+    "source_index": 49
+   },
+   "new_location": {
+    "page": 247,
+    "line": 7364
+   },
+   "matched_new_row": 45,
+   "alignment_score": 12.5,
+   "alignment_evidence": {
+    "sense_similarity": 0.16,
+    "arabic_gloss_similarity": 0.65,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "هر (الكلب)، نبح. (مضاعف 'بح' beh)"
+   }
+  },
+  {
+   "source_index": 50,
+   "pair_index": 4410,
+   "source": "khashim-coptic",
+   "arabic_root": "برق",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "ebriqe"
+    }
+   },
+   "old_location": {
+    "source_index": 50
+   },
+   "new_location": {
+    "page": 248,
+    "line": 7385
+   },
+   "matched_new_row": 47,
+   "alignment_score": 17.575045,
+   "alignment_evidence": {
+    "sense_similarity": 0.571429,
+    "arabic_gloss_similarity": 0.810127,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "برق"
+   }
+  },
+  {
+   "source_index": 51,
+   "pair_index": 4411,
+   "source": "khashim-coptic",
+   "arabic_root": "كعب",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "ekebe"
+    }
+   },
+   "old_location": {
+    "source_index": 51
+   },
+   "new_location": {
+    "page": 248,
+    "line": 7391
+   },
+   "matched_new_row": 48,
+   "alignment_score": 15.014742,
+   "alignment_evidence": {
+    "sense_similarity": 0.363636,
+    "arabic_gloss_similarity": 0.72973,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "ثدي، نهد"
+   }
+  },
+  {
+   "source_index": 52,
+   "pair_index": 4412,
+   "source": "khashim-coptic",
+   "arabic_root": "ميش",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "emeish"
+    }
+   },
+   "old_location": {
+    "source_index": 52
+   },
+   "new_location": {
+    "page": 249,
+    "line": 7431
+   },
+   "matched_new_row": 53,
+   "alignment_score": 12.368267,
+   "alignment_evidence": {
+    "sense_similarity": 0.12987,
+    "arabic_gloss_similarity": 0.678261,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "العربية : ميش . ماش : خلط ، ضرب بعض الشيء ببعض . الميش : خلط الصوف بالشعر واللبن الحلو بالحماض ."
+   }
+  },
+  {
+   "source_index": 53,
+   "pair_index": 4413,
+   "source": "khashim-coptic",
+   "arabic_root": "خنفس",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "epshe"
+    }
+   },
+   "old_location": {
+    "source_index": 53
+   },
+   "new_location": {
+    "page": 249,
+    "line": 7441
+   },
+   "matched_new_row": 55,
+   "alignment_score": 16.090909,
+   "alignment_evidence": {
+    "sense_similarity": 0.909091,
+    "arabic_gloss_similarity": 0.0,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "المصرية (ع ب ش أ ي) ."
+   }
+  },
+  {
+   "source_index": 55,
+   "pair_index": 4415,
+   "source": "khashim-coptic",
+   "arabic_root": "شاء",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "essow"
+    }
+   },
+   "old_location": {
+    "source_index": 55
+   },
+   "new_location": {
+    "page": 249,
+    "line": 7460
+   },
+   "matched_new_row": 58,
+   "alignment_score": 13.532895,
+   "alignment_evidence": {
+    "sense_similarity": 0.315789,
+    "arabic_gloss_similarity": 0.5625,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "العربية : شاء . الشاء : جمع شاة ، الأغنام ."
+   }
+  },
+  {
+   "source_index": 56,
+   "pair_index": 4416,
+   "source": "khashim-coptic",
+   "arabic_root": "أثر",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "etre"
+    }
+   },
+   "old_location": {
+    "source_index": 56
+   },
+   "new_location": {
+    "page": 249,
+    "line": 7470
+   },
+   "matched_new_row": 60,
+   "alignment_score": 14.179673,
+   "alignment_evidence": {
+    "sense_similarity": 0.275862,
+    "arabic_gloss_similarity": 0.736842,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "العربية : أثر . الأثر : بقية الشيء ."
+   }
+  },
+  {
+   "source_index": 58,
+   "pair_index": 4418,
+   "source": "khashim-coptic",
+   "arabic_root": "دبس",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "thows"
+    }
+   },
+   "old_location": {
+    "source_index": 58
+   },
+   "new_location": {
+    "page": 251,
+    "line": 7526
+   },
+   "matched_new_row": 68,
+   "alignment_score": 17.709091,
+   "alignment_evidence": {
+    "sense_similarity": 0.88,
+    "arabic_gloss_similarity": 0.318182,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "نَخْزٌ، حَثٌّ، طَرَفٌ حَادٌّ"
+   }
+  },
+  {
+   "source_index": 59,
+   "pair_index": 4419,
+   "source": "khashim-coptic",
+   "arabic_root": "ألل",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "eille"
+    }
+   },
+   "old_location": {
+    "source_index": 59
+   },
+   "new_location": {
+    "page": 251,
+    "line": 7534
+   },
+   "matched_new_row": 69,
+   "alignment_score": 19.056684,
+   "alignment_evidence": {
+    "sense_similarity": 0.827586,
+    "arabic_gloss_similarity": 0.630137,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "لُعَانٌ، سَطْوَعٌ، بَرِيقٌ"
+   }
+  },
+  {
+   "source_index": 61,
+   "pair_index": 4421,
+   "source": "khashim-coptic",
+   "arabic_root": "جري",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "eigri"
+    }
+   },
+   "old_location": {
+    "source_index": 61
+   },
+   "new_location": {
+    "page": 252,
+    "line": 7579
+   },
+   "matched_new_row": 76,
+   "alignment_score": 18.668919,
+   "alignment_evidence": {
+    "sense_similarity": 0.875,
+    "arabic_gloss_similarity": 0.486486,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "أسرع، ركض"
+   }
+  },
+  {
+   "source_index": 65,
+   "pair_index": 4425,
+   "source": "khashim-coptic",
+   "arabic_root": "قلم",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "klom"
+    }
+   },
+   "old_location": {
+    "source_index": 65
+   },
+   "new_location": {
+    "page": 254,
+    "line": 7679
+   },
+   "matched_new_row": 91,
+   "alignment_score": 12.52381,
+   "alignment_evidence": {
+    "sense_similarity": 0.133333,
+    "arabic_gloss_similarity": 0.698413,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "تاج، إكليل"
+   }
+  },
+  {
+   "source_index": 71,
+   "pair_index": 4431,
+   "source": "khashim-coptic",
+   "arabic_root": "قرص",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "krowj"
+    }
+   },
+   "old_location": {
+    "source_index": 71
+   },
+   "new_location": {
+    "page": 256,
+    "line": 7757
+   },
+   "matched_new_row": 102,
+   "alignment_score": 14.582418,
+   "alignment_evidence": {
+    "sense_similarity": 0.615385,
+    "arabic_gloss_similarity": 0.238095,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "رغيف، خبزة"
+   }
+  },
+  {
+   "source_index": 74,
+   "pair_index": 4434,
+   "source": "khashim-coptic",
+   "arabic_root": "قصص",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "kase"
+    }
+   },
+   "old_location": {
+    "source_index": 74
+   },
+   "new_location": {
+    "page": 257,
+    "line": 7790
+   },
+   "matched_new_row": 107,
+   "alignment_score": 20.65721,
+   "alignment_evidence": {
+    "sense_similarity": 0.944444,
+    "arabic_gloss_similarity": 0.702128,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "إسكافي، صانع الأحذية"
+   }
+  },
+  {
+   "source_index": 75,
+   "pair_index": 4435,
+   "source": "khashim-coptic",
+   "arabic_root": "كشش",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "kaskes"
+    }
+   },
+   "old_location": {
+    "source_index": 75
+   },
+   "new_location": {
+    "page": 257,
+    "line": 7796
+   },
+   "matched_new_row": 108,
+   "alignment_score": 11.615385,
+   "alignment_evidence": {
+    "sense_similarity": 0.0,
+    "arabic_gloss_similarity": 0.769231,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "همس"
+   }
+  },
+  {
+   "source_index": 76,
+   "pair_index": 4436,
+   "source": "khashim-coptic",
+   "arabic_root": "خصر",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "ksowr"
+    }
+   },
+   "old_location": {
+    "source_index": 76
+   },
+   "new_location": {
+    "page": 257,
+    "line": 7802
+   },
+   "matched_new_row": 109,
+   "alignment_score": 19.016162,
+   "alignment_evidence": {
+    "sense_similarity": 0.888889,
+    "arabic_gloss_similarity": 0.521212,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "خاتم اليد"
+   }
+  },
+  {
+   "source_index": 86,
+   "pair_index": 4446,
+   "source": "khashim-coptic",
+   "arabic_root": "لسب",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "lapsi"
+    }
+   },
+   "old_location": {
+    "source_index": 86
+   },
+   "new_location": {
+    "page": 261,
+    "line": 7987
+   },
+   "matched_new_row": 131,
+   "alignment_score": 19.127733,
+   "alignment_evidence": {
+    "sense_similarity": 0.954545,
+    "arabic_gloss_similarity": 0.43038,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "عضٌ، لسع (للحشرات) نهش (للأفعى)"
+   }
+  },
+  {
+   "source_index": 88,
+   "pair_index": 4448,
+   "source": "khashim-coptic",
+   "arabic_root": "نهم",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "lhiem"
+    }
+   },
+   "old_location": {
+    "source_index": 88
+   },
+   "new_location": {
+    "page": 262,
+    "line": 8026
+   },
+   "matched_new_row": 137,
+   "alignment_score": 13.194805,
+   "alignment_evidence": {
+    "sense_similarity": 0.3,
+    "arabic_gloss_similarity": 0.532468,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "زئير الأسد"
+   }
+  },
+  {
+   "source_index": 91,
+   "pair_index": 4451,
+   "source": "khashim-coptic",
+   "arabic_root": "لوج",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "loj"
+    }
+   },
+   "old_location": {
+    "source_index": 91
+   },
+   "new_location": {
+    "page": 262,
+    "line": 8057
+   },
+   "matched_new_row": 142,
+   "alignment_score": 17.971429,
+   "alignment_evidence": {
+    "sense_similarity": 0.857143,
+    "arabic_gloss_similarity": 0.4,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "عنيد، ملحاح"
+   }
+  },
+  {
+   "source_index": 93,
+   "pair_index": 4453,
+   "source": "khashim-coptic",
+   "arabic_root": "مرخ",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "mlokh"
+    }
+   },
+   "old_location": {
+    "source_index": 93
+   },
+   "new_location": {
+    "page": 264,
+    "line": 8113
+   },
+   "matched_new_row": 150,
+   "alignment_score": 12.083333,
+   "alignment_evidence": {
+    "sense_similarity": 0.133333,
+    "arabic_gloss_similarity": 0.625,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "قاتل، حارب، عارك"
+   }
+  },
+  {
+   "source_index": 95,
+   "pair_index": 4455,
+   "source": "khashim-coptic",
+   "arabic_root": "نجل",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "mangale"
+    }
+   },
+   "old_location": {
+    "source_index": 95
+   },
+   "new_location": {
+    "page": 264,
+    "line": 8155
+   },
+   "matched_new_row": 157,
+   "alignment_score": 19.119658,
+   "alignment_evidence": {
+    "sense_similarity": 0.923077,
+    "arabic_gloss_similarity": 0.481481,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "أداة حصاد الزرع"
+   }
+  },
+  {
+   "source_index": 97,
+   "pair_index": 4457,
+   "source": "khashim-coptic",
+   "arabic_root": "سحل",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "meshol"
+    }
+   },
+   "old_location": {
+    "source_index": 97
+   },
+   "new_location": {
+    "page": 266,
+    "line": 8233
+   },
+   "matched_new_row": 169,
+   "alignment_score": 14.722222,
+   "alignment_evidence": {
+    "sense_similarity": 0.75,
+    "arabic_gloss_similarity": 0.037037,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "مِرد"
+   }
+  },
+  {
+   "source_index": 99,
+   "pair_index": 4459,
+   "source": "khashim-coptic",
+   "arabic_root": "بصل",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "mchol"
+    }
+   },
+   "old_location": {
+    "source_index": 99
+   },
+   "new_location": {
+    "page": 268,
+    "line": 8341
+   },
+   "matched_new_row": 186,
+   "alignment_score": 17.430622,
+   "alignment_evidence": {
+    "sense_similarity": 0.727273,
+    "arabic_gloss_similarity": 0.526316,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "بصل (نبات)"
+   }
+  },
+  {
+   "source_index": 104,
+   "pair_index": 4464,
+   "source": "khashim-coptic",
+   "arabic_root": "فلح",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "polh"
+    }
+   },
+   "old_location": {
+    "source_index": 104
+   },
+   "new_location": {
+    "page": 272,
+    "line": 8479
+   },
+   "matched_new_row": 202,
+   "alignment_score": 11.860759,
+   "alignment_evidence": {
+    "sense_similarity": 0.0,
+    "arabic_gloss_similarity": 0.810127,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "جرح"
+   }
+  },
+  {
+   "source_index": 105,
+   "pair_index": 4465,
+   "source": "khashim-coptic",
+   "arabic_root": "رقق",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "rakrek"
+    }
+   },
+   "old_location": {
+    "source_index": 105
+   },
+   "new_location": {
+    "page": 274,
+    "line": 8593
+   },
+   "matched_new_row": 220,
+   "alignment_score": 21.186047,
+   "alignment_evidence": {
+    "sense_similarity": 1.0,
+    "arabic_gloss_similarity": 0.697674,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "نَعَم"
+   }
+  },
+  {
+   "source_index": 106,
+   "pair_index": 4466,
+   "source": "khashim-coptic",
+   "arabic_root": "صبح",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "sobh"
+    }
+   },
+   "old_location": {
+    "source_index": 106
+   },
+   "new_location": {
+    "page": 276,
+    "line": 8675
+   },
+   "matched_new_row": 232,
+   "alignment_score": 20.093783,
+   "alignment_evidence": {
+    "sense_similarity": 0.923077,
+    "arabic_gloss_similarity": 0.643836,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "برص (مرض)"
+   }
+  },
+  {
+   "source_index": 107,
+   "pair_index": 4467,
+   "source": "khashim-coptic",
+   "arabic_root": "شعل",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "sol"
+    }
+   },
+   "old_location": {
+    "source_index": 107
+   },
+   "new_location": {
+    "page": 277,
+    "line": 8722
+   },
+   "matched_new_row": 239,
+   "alignment_score": 13.789964,
+   "alignment_evidence": {
+    "sense_similarity": 0.222222,
+    "arabic_gloss_similarity": 0.76129,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "العربية : شعل . الشعيلة : النار المشعلة في الذبال . الفتيلة المروأة بالدهن أشعلت فيها نار"
+   }
+  },
+  {
+   "source_index": 108,
+   "pair_index": 4468,
+   "source": "khashim-coptic",
+   "arabic_root": "سلل",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "salo"
+    }
+   },
+   "old_location": {
+    "source_index": 108
+   },
+   "new_location": {
+    "page": 277,
+    "line": 8736
+   },
+   "matched_new_row": 241,
+   "alignment_score": 14.227929,
+   "alignment_evidence": {
+    "sense_similarity": 0.337079,
+    "arabic_gloss_similarity": 0.642857,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "العربية : سَلل > سَلَّة . تجمع على : سَلال ، سَلات ."
+   }
+  },
+  {
+   "source_index": 111,
+   "pair_index": 4471,
+   "source": "khashim-coptic",
+   "arabic_root": "سوس",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "sase, sowsow"
+    }
+   },
+   "old_location": {
+    "source_index": 111
+   },
+   "new_location": {
+    "page": 281,
+    "line": 8933
+   },
+   "matched_new_row": 272,
+   "alignment_score": 18.636364,
+   "alignment_evidence": {
+    "sense_similarity": 0.8,
+    "arabic_gloss_similarity": 0.606061,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "جَذْب، قَاد"
+   }
+  },
+  {
+   "source_index": 114,
+   "pair_index": 4474,
+   "source": "khashim-coptic",
+   "arabic_root": "سحب",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "sohm"
+    }
+   },
+   "old_location": {
+    "source_index": 114
+   },
+   "new_location": {
+    "page": 283,
+    "line": 9035
+   },
+   "matched_new_row": 288,
+   "alignment_score": 14.272727,
+   "alignment_evidence": {
+    "sense_similarity": 0.727273,
+    "arabic_gloss_similarity": 0.0,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "جذب، شد"
+   }
+  },
+  {
+   "source_index": 116,
+   "pair_index": 4476,
+   "source": "khashim-coptic",
+   "arabic_root": "تلم",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "tlom, tnom"
+    }
+   },
+   "old_location": {
+    "source_index": 116
+   },
+   "new_location": {
+    "page": 286,
+    "line": 9176
+   },
+   "matched_new_row": 309,
+   "alignment_score": 17.904762,
+   "alignment_evidence": {
+    "sense_similarity": 0.833333,
+    "arabic_gloss_similarity": 0.428571,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "خَطّ الحَرَاث، شَقّ، خَدّ"
+   }
+  },
+  {
+   "source_index": 117,
+   "pair_index": 4477,
+   "source": "khashim-coptic",
+   "arabic_root": "ترمس",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "trim(tharmows)"
+    }
+   },
+   "old_location": {
+    "source_index": 117
+   },
+   "new_location": {
+    "page": 287,
+    "line": 9235
+   },
+   "matched_new_row": 319,
+   "alignment_score": 19.818533,
+   "alignment_evidence": {
+    "sense_similarity": 0.914286,
+    "arabic_gloss_similarity": 0.612613,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "لوبيا، نوع من البقول"
+   }
+  },
+  {
+   "source_index": 118,
+   "pair_index": 4478,
+   "source": "khashim-coptic",
+   "arabic_root": "حلم",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "khelme"
+    }
+   },
+   "old_location": {
+    "source_index": 118
+   },
+   "new_location": {
+    "page": 291,
+    "line": 9383
+   },
+   "matched_new_row": 339,
+   "alignment_score": 14.272727,
+   "alignment_evidence": {
+    "sense_similarity": 0.727273,
+    "arabic_gloss_similarity": 0.0,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "حَلَمَةُ الثَّدْيِ"
+   }
+  },
+  {
+   "source_index": 119,
+   "pair_index": 4479,
+   "source": "khashim-coptic",
+   "arabic_root": "كرش",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "khosh"
+    }
+   },
+   "old_location": {
+    "source_index": 119
+   },
+   "new_location": {
+    "page": 291,
+    "line": 9401
+   },
+   "matched_new_row": 342,
+   "alignment_score": 21.307596,
+   "alignment_evidence": {
+    "sense_similarity": 0.962963,
+    "arabic_gloss_similarity": 0.779661,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "تَغَضُّن (الجلد)، تَجَعَّد"
+   }
+  },
+  {
+   "source_index": 120,
+   "pair_index": 4480,
+   "source": "khashim-coptic",
+   "arabic_root": "غمس",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "oms"
+    }
+   },
+   "old_location": {
+    "source_index": 120
+   },
+   "new_location": {
+    "page": 291,
+    "line": 9415
+   },
+   "matched_new_row": 344,
+   "alignment_score": 11.615385,
+   "alignment_evidence": {
+    "sense_similarity": 0.0,
+    "arabic_gloss_similarity": 0.769231,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "أَغْرَق، غَطَس"
+   }
+  },
+  {
+   "source_index": 123,
+   "pair_index": 4483,
+   "source": "khashim-coptic",
+   "arabic_root": "شكر",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "showkre"
+    }
+   },
+   "old_location": {
+    "source_index": 123
+   },
+   "new_location": {
+    "page": 294,
+    "line": 9528
+   },
+   "matched_new_row": 361,
+   "alignment_score": 21.119403,
+   "alignment_evidence": {
+    "sense_similarity": 1.0,
+    "arabic_gloss_similarity": 0.686567,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "اسم نبات"
+   }
+  },
+  {
+   "source_index": 124,
+   "pair_index": 4484,
+   "source": "khashim-coptic",
+   "arabic_root": "شرج",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "sholk"
+    }
+   },
+   "old_location": {
+    "source_index": 124
+   },
+   "new_location": {
+    "page": 294,
+    "line": 9546
+   },
+   "matched_new_row": 363,
+   "alignment_score": 8.95171,
+   "alignment_evidence": {
+    "sense_similarity": 0.857143,
+    "arabic_gloss_similarity": 0.56338,
+    "arabic_root_exact": false,
+    "new_foreign_sense": "خاط ، ضفر ، نسج"
+   }
+  },
+  {
+   "source_index": 125,
+   "pair_index": 4485,
+   "source": "khashim-coptic",
+   "arabic_root": "صلا",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "shliel"
+    }
+   },
+   "old_location": {
+    "source_index": 125
+   },
+   "new_location": {
+    "page": 294,
+    "line": 9552
+   },
+   "matched_new_row": 364,
+   "alignment_score": 15.558824,
+   "alignment_evidence": {
+    "sense_similarity": 0.705882,
+    "arabic_gloss_similarity": 0.25,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "دعا ، تعبّد"
+   }
+  },
+  {
+   "source_index": 126,
+   "pair_index": 4486,
+   "source": "khashim-coptic",
+   "arabic_root": "شلق",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "sholq"
+    }
+   },
+   "old_location": {
+    "source_index": 126
+   },
+   "new_location": {
+    "page": 295,
+    "line": 9567
+   },
+   "matched_new_row": 366,
+   "alignment_score": 19.878431,
+   "alignment_evidence": {
+    "sense_similarity": 0.941176,
+    "arabic_gloss_similarity": 0.577778,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "مُدْيَة، سَكِين"
+   }
+  },
+  {
+   "source_index": 129,
+   "pair_index": 4489,
+   "source": "khashim-coptic",
+   "arabic_root": "شرق",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "sharke"
+    }
+   },
+   "old_location": {
+    "source_index": 129
+   },
+   "new_location": {
+    "page": 296,
+    "line": 9628
+   },
+   "matched_new_row": 375,
+   "alignment_score": 17.698925,
+   "alignment_evidence": {
+    "sense_similarity": 0.903226,
+    "arabic_gloss_similarity": 0.277778,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "انعدام الماء، جفاف"
+   }
+  },
+  {
+   "source_index": 130,
+   "pair_index": 4490,
+   "source": "khashim-coptic",
+   "arabic_root": "كتن",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "shtien"
+    }
+   },
+   "old_location": {
+    "source_index": 130
+   },
+   "new_location": {
+    "page": 296,
+    "line": 9646
+   },
+   "matched_new_row": 378,
+   "alignment_score": 18.179487,
+   "alignment_evidence": {
+    "sense_similarity": 0.933333,
+    "arabic_gloss_similarity": 0.307692,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "ثوب، رداء"
+   }
+  },
+  {
+   "source_index": 131,
+   "pair_index": 4491,
+   "source": "khashim-coptic",
+   "arabic_root": "أسس",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "shash"
+    }
+   },
+   "old_location": {
+    "source_index": 131
+   },
+   "new_location": {
+    "page": 297,
+    "line": 9679
+   },
+   "matched_new_row": 383,
+   "alignment_score": 17.941176,
+   "alignment_evidence": {
+    "sense_similarity": 1.0,
+    "arabic_gloss_similarity": 0.156863,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "جُزءٌ مِنَ الْبِنَاءِ"
+   }
+  },
+  {
+   "source_index": 132,
+   "pair_index": 4492,
+   "source": "khashim-coptic",
+   "arabic_root": "شحم",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "shahm"
+    }
+   },
+   "old_location": {
+    "source_index": 132
+   },
+   "new_location": {
+    "page": 297,
+    "line": 9697
+   },
+   "matched_new_row": 386,
+   "alignment_score": 12.200942,
+   "alignment_evidence": {
+    "sense_similarity": 0.081633,
+    "arabic_gloss_similarity": 0.730769,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "دُهْنٌ"
+   }
+  },
+  {
+   "source_index": 133,
+   "pair_index": 4493,
+   "source": "khashim-coptic",
+   "arabic_root": "سحق",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "shḥiq"
+    }
+   },
+   "old_location": {
+    "source_index": 133
+   },
+   "new_location": {
+    "page": 297,
+    "line": 9709
+   },
+   "matched_new_row": 388,
+   "alignment_score": 14.356322,
+   "alignment_evidence": {
+    "sense_similarity": 0.266667,
+    "arabic_gloss_similarity": 0.781609,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "غِبَارٌ، تَرَابٌ"
+   }
+  },
+  {
+   "source_index": 134,
+   "pair_index": 4494,
+   "source": "khashim-coptic",
+   "arabic_root": "شجج",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "shoje"
+    }
+   },
+   "old_location": {
+    "source_index": 134
+   },
+   "new_location": {
+    "page": 298,
+    "line": 9730
+   },
+   "matched_new_row": 391,
+   "alignment_score": 19.431507,
+   "alignment_evidence": {
+    "sense_similarity": 0.75,
+    "arabic_gloss_similarity": 0.821918,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "جرح"
+   }
+  },
+  {
+   "source_index": 136,
+   "pair_index": 4496,
+   "source": "khashim-coptic",
+   "arabic_root": "خول",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "ḥal"
+    }
+   },
+   "old_location": {
+    "source_index": 136
+   },
+   "new_location": {
+    "page": 299,
+    "line": 9777
+   },
+   "matched_new_row": 398,
+   "alignment_score": 14.777778,
+   "alignment_evidence": {
+    "sense_similarity": 0.777778,
+    "arabic_gloss_similarity": 0.0,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "خادم، عبد"
+   }
+  },
+  {
+   "source_index": 139,
+   "pair_index": 4499,
+   "source": "khashim-coptic",
+   "arabic_root": "حلق",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "ḥolg"
+    }
+   },
+   "old_location": {
+    "source_index": 139
+   },
+   "new_location": {
+    "page": 300,
+    "line": 9818
+   },
+   "matched_new_row": 404,
+   "alignment_score": 22.097345,
+   "alignment_evidence": {
+    "sense_similarity": 1.0,
+    "arabic_gloss_similarity": 0.849558,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "عانق"
+   }
+  },
+  {
+   "source_index": 141,
+   "pair_index": 4501,
+   "source": "khashim-coptic",
+   "arabic_root": "حفي",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "ḥap"
+    }
+   },
+   "old_location": {
+    "source_index": 141
+   },
+   "new_location": {
+    "page": 301,
+    "line": 9889
+   },
+   "matched_new_row": 415,
+   "alignment_score": 18.513185,
+   "alignment_evidence": {
+    "sense_similarity": 0.882353,
+    "arabic_gloss_similarity": 0.448276,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "حُكْم، قضاء، قانون، عدل"
+   }
+  },
+  {
+   "source_index": 143,
+   "pair_index": 4503,
+   "source": "khashim-coptic",
+   "arabic_root": "حرج",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "ḥorsh, hrosh"
+    }
+   },
+   "old_location": {
+    "source_index": 143
+   },
+   "new_location": {
+    "page": 302,
+    "line": 9953
+   },
+   "matched_new_row": 425,
+   "alignment_score": 17.707194,
+   "alignment_evidence": {
+    "sense_similarity": 0.765957,
+    "arabic_gloss_similarity": 0.507937,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "موقف صعب، عسير، ثقيل، ضيق"
+   }
+  },
+  {
+   "source_index": 146,
+   "pair_index": 4506,
+   "source": "khashim-coptic",
+   "arabic_root": "حثل",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "ḥate"
+    }
+   },
+   "old_location": {
+    "source_index": 146
+   },
+   "new_location": {
+    "page": 303,
+    "line": 9986
+   },
+   "matched_new_row": 430,
+   "alignment_score": 10.291767,
+   "alignment_evidence": {
+    "sense_similarity": 0.888889,
+    "arabic_gloss_similarity": 0.733813,
+    "arabic_root_exact": false,
+    "new_foreign_sense": "وَضِيع، دَنِيء"
+   }
+  },
+  {
+   "source_index": 147,
+   "pair_index": 4507,
+   "source": "khashim-coptic",
+   "arabic_root": "حتل",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "ḥataile"
+    }
+   },
+   "old_location": {
+    "source_index": 147
+   },
+   "new_location": {
+    "page": 303,
+    "line": 9992
+   },
+   "matched_new_row": 431,
+   "alignment_score": 11.428571,
+   "alignment_evidence": {
+    "sense_similarity": 1.0,
+    "arabic_gloss_similarity": 0.738095,
+    "arabic_root_exact": false,
+    "new_foreign_sense": "داء يصيب العين"
+   }
+  },
+  {
+   "source_index": 151,
+   "pair_index": 4511,
+   "source": "khashim-coptic",
+   "arabic_root": "ظرر",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "jor"
+    }
+   },
+   "old_location": {
+    "source_index": 151
+   },
+   "new_location": {
+    "page": 305,
+    "line": 10084
+   },
+   "matched_new_row": 445,
+   "alignment_score": 14.692308,
+   "alignment_evidence": {
+    "sense_similarity": 0.769231,
+    "arabic_gloss_similarity": 0.0,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "أَحَدٌ، سَنٌّ"
+   }
+  },
+  {
+   "source_index": 152,
+   "pair_index": 4512,
+   "source": "khashim-coptic",
+   "arabic_root": "شفف",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "jowf"
+    }
+   },
+   "old_location": {
+    "source_index": 152
+   },
+   "new_location": {
+    "page": 306,
+    "line": 10117
+   },
+   "matched_new_row": 450,
+   "alignment_score": 14.492281,
+   "alignment_evidence": {
+    "sense_similarity": 0.545455,
+    "arabic_gloss_similarity": 0.339623,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "أحرق، صهد"
+   }
+  },
+  {
+   "source_index": 154,
+   "pair_index": 4514,
+   "source": "khashim-coptic",
+   "arabic_root": "قلم",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qelm"
+    }
+   },
+   "old_location": {
+    "source_index": 154
+   },
+   "new_location": {
+    "page": 308,
+    "line": 10205
+   },
+   "matched_new_row": 463,
+   "alignment_score": 12.642857,
+   "alignment_evidence": {
+    "sense_similarity": 0.05,
+    "arabic_gloss_similarity": 0.857143,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "قضيب"
+   }
+  },
+  {
+   "source_index": 156,
+   "pair_index": 4516,
+   "source": "khashim-coptic",
+   "arabic_root": "درج",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qlooqe"
+    }
+   },
+   "old_location": {
+    "source_index": 156
+   },
+   "new_location": {
+    "page": 308,
+    "line": 10223
+   },
+   "matched_new_row": 466,
+   "alignment_score": 18.894389,
+   "alignment_evidence": {
+    "sense_similarity": 0.666667,
+    "arabic_gloss_similarity": 0.871287,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "سلم"
+   }
+  },
+  {
+   "source_index": 157,
+   "pair_index": 4517,
+   "source": "khashim-coptic",
+   "arabic_root": "قلف",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qlobi"
+    }
+   },
+   "old_location": {
+    "source_index": 157
+   },
+   "new_location": {
+    "page": 308,
+    "line": 10229
+   },
+   "matched_new_row": 467,
+   "alignment_score": 10.2,
+   "alignment_evidence": {
+    "sense_similarity": 0.0,
+    "arabic_gloss_similarity": 0.533333,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "مقص"
+   }
+  },
+  {
+   "source_index": 158,
+   "pair_index": 4518,
+   "source": "khashim-coptic",
+   "arabic_root": "كفف",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qop"
+    }
+   },
+   "old_location": {
+    "source_index": 158
+   },
+   "new_location": {
+    "page": 309,
+    "line": 10266
+   },
+   "matched_new_row": 472,
+   "alignment_score": 18.638821,
+   "alignment_evidence": {
+    "sense_similarity": 0.972973,
+    "arabic_gloss_similarity": 0.318182,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "أخمص القدم، باطن القدم"
+   }
+  },
+  {
+   "source_index": 159,
+   "pair_index": 4519,
+   "source": "khashim-coptic",
+   "arabic_root": "كفف",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qope"
+    }
+   },
+   "old_location": {
+    "source_index": 159
+   },
+   "new_location": {
+    "page": 309,
+    "line": 10284
+   },
+   "matched_new_row": 475,
+   "alignment_score": 19.314685,
+   "alignment_evidence": {
+    "sense_similarity": 0.954545,
+    "arabic_gloss_similarity": 0.461538,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "إناء صغير، كمية قليلة، حفنة"
+   }
+  },
+  {
+   "source_index": 160,
+   "pair_index": 4520,
+   "source": "khashim-coptic",
+   "arabic_root": "كرع",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qra"
+    }
+   },
+   "old_location": {
+    "source_index": 160
+   },
+   "new_location": {
+    "page": 310,
+    "line": 10306
+   },
+   "matched_new_row": 478,
+   "alignment_score": 20.94987,
+   "alignment_evidence": {
+    "sense_similarity": 0.923077,
+    "arabic_gloss_similarity": 0.786517,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "قَدَمَ، رَجُل"
+   }
+  },
+  {
+   "source_index": 162,
+   "pair_index": 4522,
+   "source": "khashim-coptic",
+   "arabic_root": "قرط",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qorte"
+    }
+   },
+   "old_location": {
+    "source_index": 162
+   },
+   "new_location": {
+    "page": 310,
+    "line": 10324
+   },
+   "matched_new_row": 481,
+   "alignment_score": 21.107417,
+   "alignment_evidence": {
+    "sense_similarity": 0.941176,
+    "arabic_gloss_similarity": 0.782609,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "مَدِيَّة، سَكِين"
+   }
+  },
+  {
+   "source_index": 163,
+   "pair_index": 4523,
+   "source": "khashim-coptic",
+   "arabic_root": "خرب",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qorf, qorp"
+    }
+   },
+   "old_location": {
+    "source_index": 163
+   },
+   "new_location": {
+    "page": 310,
+    "line": 10330
+   },
+   "matched_new_row": 482,
+   "alignment_score": 16.0,
+   "alignment_evidence": {
+    "sense_similarity": 0.5,
+    "arabic_gloss_similarity": 0.666667,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "دَمَّرَ"
+   }
+  },
+  {
+   "source_index": 164,
+   "pair_index": 4524,
+   "source": "khashim-coptic",
+   "arabic_root": "قرح",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qroh"
+    }
+   },
+   "old_location": {
+    "source_index": 164
+   },
+   "new_location": {
+    "page": 310,
+    "line": 10336
+   },
+   "matched_new_row": 483,
+   "alignment_score": 12.405896,
+   "alignment_evidence": {
+    "sense_similarity": 0.222222,
+    "arabic_gloss_similarity": 0.530612,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "حَاجَة، عَوَز"
+   }
+  },
+  {
+   "source_index": 165,
+   "pair_index": 4525,
+   "source": "khashim-coptic",
+   "arabic_root": "شرك",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qorq"
+    }
+   },
+   "old_location": {
+    "source_index": 165
+   },
+   "new_location": {
+    "page": 310,
+    "line": 10342
+   },
+   "matched_new_row": 484,
+   "alignment_score": 13.666667,
+   "alignment_evidence": {
+    "sense_similarity": 0.666667,
+    "arabic_gloss_similarity": 0.0,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "مَصِيدَة، فُخ"
+   }
+  },
+  {
+   "source_index": 166,
+   "pair_index": 4526,
+   "source": "khashim-coptic",
+   "arabic_root": "اكوم",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qoowne"
+    }
+   },
+   "old_location": {
+    "source_index": 166
+   },
+   "new_location": {
+    "page": 311,
+    "line": 10363
+   },
+   "matched_new_row": 487,
+   "alignment_score": 8.263341,
+   "alignment_evidence": {
+    "sense_similarity": 0.93617,
+    "arabic_gloss_similarity": 0.31694,
+    "arabic_root_exact": false,
+    "new_foreign_sense": "منديل للرأس، غطاء، وعاء، إناء"
+   }
+  },
+  {
+   "source_index": 168,
+   "pair_index": 4528,
+   "source": "khashim-coptic",
+   "arabic_root": "قشع",
+   "registered_scan_reasons": [
+    "رأس المدخل القبطي اللاتيني مسجل بأنه سقط في المسح القديم"
+   ],
+   "new_scan_reasons": [],
+   "fields": {
+    "foreign": {
+     "legacy": "(سقطَ حرفُه في المسح)",
+     "recovered": "qojh"
+    }
+   },
+   "old_location": {
+    "source_index": 168
+   },
+   "new_location": {
+    "page": 311,
+    "line": 10387
+   },
+   "matched_new_row": 491,
+   "alignment_score": 12.335423,
+   "alignment_evidence": {
+    "sense_similarity": 0.181818,
+    "arabic_gloss_similarity": 0.586207,
+    "arabic_root_exact": true,
+    "new_foreign_sense": "بدد، فرق"
+   }
+  }
+ ]
+}
