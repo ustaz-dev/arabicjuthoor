@@ -4,24 +4,24 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 53072,
+  "cards_total": 53371,
   "by_language": [
    {
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 9510,
-    "links": 310,
+    "cards": 9660,
+    "links": 319,
     "root": 117,
-    "nucleus": 192,
+    "nucleus": 201,
     "floor": 1,
-    "nucleus_share": 62.1
+    "nucleus_share": 63.2
    },
    {
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 9481,
+    "cards": 9630,
     "links": 142,
     "root": 108,
     "nucleus": 33,
@@ -185,7 +185,7 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3548,
+  "links_to_arabic": 3557,
   "closures": 1014,
   "by_verdict": [
    {
@@ -195,7 +195,7 @@
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 944,
+    "count": 953,
     "link": true
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 43463,
-  "suspended": 33409,
-  "released": 10054,
+  "cards_total": 43762,
+  "suspended": 33699,
+  "released": 10063,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -271,7 +271,7 @@
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 13712
+    "count": 14002
    },
    {
     "name": "LAW-GAP",
@@ -301,11 +301,11 @@
   "backlog_by_file": [
    {
     "file": "egyptian.md",
-    "count": 9034
+    "count": 9175
    },
    {
     "file": "old-latin.md",
-    "count": 8813
+    "count": 8962
    },
    {
     "file": "coptic.md",

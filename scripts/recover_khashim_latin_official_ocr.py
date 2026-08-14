@@ -243,7 +243,18 @@ def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
 
     payload = json.loads(args.pairs.read_text(encoding="utf-8"))
-    old = [row for row in payload["rows"] if row.get("source") == "khashim-latin"]
+    old: list[dict[str, Any]] = []
+    for source in payload["rows"]:
+        if source.get("source") != "khashim-latin":
+            continue
+        row = dict(source)
+        recovery_schema = (row.get("ocr_recovery") or {}).get("schema")
+        if (
+            (row.get("legacy") or {}).get("foreign") == FALLEN
+            and recovery_schema == "khashim-latin-official-ocr-recovery-v1"
+        ):
+            row["foreign"] = FALLEN
+        old.append(row)
     if len(old) != 560:
         raise SystemExit(f"تغير مقام صفوف اللاتينية: {len(old)}")
     fallen = [index for index, row in enumerate(old) if row.get("foreign") == FALLEN]
