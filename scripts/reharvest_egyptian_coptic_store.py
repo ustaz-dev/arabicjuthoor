@@ -20,6 +20,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import build_egyptian_gods_maqar_cards as OLD  # noqa: E402
 import build_aed_index as AED  # noqa: E402
 import frozen_event as FE  # noqa: E402
+import search_arabic_root_senses as ARS  # noqa: E402
 
 BATCH_SIZE = 150
 READING = ROOT / "04-cross-linguistic" / "readings" / "egyptian.md"
@@ -34,6 +35,7 @@ AED_SELECTIONS: dict[int, str] = {
     7: "79000", 8: "79000", 9: "79000",      # n.t, Red Crown
     10: "79010", 11: "79010", 12: "79010",   # Nj.t, Neith
     22: "149130", 23: "149130", 24: "149130", # sṯ.tjw, Asiatics
+    28: "96120", 29: "96120", 30: "96120",      # rs.w, south-wind
     55: "94200", 56: "94200",                  # rm.yt, tears
     57: "94190", 58: "94190",                  # Rm.y, Weeper (sun god)
     64: "96011", 65: "96011", 66: "96011",    # rs.j, south
@@ -50,6 +52,23 @@ AED_SELECTIONS: dict[int, str] = {
     269: "82090", 270: "82090", 271: "82090", # nb.t-pr, mistress of house
     272: "87870", 273: "87870", 274: "87870", # ns.t, seat; throne
     288: "110310", 289: "110310", 290: "110310", 291: "110310", # Hekat
+    305: "32820", 306: "32820", 307: "32820", # jtj, father
+    314: "162200", 315: "162200", 316: "162200", # qs, bone
+    320: "23290", 321: "23290", 322: "23290", # jb, heart
+    337: "74750", 338: "74750",               # ms, child
+    368: "76230",                              # msḏr, ear
+    370: "138920", 371: "138920",             # sr, nobleman; official
+    380: "91900",                              # r, preposition
+    381: "78870", 382: "78870",               # n, preposition
+    405: "28250", 406: "28250", 407: "28250", 408: "28250",
+    409: "28250", 410: "28250",               # jr.t, eye
+    411: "46750", 412: "46750", 413: "46750", 414: "46750",
+    415: "46750", 416: "46750",               # wnm.t, right eye
+    423: "34070", 424: "34070", 425: "34070", 426: "34070",
+    427: "34070",                              # jdn, ear
+    438: "38930", 439: "38930", 440: "38930", 441: "38930",
+    442: "38930",                              # ꜥnḫ.wj, pair of ears
+    449: "124510", 450: "124510",             # ẖrd, to be a child
 }
 
 BASELINE_POSITIVE_ORDINALS = {1, 2, 41}
@@ -93,6 +112,82 @@ MANUAL_NEW: dict[tuple[int, str], tuple[str, str]] = {
         "مدار المادة: `tears` سائل رخو يتجمع في أثناء العين عند تحول حاد من "
         "البكاء ثم ينساب؛ وهذا هو وجه التجمع الرخو والتحول في حدث `رميت`.",
     ),
+    (145, "يمن"): (
+        "ROOT-TRACE",
+        "شاهد عائلة الجذر من تاج العروس لمرتضى الزبيدي: «اليَمِينُ: ضِدُّ "
+        "اليَسارِ»، ثم «أَيْضاً: (القُوَّةُ) والقُدْرَةُ». ومدارنا: معنى AED "
+        "`right side; west; land of the dead` يثبت جانب اليمين نفسه، واليمين "
+        "هي جهة اليد التي تكون أداة القوة والعون في العمل؛ فيتصل معنى الفرع "
+        "مباشرة بحدث `يمن` «أداة قوة وعون أساسية على كل عمل».",
+    ),
+    (146, "يمن"): (
+        "ROOT-TRACE",
+        "شاهد عائلة الجذر من تاج العروس لمرتضى الزبيدي: «اليَمِينُ: ضِدُّ "
+        "اليَسارِ»، ثم «أَيْضاً: (القُوَّةُ) والقُدْرَةُ». ومدارنا: معنى AED "
+        "`right side; west; land of the dead` يثبت جانب اليمين نفسه، واليمين "
+        "هي جهة اليد التي تكون أداة القوة والعون في العمل؛ فيتصل معنى الفرع "
+        "مباشرة بحدث `يمن` «أداة قوة وعون أساسية على كل عمل».",
+    ),
+    (314, "قسو"): (
+        "NUCLEUS-TRACE",
+        "مدار الصفة الملازمة للمادة: `bone` مادة صلبة في داخل البدن، وحدث "
+        "`قسو` صلابة الأثناء مع حدة أو جفاف؛ والحكم مقصور على العظم.",
+    ),
+    (315, "قسو"): (
+        "NUCLEUS-TRACE",
+        "مدار الصفة الملازمة للمادة: `bone` مادة صلبة في داخل البدن، وحدث "
+        "`قسو` صلابة الأثناء مع حدة أو جفاف؛ والحكم مقصور على العظم.",
+    ),
+    (316, "قسو"): (
+        "NUCLEUS-TRACE",
+        "مدار الصفة الملازمة للمادة: `bone` مادة صلبة في داخل البدن، وحدث "
+        "`قسو` صلابة الأثناء مع حدة أو جفاف؛ والحكم مقصور على العظم.",
+    ),
+    (449, "خرد"): (
+        "ROOT-TRACE",
+        "مدار الحالة العمرية: `to be a child` بقاء على أصل الفطرة قبل "
+        "الاستعمال والتجربة؛ وهذا هو حدث `خرد` المجمّد.",
+    ),
+    (450, "خرد"): (
+        "ROOT-TRACE",
+        "مدار الحالة العمرية: `to be a child` بقاء على أصل الفطرة قبل "
+        "الاستعمال والتجربة؛ وهذا هو حدث `خرد` المجمّد.",
+    ),
+}
+
+
+# يصرح AED في الرسم jmn.t بأن التاء لاحقة التأنيث. صفا 145 و146 وصلا من
+# المسح بلا النقطة، فلا يجوز إبقاء التاء في الجذر بعد أن ردها قاموس الفرع.
+AED_MORPHOLOGY_OVERRIDES: dict[int, tuple[str, str]] = {
+    145: (
+        "imn",
+        "فُصلت تاء التأنيث الأخيرة بشاهد رسم AED `jmn.t`؛ الخام `i m n t`؛ "
+        "لب الجذر `i m n`",
+    ),
+    146: (
+        "imn",
+        "فُصلت تاء التأنيث الأخيرة بشاهد رسم AED `jmn.t`؛ الخام `i m n t`؛ "
+        "لب الجذر `i m n`",
+    ),
+}
+
+
+ROOT_WITNESSES: dict[str, list[dict[str, str]]] = {
+    "يمن": [{
+        "source": "تاج العروس لمرتضى الزبيدي",
+        "quote": "اليَمِينُ: ضِدُّ اليَسارِ",
+        "url": "http://arabiclexicon.hawramani.com/%d9%8a%d9%85%d9%86/?book=27",
+    }, {
+        "source": "تاج العروس لمرتضى الزبيدي",
+        "quote": "أَيْضاً: (القُوَّةُ) والقُدْرَةُ",
+        "url": "http://arabiclexicon.hawramani.com/%d9%8a%d9%85%d9%86/?book=27",
+    }],
+}
+
+
+ROOT_RECHECK_TRANSITIONS = {
+    "no_aed_to_orbit": [28, 29, 30],
+    "orbit_to_positive": [145, 146],
 }
 
 
@@ -164,9 +259,25 @@ def previous_positive_root(row: dict) -> str:
     return str(row.get("positive_root") or "")
 
 
-def candidate_rows(source: dict, previous: dict, aed: dict) -> tuple[list[dict], str, int | None]:
+def morphology_for(source: dict, previous: dict, aed: dict) -> tuple[str, str, list[str]]:
     script, _ = OLD.script_for(source)
-    stem, _, _ = OLD.morphology(source, script)
+    stem, stripping, raw = OLD.morphology(source, script)
+    override = AED_MORPHOLOGY_OVERRIDES.get(int(previous["ordinal"]))
+    if override:
+        chosen = aed.get("selected") or {}
+        if str(chosen.get("translit")) != "jmn.t":
+            raise RuntimeError(
+                f"غاب شاهد صرف AED في الصف {previous['ordinal']}: {chosen.get('translit')}"
+            )
+        stem, stripping = override
+    return stem, stripping, raw
+
+
+def candidate_inventory(source: dict, previous: dict, aed: dict) -> tuple[
+    str, str, str, list[str], list[str], str, list[tuple[str, float]]
+]:
+    script, _ = OLD.script_for(source)
+    stem, stripping, raw = morphology_for(source, previous, aed)
     fan = OLD.K.FAN.fan(stem, script, limit=400)
     author = OLD.K.ar_bare(source.get("classical_root") or source.get("arabic_root", ""))
     prior_root = previous_positive_root(previous)
@@ -175,6 +286,50 @@ def candidate_rows(source: dict, previous: dict, aed: dict) -> tuple[list[dict],
         if extra and extra not in values:
             values.append(extra)
     ranked = OLD.K.FAN.rank(stem, values, script, "hebrew")
+    return script, stem, stripping, raw, fan, author, ranked
+
+
+def root_sense_summary(root: str, matches: list[dict]) -> dict:
+    fan = ARS.independent_fan(matches)
+    return {
+        "root": root,
+        "command": f"python scripts/search_arabic_root_senses.py {root} --max-chars 0",
+        "max_chars": 0,
+        "match_count": len(matches),
+        "truncated": bool(fan["truncated"]),
+        "judgment_ready": bool(fan["judgment_ready"]),
+        "selected_sources": [
+            {
+                "source": item["source_label"],
+                "url": item.get("url"),
+            }
+            for item in fan["selected_sources"]
+        ],
+    }
+
+
+def validated_root_witnesses(root: str, matches: list[dict]) -> list[dict[str, str]]:
+    witnesses = ROOT_WITNESSES.get(root, [])
+    for witness in witnesses:
+        if not any(
+            item.get("source") == witness["source"]
+            and witness["quote"] in str(item.get("definition") or "")
+            for item in matches
+        ):
+            raise RuntimeError(
+                f"شاهد عائلة الجذر غير موجود حرفيا: {root} / {witness['source']} / "
+                f"{witness['quote']}"
+            )
+    return witnesses
+
+
+def candidate_rows(
+    source: dict,
+    previous: dict,
+    aed: dict,
+    root_matches: dict[str, list[dict]],
+) -> tuple[list[dict], str, int | None]:
+    script, stem, _, _, fan, author, ranked = candidate_inventory(source, previous, aed)
     fan_set = set(fan)
     rows: list[dict] = []
     author_position: int | None = None
@@ -189,6 +344,8 @@ def candidate_rows(source: dict, previous: dict, aed: dict) -> tuple[list[dict],
         else:
             verdict, orbit, orbit_origin = None, None, None
         positive = bool(verdict and orbit and sound_ready and ev)
+        matches = root_matches.get(candidate, [])
+        witnesses = validated_root_witnesses(candidate, matches) if manual else []
         rows.append({
             "candidate": candidate,
             "rank": position,
@@ -211,6 +368,8 @@ def candidate_rows(source: dict, previous: dict, aed: dict) -> tuple[list[dict],
                 aed["selected"].get("en") if aed["selected"] else None
             ),
             "branch_sense_source": "AED" if aed["selected"] else None,
+            "arabic_root_sense_scan": root_sense_summary(candidate, matches),
+            "arabic_root_witnesses": witnesses,
             "semantic_orbit": orbit,
             "orbit_authorship": orbit_origin,
             "verdict": verdict if positive else None,
@@ -219,16 +378,23 @@ def candidate_rows(source: dict, previous: dict, aed: dict) -> tuple[list[dict],
     return rows, author, author_position
 
 
-def render(source: dict, previous: dict, batch: int) -> tuple[str, dict]:
+def render(
+    source: dict,
+    previous: dict,
+    batch: int,
+    root_matches: dict[str, list[dict]],
+) -> tuple[str, dict]:
     ordinal = int(previous["ordinal"])
     had_baseline_positive = (
         ordinal in BASELINE_POSITIVE_ORDINALS if batch == 1 else bool(previous.get("verdict"))
     )
     aed = aed_payload(ordinal, source["foreign"])
     script, script_note = OLD.script_for(source)
-    stem, stripping, raw = OLD.morphology(source, script)
+    stem, stripping, raw = morphology_for(source, previous, aed)
     stem_skeleton = OLD.K.FAN.skeleton(stem, script)
-    candidates, author, author_position = candidate_rows(source, previous, aed)
+    candidates, author, author_position = candidate_rows(
+        source, previous, aed, root_matches
+    )
     positives = [c for c in candidates if c["positive"]]
     if len(positives) > 1:
         raise RuntimeError(f"تعدد موجب الصف {ordinal}")
@@ -245,6 +411,29 @@ def render(source: dict, previous: dict, batch: int) -> tuple[str, dict]:
     ranked_text = "، ".join(
         f"`{c['candidate']}` ({c['mansur_weight']:.6f})" for c in candidates
     )
+    reviewed_candidates = [
+        c for c in candidates if c["sound_ready"] and c["event"]
+    ]
+    reviewed_roots = [c["candidate"] for c in reviewed_candidates]
+    attested_roots = [
+        f"`{c['candidate']}`={c['arabic_root_sense_scan']['match_count']}"
+        for c in reviewed_candidates
+        if c["arabic_root_sense_scan"]["match_count"]
+    ]
+    root_scan_line = (
+        "- فحص عائلات الجذور العربية قبل حكم المدار: شُغّل "
+        "`search_arabic_root_senses.py` مع `--max-chars 0` على "
+        f"{len(reviewed_roots)} مرشحا كامل الصوت والحدث؛ الجذور ذات الشواهد: "
+        + ("، ".join(attested_roots) if attested_roots else "لا شاهد في الذخيرة")
+        + "."
+    )
+    root_witness_lines = []
+    if positive and positive["arabic_root_witnesses"]:
+        root_witness_lines = [
+            f"- شاهد عائلة الجذر المنقول حرفيا: «{item['quote']}» "
+            f"من {item['source']}؛ الرابط: {item['url']}."
+            for item in positive["arabic_root_witnesses"]
+        ]
     if positive:
         event_line = positive["event"]["line"]
         sound_text = "؛ ".join(positive["sound_rows"])
@@ -254,7 +443,12 @@ def render(source: dict, previous: dict, batch: int) -> tuple[str, dict]:
         copy_line = (
             f"بقي الحكم السابق {positive['verdict']} بعد تصحيح معناه إلى AED"
             if had_baseline_positive else
-            f"نُسخ الحكم السابق غير صادر بالحكم {positive['verdict']} بعد اكتمال معنى AED المفرد"
+            (
+                f"نُسخ الحكم السابق غير صادر بالحكم {positive['verdict']} بعد استيفاء "
+                "معنى AED وشاهد عائلة الجذر العربية"
+                if ordinal in ROOT_RECHECK_TRANSITIONS["orbit_to_positive"] else
+                f"نُسخ الحكم السابق غير صادر بالحكم {positive['verdict']} بعد اكتمال معنى AED المفرد"
+            )
         )
     else:
         if focus and focus["event"]:
@@ -286,6 +480,25 @@ def render(source: dict, previous: dict, batch: int) -> tuple[str, dict]:
             if had_baseline_positive else
             "بقي الحكم السابق غير صادر بعد إعادة المروحة والحدث ومعنى AED"
         )
+    superseded_claim = None
+    aed_contradiction = None
+    if had_baseline_positive and not positive:
+        superseded_claim = (
+            str(previous.get("human_orbit") or "").strip()
+            or (
+                f"ربط معنى الفرع السابق «{source['foreign_sense']}» بالمرشح "
+                f"`{previous_positive_root(previous) or previous.get('comparison_root') or author}` "
+                f"على دعوى المصدر: «{previous.get('arabic_gloss') or '[لا شرح محفوظ]'}»"
+            )
+        )
+        aed_meanings = "؛ ".join(
+            str(entry.get("en") or "[لا ترجمة إنجليزية]")
+            for entry in aed["hits"]
+        ) or "لا مدخل"
+        aed_contradiction = (
+            f"AED أعاد: «{aed_meanings}»؛ لم يثبت فيها معنى «{source['foreign_sense']}» "
+            "الذي حمل الدعوى السابقة."
+        )
     comparison_place = (
         f"الرتبة {author_position} في العرض الموزون" if author_position
         else "خارج المروحة، فحفظ ولم يحتكر الحكم"
@@ -307,10 +520,17 @@ def render(source: dict, previous: dict, batch: int) -> tuple[str, dict]:
         event_line,
         f"- مسار الصوت للمرشح المعروض: {sound_text}.",
         *aed_lines(aed, source["foreign_sense"]),
+        root_scan_line,
+        *root_witness_lines,
         (f"- المعنى من قاموس الفرع بلا رتوش: «{aed['selected'].get('en')}» "
          f"من `{aed['selected']['translit']}` في AED."
          if aed["selected"] else
          "- المعنى من قاموس الفرع: لم يثبت مدخل AED موافق للسياق؛ بقيت الرجل الثالثة مفتوحة."),
+        *(
+            [f"- دعوى المدار السابق المنسوخة: {superseded_claim}.",
+             f"- خلاف AED الذي أوجب النسخ: {aed_contradiction}"]
+            if superseded_claim else []
+        ),
         f"- المدار: {orbit_line}",
         "- المصفاة: لم يسم صف المصدر مانحا خارجيا؛ غياب المانح ليس برهان وراثة.",
         f"- عائق: النوع={closure}؛ يتطلب={obstacle}.",
@@ -321,7 +541,7 @@ def render(source: dict, previous: dict, batch: int) -> tuple[str, dict]:
         "- مراجعة التشكيك: لم تقبل دعوى المصدر دليلا، وفُصل العلم عن العدد، ولم يصدر موجب بلا مدار مكتوب.",
     ]
     card = "\n".join(lines)
-    if "—" in card:
+    if chr(0x2014) in card:
         raise ValueError(f"شرطة طويلة في بطاقة {ordinal}")
     summary = {
         "row_id": f"extended-egyptian:{ordinal:04d}",
@@ -351,6 +571,14 @@ def render(source: dict, previous: dict, batch: int) -> tuple[str, dict]:
         "positive_root": positive["candidate"] if positive else None,
         "semantic_orbit": positive["semantic_orbit"] if positive else None,
         "orbit_authorship": positive["orbit_authorship"] if positive else None,
+        "arabic_root_sense_reviews": [
+            c["arabic_root_sense_scan"] for c in reviewed_candidates
+        ],
+        "arabic_root_witnesses": (
+            positive["arabic_root_witnesses"] if positive else []
+        ),
+        "superseded_positive_claim": superseded_claim,
+        "aed_contradiction": aed_contradiction,
         "counted_link": counted,
         "open_reason": None if positive else (
             ("لا معنى AED موافق للسياق" if aed["hits"] else "لا مدخل AED")
@@ -369,6 +597,19 @@ def build(batch: int) -> None:
         raise SystemExit(f"رقم الدفعة خارج 1 إلى {total_batches}")
     start = (batch - 1) * BATCH_SIZE
     selected = source_rows[start:start + BATCH_SIZE]
+    root_queries: set[str] = set()
+    for offset, source in enumerate(selected, start=start + 1):
+        if source.get("lane") == "survival-only":
+            continue
+        if offset not in prior:
+            raise RuntimeError(f"لا بطاقة أصلية للصف {offset}")
+        aed = aed_payload(offset, source["foreign"])
+        *_, ranked = candidate_inventory(source, prior[offset], aed)
+        root_queries.update(candidate for candidate, _ in ranked)
+    # limit=None هو التنفيذ البرمجي المكافئ حرفيا لـ --max-chars 0.
+    root_matches = ARS.matches_for_roots(
+        ARS.DEFAULT_RESOURCES, root_queries, limit=None
+    )
     rendered: list[str] = []
     summaries: list[dict] = []
     survival: list[dict] = []
@@ -383,7 +624,7 @@ def build(batch: int) -> None:
             continue
         if offset not in prior:
             raise RuntimeError(f"لا بطاقة أصلية للصف {offset}")
-        text, summary = render(source, prior[offset], batch)
+        text, summary = render(source, prior[offset], batch, root_matches)
         rendered.append(text)
         summaries.append(summary)
 
@@ -400,19 +641,55 @@ def build(batch: int) -> None:
     converted = positive_ordinals - baseline_positive_ordinals
     retained = positive_ordinals & baseline_positive_ordinals
     revoked = baseline_positive_ordinals - positive_ordinals
+    root_converted = converted & set(ROOT_RECHECK_TRANSITIONS["orbit_to_positive"])
+    dictionary_converted = converted - root_converted
     aed_hit_cards = sum(bool(r["aed"]["hits"]) for r in summaries)
     aed_selected_cards = sum(bool(r["aed"]["selected"]) for r in summaries)
     aed_paths = Counter(r["aed"]["path"] for r in summaries)
     candidate_tiers = Counter()
     for row in summaries:
         candidate_tiers.update(row["event_tiers"])
+    root_recheck = None
+    if batch == 1:
+        rows_by_ordinal = {int(row["ordinal"]): row for row in summaries}
+        for ordinal in ROOT_RECHECK_TRANSITIONS["no_aed_to_orbit"]:
+            row = rows_by_ordinal[ordinal]
+            if row["open_reason"] != "لا مدار يدوي مقنع" or not row["aed"]["selected"]:
+                raise RuntimeError(f"لم ينتقل الصف {ordinal} من عائق AED إلى عائق المدار")
+        for ordinal in ROOT_RECHECK_TRANSITIONS["orbit_to_positive"]:
+            row = rows_by_ordinal[ordinal]
+            if row["verdict"] != "ROOT-TRACE" or row["positive_root"] != "يمن":
+                raise RuntimeError(f"لم يتحول الصف {ordinal} بعد شاهد عائلة الجذر")
+        open_counts = Counter(r["open_reason"] for r in opens)
+        root_recheck = {
+            "prior_counts": {
+                "لا معنى AED موافق للسياق": 52,
+                "لا مدار يدوي مقنع": 25,
+            },
+            "transitions": {
+                "لا معنى AED موافق للسياق -> لا مدار يدوي مقنع":
+                    ROOT_RECHECK_TRANSITIONS["no_aed_to_orbit"],
+                "لا مدار يدوي مقنع -> ROOT-TRACE":
+                    ROOT_RECHECK_TRANSITIONS["orbit_to_positive"],
+            },
+            "changed_cards": sum(len(v) for v in ROOT_RECHECK_TRANSITIONS.values()),
+            "positive_conversions": len(root_converted),
+            "current_counts": {
+                "لا معنى AED موافق للسياق": open_counts["لا معنى AED موافق للسياق"],
+                "لا مدار يدوي مقنع": open_counts["لا مدار يدوي مقنع"],
+            },
+        }
     report = {
-        "schema": "egyptian-coptic-store-reharvest-v1.1-aed",
+        "schema": "egyptian-coptic-store-reharvest-v1.2-root-senses",
         "generated_at": "2026-08-14",
         "source_store": "data/egyptian-gods-maqar-batch-001.json إلى 010",
         "event_resolver": "scripts/frozen_event.py:FE.resolve",
         "fan": "scripts/fan_any_script.py:fan",
         "branch_dictionary": "AED, Simon D. Schweitzer (data/aed-egyptian-lexicon.json)",
+        "arabic_root_sense_tool": {
+            "path": "scripts/search_arabic_root_senses.py",
+            "max_chars": 0,
+        },
         "batch": batch,
         "batch_size": BATCH_SIZE,
         "total_batches": total_batches,
@@ -422,6 +699,8 @@ def build(batch: int) -> None:
         "cards_written": len(summaries),
         "survival_only": len(survival),
         "candidate_count": sum(r["candidate_count"] for r in summaries),
+        "arabic_root_query_count": len(root_queries),
+        "arabic_root_attested_count": sum(bool(root_matches[root]) for root in root_queries),
         "candidate_event_tiers": dict(sorted(candidate_tiers.items())),
         "aed_path_counts": dict(sorted(aed_paths.items())),
         "aed_hit_cards": aed_hit_cards,
@@ -430,10 +709,13 @@ def build(batch: int) -> None:
         "positive_counted": len(counted),
         "open_candidate": len(opens),
         "baseline_positive_raw": len(baseline_positive_ordinals),
-        "converted_after_dictionary_sense": len(converted),
+        "converted_from_baseline_open": len(converted),
+        "converted_after_dictionary_sense": len(dictionary_converted),
+        "converted_after_arabic_root_sense": len(root_converted),
         "converted_ordinals": sorted(converted),
         "retained_positive_ordinals": sorted(retained),
         "revoked_positive_ordinals": sorted(revoked),
+        "arabic_root_recheck": root_recheck,
         "open_reason_counts": dict(Counter(r["open_reason"] for r in opens)),
         "rows": summaries,
         "survival_rows": survival,
@@ -448,7 +730,7 @@ def build(batch: int) -> None:
         f"## إعادة حصاد مخزن المصرية والقبطية، الدفعة {batch:03d} (2026-08-14)",
         "",
         f"**بيان النطاق.** الصفوف {start + 1:04d} إلى {start + len(selected):04d} من المخزن الثابت. "
-        "أعيدت المروحة عبر `fan()` والحدث عبر `FE.resolve`، وأخذ معنى الفرع من AED لا من عمود خشيم. تعرض كل بطاقة جميع إصابات AED ووسم الطريق والرسم العلمي، والمدار لا يصدر إلا مكتوبا باليد.",
+        "أعيدت المروحة عبر `fan()` والحدث عبر `FE.resolve`، وأخذ معنى الفرع من AED لا من عمود خشيم. وفي كل مرشح اكتمل صوته وحدثه فُحصت عائلة الجذر العربية بـ`search_arabic_root_senses.py` مع `--max-chars 0` قبل حكم المدار. تعرض كل بطاقة جميع إصابات AED وشواهد الجذر، والمدار لا يصدر إلا مكتوبا باليد.",
         "",
         f"**الحصيلة.** فُحص {len(selected)} صفا، وكُتبت {len(summaries)} بطاقة، "
         f"والبقايا فقط {len(survival)}، والموجب الخام {len(positives)}، والموجب المعدود {len(counted)}، "
@@ -458,7 +740,7 @@ def build(batch: int) -> None:
         marker(batch, "END"),
     ]) + "\n"
     current = READING.read_text(encoding="utf-8")
-    if "—" in section:
+    if chr(0x2014) in section:
         raise ValueError("شرطة طويلة في قسم القراءة")
     section_start = marker(batch, "START")
     section_end = marker(batch, "END")
@@ -497,12 +779,18 @@ def build(batch: int) -> None:
         f"| مفتوح | {len(opens)} |",
         f"| بطاقات أصابها AED | {aed_hit_cards} |",
         f"| بطاقات اختير لها معنى AED مفرد | {aed_selected_cards} |",
-        f"| تحولت من مفتوح إلى موجب بعد المعنى القاموسي المفرد | {len(converted)} |",
+        f"| تحولت من مفتوح إلى موجب في الجملة | {len(converted)} |",
+        f"| منها بعد معنى AED المفرد | {len(dictionary_converted)} |",
+        f"| منها بعد شاهد عائلة الجذر العربي | {len(root_converted)} |",
         f"| موجب قديم بقي | {len(retained)} |",
         f"| موجب قديم نُسخ | {len(revoked)} |",
         "",
-        f"**رقم الفرق المطلوب:** تحولت {len(converted)} بطاقات بعد أن صار لها معنى AED مفرد: "
+        f"**رقم الفرق المطلوب:** تحولت {len(converted)} بطاقات في الجملة: "
         + "، ".join(f"`{ordinal:03d}`" for ordinal in sorted(converted)) + ".",
+        f"منها {len(dictionary_converted)} بعد تعيين معنى AED المفرد: "
+        + "، ".join(f"`{ordinal:03d}`" for ordinal in sorted(dictionary_converted))
+        + f"؛ ومنها {len(root_converted)} بعد استيفاء شاهد عائلة الجذر: "
+        + "، ".join(f"`{ordinal:03d}`" for ordinal in sorted(root_converted)) + ".",
         f"بقي من الموجب القديم {len(retained)}: "
         + "، ".join(f"`{ordinal:03d}`" for ordinal in sorted(retained))
         + f"؛ ونُسخ {len(revoked)}: "
@@ -512,6 +800,19 @@ def build(batch: int) -> None:
             f"{reason}={number}" for reason, number in report["open_reason_counts"].items()
         ) + ".",
         "",
+        *( [
+            "## إعادة صفوف العائقين على عائلات اللسان",
+            "",
+            "شُغلت الأداة على كل جذر عربي اكتمل له الصوت والحدث، بالصيغة المثبتة في كل بطاقة وبالخيار `--max-chars 0`، ثم قُرئت الشواهد كاملة. الشاهد سند للمدار المكتوب، لا بديل منه.",
+            "",
+            "| الوصف السابق | العدد السابق | ما تغير | الوصف الحالي | العدد الحالي |",
+            "|---|---:|---|---|---:|",
+            f"| لا معنى AED موافق للسياق | 52 | `028` و`029` و`030`: ثبت معنى AED، ولم يقنع المدار | لا معنى AED موافق للسياق | {report['open_reason_counts'].get('لا معنى AED موافق للسياق', 0)} |",
+            f"| لا مدار يدوي مقنع | 25 | `145` و`146`: دخلا ROOT-TRACE بشاهد تاج العروس | لا مدار يدوي مقنع | {report['open_reason_counts'].get('لا مدار يدوي مقنع', 0)} |",
+            "",
+            "تغير وصف خمس بطاقات من المجموعتين: ثلاث انتقلت من عائق المعنى القاموسي إلى عائق المدار، واثنتان تحولتا إلى موجب. واقتُبس في بطاقتي الموجب نصا تاج العروس واسم المعجم والرابط، ثم كُتب المدار الواصل بين معنى AED والحدث المجمد.",
+            "",
+        ] if batch == 1 else [] ),
         "درجات أحداث المرشحين: " + "، ".join(
             f"الدرجة {tier}={number}" if tier != "0" else f"غياب={number}"
             for tier, number in report["candidate_event_tiers"].items()
@@ -524,16 +825,17 @@ def build(batch: int) -> None:
         "",
         "## المراجعتان",
         "",
-        "- عدسة الاسترداد: شغلت `fan()` لكل صف، وحفظت كل مرشح ووزنه ومساره ودرجة حدثه، وعرضت قائمة AED كاملة، ولم يحتكر مرشح المصدر العرض.",
-        "- عدسة التشكيك: لم تأخذ إصابة AED الأولى آليا، وراجعت المختار في سياق خشيم، وفصلت الأعلام عن العدد، ونسخت كل موجب قديم لم يسنده المعنى القاموسي، ولم تحول غياب المدار إلى `NO-TRACE`.",
+        "- عدسة الاسترداد: شغلت `fan()` لكل صف، وحفظت كل مرشح ووزنه ومساره ودرجة حدثه، وعرضت قائمة AED كاملة، ثم شغلت عائلات اللسان بلا قطع عرض لكل مرشح تام الصوت والحدث.",
+        "- عدسة التشكيك: لم تأخذ إصابة AED الأولى آليا، وراجعت المختار في سياق خشيم، وفصلت الأعلام عن العدد، ونسخت كل موجب قديم لم يسنده المعنى القاموسي مع إظهار الدعوى السابقة وخلاف AED، ولم تحول غياب المدار إلى `NO-TRACE`.",
         "",
         "## سطر الحصيلة",
         "",
         f"فُحص {len(selected)} صفا، وكُتبت {len(summaries)} بطاقة؛ الموجب الخام {len(positives)}، "
-        f"والمعدود {len(counted)}، والمفتوح {len(opens)}؛ تحولت {len(converted)} بطاقات بعد معنى AED المفرد.",
+        f"والمعدود {len(counted)}، والمفتوح {len(opens)}؛ تحولت {len(converted)} بطاقات، "
+        f"منها {len(dictionary_converted)} بعد معنى AED و{len(root_converted)} بعد شاهد عائلة الجذر.",
         "",
     ])
-    if "—" in audit:
+    if chr(0x2014) in audit:
         raise ValueError("شرطة طويلة في المحضر")
     audit_path(batch).write_text(audit, encoding="utf-8", newline="\n")
     print(
@@ -554,6 +856,9 @@ def check(batch: int) -> int:
     if payload["cards_written"] != len(payload["rows"]):
         bad.append("عدد البطاقات مختل")
     for row in payload["rows"]:
+        for review in row.get("arabic_root_sense_reviews", []):
+            if review.get("max_chars") != 0 or review.get("truncated"):
+                bad.append(f"فحص جذر مقطوع في {row['row_id']}:{review.get('root')}")
         for candidate in row["candidates"]:
             ev = FE.resolve(candidate["candidate"])
             if (ev is None) != (candidate["event"] is None):
@@ -564,6 +869,16 @@ def check(batch: int) -> int:
             chosen = [c for c in row["candidates"] if c["positive"]]
             if len(chosen) != 1 or not chosen[0]["sound_ready"] or not chosen[0]["event"] or not row["semantic_orbit"]:
                 bad.append(f"موجب بلا الأرجل الثلاث في {row['row_id']}")
+        if int(row["ordinal"]) in ROOT_RECHECK_TRANSITIONS["orbit_to_positive"]:
+            if row.get("verdict") != "ROOT-TRACE" or len(row.get("arabic_root_witnesses", [])) != 2:
+                bad.append(f"تحويل عائلة الجذر ناقص في {row['row_id']}")
+            for witness in row.get("arabic_root_witnesses", []):
+                if not witness.get("quote") or not witness.get("source") or not witness.get("url"):
+                    bad.append(f"شاهد معجمي ناقص في {row['row_id']}")
+    if batch == 1:
+        recheck = payload.get("arabic_root_recheck") or {}
+        if recheck.get("changed_cards") != 5 or recheck.get("positive_conversions") != 2:
+            bad.append("اختل عد انتقال صفوف العائقين")
     if bad:
         print("FAIL: " + "؛ ".join(bad[:12]))
         return 1

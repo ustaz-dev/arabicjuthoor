@@ -27,15 +27,61 @@
 from __future__ import annotations
 
 import argparse
+import os
 import pathlib
 import subprocess
 import sys
+import time
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import rebuild_derived as R  # noqa: E402
 
 PY = sys.executable
+
+# **القفلُ ينهي حلقةً كادت تُوقِفُ المشروعَ يومًا كاملًا (2026-08-14).** خمسةُ
+# مساراتٍ تُودِعُ بعدَ كلِّ دفعة، ويُودِعُ معها المنسِّق، فاجتمعَ **تسعةُ إيداعاتٍ
+# تعملُ معًا**، كلُّ واحدٍ يبني الشجرةَ كاملةً في أربعِ دوراتٍ ويتزاحمُ على
+# المعالج. وكلَّما ازدحمَت طالت الدورةُ، وكلَّما طالت كتبَ مسارٌ في أثنائها
+# فلزِمَت دورةٌ أخرى. **حلقةٌ تُطعِمُ نفسَها: سبعُ ساعاتٍ بلا إيداعٍ واحد.**
+#
+# **والمخرَجُ أنّ الإيداعَ شاملٌ أصلًا.** من يحملُ القفلَ يُودِعُ الشجرةَ كلَّها
+# بـ`git add -A`، فعملُ المنتظِرِ داخلٌ في إيداعِه حتمًا. فلا معنى لأن ينتظرَ
+# المنتظِرُ دورةَ بناءٍ ثانيةً لنفسِ الشجرة: يُسلِّمُ رسالتَه وينصرف.
+LOCK = ROOT / ".git" / "ship.lock"
+LOCK_STALE_MINUTES = 45
+
+
+def lock_holder() -> tuple[int, float] | None:
+    """صاحبُ القفلِ إن كان حيًّا، وإلّا None ويُكسَرُ القفلُ الميّت."""
+    try:
+        pid_s, stamp_s = LOCK.read_text(encoding="utf-8").split()
+        pid, stamp = int(pid_s), float(stamp_s)
+    except (OSError, ValueError):
+        return None
+    if (time.time() - stamp) / 60 > LOCK_STALE_MINUTES:
+        print(f"قفلٌ بائتٌ من {int((time.time() - stamp) / 60)} دقيقةً (pid {pid})، يُكسَر.")
+        LOCK.unlink(missing_ok=True)
+        return None
+    return pid, stamp
+
+
+def take_lock() -> bool:
+    """يُؤخَذُ القفلُ ذرّيًّا، أو يُردُّ False إن كان بيدِ غيرِنا."""
+    holder = lock_holder()
+    if holder:
+        pid, stamp = holder
+        print(f"إيداعٌ آخرُ يعملُ منذُ {int((time.time() - stamp) / 60)} دقيقةً "
+              f"(pid {pid}).\nوالإيداعُ شاملٌ فعملُك داخلٌ في إيداعِه، "
+              "فلا يُبنى مرّتَينِ لنفسِ الشجرة.")
+        return False
+    try:
+        with open(LOCK, "x", encoding="utf-8") as fh:
+            fh.write(f"{os.getpid()} {time.time()}")
+        return True
+    except FileExistsError:
+        print("سبقَنا إيداعٌ آخرُ إلى القفلِ في هذه اللحظة.")
+        return False
 
 
 def run(script: str, args: list[str]) -> tuple[int, str]:
@@ -74,6 +120,32 @@ def build_all(only: list[str] | None = None) -> None:
         print(f" {'  ' if code == 0 else '!!'} {script:44}{line}")
 
 
+def freshness_builders() -> list[tuple[str, list[str]]]:
+    """البُناةُ الذين تفحصُ بوّابةٌ طزاجةَ مشتقِّهم، وهم وحدَهم يُعادونَ قبلَ الإيداع."""
+    checked = {s for s, a in R.GATES if "--check" in a}
+    return [(s, a) for s, a in R.BUILD if s in checked]
+
+
+def refresh_before_commit() -> None:
+    """يُعادُ بناءُ المشتقّاتِ المفحوصةِ في آخرِ لحظةٍ قبلَ `git add -A`.
+
+    **العطبُ الذي يُنهيه، وقد سقطَ به النشرُ أربعَ مرّاتٍ في ساعتَين:** بوّابةُ
+    التكاملِ تُعيدُ حسابَ المشتقِّ من شجرةِ الإيداعِ وتُقابِلُه بالمودَع، وهي
+    **حتميّةٌ لتلك الشجرة**. فإن كتبَ مسارٌ بطاقةً بينَ فحصِ البوّاباتِ عندَنا
+    وبينَ `git add -A` بات المشتقُّ في الإيداعِ نفسِه، **وسقطَ النشرُ سقوطًا
+    لا تُصلِحُه إعادةُ التشغيلِ أبدًا** لأنّها تفحصُ الشجرةَ عينَها فتصلُ إلى
+    النتيجةِ عينِها. وكانت المراقبةُ تُعيدُ التشغيلَ ظنًّا أنّه عارضٌ من الخدمة.
+
+    والنافذةُ لا تُغلَقُ إغلاقًا تامًّا ما دامَ خمسةُ كتّابٍ يعملون، لكنّها
+    تنكمشُ من دقائقَ إلى ثوانٍ. وكلفةُ ذلك 20 ثانيةً لسجلِّ الاسترداد.
+    """
+    builders = freshness_builders()
+    print(f"\nتجديدُ {len(builders)} مشتقًّا مفحوصًا قبلَ الإيداعِ مباشرةً:")
+    for script, argv in builders:
+        code, line = run(script, argv)
+        print(f" {'  ' if code == 0 else '!!'} {script:44}{line}")
+
+
 def gates_all() -> list[str]:
     print("\nالبوّابات:")
     failed = []
@@ -101,6 +173,16 @@ def main() -> int:
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
+    if not take_lock():
+        return 0
+
+    try:
+        return _run(args)
+    finally:
+        LOCK.unlink(missing_ok=True)
+
+
+def _run(args) -> int:
     # **دورةُ بناءٍ وفحصٍ تُعاوَدُ ولا يُستسلَمُ لأوّلِ سقوط.** خمسةُ مساراتٍ
     # تكتبُ في الشجرةِ نفسِها، فأيُّ مشتقٍّ يُبنى قد يبيتُ قبلَ أن يُفحَصَ لأنّ
     # مسارًا كتبَ بطاقةً في تلك اللحظة. **ومن استسلمَ لأوّلِ سقوطٍ توقّفَ الحصادُ
@@ -148,6 +230,7 @@ def main() -> int:
     if args.only:
         print("تنبيه: --only مُلغًى، فالإيداعُ شاملٌ حتمًا ما دامَت المساراتُ "
               "تكتبُ معًا. وملكيّةُ الملفّاتِ باقية: اكتبْ في نطاقِك وحدَه.")
+    refresh_before_commit()
     git("add", "-A")
     code, out = git("commit", "-q", "-m", args.message)
     if code != 0 and "nothing to commit" not in out:

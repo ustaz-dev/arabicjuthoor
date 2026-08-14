@@ -1,0 +1,647 @@
+{
+ "schema": "khashim-egyptian-ocr-recovery-batch-v1",
+ "generated_by": "scripts/build_khashim_egyptian_ocr_recovery_batches.py",
+ "batch": 1,
+ "batch_size": 150,
+ "total_recovered_rows": 38,
+ "total_batches": 1,
+ "slice": [
+  0,
+  37
+ ],
+ "rows": [
+  {
+   "index": 47,
+   "book_batch": 2,
+   "foreign": "āshem",
+   "root": "مشي",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 65,
+   "book_batch": 2,
+   "foreign": "barbar",
+   "root": "فور",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 115,
+   "book_batch": 4,
+   "foreign": "tepi",
+   "root": "تبي",
+   "restored_fields": [
+    "foreign",
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 173,
+   "book_batch": 3,
+   "foreign": "hen-t",
+   "root": "حنت",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 332,
+   "book_batch": 4,
+   "foreign": "tchebā",
+   "root": "ذبيتي",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 383,
+   "book_batch": 4,
+   "foreign": "smer",
+   "root": "مرر",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 386,
+   "book_batch": 2,
+   "foreign": "s-meh",
+   "root": "سمه",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 398,
+   "book_batch": 2,
+   "foreign": "sent-t",
+   "root": "سنط",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 432,
+   "book_batch": 2,
+   "foreign": "s-tehen",
+   "root": "ستحن",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 434,
+   "book_batch": 3,
+   "foreign": "seth heb",
+   "root": "ستحب",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 497,
+   "book_batch": 3,
+   "foreign": "s-hai",
+   "root": "هوى",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 498,
+   "book_batch": 3,
+   "foreign": "søhem",
+   "root": "سهم",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 499,
+   "book_batch": 4,
+   "foreign": "s-heṭṭ",
+   "root": "هدد",
+   "restored_fields": [
+    "foreign",
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 500,
+   "book_batch": 3,
+   "foreign": "søh",
+   "root": "سحح",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 501,
+   "book_batch": 3,
+   "foreign": "søh",
+   "root": "سحح",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 590,
+   "book_batch": 4,
+   "foreign": "ār",
+   "root": "عر",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 2,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 602,
+   "book_batch": 4,
+   "foreign": "Āsha",
+   "root": "عشش",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 658,
+   "book_batch": 3,
+   "foreign": "kenken",
+   "root": "كنكن",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 664,
+   "book_batch": 4,
+   "foreign": "ket",
+   "root": "كيف",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 667,
+   "book_batch": 4,
+   "foreign": "ketui-t",
+   "root": "كتويت",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 668,
+   "book_batch": 3,
+   "foreign": "ketu",
+   "root": "كتو",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 681,
+   "book_batch": 3,
+   "foreign": "mut",
+   "root": "موت",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": true,
+   "manual_orbit": true,
+   "verdict": "ROOT-TRACE",
+   "open_reasons": []
+  },
+  {
+   "index": 710,
+   "book_batch": 4,
+   "foreign": "merḥ-tá",
+   "root": "مرحت",
+   "restored_fields": [
+    "foreign",
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 720,
+   "book_batch": 3,
+   "foreign": "mesti",
+   "root": "مستي",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 721,
+   "book_batch": 3,
+   "foreign": "mes-t",
+   "root": "مست",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 722,
+   "book_batch": 3,
+   "foreign": "mes-t",
+   "root": "مست",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 723,
+   "book_batch": 3,
+   "foreign": "mes",
+   "root": "مسس",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 724,
+   "book_batch": 4,
+   "foreign": "messiu",
+   "root": "مسسيو",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 725,
+   "book_batch": 3,
+   "foreign": "mesit",
+   "root": "مسيت",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "المعنى الإنجليزي السليم من قاموس الفرع"
+   ]
+  },
+  {
+   "index": 737,
+   "book_batch": 3,
+   "foreign": "meker",
+   "root": "مكر",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": true,
+   "manual_orbit": true,
+   "verdict": "ROOT-TRACE",
+   "open_reasons": []
+  },
+  {
+   "index": 750,
+   "book_batch": 2,
+   "foreign": "nahra",
+   "root": "نهر",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 765,
+   "book_batch": 3,
+   "foreign": "nebu",
+   "root": "نبو",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 804,
+   "book_batch": 4,
+   "foreign": "neqmu",
+   "root": "نقمو",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 807,
+   "book_batch": 2,
+   "foreign": "neqett",
+   "root": "رقد",
+   "restored_fields": [
+    "foreign_sense"
+   ],
+   "frozen_event_tier": 1,
+   "sound_leg": false,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
+   ]
+  },
+  {
+   "index": 810,
+   "book_batch": 4,
+   "foreign": "nekit",
+   "root": "نكيت",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 3,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  },
+  {
+   "index": 903,
+   "book_batch": 3,
+   "foreign": "umt",
+   "root": "ومت",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 4,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "المعنى الإنجليزي السليم من قاموس الفرع"
+   ]
+  },
+  {
+   "index": 904,
+   "book_batch": 3,
+   "foreign": "un",
+   "root": "ون",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 2,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "المعنى الإنجليزي السليم من قاموس الفرع"
+   ]
+  },
+  {
+   "index": 911,
+   "book_batch": 4,
+   "foreign": "ur",
+   "root": "ور",
+   "restored_fields": [
+    "foreign"
+   ],
+   "frozen_event_tier": 4,
+   "sound_leg": true,
+   "manual_orbit": false,
+   "verdict": null,
+   "open_reasons": [
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
+   ]
+  }
+ ],
+ "counts": {
+  "rows": 38,
+  "restored_fields": {
+   "foreign": 22,
+   "foreign_sense": 19
+  },
+  "frozen_event_tiers": {
+   "1": 13,
+   "2": 2,
+   "3": 21,
+   "4": 2
+  },
+  "sound_leg_ready": 22,
+  "frozen_event_leg_ready": 38,
+  "manual_orbit_present": 2,
+  "positive_verdicts": 2,
+  "open_verdicts": 36
+ },
+ "manual_head_recovery_baseline": {
+  "named_english_heads": 50,
+  "named_recovered": 50,
+  "named_unrecovered": 0,
+  "additional_recovered": 85,
+  "all_recovered": 135
+ },
+ "contract": "ثلاث أرجل فقط: مسار الصوت المسمى؛ frozen_event.resolve؛ معنى بدج مع مدار يدوي. لا يولد السكربت مدارًا"
+}

@@ -9696,6 +9696,64 @@
             }
           ]
         }
+      ],
+      "later_comparative_supplements": [
+        {
+          "batch": 5,
+          "category": "cross-european",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            2681
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 2681,
+              "source_row_key": "d67861413ca5df99a77e1061",
+              "foreign": "age",
+              "foreign_sense": "عمر؛ سن",
+              "tongue_ar": "اللاتينيّة والرومانيّات والإنكليزيّة",
+              "arabic_root": "حبي / حياة",
+              "arabic_gloss": "قارن ألفاظ العمر بالحياة.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 450,
+              "assigned_language": "middle-english",
+              "assignment_reason": "cited spelling gives a specific European branch inside a mixed or generic cluster"
+            }
+          ],
+          "forms": [
+            {
+              "form": "age",
+              "normalized_form": "age",
+              "script": "germanic",
+              "skeleton": [
+                "g"
+              ],
+              "fan_review": [],
+              "branch_lexicon": {
+                "language": "middle-english",
+                "source": "data/branch-lexicons/middle-english.json",
+                "lookup_path": "الصورةُ بنصِّها",
+                "entries": [
+                  {
+                    "word": "age",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "The age of someone (or rarely something); how old someone is.؛ The correct or traditional age for something (especially the age of maturity)؛ Old age or senescence; the state of being old or elderly.",
+                    "etym": "Borrowed from Old French aage, from Vulgar Latin *aetāticum, derived from Latin aetātem."
+                  }
+                ]
+              },
+              "dialect_additions": 0,
+              "positives": []
+            }
+          ],
+          "target_card_id": "JAS-IE-001-024",
+          "target_manifest": "jassem-indo-european-batch-001.json",
+          "target_language": "middle-english",
+          "target_kind": "jassem",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
+        }
       ]
     },
     {

@@ -26,8 +26,8 @@
     "new_card_rows": 32,
     "supplement_blocks": 20,
     "new_cards": 26,
-    "new_positive_cards": 2,
-    "new_positive_roots": 2,
+    "new_positive_cards": 1,
+    "new_positive_roots": 1,
     "ranked_candidates_in_new_or_supplemental_full_fans": 1515,
     "fan_with_dialect_additions": 0,
     "frozen_event_tiers": {
@@ -42,7 +42,12 @@
       "middle-english": 8,
       "old-latin": 11,
       "old-norse": 4
-    }
+    },
+    "baseline_positive_cards_before_branch_dictionary": 2,
+    "converted_after_branch_dictionary_sense": 0,
+    "retained_positive_cards_after_branch_dictionary": 1,
+    "revoked_positive_cards_after_branch_dictionary": 1,
+    "loanword_cards_closed_by_branch_dictionary": 1
   },
   "already_embedded": [
     {
@@ -17380,12 +17385,294 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "avarij",
+            "entries": [
+              {
+                "word": "verja",
+                "read": "",
+                "pos": "verb",
+                "en": "to defend؛ to defend a case؛ to thwart",
+                "etym": "From Proto-Germanic *warjaną."
+              },
+              {
+                "word": "verja",
+                "read": "",
+                "pos": "noun",
+                "en": "defense",
+                "etym": "From Proto-Germanic *warjaną."
+              },
+              {
+                "word": "verja",
+                "read": "",
+                "pos": "verb",
+                "en": "to wrap, enclose؛ to invest money, expend",
+                "etym": "From Proto-Germanic *wazjaną, from Proto-Indo-European *woséyeti, of the root *wes- (“to dress, clothe”). Akin to Gothic 𐍅𐌰𐍃𐌾𐌰𐌽 (wasjan) and Albanian vesh."
+              },
+              {
+                "word": "verja",
+                "read": "",
+                "pos": "noun",
+                "en": "outer garment, cloak",
+                "etym": "From Proto-Germanic *wazjaną, from Proto-Indo-European *woséyeti, of the root *wes- (“to dress, clothe”). Akin to Gothic 𐍅𐌰𐍃𐌾𐌰𐌽 (wasjan) and Albanian vesh."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      },
+      "later_comparative_supplements": [
+        {
+          "batch": 5,
+          "category": "cross-european",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            2691
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 2691,
+              "source_row_key": "a44132be802244b8dca34d35",
+              "foreign": "avarij",
+              "foreign_sense": "متوسط؛ عوار أو ضرر في البضاعة",
+              "tongue_ar": "الرومانيّات والجرمانيّات والإنكليزيّة",
+              "arabic_root": "عور / عوارية",
+              "arabic_gloss": "تتبّع average إلى عوارية وعوار البضاعة ثم تقدير التعويض.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 450,
+              "assigned_language": "old-norse",
+              "assignment_reason": "cited spelling gives a specific European branch inside a mixed or generic cluster"
+            }
+          ],
+          "forms": [
+            {
+              "form": "avarij",
+              "normalized_form": "avarij",
+              "script": "germanic",
+              "skeleton": [
+                "v",
+                "r",
+                "j"
+              ],
+              "fan_review": [
+                {
+                  "root": "وري",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«و»: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.؛ «ر»: خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.؛ «ي»: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "لا الجذرُ «وري» في الـ2,285 ولا نواتُه «ور» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ورج",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 4,
+                  "event_tier_ar": "محاكمُ الحروف",
+                  "event_source": "data/juthoor-canonical-registry.json",
+                  "event_text": "«و»: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.؛ «ر»: خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.؛ «ج»: اجتماعُ وسطِ اللسانِ بوسطِ الحنكِ يحبسُ النفَسَ في جوفِ الفمِ ثمّ ينبثقُ عنه بارزًا مسترسلًا",
+                  "event_note": "لا الجذرُ «ورج» في الـ2,285 ولا نواتُه «ور» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ولي",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "لزوم الشيء شيئًا آخر تبعًا له مع نحو من الاشتمال",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "ولج",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "الدخول في فجوة كثيفة الإحاطة تخفي وتستر",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "فري",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الفصل أو التفريق بين ما هو ملتق أو ملتحم؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "الجذرُ «فري» ليس في الـ2,285، فنُزِلَ إلى نواتِه «فر» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "فرج",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "انفتاح - أو متسع - في أثناء جرم كثيف، أو بين أجرام",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "فلي",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "انفصال ندورًا أو نتوءًا مع ضعف؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "الجذرُ «فلي» ليس في الـ2,285، فنُزِلَ إلى نواتِه «فل» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "فلج",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "انفصال ندورًا أو نتوءًا مع ضعف؛ والحرفُ الثالثُ «ج» حدثُه: اجتماعُ وسطِ اللسانِ بوسطِ الحنكِ يحبسُ النفَسَ في جوفِ الفمِ ثمّ ينبثقُ عنه بارزًا مسترسلًا",
+                  "event_note": "الجذرُ «فلج» ليس في الـ2,285، فنُزِلَ إلى نواتِه «فل» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بري",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "التجرد والخلوص؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+                  "event_note": "الجذرُ «بري» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بر» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "برج",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بلي",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "شدة تَحُوز الشيء - أو حَوْز الشيء بشدة - لمدى طويل",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "بلج",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "التمكن والحَوْز بشدة؛ والحرفُ الثالثُ «ج» حدثُه: اجتماعُ وسطِ اللسانِ بوسطِ الحنكِ يحبسُ النفَسَ في جوفِ الفمِ ثمّ ينبثقُ عنه بارزًا مسترسلًا",
+                  "event_note": "الجذرُ «بلج» ليس في الـ2,285، فنُزِلَ إلى نواتِه «بل» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "branch_lexicon": {
+                "language": "old-norse",
+                "source": "data/branch-lexicons/old-norse.json",
+                "lookup_path": "هيكلٌ مطابق",
+                "entries": [
+                  {
+                    "word": "verja",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to defend؛ to defend a case؛ to thwart",
+                    "etym": "From Proto-Germanic *warjaną."
+                  },
+                  {
+                    "word": "verja",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "defense",
+                    "etym": "From Proto-Germanic *warjaną."
+                  },
+                  {
+                    "word": "verja",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to wrap, enclose؛ to invest money, expend",
+                    "etym": "From Proto-Germanic *wazjaną, from Proto-Indo-European *woséyeti, of the root *wes- (“to dress, clothe”). Akin to Gothic 𐍅𐌰𐍃𐌾𐌰𐌽 (wasjan) and Albanian vesh."
+                  },
+                  {
+                    "word": "verja",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "outer garment, cloak",
+                    "etym": "From Proto-Germanic *wazjaną, from Proto-Indo-European *woséyeti, of the root *wes- (“to dress, clothe”). Akin to Gothic 𐍅𐌰𐍃𐌾𐌰𐌽 (wasjan) and Albanian vesh."
+                  }
+                ]
+              },
+              "dialect_additions": 0,
+              "positives": []
+            }
+          ],
+          "target_card_id": "CMP-IE-001-001",
+          "target_manifest": "comparative-indo-european-batch-001.json",
+          "target_language": "old-norse",
+          "target_kind": "comparative",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
+        }
+      ]
     },
     {
       "card_id": "CMP-IE-001-002",
@@ -17428,12 +17715,27 @@
           ],
           "fan_review": [],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "spjgr",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-003",
@@ -18308,7 +18610,16 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "لا مدخل",
+            "query": "spegel",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
@@ -19639,7 +19950,13 @@
           "target_kind": "comparative",
           "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
         }
-      ]
+      ],
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-004",
@@ -21240,12 +21557,112 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "Egitto",
+            "entries": [
+              {
+                "word": "git",
+                "read": "",
+                "pos": "noun",
+                "en": "A plant (Nigella sativa), variously named black cumin, Roman coriander, or melanthion.",
+                "etym": ""
+              },
+              {
+                "word": "agat",
+                "read": "",
+                "pos": "verb",
+                "en": "third-person singular present active subjunctive of agō؛ it is going on, it is taking place, it takes place؛ it is being done, it is being made (continuously)",
+                "etym": ""
+              },
+              {
+                "word": "agito",
+                "read": "",
+                "pos": "verb",
+                "en": "to act, behave, do, or make persistently or unremittingly؛ to put something in motion, drive, impel; drive by rowing, row about; shake, throb؛ to brandish, wield",
+                "etym": "From agō (“do, act, make”) + -itō (frequentative suffix). See actus."
+              },
+              {
+                "word": "gutta",
+                "read": "",
+                "pos": "noun",
+                "en": "a drop (of fluid)؛ a teardrop؛ spots or specks (of an animal or stone)",
+                "etym": "Of unknown origin. May be related to Old Armenian կաթն (katʻn, “milk”), or may have some connection to Proto-Indo-European *ǵʰewd- (“to pour”)."
+              },
+              {
+                "word": "Getae",
+                "read": "",
+                "pos": "name",
+                "en": "A Dacian tribe inhabiting the regions of the lower Danube.",
+                "etym": "From Ancient Greek Γέται (Gétai)."
+              },
+              {
+                "word": "Egeta",
+                "read": "",
+                "pos": "name",
+                "en": "a town of Moesia situated on the river Danube",
+                "etym": ""
+              },
+              {
+                "word": "iugatio",
+                "read": "",
+                "pos": "noun",
+                "en": "a binding؛ a kind of land tax in classical times",
+                "etym": "From iugō (“I bind”) + -tiō."
+              },
+              {
+                "word": "Getta",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Phoenicia, mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "Geta",
+                "read": "",
+                "pos": "name",
+                "en": "A Roman cognomen — famously held by:؛ Geta, a Roman emperor؛ Gnaeus Hosidius Geta, a Roman senator",
+                "etym": ""
+              },
+              {
+                "word": "Giti",
+                "read": "",
+                "pos": "name",
+                "en": "A town of Syrtica mentioned in the Antonine Itinerary",
+                "etym": ""
+              },
+              {
+                "word": "Gattaei",
+                "read": "",
+                "pos": "name",
+                "en": "An Arabian tribe mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "goetia",
+                "read": "",
+                "pos": "noun",
+                "en": "magic, sorcery, witchcraft",
+                "etym": "From Ancient Greek γοητεία (goēteía, “witchcraft”), from γόης (góēs, “sorceror”)."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-005",
@@ -21366,12 +21783,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "maçonnerie",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-006",
@@ -21421,7 +21853,7 @@
               "event_source": "computational/data/layer_2_results_v2.jsonl",
               "event_text": "بروز ناصع قوي من بين ما يكتنفه في ظاهر الشيء",
               "event_note": "",
-              "meaning": "✓",
+              "meaning": "×",
               "dialect_label": null
             },
             {
@@ -21517,7 +21949,67 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": [
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "bourge",
+            "entries": [
+              {
+                "word": "abrogo",
+                "read": "",
+                "pos": "verb",
+                "en": "to abolish, abrogate, annul (all parts); recall؛ to take away, deprive (of)",
+                "etym": "From ab- (“from, away from”) + rogō (“ask, enquire”)."
+              },
+              {
+                "word": "obiurgo",
+                "read": "",
+                "pos": "verb",
+                "en": "to chide, scold, rebuke, reprimand؛ to chastise, punish؛ to dissuade or deter one from any thing, by means of reproof",
+                "etym": "From ob- (“to, against”) + iūrgō (“dispute, chide”)."
+              },
+              {
+                "word": "abiurgo",
+                "read": "",
+                "pos": "verb",
+                "en": "to deny or refuse reproachfully؛ to take away (in settlement)",
+                "etym": "From ab- (“from, away from”) + iūrgō (“quarrel, dispute; sue; chide”), from iūs (“law, right, duty”)."
+              },
+              {
+                "word": "obrogo",
+                "read": "",
+                "pos": "verb",
+                "en": "to propose a new law, partly to repeal an existing law; evade, weaken, invalidate or abrogate a law؛ to oppose or obstruct the passage of a bill",
+                "etym": "From ob- + rogō (“ask; request”)."
+              },
+              {
+                "word": "borago",
+                "read": "",
+                "pos": "noun",
+                "en": "Borago officinalis, borage",
+                "etym": "From Arabic أَبُو الْعَرَق (ʔabū l-ʕaraq)."
+              },
+              {
+                "word": "bragio",
+                "read": "",
+                "pos": "verb",
+                "en": "bray, make animal noises؛ cry, weep",
+                "etym": "Borrowed from Gaulish *bragiū, from Proto-Celtic *bragyeti (“to flatulate”)."
+              },
+              {
+                "word": "Bragae",
+                "read": "",
+                "pos": "name",
+                "en": "a group of islands off the coast of Arabia",
+                "etym": ""
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          },
+          "revoked_positives": [
             {
               "root": "برج",
               "closure": "ROOT-TRACE",
@@ -21538,7 +22030,16 @@
           ]
         }
       ],
-      "positives": [
+      "positives": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      },
+      "revoked_positives": [
         {
           "root": "برج",
           "closure": "ROOT-TRACE",
@@ -21557,8 +22058,13 @@
           "event_note": ""
         }
       ],
-      "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "revocation": {
+        "date": "2026-08-14",
+        "reason": "قاموس الفرع لا يسند المعنى الذي قام عليه المدار السابق",
+        "tool": "scripts/build_kaikki_index.py"
+      },
+      "blocker_type": "BRANCH-LEXICON-MISMATCH",
+      "required": "مدخل قاموس فرع يوافق سياق الصف ثم مدار ينسخ معناه"
     },
     {
       "card_id": "CMP-IE-001-007",
@@ -21683,7 +22189,24 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "ancient-greek",
+            "source": "data/branch-lexicons/ancient-greek.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "ammoneakon",
+            "entries": [
+              {
+                "word": "ἀμμωνιακόν",
+                "read": "ammōnĭăkón",
+                "pos": "noun",
+                "en": "ammoniacum, a kind of gum resin؛ Ferula marmarica, a plant producing this resin",
+                "etym": "Genericized neuter form of Ἀμμωνῐᾰκός (Ammōnĭăkós, “of Ammon”)."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         },
         {
           "form": "مونياكا",
@@ -21692,7 +22215,16 @@
           "skeleton": [],
           "fan_review": [],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "ancient-greek",
+            "source": "data/branch-lexicons/ancient-greek.json",
+            "lookup_path": "لا مدخل",
+            "query": "مونياكا",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         },
         {
           "form": "كونياكا",
@@ -21701,12 +22233,27 @@
           "skeleton": [],
           "fan_review": [],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "ancient-greek",
+            "source": "data/branch-lexicons/ancient-greek.json",
+            "lookup_path": "لا مدخل",
+            "query": "كونياكا",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-008",
@@ -21852,12 +22399,270 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "misura",
+            "entries": [
+              {
+                "word": "miser",
+                "read": "",
+                "pos": "adj",
+                "en": "poor, wretched, pitiful؛ miserable, unhappy؛ worthless, null",
+                "etym": "From Proto-Italic *misseros, of unknown origin. Possibly from a Proto-Indo-European *mh₂isros (“complaining, emotional about”), the same root of Latin maereō, Tocharian B msär (“di"
+              },
+              {
+                "word": "miseria",
+                "read": "",
+                "pos": "noun",
+                "en": "misfortune؛ misery, distress, affliction, wretchedness, unhappiness",
+                "etym": "From miser."
+              },
+              {
+                "word": "misere",
+                "read": "",
+                "pos": "adv",
+                "en": "miserably؛ desperately, urgently",
+                "etym": ""
+              },
+              {
+                "word": "misereo",
+                "read": "",
+                "pos": "verb",
+                "en": "to lament, bewail or deplore؛ to pity or feel sorry for",
+                "etym": "From miser + -eō."
+              },
+              {
+                "word": "messor",
+                "read": "",
+                "pos": "noun",
+                "en": "reaper؛ mower؛ harvester",
+                "etym": "meto (harvest, reap) + -tor (agent noun suffix)"
+              },
+              {
+                "word": "Missuria",
+                "read": "",
+                "pos": "name",
+                "en": "Missouri",
+                "etym": ""
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      },
+      "later_comparative_supplements": [
+        {
+          "batch": 5,
+          "category": "cross-european",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            2795
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 2795,
+              "source_row_key": "9dfdfaceb1c3fc6a19082cfb",
+              "foreign": "misura",
+              "foreign_sense": "قاس؛ مقياس",
+              "tongue_ar": "الرومانيّات والإنكليزيّة",
+              "arabic_root": "متر / مد / مت",
+              "arabic_gloss": "ردّ ألفاظ القياس إلى متر ومد ومت.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 455,
+              "assigned_language": "old-latin",
+              "assignment_reason": "cited spelling gives a specific European branch inside a mixed or generic cluster"
+            }
+          ],
+          "forms": [
+            {
+              "form": "misura",
+              "normalized_form": "misura",
+              "script": "latin",
+              "skeleton": [
+                "m",
+                "s",
+                "r"
+              ],
+              "fan_review": [
+                {
+                  "root": "مسر",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "المخالطة والاتصال؛ والحرفُ الثالثُ «ر» حدثُه: خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.",
+                  "event_note": "الجذرُ «مسر» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مس» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "مسل",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "المخالطة والاتصال؛ والحرفُ الثالثُ «ل» حدثُه: تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.",
+                  "event_note": "الجذرُ «مسل» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مس» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "مشر",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "النفاذ بانتشار من أثناء الشيء؛ والحرفُ الثالثُ «ر» حدثُه: خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.",
+                  "event_note": "الجذرُ «مشر» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مش» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "مشل",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "النفاذ بانتشار من أثناء الشيء؛ والحرفُ الثالثُ «ل» حدثُه: تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.",
+                  "event_note": "الجذرُ «مشل» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مش» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "مصر",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "أخذ الشيء – أو جذبه – بنحو العصر قليلاً قليلاً، أو مرة بعد أخرى، مع استرسال",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "مصل",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "استخلاص الشيء أو أخذه؛ والحرفُ الثالثُ «ل» حدثُه: تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.",
+                  "event_note": "الجذرُ «مصل» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مص» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "مزر",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الجمع أو الفصل والامتلاء؛ والحرفُ الثالثُ «ر» حدثُه: خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.",
+                  "event_note": "الجذرُ «مزر» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مز» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "مزل",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الجمع أو الفصل والامتلاء؛ والحرفُ الثالثُ «ل» حدثُه: تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.",
+                  "event_note": "الجذرُ «مزل» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مز» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "branch_lexicon": {
+                "language": "latin",
+                "source": "data/branch-lexicons/latin.json",
+                "lookup_path": "هيكلٌ مطابق",
+                "entries": [
+                  {
+                    "word": "miser",
+                    "read": "",
+                    "pos": "adj",
+                    "en": "poor, wretched, pitiful؛ miserable, unhappy؛ worthless, null",
+                    "etym": "From Proto-Italic *misseros, of unknown origin. Possibly from a Proto-Indo-European *mh₂isros (“complaining, emotional about”), the same root of Latin maereō, Tocharian B msär (“di"
+                  },
+                  {
+                    "word": "miseria",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "misfortune؛ misery, distress, affliction, wretchedness, unhappiness",
+                    "etym": "From miser."
+                  },
+                  {
+                    "word": "misere",
+                    "read": "",
+                    "pos": "adv",
+                    "en": "miserably؛ desperately, urgently",
+                    "etym": ""
+                  },
+                  {
+                    "word": "misereo",
+                    "read": "",
+                    "pos": "verb",
+                    "en": "to lament, bewail or deplore؛ to pity or feel sorry for",
+                    "etym": "From miser + -eō."
+                  },
+                  {
+                    "word": "messor",
+                    "read": "",
+                    "pos": "noun",
+                    "en": "reaper؛ mower؛ harvester",
+                    "etym": "meto (harvest, reap) + -tor (agent noun suffix)"
+                  },
+                  {
+                    "word": "Missuria",
+                    "read": "",
+                    "pos": "name",
+                    "en": "Missouri",
+                    "etym": ""
+                  }
+                ]
+              },
+              "dialect_additions": 0,
+              "positives": []
+            }
+          ],
+          "target_card_id": "CMP-IE-001-008",
+          "target_manifest": "comparative-indo-european-batch-001.json",
+          "target_language": "old-latin",
+          "target_kind": "comparative",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
+        }
+      ]
     },
     {
       "card_id": "CMP-IE-001-009",
@@ -21900,12 +22705,27 @@
           ],
           "fan_review": [],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "benzolene",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-010",
@@ -21944,12 +22764,27 @@
           ],
           "fan_review": [],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "aere",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-011",
@@ -22304,12 +23139,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "musqat",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-012",
@@ -22605,7 +23455,16 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "jerofel",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         },
         {
           "form": "girofle",
@@ -23036,7 +23895,16 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "girofle",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         },
         {
           "form": "garofolo",
@@ -23467,7 +24335,16 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "garofolo",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         },
         {
           "form": "cariofillo",
@@ -23638,12 +24515,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "cariofillo",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-013",
@@ -23711,12 +24603,56 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "الصورةُ بنصِّها",
+            "query": "ambra",
+            "entries": [
+              {
+                "word": "ambra",
+                "read": "",
+                "pos": "noun",
+                "en": "amber (fossil resin)؛ ambergris",
+                "etym": "From Arabic عَنْبَر (ʕanbar, “ambergris”), from Middle Persian ʾmbl (ambar, “ambergris”)."
+              }
+            ],
+            "selected": {
+              "word": "ambra",
+              "read": "",
+              "pos": "noun",
+              "en": "amber (fossil resin)؛ ambergris",
+              "etym": "From Arabic عَنْبَر (ʕanbar, “ambergris”), from Middle Persian ʾmbl (ambar, “ambergris”)."
+            },
+            "selection": "اختير `ambra` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها."
+          }
         }
       ],
       "positives": [],
-      "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "closure": "LOANWORD",
+      "judgment": "LOANWORD",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      },
+      "loanword": {
+        "donor": "Arabic",
+        "donor_form": "عَنْبَر",
+        "branch_entry": {
+          "word": "ambra",
+          "read": "",
+          "pos": "noun",
+          "en": "amber (fossil resin)؛ ambergris",
+          "etym": "From Arabic عَنْبَر (ʕanbar, “ambergris”), from Middle Persian ʾmbl (ambar, “ambergris”)."
+        },
+        "evidence": "From Arabic عَنْبَر (ʕanbar, “ambergris”), from Middle Persian ʾmbl (ambar, “ambergris”).",
+        "counted_link": false
+      },
+      "blocker_type": null,
+      "required": null
     },
     {
       "card_id": "CMP-IE-001-014",
@@ -23786,12 +24722,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "ancient-greek",
+            "source": "data/branch-lexicons/ancient-greek.json",
+            "lookup_path": "لا مدخل",
+            "query": "kyminon",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-015",
@@ -24458,12 +25409,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "talkum",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-016",
@@ -24661,12 +25627,119 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "capre",
+            "entries": [
+              {
+                "word": "caper",
+                "read": "",
+                "pos": "noun",
+                "en": "he-goat (a male goat, a billy goat)",
+                "etym": "From Proto-Italic *kapros, from Proto-Indo-European *kápros (“buck, he-goat”). Cognate with Ancient Greek κάπρος (kápros, “boar”), Proto-Germanic *hafraz (“he-goat”), and Proto-Ira"
+              },
+              {
+                "word": "capra",
+                "read": "",
+                "pos": "noun",
+                "en": "she-goat, nanny goat (a female goat)؛ the odor of armpits",
+                "etym": "From caper (“billy goat, he-goat”) + -a (suffix forming feminine versions of nouns)."
+              },
+              {
+                "word": "caprea",
+                "read": "",
+                "pos": "noun",
+                "en": "a roe deer",
+                "etym": "From caper (“he-goat”) + -ea."
+              },
+              {
+                "word": "cooperio",
+                "read": "",
+                "pos": "verb",
+                "en": "to cover wholly or over, overwhelm, clothe",
+                "etym": "From con- (“together, with”) + operiō (“cover”)."
+              },
+              {
+                "word": "aucupor",
+                "read": "",
+                "pos": "verb",
+                "en": "to go bird-catching or fowling؛ to catch or take bees؛ to chase, strive for; to be on the lookout, lie in wait or watch for",
+                "etym": "From auceps (“bird-catcher”) + -ō."
+              },
+              {
+                "word": "aucupare",
+                "read": "",
+                "pos": "verb",
+                "en": "second-person singular present active imperative/indicative of aucupor",
+                "etym": ""
+              },
+              {
+                "word": "Cupra",
+                "read": "",
+                "pos": "name",
+                "en": "epithet of Juno among Etruscans؛ a town in Picenum situated on the Adriatic coast",
+                "etym": "From Etruscan, probably from Proto-Indo-European *kwep- (“to smoke, boil, move violently”), the same root in the verb cupiō."
+              },
+              {
+                "word": "Copori",
+                "read": "",
+                "pos": "name",
+                "en": "A tribe of Gallaecia, Hispania Tarraconensis",
+                "etym": "From Paleo-Hispanic, perhaps from Proto-Celtic *kʷokʷo- (“to bake”), from Proto-Indo-European *pekʷ-."
+              },
+              {
+                "word": "Capara",
+                "read": "",
+                "pos": "name",
+                "en": "A city of the Vettones in Lusitania, situated on the road from Augusta Emerita to Caesaraugusta",
+                "etym": ""
+              },
+              {
+                "word": "Capori",
+                "read": "",
+                "pos": "name",
+                "en": "A tribe of Gallaecia mentioned by Ptolemy",
+                "etym": "Borrowed from Ancient Greek Καποροί (Kaporoí)."
+              },
+              {
+                "word": "capero",
+                "read": "",
+                "pos": "verb",
+                "en": "to wrinkle; to wrinkle up؛ to furl (sails)؛ to be or become wrinkled",
+                "etym": ""
+              },
+              {
+                "word": "Caper",
+                "read": "",
+                "pos": "name",
+                "en": "A masculine cognomen — famously held by؛ A masculine cognomen — famously held by:؛ Flavius Caper (fl. 2nd century CE), a Roman grammarian",
+                "etym": "From caper (“he-goat”)."
+              },
+              {
+                "word": "Capreae",
+                "read": "",
+                "pos": "name",
+                "en": "Capri (an island in the Gulf of Naples; part of Campania.)",
+                "etym": "Said to be from either: * Ancient Greek κάπρος (kápros, “wild boar”). * Etruscan 𐌂𐌀𐌐𐌓𐌀 (capra). * Latin capreae (“goats”)."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-017",
@@ -24864,12 +25937,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "kaper",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-018",
@@ -25015,12 +26103,42 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "bluse",
+            "entries": [
+              {
+                "word": "blase",
+                "read": "",
+                "pos": "noun",
+                "en": "A blaze (bright, flaming fire)؛ A lamp or beacon (fire used as lighting).؛ A bright thing or object.",
+                "etym": "From Old English blæse, blase, from Proto-West Germanic *blasā, from Proto-Germanic *blasǭ."
+              },
+              {
+                "word": "blisse",
+                "read": "",
+                "pos": "noun",
+                "en": "Bliss, joy; the state of being happy:؛ An instance or source of happiness.؛ Abundance, plentitude.",
+                "etym": "From Old English blīds, blīss (“joy”) from Proto-West Germanic *blīþisi. The final vowel is generalised from the Old English oblique forms."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-019",
@@ -25374,12 +26492,35 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "kietel",
+            "entries": [
+              {
+                "word": "ketel",
+                "read": "",
+                "pos": "noun",
+                "en": "A pot used to boil food in; a kettle.",
+                "etym": "From Old English ċietel, ċetel and possibly reinforced by cognate Old Norse ketill, both from Proto-Germanic *katilaz, from Late Latin catīllus."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-020",
@@ -25540,7 +26681,16 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "Safian",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         },
         {
           "form": "Safiann",
@@ -25658,12 +26808,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "Safiann",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-021",
@@ -25879,14 +27044,37 @@
               "event_tier_ar": "جذرٌ في الـ2,285",
               "event_note": ""
             }
-          ]
+          ],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "furka",
+            "entries": [
+              {
+                "word": "forke",
+                "read": "",
+                "pos": "noun",
+                "en": "A fork or graip (implement used for digging).؛ A gibbet or gallows.؛ A fork-shaped fire iron.",
+                "etym": "From Old English force, from Proto-West Germanic *furkō, from Latin furca; also influenced by Anglo-Norman forque and Old French forche, both from the same Latin word."
+              }
+            ],
+            "selected": {
+              "word": "forke",
+              "read": "",
+              "pos": "noun",
+              "en": "A fork or graip (implement used for digging).؛ A gibbet or gallows.؛ A fork-shaped fire iron.",
+              "etym": "From Old English force, from Proto-West Germanic *furkō, from Latin furca; also influenced by Anglo-Norman forque and Old French forche, both from the same Latin word."
+            },
+            "selection": "اختير `forke` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها."
+          }
         }
       ],
       "positives": [
         {
           "root": "فرق",
           "closure": "ROOT-TRACE",
-          "branch_meaning": "`furka` في نقل المصدر: شوكة أو شُعبة أو فرع أو أداة متشعبة",
+          "branch_meaning": "`forke` [noun] في قاموس الفرع: «A fork or graip (implement used for digging).؛ A gibbet or gallows.؛ A fork-shaped fire iron.»",
           "orbit": "الشوكة المتشعبة تنفصل إلى فرعين؛ فهي هيئة ظاهرة لحدث `فرق` في الفصل الواصل إلى العمق.",
           "sound_route": "f↔ف=`IDN-06`؛ r↔ر=`IDN-01`؛ k↔ق=`GUT-01`",
           "sound_searches": [
@@ -25898,11 +27086,26 @@
           "event_source": "computational/data/layer_2_results_v2.jsonl",
           "event_tier": 1,
           "event_tier_ar": "جذرٌ في الـ2,285",
-          "event_note": ""
+          "event_note": "",
+          "branch_dictionary": "data/branch-lexicons/middle-english.json",
+          "branch_dictionary_path": "هيكلٌ مطابق",
+          "branch_dictionary_entry": {
+            "word": "forke",
+            "read": "",
+            "pos": "noun",
+            "en": "A fork or graip (implement used for digging).؛ A gibbet or gallows.؛ A fork-shaped fire iron.",
+            "etym": "From Old English force, from Proto-West Germanic *furkō, from Latin furca; also influenced by Anglo-Norman forque and Old French forche, both from the same Latin word."
+          }
         }
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-022",
@@ -26257,12 +27460,49 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "forkr",
+            "entries": [
+              {
+                "word": "frekr",
+                "read": "",
+                "pos": "adj",
+                "en": "brazen; shameless or impudent; shocking or audacious؛ enterprising, cheeky; brazen, bold; sneaky؛ greedy; covetous, desirous",
+                "etym": "From Proto-Germanic *frekaz, whence also Old English frec, Old High German freh, Middle High German vrech, German frech. Also the root for the wolf Freki of Norse Mythology."
+              },
+              {
+                "word": "frakkar",
+                "read": "",
+                "pos": "noun",
+                "en": "Franks",
+                "etym": "From Proto-Germanic *frankô m (“spear, javelin; Frank”), whence also Old Norse frakka f (“spear”). The link between the name of a weapon and a Germanic people group is also seen wi"
+              },
+              {
+                "word": "frakkr",
+                "read": "",
+                "pos": "adj",
+                "en": "brave, undaunted",
+                "etym": "Related to frekr (“greedy, covetous”)"
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-023",
@@ -26825,12 +28065,77 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "ancient-greek",
+            "source": "data/branch-lexicons/ancient-greek.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "plakois",
+            "entries": [
+              {
+                "word": "πέλεκυς",
+                "read": "pélekŭs",
+                "pos": "noun",
+                "en": "two-edged axe for felling trees؛ battle axe, executioner's axe",
+                "etym": "Uncertain: Compare Sanskrit परशु (paraśú, “axe”) and Ossetian фӕрӕт (færæt, “axe”), pointing to a late, dialectal Proto-Indo-European word like *peleḱu- which does not appear to be"
+              },
+              {
+                "word": "πηλίκος",
+                "read": "pēlĭ́kos",
+                "pos": "adj",
+                "en": "how great؛ of what magnitude؛ of what age",
+                "etym": "From Proto-Indo-European *kʷo- (“interrogative, relative stem”) and maybe *h₂el- (“to grow”). Cognate with Latin quālis."
+              },
+              {
+                "word": "πωλικός",
+                "read": "pōlikós",
+                "pos": "adj",
+                "en": "Of or pertaining to foals.؛ Of or pertaining to girls.",
+                "etym": "From πῶλος (pôlos, “foal, young horse”) + -ῐκός (-ĭkós)."
+              },
+              {
+                "word": "Πήληκες",
+                "read": "Pḗlēkes",
+                "pos": "name",
+                "en": "Peleces, Attica, Greece",
+                "etym": ""
+              },
+              {
+                "word": "πελεκᾶς",
+                "read": "pelekâs",
+                "pos": "noun",
+                "en": "kind of woodpecker",
+                "etym": "Probably from the same Pre-Greek root of other similar bird names, like πελεκανός (pelekanós, “coot”), πελεκάν (pelekán, “pelican”) and πελεκῖνος (pelekînos, “pelican”)."
+              },
+              {
+                "word": "πλακόεις",
+                "read": "plăkóeis",
+                "pos": "adj",
+                "en": "flat",
+                "etym": "From πλάξ (pláx) + -εις (-eis)."
+              },
+              {
+                "word": "πλακοῦς",
+                "read": "plăkoûs",
+                "pos": "noun",
+                "en": "flat cake",
+                "etym": "Substantivization and contraction of πλακόεις (plakóeis, “flat”)."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-024",
@@ -27497,12 +28802,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "hôpital",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-025",
@@ -28063,12 +29383,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "لا مدخل",
+            "query": "papper",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-001-026",
@@ -28214,12 +29549,56 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "papier",
+            "entries": [
+              {
+                "word": "pauper",
+                "read": "",
+                "pos": "adj",
+                "en": "poor",
+                "etym": "From Proto-Italic *pawoparos (a thematic adjective, which was switched to the third declension in Latin analogically), from a compound beginning with Proto-Indo-European *peh₂w- (“"
+              },
+              {
+                "word": "piper",
+                "read": "",
+                "pos": "noun",
+                "en": "pepper",
+                "etym": "Borrowed from Ancient Greek πέπερι (péperi, “pepper”), via Middle Persian from an Indo-Aryan source, ultimately from Sanskrit पिप्पलि (pippali, “long pepper”), itself of unknown or"
+              },
+              {
+                "word": "paupero",
+                "read": "",
+                "pos": "verb",
+                "en": "to impoverish, to make poor",
+                "etym": "From pauper + -ō."
+              },
+              {
+                "word": "opipare",
+                "read": "",
+                "pos": "adv",
+                "en": "richly, sumptuously",
+                "etym": "opiparus + -ē"
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     }
   ],
   "touched_prior_manifests": [
@@ -28227,5 +29606,13 @@
     "khashim-indo-european-batch-002.json",
     "khashim-indo-european-batch-003.json",
     "khashim-indo-european-batch-007.json"
-  ]
+  ],
+  "branch_dictionary": "data/branch-lexicons/ via scripts/build_kaikki_index.py",
+  "branch_dictionary_recheck": {
+    "date": "2026-08-14",
+    "converted": 0,
+    "retained": 1,
+    "revoked": 1,
+    "loanword_closures": 1
+  }
 }

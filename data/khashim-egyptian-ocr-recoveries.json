@@ -1,0 +1,1427 @@
+{
+ "schema": "khashim-egyptian-ocr-recovery-v1",
+ "generated_by": "scripts/recover_khashim_egyptian_ocr.py",
+ "book": "علي فهمي خشيم، «البرهان على عروبة اللغة المصرية القديمة»",
+ "old_source": "Resources/prior-art/ocr-egyptian2/full.md",
+ "new_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md",
+ "source_pdf_archive_item": "AAlexandrina-067891",
+ "old_rows": 938,
+ "new_rows": 3457,
+ "aligned_rows": 398,
+ "new_parser": "page-column-layout",
+ "restored_unique_rows": 38,
+ "restored_fields": {
+  "foreign": 22,
+  "foreign_sense": 19
+ },
+ "contract": "رصف عمودي رتيب داخل الصفحة بلا إعادة استعمال؛ الجذر والشرح العربيان مرساتان؛ ولا يبدل إلا حقل يزيل عيبًا مسجلًا؛ الرأس الإنجليزي البنيوي والرمز غير المتحقق بصريًا لا يبدلان",
+ "recoveries": [
+  {
+   "index": 47,
+   "arabic_root": "إشم",
+   "registered_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "𓀀, 𓀀, o"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "𓀀, 𓀀, o",
+     "recovered": "M. 114, 𓀀, M. 201, 559, N. 1160, 1166, 𓀀, U. 488, T. 193, to make to go"
+    }
+   },
+   "old_location": {
+    "page": 127,
+    "line": 5721
+   },
+   "new_location": {
+    "page": 130,
+    "line": 6706
+   },
+   "matched_new_row": 435,
+   "alignment_score": 25.40678,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.135593,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 2.966667,
+    "phonetic_pair_score": 0
+   }
+  },
+  {
+   "index": 65,
+   "arabic_root": "باربار",
+   "registered_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀",
+     "recovered": "to soak, to macerate, to boil; Copt. δερδερ"
+    }
+   },
+   "old_location": {
+    "page": 154,
+    "line": 7076
+   },
+   "new_location": {
+    "page": 157,
+    "line": 7962
+   },
+   "matched_new_row": 592,
+   "alignment_score": 25.123711,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.041237,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 3.0,
+    "phonetic_pair_score": 0
+   }
+  },
+  {
+   "index": 115,
+   "arabic_root": "تبي",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign": "tepi renp-t",
+    "foreign_sense": "𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "tepi renp-t",
+     "recovered": "tepi"
+    },
+    "foreign_sense": {
+     "legacy": "𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀",
+     "recovered": "the first day of a period of time:—"
+    }
+   },
+   "old_location": {
+    "page": 224,
+    "line": 11187
+   },
+   "new_location": {
+    "page": 227,
+    "line": 11255
+   },
+   "matched_new_row": 885,
+   "alignment_score": 39.582003,
+   "alignment_evidence": {
+    "foreign_similarity": 0.615385,
+    "sense_similarity": 0.0,
+    "arabic_gloss_similarity": 0.962264,
+    "page_delta": 3,
+    "layout_pair_score": 18.8,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 173,
+   "arabic_root": "حنت",
+   "registered_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "𓊖𓊖𓊖𓊖𓊖, evil, greed, avarice, hostility"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "𓊖𓊖𓊖𓊖𓊖, evil, greed, avarice, hostility",
+     "recovered": "Peasant 291, evil, greed, avarice, hostility"
+    }
+   },
+   "old_location": {
+    "page": 290,
+    "line": 14165
+   },
+   "new_location": {
+    "page": 293,
+    "line": 13996
+   },
+   "matched_new_row": 1114,
+   "alignment_score": 37.383562,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.794521,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 13.0,
+    "phonetic_pair_score": 10
+   }
+  },
+  {
+   "index": 332,
+   "arabic_root": "ذبيتي",
+   "registered_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋",
+     "recovered": "B.D. 189, 22, he who is coffined, i.e., dead"
+    }
+   },
+   "old_location": {
+    "page": 409,
+    "line": 20112
+   },
+   "new_location": {
+    "page": 412,
+    "line": 18995
+   },
+   "matched_new_row": 1471,
+   "alignment_score": 24.583554,
+   "alignment_evidence": {
+    "foreign_similarity": 0.769231,
+    "sense_similarity": 0.091954,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 3.0,
+    "phonetic_pair_score": 0
+   }
+  },
+  {
+   "index": 383,
+   "arabic_root": "سمر",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign": "smer uāti"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "smer uāti",
+     "recovered": "smer"
+    }
+   },
+   "old_location": {
+    "page": 473,
+    "line": 23099
+   },
+   "new_location": {
+    "page": 476,
+    "line": 21277
+   },
+   "matched_new_row": 1682,
+   "alignment_score": 42.901408,
+   "alignment_evidence": {
+    "foreign_similarity": 0.666667,
+    "sense_similarity": 1.0,
+    "arabic_gloss_similarity": 0.985915,
+    "page_delta": 3,
+    "layout_pair_score": 19.0,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 386,
+   "arabic_root": "سمه",
+   "registered_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "; caus"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "; caus",
+     "recovered": "Rec. 26, 79, to make to forget ; caus"
+    }
+   },
+   "old_location": {
+    "page": 473,
+    "line": 23119
+   },
+   "new_location": {
+    "page": 476,
+    "line": 21311
+   },
+   "matched_new_row": 1687,
+   "alignment_score": 41.882353,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.294118,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 19.0,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 398,
+   "arabic_root": "سندت",
+   "registered_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "Herusatef Stele 28"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "Herusatef Stele 28",
+     "recovered": "Herusåtef Stele 28, acacia wood"
+    }
+   },
+   "old_location": {
+    "page": 479,
+    "line": 23527
+   },
+   "new_location": {
+    "page": 482,
+    "line": 21625
+   },
+   "matched_new_row": 1727,
+   "alignment_score": 27.093023,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.697674,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 3.0,
+    "phonetic_pair_score": 0
+   }
+  },
+  {
+   "index": 432,
+   "arabic_root": "ستحن",
+   "registered_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "; caus. of ="
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "; caus. of =",
+     "recovered": "Rec. 15, 178, to sparkle; caus. of ="
+    }
+   },
+   "old_location": {
+    "page": 506,
+    "line": 24764
+   },
+   "new_location": {
+    "page": 509,
+    "line": 22627
+   },
+   "matched_new_row": 1811,
+   "alignment_score": 36.421053,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.473684,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 12.714286,
+    "phonetic_pair_score": 10
+   }
+  },
+  {
+   "index": 434,
+   "arabic_root": "ست حب",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "legacy": {
+    "foreign_sense": "al occasions"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "al occasions",
+     "recovered": "U. 56, ointment used on festal occasions"
+    }
+   },
+   "old_location": {
+    "page": 506,
+    "line": 24776
+   },
+   "new_location": {
+    "page": 509,
+    "line": 22639
+   },
+   "matched_new_row": 1813,
+   "alignment_score": 36.466667,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.488889,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 13.0,
+    "phonetic_pair_score": 10
+   }
+  },
+  {
+   "index": 497,
+   "arabic_root": "سهاي",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign": "s-hai 5"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "s-hai 5",
+     "recovered": "s-hai"
+    }
+   },
+   "old_location": {
+    "page": 544,
+    "line": 26937
+   },
+   "new_location": {
+    "page": 547,
+    "line": 24045
+   },
+   "matched_new_row": 1931,
+   "alignment_score": 27.602837,
+   "alignment_evidence": {
+    "foreign_similarity": 0.888889,
+    "sense_similarity": 0.978723,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 2.962121,
+    "phonetic_pair_score": 0
+   }
+  },
+  {
+   "index": 498,
+   "arabic_root": "سهم",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign": "sehem 6"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "sehem 6",
+     "recovered": "søhem"
+    }
+   },
+   "old_location": {
+    "page": 544,
+    "line": 26941
+   },
+   "new_location": {
+    "page": 547,
+    "line": 24049
+   },
+   "matched_new_row": 1932,
+   "alignment_score": 43.4,
+   "alignment_evidence": {
+    "foreign_similarity": 0.8,
+    "sense_similarity": 1.0,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.94697,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 499,
+   "arabic_root": "سهدت",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign": "s-heṭṭ 7",
+    "foreign_sense": "; see"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "s-heṭṭ 7",
+     "recovered": "s-heṭṭ"
+    },
+    "foreign_sense": {
+     "legacy": "; see",
+     "recovered": "Rec. 17, 44, subjugation; see 𓈓𓈓"
+    }
+   },
+   "old_location": {
+    "page": 544,
+    "line": 26945
+   },
+   "new_location": {
+    "page": 547,
+    "line": 24053
+   },
+   "matched_new_row": 1933,
+   "alignment_score": 25.501466,
+   "alignment_evidence": {
+    "foreign_similarity": 0.909091,
+    "sense_similarity": 0.258065,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 2.931818,
+    "phonetic_pair_score": 0
+   }
+  },
+  {
+   "index": 500,
+   "arabic_root": "سح",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "legacy": {
+    "foreign": "seh 8"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "seh 8",
+     "recovered": "søh"
+    }
+   },
+   "old_location": {
+    "page": 544,
+    "line": 26949
+   },
+   "new_location": {
+    "page": 547,
+    "line": 24057
+   },
+   "matched_new_row": 1934,
+   "alignment_score": 36.755814,
+   "alignment_evidence": {
+    "foreign_similarity": 0.666667,
+    "sense_similarity": 0.918605,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 12.916667,
+    "phonetic_pair_score": 10
+   }
+  },
+  {
+   "index": 501,
+   "arabic_root": "سح",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "legacy": {
+    "foreign": "seh 10"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "seh 10",
+     "recovered": "søh"
+    }
+   },
+   "old_location": {
+    "page": 544,
+    "line": 26953
+   },
+   "new_location": {
+    "page": 547,
+    "line": 24061
+   },
+   "matched_new_row": 1935,
+   "alignment_score": 35.54964,
+   "alignment_evidence": {
+    "foreign_similarity": 0.571429,
+    "sense_similarity": 0.680412,
+    "arabic_gloss_similarity": 0.970588,
+    "page_delta": 3,
+    "layout_pair_score": 12.901515,
+    "phonetic_pair_score": 10
+   }
+  },
+  {
+   "index": 590,
+   "arabic_root": "عر",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign": "with two leaves"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "with two leaves",
+     "recovered": "ār"
+    }
+   },
+   "old_location": {
+    "page": 630,
+    "line": 31329
+   },
+   "new_location": {
+    "page": 633,
+    "line": 27910
+   },
+   "matched_new_row": 2359,
+   "alignment_score": 39.21875,
+   "alignment_evidence": {
+    "foreign_similarity": 0.0,
+    "sense_similarity": 0.40625,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 19.0,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 602,
+   "arabic_root": "عش",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "legacy": {
+    "foreign": "āsh wicked word"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "āsh wicked word",
+     "recovered": "Āsha"
+    }
+   },
+   "old_location": {
+    "page": 638,
+    "line": 32070
+   },
+   "new_location": {
+    "page": 641,
+    "line": 28183
+   },
+   "matched_new_row": 2369,
+   "alignment_score": 39.058824,
+   "alignment_evidence": {
+    "foreign_similarity": 0.352941,
+    "sense_similarity": 0.0,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.875,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 658,
+   "arabic_root": "كنكن",
+   "registered_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀",
+     "recovered": "𓀀𓀉𓀀, P.S.B. 12, 83, to sing to a beaten drum, to clap the hands rhythmically"
+    }
+   },
+   "old_location": {
+    "page": 691,
+    "line": 34723
+   },
+   "new_location": {
+    "page": 694,
+    "line": 30124
+   },
+   "matched_new_row": 2552,
+   "alignment_score": 41.106514,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.065041,
+    "arabic_gloss_similarity": 0.987342,
+    "page_delta": 3,
+    "layout_pair_score": 19.0,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 664,
+   "arabic_root": "كت",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign": "ket to be small or little"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "ket to be small or little",
+     "recovered": "ket"
+    }
+   },
+   "old_location": {
+    "page": 694,
+    "line": 34897
+   },
+   "new_location": {
+    "page": 697,
+    "line": 30324
+   },
+   "matched_new_row": 2584,
+   "alignment_score": 39.669933,
+   "alignment_evidence": {
+    "foreign_similarity": 0.26087,
+    "sense_similarity": 0.295775,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 19.0,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 667,
+   "arabic_root": "كتويت",
+   "registered_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "; plur. Litanie 65"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "; plur. Litanie 65",
+     "recovered": "B.D. 167, 26, cooking pot; plur. 10, Litanie 65"
+    }
+   },
+   "old_location": {
+    "page": 694,
+    "line": 34920
+   },
+   "new_location": {
+    "page": 697,
+    "line": 30348
+   },
+   "matched_new_row": 2590,
+   "alignment_score": 32.666667,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.555556,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 9.0,
+    "phonetic_pair_score": 6
+   }
+  },
+  {
+   "index": 668,
+   "arabic_root": "كتو",
+   "registered_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign_sense": "åstasen Stele 4, 6"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "åstasen Stele 4, 6",
+     "recovered": "Nástasen Stele 4, 6, also; Copt. KE"
+    }
+   },
+   "old_location": {
+    "page": 695,
+    "line": 34929
+   },
+   "new_location": {
+    "page": 698,
+    "line": 30355
+   },
+   "matched_new_row": 2591,
+   "alignment_score": 42.909091,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.636364,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.25,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 681,
+   "arabic_root": "موت",
+   "registered_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "to die"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "to die",
+     "recovered": "mit death"
+    }
+   },
+   "old_location": {
+    "page": 723,
+    "line": 36311
+   },
+   "new_location": {
+    "page": 726,
+    "line": 31297
+   },
+   "matched_new_row": 2651,
+   "alignment_score": 42.384615,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.461538,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.733333,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 710,
+   "arabic_root": "مرحت",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign": "merḥ-t oil",
+    "foreign_sense": "unguent, grease, suet, fat of any kind; Βρεξι, Δερπε"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "merḥ-t oil",
+     "recovered": "merḥ-tá"
+    },
+    "foreign_sense": {
+     "legacy": "unguent, grease, suet, fat of any kind; Βρεξι, Δερπε",
+     "recovered": "unguent or perfume maker"
+    }
+   },
+   "old_location": {
+    "page": 744,
+    "line": 37548
+   },
+   "new_location": {
+    "page": 747,
+    "line": 32224
+   },
+   "matched_new_row": 2756,
+   "alignment_score": 41.323077,
+   "alignment_evidence": {
+    "foreign_similarity": 0.769231,
+    "sense_similarity": 0.338462,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.856061,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 720,
+   "arabic_root": "مستي",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign": "mesti 19"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "mesti 19",
+     "recovered": "mesti"
+    }
+   },
+   "old_location": {
+    "page": 750,
+    "line": 37961
+   },
+   "new_location": {
+    "page": 753,
+    "line": 32473
+   },
+   "matched_new_row": 2777,
+   "alignment_score": 42.5,
+   "alignment_evidence": {
+    "foreign_similarity": 0.833333,
+    "sense_similarity": 0.666667,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.979798,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 721,
+   "arabic_root": "مست",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "legacy": {
+    "foreign": "mes-t 22"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "mes-t 22",
+     "recovered": "mes-t"
+    }
+   },
+   "old_location": {
+    "page": 750,
+    "line": 37965
+   },
+   "new_location": {
+    "page": 753,
+    "line": 32475
+   },
+   "matched_new_row": 2778,
+   "alignment_score": 41.006742,
+   "alignment_evidence": {
+    "foreign_similarity": 0.8,
+    "sense_similarity": 0.202247,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.939394,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 722,
+   "arabic_root": "مست",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign": "mes-t 1"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "mes-t 1",
+     "recovered": "mes-t"
+    }
+   },
+   "old_location": {
+    "page": 750,
+    "line": 37985
+   },
+   "new_location": {
+    "page": 753,
+    "line": 32485
+   },
+   "matched_new_row": 2781,
+   "alignment_score": 42.715447,
+   "alignment_evidence": {
+    "foreign_similarity": 0.888889,
+    "sense_similarity": 0.682927,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.818182,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 723,
+   "arabic_root": "مس",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign": "mes 1"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "mes 1",
+     "recovered": "mes"
+    }
+   },
+   "old_location": {
+    "page": 750,
+    "line": 37989
+   },
+   "new_location": {
+    "page": 753,
+    "line": 32487
+   },
+   "matched_new_row": 2782,
+   "alignment_score": 43.571429,
+   "alignment_evidence": {
+    "foreign_similarity": 0.857143,
+    "sense_similarity": 1.0,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.858586,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 724,
+   "arabic_root": "مسسيو",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "legacy": {
+    "foreign": "messiu 1"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "messiu 1",
+     "recovered": "messiu"
+    }
+   },
+   "old_location": {
+    "page": 750,
+    "line": 37997
+   },
+   "new_location": {
+    "page": 753,
+    "line": 32491
+   },
+   "matched_new_row": 2784,
+   "alignment_score": 32.384615,
+   "alignment_evidence": {
+    "foreign_similarity": 0.923077,
+    "sense_similarity": 0.538462,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 8.939394,
+    "phonetic_pair_score": 6
+   }
+  },
+  {
+   "index": 725,
+   "arabic_root": "مسيت",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "legacy": {
+    "foreign": "mesit 1"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "mesit 1",
+     "recovered": "mesit"
+    }
+   },
+   "old_location": {
+    "page": 750,
+    "line": 38001
+   },
+   "new_location": {
+    "page": 753,
+    "line": 32493
+   },
+   "matched_new_row": 2785,
+   "alignment_score": 41.34492,
+   "alignment_evidence": {
+    "foreign_similarity": 0.909091,
+    "sense_similarity": 0.205882,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.979798,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 737,
+   "arabic_root": "مكر",
+   "registered_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign_sense": "liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar;"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar;",
+     "recovered": "liar; Copt. 𓂀𓂀"
+    }
+   },
+   "old_location": {
+    "page": 759,
+    "line": 38435
+   },
+   "new_location": {
+    "page": 762,
+    "line": 32812
+   },
+   "matched_new_row": 2826,
+   "alignment_score": 40.125245,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.136986,
+    "arabic_gloss_similarity": 0.816327,
+    "page_delta": 3,
+    "layout_pair_score": 18.910714,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 750,
+   "arabic_root": "نأهرا",
+   "registered_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [],
+   "legacy": {
+    "foreign_sense": "; Heb. נְדָר"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "; Heb. נְדָר",
+     "recovered": "Thes. 1202, to flow away; Heb. נָרוּר"
+    }
+   },
+   "old_location": {
+    "page": 772,
+    "line": 39010
+   },
+   "new_location": {
+    "page": 775,
+    "line": 33294
+   },
+   "matched_new_row": 2853,
+   "alignment_score": 25.866384,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.390244,
+    "arabic_gloss_similarity": 0.956522,
+    "page_delta": 3,
+    "layout_pair_score": 3.0,
+    "phonetic_pair_score": 0
+   }
+  },
+  {
+   "index": 765,
+   "arabic_root": "نبو",
+   "registered_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign_sense": "ople"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "ople",
+     "recovered": "Rec. 31, 29, everybody, all people"
+    }
+   },
+   "old_location": {
+    "page": 785,
+    "line": 39701
+   },
+   "new_location": {
+    "page": 788,
+    "line": 33945
+   },
+   "matched_new_row": 2928,
+   "alignment_score": 41.727273,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.242424,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.982143,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 804,
+   "arabic_root": "نقمو",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign": "neqmu mourners"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "neqmu mourners",
+     "recovered": "neqmu"
+    }
+   },
+   "old_location": {
+    "page": 819,
+    "line": 41883
+   },
+   "new_location": {
+    "page": 822,
+    "line": 35256
+   },
+   "matched_new_row": 3044,
+   "alignment_score": 41.408602,
+   "alignment_evidence": {
+    "foreign_similarity": 0.555556,
+    "sense_similarity": 0.580645,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 19.0,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 807,
+   "arabic_root": "نقد",
+   "registered_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign_sense": "Stele 23"
+   },
+   "fields": {
+    "foreign_sense": {
+     "legacy": "Stele 23",
+     "recovered": "Stele 23, to sleep"
+    }
+   },
+   "old_location": {
+    "page": 819,
+    "line": 41903
+   },
+   "new_location": {
+    "page": 822,
+    "line": 35276
+   },
+   "matched_new_row": 3048,
+   "alignment_score": 26.909091,
+   "alignment_evidence": {
+    "foreign_similarity": 1.0,
+    "sense_similarity": 0.636364,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 3.0,
+    "phonetic_pair_score": 0
+   }
+  },
+  {
+   "index": 810,
+   "arabic_root": "نكيت",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "رمز هيروغليفي واحد مكرر بخلل المسح"
+   ],
+   "legacy": {
+    "foreign": "nekit pieces cut off"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "nekit pieces cut off",
+     "recovered": "nekit"
+    }
+   },
+   "old_location": {
+    "page": 819,
+    "line": 41919
+   },
+   "new_location": {
+    "page": 822,
+    "line": 35292
+   },
+   "matched_new_row": 3051,
+   "alignment_score": 39.00592,
+   "alignment_evidence": {
+    "foreign_similarity": 0.454545,
+    "sense_similarity": 0.315789,
+    "arabic_gloss_similarity": 0.813559,
+    "page_delta": 3,
+    "layout_pair_score": 19.0,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 903,
+   "arabic_root": "ومت",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "legacy": {
+    "foreign": "umt ʿ ʿ"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "umt ʿ ʿ",
+     "recovered": "umt"
+    }
+   },
+   "old_location": {
+    "page": 884,
+    "line": 45612
+   },
+   "new_location": {
+    "page": 887,
+    "line": 38498
+   },
+   "matched_new_row": 3375,
+   "alignment_score": 42.317308,
+   "alignment_evidence": {
+    "foreign_similarity": 0.75,
+    "sense_similarity": 0.730769,
+    "arabic_gloss_similarity": 0.982143,
+    "page_delta": 3,
+    "layout_pair_score": 18.897727,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 904,
+   "arabic_root": "ون",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "new_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "legacy": {
+    "foreign": "un ʿ"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "un ʿ",
+     "recovered": "un"
+    }
+   },
+   "old_location": {
+    "page": 884,
+    "line": 45620
+   },
+   "new_location": {
+    "page": 887,
+    "line": 38506
+   },
+   "matched_new_row": 3377,
+   "alignment_score": 43.4,
+   "alignment_evidence": {
+    "foreign_similarity": 0.8,
+    "sense_similarity": 1.0,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.761364,
+    "phonetic_pair_score": 16
+   }
+  },
+  {
+   "index": 911,
+   "arabic_root": "ور",
+   "registered_scan_reasons": [
+    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+   ],
+   "new_scan_reasons": [
+    "المعنى الإنجليزي لم يسلم من المسح"
+   ],
+   "legacy": {
+    "foreign": "great man"
+   },
+   "fields": {
+    "foreign": {
+     "legacy": "great man",
+     "recovered": "ur"
+    }
+   },
+   "old_location": {
+    "page": 888,
+    "line": 45876
+   },
+   "new_location": {
+    "page": 891,
+    "line": 38686
+   },
+   "matched_new_row": 3398,
+   "alignment_score": 38.906569,
+   "alignment_evidence": {
+    "foreign_similarity": 0.2,
+    "sense_similarity": 0.10219,
+    "arabic_gloss_similarity": 1.0,
+    "page_delta": 3,
+    "layout_pair_score": 18.944444,
+    "phonetic_pair_score": 16
+   }
+  }
+ ]
+}

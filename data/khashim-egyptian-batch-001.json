@@ -4,11 +4,16 @@
  "source": "data/khashim-pairs.json",
  "book": "علي فهمي خشيم، «البرهان على عروبة اللغة المصرية القديمة»",
  "ocr_recovery": {
-  "named_english_heads": 50,
-  "named_recovered": 50,
-  "named_unrecovered": 0,
-  "additional_recovered": 85,
-  "all_recovered": 135
+  "overlay_rows": 38,
+  "overlay_fields": 41,
+  "reharvested_through_batch": 1,
+  "manual_head_recovery_baseline": {
+   "named_english_heads": 50,
+   "named_recovered": 50,
+   "named_unrecovered": 0,
+   "additional_recovered": 85,
+   "all_recovered": 135
+  }
  },
  "rows_examined": 938,
  "fan_audit_938": {
@@ -29,11 +34,11 @@
   "batch_004_chosen_in_faulty_fan": 24,
   "batch_004_chosen_in_corrected_fan": 65
  },
- "scan_defects_union": 458,
+ "scan_defects_union": 430,
  "scan_defects_by_reason": {
   "الرأس إنجليزي لا رومنة مصرية": 120,
-  "المعنى الإنجليزي لم يسلم من المسح": 189,
-  "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية": 132,
+  "المعنى الإنجليزي لم يسلم من المسح": 170,
+  "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية": 110,
   "رمز هيروغليفي واحد مكرر بخلل المسح": 92
  },
  "selection_scan_reasons": {},

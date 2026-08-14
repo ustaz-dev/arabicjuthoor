@@ -45080,6 +45080,111 @@
             }
           ]
         }
+      ],
+      "later_comparative_supplements": [
+        {
+          "batch": 5,
+          "category": "cross-european",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            2828
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 2828,
+              "source_row_key": "00c8b84481f78881ccc0e2e1",
+              "foreign": "smell",
+              "foreign_sense": "شمّ؛ رائحة",
+              "tongue_ar": "الإنكليزيّة والفرنسيّة والإيطاليّة",
+              "arabic_root": "شم / عطر",
+              "arabic_gloss": "ردّ smell إلى شم، وodeur إلى عطر.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 458,
+              "assigned_language": "middle-english",
+              "assignment_reason": "cited spelling gives a specific European branch inside a mixed or generic cluster"
+            }
+          ],
+          "forms": [
+            {
+              "form": "smell",
+              "normalized_form": "smell",
+              "script": "germanic",
+              "skeleton": [
+                "s",
+                "m",
+                "LL"
+              ],
+              "fan_review": [
+                {
+                  "root": "سمل",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "نوع من الخرق الذي يضم؛ والحرفُ الثالثُ «ل» حدثُه: تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.",
+                  "event_note": "الجذرُ «سمل» ليس في الـ2,285، فنُزِلَ إلى نواتِه «سم» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "شمل",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "إحاطة ما يُخشَى انتشاره بما يلتف حوله ويضمه معًا قائمًا",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "صمل",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "انسداد مسام الشيء مع صلابة فلا ينفذ فيه أو منه شيء؛ والحرفُ الثالثُ «ل» حدثُه: تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.",
+                  "event_note": "الجذرُ «صمل» ليس في الـ2,285، فنُزِلَ إلى نواتِه «صم» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "زمل",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "تقارن شيئين أو أكثر في الاحتمال",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "branch_lexicon": {
+                "language": "middle-english",
+                "source": "data/branch-lexicons/middle-english.json",
+                "lookup_path": "لا مدخل",
+                "entries": []
+              },
+              "dialect_additions": 0,
+              "positives": []
+            }
+          ],
+          "target_card_id": "JAS-IE-005-124",
+          "target_manifest": "jassem-indo-european-batch-005.json",
+          "target_language": "middle-english",
+          "target_kind": "jassem",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
+        }
       ]
     },
     {

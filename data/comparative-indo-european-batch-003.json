@@ -26,8 +26,8 @@
     "new_card_rows": 28,
     "supplement_blocks": 39,
     "new_cards": 17,
-    "new_positive_cards": 2,
-    "new_positive_roots": 2,
+    "new_positive_cards": 1,
+    "new_positive_roots": 1,
     "ranked_candidates_in_new_or_supplemental_full_fans": 3312,
     "fan_with_dialect_additions": 0,
     "frozen_event_tiers": {
@@ -43,7 +43,12 @@
       "old-english": 2,
       "old-latin": 5,
       "old-norse": 6
-    }
+    },
+    "baseline_positive_cards_before_branch_dictionary": 2,
+    "converted_after_branch_dictionary_sense": 0,
+    "retained_positive_cards_after_branch_dictionary": 1,
+    "revoked_positive_cards_after_branch_dictionary": 1,
+    "loanword_cards_closed_by_branch_dictionary": 0
   },
   "already_embedded": [
     {
@@ -43096,7 +43101,30 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-english",
+            "source": "data/branch-lexicons/old-english.json",
+            "lookup_path": "الصورةُ بنصِّها",
+            "query": "heafod",
+            "entries": [
+              {
+                "word": "heafod",
+                "read": "",
+                "pos": "noun",
+                "en": "head؛ top؛ captain: head, leader",
+                "etym": "From Proto-West Germanic *haubud, from Proto-Germanic *haubudą, from Proto-Indo-European *káput-. Cognate with Old Frisian hāved, Old Saxon hōƀid, Dutch hoofd, Old High German houb"
+              }
+            ],
+            "selected": {
+              "word": "heafod",
+              "read": "",
+              "pos": "noun",
+              "en": "head؛ top؛ captain: head, leader",
+              "etym": "From Proto-West Germanic *haubud, from Proto-Germanic *haubudą, from Proto-Indo-European *káput-. Cognate with Old Frisian hāved, Old Saxon hōƀid, Dutch hoofd, Old High German houb"
+            },
+            "selection": "اختير `heafod` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها."
+          }
         },
         {
           "form": "hobid",
@@ -43422,12 +43450,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-english",
+            "source": "data/branch-lexicons/old-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "hobid",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-002",
@@ -43692,7 +43735,37 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-english",
+            "source": "data/branch-lexicons/old-english.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "tungo",
+            "entries": [
+              {
+                "word": "tunge",
+                "read": "",
+                "pos": "noun",
+                "en": "a tongue؛ a language",
+                "etym": "From Proto-West Germanic *tungā."
+              },
+              {
+                "word": "tang",
+                "read": "",
+                "pos": "noun",
+                "en": "tongs",
+                "etym": "From Proto-West Germanic *tangu, from Proto-Germanic *tangō, from Proto-Indo-European *denḱ- (“to bite”)"
+              }
+            ],
+            "selected": {
+              "word": "tunge",
+              "read": "",
+              "pos": "noun",
+              "en": "a tongue؛ a language",
+              "etym": "From Proto-West Germanic *tungā."
+            },
+            "selection": "اختير `tunge` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها."
+          }
         },
         {
           "form": "tunge",
@@ -43914,12 +43987,41 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-english",
+            "source": "data/branch-lexicons/old-english.json",
+            "lookup_path": "الصورةُ بنصِّها",
+            "query": "tunge",
+            "entries": [
+              {
+                "word": "tunge",
+                "read": "",
+                "pos": "noun",
+                "en": "a tongue؛ a language",
+                "etym": "From Proto-West Germanic *tungā."
+              }
+            ],
+            "selected": {
+              "word": "tunge",
+              "read": "",
+              "pos": "noun",
+              "en": "a tongue؛ a language",
+              "etym": "From Proto-West Germanic *tungā."
+            },
+            "selection": "اختير `tunge` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-003",
@@ -44117,12 +44219,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "zunge",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-004",
@@ -44372,12 +44489,35 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "tjur",
+            "entries": [
+              {
+                "word": "tjara",
+                "read": "",
+                "pos": "noun",
+                "en": "tar",
+                "etym": "From Proto-Germanic *terwǭ, *terwą."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-005",
@@ -44628,12 +44768,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "لا مدخل",
+            "query": "fjaril",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-006",
@@ -44691,7 +44846,16 @@
           ],
           "fan_review": [],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "borboleta",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         },
         {
           "form": "farfalla",
@@ -44810,12 +44974,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "farfalla",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-007",
@@ -46416,12 +46595,55 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "katt",
+            "entries": [
+              {
+                "word": "kot",
+                "read": "",
+                "pos": "noun",
+                "en": "cottage, hut",
+                "etym": "From Proto-Germanic *kutą"
+              },
+              {
+                "word": "ketta",
+                "read": "",
+                "pos": "noun",
+                "en": "a female cat؛ a giantess",
+                "etym": "From Proto-Germanic *kattijǭ, *kattǭ (“female cat”)."
+              },
+              {
+                "word": "okætʀ",
+                "read": "",
+                "pos": "adj",
+                "en": "unjolly",
+                "etym": "ō- + kǣtʀ. Equivalent to Old West Norse ókátr."
+              }
+            ],
+            "selected": {
+              "word": "ketta",
+              "read": "",
+              "pos": "noun",
+              "en": "a female cat؛ a giantess",
+              "etym": "From Proto-Germanic *kattijǭ, *kattǭ (“female cat”)."
+            },
+            "selection": "اختير `ketta` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-008",
@@ -46568,12 +46790,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "elephant",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-009",
@@ -46772,12 +47009,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "elefante",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-010",
@@ -47020,7 +47272,30 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "الصورةُ بنصِّها",
+            "query": "capra",
+            "entries": [
+              {
+                "word": "capra",
+                "read": "",
+                "pos": "noun",
+                "en": "she-goat, nanny goat (a female goat)؛ the odor of armpits",
+                "etym": "From caper (“billy goat, he-goat”) + -a (suffix forming feminine versions of nouns)."
+              }
+            ],
+            "selected": {
+              "word": "capra",
+              "read": "",
+              "pos": "noun",
+              "en": "she-goat, nanny goat (a female goat)؛ the odor of armpits",
+              "etym": "From caper (“billy goat, he-goat”) + -a (suffix forming feminine versions of nouns)."
+            },
+            "selection": "اختير `capra` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها."
+          }
         },
         {
           "form": "chevre",
@@ -47268,7 +47543,16 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "chevre",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         },
         {
           "form": "cobra",
@@ -47360,7 +47644,24 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "cobra",
+            "entries": [
+              {
+                "word": "cibaria",
+                "read": "",
+                "pos": "noun",
+                "en": "food, nutriment, victuals, provisions, fare, ration, fodder",
+                "etym": "Nominalization of cibārius."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         },
         {
           "form": "cabra",
@@ -47452,12 +47753,35 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "cabra",
+            "entries": [
+              {
+                "word": "cibaria",
+                "read": "",
+                "pos": "noun",
+                "en": "food, nutriment, victuals, provisions, fare, ration, fodder",
+                "etym": "Nominalization of cibārius."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-011",
@@ -47731,7 +48055,7 @@
               "event_source": "computational/data/layer_2_results_v2.jsonl",
               "event_text": "نمو حجم الشيء أو زيادته",
               "event_note": "",
-              "meaning": "✓",
+              "meaning": "×",
               "dialect_label": null
             },
             {
@@ -47775,7 +48099,39 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": [
+          "positives": [],
+          "branch_lexicon": {
+            "language": "ancient-greek",
+            "source": "data/branch-lexicons/ancient-greek.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "Kabiros",
+            "entries": [
+              {
+                "word": "Κῶβρυς",
+                "read": "Kôbrŭs",
+                "pos": "name",
+                "en": "Cobrys, Thrace, Turkey",
+                "etym": ""
+              },
+              {
+                "word": "κουβαρίς",
+                "read": "koubărĭ́s",
+                "pos": "noun",
+                "en": "woodlouse",
+                "etym": "Unexplained. Perhaps related to Greek κουβάρι (kouvári, “clew”) and sharing the meaning of \"something that rolls itself together\"."
+              },
+              {
+                "word": "κάβουρος",
+                "read": "kábouros",
+                "pos": "noun",
+                "en": "crab",
+                "etym": "Likely a corruption of πάγουρος (págouros, “crab”)."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          },
+          "revoked_positives": [
             {
               "root": "كبر",
               "closure": "ROOT-TRACE",
@@ -47885,10 +48241,28 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "ancient-greek",
+            "source": "data/branch-lexicons/ancient-greek.json",
+            "lookup_path": "لا مدخل",
+            "query": "Cabiri",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
-      "positives": [
+      "positives": [],
+      "closure": "OPEN-CANDIDATE",
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      },
+      "revoked_positives": [
         {
           "root": "كبر",
           "closure": "ROOT-TRACE",
@@ -47907,8 +48281,13 @@
           "event_note": ""
         }
       ],
-      "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "revocation": {
+        "date": "2026-08-14",
+        "reason": "قاموس الفرع لا يسند المعنى الذي قام عليه المدار السابق",
+        "tool": "scripts/build_kaikki_index.py"
+      },
+      "blocker_type": "BRANCH-LEXICON-MISMATCH",
+      "required": "مدخل قاموس فرع يوافق سياق الصف ثم مدار ينسخ معناه"
     },
     {
       "card_id": "CMP-IE-003-012",
@@ -48076,7 +48455,226 @@
               "event_tier_ar": "جذرٌ في الـ2,285",
               "event_note": ""
             }
-          ]
+          ],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "corne",
+            "entries": [
+              {
+                "word": "cornu",
+                "read": "",
+                "pos": "noun",
+                "en": "horn, antler؛ tusk؛ the horns of the moon",
+                "etym": "Inherited from Proto-Italic *kornū. Cognate with English horn, hirn; Ancient Greek κρᾱνίον (krāníon, “skull”), κέρας (kéras, “horn”); Sanskrit शृङ्ग (śṛ́ṅga, “horn, tusk”). See als"
+              },
+              {
+                "word": "corona",
+                "read": "",
+                "pos": "noun",
+                "en": "chaplet, laurel, or wreath; presented to athletes, the gods, or the dead؛ crown؛ garland",
+                "etym": "Borrowed from Ancient Greek κορώνη (korṓnē, “a type of sea-bird, perhaps shearwater; a crow; anything curved or hooked (like a door handle or the tip of a bow); a type of crown”), "
+              },
+              {
+                "word": "Ucraina",
+                "read": "",
+                "pos": "name",
+                "en": "Ukraine (a country in Eastern Europe, bordering on the north shore of the Black Sea)",
+                "etym": "Borrowed from Old Ruthenian Оукраи́на (Ukraína, “Ukraine”)"
+              },
+              {
+                "word": "Carina",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Phrygia, mentioned by Pliny؛ A mountain of Crete",
+                "etym": ""
+              },
+              {
+                "word": "carina",
+                "read": "",
+                "pos": "noun",
+                "en": "keel or hull of a ship؛ ship؛ half of a walnut shell",
+                "etym": "Cognate with Welsh ceri (“stone of a fruit”) and Ancient Greek κάρυον (káruon, “nut”). The earliest attested meaning is \"ship's keel\", though whether the original meaning was \"keel"
+              },
+              {
+                "word": "carino",
+                "read": "",
+                "pos": "verb",
+                "en": "to revile, to blame; to insult",
+                "etym": "From Proto-Indo-European *kr-n-. Compare Old Irish caire (“sin”), Old English hierwan (“to moke”), Ancient Greek κάρνη (kárnē, “penalty”), Tocharian B karn- (“to vex”) and Lithuani"
+              },
+              {
+                "word": "carino",
+                "read": "",
+                "pos": "verb",
+                "en": "to supply with a shell",
+                "etym": "From carīna."
+              },
+              {
+                "word": "corono",
+                "read": "",
+                "pos": "verb",
+                "en": "to crown, wreathe, coronate (with a garland, wreath, or crown)؛ to encircle, enclose؛ to cut, to thrust",
+                "etym": "From corōna + -ō."
+              },
+              {
+                "word": "cerno",
+                "read": "",
+                "pos": "verb",
+                "en": "to distinguish, divide, separate, sift؛ to perceive, see, discern, behold؛ to (intellectually) comprehend, discern, regard, understand",
+                "etym": "From Proto-Italic *krinō, from Proto-Indo-European *krey- (“to sieve”). Cognate with Ancient Greek κρίνω (krínō), English ridder, riddle (“sieve”), and possibly English rinse."
+              },
+              {
+                "word": "Carinae",
+                "read": "",
+                "pos": "name",
+                "en": "a Roman district situated at the western end of the southern spur of the Esquiline Hill, likely conflated with the Fāgūtal",
+                "etym": "From carīna (“keel”); according to Servius (In Vergilii Aeneidem Commentarii. VIII. 361), from the shape of buildings near the temple of Tellus located here."
+              },
+              {
+                "word": "crena",
+                "read": "",
+                "pos": "noun",
+                "en": "incision, notch",
+                "etym": "Perhaps from the Proto-Indo-European roots *(s)ker- (“to cut off”) or *krey- (“to separate”). Spuriously attested in Pliny."
+              },
+              {
+                "word": "cernuo",
+                "read": "",
+                "pos": "verb",
+                "en": "to fall over, tumble",
+                "etym": "From cernuus + -ō."
+              },
+              {
+                "word": "acernia",
+                "read": "",
+                "pos": "noun",
+                "en": "An unknown fish (maybe the grouper)",
+                "etym": "Regional borrowing from Ancient Greek ἀχάρνας (akhárnas), also ἀκάρναξ (akárnax), a type of fish, perhaps from Ἀκαρνανία (Akarnanía, “Acarnania”), i.e. the Acarnanian fish."
+              },
+              {
+                "word": "ceraunia",
+                "read": "",
+                "pos": "noun",
+                "en": "thunderstone (stone or fossil thought to be associated with thunderbolts)",
+                "etym": ""
+              },
+              {
+                "word": "Carni",
+                "read": "",
+                "pos": "name",
+                "en": "An Alpine tribe who dwelt in the mountainous regions of Venetia and Noricum",
+                "etym": ""
+              },
+              {
+                "word": "Creon",
+                "read": "",
+                "pos": "name",
+                "en": "A mountain of Lesbos",
+                "etym": ""
+              },
+              {
+                "word": "Corone",
+                "read": "",
+                "pos": "name",
+                "en": "A town of Messenia situated on the western side of the Messenian gulf",
+                "etym": "Borrowed from Ancient Greek Κορώνη (Korṓnē)."
+              },
+              {
+                "word": "Carana",
+                "read": "",
+                "pos": "name",
+                "en": "The capital of Caranitis, now Erzurum",
+                "etym": "Borrowed from Ancient Greek Κάρανα (Kárana)."
+              },
+              {
+                "word": "Carene",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Mysia",
+                "etym": "Borrowed from Ancient Greek Καρήνη (Karḗnē)."
+              },
+              {
+                "word": "Cronia",
+                "read": "",
+                "pos": "name",
+                "en": "the ancient name of Bithynia, an ancient region in modern Turkey",
+                "etym": ""
+              },
+              {
+                "word": "Ceraine",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Phrygia, mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "Carna",
+                "read": "",
+                "pos": "name",
+                "en": "The goddess regarded as the protector of the internal organs of the human body",
+                "etym": "From carō (“flesh”)."
+              },
+              {
+                "word": "Caroni",
+                "read": "",
+                "pos": "name",
+                "en": "A tribe of Asian Sarmatia mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "Crenae",
+                "read": "",
+                "pos": "name",
+                "en": "an ancient town in Acarnania",
+                "etym": "Borrowed from Ancient Greek Κρῆναι (Krênai)."
+              },
+              {
+                "word": "Cranii",
+                "read": "",
+                "pos": "name",
+                "en": "A town on the western coast of Cephallenia",
+                "etym": "Borrowed from Ancient Greek Κράνιοι (Kránioi)."
+              },
+              {
+                "word": "Acerroni",
+                "read": "",
+                "pos": "name",
+                "en": "genitive/vocative of Acerrōnius",
+                "etym": ""
+              },
+              {
+                "word": "caronia",
+                "read": "",
+                "pos": "noun",
+                "en": "carrion",
+                "etym": "From carō (“flesh”). The origin of the suffix is unclear."
+              },
+              {
+                "word": "Crannon",
+                "read": "",
+                "pos": "name",
+                "en": "Crannon",
+                "etym": "Borrowed from Ancient Greek Κραννών (Krannṓn)."
+              },
+              {
+                "word": "crinio",
+                "read": "",
+                "pos": "verb",
+                "en": "to provide or cover with hair or leaves, foliage",
+                "etym": "Back-formation from crīnītus, attested twice in the passive 3rd sg. crīnītur in Statius. Compare sense 2 at coma (“hair, foliage”)."
+              }
+            ],
+            "selected": {
+              "word": "cornu",
+              "read": "",
+              "pos": "noun",
+              "en": "horn, antler؛ tusk؛ the horns of the moon",
+              "etym": "Inherited from Proto-Italic *kornū. Cognate with English horn, hirn; Ancient Greek κρᾱνίον (krāníon, “skull”), κέρας (kéras, “horn”); Sanskrit शृङ्ग (śṛ́ṅga, “horn, tusk”). See als"
+            },
+            "selection": "اختير `cornu` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها."
+          }
         },
         {
           "form": "cuerno",
@@ -48168,7 +48766,220 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "cuerno",
+            "entries": [
+              {
+                "word": "cornu",
+                "read": "",
+                "pos": "noun",
+                "en": "horn, antler؛ tusk؛ the horns of the moon",
+                "etym": "Inherited from Proto-Italic *kornū. Cognate with English horn, hirn; Ancient Greek κρᾱνίον (krāníon, “skull”), κέρας (kéras, “horn”); Sanskrit शृङ्ग (śṛ́ṅga, “horn, tusk”). See als"
+              },
+              {
+                "word": "corona",
+                "read": "",
+                "pos": "noun",
+                "en": "chaplet, laurel, or wreath; presented to athletes, the gods, or the dead؛ crown؛ garland",
+                "etym": "Borrowed from Ancient Greek κορώνη (korṓnē, “a type of sea-bird, perhaps shearwater; a crow; anything curved or hooked (like a door handle or the tip of a bow); a type of crown”), "
+              },
+              {
+                "word": "Ucraina",
+                "read": "",
+                "pos": "name",
+                "en": "Ukraine (a country in Eastern Europe, bordering on the north shore of the Black Sea)",
+                "etym": "Borrowed from Old Ruthenian Оукраи́на (Ukraína, “Ukraine”)"
+              },
+              {
+                "word": "Carina",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Phrygia, mentioned by Pliny؛ A mountain of Crete",
+                "etym": ""
+              },
+              {
+                "word": "carina",
+                "read": "",
+                "pos": "noun",
+                "en": "keel or hull of a ship؛ ship؛ half of a walnut shell",
+                "etym": "Cognate with Welsh ceri (“stone of a fruit”) and Ancient Greek κάρυον (káruon, “nut”). The earliest attested meaning is \"ship's keel\", though whether the original meaning was \"keel"
+              },
+              {
+                "word": "carino",
+                "read": "",
+                "pos": "verb",
+                "en": "to revile, to blame; to insult",
+                "etym": "From Proto-Indo-European *kr-n-. Compare Old Irish caire (“sin”), Old English hierwan (“to moke”), Ancient Greek κάρνη (kárnē, “penalty”), Tocharian B karn- (“to vex”) and Lithuani"
+              },
+              {
+                "word": "carino",
+                "read": "",
+                "pos": "verb",
+                "en": "to supply with a shell",
+                "etym": "From carīna."
+              },
+              {
+                "word": "corono",
+                "read": "",
+                "pos": "verb",
+                "en": "to crown, wreathe, coronate (with a garland, wreath, or crown)؛ to encircle, enclose؛ to cut, to thrust",
+                "etym": "From corōna + -ō."
+              },
+              {
+                "word": "cerno",
+                "read": "",
+                "pos": "verb",
+                "en": "to distinguish, divide, separate, sift؛ to perceive, see, discern, behold؛ to (intellectually) comprehend, discern, regard, understand",
+                "etym": "From Proto-Italic *krinō, from Proto-Indo-European *krey- (“to sieve”). Cognate with Ancient Greek κρίνω (krínō), English ridder, riddle (“sieve”), and possibly English rinse."
+              },
+              {
+                "word": "Carinae",
+                "read": "",
+                "pos": "name",
+                "en": "a Roman district situated at the western end of the southern spur of the Esquiline Hill, likely conflated with the Fāgūtal",
+                "etym": "From carīna (“keel”); according to Servius (In Vergilii Aeneidem Commentarii. VIII. 361), from the shape of buildings near the temple of Tellus located here."
+              },
+              {
+                "word": "crena",
+                "read": "",
+                "pos": "noun",
+                "en": "incision, notch",
+                "etym": "Perhaps from the Proto-Indo-European roots *(s)ker- (“to cut off”) or *krey- (“to separate”). Spuriously attested in Pliny."
+              },
+              {
+                "word": "cernuo",
+                "read": "",
+                "pos": "verb",
+                "en": "to fall over, tumble",
+                "etym": "From cernuus + -ō."
+              },
+              {
+                "word": "acernia",
+                "read": "",
+                "pos": "noun",
+                "en": "An unknown fish (maybe the grouper)",
+                "etym": "Regional borrowing from Ancient Greek ἀχάρνας (akhárnas), also ἀκάρναξ (akárnax), a type of fish, perhaps from Ἀκαρνανία (Akarnanía, “Acarnania”), i.e. the Acarnanian fish."
+              },
+              {
+                "word": "ceraunia",
+                "read": "",
+                "pos": "noun",
+                "en": "thunderstone (stone or fossil thought to be associated with thunderbolts)",
+                "etym": ""
+              },
+              {
+                "word": "Carni",
+                "read": "",
+                "pos": "name",
+                "en": "An Alpine tribe who dwelt in the mountainous regions of Venetia and Noricum",
+                "etym": ""
+              },
+              {
+                "word": "Creon",
+                "read": "",
+                "pos": "name",
+                "en": "A mountain of Lesbos",
+                "etym": ""
+              },
+              {
+                "word": "Corone",
+                "read": "",
+                "pos": "name",
+                "en": "A town of Messenia situated on the western side of the Messenian gulf",
+                "etym": "Borrowed from Ancient Greek Κορώνη (Korṓnē)."
+              },
+              {
+                "word": "Carana",
+                "read": "",
+                "pos": "name",
+                "en": "The capital of Caranitis, now Erzurum",
+                "etym": "Borrowed from Ancient Greek Κάρανα (Kárana)."
+              },
+              {
+                "word": "Carene",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Mysia",
+                "etym": "Borrowed from Ancient Greek Καρήνη (Karḗnē)."
+              },
+              {
+                "word": "Cronia",
+                "read": "",
+                "pos": "name",
+                "en": "the ancient name of Bithynia, an ancient region in modern Turkey",
+                "etym": ""
+              },
+              {
+                "word": "Ceraine",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Phrygia, mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "Carna",
+                "read": "",
+                "pos": "name",
+                "en": "The goddess regarded as the protector of the internal organs of the human body",
+                "etym": "From carō (“flesh”)."
+              },
+              {
+                "word": "Caroni",
+                "read": "",
+                "pos": "name",
+                "en": "A tribe of Asian Sarmatia mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "Crenae",
+                "read": "",
+                "pos": "name",
+                "en": "an ancient town in Acarnania",
+                "etym": "Borrowed from Ancient Greek Κρῆναι (Krênai)."
+              },
+              {
+                "word": "Cranii",
+                "read": "",
+                "pos": "name",
+                "en": "A town on the western coast of Cephallenia",
+                "etym": "Borrowed from Ancient Greek Κράνιοι (Kránioi)."
+              },
+              {
+                "word": "Acerroni",
+                "read": "",
+                "pos": "name",
+                "en": "genitive/vocative of Acerrōnius",
+                "etym": ""
+              },
+              {
+                "word": "caronia",
+                "read": "",
+                "pos": "noun",
+                "en": "carrion",
+                "etym": "From carō (“flesh”). The origin of the suffix is unclear."
+              },
+              {
+                "word": "Crannon",
+                "read": "",
+                "pos": "name",
+                "en": "Crannon",
+                "etym": "Borrowed from Ancient Greek Κραννών (Krannṓn)."
+              },
+              {
+                "word": "crinio",
+                "read": "",
+                "pos": "verb",
+                "en": "to provide or cover with hair or leaves, foliage",
+                "etym": "Back-formation from crīnītus, attested twice in the passive 3rd sg. crīnītur in Statius. Compare sense 2 at coma (“hair, foliage”)."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         },
         {
           "form": "carno",
@@ -48260,14 +49071,227 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "carno",
+            "entries": [
+              {
+                "word": "cornu",
+                "read": "",
+                "pos": "noun",
+                "en": "horn, antler؛ tusk؛ the horns of the moon",
+                "etym": "Inherited from Proto-Italic *kornū. Cognate with English horn, hirn; Ancient Greek κρᾱνίον (krāníon, “skull”), κέρας (kéras, “horn”); Sanskrit शृङ्ग (śṛ́ṅga, “horn, tusk”). See als"
+              },
+              {
+                "word": "corona",
+                "read": "",
+                "pos": "noun",
+                "en": "chaplet, laurel, or wreath; presented to athletes, the gods, or the dead؛ crown؛ garland",
+                "etym": "Borrowed from Ancient Greek κορώνη (korṓnē, “a type of sea-bird, perhaps shearwater; a crow; anything curved or hooked (like a door handle or the tip of a bow); a type of crown”), "
+              },
+              {
+                "word": "Ucraina",
+                "read": "",
+                "pos": "name",
+                "en": "Ukraine (a country in Eastern Europe, bordering on the north shore of the Black Sea)",
+                "etym": "Borrowed from Old Ruthenian Оукраи́на (Ukraína, “Ukraine”)"
+              },
+              {
+                "word": "Carina",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Phrygia, mentioned by Pliny؛ A mountain of Crete",
+                "etym": ""
+              },
+              {
+                "word": "carina",
+                "read": "",
+                "pos": "noun",
+                "en": "keel or hull of a ship؛ ship؛ half of a walnut shell",
+                "etym": "Cognate with Welsh ceri (“stone of a fruit”) and Ancient Greek κάρυον (káruon, “nut”). The earliest attested meaning is \"ship's keel\", though whether the original meaning was \"keel"
+              },
+              {
+                "word": "carino",
+                "read": "",
+                "pos": "verb",
+                "en": "to revile, to blame; to insult",
+                "etym": "From Proto-Indo-European *kr-n-. Compare Old Irish caire (“sin”), Old English hierwan (“to moke”), Ancient Greek κάρνη (kárnē, “penalty”), Tocharian B karn- (“to vex”) and Lithuani"
+              },
+              {
+                "word": "carino",
+                "read": "",
+                "pos": "verb",
+                "en": "to supply with a shell",
+                "etym": "From carīna."
+              },
+              {
+                "word": "corono",
+                "read": "",
+                "pos": "verb",
+                "en": "to crown, wreathe, coronate (with a garland, wreath, or crown)؛ to encircle, enclose؛ to cut, to thrust",
+                "etym": "From corōna + -ō."
+              },
+              {
+                "word": "cerno",
+                "read": "",
+                "pos": "verb",
+                "en": "to distinguish, divide, separate, sift؛ to perceive, see, discern, behold؛ to (intellectually) comprehend, discern, regard, understand",
+                "etym": "From Proto-Italic *krinō, from Proto-Indo-European *krey- (“to sieve”). Cognate with Ancient Greek κρίνω (krínō), English ridder, riddle (“sieve”), and possibly English rinse."
+              },
+              {
+                "word": "Carinae",
+                "read": "",
+                "pos": "name",
+                "en": "a Roman district situated at the western end of the southern spur of the Esquiline Hill, likely conflated with the Fāgūtal",
+                "etym": "From carīna (“keel”); according to Servius (In Vergilii Aeneidem Commentarii. VIII. 361), from the shape of buildings near the temple of Tellus located here."
+              },
+              {
+                "word": "crena",
+                "read": "",
+                "pos": "noun",
+                "en": "incision, notch",
+                "etym": "Perhaps from the Proto-Indo-European roots *(s)ker- (“to cut off”) or *krey- (“to separate”). Spuriously attested in Pliny."
+              },
+              {
+                "word": "cernuo",
+                "read": "",
+                "pos": "verb",
+                "en": "to fall over, tumble",
+                "etym": "From cernuus + -ō."
+              },
+              {
+                "word": "acernia",
+                "read": "",
+                "pos": "noun",
+                "en": "An unknown fish (maybe the grouper)",
+                "etym": "Regional borrowing from Ancient Greek ἀχάρνας (akhárnas), also ἀκάρναξ (akárnax), a type of fish, perhaps from Ἀκαρνανία (Akarnanía, “Acarnania”), i.e. the Acarnanian fish."
+              },
+              {
+                "word": "ceraunia",
+                "read": "",
+                "pos": "noun",
+                "en": "thunderstone (stone or fossil thought to be associated with thunderbolts)",
+                "etym": ""
+              },
+              {
+                "word": "Carni",
+                "read": "",
+                "pos": "name",
+                "en": "An Alpine tribe who dwelt in the mountainous regions of Venetia and Noricum",
+                "etym": ""
+              },
+              {
+                "word": "Creon",
+                "read": "",
+                "pos": "name",
+                "en": "A mountain of Lesbos",
+                "etym": ""
+              },
+              {
+                "word": "Corone",
+                "read": "",
+                "pos": "name",
+                "en": "A town of Messenia situated on the western side of the Messenian gulf",
+                "etym": "Borrowed from Ancient Greek Κορώνη (Korṓnē)."
+              },
+              {
+                "word": "Carana",
+                "read": "",
+                "pos": "name",
+                "en": "The capital of Caranitis, now Erzurum",
+                "etym": "Borrowed from Ancient Greek Κάρανα (Kárana)."
+              },
+              {
+                "word": "Carene",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Mysia",
+                "etym": "Borrowed from Ancient Greek Καρήνη (Karḗnē)."
+              },
+              {
+                "word": "Cronia",
+                "read": "",
+                "pos": "name",
+                "en": "the ancient name of Bithynia, an ancient region in modern Turkey",
+                "etym": ""
+              },
+              {
+                "word": "Ceraine",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Phrygia, mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "Carna",
+                "read": "",
+                "pos": "name",
+                "en": "The goddess regarded as the protector of the internal organs of the human body",
+                "etym": "From carō (“flesh”)."
+              },
+              {
+                "word": "Caroni",
+                "read": "",
+                "pos": "name",
+                "en": "A tribe of Asian Sarmatia mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "Crenae",
+                "read": "",
+                "pos": "name",
+                "en": "an ancient town in Acarnania",
+                "etym": "Borrowed from Ancient Greek Κρῆναι (Krênai)."
+              },
+              {
+                "word": "Cranii",
+                "read": "",
+                "pos": "name",
+                "en": "A town on the western coast of Cephallenia",
+                "etym": "Borrowed from Ancient Greek Κράνιοι (Kránioi)."
+              },
+              {
+                "word": "Acerroni",
+                "read": "",
+                "pos": "name",
+                "en": "genitive/vocative of Acerrōnius",
+                "etym": ""
+              },
+              {
+                "word": "caronia",
+                "read": "",
+                "pos": "noun",
+                "en": "carrion",
+                "etym": "From carō (“flesh”). The origin of the suffix is unclear."
+              },
+              {
+                "word": "Crannon",
+                "read": "",
+                "pos": "name",
+                "en": "Crannon",
+                "etym": "Borrowed from Ancient Greek Κραννών (Krannṓn)."
+              },
+              {
+                "word": "crinio",
+                "read": "",
+                "pos": "verb",
+                "en": "to provide or cover with hair or leaves, foliage",
+                "etym": "Back-formation from crīnītus, attested twice in the passive 3rd sg. crīnītur in Statius. Compare sense 2 at coma (“hair, foliage”)."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [
         {
           "root": "قرن",
           "closure": "ROOT-TRACE",
-          "branch_meaning": "`corne` في نقل المصدر: قرن الحيوان",
+          "branch_meaning": "`cornu` [noun] في قاموس الفرع: «horn, antler؛ tusk؛ the horns of the moon»",
           "orbit": "القرن نتوء ممتد في أعلى الجسم أو مقدمه؛ وهذا هو الحدث المجمّد لـ`قرن` بلا زيادة معنى.",
           "sound_route": "c=[k] ثم c↔ق=`GUT-01`؛ r↔ر=`IDN-01`؛ n↔ن=`IDN-03`",
           "sound_searches": [
@@ -48279,11 +49303,26 @@
           "event_source": "computational/data/layer_2_results_v2.jsonl",
           "event_tier": 1,
           "event_tier_ar": "جذرٌ في الـ2,285",
-          "event_note": ""
+          "event_note": "",
+          "branch_dictionary": "data/branch-lexicons/latin.json",
+          "branch_dictionary_path": "هيكلٌ مطابق",
+          "branch_dictionary_entry": {
+            "word": "cornu",
+            "read": "",
+            "pos": "noun",
+            "en": "horn, antler؛ tusk؛ the horns of the moon",
+            "etym": "Inherited from Proto-Italic *kornū. Cognate with English horn, hirn; Ancient Greek κρᾱνίον (krāníon, “skull”), κέρας (kéras, “horn”); Sanskrit शृङ्ग (śṛ́ṅga, “horn, tusk”). See als"
+          }
         }
       ],
       "closure": "ROOT-TRACE",
-      "judgment": "ROOT-TRACE"
+      "judgment": "ROOT-TRACE",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-013",
@@ -48845,12 +49884,42 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "lejon",
+            "entries": [
+              {
+                "word": "eljan",
+                "read": "",
+                "pos": "noun",
+                "en": "endurance, energy",
+                "etym": "From Proto-Germanic *aljaną (“zeal, strength, power, courage”), from Proto-Indo-European *h₁elh₂- (“to spur”). Cognate with Icelandic elja (“endurance, energy”), Old Saxon ellian ("
+              },
+              {
+                "word": "eljun",
+                "read": "",
+                "pos": "noun",
+                "en": "endurance, energy",
+                "etym": "From Proto-Germanic *aljaną (“zeal, strength, power, courage”), from Proto-Indo-European *h₁elh₂- (“to spur”). Cognate with Icelandic elja (“endurance, energy”), Old Saxon ellian ("
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-014",
@@ -49115,7 +50184,31 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "parrot",
+            "entries": [
+              {
+                "word": "port",
+                "read": "",
+                "pos": "noun",
+                "en": "behaviour, bearing",
+                "etym": ""
+              },
+              {
+                "word": "part",
+                "read": "",
+                "pos": "noun",
+                "en": "part",
+                "etym": "From Old French part and Old English part, both from Latin partem, accusative singular of pars, from Proto-Italic *partis."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         },
         {
           "form": "papagei",
@@ -49337,12 +50430,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "middle-english",
+            "source": "data/branch-lexicons/middle-english.json",
+            "lookup_path": "لا مدخل",
+            "query": "papagei",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-015",
@@ -49801,12 +50909,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "لا مدخل",
+            "query": "papegoja",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-016",
@@ -50071,7 +51194,16 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "لا مدخل",
+            "query": "papagaio",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         },
         {
           "form": "pappagallo",
@@ -50189,12 +51321,35 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "pappagallo",
+            "entries": [
+              {
+                "word": "pagella",
+                "read": "",
+                "pos": "noun",
+                "en": "A small page.",
+                "etym": "From pāgina (“written page, leaf, sheet”) + -la (diminutive suffix)."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     },
     {
       "card_id": "CMP-IE-003-017",
@@ -50963,12 +52118,27 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "old-norse",
+            "source": "data/branch-lexicons/old-norse.json",
+            "lookup_path": "لا مدخل",
+            "query": "ulv",
+            "entries": [],
+            "selected": null,
+            "selection": "لم يرجع قاموس الفرع مدخلا لهذه الصورة."
+          }
         }
       ],
       "positives": [],
       "closure": "OPEN-CANDIDATE",
-      "judgment": "غير صادر"
+      "judgment": "غير صادر",
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     }
   ],
   "touched_prior_manifests": [
@@ -50981,5 +52151,13 @@
     "khashim-indo-european-batch-001.json",
     "khashim-indo-european-batch-004.json",
     "khashim-indo-european-batch-005.json"
-  ]
+  ],
+  "branch_dictionary": "data/branch-lexicons/ via scripts/build_kaikki_index.py",
+  "branch_dictionary_recheck": {
+    "date": "2026-08-14",
+    "converted": 0,
+    "retained": 1,
+    "revoked": 1,
+    "loanword_closures": 0
+  }
 }

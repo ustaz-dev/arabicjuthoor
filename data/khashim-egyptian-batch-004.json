@@ -4,11 +4,16 @@
  "source": "data/khashim-pairs.json",
  "book": "علي فهمي خشيم، «البرهان على عروبة اللغة المصرية القديمة»",
  "ocr_recovery": {
-  "named_english_heads": 50,
-  "named_recovered": 50,
-  "named_unrecovered": 0,
-  "additional_recovered": 85,
-  "all_recovered": 135
+  "overlay_rows": 38,
+  "overlay_fields": 41,
+  "reharvested_through_batch": 1,
+  "manual_head_recovery_baseline": {
+   "named_english_heads": 50,
+   "named_recovered": 50,
+   "named_unrecovered": 0,
+   "additional_recovered": 85,
+   "all_recovered": 135
+  }
  },
  "rows_examined": 938,
  "fan_audit_938": {
@@ -29,31 +34,31 @@
   "batch_004_chosen_in_faulty_fan": 24,
   "batch_004_chosen_in_corrected_fan": 65
  },
- "scan_defects_union": 458,
+ "scan_defects_union": 430,
  "scan_defects_by_reason": {
   "الرأس إنجليزي لا رومنة مصرية": 120,
-  "المعنى الإنجليزي لم يسلم من المسح": 189,
-  "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية": 132,
+  "المعنى الإنجليزي لم يسلم من المسح": 170,
+  "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية": 110,
   "رمز هيروغليفي واحد مكرر بخلل المسح": 92
  },
  "selection_scan_reasons": {
   "الرأس إنجليزي لا رومنة مصرية": 25,
-  "المعنى الإنجليزي لم يسلم من المسح": 70,
-  "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية": 93,
+  "المعنى الإنجليزي لم يسلم من المسح": 65,
+  "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية": 82,
   "رمز هيروغليفي واحد مكرر بخلل المسح": 28
  },
  "cards_written": 368,
- "chosen_in_corrected_fan": 65,
+ "chosen_in_corrected_fan": 72,
  "positive": 8,
  "open_candidate": 360,
  "open_reasons_overlapping": {
-  "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة": 303,
-  "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية": 23,
-  "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت": 198,
-  "حدث النواة من السجل المجمد": 4,
-  "صفوف الشبكة الناقصة المبيّنة في مسار الصوت": 293,
-  "مقابلة الصفحة المصوّرة لعيب المسح المسمّى": 172,
-  "نص لسان العرب أو تاج العروس للمادة": 236
+  "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة": 290,
+  "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية": 31,
+  "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت": 192,
+  "حدث النواة من السجل المجمد": 3,
+  "صفوف الشبكة الناقصة المبيّنة في مسار الصوت": 286,
+  "مقابلة الصفحة المصوّرة لعيب المسح المسمّى": 159,
+  "نص لسان العرب أو تاج العروس للمادة": 229
  },
  "rows": [
   {
@@ -1662,36 +1667,80 @@
   },
   {
    "index": 115,
-   "foreign": "tepi renp-t",
-   "sense": "𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀",
+   "foreign": "tepi",
+   "sense": "the first day of a period of time:—",
    "root": "تبي",
-   "score": -36,
-   "raw_fan_count": 0,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
+   "score": 52,
+   "raw_fan_count": 8,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
-   "event_source": null,
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "ضعف الشيء المتجمع أو ذهاب غلظه؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «تبي» ليس في الـ2,285، فنُزِلَ إلى نواتِه «تب» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 6 في الفرع و3 في المرشح"
+   "sound_ready": true,
+   "sound_rows": [
+    "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "p↔ب = `LAB-01` (بحث: `p` + `ب` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "sound_misses": [],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "tepi renp-t",
+      "recovered": "tepi"
+     },
+     "foreign_sense": {
+      "legacy": "𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀",
+      "recovered": "the first day of a period of time:—"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 224,
+     "line": 11187
+    },
+    "new_location": {
+     "page": 227,
+     "line": 11255
+    },
+    "matched_new_row": 885,
+    "alignment_score": 39.582003,
+    "alignment_evidence": {
+     "foreign_similarity": 0.615385,
+     "sense_similarity": 0.0,
+     "arabic_gloss_similarity": 0.962264,
+     "page_delta": 3,
+     "layout_pair_score": 18.8,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "tepi renp-t",
+    "foreign_sense": "𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀"
+   }
   },
   {
    "index": 117,
@@ -4904,35 +4953,71 @@
   {
    "index": 332,
    "foreign": "tchebā",
-   "sense": "𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋",
+   "sense": "B.D. 189, 22, he who is coffined, i.e., dead",
    "root": "ذبيتي",
-   "score": -17,
+   "score": 1,
    "raw_fan_count": 8,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
-   "event_source": null,
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "النفاذ والامتداد باندفاع وحِدّة؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «ذبيتي» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ذب» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": false,
    "sound_rows": [],
    "sound_misses": [
     "عدد الصوامت 3 في الفرع و5 في المرشح"
    ],
-   "scan_reasons": [
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋",
+      "recovered": "B.D. 189, 22, he who is coffined, i.e., dead"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 409,
+     "line": 20112
+    },
+    "new_location": {
+     "page": 412,
+     "line": 18995
+    },
+    "matched_new_row": 1471,
+    "alignment_score": 24.583554,
+    "alignment_evidence": {
+     "foreign_similarity": 0.769231,
+     "sense_similarity": 0.091954,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign_sense": "𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋"
+   }
   },
   {
    "index": 333,
@@ -5624,36 +5709,77 @@
   },
   {
    "index": 383,
-   "foreign": "smer uāti",
+   "foreign": "smer",
    "sense": "a title of nobility;",
    "root": "مرر",
-   "score": -5,
-   "raw_fan_count": 0,
+   "score": 13,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
     "شرف"
    ],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "event_source": "computational/data/layer_2_results_v2.jsonl",
+   "frozen_event": {
+    "text": "استرسال اطرادي - أو اجتيازي - مع شدة أثناء أو ضيق وحبس",
+    "source": "computational/data/layer_2_results_v2.jsonl",
+    "tier": 1,
+    "tier_ar": "جذرٌ في الـ2,285",
+    "note": ""
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_ready": false,
+   "sound_rows": [
+    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 7 في الفرع و3 في المرشح"
+    "s↔م (بحث: `s` + `م` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
+    "m↔ر (بحث: `m` + `ر` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "smer uāti",
+      "recovered": "smer"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 473,
+     "line": 23099
+    },
+    "new_location": {
+     "page": 476,
+     "line": 21277
+    },
+    "matched_new_row": 1682,
+    "alignment_score": 42.901408,
+    "alignment_evidence": {
+     "foreign_similarity": 0.666667,
+     "sense_similarity": 1.0,
+     "arabic_gloss_similarity": 0.985915,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "smer uāti"
+   }
   },
   {
    "index": 384,
@@ -6824,21 +6950,28 @@
   },
   {
    "index": 499,
-   "foreign": "s-heṭṭ 7",
-   "sense": "; see",
+   "foreign": "s-heṭṭ",
+   "sense": "Rec. 17, 44, subjugation; see 𓈓𓈓",
    "root": "هدد",
-   "score": -35,
+   "score": 1,
    "raw_fan_count": 60,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "event_source": "computational/data/layer_2_results_v2.jsonl",
+   "frozen_event": {
+    "text": "تهدم وانهيار القائم الصلب وتسيبه سقوطاً بقوة",
+    "source": "computational/data/layer_2_results_v2.jsonl",
+    "tier": 1,
+    "tier_ar": "جذرٌ في الـ2,285",
+    "note": ""
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": false,
    "sound_rows": [
     "د↔د = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
    ],
@@ -6846,16 +6979,54 @@
     "s↔ه (بحث: `s` + `ه` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
     "h↔د (بحث: `h` + `د` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "s-heṭṭ 7",
+      "recovered": "s-heṭṭ"
+     },
+     "foreign_sense": {
+      "legacy": "; see",
+      "recovered": "Rec. 17, 44, subjugation; see 𓈓𓈓"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 544,
+     "line": 26945
+    },
+    "new_location": {
+     "page": 547,
+     "line": 24053
+    },
+    "matched_new_row": 1933,
+    "alignment_score": 25.501466,
+    "alignment_evidence": {
+     "foreign_similarity": 0.909091,
+     "sense_similarity": 0.258065,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 2.931818,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "s-heṭṭ 7",
+    "foreign_sense": "; see"
+   }
   },
   {
    "index": 502,
@@ -7875,34 +8046,73 @@
   },
   {
    "index": 590,
-   "foreign": "with two leaves",
+   "foreign": "ār",
    "sense": "or two tally sticks made of palm",
    "root": "عر",
-   "score": -20,
-   "raw_fan_count": 0,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
+   "score": 50,
+   "raw_fan_count": 40,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
    "event_source": "data/juthoor-core-levels.json",
-   "nucleus_event": "نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا",
+   "frozen_event": {
+    "text": "نقص أو جرد من ظاهر الشيء يلزمه ظهور ما كان خافيًا",
+    "source": "data/juthoor-core-levels.json",
+    "tier": 2,
+    "tier_ar": "نواةٌ مسجَّلة",
+    "note": ""
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 6 في الفرع و2 في المرشح"
+   "sound_ready": true,
+   "sound_rows": [
+    "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
-   ],
+   "sound_misses": [],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "with two leaves",
+      "recovered": "ār"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 630,
+     "line": 31329
+    },
+    "new_location": {
+     "page": 633,
+     "line": 27910
+    },
+    "matched_new_row": 2359,
+    "alignment_score": 39.21875,
+    "alignment_evidence": {
+     "foreign_similarity": 0.0,
+     "sense_similarity": 0.40625,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "with two leaves"
+   }
   },
   {
    "index": 597,
@@ -7999,34 +8209,76 @@
   },
   {
    "index": 602,
-   "foreign": "āsh wicked word",
+   "foreign": "Āsha",
    "sense": "curse",
    "root": "عشش",
-   "score": -16,
-   "raw_fan_count": 0,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
+   "score": 54,
+   "raw_fan_count": 40,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "event_source": "computational/data/layer_2_results_v2.jsonl",
+   "frozen_event": {
+    "text": "تداخل دقاق القش ونحوه نسيجةً تقوم حيزًا لطيفا",
+    "source": "computational/data/layer_2_results_v2.jsonl",
+    "tier": 1,
+    "tier_ar": "جذرٌ في الـ2,285",
+    "note": ""
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 9 في الفرع و3 في المرشح"
+   "sound_ready": true,
+   "sound_rows": [
+    "ā↔ع = `IDN-15` (بحث: `ā` + `ع` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "sh↔ش = `IDN-21` (بحث: `sh` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ش↔ش = باب المضاعف (تكرير الصامت الأخير في الجذر العربي)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
-   ],
+   "sound_misses": [],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "āsh wicked word",
+      "recovered": "Āsha"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 638,
+     "line": 32070
+    },
+    "new_location": {
+     "page": 641,
+     "line": 28183
+    },
+    "matched_new_row": 2369,
+    "alignment_score": 39.058824,
+    "alignment_evidence": {
+     "foreign_similarity": 0.352941,
+     "sense_similarity": 0.0,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.875,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "āsh wicked word"
+   }
   },
   {
    "index": 608,
@@ -8622,67 +8874,144 @@
   },
   {
    "index": 664,
-   "foreign": "ket to be small or little",
+   "foreign": "ket",
    "sense": "tiny, helpless, abject; small; KK",
    "root": "كيف",
-   "score": -17,
-   "raw_fan_count": 0,
+   "score": 1,
+   "raw_fan_count": 20,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "event_source": "computational/data/layer_2_results_v2.jsonl",
+   "frozen_event": {
+    "text": "كون الشيء على هيئة معينة ملتئمة استدارة أو تجمعًا",
+    "source": "computational/data/layer_2_results_v2.jsonl",
+    "tier": 1,
+    "tier_ar": "جذرٌ في الـ2,285",
+    "note": ""
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
+   "sound_ready": false,
+   "sound_rows": [
+    "k↔ك = `IDN-13` (بحث: `k` + `ك` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ي = باب المعتل (حرف العلة العربي الأوسط يقابل الصائت الذي طرحه هيكل الفرع، مع بقاء الصامتين القويين مرصوفين)"
+   ],
    "sound_misses": [
-    "عدد الصوامت 10 في الفرع و3 في المرشح"
+    "t↔ف (بحث: `t` + `ف` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "ket to be small or little",
+      "recovered": "ket"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 694,
+     "line": 34897
+    },
+    "new_location": {
+     "page": 697,
+     "line": 30324
+    },
+    "matched_new_row": 2584,
+    "alignment_score": 39.669933,
+    "alignment_evidence": {
+     "foreign_similarity": 0.26087,
+     "sense_similarity": 0.295775,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "ket to be small or little"
+   }
   },
   {
    "index": 667,
    "foreign": "ketui-t",
-   "sense": "; plur. Litanie 65",
+   "sense": "B.D. 167, 26, cooking pot; plur. 10, Litanie 65",
    "root": "كتويت",
-   "score": -19,
-   "raw_fan_count": 0,
+   "score": -1,
+   "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
-   "event_source": null,
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "تداخل الشيء بعضه في بعض فيدق وينحصر؛ والحرفُ الثالثُ «و» حدثُه: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «كتويت» ليس في الـ2,285، فنُزِلَ إلى نواتِه «كت» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": false,
    "sound_rows": [],
    "sound_misses": [
     "عدد الصوامت 4 في الفرع و5 في المرشح"
    ],
-   "scan_reasons": [
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "; plur. Litanie 65",
+      "recovered": "B.D. 167, 26, cooking pot; plur. 10, Litanie 65"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 694,
+     "line": 34920
+    },
+    "new_location": {
+     "page": 697,
+     "line": 30348
+    },
+    "matched_new_row": 2590,
+    "alignment_score": 32.666667,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.555556,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 9.0,
+     "phonetic_pair_score": 6
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign_sense": "; plur. Litanie 65"
+   }
   },
   {
    "index": 669,
@@ -9247,37 +9576,81 @@
   },
   {
    "index": 710,
-   "foreign": "merḥ-t oil",
-   "sense": "unguent, grease, suet, fat of any kind; Βρεξι, Δερπε",
+   "foreign": "merḥ-tá",
+   "sense": "unguent or perfume maker",
    "root": "مرحت",
-   "score": -38,
-   "raw_fan_count": 0,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
+   "score": 50,
+   "raw_fan_count": 6,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
-   "event_source": null,
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "الاسترسال والحركة مع صفة (حدة، قوة، اضطراب...)؛ والحرفُ الثالثُ «ح» حدثُه: تضيُّقٌ عميقٌ في أقصى الحلقِ يحتوي النفَسَ الحارَّ، فيجري فيه جريانًا محتكًّا جافًّا، حتّى ينفُذَ خالصًا خارجًا.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «مرحت» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مر» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 5 في الفرع و4 في المرشح"
+   "sound_ready": true,
+   "sound_rows": [
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "ḥ↔ح = `IDN-14` (بحث: `ḥ` + `ح` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "sound_misses": [],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "merḥ-t oil",
+      "recovered": "merḥ-tá"
+     },
+     "foreign_sense": {
+      "legacy": "unguent, grease, suet, fat of any kind; Βρεξι, Δερπε",
+      "recovered": "unguent or perfume maker"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 744,
+     "line": 37548
+    },
+    "new_location": {
+     "page": 747,
+     "line": 32224
+    },
+    "matched_new_row": 2756,
+    "alignment_score": 41.323077,
+    "alignment_evidence": {
+     "foreign_similarity": 0.769231,
+     "sense_similarity": 0.338462,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.856061,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "merḥ-t oil",
+    "foreign_sense": "unguent, grease, suet, fat of any kind; Βρεξι, Δερπε"
+   }
   },
   {
    "index": 711,
@@ -9441,21 +9814,28 @@
   },
   {
    "index": 724,
-   "foreign": "messiu 1",
+   "foreign": "messiu",
    "sense": "e born, children",
    "root": "مسسيو",
-   "score": 1,
+   "score": 19,
    "raw_fan_count": 0,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": null,
    "semantic_hits": [],
-   "event_source": null,
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "المخالطة والاتصال؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «مسسيو» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مس» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": true,
    "sound_rows": [
     "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
     "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
@@ -9464,16 +9844,49 @@
     "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
    "sound_misses": [],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "messiu 1",
+      "recovered": "messiu"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 750,
+     "line": 37997
+    },
+    "new_location": {
+     "page": 753,
+     "line": 32491
+    },
+    "matched_new_row": 2784,
+    "alignment_score": 32.384615,
+    "alignment_evidence": {
+     "foreign_similarity": 0.923077,
+     "sense_similarity": 0.538462,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 8.939394,
+     "phonetic_pair_score": 6
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "messiu 1"
+   }
   },
   {
    "index": 727,
@@ -10299,69 +10712,151 @@
   },
   {
    "index": 804,
-   "foreign": "neqmu mourners",
+   "foreign": "neqmu",
    "sense": "afflicted",
    "root": "نقمو",
-   "score": -20,
-   "raw_fan_count": 0,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
+   "score": 50,
+   "raw_fan_count": 1,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
-   "event_source": null,
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "فراغ في العمق لغليظ ينفذ فيه أو منه؛ والحرفُ الثالثُ «م» حدثُه: انطباقٌ ضامٌّ للشفتَينِ يُمسِكُ النفَسَ المجهورَ في جوفٍ مغلقٍ ثمّ يُنفِذُه رنينًا ممتدًّا من الأنف",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «نقمو» ليس في الـ2,285، فنُزِلَ إلى نواتِه «نق» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 10 في الفرع و4 في المرشح"
+   "sound_ready": true,
+   "sound_rows": [
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "q↔ق = `IDN-12` (بحث: `q` + `ق` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
-   ],
+   "sound_misses": [],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "neqmu mourners",
+      "recovered": "neqmu"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 819,
+     "line": 41883
+    },
+    "new_location": {
+     "page": 822,
+     "line": 35256
+    },
+    "matched_new_row": 3044,
+    "alignment_score": 41.408602,
+    "alignment_evidence": {
+     "foreign_similarity": 0.555556,
+     "sense_similarity": 0.580645,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "neqmu mourners"
+   }
   },
   {
    "index": 810,
-   "foreign": "nekit pieces cut off",
+   "foreign": "nekit",
    "sense": "slash-",
    "root": "نكيت",
-   "score": -20,
-   "raw_fan_count": 0,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
+   "score": 50,
+   "raw_fan_count": 6,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
-   "event_source": null,
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "الوصول إلى عمق الشيء بجد وتدقيق؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «نكيت» ليس في الـ2,285، فنُزِلَ إلى نواتِه «نك» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 11 في الفرع و4 في المرشح"
+   "sound_ready": true,
+   "sound_rows": [
+    "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "k↔ك = `IDN-13` (بحث: `k` + `ك` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "i↔ي = `IDN-23` (بحث: `i` + `ي` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
-   ],
+   "sound_misses": [],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "nekit pieces cut off",
+      "recovered": "nekit"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 819,
+     "line": 41919
+    },
+    "new_location": {
+     "page": 822,
+     "line": 35292
+    },
+    "matched_new_row": 3051,
+    "alignment_score": 39.00592,
+    "alignment_evidence": {
+     "foreign_similarity": 0.454545,
+     "sense_similarity": 0.315789,
+     "arabic_gloss_similarity": 0.813559,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "nekit pieces cut off"
+   }
   },
   {
    "index": 812,
@@ -11852,35 +12347,75 @@
   },
   {
    "index": 911,
-   "foreign": "great man",
+   "foreign": "ur",
    "sense": "great god, prince, chief, noble, eldest son, senior",
    "root": "ور",
-   "score": -20,
-   "raw_fan_count": 0,
-   "root_in_raw_fan": false,
-   "root_in_stem_fan": false,
+   "score": 50,
+   "raw_fan_count": 18,
+   "root_in_raw_fan": true,
+   "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
-   "event_source": null,
-   "nucleus_event": null,
+   "event_source": "data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "«و»: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.؛ «ر»: خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.",
+    "source": "data/juthoor-canonical-registry.json",
+    "tier": 4,
+    "tier_ar": "محاكمُ الحروف",
+    "note": "لا الجذرُ «ور» في الـ2,285 ولا نواتُه «ور» في سجلِّ النوى، فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
-   "sound_rows": [],
-   "sound_misses": [
-    "عدد الصوامت 5 في الفرع و2 في المرشح"
+   "sound_ready": true,
+   "sound_rows": [
+    "u↔و = `IDN-10` (بحث: `u` + `و` + «المصريّة/Egyptian» في عمود الشاهد)",
+    "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
-   "scan_reasons": [
-    "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
-   ],
+   "sound_misses": [],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "حدث النواة من السجل المجمد",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "great man",
+      "recovered": "ur"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 888,
+     "line": 45876
+    },
+    "new_location": {
+     "page": 891,
+     "line": 38686
+    },
+    "matched_new_row": 3398,
+    "alignment_score": 38.906569,
+    "alignment_evidence": {
+     "foreign_similarity": 0.2,
+     "sense_similarity": 0.10219,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.944444,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign": "great man"
+   }
   },
   {
    "index": 913,

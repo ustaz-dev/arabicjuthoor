@@ -42407,7 +42407,99 @@
         }
       ],
       "closure": "ROOT-ECHO",
-      "judgment": "ROOT-ECHO"
+      "judgment": "ROOT-ECHO",
+      "later_comparative_supplements": [
+        {
+          "batch": 5,
+          "category": "cross-european",
+          "source": "data/prior-art-extended-pairs.json",
+          "source_rows": [
+            2779
+          ],
+          "source_claims": [
+            {
+              "source_row_index": 2779,
+              "source_row_key": "aed25ce6d8840e925598d563",
+              "foreign": "know",
+              "foreign_sense": "معرفة؛ علم",
+              "tongue_ar": "الجرمانيّات والرومانيّات والإنكليزيّة",
+              "arabic_root": "كنه / كهن",
+              "arabic_gloss": "ردّ جذر KN في المعرفة إلى كنه ومقلوبه كهن.",
+              "source": "ocr-khashim-journey1",
+              "book": "khashim-journey1",
+              "page": 455,
+              "assigned_language": "old-english",
+              "assignment_reason": "cited spelling gives a specific European branch inside a mixed or generic cluster"
+            }
+          ],
+          "forms": [
+            {
+              "form": "know",
+              "normalized_form": "know",
+              "script": "germanic",
+              "skeleton": [
+                "k",
+                "n",
+                "w"
+              ],
+              "fan_review": [
+                {
+                  "root": "كنو",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الاستتار في جوف شيء؛ والحرفُ الثالثُ «و» حدثُه: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.",
+                  "event_note": "الجذرُ «كنو» ليس في الـ2,285، فنُزِلَ إلى نواتِه «كن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "قنو",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 1,
+                  "event_tier_ar": "جذرٌ في الـ2,285",
+                  "event_source": "computational/data/layer_2_results_v2.jsonl",
+                  "event_text": "امتساك الشيء في باطن أو حوزة بتجمع وامتداد حِسّيّ، أو زمني",
+                  "event_note": "",
+                  "meaning": "×",
+                  "dialect_label": null
+                },
+                {
+                  "root": "جنو",
+                  "weight": 0.0,
+                  "sound": "✓",
+                  "event": "✓",
+                  "event_tier": 3,
+                  "event_tier_ar": "نزولٌ إلى النواة",
+                  "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+                  "event_text": "الستر والكثافة؛ والحرفُ الثالثُ «و» حدثُه: تستديرُ الشفتانِ حلقةً تشتملُ على مجرى النفَسِ من غيرِ سدٍّ، فيجري فيها الصوتُ المجهورُ وصلًا ممدودًا يربطُ ما قبلَه بما بعدَه، ثمّ تنفرجُ الحلقةُ فتُفضي بالصوتِ إلى ما يليه.",
+                  "event_note": "الجذرُ «جنو» ليس في الـ2,285، فنُزِلَ إلى نواتِه «جن» بنصِّ التعديل 2",
+                  "meaning": "×",
+                  "dialect_label": null
+                }
+              ],
+              "branch_lexicon": {
+                "language": "old-english",
+                "source": "data/branch-lexicons/old-english.json",
+                "lookup_path": "لا مدخل",
+                "entries": []
+              },
+              "dialect_additions": 0,
+              "positives": []
+            }
+          ],
+          "target_card_id": "JAS-IE-011-067",
+          "target_manifest": "jassem-indo-european-batch-011.json",
+          "target_language": "old-english",
+          "target_kind": "jassem",
+          "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
+        }
+      ]
     },
     {
       "card_id": "JAS-IE-011-068",

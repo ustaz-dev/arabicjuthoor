@@ -79,6 +79,27 @@ def cards(path):
             )
             if m:
                 card_id = m.group(1)
+        # Subsequent append-only reassessments identify the immediately
+        # preceding harvest card in their heading.  Giving those cards a
+        # general id lets a later revision supersede them without rewriting
+        # either historical block.
+        if not card_id:
+            m = re.search(r'\b((?:LH|ALR)-[A-Z-]+-\d+)\b', head)
+            if m:
+                card_id = m.group(1)
+        if not card_id:
+            m = re.search(
+                r'^###\s+[^\n]+?؛\s*'
+                r'(LH-[A-Z-]+-\d+)\s*$',
+                b,
+                re.M,
+            )
+            if m:
+                card_id = m.group(1)
+        if not card_id:
+            m = re.search(r'<!--\s*LOAN-HARVEST-CARD:(LH-[A-Z-]+-\d+)\s*-->', b)
+            if m:
+                card_id = m.group(1)
         supersedes = ''
         m = re.search(r'<!--\s*DEAD-GATE-REREVIEW:(KHASHIM-IE:\d+)\s*-->', b)
         if m:
@@ -87,6 +108,30 @@ def cards(path):
             m = re.search(
                 r'<!--\s*LOAN-HARVEST-REREVIEW:'
                 r'(LOAN-REOPEN-[A-Z-]+-\d+)\s*-->',
+                b,
+            )
+            if m:
+                supersedes = m.group(1)
+        if not supersedes:
+            m = re.search(
+                r'<!--\s*ARABIC-ROOT-SENSE-REREVIEW:'
+                r'((?:LH|ALR)-[A-Z-]+-\d+)\s*-->',
+                b,
+            )
+            if m:
+                supersedes = m.group(1)
+        if not supersedes:
+            m = re.search(
+                r'<!--\s*LOAN-HARVEST-CORRECTION:'
+                r'(LH-[A-Z-]+-\d+)\s*-->',
+                b,
+            )
+            if m:
+                supersedes = m.group(1)
+        if not supersedes:
+            m = re.search(
+                r'<!--\s*LOAN-HARVEST-FAMILY-REREVIEW:'
+                r'(LH-[A-Z-]+-\d+)\s*-->',
                 b,
             )
             if m:

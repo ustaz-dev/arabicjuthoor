@@ -16,6 +16,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import frozen_event as FE  # noqa: E402
 import build_aed_index as AED  # noqa: E402
+import fan_any_script as FAN  # noqa: E402
 
 SOURCE = ROOT / "data" / "comparative-egyptian-coptic-batch-001.json"
 OUT = ROOT / "data" / "comparative-egyptian-coptic-reharvest-batch-000.json"
@@ -25,6 +26,12 @@ READINGS = {
     "coptic": ROOT / "04-cross-linguistic" / "readings" / "coptic.md",
 }
 MARKER = "FROZEN-EVENT-REHARVEST-BATCH-000"
+
+
+# `oipe` رأس قبطي معجمي حقيقي له مداخل AED، لكنه يقع خارج تغطية المروحة
+# الحالية. أما سائر الرؤوس التي لا تعيد لها المروحة مرشحا في هذه الدفعة فهي
+# شظايا مسح، فلا يجوز سؤال FE.resolve عن مرشح موروث لها.
+INVALID_FAN_EXCEPTIONS = {"oipe"}
 
 
 # اختيار المدخل حكم قراءة لسياق الصف، لا «أول إصابة». القيمة هي lemma id في
@@ -131,6 +138,31 @@ def event_payload(ev: FE.Ev | None) -> dict | None:
     }
 
 
+def head_validation(row: dict) -> tuple[bool, list[str], str | None]:
+    head = str(row["foreign"])
+    # نعيد نفس مدخل المروحة الذي بُنيت به البطاقة: الجذع بعد المعالجة ووسم
+    # الرسم، لا وسم اللسان الأوسع. في القبطية مثلا يكون الرسم هنا `latin`.
+    stem = str(row["analysis"]["stem"])
+    script = str(row["analysis"]["script"])
+    candidates = FAN.fan(stem, script, limit=400)
+    if candidates or head in INVALID_FAN_EXCEPTIONS:
+        note = (
+            "استثناء معجمي موثق: للرأس مداخل AED مع أنه خارج تغطية المروحة الحالية."
+            if head in INVALID_FAN_EXCEPTIONS and not candidates else None
+        )
+        return True, candidates, note
+    return False, candidates, "رأس غير صالح: لم تُرجع المروحة أي مرشح؛ لم يُسأل الحدث."
+
+
+def superseded_positive_claim(row: dict) -> str:
+    event = str(row.get("event") or "[لم يحفظ السجل السابق نص الحدث]")
+    return (
+        f"كان الموجب السابق يدعي صلة معنى الفرع «{row['foreign_sense']}» "
+        f"بالمرشح `{row['chosen_candidate']}` وحدثه «{event}»، على تفسير المصدر "
+        f"«{row.get('arabic_gloss') or '[لا تفسير محفوظ]'}»"
+    )
+
+
 def aed_payload(row: dict, ev: FE.Ev | None) -> dict:
     idx = int(row["comparative_index"])
     hits, how = AED.look(row["foreign"])
@@ -198,8 +230,15 @@ def sound_line(row: dict) -> str:
     return f"- الرجل الأولى، الصوت: ناقصة؛ {found}ما فُتش عنه: {misses}."
 
 
-def classify(row: dict, ev: FE.Ev | None, aed: dict) -> tuple[str | None, str, str, str]:
+def classify(
+    row: dict,
+    head_valid: bool,
+    ev: FE.Ev | None,
+    aed: dict,
+) -> tuple[str | None, str, str, str]:
     idx = int(row["comparative_index"])
+    if not head_valid:
+        return None, "OPEN-CANDIDATE", "", "رأس غير صالح"
     if ev is None:
         return None, "TOOL-GAP", "", "غياب حدث من FE.resolve"
     if not row["sound"]["complete"]:
@@ -214,14 +253,31 @@ def classify(row: dict, ev: FE.Ev | None, aed: dict) -> tuple[str | None, str, s
     return None, "OPEN-CANDIDATE", "", "لا مدار مقنع"
 
 
-def card(row: dict, ev: FE.Ev | None, aed: dict, verdict: str | None,
-         closure: str, orbit: str, open_reason: str) -> str:
+def card(
+    row: dict,
+    head_valid: bool,
+    head_note: str | None,
+    ev: FE.Ev | None,
+    aed: dict,
+    verdict: str | None,
+    closure: str,
+    orbit: str,
+    open_reason: str,
+) -> str:
     idx = int(row["comparative_index"])
     old = f"COMPARATIVE-TRIAGE:{idx:04d}"
-    ev_line = ev.line() if ev else (
-        "- الحدث من السجل المجمد: لم يرجع `FE.resolve` حدثا لهذا المرشح؛ "
-        "بقيت الرجل الثانية فجوة أداة."
-    )
+    if not head_valid:
+        ev_line = (
+            f"- صلاحية الرأس: {head_note}\n"
+            "- الحدث من السجل المجمد: لم يُستدع `FE.resolve`؛ لا مرشح صالحا يُسأل عن حدثه."
+        )
+    elif ev:
+        ev_line = ev.line()
+    else:
+        ev_line = (
+            "- الحدث من السجل المجمد: سُئل `FE.resolve` عن المرشح الصالح ولم يرجع حدثا؛ "
+            "هذه فجوة حدث حقيقية."
+        )
     if verdict:
         chosen = aed["selected"]
         third = (
@@ -263,6 +319,12 @@ def card(row: dict, ev: FE.Ev | None, aed: dict, verdict: str | None,
                if idx in BASELINE_POSITIVES else
                "بقي الحكم السابق غير صادر بعد إعادة الحدث ومعنى الفرع عبر AED.")
         )
+    revoked_lines = ""
+    if idx in BASELINE_POSITIVES and idx not in VERDICTS:
+        revoked_lines = (
+            f"- دعوى المدار السابق المنسوخة: {superseded_positive_claim(row)}.\n"
+            f"- خلاف AED الذي أوجب النسخ: {REJECTED_ORBITS[idx]}\n"
+        )
     block = (
         f"### بطاقة: إعادة حصاد `comparative:{idx:04d}`؛ `{row['foreign']}` «{row['foreign_sense']}»\n"
         f"<!-- {MARKER}:{idx:04d} -->\n"
@@ -273,6 +335,7 @@ def card(row: dict, ev: FE.Ev | None, aed: dict, verdict: str | None,
         f"{ev_line}\n"
         f"{chr(10).join(aed_lines(aed, row['foreign_sense']))}\n"
         f"{third}\n"
+        f"{revoked_lines}"
         f"{status}\n"
     )
     if "—" in block:
@@ -296,15 +359,23 @@ def main() -> int:
     aed_path_counts: dict[str, int] = {}
     aed_hit_cards = 0
     aed_selected_cards = 0
+    invalid_heads = 0
+    valid_heads = 0
 
     for row in rows:
-        ev = FE.resolve(row["chosen_candidate"])
+        head_valid, head_fan, head_note = head_validation(row)
+        if head_valid:
+            valid_heads += 1
+            ev = FE.resolve(row["chosen_candidate"])
+            tiers[str(ev.tier if ev else 0)] += 1
+        else:
+            invalid_heads += 1
+            ev = None
         aed = aed_payload(row, ev)
         aed_path_counts[aed["path"]] = aed_path_counts.get(aed["path"], 0) + 1
         aed_hit_cards += bool(aed["hits"])
         aed_selected_cards += bool(aed["selected"])
-        tiers[str(ev.tier if ev else 0)] += 1
-        verdict, closure, orbit, reason = classify(row, ev, aed)
+        verdict, closure, orbit, reason = classify(row, head_valid, ev, aed)
         reasons[reason] = reasons.get(reason, 0) + 1
         if verdict:
             verdict_counts[verdict] = verdict_counts.get(verdict, 0) + 1
@@ -323,20 +394,55 @@ def main() -> int:
             "chosen_candidate_weight": row["chosen_candidate_weight"],
             "sound": row["sound"],
             "proper_name": bool(row.get("proper_name")),
+            "head_validation": {
+                "valid": head_valid,
+                "head": row["foreign"],
+                "fan_query_stem": row["analysis"]["stem"],
+                "script": row["analysis"]["script"],
+                "fan_candidate_count": len(head_fan),
+                "exception": head_note if head_valid else None,
+                "issue": head_note if not head_valid else None,
+            },
+            "event_query_status": (
+                "queried" if head_valid else "not_queried_invalid_head"
+            ),
             "event": event_payload(ev),
             "semantic_orbit": orbit or None,
             "orbit_authorship": "يدوي" if orbit else None,
             "orbit_rejection": REJECTED_ORBITS.get(idx),
+            "superseded_positive_claim": (
+                superseded_positive_claim(row)
+                if idx in BASELINE_POSITIVES and idx not in VERDICTS else None
+            ),
+            "aed_contradiction": (
+                REJECTED_ORBITS.get(idx)
+                if idx in BASELINE_POSITIVES and idx not in VERDICTS else None
+            ),
             "closure": closure,
             "verdict": verdict,
             "counted_link": bool(verdict),
             "open_reason": None if verdict else reason,
         })
         cards[row["assigned_tongue"]].append(
-            card(row, ev, aed, verdict, closure, orbit, reason)
+            card(
+                row, head_valid, head_note, ev, aed,
+                verdict, closure, orbit, reason,
+            )
         )
 
-    assert tiers == {"0": 128, "1": 179, "2": 126, "3": 203, "4": 102}
+    assert invalid_heads == 101
+    assert valid_heads == 637
+    assert tiers == {"0": 108, "1": 158, "2": 112, "3": 176, "4": 83}
+    assert reasons == {
+        "نقص مسار الصوت": 483,
+        "غياب حدث من FE.resolve": 108,
+        "رأس غير صالح": 101,
+        "لا معنى AED موافق للسياق": 20,
+        "علم مفصول عن العد": 10,
+        "موجب": 9,
+        "لا مدار مقنع": 5,
+        "لا مدخل AED": 2,
+    }
     assert verdict_counts == {"NUCLEUS-TRACE": 8, "ROOT-TRACE": 1}
     positive_ids = set(VERDICTS)
     converted = positive_ids - BASELINE_POSITIVES
@@ -345,14 +451,20 @@ def main() -> int:
     assert len(converted) == 4 and len(retained) == 5 and len(revoked) == 11
 
     payload = {
-        "schema": "comparative-egyptian-coptic-reharvest-v1.1-aed",
+        "schema": "comparative-egyptian-coptic-reharvest-v1.2-invalid-heads",
         "generated_at": "2026-08-14",
         "source_batch": SOURCE.relative_to(ROOT).as_posix(),
         "source_commit": "c833ee9",
         "event_resolver": "scripts/frozen_event.py:FE.resolve",
+        "head_validator": "scripts/fan_any_script.py:fan",
         "branch_dictionary": "AED, Simon D. Schweitzer (data/aed-egyptian-lexicon.json)",
         "cards_examined": 738,
         "cards_written": 738,
+        "invalid_head_cards": invalid_heads,
+        "valid_head_cards": valid_heads,
+        "event_query_cards": valid_heads,
+        "event_not_queried_invalid_head_cards": invalid_heads,
+        "event_tiers_valid_heads": tiers,
         "event_tiers": tiers,
         "aed_path_counts": aed_path_counts,
         "aed_hit_cards": aed_hit_cards,
@@ -379,7 +491,7 @@ def main() -> int:
         section = (
             f"{start}\n"
             f"## إعادة حصاد صفوف المقارنة، الدفعة صفر: {heading} (2026-08-14)\n\n"
-            "أُعيدت الرجل الثانية عبر `FE.resolve`، والثالثة من AED لا من عمود خشيم المقارن. تعرض كل بطاقة جميع إصابات AED ووسم الطريق والرسم العلمي، وتسمي المختار الموافق للسياق أو تصرح بأن لا إصابة توافقه. كل مدار موجب مكتوب باليد.\n\n"
+            "فُحصت صلاحية الرأس بالمروحة أولا؛ فالرأس الفارغ شظية مسح لا مرشحا يُسأل عن حدثه. ثم أُعيدت الرجل الثانية للرؤوس الصالحة عبر `FE.resolve`، والثالثة من AED لا من عمود خشيم المقارن. تعرض كل بطاقة جميع إصابات AED، وتسمي المختار الموافق للسياق أو تصرح بأن لا إصابة توافقه. كل مدار موجب مكتوب باليد.\n\n"
             + "\n".join(cards[tongue])
             + f"{end}"
         )
@@ -428,8 +540,9 @@ def main() -> int:
 ## التنفيذ
 
 - فُحصت 738 بطاقة، وكُتبت 738 بطاقة نسخ إلحاقية، ولم يُمح حرف من ملفي القراءة.
-- حُلّت الرجل الثانية بـ`FE.resolve` وحده: الدرجة 1 لعدد 179، والدرجة 2 لعدد 126، والدرجة 3 لعدد 203، والدرجة 4 لعدد 102، ولم يرجع حدثا لعدد 128.
-- لم يُعد حساب الصوت ولا المروحة. أُعيدت الرجل الثالثة من AED، وعُرضت كل إصاباته في كل بطاقة مع وسم `هيكل مطابق` أو `هيكل مطوي` والرسم العلمي والقسم النحوي والإحالة.
+- فُحص الرأس أولا بـ`fan()`: ثبت 101 رأسا فارغا غير صالح، من شظايا المسح مثل `a` و`aa` و`sa`. لم يُسأل `FE.resolve` عن أي مرشح موروث لها، وأغلقت `OPEN-CANDIDATE` بعائق `رأس غير صالح`.
+- بقي 637 رأسا صالحا. حُلّت رجل الحدث لها وحدها بـ`FE.resolve`: الدرجة 1 لعدد 158، والدرجة 2 لعدد 112، والدرجة 3 لعدد 176، والدرجة 4 لعدد 83، ولم يرجع حدثا لعدد 108.
+- لم يُعد حساب الصوت. استعملت المروحة لفحص صلاحية الرأس فقط. أُعيدت الرجل الثالثة من AED، وعُرضت كل إصاباته في كل بطاقة مع وسم `هيكل مطابق` أو `هيكل مطوي` والرسم العلمي والقسم النحوي والإحالة.
 - أصاب AED {aed_hit_cards} بطاقة، واختير مدخل سياقي مفرد في {aed_selected_cards}. بقي عمود خشيم ظاهرا لتسجيل الاتفاق والخلاف، ولم يعامل قاموسا.
 - كُتب كل مدار موجب باليد بالكلمات. وفي درجتي المحاكم بقيت أحداث النطق منقولة كما هي، ثم كُتب التأليف الدلالي يدويا في المدار.
 - لم تستعمل دعوى خشيم دليلا مستقلا، ولم يحتكر مرشحه المروحة.
@@ -448,10 +561,23 @@ def main() -> int:
 | تحوّل من مفتوح إلى موجب بعد المعنى القاموسي المفرد | {len(converted)} |
 | موجب قديم بقي | {len(retained)} |
 | موجب قديم نُسخ | {len(revoked)} |
+| رأس غير صالح، لم يُسأل حدثه | {invalid_heads} |
+| رأس صالح سُئل حدثه | {valid_heads} |
+| غياب حدث حقيقي في رأس صالح | {tiers['0']} |
 
 **رقم الفرق المطلوب:** تحولت {len(converted)} بطاقات بعد أن صار لها معنى AED مفرد: {', '.join(f'`{idx:04d}`' for idx in sorted(converted))}. وبقيت الموجبات القديمة في {', '.join(f'`{idx:04d}`' for idx in sorted(retained))}، ونُسخ {len(revoked)} موجبا قديما لأن AED لم يسند المعنى الذي قام عليه المدار السابق: {', '.join(f'`{idx:04d}`' for idx in sorted(revoked))}.
 
 أسباب المفتوح حصرية جامعة: {', '.join(f'{key}={value}' for key, value in reasons.items() if key != 'موجب')}. وفي كل بطاقة صوت ناقصة حُفظ نص البحث السابق بالحرفين واسم اللسان من عمود الشاهد، وفي كل بطاقة أصابها AED عُرضت قائمته كاملة ولو لم يختر منها شيء.
+
+## تصحيح وصف الرؤوس والحدث
+
+كان المحضر السابق يجمع 128 بطاقة تحت «غياب حدث من `FE.resolve`» لأنه سأل المرشح الموروث قبل التحقق من أن رأس المسح يولد مروحة أصلا. أعيد الترتيب: صلاحية الرأس ثم الحدث. ظهرت 101 مروحة فارغة، فسميت `رأس غير صالح` ولم يُستدع لها `FE.resolve`. وبعد استبعادها بقي غياب الحدث الحقيقي 108 من 637 رأسا صالحا.
+
+العددان 101 و108 ليسا تفكيكا حسابيا للعدد القديم 128؛ إذ كان التصنيف القديم يخلط محور صلاحية الرأس بمحور حدث المرشح، وكانت لبعض الرؤوس الفارغة أحداث في المرشح الموروث مع أنها لا تملك مرشحا صالحا في المروحة الحالية. هذا هو سبب اختلاف التقاطع، وليس عيبا في أداة الحدث.
+
+## الموجبات القديمة المنسوخة
+
+نُسخت هنا {len(revoked)} بطاقات موجبة قديمة، ومع البطاقة المنسوخة الآن سطران صريحان: الدعوى السابقة بما فيها معنى الفرع والمرشح والحدث وتفسير المصدر، ثم خلاف AED الذي نقض المعنى. ومع البطاقة الواحدة المنسوخة في محضر المخزن، يكون مجموع النسخ الاثني عشر موثقا بالدعويين معا.
 
 ## أبرز عشرة أزواج دخلت
 
@@ -459,8 +585,8 @@ def main() -> int:
 
 ## المراجعتان
 
-- عدسة الاسترداد: أعادت اختبار كل مرشح من المروحة المحفوظة ولم تجعل الوزن بوابة، وقبلت {len(positive_ids)} بطاقات اكتملت أرجلها الثلاث.
-- عدسة التشكيك: قارنت كل موجب قديم بمدخل AED المختار، فنسخت {len(revoked)} موجبا لم يعد له معنى قاموسي، وأبقت `OPEN-CANDIDATE` حيث لم توافق إصابة السياق أو لم يقنع المدار. لم يصدر `NO-TRACE`.
+- عدسة الاسترداد: اختبرت صلاحية كل رأس بالمروحة قبل سؤال الحدث، ولم تجعل الوزن بوابة، وقبلت {len(positive_ids)} بطاقات اكتملت أرجلها الثلاث.
+- عدسة التشكيك: قارنت كل موجب قديم بمدخل AED المختار، فنسخت {len(revoked)} موجبا لم يعد له معنى قاموسي، وأظهرت في كل نسخة الدعوى السابقة وخلاف القاموس، وأبقت `OPEN-CANDIDATE` حيث لم توافق إصابة السياق أو لم يقنع المدار. لم يصدر `NO-TRACE`.
 
 ## المخرجات
 
@@ -470,7 +596,7 @@ def main() -> int:
 
 ## سطر الحصيلة
 
-أُعيدت الرجل الثانية والثالثة لـ738 بطاقة: 610 أحداث مجمدة، و{aed_hit_cards} إصابة AED، و{len(positive_ids)} صلات موجبة، و{738 - len(positive_ids)} بطاقة مفتوحة؛ تحولت {len(converted)} بطاقات بعد المعنى القاموسي المفرد.
+فُحصت 738 بطاقة: 101 رأس غير صالح لم يُسأل حدثه، و529 حدثا مجمدا في 637 رأسا صالحا، و{aed_hit_cards} إصابة AED، و{len(positive_ids)} صلات موجبة، و{738 - len(positive_ids)} بطاقة مفتوحة؛ تحولت {len(converted)} بطاقات بعد المعنى القاموسي المفرد.
 """
     if "—" in audit:
         raise ValueError("شرطة طويلة في المحضر")

@@ -10,6 +10,10 @@
   "heads_recovered": 290,
   "heads_still_fallen": 223
  },
+ "egyptian_ocr_recovery": {
+  "rows": 38,
+  "fields": 41
+ },
  "additional_attributed_inventories": {
   "aaron_ember_egypto_semitic": {
    "title": "المصريّةُ القديمةُ لغةٌ عروبيّة",
@@ -21479,10 +21483,45 @@
    "tongue": "egyptian",
    "foreign": "āshem",
    "glyphs": "𓀀",
-   "foreign_sense": "𓀀, 𓀀, o",
+   "foreign_sense": "M. 114, 𓀀, M. 201, 559, N. 1160, 1166, 𓀀, U. 488, T. 193, to make to go",
    "arabic_root": "إشم",
    "arabic_gloss": "أذهب. (مشى، أمشى)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "𓀀, 𓀀, o"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "𓀀, 𓀀, o",
+      "recovered": "M. 114, 𓀀, M. 201, 559, N. 1160, 1166, 𓀀, U. 488, T. 193, to make to go"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 127,
+     "line": 5721
+    },
+    "new_location": {
+     "page": 130,
+     "line": 6706
+    },
+    "matched_new_row": 435,
+    "alignment_score": 25.40678,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.135593,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 2.966667,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -21659,10 +21698,45 @@
    "tongue": "egyptian",
    "foreign": "barbar",
    "glyphs": "𓂀",
-   "foreign_sense": "𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀",
+   "foreign_sense": "to soak, to macerate, to boil; Copt. δερδερ",
    "arabic_root": "باربار",
    "arabic_gloss": "نقع في الماء، غلى (فور. فور)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀",
+      "recovered": "to soak, to macerate, to boil; Copt. δερδερ"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 154,
+     "line": 7076
+    },
+    "new_location": {
+     "page": 157,
+     "line": 7962
+    },
+    "matched_new_row": 592,
+    "alignment_score": 25.123711,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.041237,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -22157,12 +22231,53 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "tepi renp-t",
+   "foreign": "tepi",
    "glyphs": "𓀀",
-   "foreign_sense": "𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀",
+   "foreign_sense": "the first day of a period of time:—",
    "arabic_root": "تبي",
    "arabic_gloss": "أول يوم من فترة زمن: تبي. رثبوت: يوم السنة الجديدة، عيد السنة الجديدة",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "tepi renp-t",
+    "foreign_sense": "𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "tepi renp-t",
+      "recovered": "tepi"
+     },
+     "foreign_sense": {
+      "legacy": "𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀, 𓀀",
+      "recovered": "the first day of a period of time:—"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 224,
+     "line": 11187
+    },
+    "new_location": {
+     "page": 227,
+     "line": 11255
+    },
+    "matched_new_row": 885,
+    "alignment_score": 39.582003,
+    "alignment_evidence": {
+     "foreign_similarity": 0.615385,
+     "sense_similarity": 0.0,
+     "arabic_gloss_similarity": 0.962264,
+     "page_delta": 3,
+     "layout_pair_score": 18.8,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -22739,10 +22854,46 @@
    "tongue": "egyptian",
    "foreign": "hen-t",
    "glyphs": "𓊖𓊖𓊖",
-   "foreign_sense": "𓊖𓊖𓊖𓊖𓊖, evil, greed, avarice, hostility",
+   "foreign_sense": "Peasant 291, evil, greed, avarice, hostility",
    "arabic_root": "حنت",
    "arabic_gloss": "شر، جشع، بخل، عداوة",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "𓊖𓊖𓊖𓊖𓊖, evil, greed, avarice, hostility"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "𓊖𓊖𓊖𓊖𓊖, evil, greed, avarice, hostility",
+      "recovered": "Peasant 291, evil, greed, avarice, hostility"
+     }
+    },
+    "registered_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 290,
+     "line": 14165
+    },
+    "new_location": {
+     "page": 293,
+     "line": 13996
+    },
+    "matched_new_row": 1114,
+    "alignment_score": 37.383562,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.794521,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 13.0,
+     "phonetic_pair_score": 10
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -24329,10 +24480,45 @@
    "tongue": "egyptian",
    "foreign": "tchebā",
    "glyphs": "𓂋",
-   "foreign_sense": "𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋",
+   "foreign_sense": "B.D. 189, 22, he who is coffined, i.e., dead",
    "arabic_root": "ذبيتي",
    "arabic_gloss": "الموضوع في النعش، أي الميت",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋, 𓂋",
+      "recovered": "B.D. 189, 22, he who is coffined, i.e., dead"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 409,
+     "line": 20112
+    },
+    "new_location": {
+     "page": 412,
+     "line": 18995
+    },
+    "matched_new_row": 1471,
+    "alignment_score": 24.583554,
+    "alignment_evidence": {
+     "foreign_similarity": 0.769231,
+     "sense_similarity": 0.091954,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -24837,12 +25023,47 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "smer uāti",
+   "foreign": "smer",
    "glyphs": "",
    "foreign_sense": "a title of nobility;",
    "arabic_root": "سمر",
    "arabic_gloss": "لقب شرف (الأغلب أنها مكونة من مقطعين : س + مر). مرأ",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "smer uāti"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "smer uāti",
+      "recovered": "smer"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 473,
+     "line": 23099
+    },
+    "new_location": {
+     "page": 476,
+     "line": 21277
+    },
+    "matched_new_row": 1682,
+    "alignment_score": 42.901408,
+    "alignment_evidence": {
+     "foreign_similarity": 0.666667,
+     "sense_similarity": 1.0,
+     "arabic_gloss_similarity": 0.985915,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -24869,10 +25090,45 @@
    "tongue": "egyptian",
    "foreign": "s-meh",
    "glyphs": "",
-   "foreign_sense": "; caus",
+   "foreign_sense": "Rec. 26, 79, to make to forget ; caus",
    "arabic_root": "سمه",
    "arabic_gloss": "أنسى (س + مه). أمه = نسي",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "; caus"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "; caus",
+      "recovered": "Rec. 26, 79, to make to forget ; caus"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 473,
+     "line": 23119
+    },
+    "new_location": {
+     "page": 476,
+     "line": 21311
+    },
+    "matched_new_row": 1687,
+    "alignment_score": 41.882353,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.294118,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -24989,10 +25245,45 @@
    "tongue": "egyptian",
    "foreign": "sent-t",
    "glyphs": "𓊖",
-   "foreign_sense": "Herusatef Stele 28",
+   "foreign_sense": "Herusåtef Stele 28, acacia wood",
    "arabic_root": "سندت",
    "arabic_gloss": "خشب شجرة الأكاسيا (سنط)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "Herusatef Stele 28"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "Herusatef Stele 28",
+      "recovered": "Herusåtef Stele 28, acacia wood"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 479,
+     "line": 23527
+    },
+    "new_location": {
+     "page": 482,
+     "line": 21625
+    },
+    "matched_new_row": 1727,
+    "alignment_score": 27.093023,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.697674,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -25329,10 +25620,45 @@
    "tongue": "egyptian",
    "foreign": "s-tehen",
    "glyphs": "",
-   "foreign_sense": "; caus. of =",
+   "foreign_sense": "Rec. 15, 178, to sparkle; caus. of =",
    "arabic_root": "ستحن",
    "arabic_gloss": "لع (س + تحن). انظر : تحنو",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "; caus. of ="
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "; caus. of =",
+      "recovered": "Rec. 15, 178, to sparkle; caus. of ="
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 506,
+     "line": 24764
+    },
+    "new_location": {
+     "page": 509,
+     "line": 22627
+    },
+    "matched_new_row": 1811,
+    "alignment_score": 36.421053,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.473684,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 12.714286,
+     "phonetic_pair_score": 10
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -25349,10 +25675,48 @@
    "tongue": "egyptian",
    "foreign": "seth heb",
    "glyphs": "",
-   "foreign_sense": "al occasions",
+   "foreign_sense": "U. 56, ointment used on festal occasions",
    "arabic_root": "ست حب",
    "arabic_gloss": "دهان يستعمل في مناسبات الأعياد (حرفيا : عطر العيد)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "al occasions"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "al occasions",
+      "recovered": "U. 56, ointment used on festal occasions"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "old_location": {
+     "page": 506,
+     "line": 24776
+    },
+    "new_location": {
+     "page": 509,
+     "line": 22639
+    },
+    "matched_new_row": 1813,
+    "alignment_score": 36.466667,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.488889,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 13.0,
+     "phonetic_pair_score": 10
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -25977,52 +26341,245 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "s-hai 5",
+   "foreign": "s-hai",
    "glyphs": "",
    "foreign_sense": "to turn aside, to turn down, to make to descend; caus. of",
    "arabic_root": "سهاي",
    "arabic_gloss": "أزاح جانبا، أحدر، أهبط (س+هاي. هوى، يهوي. أهوى)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "s-hai 5"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "s-hai 5",
+      "recovered": "s-hai"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 544,
+     "line": 26937
+    },
+    "new_location": {
+     "page": 547,
+     "line": 24045
+    },
+    "matched_new_row": 1931,
+    "alignment_score": 27.602837,
+    "alignment_evidence": {
+     "foreign_similarity": 0.888889,
+     "sense_similarity": 0.978723,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 2.962121,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "sehem 6",
+   "foreign": "søhem",
    "glyphs": "",
    "foreign_sense": "to heat, to melt",
    "arabic_root": "سهم",
    "arabic_gloss": "سخن، صهر (س + هم) = حم. العربية: حمي، حمم",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "sehem 6"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "sehem 6",
+      "recovered": "søhem"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 544,
+     "line": 26941
+    },
+    "new_location": {
+     "page": 547,
+     "line": 24049
+    },
+    "matched_new_row": 1932,
+    "alignment_score": 43.4,
+    "alignment_evidence": {
+     "foreign_similarity": 0.8,
+     "sense_similarity": 1.0,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.94697,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "s-heṭṭ 7",
+   "foreign": "s-heṭṭ",
    "glyphs": "",
-   "foreign_sense": "; see",
+   "foreign_sense": "Rec. 17, 44, subjugation; see 𓈓𓈓",
    "arabic_root": "سهدت",
    "arabic_gloss": "إخضاع (س+هدد. هد)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "s-heṭṭ 7",
+    "foreign_sense": "; see"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "s-heṭṭ 7",
+      "recovered": "s-heṭṭ"
+     },
+     "foreign_sense": {
+      "legacy": "; see",
+      "recovered": "Rec. 17, 44, subjugation; see 𓈓𓈓"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 544,
+     "line": 26945
+    },
+    "new_location": {
+     "page": 547,
+     "line": 24053
+    },
+    "matched_new_row": 1933,
+    "alignment_score": 25.501466,
+    "alignment_evidence": {
+     "foreign_similarity": 0.909091,
+     "sense_similarity": 0.258065,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 2.931818,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "seh 8",
+   "foreign": "søh",
    "glyphs": "",
    "foreign_sense": "to discuss, to talk over a thing, to take counsel; Dream Stele 27, took counsel with his heart; 9",
    "arabic_root": "سح",
    "arabic_gloss": "ناقش، تحدث عن شيء، تشاور / استشار (صبح. صاح)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "seh 8"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "seh 8",
+      "recovered": "søh"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 544,
+     "line": 26949
+    },
+    "new_location": {
+     "page": 547,
+     "line": 24057
+    },
+    "matched_new_row": 1934,
+    "alignment_score": 36.755814,
+    "alignment_evidence": {
+     "foreign_similarity": 0.666667,
+     "sense_similarity": 0.918605,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 12.916667,
+     "phonetic_pair_score": 10
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "seh 10",
+   "foreign": "søh",
    "glyphs": "",
    "foreign_sense": "chamber, council hall or chamber; plur",
    "arabic_root": "سح",
    "arabic_gloss": "قاعة، غرفة، قاعة، أو غرفة، الندوة (سرح. ساح = ساحة)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "seh 10"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "seh 10",
+      "recovered": "søh"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 544,
+     "line": 26953
+    },
+    "new_location": {
+     "page": 547,
+     "line": 24061
+    },
+    "matched_new_row": 1935,
+    "alignment_score": 35.54964,
+    "alignment_evidence": {
+     "foreign_similarity": 0.571429,
+     "sense_similarity": 0.680412,
+     "arabic_gloss_similarity": 0.970588,
+     "page_delta": 3,
+     "layout_pair_score": 12.901515,
+     "phonetic_pair_score": 10
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -26907,12 +27464,47 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "with two leaves",
+   "foreign": "ār",
    "glyphs": "",
    "foreign_sense": "or two tally sticks made of palm",
    "arabic_root": "عر",
    "arabic_gloss": "لوح كتابة",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "with two leaves"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "with two leaves",
+      "recovered": "ār"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 630,
+     "line": 31329
+    },
+    "new_location": {
+     "page": 633,
+     "line": 27910
+    },
+    "matched_new_row": 2359,
+    "alignment_score": 39.21875,
+    "alignment_evidence": {
+     "foreign_similarity": 0.0,
+     "sense_similarity": 0.40625,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -27027,12 +27619,49 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "āsh wicked word",
+   "foreign": "Āsha",
    "glyphs": "",
    "foreign_sense": "curse",
    "arabic_root": "عش",
    "arabic_gloss": "كلمة سوء، لعنة",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "āsh wicked word"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "āsh wicked word",
+      "recovered": "Āsha"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 638,
+     "line": 32070
+    },
+    "new_location": {
+     "page": 641,
+     "line": 28183
+    },
+    "matched_new_row": 2369,
+    "alignment_score": 39.058824,
+    "alignment_evidence": {
+     "foreign_similarity": 0.352941,
+     "sense_similarity": 0.0,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.875,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -27589,10 +28218,46 @@
    "tongue": "egyptian",
    "foreign": "kenken",
    "glyphs": "𓂀𓂀",
-   "foreign_sense": "𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀",
+   "foreign_sense": "𓀀𓀉𓀀, P.S.B. 12, 83, to sing to a beaten drum, to clap the hands rhythmically",
    "arabic_root": "كنكن",
    "arabic_gloss": "غنى على ضرب الطبل، صفق إيقاعا. (غن. غنى، يغني. قن. القنين طنبور الحبشة. والتقنين: الضرب بالقنين على الطبل)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀𓂀, 𓂀",
+      "recovered": "𓀀𓀉𓀀, P.S.B. 12, 83, to sing to a beaten drum, to clap the hands rhythmically"
+     }
+    },
+    "registered_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 691,
+     "line": 34723
+    },
+    "new_location": {
+     "page": 694,
+     "line": 30124
+    },
+    "matched_new_row": 2552,
+    "alignment_score": 41.106514,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.065041,
+     "arabic_gloss_similarity": 0.987342,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -27647,12 +28312,47 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "ket to be small or little",
+   "foreign": "ket",
    "glyphs": "",
    "foreign_sense": "tiny, helpless, abject; small; KK",
    "arabic_root": "كت",
    "arabic_gloss": "صغر أو ضؤل، صغير جدا، ضئيل، عاجز، حقير. (انظر ما يلي)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "ket to be small or little"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "ket to be small or little",
+      "recovered": "ket"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 694,
+     "line": 34897
+    },
+    "new_location": {
+     "page": 697,
+     "line": 30324
+    },
+    "matched_new_row": 2584,
+    "alignment_score": 39.669933,
+    "alignment_evidence": {
+     "foreign_similarity": 0.26087,
+     "sense_similarity": 0.295775,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -27679,20 +28379,93 @@
    "tongue": "egyptian",
    "foreign": "ketui-t",
    "glyphs": "",
-   "foreign_sense": "; plur. Litanie 65",
+   "foreign_sense": "B.D. 167, 26, cooking pot; plur. 10, Litanie 65",
    "arabic_root": "كتويت",
    "arabic_gloss": "وعاء طهو",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "; plur. Litanie 65"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "; plur. Litanie 65",
+      "recovered": "B.D. 167, 26, cooking pot; plur. 10, Litanie 65"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 694,
+     "line": 34920
+    },
+    "new_location": {
+     "page": 697,
+     "line": 30348
+    },
+    "matched_new_row": 2590,
+    "alignment_score": 32.666667,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.555556,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 9.0,
+     "phonetic_pair_score": 6
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
    "foreign": "ketu",
    "glyphs": "𓂀𓂀",
-   "foreign_sense": "åstasen Stele 4, 6",
+   "foreign_sense": "Nástasen Stele 4, 6, also; Copt. KE",
    "arabic_root": "كتو",
    "arabic_gloss": "أيضا (كذا = كذلك = أيضا)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "åstasen Stele 4, 6"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "åstasen Stele 4, 6",
+      "recovered": "Nástasen Stele 4, 6, also; Copt. KE"
+     }
+    },
+    "registered_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 695,
+     "line": 34929
+    },
+    "new_location": {
+     "page": 698,
+     "line": 30355
+    },
+    "matched_new_row": 2591,
+    "alignment_score": 42.909091,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.636364,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.25,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -27819,10 +28592,46 @@
    "tongue": "egyptian",
    "foreign": "mut",
    "glyphs": "𓂋𓂋",
-   "foreign_sense": "to die",
+   "foreign_sense": "mit death",
    "arabic_root": "موت",
    "arabic_gloss": "توفي ( موت. مات، يموت، موتا، فهو ماتت، ميت، ميت )",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "to die"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "to die",
+      "recovered": "mit death"
+     }
+    },
+    "registered_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 723,
+     "line": 36311
+    },
+    "new_location": {
+     "page": 726,
+     "line": 31297
+    },
+    "matched_new_row": 2651,
+    "alignment_score": 42.384615,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.461538,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.733333,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -28107,12 +28916,53 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "merḥ-t oil",
+   "foreign": "merḥ-tá",
    "glyphs": "",
-   "foreign_sense": "unguent, grease, suet, fat of any kind; Βρεξι, Δερπε",
+   "foreign_sense": "unguent or perfume maker",
    "arabic_root": "مرحت",
    "arabic_gloss": "زيت، مرهم، شحم، دهن من أي نوع",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "merḥ-t oil",
+    "foreign_sense": "unguent, grease, suet, fat of any kind; Βρεξι, Δερπε"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "merḥ-t oil",
+      "recovered": "merḥ-tá"
+     },
+     "foreign_sense": {
+      "legacy": "unguent, grease, suet, fat of any kind; Βρεξι, Δερπε",
+      "recovered": "unguent or perfume maker"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 744,
+     "line": 37548
+    },
+    "new_location": {
+     "page": 747,
+     "line": 32224
+    },
+    "matched_new_row": 2756,
+    "alignment_score": 41.323077,
+    "alignment_evidence": {
+     "foreign_similarity": 0.769231,
+     "sense_similarity": 0.338462,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.856061,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -28207,62 +29057,288 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "mesti 19",
+   "foreign": "mesti",
    "glyphs": "",
    "foreign_sense": "childbirth",
    "arabic_root": "مستي",
    "arabic_gloss": "ولادة صبي",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "mesti 19"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "mesti 19",
+      "recovered": "mesti"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 750,
+     "line": 37961
+    },
+    "new_location": {
+     "page": 753,
+     "line": 32473
+    },
+    "matched_new_row": 2777,
+    "alignment_score": 42.5,
+    "alignment_evidence": {
+     "foreign_similarity": 0.833333,
+     "sense_similarity": 0.666667,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.979798,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "mes-t 22",
+   "foreign": "mes-t",
    "glyphs": "",
    "foreign_sense": "g produced",
    "arabic_root": "مست",
    "arabic_gloss": "ولادة، شيء أنتج",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "mes-t 22"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "mes-t 22",
+      "recovered": "mes-t"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 750,
+     "line": 37965
+    },
+    "new_location": {
+     "page": 753,
+     "line": 32475
+    },
+    "matched_new_row": 2778,
+    "alignment_score": 41.006742,
+    "alignment_evidence": {
+     "foreign_similarity": 0.8,
+     "sense_similarity": 0.202247,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.939394,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "mes-t 1",
+   "foreign": "mes-t",
    "glyphs": "",
    "foreign_sense": "[eggs] every day",
    "arabic_root": "مست",
    "arabic_gloss": "وضع [البيض] كل يوم",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "mes-t 1"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "mes-t 1",
+      "recovered": "mes-t"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 750,
+     "line": 37985
+    },
+    "new_location": {
+     "page": 753,
+     "line": 32485
+    },
+    "matched_new_row": 2781,
+    "alignment_score": 42.715447,
+    "alignment_evidence": {
+     "foreign_similarity": 0.888889,
+     "sense_similarity": 0.682927,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.818182,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "mes 1",
+   "foreign": "mes",
    "glyphs": "",
    "foreign_sense": "child, son",
    "arabic_root": "مس",
    "arabic_gloss": "صبي / ولد، ابن",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "mes 1"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "mes 1",
+      "recovered": "mes"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 750,
+     "line": 37989
+    },
+    "new_location": {
+     "page": 753,
+     "line": 32487
+    },
+    "matched_new_row": 2782,
+    "alignment_score": 43.571429,
+    "alignment_evidence": {
+     "foreign_similarity": 0.857143,
+     "sense_similarity": 1.0,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.858586,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "messiu 1",
+   "foreign": "messiu",
    "glyphs": "",
    "foreign_sense": "e born, children",
    "arabic_root": "مسسيو",
    "arabic_gloss": "المولودون / المواليد، الأطفال",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "messiu 1"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "messiu 1",
+      "recovered": "messiu"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 750,
+     "line": 37997
+    },
+    "new_location": {
+     "page": 753,
+     "line": 32491
+    },
+    "matched_new_row": 2784,
+    "alignment_score": 32.384615,
+    "alignment_evidence": {
+     "foreign_similarity": 0.923077,
+     "sense_similarity": 0.538462,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 8.939394,
+     "phonetic_pair_score": 6
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "mesit 1",
+   "foreign": "mesit",
    "glyphs": "",
    "foreign_sense": "= 1, dren; 1",
    "arabic_root": "مسيت",
    "arabic_gloss": "أولاد. جنس، عائلة",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "mesit 1"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "mesit 1",
+      "recovered": "mesit"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 750,
+     "line": 38001
+    },
+    "new_location": {
+     "page": 753,
+     "line": 32493
+    },
+    "matched_new_row": 2785,
+    "alignment_score": 41.34492,
+    "alignment_evidence": {
+     "foreign_similarity": 0.909091,
+     "sense_similarity": 0.205882,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.979798,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -28379,10 +29455,48 @@
    "tongue": "egyptian",
    "foreign": "meker",
    "glyphs": "𓂋𓂋",
-   "foreign_sense": "liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar;",
+   "foreign_sense": "liar; Copt. 𓂀𓂀",
    "arabic_root": "مكر",
    "arabic_gloss": "كاذب (مكر. ماكر : مخادع، غشاش",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar;"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar; 𓂋𓂋, liar;",
+      "recovered": "liar; Copt. 𓂀𓂀"
+     }
+    },
+    "registered_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 759,
+     "line": 38435
+    },
+    "new_location": {
+     "page": 762,
+     "line": 32812
+    },
+    "matched_new_row": 2826,
+    "alignment_score": 40.125245,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.136986,
+     "arabic_gloss_similarity": 0.816327,
+     "page_delta": 3,
+     "layout_pair_score": 18.910714,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -28509,10 +29623,45 @@
    "tongue": "egyptian",
    "foreign": "nahra",
    "glyphs": "𓀀",
-   "foreign_sense": "; Heb. נְדָר",
+   "foreign_sense": "Thes. 1202, to flow away; Heb. נָרוּר",
    "arabic_root": "نأهرا",
    "arabic_gloss": "فاض (نهر. نهرت البئر : فاض ماؤها)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "; Heb. נְדָר"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "; Heb. נְדָר",
+      "recovered": "Thes. 1202, to flow away; Heb. נָרוּר"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 772,
+     "line": 39010
+    },
+    "new_location": {
+     "page": 775,
+     "line": 33294
+    },
+    "matched_new_row": 2853,
+    "alignment_score": 25.866384,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.390244,
+     "arabic_gloss_similarity": 0.956522,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -28659,10 +29808,48 @@
    "tongue": "egyptian",
    "foreign": "nebu",
    "glyphs": "𓂋𓂋",
-   "foreign_sense": "ople",
+   "foreign_sense": "Rec. 31, 29, everybody, all people",
    "arabic_root": "نبو",
    "arabic_gloss": "كل إنسان، جميع الناس",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "ople"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "ople",
+      "recovered": "Rec. 31, 29, everybody, all people"
+     }
+    },
+    "registered_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 785,
+     "line": 39701
+    },
+    "new_location": {
+     "page": 788,
+     "line": 33945
+    },
+    "matched_new_row": 2928,
+    "alignment_score": 41.727273,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.242424,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.982143,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -29047,12 +30234,49 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "neqmu mourners",
+   "foreign": "neqmu",
    "glyphs": "",
    "foreign_sense": "afflicted",
    "arabic_root": "نقمو",
    "arabic_gloss": "باكون، مصابون / مبتلون",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "neqmu mourners"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "neqmu mourners",
+      "recovered": "neqmu"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 819,
+     "line": 41883
+    },
+    "new_location": {
+     "page": 822,
+     "line": 35256
+    },
+    "matched_new_row": 3044,
+    "alignment_score": 41.408602,
+    "alignment_evidence": {
+     "foreign_similarity": 0.555556,
+     "sense_similarity": 0.580645,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -29079,10 +30303,47 @@
    "tongue": "egyptian",
    "foreign": "neqett",
    "glyphs": "",
-   "foreign_sense": "Stele 23",
+   "foreign_sense": "Stele 23, to sleep",
    "arabic_root": "نقد",
    "arabic_gloss": "نام (رقد. الرقاد: النوم)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign_sense": "Stele 23"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "Stele 23",
+      "recovered": "Stele 23, to sleep"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 819,
+     "line": 41903
+    },
+    "new_location": {
+     "page": 822,
+     "line": 35276
+    },
+    "matched_new_row": 3048,
+    "alignment_score": 26.909091,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.636364,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -29107,12 +30368,49 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "nekit pieces cut off",
+   "foreign": "nekit",
    "glyphs": "",
    "foreign_sense": "slash-",
    "arabic_root": "نكيت",
    "arabic_gloss": "قطع، نحوت (نكا. نكا القرحة: قشرها",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "nekit pieces cut off"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "nekit pieces cut off",
+      "recovered": "nekit"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 819,
+     "line": 41919
+    },
+    "new_location": {
+     "page": 822,
+     "line": 35292
+    },
+    "matched_new_row": 3051,
+    "alignment_score": 39.00592,
+    "alignment_evidence": {
+     "foreign_similarity": 0.454545,
+     "sense_similarity": 0.315789,
+     "arabic_gloss_similarity": 0.813559,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -30037,22 +31335,98 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "umt ʿ ʿ",
+   "foreign": "umt",
    "glyphs": "",
    "foreign_sense": "ʿ ʿ, chiefs, leaders, men",
    "arabic_root": "ومت",
    "arabic_gloss": "رؤساء، زعماء، أناس (أم. إمة. الأمة: الملك. والأمة: الإمام، والأمم: رئيس القوم)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "umt ʿ ʿ"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "umt ʿ ʿ",
+      "recovered": "umt"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 884,
+     "line": 45612
+    },
+    "new_location": {
+     "page": 887,
+     "line": 38498
+    },
+    "matched_new_row": 3375,
+    "alignment_score": 42.317308,
+    "alignment_evidence": {
+     "foreign_similarity": 0.75,
+     "sense_similarity": 0.730769,
+     "arabic_gloss_similarity": 0.982143,
+     "page_delta": 3,
+     "layout_pair_score": 18.897727,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "un ʿ",
+   "foreign": "un",
    "glyphs": "",
    "foreign_sense": "we, us",
    "arabic_root": "ون",
    "arabic_gloss": "نحن، نا (ضمير جمع المتكلم في حالة المفعول به). (... نا)",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "un ʿ"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "un ʿ",
+      "recovered": "un"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية",
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 884,
+     "line": 45620
+    },
+    "new_location": {
+     "page": 887,
+     "line": 38506
+    },
+    "matched_new_row": 3377,
+    "alignment_score": 43.4,
+    "alignment_evidence": {
+     "foreign_similarity": 0.8,
+     "sense_similarity": 1.0,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.761364,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",
@@ -30117,12 +31491,49 @@
   {
    "tongue_ar": "المصريّةُ القديمة",
    "tongue": "egyptian",
-   "foreign": "great man",
+   "foreign": "ur",
    "glyphs": "",
    "foreign_sense": "great god, prince, chief, noble, eldest son, senior",
    "arabic_root": "ور",
    "arabic_gloss": "رجل عظيم، إله عظيم، أمير، رئيس، شريف، الابن البكر، كبير",
-   "source": "ocr-egyptian2"
+   "source": "ocr-egyptian2",
+   "legacy": {
+    "foreign": "great man"
+   },
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign": {
+      "legacy": "great man",
+      "recovered": "ur"
+     }
+    },
+    "registered_scan_reasons": [
+     "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية"
+    ],
+    "new_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "old_location": {
+     "page": 888,
+     "line": 45876
+    },
+    "new_location": {
+     "page": 891,
+     "line": 38686
+    },
+    "matched_new_row": 3398,
+    "alignment_score": 38.906569,
+    "alignment_evidence": {
+     "foreign_similarity": 0.2,
+     "sense_similarity": 0.10219,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 18.944444,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   }
   },
   {
    "tongue_ar": "المصريّةُ القديمة",

@@ -7565,6 +7565,17 @@
 - مروحة صورة `rod` كاملة ومرتبة بـ`F.rank`: `رد`[و0.000000،ص✓،ح✓،د2،م×]، `رض`[و0.000000،ص✓،ح✓،د2،م×]، `رذ`[و0.000000،ص✓،ح✓،د2،م×]، `رت`[و0.000000،ص✓،ح✓،د2،م×]، `لد`[و0.000000،ص✓،ح✓،د2،م×]، `لض`[و0.000000،ص✓،ح✓،د4،م×]، `لذ`[و0.000000،ص✓،ح✓،د2،م×]، `لت`[و0.000000،ص✓،ح✓،د2،م×]، `ردد`[و0.000000،ص✓،ح✓،د1،م×]، `رود`[و0.000000،ص✓،ح✓،د1،م×]، `ريد`[و0.000000،ص✓،ح✓،د1،م×]، `راد`[و0.000000،ص✓،ح✓،د3،م×]، `ردو`[و0.000000،ص✓،ح✓،د3،م×]، `ردي`[و0.000000،ص✓،ح✓،د3،م×]، `ردا`[و0.000000،ص✓،ح✓،د3،م×]، `ورد`[و0.000000،ص✓،ح✓،د1،م×]، `يرد`[و0.000000،ص✓،ح✓،د4،م×]، `رضض`[و0.000000،ص✓،ح✓،د1،م×]، `روض`[و0.000000،ص✓،ح✓،د1،م×]، `ريض`[و0.000000،ص✓،ح✓،د1،م×]، `راض`[و0.000000،ص✓،ح✓،د3،م×]، `رضو`[و0.000000،ص✓،ح✓،د1،م×]، `رضي`[و0.000000،ص✓،ح✓،د3،م×]، `رضا`[و0.000000،ص✓،ح✓،د3،م×]، `ورض`[و0.000000،ص✓،ح✓،د4،م×]، `يرض`[و0.000000،ص✓،ح✓،د4،م×]، `رذذ`[و0.000000،ص✓،ح✓،د1،م×]، `روذ`[و0.000000،ص✓،ح✓،د3،م×]، `ريذ`[و0.000000،ص✓،ح✓،د3،م×]، `راذ`[و0.000000،ص✓،ح✓،د3،م×]، `رذو`[و0.000000،ص✓،ح✓،د3،م×]، `رذي`[و0.000000،ص✓،ح✓،د3،م×]، `رذا`[و0.000000،ص✓،ح✓،د3،م×]، `ورذ`[و0.000000،ص✓،ح✓،د4،م×]، `يرذ`[و0.000000،ص✓،ح✓،د4،م×]، `رتت`[و0.000000،ص✓،ح✓،د1،م×]، `روت`[و0.000000،ص✓،ح✓،د3،م×]، `ريت`[و0.000000،ص✓،ح✓،د3،م×]، `رات`[و0.000000،ص✓،ح✓،د3،م×]، `رتو`[و0.000000،ص✓،ح✓،د3،م×]، `رتي`[و0.000000،ص✓،ح✓،د3،م×]، `رتا`[و0.000000،ص✓،ح✓،د3،م×]، `ورت`[و0.000000،ص✓،ح✓،د4،م×]، `يرت`[و0.000000،ص✓،ح✓،د4،م×]، `لدد`[و0.000000،ص✓،ح✓،د1،م×]، `لود`[و0.000000،ص✓،ح✓،د3،م×]، `ليد`[و0.000000،ص✓،ح✓،د3،م×]، `لاد`[و0.000000،ص✓،ح✓،د3،م×]، `لدو`[و0.000000،ص✓،ح✓،د3،م×]، `لدي`[و0.000000،ص✓،ح✓،د3،م×]، `لدا`[و0.000000،ص✓،ح✓،د3،م×]، `ولد`[و0.000000،ص✓،ح✓،د1،م×]، `يلد`[و0.000000،ص✓،ح✓،د4،م×]، `لضض`[و0.000000،ص✓،ح✓،د4،م×]، `لوض`[و0.000000،ص✓،ح✓،د4،م×]، `ليض`[و0.000000،ص✓،ح✓،د4،م×]، `لاض`[و0.000000،ص✓،ح✓،د4،م×]، `لضو`[و0.000000،ص✓،ح✓،د4،م×]، `لضي`[و0.000000،ص✓،ح✓،د4،م×]، `لضا`[و0.000000،ص✓،ح✓،د4،م×]، `ولض`[و0.000000،ص✓،ح✓،د4،م×]، `يلض`[و0.000000،ص✓،ح✓،د4،م×]، `لذذ`[و0.000000،ص✓،ح✓،د1،م×]، `لوذ`[و0.000000،ص✓،ح✓،د1،م×]، `ليذ`[و0.000000،ص✓،ح✓،د3،م×]، `لاذ`[و0.000000،ص✓،ح✓،د3،م×]، `لذو`[و0.000000،ص✓،ح✓،د3،م×]، `لذي`[و0.000000،ص✓،ح✓،د3،م×]، `لذا`[و0.000000،ص✓،ح✓،د3،م×]، `ولذ`[و0.000000،ص✓،ح✓،د4،م×]، `يلذ`[و0.000000،ص✓،ح✓،د4،م×]، `لتت`[و0.000000،ص✓،ح✓،د1،م×]، `لوت`[و0.000000،ص✓،ح✓،د1،م×]، `ليت`[و0.000000،ص✓،ح✓،د1،م×]، `لات`[و0.000000،ص✓،ح✓،د3،م×]، `لتو`[و0.000000،ص✓،ح✓،د3،م×]، `لتي`[و0.000000،ص✓،ح✓،د3،م×]، `لتا`[و0.000000،ص✓،ح✓،د3،م×]، `ولت`[و0.000000،ص✓،ح✓،د1،م×]، `يلت`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم.
 - فحص `fan_with_dialect` بعد عجز الفصحى: أضاف 0 صورة موسومة.
 <!-- COMPARATIVE-IE-SUPPLEMENT-004:JAS-IE-014-016:END -->
+<!-- COMPARATIVE-IE-SUPPLEMENT-005:JAS-IE-014-016:START -->
+- إلحاق المقارنات، الدفعة 005: صف 2957: `rod`؛ «أحمر» ↔ `ورد`؛ ردّ ألفاظ الأحمر إلى ورد. [ocr-khashim-journey1، ص465].
+- الإلحاق في البطاقة القائمة يمنع تكرار صور الكلمة عبر الكتب؛ لا تغيّر أولوية المؤلف الحكم السابق.
+- صورة الإلحاق `rod`؛ اللسان المسند النورديّة القديمة/Old Norse؛ الهيكل `r-d`.
+- قاموس الفرع لصورة `rod` (لا مدخل؛ `data/branch-lexicons/old-norse.json`): لا مدخل.
+- مروحة صورة `rod` كاملة ومرتبة بـ`F.rank`: `رد`[و0.000000،ص✓،ح✓،د2،م×]، `رض`[و0.000000،ص✓،ح✓،د2،م×]، `رذ`[و0.000000،ص✓،ح✓،د2،م×]، `رت`[و0.000000،ص✓،ح✓،د2،م×]، `لد`[و0.000000،ص✓،ح✓،د2،م×]، `لض`[و0.000000،ص✓،ح✓،د4،م×]، `لذ`[و0.000000،ص✓،ح✓،د2،م×]، `لت`[و0.000000،ص✓،ح✓،د2،م×]، `ردد`[و0.000000،ص✓،ح✓،د1،م×]، `رود`[و0.000000،ص✓،ح✓،د1،م×]، `ريد`[و0.000000،ص✓،ح✓،د1،م×]، `راد`[و0.000000،ص✓،ح✓،د3،م×]، `ردو`[و0.000000،ص✓،ح✓،د3،م×]، `ردي`[و0.000000،ص✓،ح✓،د3،م×]، `ردا`[و0.000000،ص✓،ح✓،د3،م×]، `ورد`[و0.000000،ص✓،ح✓،د1،م×]، `يرد`[و0.000000،ص✓،ح✓،د4،م×]، `رضض`[و0.000000،ص✓،ح✓،د1،م×]، `روض`[و0.000000،ص✓،ح✓،د1،م×]، `ريض`[و0.000000،ص✓،ح✓،د1،م×]، `راض`[و0.000000،ص✓،ح✓،د3،م×]، `رضو`[و0.000000،ص✓،ح✓،د1،م×]، `رضي`[و0.000000،ص✓،ح✓،د3،م×]، `رضا`[و0.000000،ص✓،ح✓،د3،م×]، `ورض`[و0.000000،ص✓،ح✓،د4،م×]، `يرض`[و0.000000،ص✓،ح✓،د4،م×]، `رذذ`[و0.000000،ص✓،ح✓،د1،م×]، `روذ`[و0.000000،ص✓،ح✓،د3،م×]، `ريذ`[و0.000000،ص✓،ح✓،د3،م×]، `راذ`[و0.000000،ص✓،ح✓،د3،م×]، `رذو`[و0.000000،ص✓،ح✓،د3،م×]، `رذي`[و0.000000،ص✓،ح✓،د3،م×]، `رذا`[و0.000000،ص✓،ح✓،د3،م×]، `ورذ`[و0.000000،ص✓،ح✓،د4،م×]، `يرذ`[و0.000000،ص✓،ح✓،د4،م×]، `رتت`[و0.000000،ص✓،ح✓،د1،م×]، `روت`[و0.000000،ص✓،ح✓،د3،م×]، `ريت`[و0.000000،ص✓،ح✓،د3،م×]، `رات`[و0.000000،ص✓،ح✓،د3،م×]، `رتو`[و0.000000،ص✓،ح✓،د3،م×]، `رتي`[و0.000000،ص✓،ح✓،د3،م×]، `رتا`[و0.000000،ص✓،ح✓،د3،م×]، `ورت`[و0.000000،ص✓،ح✓،د4،م×]، `يرت`[و0.000000،ص✓،ح✓،د4،م×]، `لدد`[و0.000000،ص✓،ح✓،د1،م×]، `لود`[و0.000000،ص✓،ح✓،د3،م×]، `ليد`[و0.000000،ص✓،ح✓،د3،م×]، `لاد`[و0.000000،ص✓،ح✓،د3،م×]، `لدو`[و0.000000،ص✓،ح✓،د3،م×]، `لدي`[و0.000000،ص✓،ح✓،د3،م×]، `لدا`[و0.000000،ص✓،ح✓،د3،م×]، `ولد`[و0.000000،ص✓،ح✓،د1،م×]، `يلد`[و0.000000،ص✓،ح✓،د4،م×]، `لضض`[و0.000000،ص✓،ح✓،د4،م×]، `لوض`[و0.000000،ص✓،ح✓،د4،م×]، `ليض`[و0.000000،ص✓،ح✓،د4،م×]، `لاض`[و0.000000،ص✓،ح✓،د4،م×]، `لضو`[و0.000000،ص✓،ح✓،د4،م×]، `لضي`[و0.000000،ص✓،ح✓،د4،م×]، `لضا`[و0.000000،ص✓،ح✓،د4،م×]، `ولض`[و0.000000،ص✓،ح✓،د4،م×]، `يلض`[و0.000000،ص✓،ح✓،د4،م×]، `لذذ`[و0.000000،ص✓،ح✓،د1،م×]، `لوذ`[و0.000000،ص✓،ح✓،د1،م×]، `ليذ`[و0.000000،ص✓،ح✓،د3،م×]، `لاذ`[و0.000000،ص✓،ح✓،د3،م×]، `لذو`[و0.000000،ص✓،ح✓،د3،م×]، `لذي`[و0.000000،ص✓،ح✓،د3،م×]، `لذا`[و0.000000،ص✓،ح✓،د3،م×]، `ولذ`[و0.000000،ص✓،ح✓،د4،م×]، `يلذ`[و0.000000،ص✓،ح✓،د4،م×]، `لتت`[و0.000000،ص✓،ح✓،د1،م×]، `لوت`[و0.000000،ص✓،ح✓،د1،م×]، `ليت`[و0.000000،ص✓،ح✓،د1،م×]، `لات`[و0.000000،ص✓،ح✓،د3،م×]، `لتو`[و0.000000،ص✓،ح✓،د3،م×]، `لتي`[و0.000000،ص✓،ح✓،د3،م×]، `لتا`[و0.000000،ص✓،ح✓،د3،م×]، `ولت`[و0.000000،ص✓،ح✓،د1،م×]، `يلت`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم.
+- فحص `fan_with_dialect` بعد عجز الفصحى: أضاف 0 صورة موسومة.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `rod` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «أحمر»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+<!-- COMPARATIVE-IE-SUPPLEMENT-005:JAS-IE-014-016:END -->
 
 ### بطاقة جاسم: `Rude`؛ JAS-IE-014-017
 <!-- JASSEM-IE:JAS-IE-014-017 -->
@@ -8679,6 +8690,23 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `avarij`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `verja` [verb] «to defend؛ to defend a case؛ to thwart»؛ الاشتقاق: «From Proto-Germanic *warjaną.» | `verja` [noun] «defense»؛ الاشتقاق: «From Proto-Germanic *warjaną.» | `verja` [verb] «to wrap, enclose؛ to invest money, expend»؛ الاشتقاق: «From Proto-Germanic *wazjaną, from Proto-Indo-European *woséyeti, of the root *wes- (“to dress, clothe”). Akin to Gothic 𐍅𐌰𐍃𐌾𐌰𐌽 (wasjan) and Albanian vesh.» | `verja` [noun] «outer garment, cloak»؛ الاشتقاق: «From Proto-Germanic *wazjaną, from Proto-Indo-European *woséyeti, of the root *wes- (“to dress, clothe”). Akin to Gothic 𐍅𐌰𐍃𐌾𐌰𐌽 (wasjan) and Albanian vesh.».
+- اختيار صورة `avarij`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
+<!-- COMPARATIVE-IE-SUPPLEMENT-005:CMP-IE-001-001:START -->
+- إلحاق المقارنات، الدفعة 005: صف 2691: `avarij`؛ «متوسط؛ عوار أو ضرر في البضاعة» ↔ `عور / عوارية`؛ تتبّع average إلى عوارية وعوار البضاعة ثم تقدير التعويض. [ocr-khashim-journey1، ص450].
+- الإلحاق في البطاقة القائمة يمنع تكرار صور الكلمة عبر الكتب؛ لا تغيّر أولوية المؤلف الحكم السابق.
+- صورة الإلحاق `avarij`؛ اللسان المسند النورديّة القديمة/Old Norse؛ الهيكل `v-r-j`.
+- قاموس الفرع لصورة `avarij` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `verja` [verb] «to defend؛ to defend a case؛ to thwart» | `verja` [noun] «defense» | `verja` [verb] «to wrap, enclose؛ to invest money, expend» | `verja` [noun] «outer garment, cloak».
+- مروحة صورة `avarij` كاملة ومرتبة بـ`F.rank`: `وري`[و0.000000،ص✓،ح✓،د4،م×]، `ورج`[و0.000000،ص✓،ح✓،د4،م×]، `ولي`[و0.000000،ص✓،ح✓،د1،م×]، `ولج`[و0.000000،ص✓،ح✓،د1،م×]، `فري`[و0.000000،ص✓،ح✓،د3،م×]، `فرج`[و0.000000،ص✓،ح✓،د1،م×]، `فلي`[و0.000000،ص✓،ح✓،د3،م×]، `فلج`[و0.000000،ص✓،ح✓،د3،م×]، `بري`[و0.000000،ص✓،ح✓،د3،م×]، `برج`[و0.000000،ص✓،ح✓،د1،م×]، `بلي`[و0.000000،ص✓،ح✓،د1،م×]، `بلج`[و0.000000،ص✓،ح✓،د3،م×]. الوزن ترتيب لا حكم.
+- فحص `fan_with_dialect` بعد عجز الفصحى: أضاف 0 صورة موسومة.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `avarij` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «متوسط؛ عوار أو ضرر في البضاعة» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+<!-- COMPARATIVE-IE-SUPPLEMENT-005:CMP-IE-001-001:END -->
 
 ### بطاقة المقارنات: `spegel`؛ CMP-IE-001-003
 <!-- COMPARATIVE-IE:CMP-IE-001-003 -->
@@ -8703,6 +8731,12 @@
 - مروحة صورة `spejl` كاملة ومرتبة بـ`F.rank`: `سبيل`[و0.000000،ص✓،ح✓،د3،م×]، `سبير`[و0.000000،ص✓،ح✓،د3،م×]، `سبجل`[و0.000000،ص✓،ح✓،د3،م×]، `سبجر`[و0.000000،ص✓،ح✓،د3،م×]، `سفيل`[و0.000000،ص✓،ح✓،د3،م×]، `سفير`[و0.000000،ص✓،ح✓،د3،م×]، `سفجل`[و0.000000،ص✓،ح✓،د3،م×]، `سفجر`[و0.000000،ص✓،ح✓،د3،م×]، `شبيل`[و0.000000،ص✓،ح✓،د3،م×]، `شبير`[و0.000000،ص✓،ح✓،د3،م×]، `شبجل`[و0.000000،ص✓،ح✓،د3،م×]، `شبجر`[و0.000000،ص✓،ح✓،د3،م×]، `شفيل`[و0.000000،ص✓،ح✓،د3،م×]، `شفير`[و0.000000،ص✓،ح✓،د3،م×]، `شفجل`[و0.000000،ص✓،ح✓،د3،م×]، `شفجر`[و0.000000،ص✓،ح✓،د3،م×]، `صبيل`[و0.000000،ص✓،ح✓،د3،م×]، `صبير`[و0.000000،ص✓،ح✓،د3،م×]، `صبجل`[و0.000000،ص✓،ح✓،د3،م×]، `صبجر`[و0.000000،ص✓،ح✓،د3،م×]، `صفيل`[و0.000000،ص✓،ح✓،د3،م×]، `صفير`[و0.000000،ص✓،ح✓،د3،م×]، `صفجل`[و0.000000،ص✓،ح✓،د3،م×]، `صفجر`[و0.000000،ص✓،ح✓،د3،م×]، `زبيل`[و0.000000،ص✓،ح✓،د3،م×]، `زبير`[و0.000000،ص✓،ح✓،د3،م×]، `زبجل`[و0.000000،ص✓،ح✓،د3،م×]، `زبجر`[و0.000000،ص✓،ح✓،د3،م×]، `زفيل`[و0.000000،ص✓،ح✓،د3،م×]، `زفير`[و0.000000،ص✓،ح✓،د3،م×]، `زفجل`[و0.000000،ص✓،ح✓،د3،م×]، `زفجر`[و0.000000،ص✓،ح✓،د3،م×]. الوزن ترتيب لا حكم.
 - فحص `fan_with_dialect` بعد عجز الفصحى: أضاف 0 صورة موسومة.
 <!-- COMPARATIVE-IE-SUPPLEMENT-004:CMP-IE-001-003:END -->
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `spegel`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `spegel`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `forkr`؛ CMP-IE-001-022
 <!-- COMPARATIVE-IE:CMP-IE-001-022 -->
@@ -8717,6 +8751,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `forkr`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `frekr` [adj] «brazen; shameless or impudent; shocking or audacious؛ enterprising, cheeky; brazen, bold; sneaky؛ greedy; covetous, desirous»؛ الاشتقاق: «From Proto-Germanic *frekaz, whence also Old English frec, Old High German freh, Middle High German vrech, German frech. Also the root for the wolf Freki of Norse Mythology.» | `frakkar` [noun] «Franks»؛ الاشتقاق: «From Proto-Germanic *frankô m (“spear, javelin; Frank”), whence also Old Norse frakka f (“spear”). The link between the name of a weapon and a Germanic people group is also seen wi» | `frakkr` [adj] «brave, undaunted»؛ الاشتقاق: «Related to frekr (“greedy, covetous”)».
+- اختيار صورة `forkr`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `papper`؛ CMP-IE-001-025
 <!-- COMPARATIVE-IE:CMP-IE-001-025 -->
@@ -8741,6 +8781,12 @@
 - في هذا الملف 6 بطاقة جديدة؛ جُمعت صور الأسرة الواحدة، وأُحيلت الصور السابقة إلى بطاقاتها بدل تكرارها.
 - فُحصت المروحة كاملة مرتبة بـ`F.rank`، ثم `fan_with_dialect` عند عجز الفصحى؛ الوزن ترتيب لا حكم.
 - غياب الصورة من اللقطة `SOURCE-GAP` خارج الحكم؛ الحكم ثلاثي الأرجل: مسار صوت مسمى، حدث مجمد، ومعنى فرع بمدار مكتوب.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `papper`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `papper`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `tjur`؛ CMP-IE-003-004
 <!-- COMPARATIVE-IE:CMP-IE-003-004 -->
@@ -8755,6 +8801,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `tjur`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `tjara` [noun] «tar»؛ الاشتقاق: «From Proto-Germanic *terwǭ, *terwą.».
+- اختيار صورة `tjur`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `fjaril`؛ CMP-IE-003-005
 <!-- COMPARATIVE-IE:CMP-IE-003-005 -->
@@ -8769,6 +8821,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `fjaril`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `fjaril`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `katt`؛ CMP-IE-003-007
 <!-- COMPARATIVE-IE:CMP-IE-003-007 -->
@@ -8783,6 +8841,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `katt`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `kot` [noun] «cottage, hut»؛ الاشتقاق: «From Proto-Germanic *kutą» | `ketta` [noun] «a female cat؛ a giantess»؛ الاشتقاق: «From Proto-Germanic *kattijǭ, *kattǭ (“female cat”).» | `okætʀ` [adj] «unjolly»؛ الاشتقاق: «ō- + kǣtʀ. Equivalent to Old West Norse ókátr.».
+- اختيار صورة `katt`: `ketta` [noun] «a female cat؛ a giantess»؛ الاشتقاق: «From Proto-Germanic *kattijǭ, *kattǭ (“female cat”).». اختير `ketta` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `lejon`؛ CMP-IE-003-013
 <!-- COMPARATIVE-IE:CMP-IE-003-013 -->
@@ -8797,6 +8861,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `lejon`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `eljan` [noun] «endurance, energy»؛ الاشتقاق: «From Proto-Germanic *aljaną (“zeal, strength, power, courage”), from Proto-Indo-European *h₁elh₂- (“to spur”). Cognate with Icelandic elja (“endurance, energy”), Old Saxon ellian (» | `eljun` [noun] «endurance, energy»؛ الاشتقاق: «From Proto-Germanic *aljaną (“zeal, strength, power, courage”), from Proto-Indo-European *h₁elh₂- (“to spur”). Cognate with Icelandic elja (“endurance, energy”), Old Saxon ellian (».
+- اختيار صورة `lejon`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `papegoja`؛ CMP-IE-003-015
 <!-- COMPARATIVE-IE:CMP-IE-003-015 -->
@@ -8811,6 +8881,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `papegoja`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `papegoja`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `ulv`؛ CMP-IE-003-017
 <!-- COMPARATIVE-IE:CMP-IE-003-017 -->
@@ -8835,6 +8911,12 @@
 - في هذا الملف 19 بطاقة جديدة؛ جُمعت صور الأسرة الواحدة، وأُحيلت الصور السابقة إلى بطاقاتها بدل تكرارها.
 - فُحصت المروحة كاملة مرتبة بـ`F.rank`، ثم `fan_with_dialect` عند عجز الفصحى؛ الوزن ترتيب لا حكم.
 - غياب الصورة من اللقطة `SOURCE-GAP` خارج الحكم؛ الحكم ثلاثي الأرجل: مسار صوت مسمى، حدث مجمد، ومعنى فرع بمدار مكتوب.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `ulv`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `ulv`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `frukt`؛ CMP-IE-004-004
 <!-- COMPARATIVE-IE:CMP-IE-004-004 -->
@@ -8852,6 +8934,14 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `frukt`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `frukt`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- صورة `frugt`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `frugt`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `koppar`؛ CMP-IE-004-024
 <!-- COMPARATIVE-IE:CMP-IE-004-024 -->
@@ -8866,6 +8956,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `koppar`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `kópr` [noun] «a young seal؛ an Old Icelandic nickname, probably meaning “one who stares”»؛ الاشتقاق: «From the verb kópa (“to stare”), from Proto-Germanic *kōpēn-, related to *kōpijaną (“to look after”).» | `keppr` [noun] «cudgel, club»؛ الاشتقاق: «Possibly borrowed from or from the same ultimate source as Latin cippus (“stake, post”).» | `keipr` [noun] «thole»؛ الاشتقاق: «From Proto-Germanic *kaipaz.».
+- اختيار صورة `koppar`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `guld`؛ CMP-IE-004-026
 <!-- COMPARATIVE-IE:CMP-IE-004-026 -->
@@ -8880,6 +8976,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `guld`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `gildi` [noun] «payment, tribute؛ repute؛ feast, banquet»؛ الاشتقاق: «Related to gjalda (“to pay, to give recompense)”), gjald (“payment, recompense”).».
+- اختيار صورة `guld`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `kasern`؛ CMP-IE-004-032
 <!-- COMPARATIVE-IE:CMP-IE-004-032 -->
@@ -8894,6 +8996,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `kasern`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `kasern`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `pibe`؛ CMP-IE-004-043
 <!-- COMPARATIVE-IE:CMP-IE-004-043 -->
@@ -8908,6 +9016,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `pibe`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `pibe`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `saebe`؛ CMP-IE-004-044
 <!-- COMPARATIVE-IE:CMP-IE-004-044 -->
@@ -8922,6 +9036,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `saebe`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `saebe`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `kista`؛ CMP-IE-004-050
 <!-- COMPARATIVE-IE:CMP-IE-004-050 -->
@@ -8936,6 +9056,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `kista`؛ الطريق: الصورةُ بنصِّها؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `kista` [noun] «a chest؛ a coffin»؛ الاشتقاق: «From Latin cista, itself from Ancient Greek κίστη (kístē).».
+- اختيار صورة `kista`: `kista` [noun] «a chest؛ a coffin»؛ الاشتقاق: «From Latin cista, itself from Ancient Greek κίστη (kístē).». اختير `kista` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `taeppe`؛ CMP-IE-004-054
 <!-- COMPARATIVE-IE:CMP-IE-004-054 -->
@@ -8950,6 +9076,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `taeppe`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `tapa` [verb] «to lose»؛ الاشتقاق: «From Proto-Germanic *tappōną, from Proto-Indo-European *dh₂pnéh₂ti, from *deh₂p- (“to lose, sacrifice”), from *deh₂- (“to divide”).».
+- اختيار صورة `taeppe`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `kok`؛ CMP-IE-004-059
 <!-- COMPARATIVE-IE:CMP-IE-004-059 -->
@@ -8967,6 +9099,14 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `kok`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `kaka` [noun] «cake»؛ الاشتقاق: «From Proto-Germanic *kakǭ.».
+- اختيار صورة `kok`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- صورة `kokken`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `kunna` [verb] «to know, understand, be able to؛ to know (by memory)؛ to know, be familiar with (a person)»؛ الاشتقاق: «From Proto-Germanic *kunnaną. Ultimately from Proto-Indo-European *ǵneh₃- (“to know”).» | `kanna` [noun] «a can, tankard»؛ الاشتقاق: «From Proto-Germanic *kannǭ.» | `kanna` [verb] «to search, explore» | `kenna` [verb] «to know (a person)؛ to feel؛ to teach someone»؛ الاشتقاق: «From Proto-Germanic *kannijaną, from Proto-Indo-European *ǵn̥néh₃ti, from *ǵneh₃- (“to know”).» | `kona` [noun] «woman؛ wife»؛ الاشتقاق: «From Proto-Germanic *kwenǭ, ultimately from Proto-Indo-European *gʷḗn (“woman”).» | `kné` [noun] «knee؛ a degree of cognate relationship»؛ الاشتقاق: «From Proto-Germanic *knewą, ultimately from Proto-Indo-European *ǵónu. Compare Old Saxon knio, Old English cnēow, Old Frisian knī, Old High German kneo, Gothic 𐌺𐌽𐌹𐌿 (kniu).» | `kinn` [noun] «cheek»؛ الاشتقاق: «From Proto-Germanic *kinnuz, from Proto-Indo-European *ǵénu- (“cheek”).» | `kaun` [noun] «boil, abscess؛ name of the rune ᚴ (k)»؛ الاشتقاق: «From Proto-Germanic *kauną (“cheek, jaw; sore”), from Proto-Indo-European *gew- (“to bend, curve”). Cognate with Middle Dutch coon (“jaw, jawbone, cheek”).» | `kná` [verb] «can, could»؛ الاشتقاق: «From Proto-Germanic *knēaną, whence also English know. Ultimately from Proto-Indo-European *ǵneh₃- (“to know”).» | `aukinn` [verb] «pregnant».
+- اختيار صورة `kokken`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `madrass`؛ CMP-IE-004-065
 <!-- COMPARATIVE-IE:CMP-IE-004-065 -->
@@ -8981,6 +9121,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `madrass`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `madrass`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `biorr`؛ CMP-IE-004-071
 <!-- COMPARATIVE-IE:CMP-IE-004-071 -->
@@ -8995,6 +9141,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `biorr`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `ber` [noun] «berry»؛ الاشتقاق: «From Proto-Germanic *basją, *bazją, whence also Old English berġe, Old High German beri.» | `burr` [noun] «son؛ kenning for Thor؛ poet»؛ الاشتقاق: «From Proto-Germanic *buriz (“male offspring; son”), from Proto-Indo-European *bʰer- (“to bear, carry, bring”). Cognate with Old English byre, Gothic 𐌱𐌰𐌿𐍂 (baur).» | `bora` [verb] «to bore»؛ الاشتقاق: «From Proto-Germanic *burōną (“to drill, pierce, bore”).» | `bora` [noun] «a drilling hole»؛ الاشتقاق: «From Proto-Germanic *burōną (“to drill, pierce, bore”).» | `bera` [verb] «to carry, to bear»؛ الاشتقاق: «From Proto-Germanic *beraną, from Proto-Indo-European *bʰéreti (*bʰer- being the root). Compare Old English beran, Old Saxon beran, Old High German beran, Gothic 𐌱𐌰𐌹𐍂𐌰𐌽 (bairan).» | `bera` [verb] «to make bare»؛ الاشتقاق: «From Proto-Germanic *bazōną.» | `bera` [noun] «she-bear, female bear»؛ الاشتقاق: «From Proto-Germanic *berǭ f, feminine form of *berô m, whence Old Norse bjǫrn m.» | `brú` [noun] «bridge»؛ الاشتقاق: «from Proto-Germanic *brōwō, *brūwō.» | `beri` [noun] «bear»؛ الاشتقاق: «From Proto-Germanic *berô. Compare bjǫrn, originally derived from this word.» | `berr` [adj] «bare»؛ الاشتقاق: «From Proto-Germanic *bazaz, whence also Old English bær, Old High German bar. Cognate with Icelandic ber and Norwegian Bokmål bar. Ultimately from Proto-Indo-European *bʰosós.» | `barr` [noun] «acicular leaves, needles (of the fir or pine)؛ barley»؛ الاشتقاق: «From Proto-Germanic *baraz.» | `bǿr` [noun] «farmhouse, farmstead؛ farm, landed estate؛ town»؛ الاشتقاق: «From the root of the verb búa.» | `bára` [noun] «wave, billow»؛ الاشتقاق: «From Proto-Indo-European *bʰer- (“to bear”), probably through a Proto-Germanic root similar to *bērō.» | `bǫrr` [noun] «man»؛ الاشتقاق: «From Proto-Germanic *barô.» | `bǫrr` [noun] «a kind of tree»؛ الاشتقاق: «From Proto-Germanic *barwaz.» | `brá` [noun] «eyelash»؛ الاشتقاق: «From Proto-Germanic *brēwō.» | `Borr` [name] «Borr»؛ الاشتقاق: «Ultimately from Proto-Indo-European *bʰer- (“to bear, carry”), therefore probably meaning "the one brought forth". Compare Buri (“the bringer forth”).» | `Buri` [name] «name of a dwarf»؛ الاشتقاق: «From Proto-Germanic *burô (“bearer; one who carries or brings”), Proto-Indo-European *bʰer- (“to bear, carry”). Compare Borr (literally “the one brought forth”).» | `bærr` [adj] «right, appropriate»؛ الاشتقاق: «From Proto-Germanic *bēriz (“bearable, fruitful, viable”). Related to bera (“to carry, bear”)» | `brō` [noun] «bridge»؛ الاشتقاق: «From Proto-Germanic *brōwō, *brūwō. Doublet of brú.».
+- اختيار صورة `biorr`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `kaffe`؛ CMP-IE-004-075
 <!-- COMPARATIVE-IE:CMP-IE-004-075 -->
@@ -9009,6 +9161,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `kaffe`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `kaffe`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `peber`؛ CMP-IE-004-079
 <!-- COMPARATIVE-IE:CMP-IE-004-079 -->
@@ -9023,6 +9181,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `peber`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `peber`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `socker`؛ CMP-IE-004-084
 <!-- COMPARATIVE-IE:CMP-IE-004-084 -->
@@ -9040,6 +9204,14 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `socker`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `socker`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- صورة `sukker`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `skrá` [noun] «dried skin, parchment؛ scroll, written document»؛ الاشتقاق: «From Proto-Germanic *skrahō (“dry animal skin”), of uncertain origin, though possibly a derivative of Proto-Indo-European *(s)ker- (“to shrink, dry, wrinkle, bend”). Related to dia» | `skrá` [verb] «to write down, register»؛ الاشتقاق: «From the noun skrá (Etymology 1).» | `skór` [noun] «shoe»؛ الاشتقاق: «From Proto-Germanic *skōhaz, of unclear etymology; possibly a derivation from *skehaną (“to move quickly”), from Proto-Indo-European *skek- (“to move quickly, jump”). Compare Old E» | `skæri` [noun] «a pair of shears»؛ الاشتقاق: «From skera.» | `skera` [verb] «to cut»؛ الاشتقاق: «From Proto-Germanic *skeraną, whence also Old English scieran, Old Frisian skera, Old Saxon sceran, Old High German skeran. Ultimately from Proto-Indo-European *(s)ker- (“to cut”).» | `skara` [verb] «to poke, rake؛ to cover closely» | `sakar` [prep] «on account of, for the sake of»؛ الاشتقاق: «From sǫk.» | `skúr` [noun] «shower (of rain)»؛ الاشتقاق: «Borrowed from Middle Low German schūr, from Proto-Germanic *skūrō, whence also Old English scūr (English shower), Middle Dutch schuur, Old High German scūr, Gothic 𐍃𐌺𐌿𐍂𐌰 (skūra).» | `askr` [noun] «ash (tree)؛ wooden vessel or dish»؛ الاشتقاق: «From Proto-Germanic *askaz, whence also Old English æsc, Old High German ask. For the semantic shift from "tree" to "container" compare Latin buxus, buxis (whence English box, boxw» | `sokkr` [noun] «sock»؛ الاشتقاق: «From Proto-Germanic *sukkaz (whence also Old English socc, Old High German soc), from Latin soccus.» | `sker` [noun] «rock in the sea, skerry»؛ الاشتقاق: «From Proto-Germanic *skarją. Ultimately from Proto-Indo-European *(s)ker- (“to cut”).» | `skari` [noun] «host, troop»؛ الاشتقاق: «Likely borrowed from Middle Low German schāre, from Old Saxon scara, from Proto-West Germanic *skaru, from Proto-Germanic *skarō. Doublet of skǫr f. Akin to English share.» | `skor` [noun] «a score, notch, incision؛ a rift in a rock or a precipice»؛ الاشتقاق: «Inherited from Proto-Germanic *skurō, from Proto-Indo-European *(s)ker-.» | `sekkr` [noun] «sack, big bag (for turnips, flour, mail, etc.)»؛ الاشتقاق: «From Proto-Germanic *sakkuz (“sack”), from Latin saccus (“large bag”), from Ancient Greek σάκκος (sákkos, “bag of coarse cloth”), from Semitic.» | `sakir` [prep] «on account of, for the sake of»؛ الاشتقاق: «Plural of sǫk.» | `ausker` [noun] «bail»؛ الاشتقاق: «ausa + ker» | `sekr` [adj] «guilty؛ convicted, outlawed, condemned to outlawry؛ sentenced to pay»؛ الاشتقاق: «Inherited from Proto-Germanic *sakjaz.» | `-iskr` [suffix] «forms adjectives»؛ الاشتقاق: «From Proto-Germanic *-iskaz, from Proto-Indo-European *-iskos. Whence also English -ish. Note also the shorter form -skr.» | `-skr` [suffix] «forms adjectives»؛ الاشتقاق: «From Proto-Germanic *-iskaz, from Proto-Indo-European *-iskos. Whence also English -ish. Note also the longer form -iskr.» | `skírr` [adj] «clear, bright, pure؛ cleansed from guilt»؛ الاشتقاق: «From Proto-Germanic *skīriz.» | `skírra` [adj] «strong all genders genitive plural of skírr؛ masculine oblique cases singular of skírri, comparative degree of skírr؛ neuter all cases singular of skírri, comparative degree of skírr» | `Askr` [name] «Ask, the first male human according to the Poetic Edda»؛ الاشتقاق: «From askr (“ash tree”).».
+- اختيار صورة `sukker`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `kopp`؛ CMP-IE-004-090
 <!-- COMPARATIVE-IE:CMP-IE-004-090 -->
@@ -9055,9 +9227,15 @@
 - الحدث المجمّد كما هو (درجة 1، جذرٌ في الـ2,285): «انبعاج الشيء المجوّف مستديرًا أو مُكوَّرًا» [computational/data/layer_2_results_v2.jsonl].
 - معنى الفرع: `kopp` في نقل المصدر: كوب.
 - المدار المكتوب: الكوب جرم مجوّف مستدير؛ فيطابق حدث `كوب` في انبعاج الشيء المجوّف مستديرًا أو مكورًا.
-- الحكم (استكشاف): **ROOT-TRACE (استكشاف)**؛ `كوب`=ROOT-TRACE.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: ROOT-TRACE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `kopp`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `kaupa` [verb] «to buy»؛ الاشتقاق: «Uncertain; either: * from Proto-Germanic *kaupōną (“to buy”), from *kaupô (“inkkeeper; merchant”), from Latin caupō (“tradesman”), thus a cognate of Gothic 𐌺𐌰𐌿𐍀𐍉𐌽 (kaupōn, “barter”».
+- اختيار صورة `kopp`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: نُسخ الموجب؛ قاموس الفرع لا يسند المعنى الذي قام عليه مداره السابق، وبقي الحكم غير صادر.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `kruka`؛ CMP-IE-004-096
 <!-- COMPARATIVE-IE:CMP-IE-004-096 -->
@@ -9072,6 +9250,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `kruka`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `kráka` [noun] «crow»؛ الاشتقاق: «From Proto-Germanic *krakǭ, a derivative of *krakōną, from Proto-Indo-European *gerh₂- (“to cry hoarsely”). Cognate to German krähe, English crow.».
+- اختيار صورة `kruka`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `yxa`؛ CMP-IE-004-099
 <!-- COMPARATIVE-IE:CMP-IE-004-099 -->
@@ -9090,9 +9274,17 @@
 - الحدث المجمّد كما هو (درجة 2، نواةٌ مسجَّلة): «نوع من القطع مع التسوية والتتابع الممتد» [data/juthoor-core-levels.json].
 - معنى الفرع: `okse` في نقل المصدر: فأس.
 - المدار المكتوب: الفأس أداة القطع المتتابع المسوّي؛ فيقع فعلها في حدث `قص`: نوع من القطع مع التسوية والتتابع الممتد.
-- الحكم (استكشاف): **ROOT-TRACE (استكشاف)**؛ `قص`=ROOT-TRACE.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: ROOT-TRACE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `yxa`؛ الطريق: لا مدخل؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: لا مدخل.
+- اختيار صورة `yxa`: لا شيء. لم يرجع قاموس الفرع مدخلا لهذه الصورة.
+- صورة `okse`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `koss` [noun] «kiss»؛ الاشتقاق: «From Proto-Germanic *kussaz, whence also Old English coss, Old Saxon kus, kos, Old High German kus.» | `kǫs` [noun] «heap, pile»؛ الاشتقاق: «From Proto-Germanic *kasō, from Proto-Indo-European *h₂ǵ-es- (“to throw”).».
+- اختيار صورة `okse`: لا شيء. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم.
+- أثر الإعادة: نُسخ الموجب؛ قاموس الفرع لا يسند المعنى الذي قام عليه مداره السابق، وبقي الحكم غير صادر.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `sag`؛ CMP-IE-004-104
 <!-- COMPARATIVE-IE:CMP-IE-004-104 -->
@@ -9107,6 +9299,12 @@
 - الحكم (استكشاف): **غير صادر (استكشاف)**.
 - حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
 - حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:START -->
+- إعادة قاموس الفرع: عُرضت قائمة كل صورة، وحُفظ طريق البحث ورسم المدخل كما في القاموس.
+- صورة `sag`؛ الطريق: هيكلٌ مطابق؛ المصدر: `data/branch-lexicons/old-norse.json`؛ القائمة كاملة: `sog` [noun] «suction»؛ الاشتقاق: «Perhaps from an earlier Proto-Germanic *sugą, being affected by a-umlaut. Anyhow related to súga.» | `saga` [noun] «story, history, legend, saga»؛ الاشتقاق: «From Proto-Germanic *sagǭ. Ultimately from Proto-Indo-European *sekʷ- (“to say”).» | `súga` [verb] «to suck»؛ الاشتقاق: «From Proto-Germanic *sūganą, whence also Old English sūgan, Old Saxon sūgan, Old High German sūgan. Ultimately from Proto-Indo-European *sug-, *suk-.» | `sǫg` [noun] «saw»؛ الاشتقاق: «From Proto-Germanic *sagō, from Proto-Indo-European *sek- (“to cut”). Cognate with Old English saga, sagu (English saw), Old Frisian sage (West Frisian seage), Old Saxon saga, Dutc».
+- اختيار صورة `sag`: `sǫg` [noun] «saw»؛ الاشتقاق: «From Proto-Germanic *sagō, from Proto-Indo-European *sek- (“to cut”). Cognate with Old English saga, sagu (English saw), Old Frisian sage (West Frisian seage), Old Saxon saga, Dutc». اختير `sǫg` لأنه المدخل الذي يوافق سياق الصف؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها.
+- أثر الإعادة: لا موجب جديد؛ المدخل المختار، إن وجد، لم يكمل مع الصوت والحدث مدارا مستوفيا.
+<!-- BRANCH-LEXICON-RECHECK-2026-08-14:END -->
 
 ### بطاقة المقارنات: `saks`؛ CMP-IE-004-107
 <!-- COMPARATIVE-IE:CMP-IE-004-107 -->
@@ -9123,3 +9321,402 @@
 - حالة الإغلاق: OPEN-CANDIDATE.
 
 <!-- COMPARATIVE-IE-BATCH-004:END -->
+
+<!-- COMPARATIVE-IE-BATCH-005:START -->
+
+## حصادُ الصفوف المقارنة الهنديّة الأوربيّة، الدفعة 005 (2026-08-14)
+
+- في هذا الملف 13 بطاقة جديدة؛ جُمعت صور الأسرة الواحدة، وأُحيلت الصور السابقة إلى بطاقاتها بدل تكرارها.
+- فُحصت المروحة كاملة مرتبة بـ`F.rank`، ثم `fan_with_dialect` عند عجز الفصحى؛ الوزن ترتيب لا حكم.
+- قاموسُ Kaikki المفهرس يقدَّم على عمود الباحث، وتُعرض جميع إصاباته وطريق البحث؛ غياب الصورة من اللقطة `SOURCE-GAP` خارج الحكم.
+
+### بطاقة المقارنات: `juvelerare`؛ CMP-IE-005-005
+<!-- COMPARATIVE-IE:CMP-IE-005-005 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `juvelerare`؛ صفوف المصدر [2588].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 2588: `juvelerare`؛ «صائغ؛ جوهري» ↔ `جهر / جوهر`؛ ردّ ألفاظ الجواهري إلى جهر وجوهر واللمعان. [ocr-khashim-journey1، ص444].
+- الخطوة صفر لصورة `juvelerare`: الرسم `germanic`؛ الهيكل `j-v-l-r-r`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `juvelerare` (لا مدخل؛ `data/branch-lexicons/old-norse.json`): لا مدخل.
+- خلاف المصدر محفوظ: عمود خشيم يسوق «صائغ؛ جوهري»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `juvelerare`، مرتبة بـ`F.rank`: لا مرشح قابل للتوليد من الهيكل. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SOURCE-GAP؛ يتطلب=مدخل قاموسي للصور `juvelerare` قبل كتابة المدار.
+- المدار المكتوب: لم يثبت معنى قاموسي للفرع، فلا يُنشأ مدار من عمود الباحث.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `juvelerare` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «صائغ؛ جوهري»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `kapten`؛ CMP-IE-005-026
+<!-- COMPARATIVE-IE:CMP-IE-005-026 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `kapten`, `kaptajn`؛ صفوف المصدر [2650, 2651].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 2650: `kapten`؛ «ربان؛ قائد» ↔ `قب`؛ ردّ captain إلى caput ثم قب، الرأس والرئيس. [ocr-khashim-journey1، ص448] | صف 2651: `kaptajn`؛ «ربان؛ قائد» ↔ `قب`؛ ردّ captain إلى caput ثم قب، الرأس والرئيس. [ocr-khashim-journey1، ص448].
+- الخطوة صفر لصورة `kapten`: الرسم `germanic`؛ الهيكل `k-p-t-n`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `kapten` (لا مدخل؛ `data/branch-lexicons/old-norse.json`): لا مدخل.
+- خلاف المصدر محفوظ: عمود خشيم يسوق «ربان؛ قائد»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `kapten`، مرتبة بـ`F.rank`: `كبتن`[و0.000000،ص✓،ح✓،د3،م×]، `كبطن`[و0.000000،ص✓،ح✓،د3،م×]، `كبثن`[و0.000000،ص✓،ح✓،د3،م×]، `كبدن`[و0.000000،ص✓،ح✓،د3،م×]، `كفتن`[و0.000000،ص✓،ح✓،د3،م×]، `كفطن`[و0.000000،ص✓،ح✓،د3،م×]، `كفثن`[و0.000000،ص✓،ح✓،د3،م×]، `كفدن`[و0.000000،ص✓،ح✓،د3،م×]، `قبتن`[و0.000000،ص✓،ح✓،د3،م×]، `قبطن`[و0.000000،ص✓،ح✓،د3،م×]، `قبثن`[و0.000000،ص✓،ح✓،د3،م×]، `قبدن`[و0.000000،ص✓،ح✓،د3،م×]، `قفتن`[و0.000000،ص✓،ح✓،د3،م×]، `قفطن`[و0.000000،ص✓،ح✓،د3،م×]، `قفثن`[و0.000000،ص✓،ح✓،د3،م×]، `قفدن`[و0.000000،ص✓،ح✓،د3،م×]، `جبتن`[و0.000000،ص✓،ح✓،د3،م×]، `جبطن`[و0.000000،ص✓،ح✓،د3،م×]، `جبثن`[و0.000000،ص✓،ح✓،د3،م×]، `جبدن`[و0.000000،ص✓،ح✓،د3،م×]، `جفتن`[و0.000000،ص✓،ح✓،د3،م×]، `جفطن`[و0.000000،ص✓،ح✓،د3،م×]، `جفثن`[و0.000000،ص✓،ح✓،د3،م×]، `جفدن`[و0.000000،ص✓،ح✓،د3،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- الخطوة صفر لصورة `kaptajn`: الرسم `germanic`؛ الهيكل `k-p-t-j-n`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `kaptajn` (لا مدخل؛ `data/branch-lexicons/old-norse.json`): لا مدخل.
+- خلاف المصدر محفوظ: عمود خشيم يسوق «ربان؛ قائد»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `kaptajn`، مرتبة بـ`F.rank`: لا مرشح قابل للتوليد من الهيكل. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SOURCE-GAP؛ يتطلب=مدخل قاموسي للصور `kapten`, `kaptajn` قبل كتابة المدار.
+- المدار المكتوب: لم يثبت معنى قاموسي للفرع، فلا يُنشأ مدار من عمود الباحث.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `kapten` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «ربان؛ قائد»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+- اختيار قاموس الفرع لصورة `kaptajn` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «ربان؛ قائد»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `kol`؛ CMP-IE-005-029
+<!-- COMPARATIVE-IE:CMP-IE-005-029 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `kol`؛ صفوف المصدر [2666].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 2666: `kol`؛ «عارضة السفينة السفلى» ↔ `كهل / كاهل / هيكل`؛ قارن keel بكاهل الإنسان أو هيكله. [ocr-khashim-journey1، ص449].
+- الخطوة صفر لصورة `kol`: الرسم `germanic`؛ الهيكل `k-l`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `kol` (الصورةُ بنصِّها؛ `data/branch-lexicons/old-norse.json`): `kol` [noun] «coal».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «عارضة السفينة السفلى»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `kol`، مرتبة بـ`F.rank`: `كل`[و0.000000،ص✓،ح✓،د2،م×]، `كر`[و0.000000،ص✓،ح✓،د2،م×]، `قل`[و0.000000،ص✓،ح✓،د2،م×]، `قر`[و0.000000،ص✓،ح✓،د2،م×]، `جل`[و0.000000،ص✓،ح✓،د2،م×]، `جر`[و0.000000،ص✓،ح✓،د2،م×]، `كلل`[و0.000000،ص✓،ح✓،د1،م×]، `كول`[و0.000000،ص✓،ح✓،د3،م×]، `كيل`[و0.000000،ص✓،ح✓،د1،م×]، `كال`[و0.000000،ص✓،ح✓،د3،م×]، `كلو`[و0.000000،ص✓،ح✓،د1،م×]، `كلي`[و0.000000،ص✓،ح✓،د3،م×]، `كلا`[و0.000000،ص✓،ح✓،د3،م×]، `وكل`[و0.000000،ص✓،ح✓،د1،م×]، `يكل`[و0.000000،ص✓،ح✓،د4،م×]، `كرر`[و0.000000،ص✓،ح✓،د1،م×]، `كور`[و0.000000،ص✓،ح✓،د1،م×]، `كير`[و0.000000،ص✓،ح✓،د1،م×]، `كار`[و0.000000،ص✓،ح✓،د3،م×]، `كرو`[و0.000000،ص✓،ح✓،د3،م×]، `كري`[و0.000000،ص✓،ح✓،د3،م×]، `كرا`[و0.000000،ص✓،ح✓،د3،م×]، `وكر`[و0.000000،ص✓،ح✓،د4،م×]، `يكر`[و0.000000،ص✓،ح✓،د4،م×]، `قلل`[و0.000000،ص✓،ح✓،د1،م×]، `قول`[و0.000000،ص✓،ح✓،د1،م×]، `قيل`[و0.000000،ص✓،ح✓،د1،م×]، `قال`[و0.000000،ص✓،ح✓،د3،م×]، `قلو`[و0.000000،ص✓،ح✓،د3،م×]، `قلي`[و0.000000،ص✓،ح✓،د3،م×]، `قلا`[و0.000000،ص✓،ح✓،د3،م×]، `وقل`[و0.000000،ص✓،ح✓،د4،م×]، `يقل`[و0.000000،ص✓،ح✓،د4،م×]، `قرر`[و0.000000،ص✓،ح✓،د1،م×]، `قور`[و0.000000،ص✓،ح✓،د3،م×]، `قير`[و0.000000،ص✓،ح✓،د3،م×]، `قار`[و0.000000،ص✓،ح✓،د3،م×]، `قرو`[و0.000000،ص✓،ح✓،د3،م×]، `قري`[و0.000000،ص✓،ح✓،د1،م×]، `قرا`[و0.000000،ص✓،ح✓،د3،م×]، `وقر`[و0.000000،ص✓،ح✓،د1،م×]، `يقر`[و0.000000،ص✓،ح✓،د4،م×]، `جلل`[و0.000000،ص✓،ح✓،د1،م×]، `جول`[و0.000000،ص✓،ح✓،د3،م×]، `جيل`[و0.000000،ص✓،ح✓،د3،م×]، `جال`[و0.000000،ص✓،ح✓،د3،م×]، `جلو`[و0.000000،ص✓،ح✓،د1،م×]، `جلي`[و0.000000،ص✓،ح✓،د3،م×]، `جلا`[و0.000000،ص✓،ح✓،د3،م×]، `وجل`[و0.000000،ص✓،ح✓،د1،م×]، `يجل`[و0.000000،ص✓،ح✓،د4،م×]، `جرر`[و0.000000،ص✓،ح✓،د1،م×]، `جور`[و0.000000،ص✓،ح✓،د1،م×]، `جير`[و0.000000،ص✓،ح✓،د3،م×]، `جار`[و0.000000،ص✓،ح✓،د3،م×]، `جرو`[و0.000000،ص✓،ح✓،د3،م×]، `جري`[و0.000000،ص✓،ح✓،د3،م×]، `جرا`[و0.000000،ص✓،ح✓،د3،م×]، `وجر`[و0.000000،ص✓،ح✓،د4،م×]، `يجر`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SEMANTIC-ORBIT-GAP؛ يتطلب=مدار بشري مقنع بين معنى قاموس الفرع والحدث المجمّد بعد فحص المروحة كلها.
+- المدار المكتوب: فُحصت مرشحات المراوح ذات الحدث المجمّد، ولم يثبت منها مدار ينسخ معنى قاموس الفرع؛ اقتراح المؤلف لا يعوّض رجل المعنى.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `kol` (الصورةُ بنصِّها): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «عارضة السفينة السفلى» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `ras`؛ CMP-IE-005-035
+<!-- COMPARATIVE-IE:CMP-IE-005-035 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `ras`؛ صفوف المصدر [2695].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 2695: `ras`؛ «عرق؛ جنس؛ أصل» ↔ `رس / رأس`؛ ردّ race إلى رس، ابتداء الشيء، أو رأس. [ocr-khashim-journey1، ص451].
+- الخطوة صفر لصورة `ras`: الرسم `germanic`؛ الهيكل `r-s`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `ras` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `ars` [noun] «arse, anus» | `rás` [noun] «race, running؛ course, channel؛ company, host» | `rós` [noun] «rose؛ a kind of goblet» | `rísa` [verb] «to rise؛ to get up؛ to come into existence, arise» | `risi` [noun] «a giant» | `rass` [noun] «anus, posteriors» | `rosi` [noun] «rain and storm» | `reisa` [verb] «to raise» | `ᚱᛅᛁᛋᛅ` /raisa/ [verb] «Runic spelling of reisa /ræisa (“to raise, erect (a stone, etc.)”)».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «عرق؛ جنس؛ أصل»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `ras`، مرتبة بـ`F.rank`: `رس`[و0.000000،ص✓،ح✓،د2،م✓]، `رش`[و0.000000،ص✓،ح✓،د2،م×]، `رص`[و0.000000،ص✓،ح✓،د2،م×]، `رز`[و0.000000،ص✓،ح✓،د2،م×]، `لس`[و0.000000،ص✓،ح✓،د2،م×]، `لش`[و0.000000،ص✓،ح✓،د4،م×]، `لص`[و0.000000،ص✓،ح✓،د4،م×]، `لز`[و0.000000،ص✓،ح✓،د2،م×]، `رسس`[و0.000000،ص✓،ح✓،د1،م×]، `روس`[و0.000000،ص✓،ح✓،د3،م×]، `ريس`[و0.000000،ص✓،ح✓،د3،م×]، `راس`[و0.000000،ص✓،ح✓،د3،م×]، `رسو`[و0.000000،ص✓،ح✓،د1،م×]، `رسي`[و0.000000،ص✓،ح✓،د3،م×]، `رسا`[و0.000000،ص✓،ح✓،د3،م×]، `ورس`[و0.000000،ص✓،ح✓،د4،م×]، `يرس`[و0.000000،ص✓،ح✓،د4،م×]، `رشش`[و0.000000،ص✓،ح✓،د1،م×]، `روش`[و0.000000،ص✓،ح✓،د3،م×]، `ريش`[و0.000000،ص✓،ح✓،د1،م×]، `راش`[و0.000000،ص✓،ح✓،د3،م×]، `رشو`[و0.000000،ص✓،ح✓،د3،م×]، `رشي`[و0.000000،ص✓،ح✓،د3،م×]، `رشا`[و0.000000،ص✓،ح✓،د3،م×]، `ورش`[و0.000000،ص✓،ح✓،د4،م×]، `يرش`[و0.000000،ص✓،ح✓،د4،م×]، `رصص`[و0.000000،ص✓،ح✓،د1،م×]، `روص`[و0.000000،ص✓،ح✓،د3،م×]، `ريص`[و0.000000،ص✓،ح✓،د3،م×]، `راص`[و0.000000،ص✓،ح✓،د3،م×]، `رصو`[و0.000000،ص✓،ح✓،د3،م×]، `رصي`[و0.000000،ص✓،ح✓،د3،م×]، `رصا`[و0.000000،ص✓،ح✓،د3،م×]، `ورص`[و0.000000،ص✓،ح✓،د4،م×]، `يرص`[و0.000000،ص✓،ح✓،د4،م×]، `رزز`[و0.000000،ص✓،ح✓،د1،م×]، `روز`[و0.000000،ص✓،ح✓،د3،م×]، `ريز`[و0.000000،ص✓،ح✓،د3،م×]، `راز`[و0.000000،ص✓،ح✓،د3،م×]، `رزو`[و0.000000،ص✓،ح✓،د3،م×]، `رزي`[و0.000000،ص✓،ح✓،د3،م×]، `رزا`[و0.000000،ص✓،ح✓،د3،م×]، `ورز`[و0.000000،ص✓،ح✓،د4،م×]، `يرز`[و0.000000،ص✓،ح✓،د4،م×]، `لسس`[و0.000000،ص✓،ح✓،د1،م×]، `لوس`[و0.000000،ص✓،ح✓،د3،م×]، `ليس`[و0.000000،ص✓،ح✓،د1،م×]، `لاس`[و0.000000،ص✓،ح✓،د3،م×]، `لسو`[و0.000000،ص✓،ح✓،د3،م×]، `لسي`[و0.000000،ص✓،ح✓،د3،م×]، `لسا`[و0.000000،ص✓،ح✓،د3،م×]، `ولس`[و0.000000،ص✓،ح✓،د4،م×]، `يلس`[و0.000000،ص✓،ح✓،د4،م×]، `لشش`[و0.000000،ص✓،ح✓،د4،م×]، `لوش`[و0.000000،ص✓،ح✓،د4،م×]، `ليش`[و0.000000،ص✓،ح✓،د4،م×]، `لاش`[و0.000000،ص✓،ح✓،د4،م×]، `لشو`[و0.000000،ص✓،ح✓،د4،م×]، `لشي`[و0.000000،ص✓،ح✓،د4،م×]، `لشا`[و0.000000،ص✓،ح✓،د4،م×]، `ولش`[و0.000000،ص✓،ح✓،د4،م×]، `يلش`[و0.000000،ص✓،ح✓،د4،م×]، `لصص`[و0.000000،ص✓،ح✓،د4،م×]، `لوص`[و0.000000،ص✓،ح✓،د4،م×]، `ليص`[و0.000000،ص✓،ح✓،د4،م×]، `لاص`[و0.000000،ص✓،ح✓،د4،م×]، `لصو`[و0.000000،ص✓،ح✓،د4،م×]، `لصي`[و0.000000،ص✓،ح✓،د4،م×]، `لصا`[و0.000000،ص✓،ح✓،د4،م×]، `ولص`[و0.000000،ص✓،ح✓،د4،م×]، `يلص`[و0.000000،ص✓،ح✓،د4،م×]، `لزز`[و0.000000،ص✓،ح✓،د1،م×]، `لوز`[و0.000000،ص✓،ح✓،د3،م×]، `ليز`[و0.000000،ص✓،ح✓،د3،م×]، `لاز`[و0.000000،ص✓،ح✓،د3،م×]، `لزو`[و0.000000،ص✓،ح✓،د3،م×]، `لزي`[و0.000000،ص✓،ح✓،د3،م×]، `لزا`[و0.000000،ص✓،ح✓،د3،م×]، `ولز`[و0.000000،ص✓،ح✓،د4،م×]، `يلز`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- المقابل المنتخب لصورة `ras`: `رس`؛ مسار الصوت المسمى: r↔ر=`IDN-01`؛ s↔س=`IDN-07`.
+- ما فُتش في الشبكة: `r` + `ر` + «النورديّة القديمة/Old Norse»؛ `s` + `س` + «النورديّة القديمة/Old Norse».
+- الحدث المجمّد كما هو (درجة 2، نواةٌ مسجَّلة): «النفاذ بامتداد» [data/juthoor-core-levels.json].
+- معنى الفرع: مدخل Old Norse المنزوع النبر `rás`: سباقٌ وجريٌ ومسارٌ أو قناة.
+- المدار المكتوب: الجريُ والمسارُ نفاذٌ في جهةٍ مع امتداد؛ فيلتقيان مباشرةً بحدث النواة `رس`: النفاذ بامتداد.
+- الحكم (استكشاف): **NUCLEUS-TRACE (استكشاف)**؛ `رس`=NUCLEUS-TRACE.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: NUCLEUS-TRACE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `ras` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «عرق؛ جنس؛ أصل» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `kun`؛ CMP-IE-005-058
+<!-- COMPARATIVE-IE:CMP-IE-005-058 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `kun`؛ صفوف المصدر [2780].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 2780: `kun`؛ «معرفة؛ علم» ↔ `كنه / كهن`؛ ردّ جذر KN في المعرفة إلى كنه ومقلوبه كهن. [ocr-khashim-journey1، ص455].
+- الخطوة صفر لصورة `kun`: الرسم `germanic`؛ الهيكل `k-n`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `kun` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `kunna` [verb] «to know, understand, be able to؛ to know (by memory)؛ to know, be familiar with (a person)» | `kanna` [noun] «a can, tankard» | `kanna` [verb] «to search, explore» | `kenna` [verb] «to know (a person)؛ to feel؛ to teach someone» | `kona` [noun] «woman؛ wife» | `kné` [noun] «knee؛ a degree of cognate relationship» | `kinn` [noun] «cheek» | `kaun` [noun] «boil, abscess؛ name of the rune ᚴ (k)» | `kná` [verb] «can, could» | `aukinn` [verb] «pregnant».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «معرفة؛ علم»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `kun`، مرتبة بـ`F.rank`: `كن`[و0.000000،ص✓،ح✓،د2،م×]، `قن`[و0.000000،ص✓،ح✓،د2،م×]، `جن`[و0.000000،ص✓،ح✓،د2،م×]، `كنن`[و0.000000،ص✓،ح✓،د1،م×]، `كون`[و0.000000،ص✓،ح✓،د1،م×]، `كين`[و0.000000،ص✓،ح✓،د1،م×]، `كان`[و0.000000،ص✓،ح✓،د3،م×]، `كنو`[و0.000000،ص✓،ح✓،د3،م×]، `كني`[و0.000000،ص✓،ح✓،د3،م×]، `كنا`[و0.000000،ص✓،ح✓،د3،م×]، `وكن`[و0.000000،ص✓،ح✓،د4،م×]، `يكن`[و0.000000،ص✓،ح✓،د4،م×]، `قنن`[و0.000000،ص✓،ح✓،د1،م×]، `قون`[و0.000000،ص✓،ح✓،د3،م×]، `قين`[و0.000000،ص✓،ح✓،د3،م×]، `قان`[و0.000000،ص✓،ح✓،د3،م×]، `قنو`[و0.000000،ص✓،ح✓،د1،م×]، `قني`[و0.000000،ص✓،ح✓،د3،م×]، `قنا`[و0.000000،ص✓،ح✓،د3،م×]، `وقن`[و0.000000،ص✓،ح✓،د4،م×]، `يقن`[و0.000000،ص✓،ح✓،د1،م×]، `جنن`[و0.000000،ص✓،ح✓،د1،م×]، `جون`[و0.000000،ص✓،ح✓،د3،م×]، `جين`[و0.000000،ص✓،ح✓،د3،م×]، `جان`[و0.000000،ص✓،ح✓،د3،م×]، `جنو`[و0.000000،ص✓،ح✓،د3،م×]، `جني`[و0.000000،ص✓،ح✓،د3،م×]، `جنا`[و0.000000،ص✓،ح✓،د3،م×]، `وجن`[و0.000000،ص✓،ح✓،د4،م×]، `يجن`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SEMANTIC-ORBIT-GAP؛ يتطلب=مدار بشري مقنع بين معنى قاموس الفرع والحدث المجمّد بعد فحص المروحة كلها.
+- المدار المكتوب: فُحصت مرشحات المراوح ذات الحدث المجمّد، ولم يثبت منها مدار ينسخ معنى قاموس الفرع؛ اقتراح المؤلف لا يعوّض رجل المعنى.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `kun` (هيكلٌ مطابق): `kunna` [verb] «to know, understand, be able to؛ to know (by memory)؛ to know, be familiar with (a person)». اختير `kunna` بعد موازنة القائمة بسياق الصف «معرفة؛ علم»؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها، وقاموس الفرع مقدم على عمود الباحث.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `smer`؛ CMP-IE-005-076
+<!-- COMPARATIVE-IE:CMP-IE-005-076 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `smer`؛ صفوف المصدر [2832].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 2832: `smer`؛ «ابتسم؛ سرور» ↔ `سر / سرور`؛ ردّ ألفاظ الابتسام إلى سر وسرور. [ocr-khashim-journey1، ص458].
+- الخطوة صفر لصورة `smer`: الرسم `germanic`؛ الهيكل `s-m-r`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `smer` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `sumar` [noun] «summer» | `smár` [adj] «small» | `samr` [adj] «the same؛ agreeing, of one mind» | `samr` [det] «same» | `sumr` [pron] «some» | `sámr` [adj] «darkish, swarthy» | `sumra` [verb] «to become summer» | `sœmra` [adj] «positive degree strong all cases genitive plural of sœmr؛ comparative degree neuter all cases singular of sœmr» | `sǿmr` [adj] «seemly, fitting» | `seimr` [noun] «honeycomb؛ eloquent speech؛ gold, riches».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «ابتسم؛ سرور»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `smer`، مرتبة بـ`F.rank`: `سمر`[و0.000000،ص✓،ح✓،د1،م×]، `سمل`[و0.000000،ص✓،ح✓،د3،م×]، `شمر`[و0.000000،ص✓،ح✓،د3،م×]، `شمل`[و0.000000،ص✓،ح✓،د1،م×]، `صمر`[و0.000000،ص✓،ح✓،د3،م×]، `صمل`[و0.000000،ص✓،ح✓،د3،م×]، `زمر`[و0.000000،ص✓،ح✓،د1،م×]، `زمل`[و0.000000،ص✓،ح✓،د1،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SEMANTIC-ORBIT-GAP؛ يتطلب=مدار بشري مقنع بين معنى قاموس الفرع والحدث المجمّد بعد فحص المروحة كلها.
+- المدار المكتوب: فُحصت مرشحات المراوح ذات الحدث المجمّد، ولم يثبت منها مدار ينسخ معنى قاموس الفرع؛ اقتراح المؤلف لا يعوّض رجل المعنى.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `smer` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «ابتسم؛ سرور» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `smar`؛ CMP-IE-005-077
+<!-- COMPARATIVE-IE:CMP-IE-005-077 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `smar`؛ صفوف المصدر [2833].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 2833: `smar`؛ «ابتسم؛ سرور» ↔ `سر / سرور`؛ ردّ ألفاظ الابتسام إلى سر وسرور. [ocr-khashim-journey1، ص458].
+- الخطوة صفر لصورة `smar`: الرسم `germanic`؛ الهيكل `s-m-r`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `smar` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `sumar` [noun] «summer» | `smár` [adj] «small» | `samr` [adj] «the same؛ agreeing, of one mind» | `samr` [det] «same» | `sumr` [pron] «some» | `sámr` [adj] «darkish, swarthy» | `sumra` [verb] «to become summer» | `sœmra` [adj] «positive degree strong all cases genitive plural of sœmr؛ comparative degree neuter all cases singular of sœmr» | `sǿmr` [adj] «seemly, fitting» | `seimr` [noun] «honeycomb؛ eloquent speech؛ gold, riches».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «ابتسم؛ سرور»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `smar`، مرتبة بـ`F.rank`: `سمر`[و0.000000،ص✓،ح✓،د1،م×]، `سمل`[و0.000000،ص✓،ح✓،د3،م×]، `شمر`[و0.000000،ص✓،ح✓،د3،م×]، `شمل`[و0.000000،ص✓،ح✓،د1،م×]، `صمر`[و0.000000،ص✓،ح✓،د3،م×]، `صمل`[و0.000000،ص✓،ح✓،د3،م×]، `زمر`[و0.000000،ص✓،ح✓،د1،م×]، `زمل`[و0.000000،ص✓،ح✓،د1،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SEMANTIC-ORBIT-GAP؛ يتطلب=مدار بشري مقنع بين معنى قاموس الفرع والحدث المجمّد بعد فحص المروحة كلها.
+- المدار المكتوب: فُحصت مرشحات المراوح ذات الحدث المجمّد، ولم يثبت منها مدار ينسخ معنى قاموس الفرع؛ اقتراح المؤلف لا يعوّض رجل المعنى.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `smar` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «ابتسم؛ سرور» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `som`؛ CMP-IE-005-081
+<!-- COMPARATIVE-IE:CMP-IE-005-081 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `som`؛ صفوف المصدر [2850].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 2850: `som`؛ «مجموع؛ جمع» ↔ `زم / ضم`؛ ردّ sum وأخواتها إلى زم وضم. [ocr-khashim-journey1، ص459].
+- الخطوة صفر لصورة `som`: الرسم `germanic`؛ الهيكل `s-m`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `som` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `sama` [verb] «to beseem, befit, become» | `sem` [conj] «as, the same, like» | `sami` [noun] «reconciliation؛ honour؛ a due» | `sam-` [prefix] «together, con-» | `síma` [noun] «a string, cord» | `-semi` [suffix] «-ness» | `smá` [verb] «to scorn, slight, revile» | `smá` [adj] «weak feminine all cases singular of smár؛ weak neuter all cases singular of smár؛ weak all genders nominative/accusative/genitive plural of smár».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «مجموع؛ جمع»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `som`، مرتبة بـ`F.rank`: `سم`[و0.000000،ص✓،ح✓،د2،م×]، `شم`[و0.000000،ص✓،ح✓،د2،م×]، `صم`[و0.000000،ص✓،ح✓،د2،م×]، `زم`[و0.000000،ص✓،ح✓،د2،م✓]، `سمم`[و0.000000،ص✓،ح✓،د1،م×]، `سوم`[و0.000000،ص✓،ح✓،د1،م×]، `سيم`[و0.000000،ص✓،ح✓،د3،م×]، `سام`[و0.000000،ص✓،ح✓،د3،م×]، `سمو`[و0.000000،ص✓،ح✓،د1،م×]، `سمي`[و0.000000،ص✓،ح✓،د3،م×]، `سما`[و0.000000،ص✓،ح✓،د3،م×]، `وسم`[و0.000000،ص✓،ح✓،د1،م×]، `يسم`[و0.000000،ص✓،ح✓،د4،م×]، `شمم`[و0.000000،ص✓،ح✓،د1،م×]، `شوم`[و0.000000،ص✓،ح✓،د3،م×]، `شيم`[و0.000000،ص✓،ح✓،د3،م×]، `شام`[و0.000000،ص✓،ح✓،د3،م×]، `شمو`[و0.000000،ص✓،ح✓،د3،م×]، `شمي`[و0.000000،ص✓،ح✓،د3،م×]، `شما`[و0.000000،ص✓،ح✓،د3،م×]، `وشم`[و0.000000،ص✓،ح✓،د4،م×]، `يشم`[و0.000000،ص✓،ح✓،د4،م×]، `صمم`[و0.000000،ص✓،ح✓،د1،م×]، `صوم`[و0.000000،ص✓،ح✓،د1،م×]، `صيم`[و0.000000،ص✓،ح✓،د3،م×]، `صام`[و0.000000،ص✓،ح✓،د3،م×]، `صمو`[و0.000000،ص✓،ح✓،د3،م×]، `صمي`[و0.000000،ص✓،ح✓،د3،م×]، `صما`[و0.000000،ص✓،ح✓،د3،م×]، `وصم`[و0.000000،ص✓،ح✓،د4،م×]، `يصم`[و0.000000،ص✓،ح✓،د4،م×]، `زمم`[و0.000000،ص✓،ح✓،د1،م×]، `زوم`[و0.000000،ص✓،ح✓،د3،م×]، `زيم`[و0.000000،ص✓،ح✓،د3،م×]، `زام`[و0.000000،ص✓،ح✓،د3،م×]، `زمو`[و0.000000،ص✓،ح✓،د3،م×]، `زمي`[و0.000000،ص✓،ح✓،د3،م×]، `زما`[و0.000000،ص✓،ح✓،د3،م×]، `وزم`[و0.000000،ص✓،ح✓،د4،م×]، `يزم`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- المقابل المنتخب لصورة `som`: `زم`؛ مسار الصوت المسمى: s↔ز=`SIB-03`؛ m↔م=`IDN-02`.
+- ما فُتش في الشبكة: `s` + `ز` + «النورديّة القديمة/Old Norse»؛ `m` + `م` + «النورديّة القديمة/Old Norse».
+- الحدث المجمّد كما هو (درجة 2، نواةٌ مسجَّلة): «ضم الكثير باكتناز» [data/juthoor-core-levels.json].
+- معنى الفرع: أصاب بحث الهيكل في Old Norse السابقةَ `sam-`: معًا، con-؛ وعُرضت جميع الإصابات الأخرى.
+- المدار المكتوب: دلالةُ «معًا» تجمع متعدّدًا في وحدة؛ فتلتقي بحدث النواة `زم`: ضمّ الكثير باكتناز، من غير أن يُتخذ اقتراح المصدر معنىً قاموسيًّا.
+- الحكم (استكشاف): **NUCLEUS-TRACE (استكشاف)**؛ `زم`=NUCLEUS-TRACE.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: NUCLEUS-TRACE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `som` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «مجموع؛ جمع» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `rike`؛ CMP-IE-005-087
+<!-- COMPARATIVE-IE:CMP-IE-005-087 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `rike`, `rig`؛ صفوف المصدر [2871, 2872].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 2871: `rike`؛ «غنى؛ ثراء» ↔ `ريش / رياش`؛ ردّ ألفاظ الغنى إلى ريش ورياش. [ocr-khashim-journey1، ص460] | صف 2872: `rig`؛ «غنى؛ ثراء» ↔ `ريش / رياش`؛ ردّ ألفاظ الغنى إلى ريش ورياش. [ocr-khashim-journey1، ص460].
+- الخطوة صفر لصورة `rike`: الرسم `germanic`؛ الهيكل `r-k`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `rike` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `reka` [noun] «shovel» | `reka` [verb] «to drive» | `rakki` [noun] «dog» | `ríki` [noun] «realm» | `rák` [noun] «strip, stripe؛ furrow؛ small mountain ravine» | `raka` [verb] «to scrape together؛ to cut hair» | `reki` [noun] «ruler, chief؛ king» | `reik` [noun] «parting of the hair» | `reik` [noun] «strolling, wandering, wavering؛ condition» | `erki-` [prefix] «arch-» | `rǫk` [noun] «argument, reasoning؛ track, course؛ fate, destiny, judgement».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «غنى؛ ثراء»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `rike`، مرتبة بـ`F.rank`: `رك`[و0.000000،ص✓،ح✓،د2،م×]، `رق`[و0.000000،ص✓،ح✓،د2،م×]، `رج`[و0.000000،ص✓،ح✓،د2،م×]، `لك`[و0.000000،ص✓،ح✓،د2،م×]، `لق`[و0.000000،ص✓،ح✓،د2،م×]، `لج`[و0.000000،ص✓،ح✓،د2،م×]، `ركك`[و0.000000،ص✓،ح✓،د1،م×]، `روك`[و0.000000،ص✓،ح✓،د3،م×]، `ريك`[و0.000000،ص✓،ح✓،د3،م×]، `راك`[و0.000000،ص✓،ح✓،د3،م×]، `ركو`[و0.000000،ص✓،ح✓،د3،م×]، `ركي`[و0.000000،ص✓،ح✓،د3،م×]، `ركا`[و0.000000،ص✓،ح✓،د3،م×]، `ورك`[و0.000000،ص✓،ح✓،د4،م×]، `يرك`[و0.000000،ص✓،ح✓،د4،م×]، `رقق`[و0.000000،ص✓،ح✓،د1،م×]، `روق`[و0.000000،ص✓،ح✓،د3،م×]، `ريق`[و0.000000،ص✓،ح✓،د3،م×]، `راق`[و0.000000،ص✓،ح✓،د3،م×]، `رقو`[و0.000000،ص✓،ح✓،د1،م×]، `رقي`[و0.000000،ص✓،ح✓،د3،م×]، `رقا`[و0.000000،ص✓،ح✓،د3،م×]، `ورق`[و0.000000،ص✓،ح✓،د1،م×]، `يرق`[و0.000000،ص✓،ح✓،د4،م×]، `رجج`[و0.000000،ص✓،ح✓،د1،م×]، `روج`[و0.000000،ص✓،ح✓،د3،م×]، `ريج`[و0.000000،ص✓،ح✓،د3،م×]، `راج`[و0.000000،ص✓،ح✓،د3،م×]، `رجو`[و0.000000،ص✓،ح✓،د1،م×]، `رجي`[و0.000000،ص✓،ح✓،د3،م×]، `رجا`[و0.000000،ص✓،ح✓،د3،م×]، `ورج`[و0.000000،ص✓،ح✓،د4،م×]، `يرج`[و0.000000،ص✓،ح✓،د4،م×]، `لكك`[و0.000000،ص✓،ح✓،د1،م×]، `لوك`[و0.000000،ص✓،ح✓،د3،م×]، `ليك`[و0.000000،ص✓،ح✓،د3،م×]، `لاك`[و0.000000،ص✓،ح✓،د3،م×]، `لكو`[و0.000000،ص✓،ح✓،د3،م×]، `لكي`[و0.000000،ص✓،ح✓،د3،م×]، `لكا`[و0.000000،ص✓،ح✓،د3،م×]، `ولك`[و0.000000،ص✓،ح✓،د4،م×]، `يلك`[و0.000000،ص✓،ح✓،د4،م×]، `لقق`[و0.000000،ص✓،ح✓،د1،م×]، `لوق`[و0.000000،ص✓،ح✓،د3،م×]، `ليق`[و0.000000،ص✓،ح✓،د3،م×]، `لاق`[و0.000000،ص✓،ح✓،د3،م×]، `لقو`[و0.000000،ص✓،ح✓،د3،م×]، `لقي`[و0.000000،ص✓،ح✓،د3،م×]، `لقا`[و0.000000،ص✓،ح✓،د3،م×]، `ولق`[و0.000000،ص✓،ح✓،د4،م×]، `يلق`[و0.000000،ص✓،ح✓،د4،م×]، `لجج`[و0.000000،ص✓،ح✓،د1،م×]، `لوج`[و0.000000،ص✓،ح✓،د3،م×]، `ليج`[و0.000000،ص✓،ح✓،د3،م×]، `لاج`[و0.000000،ص✓،ح✓،د3،م×]، `لجو`[و0.000000،ص✓،ح✓،د3،م×]، `لجي`[و0.000000،ص✓،ح✓،د3،م×]، `لجا`[و0.000000،ص✓،ح✓،د3،م×]، `ولج`[و0.000000،ص✓،ح✓،د1،م×]، `يلج`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- الخطوة صفر لصورة `rig`: الرسم `germanic`؛ الهيكل `r-g`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `rig` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `riga` [verb] «to lift heavily or with difficulty» | `erg` [noun] «a word of not entirely certain meaning, roughly shepherd's cottage or hill-pasture» | `róg` [noun] «strife, slander» | `ergi` [noun] «the state of being argr; variously translated as lewdness, perversity, effeminacy, degeneracy».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «غنى؛ ثراء»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `rig`، مرتبة بـ`F.rank`: `رج`[و0.000000،ص✓،ح✓،د2،م×]، `رغ`[و0.000000،ص✓،ح✓،د2،م×]، `رق`[و0.000000،ص✓،ح✓،د2،م×]، `رك`[و0.000000،ص✓،ح✓،د2،م×]، `لج`[و0.000000،ص✓،ح✓،د2،م×]، `لغ`[و0.000000،ص✓،ح✓،د2،م×]، `لق`[و0.000000،ص✓،ح✓،د2،م×]، `لك`[و0.000000،ص✓،ح✓،د2،م×]، `رجج`[و0.000000،ص✓،ح✓،د1،م×]، `روج`[و0.000000،ص✓،ح✓،د3،م×]، `ريج`[و0.000000،ص✓،ح✓،د3،م×]، `راج`[و0.000000،ص✓،ح✓،د3،م×]، `رجو`[و0.000000،ص✓،ح✓،د1،م×]، `رجي`[و0.000000،ص✓،ح✓،د3،م×]، `رجا`[و0.000000،ص✓،ح✓،د3،م×]، `ورج`[و0.000000،ص✓،ح✓،د4،م×]، `يرج`[و0.000000،ص✓،ح✓،د4،م×]، `رغغ`[و0.000000،ص✓،ح✓،د1،م×]، `روغ`[و0.000000،ص✓،ح✓،د1،م×]، `ريغ`[و0.000000،ص✓،ح✓،د1،م×]، `راغ`[و0.000000،ص✓،ح✓،د3،م×]، `رغو`[و0.000000،ص✓،ح✓،د3،م×]، `رغي`[و0.000000،ص✓،ح✓،د3،م×]، `رغا`[و0.000000،ص✓،ح✓،د3،م×]، `ورغ`[و0.000000،ص✓،ح✓،د4،م×]، `يرغ`[و0.000000،ص✓،ح✓،د4،م×]، `رقق`[و0.000000،ص✓،ح✓،د1،م×]، `روق`[و0.000000،ص✓،ح✓،د3،م×]، `ريق`[و0.000000،ص✓،ح✓،د3،م×]، `راق`[و0.000000،ص✓،ح✓،د3،م×]، `رقو`[و0.000000،ص✓،ح✓،د1،م×]، `رقي`[و0.000000،ص✓،ح✓،د3،م×]، `رقا`[و0.000000،ص✓،ح✓،د3،م×]، `ورق`[و0.000000،ص✓،ح✓،د1،م×]، `يرق`[و0.000000،ص✓،ح✓،د4،م×]، `ركك`[و0.000000،ص✓،ح✓،د1،م×]، `روك`[و0.000000،ص✓،ح✓،د3،م×]، `ريك`[و0.000000،ص✓،ح✓،د3،م×]، `راك`[و0.000000،ص✓،ح✓،د3،م×]، `ركو`[و0.000000،ص✓،ح✓،د3،م×]، `ركي`[و0.000000،ص✓،ح✓،د3،م×]، `ركا`[و0.000000،ص✓،ح✓،د3،م×]، `ورك`[و0.000000،ص✓،ح✓،د4،م×]، `يرك`[و0.000000،ص✓،ح✓،د4،م×]، `لجج`[و0.000000،ص✓،ح✓،د1،م×]، `لوج`[و0.000000،ص✓،ح✓،د3،م×]، `ليج`[و0.000000،ص✓،ح✓،د3،م×]، `لاج`[و0.000000،ص✓،ح✓،د3،م×]، `لجو`[و0.000000،ص✓،ح✓،د3،م×]، `لجي`[و0.000000،ص✓،ح✓،د3،م×]، `لجا`[و0.000000،ص✓،ح✓،د3،م×]، `ولج`[و0.000000،ص✓،ح✓،د1،م×]، `يلج`[و0.000000،ص✓،ح✓،د4،م×]، `لغغ`[و0.000000،ص✓،ح✓،د3،م×]، `لوغ`[و0.000000،ص✓،ح✓،د3،م×]، `ليغ`[و0.000000،ص✓،ح✓،د3،م×]، `لاغ`[و0.000000،ص✓،ح✓،د3،م×]، `لغو`[و0.000000،ص✓،ح✓،د1،م×]، `لغي`[و0.000000،ص✓،ح✓،د3،م×]، `لغا`[و0.000000،ص✓،ح✓،د3،م×]، `ولغ`[و0.000000،ص✓،ح✓،د4،م×]، `يلغ`[و0.000000،ص✓،ح✓،د4،م×]، `لقق`[و0.000000،ص✓،ح✓،د1،م×]، `لوق`[و0.000000،ص✓،ح✓،د3،م×]، `ليق`[و0.000000،ص✓،ح✓،د3،م×]، `لاق`[و0.000000،ص✓،ح✓،د3،م×]، `لقو`[و0.000000،ص✓،ح✓،د3،م×]، `لقي`[و0.000000،ص✓،ح✓،د3،م×]، `لقا`[و0.000000،ص✓،ح✓،د3،م×]، `ولق`[و0.000000،ص✓،ح✓،د4،م×]، `يلق`[و0.000000،ص✓،ح✓،د4،م×]، `لكك`[و0.000000،ص✓،ح✓،د1،م×]، `لوك`[و0.000000،ص✓،ح✓،د3،م×]، `ليك`[و0.000000،ص✓،ح✓،د3،م×]، `لاك`[و0.000000،ص✓،ح✓،د3،م×]، `لكو`[و0.000000،ص✓،ح✓،د3،م×]، `لكي`[و0.000000،ص✓،ح✓،د3،م×]، `لكا`[و0.000000،ص✓،ح✓،د3،م×]، `ولك`[و0.000000،ص✓،ح✓،د4،م×]، `يلك`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SEMANTIC-ORBIT-GAP؛ يتطلب=مدار بشري مقنع بين معنى قاموس الفرع والحدث المجمّد بعد فحص المروحة كلها.
+- المدار المكتوب: فُحصت مرشحات المراوح ذات الحدث المجمّد، ولم يثبت منها مدار ينسخ معنى قاموس الفرع؛ اقتراح المؤلف لا يعوّض رجل المعنى.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `rike` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «غنى؛ ثراء» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+- اختيار قاموس الفرع لصورة `rig` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «غنى؛ ثراء» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `krypa`؛ CMP-IE-005-110
+<!-- COMPARATIVE-IE:CMP-IE-005-110 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `krypa`, `krybe`؛ صفوف المصدر [3031, 3032].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 3031: `krypa`؛ «زحف؛ حية زاحفة» ↔ `سرب`؛ ردّ creep/serpere إلى سرب ويسرب. [ocr-khashim-journey1، ص469] | صف 3032: `krybe`؛ «زحف؛ حية زاحفة» ↔ `سرب`؛ ردّ creep/serpere إلى سرب ويسرب. [ocr-khashim-journey1، ص469].
+- الخطوة صفر لصورة `krypa`: الرسم `germanic`؛ الهيكل `k-r-y-p`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `krypa` (لا مدخل؛ `data/branch-lexicons/old-norse.json`): لا مدخل.
+- خلاف المصدر محفوظ: عمود خشيم يسوق «زحف؛ حية زاحفة»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `krypa`، مرتبة بـ`F.rank`: `كريب`[و0.000000،ص✓،ح✓،د3،م×]، `كريف`[و0.000000،ص✓،ح✓،د3،م×]، `كليب`[و0.000000،ص✓،ح✓،د3،م×]، `كليف`[و0.000000،ص✓،ح✓،د3،م×]، `قريب`[و0.000000،ص✓،ح✓،د3،م×]، `قريف`[و0.000000،ص✓،ح✓،د3،م×]، `قليب`[و0.000000،ص✓،ح✓،د3،م×]، `قليف`[و0.000000،ص✓،ح✓،د3،م×]، `جريب`[و0.000000،ص✓،ح✓،د3،م×]، `جريف`[و0.000000،ص✓،ح✓،د3،م×]، `جليب`[و0.000000،ص✓،ح✓،د3،م×]، `جليف`[و0.000000،ص✓،ح✓،د3،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- الخطوة صفر لصورة `krybe`: الرسم `germanic`؛ الهيكل `k-r-y-b`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `krybe` (لا مدخل؛ `data/branch-lexicons/old-norse.json`): لا مدخل.
+- خلاف المصدر محفوظ: عمود خشيم يسوق «زحف؛ حية زاحفة»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `krybe`، مرتبة بـ`F.rank`: `كريب`[و0.000000،ص✓،ح✓،د3،م×]، `كليب`[و0.000000،ص✓،ح✓،د3،م×]، `قريب`[و0.000000،ص✓،ح✓،د3،م×]، `قليب`[و0.000000،ص✓،ح✓،د3،م×]، `جريب`[و0.000000،ص✓،ح✓،د3،م×]، `جليب`[و0.000000،ص✓،ح✓،د3،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SOURCE-GAP؛ يتطلب=مدخل قاموسي للصور `krypa`, `krybe` قبل كتابة المدار.
+- المدار المكتوب: لم يثبت معنى قاموسي للفرع، فلا يُنشأ مدار من عمود الباحث.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `krypa` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «زحف؛ حية زاحفة»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+- اختيار قاموس الفرع لصورة `krybe` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «زحف؛ حية زاحفة»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `vara`؛ CMP-IE-005-117
+<!-- COMPARATIVE-IE:CMP-IE-005-117 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `vara`, `vare`؛ صفوف المصدر [3077, 3078].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 3077: `vara`؛ «دام؛ استمر» ↔ `وراء / ظهر`؛ قارن vara بوراء، وdurer بظهر بمعنى خلف ووراء. [ocr-khashim-journey1، ص472] | صف 3078: `vare`؛ «دام؛ استمر» ↔ `وراء / ظهر`؛ قارن vara بوراء، وdurer بظهر بمعنى خلف ووراء. [ocr-khashim-journey1، ص472].
+- الخطوة صفر لصورة `vara`: الرسم `germanic`؛ الهيكل `v-r`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `vara` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `ver` [noun] «station for taking eggs, fishing, catching seals, etc.؛ sea» | `ver` [noun] «case, cover» | `vera` [verb] «to be» | `vér` [pron] «we (first person plural pronoun)» | `vár` [noun] «spring (season)» | `varr` [adj] «aware؛ wary» | `vari` [noun] «wariness» | `vari` [noun] «the watery substance of the blood» | `verr` [noun] «warrior؛ man, husband» | `Ívarr` [name] «a male given name» | `Vár` [name] «A female deity of the Norse pantheon associated with the making of oaths, pledges or agreements.» | `vǫrr` [noun] «lip» | `vǫrr` [noun] «a pull of the oar» | `várr` [det] «our (belonging to more than two of us)» | `vǫr` [noun] «landing place, berth (for a boat)» | `Véurr` [name] «Thor, especially in his role as protector of human settlements and temples».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «دام؛ استمر»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `vara`، مرتبة بـ`F.rank`: `ور`[و0.000000،ص✓،ح✓،د4،م×]، `ول`[و0.000000،ص✓،ح✓،د4،م×]، `فر`[و0.000000،ص✓،ح✓،د2،م×]، `فل`[و0.000000،ص✓،ح✓،د2،م×]، `بر`[و0.000000،ص✓،ح✓،د2،م×]، `بل`[و0.000000،ص✓،ح✓،د2،م×]، `ورر`[و0.000000،ص✓،ح✓،د4،م×]، `وور`[و0.000000،ص✓،ح✓،د4،م×]، `وير`[و0.000000،ص✓،ح✓،د4،م×]، `وار`[و0.000000،ص✓،ح✓،د4،م×]، `ورو`[و0.000000،ص✓،ح✓،د4،م×]، `وري`[و0.000000،ص✓،ح✓،د4،م×]، `ورا`[و0.000000،ص✓،ح✓،د4،م×]، `يور`[و0.000000،ص✓،ح✓،د4،م×]، `ولل`[و0.000000،ص✓،ح✓،د4،م×]، `وول`[و0.000000،ص✓،ح✓،د4،م×]، `ويل`[و0.000000،ص✓،ح✓،د1،م×]، `وال`[و0.000000،ص✓،ح✓،د4،م×]، `ولو`[و0.000000،ص✓،ح✓،د4،م×]، `ولي`[و0.000000،ص✓،ح✓،د1،م×]، `ولا`[و0.000000،ص✓،ح✓،د4،م×]، `يول`[و0.000000،ص✓،ح✓،د4،م×]، `فرر`[و0.000000،ص✓،ح✓،د1،م×]، `فور`[و0.000000،ص✓،ح✓،د1،م×]، `فير`[و0.000000،ص✓،ح✓،د3،م×]، `فار`[و0.000000،ص✓،ح✓،د3،م×]، `فرو`[و0.000000،ص✓،ح✓،د3،م×]، `فري`[و0.000000،ص✓،ح✓،د3،م×]، `فرا`[و0.000000،ص✓،ح✓،د3،م×]، `وفر`[و0.000000،ص✓،ح✓،د1،م×]، `يفر`[و0.000000،ص✓،ح✓،د4،م×]، `فلل`[و0.000000،ص✓،ح✓،د1،م×]، `فول`[و0.000000،ص✓،ح✓،د3،م×]، `فيل`[و0.000000،ص✓،ح✓،د1،م×]، `فال`[و0.000000،ص✓،ح✓،د3،م×]، `فلو`[و0.000000،ص✓،ح✓،د3،م×]، `فلي`[و0.000000،ص✓،ح✓،د3،م×]، `فلا`[و0.000000،ص✓،ح✓،د3،م×]، `وفل`[و0.000000،ص✓،ح✓،د3،م×]، `يفل`[و0.000000،ص✓،ح✓،د4،م×]، `برر`[و0.000000،ص✓،ح✓،د1،م×]، `بور`[و0.000000،ص✓،ح✓،د1،م×]، `بير`[و0.000000،ص✓،ح✓،د3،م×]، `بار`[و0.000000،ص✓،ح✓،د3،م×]، `برو`[و0.000000،ص✓،ح✓،د1،م×]، `بري`[و0.000000،ص✓،ح✓،د3،م×]، `برا`[و0.000000،ص✓،ح✓،د3،م×]، `وبر`[و0.000000،ص✓،ح✓،د1،م×]، `يبر`[و0.000000،ص✓،ح✓،د4،م×]، `بلل`[و0.000000،ص✓،ح✓،د1،م×]، `بول`[و0.000000،ص✓،ح✓،د1،م×]، `بيل`[و0.000000،ص✓،ح✓،د3،م×]، `بال`[و0.000000،ص✓،ح✓،د3،م×]، `بلو`[و0.000000،ص✓،ح✓،د1،م×]، `بلي`[و0.000000،ص✓،ح✓،د1،م×]، `بلا`[و0.000000،ص✓،ح✓،د3،م×]، `وبل`[و0.000000،ص✓،ح✓،د1،م×]، `يبل`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- الخطوة صفر لصورة `vare`: الرسم `germanic`؛ الهيكل `v-r`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `vare` (هيكلٌ مطابق؛ `data/branch-lexicons/old-norse.json`): `ver` [noun] «station for taking eggs, fishing, catching seals, etc.؛ sea» | `ver` [noun] «case, cover» | `vera` [verb] «to be» | `vér` [pron] «we (first person plural pronoun)» | `vár` [noun] «spring (season)» | `varr` [adj] «aware؛ wary» | `vari` [noun] «wariness» | `vari` [noun] «the watery substance of the blood» | `verr` [noun] «warrior؛ man, husband» | `Ívarr` [name] «a male given name» | `Vár` [name] «A female deity of the Norse pantheon associated with the making of oaths, pledges or agreements.» | `vǫrr` [noun] «lip» | `vǫrr` [noun] «a pull of the oar» | `várr` [det] «our (belonging to more than two of us)» | `vǫr` [noun] «landing place, berth (for a boat)» | `Véurr` [name] «Thor, especially in his role as protector of human settlements and temples».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «دام؛ استمر»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `vare`، مرتبة بـ`F.rank`: `ور`[و0.000000،ص✓،ح✓،د4،م×]، `ول`[و0.000000،ص✓،ح✓،د4،م×]، `فر`[و0.000000،ص✓،ح✓،د2،م×]، `فل`[و0.000000،ص✓،ح✓،د2،م×]، `بر`[و0.000000،ص✓،ح✓،د2،م×]، `بل`[و0.000000،ص✓،ح✓،د2،م×]، `ورر`[و0.000000،ص✓،ح✓،د4،م×]، `وور`[و0.000000،ص✓،ح✓،د4،م×]، `وير`[و0.000000،ص✓،ح✓،د4،م×]، `وار`[و0.000000،ص✓،ح✓،د4،م×]، `ورو`[و0.000000،ص✓،ح✓،د4،م×]، `وري`[و0.000000،ص✓،ح✓،د4،م×]، `ورا`[و0.000000،ص✓،ح✓،د4،م×]، `يور`[و0.000000،ص✓،ح✓،د4،م×]، `ولل`[و0.000000،ص✓،ح✓،د4،م×]، `وول`[و0.000000،ص✓،ح✓،د4،م×]، `ويل`[و0.000000،ص✓،ح✓،د1،م×]، `وال`[و0.000000،ص✓،ح✓،د4،م×]، `ولو`[و0.000000،ص✓،ح✓،د4،م×]، `ولي`[و0.000000،ص✓،ح✓،د1،م×]، `ولا`[و0.000000،ص✓،ح✓،د4،م×]، `يول`[و0.000000،ص✓،ح✓،د4،م×]، `فرر`[و0.000000،ص✓،ح✓،د1،م×]، `فور`[و0.000000،ص✓،ح✓،د1،م×]، `فير`[و0.000000،ص✓،ح✓،د3،م×]، `فار`[و0.000000،ص✓،ح✓،د3،م×]، `فرو`[و0.000000،ص✓،ح✓،د3،م×]، `فري`[و0.000000،ص✓،ح✓،د3،م×]، `فرا`[و0.000000،ص✓،ح✓،د3،م×]، `وفر`[و0.000000،ص✓،ح✓،د1،م×]، `يفر`[و0.000000،ص✓،ح✓،د4،م×]، `فلل`[و0.000000،ص✓،ح✓،د1،م×]، `فول`[و0.000000،ص✓،ح✓،د3،م×]، `فيل`[و0.000000،ص✓،ح✓،د1،م×]، `فال`[و0.000000،ص✓،ح✓،د3،م×]، `فلو`[و0.000000،ص✓،ح✓،د3،م×]، `فلي`[و0.000000،ص✓،ح✓،د3،م×]، `فلا`[و0.000000،ص✓،ح✓،د3،م×]، `وفل`[و0.000000،ص✓،ح✓،د3،م×]، `يفل`[و0.000000،ص✓،ح✓،د4،م×]، `برر`[و0.000000،ص✓،ح✓،د1،م×]، `بور`[و0.000000،ص✓،ح✓،د1،م×]، `بير`[و0.000000،ص✓،ح✓،د3،م×]، `بار`[و0.000000،ص✓،ح✓،د3،م×]، `برو`[و0.000000،ص✓،ح✓،د1،م×]، `بري`[و0.000000،ص✓،ح✓،د3،م×]، `برا`[و0.000000،ص✓،ح✓،د3،م×]، `وبر`[و0.000000،ص✓،ح✓،د1،م×]، `يبر`[و0.000000،ص✓،ح✓،د4،م×]، `بلل`[و0.000000،ص✓،ح✓،د1،م×]، `بول`[و0.000000،ص✓،ح✓،د1،م×]، `بيل`[و0.000000،ص✓،ح✓،د3،م×]، `بال`[و0.000000،ص✓،ح✓،د3،م×]، `بلو`[و0.000000،ص✓،ح✓،د1،م×]، `بلي`[و0.000000،ص✓،ح✓،د1،م×]، `بلا`[و0.000000،ص✓،ح✓،د3،م×]، `وبل`[و0.000000،ص✓،ح✓،د1،م×]، `يبل`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SEMANTIC-ORBIT-GAP؛ يتطلب=مدار بشري مقنع بين معنى قاموس الفرع والحدث المجمّد بعد فحص المروحة كلها.
+- المدار المكتوب: فُحصت مرشحات المراوح ذات الحدث المجمّد، ولم يثبت منها مدار ينسخ معنى قاموس الفرع؛ اقتراح المؤلف لا يعوّض رجل المعنى.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `vara` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «دام؛ استمر» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+- اختيار قاموس الفرع لصورة `vare` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «دام؛ استمر» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `kanna`؛ CMP-IE-005-120
+<!-- COMPARATIVE-IE:CMP-IE-005-120 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `kanna`, `genkende`؛ صفوف المصدر [3121, 3122].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 3121: `kanna`؛ «تعرّف؛ عرف» ↔ `كنه / كهن`؛ ردّ جذر KN في التعرف إلى كنه وكهن. [ocr-khashim-journey1، ص474] | صف 3122: `genkende`؛ «تعرّف؛ عرف» ↔ `كنه / كهن`؛ ردّ جذر KN في التعرف إلى كنه وكهن. [ocr-khashim-journey1، ص474].
+- الخطوة صفر لصورة `kanna`: الرسم `germanic`؛ الهيكل `k-n`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `kanna` (الصورةُ بنصِّها؛ `data/branch-lexicons/old-norse.json`): `kanna` [noun] «a can, tankard» | `kanna` [verb] «to search, explore».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «تعرّف؛ عرف»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `kanna`، مرتبة بـ`F.rank`: `كن`[و0.000000،ص✓،ح✓،د2،م×]، `قن`[و0.000000،ص✓،ح✓،د2،م×]، `جن`[و0.000000،ص✓،ح✓،د2،م×]، `كنن`[و0.000000،ص✓،ح✓،د1،م×]، `كون`[و0.000000،ص✓،ح✓،د1،م×]، `كين`[و0.000000،ص✓،ح✓،د1،م×]، `كان`[و0.000000،ص✓،ح✓،د3،م×]، `كنو`[و0.000000،ص✓،ح✓،د3،م×]، `كني`[و0.000000،ص✓،ح✓،د3،م×]، `كنا`[و0.000000،ص✓،ح✓،د3،م×]، `وكن`[و0.000000،ص✓،ح✓،د4،م×]، `يكن`[و0.000000،ص✓،ح✓،د4،م×]، `قنن`[و0.000000،ص✓،ح✓،د1،م×]، `قون`[و0.000000،ص✓،ح✓،د3،م×]، `قين`[و0.000000،ص✓،ح✓،د3،م×]، `قان`[و0.000000،ص✓،ح✓،د3،م×]، `قنو`[و0.000000،ص✓،ح✓،د1،م×]، `قني`[و0.000000،ص✓،ح✓،د3،م×]، `قنا`[و0.000000،ص✓،ح✓،د3،م×]، `وقن`[و0.000000،ص✓،ح✓،د4،م×]، `يقن`[و0.000000،ص✓،ح✓،د1،م×]، `جنن`[و0.000000،ص✓،ح✓،د1،م×]، `جون`[و0.000000،ص✓،ح✓،د3،م×]، `جين`[و0.000000،ص✓،ح✓،د3،م×]، `جان`[و0.000000،ص✓،ح✓،د3،م×]، `جنو`[و0.000000،ص✓،ح✓،د3،م×]، `جني`[و0.000000،ص✓،ح✓،د3،م×]، `جنا`[و0.000000،ص✓،ح✓،د3،م×]، `وجن`[و0.000000،ص✓،ح✓،د4،م×]، `يجن`[و0.000000،ص✓،ح✓،د4،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- الخطوة صفر لصورة `genkende`: الرسم `germanic`؛ الهيكل `g-n-k-n-d`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `genkende` (لا مدخل؛ `data/branch-lexicons/old-norse.json`): لا مدخل.
+- خلاف المصدر محفوظ: عمود خشيم يسوق «تعرّف؛ عرف»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `genkende`، مرتبة بـ`F.rank`: لا مرشح قابل للتوليد من الهيكل. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SOURCE-GAP؛ يتطلب=مدخل قاموسي للصور `genkende` قبل كتابة المدار.
+- المدار المكتوب: لم يثبت معنى قاموسي للفرع، فلا يُنشأ مدار من عمود الباحث.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `kanna` (الصورةُ بنصِّها): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «تعرّف؛ عرف» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+- اختيار قاموس الفرع لصورة `genkende` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «تعرّف؛ عرف»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+### بطاقة المقارنات: `skaka`؛ CMP-IE-005-129
+<!-- COMPARATIVE-IE:CMP-IE-005-129 -->
+- وحدة البطاقة: أسرة لفظية واحدة بصورها `skaka`؛ صفوف المصدر [3154].
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لخشيم؛ الإسناد اللساني والمروحة والحدث والمدار والحكم أعمال المشروع.
+- اللسان المسند: النورديّة القديمة/Old Norse؛ الإسناد اتبع صورة المادة، لا موضعها في الملف.
+- نقل المصدر: صف 3154: `skaka`؛ «هزّ» ↔ `صك / شكشك`؛ ردّ ألفاظ الهز إلى صك وشكشك. [ocr-khashim-journey1، ص475].
+- الخطوة صفر لصورة `skaka`: الرسم `germanic`؛ الهيكل `s-k-k`؛ لا يشترط ثبوت الصورة في لقطة محلية.
+- معنى قاموس الفرع بلا رتوش لصورة `skaka` (الصورةُ بنصِّها؛ `data/branch-lexicons/old-norse.json`): `skaka` [verb] «to shake».
+- خلاف المصدر محفوظ: عمود خشيم يسوق «هزّ»؛ الحكم، إن صدر، لمعنى القاموس أعلاه لا لهذا العمود.
+- المروحة الكاملة لصورة `skaka`، مرتبة بـ`F.rank`: `سكك`[و0.000000،ص✓،ح✓،د1،م×]، `سكق`[و0.000000،ص✓،ح✓،د3،م×]، `سكج`[و0.000000،ص✓،ح✓،د3،م×]، `سقك`[و0.000000،ص✓،ح✓،د3،م×]، `سقق`[و0.000000،ص✓،ح✓،د1،م×]، `سقج`[و0.000000،ص✓،ح✓،د3،م×]، `سجك`[و0.000000،ص✓،ح✓،د3،م×]، `سجق`[و0.000000،ص✓،ح✓،د3،م×]، `سجج`[و0.000000،ص✓،ح✓،د1،م×]، `شكك`[و0.000000،ص✓،ح✓،د1،م×]، `شكق`[و0.000000،ص✓،ح✓،د3،م×]، `شكج`[و0.000000،ص✓،ح✓،د3،م×]، `شقك`[و0.000000،ص✓،ح✓،د3،م×]، `شقق`[و0.000000،ص✓،ح✓،د1،م×]، `شقج`[و0.000000،ص✓،ح✓،د3،م×]، `شجك`[و0.000000،ص✓،ح✓،د3،م×]، `شجق`[و0.000000،ص✓،ح✓،د3،م×]، `شجج`[و0.000000،ص✓،ح✓،د1،م×]، `صكك`[و0.000000،ص✓،ح✓،د1،م×]، `صكق`[و0.000000،ص✓،ح✓،د4،م×]، `صكج`[و0.000000،ص✓،ح✓،د4،م×]، `صقك`[و0.000000،ص✓،ح✓،د4،م×]، `صقق`[و0.000000،ص✓،ح✓،د4،م×]، `صقج`[و0.000000،ص✓،ح✓،د4،م×]، `صجك`[و0.000000،ص✓،ح✓،د4،م×]، `صجق`[و0.000000،ص✓،ح✓،د4،م×]، `صجج`[و0.000000،ص✓،ح✓،د4،م×]، `زكك`[و0.000000،ص✓،ح✓،د1،م×]، `زكق`[و0.000000،ص✓،ح✓،د3،م×]، `زكج`[و0.000000،ص✓،ح✓،د3،م×]، `زقك`[و0.000000،ص✓،ح✓،د3،م×]، `زقق`[و0.000000،ص✓،ح✓،د1،م×]، `زقج`[و0.000000،ص✓،ح✓،د3،م×]، `زجك`[و0.000000،ص✓،ح✓،د3،م×]، `زجق`[و0.000000،ص✓،ح✓،د3،م×]، `زجج`[و0.000000،ص✓،ح✓،د1،م×]. الوزن ترتيب لا حكم؛ ح× غياب حدث مجمّد، وم× فشل المدار.
+- فحص `fan_with_dialect` عند عجز الفصحى: أضاف 0 صورة موسومة.
+- عائق: النوع=SEMANTIC-ORBIT-GAP؛ يتطلب=مدار بشري مقنع بين معنى قاموس الفرع والحدث المجمّد بعد فحص المروحة كلها.
+- المدار المكتوب: فُحصت مرشحات المراوح ذات الحدث المجمّد، ولم يثبت منها مدار ينسخ معنى قاموس الفرع؛ اقتراح المؤلف لا يعوّض رجل المعنى.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- حقل النقص، خارج الحكم: غياب الصورة من اللقطة `SOURCE-GAP` فقط، لا رفض.
+- حالة الإغلاق: OPEN-CANDIDATE.
+
+<!-- COMPARATIVE-IE-BATCH-005:END -->
+<!-- BRANCH-LEXICON-SELECTION-005:START -->
+- اختيار قاموس الفرع لصورة `skaka` (الصورةُ بنصِّها): `skaka` [verb] «to shake». اختير `skaka` بعد موازنة القائمة بسياق الصف «هزّ»؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها، وقاموس الفرع مقدم على عمود الباحث.
+<!-- BRANCH-LEXICON-SELECTION-005:END -->
+
+
+<!-- DEAD-GATE-REREVIEW-BATCH-007:START -->
+
+## إعادة فحص البوابتين الميتتين، الدفعة 007 (2026-08-14)
+
+### بطاقة إعادة فحص البوابتين الميتتين: `frjo-sa`؛ DG-0154
+<!-- DEAD-GATE-REREVIEW:KHASHIM-IE:154 -->
+- سطر النسخ: `KHASHIM-IE:154` ← `DG-0154`؛ النص التاريخي باق في موضعه، وهذا الحكم هو النافذ بتاريخ 2026-08-14.
+- البوابة أو البوابتان المنسوختان في البطاقة القديمة: بوابة عضوية ملف الـ2,285؛ لم تدخلا الحكم الجديد.
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لعلي فهمي خشيم؛ المروحة والمسار والحدث والمدار والحكم أعمال المشروع.
+- اللسان: النورديّة القديمة/Old Norse؛ الطبقة: استكشاف.
+- نقل المصدر بلا رتوش: `frjo-sa` «حر؛ حرية» ↔ `فر / فرفر / فرفور`؛ ردّها إلى حكاية جناح الطير وإلى «الفرر: طائر» و«الفرفور: العصفور الصغير». [khashim-journey1 ص.52]
+- معنى اللقطة التاريخية السابقة: `frjósa`؛ POS=verb؛ «to freeze» [Kaikki Old Norse، سطر JSONL 593، بلا رتوش].؛ ونقل الباحث المسمى، خارج قاموس الفرع: `frjo-sa` «حر؛ حرية» [khashim-journey1 ص.52].
+- قاموس الفرع: `data/branch-lexicons/old-norse.json`؛ الطريق: هيكلٌ مطابق؛ القائمة كاملة: `frjósa` [verb] «to freeze»؛ الاشتقاق: «From Proto-Germanic *freusaną, whence also Old English frēosan, Old Saxon and Old High German friosan. Ultimately from Proto-Indo-European *prews-, *prus-.».
+- اختيار معنى الفرع: لا شيء؛ عُرضت القائمة كلها، ولم ينتخب الكاتب مدخلًا يحمل حكم هذه الصورة.
+- الخطوة صفر: الصورة `frjo-sa`؛ الرسم الصريح `germanic`؛ الهياكل الحالية `frjs` (كما وردَت).
+- باب الساق اللاتيني الموسوم: لم يضف هيكلًا بديلًا لهذه الصورة.
+- المروحة الكاملة من `fan_any_script.fan` مرتبة بـ`fan_any_script.rank`: `فريس`[و0.000000،ص✓،ح✓،د3،م×]، `فريش`[و0.000000،ص✓،ح✓،د3،م×]، `فريص`[و0.000000،ص✓،ح✓،د3،م×]، `فريز`[و0.000000،ص✓،ح✓،د3،م×]، `فرجس`[و0.000000،ص×،ح✓،د3،م؟]، `فرجش`[و0.000000،ص×،ح✓،د3،م؟]، `فرجص`[و0.000000،ص×،ح✓،د3،م؟]، `فرجز`[و0.000000،ص×،ح✓،د3،م؟]، `فليس`[و0.000000،ص✓،ح✓،د3،م×]، `فليش`[و0.000000،ص✓،ح✓،د3،م×]، `فليص`[و0.000000،ص✓،ح✓،د3،م×]، `فليز`[و0.000000،ص✓،ح✓،د3،م×]، `فلجس`[و0.000000،ص×،ح✓،د3،م؟]، `فلجش`[و0.000000،ص×،ح✓،د3،م؟]، `فلجص`[و0.000000،ص×،ح✓،د3،م؟]، `فلجز`[و0.000000،ص×،ح✓،د3،م؟]، `بريس`[و0.000000،ص✓،ح✓،د3،م×]، `بريش`[و0.000000،ص✓،ح✓،د3،م×]، `بريص`[و0.000000،ص✓،ح✓،د3،م×]، `بريز`[و0.000000،ص✓،ح✓،د3،م×]، `برجس`[و0.000000،ص×،ح✓،د3،م؟]، `برجش`[و0.000000،ص×،ح✓،د3،م؟]، `برجص`[و0.000000،ص×،ح✓،د3،م؟]، `برجز`[و0.000000،ص×،ح✓،د3،م؟]، `بليس`[و0.000000،ص✓،ح✓،د3،م×]، `بليش`[و0.000000،ص✓،ح✓،د3،م×]، `بليص`[و0.000000،ص✓،ح✓،د3،م×]، `بليز`[و0.000000،ص✓،ح✓،د3،م×]، `بلجس`[و0.000000،ص×،ح✓،د3،م؟]، `بلجش`[و0.000000،ص×،ح✓،د3،م؟]، `بلجص`[و0.000000،ص×،ح✓،د3،م؟]، `بلجز`[و0.000000،ص×،ح✓،د3،م؟]. الوزن ترتيب لا حكم؛ د=درجة الحدث؛ م× يعني أن المدار فُحص ولم يقنع.
+- فحص `fan_with_dialect`: أضاف 0 صورة موسومة بعد الفصيح ولم يحذف الفصيح.
+- شواهد الجذور العربية قبل حكم المدار: `فريس`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `فريش`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `فريص`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `فريز`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `فليس`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `فليش`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `فليص`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `فليز`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `بريس`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `بريش`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `بريص`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `بريز`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `بليس`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `بليش`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `بليص`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `بليز`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`).
+- المدار المكتوب باليد: لم يقنع القارئ مدار لمرشح مكتمل الأرجل؛ بقيت البطاقة مفتوحة ولم يُنشأ لها مدار آلي.
+- ما فُتش قبل إعلان نقص صف: الصوت والحدث مكتملان، لكن رجل معنى الفرع من قاموسه لم تثبت؛ عُرضت القائمة كاملة أعلاه.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=لم ينتخب الكاتب مدخلًا من قائمة قاموس الفرع يوافق سياق الصورة؛ لا يكفي نقل الباحث
+- حقل النقص، خارج الحكم: لا نقص متعلق ببوابة اللقطة.
+- حالة الإغلاق: OPEN-CANDIDATE.
+
+### بطاقة إعادة فحص البوابتين الميتتين: `kraka`؛ DG-1491
+<!-- DEAD-GATE-REREVIEW:KHASHIM-IE:1491 -->
+- سطر النسخ: `KHASHIM-IE:1491` ← `DG-1491`؛ النص التاريخي باق في موضعه، وهذا الحكم هو النافذ بتاريخ 2026-08-14.
+- البوابة أو البوابتان المنسوختان في البطاقة القديمة: بوابة عضوية ملف الـ2,285؛ لم تدخلا الحكم الجديد.
+- نسبة المصدر: الصورة والمعنى والجذر المقترح والشرح لعلي فهمي خشيم؛ المروحة والمسار والحدث والمدار والحكم أعمال المشروع.
+- اللسان: النورديّة القديمة/Old Norse؛ الطبقة: استكشاف.
+- نقل المصدر بلا رتوش: `kraka` «غراب» ↔ `قرأ / غراب`؛ ردّ صيغ crow إلى قرأ وحكاية الصوت، وصيغ corbeau إلى غراب. [khashim-journey1 ص.412]
+- معنى اللقطة التاريخية السابقة: `kráka`؛ POS=noun؛ «crow» [Kaikki Old Norse، سطر JSONL 1784، بلا رتوش].؛ ونقل الباحث المسمى، خارج قاموس الفرع: `kraka` «غراب» [khashim-journey1 ص.412].
+- قاموس الفرع: `data/branch-lexicons/old-norse.json`؛ الطريق: هيكلٌ مطابق؛ القائمة كاملة: `kráka` [noun] «crow»؛ الاشتقاق: «From Proto-Germanic *krakǭ, a derivative of *krakōną, from Proto-Indo-European *gerh₂- (“to cry hoarsely”). Cognate to German krähe, English crow.».
+- اختيار معنى الفرع: لا شيء؛ عُرضت القائمة كلها، ولم ينتخب الكاتب مدخلًا يحمل حكم هذه الصورة.
+- الخطوة صفر: الصورة `kraka`؛ الرسم الصريح `germanic`؛ الهياكل الحالية `krk` (كما وردَت).
+- باب الساق اللاتيني الموسوم: لم يضف هيكلًا بديلًا لهذه الصورة.
+- المروحة الكاملة من `fan_any_script.fan` مرتبة بـ`fan_any_script.rank`: `كرك`[و0.000000،ص✓،ح✓،د3،م×]، `كرق`[و0.000000،ص✓،ح✓،د3،م×]، `كرج`[و0.000000،ص×،ح✓،د3،م؟]، `كلك`[و0.000000،ص✓،ح✓،د3،م×]، `كلق`[و0.000000،ص✓،ح✓،د3،م×]، `كلج`[و0.000000،ص×،ح✓،د3،م؟]، `قرك`[و0.000000،ص✓،ح✓،د3،م×]، `قرق`[و0.000000،ص✓،ح✓،د3،م×]، `قرج`[و0.000000،ص×،ح✓،د3،م؟]، `قلك`[و0.000000،ص✓،ح✓،د3،م×]، `قلق`[و0.000000،ص✓،ح✓،د3،م×]، `قلج`[و0.000000،ص×،ح✓،د3،م؟]، `جرك`[و0.000000،ص×،ح✓،د3،م؟]، `جرق`[و0.000000،ص×،ح✓،د3،م؟]، `جرج`[و0.000000،ص×،ح✓،د3،م؟]، `جلك`[و0.000000،ص×،ح✓،د3،م؟]، `جلق`[و0.000000،ص×،ح✓،د3،م؟]، `جلج`[و0.000000،ص×،ح✓،د3،م؟]. الوزن ترتيب لا حكم؛ د=درجة الحدث؛ م× يعني أن المدار فُحص ولم يقنع.
+- فحص `fan_with_dialect`: أضاف 0 صورة موسومة بعد الفصيح ولم يحذف الفصيح.
+- شواهد الجذور العربية قبل حكم المدار: `كرك`: 6 شاهدًا؛ المصادر المنتخبة للقراءة لسان العرب لابن منظور، تاج العروس لمرتضى الزبيدي؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `كرق`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `كلك`: 3 شاهدًا؛ المصادر المنتخبة للقراءة تاج العروس لمرتضى الزبيدي، المصباح المنير؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `كلق`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `قرك`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `قرق`: 9 شاهدًا؛ المصادر المنتخبة للقراءة لسان العرب لابن منظور، تاج العروس لمرتضى الزبيدي؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `قلك`: 0 شاهدًا؛ المصادر المنتخبة للقراءة لا شاهدين مستقلين مكتملين؛ القراءة كاملة بلا قطع (`--max-chars 0`)؛ `قلق`: 11 شاهدًا؛ المصادر المنتخبة للقراءة لسان العرب لابن منظور، تاج العروس لمرتضى الزبيدي؛ القراءة كاملة بلا قطع (`--max-chars 0`).
+- المدار المكتوب باليد: لم يقنع القارئ مدار لمرشح مكتمل الأرجل؛ بقيت البطاقة مفتوحة ولم يُنشأ لها مدار آلي.
+- ما فُتش قبل إعلان نقص صف: الصوت والحدث مكتملان، لكن رجل معنى الفرع من قاموسه لم تثبت؛ عُرضت القائمة كاملة أعلاه.
+- الحكم (استكشاف): **غير صادر (استكشاف)**.
+- عائق: النوع=OPEN-CANDIDATE؛ يتطلب=لم ينتخب الكاتب مدخلًا من قائمة قاموس الفرع يوافق سياق الصورة؛ لا يكفي نقل الباحث
+- حقل النقص، خارج الحكم: لا نقص متعلق ببوابة اللقطة.
+- حالة الإغلاق: OPEN-CANDIDATE.
+
+<!-- DEAD-GATE-REREVIEW-BATCH-007:END -->
+
+<!-- BRANCH-LEXICON-SELECTION-LEDGER-005:START -->
+### سجل اختيار قاموس الفرع، الدفعة المقارنة 005
+
+القوائم الكاملة في البطاقات أعلاه؛ وهذا السجل يعيّن المدخل المختار أو يصرح بعدم المطابقة، مع تقديم القاموس على عمود الباحث.
+
+- البطاقة/الإلحاق `CMP-IE-001-001`:
+  - اختيار قاموس الفرع لصورة `avarij` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «متوسط؛ عوار أو ضرر في البضاعة» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+- البطاقة/الإلحاق `JAS-IE-014-016`:
+  - اختيار قاموس الفرع لصورة `rod` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «أحمر»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-005`:
+  - اختيار قاموس الفرع لصورة `juvelerare` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «صائغ؛ جوهري»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-026`:
+  - اختيار قاموس الفرع لصورة `kapten` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «ربان؛ قائد»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+  - اختيار قاموس الفرع لصورة `kaptajn` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «ربان؛ قائد»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-029`:
+  - اختيار قاموس الفرع لصورة `kol` (الصورةُ بنصِّها): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «عارضة السفينة السفلى» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-035`:
+  - اختيار قاموس الفرع لصورة `ras` (هيكلٌ مطابق): `rás` [noun] «race, running؛ course, channel؛ company, host»؛ الاشتقاق «From Proto-Germanic *rēsō.». اختير `rás` بعد موازنة القائمة بسياق الصف «عرق؛ جنس؛ أصل»؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها، وقاموس الفرع مقدم على عمود الباحث.
+- البطاقة/الإلحاق `CMP-IE-005-058`:
+  - اختيار قاموس الفرع لصورة `kun` (هيكلٌ مطابق): `kunna` [verb] «to know, understand, be able to؛ to know (by memory)؛ to know, be familiar with (a person)»؛ الاشتقاق «From Proto-Germanic *kunnaną. Ultimately from Proto-Indo-European *ǵneh₃- (“to know”).». اختير `kunna` بعد موازنة القائمة بسياق الصف «معرفة؛ علم»؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها، وقاموس الفرع مقدم على عمود الباحث.
+- البطاقة/الإلحاق `CMP-IE-005-076`:
+  - اختيار قاموس الفرع لصورة `smer` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «ابتسم؛ سرور» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-077`:
+  - اختيار قاموس الفرع لصورة `smar` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «ابتسم؛ سرور» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-081`:
+  - اختيار قاموس الفرع لصورة `som` (هيكلٌ مطابق): `sam-` [prefix] «together, con-»؛ الاشتقاق «From Proto-Germanic *samaz (“same, alike”), from Proto-Indo-European *somHós.». اختير `sam-` بعد موازنة القائمة بسياق الصف «مجموع؛ جمع»؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها، وقاموس الفرع مقدم على عمود الباحث.
+- البطاقة/الإلحاق `CMP-IE-005-087`:
+  - اختيار قاموس الفرع لصورة `rike` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «غنى؛ ثراء» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+  - اختيار قاموس الفرع لصورة `rig` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «غنى؛ ثراء» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-110`:
+  - اختيار قاموس الفرع لصورة `krypa` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «زحف؛ حية زاحفة»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+  - اختيار قاموس الفرع لصورة `krybe` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «زحف؛ حية زاحفة»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-117`:
+  - اختيار قاموس الفرع لصورة `vara` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «دام؛ استمر» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+  - اختيار قاموس الفرع لصورة `vare` (هيكلٌ مطابق): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «دام؛ استمر» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-120`:
+  - اختيار قاموس الفرع لصورة `kanna` (الصورةُ بنصِّها): لا مدخل مختار. عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف «تعرّف؛ عرف» على وجه يحمل الحكم؛ بقي عمود الباحث ظاهرًا ولم يؤخذ بدل القاموس.
+  - اختيار قاموس الفرع لصورة `genkende` (لا مدخل): لا مدخل مختار. لم يرجع قاموس الفرع مدخلًا للصورة في سياق «تعرّف؛ عرف»؛ بقيت مفتوحة ولم يؤخذ عمود الباحث بدل القاموس.
+- البطاقة/الإلحاق `CMP-IE-005-129`:
+  - اختيار قاموس الفرع لصورة `skaka` (الصورةُ بنصِّها): `skaka` [verb] «to shake»؛ الاشتقاق «From Proto-Germanic *skakaną.». اختير `skaka` بعد موازنة القائمة بسياق الصف «هزّ»؛ لم تؤخذ الإصابة الأولى لمجرد ترتيبها، وقاموس الفرع مقدم على عمود الباحث.
+<!-- BRANCH-LEXICON-SELECTION-LEDGER-005:END -->

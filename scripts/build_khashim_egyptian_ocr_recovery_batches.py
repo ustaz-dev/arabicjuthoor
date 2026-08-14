@@ -126,7 +126,7 @@ def main() -> int:
 
     global_scan_reasons: Counter[str] = Counter()
     for item in defects:
-        global_scan_reasons.update(item["scan_reasons"])
+        global_scan_reasons.update(item["reasons"])
     for report in report_payloads.values():
         report_rows = report["rows"]
         selection_scan_reasons: Counter[str] = Counter()

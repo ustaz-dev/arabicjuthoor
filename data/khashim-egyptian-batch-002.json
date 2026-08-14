@@ -4,11 +4,16 @@
  "source": "data/khashim-pairs.json",
  "book": "علي فهمي خشيم، «البرهان على عروبة اللغة المصرية القديمة»",
  "ocr_recovery": {
-  "named_english_heads": 50,
-  "named_recovered": 50,
-  "named_unrecovered": 0,
-  "additional_recovered": 85,
-  "all_recovered": 135
+  "overlay_rows": 38,
+  "overlay_fields": 41,
+  "reharvested_through_batch": 1,
+  "manual_head_recovery_baseline": {
+   "named_english_heads": 50,
+   "named_recovered": 50,
+   "named_unrecovered": 0,
+   "additional_recovered": 85,
+   "all_recovered": 135
+  }
  },
  "rows_examined": 938,
  "fan_audit_938": {
@@ -29,28 +34,28 @@
   "batch_004_chosen_in_faulty_fan": 24,
   "batch_004_chosen_in_corrected_fan": 65
  },
- "scan_defects_union": 458,
+ "scan_defects_union": 430,
  "scan_defects_by_reason": {
   "الرأس إنجليزي لا رومنة مصرية": 120,
-  "المعنى الإنجليزي لم يسلم من المسح": 189,
-  "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية": 132,
+  "المعنى الإنجليزي لم يسلم من المسح": 170,
+  "رأس ذو فراغ: مركب أو التحمت به عبارة إنجليزية": 110,
   "رمز هيروغليفي واحد مكرر بخلل المسح": 92
  },
  "selection_scan_reasons": {
-  "المعنى الإنجليزي لم يسلم من المسح": 76
+  "المعنى الإنجليزي لم يسلم من المسح": 69
  },
  "cards_written": 200,
  "chosen_in_corrected_fan": 80,
  "positive": 7,
  "open_candidate": 193,
  "open_reasons_overlapping": {
-  "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة": 120,
-  "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية": 8,
-  "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت": 77,
+  "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة": 117,
+  "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية": 11,
+  "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت": 76,
   "حدث النواة من السجل المجمد": 7,
   "صفوف الشبكة الناقصة المبيّنة في مسار الصوت": 147,
-  "مقابلة الصفحة المصوّرة لعيب المسح المسمّى": 73,
-  "نص لسان العرب أو تاج العروس للمادة": 98
+  "مقابلة الصفحة المصوّرة لعيب المسح المسمّى": 66,
+  "نص لسان العرب أو تاج العروس للمادة": 97
  },
  "rows": [
   {
@@ -1276,64 +1281,146 @@
   {
    "index": 750,
    "foreign": "nahra",
-   "sense": "; Heb. נְדָר",
+   "sense": "Thes. 1202, to flow away; Heb. נָרוּר",
    "root": "نهر",
-   "score": 37,
+   "score": 73,
    "raw_fan_count": 4,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "semantic_hits": [
+    "flow"
+   ],
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "فراغ يتخلل الشيء؛ والحرفُ الثالثُ «ر» حدثُه: خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «نهر» ليس في الـ2,285، فنُزِلَ إلى نواتِه «نه» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": true,
    "sound_rows": [
     "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)",
     "h↔ه = `IDN-20` (بحث: `h` + `ه` + «المصريّة/Egyptian» في عمود الشاهد)",
     "r↔ر = `IDN-01` (بحث: `r` + `ر` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
    "sound_misses": [],
-   "scan_reasons": [
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "; Heb. נְדָר",
+      "recovered": "Thes. 1202, to flow away; Heb. נָרוּר"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 772,
+     "line": 39010
+    },
+    "new_location": {
+     "page": 775,
+     "line": 33294
+    },
+    "matched_new_row": 2853,
+    "alignment_score": 25.866384,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.390244,
+     "arabic_gloss_similarity": 0.956522,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign_sense": "; Heb. נְדָר"
+   }
   },
   {
    "index": 386,
    "foreign": "s-meh",
-   "sense": "; caus",
+   "sense": "Rec. 26, 79, to make to forget ; caus",
    "root": "سمه",
-   "score": 36,
+   "score": 54,
    "raw_fan_count": 6,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "نوع من الخرق الذي يضم؛ والحرفُ الثالثُ «ه» حدثُه: مجرًى ينفتحُ كلُّه خاليًا، يجري فيه النفَسُ من الجوفِ جريانًا متّصلًا مهموسًا، ثمّ يخفُتُ متلاشيًا.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «سمه» ليس في الـ2,285، فنُزِلَ إلى نواتِه «سم» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": true,
    "sound_rows": [
     "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
     "m↔م = `IDN-02` (بحث: `m` + `م` + «المصريّة/Egyptian» في عمود الشاهد)",
     "h↔ه = `IDN-20` (بحث: `h` + `ه` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
    "sound_misses": [],
-   "scan_reasons": [
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "; caus",
+      "recovered": "Rec. 26, 79, to make to forget ; caus"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 473,
+     "line": 23119
+    },
+    "new_location": {
+     "page": 476,
+     "line": 21311
+    },
+    "matched_new_row": 1687,
+    "alignment_score": 41.882353,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.294118,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 19.0,
+     "phonetic_pair_score": 16
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign_sense": "; caus"
+   }
   },
   {
    "index": 712,
@@ -1859,33 +1946,75 @@
   {
    "index": 398,
    "foreign": "sent-t",
-   "sense": "Herusatef Stele 28",
+   "sense": "Herusåtef Stele 28, acacia wood",
    "root": "سنط",
-   "score": 31,
-   "raw_fan_count": 12,
-   "root_in_raw_fan": false,
+   "score": 73,
+   "raw_fan_count": 22,
+   "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": "لسان العرب لابن منظور",
-   "semantic_hits": [],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "semantic_hits": [
+    "acacia"
+   ],
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "الامتداد (أو النفاذ) مع حدة أو دقة؛ والحرفُ الثالثُ «ط» حدثُه: إطباقٌ عريضٌ ثقيلٌ للسانِ يحبسُ النفَسَ بضغطٍ ثمّ ينفتحُ عنه منبسِطًا منتشرًا.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «سنط» ليس في الـ2,285، فنُزِلَ إلى نواتِه «سن» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": true,
    "sound_rows": [
     "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
     "n↔ن = `IDN-03` (بحث: `n` + `ن` + «المصريّة/Egyptian» في عمود الشاهد)",
     "t↔ط = `DENT-05` (بحث: `t` + `ط` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
    "sound_misses": [],
-   "scan_reasons": [
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "الرجل الثالثة: مدار مقنع مكتوب بين معنى بدج وحدث العربية"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "Herusatef Stele 28",
+      "recovered": "Herusåtef Stele 28, acacia wood"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 479,
+     "line": 23527
+    },
+    "new_location": {
+     "page": 482,
+     "line": 21625
+    },
+    "matched_new_row": 1727,
+    "alignment_score": 27.093023,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.697674,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign_sense": "Herusatef Stele 28"
+   }
   },
   {
    "index": 429,
@@ -2497,20 +2626,27 @@
   {
    "index": 432,
    "foreign": "s-tehen",
-   "sense": "; caus. of =",
+   "sense": "Rec. 15, 178, to sparkle; caus. of =",
    "root": "ستحن",
-   "score": 12,
-   "raw_fan_count": 12,
+   "score": 30,
+   "raw_fan_count": 16,
    "root_in_raw_fan": true,
    "root_in_stem_fan": true,
    "lexicon": null,
    "semantic_hits": [],
-   "event_source": null,
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "التغطية والإخفاء؛ والحرفُ الثالثُ «ح» حدثُه: تضيُّقٌ عميقٌ في أقصى الحلقِ يحتوي النفَسَ الحارَّ، فيجري فيه جريانًا محتكًّا جافًّا، حتّى ينفُذَ خالصًا خارجًا.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «ستحن» ليس في الـ2,285، فنُزِلَ إلى نواتِه «ست» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": false,
    "sound_rows": [
     "s↔س = `IDN-07` (بحث: `s` + `س` + «المصريّة/Egyptian» في عمود الشاهد)",
     "t↔ت = `IDN-11` (بحث: `t` + `ت` + «المصريّة/Egyptian» في عمود الشاهد)",
@@ -2519,16 +2655,46 @@
    "sound_misses": [
     "h↔ح (بحث: `h` + `ح` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
-   "scan_reasons": [
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "نص لسان العرب أو تاج العروس للمادة",
-    "تحليل يبيّن وحدة المقارنة العربية ذات الأربعة صوامت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "; caus. of =",
+      "recovered": "Rec. 15, 178, to sparkle; caus. of ="
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 506,
+     "line": 24764
+    },
+    "new_location": {
+     "page": 509,
+     "line": 22627
+    },
+    "matched_new_row": 1811,
+    "alignment_score": 36.421053,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.473684,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 12.714286,
+     "phonetic_pair_score": 10
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign_sense": "; caus. of ="
+   }
   },
   {
    "index": 297,
@@ -4344,35 +4510,74 @@
   {
    "index": 65,
    "foreign": "barbar",
-   "sense": "𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀",
+   "sense": "to soak, to macerate, to boil; Copt. δερδερ",
    "root": "فور",
-   "score": -1,
+   "score": 27,
    "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
+    "boil",
     "ماء"
    ],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "event_source": "computational/data/layer_2_results_v2.jsonl",
+   "frozen_event": {
+    "text": "جَيَشَانُ نحو الماء إلى أعلى بقوّة واندفاع",
+    "source": "computational/data/layer_2_results_v2.jsonl",
+    "tier": 1,
+    "tier_ar": "جذرٌ في الـ2,285",
+    "note": ""
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": false,
    "sound_rows": [],
    "sound_misses": [
     "عدد الصوامت 4 في الفرع و3 في المرشح"
    ],
-   "scan_reasons": [
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀",
+      "recovered": "to soak, to macerate, to boil; Copt. δερδερ"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 154,
+     "line": 7076
+    },
+    "new_location": {
+     "page": 157,
+     "line": 7962
+    },
+    "matched_new_row": 592,
+    "alignment_score": 25.123711,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.041237,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign_sense": "𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀, 𓂀"
+   }
   },
   {
    "index": 422,
@@ -5453,35 +5658,76 @@
   {
    "index": 807,
    "foreign": "neqett",
-   "sense": "Stele 23",
+   "sense": "Stele 23, to sleep",
    "root": "رقد",
-   "score": -3,
-   "raw_fan_count": 4,
+   "score": 25,
+   "raw_fan_count": 6,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [
+    "sleep",
     "نام"
    ],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "event_source": "computational/data/layer_2_results_v2.jsonl",
+   "frozen_event": {
+    "text": "امتداد جسم الشيء متسطحًا ثابتًا ساكنًا لا زوائد قائمة منه",
+    "source": "computational/data/layer_2_results_v2.jsonl",
+    "tier": 1,
+    "tier_ar": "جذرٌ في الـ2,285",
+    "note": ""
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": false,
    "sound_rows": [],
    "sound_misses": [
     "عدد الصوامت 4 في الفرع و3 في المرشح"
    ],
-   "scan_reasons": [
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "Stele 23",
+      "recovered": "Stele 23, to sleep"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [
+     "رمز هيروغليفي واحد مكرر بخلل المسح"
+    ],
+    "old_location": {
+     "page": 819,
+     "line": 41903
+    },
+    "new_location": {
+     "page": 822,
+     "line": 35276
+    },
+    "matched_new_row": 3048,
+    "alignment_score": 26.909091,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.636364,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 3.0,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign_sense": "Stele 23"
+   }
   },
   {
    "index": 441,
@@ -5717,20 +5963,27 @@
   {
    "index": 47,
    "foreign": "āshem",
-   "sense": "𓀀, 𓀀, o",
+   "sense": "M. 114, 𓀀, M. 201, 559, N. 1160, 1166, 𓀀, U. 488, T. 193, to make to go",
    "root": "مشي",
-   "score": -15,
+   "score": 3,
    "raw_fan_count": 4,
    "root_in_raw_fan": false,
    "root_in_stem_fan": false,
    "lexicon": "لسان العرب لابن منظور",
    "semantic_hits": [],
-   "event_source": "لسان العرب لابن منظور",
-   "nucleus_event": null,
+   "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+   "frozen_event": {
+    "text": "النفاذ بانتشار من أثناء الشيء؛ والحرفُ الثالثُ «ي» حدثُه: يقتربُ وسطُ اللسانِ من الغارِ اقترابًا ليّنًا لا حبسَ فيه، فيسري الصوتُ المجهورُ في مجراهُ سريانًا ممتدًّا، ثمّ ينسابُ مُطلَقًا إلى ما بعدَه.",
+    "source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+    "tier": 3,
+    "tier_ar": "نزولٌ إلى النواة",
+    "note": "الجذرُ «مشي» ليس في الـ2,285، فنُزِلَ إلى نواتِه «مش» بنصِّ التعديل 2"
+   },
    "human_orbit": null,
    "scan_override_by_human_orbit": false,
    "closure": "OPEN-CANDIDATE",
    "verdict": null,
+   "sound_ready": false,
    "sound_rows": [
     "sh↔ش = `IDN-21` (بحث: `sh` + `ش` + «المصريّة/Egyptian» في عمود الشاهد)"
    ],
@@ -5738,15 +5991,46 @@
     "ā↔م (بحث: `ā` + `م` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)",
     "m↔ي (بحث: `m` + `ي` + «المصريّة/Egyptian» في عمود الشاهد؛ لا صف مناسب)"
    ],
-   "scan_reasons": [
-    "المعنى الإنجليزي لم يسلم من المسح"
-   ],
+   "scan_reasons": [],
    "open_reasons": [
-    "إصابة مرشح خشيم داخل مروحة الأداة بعد التعرية المسماة",
-    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت",
-    "مقابلة الصفحة المصوّرة لعيب المسح المسمّى"
+    "صفوف الشبكة الناقصة المبيّنة في مسار الصوت"
    ],
-   "ocr_recovery": null
+   "ocr_recovery": {
+    "schema": "khashim-egyptian-ocr-recovery-v1",
+    "fields": {
+     "foreign_sense": {
+      "legacy": "𓀀, 𓀀, o",
+      "recovered": "M. 114, 𓀀, M. 201, 559, N. 1160, 1166, 𓀀, U. 488, T. 193, to make to go"
+     }
+    },
+    "registered_scan_reasons": [
+     "المعنى الإنجليزي لم يسلم من المسح"
+    ],
+    "new_scan_reasons": [],
+    "old_location": {
+     "page": 127,
+     "line": 5721
+    },
+    "new_location": {
+     "page": 130,
+     "line": 6706
+    },
+    "matched_new_row": 435,
+    "alignment_score": 25.40678,
+    "alignment_evidence": {
+     "foreign_similarity": 1.0,
+     "sense_similarity": 0.135593,
+     "arabic_gloss_similarity": 1.0,
+     "page_delta": 3,
+     "layout_pair_score": 2.966667,
+     "phonetic_pair_score": 0
+    },
+    "matched_source": "Resources/prior-art/ocr-khashim-proof-recovery-20260814/full.md"
+   },
+   "manual_ocr_head_recovery": null,
+   "legacy": {
+    "foreign_sense": "𓀀, 𓀀, o"
+   }
   },
   {
    "index": 221,

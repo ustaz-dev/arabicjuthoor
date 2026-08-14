@@ -1,0 +1,443 @@
+{
+  "schema": "reopened-loan-harvest-correction-v1",
+  "date": "2026-08-14",
+  "language": "welsh",
+  "correction": 4,
+  "controls": [
+    {
+      "word": "mwg",
+      "root": "موج",
+      "closure": "ROOT-TRACE",
+      "current_verdict": "ROOT-TRACE",
+      "weight": 0.0,
+      "sound_route": "m↔م=`IDN-02`؛ w↔و=`IDN-10`؛ g↔ج=`IDN-08`",
+      "event_tier": 1,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "حركة واضطراب للمائع في حيّزه مع انتباره من كثافة تجمعه",
+      "unchanged": true
+    },
+    {
+      "word": "melg",
+      "root": "ملج",
+      "closure": "ROOT-ECHO",
+      "current_verdict": "ROOT-ECHO",
+      "weight": 0.0,
+      "sound_route": "m↔م=`IDN-02`؛ l↔ل=`IDN-04`؛ g↔ج=`IDN-08`",
+      "event_tier": 3,
+      "event_tier_ar": "نزولٌ إلى النواة",
+      "event_text": "الامتداد مع الحوز أو الشمول؛ والحرفُ الثالثُ «ج» حدثُه: اجتماعُ وسطِ اللسانِ بوسطِ الحنكِ يحبسُ النفَسَ في جوفِ الفمِ ثمّ ينبثقُ عنه بارزًا مسترسلًا",
+      "unchanged": true
+    },
+    {
+      "word": "senos",
+      "root": "سن",
+      "closure": "NUCLEUS-TRACE",
+      "current_verdict": "NUCLEUS-TRACE",
+      "weight": 0.0,
+      "sound_route": "s↔س=`IDN-07`؛ n↔ن=`IDN-03`؛ بعد التعرية الصرفية المسماة",
+      "event_tier": 2,
+      "event_tier_ar": "نواةٌ مسجَّلة",
+      "event_text": "الامتداد (أو النفاذ) مع حدة أو دقة",
+      "unchanged": true
+    },
+    {
+      "word": "caer",
+      "root": "قر",
+      "closure": "NUCLEUS-TRACE",
+      "current_verdict": "NUCLEUS-TRACE",
+      "weight": 0.0,
+      "sound_route": "c↔ق=`GUT-01`؛ r↔ر=`IDN-01`",
+      "event_tier": 2,
+      "event_tier_ar": "نواةٌ مسجَّلة",
+      "event_text": "استقرار ما شأنه التسيب في قاع عميق أو حيز",
+      "unchanged": true
+    },
+    {
+      "word": "môr",
+      "root": "مور",
+      "closure": "ROOT-ECHO",
+      "current_verdict": "ROOT-ECHO",
+      "weight": 0.0,
+      "sound_route": "m↔م=`IDN-02`؛ r↔ر=`IDN-01`؛ ثم باب المعتل المسمى يثبت الواو في الجوف",
+      "event_tier": 1,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "تردُّد المادة المجتمعة في مكانها بتسيبها",
+      "unchanged": true
+    },
+    {
+      "word": "car",
+      "root": "جر",
+      "closure": "NUCLEUS-TRACE",
+      "current_verdict": "NUCLEUS-TRACE",
+      "weight": 0.0,
+      "sound_route": "c↔ج=`GUT-03`؛ r↔ر=`IDN-01`",
+      "event_tier": 2,
+      "event_tier_ar": "نواةٌ مسجَّلة",
+      "event_text": "الاسترسال والامتداد",
+      "unchanged": true
+    }
+  ],
+  "corrected_cards": 1,
+  "positive_cards": 0,
+  "named_semantic_closures": 1,
+  "rows": [
+    {
+      "card_id": "LH-WELSH-CORR-02353",
+      "supersedes": "LH-WELSH-02353",
+      "original_index": 2353,
+      "language": "welsh",
+      "form": "ansero؛",
+      "branch_meaning": "nonzero",
+      "researcher_meaning": "nonzero",
+      "branch_lexicon": {
+        "file": "data/branch-lexicons/welsh.json",
+        "path": "هيكلٌ مطابق",
+        "entries": [
+          {
+            "word": "ansero",
+            "read": "",
+            "pos": "adj",
+            "en": "nonzero",
+            "etym": "Calque of English nonzero. By surface analysis, an- + sero."
+          }
+        ],
+        "selected_index": 0,
+        "selected": {
+          "word": "ansero",
+          "read": "",
+          "pos": "adj",
+          "en": "nonzero",
+          "etym": "Calque of English nonzero. By surface analysis, an- + sero."
+        },
+        "selection_note": "اختيرت بالمعنى والاشتقاق الموافقين لسياق الصف",
+        "dictionary_meaning": "nonzero",
+        "researcher_meaning": "nonzero",
+        "conflict": false,
+        "agreement": true
+      },
+      "published_source": "Calque of English nonzero. By surface analysis, an- + sero.",
+      "fan_script": "latin",
+      "fan_candidates": [
+        {
+          "root": "نسر",
+          "weight": 0.0,
+          "dialect_label": null,
+          "sound": true,
+          "sound_route": "n↔ن=`IDN-03`؛ s↔س=`IDN-07`؛ r↔ر=`IDN-01`",
+          "sound_searches": [
+            "`n` + `ن` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`s` + `س` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`r` + `ر` + «الويلزيّة/Welsh» في عمود الشاهد"
+          ],
+          "event_tier": 1,
+          "event_tier_ar": "جذرٌ في الـ2,285",
+          "event_source": "computational/data/layer_2_results_v2.jsonl",
+          "event_text": "نَزْعُ الغضّ من مكانه شرائح ممتدة دقيقة قليلًا قليلًا",
+          "event_note": "",
+          "meaning": "×",
+          "arabic_lexicon_review": {
+            "command": "python scripts/search_arabic_root_senses.py نسر --max-chars 0",
+            "max_chars": 0,
+            "truncated": false,
+            "witness_count": 15,
+            "sources": [
+              "تاج اللغة وصحاح العربية للجوهري",
+              "المحكم والمحيط الأعظم لابن سيده",
+              "المفردات في غريب القرآن للراغب",
+              "أساس البلاغة للزمخشري",
+              "لسان العرب لابن منظور",
+              "تاج العروس لمرتضى الزبيدي",
+              "المعجم العربي الإنجليزي",
+              "المصباح المنير",
+              "المحيط",
+              "كتاب العين للخليل بن أحمد",
+              "quraan.csv"
+            ],
+            "independent_fan_complete": true,
+            "judgment_ready": true
+          }
+        },
+        {
+          "root": "نسل",
+          "weight": 0.0,
+          "dialect_label": null,
+          "sound": true,
+          "sound_route": "n↔ن=`IDN-03`؛ s↔س=`IDN-07`؛ r↔ل=`LIQ-01`",
+          "sound_searches": [
+            "`n` + `ن` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`s` + `س` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`r` + `ل` + «الويلزيّة/Welsh» في عمود الشاهد"
+          ],
+          "event_tier": 1,
+          "event_tier_ar": "جذرٌ في الـ2,285",
+          "event_source": "computational/data/layer_2_results_v2.jsonl",
+          "event_text": "امتداد الشيء خارجًا – أو متسيبًا - من أصله، أو مقره، بلطف ومفارقة",
+          "event_note": "",
+          "meaning": "×",
+          "arabic_lexicon_review": {
+            "command": "python scripts/search_arabic_root_senses.py نسل --max-chars 0",
+            "max_chars": 0,
+            "truncated": false,
+            "witness_count": 16,
+            "sources": [
+              "تاج اللغة وصحاح العربية للجوهري",
+              "المحكم والمحيط الأعظم لابن سيده",
+              "المفردات في غريب القرآن للراغب",
+              "أساس البلاغة للزمخشري",
+              "لسان العرب لابن منظور",
+              "تاج العروس لمرتضى الزبيدي",
+              "المعجم العربي الإنجليزي",
+              "المصباح المنير",
+              "المحيط",
+              "كتاب العين للخليل بن أحمد",
+              "quraan.csv"
+            ],
+            "independent_fan_complete": true,
+            "judgment_ready": true
+          }
+        },
+        {
+          "root": "نشر",
+          "weight": 0.0,
+          "dialect_label": null,
+          "sound": true,
+          "sound_route": "n↔ن=`IDN-03`؛ s↔ش=`SIB-01`؛ r↔ر=`IDN-01`",
+          "sound_searches": [
+            "`n` + `ن` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`s` + `ش` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`r` + `ر` + «الويلزيّة/Welsh» في عمود الشاهد"
+          ],
+          "event_tier": 1,
+          "event_tier_ar": "جذرٌ في الـ2,285",
+          "event_source": "computational/data/layer_2_results_v2.jsonl",
+          "event_text": "تفرق ببسط وامتدادٍ نُشُوءًا، أو إيقاعًا",
+          "event_note": "",
+          "meaning": "×",
+          "arabic_lexicon_review": {
+            "command": "python scripts/search_arabic_root_senses.py نشر --max-chars 0",
+            "max_chars": 0,
+            "truncated": false,
+            "witness_count": 16,
+            "sources": [
+              "تاج اللغة وصحاح العربية للجوهري",
+              "المحكم والمحيط الأعظم لابن سيده",
+              "المفردات في غريب القرآن للراغب",
+              "أساس البلاغة للزمخشري",
+              "لسان العرب لابن منظور",
+              "تاج العروس لمرتضى الزبيدي",
+              "المعجم العربي الإنجليزي",
+              "AlMaghreb.csv",
+              "المصباح المنير",
+              "المحيط",
+              "كتاب العين للخليل بن أحمد",
+              "quraan.csv"
+            ],
+            "independent_fan_complete": true,
+            "judgment_ready": true
+          }
+        },
+        {
+          "root": "نشل",
+          "weight": 0.0,
+          "dialect_label": null,
+          "sound": true,
+          "sound_route": "n↔ن=`IDN-03`؛ s↔ش=`SIB-01`؛ r↔ل=`LIQ-01`",
+          "sound_searches": [
+            "`n` + `ن` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`s` + `ش` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`r` + `ل` + «الويلزيّة/Welsh» في عمود الشاهد"
+          ],
+          "event_tier": 3,
+          "event_tier_ar": "نزولٌ إلى النواة",
+          "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+          "event_text": "ارتفاع بانتشار مع حدة؛ والحرفُ الثالثُ «ل» حدثُه: تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.",
+          "event_note": "الجذرُ «نشل» ليس في الـ2,285، فنُزِلَ إلى نواتِه «نش» بنصِّ التعديل 2",
+          "meaning": "×",
+          "arabic_lexicon_review": {
+            "command": "python scripts/search_arabic_root_senses.py نشل --max-chars 0",
+            "max_chars": 0,
+            "truncated": false,
+            "witness_count": 13,
+            "sources": [
+              "كتاب العين للخليل بن أحمد",
+              "تاج اللغة وصحاح العربية للجوهري",
+              "المحكم والمحيط الأعظم لابن سيده",
+              "أساس البلاغة للزمخشري",
+              "لسان العرب لابن منظور",
+              "تاج العروس لمرتضى الزبيدي",
+              "المحيط"
+            ],
+            "independent_fan_complete": true,
+            "judgment_ready": true
+          }
+        },
+        {
+          "root": "نصر",
+          "weight": 0.0,
+          "dialect_label": null,
+          "sound": true,
+          "sound_route": "n↔ن=`IDN-03`؛ s↔ص=`SIB-02`؛ r↔ر=`IDN-01`",
+          "sound_searches": [
+            "`n` + `ن` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`s` + `ص` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`r` + `ر` + «الويلزيّة/Welsh» في عمود الشاهد"
+          ],
+          "event_tier": 1,
+          "event_tier_ar": "جذرٌ في الـ2,285",
+          "event_source": "computational/data/layer_2_results_v2.jsonl",
+          "event_text": "الإمداد بما فيه زيادة مناسبة وقوة",
+          "event_note": "",
+          "meaning": "×",
+          "arabic_lexicon_review": {
+            "command": "python scripts/search_arabic_root_senses.py نصر --max-chars 0",
+            "max_chars": 0,
+            "truncated": false,
+            "witness_count": 16,
+            "sources": [
+              "تاج اللغة وصحاح العربية للجوهري",
+              "المحكم والمحيط الأعظم لابن سيده",
+              "المفردات في غريب القرآن للراغب",
+              "أساس البلاغة للزمخشري",
+              "لسان العرب لابن منظور",
+              "تاج العروس لمرتضى الزبيدي",
+              "المعجم العربي الإنجليزي",
+              "AlMaghreb.csv",
+              "المصباح المنير",
+              "المحيط",
+              "كتاب العين للخليل بن أحمد",
+              "quraan.csv"
+            ],
+            "independent_fan_complete": true,
+            "judgment_ready": true
+          }
+        },
+        {
+          "root": "نصل",
+          "weight": 0.0,
+          "dialect_label": null,
+          "sound": true,
+          "sound_route": "n↔ن=`IDN-03`؛ s↔ص=`SIB-02`؛ r↔ل=`LIQ-01`",
+          "sound_searches": [
+            "`n` + `ن` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`s` + `ص` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`r` + `ل` + «الويلزيّة/Welsh» في عمود الشاهد"
+          ],
+          "event_tier": 3,
+          "event_tier_ar": "نزولٌ إلى النواة",
+          "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+          "event_text": "نوع من النفاذ بامتداد مع علو؛ والحرفُ الثالثُ «ل» حدثُه: تَعَلُّقُ طَرَفِ اللِّسانِ بِأَصلِ الثَّنايا التِصاقًا، معَ جَرَيانِ الصَّوتِ المَجهورِ مُنسابًا مُمتَدًّا مِن جانِبَيِ اللِّسانِ، فيَمضي مُستَقِلًّا مُنحَرِفًا لا انفِجارَ فيهِ.",
+          "event_note": "الجذرُ «نصل» ليس في الـ2,285، فنُزِلَ إلى نواتِه «نص» بنصِّ التعديل 2",
+          "meaning": "×",
+          "arabic_lexicon_review": {
+            "command": "python scripts/search_arabic_root_senses.py نصل --max-chars 0",
+            "max_chars": 0,
+            "truncated": false,
+            "witness_count": 16,
+            "sources": [
+              "كتاب العين للخليل بن أحمد",
+              "تاج اللغة وصحاح العربية للجوهري",
+              "المحكم والمحيط الأعظم لابن سيده",
+              "أساس البلاغة للزمخشري",
+              "لسان العرب لابن منظور",
+              "تاج العروس لمرتضى الزبيدي",
+              "المعجم العربي الإنجليزي",
+              "AlMaghreb.csv",
+              "المصباح المنير",
+              "المحيط"
+            ],
+            "independent_fan_complete": true,
+            "judgment_ready": true
+          }
+        },
+        {
+          "root": "نزر",
+          "weight": 0.0,
+          "dialect_label": null,
+          "sound": true,
+          "sound_route": "n↔ن=`IDN-03`؛ s↔ز=`SIB-03`؛ r↔ر=`IDN-01`",
+          "sound_searches": [
+            "`n` + `ن` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`s` + `ز` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`r` + `ر` + «الويلزيّة/Welsh» في عمود الشاهد"
+          ],
+          "event_tier": 3,
+          "event_tier_ar": "نزولٌ إلى النواة",
+          "event_source": "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
+          "event_text": "دقيق الجرم ينفذ بضغط أو قوة من أثناء ظاهر أو فيها؛ والحرفُ الثالثُ «ر» حدثُه: خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.",
+          "event_note": "الجذرُ «نزر» ليس في الـ2,285، فنُزِلَ إلى نواتِه «نز» بنصِّ التعديل 2",
+          "meaning": "×",
+          "arabic_lexicon_review": {
+            "command": "python scripts/search_arabic_root_senses.py نزر --max-chars 0",
+            "max_chars": 0,
+            "truncated": false,
+            "witness_count": 12,
+            "sources": [
+              "تاج اللغة وصحاح العربية للجوهري",
+              "المحكم والمحيط الأعظم لابن سيده",
+              "أساس البلاغة للزمخشري",
+              "لسان العرب لابن منظور",
+              "تاج العروس لمرتضى الزبيدي",
+              "المعجم العربي الإنجليزي",
+              "المصباح المنير",
+              "كتاب العين للخليل بن أحمد"
+            ],
+            "independent_fan_complete": true,
+            "judgment_ready": true
+          }
+        },
+        {
+          "root": "نزل",
+          "weight": 0.0,
+          "dialect_label": null,
+          "sound": true,
+          "sound_route": "n↔ن=`IDN-03`؛ s↔ز=`SIB-03`؛ r↔ل=`LIQ-01`",
+          "sound_searches": [
+            "`n` + `ن` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`s` + `ز` + «الويلزيّة/Welsh» في عمود الشاهد",
+            "`r` + `ل` + «الويلزيّة/Welsh» في عمود الشاهد"
+          ],
+          "event_tier": 1,
+          "event_tier_ar": "جذرٌ في الـ2,285",
+          "event_source": "computational/data/layer_2_results_v2.jsonl",
+          "event_text": "انحدار - أو انفصال وخلوص - إلى مقر أو حيّز يوجد فيه بقوة",
+          "event_note": "",
+          "meaning": "×",
+          "arabic_lexicon_review": {
+            "command": "python scripts/search_arabic_root_senses.py نزل --max-chars 0",
+            "max_chars": 0,
+            "truncated": false,
+            "witness_count": 17,
+            "sources": [
+              "تاج اللغة وصحاح العربية للجوهري",
+              "المحكم والمحيط الأعظم لابن سيده",
+              "المفردات في غريب القرآن للراغب",
+              "أساس البلاغة للزمخشري",
+              "لسان العرب لابن منظور",
+              "تاج العروس لمرتضى الزبيدي",
+              "المعجم العربي الإنجليزي",
+              "AlMaghreb.csv",
+              "المصباح المنير",
+              "المحيط",
+              "كتاب العين للخليل بن أحمد",
+              "quraan.csv"
+            ],
+            "independent_fan_complete": true,
+            "judgment_ready": true
+          }
+        }
+      ],
+      "dialect_additions": 0,
+      "positives": [],
+      "named_closure": {
+        "closure": "SEMITIC-SOURCE-TRANSMISSION",
+        "donor": "العربية صِفْر (ṣifr)، الخلو من المقدار والعدد صفر",
+        "route": "العربية ṣifr ← اللاتينية الوسيطة zephirum ← الإيطالية zero ← الإنجليزية zero ← الويلزية sero، ثم an- + sero في ansero بمعنى nonzero",
+        "evidence": "Merriam-Webster، مادة zero، فقرة Word History؛ ومدخلة قاموس الفرع التي تحلل ansero إلى an- + sero"
+      },
+      "closure": "SEMITIC-SOURCE-TRANSMISSION",
+      "open_reason": "",
+      "arabic_orbit_reassessment": true,
+      "lexicon_reaudit": "not-applicable"
+    }
+  ]
+}

@@ -39,7 +39,12 @@
     },
     "new_cards_by_language": {
       "old-latin": 1
-    }
+    },
+    "baseline_positive_cards_before_branch_dictionary": 0,
+    "converted_after_branch_dictionary_sense": 0,
+    "retained_positive_cards_after_branch_dictionary": 0,
+    "revoked_positive_cards_after_branch_dictionary": 0,
+    "loanword_cards_closed_by_branch_dictionary": 0
   },
   "already_embedded": [
     {
@@ -24503,7 +24508,52 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "gattus",
+            "entries": [
+              {
+                "word": "augites",
+                "read": "",
+                "pos": "noun",
+                "en": "A kind of precious stone, often thought to be turquoise",
+                "etym": "Borrowed from Ancient Greek αὐγῑ́της (augī́tēs, “a precious stone”), probably from αὖγος (aûgos, “morning light, dawn”) + -ῑ́της (-ī́tēs)."
+              },
+              {
+                "word": "gutus",
+                "read": "",
+                "pos": "noun",
+                "en": "jug, flask (narrow-necked)",
+                "etym": "From the same root as gutta."
+              },
+              {
+                "word": "Gates",
+                "read": "",
+                "pos": "name",
+                "en": "A Celtic tribe of Aquitania mentioned by Caesar",
+                "etym": ""
+              },
+              {
+                "word": "guttatus",
+                "read": "",
+                "pos": "adj",
+                "en": "spotted, speckled",
+                "etym": "From guttae (“spots or specks”) + -ātus."
+              },
+              {
+                "word": "Aegates",
+                "read": "",
+                "pos": "name",
+                "en": "Egadi Islands",
+                "etym": "From Ancient Greek [Term?]."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         },
         {
           "form": "gatto",
@@ -26076,7 +26126,101 @@
             }
           ],
           "dialect_additions": 0,
-          "positives": []
+          "positives": [],
+          "branch_lexicon": {
+            "language": "latin",
+            "source": "data/branch-lexicons/latin.json",
+            "lookup_path": "هيكلٌ مطابق",
+            "query": "gatto",
+            "entries": [
+              {
+                "word": "git",
+                "read": "",
+                "pos": "noun",
+                "en": "A plant (Nigella sativa), variously named black cumin, Roman coriander, or melanthion.",
+                "etym": ""
+              },
+              {
+                "word": "agat",
+                "read": "",
+                "pos": "verb",
+                "en": "third-person singular present active subjunctive of agō؛ it is going on, it is taking place, it takes place؛ it is being done, it is being made (continuously)",
+                "etym": ""
+              },
+              {
+                "word": "agito",
+                "read": "",
+                "pos": "verb",
+                "en": "to act, behave, do, or make persistently or unremittingly؛ to put something in motion, drive, impel; drive by rowing, row about; shake, throb؛ to brandish, wield",
+                "etym": "From agō (“do, act, make”) + -itō (frequentative suffix). See actus."
+              },
+              {
+                "word": "gutta",
+                "read": "",
+                "pos": "noun",
+                "en": "a drop (of fluid)؛ a teardrop؛ spots or specks (of an animal or stone)",
+                "etym": "Of unknown origin. May be related to Old Armenian կաթն (katʻn, “milk”), or may have some connection to Proto-Indo-European *ǵʰewd- (“to pour”)."
+              },
+              {
+                "word": "Getae",
+                "read": "",
+                "pos": "name",
+                "en": "A Dacian tribe inhabiting the regions of the lower Danube.",
+                "etym": "From Ancient Greek Γέται (Gétai)."
+              },
+              {
+                "word": "Egeta",
+                "read": "",
+                "pos": "name",
+                "en": "a town of Moesia situated on the river Danube",
+                "etym": ""
+              },
+              {
+                "word": "iugatio",
+                "read": "",
+                "pos": "noun",
+                "en": "a binding؛ a kind of land tax in classical times",
+                "etym": "From iugō (“I bind”) + -tiō."
+              },
+              {
+                "word": "Getta",
+                "read": "",
+                "pos": "name",
+                "en": "a town in Phoenicia, mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "Geta",
+                "read": "",
+                "pos": "name",
+                "en": "A Roman cognomen — famously held by:؛ Geta, a Roman emperor؛ Gnaeus Hosidius Geta, a Roman senator",
+                "etym": ""
+              },
+              {
+                "word": "Giti",
+                "read": "",
+                "pos": "name",
+                "en": "A town of Syrtica mentioned in the Antonine Itinerary",
+                "etym": ""
+              },
+              {
+                "word": "Gattaei",
+                "read": "",
+                "pos": "name",
+                "en": "An Arabian tribe mentioned by Pliny",
+                "etym": ""
+              },
+              {
+                "word": "goetia",
+                "read": "",
+                "pos": "noun",
+                "en": "magic, sorcery, witchcraft",
+                "etym": "From Ancient Greek γοητεία (goēteía, “witchcraft”), from γόης (góēs, “sorceror”)."
+              }
+            ],
+            "selected": null,
+            "selection": "عُرضت جميع الإصابات، ولم يثبت منها مدخل يوافق سياق الصف على وجه يحمل الحكم."
+          }
         }
       ],
       "positives": [],
@@ -27950,12 +28094,26 @@
           "target_kind": "comparative",
           "reason": "exact form or same clearly bounded lexical form-family; appended to the one existing card"
         }
-      ]
+      ],
+      "branch_dictionary_recheck": {
+        "date": "2026-08-14",
+        "tool": "scripts/build_kaikki_index.py",
+        "all_entries_shown": true,
+        "dictionary_precedes_researcher_column": true
+      }
     }
   ],
   "touched_prior_manifests": [
     "khashim-indo-european-batch-003.json",
     "khashim-indo-european-batch-004.json",
     "khashim-indo-european-batch-006.json"
-  ]
+  ],
+  "branch_dictionary": "data/branch-lexicons/ via scripts/build_kaikki_index.py",
+  "branch_dictionary_recheck": {
+    "date": "2026-08-14",
+    "converted": 0,
+    "retained": 0,
+    "revoked": 0,
+    "loanword_closures": 0
+  }
 }

@@ -37,6 +37,7 @@ import json
 import pathlib
 import re
 import sys
+import unicodedata
 from collections import defaultdict
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -124,9 +125,12 @@ def build(lang: str) -> dict:
             })
 
     by_word: dict[str, list[int]] = defaultdict(list)
+    by_read: dict[str, list[int]] = defaultdict(list)
     by_skeleton: dict[str, list[int]] = defaultdict(list)
     for i, e in enumerate(entries):
         by_word[e["word"].lower()].append(i)
+        if e["read"]:
+            by_read[folded_read(e["read"])].append(i)
         for form in (e["word"], e["read"]):
             if not form:
                 continue
@@ -145,11 +149,27 @@ def build(lang: str) -> dict:
                  "في البطاقةِ، فالمؤلّفُ يحلُّ البطاقةَ بقراءتِها جهرًا."),
         "entries": entries,
         "by_word": {k: v for k, v in sorted(by_word.items())},
+        "by_read": {k: v for k, v in sorted(by_read.items())},
         "by_skeleton": {k: v for k, v in sorted(by_skeleton.items())},
     }
 
 
 _CACHE: dict[str, dict] = {}
+_READ_SKELETON_CACHE: dict[str, dict[str, list[int]]] = {}
+
+
+def folded_read(value: str) -> str:
+    """Comparison key for a stored romanization.
+
+    Kaikki keeps accents in readings (``síkera``), while the harvested source
+    often prints the same reading without them (``sikera``).  Folding only the
+    romanization preserves the dictionary headword and merely makes that
+    already-stored reading searchable.
+    """
+    return "".join(
+        ch for ch in unicodedata.normalize("NFKD", value.strip().casefold())
+        if not unicodedata.combining(ch)
+    )
 
 
 def lexicon(lang: str) -> dict:
@@ -157,6 +177,24 @@ def lexicon(lang: str) -> dict:
         path = OUTDIR / f"{lang}.json"
         _CACHE[lang] = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
     return _CACHE[lang]
+
+
+def read_skeleton_index(lang: str, lex: dict) -> dict[str, list[int]]:
+    """Index stored Latin-script readings once per loaded lexicon."""
+    if lang not in _READ_SKELETON_CACHE:
+        by_skeleton: dict[str, list[int]] = defaultdict(list)
+        for i, entry in enumerate(lex["entries"]):
+            read = entry.get("read") or ""
+            if not read:
+                continue
+            try:
+                key = "".join(FAN.skeleton(read, "latin"))
+            except Exception:
+                continue
+            if key:
+                by_skeleton[key].append(i)
+        _READ_SKELETON_CACHE[lang] = dict(by_skeleton)
+    return _READ_SKELETON_CACHE[lang]
 
 
 def look(lang: str, form: str, limit: int | None = None) -> tuple[list[dict], str]:
@@ -174,6 +212,21 @@ def look(lang: str, form: str, limit: int | None = None) -> tuple[list[dict], st
     idx = lex["by_word"].get(form.strip().lower(), [])
     if idx:
         return clipped([lex["entries"][i] for i in idx]), "الصورةُ بنصِّها"
+
+    # The romanization is part of the branch dictionary and must be searchable.
+    # Prefer the built `by_read` table; fall back to a scan for payloads built
+    # before that table existed, so an older file still answers instead of
+    # silently requiring a rebuild. The scan is O(entries) per miss, and a miss
+    # is the common case, so it must stay the fallback and never the path.
+    read_key = folded_read(form)
+    reads = lex.get("by_read")
+    if reads is None:                     # ملفٌّ بُنِيَ قبلَ وجودِ الجدول
+        read_hits = [e for e in lex["entries"]
+                     if e.get("read") and folded_read(e["read"]) == read_key]
+    else:
+        read_hits = [lex["entries"][i] for i in reads.get(read_key, [])]
+    if read_hits:
+        return clipped(read_hits), "الصورةُ بنصِّها"
     try:
         key = "".join(FAN.skeleton(form, lex["script"]))
     except Exception:
@@ -181,6 +234,18 @@ def look(lang: str, form: str, limit: int | None = None) -> tuple[list[dict], st
     idx = lex["by_skeleton"].get(key, []) if key else []
     if idx:
         return clipped([lex["entries"][i] for i in idx]), "هيكلٌ مطابق"
+
+    # Greek and northern-script lexicons store their readings in Latin script.
+    # Search that reading with the Latin skeleton when the source gives a
+    # romanized form; this is a search path, not a sound claim.
+    try:
+        latin_key = "".join(FAN.skeleton(form, "latin"))
+    except Exception:
+        latin_key = ""
+    if latin_key:
+        idx = read_skeleton_index(lang, lex).get(latin_key, [])
+        if idx:
+            return clipped([lex["entries"][i] for i in idx]), "هيكلٌ مطابق"
     return [], "لا مدخل"
 
 

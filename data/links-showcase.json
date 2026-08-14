@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 2220,
-  "nucleus": 1269,
+  "root": 2251,
+  "nucleus": 1277,
   "languages": 16
  },
  "languages": [
@@ -477,8 +477,8 @@
    "ar": "المصريّة القديمة",
    "en": "Ancient Egyptian",
    "distance": 2,
-   "root": 108,
-   "nucleus": 189,
+   "root": 112,
+   "nucleus": 192,
    "floor": 1,
    "examples": [
     {
@@ -562,8 +562,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 297,
-   "nucleus_share": 63.6
+   "total": 304,
+   "nucleus_share": 63.2
   },
   {
    "key": "coptic",
@@ -663,8 +663,8 @@
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
    "distance": 3,
-   "root": 106,
-   "nucleus": 32,
+   "root": 104,
+   "nucleus": 33,
    "floor": 1,
    "examples": [
     {
@@ -748,15 +748,15 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 138,
-   "nucleus_share": 23.2
+   "total": 137,
+   "nucleus_share": 24.1
   },
   {
    "key": "ancient-greek",
    "ar": "اليونانيّة القديمة",
    "en": "Ancient Greek",
    "distance": 3,
-   "root": 19,
+   "root": 17,
    "nucleus": 9,
    "floor": 0,
    "examples": [
@@ -841,8 +841,8 @@
      "degree": "ROOT-TRACE"
     }
    ],
-   "total": 28,
-   "nucleus_share": 32.1
+   "total": 26,
+   "nucleus_share": 34.6
   },
   {
    "key": "persian",
@@ -1005,7 +1005,7 @@
    "ar": "الإنجليزيّة الوسطى",
    "en": "Middle English",
    "distance": 4,
-   "root": 49,
+   "root": 53,
    "nucleus": 20,
    "floor": 0,
    "examples": [
@@ -1080,16 +1080,79 @@
      "degree": "ROOT-ECHO"
     }
    ],
-   "total": 69,
-   "nucleus_share": 29.0
+   "total": 73,
+   "nucleus_share": 27.4
+  },
+  {
+   "key": "welsh",
+   "ar": "الويلزيّة",
+   "en": "Welsh",
+   "distance": 4,
+   "root": 35,
+   "nucleus": 5,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "hen",
+     "say": "",
+     "sense": "old, aged; ancient",
+     "arabic": "سن",
+     "quote": "وأسن الرجل: كبر",
+     "lexicon": "المحكم",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "caer",
+     "say": "",
+     "sense": "fort, fortress, fortified town; wall, rampart",
+     "arabic": "قر",
+     "quote": "أقره في مكانه فاستقر",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE"
+    },
+    {
+     "word": "mwg",
+     "say": "",
+     "sense": "smoke",
+     "arabic": "موج",
+     "quote": "حركة واضطراب للمائع في حيزه مع انتباره من كثافة تجمعه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE"
+    },
+    {
+     "word": "Welsh",
+     "say": "",
+     "sense": "البحر",
+     "arabic": "مور",
+     "quote": "المور الموج",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
+    },
+    {
+     "word": "blith",
+     "say": "",
+     "sense": "milk, dairy produce; lactation; dairying",
+     "arabic": "ملح",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-ECHO"
+    }
+   ],
+   "total": 40,
+   "nucleus_share": 12.5
   },
   {
    "key": "old-norse",
    "ar": "النُّرديّة القديمة",
    "en": "Old Norse",
    "distance": 4,
-   "root": 24,
-   "nucleus": 11,
+   "root": 22,
+   "nucleus": 13,
    "floor": 0,
    "examples": [
     {
@@ -1174,7 +1237,7 @@
     }
    ],
    "total": 35,
-   "nucleus_share": 31.4
+   "nucleus_share": 37.1
   },
   {
    "key": "old-irish",
@@ -1361,69 +1424,6 @@
    ],
    "total": 24,
    "nucleus_share": 41.7
-  },
-  {
-   "key": "welsh",
-   "ar": "الويلزيّة",
-   "en": "Welsh",
-   "distance": 4,
-   "root": 6,
-   "nucleus": 3,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "hen",
-     "say": "",
-     "sense": "old, aged; ancient",
-     "arabic": "سن",
-     "quote": "وأسن الرجل: كبر",
-     "lexicon": "المحكم",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "caer",
-     "say": "",
-     "sense": "fort, fortress, fortified town; wall, rampart",
-     "arabic": "قر",
-     "quote": "أقره في مكانه فاستقر",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE"
-    },
-    {
-     "word": "mwg",
-     "say": "",
-     "sense": "smoke",
-     "arabic": "موج",
-     "quote": "حركة واضطراب للمائع في حيزه مع انتباره من كثافة تجمعه",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE"
-    },
-    {
-     "word": "Welsh",
-     "say": "",
-     "sense": "البحر",
-     "arabic": "مور",
-     "quote": "المور الموج",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-ECHO"
-    },
-    {
-     "word": "blith",
-     "say": "",
-     "sense": "milk, dairy produce; lactation; dairying",
-     "arabic": "ملح",
-     "quote": "",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-ECHO"
-    }
-   ],
-   "total": 9,
-   "nucleus_share": 33.3
   }
  ]
 }
