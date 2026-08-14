@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 43980,
+ "cards_total": 44019,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -17368,6 +17368,18 @@
    "closure": "OPEN-CANDIDATE",
    "gaps": [
     "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/akkadian.md",
+   "card": "naṣāru «يحرس ويحمي» ↔ نصر، مع تعليق نظر",
+   "verdict": "ROOT-TRACE مع `نصر`؛ غير صادر مع `نظر`.",
+   "closure": "ROOT-TRACE مع `نصر`؛ LAW-GAP مع `نظر`.",
+   "gaps": [
+    "LAW-GAP"
    ],
    "blocker_type": "",
    "required": "",

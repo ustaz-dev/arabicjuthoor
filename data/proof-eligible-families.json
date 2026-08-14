@@ -29,7 +29,7 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "3e1d4a6001b0610390f10ed1d9a878b1ada1a862a2760525f0a1fd53f7af0c86"
+    "sha256": "17304f62436aebabc341ce65e9426eeb0d54c8c353768b52804cdcda85962de3"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
@@ -86,8 +86,8 @@
    "block_reconciliation": {
     "ambiguous-stale-heading": 5,
     "current-heading": 744,
-    "stable-entry-reconciled": 248,
-    "unmapped-stale-heading": 12
+    "stable-entry-reconciled": 249,
+    "unmapped-stale-heading": 26
    },
    "eligible_family_ids": [
     "aramaic:family:0263fb19382f883fbc93197a",
@@ -4854,6 +4854,76 @@
      "line": 31092,
      "heading": "### بطاقة: `יתב` «جلس، أقام» ↔ وثب الحميرية «جلس»",
      "reason": "ambiguous-stale-heading"
+    },
+    {
+     "line": 32913,
+     "heading": "### بطاقة: כפר `kp̄ar` «deny; wipe out» ↔ كفر",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 32924,
+     "heading": "### بطاقة: עוד `ʿōd` «to accustom, habituate» ↔ عود",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 32935,
+     "heading": "### بطاقة: צום `ṣōm` «to fast, abstain» ↔ صوم",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 32946,
+     "heading": "### بطاقة: נצב `nəṣab` «to plant» ↔ نصب",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 32957,
+     "heading": "### بطاقة: תור `tawr` «bull, ox» ↔ ثور",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 32968,
+     "heading": "### بطاقة: עמר `ʿmar` «to dwell, inhabit» ↔ عمر",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 32979,
+     "heading": "### بطاقة: זמרא `zimrā` «singing, music» ↔ زمر",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 32990,
+     "heading": "### بطاقة: כוכבא `kawkbā’` «star» ↔ كوكب",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 33001,
+     "heading": "### بطاقة: תדא `tdā/ṯdʾ` «breast, pap» ↔ ثدي عند النواة",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 33012,
+     "heading": "### بطاقة: כלבתא `kalbtā` «dog, bitch» ↔ كلب",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 33023,
+     "heading": "### بطاقة: פלג وפלגא `plag/plaggā` «divide; half» ↔ فلج",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 33034,
+     "heading": "### بطاقة: פתחא `petḥā` «opening, gate» ↔ فتح",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 33045,
+     "heading": "### بطاقة: תגר `taggar` «to trade» ↔ تجر",
+     "reason": "unmapped-stale-heading"
+    },
+    {
+     "line": 33056,
+     "heading": "### بطاقة: גינתא `gīnəṯā` «garden» ↔ جنن",
+     "reason": "unmapped-stale-heading"
     }
    ]
   },
