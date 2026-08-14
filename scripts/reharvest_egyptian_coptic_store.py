@@ -86,6 +86,26 @@ AED_SELECTIONS: dict[int, str] = {
     523: "103060", 524: "103060", 525: "103060", 526: "103060",
     527: "103060", 528: "103060", 529: "103060", 530: "103060",
     531: "103060", 532: "103060",             # ḥwn, childhood; youth
+    604: "167210",                             # gmi̯, to find; discover
+    606: "89630",                              # ngi̯, to break open
+    608: "62180",                              # psi̯, cook; bake; heat
+    610: "45640",                              # wpi̯, divide; open; judge
+    617: "130150",                             # swn, recognize
+    621: "90690", 622: "90690",              # ndj, to fell
+    625: "72470",                              # mri̯, love; wish
+    626: "28800",                              # wdf, delay
+    628: "139770",                             # srq, open; make inhale
+    631: "131940",                             # sbḫ, enclose with the arms
+    632: "64320",                              # fdq, sever; hack into pieces
+    638: "111230",                             # ḥtp, content; set of sun
+    640: "46660", 641: "46660",              # wnf, glad; rejoice
+    642: "49530", 643: "49530", 644: "49530", 645: "49530", # idleness
+    653: "32240",                              # jqr, excellent; trustworthy
+    659: "138670",                             # snṯr, incense
+    685: "109110",                             # ḥrr.t, flower
+    687: "85020", 688: "85020",              # nr, herdsman; protector
+    692: "179910", 693: "179910", 694: "179910", # dns, heavy; burdensome
+    700: "55150",                              # bw.t, abomination
 }
 
 BASELINE_POSITIVE_ORDINALS = {1, 2, 41}
@@ -189,6 +209,12 @@ MANUAL_NEW: dict[tuple[int, str], tuple[str, str]] = {
         "ROOT-TRACE",
         "مدار الحالة العمرية: `to be a child` بقاء على أصل الفطرة قبل "
         "الاستعمال والتجربة؛ وهذا هو حدث `خرد` المجمّد.",
+    ),
+    (632, "فضق"): (
+        "ROOT-TRACE",
+        "مدار الفعل المادي: `to sever; to hack into pieces` قطع يفرّق الجسم "
+        "بضربات قوية إلى أجزاء، والحدث المجمّد لـ`فضق` هو «الكسر والتفريق "
+        "بقوة وغلظ»؛ فالمعنيان يقعان على التفريق القسري نفسه.",
     ),
 }
 

@@ -48,6 +48,9 @@ OUT = ROOT / "data" / "khashim-pairs.json"
 SHEET = ROOT / "04-cross-linguistic" / "exploration" / "khashim-harvest.md"
 EGYPTIAN_OCR_RECOVERIES = ROOT / "data" / "khashim-egyptian-ocr-recoveries.json"
 COPTIC_OCR_RECOVERIES = ROOT / "data" / "khashim-coptic-ocr-recoveries.json"
+LATIN_OFFICIAL_OCR_RECOVERIES = (
+    ROOT / "data" / "khashim-latin-official-ocr-recoveries.json"
+)
 
 BOOKS = {
     "khashim-akkadian": ("الأكّاديّة", "akkadian"),
@@ -615,6 +618,61 @@ def apply_coptic_ocr_recoveries(rows: list[dict]) -> tuple[list[dict], dict[str,
             "matched_source": payload["new_source"],
         }
         repaired.append(row)
+    return repaired, {"rows": len(by_index), "fields": len(by_index)}
+
+
+def apply_latin_official_ocr_recoveries(
+    rows: list[dict],
+) -> tuple[list[dict], dict[str, int]]:
+    """طبّق رؤوس اللاتينية الباقية من المسح الرسمي مع حارس legacy."""
+    if not LATIN_OFFICIAL_OCR_RECOVERIES.exists():
+        return [dict(row) for row in rows], {"rows": 0, "fields": 0}
+    payload = json.loads(LATIN_OFFICIAL_OCR_RECOVERIES.read_text(encoding="utf-8"))
+    if payload.get("schema") != "khashim-latin-official-ocr-recovery-v1":
+        raise SystemExit("مخطط استرداد المسح الرسمي للاتينية غير معروف")
+    positions = [
+        index for index, row in enumerate(rows)
+        if row.get("source") == "khashim-latin"
+    ]
+    if len(positions) != payload.get("old_rows"):
+        raise SystemExit(
+            f"تغير مقام تطبيق استرداد اللاتينية الرسمي: "
+            f"{len(positions)} != {payload.get('old_rows')}"
+        )
+    by_index = {int(item["source_index"]): item for item in payload["recoveries"]}
+    if len(by_index) != len(payload["recoveries"]):
+        raise SystemExit("تكرر فهرس في Overlay استرداد اللاتينية الرسمي")
+
+    repaired = [dict(row) for row in rows]
+    for source_index, recovery in by_index.items():
+        if source_index < 0 or source_index >= len(positions):
+            raise SystemExit(f"فهرس لاتيني رسمي خارج المقام: {source_index}")
+        position = positions[source_index]
+        row = dict(repaired[position])
+        fields = recovery.get("fields") or {}
+        if set(fields) != {"foreign"}:
+            raise SystemExit(f"حقل استرداد لاتيني غير مأذون في الفهرس {source_index}")
+        change = fields["foreign"]
+        if row.get("foreign", "") != change["legacy"]:
+            raise SystemExit(
+                f"تغير legacy اللاتينية {source_index}/foreign: "
+                f"{row.get('foreign', '')!r} != {change['legacy']!r}"
+            )
+        legacy = dict(row.get("legacy") or {})
+        legacy["foreign"] = change["legacy"]
+        row["foreign"] = change["recovered"]
+        row["legacy"] = legacy
+        row["ocr_recovery"] = {
+            "schema": payload["schema"],
+            "fields": fields,
+            "registered_scan_reasons": recovery["registered_scan_reasons"],
+            "old_location": recovery["old_location"],
+            "new_location": recovery["new_location"],
+            "matched_new_row": recovery["matched_new_row"],
+            "alignment_evidence": recovery["alignment_evidence"],
+            "matched_source": payload["new_source"],
+        }
+        repaired[position] = row
     return repaired, {"rows": len(by_index), "fields": len(by_index)}
 
 
@@ -1683,6 +1741,7 @@ def main() -> int:
 
     rows: list[dict] = []
     coptic_recovery = {"rows": 0, "fields": 0}
+    latin_official_recovery = {"rows": 0, "fields": 0}
     ember_lines: list[dict] = []
     quran_commentaries: list[dict] = []
     philosophy_power_essay: dict = {}
@@ -1800,6 +1859,12 @@ def main() -> int:
             print(f"  {stem:24}{len(got):>8}")
 
     rows, latin_recovery = recover_latin_heads(rows)
+    rows, latin_official_recovery = apply_latin_official_ocr_recoveries(rows)
+    if latin_official_recovery["rows"]:
+        print(
+            f"  {'khashim-latin-official':24}{latin_official_recovery['rows']:>8}   "
+            f"(استرداد رسمي={latin_official_recovery['fields']} حقلًا)"
+        )
 
     OUT.write_text(json.dumps({
         "generated_by": "scripts/harvest_khashim.py",
@@ -1811,6 +1876,7 @@ def main() -> int:
                  "عربيٌّ فقط فسقطَ الحرفُ الأصليُّ، وهو نقصٌ مسمًّى يُسَدُّ بمسحٍ ثانٍ."),
         "pairs": len(rows),
         "latin_head_recovery": latin_recovery,
+        "latin_official_ocr_recovery": latin_official_recovery,
         "coptic_ocr_recovery": coptic_recovery,
         "egyptian_ocr_recovery": egyptian_recovery,
         "additional_attributed_inventories": {

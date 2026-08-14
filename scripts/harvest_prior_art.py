@@ -153,6 +153,8 @@ FAILED_SOURCES = [
      "انقطع اتصالُ TLS؛ واستُبدل بمسارِ HTTP المباشرِ الصالحِ من ناشرِ المجلّة"),
     ("jassem-2013-body-parts-bretj-157", "http://bretj.com/bretj/journals/download_paper/157",
      "استُعيدَ PDF رسميٌّ من 21 صفحةً من لقطة Common Crawl المؤرَّخة 2014-03-09، لكنّه بحثُ Monireh TaghiPour Masoumei وزملائها في خطابِ معلّمي EFL، لا بحثُ جاسم في أعضاءِ الجسم"),
+    ("jassem-2016-vocabulary-learning-teaching-pinba-x-malang", "https://repository.uin-malang.ac.id/4808/1/02%20Proseding%20IMLA%202016_Halimi%20Zuhdy.pdf",
+     "يُثبتُ فهرسُ المؤتمر في الملفِّ عنوانَ بحثِ جاسم وصفحاتِه 50–70، لكنّ التنزيلَ ذو 28 صفحةً لا يحملُ متنَه؛ إنّما يحملُ مقدّماتِ المؤتمر ثمّ بحثَ حليمي زهدي «التناص ومقاربة النص» ابتداءً من الصفحةِ المطبوعةِ 1305"),
 ]
 
 UA = {"User-Agent": "Mozilla/5.0 (research harvest; contact via arabicjuthoor.com)"}

@@ -99,6 +99,7 @@
 | jassem-2018-demonstratives-wrong-galley | [الرابط](https://journal.uinjkt.ac.id/index.php/arabiyat/article/download/8936/6230) | ردّ رقمُ الملحقِ المخمَّن 404؛ واستُبدل بمسارِ PDF المسمّى الصالح |
 | jassem-2014-colour-art-https | [الرابط](https://www.ijelr.in/Vol.%20Issue.12014/Zaidan%201-18.pdf) | انقطع اتصالُ TLS؛ واستُبدل بمسارِ HTTP المباشرِ الصالحِ من ناشرِ المجلّة |
 | jassem-2013-body-parts-bretj-157 | [الرابط](http://bretj.com/bretj/journals/download_paper/157) | استُعيدَ PDF رسميٌّ من 21 صفحةً من لقطة Common Crawl المؤرَّخة 2014-03-09، لكنّه بحثُ Monireh TaghiPour Masoumei وزملائها في خطابِ معلّمي EFL، لا بحثُ جاسم في أعضاءِ الجسم |
+| jassem-2016-vocabulary-learning-teaching-pinba-x-malang | [الرابط](https://repository.uin-malang.ac.id/4808/1/02%20Proseding%20IMLA%202016_Halimi%20Zuhdy.pdf) | يُثبتُ فهرسُ المؤتمر في الملفِّ عنوانَ بحثِ جاسم وصفحاتِه 50–70، لكنّ التنزيلَ ذو 28 صفحةً لا يحملُ متنَه؛ إنّما يحملُ مقدّماتِ المؤتمر ثمّ بحثَ حليمي زهدي «التناص ومقاربة النص» ابتداءً من الصفحةِ المطبوعةِ 1305 |
 
 ## الأَزواجُ المَحصودة
 

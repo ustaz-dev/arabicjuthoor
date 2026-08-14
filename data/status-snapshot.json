@@ -4,8 +4,19 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 52922,
+  "cards_total": 53072,
   "by_language": [
+   {
+    "key": "egyptian",
+    "en": "Egyptian",
+    "ar": "المصريّة القديمة",
+    "cards": 9510,
+    "links": 310,
+    "root": 117,
+    "nucleus": 192,
+    "floor": 1,
+    "nucleus_share": 62.1
+   },
    {
     "key": "old-latin",
     "en": "Old Latin",
@@ -16,17 +27,6 @@
     "nucleus": 33,
     "floor": 1,
     "nucleus_share": 23.4
-   },
-   {
-    "key": "egyptian",
-    "en": "Egyptian",
-    "ar": "المصريّة القديمة",
-    "cards": 9360,
-    "links": 309,
-    "root": 116,
-    "nucleus": 192,
-    "floor": 1,
-    "nucleus_share": 62.3
    },
    {
     "key": "persian",
@@ -144,10 +144,10 @@
     "ar": "النورديّة القديمة",
     "cards": 557,
     "links": 38,
-    "root": 23,
-    "nucleus": 15,
+    "root": 24,
+    "nucleus": 14,
     "floor": 0,
-    "nucleus_share": 39.5
+    "nucleus_share": 36.8
    },
    {
     "key": "gothic",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3547,
+  "links_to_arabic": 3548,
   "closures": 1014,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1896,
+    "count": 1898,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 945,
+    "count": 944,
     "link": true
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 43313,
-  "suspended": 33260,
-  "released": 10053,
+  "cards_total": 43463,
+  "suspended": 33409,
+  "released": 10054,
   "blockers": [
    {
     "name": "UNLABELLED",
@@ -271,7 +271,7 @@
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 13563
+    "count": 13712
    },
    {
     "name": "LAW-GAP",
@@ -301,7 +301,7 @@
   "backlog_by_file": [
    {
     "file": "egyptian.md",
-    "count": 8885
+    "count": 9034
    },
    {
     "file": "old-latin.md",
