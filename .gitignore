@@ -57,3 +57,13 @@ Data raw/coverage/
 04-cross-linguistic/data/lane_*_inventory.jsonl
 04-cross-linguistic/data/lane_c_nucleus_reread_ranked.json
 04-cross-linguistic/data/lane_c_ie_week2_members.json
+
+# ملفّاتُ الكتابةِ الذرّيّةِ للمسارات. دخلَ واحدٌ منها التتبُّعَ بـ609 ميجا
+# لأنّ الإيداعَ شاملٌ بـ، فيُستثنى نمطُها كلُّه.
+*.md.*.tmp
+*.jsonl.*.tmp
+*.json.*.tmp
+
+# سجلُّ استدعاءِ الحصادِ: نصُّ المعاجمِ منسوخًا بأمرِ توليدِه في كلِّ سطر
+# (271 ميجا). يبقى على القرصِ ولا يدخلُ المستودع.
+data/*root-witnesses*.jsonl

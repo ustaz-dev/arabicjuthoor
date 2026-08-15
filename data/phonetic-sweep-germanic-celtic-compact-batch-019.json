@@ -1,0 +1,5693 @@
+{
+  "schema": "phonetic-sweep-germanic-celtic-compact-cards-v1",
+  "date": "2026-08-15",
+  "batch": 19,
+  "batch_size": 150,
+  "total_batches": 19,
+  "global_start": 2701,
+  "global_end": 2816,
+  "control": {
+    "baseline": "1281ac5",
+    "cards": 24,
+    "a_minus_b_empty": true
+  },
+  "max_card_bytes": 5120,
+  "counts": {
+    "cards": 116,
+    "by_phase": {
+      "sound-only": 116
+    },
+    "by_language": {
+      "gothic": 116
+    },
+    "by_status": {
+      "open-candidate": 113,
+      "protected-live-reference": 3
+    },
+    "largest_card_bytes": 3508
+  },
+  "cards": [
+    {
+      "id": "PS-GC-C-GOTHIC-02701",
+      "global_rank": 2701,
+      "source_rank": 368,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌰𐌽𐍃",
+      "romanization": "wans",
+      "script": "gothic",
+      "gloss": "lacking, missing, void",
+      "root": "ونش",
+      "fan_count": 4,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "ونش": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌰𐌽𐍃",
+        "read": "wans",
+        "pos": "adj",
+        "meaning": "lacking, missing, void"
+      },
+      "arabic_witness_count": 3,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «lacking, missing, void» بمادة `ونش` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2304
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02702",
+      "global_rank": 2702,
+      "source_rank": 369,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌰𐌽",
+      "romanization": "wan",
+      "script": "gothic",
+      "gloss": "deficiency, lack",
+      "root": "ونن",
+      "fan_count": 9,
+      "fan_position": 2,
+      "fan_weight": 0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "ونن": [
+          3,
+          4
+        ],
+        "وين": [
+          4
+        ],
+        "وني": [
+          3,
+          4
+        ],
+        "يون": [
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌰𐌽",
+        "read": "wan",
+        "pos": "noun",
+        "meaning": "deficiency, lack"
+      },
+      "arabic_witness_count": 7,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «deficiency, lack» بمادة `ونن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2479
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02703",
+      "global_rank": 2703,
+      "source_rank": 370,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍆𐌰𐍂𐌰𐌽",
+      "romanization": "faran",
+      "script": "gothic",
+      "gloss": "to go, to travel",
+      "root": "فرن",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "فرن": [
+          3,
+          4
+        ],
+        "فلن": [
+          1,
+          3,
+          4
+        ],
+        "برن": [
+          3,
+          4
+        ],
+        "بلن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍆𐌰𐍂𐌰𐌽",
+        "read": "faran",
+        "pos": "verb",
+        "meaning": "to go, to travel"
+      },
+      "arabic_witness_count": 12,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to go, to travel» بمادة `فرن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": true,
+      "status": "protected-live-reference",
+      "card_bytes": 2783
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02704",
+      "global_rank": 2704,
+      "source_rank": 371,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍆𐌰𐍂𐌾𐌰𐌽",
+      "romanization": "farjan",
+      "script": "gothic",
+      "gloss": "to sail, row",
+      "root": "فرجن",
+      "fan_count": 8,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "فرجن": [
+          3,
+          4
+        ],
+        "برجن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍆𐌰𐍂𐌾𐌰𐌽",
+        "read": "farjan",
+        "pos": "verb",
+        "meaning": "to sail, row"
+      },
+      "arabic_witness_count": 9,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to sail, row» بمادة `فرجن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2169
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02705",
+      "global_rank": 2705,
+      "source_rank": 372,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐍄𐍅𐍉",
+      "romanization": "gatwo",
+      "script": "gothic",
+      "gloss": "street",
+      "root": "جتو",
+      "fan_count": 9,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "جتو": [
+          4
+        ],
+        "جثو": [
+          1,
+          3,
+          4
+        ],
+        "غتو": [
+          4
+        ],
+        "غطو": [
+          1,
+          3,
+          4
+        ],
+        "غثو": [
+          1,
+          3,
+          4
+        ],
+        "قتو": [
+          3,
+          4
+        ],
+        "قطو": [
+          3,
+          4
+        ],
+        "قثو": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐍄𐍅𐍉",
+        "read": "gatwō",
+        "pos": "noun",
+        "meaning": "street"
+      },
+      "arabic_witness_count": 1,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «street» بمادة `جتو` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3138
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02706",
+      "global_rank": 2706,
+      "source_rank": 373,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌽𐌹𐌳𐍅𐌰",
+      "romanization": "nidwa",
+      "script": "gothic",
+      "gloss": "rust, corrosion (the act of corroding)",
+      "root": "ندو",
+      "fan_count": 3,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "ندو": [
+          1,
+          3,
+          4
+        ],
+        "نضو": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌽𐌹𐌳𐍅𐌰",
+        "read": "nidwa",
+        "pos": "noun",
+        "meaning": "rust, corrosion (the act of corroding)"
+      },
+      "arabic_witness_count": 5,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «rust, corrosion (the act of corroding)» بمادة `ندو` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2654
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02707",
+      "global_rank": 2707,
+      "source_rank": 374,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌻𐌹𐌿𐌳𐌰𐌽",
+      "romanization": "liudan",
+      "script": "gothic",
+      "gloss": "to grow",
+      "root": "لدن",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "لدن": [
+          1,
+          3,
+          4
+        ],
+        "لذن": [
+          3,
+          4
+        ],
+        "ردن": [
+          3,
+          4
+        ],
+        "رضن": [
+          3,
+          4
+        ],
+        "رذن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌻𐌹𐌿𐌳𐌰𐌽",
+        "read": "liudan",
+        "pos": "verb",
+        "meaning": "to grow"
+      },
+      "arabic_witness_count": 15,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to grow» بمادة `لدن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2428
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02708",
+      "global_rank": 2708,
+      "source_rank": 375,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌻𐌿𐍄𐍉𐌽",
+      "romanization": "luton",
+      "script": "gothic",
+      "gloss": "to deceive",
+      "root": "لتن",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 6,
+      "all_candidate_event_tiers": {
+        "لتن": [
+          3,
+          4
+        ],
+        "لطن": [
+          3,
+          4
+        ],
+        "لثن": [
+          4
+        ],
+        "رتن": [
+          3,
+          4
+        ],
+        "رطن": [
+          3,
+          4
+        ],
+        "رثن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌻𐌿𐍄𐍉𐌽",
+        "read": "lutōn",
+        "pos": "verb",
+        "meaning": "to deceive"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to deceive» بمادة `لتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2799
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02709",
+      "global_rank": 2709,
+      "source_rank": 376,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌹𐌿𐌺𐌰𐌽",
+      "romanization": "siukan",
+      "script": "gothic",
+      "gloss": "to be sick",
+      "root": "سكن",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 6,
+      "all_candidate_event_tiers": {
+        "سكن": [
+          1,
+          3,
+          4
+        ],
+        "سقن": [
+          3,
+          4
+        ],
+        "شكن": [
+          3,
+          4
+        ],
+        "شقن": [
+          3,
+          4
+        ],
+        "زكن": [
+          3,
+          4
+        ],
+        "زقن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌹𐌿𐌺𐌰𐌽",
+        "read": "siukan",
+        "pos": "verb",
+        "meaning": "to be sick"
+      },
+      "arabic_witness_count": 13,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to be sick» بمادة `سكن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": true,
+      "status": "protected-live-reference",
+      "card_bytes": 2457
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02710",
+      "global_rank": 2710,
+      "source_rank": 377,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌷𐍂𐌰𐌹𐌽𐌴𐌹",
+      "romanization": "hrainei",
+      "script": "gothic",
+      "gloss": "purity",
+      "root": "هرن",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "هرن": [
+          3,
+          4
+        ],
+        "هلن": [
+          3,
+          4
+        ],
+        "حرن": [
+          3,
+          4
+        ],
+        "حلن": [
+          3,
+          4
+        ],
+        "خرن": [
+          3,
+          4
+        ],
+        "خلن": [
+          3,
+          4
+        ],
+        "غرن": [
+          3,
+          4
+        ],
+        "غلن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌷𐍂𐌰𐌹𐌽𐌴𐌹",
+        "read": "hrainei",
+        "pos": "noun",
+        "meaning": "purity"
+      },
+      "arabic_witness_count": 10,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «purity» بمادة `هرن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2815
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02711",
+      "global_rank": 2711,
+      "source_rank": 378,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌹𐍂𐌽𐌴𐌹",
+      "romanization": "gairnei",
+      "script": "gothic",
+      "gloss": "desire, longing",
+      "root": "جرن",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 6,
+      "all_candidate_event_tiers": {
+        "جرن": [
+          3,
+          4
+        ],
+        "جلن": [
+          3,
+          4
+        ],
+        "غرن": [
+          3,
+          4
+        ],
+        "غلن": [
+          3,
+          4
+        ],
+        "قرن": [
+          1,
+          3,
+          4
+        ],
+        "قلن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌹𐍂𐌽𐌴𐌹",
+        "read": "gairnei",
+        "pos": "noun",
+        "meaning": "desire, longing"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «desire, longing» بمادة `جرن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2856
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02712",
+      "global_rank": 2712,
+      "source_rank": 379,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌹𐌳𐍉𐌽",
+      "romanization": "sidon",
+      "script": "gothic",
+      "gloss": "to practice, meditate",
+      "root": "سدن",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "سدن": [
+          3,
+          4
+        ],
+        "شدن": [
+          3,
+          4
+        ],
+        "شذن": [
+          4
+        ],
+        "صدن": [
+          3,
+          4
+        ],
+        "زذن": [
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌹𐌳𐍉𐌽",
+        "read": "sidōn",
+        "pos": "verb",
+        "meaning": "to practice, meditate"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to practice, meditate» بمادة `سدن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2811
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02713",
+      "global_rank": 2713,
+      "source_rank": 380,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌹𐌱𐌿𐌺𐍃",
+      "romanization": "ibuks",
+      "script": "gothic",
+      "gloss": "backward, back",
+      "root": "بكس",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "بكس": [
+          3,
+          4
+        ],
+        "بكش": [
+          3,
+          4
+        ],
+        "بقس": [
+          3,
+          4
+        ],
+        "بقش": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌹𐌱𐌿𐌺𐍃",
+        "read": "ibuks",
+        "pos": "adj",
+        "meaning": "backward, back"
+      },
+      "arabic_witness_count": 4,
+      "used_witness_source": "لسان العرب لابن منظور",
+      "manual_orbit": "قوبل معنى الفرع «backward, back» بمادة `بكس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها لسان العرب لابن منظور. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2642
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02714",
+      "global_rank": 2714,
+      "source_rank": 381,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌰𐍂𐌼𐌰𐌽",
+      "romanization": "gaarman",
+      "script": "gothic",
+      "gloss": "to take pity, show compassion",
+      "root": "غرمن",
+      "fan_count": 6,
+      "fan_position": 3,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "غرمن": [
+          3,
+          4
+        ],
+        "قرمن": [
+          3,
+          4
+        ],
+        "قلمن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌰𐍂𐌼𐌰𐌽",
+        "read": "gaarmān",
+        "pos": "verb",
+        "meaning": "to take pity, show compassion"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to take pity, show compassion» بمادة `غرمن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2499
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02715",
+      "global_rank": 2715,
+      "source_rank": 382,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌹𐌿𐍄𐌰𐌽",
+      "romanization": "giutan",
+      "script": "gothic",
+      "gloss": "to pour",
+      "root": "جتن",
+      "fan_count": 9,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "جتن": [
+          4
+        ],
+        "جطن": [
+          4
+        ],
+        "جثن": [
+          3,
+          4
+        ],
+        "غتن": [
+          4
+        ],
+        "غثن": [
+          3,
+          4
+        ],
+        "قتن": [
+          3,
+          4
+        ],
+        "قطن": [
+          1,
+          3,
+          4
+        ],
+        "قثن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌹𐌿𐍄𐌰𐌽",
+        "read": "giutan",
+        "pos": "verb",
+        "meaning": "to pour"
+      },
+      "arabic_witness_count": 1,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «to pour» بمادة `جتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3131
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02716",
+      "global_rank": 2716,
+      "source_rank": 383,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌻𐌿𐌽𐍃",
+      "romanization": "luns",
+      "script": "gothic",
+      "gloss": "ransom",
+      "root": "رنس",
+      "fan_count": 8,
+      "fan_position": 5,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "رنس": [
+          3,
+          4
+        ],
+        "رنش": [
+          3,
+          4
+        ],
+        "رنز": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌻𐌿𐌽𐍃",
+        "read": "luns",
+        "pos": "noun",
+        "meaning": "ransom"
+      },
+      "arabic_witness_count": 1,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «ransom» بمادة `رنس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2359
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02717",
+      "global_rank": 2717,
+      "source_rank": 384,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌿𐌽𐌳",
+      "romanization": "gund",
+      "script": "gothic",
+      "gloss": "gangrene, canker",
+      "root": "جند",
+      "fan_count": 9,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "جند": [
+          1,
+          3,
+          4
+        ],
+        "جنذ": [
+          3,
+          4
+        ],
+        "غنض": [
+          3,
+          4
+        ],
+        "غنذ": [
+          3,
+          4
+        ],
+        "قند": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌿𐌽𐌳",
+        "read": "gund",
+        "pos": "noun",
+        "meaning": "gangrene, canker"
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «gangrene, canker» بمادة `جند` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2440
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02718",
+      "global_rank": 2718,
+      "source_rank": 385,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌺𐌴𐌹𐌽𐌰𐌽",
+      "romanization": "keinan",
+      "script": "gothic",
+      "gloss": "to sprout, germinate; to bud",
+      "root": "كنن",
+      "fan_count": 2,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "كنن": [
+          1,
+          3,
+          4
+        ],
+        "قنن": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌺𐌴𐌹𐌽𐌰𐌽",
+        "read": "keinan",
+        "pos": "verb",
+        "meaning": "to sprout, germinate؛ to bud"
+      },
+      "arabic_witness_count": 11,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to sprout, germinate; to bud» بمادة `كنن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2450
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02719",
+      "global_rank": 2719,
+      "source_rank": 386,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌾𐌹𐌿𐌺𐌰𐌽",
+      "romanization": "jiukan",
+      "script": "gothic",
+      "gloss": "to fight, quarrel, argue; to overcome",
+      "root": "يقن",
+      "fan_count": 4,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "يقن": [
+          1,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌾𐌹𐌿𐌺𐌰𐌽",
+        "read": "jiukān",
+        "pos": "verb",
+        "meaning": "to fight, quarrel, argue؛ to overcome"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to fight, quarrel, argue; to overcome» بمادة `يقن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2479
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02720",
+      "global_rank": 2720,
+      "source_rank": 387,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌼𐌿𐌽𐌳𐍂𐌴𐌹",
+      "romanization": "mundrei",
+      "script": "gothic",
+      "gloss": "goal, aim, objective",
+      "root": "مندل",
+      "fan_count": 6,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "مندل": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌼𐌿𐌽𐌳𐍂𐌴𐌹",
+        "read": "mundrei",
+        "pos": "noun",
+        "meaning": "goal, aim, objective"
+      },
+      "arabic_witness_count": 3,
+      "used_witness_source": "لسان العرب لابن منظور",
+      "manual_orbit": "قوبل معنى الفرع «goal, aim, objective» بمادة `مندل` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها لسان العرب لابن منظور. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2537
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02721",
+      "global_rank": 2721,
+      "source_rank": 388,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌺𐌰𐌼𐌰",
+      "romanization": "skama",
+      "script": "gothic",
+      "gloss": "shame",
+      "root": "سكم",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "سكم": [
+          3,
+          4
+        ],
+        "سقم": [
+          1,
+          3,
+          4
+        ],
+        "شكم": [
+          3,
+          4
+        ],
+        "شقم": [
+          3,
+          4
+        ],
+        "صكم": [
+          4
+        ],
+        "صقم": [
+          4
+        ],
+        "زكم": [
+          3,
+          4
+        ],
+        "زقم": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌺𐌰𐌼𐌰",
+        "read": "skama",
+        "pos": "noun",
+        "meaning": "shame"
+      },
+      "arabic_witness_count": 6,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «shame» بمادة `سكم` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2328
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02722",
+      "global_rank": 2722,
+      "source_rank": 389,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌻𐌰𐌹𐍄𐍉𐌽",
+      "romanization": "wlaiton",
+      "script": "gothic",
+      "gloss": "to look around",
+      "root": "ورثن",
+      "fan_count": 6,
+      "fan_position": 6,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "ورثن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌻𐌰𐌹𐍄𐍉𐌽",
+        "read": "wlaitōn",
+        "pos": "verb",
+        "meaning": "to look around"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to look around» بمادة `ورثن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3508
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02723",
+      "global_rank": 2723,
+      "source_rank": 390,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌷𐌰𐌼𐍉𐌽",
+      "romanization": "gahamon",
+      "script": "gothic",
+      "gloss": "to put on, clothe",
+      "root": "جهمن",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "جهمن": [
+          3,
+          4
+        ],
+        "جغمن": [
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌷𐌰𐌼𐍉𐌽",
+        "read": "gahamōn",
+        "pos": "verb",
+        "meaning": "to put on, clothe"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "لسان العرب لابن منظور",
+      "manual_orbit": "قوبل معنى الفرع «to put on, clothe» بمادة `جهمن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها لسان العرب لابن منظور. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2273
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02724",
+      "global_rank": 2724,
+      "source_rank": 391,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍆𐌹𐍄𐌰𐌽",
+      "romanization": "fitan",
+      "script": "gothic",
+      "gloss": "to be in labor, be in the pain of childbirth",
+      "root": "فتن",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "فتن": [
+          1,
+          3,
+          4
+        ],
+        "فطن": [
+          3,
+          4
+        ],
+        "بتن": [
+          3,
+          4
+        ],
+        "بطن": [
+          1,
+          3,
+          4
+        ],
+        "بثن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍆𐌹𐍄𐌰𐌽",
+        "read": "fitan",
+        "pos": "verb",
+        "meaning": "to be in labor, be in the pain of childbirth"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to be in labor, be in the pain of childbirth» بمادة `فتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": true,
+      "status": "protected-live-reference",
+      "card_bytes": 2593
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02725",
+      "global_rank": 2725,
+      "source_rank": 392,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌹𐌽𐌲𐌹𐍆",
+      "romanization": "ingif",
+      "script": "gothic",
+      "gloss": "poison",
+      "root": "نجف",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 6,
+      "all_candidate_event_tiers": {
+        "نجف": [
+          3,
+          4
+        ],
+        "نجب": [
+          3,
+          4
+        ],
+        "نغف": [
+          3,
+          4
+        ],
+        "نغب": [
+          3,
+          4
+        ],
+        "نقف": [
+          3,
+          4
+        ],
+        "نقب": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌹𐌽𐌲𐌹𐍆",
+        "read": "ingif",
+        "pos": "noun",
+        "meaning": "poison"
+      },
+      "arabic_witness_count": 13,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «poison» بمادة `نجف` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2743
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02726",
+      "global_rank": 2726,
+      "source_rank": 393,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌽𐌰𐌲𐌰",
+      "romanization": "snaga",
+      "script": "gothic",
+      "gloss": "cloak, robe",
+      "root": "سنج",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 9,
+      "all_candidate_event_tiers": {
+        "سنج": [
+          3,
+          4
+        ],
+        "سنق": [
+          3,
+          4
+        ],
+        "شنج": [
+          3,
+          4
+        ],
+        "شنق": [
+          3,
+          4
+        ],
+        "صنج": [
+          3,
+          4
+        ],
+        "صنغ": [
+          3,
+          4
+        ],
+        "صنق": [
+          3,
+          4
+        ],
+        "زنج": [
+          1,
+          3,
+          4
+        ],
+        "زنق": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌽𐌰𐌲𐌰",
+        "read": "snaga",
+        "pos": "noun",
+        "meaning": "cloak, robe"
+      },
+      "arabic_witness_count": 11,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «cloak, robe» بمادة `سنج` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2376
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02727",
+      "global_rank": 2727,
+      "source_rank": 394,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍈𐍉𐍀𐌰𐌽",
+      "romanization": "hwopan",
+      "script": "gothic",
+      "gloss": "to boast; to rejoice",
+      "root": "حبن",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "حبن": [
+          3,
+          4
+        ],
+        "حفن": [
+          3,
+          4
+        ],
+        "خبن": [
+          3,
+          4
+        ],
+        "خفن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍈𐍉𐍀𐌰𐌽",
+        "read": "ƕōpan",
+        "pos": "verb",
+        "meaning": "to boast؛ to rejoice"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to boast; to rejoice» بمادة `حبن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2759
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02728",
+      "global_rank": 2728,
+      "source_rank": 395,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐍅𐌰𐍂𐌴",
+      "romanization": "sware",
+      "script": "gothic",
+      "gloss": "without a reason, in vain",
+      "root": "سور",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "سور": [
+          1,
+          3,
+          4
+        ],
+        "سول": [
+          1,
+          3,
+          4
+        ],
+        "شور": [
+          1,
+          3,
+          4
+        ],
+        "شول": [
+          4
+        ],
+        "صور": [
+          1,
+          3,
+          4
+        ],
+        "صول": [
+          3,
+          4
+        ],
+        "زور": [
+          1,
+          3,
+          4
+        ],
+        "زول": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐍅𐌰𐍂𐌴",
+        "read": "swarē",
+        "pos": "adv",
+        "meaning": "without a reason, in vain"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «without a reason, in vain» بمادة `سور` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2655
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02729",
+      "global_rank": 2729,
+      "source_rank": 396,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌰𐌼𐌰𐌸",
+      "romanization": "samath",
+      "script": "gothic",
+      "gloss": "together",
+      "root": "سمت",
+      "fan_count": 12,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 6,
+      "all_candidate_event_tiers": {
+        "سمت": [
+          3,
+          4
+        ],
+        "سمط": [
+          3,
+          4
+        ],
+        "شمت": [
+          1,
+          3,
+          4
+        ],
+        "شمط": [
+          3,
+          4
+        ],
+        "صمت": [
+          1,
+          3,
+          4
+        ],
+        "زمت": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌰𐌼𐌰𐌸",
+        "read": "samaþ",
+        "pos": "adv",
+        "meaning": "together"
+      },
+      "arabic_witness_count": 13,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «together» بمادة `سمت` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2719
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02730",
+      "global_rank": 2730,
+      "source_rank": 397,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍆𐍂𐌰𐌹𐍄𐌰𐌽",
+      "romanization": "fraitan",
+      "script": "gothic",
+      "gloss": "to devour",
+      "root": "فرتن",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "فرتن": [
+          3,
+          4
+        ],
+        "برطن": [
+          3,
+          4
+        ],
+        "برثن": [
+          3,
+          4
+        ],
+        "بلتن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍆𐍂𐌰𐌹𐍄𐌰𐌽",
+        "read": "fraitan",
+        "pos": "verb",
+        "meaning": "to devour"
+      },
+      "arabic_witness_count": 8,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to devour» بمادة `فرتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2756
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02731",
+      "global_rank": 2731,
+      "source_rank": 398,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍆𐍂𐌿𐌼𐌰𐌳𐌴𐌹",
+      "romanization": "frumadei",
+      "script": "gothic",
+      "gloss": "preeminence",
+      "root": "فرمذ",
+      "fan_count": 12,
+      "fan_position": 3,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "فرمذ": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍆𐍂𐌿𐌼𐌰𐌳𐌴𐌹",
+        "read": "frumadei",
+        "pos": "noun",
+        "meaning": "preeminence"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «preeminence» بمادة `فرمذ` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2584
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02732",
+      "global_rank": 2732,
+      "source_rank": 399,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌾𐌰𐌹𐌽𐌳",
+      "romanization": "jaind",
+      "script": "gothic",
+      "gloss": "thither, to there",
+      "root": "جند",
+      "fan_count": 6,
+      "fan_position": 4,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "جند": [
+          1,
+          3,
+          4
+        ],
+        "جنذ": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌾𐌰𐌹𐌽𐌳",
+        "read": "jaind",
+        "pos": "adv",
+        "meaning": "thither, to there"
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «thither, to there» بمادة `جند` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2463
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02733",
+      "global_rank": 2733,
+      "source_rank": 400,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌾𐌰𐌹𐌽𐌳𐍂𐌴",
+      "romanization": "jaindre",
+      "script": "gothic",
+      "gloss": "thither, to there",
+      "root": "جندر",
+      "fan_count": 12,
+      "fan_position": 7,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "جندر": [
+          3,
+          4
+        ],
+        "جندل": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌾𐌰𐌹𐌽𐌳𐍂𐌴",
+        "read": "jaindrē",
+        "pos": "adv",
+        "meaning": "thither, to there"
+      },
+      "arabic_witness_count": 3,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «thither, to there» بمادة `جندر` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2630
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02734",
+      "global_rank": 2734,
+      "source_rank": 401,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐌽𐌻𐌴𐌳𐌹",
+      "romanization": "unledi",
+      "script": "gothic",
+      "gloss": "poverty",
+      "root": "نرد",
+      "fan_count": 6,
+      "fan_position": 4,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "نرد": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐌽𐌻𐌴𐌳𐌹",
+        "read": "unlēdi",
+        "pos": "noun",
+        "meaning": "poverty"
+      },
+      "arabic_witness_count": 11,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «poverty» بمادة `نرد` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2356
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02735",
+      "global_rank": 2735,
+      "source_rank": 402,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌻𐌴𐌹𐍈𐌰𐌽",
+      "romanization": "leihwan",
+      "script": "gothic",
+      "gloss": "to lend",
+      "root": "لحن",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "لحن": [
+          1,
+          3,
+          4
+        ],
+        "لخن": [
+          4
+        ],
+        "رخن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌻𐌴𐌹𐍈𐌰𐌽",
+        "read": "leiƕan",
+        "pos": "verb",
+        "meaning": "to lend"
+      },
+      "arabic_witness_count": 15,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to lend» بمادة `لحن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2362
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02736",
+      "global_rank": 2736,
+      "source_rank": 403,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌼𐍉𐌸𐍃",
+      "romanization": "moths",
+      "script": "gothic",
+      "gloss": "mood, temper; anger",
+      "root": "متس",
+      "fan_count": 12,
+      "fan_position": 5,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "متس": [
+          3,
+          4
+        ],
+        "متش": [
+          3,
+          4
+        ],
+        "متز": [
+          3,
+          4
+        ],
+        "مطس": [
+          3,
+          4
+        ],
+        "مطز": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌼𐍉𐌸𐍃",
+        "read": "mōþs",
+        "pos": "noun",
+        "meaning": "mood, temper؛ anger"
+      },
+      "arabic_witness_count": 8,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «mood, temper; anger» بمادة `متس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2713
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02737",
+      "global_rank": 2737,
+      "source_rank": 404,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍈𐌰𐍂𐌱𐍉𐌽",
+      "romanization": "hwarbon",
+      "script": "gothic",
+      "gloss": "to walk, wander, roam; to go about, to pass by",
+      "root": "خلبن",
+      "fan_count": 4,
+      "fan_position": 4,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "خلبن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍈𐌰𐍂𐌱𐍉𐌽",
+        "read": "ƕarbōn",
+        "pos": "verb",
+        "meaning": "to walk, wander, roam؛ to go about, to pass by"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to walk, wander, roam; to go about, to pass by» بمادة `خلبن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2222
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02738",
+      "global_rank": 2738,
+      "source_rank": 405,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌾𐌿𐌺",
+      "romanization": "gajuk",
+      "script": "gothic",
+      "gloss": "a pair, couple",
+      "root": "جيك",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "جيك": [
+          4
+        ],
+        "غيك": [
+          4
+        ],
+        "غيق": [
+          4
+        ],
+        "قيق": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌾𐌿𐌺",
+        "read": "gajuk",
+        "pos": "noun",
+        "meaning": "a pair, couple"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «a pair, couple» بمادة `جيك` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2968
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02739",
+      "global_rank": 2739,
+      "source_rank": 406,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌾𐌿𐌺𐌰",
+      "romanization": "gajuka",
+      "script": "gothic",
+      "gloss": "companion",
+      "root": "جيك",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "جيك": [
+          4
+        ],
+        "غيك": [
+          4
+        ],
+        "غيق": [
+          4
+        ],
+        "قيق": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌾𐌿𐌺𐌰",
+        "read": "gajuka",
+        "pos": "noun",
+        "meaning": "companion"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «companion» بمادة `جيك` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2981
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02740",
+      "global_rank": 2740,
+      "source_rank": 407,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌾𐌿𐌺𐍉",
+      "romanization": "gajuko",
+      "script": "gothic",
+      "gloss": "companion; simile, parable, proverb",
+      "root": "جيك",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "جيك": [
+          4
+        ],
+        "غيك": [
+          4
+        ],
+        "غيق": [
+          4
+        ],
+        "قيق": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌾𐌿𐌺𐍉",
+        "read": "gajukō",
+        "pos": "noun",
+        "meaning": "companion؛ simile, parable, proverb"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «companion; simile, parable, proverb» بمادة `جيك` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3062
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02741",
+      "global_rank": 2741,
+      "source_rank": 408,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍄𐍂𐌰𐌿𐌰𐌽",
+      "romanization": "trauan",
+      "script": "gothic",
+      "gloss": "to trust; to rely on",
+      "root": "ترن",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "ترن": [
+          3,
+          4
+        ],
+        "تلن": [
+          3,
+          4
+        ],
+        "طرن": [
+          3,
+          4
+        ],
+        "طلن": [
+          3,
+          4
+        ],
+        "ثرن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍄𐍂𐌰𐌿𐌰𐌽",
+        "read": "trauān",
+        "pos": "verb",
+        "meaning": "to trust؛ to rely on؛ to confide in"
+      },
+      "arabic_witness_count": 7,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «to trust; to rely on» بمادة `ترن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2828
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02742",
+      "global_rank": 2742,
+      "source_rank": 409,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌰𐍂𐌱𐌾𐌰",
+      "romanization": "gaarbja",
+      "script": "gothic",
+      "gloss": "fellow heir",
+      "root": "قربج",
+      "fan_count": 12,
+      "fan_position": 10,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "قربج": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌰𐍂𐌱𐌾𐌰",
+        "read": "gaarbja",
+        "pos": "noun",
+        "meaning": "fellow heir"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «fellow heir» بمادة `قربج` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2361
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02743",
+      "global_rank": 2743,
+      "source_rank": 410,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌱𐌰𐌳𐌿𐍃",
+      "romanization": "badus",
+      "script": "gothic",
+      "gloss": "war; battle",
+      "root": "بدس",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "بدس": [
+          3,
+          4
+        ],
+        "بذس": [
+          3,
+          4
+        ],
+        "بذش": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌱𐌰𐌳𐌿𐍃",
+        "read": "",
+        "pos": "noun",
+        "meaning": "war؛ battle"
+      },
+      "arabic_witness_count": 5,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «war; battle» بمادة `بدس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2432
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02744",
+      "global_rank": 2744,
+      "source_rank": 411,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐍂𐌰𐍄𐍉𐌽",
+      "romanization": "wraton",
+      "script": "gothic",
+      "gloss": "to travel, journey",
+      "root": "ورثن",
+      "fan_count": 6,
+      "fan_position": 3,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "ورثن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐍂𐌰𐍄𐍉𐌽",
+        "read": "wratōn",
+        "pos": "verb",
+        "meaning": "to travel, journey"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to travel, journey» بمادة `ورثن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3504
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02745",
+      "global_rank": 2745,
+      "source_rank": 412,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌸𐌰𐍄𐌰𐌹𐌽𐌴𐌹",
+      "romanization": "thatainei",
+      "script": "gothic",
+      "gloss": "only",
+      "root": "ثتن",
+      "fan_count": 9,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "ثتن": [
+          4
+        ],
+        "تطن": [
+          4
+        ],
+        "طثن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌸𐌰𐍄𐌰𐌹𐌽𐌴𐌹",
+        "read": "þatainei",
+        "pos": "adv",
+        "meaning": "only"
+      },
+      "arabic_witness_count": 8,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «only» بمادة `ثتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2952
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02746",
+      "global_rank": 2746,
+      "source_rank": 413,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌰𐌿𐌺𐌰𐌽",
+      "romanization": "gaaukan",
+      "script": "gothic",
+      "gloss": "to abound",
+      "root": "غقن",
+      "fan_count": 6,
+      "fan_position": 4,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "غقن": [
+          4
+        ],
+        "ققن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌰𐌿𐌺𐌰𐌽",
+        "read": "gaaukan",
+        "pos": "verb",
+        "meaning": "to abound"
+      },
+      "arabic_witness_count": 1,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «to abound» بمادة `غقن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3065
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02747",
+      "global_rank": 2747,
+      "source_rank": 414,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌱𐌰𐌿𐌰𐌽",
+      "romanization": "gabauan",
+      "script": "gothic",
+      "gloss": "to lodge (stay in any place or shelter)",
+      "root": "جبن",
+      "fan_count": 3,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "جبن": [
+          1,
+          3,
+          4
+        ],
+        "غبن": [
+          1,
+          3,
+          4
+        ],
+        "قبن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌱𐌰𐌿𐌰𐌽",
+        "read": "gabauan",
+        "pos": "verb",
+        "meaning": "to lodge (stay in any place or shelter)"
+      },
+      "arabic_witness_count": 12,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to lodge (stay in any place or shelter)» بمادة `جبن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2569
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02748",
+      "global_rank": 2748,
+      "source_rank": 415,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌱𐌰𐌿𐍂",
+      "romanization": "gabaur",
+      "script": "gothic",
+      "gloss": "reveling, carousing",
+      "root": "جبر",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "جبر": [
+          1,
+          3,
+          4
+        ],
+        "جبل": [
+          1,
+          3,
+          4
+        ],
+        "غبر": [
+          1,
+          3,
+          4
+        ],
+        "قبر": [
+          1,
+          3,
+          4
+        ],
+        "قبل": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 2,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌱𐌰𐌿𐍂",
+        "read": "gabaur",
+        "pos": "noun",
+        "meaning": "reveling, carousing"
+      },
+      "arabic_witness_count": 19,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «reveling, carousing» بمادة `جبر` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2526
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02749",
+      "global_rank": 2749,
+      "source_rank": 416,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌱𐌰𐌻𐌾𐍉𐌽",
+      "romanization": "baljon",
+      "script": "gothic",
+      "gloss": "to roar (of animals, to make a loud deep noise)",
+      "root": "برجن",
+      "fan_count": 4,
+      "fan_position": 4,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "برجن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌱𐌰𐌻𐌾𐍉𐌽",
+        "read": "baljōn",
+        "pos": "verb",
+        "meaning": "to roar (of animals, to make a loud deep noise)"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to roar (of animals, to make a loud deep noise)» بمادة `برجن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2609
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02750",
+      "global_rank": 2750,
+      "source_rank": 417,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌹𐌻𐌾𐌰𐌽",
+      "romanization": "gailjan",
+      "script": "gothic",
+      "gloss": "to make glad",
+      "root": "قرجن",
+      "fan_count": 12,
+      "fan_position": 12,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "قرجن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌹𐌻𐌾𐌰𐌽",
+        "read": "gailjan",
+        "pos": "verb",
+        "meaning": "to make glad"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to make glad» بمادة `قرجن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2500
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02751",
+      "global_rank": 2751,
+      "source_rank": 418,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍄𐌰𐌹𐍂𐌰𐌽",
+      "romanization": "tairan",
+      "script": "gothic",
+      "gloss": "to tear, pull off",
+      "root": "ترن",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "ترن": [
+          3,
+          4
+        ],
+        "تلن": [
+          3,
+          4
+        ],
+        "طرن": [
+          3,
+          4
+        ],
+        "طلن": [
+          3,
+          4
+        ],
+        "ثرن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍄𐌰𐌹𐍂𐌰𐌽",
+        "read": "",
+        "pos": "verb",
+        "meaning": "to tear, pull off"
+      },
+      "arabic_witness_count": 7,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «to tear, pull off» بمادة `ترن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2821
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02752",
+      "global_rank": 2752,
+      "source_rank": 419,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌼𐌰𐌿𐌳𐌾𐌰𐌽",
+      "romanization": "maudjan",
+      "script": "gothic",
+      "gloss": "to remind",
+      "root": "مذين",
+      "fan_count": 6,
+      "fan_position": 5,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "مذين": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌼𐌰𐌿𐌳𐌾𐌰𐌽",
+        "read": "maudjan",
+        "pos": "verb",
+        "meaning": "to remind"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to remind» بمادة `مذين` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3390
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02753",
+      "global_rank": 2753,
+      "source_rank": 420,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌴𐌹𐍄𐌰𐌽",
+      "romanization": "weitan",
+      "script": "gothic",
+      "gloss": "to see; know",
+      "root": "وتن",
+      "fan_count": 3,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "وتن": [
+          1,
+          4
+        ],
+        "وطن": [
+          1,
+          4
+        ],
+        "وثن": [
+          1,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌴𐌹𐍄𐌰𐌽",
+        "read": "",
+        "pos": "verb",
+        "meaning": "to see; know"
+      },
+      "arabic_witness_count": 12,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to see; know» بمادة `وتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2410
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02754",
+      "global_rank": 2754,
+      "source_rank": 421,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌿𐍂𐌾𐌰𐌽",
+      "romanization": "gaurjan",
+      "script": "gothic",
+      "gloss": "to aggrieve",
+      "root": "قرجن",
+      "fan_count": 12,
+      "fan_position": 10,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "قرجن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌿𐍂𐌾𐌰𐌽",
+        "read": "gaurjan",
+        "pos": "verb",
+        "meaning": "to aggrieve"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to aggrieve» بمادة `قرجن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2409
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02755",
+      "global_rank": 2755,
+      "source_rank": 422,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐍃𐌱𐌰𐌹𐍂𐌰𐌽",
+      "romanization": "usbairan",
+      "script": "gothic",
+      "gloss": "to bear away, remove; to bring forth, produce",
+      "root": "زبرن",
+      "fan_count": 8,
+      "fan_position": 7,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "زبرن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐍃𐌱𐌰𐌹𐍂𐌰𐌽",
+        "read": "usbairan",
+        "pos": "verb",
+        "meaning": "to bear away, remove؛ to bring forth, produce"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to bear away, remove; to bring forth, produce» بمادة `زبرن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2644
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02756",
+      "global_rank": 2756,
+      "source_rank": 423,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌽𐌴𐌹𐌸𐌰𐌽",
+      "romanization": "sneithan",
+      "script": "gothic",
+      "gloss": "to cut, reap",
+      "root": "شنتن",
+      "fan_count": 12,
+      "fan_position": 5,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "شنتن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌽𐌴𐌹𐌸𐌰𐌽",
+        "read": "sneiþan",
+        "pos": "verb",
+        "meaning": "to cut, reap"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to cut, reap» بمادة `شنتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2693
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02757",
+      "global_rank": 2757,
+      "source_rank": 424,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍂𐌹𐌼𐌹𐍃",
+      "romanization": "rimis",
+      "script": "gothic",
+      "gloss": "calm, tranquility",
+      "root": "رمس",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "رمس": [
+          3,
+          4
+        ],
+        "رمش": [
+          3,
+          4
+        ],
+        "رمص": [
+          3,
+          4
+        ],
+        "رمز": [
+          1,
+          3,
+          4
+        ],
+        "لمس": [
+          1,
+          3,
+          4
+        ],
+        "لمش": [
+          3,
+          4
+        ],
+        "لمص": [
+          3,
+          4
+        ],
+        "لمز": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍂𐌹𐌼𐌹𐍃",
+        "read": "rimis",
+        "pos": "noun",
+        "meaning": "calm, tranquility"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «calm, tranquility» بمادة `رمس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2831
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02758",
+      "global_rank": 2758,
+      "source_rank": 425,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌻𐌰𐌹𐌲𐌰𐌹𐍉𐌽",
+      "romanization": "laigaion",
+      "script": "gothic",
+      "gloss": "legion",
+      "root": "لجن",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 6,
+      "all_candidate_event_tiers": {
+        "لجن": [
+          3,
+          4
+        ],
+        "لغن": [
+          3,
+          4
+        ],
+        "لقن": [
+          3,
+          4
+        ],
+        "رجن": [
+          3,
+          4
+        ],
+        "رغن": [
+          3,
+          4
+        ],
+        "رقن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌻𐌰𐌹𐌲𐌰𐌹𐍉𐌽",
+        "read": "laigaiōn",
+        "pos": "noun",
+        "meaning": "legion"
+      },
+      "arabic_witness_count": 10,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «legion» بمادة `لجن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2860
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02759",
+      "global_rank": 2759,
+      "source_rank": 426,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌰𐌹𐍂𐍃",
+      "romanization": "wairs",
+      "script": "gothic",
+      "gloss": "worse",
+      "root": "ورس",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "ورس": [
+          4
+        ],
+        "ورش": [
+          4
+        ],
+        "ورص": [
+          4
+        ],
+        "ورز": [
+          4
+        ],
+        "ولس": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌰𐌹𐍂𐍃",
+        "read": "wairs",
+        "pos": "adv",
+        "meaning": "worse"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «worse» بمادة `ورس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3190
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02760",
+      "global_rank": 2760,
+      "source_rank": 427,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌴𐌹𐌷𐌰𐌱𐌰",
+      "romanization": "weihaba",
+      "script": "gothic",
+      "gloss": "holily",
+      "root": "وهب",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "وهب": [
+          1,
+          4
+        ],
+        "وحب": [
+          3,
+          4
+        ],
+        "وغب": [
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌴𐌹𐌷𐌰𐌱𐌰",
+        "read": "weihaba",
+        "pos": "adv",
+        "meaning": "holily"
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «holily» بمادة `وهب` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2430
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02761",
+      "global_rank": 2761,
+      "source_rank": 428,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌹𐌻𐌴𐌹𐌳𐌿",
+      "romanization": "wileidu",
+      "script": "gothic",
+      "gloss": "Compound of 𐍅𐌹𐌻𐌴𐌹𐌸 (wileiþ)+ the clitic -𐌿 (-u).",
+      "root": "ولد",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "ولد": [
+          1,
+          4
+        ],
+        "ولذ": [
+          4
+        ],
+        "ورد": [
+          1,
+          4
+        ],
+        "ورض": [
+          4
+        ],
+        "ورذ": [
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌹𐌻𐌴𐌹𐌳𐌿",
+        "read": "wileidu",
+        "pos": "phrase",
+        "meaning": "Compound of 𐍅𐌹𐌻𐌴𐌹𐌸 (wileiþ)+ the clitic -𐌿 (-u)."
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «Compound of 𐍅𐌹𐌻𐌴𐌹𐌸 (wileiþ)+ the clitic -𐌿 (-u).» بمادة `ولد` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2644
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02762",
+      "global_rank": 2762,
+      "source_rank": 429,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌹𐌻𐌴𐌹𐌶𐌿",
+      "romanization": "wileizu",
+      "script": "gothic",
+      "gloss": "Compound of 𐍅𐌹𐌻𐌴𐌹𐍃 (wileis)+ the clitic -𐌿 (-u).",
+      "root": "ولذ",
+      "fan_count": 4,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "ولذ": [
+          4
+        ],
+        "ورز": [
+          4
+        ],
+        "ورذ": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌹𐌻𐌴𐌹𐌶𐌿",
+        "read": "wileizu",
+        "pos": "phrase",
+        "meaning": "Compound of 𐍅𐌹𐌻𐌴𐌹𐍃 (wileis)+ the clitic -𐌿 (-u)."
+      },
+      "arabic_witness_count": 6,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «Compound of 𐍅𐌹𐌻𐌴𐌹𐍃 (wileis)+ the clitic -𐌿 (-u).» بمادة `ولذ` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3307
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02763",
+      "global_rank": 2763,
+      "source_rank": 430,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌹𐍄𐌿𐌳𐌿",
+      "romanization": "witudu",
+      "script": "gothic",
+      "gloss": "Compound of 𐍅𐌹𐍄𐌿𐌸 (wituþ)+ the clitic -𐌿 (-u).",
+      "root": "وتد",
+      "fan_count": 9,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "وتد": [
+          1,
+          4
+        ],
+        "وطد": [
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌹𐍄𐌿𐌳𐌿",
+        "read": "witudu",
+        "pos": "phrase",
+        "meaning": "Compound of 𐍅𐌹𐍄𐌿𐌸 (wituþ)+ the clitic -𐌿 (-u)."
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «Compound of 𐍅𐌹𐍄𐌿𐌸 (wituþ)+ the clitic -𐌿 (-u).» بمادة `وتد` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2248
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02764",
+      "global_rank": 2764,
+      "source_rank": 431,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌻𐌿𐌺𐌰𐌽",
+      "romanization": "galukan",
+      "script": "gothic",
+      "gloss": "to lock, shut",
+      "root": "غرقن",
+      "fan_count": 12,
+      "fan_position": 8,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "غرقن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌻𐌿𐌺𐌰𐌽",
+        "read": "galūkan",
+        "pos": "verb",
+        "meaning": "to lock, shut"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to lock, shut» بمادة `غرقن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2410
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02765",
+      "global_rank": 2765,
+      "source_rank": 432,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌻𐌴𐌹𐌺𐌹",
+      "romanization": "galeiki",
+      "script": "gothic",
+      "gloss": "likeness",
+      "root": "جلك",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 9,
+      "all_candidate_event_tiers": {
+        "جلك": [
+          3,
+          4
+        ],
+        "جلق": [
+          3,
+          4
+        ],
+        "جرك": [
+          3,
+          4
+        ],
+        "جرق": [
+          3,
+          4
+        ],
+        "غلق": [
+          1,
+          3,
+          4
+        ],
+        "غرك": [
+          3,
+          4
+        ],
+        "غرق": [
+          1,
+          3,
+          4
+        ],
+        "قلق": [
+          3,
+          4
+        ],
+        "قرق": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌻𐌴𐌹𐌺𐌹",
+        "read": "galeiki",
+        "pos": "noun",
+        "meaning": "likeness"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «likeness» بمادة `جلك` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2668
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02766",
+      "global_rank": 2766,
+      "source_rank": 433,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌸𐌿𐌻𐌰𐌽",
+      "romanization": "thulan",
+      "script": "gothic",
+      "gloss": "to suffer, endure",
+      "root": "ثرن",
+      "fan_count": 6,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "ثرن": [
+          3,
+          4
+        ],
+        "تلن": [
+          3,
+          4
+        ],
+        "ترن": [
+          3,
+          4
+        ],
+        "طلن": [
+          3,
+          4
+        ],
+        "طرن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌸𐌿𐌻𐌰𐌽",
+        "read": "þulān",
+        "pos": "verb",
+        "meaning": "to suffer, endure"
+      },
+      "arabic_witness_count": 3,
+      "used_witness_source": "لسان العرب لابن منظور",
+      "manual_orbit": "قوبل معنى الفرع «to suffer, endure» بمادة `ثرن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها لسان العرب لابن منظور. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2382
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02767",
+      "global_rank": 2767,
+      "source_rank": 434,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌿𐌽𐍉𐌽",
+      "romanization": "gaunon",
+      "script": "gothic",
+      "gloss": "to lament, mourn",
+      "root": "جنن",
+      "fan_count": 3,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "جنن": [
+          1,
+          3,
+          4
+        ],
+        "غنن": [
+          1,
+          3,
+          4
+        ],
+        "قنن": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌿𐌽𐍉𐌽",
+        "read": "gaunōn",
+        "pos": "verb",
+        "meaning": "to lament, mourn"
+      },
+      "arabic_witness_count": 10,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to lament, mourn» بمادة `جنن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2491
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02768",
+      "global_rank": 2768,
+      "source_rank": 435,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌻𐌿𐌺𐌰𐌽",
+      "romanization": "lukan",
+      "script": "gothic",
+      "gloss": "to lock, shut",
+      "root": "لكن",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "لكن": [
+          3,
+          4
+        ],
+        "لقن": [
+          3,
+          4
+        ],
+        "ركن": [
+          1,
+          3,
+          4
+        ],
+        "رقن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌻𐌿𐌺𐌰𐌽",
+        "read": "",
+        "pos": "verb",
+        "meaning": "to lock, shut"
+      },
+      "arabic_witness_count": 13,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to lock, shut» بمادة `لكن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2770
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02769",
+      "global_rank": 2769,
+      "source_rank": 436,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌽𐌰𐌿𐌷𐌰",
+      "romanization": "ganauha",
+      "script": "gothic",
+      "gloss": "sufficiency; contentment",
+      "root": "جنه",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "جنه": [
+          3,
+          4
+        ],
+        "جنح": [
+          1,
+          3,
+          4
+        ],
+        "قنح": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌽𐌰𐌿𐌷𐌰",
+        "read": "ganauha",
+        "pos": "noun",
+        "meaning": "sufficiency؛ contentment"
+      },
+      "arabic_witness_count": 7,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «sufficiency; contentment» بمادة `جنه` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2643
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02770",
+      "global_rank": 2770,
+      "source_rank": 437,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐌽𐍅𐌴𐌹𐍃",
+      "romanization": "unweis",
+      "script": "gothic",
+      "gloss": "unlearned, ignorant",
+      "root": "نوس",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "نوس": [
+          3,
+          4
+        ],
+        "نوش": [
+          1,
+          3,
+          4
+        ],
+        "نوص": [
+          1,
+          3,
+          4
+        ],
+        "نوز": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐌽𐍅𐌴𐌹𐍃",
+        "read": "unweis",
+        "pos": "adj",
+        "meaning": "unlearned, ignorant"
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «unlearned, ignorant» بمادة `نوس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2854
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02771",
+      "global_rank": 2771,
+      "source_rank": 438,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐌽𐌸𐌹𐌿𐌸",
+      "romanization": "unthiuth",
+      "script": "gothic",
+      "gloss": "evil",
+      "root": "نثث",
+      "fan_count": 9,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "نثث": [
+          1,
+          3,
+          4
+        ],
+        "نثت": [
+          3,
+          4
+        ],
+        "نثط": [
+          3,
+          4
+        ],
+        "نتت": [
+          1,
+          3,
+          4
+        ],
+        "نطط": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐌽𐌸𐌹𐌿𐌸",
+        "read": "unþiuþ",
+        "pos": "noun",
+        "meaning": "evil"
+      },
+      "arabic_witness_count": 7,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «evil» بمادة `نثث` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2406
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02772",
+      "global_rank": 2772,
+      "source_rank": 439,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌻𐌴𐌹𐌺𐌰𐌽",
+      "romanization": "leikan",
+      "script": "gothic",
+      "gloss": "to please",
+      "root": "لكن",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "لكن": [
+          3,
+          4
+        ],
+        "لقن": [
+          3,
+          4
+        ],
+        "ركن": [
+          1,
+          3,
+          4
+        ],
+        "رقن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌻𐌴𐌹𐌺𐌰𐌽",
+        "read": "leikān",
+        "pos": "verb",
+        "meaning": "to please"
+      },
+      "arabic_witness_count": 13,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to please» بمادة `لكن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2783
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02773",
+      "global_rank": 2773,
+      "source_rank": 440,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌰𐌻𐌹𐍃𐌰",
+      "romanization": "walisa",
+      "script": "gothic",
+      "gloss": "true, genuine; beloved",
+      "root": "ولس",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "ولس": [
+          4
+        ],
+        "ورس": [
+          4
+        ],
+        "ورش": [
+          4
+        ],
+        "ورص": [
+          4
+        ],
+        "ورز": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌰𐌻𐌹𐍃𐌰",
+        "read": "walisa",
+        "pos": "adj",
+        "meaning": "true, genuine؛ beloved"
+      },
+      "arabic_witness_count": 12,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «true, genuine; beloved» بمادة `ولس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3035
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02774",
+      "global_rank": 2774,
+      "source_rank": 441,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐍅𐌹𐍃𐌰𐌽",
+      "romanization": "gawisan",
+      "script": "gothic",
+      "gloss": "to remain, abide",
+      "root": "جوشن",
+      "fan_count": 12,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "جوشن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐍅𐌹𐍃𐌰𐌽",
+        "read": "gawisan",
+        "pos": "verb",
+        "meaning": "to remain, abide"
+      },
+      "arabic_witness_count": 1,
+      "used_witness_source": "المعجم العربي الإنجليزي",
+      "manual_orbit": "قوبل معنى الفرع «to remain, abide» بمادة `جوشن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المعجم العربي الإنجليزي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3278
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02775",
+      "global_rank": 2775,
+      "source_rank": 442,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐍅𐌴𐌹𐍃𐍉𐌽",
+      "romanization": "gaweison",
+      "script": "gothic",
+      "gloss": "to visit; to review",
+      "root": "جوشن",
+      "fan_count": 12,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "جوشن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐍅𐌴𐌹𐍃𐍉𐌽",
+        "read": "gaweisōn",
+        "pos": "verb",
+        "meaning": "to visit؛ to review"
+      },
+      "arabic_witness_count": 1,
+      "used_witness_source": "المعجم العربي الإنجليزي",
+      "manual_orbit": "قوبل معنى الفرع «to visit; to review» بمادة `جوشن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المعجم العربي الإنجليزي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3280
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02776",
+      "global_rank": 2776,
+      "source_rank": 443,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌹𐍆𐌰𐌽",
+      "romanization": "sifan",
+      "script": "gothic",
+      "gloss": "to rejoice",
+      "root": "سفن",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "سفن": [
+          1,
+          3,
+          4
+        ],
+        "سبن": [
+          3,
+          4
+        ],
+        "شفن": [
+          3,
+          4
+        ],
+        "شبن": [
+          3,
+          4
+        ],
+        "صفن": [
+          1,
+          3,
+          4
+        ],
+        "صبن": [
+          3,
+          4
+        ],
+        "زفن": [
+          3,
+          4
+        ],
+        "زبن": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌹𐍆𐌰𐌽",
+        "read": "sifān",
+        "pos": "verb",
+        "meaning": "to rejoice"
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to rejoice» بمادة `سفن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2485
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02777",
+      "global_rank": 2777,
+      "source_rank": 444,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐍂𐌴𐌺𐌴𐌹",
+      "romanization": "wrekei",
+      "script": "gothic",
+      "gloss": "persecution",
+      "root": "ورك",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "ورك": [
+          4
+        ],
+        "ورق": [
+          1,
+          4
+        ],
+        "ولق": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐍂𐌴𐌺𐌴𐌹",
+        "read": "wrēkei",
+        "pos": "noun",
+        "meaning": "persecution"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «persecution» بمادة `ورك` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3157
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02778",
+      "global_rank": 2778,
+      "source_rank": 445,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌿𐌻𐌰𐌽",
+      "romanization": "wulan",
+      "script": "gothic",
+      "gloss": "to well up",
+      "root": "ولن",
+      "fan_count": 2,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "ولن": [
+          4
+        ],
+        "ورن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌿𐌻𐌰𐌽",
+        "read": "wulan",
+        "pos": "verb",
+        "meaning": "to well up"
+      },
+      "arabic_witness_count": 3,
+      "used_witness_source": "لسان العرب لابن منظور",
+      "manual_orbit": "قوبل معنى الفرع «to well up» بمادة `ولن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها لسان العرب لابن منظور. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2997
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02779",
+      "global_rank": 2779,
+      "source_rank": 446,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌽𐌹𐌸𐌰𐌽",
+      "romanization": "nithan",
+      "script": "gothic",
+      "gloss": "to help, assist",
+      "root": "نثن",
+      "fan_count": 3,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "نثن": [
+          3,
+          4
+        ],
+        "نتن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌽𐌹𐌸𐌰𐌽",
+        "read": "niþan",
+        "pos": "verb",
+        "meaning": "to help, assist"
+      },
+      "arabic_witness_count": 4,
+      "used_witness_source": "لسان العرب لابن منظور",
+      "manual_orbit": "قوبل معنى الفرع «to help, assist» بمادة `نثن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها لسان العرب لابن منظور. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2468
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02780",
+      "global_rank": 2780,
+      "source_rank": 447,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌽𐌴𐌹𐍅𐌰𐌽",
+      "romanization": "neiwan",
+      "script": "gothic",
+      "gloss": "to grudge",
+      "root": "نون",
+      "fan_count": 1,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "نون": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌽𐌴𐌹𐍅𐌰𐌽",
+        "read": "neiwan",
+        "pos": "verb",
+        "meaning": "to grudge"
+      },
+      "arabic_witness_count": 9,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to grudge» بمادة `نون` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2385
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02781",
+      "global_rank": 2781,
+      "source_rank": 448,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌷𐌹𐌿𐍆𐌰𐌽",
+      "romanization": "hiufan",
+      "script": "gothic",
+      "gloss": "to wail",
+      "root": "هفن",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "هفن": [
+          4
+        ],
+        "هبن": [
+          3,
+          4
+        ],
+        "حفن": [
+          3,
+          4
+        ],
+        "حبن": [
+          3,
+          4
+        ],
+        "خفن": [
+          3,
+          4
+        ],
+        "خبن": [
+          3,
+          4
+        ],
+        "غفن": [
+          3,
+          4
+        ],
+        "غبن": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌷𐌹𐌿𐍆𐌰𐌽",
+        "read": "hiufan",
+        "pos": "verb",
+        "meaning": "to wail"
+      },
+      "arabic_witness_count": 4,
+      "used_witness_source": "لسان العرب لابن منظور",
+      "manual_orbit": "قوبل معنى الفرع «to wail» بمادة `هفن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها لسان العرب لابن منظور. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2685
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02782",
+      "global_rank": 2782,
+      "source_rank": 449,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌿𐍀𐍉𐌽",
+      "romanization": "supon",
+      "script": "gothic",
+      "gloss": "to season",
+      "root": "سبن",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "سبن": [
+          3,
+          4
+        ],
+        "سفن": [
+          1,
+          3,
+          4
+        ],
+        "شبن": [
+          3,
+          4
+        ],
+        "شفن": [
+          3,
+          4
+        ],
+        "صبن": [
+          3,
+          4
+        ],
+        "صفن": [
+          1,
+          3,
+          4
+        ],
+        "زبن": [
+          1,
+          3,
+          4
+        ],
+        "زفن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌿𐍀𐍉𐌽",
+        "read": "supōn",
+        "pos": "verb",
+        "meaning": "to season"
+      },
+      "arabic_witness_count": 6,
+      "used_witness_source": "المحكم والمحيط الأعظم لابن سيده",
+      "manual_orbit": "قوبل معنى الفرع «to season» بمادة `سبن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها المحكم والمحيط الأعظم لابن سيده. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2644
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02783",
+      "global_rank": 2783,
+      "source_rank": 450,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌹𐌿𐌾𐌰𐌽",
+      "romanization": "siujan",
+      "script": "gothic",
+      "gloss": "to sew",
+      "root": "سين",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 7,
+      "all_candidate_event_tiers": {
+        "سين": [
+          1,
+          3,
+          4
+        ],
+        "سجن": [
+          1,
+          3,
+          4
+        ],
+        "شين": [
+          3,
+          4
+        ],
+        "شجن": [
+          3,
+          4
+        ],
+        "صين": [
+          3,
+          4
+        ],
+        "زين": [
+          1,
+          3,
+          4
+        ],
+        "زجن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌹𐌿𐌾𐌰𐌽",
+        "read": "siujan",
+        "pos": "verb",
+        "meaning": "to sew"
+      },
+      "arabic_witness_count": 9,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to sew» بمادة `سين` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2438
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02784",
+      "global_rank": 2784,
+      "source_rank": 451,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐍄𐌱𐌰𐌹𐍂𐌰𐌽",
+      "romanization": "utbairan",
+      "script": "gothic",
+      "gloss": "to bear out, carry away",
+      "root": "طبرن",
+      "fan_count": 6,
+      "fan_position": 3,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "طبرن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐍄𐌱𐌰𐌹𐍂𐌰𐌽",
+        "read": "ūtbairan",
+        "pos": "verb",
+        "meaning": "to bear out, carry away"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to bear out, carry away» بمادة `طبرن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2452
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02785",
+      "global_rank": 2785,
+      "source_rank": 452,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐌽𐍅𐌹𐍄𐌰",
+      "romanization": "unwita",
+      "script": "gothic",
+      "gloss": "ignorant person, fool",
+      "root": "نوت",
+      "fan_count": 3,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "نوت": [
+          3,
+          4
+        ],
+        "نوط": [
+          3,
+          4
+        ],
+        "نوث": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐌽𐍅𐌹𐍄𐌰",
+        "read": "unwita",
+        "pos": "noun",
+        "meaning": "ignorant person, fool"
+      },
+      "arabic_witness_count": 6,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «ignorant person, fool» بمادة `نوت` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2934
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02786",
+      "global_rank": 2786,
+      "source_rank": 453,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌼𐌰𐌹𐌳𐌾𐌰𐌽",
+      "romanization": "maidjan",
+      "script": "gothic",
+      "gloss": "to change, transform, corrupt",
+      "root": "مذين",
+      "fan_count": 6,
+      "fan_position": 5,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "مذين": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌼𐌰𐌹𐌳𐌾𐌰𐌽",
+        "read": "maidjan",
+        "pos": "verb",
+        "meaning": "to change, transform, corrupt"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to change, transform, corrupt» بمادة `مذين` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3281
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02787",
+      "global_rank": 2787,
+      "source_rank": 454,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐌽𐌷𐌰𐌹𐌻𐌹",
+      "romanization": "unhaili",
+      "script": "gothic",
+      "gloss": "illness, weakness, infirmity",
+      "root": "نهل",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "نهل": [
+          3,
+          4
+        ],
+        "نهر": [
+          3,
+          4
+        ],
+        "نحل": [
+          1,
+          3,
+          4
+        ],
+        "نحر": [
+          1,
+          3,
+          4
+        ],
+        "نخل": [
+          1,
+          3,
+          4
+        ],
+        "نخر": [
+          1,
+          3,
+          4
+        ],
+        "نغل": [
+          3,
+          4
+        ],
+        "نغر": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐌽𐌷𐌰𐌹𐌻𐌹",
+        "read": "unhaili",
+        "pos": "noun",
+        "meaning": "illness, weakness, infirmity"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «illness, weakness, infirmity» بمادة `نهل` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2911
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02788",
+      "global_rank": 2788,
+      "source_rank": 455,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌷𐌹𐌽𐌳𐌰𐌽𐌰",
+      "romanization": "hindana",
+      "script": "gothic",
+      "gloss": "beyond",
+      "root": "هندن",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "هندن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌷𐌹𐌽𐌳𐌰𐌽𐌰",
+        "read": "hindana",
+        "pos": "prep",
+        "meaning": "beyond"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «beyond» بمادة `هندن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2667
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02789",
+      "global_rank": 2789,
+      "source_rank": 456,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌷𐍉𐌻𐍉𐌽",
+      "romanization": "holon",
+      "script": "gothic",
+      "gloss": "to accuse falsely",
+      "root": "هلن",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "هلن": [
+          3,
+          4
+        ],
+        "هرن": [
+          3,
+          4
+        ],
+        "حلن": [
+          3,
+          4
+        ],
+        "حرن": [
+          3,
+          4
+        ],
+        "خلن": [
+          3,
+          4
+        ],
+        "خرن": [
+          3,
+          4
+        ],
+        "غلن": [
+          3,
+          4
+        ],
+        "غرن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌷𐍉𐌻𐍉𐌽",
+        "read": "hōlōn",
+        "pos": "verb",
+        "meaning": "to accuse falsely"
+      },
+      "arabic_witness_count": 6,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to accuse falsely» بمادة `هلن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2382
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02790",
+      "global_rank": 2790,
+      "source_rank": 457,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌹𐍆𐍄𐌿𐌼𐌰",
+      "romanization": "iftuma",
+      "script": "gothic",
+      "gloss": "next, following",
+      "root": "فطم",
+      "fan_count": 6,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "فطم": [
+          3,
+          4
+        ],
+        "بتم": [
+          3,
+          4
+        ],
+        "بطم": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌹𐍆𐍄𐌿𐌼𐌰",
+        "read": "iftuma",
+        "pos": "adj",
+        "meaning": "next, following"
+      },
+      "arabic_witness_count": 13,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «next, following» بمادة `فطم` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2734
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02791",
+      "global_rank": 2791,
+      "source_rank": 458,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌾𐌿𐌸𐌰𐌽",
+      "romanization": "juthan",
+      "script": "gothic",
+      "gloss": "now, by now, already",
+      "root": "يتن",
+      "fan_count": 6,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "يتن": [
+          4
+        ],
+        "جثن": [
+          3,
+          4
+        ],
+        "جتن": [
+          4
+        ],
+        "جطن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌾𐌿𐌸𐌰𐌽",
+        "read": "juþan",
+        "pos": "adv",
+        "meaning": "now, by now, already"
+      },
+      "arabic_witness_count": 9,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «now, by now, already» بمادة `يتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2972
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02792",
+      "global_rank": 2792,
+      "source_rank": 459,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌲𐌰𐌽𐍃",
+      "romanization": "gans",
+      "script": "gothic",
+      "gloss": "goose",
+      "root": "جنس",
+      "fan_count": 12,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 10,
+      "all_candidate_event_tiers": {
+        "جنس": [
+          3,
+          4
+        ],
+        "جنش": [
+          3,
+          4
+        ],
+        "جنص": [
+          3,
+          4
+        ],
+        "جنز": [
+          3,
+          4
+        ],
+        "غنش": [
+          3,
+          4
+        ],
+        "غنص": [
+          3,
+          4
+        ],
+        "قنس": [
+          3,
+          4
+        ],
+        "قنش": [
+          3,
+          4
+        ],
+        "قنص": [
+          3,
+          4
+        ],
+        "قنز": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌲𐌰𐌽𐍃",
+        "read": "",
+        "pos": "noun",
+        "meaning": "goose"
+      },
+      "arabic_witness_count": 13,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «goose» بمادة `جنس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2600
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02793",
+      "global_rank": 2793,
+      "source_rank": 460,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌿𐌽𐌳𐌰",
+      "romanization": "wunda",
+      "script": "gothic",
+      "gloss": "wound",
+      "root": "وند",
+      "fan_count": 3,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "وند": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌿𐌽𐌳𐌰",
+        "read": "",
+        "pos": "noun",
+        "meaning": "wound"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «wound» بمادة `وند` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2385
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02794",
+      "global_rank": 2794,
+      "source_rank": 461,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌰𐍂𐍃",
+      "romanization": "wars",
+      "script": "gothic",
+      "gloss": "alert, wary",
+      "root": "ورس",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "ورس": [
+          4
+        ],
+        "ورش": [
+          4
+        ],
+        "ورص": [
+          4
+        ],
+        "ورز": [
+          4
+        ],
+        "ولس": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌰𐍂𐍃",
+        "read": "wars",
+        "pos": "adj",
+        "meaning": "alert, wary"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «alert, wary» بمادة `ورس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3192
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02795",
+      "global_rank": 2795,
+      "source_rank": 462,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌰𐌹𐍂𐌸𐍉𐌽",
+      "romanization": "wairthon",
+      "script": "gothic",
+      "gloss": "to value, estimate",
+      "root": "ورثن",
+      "fan_count": 6,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "ورثن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌰𐌹𐍂𐌸𐍉𐌽",
+        "read": "wairþōn",
+        "pos": "verb",
+        "meaning": "to value, estimate"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to value, estimate» بمادة `ورثن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3460
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02796",
+      "global_rank": 2796,
+      "source_rank": 463,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐍆𐌰𐍂𐌼𐌴𐌻𐌹",
+      "romanization": "ufarmeli",
+      "script": "gothic",
+      "gloss": "inscription, superscription",
+      "root": "برمل",
+      "fan_count": 8,
+      "fan_position": 5,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "برمل": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐍆𐌰𐍂𐌼𐌴𐌻𐌹",
+        "read": "ufarmēli",
+        "pos": "noun",
+        "meaning": "inscription, superscription"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «inscription, superscription» بمادة `برمل` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2472
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02797",
+      "global_rank": 2797,
+      "source_rank": 464,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍂𐌰𐌸𐌹𐌶𐌰",
+      "romanization": "rathiza",
+      "script": "gothic",
+      "gloss": "easier",
+      "root": "رطز",
+      "fan_count": 12,
+      "fan_position": 5,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "رطز": [
+          3,
+          4
+        ],
+        "لتز": [
+          3,
+          4
+        ],
+        "لطز": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍂𐌰𐌸𐌹𐌶𐌰",
+        "read": "raþiza",
+        "pos": "adj",
+        "meaning": "easier"
+      },
+      "arabic_witness_count": 5,
+      "used_witness_source": "لسان العرب لابن منظور",
+      "manual_orbit": "قوبل معنى الفرع «easier» بمادة `رطز` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها لسان العرب لابن منظور. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2542
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02798",
+      "global_rank": 2798,
+      "source_rank": 465,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌹𐌶𐍉𐌽",
+      "romanization": "wizon",
+      "script": "gothic",
+      "gloss": "to live one's life",
+      "root": "وزن",
+      "fan_count": 2,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "وزن": [
+          1,
+          4
+        ],
+        "وذن": [
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌹𐌶𐍉𐌽",
+        "read": "wizōn",
+        "pos": "verb",
+        "meaning": "to live one's life"
+      },
+      "arabic_witness_count": 15,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to live one's life» بمادة `وزن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2473
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02799",
+      "global_rank": 2799,
+      "source_rank": 466,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍅𐌹𐌸𐍉𐌽",
+      "romanization": "withon",
+      "script": "gothic",
+      "gloss": "to shake, wag",
+      "root": "وثن",
+      "fan_count": 3,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "وثن": [
+          1,
+          4
+        ],
+        "وتن": [
+          1,
+          4
+        ],
+        "وطن": [
+          1,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍅𐌹𐌸𐍉𐌽",
+        "read": "wiþōn",
+        "pos": "verb",
+        "meaning": "to shake, wag"
+      },
+      "arabic_witness_count": 15,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to shake, wag» بمادة `وثن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2221
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02800",
+      "global_rank": 2800,
+      "source_rank": 467,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐌽𐍅𐌴𐍂𐌴𐌹",
+      "romanization": "unwerei",
+      "script": "gothic",
+      "gloss": "unwillingness, displeasedness",
+      "root": "نور",
+      "fan_count": 2,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "نور": [
+          1,
+          3,
+          4
+        ],
+        "نول": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐌽𐍅𐌴𐍂𐌴𐌹",
+        "read": "unwērei",
+        "pos": "noun",
+        "meaning": "unwillingness, displeasedness"
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «unwillingness, displeasedness» بمادة `نور` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2693
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02801",
+      "global_rank": 2801,
+      "source_rank": 468,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌸𐌴𐍅𐌹𐍃",
+      "romanization": "thewis",
+      "script": "gothic",
+      "gloss": "servant",
+      "root": "توس",
+      "fan_count": 12,
+      "fan_position": 5,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "توس": [
+          3,
+          4
+        ],
+        "توز": [
+          4
+        ],
+        "طوس": [
+          4
+        ],
+        "طوش": [
+          4
+        ],
+        "طوز": [
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌸𐌴𐍅𐌹𐍃",
+        "read": "þēwis",
+        "pos": "noun",
+        "meaning": "servant"
+      },
+      "arabic_witness_count": 10,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «servant» بمادة `توس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2717
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02802",
+      "global_rank": 2802,
+      "source_rank": 469,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐍆𐌻𐌹𐌲𐌰𐌽",
+      "romanization": "ufligan",
+      "script": "gothic",
+      "gloss": "to fail, fall short",
+      "root": "فرجن",
+      "fan_count": 12,
+      "fan_position": 4,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "فرجن": [
+          3,
+          4
+        ],
+        "فرغن": [
+          3,
+          4
+        ],
+        "بلقن": [
+          3,
+          4
+        ],
+        "برجن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐍆𐌻𐌹𐌲𐌰𐌽",
+        "read": "ufligan",
+        "pos": "verb",
+        "meaning": "to fail, fall short"
+      },
+      "arabic_witness_count": 9,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to fail, fall short» بمادة `فرجن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2314
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02803",
+      "global_rank": 2803,
+      "source_rank": 470,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌽𐌴𐍈𐌹𐍃",
+      "romanization": "nehwis",
+      "script": "gothic",
+      "gloss": "nearer, closer; comparative degree of 𐌽𐌴𐍈 (nēƕ)",
+      "root": "نحس",
+      "fan_count": 8,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 8,
+      "all_candidate_event_tiers": {
+        "نحس": [
+          1,
+          3,
+          4
+        ],
+        "نحش": [
+          3,
+          4
+        ],
+        "نحص": [
+          3,
+          4
+        ],
+        "نحز": [
+          3,
+          4
+        ],
+        "نخس": [
+          3,
+          4
+        ],
+        "نخش": [
+          3,
+          4
+        ],
+        "نخص": [
+          3,
+          4
+        ],
+        "نخز": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌽𐌴𐍈𐌹𐍃",
+        "read": "nēƕis",
+        "pos": "adv",
+        "meaning": "nearer, closer; comparative degree of 𐌽𐌴𐍈 (nēƕ)"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «nearer, closer; comparative degree of 𐌽𐌴𐍈 (nēƕ)» بمادة `نحس` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2503
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02804",
+      "global_rank": 2804,
+      "source_rank": 471,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐌶𐌰𐌽𐌰𐌽",
+      "romanization": "uzanan",
+      "script": "gothic",
+      "gloss": "to breathe out",
+      "root": "زنن",
+      "fan_count": 2,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "زنن": [
+          1,
+          3,
+          4
+        ],
+        "ذنن": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐌶𐌰𐌽𐌰𐌽",
+        "read": "uzanan",
+        "pos": "verb",
+        "meaning": "to breathe out"
+      },
+      "arabic_witness_count": 9,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to breathe out» بمادة `زنن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2317
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02805",
+      "global_rank": 2805,
+      "source_rank": 472,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐍆𐌰𐍂𐌾𐌰𐌹𐌽𐌰",
+      "romanization": "ufarjaina",
+      "script": "gothic",
+      "gloss": "beyond",
+      "root": "فرجن",
+      "fan_count": 8,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "فرجن": [
+          3,
+          4
+        ],
+        "برجن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐍆𐌰𐍂𐌾𐌰𐌹𐌽𐌰",
+        "read": "ufarjaina",
+        "pos": "adv",
+        "meaning": "beyond"
+      },
+      "arabic_witness_count": 9,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «beyond» بمادة `فرجن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2372
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02806",
+      "global_rank": 2806,
+      "source_rank": 473,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍃𐌰𐌹𐌽𐌾𐌰𐌽",
+      "romanization": "sainjan",
+      "script": "gothic",
+      "gloss": "to tarry",
+      "root": "زنجن",
+      "fan_count": 8,
+      "fan_position": 8,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "زنجن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍃𐌰𐌹𐌽𐌾𐌰𐌽",
+        "read": "sainjan",
+        "pos": "verb",
+        "meaning": "to tarry"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «to tarry» بمادة `زنجن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2407
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02807",
+      "global_rank": 2807,
+      "source_rank": 474,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐍆𐍅𐌰𐌹𐍂𐌰",
+      "romanization": "ufwaira",
+      "script": "gothic",
+      "gloss": "married, having a husband",
+      "root": "فور",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "فور": [
+          1,
+          3,
+          4
+        ],
+        "فول": [
+          3,
+          4
+        ],
+        "بور": [
+          1,
+          3,
+          4
+        ],
+        "بول": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐍆𐍅𐌰𐌹𐍂𐌰",
+        "read": "ufwaira",
+        "pos": "adj",
+        "meaning": "married, having a husband"
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «married, having a husband» بمادة `فور` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2633
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02808",
+      "global_rank": 2808,
+      "source_rank": 475,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐌽𐍈𐌴𐌹𐌻𐌰",
+      "romanization": "unhweila",
+      "script": "gothic",
+      "gloss": "ceaseless",
+      "root": "نحل",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "نحل": [
+          1,
+          3,
+          4
+        ],
+        "نحر": [
+          1,
+          3,
+          4
+        ],
+        "نخل": [
+          1,
+          3,
+          4
+        ],
+        "نخر": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐌽𐍈𐌴𐌹𐌻𐌰",
+        "read": "unƕeila",
+        "pos": "adj",
+        "meaning": "ceaseless"
+      },
+      "arabic_witness_count": 16,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «ceaseless» بمادة `نحل` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2471
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02809",
+      "global_rank": 2809,
+      "source_rank": 476,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐍃𐍅𐌴𐌽𐌰",
+      "romanization": "uswena",
+      "script": "gothic",
+      "gloss": "without hope, despairing",
+      "root": "سون",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "سون": [
+          3,
+          4
+        ],
+        "شون": [
+          3,
+          4
+        ],
+        "صون": [
+          3,
+          4
+        ],
+        "زون": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐍃𐍅𐌴𐌽𐌰",
+        "read": "uswēna",
+        "pos": "adj",
+        "meaning": "without hope, despairing"
+      },
+      "arabic_witness_count": 5,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «without hope, despairing» بمادة `سون` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2868
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02810",
+      "global_rank": 2810,
+      "source_rank": 477,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌱𐌹𐌿𐌲𐌹𐍄𐌰𐌹",
+      "romanization": "biugitai",
+      "script": "gothic",
+      "gloss": "Compound of 𐌱𐌹𐌲𐌹𐍄𐌰𐌹 (bigitai)+ the clitic -𐌿 (-u): “do the two of you believe …?”",
+      "root": "بغت",
+      "fan_count": 9,
+      "fan_position": 4,
+      "fan_weight": 0.0,
+      "row_candidate_count": 5,
+      "all_candidate_event_tiers": {
+        "بغت": [
+          1,
+          3,
+          4
+        ],
+        "بغث": [
+          3,
+          4
+        ],
+        "بقت": [
+          3,
+          4
+        ],
+        "بقط": [
+          3,
+          4
+        ],
+        "بقث": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌱𐌹𐌿𐌲𐌹𐍄𐌰𐌹",
+        "read": "biugitai",
+        "pos": "phrase",
+        "meaning": "Compound of 𐌱𐌹𐌲𐌹𐍄𐌰𐌹 (bigitai)+ the clitic -𐌿 (-u): “do the two of you believe …?”"
+      },
+      "arabic_witness_count": 14,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «Compound of 𐌱𐌹𐌲𐌹𐍄𐌰𐌹 (bigitai)+ the clitic -𐌿 (-u): “do the two of you believe …?”» بمادة `بغت` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2585
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02811",
+      "global_rank": 2811,
+      "source_rank": 478,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌿𐍆𐌰𐍂𐌼𐌰𐌿𐌳𐌴𐌹",
+      "romanization": "ufarmaudei",
+      "script": "gothic",
+      "gloss": "forgetfulness, oblivion",
+      "root": "فرمذ",
+      "fan_count": 12,
+      "fan_position": 3,
+      "fan_weight": 0.0,
+      "row_candidate_count": 1,
+      "all_candidate_event_tiers": {
+        "فرمذ": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌿𐍆𐌰𐍂𐌼𐌰𐌿𐌳𐌴𐌹",
+        "read": "ufarmaudei",
+        "pos": "noun",
+        "meaning": "forgetfulness, oblivion"
+      },
+      "arabic_witness_count": 2,
+      "used_witness_source": "تاج العروس لمرتضى الزبيدي",
+      "manual_orbit": "قوبل معنى الفرع «forgetfulness, oblivion» بمادة `فرمذ` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج العروس لمرتضى الزبيدي. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2688
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02812",
+      "global_rank": 2812,
+      "source_rank": 479,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌷𐌰𐌼𐍉𐌽",
+      "romanization": "hamon",
+      "script": "gothic",
+      "gloss": "to clothe, dress",
+      "root": "همن",
+      "fan_count": 4,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 4,
+      "all_candidate_event_tiers": {
+        "همن": [
+          1,
+          3,
+          4
+        ],
+        "حمن": [
+          3,
+          4
+        ],
+        "خمن": [
+          3,
+          4
+        ],
+        "غمن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌷𐌰𐌼𐍉𐌽",
+        "read": "",
+        "pos": "verb",
+        "meaning": "to clothe, dress"
+      },
+      "arabic_witness_count": 8,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «to clothe, dress» بمادة `همن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2269
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02813",
+      "global_rank": 2813,
+      "source_rank": 480,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌸𐌰𐌽𐌽𐌿",
+      "romanization": "thannu",
+      "script": "gothic",
+      "gloss": "therefore, in consequence, consequently, hence",
+      "root": "ثنن",
+      "fan_count": 3,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "ثنن": [
+          1,
+          3,
+          4
+        ],
+        "تنن": [
+          1,
+          3,
+          4
+        ],
+        "طنن": [
+          1,
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 1,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐌸𐌰𐌽𐌽𐌿",
+        "read": "þannu",
+        "pos": "adv",
+        "meaning": "therefore, in consequence, consequently, hence"
+      },
+      "arabic_witness_count": 8,
+      "used_witness_source": "تاج اللغة وصحاح العربية للجوهري",
+      "manual_orbit": "قوبل معنى الفرع «therefore, in consequence, consequently, hence» بمادة `ثنن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها تاج اللغة وصحاح العربية للجوهري. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2471
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02814",
+      "global_rank": 2814,
+      "source_rank": 481,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐍆𐌰𐌹𐍂𐌾𐌰𐌽",
+      "romanization": "fairjan",
+      "script": "gothic",
+      "gloss": "to depart, withdraw, move away",
+      "root": "فرجن",
+      "fan_count": 8,
+      "fan_position": 2,
+      "fan_weight": 0.0,
+      "row_candidate_count": 2,
+      "all_candidate_event_tiers": {
+        "فرجن": [
+          3,
+          4
+        ],
+        "برجن": [
+          3,
+          4
+        ]
+      },
+      "declared_event_tier": 3,
+      "branch_entry_count": 1,
+      "selected_branch_entry": {
+        "word": "𐍆𐌰𐌹𐍂𐌾𐌰𐌽",
+        "read": "fairjan",
+        "pos": "verb",
+        "meaning": "to depart, withdraw, move away"
+      },
+      "arabic_witness_count": 9,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «to depart, withdraw, move away» بمادة `فرجن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 2408
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02815",
+      "global_rank": 2815,
+      "source_rank": 482,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌸𐌰𐍄𐌰𐌹𐌽",
+      "romanization": "thatain",
+      "script": "gothic",
+      "gloss": "the one thing, only this/that",
+      "root": "ثتن",
+      "fan_count": 9,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "ثتن": [
+          4
+        ],
+        "تطن": [
+          4
+        ],
+        "طثن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 2,
+      "selected_branch_entry": {
+        "word": "𐌸𐌰𐍄𐌰𐌹𐌽",
+        "read": "þat-ain",
+        "pos": "pron",
+        "meaning": "the one thing, only this/that"
+      },
+      "arabic_witness_count": 8,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «the one thing, only this/that» بمادة `ثتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3071
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-02816",
+      "global_rank": 2816,
+      "source_rank": 483,
+      "language": "gothic",
+      "phase": "sound-only",
+      "word": "𐌸𐌰𐍄𐌰𐌹𐌽",
+      "romanization": "thatain",
+      "script": "gothic",
+      "gloss": "only (after 𐌽𐌹 (ni, “not”))",
+      "root": "ثتن",
+      "fan_count": 9,
+      "fan_position": 1,
+      "fan_weight": 0.0,
+      "row_candidate_count": 3,
+      "all_candidate_event_tiers": {
+        "ثتن": [
+          4
+        ],
+        "تطن": [
+          4
+        ],
+        "طثن": [
+          4
+        ]
+      },
+      "declared_event_tier": 4,
+      "branch_entry_count": 2,
+      "selected_branch_entry": {
+        "word": "𐌸𐌰𐍄𐌰𐌹𐌽",
+        "read": "þatain",
+        "pos": "adv",
+        "meaning": "only (after 𐌽𐌹 (ni, “not”))"
+      },
+      "arabic_witness_count": 8,
+      "used_witness_source": "كتاب العين للخليل بن أحمد",
+      "manual_orbit": "قوبل معنى الفرع «only (after 𐌽𐌹 (ni, “not”))» بمادة `ثتن` وبمنافسيها بعد قراءة الشواهد كاملة، ومنها كتاب العين للخليل بن أحمد. لم يثبت من التشابه الصوتي وحده مدار دلالي مباشر لا يحتاج إلى توسيع، فتبقى الصورة مفتوحة",
+      "cross_branch_note": "",
+      "named_semitic_donor": "",
+      "protected_live_reference": false,
+      "status": "open-candidate",
+      "card_bytes": 3087
+    }
+  ]
+}

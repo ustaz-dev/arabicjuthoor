@@ -41,6 +41,7 @@ import build_aed_index as AED  # noqa: E402
 SRC = ROOT / "Resources" / "coptic" / "Comprehensive_Coptic_Lexicon.xml"
 OUT = ROOT / "data" / "coptic-lexicon.json"
 TEI = "{http://www.tei-c.org/ns/1.0}"
+XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 
 # نقلُ الخطِّ القبطيِّ إلى اللاتينيِّ بالجدولِ المطّردِ المعروف
 COPTIC_TO_LATIN = {
@@ -91,9 +92,18 @@ def build() -> dict:
             if t and t not in pos:
                 pos.append(t)
         bibl = next((text_of(b) for b in entry.iter(f"{TEI}bibl") if text_of(b)), "")
+        etymology = "؛ ".join(
+            dict.fromkeys(
+                text_of(etym)
+                for etym in entry.findall(f"{TEI}etym")
+                if text_of(etym)
+            )
+        )
         if not senses:
             continue
         entries.append({
+            "id": entry.get(XML_ID, ""),
+            "entry_type": entry.get("type", ""),
             "forms": forms[:6],
             "coptic": forms[0],
             "latin": latinize(forms[0]),
@@ -101,8 +111,10 @@ def build() -> dict:
             "pos": "، ".join(pos[:2]),
             "dialects": [DIALECT.get(d, d) for d in dialects[:4]],
             "ref": bibl[:70],
+            "etymology": etymology,
         })
 
+    by_exact: dict[str, list[int]] = defaultdict(list)
     by_skeleton: dict[str, list[int]] = defaultdict(list)
     by_folded: dict[str, list[int]] = defaultdict(list)
     for i, e in enumerate(entries):
@@ -110,6 +122,9 @@ def build() -> dict:
             lat = latinize(form)
             if not lat:
                 continue
+            exact = lat.casefold()
+            if i not in by_exact[exact]:
+                by_exact[exact].append(i)
             k = AED.skeleton_key(lat)
             if 1 <= len(k) <= 6 and i not in by_skeleton[k]:
                 by_skeleton[k].append(i)
@@ -123,6 +138,7 @@ def build() -> dict:
         "note": ("الخطُّ القبطيُّ منقولٌ إلى اللاتينيِّ بجدولٍ مطّرد، ثمّ الهيكلُ "
                  "بأداةِ المروحةِ نفسِها. والمطويُّ مفتاحُ بحثٍ لا دعوى صوت."),
         "entries": entries,
+        "by_exact": {k: v for k, v in sorted(by_exact.items())},
         "by_skeleton": {k: v for k, v in sorted(by_skeleton.items())},
         "by_folded": {k: v for k, v in sorted(by_folded.items())},
     }
@@ -149,12 +165,20 @@ def look(form: str, limit: int | None = None) -> tuple[list[dict], str]:
     def clipped(values: list[dict]) -> list[dict]:
         return values if limit is None else values[:limit]
 
-    idx = lex["by_skeleton"].get(AED.skeleton_key(form), [])
+    query = latinize(form) or form
+    if not AED.skeleton_key(query):
+        idx = lex.get("by_exact", {}).get(query.casefold(), [])
+        if idx:
+            return clipped([lex["entries"][i] for i in idx]), "رسمٌ مطابق بلا هيكل صامتي"
+    idx = lex["by_skeleton"].get(AED.skeleton_key(query), [])
     if idx:
         return clipped([lex["entries"][i] for i in idx]), "هيكلٌ مطابق"
-    idx = lex["by_folded"].get(AED.folded_key(form), [])
+    idx = lex["by_folded"].get(AED.folded_key(query), [])
     if idx:
         return clipped([lex["entries"][i] for i in idx]), "هيكلٌ مطويٌّ (فرقُ رسم)"
+    idx = lex.get("by_exact", {}).get(query.casefold(), [])
+    if idx:
+        return clipped([lex["entries"][i] for i in idx]), "رسمٌ مطابق بعد تعذر الهيكل"
     return [], "لا مدخل"
 
 
@@ -167,7 +191,8 @@ def main() -> int:
     if args.look:
         for form in args.look:
             hits, how = look(form)
-            print(f"\n{form}  (هيكل {AED.skeleton_key(form)})  {len(hits)} مدخلًا، {how}:")
+            query = latinize(form) or form
+            print(f"\n{form}  (هيكل {AED.skeleton_key(query)})  {len(hits)} مدخلًا، {how}:")
             for e in hits[:12]:
                 print(f"  {e['coptic']:14} {e['latin']:12} {e['pos'][:14]:16} {e['en'][:60]}")
         return 0

@@ -1311,6 +1311,47 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
       عَدَدُ الصِّلات، وكَيفَ انقَسَمَت بينَ طَبَقةِ الجَذرِ المُتَأخِّرةِ وطَبَقةِ النَّواةِ الأقدَم، وكَم بَلَغَ من
       <b>جَذرٍ عَرَبِيٍّ مُتَمايِز</b>، وهو ما لا يَكشِفُه عَدَدُ الصِّلاتِ وحدَه.</p>
     <div id="tb-board" style="margin-top:14px;"></div>
+
+    <!-- لوحةُ المسحِ المباشر: الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه.
+         مادّةٌ مرشَّحةٌ من قواميسِ الفروعِ الأصيلة، لا تدخلُ عدَّ الصلاتِ الصادرة. -->
+    <div class="hp-gh" style="margin-top:26px;">
+      <span class="lang-en">Sound first, meaning decides</span>
+      <span class="lang-ar">الصَّوتُ يُقابِلُ أوَّلًا والمَعنى يَحكُمُ بَعدَه</span>
+      <b><span id="sb-direct">2,899</span><span class="lang-en"> direct</span><span class="lang-ar"> بِشَهادةٍ مُباشِرة</span></b>
+    </div>
+    <p class="hp-lede lang-en">Until now every candidate came from a queue we had ordered ourselves. This sweep does the
+      opposite: it takes <b>each tongue's own dictionary</b>, strips every entry to its consonant skeleton, opens its full
+      Arabic fan, and keeps only candidates that <b>actually exist in the Arabic lexicons</b>. Then it measures how far the
+      two meanings overlap. Across <b id="sb-tongues">14</b> tongues it returned <b id="sb-both">3,989</b> forms matching in
+      both sound and sense, <b class="sb-direct">2,899</b> of them on direct dictionary witness, and a further
+      <b id="sb-sound">23,294</b> matching in sound alone and still waiting for a reader.</p>
+    <p class="hp-lede lang-ar">كانَ كُلُّ مُرَشَّحٍ إلى اليَومِ يَأتي من طابورٍ رَتَّبناهُ نَحن. وهذا المَسحُ يَعكِسُ ذلك:
+      يَأخُذُ <b>قاموسَ كُلِّ لِسانٍ نَفسَه</b>، فيُجَرِّدُ كُلَّ مَدخَلٍ إلى هَيكَلِه الصّامِتِيّ، ويَفتَحُ مَروَحَتَه
+      العَرَبِيّةَ كامِلة، ويُبقي المُرَشَّحَ <b>الموجودَ فِعلًا في مَعاجِمِ العَرَبِيّة</b>، ثُمَّ يَقيسُ تَقاطُعَ
+      المَعنى بينَ الطَّرَفَين. وقد ردَّ في <b class="sb-tongues">14</b> لِسانًا <b class="sb-both">3,989</b> صورةً
+      اجتَمَعَ لها الصَّوتُ والمَعنى، منها <b class="sb-direct">2,899</b> بِشَهادةٍ مُباشِرة، ومعها
+      <b class="sb-sound">23,294</b> طابَقَت في الصَّوتِ وحدَه وتَنتَظِرُ قارِئًا.</p>
+    <div id="sb-board" style="margin-top:12px;"></div>
+    <div class="hp-table-wrap" style="margin-top:12px;">
+      <table class="hp-table"><thead><tr>
+        <th><span class="lang-en">Tongue</span><span class="lang-ar">اللِّسان</span></th>
+        <th><span class="lang-en">Word</span><span class="lang-ar">الكَلِمة</span></th>
+        <th><span class="lang-en">Say it</span><span class="lang-ar">انطِقْها</span></th>
+        <th><span class="lang-en">Its meaning</span><span class="lang-ar">مَعناها</span></th>
+        <th><span class="lang-en">Arabic</span><span class="lang-ar">العَرَبِيّ</span></th>
+      </tr></thead><tbody id="sb-rows"></tbody></table>
+    </div>
+    <p class="hp-note">
+      <span class="lang-en">Exploration layer, and a candidate pool only: these forms are <b>not</b> counted among the issued
+        links. Each still has to earn a card on the three legs, a named sound path, the frozen letter-event, and a hand
+        written orbit. What a branch dictionary says about a form's origin is recorded beside it as information, never used
+        to close the question.</span>
+      <span class="lang-ar">طَبَقةُ استِكشاف، وحَوضُ مُرَشَّحاتٍ لا غَير: هذه الصُّوَرُ <b>لا</b> تُعَدُّ في الصِّلاتِ
+        الصّادِرة. وكُلُّ واحِدةٍ عليها أن تَكسِبَ بِطاقَتَها بالأرجُلِ الثَّلاث: مَسارُ صَوتٍ مُسَمًّى، وحَدَثُ الحَرفِ
+        المُجَمَّد، ومَدارٌ مَكتوبٌ باليَد. وما يَقولُه قاموسُ الفَرعِ عن أصلِ الصّورةِ يُكتَبُ بِجانِبِها خَبَرًا،
+        ولا يُستَعمَلُ لإغلاقِ السُّؤال.</span>
+    </p>
+
     <p class="hp-note">
       <span class="lang-en">Exploration layer. Counts come from the same counter that feeds every figure on this page.
         The era and script beside each tongue are the conventional approximate dating found in the historical
@@ -2923,6 +2964,48 @@ const SUPABASE_TABLE = 'messages';
       if (el && html) el.innerHTML = html;
     })
     .catch(function () { /* اللوحةُ زيادةٌ في البيان، فغيابُها لا يُسقِطُ الصفحة */ });
+
+  // لوحةُ المسحِ المباشر. **حوضُ مرشَّحاتٍ لا صلاتٌ صادرة**، وذلك مكتوبٌ في
+  // وجهِ اللوحةِ حتّى لا يُخلَطَ العددانِ على القارئ.
+  fetch('data/sweep-board.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (b) {
+      var t = b.totals || {};
+      put('#sb-both, .sb-both', N(t.both));
+      put('#sb-direct, .sb-direct', N(t.direct));
+      put('#sb-sound, .sb-sound', N(t.sound_only));
+      put('#sb-tongues, .sb-tongues', N(t.tongues));
+
+      var tiles = (b.tongues || []).map(function (x) {
+        var share = x.both ? Math.round(100 * x.direct / x.both) : 0;
+        return '<div class="tb-t">'
+          + '<div class="tb-name"><span class="lang-en">' + esc(x.en) + '</span>'
+          + '<span class="lang-ar">' + esc(x.ar) + '</span></div>'
+          + '<div class="tb-n">' + N(x.both)
+          + '<span class="lang-en">sound + sense</span><span class="lang-ar">صَوتًا ومَعنًى</span></div>'
+          + '<div class="hp-bar"><i class="n" style="width:' + share + '%"></i>'
+          + '<i class="r" style="width:' + (100 - share) + '%"></i></div>'
+          + '<div class="tb-sub"><span class="lang-en">' + N(x.direct)
+          + ' on direct witness · ' + N(x.sound_only) + ' sound only</span>'
+          + '<span class="lang-ar">' + N(x.direct) + ' بِشَهادةٍ مُباشِرة · '
+          + N(x.sound_only) + ' صَوتًا وحدَه</span></div>'
+          + '</div>';
+      }).join('');
+      var el = document.getElementById('sb-board');
+      if (el && tiles) el.innerHTML = '<div class="tb-grid">' + tiles + '</div>';
+
+      var rows = (b.examples || []).slice(0, 30).map(function (e) {
+        return '<tr><td><span class="lang-en">' + esc(e.en) + '</span>'
+          + '<span class="lang-ar">' + esc(e.ar) + '</span></td>'
+          + '<td dir="ltr"><code>' + esc(e.branch) + '</code></td>'
+          + '<td dir="ltr">' + esc(e.say || '') + '</td>'
+          + '<td dir="ltr">' + esc(e.gloss || '') + '</td>'
+          + '<td><b>' + esc(e.arabic) + '</b></td></tr>';
+      }).join('');
+      var tb2 = document.getElementById('sb-rows');
+      if (tb2 && rows) tb2.innerHTML = rows;
+    })
+    .catch(function () { /* حوضُ المرشَّحاتِ زيادةُ بيانٍ لا ركنُ صفحة */ });
 })();
 </script>
 

@@ -1,0 +1,161 @@
+{
+  "schema": "phonetic-sweep-germanic-celtic-compact-harvest-v1",
+  "date": "2026-08-15",
+  "method": "sound-first-meaning-judges-read-all-write-used",
+  "cards": 2816,
+  "batches": 19,
+  "max_card_bytes": 5120,
+  "largest_card_bytes": 3662,
+  "counts": {
+    "by_phase": {
+      "direct-witness": 152,
+      "sound-and-meaning": 114,
+      "sound-only": 2550
+    },
+    "by_language": {
+      "old-english": 920,
+      "old-norse": 798,
+      "old-irish": 586,
+      "gothic": 512
+    },
+    "by_status": {
+      "protected-live-reference": 58,
+      "open-candidate": 2753,
+      "named-semitic-donor": 5
+    }
+  },
+  "examples": [
+    {
+      "id": "PS-GC-C-OLD-ENGLISH-00001",
+      "language": "old-english",
+      "word": "burg",
+      "romanization": "burg",
+      "root": "برج",
+      "status": "protected-live-reference",
+      "declared_event_tier": 1,
+      "manual_orbit": "المكان المحصن والقلعة يقابلان برج الحصن وركنه مقابلة مباشرة، ويجتمع الصوت والمعنى في مادة واحدة",
+      "cross_branch_note": "",
+      "card_bytes": 2262
+    },
+    {
+      "id": "PS-GC-C-OLD-ENGLISH-00004",
+      "language": "old-english",
+      "word": "magan",
+      "romanization": "magan",
+      "root": "مكن",
+      "status": "protected-live-reference",
+      "declared_event_tier": 1,
+      "manual_orbit": "الاستطاعة هي التمكن من الفعل والقدرة عليه، فمعنى الفرع يلتقي مادة مكن في القدرة والرسوخ بلا سلسلة مدارات",
+      "cross_branch_note": "تكرر الهيكل والمعنى في الإنجليزية القديمة ˋmaganˋ والنوردية القديمة ˋmeginˋ، ومعهما القوطية ˋmaganˋ. تكراره في ألسن جرمانية مستقلة شاهد أسري يثبت في البطاقة، ولا يستبدل الأرجل الثلاث ولا جولة الضبط",
+      "card_bytes": 2867
+    },
+    {
+      "id": "PS-GC-C-OLD-NORSE-00055",
+      "language": "old-norse",
+      "word": "megin",
+      "romanization": "megin",
+      "root": "مكن",
+      "status": "protected-live-reference",
+      "declared_event_tier": 1,
+      "manual_orbit": "القوة والمكنة والقدرة تحقق معنى التمكن، واجتماع هذه الصورة مع magan في الإنجليزية القديمة شاهد عابر للسانين يكتب ولا يحسم وحده",
+      "cross_branch_note": "تكرر الهيكل والمعنى في الإنجليزية القديمة ˋmaganˋ والنوردية القديمة ˋmeginˋ، ومعهما القوطية ˋmaganˋ. تكراره في ألسن جرمانية مستقلة شاهد أسري يثبت في البطاقة، ولا يستبدل الأرجل الثلاث ولا جولة الضبط",
+      "card_bytes": 2910
+    },
+    {
+      "id": "PS-GC-C-OLD-NORSE-00058",
+      "language": "old-norse",
+      "word": "grein",
+      "romanization": "grein",
+      "root": "قرن",
+      "status": "protected-live-reference",
+      "declared_event_tier": 1,
+      "manual_orbit": "الغصن فرع ناتئ ممتد من أصله، فيلتقي حدث قرن في النتوء الممتد، ويقوى المرشح بتكرار قرن في الويلزية واليونانية واللاتينية",
+      "cross_branch_note": "تكرر المرشح في النوردية القديمة، والويلزية، واليونانية، واللاتينية، وتظهر صورة ˋcornˋ في الإيرلندية القديمة. هذا الإشعاع العابر للفروع حجة مساندة تكتب، ولا يصدر منها حكم منفرد",
+      "card_bytes": 2855
+    },
+    {
+      "id": "PS-GC-C-OLD-NORSE-00060",
+      "language": "old-norse",
+      "word": "heyja",
+      "romanization": "heyja",
+      "root": "هيج",
+      "status": "open-candidate",
+      "declared_event_tier": 1,
+      "manual_orbit": "خوض القتال وإثارته صورة من الهيجان والوثوب إلى الخصم، لكن المدار لا يغني عن تحرير صف الصامت الأخير",
+      "cross_branch_note": "",
+      "card_bytes": 1958
+    },
+    {
+      "id": "PS-GC-C-OLD-IRISH-00110",
+      "language": "old-irish",
+      "word": "gaibid",
+      "romanization": "gaibid",
+      "root": "قبض",
+      "status": "protected-live-reference",
+      "declared_event_tier": 1,
+      "manual_orbit": "الإمساك والأخذ والانتزاع هي أفعال القبض نفسها، فالمعنى مباشر في مادة واحدة، مع بقاء تحرير g مع القاف شرطًا صوتيًا مستقلًا",
+      "cross_branch_note": "",
+      "card_bytes": 2479
+    },
+    {
+      "id": "PS-GC-C-OLD-IRISH-00114",
+      "language": "old-irish",
+      "word": "subach",
+      "romanization": "subach",
+      "root": "صبح",
+      "status": "open-candidate",
+      "declared_event_tier": 1,
+      "manual_orbit": "البهجة والإشراق في cheerful وmerry يلتقيان وجه الصباح في انكشاف الضوء وانبساط النفس، لكنه مدار مرشح لا يقوم مقام الصف الصوتي",
+      "cross_branch_note": "",
+      "card_bytes": 2206
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-00137",
+      "language": "gothic",
+      "word": "𐌲𐌹𐌱𐌻𐌰",
+      "romanization": "gibla",
+      "root": "جبل",
+      "status": "protected-live-reference",
+      "declared_event_tier": 1,
+      "manual_orbit": "ذروة البناء وقمته بروز عظيم غليظ فوق ما يحيط به، وهو تطبيق حسي لحدث جبل في تجمع العظم والغلظ والارتفاع",
+      "cross_branch_note": "",
+      "card_bytes": 2284
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-00138",
+      "language": "gothic",
+      "word": "𐌸𐌰𐍂𐌱𐌰",
+      "romanization": "tharba",
+      "root": "طلب",
+      "status": "protected-live-reference",
+      "declared_event_tier": 1,
+      "manual_orbit": "الحاجة والعوز يبعثان الطالب إلى ابتغاء ما فقده، فمعنى الفرع يلتقي مادة طلب في قصد الشيء وابتغائه لا في لفظ إنجليزي وسيط",
+      "cross_branch_note": "",
+      "card_bytes": 2273
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-00139",
+      "language": "gothic",
+      "word": "𐍆𐍂𐌹𐌾𐌴𐌹",
+      "romanization": "frijei",
+      "root": "فرج",
+      "status": "protected-live-reference",
+      "declared_event_tier": 1,
+      "manual_orbit": "الحرية حالة انفراج بعد حبس أو ضيق، فهي ظل حالة واحد لفتح الفرج وكشف الشدة، مع بقاء فحص الصامت الثالث مستقلًا",
+      "cross_branch_note": "",
+      "card_bytes": 2279
+    },
+    {
+      "id": "PS-GC-C-GOTHIC-00142",
+      "language": "gothic",
+      "word": "𐌱𐌹𐌷𐌰𐌹𐍄",
+      "romanization": "bihait",
+      "root": "بهت",
+      "status": "open-candidate",
+      "declared_event_tier": 3,
+      "manual_orbit": "قول الزور على المرء بما لم يفعله هو نفس حس البهتان في مادة بهت، لكن خبر السابقة القوطية يبقى حاشية صرفية ولا يحول البطاقة إلى إغلاق",
+      "cross_branch_note": "",
+      "card_bytes": 2827
+    }
+  ]
+}

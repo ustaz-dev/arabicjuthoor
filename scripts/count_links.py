@@ -96,6 +96,58 @@ def scan_card(block: str) -> set[str]:
     return out
 
 
+def scan_path(path: pathlib.Path):
+    """اقرأ حقول العد فقط من غير إبقاء أجساد البطاقات الكبيرة في الذاكرة."""
+    head: str | None = None
+    degrees: set[str] = set()
+    family: str | None = None
+    member: str | None = None
+    template = False
+    with path.open(encoding="utf-8") as handle:
+        for raw_line in handle:
+            line = bare(raw_line.rstrip("\r\n"))
+            heading = re.match(r"^#{3,4}\s+(.+)$", line)
+            if heading:
+                if head is not None:
+                    key_match = HEADWORD.match(head)
+                    yield head, degrees, family or member or (
+                        key_match.group(1).strip() if key_match else None
+                    )
+                head = heading.group(1)
+                degrees = set()
+                family_match = FAMILY.search(head)
+                member_match = MEMBER.search(head)
+                family = family_match.group(1).strip() if family_match else None
+                member = member_match.group(1).strip() if member_match else None
+                template = is_template(head)
+                continue
+            if head is None or template:
+                continue
+            if family is None:
+                match = FAMILY.search(line)
+                if match:
+                    family = match.group(1).strip()
+            if member is None:
+                match = MEMBER.search(line)
+                if match:
+                    member = match.group(1).strip()
+            verdict = VERDICT_FIELDS.match(line)
+            if not verdict:
+                continue
+            value = verdict.group(1)
+            if any(cancelled in value for cancelled in CANCELLED):
+                continue
+            for degree in DEGREES:
+                if degree in value:
+                    degrees.add(degree)
+                    break
+    if head is not None:
+        key_match = HEADWORD.match(head)
+        yield head, degrees, family or member or (
+            key_match.group(1).strip() if key_match else None
+        )
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", help="اكتب الحصيلة إلى ملف JSON")
@@ -111,16 +163,11 @@ def main() -> int:
 
     for path in sorted(READINGS.glob("*.md")):
         lang = path.stem
-        text = bare(path.read_text(encoding="utf-8"))
-        for block in CARD_SPLIT.split(text)[1:]:
+        for head, degrees, key in scan_path(path):
             total_cards += 1
-            head = block.split("\n", 1)[0]
-            degrees = scan_card(block)
             if not degrees:
                 continue
             headings[head.split(":", 1)[0].strip()[:34]] += 1
-            m = FAMILY.search(block) or MEMBER.search(block) or HEADWORD.match(head)
-            key = m.group(1).strip() if m else None
             if key is None:
                 unkeyed[lang] += 1
             for d in degrees:

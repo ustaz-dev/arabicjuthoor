@@ -64,6 +64,23 @@ TIERS = [
 ]
 
 
+def iter_cards(path):
+    """بطاقاتُ القراءةِ تباعًا، بحدود ``CARD_SPLIT`` نفسها ومن غير تحميل الملف."""
+    block: list[str] | None = None
+    with path.open(encoding="utf-8") as handle:
+        for raw_line in handle:
+            line = C.bare(raw_line)
+            marker = C.CARD_SPLIT.match(line)
+            if marker:
+                if block is not None:
+                    yield "".join(block)
+                block = [line[marker.end():]]
+            elif block is not None:
+                block.append(line)
+    if block is not None:
+        yield "".join(block)
+
+
 def carded_roots() -> dict[str, set[str]]:
     """أيُّ الجذورِ صدرَت فيها بطاقةٌ فعلًا، لكلِّ لسان. فالروزنامةُ تقولُ للقارئِ
     أينَ وصلَ المرشَّحُ ولا تتركُه يظنُّ أنّ كلَّ صفٍّ حكمٌ."""
@@ -72,8 +89,7 @@ def carded_roots() -> dict[str, set[str]]:
         path = READINGS / f"{stem}.md"
         roots: set[str] = set()
         if path.exists():
-            text = C.bare(path.read_text(encoding="utf-8"))
-            for raw in C.CARD_SPLIT.split(text)[1:]:
+            for raw in iter_cards(path):
                 if not C.scan_card(raw):
                     continue
                 roots |= {unicodedata.normalize("NFC", m)

@@ -133,6 +133,21 @@ def reading_cards(text: str) -> list[str]:
     return cards
 
 
+def iter_reading_cards(path: Path):
+    """اقرأ كتل ``### `` تباعًا، بحدود ``reading_cards`` نفسها وذاكرة بطاقة."""
+    block: list[str] | None = None
+    with path.open(encoding="utf-8") as handle:
+        for line in handle:
+            if line.startswith("### "):
+                if block is not None and "<" not in block[0]:
+                    yield "".join(block)
+                block = [line]
+            elif block is not None:
+                block.append(line)
+    if block is not None and "<" not in block[0]:
+        yield "".join(block)
+
+
 def live_verdict(card: str) -> str:
     match = VERDICT_LINE.search(card)
     return match.group(1) if match else ""
@@ -143,7 +158,7 @@ def live_blocker(card: str) -> str:
     return match.group(1) if match else ""
 
 
-def counted_outcomes(card: str) -> list[str]:
+def counted_outcomes(card: str, positives: set[str] | None = None) -> list[str]:
     """Every outcome this card asserts.
 
     The positive half is delegated to scripts/count_links.py so there is one
@@ -154,7 +169,8 @@ def counted_outcomes(card: str) -> list[str]:
     falls back to a single closure, read from the verdict field or from the
     authoritative blocker field.
     """
-    positives = count_links.scan_card(count_links.bare(card))
+    if positives is None:
+        positives = count_links.scan_card(count_links.bare(card))
     if positives:
         return sorted(positives)
     verdict = live_verdict(card)
@@ -172,23 +188,22 @@ def language_rows() -> list[dict]:
         stem = path.stem
         if stem in SKIP_READINGS:
             continue
-        text = path.read_text(encoding="utf-8")
-        card_blocks = reading_cards(text)
-        cards = len(card_blocks)
+        cards = 0
+        verdicts: Counter = Counter()
+        layers = Counter()
+        for card in iter_reading_cards(path):
+            cards += 1
+            degrees = count_links.scan_card(count_links.bare(card))
+            verdicts.update(counted_outcomes(card, degrees))
+            for degree in degrees:
+                layers[count_links.layer(degree)] += 1
         if not cards:
             continue
-        verdicts = Counter(
-            outcome for card in card_blocks for outcome in counted_outcomes(card)
-        )
         links = sum(
             count for name, count in verdicts.items() if name in POSITIVE_VERDICTS
         )
         # الطبقةُ لكلِّ لسان، بقانونِ count_links نفسِه: كلُّ درجةٍ صادرةٍ تُحسَبُ
         # في طبقتِها. وبها تصيرُ لوحةُ الحالةِ تعرضُ الدعوى لا حجمَ العملِ وحدَه.
-        layers = Counter()
-        for card in card_blocks:
-            for degree in count_links.scan_card(count_links.bare(card)):
-                layers[count_links.layer(degree)] += 1
         en, ar = LANGUAGE_NAMES.get(stem, (stem.replace("-", " ").title(), stem))
         rows.append({
             "key": stem, "en": en, "ar": ar, "cards": cards, "links": links,
@@ -214,9 +229,10 @@ def verdict_totals() -> dict:
     for path in sorted(READINGS.glob("*.md")):
         if path.stem in SKIP_READINGS:
             continue
-        cards = reading_cards(path.read_text(encoding="utf-8"))
         counts.update(
-            outcome for card in cards for outcome in counted_outcomes(card)
+            outcome
+            for card in iter_reading_cards(path)
+            for outcome in counted_outcomes(card)
         )
     links = sum(c for name, c in counts.items() if name in POSITIVE_VERDICTS)
     closures = sum(c for name, c in counts.items() if name in CLOSURE_VERDICTS)

@@ -1,0 +1,387 @@
+{
+  "schema": "phonetic-sweep-latin-preparation-v1",
+  "date": "2026-08-15",
+  "language": "latin",
+  "script": "latin",
+  "sweep_sha256": "11d60ad37414690668ebb25dd991bdcea62ca5aca7fc2baabb64dbb024101881",
+  "counts": {
+    "sound_and_meaning": 416,
+    "direct_meaning": 285,
+    "meaning_remainder": 131,
+    "sound_only_waiting": 3000,
+    "cards": 3416,
+    "batches": 23,
+    "unique_candidate_roots": 5820,
+    "roots_with_lexicographic_witnesses": 2570,
+    "full_lexicographic_witness_records": 23203,
+    "prior_issued_forms": 28,
+    "latin_lexicon_entries": 47919
+  },
+  "controls": [
+    {
+      "word": "trūdō",
+      "root": "طرد",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "baseline": "1281ac5",
+      "old_count": 18,
+      "new_count": 18,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "event_available_at_declared_tier": true,
+      "event_text": "إبعاد أو ابتعاد عن الحيز بتتابع ودفع قوي من الخلف"
+    },
+    {
+      "word": "cornū",
+      "root": "قرن",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "baseline": "1281ac5",
+      "old_count": 6,
+      "new_count": 6,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "event_available_at_declared_tier": true,
+      "event_text": "نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه"
+    },
+    {
+      "word": "tinniō",
+      "root": "طن",
+      "closure": "FLOOR-TRACE",
+      "event_tier": 4,
+      "baseline": "1281ac5",
+      "old_count": 30,
+      "new_count": 30,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "event_available_at_declared_tier": true,
+      "event_text": "«ط»: إطباقٌ عريضٌ ثقيلٌ للسانِ يحبسُ النفَسَ بضغطٍ ثمّ ينفتحُ عنه منبسِطًا منتشرًا.؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه"
+    },
+    {
+      "word": "separo",
+      "root": "صور",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "baseline": "1281ac5",
+      "old_count": 16,
+      "new_count": 16,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "event_available_at_declared_tier": true,
+      "event_text": "حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره"
+    },
+    {
+      "word": "abutor",
+      "root": "بتر",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "baseline": "1281ac5",
+      "old_count": 36,
+      "new_count": 36,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "event_available_at_declared_tier": true,
+      "event_text": "قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا"
+    },
+    {
+      "word": "tergeo",
+      "root": "ترك",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "baseline": "1281ac5",
+      "old_count": 24,
+      "new_count": 24,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "event_available_at_declared_tier": true,
+      "event_text": "مفارقة الشيء ما كان يعلق به فيبقى بلا حاجة إليه او تصرف فيه"
+    }
+  ],
+  "a_minus_b_nonempty": 0,
+  "law": {
+    "fan_call": "fan_any_script.fan(w, 'latin')",
+    "all_event_tiers": true,
+    "dictionary_call": "build_kaikki_index.look('latin', w)",
+    "root_witness_max_chars": 0,
+    "origin_is_information_only": true,
+    "greek_origin_routes_to_greek_reserve": true,
+    "sound_only_is_waiting_not_rejected": true,
+    "live_outbound_links_untouched": true,
+    "manual_positive_orbits_only": true
+  },
+  "prior_issued": {
+    "cornu": [
+      {
+        "heading": "بطاقة: cornū «horn»",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      },
+      {
+        "heading": "بطاقة: ˋlatin:family:2adeabceb716e1f6484398dbˋ، cornu (التغطية الكاملة ج2، 716)",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      },
+      {
+        "heading": "بطاقة: cornū «قرن، ناب»",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      },
+      {
+        "heading": "بطاقة: ˋcornuˋ «قرن ، خوذة ، قمة»؛ khashim-old-latin-full-fan/146",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      },
+      {
+        "heading": "بطاقة: ˋcornuˋ «قرن وما تفرع منه | زاوية؛ قرن»؛ خشيم الهندية الأوربية 001/0077",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "nequitia": [
+      {
+        "heading": "بطاقة: ˋkaikki_latin:71218:en-nequitia-la-noun-UZpccHyMˋ، nequitia (إعادة القراءة بعين النواة)",
+        "closures": [
+          "NUCLEUS-ECHO"
+        ]
+      }
+    ],
+    "maneo": [
+      {
+        "heading": "بطاقة: maneō «يبقى، يمكث، يدوم»",
+        "closures": [
+          "NUCLEUS-TRACE"
+        ]
+      }
+    ],
+    "incido": [
+      {
+        "heading": "بطاقة: incīdō «يقطع أو يشق إلى الداخل»",
+        "closures": [
+          "NUCLEUS-TRACE"
+        ]
+      }
+    ],
+    "placeo": [
+      {
+        "heading": "بطاقة: placeō «يرضي، يكون مقبولا أو مستحسنا»",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "mano": [
+      {
+        "heading": "بطاقة: ˋmanoˋ «يسيل ويجري ويرشح»",
+        "closures": [
+          "NUCLEUS-ECHO",
+          "ROOT-ECHO"
+        ]
+      }
+    ],
+    "pater": [
+      {
+        "heading": "بطاقة: أسرة الأب، Latin ˋpaterˋ",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "mater": [
+      {
+        "heading": "بطاقة: Latin ˋmater/māterˋ «الأم» ↔ مطر",
+        "closures": [
+          "ROOT-ECHO"
+        ]
+      }
+    ],
+    "mulgeo": [
+      {
+        "heading": "بطاقة: Latin ˋmulgeōˋ «يحلب» ↔ ملج",
+        "closures": [
+          "ROOT-ECHO"
+        ]
+      }
+    ],
+    "braca": [
+      {
+        "heading": "بطاقة: ˋbracaˋ «ركبة»؛ khashim-old-latin-full-fan/081",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "clamo": [
+      {
+        "heading": "بطاقة: ˋclamoˋ «صاح ، أعلن . ترادف calo»؛ khashim-old-latin-full-fan/129",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "copula": [
+      {
+        "heading": "بطاقة: ˋcopulaˋ «اتصال ، صلة ، رباط»؛ khashim-old-latin-full-fan/140",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "corona": [
+      {
+        "heading": "بطاقة: ˋcoronaˋ «شعار على الرأس ، تاج»؛ khashim-old-latin-full-fan/147",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "frico": [
+      {
+        "heading": "بطاقة: ˋfricoˋ «حك»؛ khashim-old-latin-full-fan/213",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      },
+      {
+        "heading": "بطاقة: ˋfriō / fricōˋ «crumble; rub; break into pieces» ↔ فر",
+        "closures": [
+          "NUCLEUS-TRACE"
+        ]
+      }
+    ],
+    "furca": [
+      {
+        "heading": "بطاقة: ˋfurcaˋ «مذراة ذات سنين . شوكة ذات شعبتين»؛ khashim-old-latin-full-fan/221",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      },
+      {
+        "heading": "بطاقة: ˋfurcaˋ «شوكة؛ شعب؛ فرع؛ أداة متشعبة»؛ خشيم الهندية الأوربية 002/0593",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      },
+      {
+        "heading": "بطاقة مدمجة: ˋfurcaˋ؛ KIE-M0318",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "porca": [
+      {
+        "heading": "بطاقة: ˋporcaˋ «قطعة أرض ، قسم من الأرض ، حقل (جمعها porcae)»؛ khashim-old-latin-full-fan/366",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "semita": [
+      {
+        "heading": "بطاقة: ˋsemitaˋ «طريق ، رصيف . لا تأثيل لها»؛ khashim-old-latin-full-fan/410",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "sorbeo": [
+      {
+        "heading": "بطاقة: ˋsorbeoˋ «بلع، ابتلع، مص، امتص . تجرع»؛ khashim-old-latin-full-fan/436",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "patina": [
+      {
+        "heading": "بطاقة حصاد القرض المعاد فتحه: ˋpatinaˋ؛ LH-OLD-LATIN-00322",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "camisia": [
+      {
+        "heading": "بطاقة حصاد القرض المعاد فتحه: ˋcamisiaˋ؛ LH-OLD-LATIN-01266",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "sibina": [
+      {
+        "heading": "بطاقة حصاد القرض المعاد فتحه: ˋsibinaˋ؛ LH-OLD-LATIN-02514",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "glubo": [
+      {
+        "heading": "بطاقة: ˋgluboˋ «كرب»؛ PS-LATIN-ISSUE-00248",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "nobilis": [
+      {
+        "heading": "بطاقة: ˋnobilisˋ «نبل»؛ PS-LATIN-ISSUE-00011",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "tumulo": [
+      {
+        "heading": "بطاقة: ˋtumuloˋ «طمر»؛ PS-LATIN-ISSUE-00020",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "cooperio": [
+      {
+        "heading": "بطاقة: ˋcooperioˋ «كفر»؛ PS-LATIN-ISSUE-00190",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "incisio": [
+      {
+        "heading": "بطاقة: ˋincisioˋ «نقش»؛ PS-LATIN-ISSUE-00288",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "necesse": [
+      {
+        "heading": "بطاقة: ˋnecesseˋ «نقص»؛ PS-LATIN-ISSUE-00358",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ],
+    "caesim": [
+      {
+        "heading": "بطاقة: ˋcaesimˋ «قسم»؛ PS-LATIN-ISSUE-00376",
+        "closures": [
+          "ROOT-TRACE"
+        ]
+      }
+    ]
+  },
+  "files": {
+    "events": "data/phonetic-sweep-latin-events.jsonl",
+    "root_witnesses": "data/phonetic-sweep-latin-root-witnesses-part-*.jsonl",
+    "root_witness_parts": 2,
+    "batches": "data/phonetic-sweep-latin-cards-batch-*.json"
+  }
+}

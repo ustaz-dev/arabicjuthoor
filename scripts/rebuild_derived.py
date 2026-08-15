@@ -24,6 +24,8 @@ PY = sys.executable
 
 # (اسمُ السكربت، وسائطُ البناء)، بترتيبِ التبعيّة
 BUILD = [
+    ("build_greek_borrowings_in_latin.py", []),
+    ("build_non_coptic_borrowings_in_coptic.py", []),
     ("scan_recovery_ledger.py", []),
     ("count_links.py", ["--json", "data/link-count.json"]),
     ("count_proof_eligible_families.py", []),
@@ -34,11 +36,16 @@ BUILD = [
     ("build_lane_b_open_review_queue.py", []),
     ("build_links_showcase.py", []),          # معرضُ صفحةِ الصلات، من البطاقاتِ نفسِها
     ("build_tongue_board.py", []),            # لوحةُ الألسنِ في الصدرِ وصفحةِ الحالة
+    ("build_sweep_board.py", []),             # لوحةُ المسحِ المباشرِ (حوضُ مرشَّحاتٍ لا صلات)
     ("build_discoveries.py", []),             # روزنامةُ المرشَّحين، من المسحِ نفسِه
 ]
 
 # بوّاباتُ النشر، بترتيبِ deploy.yml
 GATES = [
+    ("build_greek_borrowings_in_latin.py", ["--check"]),
+    ("build_non_coptic_borrowings_in_coptic.py", ["--check"]),
+    ("reexamine_coptic_arabic.py", ["--check"]),
+    ("check_coptic_rule_six.py", []),
     ("check_charge_purity.py", []),
     ("check_publication_consistency.py", []),
     ("scan_recovery_ledger.py", ["--check"]),

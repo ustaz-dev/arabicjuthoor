@@ -148,3 +148,84 @@
 | `neṭm` | `روح` | 2 | 3 |
 | `haṭr-t` | `خلا` | 2 | 3 |
 | `hephep` | `هيب` | 4 | 3 |
+
+---
+
+# ملحقٌ 2026-08-15: صفُّ الذالِ المصريّةِ `ḏ`، أثقلُ فجوةٍ قائمةٍ في المصريّة
+
+**الطبقة:** اقتراحٌ غيرُ نافذ. **لا يدخلُ `shift-network-draft.md` إلّا بتوقيعِ المؤلّف.**
+
+## المشكلةُ مقيسة
+
+في `04-cross-linguistic/readings/egyptian.md` **601 بطاقةٍ حالتُها `LAW-GAP`**،
+أي تكادُ أرجلُها تكتملُ ويحبسُها غيابُ صفٍّ مسمًّى في الشبكة. ومنها **17 صورةً
+صدرُها حرفُ `ḏ`**. وحالُ هذه البطاقاتِ اليومَ ليست ضياعًا: هي **حيّةٌ بحكمِ
+`NUCLEUS-TRACE` على نواتِها**، والمحبوسُ ترقيتُها إلى الجذرِ الكامل.
+
+مثالُها بنصِّ بطاقتِه: «طبقةُ الجذر: لا حكم بسبب `ḏ`. طبقةُ النواة: `n-ḥ` من
+2-3 ↔ `ن-ح` بهويةِ الصامتين» ثمّ «حالةُ الإغلاق: READY في النواة؛ الجذر
+`LAW-GAP`».
+
+**وفي الشبكةِ اليومَ ثلاثةُ صفوفٍ مصريّةٍ لا رابعَ لها**: `BR-EGYP-01` (عدمُ
+التفريقِ الكتابيِّ بين r وl)، و`BR-EGYP-02` (n/r/nr قد تمثّلُ /l/ بشرطِ خلَفٍ
+ديموطيقيٍّ أو قبطيّ)، و`BR-EGYP-03` (البينُ أسنانيُّ الساميُّ الأمُّ ث يظهرُ s).
+**وليس فيها صفٌّ لحرفِ `ḏ` البتّة.**
+
+## الشاهدانِ المستقلّانِ من مادّتِنا
+
+| الصورةُ المصريّة | معناها في AED | المرشَّحُ العربيُّ في مروحتِنا | حدثُه المجمَّدُ درجةً أولى |
+|---|---|---|---|
+| `ḏnḥ` | wing | `جنح` | «امتدادٌ أو اندفاعٌ من الجوانبِ قويٌّ أو حادّ» |
+| `ḏnb` | to be crooked | `جنب` | حدثٌ من الدرجةِ الأولى في السجلِّ المجمَّد |
+
+**وهما شاهدانِ لا شاهد**: صورتانِ مختلفتانِ ومعنيانِ مختلفانِ، وكلتاهما تقعُ على
+`ج`. ومطابقةُ المعنى في الأولى لافتة: حدثُ `جنح` المجمَّدُ «امتدادٌ من الجوانب»
+**وصفُ الجناحِ حرفًا بحرف**، ولم يُصَغْ لأجلِه.
+
+**وليست هذه دعوى جديدةً في المروحة**: `fan_any_script` يفتحُ `ḏ` على
+(ذ، ز، ض، ج) منذ بنائِها. المفقودُ **صفٌّ مسمًّى في الشبكةِ المغلقة**، وهو شرطُ
+الرِّجلِ الأولى نصًّا: «مسارُ صوتٍ مسمًّى من الشبكةِ المغلقة».
+
+## وحالةٌ ثانيةٌ أضعفُ تُدوَّنُ ولا تُقترَح
+
+`ḏbꜥ` «finger» يقابِلُها `صبع` (من إصبع)، وحدثُ `صبع` المجمَّدُ **«امتدادٌ دقيقٌ
+لطيفٌ من جرمٍ كبيرٍ أو غليظ»**، وهو وصفُ الإصبعِ بلا تكلُّف. **لكنّ `ص` ليست في
+مروحةِ `ḏ` عندَنا**، فالمقابلةُ تحتاجُ صفًّا آخرَ غيرَ المقترَحِ هنا. تُدوَّنُ
+ولا تُقترَح، ويبقى حكمُها على النواةِ كما هو.
+
+## القيدُ الذي يمنعُني من الترجيح
+
+وثيقةُ الشبكةِ نفسُها تشترطُ لبناءِ صفوفٍ معجميّةٍ مصريّةٍ **مصادرَها المسمّاة**
+(Gardiner وOrel-Stolbova وTakács EDE)، **وهذه المصادرُ ليست عندَنا**. فالشاهدانِ
+أعلاه **من مادّتِنا الداخليّةِ وحدَها**، وهي حجّةٌ تُعرَضُ ولا تُغني عن مصدرٍ
+خارجيٍّ إن اشترطَه المؤلّف.
+
+## ثلاثةُ طرقٍ لا رابعَ لها، والقرارُ للمؤلّف
+
+1. **يُوقَّعُ الصفُّ على الشاهدَينِ الداخليَّين** بقيدٍ مكتوبٍ أنّ سندَه داخليٌّ
+   لا مصدرَ خارجيًّا له، فتُرقّى البطاقاتُ المستوفيةُ وحدَها.
+2. **يُؤجَّلُ حتّى يُقتنى مصدرٌ مسمًّى** (Takács EDE أو نظيرُه)، فيُبنى الصفُّ
+   بشاهدٍ خارجيٍّ كما بُنِيَ `BR-EGYP-03`.
+3. **يُترَكُ كما هو**، فالبطاقاتُ حيّةٌ بأحكامِ النواةِ ولا تضيعُ صلةٌ واحدة،
+   وإنّما تبقى سبعَ عشرةَ صورةً دونَ رتبتِها الممكنة.
+
+**ولا أرجّحُ واحدةً**: الترجيحُ هنا يمسُّ أداةً مجمَّدةً بتوقيعِك، والثالثةُ
+ليست خسارةً بحال.
+
+---
+
+**English abstract.** Egyptian `ḏ` has no row in the frozen shift network,
+whose three Egyptian entries cover only r/l writing, conditional n/r/nr for
+/l/, and Proto-Semitic ṯ appearing as s. Seventeen `ḏ`-initial forms sit at
+`LAW-GAP` among 601 such Egyptian cards; they are alive at NUCLEUS-TRACE and
+only their promotion to full-root rank is blocked. Two independent internal
+witnesses point at Arabic `ج`: `ḏnḥ` "wing" against `جنح`, whose frozen event
+reads "extension or thrust from the sides, strong or sharp", and `ḏnb` "to be
+crooked" against `جنب`. A weaker third case, `ḏbꜥ` "finger" against `صبع`
+whose frozen event reads "a fine delicate extension from a large or thick
+body", is recorded but not proposed, since `ص` lies outside our fan for `ḏ`.
+The network document itself requires named external sources for Egyptian
+lexical rows, and we hold none. Three courses are laid out with no
+recommendation, because signing a row touches a frozen instrument: sign on the
+internal witnesses with a stated caveat, defer until a named source is
+acquired, or leave the cards at nucleus rank, which loses no link at all.

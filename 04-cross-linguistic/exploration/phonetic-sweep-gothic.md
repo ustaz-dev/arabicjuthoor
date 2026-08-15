@@ -6,8 +6,8 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 53**، منها **24** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 701
+**مطابقةُ صوتٍ ومعنًى معًا: 29**، منها **16** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 483
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
@@ -26,15 +26,8 @@
 | `𐌲𐌰𐌱𐌰𐌿𐍂` | gabaur | tribute; collection (gathering of money for charitable or other purposes) | **قبر** | مباشر 3: other | جبر · جبل · غبر · قبل |
 | `𐍃𐌰𐌼𐌰𐌽𐌰` | samana | together | **زمن** | مباشر 3: together | سمن · شمن |
 | `𐌱𐌰𐌿𐍄𐌰𐌽` | bautan | to beat, strike | **بطن** | مباشر 3: strike | بتن · بثن |
-| `𐌰𐌹𐍈𐍃` | aihws | horse | **حص** | مباشر 3: horse | حس · حش · حز · خس · خش |
-| `𐍄𐍂𐌹𐌿` | triu | piece of wood | **طر** | مباشر 3: wood | تر · تل · طل · ثر · ثل |
-| `𐍆𐌴𐍂𐌰` | fera | side, flank, part; region, part | **فل** | مباشر 3: region | فر · بر · بل |
-| `𐌷𐌰𐌹𐌸𐌹` | haithi | field (land area free of woodland, cities, and towns; open country) | **خط** | مباشر 3: land | هث · هت · هط · حث · حت |
-| `𐌾𐌴𐍂` | jer | year; a long time | **جر** | مباشر 3: time | جل |
-| `𐌱𐍉𐍄𐌰` | bota | benefit, use | **بث** | مباشر 3: use | بت · بط |
-| `𐌼𐌴𐌻` | mel | time; a point in time, especially an appointed or fixed time. | **مر** | مباشر 3: time | مل |
-| `𐍃𐌰𐌹𐍂` | sair | pain; sorrow | **سر** | مباشر 3: pain | سل · شر · شل · صر · صل |
-| `𐌻𐌹𐌼𐌰` | lima | why (said by Jesus on the cross) | **لم** | مباشر 3: why | رم |
+| `𐌰𐌱𐌱𐌰` | abba | father | **باب** | مباشر 3: father | بب · ببب · بوب · بيب · وبب |
+| `𐌽𐌹𐌿𐌽` | niun | nine (cardinal number) | **نين** | قرينة 2: cardinal number | ننن · نون · نني · ونن · ينن |
 | `𐍃𐍅𐌴𐌹𐌽` | swein | pig (animal, Sus) | **شون** | قرينة 1: animal | سون · صون · زون |
 | `𐌱𐌻𐍉𐌼𐌰` | bloma | lily (flower in the genus Lilium) | **بلم** | قرينة 1: genus | برم |
 | `𐌰𐌽𐌸𐌰𐍂` | anthar | the other of two, the one that is different from the one just mentioned; the second (numer | **نثر** | قرينة 1: different | نثل · نتر · نتل · نطر · نطل |
@@ -46,21 +39,4 @@
 | `𐍂𐌰𐌲𐌹𐌽` | ragin | law, decree, ordinance; opinion, judgment, advice, counsel | **لجن** | قرينة 1: law | رجن · رغن · رقن · لغن · لقن |
 | `𐌱𐌹𐌿𐌷𐍄𐌹` | biuhti | custom (frequent repetition of the same act) | **بهت** | قرينة 1: act | بحث · بهط · بهث · بحت · بخت |
 | `𐍃𐌿𐌼𐌰𐌽` | suman | once, at some point (in the past); in part | **زمن** | قرينة 1: point | سمن · شمن |
-| `𐌰𐍂𐌺𐌰` | arka | ark; money box, chest | **رك** | قرينة 1: money | رق · لك · لق |
-| `𐌸𐌰𐍂` | thar | there, in that place | **تر** | قرينة 1: there | ثر · ثل · تل · طر · طل |
-| `𐌰𐍆𐌰𐍂` | afar | after, following (in time); after, following (in space) | **فل** | قرينة 1: space | فر · بر · بل |
-| `𐌺𐌿𐌽𐌹` | kuni | kin, family, race | **كن** | قرينة 1: family | قن |
-| `𐌷𐌹𐍅𐌹` | hiwi | appearance, form | **هو** | قرينة 1: appearance | حو · خو · غو |
-| `𐌲𐌰𐍅𐌹` | gawi | land, region, environment | **جو** | قرينة 1: environment | غو · قو |
-| `𐌻𐌰𐌿𐌳𐌹` | laudi | proportions of the body | **لد** | قرينة 1: body | لض · لذ · رد · رض · رذ |
-| `𐍈𐌰𐌽` | hwan | when; whenever, if | **خن** | قرينة 1: many | حن |
-| `𐍂𐌰𐌿𐍃` | raus | cane (plant with a simple and flexible stem, or the stem thereof); cane (stem of such a pl | **رز** | قرينة 1: plant | رس · رش · رص · لس · لص |
-| `𐌴𐌹𐌸𐌰𐌽` | eithan | for which reason, wherefore | **طن** | قرينة 1: which | ثن · تن |
-| `𐌰𐌿𐌷𐌿𐌼𐌰` | auhuma | higher, superior | **حم** | قرينة 1: higher | هم · خم · غم |
-| `𐍆𐌰𐌿𐍃` | faus | few, not many | **فس** | قرينة 1: not | فش · فص · فز · بس · بش |
-| `𐍄𐌹𐌻` | til | something fitting or suitable (attested only as an accusative singular; plausibly not a no | **طر** | قرينة 1: only | تل · تر · طل · ثل · ثر |
-| `𐌻𐌹𐌿𐌸` | liuth | song | **رث** | قرينة 1: song | لث · لت · لط · رت |
-| `𐌼𐌰𐌻𐍉` | malo | moth (insect) | **مل** | قرينة 1: insect | مر |
-| `𐌾𐌿𐌶𐌴𐌹` | juzei | who (with the second-person plural pronoun as antecedent) | **جز** | قرينة 1: who | جذ |
-| `𐌽𐌹𐌱𐌰𐌹` | nibai | if…not, though…not, unless, except | **نب** | قرينة 1: not | - |
-| `𐌰𐍂𐌰𐌱𐌹𐌰` | arabia | a peninsula of West Asia between the Red Sea and the Persian Gulf | **لب** | قرينة 1: sea | رب |
+| `𐌽𐌹𐌱𐌰𐌹` | nibai | if…not, though…not, unless, except | **نب** | قرينة 1: not | نبب · نوب · نيب · نبو · نبا |

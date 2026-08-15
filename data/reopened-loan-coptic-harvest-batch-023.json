@@ -1,0 +1,108 @@
+{
+  "schema": "reopened-loan-coptic-harvest-v1",
+  "date": "2026-08-15",
+  "language": "coptic",
+  "batch": 23,
+  "batch_size": 1,
+  "controls": [],
+  "positive_cards": 0,
+  "positive_traces": 0,
+  "named_semitic_loan_closures": 0,
+  "open_cards": 1,
+  "excluded_non_coptic_origin_cards": 1,
+  "corrected_coptic_denominator": 0,
+  "by_origin": {
+    "ancient-greek": 1
+  },
+  "rows": [
+    {
+      "card_id": "LH-COPTIC-03303",
+      "supersedes": "LOAN-REOPEN-COPTIC-03303",
+      "original_index": 3303,
+      "batch": 23,
+      "coptic_forms": [
+        "ϯⲕⲛⲉⲩⲉ"
+      ],
+      "romanizations": [
+        "tikneue"
+      ],
+      "dialects": [
+        "صعيديّة"
+      ],
+      "meaning": "to explain s.th. to s.o.",
+      "dictionary": {
+        "call": [
+          "build_coptic_index.look('tikneue')"
+        ],
+        "paths": [
+          "هيكلٌ مطابق"
+        ],
+        "selected": [
+          {
+            "id": "C11271",
+            "entry_type": "",
+            "forms": [
+              "ϯⲕⲛⲉⲩⲉ"
+            ],
+            "coptic": "ϯⲕⲛⲉⲩⲉ",
+            "latin": "tikneue",
+            "en": "to explain s.th. to s.o.؛ to demonstrate (as true), i.e., prove s.th.",
+            "pos": "Vb.",
+            "dialects": [
+              "صعيديّة"
+            ],
+            "ref": "DDGLC",
+            "etymology": "459 δεικνεύω to set before, show verb LSJ 373b; Preisigke 1:321 (δείκνυμι)"
+          }
+        ],
+        "all_homographic_entries": [
+          {
+            "id": "C11271",
+            "entry_type": "",
+            "forms": [
+              "ϯⲕⲛⲉⲩⲉ"
+            ],
+            "coptic": "ϯⲕⲛⲉⲩⲉ",
+            "latin": "tikneue",
+            "en": "to explain s.th. to s.o.؛ to demonstrate (as true), i.e., prove s.th.",
+            "pos": "Vb.",
+            "dialects": [
+              "صعيديّة"
+            ],
+            "ref": "DDGLC",
+            "etymology": "459 δεικνεύω to set before, show verb LSJ 373b; Preisigke 1:321 (δείκνυμι)"
+          }
+        ],
+        "selected_ids": [
+          "C11271"
+        ],
+        "romanizations": [
+          "tikneue"
+        ],
+        "forms": [
+          "ϯⲕⲛⲉⲩⲉ"
+        ],
+        "dialects": [
+          "صعيديّة"
+        ],
+        "references": [
+          "DDGLC"
+        ],
+        "etymologies": [
+          "459 δεικνεύω to set before, show verb LSJ 373b; Preisigke 1:321 (δείκνυμι)"
+        ]
+      },
+      "published_source": "459; δεικνεύω; to set before, show; verb; LSJ 373b; Preisigke 1:321 (δείκνυμι) [Comprehensive Coptic Lexicon 1.2، ˋC11271ˋ].",
+      "origin": {
+        "origin": "اليونانية القديمة",
+        "origin_code": "ancient-greek",
+        "named_semitic": false,
+        "closure": "OPEN-CANDIDATE",
+        "target": "مسار اليونانية القديمة"
+      },
+      "closure": "OPEN-CANDIDATE",
+      "counted_link": false,
+      "excluded_from_corrected_coptic_denominator": true
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check the hard Coptic rule-six boundary without changing project data."""
+"""Check Coptic script integrity and the superseding full-Arabic comparison law."""
 from __future__ import annotations
 
 import json
@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 READING = ROOT / "04-cross-linguistic" / "readings" / "coptic.md"
 POLICY = ROOT / "data" / "unicode-language-boundaries.json"
 DB = ROOT / "cache" / "recovery_pipeline" / "inventory-v5.sqlite"
+NON_COPTIC_RESERVE = ROOT / "data" / "non-coptic-borrowings-in-coptic.json"
 DEMOTIC_PAIRS = (
     ("COPTIC CAPITAL LETTER SHEI", "Ϣ", "ϣ"),
     ("COPTIC CAPITAL LETTER FEI", "Ϥ", "ϥ"),
@@ -169,32 +170,75 @@ def main() -> None:
         fail(f"apparently definite Greek routes remain ordinary: {unqualified_unhinted}")
 
     required_policy_text = (
-        "الأصل اليوناني المسمّى قرض طرف ثالث خارج الوراثة",
-        "المصدر السامي المسمّى يحفظ بوسم `SEMITIC-SOURCE-TRANSMISSION` خارج بسط الوراثة",
+        "كل صورة قبطية، وكل صورة لهجية في CCL، والصورة اليونانية التي يسميها CCL، قوبلت بالعربية",
+        "«ما يقولُه قاموسُ الفرعِ عن الأصل» خبر محفوظ",
+        "المقام هو **3,301** كاملًا",
         "الحروف `Ϣ Ϥ Ϧ Ϩ Ϫ Ϭ Ϯ` ليست قرينة قرض بحال",
-        "لا يدخل أي من `65` في بسط الإرث المشترك",
-        "`64` عضوًا بوسم `SEMITIC-SOURCE-TRANSMISSION`",
-        "`3,208` أعضاء من طرف ثالث إلى القبطية",
-        "`80` عادت إلى الحكم العادي",
-        "`3,237` بطاقة من طرف ثالث إلى القبطية",
     )
     missing_text = [item for item in required_policy_text if item not in text]
     if missing_text:
         fail(f"reading lacks hard rule-six statements: {missing_text}")
 
-    verdicts = card_verdicts(text)
-    loan_cards = sum(verdict.startswith("LOANWORD") for verdict in verdicts)
-    if loan_cards != 3303:
-        fail(f"expected 3303 isolated live loan cards, found {loan_cards}")
-    if 65 + 3237 + 1 != loan_cards:
-        fail("live direction partition does not equal isolated loan-card count")
+    if not NON_COPTIC_RESERVE.exists():
+        fail("missing CCL published-origin register for the reopened loan queue")
+    reserve = json.loads(NON_COPTIC_RESERVE.read_text(encoding="utf-8"))
+    reserve_rows = reserve.get("rows") or []
+    counts = reserve.get("counts") or {}
+    expected_origins = {
+        "ancient-greek": 3280,
+        "arabic": 11,
+        "aramaic": 2,
+        "hamitic-libyan": 1,
+        "hebrew": 3,
+        "persian": 3,
+        "syriac": 1,
+    }
+    if len(reserve_rows) != 3301:
+        fail(f"reopened published-origin register is not 3301 cards: {len(reserve_rows)}")
+    if counts.get("by_published_origin") != expected_origins:
+        fail(f"reopened origin report changed: {counts.get('by_published_origin')}")
+    if counts.get("named_semitic_loan_closures") != 17:
+        fail("named Semitic closures in the reopened queue are not exactly 17")
+    if counts.get("arabic_reexaminations") != 3284:
+        fail("Arabic reexaminations in the reopened queue are not exactly 3284")
+    if counts.get("coptic_denominator") != 3301:
+        fail("full Coptic denominator of the reopened loan queue is not 3301")
+    if counts.get("excluded_by_published_origin") != 0:
+        fail("a published origin still excludes a card from the denominator")
+    greek_reserve = [row for row in reserve_rows if row.get("origin_code") == "ancient-greek"]
+    if len(greek_reserve) != 3280 or any(
+        not row.get("arabic_comparison_performed")
+        or row.get("closure_in_coptic") not in {"OPEN-CANDIDATE", "ROOT-TRACE"}
+        for row in greek_reserve
+    ):
+        fail("Greek-published material was not compared with Arabic in Coptic")
+    semitic_codes = {"arabic", "aramaic", "hebrew", "syriac"}
+    named_semitic = [row for row in reserve_rows if row.get("origin_code") in semitic_codes]
+    if len(named_semitic) != 17 or any(
+        row.get("closure_in_coptic") != "LOANWORD" for row in named_semitic
+    ):
+        fail("named Semitic donor material lacks LOANWORD closure")
+    if any(not row.get("counted_in_coptic_denominator") for row in reserve_rows):
+        fail("a published origin removed a card from the full denominator")
+    if any(
+        row.get("counted_link_in_coptic")
+        != (row.get("closure_in_coptic") == "ROOT-TRACE")
+        for row in reserve_rows
+    ):
+        fail("Coptic link count and ROOT-TRACE closures disagree")
+    if text.count("LOAN-HARVEST-REREVIEW:LOAN-REOPEN-COPTIC-") != 3301:
+        fail("the reading does not contain 3301 append-only supersession markers")
+    if text.count("ARABIC-ROOT-SENSE-REREVIEW:LH-COPTIC-") != 3284:
+        fail("the reading does not contain 3284 Arabic-reexamination supersession markers")
 
     print(
         "Coptic rule six: CLEAN "
         f"({len(rows)} source members; {len(greek_rows)} Greek-script etymologies, "
-        f"{len(greek_hinted)} source loan routes; 3208 third-party exclusions; "
-        f"64 Semitic-source members outside inheritance; {len(greek_unhinted)} "
-        "uncertain/comparative Greek mentions reopened; 7 Demotic letter pairs preserved)"
+        f"{len(greek_hinted)} published source routes; no origin exclusions; "
+        f"64 historical Semitic-source members preserved; {len(greek_unhinted)} "
+        "uncertain/comparative Greek mentions recorded in the source; reopened queue: "
+        "3284 compared with Arabic, 17 named-Semitic closures, denominator 3301; "
+        "7 Demotic letter pairs preserved)"
     )
 
 

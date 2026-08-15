@@ -195,6 +195,23 @@ def branch_sense(head_gloss: str, field: str) -> str:
     return ""
 
 
+def iter_cards(path: pathlib.Path):
+    """مرّر بطاقةً مطبّعةً واحدةً، ولا تحمل ملف القراءة الكبير كله في الذاكرة."""
+    block: list[str] | None = None
+    with path.open(encoding="utf-8") as handle:
+        for raw_line in handle:
+            line = C.bare(raw_line)
+            marker = C.CARD_SPLIT.match(line)
+            if marker:
+                if block is not None:
+                    yield "".join(block)
+                block = [line[marker.end():]]
+            elif block is not None:
+                block.append(line)
+    if block is not None:
+        yield "".join(block)
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     langs: dict[str, dict] = {}
@@ -203,14 +220,12 @@ def main() -> int:
         lang = path.stem
         if lang not in NAMES:
             continue
-        text = path.read_text(encoding="utf-8")
         entry = langs.setdefault(lang, {
             "key": lang, "ar": NAMES[lang][0], "en": NAMES[lang][1],
             "distance": DISTANCE.get(lang, 3),
             "root": 0, "nucleus": 0, "floor": 0, "pool": [], "examples": [],
         })
-        for raw in C.CARD_SPLIT.split(text)[1:]:
-            block = C.bare(raw)
+        for block in iter_cards(path):
             degrees = C.scan_card(block)
             if not degrees:
                 continue

@@ -1,0 +1,2192 @@
+{
+  "schema": "phonetic-followup-harvest-v1",
+  "date": "2026-08-15",
+  "language": "persian",
+  "label": "الفارسية/Persian",
+  "script": "persian",
+  "batch": 1,
+  "batch_size": 127,
+  "queue_start": 1,
+  "queue_end": 127,
+  "controls": [
+    {
+      "word": "trūdō",
+      "root": "طرد",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 18,
+      "new_count": 18,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "إبعاد أو ابتعاد عن الحيز بتتابع ودفع قوي من الخلف",
+      "unchanged": true
+    },
+    {
+      "word": "cornū",
+      "root": "قرن",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 6,
+      "new_count": 6,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه",
+      "unchanged": true
+    },
+    {
+      "word": "tinniō",
+      "root": "طن",
+      "closure": "FLOOR-TRACE",
+      "event_tier": 4,
+      "current_verdict": "FLOOR-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 30,
+      "new_count": 30,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "محاكمُ الحروف",
+      "event_text": "«ط»: إطباقٌ عريضٌ ثقيلٌ للسانِ يحبسُ النفَسَ بضغطٍ ثمّ ينفتحُ عنه منبسِطًا منتشرًا.؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+      "unchanged": true
+    },
+    {
+      "word": "separo",
+      "root": "صور",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 16,
+      "new_count": 16,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": false,
+      "source_candidate_in_new": false,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره",
+      "unchanged": true
+    },
+    {
+      "word": "abutor",
+      "root": "بتر",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 36,
+      "new_count": 36,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا",
+      "unchanged": true
+    },
+    {
+      "word": "tergeo",
+      "root": "ترك",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 24,
+      "new_count": 24,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "مفارقة الشيء ما كان يعلق به فيبقى بلا حاجة إليه او تصرف فيه",
+      "unchanged": true
+    }
+  ],
+  "a_minus_b_nonempty": 0,
+  "origin_counts": {
+    "persian-native": 53,
+    "persian-internal": 17,
+    "origin-unresolved": 21,
+    "other-loan": 36
+  },
+  "closure_counts": {
+    "PROTECTED-S8": 33,
+    "OPEN-CANDIDATE": 49,
+    "ORIGIN-REVIEW": 19,
+    "ORIGIN-REDIRECT": 26
+  },
+  "positive_cards": 0,
+  "protected_s8": 33,
+  "rows": [
+    {
+      "id": "PS-PERSIAN-00001",
+      "queue_rank": 1,
+      "sweep_rank": 1,
+      "word": "نفت",
+      "say": "نفت",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [script needed] (npt' /⁠naft⁠/, “moist, damp; naphtha”), from Old Persian *naftah (“naphtha”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00001: `نفت` /naft/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00002",
+      "queue_rank": 2,
+      "sweep_rank": 2,
+      "word": "کندر",
+      "say": "کندر",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (kwndl /⁠kundur⁠/, “frankincense”). Compare the Iranian borrowings: Old Armenian կնդրուկ (kndruk), Old Georgian გუნდრუკი (gundruḳi), Udi к",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00002: `کندر` /kondor/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00003",
+      "queue_rank": 3,
+      "sweep_rank": 3,
+      "word": "زمان",
+      "say": "زمان",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian 𐭥𐭣𐭭𐭠 (ODNA /⁠zamān⁠/), 𐭦𐭬𐭠𐭭𐭩 (ẕmʾn' /⁠zamān⁠/), 𐭦𐭬𐭭𐭩 (zmn' /⁠zamān⁠/), 𐫉𐫖𐫀𐫗 (zmʾn /⁠zamān⁠/), from Old Persian *jamānā; see there for more.",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00003: `زمان` /zamân/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00005",
+      "queue_rank": 4,
+      "sweep_rank": 5,
+      "word": "گرامی",
+      "say": "گرامی",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian [Book Pahlavi needed] (glʾmyk' /⁠grāmīg⁠/, “treasured, dear”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00005: `گرامی` /gerâmi/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00006",
+      "queue_rank": 5,
+      "sweep_rank": 6,
+      "word": "خنجر",
+      "say": "خنجر",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [Term?]; compare Manichaean Parthian 𐫟𐫗𐫋𐫏𐫡 (xnjyr /⁠xenjer⁠/), 𐫍𐫏𐫗𐫋𐫏𐫡 (hynjyr /⁠henjer⁠/, “dagger”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00006: `خنجر` /khanjar/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00009",
+      "queue_rank": 6,
+      "sweep_rank": 9,
+      "word": "بازار",
+      "say": "بازار",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Etymology tree Proto-Indo-European *wes-der. Proto-Indo-European *kʷel-der. Middle Persian wʾčʾl Persian بازار Inherited from Middle Persian wʾčʾl (wāzār, “market”); see it for fur",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00009: `بازار` /bāzār/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00010",
+      "queue_rank": 7,
+      "sweep_rank": 10,
+      "word": "زنگ",
+      "say": "زنگ",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian *zang, reconstructible based on attested Middle Persian [script needed] (zngyk' /⁠zangīg⁠/, “Black person”). Beyond this, it is probably related to Ancient Gree",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00010: `زنگ` /zang/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00011",
+      "queue_rank": 8,
+      "sweep_rank": 11,
+      "word": "مهر",
+      "say": "مهر",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (mwdl), 𐫖𐫇𐫍𐫡 (mwhr /⁠muhr⁠/, “seal”) (compare Parthian 𐫖𐫇𐫍𐫡 (mwhr /⁠muhr⁠/, “seal”), and Bactrian μολρο (molro)); possibly cognate with wo",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00011: `مهر` /muhr/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00012",
+      "queue_rank": 9,
+      "sweep_rank": 12,
+      "word": "کنار",
+      "say": "کنار",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [script needed] (knʾl /⁠kanār⁠/, “side, edge”), from a metathesis of کران (karân, “border, edge”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00012: `کنار` /kanār/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00015",
+      "queue_rank": 10,
+      "sweep_rank": 15,
+      "word": "قاقم",
+      "say": "قاقم",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian kʾkwm (kākom, “stoat”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00015: `قاقم` /qâqom/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00018",
+      "queue_rank": 11,
+      "sweep_rank": 18,
+      "word": "سداب",
+      "say": "سداب",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (stʾp /⁠saẟāb⁠/), Compare Arabic سَذَاب (saḏāb) and Classical Syriac ܣܕܒ (/⁠*səḏāḇ⁠/) borrowed from it.",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00018: `سداب` /sadâb/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00023",
+      "queue_rank": 12,
+      "sweep_rank": 23,
+      "word": "روپوش",
+      "say": "روپوش",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From رو (rō /ru, “face, upon”) + پوش (pōš /puš, “covering”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00023: `روپوش` /rōpōsh/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00024",
+      "queue_rank": 13,
+      "sweep_rank": 24,
+      "word": "تلک",
+      "say": "تلک",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00024: `تلک` /talk/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00027",
+      "queue_rank": 14,
+      "sweep_rank": 27,
+      "word": "بنگ",
+      "say": "بنگ",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian 𐭡𐭭𐭢 (bng /⁠bang⁠/, “henbane”). Cognate with Sanskrit भङ्ग (bhaṅga, “hemp”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00027: `بنگ` /bang/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00030",
+      "queue_rank": 15,
+      "sweep_rank": 30,
+      "word": "زنگی",
+      "say": "زنگی",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian zngyk' (zangīg, “Negro”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00030: `زنگی` /zangi/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00031",
+      "queue_rank": 16,
+      "sweep_rank": 31,
+      "word": "کهر",
+      "say": "کهر",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Proto-Indo-Iranian *kádruš (“brown, tan”), likely from the BMAC substrate. Related to Avestan 𐬐𐬀𐬛𐬭𐬎𐬎𐬀⸱𐬀𐬯𐬞𐬀 (kadruua.aspa, “with brown horses”) (whence unattested Ave",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00031: `کهر` /kahar/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00034",
+      "queue_rank": 17,
+      "sweep_rank": 34,
+      "word": "برنج",
+      "say": "برنج",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian blnc (/⁠brinǰ⁠/).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00034: `برنج` /birinj/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00035",
+      "queue_rank": 18,
+      "sweep_rank": 35,
+      "word": "کهربا",
+      "say": "کهربا",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From earlier کهربای (kahrobây), from Middle Persian khlpʾd (kah-rubāy, “amber”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00035: `کهربا` /kahrobâ/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00060",
+      "queue_rank": 19,
+      "sweep_rank": 60,
+      "word": "زمانه",
+      "say": "زمانه",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian ẕmʾnk' (zamānag). Baluchi زمانگ (zamānag) Compare Old Armenian ժամանակ (žamanak), an Iranian borrowing. Equivalent to زمان (zamân) + ـه (-e).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00060: `زمانه` /zamâne/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00084",
+      "queue_rank": 20,
+      "sweep_rank": 84,
+      "word": "دنب",
+      "say": "دنب",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian dwm(b') (/⁠dum(b)⁠/), from Proto-Iranian *dumáh, ultimately from Proto-Indo-European *dewmbʰ- (“penis, tail, rod”); compare German Zumpf (“penis”). Cognate with",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "بطاقة 14016: `kaikki_persian_2026_07_23:14016:en-دنب-fa-noun-DGL4du8d`، دنب",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00099",
+      "queue_rank": 21,
+      "sweep_rank": 99,
+      "word": "بن",
+      "say": "بن",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [script needed] (bwn' /⁠bun⁠/), from Proto-Iranian *buHnáh, from Proto-Indo-Iranian *bʰudʰnás, from *bʰudʰmḗn.",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00099: `بن` /bon/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00008",
+      "queue_rank": 22,
+      "sweep_rank": 8,
+      "word": "پرند",
+      "say": "پرند",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "Compare Sogdian [script needed] (pryng /⁠paring⁠/, “damask textile with markings on it”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00008: `پرند` /parand/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00066",
+      "queue_rank": 23,
+      "sweep_rank": 66,
+      "word": "پکر",
+      "say": "پکر",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00066: `پکر` /pakar/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00016",
+      "queue_rank": 24,
+      "sweep_rank": 16,
+      "word": "بلوط",
+      "say": "بلوط",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From Middle Persian blwt' (balūt, “oak, acorn”), attested in Husraw ī Kawādān ud rēdag-ē, from Aramaic בְּלוּטָא / ܒܠܘܛܐ (bəllūṭā, ballūṭā, “oak; acorn”), see Arabic بَلُّوط (ballū",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00016: `بلوط` /balūt/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00019",
+      "queue_rank": 25,
+      "sweep_rank": 19,
+      "word": "هندو",
+      "say": "هندو",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Inherited from Middle Persian hndwk' (/⁠hindūg⁠/, “Indian”), demonym derived from Old Persian 𐏃𐎡𐎯𐎢𐏁 (hiⁿduš, “India”), from Sanskrit सिन्धु (sindhu, “the Indus River”) or Proto-Ira",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00019: `هندو` /hindū/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        },
+        {
+          "heading": "PS-PERSIAN-DIRECT-00020: `هندو` /hindū/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00020",
+      "queue_rank": 26,
+      "sweep_rank": 20,
+      "word": "هندو",
+      "say": "هندو",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Inherited from Middle Persian hndwk' (/⁠hindūg⁠/, “Indian”), demonym derived from Old Persian 𐏃𐎡𐎯𐎢𐏁 (hiⁿduš, “India”), from Sanskrit सिन्धु (sindhu, “the Indus River”) or Proto-Ira",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00019: `هندو` /hindū/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        },
+        {
+          "heading": "PS-PERSIAN-DIRECT-00020: `هندو` /hindū/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00028",
+      "queue_rank": 27,
+      "sweep_rank": 28,
+      "word": "ترک",
+      "say": "ترک",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (twlk' /⁠Turk⁠/), from Old Turkic 𐱅𐰇𐰼𐰜 (t²ür²k̥).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00028: `ترک` /turk/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00029",
+      "queue_rank": 28,
+      "sweep_rank": 29,
+      "word": "گلیم",
+      "say": "گلیم",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Akin to Aramaic גלימא (galīmā, “blanket, garment, cloth”), both from Ancient Greek κάλυμμα (kálumma, “cover, top, covering”) derived from καλύπτω (kalúptō, “to cover”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00029: `گلیم` /gelim/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00036",
+      "queue_rank": 29,
+      "sweep_rank": 36,
+      "word": "پندک",
+      "say": "پندک",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From Middle Persian pndk' (pondik, “hazelnut”), from Ancient Greek Ποντικόν κάρυον (Pontikón káruon, “Pontic nut”).",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00036: `پندک` /pondok/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00038",
+      "queue_rank": 30,
+      "sweep_rank": 38,
+      "word": "کرنا",
+      "say": "کرنا",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Possibly of Semitic origin. Compare Classical Syriac ܩܪܢܐ (qarnā), Aramaic קרנא (qarnā), Akkadian 𒋛 (qarnum), Arabic قَرْن (qarn), Hebrew קֶרֶן (qéren). Various native etymologies ",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00038: `کرنا` /karnâ/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00042",
+      "queue_rank": 31,
+      "sweep_rank": 42,
+      "word": "کمرا",
+      "say": "کمرا",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Reborrowed from Aramaic קמרא (qamrā) / Classical Syriac ܩܡܪܐ (qamrā, “girdle”) – in spite of the sense \"vault\" not being attested in Aramaic, and notwithstanding the sound correspo",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00042: `کمرا` /kamrâ/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00082",
+      "queue_rank": 32,
+      "sweep_rank": 82,
+      "word": "لگام",
+      "say": "لگام",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "* Müller derives from Latin ligāmen. * Fraenkel sees a Semitic origin in that the Aramaic forms means the maxillary, and Arabic لَقِمَ (laqima) means “to swallow” – cognate to Ge'e",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00082: `لگام` /legâm/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00100",
+      "queue_rank": 33,
+      "sweep_rank": 100,
+      "word": "بن",
+      "say": "بن",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From late Middle Persian [script needed] (bwn' /⁠bun⁠/), from earlier [script needed] (wn' /⁠wan⁠/, “tree; stock, stem”) also present as ون (van, “ash tree”) and Classical Syriac ܒ",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0,
+      "prior_issued": [
+        {
+          "heading": "PS-PERSIAN-DIRECT-00099: `بن` /bon/",
+          "degrees": [
+            "ROOT-TRACE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PS-PERSIAN-00007",
+      "queue_rank": 34,
+      "sweep_rank": 7,
+      "word": "چنبره",
+      "say": "چنبره",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From چَنبَر (čanbar) + ـه (-e).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00013",
+      "queue_rank": 35,
+      "sweep_rank": 13,
+      "word": "چنار",
+      "say": "چنار",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Etymology tree Middle Persian cynʾl (činār) Persian چنار Inherited from Middle Persian cynʾl (činār).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00026",
+      "queue_rank": 36,
+      "sweep_rank": 26,
+      "word": "میان",
+      "say": "میان",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian mdyʾn' (mayān), from Old Persian *madyānaʰ, from Proto-Iranian *mádyānah, composed of *mádyah + *-anah, from Proto-Indo-Iranian *mádʰyas, ultimately from Proto-",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00040",
+      "queue_rank": 37,
+      "sweep_rank": 40,
+      "word": "مگر",
+      "say": "مگر",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian 𐭠𐭫 𐭧𐭲 (ʾl ḥt /⁠ma agar⁠/, “perhaps; lest”), from 𐭠𐭫 (ʾl /⁠ma⁠/, “do not”) + 𐭧𐭲 (ḥt /⁠agar⁠/, “if”).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00043",
+      "queue_rank": 38,
+      "sweep_rank": 43,
+      "word": "گلاب",
+      "say": "گلاب",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From گل (gol, “rose”) + آب (âb, “water”).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00044",
+      "queue_rank": 39,
+      "sweep_rank": 44,
+      "word": "بخت",
+      "say": "بخت",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [script needed] (b(ʾ)ht' /⁠baxt⁠/, “fortune, luck”) which is the past stem of Middle Persian [script needed] (b(ʾ)htn', bhš- /⁠baxtan, baxš⁠/, “to apportion, to",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00045",
+      "queue_rank": 40,
+      "sweep_rank": 45,
+      "word": "ببر",
+      "say": "ببر",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian bpl (babr, “tiger, lion, panther”); see there for more.",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00047",
+      "queue_rank": 41,
+      "sweep_rank": 47,
+      "word": "چهار",
+      "say": "چهار",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian (/čahār/) ([Book Pahlavi needed] (ALBA), [Book Pahlavi needed] (chʾl), Inscriptional 𐭰𐭤𐭥 (chʿ), Manichaean Middle Persian 𐫝𐫍𐫀𐫡 (chʾr), 𐫝𐫍𐫀𐫀𐫡 (chʾʾr)),",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00048",
+      "queue_rank": 42,
+      "sweep_rank": 48,
+      "word": "نوروز",
+      "say": "نوروز",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Etymology tree Proto-Indo-European *new- Proto-Indo-European *néwos Proto-Indo-Iranian *náwas Proto-Iranian *náwah Middle Persian 𐭭𐭥𐭪𐭩 (nʿky) Proto-Indo-European *lewk- Proto-Indo-",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00049",
+      "queue_rank": 43,
+      "sweep_rank": 49,
+      "word": "شلوار",
+      "say": "شلوار",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [script needed] (šlwʾl /⁠šalwār⁠/, “trousers”), from Proto-Iranian *šarawāra, ultimately from Proto-Indo-European *skelo- (“leg”) + *wero- (“to cover”). For the",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00051",
+      "queue_rank": 44,
+      "sweep_rank": 51,
+      "word": "نرد",
+      "say": "نرد",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From earlier نردشیر (nardašir), from Middle Persian nywʾlthšyl (nēw-ardaxšīr, “backgammon”).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00056",
+      "queue_rank": 45,
+      "sweep_rank": 56,
+      "word": "چنگ",
+      "say": "چنگ",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Possibly related to the meaning of “claw” and “talon”, from Middle Persian [script needed] (cng /⁠čang⁠/, “harp”). Cognate to Parthian 𐫢𐫗𐫃 (šng /⁠šang⁠/, “harp”), Sogdian 𐫝𐫏𐫗𐫃𐫡𐫏𐫀 (",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00057",
+      "queue_rank": 46,
+      "sweep_rank": 57,
+      "word": "سرب",
+      "say": "سرب",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (slwp /⁠srub⁠/, “lead”). Cognate with Proto-Slavic *sьrebro.",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00058",
+      "queue_rank": 47,
+      "sweep_rank": 58,
+      "word": "چربی",
+      "say": "چربی",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From چرب (čarb), see there for further information.",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00059",
+      "queue_rank": 48,
+      "sweep_rank": 59,
+      "word": "مژده",
+      "say": "مژده",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Borrowed from Parthian 𐫖𐫇𐫋𐫅𐫃 (mwjdg /⁠muždag⁠/, “(good) news, message”), from Proto-Iranian *miždám, from Proto-Indo-Iranian *miždʰám, from Proto-Indo-European *misdʰós. Related to",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00065",
+      "queue_rank": 49,
+      "sweep_rank": 65,
+      "word": "پارتی",
+      "say": "پارتی",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From پارت (pârt, “Parthian”) + ـی (-i, suffix forming adjectives).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00067",
+      "queue_rank": 50,
+      "sweep_rank": 67,
+      "word": "پهلوی",
+      "say": "پهلوی",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian 𐫛𐫍𐫓𐫇𐫀𐫗𐫏𐫃 (phlwʾnyg /⁠pahlawānīg⁠/, “Parthian”), ultimately from Old Persian 𐎱𐎼𐎰𐎺 (p-r-θ-v /⁠Parθavaʰ⁠/, “Parthia”). In the time of the Islamic conquest, Pahlawā",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00069",
+      "queue_rank": 51,
+      "sweep_rank": 69,
+      "word": "نبید",
+      "say": "نبید",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Old Persian *nipitah, from Proto-Iranian, from Proto-Indo-Iranian *pHtás (compare Sanskrit निपीत (nipīta, “drunk up, imbibed”), from Proto-Indo-European *peh₃-.",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00071",
+      "queue_rank": 52,
+      "sweep_rank": 71,
+      "word": "سمور",
+      "say": "سمور",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian smwl (*samōr); see there for further information.",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00073",
+      "queue_rank": 53,
+      "sweep_rank": 73,
+      "word": "آزار",
+      "say": "آزار",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian [Book Pahlavi needed] (ʾcʾl /⁠āzār⁠/, “torment”), ultimately from Proto-Iranian *aHjāráyati.",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00075",
+      "queue_rank": 54,
+      "sweep_rank": 75,
+      "word": "بارگاه",
+      "say": "بارگاه",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From بار (bâr, “admission”) + ـگاه (-gâh): \"place of admission\".",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00076",
+      "queue_rank": 55,
+      "sweep_rank": 76,
+      "word": "سراپا",
+      "say": "سراپا",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From سر (sar, “head”) + پا (pâ, “foot”).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00079",
+      "queue_rank": 56,
+      "sweep_rank": 79,
+      "word": "چارک",
+      "say": "چارک",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "Clipping of چاریک (čāryak /čâryek), چهاریک (čahāryak /čahâryek), from چهار (čahār /čahâr, “four”) + یک (yak /yek, “one”).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00081",
+      "queue_rank": 57,
+      "sweep_rank": 81,
+      "word": "جریب",
+      "say": "جریب",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From earlier گریب (*girîb, *girêb), from Middle Persian glyw' (*grīw). Perhaps related to گرفتن (gereftan).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00083",
+      "queue_rank": 58,
+      "sweep_rank": 83,
+      "word": "ناچار",
+      "say": "ناچار",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From ناـ (nâ-, “without”) + چار (čâr, from چاره (čâre, “remedy”)).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00085",
+      "queue_rank": 59,
+      "sweep_rank": 85,
+      "word": "کران",
+      "say": "کران",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian [Book Pahlavi needed] (klʾn' /⁠karān⁠/), from Proto-Iranian *karana- (“edge, border, limit”), probably a nominal derivative of either Proto-Iranian *k",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00088",
+      "queue_rank": 60,
+      "sweep_rank": 88,
+      "word": "هرچه",
+      "say": "هرچه",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From هر (har) + چه (če).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00089",
+      "queue_rank": 61,
+      "sweep_rank": 89,
+      "word": "فراخ",
+      "say": "فراخ",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian [Book Pahlavi needed] (plʾhw' /⁠frāx⁠/, “large, wide, spacious, ample, prosperous”), from Proto-Iranian *fráθah, from Proto-Indo-Iranian *prátʰas, fro",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00091",
+      "queue_rank": 62,
+      "sweep_rank": 91,
+      "word": "بارگی",
+      "say": "بارگی",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "By surface analysis, باره (bâre, “horse”) + ـگی (-gi).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00097",
+      "queue_rank": 63,
+      "sweep_rank": 97,
+      "word": "نان",
+      "say": "نان",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian LHMA (nān, “bread, food”), from Old Persian, from Proto-Iranian *nagna- (“naked bread (bread that was baked without ash)”) (antonym: *nikāna- \"buried bread (bre",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00101",
+      "queue_rank": 64,
+      "sweep_rank": 101,
+      "word": "مانی",
+      "say": "مانی",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian 𐫖𐫀𐫗𐫏 (mʾny /⁠mānī⁠/).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00102",
+      "queue_rank": 65,
+      "sweep_rank": 102,
+      "word": "شهر",
+      "say": "شهر",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Etymology tree Proto-Indo-European *tek- Proto-Indo-European *tk-e-trómder.? Proto-Indo-Iranian *kšatrám Middle Persian 𐭱𐭲𐭥𐭩 (štʿy) Persian شهر Inherited from Middle Persian 𐭱𐭲𐭥𐭩 (",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00104",
+      "queue_rank": 66,
+      "sweep_rank": 104,
+      "word": "بوستان",
+      "say": "بوستان",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (bwdstʾn'), 𐫁𐫇𐫏𐫘𐫤𐫀𐫗 (bwystʾn), 𐫁𐫇𐫏𐫏𐫘𐫤𐫀𐫗 (bwyystʾn /⁠bōyestān⁠/, “(flower) garden”). By surface analysis, بو (bô, “fragrance”) + ـسْتان (-s",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00105",
+      "queue_rank": 67,
+      "sweep_rank": 105,
+      "word": "مرد",
+      "say": "مرد",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian [Book Pahlavi needed] (mlt' /⁠mard⁠/), [Book Pahlavi needed] (GBRA /⁠mard⁠/), from Old Persian 𐎶𐎼𐎫𐎡𐎹 (martiya), from Proto-Iranian *mŕ̥tah, from Proto",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00106",
+      "queue_rank": 68,
+      "sweep_rank": 106,
+      "word": "کوچک",
+      "say": "کوچک",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (kwck' /⁠kūčak⁠/, “small”), from Proto-Iranian *kaw-ča-ka, from Proto-Indo-Iranian *kaw- ~ *ku- (“young, small”). Cognate with Mazanderani",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00107",
+      "queue_rank": 69,
+      "sweep_rank": 107,
+      "word": "پولاد",
+      "say": "پولاد",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (pwlʾpt'), 𐫛𐫇𐫓𐫀𐫇𐫅 (pwlʾwd /⁠pōlāwad⁠/). Probably from Old Persian *paurāvat-/*paurāvatī (meaning: “(equipped) with sharp metal blade”). Co",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00109",
+      "queue_rank": 70,
+      "sweep_rank": 109,
+      "word": "تنگ",
+      "say": "تنگ",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [script needed] (tng /⁠tang⁠/, “narrow, tight”), from Proto-Indo-European *tenk- (“to compact”), perhaps from *ten- (“to stretch”). Cognate with تنجیدن (tanjida",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00110",
+      "queue_rank": 71,
+      "sweep_rank": 110,
+      "word": "رایگان",
+      "say": "رایگان",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From راه (râh, “way”) + ـگان (gân).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00112",
+      "queue_rank": 72,
+      "sweep_rank": 112,
+      "word": "تنگه",
+      "say": "تنگه",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From تنگ (tang) + ـه (e).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00113",
+      "queue_rank": 73,
+      "sweep_rank": 113,
+      "word": "بنگاه",
+      "say": "بنگاه",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From بُن (bon) + ـگاه (-gâh).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00114",
+      "queue_rank": 74,
+      "sweep_rank": 114,
+      "word": "سامان",
+      "say": "سامان",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian sʾmʾn' (sāmān, “limit, boundary”), related to سَامَه (sāma, “condition, bet, asylum”). Cognate with Mazanderani سامون (sāmūn, “land, border”). Akin to",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00115",
+      "queue_rank": 75,
+      "sweep_rank": 115,
+      "word": "سبک",
+      "say": "سبک",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (spwk' /⁠sabuk⁠/, “light, easy”), from Proto-Iranian *θrapuka-, from Proto-Iranian *θrap- (“to be unsteady”), Northern Luri سۏوک (söwk), p",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00116",
+      "queue_rank": 76,
+      "sweep_rank": 116,
+      "word": "مهره",
+      "say": "مهره",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Middle Persian [script needed] (mwhlk' /⁠muhrag⁠/, “bead, vertebra, piece (in backgammon, etc.)”). Compare Parthian [script needed] (mwhrg /⁠muhrag⁠/). Equivalent to مهر (mohr",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00117",
+      "queue_rank": 77,
+      "sweep_rank": 117,
+      "word": "خشین",
+      "say": "خشین",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "From Proto-Iranian *axšáyHnah (“blue; green”). Compare Ossetian ӕхсин (æxsin).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00121",
+      "queue_rank": 78,
+      "sweep_rank": 121,
+      "word": "پهلو",
+      "say": "پهلو",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Inherited from Middle Persian [script needed] (pʾhlwk' /⁠pahlūg⁠/), from Old Persian *parθukah, suffixed from Proto-Iranian *párcuš (“rib”). Compare Northern Kurdish parsû (“rib”),",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00122",
+      "queue_rank": 79,
+      "sweep_rank": 122,
+      "word": "همچو",
+      "say": "همچو",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "Apocope of همچون (hamčon, “such, like”)",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00124",
+      "queue_rank": 80,
+      "sweep_rank": 124,
+      "word": "چای‌بر",
+      "say": "چای‌بر",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "From چای (čāy /čây, “tea”) + بر (bar, “carrier”).",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00125",
+      "queue_rank": 81,
+      "sweep_rank": 125,
+      "word": "فشاری",
+      "say": "فشاری",
+      "script": "persian",
+      "origin": "persian-internal",
+      "selected_etymology": "Derived from فشار (fešâr, “pressure, stress”) + ـی (-i, relational/adjectival suffix). Compare فشار from the verb فشردن (fešordan, “to press, squeeze”), ultimately from Proto-Irani",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00127",
+      "queue_rank": 82,
+      "sweep_rank": 127,
+      "word": "مام",
+      "say": "مام",
+      "script": "persian",
+      "origin": "persian-native",
+      "selected_etymology": "Probably Inherited from Middle Persian 𐬨𐬁𐬨 (mām, “mom”), ultimately baby talk. Compare related terms such as ماما, مامی, Sarikoli mom (“grandmother”), and English mom.",
+      "closure": "OPEN-CANDIDATE",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00014",
+      "queue_rank": 83,
+      "sweep_rank": 14,
+      "word": "کلیچه",
+      "say": "کلیچه",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "Compare Middle Persian kwlʾck' (kulāčag, “small, round bun”). Possibly related to کلوچ (kulōč /koluč, “lump”).",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00017",
+      "queue_rank": 84,
+      "sweep_rank": 17,
+      "word": "پریش",
+      "say": "پریش",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00032",
+      "queue_rank": 85,
+      "sweep_rank": 32,
+      "word": "کلیپ",
+      "say": "کلیپ",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00053",
+      "queue_rank": 86,
+      "sweep_rank": 53,
+      "word": "کوچولو",
+      "say": "کوچولو",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00054",
+      "queue_rank": 87,
+      "sweep_rank": 54,
+      "word": "کوچولو",
+      "say": "کوچولو",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00068",
+      "queue_rank": 88,
+      "sweep_rank": 68,
+      "word": "خنگ",
+      "say": "خنگ",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "From Proto-Indo-European *ḱanḱest-, *kankest- (“horse”). Cognate with Proto-Germanic *hangistaz, and thereby with German Hengst.",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00074",
+      "queue_rank": 89,
+      "sweep_rank": 74,
+      "word": "پالاد",
+      "say": "پالاد",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00077",
+      "queue_rank": 90,
+      "sweep_rank": 77,
+      "word": "پلاس",
+      "say": "پلاس",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00080",
+      "queue_rank": 91,
+      "sweep_rank": 80,
+      "word": "پرت",
+      "say": "پرت",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "From Proto-Indo-European *pr̥to-.",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00087",
+      "queue_rank": 92,
+      "sweep_rank": 87,
+      "word": "کرپی",
+      "say": "کرپی",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "Borrowed from Azerbaijani körpü.",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00090",
+      "queue_rank": 93,
+      "sweep_rank": 90,
+      "word": "پول‌شویی",
+      "say": "پول‌شویی",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00094",
+      "queue_rank": 94,
+      "sweep_rank": 94,
+      "word": "فینک",
+      "say": "فینک",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "Cognate to Iron Ossetian фынк (fynk), Digor Ossetian финкӕ (finkæ, “foam”), from Proto-Indo-Iranian *pʰáynas (“foam, froth”), from Proto-Indo-European *(s)póHy-nh₂-os.",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00095",
+      "queue_rank": 95,
+      "sweep_rank": 95,
+      "word": "چاهار",
+      "say": "چاهار",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "See the etymology of the corresponding lemma form.",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00098",
+      "queue_rank": 96,
+      "sweep_rank": 98,
+      "word": "بان",
+      "say": "بان",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "Ultimately from Proto-Indo-European *wes- (“to clothe, wear, put on”). Compare Avestan 𐬬𐬀𐬢𐬵𐬀𐬥𐬀 (vaŋhana), 𐬬𐬀𐬢𐬵𐬁𐬥𐬀 (vaŋhāna, “cover”).",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00103",
+      "queue_rank": 97,
+      "sweep_rank": 103,
+      "word": "چپر",
+      "say": "چپر",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": ". Compare چنبر (čanbar).",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00108",
+      "queue_rank": 98,
+      "sweep_rank": 108,
+      "word": "برگ",
+      "say": "برگ",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "Uncertain. Perhaps a cognate of Sanskrit वल्गा (valgā, “bridle, rein”). Old Armenian վարկ (vark) and Middle Georgian ვარგი (vargi) may be related borrowings from a Middle Iranian l",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00118",
+      "queue_rank": 99,
+      "sweep_rank": 118,
+      "word": "کلاچ",
+      "say": "کلاچ",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00120",
+      "queue_rank": 100,
+      "sweep_rank": 120,
+      "word": "گرمایی",
+      "say": "گرمایی",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00126",
+      "queue_rank": 101,
+      "sweep_rank": 126,
+      "word": "بی‌بی",
+      "say": "بی‌بی",
+      "script": "persian",
+      "origin": "origin-unresolved",
+      "selected_etymology": "Inherited from Manichaean Middle Persian 𐫁𐫏𐫏 𐫁𐫏 (byy by /⁠bībī⁠/, female title), further etymology uncertain, but likely a Lallwort. Compare بابا (bābā /bâbâ, “dad”) and also diale",
+      "closure": "ORIGIN-REVIEW",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00004",
+      "queue_rank": 102,
+      "sweep_rank": 4,
+      "word": "من",
+      "say": "من",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From Middle Persian, from Akkadian 𒈠𒉡𒌑 (manû).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00021",
+      "queue_rank": 103,
+      "sweep_rank": 21,
+      "word": "چلیپا",
+      "say": "چلیپا",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from Classical Syriac ܨܠܝܒܐ (ṣəlīḇā) or some other Aramaic form, perhaps via Sogdian ܨܠܝܒܐ (clybʾ, “Cross, crucifix”). Aramaic /ṣ/ is often borrowed as /č/ in Middle Irani",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00022",
+      "queue_rank": 104,
+      "sweep_rank": 22,
+      "word": "پرماه",
+      "say": "پرماه",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "A Turkic borrowing. Possibly from the same etymon or related to Ottoman Turkish بورغو (burgu, “drill”). Unrelated to similar Semitic words treated at Arabic بَيْرَم (bayram).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00025",
+      "queue_rank": 105,
+      "sweep_rank": 25,
+      "word": "شیپور",
+      "say": "شیپور",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from Aramaic שֽׁיפּוּרָא / שֽׁפּוּרָא (šippūrā) / ܫܝܺܦܘܿܪܳܐ (šippōrā, “trumpet, shofar”), whence also Arabic شَبُّور (šabbūr).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00033",
+      "queue_rank": 106,
+      "sweep_rank": 33,
+      "word": "پاندا",
+      "say": "پاندا",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from English panda.",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00037",
+      "queue_rank": 107,
+      "sweep_rank": 37,
+      "word": "چنبر",
+      "say": "چنبر",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From Middle Persian [Book Pahlavi needed] (cmbl /⁠čambar⁠/). Akin to Old Armenian ճամբար (čambar, “camp; collar”), Classical Syriac ܨܰܡܒܳܪܳܐ (ṣambārā, “lunate ornament”), Iranian b",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00039",
+      "queue_rank": 108,
+      "sweep_rank": 39,
+      "word": "بیگم",
+      "say": "بیگم",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From بیگ (beyg, “titled man, chief”) (from Proto-Turkic *bēg; see there for more) and the genitive enclitic -em, or perhaps from بگم (bagam, “queen”). Cognate with Azerbaijani bəyi",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00041",
+      "queue_rank": 109,
+      "sweep_rank": 41,
+      "word": "جنگ",
+      "say": "جنگ",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from Hindi जंग (jaṅg) or Malay jong.",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00046",
+      "queue_rank": 110,
+      "sweep_rank": 46,
+      "word": "شکر",
+      "say": "شکر",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From Middle Persian 𐭱𐭪𐭥 (škʿ /⁠šakar⁠/), from Gandhari 𐨭𐨐𐨪 (śakara), from Sanskrit शर्करा (śárkarā, “ground or candied sugar, originally meaning grit, gravel”).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00050",
+      "queue_rank": 111,
+      "sweep_rank": 50,
+      "word": "کلید",
+      "say": "کلید",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Inherited from Middle Persian *kilēd, from Ancient Greek κλείς, κλειδός (kleís, kleidós).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00052",
+      "queue_rank": 112,
+      "sweep_rank": 52,
+      "word": "فیروزه",
+      "say": "فیروزه",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From earlier پیروزه (pērōza), from Middle Persian *pērōzag, from 𐭯𐭩𐭫𐭥𐭰 (pērōz, “victorious”). Note the Middle Iranian borrowings: Aramaic פרוזג (pīrūzag), Classical Syriac ܦܝܪܘܙܓ (",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00055",
+      "queue_rank": 113,
+      "sweep_rank": 55,
+      "word": "چزمه",
+      "say": "چزمه",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from Ottoman Turkish چزمه (çizme).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00061",
+      "queue_rank": 114,
+      "sweep_rank": 61,
+      "word": "کتابی",
+      "say": "کتابی",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Etymology tree Arabic كِتَاب (kitāb)bor. Persian کتاب (ketâb) Proto-Indo-European *-kos Proto-Indo-Iranian *-kas Old Persian -𐎡𐎣 (-i-k) Middle Persian -yk' (/⁠-īg⁠/) Persian ـی (-i",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00062",
+      "queue_rank": 115,
+      "sweep_rank": 62,
+      "word": "مشک",
+      "say": "مشک",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From Middle Persian mwšk' (mušk, “musk”), from Sanskrit मुष्क (muṣka). Compare Old Armenian մուշկ (mušk), Old Georgian მუშკი (mušḳi), Iranian borrowings and also English musk.",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00063",
+      "queue_rank": 116,
+      "sweep_rank": 63,
+      "word": "پلاک",
+      "say": "پلاک",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from French plaque.",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00064",
+      "queue_rank": 117,
+      "sweep_rank": 64,
+      "word": "پارتی",
+      "say": "پارتی",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from English party.",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00070",
+      "queue_rank": 118,
+      "sweep_rank": 70,
+      "word": "فرچه",
+      "say": "فرچه",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from Ottoman Turkish فرچه (fırça).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00072",
+      "queue_rank": 119,
+      "sweep_rank": 72,
+      "word": "پوند",
+      "say": "پوند",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From English pound.",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00078",
+      "queue_rank": 120,
+      "sweep_rank": 78,
+      "word": "کاناپه",
+      "say": "کاناپه",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from French canapé.",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00086",
+      "queue_rank": 121,
+      "sweep_rank": 86,
+      "word": "بیجاده",
+      "say": "بیجاده",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Inherited from Middle Persian (cf. Arabic بِجَادَق (bijādaq)), by surface analysis, بی (bi, “without”) + جاده (jâde, “road, (here: streak)”). Compare Old Georgian ბეჭედი (beč̣edi),",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00092",
+      "queue_rank": 122,
+      "sweep_rank": 92,
+      "word": "چلیپا",
+      "say": "چلیپا",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from Classical Syriac ܨܠܝܒܐ (ṣəlīḇā) or some other Aramaic form, perhaps via Sogdian ܨܠܝܒܐ (clybʾ, “Cross, crucifix”). Aramaic /ṣ/ is often borrowed as /č/ in Middle Irani",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00093",
+      "queue_rank": 123,
+      "sweep_rank": 93,
+      "word": "سیروپ",
+      "say": "سیروپ",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From either English syrup or French sirop. Doublet of شربت (šarbat) and سوربه (sorbe, “sorbet”).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00096",
+      "queue_rank": 124,
+      "sweep_rank": 96,
+      "word": "بخاری",
+      "say": "بخاری",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Etymology tree Arabic بُخَار (buḵār)bor. Persian بخار (buxār /boxâr) Proto-Indo-European *-kos Proto-Indo-Iranian *-kas Old Persian -𐎡𐎣 (-i-k) Middle Persian -yk' (/⁠-īg⁠/) Persian",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00111",
+      "queue_rank": 125,
+      "sweep_rank": 111,
+      "word": "پارس",
+      "say": "پارس",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "From a Turkic source. Compare Turkish pars. Doublet of پلنگ (palang).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00119",
+      "queue_rank": 126,
+      "sweep_rank": 119,
+      "word": "یغر",
+      "say": "یغر",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from Sogdian yγrt (*yiγart, “wide”). Or of Turkic origin, compare Azerbaijani yoğurmaq.",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    },
+    {
+      "id": "PS-PERSIAN-00123",
+      "queue_rank": 127,
+      "sweep_rank": 123,
+      "word": "چاینک",
+      "say": "چاینک",
+      "script": "persian",
+      "origin": "other-loan",
+      "selected_etymology": "Borrowed from Russian ча́йник (čájnik). In Dari, the final syllable ـِک (-ik) was reinterpreted as the much more common ـَک (-ak).",
+      "closure": "ORIGIN-REDIRECT",
+      "positive_roots": [],
+      "ready_roots": [],
+      "full_arabic_witnesses_read": 0
+    }
+  ]
+}

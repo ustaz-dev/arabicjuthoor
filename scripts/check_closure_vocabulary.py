@@ -108,22 +108,32 @@ def scan() -> tuple[collections.Counter, list[dict]]:
     labels = collections.Counter()
     closed_on_invented: list[dict] = []
     for path in sorted(READINGS.glob("*.md")):
-        text = C.bare(path.read_text(encoding="utf-8"))
-        for raw in C.CARD_SPLIT.split(text)[1:]:
-            head = raw.split("\n", 1)[0]
-            if C.is_template(head):
-                continue
-            for value in C.VERDICT_FIELDS.findall(raw):
+        head = ""
+        template = False
+        with path.open(encoding="utf-8") as handle:
+            for raw_line in handle:
+                line = C.bare(raw_line.rstrip("\r\n"))
+                heading = re.match(r"^#{3,4}\s+(.+)$", line)
+                if heading:
+                    head = heading.group(1)
+                    template = C.is_template(head)
+                    continue
+                if template or not head:
+                    continue
+                verdict = C.VERDICT_FIELDS.match(line)
+                if not verdict:
+                    continue
+                value = verdict.group(1)
                 toks = [t for t in TOKEN.findall(value) if not NOT_A_LABEL.match(t)]
                 if not toks:
                     continue
-                for t in toks:
-                    labels[t] += 1
+                for token in toks:
+                    labels[token] += 1
                 # بطاقةٌ لا حكمَ موجَبًا فيها وفيها سببُ حجبٍ خارجَ القاموس:
                 # أُغلِقَت بقانونٍ لا وجودَ له
-                invented = {x for x in toks
-                            if x not in LEGAL
-                            and (x in LEGACY_INVENTED or BLOCKING_SHAPE.search(x))}
+                invented = {token for token in toks
+                            if token not in LEGAL
+                            and (token in LEGACY_INVENTED or BLOCKING_SHAPE.search(token))}
                 if not (set(toks) & POSITIVE) and invented:
                     closed_on_invented.append({
                         "language": path.stem,

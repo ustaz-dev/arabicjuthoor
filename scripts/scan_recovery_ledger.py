@@ -12,6 +12,7 @@ Run:  python scripts/scan_recovery_ledger.py
 """
 from __future__ import annotations
 import json, re, os, sys, glob, unicodedata
+from collections import Counter
 
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -155,7 +156,8 @@ for path in sorted(glob.glob('04-cross-linguistic/readings/*.md')):
         scanned.append(c)
 
 superseding = [c['_supersedes'] for c in scanned if c['_supersedes']]
-duplicates = sorted({value for value in superseding if superseding.count(value) > 1})
+superseding_counts = Counter(superseding)
+duplicates = sorted(value for value, count in superseding_counts.items() if count > 1)
 if duplicates:
     print('FAIL: أكثر من بطاقة إعادة فحص تنسخ المعرّف نفسه: ' + '، '.join(duplicates[:10]))
     sys.exit(1)

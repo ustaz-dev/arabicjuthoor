@@ -125,36 +125,85 @@ positive_verdicts = (
     "NUCLEUS-ECHO",
     "FLOOR-TRACE",
 )
+# غلظُ اسم الحقل في Markdown لا يغير هويته. بعضُ الحصادات المدمجة تكتب
+# ``- **الحكم (استكشاف):**``، وكانت البوابة تعده غيابا مع أن عداد الصلات
+# يقرأه قراءة صحيحة. نقبل النجمتين قبل الاسم وقبل النقطتين أو بعدها، مع إبقاء
+# أسماء الحقول نفسها مغلقة كما هي.
 verdict_field = re.compile(
-    r"^-\s*(?:"
+    r"^-\s*\*{0,2}(?:"
     r"الحكم"
     r"|الحسم"
     r"|حكم طبقة النواة"
     r"|حكم طبقة الجذر"
     r"|نتيجة طبقة النواة"
     r"|النتيجة"
-    r")(?:\s*\([^)]*\))?\s*[:：]",
+    r")(?:\s*\([^)]*\))?\*{0,2}\s*[:：]\*{0,2}",
     re.MULTILINE,
 )
 
 
-def reading_cards_from_body(body: str) -> list[tuple[str, str]]:
-    # End a card at the next peer or subordinate reading heading.  Stopping
-    # only at the next spelling of ``بطاقة`` made a renamed compact record
-    # swallow later supersession and protocol sections, then charged their
-    # fields to the wrong card.
-    starts = list(re.finditer(r"^#{3,4}\s+.*$", body, re.MULTILINE))
-    cards: list[tuple[str, str]] = []
-    for index, match in enumerate(starts):
-        end = starts[index + 1].start() if index + 1 < len(starts) else len(body)
-        heading = match.group(0)
-        if heading.startswith("### بطاقة"):
-            cards.append((heading, body[match.start():end]))
-    return cards
+heading_re = re.compile(r"^#{3,4}\s+.*$")
 
 
-def reading_cards(path: str) -> list[tuple[str, str]]:
-    return reading_cards_from_body(read(path))
+def iter_reading_cards(path: Path):
+    """Yield one reading card at a time without retaining the corpus.
+
+    Some reading files now exceed 600 MB.  The former ``read_text`` + global
+    heading list + sliced-card list held several copies of each file at once
+    and could exhaust memory in the publication gate.  This preserves the
+    exact old boundary: a card starts at a ``### بطاقة`` heading and ends at
+    the next level-three or level-four heading.
+    """
+    heading: str | None = None
+    block: list[str] = []
+    with path.open(encoding="utf-8") as handle:
+        for line in handle:
+            match = heading_re.match(line)
+            if match:
+                if heading is not None:
+                    yield heading, "".join(block)
+                candidate = match.group(0)
+                if candidate.startswith("### بطاقة"):
+                    heading = candidate
+                    block = [line]
+                else:
+                    heading = None
+                    block = []
+            elif heading is not None:
+                block.append(line)
+    if heading is not None:
+        yield heading, "".join(block)
+
+
+def reading_file_facts(path: Path) -> tuple[bool, bool, bool, bool, set[str]]:
+    """Return file-level protocol facts with bounded memory."""
+    has_charter = False
+    has_stale_copy = False
+    has_recovery = False
+    has_radiation = False
+    before_recovery = True
+    recovery_fields_before: set[str] = set()
+    with path.open(encoding="utf-8") as handle:
+        for line in handle:
+            has_charter |= "../exploration-charter.md" in line
+            has_stale_copy |= "0. **تهيئةُ الملفّ:**" in line
+            has_radiation |= radiation_marker in line
+            if before_recovery:
+                for field in recovery_card_fields:
+                    if field in line:
+                        recovery_fields_before.add(field)
+                if recovery_marker in line:
+                    has_recovery = True
+                    before_recovery = False
+            elif recovery_marker in line:
+                has_recovery = True
+    return (
+        has_charter,
+        has_stale_copy,
+        has_recovery,
+        has_radiation,
+        recovery_fields_before,
+    )
 
 
 reading_paths = tuple(
@@ -162,17 +211,30 @@ reading_paths = tuple(
     for path in sorted((ROOT / "04-cross-linguistic/readings").glob("*.md"))
     if path.name != "README.md"
 )
-all_cards: dict[str, list[tuple[str, str]]] = {}
+card_count = 0
+latest_egypt: dict[str, str] = {}
 for path in reading_paths:
-    body = read(path)
-    if "../exploration-charter.md" not in body:
+    file_path = ROOT / path
+    (
+        has_charter,
+        has_stale_copy,
+        has_recovery,
+        has_radiation,
+        recovery_fields_before,
+    ) = reading_file_facts(file_path)
+    if not has_charter:
         fails.append(f"protocol canon: {path} lacks the charter reference")
-    if "0. **تهيئةُ الملفّ:**" in body:
+    if has_stale_copy:
         fails.append(f"protocol canon: {path} embeds a stale numbered copy")
+    if not has_recovery:
+        fails.append(f"recovery protocol: {path} lacks {recovery_marker}")
+    else:
+        for field in recovery_card_fields:
+            if field not in recovery_fields_before:
+                fails.append(f"recovery template: {path} lacks {field}")
 
-    cards = reading_cards(path)
-    all_cards[path] = cards
-    for heading, section in cards:
+    for heading, section in iter_reading_cards(file_path):
+        card_count += 1
         # Several historical card-heading forms are legal.  Link identity and
         # counting belong to scripts/count_links.py; this gate checks fields.
         exact_fields = sum(field in section for field in required_card_fields)
@@ -187,68 +249,52 @@ for path in reading_paths:
             fails.append(
                 f"compact card verdict: {path}: {heading} lacks a verdict field"
             )
+        if has_recovery:
+            declares_recovery = "- إصدارُ البروتوكول:" in section
+            if exact_fields >= 7 and declares_recovery:
+                for field in required_card_fields + recovery_card_fields:
+                    if field not in section:
+                        fails.append(f"recovery card field: {path}: {heading} lacks {field}")
 
-    if recovery_marker not in body:
-        fails.append(f"recovery protocol: {path} lacks {recovery_marker}")
-        continue
+            version = re.search(r"^- إصدارُ البروتوكول:\s*(.+)$", section, re.MULTILINE)
+            state = re.search(r"^- حالةُ الإغلاق:\s*(.+)$", section, re.MULTILINE)
+            verdict = re.search(r"^- الحكم \(استكشاف\):\s*(.+)$", section, re.MULTILINE)
+            if version and not version.group(1).startswith("RECOVERY-v2"):
+                fails.append(f"recovery version: {path}: {heading} is not RECOVERY-v2")
+            if state and verdict:
+                state_value = state.group(1)
+                verdict_value = verdict.group(1).lstrip("*")
+                closes_no_trace = verdict_value.startswith("NO-TRACE")
+                if closes_no_trace and "CLOSED-NO-TRACE" not in state_value:
+                    fails.append(
+                        f"recovery closure: {path}: {heading} issues NO-TRACE without CLOSED-NO-TRACE"
+                    )
+                if closes_no_trace and any(
+                    gap in state_value for gap in ("TOOL-GAP", "LAW-GAP", "SOURCE-GAP", "OPEN-CANDIDATE")
+                ):
+                    fails.append(
+                        f"recovery gap: {path}: {heading} turns an unresolved gap into NO-TRACE"
+                    )
 
-    before_marker, _ = body.split(recovery_marker, 1)
-    for field in recovery_card_fields:
-        if field not in before_marker:
-            fails.append(f"recovery template: {path} lacks {field}")
-
-    for heading, section in cards:
-        exact_fields = sum(field in section for field in required_card_fields)
-        declares_recovery = "- إصدارُ البروتوكول:" in section
-        if exact_fields >= 7 and declares_recovery:
-            for field in required_card_fields + recovery_card_fields:
-                if field not in section:
-                    fails.append(f"recovery card field: {path}: {heading} lacks {field}")
-
-        version = re.search(r"^- إصدارُ البروتوكول:\s*(.+)$", section, re.MULTILINE)
-        state = re.search(r"^- حالةُ الإغلاق:\s*(.+)$", section, re.MULTILINE)
-        verdict = re.search(r"^- الحكم \(استكشاف\):\s*(.+)$", section, re.MULTILINE)
-        if version and not version.group(1).startswith("RECOVERY-v2"):
-            fails.append(f"recovery version: {path}: {heading} is not RECOVERY-v2")
-        if not state or not verdict:
-            continue
-
-        state_value = state.group(1)
-        verdict_value = verdict.group(1).lstrip("*")
-        closes_no_trace = verdict_value.startswith("NO-TRACE")
-        if closes_no_trace and "CLOSED-NO-TRACE" not in state_value:
-            fails.append(
-                f"recovery closure: {path}: {heading} issues NO-TRACE without CLOSED-NO-TRACE"
-            )
-        if closes_no_trace and any(
-            gap in state_value for gap in ("TOOL-GAP", "LAW-GAP", "SOURCE-GAP", "OPEN-CANDIDATE")
-        ):
-            fails.append(
-                f"recovery gap: {path}: {heading} turns an unresolved gap into NO-TRACE"
-            )
-
-    if radiation_marker in body:
-        for heading, section in cards:
-            if not any(field in section for field in radiation_card_fields):
-                continue
+        if has_radiation and any(field in section for field in radiation_card_fields):
             verdict = re.search(
                 r"^- الحكم \(استكشاف\):\s*(.+)$", section, re.MULTILINE
             )
-            if not verdict or not any(
-                item in verdict.group(1) for item in positive_verdicts
-            ):
-                continue
-            for field in radiation_card_fields:
-                if field not in section:
-                    fails.append(
-                        f"radiation field: {path}: {heading} lacks {field}"
-                    )
+            if verdict and any(item in verdict.group(1) for item in positive_verdicts):
+                for field in radiation_card_fields:
+                    if field not in section:
+                        fails.append(
+                            f"radiation field: {path}: {heading} lacks {field}"
+                        )
+
+        if path == "04-cross-linguistic/readings/egyptian.md":
+            for lemma in ("ḫf", "km"):
+                if heading.startswith(f"### بطاقة: {lemma} "):
+                    latest_egypt[lemma] = section
 
 
-egypt_cards = all_cards["04-cross-linguistic/readings/egyptian.md"]
 for lemma, expected in (("ḫf", "**NO-TRACE**"), ("km", "**NUCLEUS-ECHO**")):
-    matches = [section for heading, section in egypt_cards if heading.startswith(f"### بطاقة: {lemma} ")]
-    if not matches or expected not in matches[-1]:
+    if lemma not in latest_egypt or expected not in latest_egypt[lemma]:
         fails.append(f"latest Egyptian ruling: {lemma} must end at {expected}")
 
 egyptian = read("04-cross-linguistic/readings/egyptian.md")
@@ -275,7 +321,7 @@ if "ما عندنا للمصريّة قيدٌ كتابيٌّ واحد" in networ
 
 print(
     f"checked {actual_count} nuclei, "
-    f"{sum(len(cards) for cards in all_cards.values())} reading-card blocks, "
+    f"{card_count} reading-card blocks, "
     f"{len(network_ids)} shift rows"
 )
 for failure in fails:

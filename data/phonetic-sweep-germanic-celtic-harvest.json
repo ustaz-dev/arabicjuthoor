@@ -1,0 +1,233 @@
+{
+  "schema": "phonetic-sweep-germanic-celtic-harvest-v1",
+  "date": "2026-08-15",
+  "source_method": "sound-first-meaning-judges",
+  "control_baseline": "1281ac5",
+  "batches": 19,
+  "cards": 2816,
+  "counts": {
+    "by_phase": {
+      "direct-witness": 152,
+      "sound-and-meaning": 114,
+      "sound-only": 2550
+    },
+    "by_language": {
+      "old-english": 920,
+      "old-norse": 798,
+      "old-irish": 586,
+      "gothic": 512
+    },
+    "by_status": {
+      "protected-live-reference": 58,
+      "open-candidate": 2753,
+      "named-semitic-donor": 5
+    }
+  },
+  "supplements": [
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-001-gothic.md",
+      "bytes": 4482979
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-001-old-english.md",
+      "bytes": 21347913
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-001-old-irish.md",
+      "bytes": 12469883
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-001-old-norse.md",
+      "bytes": 26357105
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-002-gothic.md",
+      "bytes": 3662116
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-002-old-english.md",
+      "bytes": 25445803
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-002-old-irish.md",
+      "bytes": 6706074
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-002-old-norse.md",
+      "bytes": 13762479
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-003-old-english.md",
+      "bytes": 35518807
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-004-old-english.md",
+      "bytes": 27707451
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-005-old-english.md",
+      "bytes": 25142620
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-006-old-english.md",
+      "bytes": 26814822
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-007-old-english.md",
+      "bytes": 25667467
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-008-old-english.md",
+      "bytes": 6211839
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-008-old-norse.md",
+      "bytes": 23599584
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-009-old-norse.md",
+      "bytes": 36505992
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-010-old-norse.md",
+      "bytes": 26618713
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-011-old-norse.md",
+      "bytes": 32261214
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-012-old-irish.md",
+      "bytes": 2090377
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-012-old-norse.md",
+      "bytes": 31819419
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-013-old-irish.md",
+      "bytes": 37540843
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-014-old-irish.md",
+      "bytes": 29000929
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-015-old-irish.md",
+      "bytes": 25060837
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-016-gothic.md",
+      "bytes": 9210806
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-016-old-irish.md",
+      "bytes": 13626989
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-017-gothic.md",
+      "bytes": 22655031
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-018-gothic.md",
+      "bytes": 16939989
+    },
+    {
+      "path": "04-cross-linguistic/readings/phonetic-sweep-germanic-celtic/batch-019-gothic.md",
+      "bytes": 11123228
+    }
+  ],
+  "largest_supplement_bytes": 37540843,
+  "examples": [
+    {
+      "id": "PS-GC-OLD-ENGLISH-00004",
+      "language": "old-english",
+      "word": "magan",
+      "romanization": "magan",
+      "root": "مكن",
+      "status": "protected-live-reference",
+      "orbit": "الاستطاعة هي التمكن من الفعل والقدرة عليه، فمعنى الفرع يلتقي مادة مكن في القدرة والرسوخ بلا سلسلة مدارات",
+      "cross_branch_note": "تكرر الهيكل والمعنى في الإنجليزية القديمة `magan` والنوردية القديمة `megin`، ومعهما القوطية `magan`. تكراره في ألسن جرمانية مستقلة شاهد أسري يثبت في البطاقة، ولا يستبدل الأرجل الثلاث ولا جولة الضبط"
+    },
+    {
+      "id": "PS-GC-OLD-NORSE-00055",
+      "language": "old-norse",
+      "word": "megin",
+      "romanization": "megin",
+      "root": "مكن",
+      "status": "protected-live-reference",
+      "orbit": "القوة والمكنة والقدرة تحقق معنى التمكن، واجتماع هذه الصورة مع magan في الإنجليزية القديمة شاهد عابر للسانين يكتب ولا يحسم وحده",
+      "cross_branch_note": "تكرر الهيكل والمعنى في الإنجليزية القديمة `magan` والنوردية القديمة `megin`، ومعهما القوطية `magan`. تكراره في ألسن جرمانية مستقلة شاهد أسري يثبت في البطاقة، ولا يستبدل الأرجل الثلاث ولا جولة الضبط"
+    },
+    {
+      "id": "PS-GC-OLD-NORSE-00058",
+      "language": "old-norse",
+      "word": "grein",
+      "romanization": "grein",
+      "root": "قرن",
+      "status": "protected-live-reference",
+      "orbit": "الغصن فرع ناتئ ممتد من أصله، فيلتقي حدث قرن في النتوء الممتد، ويقوى المرشح بتكرار قرن في الويلزية واليونانية واللاتينية",
+      "cross_branch_note": "تكرر المرشح في النوردية القديمة، والويلزية، واليونانية، واللاتينية، وتظهر صورة `corn` في الإيرلندية القديمة. هذا الإشعاع العابر للفروع حجة مساندة تكتب، ولا يصدر منها حكم منفرد"
+    },
+    {
+      "id": "PS-GC-OLD-IRISH-00110",
+      "language": "old-irish",
+      "word": "gaibid",
+      "romanization": "gaibid",
+      "root": "قبض",
+      "status": "protected-live-reference",
+      "orbit": "الإمساك والأخذ والانتزاع هي أفعال القبض نفسها، فالمعنى مباشر في مادة واحدة، مع بقاء تحرير g مع القاف شرطًا صوتيًا مستقلًا",
+      "cross_branch_note": ""
+    },
+    {
+      "id": "PS-GC-OLD-IRISH-00114",
+      "language": "old-irish",
+      "word": "subach",
+      "romanization": "subach",
+      "root": "صبح",
+      "status": "open-candidate",
+      "orbit": "البهجة والإشراق في cheerful وmerry يلتقيان وجه الصباح في انكشاف الضوء وانبساط النفس، لكنه مدار مرشح لا يقوم مقام الصف الصوتي",
+      "cross_branch_note": ""
+    },
+    {
+      "id": "PS-GC-GOTHIC-00137",
+      "language": "gothic",
+      "word": "𐌲𐌹𐌱𐌻𐌰",
+      "romanization": "gibla",
+      "root": "جبل",
+      "status": "protected-live-reference",
+      "orbit": "ذروة البناء وقمته بروز عظيم غليظ فوق ما يحيط به، وهو تطبيق حسي لحدث جبل في تجمع العظم والغلظ والارتفاع",
+      "cross_branch_note": ""
+    },
+    {
+      "id": "PS-GC-GOTHIC-00138",
+      "language": "gothic",
+      "word": "𐌸𐌰𐍂𐌱𐌰",
+      "romanization": "tharba",
+      "root": "طلب",
+      "status": "protected-live-reference",
+      "orbit": "الحاجة والعوز يبعثان الطالب إلى ابتغاء ما فقده، فمعنى الفرع يلتقي مادة طلب في قصد الشيء وابتغائه لا في لفظ إنجليزي وسيط",
+      "cross_branch_note": ""
+    },
+    {
+      "id": "PS-GC-GOTHIC-00139",
+      "language": "gothic",
+      "word": "𐍆𐍂𐌹𐌾𐌴𐌹",
+      "romanization": "frijei",
+      "root": "فرج",
+      "status": "protected-live-reference",
+      "orbit": "الحرية حالة انفراج بعد حبس أو ضيق، فهي ظل حالة واحد لفتح الفرج وكشف الشدة، مع بقاء فحص الصامت الثالث مستقلًا",
+      "cross_branch_note": ""
+    },
+    {
+      "id": "PS-GC-GOTHIC-00142",
+      "language": "gothic",
+      "word": "𐌱𐌹𐌷𐌰𐌹𐍄",
+      "romanization": "bihait",
+      "root": "بهت",
+      "status": "open-candidate",
+      "orbit": "قول الزور على المرء بما لم يفعله هو نفس حس البهتان في مادة بهت، لكن خبر السابقة القوطية يبقى حاشية صرفية ولا يحول البطاقة إلى إغلاق",
+      "cross_branch_note": ""
+    }
+  ]
+}

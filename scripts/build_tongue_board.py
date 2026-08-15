@@ -74,6 +74,36 @@ FAMILIES = [
 ]
 
 
+def iter_cards(path):
+    """بطاقاتُ الملفِّ واحدةً واحدةً، بمخرَجٍ مطابقٍ لـ`CARD_SPLIT.split(...)[1:]`.
+
+    **العلّةُ ذاكرةٌ لا سرعة.** ملفّاتُ القراءةِ 380 ميجا، وكان البانِي يُبقي
+    ثلاثَ نسخٍ من الملفِّ الواحدِ في آنٍ: النصَّ الخامَّ، ونسخةَ `bare` بعدَ
+    التطبيعِ ونزعِ الشكل، ثمّ قائمةَ `split` بكلِّ بطاقاتِه. فبلغَ البانِي
+    **1.2 جيجا** في ذروتِه، وهو يعملُ في كلِّ إيداع. والذاكرةُ الحرّةُ على
+    الجهازِ 1.2 جيجا من 15.4، فصارَ هذا البانِي وحدَه سقفَ التوازي.
+
+    والمولِّدُ يُبقي نسخةَ `bare` وبطاقةً واحدةً فقط، ويُحرِّرُ النصَّ الخامَّ
+    فورَ التطبيع. **والمخرَجُ لم يتغيّرْ حرفًا**، وذلك مُتحقَّقٌ منه بمقابلةِ
+    `data/tongue-board.json` قبلَ التعديلِ وبعدَه.
+    """
+    # طبّع سطرًا واحدًا في كل مرة. صيغة المخرَج مطابقةٌ للمقسّم القديم:
+    # تبدأ البطاقة بما بعد بادئة العنوان ``### `` وتنتهي قبل العنوان التالي.
+    block: list[str] | None = None
+    with path.open(encoding="utf-8") as handle:
+        for raw_line in handle:
+            line = C.bare(raw_line)
+            marker = C.CARD_SPLIT.match(line)
+            if marker:
+                if block is not None:
+                    yield "".join(block)
+                block = [line[marker.end():]]
+            elif block is not None:
+                block.append(line)
+    if block is not None:
+        yield "".join(block)
+
+
 def gather() -> dict:
     per = collections.defaultdict(collections.Counter)
     roots = collections.defaultdict(set)
@@ -83,8 +113,7 @@ def gather() -> dict:
         lang = path.stem
         if lang not in META:
             continue
-        raw = path.read_text(encoding="utf-8")
-        for block in C.CARD_SPLIT.split(C.bare(raw))[1:]:
+        for block in iter_cards(path):
             degrees = C.scan_card(block)
             if not degrees:
                 continue

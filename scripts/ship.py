@@ -27,6 +27,7 @@
 from __future__ import annotations
 
 import argparse
+import ctypes
 import os
 import pathlib
 import subprocess
@@ -52,6 +53,24 @@ LOCK = ROOT / ".git" / "ship.lock"
 LOCK_STALE_MINUTES = 45
 
 
+def process_alive(pid: int) -> bool:
+    """اختبار حياة العملية، بباب ويندوز المباشر حيث لا يوثق بـos.kill(pid, 0)."""
+    if os.name == "nt":
+        process_query_limited_information = 0x1000
+        handle = ctypes.windll.kernel32.OpenProcess(
+            process_query_limited_information, False, pid
+        )
+        if not handle:
+            return False
+        ctypes.windll.kernel32.CloseHandle(handle)
+        return True
+    try:
+        os.kill(pid, 0)
+        return True
+    except (OSError, ProcessLookupError):
+        return False
+
+
 def lock_holder() -> tuple[int, float] | None:
     """صاحبُ القفلِ إن كان حيًّا، وإلّا None ويُكسَرُ القفلُ الميّت."""
     try:
@@ -59,10 +78,17 @@ def lock_holder() -> tuple[int, float] | None:
         pid, stamp = int(pid_s), float(stamp_s)
     except (OSError, ValueError):
         return None
-    if (time.time() - stamp) / 60 > LOCK_STALE_MINUTES:
-        print(f"قفلٌ بائتٌ من {int((time.time() - stamp) / 60)} دقيقةً (pid {pid})، يُكسَر.")
+    alive = process_alive(pid)
+    age = (time.time() - stamp) / 60
+    # **الميّتُ يُكسَرُ قفلُه فورًا، والعمرُ لا يُنتظَرُ به (2026-08-15).** كانت
+    # القاعدةُ تشترطُ الموتَ **و**مضيَّ 45 دقيقة، فبقيَ قفلُ عمليّةٍ ماتَت بعدَ
+    # إحدى عشرةَ دقيقةً معطِّلًا كلَّ إيداعٍ أربعًا وثلاثينَ دقيقةً بلا سبب.
+    # فالموتُ وحدَه كافٍ، وإنّما يُعتَدُّ بالعمرِ حينَ تتعذَّرُ معرفةُ الحياة.
+    if not alive:
+        print(f"صاحبُ القفلِ ميّتٌ (pid {pid}، عمرُ القفلِ {int(age)} دقيقة)، يُكسَر.")
         LOCK.unlink(missing_ok=True)
         return None
+    # وقفلُ عمليّةٍ حيّةٍ لا يُكسَرُ بالعمر: بعضُ البناةِ يتجاوزُ 45 دقيقةً بحقّ.
     return pid, stamp
 
 
@@ -82,6 +108,16 @@ def take_lock() -> bool:
     except FileExistsError:
         print("سبقَنا إيداعٌ آخرُ إلى القفلِ في هذه اللحظة.")
         return False
+
+
+def release_own_lock() -> None:
+    """لا تحذف قفلًا استبدلته عملية أحدث أثناء سباقٍ تاريخي."""
+    try:
+        pid_s, _ = LOCK.read_text(encoding="utf-8").split()
+    except (OSError, ValueError):
+        return
+    if int(pid_s) == os.getpid():
+        LOCK.unlink(missing_ok=True)
 
 
 def run(script: str, args: list[str]) -> tuple[int, str]:
@@ -111,10 +147,21 @@ def tree_hash() -> str:
     return git("write-tree")[1].strip()
 
 
-def build_all(only: list[str] | None = None) -> None:
+def build_all(only: list[str] | None = None,
+              skip: set[str] | None = None) -> None:
+    """يبني المشتقّات. و`skip` تُسقِطُ من يُعادُ بناؤُه قبلَ الإيداعِ مباشرةً.
+
+    **العلّةُ زمنٌ لا صحّة (2026-08-15):** أحدَ عشرَ بانيًا كلٌّ منهم يقرأُ 380
+    ميجا من ملفّاتِ القراءة، فطورُ البناءِ وحدَه يزيدُ على أربعينَ دقيقة. وتسعةٌ
+    من هؤلاء **يُعادُ بناؤُهم في `refresh_before_commit` قبلَ `git add -A`**،
+    فبناؤُهم في أوّلِ الدورةِ عملٌ يُرمى. وإسقاطُه يُنصِّفُ زمنَ الإيداع، ولا
+    يُنقِصُ صحّةً لأنّ المودَعَ في الحالَينِ هو ناتجُ التجديدِ الأخير.
+    """
     print("البناء:")
     for script, argv in R.BUILD:
         if only and script not in only:
+            continue
+        if skip and script in skip:
             continue
         code, line = run(script, argv)
         print(f" {'  ' if code == 0 else '!!'} {script:44}{line}")
@@ -179,7 +226,7 @@ def main() -> int:
     try:
         return _run(args)
     finally:
-        LOCK.unlink(missing_ok=True)
+        release_own_lock()
 
 
 def _run(args) -> int:
@@ -187,26 +234,48 @@ def _run(args) -> int:
     # تكتبُ في الشجرةِ نفسِها، فأيُّ مشتقٍّ يُبنى قد يبيتُ قبلَ أن يُفحَصَ لأنّ
     # مسارًا كتبَ بطاقةً في تلك اللحظة. **ومن استسلمَ لأوّلِ سقوطٍ توقّفَ الحصادُ
     # كلُّه**، والبياتُ ههنا عارضُ سباقٍ لا عطبٌ في المادّة.
+    # **العطبُ الذي أُصلِحَ هنا (2026-08-15): الدورةُ لا تلحقُ الكتّاب.**
+    # صارَت ملفّاتُ القراءةِ 380 ميجا، فدورةُ بناءٍ وفحصٍ واحدةٌ تزيدُ على نصفِ
+    # ساعة، وخمسةُ مساراتٍ تكتبُ في أثنائها. فكلَّما فُحِصَت بوّابةُ طزاجةٍ
+    # وجدَت مشتقًّا باتَ في تلك اللحظة، فتُعادُ الدورةُ أربعًا ثمّ **لا يُودَعُ
+    # شيء**. تراكمَ بذلك 300 ملفٍّ وساعتانِ بلا إيداعٍ والعملُ كلُّه غيرُ محفوظ.
+    #
+    # **والتفريقُ هو الحلّ، لا زيادةُ الدورات.** البوّاباتُ صنفان:
+    #
+    #   بوّابةُ طزاجة   تُعيدُ حسابَ مشتقٍّ من الشجرةِ وتُقابِلُه بالمودَع.
+    #                  سقوطُها يعني «بات»، **و`refresh_before_commit` يُصلِحُه
+    #                  بعينِه قبلَ `git add -A`**، فلا معنى لإعادةِ الدورةِ له.
+    #   بوّابةٌ جوهريّة  تفحصُ المادّةَ نفسَها (نقاءُ الشحنة، قاموسُ الإغلاق).
+    #                  سقوطُها عطبٌ حقيقيٌّ **لا يُودَعُ معه شيءٌ أبدًا**.
+    #
+    # فدورةٌ واحدةٌ تكفي: إن سقطَت بوّاباتُ طزاجةٍ وحدَها مضى الإيداعُ بعدَ
+    # التجديد، وإن سقطَت جوهريّةٌ واحدةٌ وقفَ كلُّ شيء.
+    fresh_names = {s for s, _ in freshness_builders()}
     before_build: set[str] = set()
     after_build: set[str] = set()
-    failed: list[str] = []
-    ROUNDS = 4
+    ROUNDS = 2
+    substantive: list[str] = []
     for attempt in range(1, ROUNDS + 1):
         before_build = {ln[3:].strip().strip('"') for ln in changed_now()}
-        build_all(args.build)
+        build_all(args.build, skip=fresh_names)
         after_build = {ln[3:].strip().strip('"') for ln in changed_now()}
         failed = gates_all()
+        stale = [s for s in failed if s in fresh_names]
+        substantive = [s for s in failed if s not in fresh_names]
         if not failed:
             break
+        if not substantive:
+            print(f"\n{len(stale)} بوّابةَ طزاجةٍ باتَت لأنّ مسارًا كتبَ في أثناءِ "
+                  "الدورة، ويُصلِحُها التجديدُ قبلَ الإيداعِ مباشرةً فيُمضى.")
+            break
         if attempt < ROUNDS:
-            print(f"\n{len(failed)} بوّابةً ساقطةٌ ومسارٌ آخرُ يكتبُ الآن، "
-                  f"فتُعادُ الدورةُ ({attempt} من {ROUNDS - 1}).\n")
-    if failed:
-        print(f"\nRESULT: {len(failed)} بوّابةً ساقطةٌ بعدَ {ROUNDS} دورات: "
-              f"{', '.join(failed)}")
+            print(f"\n{len(substantive)} بوّابةً جوهريّةً ساقطةٌ، فتُعادُ الدورةُ مرّةً.\n")
+    if substantive:
+        print(f"\nRESULT: {len(substantive)} بوّابةً جوهريّةً ساقطة: "
+              f"{', '.join(substantive)}")
         print("لم يُودَعْ شيء. الإيداعُ على شجرةٍ حمراءَ يدفعُ فشلًا معروفًا إلى الأصل.")
         return 1
-    print("\nRESULT: البوّاباتُ كلُّها خضراء")
+    print("\nRESULT: لا بوّابةَ جوهريّةً ساقطة")
 
     if args.dry_run or not args.message:
         if not args.message and not args.dry_run:

@@ -1,0 +1,1095 @@
+{
+  "schema": "phonetic-sweep-persian-akkadian-harvest-v1",
+  "date": "2026-08-15",
+  "batch": 2,
+  "batch_size": 47,
+  "queue_start": 151,
+  "queue_end": 197,
+  "controls": {
+    "persian": [
+      {
+        "word": "parêš",
+        "root": "فرش",
+        "heading": "بطاقة: parêš «مبعثر/متناثر»",
+        "baseline": "1281ac5",
+        "old_count": 16,
+        "new_count": 16,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "word": "astar",
+        "root": "ستر",
+        "heading": "بطاقة: astar «بطانة»",
+        "baseline": "1281ac5",
+        "old_count": 24,
+        "new_count": 24,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "word": "rōd",
+        "root": "رود",
+        "heading": "بطاقة 970: رود «river; torrent»",
+        "baseline": "1281ac5",
+        "old_count": 60,
+        "new_count": 60,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "word": "zar",
+        "root": "زر",
+        "heading": "بطاقة 1020: زر",
+        "baseline": "1281ac5",
+        "old_count": 60,
+        "new_count": 60,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          2,
+          4
+        ]
+      },
+      {
+        "word": "daryā",
+        "root": "دريا",
+        "heading": "بطاقة 1030: دریا",
+        "baseline": "1281ac5",
+        "old_count": 6,
+        "new_count": 6,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          3,
+          4
+        ]
+      },
+      {
+        "word": "rīš",
+        "root": "ريش",
+        "heading": "بطاقة 1929: ریش",
+        "baseline": "1281ac5",
+        "old_count": 80,
+        "new_count": 80,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          1,
+          3,
+          4
+        ]
+      }
+    ],
+    "akkadian": [
+      {
+        "word": "aḫāzu",
+        "root": "أخذ",
+        "heading": "بطاقة: aḫāzu «يأخذ ويمسك»",
+        "baseline": "1281ac5",
+        "old_count": 100,
+        "new_count": 120,
+        "a_minus_b": [],
+        "b_minus_a": [
+          "ءحذ",
+          "ءحز",
+          "ءخذ",
+          "ءخز",
+          "ءعذ",
+          "ءعز",
+          "ءغذ",
+          "ءغز",
+          "ءهذ",
+          "ءهز",
+          "أحذ",
+          "أحز",
+          "أخذ",
+          "أخز",
+          "أعذ",
+          "أعز",
+          "أغذ",
+          "أغز",
+          "أهذ",
+          "أهز"
+        ],
+        "event_tiers": [
+          1
+        ]
+      },
+      {
+        "word": "malkum",
+        "root": "ملك",
+        "heading": "بطاقة: malku A «ملك وحاكم»",
+        "baseline": "1281ac5",
+        "old_count": 1,
+        "new_count": 1,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "word": "akālum",
+        "root": "أكل",
+        "heading": "بطاقة: akālu/akalu «يأكل، وطعام»",
+        "baseline": "1281ac5",
+        "old_count": 10,
+        "new_count": 12,
+        "a_minus_b": [],
+        "b_minus_a": [
+          "ءكل",
+          "أكل"
+        ],
+        "event_tiers": [
+          1
+        ]
+      },
+      {
+        "word": "lišānum",
+        "root": "لسن",
+        "heading": "بطاقة: lišānu «اللسان واللغة»",
+        "baseline": "1281ac5",
+        "old_count": 3,
+        "new_count": 3,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "word": "šinnum",
+        "root": "سن",
+        "heading": "بطاقة: šinnu A «السن»",
+        "baseline": "1281ac5",
+        "old_count": 30,
+        "new_count": 30,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          2,
+          4
+        ]
+      },
+      {
+        "word": "dāmum",
+        "root": "دم",
+        "heading": "بطاقة: dāmu/dāmum «الدم»",
+        "baseline": "1281ac5",
+        "old_count": 30,
+        "new_count": 30,
+        "a_minus_b": [],
+        "b_minus_a": [],
+        "event_tiers": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  "a_minus_b_nonempty": 0,
+  "stage_counts": {
+    "direct": 47
+  },
+  "language_counts": {
+    "akkadian": 47
+  },
+  "closure_counts": {
+    "PROTECTED-S8": 16,
+    "OPEN-CANDIDATE": 13,
+    "ROOT-TRACE": 13,
+    "LOANWORD-THIRD-PARTY-TO-BRANCH": 2,
+    "NUCLEUS-TRACE": 3
+  },
+  "rows": [
+    {
+      "id": "PS-AKKADIAN-DIRECT-00050",
+      "ordinal": 151,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "qarnum",
+      "published_romanization": "qarnum",
+      "spoken_romanization": "qarnum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: qarnu «القرن»"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00051",
+      "ordinal": 152,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "lamassum",
+      "published_romanization": "lamassum",
+      "spoken_romanization": "lamassum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 1,
+      "event_root_count": 1,
+      "full_arabic_witness_count": 16
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00052",
+      "ordinal": 153,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "parāsum",
+      "published_romanization": "parāsum",
+      "spoken_romanization": "parāsum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "فرس"
+      ],
+      "selected_event_tier": 3,
+      "fan_count": 2,
+      "event_root_count": 2,
+      "full_arabic_witness_count": 25
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00053",
+      "ordinal": 154,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "warādum",
+      "published_romanization": "warādum",
+      "spoken_romanization": "warādum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "ورد"
+      ],
+      "selected_event_tier": 1,
+      "fan_count": 3,
+      "event_root_count": 3,
+      "full_arabic_witness_count": 30
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00054",
+      "ordinal": 155,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "gammalu",
+      "published_romanization": "gammalu",
+      "spoken_romanization": "gammalu",
+      "script": "akkadian",
+      "closure": "LOANWORD-THIRD-PARTY-TO-BRANCH",
+      "donor": "West Semitic",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 2,
+      "event_root_count": 2,
+      "full_arabic_witness_count": 29
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00055",
+      "ordinal": 156,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "rapāšum",
+      "published_romanization": "rapāšum",
+      "spoken_romanization": "rapāšum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 6,
+      "event_root_count": 6,
+      "full_arabic_witness_count": 61
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00056",
+      "ordinal": 157,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "malāḫum",
+      "published_romanization": "malāḫum",
+      "spoken_romanization": "malāḫum",
+      "script": "akkadian",
+      "closure": "LOANWORD-THIRD-PARTY-TO-BRANCH",
+      "donor": "Sumerian",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 5,
+      "event_root_count": 5,
+      "full_arabic_witness_count": 51
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00057",
+      "ordinal": 158,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "zamārum",
+      "published_romanization": "zamārum",
+      "spoken_romanization": "zamārum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "زمر"
+      ],
+      "selected_event_tier": 1,
+      "fan_count": 2,
+      "event_root_count": 2,
+      "full_arabic_witness_count": 26
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00058",
+      "ordinal": 159,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "makārum",
+      "published_romanization": "makārum",
+      "spoken_romanization": "makārum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 1,
+      "event_root_count": 1,
+      "full_arabic_witness_count": 15
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00059",
+      "ordinal": 160,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "napāšum",
+      "published_romanization": "napāšum",
+      "spoken_romanization": "napāšum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "نفش"
+      ],
+      "selected_event_tier": 1,
+      "fan_count": 6,
+      "event_root_count": 6,
+      "full_arabic_witness_count": 84
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00060",
+      "ordinal": 161,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "šapattum",
+      "published_romanization": "šapattum",
+      "spoken_romanization": "šapattum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة إعادة فتح مردودة: šaptum «الشفة» بإزاء شفه",
+        "بطاقة طابور مردودة: šēpu / šēpītu «القدم وأسفل الشيء» بإزاء شباة النعل"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00061",
+      "ordinal": 162,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "ziqnum",
+      "published_romanization": "ziqnum",
+      "spoken_romanization": "ziqnum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: ziqnum «اللحية والذقن» ↔ ذقن"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00062",
+      "ordinal": 163,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "našru",
+      "published_romanization": "našru",
+      "spoken_romanization": "našru",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 3,
+      "event_root_count": 3,
+      "full_arabic_witness_count": 47
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00063",
+      "ordinal": 164,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "nasāḫum",
+      "published_romanization": "nasāḫum",
+      "spoken_romanization": "nasāḫum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "نسخ"
+      ],
+      "selected_event_tier": 1,
+      "fan_count": 5,
+      "event_root_count": 5,
+      "full_arabic_witness_count": 47
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00064",
+      "ordinal": 165,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "birqum",
+      "published_romanization": "birqum",
+      "spoken_romanization": "birqum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "برق"
+      ],
+      "selected_event_tier": 1,
+      "fan_count": 1,
+      "event_root_count": 1,
+      "full_arabic_witness_count": 18
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00065",
+      "ordinal": 166,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "šuršum",
+      "published_romanization": "šuršum",
+      "spoken_romanization": "šuršum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "شرش"
+      ],
+      "selected_event_tier": 3,
+      "fan_count": 9,
+      "event_root_count": 9,
+      "full_arabic_witness_count": 32
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00066",
+      "ordinal": 167,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "šebērum",
+      "published_romanization": "šebērum",
+      "spoken_romanization": "šebērum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "ثبر"
+      ],
+      "selected_event_tier": 1,
+      "fan_count": 3,
+      "event_root_count": 3,
+      "full_arabic_witness_count": 44
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00067",
+      "ordinal": 168,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "šalgum",
+      "published_romanization": "šalgum",
+      "spoken_romanization": "šalgum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "ثلج"
+      ],
+      "selected_event_tier": 3,
+      "fan_count": 6,
+      "event_root_count": 6,
+      "full_arabic_witness_count": 55
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00068",
+      "ordinal": 169,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "wabālum",
+      "published_romanization": "wabālum",
+      "spoken_romanization": "wabālum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 1,
+      "event_root_count": 1,
+      "full_arabic_witness_count": 17
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00069",
+      "ordinal": 170,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "ṣamādum",
+      "published_romanization": "ṣamādum",
+      "spoken_romanization": "ṣamādum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "ضمد"
+      ],
+      "selected_event_tier": 3,
+      "fan_count": 9,
+      "event_root_count": 9,
+      "full_arabic_witness_count": 27
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00070",
+      "ordinal": 171,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "pašāqum",
+      "published_romanization": "pašāqum",
+      "spoken_romanization": "pašāqum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 6,
+      "event_root_count": 6,
+      "full_arabic_witness_count": 63
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00071",
+      "ordinal": 172,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "šaṭārum",
+      "published_romanization": "šaṭārum",
+      "spoken_romanization": "šaṭārum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "PS-AKKADIAN-DIRECT-00040: `šiṭrum` /šiṭrum/",
+        "PS-AKKADIAN-DIRECT-00041: `šaṭārum` /šaṭārum/"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00072",
+      "ordinal": 173,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "gamālum",
+      "published_romanization": "gamālum",
+      "spoken_romanization": "gamālum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 2,
+      "event_root_count": 2,
+      "full_arabic_witness_count": 29
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00073",
+      "ordinal": 174,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "gišrum",
+      "published_romanization": "gišrum",
+      "spoken_romanization": "gišrum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "جسر"
+      ],
+      "selected_event_tier": 3,
+      "fan_count": 6,
+      "event_root_count": 6,
+      "full_arabic_witness_count": 58
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00074",
+      "ordinal": 175,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "napṭum",
+      "published_romanization": "napṭum",
+      "spoken_romanization": "napṭum",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "نفط"
+      ],
+      "selected_event_tier": 3,
+      "fan_count": 4,
+      "event_root_count": 4,
+      "full_arabic_witness_count": 30
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00075",
+      "ordinal": 176,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "qunnabu",
+      "published_romanization": "qunnabu",
+      "spoken_romanization": "qunnabu",
+      "script": "akkadian",
+      "closure": "ROOT-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "قنب"
+      ],
+      "selected_event_tier": 3,
+      "fan_count": 1,
+      "event_root_count": 1,
+      "full_arabic_witness_count": 13
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00076",
+      "ordinal": 177,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "libbum",
+      "published_romanization": "libbum",
+      "spoken_romanization": "libbum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: libbu «القلب والداخل» ↔ لب",
+        "بطاقة: libbu «القلب والباطن» مع عزل libbū «مثل»"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00077",
+      "ordinal": 178,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "pûm",
+      "published_romanization": "pûm",
+      "spoken_romanization": "pûm",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة طابور مردودة: pûm «الفم والقول» بإزاء فوه وفم",
+        "بطاقة إعادة فتح مردودة: pûm «الفم» بإزاء فوه"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00078",
+      "ordinal": 179,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "marrum",
+      "published_romanization": "marrum",
+      "spoken_romanization": "marrum",
+      "script": "akkadian",
+      "closure": "NUCLEUS-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "مر"
+      ],
+      "selected_event_tier": 2,
+      "fan_count": 10,
+      "event_root_count": 10,
+      "full_arabic_witness_count": 74
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00079",
+      "ordinal": 180,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "aḫātum",
+      "published_romanization": "aḫātum",
+      "spoken_romanization": "aḫātum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: aḫātu A «الأخت»"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00080",
+      "ordinal": 181,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "akalum",
+      "published_romanization": "akalum",
+      "spoken_romanization": "akalum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: akālu/akalu «يأكل، وطعام»"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00081",
+      "ordinal": 182,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "būrum",
+      "published_romanization": "būrum",
+      "spoken_romanization": "būrum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 10,
+      "event_root_count": 10,
+      "full_arabic_witness_count": 71
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00082",
+      "ordinal": 183,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "šinā",
+      "published_romanization": "šinā",
+      "spoken_romanization": "šinā",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: šinnu A «السن»",
+        "بطاقة: šinā «اثنان»"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00083",
+      "ordinal": 184,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "zērum",
+      "published_romanization": "zērum",
+      "spoken_romanization": "zērum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: `zērum II` «بذر، نسل، مني» ↔ زرع"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00084",
+      "ordinal": 185,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "šeššet",
+      "published_romanization": "šeššet",
+      "spoken_romanization": "šeššet",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: šattu «السنة» ↔ سنة"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00085",
+      "ordinal": 186,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "dāmum",
+      "published_romanization": "dāmum",
+      "spoken_romanization": "dāmum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: dāmu/dāmum «الدم»"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00086",
+      "ordinal": 187,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "muḫḫum",
+      "published_romanization": "muḫḫum",
+      "spoken_romanization": "muḫḫum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: muḫḫum «قحف الرأس والدماغ وأعلى الشيء» ↔ مخ"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00087",
+      "ordinal": 188,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "eṭlum",
+      "published_romanization": "eṭlum",
+      "spoken_romanization": "eṭlum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 24,
+      "event_root_count": 22,
+      "full_arabic_witness_count": 75
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00088",
+      "ordinal": 189,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "darārum",
+      "published_romanization": "darārum",
+      "spoken_romanization": "darārum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 3,
+      "event_root_count": 3,
+      "full_arabic_witness_count": 33
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00089",
+      "ordinal": 190,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "kīma",
+      "published_romanization": "kīma",
+      "spoken_romanization": "kīma",
+      "script": "akkadian",
+      "closure": "NUCLEUS-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "كم"
+      ],
+      "selected_event_tier": 2,
+      "fan_count": 10,
+      "event_root_count": 10,
+      "full_arabic_witness_count": 56
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00090",
+      "ordinal": 191,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "ullûm",
+      "published_romanization": "ullûm",
+      "spoken_romanization": "ullûm",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: elûm «يعلو ويرتفع» ↔ علا"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00091",
+      "ordinal": 192,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "ḫassū",
+      "published_romanization": "ḫassū",
+      "spoken_romanization": "ḫassū",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 50,
+      "event_root_count": 50,
+      "full_arabic_witness_count": 243
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00092",
+      "ordinal": 193,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "nišum",
+      "published_romanization": "nišum",
+      "spoken_romanization": "nišum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة طابور مردودة: nišū «الناس والبشر» بإزاء إنس وإنسان"
+      ]
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00093",
+      "ordinal": 194,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "pītum",
+      "published_romanization": "pītum",
+      "spoken_romanization": "pītum",
+      "script": "akkadian",
+      "closure": "NUCLEUS-TRACE",
+      "donor": "",
+      "positive_roots": [
+        "فت"
+      ],
+      "selected_event_tier": 2,
+      "fan_count": 40,
+      "event_root_count": 40,
+      "full_arabic_witness_count": 134
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00094",
+      "ordinal": 195,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "awīlu",
+      "published_romanization": "awīlu",
+      "spoken_romanization": "awīlu",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 11,
+      "event_root_count": 11,
+      "full_arabic_witness_count": 47
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00095",
+      "ordinal": 196,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "titūrum",
+      "published_romanization": "titūrum",
+      "spoken_romanization": "titūrum",
+      "script": "akkadian",
+      "closure": "OPEN-CANDIDATE",
+      "donor": "",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 4,
+      "event_root_count": 4,
+      "full_arabic_witness_count": 7
+    },
+    {
+      "id": "PS-AKKADIAN-DIRECT-00096",
+      "ordinal": 197,
+      "stage": "direct",
+      "language": "akkadian",
+      "word": "ubānum",
+      "published_romanization": "ubānum",
+      "spoken_romanization": "ubānum",
+      "script": "akkadian",
+      "closure": "PROTECTED-S8",
+      "positive_roots": [],
+      "selected_event_tier": 0,
+      "fan_count": 0,
+      "event_root_count": 0,
+      "full_arabic_witness_count": 0,
+      "prior_issued": [
+        "بطاقة: banû A «يبني ويصنع ويكون»",
+        "بطاقة: bīnu B «son» ↔ ابن، العضو المفصول"
+      ]
+    }
+  ]
+}

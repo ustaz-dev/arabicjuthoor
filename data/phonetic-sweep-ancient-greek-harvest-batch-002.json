@@ -1,0 +1,2098 @@
+{
+  "schema": "phonetic-sweep-ancient-greek-harvest-v1",
+  "date": "2026-08-15",
+  "language": "ancient-greek",
+  "script": "greek",
+  "batch": 2,
+  "batch_size": 101,
+  "phase": "direct",
+  "controls": [
+    {
+      "word": "trūdō",
+      "root": "طرد",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 18,
+      "new_count": 18,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "إبعاد أو ابتعاد عن الحيز بتتابع ودفع قوي من الخلف",
+      "unchanged": true
+    },
+    {
+      "word": "cornū",
+      "root": "قرن",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 6,
+      "new_count": 6,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "نتوء بشدة أو اعتصار يمتدُّ في أعلى الجسم أو مُقدمه",
+      "unchanged": true
+    },
+    {
+      "word": "tinniō",
+      "root": "طن",
+      "closure": "FLOOR-TRACE",
+      "event_tier": 4,
+      "current_verdict": "FLOOR-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 30,
+      "new_count": 30,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "محاكمُ الحروف",
+      "event_text": "«ط»: إطباقٌ عريضٌ ثقيلٌ للسانِ يحبسُ النفَسَ بضغطٍ ثمّ ينفتحُ عنه منبسِطًا منتشرًا.؛ «ن»: انطباقُ طرفِ اللسانِ يحبسُ النفَسَ في الجوفِ فيمتلئُ رنينًا مجهورًا لطيفًا وينفذُ في الآنِ نفسِه منبعثًا من منفذِ الأنفِ الضيّقِ نفاذًا متّصلًا لا انفجارَ فيه",
+      "unchanged": true
+    },
+    {
+      "word": "separo",
+      "root": "صور",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 16,
+      "new_count": 16,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": false,
+      "source_candidate_in_new": false,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "حدود تبين هيئة الشيء بالانعطاف عليه وضمه وتمييزه عن غيره",
+      "unchanged": true
+    },
+    {
+      "word": "abutor",
+      "root": "بتر",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 36,
+      "new_count": 36,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "قَطْعُ ما يمتدُّ من الشيء دقيقًا، أو ضعيفًا",
+      "unchanged": true
+    },
+    {
+      "word": "tergeo",
+      "root": "ترك",
+      "closure": "ROOT-TRACE",
+      "event_tier": 1,
+      "current_verdict": "ROOT-TRACE",
+      "baseline": "1281ac5",
+      "old_count": 24,
+      "new_count": 24,
+      "a_minus_b": [],
+      "b_minus_a": [],
+      "source_candidate_in_old": true,
+      "source_candidate_in_new": true,
+      "event_available_at_declared_tier": true,
+      "event_tier_ar": "جذرٌ في الـ2,285",
+      "event_text": "مفارقة الشيء ما كان يعلق به فيبقى بلا حاجة إليه او تصرف فيه",
+      "unchanged": true
+    }
+  ],
+  "a_minus_b_nonempty": 0,
+  "closure_counts": {
+    "OPEN-CANDIDATE": 86,
+    "ROOT-TRACE": 10,
+    "SEMITIC-SOURCE-TRANSMISSION": 5
+  },
+  "positive_cards": 10,
+  "named_semitic_transmissions": 5,
+  "open_candidates": 86,
+  "sound_only_deferred": 3000,
+  "rows": [
+    {
+      "id": "PS-GREEK-00151",
+      "sweep_rank": 151,
+      "word": "κημός",
+      "romanization": "kēmós",
+      "script": "greek",
+      "root": "قمش",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 10,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00152",
+      "sweep_rank": 152,
+      "word": "ἀποχωρέω",
+      "romanization": "apokhōréō",
+      "script": "greek",
+      "root": "بخر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 12,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00153",
+      "sweep_rank": 153,
+      "word": "ἐχθρά",
+      "romanization": "ekhthrá",
+      "script": "greek",
+      "root": "كثر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 18,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00154",
+      "sweep_rank": 154,
+      "word": "μυρίκη",
+      "romanization": "myríkē",
+      "script": "greek",
+      "root": "مرق",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 11,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00155",
+      "sweep_rank": 155,
+      "word": "μέλκα",
+      "romanization": "mélka",
+      "script": "greek",
+      "root": "ملك",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 18,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00156",
+      "sweep_rank": 156,
+      "word": "ἔρφος",
+      "romanization": "érphos",
+      "script": "greek",
+      "root": "ربش",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 5,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00157",
+      "sweep_rank": 157,
+      "word": "λαῖφος",
+      "romanization": "laîphos",
+      "script": "greek",
+      "root": "لبس",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00158",
+      "sweep_rank": 158,
+      "word": "ῥῆγος",
+      "romanization": "rhē̂gos",
+      "script": "greek",
+      "root": "رجس",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00159",
+      "sweep_rank": 159,
+      "word": "σφῦρα",
+      "romanization": "sphŷra",
+      "script": "greek",
+      "root": "سبر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 14,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00160",
+      "sweep_rank": 160,
+      "word": "βῖκος",
+      "romanization": "bîkos",
+      "script": "greek",
+      "root": "بقش",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 2,
+      "arabic_witness_count": 3,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00161",
+      "sweep_rank": 161,
+      "word": "σαύνιον",
+      "romanization": "saýnion",
+      "script": "greek",
+      "root": "سنن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 10,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00162",
+      "sweep_rank": 162,
+      "word": "ἴκταρ",
+      "romanization": "íktar",
+      "script": "greek",
+      "root": "قطر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 17,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00163",
+      "sweep_rank": 163,
+      "word": "δῆρις",
+      "romanization": "dē̂ris",
+      "script": "greek",
+      "root": "ضرس",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 14,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00164",
+      "sweep_rank": 164,
+      "word": "τρασιά",
+      "romanization": "trasiá",
+      "script": "greek",
+      "root": "درس",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00165",
+      "sweep_rank": 165,
+      "word": "μίνιον",
+      "romanization": "mínion",
+      "script": "greek",
+      "root": "منن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 11,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00166",
+      "sweep_rank": 166,
+      "word": "φρίκη",
+      "romanization": "phríkē",
+      "script": "greek",
+      "root": "فرق",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00167",
+      "sweep_rank": 167,
+      "word": "κιέλλη",
+      "romanization": "kiéllē",
+      "script": "greek",
+      "root": "قلل",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 13,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00168",
+      "sweep_rank": 168,
+      "word": "προέχω",
+      "romanization": "proékhō",
+      "script": "greek",
+      "root": "فرخ",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 14,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00169",
+      "sweep_rank": 169,
+      "word": "σῦφαρ",
+      "romanization": "sŷphar",
+      "script": "greek",
+      "root": "صبر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00170",
+      "sweep_rank": 170,
+      "word": "ἄβολος",
+      "romanization": "ábolos",
+      "script": "greek",
+      "root": "بلز",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 9,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00171",
+      "sweep_rank": 171,
+      "word": "περσέα",
+      "romanization": "perséa",
+      "script": "greek",
+      "root": "فرص",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 14,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00172",
+      "sweep_rank": 172,
+      "word": "ὁμαλός",
+      "romanization": "homalós",
+      "script": "greek",
+      "root": "ملس",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 13,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00173",
+      "sweep_rank": 173,
+      "word": "κέλης",
+      "romanization": "kélēs",
+      "script": "greek",
+      "root": "قلص",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00174",
+      "sweep_rank": 174,
+      "word": "μαριεύς",
+      "romanization": "marieýs",
+      "script": "greek",
+      "root": "مرش",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 9,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00175",
+      "sweep_rank": 175,
+      "word": "ἄκουσμα",
+      "romanization": "ákousma",
+      "script": "greek",
+      "root": "قسم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00176",
+      "sweep_rank": 176,
+      "word": "ἀμέργω",
+      "romanization": "amérgō",
+      "script": "greek",
+      "root": "مرق",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 11,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00177",
+      "sweep_rank": 177,
+      "word": "βαθύνω",
+      "romanization": "bathýnō",
+      "script": "greek",
+      "root": "بطن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00178",
+      "sweep_rank": 178,
+      "word": "καθοράω",
+      "romanization": "kathoráō",
+      "script": "greek",
+      "root": "قطر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 17,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00179",
+      "sweep_rank": 179,
+      "word": "μάτην",
+      "romanization": "mátēn",
+      "script": "greek",
+      "root": "متن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 14,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00180",
+      "sweep_rank": 180,
+      "word": "παρήκω",
+      "romanization": "parḗkō",
+      "script": "greek",
+      "root": "فرق",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00181",
+      "sweep_rank": 181,
+      "word": "ἄχορος",
+      "romanization": "ákhoros",
+      "script": "greek",
+      "root": "خرس",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 10,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00182",
+      "sweep_rank": 182,
+      "word": "ὄβρυζα",
+      "romanization": "óbryza",
+      "script": "greek",
+      "root": "برز",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00183",
+      "sweep_rank": 183,
+      "word": "τέλλω",
+      "romanization": "téllō",
+      "script": "greek",
+      "root": "طلل",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00184",
+      "sweep_rank": 184,
+      "word": "ἀκάτιον",
+      "romanization": "akátion",
+      "script": "greek",
+      "root": "قطن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00185",
+      "sweep_rank": 185,
+      "word": "ἀριστεύω",
+      "romanization": "aristeýō",
+      "script": "greek",
+      "root": "رشد",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00186",
+      "sweep_rank": 186,
+      "word": "ἐφέλκω",
+      "romanization": "ephélkō",
+      "script": "greek",
+      "root": "فلق",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00187",
+      "sweep_rank": 187,
+      "word": "ἰσηγορία",
+      "romanization": "isēgoría",
+      "script": "greek",
+      "root": "زجر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 17,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00188",
+      "sweep_rank": 188,
+      "word": "πόδιον",
+      "romanization": "pódion",
+      "script": "greek",
+      "root": "بدن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00189",
+      "sweep_rank": 189,
+      "word": "Σιλωάμ",
+      "romanization": "silōám",
+      "script": "greek",
+      "root": "زلم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 17,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "SEMITIC-SOURCE-TRANSMISSION",
+      "verdict": "LOANWORD",
+      "named_semitic_route": "Borrowed from Biblical Hebrew שִּׁילוֹחַ (Shiloaḥ), whose meaning \"gushing forth\" is also rendered in Greek as ἀπεσταλμένος (apestalménos, “having been sent”), passive perfect part"
+    },
+    {
+      "id": "PS-GREEK-00190",
+      "sweep_rank": 190,
+      "word": "τάβλα",
+      "romanization": "tábla",
+      "script": "greek",
+      "root": "طبل",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 14,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00191",
+      "sweep_rank": 191,
+      "word": "Κάριος",
+      "romanization": "kários",
+      "script": "greek",
+      "root": "قرش",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00192",
+      "sweep_rank": 192,
+      "word": "ἐκτελέω",
+      "romanization": "ekteléō",
+      "script": "greek",
+      "root": "قتل",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 18,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00193",
+      "sweep_rank": 193,
+      "word": "ἀπόρως",
+      "romanization": "apórōs",
+      "script": "greek",
+      "root": "برز",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00194",
+      "sweep_rank": 194,
+      "word": "ἐπιτηρέω",
+      "romanization": "epitēréō",
+      "script": "greek",
+      "root": "بدر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00195",
+      "sweep_rank": 195,
+      "word": "ὑγιεινός",
+      "romanization": "hygieinós",
+      "script": "greek",
+      "root": "جنس",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 13,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00196",
+      "sweep_rank": 196,
+      "word": "γοῦρνα",
+      "romanization": "goûrna",
+      "script": "greek",
+      "root": "قرن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "SEMITIC-SOURCE-TRANSMISSION",
+      "verdict": "LOANWORD",
+      "named_semitic_route": "From Classical Syriac ܓܘܪܢܐ (gūrnā, “large vessel; coffin, sarcophagus”) or another Aramaic language. Unrelated to Latin urna (“urn”)."
+    },
+    {
+      "id": "PS-GREEK-00197",
+      "sweep_rank": 197,
+      "word": "φείδομαι",
+      "romanization": "pheídomai",
+      "script": "greek",
+      "root": "فدم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 13,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00198",
+      "sweep_rank": 198,
+      "word": "φθονέω",
+      "romanization": "phthonéō",
+      "script": "greek",
+      "root": "بطن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00199",
+      "sweep_rank": 199,
+      "word": "πείραθ'",
+      "romanization": "peírath",
+      "script": "greek",
+      "root": "فرط",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 17,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00200",
+      "sweep_rank": 200,
+      "word": "ἀνακρούω",
+      "romanization": "anakroúō",
+      "script": "greek",
+      "root": "نقر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00201",
+      "sweep_rank": 201,
+      "word": "τροχή",
+      "romanization": "trokhḗ",
+      "script": "greek",
+      "root": "درك",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00202",
+      "sweep_rank": 202,
+      "word": "κατερύω",
+      "romanization": "katerýō",
+      "script": "greek",
+      "root": "كدر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 17,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00203",
+      "sweep_rank": 203,
+      "word": "πορίζω",
+      "romanization": "porízō",
+      "script": "greek",
+      "root": "برز",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00204",
+      "sweep_rank": 204,
+      "word": "ὑπερέχω",
+      "romanization": "hyperékhō",
+      "script": "greek",
+      "root": "فرخ",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 14,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00205",
+      "sweep_rank": 205,
+      "word": "ἀπολήγω",
+      "romanization": "apolḗgō",
+      "script": "greek",
+      "root": "فلق",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 16,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00206",
+      "sweep_rank": 206,
+      "word": "εἰσπνέω",
+      "romanization": "eispnéō",
+      "script": "greek",
+      "root": "صفن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00207",
+      "sweep_rank": 207,
+      "word": "λαχανεύω",
+      "romanization": "lakhaneýō",
+      "script": "greek",
+      "root": "لحن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00208",
+      "sweep_rank": 208,
+      "word": "τρύχω",
+      "romanization": "trýkhō",
+      "script": "greek",
+      "root": "ترح",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 13,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00209",
+      "sweep_rank": 209,
+      "word": "ἐπιλήθω",
+      "romanization": "epilḗthō",
+      "script": "greek",
+      "root": "فلت",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 12,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00210",
+      "sweep_rank": 210,
+      "word": "ἡμέρα",
+      "romanization": "hēméra",
+      "script": "greek",
+      "root": "مر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 3,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00211",
+      "sweep_rank": 211,
+      "word": "ὄνομα",
+      "romanization": "ónoma",
+      "script": "greek",
+      "root": "نما",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 4,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00212",
+      "sweep_rank": 212,
+      "word": "ἀββα",
+      "romanization": "abba",
+      "script": "greek",
+      "root": "بوب",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "SEMITIC-SOURCE-TRANSMISSION",
+      "verdict": "LOANWORD",
+      "named_semitic_route": "Borrowed from Aramaic אַבָּא (ʾaḇā, “father”) The semantic shift from 'father' to 'abbot' is due to abbots being considered as fathers to the rest of the priests in the abbey, for"
+    },
+    {
+      "id": "PS-GREEK-00213",
+      "sweep_rank": 213,
+      "word": "ῥύομαι",
+      "romanization": "rhýomai",
+      "script": "greek",
+      "root": "رمي",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 10,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00214",
+      "sweep_rank": 214,
+      "word": "μοῖρα",
+      "romanization": "moîra",
+      "script": "greek",
+      "root": "مرر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 2,
+      "arabic_witness_count": 13,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00215",
+      "sweep_rank": 215,
+      "word": "μανία",
+      "romanization": "manía",
+      "script": "greek",
+      "root": "منو",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 2,
+      "arabic_witness_count": 5,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00216",
+      "sweep_rank": 216,
+      "word": "ἕρμα",
+      "romanization": "hérma",
+      "script": "greek",
+      "root": "ريم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00217",
+      "sweep_rank": 217,
+      "word": "βορά",
+      "romanization": "borá",
+      "script": "greek",
+      "root": "بر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 4,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00218",
+      "sweep_rank": 218,
+      "word": "ἀμύνω",
+      "romanization": "amýnō",
+      "script": "greek",
+      "root": "من",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 8,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00219",
+      "sweep_rank": 219,
+      "word": "ἔραμαι",
+      "romanization": "éramai",
+      "script": "greek",
+      "root": "روم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 18,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "ROOT-TRACE",
+      "verdict": "ROOT-TRACE",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00220",
+      "sweep_rank": 220,
+      "word": "ξένη",
+      "romanization": "xénē",
+      "script": "greek",
+      "root": "كن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 5,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00221",
+      "sweep_rank": 221,
+      "word": "μηνύω",
+      "romanization": "mēnýō",
+      "script": "greek",
+      "root": "من",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 8,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00222",
+      "sweep_rank": 222,
+      "word": "ξηρά",
+      "romanization": "xērá",
+      "script": "greek",
+      "root": "كر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 6,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00223",
+      "sweep_rank": 223,
+      "word": "ὄψον",
+      "romanization": "ópson",
+      "script": "greek",
+      "root": "بن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 5,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00224",
+      "sweep_rank": 224,
+      "word": "ἡρωΐνη",
+      "romanization": "hērōḯnē",
+      "script": "greek",
+      "root": "رون",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 9,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00225",
+      "sweep_rank": 225,
+      "word": "μέλω",
+      "romanization": "mélō",
+      "script": "greek",
+      "root": "مال",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 0,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00226",
+      "sweep_rank": 226,
+      "word": "ἔξειμι",
+      "romanization": "éxeimi",
+      "script": "greek",
+      "root": "كيم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 2,
+      "arabic_witness_count": 3,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00227",
+      "sweep_rank": 227,
+      "word": "μόρα",
+      "romanization": "móra",
+      "script": "greek",
+      "root": "مر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 3,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00228",
+      "sweep_rank": 228,
+      "word": "ψώρα",
+      "romanization": "psṓra",
+      "script": "greek",
+      "root": "بر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 4,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00229",
+      "sweep_rank": 229,
+      "word": "βινέω",
+      "romanization": "binéō",
+      "script": "greek",
+      "root": "بن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 5,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00230",
+      "sweep_rank": 230,
+      "word": "νέομαι",
+      "romanization": "néomai",
+      "script": "greek",
+      "root": "نمو",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 3,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00231",
+      "sweep_rank": 231,
+      "word": "βῆμα",
+      "romanization": "bē̂ma",
+      "script": "greek",
+      "root": "بم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 2,
+      "event_tiers": [
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00232",
+      "sweep_rank": 232,
+      "word": "ἐρημία",
+      "romanization": "erēmía",
+      "script": "greek",
+      "root": "رمي",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 10,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00233",
+      "sweep_rank": 233,
+      "word": "νωναί",
+      "romanization": "nōnaí",
+      "script": "greek",
+      "root": "نون",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 9,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00234",
+      "sweep_rank": 234,
+      "word": "ὑμνέω",
+      "romanization": "hymnéō",
+      "script": "greek",
+      "root": "منن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 11,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00235",
+      "sweep_rank": 235,
+      "word": "βολή",
+      "romanization": "bolḗ",
+      "script": "greek",
+      "root": "وبل",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 17,
+      "event_tiers": [
+        1,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00236",
+      "sweep_rank": 236,
+      "word": "ὀψωνέω",
+      "romanization": "opsōnéō",
+      "script": "greek",
+      "root": "بن",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 5,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00237",
+      "sweep_rank": 237,
+      "word": "βρία",
+      "romanization": "bría",
+      "script": "greek",
+      "root": "بر",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 4,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00238",
+      "sweep_rank": 238,
+      "word": "εὕρημα",
+      "romanization": "ehýrēma",
+      "script": "greek",
+      "root": "رم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 5,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00239",
+      "sweep_rank": 239,
+      "word": "ἄλιψ",
+      "romanization": "álips",
+      "script": "greek",
+      "root": "لوب",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00240",
+      "sweep_rank": 240,
+      "word": "ὄνομαι",
+      "romanization": "ónomai",
+      "script": "greek",
+      "root": "نم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 5,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00241",
+      "sweep_rank": 241,
+      "word": "ἀράξα",
+      "romanization": "aráxa",
+      "script": "greek",
+      "root": "رك",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 3,
+      "event_tiers": [
+        2,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00242",
+      "sweep_rank": 242,
+      "word": "ἄρον",
+      "romanization": "áron",
+      "script": "greek",
+      "root": "رون",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 9,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00243",
+      "sweep_rank": 243,
+      "word": "ἀνίημι",
+      "romanization": "aníēmi",
+      "script": "greek",
+      "root": "نام",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 1,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00244",
+      "sweep_rank": 244,
+      "word": "μήλη",
+      "romanization": "mḗlē",
+      "script": "greek",
+      "root": "ميل",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 15,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00245",
+      "sweep_rank": 245,
+      "word": "λίψ",
+      "romanization": "líps",
+      "script": "greek",
+      "root": "لبب",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 2,
+      "arabic_witness_count": 13,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00246",
+      "sweep_rank": 246,
+      "word": "ἔβαλ'",
+      "romanization": "ébal",
+      "script": "greek",
+      "root": "وبل",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 17,
+      "event_tiers": [
+        1,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00247",
+      "sweep_rank": 247,
+      "word": "νηνία",
+      "romanization": "nēnía",
+      "script": "greek",
+      "root": "نون",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 9,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00248",
+      "sweep_rank": 248,
+      "word": "μίν",
+      "romanization": "mín",
+      "script": "greek",
+      "root": "مين",
+      "direct": true,
+      "dictionary_path": "هيكلٌ مطابق",
+      "dictionary_entry_count": 45,
+      "arabic_witness_count": 11,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "SEMITIC-SOURCE-TRANSMISSION",
+      "verdict": "LOANWORD",
+      "named_semitic_route": "Borrowed from Biblical Hebrew אָמֵן (āmḗn, “so be it”, “surely”)."
+    },
+    {
+      "id": "PS-GREEK-00249",
+      "sweep_rank": 249,
+      "word": "ἐξεράω",
+      "romanization": "exeráō",
+      "script": "greek",
+      "root": "كري",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 9,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00250",
+      "sweep_rank": 250,
+      "word": "ἐνίημι",
+      "romanization": "eníēmi",
+      "script": "greek",
+      "root": "نوم",
+      "direct": true,
+      "dictionary_path": "الصورةُ بنصِّها",
+      "dictionary_entry_count": 1,
+      "arabic_witness_count": 14,
+      "event_tiers": [
+        1,
+        3,
+        4
+      ],
+      "closure": "OPEN-CANDIDATE",
+      "verdict": "غير صادر",
+      "named_semitic_route": ""
+    },
+    {
+      "id": "PS-GREEK-00251",
+      "sweep_rank": 251,
+      "word": "ἐῶμεν",
+      "romanization": "eō̂men",
+      "script": "greek",
+      "root": "مني",
+      "direct": true,
+      "dictionary_path": "هيكلٌ مطابق",
+      "dictionary_entry_count": 45,
+      "arabic_witness_count": 10,
+      "event_tiers": [
+        3,
+        4
+      ],
+      "closure": "SEMITIC-SOURCE-TRANSMISSION",
+      "verdict": "LOANWORD",
+      "named_semitic_route": "Borrowed from Biblical Hebrew אָמֵן (āmḗn, “so be it”, “surely”)."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "coptic-arabic-reexamination-v1",
+  "date": "2026-08-15",
+  "law": {
+    "every_form_compared_to_arabic": true,
+    "published_origin_is_information_only": true,
+    "greek_form_itself_compared_to_arabic": true,
+    "only_named_semitic_donor_closes_without_comparison": true,
+    "fan_complete": true,
+    "dialect_door_complete": true,
+    "all_event_tiers": true,
+    "root_witness_max_chars": 0,
+    "orbit_is_handwritten": true
+  },
+  "counts": {
+    "coptic_denominator": 3301,
+    "named_semitic_donor_closures": 17,
+    "arabic_reexaminations": 3284,
+    "published_greek_forms_compared": 3280,
+    "excluded_by_published_origin": 0,
+    "positive_links": 9,
+    "open_candidates": 3275,
+    "unique_arabic_candidates": 28176,
+    "candidates_with_lexicographic_witnesses": 5032,
+    "full_lexicographic_witness_records": 36298,
+    "result_batches": 22
+  },
+  "manual_positive_indices": [
+    682,
+    774,
+    1380,
+    1642,
+    2520,
+    2618,
+    2841,
+    2882,
+    3172
+  ],
+  "files": {
+    "events": "data/coptic-arabic-reexamination-events.jsonl",
+    "root_witnesses": "data/coptic-arabic-reexamination-root-witnesses-part-*.jsonl",
+    "root_witness_parts": 3,
+    "batches": "data/coptic-arabic-reexamination-batch-*.json",
+    "reading": "04-cross-linguistic/readings/coptic.md",
+    "audit": "05-audits/2026-08-15-reopened-loan-coptic-harvest-final.md"
+  }
+}

@@ -13,6 +13,7 @@ import re
 import subprocess
 import sys
 import types
+import unicodedata
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -95,6 +96,7 @@ LANGUAGES = {
 MANUAL_SPECS: dict[tuple[str, int], list[dict[str, Any]]] = {
     ("old-latin", 118): [{
         "root": "حرف",
+        "event_tier": 1,
         "orbit": (
             "قُيِّد الحكم بحس السيف وحده من مدخلة `harpe`، لا بحس الطائر. "
             "فالـ`harpe` سيف منجلي مقوَّس، وحَدُّ السيف القاطع هو حَرْفُه؛ "
@@ -116,6 +118,298 @@ MANUAL_SPECS: dict[tuple[str, int], list[dict[str, Any]]] = {
                 "الْأَسْفَار، شبهت بحَرْفِ الْسَّيْف فِي مضائها ونجائها ودقتها."
             ),
             "url": "http://arabiclexicon.hawramani.com/%d8%ad%d8%b1%d9%81/?book=10",
+        }],
+    }],
+    ("old-latin", 163): [{
+        "root": "جم",
+        "event_tier": 2,
+        "orbit": (
+            "معنى `coma` المختار هو شعر الرأس نفسه، والشاهد العربي يسمّي "
+            "الجُمّة شعرًا كثيرًا. فالشعر المجتمع في جُمّة يحقق حدث `جم` في "
+            "التجمع والكثرة، ولا يحتاج المدار إلى نقل من عضو أو آلة أو وصف بعيد"
+        ),
+        "witnesses": [{
+            "source": "كتاب العين للخليل بن أحمد الفراهيدي",
+            "quote": "والجُمَّةُ: الشَّعرُ، (والجميع الجُمَمُ).",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ac%d9%85/?book=5",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": "والجُمَّه من الشّعْر: أَكثر من اللَّمَّة. وَقَالَ ابْن دُرَيْد: هُوَ الشّعْر الْكثير.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ac%d9%85/?book=10",
+        }],
+    }],
+    ("old-latin", 169): [{
+        "root": "بسط",
+        "event_tier": 1,
+        "orbit": (
+            "معنى `pasta` المختار يضم `paste`، وهي مادة تُمدّ وتُنشر على سطح. "
+            "فاستعمال العجينة مادةً قابلةً للبسط يحقق حدث `بسط` المجمّد في "
+            "تفلطح الشيء وانفراشه واتساعه، لا مجرد تشابه الرسم"
+        ),
+        "witnesses": [{
+            "source": "تاج اللغة وصِحاح العربية للجوهري",
+            "quote": "بسط الشئ: نشره، وبالصاد أيضاً.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%a8%d8%b3%d8%b7/?book=8",
+        }, {
+            "source": "كتاب العين للخليل بن أحمد الفراهيدي",
+            "quote": "البسط نقيض القبض. والبَسيطةُ من الأرض كالبساط من المَتاع، وجمعه بُسُط.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%a8%d8%b3%d8%b7/?book=5",
+        }],
+    }],
+    ("old-latin", 243): [{
+        "root": "حول",
+        "event_tier": 1,
+        "orbit": (
+            "معنى `hora` المختار هو الساعة والوقت، والحَوْل في الشاهد فترة "
+            "زمنية تكتمل بدور الشمس. فانتقال جرم الشمس من موضعه واتجاهه إلى ما "
+            "يليه هو التطبيق المشاهد لحدث `حول` المجمّد، والفترة الناتجة منه "
+            "وحدة من الوقت لا استعارة من عضو أو آلة"
+        ),
+        "witnesses": [{
+            "source": "تاج اللغة وصِحاح العربية للجوهري",
+            "quote": "الحَوْلُ: السنةُ.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d9%88%d9%84/?book=8",
+        }, {
+            "source": "المفردات في غريب القرآن للراغب الأصفهاني",
+            "quote": "والحَوْلُ: السّنة، اعتبارا بانقلابها ودوران الشّمس في مطالعها ومغاربها.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d9%88%d9%84/?book=33",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": "الحَوْلُ: سنة بأسرها، وَالْجمع أحْوَالٌ وحُوُولٌ وحُؤُولٌ، حَكَاهَا سِيبَوَيْهٍ.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d9%88%d9%84/?book=10",
+        }],
+    }],
+    ("old-latin", 322): [{
+        "root": "بطن",
+        "event_tier": 1,
+        "orbit": (
+            "قُيّد معنى `patina` بالطبق أو المقلاة العريضة الضحلة. موضع وضع "
+            "الطعام فيها هو جوفها الداخلي، وهو الذي يستقبل ما يدخل إليها "
+            "ويحتويه؛ فهذا الجزء المقوّر من الإناء يحقق حدث `بطن` المجمّد "
+            "تحقيقًا مباشرًا، ولا يعتمد المدار على معنى الكعكة أو المهد"
+        ),
+        "witnesses": [{
+            "source": "تاج اللغة وصِحاح العربية للجوهري",
+            "quote": "البَطنُ: خلاف الظهر، وهو مذكر.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%a8%d8%b7%d9%86/?book=8",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": "والبَطْنُ من كُلِّ شيءٍ: جَوْفُه، والجَمْعُ كالَجْمعِ.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%a8%d8%b7%d9%86/?book=10",
+        }],
+    }],
+    ("old-latin", 729): [{
+        "root": "قلم",
+        "event_tier": 1,
+        "orbit": (
+            "قُيّد معنى `calamus` بالقصبة وبما يُصنع منها، ومنه قلم القصب. "
+            "وتصير القصبة قلمًا بقطع طرفها وبريه مرة بعد مرة حتى يستوي؛ "
+            "فهذا الاستعمال المسمّى في قاموس الفرع يحقق حدث `قلم` المجمّد "
+            "في بري طرف الشيء المقدّم شيئًا بعد شيء باستواء، لا بمجرد اتفاق "
+            "اسم الأداة"
+        ),
+        "witnesses": [{
+            "source": "تاج اللغة وصِحاح العربية للجوهري",
+            "quote": "القَلَمُ: الذي يكتب به.",
+            "url": "http://arabiclexicon.hawramani.com/%d9%82%d9%84%d9%85/?book=8",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": "والْقَلَم: الَّذِي يكْتب بِهِ.",
+            "url": "http://arabiclexicon.hawramani.com/%d9%82%d9%84%d9%85/?book=10",
+        }],
+    }],
+    ("old-latin", 891): [{
+        "root": "شم",
+        "event_tier": 2,
+        "orbit": (
+            "معنى `osma` المختار هو الرائحة نفسها، وحسّ الشم يجمع أثرها "
+            "المنتشر في الهواء بجذبه إلى أعلى الأنف. فعملية إدناء الشيء "
+            "واجتذاب رائحته المصرّح بها في الشاهد تحقق حدث `شم` المجمّد في "
+            "جمع المنتشر منسحبًا إلى أعلى، لا مجرد تطابق اسم الحاسة"
+        ),
+        "witnesses": [{
+            "source": "كتاب العين للخليل بن أحمد الفراهيدي",
+            "quote": "الشم من قولك: شممت الشيء أشمه، ومنه التشمم كما تشمم البهيمة إذا التمست رعياً.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%b4%d9%85/?book=5",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": "تشَمَّم الشَّيْء، واشْتَمَّه: أدناه من انفه ليجتذب رَائِحَته.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%b4%d9%85/?book=10",
+        }],
+    }],
+    ("old-latin", 927): [{
+        "root": "حور",
+        "event_tier": 1,
+        "orbit": (
+            "قُيّد معنى `halos` بالحلقة المضيئة المحيطة بالشمس أو القمر أو "
+            "الرأس. الحلقة مستديرة ذات وسط خالٍ تشغله الصورة المحاطة؛ فهي "
+            "تحقق حدث `حور` المجمّد في التجوف مع الاستدارة، ويؤيد الشاهدان "
+            "استدارة الحدقة وإدارة الخبزة لا مجرد لفظ الإحاطة"
+        ),
+        "witnesses": [{
+            "source": "تاج اللغة وصِحاح العربية للجوهري",
+            "quote": "وحور الخُبْزَةَ، إذا هيَّأها وأدارها ليضَعها في المَلَّة.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d9%88%d8%b1/?book=8",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": "والحَوَرُ: أَن يشتد بياض بياض العين وسواد سوادها وتستدير حدقتها ويبيض ما حواليها.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d9%88%d8%b1/?book=10",
+        }],
+    }],
+    ("old-latin", 928): [{
+        "root": "كب",
+        "event_tier": 2,
+        "orbit": (
+            "قُيّد معنى `cubus` بالحس المعجمي `mass`، أي كتلة ذات مقدار، لا "
+            "بخصوص الأضلاع الهندسية للمكعب. فالكتلة تتجمع مادتها وتتضاغط في "
+            "جرم واحد، وهو حدث `كب` المجمّد نفسه؛ وتسمي الشواهد العربية الشيء "
+            "المجتمع وكبة الغزل المكوّنة بجمع خيوطه"
+        ),
+        "witnesses": [{
+            "source": "كتاب العين للخليل بن أحمد الفراهيدي",
+            "quote": "وكَبَبْتُ الغزل: جعلته كُبَّةً.",
+            "url": "http://arabiclexicon.hawramani.com/%d9%83%d8%a8/?book=5",
+        }, {
+            "source": "تاج العروس لمرتضى الزبيدي",
+            "quote": "والكُبُّ: الشَّيْءُ المجتمعُ من تُرَاب وغيرِه. وكُبَّةُ الغَزْل: مَا جُمعَ مِنْهُ.",
+            "url": "http://arabiclexicon.hawramani.com/%d9%83%d8%a8/?book=9",
+        }],
+    }],
+    ("old-latin", 1266): [{
+        "root": "قمص",
+        "event_tier": 1,
+        "orbit": (
+            "قُيّد معنى `camisia` بالقميص الذي يلبسه المرء. فاللابس يدخل "
+            "في القميص، والقميص يشمل بدنه، وهو حدث `قمص` المجمّد في الانشيام "
+            "في شيء والدخول فيه بشمول؛ ويصرّح الشاهدان باسم القميص وبفعل "
+            "لبسه، فلا يقوم المدار على التشابه الاسمي وحده"
+        ),
+        "witnesses": [{
+            "source": "تاج اللغة وصِحاح العربية للجوهري",
+            "quote": "والقَميصُ: الذي يُلْبَس. وقَمَّصَهُ قميصاً فتقمَّصه، أي لبسه.",
+            "url": "http://arabiclexicon.hawramani.com/%d9%82%d9%85%d8%b5/?book=8",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": "القَمِيص: مَعْرُوف. وتقمَّص قَمِيصَه: لبسه.",
+            "url": "http://arabiclexicon.hawramani.com/%d9%82%d9%85%d8%b5/?book=10",
+        }],
+    }],
+    ("old-latin", 2514): [{
+        "root": "زبن",
+        "event_tier": 1,
+        "orbit": (
+            "قُيّد معنى `sibina` بالرمح المستعمل في الصيد. فالرمح يعمل بأن "
+            "يُدفع دفعًا شديدًا، ويبرز ناتئًا من يد راميه إلى جسم الطريدة؛ "
+            "وهذا يحقق حدث `زبن` المجمّد في اندفاع الشيء ناتئًا شديدًا في "
+            "الشيء أو من جوفه، لا بمجرد كون المدخلة اسم سلاح"
+        ),
+        "witnesses": [{
+            "source": "كتاب العين للخليل بن أحمد الفراهيدي",
+            "quote": (
+                "والزَّبْنُ: دفع الشَّيء عن الشيء، والحرب تزبن الناس إذا صدمتهم."
+            ),
+            "url": "http://arabiclexicon.hawramani.com/%d8%b2%d8%a8%d9%86/?book=5",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": (
+                "الزَّبْنُ: دَفْعُ الشَّىءِ عن الشَّىءِ، وزُبانَا العَقْرَبِ: "
+                "قَرْناها، كأنَّها تَدْفَعُ بهما."
+            ),
+            "url": "http://arabiclexicon.hawramani.com/%d8%b2%d8%a8%d9%86/?book=10",
+        }],
+    }],
+    ("old-latin", 2598): [{
+        "root": "حبس",
+        "event_tier": 1,
+        "orbit": (
+            "قُيّد معنى `hapsus` بخصلة الصوف المستعملة في التضميد. توضع "
+            "الخصلة داخل الرباط لتُمسك موضع الإصابة والحشوة في حيّزهما، "
+            "وتمنعهما من التسيب والنفاذ من اللفافة؛ فتؤدي وظيفة `حبس` "
+            "المجمّدة نفسها، لا وصفًا بعيدًا للصوف"
+        ),
+        "witnesses": [{
+            "source": "تاج اللغة وصِحاح العربية للجوهري",
+            "quote": "الحَبْسُ: ضد التخلية. وحَبَسْتُهُ واحْتَبَسْتُهُ بمعنىً.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d8%a8%d8%b3/?book=8",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": (
+                "حَبَسَه يحْبِسُه حَبْسا، واحتَبَسه وحبّسه: أمْسكهُ عَن وَجهه؛ "
+                "حَبَسه ضَبطه، وكل مَا حُبِسَ بِوَجْه من الْوُجُوه، حَبيسٌ."
+            ),
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d8%a8%d8%b3/?book=10",
+        }],
+    }],
+    ("old-latin", 3076): [{
+        "root": "فت",
+        "event_tier": 2,
+        "orbit": (
+            "معنى `pettia` المختار هو القطعة أو الجزء. والقطعة هي الناتج "
+            "المنفصل حين ينكسر الشيء أو يُفصل بعضه من بعض؛ فتحقق مباشرةً "
+            "حدث `فت` المجمّد في تكسير الهش وما يلزمه من انفصال، ولا يقوم "
+            "المدار على تشابه اسم الجزء وحده"
+        ),
+        "witnesses": [{
+            "source": "كتاب العين للخليل بن أحمد الفراهيدي",
+            "quote": (
+                "الفَتيت الشيءُ الذي يقع فيَنُقطع، والفُتاتُ أن تأخذَ الشيءَ "
+                "بإِصبَعِكَ فتصيِّرَه فُتاتاً أي دُقاقاً."
+            ),
+            "url": "http://arabiclexicon.hawramani.com/%d9%81%d8%aa/?book=5",
+        }, {
+            "source": "المحيط في اللغة للصاحب بن عباد",
+            "quote": (
+                "الفُتَاتُ ما يَتَفَتتُ من الخُبْزِ، والفَتِيْتُ الشيْءُ "
+                "المَفْتُوْتُ والمُتَقَطَعُ."
+            ),
+            "url": "",
+        }],
+    }],
+    ("old-latin", 5273): [{
+        "root": "مور",
+        "event_tier": 1,
+        "orbit": (
+            "قُيّد معنى `Mare` بالحس المعجمي `sea`. فالبحر كتلة ماء مجتمعة "
+            "تتردد مادتها في مكانها موجًا واضطرابًا؛ وهذا هو حدث `مور` "
+            "المجمّد في تردد المادة المجتمعة في مكانها بتسيبها، والشاهدان "
+            "يسميان الموج نفسه فلا يُبنى المدار على اسم البحر وحده"
+        ),
+        "witnesses": [{
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": (
+                "مارَ الشَّيءُ يَمُورُ مَوْرًا ترَدَّدَ في عُرْضٍ، والمَوْرُ "
+                "المَوْجُ، ومارَ الشَّيءُ مَوْرًا اضْطربَ وتَحرَّكَ."
+            ),
+            "url": "http://arabiclexicon.hawramani.com/%d9%85%d9%88%d8%b1/?book=10",
+        }, {
+            "source": "لسان العرب لابن منظور",
+            "quote": "والمَوْرُ المَوْجُ، ومارَ الشيءُ مَوْراً: اضْطَرَبَ وتحرّك.",
+            "url": "http://arabiclexicon.hawramani.com/%d9%85%d9%88%d8%b1/?book=3",
+        }],
+    }],
+    ("old-latin", 6170): [{
+        "root": "ربص",
+        "event_tier": 1,
+        "orbit": (
+            "قُيّد معنى `repauso` بالراحة والاستلقاء والمكث في الفراش. "
+            "فالمرء حين يستريح أو يضطجع يثبت في موضعه ويمكث فيه بدل الحركة؛ "
+            "فيحقق حدث `ربص` المجمّد في جثوم الشيء أو ثباته في مكانه، "
+            "وتصرّح الشواهد بالمكث والتلبث"
+        ),
+        "witnesses": [{
+            "source": "لسان العرب لابن منظور",
+            "quote": (
+                "التربُّصُ: المُكْثُ والانتظارُ، ولي على هذا الأمر رُبْصةٌ "
+                "أي تلبّثٌ."
+            ),
+            "url": "http://arabiclexicon.hawramani.com/%d8%b1%d8%a8%d8%b5/?book=3",
+        }, {
+            "source": "تاج العروس لمرتضى الزبيدي",
+            "quote": (
+                "التَّرَبُّصُ: الانْتِظَارُ، وزادَ ابنُ الأَثِيرِ: والمُكْثُ؛ "
+                "لِي عَلَى هَذَا الأَمْرِ رُبْصَةٌ: أَيْ تَلَبُّثٌ."
+            ),
+            "url": "http://arabiclexicon.hawramani.com/%d8%b1%d8%a8%d8%b5/?book=27",
         }],
     }],
     ("welsh", 18): [{
@@ -751,6 +1045,31 @@ def render_lexicon_entry(position: int, entry: dict[str, Any]) -> str:
 DIRECT_ARABIC_SOURCE = re.compile(
     r"(?i)(?:ultimately\s+)?from\s+Arabic\b|borrow(?:ed|ing)\s+from\s+Arabic\b"
 )
+GREEK_SOURCE = re.compile(r"(?i)\b(?:Ancient|Classical|Koine)?\s*Greek\b")
+GREEK_CALQUE = re.compile(
+    r"(?i)\b(?:a\s+)?calque\s+of\s+(?:Ancient|Classical|Koine)?\s*Greek\b"
+)
+
+
+def greek_borrowing_in_latin(language: str, lexicon: dict[str, Any]) -> dict[str, str]:
+    """Redirect a Greek loan in Latin without pretending that the fan failed.
+
+    This is deliberately an opening reason, not a closure.  The closure
+    vocabulary remains unchanged, and the Latin form stays available for the
+    Greek workstream through the published branch-dictionary etymology.
+    """
+    if language != "old-latin":
+        return {}
+    selected = lexicon.get("selected") or {}
+    etym = str(selected.get("etym") or "")
+    if not GREEK_SOURCE.search(etym) or GREEK_CALQUE.search(etym):
+        return {}
+    return {
+        "reason": "الصورةُ دخيلٌ يونانيٌّ في اللاتينيّة، ومادّتُها تُنظَرُ في ملفِّ اليونانيّةِ لا هنا",
+        "published_etymology": etym,
+        "lexicon_file": str(lexicon.get("file") or ""),
+        "lexicon_path": str(lexicon.get("path") or ""),
+    }
 
 
 def lexicon_arabic_closure(lexicon: dict[str, Any]) -> dict[str, str] | None:
@@ -779,13 +1098,18 @@ def skeleton_variants(form: str, script: str) -> str:
                 if 2 <= len(alternate) <= 4 and alternate not in values:
                     values.append(alternate)
                 break
+        if script in {"latin", "germanic"} and len(F.skeleton(form, script)) > 4:
+            for alternate, _ in F.latin_stem_skeletons(form, script):
+                value = "".join(alternate)
+                if value not in values:
+                    values.append(value)
     return "|".join(value for value in values if value)
 
 
 def current_fan(
     form: str,
     language: str,
-    selected: set[str],
+    selected: dict[str, int] | set[str],
 ) -> tuple[list[dict[str, Any]], int]:
     cfg = LANGUAGES[language]
     script = str(cfg["script"])
@@ -801,6 +1125,8 @@ def current_fan(
             dialect_additions += 1
 
     skeleton = skeleton_variants(form, script)
+    declared_tiers = selected if isinstance(selected, dict) else {}
+    selected_roots = set(selected)
     review: list[dict[str, Any]] = []
     for root in ordered:
         route = ""
@@ -809,7 +1135,16 @@ def current_fan(
             route, searches = K.match_sound_route(skeleton, root, language)
         except AssertionError:
             pass
-        event = FE.resolve(root)
+        event_options = FE.all_tiers(root)
+        declared_tier = declared_tiers.get(root)
+        event = (
+            FE.resolve(root, tier=int(declared_tier))
+            if declared_tier is not None else None
+        )
+        if declared_tier is not None and event is None:
+            raise AssertionError(
+                f"الدرجة المعلنة غير متاحة: {form}:{root}:tier={declared_tier}"
+            )
         review.append({
             "root": root,
             "weight": float(weights.get(root, 0.0)),
@@ -817,12 +1152,24 @@ def current_fan(
             "sound": bool(route),
             "sound_route": route,
             "sound_searches": searches,
+            "available_event_tiers": [candidate.tier for candidate in event_options],
+            "event_options": [{
+                "tier": candidate.tier,
+                "tier_ar": candidate.tier_ar,
+                "source": candidate.source,
+                "text": candidate.text,
+                "note": candidate.note,
+            } for candidate in event_options],
+            "declared_event_tier": int(declared_tier) if declared_tier is not None else 0,
             "event_tier": event.tier if event else 0,
             "event_tier_ar": event.tier_ar if event else "",
             "event_source": event.source if event else "",
             "event_text": event.text if event else "",
             "event_note": event.note if event else "",
-            "meaning": "✓" if root in selected else ("×" if route and event else "؟"),
+            "meaning": (
+                "✓" if root in selected_roots
+                else ("×" if route and event_options else "؟")
+            ),
         })
     return review, dialect_additions
 
@@ -846,7 +1193,7 @@ def attach_arabic_lexicon_review(
 ) -> None:
     """Record a full max_chars=0 search for every sound+event candidate."""
     for item in review:
-        if not item["sound"] or not item["event_tier"]:
+        if not item["sound"] or not item["event_options"]:
             item["arabic_lexicon_review"] = {}
             continue
         matches = hits_by_root.get(str(item["root"]), [])
@@ -867,8 +1214,40 @@ def attach_arabic_lexicon_review(
         }
 
 
+def negative_witness_lines(
+    ready: list[dict[str, Any]],
+    hits_by_root: dict[str, list[dict[str, Any]]],
+) -> list[str]:
+    """Quote every fully read witness before a negative orbit judgment."""
+    lines: list[str] = []
+    for item in ready:
+        root = str(item["root"])
+        matches = hits_by_root.get(root, [])
+        if not matches:
+            lines.append(
+                f"- شواهد الجذر `{root}` بعد القراءة الكاملة بـ`--max-chars 0`: "
+                "لا شاهد في الموارد المسماة."
+            )
+            continue
+        lines.append(
+            f"- شواهد الجذر `{root}` المقروءة كاملةً قبل حكم المدار "
+            f"({len(matches)} شاهدًا):"
+        )
+        for match in matches:
+            source_id = AR.canonical_source_id(str(match.get("source") or ""))
+            source = (
+                AR.SOURCE_LABELS[source_id]
+                if source_id else clean(match.get("source"))
+            )
+            url = f" [{clean(match.get('url'))}]" if match.get("url") else ""
+            lines.append(
+                f"  - {source}: «{clean(match.get('definition'))}»{url}"
+            )
+    return lines
+
+
 def render_arabic_lexicon_review(review: list[dict[str, Any]]) -> str:
-    ready = [item for item in review if item["sound"] and item["event_tier"]]
+    ready = [item for item in review if item["sound"] and item["event_options"]]
     return "، ".join(
         f"`{item['root']}`[ش{item['arabic_lexicon_review']['witness_count']}، "
         f"م{len(item['arabic_lexicon_review']['sources'])}]"
@@ -911,11 +1290,11 @@ def arabic_hits_for_cards(
 ) -> dict[str, list[dict[str, Any]]]:
     roots: set[str] = set()
     for card in cards:
-        review, _ = current_fan(str(card["word"]), language, set())
+        review, _ = current_fan(str(card["word"]), language, {})
         roots.update(
             str(item["root"])
             for item in review
-            if item["sound"] and item["event_tier"]
+            if item["sound"] and item["event_options"]
         )
     # ``None`` is the module-level equivalent of CLI ``--max-chars 0``.
     return AR.matches_for_roots(AR.DEFAULT_RESOURCES, roots, None)
@@ -923,19 +1302,51 @@ def arabic_hits_for_cards(
 
 def render_candidate(item: dict[str, Any]) -> str:
     dialect = f"،له={item['dialect_label']}" if item["dialect_label"] else ""
+    tiers = "/".join(str(tier) for tier in item["available_event_tiers"]) or "0"
+    declared = (
+        f"،معلن={item['declared_event_tier']}"
+        if item["declared_event_tier"] else ""
+    )
     return (
         f"`{item['root']}`[و{item['weight']:.6f}،"
-        f"ص{'✓' if item['sound'] else '×'}،ح{'✓' if item['event_tier'] else '×'}،"
-        f"د{item['event_tier']}،م{item['meaning']}{dialect}]"
+        f"ص{'✓' if item['sound'] else '×'}،ح{'✓' if item['event_options'] else '×'}،"
+        f"د{tiers}{declared}،م{item['meaning']}{dialect}]"
     )
+
+
+LANGUAGE_SEARCH_NAMES = {
+    "old-latin": ("اللاتينية القديمة", "Old Latin", "اللاتينية", "Latin"),
+    "persian": ("الفارسية", "Persian", "الإيرانية", "Iranian"),
+    "ancient-greek": ("اليونانية القديمة", "Ancient Greek", "اليونانية", "Greek"),
+}
+
+
+def network_rows() -> list[tuple[str, str]]:
+    """Return (shift column, attested-witness column) from the frozen table."""
+    rows: list[tuple[str, str]] = []
+    for line in NETWORK.read_text(encoding="utf-8").splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if len(cells) < 7 or cells[0] in {"id", "---"}:
+            continue
+        rows.append((cells[1], cells[4]))
+    return rows
+
+
+def search_key(value: str) -> str:
+    value = unicodedata.normalize("NFD", str(value).casefold())
+    return "".join(char for char in value if not unicodedata.combining(char))
 
 
 def missing_sound_searches(form: str, language: str) -> list[str]:
     cfg = LANGUAGES[language]
     script = str(cfg["script"])
     label = str(cfg["label"])
-    language_names = [part.strip() for part in label.split("/")]
-    lines = NETWORK.read_text(encoding="utf-8").splitlines()
+    language_names = LANGUAGE_SEARCH_NAMES.get(
+        language, tuple(part.strip() for part in label.split("/"))
+    )
+    rows = network_rows()
     queries: list[str] = []
     seen: set[tuple[str, str]] = set()
     for source in F.skeleton(form, script):
@@ -945,17 +1356,94 @@ def missing_sound_searches(form: str, language: str) -> list[str]:
                 continue
             seen.add(pair)
             hits = sum(
-                source.casefold() in line.casefold()
-                and arabic in line
-                and any(name.casefold() in line.casefold() for name in language_names)
-                for line in lines
+                search_key(source) in search_key(shift)
+                and arabic in shift
+                and any(search_key(name) in search_key(witness) for name in language_names)
+                for shift, witness in rows
             )
             queries.append(
-                f"`{source}` + `{arabic}` + «{label}» في عمود الشاهد، النتائج الحرفية {hits}"
+                f"`{source}` + `{arabic}` في عمود الإبدال، ومع أسماء "
+                f"«{' / '.join(language_names)}» في عمود الشاهد، النتائج الحرفية {hits}"
             )
     return queries or [
         f"الهيكل الكامل + «{label}» في عمود الشاهد، النتائج الحرفية 0"
     ]
+
+
+def unsupported_script_letters(form: str, script: str) -> list[str]:
+    """Letters silently discarded before skeleton construction."""
+    if script in {"latin", "germanic"}:
+        base = unicodedata.normalize("NFD", form.casefold())
+        base = "".join(char for char in base if not unicodedata.combining(char))
+        unsupported: list[str] = []
+        index = 0
+        while index < len(base):
+            pair = base[index:index + 2].upper()
+            if pair in F.LATIN_DIGRAPH:
+                index += 2
+                continue
+            char = base[index]
+            if (
+                char.isalpha()
+                and char not in F.LATIN_VOWELS
+                and char not in F.FANS[script]
+                and char not in unsupported
+            ):
+                unsupported.append(char)
+            index += 1
+        return unsupported
+    if script == "greek":
+        base = unicodedata.normalize("NFD", form.casefold())
+        return list(dict.fromkeys(
+            char for char in base
+            if char.isalpha() and not unicodedata.combining(char)
+            and char not in F.GREEK_VOWELS and char not in F.GREEK_FAN
+        ))
+    if script == "persian":
+        base = re.sub(r"[ً-ْـ‌]", "", form)
+        return list(dict.fromkeys(
+            char for char in base
+            if char.isalpha() and char not in F.PERSIAN_FAN
+        ))
+    return []
+
+
+def classify_fan_empty(form: str, language: str) -> dict[str, Any]:
+    """Measure why no candidate was generated; do not blame the fan blindly."""
+    script = str(LANGUAGES[language]["script"])
+    skeleton = F.skeleton(form, script)
+    unsupported = unsupported_script_letters(form, script)
+    normalized_letters = "".join(char for char in form.casefold() if char.isalpha())
+    stem_attempts = (
+        ["".join(candidate) for candidate, _ in F.latin_stem_skeletons(form, script)]
+        if script in {"latin", "germanic"} and len(skeleton) > 4 else []
+    )
+    if unsupported:
+        kind = "outside_script_table"
+        detail = f"حروف خارج جدول الخط: {', '.join(unsupported)}"
+    elif normalized_letters in {"a", "aa"}:
+        kind = "invalid_ocr_head"
+        detail = "رأس غير صالح من شظايا المسح الضوئي، لا عجز في المروحة"
+    elif len(skeleton) > 4:
+        kind = "over_four_after_stem_gate"
+        detail = (
+            f"هيكل من {len(skeleton)} صوامت؛ شُغّل باب الساق اللاتيني من نفسه "
+            f"ولم يرد هيكلًا صالحًا (المحاولات: {', '.join(stem_attempts) or 'لا شيء'})"
+        )
+    elif len(skeleton) < 2:
+        kind = "under_two_consonants"
+        detail = f"الهيكل الصامتي أقصر من الحد الأدنى: {''.join(skeleton) or '∅'}"
+    else:
+        kind = "valid_skeleton_no_product"
+        detail = f"هيكل صالح ظاهريًا بلا ناتج: {''.join(skeleton)}؛ يحتاج فحص أداة"
+    return {
+        "class": kind,
+        "detail": detail,
+        "skeleton": "".join(skeleton),
+        "skeleton_length": len(skeleton),
+        "unsupported_letters": unsupported,
+        "latin_stem_attempts": stem_attempts,
+    }
 
 
 def original_cards(language: str) -> list[dict[str, Any]]:
@@ -1071,7 +1559,19 @@ def build_card(
         raise AssertionError(
             f"موجب يدوي أغلقه اشتقاق الفرع بمانح سامي: {card['old_id']}"
         )
-    selected = {spec["root"] for spec in specs}
+    selected: dict[str, int] = {}
+    for spec in specs:
+        if "event_tier" not in spec:
+            raise AssertionError(
+                f"الموجب اليدوي لا يعلن درجة الحدث: {card['old_id']}:{spec['root']}"
+            )
+        root = str(spec["root"])
+        tier = int(spec["event_tier"])
+        if root in selected and selected[root] != tier:
+            raise AssertionError(
+                f"درجتان معلنتان لجذر واحد في البطاقة: {card['old_id']}:{root}"
+            )
+        selected[root] = tier
     review, dialect_additions = current_fan(word, language, selected)
     attach_arabic_lexicon_review(review, arabic_hits_by_root)
     by_root = {item["root"]: item for item in review}
@@ -1115,9 +1615,9 @@ def build_card(
             "- الخلاف المدون: لا خلاف مؤثر بين معنى الباحث والمدخلة المختارة."
         ),
         f"- الخطوة صفر: الصورة `{clean(word)}`؛ باب المروحة `{cfg['script']}`؛ الهياكل الحالية `{' / '.join(skeleton_variants(word, str(cfg['script'])).split('|')) or '∅'}`.",
-        f"- المروحة الكاملة من `fan_any_script.fan` مرتبة بـ`fan_any_script.rank`: {('، '.join(render_candidate(item) for item in review) or 'لا مرشح قابل للتوليد')}. الوزن ترتيب لا حكم؛ ص=مسار صوت؛ ح=حدث؛ د=درجة الحدث؛ م× يعني أن معنى الفرع لم يتصل بالحدث في مدار مقنع.",
+        f"- المروحة الكاملة من `fan_any_script.fan` مرتبة بـ`fan_any_script.rank`: {('، '.join(render_candidate(item) for item in review) or 'لا مرشح قابل للتوليد')}. الوزن ترتيب لا حكم؛ ص=مسار صوت؛ ح=حدث؛ د=كل درجات الحدث المتاحة؛ «معلن» هي الدرجة التي اختارتها البطاقة يدويًا وحدها؛ م× يعني أن معنى الفرع لم يتصل بأي حدث معروض في مدار مقنع.",
         f"- فحص `fan_with_dialect`: أضاف {dialect_additions} صورة موسومة بعد الفصيح ولم يحذف الفصيح.",
-        "- رجل الحدث: حُل كل مرشح ظاهر أعلاه بـ`frozen_event.resolve` وحده؛ لم تُسأل عضوية ملف الـ2,285.",
+        "- رجل الحدث: عُرضت درجات كل مرشح بـ`frozen_event.all_tiers`؛ والموجب وحده حُل بـ`frozen_event.resolve(root, tier=الدرجة_المعلنة)`، ولم تُستبدل درجته بأعلى درجة متاحة.",
         "- قراءة عائلات اللسان قبل حكم المدار: شُغّل منطق "
         "`search_arabic_root_senses.py` على كل جذر اكتمل فيه الصوت والحدث "
         "بـ`--max-chars 0`؛ ش=عدد الشواهد الكاملة، م=عدد المعاجم المستقلة أو "
@@ -1125,11 +1625,17 @@ def build_card(
     ]
 
     positives: list[dict[str, Any]] = []
+    fan_empty: dict[str, Any] = {}
+    greek_borrowing: dict[str, str] = {}
     for spec in specs if lexicon["agreement"] else []:
         root = spec["root"]
         item = by_root.get(root)
         if not item or not item["sound"] or not item["event_tier"]:
             raise AssertionError(f"الموجب اليدوي لا يستوفي الأداتين الحاليتين: {card['old_id']}:{root}")
+        if item["event_tier"] != int(spec["event_tier"]):
+            raise AssertionError(
+                f"الحصاد لم يحل الدرجة المعلنة نفسها: {card['old_id']}:{root}"
+            )
         closure = closure_for(root)
         witnesses = manual_witnesses(spec)
         orbit = orbit_with_witnesses(str(spec["orbit"]), witnesses)
@@ -1184,8 +1690,15 @@ def build_card(
         ])
         reason = ""
     else:
-        ready = [item for item in review if item["sound"] and item["event_tier"]]
+        ready = [item for item in review if item["sound"] and item["event_options"]]
         sounded = [item for item in review if item["sound"]]
+        greek_borrowing = (
+            greek_borrowing_in_latin(language, lexicon) if not review else {}
+        )
+        fan_empty = (
+            classify_fan_empty(word, language)
+            if not review and not greek_borrowing else {}
+        )
         if not lexicon["agreement"]:
             reason = "branch_lexicon_context_unresolved"
             requirement = "مدخلة من قاموس الفرع توافق سياق الصف، ثم فحص الأرجل الثلاث"
@@ -1202,13 +1715,34 @@ def build_card(
             reason = "no_named_sound"
             requirement = "مسار صوتي مسمى لمرشح في المروحة، ثم حدث ومدار مقنعان"
             search_line = "؛ ".join(missing_sound_searches(word, language))
+        elif greek_borrowing:
+            reason = "greek_borrowing_in_latin"
+            requirement = "فحص الأصل اليوناني المنشور في ملف اليونانية"
+            search_line = (
+                f"{greek_borrowing['reason']}؛ والأصل المنشور من قاموس الفرع: "
+                f"{clean(greek_borrowing['published_etymology'])}."
+            )
         else:
             reason = "fan_empty"
-            requirement = "مرشح تولده المروحة من الهيكل المثبت، ثم الأرجل الباقية"
-            search_line = "لم يعلن صف ناقص لأن الأداة لم تولد مرشحًا يفحص في الشبكة."
+            requirement = "معالجة سبب فراغ الهيكل المقيس، ثم مرشح والأرجل الباقية"
+            search_line = (
+                f"صُنّف الفراغ `{fan_empty['class']}`: {fan_empty['detail']}. "
+                "لم يُنسب رأس المسح أو الحرف الخارج إلى عجز في المروحة."
+            )
+        if greek_borrowing:
+            lines.extend([
+                "- المدار المكتوب باليد: غير مطلوب في هذه البطاقة؛ لم تُقابَل "
+                "الصورة الدخيلة بجذر عربي، وتحولت وجهة مادتها إلى ملف اليونانية.",
+            ])
+        else:
+            lines.extend(negative_witness_lines(ready, arabic_hits_by_root))
+            lines.append(
+                f"- المدار المكتوب باليد: فُحص معنى `{clean(word)}` «{clean(meaning)}» "
+                "بإزاء أحداث المرشحين الظاهرين، وبعد قراءة الشواهد المقتبسة أعلاه "
+                "لم أجد صلة تصل المعنى بحدث السجل صلة يطمئن إليها القارئ؛ لذلك لم أصطنع مدارًا."
+            )
         lines.extend([
-            f"- المدار المكتوب باليد: فُحص معنى `{clean(word)}` «{clean(meaning)}» بإزاء أحداث المرشحين الظاهرين، ولم أجد صلة تصل المعنى بحدث السجل صلة يطمئن إليها القارئ؛ لذلك لم أصطنع مدارًا.",
-            f"- ما فُتش قبل إعلان نقص صف: {search_line}",
+            f"- ما فُتش قبل إعلان سبب الفتح: {search_line}",
             "- الحكم (استكشاف): **غير صادر (استكشاف)**.",
             f"- عائق: النوع=OPEN-CANDIDATE؛ يتطلب={requirement}",
             "- حالة الإغلاق: OPEN-CANDIDATE.",
@@ -1233,6 +1767,8 @@ def build_card(
         "named_closure": named or {},
         "closure": closure,
         "open_reason": reason,
+        "fan_empty_analysis": fan_empty if not review else {},
+        "greek_borrowing": greek_borrowing,
         "arabic_orbit_reassessment": orbit_reassessment,
         "lexicon_reaudit": (
             "stable" if language == "welsh" and index <= 301 and specs and positives
@@ -1259,11 +1795,14 @@ def audit_text(
     transformed = len(positive) + len(named)
     reason_ar = {
         "branch_lexicon_context_unresolved": "لم تتعين مدخلة من قاموس الفرع توافق سياق الصف",
-        "orbit_not_convincing": "اكتمل الصوت والحدث ولم يقنع مدار يدوي",
+        "orbit_not_convincing": "اكتمل الصوت وعُرضت درجات الحدث كلها وقُرئت شواهد الجذر كاملة ولم يقنع مدار يدوي",
         "event_unresolved": "اكتمل الصوت ولم يحل السجل حدث المرشح",
-        "no_named_sound": "لم يكتمل مسار صوتي مسمى بعد البحث بالحرفين واللسان",
-        "fan_empty": "لم تولد المروحة مرشحًا من الهيكل",
+        "no_named_sound": "لم يكتمل مسار صوتي مسمى بعد البحث بالحرفين وأسماء اللسان في عمود الشاهد",
+        "fan_empty": "لم يوجد مرشح، وصُنّف سبب الفراغ قياسًا بدل نسبته مجملًا إلى المروحة",
+        "greek_borrowing_in_latin": "الصورة دخيل يوناني في اللاتينية، ومادتها تنظر في ملف اليونانية لا هنا",
     }
+    greek_borrowings = [row for row in rows if row.get("greek_borrowing")]
+    latin_denominator = len(rows) - len(greek_borrowings)
     lines = [
         f"# حصاد القرض المعاد فتحه: {cfg['label']}، الدفعة {batch:03d} ({DATE})",
         "",
@@ -1297,6 +1836,8 @@ def audit_text(
         "",
         f"- فُحص: {len(rows)} بطاقة.",
         f"- كُتب: {len(rows)} بطاقة ناسخة ملحقة، من غير محو البطاقة التاريخية.",
+        f"- يوناني الأصل خارج مقام اللاتينية: {len(greek_borrowings)} بطاقة.",
+        f"- مقام اللاتينية المصحح في هذه الدفعة: {latin_denominator} بطاقة.",
         f"- تحوّل عن الفتح: {transformed} بطاقات.",
         f"- موجب بالأرجل الثلاث: {len(positive)} من البطاقات، وفيها {sum(len(row['positives']) for row in positive)} صلة.",
         f"- أعيد إغلاقه بمانح سامي مسمى: {len(semitic)} من البطاقات.",
@@ -1305,10 +1846,32 @@ def audit_text(
     ])
     for key in (
         "branch_lexicon_context_unresolved", "orbit_not_convincing",
-        "event_unresolved", "no_named_sound", "fan_empty",
+        "event_unresolved", "no_named_sound", "greek_borrowing_in_latin",
+        "fan_empty",
     ):
         if reasons[key]:
             lines.append(f"- سبب الفتح: {reasons[key]} من البطاقات، {reason_ar[key]}.")
+    fan_empty_classes = Counter(
+        row["fan_empty_analysis"].get("class", "unclassified")
+        for row in rows if row["open_reason"] == "fan_empty"
+    )
+    if fan_empty_classes:
+        class_labels = {
+            "over_four_after_stem_gate": "هيكل جاوز أربعة صوامت بعد تشغيل باب الساق اللاتيني",
+            "outside_script_table": "حرف خارج جدول الخط",
+            "invalid_ocr_head": "رأس غير صالح من شظايا المسح الضوئي، لا عطب مروحة",
+            "under_two_consonants": "هيكل صحيح الرسم دون صامتين",
+            "valid_skeleton_no_product": "هيكل صالح بلا ناتج ويحتاج فحص أداة",
+            "unclassified": "غير مصنف",
+        }
+        lines.extend(["", "## تصنيف فراغ المروحة بالقياس", ""])
+        for key in (
+            "over_four_after_stem_gate", "outside_script_table",
+            "invalid_ocr_head", "under_two_consonants",
+            "valid_skeleton_no_product", "unclassified",
+        ):
+            if fan_empty_classes[key]:
+                lines.append(f"- {fan_empty_classes[key]} بطاقة: {class_labels[key]}.")
     reaudited = [row for row in rows if row["lexicon_reaudit"] != "not-applicable"]
     if reaudited:
         stable = sum(row["lexicon_reaudit"] == "stable" for row in reaudited)
@@ -1358,17 +1921,23 @@ def audit_text(
 def inspect_batch(language: str, window: list[dict[str, Any]]) -> None:
     for card in window:
         specs = MANUAL_SPECS.get((language, int(card["index"])), [])
-        review, _ = current_fan(str(card["word"]), language, {item["root"] for item in specs})
-        ready = [item for item in review if item["sound"] and item["event_tier"]]
+        selected = {
+            str(item["root"]): int(item["event_tier"])
+            for item in specs if "event_tier" in item
+        }
+        review, _ = current_fan(str(card["word"]), language, selected)
+        ready = [item for item in review if item["sound"] and item["event_options"]]
         print(
             f"{card['index']:05d} {card['word']} | {card['meaning']} | "
             f"ready={len(ready)} | named={bool(NAMED_CLOSURES.get((language, int(card['index']))))}"
         )
         for item in ready:
-            print(
-                f"  {item['root']} w={item['weight']:.6f} t={item['event_tier']} "
-                f"{clean(item['event_text'])}"
-            )
+            for event in item["event_options"]:
+                declared = " declared" if event["tier"] == item["declared_event_tier"] else ""
+                print(
+                    f"  {item['root']} w={item['weight']:.6f} t={event['tier']}{declared} "
+                    f"{clean(event['text'])}"
+                )
 
 
 def inspect_arabic_senses(
@@ -1388,8 +1957,8 @@ def inspect_arabic_senses(
             **card,
             "meaning": branch_lexicon["dictionary_meaning"] or card["meaning"],
         }
-        review, _ = current_fan(str(card["word"]), language, set())
-        ready = [item for item in review if item["sound"] and item["event_tier"]]
+        review, _ = current_fan(str(card["word"]), language, {})
+        ready = [item for item in review if item["sound"] and item["event_options"]]
         prepared.append((inspected_card, ready))
         roots.update(item["root"] for item in ready)
     hits_by_root = AR.matches_for_roots(AR.DEFAULT_RESOURCES, roots, None)
@@ -1523,6 +2092,11 @@ def main() -> int:
     parser.add_argument("--recover-missing-section", action="store_true")
     args = parser.parse_args()
     language = args.language
+    if language == "old-latin" and args.batch >= 29:
+        raise SystemExit(
+            "طابور القرض اللاتيني موقوف بقرار توجيه في 2026-08-15، لا بحكم على بقيته. "
+            "يبقى محفوظًا ومفتوحًا لقرار بشري لاحق، ولا يملك مسار التشغيل الآلي تجاوزه."
+        )
     cards = original_cards(language)
     start = (args.batch - 1) * BATCH_SIZE
     window = cards[start:start + BATCH_SIZE]
@@ -1613,7 +2187,17 @@ def main() -> int:
         "lexicon_reaudit_copied": sum(row["lexicon_reaudit"] == "copied" for row in rows),
         "lexicon_reaudit_stable": sum(row["lexicon_reaudit"] == "stable" for row in rows),
         "open_cards": sum(row["closure"] == "OPEN-CANDIDATE" for row in rows),
+        "greek_origin_cards_excluded_from_latin_denominator": sum(
+            bool(row.get("greek_borrowing")) for row in rows
+        ),
+        "corrected_latin_denominator": len(rows) - sum(
+            bool(row.get("greek_borrowing")) for row in rows
+        ),
         "open_reasons": dict(reasons),
+        "fan_empty_classes": dict(Counter(
+            row["fan_empty_analysis"].get("class", "unclassified")
+            for row in rows if row["open_reason"] == "fan_empty"
+        )),
         "rows": rows,
     }
     manifest.write_text(
