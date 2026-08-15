@@ -29,11 +29,11 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "17304f62436aebabc341ce65e9426eeb0d54c8c353768b52804cdcda85962de3"
+    "sha256": "f6fbb47c026ef8c670fc16f7bbf793b8035cca3c909c3d6bb78a9e16239ba8d2"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
-    "sha256": "986b924dcc31b9341856703c10f72137f36b625a53e09cb3984ef647ee49ccaf"
+    "sha256": "ba475c937bfae774fa416f44d1489c30e937032eec95ba2660788e8e68130fcb"
    }
   }
  },
@@ -42,7 +42,7 @@
   "min_eligible_reviewed_families_per_language": 150
  },
  "summary": {
-  "eligible_family_total": 381,
+  "eligible_family_total": 380,
   "required_total": 600,
   "required_per_language": 150,
   "total_threshold_met": false,
@@ -54,25 +54,25 @@
   "aramaic": {
    "inventory_family_count": 1573,
    "represented_current_family_count": 602,
-   "eligible_family_count": 247,
-   "positive_family_count": 247,
+   "eligible_family_count": 246,
+   "positive_family_count": 246,
    "closure_only_family_count": 0,
    "fully_disposed_but_population_excluded_count": 209,
-   "one_member_short_count": 82,
+   "one_member_short_count": 83,
    "issued_member_dispositions": {
-    "positive": 362,
-    "closures": 267,
+    "positive": 360,
+    "closures": 266,
     "by_outcome": {
      "FORM-OF-ISOLATED": 21,
      "INTRA-HOUSE-TRANSFER": 9,
-     "LOANWORD": 68,
+     "LOANWORD": 67,
      "NONLEXICAL-ISOLATED": 59,
      "NUCLEUS-ECHO": 4,
      "NUCLEUS-TRACE": 13,
      "OUT-OF-SCOPE": 1,
      "PROPER-NAME-ISOLATED": 109,
      "ROOT-ECHO": 51,
-     "ROOT-TRACE": 294
+     "ROOT-TRACE": 292
     }
    },
    "incomplete_members_by_state": {
@@ -81,7 +81,7 @@
     "OPEN-CANDIDATE": 48,
     "SOURCE-GAP": 6,
     "TOOL-GAP": 13,
-    "UNRECORDED": 163
+    "UNRECORDED": 166
    },
    "block_reconciliation": {
     "ambiguous-stale-heading": 5,
@@ -97,7 +97,6 @@
     "aramaic:family:053809b3d60302c0c9bfd21b",
     "aramaic:family:070253db4f41371635d35e24",
     "aramaic:family:073c4c6aa4d014622650aace",
-    "aramaic:family:08954549c4db68d24c16ec39",
     "aramaic:family:08c04ebf51a319b85bd79a2b",
     "aramaic:family:0973cfd715e4ab71a83a0160",
     "aramaic:family:0ca94f7a3b5a1120b654c9b9",
@@ -346,7 +345,6 @@
     "aramaic:family:053809b3d60302c0c9bfd21b",
     "aramaic:family:070253db4f41371635d35e24",
     "aramaic:family:073c4c6aa4d014622650aace",
-    "aramaic:family:08954549c4db68d24c16ec39",
     "aramaic:family:08c04ebf51a319b85bd79a2b",
     "aramaic:family:0973cfd715e4ab71a83a0160",
     "aramaic:family:0ca94f7a3b5a1120b654c9b9",
@@ -809,7 +807,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to put, to place",
      "current_state": "SOURCE-GAP",
-     "reading_line": 30747
+     "reading_line": 31330
     },
     {
      "family_id": "aramaic:family:05ecd34dfcc0fa1e5fc037ec",
@@ -820,7 +818,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to show, to reveal",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 9826
+     "reading_line": 10003
     },
     {
      "family_id": "aramaic:family:0c0259773d0719a965e2d36a",
@@ -831,7 +829,7 @@
      "missing_pos": "noun",
      "missing_gloss": "servant, attendant",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 10224
+     "reading_line": 10417
     },
     {
      "family_id": "aramaic:family:0e4b86aaf3f1a3eeae0a9910",
@@ -842,7 +840,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to close/shut the eyes, to be blinded",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 10255
+     "reading_line": 10448
     },
     {
      "family_id": "aramaic:family:12429e088206511a325403c5",
@@ -853,7 +851,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to plow, to dig",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 10292
+     "reading_line": 10485
     },
     {
      "family_id": "aramaic:family:1354f259a46cf4be5c462830",
@@ -864,7 +862,7 @@
      "missing_pos": "noun",
      "missing_gloss": "onion",
      "current_state": "MORPHOLOGY-GAP",
-     "reading_line": 30785
+     "reading_line": 31368
     },
     {
      "family_id": "aramaic:family:150ccb77cd11eb6f14fcd4fd",
@@ -875,7 +873,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to heal, to cure",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 10316
+     "reading_line": 10509
     },
     {
      "family_id": "aramaic:family:1a1aa8d73b6394bfb396fbe3",
@@ -886,7 +884,7 @@
      "missing_pos": "noun",
      "missing_gloss": "fetus, embryo",
      "current_state": "SOURCE-GAP",
-     "reading_line": 30851
+     "reading_line": 31434
     },
     {
      "family_id": "aramaic:family:1d39ce152c35e2ea857683da",
@@ -897,7 +895,7 @@
      "missing_pos": "noun",
      "missing_gloss": "worker, labourer/laborer",
      "current_state": "MORPHOLOGY-GAP",
-     "reading_line": 30889
+     "reading_line": 31472
     },
     {
      "family_id": "aramaic:family:1e830a4a8790d550f05d1021",
@@ -908,7 +906,7 @@
      "missing_pos": "noun",
      "missing_gloss": "iron",
      "current_state": "SOURCE-GAP",
-     "reading_line": 30908
+     "reading_line": 31491
     },
     {
      "family_id": "aramaic:family:21e77b4f30b26000090d2f1e",
@@ -919,7 +917,7 @@
      "missing_pos": "noun",
      "missing_gloss": "depth, deepness",
      "current_state": "MORPHOLOGY-GAP",
-     "reading_line": 30927
+     "reading_line": 31510
     },
     {
      "family_id": "aramaic:family:248808daa7b1d22f2f5cec7c",
@@ -930,7 +928,7 @@
      "missing_pos": "noun",
      "missing_gloss": "chasm, gap, cleft",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29629
+     "reading_line": 30192
     },
     {
      "family_id": "aramaic:family:249626321527231090379777",
@@ -941,7 +939,7 @@
      "missing_pos": "noun",
      "missing_gloss": "earth, soil, dust",
      "current_state": "SOURCE-GAP",
-     "reading_line": 29748
+     "reading_line": 30314
     },
     {
      "family_id": "aramaic:family:25ac1d5f4701652e44d2e834",
@@ -952,7 +950,7 @@
      "missing_pos": "noun",
      "missing_gloss": "prayer",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30274
+     "reading_line": 30845
     },
     {
      "family_id": "aramaic:family:326d1915426f258fadcf32e5",
@@ -963,7 +961,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to split, to tear, to rip",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 10481
+     "reading_line": 10674
     },
     {
      "family_id": "aramaic:family:37de8eebbac3c3c855bfec90",
@@ -974,7 +972,7 @@
      "missing_pos": "noun",
      "missing_gloss": "sea",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29880
+     "reading_line": 30450
     },
     {
      "family_id": "aramaic:family:42fbb7c94511c1b2250c1cf1",
@@ -985,7 +983,7 @@
      "missing_pos": "noun",
      "missing_gloss": "porcupine, hedgehog",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 10560
+     "reading_line": 10753
     },
     {
      "family_id": "aramaic:family:4d2f878e7091de73fe5f1b74",
@@ -996,7 +994,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to trade",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 14818
+     "reading_line": 15112
     },
     {
      "family_id": "aramaic:family:4e684dd08a53eb41592ad9f7",
@@ -1007,7 +1005,7 @@
      "missing_pos": "noun",
      "missing_gloss": "tooth",
      "current_state": "LAW-GAP",
-     "reading_line": 29727
+     "reading_line": 30292
     },
     {
      "family_id": "aramaic:family:5b9c64c9f024fbe71fee40e9",
@@ -1018,7 +1016,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to see",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30107
+     "reading_line": 30677
     },
     {
      "family_id": "aramaic:family:60216cd8268a1bce4465830b",
@@ -1029,7 +1027,7 @@
      "missing_pos": "verb",
      "missing_gloss": "rest; observe the Sabbath",
      "current_state": "LAW-GAP",
-     "reading_line": 11795
+     "reading_line": 12035
     },
     {
      "family_id": "aramaic:family:6104a79683bbab32dd0845d4",
@@ -1040,7 +1038,7 @@
      "missing_pos": "noun",
      "missing_gloss": "Aramaean",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 11809
+     "reading_line": 12049
     },
     {
      "family_id": "aramaic:family:6371de6e30c7c3c3c3788f22",
@@ -1051,7 +1049,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to inspect, to moderate, to observe",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 11851
+     "reading_line": 12091
     },
     {
      "family_id": "aramaic:family:6a91e60127b84edf40a86dea",
@@ -1062,7 +1060,7 @@
      "missing_pos": "noun",
      "missing_gloss": "decree",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 11871
+     "reading_line": 12111
     },
     {
      "family_id": "aramaic:family:6dd49d7f60bde6337460397c",
@@ -1073,7 +1071,7 @@
      "missing_pos": "noun",
      "missing_gloss": "birth, nativity",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29642
+     "reading_line": 30205
     },
     {
      "family_id": "aramaic:family:710f69e7ba3a7ad107282160",
@@ -1084,7 +1082,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to think",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30155
+     "reading_line": 30725
     },
     {
      "family_id": "aramaic:family:75d7f175de698608e9ba8c23",
@@ -1095,7 +1093,7 @@
      "missing_pos": "noun",
      "missing_gloss": "angel",
      "current_state": "TOOL-GAP",
-     "reading_line": 11997
+     "reading_line": 12237
     },
     {
      "family_id": "aramaic:family:816e4874931b467ab9999450",
@@ -1106,7 +1104,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to know",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30258
+     "reading_line": 30829
     },
     {
      "family_id": "aramaic:family:8fc15ee53ceedb2fd9a4ea97",
@@ -1117,7 +1115,7 @@
      "missing_pos": "noun",
      "missing_gloss": "Sheol, netherworld",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 12186
+     "reading_line": 12426
     },
     {
      "family_id": "aramaic:family:8fca6a84ea97838f2f603c03",
@@ -1128,7 +1126,7 @@
      "missing_pos": "noun",
      "missing_gloss": "dove (bird)",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 12195
+     "reading_line": 12435
     },
     {
      "family_id": "aramaic:family:96db8f3f485bd863a793cada",
@@ -1139,7 +1137,7 @@
      "missing_pos": "prep",
      "missing_gloss": "with",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 12251
+     "reading_line": 12491
     },
     {
      "family_id": "aramaic:family:9a4f4d14547a62d7a1a69c0f",
@@ -1150,7 +1148,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to separate, cut off",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29562
+     "reading_line": 30125
     },
     {
      "family_id": "aramaic:family:a36d11a56c6a5692951a1cb8",
@@ -1161,7 +1159,7 @@
      "missing_pos": "adj",
      "missing_gloss": "white",
      "current_state": "MORPHOLOGY-GAP",
-     "reading_line": 12309
+     "reading_line": 12549
     },
     {
      "family_id": "aramaic:family:a4e7d06c1bc9b882063ffcaf",
@@ -1172,7 +1170,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to be late, to delay",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30187
+     "reading_line": 30757
     },
     {
      "family_id": "aramaic:family:b49aee16989db1400d845ee5",
@@ -1183,7 +1181,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to hunt, to fish, to catch",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29962
+     "reading_line": 30532
     },
     {
      "family_id": "aramaic:family:bd8dfd3e1e9023047342464f",
@@ -1194,7 +1192,7 @@
      "missing_pos": "noun",
      "missing_gloss": "seed, sperm, semen",
      "current_state": "LAW-GAP",
-     "reading_line": 12578
+     "reading_line": 12818
     },
     {
      "family_id": "aramaic:family:bfd1507cc0b50cde885b186c",
@@ -1205,7 +1203,7 @@
      "missing_pos": "phrase",
      "missing_gloss": "abbreviation of הָדָא הוּא דִּכְתִיב (hāḏā hū diḵṯīḇ, “this is what is written”)",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 12626
+     "reading_line": 12866
     },
     {
      "family_id": "aramaic:family:c099c7bb17ff41be6887995c",
@@ -1216,7 +1214,7 @@
      "missing_pos": "intj",
      "missing_gloss": "woe, alas, O",
      "current_state": "TOOL-GAP",
-     "reading_line": 12638
+     "reading_line": 12878
     },
     {
      "family_id": "aramaic:family:c1e552d97d7b268d71ea80e1",
@@ -1227,7 +1225,7 @@
      "missing_pos": "noun",
      "missing_gloss": "flower",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 12666
+     "reading_line": 12906
     },
     {
      "family_id": "aramaic:family:c53d105a921da69e9a3b8dc6",
@@ -1238,7 +1236,7 @@
      "missing_pos": "pron",
      "missing_gloss": "I",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30308
+     "reading_line": 30879
     },
     {
      "family_id": "aramaic:family:d38aa6b47b329bf8fcb2844e",
@@ -1249,7 +1247,7 @@
      "missing_pos": "noun",
      "missing_gloss": "absolute state of 𐡆𐡌𐡍𐡀 (zmnʾ)",
      "current_state": "TOOL-GAP",
-     "reading_line": 12906
+     "reading_line": 13147
     },
     {
      "family_id": "aramaic:family:d6be29c3c4d421102f117408",
@@ -1260,7 +1258,7 @@
      "missing_pos": "noun",
      "missing_gloss": "eternity, forever",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 12967
+     "reading_line": 13208
     },
     {
      "family_id": "aramaic:family:d7aef9c102205f7fdaf5df59",
@@ -1271,7 +1269,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to ravish, to violate",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 12979
+     "reading_line": 13220
     },
     {
      "family_id": "aramaic:family:dcade878e31a5875b319005f",
@@ -1282,7 +1280,7 @@
      "missing_pos": "noun",
      "missing_gloss": "man, husband",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 13019
+     "reading_line": 13260
     },
     {
      "family_id": "aramaic:family:ddb37fa110123f77a7a379f4",
@@ -1293,7 +1291,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to contract (the muscles)",
      "current_state": "TOOL-GAP",
-     "reading_line": 13048
+     "reading_line": 13289
     },
     {
      "family_id": "aramaic:family:df346847757f2e21111a59d5",
@@ -1304,7 +1302,7 @@
      "missing_pos": "noun",
      "missing_gloss": "day",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 29864
+     "reading_line": 30434
     },
     {
      "family_id": "aramaic:family:e0cb76975bfc604e3b3b5ecd",
@@ -1315,7 +1313,7 @@
      "missing_pos": "noun",
      "missing_gloss": "name",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 13100
+     "reading_line": 13341
     },
     {
      "family_id": "aramaic:family:e3db9dfcf2d3061b5d7c726b",
@@ -1326,7 +1324,7 @@
      "missing_pos": "noun",
      "missing_gloss": "bone",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30139
+     "reading_line": 30709
     },
     {
      "family_id": "aramaic:family:e492c9bc01e94431f6f7bbb9",
@@ -1337,7 +1335,7 @@
      "missing_pos": "noun",
      "missing_gloss": "alternative form of פלפלא",
      "current_state": "TOOL-GAP",
-     "reading_line": 13165
+     "reading_line": 13406
     },
     {
      "family_id": "aramaic:family:e510e80104bba417b8dd0841",
@@ -1348,7 +1346,7 @@
      "missing_pos": "noun",
      "missing_gloss": "knee",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 13176
+     "reading_line": 13417
     },
     {
      "family_id": "aramaic:family:e5d4291005fe5f0a58a24730",
@@ -1359,7 +1357,7 @@
      "missing_pos": "adv",
      "missing_gloss": "where",
      "current_state": "TOOL-GAP",
-     "reading_line": 13196
+     "reading_line": 13437
     },
     {
      "family_id": "aramaic:family:e6be808f0b4ca7b005ca7eec",
@@ -1370,7 +1368,7 @@
      "missing_pos": "noun",
      "missing_gloss": "belly, innards, viscera",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 13217
+     "reading_line": 13458
     },
     {
      "family_id": "aramaic:family:e7a5de3165a8c1abc6db1ab6",
@@ -1381,7 +1379,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to twist",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30171
+     "reading_line": 30741
     },
     {
      "family_id": "aramaic:family:f3532147fb2589040f7f5038",
@@ -1392,7 +1390,7 @@
      "missing_pos": "noun",
      "missing_gloss": "alternative form of אֲרִיסָא (ʾărīsā, “tenant farmer”)",
      "current_state": "TOOL-GAP",
-     "reading_line": 13374
+     "reading_line": 13615
     },
     {
      "family_id": "aramaic:family:fad7fa724401ae3d92e34bf6",
@@ -1403,7 +1401,7 @@
      "missing_pos": "noun",
      "missing_gloss": "custom, usual practice",
      "current_state": "TOOL-GAP",
-     "reading_line": 13461
+     "reading_line": 13702
     },
     {
      "family_id": "aramaic:family:fb21ce35989ae126c1cb8965",
@@ -1414,7 +1412,18 @@
      "missing_pos": "verb",
      "missing_gloss": "to desire, to will, to wish",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 30091
+     "reading_line": 30661
+    },
+    {
+     "family_id": "aramaic:family:08954549c4db68d24c16ec39",
+     "anchor_headword": "זרע",
+     "member_count": 2,
+     "missing_entry_id": "kaikki_aramaic:909:en-זרעא-arc-noun-GbJYVuHB",
+     "missing_headword": "זרעא",
+     "missing_pos": "noun",
+     "missing_gloss": "seed",
+     "current_state": "UNRECORDED",
+     "reading_line": null
     },
     {
      "family_id": "aramaic:family:46fd58cb36bf254cd2f8db6b",
@@ -1716,7 +1725,7 @@
        "pos": "verb",
        "gloss": "to put, to place",
        "current_state": "SOURCE-GAP",
-       "reading_line": 30747
+       "reading_line": 31330
       }
      ]
     },
@@ -1732,7 +1741,23 @@
        "pos": "verb",
        "gloss": "to show, to reveal",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 9826
+       "reading_line": 10003
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:08954549c4db68d24c16ec39",
+     "anchor_headword": "זרע",
+     "member_count": 2,
+     "missing_member_count": 1,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:909:en-זרעא-arc-noun-GbJYVuHB",
+       "headword": "זרעא",
+       "pos": "noun",
+       "gloss": "seed",
+       "current_state": "UNRECORDED",
+       "reading_line": null
       }
      ]
     },
@@ -1748,7 +1773,7 @@
        "pos": "noun",
        "gloss": "servant, attendant",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 10224
+       "reading_line": 10417
       }
      ]
     },
@@ -1764,7 +1789,7 @@
        "pos": "verb",
        "gloss": "to close/shut the eyes, to be blinded",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 10255
+       "reading_line": 10448
       }
      ]
     },
@@ -1780,7 +1805,7 @@
        "pos": "verb",
        "gloss": "to plow, to dig",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 10292
+       "reading_line": 10485
       }
      ]
     },
@@ -1796,7 +1821,7 @@
        "pos": "noun",
        "gloss": "onion",
        "current_state": "MORPHOLOGY-GAP",
-       "reading_line": 30785
+       "reading_line": 31368
       }
      ]
     },
@@ -1812,7 +1837,7 @@
        "pos": "verb",
        "gloss": "to heal, to cure",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 10316
+       "reading_line": 10509
       }
      ]
     },
@@ -1828,7 +1853,7 @@
        "pos": "noun",
        "gloss": "fetus, embryo",
        "current_state": "SOURCE-GAP",
-       "reading_line": 30851
+       "reading_line": 31434
       }
      ]
     },
@@ -1844,7 +1869,7 @@
        "pos": "noun",
        "gloss": "worker, labourer/laborer",
        "current_state": "MORPHOLOGY-GAP",
-       "reading_line": 30889
+       "reading_line": 31472
       }
      ]
     },
@@ -1860,7 +1885,7 @@
        "pos": "noun",
        "gloss": "iron",
        "current_state": "SOURCE-GAP",
-       "reading_line": 30908
+       "reading_line": 31491
       }
      ]
     },
@@ -1876,7 +1901,7 @@
        "pos": "noun",
        "gloss": "depth, deepness",
        "current_state": "MORPHOLOGY-GAP",
-       "reading_line": 30927
+       "reading_line": 31510
       }
      ]
     },
@@ -1892,7 +1917,7 @@
        "pos": "noun",
        "gloss": "chasm, gap, cleft",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29629
+       "reading_line": 30192
       }
      ]
     },
@@ -1908,7 +1933,7 @@
        "pos": "noun",
        "gloss": "earth, soil, dust",
        "current_state": "SOURCE-GAP",
-       "reading_line": 29748
+       "reading_line": 30314
       }
      ]
     },
@@ -1924,7 +1949,7 @@
        "pos": "noun",
        "gloss": "prayer",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30274
+       "reading_line": 30845
       }
      ]
     },
@@ -1940,7 +1965,7 @@
        "pos": "verb",
        "gloss": "to split, to tear, to rip",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 10481
+       "reading_line": 10674
       }
      ]
     },
@@ -1956,7 +1981,7 @@
        "pos": "noun",
        "gloss": "sea",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29880
+       "reading_line": 30450
       }
      ]
     },
@@ -1972,7 +1997,7 @@
        "pos": "noun",
        "gloss": "porcupine, hedgehog",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 10560
+       "reading_line": 10753
       }
      ]
     },
@@ -2004,7 +2029,7 @@
        "pos": "verb",
        "gloss": "to trade",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 14818
+       "reading_line": 15112
       }
      ]
     },
@@ -2020,7 +2045,7 @@
        "pos": "noun",
        "gloss": "tooth",
        "current_state": "LAW-GAP",
-       "reading_line": 29727
+       "reading_line": 30292
       }
      ]
     },
@@ -2068,7 +2093,7 @@
        "pos": "verb",
        "gloss": "to see",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30107
+       "reading_line": 30677
       }
      ]
     },
@@ -2084,7 +2109,7 @@
        "pos": "verb",
        "gloss": "rest; observe the Sabbath",
        "current_state": "LAW-GAP",
-       "reading_line": 11795
+       "reading_line": 12035
       }
      ]
     },
@@ -2100,7 +2125,7 @@
        "pos": "noun",
        "gloss": "Aramaean",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 11809
+       "reading_line": 12049
       }
      ]
     },
@@ -2116,7 +2141,7 @@
        "pos": "verb",
        "gloss": "to inspect, to moderate, to observe",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 11851
+       "reading_line": 12091
       }
      ]
     },
@@ -2132,7 +2157,7 @@
        "pos": "noun",
        "gloss": "decree",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 11871
+       "reading_line": 12111
       }
      ]
     },
@@ -2148,7 +2173,7 @@
        "pos": "noun",
        "gloss": "birth, nativity",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29642
+       "reading_line": 30205
       }
      ]
     },
@@ -2164,7 +2189,7 @@
        "pos": "verb",
        "gloss": "to think",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30155
+       "reading_line": 30725
       }
      ]
     },
@@ -2228,7 +2253,7 @@
        "pos": "noun",
        "gloss": "angel",
        "current_state": "TOOL-GAP",
-       "reading_line": 11997
+       "reading_line": 12237
       }
      ]
     },
@@ -2276,7 +2301,7 @@
        "pos": "verb",
        "gloss": "to know",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30258
+       "reading_line": 30829
       }
      ]
     },
@@ -2324,7 +2349,7 @@
        "pos": "noun",
        "gloss": "Sheol, netherworld",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12186
+       "reading_line": 12426
       }
      ]
     },
@@ -2340,7 +2365,7 @@
        "pos": "noun",
        "gloss": "dove (bird)",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12195
+       "reading_line": 12435
       }
      ]
     },
@@ -2388,7 +2413,7 @@
        "pos": "prep",
        "gloss": "with",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12251
+       "reading_line": 12491
       }
      ]
     },
@@ -2404,7 +2429,7 @@
        "pos": "verb",
        "gloss": "to separate, cut off",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29562
+       "reading_line": 30125
       }
      ]
     },
@@ -2436,7 +2461,7 @@
        "pos": "adj",
        "gloss": "white",
        "current_state": "MORPHOLOGY-GAP",
-       "reading_line": 12309
+       "reading_line": 12549
       }
      ]
     },
@@ -2468,7 +2493,7 @@
        "pos": "verb",
        "gloss": "to be late, to delay",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30187
+       "reading_line": 30757
       }
      ]
     },
@@ -2532,7 +2557,7 @@
        "pos": "verb",
        "gloss": "to hunt, to fish, to catch",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29962
+       "reading_line": 30532
       }
      ]
     },
@@ -2580,7 +2605,7 @@
        "pos": "noun",
        "gloss": "seed, sperm, semen",
        "current_state": "LAW-GAP",
-       "reading_line": 12578
+       "reading_line": 12818
       }
      ]
     },
@@ -2596,7 +2621,7 @@
        "pos": "phrase",
        "gloss": "abbreviation of הָדָא הוּא דִּכְתִיב (hāḏā hū diḵṯīḇ, “this is what is written”)",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12626
+       "reading_line": 12866
       }
      ]
     },
@@ -2612,7 +2637,7 @@
        "pos": "intj",
        "gloss": "woe, alas, O",
        "current_state": "TOOL-GAP",
-       "reading_line": 12638
+       "reading_line": 12878
       }
      ]
     },
@@ -2628,7 +2653,7 @@
        "pos": "noun",
        "gloss": "flower",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12666
+       "reading_line": 12906
       }
      ]
     },
@@ -2644,7 +2669,7 @@
        "pos": "pron",
        "gloss": "I",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30308
+       "reading_line": 30879
       }
      ]
     },
@@ -2676,7 +2701,7 @@
        "pos": "noun",
        "gloss": "absolute state of 𐡆𐡌𐡍𐡀 (zmnʾ)",
        "current_state": "TOOL-GAP",
-       "reading_line": 12906
+       "reading_line": 13147
       }
      ]
     },
@@ -2692,7 +2717,7 @@
        "pos": "noun",
        "gloss": "eternity, forever",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12967
+       "reading_line": 13208
       }
      ]
     },
@@ -2708,7 +2733,7 @@
        "pos": "verb",
        "gloss": "to ravish, to violate",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12979
+       "reading_line": 13220
       }
      ]
     },
@@ -2740,7 +2765,7 @@
        "pos": "noun",
        "gloss": "man, husband",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 13019
+       "reading_line": 13260
       }
      ]
     },
@@ -2756,7 +2781,7 @@
        "pos": "verb",
        "gloss": "to contract (the muscles)",
        "current_state": "TOOL-GAP",
-       "reading_line": 13048
+       "reading_line": 13289
       }
      ]
     },
@@ -2772,7 +2797,7 @@
        "pos": "noun",
        "gloss": "day",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 29864
+       "reading_line": 30434
       }
      ]
     },
@@ -2788,7 +2813,7 @@
        "pos": "noun",
        "gloss": "name",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 13100
+       "reading_line": 13341
       }
      ]
     },
@@ -2804,7 +2829,7 @@
        "pos": "noun",
        "gloss": "bone",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30139
+       "reading_line": 30709
       }
      ]
     },
@@ -2820,7 +2845,7 @@
        "pos": "noun",
        "gloss": "alternative form of פלפלא",
        "current_state": "TOOL-GAP",
-       "reading_line": 13165
+       "reading_line": 13406
       }
      ]
     },
@@ -2836,7 +2861,7 @@
        "pos": "noun",
        "gloss": "knee",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 13176
+       "reading_line": 13417
       }
      ]
     },
@@ -2868,7 +2893,7 @@
        "pos": "adv",
        "gloss": "where",
        "current_state": "TOOL-GAP",
-       "reading_line": 13196
+       "reading_line": 13437
       }
      ]
     },
@@ -2884,7 +2909,7 @@
        "pos": "noun",
        "gloss": "belly, innards, viscera",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 13217
+       "reading_line": 13458
       }
      ]
     },
@@ -2900,7 +2925,7 @@
        "pos": "verb",
        "gloss": "to twist",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30171
+       "reading_line": 30741
       }
      ]
     },
@@ -2932,7 +2957,7 @@
        "pos": "noun",
        "gloss": "alternative form of אֲרִיסָא (ʾărīsā, “tenant farmer”)",
        "current_state": "TOOL-GAP",
-       "reading_line": 13374
+       "reading_line": 13615
       }
      ]
     },
@@ -2964,7 +2989,7 @@
        "pos": "noun",
        "gloss": "custom, usual practice",
        "current_state": "TOOL-GAP",
-       "reading_line": 13461
+       "reading_line": 13702
       }
      ]
     },
@@ -2980,7 +3005,7 @@
        "pos": "verb",
        "gloss": "to desire, to will, to wish",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 30091
+       "reading_line": 30661
       }
      ]
     },
@@ -3628,7 +3653,7 @@
        "pos": "noun",
        "gloss": "father, ancestor, progenitor",
        "current_state": "TOOL-GAP",
-       "reading_line": 12104
+       "reading_line": 12344
       },
       {
        "entry_id": "kaikki_aramaic:29:en-אבא-arc-noun-m4Y4tXy6",
@@ -3636,7 +3661,7 @@
        "pos": "noun",
        "gloss": "thicket, woods, grove",
        "current_state": "TOOL-GAP",
-       "reading_line": 12106
+       "reading_line": 12346
       }
      ]
     },
@@ -3676,7 +3701,7 @@
        "pos": "adv",
        "gloss": "yet",
        "current_state": "SOURCE-GAP",
-       "reading_line": 12169
+       "reading_line": 12409
       },
       {
        "entry_id": "kaikki_aramaic:387:en-דין-arc-conj-NrQXECuG",
@@ -3684,7 +3709,7 @@
        "pos": "conj",
        "gloss": "yet, but, however",
        "current_state": "SOURCE-GAP",
-       "reading_line": 12171
+       "reading_line": 12411
       }
      ]
     },
@@ -3805,30 +3830,6 @@
        "gloss": "five (5)",
        "current_state": "UNRECORDED",
        "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "aramaic:family:a71668c1ec0062265935b262",
-     "anchor_headword": "דהב",
-     "member_count": 3,
-     "missing_member_count": 2,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:441:en-דהבא-arc-noun-JNfwPY3D",
-       "headword": "דהבא",
-       "pos": "noun",
-       "gloss": "gold",
-       "current_state": "UNRECORDED",
-       "reading_line": null
-      },
-      {
-       "entry_id": "kaikki_aramaic:442:en-דהבא-arc-noun-GKUBQkao",
-       "headword": "דהבא",
-       "pos": "noun",
-       "gloss": "goldsmith",
-       "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12325
       }
      ]
     },
@@ -3988,7 +3989,7 @@
        "pos": "noun",
        "gloss": "smearing",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12686
+       "reading_line": 12926
       },
       {
        "entry_id": "kaikki_aramaic:600:en-כפר-arc-noun-1grC5U45",
@@ -4021,30 +4022,6 @@
        "gloss": "tail, end",
        "current_state": "UNRECORDED",
        "reading_line": null
-      }
-     ]
-    },
-    {
-     "family_id": "aramaic:family:cc2cec82aa5f2f54cea9e740",
-     "anchor_headword": "פרס",
-     "member_count": 4,
-     "missing_member_count": 2,
-     "missing_members": [
-      {
-       "entry_id": "kaikki_aramaic:1230:en-פרס-arc-verb-GuJRUmT0",
-       "headword": "פרס",
-       "pos": "verb",
-       "gloss": "to spread",
-       "current_state": "TOOL-GAP",
-       "reading_line": 12812
-      },
-      {
-       "entry_id": "kaikki_aramaic:2046:en-פרסא-arc-noun-QHaENWQf",
-       "headword": "פרסא",
-       "pos": "noun",
-       "gloss": "a half-unit, such as a half-shekel or half-mina",
-       "current_state": "TOOL-GAP",
-       "reading_line": 12815
       }
      ]
     },
@@ -4300,7 +4277,7 @@
        "pos": "noun",
        "gloss": "hope; trust, confidence",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 9759
+       "reading_line": 9936
       },
       {
        "entry_id": "kaikki_aramaic:1397:en-סברא-arc-noun-m5~eecPR",
@@ -4308,7 +4285,7 @@
        "pos": "noun",
        "gloss": "consideration, regard, belief, conjecture, supposition, opinion",
        "current_state": "TOOL-GAP",
-       "reading_line": 9761
+       "reading_line": 9938
       },
       {
        "entry_id": "kaikki_aramaic:1399:en-סברא-arc-noun-9pRatnWQ",
@@ -4316,7 +4293,7 @@
        "pos": "noun",
        "gloss": "fine teacher, scholar",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 9765
+       "reading_line": 9942
       }
      ]
     },
@@ -4332,7 +4309,7 @@
        "pos": "verb",
        "gloss": "to amaze, to wonder",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 9781
+       "reading_line": 9958
       },
       {
        "entry_id": "kaikki_aramaic:350:en-תורא-arc-noun-vg0X~9GM",
@@ -4340,7 +4317,7 @@
        "pos": "noun",
        "gloss": "ox-driver",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 9786
+       "reading_line": 9963
       },
       {
        "entry_id": "kaikki_aramaic:351:en-תורא-arc-noun-HdNCvATx",
@@ -4348,7 +4325,7 @@
        "pos": "noun",
        "gloss": "cord, band",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 9788
+       "reading_line": 9965
       }
      ]
     },
@@ -4381,6 +4358,38 @@
        "gloss": "teeth",
        "current_state": "UNRECORDED",
        "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:a71668c1ec0062265935b262",
+     "anchor_headword": "דהב",
+     "member_count": 3,
+     "missing_member_count": 3,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:1651:en-דהב-arc-verb-dPxjPhhh",
+       "headword": "דהב",
+       "pos": "verb",
+       "gloss": "to gild",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:441:en-דהבא-arc-noun-JNfwPY3D",
+       "headword": "דהבא",
+       "pos": "noun",
+       "gloss": "gold",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:442:en-דהבא-arc-noun-GKUBQkao",
+       "headword": "דהבא",
+       "pos": "noun",
+       "gloss": "goldsmith",
+       "current_state": "OPEN-CANDIDATE",
+       "reading_line": 12565
       }
      ]
     },
@@ -4445,6 +4454,38 @@
        "gloss": "pomegranate (fruit and tree)",
        "current_state": "UNRECORDED",
        "reading_line": null
+      }
+     ]
+    },
+    {
+     "family_id": "aramaic:family:cc2cec82aa5f2f54cea9e740",
+     "anchor_headword": "פרס",
+     "member_count": 4,
+     "missing_member_count": 3,
+     "missing_members": [
+      {
+       "entry_id": "kaikki_aramaic:1230:en-פרס-arc-verb-GuJRUmT0",
+       "headword": "פרס",
+       "pos": "verb",
+       "gloss": "to spread",
+       "current_state": "TOOL-GAP",
+       "reading_line": 13052
+      },
+      {
+       "entry_id": "kaikki_aramaic:1231:en-פרס-arc-name-pldDud11",
+       "headword": "פרס",
+       "pos": "name",
+       "gloss": "Persia, the Persians",
+       "current_state": "UNRECORDED",
+       "reading_line": null
+      },
+      {
+       "entry_id": "kaikki_aramaic:2046:en-פרסא-arc-noun-QHaENWQf",
+       "headword": "פרסא",
+       "pos": "noun",
+       "gloss": "a half-unit, such as a half-shekel or half-mina",
+       "current_state": "TOOL-GAP",
+       "reading_line": 13055
       }
      ]
     },
@@ -4540,7 +4581,7 @@
        "pos": "verb",
        "gloss": "to damage, to injure, to destroy",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12237
+       "reading_line": 12477
       },
       {
        "entry_id": "kaikki_aramaic:1381:en-חבלא-arc-noun-UtZ15hFD",
@@ -4548,7 +4589,7 @@
        "pos": "noun",
        "gloss": "travail",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12240
+       "reading_line": 12480
       },
       {
        "entry_id": "kaikki_aramaic:1382:en-חבלא-arc-noun-Fx1NMEV6",
@@ -4556,7 +4597,7 @@
        "pos": "noun",
        "gloss": "injury, damage, corruption",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12242
+       "reading_line": 12482
       },
       {
        "entry_id": "kaikki_aramaic:1383:en-חבלא-arc-noun-0jlqH7y8",
@@ -4564,7 +4605,7 @@
        "pos": "noun",
        "gloss": "destroyer",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 12244
+       "reading_line": 12484
       }
      ]
     },
@@ -4771,157 +4812,157 @@
    ],
    "ambiguous_or_unmapped_blocks": [
     {
-     "line": 569,
+     "line": 575,
      "heading": "### بطاقة: الرتبة 389، `aramaic:family:a58382a59bce777167933199`، אסיא",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 1038,
+     "line": 1057,
      "heading": "### بطاقة: الرتبة 476، `aramaic:family:b971fa7fe598275701fb169f`، נונא",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 7249,
+     "line": 7407,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ لأحكامِ الآراميّةِ الأولى (2026-07-18)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 7257,
+     "line": 7415,
      "heading": "### إعادةُ توسيم: تصحيحٌ ذاتيٌّ من العدسةِ الثالثة، شرطٌ على أربعةِ أحكامٍ مودعة (2026-07-20)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 7263,
+     "line": 7421,
      "heading": "### إعادةُ توسيم: زوالُ الشرطِ عن الأحكامِ الأربعةِ بتوقيعِ الصفّ (2026-07-20)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 8973,
+     "line": 9131,
      "heading": "### إعادةُ توسيم: إعادةُ فتحِ عضوِ «القرية» في حكمِ כפר المودع (2026-07-21)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 8979,
+     "line": 9137,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ لجدولِ المصائرِ الكامل (2026-07-21)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 8983,
+     "line": 9141,
      "heading": "### إعادةُ توسيم: توقيعُ قاعدةِ الألفِ وانفتاحُ أسرِ النمط (2026-07-21)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 9165,
+     "line": 9323,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ لحصادِ الموجةِ ب (2026-07-21)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 9299,
+     "line": 9461,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ لحصادِ 2026-07-22 الآراميّ",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 9735,
+     "line": 9912,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ لدفعةِ التوازي الأولى، المسارُ الآراميّ (2026-07-22)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 13967,
+     "line": 14230,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ لاكتمالِ الآراميّةِ الكامل (2026-07-23)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 23254,
+     "line": 23777,
      "heading": "### مراجعة عضوية: `kaikki_aramaic:855:en-לגיונא-arc-noun-FhTO7sUK`، قرض داخل من طرف ثالث",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27202,
+     "line": 27764,
      "heading": "### بطاقة طابور: أسرة `קם / קום` qwm «قام ونهض» بإزاء قوم",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 31042,
+     "line": 31625,
      "heading": "### بطاقة: `טובא` «خير، حسن» ↔ طيب",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 31064,
+     "line": 31648,
      "heading": "### بطاقة: `שלש/שלשה` «ثلاثة» ↔ ثلث",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 31092,
+     "line": 31677,
      "heading": "### بطاقة: `יתב` «جلس، أقام» ↔ وثب الحميرية «جلس»",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 32913,
+     "line": 33499,
      "heading": "### بطاقة: כפר `kp̄ar` «deny; wipe out» ↔ كفر",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 32924,
+     "line": 33510,
      "heading": "### بطاقة: עוד `ʿōd` «to accustom, habituate» ↔ عود",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 32935,
+     "line": 33521,
      "heading": "### بطاقة: צום `ṣōm` «to fast, abstain» ↔ صوم",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 32946,
+     "line": 33532,
      "heading": "### بطاقة: נצב `nəṣab` «to plant» ↔ نصب",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 32957,
+     "line": 33543,
      "heading": "### بطاقة: תור `tawr` «bull, ox» ↔ ثور",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 32968,
+     "line": 33554,
      "heading": "### بطاقة: עמר `ʿmar` «to dwell, inhabit» ↔ عمر",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 32979,
+     "line": 33565,
      "heading": "### بطاقة: זמרא `zimrā` «singing, music» ↔ زمر",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 32990,
+     "line": 33576,
      "heading": "### بطاقة: כוכבא `kawkbā’` «star» ↔ كوكب",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 33001,
+     "line": 33587,
      "heading": "### بطاقة: תדא `tdā/ṯdʾ` «breast, pap» ↔ ثدي عند النواة",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 33012,
+     "line": 33598,
      "heading": "### بطاقة: כלבתא `kalbtā` «dog, bitch» ↔ كلب",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 33023,
+     "line": 33609,
      "heading": "### بطاقة: פלג وפלגא `plag/plaggā` «divide; half» ↔ فلج",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 33034,
+     "line": 33620,
      "heading": "### بطاقة: פתחא `petḥā` «opening, gate» ↔ فتح",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 33045,
+     "line": 33631,
      "heading": "### بطاقة: תגר `taggar` «to trade» ↔ تجر",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 33056,
+     "line": 33642,
      "heading": "### بطاقة: גינתא `gīnəṯā` «garden» ↔ جنن",
      "reason": "unmapped-stale-heading"
     }
@@ -5674,7 +5715,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to be stubborn, disobedient",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41965
+     "reading_line": 42857
     },
     {
      "family_id": "hebrew:family:0cc97040204da72f867d287f",
@@ -5685,7 +5726,7 @@
      "missing_pos": "adj",
      "missing_gloss": "weak, poor",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 42486
+     "reading_line": 43399
     },
     {
      "family_id": "hebrew:family:288d73607531ab82dc0105f1",
@@ -5696,7 +5737,7 @@
      "missing_pos": "verb",
      "missing_gloss": "To cry, weep.",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 42033
+     "reading_line": 42927
     },
     {
      "family_id": "hebrew:family:2e9ca0e9a5f0f8eb243e8749",
@@ -5707,7 +5748,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to slumber",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41644
+     "reading_line": 42536
     },
     {
      "family_id": "hebrew:family:50b5ed7b139ee950689b7244",
@@ -5718,7 +5759,7 @@
      "missing_pos": "noun",
      "missing_gloss": "star",
      "current_state": "LAW-GAP",
-     "reading_line": 41402
+     "reading_line": 42284
     },
     {
      "family_id": "hebrew:family:5d11579b9fca4744e67e02d8",
@@ -5729,7 +5770,7 @@
      "missing_pos": "pron",
      "missing_gloss": "you, thou (second-person singular masculine)",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41615
+     "reading_line": 42506
     },
     {
      "family_id": "hebrew:family:6632665720f0f38a8b7565f6",
@@ -5740,7 +5781,7 @@
      "missing_pos": "noun",
      "missing_gloss": "door (portal of entry)",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41275
+     "reading_line": 42155
     },
     {
      "family_id": "hebrew:family:6c1b6627d2ae4c1c5d850835",
@@ -5751,7 +5792,7 @@
      "missing_pos": "noun",
      "missing_gloss": "copper (a reddish-brown metallic chemical element (symbol Cu) with the atomic number 29; also, the metal made up of this element)",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 16560
+     "reading_line": 17062
     },
     {
      "family_id": "hebrew:family:a23ff2673a8aae9ce9ec1a70",
@@ -5762,7 +5803,7 @@
      "missing_pos": "noun",
      "missing_gloss": "forearm",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41242
+     "reading_line": 42122
     },
     {
      "family_id": "hebrew:family:aca94bae5af936a0ce5d4e08",
@@ -5773,7 +5814,7 @@
      "missing_pos": "noun",
      "missing_gloss": "men (especially few in number)",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41283
+     "reading_line": 42163
     },
     {
      "family_id": "hebrew:family:af4588e22dfef7c61066f5a5",
@@ -5784,7 +5825,7 @@
      "missing_pos": "verb",
      "missing_gloss": "to seed, to sow",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 42059
+     "reading_line": 42954
     },
     {
      "family_id": "hebrew:family:f6c1ac99e6d1349776a6add9",
@@ -5795,7 +5836,7 @@
      "missing_pos": "noun",
      "missing_gloss": "female servant, slave, handmaid",
      "current_state": "OPEN-CANDIDATE",
-     "reading_line": 41250
+     "reading_line": 42130
     },
     {
      "family_id": "hebrew:family:00baa46d75505b42cceacdfc",
@@ -9590,7 +9631,7 @@
        "pos": "verb",
        "gloss": "to be stubborn, disobedient",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41965
+       "reading_line": 42857
       }
      ]
     },
@@ -9782,7 +9823,7 @@
        "pos": "adj",
        "gloss": "weak, poor",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 42486
+       "reading_line": 43399
       }
      ]
     },
@@ -10438,7 +10479,7 @@
        "pos": "verb",
        "gloss": "To cry, weep.",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 42033
+       "reading_line": 42927
       }
      ]
     },
@@ -10534,7 +10575,7 @@
        "pos": "verb",
        "gloss": "to slumber",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41644
+       "reading_line": 42536
       }
      ]
     },
@@ -11286,7 +11327,7 @@
        "pos": "noun",
        "gloss": "star",
        "current_state": "LAW-GAP",
-       "reading_line": 41402
+       "reading_line": 42284
       }
      ]
     },
@@ -11670,7 +11711,7 @@
        "pos": "pron",
        "gloss": "you, thou (second-person singular masculine)",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41615
+       "reading_line": 42506
       }
      ]
     },
@@ -11894,7 +11935,7 @@
        "pos": "noun",
        "gloss": "door (portal of entry)",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41275
+       "reading_line": 42155
       }
      ]
     },
@@ -12054,7 +12095,7 @@
        "pos": "noun",
        "gloss": "copper (a reddish-brown metallic chemical element (symbol Cu) with the atomic number 29; also, the metal made up of this element)",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 16560
+       "reading_line": 17062
       }
      ]
     },
@@ -13030,7 +13071,7 @@
        "pos": "noun",
        "gloss": "forearm",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41242
+       "reading_line": 42122
       }
      ]
     },
@@ -13270,7 +13311,7 @@
        "pos": "noun",
        "gloss": "men (especially few in number)",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41283
+       "reading_line": 42163
       }
      ]
     },
@@ -13334,7 +13375,7 @@
        "pos": "verb",
        "gloss": "to seed, to sow",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 42059
+       "reading_line": 42954
       }
      ]
     },
@@ -14630,7 +14671,7 @@
        "pos": "noun",
        "gloss": "female servant, slave, handmaid",
        "current_state": "OPEN-CANDIDATE",
-       "reading_line": 41250
+       "reading_line": 42130
       }
      ]
     },
@@ -25405,502 +25446,502 @@
    ],
    "ambiguous_or_unmapped_blocks": [
     {
-     "line": 1832,
+     "line": 1867,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ للجولةِ العبريّةِ الثانية (2026-07-21)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 3447,
+     "line": 3485,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ لموجةِ التوسيعِ ج (2026-07-21)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 3554,
+     "line": 3596,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ لحصادِ 2026-07-22 العبريّ",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 3673,
+     "line": 3717,
      "heading": "### إعادةُ توسيم: المراجعةُ المضادّةُ الثالثةُ لدفعةِ التوازي الأولى، المسارُ العبريّ (2026-07-22)",
      "reason": "unmapped-stale-heading"
     },
     {
-     "line": 27399,
+     "line": 28278,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:10267:en-נישא-he-verb-YRJGlypl`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27409,
+     "line": 28288,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:10270:en-פרקים-he-noun-Xk779yC3`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27419,
+     "line": 28298,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:1032:en-עבור-he-verb-6D2M3oip`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27449,
+     "line": 28328,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:10406:en-בורא-he-verb-ocYPM37e`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27459,
+     "line": 28338,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:10459:en-כפיים-he-noun-PI~UBFym`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27519,
+     "line": 28398,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:11217:en-תעבור-he-verb-w9h-S7CE`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27529,
+     "line": 28408,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:11218:en-תעברי-he-verb-LItnnrv-`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27599,
+     "line": 28478,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:12166:en-ישחק-he-verb--Eso90Bs`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27829,
+     "line": 28708,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:12825:en-צדיקים-he-noun-SgMXGXzj`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27859,
+     "line": 28738,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:13098:en-גיבורים-he-noun-z6FYIZAk`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27869,
+     "line": 28748,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:13103:en-עיניים-he-noun-L1Tt72~S`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27879,
+     "line": 28758,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:13128:en-האבות-he-noun-qedZOPNv`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27899,
+     "line": 28778,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:13207:en-ברוא-he-verb-2buddwCw`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27929,
+     "line": 28808,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:13709:en-נפתח-he-verb-NtmKPkg7`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27939,
+     "line": 28818,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:1376:en-אבי-he-noun-5hWqdmWX`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27949,
+     "line": 28828,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:1377:en-אבי-he-noun-yMdySxM5`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27959,
+     "line": 28838,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:13998:en-בנייני-he-noun-SFrCL6SH`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27969,
+     "line": 28848,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:14074:en-ירקות-he-noun-Wj2gKuZn`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 27989,
+     "line": 28868,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:14237:en-שיכר-he-noun-yLcFlvo7`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28009,
+     "line": 28888,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:14512:en-קטב-he-noun-5Kcbvh11`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28029,
+     "line": 28908,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:14701:en-מפקח-he-verb-VlDmJltX`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28039,
+     "line": 28918,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:14741:en-בזה-he-verb-Nop35DUi`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28049,
+     "line": 28928,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:14745:en-בזה-he-noun-FuZWdXyj`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28099,
+     "line": 28978,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:15405:en-מקדם-he-verb-hQn3MmCi`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28109,
+     "line": 28988,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:15407:en-צרותיו-he-noun-RY6UgLWa`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28119,
+     "line": 28998,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:1587:en-שנתיים-he-noun-DxCMlUZ7`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28129,
+     "line": 29008,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:1593:en-אבות-he-noun-0XXycJIK`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28169,
+     "line": 29048,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:16278:en-ויקצצו-he-verb-YXEu3ZMl`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28179,
+     "line": 29058,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:16327:en-ותקל-he-verb-7EAG-DBj`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28209,
+     "line": 29088,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:16565:en-ירוקה-he-adj-WQankKbh`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28229,
+     "line": 29108,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:16716:en-סהרה-he-noun-MdAP7tYd`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28319,
+     "line": 29198,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:2832:en-נשים-he-verb-updE~eR7`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28339,
+     "line": 29218,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:2969:en-רוצה-he-verb-H6E0YxYj`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28349,
+     "line": 29228,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:2970:en-רוצה-he-verb-feV7WNk5`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28379,
+     "line": 29258,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:3183:en-הלל-he-verb-oHuh5Tci`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28419,
+     "line": 29298,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:3411:en-בניינים-he-noun-t7pdbqaH`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28459,
+     "line": 29338,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:3540:en-ישב-he-verb-koA1H49q`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28529,
+     "line": 29408,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:3674:en-אחים-he-noun-umeTHspa`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28569,
+     "line": 29448,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:3720:en-חלבים-he-noun-gWYM3FNq`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28609,
+     "line": 29488,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:390:en-אב-he-noun-38lVafFt`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28619,
+     "line": 29498,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:3918:en-אביו-he-noun-kSHP0D1J`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28629,
+     "line": 29508,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:3924:en-שנים-he-noun-3dJb~LVN`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28649,
+     "line": 29528,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4079:en-גרים-he-noun-wr8ZKxKW`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28679,
+     "line": 29558,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4325:en-עורות-he-noun-~VQnoQWA`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28689,
+     "line": 29568,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4377:en-שמשות-he-noun-SdgSkOva`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28829,
+     "line": 29708,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4460:en-רמונים-he-noun-htjQFYZ6`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28839,
+     "line": 29718,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4485:en-פושט-he-verb-dZfZcMYu`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28879,
+     "line": 29758,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4605:en-גנים-he-noun-DnouJ2Lm`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28889,
+     "line": 29768,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4606:en-גנים-he-noun-nO3MjBOw`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28919,
+     "line": 29798,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4712:en-אחי-he-noun-dWol-N3-`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28929,
+     "line": 29808,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4713:en-אחי-he-noun-ZrHknPAG`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28939,
+     "line": 29818,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4714:en-אחי-he-noun-uibCp2Gf`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28969,
+     "line": 29848,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4883:en-רוצים-he-verb-VnwvAE7S`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28979,
+     "line": 29858,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4884:en-רוצות-he-verb-xd7KYrAb`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28989,
+     "line": 29868,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4885:en-רציתי-he-verb-9HsPDdxA`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 28999,
+     "line": 29878,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4886:en-רצית-he-verb-I0xnECUg`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29009,
+     "line": 29888,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4887:en-רצית-he-verb-vksySj6L`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29019,
+     "line": 29898,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4888:en-רצתה-he-verb-V1QR83sN`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29029,
+     "line": 29908,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4889:en-רצינו-he-verb-dp1RQm~T`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29039,
+     "line": 29918,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4890:en-רציתם-he-verb-ofTZvswU`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29049,
+     "line": 29928,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4891:en-רציתן-he-verb-HHkqlKve`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29059,
+     "line": 29938,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4892:en-רצו-he-verb-rZuF-dO2`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29069,
+     "line": 29948,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4895:en-ארצה-he-verb-Hxs2Wg-B`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29079,
+     "line": 29958,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4897:en-תרצה-he-verb-wuecrMUX`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29089,
+     "line": 29968,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4898:en-נרצה-he-verb-J8mqrNce`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29099,
+     "line": 29978,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4899:en-תרצי-he-verb-KyJVJWyy`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29109,
+     "line": 29988,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4900:en-ירצה-he-verb-TA3~iGVz`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29119,
+     "line": 29998,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4901:en-ירצו-he-verb-3CTY5Mhh`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29129,
+     "line": 30008,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:4902:en-תרצו-he-verb-FXAux1jQ`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29139,
+     "line": 30018,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5011:en-נושא-he-verb-m7CgrB~h`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29149,
+     "line": 30028,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5222:en-שנת-he-noun-r-M9wHCS`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29159,
+     "line": 30038,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5225:en-ליל-he-noun-L8ZWx4Nz`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29189,
+     "line": 30068,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5241:en-ראשים-he-noun-lLm2yomV`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29209,
+     "line": 30088,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5256:en-שבתות-he-noun-cOrQ8o6T`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29219,
+     "line": 30098,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5274:en-הבנות-he-noun-e5y4RZH6`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29229,
+     "line": 30108,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5389:en-ראשי-he-noun-MXnNolVT`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29239,
+     "line": 30118,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5515:en-בוטנים-he-noun-zvP3pu1l`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29249,
+     "line": 30128,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5627:en-צרות-he-noun-7RiExoUH`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29279,
+     "line": 30158,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5682:en-אחיו-he-noun-KiHQoSuY`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29289,
+     "line": 30168,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5683:en-אחיו-he-noun-jU5uepIY`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29299,
+     "line": 30178,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5740:en-עמו-he-noun-eiVgOHRB`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29339,
+     "line": 30218,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:5766:en-ישימו-he-verb-SAFWmdvH`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29399,
+     "line": 30278,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6040:en-מבצע-he-verb-Ypz3XF72`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29419,
+     "line": 30298,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6147:en-צו-he-verb-DxQJHyCs`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29439,
+     "line": 30318,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6205:en-נשלח-he-verb-1P0AaEb7`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29449,
+     "line": 30328,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6241:en-שמך-he-verb-waYXFU5I`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29489,
+     "line": 30368,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6344:en-וישב-he-verb-D5x7m67A`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29519,
+     "line": 30398,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6347:en-בנות-he-noun-YwShl6Wl`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29549,
+     "line": 30428,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6380:en-משנה-he-verb-p8FV7TTL`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29559,
+     "line": 30438,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6381:en-משנה-he-verb-XMuDiQ1w`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29589,
+     "line": 30468,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6443:en-בתו-he-noun-mTUf289k`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29619,
+     "line": 30498,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6508:en-נפשות-he-noun-GOd7f2V2`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29629,
+     "line": 30508,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6539:en-אראה-he-verb-JB7rfasv`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29689,
+     "line": 30568,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6641:en-אביך-he-noun-p~DUE-t5`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29699,
+     "line": 30578,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6642:en-אביך-he-noun-7du3Q6xL`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     },
     {
-     "line": 29709,
+     "line": 30588,
      "heading": "### مراجعة عضوية: `kaikki_hebrew:6652:en-עמי-he-noun-D7-z1JyJ`، إحالة صرفية محكومة",
      "reason": "ambiguous-stale-heading"
     }

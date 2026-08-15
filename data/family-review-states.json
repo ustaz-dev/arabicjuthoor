@@ -4966,9 +4966,9 @@
     "schema_version": 1,
     "generated_by": "scripts/count_proof_eligible_families.py",
     "report_path": "data/proof-eligible-families.json",
-    "report_sha256": "78f9276ea4002a5cc7356cc63cf000a1a914fd7953ec70a28adb5ec92ebb4cdb",
+    "report_sha256": "0b6d34f7732fc4b1df0052ac0ce21283c9c4e441e580494eec5cb3e4df8de5d7",
     "summary": {
-      "eligible_family_total": 381,
+      "eligible_family_total": 380,
       "required_total": 600,
       "required_per_language": 150,
       "total_threshold_met": false,
@@ -4978,10 +4978,10 @@
     },
     "languages": {
       "aramaic": {
-        "eligible_family_count": 247,
-        "positive_family_count": 247,
+        "eligible_family_count": 246,
+        "positive_family_count": 246,
         "closure_only_family_count": 0,
-        "one_member_short_count": 82,
+        "one_member_short_count": 83,
         "eligible_family_ids": [
           "aramaic:family:0263fb19382f883fbc93197a",
           "aramaic:family:02fbb909d55d3228d3e2a1d1",
@@ -4990,7 +4990,6 @@
           "aramaic:family:053809b3d60302c0c9bfd21b",
           "aramaic:family:070253db4f41371635d35e24",
           "aramaic:family:073c4c6aa4d014622650aace",
-          "aramaic:family:08954549c4db68d24c16ec39",
           "aramaic:family:08c04ebf51a319b85bd79a2b",
           "aramaic:family:0973cfd715e4ab71a83a0160",
           "aramaic:family:0ca94f7a3b5a1120b654c9b9",
