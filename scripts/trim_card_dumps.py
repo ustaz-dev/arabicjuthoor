@@ -69,6 +69,10 @@ PROTECTED = re.compile(
 # ويُطرَحُ ما بعدَهما بسطرٍ واحدٍ يقولُ كم قُرِئَ وبأيِّ أمرٍ يُولَّد.
 QUOTES_PER_CARD = 2
 
+# عنوانُ الحقلِ حتّى النقطتَينِ، وهو ما يبقى دائمًا مهما طُرِحَ من نقلِه
+LABEL = re.compile(r"^[ \t]*[-*][ \t]*[^:：\r\n]{2,60}[:：]")
+STUB = " [قُرِئَ ولم يُنسَخ]\n"
+
 
 def trim_line(line: str, seen_in_card: int = 0) -> tuple[str, int]:
     head = line[:170]
@@ -82,17 +86,29 @@ def trim_line(line: str, seen_in_card: int = 0) -> tuple[str, int]:
         removed = len(line) - KEEP_QUOTE
         return (line[:KEEP_QUOTE].rstrip()
                 + f" … [طُرِحَ نقلٌ طولُه {removed:,} حرفًا]\n"), removed
-    return "", len(line)
+    # **ولا يُحذَفُ سطرُ حقلٍ أبدًا، بل يُقصَّرُ إلى عنوانِه.** حذفُ السطرِ
+    # الزائدِ أسقطَ حقولًا يشترطُ فاحصُ الاتّساقِ وجودَها بنصِّها («جسورُ
+    # الاسترداد المفحوصة» و«إشعاع الأسرة في العربية»)، فأخفقَ النشرُ في
+    # 12,104 موضعًا. والبطاقةُ بنيةٌ لها حقولٌ، فطرحُ النقلِ لا يعني طرحَ الحقل.
+    # وعنوانُ الحقلِ قد يطولُ فوقَ الستّين («إشعاع الأسرة في العربية (بعد
+    # الفحص…): …»)، فلا يُلتقَطُ، وكانَ السطرُ يُحذَفُ عندَها فتضيعُ سبعةُ
+    # حقولٍ مشروطة. **فلا حذفَ البتّة**: ما لم يُعرَفْ عنوانُه قُصَّ صدرُه.
+    label = LABEL.match(line)
+    keep = ((label.group(0).rstrip() if label else line[:90].rstrip()) + STUB)
+    return keep, max(len(line) - len(keep), 0)
 
 
 def census(path: pathlib.Path) -> dict:
     """جردُ ما لا يجوزُ أن ينقصَ حرفًا واحدًا بعدَ التقليم."""
-    c = {"cards": 0, "verdicts": 0, "orbits": 0, "sound": 0, "events": 0}
+    c = {"cards": 0, "verdicts": 0, "orbits": 0, "sound": 0, "events": 0,
+         # حقولٌ يشترطُ فاحصُ النشرِ وجودَها بنصِّها، فتُعَدُّ قبلَ الكتابةِ
+         # وبعدَها. ولو كانت معدودةً من أوّلِ يومٍ لما وقعَ إخفاقُ النشر.
+         "bridges": 0, "radiation": 0}
     for line in path.open(encoding="utf-8", errors="replace"):
         if line.startswith("### "):
             c["cards"] += 1
             continue
-        head = line[:40]
+        head = line[:60]
         if "الحكم" in head:
             c["verdicts"] += 1
         elif "المدار" in head:
@@ -101,6 +117,10 @@ def census(path: pathlib.Path) -> dict:
             c["sound"] += 1
         elif "الحدث" in head:
             c["events"] += 1
+        if "جسور الاسترداد المفحوصة" in head or "جسورُ الاسترداد المفحوصة" in head:
+            c["bridges"] += 1
+        elif "إشعاع الأسرة" in head:
+            c["radiation"] += 1
     return c
 
 
@@ -136,7 +156,9 @@ def main() -> int:
             if cut:
                 removed += cut
                 touched += 1
-                if new == "":
+                # السطرُ المقصورُ إلى عنوانِه يُعَدُّ مطروحًا لا مُستشهَدًا به،
+                # وإلّا ظنَّتِ الأداةُ أنّها اقتبسَت مئةَ شاهدٍ في بطاقةٍ واحدة.
+                if new == "" or new.endswith(STUB):
                     dropped += 1
                 else:
                     quoted += 1

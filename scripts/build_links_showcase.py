@@ -12,7 +12,9 @@
 يجمعُ الكلمةَ ومعناها ونظيرَها في سطرٍ واحدٍ نظيف: `بطاقة: seofon «seven»`، بينَما
 حقلُ «الكلمةُ في الفرع» يحملُ معه الرمزَ الصوتيَّ والقسمَ والمعرّفَ المركَّب.
 
-المخرَج: data/links-showcase.json يقرؤُه links.html
+المخرَجان: data/links-showcase.json يقرؤُه links.html (ثمانيةُ أمثلةٍ
+في اللسانِ للواجهة)، و**data/link-catalog.json** يقرؤُه catalog.html وفيه
+كلُّ حكمٍ صادرٍ بساقِه الثلاث، وهو عملُنا الذي يستحقُّ النشر.
 """
 from __future__ import annotations
 
@@ -29,6 +31,7 @@ import count_links as C  # noqa: E402
 
 READINGS = ROOT / "04-cross-linguistic" / "readings"
 OUT = ROOT / "data" / "links-showcase.json"
+CATALOG = ROOT / "data" / "link-catalog.json"
 
 ARABIC = re.compile(r"[ء-ي]")
 LATIN = re.compile(r"[A-Za-zĀ-ſǍ-ǰḀ-ỿ]")
@@ -38,6 +41,11 @@ RX_WORD = FIELD(r"(?:الكلمةُ? في الفرع|العضو)")
 RX_SENSE = FIELD(r"المعنى من قاموس الفرع")
 RX_ARABIC = FIELD(r"(?:المقابلُ? من اللسان|النظيرُ? العربيّ)")
 RX_SCAN = FIELD(r"مسح (?:المعاني )?العربي[ةه]")
+# الساقانِ الباقيتانِ من الثلاث: المسارُ المسمّى من الشبكةِ المغلقة، والمدارُ
+# الذي كتبَه قارئٌ بيدِه. وهما ما يجعلُ الصفَّ حجّةً لا مصادفةَ رسمٍ متشابه،
+# فلا يُعرَضُ صفٌّ في الكتالوجِ بلا موضعٍ لهما.
+RX_PATH = FIELD(r"مسارُ? الصوت")
+RX_ORBIT = FIELD(r"المدار(?:ُ المكتوب)?")
 
 # `بطاقة: seofon «seven»`  و  `بطاقة: κιέλλη «ضياء» ↔ كلل، WEEK-DAY1`
 RX_HEAD = re.compile(r"^[^:\n]{0,34}:\s*[`*]?(.+?)[`*]?\s*[«\"“]([^»\"”]{1,120})[»\"”]")
@@ -45,6 +53,10 @@ RX_HEAD = re.compile(r"^[^:\n]{0,34}:\s*[`*]?(.+?)[`*]?\s*[«\"“]([^»\"”]{1
 RX_HEAD_FAM = re.compile(r"^[^:\n]{0,34}:\s*`[a-z-]+:family:[0-9a-f]+`\s*،\s*([^،\n]{1,26})")
 # حقلُها: `أسرة `structural` مرساتها פשר، وفيها 2 عضو: פשר `pésher`، noun، «…»`
 RX_ANCHOR = re.compile(r"مرساتها\s+([^\s،؛]{1,26})")
+# `بطاقة: `אמין`، العضو `kaikki_aramaic:396:…`` : الكلمةُ في العنوانِ بين
+# علامتَينِ ومعناها في حقلٍ مستقلٍّ لا بجانبِها، فيفشلُ عنوانُ «كلمة «معنى»»
+# ولا حقلَ «الكلمة في الفرع» فيها. وهي أكثرُ ما سقطَ من الآراميّةِ والعبريّة.
+RX_HEAD_TICK = re.compile(r"^[^:\n]{0,34}:\s*`([^`\n]{1,26})`")
 RX_QUOTE_AR = re.compile(r"[«“]\s*([^»”]{10,190})\s*[»”]")
 RX_LEX = re.compile(
     r"(لسان العرب|تاج العروس|الصحاح|القاموس المحيط|مقاييس اللغة|كتاب العين|العين"
@@ -105,7 +117,18 @@ def fold(s: str) -> str:
 
 def split_word(raw: str) -> tuple[str, str]:
     """يفصلُ صورةَ الخطِّ عن نطقِها. `ⲗⲁⲥ las` -> (ⲗⲁⲥ, las)"""
-    raw = clean(raw).split("،")[0].split("؛")[0].split("/")[0].strip(" `*")
+    raw = clean(raw)
+    # حقلُ «العضو» يبدأُ بمعرّفِ اللقطةِ ثمّ فاصلةٍ منقوطةٍ ثمّ الكلمة، مثل
+    # `` `kaikki_hebrew:1849:en-אח-he-noun-rmX6gcfB`؛ אח، noun، «brother» ``.
+    # وكان المعرّفُ يُؤخَذُ كلمةً فيسقطُ الصفُّ لطولِه، و94 حكمًا عبريًّا سقطَت به.
+    raw = re.sub(r"^\s*`?[a-z_]+(?:_[a-z]+)*:[^`؛\n]{4,}`?\s*[؛;]\s*", "", raw)
+    # عرفُ المؤلّفِ أن يكتبَ صورةَ الفرعِ بين علامتَين، ويصفَها قبلَ ذلك بالعربيّة:
+    # `بطاقة: أسرة `קם / קום` qwm «قام ونهض»` و`بطاقة: جذر AED `fd` «[sweat]»`.
+    # فكانَ الوصفُ يُؤخَذُ صورةً فيظهرُ في الكتالوجِ «أسرة» و«جذر» مكانَ الكلمة.
+    tick = re.search(r"`([^`\n]{1,26})`", raw)
+    if tick and not re.fullmatch(r"[a-z-]+:[^`]*", tick.group(1)):
+        raw = tick.group(1)
+    raw = raw.split("،")[0].split("؛")[0].split("/")[0].strip(" `*")
     raw = re.sub(r"^\S*(?:ال)?(?:أكادي|آرامي|عبري|قبطي|يوناني|مصري)\S*\s+", "", raw)
     raw = re.sub(r"\s*\((?:[^)]*)\)\s*$", "", raw).strip(" `*")
     toks = [t.strip(" `*,") for t in raw.split() if t.strip(" `*,")]
@@ -114,7 +137,16 @@ def split_word(raw: str) -> tuple[str, str]:
     native = [t for t in toks if not LATIN.search(t) and not ARABIC.search(t)]
     latin = [t for t in toks if LATIN.search(t)]
     if native and latin:
-        return native[0], fold(latin[0])
+        # النطقُ يلي الصورةَ مباشرةً في كتابةِ المؤلّف: `ⲗⲁⲥ las`. وأخذُ أوّلِ
+        # كلمةٍ لاتينيّةٍ في الحقلِ كائنةً ما كانت جعلَ نطقَ `κεβλή` «Macedonian»،
+        # وهي اسمُ لهجةٍ لا نطقٌ للكلمة.
+        i = toks.index(native[0])
+        nxt = toks[i + 1] if i + 1 < len(toks) else ""
+        if nxt and LATIN.search(nxt) and not ARABIC.search(nxt):
+            return native[0], fold(nxt)
+        spoken = say(native[0])
+        return native[0], (fold(spoken.split("(")[0].strip())
+                           if spoken != native[0] else "")
     word = toks[0]
     if LATIN.search(word):                      # كلمةٌ مرقونةٌ أصلًا
         return word, (fold(word) if fold(word) != word else "")
@@ -128,6 +160,51 @@ def ok_root(root: str) -> bool:
     if not (2 <= len(letters) <= 8) or root in NOT_ROOT or letters in NOT_ROOT:
         return False
     return not (letters.startswith("ال") and len(letters) < 4)
+
+
+# الجانبُ العربيُّ من المسارِ المسمّى: `ʾ-ḫ-z ↔ ء-خ-ذ` و`t-w-r ↔ ṭ-w-r`.
+# وهو أوثقُ ما يُستَخرَجُ منه المقابلُ حينَ لا يُسمّى حقلٌ له، لأنّه تعريفُ
+# الصلةِ نفسِها لا استنتاجٌ عنها، وبه تُستَردُّ مئاتُ الأحكامِ التي كانت تسقطُ.
+RX_ARROW_AR = re.compile(r"[↔=]\s*`?\s*([ء-ي](?:[\-ـ\s][ء-ي]){1,3}|[ء-ي]{2,6})")
+
+# **المقابلُ يُؤخَذُ من حقلٍ معناه المقابل، لا من أوّلِ كلمةٍ عربيّةٍ في البطاقة.**
+# فحقلُ «عائق» و«ملاحظات» يحملانِ عربيّةً كثيرةً وليسَ فيهما نظيرٌ البتّة، ومن
+# أخذَ منهما نسبَ إلى البطاقةِ ما لم تقُلْه. وهذه الحقولُ مرتَّبةٌ بالأوثقِ أوّلًا،
+# وكلُّها مرصودةٌ في الملفّاتِ لا مفترضة: بطاقاتُ حملةِ فكِّ الحبسِ تكتبُ نظيرَها
+# في «تحقق المعنى في المصدرين»، وبطاقاتُ الاسترجاعِ في «المدخل العربي»، وبطاقاتُ
+# الطبقتَينِ تسمّي النواةَ في سطرِ حكمِها.
+# وملحقُ الحملةِ يكتبُ بنودَه مُزاحةً تحتَ بندٍ أعلى، فلا تبدأُ سطورُه بالشرطة.
+# وهذا وحدَه كان يُخفي «تحقق المعنى في المصدرين: `اليد`» عن الأداةِ في مئاتِ
+# البطاقات، فيسقطُ الحكمُ الصادرُ كأنّه بلا نظيرٍ عربيٍّ وهو مكتوبٌ فيه.
+SUBFIELD = lambda n: re.compile(r"^\s*-\s*" + n + r"[^\n]*?[:：]\s*(.+)$", re.M)
+
+RX_TICKED_AR = re.compile(r"[`«\"]\s*([ء-ي](?:[\-ـ\s][ء-ي]){1,3}|[ء-ي]{2,8})\s*[`»\"]")
+
+
+def ticked_root(field: str) -> str:
+    """المقابلُ محصورًا بعلامتَينِ **داخلَ** الحقل، لا في صدرِه وحدَه.
+
+    سطرُ الحكمِ يكتبُه المؤلّفُ هكذا: `ROOT-TRACE بالمادة `صور`` و`**ROOT-TRACE
+    (استكشاف)** بالمقابل `صور``. وكانَ يسقطُ لسببَين: `arabic_root` لا تقرأُ
+    إلّا صدرَ الحقلِ فتصطدمُ بـROOT-TRACE، و`clean` تقشِطُ العلامةَ من الطرفِ
+    فتُخفي المحصورَ عن بحثِها. وبهذا وحدَه سقطَ أكثرُ من ألفِ حكمٍ صادر.
+    """
+    for m in RX_TICKED_AR.finditer(str(field)):
+        root = re.sub(r"\s+", " ", m.group(1)).strip(" ـ")
+        if ok_root(root):
+            return root
+    return ""
+COUNTERPART = [
+    RX_ARABIC,
+    SUBFIELD(r"تحقق المعنى في المصدر(?:ين|ي)"),
+    SUBFIELD(r"المدخل العربي"),
+    SUBFIELD(r"المصدر العربي القديم (?:الأول|الثاني)"),
+    SUBFIELD(r"(?:الحسم|حكم طبقة النواة|حكم طبقة الجذر)"),
+    # وسطرُ الحكمِ نفسُه يسمّي المقابلَ في كثيرٍ من البطاقات:
+    # `**ROOT-TRACE (استكشاف)** بالمقابل `صور``. وهو آخرُ ما يُسأَلُ
+    # لأنّه أعمُّ الحقولِ لفظًا، لا لأنّه أضعفُها سندًا.
+    SUBFIELD(r"الحكم"),
+]
 
 
 def arabic_root(field: str, block: str) -> str:
@@ -175,10 +252,11 @@ def lexicon_quote(block: str) -> tuple[str, str]:
 SOURCEY = re.compile(r"السطر|اللقطة|المعرّ?ف|المصدر|kaikki|Kaikki|TLA|CAD|CD ", re.I)
 
 
-def branch_sense(head_gloss: str, field: str) -> str:
+def branch_sense(head_gloss: str, field: str, member: str = "") -> str:
     """معنى الكلمةِ كما في قاموسِ فرعِها. عنوانُ البطاقةِ أنظفُ من الحقلِ لأنّ
-    الحقلَ يحملُ معه اسمَ اللقطةِ ورقمَ السطرِ ومعرّفَ العضو."""
-    for raw in (head_gloss, field):
+    الحقلَ يحملُ معه اسمَ اللقطةِ ورقمَ السطرِ ومعرّفَ العضو. وحقلُ العضوِ آخرُ
+    ما يُسأَل، لأنّه يحملُ المعنى مع المعرّفِ فيحتاجُ قشرًا، لا لأنّه أضعفُ."""
+    for raw in (head_gloss, field, member):
         if not raw:
             continue
         # يُبحَثُ عن المحصورِ بين علامتَينِ **قبل** التنظيف، لأنّ التنظيفَ يقشِطُ
@@ -215,6 +293,10 @@ def iter_cards(path: pathlib.Path):
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     langs: dict[str, dict] = {}
+    catalog: list[dict] = []
+    # سببُ سقوطِ كلِّ حكمٍ صادرٍ لا يبلغُ الكتالوج، محسوبًا في مسارِ التنفيذِ
+    # نفسِه لا في نصٍّ مكرَّرٍ يجوزُ أن يختلفَ عنه.
+    drop: dict[str, int] = {"صورة": 0, "معنى": 0, "مقابل": 0, "صدر": 0}
 
     for path in sorted(READINGS.glob("*.md")):
         lang = path.stem
@@ -242,28 +324,69 @@ def main() -> int:
             field = mw.group(1) if mw else ""
             # ثلاثةُ أشكالٍ للعنوانِ في الملفّات، وأنظفُها أوّلًا
             anchor = RX_ANCHOR.search(field) or RX_HEAD_FAM.match(head)
-            raw_word = (anchor.group(1) if anchor
-                        else mh.group(1) if mh else field)
-            word, spoken = split_word(raw_word)
-            if not word or len(word) > 26:
+            tick = RX_HEAD_TICK.match(head)
+            # **يُجرَّبُ كلُّ مصدرٍ حتّى يصحَّ واحد، لا يُؤخَذُ الأوّلُ ويُترَكُ
+            # الباقي.** فعنوانٌ مثل `بطاقة: بلا رومنة منشورة «to be merciful»`
+            # لا صورةَ فيه أصلًا، وصورتُه في حقلِ الكلمة، وكان الصفُّ يُنشَرُ
+            # وكلمتُه «بلا». والخطُّ العربيُّ لا يُقبَلُ صورةً لفرعٍ غيرِ عربيِّ
+            # الخطِّ إلّا حيثُ تُصرِّحُ البطاقةُ أنّها نقلَته بحروفٍ عربيّة.
+            arabic_script_ok = "بحروف عربية" in block or "بحروف عربيّة" in block
+            word = spoken = ""
+            for cand in (anchor.group(1) if anchor else None,
+                         mh.group(1) if mh else None,
+                         tick.group(1) if tick else None,
+                         field):
+                if not cand:
+                    continue
+                w, sp = split_word(cand)
+                if not w or len(w) > 26 or ":" in w:
+                    continue
+                if ARABIC.search(w) and not arabic_script_ok:
+                    continue
+                word, spoken = w, sp
+                break
+            if not word:
+                drop["صورة"] += 1
                 continue
             if not spoken and not LATIN.search(word):
                 # نطقُ الأسرةِ مكتوبٌ بعدَ مرساتِها بين علامتَين
                 mt = re.search(re.escape(word) + r"\s*`([^`]{1,18})`", block)
                 if mt and LATIN.search(mt.group(1)):
                     spoken = fold(mt.group(1))
-            sense = branch_sense(mh.group(2) if mh else "", ms.group(1) if ms else "")
+            # بطاقاتُ الأسرةِ لا تُفرِدُ حقلًا للمعنى، بل تكتبُه في حقلِ العضوِ
+            # بين علامتَين: `לבושא `بلا رومنة`، noun، «clothing, garment»`.
+            # وكان 701 حكمًا آراميًّا وعبريًّا يسقطُ لأنّ الحقلَ لم يُسأَل.
+            sense = branch_sense(mh.group(2) if mh else "",
+                                 ms.group(1) if ms else "", field)
+            # **ولا يُشتَرَطُ معنى القاموسِ لبقاءِ الصفّ.** الصفُّ حجّةٌ بصورةِ
+            # الفرعِ ومقابلِها ومسارِ الصوتِ والمدار، وغيابُ سطرِ المعنى نقصُ
+            # عرضٍ لا نقضُ حكم، وكان يطرحُ 314 حكمًا صادرًا بلا سبب.
             if not sense:
-                continue
-            ma = RX_ARABIC.search(block)
-            root = arabic_root(ma.group(1) if ma else "", block)
+                drop["معنى"] += 1
+            root = ""
+            for rx in COUNTERPART:
+                m = rx.search(block)
+                if not m:
+                    continue
+                root = arabic_root(m.group(1), block) or ticked_root(m.group(1))
+                if root:
+                    break
             if not root:
+                mp0 = RX_PATH.search(block)
+                ar = RX_ARROW_AR.search(mp0.group(1)) if mp0 else None
+                if ar and ok_root(ar.group(1).strip()):
+                    root = re.sub(r"\s+", " ", ar.group(1)).strip()
+            if not root:
+                drop["مقابل"] += 1
                 continue
             quote, lex = lexicon_quote(block)
+            mp, mo = RX_PATH.search(block), RX_ORBIT.search(block)
             entry["pool"].append({
                 "word": word, "say": spoken, "sense": sense, "arabic": root,
                 "quote": quote, "lexicon": lex, "layer": layer,
                 "degree": sorted(degrees)[0],
+                "path": clean(mp.group(1))[:150] if mp else "",
+                "orbit": clean(mo.group(1))[:150] if mo else "",
                 "rank": (2 if quote and lex else 1 if quote else 0),
             })
 
@@ -290,8 +413,16 @@ def main() -> int:
         for x in picked:
             x.pop("rank", None)
         e["examples"] = picked
-        e.pop("pool", None)
+        # **البِركةُ كانت تُرمى وفيها العملُ كلُّه.** كان يُستخرَجُ كلُّ صفٍّ ثمّ
+        # يُحتفَظُ بثمانيةٍ في اللسانِ ويُطرَحُ الباقي، فكانَ الموقعُ يعرضُ عدًّا
+        # ومئةً وثلاثينَ مثالًا من 3,747 حكمًا صادرًا. وهي بطاقاتُنا نحن، لا نقلَ
+        # فيها عن معجمٍ منشور، فمكانُها الموقعُ لا القرصُ وحدَه.
+        catalog.extend(dict(x, lang=e["key"], ar=e["ar"], distance=e["distance"])
+                       for x in e.pop("pool", []))
     rows.sort(key=lambda e: (e["distance"], -e["total"]))
+    for x in catalog:
+        x.pop("rank", None)
+    catalog.sort(key=lambda x: (x["distance"], x["lang"], x["arabic"]))
 
     payload = {
         "generated_by": "scripts/build_links_showcase.py",
@@ -305,6 +436,31 @@ def main() -> int:
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    CATALOG.write_text(json.dumps({
+        "generated_by": "scripts/build_links_showcase.py",
+        "note": "طبقةُ استكشاف. كلُّ صفٍّ حكمٌ صادرٌ في بطاقةٍ من بطاقاتِنا، "
+                "لا نقلَ فيه عن معجمٍ منشور. والعدُّ القانونيُّ في "
+                "scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
+        "rows": len(catalog),
+        "languages": {e["key"]: {"ar": e["ar"], "en": e["en"],
+                                 "distance": e["distance"], "total": e["total"]}
+                      for e in rows},
+        "items": catalog,
+    }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    kept = len(catalog)
+    # وبطاقةُ «بلا معنى» تبقى في الكتالوج، فلا تُحسَبُ في الساقطِ وإلّا انتفخَ
+    # المقامُ وصارَ العرضُ أسوأَ ممّا هو، ورقمٌ خاطئٌ في غيرِ صالحِنا خطأٌ أيضًا.
+    lost = drop["صورة"] + drop["مقابل"]
+    print(f"الساقطُ عن الكتالوج: {lost:,} بطاقةً ذاتَ حكمٍ صادر  "
+          + " · ".join(f"بلا {k}={v:,}" for k, v in drop.items() if v))
+    print(f"البالغُ: {kept:,} من {kept + lost:,}  ({100 * kept / max(kept + lost, 1):.0f}%)")
+    with_path = sum(1 for x in catalog if x["path"])
+    with_orbit = sum(1 for x in catalog if x["orbit"])
+    print(f"الكتالوج: {len(catalog):,} صفًّا "
+          f"(مسارُ صوتٍ مكتوب {with_path:,} · مدارٌ مكتوب {with_orbit:,}) "
+          f"← {CATALOG.relative_to(ROOT).as_posix()} "
+          f"({CATALOG.stat().st_size/1048576:.1f} ميجا)\n")
     print(f"ألسنٌ فيها صلات: {len(rows)}")
     print(f"{'اللسان':22}{'جذر':>6}{'نواة':>6}{'حصّةُ النواة':>13}{'أمثلة':>7}{'بنصّ معجم':>11}")
     for e in rows:

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Juthoor · The card catalogue · كتالوجُ البطاقات</title>
+<meta name="description" content="Every issued link, searchable: the branch word with a readable pronunciation, its dictionary sense, the Arabic counterpart, the named sound path, and the orbit written by hand. Search by any of them." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://arabicjuthoor.com/catalog.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --bg: #fdfaf5; --bg-2: #f6f0e6; --bg-card: #ffffff;
+  --text: #1a2236; --text-2: #4a5266; --text-3: #5f6275;
+  --accent: #b8862f; --accent-strong: #8a5e1f; --accent-bg: #faf3df;
+  --border: #e4ddd0; --border-2: #cdc4b0;
+  --root: #2255a4; --root-bg: #e3edf9;
+  --nucleus: #8a5e1f; --nucleus-bg: #faf3df;
+  --shadow: 0 1px 3px rgba(26,34,54,.06), 0 1px 2px rgba(26,34,54,.04);
+}
+[data-theme="dark"] {
+  --bg: #14161d; --bg-2: #191c25; --bg-card: #1e212b;
+  --text: #eef0f6; --text-2: #c3c8d6; --text-3: #99a0b3;
+  --accent: #d4a73f; --accent-strong: #e0b95c; --accent-bg: #2a2418;
+  --border: #2c3040; --border-2: #3a3f52;
+  --root: #7aa9e8; --root-bg: #17263c;
+  --nucleus: #e0b95c; --nucleus-bg: #2f2814;
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height:1.65; -webkit-font-smoothing:antialiased; }
+html[data-lang="ar"] body { direction: rtl; font-family: Amiri, "Segoe UI", serif; }
+html[data-lang="ar"] .lang-en { display:none !important; }
+html[data-lang="en"] .lang-ar { display:none !important; }
+.ar-display { font-family: Amiri, serif; }
+
+nav.topbar { position:sticky; top:0; z-index:40;
+  background:rgba(253,250,245,.92); backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border); }
+[data-theme="dark"] nav.topbar { background:rgba(22,24,33,.92); }
+.nav-inner { max-width:1180px; margin:0 auto; padding:12px 20px;
+  display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+.nav-brand { font-weight:700; font-size:1.15rem; text-decoration:none; color:var(--text); }
+.accent { color:var(--accent); }
+.nav-links { display:flex; gap:14px; flex:1; flex-wrap:wrap; }
+.nav-links a { color:var(--text-2); text-decoration:none; font-size:.92rem; }
+.nav-links a:hover { color:var(--accent-strong); }
+.toggles { display:flex; gap:6px; }
+.toggles button { border:1px solid var(--border-2); background:var(--bg-card);
+  color:var(--text-2); border-radius:7px; padding:5px 10px; cursor:pointer; font-size:.82rem; }
+.toggles button.active { background:var(--accent-bg); color:var(--accent-strong);
+  border-color:var(--accent); }
+
+main { max-width:1180px; margin:0 auto; padding:34px 20px 80px; }
+h1 { font-size:2rem; line-height:1.25; margin:0 0 10px; }
+p.lede { color:var(--text-2); font-size:1.06rem; margin:0 0 6px; max-width:74ch; }
+.note { background:var(--bg-2); border:1px solid var(--border);
+  border-radius:10px; padding:12px 15px; font-size:.9rem; color:var(--text-2);
+  margin:16px 0; }
+
+/* لوحةُ البحثِ تلتصقُ بأعلى الشاشةِ لأنّ الجدولَ طويل */
+.controls { position:sticky; top:57px; z-index:30; background:var(--bg);
+  padding:14px 0 10px; border-bottom:1px solid var(--border); margin-bottom:6px; }
+.searchrow { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+#q { flex:1; min-width:240px; padding:11px 14px; font-size:1rem;
+  border:1px solid var(--border-2); border-radius:10px;
+  background:var(--bg-card); color:var(--text); font-family:inherit; }
+#q:focus { outline:none; border-color:var(--accent); }
+#count { font-size:.9rem; color:var(--text-3); white-space:nowrap; }
+.chips { display:flex; gap:6px; flex-wrap:wrap; margin-top:10px; }
+.chip { border:1px solid var(--border-2); background:var(--bg-card); color:var(--text-2);
+  border-radius:20px; padding:4px 11px; cursor:pointer; font-size:.82rem;
+  font-family:inherit; }
+.chip.on { background:var(--accent-bg); color:var(--accent-strong); border-color:var(--accent); }
+.chip .n { color:var(--text-3); font-size:.76rem; }
+
+.tbl-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-size:.92rem; }
+th, td { text-align:start; padding:9px 10px; border-bottom:1px solid var(--border);
+  vertical-align:top; }
+th { font-size:.78rem; color:var(--text-3); font-weight:600; white-space:nowrap;
+  position:sticky; top:0; background:var(--bg); }
+td.word { font-size:1.05rem; white-space:nowrap; }
+td.word small { display:block; color:var(--text-3); font-size:.78rem;
+  font-family:Inter, sans-serif; direction:ltr; }
+td.sense { color:var(--text-2); max-width:26ch; }
+td.ar { font-family:Amiri, serif; font-size:1.25rem; color:var(--accent-strong);
+  white-space:nowrap; }
+td.path, td.orbit { color:var(--text-3); font-size:.84rem; max-width:30ch; }
+td.orbit { font-family:Amiri, serif; font-size:.95rem; color:var(--text-2); }
+tr:hover td { background:var(--bg-2); }
+.tag { display:inline-block; font-size:.71rem; padding:2px 7px; border-radius:5px;
+  white-space:nowrap; }
+.tag.root { background:var(--root-bg); color:var(--root); }
+.tag.nucleus { background:var(--nucleus-bg); color:var(--nucleus); }
+mark { background:var(--accent-bg); color:var(--accent-strong); padding:0 1px; }
+#more { display:block; margin:20px auto; padding:10px 22px; cursor:pointer;
+  border:1px solid var(--border-2); background:var(--bg-card); color:var(--text-2);
+  border-radius:9px; font-size:.92rem; font-family:inherit; }
+#empty { padding:34px 4px; color:var(--text-3); }
+footer { border-top:1px solid var(--border); margin-top:50px; padding:22px 0;
+  color:var(--text-3); font-size:.86rem; }
+@media (max-width:760px) {
+  h1 { font-size:1.6rem; }
+  td.path, th.path { display:none; }
+}
+</style>
+</head>
+<body>
+<nav class="topbar" aria-label="Primary">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">
+      <span class="lang-en">Juthoor<span class="accent">.</span></span>
+      <span class="lang-ar ar-display">جُذُور<span class="accent">.</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html"><span class="lang-en">Home</span><span class="lang-ar">الرئيسة</span></a>
+      <a href="links.html"><span class="lang-en">Links</span><span class="lang-ar">الصِّلات</span></a>
+      <a href="catalog.html"><span class="lang-en">Catalogue</span><span class="lang-ar">الكتالوج</span></a>
+      <a href="discoveries.html"><span class="lang-en">Discoveries</span><span class="lang-ar">الاكتِشافات</span></a>
+      <a href="status.html"><span class="lang-en">Status</span><span class="lang-ar">حالةُ العمل</span></a>
+    </div>
+    <div class="toggles">
+      <button id="lang-en" class="active">EN</button>
+      <button id="lang-ar">عربي</button>
+      <button id="theme">◐</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1>
+    <span class="lang-en">The card catalogue: search every issued link</span>
+    <span class="lang-ar ar-display">كتالوجُ البطاقات: ابحثْ في كلِّ صلةٍ صدرَت</span>
+  </h1>
+  <p class="lede">
+    <span class="lang-en">One row per issued verdict, drawn straight from the cards: the word in its own
+      tongue with a pronunciation you can read aloud, the sense its own dictionary gives it, the Arabic
+      counterpart, the named sound path, and the orbit a reader wrote by hand. Search matches all of them
+      at once, in either script.</span>
+    <span class="lang-ar">صفٌّ لكلِّ حكمٍ صادر، مأخوذًا من البطاقاتِ مباشرة: الكلمةُ في لسانِها ونطقٌ
+      تقرؤُه بلسانِك، والمعنى الذي يعطيه قاموسُها هي، والمقابلُ العربيّ، ومسارُ الصوتِ المسمّى، والمدارُ
+      الذي كتبَه قارئٌ بيدِه. والبحثُ يمسُّها جميعًا معًا، بأيِّ خطٍّ كتبْت.</span>
+  </p>
+  <p class="note">
+    <span class="lang-en">Exploration layer. The published lexicons are not copied here: a card cites its
+      witness by name and quotes the line the orbit rests on, the way any researcher cites. Counts of the
+      whole population live on the <a href="links.html">links page</a>, whose figures come from
+      <code>scripts/count_links.py</code>, the single definition of a link.</span>
+    <span class="lang-ar">طبقةُ استكشاف. والمعاجمُ المنشورةُ ليست منسوخةً هنا: البطاقةُ تُحيلُ إلى شاهدِها
+      باسمِه وتنقلُ الجملةَ التي قامَ عليها المدار، كما يصنعُ كلُّ باحث. وعددُ السكّانِ كاملًا في
+      <a href="links.html">صفحةِ الصلات</a>، وأرقامُها من <code>scripts/count_links.py</code> وهو
+      التعريفُ الوحيدُ للصلة.</span>
+  </p>
+
+  <div class="controls">
+    <div class="searchrow">
+      <input id="q" type="search" autocomplete="off" spellcheck="false"
+             placeholder="ابحثْ بكلمةِ الفرعِ أو نطقِها أو معناها أو الجذرِ العربيِّ أو المدار…" />
+      <span id="count"></span>
+    </div>
+    <div class="chips" id="langchips"></div>
+    <div class="chips" id="layerchips"></div>
+  </div>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr>
+        <th><span class="lang-en">Tongue</span><span class="lang-ar">اللسان</span></th>
+        <th><span class="lang-en">Word</span><span class="lang-ar">الكلمة</span></th>
+        <th><span class="lang-en">Its own dictionary&#39;s sense</span><span class="lang-ar">معنى قاموسِها</span></th>
+        <th><span class="lang-en">Arabic</span><span class="lang-ar">العربيّ</span></th>
+        <th><span class="lang-en">Layer</span><span class="lang-ar">الطبقة</span></th>
+        <th class="path"><span class="lang-en">Sound path</span><span class="lang-ar">مسارُ الصوت</span></th>
+        <th><span class="lang-en">Orbit, written by hand</span><span class="lang-ar">المدارُ بخطِّ اليد</span></th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <div id="empty" hidden></div>
+  <button id="more" hidden></button>
+
+  <footer>
+    <span class="lang-en">Built from the reading cards by <code>scripts/build_links_showcase.py</code> on every
+      publish. A card records a decision and its citation; anything a tool can regenerate is not stored.</span>
+    <span class="lang-ar">يُبنى من بطاقاتِ القراءةِ بـ<code>scripts/build_links_showcase.py</code> عندَ كلِّ
+      نشر. والبطاقةُ تحفظُ القرارَ وإحالتَه، وما تُولِّدُه الأداةُ بأمرٍ لا يُخزَّن.</span>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var html = document.documentElement;
+  function setLang(l) {
+    html.setAttribute("data-lang", l);
+    html.setAttribute("lang", l === "ar" ? "ar" : "en");
+    html.setAttribute("dir", l === "ar" ? "rtl" : "ltr");
+    document.getElementById("lang-en").classList.toggle("active", l === "en");
+    document.getElementById("lang-ar").classList.toggle("active", l === "ar");
+    try { localStorage.setItem("juthoor-lang", l); } catch (e) {}
+    // أسماءُ الألسنِ في الرقاقاتِ تُبنى مرّةً، فكانت تبقى إنجليزيّةً بعدَ
+    // التحويلِ إلى العربيّة. فتُعادُ معها لا مع الجدولِ وحدَه.
+    if (window.__chips) window.__chips();
+    render();
+  }
+  document.getElementById("lang-en").onclick = function () { setLang("en"); };
+  document.getElementById("lang-ar").onclick = function () { setLang("ar"); };
+  document.getElementById("theme").onclick = function () {
+    var d = html.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    html.setAttribute("data-theme", d);
+    try { localStorage.setItem("juthoor-theme", d); } catch (e) {}
+  };
+  try {
+    var sl = localStorage.getItem("juthoor-lang");
+    var st = localStorage.getItem("juthoor-theme");
+    if (st) html.setAttribute("data-theme", st);
+    if (sl === "ar") setLang("ar");
+  } catch (e) {}
+
+  var ITEMS = [], LANGS = {}, shown = 0, PAGE = 150;
+  var q = document.getElementById("q"), rows = document.getElementById("rows");
+  var more = document.getElementById("more"), empty = document.getElementById("empty");
+  var pickedLang = "", pickedLayer = "";
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+  // العربيّةُ تُكتَبُ بالشكلِ وبغيرِه، فيُطبَّعُ الطرفانِ قبلَ المقارنةِ وإلّا
+  // فشلَ بحثُ «قَدَم» عن «قدم» بصمت، وهو أوّلُ ما يجرّبُه القارئ.
+  function fold(s) {
+    return String(s || "").toLowerCase()
+      .normalize("NFKD")
+      .replace(/[ً-ْـ]/g, "")
+      .replace(/[̀-ͯ]/g, "")
+      .replace(/[أإآٱ]/g, "ا").replace(/[ىي]/g, "ي").replace(/ة/g, "ه")
+      .replace(/[‘’'`ʿʾ]/g, "");
+  }
+
+  function num(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ","); }
+
+  function nameOf(k) {
+    var L = LANGS[k] || {};
+    return html.getAttribute("data-lang") === "ar" ? (L.ar || k) : (L.en || k);
+  }
+
+  function chips() {
+    var lc = document.getElementById("langchips");
+    var order = Object.keys(LANGS).sort(function (a, b) {
+      return (LANGS[a].distance - LANGS[b].distance) || (LANGS[b].n - LANGS[a].n);
+    });
+    lc.innerHTML = "";
+    order.forEach(function (k) {
+      var b = document.createElement("button");
+      b.className = "chip" + (pickedLang === k ? " on" : "");
+      b.innerHTML = esc(nameOf(k)) + ' <span class="n">' + (LANGS[k].n || 0) + "</span>";
+      b.onclick = function () { pickedLang = pickedLang === k ? "" : k; chips(); render(); };
+      lc.appendChild(b);
+    });
+    var yc = document.getElementById("layerchips"), ar = html.getAttribute("data-lang") === "ar";
+    yc.innerHTML = "";
+    [["root", ar ? "طبقةُ الجذرِ الثلاثيّ" : "Triliteral root layer"],
+     ["nucleus", ar ? "طبقةُ النواةِ الثنائيّة" : "Binary nucleus layer"]].forEach(function (p) {
+      var b = document.createElement("button");
+      b.className = "chip" + (pickedLayer === p[0] ? " on" : "");
+      b.textContent = p[1];
+      b.onclick = function () { pickedLayer = pickedLayer === p[0] ? "" : p[0]; chips(); render(); };
+      yc.appendChild(b);
+    });
+  }
+
+  function match(x, terms) {
+    if (pickedLang && x.lang !== pickedLang) return false;
+    if (pickedLayer && x.layer !== pickedLayer) return false;
+    for (var i = 0; i < terms.length; i++) if (x._h.indexOf(terms[i]) === -1) return false;
+    return true;
+  }
+
+  function score(x, terms) {
+    var s = 0;
+    for (var i = 0; i < terms.length; i++) {
+      var t = terms[i];
+      if (x._key === t) s += 6;
+      else if (x._key.indexOf(t) !== -1) s += 3;
+      if (fold(x.sense).indexOf(t) !== -1) s += 1;
+    }
+    return s;
+  }
+
+  function row(x) {
+    var tr = document.createElement("tr");
+    var say = x.say && x.say !== x.word ? "<small>" + esc(x.say) + "</small>" : "";
+    tr.innerHTML =
+      "<td>" + esc(nameOf(x.lang)) + "</td>" +
+      '<td class="word">' + esc(x.word) + say + "</td>" +
+      '<td class="sense">' + esc(x.sense) + "</td>" +
+      '<td class="ar">' + esc(x.arabic) + "</td>" +
+      '<td><span class="tag ' + x.layer + '">' + esc(x.degree) + "</span></td>" +
+      '<td class="path">' + esc(x.path) + "</td>" +
+      '<td class="orbit">' + esc(x.orbit) + "</td>";
+    return tr;
+  }
+
+  window.__chips = chips;
+
+  var filtered = [];
+  function render(append) {
+    var ar = html.getAttribute("data-lang") === "ar";
+    if (!append) {
+      var terms = fold(q.value).split(/\s+/).filter(Boolean);
+      filtered = ITEMS.filter(function (x) { return match(x, terms); });
+      // بحثُ «ملح» كان يُصدِّرُ صفًّا وقعَت فيه الكلمةُ داخلَ نصِّ المدار،
+      // والمقصودُ عندَ القارئِ المقابلُ أو الكلمةُ نفسُها. فيُقدَّمُ ما وقعَ
+      // المطلوبُ في عمودٍ من أعمدةِ الصلةِ لا في شرحِها.
+      if (terms.length) {
+        filtered = filtered.slice().sort(function (a, b) {
+          return score(b, terms) - score(a, terms);
+        });
+      }
+      rows.innerHTML = "";
+      shown = 0;
+    }
+    var frag = document.createDocumentFragment();
+    var end = Math.min(shown + PAGE, filtered.length);
+    for (var i = shown; i < end; i++) frag.appendChild(row(filtered[i]));
+    rows.appendChild(frag);
+    shown = end;
+
+    // الأرقامُ غربيّةٌ دائمًا حتّى في العربيّة، ولا فاصلةَ آلافٍ عربيّة:
+    // `toLocaleString("ar-EG")` كان يُدخِلُ الفاصلةَ `٬` فيخالفُ قاعدةَ المشروع.
+    document.getElementById("count").textContent = ar
+      ? num(filtered.length) + " صفًّا من " + num(ITEMS.length)
+      : num(filtered.length) + " of " + num(ITEMS.length) + " rows";
+    empty.hidden = filtered.length > 0;
+    empty.textContent = filtered.length ? "" : (ar
+      ? "لا صفَّ يطابقُ هذا البحث. جرِّبْ جذرًا عربيًّا مجرَّدًا، أو نطقًا بحروفٍ لاتينيّة."
+      : "No row matches. Try a bare Arabic root, or a romanised pronunciation.");
+    more.hidden = shown >= filtered.length;
+    more.textContent = ar
+      ? "المزيد (" + num(filtered.length - shown) + " صفًّا بقيَ)"
+      : "Show more (" + num(filtered.length - shown) + " left)";
+  }
+  window.render = render;
+
+  more.onclick = function () { render(true); };
+  var t;
+  q.oninput = function () { clearTimeout(t); t = setTimeout(function () { render(); }, 120); };
+
+  fetch("data/link-catalog.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      LANGS = d.languages || {};
+      ITEMS = (d.items || []).map(function (x) {
+        // فهرسُ بحثٍ واحدٌ لكلِّ صفٍّ يُحسَبُ مرّةً، فالتصفيةُ على ألفَي صفٍّ
+        // في كلِّ ضغطةِ مفتاحٍ يجبُ ألّا تُعيدَ التطبيعَ في كلِّ مرّة.
+        x._h = fold([x.word, x.say, x.sense, x.arabic, x.orbit, x.path,
+                     x.degree, (LANGS[x.lang] || {}).ar, (LANGS[x.lang] || {}).en
+                    ].join(" "));
+        x._key = fold([x.word, x.say, x.arabic].join(" "));
+        return x;
+      });
+      Object.keys(LANGS).forEach(function (k) {
+        LANGS[k].n = ITEMS.filter(function (x) { return x.lang === k; }).length;
+      });
+      Object.keys(LANGS).forEach(function (k) { if (!LANGS[k].n) delete LANGS[k]; });
+      chips();
+      render();
+    })
+    .catch(function () {
+      empty.hidden = false;
+      empty.textContent = "تعذّرَ تحميلُ الكتالوج.";
+    });
+})();
+</script>
+</body>
+</html>
