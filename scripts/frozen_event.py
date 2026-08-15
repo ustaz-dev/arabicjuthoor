@@ -114,39 +114,70 @@ def nucleus_of(candidate: str) -> str:
     return c[:2]
 
 
-def resolve(candidate: str) -> Ev | None:
-    """الحدثُ المجمَّدُ للمرشَّح، أو None إن لم يكنْ حرفًا واحدًا منه في المحاكم."""
+def all_tiers(candidate: str) -> list[Ev]:
+    """كلُّ الأحداثِ المتاحةِ للمرشَّح، بالدرجاتِ من الأعلى إلى الأدنى.
+
+    **العطبُ الذي تُنهيه هذه الدالّة، وقد أوقفَ مسارًا كاملًا (2026-08-15).**
+    كانت `resolve` شلّالًا يردُّ أعلى درجةٍ متاحةٍ **ويُخفي ما دونَها**، فظنَّ
+    الضابطُ أنّ بطاقةً صادرةً انقلبَ حكمُها وهي لم تنقلب:
+
+        `tinniō` «to ring, jingle» ↔ `طن`: بطاقتُها صادرةٌ FLOOR-TRACE،
+        ورِجلُ حدثِها قائمةٌ على **محكمتَي الحرفَينِ منفردَين** (ط «ضغطٌ باتّساعٍ
+        واستغلاظ» ون «امتدادٌ لطيفٌ في الباطن»)، ومدارُها «محاكاةُ الرنين».
+        وردَّتِ الأداةُ حدثَ النواةِ المسجَّلِ «التكتّلُ واللزوم» لأنّه أعلى
+        درجةً، وهو لا يمتُّ إلى الرنينِ بصلة. فبدا الحكمُ منقوضًا وليس كذلك.
+
+    **والدرجةُ الأعلى ليست الأصوبَ دائمًا.** المحاكاةُ الصوتيّةُ خاصّةً يقومُ
+    حدثُها على الحروفِ أنفسِها لا على قراءةِ نواةٍ مركَّبة. فالبطاقةُ تُعلِنُ
+    الدرجةَ التي تقومُ عليها، والأداةُ تعرضُ **ما توفَّرَ كلَّه** ولا تختارُ
+    عنها. والاختيارُ يُكتَبُ باليدِ في المدارِ كسائرِ الأرجل.
+    """
     c = nfc(candidate)
     if len(c) < 2:
-        return None
+        return []
     R, N, C = root_events(), nucleus_events(), courts()
+    out: list[Ev] = []
 
     if len(c) == 3 and c in R:
-        return Ev(R[c], "computational/data/layer_2_results_v2.jsonl", 1,
-                  "جذرٌ في الـ2,285", "")
+        out.append(Ev(R[c], "computational/data/layer_2_results_v2.jsonl", 1,
+                      "جذرٌ في الـ2,285", ""))
 
     if len(c) == 2 and c in N:
-        return Ev(N[c], "data/juthoor-core-levels.json", 2, "نواةٌ مسجَّلة", "")
+        out.append(Ev(N[c], "data/juthoor-core-levels.json", 2,
+                      "نواةٌ مسجَّلة", ""))
 
     nuc = nucleus_of(c)
     third = "".join(x for x in c if x not in nuc) or c[-1]
     if len(c) >= 3 and nuc in N and third[0] in C:
-        return Ev(
+        out.append(Ev(
             f"{N[nuc]}؛ والحرفُ الثالثُ «{third[0]}» حدثُه: {C[third[0]]}",
             "data/juthoor-core-levels.json + data/juthoor-canonical-registry.json",
             3, "نزولٌ إلى النواة",
-            f"الجذرُ «{c}» ليس في الـ2,285، فنُزِلَ إلى نواتِه «{nuc}» بنصِّ التعديل 2"
-            + ("، ونواتُه صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)"
-               if nucleus_of(c) != c[:2] else ""))
+            f"نواةُ «{c}» هي «{nuc}»"
+            + ("، وهي صامتاه القويّانِ لأنّه أجوفُ (التعديل 1)"
+               if nucleus_of(c) != c[:2] else "")))
 
     if all(x in C for x in c):
-        return Ev(
+        out.append(Ev(
             "؛ ".join(f"«{x}»: {C[x]}" for x in c),
             "data/juthoor-canonical-registry.json", 4, "محاكمُ الحروف",
-            f"لا الجذرُ «{c}» في الـ2,285 ولا نواتُه «{nuc}» في سجلِّ النوى، "
-            "فالحدثُ من محاكمِ حروفِه الثلاثِ كما هي، والتأليفُ يُكتَبُ باليدِ في المدار")
+            "حدثُ النطقِ لكلِّ حرفٍ كما في السجلِّ المجمَّد، والتأليفُ يُكتَبُ "
+            "باليدِ في المدار"))
 
-    return None
+    return out
+
+
+def resolve(candidate: str, tier: int | None = None) -> Ev | None:
+    """حدثٌ واحدٌ للمرشَّح: أعلى الدرجاتِ المتاحةِ، أو درجةٌ بعينِها إن طُلِبَت.
+
+    **ولا يُحكَمُ بغيابِ درجةٍ على البطاقة**: من أرادَ درجةً بعينِها فليطلبْها،
+    ومن أرادَ الجردَ كلَّه فـ`all_tiers`. والبطاقةُ التي تُعلِنُ درجتَها تُفحَصُ
+    بها هي، لا بأعلى ما وجدَته الأداة.
+    """
+    evs = all_tiers(candidate)
+    if tier is not None:
+        return next((e for e in evs if e.tier == tier), None)
+    return evs[0] if evs else None
 
 
 def coverage(candidates: list[str]) -> dict[str, int]:

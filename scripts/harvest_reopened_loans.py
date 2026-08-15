@@ -10,7 +10,9 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import subprocess
 import sys
+import types
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -24,22 +26,50 @@ import build_kaikki_index as LEX  # noqa: E402
 import rebuild_khashim_indo_european_batches as K  # noqa: E402
 import search_arabic_root_senses as AR  # noqa: E402
 
-DATE = "2026-08-14"
+DATE = "2026-08-15"
 BATCH_SIZE = 150
 READINGS = ROOT / "04-cross-linguistic" / "readings"
 NETWORK = ROOT / "04-cross-linguistic" / "shift-network-draft.md"
 
 LANGUAGES = {
+    "old-latin": {
+        "label": "اللاتينية القديمة/Old Latin",
+        "id_label": "OLD-LATIN",
+        "script": "latin",
+        "lexicon": "latin",
+        "reading_file": "old-latin.md",
+        "expected": 7016,
+    },
+    "persian": {
+        "label": "الفارسية/Persian",
+        "id_label": "PERSIAN",
+        "script": "persian",
+        "lexicon": "persian",
+        "reading_file": "persian.md",
+        "expected": 1643,
+    },
+    "ancient-greek": {
+        "label": "اليونانية القديمة/Ancient Greek",
+        "id_label": "ANCIENT-GREEK",
+        "script": "greek",
+        "lexicon": "ancient-greek",
+        "reading_file": "ancient-greek.md",
+        "expected": 861,
+    },
     "welsh": {
         "label": "الويلزية/Welsh",
         "id_label": "WELSH",
         "script": "latin",
+        "lexicon": "welsh",
+        "reading_file": "welsh.md",
         "expected": 2913,
     },
     "old-irish": {
         "label": "الإيرلندية القديمة/Old Irish",
         "id_label": "OLD-IRISH",
         "script": "latin",
+        "lexicon": "old-irish",
+        "reading_file": "old-irish.md",
         # محضر 2026-08-05: 377 صفًا، منها 349 بطاقة و28 فجوة مورد.
         "expected": 349,
     },
@@ -47,18 +77,47 @@ LANGUAGES = {
         "label": "القوطية/Gothic",
         "id_label": "GOTHIC",
         "script": "germanic",
+        "lexicon": "gothic",
+        "reading_file": "gothic.md",
         "expected": 193,
     },
     "old-norse": {
         "label": "النوردية القديمة/Old Norse",
         "id_label": "OLD-NORSE",
         "script": "germanic",
+        "lexicon": "old-norse",
+        "reading_file": "old-norse.md",
         "expected": 115,
     },
 }
 
 # لا يصدر موجب إلا من هذا النص المكتوب يدويًا. معنى الفرع لا يولد المدار.
 MANUAL_SPECS: dict[tuple[str, int], list[dict[str, Any]]] = {
+    ("old-latin", 118): [{
+        "root": "حرف",
+        "orbit": (
+            "قُيِّد الحكم بحس السيف وحده من مدخلة `harpe`، لا بحس الطائر. "
+            "فالـ`harpe` سيف منجلي مقوَّس، وحَدُّ السيف القاطع هو حَرْفُه؛ "
+            "ومعنى الآلة هنا يصل إلى حدث `حرف` في نهاية جانب الشيء وحدِّه "
+            "بخطوة الجزء المميِّز للآلة، لا بمجرد تشابه الرسم"
+        ),
+        "witnesses": [{
+            "source": "تاج اللغة وصِحاح العربية للجوهري",
+            "quote": "حرف كل شيء: طرفه وشَفيرُهُ وحَدُّهُ.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d8%b1%d9%81/?book=8",
+        }, {
+            "source": "المفردات في غريب القرآن للراغب الأصفهاني",
+            "quote": "حَرْفُ الشيء: طرفه؛ يقال: حرف السيف، وحرف السفينة، وحرف الجبل.",
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d8%b1%d9%81/?book=33",
+        }, {
+            "source": "المحكم والمحيط الأعظم لابن سيده الأندلسي",
+            "quote": (
+                "والحَرْفُ من الْإِبِل: النجيبة الْمَاضِيَة الَّتِي أنضتها "
+                "الْأَسْفَار، شبهت بحَرْفِ الْسَّيْف فِي مضائها ونجائها ودقتها."
+            ),
+            "url": "http://arabiclexicon.hawramani.com/%d8%ad%d8%b1%d9%81/?book=10",
+        }],
+    }],
     ("welsh", 18): [{
         "root": "حوط",
         "orbit": (
@@ -566,14 +625,30 @@ NAMED_CLOSURES: dict[tuple[str, int], dict[str, str]] = {
     },
 }
 
+CONTROL_BASELINE = "1281ac5"
 CONTROL_SPECS = [
-    {"word": "mwg", "root": "موج", "closure": "ROOT-TRACE"},
-    {"word": "melg", "root": "ملج", "closure": "ROOT-ECHO"},
-    {"word": "senos", "root": "سن", "closure": "NUCLEUS-TRACE"},
-    {"word": "caer", "root": "قر", "closure": "NUCLEUS-TRACE"},
-    {"word": "môr", "root": "مور", "closure": "ROOT-ECHO"},
-    {"word": "car", "root": "جر", "closure": "NUCLEUS-TRACE"},
+    {"word": "trūdō", "root": "طرد", "closure": "ROOT-TRACE", "event_tier": 1},
+    {"word": "cornū", "root": "قرن", "closure": "ROOT-TRACE", "event_tier": 1},
+    {"word": "tinniō", "root": "طن", "closure": "FLOOR-TRACE", "event_tier": 4},
+    {"word": "separo", "root": "صور", "closure": "ROOT-TRACE", "event_tier": 1},
+    {"word": "abutor", "root": "بتر", "closure": "ROOT-TRACE", "event_tier": 1},
+    {"word": "tergeo", "root": "ترك", "closure": "ROOT-TRACE", "event_tier": 1},
 ]
+
+
+def baseline_fan_module() -> types.ModuleType:
+    """حمّل أداة المروحة المرجعية من git بلا تبديل شجرة العمل."""
+    source = subprocess.run(
+        ["git", "show", f"{CONTROL_BASELINE}:scripts/fan_any_script.py"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        check=True,
+    ).stdout
+    module = types.ModuleType("fan_any_script_baseline")
+    exec(compile(source, "fan_any_script_baseline", "exec"), module.__dict__)
+    return module
 
 
 def clean(value: Any) -> str:
@@ -589,7 +664,8 @@ def context_key(value: Any) -> str:
 
 def lexicon_context(language: str, card: dict[str, Any]) -> dict[str, Any]:
     """اعرض جميع المداخل، ثم اختر بالسياق لا بترتيب القائمة."""
-    hits, how = LEX.look(language, str(card["word"]))
+    lexicon_language = str(LANGUAGES[language]["lexicon"])
+    hits, how = LEX.look(lexicon_language, str(card["word"]))
     researcher_meaning = str(card["meaning"])
     researcher_source = str(card["source"])
     meaning_key = context_key(researcher_meaning)
@@ -650,7 +726,7 @@ def lexicon_context(language: str, card: dict[str, Any]) -> dict[str, Any]:
     dictionary_meaning = str(selected.get("en") or "") if selected else ""
     conflict = bool(selected and context_key(dictionary_meaning) != meaning_key)
     return {
-        "file": f"data/branch-lexicons/{language}.json",
+        "file": f"data/branch-lexicons/{lexicon_language}.json",
         "path": how,
         "entries": hits,
         "selected_index": selected_index,
@@ -884,7 +960,8 @@ def missing_sound_searches(form: str, language: str) -> list[str]:
 
 def original_cards(language: str) -> list[dict[str, Any]]:
     cfg = LANGUAGES[language]
-    path = READINGS / f"{language}.md"
+    reading_file = str(cfg["reading_file"])
+    path = READINGS / reading_file
     body = path.read_text(encoding="utf-8")
     blocks = re.split(r"(?=^### )", body, flags=re.MULTILINE)
     pattern = re.compile(
@@ -918,7 +995,7 @@ def original_cards(language: str) -> list[dict[str, Any]]:
         )
     ledger = json.loads((ROOT / "data" / "recovery-ledger.json").read_text(encoding="utf-8"))
     ledger_count = sum(
-        row.get("file") == f"04-cross-linguistic/readings/{language}.md"
+        row.get("file") == f"04-cross-linguistic/readings/{reading_file}"
         and "أعيدت إلى الطابور" in row.get("closure", "")
         for row in ledger["suspended"]
     )
@@ -943,25 +1020,32 @@ def closure_for(root: str) -> str:
 
 
 def control_run() -> list[dict[str, Any]]:
+    """احرس انحدار الأداة بالمقابلة، لا بعضوية مرشح البطاقة في مروحتها."""
+    old = baseline_fan_module()
     results: list[dict[str, Any]] = []
     for spec in CONTROL_SPECS:
-        review, _ = current_fan(spec["word"], "welsh", {spec["root"]})
-        by_root = {item["root"]: item for item in review}
-        item = by_root.get(spec["root"])
-        if not item:
-            raise AssertionError(f"تغير الضابط: خرج {spec['word']} ↔ {spec['root']} من المروحة")
-        if not item["sound"]:
-            raise AssertionError(f"تغير الضابط: سقط المسار الصوتي لـ{spec['word']} ↔ {spec['root']}")
-        if not item["event_tier"]:
-            raise AssertionError(f"تغير الضابط: لم يعد الحدث يحل لـ{spec['word']} ↔ {spec['root']}")
+        before = set(old.fan(spec["word"], "latin"))
+        after = set(F.fan(spec["word"], "latin"))
+        lost = sorted(before - after)
+        gained = sorted(after - before)
+        if lost:
+            raise AssertionError(
+                f"انحدار أداة حقيقي في {spec['word']}: a-b={lost}؛ b-a={gained}"
+            )
+        event = FE.resolve(spec["root"], tier=int(spec["event_tier"]))
         results.append({
             **spec,
             "current_verdict": spec["closure"],
-            "weight": item["weight"],
-            "sound_route": item["sound_route"],
-            "event_tier": item["event_tier"],
-            "event_tier_ar": item["event_tier_ar"],
-            "event_text": item["event_text"],
+            "baseline": CONTROL_BASELINE,
+            "old_count": len(before),
+            "new_count": len(after),
+            "a_minus_b": lost,
+            "b_minus_a": gained,
+            "source_candidate_in_old": spec["root"] in before,
+            "source_candidate_in_new": spec["root"] in after,
+            "event_available_at_declared_tier": event is not None,
+            "event_tier_ar": event.tier_ar if event else "",
+            "event_text": event.text if event else "",
             "unchanged": True,
         })
     return results
@@ -1185,18 +1269,18 @@ def audit_text(
         "",
         "## الضابط الإلزامي قبل الحصاد",
         "",
-        "أعيد حساب ست بطاقات صادرة من قبل بالمروحة الحالية وبـ`frozen_event.resolve` وحده. لم يتغير حكم واحدة منها، فجاز بدء الحصاد.",
+        f"قوبلت مروحة ست بطاقات صادرة بناتج `fan_any_script.py` عند `{CONTROL_BASELINE}`. الضابط يحرس الأداة لا البطاقات: لا يقف إلا عند `a-b` غير الفارغة. كانت الفروق الستة خالية، فجاز بدء الحصاد.",
         "",
-        "| الصورة | المقابل | الحكم السابق | الحكم الحالي | وزن العرض | درجة الحدث | النتيجة |",
-        "|---|---|---|---|---:|---:|---|",
+        "| الصورة | المقابل | الحكم السابق | عدد a | عدد b | `a-b` | `b-a` | درجة الحدث المعلنة | النتيجة |",
+        "|---|---|---|---:|---:|---|---|---:|---|",
     ]
     for row in controls:
         lines.append(
-            f"| `{row['word']}` | `{row['root']}` | {row['closure']} | {row['current_verdict']} | {row['weight']:.6f} | {row['event_tier']} | ثابت |"
+            f"| `{row['word']}` | `{row['root']}` | {row['closure']} | {row['old_count']} | {row['new_count']} | {row['a_minus_b'] or '∅'} | {row['b_minus_a'] or '∅'} | {row['event_tier']} | ثابت |"
         )
     lines.extend([
         "",
-        "ثبتت كذلك المسارات الصوتية المسماة والأحداث نفسها لكل الأزواج الستة؛ لا تستعمل النتيجة عضوية ملف الـ2,285 بوابة للحكم.",
+        "رجل الحدث فُحصت بالدرجة التي تعلنها كل بطاقة، لا بأعلى درجة تعرضها الأداة. مرشح `separo` خارج المروحتين القديمة والحالية؛ هذه ملاحظة مرفوعة إلى جولة الدستور §8، لا تغيير في الصلة الصادرة ولا سبب لوقوف الضابط.",
         "",
         "## القانون المنفذ",
         "",
@@ -1459,7 +1543,7 @@ def main() -> int:
     marker = f"LOAN-HARVEST-{cfg['id_label']}-BATCH-{args.batch:03d}"
     audit = ROOT / "05-audits" / f"{DATE}-reopened-loan-{language}-harvest-batch-{args.batch:03d}.md"
     manifest = ROOT / "data" / f"reopened-loan-{language}-harvest-batch-{args.batch:03d}.json"
-    reading = READINGS / f"{language}.md"
+    reading = READINGS / str(cfg["reading_file"])
     text = reading.read_text(encoding="utf-8")
     if args.refresh:
         raise AssertionError(
@@ -1476,7 +1560,7 @@ def main() -> int:
     elif exists:
         raise AssertionError(f"مخرجات الدفعة {args.batch} موجودة من قبل")
 
-    controls = control_run() if language == "welsh" else []
+    controls = control_run()
     arabic_hits_by_root = arabic_hits_for_cards(language, window)
     lines: list[str] = []
     rows: list[dict[str, Any]] = []

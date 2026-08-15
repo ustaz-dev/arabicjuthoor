@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 53660,
+  "cards_total": 53810,
   "by_language": [
    {
     "key": "egyptian",
@@ -21,12 +21,12 @@
     "key": "old-latin",
     "en": "Old Latin",
     "ar": "اللاتينيّة القديمة",
-    "cards": 9654,
-    "links": 145,
-    "root": 110,
+    "cards": 9804,
+    "links": 146,
+    "root": 111,
     "nucleus": 34,
     "floor": 1,
-    "nucleus_share": 23.6
+    "nucleus_share": 23.4
    },
    {
     "key": "persian",
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 3649,
+  "links_to_arabic": 3650,
   "closures": 1014,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 1960,
+    "count": 1961,
     "link": true
    },
    {
@@ -262,16 +262,16 @@
  },
  "pipeline": {
   "cards_total": 44051,
-  "suspended": 33893,
-  "released": 10158,
+  "suspended": 33892,
+  "released": 10159,
   "blockers": [
    {
     "name": "UNLABELLED",
-    "count": 18526
+    "count": 18376
    },
    {
     "name": "OPEN-CANDIDATE",
-    "count": 14131
+    "count": 14280
    },
    {
     "name": "LAW-GAP",
@@ -309,7 +309,7 @@
    },
    {
     "file": "old-latin.md",
-    "count": 8981
+    "count": 8980
    },
    {
     "file": "coptic.md",
