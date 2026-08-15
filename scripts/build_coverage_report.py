@@ -29,6 +29,7 @@ from __future__ import annotations
 import argparse
 import json
 import pathlib
+import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -101,34 +102,111 @@ def population(lang: str) -> tuple[int | None, str]:
     return None, ""
 
 
+# **سؤالُ المؤلّفِ الذي فرضَ هذا الفصلَ (2026-08-16):** «26 من 6,810 في
+# اليونانيّةِ معناهُ منهجٌ خاطئ». والقياسُ كشفَ أنّ 6,810 كان يخلطُ المسجَّلَ
+# بالمقروء: 5,665 من حقولِ حكمِ اليونانيّةِ نصُّها «غيرُ صادر» أي جردٌ لم
+# يُقرَأْ بعدُ، و362 بطاقةً أُغلِقَت «مصدرٌ ساميٌّ مسمًّى» وهي وصلٌ إيجابيٌّ
+# لا يعدُّه السلَّم. فالنسبةُ الصادقةُ تُحسَبُ من المقروءِ حتّى قرار.
+OPEN_VALUE = re.compile(
+    r"غير صادر|OPEN-|TWO-LAYER-OPEN|مرشحون مرخصون|لا مرشح|لم يصدر|قيد "
+    r"|TOOL-GAP|LAW-GAP|MORPHOLOGY-GAP|SOURCE-GAP")
+SEMITIC_CLOSE = re.compile(r"SEMITIC-SOURCE")
+RANK = {"open": 0, "closed": 1, "semitic": 2, "linked": 3}
+
+
+def classify(values: list[str]) -> str:
+    """حالُ البطاقةِ من حقولِ حكمِها: سلَّمٌ، فمصدرٌ ساميٌّ، فمُغلَقٌ مسمًّى،
+    فمفتوح. والحقلُ الفارغُ أو المفتوحُ لا يجعلُ البطاقةَ مقروءة."""
+    named = semitic = False
+    for v in values:
+        if any(d in v for d in C.DEGREES):
+            return "linked"
+        if not v.strip(" *`.؛:") or OPEN_VALUE.search(v):
+            continue
+        named = True
+        if SEMITIC_CLOSE.search(v):
+            semitic = True
+    return "semitic" if semitic else "closed" if named else "open"
+
+
 def scan_readings() -> dict[str, dict]:
-    """المعالَجُ والمربوطُ بوحدةِ العدّادِ القانونيِّ نفسِها، في مرورٍ واحد."""
+    """يفصلُ المسجَّلَ عن المقروءِ حتّى قرار، بوحدةِ مفتاحِ العدّادِ القانونيّ.
+
+    المفتاحُ (أسرةٌ أو عضوٌ أو كلمةُ عنوانٍ، كما في `count_links.scan_path`)
+    يُصنَّفُ بأقوى حالٍ رُئيَت له في بطاقاتِه كلِّها، والبطاقاتُ بلا مفتاحٍ
+    تُعَدُّ أفرادًا."""
+    heading = re.compile(r"^#{3,4}\s+(.+)$")
     out: dict[str, dict] = {}
     for path in sorted(READINGS.glob("*.md")):
-        lang = path.stem
-        treated: set[str] = set()
-        linked: set[str] = set()
-        cards = verdict_cards = keyless = keyless_linked = 0
-        for head, degrees, key in C.scan_path(path):
-            if "<" in head:                     # قالبُ رأسِ الملفّ
-                continue
-            cards += 1
-            if degrees:
+        best: dict[str, int] = {}
+        keyless = {"open": 0, "closed": 0, "semitic": 0, "linked": 0}
+        cards = verdict_cards = 0
+        head: str | None = None
+        key: str | None = None
+        hw_key: str | None = None
+        values: list[str] = []
+
+        def close_card() -> None:
+            # كلمةُ العنوانِ احتياطٌ أخيرٌ كما في `scan_path` بالضبط: معرّفُ
+            # الأسرةِ أو العضوِ من المتنِ يتقدَّمُ عليها ولو جاءَ متأخّرًا،
+            # وإقفالُها مبكّرًا خفَّضَ عدَّ المصريّةِ 679 مفتاحًا عن العدّاد.
+            nonlocal verdict_cards
+            if head is None or "<" in head:
+                return
+            state = classify(values)
+            if state == "linked":
                 verdict_cards += 1
-            if key:
-                treated.add(key)
-                if degrees:
-                    linked.add(key)
+            k = key or hw_key
+            if k:
+                best[k] = max(best.get(k, 0), RANK[state])
             else:
-                keyless += 1
-                if degrees:
-                    keyless_linked += 1
-        out[lang] = {
+                keyless[state] += 1
+
+        for raw in path.open(encoding="utf-8", errors="replace"):
+            line = C.bare(raw.rstrip("\r\n"))
+            m = heading.match(line)
+            if m:
+                close_card()
+                head = m.group(1)
+                if "<" not in head:
+                    cards += 1
+                values = []
+                fam = C.FAMILY.search(head)
+                mem = C.MEMBER.search(head)
+                key = (fam.group(1).strip() if fam
+                       else mem.group(1).strip() if mem else None)
+                hw = C.HEADWORD.match(head)
+                hw_key = hw.group(1).strip() if hw else None
+                continue
+            if head is None:
+                continue
+            if key is None:
+                fam = C.FAMILY.search(line)
+                mem = C.MEMBER.search(line)
+                if fam:
+                    key = fam.group(1).strip()
+                elif mem:
+                    key = mem.group(1).strip()
+            v = C.VERDICT_FIELDS.match(line)
+            if v and not any(c in v.group(1) for c in C.CANCELLED):
+                values.append(v.group(1))
+        close_card()
+
+        counts = dict(keyless)
+        names = {r: n for n, r in RANK.items()}
+        for state_rank in best.values():
+            counts[names[state_rank]] += 1
+        concluded = counts["linked"] + counts["semitic"] + counts["closed"]
+        out[path.stem] = {
             "cards": cards,
             "verdict_cards": verdict_cards,
-            "treated_distinct": len(treated) + keyless,
-            "linked_distinct": len(linked) + keyless_linked,
-            "keyless": keyless,
+            "treated_distinct": sum(counts.values()),
+            "registered_open": counts["open"],
+            "concluded": concluded,
+            "linked_distinct": counts["linked"],
+            "semitic_source": counts["semitic"],
+            "closed_other": counts["closed"],
+            "keyless": sum(keyless.values()),
         }
     return out
 
@@ -194,7 +272,11 @@ def build() -> dict:
             "partial_index": lang in PARTIAL_INDEX,
             "cards": r["cards"],
             "treated_distinct": r["treated_distinct"],
+            "registered_open": r["registered_open"],
+            "concluded": r["concluded"],
             "linked_distinct": r["linked_distinct"],
+            "semitic_source": r["semitic_source"],
+            "closed_other": r["closed_other"],
             "verdict_cards": r["verdict_cards"],
             "sweep_both": board.get(lang, {}).get("both", 0),
             "sweep_sound_only": board.get(lang, {}).get("sound_only", 0),
@@ -207,14 +289,20 @@ def build() -> dict:
         "generated_by": "scripts/build_coverage_report.py",
         "layer": "استكشاف",
         "unit": "مفتاحُ البطاقةِ كما يعرّفُه count_links.scan_path؛ "
-                "المعالَجُ والمربوطُ بوحدةٍ واحدة",
+                "يُصنَّفُ بأقوى حالٍ رُئيَت له",
         "note": "السكّانُ أعدادُ فهارسِ الفروعِ الكاملةِ بأسماءِ مصادرِها. "
-                "الباقي = السكّانُ ناقصَ المعالَجِ المتمايز.",
+                "المسجَّلُ جردٌ لم يُقرَأْ بعدُ ولا يدخلُ في مقامِ نسبةِ الربط؛ "
+                "النسبةُ = المربوطُ من المقروءِ حتّى قرار. "
+                "الباقي = السكّانُ ناقصَ كلِّ ما مُسَّ (مسجَّلًا ومقروءًا).",
         "rows": rows,
         "totals": {
             "population": sum(x["population"] or 0 for x in rows),
             "treated_distinct": sum(x["treated_distinct"] for x in rows),
+            "registered_open": sum(x["registered_open"] for x in rows),
+            "concluded": sum(x["concluded"] for x in rows),
             "linked_distinct": sum(x["linked_distinct"] for x in rows),
+            "semitic_source": sum(x["semitic_source"] for x in rows),
+            "closed_other": sum(x["closed_other"] for x in rows),
             "sweep_both": sum(x["sweep_both"] for x in rows),
             "sweep_sound_only": sum(x["sweep_sound_only"] for x in rows),
             "sweep_cards_unjudged": sum(x["sweep_cards_unjudged"] for x in rows),
@@ -242,26 +330,30 @@ def main() -> int:
 
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1),
                    encoding="utf-8", newline="\n")
-    hdr = (f"{'اللسان':20}{'السكّان':>9}{'عولِج':>8}{'رُبِط':>7}"
-           f"{'نسبة':>6}{'مسح ص+م':>9}{'صوت فقط':>9}{'بلا حكم':>9}{'الباقي':>9}")
+    hdr = (f"{'اللسان':20}{'السكّان':>9}{'سُجِّل':>8}{'قُرِئ':>7}{'رُبِط':>7}"
+           f"{'ساميّ':>7}{'أُغلِق':>7}{'نسبة':>6}{'ص+م':>7}{'الباقي':>9}")
     print(hdr)
-    print("-" * 88)
+    print("-" * 96)
     for x in payload["rows"]:
         pop = f"{x['population']:,}" if x["population"] is not None else "-"
         rem = f"{x['remaining']:,}" if x["remaining"] is not None else "-"
-        rate = (f"{100 * x['linked_distinct'] / x['treated_distinct']:.0f}%"
-                if x["treated_distinct"] else "-")
+        rate = (f"{100 * x['linked_distinct'] / x['concluded']:.0f}%"
+                if x["concluded"] else "-")
         mark = "*" if x["partial_index"] else " "
-        print(f"{x['ar']:20}{pop:>9}{x['treated_distinct']:>8,}"
-              f"{x['linked_distinct']:>7,}{rate:>6}{x['sweep_both']:>9,}"
-              f"{x['sweep_sound_only']:>9,}{x['sweep_cards_unjudged']:>9,}"
-              f"{rem:>8}{mark}")
+        print(f"{x['ar']:20}{pop:>9}{x['registered_open']:>8,}"
+              f"{x['concluded']:>7,}{x['linked_distinct']:>7,}"
+              f"{x['semitic_source']:>7,}{x['closed_other']:>7,}{rate:>6}"
+              f"{x['sweep_both']:>7,}{rem:>8}{mark}")
     t = payload["totals"]
-    print("-" * 88)
-    print(f"{'الجملة':20}{t['population']:>9,}{t['treated_distinct']:>8,}"
-          f"{t['linked_distinct']:>7,}{'':>6}{t['sweep_both']:>9,}"
-          f"{t['sweep_sound_only']:>9,}{t['sweep_cards_unjudged']:>9,}")
-    print("\n* فهرسُ kaikki جزئيٌّ لهذا اللسانِ والمعالجةُ من مصادرَ أوسعَ منه "
+    print("-" * 96)
+    print(f"{'الجملة':20}{t['population']:>9,}{t['registered_open']:>8,}"
+          f"{t['concluded']:>7,}{t['linked_distinct']:>7,}"
+          f"{t['semitic_source']:>7,}{t['closed_other']:>7,}{'':>6}"
+          f"{t['sweep_both']:>7,}")
+    print("\nالنسبةُ = المربوطُ سلَّميًّا من المقروءِ حتّى قرار (لا من المسجَّل)."
+          "\nساميّ = أُغلِقَ «مصدرٌ ساميٌّ مسمًّى» وهو وصلٌ بالمجالِ الساميِّ خارجَ السلَّم."
+          "\nأُغلِقَ = إغلاقاتٌ مسمّاةٌ أخرى (قرضٌ من طرفٍ ثالث، خارجُ النطاق، إحالةُ صيغة…)."
+          "\n* فهرسُ kaikki جزئيٌّ لهذا اللسانِ والمعالجةُ من مصادرَ أوسعَ منه "
           "(CAD وخشيم)، فباقيه لا يُقرأُ من هذا العمود.")
     print(f"كُتب: {OUT.relative_to(ROOT).as_posix()}")
     return 0
