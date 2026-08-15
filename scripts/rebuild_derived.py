@@ -31,6 +31,7 @@ BUILD = [
     ("count_proof_eligible_families.py", []),
     ("build_recovery_loan_registry.py", []),
     ("build_coverage_summary.py", []),
+    ("build_coverage_report.py", []),      # تقريرُ التغطية: السكّانُ والمعالَجُ والمربوطُ والباقي
     ("build_lane_data_manifest.py", []),
     ("build_status_snapshot.py", []),
     ("build_lane_b_open_review_queue.py", []),
@@ -67,6 +68,7 @@ GATES = [
     ("build_en_ar_bridge.py", ["--check"]),
     ("build_discoveries.py", ["--check"]),
     ("build_tongue_board.py", ["--check"]),
+    ("build_coverage_report.py", ["--check"]),
     # حارسُ قاموسِ الإغلاق: لا يُغلَقُ مرشَّحٌ بقانونٍ لم يُقرِّرْه المؤلّف
     ("check_closure_vocabulary.py", ["--check"]),
 ]

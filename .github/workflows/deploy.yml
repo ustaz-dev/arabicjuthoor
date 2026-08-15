@@ -67,6 +67,9 @@ jobs:
       - name: Tongue board is current
         run: python scripts/build_tongue_board.py --check
 
+      - name: Coverage report is current
+        run: python scripts/build_coverage_report.py --check
+
       - name: Cooke independent-transcription freshness
         run: python scripts/compare_cooke_diplomatic_passes.py --check
 

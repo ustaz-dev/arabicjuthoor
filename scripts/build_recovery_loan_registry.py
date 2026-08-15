@@ -189,10 +189,21 @@ def main() -> int:
     json_text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
     md_text = render_markdown(payload)
     if args.check:
+        # ختمُ التاريخِ يُطرَحُ من المقارنةِ في الجهتَين: كان الفحصُ يقارنُ
+        # النصَّ بختمِه فيبورُ كلَّ منتصفِ ليلٍ والبطاقاتُ المودَعةُ هي هي،
+        # وتوقّفَ به النشرُ يومَ 2026-08-16 والفرقُ الوحيدُ `generated_on`.
+        # فالفحصُ يقارنُ الجوهرَ، والختمُ يسجّلُ آخرَ بناءٍ فعليٍّ لا غير.
+        def bare(text: str) -> str:
+            return "\n".join(
+                line for line in text.splitlines()
+                if not line.strip().startswith('"generated_on"')
+                and not line.startswith("التاريخ: ")
+            )
+
         stale = []
-        if not OUTPUT_JSON.exists() or OUTPUT_JSON.read_text(encoding="utf-8") != json_text:
+        if not OUTPUT_JSON.exists() or bare(OUTPUT_JSON.read_text(encoding="utf-8")) != bare(json_text):
             stale.append(str(OUTPUT_JSON.relative_to(ROOT)))
-        if not OUTPUT_MD.exists() or OUTPUT_MD.read_text(encoding="utf-8") != md_text:
+        if not OUTPUT_MD.exists() or bare(OUTPUT_MD.read_text(encoding="utf-8")) != bare(md_text):
             stale.append(str(OUTPUT_MD.relative_to(ROOT)))
         if stale:
             print("STALE: " + ", ".join(stale))
