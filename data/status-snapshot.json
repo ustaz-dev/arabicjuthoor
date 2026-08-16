@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 72885,
+  "cards_total": 73193,
   "by_language": [
    {
     "key": "old-latin",
@@ -43,12 +43,12 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 9222,
-    "links": 155,
-    "root": 145,
+    "cards": 9250,
+    "links": 158,
+    "root": 148,
     "nucleus": 10,
     "floor": 0,
-    "nucleus_share": 6.5
+    "nucleus_share": 6.3
    },
    {
     "key": "welsh",
@@ -65,23 +65,23 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 7000,
-    "links": 75,
-    "root": 66,
+    "cards": 7080,
+    "links": 89,
+    "root": 80,
     "nucleus": 9,
     "floor": 0,
-    "nucleus_share": 12.0
+    "nucleus_share": 10.1
    },
    {
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 2780,
-    "links": 1188,
-    "root": 856,
+    "cards": 2880,
+    "links": 1262,
+    "root": 930,
     "nucleus": 332,
     "floor": 0,
-    "nucleus_share": 27.9
+    "nucleus_share": 26.3
    },
    {
     "key": "middle-english",
@@ -109,12 +109,12 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 1649,
-    "links": 123,
-    "root": 75,
-    "nucleus": 47,
+    "cards": 1749,
+    "links": 135,
+    "root": 79,
+    "nucleus": 55,
     "floor": 1,
-    "nucleus_share": 38.5
+    "nucleus_share": 41.0
    },
    {
     "key": "aramaic",
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4081,
-  "closures": 1296,
+  "links_to_arabic": 4184,
+  "closures": 1384,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2344,
+    "count": 2435,
     "link": true
    },
    {
@@ -204,19 +204,19 @@
     "link": false
    },
    {
+    "name": "NO-TRACE",
+    "count": 431,
+    "link": false
+   },
+   {
     "name": "ROOT-ECHO",
-    "count": 384,
+    "count": 388,
     "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 348,
+    "count": 356,
     "link": true
-   },
-   {
-    "name": "NO-TRACE",
-    "count": 343,
-    "link": false
    },
    {
     "name": "INTRA-HOUSE-TRANSFER",
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 48973,
-  "suspended": 38257,
-  "released": 10716,
+  "cards_total": 49153,
+  "suspended": 38320,
+  "released": 10833,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
@@ -271,11 +271,11 @@
    },
    {
     "name": "UNLABELLED",
-    "count": 17640
+    "count": 17699
    },
    {
     "name": "LAW-GAP",
-    "count": 549
+    "count": 553
    },
    {
     "name": "SOURCE-GAP",
@@ -317,7 +317,7 @@
    },
    {
     "file": "ancient-greek.md",
-    "count": 5936
+    "count": 5999
    },
    {
     "file": "coptic.md",
