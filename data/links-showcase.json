@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 2875,
-  "nucleus": 1356,
+  "root": 2902,
+  "nucleus": 1367,
   "languages": 16
  },
  "languages": [
@@ -12,7 +12,7 @@
    "ar": "العبريّة",
    "en": "Hebrew",
    "distance": 1,
-   "root": 961,
+   "root": 983,
    "nucleus": 332,
    "floor": 0,
    "examples": [
@@ -113,8 +113,8 @@
      "orbit": "غير صادر؛ لا جسر دلالي ولا مدار محكوم قبل مسح المروحة وفصل المرحلة"
     }
    ],
-   "total": 1293,
-   "nucleus_share": 25.7
+   "total": 1315,
+   "nucleus_share": 25.2
   },
   {
    "key": "aramaic",
@@ -771,6 +771,43 @@
    "nucleus_share": 76.6
   },
   {
+   "key": "persian",
+   "ar": "الفارسيّة",
+   "en": "Persian",
+   "distance": 3,
+   "root": 156,
+   "nucleus": 10,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "parêš",
+     "say": "paresh",
+     "sense": "مبعثر/متناثر",
+     "arabic": "فرش",
+     "quote": "انبساط وانتشار للشيء مع رقة - أو ليونة - فيه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE",
+     "path": "p-r-š → f-r-š`؛ `BR-IRAN-02` (p→f قبل صامت)، وشرطه متحقق لأن `p` في `*parš` قبل `r`؛ بقية الصوامت مرساة",
+     "orbit": "مباشر"
+    },
+    {
+     "word": "astar",
+     "say": "",
+     "sense": "بطانة",
+     "arabic": "ستر",
+     "quote": "الستر معروف: ما ستر به",
+     "lexicon": "لسان العرب",
+     "layer": "root",
+     "degree": "ROOT-TRACE",
+     "path": "s-t-r → س-ت-ر`، هوية صامتية؛ لا صف",
+     "orbit": "مباشر؛ البطانة مما يغطى به باطن الثوب أو الوعاء"
+    }
+   ],
+   "total": 166,
+   "nucleus_share": 6.0
+  },
+  {
    "key": "old-latin",
    "ar": "اللاتينيّة القديمة",
    "en": "Old Latin",
@@ -880,48 +917,11 @@
    "nucleus_share": 23.0
   },
   {
-   "key": "persian",
-   "ar": "الفارسيّة",
-   "en": "Persian",
-   "distance": 3,
-   "root": 155,
-   "nucleus": 10,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "parêš",
-     "say": "paresh",
-     "sense": "مبعثر/متناثر",
-     "arabic": "فرش",
-     "quote": "انبساط وانتشار للشيء مع رقة - أو ليونة - فيه",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE",
-     "path": "p-r-š → f-r-š`؛ `BR-IRAN-02` (p→f قبل صامت)، وشرطه متحقق لأن `p` في `*parš` قبل `r`؛ بقية الصوامت مرساة",
-     "orbit": "مباشر"
-    },
-    {
-     "word": "astar",
-     "say": "",
-     "sense": "بطانة",
-     "arabic": "ستر",
-     "quote": "الستر معروف: ما ستر به",
-     "lexicon": "لسان العرب",
-     "layer": "root",
-     "degree": "ROOT-TRACE",
-     "path": "s-t-r → س-ت-ر`، هوية صامتية؛ لا صف",
-     "orbit": "مباشر؛ البطانة مما يغطى به باطن الثوب أو الوعاء"
-    }
-   ],
-   "total": 165,
-   "nucleus_share": 6.1
-  },
-  {
    "key": "ancient-greek",
    "ar": "اليونانيّة القديمة",
    "en": "Ancient Greek",
    "distance": 3,
-   "root": 87,
+   "root": 90,
    "nucleus": 9,
    "floor": 0,
    "examples": [
@@ -1022,16 +1022,16 @@
      "orbit": "مباشر في `battle, fight` بإزاء المعاركة والقتال؛ ولا تستعمل دلالة الدلك وحدها"
     }
    ],
-   "total": 96,
-   "nucleus_share": 9.4
+   "total": 99,
+   "nucleus_share": 9.1
   },
   {
    "key": "old-english",
    "ar": "الإنجليزيّة القديمة",
    "en": "Old English",
    "distance": 4,
-   "root": 86,
-   "nucleus": 55,
+   "root": 87,
+   "nucleus": 66,
    "floor": 1,
    "examples": [
     {
@@ -1131,8 +1131,8 @@
      "orbit": "مباشر: rest/calm ↔ راحة"
     }
    ],
-   "total": 141,
-   "nucleus_share": 39.0
+   "total": 153,
+   "nucleus_share": 43.1
   },
   {
    "key": "middle-english",
