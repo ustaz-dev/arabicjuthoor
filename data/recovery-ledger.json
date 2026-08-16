@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 48501,
+ "cards_total": 48613,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -87317,6 +87317,42 @@
    ],
    "blocker_type": "",
    "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`νάφθα` /nắphthă/ «نفط سائل طبيعي»؛ LANE-A-PROBE-003",
+   "verdict": "",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفا مجمدا مسمى يرخص `θ ↔ ط` أو تصحيح المروحة بحذف المرشح غير المرخص.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`σήκωμα` /sḗkōmă/ «ثقل موازن أو معيار»؛ LANE-A-PROBE-004",
+   "verdict": "",
+   "closure": "OPEN-CANDIDATE.",
+   "gaps": [
+    "OPEN-CANDIDATE"
+   ],
+   "blocker_type": "MEANING-GAP",
+   "required": "مدارا محدودا مسندا يجمع معنى الفرع بمعنى عربي مقروء.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/ancient-greek.md",
+   "card": "`σημύδα` /sēmúda/ «اسم شجرة غير محقق»؛ LANE-A-PROBE-005",
+   "verdict": "",
+   "closure": "SOURCE-GAP.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "SOURCE-GAP",
+   "required": "مدخلة فرع تحسم معنى `σημύδα` بشاهد نباتي مسمى.",
    "row_mentions": []
   },
   {
