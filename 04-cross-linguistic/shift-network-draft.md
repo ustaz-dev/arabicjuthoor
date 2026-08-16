@@ -2,7 +2,7 @@
 
 > **مُجمَّدةٌ v1.0 بمصادقةِ المؤلّف، 2026-07-06، بوسومِ قراراتِه النافذة (سند استعاريّ، رفيع). أيُّ تعديلٍ بعدَ اليومِ تعديلٌ دستوريٌّ مؤرَّخٌ معلَّل / FROZEN v1.0 by author sign-off, 2026-07-06, with the ruling tags in force; any later change is a dated constitutional amendment.**
 
-**الحالة / Status:** مُجمَّدة v1.0 بمصادقة المؤلّف، 2026-07-06 (41 قيدًا)، ومعها إضافةٌ مؤرَّخةٌ موقَّعة في 2026-07-13، وإضافتانِ مؤرَّختانِ بتفويضِ المؤلّفِ في 2026-07-17، وإضافتانِ مؤرَّختانِ بتوقيعِه في 2026-07-20، وإضافةٌ مؤرَّخةٌ بقرارٍ مفوَّضٍ في 2026-07-22؛ وإضافةٌ مؤرَّخةٌ بأمرِ المؤلّفِ في 2026-08-05 أدخلَت 24 صفَّ هويّة؛ وإضافةٌ مؤرَّخةٌ بقرارٍ مفوَّضٍ في 2026-08-06 أدخلَت 5 صفوفٍ ساميّةٍ للحلقيّاتِ والمطبقات؛ الشبكةُ التشغيليّةُ الآن 76 قيدًا. Frozen v1.0 by author sign-off, 2026-07-06 (41 entries), plus one signed dated amendment on 2026-07-13, two author-delegated dated amendments on 2026-07-17, two author-signed dated amendments on 2026-07-20, and one delegated dated amendment on 2026-07-22; and one author-ordered dated amendment on 2026-08-05 adding 24 identity rows; and one delegated dated amendment on 2026-08-06 adding 5 Semitic rows for the pharyngeals and emphatics; the operative network now has 76 entries.
+**الحالة / Status:** مُجمَّدة v1.0 بمصادقة المؤلّف، 2026-07-06 (41 قيدًا)، ومعها إضافةٌ مؤرَّخةٌ موقَّعة في 2026-07-13، وإضافتانِ مؤرَّختانِ بتفويضِ المؤلّفِ في 2026-07-17، وإضافتانِ مؤرَّختانِ بتوقيعِه في 2026-07-20، وإضافةٌ مؤرَّخةٌ بقرارٍ مفوَّضٍ في 2026-07-22؛ وإضافةٌ مؤرَّخةٌ بأمرِ المؤلّفِ في 2026-08-05 أدخلَت 24 صفَّ هويّة؛ وإضافةٌ مؤرَّخةٌ بقرارٍ مفوَّضٍ في 2026-08-06 أدخلَت 5 صفوفٍ ساميّةٍ للحلقيّاتِ والمطبقات؛ الشبكةُ التشغيليّةُ الآن 81 قيدًا (منها خمسةٌ بملحقِ 2026-08-17 المأذون). Frozen v1.0 by author sign-off, 2026-07-06 (41 entries), plus one signed dated amendment on 2026-07-13, two author-delegated dated amendments on 2026-07-17, two author-signed dated amendments on 2026-07-20, and one delegated dated amendment on 2026-07-22; and one author-ordered dated amendment on 2026-08-05 adding 24 identity rows; and one delegated dated amendment on 2026-08-06 adding 5 Semitic rows for the pharyngeals and emphatics; the operative network now has 81 entries, five of them by the author-authorized 2026-08-17 Greek annex.
 **السند الدستوريّ / Constitutional basis:** الرِّجلُ الأولى من دستورِ التفكيكِ العميق ([`../02-architecture/deep-decomposition-method.md`](../02-architecture/deep-decomposition-method.md), القسم 4): تُبنى الشبكةُ مرّةً واحدةً، كلُّ قيدٍ فيها بمثالٍ موثَّقٍ حقيقيٍّ ومصدرٍ مُسمًّى، ثمّ تُجمَّد. ممنوعٌ اختراعُ إبدالٍ لزوجٍ واحد.
 **المصادر الداخليّة / Repo sources:** [`regular-correspondences.md`](regular-correspondences.md) (الجداول الساميّة), [`tafsir-coran-tier-a-cognates.md`](tafsir-coran-tier-a-cognates.md) (قوانين خشيم التسعة والقانون العاشر).
 **قاعدة صارمة / Hard rule:** لا صفَّ بلا زوجِ مثالٍ حقيقيٍّ موثَّق. كلُّ ما لم نجد له مثالًا حقيقيًّا أُسقِط وذُكِر في قسمِ النواقص آخرَ الملفّ. No row without a real attested example pair; anything undocumented was omitted and is listed honestly in the gaps section.
@@ -235,3 +235,34 @@
 **والنقضُ بكلمةٍ من المؤلّف**، وتُعلَّقُ كلُّ بطاقةٍ بُنِيَت عليها.
 
 *English abstract (section 10):* The network was audited row by row with one question, which branches does each row actually name, and the answer showed it had been built from the striking Arabic-to-Hebrew shifts and had never walked the Proto-Semitic consonant inventory branch by branch. Five Arabic consonants were left with no Semitic row at all, the emphatic lateral and the four pharyngeals and velars, and the only row touching them, GUT-04, governs their loss in non-Semitic branches rather than their correspondence inside Semitic. Each new row rests on a single word carrying one meaning across three branches, drawn from our own corpora: earth as Arabic ard against Hebrew erets against Aramaic arʿa, evening and raven for the voiced velar, eye for the voiced pharyngeal, wise for the voiceless pharyngeal, five for the voiceless velar. The heaviest is the emphatic lateral, whose Aramaic reflex is ayin, which is far enough from expectation that anyone unaware of it will reject a sound link. A standing caution accompanies the rows: Hebrew and Aramaic ayin merges two Proto-Semitic sounds and het merges two more, so reading from Arabic northward is safe because Arabic keeps them apart, while reading northward to Arabic yields two candidates that must both be named rather than one chosen to fit the sense.
+
+## ملحقُ 2026-08-17: خمسةُ صفوفٍ يونانيّةٍ بإذنِ المؤلّف (BR-GREC-02 إلى BR-GREC-06)
+
+دخلَت بكلمةِ المؤلّفِ («ok 1, 2 and 3»، 2026-08-17) منفَّذةً بقاعدةِ التفويضِ
+المدوَّنة، وتعليلُها وحدُّ دخولِها (ثلاثةُ شواهدَ مستقلّةٍ فأكثر) في
+`05-audits/2026-08-17-author-ok-123-rulings.md`. وشواهدُها من مداراتٍ مكتوبةٍ
+بخطِّ قارئٍ في بطاقاتِ جولاتِ 2026-08-16، مجموعةً في
+`proposed-shift-rows-greek.md`.
+
+| الصف | النقلة | النطاق | التغيُّر | الشواهد | المصدر | الوصف |
+|---|---|---|---|---|---|---|
+| BR-GREC-02 | ط ↔ θ | اليونانيّة القديمة، كلُّ فرعٍ بخطِّه | إطباقُ الطاءِ يقابلُ الثيتا المهموسةَ المنفوخة | νάφθα ↔ نفط (وأختُها الفارسيّة نفت عبرَ DENT-05)؛ αἴθαλος ↔ طلس؛ βαθύνω ↔ بطن | بطاقاتُ جولاتِ 2026-08-16 في `readings/ancient-greek.md` | ثلاثةُ مداراتٍ مستقلّةٌ مكتوبة، وسلسلةُ نفط الساميّة-الإيرانيّة موثّقةٌ من الجانبَين |
+| BR-GREC-03 | ت ↔ θ | اليونانيّة القديمة | أسنانيّةُ التاءِ تقابلُ الثيتا | θηριακή ↔ ترياق؛ θυρεός ↔ ترس؛ ἐπιλήθω ↔ فلت؛ φθορά ↔ بتر | المصدرُ نفسُه | أربعةُ شواهدَ، وأوّلُها كلمةُ ترحالٍ تاريخيّةٌ معروفةُ الطريق تشهدُ للنقلةِ الصوتيّةِ ذاتِها |
+| BR-GREC-04 | د ↔ τ | اليونانيّة القديمة | جهرُ الدالِ يقابلُ التاءَ اليونانيّةَ المهموسة | πολιτεία ↔ بلد؛ τριβή ↔ درب؛ κατερύω ↔ كدر | المصدرُ نفسُه | يوازي IDN-11 (ت ↔ τ) وDENT-05 (ط ↔ τ) فتكتملُ أسنانيّاتُ التاءِ الثلاث |
+| BR-GREC-05 | ق ↔ γ | اليونانيّة القديمة | القافُ اللهويّةُ تقابلُ الغامّا المجهورة | γόμος ↔ قمش؛ ἀμέργω ↔ مرق؛ γυρός ↔ قرص | المصدرُ نفسُه | يوازي IDN-08 (ج ↔ γ) وGUT-04 (غ ↔ γ) فتكتملُ حلقيّاتُ الغامّا |
+| BR-GREC-06 | ف ↔ π | اليونانيّة القديمة | الفاءُ المهموسةُ تقابلُ الباءَ اليونانيّةَ المهموسة | πρᾷος ↔ فرش؛ πληγή ↔ فلغ؛ ἐπιλήθω ↔ فلت | المصدرُ نفسُه | يوازي LAB-01 (ب ↔ π)، والنقلةُ نظيرُ غريم p→f المرصودةُ جرمانيًّا في BR-GRIM-01 |
+
+**وأربعُ نقلاتٍ بشاهدٍ واحدٍ لم تدخلْ** (χ↔ك، θ↔ث، ψ↔ب، ξ↔ك): تبقى في
+المسوّدةِ تجمعُ شواهدَها، وبطاقاتُها LAW-GAP كما هي.
+
+**وحدُّ هذه الصفوفِ كسوابقِها:** تُرخِّصُ الصوتَ ولا تُرخِّصُ الصلة.
+**والنقضُ بكلمةٍ من المؤلّف**، وتُعلَّقُ كلُّ بطاقةٍ بُنِيَت عليها.
+
+*English abstract (2026-08-17 annex):* Five Greek rows entered the network by
+the author's word, executed under the recorded delegation rule with a stated
+entry bar of three independent witnesses per transition: theta against emphatic
+ṭāʾ and against tāʾ, tau against dāl, gamma against qāf, and pi against fāʾ.
+Four single-witness transitions (chi-kāf, theta-thāʾ, psi-bāʾ, xi-kāf) remain
+in the draft paper collecting witnesses, their cards still LAW-GAP. The rows
+license sound, never a link by themselves, and one word from the author
+revokes any of them, suspending every card built upon it.
