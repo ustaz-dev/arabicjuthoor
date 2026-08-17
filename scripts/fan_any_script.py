@@ -369,6 +369,69 @@ def latin_stem_skeletons(word: str, script: str = "latin") -> list[tuple[list[st
     return out
 
 
+# نهاياتُ الإنجليزيّةِ القديمةِ الصرفيّة، نصًّا قبلَ التهيكل. كشفَها مسبارُ
+# المسارِ الجرمانيِّ في 2026-08-17: نونُ المصدرِ `-an/-ian` كانت تُحسَبُ أصلًا
+# فيتضخّمُ الهيكلُ وتموتُ المروحةُ (`drincan` صفرُ مرشَّحين، و`miscian`
+# اثنان)، وذلك عينُ عطبِ «الصرفُ يُحسَبُ أصلًا» التاسعِ في الأوامرِ القائمة.
+OLD_ENGLISH_ENDINGS = (
+    ("ianne", "المصدرِ المصرَّفِ -ianne"),
+    ("enne", "المصدرِ المصرَّفِ -enne"),
+    ("ian", "نونِ المصدرِ -ian"),
+    ("nes", "لاحقةِ الاسمِ -nes"),
+    ("nis", "لاحقةِ الاسمِ -nis"),
+    ("ung", "لاحقةِ المصدرِ الاسميِّ -ung"),
+    ("ing", "لاحقةِ المصدرِ الاسميِّ -ing"),
+    ("lic", "لاحقةِ الوصفِ -lic"),
+    ("isc", "لاحقةِ النسبةِ -isc"),
+    ("an", "نونِ المصدرِ -an"),
+    ("on", "نهايةِ التصريفِ -on"),
+    ("um", "ميمِ الجمعِ المجرورِ -um"),
+    ("es", "سينِ الإضافةِ -es"),
+    ("að", "نهايةِ المضارعِ -að"),
+    ("aþ", "نهايةِ المضارعِ -aþ"),
+    ("ig", "لاحقةِ الوصفِ -ig"),
+)
+
+
+def oe_skeletons(word: str, script: str = "latin") -> list[tuple[list[str], str]]:
+    """هياكلُ الكلمةِ الإنجليزيّةِ القديمةِ بأوسامِها، إضافةً لا بدلًا.
+
+    وتُعرَضُ مع كلِّ هيكلٍ صورتُه بعدَ عدِّ المزدوجِ `sc` صوتًا واحدًا
+    (شينُ الإنجليزيّةِ القديمة: `fisc` سمكة تُنطَقُ فِش)، فلا يُحسَبُ
+    الصامتانِ المكتوبانِ صامتَينِ منطوقَين.
+    """
+    out: list[tuple[list[str], str]] = []
+    seen: set[str] = set()
+
+    def add(text: str, label: str) -> None:
+        s = skeleton(text, script)
+        key = "".join(s)
+        if len(s) < 2 or key in seen:
+            return
+        seen.add(key)
+        out.append((s, label))
+
+    base = word.strip().lower()
+    forms = [(base, "كما وردَت")]
+    for end, why in OLD_ENGLISH_ENDINGS:
+        if base.endswith(end) and len(base) - len(end) >= 3:
+            forms.append((base[:-len(end)], f"بإسقاطِ {why}"))
+            break
+    for text, label in list(forms):
+        if "sc" in text:
+            # قراءتا المزدوج تُعرَضانِ معًا والمعنى يحكم: شينًا واحدةً
+            # (fisc تُنطَقُ فش) أو صامتَينِ منفصلَينِ (ascian تُنطَقُ أسك)
+            forms.append((text.replace("sc", "s"),
+                          label + " والمزدوجُ sc صوتًا واحدًا"))
+            # الفصلُ بصائتٍ يسقطُ في التهيكلِ فيبقى s وc حرفَينِ
+            # بمروحتَيهما الكاملتَينِ (c تفتحُ على ج التي لا يملكُها k)
+            forms.append((text.replace("sc", "sac"),
+                          label + " والمزدوجُ sc صامتَينِ (s+c)"))
+    for text, label in forms:
+        add(text, label)
+    return out
+
+
 def _north_letters(word: str) -> str:
     w = unicodedata.normalize("NFC", str(word)).strip()
     w = w.translate(_DIAC_HEB).translate(FINALS)
@@ -571,6 +634,14 @@ def fan(word: str, script: str | None = None, limit: int = 400,
     # «كما وردَت» أصلًا لأنّه مجاوِزٌ للحدّ، فأوّلُ الراجعِ بديلٌ لا أصل.
     if script in {"latin", "germanic"} and len(sk) > 4:
         for alt, _ in latin_stem_skeletons(word, script):
+            if alt not in skeletons:
+                skeletons.append(alt)
+
+    # الإنجليزيّةُ القديمةُ وأخواتُها الجرمانيّةُ بالخطِّ اللاتينيّ: نونُ المصدرِ
+    # ونهاياتُ التصريفِ تُنزَعُ نصًّا والمزدوجُ sc يُعرَضُ صوتًا واحدًا، إضافةً
+    # لا بدلًا في كلِّ حال (إصلاحُ مسبارِ 2026-08-17: انقلابُ 3 من 6).
+    if script in {"latin", "germanic"}:
+        for alt, _ in oe_skeletons(word, script):
             if alt not in skeletons:
                 skeletons.append(alt)
 
