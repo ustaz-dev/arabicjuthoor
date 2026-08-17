@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 74562,
+  "cards_total": 74832,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,18 +32,18 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 9819,
-    "links": 349,
+    "cards": 9859,
+    "links": 351,
     "root": 124,
-    "nucleus": 224,
+    "nucleus": 226,
     "floor": 1,
-    "nucleus_share": 64.4
+    "nucleus_share": 64.6
    },
    {
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 9622,
+    "cards": 9704,
     "links": 169,
     "root": 159,
     "nucleus": 10,
@@ -54,7 +54,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 7399,
+    "cards": 7503,
     "links": 106,
     "root": 97,
     "nucleus": 9,
@@ -120,12 +120,12 @@
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1644,
-    "links": 1191,
-    "root": 796,
-    "nucleus": 395,
+    "cards": 1688,
+    "links": 1205,
+    "root": 809,
+    "nucleus": 396,
     "floor": 0,
-    "nucleus_share": 33.2
+    "nucleus_share": 32.9
    },
    {
     "key": "old-irish",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4350,
-  "closures": 1805,
+  "links_to_arabic": 4366,
+  "closures": 1808,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2542,
+    "count": 2546,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 1018,
+    "count": 1020,
     "link": true
    },
    {
@@ -205,17 +205,17 @@
    },
    {
     "name": "FORM-OF-ISOLATED",
-    "count": 488,
+    "count": 490,
     "link": false
    },
    {
     "name": "ROOT-ECHO",
-    "count": 412,
+    "count": 421,
     "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 373,
+    "count": 374,
     "link": true
    },
    {
@@ -230,7 +230,7 @@
    },
    {
     "name": "ABBREVIATION",
-    "count": 97,
+    "count": 98,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 49815,
+  "cards_total": 49865,
   "suspended": 38469,
-  "released": 11346,
+  "released": 11396,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
