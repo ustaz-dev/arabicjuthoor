@@ -172,6 +172,15 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
     </div>
   </div>
 
+  <h2><span class="lang-en">Coverage: read, linked, remaining</span><span class="lang-ar ar-display">التغطية: كم قُرِئ، كم رُبِط، كم بقي</span></h2>
+  <p class="sub">
+    <span class="lang-en">One row per tongue, refreshed on every publish from <code>data/coverage-report.json</code>. "Read to a decision" counts distinct card keys that reached a verdict or a named closure; "registered" is inventory still awaiting a reader and never enters the rate. A named Semitic donor in the branch's own dictionary is a connection of its own kind, shown in its own column.</span>
+    <span class="lang-ar">صفٌّ لكلِّ لسانٍ يتجدّدُ مع كلِّ نشرٍ من <code>data/coverage-report.json</code>. «قُرِئَ حتى قرارٍ» يعدُّ المفاتيحَ المتمايزةَ التي بلغَت حكمًا أو إغلاقًا مسمًّى؛ و«المسجَّلُ» جردٌ ينتظرُ قارئًا ولا يدخلُ النسبةَ أبدًا. والمانحُ الساميُّ الذي يسمّيه قاموسُ الفرعِ نفسُه وصلٌ من جنسِه له عمودُه.</span>
+  </p>
+  <div class="card" style="overflow-x:auto;">
+    <table id="coverage-tbl" style="width:100%; border-collapse:collapse; font-size:.9rem;"></table>
+  </div>
+
   <h2><span class="lang-en">The pre-registered proof run</span><span class="lang-ar ar-display">تشغيلُ خطِّ البرهانِ المسجَّلِ مسبقًا</span></h2>
   <p class="sub">
     <span class="lang-en">The version 2 registration is draft-locked and awaits the author's signature. Even after signature, the confirmatory run may happen only once and only after the registered member-complete threshold is met.</span>
@@ -346,6 +355,53 @@ footer { border-top: 1px solid var(--border); margin-top: 60px; padding: 26px 0;
       kpi(fmt(fr.level_3_composition_modes), t("Composition modes, level 3", "بابَ تركيبٍ، المستوى 3")) +
       kpi(fmt(fr.loanwords_registered), t("Loanwords on the open register", "كلمةً دخيلةً في السجلِّ المعلَن"), "", "");
   }
+
+  // لوحةُ التغطية: تُقرَأُ من مشتقِّها المفحوصِ ولا يُحسَبُ في الصفحةِ رقمٌ ثانٍ
+  fetch("data/coverage-report.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (cov) {
+      var ar = document.documentElement.getAttribute("data-lang") === "ar";
+      function render_cov() {
+        var isAr = document.documentElement.getAttribute("data-lang") === "ar";
+        var th = isAr
+          ? ["اللسان", "قُرِئَ حتى قرار", "رُبِطَ سلَّميًّا", "مانحٌ ساميٌّ مسمًّى", "نسبةُ الربطِ من المقروء", "مسجَّلٌ ينتظر", "باقي الفهرس"]
+          : ["Tongue", "Read to a decision", "Ladder-linked", "Named Semitic donor", "Link rate of read", "Registered waiting", "Index remaining"];
+        var html = "<thead><tr>" + th.map(function (h) {
+          return '<th style="text-align:start; padding:7px 9px; border-bottom:1px solid var(--border); font-size:.78rem; color:var(--text-3); white-space:nowrap;">' + h + "</th>";
+        }).join("") + "</tr></thead><tbody>";
+        cov.rows.forEach(function (x) {
+          var rate = x.concluded ? Math.round(100 * x.linked_distinct / x.concluded) + "%" : "-";
+          var rem = x.remaining === null ? "-" : x.remaining.toLocaleString("en-US");
+          html += "<tr>" + [
+            isAr ? x.ar : (x.key || x.ar),
+            x.concluded.toLocaleString("en-US"),
+            "<strong>" + x.linked_distinct.toLocaleString("en-US") + "</strong>",
+            x.semitic_source.toLocaleString("en-US"),
+            rate,
+            x.registered_open.toLocaleString("en-US"),
+            rem + (x.partial_index ? "*" : "")
+          ].map(function (c) {
+            return '<td style="padding:7px 9px; border-bottom:1px solid var(--border);">' + c + "</td>";
+          }).join("") + "</tr>";
+        });
+        var t2 = cov.totals;
+        html += '<tr style="font-weight:700;">' + [
+          isAr ? "الجملة" : "Total",
+          t2.concluded.toLocaleString("en-US"),
+          t2.linked_distinct.toLocaleString("en-US"),
+          t2.semitic_source.toLocaleString("en-US"), "",
+          t2.registered_open.toLocaleString("en-US"), ""
+        ].map(function (c) {
+          return '<td style="padding:7px 9px;">' + c + "</td>";
+        }).join("") + "</tr></tbody>";
+        var el = document.getElementById("coverage-tbl");
+        if (el) el.innerHTML = html;
+      }
+      render_cov();
+      document.getElementById("lang-en").addEventListener("click", render_cov);
+      document.getElementById("lang-ar").addEventListener("click", render_cov);
+    })
+    .catch(function () {});
 
   // اللوحةُ تُجلَبُ مع اللقطةِ لأنّ عمودَ الجذورِ المتمايزةِ لا يوجدُ في اللقطة،
   // ولا يُبنى في هذه الصفحةِ حسابٌ ثانٍ للصلاتِ فيختلفَ عدّادانِ في موقعٍ واحد.
