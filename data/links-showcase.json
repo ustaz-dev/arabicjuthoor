@@ -2,7 +2,7 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 3059,
+  "root": 3076,
   "nucleus": 1421,
   "languages": 16
  },
@@ -1135,6 +1135,115 @@
    "nucleus_share": 41.1
   },
   {
+   "key": "old-norse",
+   "ar": "النُّرديّة القديمة",
+   "en": "Old Norse",
+   "distance": 4,
+   "root": 59,
+   "nucleus": 16,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "hamr",
+     "say": "",
+     "sense": "shroud, covering",
+     "arabic": "غمر",
+     "quote": "غمره الماء: علاه وغطاه",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE",
+     "path": "GUT-04` وحده في `h ↔ غ`؛ الميم محفوظة بهويتها الصوتية؛ لا مرساة فمية معروضة قانونا، ولا صف جديد",
+     "orbit": "مباشر؛ الشيء الساتر المغطي في الفرع يلتقي حدث التغطية والحجب في النواة ومادتها العربية"
+    },
+    {
+     "word": "hurð",
+     "say": "hurdh",
+     "sense": "door",
+     "arabic": "غلق",
+     "quote": "غلق الباب وأغلقه وغلقه",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE",
+     "path": "GUT-04 + LIQ-01؛ أساس المقارنة `surface-after-branch-morphology`؛ لا مرساة فمية ولا صف جديد",
+     "orbit": "مدار 4: الباب آلة الإغلاق"
+    },
+    {
+     "word": "hylja",
+     "say": "",
+     "sense": "to hide, cover",
+     "arabic": "غلف",
+     "quote": "الغلاف... ما اشتمل على الشيء",
+     "lexicon": "تاج العروس",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE",
+     "path": "GUT-04؛ أساس المقارنة `surface-after-branch-morphology`؛ لا مرساة فمية ولا صف جديد",
+     "orbit": "مباشر: الغلاف والاشتمال والتغطية"
+    },
+    {
+     "word": "hafa",
+     "say": "",
+     "sense": "to hold, keep, retain",
+     "arabic": "كف",
+     "quote": "كف الشيء يكفه كفا: جمعه",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE",
+     "path": "الكاف العربية تقابل ‎*k‎ الهندوأوروبية و‎BR-GRIM-01‎ ينقلها h؛ والفاء تقابل ‎*p‎ ب‎LAB-07‎ و‎BR-GRIM-01‎ ينقلها إلى الاحتكاكي f، و‎BR-VERN-01‎ يفسر تج",
+     "orbit": "مباشر: الإمساك والحجز، وهو معنى 1 و3 من مروحة كفف نصا («جمعه»، و«أصل الكف المنع»)"
+    },
+    {
+     "word": "vitra",
+     "say": "",
+     "sense": "to manifest, reveal",
+     "arabic": "فطر",
+     "quote": "ارتخاء الشيء لذهاب شدته؛ فينبسط",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE",
+     "path": "تطابق ذاتي في الهيكل المطبع؛ المرشح موسوم `licensed` و`route_flag=0` في الجرد؛ لا صف جديد",
+     "orbit": "مدار 2: الحدث والأثر؛ الكشف خروج المخفي شاقا ما يغطيه"
+    },
+    {
+     "word": "tign",
+     "say": "",
+     "sense": "state, highness, honour",
+     "arabic": "تقن",
+     "quote": "مادة جودة الشيء في بابه أو جنسه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE",
+     "path": "تطابق ذاتي في الهيكل المطبع؛ المرشح موسوم `licensed` و`route_flag=0` في الجرد؛ لا صف جديد",
+     "orbit": "مدار 6: الحالة؛ الشرف والرفعة حكم بجودة الشيء في بابه"
+    },
+    {
+     "word": "mygla",
+     "say": "",
+     "sense": "to grow mouldy or musty",
+     "arabic": "بقل",
+     "quote": "نبات (أو شيء ينبت) ضعيفا في ظاهر شيء",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE",
+     "path": "LAB-04؛ المرشح موسوم `licensed` و`route_flag=0` في الجرد؛ لا صف جديد",
+     "orbit": "مدار 2: الحدث والأثر؛ العفن نمو ضعيف يظهر على سطح المادة"
+    },
+    {
+     "word": "draga",
+     "say": "",
+     "sense": "to draw, drag, pull",
+     "arabic": "درج",
+     "quote": "ضم أو احتواء في مضم للنقل برفق",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE",
+     "path": "تطابق ذاتي في الهيكل المطبع؛ المرشح موسوم `licensed` و`route_flag=0` في الجرد؛ لا صف جديد",
+     "orbit": "مدار 2: الحدث والنقل؛ الجر حركة حمل أو نقل داخل مسار ضام"
+    }
+   ],
+   "total": 75,
+   "nucleus_share": 21.3
+  },
+  {
    "key": "middle-english",
    "ar": "الإنجليزيّة الوسطى",
    "en": "Middle English",
@@ -1242,115 +1351,6 @@
    ],
    "total": 71,
    "nucleus_share": 26.8
-  },
-  {
-   "key": "old-norse",
-   "ar": "النُّرديّة القديمة",
-   "en": "Old Norse",
-   "distance": 4,
-   "root": 42,
-   "nucleus": 16,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "hamr",
-     "say": "",
-     "sense": "shroud, covering",
-     "arabic": "غمر",
-     "quote": "غمره الماء: علاه وغطاه",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE",
-     "path": "GUT-04` وحده في `h ↔ غ`؛ الميم محفوظة بهويتها الصوتية؛ لا مرساة فمية معروضة قانونا، ولا صف جديد",
-     "orbit": "مباشر؛ الشيء الساتر المغطي في الفرع يلتقي حدث التغطية والحجب في النواة ومادتها العربية"
-    },
-    {
-     "word": "hurð",
-     "say": "hurdh",
-     "sense": "door",
-     "arabic": "غلق",
-     "quote": "غلق الباب وأغلقه وغلقه",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE",
-     "path": "GUT-04 + LIQ-01؛ أساس المقارنة `surface-after-branch-morphology`؛ لا مرساة فمية ولا صف جديد",
-     "orbit": "مدار 4: الباب آلة الإغلاق"
-    },
-    {
-     "word": "hylja",
-     "say": "",
-     "sense": "to hide, cover",
-     "arabic": "غلف",
-     "quote": "الغلاف... ما اشتمل على الشيء",
-     "lexicon": "تاج العروس",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE",
-     "path": "GUT-04؛ أساس المقارنة `surface-after-branch-morphology`؛ لا مرساة فمية ولا صف جديد",
-     "orbit": "مباشر: الغلاف والاشتمال والتغطية"
-    },
-    {
-     "word": "hafa",
-     "say": "",
-     "sense": "to hold, keep, retain",
-     "arabic": "كف",
-     "quote": "كف الشيء يكفه كفا: جمعه",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE",
-     "path": "الكاف العربية تقابل ‎*k‎ الهندوأوروبية و‎BR-GRIM-01‎ ينقلها h؛ والفاء تقابل ‎*p‎ ب‎LAB-07‎ و‎BR-GRIM-01‎ ينقلها إلى الاحتكاكي f، و‎BR-VERN-01‎ يفسر تج",
-     "orbit": "مباشر: الإمساك والحجز، وهو معنى 1 و3 من مروحة كفف نصا («جمعه»، و«أصل الكف المنع»)"
-    },
-    {
-     "word": "vitra",
-     "say": "",
-     "sense": "to manifest, reveal",
-     "arabic": "فطر",
-     "quote": "ارتخاء الشيء لذهاب شدته؛ فينبسط",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE",
-     "path": "تطابق ذاتي في الهيكل المطبع؛ المرشح موسوم `licensed` و`route_flag=0` في الجرد؛ لا صف جديد",
-     "orbit": "مدار 2: الحدث والأثر؛ الكشف خروج المخفي شاقا ما يغطيه"
-    },
-    {
-     "word": "tign",
-     "say": "",
-     "sense": "state, highness, honour",
-     "arabic": "تقن",
-     "quote": "مادة جودة الشيء في بابه أو جنسه",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE",
-     "path": "تطابق ذاتي في الهيكل المطبع؛ المرشح موسوم `licensed` و`route_flag=0` في الجرد؛ لا صف جديد",
-     "orbit": "مدار 6: الحالة؛ الشرف والرفعة حكم بجودة الشيء في بابه"
-    },
-    {
-     "word": "mygla",
-     "say": "",
-     "sense": "to grow mouldy or musty",
-     "arabic": "بقل",
-     "quote": "نبات (أو شيء ينبت) ضعيفا في ظاهر شيء",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE",
-     "path": "LAB-04؛ المرشح موسوم `licensed` و`route_flag=0` في الجرد؛ لا صف جديد",
-     "orbit": "مدار 2: الحدث والأثر؛ العفن نمو ضعيف يظهر على سطح المادة"
-    },
-    {
-     "word": "draga",
-     "say": "",
-     "sense": "to draw, drag, pull",
-     "arabic": "درج",
-     "quote": "ضم أو احتواء في مضم للنقل برفق",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE",
-     "path": "تطابق ذاتي في الهيكل المطبع؛ المرشح موسوم `licensed` و`route_flag=0` في الجرد؛ لا صف جديد",
-     "orbit": "مدار 2: الحدث والنقل؛ الجر حركة حمل أو نقل داخل مسار ضام"
-    }
-   ],
-   "total": 58,
-   "nucleus_share": 27.6
   },
   {
    "key": "welsh",

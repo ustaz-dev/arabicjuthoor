@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 77106,
+  "cards_total": 77460,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,7 +32,7 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 10515,
+    "cards": 10597,
     "links": 357,
     "root": 127,
     "nucleus": 229,
@@ -43,7 +43,7 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 10292,
+    "cards": 10362,
     "links": 182,
     "root": 172,
     "nucleus": 10,
@@ -54,7 +54,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 8281,
+    "cards": 8381,
     "links": 106,
     "root": 97,
     "nucleus": 9,
@@ -142,12 +142,12 @@
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 716,
-    "links": 58,
-    "root": 42,
+    "cards": 818,
+    "links": 75,
+    "root": 59,
     "nucleus": 16,
     "floor": 0,
-    "nucleus_share": 27.6
+    "nucleus_share": 21.3
    },
    {
     "key": "gothic",
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4485,
+  "links_to_arabic": 4502,
   "closures": 1845,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2581,
+    "count": 2583,
     "link": true
    },
    {
@@ -204,14 +204,14 @@
     "link": false
    },
    {
+    "name": "ROOT-ECHO",
+    "count": 493,
+    "link": true
+   },
+   {
     "name": "FORM-OF-ISOLATED",
     "count": 490,
     "link": false
-   },
-   {
-    "name": "ROOT-ECHO",
-    "count": 478,
-    "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 50101,
+  "cards_total": 50201,
   "suspended": 38469,
-  "released": 11632,
+  "released": 11732,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
