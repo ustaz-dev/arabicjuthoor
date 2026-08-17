@@ -3,8 +3,8 @@
  "generated_by": "scripts/build_status_snapshot.py",
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
-  "languages_open": 17,
-  "cards_total": 74269,
+  "languages_open": 16,
+  "cards_total": 74219,
   "by_language": [
    {
     "key": "old-latin",
@@ -181,27 +181,16 @@
     "nucleus": 0,
     "floor": 0,
     "nucleus_share": 0.0
-   },
-   {
-    "key": "s8-greek-round",
-    "en": "S8 Greek Round",
-    "ar": "s8-greek-round",
-    "cards": 50,
-    "links": 1,
-    "root": 1,
-    "nucleus": 0,
-    "floor": 0,
-    "nucleus_share": 0.0
    }
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4320,
-  "closures": 1720,
+  "links_to_arabic": 4319,
+  "closures": 1671,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2532,
+    "count": 2531,
     "link": true
    },
    {
@@ -211,12 +200,12 @@
    },
    {
     "name": "NO-TRACE",
-    "count": 738,
+    "count": 696,
     "link": false
    },
    {
     "name": "FORM-OF-ISOLATED",
-    "count": 456,
+    "count": 450,
     "link": false
    },
    {
@@ -251,7 +240,7 @@
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 74,
+    "count": 73,
     "link": false
    },
    {

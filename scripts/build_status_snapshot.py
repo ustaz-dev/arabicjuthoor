@@ -106,7 +106,7 @@ LANGUAGE_NAMES = {
 }
 
 # Files that are working notes rather than a language reading.
-SKIP_READINGS = {"README", "nucleus-echoes-week17"}
+SKIP_READINGS = {"README", "nucleus-echoes-week17", "s8-greek-round"}
 
 
 def read_json(path: Path) -> dict:

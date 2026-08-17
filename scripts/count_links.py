@@ -163,6 +163,10 @@ def main() -> int:
 
     for path in sorted(READINGS.glob("*.md")):
         lang = path.stem
+        # طبقةُ §8 المعمّاةُ تحقُّقٌ مقيسٌ قيدَ التنفيذِ، لا تدخلُ العدَّ المنشورَ
+        # حتّى يحكمَ المؤلّفُ بعدَ كشفِ المفتاح (التسجيلُ المسبقُ 2026-08-17)
+        if lang.startswith("s8-"):
+            continue
         for head, degrees, key in scan_path(path):
             total_cards += 1
             if not degrees:

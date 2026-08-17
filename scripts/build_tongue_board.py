@@ -111,6 +111,10 @@ def gather() -> dict:
 
     for path in sorted(READINGS.glob("*.md")):
         lang = path.stem
+        # طبقةُ §8 المعمّاةُ تحقُّقٌ مقيسٌ قيدَ التنفيذِ، لا تدخلُ العدَّ المنشورَ
+        # حتّى يحكمَ المؤلّفُ بعدَ كشفِ المفتاح (التسجيلُ المسبقُ 2026-08-17)
+        if lang.startswith("s8-"):
+            continue
         if lang not in META:
             continue
         for block in iter_cards(path):
