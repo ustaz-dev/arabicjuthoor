@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 75644,
+  "cards_total": 75909,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,29 +32,29 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 10105,
-    "links": 353,
-    "root": 124,
-    "nucleus": 228,
+    "cards": 10187,
+    "links": 355,
+    "root": 125,
+    "nucleus": 229,
     "floor": 1,
-    "nucleus_share": 64.8
+    "nucleus_share": 64.7
    },
    {
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 9942,
-    "links": 171,
-    "root": 161,
+    "cards": 10012,
+    "links": 176,
+    "root": 166,
     "nucleus": 10,
     "floor": 0,
-    "nucleus_share": 5.8
+    "nucleus_share": 5.7
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 7794,
+    "cards": 7894,
     "links": 106,
     "root": 97,
     "nucleus": 9,
@@ -98,12 +98,12 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 2186,
-    "links": 210,
-    "root": 108,
-    "nucleus": 101,
+    "cards": 2199,
+    "links": 221,
+    "root": 117,
+    "nucleus": 103,
     "floor": 1,
-    "nucleus_share": 48.3
+    "nucleus_share": 46.8
    },
    {
     "key": "akkadian",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4401,
-  "closures": 1838,
+  "links_to_arabic": 4419,
+  "closures": 1841,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2554,
+    "count": 2562,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 1028,
+    "count": 1030,
     "link": true
    },
    {
@@ -210,12 +210,12 @@
    },
    {
     "name": "ROOT-ECHO",
-    "count": 429,
+    "count": 436,
     "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 385,
+    "count": 386,
     "link": true
    },
    {
@@ -230,7 +230,7 @@
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 105,
+    "count": 108,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 49896,
+  "cards_total": 49907,
   "suspended": 38469,
-  "released": 11427,
+  "released": 11438,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
