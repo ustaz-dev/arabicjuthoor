@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 76184,
+  "cards_total": 76436,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,7 +32,7 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 10269,
+    "cards": 10351,
     "links": 356,
     "root": 126,
     "nucleus": 229,
@@ -43,18 +43,18 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 10082,
-    "links": 178,
-    "root": 168,
+    "cards": 10152,
+    "links": 182,
+    "root": 172,
     "nucleus": 10,
     "floor": 0,
-    "nucleus_share": 5.6
+    "nucleus_share": 5.5
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 7994,
+    "cards": 8081,
     "links": 106,
     "root": 97,
     "nucleus": 9,
@@ -98,12 +98,12 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 2222,
-    "links": 242,
-    "root": 135,
+    "cards": 2235,
+    "links": 253,
+    "root": 146,
     "nucleus": 106,
     "floor": 1,
-    "nucleus_share": 44.0
+    "nucleus_share": 42.1
    },
    {
     "key": "akkadian",
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4443,
-  "closures": 1843,
+  "links_to_arabic": 4458,
+  "closures": 1845,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2568,
+    "count": 2578,
     "link": true
    },
    {
@@ -210,7 +210,7 @@
    },
    {
     "name": "ROOT-ECHO",
-    "count": 451,
+    "count": 456,
     "link": true
    },
    {
@@ -230,7 +230,7 @@
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 110,
+    "count": 112,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 49928,
+  "cards_total": 49939,
   "suspended": 38469,
-  "released": 11459,
+  "released": 11470,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
