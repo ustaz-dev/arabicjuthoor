@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 76436,
+  "cards_total": 76752,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,18 +32,18 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 10351,
-    "links": 356,
-    "root": 126,
+    "cards": 10433,
+    "links": 357,
+    "root": 127,
     "nucleus": 229,
     "floor": 1,
-    "nucleus_share": 64.5
+    "nucleus_share": 64.3
    },
    {
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 10152,
+    "cards": 10222,
     "links": 182,
     "root": 172,
     "nucleus": 10,
@@ -54,7 +54,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 8081,
+    "cards": 8181,
     "links": 106,
     "root": 97,
     "nucleus": 9,
@@ -98,12 +98,12 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 2235,
-    "links": 253,
-    "root": 146,
+    "cards": 2243,
+    "links": 259,
+    "root": 152,
     "nucleus": 106,
     "floor": 1,
-    "nucleus_share": 42.1
+    "nucleus_share": 41.1
    },
    {
     "key": "akkadian",
@@ -142,12 +142,12 @@
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 558,
-    "links": 38,
-    "root": 24,
-    "nucleus": 14,
+    "cards": 614,
+    "links": 47,
+    "root": 31,
+    "nucleus": 16,
     "floor": 0,
-    "nucleus_share": 36.8
+    "nucleus_share": 34.0
    },
    {
     "key": "gothic",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4458,
+  "links_to_arabic": 4474,
   "closures": 1845,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2578,
+    "count": 2580,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 1030,
+    "count": 1032,
     "link": true
    },
    {
@@ -210,7 +210,7 @@
    },
    {
     "name": "ROOT-ECHO",
-    "count": 456,
+    "count": 468,
     "link": true
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 49939,
+  "cards_total": 50001,
   "suspended": 38469,
-  "released": 11470,
+  "released": 11532,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
