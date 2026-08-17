@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 75100,
+  "cards_total": 75368,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,18 +32,18 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 9941,
-    "links": 351,
+    "cards": 10023,
+    "links": 352,
     "root": 124,
-    "nucleus": 226,
+    "nucleus": 227,
     "floor": 1,
-    "nucleus_share": 64.6
+    "nucleus_share": 64.7
    },
    {
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 9784,
+    "cards": 9862,
     "links": 169,
     "root": 159,
     "nucleus": 10,
@@ -54,7 +54,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 7594,
+    "cards": 7694,
     "links": 106,
     "root": 97,
     "nucleus": 9,
@@ -98,12 +98,12 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 2164,
-    "links": 192,
-    "root": 95,
-    "nucleus": 96,
+    "cards": 2172,
+    "links": 198,
+    "root": 97,
+    "nucleus": 100,
     "floor": 1,
-    "nucleus_share": 50.3
+    "nucleus_share": 50.8
    },
    {
     "key": "akkadian",
@@ -185,8 +185,8 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4379,
-  "closures": 1808,
+  "links_to_arabic": 4386,
+  "closures": 1834,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
@@ -195,7 +195,7 @@
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 1025,
+    "count": 1028,
     "link": true
    },
    {
@@ -210,12 +210,12 @@
    },
    {
     "name": "ROOT-ECHO",
-    "count": 421,
+    "count": 423,
     "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 381,
+    "count": 383,
     "link": true
    },
    {
@@ -229,6 +229,11 @@
     "link": false
    },
    {
+    "name": "OUT-OF-SCOPE",
+    "count": 101,
+    "link": false
+   },
+   {
     "name": "ABBREVIATION",
     "count": 98,
     "link": false
@@ -236,11 +241,6 @@
    {
     "name": "LOANWORD",
     "count": 89,
-    "link": false
-   },
-   {
-    "name": "OUT-OF-SCOPE",
-    "count": 75,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 49878,
+  "cards_total": 49884,
   "suspended": 38469,
-  "released": 11409,
+  "released": 11415,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
