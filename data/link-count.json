@@ -1,13 +1,13 @@
 {
  "generated_from": "scripts/count_links.py",
- "cards_scanned": 73978,
+ "cards_scanned": 74307,
  "cards": {
-  "root": 2902,
-  "nucleus": 1367,
+  "root": 2932,
+  "nucleus": 1383,
   "floor": 5
  },
  "claims": {
-  "root": 1455,
+  "root": 1464,
   "nucleus": 1010
  },
  "by_language": {
@@ -26,29 +26,29 @@
   },
   "ancient-greek": {
    "cards": {
-    "root": 90,
-    "ROOT-TRACE": 86,
+    "root": 96,
+    "ROOT-TRACE": 92,
     "nucleus": 9,
     "NUCLEUS-TRACE": 8,
     "NUCLEUS-ECHO": 1,
     "ROOT-ECHO": 4
    },
    "claims": {
-    "root": 11,
+    "root": 17,
     "nucleus": 6
    }
   },
   "aramaic": {
    "cards": {
-    "root": 777,
-    "ROOT-TRACE": 681,
-    "ROOT-ECHO": 96,
-    "nucleus": 392,
-    "NUCLEUS-TRACE": 267,
-    "NUCLEUS-ECHO": 125
+    "root": 796,
+    "ROOT-TRACE": 695,
+    "ROOT-ECHO": 101,
+    "nucleus": 395,
+    "NUCLEUS-TRACE": 269,
+    "NUCLEUS-ECHO": 126
    },
    "claims": {
-    "root": 461,
+    "root": 462,
     "nucleus": 307
    }
   },
@@ -130,14 +130,14 @@
   },
   "old-english": {
    "cards": {
-    "root": 87,
+    "root": 89,
     "ROOT-TRACE": 44,
-    "nucleus": 66,
-    "NUCLEUS-ECHO": 32,
+    "nucleus": 79,
+    "NUCLEUS-ECHO": 38,
     "floor": 1,
     "FLOOR-TRACE": 1,
-    "NUCLEUS-TRACE": 34,
-    "ROOT-ECHO": 43
+    "NUCLEUS-TRACE": 41,
+    "ROOT-ECHO": 45
    },
    "claims": {
     "root": 13,
@@ -195,14 +195,14 @@
   },
   "persian": {
    "cards": {
-    "root": 156,
-    "ROOT-TRACE": 155,
+    "root": 158,
+    "ROOT-TRACE": 157,
     "ROOT-ECHO": 1,
     "nucleus": 10,
     "NUCLEUS-TRACE": 10
    },
    "claims": {
-    "root": 22,
+    "root": 24,
     "nucleus": 0
    }
   },
@@ -225,6 +225,16 @@
    },
    "claims": {
     "root": 10,
+    "nucleus": 0
+   }
+  },
+  "s8-greek-round": {
+   "cards": {
+    "root": 1,
+    "ROOT-TRACE": 1
+   },
+   "claims": {
+    "root": 0,
     "nucleus": 0
    }
   },
@@ -291,11 +301,39 @@
   "بطاقة متابعة": 16,
   "بطاقة جاسم": 68,
   "LANE-A-OPEN-COMP-00005": 1,
+  "LANE-A-OPEN-COMP-00023": 1,
+  "LANE-A-OPEN-COMP-00024": 1,
+  "LANE-A-OPEN-COMP-00026": 1,
+  "LANE-A-OPEN-COMP-00028": 1,
+  "LANE-A-OPEN-COMP-00034": 1,
+  "LANE-A-OPEN-COMP-00050": 1,
   "مراجعة ناسخة RECOVERY-v2": 2,
   "مراجعة عضوية": 233,
   "إعادة قراءة بطبقتين": 526,
   "بطاقة RECOVERY-v2 معاد فتحها": 1,
   "إعادة مسح منصور الموزون": 59,
+  "WO-C-OPEN-COMP-00001": 1,
+  "WO-C-OPEN-COMP-00002": 1,
+  "WO-C-OPEN-COMP-00004": 1,
+  "WO-C-OPEN-COMP-00005": 1,
+  "WO-C-OPEN-COMP-00006": 1,
+  "WO-C-OPEN-COMP-00012": 1,
+  "WO-C-OPEN-COMP-00013": 1,
+  "WO-C-OPEN-COMP-00014": 1,
+  "WO-C-OPEN-COMP-00015": 1,
+  "WO-C-OPEN-COMP-00016": 1,
+  "WO-C-OPEN-COMP-00018": 1,
+  "WO-C-OPEN-COMP-00019": 1,
+  "WO-C-OPEN-COMP-00020": 1,
+  "WO-C-OPEN-COMP-00023": 1,
+  "WO-C-OPEN-COMP-00026": 1,
+  "WO-C-OPEN-COMP-00027": 1,
+  "WO-C-OPEN-COMP-00028": 1,
+  "WO-C-OPEN-COMP-00029": 1,
+  "WO-C-OPEN-COMP-00034": 1,
+  "WO-C-OPEN-COMP-00037": 1,
+  "WO-C-OPEN-COMP-00039": 1,
+  "WO-C-OPEN-COMP-00040": 1,
   "بطاقة إعادة الفحص العربي": 9,
   "بطاقة حسم": 10,
   "بطاقة حسم عائلية": 2,
@@ -574,7 +612,7 @@
   "WO-C-HEBREW-009-052": 1,
   "بطاقة المقارنات": 15,
   "بطاقة إعادة فحص البوابتين الميتتين": 19,
-  "بطاقة إتمام": 75,
+  "بطاقة إتمام": 90,
   "بطاقة حصاد القرض المعاد فتحه": 34,
   "بطاقة مصححة": 2,
   "بطاقة 802": 1,
@@ -738,8 +776,11 @@
   "WO-B-OPEN-COMP-00343": 1,
   "WO-B-OPEN-COMP-00358": 1,
   "WO-B-OPEN-COMP-00373": 1,
+  "WO-B-OPEN-COMP-00446": 1,
+  "WO-B-OPEN-COMP-00501": 1,
   "بطاقة حسم مباشر": 17,
   "بطاقة صفية": 9,
+  "بطاقة S8-GRC-045": 1,
   "بطاقة إعادة قراءة عائلات اللسان": 17,
   "بطاقة إعادة قراءة الشواهد المعجمية": 5
  }

@@ -29,7 +29,7 @@
   "readings": {
    "aramaic": {
     "path": "04-cross-linguistic/readings/aramaic.md",
-    "sha256": "f086aad77858291f43c15197b877d45290594daccb992b59872b2592cf15650c"
+    "sha256": "4e6d9a5d9f1e3cafdec142079af81092ae63ac5af440d3b2812d1db17ce398fd"
    },
    "hebrew": {
     "path": "04-cross-linguistic/readings/hebrew.md",
@@ -84,10 +84,10 @@
     "UNRECORDED": 166
    },
    "block_reconciliation": {
-    "ambiguous-stale-heading": 5,
+    "ambiguous-stale-heading": 6,
     "current-heading": 744,
     "stable-entry-reconciled": 249,
-    "unmapped-stale-heading": 26
+    "unmapped-stale-heading": 25
    },
    "eligible_family_ids": [
     "aramaic:family:0263fb19382f883fbc93197a",
@@ -4964,7 +4964,7 @@
     {
      "line": 33642,
      "heading": "### بطاقة: גינתא `gīnəṯā` «garden» ↔ جنن",
-     "reason": "unmapped-stale-heading"
+     "reason": "ambiguous-stale-heading"
     }
    ]
   },

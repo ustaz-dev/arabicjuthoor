@@ -3,8 +3,8 @@
  "generated_by": "scripts/build_status_snapshot.py",
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
-  "languages_open": 16,
-  "cards_total": 73940,
+  "languages_open": 17,
+  "cards_total": 74269,
   "by_language": [
    {
     "key": "old-latin",
@@ -43,12 +43,23 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 9462,
-    "links": 166,
-    "root": 156,
+    "cards": 9542,
+    "links": 168,
+    "root": 158,
     "nucleus": 10,
     "floor": 0,
     "nucleus_share": 6.0
+   },
+   {
+    "key": "ancient-greek",
+    "en": "Ancient Greek",
+    "ar": "اليونانيّة القديمة",
+    "cards": 7319,
+    "links": 105,
+    "root": 96,
+    "nucleus": 9,
+    "floor": 0,
+    "nucleus_share": 8.6
    },
    {
     "key": "welsh",
@@ -60,17 +71,6 @@
     "nucleus": 5,
     "floor": 0,
     "nucleus_share": 12.5
-   },
-   {
-    "key": "ancient-greek",
-    "en": "Ancient Greek",
-    "ar": "اليونانيّة القديمة",
-    "cards": 7263,
-    "links": 99,
-    "root": 90,
-    "nucleus": 9,
-    "floor": 0,
-    "nucleus_share": 9.1
    },
    {
     "key": "hebrew",
@@ -109,23 +109,23 @@
     "key": "old-english",
     "en": "Old English",
     "ar": "الإنجليزيّة القديمة",
-    "cards": 1949,
-    "links": 154,
-    "root": 87,
-    "nucleus": 66,
+    "cards": 2049,
+    "links": 169,
+    "root": 89,
+    "nucleus": 79,
     "floor": 1,
-    "nucleus_share": 43.1
+    "nucleus_share": 47.0
    },
    {
     "key": "aramaic",
     "en": "Aramaic",
     "ar": "الآراميّة",
-    "cards": 1601,
-    "links": 1169,
-    "root": 777,
-    "nucleus": 392,
+    "cards": 1644,
+    "links": 1191,
+    "root": 796,
+    "nucleus": 395,
     "floor": 0,
-    "nucleus_share": 33.5
+    "nucleus_share": 33.2
    },
    {
     "key": "old-irish",
@@ -181,41 +181,52 @@
     "nucleus": 0,
     "floor": 0,
     "nucleus_share": 0.0
+   },
+   {
+    "key": "s8-greek-round",
+    "en": "S8 Greek Round",
+    "ar": "s8-greek-round",
+    "cards": 50,
+    "links": 1,
+    "root": 1,
+    "nucleus": 0,
+    "floor": 0,
+    "nucleus_share": 0.0
    }
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4274,
-  "closures": 1575,
+  "links_to_arabic": 4320,
+  "closures": 1720,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2509,
+    "count": 2532,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 1005,
+    "count": 1014,
     "link": true
    },
    {
     "name": "NO-TRACE",
-    "count": 611,
+    "count": 738,
     "link": false
    },
    {
     "name": "FORM-OF-ISOLATED",
-    "count": 447,
+    "count": 456,
     "link": false
    },
    {
     "name": "ROOT-ECHO",
-    "count": 393,
+    "count": 400,
     "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 362,
+    "count": 369,
     "link": true
    },
    {
@@ -225,7 +236,7 @@
    },
    {
     "name": "LOAN-ROUTE-ISOLATED",
-    "count": 120,
+    "count": 121,
     "link": false
    },
    {
@@ -240,7 +251,7 @@
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 66,
+    "count": 74,
     "link": false
    },
    {
@@ -261,9 +272,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 49515,
+  "cards_total": 49665,
   "suspended": 38467,
-  "released": 11048,
+  "released": 11198,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
