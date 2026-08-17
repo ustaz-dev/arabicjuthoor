@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 49665,
+ "cards_total": 49815,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -427107,6 +427107,30 @@
    ],
    "blocker_type": "",
    "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/s8-greek-round.md",
+   "card": "S8-GRC-081: ὕρχη /hŭ́rkhē/",
+   "verdict": "LAW-GAP",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفا مجمدا مسمى يرخص `χ↔ك` في اليونانية.",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/s8-greek-round.md",
+   "card": "S8-GRC-086: χάβος /khábos/",
+   "verdict": "LAW-GAP",
+   "closure": "LAW-GAP.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "LAW-GAP",
+   "required": "صفا مجمدا مسمى يرخص `χ↔ح` في اليونانية.",
    "row_mentions": []
   },
   {

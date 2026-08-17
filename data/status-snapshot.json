@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 74219,
+  "cards_total": 74562,
   "by_language": [
    {
     "key": "old-latin",
@@ -43,23 +43,23 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 9542,
-    "links": 168,
-    "root": 158,
+    "cards": 9622,
+    "links": 169,
+    "root": 159,
     "nucleus": 10,
     "floor": 0,
-    "nucleus_share": 6.0
+    "nucleus_share": 5.9
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 7319,
-    "links": 105,
-    "root": 96,
+    "cards": 7399,
+    "links": 106,
+    "root": 97,
     "nucleus": 9,
     "floor": 0,
-    "nucleus_share": 8.6
+    "nucleus_share": 8.5
    },
    {
     "key": "welsh",
@@ -76,12 +76,12 @@
     "key": "hebrew",
     "en": "Hebrew",
     "ar": "العبريّة",
-    "cards": 3032,
-    "links": 1315,
-    "root": 983,
-    "nucleus": 332,
+    "cards": 3115,
+    "links": 1334,
+    "root": 999,
+    "nucleus": 335,
     "floor": 0,
-    "nucleus_share": 25.2
+    "nucleus_share": 25.1
    },
    {
     "key": "middle-english",
@@ -95,6 +95,17 @@
     "nucleus_share": 26.8
    },
    {
+    "key": "old-english",
+    "en": "Old English",
+    "ar": "الإنجليزيّة القديمة",
+    "cards": 2149,
+    "links": 179,
+    "root": 94,
+    "nucleus": 84,
+    "floor": 1,
+    "nucleus_share": 47.2
+   },
+   {
     "key": "akkadian",
     "en": "Akkadian",
     "ar": "الأكّاديّة",
@@ -104,17 +115,6 @@
     "nucleus": 48,
     "floor": 0,
     "nucleus_share": 12.8
-   },
-   {
-    "key": "old-english",
-    "en": "Old English",
-    "ar": "الإنجليزيّة القديمة",
-    "cards": 2049,
-    "links": 169,
-    "root": 89,
-    "nucleus": 79,
-    "floor": 1,
-    "nucleus_share": 47.0
    },
    {
     "key": "aramaic",
@@ -185,42 +185,42 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4319,
-  "closures": 1671,
+  "links_to_arabic": 4350,
+  "closures": 1805,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2531,
+    "count": 2542,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 1014,
+    "count": 1018,
     "link": true
    },
    {
     "name": "NO-TRACE",
-    "count": 696,
+    "count": 786,
     "link": false
    },
    {
     "name": "FORM-OF-ISOLATED",
-    "count": 450,
+    "count": 488,
     "link": false
    },
    {
     "name": "ROOT-ECHO",
-    "count": 400,
+    "count": 412,
     "link": true
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 369,
+    "count": 373,
     "link": true
    },
    {
     "name": "INTRA-HOUSE-TRANSFER",
-    "count": 123,
+    "count": 127,
     "link": false
    },
    {
@@ -240,7 +240,7 @@
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 73,
+    "count": 75,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 49665,
-  "suspended": 38467,
-  "released": 11198,
+  "cards_total": 49815,
+  "suspended": 38469,
+  "released": 11346,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
@@ -275,7 +275,7 @@
    },
    {
     "name": "LAW-GAP",
-    "count": 556
+    "count": 558
    },
    {
     "name": "SOURCE-GAP",
