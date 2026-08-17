@@ -1154,6 +1154,7 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
 
   <div class="hero-cta">
     <a class="btn btn-primary" href="#overview"><span class="lang-en">▸ What this project is, and why it matters</span><span class="lang-ar">▸ ما هذا المشروع، ولِماذا يَهُمّ</span></a>
+    <a class="btn btn-secondary" href="catalog.html"><span class="lang-en">Browse every link found →</span><span class="lang-ar">تَصَفَّح كلَّ صِلةٍ وُجِدَت ←</span></a>
     <a class="btn btn-secondary" href="#discoveries-panel"><span class="lang-en">What we discovered →</span><span class="lang-ar">ما اكتَشَفنا ←</span></a>
     <a class="btn btn-secondary" href="lookup.html"><span class="lang-en">Try the root reader →</span><span class="lang-ar">جَرِّب قارئ الجَذر ←</span></a>
   </div>
@@ -1164,6 +1165,7 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
   <a class="stat-link" href="viewer.html?file=03-scholar-extracts/jabal-nuclei-extended.md"><div class="stat"><div class="stat-num">455</div><div class="stat-label"><span class="lang-en">Operational binary nuclei</span><span class="lang-ar">نواة ثنائيّة تشغيليّة</span></div></div></a>
   <a class="stat-link" href="viewer.html?file=02-architecture/lv2-operative-grammar.md"><div class="stat"><div class="stat-num">2,285</div><div class="stat-label"><span class="lang-en">Trilaterals graded</span><span class="lang-ar">جذرًا مُصنَّفًا</span></div></div></a>
   <a class="stat-link" href="links.html"><div class="stat"><div class="stat-num" id="hp-strip-links">3,448</div><div class="stat-label"><span class="lang-en">Links to other tongues</span><span class="lang-ar">صِلةً بألسنٍ أُخرى</span></div></div></a>
+  <a class="stat-link" href="status.html"><div class="stat"><div class="stat-num" id="hp-strip-concluded">—</div><div class="stat-label"><span class="lang-en">Branch words read to a decision</span><span class="lang-ar">كلمةَ فرعٍ قُرِئَت حتى قرار</span></div></div></a>
 </div>
 
 <main id="main-content">
@@ -2886,6 +2888,13 @@ const SUPABASE_TABLE = 'messages';
       put('#hp-k-floor', N(t.floor || 0));
       put('#hp-strip-links', N(total));
       put('#hp-k-langs', String(t.languages));
+      // خانةُ «قُرِئَت حتى قرار» من تقريرِ التغطيةِ المفحوصِ نفسِه
+      fetch('data/coverage-report.json', { cache: 'no-store' })
+        .then(function (r) { return r.json(); })
+        .then(function (cov) {
+          if (cov && cov.totals) put('#hp-strip-concluded', N(cov.totals.concluded));
+        })
+        .catch(function () {});
       put('#hp-n1, .hp-n1', N(total));
       put('#hp-n2, .hp-n2', String(t.languages));
       put('#lb-total, .lb-total', N(total));

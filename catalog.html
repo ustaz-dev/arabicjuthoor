@@ -7,6 +7,11 @@
 <meta name="description" content="Every issued link, searchable: the branch word with a readable pronunciation, its dictionary sense, the Arabic counterpart, the named sound path, and the orbit written by hand. Search by any of them." />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://arabicjuthoor.com/catalog.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Juthoor · The card catalogue" />
+<meta property="og:description" content="Every issued link, searchable: the branch word with readable pronunciation, its own dictionary sense, the Arabic counterpart, the named sound path, and the hand-written orbit." />
+<meta property="og:url" content="https://arabicjuthoor.com/catalog.html" />
+<meta name="twitter:card" content="summary" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -348,7 +353,20 @@ footer { border-top:1px solid var(--border); margin-top:50px; padding:22px 0;
 
   more.onclick = function () { render(true); };
   var t;
-  q.oninput = function () { clearTimeout(t); t = setTimeout(function () { render(); }, 120); };
+  // البحثُ قابلٌ للمشاركةِ بالرابط: `catalog.html?q=قدم` يفتحُ على نتيجتِه،
+  // وكلُّ بحثٍ يكتبُ نفسَه في العنوانِ بلا إغراقِ سجلِّ التصفُّح
+  function syncUrl() {
+    try {
+      var u = new URL(window.location.href);
+      if (q.value) u.searchParams.set("q", q.value);
+      else u.searchParams.delete("q");
+      history.replaceState(null, "", u.pathname + u.search);
+    } catch (e) {}
+  }
+  q.oninput = function () {
+    clearTimeout(t);
+    t = setTimeout(function () { render(); syncUrl(); }, 120);
+  };
 
   fetch("data/link-catalog.json", { cache: "no-store" })
     .then(function (r) { return r.json(); })
@@ -368,6 +386,10 @@ footer { border-top:1px solid var(--border); margin-top:50px; padding:22px 0;
       });
       Object.keys(LANGS).forEach(function (k) { if (!LANGS[k].n) delete LANGS[k]; });
       chips();
+      try {
+        var q0 = new URL(window.location.href).searchParams.get("q");
+        if (q0) q.value = q0;
+      } catch (e) {}
       render();
     })
     .catch(function () {
