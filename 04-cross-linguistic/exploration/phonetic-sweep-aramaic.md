@@ -6,18 +6,25 @@
 المرشَّحُ **الموجودُ فعلًا في المعاجم**، ثمّ قِيسَ تقاطعُ المعنى بينَ الطرفَين.
 **الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه**، وهذا عكسُ ما كنّا نفعل.
 
-**مطابقةُ صوتٍ ومعنًى معًا: 426**، منها **396** بشهادةٍ
-مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 1,043
+**مطابقةُ صوتٍ ومعنًى معًا: 600**، منها **565** بشهادةٍ
+مباشرةٍ من جسرِ المعنى · مطابقةُ صوتٍ وحدَه: 953
 
 | كلمةُ الفرع | نطقُها | معناها | العربيّ | تقاطعُ المعنى | مرشّحاتٌ أخرى |
 |---|---|---|---|---|---|
 | `קרנא` | qrnʾ  (قرنأ) | horn (growth on heads of animals and musical instrument); angle, corner | **قرن** | مباشر 18: animals growth heads horn | كرن |
 | `ילדא` | yldʾ  (يلدأ) | birth, childbirth, delivery, nativity; children, descendants, offspring, brood | **ولد** | مباشر 16: birth childbirth children offspring | ولذ |
+| `רמא` | rmʾ  (رمأ) | to throw, to warp, to cast, to hurl; to put, to place | **رمي** | مباشر 15: cast hurl put throw | رم · روم · رمم · ريم · رمو |
+| `בבא` | bbʾ  (ببأ) | gate, door, entrance; section, clause | **باب** | مباشر 15: chapter door entrance gate | بوب · بب · ببب · بيب · وبب |
 | `כבר` | kbr  (كبر) | to increase, multiply, make much/many | **كبر** | مباشر 12: increase many much multiply | - |
 | `לבש` | lbš  (لبش) | to clothe oneself, to wear clothing | **لبس** | مباشر 12: clothe clothing oneself wear | لبش · لبث |
 | `פסק` | p/fsq  (فسق) | to cut off, to break away | **فسق** | مباشر 12: away break cut off | فسك · فشق · بسق · بسك · بشق |
 | `חרת` | ḥrt  (حرت) | to dig; to plough/plow, to till | **حرث** | مباشر 12: dig plough plow till | حرت · خرت · خرث |
 | `בעלא` | bʿlʾ  (بعلأ) | lord, master; head of household | **بعل** | مباشر 12: baal husband lord master | بغل · بحل |
+| `רוחא` | rwḥʾ  (روحأ) | spirit, ghost; wind (movement of air) | **روح** | مباشر 12: air breath ghost movement | ريح · رخو · رح · رخ · رحح |
+| `תלא` | tlʾ  (تلأ) | hill; tell, mound, pile | **تلل** | مباشر 12: hill mound ruins tell | تل · ثل · تول · تيل · تلو |
+| `בלא` | blʾ  (بلأ) | to be worn out, to grow old | **بلي** | مباشر 12: grow old out worn | بلو · بال · بل · بلل · بول |
+| `קנא` | qnʾ  (قنأ) | to get, to gain, to obtain; to possess | **قنو** | مباشر 12: gain get obtain possess | قين · كن · قن · قنن · قون |
+| `ססא` | ssʾ  (سسأ) | moth; maggot, worm | **سوس** | مباشر 12: decay maggot moth worm | شس · سسس · سيس · ساس · وسس |
 | `שלח` | šlḥ  (شلح) | to send; to strip, to take off clothing | **شلح** | مباشر 10: off strip take | سلخ · شلخ · سلح · ثلخ |
 | `עבר` | ʿbr  (عبر) | to pass over, to cross over | **عبر** | مباشر 9: cross over pass | غبر · ضبر · حبر |
 | `אחד` | ʾḥd  (أحد) | to hold, take, seize; to shut, close | **ءخذ** | مباشر 9: hold seize take | احد · اخذ |
@@ -27,6 +34,7 @@
 | `ילד` | yld  (يلد) | to bear children; to be born | **ولد** | مباشر 9: bear born children | ولذ |
 | `כורסיא` | kwrsyʾ  (كورسيأ) | seat, chair; throne | **كرس** | مباشر 9: chair seat throne | كرش |
 | `גנסא` | gnsʾ  (جنسأ) | genus, kind, type; gender, sex | **جنس** | مباشر 9: gender genus sex | جنش |
+| `עצר` | ʿṣr  (عصر) | to trample; to squeeze, to press | **عصر** | مباشر 9: press squeeze trample | عضر · عظر · عزر · غصر · غضر |
 | `מלח` | mlḥ  (ملح) | absolute state of מִלְחָא (milḥā, “salt”) | **ملح** | مباشر 9: absolute mil salt | ملخ |
 | `תחומא` | tḥwmʾ  (تحومأ) | border, boundary, limit; regulation, penalty | **تخم** | مباشر 9: border boundary limit | تحم |
 | `כבשא` | kbšʾ  (كبشأ) | ram (male sheep) | **كبش** | مباشر 9: male ram sheep | كبس · كبث |
@@ -37,6 +45,8 @@
 | `רחם` | rḥm  (رحم) | to love; to be merciful, to be compassionate | **رحم** | مباشر 9: compassionate love merciful | رخم |
 | `נפק` | np/fq  (نفق) | to go out, to depart, to leave; to eject | **نفق** | مباشر 9: depart leave out | نفك · نبق · نبك |
 | `קלל` | qll  (قلل) | to be lightweight; to lessen, to lighten | **قلل** | مباشر 9: lessen lighten lightweight | كلل |
+| `פקע` | p/fqʿ  (فقع) | to split, to crack, to burst | **فقع** | مباشر 9: burst crack split | فقح · فكع · بقع · بقح · بكع |
+| `צבעא` | ṣbʿʾ  (صبعأ) | finger, toe, digit | **صبع** | مباشر 9: digit finger toe | صبغ · صبح · ضبع · ضبح · زبع |
 | `בטן` | bṭn  (بطن) | to conceive, to bear children | **بطن** | مباشر 9: bear children conceive | - |
 | `חנק` | ḥnq  (حنق) | to choke, to suffocate; to hang, to strangle | **خنق** | مباشر 9: choke strangle suffocate | حنق · حنك |
 | `מתלא` | mtlʾ  (متلأ) | parable, proverb; tale, fable | **مثل** | مباشر 9: fable parable proverb | متل |
@@ -52,20 +62,32 @@
 | `פתילא` | p/ftylʾ  (فتيلأ) | twisted cord, string, wick | **فتل** | مباشر 9: cord twisted wick | فثل · بتل · بثل |
 | `חמירא` | ḥmyrʾ  (حميرأ) | leaven; leavened dough or bread | **خمر** | مباشر 9: bread leaven leavened | حمر |
 | `חֲקַל` | ḥaqal  (حقل) | field, marked out field | **حقل** | مباشر 9: field marked out | حكل · خقل |
-| `שנא` | šnʾ  (شنأ) | tooth; fang, tusk | **سن** | مباشر 9: fang tooth tusk | شن · ثن |
-| `כמא` | kmʾ  (كمأ) | how much, how many | **كم** | مباشر 9: how many much | - |
-| `עמא` | ʿmʾ  (عمأ) | paternal uncle; great-grandfather | **حم** | مباشر 9: father paternal uncle | عم · غم · ضم |
-| `מנא` | mnʾ  (منأ) | mina, maund (a unit of weight) | **من** | مباشر 9: maund mina unit | - |
-| `כפא` | kp/fʾ  (كفأ) | palm, hand; spoon, ladle | **كف** | مباشر 9: hand handful palm | كب |
+| `צוד` | ṣwd  (صود) | to hunt, to fish, to catch | **صيد** | مباشر 9: catch fish hunt | صد · ضد · صدد · صود · صدو |
+| `שנא` | šnʾ  (شنأ) | tooth; fang, tusk | **سن** | مباشر 9: fang tooth tusk | سنن · شن · ثن · شنن · شون |
+| `כל` | kl  (كل) | all, every, whole | **كلل** | مباشر 9: all every whole | كل · كال · كلي · كول · كيل |
+| `כמא` | kmʾ  (كمأ) | how much, how many | **كم** | مباشر 9: how many much | كمم · كوم · كيم · كام · كمو |
+| `עמא` | ʿmʾ  (عمأ) | paternal uncle; great-grandfather | **حم** | مباشر 9: father paternal uncle | عم · عمم · حمو · غم · ضم |
+| `כיסא` | kysʾ  (كيسأ) | bag, purse, pouch; pocket | **كيس** | مباشر 9: bag pouch purse | كس · كش · كسس · كوس · كاس |
+| `זנא` | znʾ  (زنأ) | to fornicate, to commit adultery; to prostitute | **زني** | مباشر 9: adultery commit fornicate | زن · ذن · زنن · زون · زين |
+| `מנא` | mnʾ  (منأ) | mina, maund (a unit of weight) | **من** | مباشر 9: maund mina unit | منن · مني · مون · مين · مان |
+| `זוג` | zwg  (زوج) | to pair, to join, to marry | **زوج** | مباشر 9: join marry pair | زج · ذج · زجج · زيج · زجو |
+| `בליא` | blyʾ  (بليأ) | worn out, old | **بلي** | مباشر 9: old out worn | بلو · بال · بل · بلل · بول |
+| `כפא` | kp/fʾ  (كفأ) | palm, hand; spoon, ladle | **كف** | مباشر 9: hand handful palm | كفف · كب · كوف · كيف · كاف |
+| `גבא` | gbʾ  (جبأ) | to gather, to collect; to choose, to select, to elect | **جبي** | مباشر 9: choose collect select | جب · جبب · جوب · جيب · جبو |
+| `שורא` | šwrʾ  (شورأ) | wall, fortification, rampart; navel | **سور** | مباشر 9: fortification rampart wall | سر · سرر · سري · شر · ثر |
+| `גדיא` | gdyʾ  (جديأ) | kid (young goat) | **جدي** | مباشر 9: goat kid young | جدد · جد · جذ · جود · جيد |
 | `טפרא` | ṭp/frʾ  (طفرأ) | nail (on fingers and toes); claw, talon | **ظفر** | مباشر 8: claw nail | طفر · طبر · ظبر |
 | `קורבא` | qwrbʾ  (قوربأ) | offering, oblation; approach, access | **قرب** | مباشر 8: access approach | كرب |
 | `תמרא` | tmrʾ  (تمرأ) | dates (fruit); date palms | **تمر** | مباشر 7: date dates | ثمر |
+| `ריחא` | ryḥʾ  (ريحأ) | smell, odour/odor; perfume | **ريح** | مباشر 7: odor smell | روح · رح · رخ · رحح · رحو |
+| `שוקא` | šwqʾ  (شوقأ) | street; square, plaza, forum | **سوق** | مباشر 7: bazaar market | شقق · ساك · شق · شك · سك |
 | `תרגם` | trgm  (ترجم) | proclaim, to deliver (aloud, a proclamation); to interpret, to translate | **ترجم** | مباشر 6: interpret translate | - |
 | `תלמידא` | tlmydʾ  (تلميدأ) | student, disciple | **تلمذ** | مباشر 6: disciple student | - |
 | `תורגמא` | twrgmʾ  (تورجمأ) | interpretation, translation | **ترجم** | مباشر 6: interpretation translation | - |
 | `בדל` | bdl  (بدل) | to distinguish, to separate | **بدل** | مباشر 6: distinguish separate | بذل |
 | `ברך` | brk  (برك) | to kneel, to bow | **برك** | مباشر 6: bow kneel | - |
 | `גדל` | gdl  (جدل) | to twist; to weave | **جدل** | مباشر 6: twist weave | جذل |
+| `עזז` | ʿzz  (عزز) | to be strong, mighty; to groan | **عزز** | مباشر 6: mighty strong | غزز · غذذ · ضزز · حزز · حذذ |
 | `עמר` | ʿmr  (عمر) | to dwell, to inhabit | **عمر** | مباشر 6: dwell inhabit | غمر · ضمر · حمر |
 | `דגל` | dgl  (دجل) | to lie, to deceive | **دجل** | مباشر 6: deceive lie | ذجل |
 | `אחר` | ʾḥr  (أحر) | to be late, to delay | **ءخر** | مباشر 6: delay late | اخر |
@@ -73,6 +95,7 @@
 | `עבד` | ʿbd  (عبد) | to do, to make; to serve, to slave | **عبد** | مباشر 6: serve slave | ضبد · حبذ |
 | `דבק` | dbq  (دبق) | to cleave, to adhere | **دبق** | مباشر 6: adhere cleave | دبك |
 | `שבת` | šbt  (شبت) | rest; observe the Sabbath | **سبت** | مباشر 6: rest sabbath | شبت · شبث · ثبت |
+| `צבע` | ṣbʿ  (صبع) | to dip; to moisten | **صبغ** | مباشر 6: colour dye | صبح · صبع · ضبع · ضبح · زبع |
 | `שטח` | šṭḥ  (شطح) | to spread out | **سطح** | مباشر 6: out spread | شطح |
 | `לשנא` | lšnʾ  (لشنأ) | tongue; language | **لسن** | مباشر 6: language tongue | لثن |
 | `צליבא` | ṣlybʾ  (صليبأ) | crucifix, cross | **صلب** | مباشر 6: cross crucifix | زلب |
@@ -112,9 +135,11 @@
 | `פעלא` | p/fʿlʾ  (فعلأ) | work, labour/labor | **فعل** | مباشر 6: labor labour | فضل · فحل · بعل · بغل · بحل |
 | `פעלא` | p/fʿlʾ  (فعلأ) | worker, labourer/laborer | **فعل** | مباشر 6: laborer labourer | فضل · فحل · بعل · بغل · بحل |
 | `תחם` | tḥm  (تحم) | to limit, to define, to border | **تخم** | مباشر 6: border limit | تحم |
+| `עמץ` | ʿmṣ  (عمص) | to close/shut the eyes, to be blinded | **غمض** | مباشر 6: close eyes | غمص · عمص · غمز · ضمز · حمص |
 | `קריבא` | qrybʾ  (قريبأ) | near, close | **قرب** | مباشر 6: close near | كرب |
 | `בדר` | bdr  (بدر) | to scatter, to disperse | **بذر** | مباشر 6: disperse scatter | بدر |
 | `גדם` | gdm  (جدم) | to cut off; to abbreviate | **جذم** | مباشر 6: cut off | جدم |
+| `צבעא` | ṣbʿʾ  (صبعأ) | dye, pigment | **صبغ** | مباشر 6: dye pigment | صبع · صبح · ضبع · ضبح · زبع |
 | `דרעא` | drʿʾ  (درعأ) | upper arm | **ذرع** | مباشر 6: arm upper | درع · درح · ذرح |
 | `פתל` | p/ftl  (فتل) | to twist, to spin | **فتل** | مباشر 6: spin twist | فثل · بتل · بثل |
 | `ימינא` | ymynʾ  (يمينأ) | right (direction) | **يمن** | مباشر 6: direction right | ومن |
@@ -131,7 +156,9 @@
 | `צרף` | ṣrp/f  (صرف) | to refine, to smelt | **صرف** | مباشر 6: refine smelt | صرب · ضرف · ضرب · ظرف · ظرب |
 | `תגרא` | tgrʾ  (تجرأ) | trader, merchant | **تجر** | مباشر 6: merchant trader | ثجر |
 | `חרר` | ḥrr  (حرر) | to free, to liberate | **حرر** | مباشر 6: free liberate | خرر |
+| `עתד` | ʿtd  (عتد) | to ready, to prepare | **عتد** | مباشر 6: prepare ready | عتذ · غتد · حتد |
 | `ברק` | brq  (برق) | to gleam, to flash | **برق** | مباشر 6: flash gleam | برك |
+| `עתק` | ʿtq  (عتق) | to be old, to grow old | **عتق** | مباشر 6: grow old | عتك · عثق · عثك · حتك |
 | `דחק` | dḥq  (دحق) | to reject, to expel | **دحق** | مباشر 6: expel reject | ذحق |
 | `טחלא` | ṭḥlʾ  (طحلأ) | spleen, milt | **طحل** | مباشر 6: milt spleen | - |
 | `חבלא` | ḥblʾ  (حبلأ) | rope, cord; line, row, series | **حبل** | مباشر 6: cord rope | خبل |
@@ -153,25 +180,78 @@
 | `קברא` | qbrʾ  (قبرأ) | grave, tomb | **قبر** | مباشر 6: grave tomb | كبر |
 | `פלחא` | p/flḥʾ  (فلحأ) | worker; tiller, cultivator, farmer | **فلح** | مباشر 6: farmer worker | فلخ · بلح · بلخ |
 | `קיתרא` | qytrʾ  (قيترأ) | any stringed musical instrument (guitar, harp, lyre, etc.) | **قثر** | مباشر 6: harp lyre | قتر · كتر · كثر |
+| `חצד` | ḥṣd  (حصد) | to reap, to harvest | **حصد** | مباشر 6: harvest reap | حضد · حضذ · حزد · خصد · خضد |
+| `חצדא` | ḥṣdʾ  (حصدأ) | reaping, harvest | **حصد** | مباشر 6: harvest reaping | حضد · حضذ · حزد · خصد · خضد |
 | `ירתא` | yrtʾ  (يرتأ) | heir, inheritor | **ورث** | مباشر 6: heir inheritor | يرت |
 | `עקרא` | ʿqrʾ  (عقرأ) | barren, sterile | **عقر** | مباشر 6: barren sterile | عكر · غقر · حقر · حكر |
+| `עזיזא` | ʿzyzʾ  (عزيزأ) | strong, powerful, vehement; intense | **عزز** | مباشر 6: powerful strong | غزز · غذذ · ضزز · حزز · حذذ |
 | `מולדא` | mwldʾ  (مولدأ) | birth, nativity; travail, childbirth, delivery | **ملد** | مباشر 6: birth nativity | ملذ |
+| `עתיק` | ʿtyq  (عتيق) | old, ancient | **عتق** | مباشر 6: ancient old | عتك · عثق · عثك · حتك |
 | `קדמי` | qdmy  (قدمي) | before me: first-person singular suffix form of קדם | **قدم** | مباشر 6: before first | قذم · كدم |
 | `עומק` | ʿwmq  (عومق) | depth, profoundness | **عمق** | مباشر 6: depth profoundness | عمك · غمق · ضمك · حمق · حمك |
 | `קדיש` | qdyš  (قديش) | to sanctify, to consecrate | **قدس** | مباشر 6: consecrate sanctify | قدث · كدش · كدس · كدث |
 | `דקלא` | dqlʾ  (دقلأ) | palm tree | **دقل** | مباشر 6: palm tree | دكل |
 | `כדבא` | kdbʾ  (كدبأ) | a frequent liar | **كذب** | مباشر 6: frequent liar | كدب |
-| `כל` | kl  (كل) | all, every, whole | **كل** | مباشر 6: all every | - |
-| `חמא` | ḥmʾ  (حمأ) | father-in-law | **حم** | مباشر 6: father law | خم |
-| `תלא` | tlʾ  (تلأ) | hill; tell, mound, pile | **تل** | مباشر 6: hill mound | ثل |
-| `גוא` | gwʾ  (جوأ) | belly, innards, viscera; community, congregation | **جو** | مباشر 6: inside interior | - |
-| `גדא` | gdʾ  (جدأ) | luck, fortune; fate | **جد** | مباشر 6: fortune luck | جذ |
+| `רבה` | rbh  (ربهـ) | big, important; extensive, extended | **ربب** | مباشر 6: big important | رب · روب · ريب · راب · ربو |
+| `ביתא` | bytʾ  (بيتأ) | house, home | **بيت** | مباشر 6: home house | بوت · بت · بث · بتت · بتو |
+| `שמיא` | šmyʾ  (شميأ) | sky; heaven | **سمو** | مباشر 6: heaven sky | سما · شم · سم · ثم · شمم |
+| `יומא` | ywmʾ  (يومأ) | day; time | **يوم** | مباشر 6: day time | ومي · يم · يمم · يما · ويم |
+| `עינא` | ʿynʾ  (عينأ) | eye; sight; eye, hole, opening | **عين** | مباشر 6: eye hole | عني · عن · غن · ضن · حن |
+| `טורא` | ṭwrʾ  (طورأ) | mountain, hill | **طور** | مباشر 6: hill mountain | طر · ظر · طرر · طير · طرو |
+| `שמא` | šmʾ  (شمأ) | name; appellation, title | **سمو** | مباشر 6: appellation title | سم · شم · ثم · شمم · شوم |
+| `חלא` | ḥlʾ  (حلأ) | maternal uncle | **خول** | مباشر 6: maternal uncle | خال · حل · خل · حلل · حول |
+| `תורא` | twrʾ  (تورأ) | steer, bull, ox | **ثور** | مباشر 6: bull steer | تر · ثر · ترر · تور · تير |
+| `לוחא` | lwḥʾ  (لوحأ) | board, tablet | **لوح** | مباشر 6: board tablet | لح · لخ · لحح · ليح · لحو |
+| `לוזא` | lwzʾ  (لوزأ) | almond; almond tree | **لوز** | مباشر 6: almond tree | لز · لذ · لزز · ليز · لاز |
+| `טינא` | ṭynʾ  (طينأ) | mud, clay | **طين** | مباشر 6: clay mud | طن · ظن · طنن · طون · طنو |
+| `חילא` | ḥylʾ  (حيلأ) | strength, force, power | **حيل** | مباشر 6: force strength | خل · حول · خيل · حل · حلل |
+| `מעיא` | mʿyʾ  (معيأ) | bowel, intestine | **معي** | مباشر 6: bowel intestine | مع · مض · مح · معع · موع |
+| `קלא` | qlʾ  (قلأ) | voice; sound, noise | **قول** | مباشر 6: sound voice | قل · كل · قلل · قيل · قال |
+| `דינא` | dynʾ  (دينأ) | judgement, sentence; lawsuit | **دين** | مباشر 6: judgement lawsuit | دن · ذن · دنن · دون · دنو |
+| `סמא` | smʾ  (سمأ) | drug, medicine; poison | **سمم** | مباشر 6: drug poison | سم · شم · سوم · سيم · سام |
+| `נהירא` | nhyrʾ  (نهـيرأ) | bright, clear | **نور** | مباشر 6: bright clear | نير · نار · نرو · نرا · ونر |
+| `חמא` | ḥmʾ  (حمأ) | father-in-law | **حم** | مباشر 6: father law | حمو · خم · حمم · حوم · حيم |
+| `רעיא` | rʿyʾ  (رعيأ) | pasture, flock | **رعي** | مباشر 6: flock pasture | رع · رض · رح · رعع · روع |
+| `צירא` | ṣyrʾ  (صيرأ) | painting, picture | **صور** | مباشر 6: painting picture | صر · ضر · ظر · زر · صرر |
+| `נוהרא` | nwhrʾ  (نوهـرأ) | light, brightness | **نور** | مباشر 6: brightness light | نير · نار · نرو · نرا · ونر |
+| `נוהרא` | nwhrʾ  (نوهـرأ) | enlightenment, illumination; commentary | **نور** | مباشر 6: enlightenment illumination | نير · نار · نرو · نرا · ونر |
+| `צידא` | ṣydʾ  (صيدأ) | hunting, fishing | **صيد** | مباشر 6: fishing hunting | صد · ضد · صدد · صود · صدو |
+| `צידא` | ṣydʾ  (صيدأ) | hunter, fisherman | **صيد** | مباشر 6: fisherman hunter | صد · ضد · صدد · صود · صدو |
+| `רעא` | rʿʾ  (رعأ) | to feed, to graze; to reconcile | **رعي** | مباشر 6: feed graze | رضي · رع · رض · رح · رعع |
+| `בנא` | bnʾ  (بنأ) | to build, to construct, to erect; to found | **بني** | مباشر 6: build erect | بن · بنن · بون · بين · بنو |
+| `עול` | ʿwl  (عول) | to harm, to wrong | **عول** | مباشر 6: harm wrong | غول · عل · غل · ضل · حل |
+| `חס` | ḥs  (حس) | God forbid | **حشو** | مباشر 6: forbid god | حس · حش · خس · خش · حسس |
+| `בכא` | bkʾ  (بكأ) | to weep, to mourn | **بكي** | مباشر 6: mourn weep | بك · بكك · بوك · باك · بكا |
+| `נקא` | nqʾ  (نقأ) | to cleanse, to be pure | **نقو** | مباشر 6: cleanse pure | نقي · نق · نقق · نوق · نيق |
+| `עלא` | ʿlʾ  (علأ) | to raise, to ascend | **علو** | مباشر 6: ascend raise | عال · علي · عل · غل · ضل |
+| `טובא` | ṭwbʾ  (طوبأ) | good, goodness; much, many, a lot | **طيب** | مباشر 6: good goodness | طب · ظب · طبب · طوب · طاب |
+| `זוע` | zwʿ  (زوع) | to shake, to stir; to confuse | **زوع** | مباشر 6: shake stir | زع · زح · ذع · ذغ · زعع |
+| `רוקא` | rwqʾ  (روقأ) | saliva, spittle | **روق** | مباشر 6: saliva spittle | ريق · رق · رك · رقق · رقو |
+| `עוד` | ʿwd  (عود) | to accustom, to habituate | **عود** | مباشر 6: accustom habituate | عد · عذ · غد · غذ · ضد |
+| `גביא` | gbyʾ  (جبيأ) | exactor, tax collector | **جبي** | مباشر 6: collector tax | جب · جبب · جوب · جيب · جبو |
+| `צות` | ṣwt  (صوت) | to hear, to listen; to obey | **صوت** | مباشر 6: hear listen | صت · ضث · صتت · صات · صتو |
+| `צום` | ṣwm  (صوم) | to fast, to abstain | **صوم** | مباشر 6: abstain fast | صام · صم · ضم · زم · صمم |
+| `צומא` | ṣwmʾ  (صومأ) | fast, fasting | **صوم** | مباشر 6: fast fasting | صام · صم · ضم · زم · صمم |
+| `חוטא` | ḥwṭʾ  (حوطأ) | thread, string; seam | **خيط** | مباشر 6: string thread | حط · حظ · خط · خظ · حطط |
+| `גוא` | gwʾ  (جوأ) | belly, innards, viscera; community, congregation | **جو** | مباشر 6: inside interior | جوو · جيو · جوي · جوا |
+| `דר` | dr  (در) | to live, to inhabit, to reside | **دور** | مباشر 6: inhabit live | در · ذر · درر · دير · دار |
+| `גדא` | gdʾ  (جدأ) | luck, fortune; fate | **جد** | مباشر 6: fortune luck | جذ · جدد · جود · جيد · جدو |
 | `כבדא` | kbdʾ  (كبدأ) | liver; gall, bile | **كبد** | مباشر 4: liver | كبذ |
 | `כרז` | krz  (كرز) | to preach, to proclaim | **كرز** | مباشر 4: preach | - |
 | `כפרא` | kp/frʾ  (كفرأ) | hamlet, village; tomb, sepulcher | **كفر** | مباشر 4: sepulcher | كبر |
-| `מן` | mn  (من) | who (interrogative) | **من** | مباشر 4: who | - |
-| `גו` | gw  (جو) | in, inside, within | **جو** | مباشر 4: inside | - |
-| `גוא` | gwʾ  (جوأ) | inside, within | **جو** | مباشر 4: inside | - |
+| `רבי` | rby  (ربي) | rabbi, spiritual teacher; master | **راب** | مباشر 4: rabbi | رب · ربب · روب · ريب · ربو |
+| `צבא` | ṣbʾ  (صبأ) | to desire, to will, to wish | **صوب** | مباشر 4: wish | صب · صبب · صبا · ضب · ظب |
+| `מן` | mn  (من) | who (interrogative) | **من** | مباشر 4: who | مين · منو · منن · مون · مان |
+| `גו` | gw  (جو) | in, inside, within | **جو** | مباشر 4: inside | جوو · جيو · جوي · جوا |
+| `זיתא` | zytʾ  (زيتأ) | olive; olive tree | **زيت** | مباشر 4: olive | زتت · ذيت · ذات · ذيث |
+| `חיא` | ḥyʾ  (حيأ) | life, lives | **حيي** | مباشر 4: life | حيو · حيا · حي · حو · خي |
+| `תגא` | tgʾ  (تجأ) | crown, diadem, tiara | **تاج** | مباشر 4: crown | توج · ثج · تجج · وتج · ثجج |
+| `רישא` | ryšʾ  (ريشأ) | head; top, (figurative) head | **راس** | مباشر 4: head | رش · رس · رث · رشش · روش |
+| `צירא` | ṣyrʾ  (صيرأ) | painter, sculptor, artist | **صور** | مباشر 4: painter | صر · ضر · ظر · زر · صرر |
+| `טביא` | ṭbyʾ  (طبيأ) | gazelle; roe, deer | **ظبي** | مباشر 4: gazelle | ظب · طب · طبب · طوب · طيب |
+| `סיפא` | syp/fʾ  (سيفأ) | sword, blade | **سيف** | مباشر 4: sword | ساف · سف · سب · شف · شب |
+| `גוזא` | gwzʾ  (جوزأ) | walnut; walnut tree | **جوز** | مباشر 4: walnut | جز · جذ · جزز · جيز · جاز |
+| `גוא` | gwʾ  (جوأ) | inside, within | **جو** | مباشر 4: inside | جوو · جيو · جوي · جوا |
 | `עקרבא` | ʿqrbʾ  (عقربأ) | scorpion | **عقرب** | مباشر 3: scorpion | - |
 | `עקרבא` | ʿqrbʾ  (عقربأ) | Scorpio | **عقرب** | مباشر 3: scorpio | - |
 | `מסכנא` | msknʾ  (مسكنأ) | poor | **مسكن** | مباشر 3: poor | مشكن |
@@ -182,6 +262,7 @@
 | `חרדלא` | ḥrdlʾ  (حردلأ) | mustard | **خردل** | مباشر 3: mustard | خرذل |
 | `תרגומא` | trgwmʾ  (ترجومأ) | translation; an Aramaic translation of the Bible; targum | **ترجم** | مباشر 3: translation | - |
 | `הלך` | hlk  (هـلك) | to go, proceed; to behave, act | **هلك** | مباشر 3: act | - |
+| `עתיד` | ʿtyd  (عتيد) | ready, prepared | **عتد** | مباشر 3: ready | عتذ · غتد · حتد |
 | `ערב` | ʿrb  (عرب) | to set, to go down; to pledge | **عرب** | مباشر 3: down | غرب · ضرب · حرب |
 | `ברך` | brk  (برك) | to bless | **برك** | مباشر 3: bless | - |
 | `שמע` | šmʿ  (شمع) | to hear | **سمع** | مباشر 3: hear | شمع · شمغ · سمغ · سمح · ثمع |
@@ -206,6 +287,7 @@
 | `חמשא` | ḥmšʾ  (حمشأ) | five (5) | **خمس** | مباشر 3: five | حمش · حمس · خمش |
 | `שבעא` | šbʿʾ  (شبعأ) | seven (7) | **سبع** | مباشر 3: seven | شبع · شبح · سبغ · سبح |
 | `תמניא` | tmnyʾ  (تمنيأ) | eight (8) | **ثمن** | مباشر 3: eight | تمن |
+| `תשעא` | tšʿʾ  (تشعأ) | nine (9) | **تسع** | مباشر 3: nine | تشح · تسغ · تسح · تثغ |
 | `עסרא` | ʿsrʾ  (عسرأ) | ten (10) | **عشر** | مباشر 3: ten | عسر · غسر · غشر · حسر · حشر |
 | `גרמא` | grmʾ  (جرمأ) | bone; self | **جرم** | مباشر 3: bone | - |
 | `מלחא` | mlḥʾ  (ملحأ) | salt | **ملح** | مباشر 3: salt | ملخ |
@@ -260,6 +342,7 @@
 | `סערא` | sʿrʾ  (سعرأ) | hair | **شعر** | مباشر 3: hair | سعر · سغر · سحر · شغر · شضر |
 | `סערא` | sʿrʾ  (سعرأ) | barley | **شعر** | مباشر 3: barley | سعر · سغر · سحر · شغر · شضر |
 | `שבועא` | šbwʿʾ  (شبوعأ) | week | **سبع** | مباشر 3: week | شبع · شبح · سبغ · سبح |
+| `פקעא` | p/fqʿʾ  (فقعأ) | crack, rift, fissure | **فقع** | مباشر 3: crack | فقح · فكع · بقع · بقح · بكع |
 | `פשיטא` | p/fšyṭʾ  (فشيطأ) | simple; upright | **بسط** | مباشر 3: simple | فشط · فسط · بشط · بثط |
 | `חבב` | ḥbb  (حبب) | to love | **حبب** | مباشر 3: love | خبب |
 | `יתב` | ytb  (يتب) | to sit; to dwell | **وثب** | مباشر 3: sit | وتب |
@@ -270,6 +353,7 @@
 | `זרעא` | zrʿʾ  (زرعأ) | seed | **زرع** | مباشر 3: seed | زرح · ذرع · ذرح |
 | `זרועא` | zrwʿʾ  (زروعأ) | sower | **زرع** | مباشر 3: sower | زرح · ذرع · ذرح |
 | `דרש` | drš  (درش) | to study; to argue, to dispute | **درس** | مباشر 3: study | درش |
+| `קטע` | qṭʿ  (قطع) | to cut | **قطع** | مباشر 3: cut | - |
 | `מרעא` | mrʿʾ  (مرعأ) | sickness | **مرض** | مباشر 3: sickness | مرع · مرغ · مرح |
 | `מרע` | mrʿ  (مرع) | to be sick | **مرض** | مباشر 3: sick | مرع · مرغ · مرح |
 | `חמם` | ḥmm  (حمم) | to be hot | **حمم** | مباشر 3: hot | خمم |
@@ -283,6 +367,8 @@
 | `טעם` | ṭʿm  (طعم) | to taste | **طعم** | مباشر 3: taste | طغم · طحم · ظعم |
 | `יבישא` | ybyšʾ  (يبيشأ) | dry | **يبس** | مباشر 3: dry | وبش |
 | `משח` | mšḥ  (مشح) | to anoint; to measure | **مسح** | مباشر 3: anoint | مشح · مسخ |
+| `פקע` | p/fqʿ  (فقع) | to break | **فقع** | مباشر 3: break | فقح · فكع · بقع · بقح · بكع |
+| `צבעא` | ṣbʿʾ  (صبعأ) | dyer | **صبغ** | مباشر 3: dyer | صبع · صبح · ضبع · ضبح · زبع |
 | `סמלא` | smlʾ  (سملأ) | left (direction) | **شمل** | مباشر 3: left | سمل |
 | `מתל` | mtl  (متل) | to compare | **مثل** | مباشر 3: compare | متل |
 | `דבחא` | dbḥʾ  (دبحأ) | sacrifice | **ذبح** | مباشر 3: sacrifice | دبح · دبخ |
@@ -305,6 +391,7 @@
 | `תגר` | tgr  (تجر) | to trade | **تجر** | مباشر 3: trade | ثجر |
 | `תחתי` | tḥty  (تحتي) | to lower | **تحت** | مباشر 3: lower | تخت |
 | `עטמא` | ʿṭmʾ  (عطمأ) | thigh, hip; bone | **عظم** | مباشر 3: bone | عطم · غطم · حطم · حظم |
+| `עתידא` | ʿtydʾ  (عتيدأ) | ready, prepared | **عتد** | مباشر 3: ready | عتذ · غتد · حتد |
 | `רעד` | rʿd  (رعد) | to tremble | **رعد** | مباشر 3: tremble | رغد · رضد |
 | `דקק` | dqq  (دقق) | to inspect, to moderate, to observe; to crush, to break into pieces | **دقق** | مباشر 3: inspect | دكك · ذكك |
 | `דקקא` | dqqʾ  (دققأ) | crushing | **دقق** | مباشر 3: crushing | دكك · ذكك |
@@ -358,56 +445,138 @@
 | `שלש` | šlš  (شلش) | Old Aramaic spelling of תלת (tlāṯ, “three”) | **ثلث** | مباشر 3: three | سلس |
 | `שלשה` | šlšh  (شلشهـ) | Old Aramaic spelling of תלתא (tlāṯa, “three”) | **ثلث** | مباشر 3: three | سلس |
 | `נטל` | nṭl  (نطل) | to raise, lift, take up; to set out, travel | **نطل** | مباشر 3: out | - |
+| `צחק` | ṣḥq  (صحق) | laugh | **ضحك** | مباشر 3: laugh | زحك |
 | `בריך` | bryk  (بريك) | blessed | **برك** | مباشر 3: blessed | - |
 | `קדיש` | qdyš  (قديش) | holy | **قدس** | مباشر 3: holy | قدث · كدش · كدس · كدث |
 | `בוצלא` | bwṣlʾ  (بوصلأ) | onion | **بصل** | مباشر 3: onion | بزل |
 | `שונרא` | šwnrʾ  (شونرأ) | cat | **سنر** | مباشر 3: cat | شنر |
 | `טעמא` | ṭʿmʾ  (طعمأ) | taste | **طعم** | مباشر 3: taste | طغم · طحم · ظعم |
-| `רבי` | rby  (ربي) | rabbi, spiritual teacher; master | **رب** | مباشر 3: master | - |
-| `בר` | br  (بر) | outside, except | **بر** | مباشر 3: outside | - |
-| `צבא` | ṣbʾ  (صبأ) | to desire, to will, to wish | **صب** | مباشر 3: desire | ضب · ظب · زب |
-| `מאי` | mʾy  (مأي) | what, why | **ما** | مباشر 3: what | - |
-| `רבא` | rbʾ  (ربأ) | leader | **رب** | مباشر 3: leader | - |
-| `רבא` | rbʾ  (ربأ) | great, master | **رب** | مباشر 3: master | - |
-| `ימא` | ymʾ  (يمأ) | sea | **يم** | مباشر 3: sea | - |
-| `שמא` | šmʾ  (شمأ) | name; appellation, title | **سم** | مباشر 3: title | شم · ثم |
-| `דמא` | dmʾ  (دمأ) | blood | **دم** | مباشر 3: blood | ذم |
-| `הי` | hy  (هـي) | she, it | **هي** | مباشر 3: she | هو |
-| `שת` | št  (شت) | six (6) | **ست** | مباشر 3: six | شت · شث |
-| `שתא` | štʾ  (شتأ) | six (6) | **ست** | مباشر 3: six | شت · شث |
-| `רמא` | rmʾ  (رمأ) | to throw, to warp, to cast, to hurl; to put, to place | **رم** | مباشر 3: throw | - |
-| `חלא` | ḥlʾ  (حلأ) | vinegar | **خل** | مباشر 3: vinegar | حل |
-| `חלא` | ḥlʾ  (حلأ) | sand, gravel | **خل** | مباشر 3: sand | حل |
-| `לבא` | lbʾ  (لبأ) | heart | **لب** | مباشر 3: heart | - |
-| `דבא` | dbʾ  (دبأ) | bear | **دب** | مباشر 3: bear | ذب |
-| `הא` | hʾ  (هـأ) | behold! | **ها** | مباشر 3: behold | هء |
-| `מא` | mʾ  (مأ) | what | **ما** | مباشر 3: what | - |
-| `פומא` | p/fwmʾ  (فومأ) | mouth | **فم** | مباشر 3: mouth | بم |
-| `מוחא` | mwḥʾ  (موحأ) | brain; marrow | **مخ** | مباشر 3: brain | مح |
-| `סמא` | smʾ  (سمأ) | drug, medicine; poison | **سم** | مباشر 3: poison | شم |
-| `סופא` | swp/fʾ  (سوفأ) | limit, end, edge | **شف** | مباشر 3: edge | سف · سب · شب |
-| `עזא` | ʿzʾ  (عزأ) | goat | **عز** | مباشر 3: goat | عذ · غز · غذ · ضز · حز |
-| `קניא` | qnyʾ  (قنيأ) | cane, reed; straw, stalk | **قن** | مباشر 3: pen | كن |
-| `למא` | lmʾ  (لمأ) | why | **لم** | مباشر 3: why | - |
-| `חובא` | ḥwbʾ  (حوبأ) | love | **حب** | مباشر 3: love | خب |
-| `זוגא` | zwgʾ  (زوجأ) | yoke, pair | **زج** | مباشر 3: pair | ذج |
-| `זוג` | zwg  (زوج) | to pair, to join, to marry | **زج** | مباشر 3: pair | ذج |
-| `מורא` | mwrʾ  (مورأ) | myrrh | **مر** | مباشر 3: myrrh | - |
-| `קופא` | qwp/fʾ  (قوفأ) | monkey, ape; pole, bar | **كف** | مباشر 3: bar | قف · قب · كب |
-| `שורא` | šwrʾ  (شورأ) | wall, fortification, rampart; navel | **سر** | مباشر 3: navel | شر · ثر |
-| `עליא` | ʿlyʾ  (عليأ) | upper; supreme, highest | **عل** | مباشر 3: upper | غل · ضل · حل |
-| `עובא` | ʿwbʾ  (عوبأ) | bosom, breast; lap | **عب** | مباشر 3: breast | غب · ضب · حب |
-| `חומא` | ḥwmʾ  (حومأ) | heat | **حم** | مباشر 3: heat | خم |
-| `לה` | lh  (لهـ) | Form of ל־ including third-person masculine singular personal pronoun as object | **له** | مباشر 3: third | - |
-| `כף` | kp/f  (كف) | absolute state of כַּפָּא (kappā, “palm”); construct state of כַּפָּא (kappā, “palm”) | **كف** | مباشر 3: palm | كب |
-| `ידא` | ydʾ  (يدأ) | hand | **يد** | مباشر 3: hand | ود |
-| `דהב` | dhb  (دهـب) | to gild | **دب** | مباشر 3: gild | ذب |
-| `בזא` | bzʾ  (بزأ) | nipple, teat | **بز** | مباشر 3: teat | بذ |
-| `טלא` | ṭlʾ  (طلأ) | dew | **طل** | مباشر 3: dew | ظل |
-| `תרי` | try  (تري) | two (2) | **تر** | مباشر 3: two | ثر |
-| `מניא` | mnyʾ  (منيأ) | mina | **من** | مباشر 3: mina | - |
-| `שיתא` | šytʾ  (شيتأ) | six (6) | **ست** | مباشر 3: six | شت · شث |
-| `עדה` | ʿdh  (عدهـ) | a group or meeting (particularly for purposes of worship or judicial matters); congregatio | **عد** | قرينة 2: group meeting | عذ · غد · غذ · ضد · حد |
+| `קרא` | qrʾ  (قرأ) | to call; to read | **قري** | مباشر 3: read | قرا · قر · كر · قرر · قور |
+| `טוב` | ṭwb  (طوب) | to do/to be good | **طيب** | مباشر 3: good | طب · ظب · طبب · طوب · طاب |
+| `על` | ʿl  (عل) | on, upon; over | **وغل** | مباشر 3: upon | حول · حال · عل · علا · غلل |
+| `שוש` | šwš  (شوش) | to disturb, to disrupt, to confuse | **شوش** | مباشر 3: confuse | شس · شث · شيش · شاش · ششا |
+| `בר` | br  (بر) | outside, except | **بر** | مباشر 3: outside | برا · برر · بور · بير · برو |
+| `ריח` | ryḥ  (ريح) | to smell | **ريح** | مباشر 3: smell | رح · رخ · رحح · روح · رحو |
+| `נהר` | nhr  (نهـر) | to light, to shine | **نور** | مباشر 3: light | نير · نار · نرو · نرا · ونر |
+| `עור` | ʿwr  (عور) | to blind | **عور** | مباشر 3: blind | ضرر · عر · غر · ضر · حر |
+| `מאי` | mʾy  (مأي) | what, why | **ما** | مباشر 3: what | ماء · موا · ميا · يما |
+| `שור` | šwr  (شور) | to jump, to leap | **ثور** | مباشر 3: leap | شر · سر · ثر · شرر · شور |
+| `מן` | mn  (من) | since, after; because | **يمن** | مباشر 3: after | مان · من · منن · مون · مين |
+| `מיא` | myʾ  (ميأ) | water | **ميي** | مباشر 3: water | موي · ميا · ومي · موو · موا |
+| `רבא` | rbʾ  (ربأ) | leader | **رب** | مباشر 3: leader | ربب · روب · ريب · راب · ربو |
+| `רבא` | rbʾ  (ربأ) | great, master | **رب** | مباشر 3: master | ربب · روب · ريب · راب · ربو |
+| `מותא` | mwtʾ  (موتأ) | death | **موت** | مباشر 3: death | ميت · مات · مت · مث · متت |
+| `ימא` | ymʾ  (يمأ) | sea | **يم** | مباشر 3: sea | يمم · يوم · يما · ويم · ومي |
+| `עינא` | ʿynʾ  (عينأ) | fountain, spring | **عنن** | مباشر 3: spring | عين · عن · غن · ضن · حن |
+| `דמא` | dmʾ  (دمأ) | blood | **دم** | مباشر 3: blood | دمم · دمي · ذم · دوم · ديم |
+| `מריא` | mryʾ  (مريأ) | Lord; the Christian concept of God and Jesus. Used to represent the Tetragrammaton. | **مور** | مباشر 3: lord | مار · مر · مرر · مير · مرو |
+| `נורא` | nwrʾ  (نورأ) | fire | **نور** | مباشر 3: fire | نار · نير · نرو · نرا · ونر |
+| `פילא` | p/fylʾ  (فيلأ) | elephant | **فيل** | مباشر 3: elephant | فل · بل · فلل · فول · فلو |
+| `הי` | hy  (هـي) | she, it | **هي** | مباشر 3: she | هو · هوي · هيا · وهي · يهي |
+| `שת` | št  (شت) | six (6) | **ست** | مباشر 3: six | شت · شث · شتت · شيت · شتو |
+| `שתא` | štʾ  (شتأ) | six (6) | **ست** | مباشر 3: six | شت · شث · شتت · شيت · شتو |
+| `רמא` | rmʾ  (رمأ) | height, hill, elevation | **ريم** | مباشر 3: height | رم · رمم · روم · رمو · رمي |
+| `חלא` | ḥlʾ  (حلأ) | vinegar | **خل** | مباشر 3: vinegar | حل · حلل · حول · حيل · حال |
+| `חלא` | ḥlʾ  (حلأ) | sand, gravel | **خل** | مباشر 3: sand | حل · حلل · حول · حيل · حال |
+| `חיא` | ḥyʾ  (حيأ) | to live | **حيي** | مباشر 3: live | حيو · حي · حو · خي · خو |
+| `לבא` | lbʾ  (لبأ) | heart | **لب** | مباشر 3: heart | لبب · لوب · ليب · لبو · لبي |
+| `אחא` | ʾḥʾ  (أحأ) | brother | **ءخو** | مباشر 3: brother | اخ · اخو |
+| `נונא` | nwnʾ  (نونأ) | fish | **نون** | مباشر 3: fish | ننن · نين · نني · ونن · ينن |
+| `תורא` | twrʾ  (تورأ) | Taurus | **ثور** | مباشر 3: taurus | ثري · تر · ثر · ترر · تور |
+| `דבא` | dbʾ  (دبأ) | bear | **دب** | مباشر 3: bear | دبب · ذب · دوب · داب · دبو |
+| `הא` | hʾ  (هـأ) | behold! | **ها** | مباشر 3: behold | هء · هاء · هءو · هءي · هوا |
+| `מא` | mʾ  (مأ) | what | **ما** | مباشر 3: what | ماء · موا · ميا · يما |
+| `סבא` | sbʾ  (سبأ) | old man, grandfather | **شبب** | مباشر 3: man | شب · سب · سبب · سوب · سيب |
+| `דירא` | dyrʾ  (ديرأ) | dwelling, habitation; monastery | **دير** | مباشر 3: monastery | در · ذر · درر · دور · دار |
+| `ליליא` | lylyʾ  (ليليأ) | night | **ليل** | مباشر 3: night | لول · للو · للي · يلل |
+| `צורא` | ṣwrʾ  (صورأ) | neck | **صور** | مباشر 3: neck | صر · ضر · ظر · زر · صرر |
+| `פומא` | p/fwmʾ  (فومأ) | mouth | **فم** | مباشر 3: mouth | بم · فمم · فوم · فيم · فمي |
+| `לית` | lyt  (ليت) | there is not, there are not; not to have | **لات** | مباشر 3: not | لوث · لت · لث · لتت · لوت |
+| `מוחא` | mwḥʾ  (موحأ) | brain; marrow | **مخ** | مباشر 3: brain | مخخ · مح · محح · ميح · محو |
+| `רחיא` | rḥyʾ  (رحيأ) | mill, millstone | **رحو** | مباشر 3: millstone | رح · رخ · رحح · روح · ريح |
+| `דינא` | dynʾ  (دينأ) | judge | **دين** | مباشر 3: judge | دن · ذن · دنن · دون · دنو |
+| `חור` | ḥwr  (حور) | to look at, to watch, to stare; to be white, to be pale | **حري** | مباشر 3: look | حر · خر · حرر · حور · حير |
+| `חיותא` | ḥywtʾ  (حيوتأ) | life, living, vitality | **حيث** | مباشر 3: life | حت · حث · خت · خث · حتت |
+| `טב` | ṭb  (طب) | good | **طيب** | مباشر 3: good | طب · ظب · طبب · طوب · طاب |
+| `זנא` | znʾ  (زنأ) | type, kind; method, manner | **وزن** | مباشر 3: method | زن · ذن · زنن · زون · زين |
+| `חמא` | ḥmʾ  (حمأ) | to brood; to protect | **حمي** | مباشر 3: brood | حم · خم · حمم · حوم · حيم |
+| `רעיא` | rʿyʾ  (رعيأ) | shepherd | **راع** | مباشر 3: shepherd | رع · رض · رح · رعع · روع |
+| `כסא` | ksʾ  (كسأ) | cup | **كاس** | مباشر 3: cup | كس · كش · كسس · كوس · كيس |
+| `כסא` | ksʾ  (كسأ) | to cover, to conceal, to hide | **كسا** | مباشر 3: cover | كس · كش · كسس · كوس · كيس |
+| `רומא` | rwmʾ  (رومأ) | height, breadth, size | **ريم** | مباشر 3: height | رم · رمم · روم · رمو · رمي |
+| `סופא` | swp/fʾ  (سوفأ) | limit, end, edge | **شف** | مباشر 3: edge | شفا · سيف · سف · سب · شب |
+| `נקיא` | nqyʾ  (نقيأ) | ewe (female sheep) | **نوق** | مباشر 3: female | نق · نقق · نيق · نقو · نقي |
+| `תישא` | tyšʾ  (تيشأ) | goat | **تيس** | مباشر 3: goat | تش · تشو · تشا · وتش · تسس |
+| `עזא` | ʿzʾ  (عزأ) | goat | **عز** | مباشر 3: goat | عزا · عذ · غز · غذ · ضز |
+| `קניא` | qnyʾ  (قنيأ) | cane, reed; straw, stalk | **قن** | مباشر 3: pen | قنن · كن · قون · قين · قان |
+| `דרא` | drʾ  (درأ) | age, generation; row, rank | **دور** | مباشر 3: age | در · ذر · درر · دير · دار |
+| `תומא` | twmʾ  (تومأ) | garlic | **ثوم** | مباشر 3: garlic | تم · ثم · تمم · توم · تيم |
+| `למא` | lmʾ  (لمأ) | why | **لم** | مباشر 3: why | لمم · لوم · ليم · لام · لمو |
+| `חובא` | ḥwbʾ  (حوبأ) | love | **حب** | مباشر 3: love | حبب · خب · حوب · حبو · حبا |
+| `ענא` | ʿnʾ  (عنأ) | to answer, to respond; to be busy, to be occupied | **عني** | مباشر 3: occupied | عن · غن · ضن · حن · عنن |
+| `דיבא` | dybʾ  (ديبأ) | wolf | **ذيب** | مباشر 3: wolf | دب · ذب · دبب · دوب · داب |
+| `קיניא` | qynyʾ  (قينيأ) | smith | **قين** | مباشر 3: smith | قن · كن · قنن · قون · قان |
+| `בניא` | bnyʾ  (بنيأ) | builder, founder | **بني** | مباشر 3: builder | بنا · بن · بنن · بون · بين |
+| `מנא` | mnʾ  (منأ) | manna | **منن** | مباشر 3: manna | من · مون · مين · مان · منو |
+| `קיטא` | qyṭʾ  (قيطأ) | summer | **قيظ** | مباشر 3: summer | قط · كظ · قطط · قوط · قيط |
+| `סתוא` | stwʾ  (ستوأ) | winter; storm | **شتو** | مباشر 3: winter | شتا · ست · شت · شث · ستت |
+| `קשיא` | qšyʾ  (قشيأ) | rough, hard | **قسو** | مباشر 3: hard | قش · قس · قث · كش · كس |
+| `צלא` | ṣlʾ  (صلأ) | to pray; to bend down (to pray) | **صلو** | مباشر 3: pray | صلي · زول · صل · ضل · ظل |
+| `חיט` | ḥyṭ  (حيط) | to sew | **خيط** | مباشر 3: sew | حط · حظ · خط · خظ · حطط |
+| `מלא` | mlʾ  (ملأ) | words; things, matter | **مال** | مباشر 3: matter | مل · ملل · مول · ميل · ملو |
+| `מלא` | mlʾ  (ملأ) | to fill, to be filled; to be complete | **ملو** | مباشر 3: filled | مل · ملل · مول · ميل · مال |
+| `מיתא` | mytʾ  (ميتأ) | dead | **موت** | مباشر 3: dead | ميت · مت · مث · متت · مات |
+| `קעא` | qʿʾ  (قعأ) | to shout, to cry out | **قضي** | مباشر 3: out | كح · قع · قض · قح · كع |
+| `זוגא` | zwgʾ  (زوجأ) | yoke, pair | **زج** | مباشر 3: pair | زوج · ذج · زجج · زيج · زجو |
+| `עוירא` | ʿwyrʾ  (عويرأ) | blind | **عور** | مباشر 3: blind | ضرر · عر · غر · ضر · حر |
+| `תור` | twr  (تور) | bull, ox | **ثور** | مباشر 3: bull | تر · ثر · ترر · تور · تير |
+| `מורא` | mwrʾ  (مورأ) | myrrh | **مر** | مباشر 3: myrrh | مرر · مور · مير · مار · مرو |
+| `לישא` | lyšʾ  (ليشأ) | dough | **لوث** | مباشر 3: dough | لس · لث · لشش · لوش · لشو |
+| `קופא` | qwp/fʾ  (قوفأ) | monkey, ape; pole, bar | **كف** | مباشر 3: bar | قف · قب · كب · قفف · قوف |
+| `בעא` | bʿʾ  (بعأ) | to ask, to beg; to need, to require | **بضض** | مباشر 3: need | بض · بح · بعع · بوع · بيع |
+| `קשא` | qšʾ  (قشأ) | to harden | **قسو** | مباشر 3: harden | قش · قس · قث · كش · كس |
+| `ולא` | wlʾ  (ولأ) | to fit, to befit; to be appropriate | **ولي** | مباشر 3: appropriate | ول · وول · ويل · ولو · يول |
+| `עליא` | ʿlyʾ  (عليأ) | upper; supreme, highest | **عل** | مباشر 3: upper | عال · علو · علي · غل · ضل |
+| `עובא` | ʿwbʾ  (عوبأ) | bosom, breast; lap | **عب** | مباشر 3: breast | غب · ضب · حب · عبب · عيب |
+| `נסא` | nsʾ  (نسأ) | to tempt; to attempt, to try, to experiment | **نسي** | مباشر 3: try | نس · نش · نسس · نوس · نيس |
+| `עולא` | ʿwlʾ  (عولأ) | fetus, embryo; young child, infant | **عول** | مباشر 3: child | عيل · غول · غلو · عل · غل |
+| `עולא` | ʿwlʾ  (عولأ) | injustice | **عول** | مباشر 3: injustice | عل · غل · ضل · حل · علل |
+| `רהומא` | rhwmʾ  (رهـومأ) | Rome | **روم** | مباشر 3: rome | رم · رمم · ريم · رمو · رمي |
+| `תוב` | twb  (توب) | again; furthermore | **ثوب** | مباشر 3: again | تب · ثب · تبب · توب · تيب |
+| `תנא` | tnʾ  (تنأ) | to repeat | **ثني** | مباشر 3: repeat | تن · ثن · تنن · تون · تين |
+| `חומא` | ḥwmʾ  (حومأ) | heat | **حم** | مباشر 3: heat | حمم · خم · حوم · حيم · حمو |
+| `מרא` | mrʾ  (مرأ) | lord, master, ruler; owner | **مور** | مباشر 3: lord | مير · مر · مرر · مار · مرو |
+| `לה` | lh  (لهـ) | Form of ל־ including third-person masculine singular personal pronoun as object | **له** | مباشر 3: third | لهه · لوه · ليه · لاه · لهو |
+| `כף` | kp/f  (كف) | absolute state of כַּפָּא (kappā, “palm”); construct state of כַּפָּא (kappā, “palm”) | **كف** | مباشر 3: palm | كفف · كب · كوف · كيف · كاف |
+| `ידא` | ydʾ  (يدأ) | hand | **يد** | مباشر 3: hand | يدي · ود · يدد · يوذ · ودد |
+| `קצא` | qṣʾ  (قصأ) | to break | **وقص** | مباشر 3: break | قص · قض · قز · كص · كض |
+| `תותא` | twtʾ  (توتأ) | mulberry | **توت** | مباشر 3: mulberry | تيت · تتو · تتا · وتت · توث |
+| `חוט` | ḥwṭ  (حوط) | to sew | **خيط** | مباشر 3: sew | حط · حظ · خط · خظ · حطط |
+| `לביה` | lbyh  (لبيهـ) | lioness | **لبو** | مباشر 3: lioness | لب · لبب · لوب · ليب · لبي |
+| `עיקא` | ʿyqʾ  (عيقأ) | narrow | **ضيق** | مباشر 3: narrow | ضاق · عق · عك · غق · ضق |
+| `גדיא` | gdyʾ  (جديأ) | Capricorn | **جدي** | مباشر 3: capricorn | جد · جذ · جدد · جود · جيد |
+| `דולא` | dwlʾ  (دولأ) | bucket | **دلو** | مباشر 3: bucket | دل · ذل · دلل · دول · ديل |
+| `דהב` | dhb  (دهـب) | to gild | **دب** | مباشر 3: gild | ذب · دبب · دوب · داب · دبو |
+| `קליא` | qlyʾ  (قليأ) | roasted, fried | **قلي** | مباشر 3: fried | قل · كل · قلل · قول · قيل |
+| `חלי` | ḥly  (حلي) | to be sweet, to sweeten | **حيل** | مباشر 3: sweet | حلو · حلي · حل · خل · حلل |
+| `שושא` | šwšʾ  (شوشأ) | liquorice/licorice | **سوس** | مباشر 3: licorice | شس · شث · شوش · شيش · شاش |
+| `ניחא` | nyḥʾ  (نيحأ) | quiet, calm, peacefulness; rest, ease, relief | **نوخ** | مباشر 3: rest | نح · نخ · نحح · نوح · نيح |
+| `תדא` | tdʾ  (تدأ) | breast, pap | **ثدي** | مباشر 3: breast | تود · تيد · وتد · ثاد · ثدو |
+| `בזא` | bzʾ  (بزأ) | nipple, teat | **بز** | مباشر 3: teat | بذ · بزز · بوز · بيز · باز |
+| `בזא` | bzʾ  (بزأ) | hawk, falcon | **باز** | مباشر 3: hawk | بز · بذ · بزز · بوز · بيز |
+| `חליא` | ḥlyʾ  (حليأ) | sweet, sweetened | **حيل** | مباشر 3: sweet | حلو · حلي · حل · خل · حلل |
+| `טלא` | ṭlʾ  (طلأ) | dew | **طل** | مباشر 3: dew | طلل · ظل · طول · طال · طلو |
+| `גזא` | gzʾ  (جزأ) | mowing, shearing | **جزز** | مباشر 3: shearing | جز · جذ · جوز · جيز · جاز |
+| `תרי` | try  (تري) | two (2) | **تر** | مباشر 3: two | ثر · ترر · تور · تير · تري |
+| `כדי` | kdy  (كدي) | when, as soon as. | **كيد** | مباشر 3: soon | كد · كذ · كدد · كود · كدو |
+| `שוא` | šwʾ  (شوأ) | to be equal; to be worthy | **سوي** | مباشر 3: equal | سوا · شو · سو · ثو · شوي |
+| `עדה` | ʿdh  (عدهـ) | a group or meeting (particularly for purposes of worship or judicial matters); congregatio | **وعد** | مباشر 3: meeting | عد · عذ · غد · غذ · ضد |
+| `מניא` | mnyʾ  (منيأ) | mina | **من** | مباشر 3: mina | مني · منن · مون · مين · مان |
+| `מית` | myt  (ميت) | to die | **موت** | مباشر 3: die | مات · مت · مث · متت · ميت |
+| `טפי` | ṭp/fy  (طفي) | more | **طيب** | مباشر 3: more | وظف · طف · طب · ظف · ظب |
+| `שיתא` | šytʾ  (شيتأ) | six (6) | **ست** | مباشر 3: six | شت · شث · شتت · شيت · شتو |
+| `ליתא` | lytʾ  (ليتأ) | lion | **ليث** | مباشر 3: lion | لت · لث · لتت · لوت · ليت |
+| `בית` | byt  (بيت) | beth, the second letter of the Aramaic alphabet. | **بيت** | قرينة 3: alphabet letter second | بت · بث · بتت · بوت · بتو |
 | `אבולא` | ʾbwlʾ  (أبولأ) | wagon-gate, city gateway; a fortified place where people like judges sit | **ابل** | قرينة 1: city | - |
 | `ירק` | yrq  (يرق) | to be light coloured/colored, pale, green, yellow | **ورك** | قرينة 1: green | يرق · ورق |
 | `חבר` | ḥbr  (حبر) | to associate with, to gather together | **خبر** | قرينة 1: gather | حبر |
@@ -424,16 +593,21 @@
 | `חרבא` | ḥrbʾ  (حربأ) | sword, dagger; blade | **حرب** | قرينة 1: blade | خرب |
 | `גנן` | gnn  (جنن) | to dwell, to inhabit | **جنن** | قرينة 1: inhabit | - |
 | `דמן` | dmn  (دمن) | whose | **دمن** | قرينة 1: whose | ذمن |
+| `זעק` | zʿq  (زعق) | to cry | **زعق** | قرينة 1: cry | زعك · زحك · ذعق · ذحق |
 | `גניסא` | gnysʾ  (جنيسأ) | family, gentry | **جنس** | قرينة 1: family | جنش |
-| `על` | ʿl  (عل) | on, upon; over | **عل** | قرينة 1: about | غل · ضل · حل |
-| `לא` | lʾ  (لأ) | no, not | **لا** | قرينة 1: not | - |
-| `אינא` | ʾynʾ  (أينأ) | which | **ان** | قرينة 1: which | - |
-| `אידא` | ʾydʾ  (أيدأ) | which | **اد** | قرينة 1: which | اذ |
-| `סבא` | sbʾ  (سبأ) | old man, grandfather | **شب** | قرينة 1: man | سب |
-| `חילא` | ḥylʾ  (حيلأ) | strength, force, power | **خل** | قرينة 1: power | حل |
-| `רומא` | rwmʾ  (رومأ) | height, breadth, size | **رم** | قرينة 1: size | - |
-| `ענא` | ʿnʾ  (عنأ) | to answer, to respond; to be busy, to be occupied | **عن** | قرينة 1: occupied | غن · ضن · حن |
-| `טביא` | ṭbyʾ  (طبيأ) | gazelle; roe, deer | **ظب** | قرينة 1: deer | طب |
-| `קעא` | qʿʾ  (قعأ) | to shout, to cry out | **كح** | قرينة 1: out | قع · قض · قح · كع · كض |
-| `עיבא` | ʿybʾ  (عيبأ) | rain cloud | **غب** | قرينة 1: rain | عب · ضب · حب |
-| `קנא` | qnʾ  (قنأ) | to get, to gain, to obtain; to possess | **كن** | قرينة 1: get | قن |
+| `זעיק` | zʿyq  (زعيق) | to cry | **زعق** | قرينة 1: cry | زعك · زحك · ذعق · ذحق |
+| `לא` | lʾ  (لأ) | no, not | **لا** | قرينة 1: not | ليا |
+| `תורא` | twrʾ  (تورأ) | ox-driver; cattle dealer | **ثور** | قرينة 1: cattle | تر · ثر · ترر · تور · تير |
+| `תורא` | twrʾ  (تورأ) | cord, band; row, line | **وتر** | قرينة 1: band | تر · ثر · ترر · تور · تير |
+| `אינא` | ʾynʾ  (أينأ) | which | **ان** | قرينة 1: which | اون · اين · انو · انا |
+| `אידא` | ʾydʾ  (أيدأ) | which | **اد** | قرينة 1: which | اذ · اود · ايد · ادو · واد |
+| `קיסא` | qysʾ  (قيسأ) | wood; stick, stake | **قوس** | قرينة 1: wood | قس · قش · كس · كش · قسس |
+| `חיותא` | ḥywtʾ  (حيوتأ) | wild animal, creature | **حوت** | قرينة 1: animal | حت · حث · خت · خث · حتت |
+| `צירא` | ṣyrʾ  (صيرأ) | An artist's tool (pen, pencil, stylus, brush, chisel, etc.) | **صور** | قرينة 1: artist | صر · ضر · ظر · زر · صرر |
+| `מנא` | mnʾ  (منأ) | to count, to number | **مان** | قرينة 1: number | من · منن · مون · مين · منو |
+| `סיפא` | syp/fʾ  (سيفأ) | end, distant region | **سيف** | قرينة 1: end | شبا · سف · سب · شف · شب |
+| `עיבא` | ʿybʾ  (عيبأ) | rain cloud | **غب** | قرينة 1: rain | عب · ضب · حب · عبب · عيب |
+| `מתא` | mtʾ  (متأ) | home; homeland, birthplace | **موت** | قرينة 1: region | مت · مث · متت · ميت · مات |
+| `שניא` | šnyʾ  (شنيأ) | years | **سنن** | قرينة 1: years | شن · سن · ثن · شنن · شون |
+| `רדיא` | rdyʾ  (رديأ) | flow, current; flux, fusion (of metal) | **ورد** | قرينة 1: water | رد · رذ · ردد · رود · ريد |
+| `עוזא` | ʿwzʾ  (عوزأ) | energy, fervour; strength, force | **عزز** | قرينة 1: strength | غزا · عز · عذ · غز · غذ |

@@ -3,140 +3,155 @@
  "layer": "استكشاف",
  "note": "مادّةٌ مرشَّحةٌ من مسحِ الفروعِ الأصيلةِ: الصوتُ يُقابِلُ أوّلًا والمعنى يحكُمُ بعدَه. لا تدخلُ عدَّ الصلاتِ الصادرة.",
  "totals": {
-  "both": 3989,
-  "direct": 2899,
-  "sound_only": 23294,
+  "both": 11854,
+  "direct": 8151,
+  "sound_only": 62721,
   "tongues": 14
  },
  "tongues": [
-  {
-   "key": "hebrew",
-   "ar": "العِبرِيّة",
-   "en": "Hebrew",
-   "distance": 1,
-   "both": 1319,
-   "direct": 1074,
-   "sound_only": 3000
-  },
-  {
-   "key": "aramaic",
-   "ar": "الآرامِيّة",
-   "en": "Aramaic",
-   "distance": 1,
-   "both": 426,
-   "direct": 396,
-   "sound_only": 1043
-  },
   {
    "key": "latin",
    "ar": "اللاتينِيّةُ القَديمة",
    "en": "Old Latin",
    "distance": 3,
-   "both": 416,
-   "direct": 285,
-   "sound_only": 3000
+   "both": 2783,
+   "direct": 1829,
+   "sound_only": 12453
   },
   {
-   "key": "ancient_greek",
-   "ar": "اليونانِيّةُ القَديمة",
-   "en": "Ancient Greek",
-   "distance": 3,
-   "both": 408,
-   "direct": 251,
-   "sound_only": 3000
-  },
-  {
-   "key": "coptic",
-   "ar": "القِبطِيّة",
-   "en": "Coptic",
-   "distance": 2,
-   "both": 344,
-   "direct": 238,
-   "sound_only": 3000
+   "key": "hebrew",
+   "ar": "العِبرِيّة",
+   "en": "Hebrew",
+   "distance": 1,
+   "both": 1851,
+   "direct": 1567,
+   "sound_only": 5926
   },
   {
    "key": "english_middle",
    "ar": "الإنجليزِيّةُ الوُسطى",
    "en": "Middle English",
    "distance": 3,
-   "both": 248,
-   "direct": 112,
-   "sound_only": 1562
+   "both": 1163,
+   "direct": 658,
+   "sound_only": 3497
   },
   {
-   "key": "egyptian",
-   "ar": "المِصرِيّةُ القَديمة",
-   "en": "Ancient Egyptian",
-   "distance": 2,
-   "both": 205,
-   "direct": 139,
-   "sound_only": 3000
-  },
-  {
-   "key": "persian",
-   "ar": "الفارِسِيّة",
-   "en": "Persian",
+   "key": "ancient_greek",
+   "ar": "اليونانِيّةُ القَديمة",
+   "en": "Ancient Greek",
    "distance": 3,
-   "both": 127,
-   "direct": 101,
-   "sound_only": 974
-  },
-  {
-   "key": "akkadian",
-   "ar": "الأَكّادِيّة",
-   "en": "Akkadian",
-   "distance": 1,
-   "both": 120,
-   "direct": 96,
-   "sound_only": 359
-  },
-  {
-   "key": "welsh",
-   "ar": "الويلزِيّة",
-   "en": "Welsh",
-   "distance": 3,
-   "both": 110,
-   "direct": 55,
-   "sound_only": 1806
+   "both": 1098,
+   "direct": 695,
+   "sound_only": 7951
   },
   {
    "key": "english_old",
    "ar": "الإنجليزِيّةُ القَديمة",
    "en": "Old English",
    "distance": 3,
-   "both": 105,
-   "direct": 54,
-   "sound_only": 815
+   "both": 750,
+   "direct": 448,
+   "sound_only": 2153
+  },
+  {
+   "key": "coptic",
+   "ar": "القِبطِيّة",
+   "en": "Coptic",
+   "distance": 2,
+   "both": 678,
+   "direct": 484,
+   "sound_only": 5107
+  },
+  {
+   "key": "egyptian",
+   "ar": "المِصرِيّةُ القَديمة",
+   "en": "Ancient Egyptian",
+   "distance": 2,
+   "both": 650,
+   "direct": 410,
+   "sound_only": 13339
+  },
+  {
+   "key": "welsh",
+   "ar": "الويلزِيّة",
+   "en": "Welsh",
+   "distance": 3,
+   "both": 627,
+   "direct": 361,
+   "sound_only": 3969
+  },
+  {
+   "key": "aramaic",
+   "ar": "الآرامِيّة",
+   "en": "Aramaic",
+   "distance": 1,
+   "both": 600,
+   "direct": 565,
+   "sound_only": 953
   },
   {
    "key": "old_norse",
    "ar": "النَّورسِيّةُ القَديمة",
    "en": "Old Norse",
    "distance": 3,
-   "both": 88,
-   "direct": 55,
-   "sound_only": 710
+   "both": 505,
+   "direct": 324,
+   "sound_only": 2158
+  },
+  {
+   "key": "persian",
+   "ar": "الفارِسِيّة",
+   "en": "Persian",
+   "distance": 3,
+   "both": 494,
+   "direct": 366,
+   "sound_only": 2304
   },
   {
    "key": "old_irish",
    "ar": "الإيرلَندِيّةُ القَديمة",
    "en": "Old Irish",
    "distance": 3,
-   "both": 44,
-   "direct": 27,
-   "sound_only": 542
+   "both": 338,
+   "direct": 215,
+   "sound_only": 1523
+  },
+  {
+   "key": "akkadian",
+   "ar": "الأَكّادِيّة",
+   "en": "Akkadian",
+   "distance": 1,
+   "both": 199,
+   "direct": 156,
+   "sound_only": 317
   },
   {
    "key": "gothic",
    "ar": "القوطِيّة",
    "en": "Gothic",
    "distance": 3,
-   "both": 29,
-   "direct": 16,
-   "sound_only": 483
+   "both": 118,
+   "direct": 73,
+   "sound_only": 1071
   }
  ],
  "examples": [
+  {
+   "key": "akkadian",
+   "ar": "الأَكّادِيّة",
+   "en": "Akkadian",
+   "branch": "libbum",
+   "say": "libbum",
+   "gloss": "heart, abdomen, womb; mind, thought, intention, wish, desire, preferen",
+   "arabic": "لبب",
+   "shared": [
+    "abdomen",
+    "desire",
+    "heart",
+    "inner"
+   ]
+  },
   {
    "key": "akkadian",
    "ar": "الأَكّادِيّة",
@@ -171,6 +186,21 @@
    "key": "akkadian",
    "ar": "الأَكّادِيّة",
    "en": "Akkadian",
+   "branch": "nâḫum",
+   "say": "nâḫum",
+   "gloss": "to rest, take a rest; to be at rest, slow, still, peaceful, pacified",
+   "arabic": "نوخ",
+   "shared": [
+    "pacified",
+    "peaceful",
+    "rest",
+    "slow"
+   ]
+  },
+  {
+   "key": "akkadian",
+   "ar": "الأَكّادِيّة",
+   "en": "Akkadian",
    "branch": "šalāmum",
    "say": "šalāmum",
    "gloss": "to be(come) healthy, well, intact, in good condition, safe; to receive",
@@ -186,45 +216,15 @@
    "key": "akkadian",
    "ar": "الأَكّادِيّة",
    "en": "Akkadian",
-   "branch": "šarāqum",
-   "say": "šarāqum",
-   "gloss": "to steal, to act as a thief; to kidnap",
-   "arabic": "سرق",
+   "branch": "bītum",
+   "say": "bītum",
+   "gloss": "house; palace",
+   "arabic": "بيت",
    "shared": [
-    "act",
-    "kidnap",
-    "steal",
-    "thief"
-   ]
-  },
-  {
-   "key": "akkadian",
-   "ar": "الأَكّادِيّة",
-   "en": "Akkadian",
-   "branch": "šamšum",
-   "say": "šamšum",
-   "gloss": "sun; sunlight",
-   "arabic": "شمس",
-   "shared": [
-    "day",
-    "disk",
-    "sun",
-    "sunlight"
-   ]
-  },
-  {
-   "key": "akkadian",
-   "ar": "الأَكّادِيّة",
-   "en": "Akkadian",
-   "branch": "marṣum",
-   "say": "marṣum",
-   "gloss": "verbal adjective of marāṣum:; sick, diseased",
-   "arabic": "مرض",
-   "shared": [
-    "difficult",
-    "diseased",
-    "sick",
-    "troublesome"
+    "family",
+    "house",
+    "household",
+    "palace"
    ]
   },
   {
@@ -246,6 +246,21 @@
    "key": "ancient_greek",
    "ar": "اليونانِيّةُ القَديمة",
    "en": "Ancient Greek",
+   "branch": "πάσχα",
+   "say": "paskha  (باسخا)",
+   "gloss": "Passover; Paschal dinner, Passover meal",
+   "arabic": "فصح",
+   "shared": [
+    "easter",
+    "lamb",
+    "paschal",
+    "passover"
+   ]
+  },
+  {
+   "key": "ancient_greek",
+   "ar": "اليونانِيّةُ القَديمة",
+   "en": "Ancient Greek",
    "branch": "κορύνη",
    "say": "korunē  (كوروني)",
    "gloss": "mace, club shod with iron for fighting; shepherd's staff",
@@ -261,55 +276,44 @@
    "key": "ancient_greek",
    "ar": "اليونانِيّةُ القَديمة",
    "en": "Ancient Greek",
-   "branch": "νάφθα",
-   "say": "naphtha  (نافثا)",
-   "gloss": "naphtha, naturally occurring liquid petroleum",
-   "arabic": "نفط",
+   "branch": "πταίω",
+   "say": "ptaiō  (بتايو)",
+   "gloss": "to cause to stumble, fall or fail; to stumble, trip, fall",
+   "arabic": "بط",
    "shared": [
-    "naphtha",
-    "petroleum"
+    "cause",
+    "fail",
+    "fall",
+    "stumble"
    ]
   },
   {
    "key": "ancient_greek",
    "ar": "اليونانِيّةُ القَديمة",
    "en": "Ancient Greek",
-   "branch": "σήκωμα",
-   "say": "sēkōma  (سيكوما)",
-   "gloss": "weight in the balance, counterpoise, counterweight; makeweight",
-   "arabic": "سقم",
+   "branch": "ἐρητύω",
+   "say": "erētuō  (إريتوو)",
+   "gloss": "to keep back, restrain, check, bar; to keep away from",
+   "arabic": "ردد",
    "shared": [
-    "counterpoise",
-    "standard",
-    "weight"
+    "away",
+    "back",
+    "keep",
+    "restrain"
    ]
   },
   {
    "key": "ancient_greek",
    "ar": "اليونانِيّةُ القَديمة",
    "en": "Ancient Greek",
-   "branch": "σημύδα",
-   "say": "sēmuda  (سيمودا)",
-   "gloss": "The meaning of this term is uncertain. Possibilities include:; Judas t",
-   "arabic": "صمد",
+   "branch": "χαλάω",
+   "say": "khalaō  (خالاو)",
+   "gloss": "to slacken; to loosen; to become slack; to become loose",
+   "arabic": "حل",
    "shared": [
-    "include",
-    "possibilities",
-    "term"
-   ]
-  },
-  {
-   "key": "ancient_greek",
-   "ar": "اليونانِيّةُ القَديمة",
-   "en": "Ancient Greek",
-   "branch": "καφουρά",
-   "say": "kaphoura  (كافوورا)",
-   "gloss": "camphor tree (Cinnamomum camphora)",
-   "arabic": "كفر",
-   "shared": [
-    "camphor",
-    "camphora",
-    "cinnamomum"
+    "become",
+    "loosen",
+    "open"
    ]
   },
   {
@@ -346,6 +350,36 @@
    "key": "aramaic",
    "ar": "الآرامِيّة",
    "en": "Aramaic",
+   "branch": "רמא",
+   "say": "rmʾ  (رمأ)",
+   "gloss": "to throw, to warp, to cast, to hurl; to put, to place",
+   "arabic": "رمي",
+   "shared": [
+    "cast",
+    "hurl",
+    "put",
+    "throw"
+   ]
+  },
+  {
+   "key": "aramaic",
+   "ar": "الآرامِيّة",
+   "en": "Aramaic",
+   "branch": "בבא",
+   "say": "bbʾ  (ببأ)",
+   "gloss": "gate, door, entrance; section, clause",
+   "arabic": "باب",
+   "shared": [
+    "chapter",
+    "door",
+    "entrance",
+    "gate"
+   ]
+  },
+  {
+   "key": "aramaic",
+   "ar": "الآرامِيّة",
+   "en": "Aramaic",
    "branch": "כבר",
    "say": "kbr  (كبر)",
    "gloss": "to increase, multiply, make much/many",
@@ -370,36 +404,6 @@
     "clothing",
     "oneself",
     "wear"
-   ]
-  },
-  {
-   "key": "aramaic",
-   "ar": "الآرامِيّة",
-   "en": "Aramaic",
-   "branch": "פסק",
-   "say": "p/fsq  (فسق)",
-   "gloss": "to cut off, to break away",
-   "arabic": "فسق",
-   "shared": [
-    "away",
-    "break",
-    "cut",
-    "off"
-   ]
-  },
-  {
-   "key": "aramaic",
-   "ar": "الآرامِيّة",
-   "en": "Aramaic",
-   "branch": "חרת",
-   "say": "ḥrt  (حرت)",
-   "gloss": "to dig; to plough/plow, to till",
-   "arabic": "حرث",
-   "shared": [
-    "dig",
-    "plough",
-    "plow",
-    "till"
    ]
   },
   {
@@ -493,6 +497,21 @@
    "key": "egyptian",
    "ar": "المِصرِيّةُ القَديمة",
    "en": "Ancient Egyptian",
+   "branch": "mwt.t",
+   "say": "mwt.t",
+   "gloss": "EN: dead person (as potentially harmful to the living) | DE: die Tote;",
+   "arabic": "موت",
+   "shared": [
+    "dead",
+    "die",
+    "harmful",
+    "living"
+   ]
+  },
+  {
+   "key": "egyptian",
+   "ar": "المِصرِيّةُ القَديمة",
+   "en": "Ancient Egyptian",
    "branch": "brk",
    "say": "brk",
    "gloss": "EN: to bow; to kneel (in homage); to bless (Sem. loan word) | DE: bete",
@@ -517,6 +536,20 @@
     "harmful",
     "living",
     "potentially"
+   ]
+  },
+  {
+   "key": "egyptian",
+   "ar": "المِصرِيّةُ القَديمة",
+   "en": "Ancient Egyptian",
+   "branch": "ḫrw",
+   "say": "ḫrw",
+   "gloss": "EN: voice; sound; quarrel | DE: Stimme; Geräusch; Zank; Krach",
+   "arabic": "خر",
+   "shared": [
+    "quarrel",
+    "sound",
+    "voice"
    ]
   },
   {
@@ -548,31 +581,18 @@
    ]
   },
   {
-   "key": "egyptian",
-   "ar": "المِصرِيّةُ القَديمة",
-   "en": "Ancient Egyptian",
-   "branch": "mn",
-   "say": "mn",
-   "gloss": "EN: to remain; to endure; to be established | DE: bleiben; fortdauern;",
-   "arabic": "من",
+   "key": "english_middle",
+   "ar": "الإنجليزِيّةُ الوُسطى",
+   "en": "Middle English",
+   "branch": "sad",
+   "say": "sad",
+   "gloss": "sated, weary (having had enough); firm, solid, hard:",
+   "arabic": "شدد",
    "shared": [
-    "endure",
-    "established",
-    "remain"
-   ]
-  },
-  {
-   "key": "egyptian",
-   "ar": "المِصرِيّةُ القَديمة",
-   "en": "Ancient Egyptian",
-   "branch": "mt",
-   "say": "mt",
-   "gloss": "EN: vessel (of the body); cord (of muscles, tenons, etc.) | DE: Gefäß ",
-   "arabic": "مت",
-   "shared": [
-    "body",
-    "cord",
-    "vessel"
+    "firm",
+    "hard",
+    "intense",
+    "powerful"
    ]
   },
   {
@@ -594,6 +614,51 @@
    "key": "english_middle",
    "ar": "الإنجليزِيّةُ الوُسطى",
    "en": "Middle English",
+   "branch": "mirre",
+   "say": "mirre",
+   "gloss": "Myrrh (the dried sap of a tree of the species Commiphora myrrha); The ",
+   "arabic": "مر",
+   "shared": [
+    "commiphora",
+    "dried",
+    "myrrh",
+    "myrrha"
+   ]
+  },
+  {
+   "key": "english_middle",
+   "ar": "الإنجليزِيّةُ الوُسطى",
+   "en": "Middle English",
+   "branch": "schade",
+   "say": "schade",
+   "gloss": "A shadow; a dark image formed by blocking light.; A shade; the darkene",
+   "arabic": "سود",
+   "shared": [
+    "dark",
+    "darkened",
+    "region",
+    "shadow"
+   ]
+  },
+  {
+   "key": "english_middle",
+   "ar": "الإنجليزِيّةُ الوُسطى",
+   "en": "Middle English",
+   "branch": "dere",
+   "say": "dere",
+   "gloss": "A harm or damage; something harmful:; An injury or wound; a physical h",
+   "arabic": "ضرر",
+   "shared": [
+    "damage",
+    "harm",
+    "harmful",
+    "injury"
+   ]
+  },
+  {
+   "key": "english_middle",
+   "ar": "الإنجليزِيّةُ الوُسطى",
+   "en": "Middle English",
    "branch": "couple",
    "say": "couple",
    "gloss": "A group of two (especially living beings; never three or more as in mo",
@@ -606,58 +671,46 @@
    ]
   },
   {
-   "key": "english_middle",
-   "ar": "الإنجليزِيّةُ الوُسطى",
-   "en": "Middle English",
-   "branch": "grom",
-   "say": "grom",
-   "gloss": "A boy; a male child (of any age); An attendant, servant, or follower (",
-   "arabic": "غلم",
+   "key": "english_old",
+   "ar": "الإنجليزِيّةُ القَديمة",
+   "en": "Old English",
+   "branch": "fleon",
+   "say": "fleon",
+   "gloss": "to flee; to run away, run from, escape",
+   "arabic": "فر",
    "shared": [
-    "boy",
-    "child",
-    "male",
-    "servant"
+    "away",
+    "escape",
+    "flee",
+    "run"
    ]
   },
   {
-   "key": "english_middle",
-   "ar": "الإنجليزِيّةُ الوُسطى",
-   "en": "Middle English",
-   "branch": "folk",
-   "say": "folk",
-   "gloss": "people, folk (multiple individuals); nation, race, stock",
-   "arabic": "فرق",
+   "key": "english_old",
+   "ar": "الإنجليزِيّةُ القَديمة",
+   "en": "Old English",
+   "branch": "daru",
+   "say": "daru",
+   "gloss": "injury; hurt, harm, damage",
+   "arabic": "ضرر",
    "shared": [
-    "army",
-    "band",
-    "group"
+    "damage",
+    "harm",
+    "hurt",
+    "injury"
    ]
   },
   {
-   "key": "english_middle",
-   "ar": "الإنجليزِيّةُ الوُسطى",
-   "en": "Middle English",
-   "branch": "brede",
-   "say": "brede",
-   "gloss": "breadth (measure of how wide something is):; A piece of fabric of stan",
-   "arabic": "برد",
+   "key": "english_old",
+   "ar": "الإنجليزِيّةُ القَديمة",
+   "en": "Old English",
+   "branch": "hælu",
+   "say": "hælu",
+   "gloss": "sound physical or spiritual health; salvation, a cure, healing",
+   "arabic": "خير",
    "shared": [
-    "measure",
-    "piece"
-   ]
-  },
-  {
-   "key": "english_middle",
-   "ar": "الإنجليزِيّةُ الوُسطى",
-   "en": "Middle English",
-   "branch": "flesh",
-   "say": "flesh",
-   "gloss": "flesh (especially that of a mammal); A communion wafer",
-   "arabic": "برش",
-   "shared": [
-    "communion",
-    "wafer"
+    "sound",
+    "welfare"
    ]
   },
   {
@@ -678,65 +731,40 @@
    "key": "english_old",
    "ar": "الإنجليزِيّةُ القَديمة",
    "en": "Old English",
-   "branch": "scacan",
-   "say": "scacan",
-   "gloss": "to pass or depart; to quiver or vibrate",
-   "arabic": "سكن",
+   "branch": "spor",
+   "say": "spor",
+   "gloss": "track, trace; footprint",
+   "arabic": "سفر",
    "shared": [
-    "object",
-    "pass"
+    "mark",
+    "trace",
+    "vestige"
    ]
   },
   {
    "key": "english_old",
    "ar": "الإنجليزِيّةُ القَديمة",
    "en": "Old English",
-   "branch": "beorg",
-   "say": "beorg",
-   "gloss": "mountain, hill; mound, heap of stones, barrow",
-   "arabic": "برج",
+   "branch": "latian",
+   "say": "latian",
+   "gloss": "to be slow; to linger, loiter",
+   "arabic": "ريث",
    "shared": [
-    "elevated",
-    "high"
+    "delay",
+    "linger",
+    "slow"
    ]
   },
   {
-   "key": "english_old",
-   "ar": "الإنجليزِيّةُ القَديمة",
-   "en": "Old English",
-   "branch": "magan",
-   "say": "magan",
-   "gloss": "can, to be able; can (do something), to be able (to do something)",
-   "arabic": "مكن",
+   "key": "gothic",
+   "ar": "القوطِيّة",
+   "en": "Gothic",
+   "branch": "𐌷𐌰𐌹𐌸𐌹",
+   "say": "haithi",
+   "gloss": "field (land area free of woodland, cities, and towns; open country)",
+   "arabic": "غيط",
    "shared": [
-    "able",
-    "can"
-   ]
-  },
-  {
-   "key": "english_old",
-   "ar": "الإنجليزِيّةُ القَديمة",
-   "en": "Old English",
-   "branch": "mægen",
-   "say": "mægen",
-   "gloss": "strength, power; force, army",
-   "arabic": "مكن",
-   "shared": [
-    "power",
-    "strength"
-   ]
-  },
-  {
-   "key": "english_old",
-   "ar": "الإنجليزِيّةُ القَديمة",
-   "en": "Old English",
-   "branch": "brot",
-   "say": "brot",
-   "gloss": "a piece broken off, fragment",
-   "arabic": "برد",
-   "shared": [
-    "off",
-    "piece"
+    "field"
    ]
   },
   {
@@ -751,6 +779,19 @@
     "apex",
     "building",
     "pinnacle"
+   ]
+  },
+  {
+   "key": "gothic",
+   "ar": "القوطِيّة",
+   "en": "Gothic",
+   "branch": "𐍃𐍅𐌴",
+   "say": "swe",
+   "gloss": "like, similar to; just like, in the same manner as",
+   "arabic": "سوي",
+   "shared": [
+    "like",
+    "similar"
    ]
   },
   {
@@ -793,31 +834,6 @@
    ]
   },
   {
-   "key": "gothic",
-   "ar": "القوطِيّة",
-   "en": "Gothic",
-   "branch": "𐍅𐌰𐌹𐌷𐌾𐍉",
-   "say": "waihjo",
-   "gloss": "fight, quarrel, battle",
-   "arabic": "وغي",
-   "shared": [
-    "battle",
-    "fight"
-   ]
-  },
-  {
-   "key": "gothic",
-   "ar": "القوطِيّة",
-   "en": "Gothic",
-   "branch": "𐌱𐌹𐌷𐌰𐌹𐍄",
-   "say": "bihait",
-   "gloss": "slander, false rumors; abusive language",
-   "arabic": "بهت",
-   "shared": [
-    "slander"
-   ]
-  },
-  {
    "key": "hebrew",
    "ar": "العِبرِيّة",
    "en": "Hebrew",
@@ -851,6 +867,36 @@
    "key": "hebrew",
    "ar": "العِبرِيّة",
    "en": "Hebrew",
+   "branch": "תל",
+   "say": "tl  (تل)",
+   "gloss": "tell (a hill or mound, originally and especially in the Middle East, o",
+   "arabic": "تلل",
+   "shared": [
+    "ancient",
+    "consisting",
+    "east",
+    "hill"
+   ]
+  },
+  {
+   "key": "hebrew",
+   "ar": "العِبرِيّة",
+   "en": "Hebrew",
+   "branch": "הבה",
+   "say": "hbh  (هـبهـ)",
+   "gloss": "Let's: used before first-person plural future-tense verbs to invite so",
+   "arabic": "وهب",
+   "shared": [
+    "action",
+    "before",
+    "first",
+    "future"
+   ]
+  },
+  {
+   "key": "hebrew",
+   "ar": "العِبرِيّة",
+   "en": "Hebrew",
    "branch": "כל",
    "say": "kl  (كل)",
    "gloss": "All, whole, entirety, everything; found almost exclusively in singular",
@@ -878,33 +924,48 @@
    ]
   },
   {
-   "key": "hebrew",
-   "ar": "العِبرِيّة",
-   "en": "Hebrew",
-   "branch": "כסלו",
-   "say": "kslw  (كسلو)",
-   "gloss": "Kislev (the third month of the civil year and the ninth month of the e",
-   "arabic": "كسل",
+   "key": "latin",
+   "ar": "اللاتينِيّةُ القَديمة",
+   "en": "Old Latin",
+   "branch": "theriaca",
+   "say": "theriaca",
+   "gloss": "antidote, counter-remedy, panacea, antitoxin, theriac, treacle",
+   "arabic": "ترق",
    "shared": [
-    "calendar",
-    "civil",
-    "ecclesiastical",
-    "kislev"
+    "antidote",
+    "antitoxin",
+    "counter",
+    "panacea"
    ]
   },
   {
-   "key": "hebrew",
-   "ar": "العِبرِيّة",
-   "en": "Hebrew",
-   "branch": "יוסף",
-   "say": "ywsp/f  (يوسف)",
-   "gloss": "Joseph (eleventh and favorite son of Jacob, by his wife Rachel); Josep",
-   "arabic": "وسف",
+   "key": "latin",
+   "ar": "اللاتينِيّةُ القَديمة",
+   "en": "Old Latin",
+   "branch": "imitor",
+   "say": "imitor",
+   "gloss": "to represent, express, portray; to imitate, act like, copy after, seek",
+   "arabic": "مثل",
    "shared": [
-    "husband",
-    "joseph",
-    "mary",
-    "sura"
+    "act",
+    "after",
+    "copy",
+    "imitate"
+   ]
+  },
+  {
+   "key": "latin",
+   "ar": "اللاتينِيّةُ القَديمة",
+   "en": "Old Latin",
+   "branch": "uter",
+   "say": "uter",
+   "gloss": "a vessel made of hide used to store wine or water; a leather bottle, a",
+   "arabic": "طر",
+   "shared": [
+    "bag",
+    "bottle",
+    "leather",
+    "skin"
    ]
   },
   {
@@ -926,70 +987,60 @@
    "key": "latin",
    "ar": "اللاتينِيّةُ القَديمة",
    "en": "Old Latin",
-   "branch": "caphura",
-   "say": "caphura",
-   "gloss": "camphor tree (Cinnamomum camphora)",
-   "arabic": "كفر",
+   "branch": "papa",
+   "say": "papa",
+   "gloss": "a dad, daddy, father; a bishop",
+   "arabic": "باب",
    "shared": [
-    "camphor",
-    "camphora",
-    "cinnamomum"
+    "dad",
+    "daddy",
+    "father",
+    "patriarch"
    ]
   },
   {
    "key": "latin",
    "ar": "اللاتينِيّةُ القَديمة",
    "en": "Old Latin",
-   "branch": "felix",
-   "say": "felix",
-   "gloss": "happy, lucky, blessed, fortunate; fertile, fruitful, prosperous",
-   "arabic": "برك",
+   "branch": "cavus",
+   "say": "cavus",
+   "gloss": "hollow, hollowed out, cavernous, concave; excavated, channeled",
+   "arabic": "جوف",
    "shared": [
-    "blessed",
-    "fortunate",
-    "lucky"
+    "concave",
+    "empty",
+    "hollow",
+    "hollowed"
    ]
   },
   {
-   "key": "latin",
-   "ar": "اللاتينِيّةُ القَديمة",
-   "en": "Old Latin",
-   "branch": "placeo",
-   "say": "placeo",
-   "gloss": "to be pleasing or agreeable to; to please, to be nice; to be welcome o",
-   "arabic": "فرق",
+   "key": "old_irish",
+   "ar": "الإيرلَندِيّةُ القَديمة",
+   "en": "Old Irish",
+   "branch": "cáin",
+   "say": "cáin",
+   "gloss": "law (system, set of regulations), regulation, rule; legal due, fine, t",
+   "arabic": "قنن",
    "shared": [
-    "determine",
-    "order",
-    "other"
+    "law",
+    "legal",
+    "regulation",
+    "rule"
    ]
   },
   {
-   "key": "latin",
-   "ar": "اللاتينِيّةُ القَديمة",
-   "en": "Old Latin",
-   "branch": "adhibeo",
-   "say": "adhibeo",
-   "gloss": "to extend, hold out; to attend (to), handle, look after",
-   "arabic": "ذهب",
+   "key": "old_irish",
+   "ar": "الإيرلَندِيّةُ القَديمة",
+   "en": "Old Irish",
+   "branch": "laigid",
+   "say": "laigid",
+   "gloss": "to lie down; to be lying down, to sleep",
+   "arabic": "رقد",
    "shared": [
-    "adopt",
-    "hold",
-    "out"
-   ]
-  },
-  {
-   "key": "latin",
-   "ar": "اللاتينِيّةُ القَديمة",
-   "en": "Old Latin",
-   "branch": "influo",
-   "say": "influo",
-   "gloss": "to flow or run into; to stream, rush or press into",
-   "arabic": "نفر",
-   "shared": [
-    "oneself",
-    "run",
-    "rush"
+    "down",
+    "fall",
+    "lie",
+    "sleep"
    ]
   },
   {
@@ -1011,62 +1062,83 @@
    "key": "old_irish",
    "ar": "الإيرلَندِيّةُ القَديمة",
    "en": "Old Irish",
-   "branch": "corp",
-   "say": "corp",
-   "gloss": "body; corpse",
-   "arabic": "قرب",
+   "branch": "sráit",
+   "say": "sráit",
+   "gloss": "street, road, path, way",
+   "arabic": "سرط",
    "shared": [
-    "communion",
-    "eucharist"
+    "path",
+    "road",
+    "way"
    ]
   },
   {
    "key": "old_irish",
    "ar": "الإيرلَندِيّةُ القَديمة",
    "en": "Old Irish",
-   "branch": "mían",
-   "say": "mían",
-   "gloss": "desire, inclination; object of desire",
-   "arabic": "منو",
+   "branch": "céile",
+   "say": "céile",
+   "gloss": "servant, bondsman, subject; liege, vassal, the recipient of a fief",
+   "arabic": "قر",
    "shared": [
-    "desire",
-    "object"
+    "companion",
+    "fellow",
+    "husband"
    ]
   },
   {
    "key": "old_irish",
    "ar": "الإيرلَندِيّةُ القَديمة",
    "en": "Old Irish",
-   "branch": "ainimm",
-   "say": "ainimm",
-   "gloss": "soul, as opposed to corporeal body; life",
-   "arabic": "نام",
+   "branch": "aricc",
+   "say": "aricc",
+   "gloss": "to find, to come upon; to meet",
+   "arabic": "لقي",
    "shared": [
-    "animal"
+    "find",
+    "meet"
    ]
   },
   {
-   "key": "old_irish",
-   "ar": "الإيرلَندِيّةُ القَديمة",
-   "en": "Old Irish",
-   "branch": "subach",
-   "say": "subach",
-   "gloss": "cheerful, merry, happy",
-   "arabic": "صبح",
+   "key": "old_norse",
+   "ar": "النَّورسِيّةُ القَديمة",
+   "en": "Old Norse",
+   "branch": "hvass",
+   "say": "hvass",
+   "gloss": "sharp, keen; fig, of the intellect",
+   "arabic": "كوس",
    "shared": [
-    "cheerful"
+    "acute",
+    "intellect",
+    "sharp"
    ]
   },
   {
-   "key": "old_irish",
-   "ar": "الإيرلَندِيّةُ القَديمة",
-   "en": "Old Irish",
-   "branch": "beithir",
-   "say": "beithir",
-   "gloss": "bear; warrior, hero",
-   "arabic": "بطل",
+   "key": "old_norse",
+   "ar": "النَّورسِيّةُ القَديمة",
+   "en": "Old Norse",
+   "branch": "skrá",
+   "say": "skrá",
+   "gloss": "to write down, register",
+   "arabic": "سجل",
    "shared": [
-    "hero"
+    "down",
+    "register",
+    "write"
+   ]
+  },
+  {
+   "key": "old_norse",
+   "ar": "النَّورسِيّةُ القَديمة",
+   "en": "Old Norse",
+   "branch": "velta",
+   "say": "velta",
+   "gloss": "to roll, set rolling",
+   "arabic": "فرد",
+   "shared": [
+    "roll",
+    "rolling",
+    "set"
    ]
   },
   {
@@ -1087,65 +1159,28 @@
    "key": "old_norse",
    "ar": "النَّورسِيّةُ القَديمة",
    "en": "Old Norse",
-   "branch": "magn",
-   "say": "magn",
-   "gloss": "strength, power",
-   "arabic": "مكن",
+   "branch": "deila",
+   "say": "deila",
+   "gloss": "to divide, split into parts; to deal out, apportion, allot",
+   "arabic": "تل",
    "shared": [
-    "power",
-    "strength"
+    "into",
+    "oneself",
+    "out"
    ]
   },
   {
    "key": "old_norse",
    "ar": "النَّورسِيّةُ القَديمة",
    "en": "Old Norse",
-   "branch": "blása",
-   "say": "blása",
-   "gloss": "to blow; to blow with the mouth",
-   "arabic": "برز",
+   "branch": "láta",
+   "say": "láta",
+   "gloss": "to set, put in place; to cede, give up",
+   "arabic": "ردد",
    "shared": [
-    "motion",
-    "set"
-   ]
-  },
-  {
-   "key": "old_norse",
-   "ar": "النَّورسِيّةُ القَديمة",
-   "en": "Old Norse",
-   "branch": "grein",
-   "say": "grein",
-   "gloss": "branch (of a tree); point, head, part",
-   "arabic": "قرن",
-   "shared": [
-    "branch",
-    "head"
-   ]
-  },
-  {
-   "key": "old_norse",
-   "ar": "النَّورسِيّةُ القَديمة",
-   "en": "Old Norse",
-   "branch": "líkr",
-   "say": "líkr",
-   "gloss": "same, like, equal; alike, resembling; probable, likely",
-   "arabic": "رجل",
-   "shared": [
-    "good",
-    "like"
-   ]
-  },
-  {
-   "key": "old_norse",
-   "ar": "النَّورسِيّةُ القَديمة",
-   "en": "Old Norse",
-   "branch": "heyja",
-   "say": "heyja",
-   "gloss": "to hold, to conduct; to fight, to wage (battle)",
-   "arabic": "هيج",
-   "shared": [
-    "battle",
-    "fight"
+    "give",
+    "leave",
+    "put"
    ]
   },
   {
@@ -1167,6 +1202,51 @@
    "key": "persian",
    "ar": "الفارِسِيّة",
    "en": "Persian",
+   "branch": "پیدا",
+   "say": "پیدا",
+   "gloss": "evident, visible, apparent; clear, obvious",
+   "arabic": "بدو",
+   "shared": [
+    "apparent",
+    "clear",
+    "evident",
+    "obvious"
+   ]
+  },
+  {
+   "key": "persian",
+   "ar": "الفارِسِيّة",
+   "en": "Persian",
+   "branch": "پوز",
+   "say": "پوز",
+   "gloss": "snout, muzzle (protruding part of an animal's head); mouth, jaw (human",
+   "arabic": "بوز",
+   "shared": [
+    "mouth",
+    "muzzle",
+    "nose",
+    "protruding"
+   ]
+  },
+  {
+   "key": "persian",
+   "ar": "الفارِسِيّة",
+   "en": "Persian",
+   "branch": "کوچ",
+   "say": "کوچ",
+   "gloss": "service, power offered, normally only occurs in the set phrase کوچ داد",
+   "arabic": "كوج",
+   "shared": [
+    "offered",
+    "power",
+    "service",
+    "vassal"
+   ]
+  },
+  {
+   "key": "persian",
+   "ar": "الفارِسِيّة",
+   "en": "Persian",
    "branch": "کندر",
    "say": "کندر",
    "gloss": "Boswellia thurifera tree; olibanum, frankincense",
@@ -1182,55 +1262,15 @@
    "key": "persian",
    "ar": "الفارِسِيّة",
    "en": "Persian",
-   "branch": "زمان",
-   "say": "زمان",
-   "gloss": "time, epoch, period, age, season (a broad time period; not the precise",
-   "arabic": "زمن",
+   "branch": "تخت",
+   "say": "تخت",
+   "gloss": "throne; capital",
+   "arabic": "تخت",
    "shared": [
-    "age",
-    "season",
-    "tense",
-    "time"
-   ]
-  },
-  {
-   "key": "persian",
-   "ar": "الفارِسِيّة",
-   "en": "Persian",
-   "branch": "من",
-   "say": "من",
-   "gloss": "maund (unit of mass)",
-   "arabic": "من",
-   "shared": [
-    "mass",
-    "maund",
-    "unit"
-   ]
-  },
-  {
-   "key": "persian",
-   "ar": "الفارِسِيّة",
-   "en": "Persian",
-   "branch": "گرامی",
-   "say": "گرامی",
-   "gloss": "precious, excellent; dear, beloved, respected; often used as an epithe",
-   "arabic": "كرم",
-   "shared": [
-    "excellent",
-    "precious"
-   ]
-  },
-  {
-   "key": "persian",
-   "ar": "الفارِسِيّة",
-   "en": "Persian",
-   "branch": "خنجر",
-   "say": "خنجر",
-   "gloss": "dagger, khanjar",
-   "arabic": "خنجر",
-   "shared": [
-    "dagger",
-    "khanjar"
+    "capital",
+    "seat",
+    "sofa",
+    "throne"
    ]
   },
   {
@@ -1252,6 +1292,34 @@
    "key": "welsh",
    "ar": "الويلزِيّة",
    "en": "Welsh",
+   "branch": "llech",
+   "say": "llech",
+   "gloss": "flagstone, slab of stone; slate",
+   "arabic": "لوح",
+   "shared": [
+    "slab",
+    "slate",
+    "tablet"
+   ]
+  },
+  {
+   "key": "welsh",
+   "ar": "الويلزِيّة",
+   "en": "Welsh",
+   "branch": "ether",
+   "say": "ether",
+   "gloss": "ether (a mystical substance formerly thought to fill the upper atmosph",
+   "arabic": "طير",
+   "shared": [
+    "all",
+    "through",
+    "without"
+   ]
+  },
+  {
+   "key": "welsh",
+   "ar": "الويلزِيّة",
+   "en": "Welsh",
    "branch": "gwinau",
    "say": "gwinau",
    "gloss": "auburn, reddish-brown, wine-colored, chesnut; bay (of a horse)",
@@ -1266,52 +1334,28 @@
    "key": "welsh",
    "ar": "الويلزِيّة",
    "en": "Welsh",
-   "branch": "pridd",
-   "say": "pridd",
-   "gloss": "soil, earth, dust; ground; clay, mud or clay as building-material, mor",
-   "arabic": "بلد",
+   "branch": "sirioli",
+   "say": "sirioli",
+   "gloss": "to cheer up, to gladden; to rejoice",
+   "arabic": "سرر",
    "shared": [
-    "dust",
-    "soil"
+    "cheer",
+    "gladden",
+    "rejoice"
    ]
   },
   {
    "key": "welsh",
    "ar": "الويلزِيّة",
    "en": "Welsh",
-   "branch": "chwaer",
-   "say": "chwaer",
-   "gloss": "sister, half-sister; sister, half-sister",
-   "arabic": "حور",
+   "branch": "coelio",
+   "say": "coelio",
+   "gloss": "to believe, to credit, to trust in; to obey",
+   "arabic": "وكل",
    "shared": [
-    "female",
-    "maiden"
-   ]
-  },
-  {
-   "key": "welsh",
-   "ar": "الويلزِيّة",
-   "en": "Welsh",
-   "branch": "ailddodi",
-   "say": "ailddodi",
-   "gloss": "to replace, to put back",
-   "arabic": "ردد",
-   "shared": [
-    "back",
-    "put"
-   ]
-  },
-  {
-   "key": "welsh",
-   "ar": "الويلزِيّة",
-   "en": "Welsh",
-   "branch": "corn",
-   "say": "corn",
-   "gloss": "horn; antler",
-   "arabic": "قرن",
-   "shared": [
-    "antler",
-    "horn"
+    "give",
+    "take",
+    "trust"
    ]
   }
  ]

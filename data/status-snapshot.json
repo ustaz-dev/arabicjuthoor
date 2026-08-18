@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 77814,
+  "cards_total": 78168,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,20 +32,20 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 10679,
-    "links": 357,
-    "root": 127,
+    "cards": 10761,
+    "links": 360,
+    "root": 130,
     "nucleus": 229,
     "floor": 1,
-    "nucleus_share": 64.3
+    "nucleus_share": 63.8
    },
    {
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 10432,
-    "links": 182,
-    "root": 172,
+    "cards": 10502,
+    "links": 183,
+    "root": 173,
     "nucleus": 10,
     "floor": 0,
     "nucleus_share": 5.5
@@ -54,7 +54,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 8481,
+    "cards": 8581,
     "links": 106,
     "root": 97,
     "nucleus": 9,
@@ -142,12 +142,12 @@
     "key": "old-norse",
     "en": "Old Norse",
     "ar": "النورديّة القديمة",
-    "cards": 920,
-    "links": 80,
-    "root": 64,
-    "nucleus": 16,
+    "cards": 1022,
+    "links": 84,
+    "root": 67,
+    "nucleus": 17,
     "floor": 0,
-    "nucleus_share": 20.0
+    "nucleus_share": 20.2
    },
    {
     "key": "gothic",
@@ -185,7 +185,7 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4507,
+  "links_to_arabic": 4515,
   "closures": 1845,
   "by_verdict": [
    {
@@ -205,7 +205,7 @@
    },
    {
     "name": "ROOT-ECHO",
-    "count": 496,
+    "count": 503,
     "link": true
    },
    {
@@ -215,7 +215,7 @@
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 389,
+    "count": 390,
     "link": true
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 50301,
+  "cards_total": 50401,
   "suspended": 38469,
-  "released": 11832,
+  "released": 11932,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
