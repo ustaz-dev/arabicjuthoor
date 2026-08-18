@@ -2,8 +2,8 @@
  "generated_by": "scripts/build_links_showcase.py",
  "note": "طبقةُ استكشاف. الأرقامُ من scripts/count_links.py وهو التعريفُ الوحيدُ للصلة.",
  "totals": {
-  "root": 3088,
-  "nucleus": 1422,
+  "root": 3148,
+  "nucleus": 1435,
   "languages": 16
  },
  "languages": [
@@ -12,8 +12,8 @@
    "ar": "العبريّة",
    "en": "Hebrew",
    "distance": 1,
-   "root": 999,
-   "nucleus": 335,
+   "root": 1042,
+   "nucleus": 342,
    "floor": 0,
    "examples": [
     {
@@ -113,8 +113,8 @@
      "orbit": "غير صادر؛ لا جسر دلالي ولا مدار محكوم قبل مسح المروحة وفصل المرحلة"
     }
    ],
-   "total": 1334,
-   "nucleus_share": 25.1
+   "total": 1384,
+   "nucleus_share": 24.7
   },
   {
    "key": "aramaic",
@@ -775,8 +775,8 @@
    "ar": "الفارسيّة",
    "en": "Persian",
    "distance": 3,
-   "root": 173,
-   "nucleus": 10,
+   "root": 178,
+   "nucleus": 11,
    "floor": 0,
    "examples": [
     {
@@ -804,8 +804,8 @@
      "orbit": "مباشر؛ البطانة مما يغطى به باطن الثوب أو الوعاء"
     }
    ],
-   "total": 183,
-   "nucleus_share": 5.5
+   "total": 189,
+   "nucleus_share": 5.8
   },
   {
    "key": "old-latin",
@@ -921,7 +921,7 @@
    "ar": "اليونانيّة القديمة",
    "en": "Ancient Greek",
    "distance": 3,
-   "root": 97,
+   "root": 103,
    "nucleus": 9,
    "floor": 0,
    "examples": [
@@ -1022,8 +1022,8 @@
      "orbit": "مباشر في `battle, fight` بإزاء المعاركة والقتال؛ ولا تستعمل دلالة الدلك وحدها"
     }
    ],
-   "total": 106,
-   "nucleus_share": 8.5
+   "total": 112,
+   "nucleus_share": 8.0
   },
   {
    "key": "old-english",
@@ -1139,8 +1139,8 @@
    "ar": "النُّرديّة القديمة",
    "en": "Old Norse",
    "distance": 4,
-   "root": 67,
-   "nucleus": 17,
+   "root": 70,
+   "nucleus": 18,
    "floor": 0,
    "examples": [
     {
@@ -1240,8 +1240,8 @@
      "orbit": "مدار 2: الحدث والنقل؛ الجر حركة حمل أو نقل داخل مسار ضام"
     }
    ],
-   "total": 84,
-   "nucleus_share": 20.2
+   "total": 88,
+   "nucleus_share": 20.5
   },
   {
    "key": "middle-english",
@@ -1353,97 +1353,12 @@
    "nucleus_share": 26.8
   },
   {
-   "key": "welsh",
-   "ar": "الويلزيّة",
-   "en": "Welsh",
-   "distance": 4,
-   "root": 35,
-   "nucleus": 5,
-   "floor": 0,
-   "examples": [
-    {
-     "word": "hen",
-     "say": "",
-     "sense": "old, aged; ancient",
-     "arabic": "سن",
-     "quote": "وأسن الرجل: كبر",
-     "lexicon": "المحكم",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE",
-     "path": "في الصورة المستعادة s بإزاء س هوية، وn بإزاء ن هوية، في الموضعين 1 و2. أما هاء السطح فمرحلة داخل الفرع يسميها المصدر، ولا تدخل المقابلة أصلا",
-     "orbit": "مدار 1، اسمه «السن الجارحة ثم العمر»، خطوة واحدة يكتبها المعجمي لا البطاقة: «وقد يعبر بالسن عن العمر»، ثم «وأسن الرجل: كبر»، وهو معنى الفرع نصا"
-    },
-    {
-     "word": "caer",
-     "say": "",
-     "sense": "fort, fortress, fortified town; wall, rampart",
-     "arabic": "قر",
-     "quote": "أقره في مكانه فاستقر",
-     "lexicon": "لسان العرب",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE",
-     "path": "k بإزاء ق عبر `GUT-01`؛ r بإزاء ر عبر `IDN-01`. المسار ثنائي كامل في البريثونية الأم",
-     "orbit": "مدار 6، المكان/المحل: قرار الشيء واستقراره في حيز ← الموضع المحصن المستقر وحدوده. خطوة واحدة، ويسندها نص النواة نفسه بلفظ «حيز» ونص المادة بلفظ «مكانه"
-    },
-    {
-     "word": "cart",
-     "say": "",
-     "sense": "",
-     "arabic": "جر",
-     "quote": "حمل؛ ناقل؛ عربة؛ سيارة",
-     "lexicon": "",
-     "layer": "nucleus",
-     "degree": "NUCLEUS-TRACE",
-     "path": "c↔ج=`GUT-03`؛ r↔ر=`IDN-01`. بحث الصف: `c` + `ج` + «الويلزية/Welsh» في عمود الشاهد؛ `r` + `ر` + «الويلزية/Welsh» في عمود الشاهد",
-     "orbit": "العربة تحمل جرما وتسترسل به على الطريق؛ فيلتقي معنى car حدث `جر` في الامتداد"
-    },
-    {
-     "word": "mwg",
-     "say": "",
-     "sense": "smoke",
-     "arabic": "موج",
-     "quote": "حركة واضطراب للمائع في حيزه مع انتباره من كثافة تجمعه",
-     "lexicon": "تاج العروس",
-     "layer": "root",
-     "degree": "ROOT-TRACE",
-     "path": "تطابق ذاتي في الهيكل المطبع؛ المرشح `licensed` و`route_flag=0`؛ لم ينشأ صف صوتي جديد",
-     "orbit": "مدار المادة والحركة؛ الدخان كتلة لطيفة مضطربة تنتبر وتتموج في حيزها"
-    },
-    {
-     "word": "Welsh",
-     "say": "",
-     "sense": "البحر",
-     "arabic": "مور",
-     "quote": "المور الموج",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-ECHO",
-     "path": "m ↔ م` عبر `IDN-02`، و`ō ↔ و` عبر `GLD-03`، و`r ↔ ر` عبر `IDN-01",
-     "orbit": "صدى الجزء/الحركة: البحر يحمل الموج، والمعجم العربي يسمي المور موجا؛ لا يدعى `sea = wave"
-    },
-    {
-     "word": "blith",
-     "say": "",
-     "sense": "milk, dairy produce; lactation; dairying",
-     "arabic": "ملح",
-     "quote": "",
-     "lexicon": "",
-     "layer": "root",
-     "degree": "ROOT-ECHO",
-     "path": "في السلف المنشور `m ↔ م` عبر `IDN-02`، و`l ↔ ل` عبر `IDN-04`، و`ǵ ↔ ج` عبر `GUT-03`. انتقال السلف إلى السطح الويلزي موثق في حقل الاشتقاق، ولا يستعمل `",
-     "orbit": "صدى مباشر بين المائع أو الإدرار وفعل أخذه من الثدي"
-    }
-   ],
-   "total": 40,
-   "nucleus_share": 12.5
-  },
-  {
    "key": "old-irish",
    "ar": "الإيرلنديّة القديمة",
    "en": "Old Irish",
    "distance": 4,
-   "root": 18,
-   "nucleus": 21,
+   "root": 21,
+   "nucleus": 25,
    "floor": 1,
    "examples": [
     {
@@ -1543,8 +1458,93 @@
      "orbit": "مباشر: wood/timber ↔ عود/خشب"
     }
    ],
-   "total": 39,
-   "nucleus_share": 53.8
+   "total": 46,
+   "nucleus_share": 54.3
+  },
+  {
+   "key": "welsh",
+   "ar": "الويلزيّة",
+   "en": "Welsh",
+   "distance": 4,
+   "root": 35,
+   "nucleus": 5,
+   "floor": 0,
+   "examples": [
+    {
+     "word": "hen",
+     "say": "",
+     "sense": "old, aged; ancient",
+     "arabic": "سن",
+     "quote": "وأسن الرجل: كبر",
+     "lexicon": "المحكم",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE",
+     "path": "في الصورة المستعادة s بإزاء س هوية، وn بإزاء ن هوية، في الموضعين 1 و2. أما هاء السطح فمرحلة داخل الفرع يسميها المصدر، ولا تدخل المقابلة أصلا",
+     "orbit": "مدار 1، اسمه «السن الجارحة ثم العمر»، خطوة واحدة يكتبها المعجمي لا البطاقة: «وقد يعبر بالسن عن العمر»، ثم «وأسن الرجل: كبر»، وهو معنى الفرع نصا"
+    },
+    {
+     "word": "caer",
+     "say": "",
+     "sense": "fort, fortress, fortified town; wall, rampart",
+     "arabic": "قر",
+     "quote": "أقره في مكانه فاستقر",
+     "lexicon": "لسان العرب",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE",
+     "path": "k بإزاء ق عبر `GUT-01`؛ r بإزاء ر عبر `IDN-01`. المسار ثنائي كامل في البريثونية الأم",
+     "orbit": "مدار 6، المكان/المحل: قرار الشيء واستقراره في حيز ← الموضع المحصن المستقر وحدوده. خطوة واحدة، ويسندها نص النواة نفسه بلفظ «حيز» ونص المادة بلفظ «مكانه"
+    },
+    {
+     "word": "cart",
+     "say": "",
+     "sense": "",
+     "arabic": "جر",
+     "quote": "حمل؛ ناقل؛ عربة؛ سيارة",
+     "lexicon": "",
+     "layer": "nucleus",
+     "degree": "NUCLEUS-TRACE",
+     "path": "c↔ج=`GUT-03`؛ r↔ر=`IDN-01`. بحث الصف: `c` + `ج` + «الويلزية/Welsh» في عمود الشاهد؛ `r` + `ر` + «الويلزية/Welsh» في عمود الشاهد",
+     "orbit": "العربة تحمل جرما وتسترسل به على الطريق؛ فيلتقي معنى car حدث `جر` في الامتداد"
+    },
+    {
+     "word": "mwg",
+     "say": "",
+     "sense": "smoke",
+     "arabic": "موج",
+     "quote": "حركة واضطراب للمائع في حيزه مع انتباره من كثافة تجمعه",
+     "lexicon": "تاج العروس",
+     "layer": "root",
+     "degree": "ROOT-TRACE",
+     "path": "تطابق ذاتي في الهيكل المطبع؛ المرشح `licensed` و`route_flag=0`؛ لم ينشأ صف صوتي جديد",
+     "orbit": "مدار المادة والحركة؛ الدخان كتلة لطيفة مضطربة تنتبر وتتموج في حيزها"
+    },
+    {
+     "word": "Welsh",
+     "say": "",
+     "sense": "البحر",
+     "arabic": "مور",
+     "quote": "المور الموج",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-ECHO",
+     "path": "m ↔ م` عبر `IDN-02`، و`ō ↔ و` عبر `GLD-03`، و`r ↔ ر` عبر `IDN-01",
+     "orbit": "صدى الجزء/الحركة: البحر يحمل الموج، والمعجم العربي يسمي المور موجا؛ لا يدعى `sea = wave"
+    },
+    {
+     "word": "blith",
+     "say": "",
+     "sense": "milk, dairy produce; lactation; dairying",
+     "arabic": "ملح",
+     "quote": "",
+     "lexicon": "",
+     "layer": "root",
+     "degree": "ROOT-ECHO",
+     "path": "في السلف المنشور `m ↔ م` عبر `IDN-02`، و`l ↔ ل` عبر `IDN-04`، و`ǵ ↔ ج` عبر `GUT-03`. انتقال السلف إلى السطح الويلزي موثق في حقل الاشتقاق، ولا يستعمل `",
+     "orbit": "صدى مباشر بين المائع أو الإدرار وفعل أخذه من الثدي"
+    }
+   ],
+   "total": 40,
+   "nucleus_share": 12.5
   },
   {
    "key": "gothic",

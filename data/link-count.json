@@ -1,9 +1,9 @@
 {
  "generated_from": "scripts/count_links.py",
- "cards_scanned": 78206,
+ "cards_scanned": 78920,
  "cards": {
-  "root": 3088,
-  "nucleus": 1422,
+  "root": 3148,
+  "nucleus": 1435,
   "floor": 5
  },
  "claims": {
@@ -26,8 +26,8 @@
   },
   "ancient-greek": {
    "cards": {
-    "root": 97,
-    "ROOT-TRACE": 93,
+    "root": 103,
+    "ROOT-TRACE": 99,
     "nucleus": 9,
     "NUCLEUS-TRACE": 8,
     "NUCLEUS-ECHO": 1,
@@ -102,12 +102,12 @@
   },
   "hebrew": {
    "cards": {
-    "root": 999,
-    "ROOT-TRACE": 793,
-    "ROOT-ECHO": 206,
-    "nucleus": 335,
+    "root": 1042,
+    "ROOT-TRACE": 829,
+    "ROOT-ECHO": 213,
+    "nucleus": 342,
     "NUCLEUS-TRACE": 194,
-    "NUCLEUS-ECHO": 141
+    "NUCLEUS-ECHO": 148
    },
    "claims": {
     "root": 483,
@@ -147,14 +147,14 @@
   },
   "old-irish": {
    "cards": {
-    "root": 18,
-    "ROOT-TRACE": 14,
+    "root": 21,
+    "ROOT-TRACE": 16,
     "floor": 1,
     "FLOOR-TRACE": 1,
-    "nucleus": 21,
-    "NUCLEUS-TRACE": 19,
-    "ROOT-ECHO": 4,
-    "NUCLEUS-ECHO": 2
+    "nucleus": 25,
+    "NUCLEUS-TRACE": 22,
+    "ROOT-ECHO": 5,
+    "NUCLEUS-ECHO": 3
    },
    "claims": {
     "root": 8,
@@ -181,11 +181,11 @@
   },
   "old-norse": {
    "cards": {
-    "root": 67,
-    "ROOT-TRACE": 21,
-    "nucleus": 17,
-    "NUCLEUS-TRACE": 12,
-    "ROOT-ECHO": 46,
+    "root": 70,
+    "ROOT-TRACE": 23,
+    "nucleus": 18,
+    "NUCLEUS-TRACE": 13,
+    "ROOT-ECHO": 47,
     "NUCLEUS-ECHO": 5
    },
    "claims": {
@@ -195,11 +195,11 @@
   },
   "persian": {
    "cards": {
-    "root": 173,
-    "ROOT-TRACE": 171,
+    "root": 178,
+    "ROOT-TRACE": 176,
     "ROOT-ECHO": 2,
-    "nucleus": 10,
-    "NUCLEUS-TRACE": 10
+    "nucleus": 11,
+    "NUCLEUS-TRACE": 11
    },
    "claims": {
     "root": 37,
@@ -243,7 +243,7 @@
   }
  },
  "heading_forms": {
-  "بطاقة": 2007,
+  "بطاقة": 2013,
   "بطاقة طابور": 9,
   "بطاقة طابور مردودة": 5,
   "بطاقة إعادة فتح": 3,
@@ -645,9 +645,59 @@
   "WO-C-OPEN-COMP-00102": 1,
   "WO-C-OPEN-COMP-00104": 1,
   "WO-C-OPEN-COMP-00108": 1,
+  "WO-C-HEBREW-010-002": 1,
+  "WO-C-HEBREW-010-003": 1,
+  "WO-C-HEBREW-010-006": 1,
+  "WO-C-HEBREW-010-007": 1,
+  "WO-C-HEBREW-010-010": 1,
+  "WO-C-HEBREW-010-016": 1,
+  "WO-C-HEBREW-010-018": 1,
+  "WO-C-HEBREW-010-020": 1,
+  "WO-C-HEBREW-010-024": 1,
+  "WO-C-HEBREW-010-025": 1,
+  "WO-C-HEBREW-010-026": 1,
+  "WO-C-HEBREW-010-027": 1,
+  "WO-C-HEBREW-010-028": 1,
+  "WO-C-HEBREW-010-029": 1,
+  "WO-C-HEBREW-010-033": 1,
+  "WO-C-HEBREW-010-035": 1,
+  "WO-C-HEBREW-010-036": 1,
+  "WO-C-HEBREW-010-037": 1,
+  "WO-C-HEBREW-010-039": 1,
+  "WO-C-HEBREW-010-040": 1,
+  "WO-C-HEBREW-010-042": 1,
+  "WO-C-HEBREW-010-043": 1,
+  "WO-C-HEBREW-010-047": 1,
+  "WO-C-HEBREW-010-048": 1,
+  "WO-C-HEBREW-010-049": 1,
+  "WO-C-HEBREW-010-050": 1,
+  "WO-C-HEBREW-011-001": 1,
+  "WO-C-HEBREW-011-002": 1,
+  "WO-C-HEBREW-011-003": 1,
+  "WO-C-HEBREW-011-004": 1,
+  "WO-C-HEBREW-011-008": 1,
+  "WO-C-HEBREW-011-009": 1,
+  "WO-C-HEBREW-011-019": 1,
+  "WO-C-HEBREW-011-020": 1,
+  "WO-C-HEBREW-011-021": 1,
+  "WO-C-HEBREW-011-027": 1,
+  "WO-C-HEBREW-011-028": 1,
+  "WO-C-HEBREW-011-030": 1,
+  "WO-C-HEBREW-011-031": 1,
+  "WO-C-HEBREW-011-032": 1,
+  "WO-C-HEBREW-011-033": 1,
+  "WO-C-HEBREW-011-034": 1,
+  "WO-C-HEBREW-011-038": 1,
+  "WO-C-HEBREW-011-039": 1,
+  "WO-C-HEBREW-011-041": 1,
+  "WO-C-HEBREW-011-043": 1,
+  "WO-C-HEBREW-011-044": 1,
+  "WO-C-HEBREW-011-046": 1,
+  "WO-C-HEBREW-011-047": 1,
+  "WO-C-HEBREW-011-048": 1,
   "بطاقة المقارنات": 15,
   "بطاقة إعادة فحص البوابتين الميتتين": 19,
-  "بطاقة إتمام": 146,
+  "بطاقة إتمام": 157,
   "بطاقة تصويب": 80,
   "بطاقة حصاد القرض المعاد فتحه": 34,
   "بطاقة مصححة": 2,
@@ -829,6 +879,12 @@
   "WO-B-OPEN-COMP-01125": 1,
   "WO-B-OPEN-COMP-01128": 1,
   "WO-B-OPEN-COMP-01424": 1,
+  "WO-B-R21-BOTH-00013": 1,
+  "WO-B-R21-BOTH-00050": 1,
+  "WO-B-R21-BOTH-00060": 1,
+  "WO-B-R21-BOTH-00067": 1,
+  "WO-B-R21-BOTH-00073": 1,
+  "WO-B-R21-BOTH-00087": 1,
   "بطاقة حسم مباشر": 17,
   "بطاقة صفية": 9,
   "بطاقة إعادة قراءة عائلات اللسان": 17,
