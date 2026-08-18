@@ -16409,3 +16409,1447 @@ LANE-D DONE17 100 PS-GC-OLD-NORSE-01149
 LANE-D DONE18 100 PS-GC-OLD-NORSE-01249
 
 <!-- LANE-D-DONE18-OLD-NORSE:END -->
+
+<!-- LANE-D-DONE19-OLD-NORSE:START -->
+
+## الجولة التاسعة عشرة: مواصلة النردية القديمة بالأداة المصلحة
+
+- النطاق: 100 معرف مصدر فريد بعد `PS-GC-OLD-NORSE-01249` بحسب ترتيب ملفات المسح، في دفعتين من 50 و50.
+- الدفعة الأولى: من `PS-GC-OLD-NORSE-01250` إلى `PS-GC-OLD-NORSE-01299`؛ الموجب 2، و`NO-TRACE` عدد 48.
+- الدفعة الثانية: من `PS-GC-OLD-NORSE-01300` إلى `PS-GC-OLD-NORSE-01349`؛ الموجب 3، و`NO-TRACE` عدد 47.
+- البطاقات التالية ناسخة للحكم فقط وتذكر معرف المصدر؛ بطاقات المسح الأصلية والصلات الصادرة القديمة باقية بلا تعديل.
+
+### الدفعة الأولى
+
+### بطاقة إتمام: `nagl` /nagl/؛ `COMP-PS-GC-OLD-NORSE-01250`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01250 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01250` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «nail».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت n-g-l (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `نجل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «nail» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *naglaz, whence also Old English næġl, Old High German nagal.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `brún` /brún/؛ `COMP-PS-GC-OLD-NORSE-01251`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01251 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01251` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «sharp edge, rim; eyebrow».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-r-n (كما وردَت)؛ والمروحة الحالية 2 مادة.
+- أقرب ما أعادته المروحة: `برن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «sharp edge, rim; eyebrow» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *brūwō.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `liðr` /liðr/؛ `COMP-PS-GC-OLD-NORSE-01252`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01252 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01252` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «member».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-ð-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `رذل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «member» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *liþuz, whence also Old English liþ, Old High German lid.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `humarr` /humarr/؛ `COMP-PS-GC-OLD-NORSE-01253`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01253 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01253` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «lobster».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت h-m-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `همر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «lobster» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *humaraz (“lobster”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `limr` /limr/؛ `COMP-PS-GC-OLD-NORSE-01254`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01254 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01254` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «limb».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-m-r (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `لمل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «limb» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *limuz, whence also Old English lim.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `matr` /matr/؛ `COMP-PS-GC-OLD-NORSE-01255`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01255 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01255` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «food».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-t-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `متر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «food» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *matiz. Cognate with Old English mete (whence meat), Old High German maz.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `miðr` /miðr/؛ `COMP-PS-GC-OLD-NORSE-01256`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01256 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01256` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «middle».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-ð-r (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `مذر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «middle» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *midjaz (“middle, mid”), from Proto-Indo-European *medʰyo- (“middle”). Cognate with Old English midd, Old Frisian midde, Old Saxon middi, Old High German mitti,. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `njóta` /njóta/؛ `COMP-PS-GC-OLD-NORSE-01257`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01257 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01257` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to enjoy; to have the use or benefit of; to derive benefit from, profit by».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت n-j-t (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `نيت`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to enjoy; to have the use or benefit of; to derive benefit from, profit by» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *neutaną (“to use, make use of; to enjoy”), from Proto-Indo-European *newd- (“to seize; grasp; use”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `rokkr` /rokkr/؛ `COMP-PS-GC-OLD-NORSE-01258`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01258 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01258` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «spinning wheel, distaff».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت r-k-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `ركل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «spinning wheel, distaff» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *rukkô, akin to Old High German rocko.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `brúðr` /brúðr/؛ `COMP-PS-GC-OLD-NORSE-01259`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01259 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01259` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «a bride».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-r-ð-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `بردر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «a bride» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *brūdiz, whence also Gothic 𐌱𐍂𐌿𐌸𐍃 (brūþs), Old Saxon brūd, Old English brȳd (English bride), Old High German brūt (German Braut).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `belti` /belti/؛ `COMP-PS-GC-OLD-NORSE-01260`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01260 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01260` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «belt».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-l-t (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `بلت`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «belt» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *baltiją, *baltijaz, from Latin balteus.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `víðr` /víðr/؛ `COMP-PS-GC-OLD-NORSE-01261`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01261 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01261` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «wide».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-ð-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `وذر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «wide» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *wīdaz, whence also Old English wīd, Old Frisian wīd, Old Saxon wīd, Old High German wīt.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `lengi` /lengi/؛ `COMP-PS-GC-OLD-NORSE-01262`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01262 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01262` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «long (for a long time)».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-n-g (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `لنج`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «long (for a long time)» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: Possibly from an accusative case form of Proto-Germanic *langį̄.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `sonr` /sonr/؛ `COMP-PS-GC-OLD-NORSE-01263`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01263 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01263` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «son».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت s-n-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `سنر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «son» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *sunuz (“son”), from Proto-Indo-European *suHnús (“son”). Cognate with Old English sunu, Old Frisian sunu, Old Saxon sunu, Old High German sunu, Gothic 𐍃𐌿𐌽𐌿𐍃 (s. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `snær` /snær/؛ `COMP-PS-GC-OLD-NORSE-01264`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01264 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01264` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «snow».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت s-n-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `سنر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «snow» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *snaiwaz, from Proto-Indo-European *snóygʷʰos; cognates include the Old English snāw and the Old High German snēo.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `dýrr` /dýrr/؛ `COMP-PS-GC-OLD-NORSE-01265`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01265 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01265` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «dear, valuable».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت d-y-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `دير`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «dear, valuable» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *diurijaz, whence also Old English dīere (English dear), Old High German tiuri.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `vinr` /vinr/؛ `COMP-PS-GC-OLD-NORSE-01266`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01266 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01266` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «friend».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-n-r (كما وردَت)؛ والمروحة الحالية 6 مادة.
+- أقرب ما أعادته المروحة: `ونر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «friend» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Norse ᚹᛁᚾᛁᛉ (winiʀ), from Proto-Germanic *winiz (“friend; loved one”), from Proto-Indo-European *wenh₁is, from the root *wenh₁- (“to seek, desire, love, win”). Compare O. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `viðr` /viðr/؛ `COMP-PS-GC-OLD-NORSE-01267`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01267 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01267` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «a tree; a forest; a wood».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-ð-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `وذر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «a tree; a forest; a wood» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Norse *ᚹᛁᛞᚢᛉ (*widuʀ), from Proto-Germanic *widuz (“wood”). Cognate with Old English widu, wudu, Old Saxon widu, Old High German witu.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `niðr` /niðr/؛ `COMP-PS-GC-OLD-NORSE-01268`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01268 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01268` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «down».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت n-ð-r (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `نذر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «down» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *niþer, whence Old English niþer, Old High German nidar.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `velja` /velja/؛ `COMP-PS-GC-OLD-NORSE-01269`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01269 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01269` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to choose, to select».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-l-j (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `ولي`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to choose, to select» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *waljaną. Ultimately from the Proto-Indo-European root *welh₁-.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `magr` /magr/؛ `COMP-PS-GC-OLD-NORSE-01270`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01270 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01270` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «thin; meager, meagre».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-g-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `مجر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «thin; meager, meagre» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *magraz, whence also Old English mæġer, Old High German magar (“thin; meager”). Ultimately from Proto-Indo-European *mh₂ḱrós.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `jafn` /jafn/؛ `COMP-PS-GC-OLD-NORSE-01271`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01271 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01271` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «even (number); equal, the same».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت j-f-n (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `يفن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «even (number); equal, the same» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *ebnaz.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `bjóða` /bjóða/؛ `COMP-PS-GC-OLD-NORSE-01272`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01272 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01272` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to offer; to bid, invite».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-j-ð (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `بيد`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to offer; to bid, invite» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *beudaną. Ultimately from Proto-Indo-European *bʰewdʰ-.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `brugga` /brugga/؛ `COMP-PS-GC-OLD-NORSE-01273`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01273 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01273` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to brew».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-r-g (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `برج`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to brew» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *brewwaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `bringa` /bringa/؛ `COMP-PS-GC-OLD-NORSE-01274`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01274 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01274` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «chest, brisket».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-r-n-g (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `برنج`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «chest, brisket» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *bringô, which is related to *brinkaz (“edge, hill”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `flýja` /flýja/؛ `COMP-PS-GC-OLD-NORSE-01275`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01275 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01275` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to flee».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-l-y-j (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `فريج`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to flee» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *fleuhaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `fylla` /fylla/؛ `COMP-PS-GC-OLD-NORSE-01276`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01276 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01276` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to fill; to complete, make up».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-y-LL (كما وردَت)؛ والمروحة الحالية 2 مادة.
+- أقرب ما أعادته المروحة: `فيل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to fill; to complete, make up» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *fullijaną, akin to Old English fyllan (English fill), Old Saxon fullian, Dutch vullen, Old High German fullen (German füllen), Gothic 𐍆𐌿𐌻𐌻𐌾𐌰𐌽 (fulljan).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `mínn` /mínn/؛ `COMP-PS-GC-OLD-NORSE-01277`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01277 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01277` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «my».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-n (كما وردَت)؛ والمروحة الحالية 10 مادة.
+- أقرب ما أعادته المروحة: `من`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «my» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Norse *ᛗᛁᚾᚨᛉ (*minaʀ /⁠mīnaz⁠/) (several non-lemma forms attested), from Proto-Germanic *mīnaz, whence also Old English mīn, Old High German mīn.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `leiðr` /leiðr/؛ `COMP-PS-GC-OLD-NORSE-01278`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01278 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01278` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «uncomfortable; tired».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-ð-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `رذل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «uncomfortable; tired» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *laiþaz, whence also Old English lāþ, Old High German leid.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `milti` /milti/؛ `COMP-PS-GC-OLD-NORSE-01279`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01279 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01279` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «spleen».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-l-t (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `ملت`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «spleen» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *miltiją, from Proto-Indo-European *(s)meld- (“to beat, grind, crush, weaken”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `rjúka` /rjúka/؛ `COMP-PS-GC-OLD-NORSE-01280`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01280 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01280` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to reek, emit smoke or vapor; to reek, emit smoke or vapor».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت r-j-k (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `ريك`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to reek, emit smoke or vapor; to reek, emit smoke or vapor» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *reukaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `múgr` /múgr/؛ `COMP-PS-GC-OLD-NORSE-01281`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01281 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01281` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «mass».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-g-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- المقابل المختار: `مجر`؛ مسار الصوت: m↔م=ˋIDN-02ˋ؛ g↔ج=ˋIDN-08ˋ؛ r↔ر=ˋIDN-01ˋ.
+- الحدث المجمد المختار من جميع الدرجات: الدرجة 3 (نزولٌ إلى النواة): «الامتلاء والاندفاع؛ والحرفُ الثالثُ «ر» حدثُه: خفقاتٌ متوالياتٌ خفيفاتٌ لطرفِ اللسانِ على اللثة، كلُّ خفقةٍ لمسةٌ ماسكةٌ عابرةٌ، والنفَسُ يجري من تحتِها جريانًا مسترسِلًا لا يحتبس.» [data/juthoor-core-levels.json + data/juthoor-canonical-registry.json].
+- مسح المعاني العربية: قرئت الشواهد الكاملة في بطاقة المصدر، ونقل هنا شاهدان مسميان:
+  - تاج اللغة وصحاح العربية للجوهري: «ومنه قيل للجيش العظيم: مَجْرٌ، لثقله وضِخَمه».
+  - المحكم والمحيط الأعظم لابن سيده: «وجيش مَجْر: كثير جدا، وَقد قيل: إِنَّه أَكثر مَا يكون».
+- المدار المكتوب باليد: الكتلة في عضو الفرع تجمع كثير ممتلئ؛ والمجر جيش كثير جدا ثقيل ضخم، ويجمع الحدث الامتلاء والاندفاع.
+- المصفاة: Proto-Germanic *mūgô, from Proto-Indo-European *muk- (“heap”), similar to Ancient Greek μύκων (múkōn, “pile”). Compare Old English mūga.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: الحكم للحس المذكور وحده، ولا ينتقل إلى معنى آخر لمجرد الرسم.
+- حالة الإغلاق: READY.
+- الحكم (استكشاف): `ROOT-ECHO`.
+
+### بطاقة إتمام: `máni` /máni/؛ `COMP-PS-GC-OLD-NORSE-01282`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01282 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01282` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «the moon».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-n (كما وردَت)؛ والمروحة الحالية 10 مادة.
+- أقرب ما أعادته المروحة: `من`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «the moon» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Norse *ᛗᚨᚾᛟ (*mano), from Proto-Germanic *mēnô (“the moon”), from Proto-Indo-European *mḗh₁n̥s (“moon, month”). Cognate with Old English mōna, Old Frisian mōna, Old Saxo. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `barmr` /barmr/؛ `COMP-PS-GC-OLD-NORSE-01283`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01283 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01283` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «rim».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-r-m-r (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `برمل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «rim» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Indo-European *bʰren- (“project”), related to Old English brant (“steep”), Latvian bruôds (“roof ridge”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `dómr` /dómr/؛ `COMP-PS-GC-OLD-NORSE-01284`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01284 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01284` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «judgement; fame, repute».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت d-m-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `دمر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «judgement; fame, repute» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *dōmaz, from Proto-Indo-European *dʰóh₁mos. Compare Old English dōm, Old Frisian dōm, Old Saxon dōm, Old High German tuom, Gothic 𐌳𐍉𐌼𐍃 (dōms).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `fóðr` /fóðr/؛ `COMP-PS-GC-OLD-NORSE-01285`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01285 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01285` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «fodder».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-ð-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `فدر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «fodder» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *fōdrą (“fodder”), whence also Old English fōdor, Old High German fuotar. Ultimately from Proto-Indo-European *peh₂- (“guard, graze, feed”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `fóðr` /fóðr/؛ `COMP-PS-GC-OLD-NORSE-01286`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01286 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01286` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «sheath».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-ð-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `فدر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «sheath» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *fōdrą (“fodder”), whence also Old English fōdor, Old High German fuotar. Ultimately from Proto-Indo-European *peh₂- (“guard, graze, feed”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `alfr` /alfr/؛ `COMP-PS-GC-OLD-NORSE-01287`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01287 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01287` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «elf».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-f-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `لبر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «elf» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *albiz, ultimately from Proto-Indo-European *albʰós.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `vǫlr` /vǫlr/؛ `COMP-PS-GC-OLD-NORSE-01288`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01288 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01288` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «a rounded staff».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-l-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `ورر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «a rounded staff» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *waluz.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `gaman` /gaman/؛ `COMP-PS-GC-OLD-NORSE-01289`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01289 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01289` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «fun, merriment, enjoyment».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت g-m-n (كما وردَت)؛ g-m (بإسقاطِ نونِ المصدرِ -an)؛ والمروحة الحالية 44 مادة.
+- أقرب ما أعادته المروحة: `جمن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «fun, merriment, enjoyment» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *gamaną. Cognates include Old English gamen (Modern English game).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `sofna` /sofna/؛ `COMP-PS-GC-OLD-NORSE-01290`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01290 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01290` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to fall asleep».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت s-f-n (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `سفن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to fall asleep» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: sofa (“to sleep”) + -na (“inchoative suffix”). لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `blanda` /blanda/؛ `COMP-PS-GC-OLD-NORSE-01291`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01291 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01291` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to blend, mix; to have sexual relations with».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-l-n-d (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `بلند`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to blend, mix; to have sexual relations with» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *blandaną, from Proto-Indo-European *bʰlendʰ-.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `engill` /engill/؛ `COMP-PS-GC-OLD-NORSE-01292`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01292 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01292` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «angel».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت n-g-LL (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `نجل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «angel» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: Borrowed from Old Saxon engil and/or Old English enġel, from Proto-West Germanic *angil, which is borrowed via Latin angelus, from Ancient Greek ἄγγελος (ángelos, “messenger”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `tapan` /tapan/؛ `COMP-PS-GC-OLD-NORSE-01293`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01293 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01293` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «loss; perdition».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت t-p-n (كما وردَت)؛ t-p (بإسقاطِ نونِ المصدرِ -an)؛ والمروحة الحالية 88 مادة.
+- المقابل المختار: `تبب`؛ مسار الصوت: t↔ت=`IDN-11`؛ p↔ب=`LAB-01`؛ أسقطت الأداة اللاحقة المصدرية -an كما تؤكد حاشية الاشتقاق، ثم فتح باب المضاعف المسمى تبب.
+- الحدث المجمد المختار من جميع الدرجات: الدرجة 1 (جذرٌ في الـ2,285): «ذهاب غلظ الشيء وشدته من ضغط حاد عليه» [computational/data/layer_2_results_v2.jsonl].
+- مسح المعاني العربية: بعد أن فتحت الأداة المصلحة باب المضاعف الذي لم يكن في بطاقة المصدر، شغلت `search_arabic_root_senses.py تبب --max-chars 0` ونقل هنا شاهدان مستقلان:
+  - تاج اللغة وصحاح العربية للجوهري: «التَبابُ: الخُسْرانُ والهَلاكُ».
+  - المحكم والمحيط الأعظم لابن سيده: «التَّبُّ: الخَسارُ».
+- المدار المكتوب باليد: الخسران والهلاك في تبب هما معنى الخسران والهلاك في عضو الفرع نفسه؛ فالحكم لهذا الاسمين لا لحس الاستتباب المتجانس.
+- المصفاة: From tapa + -an.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: الحكم للحس المذكور وحده، ولا ينتقل إلى معنى آخر لمجرد الرسم.
+- حالة الإغلاق: READY.
+- الحكم (استكشاف): `ROOT-TRACE`.
+
+### بطاقة إتمام: `munni` /munni/؛ `COMP-PS-GC-OLD-NORSE-01294`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01294 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01294` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «mouth, opening».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-n (كما وردَت)؛ والمروحة الحالية 10 مادة.
+- أقرب ما أعادته المروحة: `من`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «mouth, opening» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From munnr.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `syll` /syll/؛ `COMP-PS-GC-OLD-NORSE-01295`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01295 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01295` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «sill».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت s-y-LL (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `سيل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «sill» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *swellijō, whence also English sill. Doublet of svill: In Proto-Norse vi > y through u-mutation, giving an irregular paradigm sg. syll, pl. svillar (sic). Level. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `beinir` /beinir/؛ `COMP-PS-GC-OLD-NORSE-01296`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01296 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01296` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «help, benefit».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-n-r (كما وردَت)؛ والمروحة الحالية 2 مادة.
+- أقرب ما أعادته المروحة: `بنر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «help, benefit» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From beinn.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `blý` /blý/؛ `COMP-PS-GC-OLD-NORSE-01297`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01297 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01297` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «lead (metal)».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-l-y (كما وردَت)؛ والمروحة الحالية 2 مادة.
+- أقرب ما أعادته المروحة: `بلي`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «lead (metal)» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *blīwiją.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `mang` /mang/؛ `COMP-PS-GC-OLD-NORSE-01298`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01298 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01298` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «barter, peddling».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-n-g (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `منج`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «barter, peddling» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From manga (“to barter”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `jǫtunn` /jǫtunn/؛ `COMP-PS-GC-OLD-NORSE-01299`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01299 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الأولى؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01299` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «a jotun, ettin, giant».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت j-t-n (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `يتن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «a jotun, ettin, giant» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Norse *ᛖᛏᚢᚾᚨᛉ (*etunaʀ, “giant”), from Proto-Germanic *etunaz (“giant; overeater, glutton”, literally “eater”), from *etaną (“to eat”), from Proto-Indo-European *h₁ed- (. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+
+### الدفعة الثانية
+
+### بطاقة إتمام: `Áland` /Áland/؛ `COMP-PS-GC-OLD-NORSE-01300`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01300 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01300` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «Åland».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-n-d (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `رند`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «Åland» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: Possibly from Proto-Norse *ᚨᚺᚹᚢᛚᚨᛞᚨ (*ahwulada). Equivalent to á (“river, water”) + land (“land”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `morð` /morð/؛ `COMP-PS-GC-OLD-NORSE-01301`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01301 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01301` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «murder».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-r-ð (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `مرذ`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «murder» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *murþą.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `brúnn` /brúnn/؛ `COMP-PS-GC-OLD-NORSE-01302`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01302 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01302` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «brown; bright».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-r-n (كما وردَت)؛ والمروحة الحالية 2 مادة.
+- أقرب ما أعادته المروحة: `برن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «brown; bright» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *brūnaz (“grey, brown”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `brúnn` /brúnn/؛ `COMP-PS-GC-OLD-NORSE-01303`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01303 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01303` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «a black horse».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-r-n (كما وردَت)؛ والمروحة الحالية 2 مادة.
+- أقرب ما أعادته المروحة: `برن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «a black horse» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *brūnaz (“grey, brown”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `fagna` /fagna/؛ `COMP-PS-GC-OLD-NORSE-01304`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01304 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01304` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to rejoice; to welcome».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-g-n (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `فجن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to rejoice; to welcome» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: Inherited from Proto-Germanic *faginōną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `skína` /skína/؛ `COMP-PS-GC-OLD-NORSE-01305`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01305 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01305` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to shine».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت s-k-n (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `سكن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to shine» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *skīnaną (“to shine, appear”), from Proto-Indo-European *(s)ḱeh₁y-. Cognate with Old English scīnan, Old Frisian skīna, Old Saxon skīnan, Old Dutch skīnan, Old. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `meina` /meina/؛ `COMP-PS-GC-OLD-NORSE-01306`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01306 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01306` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to mean (think)».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-n (كما وردَت)؛ والمروحة الحالية 10 مادة.
+- أقرب ما أعادته المروحة: `من`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to mean (think)» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: Probably of the noun mein (“harm”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `svimma` /svimma/؛ `COMP-PS-GC-OLD-NORSE-01307`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01307 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01307` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to swim».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت s-v-m (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- المقابل المختار: `سوم`؛ مسار الصوت: s↔س=ˋIDN-07ˋ؛ v↔و=ˋLAB-06ˋ؛ m↔م=ˋIDN-02ˋ.
+- الحدث المجمد المختار من جميع الدرجات: الدرجة 1 (جذرٌ في الـ2,285): «امتداد بقاء أو مرور وذهاب في حيز بلا حد» [computational/data/layer_2_results_v2.jsonl].
+- مسح المعاني العربية: قرئت الشواهد الكاملة في بطاقة المصدر، ونقل هنا شاهدان مسميان:
+  - تاج اللغة وصحاح العربية للجوهري: «وسامَ، أي مر».
+  - المحكم والمحيط الأعظم لابن سيده: «وسَامَت الإِبلُ والرِّيحُ سَوْماً اسْتَمَرَّت».
+- المدار المكتوب باليد: السباحة مرور ممتد في حيز الماء؛ وسوم العربية يثبت المرور واستمرار الإبل والريح، وهو نص الحدث المجمد.
+- المصفاة: From Proto-Germanic *swimmaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: الحكم للحس المذكور وحده، ولا ينتقل إلى معنى آخر لمجرد الرسم.
+- حالة الإغلاق: READY.
+- الحكم (استكشاف): `ROOT-ECHO`.
+
+### بطاقة إتمام: `amboð` /amboð/؛ `COMP-PS-GC-OLD-NORSE-01308`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01308 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01308` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «agricultural implement(s)».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-b-ð (كما وردَت)؛ والمروحة الحالية 2 مادة.
+- أقرب ما أعادته المروحة: `مبد`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «agricultural implement(s)» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From ǫnn (“hard work”) + boð.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `bert` /bert/؛ `COMP-PS-GC-OLD-NORSE-01309`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01309 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01309` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «openly, clearly».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-r-t (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `برت`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «openly, clearly» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: Neuter of berr.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `yrki` /yrki/؛ `COMP-PS-GC-OLD-NORSE-01310`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01310 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01310` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «work, occupation».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت y-r-k (كما وردَت)؛ والمروحة الحالية 6 مادة.
+- أقرب ما أعادته المروحة: `يرق`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «work, occupation» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *wurkiją.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `merki` /merki/؛ `COMP-PS-GC-OLD-NORSE-01311`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01311 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01311` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «standard, banner; boundary».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-r-k (كما وردَت)؛ والمروحة الحالية 6 مادة.
+- أقرب ما أعادته المروحة: `مرك`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «standard, banner; boundary» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *markiją, related to *markō (see Old Norse mǫrk).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `banga` /banga/؛ `COMP-PS-GC-OLD-NORSE-01312`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01312 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01312` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to bang, pound, hammer».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-n-g (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `بنج`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to bang, pound, hammer» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *bangōną (“to pound, beat”), from Proto-Indo-European *bʰen- (“to beat, injure”). Cognate with Old High German bangōn (“to bang, beat”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `meðan` /meðan/؛ `COMP-PS-GC-OLD-NORSE-01313`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01313 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01313` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «meanwhile, as long as, while, whilst».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-ð-n (كما وردَت)؛ m-ð (بإسقاطِ نونِ المصدرِ -an)؛ والمروحة الحالية 22 مادة.
+- أقرب ما أعادته المروحة: `مذن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «meanwhile, as long as, while, whilst» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *medanō (“meanwhile, as long as”); compare *midi (“along with”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `benda` /benda/؛ `COMP-PS-GC-OLD-NORSE-01314`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01314 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01314` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «bend; beckon».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-n-d (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `بند`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «bend; beckon» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *bandijaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `benda` /benda/؛ `COMP-PS-GC-OLD-NORSE-01315`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01315 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01315` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «band, tie».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-n-d (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `بند`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «band, tie» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *bandijaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `heiman` /heiman/؛ `COMP-PS-GC-OLD-NORSE-01316`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01316 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01316` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «from home».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت h-m-n (كما وردَت)؛ h-m (بإسقاطِ نونِ المصدرِ -an)؛ والمروحة الحالية 66 مادة.
+- أقرب ما أعادته المروحة: `همن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «from home» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: Inherited from Proto-Norse *ᚺᚨᛁᛗᚨᚾᚨ (*haimana), from Proto-Germanic *haimanē, equivalent to heimr + -an.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `móður` /móður/؛ `COMP-PS-GC-OLD-NORSE-01317`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01317 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01317` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «oblique singular of móðir».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-ð-r (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `مذر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «oblique singular of móðir» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *mōdēr, from Proto-Indo-European *méh₂tēr. Compare Old Saxon mōdar, Old Frisian mōder, Old English mōdor, Old Dutch muoder, Old High German muoter.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `fiðla` /fiðla/؛ `COMP-PS-GC-OLD-NORSE-01318`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01318 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01318` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «fiddle».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-ð-l (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `فدر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «fiddle» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *fiþulǭ.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `þræll` /þræll/؛ `COMP-PS-GC-OLD-NORSE-01319`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01319 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01319` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «slave, thrall».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت þ-r-LL (كما وردَت)؛ والمروحة الحالية 6 مادة.
+- أقرب ما أعادته المروحة: `ثلل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «slave, thrall» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *þragilaz, *þrahilaz, *þrēhilaz, cognate with Old High German drigil (“servant”) and Gothic 𐌸𐍂𐌰𐌲𐌾𐌰𐌽 (þragjan, “to run”). From the root *þreh-, *þreg-, *þrag- ‘t. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `kreppa` /kreppa/؛ `COMP-PS-GC-OLD-NORSE-01320`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01320 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01320` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «strait, scrape».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت k-r-p (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- المقابل المختار: `كرب`؛ مسار الصوت: k↔ك=ˋIDN-13ˋ؛ r↔ر=ˋIDN-01ˋ؛ p↔ب=ˋLAB-01ˋ.
+- الحدث المجمد المختار من جميع الدرجات: الدرجة 1 (جذرٌ في الـ2,285): «عُرُوٌّ كثيف يُقرِّب الوصول أو الاتصال» [computational/data/layer_2_results_v2.jsonl].
+- مسح المعاني العربية: قرئت الشواهد الكاملة في بطاقة المصدر، ونقل هنا شاهدان مسميان:
+  - كتاب العين للخليل بن أحمد: «الكَرْبُ، مجزوم، [هو] الغم الذي يأخذ بالنفس».
+  - تاج اللغة وصحاح العربية للجوهري: «وكَرَبْتُ القيدَ، إذا ضيَّقته على المقيد».
+- المدار المكتوب باليد: الضيق والمأزق في عضو الفرع يطابقان الكربة والغم الشديد؛ ويعضده كرب القيد، أي تضييقه على المقيد.
+- المصفاة: From Proto-Germanic *krampijaną, causative of *krimpaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: الحكم للحس المذكور وحده، ولا ينتقل إلى معنى آخر لمجرد الرسم.
+- حالة الإغلاق: READY.
+- الحكم (استكشاف): `ROOT-TRACE`.
+
+### بطاقة إتمام: `lemja` /lemja/؛ `COMP-PS-GC-OLD-NORSE-01321`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01321 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01321` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to thrash, flog, beat».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-m-j (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `لمي`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to thrash, flog, beat» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *lamjaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `merja` /merja/؛ `COMP-PS-GC-OLD-NORSE-01322`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01322 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01322` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to beat, crush; to bruise».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-r-j (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `مري`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to beat, crush; to bruise» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *marjaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `rekja` /rekja/؛ `COMP-PS-GC-OLD-NORSE-01323`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01323 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01323` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to unwind, unfold; to track, trace».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت r-k-j (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `ركي`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to unwind, unfold; to track, trace» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *rakjaną, from Proto-Indo-European *h₃roǵéyeti. See also Proto-Germanic *wrakjaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `grína` /grína/؛ `COMP-PS-GC-OLD-NORSE-01324`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01324 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01324` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to grin».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت g-r-n (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `جرن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to grin» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *grīnaną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `menning` /menning/؛ `COMP-PS-GC-OLD-NORSE-01325`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01325 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01325` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «breeding, upbringing, education».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت m-n-g (كما وردَت)؛ m-n (بإسقاطِ لاحقةِ المصدرِ الاسميِّ -ing)؛ والمروحة الحالية 14 مادة.
+- أقرب ما أعادته المروحة: `منج`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «breeding, upbringing, education» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From menna (“to make a man of someone, breed”) + -ing.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `bólgna` /bólgna/؛ `COMP-PS-GC-OLD-NORSE-01326`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01326 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01326` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to swell, become swollen».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-l-g-n (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `بلقن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to swell, become swollen» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From bólginn (“swollen”). Ultimately from Proto-Indo-European *bʰelǵʰ- (“to swell”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `lunga` /lunga/؛ `COMP-PS-GC-OLD-NORSE-01327`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01327 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01327` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «lung».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-n-g (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `لنج`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «lung» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *lungô.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `verma` /verma/؛ `COMP-PS-GC-OLD-NORSE-01328`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01328 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01328` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to warm».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-r-m (كما وردَت)؛ والمروحة الحالية 6 مادة.
+- أقرب ما أعادته المروحة: `ورم`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to warm» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *warmijaną, from *warmaz, whence varmr.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `fyrr` /fyrr/؛ `COMP-PS-GC-OLD-NORSE-01329`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01329 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01329` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «before, sooner; rather».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-y-r (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `فيل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «before, sooner; rather» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: لا خبر أصل في المدخلة. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `logn` /logn/؛ `COMP-PS-GC-OLD-NORSE-01330`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01330 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01330` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «calm».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-g-n (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- المقابل المختار: `ركن`؛ مسار الصوت: l↔ر=ˋLIQ-01ˋ؛ g↔ك=ˋGUT-02ˋ؛ n↔ن=ˋIDN-03ˋ.
+- الحدث المجمد المختار من جميع الدرجات: الدرجة 1 (جذرٌ في الـ2,285): «تجوفٌ - أو ظَرْفٌ - شديد الجوانب يجمع ما في باطنه» [computational/data/layer_2_results_v2.jsonl].
+- مسح المعاني العربية: قرئت الشواهد الكاملة في بطاقة المصدر، ونقل هنا شاهدان مسميان:
+  - تاج اللغة وصحاح العربية للجوهري: «ركن إليه بالكسر يَرْكَنُ رُكوناً فيهما، أي مالَ إليه وسكن».
+  - المحكم والمحيط الأعظم لابن سيده: «وركن فِي الْمنزل يركن ركونا: أَقَامَ».
+- المدار المكتوب باليد: السكون في عضو الفرع يلتقي الركون والإقامة؛ ويجمع الحدث الاستقرار في حيز يجمع ما في باطنه.
+- المصفاة: From Proto-Germanic *lugnijaz, ultimately from Proto-Indo-European *lewk- (“bright”), referring to shining water. Germanic cognates include English lown, Danish lyn (“lightning”),. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: الحكم للحس المذكور وحده، ولا ينتقل إلى معنى آخر لمجرد الرسم.
+- حالة الإغلاق: READY.
+- الحكم (استكشاف): `ROOT-ECHO`.
+
+### بطاقة إتمام: `fyl` /fyl/؛ `COMP-PS-GC-OLD-NORSE-01331`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01331 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01331` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «foal».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-y-l (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `فيل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «foal» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *fulją.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `ljóð` /ljóð/؛ `COMP-PS-GC-OLD-NORSE-01332`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01332 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01332` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «song (musical), poem».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-j-ð (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `ليد`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «song (musical), poem» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *leuþą, whence come also Old English lēod, Old Saxon lioth, Old High German liod (German Lied), and Gothic 𐌻𐌹𐌿𐌸 (liuþ).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `rjúpa` /rjúpa/؛ `COMP-PS-GC-OLD-NORSE-01333`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01333 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01333` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «ptarmigan».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت r-j-p (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `ريب`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «ptarmigan» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: According to Pokorny, from Proto-Indo-European *h₁rewg- (“to roar, belch”), see also Latvian rubenis (“grouse”), Old English rocettan (“to burp”). Related to Proto-Slavic *arębъ (“. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `heiðinn` /heiðinn/؛ `COMP-PS-GC-OLD-NORSE-01334`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01334 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01334` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «heathen, pagan; unbaptized».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت h-ð-n (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `هذن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «heathen, pagan; unbaptized» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *haiþīnaz, probably a specifically Christian use of the base of heiðr (“uncultivated land”). Compare Old English hæþen.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `heiðni` /heiðni/؛ `COMP-PS-GC-OLD-NORSE-01335`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01335 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01335` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «paganism, heathenry; a custom or practice pertaining to paganism».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت h-ð-n (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `هذن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «paganism, heathenry; a custom or practice pertaining to paganism» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: heiðinn (“heathen, pagan”) + -i (“-ness”).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `lekan` /lekan/؛ `COMP-PS-GC-OLD-NORSE-01336`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01336 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01336` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «positive degree strong masculine accusative singular of lekr».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-k-n (كما وردَت)؛ l-k (بإسقاطِ نونِ المصدرِ -an)؛ والمروحة الحالية 66 مادة.
+- أقرب ما أعادته المروحة: `لكن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «positive degree strong masculine accusative singular of lekr» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: لا خبر أصل في المدخلة. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `víðir` /víðir/؛ `COMP-PS-GC-OLD-NORSE-01337`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01337 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01337` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «willow».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-ð-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `وذر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «willow» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *wīþijaz (“willow”), from Proto-Indo-European *wéh₁itis (“that which twines or bends, branch, switch”), to a root sense of braid, intertwine etc, also found in. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `víðir` /víðir/؛ `COMP-PS-GC-OLD-NORSE-01338`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01338 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01338` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «positive degree strong masculine nominative plural of víðr».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-ð-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `وذر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «positive degree strong masculine nominative plural of víðr» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *wīþijaz (“willow”), from Proto-Indo-European *wéh₁itis (“that which twines or bends, branch, switch”), to a root sense of braid, intertwine etc, also found in. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `þjóna` /þjóna/؛ `COMP-PS-GC-OLD-NORSE-01339`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01339 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01339` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «to serve».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت þ-j-n (كما وردَت)؛ والمروحة الحالية 6 مادة.
+- أقرب ما أعادته المروحة: `ثين`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «to serve» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: Either inherited from Proto-Germanic *þewanōną and influenced by þjónn (“slave, servant”) or borrowed from Old Saxon thionon, which is derived from the same.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `vápn` /vápn/؛ `COMP-PS-GC-OLD-NORSE-01340`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01340 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01340` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «weapon».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-p-n (كما وردَت)؛ والمروحة الحالية 6 مادة.
+- أقرب ما أعادته المروحة: `وبن`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «weapon» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *wēpną.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `leikari` /leikari/؛ `COMP-PS-GC-OLD-NORSE-01341`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01341 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01341` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «player, jester».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت l-k-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `لجر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «player, jester» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From leika (“to play”) + -ari.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `hallr` /hallr/؛ `COMP-PS-GC-OLD-NORSE-01342`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01342 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01342` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «slope, hill; rock, stone».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت h-LL-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `هلل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «slope, hill; rock, stone» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Norse ᚺᚨᛚᚨᛉ (halaʀ), ᚺᚨᛚᛁ (hali), from Proto-Germanic *halluz m. In Proto-Germanic originally a u-stem, but reanalyzed as an a-stem by the time of the inscription on Ste. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `snerra` /snerra/؛ `COMP-PS-GC-OLD-NORSE-01343`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01343 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01343` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «attack, onslaught».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت s-n-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `سنر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «attack, onslaught» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: لا خبر أصل في المدخلة. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `valr` /valr/؛ `COMP-PS-GC-OLD-NORSE-01344`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01344 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01344` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «the dead, slain in battle».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-l-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `ورر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «the dead, slain in battle» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *walaz (“corpse, body, battlefield”). Cognate with Old English wæl, Old Saxon wal, Old High German wal. Ultimately from Proto-Indo-European *welh₃- (“wound, inj. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `valr` /valr/؛ `COMP-PS-GC-OLD-NORSE-01345`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01345 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01345` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «falcon, hawk».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت v-l-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `ورر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «falcon, hawk» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *walaz (“corpse, body, battlefield”). Cognate with Old English wæl, Old Saxon wal, Old High German wal. Ultimately from Proto-Indo-European *welh₃- (“wound, inj. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `blaðra` /blaðra/؛ `COMP-PS-GC-OLD-NORSE-01346`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01346 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01346` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «bladder».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت b-l-ð-r (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `بلذر`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «bladder» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *blēdrǭ.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `hellir` /hellir/؛ `COMP-PS-GC-OLD-NORSE-01347`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01347 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01347` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «cave, cavern».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت h-LL-r (كما وردَت)؛ والمروحة الحالية 12 مادة.
+- أقرب ما أعادته المروحة: `هلل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «cave, cavern» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *hallijaz, from *halluz (“stone, rock”) + *-jaz.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `fífill` /fífill/؛ `COMP-PS-GC-OLD-NORSE-01348`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01348 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01348` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «dandelion».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-f-LL (كما وردَت)؛ والمروحة الحالية 4 مادة.
+- أقرب ما أعادته المروحة: `ففل`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «dandelion» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: Probably from an altered form of fífl (“monster, giant; idiot”), with hypothetical pre-form *fimflaz, referring to the flower's "expended" spherical buds.. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+### بطاقة إتمام: `flóð` /flóð/؛ `COMP-PS-GC-OLD-NORSE-01349`
+<!-- LANE-D-DONE19-OLD-NORSE:COMP-PS-GC-OLD-NORSE-01349 -->
+
+- إصدار البروتوكول: `RECOVERY-v2`؛ المرحلة: الدفعة الثانية؛ الطبقة: استكشاف.
+- بطاقة المصدر: `PS-GC-OLD-NORSE-01349` في `phonetic-sweep-germanic-celtic/batch-009-old-norse.md`؛ بقيت بلا تعديل.
+- مقام المصدر: `sound-only`؛ معنى صف المسح: «a flood, inundation, an overflow of water.; a high tide.».
+- الأداة المصلحة: `fan_any_script.oe_skeletons(word, "germanic")` أعادت f-l-ð (كما وردَت)؛ والمروحة الحالية 8 مادة.
+- أقرب ما أعادته المروحة: `فلذ`؛ قرئت مواد المروحة وأحداثها وشواهدها في بطاقة المصدر.
+- المدار المكتوب باليد: لم يثبت اجتماع رجل الصوت مع حدث مجمد يشرح معنى «a flood, inundation, an overflow of water.; a high tide.» وشاهد عربي صريح؛ فالتشابه الشكلي وحده لا يكفي.
+- المصفاة: From Proto-Germanic *flōduz (“river; flood”). Cognate with Old English flōd, Old Frisian flōd, Old Saxon flōd, Old Dutch fluod, Old High German fluot, Gothic 𐍆𐌻𐍉𐌳𐌿𐍃 (flōdus).. لم تجعل حاشية الأصل بوابة، ولا يغلق القرض إلا مانح سامي مسمى.
+- فصل المتجانسات: لم يرث هذا الحس حكم مادة أو معنى آخر لمجرد الرسم، وبقيت الصلات الصادرة القديمة بلا مساس.
+- حالة الإغلاق: CLOSED-NO-TRACE.
+- الحكم (استكشاف): `NO-TRACE`.
+
+
+- حصيلة الدفعتين: 100 بطاقة إتمام؛ `ROOT-TRACE` عدد 2، و`ROOT-ECHO` عدد 3، و`NO-TRACE` عدد 95.
+- فصل المتجانسات: فصل حس `nagl` التشريحي عن حس المسمار، وحس `fóðr` العلف عن حس الغمد، وحسي `brúnn` اللون والفرس الأسود، وحسي `valr` القتيل والصقر.
+- الضبط: نقاء الشحنة `CLEAN`؛ ولا بطاقة مغلقة بوسم مخترع؛ وكاشف انضباط النواة بقي عند خط أساسه التاريخي، 20 ملاحظة بلا زيادة من الجولة.
+- لم تشغل أداة الشحن ولم ينشأ إيداع.
+
+LANE-D DONE19 100 PS-GC-OLD-NORSE-01349
+
+<!-- LANE-D-DONE19-OLD-NORSE:END -->

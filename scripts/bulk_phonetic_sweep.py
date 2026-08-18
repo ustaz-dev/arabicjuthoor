@@ -261,7 +261,12 @@ def main() -> int:
         if not (2 <= len(sk) <= 4):
             continue
         cands = FA.fan(r["word"], script)
-        if not cands or len(cands) > args.max_cands:
+        # **الاتّساعُ ليس ذنبًا يُسقِطُ الكلمةَ** (البند 6 من قانونِ مضادِّ
+        # التخريب، 2026-08-18): كان تجاوزُ 12 مرشَّحًا يُهمِلُ الكلمةَ كلَّها
+        # بصمت، فلمّا اتّسعَتِ المروحةُ بإصلاحِ النهاياتِ الجرمانيّةِ سقطَ
+        # منها زوجُ magan ↔ مكن ومعه 17 زوجًا قديمًا. الغربالُ الحقيقيُّ هو
+        # المعجمُ والمعنى بعدَ سطرَين، لا عرضُ المروحة.
+        if not cands:
             continue
         hits = [c for c in cands if c in ar]
         if not hits:
@@ -300,7 +305,16 @@ def main() -> int:
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     base = OUT_DIR / f"phonetic-sweep-{args.lang}"
-    json.dump({"language": args.lang, "both": both, "sound_only": sound_only[:3000]},
+    # **لا سقوفَ صامتة** (قانونُ مضادِّ التخريب، البند 6، بإعادةِ تقييمِ
+    # 2026-08-18): كان `sound_only[:3000]` يُسقِطُ آلافَ المرشّحينَ بصمتٍ في
+    # خمسةِ ألسنٍ ضربَتِ السقف. من اليومِ يُكتَبُ الحوضُ كلُّه ويُعلَنُ مجموعُه،
+    # وإن قُصَّ بسقفٍ صريحٍ (--sound-cap) طُبِعَ عددُ المطروح.
+    cap = getattr(args, "sound_cap", 0) or 0
+    kept = sound_only if not cap else sound_only[:cap]
+    if cap and len(sound_only) > cap:
+        print(f"!! سقفٌ صريح: طُرِحَ {len(sound_only) - cap:,} من حوضِ الصوتِ-فقط")
+    json.dump({"language": args.lang, "both": both,
+               "sound_only_total": len(sound_only), "sound_only": kept},
               open(base.with_suffix(".json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
 
