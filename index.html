@@ -1327,13 +1327,13 @@ html[dir="rtl"] .contact-close { right: auto; left: 14px; }
       Arabic fan, and keeps only candidates that <b>actually exist in the Arabic lexicons</b>. Then it measures how far the
       two meanings overlap. Across <b id="sb-tongues">14</b> tongues it returned <b id="sb-both">3,989</b> forms matching in
       both sound and sense, <b class="sb-direct">2,899</b> of them on direct dictionary witness, and a further
-      <b id="sb-sound">23,294</b> matching in sound alone and still waiting for a reader.</p>
+      <b id="sb-sound">23,294</b> matching in sound alone and still waiting for a reader. A second sweep, whose unit is the <b>binary nucleus</b> rather than the full root, adds <b id="sb-nuc">—</b> further sound-and-sense candidates at the older layer the constitution expects distant branches to keep.</p>
     <p class="hp-lede lang-ar">كانَ كُلُّ مُرَشَّحٍ إلى اليَومِ يَأتي من طابورٍ رَتَّبناهُ نَحن. وهذا المَسحُ يَعكِسُ ذلك:
       يَأخُذُ <b>قاموسَ كُلِّ لِسانٍ نَفسَه</b>، فيُجَرِّدُ كُلَّ مَدخَلٍ إلى هَيكَلِه الصّامِتِيّ، ويَفتَحُ مَروَحَتَه
       العَرَبِيّةَ كامِلة، ويُبقي المُرَشَّحَ <b>الموجودَ فِعلًا في مَعاجِمِ العَرَبِيّة</b>، ثُمَّ يَقيسُ تَقاطُعَ
       المَعنى بينَ الطَّرَفَين. وقد ردَّ في <b class="sb-tongues">14</b> لِسانًا <b class="sb-both">3,989</b> صورةً
       اجتَمَعَ لها الصَّوتُ والمَعنى، منها <b class="sb-direct">2,899</b> بِشَهادةٍ مُباشِرة، ومعها
-      <b class="sb-sound">23,294</b> طابَقَت في الصَّوتِ وحدَه وتَنتَظِرُ قارِئًا.</p>
+      <b class="sb-sound">23,294</b> طابَقَت في الصَّوتِ وحدَه وتَنتَظِرُ قارِئًا. ومَسحٌ ثانٍ وَحدَتُهُ <b>النَّواةُ الثُّنائيّةُ</b> لا الجذرُ الكامِلُ يَزيدُ <b class="sb-nuc">—</b> مُرَشَّحًا آخَرَ في الطَّبَقةِ الأَقدَمِ التي يَتَوَقَّعُ الدُّستورُ بَقاءَها في الفُروعِ البَعيدة.</p>
     <div id="sb-board" style="margin-top:12px;"></div>
     <div class="hp-table-wrap" style="margin-top:12px;">
       <table class="hp-table"><thead><tr>
@@ -3006,6 +3006,7 @@ const SUPABASE_TABLE = 'messages';
       put('#sb-direct, .sb-direct', N(t.direct));
       put('#sb-sound, .sb-sound', N(t.sound_only));
       put('#sb-tongues, .sb-tongues', N(t.tongues));
+      if (t.nucleus_both) put('#sb-nuc, .sb-nuc', N(t.nucleus_both));
 
       var tiles = (b.tongues || []).map(function (x) {
         var share = x.both ? Math.round(100 * x.direct / x.both) : 0;
@@ -3020,6 +3021,13 @@ const SUPABASE_TABLE = 'messages';
           + ' on direct witness · ' + N(x.sound_only) + ' sound only</span>'
           + '<span class="lang-ar">' + N(x.direct) + ' بِشَهادةٍ مُباشِرة · '
           + N(x.sound_only) + ' صَوتًا وحدَه</span></div>'
+          + (x.nucleus_both
+             ? '<div class="tb-sub" style="color: var(--accent-strong);">'
+               + '<span class="lang-en">+ ' + N(x.nucleus_both)
+               + ' at the binary-nucleus layer</span>'
+               + '<span class="lang-ar">+ ' + N(x.nucleus_both)
+               + ' في طبقةِ النواةِ الثنائيّة</span></div>'
+             : '')
           + '</div>';
       }).join('');
       var el = document.getElementById('sb-board');

@@ -111,7 +111,12 @@ def main() -> int:
 
     nuclei = load_nuclei()
     bridge = load_bridge()
-    lex = json.load((LEXICONS / f"{args.lang}.json").open(encoding="utf-8"))
+    # أسماءُ ملفّاتِ الفهارسِ بشرطةٍ عاديّةٍ (old-norse) وأسماءُ المسوحِ
+    # بشرطةٍ سفليّةٍ (old_norse)، وخمسةُ ألسنٍ سقطَت بهذا الخلافِ أوّلَ تشغيل
+    stem = args.lang.replace("_", "-")
+    stem = {"ancient-greek": "ancient-greek", "english-middle": "middle-english",
+            "english-old": "old-english"}.get(stem, stem)
+    lex = json.load((LEXICONS / f"{stem}.json").open(encoding="utf-8"))
     script = "latin"
     table = F.FANS[script]
 

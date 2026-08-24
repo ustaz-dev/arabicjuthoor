@@ -66,6 +66,13 @@ def main() -> int:
         tot += len(both)
         direct_tot += len(direct)
         sound_tot += len(payload.get("sound_only", []))
+        # حوضُ النواةِ لهذا اللسانِ إن كان مسحُه النوويُّ قد جرى (المرحلة ج):
+        # وحدةُ المسحِ النواةُ الثنائيّةُ، وطريقا معناه bridge/event موسومان
+        npath = pathlib.Path(path).with_name(f"nucleus-sweep-{lang}.json")
+        if npath.exists():
+            np = json.loads(npath.read_text(encoding="utf-8"))
+            tongues[-1]["nucleus_both"] = np.get("both_total", 0)
+            tongues[-1]["nucleus_sound_only"] = np.get("sound_only_total", 0)
         for r in direct[:6]:
             examples.append({
                 "key": lang, "ar": ar, "en": en,
@@ -81,7 +88,9 @@ def main() -> int:
         "note": ("مادّةٌ مرشَّحةٌ من مسحِ الفروعِ الأصيلةِ: الصوتُ يُقابِلُ أوّلًا "
                  "والمعنى يحكُمُ بعدَه. لا تدخلُ عدَّ الصلاتِ الصادرة."),
         "totals": {"both": tot, "direct": direct_tot, "sound_only": sound_tot,
-                   "tongues": len(tongues)},
+                   "tongues": len(tongues),
+                   "nucleus_both": sum(t.get("nucleus_both", 0) for t in tongues),
+                   "nucleus_sound_only": sum(t.get("nucleus_sound_only", 0) for t in tongues)},
         "tongues": tongues,
         "examples": examples,
     }
