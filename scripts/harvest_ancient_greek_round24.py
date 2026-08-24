@@ -38,9 +38,79 @@ CARD_COUNT = 102
 Outcome = R23.Outcome
 
 
+# A skeleton-only lexicon hit is not a homograph of an inflected sweep row.
+# Keep such rows readable from their named sweep gloss, as round 23 already
+# does when the surface lookup returns nothing.
+def chosen_entry_with_strict_surface(row: dict) -> tuple[list[dict], dict, str]:
+    entries, how = R2.LEX.look("ancient-greek", str(row["branch"]))
+    if entries and how == "الصورةُ بنصِّها":
+        selected = R2.BASE.select_lexicon(entries, str(row.get("gloss") or ""))
+        return entries, entries[selected], how
+    if row.get("gloss"):
+        read = str(row.get("say") or "").split("  (")[0]
+        entry = {
+            "word": str(row["branch"]), "read": read, "pos": "inflected form",
+            "en": str(row["gloss"]), "etym": "",
+        }
+        return [entry], entry, "صف المسح القاموسي المسمى؛ لا تورث مطابقة الهيكل مدخلة أخرى"
+    return R23.ORIGINAL_CHOSEN_ENTRY(row)
+
+
+R2.chosen_entry = chosen_entry_with_strict_surface
+
+
 # Every non-open outcome is hand-read against the complete branch homograph
 # set and the complete Arabic-root result set. Retrieval weight is not proof.
 OUTCOMES: dict[int, Outcome] = {
+    998: Outcome(
+        "transmission", "منن",
+        "الآرامية 𐡌𐡍𐡄 mnh، من الأكادية manû، هي مانح اسم الوزن والنقد",
+        "قاموس الفرع يرد μνᾶ إلى الآرامية 𐡌𐡍𐡄 mnh ثم الأكادية manû؛ انتقال اسم مكيال ونقد من مانح سامي مسمى.",
+    ),
+    1011: Outcome(
+        "root", "حمي", "حمى الشيء: منعه ودفع عنه؛ وحمى المكان: منعه أن يقرب",
+        "hindrance وbulwark وholdfast وbuttress تلتقي الحماية والمنع في العربية؛ المدار حاجز يمسك الشيء ويدفع عنه النفاذ.", 3,
+    ),
+    1027: Outcome(
+        "root", "زم", "زمه: شده وربطه؛ والزمام ما يزم به",
+        "loincloth وband المسميان في الفرع رباطان يشدان على الجسد؛ المدار شد الشيء وربطه بما يمسكه.", 2,
+    ),
+    1034: Outcome(
+        "root", "سل", "سل الشيء: نزعه وأخرجه؛ والإسلال السرقة الخفية",
+        "right of seizure وreprisal في الفرع حق أخذ مال الغير ونزعه منه؛ المدار إخراج الشيء من يد حائزه بالأخذ.", 2,
+    ),
+    1046: Outcome(
+        "root", "فش", "فش السقاء: حل رباطه بعد نفخه حتى خرجت الريح؛ وفش الوطب أخرج ريحه",
+        "bellows وbladder وعاءان للهواء، وفش السقاء في العربية فتح الوعاء المنفوخ وإخراج ريحه؛ المدار وعاء ممتلئ بالهواء يعمل بخروجه.", 2,
+    ),
+    1066: Outcome(
+        "root", "رف", "الرفرفة تحريك الطائر جناحه في الهواء وهو لا يبرح مكانه",
+        "flapping of wings في مدخلة الفرع هو الرفرفة العربية نصا؛ وswing وsweep يحملان حركة الطرف نفسها.", 2,
+    ),
+    1067: Outcome(
+        "transmission", "لف", "العبرية الكتابية אָלֶף ʾālep̄ هي مانح اسم الحرف",
+        "قاموس الفرع يصرح باقتراض ἀλεφ من العبرية الكتابية אָלֶף؛ انتقال اسم الحرف من مانح سامي مسمى.",
+    ),
+    1072: Outcome(
+        "law", "ذر", "ذر الشيء: فرقه ونثره فصار أجزاء متبددة",
+        "divide وseparate في الفرع تلتقي تفريق الشيء ونثر أجزائه في ذر العربية؛ المدار فصل الكل إلى أجزاء، لكن δ إلى ذ بلا صف يوناني مسمى.", 2, "δ ↔ ذ",
+    ),
+    1074: Outcome(
+        "root", "فشا", "فشا الشيء: ظهر وانتشر واتسع",
+        "has sprung forth وbeen brought forth تلتقي ظهور الشيء وخروجه بعد كمونه في فشا؛ المدار بروز الموجود وانتشاره إلى الظاهر.", 3,
+    ),
+    1082: Outcome(
+        "root", "ملل", "مللت الشيء: سئمته وبرمت به وأعرضت عنه",
+        "to not care for وto disregard في الفرع هو الإعراض عن الشيء وترك الاهتمام به، وملل العربية السآمة التي تحمل صاحبها على الإعراض؛ المدار انصراف العناية عن الشيء.", 1,
+    ),
+    1096: Outcome(
+        "root", "فتي", "استفتاه: سأله أن يفتي؛ والفتوى بيان الحكم",
+        "to ask في الفرع يلتقي استفتاه في العربية، وهو سؤاله طلبا لبيان الحكم؛ المدار توجيه السؤال إلى من ينتظر منه جواب مبين.", 4,
+    ),
+    1098: Outcome(
+        "root", "بش", "أبشت الأرض: التف نباتها؛ وقيل أنبتت أول نباتها",
+        "grassy وcovered in grass في الفرع هو إبشاش الأرض في العربية: التفاف نباتها وظهور أوله؛ المدار أرض ظهر نباتها وانتشر.", 2,
+    ),
 }
 
 
@@ -111,10 +181,9 @@ def build_card(
     card = card.replace("LANE-A-R23-", "LANE-A-R24-")
     word = R21.nfc(row["branch"])
     memory_line = (
-        "- فحص التكرار في الذاكرة: الصورة حاضرة قبل الجولة في سجل القراءة؛ "
-        "أعيد فحص صف الرتبة مستقلا، ولم يرث حكم متحد الرسم."
+        "- فحص الذاكرة: الصورة حاضرة قبل الجولة؛ أعيد فحص الرتبة ولم ترث حكم متحد الرسم."
         if word in memory_words else
-        "- فحص التكرار في الذاكرة: لا حضور سابق مطابق للصورة قبل الجولة؛ الصف طازج الصورة."
+        "- فحص الذاكرة: لا صورة مطابقة قبل الجولة؛ الصف طازج."
     )
     card, substitutions = re.subn(
         r"(?m)^(- الكلمة في الفرع:.*)$",
@@ -124,6 +193,20 @@ def build_card(
     )
     if substitutions != 1:
         raise AssertionError(f"تعذر وسم فحص الذاكرة: {expanded_rank}")
+    witness_overrides = {
+        1072: "- مسح المعاني العربية: قُرئت نتائج الجذر `ذر` بـ`--max-chars 0`؛ كتاب العين: «الذر مصدر ذررت، وهو أخذك الشيء بأطراف أصابعك تذره ذر الملح»؛ ولسان العرب: «ذر الشيء إذا بدده؛ وذررت الحب والملح والدواء: فرقته».",
+        1096: "- مسح المعاني العربية: قُرئت نتائج الجذر `فتي` بـ`--max-chars 0`؛ المصباح المنير: «الفتوى اسم من أفتى العالم إذا بين الحكم، واستفتيته: سألته أن يفتي»؛ وأساس البلاغة: «فبت أفاتيها، أي أسائلها».",
+        1098: "- مسح المعاني العربية: قُرئت نتائج الجذر `بش` بـ`--max-chars 0`؛ المحيط: «أعشبت الأرض وأبشت: التف نبتها؛ وقيل أنبتت أول نباتها»؛ ولم يُتَحْ شاهد كلاسيكي ثان بهذا المعنى في الموارد المسماة.",
+    }
+    if expanded_rank in witness_overrides:
+        card, substitutions = re.subn(
+            r"(?m)^- مسح المعاني العربية:.*$",
+            witness_overrides[expanded_rank],
+            card,
+            count=1,
+        )
+        if substitutions != 1:
+            raise AssertionError(f"تعذر تثبيت شاهد المعنى: {expanded_rank}")
     card, size = R21.R6.compact_to_limit(card, f"R24-{expanded_rank}")
     record["bytes"] = size
     record["memory_repeat"] = word in memory_words
@@ -252,6 +335,8 @@ def stage_patches() -> Path:
     if proposal:
         tail += [
             "*** Update File: 04-cross-linguistic/proposed-shift-rows-greek.md", "@@",
+            " | `χ ↔ ك` | 1 | `χορεία`→`كور` «كور الشيء: أداره؛ وكل دور كور» | لا صف مجمد مسمى؛ تبقى البطاقات `LAW-GAP` |",
+            " ",
             " تبقى هذه البطاقات في `LAW-GAP` إلى قرار المؤلف؛ الإلحاق شاهد فقط.", "+",
             R23.R22.add_lines(proposal),
         ]
@@ -269,17 +354,49 @@ def verify_installed() -> dict:
     markers = re.findall(r"<!-- LANE-A-GREEK-ROUND24-CHUNK-\d{2}:END -->", reading)
     section = reading.split("<!-- LANE-A-GREEK-ROUND24-BATCH-1:START -->", 1)[-1]
     section = section.split("<!-- LANE-A-GREEK-ROUND24-CHUNK-12:END -->", 1)[0]
-    present = section.count("فحص التكرار في الذاكرة: الصورة حاضرة قبل الجولة")
-    fresh = section.count("فحص التكرار في الذاكرة: لا حضور سابق مطابق للصورة")
+    batch_counts = [
+        len(re.findall(r"^### بطاقة:", section.split(f"<!-- LANE-A-GREEK-ROUND24-BATCH-{batch}:START -->", 1)[-1].split(f"<!-- LANE-A-GREEK-ROUND24-BATCH-{batch}:END -->", 1)[0], re.MULTILINE))
+        for batch in (1, 2)
+    ]
+    cards = re.findall(
+        r"(?ms)^### بطاقة:.*?(?=^### بطاقة:|^<!-- LANE-A-GREEK-ROUND24-(?:BATCH|CHUNK)-)",
+        section,
+    )
+    max_bytes = max(len(card.rstrip().encode("utf-8")) for card in cards)
+    required_fields = (
+        "إصدار البروتوكول:", "الكلمة في الفرع:", "فحص الذاكرة:", "أقدم صورة مستعادة:",
+        "الخطوة صفر", "درجة المقارنة:", "مسح المعاني العربية:", "المقابل من اللسان:",
+        "مسار الصوت:", "الحدثُ من السجلِّ", "المعنى من قاموس الفرع:", "المدار:",
+        "المصفاة:", "فصل المتجانسات والاقتراض:", "فحص المروحة كلها:", "مؤشر اليتم:",
+        "إشعاع الأسرة في الفرع:", "إشعاع الأسرة في العربية:", "جسور الاسترداد المفحوصة:",
+        "حالة الإغلاق:", "الحكم (استكشاف):", "ملاحظات:",
+    )
+    incomplete = sum(any(field not in card for field in required_fields) for card in cards)
+    truncation_markers = len(re.findall(r"tokens truncated|chars truncated|lines truncated", section))
+    present = section.count("فحص الذاكرة: الصورة حاضرة قبل الجولة")
+    fresh = section.count("فحص الذاكرة: لا صورة مطابقة قبل الجولة")
     done = f"LANE-A DONE24 {CARD_COUNT} {EXPECTED_LAST_RANK}"
     expected_ids = list(range(EXPECTED_FIRST_RANK, EXPECTED_LAST_RANK + 1))
-    if ids != expected_ids or len(markers) != 12 or present != EXPECTED_MEMORY_REPEATS or fresh != EXPECTED_FRESH or done not in REPORT.read_text(encoding="utf-8"):
+    proposal = PROPOSAL.read_text(encoding="utf-8")
+    proposal_ok = (
+        proposal.count("إلحاق شواهد الجولة الرابعة والعشرين") == 1
+        and "`διαιρῶ`→`ذر`" in proposal
+        and "`δ ↔ ذ`" in proposal
+    )
+    if (ids != expected_ids or len(markers) != 12 or batch_counts != [BATCH_SIZE, BATCH_SIZE]
+            or len(cards) != CARD_COUNT or max_bytes > 5_120 or incomplete or truncation_markers
+            or present != EXPECTED_MEMORY_REPEATS or fresh != EXPECTED_FRESH
+            or not proposal_ok or done not in REPORT.read_text(encoding="utf-8")):
         raise AssertionError(
-            f"التحقق فشل: بطاقات={len(ids)} قطع={len(markers)} حاضر={present} طازج={fresh}"
+            f"التحقق فشل: بطاقات={len(ids)} دفعتان={batch_counts} قطع={len(markers)} "
+            f"أكبر={max_bytes} ناقص={incomplete} اقتطاع={truncation_markers} "
+            f"حاضر={present} طازج={fresh} شاهد={proposal_ok}"
         )
     return {
-        "cards": len(ids), "chunks": len(markers), "first_id": ids[0], "last_id": ids[-1],
-        "memory_repeats": present, "fresh": fresh, "done": done,
+        "cards": len(ids), "batches": batch_counts, "chunks": len(markers),
+        "first_id": ids[0], "last_id": ids[-1], "max_bytes": max_bytes,
+        "incomplete_cards": incomplete, "truncation_markers": truncation_markers,
+        "memory_repeats": present, "fresh": fresh, "law_gap_witness": proposal_ok, "done": done,
     }
 
 

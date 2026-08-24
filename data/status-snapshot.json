@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 79588,
+  "cards_total": 79843,
   "by_language": [
    {
     "key": "old-latin",
@@ -32,7 +32,7 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 10860,
+    "cards": 10942,
     "links": 361,
     "root": 131,
     "nucleus": 229,
@@ -43,23 +43,23 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 10712,
-    "links": 208,
-    "root": 197,
+    "cards": 10782,
+    "links": 212,
+    "root": 201,
     "nucleus": 11,
     "floor": 0,
-    "nucleus_share": 5.3
+    "nucleus_share": 5.2
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 8881,
-    "links": 133,
-    "root": 124,
+    "cards": 8983,
+    "links": 142,
+    "root": 133,
     "nucleus": 9,
     "floor": 0,
-    "nucleus_share": 6.8
+    "nucleus_share": 6.3
    },
    {
     "key": "welsh",
@@ -153,12 +153,12 @@
     "key": "gothic",
     "en": "Gothic",
     "ar": "القوطيّة",
-    "cards": 500,
-    "links": 24,
+    "cards": 501,
+    "links": 25,
     "root": 14,
-    "nucleus": 10,
+    "nucleus": 11,
     "floor": 0,
-    "nucleus_share": 41.7
+    "nucleus_share": 44.0
    },
    {
     "key": "phoenician-punic-scout",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4660,
-  "closures": 1890,
+  "links_to_arabic": 4674,
+  "closures": 1930,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2690,
+    "count": 2703,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 1038,
+    "count": 1039,
     "link": true
    },
    {
@@ -219,6 +219,11 @@
     "link": true
    },
    {
+    "name": "OUT-OF-SCOPE",
+    "count": 135,
+    "link": false
+   },
+   {
     "name": "INTRA-HOUSE-TRANSFER",
     "count": 127,
     "link": false
@@ -226,11 +231,6 @@
    {
     "name": "LOAN-ROUTE-ISOLATED",
     "count": 121,
-    "link": false
-   },
-   {
-    "name": "OUT-OF-SCOPE",
-    "count": 113,
     "link": false
    },
    {
@@ -245,7 +245,7 @@
    },
    {
     "name": "COMPOUND-BOUNDARY",
-    "count": 34,
+    "count": 52,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 51343,
-  "suspended": 38739,
-  "released": 12604,
+  "cards_total": 51446,
+  "suspended": 38831,
+  "released": 12615,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
@@ -271,11 +271,11 @@
    },
    {
     "name": "UNLABELLED",
-    "count": 18095
+    "count": 18186
    },
    {
     "name": "LAW-GAP",
-    "count": 575
+    "count": 576
    },
    {
     "name": "SOURCE-GAP",
@@ -317,7 +317,7 @@
    },
    {
     "file": "ancient-greek.md",
-    "count": 6416
+    "count": 6507
    },
    {
     "file": "coptic.md",

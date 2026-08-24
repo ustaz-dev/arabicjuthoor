@@ -47,6 +47,15 @@ STOP = {
 }
 
 
+# **طبقةُ الأعلامِ تُعزَلُ ولا تُغرِبَل** (بعيّنةِ 2026-08-24): شرحُ العَلَمِ
+# «a male given name» لا يحملُ معنًى للكلمةِ بل وصفًا لصنفِها، فتقاطعُ
+# `given/male` تقاطعٌ فارغٌ يُدخِلُ عشراتِ الأعلامِ في حوضِ المعنى بلا معنى.
+# والأعلامُ عندَنا طبقةٌ مستقلّةٌ بأمرِ الأوامرِ القائمةِ أصلًا.
+RX_ONOMASTIC = re.compile(
+    r"(given name|proper name|surname|a male name|a female name|"
+    r"place name|toponym|patronymic|the name of)", re.I)
+
+
 def words_of(text: str) -> set[str]:
     return {w for w in re.findall(r"[a-z]+", str(text).lower())
             if len(w) > 2 and w not in STOP}
@@ -73,9 +82,36 @@ def load_bridge() -> dict[str, set[str]]:
             if len(re.sub(r"[^ء-ي]", "", root)) == 2}
 
 
-def candidate_nuclei(word: str, script: str, table: dict) -> dict[str, str]:
+# **الجذعُ من تفكيكِ القاموسِ نفسِه لا من الحدس** (بمسبارِ المسارِ D في
+# 2026-08-24): مدخلةُ ويكاموس تكتبُ تفكيكَها نصًّا `X + -suffix`، وفي القوطيّةِ
+# وحدَها 1,884 مدخلةً من 3,711 تحملُه. وأوّلُ صفٍّ في المسبارِ كشفَ الثمنَ:
+# `usbraidjan` هيكلُها `s-b-r-d-j-n`، فأخذَتِ الأداةُ طرفَيها `s-n` نواةً،
+# والسينُ من سابقةِ `us-` والنونُ من لاحقةِ `-jan`، فكانت «نواةٌ» ليس فيها
+# حرفٌ أصليٌّ واحد. وهو العطبُ التاسعُ بعينِه: الصرفُ يُحسَبُ أصلًا.
+RX_DECOMP = re.compile(r"\(([a-zāēīōūþƕ\-]{2,})\)\s*\+\s*[^()]*\(-")
+RX_PREFIXED = re.compile(r"\+\s*[^()]*\(([a-zāēīōūþƕ\-]{2,})\)")
+
+
+def stem_from_etym(etym: str) -> str:
+    """الجذعُ كما يسمّيه القاموسُ إن سمّاه، وإلّا فارغ."""
+    if not etym or " + " not in etym:
+        return ""
+    m = RX_DECOMP.search(etym)
+    if m:
+        s = m.group(1).strip("-")
+        return s if len(s) >= 3 else ""
+    return ""
+
+
+def candidate_nuclei(word: str, script: str, table: dict,
+                     etym: str = "") -> dict[str, str]:
     """أزواجُ النواةِ المرشَّحةُ من هياكلِ الكلمةِ كلِّها، بوسمِ مصدرِ كلٍّ."""
     sk_variants: list[tuple[list[str], str]] = []
+    stem = stem_from_etym(etym)
+    if stem:
+        sk = F.skeleton(stem, script)
+        if sk:
+            sk_variants.append((sk, f"جذعُ القاموسِ `{stem}`"))
     base = F.skeleton(word, script)
     if base:
         sk_variants.append((base, "كما وردَت"))
@@ -90,7 +126,10 @@ def candidate_nuclei(word: str, script: str, table: dict) -> dict[str, str]:
             pairs.append((cons[0], cons[1], "الهيكلُ نفسُه"))
         for i in range(len(cons) - 1):
             pairs.append((cons[i], cons[i + 1], f"الزوجُ المتجاورُ {i+1}"))
-        if len(cons) >= 3:
+        # **الطرفانِ لثلاثةِ صوامتَ فقط**: قاعدةُ خانةِ المدِّ (التعديل 1) نصُّها
+        # الأجوفُ C1+مدّ+C2، أي صامتانِ قويّانِ بينَهما صائت. ومدُّها إلى هيكلٍ
+        # من ستّةِ صوامتَ يقفزُ فوقَ حدودٍ صرفيّةٍ ويصنعُ نواةً من لاصقتَين.
+        if len(cons) == 3:
             pairs.append((cons[0], cons[-1], "الطرفانِ (قاعدةُ خانةِ المدّ)"))
         for a, b, why in pairs:
             for ar1 in table.get(a, ()):
@@ -125,12 +164,14 @@ def main() -> int:
         word, gloss = e.get("word", ""), e.get("en", "")
         if not word or not gloss:
             continue
+        if RX_ONOMASTIC.search(gloss):
+            continue
         # القوطيّةُ وأخواتُها بخطِّها الأصليِّ في `word` ورومنتُها في `read`،
         # والهيكلُ اللاتينيُّ يعودُ من الخطِّ الأصليِّ فارغًا فيموتُ المسحُ صفرًا
         text = word if F.skeleton(word, script) else e.get("read", "")
         if not text:
             continue
-        cands = candidate_nuclei(text, script, table)
+        cands = candidate_nuclei(text, script, table, str(e.get("etym", "")))
         hits = {n: how for n, how in cands.items() if n in nuclei}
         if not hits:
             continue
@@ -152,15 +193,20 @@ def main() -> int:
         }
         if best:
             n, how, via = best
+            n_shared = sum(len(s) for _, s in via)
             row.update({
                 "best_nucleus": n, "how": how,
                 "reading_ar": nuclei[n]["reading_ar"][:100],
                 "via": [{"path": p, "shared": s} for p, s in via],
+                # قوّةُ الدلالةِ تُكتَبُ ولا تُخفى: طريقانِ أقوى من طريق،
+                # وتقاطعُ كلمةٍ واحدةٍ أضعفُ ما يُعرَض، فيُقرَأُ الأقوى أوّلًا
+                "strength": len(via) * 10 + min(n_shared, 9),
             })
             both.append(row)
         else:
             sound_only.append(row)
 
+    both.sort(key=lambda r: -r.get("strength", 0))
     print(f"{args.lang}: نواةٌ بصوتٍ ومعنًى: {len(both):,} · "
           f"نواةٌ بصوتٍ فقط: {len(sound_only):,}")
     if args.probe:
