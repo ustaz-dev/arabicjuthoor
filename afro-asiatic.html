@@ -86,10 +86,12 @@ html[data-lang="ar"] .lang-en { display: none !important; }
 .crumb { color: var(--text-3); font-size: 14px; flex: 1; }
 html[data-lang="ar"] .topbar-inner { flex-direction: row-reverse; }
 .actions { display: flex; align-items: center; gap: 8px; }
-.lang-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.lang-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden;   flex-shrink: 0;
+}
 .lang-toggle button { background: var(--bg-2); border: 0; cursor: pointer; padding: 6px 12px; font-size: 13px; color: var(--text-3); }
 .lang-toggle button.active { background: var(--accent-strong); color: white; }
-.theme-toggle { background: var(--bg-2); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 13px; color: var(--text); }
+.theme-toggle { background: var(--bg-2); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 13px; color: var(--text);   flex-shrink: 0;
+}
 
 main { max-width: 1280px; margin: 0 auto; padding: 36px 28px 80px; }
 .page-title { font-size: clamp(28px, 5vw, 40px); font-weight: 800; margin: 0 0 8px; letter-spacing: -0.02em; }

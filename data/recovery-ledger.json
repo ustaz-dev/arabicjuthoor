@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51446,
+ "cards_total": 51448,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -255870,6 +255870,18 @@
    "card": "نواة: 𐌿𐍃𐌱𐍂𐌰𐌹𐌳𐌾𐌰𐌽 /usbraidjan/ ↔ شن؛ NUC-GOTHIC-00001",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن يعاد بناء الحوض بعد منع الأزواج العابرة لحدود المورفيمات، ثم يعاد مسبار الست من أوله.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌰𐌺𐍂𐍃 /akrs/ ↔ كس؛ NUC-GOTHIC-00003",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب قصر قاعدة الطرفين على هيكل صامتين قويين بينهما خانة مد حقيقية، لا على كل هيكل ثلاثي الصوامت، ثم إعادة مسبار الست من الصدر.",
    "gaps": [
     "TOOL-GAP"
    ],

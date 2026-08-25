@@ -52,8 +52,8 @@ STOP = {
 # `given/male` تقاطعٌ فارغٌ يُدخِلُ عشراتِ الأعلامِ في حوضِ المعنى بلا معنى.
 # والأعلامُ عندَنا طبقةٌ مستقلّةٌ بأمرِ الأوامرِ القائمةِ أصلًا.
 RX_ONOMASTIC = re.compile(
-    r"(given name|proper name|surname|a male name|a female name|"
-    r"place name|toponym|patronymic|the name of)", re.I)
+    r"(given name|proper name|surname|a male name|a female name|"
+    r"place name|toponym|patronymic|the name of)", re.I)
 
 
 def words_of(text: str) -> set[str]:
@@ -82,6 +82,17 @@ def load_bridge() -> dict[str, set[str]]:
             if len(re.sub(r"[^ء-ي]", "", root)) == 2}
 
 
+def load_tri_roots() -> set[str]:
+    """الجذورُ الثلاثيّةُ المشهودةُ في الجسرِ، لوسمِ «الجذرُ أوّلًا»."""
+    b = json.load((ROOT / "data" / "en-ar-bridge.json").open(encoding="utf-8"))
+    out = set()
+    for root in b["root_head"]:
+        bare = re.sub(r"[^\u0621-\u064a]", "", root)
+        if len(bare) == 3:
+            out.add(bare)
+    return out
+
+
 # **الجذعُ من تفكيكِ القاموسِ نفسِه لا من الحدس** (بمسبارِ المسارِ D في
 # 2026-08-24): مدخلةُ ويكاموس تكتبُ تفكيكَها نصًّا `X + -suffix`، وفي القوطيّةِ
 # وحدَها 1,884 مدخلةً من 3,711 تحملُه. وأوّلُ صفٍّ في المسبارِ كشفَ الثمنَ:
@@ -90,6 +101,12 @@ def load_bridge() -> dict[str, set[str]]:
 # حرفٌ أصليٌّ واحد. وهو العطبُ التاسعُ بعينِه: الصرفُ يُحسَبُ أصلًا.
 RX_DECOMP = re.compile(r"\(([a-zāēīōūþƕ\-]{2,})\)\s*\+\s*[^()]*\(-")
 RX_PREFIXED = re.compile(r"\+\s*[^()]*\(([a-zāēīōūþƕ\-]{2,})\)")
+
+
+# سوابقُ الجرمانيّةِ المطّردةُ، بحكمِ المؤلّفِ في gaainān (معايرةُ 2026-08-24):
+# "no suffix or prefix... and without forms". تُنزَعُ نزعًا موسومًا كاللواحق.
+GERMANIC_PREFIXES = ("ufar", "faur", "mith", "and", "fra", "dis", "ga",
+                     "us", "bi", "af", "at", "in", "un", "ur", "uf")
 
 
 def stem_from_etym(etym: str) -> str:
@@ -116,6 +133,13 @@ def candidate_nuclei(word: str, script: str, table: dict,
     if base:
         sk_variants.append((base, "كما وردَت"))
     if script in {"latin", "germanic"}:
+        low = word.strip().lower()
+        for pre in GERMANIC_PREFIXES:
+            if low.startswith(pre) and len(low) - len(pre) >= 3:
+                sk = F.skeleton(low[len(pre):], script)
+                if sk:
+                    sk_variants.append((sk, f"بنزعِ سابقةِ `{pre}-`"))
+                break
         sk_variants += F.oe_skeletons(word, script)
         sk_variants += F.latin_stem_skeletons(word, script)
     out: dict[str, str] = {}
@@ -150,6 +174,7 @@ def main() -> int:
 
     nuclei = load_nuclei()
     bridge = load_bridge()
+    tri_roots = load_tri_roots()
     # أسماءُ ملفّاتِ الفهارسِ بشرطةٍ عاديّةٍ (old-norse) وأسماءُ المسوحِ
     # بشرطةٍ سفليّةٍ (old_norse)، وخمسةُ ألسنٍ سقطَت بهذا الخلافِ أوّلَ تشغيل
     stem = args.lang.replace("_", "-")
@@ -191,6 +216,26 @@ def main() -> int:
             "branch": word, "read": e.get("read", ""), "gloss": gloss[:120],
             "nuclei_found": sorted(hits),
         }
+        # **الجذرُ أوّلًا حيثُ الهيكلُ ثلاثيٌّ** (معايرةُ المؤلّفِ 2026-08-24:
+        # dragan بابُها درج لا ذر، وcride بابُها كرد/قرد/قرط لا رض): يُكتَبُ
+        # الوسمُ ومروحةُ الثلاثيِّ المشهودةُ في الصفِّ نفسِه ليقرأَها القارئُ
+        # قبلَ النزولِ إلى النواة.
+        # يفحصُ الهيكلَ الخامَ وكلَّ صورةٍ منزوعةِ اللواحق: dragan خامُها
+        # d-r-g-n رباعيٌّ وبنزعِ نونِ المصدرِ ثلاثيٌّ بابُه درج (حكمُ المؤلّف)
+        tri_sks = [F.skeleton(text, script)]
+        tri_sks += [sk for sk, _ in F.oe_skeletons(text, script)]
+        tri_sks += [sk for sk, _ in F.latin_stem_skeletons(text, script)]
+        for tsk in tri_sks:
+            if len(tsk) != 3:
+                continue
+            tri = sorted({a + b + c
+                          for a in table.get(tsk[0], ())
+                          for b in table.get(tsk[1], ())
+                          for c in table.get(tsk[2], ())} & tri_roots)
+            if tri:
+                row["root_first"] = True
+                row["root_fan"] = tri[:12]
+                break
         if best:
             n, how, via = best
             n_shared = sum(len(s) for _, s in via)
@@ -200,7 +245,9 @@ def main() -> int:
                 "via": [{"path": p, "shared": s} for p, s in via],
                 # قوّةُ الدلالةِ تُكتَبُ ولا تُخفى: طريقانِ أقوى من طريق،
                 # وتقاطعُ كلمةٍ واحدةٍ أضعفُ ما يُعرَض، فيُقرَأُ الأقوى أوّلًا
-                "strength": len(via) * 10 + min(n_shared, 9),
+                "strength": ((30 if len(via) == 2 else
+                              20 if via[0][0] == "event" else 10)
+                             + min(n_shared, 9)),
             })
             both.append(row)
         else:

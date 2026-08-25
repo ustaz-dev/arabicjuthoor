@@ -343,6 +343,8 @@ html[data-lang="ar"] .read-path li::before { left: auto; right: 0; }
   background: var(--bg-2); border: 1px solid var(--border);
   border-radius: var(--radius-sm); overflow: hidden;
   font-family: var(--font-en);
+  /* overflow:hidden يُصفّرُ الحدَّ الأدنى في flexbox فينسحقُ الزرّانِ عندَ ازدحامِ الشريط */
+  flex-shrink: 0;
 }
 .lang-toggle button {
   background: transparent; color: var(--text-2);
@@ -422,7 +424,8 @@ nav.topbar {
   letter-spacing: -0.01em;
 }
 .nav-brand .accent { color: var(--accent); }
-.nav-links { display: flex; gap: 22px; flex: 1; }
+.nav-links { display: flex; gap: 14px 22px; flex: 1; flex-wrap: wrap; }
+.nav-links a { white-space: nowrap; }
 .nav-links a {
   color: var(--text-2); text-decoration: none; font-size: 14px;
   font-weight: 500; transition: color .15s;
@@ -433,6 +436,7 @@ nav.topbar {
   border: 1px solid var(--border); border-radius: var(--radius-sm);
   padding: 6px 10px; font-size: 13px; cursor: pointer;
   font-family: inherit;
+  flex-shrink: 0;
 }
 .theme-toggle:hover { border-color: var(--accent); }
 
