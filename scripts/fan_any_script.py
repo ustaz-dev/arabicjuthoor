@@ -375,6 +375,7 @@ def latin_stem_skeletons(word: str, script: str = "latin") -> list[tuple[list[st
 # اثنان)، وذلك عينُ عطبِ «الصرفُ يُحسَبُ أصلًا» التاسعِ في الأوامرِ القائمة.
 OLD_ENGLISH_ENDINGS = (
     ("ianne", "المصدرِ المصرَّفِ -ianne"),
+    ("jan", "نونِ مصدرِ الضعيفِ الأوّلِ -jan"),
     ("enne", "المصدرِ المصرَّفِ -enne"),
     ("ian", "نونِ المصدرِ -ian"),
     ("nes", "لاحقةِ الاسمِ -nes"),

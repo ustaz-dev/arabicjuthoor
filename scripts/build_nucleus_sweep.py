@@ -109,41 +109,79 @@ GERMANIC_PREFIXES = ("ufar", "faur", "mith", "and", "fra", "dis", "ga",
                      "us", "bi", "af", "at", "in", "un", "ur", "uf")
 
 
+RX_PAREN = re.compile(r"\(([^()]{1,40})\)")
+RX_ROMAN = re.compile(r"[A-Za-z\u0100-\u017f\u01dd\u0250-\u02af'-]+")
+
+
+def decomp_parts(etym: str) -> tuple[list[str], bool]:
+    """قطعُ تفكيكِ القاموسِ نصًّا: (الأجذاعُ، أوُجِدَ تفكيكٌ أصلًا).
+    المعوَّلُ عليه الرومنةُ بينَ قوسَينِ حولَ علامةِ + كما تكتبُها المداخلُ
+    فعلًا (مسبارُ المادّةِ 2026-08-25): السابقةُ تنتهي بشرطةٍ، واللاحقةُ
+    تبدأُ بها، وما سواهما جذعٌ. والمحلّلُ القديمُ كانَ يمسكُ نمطَ
+    `X + -suffix` وحدَه فيفوتُه `ga- + ains + -ān` الثلاثيُّ (عطبُ مسبارِ
+    D الرابعِ في gaainān)."""
+    if not etym or "+" not in etym:
+        return [], False
+    clause = next((s for s in re.split(r"[.;]", etym) if "+" in s), "")
+    toks = []
+    for raw_tok in RX_PAREN.findall(clause):
+        tok = raw_tok.split("/")[0].strip().strip("*").strip()
+        if tok and RX_ROMAN.fullmatch(tok):
+            toks.append(tok)
+    if not toks:
+        return [], False
+    stems = [tok for tok in toks
+             if not tok.startswith("-") and not tok.endswith("-")
+             and len(tok) >= 3]
+    return stems, True
+
+
 def stem_from_etym(etym: str) -> str:
-    """الجذعُ كما يسمّيه القاموسُ إن سمّاه، وإلّا فارغ."""
-    if not etym or " + " not in etym:
-        return ""
-    m = RX_DECOMP.search(etym)
-    if m:
-        s = m.group(1).strip("-")
-        return s if len(s) >= 3 else ""
-    return ""
+    """أوّلُ جذعٍ يسمّيه التفكيكُ (واجهةٌ قديمةٌ باقية، والقديمُ جزءٌ من الجديد)."""
+    stems, _ = decomp_parts(etym)
+    return stems[0] if stems else ""
+
+
+def skeleton_variants(text: str, script: str,
+                      etym: str = "") -> tuple[list[tuple[list[str], str, str]], bool]:
+    """صورُ الهيكلِ الموسومةُ موحَّدةً للنوى والجذورِ معًا (مسبارُ D الرابع).
+    الترتيبُ حكمٌ: جذعُ التفكيكِ أوّلًا فهو نصُّ القاموسِ، ثمّ نزعُ السابقةِ،
+    ثمّ نزعُ اللواحقِ، والخامُ آخرًا كي لا يتصدّرَ المركَّبُ نسبةَ المرشَّح."""
+    out: list[tuple[list[str], str, str]] = []
+    stems, has_decomp = decomp_parts(etym)
+    for st in stems:
+        sk = F.skeleton(st, script)
+        if sk:
+            out.append((sk, f"جذعُ القاموسِ `{st}`", "stem"))
+        # والجذعُ نفسُه قد يحملُ لاحقةَ تصريفٍ (braidjan جذعُها braid)
+        if script in {"latin", "germanic"}:
+            for ssk, slab in F.oe_skeletons(st, script):
+                if ssk and ssk != sk:
+                    out.append((ssk, f"جذعُ القاموسِ `{st}` ثمّ {slab}", "stem"))
+    if script in {"latin", "germanic"}:
+        low = text.strip().lower()
+        for pre in GERMANIC_PREFIXES:
+            if low.startswith(pre) and len(low) - len(pre) >= 3:
+                sk = F.skeleton(low[len(pre):], script)
+                if sk:
+                    out.append((sk, f"بنزعِ سابقةِ `{pre}-`", "prefix"))
+                break
+        for sk, lab in F.oe_skeletons(text, script):
+            out.append((sk, lab, "suffix"))
+        for sk, lab in F.latin_stem_skeletons(text, script):
+            out.append((sk, lab, "suffix"))
+    base = F.skeleton(text, script)
+    if base:
+        out.append((base, "كما وردَت", "raw"))
+    return out, has_decomp
 
 
 def candidate_nuclei(word: str, script: str, table: dict,
                      etym: str = "") -> dict[str, str]:
     """أزواجُ النواةِ المرشَّحةُ من هياكلِ الكلمةِ كلِّها، بوسمِ مصدرِ كلٍّ."""
-    sk_variants: list[tuple[list[str], str]] = []
-    stem = stem_from_etym(etym)
-    if stem:
-        sk = F.skeleton(stem, script)
-        if sk:
-            sk_variants.append((sk, f"جذعُ القاموسِ `{stem}`"))
-    base = F.skeleton(word, script)
-    if base:
-        sk_variants.append((base, "كما وردَت"))
-    if script in {"latin", "germanic"}:
-        low = word.strip().lower()
-        for pre in GERMANIC_PREFIXES:
-            if low.startswith(pre) and len(low) - len(pre) >= 3:
-                sk = F.skeleton(low[len(pre):], script)
-                if sk:
-                    sk_variants.append((sk, f"بنزعِ سابقةِ `{pre}-`"))
-                break
-        sk_variants += F.oe_skeletons(word, script)
-        sk_variants += F.latin_stem_skeletons(word, script)
+    sk_variants, _ = skeleton_variants(word, script, etym)
     out: dict[str, str] = {}
-    for sk, label in sk_variants:
+    for sk, label, _tier in sk_variants:
         cons = [c for c in sk]
         pairs = []
         if len(cons) == 2:
@@ -220,12 +258,14 @@ def main() -> int:
         # dragan بابُها درج لا ذر، وcride بابُها كرد/قرد/قرط لا رض): يُكتَبُ
         # الوسمُ ومروحةُ الثلاثيِّ المشهودةُ في الصفِّ نفسِه ليقرأَها القارئُ
         # قبلَ النزولِ إلى النواة.
-        # يفحصُ الهيكلَ الخامَ وكلَّ صورةٍ منزوعةِ اللواحق: dragan خامُها
-        # d-r-g-n رباعيٌّ وبنزعِ نونِ المصدرِ ثلاثيٌّ بابُه درج (حكمُ المؤلّف)
-        tri_sks = [F.skeleton(text, script)]
-        tri_sks += [sk for sk, _ in F.oe_skeletons(text, script)]
-        tri_sks += [sk for sk, _ in F.latin_stem_skeletons(text, script)]
-        for tsk in tri_sks:
+        # الصورُ الموحَّدةُ نفسُها التي قرأَت النوى تقرأُ الجذورَ (مسبارُ D
+        # الرابع)، والخامُ محجوبٌ حيثُ فكّكَ القاموسُ الكلمةَ نصًّا: gaainān
+        # خامُها g-n-n فوُسِمَت جنن/قنن اختلاقًا وكلُّها ترثُ صامتَ ga-
+        variants, has_decomp = skeleton_variants(text, script,
+                                                 str(e.get("etym", "")))
+        for tsk, vlabel, tier in variants:
+            if has_decomp and tier not in {"stem", "prefix"}:
+                continue
             if len(tsk) != 3:
                 continue
             tri = sorted({a + b + c
@@ -235,6 +275,7 @@ def main() -> int:
             if tri:
                 row["root_first"] = True
                 row["root_fan"] = tri[:12]
+                row["root_fan_from"] = vlabel
                 break
         if best:
             n, how, via = best

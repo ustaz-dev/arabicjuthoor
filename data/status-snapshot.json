@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 80097,
+  "cards_total": 80098,
   "by_language": [
    {
     "key": "old-latin",
@@ -153,12 +153,12 @@
     "key": "gothic",
     "en": "Gothic",
     "ar": "القوطيّة",
-    "cards": 503,
-    "links": 27,
-    "root": 15,
+    "cards": 504,
+    "links": 28,
+    "root": 16,
     "nucleus": 12,
     "floor": 0,
-    "nucleus_share": 44.4
+    "nucleus_share": 42.9
    },
    {
     "key": "phoenician-punic-scout",
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4677,
+  "links_to_arabic": 4678,
   "closures": 1942,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2704,
+    "count": 2705,
     "link": true
    },
    {
@@ -261,8 +261,8 @@
   ]
  },
  "pipeline": {
-  "cards_total": 51448,
-  "suspended": 38832,
+  "cards_total": 51449,
+  "suspended": 38833,
   "released": 12616,
   "blockers": [
    {
@@ -271,7 +271,7 @@
    },
    {
     "name": "UNLABELLED",
-    "count": 18187
+    "count": 18188
    },
    {
     "name": "LAW-GAP",
