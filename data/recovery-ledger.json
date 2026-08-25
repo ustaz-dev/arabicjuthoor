@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51450,
+ "cards_total": 51451,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -255906,6 +255906,18 @@
    "card": "نواة: 𐌲𐌰𐌵𐌿𐌼𐌸𐍃 /gaqumþs/ ↔ غم؛ NUC-GOTHIC-00005",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب ألا تضيف `candidate_nuclei` طرفي هيكل ثلاثي لمجرد أن `len(cons) == 3`، بل تثبت في الصورة الأصلية أن الوسط خانة مد لا صامتا، ثم تعيد بناء الأحواض التسعة ومسبار الست من صدر القوطية. ويلزم أيضا أن يستخرج `decomp_parts` الرومنة الأولى من قوس مثل `(ains, “one”)` قبل اختبارها، كي تدخل صورة الجذع في النوى والجذور معا.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐍆𐍂𐌿𐌼𐌰 /fruma/ ↔ فل؛ NUC-GOTHIC-00006",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن يقرأ محلل الصرف صيغة الشرح القاموسي `Contains the comparative suffix ... (-uma)`، وأن ينزع اللاحقة المسماة قبل بناء `root_first/root_fan` والنوى التي تمس صامتها، ثم يعاد بناء الأحواض التسعة ومسبار الست من الصدر.",
    "gaps": [
     "TOOL-GAP"
    ],

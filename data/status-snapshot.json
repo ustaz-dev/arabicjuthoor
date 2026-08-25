@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 80269,
+  "cards_total": 80522,
   "by_language": [
    {
     "key": "old-latin",
@@ -18,6 +18,17 @@
     "nucleus_share": 23.0
    },
    {
+    "key": "egyptian",
+    "en": "Egyptian",
+    "ar": "المصريّة القديمة",
+    "cards": 11106,
+    "links": 364,
+    "root": 134,
+    "nucleus": 229,
+    "floor": 1,
+    "nucleus_share": 63.1
+   },
+   {
     "key": "coptic",
     "en": "Coptic",
     "ar": "القبطيّة",
@@ -29,32 +40,21 @@
     "nucleus_share": 76.6
    },
    {
-    "key": "egyptian",
-    "en": "Egyptian",
-    "ar": "المصريّة القديمة",
-    "cards": 11024,
-    "links": 362,
-    "root": 132,
-    "nucleus": 229,
-    "floor": 1,
-    "nucleus_share": 63.4
-   },
-   {
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 10922,
-    "links": 220,
-    "root": 205,
+    "cards": 10992,
+    "links": 225,
+    "root": 210,
     "nucleus": 15,
     "floor": 0,
-    "nucleus_share": 6.8
+    "nucleus_share": 6.7
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 9183,
+    "cards": 9283,
     "links": 142,
     "root": 133,
     "nucleus": 9,
@@ -153,12 +153,12 @@
     "key": "gothic",
     "en": "Gothic",
     "ar": "القوطيّة",
-    "cards": 505,
-    "links": 29,
-    "root": 17,
+    "cards": 506,
+    "links": 30,
+    "root": 18,
     "nucleus": 12,
     "floor": 0,
-    "nucleus_share": 41.4
+    "nucleus_share": 40.0
    },
    {
     "key": "phoenician-punic-scout",
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4687,
-  "closures": 1951,
+  "links_to_arabic": 4695,
+  "closures": 1957,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2710,
+    "count": 2713,
     "link": true
    },
    {
@@ -205,7 +205,7 @@
    },
    {
     "name": "ROOT-ECHO",
-    "count": 526,
+    "count": 531,
     "link": true
    },
    {
@@ -220,7 +220,7 @@
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 136,
+    "count": 139,
     "link": false
    },
    {
@@ -245,7 +245,7 @@
    },
    {
     "name": "COMPOUND-BOUNDARY",
-    "count": 71,
+    "count": 74,
     "link": false
    },
    {
@@ -261,8 +261,8 @@
   ]
  },
  "pipeline": {
-  "cards_total": 51450,
-  "suspended": 38834,
+  "cards_total": 51451,
+  "suspended": 38835,
   "released": 12616,
   "blockers": [
    {
@@ -271,7 +271,7 @@
    },
    {
     "name": "UNLABELLED",
-    "count": 18189
+    "count": 18190
    },
    {
     "name": "LAW-GAP",

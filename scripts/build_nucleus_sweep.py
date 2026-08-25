@@ -117,6 +117,32 @@ RX_PAREN = re.compile(r"\(([^()]{1,40})\)")
 RX_ROMAN = re.compile(r"[A-Za-zÀ-ÿ\u0100-\u017f\u01dd\u0250-\u02af'-]+")
 
 
+def _fold_roman(s: str) -> str:
+    """طي علامات المد للمطابقة: -ān تطابق ذيل gaainan."""
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", s.lower())
+                   if not unicodedata.combining(c))
+
+
+def named_affixes(etym: str) -> tuple[list[str], list[str]]:
+    """اللواصقُ التي يسمّيها نصُّ الاشتقاقِ في أيِّ صيغةٍ، ولو بلا علامةِ +:
+    مدخلةُ fruma تكتبُ `Contains the comparative suffix -uma` نثرًا (عطبُ
+    مسبارِ D السادسِ NUC-GOTHIC-00006). كلُّ قوسٍ رومنتُه تبدأُ بشرطةٍ
+    لاحقةٌ مسمّاةٌ، وكلُّ قوسٍ تنتهي بها سابقةٌ مسمّاة."""
+    pres, sufs = [], []
+    if not etym:
+        return pres, sufs
+    for raw_tok in RX_PAREN.findall(etym):
+        tok = raw_tok.split("/")[0].split(",")[0].strip().strip("*").strip()
+        if not tok or not RX_ROMAN.fullmatch(tok):
+            continue
+        if tok.startswith("-") and len(tok) >= 2:
+            sufs.append(tok.lstrip("-"))
+        elif tok.endswith("-") and len(tok) >= 2:
+            pres.append(tok.rstrip("-"))
+    return pres, sufs
+
+
 def decomp_parts(etym: str) -> tuple[list[str], bool]:
     """قطعُ تفكيكِ القاموسِ نصًّا: (الأجذاعُ، أوُجِدَ تفكيكٌ أصلًا).
     المعوَّلُ عليه الرومنةُ بينَ قوسَينِ حولَ علامةِ + كما تكتبُها المداخلُ
@@ -154,6 +180,21 @@ def skeleton_variants(text: str, script: str,
     ثمّ نزعُ اللواحقِ، والخامُ آخرًا كي لا يتصدّرَ المركَّبُ نسبةَ المرشَّح."""
     out: list[tuple[list[str], str, str]] = []
     stems, has_decomp = decomp_parts(etym)
+    pres, sufs = named_affixes(etym)
+    has_decomp = has_decomp or bool(pres) or bool(sufs)
+    low_f = _fold_roman(text.strip())
+    for suf in sufs:
+        sf = _fold_roman(suf)
+        if low_f.endswith(sf) and len(low_f) - len(sf) >= 2:
+            sk = F.skeleton(low_f[: len(low_f) - len(sf)], script)
+            if sk:
+                out.append((sk, f"بنزعِ اللاحقةِ المسمّاةِ `-{suf}`", "named"))
+    for pre in pres:
+        pf = _fold_roman(pre)
+        if low_f.startswith(pf) and len(low_f) - len(pf) >= 2:
+            sk = F.skeleton(low_f[len(pf):], script)
+            if sk:
+                out.append((sk, f"بنزعِ السابقةِ المسمّاةِ `{pre}-`", "named"))
     for st in stems:
         sk = F.skeleton(st, script)
         if sk:
@@ -271,7 +312,7 @@ def main() -> int:
         variants, has_decomp = skeleton_variants(text, script,
                                                  str(e.get("etym", "")))
         for tsk, vlabel, tier in variants:
-            if has_decomp and tier not in {"stem", "prefix"}:
+            if has_decomp and tier not in {"stem", "named", "prefix"}:
                 continue
             if len(tsk) != 3:
                 continue
