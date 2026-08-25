@@ -105,12 +105,16 @@ RX_PREFIXED = re.compile(r"\+\s*[^()]*\(([a-zāēīōūþƕ\-]{2,})\)")
 
 # سوابقُ الجرمانيّةِ المطّردةُ، بحكمِ المؤلّفِ في gaainān (معايرةُ 2026-08-24):
 # "no suffix or prefix... and without forms". تُنزَعُ نزعًا موسومًا كاللواحق.
+# حرفا العلّةِ اللذانِ يُكتَبانِ في خانةِ المدِّ وسطَ الأجوفِ (qawama تُهيكَلُ
+# q-w-m): بهما وحدَهما يجوزُ زوجُ الطرفَينِ، وما سواهما صامتٌ لا يُقفَزُ فوقَه
+MADD_MIDDLE = {"w", "y"}
+
 GERMANIC_PREFIXES = ("ufar", "faur", "mith", "and", "fra", "dis", "ga",
                      "us", "bi", "af", "at", "in", "un", "ur", "uf")
 
 
 RX_PAREN = re.compile(r"\(([^()]{1,40})\)")
-RX_ROMAN = re.compile(r"[A-Za-z\u0100-\u017f\u01dd\u0250-\u02af'-]+")
+RX_ROMAN = re.compile(r"[A-Za-zÀ-ÿ\u0100-\u017f\u01dd\u0250-\u02af'-]+")
 
 
 def decomp_parts(etym: str) -> tuple[list[str], bool]:
@@ -125,7 +129,8 @@ def decomp_parts(etym: str) -> tuple[list[str], bool]:
     clause = next((s for s in re.split(r"[.;]", etym) if "+" in s), "")
     toks = []
     for raw_tok in RX_PAREN.findall(clause):
-        tok = raw_tok.split("/")[0].strip().strip("*").strip()
+        # القوسُ قد يحملُ شرحًا بعدَ فاصلةٍ: `(ains, "one")` رومنتُها ains
+        tok = raw_tok.split("/")[0].split(",")[0].strip().strip("*").strip()
         if tok and RX_ROMAN.fullmatch(tok):
             toks.append(tok)
     if not toks:
@@ -188,11 +193,13 @@ def candidate_nuclei(word: str, script: str, table: dict,
             pairs.append((cons[0], cons[1], "الهيكلُ نفسُه"))
         for i in range(len(cons) - 1):
             pairs.append((cons[i], cons[i + 1], f"الزوجُ المتجاورُ {i+1}"))
-        # **الطرفانِ لثلاثةِ صوامتَ فقط**: قاعدةُ خانةِ المدِّ (التعديل 1) نصُّها
-        # الأجوفُ C1+مدّ+C2، أي صامتانِ قويّانِ بينَهما صائت. ومدُّها إلى هيكلٍ
-        # من ستّةِ صوامتَ يقفزُ فوقَ حدودٍ صرفيّةٍ ويصنعُ نواةً من لاصقتَين.
-        if len(cons) == 3:
-            pairs.append((cons[0], cons[-1], "الطرفانِ (قاعدةُ خانةِ المدّ)"))
+        # **الطرفانِ حيثُ الوسطُ خانةُ مدٍّ مكتوبةٌ حصرًا**: نصُّ التعديلِ 1
+        # الأجوفُ C1+مدّ+C2، فالوسطُ حرفُ علّةٍ (w/y) لا صامتٌ قويّ. ومسبارُ
+        # D الخامسُ (NUC-GOTHIC-00005) أمسكَ الأداةَ تأخذُ طرفَي g-q-m وكأنّ
+        # القافَ خانةُ مدٍّ، فتصنعُ مرشَّحًا يقفزُ فوقَ صامتٍ أصليٍّ ظاهر.
+        if len(cons) == 3 and cons[1] in MADD_MIDDLE:
+            pairs.append((cons[0], cons[-1],
+                          f"الطرفانِ (الوسطُ {cons[1]} خانةُ مدٍّ، قاعدةُ التعديل 1)"))
         for a, b, why in pairs:
             for ar1 in table.get(a, ()):
                 for ar2 in table.get(b, ()):

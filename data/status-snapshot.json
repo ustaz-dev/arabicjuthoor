@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 80098,
+  "cards_total": 80269,
   "by_language": [
    {
     "key": "old-latin",
@@ -43,18 +43,18 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 10852,
-    "links": 212,
-    "root": 201,
-    "nucleus": 11,
+    "cards": 10922,
+    "links": 220,
+    "root": 205,
+    "nucleus": 15,
     "floor": 0,
-    "nucleus_share": 5.2
+    "nucleus_share": 6.8
    },
    {
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 9083,
+    "cards": 9183,
     "links": 142,
     "root": 133,
     "nucleus": 9,
@@ -153,12 +153,12 @@
     "key": "gothic",
     "en": "Gothic",
     "ar": "القوطيّة",
-    "cards": 504,
-    "links": 28,
-    "root": 16,
+    "cards": 505,
+    "links": 29,
+    "root": 17,
     "nucleus": 12,
     "floor": 0,
-    "nucleus_share": 42.9
+    "nucleus_share": 41.4
    },
    {
     "key": "phoenician-punic-scout",
@@ -185,17 +185,17 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4678,
-  "closures": 1942,
+  "links_to_arabic": 4687,
+  "closures": 1951,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2705,
+    "count": 2710,
     "link": true
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 1040,
+    "count": 1044,
     "link": true
    },
    {
@@ -210,7 +210,7 @@
    },
    {
     "name": "FORM-OF-ISOLATED",
-    "count": 497,
+    "count": 498,
     "link": false
    },
    {
@@ -245,7 +245,7 @@
    },
    {
     "name": "COMPOUND-BOUNDARY",
-    "count": 63,
+    "count": 71,
     "link": false
    },
    {
@@ -261,8 +261,8 @@
   ]
  },
  "pipeline": {
-  "cards_total": 51449,
-  "suspended": 38833,
+  "cards_total": 51450,
+  "suspended": 38834,
   "released": 12616,
   "blockers": [
    {
@@ -271,7 +271,7 @@
    },
    {
     "name": "UNLABELLED",
-    "count": 18188
+    "count": 18189
    },
    {
     "name": "LAW-GAP",
