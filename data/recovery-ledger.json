@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51453,
+ "cards_total": 51455,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -255930,6 +255930,18 @@
    "card": "نواة: 𐌰𐍆𐌼𐌰𐌹𐍄𐌰𐌽 /afmaitan/ ↔ مت؛ NUC-GOTHIC-00008",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن تركب `skeleton_variants` نزع السابقة المسماة مع نزع اللاحقة التصريفية، أو أن تمنع صورة الجذع غير المنزوعة من وسم الجذر حين توجد صورته المنزوعة، ثم تعيد بناء الأحواض التسعة ومسبار الست من الصدر.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌰𐍆𐌳𐌰𐌿𐌱𐌽𐌰𐌽 /afdaubnan/ ↔ ضب؛ NUC-GOTHIC-00010",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن يركب نزع السابقة مع نزع اللاحقة المسماة كلها، لا مع ذيل تصريفي داخلها فقط، وأن يقدم جذع القاموس والابن المنزوع كامل اللاحقة على كل صورة جزئية عند حكم `root_first`. ثم تعاد بناء الأحواض التسعة ومسبار الست من صدر القوطية.",
    "gaps": [
     "TOOL-GAP"
    ],

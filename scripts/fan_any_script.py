@@ -376,6 +376,8 @@ def latin_stem_skeletons(word: str, script: str = "latin") -> list[tuple[list[st
 OLD_ENGLISH_ENDINGS = (
     ("ianne", "المصدرِ المصرَّفِ -ianne"),
     ("jan", "نونِ مصدرِ الضعيفِ الأوّلِ -jan"),
+    ("nan", "لاحقةِ المطاوعةِ الضعيفةِ الرابعةِ -nan"),
+    ("s", "سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"),
     ("enne", "المصدرِ المصرَّفِ -enne"),
     ("ian", "نونِ المصدرِ -ian"),
     ("nes", "لاحقةِ الاسمِ -nes"),

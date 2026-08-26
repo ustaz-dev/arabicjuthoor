@@ -335,10 +335,28 @@ def main() -> int:
         # التصريفيّةِ لا تحكمُ الجذرَ بنفسِها؛ ابنُها المنزوعُ ينوبُ عنها
         # (maitan لا تلدُ متن من نونِ مصدرِها). ونونُ الفارسيّةِ أصلٌ فتبقى.
         v_labels = [v[1] for v in variants]
+        v_fams = [l.split(" ثمّ ")[0] for l in v_labels]
+        v_keys = ["".join(v[0]) for v in variants]
         def _has_stripped_child(i: int) -> bool:
-            return (args.lang in GERMANIC_LANGS
-                    and any(l.startswith(v_labels[i] + " ثمّ")
-                            for l in v_labels))
+            """الصورةُ محجوبةٌ عن حكمِ الجذرِ في الجرمانيّةِ إن كانَ لها ابنٌ
+            منزوعٌ، أو أختٌ في أسرتِها أعمقُ نزعًا هيكلُها بادئةٌ حقيقيّةٌ من
+            هيكلِها (مسبارُ D الثامنُ NUC-GOTHIC-00010: إسقاطُ -an وحدَها من
+            daubnan يتركُ نونَ لاحقةِ -nan في المروحةِ، والنزعُ الأعمقُ
+            d-b ينوبُ عن d-b-n)."""
+            if args.lang not in GERMANIC_LANGS:
+                return False
+            CORE = ("-an", "-jan", "-nan", "سينِ الإعرابِ")
+            if any(l.startswith(v_labels[i] + " ثمّ")
+                   and any(m in l.split(" ثمّ ")[-1] for m in CORE)
+                   for l in v_labels):
+                return True
+            # الحجبُ بالأختِ الأعمقِ بنفسِ قيدِ اليقين (درسُ ققم: مطابقةُ
+            # لاحقةٍ اسميّةٍ عارضةٍ كـ-um في qum الأصليّةِ لا تحجب)
+            return any(j != i and v_fams[j] == v_fams[i]
+                       and len(v_keys[j]) < len(v_keys[i])
+                       and v_keys[i].startswith(v_keys[j])
+                       and any(m in v_labels[j].split(" ثمّ ")[-1] for m in CORE)
+                       for j in range(len(variants)))
         for vi, (tsk, vlabel, tier) in enumerate(variants):
             if has_decomp and tier not in {"stem", "named", "prefix"}:
                 continue
