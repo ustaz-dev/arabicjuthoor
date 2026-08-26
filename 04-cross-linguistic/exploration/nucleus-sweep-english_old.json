@@ -2,8 +2,8 @@
  "language": "english_old",
  "layer": "استكشاف؛ حوضُ مرشَّحي نواةٍ للقارئ، لا حكمَ ولا عدّ",
  "note": "وحدةُ المسحِ النواةُ الثنائيّة؛ طريقا المعنى bridge/event موسومانِ ولا يُخلَطان؛ لا سقوفَ صامتة",
- "both_total": 515,
- "sound_only_total": 3372,
+ "both_total": 474,
+ "sound_only_total": 3414,
  "both": [
   {
    "branch": "ham",
@@ -29,62 +29,6 @@
      "path": "event",
      "shared": [
       "covering"
-     ]
-    }
-   ],
-   "strength": 32
-  },
-  {
-   "branch": "sceotan",
-   "read": "",
-   "gloss": "to shoot, throw a missile؛ to push, move quickly, pay (money)؛ to move quickly, flow, rush, shoot (of pain)",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "جث",
-    "زت",
-    "زج",
-    "زق",
-    "زك",
-    "ست",
-    "سج",
-    "سط",
-    "سق",
-    "سك",
-    "شت",
-    "شج",
-    "شط",
-    "شق",
-    "شك",
-    "صت",
-    "صك",
-    "طن",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سقط",
-    "سكت"
-   ],
-   "root_fan_from": "بإسقاطِ نونِ المصدرِ -an والمزدوجُ sc صامتَينِ (s+c)",
-   "best_nucleus": "سك",
-   "how": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "ضيق المنفذ ضيقًا شديدًا بحيث يكاد ينسد",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "money"
-     ]
-    },
-    {
-     "path": "event",
-     "shared": [
-      "flow"
      ]
     }
    ],
@@ -120,40 +64,6 @@
    "strength": 32
   },
   {
-   "branch": "-læcan",
-   "read": "",
-   "gloss": "verbal suffix (combining form) denoting action, process or making (compare English -ify), from lǣcan, a derivative of lā",
-   "nuclei_found": [
-    "جن",
-    "رج",
-    "رق",
-    "رك",
-    "قن",
-    "كن",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "become"
-     ]
-    },
-    {
-     "path": "event",
-     "shared": [
-      "from"
-     ]
-    }
-   ],
-   "strength": 32
-  },
-  {
    "branch": "ræfan",
    "read": "",
    "gloss": "to involve; wrap",
@@ -179,39 +89,6 @@
      "path": "event",
      "shared": [
       "wrap"
-     ]
-    }
-   ],
-   "strength": 32
-  },
-  {
-   "branch": "abugan",
-   "read": "",
-   "gloss": "to bow, incline, bend, submit, do reverence؛ to swerve, turn (to, from, or away), deviate؛ to withdraw, retire; be bent ",
-   "nuclei_found": [
-    "بج",
-    "بغ",
-    "بق",
-    "بك",
-    "جن",
-    "غن",
-    "قن",
-    "كن"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "oneself"
-     ]
-    },
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -342,39 +219,6 @@
    "strength": 21
   },
   {
-   "branch": "weorpan",
-   "read": "",
-   "gloss": "to throw؛ to cast (into a form or shape)؛ to cast or drive out, eject",
-   "nuclei_found": [
-    "بن",
-    "رب",
-    "رف",
-    "فن",
-    "لب",
-    "لف",
-    "ول"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ورب",
-    "ورف",
-    "ولب"
-   ],
-   "root_fan_from": "بإسقاطِ نونِ المصدرِ -an",
-   "best_nucleus": "لف",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "التلوي على ظاهر الشيء وما يلزمه من الوجود بكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "into"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
    "branch": "healdan",
    "read": "",
    "gloss": "to keep watch over (cattle etc.)؛ to hold fast, to grasp؛ to contain",
@@ -415,114 +259,6 @@
      "path": "event",
      "shared": [
       "hold"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "-had",
-   "read": "",
-   "gloss": "forming nouns of condition or quality, from nouns or adjectives",
-   "nuclei_found": [
-    "حد",
-    "حذ",
-    "حض",
-    "خد",
-    "خذ",
-    "خض",
-    "غد",
-    "غض",
-    "هد",
-    "هض"
-   ],
-   "best_nucleus": "حذ",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "القصر أو الانقطاع مع الغلظ",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "geard",
-   "read": "",
-   "gloss": "enclosure (an enclosed place)؛ yard, garden؛ dwelling, court",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رد",
-    "رذ",
-    "رض",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لد",
-    "لذ"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرد",
-    "جرذ",
-    "جلد",
-    "جلذ",
-    "غرد",
-    "غرض",
-    "قرد",
-    "قرض",
-    "قلد",
-    "كرد",
-    "كلد"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "رض",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "تضخم الجرم مع رخاوة باطنه",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "place"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "secan",
-   "read": "",
-   "gloss": "to look for, seek؛ to visit؛ to attack (especially by an organized group or a military force)",
-   "nuclei_found": [
-    "جن",
-    "زج",
-    "زق",
-    "زك",
-    "سج",
-    "سق",
-    "سك",
-    "شج",
-    "شق",
-    "شك",
-    "صك",
-    "قن",
-    "كن"
-   ],
-   "best_nucleus": "شق",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "صدع الشيء أو ما هو بمعناه",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "force"
      ]
     }
    ],
@@ -943,53 +679,6 @@
    "strength": 21
   },
   {
-   "branch": "ærgod",
-   "read": "",
-   "gloss": "good of old, good from olden days; good before other men (precise meaning uncertain)",
-   "nuclei_found": [
-    "جد",
-    "جذ",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غد",
-    "غض",
-    "قد",
-    "قذ",
-    "قض",
-    "كد",
-    "كذ",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رغد",
-    "رقد",
-    "ركد",
-    "ركض",
-    "لغد",
-    "لقد",
-    "لكد"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "لغ",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "تخلل الشيء بمائع ثخين أو كثيف",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "meaning"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
    "branch": "hropan",
    "read": "",
    "gloss": "to shout, scream؛ to call, cry out؛ to make a noise, clamor",
@@ -1033,33 +722,6 @@
      "path": "event",
      "shared": [
       "out"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "bugan",
-   "read": "",
-   "gloss": "to bend؛ to bow؛ to turn (toward or away from something)",
-   "nuclei_found": [
-    "بج",
-    "بغ",
-    "بق",
-    "بك",
-    "جن",
-    "غن",
-    "قن",
-    "كن"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -1262,37 +924,6 @@
      "path": "event",
      "shared": [
       "grasp"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "gebogen",
-   "read": "",
-   "gloss": "bent, curved؛ bowed؛ turned (to or away from something)",
-   "nuclei_found": [
-    "بج",
-    "بغ",
-    "بق",
-    "بك",
-    "جب",
-    "جن",
-    "غب",
-    "غن",
-    "قب",
-    "قن",
-    "كب",
-    "كن"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -1594,31 +1225,6 @@
      "path": "event",
      "shared": [
       "descent"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "nacian",
-   "read": "",
-   "gloss": "to strip, strip the clothes off or from; undress",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كن",
-    "نج",
-    "نق",
-    "نك"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -2158,38 +1764,6 @@
    "strength": 12
   },
   {
-   "branch": "cwen",
-   "read": "",
-   "gloss": "queen (a ruling female monarch or a king's wife)؛ princess (a king's daughter)؛ woman",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "قو",
-    "كن",
-    "ون"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جون",
-    "قون",
-    "كون"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "كن",
-   "how": "كما وردَت؛ الطرفانِ (الوسطُ w خانةُ مدٍّ، قاعدةُ التعديل 1)",
-   "reading_ar": "الاستتار في جوف شيء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "daughter",
-      "female"
-     ]
-    }
-   ],
-   "strength": 12
-  },
-  {
    "branch": "sefa",
    "read": "",
    "gloss": "spirit, heart, mind",
@@ -2239,65 +1813,6 @@
      "shared": [
       "dwelling",
       "house"
-     ]
-    }
-   ],
-   "strength": 12
-  },
-  {
-   "branch": "sceaft",
-   "read": "",
-   "gloss": "shaft (of an arrow or spear), pole",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "جب",
-    "جف",
-    "زب",
-    "زج",
-    "زف",
-    "زق",
-    "زك",
-    "سب",
-    "سج",
-    "سف",
-    "سق",
-    "سك",
-    "شب",
-    "شج",
-    "شف",
-    "شق",
-    "شك",
-    "صب",
-    "صف",
-    "صك",
-    "فت",
-    "فط",
-    "قب",
-    "قف",
-    "كب",
-    "كف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سبت",
-    "سبط",
-    "سفط",
-    "شبث",
-    "شبط",
-    "شفط"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "زج",
-   "how": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الدفع للأمام وما قد يلزمه من التداخل",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "arrow",
-      "spear"
      ]
     }
    ],
@@ -2648,37 +2163,6 @@
      "shared": [
       "asylum",
       "refuge"
-     ]
-    }
-   ],
-   "strength": 12
-  },
-  {
-   "branch": "gewyrcan",
-   "read": "",
-   "gloss": "to do, carry out (together)؛ to make, build (together)؛ to make into",
-   "nuclei_found": [
-    "جن",
-    "رج",
-    "رق",
-    "رك",
-    "غو",
-    "قن",
-    "قو",
-    "كن",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "best_nucleus": "رك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 4",
-   "reading_ar": "التجمع مع قلة الكثافة والتماسك",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "out",
-      "together"
      ]
     }
    ],
@@ -3264,31 +2748,6 @@
    "strength": 11
   },
   {
-   "branch": "tear",
-   "read": "",
-   "gloss": "tear (drop of liquid from the tear duct)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل"
-   ],
-   "best_nucleus": "تر",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الابتعاد بقوة مع دقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "drop"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "Scotland",
    "read": "",
    "gloss": "land of the Scots in Hibernia, i.e. Ireland (a large island of Northern Europe)؛ land of the Scots in Britain, i.e. Scot",
@@ -3327,14 +2786,14 @@
     "نذ",
     "نض"
    ],
-   "best_nucleus": "طر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الامتداد مع الرقة أو التتابع",
+   "best_nucleus": "شق",
+   "how": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)؛ الزوجُ المتجاورُ 1",
+   "reading_ar": "صدع الشيء أو ما هو بمعناه",
    "via": [
     {
      "path": "bridge",
      "shared": [
-      "large"
+      "land"
      ]
     }
    ],
@@ -3391,36 +2850,6 @@
      "path": "bridge",
      "shared": [
       "individual"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "smelt",
-   "read": "",
-   "gloss": "smelt (a fish)",
-   "nuclei_found": [
-    "رت",
-    "رث",
-    "رط",
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "لت",
-    "لط",
-    "مر",
-    "مل"
-   ],
-   "best_nucleus": "سم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "نوع من الخرق الذي يضم",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "fish"
      ]
     }
    ],
@@ -3500,86 +2929,6 @@
      "path": "bridge",
      "shared": [
       "cord"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "field",
-   "read": "",
-   "gloss": "fold, crease (of clothing), plait, wrinkle؛ a revolution, turn, roll؛ turn, course (of time)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رد",
-    "رذ",
-    "رض",
-    "فر",
-    "فل",
-    "لد",
-    "لذ"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برد",
-    "برض",
-    "بلد",
-    "فرد",
-    "فرض"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "لد",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الضم الشديد، أي الحوز بلا إفلات",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "time"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "colt",
-   "read": "",
-   "gloss": "colt (a juvenile horse)",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رت",
-    "رث",
-    "رط",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرث",
-    "جرط",
-    "جلط",
-    "قرت",
-    "قرث",
-    "قرط",
-    "قلط",
-    "كرت",
-    "كرث"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "جل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الاتساع والانكشاف",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "horse"
      ]
     }
    ],
@@ -3849,31 +3198,6 @@
    "strength": 11
   },
   {
-   "branch": "æcer",
-   "read": "",
-   "gloss": "field (specifically one used to grow crops or hold farm animals)؛ acre (measure of land)",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ],
-   "best_nucleus": "كر",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "التركز تكرارًا ومعاودة أو بقاء طويلًا لحصول النفع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "measure"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "regn",
    "read": "",
    "gloss": "rain",
@@ -4006,34 +3330,6 @@
    "strength": 11
   },
   {
-   "branch": "Babilonige",
-   "read": "",
-   "gloss": "Babylon (an ancient city, the ancient capital of Babylonia in modern Iraq, built on the banks of the Euphrates)",
-   "nuclei_found": [
-    "بب",
-    "بر",
-    "بل",
-    "رن",
-    "لن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ],
-   "best_nucleus": "بر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "التجرد والخلوص",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "city"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "æfnan",
    "read": "",
    "gloss": "to carry out, perform, execute؛ to cause, prepare, make ready؛ to endure, suffer",
@@ -4128,42 +3424,6 @@
      "path": "bridge",
      "shared": [
       "become"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "plot",
-   "read": "",
-   "gloss": "plot (of land)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رت",
-    "رث",
-    "رط",
-    "فر",
-    "فل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بلط",
-    "فرث",
-    "فرط",
-    "فلت"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "بر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "التجرد والخلوص",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "land"
      ]
     }
    ],
@@ -4782,48 +4042,6 @@
    "strength": 11
   },
   {
-   "branch": "Angel",
-   "read": "",
-   "gloss": "Anglia (peninsula in Jutland, in Schleswig in northermost Germany, where the Angles are supposed to have originated)",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "نجر",
-    "نجل",
-    "نغر",
-    "نقر",
-    "نقل",
-    "نكر",
-    "نكل"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "كل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "تجمع الشيء كتلة دون حد أو طرف دقيق",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "peninsula"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "hera",
    "read": "",
    "gloss": "follower, servant, one who obeys another",
@@ -5015,43 +4233,6 @@
      "path": "bridge",
      "shared": [
       "border"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Bretland",
-   "read": "",
-   "gloss": "Britain (a large island of Northern Europe)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رت",
-    "رث",
-    "رط",
-    "رن",
-    "طر",
-    "طل",
-    "لت",
-    "لط",
-    "لن",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "best_nucleus": "طر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الامتداد مع الرقة أو التتابع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "large"
      ]
     }
    ],
@@ -5874,64 +5055,6 @@
      "path": "bridge",
      "shared": [
       "city"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "scir",
-   "read": "",
-   "gloss": "office (status of an official)؛ district (under an official or governor)؛ administrative region, shire (consisting of a ",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "زج",
-    "زر",
-    "زق",
-    "زك",
-    "زل",
-    "سج",
-    "سر",
-    "سق",
-    "سك",
-    "سل",
-    "شج",
-    "شر",
-    "شق",
-    "شك",
-    "صر",
-    "صك",
-    "صل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زجر",
-    "زقل",
-    "زكر",
-    "سجر",
-    "سجل",
-    "سقر",
-    "سقل",
-    "سكر",
-    "شجر",
-    "شقر",
-    "شقل",
-    "شكر"
-   ],
-   "root_fan_from": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)",
-   "best_nucleus": "زل",
-   "how": "كما وردَت والمزدوجُ sc صوتًا واحدًا؛ الهيكلُ نفسُه",
-   "reading_ar": "الانزلاق (التحرك السهل) عن مستوٍ يتيح هذا",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "status"
      ]
     }
    ],
@@ -7721,55 +6844,6 @@
    "strength": 11
   },
   {
-   "branch": "gesceaphwil",
-   "read": "",
-   "gloss": "the fated moment, the destined time (of death)",
-   "nuclei_found": [
-    "جز",
-    "جس",
-    "جف",
-    "زج",
-    "زف",
-    "زق",
-    "زك",
-    "سج",
-    "سف",
-    "سق",
-    "سك",
-    "شج",
-    "شف",
-    "شق",
-    "شك",
-    "صف",
-    "صك",
-    "غز",
-    "غس",
-    "غش",
-    "غص",
-    "قس",
-    "قش",
-    "قص",
-    "قف",
-    "كز",
-    "كس",
-    "كش",
-    "كف",
-    "ول"
-   ],
-   "best_nucleus": "قص",
-   "how": "كما وردَت والمزدوجُ sc صوتًا واحدًا؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "نوع من القطع مع التسوية والتتابع الممتد",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "death"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "felahror",
    "read": "",
    "gloss": "very active, having done much, full of exploits",
@@ -8074,47 +7148,6 @@
    "strength": 11
   },
   {
-   "branch": "blæge",
-   "read": "",
-   "gloss": "gudgeon; bleak (fish)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برج",
-    "برغ",
-    "برق",
-    "برك",
-    "بلج",
-    "بلغ",
-    "بلق",
-    "بلك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "لق",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الصدم أو الالتقاء بالشيء في الحيز بقوة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "fish"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "wlitebeorht",
    "read": "",
    "gloss": "beautiful",
@@ -8285,6 +7318,56 @@
      "path": "bridge",
      "shared": [
       "body"
+     ]
+    }
+   ],
+   "strength": 11
+  },
+  {
+   "branch": "sceotan",
+   "read": "",
+   "gloss": "to shoot, throw a missile؛ to push, move quickly, pay (money)؛ to move quickly, flow, rush, shoot (of pain)",
+   "nuclei_found": [
+    "تن",
+    "ثن",
+    "جث",
+    "زت",
+    "زج",
+    "زق",
+    "زك",
+    "ست",
+    "سج",
+    "سط",
+    "سق",
+    "سك",
+    "شت",
+    "شج",
+    "شط",
+    "شق",
+    "شك",
+    "صت",
+    "صك",
+    "طن",
+    "قت",
+    "قث",
+    "قط",
+    "كت",
+    "كث"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "سقط",
+    "سكت"
+   ],
+   "root_fan_from": "بإسقاطِ نونِ المصدرِ -an والمزدوجُ sc صامتَينِ (s+c)",
+   "best_nucleus": "طن",
+   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
+   "reading_ar": "التكتل واللزوم",
+   "via": [
+    {
+     "path": "bridge",
+     "shared": [
+      "move"
      ]
     }
    ],
@@ -8485,49 +7568,6 @@
    "strength": 11
   },
   {
-   "branch": "scamian",
-   "read": "",
-   "gloss": "to be ashamed or embarrassed (+genitive of cause) (often impersonal with dative or accusative subject)",
-   "nuclei_found": [
-    "جم",
-    "زج",
-    "زق",
-    "زك",
-    "زم",
-    "سج",
-    "سق",
-    "سك",
-    "سم",
-    "شج",
-    "شق",
-    "شك",
-    "شم",
-    "صك",
-    "صم",
-    "قم",
-    "كم",
-    "من"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سمن",
-    "شمن"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "صم",
-   "how": "كما وردَت والمزدوجُ sc صوتًا واحدًا؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "انسداد مسام الشيء مع صلابة فلا ينفذ فيه أو منه شيء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "cause"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "æfter",
    "read": "",
    "gloss": "after؛ behind؛ according to",
@@ -8608,45 +7648,6 @@
      "path": "bridge",
      "shared": [
       "after"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "ceorl",
-   "read": "",
-   "gloss": "a churl, a freeman ranked below a thane but above a thrall؛ man؛ peasant",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرر",
-    "جرل",
-    "جلل",
-    "قرر",
-    "قرل",
-    "قلل",
-    "كرر",
-    "كرل",
-    "كلر",
-    "كلل"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "قل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الرفع بصورة من الصور",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "below"
      ]
     }
    ],
@@ -9066,55 +8067,6 @@
    "strength": 11
   },
   {
-   "branch": "gielpan",
-   "read": "",
-   "gloss": "to glory, boast, brag (+ genitive about something)",
-   "nuclei_found": [
-    "بن",
-    "جر",
-    "جل",
-    "رب",
-    "رف",
-    "غر",
-    "غل",
-    "فن",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لب",
-    "لف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرب",
-    "جرف",
-    "جلب",
-    "جلف",
-    "غرب",
-    "غرف",
-    "غلب",
-    "غلف",
-    "قرب",
-    "قرف",
-    "قلب",
-    "قلف"
-   ],
-   "root_fan_from": "بإسقاطِ نونِ المصدرِ -an",
-   "best_nucleus": "جر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الاسترسال والامتداد",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "about"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "hedan",
    "read": "",
    "gloss": "to pay attention, take notice (+ genitive)",
@@ -9252,33 +8204,6 @@
    ],
    "best_nucleus": "تر",
    "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الابتعاد بقوة مع دقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "two"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "hwæþer",
-   "read": "",
-   "gloss": "who or what (of two)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "حو",
-    "طر",
-    "طل",
-    "غو"
-   ],
-   "best_nucleus": "تر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
    "reading_ar": "الابتعاد بقوة مع دقة",
    "via": [
     {
@@ -9907,51 +8832,6 @@
    "strength": 11
   },
   {
-   "branch": "prica",
-   "read": "",
-   "gloss": "prick, (small) hole, perforation؛ point, dot؛ jot, whit; (tiny) particle",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رج",
-    "رق",
-    "رك",
-    "فر",
-    "فل",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برج",
-    "برق",
-    "برك",
-    "بلج",
-    "بلق",
-    "بلك",
-    "فرج",
-    "فرق",
-    "فرك",
-    "فلج",
-    "فلق",
-    "فلك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "رج",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الاضطراب المادي، أي اضطراب الجِرْم وتردده",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "small"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "pytt",
    "read": "",
    "gloss": "pit؛ well, pool؛ grave",
@@ -10177,46 +9057,6 @@
    "strength": 11
   },
   {
-   "branch": "spann",
-   "read": "",
-   "gloss": "span (of a hand; used as a measurement, typically considered about nine inches)",
-   "nuclei_found": [
-    "بن",
-    "زب",
-    "زف",
-    "سب",
-    "سف",
-    "شب",
-    "شف",
-    "صب",
-    "صف",
-    "فن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زبن",
-    "زفن",
-    "سبن",
-    "سفن",
-    "شفن",
-    "صبن",
-    "صفن"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "بن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الامتداد والبناء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "considered"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "spelian",
    "read": "",
    "gloss": "to substitute for, take the place of؛ to stand in proxy or in the stead of another; represent؛ to act as a representativ",
@@ -10338,89 +9178,6 @@
      "path": "bridge",
      "shared": [
       "grow"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "hreac",
-   "read": "",
-   "gloss": "stack, stook, rick (of stones, corn, hay etc.)",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رج",
-    "رق",
-    "رك",
-    "غر",
-    "غل",
-    "لج",
-    "لق",
-    "لك",
-    "هر",
-    "هل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "حرج",
-    "حرق",
-    "حرك",
-    "حلج",
-    "حلق",
-    "حلك",
-    "خرج",
-    "خرق",
-    "خلج",
-    "خلق",
-    "غرق",
-    "غلق"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "غل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "التخلل بحدة مع إحاطة أو تقييد أو ما بمعناهما",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "corn"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "stincan",
-   "read": "",
-   "gloss": "to smell (give off a scent; intransitive)؛ to stink (smell bad; intransitive)",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "جن",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طن",
-    "قن",
-    "كن",
-    "نج",
-    "نق",
-    "نك"
-   ],
-   "best_nucleus": "نك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الوصول إلى عمق الشيء بجد وتدقيق",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "bad"
      ]
     }
    ],
@@ -10648,6 +9405,53 @@
      "path": "bridge",
      "shared": [
       "roll"
+     ]
+    }
+   ],
+   "strength": 11
+  },
+  {
+   "branch": "ærgod",
+   "read": "",
+   "gloss": "good of old, good from olden days; good before other men (precise meaning uncertain)",
+   "nuclei_found": [
+    "جد",
+    "جذ",
+    "رج",
+    "رغ",
+    "رق",
+    "رك",
+    "غد",
+    "غض",
+    "قد",
+    "قذ",
+    "قض",
+    "كد",
+    "كذ",
+    "لج",
+    "لغ",
+    "لق",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "رغد",
+    "رقد",
+    "ركد",
+    "ركض",
+    "لغد",
+    "لقد",
+    "لكد"
+   ],
+   "root_fan_from": "كما وردَت",
+   "best_nucleus": "لق",
+   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
+   "reading_ar": "الصدم أو الالتقاء بالشيء في الحيز بقوة",
+   "via": [
+    {
+     "path": "bridge",
+     "shared": [
+      "other"
      ]
     }
    ],
@@ -10974,46 +9778,6 @@
      "path": "bridge",
      "shared": [
       "sickle"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Hereford",
-   "read": "",
-   "gloss": "Hereford (a city in Herefordshire, England)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رب",
-    "رد",
-    "رذ",
-    "رض",
-    "رف",
-    "غر",
-    "غل",
-    "فر",
-    "فل",
-    "لب",
-    "لد",
-    "لذ",
-    "لف",
-    "هر",
-    "هل"
-   ],
-   "best_nucleus": "بر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "التجرد والخلوص",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "city"
      ]
     }
    ],
@@ -11553,32 +10317,6 @@
    "strength": 11
   },
   {
-   "branch": "æghwæþer",
-   "read": "",
-   "gloss": "each (of two)؛ both",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل",
-    "غو"
-   ],
-   "best_nucleus": "تر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الابتعاد بقوة مع دقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "two"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "garsecg",
    "read": "",
    "gloss": "ocean, sea",
@@ -11617,6 +10355,36 @@
      "path": "bridge",
      "shared": [
       "sea"
+     ]
+    }
+   ],
+   "strength": 11
+  },
+  {
+   "branch": "gewyrcan",
+   "read": "",
+   "gloss": "to do, carry out (together)؛ to make, build (together)؛ to make into",
+   "nuclei_found": [
+    "جن",
+    "رج",
+    "رق",
+    "رك",
+    "غو",
+    "قن",
+    "قو",
+    "كن",
+    "لج",
+    "لق",
+    "لك"
+   ],
+   "best_nucleus": "رك",
+   "how": "كما وردَت؛ الزوجُ المتجاورُ 4",
+   "reading_ar": "التجمع مع قلة الكثافة والتماسك",
+   "via": [
+    {
+     "path": "bridge",
+     "shared": [
+      "out"
      ]
     }
    ],
@@ -12074,29 +10842,6 @@
      "path": "bridge",
      "shared": [
       "neck"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "loppe",
-   "read": "",
-   "gloss": "spider (perhaps also flea)؛ silkworm",
-   "nuclei_found": [
-    "رب",
-    "رف",
-    "لب",
-    "لف"
-   ],
-   "best_nucleus": "رب",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الاستغلاظ وما إليه من تماسك وتجمع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "perhaps"
      ]
     }
    ],
@@ -12764,85 +11509,6 @@
    "strength": 11
   },
   {
-   "branch": "Ispania",
-   "read": "",
-   "gloss": "Spain (a country in Southern Europe, including most of the Iberian peninsula)؛ the Iberian Peninsula",
-   "nuclei_found": [
-    "بن",
-    "زب",
-    "زف",
-    "سب",
-    "سف",
-    "شب",
-    "شف",
-    "صب",
-    "صف",
-    "فن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زبن",
-    "زفن",
-    "سبن",
-    "سفن",
-    "شفن",
-    "صبن",
-    "صفن"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "صف",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الرقة مع الخلوص من الغلظ تجمعا جاسيًا أو تثنيا",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "including"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "flitan",
-   "read": "",
-   "gloss": "to argue, fight (in the sense \"quarrel\")؛ to strive or contend (against something)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تن",
-    "ثن",
-    "رت",
-    "رث",
-    "رط",
-    "طن",
-    "فر",
-    "فل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بلط",
-    "فرث",
-    "فرط",
-    "فلت"
-   ],
-   "root_fan_from": "بإسقاطِ نونِ المصدرِ -an",
-   "best_nucleus": "فر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الفصل أو التفريق بين ما هو ملتق أو ملتحم",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "against"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "todrifan",
    "read": "",
    "gloss": "to drive apart, scatter, dispel",
@@ -13030,33 +11696,6 @@
      "path": "bridge",
      "shared": [
       "into"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "swæþer",
-   "read": "",
-   "gloss": "whichever (of two)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "سو",
-    "شو",
-    "طر",
-    "طل"
-   ],
-   "best_nucleus": "تر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الابتعاد بقوة مع دقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "two"
      ]
     }
    ],
@@ -13872,72 +12511,6 @@
    "strength": 11
   },
   {
-   "branch": "merece",
-   "read": "",
-   "gloss": "march, smallage (plant)",
-   "nuclei_found": [
-    "رج",
-    "رق",
-    "رك",
-    "لج",
-    "لق",
-    "لك",
-    "مر",
-    "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مرج",
-    "مرق",
-    "مرك",
-    "ملج",
-    "ملق",
-    "ملك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "مر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الاسترسال والحركة مع صفة (حدة، قوة، اضطراب...)",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "plant"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Babilon",
-   "read": "",
-   "gloss": "Babylon (an ancient city, the ancient capital of Babylonia in modern Iraq, built on the banks of the Euphrates)",
-   "nuclei_found": [
-    "بب",
-    "بر",
-    "بل",
-    "رن",
-    "لن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ببر"
-   ],
-   "root_fan_from": "بإسقاطِ نهايةِ التصريفِ -on",
-   "best_nucleus": "بر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "التجرد والخلوص",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "city"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "gerisene",
    "read": "",
    "gloss": "what is fitting; the proper or appropriate thing",
@@ -14366,6 +12939,34 @@
      "path": "bridge",
      "shared": [
       "after"
+     ]
+    }
+   ],
+   "strength": 11
+  },
+  {
+   "branch": "-læcan",
+   "read": "",
+   "gloss": "verbal suffix (combining form) denoting action, process or making (compare English -ify), from lǣcan, a derivative of lā",
+   "nuclei_found": [
+    "جن",
+    "رج",
+    "رق",
+    "رك",
+    "قن",
+    "كن",
+    "لج",
+    "لق",
+    "لك"
+   ],
+   "best_nucleus": "جن",
+   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
+   "reading_ar": "الستر والكثافة",
+   "via": [
+    {
+     "path": "bridge",
+     "shared": [
+      "become"
      ]
     }
    ],
@@ -15251,14 +13852,14 @@
     "مش",
     "مص"
    ],
-   "best_nucleus": "مس",
+   "best_nucleus": "مش",
    "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "المخالطة والاتصال",
+   "reading_ar": "النفاذ بانتشار من أثناء الشيء",
    "via": [
     {
      "path": "bridge",
      "shared": [
-      "hit"
+      "not"
      ]
     }
    ],
@@ -16982,57 +15583,6 @@
    "strength": 11
   },
   {
-   "branch": "halga",
-   "read": "",
-   "gloss": "holy man, saint (male or of unspecified gender)",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غر",
-    "غل",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "هر",
-    "هل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "حرج",
-    "حرق",
-    "حرك",
-    "حلج",
-    "حلق",
-    "حلك",
-    "خرج",
-    "خرق",
-    "خلج",
-    "خلق",
-    "غرق",
-    "غلق"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "رك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "التجمع مع قلة الكثافة والتماسك",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "male"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "gælan",
    "read": "",
    "gloss": "to hinder, delay, impede؛ to suspend, keep in suspense; to dupe؛ to hesitate, linger, stall",
@@ -17197,103 +15747,6 @@
      "path": "bridge",
      "shared": [
       "cold"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "andswarian",
-   "read": "",
-   "gloss": "to answer (+dative who is answered) (+accusative what is said)",
-   "nuclei_found": [
-    "دس",
-    "رن",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "سو",
-    "شر",
-    "شو",
-    "صر",
-    "صل",
-    "ضز",
-    "لن",
-    "ند",
-    "نذ",
-    "نض",
-    "ول"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زور",
-    "زول",
-    "سور",
-    "سول",
-    "شور",
-    "شول",
-    "صور",
-    "صول"
-   ],
-   "root_fan_from": "بنزعِ سابقةِ `and-` ثمّ بإسقاطِ نونِ المصدرِ -ian",
-   "best_nucleus": "شو",
-   "how": "بنزعِ سابقةِ `and-`؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "النتوء والظهور والزيادة الدقيقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "what"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "bisgian",
-   "read": "",
-   "gloss": "to occupy, busy (keep oneself occupied)؛ to harass, bother",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "جن",
-    "زج",
-    "زغ",
-    "زق",
-    "زك",
-    "سج",
-    "سغ",
-    "سق",
-    "سك",
-    "شج",
-    "شغ",
-    "شق",
-    "شك",
-    "صغ",
-    "صك",
-    "غن",
-    "قن",
-    "كن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بزغ",
-    "بزق",
-    "بشق",
-    "بصق"
-   ],
-   "root_fan_from": "بإسقاطِ نونِ المصدرِ -ian",
-   "best_nucleus": "شك",
-   "how": "بنزعِ سابقةِ `bi-`؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "دخول أو نفاذ بحدة أو قوة يلزمه الجمع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "oneself"
      ]
     }
    ],
@@ -18304,6 +16757,33 @@
    "strength": 11
   },
   {
+   "branch": "abugan",
+   "read": "",
+   "gloss": "to bow, incline, bend, submit, do reverence؛ to swerve, turn (to, from, or away), deviate؛ to withdraw, retire; be bent ",
+   "nuclei_found": [
+    "بج",
+    "بغ",
+    "بق",
+    "بك",
+    "جن",
+    "غن",
+    "قن",
+    "كن"
+   ],
+   "best_nucleus": "جن",
+   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
+   "reading_ar": "الستر والكثافة",
+   "via": [
+    {
+     "path": "bridge",
+     "shared": [
+      "oneself"
+     ]
+    }
+   ],
+   "strength": 11
+  },
+  {
    "branch": "agendfrea",
    "read": "",
    "gloss": "owner, lord",
@@ -18542,38 +17022,6 @@
    "branch": "samod",
    "read": "",
    "gloss": "simultaneously, at the same time, together; entirely, also, as well, too, in addition to, plus",
-   "nuclei_found": [
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "مد",
-    "مض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سمد",
-    "سمذ",
-    "صمد"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "زم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "ضم الكثير باكتناز",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "time"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "samod",
-   "read": "",
-   "gloss": "together with, at (of time)",
    "nuclei_found": [
     "زم",
     "سم",
@@ -19657,6 +18105,7 @@
    "read": "",
    "gloss": "martyr",
    "nuclei_found": [
+    "تس",
     "رت",
     "رث",
     "رط",
@@ -19664,7 +18113,14 @@
     "لط",
     "مر",
     "مل"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "مرط",
+    "ملت",
+    "ملط"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `mártus` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "tan",
@@ -19849,6 +18305,19 @@
     "بت",
     "بث",
     "بط"
+   ]
+  },
+  {
+   "branch": "tear",
+   "read": "",
+   "gloss": "tear (drop of liquid from the tear duct)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "طر",
+    "طل"
    ]
   },
   {
@@ -20663,6 +19132,24 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "smelt",
+   "read": "",
+   "gloss": "smelt (a fish)",
+   "nuclei_found": [
+    "رت",
+    "رث",
+    "رط",
+    "زم",
+    "سم",
+    "شم",
+    "صم",
+    "لت",
+    "لط",
+    "مر",
+    "مل"
+   ]
+  },
+  {
    "branch": "sped",
    "read": "",
    "gloss": "success, prosperity",
@@ -21002,6 +19489,31 @@
    ]
   },
   {
+   "branch": "field",
+   "read": "",
+   "gloss": "fold, crease (of clothing), plait, wrinkle؛ a revolution, turn, roll؛ turn, course (of time)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "رد",
+    "رذ",
+    "رض",
+    "فر",
+    "فل",
+    "لد",
+    "لذ"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "برد",
+    "برض",
+    "بلد",
+    "فرد",
+    "فرض"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "Africa",
    "read": "",
    "gloss": "Africa",
@@ -21094,6 +19606,37 @@
     "مر",
     "مل"
    ]
+  },
+  {
+   "branch": "colt",
+   "read": "",
+   "gloss": "colt (a juvenile horse)",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "رت",
+    "رث",
+    "رط",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
+    "لت",
+    "لط"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جرث",
+    "جرط",
+    "جلط",
+    "قرت",
+    "قرث",
+    "قرط",
+    "قلط",
+    "كرت",
+    "كرث"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "gram",
@@ -21490,6 +20033,24 @@
     "شر",
     "صر",
     "صل"
+   ]
+  },
+  {
+   "branch": "ra",
+   "read": "",
+   "gloss": "roe deer, roebuck",
+   "nuclei_found": [
+    "حن",
+    "خن",
+    "رح",
+    "رخ",
+    "رغ",
+    "ره",
+    "غن",
+    "لح",
+    "لغ",
+    "له",
+    "هن"
    ]
   },
   {
@@ -21910,7 +20471,15 @@
    "read": "",
    "gloss": "pope",
    "nuclei_found": [
-    "بب"
+    "بب",
+    "بز",
+    "بس",
+    "بش",
+    "بص",
+    "فز",
+    "فس",
+    "فش",
+    "فص"
    ]
   },
   {
@@ -23042,7 +21611,7 @@
     "ثقل",
     "ثكل"
    ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
+   "root_fan_from": "جذعُ القاموسِ `Tígrēs` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "-ing",
@@ -24026,6 +22595,19 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "æcer",
+   "read": "",
+   "gloss": "field (specifically one used to grow crops or hold farm animals)؛ acre (measure of land)",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "قر",
+    "قل",
+    "كر",
+    "كل"
+   ]
+  },
+  {
    "branch": "hægl",
    "read": "",
    "gloss": "hail؛ the runic character ᚻ (/h/)",
@@ -24867,6 +23449,22 @@
    ]
   },
   {
+   "branch": "Babilonige",
+   "read": "",
+   "gloss": "Babylon (an ancient city, the ancient capital of Babylonia in modern Iraq, built on the banks of the Euphrates)",
+   "nuclei_found": [
+    "بب",
+    "بر",
+    "بل",
+    "رن",
+    "لن",
+    "نج",
+    "نغ",
+    "نق",
+    "نك"
+   ]
+  },
+  {
    "branch": "bacan",
    "read": "",
    "gloss": "to bake",
@@ -25141,6 +23739,30 @@
     "فر",
     "فل"
    ]
+  },
+  {
+   "branch": "plot",
+   "read": "",
+   "gloss": "plot (of land)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "رت",
+    "رث",
+    "رط",
+    "فر",
+    "فل",
+    "لت",
+    "لط"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بلط",
+    "فرث",
+    "فرط",
+    "فلت"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "tun",
@@ -26401,6 +25023,12 @@
    "read": "",
    "gloss": "a member of the Vanir, a group of deities in Germanic spirituality",
    "nuclei_found": [
+    "بن",
+    "تس",
+    "فن",
+    "نت",
+    "نث",
+    "نط",
     "ون"
    ]
   },
@@ -28558,6 +27186,36 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "Angel",
+   "read": "",
+   "gloss": "Anglia (peninsula in Jutland, in Schleswig in northermost Germany, where the Angles are supposed to have originated)",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "غر",
+    "غل",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
+    "نج",
+    "نغ",
+    "نق",
+    "نك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "نجر",
+    "نجل",
+    "نغر",
+    "نقر",
+    "نقل",
+    "نكر",
+    "نكل"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "Brett",
    "read": "",
    "gloss": "Briton (native or inhabitant of Britain)؛ Breton (native or inhabitant of Brittany)",
@@ -29661,6 +28319,31 @@
    ]
   },
   {
+   "branch": "Bretland",
+   "read": "",
+   "gloss": "Britain (a large island of Northern Europe)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رت",
+    "رث",
+    "رط",
+    "رن",
+    "طر",
+    "طل",
+    "لت",
+    "لط",
+    "لن",
+    "ند",
+    "نذ",
+    "نض"
+   ]
+  },
+  {
    "branch": "fær",
    "read": "",
    "gloss": "way, journey, passage, expedition; highway؛ proceedings, way of life؛ movable possessions; means of subsistence",
@@ -30701,6 +29384,27 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "weorpan",
+   "read": "",
+   "gloss": "to throw؛ to cast (into a form or shape)؛ to cast or drive out, eject",
+   "nuclei_found": [
+    "بن",
+    "رب",
+    "رف",
+    "فن",
+    "لب",
+    "لف",
+    "ول"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "ورب",
+    "ورف",
+    "ولب"
+   ],
+   "root_fan_from": "بإسقاطِ نونِ المصدرِ -an"
+  },
+  {
    "branch": "dolg",
    "read": "",
    "gloss": "wound, gash؛ scar",
@@ -31558,6 +30262,52 @@
   {
    "branch": "scir",
    "read": "",
+   "gloss": "office (status of an official)؛ district (under an official or governor)؛ administrative region, shire (consisting of a ",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "زج",
+    "زر",
+    "زق",
+    "زك",
+    "زل",
+    "سج",
+    "سر",
+    "سق",
+    "سك",
+    "سل",
+    "شج",
+    "شر",
+    "شق",
+    "شك",
+    "صر",
+    "صك",
+    "صل",
+    "قر",
+    "قل",
+    "كر",
+    "كل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "زجر",
+    "زقل",
+    "زكر",
+    "سجر",
+    "سجل",
+    "سقر",
+    "سقل",
+    "سكر",
+    "شجر",
+    "شقر",
+    "شقل",
+    "شكر"
+   ],
+   "root_fan_from": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)"
+  },
+  {
+   "branch": "scir",
+   "read": "",
    "gloss": "bright, shining؛ clear, pure",
    "nuclei_found": [
     "جر",
@@ -31859,6 +30609,23 @@
     "مج",
     "مق",
     "مك",
+    "هد",
+    "هض"
+   ]
+  },
+  {
+   "branch": "-had",
+   "read": "",
+   "gloss": "forming nouns of condition or quality, from nouns or adjectives",
+   "nuclei_found": [
+    "حد",
+    "حذ",
+    "حض",
+    "خد",
+    "خذ",
+    "خض",
+    "غد",
+    "غض",
     "هد",
     "هض"
    ]
@@ -35268,6 +34035,25 @@
    ]
   },
   {
+   "branch": "cwen",
+   "read": "",
+   "gloss": "queen (a ruling female monarch or a king's wife)؛ princess (a king's daughter)؛ woman",
+   "nuclei_found": [
+    "جن",
+    "قن",
+    "قو",
+    "كن",
+    "ون"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جون",
+    "قون",
+    "كون"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "cwene",
    "read": "",
    "gloss": "woman؛ lady, noblewoman; queen؛ common woman, harlot",
@@ -35424,6 +34210,41 @@
     "مد",
     "مض"
    ]
+  },
+  {
+   "branch": "geard",
+   "read": "",
+   "gloss": "enclosure (an enclosed place)؛ yard, garden؛ dwelling, court",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "رد",
+    "رذ",
+    "رض",
+    "غر",
+    "غل",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
+    "لد",
+    "لذ"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جرد",
+    "جرذ",
+    "جلد",
+    "جلذ",
+    "غرد",
+    "غرض",
+    "قرد",
+    "قرض",
+    "قلد",
+    "كرد",
+    "كلد"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "geard",
@@ -39244,6 +38065,26 @@
    "root_fan_from": "بإسقاطِ نونِ المصدرِ -an"
   },
   {
+   "branch": "secan",
+   "read": "",
+   "gloss": "to look for, seek؛ to visit؛ to attack (especially by an organized group or a military force)",
+   "nuclei_found": [
+    "جن",
+    "زج",
+    "زق",
+    "زك",
+    "سج",
+    "سق",
+    "سك",
+    "شج",
+    "شق",
+    "شك",
+    "صك",
+    "قن",
+    "كن"
+   ]
+  },
+  {
    "branch": "lif",
    "read": "",
    "gloss": "life",
@@ -40134,6 +38975,43 @@
     "رف",
     "لب",
     "لف"
+   ]
+  },
+  {
+   "branch": "gesceaphwil",
+   "read": "",
+   "gloss": "the fated moment, the destined time (of death)",
+   "nuclei_found": [
+    "جز",
+    "جس",
+    "جف",
+    "زج",
+    "زف",
+    "زق",
+    "زك",
+    "سج",
+    "سف",
+    "سق",
+    "سك",
+    "شج",
+    "شف",
+    "شق",
+    "شك",
+    "صف",
+    "صك",
+    "غز",
+    "غس",
+    "غش",
+    "غص",
+    "قس",
+    "قش",
+    "قص",
+    "قف",
+    "كز",
+    "كس",
+    "كش",
+    "كف",
+    "ول"
    ]
   },
   {
@@ -41144,6 +40022,35 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "blæge",
+   "read": "",
+   "gloss": "gudgeon; bleak (fish)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "رج",
+    "رغ",
+    "رق",
+    "رك",
+    "لج",
+    "لغ",
+    "لق",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "برج",
+    "برغ",
+    "برق",
+    "برك",
+    "بلج",
+    "بلغ",
+    "بلق",
+    "بلك"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "hragra",
    "read": "",
    "gloss": "heron",
@@ -41513,6 +40420,52 @@
     "مش",
     "مص"
    ]
+  },
+  {
+   "branch": "sceaft",
+   "read": "",
+   "gloss": "shaft (of an arrow or spear), pole",
+   "nuclei_found": [
+    "بت",
+    "بث",
+    "بط",
+    "جب",
+    "جف",
+    "زب",
+    "زج",
+    "زف",
+    "زق",
+    "زك",
+    "سب",
+    "سج",
+    "سف",
+    "سق",
+    "سك",
+    "شب",
+    "شج",
+    "شف",
+    "شق",
+    "شك",
+    "صب",
+    "صف",
+    "صك",
+    "فت",
+    "فط",
+    "قب",
+    "قف",
+    "كب",
+    "كف"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "سبت",
+    "سبط",
+    "سفط",
+    "شبث",
+    "شبط",
+    "شفط"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "sceaft",
@@ -43204,6 +42157,9 @@
     "خط",
     "غث",
     "غط",
+    "فم",
+    "من",
+    "نن",
     "هت",
     "هط",
     "وح"
@@ -43372,6 +42328,37 @@
     "شكم"
    ],
    "root_fan_from": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)"
+  },
+  {
+   "branch": "scamian",
+   "read": "",
+   "gloss": "to be ashamed or embarrassed (+genitive of cause) (often impersonal with dative or accusative subject)",
+   "nuclei_found": [
+    "جم",
+    "زج",
+    "زق",
+    "زك",
+    "زم",
+    "سج",
+    "سق",
+    "سك",
+    "سم",
+    "شج",
+    "شق",
+    "شك",
+    "شم",
+    "صك",
+    "صم",
+    "قم",
+    "كم",
+    "من"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "سمن",
+    "شمن"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "scield",
@@ -43583,6 +42570,33 @@
    "root_fan": [
     "بثن",
     "بطن"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "ceorl",
+   "read": "",
+   "gloss": "a churl, a freeman ranked below a thane but above a thrall؛ man؛ peasant",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "قر",
+    "قل",
+    "كر",
+    "كل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جرر",
+    "جرل",
+    "جلل",
+    "قرر",
+    "قرل",
+    "قلل",
+    "كرر",
+    "كرل",
+    "كلر",
+    "كلل"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -45854,6 +44868,43 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "gielpan",
+   "read": "",
+   "gloss": "to glory, boast, brag (+ genitive about something)",
+   "nuclei_found": [
+    "بن",
+    "جر",
+    "جل",
+    "رب",
+    "رف",
+    "غر",
+    "غل",
+    "فن",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
+    "لب",
+    "لف"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جرب",
+    "جرف",
+    "جلب",
+    "جلف",
+    "غرب",
+    "غرف",
+    "غلب",
+    "غلف",
+    "قرب",
+    "قرف",
+    "قلب",
+    "قلف"
+   ],
+   "root_fan_from": "بإسقاطِ نونِ المصدرِ -an"
+  },
+  {
    "branch": "glæd",
    "read": "",
    "gloss": "glad؛ bright",
@@ -47689,6 +46740,21 @@
     "غوط"
    ],
    "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "hwæþer",
+   "read": "",
+   "gloss": "who or what (of two)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "حو",
+    "طر",
+    "طل",
+    "غو"
+   ]
   },
   {
    "branch": "hwæþer",
@@ -49577,6 +48643,39 @@
    ]
   },
   {
+   "branch": "prica",
+   "read": "",
+   "gloss": "prick, (small) hole, perforation؛ point, dot؛ jot, whit; (tiny) particle",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "رج",
+    "رق",
+    "رك",
+    "فر",
+    "فل",
+    "لج",
+    "لق",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "برج",
+    "برق",
+    "برك",
+    "بلج",
+    "بلق",
+    "بلك",
+    "فرج",
+    "فرق",
+    "فرك",
+    "فلج",
+    "فلق",
+    "فلك"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "prician",
    "read": "",
    "gloss": "to prick",
@@ -51154,6 +50253,34 @@
    ]
   },
   {
+   "branch": "spann",
+   "read": "",
+   "gloss": "span (of a hand; used as a measurement, typically considered about nine inches)",
+   "nuclei_found": [
+    "بن",
+    "زب",
+    "زف",
+    "سب",
+    "سف",
+    "شب",
+    "شف",
+    "صب",
+    "صف",
+    "فن"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "زبن",
+    "زفن",
+    "سبن",
+    "سفن",
+    "شفن",
+    "صبن",
+    "صفن"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "spannan",
    "read": "",
    "gloss": "to span, clasp, fasten, attach, join, link؛ to join in matrimony; join in wedlock؛ to harness or yoke (oxen)",
@@ -51608,6 +50735,43 @@
    "root_fan_from": "بإسقاطِ نونِ المصدرِ -ian"
   },
   {
+   "branch": "hreac",
+   "read": "",
+   "gloss": "stack, stook, rick (of stones, corn, hay etc.)",
+   "nuclei_found": [
+    "حر",
+    "حل",
+    "خر",
+    "خل",
+    "رج",
+    "رق",
+    "رك",
+    "غر",
+    "غل",
+    "لج",
+    "لق",
+    "لك",
+    "هر",
+    "هل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "حرج",
+    "حرق",
+    "حرك",
+    "حلج",
+    "حلق",
+    "حلك",
+    "خرج",
+    "خرق",
+    "خلج",
+    "خلق",
+    "غرق",
+    "غلق"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "staþol",
    "read": "",
    "gloss": "foundation, establishment؛ fixed position؛ heavenly firmament",
@@ -51778,6 +50942,28 @@
     "طل",
     "لت",
     "لط"
+   ]
+  },
+  {
+   "branch": "stincan",
+   "read": "",
+   "gloss": "to smell (give off a scent; intransitive)؛ to stink (smell bad; intransitive)",
+   "nuclei_found": [
+    "تن",
+    "ثن",
+    "جن",
+    "زت",
+    "ست",
+    "سط",
+    "شت",
+    "شط",
+    "صت",
+    "طن",
+    "قن",
+    "كن",
+    "نج",
+    "نق",
+    "نك"
    ]
   },
   {
@@ -55457,6 +54643,21 @@
    ]
   },
   {
+   "branch": "bugan",
+   "read": "",
+   "gloss": "to bend؛ to bow؛ to turn (toward or away from something)",
+   "nuclei_found": [
+    "بج",
+    "بغ",
+    "بق",
+    "بك",
+    "جن",
+    "غن",
+    "قن",
+    "كن"
+   ]
+  },
+  {
    "branch": "hana",
    "read": "",
    "gloss": "rooster",
@@ -55952,6 +55153,34 @@
    "nuclei_found": [
     "بن",
     "فن"
+   ]
+  },
+  {
+   "branch": "Hereford",
+   "read": "",
+   "gloss": "Hereford (a city in Herefordshire, England)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "حر",
+    "حل",
+    "خر",
+    "خل",
+    "رب",
+    "رد",
+    "رذ",
+    "رض",
+    "رف",
+    "غر",
+    "غل",
+    "فر",
+    "فل",
+    "لب",
+    "لد",
+    "لذ",
+    "لف",
+    "هر",
+    "هل"
    ]
   },
   {
@@ -60219,6 +59448,20 @@
    ]
   },
   {
+   "branch": "æghwæþer",
+   "read": "",
+   "gloss": "each (of two)؛ both",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "طر",
+    "طل",
+    "غو"
+   ]
+  },
+  {
    "branch": "scyld",
    "read": "",
    "gloss": "guilt, sin؛ debt, obligation, liability, due",
@@ -62862,6 +62105,17 @@
    "root_fan_from": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)"
   },
   {
+   "branch": "loppe",
+   "read": "",
+   "gloss": "spider (perhaps also flea)؛ silkworm",
+   "nuclei_found": [
+    "رب",
+    "رف",
+    "لب",
+    "لف"
+   ]
+  },
+  {
    "branch": "bucca",
    "read": "",
    "gloss": "he-goat",
@@ -64147,6 +63401,25 @@
    ]
   },
   {
+   "branch": "gebogen",
+   "read": "",
+   "gloss": "bent, curved؛ bowed؛ turned (to or away from something)",
+   "nuclei_found": [
+    "بج",
+    "بغ",
+    "بق",
+    "بك",
+    "جب",
+    "جن",
+    "غب",
+    "غن",
+    "قب",
+    "قن",
+    "كب",
+    "كن"
+   ]
+  },
+  {
    "branch": "risc",
    "read": "",
    "gloss": "a rush",
@@ -64540,13 +63813,17 @@
    "nuclei_found": [
     "بت",
     "بث",
-    "بط"
+    "بط",
+    "تن",
+    "ثن",
+    "طن"
    ],
    "root_first": true,
    "root_fan": [
-    "بيت"
+    "بثن",
+    "بطن"
    ],
-   "root_fan_from": "كما وردَت"
+   "root_fan_from": "جذعُ القاموسِ `boúttion`"
   },
   {
    "branch": "freme",
@@ -65534,6 +64811,34 @@
    "root_fan_from": "بإسقاطِ زائدةِ `-ic`"
   },
   {
+   "branch": "Ispania",
+   "read": "",
+   "gloss": "Spain (a country in Southern Europe, including most of the Iberian peninsula)؛ the Iberian Peninsula",
+   "nuclei_found": [
+    "بن",
+    "زب",
+    "زف",
+    "سب",
+    "سف",
+    "شب",
+    "شف",
+    "صب",
+    "صف",
+    "فن"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "زبن",
+    "زفن",
+    "سبن",
+    "سفن",
+    "شفن",
+    "صبن",
+    "صفن"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "neþan",
    "read": "",
    "gloss": "to dare, risk, venture",
@@ -65655,6 +64960,33 @@
     "فر",
     "فل"
    ]
+  },
+  {
+   "branch": "flitan",
+   "read": "",
+   "gloss": "to argue, fight (in the sense \"quarrel\")؛ to strive or contend (against something)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "تن",
+    "ثن",
+    "رت",
+    "رث",
+    "رط",
+    "طن",
+    "فر",
+    "فل",
+    "لت",
+    "لط"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بلط",
+    "فرث",
+    "فرط",
+    "فلت"
+   ],
+   "root_fan_from": "بإسقاطِ نونِ المصدرِ -an"
   },
   {
    "branch": "oferflitan",
@@ -66301,6 +65633,21 @@
     "نذ",
     "نض",
     "هن"
+   ]
+  },
+  {
+   "branch": "swæþer",
+   "read": "",
+   "gloss": "whichever (of two)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "سو",
+    "شو",
+    "طر",
+    "طل"
    ]
   },
   {
@@ -69140,6 +68487,31 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "merece",
+   "read": "",
+   "gloss": "march, smallage (plant)",
+   "nuclei_found": [
+    "رج",
+    "رق",
+    "رك",
+    "لج",
+    "لق",
+    "لك",
+    "مر",
+    "مل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "مرج",
+    "مرق",
+    "مرك",
+    "ملج",
+    "ملق",
+    "ملك"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "anad",
    "read": "",
    "gloss": "waste, desert, solitude",
@@ -69374,6 +68746,23 @@
     "بين"
    ],
    "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "Babilon",
+   "read": "",
+   "gloss": "Babylon (an ancient city, the ancient capital of Babylonia in modern Iraq, built on the banks of the Euphrates)",
+   "nuclei_found": [
+    "بب",
+    "بر",
+    "بل",
+    "رن",
+    "لن"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "ببر"
+   ],
+   "root_fan_from": "بإسقاطِ نهايةِ التصريفِ -on"
   },
   {
    "branch": "ciegan",
@@ -74287,6 +73676,19 @@
    "root_fan_from": "بنزعِ سابقةِ `and-`"
   },
   {
+   "branch": "nacian",
+   "read": "",
+   "gloss": "to strip, strip the clothes off or from; undress",
+   "nuclei_found": [
+    "جن",
+    "قن",
+    "كن",
+    "نج",
+    "نق",
+    "نك"
+   ]
+  },
+  {
    "branch": "þiccet",
    "read": "",
    "gloss": "thicket, growth of dense bushes؛ any place where there is dense growth or foliage",
@@ -77429,16 +76831,17 @@
    "gloss": "a leathern bottle, flagon, vessel",
    "nuclei_found": [
     "جل",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "قر",
     "قل",
-    "كل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جيل",
-    "قيل",
-    "كيل"
-   ],
-   "root_fan_from": "كما وردَت"
+    "كر",
+    "كل",
+    "لز",
+    "لس"
+   ]
   },
   {
    "branch": "beorma",
@@ -79409,6 +78812,45 @@
    "root_fan_from": "بإسقاطِ نونِ المصدرِ -an"
   },
   {
+   "branch": "halga",
+   "read": "",
+   "gloss": "holy man, saint (male or of unspecified gender)",
+   "nuclei_found": [
+    "حر",
+    "حل",
+    "خر",
+    "خل",
+    "رج",
+    "رغ",
+    "رق",
+    "رك",
+    "غر",
+    "غل",
+    "لج",
+    "لغ",
+    "لق",
+    "لك",
+    "هر",
+    "هل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "حرج",
+    "حرق",
+    "حرك",
+    "حلج",
+    "حلق",
+    "حلك",
+    "خرج",
+    "خرق",
+    "خلج",
+    "خلق",
+    "غرق",
+    "غلق"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "bæddel",
    "read": "",
    "gloss": "a person with ambiguous sexual organs or characteristics؛ an effeminate man",
@@ -80095,6 +79537,42 @@
    ]
   },
   {
+   "branch": "andswarian",
+   "read": "",
+   "gloss": "to answer (+dative who is answered) (+accusative what is said)",
+   "nuclei_found": [
+    "دس",
+    "رن",
+    "زر",
+    "زل",
+    "سر",
+    "سل",
+    "سو",
+    "شر",
+    "شو",
+    "صر",
+    "صل",
+    "ضز",
+    "لن",
+    "ند",
+    "نذ",
+    "نض",
+    "ول"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "زور",
+    "زول",
+    "سور",
+    "سول",
+    "شور",
+    "شول",
+    "صور",
+    "صول"
+   ],
+   "root_fan_from": "بنزعِ سابقةِ `and-` ثمّ بإسقاطِ نونِ المصدرِ -ian"
+  },
+  {
    "branch": "hnecca",
    "read": "",
    "gloss": "back of the neck؛ back of the head؛ neck",
@@ -80194,6 +79672,43 @@
     "سمج",
     "سمق",
     "سمك"
+   ],
+   "root_fan_from": "بإسقاطِ نونِ المصدرِ -ian"
+  },
+  {
+   "branch": "bisgian",
+   "read": "",
+   "gloss": "to occupy, busy (keep oneself occupied)؛ to harass, bother",
+   "nuclei_found": [
+    "بز",
+    "بس",
+    "بش",
+    "بص",
+    "جن",
+    "زج",
+    "زغ",
+    "زق",
+    "زك",
+    "سج",
+    "سغ",
+    "سق",
+    "سك",
+    "شج",
+    "شغ",
+    "شق",
+    "شك",
+    "صغ",
+    "صك",
+    "غن",
+    "قن",
+    "كن"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بزغ",
+    "بزق",
+    "بشق",
+    "بصق"
    ],
    "root_fan_from": "بإسقاطِ نونِ المصدرِ -ian"
   },
@@ -85119,6 +84634,26 @@
     "نش",
     "نص"
    ]
+  },
+  {
+   "branch": "samod",
+   "read": "",
+   "gloss": "together with, at (of time)",
+   "nuclei_found": [
+    "زم",
+    "سم",
+    "شم",
+    "صم",
+    "مد",
+    "مض"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "سمد",
+    "سمذ",
+    "صمد"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "bærnan",

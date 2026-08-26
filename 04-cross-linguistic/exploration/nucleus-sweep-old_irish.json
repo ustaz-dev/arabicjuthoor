@@ -2,44 +2,9 @@
  "language": "old_irish",
  "layer": "استكشاف؛ حوضُ مرشَّحي نواةٍ للقارئ، لا حكمَ ولا عدّ",
  "note": "وحدةُ المسحِ النواةُ الثنائيّة؛ طريقا المعنى bridge/event موسومانِ ولا يُخلَطان؛ لا سقوفَ صامتة",
- "both_total": 314,
- "sound_only_total": 2704,
+ "both_total": 278,
+ "sound_only_total": 2740,
  "both": [
-  {
-   "branch": "cenél",
-   "read": "",
-   "gloss": "race (group of people set apart from others on the basis of a common heritage)؛ nation, people (group of persons forming",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كن",
-    "نر",
-    "نل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "كنر"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "belonging"
-     ]
-    },
-    {
-     "path": "event",
-     "shared": [
-      "from"
-     ]
-    }
-   ],
-   "strength": 32
-  },
   {
    "branch": "dolin",
    "read": "",
@@ -215,28 +180,6 @@
      "path": "event",
      "shared": [
       "stream"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "-acán",
-   "read": "",
-   "gloss": "A double diminutive, used to derive nouns, both common and proper, from adjectives and other nouns.",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كن"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -539,35 +482,6 @@
      "path": "event",
      "shared": [
       "depth"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "conlá",
-   "read": "",
-   "gloss": "Used in various metaphorical senses roughly stemming from joining or placing together",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كن",
-    "نر",
-    "نل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "كنر"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -1129,38 +1043,6 @@
    "strength": 12
   },
   {
-   "branch": "forbrissi",
-   "read": "",
-   "gloss": "to rout (completely defeat and force into disorderly retreat)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رب",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "فر",
-    "فل",
-    "لب",
-    "لز",
-    "لس"
-   ],
-   "best_nucleus": "فل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "انفصال ندورًا أو نتوءًا مع ضعف",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "defeat",
-      "rout"
-     ]
-    }
-   ],
-   "strength": 12
-  },
-  {
    "branch": "dosrenga",
    "read": "",
    "gloss": "to draw, drag, pull (toward oneself)",
@@ -1264,29 +1146,6 @@
     }
    ],
    "strength": 12
-  },
-  {
-   "branch": "for",
-   "read": "",
-   "gloss": "your (plural)؛ you (plural; as the object of a preposition that takes the genitive)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "فر",
-    "فل"
-   ],
-   "best_nucleus": "فر",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الفصل أو التفريق بين ما هو ملتق أو ملتحم",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "object"
-     ]
-    }
-   ],
-   "strength": 11
   },
   {
    "branch": "bind",
@@ -1768,48 +1627,6 @@
    "strength": 11
   },
   {
-   "branch": "cerc",
-   "read": "",
-   "gloss": "hen (female chicken)",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رج",
-    "رق",
-    "رك",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرج",
-    "جرك",
-    "قرق",
-    "قلق",
-    "كرج",
-    "كرك",
-    "كلك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "كل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "تجمع الشيء كتلة دون حد أو طرف دقيق",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "female"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "cair",
    "read": "",
    "gloss": "particle introducing a direct question, generally used in addition to another question word such as in or a wh-word",
@@ -1835,30 +1652,6 @@
    "strength": 11
   },
   {
-   "branch": "fuit",
-   "read": "",
-   "gloss": "brr! (used to express being cold)",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "فت",
-    "فط"
-   ],
-   "best_nucleus": "بت",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "القطع والانفصال",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "being"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "tria",
    "read": "",
    "gloss": "contraction of tri + a, literally “through his/her/its/their”",
@@ -1878,41 +1671,6 @@
      "path": "bridge",
      "shared": [
       "their"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "trom",
-   "read": "",
-   "gloss": "heavy (weight)؛ heavy, severe, grievous, difficult؛ sad, sorrowful",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رم",
-    "طر",
-    "طل",
-    "لم"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ترم",
-    "تلم",
-    "ثرم",
-    "ثلم"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "رم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "التجمع الرخو في الأثناء من تحول ذي حدة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "weight"
      ]
     }
    ],
@@ -2268,85 +2026,6 @@
    "strength": 11
   },
   {
-   "branch": "cloch",
-   "read": "",
-   "gloss": "stone, rock؛ stone (as material)؛ precious stone, gem",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رح",
-    "رخ",
-    "رك",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لح",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرح",
-    "جرك",
-    "جلح",
-    "جلخ",
-    "قرح",
-    "كرح",
-    "كرك",
-    "كلح",
-    "كلك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "رك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "التجمع مع قلة الكثافة والتماسك",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "material"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "grán",
-   "read": "",
-   "gloss": "grain (harvested seeds of various grass-related food crops)",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رن",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرن",
-    "قرن",
-    "كرن"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "كل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "تجمع الشيء كتلة دون حد أو طرف دقيق",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "food"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "frisa",
    "read": "",
    "gloss": "toward/against/with the n sg",
@@ -2601,46 +2280,6 @@
      "path": "bridge",
      "shared": [
       "tribute"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "derbráthair",
-   "read": "",
-   "gloss": "brother (by blood)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رب",
-    "رت",
-    "رث",
-    "رط",
-    "ضر",
-    "ضل",
-    "طر",
-    "طل",
-    "لب",
-    "لت",
-    "لط"
-   ],
-   "best_nucleus": "طل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 5",
-   "reading_ar": "الامتداد الظاهر من أصل",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "blood"
      ]
     }
    ],
@@ -3144,44 +2783,6 @@
    "strength": 11
   },
   {
-   "branch": "dogní",
-   "read": "",
-   "gloss": "to do؛ to make؛ to commit (a sin, crime etc.)",
-   "nuclei_found": [
-    "جن",
-    "دق",
-    "ذق",
-    "ذك",
-    "ضج",
-    "ضغ",
-    "ضق",
-    "غن",
-    "قن",
-    "كن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "دجن",
-    "دقن",
-    "دكن",
-    "ذقن",
-    "ضغن"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "crime"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "sráit",
    "read": "",
    "gloss": "street, road, path, way",
@@ -3249,79 +2850,6 @@
    "strength": 11
   },
   {
-   "branch": "adarc",
-   "read": "",
-   "gloss": "horn (growth on an animal's head)",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رج",
-    "رق",
-    "رك",
-    "ضر",
-    "ضل",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "درج",
-    "درق",
-    "درك",
-    "دلج",
-    "دلق",
-    "دلك",
-    "ذرق",
-    "ذلق",
-    "ذلك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "ذر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "النثر والنفاذ بدقة واسترسال",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "head"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "muinter",
-   "read": "",
-   "gloss": "community (group of persons connected by a bond)؛ family or household (including servants)؛ followers, attendants",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل",
-    "من",
-    "نت",
-    "نث",
-    "نط"
-   ],
-   "best_nucleus": "من",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "القوة والثبات مع صفة (نقص، وثاقة، حجز)",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "including"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "slicht",
    "read": "",
    "gloss": "mark؛ trace, track؛ trail",
@@ -3354,55 +2882,6 @@
      "path": "bridge",
      "shared": [
       "mark"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "fíad",
-   "read": "",
-   "gloss": "before (in time)؛ before (in space), in front of",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "فد",
-    "فض"
-   ],
-   "best_nucleus": "فد",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "التهيؤ بقوة لتحصيل أمر",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "time"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "othar",
-   "read": "",
-   "gloss": "sickness, illness (of the condition, not the disease)؛ state of being tended in illness, nursing, sick-attendance؛ a sic",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل"
-   ],
-   "best_nucleus": "تل",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "التكديس والاتباع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "condition"
      ]
     }
    ],
@@ -3965,51 +3444,6 @@
    "strength": 11
   },
   {
-   "branch": "traig",
-   "read": "",
-   "gloss": "foot؛ step؛ foot (unit of measure)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "طر",
-    "طل",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ترج",
-    "ترق",
-    "ترك",
-    "تلج",
-    "تلك",
-    "ثلج",
-    "طرق",
-    "طلق"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "طر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الامتداد مع الرقة أو التتابع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "measure"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "cúairt",
    "read": "",
    "gloss": "circle, ring, circuit, circumference؛ troop, battalion؛ circuit, globe (of heaven, earth)",
@@ -4495,73 +3929,6 @@
      "path": "bridge",
      "shared": [
       "right"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "odb",
-   "read": "",
-   "gloss": "knot (in a tree, branch, etc.)؛ lump, swelling, protuberance؛ difficulty, problem",
-   "nuclei_found": [
-    "دب",
-    "ذب",
-    "ضب"
-   ],
-   "best_nucleus": "ضب",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "هو اللزوم الشديد غشيانًا أو إمساكا في الأثناء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "tree"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "rúsc",
-   "read": "",
-   "gloss": "bark (of a tree)؛ basket؛ covering",
-   "nuclei_found": [
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زج",
-    "زق",
-    "زك",
-    "سج",
-    "سق",
-    "سك",
-    "شج",
-    "شق",
-    "شك",
-    "صك",
-    "لز",
-    "لس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رزق",
-    "رشق",
-    "رشك",
-    "لزج",
-    "لزق",
-    "لصق"
-   ],
-   "root_fan_from": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)",
-   "best_nucleus": "رز",
-   "how": "كما وردَت والمزدوجُ sc صوتًا واحدًا؛ الهيكلُ نفسُه",
-   "reading_ar": "التداخل الشديد",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "tree"
      ]
     }
    ],
@@ -5191,36 +4558,6 @@
    "strength": 11
   },
   {
-   "branch": "canóin",
-   "read": "",
-   "gloss": "canon (religious law), canonical text of Scripture",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كن",
-    "نن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جنن",
-    "قنن",
-    "كنن"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "كن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الاستتار في جوف شيء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "law"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "popul",
    "read": "",
    "gloss": "people",
@@ -5613,31 +4950,6 @@
    "strength": 11
   },
   {
-   "branch": "clú",
-   "read": "",
-   "gloss": "fame (state of being famous)",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ],
-   "best_nucleus": "كل",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "تجمع الشيء كتلة دون حد أو طرف دقيق",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "being"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "óclachas",
    "read": "",
    "gloss": "The condition of being an óclach: hence,؛ the age of manhood, the prime of life؛ manly vigour; valour; quality of a warr",
@@ -5901,34 +5213,6 @@
    "strength": 11
   },
   {
-   "branch": "finnfad",
-   "read": "",
-   "gloss": "hair (typically of the body), fur",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "بن",
-    "فد",
-    "فض",
-    "فن",
-    "نب",
-    "نف"
-   ],
-   "best_nucleus": "بن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الامتداد والبناء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "body"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "crích",
    "read": "",
    "gloss": "boundary, border؛ furrow؛ territory, area",
@@ -5966,41 +5250,6 @@
      "path": "bridge",
      "shared": [
       "furrow"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "berach",
-   "read": "",
-   "gloss": "pointed, sharp؛ having pointed ears; horned (of animals)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رح",
-    "رخ",
-    "رك",
-    "لح",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برح",
-    "برك",
-    "بلح",
-    "بلخ",
-    "بلك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "بر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "التجرد والخلوص",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "animals"
      ]
     }
    ],
@@ -6211,42 +5460,6 @@
    "strength": 11
   },
   {
-   "branch": "cathracha",
-   "read": "",
-   "gloss": "vocative/accusative plural of cathair (“stone enclosure, fortress, castle; dwelling; monastic settlement, enclosure; mon",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جث",
-    "رح",
-    "رخ",
-    "رك",
-    "طر",
-    "طل",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لح",
-    "لك"
-   ],
-   "best_nucleus": "رخ",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "طراءة الشيء المتجسم لتندى أثنائه",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "castle"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "Morrígan",
    "read": "",
    "gloss": "The Mórrígan",
@@ -6340,53 +5553,6 @@
      "path": "bridge",
      "shared": [
       "away"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "adamraigedar",
-   "read": "",
-   "gloss": "to wonder at, marvel at, admire؛ to glorify (exalt, give glory or praise to something or someone)",
-   "nuclei_found": [
-    "جد",
-    "جذ",
-    "در",
-    "دل",
-    "دم",
-    "ذر",
-    "ذل",
-    "ذم",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "ضر",
-    "ضل",
-    "ضم",
-    "غد",
-    "غض",
-    "قد",
-    "قذ",
-    "قض",
-    "كد",
-    "كذ",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "مر",
-    "مل"
-   ],
-   "best_nucleus": "مل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الامتداد مع الحوز أو الشمول",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "give"
      ]
     }
    ],
@@ -6520,51 +5686,6 @@
      "path": "bridge",
      "shared": [
       "put"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "forus",
-   "read": "",
-   "gloss": "stable foundation؛ dwelling, residence, household (of humans or contractual animals)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "فر",
-    "فل",
-    "لز",
-    "لس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برز",
-    "برس",
-    "برش",
-    "برص",
-    "بلز",
-    "بلس",
-    "بلش",
-    "فرز",
-    "فرس",
-    "فرش",
-    "فرص",
-    "فلز"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "بر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "التجرد والخلوص",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "animals"
      ]
     }
    ],
@@ -6735,42 +5856,6 @@
      "path": "bridge",
      "shared": [
       "revenge"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "gabál",
-   "read": "",
-   "gloss": "taking (into possession)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جب",
-    "غب",
-    "قب",
-    "كب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جبر",
-    "جبل",
-    "غبر",
-    "قبر",
-    "قبل",
-    "كبر",
-    "كبل"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "قب",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "النتوء مع تجوف وصلابة تحيط بنصف الشيء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "into"
      ]
     }
    ],
@@ -8471,96 +7556,6 @@
    "strength": 11
   },
   {
-   "branch": "comsuidigthe",
-   "read": "",
-   "gloss": "compound word (word composed of two or more stems)",
-   "nuclei_found": [
-    "جث",
-    "جم",
-    "دق",
-    "ذق",
-    "ذك",
-    "زد",
-    "سد",
-    "شد",
-    "صد",
-    "ضج",
-    "ضغ",
-    "ضق",
-    "غث",
-    "غط",
-    "قت",
-    "قث",
-    "قط",
-    "قم",
-    "كت",
-    "كث",
-    "كم",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ],
-   "best_nucleus": "شد",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "هو صلابة الشيء أو وثاقة بعضه ببعض",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "more"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Gréc",
-   "read": "",
-   "gloss": "Greek (language)",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رج",
-    "رق",
-    "رك",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرج",
-    "جرك",
-    "غرق",
-    "غلق",
-    "قرق",
-    "قلق",
-    "كرج",
-    "كرك",
-    "كلك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "رك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "التجمع مع قلة الكثافة والتماسك",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "language"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "trisgata",
    "read": "",
    "gloss": "to pierce",
@@ -8956,42 +7951,6 @@
    "strength": 11
   },
   {
-   "branch": "Rechru",
-   "read": "",
-   "gloss": "Rathlin Island (an island north of Northern Ireland)؛ Lambay Island (an island off the east coast of Ireland)",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رح",
-    "رخ",
-    "رك",
-    "كر",
-    "كل",
-    "لح",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رحل",
-    "ركل"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "كل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "تجمع الشيء كتلة دون حد أو طرف دقيق",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "coast"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "doscéulai",
    "read": "",
    "gloss": "to find out, ascertain؛ to make known",
@@ -9090,79 +8049,6 @@
      "path": "bridge",
      "shared": [
       "strike"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "dofil",
-   "read": "",
-   "gloss": "to be at hand, be approaching, be on one's way (with the subject of the English verb expressed as the direct object)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "دب",
-    "دف",
-    "ذب",
-    "ضب",
-    "ضف",
-    "فر",
-    "فل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "دبر",
-    "دبل",
-    "دفر",
-    "دفل",
-    "ذبل",
-    "ضفر"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "فر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الفصل أو التفريق بين ما هو ملتق أو ملتحم",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "object"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "étrum",
-   "read": "",
-   "gloss": "light (not heavy)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رم",
-    "طر",
-    "طل",
-    "لم"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ترم",
-    "تلم",
-    "ثرم",
-    "ثلم"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "لم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "نوع من الضم أو التضام لما شأنه الانتشار إلى الظاهر",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "not"
      ]
     }
    ],
@@ -10565,6 +9451,37 @@
    "strength": 11
   },
   {
+   "branch": "forbrissi",
+   "read": "",
+   "gloss": "to rout (completely defeat and force into disorderly retreat)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "رب",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "فر",
+    "فل",
+    "لب",
+    "لز",
+    "لس"
+   ],
+   "best_nucleus": "فل",
+   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
+   "reading_ar": "انفصال ندورًا أو نتوءًا مع ضعف",
+   "via": [
+    {
+     "path": "bridge",
+     "shared": [
+      "rout"
+     ]
+    }
+   ],
+   "strength": 11
+  },
+  {
    "branch": "cetiddeirgni",
    "read": "",
    "gloss": "who has done it first",
@@ -10775,73 +9692,6 @@
    "strength": 11
   },
   {
-   "branch": "coillid",
-   "read": "",
-   "gloss": "to damage, destroy؛ to break (a law etc.), violate (a restriction)",
-   "nuclei_found": [
-    "جل",
-    "قل",
-    "كل",
-    "لد",
-    "لذ"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جلد",
-    "جلذ",
-    "قلد",
-    "كلد"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "جل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الاتساع والانكشاف",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "law"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "nechtar",
-   "read": "",
-   "gloss": "either (of two)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "حت",
-    "حث",
-    "حط",
-    "خت",
-    "خط",
-    "طر",
-    "طل",
-    "كت",
-    "كث",
-    "نح",
-    "نخ",
-    "نك"
-   ],
-   "best_nucleus": "تر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الابتعاد بقوة مع دقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "two"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "nachidchúalatar",
    "read": "",
    "gloss": "who pl did not hear it",
@@ -10894,33 +9744,6 @@
    "strength": 11
   },
   {
-   "branch": "gairr",
-   "read": "",
-   "gloss": "calf (of the leg)",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ],
-   "best_nucleus": "جر",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الاسترسال والامتداد",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "leg"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "airdairc",
    "read": "",
    "gloss": "obvious, evident؛ well-known, famous",
@@ -10951,83 +9774,6 @@
      "path": "bridge",
      "shared": [
       "well"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "doairissedar",
-   "read": "",
-   "gloss": "to stay, rest, remain (in a position)",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زد",
-    "سد",
-    "شد",
-    "صد",
-    "ضر",
-    "ضل",
-    "لز",
-    "لس"
-   ],
-   "best_nucleus": "سد",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "مادة جامدة أو كثيفة تقوم معترضة أو متراكمة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "position"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Hierúsalem",
-   "read": "",
-   "gloss": "Jerusalem (a city in the Holy Land between the Mediterranean Sea and Dead Sea, holy in Judaism, Christianity and Islam; ",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "رم",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "غر",
-    "غل",
-    "لز",
-    "لس",
-    "لم",
-    "هر",
-    "هل"
-   ],
-   "best_nucleus": "رس",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "النفاذ بامتداد",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "sea"
      ]
     }
    ],
@@ -11438,6 +10184,17 @@
    "nuclei_found": [
     "مر",
     "مل"
+   ]
+  },
+  {
+   "branch": "for",
+   "read": "",
+   "gloss": "your (plural)؛ you (plural; as the object of a preposition that takes the genitive)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "فر",
+    "فل"
    ]
   },
   {
@@ -14670,6 +13427,36 @@
    ]
   },
   {
+   "branch": "cerc",
+   "read": "",
+   "gloss": "hen (female chicken)",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "رج",
+    "رق",
+    "رك",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
+    "لج",
+    "لق",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جرج",
+    "جرك",
+    "قرق",
+    "قلق",
+    "كرج",
+    "كرك",
+    "كلك"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "lus",
    "read": "",
    "gloss": "plant, herb, vegetable؛ leek",
@@ -15170,6 +13957,18 @@
   {
    "branch": "fuit",
    "read": "",
+   "gloss": "brr! (used to express being cold)",
+   "nuclei_found": [
+    "بت",
+    "بث",
+    "بط",
+    "فت",
+    "فط"
+   ]
+  },
+  {
+   "branch": "fuit",
+   "read": "",
    "gloss": "vocative/genitive singular of fot (“length”)",
    "nuclei_found": [
     "بت",
@@ -15292,6 +14091,29 @@
     "درش",
     "درص",
     "ضرس"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "trom",
+   "read": "",
+   "gloss": "heavy (weight)؛ heavy, severe, grievous, difficult؛ sad, sorrowful",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رم",
+    "طر",
+    "طل",
+    "لم"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "ترم",
+    "تلم",
+    "ثرم",
+    "ثلم"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -16923,6 +15745,37 @@
    ]
   },
   {
+   "branch": "cloch",
+   "read": "",
+   "gloss": "stone, rock؛ stone (as material)؛ precious stone, gem",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "رح",
+    "رخ",
+    "رك",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
+    "لح",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جرح",
+    "جرك",
+    "جلح",
+    "جلخ",
+    "قرح",
+    "كرح",
+    "كرك",
+    "كلح",
+    "كلك"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "máthir",
    "read": "",
    "gloss": "mother",
@@ -16971,6 +15824,30 @@
     "طر",
     "طل"
    ]
+  },
+  {
+   "branch": "grán",
+   "read": "",
+   "gloss": "grain (harvested seeds of various grass-related food crops)",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "رن",
+    "غر",
+    "غل",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
+    "لن"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جرن",
+    "قرن",
+    "كرن"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "ibar",
@@ -18493,16 +17370,16 @@
     "رد",
     "رذ",
     "رض",
+    "رن",
     "لد",
-    "لذ"
+    "لذ",
+    "لن"
    ],
    "root_first": true,
    "root_fan": [
-    "برد",
-    "برض",
-    "بلد"
+    "برن"
    ],
-   "root_fan_from": "كما وردَت"
+   "root_fan_from": "جذعُ القاموسِ `bairan`"
   },
   {
    "branch": "ciúin",
@@ -18512,6 +17389,34 @@
     "جن",
     "قن",
     "كن"
+   ]
+  },
+  {
+   "branch": "derbráthair",
+   "read": "",
+   "gloss": "brother (by blood)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "در",
+    "دل",
+    "ذر",
+    "ذل",
+    "رب",
+    "رت",
+    "رث",
+    "رط",
+    "ضر",
+    "ضل",
+    "طر",
+    "طل",
+    "لب",
+    "لت",
+    "لط"
    ]
   },
   {
@@ -20316,6 +19221,32 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "dogní",
+   "read": "",
+   "gloss": "to do؛ to make؛ to commit (a sin, crime etc.)",
+   "nuclei_found": [
+    "جن",
+    "دق",
+    "ذق",
+    "ذك",
+    "ضج",
+    "ضغ",
+    "ضق",
+    "غن",
+    "قن",
+    "كن"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "دجن",
+    "دقن",
+    "دكن",
+    "ذقن",
+    "ضغن"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "gníid",
    "read": "",
    "gloss": "to do؛ to make؛ to work",
@@ -21332,6 +20263,38 @@
    ]
   },
   {
+   "branch": "adarc",
+   "read": "",
+   "gloss": "horn (growth on an animal's head)",
+   "nuclei_found": [
+    "در",
+    "دل",
+    "ذر",
+    "ذل",
+    "رج",
+    "رق",
+    "رك",
+    "ضر",
+    "ضل",
+    "لج",
+    "لق",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "درج",
+    "درق",
+    "درك",
+    "دلج",
+    "دلق",
+    "دلك",
+    "ذرق",
+    "ذلق",
+    "ذلك"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "ailén",
    "read": "",
    "gloss": "island",
@@ -21355,6 +20318,23 @@
     "برن"
    ],
    "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "muinter",
+   "read": "",
+   "gloss": "community (group of persons connected by a bond)؛ family or household (including servants)؛ followers, attendants",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "طر",
+    "طل",
+    "من",
+    "نت",
+    "نث",
+    "نط"
+   ]
   },
   {
    "branch": "roth",
@@ -21522,9 +20502,34 @@
    ]
   },
   {
+   "branch": "fíad",
+   "read": "",
+   "gloss": "before (in time)؛ before (in space), in front of",
+   "nuclei_found": [
+    "بد",
+    "بذ",
+    "بض",
+    "فد",
+    "فض"
+   ]
+  },
+  {
    "branch": "othar",
    "read": "",
    "gloss": "work, labour؛ wage, recompense, due",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "طر",
+    "طل"
+   ]
+  },
+  {
+   "branch": "othar",
+   "read": "",
+   "gloss": "sickness, illness (of the condition, not the disease)؛ state of being tended in illness, nursing, sick-attendance؛ a sic",
    "nuclei_found": [
     "تر",
     "تل",
@@ -21956,8 +20961,11 @@
    "read": "",
    "gloss": "Christ",
    "nuclei_found": [
+    "تس",
     "جر",
     "جل",
+    "خر",
+    "خل",
     "رز",
     "رس",
     "رش",
@@ -22667,6 +21675,16 @@
     "كرن"
    ],
    "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "-acán",
+   "read": "",
+   "gloss": "A double diminutive, used to derive nouns, both common and proper, from adjectives and other nouns.",
+   "nuclei_found": [
+    "جن",
+    "قن",
+    "كن"
+   ]
   },
   {
    "branch": "millsén",
@@ -23619,6 +22637,39 @@
     "لق",
     "لك"
    ]
+  },
+  {
+   "branch": "traig",
+   "read": "",
+   "gloss": "foot؛ step؛ foot (unit of measure)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رج",
+    "رغ",
+    "رق",
+    "رك",
+    "طر",
+    "طل",
+    "لج",
+    "لغ",
+    "لق",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "ترج",
+    "ترق",
+    "ترك",
+    "تلج",
+    "تلك",
+    "ثلج",
+    "طرق",
+    "طلق"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "tráig",
@@ -24868,6 +23919,16 @@
    ]
   },
   {
+   "branch": "odb",
+   "read": "",
+   "gloss": "knot (in a tree, branch, etc.)؛ lump, swelling, protuberance؛ difficulty, problem",
+   "nuclei_found": [
+    "دب",
+    "ذب",
+    "ضب"
+   ]
+  },
+  {
    "branch": "féile",
    "read": "",
    "gloss": "modesty, generosity",
@@ -24901,6 +23962,39 @@
     "لت",
     "لط"
    ]
+  },
+  {
+   "branch": "rúsc",
+   "read": "",
+   "gloss": "bark (of a tree)؛ basket؛ covering",
+   "nuclei_found": [
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "زج",
+    "زق",
+    "زك",
+    "سج",
+    "سق",
+    "سك",
+    "شج",
+    "شق",
+    "شك",
+    "صك",
+    "لز",
+    "لس"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "رزق",
+    "رشق",
+    "رشك",
+    "لزج",
+    "لزق",
+    "لصق"
+   ],
+   "root_fan_from": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)"
   },
   {
    "branch": "Sabindae",
@@ -25000,6 +24094,23 @@
     "قلد",
     "كرد",
     "كلد"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "cenél",
+   "read": "",
+   "gloss": "race (group of people set apart from others on the basis of a common heritage)؛ nation, people (group of persons forming",
+   "nuclei_found": [
+    "جن",
+    "قن",
+    "كن",
+    "نر",
+    "نل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "كنر"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -27423,6 +26534,24 @@
     "فرك",
     "فلح",
     "فلك"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "canóin",
+   "read": "",
+   "gloss": "canon (religious law), canonical text of Scripture",
+   "nuclei_found": [
+    "جن",
+    "قن",
+    "كن",
+    "نن"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جنن",
+    "قنن",
+    "كنن"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -30121,6 +29250,19 @@
    ]
   },
   {
+   "branch": "clú",
+   "read": "",
+   "gloss": "fame (state of being famous)",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "قر",
+    "قل",
+    "كر",
+    "كل"
+   ]
+  },
+  {
    "branch": "druí",
    "read": "",
    "gloss": "druid, sorcerer",
@@ -30557,6 +29699,8 @@
     "ثل",
     "جر",
     "جل",
+    "خر",
+    "خل",
     "دث",
     "دق",
     "ذق",
@@ -31637,6 +30781,22 @@
    ]
   },
   {
+   "branch": "finnfad",
+   "read": "",
+   "gloss": "hair (typically of the body), fur",
+   "nuclei_found": [
+    "بد",
+    "بذ",
+    "بض",
+    "بن",
+    "فد",
+    "فض",
+    "فن",
+    "نب",
+    "نف"
+   ]
+  },
+  {
    "branch": "dúil",
    "read": "",
    "gloss": "element؛ being, creature؛ thing",
@@ -31826,6 +30986,29 @@
    "nuclei_found": [
     "بن"
    ]
+  },
+  {
+   "branch": "berach",
+   "read": "",
+   "gloss": "pointed, sharp؛ having pointed ears; horned (of animals)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "رح",
+    "رخ",
+    "رك",
+    "لح",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "برح",
+    "برك",
+    "بلح",
+    "بلخ",
+    "بلك"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "scíth",
@@ -32529,6 +31712,30 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "cathracha",
+   "read": "",
+   "gloss": "vocative/accusative plural of cathair (“stone enclosure, fortress, castle; dwelling; monastic settlement, enclosure; mon",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "جث",
+    "رح",
+    "رخ",
+    "رك",
+    "طر",
+    "طل",
+    "قت",
+    "قث",
+    "قط",
+    "كت",
+    "كث",
+    "لح",
+    "لك"
+   ]
+  },
+  {
    "branch": "céul",
    "read": "",
    "gloss": "musical instrument؛ music",
@@ -33013,6 +32220,41 @@
     "لز",
     "لس",
     "لط"
+   ]
+  },
+  {
+   "branch": "adamraigedar",
+   "read": "",
+   "gloss": "to wonder at, marvel at, admire؛ to glorify (exalt, give glory or praise to something or someone)",
+   "nuclei_found": [
+    "جد",
+    "جذ",
+    "در",
+    "دل",
+    "دم",
+    "ذر",
+    "ذل",
+    "ذم",
+    "رج",
+    "رغ",
+    "رق",
+    "رك",
+    "ضر",
+    "ضل",
+    "ضم",
+    "غد",
+    "غض",
+    "قد",
+    "قذ",
+    "قض",
+    "كد",
+    "كذ",
+    "لج",
+    "لغ",
+    "لق",
+    "لك",
+    "مر",
+    "مل"
    ]
   },
   {
@@ -33893,17 +33135,16 @@
    "nuclei_found": [
     "بر",
     "بل",
+    "تب",
+    "تف",
+    "ثب",
+    "دث",
+    "طب",
+    "طف",
+    "طو",
     "قب",
     "كب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "قبر",
-    "قبل",
-    "كبر",
-    "كبل"
-   ],
-   "root_fan_from": "كما وردَت"
+   ]
   },
   {
    "branch": "lúath",
@@ -34137,6 +33378,39 @@
     "لت",
     "لط"
    ]
+  },
+  {
+   "branch": "forus",
+   "read": "",
+   "gloss": "stable foundation؛ dwelling, residence, household (of humans or contractual animals)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "فر",
+    "فل",
+    "لز",
+    "لس"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "برز",
+    "برس",
+    "برش",
+    "برص",
+    "بلز",
+    "بلس",
+    "بلش",
+    "فرز",
+    "فرس",
+    "فرش",
+    "فرص",
+    "فلز"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "caithir",
@@ -35002,6 +34276,30 @@
     "لت",
     "لط"
    ]
+  },
+  {
+   "branch": "gabál",
+   "read": "",
+   "gloss": "taking (into possession)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "جب",
+    "غب",
+    "قب",
+    "كب"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جبر",
+    "جبل",
+    "غبر",
+    "قبر",
+    "قبل",
+    "كبر",
+    "كبل"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "bendacht",
@@ -45681,9 +44979,75 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "comsuidigthe",
+   "read": "",
+   "gloss": "compound word (word composed of two or more stems)",
+   "nuclei_found": [
+    "جث",
+    "جم",
+    "دق",
+    "ذق",
+    "ذك",
+    "زد",
+    "سد",
+    "شد",
+    "صد",
+    "ضج",
+    "ضغ",
+    "ضق",
+    "غث",
+    "غط",
+    "قت",
+    "قث",
+    "قط",
+    "قم",
+    "كت",
+    "كث",
+    "كم",
+    "مز",
+    "مس",
+    "مش",
+    "مص"
+   ]
+  },
+  {
    "branch": "Gréc",
    "read": "",
    "gloss": "a Greek (person)",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "رج",
+    "رق",
+    "رك",
+    "غر",
+    "غل",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
+    "لج",
+    "لق",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جرج",
+    "جرك",
+    "غرق",
+    "غلق",
+    "قرق",
+    "قلق",
+    "كرج",
+    "كرك",
+    "كلك"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "Gréc",
+   "read": "",
+   "gloss": "Greek (language)",
    "nuclei_found": [
     "جر",
     "جل",
@@ -47795,6 +47159,30 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "Rechru",
+   "read": "",
+   "gloss": "Rathlin Island (an island north of Northern Ireland)؛ Lambay Island (an island off the east coast of Ireland)",
+   "nuclei_found": [
+    "حر",
+    "حل",
+    "خر",
+    "خل",
+    "رح",
+    "رخ",
+    "رك",
+    "كر",
+    "كل",
+    "لح",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "رحل",
+    "ركل"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "Caisel",
    "read": "",
    "gloss": "Cashel (a town in County Tipperary, Ireland)",
@@ -48312,6 +47700,32 @@
    ]
   },
   {
+   "branch": "dofil",
+   "read": "",
+   "gloss": "to be at hand, be approaching, be on one's way (with the subject of the English verb expressed as the direct object)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "دب",
+    "دف",
+    "ذب",
+    "ضب",
+    "ضف",
+    "فر",
+    "فل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "دبر",
+    "دبل",
+    "دفر",
+    "دفل",
+    "ذبل",
+    "ضفر"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "seichid",
    "read": "",
    "gloss": "to assert, declare",
@@ -48424,6 +47838,29 @@
     "كت",
     "كث"
    ]
+  },
+  {
+   "branch": "étrum",
+   "read": "",
+   "gloss": "light (not heavy)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رم",
+    "طر",
+    "طل",
+    "لم"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "ترم",
+    "تلم",
+    "ثرم",
+    "ثلم"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "docing",
@@ -54323,6 +53760,23 @@
    ]
   },
   {
+   "branch": "conlá",
+   "read": "",
+   "gloss": "Used in various metaphorical senses roughly stemming from joining or placing together",
+   "nuclei_found": [
+    "جن",
+    "قن",
+    "كن",
+    "نر",
+    "نل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "كنر"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "túarasndal",
    "read": "",
    "gloss": "eyewitness evidence",
@@ -59807,6 +59261,26 @@
    ]
   },
   {
+   "branch": "coillid",
+   "read": "",
+   "gloss": "to damage, destroy؛ to break (a law etc.), violate (a restriction)",
+   "nuclei_found": [
+    "جل",
+    "قل",
+    "كل",
+    "لد",
+    "لذ"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جلد",
+    "جلذ",
+    "قلد",
+    "كلد"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "cléirech",
    "read": "",
    "gloss": "cleric؛ religious (member of a religious order)؛ scholar",
@@ -59866,6 +59340,29 @@
     "كمن"
    ],
    "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "nechtar",
+   "read": "",
+   "gloss": "either (of two)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "حت",
+    "حث",
+    "حط",
+    "خت",
+    "خط",
+    "طر",
+    "طل",
+    "كت",
+    "كث",
+    "نح",
+    "نخ",
+    "نك"
+   ]
   },
   {
    "branch": "cúalatar",
@@ -60440,6 +59937,21 @@
     "كبد"
    ],
    "root_fan_from": "كما وردَت"
+  },
+  {
+   "branch": "gairr",
+   "read": "",
+   "gloss": "calf (of the leg)",
+   "nuclei_found": [
+    "جر",
+    "جل",
+    "غر",
+    "غل",
+    "قر",
+    "قل",
+    "كر",
+    "كل"
+   ]
   },
   {
    "branch": "fróech",
@@ -62052,25 +61564,63 @@
    "read": "",
    "gloss": "to stand",
    "nuclei_found": [
+    "تم",
+    "ثم",
+    "حز",
+    "حس",
+    "حش",
+    "حص",
+    "خز",
+    "خس",
+    "خش",
+    "خص",
     "در",
     "دل",
     "ذر",
     "ذل",
+    "زت",
+    "زد",
+    "ست",
+    "سد",
+    "سط",
+    "شت",
+    "شد",
+    "شط",
+    "صت",
+    "صد",
+    "ضر",
+    "ضل",
+    "طم",
+    "غز",
+    "غس",
+    "غش",
+    "غص",
+    "هز",
+    "هش"
+   ]
+  },
+  {
+   "branch": "doairissedar",
+   "read": "",
+   "gloss": "to stay, rest, remain (in a position)",
+   "nuclei_found": [
+    "در",
+    "دل",
+    "ذر",
+    "ذل",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
     "زد",
     "سد",
     "شد",
     "صد",
     "ضر",
-    "ضل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سدر",
-    "سدل",
-    "شذر",
-    "صدر"
-   ],
-   "root_fan_from": "كما وردَت"
+    "ضل",
+    "لز",
+    "لس"
+   ]
   },
   {
    "branch": "fristaít",
@@ -62206,6 +61756,36 @@
     "نذ",
     "نض",
     "نن"
+   ]
+  },
+  {
+   "branch": "Hierúsalem",
+   "read": "",
+   "gloss": "Jerusalem (a city in the Holy Land between the Mediterranean Sea and Dead Sea, holy in Judaism, Christianity and Islam; ",
+   "nuclei_found": [
+    "حر",
+    "حل",
+    "خر",
+    "خل",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "رم",
+    "زر",
+    "زل",
+    "سر",
+    "سل",
+    "شر",
+    "صر",
+    "صل",
+    "غر",
+    "غل",
+    "لز",
+    "لس",
+    "لم",
+    "هر",
+    "هل"
    ]
   },
   {
@@ -63576,16 +63156,20 @@
     "بج",
     "بق",
     "بك",
+    "حب",
+    "خب",
     "رب",
-    "لب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ربك",
-    "لبق",
-    "لبك"
-   ],
-   "root_fan_from": "كما وردَت"
+    "رح",
+    "رخ",
+    "رغ",
+    "ره",
+    "غب",
+    "لب",
+    "لح",
+    "لغ",
+    "له",
+    "هب"
+   ]
   },
   {
    "branch": "-atóir",

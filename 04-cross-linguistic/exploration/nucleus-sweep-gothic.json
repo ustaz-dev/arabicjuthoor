@@ -2,8 +2,8 @@
  "language": "gothic",
  "layer": "استكشاف؛ حوضُ مرشَّحي نواةٍ للقارئ، لا حكمَ ولا عدّ",
  "note": "وحدةُ المسحِ النواةُ الثنائيّة؛ طريقا المعنى bridge/event موسومانِ ولا يُخلَطان؛ لا سقوفَ صامتة",
- "both_total": 379,
- "sound_only_total": 3038,
+ "both_total": 340,
+ "sound_only_total": 3078,
  "both": [
   {
    "branch": "𐌳𐍂𐌰𐌲𐌰𐌽",
@@ -62,59 +62,6 @@
    "strength": 32
   },
   {
-   "branch": "𐌲𐌰𐌰𐌹𐌽𐌰𐌽",
-   "read": "gaainān",
-   "gloss": "to separate, to take from",
-   "nuclei_found": [
-    "جن",
-    "غن",
-    "قن",
-    "كن",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نن"
-   ],
-   "best_nucleus": "جن",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-ān`؛ الهيكلُ نفسُه",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "𐍆𐍂𐌿𐌼𐌰",
-   "read": "fruma",
-   "gloss": "beginning (initial portion of some extended thing)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رم",
-    "فر",
-    "فل",
-    "لم"
-   ],
-   "best_nucleus": "فل",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-uma`؛ الهيكلُ نفسُه",
-   "reading_ar": "انفصال ندورًا أو نتوءًا مع ضعف",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "extended"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
    "branch": "𐌷𐌹𐌽𐌳𐌰𐍂",
    "read": "hindar",
    "gloss": "behind, beyond",
@@ -167,41 +114,6 @@
      "path": "event",
      "shared": [
       "cut"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "𐌰𐍄𐌷𐌰𐍆𐌾𐌰𐌽",
-   "read": "athafjan",
-   "gloss": "to lift down (from), to take down",
-   "nuclei_found": [
-    "بج",
-    "تب",
-    "تف",
-    "ثب",
-    "جن",
-    "حب",
-    "حف",
-    "خب",
-    "خف",
-    "طب",
-    "طف",
-    "غب",
-    "غف",
-    "فج",
-    "في",
-    "هب"
-   ],
-   "best_nucleus": "جن",
-   "how": "بنزعِ السابقةِ المسمّاةِ `at-`؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -289,48 +201,6 @@
    "strength": 21
   },
   {
-   "branch": "𐌰𐍆𐌷𐍉𐌻𐍉𐌽",
-   "read": "afhōlōn",
-   "gloss": "to cheat (someone out of something), to take (something from someone) by false accusation",
-   "nuclei_found": [
-    "بح",
-    "بخ",
-    "بغ",
-    "به",
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رن",
-    "غر",
-    "غل",
-    "فح",
-    "فخ",
-    "فه",
-    "لن",
-    "هر",
-    "هل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "هرن",
-    "هلن"
-   ],
-   "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `af-`",
-   "best_nucleus": "هل",
-   "how": "بنزعِ السابقةِ المسمّاةِ `af-`؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "فراغ الأثناء أو ما هو من باب الفراغ",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "out"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
    "branch": "𐌳𐌰𐌿𐍆𐍃",
    "read": "daufs",
    "gloss": "hardened, hard-hearted, callous",
@@ -357,36 +227,6 @@
      "path": "event",
      "shared": [
       "hard"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "𐌻𐌰𐌿𐍃𐌾𐌰𐌽",
-   "read": "lausjan",
-   "gloss": "to make loose, loosen؛ to set free, deliver (from something)؛ to collect, claim, exact",
-   "nuclei_found": [
-    "جن",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زج",
-    "سج",
-    "شج",
-    "صي",
-    "لز",
-    "لس"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -476,72 +316,6 @@
      "path": "event",
      "shared": [
       "firm"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "𐌾𐌰𐌹𐌽𐌸𐍂𐍉",
-   "read": "jainþrō",
-   "gloss": "from there",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جن",
-    "طر",
-    "طل",
-    "نت",
-    "نث",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نط"
-   ],
-   "best_nucleus": "جن",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-þrō`؛ الهيكلُ نفسُه",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "𐌽𐌰𐍃𐌾𐌰𐌽𐌳𐍃",
-   "read": "nasjands",
-   "gloss": "saviour (substantivized from the above participle)؛ the Messiah",
-   "nuclei_found": [
-    "جن",
-    "دس",
-    "زج",
-    "سج",
-    "شج",
-    "صي",
-    "ضز",
-    "ند",
-    "نذ",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نض"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -647,26 +421,6 @@
      "path": "event",
      "shared": [
       "spread"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "-𐌾𐌰𐌽",
-   "read": "-jan",
-   "gloss": "Derives denominatives from nouns and factitives from adjectives.",
-   "nuclei_found": [
-    "جن"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -779,35 +533,6 @@
      "path": "event",
      "shared": [
       "concealment"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "𐌳𐌹𐌲𐌰𐌽",
-   "read": "digan",
-   "gloss": "to shape, mold, form from earth or clay",
-   "nuclei_found": [
-    "جن",
-    "دق",
-    "ذق",
-    "ذك",
-    "ضج",
-    "ضغ",
-    "ضق",
-    "غن",
-    "قن",
-    "كن"
-   ],
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
      ]
     }
    ],
@@ -940,45 +665,6 @@
    "strength": 21
   },
   {
-   "branch": "𐍆𐍂𐌴𐌹𐌳𐌾𐌰𐌽",
-   "read": "freidjan",
-   "gloss": "to spare (preserve from danger or punishment)؛ to spare؛ to forbear, spare",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جن",
-    "رد",
-    "رذ",
-    "رض",
-    "ضج",
-    "فر",
-    "فل",
-    "لد",
-    "لذ"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برد",
-    "برض",
-    "بلد",
-    "فرد",
-    "فرض"
-   ],
-   "root_fan_from": "بإسقاطِ نونِ مصدرِ الضعيفِ الأوّلِ -jan",
-   "best_nucleus": "جن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 4",
-   "reading_ar": "الستر والكثافة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "from"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
    "branch": "𐌿𐍆𐌷𐍂𐍉𐍀𐌾𐌰𐌽",
    "read": "ufhrōpjan",
    "gloss": "to cry forth, cry out, shout out",
@@ -1031,42 +717,6 @@
      "path": "event",
      "shared": [
       "out"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "𐌲𐌰𐌱𐌰𐌿𐍂",
-   "read": "gabaur",
-   "gloss": "tribute؛ collection (gathering of money for charitable or other purposes)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جب",
-    "غب",
-    "قب",
-    "كب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جبر",
-    "جبل",
-    "غبر",
-    "قبر",
-    "قبل",
-    "كبر",
-    "كبل"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "جب",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "التجسم والبروز مع القطع أو الاستواء",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "gathering"
      ]
     }
    ],
@@ -1136,22 +786,25 @@
    "gloss": "sufficiency؛ contentment",
    "nuclei_found": [
     "جن",
+    "حن",
+    "خن",
     "غن",
     "قن",
     "كن",
     "نح",
     "نخ",
     "نغ",
-    "نه"
+    "نه",
+    "هن"
    ],
    "root_first": true,
    "root_fan": [
     "جنح",
     "كنه"
    ],
-   "root_fan_from": "كما وردَت",
+   "root_fan_from": "جذعُ القاموسِ `ganauhan` ثمّ بإسقاطِ نونِ المصدرِ -an",
    "best_nucleus": "غن",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
+   "how": "جذعُ القاموسِ `ganauhan`؛ الزوجُ المتجاورُ 1",
    "reading_ar": "وجود لطيف في الحوزة",
    "via": [
     {
@@ -1506,51 +1159,6 @@
     }
    ],
    "strength": 13
-  },
-  {
-   "branch": "𐍆𐍂𐌿𐌼𐌹𐍃𐍄𐍃",
-   "read": "frumists",
-   "gloss": "superlative degree of 𐍆𐍂𐌿𐌼𐌰 (fruma)؛ first (preceding all others of a series or kind; the ordinal of one; earliest) (use",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تس",
-    "رم",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "فر",
-    "فل",
-    "لم",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برم",
-    "بلم",
-    "فرم",
-    "فلم"
-   ],
-   "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-ists`",
-   "best_nucleus": "فر",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-ists`؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الفصل أو التفريق بين ما هو ملتق أو ملتحم",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "number",
-      "than"
-     ]
-    }
-   ],
-   "strength": 12
   },
   {
    "branch": "𐌰𐍆𐍃𐌻𐌰𐌷𐌰𐌽",
@@ -2286,52 +1894,29 @@
    "strength": 11
   },
   {
-   "branch": "𐍆𐌹𐌳𐍅𐍉𐍂",
-   "read": "fidwōr",
-   "gloss": "four (cardinal number)",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "ذو",
-    "ضو",
-    "فد",
-    "فض",
-    "ول"
-   ],
-   "best_nucleus": "بد",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "number"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌺𐌹𐌽𐍄𐌿𐍃",
    "read": "kintus",
    "gloss": "small coin, cent",
    "nuclei_found": [
     "تس",
+    "حن",
+    "خن",
+    "غن",
     "قن",
     "كن",
     "نت",
     "نث",
-    "نط"
+    "ند",
+    "نذ",
+    "نض",
+    "نط",
+    "هن"
    ],
    "root_first": true,
    "root_fan": [
-    "قنت",
-    "قنط",
-    "كنت",
-    "كنث"
+    "هند"
    ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)",
+   "root_fan_from": "جذعُ القاموسِ `hund`",
    "best_nucleus": "قن",
    "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
    "reading_ar": "النفاذ في الباطن أو الأخذ إليه بعمق أو امتداد",
@@ -2340,41 +1925,6 @@
      "path": "bridge",
      "shared": [
       "small"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐍅𐌹𐌽𐍄𐍂𐌿𐍃",
-   "read": "wintrus",
-   "gloss": "winter (fourth season, marked by short days and lowest temperatures)؛ year (with numeral, used for ages and durations of",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "طر",
-    "طل",
-    "لز",
-    "لس",
-    "نت",
-    "نث",
-    "نط",
-    "ون"
-   ],
-   "best_nucleus": "ثر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "نفاذ المائع وما يشبهه بغزارة وانتشار",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "short"
      ]
     }
    ],
@@ -2575,31 +2125,6 @@
    "strength": 11
   },
   {
-   "branch": "𐍈𐌰𐌸𐌰𐍂",
-   "read": "ƕaþar",
-   "gloss": "which, what (of two)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل"
-   ],
-   "best_nucleus": "تر",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الابتعاد بقوة مع دقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "two"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐍆𐌰𐌹𐍂𐍂𐌰",
    "read": "fairra",
    "gloss": "far away from",
@@ -2748,38 +2273,6 @@
    "strength": 11
   },
   {
-   "branch": "𐍈𐌰𐌸𐌰𐍂𐌿𐌷",
-   "read": "ƕaþaruh",
-   "gloss": "each, every (of two)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رح",
-    "رخ",
-    "رغ",
-    "ره",
-    "طر",
-    "طل",
-    "لح",
-    "لغ",
-    "له"
-   ],
-   "best_nucleus": "تر",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-uh`؛ الهيكلُ نفسُه",
-   "reading_ar": "الابتعاد بقوة مع دقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "two"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌰𐌽𐌸𐌰𐍂",
    "read": "anþar",
    "gloss": "the other of two, the one that is different from the one just mentioned؛ the second (numeral)",
@@ -2876,57 +2369,6 @@
      "path": "bridge",
      "shared": [
       "take"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌷𐌹𐌳𐍂𐌴",
-   "read": "hidrē",
-   "gloss": "hither, here (to this place)",
-   "nuclei_found": [
-    "حد",
-    "حذ",
-    "حض",
-    "خد",
-    "خذ",
-    "خض",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "ضر",
-    "ضل",
-    "غد",
-    "غض",
-    "هد",
-    "هض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "حدر",
-    "حدل",
-    "حذر",
-    "حضر",
-    "خدر",
-    "خذل",
-    "خضر",
-    "خضل",
-    "غدر",
-    "غضر",
-    "هدر",
-    "هدل"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "هد",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "تفكك القائم المنتصب وتضعضعه أو تسيبه",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "this"
      ]
     }
    ],
@@ -3541,36 +2983,6 @@
    "strength": 11
   },
   {
-   "branch": "𐌰𐍄𐌲𐌹𐌱𐌰𐌽",
-   "read": "atgiban",
-   "gloss": "to give (to), to deliver (into)",
-   "nuclei_found": [
-    "بن",
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "جب",
-    "طغ",
-    "طق",
-    "غب",
-    "قب",
-    "كب"
-   ],
-   "best_nucleus": "قب",
-   "how": "بنزعِ السابقةِ المسمّاةِ `at-`؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "النتوء مع تجوف وصلابة تحيط بنصف الشيء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "into"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌰𐍄𐍃𐌰𐍄𐌾𐌰𐌽",
    "read": "atsatjan",
    "gloss": "to set before, to present",
@@ -3902,37 +3314,6 @@
    "strength": 11
   },
   {
-   "branch": "𐌼𐌰𐌽𐌰𐍃𐌴𐌸𐍃",
-   "read": "manasēþs",
-   "gloss": "the world (human collective existence)",
-   "nuclei_found": [
-    "تس",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "من",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ],
-   "best_nucleus": "نس",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "نفاذ بدقة من أثناء شيء أو فيها",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "human"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌰𐍆𐌳𐌰𐌹𐌻𐌾𐌰𐌽",
    "read": "afdailjan",
    "gloss": "to give, distribute, share",
@@ -4178,6 +3559,48 @@
      "path": "bridge",
      "shared": [
       "out"
+     ]
+    }
+   ],
+   "strength": 11
+  },
+  {
+   "branch": "𐌰𐍆𐌷𐍉𐌻𐍉𐌽",
+   "read": "afhōlōn",
+   "gloss": "to cheat (someone out of something), to take (something from someone) by false accusation",
+   "nuclei_found": [
+    "بح",
+    "بخ",
+    "بغ",
+    "به",
+    "حر",
+    "حل",
+    "خر",
+    "خل",
+    "رن",
+    "غر",
+    "غل",
+    "فح",
+    "فخ",
+    "فه",
+    "لن",
+    "هر",
+    "هل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "هرن",
+    "هلن"
+   ],
+   "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `af-`",
+   "best_nucleus": "حل",
+   "how": "بنزعِ السابقةِ المسمّاةِ `af-`؛ الزوجُ المتجاورُ 1",
+   "reading_ar": "التسيب والتفكك وما هو من لوازمه كالزيادة",
+   "via": [
+    {
+     "path": "bridge",
+     "shared": [
+      "take"
      ]
     }
    ],
@@ -4506,59 +3929,56 @@
    "strength": 11
   },
   {
-   "branch": "𐌷𐌰𐌹𐌸𐌹",
-   "read": "haiþi",
-   "gloss": "field (land area free of woodland, cities, and towns; open country)",
+   "branch": "𐌷𐌰𐌹𐌸𐌹𐍅𐌹𐍃𐌺𐍃",
+   "read": "haiþiwisks",
+   "gloss": "wild؛ pertaining to a field or heath",
    "nuclei_found": [
+    "جد",
+    "جذ",
     "حت",
     "حث",
     "حط",
     "خت",
     "خط",
+    "ذو",
+    "زق",
+    "زك",
+    "سق",
+    "سك",
+    "شق",
+    "شك",
+    "صك",
+    "ضو",
+    "طو",
     "غث",
     "غط",
+    "قس",
+    "قش",
+    "قص",
+    "كز",
+    "كس",
+    "كش",
     "هت",
-    "هط"
-   ],
-   "best_nucleus": "خط",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الامتداد السطحي الخفيف مع أخذ ما",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "land"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌺𐌰𐌿𐍂𐌽𐍉",
-   "read": "kaurnō",
-   "gloss": "kernel (single seed or grain, especially of corn or wheat)",
-   "nuclei_found": [
-    "رن",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لن"
+    "هط",
+    "يد"
    ],
    "root_first": true,
    "root_fan": [
-    "قرن",
-    "كرن"
+    "حتو",
+    "ختو",
+    "خطو",
+    "غثو",
+    "غطو"
    ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "كل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "تجمع الشيء كتلة دون حد أو طرف دقيق",
+   "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-isks`",
+   "best_nucleus": "يد",
+   "how": "جذعُ القاموسِ `judaiwisks`؛ الزوجُ المتجاورُ 1",
+   "reading_ar": "الامتداد بقوة للتمكين أو الضغط",
    "via": [
     {
      "path": "bridge",
      "shared": [
-      "single"
+      "field"
      ]
     }
    ],
@@ -4799,36 +4219,6 @@
      "path": "bridge",
      "shared": [
       "tree"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌻𐌰𐌹𐍃𐌾𐌰𐌽",
-   "read": "laisjan",
-   "gloss": "to teach (according to Wright, it takes the accusative case for both the thing taught and the person taught)؛ to learn",
-   "nuclei_found": [
-    "جن",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زج",
-    "سج",
-    "شج",
-    "صي",
-    "لز",
-    "لس"
-   ],
-   "best_nucleus": "سج",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "اعتدال ورقة وعدم غلظ واستواء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "takes"
      ]
     }
    ],
@@ -5177,43 +4567,6 @@
    "strength": 11
   },
   {
-   "branch": "𐌸𐍂𐌰𐌼𐍃𐍄𐌴𐌹",
-   "read": "þramstei",
-   "gloss": "grasshopper, locust (insect)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رم",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طر",
-    "طل",
-    "لم",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ],
-   "best_nucleus": "ثر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "نفاذ المائع وما يشبهه بغزارة وانتشار",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "insect"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐍃𐌹𐌲𐌹𐍃𐌻𐌰𐌿𐌽",
    "read": "sigislaun",
    "gloss": "prize, spoils",
@@ -5262,54 +4615,6 @@
      "path": "bridge",
      "shared": [
       "prize"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐍆𐌹𐌳𐍅𐍉𐍂𐍄𐌰𐌹𐌷𐌿𐌽",
-   "read": "fidwōrtaihun",
-   "gloss": "fourteen (cardinal number)",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "تح",
-    "ته",
-    "ثخ",
-    "حن",
-    "خن",
-    "ذو",
-    "رت",
-    "رث",
-    "رط",
-    "ضو",
-    "طح",
-    "طغ",
-    "طه",
-    "غن",
-    "فد",
-    "فض",
-    "لت",
-    "لط",
-    "هن",
-    "ول"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ثخن",
-    "طحن"
-   ],
-   "root_fan_from": "جذعُ القاموسِ `taihun`",
-   "best_nucleus": "بد",
-   "how": "جذعُ القاموسِ `fidwōr`؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "number"
      ]
     }
    ],
@@ -5613,6 +4918,7 @@
    "gloss": "female porter or gatekeeper",
    "nuclei_found": [
     "در",
+    "دس",
     "دل",
     "ذر",
     "ذل",
@@ -5621,6 +4927,7 @@
     "رض",
     "رو",
     "ضر",
+    "ضز",
     "ضل",
     "لد",
     "لذ",
@@ -5628,7 +4935,7 @@
     "ول"
    ],
    "best_nucleus": "ذر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
+   "how": "جذعُ القاموسِ `daurawards`؛ الزوجُ المتجاورُ 1",
    "reading_ar": "النثر والنفاذ بدقة واسترسال",
    "via": [
     {
@@ -5646,6 +4953,7 @@
    "gloss": "female porter or gatekeeper",
    "nuclei_found": [
     "در",
+    "دس",
     "دل",
     "ذر",
     "ذل",
@@ -5654,6 +4962,7 @@
     "رض",
     "رو",
     "ضر",
+    "ضز",
     "ضل",
     "لد",
     "لذ",
@@ -5661,52 +4970,13 @@
     "ول"
    ],
    "best_nucleus": "ذر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
+   "how": "جذعُ القاموسِ `daurawards`؛ الزوجُ المتجاورُ 1",
    "reading_ar": "النثر والنفاذ بدقة واسترسال",
    "via": [
     {
      "path": "bridge",
      "shared": [
       "female"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐍃𐌹𐌽𐌰𐍀𐌹𐍃",
-   "read": "sināpis",
-   "gloss": "mustard (plant, Sinapis alba)",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "نب",
-    "نف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "صنب",
-    "صنف"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)",
-   "best_nucleus": "نب",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "النُّبُوُّ ارتفاعًا أو ابتعادًا",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "plant"
      ]
     }
    ],
@@ -5752,34 +5022,6 @@
    "strength": 11
   },
   {
-   "branch": "𐌾𐌿𐌽𐌳𐌰𐌹",
-   "read": "jundai",
-   "gloss": "youth (quality or state of being young)",
-   "nuclei_found": [
-    "جن",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جند"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "ند",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الإبعاد امتدادا أو مفارقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "being"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌷𐌴𐌹𐍅𐌰𐍆𐍂𐌰𐌿𐌾𐌰",
    "read": "heiwafrauja",
    "gloss": "goodman, master of the house",
@@ -5816,38 +5058,6 @@
      "path": "bridge",
      "shared": [
       "master"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌼𐌹𐌻𐌷𐌼𐌰",
-   "read": "milhma",
-   "gloss": "cloud (visible mass of water droplets suspended in the air)",
-   "nuclei_found": [
-    "حم",
-    "خم",
-    "رح",
-    "رخ",
-    "رغ",
-    "ره",
-    "غم",
-    "لح",
-    "لغ",
-    "له",
-    "مر",
-    "مل",
-    "هم"
-   ],
-   "best_nucleus": "رخ",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "طراءة الشيء المتجسم لتندى أثنائه",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "water"
      ]
     }
    ],
@@ -6371,37 +5581,6 @@
    "strength": 11
   },
   {
-   "branch": "𐌻𐌰𐌿𐌷𐌼𐌿𐌽𐌹",
-   "read": "lauhmuni",
-   "gloss": "lightning (flash of light)؛ any blaze of fire from heaven",
-   "nuclei_found": [
-    "حم",
-    "خم",
-    "رح",
-    "رخ",
-    "رغ",
-    "ره",
-    "غم",
-    "لح",
-    "لغ",
-    "له",
-    "من",
-    "هم"
-   ],
-   "best_nucleus": "رخ",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-muni`؛ الهيكلُ نفسُه",
-   "reading_ar": "طراءة الشيء المتجسم لتندى أثنائه",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "light"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐍆𐍂𐌹𐌾𐍉𐌽𐌳𐌹",
    "read": "frijōndi",
    "gloss": "female friend",
@@ -6409,7 +5588,9 @@
     "بر",
     "بل",
     "جن",
+    "دس",
     "رج",
+    "ضز",
     "فر",
     "فل",
     "لج",
@@ -6419,7 +5600,7 @@
     "نض"
    ],
    "best_nucleus": "لج",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
+   "how": "جذعُ القاموسِ `frijōnds`؛ الزوجُ المتجاورُ 2",
    "reading_ar": "التراكم ثم ما قد يلزمه من كثافة وشدة مادية",
    "via": [
     {
@@ -6493,44 +5674,6 @@
      "path": "bridge",
      "shared": [
       "shape"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌸𐌰𐌹𐍂𐌺𐍉",
-   "read": "þairkō",
-   "gloss": "eye (hole at the end of a needle through which thread is passed)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رق",
-    "رك",
-    "طر",
-    "طل",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ترق",
-    "ترك",
-    "تلك",
-    "طرق",
-    "طلق"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "رق",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الانبساط مع الرقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "through"
      ]
     }
    ],
@@ -6739,38 +5882,6 @@
    "strength": 11
   },
   {
-   "branch": "𐍆𐌰𐌳𐍂𐌴𐌹𐌽",
-   "read": "fadrein",
-   "gloss": "parents (always plural in meaning, but often singular in grammatical number -- even when congruent with another plural)؛",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رن",
-    "ضر",
-    "ضل",
-    "فد",
-    "فض",
-    "لن"
-   ],
-   "best_nucleus": "بد",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "number"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌰𐌻𐌰𐌱𐌰𐌻𐍃𐍄𐍂𐌰𐌿𐌽",
    "read": "alabalstraun",
    "gloss": "A type of alabastron; that is, a small container, perhaps a flask, phial or box, especially one containing ointments",
@@ -6941,46 +6052,6 @@
    "strength": 11
   },
   {
-   "branch": "𐌷𐌹𐌽𐌳𐌰𐍂𐌻𐌴𐌹𐌸𐌰𐌽",
-   "read": "hindarleiþan",
-   "gloss": "to pass by, go (away)",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "حن",
-    "خن",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رت",
-    "رث",
-    "رط",
-    "ضر",
-    "ضل",
-    "طن",
-    "غن",
-    "لت",
-    "لط",
-    "ند",
-    "نذ",
-    "نض",
-    "هن"
-   ],
-   "best_nucleus": "ذر",
-   "how": "جذعُ القاموسِ `hindar`؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "النثر والنفاذ بدقة واسترسال",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "away"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌰𐌹𐌽𐌰𐌺𐌻𐍃",
    "read": "ainakls",
    "gloss": "alone, without companion (glosses μεμονωμένος (memonōménos, “having been left alone”, perfect mediopassive participle of",
@@ -6995,17 +6066,13 @@
     "كل",
     "لز",
     "لس",
+    "نز",
+    "نس",
+    "نش",
+    "نص",
     "نق",
     "نك"
    ],
-   "root_first": true,
-   "root_fan": [
-    "نقر",
-    "نقل",
-    "نكر",
-    "نكل"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)",
    "best_nucleus": "قر",
    "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
    "reading_ar": "استقرار ما شأنه التسيب في قاع عميق أو حيز",
@@ -7014,45 +6081,6 @@
      "path": "bridge",
      "shared": [
       "companion"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌰𐌹𐌽𐍈𐌰𐌸𐌰𐍂𐌿𐌷",
-   "read": "ainƕaþaruh",
-   "gloss": "each (of two)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رح",
-    "رخ",
-    "رغ",
-    "ره",
-    "طر",
-    "طل",
-    "لح",
-    "لغ",
-    "له",
-    "نت",
-    "نث",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نط"
-   ],
-   "best_nucleus": "تر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الابتعاد بقوة مع دقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "two"
      ]
     }
    ],
@@ -7109,7 +6137,7 @@
     "وح"
    ],
    "best_nucleus": "ند",
-   "how": "بنزعِ سابقةِ `and-`؛ الزوجُ المتجاورُ 3",
+   "how": "جذعُ القاموسِ `andweihan`؛ الزوجُ المتجاورُ 1",
    "reading_ar": "الإبعاد امتدادا أو مفارقة",
    "via": [
     {
@@ -7757,6 +6785,59 @@
      "path": "bridge",
      "shared": [
       "female"
+     ]
+    }
+   ],
+   "strength": 11
+  },
+  {
+   "branch": "𐌰𐌽𐌳𐌷𐌰𐌼𐍉𐌽",
+   "read": "andhamōn",
+   "gloss": "to divest oneself of",
+   "nuclei_found": [
+    "بق",
+    "بك",
+    "حم",
+    "خم",
+    "دح",
+    "دخ",
+    "دم",
+    "ده",
+    "ذخ",
+    "ذم",
+    "ذه",
+    "ضح",
+    "ضغ",
+    "ضم",
+    "ضه",
+    "غم",
+    "فق",
+    "فك",
+    "قد",
+    "قذ",
+    "قض",
+    "كد",
+    "كذ",
+    "من",
+    "ند",
+    "نذ",
+    "نض",
+    "هم"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "خمن",
+    "همن"
+   ],
+   "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `and-`",
+   "best_nucleus": "كد",
+   "how": "جذعُ القاموسِ `apekdúomai`؛ الزوجُ المتجاورُ 2",
+   "reading_ar": "التعامل مع ما يشبه القشر الشديد اللصوق بأصله",
+   "via": [
+    {
+     "path": "bridge",
+     "shared": [
+      "oneself"
      ]
     }
    ],
@@ -9098,7 +8179,7 @@
    ],
    "root_fan_from": "بنزعِ سابقةِ `un-`",
    "best_nucleus": "خل",
-   "how": "بنزعِ سابقةِ `un-`؛ الزوجُ المتجاورُ 1",
+   "how": "جذعُ القاموسِ `unhulþa`؛ الزوجُ المتجاورُ 2",
    "reading_ar": "الخلخلة أي الفراغ في الأثناء",
    "via": [
     {
@@ -9173,46 +8254,6 @@
      "path": "bridge",
      "shared": [
       "sixty"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐍆𐌹𐌳𐍅𐍉𐍂 𐍄𐌹𐌲𐌾𐌿𐍃",
-   "read": "fidwōr tigjus",
-   "gloss": "forty (cardinal number)",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "جز",
-    "جس",
-    "ذو",
-    "رت",
-    "رث",
-    "رط",
-    "ضو",
-    "طغ",
-    "طق",
-    "فد",
-    "فض",
-    "لت",
-    "لط",
-    "ول"
-   ],
-   "best_nucleus": "بد",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "number"
      ]
     }
    ],
@@ -9778,45 +8819,6 @@
    "strength": 11
   },
   {
-   "branch": "𐍄𐍂𐌹𐍅𐌴𐌹𐌽𐍃",
-   "read": "triweins",
-   "gloss": "wooden (made of wood)",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رو",
-    "طر",
-    "طل",
-    "لو",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "ون"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "تلو",
-    "ثرو",
-    "طرو"
-   ],
-   "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-eins`",
-   "best_nucleus": "طر",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-eins`؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الامتداد مع الرقة أو التتابع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "wood"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌲𐌰𐍄𐌰𐌿𐍂𐌸𐍃",
    "read": "gataurþs",
    "gloss": "destruction, a tearing down",
@@ -10309,45 +9311,6 @@
    "strength": 11
   },
   {
-   "branch": "𐌹𐍃𐍂𐌰𐌴𐌻",
-   "read": "israēl",
-   "gloss": "Israel (a Biblical region of Western Asia roughly coextensive with the modern State of Israel, known in the Bible as the",
-   "nuclei_found": [
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زرر",
-    "زلل",
-    "سرر",
-    "سرل",
-    "سلر",
-    "سلل",
-    "شرر",
-    "شلل",
-    "صرر"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "سر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الامتداد أو النفاذ مع الدقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "known"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌷𐍂𐌰𐌹𐌽𐌾𐌰𐌷𐌰𐌹𐍂𐍄𐍃",
    "read": "hrainjahairts",
    "gloss": "pure-hearted, goodhearted",
@@ -10445,6 +9408,8 @@
     "بر",
     "بل",
     "تس",
+    "تم",
+    "ثم",
     "رز",
     "رس",
     "رش",
@@ -10455,10 +9420,16 @@
     "شت",
     "شط",
     "صت",
+    "طم",
     "فر",
     "فل",
     "لز",
-    "لس"
+    "لس",
+    "من",
+    "نز",
+    "نس",
+    "نش",
+    "نص"
    ],
    "best_nucleus": "رس",
    "how": "بنزعِ اللاحقةِ المسمّاةِ `-eis`؛ الزوجُ المتجاورُ 2",
@@ -11456,13 +10427,26 @@
     "جر",
     "جل",
     "رب",
+    "رن",
+    "زن",
+    "سن",
+    "شن",
+    "صن",
     "غر",
     "غل",
     "قر",
     "قل",
     "كر",
     "كل",
-    "لب"
+    "لب",
+    "لن",
+    "مز",
+    "مس",
+    "مش",
+    "مص",
+    "نق",
+    "نك",
+    "نم"
    ],
    "root_first": true,
    "root_fan": [
@@ -11471,37 +10455,13 @@
    ],
    "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `ga-`",
    "best_nucleus": "قر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
+   "how": "جذعُ القاموسِ `sunklēronómos`؛ الزوجُ المتجاورُ 3",
    "reading_ar": "استقرار ما شأنه التسيب في قاع عميق أو حيز",
    "via": [
     {
      "path": "bridge",
      "shared": [
       "fellow"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌲𐌰𐌱𐌰𐌿𐌰𐌽",
-   "read": "gabauan",
-   "gloss": "to lodge (stay in any place or shelter)",
-   "nuclei_found": [
-    "بن",
-    "جب",
-    "غب",
-    "قب",
-    "كب"
-   ],
-   "best_nucleus": "بن",
-   "how": "بنزعِ السابقةِ المسمّاةِ `ga-`؛ الهيكلُ نفسُه",
-   "reading_ar": "الامتداد والبناء",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "stay"
      ]
     }
    ],
@@ -11582,31 +10542,6 @@
      "path": "bridge",
      "shared": [
       "bear"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌱𐌰𐌻𐌾𐍉𐌽",
-   "read": "baljōn",
-   "gloss": "to roar (of animals, to make a loud deep noise)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جن",
-    "رج",
-    "لج",
-    "لي"
-   ],
-   "best_nucleus": "بر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "التجرد والخلوص",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "animals"
      ]
     }
    ],
@@ -11858,53 +10793,6 @@
      "path": "bridge",
      "shared": [
       "after"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌲𐌰𐍆𐍂𐌰𐌸𐌾𐌴𐌹",
-   "read": "gafraþjei",
-   "gloss": "sobriety (quality or state of being grave or earnestly thoughtful)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تج",
-    "ثج",
-    "جب",
-    "جف",
-    "جن",
-    "رت",
-    "رث",
-    "رط",
-    "غب",
-    "غف",
-    "فر",
-    "فل",
-    "قب",
-    "قف",
-    "كب",
-    "كف",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بلط",
-    "فرث",
-    "فرط",
-    "فلت"
-   ],
-   "root_fan_from": "جذعُ القاموسِ `fraþjan` ثمّ بإسقاطِ نونِ مصدرِ الضعيفِ الأوّلِ -jan",
-   "best_nucleus": "فر",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-ei`؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الفصل أو التفريق بين ما هو ملتق أو ملتحم",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "being"
      ]
     }
    ],
@@ -12181,7 +11069,7 @@
     "لم"
    ],
    "best_nucleus": "لم",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
+   "how": "جذعُ القاموسِ `lema`؛ الهيكلُ نفسُه",
    "reading_ar": "نوع من الضم أو التضام لما شأنه الانتشار إلى الظاهر",
    "via": [
     {
@@ -12481,52 +11369,6 @@
    "strength": 11
   },
   {
-   "branch": "𐌷𐍂𐌿𐌺𐌾𐌰𐌽",
-   "read": "hrūkjan",
-   "gloss": "to crow (to make the sound of a rooster)",
-   "nuclei_found": [
-    "جن",
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رق",
-    "رك",
-    "غر",
-    "غل",
-    "لق",
-    "لك",
-    "هر",
-    "هل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "حرق",
-    "حرك",
-    "حلق",
-    "حلك",
-    "خرق",
-    "خلق",
-    "غرق",
-    "غلق",
-    "هرق",
-    "هلك"
-   ],
-   "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-jan`",
-   "best_nucleus": "هر",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-jan`؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "تسيب بالغ الرقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "sound"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌷𐌰𐌿𐍃𐌾𐍉𐌽",
    "read": "hausjōn",
    "gloss": "to hear",
@@ -12552,42 +11394,13 @@
     "هش"
    ],
    "best_nucleus": "حس",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
+   "how": "جذعُ القاموسِ `hausjan`؛ الزوجُ المتجاورُ 1",
    "reading_ar": "انكشاف الظاهر وبدوه من زوال ما يعروه",
    "via": [
     {
      "path": "bridge",
      "shared": [
       "hear"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐍄𐌿𐌽𐌳𐌽𐌰𐌽",
-   "read": "tundnan",
-   "gloss": "to be on fire (being burned by fire)",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "دن",
-    "ذن",
-    "ضن",
-    "طن",
-    "ند",
-    "نذ",
-    "نض",
-    "نن"
-   ],
-   "best_nucleus": "ند",
-   "how": "بنزعِ اللاحقةِ المسمّاةِ `-nan`؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الإبعاد امتدادا أو مفارقة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "being"
      ]
     }
    ],
@@ -13004,8 +11817,13 @@
    "read": "markaillius",
    "gloss": "Marcellus of Ancyra, a fourth-century bishop.",
    "nuclei_found": [
+    "بل",
     "رق",
     "رك",
+    "زب",
+    "سب",
+    "شب",
+    "صب",
     "قل",
     "كل",
     "لز",
@@ -13015,6 +11833,13 @@
     "مر",
     "مل"
    ],
+   "root_first": true,
+   "root_fan": [
+    "زبل",
+    "سبل",
+    "شبل"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `sabaillius` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)",
    "best_nucleus": "كل",
    "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
    "reading_ar": "تجمع الشيء كتلة دون حد أو طرف دقيق",
@@ -13147,108 +11972,6 @@
      "path": "bridge",
      "shared": [
       "nine"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐌰𐌷𐍄𐌰𐌿𐍄𐌴𐌷𐌿𐌽𐌳 𐌾𐌰𐌷 𐍆𐌹𐌳𐍅𐍉𐍂",
-   "read": "ahtautēhund jah fidwōr",
-   "gloss": "eighty-four (cardinal number)",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "تح",
-    "ته",
-    "ثخ",
-    "جح",
-    "جه",
-    "حب",
-    "حت",
-    "حث",
-    "حط",
-    "حف",
-    "حن",
-    "خب",
-    "خت",
-    "خط",
-    "خف",
-    "خن",
-    "ذو",
-    "ضج",
-    "ضو",
-    "طح",
-    "طغ",
-    "طه",
-    "غب",
-    "غث",
-    "غط",
-    "غف",
-    "غن",
-    "فد",
-    "فض",
-    "ند",
-    "نذ",
-    "نض",
-    "هب",
-    "هت",
-    "هط",
-    "هن",
-    "ول"
-   ],
-   "best_nucleus": "بد",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 9",
-   "reading_ar": "الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "number"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "𐍆𐌹𐌳𐍅𐍉𐍂 𐌸𐌿𐍃𐌿𐌽𐌳𐌾𐍉𐍃",
-   "read": "fidwōr þūsundjōs",
-   "gloss": "four thousand (cardinal number)",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "تس",
-    "جز",
-    "جس",
-    "ذو",
-    "رت",
-    "رث",
-    "رط",
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "ضج",
-    "ضو",
-    "فد",
-    "فض",
-    "لت",
-    "لط",
-    "ند",
-    "نذ",
-    "نض",
-    "ول"
-   ],
-   "best_nucleus": "بد",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الفراغ الممتد وبروز الشيء أو ظهوره فيه أول مرة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "number"
      ]
     }
    ],
@@ -13558,6 +12281,96 @@
      "path": "bridge",
      "shared": [
       "set"
+     ]
+    }
+   ],
+   "strength": 11
+  },
+  {
+   "branch": "𐌲𐍂𐌹𐌽𐌳𐌰𐍆𐍂𐌰𐌸𐌾𐌹𐍃",
+   "read": "grindafraþjis",
+   "gloss": "faint-hearted, timid, demoralized",
+   "nuclei_found": [
+    "بر",
+    "بز",
+    "بس",
+    "بش",
+    "بص",
+    "بل",
+    "تج",
+    "ثج",
+    "جب",
+    "جر",
+    "جز",
+    "جس",
+    "جف",
+    "جل",
+    "خز",
+    "خس",
+    "خش",
+    "خص",
+    "دب",
+    "دف",
+    "ذب",
+    "رت",
+    "رث",
+    "رج",
+    "رط",
+    "رغ",
+    "رق",
+    "رك",
+    "رن",
+    "زخ",
+    "سخ",
+    "شخ",
+    "صخ",
+    "ضب",
+    "ضف",
+    "غب",
+    "غر",
+    "غف",
+    "غل",
+    "فر",
+    "فز",
+    "فس",
+    "فش",
+    "فص",
+    "فل",
+    "قب",
+    "قر",
+    "قف",
+    "قل",
+    "كب",
+    "كر",
+    "كف",
+    "كل",
+    "لت",
+    "لج",
+    "لط",
+    "لغ",
+    "لق",
+    "لك",
+    "لن",
+    "ند",
+    "نذ",
+    "نض"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بلط",
+    "فرث",
+    "فرط",
+    "فلت"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `fraþi`",
+   "best_nucleus": "جب",
+   "how": "جذعُ القاموسِ `oligópsukhos`؛ الزوجُ المتجاورُ 2",
+   "reading_ar": "التجسم والبروز مع القطع أو الاستواء",
+   "via": [
+    {
+     "path": "bridge",
+     "shared": [
+      "timid"
      ]
     }
    ],
@@ -14364,43 +13177,6 @@
    "strength": 11
   },
   {
-   "branch": "𐌰𐌱𐌹𐌰𐌸𐌰𐍂",
-   "read": "abiaþar",
-   "gloss": "Abiathar (Biblical character)",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بتر",
-    "بتل",
-    "بثر",
-    "بطر",
-    "بطل"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "ثل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "تجمع الدقائق وتماسكها",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "character"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "𐌿𐍃𐌼𐌴𐍂𐌽𐌰𐌽",
    "read": "usmērnan",
    "gloss": "to become known, become public",
@@ -15001,9 +13777,16 @@
    "read": "sunnō",
    "gloss": "the Sun (star)",
    "nuclei_found": [
+    "زر",
+    "زل",
     "زن",
+    "سر",
+    "سل",
     "سن",
+    "شر",
     "شن",
+    "صر",
+    "صل",
     "صن"
    ]
   },
@@ -15765,7 +14548,8 @@
     "زن",
     "سن",
     "شن",
-    "صن"
+    "صن",
+    "ول"
    ]
   },
   {
@@ -15793,6 +14577,21 @@
     "كش",
     "مق",
     "مك"
+   ]
+  },
+  {
+   "branch": "𐍆𐌹𐌳𐍅𐍉𐍂",
+   "read": "fidwōr",
+   "gloss": "four (cardinal number)",
+   "nuclei_found": [
+    "بد",
+    "بذ",
+    "بض",
+    "ذو",
+    "ضو",
+    "فد",
+    "فض",
+    "ول"
    ]
   },
   {
@@ -16151,14 +14950,7 @@
     "لط",
     "مر",
     "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مرط",
-    "ملت",
-    "ملط"
-   ],
-   "root_fan_from": "كما وردَت"
+   ]
   },
   {
    "branch": "𐌺𐌰𐌹𐍃𐌰𐍂",
@@ -16419,6 +15211,29 @@
     "كل",
     "لز",
     "لس"
+   ]
+  },
+  {
+   "branch": "𐍅𐌹𐌽𐍄𐍂𐌿𐍃",
+   "read": "wintrus",
+   "gloss": "winter (fourth season, marked by short days and lowest temperatures)؛ year (with numeral, used for ages and durations of",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "طر",
+    "طل",
+    "لز",
+    "لس",
+    "نت",
+    "نث",
+    "نط",
+    "ون"
    ]
   },
   {
@@ -16871,13 +15686,12 @@
    "gloss": "to intend, be about to",
    "nuclei_found": [
     "من",
+    "نز",
+    "نس",
+    "نش",
+    "نص",
     "نن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "منن"
-   ],
-   "root_fan_from": "كما وردَت"
+   ]
   },
   {
    "branch": "𐌵𐌴𐌽𐍃",
@@ -17228,6 +16042,35 @@
     "رج",
     "لج",
     "لي"
+   ]
+  },
+  {
+   "branch": "𐍈𐌰𐌸𐌰𐍂",
+   "read": "ƕaþar",
+   "gloss": "which, what (of two)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "طر",
+    "طل"
+   ]
+  },
+  {
+   "branch": "𐌲𐌰𐌰𐌹𐌽𐌰𐌽",
+   "read": "gaainān",
+   "gloss": "to separate, to take from",
+   "nuclei_found": [
+    "جن",
+    "غن",
+    "قن",
+    "كن",
+    "نز",
+    "نس",
+    "نش",
+    "نص",
+    "نن"
    ]
   },
   {
@@ -17868,6 +16711,38 @@
    "root_fan_from": "جذعُ القاموسِ `mēleins` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
+   "branch": "𐍆𐍂𐌿𐌼𐌹𐍃𐍄𐍃",
+   "read": "frumists",
+   "gloss": "superlative degree of 𐍆𐍂𐌿𐌼𐌰 (fruma)؛ first (preceding all others of a series or kind; the ordinal of one; earliest) (use",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "تس",
+    "رم",
+    "زت",
+    "ست",
+    "سط",
+    "شت",
+    "شط",
+    "صت",
+    "فر",
+    "فل",
+    "لم",
+    "مز",
+    "مس",
+    "مش",
+    "مص"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "برم",
+    "بلم",
+    "فرم",
+    "فلم"
+   ],
+   "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-ists`"
+  },
+  {
    "branch": "𐌺𐌹𐌽𐌳𐌹𐌽𐍃",
    "read": "kindins",
    "gloss": "governor (of the Roman Empire)",
@@ -18016,6 +16891,26 @@
     "ليز"
    ],
    "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-uh`"
+  },
+  {
+   "branch": "𐍈𐌰𐌸𐌰𐍂𐌿𐌷",
+   "read": "ƕaþaruh",
+   "gloss": "each, every (of two)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رح",
+    "رخ",
+    "رغ",
+    "ره",
+    "طر",
+    "طل",
+    "لح",
+    "لغ",
+    "له"
+   ]
   },
   {
    "branch": "𐍈𐌰𐌶𐌿𐌷",
@@ -18375,6 +17270,19 @@
    ]
   },
   {
+   "branch": "𐍆𐍂𐌿𐌼𐌰",
+   "read": "fruma",
+   "gloss": "beginning (initial portion of some extended thing)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "رم",
+    "فر",
+    "فل",
+    "لم"
+   ]
+  },
+  {
    "branch": "𐌸𐍂𐌹𐌳𐌾𐌰",
    "read": "þridja",
    "gloss": "the third",
@@ -18505,19 +17413,28 @@
    "read": "hund",
    "gloss": "hundred (count of hundred)",
    "nuclei_found": [
+    "تس",
     "حن",
     "خن",
     "غن",
+    "قن",
+    "كن",
+    "نت",
+    "نث",
     "ند",
     "نذ",
     "نض",
+    "نط",
     "هن"
    ],
    "root_first": true,
    "root_fan": [
-    "هند"
+    "قنت",
+    "قنط",
+    "كنت",
+    "كنث"
    ],
-   "root_fan_from": "كما وردَت"
+   "root_fan_from": "جذعُ القاموسِ `kintus` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "𐌿𐍂𐍂𐌹𐌽𐌽𐌰𐌽",
@@ -18770,6 +17687,45 @@
     "هر",
     "هل"
    ]
+  },
+  {
+   "branch": "𐌷𐌹𐌳𐍂𐌴",
+   "read": "hidrē",
+   "gloss": "hither, here (to this place)",
+   "nuclei_found": [
+    "حد",
+    "حذ",
+    "حض",
+    "خد",
+    "خذ",
+    "خض",
+    "در",
+    "دل",
+    "ذر",
+    "ذل",
+    "ضر",
+    "ضل",
+    "غد",
+    "غض",
+    "هد",
+    "هض"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "حدر",
+    "حدل",
+    "حذر",
+    "حضر",
+    "خدر",
+    "خذل",
+    "خضر",
+    "خضل",
+    "غدر",
+    "غضر",
+    "هدر",
+    "هدل"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "𐌹𐌽𐌽𐌰𐌸𐍂𐍉",
@@ -20679,7 +19635,9 @@
    "nuclei_found": [
     "جن",
     "رج",
+    "رن",
     "لج",
+    "لن",
     "لي"
    ]
   },
@@ -21102,6 +20060,47 @@
    ]
   },
   {
+   "branch": "𐌰𐍄𐌲𐌹𐌱𐌰𐌽",
+   "read": "atgiban",
+   "gloss": "to give (to), to deliver (into)",
+   "nuclei_found": [
+    "بن",
+    "تج",
+    "تق",
+    "ثج",
+    "ثق",
+    "جب",
+    "طغ",
+    "طق",
+    "غب",
+    "قب",
+    "كب"
+   ]
+  },
+  {
+   "branch": "𐌰𐍄𐌷𐌰𐍆𐌾𐌰𐌽",
+   "read": "athafjan",
+   "gloss": "to lift down (from), to take down",
+   "nuclei_found": [
+    "بج",
+    "تب",
+    "تف",
+    "ثب",
+    "جن",
+    "حب",
+    "حف",
+    "خب",
+    "خف",
+    "طب",
+    "طف",
+    "غب",
+    "غف",
+    "فج",
+    "في",
+    "هب"
+   ]
+  },
+  {
    "branch": "𐌰𐍄𐍄𐌴𐌺𐌰𐌽",
    "read": "attēkan",
    "gloss": "to touch, to make contact with",
@@ -21468,7 +20467,9 @@
     "رك",
     "ضر",
     "ضل",
+    "قن",
     "كك",
+    "كن",
     "لج",
     "لغ",
     "لق",
@@ -22528,6 +21529,25 @@
     "شت",
     "شط",
     "صت"
+   ]
+  },
+  {
+   "branch": "𐌼𐌰𐌽𐌰𐍃𐌴𐌸𐍃",
+   "read": "manasēþs",
+   "gloss": "the world (human collective existence)",
+   "nuclei_found": [
+    "تس",
+    "زت",
+    "ست",
+    "سط",
+    "شت",
+    "شط",
+    "صت",
+    "من",
+    "نز",
+    "نس",
+    "نش",
+    "نص"
    ]
   },
   {
@@ -24987,7 +24007,7 @@
     "ورط",
     "ولت"
    ],
-   "root_fan_from": "بنزعِ سابقةِ `ga-`"
+   "root_fan_from": "جذعُ القاموسِ `wairþ`"
   },
   {
    "branch": "𐌲𐌰𐌿𐍂𐍃",
@@ -25124,6 +24144,22 @@
     "فسك"
    ],
    "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-ja`"
+  },
+  {
+   "branch": "𐌷𐌰𐌹𐌸𐌹",
+   "read": "haiþi",
+   "gloss": "field (land area free of woodland, cities, and towns; open country)",
+   "nuclei_found": [
+    "حت",
+    "حث",
+    "حط",
+    "خت",
+    "خط",
+    "غث",
+    "غط",
+    "هت",
+    "هط"
+   ]
   },
   {
    "branch": "𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐍃",
@@ -25717,45 +24753,6 @@
    ]
   },
   {
-   "branch": "𐌷𐌰𐌹𐌸𐌹𐍅𐌹𐍃𐌺𐍃",
-   "read": "haiþiwisks",
-   "gloss": "wild؛ pertaining to a field or heath",
-   "nuclei_found": [
-    "حت",
-    "حث",
-    "حط",
-    "خت",
-    "خط",
-    "زق",
-    "زك",
-    "سق",
-    "سك",
-    "شق",
-    "شك",
-    "صك",
-    "طو",
-    "غث",
-    "غط",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش",
-    "هت",
-    "هط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "حتو",
-    "ختو",
-    "خطو",
-    "غثو",
-    "غطو"
-   ],
-   "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-isks`"
-  },
-  {
    "branch": "𐌷𐌰𐌹𐌸𐌽𐍉",
    "read": "haiþnō",
    "gloss": "a female heathen, heatheness",
@@ -25931,6 +24928,25 @@
     "هز",
     "هش"
    ]
+  },
+  {
+   "branch": "𐌺𐌰𐌿𐍂𐌽𐍉",
+   "read": "kaurnō",
+   "gloss": "kernel (single seed or grain, especially of corn or wheat)",
+   "nuclei_found": [
+    "رن",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
+    "لن"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "قرن",
+    "كرن"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `kaurn`"
   },
   {
    "branch": "𐌺𐌰𐌿𐍂𐌽",
@@ -26225,14 +25241,52 @@
     "رش",
     "رص",
     "زت",
+    "زن",
     "ست",
     "سط",
+    "سن",
     "شت",
     "شط",
+    "شن",
     "صت",
+    "صن",
     "طب",
     "فر",
     "فل",
+    "لز",
+    "لس"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "برز",
+    "برس",
+    "برش",
+    "برص",
+    "بلز",
+    "بلس",
+    "بلش",
+    "فرز",
+    "فرس",
+    "فرش",
+    "فرص",
+    "فلز"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `fraisan` ثمّ بإسقاطِ نونِ المصدرِ -an"
+  },
+  {
+   "branch": "𐌻𐌰𐌿𐍃𐌾𐌰𐌽",
+   "read": "lausjan",
+   "gloss": "to make loose, loosen؛ to set free, deliver (from something)؛ to collect, claim, exact",
+   "nuclei_found": [
+    "جن",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "زج",
+    "سج",
+    "شج",
+    "صي",
     "لز",
     "لس"
    ]
@@ -27240,6 +26294,24 @@
    ]
   },
   {
+   "branch": "𐌻𐌰𐌹𐍃𐌾𐌰𐌽",
+   "read": "laisjan",
+   "gloss": "to teach (according to Wright, it takes the accusative case for both the thing taught and the person taught)؛ to learn",
+   "nuclei_found": [
+    "جن",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "زج",
+    "سج",
+    "شج",
+    "صي",
+    "لز",
+    "لس"
+   ]
+  },
+  {
    "branch": "𐍃𐍉𐌺𐌰𐍂𐌴𐌹𐍃",
    "read": "sōkāreis",
    "gloss": "investigator, seeker",
@@ -27850,6 +26922,27 @@
     "فل",
     "لت",
     "لط"
+   ]
+  },
+  {
+   "branch": "𐌾𐌰𐌹𐌽𐌸𐍂𐍉",
+   "read": "jainþrō",
+   "gloss": "from there",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "جن",
+    "طر",
+    "طل",
+    "نت",
+    "نث",
+    "نز",
+    "نس",
+    "نش",
+    "نص",
+    "نط"
    ]
   },
   {
@@ -29288,11 +28381,28 @@
    "read": "arjan",
    "gloss": "to plough (to use a plough)",
    "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
     "جن",
+    "رت",
+    "رث",
     "رج",
+    "رط",
+    "طر",
+    "طل",
+    "لت",
     "لج",
+    "لط",
     "لي"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "رتل",
+    "رطل"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `arotriáō`"
   },
   {
    "branch": "𐌷𐍉𐍂𐌹𐌽𐌰𐍃𐍃𐌿𐍃",
@@ -29423,6 +28533,27 @@
     "نس",
     "نش",
     "نص"
+   ]
+  },
+  {
+   "branch": "𐌽𐌰𐍃𐌾𐌰𐌽𐌳𐍃",
+   "read": "nasjands",
+   "gloss": "saviour (substantivized from the above participle)؛ the Messiah",
+   "nuclei_found": [
+    "جن",
+    "دس",
+    "زج",
+    "سج",
+    "شج",
+    "صي",
+    "ضز",
+    "ند",
+    "نذ",
+    "نز",
+    "نس",
+    "نش",
+    "نص",
+    "نض"
    ]
   },
   {
@@ -29663,6 +28794,31 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "𐌸𐍂𐌰𐌼𐍃𐍄𐌴𐌹",
+   "read": "þramstei",
+   "gloss": "grasshopper, locust (insect)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رم",
+    "زت",
+    "ست",
+    "سط",
+    "شت",
+    "شط",
+    "صت",
+    "طر",
+    "طل",
+    "لم",
+    "مز",
+    "مس",
+    "مش",
+    "مص"
+   ]
+  },
+  {
    "branch": "𐌰𐌹𐍀𐌹𐍃𐌺𐌰𐌿𐍀𐌴𐌹",
    "read": "aipiskaupei",
    "gloss": "bishopric",
@@ -29845,6 +29001,42 @@
     "نش",
     "نص"
    ]
+  },
+  {
+   "branch": "𐍆𐌹𐌳𐍅𐍉𐍂𐍄𐌰𐌹𐌷𐌿𐌽",
+   "read": "fidwōrtaihun",
+   "gloss": "fourteen (cardinal number)",
+   "nuclei_found": [
+    "بد",
+    "بذ",
+    "بض",
+    "تح",
+    "ته",
+    "ثخ",
+    "حن",
+    "خن",
+    "ذو",
+    "رت",
+    "رث",
+    "رط",
+    "ضو",
+    "طح",
+    "طغ",
+    "طه",
+    "غن",
+    "فد",
+    "فض",
+    "لت",
+    "لط",
+    "هن",
+    "ول"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "ثخن",
+    "طحن"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `taihun`"
   },
   {
    "branch": "𐍆𐌹𐌼𐍆𐍄𐌰𐌹𐌷𐌿𐌽",
@@ -30601,6 +29793,10 @@
    "read": "hlēþrastakeins",
    "gloss": "the feast of Tabernacles; Sukkot.",
    "nuclei_found": [
+    "بج",
+    "بغ",
+    "بق",
+    "بك",
     "تر",
     "تق",
     "تل",
@@ -30620,26 +29816,38 @@
     "رص",
     "رط",
     "زت",
+    "زق",
+    "زك",
     "ست",
     "سط",
+    "سق",
+    "سك",
     "شت",
     "شط",
+    "شق",
+    "شك",
     "صت",
+    "صك",
     "طر",
     "طق",
     "طل",
     "غر",
     "غل",
+    "فج",
+    "فق",
+    "فك",
     "قن",
     "كن",
     "لت",
     "لز",
     "لس",
     "لط",
+    "نب",
     "نز",
     "نس",
     "نش",
     "نص",
+    "نف",
     "هر",
     "هل"
    ],
@@ -33398,6 +32606,33 @@
    ]
   },
   {
+   "branch": "𐍃𐌹𐌽𐌰𐍀𐌹𐍃",
+   "read": "sināpis",
+   "gloss": "mustard (plant, Sinapis alba)",
+   "nuclei_found": [
+    "بز",
+    "بس",
+    "بش",
+    "بص",
+    "زن",
+    "سن",
+    "شن",
+    "صن",
+    "فز",
+    "فس",
+    "فش",
+    "فص",
+    "نب",
+    "نف"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "صنب",
+    "صنف"
+   ],
+   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
+  },
+  {
    "branch": "𐌺𐌹𐌿𐍃𐌰𐌽",
    "read": "kiusan",
    "gloss": "to prove, test",
@@ -34021,6 +33256,22 @@
    ]
   },
   {
+   "branch": "𐌾𐌿𐌽𐌳𐌰𐌹",
+   "read": "jundai",
+   "gloss": "youth (quality or state of being young)",
+   "nuclei_found": [
+    "جن",
+    "ند",
+    "نذ",
+    "نض"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جند"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "𐌺𐌰𐍂𐌰",
    "read": "kara",
    "gloss": "care, concern",
@@ -34491,6 +33742,26 @@
    "gloss": "white",
    "nuclei_found": [
     "تس"
+   ]
+  },
+  {
+   "branch": "𐌼𐌹𐌻𐌷𐌼𐌰",
+   "read": "milhma",
+   "gloss": "cloud (visible mass of water droplets suspended in the air)",
+   "nuclei_found": [
+    "حم",
+    "خم",
+    "رح",
+    "رخ",
+    "رغ",
+    "ره",
+    "غم",
+    "لح",
+    "لغ",
+    "له",
+    "مر",
+    "مل",
+    "هم"
    ]
   },
   {
@@ -35174,12 +34445,25 @@
    "read": "waurdajiuka",
    "gloss": "word-fight, logomachy, debate",
    "nuclei_found": [
+    "جم",
+    "رج",
     "رد",
     "رذ",
     "رض",
+    "رغ",
+    "رق",
+    "رك",
     "ضج",
+    "غم",
+    "قم",
+    "كم",
+    "لج",
     "لد",
     "لذ",
+    "لغ",
+    "لق",
+    "لك",
+    "مخ",
     "ول"
    ],
    "root_first": true,
@@ -36530,7 +35814,8 @@
     "قذ",
     "قص",
     "كذ",
-    "كز"
+    "كز",
+    "كن"
    ]
   },
   {
@@ -37445,6 +36730,25 @@
    ]
   },
   {
+   "branch": "𐌻𐌰𐌿𐌷𐌼𐌿𐌽𐌹",
+   "read": "lauhmuni",
+   "gloss": "lightning (flash of light)؛ any blaze of fire from heaven",
+   "nuclei_found": [
+    "حم",
+    "خم",
+    "رح",
+    "رخ",
+    "رغ",
+    "ره",
+    "غم",
+    "لح",
+    "لغ",
+    "له",
+    "من",
+    "هم"
+   ]
+  },
+  {
    "branch": "𐍆𐍉𐍄𐌿𐌱𐌰𐌽𐌳𐌹",
    "read": "fōtubandi",
    "gloss": "foot-shackle, leg-chain",
@@ -37583,6 +36887,7 @@
    "read": "þiwi",
    "gloss": "bondwoman, maid",
    "nuclei_found": [
+    "تس",
     "طو"
    ]
   },
@@ -37703,7 +37008,15 @@
     "بر",
     "بل",
     "تس",
+    "تم",
+    "ثم",
+    "حر",
+    "حل",
+    "خر",
+    "خل",
     "رب",
+    "رق",
+    "رك",
     "رن",
     "زت",
     "ست",
@@ -37711,14 +37024,26 @@
     "شت",
     "شط",
     "صت",
+    "طم",
+    "غر",
+    "غل",
+    "قت",
+    "قث",
+    "قط",
+    "كت",
+    "كث",
     "لب",
     "لز",
     "لس",
+    "لق",
+    "لك",
     "لن",
     "نز",
     "نس",
     "نش",
-    "نص"
+    "نص",
+    "هر",
+    "هل"
    ]
   },
   {
@@ -37760,6 +37085,32 @@
     "برن"
    ],
    "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-ilō`"
+  },
+  {
+   "branch": "𐌸𐌰𐌹𐍂𐌺𐍉",
+   "read": "þairkō",
+   "gloss": "eye (hole at the end of a needle through which thread is passed)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رق",
+    "رك",
+    "طر",
+    "طل",
+    "لق",
+    "لك"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "ترق",
+    "ترك",
+    "تلك",
+    "طرق",
+    "طلق"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "𐌲𐌰𐌱𐌰𐌹𐍂𐌷𐍄𐌴𐌹𐌽𐍃",
@@ -39577,6 +38928,26 @@
    ]
   },
   {
+   "branch": "𐍆𐌰𐌳𐍂𐌴𐌹𐌽",
+   "read": "fadrein",
+   "gloss": "parents (always plural in meaning, but often singular in grammatical number -- even when congruent with another plural)؛",
+   "nuclei_found": [
+    "بد",
+    "بذ",
+    "بض",
+    "در",
+    "دل",
+    "ذر",
+    "ذل",
+    "رن",
+    "ضر",
+    "ضل",
+    "فد",
+    "فض",
+    "لن"
+   ]
+  },
+  {
    "branch": "𐍆𐌰𐌳𐍂𐌴𐌹𐌽𐍃",
    "read": "fadreins",
    "gloss": "(patri-)lineage, descent, kin",
@@ -40055,11 +39426,30 @@
    "nuclei_found": [
     "تج",
     "تس",
+    "تق",
     "ثج",
+    "ثق",
+    "جر",
+    "جل",
+    "دس",
     "رت",
     "رث",
+    "رد",
+    "رذ",
+    "رض",
     "رط",
+    "ضز",
+    "طغ",
+    "طق",
+    "غر",
+    "غل",
+    "قر",
+    "قل",
+    "كر",
+    "كل",
     "لت",
+    "لد",
+    "لذ",
     "لط"
    ]
   },
@@ -41467,15 +40857,27 @@
     "بر",
     "بل",
     "جن",
+    "حن",
+    "خن",
+    "رح",
+    "رخ",
+    "رغ",
     "رن",
+    "ره",
+    "سس",
+    "غن",
     "فر",
     "فل",
+    "لح",
+    "لغ",
     "لن",
+    "له",
     "نج",
     "نز",
     "نس",
     "نش",
-    "نص"
+    "نص",
+    "هن"
    ],
    "root_first": true,
    "root_fan": [
@@ -42419,7 +41821,13 @@
     "ند",
     "نذ",
     "نض"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بست",
+    "بسط"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `bisitan` ثمّ بإسقاطِ نونِ المصدرِ -an"
   },
   {
    "branch": "𐌳𐌹𐍃𐍃𐌹𐍄𐌰𐌽",
@@ -42502,9 +41910,15 @@
    "nuclei_found": [
     "تس",
     "دث",
+    "رد",
+    "رذ",
+    "رض",
     "ضج",
     "ضد",
-    "ود"
+    "لد",
+    "لذ",
+    "ود",
+    "ول"
    ],
    "root_first": true,
    "root_fan": [
@@ -42805,6 +42219,34 @@
    ]
   },
   {
+   "branch": "𐌷𐌹𐌽𐌳𐌰𐍂𐌻𐌴𐌹𐌸𐌰𐌽",
+   "read": "hindarleiþan",
+   "gloss": "to pass by, go (away)",
+   "nuclei_found": [
+    "تن",
+    "ثن",
+    "حن",
+    "خن",
+    "در",
+    "دل",
+    "ذر",
+    "ذل",
+    "رت",
+    "رث",
+    "رط",
+    "ضر",
+    "ضل",
+    "طن",
+    "غن",
+    "لت",
+    "لط",
+    "ند",
+    "نذ",
+    "نض",
+    "هن"
+   ]
+  },
+  {
    "branch": "𐌹𐌽𐌽𐌲𐌰𐌻𐌴𐌹𐌸𐌰𐌽",
    "read": "inngaleiþan",
    "gloss": "to enter, go in",
@@ -42917,6 +42359,10 @@
    "read": "ainam",
    "gloss": "alone",
    "nuclei_found": [
+    "نز",
+    "نس",
+    "نش",
+    "نص",
     "نم"
    ]
   },
@@ -43020,6 +42466,33 @@
     "نش",
     "نص",
     "نل"
+   ]
+  },
+  {
+   "branch": "𐌰𐌹𐌽𐍈𐌰𐌸𐌰𐍂𐌿𐌷",
+   "read": "ainƕaþaruh",
+   "gloss": "each (of two)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رح",
+    "رخ",
+    "رغ",
+    "ره",
+    "طر",
+    "طل",
+    "لح",
+    "لغ",
+    "له",
+    "نت",
+    "نث",
+    "نز",
+    "نس",
+    "نش",
+    "نص",
+    "نط"
    ]
   },
   {
@@ -44296,15 +43769,38 @@
    "read": "allandjō",
    "gloss": "completely, wholly, totally, fully, entirely",
    "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "حر",
+    "حل",
+    "خر",
+    "خل",
     "دس",
+    "رت",
+    "رث",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "رط",
     "ضج",
     "ضز",
+    "طر",
+    "طل",
+    "غر",
+    "غل",
+    "لت",
     "لز",
     "لس",
+    "لط",
     "لن",
     "ند",
     "نذ",
-    "نض"
+    "نض",
+    "هر",
+    "هل"
    ]
   },
   {
@@ -46518,10 +46014,14 @@
    "gloss": "opponent, adversary",
    "nuclei_found": [
     "تج",
+    "تن",
     "ثج",
+    "ثن",
     "جز",
     "جس",
     "دس",
+    "دن",
+    "ذن",
     "زت",
     "ست",
     "سط",
@@ -46529,6 +46029,8 @@
     "شط",
     "صت",
     "ضز",
+    "ضن",
+    "طن",
     "ند",
     "نذ",
     "نض"
@@ -46663,6 +46165,8 @@
     "ذن",
     "ذو",
     "زن",
+    "سن",
+    "شن",
     "صن",
     "ضو",
     "ند",
@@ -46704,21 +46208,34 @@
    "read": "andawleizn",
    "gloss": "countenance, face",
    "nuclei_found": [
+    "تس",
     "ذن",
     "ذو",
+    "رت",
+    "رث",
     "رذ",
     "رز",
     "رص",
+    "رط",
     "زن",
     "صن",
     "ضو",
+    "لت",
     "لذ",
     "لز",
+    "لط",
     "ند",
     "نذ",
     "نض",
     "ول"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "ورث",
+    "ورط",
+    "ولت"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `wlits` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "𐌰𐍃𐌽𐌴𐌹𐍃",
@@ -46851,35 +46368,6 @@
     "بند"
    ],
    "root_fan_from": "بنزعِ سابقةِ `and-` ثمّ بإسقاطِ لاحقةِ المطاوعةِ الضعيفةِ الرابعةِ -nan"
-  },
-  {
-   "branch": "𐌰𐌽𐌳𐌷𐌰𐌼𐍉𐌽",
-   "read": "andhamōn",
-   "gloss": "to divest oneself of",
-   "nuclei_found": [
-    "حم",
-    "خم",
-    "دح",
-    "دخ",
-    "ده",
-    "ذخ",
-    "ذه",
-    "ضح",
-    "ضغ",
-    "ضه",
-    "غم",
-    "من",
-    "ند",
-    "نذ",
-    "نض",
-    "هم"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "خمن",
-    "همن"
-   ],
-   "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `and-`"
   },
   {
    "branch": "𐌰𐌽𐌳𐌹𐌶𐌿𐌷",
@@ -47403,6 +46891,14 @@
     "مث",
     "مط",
     "ود"
+   ]
+  },
+  {
+   "branch": "-𐌾𐌰𐌽",
+   "read": "-jan",
+   "gloss": "Derives denominatives from nouns and factitives from adjectives.",
+   "nuclei_found": [
+    "جن"
    ]
   },
   {
@@ -49235,12 +48731,7 @@
     "مت",
     "مث",
     "مط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رمث"
-   ],
-   "root_fan_from": "كما وردَت"
+   ]
   },
   {
    "branch": "𐌰𐍃𐍄𐌰𐌸",
@@ -49326,6 +48817,8 @@
    "read": "atligan",
    "gloss": "to be present with",
    "nuclei_found": [
+    "بر",
+    "بل",
     "تر",
     "تل",
     "ثر",
@@ -49338,7 +48831,11 @@
     "طر",
     "طل",
     "غن",
+    "فر",
+    "فل",
+    "قم",
     "قن",
+    "كم",
     "كن",
     "لج",
     "لغ",
@@ -49408,7 +48905,10 @@
    "gloss": "to turn",
    "nuclei_found": [
     "جن",
+    "دن",
+    "ذن",
     "ضج",
+    "ضن",
     "ند",
     "نذ",
     "نض",
@@ -49627,6 +49127,10 @@
    "read": "bwssaun",
    "gloss": "fine linen",
    "nuclei_found": [
+    "بز",
+    "بس",
+    "بش",
+    "بص",
     "بو",
     "زن",
     "سن",
@@ -52089,6 +51593,14 @@
    "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `us-` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
+   "branch": "𐌸𐌹𐌿𐌸",
+   "read": "þiuþ",
+   "gloss": "a boon, a good thing",
+   "nuclei_found": [
+    "تس"
+   ]
+  },
+  {
    "branch": "𐌸𐌹𐌿𐌸𐌴𐌹𐌲𐍃",
    "read": "þiuþeigs",
    "gloss": "good",
@@ -52862,7 +52374,10 @@
    "read": "ōgjan",
    "gloss": "to scare, frighten",
    "nuclei_found": [
-    "جن"
+    "جن",
+    "غن",
+    "قن",
+    "كن"
    ]
   },
   {
@@ -53111,11 +52626,28 @@
    "read": "raka",
    "gloss": "idiot, fool",
    "nuclei_found": [
+    "حق",
+    "حك",
+    "رح",
+    "رخ",
+    "رغ",
     "رق",
     "رك",
+    "ره",
+    "لح",
+    "لغ",
     "لق",
-    "لك"
-   ]
+    "لك",
+    "له"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "رحق",
+    "رهق",
+    "لحق",
+    "لهق"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `rhaká`"
   },
   {
    "branch": "𐌳𐌰𐌳𐌳𐌾𐌰𐌽",
@@ -53748,6 +53280,34 @@
     "فت",
     "فط",
     "فم"
+   ]
+  },
+  {
+   "branch": "𐍆𐌹𐌳𐍅𐍉𐍂 𐍄𐌹𐌲𐌾𐌿𐍃",
+   "read": "fidwōr tigjus",
+   "gloss": "forty (cardinal number)",
+   "nuclei_found": [
+    "بد",
+    "بذ",
+    "بض",
+    "تج",
+    "تق",
+    "ثج",
+    "ثق",
+    "جز",
+    "جس",
+    "ذو",
+    "رت",
+    "رث",
+    "رط",
+    "ضو",
+    "طغ",
+    "طق",
+    "فد",
+    "فض",
+    "لت",
+    "لط",
+    "ول"
    ]
   },
   {
@@ -55839,6 +55399,23 @@
    ]
   },
   {
+   "branch": "𐌳𐌹𐌲𐌰𐌽",
+   "read": "digan",
+   "gloss": "to shape, mold, form from earth or clay",
+   "nuclei_found": [
+    "جن",
+    "دق",
+    "ذق",
+    "ذك",
+    "ضج",
+    "ضغ",
+    "ضق",
+    "غن",
+    "قن",
+    "كن"
+   ]
+  },
+  {
    "branch": "𐌳𐌹𐌲𐌰𐌽𐍃",
    "read": "digans",
    "gloss": "earthen, made of clay",
@@ -56939,7 +56516,16 @@
     "مت",
     "مث",
     "مط"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "متر",
+    "متل",
+    "مثل",
+    "مطر",
+    "مطل"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `maþlei`"
   },
   {
    "branch": "𐌼𐌹𐌽𐍃",
@@ -57655,10 +57241,24 @@
    "gloss": "departure",
    "nuclei_found": [
     "دس",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "سس",
     "سو",
     "شو",
-    "ضز"
-   ]
+    "ضز",
+    "لز",
+    "لس",
+    "نر",
+    "نل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "نرز"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `análusis` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "𐌳𐍂𐌰𐌹𐌱𐌾𐌰𐌽",
@@ -57666,6 +57266,7 @@
    "gloss": "to trouble, bother, badger؛ to drive",
    "nuclei_found": [
     "بج",
+    "بن",
     "جن",
     "در",
     "دل",
@@ -57682,7 +57283,7 @@
     "دلب",
     "ضرب"
    ],
-   "root_fan_from": "بإسقاطِ نونِ مصدرِ الضعيفِ الأوّلِ -jan"
+   "root_fan_from": "جذعُ القاموسِ `dreiban` ثمّ بإسقاطِ نونِ المصدرِ -an"
   },
   {
    "branch": "𐌳𐍂𐌹𐌿𐌲𐌰𐌽",
@@ -57854,33 +57455,32 @@
     "تس",
     "جر",
     "جل",
+    "دن",
+    "ذن",
     "رت",
     "رث",
     "رط",
+    "ضن",
     "غر",
     "غل",
+    "قد",
+    "قذ",
     "قر",
+    "قض",
     "قل",
+    "كد",
+    "كذ",
     "كر",
     "كل",
     "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرث",
-    "جرط",
-    "جلط",
-    "غلث",
-    "غلط",
-    "قرت",
-    "قرث",
-    "قرط",
-    "قلط",
-    "كرت",
-    "كرث"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
+    "لط",
+    "مق",
+    "مك",
+    "نز",
+    "نس",
+    "نش",
+    "نص"
+   ]
   },
   {
    "branch": "𐌳𐍂𐍉𐌱𐌾𐌰𐌽",
@@ -59419,10 +59019,14 @@
     "صف",
     "غز",
     "غص",
+    "فر",
+    "فل",
     "قذ",
     "قص",
+    "قن",
     "كذ",
     "كز",
+    "كن",
     "لق",
     "لك",
     "ول"
@@ -59485,6 +59089,33 @@
     "كلك"
    ],
    "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `faura-` ثمّ بإسقاطِ نونِ المصدرِ -an"
+  },
+  {
+   "branch": "𐍄𐍂𐌹𐍅𐌴𐌹𐌽𐍃",
+   "read": "triweins",
+   "gloss": "wooden (made of wood)",
+   "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "رو",
+    "طر",
+    "طل",
+    "لو",
+    "نز",
+    "نس",
+    "نش",
+    "نص",
+    "ون"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "تلو",
+    "ثرو",
+    "طرو"
+   ],
+   "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-eins`"
   },
   {
    "branch": "𐍅𐍂𐌹𐍄𐍃",
@@ -60245,6 +59876,7 @@
    "gloss": "good reputation",
    "nuclei_found": [
     "رم",
+    "فم",
     "لم",
     "مر",
     "مل",
@@ -60476,7 +60108,13 @@
     "ند",
     "نذ",
     "نض"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "تلز",
+    "طرز"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `talzjan` ثمّ بإسقاطِ نونِ مصدرِ الضعيفِ الأوّلِ -jan"
   },
   {
    "branch": "𐌿𐌽𐌲𐌰𐍄𐌰𐍃𐍃𐌰𐌱𐌰",
@@ -61699,7 +61337,12 @@
     "لز",
     "لس",
     "لط"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بلط"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `balþei`"
   },
   {
    "branch": "𐌿𐍂𐍂𐌰𐌹𐍃𐌾𐌰𐌽",
@@ -63198,6 +62841,33 @@
    ]
   },
   {
+   "branch": "𐌹𐍃𐍂𐌰𐌴𐌻",
+   "read": "israēl",
+   "gloss": "Israel (a Biblical region of Western Asia roughly coextensive with the modern State of Israel, known in the Bible as the",
+   "nuclei_found": [
+    "زر",
+    "زل",
+    "سر",
+    "سل",
+    "شر",
+    "صر",
+    "صل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "زرر",
+    "زلل",
+    "سرر",
+    "سرل",
+    "سلر",
+    "سلل",
+    "شرر",
+    "شلل",
+    "صرر"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "𐌲𐌰𐍃𐌹𐌽𐌸𐌰",
    "read": "gasinþa",
    "gloss": "companion",
@@ -64290,17 +63960,28 @@
     "بد",
     "بذ",
     "بض",
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
     "جن",
+    "خز",
+    "خس",
+    "خش",
+    "خص",
     "در",
     "دل",
     "ذر",
     "ذل",
     "رج",
+    "رخ",
     "رغ",
     "رق",
     "رك",
     "ضر",
     "ضل",
+    "طر",
+    "طل",
     "غن",
     "فد",
     "فض",
@@ -64794,14 +64475,20 @@
     "بش",
     "بص",
     "بل",
+    "تم",
+    "ثم",
     "جر",
     "جل",
     "رب",
+    "رت",
+    "رث",
     "رج",
+    "رط",
     "رغ",
     "رف",
     "رق",
     "رك",
+    "طم",
     "غر",
     "غل",
     "فر",
@@ -64815,11 +64502,17 @@
     "كر",
     "كل",
     "لب",
+    "لت",
     "لج",
+    "لط",
     "لغ",
     "لف",
     "لق",
-    "لك"
+    "لك",
+    "مز",
+    "مس",
+    "مش",
+    "مص"
    ],
    "root_first": true,
    "root_fan": [
@@ -66338,6 +66031,33 @@
    "root_fan_from": "كما وردَت"
   },
   {
+   "branch": "𐍆𐍂𐌴𐌹𐌳𐌾𐌰𐌽",
+   "read": "freidjan",
+   "gloss": "to spare (preserve from danger or punishment)؛ to spare؛ to forbear, spare",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "جن",
+    "رد",
+    "رذ",
+    "رض",
+    "ضج",
+    "فر",
+    "فل",
+    "لد",
+    "لذ"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "برد",
+    "برض",
+    "بلد",
+    "فرد",
+    "فرض"
+   ],
+   "root_fan_from": "بإسقاطِ نونِ مصدرِ الضعيفِ الأوّلِ -jan"
+  },
+  {
    "branch": "𐌲𐌰𐌳𐍉𐌼𐌾𐌰𐌽",
    "read": "gadōmjan",
    "gloss": "to deem, consider, reckon",
@@ -66634,24 +66354,60 @@
    "nuclei_found": [
     "بر",
     "بل",
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
     "جث",
+    "جز",
+    "جس",
     "دس",
     "رت",
     "رث",
     "رج",
     "رد",
     "رذ",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
     "رض",
     "رط",
+    "رغ",
+    "رق",
+    "رك",
+    "زت",
+    "ست",
+    "سط",
+    "شت",
+    "شط",
+    "صت",
     "ضز",
+    "طر",
+    "طل",
     "طو",
+    "غز",
+    "غس",
+    "غش",
+    "غص",
     "فر",
     "فل",
+    "قس",
+    "قش",
+    "قص",
+    "كز",
+    "كس",
+    "كش",
     "لت",
     "لج",
     "لد",
     "لذ",
+    "لز",
+    "لس",
     "لط",
+    "لغ",
+    "لق",
+    "لك",
     "لي",
     "مر",
     "مل"
@@ -68560,8 +68316,11 @@
    "nuclei_found": [
     "بن",
     "تب",
+    "تن",
     "ثب",
-    "طب"
+    "ثن",
+    "طب",
+    "طن"
    ]
   },
   {
@@ -68690,6 +68449,42 @@
    ]
   },
   {
+   "branch": "𐌲𐌰𐌱𐌰𐌿𐌰𐌽",
+   "read": "gabauan",
+   "gloss": "to lodge (stay in any place or shelter)",
+   "nuclei_found": [
+    "بن",
+    "جب",
+    "غب",
+    "قب",
+    "كب"
+   ]
+  },
+  {
+   "branch": "𐌲𐌰𐌱𐌰𐌿𐍂",
+   "read": "gabaur",
+   "gloss": "tribute؛ collection (gathering of money for charitable or other purposes)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "جب",
+    "غب",
+    "قب",
+    "كب"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جبر",
+    "جبل",
+    "غبر",
+    "قبر",
+    "قبل",
+    "كبر",
+    "كبل"
+   ],
+   "root_fan_from": "كما وردَت"
+  },
+  {
    "branch": "𐌲𐌰𐌱𐌰𐌿𐍂",
    "read": "gabaur",
    "gloss": "reveling, carousing",
@@ -68720,15 +68515,27 @@
    "nuclei_found": [
     "بر",
     "بل",
+    "تس",
     "جب",
+    "رت",
+    "رث",
     "رج",
+    "رط",
     "رغ",
     "رق",
     "رك",
+    "زم",
+    "سم",
+    "شم",
+    "صم",
     "غب",
+    "فر",
+    "فل",
     "قب",
     "كب",
+    "لت",
     "لج",
+    "لط",
     "لغ",
     "لق",
     "لك"
@@ -68944,6 +68751,19 @@
     "قبج"
    ],
    "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-nan`"
+  },
+  {
+   "branch": "𐌱𐌰𐌻𐌾𐍉𐌽",
+   "read": "baljōn",
+   "gloss": "to roar (of animals, to make a loud deep noise)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "جن",
+    "رج",
+    "لج",
+    "لي"
+   ]
   },
   {
    "branch": "𐌳𐌰𐌽𐌹𐌴𐌻",
@@ -69375,6 +69195,41 @@
     "كفح"
    ],
    "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-ba`"
+  },
+  {
+   "branch": "𐌲𐌰𐍆𐍂𐌰𐌸𐌾𐌴𐌹",
+   "read": "gafraþjei",
+   "gloss": "sobriety (quality or state of being grave or earnestly thoughtful)",
+   "nuclei_found": [
+    "بر",
+    "بل",
+    "تج",
+    "ثج",
+    "جب",
+    "جف",
+    "جن",
+    "رت",
+    "رث",
+    "رط",
+    "غب",
+    "غف",
+    "فر",
+    "فل",
+    "قب",
+    "قف",
+    "كب",
+    "كف",
+    "لت",
+    "لط"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بلط",
+    "فرث",
+    "فرط",
+    "فلت"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `fraþjan` ثمّ بإسقاطِ نونِ مصدرِ الضعيفِ الأوّلِ -jan"
   },
   {
    "branch": "𐌲𐌰𐍆𐍂𐌹𐍃𐌰𐌷𐍄𐌾𐌰𐌽",
@@ -71010,7 +70865,7 @@
     "خلس",
     "خلص"
    ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
+   "root_fan_from": "جذعُ القاموسِ `haíresis` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "𐌷𐌰𐍂𐌳𐌿𐌷𐌰𐌹𐍂𐍄𐌴𐌹",
@@ -71140,10 +70995,13 @@
    "read": "sibakþani",
    "gloss": "forsaken me (said by Jesus on the cross)",
    "nuclei_found": [
+    "بخ",
     "بق",
     "بك",
     "تن",
     "ثن",
+    "خت",
+    "خط",
     "زب",
     "سب",
     "شب",
@@ -72653,6 +72511,40 @@
    "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `ga-` ثمّ بإسقاطِ نونِ مصدرِ الضعيفِ الأوّلِ -jan"
   },
   {
+   "branch": "𐌷𐍂𐌿𐌺𐌾𐌰𐌽",
+   "read": "hrūkjan",
+   "gloss": "to crow (to make the sound of a rooster)",
+   "nuclei_found": [
+    "جن",
+    "حر",
+    "حل",
+    "خر",
+    "خل",
+    "رق",
+    "رك",
+    "غر",
+    "غل",
+    "لق",
+    "لك",
+    "هر",
+    "هل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "حرق",
+    "حرك",
+    "حلق",
+    "حلك",
+    "خرق",
+    "خلق",
+    "غرق",
+    "غلق",
+    "هرق",
+    "هلك"
+   ],
+   "root_fan_from": "بنزعِ اللاحقةِ المسمّاةِ `-jan`"
+  },
+  {
    "branch": "𐌷𐍂𐌿𐌺",
    "read": "hrūk",
    "gloss": "crow (cry of the rooster)",
@@ -72901,6 +72793,23 @@
    "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `ga-` ثمّ بإسقاطِ نونِ مصدرِ الضعيفِ الأوّلِ -jan"
   },
   {
+   "branch": "𐍄𐌿𐌽𐌳𐌽𐌰𐌽",
+   "read": "tundnan",
+   "gloss": "to be on fire (being burned by fire)",
+   "nuclei_found": [
+    "تن",
+    "ثن",
+    "دن",
+    "ذن",
+    "ضن",
+    "طن",
+    "ند",
+    "نذ",
+    "نض",
+    "نن"
+   ]
+  },
+  {
    "branch": "𐌹𐌽𐍄𐌿𐌽𐌳𐌽𐌰𐌽",
    "read": "intundnan",
    "gloss": "to burn up (catch fire and burn until destroyed)",
@@ -73112,15 +73021,7 @@
     "كر",
     "كل",
     "لب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "قرب",
-    "قلب",
-    "كرب",
-    "كلب"
-   ],
-   "root_fan_from": "بإسقاطِ نونِ المصدرِ -an"
+   ]
   },
   {
    "branch": "𐌺𐌰𐌿𐍂𐌱𐌰𐌿𐌽𐌰𐍃",
@@ -74008,7 +73909,23 @@
     "كش",
     "لج",
     "لي"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "زرج",
+    "زري",
+    "زلج",
+    "زلي",
+    "سرج",
+    "سري",
+    "سلي",
+    "شرج",
+    "شري",
+    "شلج",
+    "صرج",
+    "صري"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `sulja`"
   },
   {
    "branch": "𐌲𐌰𐍄𐌰𐌿𐍂𐌰",
@@ -74639,14 +74556,30 @@
     "بل",
     "جن",
     "دس",
+    "رج",
     "رد",
     "رذ",
     "رض",
+    "رغ",
+    "رق",
+    "رك",
     "رو",
     "ضج",
     "ضز",
+    "غن",
+    "قر",
+    "قل",
+    "قن",
+    "كر",
+    "كك",
+    "كل",
+    "كن",
+    "لج",
     "لد",
     "لذ",
+    "لغ",
+    "لق",
+    "لك",
     "لو",
     "ول"
    ]
@@ -74997,8 +74930,12 @@
    "nuclei_found": [
     "جن",
     "حج",
+    "حم",
     "حي",
+    "خم",
+    "غم",
     "هج",
+    "هم",
     "هه"
    ]
   },
@@ -75089,8 +75026,19 @@
    "gloss": "anew, afresh, from the beginning",
    "nuclei_found": [
     "بن",
-    "فن"
-   ]
+    "تن",
+    "ثن",
+    "طن",
+    "فن",
+    "نت",
+    "نث",
+    "نط"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "نتن"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `ánōthen`"
   },
   {
    "branch": "𐍃𐌰𐌱𐌰𐌹𐌻𐌻𐌹𐌿𐍃",
@@ -75689,14 +75637,30 @@
     "ذر",
     "ذل",
     "رج",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
     "ضر",
     "ضل",
     "لج",
+    "لز",
+    "لس",
     "لي",
     "ند",
     "نذ",
     "نض"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "ندر",
+    "ندل",
+    "نذر",
+    "نذل",
+    "نضر",
+    "نضل"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `undar`"
   },
   {
    "branch": "𐌼𐌹𐌸𐌼𐌰𐍄𐌾𐌰𐌽",
@@ -76089,6 +76053,53 @@
    ]
   },
   {
+   "branch": "𐌰𐌷𐍄𐌰𐌿𐍄𐌴𐌷𐌿𐌽𐌳 𐌾𐌰𐌷 𐍆𐌹𐌳𐍅𐍉𐍂",
+   "read": "ahtautēhund jah fidwōr",
+   "gloss": "eighty-four (cardinal number)",
+   "nuclei_found": [
+    "بد",
+    "بذ",
+    "بض",
+    "تح",
+    "ته",
+    "ثخ",
+    "جح",
+    "جه",
+    "حب",
+    "حت",
+    "حث",
+    "حط",
+    "حف",
+    "حن",
+    "خب",
+    "خت",
+    "خط",
+    "خف",
+    "خن",
+    "ذو",
+    "ضج",
+    "ضو",
+    "طح",
+    "طغ",
+    "طه",
+    "غب",
+    "غث",
+    "غط",
+    "غف",
+    "غن",
+    "فد",
+    "فض",
+    "ند",
+    "نذ",
+    "نض",
+    "هب",
+    "هت",
+    "هط",
+    "هن",
+    "ول"
+   ]
+  },
+  {
    "branch": "𐍄𐍅𐌰 𐌷𐌿𐌽𐌳𐌰",
    "read": "twa hunda",
    "gloss": "two hundred (cardinal number)",
@@ -76288,6 +76299,37 @@
     "طوس"
    ],
    "root_fan_from": "كلمةُ «twōs» من العبارة"
+  },
+  {
+   "branch": "𐍆𐌹𐌳𐍅𐍉𐍂 𐌸𐌿𐍃𐌿𐌽𐌳𐌾𐍉𐍃",
+   "read": "fidwōr þūsundjōs",
+   "gloss": "four thousand (cardinal number)",
+   "nuclei_found": [
+    "بد",
+    "بذ",
+    "بض",
+    "تس",
+    "جز",
+    "جس",
+    "ذو",
+    "رت",
+    "رث",
+    "رط",
+    "زن",
+    "سن",
+    "شن",
+    "صن",
+    "ضج",
+    "ضو",
+    "فد",
+    "فض",
+    "لت",
+    "لط",
+    "ند",
+    "نذ",
+    "نض",
+    "ول"
+   ]
   },
   {
    "branch": "𐍆𐌹𐌼𐍆 𐌸𐌿𐍃𐌿𐌽𐌳𐌾𐍉𐍃",
@@ -78394,6 +78436,8 @@
     "جس",
     "ذن",
     "زن",
+    "سن",
+    "شن",
     "صن",
     "غز",
     "غس",
@@ -78873,52 +78917,6 @@
    "root_fan_from": "بإسقاطِ نونِ مصدرِ الضعيفِ الأوّلِ -jan"
   },
   {
-   "branch": "𐌲𐍂𐌹𐌽𐌳𐌰𐍆𐍂𐌰𐌸𐌾𐌹𐍃",
-   "read": "grindafraþjis",
-   "gloss": "faint-hearted, timid, demoralized",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تج",
-    "ثج",
-    "جر",
-    "جز",
-    "جس",
-    "جل",
-    "دب",
-    "دف",
-    "ذب",
-    "رت",
-    "رث",
-    "رط",
-    "رن",
-    "ضب",
-    "ضف",
-    "غر",
-    "غل",
-    "فر",
-    "فل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لت",
-    "لط",
-    "لن",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بلط",
-    "فرث",
-    "فرط",
-    "فلت"
-   ],
-   "root_fan_from": "جذعُ القاموسِ `fraþi`"
-  },
-  {
    "branch": "𐌷𐌰𐌼𐍆𐍃",
    "read": "hamfs",
    "gloss": "maimed",
@@ -79135,7 +79133,13 @@
     "طم",
     "فت",
     "فط"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بطم",
+    "فطم"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `aftuma`"
   },
   {
    "branch": "𐌿𐍃𐍃𐌰𐌺𐌰𐌽",
@@ -79418,9 +79422,28 @@
     "بت",
     "بث",
     "بط",
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "طر",
+    "طل",
     "فت",
     "فط"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بتر",
+    "بتل",
+    "بثر",
+    "بطر",
+    "بطل",
+    "فتر",
+    "فتل",
+    "فثر",
+    "فطر"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `aftra`"
   },
   {
    "branch": "𐌹𐌽𐌻𐌹𐌿𐌷𐍄𐌾𐌰𐌽",
@@ -79696,7 +79719,14 @@
    "read": "lausawaurds",
    "gloss": "talking vainly, speaking idly",
    "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "جز",
+    "جس",
     "دس",
+    "رج",
     "رد",
     "رذ",
     "رز",
@@ -79704,13 +79734,35 @@
     "رش",
     "رص",
     "رض",
+    "رغ",
+    "رق",
+    "رك",
     "سو",
     "شو",
     "ضز",
+    "طر",
+    "طل",
+    "غز",
+    "غس",
+    "غش",
+    "غص",
+    "قس",
+    "قش",
+    "قص",
+    "كز",
+    "كس",
+    "كش",
+    "لج",
     "لد",
     "لذ",
     "لز",
     "لس",
+    "لغ",
+    "لق",
+    "لك",
+    "مت",
+    "مث",
+    "مط",
     "ول"
    ],
    "root_first": true,
@@ -79725,7 +79777,12 @@
    "read": "lausawaurdei",
    "gloss": "vain jangling",
    "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
     "دس",
+    "رج",
     "رد",
     "رذ",
     "رز",
@@ -79733,13 +79790,25 @@
     "رش",
     "رص",
     "رض",
+    "رغ",
+    "رق",
+    "رك",
     "سو",
     "شو",
     "ضز",
+    "طر",
+    "طل",
+    "لج",
     "لد",
     "لذ",
     "لز",
     "لس",
+    "لغ",
+    "لق",
+    "لك",
+    "مت",
+    "مث",
+    "مط",
     "ول"
    ]
   },
@@ -79759,10 +79828,14 @@
     "سو",
     "شو",
     "ضز",
+    "فن",
+    "قن",
+    "كن",
     "لد",
     "لذ",
     "لز",
     "لس",
+    "نف",
     "ول"
    ]
   },
@@ -81762,15 +81835,22 @@
    "read": "gamiþsandjan",
    "gloss": "to send together with",
    "nuclei_found": [
+    "بن",
     "تس",
     "جم",
     "جن",
+    "زم",
     "زن",
+    "سم",
     "سن",
+    "شم",
     "شن",
+    "صم",
     "صن",
     "ضج",
     "غم",
+    "فم",
+    "فن",
     "قم",
     "كم",
     "مت",
@@ -82176,12 +82256,25 @@
    "nuclei_found": [
     "تن",
     "ثن",
+    "زن",
+    "سن",
+    "شن",
+    "صن",
     "طن",
     "طو",
     "مت",
     "مث",
-    "مط"
-   ]
+    "مط",
+    "ند",
+    "نذ",
+    "نض"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "زند",
+    "سند"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `súnoida`"
   },
   {
    "branch": "𐌼𐌹𐌸𐍅𐌹𐍃𐌰𐌽",
@@ -82321,13 +82414,45 @@
    "read": "unmildeis",
    "gloss": "not mild; unkind",
    "nuclei_found": [
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "جز",
+    "جس",
     "دس",
+    "رج",
     "رد",
     "رذ",
     "رض",
+    "رغ",
+    "رق",
+    "رك",
+    "زت",
+    "ست",
+    "سط",
+    "شت",
+    "شط",
+    "صت",
     "ضز",
+    "طر",
+    "طل",
+    "غز",
+    "غس",
+    "غش",
+    "غص",
+    "قس",
+    "قش",
+    "قص",
+    "كز",
+    "كس",
+    "كش",
+    "لج",
     "لد",
     "لذ",
+    "لغ",
+    "لق",
+    "لك",
     "مر",
     "مل",
     "نم"
@@ -82734,7 +82859,10 @@
     "شت",
     "شط",
     "صت",
-    "نج"
+    "فت",
+    "فط",
+    "نج",
+    "نف"
    ],
    "root_first": true,
    "root_fan": [
@@ -83499,9 +83627,33 @@
    "nuclei_found": [
     "بر",
     "بل",
+    "بن",
     "بو",
+    "حب",
+    "حف",
+    "خب",
+    "خف",
+    "در",
+    "دل",
+    "ذر",
+    "ذل",
+    "رز",
+    "رس",
+    "رش",
+    "رص",
+    "ضر",
+    "ضل",
+    "غب",
+    "غف",
     "فر",
     "فل",
+    "فن",
+    "لز",
+    "لس",
+    "ند",
+    "نذ",
+    "نض",
+    "هب",
     "ول"
    ]
   },
@@ -83673,6 +83825,31 @@
     "نص",
     "ون"
    ]
+  },
+  {
+   "branch": "𐌰𐌱𐌹𐌰𐌸𐌰𐍂",
+   "read": "abiaþar",
+   "gloss": "Abiathar (Biblical character)",
+   "nuclei_found": [
+    "بت",
+    "بث",
+    "بط",
+    "تر",
+    "تل",
+    "ثر",
+    "ثل",
+    "طر",
+    "طل"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "بتر",
+    "بتل",
+    "بثر",
+    "بطر",
+    "بطل"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "𐌰𐌳𐌰𐌼",
@@ -84131,8 +84308,17 @@
     "تج",
     "ثج",
     "جز",
-    "جس"
-   ]
+    "جس",
+    "جن"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "تين",
+    "ثين",
+    "طجن",
+    "طين"
+   ],
+   "root_fan_from": "جذعُ القاموسِ `taujan`"
   },
   {
    "branch": "𐌿𐌱𐌹𐌻𐍄𐍉𐌾𐌹𐍃",
@@ -84167,8 +84353,20 @@
     "بث",
     "بط",
     "تس",
+    "رق",
+    "رك",
     "فت",
-    "فط"
+    "فط",
+    "قس",
+    "قش",
+    "قص",
+    "كز",
+    "كس",
+    "كش",
+    "لق",
+    "لك",
+    "نر",
+    "نل"
    ]
   },
   {
@@ -84711,10 +84909,17 @@
    "gloss": "bad reputation",
    "nuclei_found": [
     "جم",
+    "دس",
     "رز",
     "رس",
     "رش",
     "رص",
+    "زف",
+    "سف",
+    "شف",
+    "صف",
+    "ضز",
+    "فم",
     "لز",
     "لس",
     "مر",
@@ -84730,9 +84935,11 @@
     "ثن",
     "جر",
     "جل",
+    "دس",
     "رد",
     "رذ",
     "رض",
+    "ضز",
     "طن",
     "غر",
     "غل",
@@ -84761,7 +84968,7 @@
     "كرد",
     "كلد"
    ],
-   "root_fan_from": "كلمةُ «gardei» من العبارة"
+   "root_fan_from": "جذعُ القاموسِ `gards` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "𐌸𐌰𐌽𐌽𐌿",
@@ -84905,10 +85112,14 @@
    "read": "skaps",
    "gloss": "creator",
    "nuclei_found": [
+    "بج",
     "بز",
     "بس",
     "بش",
     "بص",
+    "جز",
+    "جس",
+    "جن",
     "زق",
     "زك",
     "سق",
@@ -84916,23 +85127,27 @@
     "شق",
     "شك",
     "صك",
+    "غز",
+    "غس",
+    "غش",
+    "غص",
+    "فج",
     "فز",
     "فس",
     "فش",
     "فص",
+    "في",
     "قب",
+    "قس",
+    "قش",
+    "قص",
     "قف",
     "كب",
+    "كز",
+    "كس",
+    "كش",
     "كف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سقف",
-    "سكب",
-    "سكف",
-    "شقف"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
+   ]
   },
   {
    "branch": "𐌸𐌰𐍂𐌿𐌷",

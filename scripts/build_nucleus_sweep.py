@@ -40,6 +40,7 @@ LEXICONS = ROOT / "data" / "branch-lexicons"
 
 STOP = {
     "the", "a", "an", "of", "to", "or", "and", "in", "on", "for", "with",
+    "from", "above", "below", "participle", "substantivized",
     "by", "at", "as", "is", "be", "was", "are", "it", "its", "one", "who",
     "that", "which", "used", "form", "type", "kind", "any", "some", "etc",
     "especially", "usually", "often", "made", "making", "person", "thing",
@@ -147,6 +148,9 @@ def named_affixes(etym: str) -> tuple[list[str], list[str]]:
     return pres, sufs
 
 
+RX_FORMREF = re.compile(r"\bof\s+[^()]*?\(([^()]{1,40})\)")
+
+
 def decomp_parts(etym: str) -> tuple[list[str], bool]:
     """قطعُ تفكيكِ القاموسِ نصًّا: (الأجذاعُ، أوُجِدَ تفكيكٌ أصلًا).
     المعوَّلُ عليه الرومنةُ بينَ قوسَينِ حولَ علامةِ + كما تكتبُها المداخلُ
@@ -154,8 +158,18 @@ def decomp_parts(etym: str) -> tuple[list[str], bool]:
     تبدأُ بها، وما سواهما جذعٌ. والمحلّلُ القديمُ كانَ يمسكُ نمطَ
     `X + -suffix` وحدَه فيفوتُه `ga- + ains + -ān` الثلاثيُّ (عطبُ مسبارِ
     D الرابعِ في gaainān)."""
-    if not etym or "+" not in etym:
+    if not etym:
         return [], False
+    # صيغُ الإحالةِ تسمّي لمّتَها بينَ قوسَينِ بعدَ of (مسبارُ D التاسعُ
+    # NUC-GOTHIC-00017: nasjands اسمُ فاعلِ nasjan فاللمّةُ جذعُها)
+    ref_stems = []
+    for raw_ref in RX_FORMREF.findall(etym):
+        tok = raw_ref.split("/")[0].split(",")[0].strip().strip("*").strip()
+        if (tok and RX_ROMAN.fullmatch(tok) and len(tok) >= 3
+                and not tok.startswith("-") and not tok.endswith("-")):
+            ref_stems.append(tok)
+    if "+" not in etym:
+        return ref_stems, bool(ref_stems)
     clause = next((s for s in re.split(r"[.;]", etym) if "+" in s), "")
     toks = []
     for raw_tok in RX_PAREN.findall(clause):
@@ -168,6 +182,9 @@ def decomp_parts(etym: str) -> tuple[list[str], bool]:
     stems = [tok for tok in toks
              if not tok.startswith("-") and not tok.endswith("-")
              and len(tok) >= 3]
+    for r in ref_stems:
+        if r not in stems:
+            stems.append(r)
     return stems, True
 
 
@@ -210,6 +227,8 @@ def skeleton_variants(text: str, script: str,
             _push_with_compose(low_f[len(pf):],
                                f"بنزعِ السابقةِ المسمّاةِ `{pre}-`", "named")
     for st in stems:
+        if _fold_roman(st) == low_f:
+            continue
         sk = F.skeleton(st, script)
         if sk:
             out.append((sk, f"جذعُ القاموسِ `{st}`", "stem"))
@@ -306,7 +325,9 @@ def main() -> int:
         hits = {n: how for n, how in cands.items() if n in nuclei}
         if not hits:
             continue
-        gtoks = words_of(gloss)
+        # الأقواسُ الشرحيّةُ الصرفيّةُ في المعنى ليست معنًى فلا تدخلُ
+        # طريقَ الدلالةِ (from تسرّبَت من قوسِ nasjands إلى طريقِ event)
+        gtoks = words_of(re.sub(r"\([^()]*\)", " ", gloss))
         best = None
         for n, how in hits.items():
             via = []
