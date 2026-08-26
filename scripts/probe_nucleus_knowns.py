@@ -22,9 +22,6 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import build_nucleus_sweep as NS  # noqa: E402
 import fan_any_script as F  # noqa: E402
 
-CORE = ("-an", "-jan", "-nan", "سينِ الإعرابِ")
-
-
 def root_first_fan(word: str, etym: str, lang: str,
                    table: dict, tri: set) -> tuple | None:
     """محاكاةُ قرارِ «الجذرِ أوّلًا» كما في main، حرفًا بحرف."""
@@ -40,19 +37,14 @@ def root_first_fan(word: str, etym: str, lang: str,
         if lang not in NS.GERMANIC_LANGS:
             return False
         if any(l.startswith(labels[i] + " ثمّ")
-               and any(mk in l.split(" ثمّ ")[-1] for mk in CORE)
+               and NS.strip_is_certain(l)
                for l in labels):
             return True
-        PRE_MARKS = ("بنزعِ سابقتِه", "بنزعِ السابقةِ")
-        def certain(j: int) -> bool:
-            lab = labels[j]
-            return (any(mk in lab.split(" ثمّ ")[-1] for mk in CORE)
-                    or any(mk in lab for mk in PRE_MARKS))
         return any(j != i and fams[j] == fams[i]
                    and len(keys[j]) < len(keys[i])
                    and (keys[i].startswith(keys[j])
                         or keys[i].endswith(keys[j]))
-                   and certain(j)
+                   and NS.strip_is_certain(labels[j])
                    for j in range(len(variants)))
 
     for i, (tsk, vlabel, tier) in enumerate(variants):
@@ -131,6 +123,11 @@ def main() -> int:
           has and "nasjan" in stems and lead[2] == "stem"
           and "from" not in gtoks,
           "لمة اسم الفاعل جذع يتصدر، وfrom الشرحية لا تدخل طريق المعنى")
+
+    # 13: نهاية التصريف -on يقين من الجدول الموسوم نفسه (ushulon)
+    rf = root_first_fan("ushulōn", etym_of("ushulōn"), "gothic", table, tri)
+    check("ushulon", rf is None,
+          "هرن وهلن ترثان نون نهاية التصريف -on؛ لا وسم جذر")
 
     # 11ب: جذع ganauhan غير المنزوع لا يتصدر بجنح الوارثة جيم ga-
     rf = root_first_fan("ganauha", etym_of("ganauha"), "gothic", table, tri)

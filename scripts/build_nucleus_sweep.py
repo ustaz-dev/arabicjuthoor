@@ -114,6 +114,21 @@ MADD_MIDDLE = {"w", "y"}
 # الفارسيّةُ ونحوُها فنونُ آخرِها قد تكونُ أصلًا (saman) فلا تُحجَبُ صورتُها
 GERMANIC_LANGS = {"gothic", "old_norse", "english_old", "english_middle"}
 
+# علاماتُ النزعِ اليقينيِّ تُستمَدُّ من جدولِ اللواحقِ الموسومِ نفسِه
+# (مسبارُ D الثاني عشر: النسخةُ اليدويّةُ الجزئيّةُ فاتَتها -on)، ومعها
+# نزوعُ القاموسِ المسمّاةُ والسوابقُ فكلُّها صرفٌ منصوصٌ عليه
+CERTAIN_SUFFIX_MARKS = tuple(
+    why for end, why in F.OLD_ENGLISH_ENDINGS if end in F.CERTAIN_ENDINGS
+) + ("بنزعِ اللاحقةِ المسمّاةِ",)
+CERTAIN_PREFIX_MARKS = ("بنزعِ سابقتِه", "بنزعِ السابقةِ", "بنزعِ سابقةِ")
+
+
+def strip_is_certain(label: str) -> bool:
+    """هل آخرُ نزعٍ في هذه الصورةِ صرفٌ يقينيٌّ لا مطابقةٌ عارضة؟"""
+    seg = label.split(" ثمّ ")[-1]
+    return (any(m in seg for m in CERTAIN_SUFFIX_MARKS)
+            or any(m in seg for m in CERTAIN_PREFIX_MARKS))
+
 GERMANIC_PREFIXES = ("ufar", "faur", "mith", "and", "fra", "dis", "ga",
                      "us", "bi", "af", "at", "in", "un", "ur", "uf")
 
@@ -262,7 +277,9 @@ def skeleton_variants(text: str, script: str,
                             out.append((ssk, f"{base_lab} ثمّ {slab}", "stem"))
                     break
     if script in {"latin", "germanic"}:
-        low = text.strip().lower()
+        # السطحُ يُطوى قبلَ النزعِ وإلّا بقيَت المدّةُ تمنعُ مطابقةَ اللاحقةِ
+        # (ushulōn بقيَت hulōn فلم يولَدِ ابنُ -on الحاجبُ؛ مسبارُ D الثاني عشر)
+        low = _fold_roman(text.strip())
         for pre in GERMANIC_PREFIXES:
             if low.startswith(pre) and len(low) - len(pre) >= 3:
                 rem = low[len(pre):]
@@ -398,25 +415,17 @@ def main() -> int:
             d-b ينوبُ عن d-b-n)."""
             if args.lang not in GERMANIC_LANGS:
                 return False
-            CORE = ("-an", "-jan", "-nan", "سينِ الإعرابِ")
             if any(l.startswith(v_labels[i] + " ثمّ")
-                   and any(m in l.split(" ثمّ ")[-1] for m in CORE)
+                   and strip_is_certain(l)
                    for l in v_labels):
                 return True
-            # الحجبُ بالأختِ الأعمقِ بنفسِ قيدِ اليقين (درسُ ققم: مطابقةُ
-            # لاحقةٍ اسميّةٍ عارضةٍ كـ-um في qum الأصليّةِ لا تحجب)
-            # الخاتمةُ كالبادئةِ: نزعُ السابقةِ يقصُّ من أوّلِ الهيكلِ
-            # فيكونُ الابنُ خاتمةَ أبيه لا بادئتَه (درسُ ganauha)
-            PRE_MARKS = ("بنزعِ سابقتِه", "بنزعِ السابقةِ")
-            def certain(j: int) -> bool:
-                lab = v_labels[j]
-                return (any(m in lab.split(" ثمّ ")[-1] for m in CORE)
-                        or any(m in lab for m in PRE_MARKS))
+            # الحجبُ بالأختِ الأعمقِ بنفسِ قيدِ اليقينِ الموحَّدِ، والخاتمةُ
+            # كالبادئةِ (نزعُ السابقةِ يجعلُ الابنَ خاتمةَ أبيه؛ درسُ ganauha)
             return any(j != i and v_fams[j] == v_fams[i]
                        and len(v_keys[j]) < len(v_keys[i])
                        and (v_keys[i].startswith(v_keys[j])
                             or v_keys[i].endswith(v_keys[j]))
-                       and certain(j)
+                       and strip_is_certain(v_labels[j])
                        for j in range(len(variants)))
         for vi, (tsk, vlabel, tier) in enumerate(variants):
             if has_decomp and tier not in {"stem", "named", "prefix"}:

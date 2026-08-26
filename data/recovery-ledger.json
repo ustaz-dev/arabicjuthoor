@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51472,
+ "cards_total": 51477,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -255990,6 +255990,18 @@
    "card": "نواة: 𐌲𐌰𐌽𐌰𐌿𐌷𐌰 /ganauha/ ↔ غن؛ NUC-GOTHIC-00027",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن تحجب حلقة `root_first` جذع التفكيك الجرماني غير المنزوع متى كان له ابن نزع سابقة مطردة، وأن يتصدر الابن المنزوع في الأسرة، ثم تضاف `ganauha` إلى صمامة الأجوبة المعلومة بوصفها بلا وسم جذر. بعد ذلك تعاد الأحواض التسعة ويجرى `scripts/probe_nucleus_knowns.py` قبل استئناف الأربعين من `ganauha`.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌿𐍃𐌷𐌿𐌻𐍉𐌽 /ushulōn/ ↔ هل؛ NUC-GOTHIC-00032",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن تدخل نهاية `-on` المعروفة في علامات يقين حاجب الأسرة، أو أن يستمد الحاجب علامات اليقين من كل أبناء النزع الصرفي التي يولدها `oe_skeletons` بدل قائمة جزئية. ثم تضاف `ushulōn` إلى الصمامة، وتُعاد الأحواض التسعة، ويجرى `scripts/probe_nucleus_knowns.py` قبل استئناف الأربعين من `ushulōn`.",
    "gaps": [
     "TOOL-GAP"
    ],
