@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 81030,
+  "cards_total": 81285,
   "by_language": [
    {
     "key": "old-latin",
@@ -21,7 +21,7 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 11270,
+    "cards": 11352,
     "links": 366,
     "root": 136,
     "nucleus": 229,
@@ -32,7 +32,7 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 11132,
+    "cards": 11202,
     "links": 229,
     "root": 213,
     "nucleus": 16,
@@ -54,7 +54,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 9483,
+    "cards": 9583,
     "links": 142,
     "root": 133,
     "nucleus": 9,
@@ -153,12 +153,12 @@
     "key": "gothic",
     "en": "Gothic",
     "ar": "القوطيّة",
-    "cards": 510,
-    "links": 34,
-    "root": 20,
-    "nucleus": 14,
+    "cards": 513,
+    "links": 37,
+    "root": 21,
+    "nucleus": 16,
     "floor": 0,
-    "nucleus_share": 41.2
+    "nucleus_share": 43.2
    },
    {
     "key": "phoenician-punic-scout",
@@ -185,12 +185,12 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4705,
-  "closures": 1989,
+  "links_to_arabic": 4708,
+  "closures": 1998,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
-    "count": 2717,
+    "count": 2718,
     "link": true
    },
    {
@@ -215,12 +215,12 @@
    },
    {
     "name": "NUCLEUS-ECHO",
-    "count": 404,
+    "count": 406,
     "link": true
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 147,
+    "count": 149,
     "link": false
    },
    {
@@ -239,12 +239,12 @@
     "link": false
    },
    {
-    "name": "ABBREVIATION",
-    "count": 98,
+    "name": "COMPOUND-BOUNDARY",
+    "count": 105,
     "link": false
    },
    {
-    "name": "COMPOUND-BOUNDARY",
+    "name": "ABBREVIATION",
     "count": 98,
     "link": false
    },
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 51455,
-  "suspended": 38837,
-  "released": 12618,
+  "cards_total": 51458,
+  "suspended": 38838,
+  "released": 12620,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
@@ -271,7 +271,7 @@
    },
    {
     "name": "UNLABELLED",
-    "count": 18192
+    "count": 18193
    },
    {
     "name": "LAW-GAP",

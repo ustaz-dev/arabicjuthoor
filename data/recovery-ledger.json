@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51455,
+ "cards_total": 51458,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -255942,6 +255942,18 @@
    "card": "نواة: 𐌰𐍆𐌳𐌰𐌿𐌱𐌽𐌰𐌽 /afdaubnan/ ↔ ضب؛ NUC-GOTHIC-00010",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن يركب نزع السابقة مع نزع اللاحقة المسماة كلها، لا مع ذيل تصريفي داخلها فقط، وأن يقدم جذع القاموس والابن المنزوع كامل اللاحقة على كل صورة جزئية عند حكم `root_first`. ثم تعاد بناء الأحواض التسعة ومسبار الست من صدر القوطية.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌳𐌰𐌿𐍆𐍃 /daufs/ ↔ ضب؛ NUC-GOTHIC-00013",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن تربط قاعدة النزع الأعمق الصورة الخام بالابن الناتج من `oe_skeletons` ولو لم توجد سابقة أو تفكيك بعلامة `+`، وأن تحجب `d-f-s` عن `root_first` حين توجد أختها `d-f` الموسومة بإسقاط سين الإعراب. ثم يعاد بناء الأحواض التسعة ومسبار الست من الصدر قبل استئناف الأربعين.",
    "gaps": [
     "TOOL-GAP"
    ],

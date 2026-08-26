@@ -335,7 +335,12 @@ def main() -> int:
         # التصريفيّةِ لا تحكمُ الجذرَ بنفسِها؛ ابنُها المنزوعُ ينوبُ عنها
         # (maitan لا تلدُ متن من نونِ مصدرِها). ونونُ الفارسيّةِ أصلٌ فتبقى.
         v_labels = [v[1] for v in variants]
-        v_fams = [l.split(" ثمّ ")[0] for l in v_labels]
+        # صورُ نزعِ الخامِ (طبقةُ suffix) أبناءُ «كما وردَت» وإن لم يحملْ
+        # وسمُها اسمَ الأبِ، فيُحسَبانِ أسرةً واحدةً (درسُ daufs: الخامُ
+        # d-f-s كانَ يفلتُ من حاجبِ ابنِه d-f المنزوعِ سينَ الرفع)
+        v_fams = [l.split(" ثمّ ")[0] if " ثمّ " in l
+                  else ("كما وردَت" if v[2] in {"raw", "suffix"} else l)
+                  for l, v in zip(v_labels, variants)]
         v_keys = ["".join(v[0]) for v in variants]
         def _has_stripped_child(i: int) -> bool:
             """الصورةُ محجوبةٌ عن حكمِ الجذرِ في الجرمانيّةِ إن كانَ لها ابنٌ
