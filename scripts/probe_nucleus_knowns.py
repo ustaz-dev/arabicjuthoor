@@ -125,11 +125,18 @@ def main() -> int:
           and "from" not in gtoks,
           "لمة اسم الفاعل جذع يتصدر، وfrom الشرحية لا تدخل طريق المعنى")
 
+    # 11: النزعان المسميان يتركبان على السطح الواحد فتولد skadw
+    et = etym_of("gaskadweins")
+    variants, _ = NS.skeleton_variants("gaskadweins", "latin", et)
+    keys = {"".join(sk) for sk, _lab, _tier in variants}
+    check("gaskadweins", "skdw" in keys,
+          "صورة skadw تولد بنزع ga- و-eins معا")
+
     print()
     if failures:
         print(f"سقطت {len(failures)}: {', '.join(failures)}")
         return 1
-    print("CLEAN: مسبار الأجوبة المعلومة العشرة يعبر كاملا")
+    print("CLEAN: مسبار الأجوبة المعلومة يعبر كاملا")
     return 0
 
 

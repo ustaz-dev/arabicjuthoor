@@ -226,6 +226,16 @@ def skeleton_variants(text: str, script: str,
         if low_f.startswith(pf) and len(low_f) - len(pf) >= 2:
             _push_with_compose(low_f[len(pf):],
                                f"بنزعِ السابقةِ المسمّاةِ `{pre}-`", "named")
+            # والنزعانِ معًا حيثُ سمّى النصُّ الطرفَين (مسبارُ D العاشرُ
+            # NUC-GOTHIC-00018: gaskadweins لا تلدُ skadw إلّا بهما معًا)
+            for suf in sufs:
+                sf = _fold_roman(suf)
+                if (low_f.endswith(sf)
+                        and len(low_f) - len(pf) - len(sf) >= 2):
+                    _push_with_compose(
+                        low_f[len(pf): len(low_f) - len(sf)],
+                        f"بنزعِ السابقةِ `{pre}-` واللاحقةِ `-{suf}` معًا",
+                        "named")
     for st in stems:
         if _fold_roman(st) == low_f:
             continue
@@ -237,6 +247,20 @@ def skeleton_variants(text: str, script: str,
             for ssk, slab in F.oe_skeletons(st, script):
                 if ssk and ssk != sk:
                     out.append((ssk, f"جذعُ القاموسِ `{st}` ثمّ {slab}", "stem"))
+            # وقد يحملُ سابقةً مطّردةً فوقَ لاحقتِه (gaskadwjan جذعُها
+            # skadw بنزعِ ga- ثمّ -jan؛ مسبارُ D العاشر)
+            low_st = _fold_roman(st)
+            for pre in GERMANIC_PREFIXES:
+                if low_st.startswith(pre) and len(low_st) - len(pre) >= 3:
+                    rem2 = low_st[len(pre):]
+                    sk2 = F.skeleton(rem2, script)
+                    base_lab = f"جذعُ القاموسِ `{st}` بنزعِ سابقتِه `{pre}-`"
+                    if sk2:
+                        out.append((sk2, base_lab, "stem"))
+                    for ssk, slab in F.oe_skeletons(rem2, script):
+                        if ssk and ssk != sk2:
+                            out.append((ssk, f"{base_lab} ثمّ {slab}", "stem"))
+                    break
     if script in {"latin", "germanic"}:
         low = text.strip().lower()
         for pre in GERMANIC_PREFIXES:

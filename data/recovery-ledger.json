@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51462,
+ "cards_total": 51463,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -255966,6 +255966,18 @@
    "card": "نواة: 𐌽𐌰𐍃𐌾𐌰𐌽𐌳𐍃 /nasjands/ ↔ جن؛ NUC-GOTHIC-00017",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن يقرأ محلل التفكيك صيغ `present participle of X (roman)` و`substantivized form of` بوصفها إحالات إلى الجذع، وأن يركبها مع نزع اللواحق اليقينية، وأن يستبعد الأقواس الوصفية الصرفية من كلمات طريقي `bridge/event`. ثم تعاد بناء الأحواض التسعة ومسبار الست من صدر القوطية.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌲𐌰𐍃𐌺𐌰𐌳𐍅𐌴𐌹𐌽𐍃 /gaskadweins/ ↔ غش؛ NUC-GOTHIC-00018",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن تركب `skeleton_variants` نزع السابقة الجرمانية المطردة مع نزع اللاحقة المسماة من الصورة السطحية، ومع نزع لاحقة اللمة المحالة من صورة الجذع، فتولد `skadw` متصدرة، وتحجب أزواج `g-s` و`w-n` الصرفية. ثم تعاد بناء الأحواض التسعة ويجرى `scripts/probe_nucleus_knowns.py` قبل استئناف الأربعين من `gaskadweins`.",
    "gaps": [
     "TOOL-GAP"
    ],
