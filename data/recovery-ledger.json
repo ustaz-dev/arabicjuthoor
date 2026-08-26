@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51451,
+ "cards_total": 51453,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -255918,6 +255918,18 @@
    "card": "نواة: 𐍆𐍂𐌿𐌼𐌰 /fruma/ ↔ فل؛ NUC-GOTHIC-00006",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن يقرأ محلل الصرف صيغة الشرح القاموسي `Contains the comparative suffix ... (-uma)`، وأن ينزع اللاحقة المسماة قبل بناء `root_first/root_fan` والنوى التي تمس صامتها، ثم يعاد بناء الأحواض التسعة ومسبار الست من الصدر.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌰𐍆𐌼𐌰𐌹𐍄𐌰𐌽 /afmaitan/ ↔ مت؛ NUC-GOTHIC-00008",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن تركب `skeleton_variants` نزع السابقة المسماة مع نزع اللاحقة التصريفية، أو أن تمنع صورة الجذع غير المنزوعة من وسم الجذر حين توجد صورته المنزوعة، ثم تعيد بناء الأحواض التسعة ومسبار الست من الصدر.",
    "gaps": [
     "TOOL-GAP"
    ],

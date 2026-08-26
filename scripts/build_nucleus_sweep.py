@@ -109,6 +109,10 @@ RX_PREFIXED = re.compile(r"\+\s*[^()]*\(([a-zāēīōūþƕ\-]{2,})\)")
 # q-w-m): بهما وحدَهما يجوزُ زوجُ الطرفَينِ، وما سواهما صامتٌ لا يُقفَزُ فوقَه
 MADD_MIDDLE = {"w", "y"}
 
+# الألسنُ التي نونُ مصدرِها صرفٌ محضٌ يُنزَعُ قبلَ حكمِ الجذرِ؛ أمّا
+# الفارسيّةُ ونحوُها فنونُ آخرِها قد تكونُ أصلًا (saman) فلا تُحجَبُ صورتُها
+GERMANIC_LANGS = {"gothic", "old_norse", "english_old", "english_middle"}
+
 GERMANIC_PREFIXES = ("ufar", "faur", "mith", "and", "fra", "dis", "ga",
                      "us", "bi", "af", "at", "in", "un", "ur", "uf")
 
@@ -183,18 +187,28 @@ def skeleton_variants(text: str, script: str,
     pres, sufs = named_affixes(etym)
     has_decomp = has_decomp or bool(pres) or bool(sufs)
     low_f = _fold_roman(text.strip())
+    def _push_with_compose(rem: str, label: str, tier: str) -> None:
+        """البقيّةُ بعدَ نزعٍ، ومعها صورُها منزوعةَ اللواحقِ التصريفيّةِ
+        (مسبارُ D السابعُ NUC-GOTHIC-00008: afmaitan بعدَ af- بقيَت maitan
+        بنونِ مصدرِها فوُسِمَت جذرًا من نونِ الصرف)."""
+        sk = F.skeleton(rem, script)
+        if sk:
+            out.append((sk, label, tier))
+        if script in {"latin", "germanic"}:
+            for ssk, slab in F.oe_skeletons(rem, script):
+                if ssk and ssk != sk:
+                    out.append((ssk, f"{label} ثمّ {slab}", tier))
+
     for suf in sufs:
         sf = _fold_roman(suf)
         if low_f.endswith(sf) and len(low_f) - len(sf) >= 2:
-            sk = F.skeleton(low_f[: len(low_f) - len(sf)], script)
-            if sk:
-                out.append((sk, f"بنزعِ اللاحقةِ المسمّاةِ `-{suf}`", "named"))
+            _push_with_compose(low_f[: len(low_f) - len(sf)],
+                               f"بنزعِ اللاحقةِ المسمّاةِ `-{suf}`", "named")
     for pre in pres:
         pf = _fold_roman(pre)
         if low_f.startswith(pf) and len(low_f) - len(pf) >= 2:
-            sk = F.skeleton(low_f[len(pf):], script)
-            if sk:
-                out.append((sk, f"بنزعِ السابقةِ المسمّاةِ `{pre}-`", "named"))
+            _push_with_compose(low_f[len(pf):],
+                               f"بنزعِ السابقةِ المسمّاةِ `{pre}-`", "named")
     for st in stems:
         sk = F.skeleton(st, script)
         if sk:
@@ -208,9 +222,15 @@ def skeleton_variants(text: str, script: str,
         low = text.strip().lower()
         for pre in GERMANIC_PREFIXES:
             if low.startswith(pre) and len(low) - len(pre) >= 3:
-                sk = F.skeleton(low[len(pre):], script)
+                rem = low[len(pre):]
+                sk = F.skeleton(rem, script)
                 if sk:
                     out.append((sk, f"بنزعِ سابقةِ `{pre}-`", "prefix"))
+                    for ssk, slab in F.oe_skeletons(rem, script):
+                        if ssk and ssk != sk:
+                            out.append((ssk,
+                                        f"بنزعِ سابقةِ `{pre}-` ثمّ {slab}",
+                                        "prefix"))
                 break
         for sk, lab in F.oe_skeletons(text, script):
             out.append((sk, lab, "suffix"))
@@ -311,8 +331,18 @@ def main() -> int:
         # خامُها g-n-n فوُسِمَت جنن/قنن اختلاقًا وكلُّها ترثُ صامتَ ga-
         variants, has_decomp = skeleton_variants(text, script,
                                                  str(e.get("etym", "")))
-        for tsk, vlabel, tier in variants:
+        # في الألسنِ الجرمانيّةِ الصورةُ التي لها ابنٌ منزوعُ اللاحقةِ
+        # التصريفيّةِ لا تحكمُ الجذرَ بنفسِها؛ ابنُها المنزوعُ ينوبُ عنها
+        # (maitan لا تلدُ متن من نونِ مصدرِها). ونونُ الفارسيّةِ أصلٌ فتبقى.
+        v_labels = [v[1] for v in variants]
+        def _has_stripped_child(i: int) -> bool:
+            return (args.lang in GERMANIC_LANGS
+                    and any(l.startswith(v_labels[i] + " ثمّ")
+                            for l in v_labels))
+        for vi, (tsk, vlabel, tier) in enumerate(variants):
             if has_decomp and tier not in {"stem", "named", "prefix"}:
+                continue
+            if _has_stripped_child(vi):
                 continue
             if len(tsk) != 3:
                 continue
