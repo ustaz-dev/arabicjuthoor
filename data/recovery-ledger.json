@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51463,
+ "cards_total": 51472,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -255978,6 +255978,18 @@
    "card": "نواة: 𐌲𐌰𐍃𐌺𐌰𐌳𐍅𐌴𐌹𐌽𐍃 /gaskadweins/ ↔ غش؛ NUC-GOTHIC-00018",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن تركب `skeleton_variants` نزع السابقة الجرمانية المطردة مع نزع اللاحقة المسماة من الصورة السطحية، ومع نزع لاحقة اللمة المحالة من صورة الجذع، فتولد `skadw` متصدرة، وتحجب أزواج `g-s` و`w-n` الصرفية. ثم تعاد بناء الأحواض التسعة ويجرى `scripts/probe_nucleus_knowns.py` قبل استئناف الأربعين من `gaskadweins`.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌲𐌰𐌽𐌰𐌿𐌷𐌰 /ganauha/ ↔ غن؛ NUC-GOTHIC-00027",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن تحجب حلقة `root_first` جذع التفكيك الجرماني غير المنزوع متى كان له ابن نزع سابقة مطردة، وأن يتصدر الابن المنزوع في الأسرة، ثم تضاف `ganauha` إلى صمامة الأجوبة المعلومة بوصفها بلا وسم جذر. بعد ذلك تعاد الأحواض التسعة ويجرى `scripts/probe_nucleus_knowns.py` قبل استئناف الأربعين من `ganauha`.",
    "gaps": [
     "TOOL-GAP"
    ],

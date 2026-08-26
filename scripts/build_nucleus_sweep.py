@@ -383,8 +383,11 @@ def main() -> int:
         # صورُ نزعِ الخامِ (طبقةُ suffix) أبناءُ «كما وردَت» وإن لم يحملْ
         # وسمُها اسمَ الأبِ، فيُحسَبانِ أسرةً واحدةً (درسُ daufs: الخامُ
         # d-f-s كانَ يفلتُ من حاجبِ ابنِه d-f المنزوعِ سينَ الرفع)
-        v_fams = [l.split(" ثمّ ")[0] if " ثمّ " in l
-                  else ("كما وردَت" if v[2] in {"raw", "suffix"} else l)
+        # أسرةُ الجذعِ الواحدِ تجمعُ صورَ نزعِ سابقتِه أيضًا (درسُ ganauha:
+        # جذعُ ganauhan وصورتُه بنزعِ ga- أسرةٌ واحدةٌ يحجبُ منزوعُها أباها)
+        v_fams = [(l.split(" ثمّ ")[0] if " ثمّ " in l
+                   else ("كما وردَت" if v[2] in {"raw", "suffix"} else l)
+                   ).split(" بنزعِ سابقتِه")[0]
                   for l, v in zip(v_labels, variants)]
         v_keys = ["".join(v[0]) for v in variants]
         def _has_stripped_child(i: int) -> bool:
@@ -402,10 +405,18 @@ def main() -> int:
                 return True
             # الحجبُ بالأختِ الأعمقِ بنفسِ قيدِ اليقين (درسُ ققم: مطابقةُ
             # لاحقةٍ اسميّةٍ عارضةٍ كـ-um في qum الأصليّةِ لا تحجب)
+            # الخاتمةُ كالبادئةِ: نزعُ السابقةِ يقصُّ من أوّلِ الهيكلِ
+            # فيكونُ الابنُ خاتمةَ أبيه لا بادئتَه (درسُ ganauha)
+            PRE_MARKS = ("بنزعِ سابقتِه", "بنزعِ السابقةِ")
+            def certain(j: int) -> bool:
+                lab = v_labels[j]
+                return (any(m in lab.split(" ثمّ ")[-1] for m in CORE)
+                        or any(m in lab for m in PRE_MARKS))
             return any(j != i and v_fams[j] == v_fams[i]
                        and len(v_keys[j]) < len(v_keys[i])
-                       and v_keys[i].startswith(v_keys[j])
-                       and any(m in v_labels[j].split(" ثمّ ")[-1] for m in CORE)
+                       and (v_keys[i].startswith(v_keys[j])
+                            or v_keys[i].endswith(v_keys[j]))
+                       and certain(j)
                        for j in range(len(variants)))
         for vi, (tsk, vlabel, tier) in enumerate(variants):
             if has_decomp and tier not in {"stem", "named", "prefix"}:

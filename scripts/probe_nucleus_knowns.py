@@ -30,8 +30,9 @@ def root_first_fan(word: str, etym: str, lang: str,
     """محاكاةُ قرارِ «الجذرِ أوّلًا» كما في main، حرفًا بحرف."""
     variants, has2 = NS.skeleton_variants(word, "latin", etym)
     labels = [v[1] for v in variants]
-    fams = [l.split(" ثمّ ")[0] if " ثمّ " in l
-            else ("كما وردَت" if v[2] in {"raw", "suffix"} else l)
+    fams = [(l.split(" ثمّ ")[0] if " ثمّ " in l
+             else ("كما وردَت" if v[2] in {"raw", "suffix"} else l)
+             ).split(" بنزعِ سابقتِه")[0]
             for l, v in zip(labels, variants)]
     keys = ["".join(v[0]) for v in variants]
 
@@ -42,10 +43,16 @@ def root_first_fan(word: str, etym: str, lang: str,
                and any(mk in l.split(" ثمّ ")[-1] for mk in CORE)
                for l in labels):
             return True
+        PRE_MARKS = ("بنزعِ سابقتِه", "بنزعِ السابقةِ")
+        def certain(j: int) -> bool:
+            lab = labels[j]
+            return (any(mk in lab.split(" ثمّ ")[-1] for mk in CORE)
+                    or any(mk in lab for mk in PRE_MARKS))
         return any(j != i and fams[j] == fams[i]
                    and len(keys[j]) < len(keys[i])
-                   and keys[i].startswith(keys[j])
-                   and any(mk in labels[j].split(" ثمّ ")[-1] for mk in CORE)
+                   and (keys[i].startswith(keys[j])
+                        or keys[i].endswith(keys[j]))
+                   and certain(j)
                    for j in range(len(variants)))
 
     for i, (tsk, vlabel, tier) in enumerate(variants):
@@ -124,6 +131,11 @@ def main() -> int:
           has and "nasjan" in stems and lead[2] == "stem"
           and "from" not in gtoks,
           "لمة اسم الفاعل جذع يتصدر، وfrom الشرحية لا تدخل طريق المعنى")
+
+    # 11ب: جذع ganauhan غير المنزوع لا يتصدر بجنح الوارثة جيم ga-
+    rf = root_first_fan("ganauha", etym_of("ganauha"), "gothic", table, tri)
+    check("ganauha", rf is None,
+          "ابن نزع السابقة يحجب أباه؛ جنح وكنه ترثان جيم ga-")
 
     # 11: النزعان المسميان يتركبان على السطح الواحد فتولد skadw
     et = etym_of("gaskadweins")
