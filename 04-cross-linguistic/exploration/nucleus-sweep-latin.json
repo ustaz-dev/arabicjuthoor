@@ -2,8 +2,8 @@
  "language": "latin",
  "layer": "استكشاف؛ حوضُ مرشَّحي نواةٍ للقارئ، لا حكمَ ولا عدّ",
  "note": "وحدةُ المسحِ النواةُ الثنائيّة؛ طريقا المعنى bridge/event موسومانِ ولا يُخلَطان؛ لا سقوفَ صامتة",
- "both_total": 6598,
- "sound_only_total": 39460,
+ "both_total": 6591,
+ "sound_only_total": 39467,
  "both": [
   {
    "branch": "convolvo",
@@ -9897,29 +9897,6 @@
    "strength": 21
   },
   {
-   "branch": "Moesi",
-   "read": "",
-   "gloss": "A Daco-Thracian tribe who inhabited present-day Serbia and Bulgaria, part of the then Roman province of Moesia.",
-   "nuclei_found": [
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ],
-   "best_nucleus": "مش",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "النفاذ بانتشار من أثناء الشيء",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "then"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
    "branch": "Peucetii",
    "read": "",
    "gloss": "A tribe of southern Italy, inhabiting the southern part of Apulia",
@@ -16842,41 +16819,6 @@
      "path": "event",
      "shared": [
       "heart"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "Commius",
-   "read": "",
-   "gloss": "Celtic male personal name.؛ a king of the Belgic nation of the Atrebates, initially in Gaul, then in Britain, in the 1st",
-   "nuclei_found": [
-    "جم",
-    "قم",
-    "كم",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جمز",
-    "جمش",
-    "قمش",
-    "قمص",
-    "كمش"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "مش",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "النفاذ بانتشار من أثناء الشيء",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "then"
      ]
     }
    ],
@@ -42309,28 +42251,6 @@
    "strength": 11
   },
   {
-   "branch": "tum",
-   "read": "",
-   "gloss": "then, thereupon؛ at the time, at that time؛ further on",
-   "nuclei_found": [
-    "تم",
-    "ثم",
-    "طم"
-   ],
-   "best_nucleus": "ثم",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "ضم الدقائق أو ما يشبهها في حيز",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "then"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "lamella",
    "read": "",
    "gloss": "A small, thin plate of metal",
@@ -50446,34 +50366,6 @@
      "path": "bridge",
      "shared": [
       "blood"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "statim",
-   "read": "",
-   "gloss": "stably, in a constant manner؛ at once, immediately؛ then (at that time)",
-   "nuclei_found": [
-    "تم",
-    "ثم",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طم"
-   ],
-   "best_nucleus": "ثم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "ضم الدقائق أو ما يشبهها في حيز",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "then"
      ]
     }
    ],
@@ -142457,43 +142349,6 @@
    "strength": 11
   },
   {
-   "branch": "Alexandrinus",
-   "read": "",
-   "gloss": "an Alexandrian or Alexandrine [man] (a native or inhabitant of the Egyptian port city of Alexandria)",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رك",
-    "رن",
-    "ضر",
-    "ضل",
-    "كن",
-    "لك",
-    "لن",
-    "ند",
-    "نذ",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نض"
-   ],
-   "best_nucleus": "نس",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 6",
-   "reading_ar": "نفاذ بدقة من أثناء شيء أو فيها",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "man"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "altrinsecus",
    "read": "",
    "gloss": "at or on the other side؛ from or on both sides",
@@ -182777,52 +182632,6 @@
    "strength": 11
   },
   {
-   "branch": "coniunctivus",
-   "read": "",
-   "gloss": "relating to connection, serving to connect; connective, conjunctive؛ composite, compound؛ conjunctive and/or subjunctive",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "تب",
-    "تف",
-    "ثب",
-    "جث",
-    "جن",
-    "طب",
-    "طف",
-    "طو",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "قت",
-    "قث",
-    "قط",
-    "قن",
-    "كت",
-    "كث",
-    "كن",
-    "نج",
-    "نق",
-    "نك",
-    "نن"
-   ],
-   "best_nucleus": "طب",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 5",
-   "reading_ar": "الجودة والإحكام والتغطية",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "compound"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "amarulentus",
    "read": "",
    "gloss": "very bitter, full of bitterness",
@@ -185336,37 +185145,6 @@
      "path": "bridge",
      "shared": [
       "two"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "etiamtum",
-   "read": "",
-   "gloss": "even then, till that time, till then, still؛ while ... still",
-   "nuclei_found": [
-    "تم",
-    "ثم",
-    "طم",
-    "مت",
-    "مث",
-    "مط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "تمت",
-    "طمث"
-   ],
-   "root_fan_from": "بإسقاطِ ميمِ الجمعِ المجرورِ -um",
-   "best_nucleus": "ثم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "ضم الدقائق أو ما يشبهها في حيز",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "then"
      ]
     }
    ],
@@ -317739,6 +317517,16 @@
    ]
   },
   {
+   "branch": "tum",
+   "read": "",
+   "gloss": "then, thereupon؛ at the time, at that time؛ further on",
+   "nuclei_found": [
+    "تم",
+    "ثم",
+    "طم"
+   ]
+  },
+  {
    "branch": "nenia",
    "read": "",
    "gloss": "a funeral song, dirge؛ a spell, incantation, enchantment؛ a song of little consequence, ditty, tune, lullaby",
@@ -345871,6 +345659,22 @@
     "طر",
     "طل",
     "لك"
+   ]
+  },
+  {
+   "branch": "statim",
+   "read": "",
+   "gloss": "stably, in a constant manner؛ at once, immediately؛ then (at that time)",
+   "nuclei_found": [
+    "تم",
+    "ثم",
+    "زت",
+    "ست",
+    "سط",
+    "شت",
+    "شط",
+    "صت",
+    "طم"
    ]
   },
   {
@@ -659615,6 +659419,31 @@
    ]
   },
   {
+   "branch": "Alexandrinus",
+   "read": "",
+   "gloss": "an Alexandrian or Alexandrine [man] (a native or inhabitant of the Egyptian port city of Alexandria)",
+   "nuclei_found": [
+    "در",
+    "دل",
+    "ذر",
+    "ذل",
+    "رك",
+    "رن",
+    "ضر",
+    "ضل",
+    "كن",
+    "لك",
+    "لن",
+    "ند",
+    "نذ",
+    "نز",
+    "نس",
+    "نش",
+    "نص",
+    "نض"
+   ]
+  },
+  {
    "branch": "alienatio",
    "read": "",
    "gloss": "transfer of property؛ separation, desertion؛ aversion, dislike, alienation, estrangement",
@@ -859204,6 +859033,17 @@
    ]
   },
   {
+   "branch": "Moesi",
+   "read": "",
+   "gloss": "A Daco-Thracian tribe who inhabited present-day Serbia and Bulgaria, part of the then Roman province of Moesia.",
+   "nuclei_found": [
+    "مز",
+    "مس",
+    "مش",
+    "مص"
+   ]
+  },
+  {
    "branch": "Nazara",
    "read": "",
    "gloss": "Nazareth (a city in Israel, the home of the parents of Jesus)",
@@ -866925,6 +866765,40 @@
     "فش",
     "فص",
     "فط"
+   ]
+  },
+  {
+   "branch": "coniunctivus",
+   "read": "",
+   "gloss": "relating to connection, serving to connect; connective, conjunctive؛ composite, compound؛ conjunctive and/or subjunctive",
+   "nuclei_found": [
+    "بز",
+    "بس",
+    "بش",
+    "بص",
+    "تب",
+    "تف",
+    "ثب",
+    "جث",
+    "جن",
+    "طب",
+    "طف",
+    "طو",
+    "فز",
+    "فس",
+    "فش",
+    "فص",
+    "قت",
+    "قث",
+    "قط",
+    "قن",
+    "كت",
+    "كث",
+    "كن",
+    "نج",
+    "نق",
+    "نك",
+    "نن"
    ]
   },
   {
@@ -874956,6 +874830,25 @@
    "root_fan": [
     "تمد",
     "ثمد"
+   ],
+   "root_fan_from": "بإسقاطِ ميمِ الجمعِ المجرورِ -um"
+  },
+  {
+   "branch": "etiamtum",
+   "read": "",
+   "gloss": "even then, till that time, till then, still؛ while ... still",
+   "nuclei_found": [
+    "تم",
+    "ثم",
+    "طم",
+    "مت",
+    "مث",
+    "مط"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "تمت",
+    "طمث"
    ],
    "root_fan_from": "بإسقاطِ ميمِ الجمعِ المجرورِ -um"
   },
@@ -1136712,6 +1136605,29 @@
     "لت",
     "لط"
    ]
+  },
+  {
+   "branch": "Commius",
+   "read": "",
+   "gloss": "Celtic male personal name.؛ a king of the Belgic nation of the Atrebates, initially in Gaul, then in Britain, in the 1st",
+   "nuclei_found": [
+    "جم",
+    "قم",
+    "كم",
+    "مز",
+    "مس",
+    "مش",
+    "مص"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "جمز",
+    "جمش",
+    "قمش",
+    "قمص",
+    "كمش"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "pollicata",

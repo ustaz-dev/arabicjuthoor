@@ -2,8 +2,8 @@
  "language": "ancient_greek",
  "layer": "استكشاف؛ حوضُ مرشَّحي نواةٍ للقارئ، لا حكمَ ولا عدّ",
  "note": "وحدةُ المسحِ النواةُ الثنائيّة؛ طريقا المعنى bridge/event موسومانِ ولا يُخلَطان؛ لا سقوفَ صامتة",
- "both_total": 2331,
- "sound_only_total": 16774,
+ "both_total": 2329,
+ "sound_only_total": 16776,
  "both": [
   {
    "branch": "πταίω",
@@ -2705,34 +2705,6 @@
      "path": "event",
      "shared": [
       "into"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "ὅτε",
-   "read": "hóte",
-   "gloss": "when؛ whereas؛ sometimes, now and then",
-   "nuclei_found": [
-    "حت",
-    "حث",
-    "حط",
-    "خت",
-    "خط",
-    "غث",
-    "غط",
-    "هت",
-    "هط"
-   ],
-   "best_nucleus": "حط",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "الانضغاط بقوة إلى أسفل",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "then"
      ]
     }
    ],
@@ -59160,38 +59132,6 @@
      "path": "bridge",
      "shared": [
       "depth"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "τῆμος",
-   "read": "têmos",
-   "gloss": "then, thereupon",
-   "nuclei_found": [
-    "تم",
-    "ثم",
-    "طم",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "تمش",
-    "طمس"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "ثم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "ضم الدقائق أو ما يشبهها في حيز",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "then"
      ]
     }
    ],
@@ -195801,6 +195741,22 @@
    ]
   },
   {
+   "branch": "ὅτε",
+   "read": "hóte",
+   "gloss": "when؛ whereas؛ sometimes, now and then",
+   "nuclei_found": [
+    "حت",
+    "حث",
+    "حط",
+    "خت",
+    "خط",
+    "غث",
+    "غط",
+    "هت",
+    "هط"
+   ]
+  },
+  {
    "branch": "ἀνίστημι",
    "read": "ănĭ́stēmĭ",
    "gloss": "active of the present, imperfect, future, and first aorist, and the perfect active ᾰ̓νέστᾰκᾰ (ănéstăkă)؛ to make to stan",
@@ -319288,6 +319244,26 @@
     "لز",
     "لس"
    ]
+  },
+  {
+   "branch": "τῆμος",
+   "read": "têmos",
+   "gloss": "then, thereupon",
+   "nuclei_found": [
+    "تم",
+    "ثم",
+    "طم",
+    "مز",
+    "مس",
+    "مش",
+    "مص"
+   ],
+   "root_first": true,
+   "root_fan": [
+    "تمش",
+    "طمس"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "οἰνοχόη",

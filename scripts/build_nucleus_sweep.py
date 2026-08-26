@@ -41,6 +41,7 @@ LEXICONS = ROOT / "data" / "branch-lexicons"
 STOP = {
     "the", "a", "an", "of", "to", "or", "and", "in", "on", "for", "with",
     "from", "above", "below", "participle", "substantivized",
+    "then", "clitic", "compound", "univerbation",
     "by", "at", "as", "is", "be", "was", "are", "it", "its", "one", "who",
     "that", "which", "used", "form", "type", "kind", "any", "some", "etc",
     "especially", "usually", "often", "made", "making", "person", "thing",
@@ -362,13 +363,24 @@ def main() -> int:
         text = word if F.skeleton(word, script) else e.get("read", "")
         if not text:
             continue
-        cands = candidate_nuclei(text, script, table, str(e.get("etym", "")))
+        etym_eff = str(e.get("etym", ""))
+        # بعضُ المداخلِ تكتبُ تفكيكَها في حقلِ المعنى لا الاشتقاقِ
+        # (dizuhþansat: `Compound of X (dissat)+ ... (-uh)+ ...`؛ مسبارُ
+        # D الثالثَ عشرَ)، فتُطعَمُ عبارتُه للمحلّلِ نفسِه
+        if "ompound of" in gloss or "niverbation of" in gloss:
+            etym_eff = (etym_eff + " . " + gloss.split(":")[0]).strip(" .")
+        cands = candidate_nuclei(text, script, table, etym_eff)
         hits = {n: how for n, how in cands.items() if n in nuclei}
         if not hits:
             continue
-        # الأقواسُ الشرحيّةُ الصرفيّةُ في المعنى ليست معنًى فلا تدخلُ
-        # طريقَ الدلالةِ (from تسرّبَت من قوسِ nasjands إلى طريقِ event)
-        gtoks = words_of(re.sub(r"\([^()]*\)", " ", gloss))
+        # الأقواسُ الشرحيّةُ الصرفيّةُ والمعقوفاتُ التحليليّةُ وعبارةُ
+        # التركيبِ قبلَ النقطتَينِ ليست معنًى فلا تدخلُ طريقَ الدلالةِ
+        # (from من قوسِ nasjands، وthen من ترجمةِ dizuhþansat التحليليّة)
+        g_src = gloss
+        if "ompound of" in g_src or "niverbation of" in g_src:
+            g_src = g_src.split(":", 1)[-1]
+        g_src = re.sub(r"\[[^\]]*\]", " ", g_src)
+        gtoks = words_of(re.sub(r"\([^()]*\)", " ", g_src))
         best = None
         for n, how in hits.items():
             via = []
@@ -391,8 +403,7 @@ def main() -> int:
         # الصورُ الموحَّدةُ نفسُها التي قرأَت النوى تقرأُ الجذورَ (مسبارُ D
         # الرابع)، والخامُ محجوبٌ حيثُ فكّكَ القاموسُ الكلمةَ نصًّا: gaainān
         # خامُها g-n-n فوُسِمَت جنن/قنن اختلاقًا وكلُّها ترثُ صامتَ ga-
-        variants, has_decomp = skeleton_variants(text, script,
-                                                 str(e.get("etym", "")))
+        variants, has_decomp = skeleton_variants(text, script, etym_eff)
         # في الألسنِ الجرمانيّةِ الصورةُ التي لها ابنٌ منزوعُ اللاحقةِ
         # التصريفيّةِ لا تحكمُ الجذرَ بنفسِها؛ ابنُها المنزوعُ ينوبُ عنها
         # (maitan لا تلدُ متن من نونِ مصدرِها). ونونُ الفارسيّةِ أصلٌ فتبقى.

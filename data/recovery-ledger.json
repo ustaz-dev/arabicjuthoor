@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51477,
+ "cards_total": 51480,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -256002,6 +256002,18 @@
    "card": "نواة: 𐌿𐍃𐌷𐌿𐌻𐍉𐌽 /ushulōn/ ↔ هل؛ NUC-GOTHIC-00032",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن تدخل نهاية `-on` المعروفة في علامات يقين حاجب الأسرة، أو أن يستمد الحاجب علامات اليقين من كل أبناء النزع الصرفي التي يولدها `oe_skeletons` بدل قائمة جزئية. ثم تضاف `ushulōn` إلى الصمامة، وتُعاد الأحواض التسعة، ويجرى `scripts/probe_nucleus_knowns.py` قبل استئناف الأربعين من `ushulōn`.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌳𐌹𐌶𐌿𐌷𐌸𐌰𐌽𐍃𐌰𐍄 /dizuhþansat/ ↔ حط؛ NUC-GOTHIC-00035",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن يصل التحليل الموجود في حقل المعنى إلى طبقة التعرية، أو يصلح المستورد موضعه، وأن تعزل اللصيقة `-uh` والجزء `þan` قبل توليد الأزواج. ويلزم منع `then` وألفاظ شرح التركيب من إنشاء طريق معنى، ثم إعادة الأحواض التسعة وإضافة جواب معلوم يثبت أن `h-þ` لا يحكم.",
    "gaps": [
     "TOOL-GAP"
    ],

@@ -124,6 +124,21 @@ def main() -> int:
           and "from" not in gtoks,
           "لمة اسم الفاعل جذع يتصدر، وfrom الشرحية لا تدخل طريق المعنى")
 
+    # 14: تفكيك مكتوب في حقل المعنى يطعم للمحلل، وthen التحليلية توقف
+    e = next(x for x in lex["entries"]
+             if NS._fold_roman(x.get("read") or "") == NS._fold_roman("dizuhþansat"))
+    gl = str(e.get("en", ""))
+    etym_eff = (str(e.get("etym", "")) + " . " + gl.split(":")[0]).strip(" .")
+    stems14, has14 = NS.decomp_parts(etym_eff)
+    rf = root_first_fan(e["read"], etym_eff, "gothic", table, tri)
+    g_src = gl.split(":", 1)[-1]
+    g_src = re.sub(r"\[[^\]]*\]", " ", g_src)
+    gtoks14 = NS.words_of(re.sub(r"\([^()]*\)", " ", g_src))
+    check("dizuhthansat",
+          has14 and "dissat" in stems14 and rf is None
+          and "then" not in gtoks14,
+          "جذع dissat من عبارة المعنى، وحط الوظيفية لا تتصدر، وthen توقف")
+
     # 13: نهاية التصريف -on يقين من الجدول الموسوم نفسه (ushulon)
     rf = root_first_fan("ushulōn", etym_of("ushulōn"), "gothic", table, tri)
     check("ushulon", rf is None,
