@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51503,
+ "cards_total": 51507,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -256118,6 +256118,18 @@
    "row_mentions": [
     "BR-GREC-02"
    ]
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌷𐌰𐌱𐌰𐌽 /habān/ ↔ عطب تعرية؛ NUC-GOTHIC-00062",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب طي علامات المد عند مطابقة النهايات الجرمانية اليقينية، أو إدخال `-ān` في جدولها الموسوم، حتى تولد صورة `h-b` وتحجب `h-b-n`. ثم تضاف `habān` إلى الصمامة، وتبنى الأحواض التسعة، ويستأنف العمل من `both[51]`.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
   },
   {
    "file": "04-cross-linguistic/readings/hebrew.md",
