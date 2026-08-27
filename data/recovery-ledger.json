@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51500,
+ "cards_total": 51503,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -256104,6 +256104,20 @@
    "blocker_type": "",
    "required": "",
    "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌸𐌰𐌿𐍂𐌱𐌰𐌽 /þaurban/ ↔ طلب؛ NUC-GOTHIC-00058",
+   "verdict": "",
+   "closure": "`LAW-GAP`.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": [
+    "BR-GREC-02"
+   ]
   },
   {
    "file": "04-cross-linguistic/readings/hebrew.md",
