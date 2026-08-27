@@ -426,9 +426,15 @@ def oe_skeletons(word: str, script: str = "latin") -> list[tuple[list[str], str]
 
     base = word.strip().lower()
     forms = [(base, "كما وردَت")]
+    # المطابقةُ على صورةٍ مطويّةِ علاماتِ المدّ: habān تنتهي بـ-ān فلا
+    # تطابقُ -an بغيرِ الطيّ (بطاقةُ المسارِ D رقم NUC-GOTHIC-00062).
+    # والقصُّ من الأصلِ آمنٌ لأنّ طيَّ المدّةِ لا يغيّرُ عدَّ المحارف.
+    import unicodedata as _ud
+    base_f = "".join(c for c in _ud.normalize("NFD", base)
+                     if not _ud.combining(c))
     for end, why in OLD_ENGLISH_ENDINGS:
-        if base.endswith(end) and len(base) - len(end) >= 3:
-            forms.append((base[:-len(end)], f"بإسقاطِ {why}"))
+        if base_f.endswith(end) and len(base_f) - len(end) >= 3:
+            forms.append((base[:len(base_f) - len(end)], f"بإسقاطِ {why}"))
             break
     for text, label in list(forms):
         if "sc" in text:

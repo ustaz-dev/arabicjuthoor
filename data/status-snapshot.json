@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 83603,
+  "cards_total": 83855,
   "by_language": [
    {
     "key": "old-latin",
@@ -21,23 +21,23 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 12090,
-    "links": 372,
-    "root": 142,
+    "cards": 12172,
+    "links": 373,
+    "root": 143,
     "nucleus": 229,
     "floor": 1,
-    "nucleus_share": 61.7
+    "nucleus_share": 61.6
    },
    {
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 11832,
-    "links": 247,
-    "root": 218,
+    "cards": 11902,
+    "links": 249,
+    "root": 220,
     "nucleus": 29,
     "floor": 0,
-    "nucleus_share": 11.7
+    "nucleus_share": 11.6
    },
    {
     "key": "coptic",
@@ -54,7 +54,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 10483,
+    "cards": 10583,
     "links": 142,
     "root": 133,
     "nucleus": 9,
@@ -185,8 +185,8 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4747,
-  "closures": 2156,
+  "links_to_arabic": 4750,
+  "closures": 2170,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
@@ -205,7 +205,7 @@
    },
    {
     "name": "ROOT-ECHO",
-    "count": 539,
+    "count": 542,
     "link": true
    },
    {
@@ -219,13 +219,13 @@
     "link": true
    },
    {
-    "name": "OUT-OF-SCOPE",
-    "count": 209,
+    "name": "COMPOUND-BOUNDARY",
+    "count": 213,
     "link": false
    },
    {
-    "name": "COMPOUND-BOUNDARY",
-    "count": 203,
+    "name": "OUT-OF-SCOPE",
+    "count": 213,
     "link": false
    },
    {

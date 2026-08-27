@@ -128,6 +128,14 @@ def main() -> int:
           and "from" not in gtoks,
           "لمة اسم الفاعل جذع يتصدر، وfrom الشرحية لا تدخل طريق المعنى")
 
+    # 17: علامة المد لا تحجب لاحقة الجدول (بطاقة NUC-GOTHIC-00062)
+    et17 = etym_of("habān")
+    variants17, _ = NS.skeleton_variants("habān", "latin", et17)
+    keys17 = {"".join(sk) for sk, _l, _t in variants17}
+    rf = root_first_fan("habān", et17, "gothic", table, tri)
+    check("haban", "hb" in keys17 and rf is None,
+          "habān بمدتها تطابق -an بعد الطي فتولد h-b وتموت حبن/غبن")
+
     # 16: القرين الموازي (Doublet of) ليس جذعا
     et16 = etym_of("kintus")
     stems16, _ = NS.decomp_parts(et16)
