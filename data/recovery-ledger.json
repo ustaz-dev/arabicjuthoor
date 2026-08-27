@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51480,
+ "cards_total": 51491,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -256014,6 +256014,42 @@
    "card": "نواة: 𐌳𐌹𐌶𐌿𐌷𐌸𐌰𐌽𐍃𐌰𐍄 /dizuhþansat/ ↔ حط؛ NUC-GOTHIC-00035",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن يصل التحليل الموجود في حقل المعنى إلى طبقة التعرية، أو يصلح المستورد موضعه، وأن تعزل اللصيقة `-uh` والجزء `þan` قبل توليد الأزواج. ويلزم منع `then` وألفاظ شرح التركيب من إنشاء طريق معنى، ثم إعادة الأحواض التسعة وإضافة جواب معلوم يثبت أن `h-þ` لا يحكم.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐍄𐌿𐌲𐌲𐌻 /tuggl/ ↔ كل؛ NUC-GOTHIC-00037",
+   "verdict": "",
+   "closure": "`SOURCE-GAP`.",
+   "gaps": [
+    "SOURCE-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌰𐍆𐍃𐌻𐌰𐌷𐌰𐌽 /afslahan/ ↔ سلخ؛ NUC-GOTHIC-00039",
+   "verdict": "",
+   "closure": "`LAW-GAP`.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌿𐍃𐌳𐌰𐌿𐌳𐍉𐌶𐌰 /usdaudōza/ ↔ شدد؛ NUC-GOTHIC-00046",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب تركيب نزع السابقة الجرمانية الاصطلاحية مع نزع اللاحقة المسماة من السطح، أو جمع صورة السطح المنزوعة اللاحقة وجذع الإحالة في أسرة حجب واحدة، حتى يتصدر `d-þ` وتموت المروحة الوارثة لسين `us-`. ثم تضاف `usdaudōza` إلى الصمامة، وتبنى الأحواض التسعة، ويستأنف العمل منها.",
    "gaps": [
     "TOOL-GAP"
    ],

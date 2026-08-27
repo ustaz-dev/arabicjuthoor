@@ -231,6 +231,27 @@ def skeleton_variants(text: str, script: str,
             for ssk, slab in F.oe_skeletons(rem, script):
                 if ssk and ssk != sk:
                     out.append((ssk, f"{label} ثمّ {slab}", tier))
+            # والسابقةُ الاصطلاحيّةُ تُنزَعُ من البقيّةِ أيضًا: usdaudōza
+            # بعدَ نزعِ -ōza بقيَت usdaud فورثَت مروحةُ شدد سينَ us-
+            # (مسبارُ D الثالثَ عشرَ NUC-GOTHIC-00046)
+            for pre2 in GERMANIC_PREFIXES:
+                pf2 = _fold_roman(pre2)
+                if rem.startswith(pf2) and len(rem) - len(pf2) >= 2:
+                    sk3 = F.skeleton(rem[len(pf2):], script)
+                    if sk3 and sk3 != sk:
+                        out.append((sk3,
+                                    f"{label} ثمّ بنزعِ سابقةِ `{pre2}-`",
+                                    tier))
+                    break
+            for suf2 in sufs:
+                sf2 = _fold_roman(suf2)
+                if rem.endswith(sf2) and len(rem) - len(sf2) >= 2:
+                    sk4 = F.skeleton(rem[: len(rem) - len(sf2)], script)
+                    if sk4 and sk4 != sk:
+                        out.append(
+                            (sk4,
+                             f"{label} ثمّ بنزعِ اللاحقةِ المسمّاةِ `-{suf2}`",
+                             tier))
 
     for suf in sufs:
         sf = _fold_roman(suf)
@@ -250,7 +271,8 @@ def skeleton_variants(text: str, script: str,
                         and len(low_f) - len(pf) - len(sf) >= 2):
                     _push_with_compose(
                         low_f[len(pf): len(low_f) - len(sf)],
-                        f"بنزعِ السابقةِ `{pre}-` واللاحقةِ `-{suf}` معًا",
+                        f"بنزعِ السابقةِ المسمّاةِ `{pre}-` ثمّ "
+                        f"بنزعِ اللاحقةِ المسمّاةِ `-{suf}`",
                         "named")
     for st in stems:
         if _fold_roman(st) == low_f:
@@ -263,6 +285,18 @@ def skeleton_variants(text: str, script: str,
             for ssk, slab in F.oe_skeletons(st, script):
                 if ssk and ssk != sk:
                     out.append((ssk, f"جذعُ القاموسِ `{st}` ثمّ {slab}", "stem"))
+            low_st0 = _fold_roman(st)
+            for suf2 in sufs:
+                sf2 = _fold_roman(suf2)
+                if low_st0.endswith(sf2) and len(low_st0) - len(sf2) >= 2:
+                    sk4 = F.skeleton(low_st0[: len(low_st0) - len(sf2)],
+                                     script)
+                    if sk4 and sk4 != sk:
+                        out.append(
+                            (sk4,
+                             f"جذعُ القاموسِ `{st}` ثمّ بنزعِ اللاحقةِ "
+                             f"المسمّاةِ `-{suf2}`",
+                             "stem"))
             # وقد يحملُ سابقةً مطّردةً فوقَ لاحقتِه (gaskadwjan جذعُها
             # skadw بنزعِ ga- ثمّ -jan؛ مسبارُ D العاشر)
             low_st = _fold_roman(st)
@@ -292,6 +326,17 @@ def skeleton_variants(text: str, script: str,
                             out.append((ssk,
                                         f"بنزعِ سابقةِ `{pre}-` ثمّ {slab}",
                                         "prefix"))
+                    for suf2 in sufs:
+                        sf2 = _fold_roman(suf2)
+                        if rem.endswith(sf2) and len(rem) - len(sf2) >= 2:
+                            sk4 = F.skeleton(rem[: len(rem) - len(sf2)],
+                                             script)
+                            if sk4 and sk4 != sk:
+                                out.append(
+                                    (sk4,
+                                     f"بنزعِ سابقةِ `{pre}-` ثمّ بنزعِ "
+                                     f"اللاحقةِ المسمّاةِ `-{suf2}`",
+                                     "prefix"))
                 break
         for sk, lab in F.oe_skeletons(text, script):
             out.append((sk, lab, "suffix"))

@@ -194,7 +194,15 @@ def ticked_root(field: str) -> str:
         if ok_root(root):
             return root
     return ""
+# بطاقاتُ طبقةِ النواةِ تكتبُ «المعنى القاموسي بنصه» حقلًا فرعيًّا داخلَ
+# سطرِ الكلمةِ (مسحُ 2026-08-27: 35 بطاقةً قوطيّةً كانت غائبةً عن الكتالوج)
+# وهو حقلٌ فرعيٌّ داخلَ السطرِ لا في أوّلِه فلا يصلحُ له SUBFIELD
+RX_SENSE_NUC = re.compile(r"المعنى القاموسي(?:ُّ)?(?: بنصه)?\s*[:：]\s*`?([^`؛\n]{1,160})")
+
 COUNTERPART = [
+    # حقلُ بطاقةِ النواةِ الحاسمُ يتقدّمُ: بطاقاتُ الجذورِ لا تحملُه أصلًا،
+    # وushrainjan كانت تُعرَضُ بنواةِ جارتِها لأنّ حقلًا أعمَّ خطفَها
+    SUBFIELD(r"النواة المرشحة"),
     RX_ARABIC,
     SUBFIELD(r"تحقق المعنى في المصدر(?:ين|ي)"),
     SUBFIELD(r"المدخل العربي"),
@@ -332,10 +340,22 @@ def main() -> int:
             # الخطِّ إلّا حيثُ تُصرِّحُ البطاقةُ أنّها نقلَته بحروفٍ عربيّة.
             arabic_script_ok = "بحروف عربية" in block or "بحروف عربيّة" in block
             word = spoken = ""
+            # حقلُ بطاقةِ النواةِ يكتبُ الصورةَ ثمّ نثرًا ثمّ الرومنةَ بينَ
+            # مائلَينِ فتعجزُ split_word عنه؛ يُلتقطانِ مباشرةً قبلَ الحقلِ الخامّ
+            m_nuc = re.match(
+                r"\s*`([^`\n]{1,26})`(?:[^`؛\n]*`/([^`/\n]{1,18})/`)?", field)
+            if m_nuc:
+                w_nuc = m_nuc.group(1).strip()
+                if (w_nuc and len(w_nuc) <= 26 and ":" not in w_nuc
+                        and not (ARABIC.search(w_nuc) and not arabic_script_ok)):
+                    word = w_nuc
+                    spoken = fold(m_nuc.group(2)) if m_nuc.group(2) else ""
             for cand in (anchor.group(1) if anchor else None,
                          mh.group(1) if mh else None,
                          tick.group(1) if tick else None,
                          field):
+                if word:
+                    break
                 if not cand:
                     continue
                 w, sp = split_word(cand)
@@ -356,6 +376,8 @@ def main() -> int:
             # بطاقاتُ الأسرةِ لا تُفرِدُ حقلًا للمعنى، بل تكتبُه في حقلِ العضوِ
             # بين علامتَين: `לבושא `بلا رومنة`، noun، «clothing, garment»`.
             # وكان 701 حكمًا آراميًّا وعبريًّا يسقطُ لأنّ الحقلَ لم يُسأَل.
+            if not ms:
+                ms = RX_SENSE_NUC.search(block)
             sense = branch_sense(mh.group(2) if mh else "",
                                  ms.group(1) if ms else "", field)
             # **ولا يُشتَرَطُ معنى القاموسِ لبقاءِ الصفّ.** الصفُّ حجّةٌ بصورةِ
@@ -368,7 +390,13 @@ def main() -> int:
                 m = rx.search(block)
                 if not m:
                     continue
-                root = arabic_root(m.group(1), block) or ticked_root(m.group(1))
+                if rx is COUNTERPART[0]:
+                    # حقلُ النواةِ المرشَّحةِ نسقُنا: أوّلُ ما بينَ علامتَيه
+                    # هو النواةُ حتمًا، وclean تأكلُ علامتَه الافتتاحيّةَ
+                    # فيلتقطُ arabic_root نواةَ مقارنةٍ لاحقةً (درسُ ushrainjan)
+                    root = ticked_root(m.group(1)) or arabic_root(m.group(1), block)
+                else:
+                    root = arabic_root(m.group(1), block) or ticked_root(m.group(1))
                 if root:
                     break
             if not root:

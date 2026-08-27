@@ -103,8 +103,12 @@ def main() -> int:
               if (x.get("read") or "").startswith("gaqum"))
     rf = root_first_fan(gq["read"], str(gq.get("etym", "")),
                         "gothic", table, tri)
-    check("gaqumths", bool(rf) and "ققم" in rf[0],
-          "ققم من صورة منزوعة مسماة؛ درس الحجب بمطابقة -um العارضة")
+    # تصحيح مدون (2026-08-27): كان الجواب المحفوظ «ققم» تدوينا لناتج
+    # الأداة قبل سن قانون ganauha، ومروحة ققم ترث جيم ga- كجنح وشدد،
+    # وبطاقة D رقم NUC-GOTHIC-00005 نفسها رفضت حكمها الجذري. الصواب:
+    # لا وسم جذر، والصورة الأمينة قاع qum ثنائية.
+    check("gaqumths", rf is None,
+          "ققم ترث جيم ga- كجنح؛ حكم بطاقة 00005 نفسها: لا حكم جذري")
 
     # 9: نون الفارسية أصل محفوظ خارج القيد الجرماني
     rf = root_first_fan("samana", "From X (saman /saman) + Y (-a /-e).",
@@ -123,6 +127,12 @@ def main() -> int:
           has and "nasjan" in stems and lead[2] == "stem"
           and "from" not in gtoks,
           "لمة اسم الفاعل جذع يتصدر، وfrom الشرحية لا تدخل طريق المعنى")
+
+    # 15: بقية نزع اللاحقة المسماة تنزع منها السابقة الاصطلاحية أيضا
+    rf = root_first_fan("usdaudōza", etym_of("usdaudōza"), "gothic",
+                        table, tri)
+    check("usdaudoza", rf is None,
+          "مروحة شدد ترث سين us- بعد نزع -ōza وحدها؛ لا وسم جذر")
 
     # 14: تفكيك مكتوب في حقل المعنى يطعم للمحلل، وthen التحليلية توقف
     e = next(x for x in lex["entries"]
