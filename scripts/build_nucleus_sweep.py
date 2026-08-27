@@ -164,7 +164,16 @@ def named_affixes(etym: str) -> tuple[list[str], list[str]]:
     return pres, sufs
 
 
-RX_FORMREF = re.compile(r"\bof\s+[^()]*?\(([^()]{1,40})\)")
+# ألفاظُ الصيغِ الصريحةُ وحدَها تجعلُ ما بعدَ of جذعًا؛ فالقرينُ الموازي
+# (Doublet of) والنظيرُ (Cognate) ليسا تفكيكًا (مسبارُ D الخامسَ عشرَ:
+# kintus أُقحِمَ فيها hund جذعًا من عبارةِ Doublet)
+RX_FORMREF = re.compile(
+    r"\b(?:forms?|participles?|plural|singular|genitive|dative|accusative"
+    r"|nominative|vocative|diminutive|augmentative|inflections?"
+    r"|conjugations?|declensions?|variants?|spellings?|romanizations?"
+    r"|univerbations?|substantivi[sz]ed|comparatives?|superlatives?"
+    r"|preterite|supine|gerund|infinitive|compounds?|roots?|stems?|bases?)"
+    r"\s+of\s+[^()]*?\(([^()]{1,40})\)", re.I)
 
 
 def decomp_parts(etym: str) -> tuple[list[str], bool]:

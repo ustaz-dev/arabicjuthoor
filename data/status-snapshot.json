@@ -4,7 +4,7 @@
  "note": "Every figure here is computed from repository data. Nothing on the dashboard is hand-typed.",
  "exploration": {
   "languages_open": 16,
-  "cards_total": 82830,
+  "cards_total": 83091,
   "by_language": [
    {
     "key": "old-latin",
@@ -21,7 +21,7 @@
     "key": "egyptian",
     "en": "Egyptian",
     "ar": "المصريّة القديمة",
-    "cards": 11844,
+    "cards": 11926,
     "links": 371,
     "root": 141,
     "nucleus": 229,
@@ -32,12 +32,12 @@
     "key": "persian",
     "en": "Persian",
     "ar": "الفارسيّة",
-    "cards": 11622,
-    "links": 240,
+    "cards": 11692,
+    "links": 245,
     "root": 217,
-    "nucleus": 23,
+    "nucleus": 28,
     "floor": 0,
-    "nucleus_share": 9.6
+    "nucleus_share": 11.4
    },
    {
     "key": "coptic",
@@ -54,7 +54,7 @@
     "key": "ancient-greek",
     "en": "Ancient Greek",
     "ar": "اليونانيّة القديمة",
-    "cards": 10183,
+    "cards": 10283,
     "links": 142,
     "root": 133,
     "nucleus": 9,
@@ -153,7 +153,7 @@
     "key": "gothic",
     "en": "Gothic",
     "ar": "القوطيّة",
-    "cards": 546,
+    "cards": 555,
     "links": 48,
     "root": 22,
     "nucleus": 26,
@@ -185,8 +185,8 @@
   ]
  },
  "verdicts": {
-  "links_to_arabic": 4735,
-  "closures": 2090,
+  "links_to_arabic": 4740,
+  "closures": 2096,
   "by_verdict": [
    {
     "name": "ROOT-TRACE",
@@ -195,7 +195,7 @@
    },
    {
     "name": "NUCLEUS-TRACE",
-    "count": 1056,
+    "count": 1061,
     "link": true
    },
    {
@@ -220,12 +220,12 @@
    },
    {
     "name": "COMPOUND-BOUNDARY",
-    "count": 175,
+    "count": 180,
     "link": false
    },
    {
     "name": "OUT-OF-SCOPE",
-    "count": 171,
+    "count": 172,
     "link": false
    },
    {
@@ -261,9 +261,9 @@
   ]
  },
  "pipeline": {
-  "cards_total": 51491,
-  "suspended": 38846,
-  "released": 12645,
+  "cards_total": 51500,
+  "suspended": 38850,
+  "released": 12650,
   "blockers": [
    {
     "name": "OPEN-CANDIDATE",
@@ -271,7 +271,7 @@
    },
    {
     "name": "UNLABELLED",
-    "count": 18201
+    "count": 18205
    },
    {
     "name": "LAW-GAP",

@@ -128,6 +128,12 @@ def main() -> int:
           and "from" not in gtoks,
           "لمة اسم الفاعل جذع يتصدر، وfrom الشرحية لا تدخل طريق المعنى")
 
+    # 16: القرين الموازي (Doublet of) ليس جذعا
+    et16 = etym_of("kintus")
+    stems16, _ = NS.decomp_parts(et16)
+    check("kintus", "hund" not in stems16,
+          "Doublet of (hund) قرين مواز لا إحالة صرفية فلا يقحم جذعا")
+
     # 15: بقية نزع اللاحقة المسماة تنزع منها السابقة الاصطلاحية أيضا
     rf = root_first_fan("usdaudōza", etym_of("usdaudōza"), "gothic",
                         table, tri)

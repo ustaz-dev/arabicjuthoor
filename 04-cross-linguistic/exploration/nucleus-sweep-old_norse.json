@@ -3,7 +3,7 @@
  "layer": "استكشاف؛ حوضُ مرشَّحي نواةٍ للقارئ، لا حكمَ ولا عدّ",
  "note": "وحدةُ المسحِ النواةُ الثنائيّة؛ طريقا المعنى bridge/event موسومانِ ولا يُخلَطان؛ لا سقوفَ صامتة",
  "both_total": 476,
- "sound_only_total": 3751,
+ "sound_only_total": 3750,
  "both": [
   {
    "branch": "hamr",
@@ -2443,24 +2443,21 @@
    "gloss": "to seat, set, place, put؛ to drive؛ to make, establish",
    "nuclei_found": [
     "تج",
-    "تد",
     "ثج",
     "زت",
     "ست",
     "سط",
     "شت",
     "شط",
-    "صت",
-    "طد"
+    "صت"
    ],
    "root_first": true,
    "root_fan": [
-    "ستد",
-    "ستذ"
+    "ستج"
    ],
-   "root_fan_from": "جذعُ القاموسِ `satido`",
+   "root_fan_from": "كما وردَت",
    "best_nucleus": "ست",
-   "how": "جذعُ القاموسِ `satido`؛ الزوجُ المتجاورُ 1",
+   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
    "reading_ar": "التغطية والإخفاء",
    "via": [
     {
@@ -17628,18 +17625,6 @@
    ]
   },
   {
-   "branch": "es",
-   "read": "",
-   "gloss": "archaic form of er, third-person singular indicative present of vera",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "فر",
-    "فل",
-    "ول"
-   ]
-  },
-  {
    "branch": "gras",
    "read": "",
    "gloss": "grass, herbage؛ a herb, usually with special powers",
@@ -30033,31 +30018,10 @@
    "read": "",
    "gloss": "riches, wealth",
    "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تس",
-    "حب",
-    "حف",
-    "خب",
-    "خف",
-    "دح",
-    "دخ",
     "در",
     "دل",
-    "ده",
-    "ذخ",
     "ذر",
-    "ذل",
-    "ذه",
-    "ضح",
-    "ضغ",
-    "ضه",
-    "غب",
-    "غف",
-    "فت",
-    "فط",
-    "هب"
+    "ذل"
    ]
   },
   {
@@ -30808,11 +30772,8 @@
    "read": "",
    "gloss": "contumely (offensive and abusive language or behaviour; scorn, insult), derision (act of treating with disdain), scornfu",
    "nuclei_found": [
-    "نت",
-    "نث",
     "ند",
-    "نذ",
-    "نط"
+    "نذ"
    ]
   },
   {
@@ -34147,21 +34108,19 @@
    "read": "",
    "gloss": "sill",
    "nuclei_found": [
-    "زج",
-    "زق",
-    "زك",
     "زل",
-    "سج",
-    "سق",
-    "سك",
     "سل",
-    "شج",
-    "شق",
-    "شك",
-    "صك",
     "صل",
     "صي"
-   ]
+   ],
+   "root_first": true,
+   "root_fan": [
+    "زيل",
+    "سيل",
+    "شيل",
+    "صيل"
+   ],
+   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "berging",
@@ -71590,12 +71549,6 @@
    "read": "",
    "gloss": "to choke",
    "nuclei_found": [
-    "بب",
-    "بت",
-    "بث",
-    "بط",
-    "فت",
-    "فط",
     "قب",
     "قف",
     "كب",
@@ -79828,29 +79781,18 @@
    "read": "",
    "gloss": "district؛ country (countryside)",
    "nuclei_found": [
-    "بر",
-    "بل",
     "حر",
     "حل",
-    "حو",
     "خر",
     "خل",
-    "رج",
     "رد",
     "رذ",
     "غر",
     "غل",
-    "غو",
-    "فر",
-    "فل",
-    "لج",
     "لد",
     "لذ",
-    "لي",
     "هر",
-    "هل",
-    "وب",
-    "وف"
+    "هل"
    ]
   },
   {
@@ -89891,20 +89833,8 @@
    "read": "",
    "gloss": "dark؛ dark red, rust-colored",
    "nuclei_found": [
-    "بر",
-    "بل",
-    "رن",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لن",
     "مر",
-    "مل",
-    "نب",
-    "ند",
-    "نذ",
-    "نض"
+    "مل"
    ]
   },
   {
