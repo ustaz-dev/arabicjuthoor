@@ -130,8 +130,10 @@ def strip_is_certain(label: str) -> bool:
     return (any(m in seg for m in CERTAIN_SUFFIX_MARKS)
             or any(m in seg for m in CERTAIN_PREFIX_MARKS))
 
-GERMANIC_PREFIXES = ("ufar", "faur", "mith", "and", "fra", "dis", "ga",
-                     "us", "bi", "af", "at", "in", "un", "ur", "uf")
+# الأطولُ أوّلًا حتمًا: afar قبلَ af وإلّا قُصَّت af من داخلِ المكوِّنِ
+# afar فعبرَ الهيكلُ حدَّ المركّبِ (afardags؛ مسبارُ D في الجولة 42)
+GERMANIC_PREFIXES = ("ufar", "afar", "faur", "mith", "and", "fra", "dis",
+                     "ga", "us", "bi", "af", "at", "in", "un", "ur", "uf")
 
 
 RX_PAREN = re.compile(r"\(([^()]{1,40})\)")

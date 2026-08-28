@@ -128,6 +128,13 @@ def main() -> int:
           and "from" not in gtoks,
           "لمة اسم الفاعل جذع يتصدر، وfrom الشرحية لا تدخل طريق المعنى")
 
+    # 18: الأطول أولا في السوابق: afar لا تقص af من داخلها (afardags)
+    et18 = etym_of("afardags")
+    variants18, _ = NS.skeleton_variants("afardags", "latin", et18)
+    pk = {"".join(sk) for sk, _l, tr in variants18 if tr == "prefix"}
+    check("afardags", "rdg" not in pk and any(k.startswith("dg") for k in pk),
+          "afar تمسك قبل af فتبقى dags سليمة ولا يولد r-d-g العابر")
+
     # 17: علامة المد لا تحجب لاحقة الجدول (بطاقة NUC-GOTHIC-00062)
     et17 = etym_of("habān")
     variants17, _ = NS.skeleton_variants("habān", "latin", et17)

@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51507,
+ "cards_total": 51514,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -256124,6 +256124,18 @@
    "card": "نواة: 𐌷𐌰𐌱𐌰𐌽 /habān/ ↔ عطب تعرية؛ NUC-GOTHIC-00062",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب طي علامات المد عند مطابقة النهايات الجرمانية اليقينية، أو إدخال `-ān` في جدولها الموسوم، حتى تولد صورة `h-b` وتحجب `h-b-n`. ثم تضاف `habān` إلى الصمامة، وتبنى الأحواض التسعة، ويستأنف العمل من `both[51]`.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌰𐍆𐌰𐍂𐌳𐌰𐌲𐍃 /afardags/ ↔ عطب حد المركب؛ NUC-GOTHIC-00069",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن تحجب حدود التفكيك المنشور مطابقة السوابق الاصطلاحية داخل المكون، وألا يعمل `af-` في صدر `afar`. ثم تضاف `afardags` إلى الصمامة، وتبنى الأحواض التسعة، ويعاد الحكم من `both[58]` قبل استئناف `satjan`.",
    "gaps": [
     "TOOL-GAP"
    ],
