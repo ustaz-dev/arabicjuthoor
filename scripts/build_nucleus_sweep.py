@@ -55,7 +55,7 @@ STOP = {
 # والأعلامُ عندَنا طبقةٌ مستقلّةٌ بأمرِ الأوامرِ القائمةِ أصلًا.
 RX_ONOMASTIC = re.compile(
     r"(given name|proper name|surname|a male name|a female name|"
-    r"place name|toponym|patronymic|the name of)", re.I)
+    r"place name|toponym|patronymic|the name of|biblical (?:character|figure|name)|iscariot|one of the (?:hebrew patriarchs|twelve)|a tribe of|apostle|disciple of jesus|evangelist|prophet[  ]|king of (?:israel|judah|persia|babylon))", re.I)
 
 
 def words_of(text: str) -> set[str]:

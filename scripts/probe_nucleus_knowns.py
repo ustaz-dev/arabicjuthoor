@@ -128,6 +128,12 @@ def main() -> int:
           and "from" not in gtoks,
           "لمة اسم الفاعل جذع يتصدر، وfrom الشرحية لا تدخل طريق المعنى")
 
+    # 19: أعلام الكتاب تمسك بصيغة Biblical character (بطاقة paitrus)
+    e19 = next(x for x in lex["entries"]
+               if NS._fold_roman(x.get("read") or "") == "paitrus")
+    check("paitrus", bool(NS.RX_ONOMASTIC.search(str(e19.get("en", "")))),
+          "Peter, the Biblical character علم يمسكه الغربال")
+
     # 18: الأطول أولا في السوابق: afar لا تقص af من داخلها (afardags)
     et18 = etym_of("afardags")
     variants18, _ = NS.skeleton_variants("afardags", "latin", et18)

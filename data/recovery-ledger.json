@@ -1,6 +1,6 @@
 {
  "generated_from": "scan_recovery_ledger.py",
- "cards_total": 51514,
+ "cards_total": 51519,
  "suspended": [
   {
    "file": "04-cross-linguistic/readings/akkadian.md",
@@ -256136,6 +256136,30 @@
    "card": "نواة: 𐌰𐍆𐌰𐍂𐌳𐌰𐌲𐍃 /afardags/ ↔ عطب حد المركب؛ NUC-GOTHIC-00069",
    "verdict": "",
    "closure": "`TOOL-GAP`؛ المطلوب أن تحجب حدود التفكيك المنشور مطابقة السوابق الاصطلاحية داخل المكون، وألا يعمل `af-` في صدر `afar`. ثم تضاف `afardags` إلى الصمامة، وتبنى الأحواض التسعة، ويعاد الحكم من `both[58]` قبل استئناف `satjan`.",
+   "gaps": [
+    "TOOL-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐌷𐌰𐌻𐌳𐌰𐌽 /haldan/ ↔ خلد؛ NUC-GOTHIC-00072",
+   "verdict": "",
+   "closure": "`LAW-GAP`.",
+   "gaps": [
+    "LAW-GAP"
+   ],
+   "blocker_type": "",
+   "required": "",
+   "row_mentions": []
+  },
+  {
+   "file": "04-cross-linguistic/readings/gothic.md",
+   "card": "نواة: 𐍀𐌰𐌹𐍄𐍂𐌿𐍃 /paitrus/ ↔ عطب عزل الأعلام؛ NUC-GOTHIC-00074",
+   "verdict": "",
+   "closure": "`TOOL-GAP`؛ المطلوب أن يعزل الباني كل مدخلة نوعها `name` قبل غربلة المعنى، أو يوجهها إلى حوض الأعلام المستقل، وأن يضاف `paitrus` إلى الصمامة بشرط غيابه من `both` و`sound_only` العامين، ثم تعاد الأحواض التسعة.",
    "gaps": [
     "TOOL-GAP"
    ],

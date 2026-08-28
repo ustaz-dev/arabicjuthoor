@@ -2,8 +2,8 @@
  "language": "latin",
  "layer": "استكشاف؛ حوضُ مرشَّحي نواةٍ للقارئ، لا حكمَ ولا عدّ",
  "note": "وحدةُ المسحِ النواةُ الثنائيّة؛ طريقا المعنى bridge/event موسومانِ ولا يُخلَطان؛ لا سقوفَ صامتة",
- "both_total": 6583,
- "sound_only_total": 39470,
+ "both_total": 6555,
+ "sound_only_total": 39047,
  "both": [
   {
    "branch": "convolvo",
@@ -9897,37 +9897,6 @@
    "strength": 21
   },
   {
-   "branch": "Peucetii",
-   "read": "",
-   "gloss": "A tribe of southern Italy, inhabiting the southern part of Apulia",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "جث",
-    "فج",
-    "فق",
-    "فك",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث"
-   ],
-   "best_nucleus": "كث",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "التجمع الكثيف لأشياء دقيقة",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "part"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
    "branch": "cavaedium",
    "read": "",
    "gloss": "cavaedium, atrium, central hall",
@@ -15425,39 +15394,6 @@
      "path": "event",
      "shared": [
       "into"
-     ]
-    }
-   ],
-   "strength": 21
-  },
-  {
-   "branch": "Amardi",
-   "read": "",
-   "gloss": "A tribe of Asia settled near the Hyrcani",
-   "nuclei_found": [
-    "رد",
-    "رذ",
-    "رض",
-    "لد",
-    "لذ",
-    "مر",
-    "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مرد",
-    "مرض",
-    "ملد"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "رض",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "تضخم الجرم مع رخاوة باطنه",
-   "via": [
-    {
-     "path": "event",
-     "shared": [
-      "settled"
      ]
     }
    ],
@@ -29443,62 +29379,6 @@
      "path": "bridge",
      "shared": [
       "male"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "vox clamantis in deserto",
-   "read": "",
-   "gloss": "voice in the wilderness; a prophet who is not listened to",
-   "nuclei_found": [
-    "بك",
-    "تس",
-    "جر",
-    "جل",
-    "دس",
-    "رت",
-    "رث",
-    "رط",
-    "رم",
-    "زر",
-    "زل",
-    "زن",
-    "سر",
-    "سل",
-    "سن",
-    "شر",
-    "شن",
-    "صر",
-    "صل",
-    "صن",
-    "ضز",
-    "فك",
-    "قر",
-    "قل",
-    "كر",
-    "كك",
-    "كل",
-    "لت",
-    "لط",
-    "لم",
-    "من",
-    "نت",
-    "نث",
-    "ند",
-    "نذ",
-    "نض",
-    "نط"
-   ],
-   "best_nucleus": "لم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 4",
-   "reading_ar": "نوع من الضم أو التضام لما شأنه الانتشار إلى الظاهر",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "not"
      ]
     }
    ],
@@ -57785,37 +57665,6 @@
    "strength": 11
   },
   {
-   "branch": "Simeon",
-   "read": "",
-   "gloss": "Simeon (Biblical figure, son of Jacob)؛ other Biblical characters of the same name",
-   "nuclei_found": [
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "من"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زمن",
-    "سمن",
-    "شمن"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "سم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "نوع من الخرق الذي يضم",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "name"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "processus",
    "read": "",
    "gloss": "A course, progression, progress, process, advance.؛ An elapsing, passing away, lapse.",
@@ -65753,27 +65602,6 @@
      "path": "bridge",
      "shared": [
       "man"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Remi",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica whose chief town was Durocortorum",
-   "nuclei_found": [
-    "رم",
-    "لم"
-   ],
-   "best_nucleus": "لم",
-   "how": "كما وردَت؛ الهيكلُ نفسُه",
-   "reading_ar": "نوع من الضم أو التضام لما شأنه الانتشار إلى الظاهر",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "whose"
      ]
     }
    ],
@@ -75605,59 +75433,6 @@
      "path": "bridge",
      "shared": [
       "principal"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "apostolicus",
-   "read": "",
-   "gloss": "apostle؛ bishop, (specifically) the pope",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جز",
-    "جس",
-    "رج",
-    "رق",
-    "رك",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طر",
-    "طل",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "best_nucleus": "طر",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الامتداد مع الرقة أو التتابع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "bishop"
      ]
     }
    ],
@@ -182262,33 +182037,6 @@
    "strength": 11
   },
   {
-   "branch": "Menapii",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica which dwelt between the Meuse and the Scheldt",
-   "nuclei_found": [
-    "من",
-    "نب",
-    "نف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "منف"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "من",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "القوة والثبات مع صفة (نقص، وثاقة، حجز)",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "between"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "amarulentus",
    "read": "",
    "gloss": "very bitter, full of bitterness",
@@ -204269,39 +204017,6 @@
    "strength": 11
   },
   {
-   "branch": "Labeates",
-   "read": "",
-   "gloss": "A tribe of Illyricum, whose chief town was Scodra",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تس",
-    "رب",
-    "لب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ربت",
-    "ربث",
-    "ربط",
-    "لبث"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)",
-   "best_nucleus": "رب",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الاستغلاظ وما إليه من تماسك وتجمع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "chief"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "Herminius",
    "read": "",
    "gloss": "of or pertaining to the gens Hermīnius.",
@@ -204606,42 +204321,6 @@
      "path": "bridge",
      "shared": [
       "azali"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Latovici",
-   "read": "",
-   "gloss": "A tribe of Pannonia mentioned by Pliny",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "تب",
-    "تف",
-    "ثب",
-    "رت",
-    "رث",
-    "رط",
-    "طب",
-    "طف",
-    "طو",
-    "فج",
-    "فق",
-    "فك",
-    "لت",
-    "لط"
-   ],
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
      ]
     }
    ],
@@ -211702,34 +211381,6 @@
    "strength": 11
   },
   {
-   "branch": "Peucini",
-   "read": "",
-   "gloss": "A tribe of Germany mentioned by Pliny",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "جن",
-    "فج",
-    "فق",
-    "فك",
-    "قن",
-    "كن"
-   ],
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "foedifragus",
    "read": "",
    "gloss": "league-breaking, perfidious",
@@ -212065,36 +211716,6 @@
    "strength": 11
   },
   {
-   "branch": "Veromandui",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica, whose capital was Augusta Veromanduorum",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رم",
-    "فر",
-    "فل",
-    "لم",
-    "من",
-    "ند",
-    "نذ",
-    "نض",
-    "ول"
-   ],
-   "best_nucleus": "لم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "نوع من الضم أو التضام لما شأنه الانتشار إلى الظاهر",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "whose"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "Augusta Veromanduorum",
    "read": "",
    "gloss": "The chief city of the Veromandui in Gallia Belgica, now St. Quentin",
@@ -212160,42 +211781,6 @@
      "path": "bridge",
      "shared": [
       "city"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Treveri",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica whose chief town was Augusta Treverorum",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رب",
-    "رف",
-    "رو",
-    "طر",
-    "طل",
-    "فر",
-    "فل",
-    "لب",
-    "لف",
-    "لو",
-    "ول"
-   ],
-   "best_nucleus": "رب",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الاستغلاظ وما إليه من تماسك وتجمع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "chief"
      ]
     }
    ],
@@ -212432,49 +212017,6 @@
      "path": "bridge",
      "shared": [
       "road"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Bigerri",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "بج",
-    "بغ",
-    "بق",
-    "بك",
-    "جر",
-    "جل",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بجر",
-    "بجل",
-    "بغر",
-    "بغل",
-    "بقر",
-    "بقل",
-    "بكر",
-    "بكل"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
      ]
     }
    ],
@@ -213157,36 +212699,6 @@
      "path": "bridge",
      "shared": [
       "right"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Elbocori",
-   "read": "",
-   "gloss": "A tribe of Lusitania mentioned by Pliny",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "جر",
-    "جل",
-    "رب",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لب"
-   ],
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
      ]
     }
    ],
@@ -214109,30 +213621,6 @@
      "path": "bridge",
      "shared": [
       "small"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Iobacchi",
-   "read": "",
-   "gloss": "A tribe of Marmarica mentioned by Ptolemy",
-   "nuclei_found": [
-    "بق",
-    "بك",
-    "قح",
-    "قه",
-    "كه"
-   ],
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
      ]
     }
    ],
@@ -215484,43 +214972,6 @@
      "path": "bridge",
      "shared": [
       "whose"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Saboci",
-   "read": "",
-   "gloss": "A tribe of European Sarmatia mentioned by Ptolemy",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "زب",
-    "سب",
-    "شب",
-    "صب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زبج",
-    "زبق",
-    "سبج",
-    "سبق",
-    "سبك",
-    "شبق",
-    "شبك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
      ]
     }
    ],
@@ -219057,37 +218508,6 @@
    "strength": 11
   },
   {
-   "branch": "Vacomagi",
-   "read": "",
-   "gloss": "A tribe of Britannia mentioned by Ptolemy",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "جم",
-    "فج",
-    "فق",
-    "فك",
-    "قم",
-    "كم",
-    "مج",
-    "مق",
-    "مك"
-   ],
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "Farsuleius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -220781,43 +220201,6 @@
    "strength": 11
   },
   {
-   "branch": "Brigantes",
-   "read": "",
-   "gloss": "A tribe of Britain, whose queen was Cartimandua",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تس",
-    "جن",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غن",
-    "قن",
-    "كن",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "نت",
-    "نث",
-    "نط"
-   ],
-   "best_nucleus": "لك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "نوع من التراكم يتمثل في الاكتناز باللحم",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "queen"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "Salienus",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\", famously held by؛ a Roman nomen gentile, gens or \"family name\", famously h",
@@ -221346,65 +220729,6 @@
      "path": "bridge",
      "shared": [
       "small"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Sevaces",
-   "read": "",
-   "gloss": "A tribe of Noricum mentioned by Ptolemy",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "جز",
-    "جس",
-    "زب",
-    "زف",
-    "سب",
-    "سف",
-    "سو",
-    "شب",
-    "شف",
-    "شو",
-    "صب",
-    "صف",
-    "فج",
-    "فق",
-    "فك",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زبج",
-    "زبق",
-    "زوج",
-    "زوق",
-    "زوك",
-    "سبج",
-    "سبق",
-    "سبك",
-    "سفك",
-    "سوج",
-    "سوق",
-    "سوك"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)",
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
      ]
     }
    ],
@@ -222181,37 +221505,6 @@
      "path": "bridge",
      "shared": [
       "time"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Libicii",
-   "read": "",
-   "gloss": "A tribe of Gallia Transpadana whose chief city was Vercellae",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "رب",
-    "لب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ربك",
-    "لبق",
-    "لبك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "رب",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "الاستغلاظ وما إليه من تماسك وتجمع",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "chief"
      ]
     }
    ],
@@ -224670,81 +223963,6 @@
    "strength": 11
   },
   {
-   "branch": "Cercetae",
-   "read": "",
-   "gloss": "A tribe of Sarmatia which occupied the north-eastern shore of the Black Sea",
-   "nuclei_found": [
-    "جث",
-    "جر",
-    "جل",
-    "رج",
-    "رق",
-    "رك",
-    "قت",
-    "قث",
-    "قر",
-    "قط",
-    "قل",
-    "كت",
-    "كث",
-    "كر",
-    "كل",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "best_nucleus": "كل",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 1",
-   "reading_ar": "تجمع الشيء كتلة دون حد أو طرف دقيق",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "black"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Rhymosoli",
-   "read": "",
-   "gloss": "A tribe of Asiatic Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "حي",
-    "رح",
-    "رخ",
-    "رغ",
-    "ره",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لح",
-    "لغ",
-    "له",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ],
-   "best_nucleus": "حي",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الامتلاء والحيازة بقوة وحياة",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "tribe"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "testis unus, testis nullus",
    "read": "",
    "gloss": "A single witness or other evidence to an event is insufficient to establish that the event truly happened.",
@@ -224893,45 +224111,6 @@
      "path": "bridge",
      "shared": [
       "man"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Costoboci",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "تب",
-    "ثب",
-    "جز",
-    "جس",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طب",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش"
-   ],
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 4",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
      ]
     }
    ],
@@ -225957,55 +225136,6 @@
    "strength": 11
   },
   {
-   "branch": "Sorofages",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بج",
-    "بغ",
-    "بق",
-    "بك",
-    "جز",
-    "جس",
-    "رب",
-    "رف",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "غز",
-    "غس",
-    "غش",
-    "غص",
-    "فج",
-    "فق",
-    "فك",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش",
-    "لب",
-    "لف"
-   ],
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 3",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
    "branch": "Gedrosia",
    "read": "",
    "gloss": "an ancient district of South Asia, in modern Pakistan and Iran, bounded on the east by the Indus and on the west by Carm",
@@ -226040,44 +225170,6 @@
      "path": "bridge",
      "shared": [
       "ancient"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Aspagani",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بج",
-    "بغ",
-    "بق",
-    "بك",
-    "جن",
-    "زب",
-    "زف",
-    "سب",
-    "سف",
-    "شب",
-    "شف",
-    "صب",
-    "صف",
-    "غن",
-    "فج",
-    "فق",
-    "فك",
-    "قن",
-    "كن"
-   ],
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
      ]
     }
    ],
@@ -232562,52 +231654,6 @@
      "path": "bridge",
      "shared": [
       "other"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Levaci",
-   "read": "",
-   "gloss": "a tribe of Gallia Belgica mentioned by Caesar",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "رب",
-    "رف",
-    "رو",
-    "فج",
-    "فق",
-    "فك",
-    "لب",
-    "لف",
-    "لو"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ربك",
-    "رفج",
-    "رفق",
-    "روج",
-    "روق",
-    "روك",
-    "لبق",
-    "لبك",
-    "لفق",
-    "لوق",
-    "لوك"
-   ],
-   "root_fan_from": "كما وردَت",
-   "best_nucleus": "بك",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "الضغط والاحتباس",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "mentioned"
      ]
     }
    ],
@@ -242240,36 +241286,6 @@
      "path": "bridge",
      "shared": [
       "present"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Abarimon",
-   "read": "",
-   "gloss": "A legendary place in Scythia, inhabited by a tribe of people whose feet are turned backwards.",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رم",
-    "لم",
-    "من"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برم",
-    "بلم"
-   ],
-   "root_fan_from": "بإسقاطِ نهايةِ التصريفِ -on",
-   "best_nucleus": "لم",
-   "how": "كما وردَت؛ الزوجُ المتجاورُ 2",
-   "reading_ar": "نوع من الضم أو التضام لما شأنه الانتشار إلى الظاهر",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "whose"
      ]
     }
    ],
@@ -254957,37 +253973,6 @@
      "path": "bridge",
      "shared": [
       "not"
-     ]
-    }
-   ],
-   "strength": 11
-  },
-  {
-   "branch": "Symeon",
-   "read": "",
-   "gloss": "Symeon, (Biblical figure, son of Jacob)؛ other Biblical characters of the same name",
-   "nuclei_found": [
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "صي",
-    "من"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سيم",
-    "شيم"
-   ],
-   "root_fan_from": "بإسقاطِ نهايةِ التصريفِ -on",
-   "best_nucleus": "سم",
-   "how": "بإسقاطِ نهايةِ التصريفِ -on؛ الطرفانِ (الوسطُ y خانةُ مدٍّ، قاعدةُ التعديل 1)",
-   "reading_ar": "نوع من الخرق الذي يضم",
-   "via": [
-    {
-     "path": "bridge",
-     "shared": [
-      "name"
      ]
     }
    ],
@@ -271299,23 +270284,6 @@
    ]
   },
   {
-   "branch": "Daniel",
-   "read": "",
-   "gloss": "Daniel (Biblical character)؛ Book of Daniel",
-   "nuclei_found": [
-    "دن",
-    "ذن",
-    "ضن",
-    "نر",
-    "نل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "دنر"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "textile",
    "read": "",
    "gloss": "fabric, textile, canvas, piece of cloth",
@@ -279340,15 +278308,6 @@
     "كلس"
    ],
    "root_fan_from": "كلمةُ «Achillis» من العبارة"
-  },
-  {
-   "branch": "Aaron",
-   "read": "",
-   "gloss": "Aaron (biblical figure)",
-   "nuclei_found": [
-    "رن",
-    "لن"
-   ]
   },
   {
    "branch": "active",
@@ -291484,20 +290443,6 @@
     "لك",
     "هر",
     "هل"
-   ]
-  },
-  {
-   "branch": "Saul",
-   "read": "",
-   "gloss": "Saul, the first king of Israel",
-   "nuclei_found": [
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل"
    ]
   },
   {
@@ -310234,20 +309179,6 @@
    ]
   },
   {
-   "branch": "Jonathan",
-   "read": "",
-   "gloss": "Jonathan (Biblical character)",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "جن",
-    "طن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
    "branch": "panis",
    "read": "",
    "gloss": "bread, loaf؛ food or nourishment in general, whether physical or spiritual؛ a mass in the shape of a loaf",
@@ -311467,19 +310398,6 @@
     "كبد"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Dari",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "ضر",
-    "ضل"
-   ]
   },
   {
    "branch": "Datum",
@@ -322148,40 +321066,6 @@
    ]
   },
   {
-   "branch": "Lucas",
-   "read": "",
-   "gloss": "Luke the Evangelist",
-   "nuclei_found": [
-    "جز",
-    "جس",
-    "رج",
-    "رق",
-    "رك",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رجز",
-    "رجس",
-    "رجش",
-    "رقش",
-    "رقص",
-    "ركز",
-    "ركس",
-    "لكز",
-    "لكس"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "utrum",
    "read": "",
    "gloss": "whether",
@@ -327989,23 +326873,6 @@
     "قلس",
     "قلص",
     "كلس"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Ephraim",
-   "read": "",
-   "gloss": "Ephraim (son of Joseph, progenitor of one of the twelve tribes of Israel)",
-   "nuclei_found": [
-    "رم",
-    "فر",
-    "فل",
-    "لم"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "فرم",
-    "فلم"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -345270,22 +344137,6 @@
     "ققم"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Matthias",
-   "read": "",
-   "gloss": "Saint Matthias (the Apostle chosen to replace Judas Iscariot after the latter’s Betrayal of Christ and subsequent suicid",
-   "nuclei_found": [
-    "تس",
-    "مت",
-    "مث",
-    "مط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مطط"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "collare",
@@ -383761,39 +382612,6 @@
    ]
   },
   {
-   "branch": "Paulus",
-   "read": "",
-   "gloss": "A cognomen of the Aemilius clan.؛ Paul (biblical figure).",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "فر",
-    "فل",
-    "لز",
-    "لس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برز",
-    "برس",
-    "برش",
-    "برص",
-    "بلز",
-    "بلس",
-    "بلش",
-    "فرز",
-    "فرس",
-    "فرش",
-    "فرص",
-    "فلز"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "HSE",
    "read": "",
    "gloss": "abbreviation of hic sepultus est (here is buried)",
@@ -387841,17 +386659,6 @@
    ]
   },
   {
-   "branch": "Sanni",
-   "read": "",
-   "gloss": "A tribe of Pontus mentioned by Pliny",
-   "nuclei_found": [
-    "زن",
-    "سن",
-    "شن",
-    "صن"
-   ]
-  },
-  {
    "branch": "rudo",
    "read": "",
    "gloss": "to roar؛ to bray؛ to bell",
@@ -389290,26 +388097,6 @@
     "قن",
     "كن"
    ]
-  },
-  {
-   "branch": "Timotheus",
-   "read": "",
-   "gloss": "Timothy, a companion of Paul (biblical character)",
-   "nuclei_found": [
-    "تس",
-    "تم",
-    "ثم",
-    "طم",
-    "مت",
-    "مث",
-    "مط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "تمت",
-    "طمث"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "emptor",
@@ -391871,15 +390658,6 @@
     "ثبط"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Rami",
-   "read": "",
-   "gloss": "A tribe of Caucasus mentioned by Pliny",
-   "nuclei_found": [
-    "رم",
-    "لم"
-   ]
   },
   {
    "branch": "omnipotens",
@@ -403869,21 +402647,6 @@
    ]
   },
   {
-   "branch": "Nathanael",
-   "read": "",
-   "gloss": "Nathaniel, an Apostle in the Gospel of John.",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "طن",
-    "نت",
-    "نث",
-    "نر",
-    "نط",
-    "نل"
-   ]
-  },
-  {
    "branch": "sexagenarius",
    "read": "",
    "gloss": "of or relating to sixty؛ sexagenary, sixty years old; (as a noun) a man of sixty, a sexagenarian",
@@ -405837,32 +404600,6 @@
    ]
   },
   {
-   "branch": "Salomon",
-   "read": "",
-   "gloss": "Solomon (biblical figure)",
-   "nuclei_found": [
-    "رم",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لم",
-    "من"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زلم",
-    "سرم",
-    "سلم",
-    "شرم",
-    "صرم"
-   ],
-   "root_fan_from": "بإسقاطِ نهايةِ التصريفِ -on"
-  },
-  {
    "branch": "afficio",
    "read": "",
    "gloss": "to cause someone to experience something; to visit, inflict, bestow؛ to treat, manage, handle؛ to influence, have an eff",
@@ -407315,29 +406052,6 @@
    "root_fan": [
     "قلم",
     "كلم"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Eliseus",
-   "read": "",
-   "gloss": "Elisha (Biblical figure)",
-   "nuclei_found": [
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "سس",
-    "لز",
-    "لس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رزز",
-    "رشش",
-    "رصص",
-    "لسس",
-    "لصص"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -410543,40 +409257,6 @@
     "فشط"
    ],
    "root_fan_from": "بإسقاطِ صدرِ `pro-`"
-  },
-  {
-   "branch": "evangelista",
-   "read": "",
-   "gloss": "evangelist, preacher",
-   "nuclei_found": [
-    "بن",
-    "جر",
-    "جل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "غر",
-    "غل",
-    "فن",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لز",
-    "لس",
-    "نج",
-    "نغ",
-    "نق",
-    "نك",
-    "ون"
-   ]
   },
   {
    "branch": "focale",
@@ -424128,47 +422808,6 @@
     "بلك"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "apostolicus",
-   "read": "",
-   "gloss": "Of or pertaining to an apostle; apostolic.",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جز",
-    "جس",
-    "رج",
-    "رق",
-    "رك",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طر",
-    "طل",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش",
-    "لج",
-    "لق",
-    "لك"
-   ]
   },
   {
    "branch": "beatitudo",
@@ -461038,32 +459677,6 @@
     "مد",
     "مض"
    ]
-  },
-  {
-   "branch": "Hebron",
-   "read": "",
-   "gloss": "Hebron (city)؛ Hebron (Biblical figure)",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "حب",
-    "خب",
-    "رن",
-    "غب",
-    "لن",
-    "هب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "حبر",
-    "حبل",
-    "خبر",
-    "خبل",
-    "غبر",
-    "هبر",
-    "هبل"
-   ],
-   "root_fan_from": "بإسقاطِ نهايةِ التصريفِ -on"
   },
   {
    "branch": "insidiae",
@@ -600646,39 +599259,6 @@
    ]
   },
   {
-   "branch": "apostolus",
-   "read": "",
-   "gloss": "a notice sent to a higher tribunal or judge؛ Apostle",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طر",
-    "طل",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "لز",
-    "لس"
-   ]
-  },
-  {
    "branch": "arefacio",
    "read": "",
    "gloss": "to dry (up)؛ to wither",
@@ -606813,23 +605393,6 @@
     "لت",
     "لط"
    ]
-  },
-  {
-   "branch": "Ansis",
-   "read": "",
-   "gloss": "a tribe of demigods among the Goths",
-   "nuclei_found": [
-    "سس",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "نصص"
-   ],
-   "root_fan_from": "جذعُ القاموسِ `ansus`"
   },
   {
    "branch": "archisynagogus",
@@ -629309,48 +627872,6 @@
     "صب",
     "فر",
     "فل",
-    "لز",
-    "لس"
-   ]
-  },
-  {
-   "branch": "pseudapostolus",
-   "read": "",
-   "gloss": "false apostle",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "دب",
-    "دف",
-    "ذب",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زت",
-    "زد",
-    "ست",
-    "سد",
-    "سط",
-    "شت",
-    "شد",
-    "شط",
-    "صت",
-    "صد",
-    "ضب",
-    "ضف",
-    "طر",
-    "طل",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
     "لز",
     "لس"
    ]
@@ -732506,26 +731027,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Cephas",
-   "read": "",
-   "gloss": "The apostle Peter, using the name given to him by Jesus.",
-   "nuclei_found": [
-    "جف",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "قف",
-    "كف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "قفز",
-    "قفص"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "pulica",
    "read": "",
    "gloss": "flea",
@@ -746617,33 +745118,6 @@
     "نث",
     "نط"
    ]
-  },
-  {
-   "branch": "Serbi",
-   "read": "",
-   "gloss": "a tribe of Sarmatia mentioned by Pliny and Ptolemy",
-   "nuclei_found": [
-    "رب",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زرب",
-    "سرب",
-    "سلب",
-    "شرب",
-    "شلب",
-    "صرب",
-    "صلب"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "ratiocinativus",
@@ -801411,15 +799885,6 @@
    ]
   },
   {
-   "branch": "Iudas",
-   "read": "",
-   "gloss": "Judas؛ Jude (biblical book and apostle)؛ Judah",
-   "nuclei_found": [
-    "دس",
-    "ضز"
-   ]
-  },
-  {
    "branch": "catarrhalis",
    "read": "",
    "gloss": "catarrhal",
@@ -803548,27 +802013,6 @@
    ]
   },
   {
-   "branch": "Mardi",
-   "read": "",
-   "gloss": "A tribe of Armenia mentioned by Tacitus",
-   "nuclei_found": [
-    "رد",
-    "رذ",
-    "رض",
-    "لد",
-    "لذ",
-    "مر",
-    "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مرد",
-    "مرض",
-    "ملد"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "ornithorhynchus",
    "read": "",
    "gloss": "The taxonomic genus Ornithorhynchus.؛ A platypus.",
@@ -804822,42 +803266,6 @@
     "طل",
     "لم"
    ]
-  },
-  {
-   "branch": "Georgi",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرج",
-    "جرك",
-    "غرق",
-    "غلق",
-    "قرق",
-    "قلق",
-    "كرج",
-    "كرك",
-    "كلك"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Caecilia",
@@ -806537,18 +804945,6 @@
     "مث",
     "مط",
     "من"
-   ]
-  },
-  {
-   "branch": "Vali",
-   "read": "",
-   "gloss": "A tribe of Sarmatia, which dwelt between Mount Ceraunus and the river Volga",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "فر",
-    "فل",
-    "ول"
    ]
   },
   {
@@ -837841,25 +836237,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Sabini",
-   "read": "",
-   "gloss": "A tribe of Central Italy, who inhabited the central chain of the Apennines",
-   "nuclei_found": [
-    "بن",
-    "زب",
-    "سب",
-    "شب",
-    "صب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زبن",
-    "سبن",
-    "صبن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Santoni",
    "read": "",
    "gloss": "A Celtic tribe of Aquitania",
@@ -837988,20 +836365,6 @@
    "nuclei_found": [
     "رب",
     "لب"
-   ]
-  },
-  {
-   "branch": "Serri",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل"
    ]
   },
   {
@@ -858844,16 +857207,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Daunii",
-   "read": "",
-   "gloss": "A tribe of southern Italy, inhabiting the part of Apulia included between the rivers Aufidus and Frento",
-   "nuclei_found": [
-    "دن",
-    "ذن",
-    "ضن"
-   ]
-  },
-  {
    "branch": "Parca",
    "read": "",
    "gloss": "one of the Fates (one of the three goddesses who control destiny)",
@@ -868734,20 +867087,6 @@
     "لط",
     "هر",
     "هل"
-   ]
-  },
-  {
-   "branch": "Silae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل"
    ]
   },
   {
@@ -881789,26 +880128,6 @@
     "لط",
     "ول"
    ]
-  },
-  {
-   "branch": "Sindi",
-   "read": "",
-   "gloss": "A tribe of Sarmatia settled at the foot of the Caucasus",
-   "nuclei_found": [
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زند",
-    "سند"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "antemurale Christianitatis",
@@ -918721,29 +917040,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Bastuli",
-   "read": "",
-   "gloss": "A tribe of Hispania Baetica who lived near the strait of Gibraltar",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طر",
-    "طل"
-   ]
-  },
-  {
    "branch": "hirpex",
    "read": "",
    "gloss": "harrow",
@@ -918789,30 +917085,6 @@
     "بسط"
    ],
    "root_fan_from": "بإسقاطِ ميمِ الجمعِ المجرورِ -um"
-  },
-  {
-   "branch": "Turduli",
-   "read": "",
-   "gloss": "Turduli, a tribe of Hispania Baetica who lived to the northeast of the Turdetani",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رد",
-    "رذ",
-    "رض",
-    "ضر",
-    "ضل",
-    "طر",
-    "طل",
-    "لد",
-    "لذ"
-   ]
   },
   {
    "branch": "Mentesa",
@@ -919453,28 +917725,6 @@
     "كم",
     "لت",
     "لط"
-   ]
-  },
-  {
-   "branch": "Turdetani",
-   "read": "",
-   "gloss": "A tribe of Hispania Baetica who lived near the Turduli.",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "تن",
-    "ثر",
-    "ثل",
-    "ثن",
-    "دث",
-    "رد",
-    "رذ",
-    "رض",
-    "طر",
-    "طل",
-    "طن",
-    "لد",
-    "لذ"
    ]
   },
   {
@@ -922955,29 +921205,6 @@
    ]
   },
   {
-   "branch": "Varduli",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis who dwelt westward of the Vascones",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رد",
-    "رذ",
-    "رض",
-    "ضر",
-    "ضل",
-    "فر",
-    "فل",
-    "لد",
-    "لذ",
-    "ول"
-   ]
-  },
-  {
    "branch": "Clunia",
    "read": "",
    "gloss": "a city in Hispania Tarraconensis",
@@ -922998,33 +921225,6 @@
     "كرن"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Turmogidi",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جد",
-    "جذ",
-    "رم",
-    "طر",
-    "طل",
-    "غد",
-    "غض",
-    "قد",
-    "قذ",
-    "قض",
-    "كد",
-    "كذ",
-    "لم",
-    "مج",
-    "مق",
-    "مك"
-   ]
   },
   {
    "branch": "Segisamo",
@@ -925993,17 +924193,6 @@
     "طلب"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Bessi",
-   "read": "",
-   "gloss": "A tribe of Thrace inhabiting the southern slope of Mount Haemus",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص"
-   ]
   },
   {
    "branch": "tuberositas",
@@ -935579,28 +933768,6 @@
    "root_fan_from": "جذعُ القاموسِ `verb`"
   },
   {
-   "branch": "Salentini",
-   "read": "",
-   "gloss": "A tribe of Apulia who inhabited the heel of Italy",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "رن",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "طن",
-    "لن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
    "branch": "Aletium",
    "read": "",
    "gloss": "A town of the Salentini in the interior of Calabria",
@@ -936216,29 +934383,6 @@
    "nuclei_found": [
     "جر",
     "جل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ]
-  },
-  {
-   "branch": "Pediculi",
-   "read": "",
-   "gloss": "A tribe of Apulia",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "جر",
-    "جل",
-    "دق",
-    "ذق",
-    "ذك",
-    "ضج",
-    "ضق",
-    "فد",
-    "فض",
     "قر",
     "قل",
     "كر",
@@ -939850,22 +937994,6 @@
     "ردم"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Praetutii",
-   "read": "",
-   "gloss": "A tribe of Central Italy, inhabiting a part of Picenum bounded by the river Vomanus on the south and Albula on the north",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رت",
-    "رث",
-    "رط",
-    "فر",
-    "فل",
-    "لت",
-    "لط"
-   ]
   },
   {
    "branch": "Vomanus",
@@ -944934,15 +943062,6 @@
    ]
   },
   {
-   "branch": "Orobii",
-   "read": "",
-   "gloss": "A tribe of Gallia Cisalpina who founded, according to Cato, Bergomum and Comum",
-   "nuclei_found": [
-    "رب",
-    "لب"
-   ]
-  },
-  {
    "branch": "Orobis",
    "read": "",
    "gloss": "a river in Gallia Narbonensis which flows into the Mediterranean Sea, now the river Orb",
@@ -946951,27 +945070,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Venostes",
-   "read": "",
-   "gloss": "A tribe of the Alps",
-   "nuclei_found": [
-    "بن",
-    "تس",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "فن",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "ون"
-   ]
-  },
-  {
    "branch": "Breuni",
    "read": "",
    "gloss": "A pre-Roman tribe of the Alps, who dwelt in the north of the modern Tyrol",
@@ -948250,24 +946348,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Himani",
-   "read": "",
-   "gloss": "A tribe of Liburnia mentioned by Pliny",
-   "nuclei_found": [
-    "حم",
-    "خم",
-    "غم",
-    "من",
-    "هم"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "خمن",
-    "همن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Porcius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -948374,45 +946454,6 @@
     "قمش",
     "قمص",
     "كمش"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Mentores",
-   "read": "",
-   "gloss": "A tribe of Liburnia mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "طر",
-    "طل",
-    "لز",
-    "لس",
-    "من",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Bulini",
-   "read": "",
-   "gloss": "A tribe of Liburnia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رن",
-    "لن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برن"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -949491,36 +947532,6 @@
     "كشط"
    ],
    "root_fan_from": "بنزعِ السابقةِ المسمّاةِ `en-` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Maezei",
-   "read": "",
-   "gloss": "A tribe of Dalmatia mentioned by Pliny",
-   "nuclei_found": [
-    "مز",
-    "مص"
-   ]
-  },
-  {
-   "branch": "Sardiates",
-   "read": "",
-   "gloss": "A tribe of Dalmatia mentioned by Pliny",
-   "nuclei_found": [
-    "تس",
-    "دث",
-    "رد",
-    "رذ",
-    "رض",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لد",
-    "لذ"
-   ]
   },
   {
    "branch": "Andetrium",
@@ -951348,58 +949359,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Serretes",
-   "read": "",
-   "gloss": "A tribe of Pannonia, mentioned by Pliny",
-   "nuclei_found": [
-    "تس",
-    "رت",
-    "رث",
-    "رط",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زلط",
-    "سرت",
-    "سرط",
-    "سلت",
-    "سلط",
-    "شرث",
-    "شرط",
-    "صرط"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Serrapilli",
-   "read": "",
-   "gloss": "A tribe of Pannonia mentioned by Pliny",
-   "nuclei_found": [
-    "بل",
-    "رب",
-    "رف",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "فل",
-    "لب",
-    "لف"
-   ]
-  },
-  {
    "branch": "acredula",
    "read": "",
    "gloss": "A kind of bird, perhaps the thrush or the owl",
@@ -951602,98 +949561,6 @@
    ]
   },
   {
-   "branch": "Andizetes",
-   "read": "",
-   "gloss": "A tribe of Pannonia, mentioned by Pliny",
-   "nuclei_found": [
-    "تس",
-    "زت",
-    "صت",
-    "ضز",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Breuci",
-   "read": "",
-   "gloss": "A tribe of Pannonia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رج",
-    "رق",
-    "رك",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برج",
-    "برق",
-    "برك",
-    "بلج",
-    "بلق",
-    "بلك"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Arviates",
-   "read": "",
-   "gloss": "A tribe of Pannonia, mentioned by Pliny",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تس",
-    "رب",
-    "رف",
-    "رو",
-    "فت",
-    "فط",
-    "لب",
-    "لف",
-    "لو"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ربت",
-    "ربث",
-    "ربط",
-    "روت",
-    "روث",
-    "لبث",
-    "لفت",
-    "لوث",
-    "لوط"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Varciani",
-   "read": "",
-   "gloss": "A tribe of Pannonia mentioned by Pliny and Ptolemy",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جن",
-    "رج",
-    "رق",
-    "رك",
-    "فر",
-    "فل",
-    "قن",
-    "كن",
-    "لج",
-    "لق",
-    "لك",
-    "ول"
-   ]
-  },
-  {
    "branch": "Velius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -951875,32 +949742,6 @@
    ]
   },
   {
-   "branch": "Belgites",
-   "read": "",
-   "gloss": "A tribe of Pannonia, mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تس",
-    "جث",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غث",
-    "غط",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ]
-  },
-  {
    "branch": "Cornacum",
    "read": "",
    "gloss": "a town in Pannonia, now Vukovar",
@@ -951920,107 +949761,6 @@
     "نق",
     "نك"
    ]
-  },
-  {
-   "branch": "Hercuniates",
-   "read": "",
-   "gloss": "A tribe of Pannonia, mentioned by Pliny",
-   "nuclei_found": [
-    "تس",
-    "جن",
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رج",
-    "رق",
-    "رك",
-    "غر",
-    "غل",
-    "قن",
-    "كن",
-    "لج",
-    "لق",
-    "لك",
-    "نت",
-    "نث",
-    "نط",
-    "هر",
-    "هل"
-   ]
-  },
-  {
-   "branch": "Oseriates",
-   "read": "",
-   "gloss": "A tribe of Pannonia, mentioned by Pliny",
-   "nuclei_found": [
-    "تس",
-    "رت",
-    "رث",
-    "رط",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زلط",
-    "سرت",
-    "سرط",
-    "سلت",
-    "سلط",
-    "شرث",
-    "شرط",
-    "صرط"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Eravisci",
-   "read": "",
-   "gloss": "A tribe of Pannonia mentioned by Pliny",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "رب",
-    "رف",
-    "رو",
-    "زج",
-    "زق",
-    "زك",
-    "سج",
-    "سق",
-    "سك",
-    "شج",
-    "شق",
-    "شك",
-    "صك",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "لب",
-    "لف",
-    "لو"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ربس",
-    "ربش",
-    "رفس",
-    "روس",
-    "لبس",
-    "لوس"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Tarpeius",
@@ -952711,29 +950451,6 @@
    ]
   },
   {
-   "branch": "Celegeri",
-   "read": "",
-   "gloss": "A tribe of Moesia mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ]
-  },
-  {
    "branch": "Triballi",
    "read": "",
    "gloss": "A tribe settled either in Moesia or Thrace",
@@ -952778,25 +950495,6 @@
     "طمح"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Timachi",
-   "read": "",
-   "gloss": "A tribe of Moesia mentioned by Pliny",
-   "nuclei_found": [
-    "تم",
-    "ثم",
-    "طم",
-    "مح",
-    "مخ",
-    "مك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "تمك",
-    "طمح"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Aquincum",
@@ -953839,29 +951537,6 @@
    "root_fan_from": "بإسقاطِ ميمِ الجمعِ المجرورِ -um"
   },
   {
-   "branch": "Pirustae",
-   "read": "",
-   "gloss": "A tribe of Illyricum",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "فر",
-    "فل",
-    "لز",
-    "لس"
-   ]
-  },
-  {
    "branch": "Cetium",
    "read": "",
    "gloss": "a town in Noricum, now probably Sankt Pölten",
@@ -954277,30 +951952,6 @@
     "طلل"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Denthelethi",
-   "read": "",
-   "gloss": "A tribe of Thrace dwelling near the sources of the river Strymon",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "دن",
-    "ذن",
-    "رت",
-    "رث",
-    "رط",
-    "ضن",
-    "طر",
-    "طل",
-    "لت",
-    "لط",
-    "نت",
-    "نث",
-    "نط"
-   ]
   },
   {
    "branch": "Cestius",
@@ -958053,19 +955704,6 @@
    ]
   },
   {
-   "branch": "Ozolae",
-   "read": "",
-   "gloss": "A tribe of Locris, in Greece",
-   "nuclei_found": [
-    "ذر",
-    "ذل",
-    "زر",
-    "زل",
-    "صر",
-    "صل"
-   ]
-  },
-  {
    "branch": "Oeanthe",
    "read": "",
    "gloss": "a town of Locris situated at the western entrance of the Crissaean gulf",
@@ -958458,24 +956096,6 @@
     "لت",
     "لط"
    ]
-  },
-  {
-   "branch": "Budini",
-   "read": "",
-   "gloss": "A tribe of Scythia",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "دن",
-    "ذن",
-    "ضن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بدن"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Pyrrha",
@@ -969017,23 +966637,6 @@
    ]
   },
   {
-   "branch": "Aphidnae",
-   "read": "",
-   "gloss": "one of the twelve ancient towns of Attica",
-   "nuclei_found": [
-    "دن",
-    "ذن",
-    "ضن",
-    "فد",
-    "فض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "فدن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "thridax",
    "read": "",
    "gloss": "A kind of lettuce",
@@ -969195,27 +966798,6 @@
    "root_fan": [
     "برن",
     "فرن"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Sphettus",
-   "read": "",
-   "gloss": "One of the twelve oldest towns of Attica",
-   "nuclei_found": [
-    "تس",
-    "زف",
-    "سف",
-    "شف",
-    "صف",
-    "فت",
-    "فط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زفت",
-    "سفط",
-    "شفط"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
@@ -974744,31 +972326,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Lyncestae",
-   "read": "",
-   "gloss": "A tribe of Macedonia",
-   "nuclei_found": [
-    "جز",
-    "جس",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش",
-    "لي",
-    "نج",
-    "نق",
-    "نك"
-   ]
-  },
-  {
    "branch": "Mecyberna",
    "read": "",
    "gloss": "a coastal town of Chalcidice and port town of Olynthus",
@@ -975492,34 +973049,6 @@
   {
    "branch": "Agrianes",
    "read": "",
-   "gloss": "A tribe of Paeonia who dwelt near the sources of the river Strymon",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رن",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لن",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرن",
-    "قرن",
-    "كرن"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Agrianes",
-   "read": "",
    "gloss": "A tributary river of the Hebrus in Thrace",
    "nuclei_found": [
     "جر",
@@ -976154,36 +973683,6 @@
     "شتل",
     "شطر",
     "صطر"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Trausi",
-   "read": "",
-   "gloss": "A tribe of Thrace mentioned by Livy",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "طر",
-    "طل",
-    "لز",
-    "لس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ترس",
-    "تلز",
-    "تلش",
-    "طرز",
-    "طرس",
-    "طرش",
-    "طلس"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -977096,35 +974595,6 @@
    ]
   },
   {
-   "branch": "Drugeri",
-   "read": "",
-   "gloss": "A tribe of Thrace mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "ضر",
-    "ضل",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ]
-  },
-  {
    "branch": "Ofilius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -977344,25 +974814,6 @@
     "نف",
     "هد",
     "هض"
-   ]
-  },
-  {
-   "branch": "Corpilli",
-   "read": "",
-   "gloss": "A tribe of Thrace mentioned by Pliny",
-   "nuclei_found": [
-    "بل",
-    "جر",
-    "جل",
-    "رب",
-    "رف",
-    "فل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لب",
-    "لف"
    ]
   },
   {
@@ -977705,38 +975156,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Haleti",
-   "read": "",
-   "gloss": "A tribe of Thrace mentioned by Pliny",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رت",
-    "رث",
-    "رط",
-    "غر",
-    "غل",
-    "لت",
-    "لط",
-    "هر",
-    "هل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "حرث",
-    "حلت",
-    "خرت",
-    "خرط",
-    "خلت",
-    "خلط",
-    "غلث",
-    "غلط"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Ovinius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -977990,24 +975409,6 @@
     "لكن"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Dolonci",
-   "read": "",
-   "gloss": "A tribe of Thrace mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رن",
-    "ضر",
-    "ضل",
-    "لن",
-    "نج",
-    "نق",
-    "نك"
-   ]
   },
   {
    "branch": "Maso",
@@ -978404,16 +975805,6 @@
    "nuclei_found": [
     "دس",
     "ضز"
-   ]
-  },
-  {
-   "branch": "Edoni",
-   "read": "",
-   "gloss": "A tribe of Thrace, situated west of the river Strymon",
-   "nuclei_found": [
-    "دن",
-    "ذن",
-    "ضن"
    ]
   },
   {
@@ -983719,24 +981110,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Rauraci",
-   "read": "",
-   "gloss": "A tribe of Gaul, on the river Rhine",
-   "nuclei_found": [
-    "رج",
-    "رق",
-    "رك",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "للك"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Caetronius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -983843,74 +981216,6 @@
    ]
   },
   {
-   "branch": "Rhoxolani",
-   "read": "",
-   "gloss": "A tribe of Scythia",
-   "nuclei_found": [
-    "حك",
-    "رح",
-    "رخ",
-    "رغ",
-    "رن",
-    "ره",
-    "كر",
-    "كل",
-    "لح",
-    "لغ",
-    "لن",
-    "له"
-   ]
-  },
-  {
-   "branch": "Hamaxobii",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "حم",
-    "خم",
-    "غم",
-    "كب",
-    "مك",
-    "هم"
-   ]
-  },
-  {
-   "branch": "Iazyges",
-   "read": "",
-   "gloss": "A tribe of Sarmatia settled on the Danube",
-   "nuclei_found": [
-    "جز",
-    "جس",
-    "ذق",
-    "ذك",
-    "زج",
-    "زغ",
-    "زق",
-    "زك",
-    "صغ",
-    "صك",
-    "صي",
-    "غز",
-    "غس",
-    "غش",
-    "غص",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زيج",
-    "زيغ",
-    "زيق",
-    "صيغ"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
    "branch": "Axiaces",
    "read": "",
    "gloss": "a river in Sarmatia, now the Tylihul",
@@ -983924,21 +981229,6 @@
     "كس",
     "كش",
     "كك"
-   ]
-  },
-  {
-   "branch": "Crobyzi",
-   "read": "",
-   "gloss": "A tribe of Moesia",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رب",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لب"
    ]
   },
   {
@@ -983982,70 +981272,6 @@
     "ضز",
     "لد",
     "لذ"
-   ]
-  },
-  {
-   "branch": "Siraci",
-   "read": "",
-   "gloss": "A tribe of Sarmatia",
-   "nuclei_found": [
-    "رج",
-    "رق",
-    "رك",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زرج",
-    "زرق",
-    "زرك",
-    "زلج",
-    "زلق",
-    "سرج",
-    "سرق",
-    "سرك",
-    "سلق",
-    "سلك",
-    "شرج",
-    "شرق"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Veragri",
-   "read": "",
-   "gloss": "A tribe of Gallia Narbonensis",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جر",
-    "جل",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غر",
-    "غل",
-    "فر",
-    "فل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "ول"
    ]
   },
   {
@@ -984122,22 +981348,6 @@
     "كل",
     "كن",
     "لج",
-    "لق",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Orgocyni",
-   "read": "",
-   "gloss": "A tribe of Crimea mentioned by Pliny",
-   "nuclei_found": [
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "كك",
-    "لج",
-    "لغ",
     "لق",
     "لك"
    ]
@@ -984230,121 +981440,12 @@
    ]
   },
   {
-   "branch": "Auchetae",
-   "read": "",
-   "gloss": "A tribe of Scythia",
-   "nuclei_found": [
-    "حت",
-    "حث",
-    "حط",
-    "خت",
-    "خط",
-    "كت",
-    "كث"
-   ]
-  },
-  {
    "branch": "Neuri",
    "read": "",
    "gloss": "A nomad tribe of Scythia",
    "nuclei_found": [
     "نر",
     "نل"
-   ]
-  },
-  {
-   "branch": "Geloni",
-   "read": "",
-   "gloss": "A tribe of Scythia settled near the river Borysthenes",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رن",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرن",
-    "قرن",
-    "كرن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Arimaspi",
-   "read": "",
-   "gloss": "A tribe of Scythia",
-   "nuclei_found": [
-    "رم",
-    "زب",
-    "زف",
-    "سب",
-    "سف",
-    "شب",
-    "شف",
-    "صب",
-    "صف",
-    "لم",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ]
-  },
-  {
-   "branch": "Thyssagetae",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "جث",
-    "زج",
-    "زغ",
-    "زق",
-    "زك",
-    "سج",
-    "سغ",
-    "سق",
-    "سك",
-    "شج",
-    "شغ",
-    "شق",
-    "شك",
-    "صغ",
-    "صك",
-    "غث",
-    "غط",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث"
-   ]
-  },
-  {
-   "branch": "Agathyrsi",
-   "read": "",
-   "gloss": "A tribe of Sarmatia",
-   "nuclei_found": [
-    "جث",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "غث",
-    "غط",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لز",
-    "لس"
    ]
   },
   {
@@ -984505,25 +981606,6 @@
    ]
   },
   {
-   "branch": "Venedi",
-   "read": "",
-   "gloss": "A tribe of Sarmatia who dwelt along the course of the river Vistula",
-   "nuclei_found": [
-    "بن",
-    "فن",
-    "ند",
-    "نذ",
-    "نض",
-    "ون"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بند",
-    "فند"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Sciri",
    "read": "",
    "gloss": "A tribe who dwelt along the course of the river Vistula",
@@ -984568,21 +981650,6 @@
     "شكر"
    ],
    "root_fan_from": "كما وردَت والمزدوجُ sc صامتَينِ (s+c)"
-  },
-  {
-   "branch": "Hirri",
-   "read": "",
-   "gloss": "A tribe of Scandinavia mentioned by Pliny",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "غر",
-    "غل",
-    "هر",
-    "هل"
-   ]
   },
   {
    "branch": "Latris",
@@ -984679,42 +981746,6 @@
     "رند"
    ],
    "root_fan_from": "بنزعِ سابقةِ `ga-`"
-  },
-  {
-   "branch": "Gythones",
-   "read": "",
-   "gloss": "A tribe of Germania situated to the west of the Venedi",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "طن",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ]
-  },
-  {
-   "branch": "Stavani",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Ptolemy",
-   "nuclei_found": [
-    "بن",
-    "تب",
-    "تف",
-    "ثب",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طب",
-    "طف",
-    "طو",
-    "فن",
-    "ون"
-   ]
   },
   {
    "branch": "Varini",
@@ -984831,71 +981862,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Ingaevones",
-   "read": "",
-   "gloss": "A tribe of Germany mentioned by Pliny.",
-   "nuclei_found": [
-    "بن",
-    "جب",
-    "جف",
-    "غب",
-    "غف",
-    "غو",
-    "فن",
-    "قب",
-    "قف",
-    "قو",
-    "كب",
-    "كف",
-    "نج",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نغ",
-    "نق",
-    "نك",
-    "ون"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جبن",
-    "جفن",
-    "جون",
-    "غبن",
-    "قون",
-    "كفن",
-    "كون"
-   ],
-   "root_fan_from": "بنزعِ سابقةِ `in-` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Istaevones",
-   "read": "",
-   "gloss": "A tribe of Germany mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "تب",
-    "تف",
-    "ثب",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طب",
-    "طف",
-    "طو",
-    "فن",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "ون"
-   ]
-  },
-  {
    "branch": "Hermunduri",
    "read": "",
    "gloss": "A powerful tribe of Germany",
@@ -984934,26 +981900,6 @@
     "خط",
     "كت",
     "كث"
-   ]
-  },
-  {
-   "branch": "Silingae",
-   "read": "",
-   "gloss": "A tribe of Germany settled near the river Elbe",
-   "nuclei_found": [
-    "رن",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
    ]
   },
   {
@@ -985006,17 +981952,6 @@
     "كتش"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Chauci",
-   "read": "",
-   "gloss": "A tribe of Lower Germany",
-   "nuclei_found": [
-    "حج",
-    "حق",
-    "حك",
-    "كك"
-   ]
   },
   {
    "branch": "Guthalus",
@@ -985148,121 +982083,6 @@
     "رص",
     "لذ",
     "لز"
-   ]
-  },
-  {
-   "branch": "Frisii",
-   "read": "",
-   "gloss": "A tribe of Northern Germany who dwelt between the rivers Rhine and Ems.",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "فر",
-    "فل",
-    "لز",
-    "لس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برز",
-    "برس",
-    "برش",
-    "برص",
-    "بلز",
-    "بلس",
-    "بلش",
-    "فرز",
-    "فرس",
-    "فرش",
-    "فرص",
-    "فلز"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Bructeri",
-   "read": "",
-   "gloss": "A tribe of Germany on the river Ems",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جث",
-    "رج",
-    "رق",
-    "رك",
-    "طر",
-    "طل",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لج",
-    "لق",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Sturii",
-   "read": "",
-   "gloss": "A tribe of Germany mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طر",
-    "طل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ستر",
-    "سطر",
-    "سطل",
-    "شتر",
-    "شتل",
-    "شطر",
-    "صطر"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Marsaci",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica mentioned by Pliny",
-   "nuclei_found": [
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زج",
-    "زق",
-    "زك",
-    "سج",
-    "سق",
-    "سك",
-    "شج",
-    "شق",
-    "شك",
-    "صك",
-    "لز",
-    "لس",
-    "مر",
-    "مل"
    ]
   },
   {
@@ -985595,55 +982415,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Morini",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica",
-   "nuclei_found": [
-    "رن",
-    "لن",
-    "مر",
-    "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مرن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Silures",
-   "read": "",
-   "gloss": "A tribe of Britannia, whose main towns were Isca Silurum and Venta Silurum",
-   "nuclei_found": [
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لز",
-    "لس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زرر",
-    "زلل",
-    "سرر",
-    "سرل",
-    "سلر",
-    "سلل",
-    "شرر",
-    "شلل",
-    "صرر"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
    "branch": "Hebudes",
    "read": "",
    "gloss": "the Hebrides",
@@ -985820,18 +982591,6 @@
     "لو",
     "نم",
     "ول"
-   ]
-  },
-  {
-   "branch": "Dumnonii",
-   "read": "",
-   "gloss": "A tribe of Britannia.",
-   "nuclei_found": [
-    "دم",
-    "ذم",
-    "ضم",
-    "من",
-    "نن"
    ]
   },
   {
@@ -986114,35 +982873,6 @@
     "شك",
     "صك"
    ]
-  },
-  {
-   "branch": "Demetae",
-   "read": "",
-   "gloss": "A tribe of Britannia, lying west of the Silures",
-   "nuclei_found": [
-    "دم",
-    "ذم",
-    "ضم",
-    "مت",
-    "مث",
-    "مط"
-   ]
-  },
-  {
-   "branch": "Dobuni",
-   "read": "",
-   "gloss": "A tribe of Britannia mentioned by Ptolemy",
-   "nuclei_found": [
-    "بن",
-    "دب",
-    "ذب",
-    "ضب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ضبن"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Venta Silurum",
@@ -986482,83 +983212,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Ordovices",
-   "read": "",
-   "gloss": "Ordovices (a tribe of Britannia)",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "جز",
-    "جس",
-    "دب",
-    "دف",
-    "ذب",
-    "ذو",
-    "رد",
-    "رذ",
-    "رض",
-    "ضب",
-    "ضف",
-    "ضو",
-    "فج",
-    "فق",
-    "فك",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش",
-    "لد",
-    "لذ"
-   ]
-  },
-  {
-   "branch": "Selgovae",
-   "read": "",
-   "gloss": "A tribe of Britannia mentioned by Ptolemy",
-   "nuclei_found": [
-    "جب",
-    "جف",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "غب",
-    "غف",
-    "غو",
-    "قب",
-    "قف",
-    "قو",
-    "كب",
-    "كف",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Otadini",
-   "read": "",
-   "gloss": "A tribe of Britannia lying south of the Firth of Forth",
-   "nuclei_found": [
-    "تد",
-    "دن",
-    "ذن",
-    "ضن",
-    "طد"
-   ]
-  },
-  {
    "branch": "Bodotria",
    "read": "",
    "gloss": "the Firth of Forth (an estuary in Scotland)",
@@ -986573,18 +983226,6 @@
     "دث",
     "طر",
     "طل"
-   ]
-  },
-  {
-   "branch": "Epidii",
-   "read": "",
-   "gloss": "A tribe of Britannia mentioned by Ptolemy",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "فد",
-    "فض"
    ]
   },
   {
@@ -986711,14 +983352,6 @@
    ]
   },
   {
-   "branch": "Ambiani",
-   "read": "",
-   "gloss": "a tribe of Gallia Belgica, whose capital was Samarobriva",
-   "nuclei_found": [
-    "بن"
-   ]
-  },
-  {
    "branch": "Calidius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -986787,32 +983420,6 @@
    ]
   },
   {
-   "branch": "Bellovaci",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica, whose capital was Caesaromagus",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "بل",
-    "فج",
-    "فق",
-    "فك",
-    "لب",
-    "لف",
-    "لو"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "لبق",
-    "لبك",
-    "لفق",
-    "لوق",
-    "لوك"
-   ],
-   "root_fan_from": "بإسقاطِ صدرِ `be-`"
-  },
-  {
    "branch": "Gallia Belgica",
    "read": "",
    "gloss": "Gallia Belgica (an ancient province of the Roman Empire, existing from 22 BCE to the 5th century CE and located in moder",
@@ -986834,62 +983441,6 @@
     "لق",
     "لك"
    ]
-  },
-  {
-   "branch": "Catoslugi",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica, mentioned by Pliny",
-   "nuclei_found": [
-    "تس",
-    "جث",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Atrebates",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica, situated between the rivers Somme and Scheldt",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تر",
-    "تس",
-    "تل",
-    "ثر",
-    "ثل",
-    "رب",
-    "طر",
-    "طل",
-    "لب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ربت",
-    "ربث",
-    "ربط",
-    "لبث"
-   ],
-   "root_fan_from": "بنزعِ سابقةِ `at-` ثمّ بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "Nemetacum",
@@ -987189,53 +983740,6 @@
    ]
   },
   {
-   "branch": "Tungri",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "جر",
-    "جل",
-    "طن",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Sunuci",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica, mentioned by Pliny",
-   "nuclei_found": [
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "نج",
-    "نق",
-    "نك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زنج",
-    "زنق",
-    "زنك",
-    "شنج",
-    "شنق",
-    "شنك",
-    "صنج"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Aduatuca",
    "read": "",
    "gloss": "synonym of Atuātuca.",
@@ -987317,33 +983821,6 @@
    ]
   },
   {
-   "branch": "Mediomatrici",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica, whose chief town was Divodurum",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "دم",
-    "ذم",
-    "رج",
-    "رق",
-    "رك",
-    "ضم",
-    "طر",
-    "طل",
-    "لج",
-    "لق",
-    "لك",
-    "مت",
-    "مث",
-    "مد",
-    "مض",
-    "مط"
-   ]
-  },
-  {
    "branch": "aulax",
    "read": "",
    "gloss": "furrow",
@@ -987375,24 +983852,6 @@
     "كنث"
    ],
    "root_fan_from": "بإسقاطِ ميمِ الجمعِ المجرورِ -um"
-  },
-  {
-   "branch": "Triboci",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica, on the left shore of the Rhine",
-   "nuclei_found": [
-    "بج",
-    "بق",
-    "بك",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رب",
-    "طر",
-    "طل",
-    "لب"
-   ]
   },
   {
    "branch": "Vangiones",
@@ -987927,27 +984386,6 @@
     "لز",
     "لس",
     "لط"
-   ]
-  },
-  {
-   "branch": "Catalauni",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جث",
-    "رن",
-    "طر",
-    "طل",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لن"
    ]
   },
   {
@@ -988540,27 +984978,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Meldi",
-   "read": "",
-   "gloss": "A tribe of Gallia Lugdunensis, whose chief town was Iatinum",
-   "nuclei_found": [
-    "رد",
-    "رذ",
-    "رض",
-    "لد",
-    "لذ",
-    "مر",
-    "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مرد",
-    "مرض",
-    "ملد"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "aedon",
    "read": "",
    "gloss": "The nightingale",
@@ -988700,14 +985117,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Unelli",
-   "read": "",
-   "gloss": "A tribe of Gallia Lugdunensis, whose chief town was Crociatonum",
-   "nuclei_found": [
-    "نل"
-   ]
-  },
-  {
    "branch": "murilegus",
    "read": "",
    "gloss": "A cat, one who gathers mice.",
@@ -988834,74 +985243,6 @@
     "ترن"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Diablinti",
-   "read": "",
-   "gloss": "A tribe of Gallia Lugdunensis, whose chief town was Noeodunum",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "دب",
-    "ذب",
-    "رن",
-    "ضب",
-    "لن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Atesui",
-   "read": "",
-   "gloss": "A tribe of Gallia Lugdunensis mentioned by Pliny",
-   "nuclei_found": [
-    "تس"
-   ]
-  },
-  {
-   "branch": "Segusiavi",
-   "read": "",
-   "gloss": "A tribe of Gallia Lugdunensis. In their territory was founded Lugdunum",
-   "nuclei_found": [
-    "جز",
-    "جس",
-    "زب",
-    "زج",
-    "زغ",
-    "زف",
-    "زق",
-    "زك",
-    "سب",
-    "سج",
-    "سغ",
-    "سف",
-    "سق",
-    "سك",
-    "سو",
-    "شب",
-    "شج",
-    "شغ",
-    "شف",
-    "شق",
-    "شك",
-    "شو",
-    "صب",
-    "صغ",
-    "صف",
-    "صك",
-    "غز",
-    "غس",
-    "غش",
-    "غص",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش"
-   ]
   },
   {
    "branch": "Desuviates",
@@ -989206,29 +985547,6 @@
     "كلك"
    ],
    "root_fan_from": "بإسقاطِ ميمِ الجمعِ المجرورِ -um"
-  },
-  {
-   "branch": "Mandubii",
-   "read": "",
-   "gloss": "A tribe of Gallia Lugdunensis, whose chief town was Alesia",
-   "nuclei_found": [
-    "دب",
-    "ذب",
-    "ضب",
-    "من",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Ambarri",
-   "read": "",
-   "gloss": "A tribe of Gallia Lugdunensis situated along the valley of the Rhone",
-   "nuclei_found": [
-    "بر",
-    "بل"
-   ]
   },
   {
    "branch": "Ceutrones",
@@ -989831,19 +986149,6 @@
    ]
   },
   {
-   "branch": "Arvii",
-   "read": "",
-   "gloss": "A tribe of Gallia Lugdunensis mentioned by Ptolemy",
-   "nuclei_found": [
-    "رب",
-    "رف",
-    "رو",
-    "لب",
-    "لف",
-    "لو"
-   ]
-  },
-  {
    "branch": "Novius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -989872,25 +986177,6 @@
     "نوص"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Dindari",
-   "read": "",
-   "gloss": "A tribe of Dalmatia mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "دن",
-    "ذر",
-    "ذل",
-    "ذن",
-    "ضر",
-    "ضل",
-    "ضن",
-    "ند",
-    "نذ",
-    "نض"
-   ]
   },
   {
    "branch": "Granua",
@@ -990694,26 +986980,6 @@
    ]
   },
   {
-   "branch": "Ambilatri",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رت",
-    "رث",
-    "رط",
-    "طر",
-    "طل",
-    "لت",
-    "لط"
-   ]
-  },
-  {
    "branch": "Anagnutes",
    "read": "",
    "gloss": "A Celtic tribe of Aquitania mentioned by Pliny",
@@ -990777,85 +987043,6 @@
     "نش",
     "نص",
     "نط"
-   ]
-  },
-  {
-   "branch": "Convenae",
-   "read": "",
-   "gloss": "A tribe of Aquitania situated near the Pyrenees",
-   "nuclei_found": [
-    "بن",
-    "جن",
-    "فن",
-    "قن",
-    "كن",
-    "نب",
-    "نف",
-    "نو",
-    "ون"
-   ]
-  },
-  {
-   "branch": "Tarbelli",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "بل",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رب",
-    "طر",
-    "طل",
-    "لب"
-   ]
-  },
-  {
-   "branch": "Venami",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "فن",
-    "نم",
-    "ون"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بنم"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Belendi",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رن",
-    "لن",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رند"
-   ],
-   "root_fan_from": "بإسقاطِ صدرِ `be-`"
-  },
-  {
-   "branch": "Monesi",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "من",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
    ]
   },
   {
@@ -990999,71 +987186,6 @@
    ]
   },
   {
-   "branch": "Pinpedunni",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "بن",
-    "دن",
-    "ذن",
-    "ضن",
-    "فد",
-    "فض",
-    "فن",
-    "نب",
-    "نف"
-   ]
-  },
-  {
-   "branch": "Lassunni",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "لز",
-    "لس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رسن",
-    "لسن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Consoranni",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "رن",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "قن",
-    "كن",
-    "لن",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ]
-  },
-  {
    "branch": "Ausci",
    "read": "",
    "gloss": "a Gallic tribe of Aquitania mentioned by Pliny and in Caesar's commentaries (III.25)",
@@ -991078,21 +987200,6 @@
     "شق",
     "شك",
     "صك"
-   ]
-  },
-  {
-   "branch": "Vassei",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "فز",
-    "فس",
-    "فش",
-    "فص"
    ]
   },
   {
@@ -991754,53 +987861,9 @@
    ]
   },
   {
-   "branch": "Gabali",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny, situated in the modern region of Gévaudan",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جب",
-    "غب",
-    "قب",
-    "كب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جبر",
-    "جبل",
-    "غبر",
-    "قبر",
-    "قبل",
-    "كبر",
-    "كبل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Ruteni",
    "read": "",
    "gloss": "an ancient people of Aquitanian Gaul, now Rodez",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "رت",
-    "رث",
-    "رط",
-    "طن",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رطن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Ruteni",
-   "read": "",
-   "gloss": "a tribe of Ruscia (likely the Baltic region) mentioned by Saxo Grammaticus",
    "nuclei_found": [
     "تن",
     "ثن",
@@ -991836,62 +987899,6 @@
     "فل",
     "لب",
     "ول"
-   ]
-  },
-  {
-   "branch": "Cadurci",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny, whose capital was Divona",
-   "nuclei_found": [
-    "جد",
-    "جذ",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رج",
-    "رق",
-    "رك",
-    "ضر",
-    "ضل",
-    "قد",
-    "قذ",
-    "قض",
-    "كد",
-    "كذ",
-    "لج",
-    "لق",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Petrocorii",
-   "read": "",
-   "gloss": "A tribe of Aquitania mentioned by Pliny, whose capital was Vesunna",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جر",
-    "جل",
-    "رج",
-    "رق",
-    "رك",
-    "طر",
-    "طل",
-    "فت",
-    "فط",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لق",
-    "لك"
    ]
   },
   {
@@ -992480,21 +988487,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Eudoses",
-   "read": "",
-   "gloss": "A tribe of Germany mentioned only by Tacitus",
-   "nuclei_found": [
-    "دس",
-    "سس",
-    "ضز"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "دسس"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Anisus",
    "read": "",
    "gloss": "a river in Noricum, now the Enns",
@@ -993019,35 +989011,6 @@
    ]
   },
   {
-   "branch": "Morogi",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pliny",
-   "nuclei_found": [
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "مر",
-    "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مرج",
-    "مرغ",
-    "مرق",
-    "مرك",
-    "ملج",
-    "ملغ",
-    "ملق",
-    "ملك"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Menosca",
    "read": "",
    "gloss": "an ancient town of the Varduli in Hispania Tarraconensis",
@@ -993260,40 +989223,6 @@
    ]
   },
   {
-   "branch": "Argenomesci",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "زج",
-    "زق",
-    "زك",
-    "سج",
-    "سق",
-    "سك",
-    "شج",
-    "شق",
-    "شك",
-    "صك",
-    "غن",
-    "قن",
-    "كن",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "مز",
-    "مس",
-    "مش",
-    "مص",
-    "نم"
-   ]
-  },
-  {
    "branch": "Vereasueca",
    "read": "",
    "gloss": "a small coastal town of the Cantabri in Hispania Tarraconensis",
@@ -993319,29 +989248,6 @@
     "لز",
     "لس",
     "ول"
-   ]
-  },
-  {
-   "branch": "Concani",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis situated in Cantabria",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كن",
-    "نج",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Tutini",
-   "read": "",
-   "gloss": "A tribe of Calabria mentioned by Pliny",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "طن"
    ]
   },
   {
@@ -993463,56 +989369,6 @@
     "نف",
     "نو",
     "ول"
-   ]
-  },
-  {
-   "branch": "Cibarci",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جب",
-    "رج",
-    "رق",
-    "رك",
-    "قب",
-    "كب",
-    "لج",
-    "لق",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Namarini",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pliny",
-   "nuclei_found": [
-    "رن",
-    "لن",
-    "مر",
-    "مل",
-    "نم"
-   ]
-  },
-  {
-   "branch": "Arrotrebae",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رب",
-    "رت",
-    "رث",
-    "رط",
-    "طر",
-    "طل",
-    "لب",
-    "لت",
-    "لط"
    ]
   },
   {
@@ -993674,39 +989530,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Copori",
-   "read": "",
-   "gloss": "A tribe of Gallaecia, Hispania Tarraconensis",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جب",
-    "جف",
-    "فر",
-    "فل",
-    "قب",
-    "قف",
-    "كب",
-    "كف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جبر",
-    "جبل",
-    "جفر",
-    "جفل",
-    "قبر",
-    "قبل",
-    "قفر",
-    "قفل",
-    "كبر",
-    "كبل",
-    "كفر",
-    "كفل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Cileni",
    "read": "",
    "gloss": "A Celtic tribe of Gallaecia, Hispania Tarraconensis",
@@ -993848,43 +989671,6 @@
    ]
   },
   {
-   "branch": "Grovi",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رب",
-    "رف",
-    "رو",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لب",
-    "لف",
-    "لو"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرب",
-    "جرف",
-    "جرو",
-    "جلب",
-    "جلف",
-    "جلو",
-    "غرب",
-    "غرف",
-    "غرو",
-    "غلب",
-    "غلف",
-    "غلو"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Abobriga",
    "read": "",
    "gloss": "a town of Hispania Tarraconensis mentioned by Pliny",
@@ -993915,15 +989701,6 @@
    "root_fan_from": "بإسقاطِ صدرِ `ab-`"
   },
   {
-   "branch": "Leuni",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pliny؛ A tribe of Vindelicia mentioned by Ptolemy",
-   "nuclei_found": [
-    "رن",
-    "لن"
-   ]
-  },
-  {
    "branch": "Limia",
    "read": "",
    "gloss": "A river of Gallaecia, Hispania Tarraconensis, now called Lima in Portuguese and Limia in Galician",
@@ -993931,33 +989708,6 @@
     "رم",
     "لم"
    ]
-  },
-  {
-   "branch": "Seurbi",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pliny",
-   "nuclei_found": [
-    "رب",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زرب",
-    "سرب",
-    "سلب",
-    "شرب",
-    "شلب",
-    "صرب",
-    "صلب"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Querquerni",
@@ -994274,44 +990024,6 @@
     "شلل"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Paesuri",
-   "read": "",
-   "gloss": "A tribe of Lusitania mentioned by Pliny",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "فز",
-    "فس",
-    "فش",
-    "فص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بزر",
-    "بزل",
-    "بسر",
-    "بسل",
-    "بشر",
-    "بصر",
-    "بصل",
-    "فسر",
-    "فسل",
-    "فشر",
-    "فشل",
-    "فصل"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Vacua",
@@ -994938,41 +990650,6 @@
    ]
   },
   {
-   "branch": "Colarni",
-   "read": "",
-   "gloss": "A tribe of Lusitania mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رن",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لن"
-   ]
-  },
-  {
-   "branch": "Bardili",
-   "read": "",
-   "gloss": "A tribe of Lusitania mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رد",
-    "رذ",
-    "رض",
-    "ضر",
-    "ضل",
-    "لد",
-    "لذ"
-   ]
-  },
-  {
    "branch": "Albius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -995295,30 +990972,6 @@
    "root_fan_from": "بنزعِ سابقةِ `at-`"
   },
   {
-   "branch": "Ilergetes",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis which dwelt north of the course of the Iberus",
-   "nuclei_found": [
-    "تس",
-    "جث",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غث",
-    "غط",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ]
-  },
-  {
    "branch": "caprificus",
    "read": "",
    "gloss": "the wild fig tree",
@@ -995508,76 +991161,6 @@
     "لق",
     "لك"
    ]
-  },
-  {
-   "branch": "Olcades",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis which dwelt on the upper course of the Anas",
-   "nuclei_found": [
-    "جد",
-    "جذ",
-    "دس",
-    "رج",
-    "رق",
-    "رك",
-    "ضز",
-    "قد",
-    "قذ",
-    "قض",
-    "كد",
-    "كذ",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رقد",
-    "ركد",
-    "ركض",
-    "لقد",
-    "لكد"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Luanci",
-   "read": "",
-   "gloss": "A tribe of Gallaecia mentioned by Ptolemy",
-   "nuclei_found": [
-    "رن",
-    "لن",
-    "نج",
-    "نق",
-    "نك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رنج",
-    "رنق",
-    "رنك"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Amadoci",
-   "read": "",
-   "gloss": "A tribe of Sarmatia which dwelt along the Borysthenes",
-   "nuclei_found": [
-    "دق",
-    "ذق",
-    "ذك",
-    "ضج",
-    "ضق",
-    "مد",
-    "مض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مذج",
-    "مذق"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Pleminius",
@@ -995810,25 +991393,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Mucuni",
-   "read": "",
-   "gloss": "A tribe of Mauritania mentioned by Ptolemy",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كن",
-    "مج",
-    "مق",
-    "مك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مجن",
-    "مكن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Betutius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -995899,28 +991463,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Nuithones",
-   "read": "",
-   "gloss": "A tribe of Germania which dwelt along the river Albis",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "طن",
-    "نت",
-    "نث",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "نتن"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
    "branch": "Stachir",
    "read": "",
    "gloss": "a river in Mauritania, maybe the Gambia",
@@ -995972,50 +991514,6 @@
     "لك",
     "مر",
     "مل"
-   ]
-  },
-  {
-   "branch": "Fosi",
-   "read": "",
-   "gloss": "A tribe of Germania mentioned by Tacitus",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "فز",
-    "فس",
-    "فش",
-    "فص"
-   ]
-  },
-  {
-   "branch": "Zegrensii",
-   "read": "",
-   "gloss": "A tribe of Mauritania mentioned by Ptolemy",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "ذق",
-    "ذك",
-    "رن",
-    "زج",
-    "زغ",
-    "زق",
-    "زك",
-    "صغ",
-    "صك",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لن",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
    ]
   },
   {
@@ -996112,65 +991610,6 @@
    "root_fan_from": "بإسقاطِ ميمِ الجمعِ المجرورِ -um"
   },
   {
-   "branch": "Masati",
-   "read": "",
-   "gloss": "A tribe of Mauritania mentioned by Pliny",
-   "nuclei_found": [
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مشط"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Gaetuli",
-   "read": "",
-   "gloss": "A tribe of Africa which dwelt south of the Mauri and the Numidae",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جث",
-    "طر",
-    "طل",
-    "غث",
-    "غط",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جتر",
-    "غتر",
-    "غثر",
-    "غطل",
-    "قتر",
-    "قتل",
-    "قثر",
-    "قطر",
-    "قطل",
-    "كتل",
-    "كثر",
-    "كثل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Daradus",
    "read": "",
    "gloss": "A river of Africa famous for its crocodiles, now the Senegal",
@@ -996214,47 +991653,6 @@
     "نرز"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Ambrones",
-   "read": "",
-   "gloss": "A tribe of Denmark, mentioned by Plutarch",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رن",
-    "لن",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ]
-  },
-  {
-   "branch": "Dulgubnii",
-   "read": "",
-   "gloss": "A tribe of Germany mentioned by Tacitus",
-   "nuclei_found": [
-    "بن",
-    "جب",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "ضر",
-    "ضل",
-    "غب",
-    "قب",
-    "كب",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ]
   },
   {
    "branch": "Ambivius",
@@ -996431,19 +991829,6 @@
    ]
   },
   {
-   "branch": "Darae",
-   "read": "",
-   "gloss": "A tribe of Mauritania dwelling near the territory of the Pharusii",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "ضر",
-    "ضل"
-   ]
-  },
-  {
    "branch": "Canarii",
    "read": "",
    "gloss": "An ancient tribe of Africa",
@@ -996605,16 +991990,6 @@
     "طلل"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Baniurae",
-   "read": "",
-   "gloss": "a tribe of Mauritania mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "نر",
-    "نل"
-   ]
   },
   {
    "branch": "Tamuda",
@@ -997215,61 +992590,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Herpeditani",
-   "read": "",
-   "gloss": "A tribe of Mauretania who lived near the course of the Mulucha.",
-   "nuclei_found": [
-    "بد",
-    "بذ",
-    "بض",
-    "تن",
-    "ثن",
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "دث",
-    "رب",
-    "رف",
-    "طن",
-    "غر",
-    "غل",
-    "فد",
-    "فض",
-    "لب",
-    "لف",
-    "هر",
-    "هل"
-   ]
-  },
-  {
-   "branch": "Nectiberes",
-   "read": "",
-   "gloss": "A tribe of Mauritania mentioned by Ptolemy",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تب",
-    "ثب",
-    "جث",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "طب",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لز",
-    "لس",
-    "نج",
-    "نق",
-    "نك"
-   ]
-  },
-  {
    "branch": "farneus",
    "read": "",
    "gloss": "Of or pertaining to the farnus tree.",
@@ -997703,28 +993023,6 @@
     "مق",
     "مك"
    ]
-  },
-  {
-   "branch": "Nabales",
-   "read": "",
-   "gloss": "A tribe of Mauritania mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "لز",
-    "لس",
-    "نب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "نبر",
-    "نبل"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "Nabalia",
@@ -999590,23 +994888,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Macomades",
-   "read": "",
-   "gloss": "A tribe of Africa mentioned by Pliny",
-   "nuclei_found": [
-    "جم",
-    "دس",
-    "ضز",
-    "قم",
-    "كم",
-    "مج",
-    "مد",
-    "مض",
-    "مق",
-    "مك"
-   ]
-  },
-  {
    "branch": "Sabrata",
    "read": "",
    "gloss": "A maritime town of Africa and birthplace of Domitilla the Elder",
@@ -999797,22 +995078,6 @@
    ]
   },
   {
-   "branch": "Psylli",
-   "read": "",
-   "gloss": "A tribe of Africa mentioned by Pliny",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "صي",
-    "فز",
-    "فس",
-    "فش",
-    "فص"
-   ]
-  },
-  {
    "branch": "Telepte",
    "read": "",
    "gloss": "a town in interior Africa",
@@ -999903,47 +995168,6 @@
     "طغ",
     "طق"
    ]
-  },
-  {
-   "branch": "Musulamii",
-   "read": "",
-   "gloss": "A tribe of Africa mentioned by Pliny",
-   "nuclei_found": [
-    "رم",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لم",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ]
-  },
-  {
-   "branch": "Cinithi",
-   "read": "",
-   "gloss": "A tribe of Africa mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كن",
-    "نت",
-    "نث",
-    "نط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "قنت",
-    "قنط",
-    "كنت",
-    "كنث"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Gerasus",
@@ -1000070,50 +995294,6 @@
     "نت",
     "نث",
     "نط"
-   ]
-  },
-  {
-   "branch": "Sabarbares",
-   "read": "",
-   "gloss": "A tribe of Africa mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رب",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زب",
-    "سب",
-    "شب",
-    "صب",
-    "لب",
-    "لز",
-    "لس"
-   ]
-  },
-  {
-   "branch": "Vamacures",
-   "read": "",
-   "gloss": "A tribe of Africa mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "فم",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لز",
-    "لس",
-    "مج",
-    "مق",
-    "مك"
    ]
   },
   {
@@ -1000246,39 +995426,6 @@
     "نذ",
     "نض",
     "نن"
-   ]
-  },
-  {
-   "branch": "Musuni",
-   "read": "",
-   "gloss": "A tribe of Africa mentioned by Pliny",
-   "nuclei_found": [
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مزن",
-    "مسن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Massyli",
-   "read": "",
-   "gloss": "A tribe of Numidia",
-   "nuclei_found": [
-    "صي",
-    "مز",
-    "مس",
-    "مش",
-    "مص"
    ]
   },
   {
@@ -1000552,27 +995699,6 @@
    ]
   },
   {
-   "branch": "Gindanes",
-   "read": "",
-   "gloss": "A tribe of Lybia which dwelt west of the Macae",
-   "nuclei_found": [
-    "جن",
-    "دن",
-    "ذن",
-    "ضن",
-    "غن",
-    "قن",
-    "كن",
-    "ند",
-    "نذ",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نض"
-   ]
-  },
-  {
    "branch": "Naustathmus",
    "read": "",
    "gloss": "A port town on the Black Sea؛ A town of Cyrenaica, near Apollonia",
@@ -1000726,23 +995852,6 @@
     "كس",
     "كش",
     "كك"
-   ]
-  },
-  {
-   "branch": "Asbystae",
-   "read": "",
-   "gloss": "A tribe of the interior of Cyrenaica",
-   "nuclei_found": [
-    "زب",
-    "زت",
-    "سب",
-    "ست",
-    "سط",
-    "شب",
-    "شت",
-    "شط",
-    "صب",
-    "صت"
    ]
   },
   {
@@ -1000964,16 +996073,6 @@
    ]
   },
   {
-   "branch": "Macae",
-   "read": "",
-   "gloss": "A tribe of Cyrenaica, settled on the river Cinyps",
-   "nuclei_found": [
-    "مج",
-    "مق",
-    "مك"
-   ]
-  },
-  {
    "branch": "Alisontia",
    "read": "",
    "gloss": "A river mentioned by Ausonius, now the Alzette",
@@ -1001086,71 +996185,6 @@
     "درن"
    ],
    "root_fan_from": "جذعُ القاموسِ `Dárnē`"
-  },
-  {
-   "branch": "Auschisae",
-   "read": "",
-   "gloss": "A tribe of Cyrenaica settled west of the Asbystae",
-   "nuclei_found": [
-    "حز",
-    "حس",
-    "حش",
-    "حص",
-    "خز",
-    "خس",
-    "خش",
-    "خص",
-    "زح",
-    "زخ",
-    "زك",
-    "سح",
-    "سخ",
-    "سس",
-    "سغ",
-    "سك",
-    "سه",
-    "شح",
-    "شخ",
-    "شغ",
-    "شك",
-    "شه",
-    "صح",
-    "صخ",
-    "صك",
-    "غز",
-    "غس",
-    "غش",
-    "غص",
-    "كز",
-    "كس",
-    "كش",
-    "هز",
-    "هش"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "شخص"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Penestae",
-   "read": "",
-   "gloss": "A tribe of Illyria settled in a mountainous district",
-   "nuclei_found": [
-    "بن",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "فن",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ]
   },
   {
    "branch": "Celbis",
@@ -1001445,50 +996479,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Adyrmachidae",
-   "read": "",
-   "gloss": "A tribe of Marmarica mentioned by Pliny",
-   "nuclei_found": [
-    "حد",
-    "حذ",
-    "حض",
-    "خد",
-    "خذ",
-    "خض",
-    "رم",
-    "كد",
-    "كذ",
-    "لم",
-    "مح",
-    "مخ",
-    "مك"
-   ]
-  },
-  {
-   "branch": "Niteri",
-   "read": "",
-   "gloss": "A tribe of Lybia mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل",
-    "نت",
-    "نث",
-    "نط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "نتل",
-    "نثر",
-    "نطر",
-    "نطل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Nathabur",
    "read": "",
    "gloss": "a river in Libya, mentioned by Pliny",
@@ -1001670,33 +996660,6 @@
    ]
   },
   {
-   "branch": "Tamiagi",
-   "read": "",
-   "gloss": "A tribe of Lybia mentioned by Pliny",
-   "nuclei_found": [
-    "تم",
-    "ثم",
-    "طم",
-    "مج",
-    "مق",
-    "مك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "تمك"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Enipi",
-   "read": "",
-   "gloss": "A tribe of Lybia mentioned by Pliny",
-   "nuclei_found": [
-    "نب",
-    "نف"
-   ]
-  },
-  {
    "branch": "Nemesa",
    "read": "",
    "gloss": "a river in Germany, mentioned by Ausonius, now the Nims",
@@ -1001859,15 +996822,6 @@
    ]
   },
   {
-   "branch": "Obilae",
-   "read": "",
-   "gloss": "A tribe of Marmarica mentioned by Ptolemy",
-   "nuclei_found": [
-    "بر",
-    "بل"
-   ]
-  },
-  {
    "branch": "Aventia",
    "read": "",
    "gloss": "A river of Etruria mentioned in the Tabula Peutingeriana, now the Carrione",
@@ -1001942,36 +996896,6 @@
     "ليث"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Tapanitae",
-   "read": "",
-   "gloss": "A tribe of the interior of Marmarica mentioned by Ptolemy",
-   "nuclei_found": [
-    "بن",
-    "تب",
-    "تف",
-    "ثب",
-    "طب",
-    "طف",
-    "فن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Ruaditae",
-   "read": "",
-   "gloss": "A tribe of Marmarica mentioned by Ptolemy",
-   "nuclei_found": [
-    "دث",
-    "رد",
-    "رذ",
-    "رض",
-    "لد",
-    "لذ"
-   ]
   },
   {
    "branch": "Canuleius",
@@ -1002085,23 +997009,6 @@
    ]
   },
   {
-   "branch": "Anagombri",
-   "read": "",
-   "gloss": "A tribe of Marmarica mentioned by Ptolemy",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جم",
-    "غم",
-    "قم",
-    "كم",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
    "branch": "Taposiris",
    "read": "",
    "gloss": "a town in Egypt situated west of the delta of the Nile",
@@ -1002133,66 +997040,6 @@
     "لز",
     "لس"
    ]
-  },
-  {
-   "branch": "Tarraelii",
-   "read": "",
-   "gloss": "A tribe of Ethiopia mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ترر",
-    "تلل",
-    "ثرر",
-    "ثلل",
-    "طلل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Oecalices",
-   "read": "",
-   "gloss": "A tribe of Ethiopia mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جز",
-    "جس",
-    "جل",
-    "رج",
-    "رق",
-    "رك",
-    "قر",
-    "قس",
-    "قش",
-    "قص",
-    "قل",
-    "كر",
-    "كز",
-    "كس",
-    "كش",
-    "كل",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرج",
-    "جرك",
-    "قرق",
-    "قلق",
-    "كرج",
-    "كرك",
-    "كلك"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
    "branch": "Porphyrius",
@@ -1002248,67 +997095,6 @@
     "لكس"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Aneritae",
-   "read": "",
-   "gloss": "A tribe of Marmarica mentioned by Ptolemy",
-   "nuclei_found": [
-    "رت",
-    "رث",
-    "رط",
-    "لت",
-    "لط",
-    "نر",
-    "نل"
-   ]
-  },
-  {
-   "branch": "Aezari",
-   "read": "",
-   "gloss": "A tribe of Marmarica mentioned by Ptolemy",
-   "nuclei_found": [
-    "ذر",
-    "ذل",
-    "زر",
-    "زل",
-    "صر",
-    "صل"
-   ]
-  },
-  {
-   "branch": "Troglodytae",
-   "read": "",
-   "gloss": "A tribe of Ethiopia who dwelt in caves",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جر",
-    "جل",
-    "رج",
-    "رد",
-    "رذ",
-    "رض",
-    "رغ",
-    "رق",
-    "رك",
-    "طر",
-    "طل",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لد",
-    "لذ",
-    "لغ",
-    "لق",
-    "لك"
-   ]
   },
   {
    "branch": "Sapaei",
@@ -1002485,17 +997271,6 @@
     "نكل"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Blemyes",
-   "read": "",
-   "gloss": "A tribe of Ethiopia",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رم",
-    "لم"
-   ]
   },
   {
    "branch": "Pleumoxii",
@@ -1003049,32 +997824,6 @@
     "لجر"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Biessi",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Ptolemy",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص"
-   ]
-  },
-  {
-   "branch": "Anartes",
-   "read": "",
-   "gloss": "A tribe of Dacia which dwelt on the Tibiscus",
-   "nuclei_found": [
-    "تس",
-    "رت",
-    "رث",
-    "رط",
-    "لت",
-    "لط",
-    "نر",
-    "نل"
-   ]
   },
   {
    "branch": "Coptos",
@@ -1004317,38 +999066,6 @@
    ]
   },
   {
-   "branch": "Catabani",
-   "read": "",
-   "gloss": "A tribe of Arabia which dwelt at the mouth of the Red Sea",
-   "nuclei_found": [
-    "بن",
-    "تب",
-    "ثب",
-    "جث",
-    "طب",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث"
-   ]
-  },
-  {
-   "branch": "Esbonitae",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "زب",
-    "سب",
-    "شب",
-    "صب",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
    "branch": "brachyrhynchus",
    "read": "",
    "gloss": "short-snouted, short-billed or short-beaked",
@@ -1004494,59 +999211,6 @@
     "فلم"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Scenitae",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "زج",
-    "زق",
-    "زك",
-    "زن",
-    "سج",
-    "سق",
-    "سك",
-    "سن",
-    "شج",
-    "شق",
-    "شك",
-    "شن",
-    "صك",
-    "صن",
-    "قن",
-    "كن",
-    "نت",
-    "نث",
-    "نط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سنت",
-    "سنط",
-    "شنط"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Canchlei",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "قن",
-    "كر",
-    "كل",
-    "كن",
-    "نح",
-    "نخ",
-    "نك"
-   ]
   },
   {
    "branch": "rudicula",
@@ -1005526,37 +1000190,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Turcilingi",
-   "read": "",
-   "gloss": "A tribe of Northern Germany",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جر",
-    "جل",
-    "رج",
-    "رق",
-    "رك",
-    "رن",
-    "طر",
-    "طل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لق",
-    "لك",
-    "لن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
    "branch": "Usipetes",
    "read": "",
    "gloss": "A Germanic tribe which dwelt on the lower course of the Rhine, mentioned by Caesar together with the Tencteri",
@@ -1006055,39 +1000688,6 @@
     "نش",
     "نص"
    ]
-  },
-  {
-   "branch": "Digerri",
-   "read": "",
-   "gloss": "A tribe of Thrace mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "دق",
-    "ذق",
-    "ذك",
-    "ضج",
-    "ضغ",
-    "ضق",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "دجر",
-    "دجل",
-    "دغر",
-    "دغل",
-    "دقل",
-    "دكر",
-    "ذكر",
-    "ضجر"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Paneas",
@@ -1006774,25 +1001374,6 @@
    "root_fan": [
     "لطس",
     "لطش"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Limici",
-   "read": "",
-   "gloss": "A tribe of Gallaecia",
-   "nuclei_found": [
-    "رم",
-    "لم",
-    "مج",
-    "مق",
-    "مك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رمق",
-    "رمك",
-    "لمج"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -1007949,24 +1002530,6 @@
     "لس",
     "مر",
     "مل"
-   ]
-  },
-  {
-   "branch": "Nazerini",
-   "read": "",
-   "gloss": "A tribe of Syria mentioned by Pliny",
-   "nuclei_found": [
-    "ذر",
-    "ذل",
-    "رن",
-    "زر",
-    "زل",
-    "صر",
-    "صل",
-    "لن",
-    "نذ",
-    "نز",
-    "نص"
    ]
   },
   {
@@ -1009526,47 +1004089,6 @@
    "root_fan_from": "بإسقاطِ زائدةِ `-orium`"
   },
   {
-   "branch": "Praetavi",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Plinius",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تب",
-    "تف",
-    "ثب",
-    "رت",
-    "رث",
-    "رط",
-    "طب",
-    "طف",
-    "طو",
-    "فر",
-    "فل",
-    "لت",
-    "لط"
-   ]
-  },
-  {
-   "branch": "Orniaci",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis, whose main town was Intercatia",
-   "nuclei_found": [
-    "رن",
-    "لن",
-    "نج",
-    "نق",
-    "نك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رنج",
-    "رنق",
-    "رنك"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Mygdonius",
    "read": "",
    "gloss": "a river in Mesopotamia that flows near Nisibis and then into the Chaboras",
@@ -1009863,47 +1004385,6 @@
     "غص",
     "هز",
     "هش"
-   ]
-  },
-  {
-   "branch": "Rhoali",
-   "read": "",
-   "gloss": "A tribe of Syria mentioned by Plinius",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رح",
-    "رخ",
-    "رغ",
-    "ره",
-    "غر",
-    "غل",
-    "لح",
-    "لغ",
-    "له",
-    "هر",
-    "هل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رحل",
-    "رغل",
-    "رهل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Samamycii",
-   "read": "",
-   "gloss": "A tribe of Sirtica mentioned by Ptolemy",
-   "nuclei_found": [
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "مم"
    ]
   },
   {
@@ -1010997,43 +1005478,6 @@
    "root_fan": [
     "سنم",
     "صنم"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Saleni",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pomponius Mela",
-   "nuclei_found": [
-    "رن",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لن"
-   ]
-  },
-  {
-   "branch": "Erdini",
-   "read": "",
-   "gloss": "A tribe of Ireland mentioned by Ptolemy",
-   "nuclei_found": [
-    "دن",
-    "ذن",
-    "رد",
-    "رذ",
-    "رض",
-    "ضن",
-    "لد",
-    "لذ"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ردن",
-    "لدن"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -1015603,69 +1010047,6 @@
    ]
   },
   {
-   "branch": "Carvetii",
-   "read": "",
-   "gloss": "A tribe of Britannia",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "جر",
-    "جل",
-    "رب",
-    "رف",
-    "رو",
-    "فت",
-    "فط",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لب",
-    "لف",
-    "لو"
-   ]
-  },
-  {
-   "branch": "Setantii",
-   "read": "",
-   "gloss": "A tribe of Britannia mentioned by Ptolemy",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Venicones",
-   "read": "",
-   "gloss": "A tribe of Britannia mentioned by Ptolemy",
-   "nuclei_found": [
-    "بن",
-    "جن",
-    "فن",
-    "قن",
-    "كن",
-    "نج",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نق",
-    "نك",
-    "ون"
-   ]
-  },
-  {
    "branch": "Calynda",
    "read": "",
    "gloss": "a town in Caria situated east of Caunus",
@@ -1016310,50 +1010691,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Iadovi",
-   "read": "",
-   "gloss": "A tribe of Hispania Tarraconensis mentioned by Pliny",
-   "nuclei_found": [
-    "دب",
-    "دف",
-    "ذب",
-    "ذو",
-    "ضب",
-    "ضف",
-    "ضو"
-   ]
-  },
-  {
-   "branch": "Narisci",
-   "read": "",
-   "gloss": "A tribe of Germania mentioned by Tacitus",
-   "nuclei_found": [
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زج",
-    "زق",
-    "زك",
-    "سج",
-    "سق",
-    "سك",
-    "شج",
-    "شق",
-    "شك",
-    "صك",
-    "لز",
-    "لس",
-    "نر",
-    "نل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "نرز"
-   ],
-   "root_fan_from": "كما وردَت والمزدوجُ sc صوتًا واحدًا"
-  },
-  {
    "branch": "Synnada",
    "read": "",
    "gloss": "a town of Phrygia famous for its marbles",
@@ -1016483,31 +1010820,6 @@
     "صر",
     "صل",
     "لن"
-   ]
-  },
-  {
-   "branch": "Centores",
-   "read": "",
-   "gloss": "A tribe of Colchis mentioned by Gaius Valerius Flaccus",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جن",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "طر",
-    "طل",
-    "قن",
-    "كن",
-    "لز",
-    "لس",
-    "نت",
-    "نث",
-    "نط"
    ]
   },
   {
@@ -1017712,21 +1012024,6 @@
     "مص",
     "هد",
     "هض"
-   ]
-  },
-  {
-   "branch": "Harii",
-   "read": "",
-   "gloss": "A tribe of Germany mentioned by Tacitus",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "غر",
-    "غل",
-    "هر",
-    "هل"
    ]
   },
   {
@@ -1019243,43 +1013540,6 @@
    ]
   },
   {
-   "branch": "Helvii",
-   "read": "",
-   "gloss": "A tribe of Gallia Narbonensis, which bordered on the Arverni",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رب",
-    "رف",
-    "رو",
-    "غر",
-    "غل",
-    "لب",
-    "لف",
-    "لو",
-    "هر",
-    "هل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "حرب",
-    "حرف",
-    "حلب",
-    "حلف",
-    "حلو",
-    "خرب",
-    "خرف",
-    "خرو",
-    "خلب",
-    "خلف",
-    "خلو",
-    "غرب"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Aduatuci",
    "read": "",
    "gloss": "a Germanic tribe mentioned by Caesar, dwelling in the eastern part of modern-day Belgium",
@@ -1020112,25 +1014372,6 @@
    "gloss": "Lydia (a historical region in western Anatolia, modern Turkey)",
    "nuclei_found": [
     "من"
-   ]
-  },
-  {
-   "branch": "Bebryces",
-   "read": "",
-   "gloss": "An ancient tribe of Asia Minor؛ A tribe of Iberia dwelling on both sides of the Pyrenees",
-   "nuclei_found": [
-    "بب",
-    "بر",
-    "بل",
-    "جز",
-    "جس",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش",
-    "لي"
    ]
   },
   {
@@ -1021740,23 +1015981,6 @@
    ]
   },
   {
-   "branch": "Betasii",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica bordering the Tungri and the Nervii",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بطس",
-    "بطش"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Hipponax",
    "read": "",
    "gloss": "A Greek poet born in Ephesus",
@@ -1021876,22 +1016100,6 @@
     "كلي"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Cilbiani",
-   "read": "",
-   "gloss": "A tribe of Lydia mentioned by Pliny, dwelling in the upper valley of Κάϋστρος (Káüstros)",
-   "nuclei_found": [
-    "بن",
-    "جر",
-    "جل",
-    "رب",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لب"
-   ]
   },
   {
    "branch": "Timagenes",
@@ -1026209,85 +1020417,6 @@
    ]
   },
   {
-   "branch": "Bysnaei",
-   "read": "",
-   "gloss": "A tribe of the Bebryces",
-   "nuclei_found": [
-    "زن",
-    "سن",
-    "شن",
-    "صن"
-   ]
-  },
-  {
-   "branch": "Colycantii",
-   "read": "",
-   "gloss": "A tribe of Assyria mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "جن",
-    "قر",
-    "قل",
-    "قن",
-    "كر",
-    "كل",
-    "كن",
-    "لي",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Tripsedi",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رب",
-    "رف",
-    "زد",
-    "سد",
-    "شد",
-    "صد",
-    "طر",
-    "طل",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "لب",
-    "لف"
-   ]
-  },
-  {
-   "branch": "Sabalingii",
-   "read": "",
-   "gloss": "A tribe of Germania mentioned by Ptolemy",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رن",
-    "زب",
-    "سب",
-    "شب",
-    "صب",
-    "لن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
    "branch": "prioratus",
    "read": "",
    "gloss": "priority, precedence؛ priory",
@@ -1029445,27 +1023574,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Coritani",
-   "read": "",
-   "gloss": "A tribe of Britain, mentioned by Ptolemy",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "جر",
-    "جل",
-    "رت",
-    "رث",
-    "رط",
-    "طن",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لت",
-    "لط"
-   ]
-  },
-  {
    "branch": "Sabellius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -1029586,32 +1023694,6 @@
     "كلد"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Taezali",
-   "read": "",
-   "gloss": "A tribe of Scotland mentioned by Ptolemy",
-   "nuclei_found": [
-    "ذر",
-    "ذل",
-    "زر",
-    "زل",
-    "صر",
-    "صل"
-   ]
-  },
-  {
-   "branch": "Maduateni",
-   "read": "",
-   "gloss": "A tribe of Thrace mentioned by Livy",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "دث",
-    "طن",
-    "مد",
-    "مض"
-   ]
   },
   {
    "branch": "Comatius",
@@ -1031449,29 +1025531,6 @@
    ]
   },
   {
-   "branch": "Tyragetae",
-   "read": "",
-   "gloss": "A tribe of Sarmatia dwelling east of the river Tyras",
-   "nuclei_found": [
-    "جث",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غث",
-    "غط",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ]
-  },
-  {
    "branch": "Polyaenus",
    "read": "",
    "gloss": "A rhetorician of Macedonia",
@@ -1031677,30 +1025736,6 @@
     "كس",
     "كش"
    ]
-  },
-  {
-   "branch": "Gothini",
-   "read": "",
-   "gloss": "A tribe of Pannonia mentioned by Tacitus",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "جث",
-    "طن",
-    "غث",
-    "غط",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "قتن",
-    "قطن"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Antissa",
@@ -1031955,34 +1025990,6 @@
     "رتق"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Consuantae",
-   "read": "",
-   "gloss": "A tribe of Vindelicia",
-   "nuclei_found": [
-    "جن",
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "قن",
-    "كن",
-    "نت",
-    "نث",
-    "نز",
-    "نس",
-    "نش",
-    "نص",
-    "نط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سنت",
-    "سنط",
-    "شنط"
-   ],
-   "root_fan_from": "بإسقاطِ صدرِ `con-`"
   },
   {
    "branch": "Licates",
@@ -1032852,34 +1026859,6 @@
     "درن"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Hercates",
-   "read": "",
-   "gloss": "A tribe of Gallia Transpadana mentioned by Livy",
-   "nuclei_found": [
-    "تس",
-    "جث",
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رج",
-    "رق",
-    "رك",
-    "غر",
-    "غل",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لج",
-    "لق",
-    "لك",
-    "هر",
-    "هل"
-   ]
   },
   {
    "branch": "Cronia",
@@ -1033901,16 +1027880,6 @@
    ]
   },
   {
-   "branch": "Conii",
-   "read": "",
-   "gloss": "A tribe of Lusitania, whose capital was Conistorgis",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كن"
-   ]
-  },
-  {
    "branch": "Algae",
    "read": "",
    "gloss": "a town in Etruria",
@@ -1034243,50 +1028212,6 @@
     "ضم",
     "مد",
     "مض"
-   ]
-  },
-  {
-   "branch": "Voturi",
-   "read": "",
-   "gloss": "A tribe of Galatia mentioned by Pliny",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل",
-    "فت",
-    "فط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بتر",
-    "بتل",
-    "بثر",
-    "بطر",
-    "بطل",
-    "فتر",
-    "فتل",
-    "فثر",
-    "فطر",
-    "وتر",
-    "وثر",
-    "وطر"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Ambitui",
-   "read": "",
-   "gloss": "A tribe of Galatia mentioned by Pliny",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط"
    ]
   },
   {
@@ -1036016,23 +1029941,6 @@
    ]
   },
   {
-   "branch": "Friniates",
-   "read": "",
-   "gloss": "A tribe of Liguria mentioned by Livy",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تس",
-    "رن",
-    "فر",
-    "فل",
-    "لن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
    "branch": "Modicia",
    "read": "",
    "gloss": "a city in Transpadane Gaul, now Monza",
@@ -1036105,55 +1030013,6 @@
     "لز",
     "لس"
    ]
-  },
-  {
-   "branch": "Epanterii",
-   "read": "",
-   "gloss": "A tribe of Liguria mentioned only by Pliny",
-   "nuclei_found": [
-    "بن",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "طر",
-    "طل",
-    "فن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Garuli",
-   "read": "",
-   "gloss": "A tribe of Liguria mentioned by Livy",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرر",
-    "جرل",
-    "جلل",
-    "غرر",
-    "غرل",
-    "غلل",
-    "قرر",
-    "قرل",
-    "قلل",
-    "كرر",
-    "كرل",
-    "كلر"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Ampius",
@@ -1036478,55 +1030337,6 @@
     "نت",
     "نث",
     "نط"
-   ]
-  },
-  {
-   "branch": "Briniates",
-   "read": "",
-   "gloss": "A tribe of Liguria mentioned by Livy, which dwelt in the valley of the Boactes",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تس",
-    "رن",
-    "لن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Vertacomicori",
-   "read": "",
-   "gloss": "A tribe of Gallia which founded Novaria",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "جر",
-    "جل",
-    "جم",
-    "رت",
-    "رث",
-    "رط",
-    "طق",
-    "فر",
-    "فل",
-    "قر",
-    "قل",
-    "قم",
-    "كر",
-    "كل",
-    "كم",
-    "لت",
-    "لط",
-    "مج",
-    "مق",
-    "مك",
-    "ول"
    ]
   },
   {
@@ -1037050,14 +1030860,6 @@
    ]
   },
   {
-   "branch": "Bimbelli",
-   "read": "",
-   "gloss": "A tribe of Liguria mentioned by Pliny",
-   "nuclei_found": [
-    "بل"
-   ]
-  },
-  {
    "branch": "Nasidienus",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\" famously held by؛ a Roman nomen gentile, gens or \"family name\" famously hel",
@@ -1037231,32 +1031033,6 @@
     "ذلل",
     "ضرر",
     "ضلل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Sanigae",
-   "read": "",
-   "gloss": "A tribe of Mount Caucasus mentioned by Arrian",
-   "nuclei_found": [
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زنج",
-    "زنق",
-    "زنك",
-    "شنج",
-    "شنق",
-    "شنك",
-    "صنج"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -1037507,59 +1031283,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Apsilae",
-   "read": "",
-   "gloss": "A tribe of Colchis on the coast of the Black Sea",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "فز",
-    "فس",
-    "فش",
-    "فص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بزر",
-    "بزل",
-    "بسر",
-    "بسل",
-    "بشر",
-    "بصر",
-    "بصل",
-    "فسر",
-    "فسل",
-    "فشر",
-    "فشل",
-    "فصل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Zicchi",
-   "read": "",
-   "gloss": "A tribe of Sarmatia on the coast of the Black Sea",
-   "nuclei_found": [
-    "ذق",
-    "ذك",
-    "زق",
-    "زك",
-    "صك",
-    "قح",
-    "قه",
-    "كه"
-   ]
-  },
-  {
    "branch": "Brinnius",
    "read": "",
    "gloss": "a Roman nomen gentile, gens or \"family name\"",
@@ -1037692,28 +1031415,6 @@
     "هنك"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Machelones",
-   "read": "",
-   "gloss": "A tribe of Colchis settled to the south of the river Phasis",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رن",
-    "كر",
-    "كل",
-    "لن",
-    "مح",
-    "مخ",
-    "مك",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ]
   },
   {
    "branch": "mador",
@@ -1039392,28 +1033093,6 @@
    ]
   },
   {
-   "branch": "Coraxi",
-   "read": "",
-   "gloss": "A tribe of Pontus, which dwelt near the banks of the river Corax",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رك",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرك",
-    "كرك",
-    "كلك"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Melanchlaeni",
    "read": "",
    "gloss": "A Scythian tribe which dwelt in Pontus",
@@ -1039945,20 +1033624,6 @@
     "قط",
     "كت",
     "كث"
-   ]
-  },
-  {
-   "branch": "Tibareni",
-   "read": "",
-   "gloss": "A tribe of the coast of Pontus believed to be of Scythian origin",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تب",
-    "ثب",
-    "رن",
-    "طب",
-    "لن"
    ]
   },
   {
@@ -1040519,26 +1034184,6 @@
     "لهب"
    ],
    "root_fan_from": "بإسقاطِ نهايةِ التصريفِ -on"
-  },
-  {
-   "branch": "Limigantes",
-   "read": "",
-   "gloss": "A tribe of Sarmatia that lived by the river Tisza",
-   "nuclei_found": [
-    "تس",
-    "جن",
-    "رم",
-    "غن",
-    "قن",
-    "كن",
-    "لم",
-    "مج",
-    "مق",
-    "مك",
-    "نت",
-    "نث",
-    "نط"
-   ]
   },
   {
    "branch": "Thervingi",
@@ -1041113,47 +1034758,6 @@
    "root_fan_from": "بنزعِ سابقةِ `ga-`"
   },
   {
-   "branch": "Genetae",
-   "read": "",
-   "gloss": "A tribe of Pontus mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "غن",
-    "قن",
-    "كن",
-    "نت",
-    "نث",
-    "نط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "قنت",
-    "قنط",
-    "كنت",
-    "كنث"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Byzeres",
-   "read": "",
-   "gloss": "A tribe of Pontus",
-   "nuclei_found": [
-    "ذر",
-    "ذل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زر",
-    "زل",
-    "صر",
-    "صل",
-    "لز",
-    "لس"
-   ]
-  },
-  {
    "branch": "intimatio",
    "read": "",
    "gloss": "demonstration, exposition؛ accusation",
@@ -1041726,21 +1035330,6 @@
    ]
   },
   {
-   "branch": "Zigae",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Pliny, northeast of the Black Sea",
-   "nuclei_found": [
-    "ذق",
-    "ذك",
-    "زج",
-    "زغ",
-    "زق",
-    "زك",
-    "صغ",
-    "صك"
-   ]
-  },
-  {
    "branch": "cumbo",
    "read": "",
    "gloss": "to lie down, recline",
@@ -1041838,25 +1035427,6 @@
     "مر",
     "مل",
     "من"
-   ]
-  },
-  {
-   "branch": "Calingae",
-   "read": "",
-   "gloss": "A tribe of India which dwelt near the sea and whose capital was Parthalis",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رن",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
    ]
   },
   {
@@ -1043333,53 +1036903,6 @@
     "قلم",
     "كرم",
     "كلم"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Amprentae",
-   "read": "",
-   "gloss": "A tribe of Colchis mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رن",
-    "فر",
-    "فل",
-    "لن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Saltiae",
-   "read": "",
-   "gloss": "A tribe of Colchis mentioned by Pliny",
-   "nuclei_found": [
-    "رت",
-    "رث",
-    "رط",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زلط",
-    "سرت",
-    "سرط",
-    "سلت",
-    "سلط",
-    "شرث",
-    "شرط",
-    "صرط"
    ],
    "root_fan_from": "كما وردَت"
   },
@@ -1045238,15 +1038761,6 @@
    ]
   },
   {
-   "branch": "Tyrambae",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Ptolemy",
-   "nuclei_found": [
-    "رم",
-    "لم"
-   ]
-  },
-  {
    "branch": "Anthemus",
    "read": "",
    "gloss": "A town of Macedonia situated south-east of Thessalonica؛ a town in Mesopotamia؛ A river of Colchis",
@@ -1045535,47 +1039049,6 @@
    ]
   },
   {
-   "branch": "Toretae",
-   "read": "",
-   "gloss": "A tribe of Sarmatia settled near the coast of the Black Sea",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رت",
-    "رث",
-    "رط",
-    "طر",
-    "طل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ترت",
-    "ترث",
-    "ثلث",
-    "طرط"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Psessii",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Ptolemy",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "فز",
-    "فس",
-    "فش",
-    "فص"
-   ]
-  },
-  {
    "branch": "Cepi",
    "read": "",
    "gloss": "A town of Bosporus Cimmerius founded by the Milesians",
@@ -1045855,44 +1039328,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Argippaei",
-   "read": "",
-   "gloss": "A tribe of northern Asia dwelling beyond the Scythians",
-   "nuclei_found": [
-    "جب",
-    "جف",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غب",
-    "غف",
-    "قب",
-    "قف",
-    "كب",
-    "كف",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رجب",
-    "رجف",
-    "رغب",
-    "رغف",
-    "رقب",
-    "رقف",
-    "ركب",
-    "لجب",
-    "لغب",
-    "لقب",
-    "لقف"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Naprae",
    "read": "",
    "gloss": "A tribe settled near the Sea of Azov, mentioned by Pliny",
@@ -1045963,47 +1039398,6 @@
    ]
   },
   {
-   "branch": "Essedones",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "دن",
-    "ذن",
-    "زد",
-    "سد",
-    "شد",
-    "صد",
-    "ضن",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "سدن"
-   ],
-   "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Camacae",
-   "read": "",
-   "gloss": "A tribe of Asian Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "جم",
-    "قم",
-    "كم",
-    "مج",
-    "مق",
-    "مك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "قمق"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Autacae",
    "read": "",
    "gloss": "A tribe settled on the coast of the Black Sea, mentioned by Pliny",
@@ -1046013,21 +1039407,6 @@
     "ثج",
     "ثق",
     "طق"
-   ]
-  },
-  {
-   "branch": "Mazamacae",
-   "read": "",
-   "gloss": "A tribe of Asian Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "ذم",
-    "زم",
-    "صم",
-    "مج",
-    "مز",
-    "مص",
-    "مق",
-    "مك"
    ]
   },
   {
@@ -1046181,64 +1039560,6 @@
    ]
   },
   {
-   "branch": "Orani",
-   "read": "",
-   "gloss": "A tribe of Asiatic Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "رن",
-    "لن"
-   ]
-  },
-  {
-   "branch": "Cantiocaptae",
-   "read": "",
-   "gloss": "A tribe of Asian Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "جب",
-    "جف",
-    "جن",
-    "طق",
-    "فت",
-    "فط",
-    "قب",
-    "قف",
-    "قن",
-    "كب",
-    "كف",
-    "كن",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Agamatae",
-   "read": "",
-   "gloss": "A tribe of Asian Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "جم",
-    "غم",
-    "قم",
-    "كم",
-    "مت",
-    "مث",
-    "مط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "قمط",
-    "كمت"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Menotharus",
    "read": "",
    "gloss": "a river in Sarmatia, mentioned by Pliny",
@@ -1046367,99 +1039688,6 @@
     "رطل"
    ],
    "root_fan_from": "بنزعِ سابقةِ `us-`"
-  },
-  {
-   "branch": "Acascomarci",
-   "read": "",
-   "gloss": "A tribe of Pontus mentioned by Pliny",
-   "nuclei_found": [
-    "جز",
-    "جس",
-    "جم",
-    "رج",
-    "رق",
-    "رك",
-    "زج",
-    "زق",
-    "زك",
-    "زم",
-    "سج",
-    "سق",
-    "سك",
-    "سم",
-    "شج",
-    "شق",
-    "شك",
-    "شم",
-    "صك",
-    "صم",
-    "قس",
-    "قش",
-    "قص",
-    "قم",
-    "كز",
-    "كس",
-    "كش",
-    "كم",
-    "لج",
-    "لق",
-    "لك",
-    "مر",
-    "مل"
-   ]
-  },
-  {
-   "branch": "Imaduchi",
-   "read": "",
-   "gloss": "A tribe of Asiatic Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "دح",
-    "دخ",
-    "ذخ",
-    "ذك",
-    "ضح",
-    "مد",
-    "مض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مدح",
-    "مضح",
-    "مضخ"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Icatalae",
-   "read": "",
-   "gloss": "A tribe of Caucasus mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جث",
-    "طر",
-    "طل",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جتر",
-    "قتر",
-    "قتل",
-    "قثر",
-    "قطر",
-    "قطل",
-    "كتل",
-    "كثر",
-    "كثل"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Syrgis",
@@ -1046669,55 +1039897,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Tydii",
-   "read": "",
-   "gloss": "A tribe of Caucasus mentioned by Pliny",
-   "nuclei_found": [
-    "تد",
-    "طد",
-    "يد"
-   ]
-  },
-  {
-   "branch": "Carastasei",
-   "read": "",
-   "gloss": "A tribe of Caucasus mentioned by Pliny",
-   "nuclei_found": [
-    "تس",
-    "جر",
-    "جل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لز",
-    "لس"
-   ]
-  },
-  {
-   "branch": "Accisi",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش"
-   ]
-  },
-  {
    "branch": "Minio",
    "read": "",
    "gloss": "a river in Etruria, now the river Mignone",
@@ -1046754,46 +1039933,6 @@
    ]
   },
   {
-   "branch": "Gabri",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جب",
-    "غب",
-    "قب",
-    "كب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جبر",
-    "جبل",
-    "غبر",
-    "قبر",
-    "قبل",
-    "كبر",
-    "كبل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Asampatae",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "فت",
-    "فط"
-   ]
-  },
-  {
    "branch": "Tagorae",
    "read": "",
    "gloss": "A tribe settled near the course of the Tanais",
@@ -1046827,27 +1039966,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Synhietae",
-   "read": "",
-   "gloss": "A tribe of Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "حت",
-    "حث",
-    "حط",
-    "خت",
-    "خط",
-    "صي",
-    "غث",
-    "غط",
-    "نح",
-    "نخ",
-    "نغ",
-    "نه",
-    "هت",
-    "هط"
-   ]
-  },
-  {
    "branch": "Spondolici",
    "read": "",
    "gloss": "A tribe settled on the Tanais mentioned by Pliny",
@@ -1046877,56 +1039995,6 @@
     "ند",
     "نذ",
     "نض"
-   ]
-  },
-  {
-   "branch": "Satarchei",
-   "read": "",
-   "gloss": "A tribe of Asian Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رح",
-    "رخ",
-    "رك",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طر",
-    "طل",
-    "لح",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Herticchei",
-   "read": "",
-   "gloss": "A tribe of Asian Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "تق",
-    "ثق",
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رت",
-    "رث",
-    "رط",
-    "طق",
-    "غر",
-    "غل",
-    "قح",
-    "قه",
-    "كه",
-    "لت",
-    "لط",
-    "هر",
-    "هل"
    ]
   },
   {
@@ -1047029,39 +1040097,6 @@
    ]
   },
   {
-   "branch": "Anasi",
-   "read": "",
-   "gloss": "A tribe of northern Asia mentioned by Pliny",
-   "nuclei_found": [
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ]
-  },
-  {
-   "branch": "Caroni",
-   "read": "",
-   "gloss": "A tribe of Asian Sarmatia mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رن",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرن",
-    "قرن",
-    "كرن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Neripi",
    "read": "",
    "gloss": "A tribe settled beyond the Sea of Azov mentioned by Pliny",
@@ -1047073,27 +1040108,6 @@
     "نر",
     "نل"
    ]
-  },
-  {
-   "branch": "Agandei",
-   "read": "",
-   "gloss": "A tribe of northern Asia mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "غن",
-    "قن",
-    "كن",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جند",
-    "قند",
-    "كند"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Nervesia",
@@ -1047218,31 +1040232,6 @@
    ]
   },
   {
-   "branch": "Diduri",
-   "read": "",
-   "gloss": "A tribe of the interior of Sarmatia",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "ضد",
-    "ضر",
-    "ضل"
-   ]
-  },
-  {
-   "branch": "Jaxamatae",
-   "read": "",
-   "gloss": "A tribe of Sarmatia settled between the course of the Don and the course of the Volga",
-   "nuclei_found": [
-    "كم",
-    "مت",
-    "مث",
-    "مط"
-   ]
-  },
-  {
    "branch": "Adiabene",
    "read": "",
    "gloss": "Adiabene (an ancient kingdom in Assyria, with its capital at Arbela)",
@@ -1047257,61 +1040246,6 @@
     "ضبن"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Menobardi",
-   "read": "",
-   "gloss": "A tribe of Armenia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رد",
-    "رذ",
-    "رض",
-    "لد",
-    "لذ",
-    "من",
-    "نب"
-   ]
-  },
-  {
-   "branch": "Moscheni",
-   "read": "",
-   "gloss": "A tribe of Armenia mentioned by Pliny",
-   "nuclei_found": [
-    "حن",
-    "خن",
-    "زح",
-    "زخ",
-    "زك",
-    "سح",
-    "سخ",
-    "سغ",
-    "سك",
-    "سن",
-    "سه",
-    "شح",
-    "شخ",
-    "شغ",
-    "شك",
-    "شن",
-    "شه",
-    "صح",
-    "صخ",
-    "صك",
-    "غن",
-    "كن",
-    "مز",
-    "مس",
-    "مش",
-    "مص",
-    "هن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مسن"
-   ],
-   "root_fan_from": "كما وردَت والمزدوجُ sc صوتًا واحدًا"
   },
   {
    "branch": "Vitellia",
@@ -1047491,55 +1040425,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Sacassani",
-   "read": "",
-   "gloss": "A tribe of Caucasus mentioned by Pliny",
-   "nuclei_found": [
-    "جز",
-    "جس",
-    "زج",
-    "زق",
-    "زك",
-    "زن",
-    "سج",
-    "سق",
-    "سك",
-    "سن",
-    "شج",
-    "شق",
-    "شك",
-    "شن",
-    "صك",
-    "صن",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش"
-   ]
-  },
-  {
-   "branch": "Lupenii",
-   "read": "",
-   "gloss": "A tribe of Caucasus mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "رب",
-    "رف",
-    "فن",
-    "لب",
-    "لف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ربن",
-    "لبن",
-    "لفن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "neopum",
    "read": "",
    "gloss": "olive oil؛ almond oil",
@@ -1047589,28 +1040474,6 @@
     "نذ",
     "نز",
     "نص"
-   ]
-  },
-  {
-   "branch": "Sodi",
-   "read": "",
-   "gloss": "A tribe of Hiberia mentioned by Pliny",
-   "nuclei_found": [
-    "زد",
-    "سد",
-    "شد",
-    "صد"
-   ]
-  },
-  {
-   "branch": "Suani",
-   "read": "",
-   "gloss": "A tribe of Colchis mentioned by Pliny",
-   "nuclei_found": [
-    "زن",
-    "سن",
-    "شن",
-    "صن"
    ]
   },
   {
@@ -1047729,43 +1040592,6 @@
    ]
   },
   {
-   "branch": "Ombrones",
-   "read": "",
-   "gloss": "A tribe of European Sarmatia which dwelt on the upper course of the Vistula",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رن",
-    "لن",
-    "نز",
-    "نس",
-    "نش",
-    "نص"
-   ]
-  },
-  {
-   "branch": "Cadusii",
-   "read": "",
-   "gloss": "A tribe of Media settled on the shores of the Caspian Sea",
-   "nuclei_found": [
-    "جد",
-    "جذ",
-    "دس",
-    "ضز",
-    "قد",
-    "قذ",
-    "قض",
-    "كد",
-    "كذ"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "قدس",
-    "كدس"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Danaster",
    "read": "",
    "gloss": "synonym of Tyras, the Dniester River.",
@@ -1047845,16 +1040671,6 @@
     "لطم"
    ],
    "root_fan_from": "كلمةُ «Ultima» من العبارة"
-  },
-  {
-   "branch": "Abzoae",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "بذ",
-    "بز",
-    "بص"
-   ]
   },
   {
    "branch": "Udini",
@@ -1047953,22 +1040769,6 @@
     "تن",
     "ثن",
     "طن"
-   ]
-  },
-  {
-   "branch": "Pratitae",
-   "read": "",
-   "gloss": "A tribe of Media mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رت",
-    "رث",
-    "رط",
-    "فر",
-    "فل",
-    "لت",
-    "لط"
    ]
   },
   {
@@ -1048133,19 +1040933,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Tapyri",
-   "read": "",
-   "gloss": "A tribe of Media",
-   "nuclei_found": [
-    "تب",
-    "تف",
-    "ثب",
-    "طب",
-    "طف",
-    "في"
-   ]
-  },
-  {
    "branch": "Endovellicus",
    "read": "",
    "gloss": "A tutelary deity worshipped in Hispania",
@@ -1048259,103 +1041046,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Orciani",
-   "read": "",
-   "gloss": "A tribe of Central Asia",
-   "nuclei_found": [
-    "جن",
-    "رج",
-    "رق",
-    "رك",
-    "قن",
-    "كن",
-    "لج",
-    "لق",
-    "لك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رجن",
-    "ركن",
-    "لجن",
-    "لقن",
-    "لكن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Commori",
-   "read": "",
-   "gloss": "A tribe of Central Asia",
-   "nuclei_found": [
-    "جم",
-    "قم",
-    "كم",
-    "مر",
-    "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جمر",
-    "جمل",
-    "قمر",
-    "قمل",
-    "كمر",
-    "كمل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Berdrigae",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رج",
-    "رد",
-    "رذ",
-    "رض",
-    "رغ",
-    "رق",
-    "رك",
-    "ضر",
-    "ضل",
-    "لج",
-    "لد",
-    "لذ",
-    "لغ",
-    "لق",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Murrasiarae",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لز",
-    "لس",
-    "مر",
-    "مل"
-   ]
-  },
-  {
    "branch": "Zotha",
    "read": "",
    "gloss": "A lake or river of Margiana, Central Asia, mentioned by Pliny",
@@ -1048382,25 +1041072,6 @@
     "كتش"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Mandruani",
-   "read": "",
-   "gloss": "A tribe of Bactriana mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رن",
-    "ضر",
-    "ضل",
-    "لن",
-    "من",
-    "ند",
-    "نذ",
-    "نض"
-   ]
   },
   {
    "branch": "Choatrae",
@@ -1048599,103 +1041270,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Chorasmii",
-   "read": "",
-   "gloss": "A tribe of Sogdiana",
-   "nuclei_found": [
-    "حر",
-    "حل",
-    "خر",
-    "خل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "كر",
-    "كل",
-    "لز",
-    "لس"
-   ]
-  },
-  {
-   "branch": "Gandari",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "ضر",
-    "ضل",
-    "غن",
-    "قن",
-    "كن",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ندر",
-    "ندل",
-    "نذر",
-    "نذل",
-    "نضر",
-    "نضل"
-   ],
-   "root_fan_from": "بنزعِ سابقةِ `ga-`"
-  },
-  {
-   "branch": "Paricani",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جن",
-    "رج",
-    "رق",
-    "رك",
-    "فر",
-    "فل",
-    "قن",
-    "كن",
-    "لج",
-    "لق",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Arasmi",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "لز",
-    "لس"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رزم",
-    "رسم",
-    "لزم"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Chindrum",
    "read": "",
    "gloss": "a river in Asia, mentioned by Pliny",
@@ -1048874,57 +1041448,6 @@
    ]
   },
   {
-   "branch": "Marotiani",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "رت",
-    "رث",
-    "رط",
-    "طن",
-    "لت",
-    "لط",
-    "مر",
-    "مل"
-   ]
-  },
-  {
-   "branch": "Matiani",
-   "read": "",
-   "gloss": "A tribe of Hyrcania mentioned by Pliny",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "طن",
-    "مت",
-    "مث",
-    "مط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "متن",
-    "مثن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Gaeli",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ]
-  },
-  {
    "branch": "Ochus",
    "read": "",
    "gloss": "A river that flows through Bactriana and Hyrcania, now the Panj River",
@@ -1048967,70 +1041490,6 @@
     "نق",
     "نك"
    ]
-  },
-  {
-   "branch": "Oxyttagae",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "طغ",
-    "طق"
-   ]
-  },
-  {
-   "branch": "Saraparae",
-   "read": "",
-   "gloss": "A tribe of Asia settled near the Caspian Sea",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رب",
-    "رف",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "فر",
-    "فل",
-    "لب",
-    "لف"
-   ]
-  },
-  {
-   "branch": "Moci",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "مج",
-    "مق",
-    "مك"
-   ]
-  },
-  {
-   "branch": "Bateni",
-   "read": "",
-   "gloss": "A tribe of Asia settled near the Caspian Sea",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط",
-    "تن",
-    "ثن",
-    "طن"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بثن",
-    "بطن"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Daradax",
@@ -1049290,116 +1041749,6 @@
    ]
   },
   {
-   "branch": "Astacae",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طق"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ستج",
-    "ستق",
-    "صطك"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Rumnici",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "رم",
-    "لم",
-    "من",
-    "نج",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Pestici",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طق",
-    "فز",
-    "فس",
-    "فش",
-    "فص"
-   ]
-  },
-  {
-   "branch": "Cotieri",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جث",
-    "طر",
-    "طل",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جتر",
-    "قتر",
-    "قتل",
-    "قثر",
-    "قطر",
-    "قطل",
-    "كتل",
-    "كثر",
-    "كثل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Homodoti",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "حم",
-    "خم",
-    "دث",
-    "غم",
-    "مد",
-    "مض",
-    "هم"
-   ]
-  },
-  {
    "branch": "Thaubasium",
    "read": "",
    "gloss": "A town of Lower Egypt situated on the canopic arm of the Nile",
@@ -1049475,135 +1041824,6 @@
     "لس",
     "لق",
     "لك"
-   ]
-  },
-  {
-   "branch": "Histi",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "حز",
-    "حس",
-    "حش",
-    "حص",
-    "خز",
-    "خس",
-    "خش",
-    "خص",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "غز",
-    "غس",
-    "غش",
-    "غص",
-    "هز",
-    "هش"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "غسط",
-    "غشت"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Antacati",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "جث",
-    "طق",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
-   "branch": "Psacae",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "زج",
-    "زق",
-    "زك",
-    "سج",
-    "سق",
-    "سك",
-    "شج",
-    "شق",
-    "شك",
-    "صك",
-    "فز",
-    "فس",
-    "فش",
-    "فص"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بزق",
-    "بشق",
-    "بصق",
-    "فسق",
-    "فسك"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Camae",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "جم",
-    "قم",
-    "كم"
-   ]
-  },
-  {
-   "branch": "Camactulici",
-   "read": "",
-   "gloss": "A tribe of Gallia Narbonensis mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جث",
-    "جم",
-    "رج",
-    "رق",
-    "رك",
-    "طر",
-    "طل",
-    "قت",
-    "قث",
-    "قط",
-    "قم",
-    "كت",
-    "كث",
-    "كم",
-    "لج",
-    "لق",
-    "لك",
-    "مج",
-    "مق",
-    "مك"
    ]
   },
   {
@@ -1049795,56 +1042015,6 @@
     "كز",
     "كس",
     "كش"
-   ]
-  },
-  {
-   "branch": "Attacori",
-   "read": "",
-   "gloss": "A tribe of Scythia mentioned by Pliny",
-   "nuclei_found": [
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "جر",
-    "جل",
-    "طق",
-    "قر",
-    "قل",
-    "كر",
-    "كل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "تجر",
-    "تقر",
-    "تكر",
-    "تكل",
-    "ثقل",
-    "ثكل"
-   ],
-   "root_fan_from": "بنزعِ سابقةِ `at-`"
-  },
-  {
-   "branch": "Brisari",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لز",
-    "لس"
    ]
   },
   {
@@ -1050326,57 +1042496,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Isari",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل"
-   ]
-  },
-  {
-   "branch": "Cosiri",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "جز",
-    "جس",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جزر",
-    "جزل",
-    "جسر",
-    "قسر",
-    "قشر",
-    "قشل",
-    "قصر",
-    "قصل",
-    "كسر",
-    "كسل",
-    "كشر"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Sydrus",
    "read": "",
    "gloss": "a river in India, probably the Sutlej",
@@ -1050477,45 +1042596,6 @@
    ]
   },
   {
-   "branch": "Chisiotosagi",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "تس",
-    "حز",
-    "حس",
-    "حش",
-    "حص",
-    "خز",
-    "خس",
-    "خش",
-    "خص",
-    "زت",
-    "زج",
-    "زغ",
-    "زق",
-    "زك",
-    "ست",
-    "سج",
-    "سط",
-    "سغ",
-    "سق",
-    "سك",
-    "شت",
-    "شج",
-    "شط",
-    "شغ",
-    "شق",
-    "شك",
-    "صت",
-    "صغ",
-    "صك",
-    "كز",
-    "كس",
-    "كش"
-   ]
-  },
-  {
    "branch": "Anemoria",
    "read": "",
    "gloss": "An ancient town of Phocis mentioned by Homer",
@@ -1050530,64 +1042610,6 @@
     "نمل"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Maccocalingae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رن",
-    "قر",
-    "قل",
-    "كر",
-    "كك",
-    "كل",
-    "لن",
-    "مق",
-    "مك",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Mandaei",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "من",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "منذ"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Malli",
-   "read": "",
-   "gloss": "A tribe of India settled in a region between the rivers Acesines and Hydraotes",
-   "nuclei_found": [
-    "مل"
-   ]
-  },
-  {
-   "branch": "Madubae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "دب",
-    "ذب",
-    "ضب",
-    "مد",
-    "مض"
-   ]
   },
   {
    "branch": "Prinas",
@@ -1050733,75 +1042755,6 @@
     "ولت"
    ],
    "root_fan_from": "بإسقاطِ ميمِ الجمعِ المجرورِ -um"
-  },
-  {
-   "branch": "Molindae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "رن",
-    "لن",
-    "مر",
-    "مل",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Uberae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل"
-   ]
-  },
-  {
-   "branch": "Modressae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "ضر",
-    "ضل",
-    "لز",
-    "لس",
-    "مد",
-    "مض"
-   ]
-  },
-  {
-   "branch": "Colebae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رب",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لب"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرب",
-    "جلب",
-    "قرب",
-    "قلب",
-    "كرب",
-    "كلب"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Crenacca",
@@ -1050980,59 +1042933,6 @@
    ]
   },
   {
-   "branch": "Orumcolae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رم",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لم",
-    "مج",
-    "مق",
-    "مك"
-   ]
-  },
-  {
-   "branch": "Thalutae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رت",
-    "رث",
-    "رط",
-    "طر",
-    "طل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ترت",
-    "ترث",
-    "ثلث",
-    "طرط"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Abali",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل"
-   ]
-  },
-  {
    "branch": "Abali",
    "read": "",
    "gloss": "genitive/locative singular of Abalus",
@@ -1051040,76 +1042940,6 @@
     "بر",
     "بل"
    ]
-  },
-  {
-   "branch": "Sasuri",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "زر",
-    "زل",
-    "سر",
-    "سس",
-    "سل",
-    "شر",
-    "صر",
-    "صل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "شزر"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Praeti",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رت",
-    "رث",
-    "رط",
-    "فر",
-    "فل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بلط",
-    "فرث",
-    "فرط",
-    "فلت"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Andarae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "ضر",
-    "ضل",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ندر",
-    "ندل",
-    "نذر",
-    "نذل",
-    "نضر",
-    "نضل"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Prasii",
@@ -1051304,99 +1043134,6 @@
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
   },
   {
-   "branch": "Caetriboni",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جث",
-    "رب",
-    "طر",
-    "طل",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث",
-    "لب"
-   ]
-  },
-  {
-   "branch": "Asmagi",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "مج",
-    "مق",
-    "مك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زمج",
-    "زمك",
-    "سمج",
-    "سمق",
-    "سمك",
-    "صمغ"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Megallae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "جل",
-    "غل",
-    "قل",
-    "كل",
-    "مج",
-    "مق",
-    "مك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مجل",
-    "مغل",
-    "مقل",
-    "مكل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Parasangae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "فر",
-    "فل",
-    "لز",
-    "لس",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
    "branch": "Bulis",
    "read": "",
    "gloss": "A town of Phocis, on the frontiers of Boeotia",
@@ -1051439,49 +1043176,6 @@
     "فن",
     "لب",
     "لف"
-   ]
-  },
-  {
-   "branch": "Moruni",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "رن",
-    "لن",
-    "مر",
-    "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مرن"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Surae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل"
-   ]
-  },
-  {
-   "branch": "Rarungae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "رن",
-    "لن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
    ]
   },
   {
@@ -1051554,78 +1043248,6 @@
     "نغ",
     "نق",
     "نك"
-   ]
-  },
-  {
-   "branch": "Maltaecorae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "تج",
-    "تق",
-    "ثج",
-    "ثق",
-    "جر",
-    "جل",
-    "رت",
-    "رث",
-    "رط",
-    "طق",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لت",
-    "لط",
-    "مر",
-    "مل"
-   ]
-  },
-  {
-   "branch": "Singae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زنج",
-    "زنق",
-    "زنك",
-    "شنج",
-    "شنق",
-    "شنك",
-    "صنج"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Nareae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "نر",
-    "نل"
-   ]
-  },
-  {
-   "branch": "Oratae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "رت",
-    "رث",
-    "رط",
-    "لت",
-    "لط"
    ]
   },
   {
@@ -1051770,87 +1043392,6 @@
    ]
   },
   {
-   "branch": "Suarataratae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رت",
-    "رث",
-    "رط",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "طر",
-    "طل",
-    "لت",
-    "لط"
-   ]
-  },
-  {
-   "branch": "Odomboerae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "دم",
-    "ذم",
-    "ضم"
-   ]
-  },
-  {
-   "branch": "Pandae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "فن",
-    "ند",
-    "نذ",
-    "نض"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بند",
-    "فند"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Derangae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رن",
-    "ضر",
-    "ضل",
-    "لن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "رنج",
-    "رنق",
-    "رنك"
-   ],
-   "root_fan_from": "بإسقاطِ صدرِ `de-`"
-  },
-  {
    "branch": "Automula",
    "read": "",
    "gloss": "an ancient town in India, mentioned by Pliny",
@@ -1051921,105 +1043462,6 @@
     "مت",
     "مث",
     "مط"
-   ]
-  },
-  {
-   "branch": "Posingae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Butae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بت",
-    "بث",
-    "بط"
-   ]
-  },
-  {
-   "branch": "Nobundae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "نب",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Cocondae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "قن",
-    "كك",
-    "كن",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Palatitae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رت",
-    "رث",
-    "رط",
-    "فر",
-    "فل",
-    "لت",
-    "لط"
-   ]
-  },
-  {
-   "branch": "Salobriasae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رب",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لب",
-    "لز",
-    "لس"
    ]
   },
   {
@@ -1052131,140 +1043573,6 @@
    ]
   },
   {
-   "branch": "Gogaraei",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كك",
-    "كل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ججل",
-    "كجر"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Brangosi",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جز",
-    "جس",
-    "رن",
-    "غز",
-    "غس",
-    "غش",
-    "غص",
-    "قس",
-    "قش",
-    "قص",
-    "كز",
-    "كس",
-    "كش",
-    "لن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Dimuri",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "دم",
-    "ذم",
-    "ضم",
-    "مر",
-    "مل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "دمر",
-    "دمل",
-    "ذمر",
-    "ضمر"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Megari",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "مج",
-    "مق",
-    "مك"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "مجر",
-    "مجل",
-    "مغر",
-    "مغل",
-    "مقر",
-    "مقل",
-    "مكر",
-    "مكل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Orostrae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طر",
-    "طل",
-    "لز",
-    "لس"
-   ]
-  },
-  {
-   "branch": "Mathoae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "مت",
-    "مث",
-    "مط"
-   ]
-  },
-  {
    "branch": "Andomatis",
    "read": "",
    "gloss": "A tributary river of the Ganges mentioned by Arrian",
@@ -1052285,74 +1043593,6 @@
     "متز"
    ],
    "root_fan_from": "بنزعِ سابقةِ `and-`"
-  },
-  {
-   "branch": "Bolingae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رن",
-    "لن",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Gallitalutae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جل",
-    "رت",
-    "رث",
-    "رط",
-    "طر",
-    "طل",
-    "غل",
-    "قل",
-    "كل",
-    "لت",
-    "لط"
-   ]
-  },
-  {
-   "branch": "Ardabae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "دب",
-    "ذب",
-    "رد",
-    "رذ",
-    "رض",
-    "ضب",
-    "لد",
-    "لذ"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ردب"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Mesae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "مز",
-    "مس",
-    "مش",
-    "مص"
-   ]
   },
   {
    "branch": "Amystis",
@@ -1052436,59 +1043676,6 @@
     "نس",
     "نش",
     "نص"
-   ]
-  },
-  {
-   "branch": "Organagae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "جن",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غن",
-    "قن",
-    "كن",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Marogamatrae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جم",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "طر",
-    "طل",
-    "غم",
-    "قم",
-    "كم",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "مت",
-    "مث",
-    "مر",
-    "مط",
-    "مل"
    ]
   },
   {
@@ -1052611,77 +1043798,6 @@
     "لب",
     "لز",
     "لس"
-   ]
-  },
-  {
-   "branch": "Sosaeadae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "زد",
-    "سد",
-    "سس",
-    "شد",
-    "صد"
-   ]
-  },
-  {
-   "branch": "Sondrae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "ضر",
-    "ضل",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Samarabriae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "رب",
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "لب",
-    "مر",
-    "مل"
-   ]
-  },
-  {
-   "branch": "Bisambritae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "بل",
-    "رت",
-    "رث",
-    "رط",
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "لت",
-    "لط"
    ]
   },
   {
@@ -1052863,84 +1043979,6 @@
    ]
   },
   {
-   "branch": "Sambraceni",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جن",
-    "رج",
-    "رق",
-    "رك",
-    "زم",
-    "سم",
-    "شم",
-    "صم",
-    "قن",
-    "كن",
-    "لج",
-    "لق",
-    "لك"
-   ]
-  },
-  {
-   "branch": "Andiseni",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "دس",
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "ضز",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Arsagalitae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رت",
-    "رث",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "رط",
-    "زج",
-    "زغ",
-    "زق",
-    "زك",
-    "سج",
-    "سغ",
-    "سق",
-    "سك",
-    "شج",
-    "شغ",
-    "شق",
-    "شك",
-    "صغ",
-    "صك",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لت",
-    "لز",
-    "لس",
-    "لط"
-   ]
-  },
-  {
    "branch": "Chanes",
    "read": "",
    "gloss": "a river in Albania, mentioned by Strabo",
@@ -1053043,39 +1044081,6 @@
     "كلد"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Capori",
-   "read": "",
-   "gloss": "A tribe of Gallaecia mentioned by Ptolemy",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جب",
-    "جف",
-    "فر",
-    "فل",
-    "قب",
-    "قف",
-    "كب",
-    "كف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جبر",
-    "جبل",
-    "جفر",
-    "جفل",
-    "قبر",
-    "قبل",
-    "قفر",
-    "قفل",
-    "كبر",
-    "كبل",
-    "كفر",
-    "كفل"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Bibaga",
@@ -1053382,56 +1044387,6 @@
    ]
   },
   {
-   "branch": "Sandocandae",
-   "read": "",
-   "gloss": "A tribe of Taprobane mentioned by Ptolemy",
-   "nuclei_found": [
-    "جن",
-    "دق",
-    "ذق",
-    "ذك",
-    "زن",
-    "سن",
-    "شن",
-    "صن",
-    "ضج",
-    "ضق",
-    "قن",
-    "كن",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Rhogandani",
-   "read": "",
-   "gloss": "A tribe of Taprobane mentioned by Ptolemy",
-   "nuclei_found": [
-    "جن",
-    "حج",
-    "حق",
-    "حك",
-    "دن",
-    "ذن",
-    "رح",
-    "رخ",
-    "رغ",
-    "ره",
-    "ضن",
-    "غن",
-    "قن",
-    "كن",
-    "لح",
-    "لغ",
-    "له",
-    "ند",
-    "نذ",
-    "نض",
-    "هج"
-   ]
-  },
-  {
    "branch": "undequadragesimus",
    "read": "",
    "gloss": "thirty-ninth",
@@ -1053519,77 +1044474,6 @@
     "مص",
     "نق",
     "نك"
-   ]
-  },
-  {
-   "branch": "Nagadibi",
-   "read": "",
-   "gloss": "A tribe of Taprobane mentioned by Ptolemy",
-   "nuclei_found": [
-    "جد",
-    "جذ",
-    "دب",
-    "ذب",
-    "ضب",
-    "غد",
-    "غض",
-    "قد",
-    "قذ",
-    "قض",
-    "كد",
-    "كذ",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Modutti",
-   "read": "",
-   "gloss": "A tribe of Taprobane mentioned by Ptolemy",
-   "nuclei_found": [
-    "دث",
-    "مد",
-    "مض"
-   ]
-  },
-  {
-   "branch": "Anurogrammi",
-   "read": "",
-   "gloss": "A tribe of Taprobane mentioned by Ptolemy",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "رم",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "لم",
-    "نر",
-    "نل"
-   ]
-  },
-  {
-   "branch": "Soani",
-   "read": "",
-   "gloss": "A tribe of Taprobane mentioned by Ptolemy",
-   "nuclei_found": [
-    "زن",
-    "سن",
-    "شن",
-    "صن"
    ]
   },
   {
@@ -1053751,53 +1044635,6 @@
    ]
   },
   {
-   "branch": "Sydraci",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رج",
-    "رق",
-    "رك",
-    "صي",
-    "ضر",
-    "ضل",
-    "لج",
-    "لق",
-    "لك",
-    "يد"
-   ]
-  },
-  {
-   "branch": "Cadrusi",
-   "read": "",
-   "gloss": "A tribe of Arachosia mentioned by Pliny",
-   "nuclei_found": [
-    "جد",
-    "جذ",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "ضر",
-    "ضل",
-    "قد",
-    "قذ",
-    "قض",
-    "كد",
-    "كذ",
-    "لز",
-    "لس"
-   ]
-  },
-  {
    "branch": "Erymandrus",
    "read": "",
    "gloss": "The main river of Drangiana, now the Helmand River",
@@ -1053819,78 +1044656,6 @@
     "ند",
     "نذ",
     "نض"
-   ]
-  },
-  {
-   "branch": "Dexendrusi",
-   "read": "",
-   "gloss": "A tribe of Asia mentioned by Pliny",
-   "nuclei_found": [
-    "در",
-    "دل",
-    "ذر",
-    "ذك",
-    "ذل",
-    "رز",
-    "رس",
-    "رش",
-    "رص",
-    "ضر",
-    "ضل",
-    "كن",
-    "لز",
-    "لس",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Parapinae",
-   "read": "",
-   "gloss": "A tribe of Arachosia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "بن",
-    "رب",
-    "رف",
-    "فر",
-    "فل",
-    "فن",
-    "لب",
-    "لف"
-   ]
-  },
-  {
-   "branch": "Dangalae",
-   "read": "",
-   "gloss": "A tribe of Arachosia mentioned by Pliny",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "دن",
-    "ذن",
-    "ضن",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "نج",
-    "نغ",
-    "نق",
-    "نك"
-   ]
-  },
-  {
-   "branch": "Mazi",
-   "read": "",
-   "gloss": "A tribe of Arachosia mentioned by Pliny",
-   "nuclei_found": [
-    "مز",
-    "مص"
    ]
   },
   {
@@ -1054104,47 +1044869,6 @@
    ]
   },
   {
-   "branch": "Acutri",
-   "read": "",
-   "gloss": "A tribe of Ariana mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "جث",
-    "طر",
-    "طل",
-    "قت",
-    "قث",
-    "قط",
-    "كت",
-    "كث"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جتر",
-    "قتر",
-    "قتل",
-    "قثر",
-    "قطر",
-    "قطل",
-    "كتل",
-    "كثر",
-    "كثل"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Orbi",
-   "read": "",
-   "gloss": "A tribe of Gedrosia mentioned by Pliny",
-   "nuclei_found": [
-    "رب",
-    "لب"
-   ]
-  },
-  {
    "branch": "moderamen",
    "read": "",
    "gloss": "a means of controlling",
@@ -1054160,24 +1044884,6 @@
     "مد",
     "مض",
     "من"
-   ]
-  },
-  {
-   "branch": "Mahometus",
-   "read": "",
-   "gloss": "Muhammad (the prophet of Islam)",
-   "nuclei_found": [
-    "تس",
-    "حم",
-    "خم",
-    "غم",
-    "مت",
-    "مث",
-    "مح",
-    "مخ",
-    "مط",
-    "مه",
-    "هم"
    ]
   },
   {
@@ -1055236,36 +1045942,6 @@
    ]
   },
   {
-   "branch": "Oritae",
-   "read": "",
-   "gloss": "A tribe of the seacoast of Gedrosia, mentioned by several writers",
-   "nuclei_found": [
-    "رت",
-    "رث",
-    "رط",
-    "لت",
-    "لط"
-   ]
-  },
-  {
-   "branch": "Pandarae",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "ضر",
-    "ضل",
-    "فن",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
    "branch": "Orna",
    "read": "",
    "gloss": "a river in Gallia Belgica, now the Ornain",
@@ -1055519,57 +1046195,6 @@
     "لكن"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Gauratae",
-   "read": "",
-   "gloss": "A tribe of Asia settled near the Persian Gulf",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رت",
-    "رث",
-    "رط",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لت",
-    "لط"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرث",
-    "جرط",
-    "جلط",
-    "غلث",
-    "غلط",
-    "قرت",
-    "قرث",
-    "قرط",
-    "قلط",
-    "كرت",
-    "كرث"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Deximontani",
-   "read": "",
-   "gloss": "A tribe of India mentioned by Pliny",
-   "nuclei_found": [
-    "تن",
-    "ثن",
-    "ذك",
-    "طن",
-    "كم",
-    "من",
-    "نت",
-    "نث",
-    "نط"
-   ]
   },
   {
    "branch": "Hyctanis",
@@ -1055990,20 +1046615,6 @@
    "nuclei_found": [
     "مز",
     "مص"
-   ]
-  },
-  {
-   "branch": "Maphoritae",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Ptolemy",
-   "nuclei_found": [
-    "رت",
-    "رث",
-    "رط",
-    "فر",
-    "فل",
-    "لت",
-    "لط"
    ]
   },
   {
@@ -1057124,67 +1047735,6 @@
    ]
   },
   {
-   "branch": "Sitrae",
-   "read": "",
-   "gloss": "A tribe of Mesopotamia mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "طر",
-    "طل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ستر",
-    "سطر",
-    "سطل",
-    "شتر",
-    "شتل",
-    "شطر",
-    "صطر"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Aspurgiani",
-   "read": "",
-   "gloss": "A tribe of Caucasus situated between Phanagoria and Gorgippia",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جن",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "زب",
-    "زف",
-    "سب",
-    "سف",
-    "شب",
-    "شف",
-    "صب",
-    "صف",
-    "غن",
-    "فر",
-    "فل",
-    "قن",
-    "كن",
-    "لج",
-    "لغ",
-    "لق",
-    "لك"
-   ]
-  },
-  {
    "branch": "Polytelia",
    "read": "",
    "gloss": "an ancient town in Mesopotamia, mentioned by Pliny",
@@ -1058021,27 +1048571,6 @@
     "نش",
     "نص"
    ]
-  },
-  {
-   "branch": "Parirae",
-   "read": "",
-   "gloss": "A tribe of Gedrosia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "فر",
-    "فل"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "برر",
-    "بلر",
-    "بلل",
-    "فرر",
-    "فلر",
-    "فلل"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Narmalcha",
@@ -1060047,44 +1050576,6 @@
     "كن",
     "نم"
    ]
-  },
-  {
-   "branch": "Gaulopes",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Pliny",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "جر",
-    "جل",
-    "رب",
-    "رف",
-    "غر",
-    "غل",
-    "فز",
-    "فس",
-    "فش",
-    "فص",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لب",
-    "لف"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ربس",
-    "ربش",
-    "ربص",
-    "رفز",
-    "رفس",
-    "لبز",
-    "لبس"
-   ],
-   "root_fan_from": "بنزعِ سابقةِ `ga-`"
   },
   {
    "branch": "Nochaeti",
@@ -1069769,36 +1060260,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Larendani",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Pliny",
-   "nuclei_found": [
-    "دن",
-    "ذن",
-    "رن",
-    "ضن",
-    "لن",
-    "ند",
-    "نذ",
-    "نض"
-   ]
-  },
-  {
-   "branch": "Gebbanitae",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Pliny",
-   "nuclei_found": [
-    "بن",
-    "جب",
-    "غب",
-    "قب",
-    "كب",
-    "نت",
-    "نث",
-    "نط"
-   ]
-  },
-  {
    "branch": "addictor",
    "read": "",
    "gloss": "one who condemns",
@@ -1069820,58 +1060281,6 @@
     "قط",
     "كت",
     "كث"
-   ]
-  },
-  {
-   "branch": "Autaridae",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "رد",
-    "رذ",
-    "رض",
-    "طر",
-    "طل",
-    "لد",
-    "لذ"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "ترد",
-    "ترض",
-    "تلد",
-    "ثرد",
-    "طرد"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Chatramotitae",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Pliny",
-   "nuclei_found": [
-    "تر",
-    "تل",
-    "ثر",
-    "ثل",
-    "حت",
-    "حث",
-    "حط",
-    "خت",
-    "خط",
-    "رم",
-    "طر",
-    "طل",
-    "كت",
-    "كث",
-    "لم",
-    "مت",
-    "مث",
-    "مط"
    ]
   },
   {
@@ -1072328,48 +1062737,6 @@
    "root_fan_from": "بنزعِ سابقةِ `in-`"
   },
   {
-   "branch": "Cibilitani",
-   "read": "",
-   "gloss": "A tribe of Lusitania mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "تن",
-    "ثن",
-    "جب",
-    "رت",
-    "رث",
-    "رط",
-    "طن",
-    "قب",
-    "كب",
-    "لت",
-    "لط"
-   ]
-  },
-  {
-   "branch": "Bregmeni",
-   "read": "",
-   "gloss": "A tribe of Mysia mentioned by Pliny",
-   "nuclei_found": [
-    "بر",
-    "بل",
-    "جم",
-    "رج",
-    "رغ",
-    "رق",
-    "رك",
-    "غم",
-    "قم",
-    "كم",
-    "لج",
-    "لغ",
-    "لق",
-    "لك",
-    "من"
-   ]
-  },
-  {
    "branch": "Phegus",
    "read": "",
    "gloss": "One of the demes of Attica",
@@ -1074338,21 +1064705,6 @@
    ]
   },
   {
-   "branch": "Mossynoeci",
-   "read": "",
-   "gloss": "A tribe of the coast of Pontus",
-   "nuclei_found": [
-    "صي",
-    "مز",
-    "مس",
-    "مش",
-    "مص",
-    "نج",
-    "نق",
-    "نك"
-   ]
-  },
-  {
    "branch": "Candei",
    "read": "",
    "gloss": "A tribe dwelling on the shores of the Red Sea, mentioned by Pliny",
@@ -1074661,25 +1065013,6 @@
    ]
   },
   {
-   "branch": "Hemmatae",
-   "read": "",
-   "gloss": "A tribe of Arabia mentioned by Pliny",
-   "nuclei_found": [
-    "حم",
-    "خم",
-    "غم",
-    "مت",
-    "مث",
-    "مط",
-    "هم"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "خمط"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "Abalus",
    "read": "",
    "gloss": "an island off the coast of Germany, upon which amber was washed by the waves",
@@ -1074704,17 +1065037,6 @@
     "بلش"
    ],
    "root_fan_from": "كما وردَت"
-  },
-  {
-   "branch": "Sammei",
-   "read": "",
-   "gloss": "A tribe of Arabia, mentioned by Pliny",
-   "nuclei_found": [
-    "زم",
-    "سم",
-    "شم",
-    "صم"
-   ]
   },
   {
    "branch": "mastigophorus",
@@ -1079504,22 +1069826,6 @@
    "root_fan_from": "بنزعِ سابقةِ `in-`"
   },
   {
-   "branch": "Daesitiates",
-   "read": "",
-   "gloss": "A tribe of Illyricum, whose town was in modern Bosnia",
-   "nuclei_found": [
-    "تس",
-    "دس",
-    "زت",
-    "ست",
-    "سط",
-    "شت",
-    "شط",
-    "صت",
-    "ضز"
-   ]
-  },
-  {
    "branch": "discredo",
    "read": "",
    "gloss": "to be incredulous towards, to not believe (in)",
@@ -1083270,28 +1073576,6 @@
    ]
   },
   {
-   "branch": "Ancalites",
-   "read": "",
-   "gloss": "A tribe of Britain mentioned by Caesar in his commentaries",
-   "nuclei_found": [
-    "تس",
-    "جر",
-    "جل",
-    "رت",
-    "رث",
-    "رط",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لت",
-    "لط",
-    "نج",
-    "نق",
-    "نك"
-   ]
-  },
-  {
    "branch": "Indutiomarus",
    "read": "",
    "gloss": "one of the leading chiefs of the Treviri",
@@ -1083312,41 +1073596,6 @@
     "نذ",
     "نض"
    ]
-  },
-  {
-   "branch": "Grudii",
-   "read": "",
-   "gloss": "A tribe of northern Gallia, enumerated by Caesar as dependent on the Nervii",
-   "nuclei_found": [
-    "جر",
-    "جل",
-    "رد",
-    "رذ",
-    "رض",
-    "غر",
-    "غل",
-    "قر",
-    "قل",
-    "كر",
-    "كل",
-    "لد",
-    "لذ"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "جرد",
-    "جرذ",
-    "جلد",
-    "جلذ",
-    "غرد",
-    "غرض",
-    "قرد",
-    "قرض",
-    "قلد",
-    "كرد",
-    "كلد"
-   ],
-   "root_fan_from": "كما وردَت"
   },
   {
    "branch": "Geidumni",
@@ -1111705,25 +1101954,6 @@
    "root_fan_from": "كما وردَت"
   },
   {
-   "branch": "Veneti",
-   "read": "",
-   "gloss": "Veneti (a tribe of northeastern Italy and Slovenia in antiquity)",
-   "nuclei_found": [
-    "بن",
-    "فن",
-    "نت",
-    "نث",
-    "نط",
-    "ون"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "بنت",
-    "بنط"
-   ],
-   "root_fan_from": "كما وردَت"
-  },
-  {
    "branch": "vicecomes",
    "read": "",
    "gloss": "sheriff؛ viscount",
@@ -1113358,35 +1103588,6 @@
     "لبر"
    ],
    "root_fan_from": "بإسقاطِ سينِ الإعرابِ الطرفيّةِ -s (رفعُ القوطيّةِ ونحوُها)"
-  },
-  {
-   "branch": "Abessalom",
-   "read": "",
-   "gloss": "Absalom (biblical character)",
-   "nuclei_found": [
-    "بز",
-    "بس",
-    "بش",
-    "بص",
-    "رم",
-    "زر",
-    "زل",
-    "سر",
-    "سل",
-    "شر",
-    "صر",
-    "صل",
-    "لم"
-   ],
-   "root_first": true,
-   "root_fan": [
-    "زلم",
-    "سرم",
-    "سلم",
-    "شرم",
-    "صرم"
-   ],
-   "root_fan_from": "بإسقاطِ صدرِ `ab-`"
   },
   {
    "branch": "quadrimus",
@@ -1130090,25 +1120291,6 @@
     "فطم"
    ],
    "root_fan_from": "بإسقاطِ صدرِ `pro-`"
-  },
-  {
-   "branch": "Ambivariti",
-   "read": "",
-   "gloss": "A tribe of Gallia Belgica, which dwelt on the Rhine",
-   "nuclei_found": [
-    "بب",
-    "بر",
-    "بل",
-    "بو",
-    "رت",
-    "رث",
-    "رط",
-    "فر",
-    "فل",
-    "لت",
-    "لط",
-    "ول"
-   ]
   },
   {
    "branch": "hastula",
@@ -1159100,17 +1149282,6 @@
     "لم",
     "مر",
     "مل"
-   ]
-  },
-  {
-   "branch": "Esubii",
-   "read": "",
-   "gloss": "A tribe of Gaul mentioned by Caesar",
-   "nuclei_found": [
-    "زب",
-    "سب",
-    "شب",
-    "صب"
    ]
   },
   {
@@ -1192538,40 +1182709,6 @@
     "ضف",
     "في",
     "لن"
-   ]
-  },
-  {
-   "branch": "Cadurcus",
-   "read": "",
-   "gloss": "Cadurcan: A member of Cadurcī (a tribe of Aquitania), mentioned by Caesar",
-   "nuclei_found": [
-    "جد",
-    "جذ",
-    "جز",
-    "جس",
-    "در",
-    "دل",
-    "ذر",
-    "ذل",
-    "رج",
-    "رق",
-    "رك",
-    "ضر",
-    "ضل",
-    "قد",
-    "قذ",
-    "قس",
-    "قش",
-    "قص",
-    "قض",
-    "كد",
-    "كذ",
-    "كز",
-    "كس",
-    "كش",
-    "لج",
-    "لق",
-    "لك"
    ]
   },
   {
