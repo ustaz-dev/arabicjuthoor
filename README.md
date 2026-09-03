@@ -86,7 +86,7 @@ The empirical evidence for every structural claim in the framework: the full nuc
 
 ### Computational side of the project
 
-The companion `Juthoor-Linguistic-Genealogy/` workspace is the computational side of the same project: a Python pipeline that implements the LV0–LV3 architecture, runs the eleven-native-mode trilateral reading, and produces the audits behind the claims on this page. Statistical and cross-linguistic expansion is continuously running there.
+The companion `Juthoor-Linguistic-Genealogy/` repository was the original computational side of the project: a Python pipeline that implemented the LV0–LV3 architecture, ran the eleven-native-mode trilateral reading, and produced the audits behind the claims on this page. That repository was frozen on 19 May 2026 and its final work committed to GitHub on 3 September 2026. This repository has been the single official project since then and keeps the audit record in `05-audits/` and `computational/`.
 
 ## Reading order
 
